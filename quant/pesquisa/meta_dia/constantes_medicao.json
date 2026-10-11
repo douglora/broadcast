@@ -1,0 +1,13 @@
+{
+ "fonte": "quant/pesquisa/META_DIA.md (motor quant/pesquisa/meta_dia.py, relatorio)",
+ "data": "2026-10-11",
+ "periodo": "10/2021 a 12/2025 (descoberta 805 + validacao 250 pregoes; 2026 nao aberto)",
+ "regra": "reversao do dado americano (opera)",
+ "pregoes": 1055,
+ "teto_testado_rs": 100.0,
+ "media_por_pregao_sem_teto_rs": 33.7,
+ "media_por_pregao_com_teto_rs": 1.8,
+ "pior_dia_sem_teto_rs": -815.0,
+ "pior_dia_com_teto_rs": -815.0,
+ "negocios": 400
+}

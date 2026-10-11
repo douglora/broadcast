@@ -183,15 +183,28 @@ def spread_do_livro(livro, codigo):
     return v[0][0] - c[0][0]
 
 
-def regras_niveis(p, climax_opera=QUEM_OPERA["climax_opera"], niveis_opera=QUEM_OPERA["niveis_opera"], dado_opera=QUEM_OPERA["dado_opera"]):
+def quem_opera(climax_opera, niveis_opera, dado_opera):
+    """(operam, so_medidas): os nomes das leituras, do que o modo_robo.json diz de verdade."""
+    todas = (("a reversão do dado americano", dado_opera), ("o climax de volume", climax_opera), ("o teste de nível", niveis_opera))
+    return [n for n, v in todas if v], [n for n, v in todas if not v]
+
+
+def quem_opera_em_texto(climax_opera, niveis_opera, dado_opera):
+    operam, medidas = quem_opera(climax_opera, niveis_opera, dado_opera)
+    if not operam:
+        return "Nenhuma leitura opera: o robô só mede e guarda os sinais."
+    return "Opera " + " e ".join(operam) + ("; " + " e ".join(medidas) + (" é só medido." if len(medidas) == 1 else " são só medidos.") if medidas else ".")
+
+
+def regras_niveis(p, climax_opera=QUEM_OPERA["climax_opera"], niveis_opera=QUEM_OPERA["niveis_opera"], dado_opera=QUEM_OPERA["dado_opera"],
+                  objetivo_rs=None, medicao=None):
     c, x = NIVEIS, CLIMAX
     parar = [f"com {ef._rs(p.perda_maxima_dia_rs)} de perda no dia", f"depois de {p.perdas_para_parar} negócios perdedores",
              f"quando devolve {p.devolucao_para:.0%} do lucro que o dia já teve"]
     if p.meta_dia_rs:
-        parar.append(f"ou ao ganhar {ef._rs(p.meta_dia_rs)} (a sua meta de 1%)")
-    quem = ("Opera o climax de volume; o teste de nível é só medido." if climax_opera and not niveis_opera else
-            "Opera o climax de volume e o teste de nível." if climax_opera else
-            "Opera o teste de nível; o climax de volume é só medido." if niveis_opera else "As duas leituras estão só sendo medidas: o robô não entra.")
+        parar.append("ou " + ef.teto_em_texto(p))
+    quem = quem_opera_em_texto(climax_opera, niveis_opera, dado_opera)
+    objetivo = ef.objetivo_em_texto(p, objetivo_rs, medicao)
     d = DADO
     proprio = [
         "SETUP PRÓPRIO, REVERSÃO DO DADO AMERICANO" + ("" if dado_opera else " (só medido)") + ": às 9h30 (10h30 quando os Estados Unidos estão "
@@ -204,10 +217,10 @@ def regras_niveis(p, climax_opera=QUEM_OPERA["climax_opera"], niveis_opera=QUEM_
         "média é +R$ 40 e ainda pode ser acaso. Reação menor que 3 pontos não devolve (nos anos de busca, perde): por isso o gatilho não "
         "desce mais. Dá 1 entrada a cada 2 a 4 pregões; cada negócio ganha ou perde perto de R$ 400 e o stop cheio custa R$ 815.",
     ]
-    return proprio + [
+    return ([objetivo] if objetivo else []) + proprio + [
         "Só mini-dólar, em simulação. " + quem + " Revisão de 08/10/2026: em 888 pregões o teste de nível perdeu o custo da operação "
         "(cerca de R$ 23 por negócio) e nenhum filtro testado mudou isso. O climax de volume ganhou em 2026, mas perdeu nos cinco anos "
-        "anteriores: nenhuma das regras testadas ganha depois de custo. O robô opera para gerar operações e medir com a fita.",
+        "anteriores: nem o teste de nível nem o climax ganham depois de custo. A única regra que passou na busca de 5 anos é a do dado.",
         f"CLIMAX DE VOLUME (tape reading na barra): um minuto anda {ef._n(x['tranco'])} pontos ou mais, do abre ao fecha, com volume de "
         f"{ef._n(x['vol'])} vezes ou mais a média dos {x['janela']} minutos anteriores. É gente demais correndo para o mesmo lado: o preço "
         "tende a devolver parte do tranco. O robô entra CONTRA o tranco, na abertura do minuto seguinte.",
@@ -234,13 +247,14 @@ def regras_niveis(p, climax_opera=QUEM_OPERA["climax_opera"], niveis_opera=QUEM_
     ]
 
 
-def regras_phicube(p):
+def regras_phicube(p, objetivo_rs=None, medicao=None):
     c = PHICUBE
     parar = [f"com {ef._rs(p.perda_maxima_dia_rs)} de perda no dia", f"depois de {p.perdas_para_parar} negócios perdedores",
              f"quando devolve {p.devolucao_para:.0%} do lucro que o dia já teve"]
     if p.meta_dia_rs:
-        parar.append(f"ou ao ganhar {ef._rs(p.meta_dia_rs)} (a sua meta de 1%)")
-    return [
+        parar.append("ou " + ef.teto_em_texto(p))
+    objetivo = ef.objetivo_em_texto(p, objetivo_rs, medicao)
+    return ([objetivo] if objetivo else []) + [
         "Setup PhiCube, de Bo Williams, só no mini-dólar. As três médias do método (34, 144 e 610 períodos) são calculadas por uma "
         "reconstrução de terceiros: ele não publica a fórmula.",
         f"FILTRO, no gráfico de {c['maior']} minutos: o Prisma soma 1 se a média de 34 sobe, 2 se a de 144 sobe e 4 se a de 610 sobe. "
@@ -276,6 +290,11 @@ class RoboFluxo:
         self.grafico = setup in SETUPS_DE_GRAFICO
         self.arq_serie = ARQ_SERIE if setup == "fluxo" else os.path.join(DIR_DT, f"serie_{setup}.json")
         self.p = ef.ParamFluxo()
+        self.risco = chave.risco()                              # limites de risco, TETO e OBJETIVO do dia do Douglas (risco_robo.json)
+        if self.risco.get("meta_dia_rs"):
+            self.p.meta_dia_rs = float(self.risco["meta_dia_rs"])   # o TETO (zera e para); sem a chave vale o padrao do codigo (ParamFluxo)
+        self.objetivo_rs = self.risco.get("objetivo_dia_rs")        # o OBJETIVO: so placar; sem a chave nao ha objetivo
+        self.medicao_meta = ef.carregar_medicao()               # numeros da medicao de 11/10/2026 para o texto do objetivo (None sem o arquivo)
         self.janela = chave.janela(self.hoje)                   # a janela do dia e do Douglas (pode ter excecao por data)
         self.p.hora_ultima_entrada, self.p.hora_zerar = self.janela["ultima_entrada"], self.janela["zerar"]
         self.pasta = os.path.join(DIR_DT, self.hoje)
@@ -344,7 +363,6 @@ class RoboFluxo:
         self.leitura_climax, self.climax_pendente = {}, {}
         self.outras = self._outras_regras_do_dia()               # o dia e um so: perdas e resultado das regras que ja rodaram hoje
         self.acumulado_antes = self._acumulado_antes()
-        self.risco = chave.risco()
         if self.trava is None:                                   # limite da semana ou de queda ja estourado em pregoes anteriores:
             self.trava = self._limite_longo(0.0)                 # nasce parado, antes do primeiro ciclo
 
@@ -679,7 +697,7 @@ class RoboFluxo:
                 self.anotar("trava", f"Queda máxima atingida ({_reais(queda)} desde o pico; o limite é {_reais(-self.risco['queda_maxima_rs'])}). "
                             "Tudo zerado; o robô só volta quando você mandar religar.", agora)
             else:
-                self.anotar("trava", ("Perda máxima do dia atingida" if self.trava == "perda" else "Meta do dia atingida")
+                self.anotar("trava", ("Perda máxima do dia atingida" if self.trava == "perda" else "Teto de ganho do dia atingido")
                         + f": {_reais(total_dia)}"
                         + (f" (com {_reais(self.outras['resultado'])} das regras de mais cedo)" if self.outras["resultado"] else "")
                         + ". Tudo zerado; o robô não entra mais hoje.", agora)
@@ -1050,7 +1068,8 @@ class RoboFluxo:
             texto = (f"Robô DESLIGADO por você às {chave.hora_de(self.chave)}. Nada aberto, nenhuma entrada. "
                      f"Resultado do dia: {_reais(total)}. Para religar: ícone \"Robô - ligar\" na Mesa, ou peça \"ligue o robô\".")
         elif self.trava == "meta":
-            fase, texto = "meta_batida", f"Meta do dia atingida ({_reais(total)}). Parado até amanhã."
+            fase, texto = "meta_batida", (f"Teto de ganho do dia atingido ({_reais(total)}; o robô para ao ganhar {_reais(p.meta_dia_rs)}). "
+                                          "Parado até amanhã.")
         elif self.trava == "devolucao":
             fase = "meta_batida"
             texto = (f"O dia chegou a {_reais(self.pico_realizado)} e devolveu {p.devolucao_para:.0%} do lucro "
@@ -1074,8 +1093,7 @@ class RoboFluxo:
             fase, texto = "encerrando", f"Sem novas entradas desde as {p.hora_ultima_entrada}; {abertas} posição(ões) aberta(s) até as {p.hora_zerar}."
         else:
             fase = "operando"
-            texto = ((("Lendo a fita (climax de volume) e medindo os níveis: " if self.climax_opera and not self.niveis_opera
-                       else "Lendo o gráfico (níveis): ") if self.setup == "niveis" else "Lendo o gráfico (PhiCube): " if self.grafico else "Lendo o fluxo: ")
+            texto = ((self._o_que_faz() if self.setup == "niveis" else "Lendo o gráfico (PhiCube): " if self.grafico else "Lendo o fluxo: ")
                      + f"{abertas} posição(ões) aberta(s), {len(self.operacoes)} saída(s) e parcial(is), resultado do dia {_reais(total)}.")
         if self.setup == "niveis":
             avisos = ["Simulação: nenhuma ordem é enviada à corretora.",
@@ -1083,9 +1101,7 @@ class RoboFluxo:
                       "filtro testado (de onde o preço veio, hora, tipo de nível, lado das médias, insistir no mesmo lado) mudou isso. "
                       + ("Por isso ele deixou de operar e passou a ser só medido, com a leitura da fita em cada sinal."
                          if not self.niveis_opera else "Ele segue operando por escolha sua."),
-                      "Quem opera é o climax de volume: tranco de 1 minuto de 5 pontos ou mais com volume de 3 vezes a média ou mais, "
-                      "entrada contra o tranco. ATENÇÃO: a calibração de 08/10/2026 NÃO se confirmou. " + _historico_do_climax(p.lote_base)
-                      + " Está no ar para gerar operações e medir com a leitura da fita, não porque ganha. Não é para dinheiro real.",
+                      self._aviso_quem_opera(p),
                       "Custos da B3 estimados e 1 tick contra nas ordens a mercado; imposto de day trade (20%) não descontado."]
         elif self.setup == "phicube":
             avisos = ["Simulação: nenhuma ordem é enviada à corretora.",
@@ -1209,6 +1225,7 @@ class RoboFluxo:
         perdas = [o for o in self.operacoes if o["resultado"] <= 0]
         serie = self._serie(total, len(finais), pregao)
         acumulado = sum(float(x.get("resultado") or 0.0) for x in serie)
+        bloco_meta = self._bloco_meta(total + self.outras["resultado"], serie)
         return {
             "v": 2, "tipo": "daytrade", "regra": self.setup, "gerado": agora.isoformat(timespec="seconds"),
             "vivo": {"ligado": True, "fase": fase, "fase_texto": texto, "desde": self.desde,
@@ -1218,16 +1235,17 @@ class RoboFluxo:
                                "fita_ok": fita_ok}},
             "modo": "paper", "origem": "real", "capital": p.capital, "pronto": True, "bloqueios": [], "avisos": avisos,
             "regras": ({"nome": "Setup PhiCube (Bo Williams): Prisma em 15 minutos, virada em 4 minutos (versão 1)",
-                        "itens": regras_phicube(p), "parametros": dict(asdict(p), lote_hoje=lote, phicube=PHICUBE)}
+                        "itens": regras_phicube(p, self.objetivo_rs, self.medicao_meta), "parametros": dict(asdict(p), lote_hoje=lote, phicube=PHICUBE)}
                        if self.setup == "phicube" else
                        {"nome": "Setup de níveis: teste de nível com reação, como nas lives da sala do PhiCube (versão 0)",
-                        "itens": regras_niveis(p, self.climax_opera, self.niveis_opera, self.dado_opera),
+                        "itens": regras_niveis(p, self.climax_opera, self.niveis_opera, self.dado_opera, self.objetivo_rs, self.medicao_meta),
                         "parametros": dict(asdict(p), lote_hoje=lote, niveis=NIVEIS, climax=CLIMAX, dado=DADO, dado_opera=self.dado_opera,
                                            climax_opera=self.climax_opera,
                                            niveis_opera=self.niveis_opera, outras_regras_hoje=self.outras)}
                        if self.setup == "niveis" else
                        {"nome": "Leitura de fluxo como Alison Correia ensina: defesa, nível perdido, rompimento e exaustão (versão 1.2)",
-                        "itens": ef.regras_em_texto(p), "parametros": dict(asdict(p), lote_hoje=lote)}),
+                        "itens": ef.regras_em_texto(p, self.objetivo_rs, self.medicao_meta), "parametros": dict(asdict(p), lote_hoje=lote)}),
+            **({"meta": bloco_meta} if bloco_meta else {}),
             "risco": dict(zip(("semana", "queda"), self._semana_e_queda(total)), limite_semana=-self.risco["perda_maxima_semana_rs"],
                           limite_queda=-self.risco["queda_maxima_rs"], queda_zerada_em=self.risco.get("queda_zerada_em")),
             "resultado": {"dia": total, "dia_pct": total / p.capital if p.capital else None, "realizado": realizado,
@@ -1236,7 +1254,7 @@ class RoboFluxo:
                           "taxa_acerto": (len(ganhos) / len(self.operacoes)) if self.operacoes else None,
                           "maior_ganho": max((o["resultado"] for o in ganhos), default=None),
                           "maior_perda": min((o["resultado"] for o in perdas), default=None),
-                          "meta": p.meta_dia_rs, "perda_maxima": -p.perda_maxima_dia_rs,
+                          "meta": p.meta_dia_rs, "teto": p.meta_dia_rs, "objetivo": self.objetivo_rs, "perda_maxima": -p.perda_maxima_dia_rs,
                           "pico": self.pico, "vale": self.vale, "pico_realizado": self.pico_realizado,
                           "trava": {"tres_perdas": "perda", "devolucao": "meta"}.get(self.trava, self.trava),
                           "motivo_trava": self.trava,
@@ -1253,6 +1271,78 @@ class RoboFluxo:
             "fontes": {"cotacoes": "motor do Autopilot Terminal (MetaTrader)",
                        "fluxo": "AutopilotFeed 1.3: negócios por segundo com o lado agressor e livro de ofertas",
                        "regra": "quant/daytrade/estrategia_fluxo.py", "metodo": "quant/docs/metodo-alison-correia.md"}}
+
+    def _o_que_faz(self):
+        """"Operando o dado americano, medindo o climax de volume e os níveis: ", do que o modo_robo.json diz de verdade."""
+        operam, medidas = quem_opera(self.climax_opera, self.niveis_opera, self.dado_opera)
+        nomes = {"a reversão do dado americano": "o dado americano", "o climax de volume": "o climax de volume", "o teste de nível": "os níveis"}
+        frase = ("Operando " + " e ".join(nomes[x] for x in operam)) if operam else "Nenhuma leitura operando"
+        return frase + (", medindo " + " e ".join(nomes[x] for x in medidas) if medidas else "") + ": "
+
+    def _aviso_quem_opera(self, p):
+        """O aviso de "quem opera" da tela do setup de níveis, montado de climax_opera / niveis_opera / dado_opera (modo_robo.json)."""
+        partes = []
+        if self.dado_opera:
+            d = DADO
+            partes.append(f"Quem opera é a reversão da reação ao dado americano: se nos {d['minutos']} primeiros minutos depois do dado o mini-dólar andar mais "
+                          f"de {ef._n(d['limiar'])} pontos, entra contra; stop de {ef._n(d['stop'])} pontos, sai em {d['tempo_max']} minutos. É a única regra que "
+                          "passou na busca de 5 anos e é uma vantagem fraca, que ainda pode ser acaso.")
+        if self.climax_opera:
+            x = CLIMAX
+            partes.append(f"Também opera o climax de volume: tranco de 1 minuto de {ef._n(x['tranco'])} pontos ou mais com volume de {ef._n(x['vol'])} vezes a média ou mais, "
+                          "entrada contra o tranco. ATENÇÃO: a calibração de 08/10/2026 NÃO se confirmou. " + _historico_do_climax(p.lote_base))
+        else:
+            partes.append("O climax de volume está só medido: guarda o sinal e não entra (no histórico perdeu depois de custo).")
+        if not self.dado_opera and not self.climax_opera and not self.niveis_opera:
+            partes.append("Nenhuma leitura opera: o robô só mede e guarda os sinais.")
+        partes.append("Não é para dinheiro real.")
+        return " ".join(partes)
+
+    def _bloco_meta(self, hoje_rs, serie):
+        """O OBJETIVO do dia e o placar dele, para a tela (contrato em quant/docs/tela_meta_dolar.md). O objetivo (`objetivo_dia_rs` em
+        quant/saida/risco_robo.json) e so placar: o robo NAO zera nem para ao bater. O TETO (`meta_dia_rs`) e o ganho que zera e para o dia.
+        Os dois sao liquidos de custos. `hoje_rs` e o dia do jeito que a trava o enxerga (realizado + aberto, liquido, mais as regras que ja
+        rodaram hoje). O placar conta os pregoes da serie, o de hoje inclusive; "operado" = teve pelo menos uma saida.
+        Sem objetivo_dia_rs nao ha objetivo: devolve None e a tela nao mostra o bloco. Nomes antigos (meta_rs, meta_pct, pct_da_meta, atingida)
+        ficam como apelido do OBJETIVO."""
+        p = self.p
+        obj = float(self.objetivo_rs) if self.objetivo_rs else None
+        if not obj:
+            return None
+        teto = float(p.meta_dia_rs) if p.meta_dia_rs else None
+        dias = [x for x in serie if isinstance(x, dict)]
+        operados = [x for x in dias if int(x.get("operacoes") or 0) > 0]
+
+        def bateu(x):                                   # pregoes antigos nao guardavam o objetivo: vale o de hoje contra o resultado do dia
+            if x.get("objetivo_batido") is not None:
+                return bool(x["objetivo_batido"])
+            return float(x.get("resultado") or 0.0) >= obj
+        res = [float(x.get("resultado") or 0.0) for x in dias]
+        res_op = [float(x.get("resultado") or 0.0) for x in operados]
+        teto_batido = self.trava == "meta"
+        atingido = hoje_rs >= obj
+        n_bateram = sum(1 for x in dias if bateu(x))
+        placar = {
+            "pregoes": len(dias), "pregoes_operados": len(operados), "pregoes_bateram_o_objetivo": n_bateram,
+            "pregoes_tocaram_o_objetivo": sum(1 for x in dias if x.get("objetivo_tocado") or bateu(x)),
+            "pct_operados_que_bateram": (sum(1 for x in operados if bateu(x)) / len(operados)) if operados else None,
+            "media_por_pregao": (sum(res) / len(res)) if res else None,
+            "media_por_pregao_operado": (sum(res_op) / len(res_op)) if res_op else None,
+            "acumulado_rs": round(sum(res), 2), "melhor_dia_rs": max(res) if res else None, "pior_dia_rs": min(res) if res else None,
+            "desde": dias[0].get("data") if dias else None}
+        placar["pregoes_bateram_a_meta"] = n_bateram                      # apelido antigo
+        return {
+            "objetivo_rs": obj, "objetivo_pct": (obj / p.capital) if p.capital else None, "capital": p.capital, "liquido": True,
+            "hoje_rs": round(float(hoje_rs), 2), "hoje_pct": (hoje_rs / p.capital) if p.capital else None,
+            "pct_do_objetivo": hoje_rs / obj, "faltam_rs": max(obj - hoje_rs, 0.0),
+            "atingido": bool(atingido), "tocou_hoje": bool(atingido or max(self.pico, hoje_rs) >= obj),
+            "robo_para_ao_bater_o_objetivo": bool(teto and teto <= obj),
+            "teto_rs": teto, "teto_pct": (teto / p.capital) if teto and p.capital else None, "teto_batido": bool(teto_batido),
+            "parado_ate_amanha": bool(teto_batido),
+            "fonte": "quant/saida/risco_robo.json", "fonte_teto": "quant/saida/risco_robo.json" if self.risco.get("meta_dia_rs") else "padrao do codigo (ParamFluxo)",
+            "placar": placar,
+            "meta_rs": obj, "meta_pct": (obj / p.capital) if p.capital else None, "pct_da_meta": hoje_rs / obj, "atingida": bool(atingido),   # apelidos antigos
+        }
 
     def sinais_hoje(self, agora):
         """Para a tela: todo sinal guardado hoje (operando ou so medindo) e o que cada um deu ou esta dando, pelas barras de 1 minuto.
@@ -1285,7 +1375,11 @@ class RoboFluxo:
         serie = ler_json(self.arq_serie, padrao=None)
         serie = [x for x in (serie if isinstance(serie, list) else []) if isinstance(x, dict) and x.get("data") != self.hoje]
         if pregao and (self.ultima_fita or self.operacoes or self.grafico):
-            serie.append({"data": self.hoje, "resultado": round(float(total), 2), "operacoes": int(n_ops)})
+            serie.append({"data": self.hoje, "resultado": round(float(total), 2), "operacoes": int(n_ops),
+                          "meta_rs": self.p.meta_dia_rs, "meta_batida": self.trava == "meta",           # o TETO (zera e para)
+                          "objetivo_rs": self.objetivo_rs,
+                          "objetivo_batido": (float(total) >= float(self.objetivo_rs)) if self.objetivo_rs else None,
+                          "objetivo_tocado": (max(self.pico, float(total)) >= float(self.objetivo_rs)) if self.objetivo_rs else None})
             try:
                 garantir_dir(DIR_DT)
                 gravar_atomico(self.arq_serie, json.dumps(serie, ensure_ascii=False))

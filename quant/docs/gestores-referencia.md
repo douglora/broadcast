@@ -4,6 +4,8 @@ Estudo de 10/10/2026 para o Douglas. Simons (Renaissance), Octavio Magalhaes (Gu
 
 Nomes, conferidos nas fontes: o gestor da Guepardo e Octavio Ferreira de Magalhaes (site da gestora; a imprensa ora escreve Octavio, ora com acento agudo no a). Nao e Guimaraes. O da Alpha Key e Christian Caradonna Keleti (Formulario de Referencia da gestora), com Ch, nao Cr. Detalhe que muda a leitura: no Formulario de Referencia de 31/12/2020, a decisao final de investimento da Alpha Key e do Diretor de Gestao, Bruno Rignel; Keleti e CEO e co-gestor, e o comite de investimento (que se reune todo dia) e quem leva as ideias. O estilo Alpha Key e produto de comite, nao so de uma pessoa.
 
+Adendo de 11/10/2026: as secoes 5A, 5B e 5C acrescentam Marco Freire e Ruy Alves (Kinea) como referencias de pensamento macro e as regras G19 a G27 (livro de swing de ate 10 pregoes, alocacao entre classes, opcoes e mini-dolar). A lente para a visao semanal da mesa esta em `quant/saida/mesa/lente_kinea.md` e `lente_kinea.json`.
+
 Rotulos usados: [CONF] confirmado em fonte que abri; [SEC] so em fonte secundaria (resumo de terceiros, blog, agregador); [NC] nao confirmei; [MINHA] inferencia ou desenho meu, nao e o que o gestor disse. Os numeros entre colchetes tipo [S12] remetem a lista de fontes no fim.
 
 ---
@@ -22,6 +24,8 @@ Rotulos usados: [CONF] confirmado em fonte que abri; [SEC] so em fonte secundari
 3. **Atrito:** IR de 15% a cada venda com ganho (sem isencao em opcoes; day trade 20%), 10% de retencao em dividendos acima de R$ 50 mil por mes por pagadora desde 2026, e aluguel de acao caro justamente nos papeis de balanco fragil. A rotacao de Octavio (chegou no preco justo, vende) e o short de fragilidade de Keleti custam mais aqui; viram regra com barreira de troca (G6) e teste de short ANTES do custo (G10).
 
 **Regras testaveis (so os titulos):** G1 razao edge/custo / G2 aposentadoria de sinal por decaimento / G3 largura lenta (tendencia em dolar, juros e indice) / G4 TIR real mecanica (a regua) / G5 entrada por premio sobre a NTN-B / G6 saida no preco justo e barreira de troca / G7 concentracao e tamanho / G8 juro cai, small e iliquidas andam / G9 fluxo estrangeiro nas grandes / G10 short de fragilidade, testado antes do aluguel / G11 tamanho por fragilidade e por unanimidade / G12 filtro de qualidade do dono / G13 circulo de competencia (universo congelado) / G14 put vendida como forma de entrar / G15 caixa como residuo / G16 benchmark nulo por modulo e prova viva / G17 tamanho por risco / G18 quando diminuir e aumentar a mao.
+
+**Adendo Kinea (11/10/2026), regras novas:** G19 cartao de cenario com placar de calibracao / G20 termometro global-Brasil / G21 assimetria minima no swing / G22 opcao comprada em evento binario / G23 escada de dose de risco / G24 hedge por correlacao em estresse / G25 corte e reentrada do swing / G26 premio de risco da bolsa / G27 mini-dolar de 10 pregoes no sentido do carrego. Atencao: o terminal mostra a NTN-B 2035 a 6,81% em 09/10/2026 (era 8,31% em 23/07); o "IPCA+8%" desta pagina esta defasado (ver 5A.4).
 
 **A esfera de cada um (o ponto que o Douglas pediu para distinguir):**
 
@@ -45,7 +49,7 @@ Lido de `quant/estudos/LEIA.md`, `quant/README.md`, `quant/pesquisa/METODO.md` e
 3. **Regras de preco puro** (NEFIN desde 2001, DI x pre desde 2002 pelo arquivo TS da B3, PTAX, cotacoes desde 2005) podem usar 2002-2015 sem tocar no lacre da carteira. Aviso honesto: quem desenha a regra (eu, o Douglas) ja conhece a historia de 2008 e de 2013; isso contamina de leve qualquer teste nessa janela. So a prova viva limpa de verdade.
 4. **Opcoes** seguem o corredor do proprio modulo: descoberta ate 2019, validacao 2020-2023, prova 2024-2026 uma vez. **Day trade:** descoberta 10/2021-12/2024, validacao 2025, prova 2026 (ja aberta para quem passou).
 5. **Todo teste entra no `livro_tentativas.jsonl` ANTES de rodar** (muda o N do Sharpe deflacionado). Criterio de aprovacao do METODO.md: Sharpe deflacionado maior que 0,95, Sharpe anual maior que 1, no minimo 100 operacoes fora da amostra, custo real.
-6. **Dado que falta no projeto** para estas regras: serie historica de NTN-B (taxa) e de IPCA esperado (Focus). Fonte provavel: Tesouro Transparente (CSV de preco e taxa do Tesouro Direto; um guia de terceiros diz que a serie diaria comeca em 2005, [NC] se a oficial comeca antes) ou IMA-B da Anbima. Alternativa de partida: curva DI x pre (ja ha rota, memoria `b3-curva-di-historica`) menos IPCA esperado do BCB (Expectativas, API Olinda). Nao testei nenhuma dessas rotas.
+6. **Dado que falta no projeto** para estas regras: serie historica de NTN-B (taxa) e de IPCA esperado (Focus). Fonte provavel: Tesouro Transparente (CSV de preco e taxa do Tesouro Direto; um guia de terceiros diz que a serie diaria comeca em 2005, [NC] se a oficial comeca antes) ou IMA-B da Anbima. Alternativa de partida: curva DI x pre (ja ha rota, memoria `b3-curva-di-historica`) menos IPCA esperado do BCB (Expectativas, API Olinda). Nao testei nenhuma dessas rotas. Atualizacao de 11/10/2026: o terminal ja tem a taxa diaria dos Tesouro IPCA+ desde 27/09/2021 (`hist/TD-IPCA-*.json`, Tesouro Transparente) e a curva indicativa da Anbima (`rf.json`, real); no projeto `quant` a serie continua faltando.
 
 ---
 
@@ -344,11 +348,145 @@ Outra frente esta construindo a tela de TIR real implicita no terminal. Este e o
 
 ---
 
+## 5A. Kinea: Marco Freire e Ruy Alves como referencia de pensamento macro (adendo de 11/10/2026)
+
+Pedido do Douglas em 11/10/2026: colocar Marco Freire e Ruy Alves, da Kinea, como referencias de pensamento macro. Contexto dele: o modulo de acoes virou um livro de swing curto (posicao de no maximo 10 pregoes) e ele quer que o robo "pense como gestor de fundo, macro primeiro". Este adendo usa como fonte primaria o que a propria Kinea publica (cartas do gestor, apresentacoes das lives, Kinea Insights, site), lido pelo `mesa.py kinea` e pelo branch `dados`; entrevistas e materias entram como contexto rotulado. A lente para a mesa esta em `quant/saida/mesa/lente_kinea.md` e `lente_kinea.json`.
+
+Rotulos como no resto do estudo: [CONF] confirmado em fonte que abri; [SEC] fonte secundaria; [NC] nao confirmei; [MINHA] desenho meu.
+
+### 5A.1 Quem sao (fonte da propria Kinea, consultada em 11/10/2026)
+
+| | Marco Aurelio Freire | Ruy Alves |
+|---|---|---|
+| Cargo no site | Partner and Liquid Funds Manager (pagina em ingles); socio e gestor dos fundos liquidos (pagina "Quem somos"). A apresentacao da Kinea de 24/09/2026 o apresenta como CIO e lider da gestao [S61] [S62] [S63] | Partner and Senior Manager of Open-Ended Funds; socio e co-gestor dos fundos multimercados desde fevereiro de 2020 [S61] [S62] |
+| O que gere | Entrou em janeiro de 2015 como gestor de Hedge Fund Macro; o site nao detalha as carteiras de hoje [NC] | Estrategias de acoes e commodities dentro dos multimercados |
+| Antes | CIO de renda fixa local e multiestrategia na Franklin Templeton Brasil (2008 a 2014); renda fixa e multimercados desde 2004 | Mais de duas decadas; estrategias globais de acoes na ADAM Capital, na JGP e na Aviva Investors (Londres) |
+| Formacao | Economia (graduacao e mestrado), PUC-Rio | Mestrado em financas na London Business School; MBA no IBMEC; administracao na UERJ |
+
+**Voz das cartas.** As cartas do gestor e as apresentacoes das lives mensais nao sao assinadas por pessoa [CONF]. Chronos, Atlas e Apolo usam o mesmo texto de carta e diferem na dose: objetivo de superar o CDI com volatilidade de 3% a 5% ao ano (Chronos), 5% a 7% (Atlas) e 1% a 2% (Apolo) [CONF, carta de setembro de 2026, p. 22 e fichas]. Por isso quase tudo abaixo e "pensamento da Kinea Multimercados"; atribuir cada frase a Marco ou a Ruy nao e possivel com o que li [NC]. Atribuir por classe de ativo (acoes e commodities a Ruy) e inferencia minha [MINHA].
+
+**Como a casa decide.** Estrutura multigestor sobre um produto-base; Marco destacou a meritocracia de ideias como pilar (InfoMoney, 17/04/2022) [SEC] [S66]. O site diz que cada especialista tem autonomia e responsabilidade sobre as proprias decisoes e que a decisao e coletiva [CONF] [S62]; fala em alocacoes dinamicas baseadas em analises macro e microeconomicas, em posicoes direcionais e relativas, e em uma Pontuacao de Risco Kinea de mercado, credito e liquidez [CONF] [S64]. O site nao descreve como os cenarios sao construidos, nem orcamento de risco, limites ou stop [NC]. A apresentacao da Kinea de setembro/2026 diz que decisoes de investimento de alguns fundos passam por comite com o CIO dos multimercados [CONF] [S63].
+
+### 5A.2 O que cada um diz em publico (contexto rotulado; nao e fonte de numero)
+
+**Marco Freire**
+- Seu Dinheiro, 23/08/2021: num cenario de crescimento fraco e incerteza politica, preferia empresas cujo crescimento depende menos da economia; a frase que uso dele: "um carro resistente e com bom piloto". O cambio era o ativo mais descontado; com Selic de 5,25% e juro de 10 anos perto de 11%, a bolsa precisaria render perto de 15% para valer o risco [SEC] [S67].
+- InfoMoney, 17/04/2022: riscos de nova guerra fria, desglobalizacao, fiscal e transicao verde; neutro em acoes globais pela incerteza sobre o Fed; o retorno do primeiro trimestre veio de commodities, juros americanos e visao construtiva para o Brasil [SEC] [S66].
+- Brazil Journal, 28/04/2023 (na epoca identificado como CIO): descreveu a ofensiva dos bancos centrais contra a inflacao como uma pesca predatoria que expoe primeiro os ativos frageis (SVB, Americanas); a Kinea estava vendida em bolsa americana e em moedas de paises endividados, e comprada em petroleo, moedas fortes e renda fixa brasileira [SEC] [S68].
+- Seu Dinheiro, 25/02/2026 (BTG Summit): IA nao e bolha nem o fim dos empregos, e o grande tema do ano; atribui o enfraquecimento do dolar ao crescimento europeu e ao gasto fiscal alemao, nao a perda de credibilidade institucional dos EUA [SEC] [S69].
+
+**Ruy Alves**
+- Seu Dinheiro, 19/05/2023 (Market Makers #45): o mundo com um resfriado e a China com pneumonia, por causa da transicao para o consumo; nao acredita em previsao de longo prazo; energia mais cara e demografia desfavoravel [SEC] [S70].
+- InfoMoney, 01/09/2023: o Brasil nao tem ativos suficientes para uma carteira eficiente, entao olhar para fora; tecnologia, bancos e energia nos EUA; China concentrada na BYD [SEC] [S71].
+- Brazil Journal, 17/12/2024: carta de 2025 pelas quatro estacoes do ano (EUA primavera e verao, Brasil outono, China e Europa inverno); cerca de 80% do risco da carteira fora do Brasil; vendido em moedas europeias e no renminbi; a bolsa depende mais de crescimento do que de juro baixo [SEC] [S72].
+- InfoMoney, 12/12/2025 (Stock Pickers, Onde Investir 2026): "Nunca investi em acoes de emergentes sem investir na moeda local"; o EWZ da exposicao ao Brasil a custo razoavel; ambiente favoravel a opcionalidades em bolsa e moeda; a rejeicao dos candidatos e a chave da eleicao [SEC] [S73].
+
+Nao li o que os dois disseram nas lives do canal: as legendas do YouTube nao foram coletadas (0 de 40 videos com legenda, coleta de 06/10/2026) [NC].
+
+### 5A.3 Resultado, com ressalva (carta de setembro de 2026, p. 22 [S50])
+
+| Chronos Geral Sub I | 2022 | 2023 | 2024 | 2025 | 2026 ate set | Desde 08/06/2015 |
+|---|---|---|---|---|---|---|
+| Fundo | 13,67% | 12,40% | 9,80% | 14,03% | 8,52% | 230,81% |
+| CDI | 12,37% | 13,05% | 10,87% | 14,31% | 10,51% | 190,83% |
+| % do CDI | 110,51% | 95,05% | 90,12% | 98,01% | 81,03% | 120,95% |
+
+Rentabilidade divulgada pela Kinea, nao liquida de impostos. Em 12 meses ate setembro/2026 o Chronos rendeu 12,89% contra 14,48% do CDI; por estrategia: moedas +1,81 pp, juros -1,30 pp, acoes +0,60 pp, commodities +0,12 pp, despesas -2,64 pp. O Atlas (dose maior) esta em 8,03% no ano (76,41% do CDI) e o Apolo (dose menor) em 9,82% (93,39%). **Leitura honesta:** desde 2023 a Kinea Multimercados nao entregou mais que o CDI depois das despesas; pensar como ela nao e promessa de alfa.
+
+### 5A.4 Atualizacao que muda numeros do resto do estudo
+
+O terminal (`hist/TD-IPCA-2035.json`, Tesouro Transparente, taxa de venda) mostra o Tesouro IPCA+ 2035 a 8,31% em 23/07/2026, 7,82% em 03/09, 7,67% em 02/10 e 6,81% em 09/10/2026; a curva indicativa da Anbima de 09/10 traz a NTN-B 2035 a 6,69% (`rf.json`, real). Os "IPCA+8%" de Octavio (julho) e da Kinea (setembro) estao defasados em cerca de 1,2 a 1,3 ponto. A semana de 02/10 a 09/10 inclui o 1o turno (04/10); nao afirmo causa. Consequencia para G4 e G5: o premio exigido tem de ser medido contra a NTN-B do dia, nunca contra "8%". Consequencia para G1 a G18: a serie historica de NTN-B que eu dava como faltando no projeto existe no terminal (desde 27/09/2021); no projeto `quant` continua faltando.
+
+## 5B. Os 12 principios macro da Kinea e o que viram no robo
+
+Fonte: material da propria Kinea (cartas do gestor Chronos, Atlas e Apolo; apresentacoes das lives; Kinea Insights), voz institucional. Nenhum numero sem fonte e data. "No robo" diz a regra (G19 em diante, secao 5C) e o modulo, ou "pergunta da mesa" quando nao da para automatizar. Lembrete: o horizonte do swing e de 10 pregoes; a Kinea pensa em semanas e meses.
+
+| # | Principio (parafraseado) | Fonte e data | No robo |
+|---|---|---|---|
+| 1 | Comeca por cenario com probabilidade e com preco de referencia por cenario. O cenario-base e o de maior massa de probabilidade; os de cauda viram hedge | Carta de set/2026 [S50]: base de PIB 1,0%, inflacao 4,7% e Selic 12,5% ao fim de 2027, com ajuste fiscal anunciado de cerca de 1,5% do PIB; carta de mar/2026 [S52]: tres cenarios para o Estreito de Ormuz com petroleo, Treasury de 10 anos e juro do Fed por cenario | G19 (o robo so mede os gatilhos); a narrativa e pergunta da mesa |
+| 2 | Do global para o Brasil: Fed, curva americana e petroleo mandam no juro global; o Brasil entra pela curva de juros e pelo cambio | Carta de set/2026: Treasury de 10 anos acima de 5%, pressao nas curvas longas de todos os paises; live de 03/09/2026 [S55]: petroleo como chave dos juros globais, eleicao navegada principalmente via juros | G20 (termometro), swing e mini-dolar |
+| 3 | A aritmetica fiscal manda no juro real brasileiro: primario perto de 2% do PIB para estabilizar a divida; indicador proprio coloca o Brasil como o emergente mais vulneravel | Carta de set/2026, p. 4; live de 03/09/2026, p. 24 a 26 | Pergunta da mesa (variavel lenta); entra em G26 so como premio |
+| 4 | A eleicao se le por rejeicao, abstencao e agregador proprio de pesquisas, nao so por intencao de voto; para o mercado ela termina quando o vencedor disser com numeros como fecha a conta | Carta de ago/2026 [S51] e de set/2026; Ruy, InfoMoney, 12/12/2025 [S73] | Pergunta da mesa; o evento entra em G22 e G23 so no tamanho |
+| 5 | Assimetria antes de direcao: nao basta estar barato, e preciso carrego, crescimento visivel, protecao ou catalisador; em vez de escolher lado, simplificar, proteger e manter convexidade; o que se administra e a exposicao, nao a previsao | Cartas de mai/2026 [S53], jan/2026 [S54] e set/2026 | G21 (swing) |
+| 6 | Opcao comprada para ter convexidade com perda conhecida (calls de EWZ no pre-eleicao; opcoes de Nasdaq e, depois, de S&P 500) | Cartas de jan, mai, ago e set/2026; Ruy, 12/12/2025 (opcionalidades) | G22 (opcoes) |
+| 7 | Mesmo portfolio em doses diferentes (volatilidade alvo de 1% a 2%, 3% a 5% e 5% a 7% ao ano); reduzir o numero de posicoes e hedgear antes do evento; exposicao neutra ao pais ate o fim do periodo eleitoral | Carta de set/2026 (fichas dos fundos); jan/2026; ago/2026 | G23 (escada de dose) |
+| 8 | Hedge entre classes: petroleo e commodities como protecao parcial dos juros aplicados e da bolsa comprada | Cartas de abr, ago e set/2026 | G24 |
+| 9 | Valor relativo entre mercados e vertices (aplicado onde a ociosidade vai impor juro menor; comprado em dolar e won contra euro; vender produtores de petroleo contra petroleo longo); em emergente, a moeda faz parte da tese | Carta de set/2026; carta de jun/2026; Ruy, 12/12/2025 | Em acoes da B3 nao ha o que automatizar; a parte de carrego do real vira G27; o resto e pergunta da mesa |
+| 10 | Quando corta: a especulacao descola o preco dos fundamentos; a volatilidade sobe; a causa que sustentava o premio diminui (Ormuz); depois de valorizacao acumulada; reentra quando o posicionamento ficou limpo | Cartas de jan e fev/2026 (saida de ouro e metais), ago/2026 (volta ao ouro com o mercado mais limpo), set/2026 (reducao de petroleo, won, iene e financeiras) | G25 |
+| 11 | Posicionamento e fluxo como termometro: fluxo estrangeiro na B3 em 12 meses, posicionamento especulativo em commodities, fluxo de ETFs de ouro | Live de 03/09/2026, p. 50; cartas de ago e set/2026 | G9 (atualizada); G20 |
+| 12 | O premio de risco da bolsa e o earnings yield menos o juro real: o desconto esta nos juros, nao nas acoes (11,8% menos 7,8% = 4,0%, contra media de 5,0%, em 03/09/2026). Montar carteira que funcione nos dois desfechos, uma cesta que paga para esperar (utilities com TIR real implicita de 12,2% contra NTN-B 2045 a 7,5%) e outra que captura a queda de juros (bancos, varejo) | Live de 03/09/2026, p. 51; Kinea Insights de 16/09/2026 [S56] | G26 e G4/G5 |
+
+**Nota para a tela de TIR do terminal.** O Kinea Insights de 16/09/2026 (p. 12 e 13) usa a expressao "TIR real implicita" para o setor de utilities (amostra fixa de 13 empresas; fontes citadas: Kinea, FactSet, Anbima e consenso sell-side) e a compara com a NTN-B 2045; e mostra tambem o crescimento anual composto do LPA mais o yield de dividendos de 2026 a 2028. E o unico lugar publico que achei em que uma casa nomeia a TIR assim. O metodo alem disso nao esta no documento [NC]. O Insights nao e assinado por pessoa.
+
+## 5C. Regras G19 a G27 para o robo (livro de swing de ate 10 pregoes, alocacao, opcoes e mini-dolar)
+
+Todas tem parametros fixos antes do teste e entram no `livro_tentativas.jsonl` ANTES de rodar.
+
+**O livro de swing ja existe e tem pre-registro e corredor proprios** (lido em 11/10/2026 em `quant/swing/` e `quant/saida/pesquisa_swing/PRE_REGISTRO.md`): 39 variantes de 2 a 10 pregoes (familias de pullback, reversao, rompimento, deriva pos-resultado, forca relativa, gap e virada de mes), sobreposicoes S0 (nenhuma), S1 (metade de cima do ranking multifatorial) e S2 (Ibovespa acima da media de 200 pregoes), risco de 0,5% do capital por operacao, teto de 12% por nome e no maximo 10 posicoes. Corredor: descoberta 2010 a 2017, validacao 2018 a 2021, prova 2022 a 2026 aberta UMA vez e so para finalistas. **Em 11/10/2026 as 39 variantes rodaram em descoberta e validacao e nenhuma passou; a prova continua fechada** (`resultados_prova.json`); a melhor, deriva pos-resultado com metade de cima do ranking (D1.S1), teve excesso de 0,6 pp ao ano sobre o CDI e Sharpe de 0,28 na descoberta. Consequencias para G19 a G27: (1) G20, G23, G24 e G25 sao sobreposicoes de RISCO sobre uma base que ainda nao tem retorno liquido provado; so podem ser medidas em descoberta e validacao (2010 a 2021) e em prova viva, e NAO abrem a prova de 2022 a 2026; (2) cada uma entra no livro de tentativas como escopo novo, com o proprio N, sem mexer no N das 39; (3) sem finalista, elas rodam so medidas. A visao da mesa entra hoje no swing por `quant/mesa.py` (veto com conviccao -2, peso por conviccao e por inclinacao do setor, visao vencida nao muda nada, sem teste historico); G19 propoe um campo novo para ela. As series macro do terminal tem cerca de 1.250 pregoes (desde 08/10/2021); para ir mais longe, FRED, Yahoo e a curva DI da B3 (desde 2002). Limiares abaixo sao meus [MINHA], com sensibilidade de mais ou menos 20%.
+
+**G19. Cartao de cenario com gatilhos e placar de calibracao.** Modulo: alocacao entre classes e porta do swing.
+- Mede: toda segunda a mesa registra, antes da semana, um cenario-base e dois alternativos (probabilidades somando 100%) e, para cada um, tres gatilhos mensuraveis com dado do terminal (exemplo: Treasury de 10 anos acima de X; NTN-B 2035 abaixo de Y; Brent acima de Z), com verificacao em 5 e 10 pregoes.
+- Regra: o robo le o cartao; so gatilho que disparou muda dose (G23) ou alerta (G20). A probabilidade escrita nao entra em conta de tamanho. Campo novo sugerido [MINHA] em `quant/saida/mesa/visao_mesa.json`: `cartao_cenario` com `base`, `alternativos`, `probabilidades` e `gatilhos` (variavel do terminal, limiar, data de verificacao); o `quant/mesa.py` nao o consome, so registra; o placar e um script a parte.
+- Teste: placar de Brier de cada cenario e taxa de acerto do cenario-base por semana, contra um cartao ingenuo (probabilidades iguais) e contra a persistencia (repetir o cenario da semana anterior); no minimo 26 semanas.
+- Prior: e medicao, nao retorno. Diz se a visao da mesa tem informacao.
+
+**G20. Termometro global-Brasil.** Modulo: swing e mini-dolar.
+- Mede: 7 variaveis diarias, cada uma 0 ou 1: Treasury de 10 anos sobe 25 pontos-base ou mais em 10 pregoes; dolar amplo (DXY) sobe 2% ou mais; Brent sobe 10% ou mais; VIX acima de 20 ou sobe 30%; spread de high yield dos EUA sobe 40 pontos-base; DI de 2 anos sobe 30 pontos-base; dolar/real sobe 3% ou mais (todas em 10 pregoes). Estado: 0 a 1 calmo; 2 a 3 alerta; 4 ou mais estresse.
+- Regra: calmo, dose cheia; alerta, dose de 50% e sem novas entradas em setor sensivel a juro; estresse, sem novas entradas e saida parcial.
+- Teste: como sobreposicao S3 (termometro em calmo) ao lado de S0, S1 e S2 do pre-registro do swing, sobre as variantes de melhor descoberta (D1, F2, A2), em descoberta e validacao (2010 a 2021), nunca na prova de 2022 a 2026; como o terminal so tem 5 anos de macro, as 7 variaveis precisam ser reconstruidas de FRED, Yahoo e curva DI ate 2010. Aprova se reduz a queda maxima em 20% ou mais, perdendo menos de 10% do retorno liquido, e nao piora em 2 dos 3 periodos; Sharpe deflacionado contra o numero de tentativas; no maximo 3 limiares livres.
+- Prior: baixa a moderada. Reduz risco; pode cortar a recuperacao em V (a leitura de regime lenta da carteira falhou em 2020; aqui as variaveis sao rapidas, mas a regra continua defasada em alguns dias).
+
+**G21. Assimetria minima na entrada do swing.** Modulo: swing.
+- Regra: entra so se (alvo menos entrada) dividido por (entrada menos stop) for 2 ou mais, com stop de 1,5 x ATR de 14 pregoes e alvo igual ao maior entre 3 x ATR e a maxima de 20 pregoes; sem catalisador datado dentro da janela (resultado, Copom, dado), exige 3 ou mais.
+- Mede: o resultado em multiplos de risco por faixa da razao ex-ante. No pre-registro, as razoes alvo/stop das 39 variantes ja vao de 1,25 (B1) a 2,0 (C2, D1 e D2); a G21 nao pede variante nova: e a analise por faixa sobre as 39 ja rodadas (`resultados_dv.json`), mais a separacao das familias com catalisador datado (resultado e gap).
+- Teste: a faixa alta ganha da baixa com t de 2 ou mais na descoberta e mesmo sinal na validacao.
+- Prior: baixa. A razao ex-ante e mecanicamente ligada ao stop; o que a Kinea chama de assimetria inclui carrego e catalisador, que em 10 pregoes sao quase zero.
+
+**G22. Opcao comprada como expressao de evento binario.** Modulo: opcoes (e swing).
+- Regra: quando o cartao (G19) marcar um evento binario com data (exemplo: 2o turno de 25/10/2026; Copom; payroll) e o termometro nao estiver em estresse, trocar ate 50% do beta direcional do swing por call ou put de BOVA11 com vencimento logo depois do evento; perda maxima igual ao premio, premio total de ate 0,5% do capital por evento; nada de venda de premio.
+- Teste: eleicoes de 2014, 2018 e 2022 e os Copom e payroll recorrentes no corredor do modulo de opcoes, contra manter o beta direto; custo real.
+- Prior: baixa, amostra minima (3 eleicoes). O piso e o que o projeto ja mediu: capital protegido, +1,0 pp acima do CDI, Sharpe deflacionado 0,47.
+
+**G23. Escada de dose de risco em tres degraus.** Modulo: swing e mini-dolar.
+- Regra: tres degraus fixos de volatilidade alvo do livro, na razao 1 para 2,5 para 4 (os pontos medios das fichas de Apolo, Chronos e Atlas, de 1,5%, 4% e 6% ao ano, em escala do modulo). Degrau medio no estado calmo sem evento; baixo em alerta ou a ate 5 pregoes de evento binario; zero em estresse; o degrau alto so existe depois de 36 meses de prova viva (G16). Nunca acima do teto de perda (G17).
+- Teste: simulacao do swing com a escada contra dose fixa; Sharpe e queda maxima; sem otimizar os degraus. A escada estende a mao do dia de `config_carteira.exposicao_acoes(hoje)`, que continua sendo o teto de exposicao do swing; nao a substitui.
+- Prior: moderada como controle de risco; extensao de G17 e G18.
+
+**G24. Hedge por correlacao medida em estresse.** Modulo: swing e alocacao.
+- Regra: so hedgeia com o termometro em alerta ou estresse. Candidatos: venda de mini-indice (WIN), compra de mini-dolar (WDO), ouro (OURO11) e uma cesta de petroleiras (a B3 nao tem Brent; PETR4 e PRIO3 como substituto imperfeito). Escolhe o de menor correlacao e menor custo medido nos 20% piores dias do livro nos ultimos 250 pregoes; tamanho igual ao beta do livro x exposicao x 50%.
+- Teste: reducao da queda maxima menos custo e base, contra nao hedgear; 2021 a 2026 no terminal.
+- Prior: baixa a moderada. A protecao com mini-indice nao agregou no teste longo da carteira (principal 10,8% ao ano contra 14,2% sem protecao); o petroleo da Kinea nao tem instrumento direto aqui.
+
+**G25. Corte parcial por esticamento, corte por causa invalidada, reentrada apos limpeza.** Modulo: swing.
+- Regra: (i) sai de 50% quando o ganho passa de 2 x ATR em ate 5 pregoes e o estado do termometro piorou; (ii) sai de tudo quando o gatilho do cartao que justificou a entrada foi invalidado; (iii) tempo maximo de 10 pregoes (ja existe); (iv) so reentra no mesmo ativo ou setor depois de volatilidade realizada de 5 pregoes abaixo da mediana de 60 e volume abaixo da media de 20 (proxy de posicionamento limpo).
+- Teste: resultado em multiplos de risco e queda maxima contra sair so por stop e tempo; 3 parametros fixos.
+- Prior: baixa. Saida e onde mais se sobreajusta.
+
+**G26. Premio de risco da bolsa como teto de exposicao e calibrador do premio de G5.** Modulo: alocacao entre classes (nucleo).
+- Mede: ERP = earnings yield agregado do universo (trailing, PIT; ou consenso de 12 meses do terminal) menos a NTN-B 2035 do dia. A Kinea mediu 11,8% menos 7,8% = 4,0% em 03/09/2026, contra media historica de 5,0%; com a NTN-B a 6,81% (09/10) tem de ser recalculado.
+- Regra: ERP abaixo do percentil 30 de 5 anos (10, quando houver serie longa): teto de 50% na exposicao do nucleo (G15); acima do 70: sem teto; o premio minimo de G5 passa a ser o maior entre 4 pp e o ERP mediano do periodo.
+- Teste: prova viva (variavel lenta; a janela lacrada impede o teste historico); descritivo: o ERP explica o retorno de 12 meses?
+- Prior: baixa; e calibrador, nao gatilho de swing.
+
+**G27. Mini-dolar de 10 pregoes no sentido do carrego, so em regime calmo.** Modulo: mini-dolar.
+- Regra: com o termometro em calmo e a DI de 2 anos sem subir, vendido em mini-dolar (comprado em real) por ate 10 pregoes, com stop de 1,5 x ATR; zerado em alerta; comprado em dolar so em estresse E com rompimento da maxima de 20 pregoes.
+- Racional: a Kinea declarou posicao comprada em real e aplicada em juros em marco/2026 [S52] e carrego via real em dez/2025 [SEC]. Conta minha: com CDI de 13,65% ao ano o carrego de 10 pregoes e perto de 0,5%; o dolar/real no terminal (`hist/USDBRL.json`, 11/10/2021 a 10/10/2026) teve volatilidade de 14,0% ao ano (12,0% nos ultimos 250 pregoes) e desvio-padrao de 2,37% em 10 pregoes (1,74% nos ultimos 250). O carrego e uma fracao pequena do risco.
+- Teste: dolar futuro continuo diario (2005 em diante, se conseguir) e barras de 1 minuto desde 2021; custo real; corredor do day trade ou do modulo de opcoes, a definir.
+- Prior: baixa; carry trade tem cauda (queda do real em estresse), e em 5 anos de pesquisa no mini-dolar so a reversao do dado americano passou, e fraca.
+
+**G9 (atualizada em 11/10/2026).** O terminal tem o saldo diario do estrangeiro por tipo de investidor (`b3.json`, bloco `fluxo`, serie diaria desde 28/08/2026 direto da B3 e, antes disso, saldos arredondados do historico do boletim; profundidade nao verificada). A regra continua a mesma (fluxo de 4 semanas inclina para as maiores); o teste passa a depender de acumular historia: 12 meses de serie no minimo.
+
+**O que NAO da para automatizar e vira pergunta da visao semanal da mesa:** a narrativa do cenario e as probabilidades (principio 1); a aritmetica fiscal e a leitura de rejeicao, abstencao e calendario politico depois de 25/10 (principios 3 e 4); o valor relativo entre mercados globais (principio 9); o caminho da receita de IA (carta de set/2026, p. 14 e 15: receita dos laboratorios de cerca de US$ 150 bi anualizados para cerca de US$ 450 bi no fim de 2027).
+
+**O que nao confirmei sobre a Kinea:** o que Marco e Ruy disseram nas lives (legendas nao coletadas); a apresentacao da live de 02/10/2026; a data exata de publicacao da carta de setembro de 2026 (esta na pasta de outubro do site); a atribuicao de cada frase das cartas a um dos dois; a probabilidade de cada cenario da carta de marco/2026 (o texto extraido mostra 40%, 20% e 40% sem dizer qual e qual); como a Kinea monta a TIR real implicita alem do que aparece nos graficos do Insights; o orcamento de risco e os limites dos multimercados (o site nao os descreve).
+
+---
+
 ## 6. O que muda na bolsa brasileira (com numero e fonte)
 
 | Fator | Numero e fonte | Efeito nas regras |
 |---|---|---|
-| Juro real alto e CDI como concorrente | Selic 13,75% em 16/09/2026, 5o corte seguido; Selic efetiva 13,65%; juro real ex-ante de uns 8,4% a 9,1% (conta minha com IPCA do Focus de 4,9% em 2026 e 4,3% em 2027, [S45], fontes agregadoras; conferir no BCB). Octavio compara com NTN-B a IPCA+8% [S10] | Todo preco se mede contra NTN-B (G4 a G6); caixa e posicao (G15); venda de premio precisa pagar mais que o CDI (nao pagou: G14) |
+| Juro real alto e CDI como concorrente | Selic 13,75% em 16/09/2026, 5o corte seguido; Selic efetiva 13,65%; juro real ex-ante de uns 8,4% a 9,1% (conta minha com IPCA do Focus de 4,9% em 2026 e 4,3% em 2027, [S45], fontes agregadoras; conferir no BCB). Octavio compara com NTN-B a IPCA+8% [S10]. Atualizacao de 11/10/2026: pelo terminal o Tesouro IPCA+ 2035 foi de 8,31% (23/07) para 7,67% (02/10) e 6,81% (09/10); Selic meta de 13,75% e efetiva de 13,65% confirmadas em `macro.json` (BCB SGS 432 e 1178) | Todo preco se mede contra NTN-B (G4 a G6); caixa e posicao (G15); venda de premio precisa pagar mais que o CDI (nao pagou: G14) |
 | Poucas empresas liquidas | Ibovespa com 76 papeis, 10 maiores = 54% (S&P 500: 39%); ~200 investaveis (Keleti) [S43] [S28] | Concentracao permitida; diversificacao real exige limites por setor |
 | Commodities e bancos | Previa de set-dez/2026: Vale 11,665%, Itau PN 8,809%, Petrobras PN 7,485%; commodities acima de 24% (Vale + Petrobras), financeiro 18,7% [S43] [S44] | Stock picking muitas vezes e aposta em 3 nomes; limites por setor (25%) e por nome (G7) |
 | Estatais e risco politico | Octavio: a NTN-B carrega risco de governo [S9]; outro gestor (Encore) diz que cerca de 65% de Lula ja esta no preco [S10]. Axia (ex-Eletrobras), Petrobras e bancos com peso grande no indice | Eventos binarios sao visao da mesa; risco politico entra no tamanho (G18) |
@@ -386,6 +524,15 @@ Detalhes de cada uma nas secoes 2 a 5. A coluna Teste resume a janela e o criter
 | G16 | Cada modulo contra benchmark de mesmo beta; 36 meses de prova viva | NEFIN, indice | Alfa e t |
 | G17 | Tamanho por risco: alvo de vol por modulo, meio Kelly como teto | risco_robo.json | Simulacao de limites |
 | G18 | Gatilhos para diminuir e aumentar a mao (secao 9) | todos | Prova viva; nao otimizar |
+| G19 | Cartao semanal de cenario com gatilhos e placar de Brier | terminal (macro, rf, hist) | 26 semanas contra cartao ingenuo e persistencia |
+| G20 | Termometro de 7 variaveis (calmo, alerta, estresse) para dose e entradas do swing | hist, macro, rf | Corredor proprio do swing; queda maxima -20% com perda de retorno < 10% |
+| G21 | Assimetria minima 2 para 1 (3 para 1 sem catalisador) na entrada do swing | ATR, calendario | Retorno em multiplos de risco por faixa da razao |
+| G22 | Call ou put de BOVA11 no evento binario, premio ate 0,5% do capital | cadeia de opcoes B3 | Corredor das opcoes (3 eleicoes) |
+| G23 | Escada de 3 degraus de dose (1 : 2,5 : 4) amarrada ao termometro | G20, risco_robo.json | Simulacao contra dose fixa |
+| G24 | Hedge escolhido por correlacao nos 20% piores dias do livro | WIN, WDO, OURO11, petroleiras | Queda maxima evitada menos custo |
+| G25 | Corte parcial por esticamento, por causa invalidada e reentrada apos limpeza | historico do swing | R medio e queda maxima contra stop e tempo |
+| G26 | ERP (earnings yield menos NTN-B) como teto do nucleo e calibrador do premio de G5 | multiplos.json, consenso, NTN-B | Prova viva |
+| G27 | Mini-dolar de 10 pregoes no sentido do carrego so em regime calmo | WDO, PTAX, termometro | Dolar futuro diario e barras de 1 minuto |
 
 **G16, G17 e G18 em detalhe:**
 
@@ -407,6 +554,7 @@ Detalhes de cada uma nas secoes 2 a 5. A coluna Teste resume a janela e o criter
 - **Contrarian de verdade** (comprar quando todos rejeitam): depende de saber quem esta do outro lado.
 - **Short especifico** (qual empresa, quando): fora do alcance do robo.
 - **Ativismo e conselho**: nao existe com R$ 100 mil.
+- **Kinea (adendo de 11/10/2026):** a narrativa do cenario e as probabilidades; a aritmetica fiscal e a leitura de rejeicao, abstencao e calendario politico depois de 25/10; o valor relativo entre mercados globais; o caminho da receita de IA (secao 5C).
 
 ---
 
@@ -461,6 +609,7 @@ Ou seja, um limite de 10% e incompativel com um nucleo de acoes relevante. Decis
 - **Alpha Key:** o instrumento do hedge (acao alugada, futuro ou opcao); numero de acoes e exposicao liquida alvo; stops e dimensionamento alem do Formulario de 2020 e do artigo de jan/2025.
 - **Simons:** custo de transacao e limpeza de dado; numero de sinais; horizonte medio (so relatos de leitor); alavancagem e Kelly (so fonte secundaria). Li resumos do livro de Zuckerman, nao o livro. A palestra de Simons no MIT (2010) nao tem transcricao acessivel.
 - **Buffett:** resultado final das puts de indice (so ate 2017, por relato); fonte primaria das puts de Coca-Cola de 1993 (abri so relatos).
+- **Kinea (adendo de 11/10/2026):** o que Marco Freire e Ruy Alves disseram nas lives (legendas do YouTube nao coletadas); a apresentacao da live de 02/10/2026; a data exata da carta de setembro de 2026; a atribuicao de cada frase das cartas a um dos dois; a probabilidade de cada cenario da carta de marco/2026; o metodo da TIR real implicita da Kinea; orcamento de risco e limites dos multimercados (secao 5C).
 - **Retorno do Medallion:** o numero bruto e contestado (secao 2.2).
 - **Selic de 13,75% e juro real ex-ante:** fontes agregadoras; conferir no BCB. NTN-B de hoje: nao busquei a taxa.
 - **Fluxo estrangeiro diario da B3 e segmento de listagem no projeto:** nao verifiquei se ha dado.
@@ -530,5 +679,33 @@ Dados do projeto: `quant/estudos/LEIA.md`, `quant/README.md`, `quant/pesquisa/ME
 - [S46] Lei 15.270/2025: https://jornalcontabil.com.br/noticia/lei-15-270-define-regras-para-taxacao-de-lucros-e-dividendos-a-partir-de-2026/ e https://renovainvest.com.br/blog/tributacao-de-dividendos/
 - [S47] IR em acoes e opcoes: https://www.nordinvestimentos.com.br/blog/imposto-renda-venda-de-acoes/
 - [S48] Aluguel: InfoMoney, 09/02/2026 (monitor de short selling da XP): https://www.infomoney.com.br/?p=3205540 / Forbes Brasil, 2022: https://forbes.com.br/forbes-money/2022/03/aluguel-de-acoes-entenda-o-que-e-e-como-funciona/ / Renova Invest: https://renovainvest.com.br/?p=14130
+
+**Kinea, Marco Freire e Ruy Alves (adendo de 11/10/2026)**
+- [S50] Kinea, Carta do Gestor Chronos Geral Sub I, setembro/2026 (publicada em outubro/2026): https://www.kinea.com.br/wp-content/uploads/2026/10/Carta-do-Gestor-Chronos-Geral-Sub-I-2026-09.pdf
+- [S51] Kinea, Carta do Gestor Chronos Geral Sub I, agosto/2026: https://www.kinea.com.br/wp-content/uploads/2026/09/Carta-do-Gestor-Chronos-Geral-Sub-I-2026-08.pdf
+- [S52] Kinea, Carta do Gestor Atlas II Itau Sub III, marco/2026: https://www.kinea.com.br/wp-content/uploads/2026/04/Carta-do-Gestor-Atlas-II-Itau-Sub-III-2026-03.pdf
+- [S53] Kinea, Carta do Gestor Atlas II Itau Sub III, maio/2026: https://www.kinea.com.br/wp-content/uploads/2026/06/Carta-do-Gestor-Atlas-II-Itau-Sub-III-2026-05.pdf
+- [S54] Kinea, Carta do Gestor Atlas II Itau Sub III, janeiro/2026: https://www.kinea.com.br/wp-content/uploads/2026/02/Carta-do-Gestor-Atlas-II-Itau-Sub-III-2026-01.pdf
+- [S55] Kinea, Apresentacao da Live Mensal, 03/09/2026: https://www.kinea.com.br/wp-content/uploads/2026/09/Apresentacao-Live-Mensal.pdf
+- [S56] Kinea Insights, "O Guia do Mochileiro das Galaxias", 16/09/2026: https://www.kinea.com.br/wp-content/uploads/2026/09/Kinea-Insights_O-Guia-do-Mochileiro-das-Galaxias.pdf
+- [S57] Kinea, Apresentacao da Live Mensal, 05/03/2026: https://www.kinea.com.br/wp-content/uploads/2026/03/Apresentacao-Live-Mensal.pdf
+- [S58] InfoMoney, 03/12/2025 (apresentacao do evento com Ruy Alves; sem falas dele): https://www.infomoney.com.br/onde-investir/ruy-alves-da-kinea-desvenda-os-caminhos-do-ouro-e-do-dolar-no-onde-investir-2026/
+- [S59] Kinea, Cartas do Gestor Atlas e Apolo, setembro/2026 (mesmo texto da Chronos; fichas de volatilidade): https://www.kinea.com.br/wp-content/uploads/2026/10/Carta-do-Gestor-Atlas-Geral-Sub-I-2026-09.pdf e https://www.kinea.com.br/wp-content/uploads/2026/10/Carta-do-Gestor-Apolo-Geral-Sub-I-2026-09.pdf
+- [S60] Kinea, Cartas do Gestor Atlas II Itau Sub III de fevereiro, abril e junho/2026: https://www.kinea.com.br/wp-content/uploads/2026/03/Carta-do-Gestor-Atlas-II-Itau-Sub-III-2026-02.pdf , https://www.kinea.com.br/wp-content/uploads/2026/05/Carta-do-Gestor-Atlas-II-Itau-Sub-III-2026-04.pdf e https://www.kinea.com.br/wp-content/uploads/2026/07/Carta-do-Gestor-Atlas-II-Itau-Sub-III-2026-06.pdf
+- [S61] Kinea, equipe (ingles), consultado em 11/10/2026: https://www.kinea.com.br/en/our-team/
+- [S62] Kinea, Quem somos, consultado em 11/10/2026: https://www.kinea.com.br/somos/
+- [S63] Kinea, Apresentacao Live Prev PJ, 24/09/2026 (p. 14 e 17: CIO e lider da gestao): https://www.kinea.com.br/wp-content/uploads/2026/09/Live-Prev-PJ.pdf
+- [S64] Kinea, Multimercados, consultado em 11/10/2026: https://www.kinea.com.br/multimercados/
+- [S65] Kinea, lista de documentos e cartas coletada pelo `mesa.py kinea` (branch `dados`, pasta kinea/, coleta de 06/10/2026)
+- [S66] InfoMoney, 17/04/2022 (Marco Freire e Ruy Alves): https://www.infomoney.com.br/onde-investir/comprados-em-ativos-reais-e-mercados-emergentes-conheca-a-estrategia-e-as-principais-apostas-da-kinea/
+- [S67] Seu Dinheiro, 23/08/2021 (Marco Freire): https://www.seudinheiro.com/2021/bolsa-dolar/bolsa-dolar-juros-kinea-entrevista-marco-freire/
+- [S68] Brazil Journal, 28/04/2023 (Marco Freire): https://braziljournal.com/play/kinea-juro-e-pesca-com-dinamite-e-novas-baleias-devem-boiar/
+- [S69] Seu Dinheiro, 25/02/2026 (Marco Freire, BTG Summit): https://www.seudinheiro.com/2026/economia/nem-bolha-nem-catastrofe-para-os-empregos-gestor-da-kinea-explica-o-que-o-mercado-ainda-nao-entendeu-sobre-a-inteligencia-artificial-lvgb/
+- [S70] Seu Dinheiro, 19/05/2023 (Ruy Alves, Market Makers #45): https://www.seudinheiro.com/2023/economia/economia-da-china-em-apuros-ruy-alves-kinea-miql/
+- [S71] InfoMoney, 01/09/2023 (Ruy Alves): https://www.infomoney.com.br/onde-investir/brasil-nao-tem-ativos-suficientes-para-uma-carteira-eficiente-diz-ruy-alves-da-kinea/
+- [S72] Brazil Journal, 17/12/2024 (Ruy Alves): https://braziljournal.com/para-a-kinea-so-da-para-ficar-comprado-nos-eua/
+- [S73] InfoMoney, 12/12/2025 (Ruy Alves, Stock Pickers): https://www.infomoney.com.br/advisor/kinea-ve-eleicoes-e-cenario-global-como-motores-das-oportunidades-para-2026/
+- [S74] InfoMoney, 01/12/2025 (resumo da carta da Kinea, sem assinatura por pessoa): https://www.infomoney.com.br/?p=3124544
+- Terminal do Douglas (11/10/2026): `~/Desktop/terminal-artefato/cache/out/` (`macro.json`, `rf.json`, `b3.json`, `hist/`, `pagina/wirp.json`, `consenso_estado.json`).
 
 Material de estudo. Nao e recomendacao de investimento nos termos da CVM e nao promete resultado. Dado de mercado deve ser conferido na fonte oficial antes de qualquer decisao.

@@ -27,8 +27,10 @@ O QUE E DELE (segunda leitura do canal: aulas longas e lives inteiras, alem dos 
     do dia, para; nao opera nos primeiros minutos, cancela tudo antes do dado das 9h30, nao
     opera com o spread aberto (normal 0,5 ponto); indice so depois que as acoes abrem (10h);
 
-O QUE E DO DOUGLAS (decisao dele em 08/10/2026): mini-dolar e mini-indice; meta de 1% ao dia;
-janela das 9h15 as 13h (ultima entrada 12h50, zera as 13h); e a chave liga/desliga (chave.py).
+O QUE E DO DOUGLAS (decisao dele em 08/10/2026): mini-dolar e mini-indice; janela das 9h15 as 13h (ultima entrada
+12h50, zera as 13h); e a chave liga/desliga (chave.py). O GANHO QUE ZERA E PARA O DIA (o teto) e dele tambem e NAO mora aqui: o
+padrao abaixo (R$ 1.000, 1% de R$ 100 mil, escolha de 08/10/2026) so vale se `quant/saida/risco_robo.json` nao trouxer `meta_dia_rs`. O OBJETIVO de
+0,10% ao dia (R$ 100, 11/10/2026) e outra chave, `objetivo_dia_rs`: so placar, o robo nao para ao bater.
   - lote pequeno (1 a 2 minis), que so cresce com lucro acumulado.
 
 O QUE E NOSSO (ele recusa dar o numero; escolhas para calibrar com a fita gravada, marcadas [NOSSO]):
@@ -47,8 +49,10 @@ leilao do Banco Central, o giro dentro da faixa do ajuste, o lote grande que atr
 
 Como em estrategia.py, tudo e funcao pura: estado + tique + fita -> eventos.
 """
+import os
 from dataclasses import dataclass, field
 
+from quant.comum import ler_json
 from quant.daytrade.estrategia import CONTRATOS, arredondar
 
 
@@ -104,7 +108,8 @@ class ParamFluxo:
     lote_maximo: int = 8                   # dele: sobe de 2 em 2 ate 7 ou 8
     perdas_para_parar: int = 3             # da sala dele (voz incerta; um parceiro diz 4)
     perda_maxima_dia_rs: float = 1_000.0   # dele: "perdi R$ 1.000, nao clico mais" (igual ao 1% do Douglas)
-    meta_dia_rs: float | None = 1_000.0    # do Douglas (1%). Ele fala em "stop gain do dia" sem dar valor; em 2015 dizia nao ter meta
+    meta_dia_rs: float | None = 1_000.0    # o TETO (zera e para): PADRAO do codigo (1%); o valor de verdade vem de risco_robo.json
+                                           # (chave.risco()["meta_dia_rs"]). O OBJETIVO de R$ 100 e outra chave (objetivo_dia_rs), so placar. Liquido de custos. Ele fala em "stop gain do dia" sem dar valor; em 2015 dizia nao ter meta
     devolucao_para: float = 0.20           # dele: devolveu 20% do lucro do dia, para
     devolucao_piso_rs: float = 100.0       # [NOSSO] a regra dos 20% so vale depois de o dia ter chegado a +R$ 100
     max_operacoes: int = 12                # por contrato, por dia (as lives dele tem de 10 a 17 no dolar)
@@ -574,13 +579,70 @@ def _n(v):
     return f"{v:g}".replace(".", ",")
 
 
-def regras_em_texto(p: ParamFluxo):
+# Numeros da medicao de 11/10/2026 (quant/pesquisa/META_DIA.md), em um JSON pequeno com fonte e data: o texto do objetivo cita DE LA, nunca de
+# numeros escritos a mao aqui. Sem o arquivo (ou com o objetivo diferente do teto testado) o texto sai sem os numeros.
+ARQ_MEDICAO_META = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "pesquisa", "meta_dia", "constantes_medicao.json")
+_CHAVES_MEDICAO = ("pregoes", "teto_testado_rs", "media_por_pregao_sem_teto_rs", "media_por_pregao_com_teto_rs")
+
+
+def carregar_medicao(arquivo=None):
+    d = ler_json(arquivo or ARQ_MEDICAO_META, padrao=None)
+    ok = isinstance(d, dict) and all(isinstance(d.get(k), (int, float)) and not isinstance(d.get(k), bool) for k in _CHAVES_MEDICAO)
+    return d if ok else None
+
+
+def pct_texto(valor, capital):
+    """100 de 100.000 -> "0,10%"; 1.000 de 100.000 -> "1%"."""
+    if not capital:
+        return None
+    pct = 100.0 * valor / capital
+    casas = "0" if abs(pct - round(pct)) < 1e-9 else "2"
+    return f"{pct:.{casas}f}".replace(".", ",") + "%"
+
+
+def teto_em_texto(p: ParamFluxo):
+    """O ganho que zera tudo e para o dia (meta_dia_rs): "ao ganhar R$ 1.000 (1% do capital)". None sem teto."""
+    if not p.meta_dia_rs:
+        return None
+    pct = pct_texto(p.meta_dia_rs, p.capital)
+    return f"ao ganhar {_rs(p.meta_dia_rs)}" + (f" ({pct} do capital)" if pct else "")
+
+
+def objetivo_em_texto(p: ParamFluxo, objetivo_rs, medicao=None):
+    """"Objetivo do dia: R$ 100 (0,10%). O robô não para ao bater o objetivo: no histórico de 1.055 pregões, parar em R$ 100 baixou o resultado
+    médio de R$ 34 para R$ 2 por pregão sem reduzir a pior perda. O ganho que zera e para o dia é R$ 1.000." Sem objetivo, None. Os numeros da
+    medicao so entram se vierem do arquivo E o objetivo for o teto que foi medido."""
+    if not objetivo_rs:
+        return None
+    pct = pct_texto(objetivo_rs, p.capital)
+    t = f"Objetivo do dia: {_rs(objetivo_rs)}" + (f" ({pct})" if pct else "") + ". "
+    parar_no_objetivo = bool(p.meta_dia_rs) and p.meta_dia_rs <= objetivo_rs + 1e-9
+    if parar_no_objetivo:
+        t += "O robô PARA ao bater o objetivo (o ganho que zera e para o dia está no mesmo valor)."
+        return t
+    t += "O robô não para ao bater o objetivo"
+    m = medicao
+    if m and abs(float(m["teto_testado_rs"]) - float(objetivo_rs)) < 1e-9:
+        n = f"{int(m['pregoes']):,}".replace(",", ".")
+        t += (f": no histórico de {n} pregões, parar em {_rs(objetivo_rs)} baixou o resultado médio de {_rs(m['media_por_pregao_sem_teto_rs'])} "
+              f"para {_rs(m['media_por_pregao_com_teto_rs'])} por pregão")
+        pior_sem, pior_com = m.get("pior_dia_sem_teto_rs"), m.get("pior_dia_com_teto_rs")
+        if isinstance(pior_sem, (int, float)) and isinstance(pior_com, (int, float)) and pior_com <= pior_sem + 1e-9:
+            t += " sem reduzir a pior perda"
+    t += "."
+    if p.meta_dia_rs:
+        t += f" O ganho que zera e para o dia é {_rs(p.meta_dia_rs)}."
+    return t
+
+
+def regras_em_texto(p: ParamFluxo, objetivo_rs=None, medicao=None):
     d, i = ATIVOS["WDOFUT"], ATIVOS["WINFUT"]
     parar = [f"com {_rs(p.perda_maxima_dia_rs)} de perda no dia", f"depois de {p.perdas_para_parar} negócios perdedores",
              f"ou quando devolve {p.devolucao_para:.0%} do lucro que o dia já teve"]
     if p.meta_dia_rs:
-        parar.append(f"ou ao ganhar {_rs(p.meta_dia_rs)} (a sua meta)")
-    return [
+        parar.append("ou " + teto_em_texto(p))
+    objetivo = objetivo_em_texto(p, objetivo_rs, medicao)
+    return ([objetivo] if objetivo else []) + [
         "Leitura de fluxo: no dólar o robô lê os negócios do contrato cheio, sem os lotes de robô, e simula a ordem no mini. "
         "Só entra perto de um nível: ajuste, fechamento de ontem, abertura, máxima, mínima, preço médio do dia e a variação de 1%.",
         f"DEFESA: o nível foi testado {p.testes_min} ou {p.testes_max} vezes em {p.janela_defesa_s // 60} minutos, bateram nele com volume "

@@ -69,14 +69,19 @@ def janela(dia, arquivo=None):
 ARQ_ATIVOS = os.path.join(DIR_SAIDA, "ativos_robo.json")
 # Limites de risco de prazo mais longo (metodo de 10/10/2026): perda maxima da SEMANA (o robo para ate a segunda-feira) e
 # queda maxima desde o pico do acumulado (o robo para ate o Douglas mandar religar; "queda_zerada_em" recomeca a contagem).
+# DUAS chaves de ganho do dia, em reais LIQUIDOS de custo, que nao se confundem (decisao de 11/10/2026):
+#   "meta_dia_rs"      o TETO: batido, o robo zera tudo e para ate amanha. Sem a chave vale o padrao do codigo (ParamFluxo, R$ 1.000 = 1%).
+#   "objetivo_dia_rs"  o OBJETIVO do Douglas (R$ 100 = 0,10% ao dia): so PLACAR na tela; o robo NAO zera nem para ao bater. Sem a chave nao
+#                      ha objetivo (a tela nao mostra o bloco). A medicao de 11/10/2026 (quant/pesquisa/META_DIA.md) mostrou que parar em
+#                      R$ 100 derruba a media do dado de R$ 34 para R$ 2 por pregao. Para parar ao bater o objetivo basta meta_dia_rs: 100.
 ARQ_RISCO = os.path.join(DIR_SAIDA, "risco_robo.json")
-RISCO_PADRAO = {"perda_maxima_semana_rs": 2000.0, "queda_maxima_rs": 10000.0, "queda_zerada_em": None}
+RISCO_PADRAO = {"perda_maxima_semana_rs": 2000.0, "queda_maxima_rs": 10000.0, "queda_zerada_em": None, "meta_dia_rs": None, "objetivo_dia_rs": None}
 
 
 def risco(arquivo=None):
     d = ler_json(arquivo or ARQ_RISCO, padrao=None) or {}
     fora = dict(RISCO_PADRAO)
-    for k in ("perda_maxima_semana_rs", "queda_maxima_rs"):
+    for k in ("perda_maxima_semana_rs", "queda_maxima_rs", "meta_dia_rs", "objetivo_dia_rs"):
         try:
             if d.get(k) is not None and float(d[k]) > 0:
                 fora[k] = float(d[k])

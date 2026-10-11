@@ -1257,3 +1257,170 @@ def test_lote_nunca_deixa_o_stop_passar_da_perda_maxima_do_dia(tmp_path, monkeyp
     r.ciclo(agora, retrato={"q": {"WDOFUT": _cotacao(5036.0, agora.timestamp(), maxima=5036.0)}})
     pos = r.estados["WDOFUT"].posicao
     assert pos and pos.tecnica == "reversão do dado" and pos.contratos == 2
+
+
+# ── duas chaves de ganho do dia em risco_robo.json (11/10/2026): o OBJETIVO (so placar) e o TETO (zera e para) ──────────────────────
+MEDICAO = {"pregoes": 1055, "teto_testado_rs": 100.0, "media_por_pregao_sem_teto_rs": 33.7, "media_por_pregao_com_teto_rs": 1.8,
+           "pior_dia_sem_teto_rs": -815.0, "pior_dia_com_teto_rs": -815.0}
+
+
+def test_chaves_do_arquivo_de_risco_e_os_textos_saem_do_valor(tmp_path):
+    from quant.daytrade import chave
+    arq = tmp_path / "risco_robo.json"
+    r = chave.risco(str(arq))                                                   # sem arquivo: sem objetivo; o teto vale o padrao do codigo
+    assert r["objetivo_dia_rs"] is None and r["meta_dia_rs"] is None and ef.ParamFluxo().meta_dia_rs == 1000.0
+    arq.write_text(json.dumps({"objetivo_dia_rs": 100.0, "meta_dia_rs": 1000.0, "queda_maxima_rs": 10000}))
+    r = chave.risco(str(arq))
+    assert r["objetivo_dia_rs"] == 100.0 and r["meta_dia_rs"] == 1000.0 and r["queda_maxima_rs"] == 10000.0 and r["perda_maxima_semana_rs"] == 2000.0
+    for ruim in (0, -5, "abc", None):                                           # valor invalido nao liga nada
+        arq.write_text(json.dumps({"objetivo_dia_rs": ruim, "meta_dia_rs": ruim}))
+        r = chave.risco(str(arq))
+        assert r["objetivo_dia_rs"] is None and r["meta_dia_rs"] is None
+    # o JSON da medicao: so vale completo
+    bom = tmp_path / "medicao.json"
+    bom.write_text(json.dumps(dict(MEDICAO, fonte="x", data="2026-10-11")))
+    assert ef.carregar_medicao(str(bom))["pregoes"] == 1055
+    bom.write_text(json.dumps({"pregoes": 1055}))
+    assert ef.carregar_medicao(str(bom)) is None and ef.carregar_medicao(str(tmp_path / "nao_existe.json")) is None
+    real = ef.carregar_medicao()                                                # o arquivo de verdade (gerado por meta_dia.relatorio)
+    assert real and real["pregoes"] == 1055 and real["teto_testado_rs"] == 100.0
+    # os textos: o do objetivo (com os numeros da medicao), sem o arquivo, com objetivo diferente do medido, e o interruptor
+    p = ef.ParamFluxo()
+    assert ef.teto_em_texto(p) == "ao ganhar R$ 1.000 (1% do capital)" and ef.teto_em_texto(ef.ParamFluxo(meta_dia_rs=None)) is None
+    assert ef.objetivo_em_texto(p, 100.0, MEDICAO) == (
+        "Objetivo do dia: R$ 100 (0,10%). O robô não para ao bater o objetivo: no histórico de 1.055 pregões, parar em R$ 100 baixou o resultado médio "
+        "de R$ 34 para R$ 2 por pregão sem reduzir a pior perda. O ganho que zera e para o dia é R$ 1.000.")
+    assert ef.objetivo_em_texto(p, 100.0, None) == "Objetivo do dia: R$ 100 (0,10%). O robô não para ao bater o objetivo. O ganho que zera e para o dia é R$ 1.000."
+    assert "1.055" not in ef.objetivo_em_texto(p, 250.0, MEDICAO) and ef.objetivo_em_texto(p, None, MEDICAO) is None
+    assert "sem reduzir a pior perda" not in ef.objetivo_em_texto(p, 100.0, dict(MEDICAO, pior_dia_com_teto_rs=-500.0))     # se o teto melhorasse a pior perda, nao diz isso
+    assert "PARA ao bater o objetivo" in ef.objetivo_em_texto(ef.ParamFluxo(meta_dia_rs=100.0), 100.0, MEDICAO)            # o interruptor ligado
+    from quant.daytrade import robo_fluxo as rf
+    for itens in (rf.regras_niveis(p, objetivo_rs=100.0, medicao=MEDICAO), rf.regras_phicube(p, 100.0, MEDICAO), ef.regras_em_texto(p, 100.0, MEDICAO)):
+        assert any(x.startswith("Objetivo do dia: R$ 100 (0,10%).") for x in itens) and any("ao ganhar R$ 1.000 (1% do capital)" in x for x in itens)
+        assert not any("meta de 1%" in x for x in itens)
+    assert not any(x.startswith("Objetivo do dia") for x in rf.regras_niveis(p)) and not any("Objetivo" in x for x in ef.regras_em_texto(p))   # sem objetivo, sem texto
+
+
+def _cenario_dia(tmp_path, monkeypatch, risco, dia="2026-10-08"):
+    (tmp_path / "risco_robo.json").write_text(json.dumps(risco))
+    rf, r, mt5 = _robo(tmp_path, monkeypatch, dia)
+    agora = datetime(2026, 10, 8, 11, 0, 7, tzinfo=BRT)
+    r.estados["WDOFUT"].posicao = ef.PosicaoF("C", 2, 5030.0, 5000.0, "10:59:00", "reversão do dado", 5030.0, "dado", 2, False, 5030.0,
+                                              ts_entrada=agora.timestamp() - 60, sem_parcial=True)   # sem parcial nem alvo: so teto ou stop fecham
+    return rf, r, mt5, agora
+
+
+def test_objetivo_nao_zera_o_robo_mas_o_teto_zera_e_para_ate_amanha(tmp_path, monkeypatch):
+    rf, r, mt5, agora = _cenario_dia(tmp_path, monkeypatch, {"objetivo_dia_rs": 100.0, "meta_dia_rs": 1000.0})
+    assert r.objetivo_rs == 100.0 and r.p.meta_dia_rs == 1000.0
+
+    def q(preco, seg=0):
+        return {"q": {"WDOFUT": _cotacao(preco, (agora + timedelta(seconds=seg)).timestamp())}}
+    # +10 pontos x R$ 10 x 2 contratos = R$ 200 bruto, R$ 195,20 liquidos: passou do OBJETIVO e o robo segue com a posicao aberta
+    est = r.ciclo(agora, retrato=q(5040.0))
+    assert r.trava is None and r.estados["WDOFUT"].posicao is not None and est["resultado"]["aberto"] == pytest.approx(195.2)
+    m = est["meta"]
+    assert m["atingido"] is True and m["pct_do_objetivo"] == pytest.approx(1.952) and m["faltam_rs"] == 0.0 and m["parado_ate_amanha"] is False
+    assert m["objetivo_rs"] == 100.0 and m["teto_rs"] == 1000.0 and m["teto_batido"] is False and m["robo_para_ao_bater_o_objetivo"] is False
+    assert est["vivo"]["fase"] != "meta_batida" and not any("Teto de ganho" in d["texto"] for d in r.diario)
+    # realizado de R$ 1.000 liquidos no dia: bate o TETO, zera tudo a mercado e para
+    r.operacoes = [{"tipo": "saida", "ativo": "WDOFUT", "lado": "C", "contratos": 2, "entrada": 5030.0, "hora_entrada": "10:00:00",
+                    "saida": 5080.0, "hora_saida": "10:10:00", "motivo": "alvo", "pontos": 50.0, "custos": 4.8, "resultado": 995.2}]
+    est = r.ciclo(agora + timedelta(seconds=1), retrato=q(5040.0, 1))
+    assert r.trava == "meta" and r.estados["WDOFUT"].posicao is None and r.operacoes[-1]["motivo"] == "meta"
+    m = est["meta"]
+    assert m["teto_batido"] is True and m["parado_ate_amanha"] is True and m["atingido"] is True
+    assert est["vivo"]["fase"] == "meta_batida" and "Teto de ganho do dia atingido" in est["vivo"]["fase_texto"]
+    assert est["resultado"]["meta"] == 1000.0 and est["resultado"]["teto"] == 1000.0 and est["resultado"]["objetivo"] == 100.0
+    # reiniciar no mesmo dia nao religa; amanha e outro dia
+    r2 = rf.RoboFluxo("2026-10-08", saidas=[str(tmp_path / "q2.json")], pasta_mt5=str(mt5))
+    assert r2.trava == "meta"
+    r3 = rf.RoboFluxo("2026-10-09", saidas=[str(tmp_path / "q3.json")], pasta_mt5=str(mt5))
+    assert r3.trava is None and r3.objetivo_rs == 100.0 and r3.p.meta_dia_rs == 1000.0
+
+
+def test_interruptor_meta_dia_rs_100_faz_o_robo_parar_ao_bater_o_objetivo(tmp_path, monkeypatch):
+    rf, r, mt5, agora = _cenario_dia(tmp_path, monkeypatch, {"objetivo_dia_rs": 100.0, "meta_dia_rs": 100.0})
+    est = r.ciclo(agora, retrato={"q": {"WDOFUT": _cotacao(5040.0, agora.timestamp())}})        # R$ 195,20 liquidos: passou de R$ 100
+    assert r.trava == "meta" and r.estados["WDOFUT"].posicao is None
+    m = est["meta"]
+    assert m["robo_para_ao_bater_o_objetivo"] is True and m["parado_ate_amanha"] is True and m["teto_rs"] == 100.0
+    assert any("PARA ao bater o objetivo" in x for x in rf.regras_niveis(r.p, objetivo_rs=100.0))
+
+
+def test_sem_objetivo_nao_ha_bloco_meta_e_o_teto_segue_valendo(tmp_path, monkeypatch):
+    for risco in ({}, {"meta_dia_rs": 1000.0}, {"objetivo_dia_rs": 0}):
+        pasta = tmp_path / str(len(str(risco)))
+        pasta.mkdir()
+        rf, r, mt5, agora = _cenario_dia(pasta, monkeypatch, risco)
+        assert r.objetivo_rs is None and r.p.meta_dia_rs == 1000.0
+        est = r.ciclo(agora, retrato={"q": {"WDOFUT": _cotacao(5031.0, agora.timestamp())}})
+        assert "meta" not in est and est["resultado"]["meta"] == 1000.0 and est["resultado"]["objetivo"] is None
+        assert not any(x.startswith("Objetivo do dia") for x in est["regras"]["itens"])
+        assert "meta" not in json.load(open(pasta / "quant.json"))
+
+
+def test_tela_traz_o_bloco_do_objetivo_e_o_placar_dos_pregoes(tmp_path, monkeypatch):
+    (tmp_path / "risco_robo.json").write_text(json.dumps({"objetivo_dia_rs": 100.0, "meta_dia_rs": 1000.0}))
+    rf, r, mt5 = _robo(tmp_path, monkeypatch, "2026-10-13")
+    (tmp_path / "dt").mkdir(exist_ok=True)
+    # pregoes anteriores: dois de antes da mudanca (sem o objetivo guardado: conta o resultado do dia contra o objetivo de hoje), um novo que bateu e um sem negocio
+    (tmp_path / "dt" / "serie_fluxo.json").write_text(json.dumps([
+        {"data": "2026-10-08", "resultado": 1200.0, "operacoes": 2}, {"data": "2026-10-09", "resultado": -300.0, "operacoes": 1},
+        {"data": "2026-10-12", "resultado": 120.0, "operacoes": 1, "objetivo_rs": 100.0, "objetivo_batido": True, "objetivo_tocado": True},
+        {"data": "2026-10-12b", "resultado": 0.0, "operacoes": 0, "objetivo_rs": 100.0, "objetivo_batido": False, "objetivo_tocado": False}]))
+    r2 = rf.RoboFluxo("2026-10-13", saidas=[str(tmp_path / "q.json")], pasta_mt5=str(mt5))
+    r2.codigos = r.codigos
+    agora = datetime(2026, 10, 13, 11, 0, 7, tzinfo=BRT)
+    est = r2.ciclo(agora, retrato={"q": {"WDOFUT": _cotacao(5031.0, agora.timestamp())}})
+    m = est["meta"]
+    assert m["objetivo_rs"] == 100.0 and m["objetivo_pct"] == pytest.approx(0.001) and m["liquido"] is True and m["capital"] == 100_000.0
+    assert m["hoje_rs"] == 0.0 and m["faltam_rs"] == 100.0 and m["atingido"] is False and m["pct_do_objetivo"] == 0.0
+    assert m["teto_rs"] == 1000.0 and m["teto_pct"] == pytest.approx(0.01) and m["teto_batido"] is False and m["parado_ate_amanha"] is False
+    assert (m["meta_rs"], m["pct_da_meta"], m["atingida"]) == (100.0, 0.0, False)                    # apelidos antigos = o objetivo
+    pl = m["placar"]
+    # 4 pregoes (hoje sem fita nem negocio nao entra); operados 3; bateram o objetivo: 08/10 (1.200 >= 100) e 12/10 (guardado)
+    assert pl["pregoes"] == 4 and pl["pregoes_operados"] == 3 and pl["pregoes_bateram_o_objetivo"] == 2 and pl["pregoes_bateram_a_meta"] == 2
+    assert pl["pct_operados_que_bateram"] == pytest.approx(2 / 3) and pl["acumulado_rs"] == pytest.approx(1020.0)
+    assert pl["media_por_pregao"] == pytest.approx(255.0) and pl["media_por_pregao_operado"] == pytest.approx(340.0)
+    assert pl["melhor_dia_rs"] == 1200.0 and pl["pior_dia_rs"] == -300.0 and pl["desde"] == "2026-10-08"
+    # o dia passa do objetivo SEM parar: o pregao entra na serie como "bateu o objetivo" e nao como teto
+    r2.operacoes = [{"tipo": "saida", "ativo": "WDOFUT", "lado": "C", "contratos": 2, "entrada": 5030.0, "hora_entrada": "10:00:00",
+                     "saida": 5040.0, "hora_saida": "10:10:00", "motivo": "alvo", "pontos": 5.5, "custos": 4.8, "resultado": 105.2}]
+    est = r2.ciclo(agora + timedelta(seconds=1), retrato={"q": {"WDOFUT": _cotacao(5031.0, (agora + timedelta(seconds=1)).timestamp())}})
+    m = est["meta"]
+    assert r2.trava is None and m["atingido"] is True and m["hoje_rs"] == pytest.approx(105.2) and m["pct_do_objetivo"] == pytest.approx(1.052)
+    assert m["parado_ate_amanha"] is False and est["vivo"]["fase"] != "meta_batida"
+    ultimo = json.load(open(tmp_path / "dt" / "serie_fluxo.json"))[-1]
+    assert ultimo["data"] == "2026-10-13" and ultimo["objetivo_rs"] == 100.0 and ultimo["objetivo_batido"] is True and ultimo["meta_batida"] is False
+    assert est["meta"]["placar"]["pregoes_bateram_o_objetivo"] == 3
+    assert json.load(open(tmp_path / "q.json"))["meta"]["objetivo_rs"] == 100.0                      # e vai para o arquivo da tela
+
+
+def test_avisos_e_fase_do_setup_de_niveis_saem_do_modo_robo(tmp_path, monkeypatch):
+    def rodar(modo):
+        pasta = tmp_path / ("m" + str(len(json.dumps(modo))))
+        pasta.mkdir()
+        rf, mt5 = _robo_niveis(pasta, monkeypatch, modo=modo)
+        _fita_do_dado(mt5, reacao=3.0)
+        r = rf.RoboFluxo("2026-10-08", saidas=[str(pasta / "quant.json")], pasta_mt5=str(mt5), setup="niveis")
+        r.codigos = {"WDOFUT": "WDOX26"}
+        r.sinais_pc["WDOFUT"] = type("S", (), {"atualizar": lambda self, df, extras=(): ({"pronto": False, "motivo": "teste"}, None)})()
+        agora = datetime(2026, 10, 8, 11, 0, 3, tzinfo=BRT)
+        return r.ciclo(agora, retrato={"q": {"WDOFUT": _cotacao(5033.0, agora.timestamp(), maxima=5033.0)}})
+    # como esta o modo_robo.json de verdade: so o dado opera
+    est = rodar({"dado_opera": True, "climax_opera": False, "niveis_opera": False})
+    avisos = " ".join(est["avisos"])
+    assert "Quem opera é a reversão da reação ao dado americano" in avisos and "mais de 3 pontos" in avisos
+    assert "O climax de volume está só medido" in avisos and "Quem opera é o climax" not in avisos and "Também opera o climax" not in avisos
+    assert est["vivo"]["fase_texto"].startswith("Operando o dado americano, medindo o climax de volume e os níveis: ")
+    regras = " ".join(est["regras"]["itens"])
+    assert "Opera a reversão do dado americano; o climax de volume e o teste de nível são só medidos." in regras and "O robô opera para gerar operações" not in regras
+    # climax ligado por escolha dele: o aviso fala dele, com a ressalva da calibracao
+    est = rodar({"dado_opera": True, "climax_opera": True, "niveis_opera": False})
+    avisos = " ".join(est["avisos"])
+    assert "Também opera o climax de volume" in avisos and "NÃO se confirmou" in avisos and "O climax de volume está só medido" not in avisos
+    assert est["vivo"]["fase_texto"].startswith("Operando o dado americano e o climax de volume, medindo os níveis: ")
+    # nada ligado
+    est = rodar({"dado_opera": False, "climax_opera": False, "niveis_opera": False})
+    assert "Nenhuma leitura opera" in " ".join(est["avisos"]) and est["vivo"]["fase_texto"].startswith("Nenhuma leitura operando, medindo ")
