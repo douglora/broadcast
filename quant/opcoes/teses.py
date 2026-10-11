@@ -170,7 +170,7 @@ def montar_expressoes(tese, S0, o, ativo, venc, du, r_aa, caixa_cdi_aa=None):
         out.append({"nome": nome, "titulo": titulo, "legs": legs, "custo": custo, "perda_maxima": perda, "caixa": caixa if caixa is not None else max(custo, 0.0), "ganho_maximo": ganho_max})
 
     if direc == "alta":
-        estr("papel", f"Comprar {ativo} (papel)", [], S0, S0)
+        estr("papel", f"Papel: 100 ações de {ativo}", [], S0, S0)
         c_at, c_fora = _por_delta(el, "C", 0.50, 0.12), _por_delta(el, "C", DELTA_FORA, 0.07)
         if c_at is not None:
             estr("call_no_dinheiro", f"Call no dinheiro {c_at['codigo']} (exercício {c_at['exercicio']:.2f})", [(c_at, "compra", compra(c_at))], compra(c_at), compra(c_at))
@@ -194,7 +194,7 @@ def montar_expressoes(tese, S0, o, ativo, venc, du, r_aa, caixa_cdi_aa=None):
                     estr("trava_de_alta_com_puts", f"Trava de alta de crédito com puts {p_v['codigo']} / {p_c['codigo']}", [(p_v, "venda", cred), (p_c, "compra", compra(p_c))], -credito, larg - credito,
                          caixa=larg - credito, ganho_max=credito)
     else:
-        estr("papel_vendido", f"Vender {ativo} a descoberto (papel)", [], S0, S0)
+        estr("papel_vendido", f"Papel vendido a descoberto: 100 ações de {ativo}", [], S0, S0)
         p_at, p_fora = _por_delta(el, "P", 0.50, 0.12), _por_delta(el, "P", DELTA_FORA, 0.07)
         if p_at is not None:
             estr("put_no_dinheiro", f"Put no dinheiro {p_at['codigo']} (exercício {p_at['exercicio']:.2f})", [(p_at, "compra", compra(p_at))], compra(p_at), compra(p_at))
@@ -376,7 +376,7 @@ def caso_bbas3(M, esmagamento_pct, movimento_pct, vencs_mensais=None, tr=None):
     Devolve (bloco principal calculado a 50%, tabela de sensibilidade 40/50/60 com tamanhos de movimento)."""
     base = {"id": "douglas-bbas3-2o-turno-2026", "ativo": "BBAS3", "direcao": "alta", "horizonte_pregoes": 14,
             "evento": {"data": "2026-10-25", "descricao": "2º turno da eleição presidencial de 2026 (domingo; reação na segunda, 26/10)"}, "conviccao": 2, "origem": "douglas",
-            "texto": "Se o candidato da direita ficar na frente, as estatais (Banco do Brasil) tendem a subir muito; se não, podem cair muito. Comprar CALLS limita a perda ao prêmio. "
+            "texto": "Se o candidato da direita ficar na frente, as estatais (Banco do Brasil) tendem a subir muito; se não, podem cair muito. A ideia dele é expressar a alta por calls, porque a perda máxima é o prêmio. "
                      "A probabilidade do cenário político é do Douglas: a tabela mostra 40%, 50% e 60%.", "probabilidade_pendente": True}
     saidas = {}
     for p in (0.4, 0.5, 0.6):
