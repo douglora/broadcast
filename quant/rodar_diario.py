@@ -314,7 +314,13 @@ def bloco_boleta(dados, estado, data, capital, frescor_dados, gate_passou, segur
             def ajuste(w, _visao=visao, _setor=setor, _antes=antes):
                 _antes.update({t: float(v) for t, v in w.items()})
                 return mesa.ajustar_pesos(w, mesa.fatores_de_peso(list(w.index), _visao, _setor), cap=ct.CAP_NOME)
-    alvo = ct.carteira_alvo(mes, estado, precos, adtv=adtv, setor=setor,
+    # Fracao do patrimonio em acoes: o padrao do codigo, ou a decisao do Douglas em carteira_config.json (inclusive a
+    # entrada escalonada com data). Em dado sintetico e nos testes vale sempre o padrao.
+    exposicao = ct.EXPOSICAO_ALVO
+    if usar_mesa and dados.get("origem") == "real":
+        from quant import config_carteira
+        exposicao, _ = config_carteira.exposicao_acoes(data)
+    alvo = ct.carteira_alvo(mes, estado, precos, adtv=adtv, setor=setor, exposicao=exposicao,
                             patrimonio=estado.get("patrimonio", capital), data=data, ajuste_pesos=ajuste)
     if usar_mesa and dados.get("origem") == "real":
         from quant import mesa
@@ -494,6 +500,11 @@ def _medidas_kill(desempenho, dados, mes):
             "universo": uni}
 
 
+def _exposicao_de_hoje(hoje=None):
+    from quant import config_carteira
+    return config_carteira.exposicao_acoes(hoje)[0]
+
+
 def bloco_regime(ibov=None, hoje=None):
     """Leitura de regime do Ibovespa para o cartao "Regime do mercado" da tela. SO INFORMACAO: nao mexe na carteira nem
     na protecao. O Douglas pediu em 10/10/2026 que o robo lesse o momento do mercado (alta ou baixa) para dosar acoes e
@@ -539,9 +550,9 @@ def bloco_regime(ibov=None, hoje=None):
             "texto": (f"Leitura {nomes.get(estado, estado.upper())}: {votos} de 4 sinais de tendência do Ibovespa a favor da alta. "
                       "É só informação: nos dois testes (2012 a 2015 e 2016 a 2026), aumentar ou zerar a proteção por esta "
                       "leitura piorou o resultado; em 2020 as variantes com regime perderam de 21% a 27%, contra +0,5% da "
-                      "carteira sem proteção. A carteira segue com 70% em ações e a proteção em mini-índice no nível que o "
+                      f"carteira sem proteção. A carteira segue com {_exposicao_de_hoje(hoje) * 100:.0f}% em ações e a proteção em mini-índice no nível que o "
                       f"Douglas definiu ({protecao.razao() * 100:.0f}% do valor das ações)."),
-            "exposicao_acoes_pct": round(ct.EXPOSICAO_ALVO * 100.0, 1), "protecao_pct": round(protecao.razao() * 100.0, 1),
+            "exposicao_acoes_pct": round(_exposicao_de_hoje(hoje) * 100.0, 1), "protecao_pct": round(protecao.razao() * 100.0, 1),
             "indicadores": [
                 {"nome": "Ibovespa contra a média de 200 pregões", "valor": f"{pts(ultimo)} contra {pts(ml)}", "leitura": fav(u["acima_media_longa"])},
                 {"nome": "Média de 50 contra a de 200 pregões", "valor": f"{pts(mc)} contra {pts(ml)}", "leitura": fav(u["media_curta_acima"])},

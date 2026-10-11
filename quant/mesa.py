@@ -151,7 +151,9 @@ def registro_dos_pesos(antes, depois, visao, setor=None, limiar=0.0025):
         conv, s = c.get(str(t).upper(), 0), _setor_da_mesa((setor or {}).get(t), incl)
         partes = []
         if conv:
-            partes.append(f"convicção {conv:+d}" + (": " + str((acoes.get(str(t).upper()) or {}).get("tese")) if (acoes.get(str(t).upper()) or {}).get("tese") else ""))
+            a = acoes.get(str(t).upper()) or {}
+            motivo = a.get("risco") if conv < 0 else (a.get("o_que_o_preco_exige") or a.get("margem") or a.get("tese"))   # para baixo: o risco; para cima: o que sustenta
+            partes.append(f"convicção {conv:+d}" + (": " + str(motivo) if motivo else ""))
         if s:
             partes.append(f"setor com inclinação {s:+d}")
         if not partes:

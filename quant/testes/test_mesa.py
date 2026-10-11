@@ -80,3 +80,18 @@ def test_carteira_alvo_sem_ajuste_fica_igual_e_com_ajuste_respeita_a_funcao():
                          ajuste_pesos=lambda w: mesa.ajustar_pesos(w, {w.index[0]: 1.3}, cap=ct.CAP_NOME))
     if len(c["pesos"]):
         assert c["pesos"].sum() == pytest.approx(c["pesos_sem_ajuste"].sum()) and c["pesos"].iloc[0] >= c["pesos_sem_ajuste"].iloc[0]
+
+
+def test_exposicao_em_acoes_com_data_para_entrada_escalonada(tmp_path):
+    from quant import config_carteira as cc
+    arq = tmp_path / "carteira_config.json"
+    assert cc.exposicao_acoes("2026-10-13", arq=str(arq), padrao=0.70) == (0.70, "padrão da carteira")
+    arq.write_text(json.dumps({"razao_protecao": 0.25}))
+    assert cc.exposicao_acoes("2026-10-13", arq=str(arq), padrao=0.70)[0] == 0.70            # so a protecao foi decidida
+    arq.write_text(json.dumps({"exposicao_acoes": 0.35, "exposicao_ate": "2026-10-25", "exposicao_depois": 0.70}))
+    v, txt = cc.exposicao_acoes("2026-10-13", arq=str(arq), padrao=0.70)
+    assert v == 0.35 and "até 25/10/2026" in txt
+    assert cc.exposicao_acoes("2026-10-25", arq=str(arq), padrao=0.70)[0] == 0.35            # o dia do evento ainda e "ate"
+    assert cc.exposicao_acoes("2026-10-26", arq=str(arq), padrao=0.70)[0] == 0.70            # depois: volta
+    arq.write_text(json.dumps({"exposicao_acoes": 3}))
+    assert cc.exposicao_acoes("2026-10-13", arq=str(arq), padrao=0.70)[0] == 0.70            # absurdo: padrao
