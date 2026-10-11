@@ -12,6 +12,12 @@ BRT = timezone(timedelta(hours=-3))
 INDICE = 206_780.0                      # mini-indice de 08/10/2026: 1 contrato = R$ 41.356
 
 
+@pytest.fixture(autouse=True)
+def _sem_config_do_douglas(tmp_path, monkeypatch):
+    """Os testes valem para a razao padrao (metade): a decisao do Douglas mora num arquivo, que aqui nao existe."""
+    monkeypatch.setattr(pt, "ARQ_CONFIG", str(tmp_path / "carteira_config_que_nao_existe.json"))
+
+
 def test_o_caso_de_08_10_nao_vende_indice_com_metade_das_acoes():
     assert round(pt.nocional(INDICE)) == 41356
     assert pt.contratos_alvo(0.0, INDICE, 0) == 0                    # 10h20: nada comprado ainda
@@ -159,3 +165,33 @@ def test_protecao_nao_abre_em_contrato_que_vence_em_poucos_dias():
     assert (n, motivo) == (1, "abertura") and str(venc) == "2026-12-16"          # o de 14/10 vencia em 4 pregoes
     n, venc, motivo = ct.ajustar_hedge({"hedge": {"contratos": 0}}, "2026-09-01", 100_000.0)
     assert str(venc) == "2026-10-14" and motivo == "abertura"                    # longe do vencimento: o proximo mesmo
+
+
+def test_razao_da_protecao_vem_do_arquivo_do_douglas(tmp_path, monkeypatch):
+    assert pt.razao() == 0.5                                            # sem arquivo: o padrao
+    arq = tmp_path / "carteira_config.json"
+    arq.write_text(json.dumps({"razao_protecao": 0.25}))
+    monkeypatch.setattr(pt, "ARQ_CONFIG", str(arq))
+    assert pt.razao() == 0.25
+    # com 1/4, R$ 68 mil de acoes pedem 0,41 contrato: abaixo de 0,75 nao ha venda de indice
+    assert pt.contratos_alvo(68_000.0, INDICE, 0) == 0
+    assert pt.contratos_alvo(124_000.0, INDICE, 0) == 0                 # 0,7497: ainda nao
+    assert pt.contratos_alvo(125_000.0, INDICE, 0) == 1                 # 0,756: entra o primeiro contrato
+    assert pt.contratos_alvo(68_000.0, INDICE, 1) == 1                  # ja vendido: so sai abaixo de 0,25 contrato ou do valor das acoes
+    assert pt.contratos_alvo(40_000.0, INDICE, 1) == 0
+    h = pt.marcar(pt.nova(None, "2026-10-13"), INDICE, 68_000.0)
+    assert h["alvo_fracionario"] == 0.41 and "um quarto" in pt.regra_na_tela()
+    arq.write_text(json.dumps({"razao_protecao": 7}))                  # valor absurdo: volta ao padrao
+    assert pt.razao() == 0.5
+
+
+def test_a_tela_explica_por_que_nao_ha_venda_de_indice(tmp_path, monkeypatch):
+    arq = tmp_path / "carteira_config.json"
+    arq.write_text(json.dumps({"razao_protecao": 0.25}))
+    monkeypatch.setattr(pt, "ARQ_CONFIG", str(arq))
+    r = _robo(tmp_path, monkeypatch, hedge_boleta={"contratos": 1})
+    r.sessao.ordens = [{"ticker": "AAAA3", "lado": "C", "executado": 6800, "preco_medio": 10.0}]
+    r._hedge(*_retrato("2026-10-13", 13, 0, INDICE, {"AAAA3": 10.0}), "operando")
+    b = r._bloco_protecao()
+    assert b["contratos"] == 0 and b["razao_alvo_pct"] == 25.0 and b["alvo_em_contratos"] == 0.41
+    assert "0,41 contrato" in b["explicacao"] and "só cabe por opções" in b["explicacao"]

@@ -281,7 +281,10 @@ def bloco_versao():
                 "cadeia_ok": True, "cadeia_quebra": None}
 
 
-def bloco_boleta(dados, estado, data, capital, frescor_dados, gate_passou, seguro):
+MESA_DO_DIA = {}        # o cartao "Visao da mesa" montado junto com a boleta; `main` o leva para o painel
+
+
+def bloco_boleta(dados, estado, data, capital, frescor_dados, gate_passou, seguro, usar_mesa=True):
     """Bloco `boleta`. Com modo seguro ativo nao existe boleta: `emitida=False` e lista vazia."""
     vazio = {"data": str(data), "id": pd.Timestamp(data).strftime("%Y%m%d"), "emitida": False,
              "motivo_bloqueio": [], "custo_total": 0.0, "ordens": []}
@@ -298,8 +301,27 @@ def bloco_boleta(dados, estado, data, capital, frescor_dados, gate_passou, segur
     precos = precos_do_dia(dados, data, mes)
     adtv = mes.set_index("ticker")["adtv21"].to_dict()
     setor = mes.set_index("ticker")["setor"].to_dict()
+    # Visao da mesa (quant/mesa.py): veto do que a mesa marcou com conviccao -2 e ajuste pequeno de peso. So quando ha
+    # visao fresca; sem ela a carteira e a de sempre. `usar_mesa=False` (testes, dado sintetico) desliga.
+    visao, motivo_mesa, aplicado, ajuste = None, None, [], None
+    if usar_mesa and dados.get("origem") == "real":
+        from quant import mesa
+        visao, motivo_mesa = mesa.ler(hoje=None)
+        if visao is not None:
+            mes, aplicado = mesa.vetar(mes, visao)
+            antes = {}
+
+            def ajuste(w, _visao=visao, _setor=setor, _antes=antes):
+                _antes.update({t: float(v) for t, v in w.items()})
+                return mesa.ajustar_pesos(w, mesa.fatores_de_peso(list(w.index), _visao, _setor), cap=ct.CAP_NOME)
     alvo = ct.carteira_alvo(mes, estado, precos, adtv=adtv, setor=setor,
-                            patrimonio=estado.get("patrimonio", capital), data=data)
+                            patrimonio=estado.get("patrimonio", capital), data=data, ajuste_pesos=ajuste)
+    if usar_mesa and dados.get("origem") == "real":
+        from quant import mesa
+        if visao is not None and len(alvo.get("pesos", [])):
+            aplicado = aplicado + mesa.registro_dos_pesos(alvo["pesos_sem_ajuste"], alvo["pesos"], visao, setor)
+        MESA_DO_DIA.clear()
+        MESA_DO_DIA.update(mesa.bloco(visao, motivo_mesa, aplicado))
     try:
         return bo.gerar(alvo["ordens"], precos, adtv, data,
                         frescor_dados=frescor_dados, gate_passou=gate_passou,
@@ -517,8 +539,9 @@ def bloco_regime(ibov=None, hoje=None):
             "texto": (f"Leitura {nomes.get(estado, estado.upper())}: {votos} de 4 sinais de tendência do Ibovespa a favor da alta. "
                       "É só informação: nos dois testes (2012 a 2015 e 2016 a 2026), aumentar ou zerar a proteção por esta "
                       "leitura piorou o resultado; em 2020 as variantes com regime perderam de 21% a 27%, contra +0,5% da "
-                      "carteira sem proteção. A carteira segue com 70% em ações e a venda de índice em metade do valor delas."),
-            "exposicao_acoes_pct": round(ct.EXPOSICAO_ALVO * 100.0, 1), "protecao_pct": round(protecao.RAZAO * 100.0, 1),
+                      "carteira sem proteção. A carteira segue com 70% em ações e a proteção em mini-índice no nível que o "
+                      f"Douglas definiu ({protecao.razao() * 100:.0f}% do valor das ações)."),
+            "exposicao_acoes_pct": round(ct.EXPOSICAO_ALVO * 100.0, 1), "protecao_pct": round(protecao.razao() * 100.0, 1),
             "indicadores": [
                 {"nome": "Ibovespa contra a média de 200 pregões", "valor": f"{pts(ultimo)} contra {pts(ml)}", "leitura": fav(u["acima_media_longa"])},
                 {"nome": "Média de 50 contra a de 200 pregões", "valor": f"{pts(mc)} contra {pts(ml)}", "leitura": fav(u["media_curta_acima"])},
@@ -557,6 +580,8 @@ def main(argv=None):
     regime = bloco_regime(hoje=args.data)
     if regime is not None:
         painel["regime"] = regime
+    if MESA_DO_DIA:
+        painel["mesa"] = dict(MESA_DO_DIA)
     caminho = gravar_painel(painel)
     ms = painel["modo_seguro"]
     log(f"painel em {caminho} (origem: {painel['origem']}, modo: {modo})")

@@ -459,7 +459,22 @@ class Robo:
                 "aberto_rs": h.get("aberto"), "realizado_rs": h.get("realizado"), "custos_rs": h.get("custos"),
                 "acumulado_rs": round((_num(h.get("ate_ontem")) or 0.0) + (_num(h.get("resultado_hoje")) or 0.0), 2),
                 "valor_acoes": h.get("valor_acoes"), "cobertura_pct": round(cob * 100.0, 1) if cob is not None else None,
-                "razao_alvo_pct": protecao.RAZAO * 100.0, "regra": protecao.REGRA_NA_TELA}
+                "razao_alvo_pct": protecao.razao() * 100.0, "alvo_em_contratos": h.get("alvo_fracionario"),
+                "explicacao": self._porque_da_protecao(h), "regra": protecao.regra_na_tela()}
+
+    @staticmethod
+    def _porque_da_protecao(h):
+        """Uma frase dizendo por que ha ou nao ha venda de indice agora (contrato inteiro: a conta nem sempre fecha)."""
+        x, n, r = h.get("alvo_fracionario"), int(h.get("contratos") or 0), protecao.razao()
+        if x is None:
+            return None
+        alvo = f"{r * 100:.0f}% das ações compradas pedem {x:.2f}".replace(".", ",") + " contrato de mini-índice"
+        if n:
+            return alvo + f"; estão vendidos {n}."
+        if x < protecao.FOLGA:
+            return (alvo + ". Abaixo de 0,75 contrato o robô não vende índice: 1 contrato inteiro protegeria mais do que o "
+                    "pedido. Com a carteira deste tamanho, a proteção neste nível só cabe por opções.")
+        return alvo + "; a venda entra no próximo ciclo."
 
     def _anotar_execucoes(self, agora):
         for o in self.sessao.estado()["ordens"]:
@@ -721,6 +736,7 @@ class Robo:
             "hedge": self.hedge,
             "protecao": self._bloco_protecao(),
             "regime": p.get("regime"),
+            "mesa": p.get("mesa"),
             "carteira": carteira,
             "sinais": self._sinais(),
             "paper": p.get("paper") or {}, "kill": p.get("kill") or [], "versao": p.get("versao") or {},

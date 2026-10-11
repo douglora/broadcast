@@ -434,7 +434,7 @@ def ordens_incrementais(estado, alvo_qtd, precos, adtv, patrimonio, saidas=None,
 
 def carteira_alvo(sinais_mes, estado, precos, adtv=None, setor=None, patrimonio=None,
                   exposicao=EXPOSICAO_ALVO, n=N_ALVO, estresse=1.0, data=None, beta60=None,
-                  limiar_peso=LIMIAR_PESO):
+                  limiar_peso=LIMIAR_PESO, ajuste_pesos=None):
     """Orquestrador do mes: selecao -> pesos -> lotes -> ordens -> hedge.
 
     Devolve um dict com `tickers`, `pesos`, `alvo`, `ordens`, `hedge`, `caixa_minimo`,
@@ -453,6 +453,10 @@ def carteira_alvo(sinais_mes, estado, precos, adtv=None, setor=None, patrimonio=
     if sinais_mes is not None and len(sinais_mes):
         vol = sinais_mes.set_index("ticker")["vol252"].to_dict()
     w = pesos_alvo(tickers, vol, setor=setor, adtv=adtv, exposicao=exposicao)
+    pesos_sem_ajuste = w
+    if ajuste_pesos is not None:
+        # camada de julgamento da mesa (quant/mesa.py): funcao Series -> Series; sem ela, tudo fica como sempre foi
+        w = ajuste_pesos(w)
     alvo = arredondar_lotes(w, precos, patrimonio)
     alvo_qtd = alvo.set_index("ticker")["qtd"] if len(alvo) else pd.Series(dtype=float)
     ordens = ordens_incrementais(estado, alvo_qtd, precos, adtv, patrimonio,
@@ -461,7 +465,7 @@ def carteira_alvo(sinais_mes, estado, precos, adtv=None, setor=None, patrimonio=
     return {"tickers": tickers, "saidas": saidas, "pesos": w, "alvo": alvo, "ordens": ordens,
             "hedge": {"contratos": contratos, "vencimento": venc, "motivo": motivo},
             "caixa_minimo": caixa_minimo(patrimonio, contratos),
-            "diagnostico": diagnostico(w), "n_efetivo": len(tickers)}
+            "diagnostico": diagnostico(w), "n_efetivo": len(tickers), "pesos_sem_ajuste": pesos_sem_ajuste}
 
 
 def main(argv=None):

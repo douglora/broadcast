@@ -23,18 +23,43 @@ AS REGRAS (valem para qualquer tamanho de carteira e qualquer nivel do indice):
 
 Funcoes puras: quem guarda estado e o robo (quant/execucao/robo_vivo.py).
 """
+import json
 import math
+import os
 
 from quant import custos
+from quant.comum import DIR_SAIDA
 
 RAZAO = 0.5                                   # venda de indice = metade do valor das acoes carregadas
 FOLGA = 0.75                                  # fracao de contrato que a conta precisa passar para mexer
 VALOR_PONTO = custos.WIN_VALOR_PONTO          # R$ por ponto do mini-indice
 CUSTO_LADO = custos.WIN_TARIFA_LADO + custos.WIN_TICK_PONTOS * custos.WIN_VALOR_PONTO   # tarifa + 1 tick contra, por contrato
 
-REGRA_NA_TELA = ("A venda de mini-índice acompanha as ações já compradas: o alvo é metade do valor delas, em contratos "
-                 "inteiros, e o valor vendido nunca passa do valor das ações. Ela é carregada de um dia para o outro. Não "
-                 "tem stop de preço: é proteção, perde quando a bolsa sobe e as ações ganham; o que conta é a soma das duas.")
+# Decisoes do Douglas sobre a carteira ficam neste arquivo (fora do codigo): {"razao_protecao": 0.25, "motivo": "..."}.
+ARQ_CONFIG = os.path.join(DIR_SAIDA, "carteira_config.json")
+
+
+def razao(arq=None):
+    """Fracao do valor das acoes que fica vendida em mini-indice. Padrao RAZAO; o Douglas muda em carteira_config.json
+    (em 10/10/2026 ele pediu 1/4, depois de ver no teste longo que a protecao pesada custou retorno)."""
+    try:
+        with open(arq or ARQ_CONFIG, encoding="utf-8") as f:
+            v = float((json.load(f) or {}).get("razao_protecao"))
+        return v if 0.0 <= v <= 1.0 else RAZAO
+    except (OSError, ValueError, TypeError):
+        return RAZAO
+
+
+def regra_na_tela(r=None):
+    r = razao() if r is None else float(r)
+    fracao = {0.5: "metade", 0.25: "um quarto", 1.0: "o total", 0.0: "nada"}.get(round(r, 4), f"{r * 100:.0f}%".replace(".", ","))
+    return (f"A venda de mini-índice acompanha as ações já compradas: o alvo é {fracao} do valor delas, em contratos inteiros "
+            "(só entra quando a conta chega a três quartos de um contrato), e o valor vendido nunca passa do valor das ações. "
+            "Ela é carregada de um dia para o outro. Não tem stop de preço: é proteção, perde quando a bolsa sobe e as ações "
+            "ganham; o que conta é a soma das duas.")
+
+
+REGRA_NA_TELA = regra_na_tela(RAZAO)
 
 
 def nocional(preco, contratos=1, valor_ponto=VALOR_PONTO):
@@ -42,7 +67,7 @@ def nocional(preco, contratos=1, valor_ponto=VALOR_PONTO):
     return float(preco) * float(valor_ponto) * int(contratos)
 
 
-def contratos_alvo(valor_acoes, preco, atual, razao=RAZAO, folga=FOLGA, permitido=True):
+def contratos_alvo(valor_acoes, preco, atual, razao=None, folga=FOLGA, permitido=True):
     """Quantos contratos de mini-indice devem ficar vendidos agora.
 
     `valor_acoes`: valor de mercado das acoes carregadas (R$). `preco`: mini-indice em pontos. `atual`: contratos vendidos
@@ -55,7 +80,8 @@ def contratos_alvo(valor_acoes, preco, atual, razao=RAZAO, folga=FOLGA, permitid
         return atual
     valor = max(float(valor_acoes), 0.0)
     um = nocional(preco)
-    x = float(razao) * valor / um                     # contratos "fracionarios" que a razao pede
+    r = globals()["razao"]() if razao is None else float(razao)
+    x = r * valor / um                                # contratos "fracionarios" que a razao pede
     alvo = atual
     if x >= atual + folga:
         alvo = int(math.floor(x + (1.0 - folga) + 1e-9))
@@ -96,6 +122,8 @@ def marcar(h, preco, valor_acoes=None):
     h["resultado_hoje"] = round(float(h["aberto"]) + float(h.get("realizado") or 0.0) - float(h.get("custos") or 0.0), 2)
     if valor_acoes is not None:
         h["valor_acoes"] = round(float(valor_acoes), 2)
+        # o que a razao pede em contratos, antes de arredondar: a tela usa para explicar por que ha (ou nao ha) venda
+        h["alvo_fracionario"] = round(razao() * float(valor_acoes) / nocional(preco), 2) if (preco and float(preco) > 0) else None
         h["cobertura"] = (nocional(preco, n) / float(valor_acoes)) if (n and preco and float(valor_acoes) > 0) else (0.0 if not n else None)
     return h
 
