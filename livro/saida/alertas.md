@@ -1,4 +1,4 @@
-ALERTAS · Fechamento 18h
+ALERTAS · eventos
 
 (pendente de slot anterior) [ATENÇÃO] E05 · JPM · JPMorgan, Goldman Sachs tread carefully in $5B Volta AI loan offering - report (JPM:NYSE)
 Seeking Alpha · 12/10 17h00 · fonte única · licença: manchete
@@ -28,29 +28,10 @@ Fonte: TradingView (Reuters) 12/10 09h06
 ids: E05-MU-5fb3d7e91d-2026-10-12
 
 Info (só linha no Fechamento):
-· E05 BAC · Is Bank of America's Stock a Buy Ahead of Its Q3 Earnings Report on Oct. 14?
-· E05 LITE · Why Ciena, Lumentum and other optical stocks were among the market’s biggest losers on Monday
-· E05 COHR · Coherent: A Tempting Buy But There's One Big Reason To Stay Away (NYSE:COHR)
-· E05 LITE · Lumentum Holdings drops 10% as volatile trading continues (LITE:NASDAQ)
-· E05 LITE · Why Lumentum Sank Today
-· E05 USDBRL · Dólar mantém maior cotação em 18 meses diante de tensões no Golfo e inflação nos EUA
-· E05 TSLA · Tesla Stock Rises as Elon Musk Asserts Control Over Terafab Chip Project
-· E05 AVGO · Broadcom CEO Says Many AI Investors Have ‘No Clue,’ Likens Boom to a Casino
-· E05 UST · European Weakness and Softer Inflation Could Push Treasury Yields Lower
-· E05 UST · Bonds At 5%: Is The 10-Year Treasury Finally A Buy?
-· T08 SOXX entrou em queda de -15% do pico: -17% do pico de 52s (US$ 655,01 em 22/06) a US$ 544,85
-· T08 REMX entrou em queda de -45% do pico: -47% do pico de 52s (US$ 109,53 em 11/05) a US$ 58,18
-· T08 MRVL entrou em queda de -15% do pico: -16% do pico de 52s (US$ 316,43 em 04/06) a US$ 265,86
-· T08 MU entrou em queda de -15% do pico: -19% do pico de 52s (US$ 1.214 em 25/06) a US$ 989,04
-· T08 COHR entrou em queda de -30% do pico: -33% do pico de 52s (US$ 426,89 em 02/06) a US$ 288,02
-· T08 NOK entrou em queda de -40% do pico: -41% do pico de 52s (US$ 16,85 em 02/06) a US$ 9,90
 · T08 INTC entrou em queda de -25% do pico: -26% do pico de 52s (US$ 140,94 em 22/06) a US$ 104,70
 · C05 Pre 2029 FECHA 23 bps (PU +0,5%) · Pre 2031 FECHA 26 bps (PU +1,0%) · IPCA+ 2032 FECHA 17 bps (PU +1,1%) (base 09/10)
 · C03 Prefixado em nível: Pre 2029 cruzou 12,50% (agora 12,30%) · Pre 2029 na mínima de 252 bases: 12,30% · Pre 2031 cruzou 12,50% (agora 12,45%)
 · C06 Inflação implícita: implícita 2029 -67 bps na semana · implícita 2032 -56 bps na semana · implícita 2031/32 (descasado) -57 bps na semana
-· T01 WQTMUS fechou abaixo da média de 200 dias pela 1ª sessão: US$ 30,24 vs MM200 US$ 31,08 (-2,7%)
-· T01 NOK fechou abaixo da média de 200 dias pela 1ª sessão: US$ 9,90 vs MM200 US$ 10,13 (-2,3%)
-· T04 REMX fechou na mínima de 52 semanas: US$ 58,18, -18% em 1m e -15% em 12m
 · T06 PLTR +11% em 5 sessões a US$ 209,05: movimento de 3,2 desvios para a vol de 20 dias
 · T06 RARA11 -8,3% em 5 sessões a R$ 13,58: movimento de 2,6 desvios para a vol de 20 dias
 · T06 CURY3 +23% em 5 sessões a R$ 34,52: movimento de 2,9 desvios para a vol de 20 dias
@@ -59,7 +40,7 @@ Info (só linha no Fechamento):
 · T10 KLBN4 no mínimo de força relativa em 63 sessões contra IBOV: -5,7% vs +12% em 20 sessões (-16% relativo)
 · T10 MRVE3 no máximo de força relativa em 63 sessões contra IBOV: +36% vs +12% em 20 sessões (+22% relativo)
 
-Suprimidos pelo teto (viram linha do Fechamento): T08-SOXX--15-2026-10-12 (teto diário de críticos), T08-REMX--45-2026-10-12 (teto diário de críticos), T08-MRVL--15-2026-10-12 (teto diário de críticos), T08-MU--15-2026-10-12 (teto diário de críticos), T08-COHR--30-2026-10-12 (teto diário de críticos), T08-NOK--40-2026-10-12 (teto diário de críticos), T08-INTC--25-2026-10-09 (teto diário de críticos), C05-TESOURO-fechou-2026-10-09 (teto diário de críticos), C03-TESOURO-td-2026-10-09 (teto diário de críticos), C06-TESOURO-implicita-2026-10-09 (teto diário de críticos), T01-WQTMUS-perda-2026-10-12 (teto de atenção), T01-NOK-perda-2026-10-12 (teto de atenção), T04-REMX-minima-2026-10-12 (teto de atenção), T06-PLTR-alta-2026-10-09 (teto de atenção), T06-RARA11-queda-2026-10-09 (teto de atenção), T06-CURY3-alta-2026-10-09 (teto de atenção), T09-MRVE3-alta-2026-10-09 (teto de atenção), T10-SAPR4-máximo-2026-10-09 (teto de atenção), T10-KLBN4-mínimo-2026-10-09 (teto de atenção), T10-MRVE3-máximo-2026-10-09 (teto de atenção)
+Suprimidos pelo teto (viram linha do Fechamento): T08-INTC--25-2026-10-09 (teto diário de críticos), C05-TESOURO-fechou-2026-10-09 (teto diário de críticos), C03-TESOURO-td-2026-10-09 (teto diário de críticos), C06-TESOURO-implicita-2026-10-09 (teto diário de críticos), T06-PLTR-alta-2026-10-09 (teto de atenção), T06-RARA11-queda-2026-10-09 (teto de atenção), T06-CURY3-alta-2026-10-09 (teto de atenção), T09-MRVE3-alta-2026-10-09 (teto de atenção), T10-SAPR4-máximo-2026-10-09 (teto de atenção), T10-KLBN4-mínimo-2026-10-09 (teto de atenção), T10-MRVE3-máximo-2026-10-09 (teto de atenção)
 
 Alertas do dia (todos, com status):
 · linha     T08 REMX — REMX entrou em queda de -45% do pico: -47% do pico de 52s (US$ 109,53 em 11/05) 
@@ -75,9 +56,9 @@ Alertas do dia (todos, com status):
 · linha     T08 SOXX — SOXX entrou em queda de -15% do pico: -17% do pico de 52s (US$ 655,01 em 22/06) 
 · linha     T08 MRVL — MRVL entrou em queda de -15% do pico: -16% do pico de 52s (US$ 316,43 em 04/06) 
 · linha     T08 MU — MU entrou em queda de -15% do pico: -19% do pico de 52s (US$ 1.214 em 25/06) a U
-· pendente  E05 JPM — JPM · JPMorgan, Goldman Sachs tread carefully in $5B Volta AI loan offering - re
-· pendente  E05 AMZN — AMZN · MIT files patent lawsuit against Amazon over cloud security technology
-· pendente  E05 MU — MU · What's next for Micron Technology after blockbuster Q4, guidance beat?
+· expirado  E05 JPM — JPM · JPMorgan, Goldman Sachs tread carefully in $5B Volta AI loan offering - re
+· expirado  E05 AMZN — AMZN · MIT files patent lawsuit against Amazon over cloud security technology
+· expirado  E05 MU — MU · What's next for Micron Technology after blockbuster Q4, guidance beat?
 · linha     C03 TESOURO — Prefixado em nível: Pre 2029 cruzou 12,50% (agora 12,30%) · Pre 2029 na mínima d
 · linha     C06 TESOURO — Inflação implícita: implícita 2029 -67 bps na semana · implícita 2032 -56 bps na
 · entregue  C02 DI — Inclinação da curva DI: F35-F28 -24 bps no dia: bull flattening (longo fechou ma

@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 12/10 18h14
+NOTÍCIAS E FATOS · 12/10 18h40
 
-Pernas: noticias ok 10 novas (18 consultas; descartadas: 435 veículo fora da lista, 32 sem ativo, 0 teto) · cvm ok 0 novos de 2 (2 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 0 novas (18 consultas; descartadas: 429 veículo fora da lista, 35 sem ativo, 0 teto) · cvm ok 0 novos de 2 (2 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (2)
 
@@ -39,7 +39,7 @@ Por que importa: oferta de acoes ou divida altera a base acionaria ou a alavanca
 Ativos: JPM
 Como falar: 'saiu no Seeking Alpha: JPMorgan, Goldman Sachs tread carefully in $5B Volta AI loan offering - report (JPM:NYSE); confirmar o número no texto antes de repassar'
 Fonte: Seeking Alpha 12/10 17h00
-id: E05-JPM-d30c6e05f9-2026-10-12 · status: pendente
+id: E05-JPM-d30c6e05f9-2026-10-12 · status: expirado
 
 [ATENÇÃO] E05 · AMZN · MIT files patent lawsuit against Amazon over cloud security technology
 TradingView (Reuters) · 12/10 12h06 · + Reuters · licença: manchete
@@ -48,7 +48,7 @@ Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e 
 Ativos: AMZN
 Como falar: 'saiu no TradingView (Reuters): MIT files patent lawsuit against Amazon over cloud security technology; confirmar o número no texto antes de repassar'
 Fonte: TradingView (Reuters) 12/10 12h06
-id: E05-AMZN-88dbe45d2f-2026-10-12 · status: pendente
+id: E05-AMZN-88dbe45d2f-2026-10-12 · status: expirado
 
 [ATENÇÃO] E05 · MU · What's next for Micron Technology after blockbuster Q4, guidance beat?
 TradingView (Reuters) · 12/10 09h06 · fonte única · licença: manchete
@@ -57,7 +57,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: MU
 Como falar: 'saiu no TradingView (Reuters): What's next for Micron Technology after blockbuster Q4, guidance beat?; confirmar o número no texto antes de repassar'
 Fonte: TradingView (Reuters) 12/10 09h06
-id: E05-MU-5fb3d7e91d-2026-10-12 · status: pendente
+id: E05-MU-5fb3d7e91d-2026-10-12 · status: expirado
 
 [ATENÇÃO] E05 · BTC · Bitcoin Price Outlook: Bulls Defend $83K, But ETF Flows And Trading Volume Raise Recovery Questions
 TradingView (Reuters) · 12/10 06h37 · fonte única · licença: manchete
