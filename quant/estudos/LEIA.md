@@ -335,3 +335,49 @@ do terminal". O que existe por causa disso:
   `quant/docs/terminal-para-o-robo.md`. No terminal, `coletor/banco.py` guarda a historia diaria em SQLite.
 - Pendente do Douglas: liberar ou nao o setup D1.S1 (reacao ao resultado) com capital; parar ou nao o mini-dolar em R$ 100;
   fonte para a expectativa dos dados americanos (`cache/manual/consenso_eua.csv` no terminal).
+
+## 11/10/2026 (noite): bonificacoes que faltavam na tabela de eventos (defeito de dado, achado pela auditoria da TIR)
+
+O que era: o indice de retorno total (`eventos.retorno_total_limpo`, que alimenta TODO backtest, os sinais de momentum, o gate e o swing) subia menos que o preco
+ajustado do terminal em 41 meses de 15 papeis (ITUB4, BBDC4, WEGE3, ITSA4, LREN3, CMIG4, SLCE3, ...). Retorno total nunca sobe menos que o preco; quando sobe,
+falta bonificacao ou desdobramento na tabela `banco/eventos.parquet` e o indice "cai" na data-ex (bonificacao de 10% = -9,1%; desdobramento 1:2 = -50%).
+
+Tres causas, em ordem de tamanho (`quant/dados/eventos_cvm.py`, docstring completa):
+1. **A lista da B3 tem buracos** (`GetListedSupplementCompany` nao devolve toda bonificacao antiga: Itau so 4 das ~10 desde 2007, Bradesco nada entre 2010 e 2021, WEG
+   nao tem 2014 nem 2015). Nao e truncamento por tamanho. Agora a segunda fonte e a CVM: FRE item 17.3 (`dados_brutos/cvm_fre`, quantidade de acoes antes e depois, ate o FRE
+   de 2023) e, de 2024 em diante (o FRE novo nao tem mais o item), o salto exato do numero de acoes entre dois trimestres (`capital_social.parquet`: proporcao redonda, igual
+   nas classes). A CVM da o fator e a assembleia, nao a data-ex: a data-ex vem do PRECO (o dia da janela em que `preco x fator + provento` fica mais perto do preco anterior,
+   menos a mediana do mercado). Contra os eventos de 7% ou mais que a B3 ja traz (129), acerta o dia (a 3 dias) 89% das vezes (115). Fonte gravada: `cvm_fre` / `cvm_capital`; `obs` leva o escore e a
+   margem (22 de 315 com `DATA INCERTA`: o retorno acumulado esta certo, o dia pode estar algumas semanas fora).
+2. **O leitor da B3 descartava o evento de quem recebe**: na bonificacao `assetIssued` e a classe das acoes NOVAS e `isinCode` a do titular. CYRE3 (18,96%, 2025), AXIA3
+   (26,3%), RENT3, BPAC11, SANB3 saiam. Conserto em `eventos._casa_evento_de_quantidade`; unit recebe o evento das classes que a compoem.
+3. O COTAHIST nao ajuda: `fatcot` e fator de lote, nao de bonificacao.
+
+Dos 41 casos: 35 tinham o evento faltando e agora estao na tabela (30 FRE, 2 leitor da B3 corrigido, 2 salto do numero de acoes, 1 ja era da B3); 6 sao o terminal que datou o evento
+na assembleia e nao no ex (BBDC4 2017-03 e 2018-03, ITSA4 2016-04, CMIG4 2013-04, EZTC3 2015-04: o evento esta na tabela 1 a 2 meses depois, na data do preco; CMIG4 2014-09,
+queda de 22% sem evento).
+Entraram **315 eventos de quantidade em 161 papeis** (257 FRE, 26 salto de acoes, 32 leitor da B3; 208 bonificacoes, 58 desdobramentos, 49 grupamentos).
+
+Limites declarados: evento abaixo de 5% nao entra (some no ruido do dia; vies < 5% por evento); reducao de acoes que nao e grupamento redondo nao entra (cancelamento de
+tesouraria: Ambev 2013, Assai 2020); direito de subscricao continua fora do retorno (o Yahoo ajusta como desdobramento).
+
+Como refazer: a rotina diaria (`python -m quant.dados.eventos`) ja faz sozinha. Sem rede, a partir dos brutos que estao no disco:
+`python -m quant.dados.eventos --do-bruto --sem-statusinvest` (guarda `banco/eventos_antes_do_bruto_AAAAMMDD.parquet`, o parquet COMO ESTAVA; nunca sobrescreve a copia).
+So a parte da CVM sobre um parquet existente: `python -m quant.dados.eventos_cvm --gravar`.
+
+Teste (`test_retorno_total_universo.py`, dado real; pula sem ele): compara, mes a mes, o indice com o preco ajustado do terminal (`cache/out/longo`, Yahoo) em TODO o
+universo liquido (giro >= R$ 5 mi, 2010 em diante) e reprova mes novo fora de `CONHECIDOS` (33 meses, 24 em que o Yahoo ajusta 5% a 19% sem evento na B3 nem na CVM, provavel direito
+de subscricao; 9 com erro do Yahoo). Universo liquido 2010+: 95 meses em 43 papeis ANTES (47 nos 15 da auditoria, 48 em 30 outros papeis) para 43 meses em 29 papeis DEPOIS
+(33 sem explicacao, 8 serie do Yahoo parada, 2 subscricao). Universo inteiro (441 papeis com serie): 498 meses em 180 papeis para 385 em 162. A lista de 41 da auditoria: 0 reprovam.
+
+Efeito, so descritivo e sem reabrir nada (`pesquisa_carteira/90_efeito_eventos_corrigidos.py` e `pesquisa_swing/95_efeito_eventos_corrigidos.py`; o numero publicado foi refeito
+primeiro com a tabela de antes e bate com `holdout.json` a 1e-9):
+- Carteira de fatores, holdout 2016-2026 (S2, a principal): 10,77% -> 9,92% ao ano (o publicado estava 0,85 ponto ACIMA do corrigido); excesso sobre o CDI +1,17 -> +0,33 ponto;
+  Sharpe do excesso 0,12 -> 0,03; queda maxima 23,3% -> 26,2%. S0: 14,17% -> 14,66% (+0,49); S1: 14,13% -> 14,30% (+0,18). Desenvolvimento 2012-03 a 2015-12: S2 6,59% -> 8,26%,
+  S0 2,06% -> 4,45%, S1 3,22% -> 5,33% (publicado 1,7 a 2,4 pontos abaixo). Nenhuma conclusao muda: o S2 continua reprovado (e piora).
+- Swing, descoberta e validacao 2010-2021 (39 variantes): nenhuma variante muda de lado; finalistas 0 -> 0; a prova 2022-2026 segue FECHADA. D1.S1 (a quase-aprovada) vai de
+  Sharpe 0,28 para 0,25 na descoberta.
+- Livro de tentativas: duas linhas com escopo `correcao_de_dado` (t0079 carteira, t0080 swing), fora do N de todas as familias (n_tentativas segue 37; swing 39). Nao e
+  tentativa nova: mesma regra, mesmos parametros, outro dado.
+- Painel de sinais refeito com a tabela corrigida: `pesquisa_carteira/sinais_2011_2026_eventos_corrigidos.parquet` (so mudam as colunas derivadas de retorno: momentum e
+  volatilidade). O original continua ao lado.

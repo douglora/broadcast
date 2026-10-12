@@ -91,7 +91,9 @@ from quant.comum import DIR_QUANT, RAIZ, gravar_atomico, gravar_json, ler_json, 
 ARQ_LIVRO = os.path.join(DIR_QUANT, "livro_tentativas.jsonl")
 ARQ_HOLDOUT = os.path.join(DIR_QUANT, "holdout.json")
 HOLDOUT = ("2016-01-01", "2026-06-30")          # periodo reservado: uma unica passada
-ESCOPOS = ("teste", "pesquisa", "pre_registrado", "holdout", "swing")   # "swing": familia propria (11/10/2026), fora do N das outras
+ESCOPOS = ("teste", "pesquisa", "pre_registrado", "holdout", "swing", "correcao_de_dado")
+# "swing": familia propria (11/10/2026), fora do N das outras. "correcao_de_dado" (12/10/2026): refazer a MEDIDA de algo ja publicado depois de consertar um erro de
+# dado (nao e tentativa nova de estrategia: mesma regra, mesmos parametros, outro dado). Fora do N de todas as familias: nao entra em n_tentativas nem no Sharpe deflacionado.
 ESCOPOS_QUE_CONTAM = ("pesquisa", "pre_registrado")
 GAMA_EULER = 0.5772156649015329                 # constante de Euler-Mascheroni
 COLUNAS = ["id", "carimbo", "escopo", "motivo", "versao_codigo", "hash_config", "config",

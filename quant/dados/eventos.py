@@ -21,6 +21,10 @@ Fontes (todas com defeitos conhecidos, por isso a UNIAO delas):
       usamos o nominal original (`sov`) quando existe, porque o ajuste e forward.
   (d) quant/dados/eventos_curados.csv: curadoria manual do que as APIs truncam ou
       omitem (ex.: bonificacao de 10% da SLCE3 em 2023).
+  (e) quant/dados/eventos_cvm.py (12/10/2026): bonificacao, desdobramento e grupamento que a
+      B3 NAO lista (Itau 2013-2016, Bradesco 2013-2021, WEG 2014-2015...), da CVM (FRE item
+      17.3 e saltos do numero de acoes), com a data-ex achada pelo preco. Chamado no fim de
+      `carga_em_lote`; ver o docstring de la e `estudos/LEIA.md`.
 
 Tabela `eventos`: ticker, tipo, data_com, data_ex, valor, fator, data_aprov, fonte, carimbo, obs
   tipo   DIVIDENDO | JCP | RENDIMENTO | DESDOBRAMENTO | GRUPAMENTO | BONIFICACAO | SUBSCRICAO | OUTRO
@@ -71,7 +75,7 @@ COLUNAS = ["ticker", "tipo", "data_com", "data_ex", "valor", "fator", "data_apro
 TIPOS = ("DIVIDENDO", "JCP", "RENDIMENTO", "DESDOBRAMENTO", "GRUPAMENTO", "BONIFICACAO", "SUBSCRICAO", "OUTRO")
 TIPOS_DINHEIRO = ("DIVIDENDO", "JCP", "RENDIMENTO")
 TIPOS_QUANTIDADE = ("DESDOBRAMENTO", "GRUPAMENTO", "BONIFICACAO")
-PRIORIDADE_FONTE = {"b3": 0, "b3_suplemento": 1, "statusinvest": 2, "curadoria": 3}
+PRIORIDADE_FONTE = {"b3": 0, "b3_suplemento": 1, "statusinvest": 2, "curadoria": 3, "cvm_fre": 4, "cvm_capital": 5}
 IR_JCP = 0.15
 
 # sufixo do ticker -> classe, e classe -> trecho do ISIN (posicoes 6-10: ACNOR, ACNPR, CDAM...)
@@ -129,6 +133,23 @@ def classe_do_isin(isin):
         if s[6:].startswith(trecho):
             return classe
     return None
+
+
+CLASSES_DE_UNIT = ("ON", "PN", "PNA", "PNB", "PNC", "PND")      # o certificado (unit) e uma cesta dessas classes: evento nelas e dele
+
+
+def _casa_evento_de_quantidade(r, ticker):
+    """Desdobramento, grupamento e bonificacao do suplemento da B3: o evento vale para o ticker se a classe dele aparece em `isinCode` OU em
+    `assetIssued`. DEFEITO CORRIGIDO EM 11/10/2026: o leitor olhava so `assetIssued`, que na bonificacao e a classe das acoes NOVAS (CYRE3 2025: a
+    bonificacao de 18,96% emite acoes PN, mas e paga ao titular da ON; AXIA3 2025: emite PNC e e paga a ON, PNA e PNB), e descartava o evento
+    de quem recebe a bonificacao. `isinCode` e o papel do titular. Unit (UNT) tambem recebe o evento das classes que a compoem."""
+    alvo = classe_do_ticker(ticker)
+    classes = [c for c in (classe_do_isin(r.get("isinCode")), classe_do_isin(r.get("assetIssued"))) if c]
+    if not classes or alvo is None:
+        return True
+    if any(_casa_classe(c, ticker) for c in classes):
+        return True
+    return alvo == "UNT" and any(c in CLASSES_DE_UNIT for c in classes)
 
 
 def _casa_classe(classe_evento, ticker):
@@ -284,7 +305,7 @@ def normalizar_b3_suplemento(obj, ticker, carimbo=None):
         if not isinstance(bloco, dict):
             continue
         for r in bloco.get("stockDividends") or []:
-            if not _casa_classe(classe_do_isin(r.get("assetIssued") or r.get("isinCode")), ticker):
+            if not _casa_evento_de_quantidade(r, ticker):
                 continue
             data_com = data_br(r.get("lastDatePrior"))
             if pd.isna(data_com):
@@ -642,6 +663,20 @@ def baixar_b3_suplemento(issuing_company):
     return obj
 
 
+def _bruto_recente(prefixo, nome):
+    """O bruto mais novo ja guardado em dados_brutos/b3_proventos (`<prefixo>_<nome>_AAAAMMDD.json.gz`) ou None. Serve para REFAZER a tabela sem rede
+    (`carga_em_lote(do_bruto=True)`): a mesma normalizacao, sobre o que a B3 respondeu da ultima vez."""
+    base = re.sub(r"[^A-Za-z0-9_-]+", "_", f"{prefixo}_{nome}").strip("_")
+    achados = sorted(f for f in (os.listdir(DIR_B3) if os.path.isdir(DIR_B3) else []) if re.fullmatch(re.escape(base) + r"_\d{8}\.json\.gz", f))
+    if not achados:
+        return None
+    try:
+        from quant.comum import ler_gzip
+        return json.loads(ler_gzip(os.path.join(DIR_B3, achados[-1])).decode("utf-8"))
+    except Exception:
+        return None
+
+
 def baixar_statusinvest(ticker):
     """companytickerprovents do StatusInvest (exige User-Agent + Referer). JSON ou None."""
     r = http_get(URL_STATUSINVEST.format(ticker=ticker.lower()), headers=HEADERS_STATUSINVEST)
@@ -722,7 +757,7 @@ def papeis_do_lote(volume_min=VOLUME_MIN_LOTE):
     return fora
 
 
-def carga_em_lote(papeis=None, trabalhadores=TRABALHADORES_LOTE, com_statusinvest=True):
+def carga_em_lote(papeis=None, trabalhadores=TRABALHADORES_LOTE, com_statusinvest=True, do_bruto=False, com_cvm=True):
     """Baixa B3 (dividendos por nome de pregao + suplemento por emissor) e StatusInvest para
     todos os papeis e grava banco/eventos.parquet. Devolve (tabela, faltas).
 
@@ -730,6 +765,9 @@ def carga_em_lote(papeis=None, trabalhadores=TRABALHADORES_LOTE, com_statusinves
     mesma resposta. Papel em que nenhuma fonte respondeu entra em `faltas` com o motivo - a
     conferencia lista, ninguem finge que nao ha evento. StatusInvest que comeca a recusar
     (bloqueio) e desligado no meio da carga em vez de gastar tres tentativas por papel.
+
+    `do_bruto=True`: sem rede, refaz a tabela a partir dos brutos mais novos ja guardados (e sem StatusInvest). `com_cvm=True`: depois de juntar as
+    fontes, completa com os eventos de quantidade da CVM que a lista da B3 nao traz (`eventos_cvm.completar`).
     """
     from concurrent.futures import ThreadPoolExecutor
     papeis = papeis if papeis is not None else papeis_do_lote()
@@ -738,15 +776,15 @@ def carga_em_lote(papeis=None, trabalhadores=TRABALHADORES_LOTE, com_statusinves
     for tk, nome in papeis.items():
         por_emissor.setdefault(tk[:4], []).append((tk, nome))
     cur = carregar_curados()
-    estado = {"si_falhas": 0, "si_ligado": bool(com_statusinvest)}
+    estado = {"si_falhas": 0, "si_ligado": bool(com_statusinvest) and not do_bruto}
 
     def um_emissor(item):
         emissor, lista = item
         partes, faltas = [], []
-        sup = baixar_b3_suplemento(emissor)
+        sup = _bruto_recente("suplemento", emissor) if do_bruto else baixar_b3_suplemento(emissor)
         div = {}
         for nome in sorted({n for _t, n in lista if n}):
-            div[nome] = baixar_b3_dividendos(nome)
+            div[nome] = _bruto_recente("dividendos", nome) if do_bruto else baixar_b3_dividendos(nome)
         for tk, nome in lista:
             achou = False
             d = div.get(nome)
@@ -779,6 +817,14 @@ def carga_em_lote(papeis=None, trabalhadores=TRABALHADORES_LOTE, com_statusinves
             if feitos % 50 == 0:
                 log(f"  eventos: {feitos}/{len(itens)} emissores")
     df = consolidar(*partes)
+    if com_cvm:
+        try:
+            from quant.dados import eventos_cvm
+            df, diag = eventos_cvm.completar_tabela(df)
+            n = int((diag["destino"] == "aplicado").sum()) if len(diag) else 0
+            log(f"eventos da CVM (FRE e saltos do numero de acoes): {n} evento(s) de quantidade que a B3 nao trazia")
+        except Exception as e:                      # a CVM e complemento: sem ela a tabela sai como a B3 deu, e a falha fica no log
+            log(f"eventos da CVM nao aplicados ({type(e).__name__}: {e}); a tabela segue so com B3, StatusInvest e curadoria")
     gravar_eventos(df)
     return df, faltas
 
@@ -790,6 +836,8 @@ def main(argv=None):
     ap.add_argument("--nome", default=None, help="tradingName na B3 (ex.: PETROBRAS)")
     ap.add_argument("--emissor", default=None, help="issuingCompany na B3 (ex.: PETR)")
     ap.add_argument("--sem-statusinvest", action="store_true", help="so as duas fontes da B3 e a curadoria")
+    ap.add_argument("--do-bruto", action="store_true", help="sem rede: refaz a tabela dos brutos mais novos ja guardados (guarda copia do parquet antes)")
+    ap.add_argument("--sem-cvm", action="store_true", help="nao completa com os eventos de quantidade da CVM")
     args = ap.parse_args(argv)
     if args.ticker:
         df = baixar_eventos(args.ticker.upper(), args.nome, args.emissor)
@@ -797,7 +845,12 @@ def main(argv=None):
         return 0 if len(df) else 1
     papeis = papeis_do_lote()
     log(f"eventos em lote: {len(papeis)} papeis, {len({t[:4] for t in papeis})} emissores")
-    df, faltas = carga_em_lote(papeis, com_statusinvest=not args.sem_statusinvest)
+    if args.do_bruto and os.path.exists(ARQ_PARQUET):
+        copia = os.path.join(DIR_BANCO, f"eventos_antes_do_bruto_{agora_brt():%Y%m%d}.parquet")
+        if not os.path.exists(copia):                # nunca sobrescreve uma copia: a primeira e a do parquet como estava
+            pd.read_parquet(ARQ_PARQUET).to_parquet(copia, index=False)
+            log(f"copia do parquet antigo: {copia}")
+    df, faltas = carga_em_lote(papeis, com_statusinvest=not args.sem_statusinvest, do_bruto=args.do_bruto, com_cvm=not args.sem_cvm)
     com = df["ticker"].nunique() if len(df) else 0
     log(f"eventos: {len(df)} linhas, {com} de {len(papeis)} papeis com evento; "
         f"por tipo: {df['tipo'].value_counts().to_dict() if len(df) else {}}")
