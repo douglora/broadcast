@@ -44,6 +44,15 @@ def terminal(tmp_path, monkeypatch):
                                                  "indicadores": [{"id": "vix", "valor": 26.0}]}))
     (out / "b3.json").write_text(json.dumps({"fluxo": {"serie_dia": {"t": datas[-8:], "estrangeiro": [1e9] * 8}}}))
     (out / "pagina" / "wirp.json").write_text(json.dumps({"copom": {"reunioes": [{"data": "2026-11-05", "movimento_bps": -25}]}}))
+    import time as _t
+    (out / "tempo_real").mkdir()
+    estado = {"v": 1, "gerado": "2026-10-13T08:35:00-03:00", "gerado_epoch": _t.time(), "ok": True,
+              "agenda": {"proximos": [{"evento": "CPI (mes)", "pais": "US", "indicador": "cpi_mm", "quando": "2026-10-14T09:30:00-03:00", "faltam_s": 3600, "importancia": 3, "consenso": 0.6, "unidade": "%"}],
+                         "ultimo_que_saiu": {"evento": "Payroll", "pais": "US", "indicador": "payroll", "quando": "2026-10-02T09:30:00-03:00", "consenso": 52, "efetivo": 29, "surpresa": -23, "surpresa_dp": -1.4}},
+              "regime": {"itens": {"VIX": {"valor": 26.0, "pctl_1a": 92.0, "fonte": "Yahoo", "hora": "2026-10-13T08:34:00-03:00"}}},
+              "saude": {"motor": {"mt5": {"em_rajadas": True, "idade_ultimo_tique_s": 25}}},
+              "fluxo": {"posicao_em_aberto_total": {"valor": {"WDO": {"contratos_em_aberto": 500000, "variacao_dia": -1200}}, "pregao": "2026-10-09"}}}
+    (out / "tempo_real" / "estado.json").write_text(json.dumps(estado))
     monkeypatch.setenv("AUTOPILOT_TERMINAL", str(tmp_path))
     tabela = pd.DataFrame({"consenso_lpa_rev_30d_pct": [2.0] * 30 + [-1.0] * 10, "tir_premio_pp": [6.0] * 25 + [np.nan] * 15})
     monkeypatch.setattr(fontes, "tabela_terminal", lambda: tabela)
@@ -78,11 +87,24 @@ def test_sinais_leem_o_terminal_de_mentira(terminal):
     # rodada 2 (12/10/2026): apetite a risco conta so o S&P (HYG caiu, DXY parado em 5 pregoes, VIX subiu) e a vol do dolar esta alta
     assert por["risco_apetite"]["valor"] == 1 and por["risco_apetite"]["leitura"] == -1
     assert por["usdbrl_vol_regime"]["leitura"] == 1
+    # estado do mundo em tempo real (so medindo): proximo evento em ~1 h, payroll 1,4 desvios abaixo (dolar mais fraco), VIX no percentil 92, feed em rajadas
+    assert abs(por["tr_proximo_evento"]["valor"] - 1.0) < 0.05 and por["tr_proximo_evento"]["leitura"] == 0
+    assert por["tr_ultimo_dado"]["leitura"] == -1 and por["tr_ultimo_dado"]["valor"] == pytest.approx(-1.4)
+    assert por["tr_vix_percentil"]["leitura"] == -1 and por["tr_feed_mt5"]["leitura"] == -1
+    assert por["tr_posicao_aberta_wdo"]["valor"] == 500000
     assert por["dado_eua_hoje"]["leitura"] == 0 and "8h30" in por["dado_eua_hoje"]["texto"]
     assert por["copom_proximo"]["data_dado"] == "2026-11-05"
     assert not faltam or all(x in ("ntnb35_20d",) for x in faltam)
     for s in lidos:
         assert set(s) >= {"id", "grupo", "modulo", "horizonte", "valor", "leitura", "texto", "fonte"} and s["leitura"] in (-1, 0, 1)
+
+
+def test_estado_velho_nao_vale(terminal):
+    arq = terminal / "tempo_real" / "estado.json"
+    e = json.loads(arq.read_text())
+    e["gerado_epoch"] -= 3600
+    arq.write_text(json.dumps(e))
+    assert fontes.tempo_real() is None                                  # processo parado: sem dado, nunca dado velho
 
 
 def test_termometro_conta_as_sete_e_declara_desconhecidas(terminal):

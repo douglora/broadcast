@@ -128,3 +128,17 @@ def test_tabela_surpresa_dia_prioriza_o_payroll(tmp_path):
     linhas += [_linha("2024.05.03 15:30", "nonfarm-payrolls", 175, 240, i=20), _linha("2024.05.03 15:30", "initial-jobless-claims", 230, 220, i=21)]
     t = ce.tabela_surpresa_dia(ce.eventos_830(ce.carregar_mt5(_mt5(tmp_path, linhas))))
     assert t.loc["2024-05-03", "tipo_principal"] == "payroll" and t.loc["2024-05-03", "n_eventos"] == 2
+
+
+
+def test_surpresa_pelo_livro_do_terminal(tmp_path):
+    """Livro do terminal (itens[indicador] = [dia, consenso, efetivo, surpresa, fonte]): mesma escala robusta, sinal do dolar."""
+    import json
+    hist = [[f"2024-0{m}-{d:02d}", 220, 220 + s, s, "teste"] for (m, d, s) in [(4, 4, 5), (4, 11, -10), (4, 18, 15), (4, 25, -20), (5, 2, 25), (5, 9, -30), (5, 16, 35)]]
+    hist.append(["2024-05-23", 220, 260, 40, "teste"])
+    arq = tmp_path / "surpresas.json"
+    arq.write_text(json.dumps({"v": 1, "itens": {"pedidos_seguro": hist, "ipca_mes": [["2026-10-09", 0.6, 0.82, 0.22, "Focus"]]}}))
+    t = ce.surpresa_terminal_por_dia(str(arq))
+    assert list(t.index.strftime("%Y-%m-%d")) == ["2024-05-16", "2024-05-23"]   # so a partir da 7a observacao (6 anteriores no minimo)
+    assert t.loc["2024-05-23", "S"] == pytest.approx(-40 / (1.4826 * 20)) and t.loc["2024-05-23", "tipo_principal"] == "claims"
+    assert ce.surpresa_terminal_por_dia(str(tmp_path / "nao_existe.json")).empty

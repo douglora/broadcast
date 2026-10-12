@@ -11,6 +11,8 @@ olhando resultado [MINHA]. O placar (placar.py) e quem dira, com 60+ leituras, s
 """
 from datetime import date
 
+import time
+
 import numpy as np
 import pandas as pd
 
@@ -261,8 +263,88 @@ def usdbrl_vol_regime(f):
                   f"Vol realizada do dolar {v:.1f}% a.a. contra mediana de 1 ano {m:.1f}%: " + ("alta" if alta else "baixa"), s.index[-1].date(), "terminal hist/USDBRL.json")
 
 
+# ─────────────────────────────────────────────────────────────
+# estado do mundo em tempo real (terminal, cache/out/tempo_real/estado.json; "3- pode" relatado em 12/10/2026: so medindo)
+# ─────────────────────────────────────────────────────────────
+SINAL_USD_TERMINAL = {"payroll": 1, "cpi_mm": 1, "cpi_nucleo_mm": 1, "cpi_12m": 1, "ppi_mm": 1, "varejo_us": 1, "pib_us": 1, "pce_nucleo_mm": 1,
+                      "ism_industria": 1, "ism_servicos": 1, "fed_funds": 1, "pedidos_seguro": -1, "desemprego_us": -1}
+
+
+def _tr(f):
+    return f.get("tempo_real") or None
+
+
+def tr_proximo_evento(f):
+    """Proximo evento relevante (importancia 2+) da agenda do terminal, com o consenso quando ha. Informativo: leitura 0."""
+    e = _tr(f)
+    if not e:
+        return None
+    prox = [p for p in ((e.get("agenda") or {}).get("proximos") or []) if (p.get("importancia") or 0) >= 2]
+    if not prox:
+        return None
+    p = prox[0]
+    faltam_h = (float(p.get("faltam_s") or 0) - (time.time() - float(e.get("gerado_epoch") or 0))) / 3600.0
+    cons = p.get("consenso")
+    txt = f"Proximo evento: {p.get('evento')} ({p.get('pais')}) em {faltam_h:.1f} h" + (f", consenso {cons}{p.get('unidade') or ''}" if cons is not None else ", sem consenso")
+    return _sinal("tr_proximo_evento", "macro", "dolar", 1, faltam_h, 0, txt, str(p.get("quando") or "")[:10], "terminal tempo_real/estado.json (agenda)")
+
+
+def tr_ultimo_dado(f):
+    """O ultimo dado que saiu, com a surpresa em desvios (quando ha historico). Leitura so para dado dos EUA com |surpresa| >= 1
+    desvio, no sentido do dolar (payroll acima = dolar mais forte; pedidos de auxilio acima = dolar mais fraco)."""
+    e = _tr(f)
+    u = ((e or {}).get("agenda") or {}).get("ultimo_que_saiu") if e else None
+    if not u:
+        return None
+    dp, surp = u.get("surpresa_dp"), u.get("surpresa")
+    valor = dp if dp is not None else surp
+    if valor is None:
+        return None
+    sinal = SINAL_USD_TERMINAL.get(u.get("indicador"), 0) if u.get("pais") == "US" else 0
+    leit = int(np.sign(dp * sinal)) if (sinal and dp is not None and abs(dp) >= 1.0) else 0
+    txt = (f"Ultimo dado: {u.get('evento')} ({u.get('pais')}): efetivo {u.get('efetivo')} contra consenso {u.get('consenso')}"
+           + (f", surpresa de {dp:+.1f} desvios" if dp is not None else ", surpresa sem historico"))
+    return _sinal("tr_ultimo_dado", "macro", "dolar", 1, valor, leit, txt, str(u.get("quando") or "")[:10], "terminal tempo_real/estado.json (agenda)")
+
+
+def tr_vix_percentil(f):
+    """VIX no percentil de 1 ano (regime do terminal): acima de 80 e estresse (contra), abaixo de 20 e calmaria (a favor)."""
+    e = _tr(f)
+    v = (((e or {}).get("regime") or {}).get("itens") or {}).get("VIX") or {}
+    pctl = v.get("pctl_1a")
+    if pctl is None:
+        return None
+    leit = -1 if pctl >= 80 else (1 if pctl <= 20 else 0)
+    return _sinal("tr_vix_percentil", "macro", "indice", 5, pctl, leit, f"VIX {v.get('valor')} no percentil {float(pctl):.0f} de 1 ano ({v.get('fonte')})",
+                  str(v.get("hora") or "")[:10], "terminal tempo_real/estado.json (regime)")
+
+
+def tr_feed_mt5(f):
+    """Saude do feed do MetaTrader (em rajadas = cotacoes atrasadas; o robo pode reabrir o MetaTrader). Contra quando em rajadas."""
+    e = _tr(f)
+    mt5 = ((((e or {}).get("saude") or {}).get("motor") or {}).get("mt5") or {})
+    if not mt5:
+        return None
+    raj = bool(mt5.get("em_rajadas"))
+    txt = "Feed do MetaTrader " + ("em rajadas: cotacoes atrasadas" if raj else "normal") + f" (ultimo tique ha {mt5.get('idade_ultimo_tique_s')} s)"
+    return _sinal("tr_feed_mt5", "micro", "dolar", 0, 1.0 if raj else 0.0, -1 if raj else 0, txt, str(e.get("gerado") or "")[:10], "terminal tempo_real/estado.json (saude)")
+
+
+def tr_posicao_aberta_wdo(f):
+    """Contratos em aberto do mini-dolar (total; a B3 nao abre por participante desde 04/2025) e a variacao do dia. Informativo."""
+    e = _tr(f)
+    pa = (((e or {}).get("fluxo") or {}).get("posicao_em_aberto_total") or {})
+    v = (pa.get("valor") or {}).get("WDO") if isinstance(pa.get("valor"), dict) else None
+    if not v or v.get("contratos_em_aberto") is None:
+        return None
+    var = v.get("variacao_dia")
+    txt = f"Mini-dolar: {int(v['contratos_em_aberto']):,} contratos em aberto".replace(",", ".") + (f" ({int(var):+,} no dia)".replace(",", ".") if isinstance(var, (int, float)) else "") + f", pregao {pa.get('pregao')}"
+    return _sinal("tr_posicao_aberta_wdo", "micro", "dolar", 5, v["contratos_em_aberto"], 0, txt, str(pa.get("pregao") or "")[:10], "terminal tempo_real/estado.json (fluxo)")
+
+
 SINAIS = (ust10_10d, dxy_20d, vix_regime, brent_10d, usdbrl_10d, hy_10d, di2_63d, ntnb35_20d, focus_ipca_1sem, copom_proximo, dado_eua_hoje,
-          fluxo_estrangeiro_5d, consenso_revisoes_30d, ibov_mm200, ibov_vol_20_252, erp_tir_mediana, cartas_tom, risco_apetite, usdbrl_vol_regime)
+          fluxo_estrangeiro_5d, consenso_revisoes_30d, ibov_mm200, ibov_vol_20_252, erp_tir_mediana, cartas_tom, risco_apetite, usdbrl_vol_regime,
+          tr_proximo_evento, tr_ultimo_dado, tr_vix_percentil, tr_feed_mt5, tr_posicao_aberta_wdo)
 
 
 def montar_fontes(hoje=None, com_tabela=True):
@@ -273,7 +355,7 @@ def montar_fontes(hoje=None, com_tabela=True):
     series["DI2A"] = _di2_serie(r)
     return {"hoje": hoje, "series": series, "hy": fontes.spread_serie("hy", r), "focus": fontes.focus(m=fontes.macro()),
             "copom": fontes.copom_proximo(), "fluxo": fontes.fluxo_estrangeiro(), "tabela": fontes.tabela_terminal() if com_tabela else None,
-            "cartas": fontes.cartas_tom(hoje), "mapa_eua": ce.tipos_por_dia()}
+            "cartas": fontes.cartas_tom(hoje), "mapa_eua": ce.tipos_por_dia(), "tempo_real": fontes.tempo_real()}
 
 
 def _di2_serie(r):

@@ -342,3 +342,48 @@ def gravar_fixo_830(df=None, arq=None):
     os.makedirs(os.path.dirname(arq or ARQ_MT5_FIXO), exist_ok=True)
     sel.to_csv(arq or ARQ_MT5_FIXO, sep=";", index=False, encoding="utf-8")
     return len(sel)
+
+
+# indicador do terminal (DADOS_ENTREGUES.md) -> (tipo, sinal para o dolar), para o livro cache/out/tempo_real/surpresas.json
+INDICADORES_TERMINAL = {"payroll": ("payroll", 1), "desemprego_us": ("payroll", -1), "cpi_mm": ("cpi", 1), "cpi_nucleo_mm": ("cpi", 1),
+                        "cpi_12m": ("cpi", 1), "ppi_mm": ("ppi", 1), "pce_nucleo_mm": ("pce", 1), "varejo_us": ("varejo", 1),
+                        "pib_us": ("pib", 1), "pedidos_seguro": ("claims", -1), "ism_industria": ("outro", 1), "ism_servicos": ("outro", 1)}
+
+
+def surpresa_terminal_por_dia(arq=None, min_hist=MIN_HIST_Z):
+    """S por dia a partir do livro de surpresas do terminal (itens[indicador] = [dia, consenso, efetivo, surpresa, fonte]), com a
+    mesma escala robusta do calendario do MetaTrader (mediana de |surpresa| das JANELA_Z anteriores, |z| <= CAP_Z) e o sinal do
+    dolar; sem peso por importancia (o livro nao traz). Serve para os dias que a exportacao do MetaTrader ainda nao cobre."""
+    arq = arq or os.path.join(os.path.expanduser(os.environ.get("AUTOPILOT_TERMINAL", "~/Desktop/terminal-artefota".replace("artefota", "artefato"))),
+                              "cache", "out", "tempo_real", "surpresas.json")
+    try:
+        with open(arq, encoding="utf-8") as f:
+            d = json.load(f)
+    except (OSError, ValueError):
+        return pd.DataFrame()
+    linhas = []
+    for ind, (tipo, sinal) in INDICADORES_TERMINAL.items():
+        vals = []
+        for it in (d.get("itens") or {}).get(ind) or []:
+            try:
+                dia, surp = pd.Timestamp(it[0]), it[3]
+            except (IndexError, TypeError, ValueError):
+                continue
+            if surp is None:
+                continue
+            vals.append((dia.normalize(), float(surp)))
+        vals.sort()
+        for i, (dia, surp) in enumerate(vals):
+            passado = [abs(x) for _, x in vals[max(0, i - JANELA_Z):i]]
+            if len(passado) < min_hist:
+                continue
+            escala = 1.4826 * float(np.median(passado))
+            if escala <= 0:
+                continue
+            linhas.append({"dia": dia, "tipo": tipo, "z": float(np.clip(surp / escala, -CAP_Z, CAP_Z)) * sinal})
+    if not linhas:
+        return pd.DataFrame()
+    df = pd.DataFrame(linhas)
+    g = df.groupby("dia")
+    return pd.DataFrame({"S": g.z.sum(), "n_com_z": g.size(),
+                         "tipo_principal": g.tipo.agg(lambda t: next((p for p in PRIORIDADE_MT5 if p in set(t)), "outro"))}).sort_index()

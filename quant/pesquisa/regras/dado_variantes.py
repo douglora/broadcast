@@ -67,13 +67,17 @@ def ontem_perdeu(m):
 
 
 def contra_surpresa(m):
-    """So quando a reacao dos 2 minutos foi CONTRA o sentido da surpresa real (|S| >= 0,5; S do calendario do MetaTrader,
-    reexportado por mes: sem a exportacao do mes, o dia fica sem S e nao conta). Descoberta: +R$ 228/neg (n 56) contra +71 a favor."""
+    """So quando a reacao dos 2 minutos foi CONTRA o sentido da surpresa real (|S| >= 0,5; S do calendario do MetaTrader e, nos
+    dias que a exportacao nao cobre, do livro de surpresas do terminal em tempo real). Descoberta: +R$ 228/neg (n 56) contra +71 a favor."""
     s = base(m)
     S = ce.tabela_surpresa_dia()
-    if S.empty:
+    serie = S.S if not S.empty else pd.Series(dtype=float)
+    St = ce.surpresa_terminal_por_dia()                            # o livro do terminal cobre os dias que a exportacao nao cobre
+    if not St.empty:
+        serie = serie.combine_first(St.S)
+    if serie.empty:
         return np.zeros(len(m))
-    Sd = S.S.reindex(_dias(m)).to_numpy(dtype=float)
+    Sd = serie.reindex(_dias(m)).to_numpy(dtype=float)
     mv = np.nan_to_num(regras._mov(m, PARAM["r"]))
     contra = (np.sign(mv) == -np.sign(Sd)) & (np.abs(Sd) >= 0.5)
     return np.where(contra & ~np.isnan(Sd), s, 0.0)

@@ -5,6 +5,7 @@ serie vazia, nunca excecao. O caminho do terminal vem de AUTOPILOT_TERMINAL (pad
 import json
 import os
 import sqlite3
+import time
 
 import pandas as pd
 
@@ -163,3 +164,18 @@ def cartas_tom(hoje, meses=3, caminho=None):
         return {"cautela": int(cautela), "oportunidade": int(oport), "docs": int(docs), "desde": desde}
     except sqlite3.Error:
         return None
+
+
+def tempo_real(max_idade_s=300, pasta=None):
+    """O estado do mundo que o terminal regrava a cada 60 s (cache/out/tempo_real/estado.json; esquema em
+    quant/pesquisa/DADOS_ENTREGUES.md). None quando nao existe, esta ilegivel ou tem mais de `max_idade_s` (processo parado:
+    sem dado, nunca dado velho como se fosse novo). So leitura."""
+    e = _json(os.path.join(pasta or os.path.join(cache_out(), "tempo_real"), "estado.json"))
+    if not isinstance(e, dict):
+        return None
+    try:
+        if time.time() - float(e.get("gerado_epoch") or 0) > max_idade_s:
+            return None
+    except (TypeError, ValueError):
+        return None
+    return e

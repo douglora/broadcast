@@ -48,5 +48,11 @@ def test_filtros_so_tiram_dias(monkeypatch):
     # contra a surpresa: reacao positiva; S > 0 concorda (fora), S < 0 contra (entra), sem S (fora)
     S = pd.DataFrame({"S": [1.0, -1.2, np.nan]}, index=pd.to_datetime(["2026-10-13", "2026-10-14", "2026-10-15"]))
     monkeypatch.setattr(ce, "tabela_surpresa_dia", lambda *a, **k: S)
+    monkeypatch.setattr(ce, "surpresa_terminal_por_dia", lambda *a, **k: pd.DataFrame())
     s = dv.contra_surpresa(m)
     assert int((s != 0).sum()) == 1 and pd.Timestamp(m.index[s != 0][0]).date().isoformat() == "2026-10-14"
+    # o livro do terminal cobre o dia 15 (sem MetaTrader): S < 0 contra a reacao positiva -> entra
+    St = pd.DataFrame({"S": [-0.9]}, index=pd.to_datetime(["2026-10-15"]))
+    monkeypatch.setattr(ce, "surpresa_terminal_por_dia", lambda *a, **k: St)
+    s = dv.contra_surpresa(m)
+    assert int((s != 0).sum()) == 2
