@@ -1,12 +1,12 @@
 {
- "gerado_em": "2026-10-06T18:35:10Z",
+ "gerado_em": "2026-10-12T20:25:49Z",
  "partes": {
   "cartas": {
-   "em": "2026-10-06T18:40:12Z",
+   "em": "2026-10-12T20:30:34Z",
    "resultado": {
     "cartas": 45,
     "metodos": {
-     "wp-json": 699,
+     "wp-json": 899,
      "categoria": 0,
      "padrao": 54,
      "informadas": 0
@@ -25,29 +25,50 @@
    }
   },
   "documentos": {
-   "em": "2026-10-06T18:40:30Z",
+   "em": "2026-10-12T20:30:56Z",
    "resultado": {
-    "pdfs": 15,
+    "pdfs": 16,
     "posts": 0,
-    "imagens": 19
+    "imagens": 21
    }
   },
   "videos": {
-   "em": "2026-10-06T18:41:32Z",
+   "em": "2026-10-12T20:31:54Z",
    "resultado": {
-    "videos": 40,
+    "videos": 38,
     "com_legenda": 0,
-    "erros": 40,
+    "erros": 38,
     "fora_do_tema": 0,
     "listagem": "yt-dlp"
+   }
+  },
+  "cda": {
+   "em": "2026-10-12T20:26:22Z",
+   "resultado": {
+    "meses": [
+     "2025-10",
+     "2025-11",
+     "2025-12",
+     "2026-01",
+     "2026-02",
+     "2026-03",
+     "2026-04",
+     "2026-05",
+     "2026-06",
+     "2026-07",
+     "2026-08",
+     "2026-09"
+    ],
+    "posicoes": 2666
    }
   }
  },
  "falhas": [
-  "videos: nenhuma legenda baixada; ultimo erro: painel: painel: pagina sem painel de transcricao | yt-dlp: android_vr: legenda listada mas nao entregue (o YouTube pede PO token) | audio: padrao: DownloadError: ERROR: [youtube] 2Hkb9GcGwV8: Este eve"
+  "videos: nenhuma legenda baixada; ultimo erro: painel: painel: get_transcript HTTP 400, 0 trechos | yt-dlp: nenhuma legenda listada | audio: padrao: DownloadError: ERROR: [youtube] 9lasMCOB6Ic: Faça login para confirmar que você não é um bot"
  ],
  "rodou": [
   "cartas",
+  "cda",
   "midia"
  ]
 }

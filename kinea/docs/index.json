@@ -1,8 +1,29 @@
 {
- "gerado_em": "2026-10-06T18:40:30Z",
+ "gerado_em": "2026-10-12T20:30:56Z",
  "fonte": "https://www.kinea.com.br (busca do WordPress: live, mochileiro, research, estudo, panorama, cenario, mochileiro, minha casa, construtoras, live economia, eleicao, bolsa)",
  "desde": "2026-01",
  "docs": [
+  {
+   "url": "https://www.kinea.com.br/wp-content/uploads/2026/10/Apresentacao-Live-Mensal.pdf",
+   "publicado_em": "2026-10-06",
+   "titulo": "Apresentacao-Live-Mensal",
+   "achado_por": "busca 'live'",
+   "tipo": "pdf",
+   "arquivo": "kinea/docs/2026-10-06_Apresentacao-Live-Mensal.txt",
+   "paginas": 55,
+   "chars": 28862,
+   "baixado_em": "2026-10-12T20:30:55Z",
+   "imagens": [
+    {
+     "pagina": 54,
+     "arquivo": "kinea/imagens/docs/2026-10-06_Apresentacao-Live-Mensal-p54.jpg"
+    },
+    {
+     "pagina": 55,
+     "arquivo": "kinea/imagens/docs/2026-10-06_Apresentacao-Live-Mensal-p55.jpg"
+    }
+   ]
+  },
   {
    "url": "https://www.kinea.com.br/wp-content/uploads/2026/09/Live-Prev-PJ.pdf",
    "publicado_em": "2026-09-24",
@@ -270,7 +291,7 @@
   }
  ],
  "log": [
-  "posts 'mochileiro': 1 itens fora do formato (list)",
+  "posts 'mochileiro': 2 itens fora do formato (list)",
   "posts 'minha casa': 19 itens fora do formato (list)",
   "posts 'construtoras': 7 itens fora do formato (list)",
   "posts 'live economia': 9 itens fora do formato (list)",

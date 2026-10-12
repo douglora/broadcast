@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-10-06T18:40:12Z",
+ "gerado_em": "2026-10-12T20:30:34Z",
  "fonte": "https://www.kinea.com.br (PDF da Carta do Gestor, texto extraido com pypdf)",
  "desde": "2025-07",
  "cartas": [
@@ -677,7 +677,7 @@
   }
  ],
  "metodos": {
-  "wp-json": 699,
+  "wp-json": 899,
   "categoria": 0,
   "padrao": 54,
   "informadas": 0
