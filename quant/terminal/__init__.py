@@ -90,7 +90,13 @@ def historico(tabela: str, ticker: str | None = None, desde: date | str | None =
     da mais antiga para a mais nova. Tabelas: tir, tir_geral, consenso, aluguel, multiplos, valuation_mensal, opcoes_ativo, opcoes_venc,
     noticias_ativo, macro, macro_focus, curva, wirp, eventos, agenda_macro, robo_painel, robo_item. `ticker` filtra a coluna `ticker` (ou
     `ativo`); `desde` e uma data ISO. A coluna `origem` diz se a linha e 'retrato' (gravada no proprio dia) ou 'hist' (reconstruida de um
-    historico que o terminal ja tinha). Banco ausente: DataFrame vazio com `.attrs['motivo']`. Tabela inexistente: ValueError."""
+    historico que o terminal ja tinha) ou 'reconstruida' (so na `tir`). Banco ausente: DataFrame vazio com `.attrs['motivo']`. Tabela inexistente: ValueError.
+
+    TABELA `tir`: o numero principal da TIR e o terminal endogeno. As colunas CANONICAS vem primeiro (`tir_principal_pct`, `tir_principal_norm_pct`,
+    `tir_principal_prudente_pct`, `tir_principal_base`, `premio_principal_pp`) mais `conta`; `tir_hoje_pct`, `tir_normalizada_pct`, `tir_pl_pct`, `tir_perp_pct`,
+    `tir_prudente_pct`, `tir_prudente_base`, `premio_pp` e `premio_hoje_pp` sao LEGADO (a menor entre P/L e perpetuidade). `conta` diz so com qual definicao o
+    `tir_prudente_pct` (legado) da linha saiu ('endogena' ou 'menor_das_duas'); as colunas `tir_principal_*` sao sempre a conta endogena, em qualquer linha,
+    e e nelas que a serie nao mistura definicoes. `.attrs` traz `canonicas`, `legado` e `nota`."""
     return _historico.ler(tabela, ticker, desde)
 
 

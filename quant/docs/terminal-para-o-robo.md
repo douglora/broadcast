@@ -296,7 +296,7 @@ Hoje os indicadores derivados sao sobrescritos a cada rodada. O terminal ganhou 
 
 | Tabela | O que guarda | `data` e | Passado ja aproveitado |
 |---|---|---|---|
-| `tir`, `tir_geral` | TIR por empresa e premissas do dia | dia do retrato (e fim de mes na reconstrucao) | **reconstruida mes a mes (normalizada e por caixa), 92 papeis, 2013-01 a 2026-10, `origem = 'reconstruida'`**; o retrato com consenso comeca em 11/10/2026 |
+| `tir`, `tir_geral` | TIR por empresa e premissas do dia | dia do retrato (e fim de mes na reconstrucao) | **reconstruida mes a mes (principal, normalizada e por caixa), 92 papeis, 2013-01 a 2026-10, `origem = 'reconstruida'`**; o retrato com consenso comeca em 11/10/2026; colunas canonicas `tir_principal_*` (v3) |
 | `consenso` | alvo, recomendacao, LPA e revisoes por papel | dia do retrato | desde 18/09/2026 (alvo, nota, % compra), LPA desde julho |
 | `aluguel` | saldo, taxa, variacoes | pregao | 21 pregoes (so quantidade) |
 | `multiplos` | multiplos do pregao | pregao | cerca de 27 pregoes |
@@ -308,12 +308,32 @@ Hoje os indicadores derivados sao sobrescritos a cada rodada. O terminal ganhou 
 | `eventos`, `agenda_macro` | o calendario como o terminal o conhecia no dia (as datas mudam) | dia do retrato | nenhum |
 | `robo_painel`, `robo_item` | resumo do dia e itens (operacoes, sinais, posicoes, ordens, decisoes) de cada modulo do robo | dia do retrato | resultado e patrimonio desde 08/10/2026 |
 
+**TIR no banco (esquema v3, 12/10/2026): use as colunas canonicas.** O numero principal da tela passou a ser o terminal endogeno (a conta V5a da auditoria da TIR:
+depois do ano 10 o lucro e capitalizado a propria taxa). Em `terminal.historico("tir", ...)` as colunas **canonicas** vem logo depois de `data` e `ticker`:
+
+| Coluna | O que e |
+|---|---|
+| `tir_principal_pct` | TIR real de hoje (lucro corrente ou consenso), pelo terminal endogeno, em pontos |
+| `tir_principal_norm_pct` | a mesma com o lucro normalizado |
+| `tir_principal_prudente_pct`, `tir_principal_base` | a TIR prudente da tela (a menor entre a de hoje e a normalizada em pico ou virada) e qual das duas foi (`hoje` ou `normalizada`) |
+| `premio_principal_pp` | prudente menos a NTN-B de ~10 anos, em pontos |
+| `conta` | com qual definicao o `tir_prudente_pct` LEGADO da linha foi calculado: `endogena` ou `menor_das_duas` |
+
+`tir_hoje_pct`, `tir_normalizada_pct`, `tir_pl_pct`, `tir_perp_pct`, `tir_prudente_pct`, `tir_prudente_base`, `premio_pp` e `premio_hoje_pp` sao **LEGADO**: a conta
+antiga, a menor entre a saida por P/L e a por perpetuidade (NTN-B + 5 pontos), que subestimava (mediana 3,4 pontos ao ano na auditoria). Ficam na tabela e nao sao
+apagadas, mas as 12.230 linhas `reconstruida` foram gravadas pela conta antiga (`conta = 'menor_das_duas'`) e a mediana do `tir_prudente_pct` antigo fica cerca de
+5 pontos abaixo da canonica na mesma linha: **uma serie com `tir_prudente_pct` mistura definicoes quando cruza linhas de contas diferentes**. As colunas `tir_principal_*`
+sao sempre a conta endogena (as linhas antigas ganharam as canonicas recalculadas ponto no tempo, sem consenso); e nelas que a serie nao mistura. `.attrs` do DataFrame traz
+`canonicas`, `legado` e `nota`. Banco ainda no esquema anterior: `.attrs['motivo']` manda rodar `python -m coletor.banco --preencher --so tir` no terminal.
+`terminal.tabela()` e a ficha nao mudam de nome: `tir_prudente_pct` ali e a da tela, ao vivo.
+
 `terminal.historico("tir", "PETR4", desde="2013-01-01")` le qualquer uma. A coluna `origem` separa `retrato` (o que o terminal mostrava naquele
 dia), `hist` (reconstruido depois de um historico que o terminal tinha) e `reconstruida` (so na `tir`). Para medir um sinal, **use `retrato` quando
 houver**, porque `hist` pode ter sido refeito com dado de depois. A `reconstruida` e a excecao feita de proposito: ponto no tempo de verdade (balanco
 so depois da entrega, IPCA publicado, preco do mes), testado contra olhar o futuro, mas SEM consenso: a TIR normalizada e a por caixa
-(`tir_normalizada_pct`, `caixa_tir_g0_pct`, `ciclo_nivel`) sao as comparaveis com as de hoje; `tir_hoje_pct` e `tir_prudente_pct` dessa origem usam o
-historico de lucro em vez da estimativa dos analistas e **nao se misturam** com as do `retrato`. Conferencia com o modelo ao vivo no ultimo mes:
+(`caixa_tir_g0_pct`, `ciclo_nivel` e a TIR principal normalizada, `tir_principal_norm_pct`) sao as comparaveis com as de hoje; `tir_principal_pct` e
+`tir_principal_prudente_pct` dessa origem usam o historico de lucro em vez da estimativa dos analistas e **nao se misturam** com as do `retrato`.
+Conferencia com o modelo ao vivo no ultimo mes:
 a leitura por caixa bate dentro de 0,3 ponto em 67 de 67 papeis; o nivel do ciclo do lucro, em 90 de 92. O periodo 2016-2026 da carteira continua fechado:
 a TIR reconstruida serve a ideias novas medidas daqui para a frente ou na janela de desenvolvimento, nao para reabrir o teste longo.
 

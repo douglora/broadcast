@@ -121,6 +121,9 @@ def cmd_historico(a: argparse.Namespace) -> int:
     with pd.option_context("display.width", 250, "display.max_columns", 40):
         print(df.tail(a.linhas).to_string(index=False))
     print(f"\n{len(df)} linha(s) no total; {df['data'].min() if 'data' in df else '-'} a {df['data'].max() if 'data' in df else '-'}")
+    for k in ("nota", "motivo"):
+        if df.attrs.get(k):
+            print(f"{k}: {df.attrs[k]}")
     return 0
 
 
