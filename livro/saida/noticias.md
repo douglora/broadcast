@@ -1,49 +1,8 @@
-NOTÍCIAS E FATOS · 12/10 08h33
+NOTÍCIAS E FATOS · 12/10 17h18
 
-Pernas: noticias ok 15 novas (18 consultas; descartadas: 463 veículo fora da lista, 27 sem ativo, 49 teto) · cvm ok 2 novos de 2 (2 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 19 novas (18 consultas; descartadas: 440 veículo fora da lista, 30 sem ativo, 57 teto) · cvm ok 0 novos de 2 (2 cias casadas) · sec ok 0 novos em 3 dias
 
-## FATOS RELEVANTES E COMUNICADOS (CVM) (5)
-
-[ATENÇÃO] E03 · SBSP3 · Fato Relevante: (“Sabesp”) e a EMAE – EMPRESA METROPOLITANA DE ÁGUAS E ENERGIA S.A. (“EMAE” e, em conjunto com a Sabesp, as “Companhias”), em atendimento ao artigo 1…
-CVM · entregue 08/10/2026 20:30
-Do documento:
-  – São Paulo, 08 de outubro de 2026.
-  – 14/09 Publicação da ata da Assembleia da Sabesp no jornal “Valor Econômico”.
-  – 16/09  Realização da Assembleia da EMAE às 11h.
-  – 17/09 Publicação da ata da Assembleia da EMAE no jornal “Folha de São Paulo”.
-  – 18/09 Início do prazo para exercício do Direito de Retirada.
-  – 30/09 Último dia de atendimento pelo Antigo Escriturador (bloqueio p/corretoras,  pagamentos, transferência de titularidade etc.) à EMAE.
-Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1575714
-Por que importa: fato relevante e o que a propria companhia julga capaz de mover o preco; ler o documento inteiro antes de comentar
-Ativos: SBSP3
-Como falar: 'a Sabesp publicou fato relevante sobre (“Sabesp”) e a EMAE – EMPRESA METROPOLITANA DE ÁGUAS E ENERGIA S.A. (…'
-Fonte: CVM 08/10
-id: E03-SBSP3-1575714-2026-10-08 · status: entregue · íntegra disponível
-
-[ATENÇÃO] E03 · BBDC4 · Fato Relevante: Página 1 de 1 Banco Bradesco S.A. o 60.746.948/0001-12 Fato Relevante Homologação do Aumento de Capital pelo Banco Central do Brasil, com a consequen…
-CVM · entregue 08/10/2026 18:50
-Do documento:
-  – As ações subscritas no Aumento de Capital serão emitidas e creditadas em nome dos  respectivos subscritores em 13.10.2026.
-  – Cidade de Deus, Osasco, SP, 8 de outubro de 2026.
-Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1575663
-Por que importa: fato relevante e o que a propria companhia julga capaz de mover o preco; ler o documento inteiro antes de comentar
-Ativos: BBDC4
-Como falar: 'a Bradesco publicou fato relevante sobre Página 1 de 1 Banco Bradesco S.A. o 60.746.948/0001-12 Fato Relevante…'
-Fonte: CVM 08/10
-id: E03-BBDC4-1575663-2026-10-08 · status: entregue · íntegra disponível
-
-[ATENÇÃO] E03 · PETR4 · Fato Relevante: Participou do 4º Ciclo de Oferta Permanente de Partilha de Produção e do 6º Ciclo de Oferta Permanente de Concessão promovidos pela Agência Nacional…
-CVM · entregue 08/10/2026 08:44
-Do documento:
-  – No 4º Ciclo de Oferta Permanente de Partilha de Produção, a companhia adquiriu os blocos Azurita, na bacia  de Campos, e Cruzeiro do Sul, na bacia de Santos, ambos com 100% de participação.
-  – PÚBLICA  Na Bacia do Ceará, a Petrobras adquiriu como operadora os blocos CE-M-471, CE-M-473, CE-M-475, CE-M-477,  CE-M-537, CE-M-539 e CE-M-665, com participação de 70%, em parceria com a QatarEnergy Brasil Ltda (30%).
-  – A Petrobras atuou seletivamente nos leilões de forma a assegurar a incorporação de mais de 18 mil km2 em  seu portfólio exploratório.
-Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1575304
-Por que importa: fato relevante e o que a propria companhia julga capaz de mover o preco; ler o documento inteiro antes de comentar
-Ativos: PETR4
-Como falar: 'a Petrobras publicou fato relevante sobre Participou do 4º Ciclo de Oferta Permanente de Partilha de Produção e…'
-Fonte: CVM 08/10
-id: E03-PETR4-1575304-2026-10-08 · status: entregue · íntegra disponível
+## FATOS RELEVANTES E COMUNICADOS (CVM) (2)
 
 [INFO] E03 · VALE3 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
 CVM · entregue 09/10/2026 18:56 · Outros Comunicados Não Considerados Fatos Relevantes
@@ -71,7 +30,43 @@ Fonte: CVM 09/10
 id: E03-CURY3-1576353-2026-10-09 · status: linha · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (20)
+## NOTÍCIAS COM MATERIALIDADE (13)
+
+[ATENÇÃO] E05 · JPM · JPMorgan, Goldman Sachs tread carefully in $5B Volta AI loan offering - report (JPM:NYSE)
+Seeking Alpha · 12/10 17h00 · fonte única · licença: manchete
+Link: https://seekingalpha.com/news/4652223-jpmorgan-goldman-sachs-tread-carefully-in-5b-volta-ai-loan-offering---report
+Por que importa: oferta de acoes ou divida altera a base acionaria ou a alavancagem
+Ativos: JPM
+Como falar: 'saiu no Seeking Alpha: JPMorgan, Goldman Sachs tread carefully in $5B Volta AI loan offering - report (JPM:NYSE); confirmar o número no texto antes de repassar'
+Fonte: Seeking Alpha 12/10 17h00
+id: E05-JPM-d30c6e05f9-2026-10-12 · status: pendente
+
+[ATENÇÃO] E05 · AMZN · MIT files patent lawsuit against Amazon over cloud security technology
+TradingView (Reuters) · 12/10 12h06 · + Reuters · licença: manchete
+Link: https://www.tradingview.com/news/reuters.com,2026:newsml_L6N45Y0S7:0-mit-files-patent-lawsuit-against-amazon-over-cloud-security-technology/
+Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e prazo
+Ativos: AMZN
+Como falar: 'saiu no TradingView (Reuters): MIT files patent lawsuit against Amazon over cloud security technology; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 12/10 12h06
+id: E05-AMZN-88dbe45d2f-2026-10-12 · status: pendente
+
+[ATENÇÃO] E05 · MU · What's next for Micron Technology after blockbuster Q4, guidance beat?
+TradingView (Reuters) · 12/10 09h06 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/seekingalpha:8c4879a9d094b:0-what-s-next-for-micron-technology-after-blockbuster-q4-guidance-beat/
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: MU
+Como falar: 'saiu no TradingView (Reuters): What's next for Micron Technology after blockbuster Q4, guidance beat?; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 12/10 09h06
+id: E05-MU-5fb3d7e91d-2026-10-12 · status: pendente
+
+[ATENÇÃO] E05 · BTC · Bitcoin Price Outlook: Bulls Defend $83K, But ETF Flows And Trading Volume Raise Recovery Questions
+TradingView (Reuters) · 12/10 06h37 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/stocktwits:d76bbe006094b:0-bitcoin-price-outlook-bulls-defend-83k-but-etf-flows-and-trading-volume-raise-recovery-questions/
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: BTC
+Como falar: 'saiu no TradingView (Reuters): Bitcoin Price Outlook: Bulls Defend $83K, But ETF Flows And Trading Volume Raise Recovery…; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 12/10 06h37
+id: E05-BTC-71251cc3b5-2026-10-12 · status: linha
 
 [ATENÇÃO] E05 · USDBRL · Ibovespa tem duplo recorde aos 209 mil pontos e avança quase 9% na semana após 1º turno; dólar cai e fica abaixo de R$ 5
 Money Times · 09/10 17h31 · fonte única · licença: integral
@@ -181,143 +176,24 @@ Como falar: 'saiu no TradingView (Reuters): Key facts: META Q4 $73–$76B guidan
 Fonte: TradingView (Reuters) 09/10 04h00
 id: E05-META-6441e75de3-2026-10-09 · status: entregue
 
-[ATENÇÃO] E05 · BBDC4 · Bradesco (BBDC4) tem aumento de capital homologado pelo BC e ajusta JCP por ação
-Money Times · 08/10 20h07 · fonte única · licença: integral
-Do texto:
-  – Segundo o fato relevante, as ações subscritas no aumento de capital serão emitidas e creditadas aos respectivos subscritores em 13 de outubro de 2026.
-  – Com a homologação, o banco também atualizou os valores dos juros sobre o capital próprio (JCP) deliberados pelo conselho de administração em 30 de setembro.
-  – O montante total segue em R$ 3,8 bilhões, mas o valor por ação foi ajustado em razão da nova quantidade de papéis em circulação após a emissão das novas ações.
-  – O banco destacou que, fora esse ajuste nos valores por ação, permanecem inalteradas as demais condições do comunicado anterior, inclusive o valor global do JCP e a data de pagamento, prevista para ocorrer até 30 de abri…
-  – A movimentação ocorre após o banco já ter concluído o leilão de sobras e informado a homologação do aumento de capital de R$ 10 bilhões, divulgado recentemente.
-  – Link do documento original: https://www.rad.cvm.gov.br/ENETWEB/frmExibirArquivoIPEExterno.aspx?ID=1575663&flnk
-Link: https://www.moneytimes.com.br/bradesco-bbdc4-tem-aumento-de-capital-homologado-pelo-bc-e-ajusta-jcp-por-acao/
-Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
-Ativos: BBDC4
-Como falar: 'saiu no Money Times: Bradesco (BBDC4) tem aumento de capital homologado pelo BC e ajusta JCP por ação; confirmar o número no texto antes de repassar'
-Fonte: Money Times 08/10 20h07
-id: E05-BBDC4-0684110eca-2026-10-08 · status: entregue · íntegra disponível
 
-[ATENÇÃO] E05 · CVX · Hess Midstream to Acquire Chevron DJ Basin Midstream Assets; Pays $200M and Resets Bakken Contracts
-TradingView (Reuters) · 08/10 18h13 · fonte única · licença: manchete
-Link: https://www.tradingview.com/news/tradingview:068c81b6deac5:0-hess-midstream-to-acquire-chevron-dj-basin-midstream-assets-pays-200m-and-resets-bakken-contracts/
-Por que importa: aquisicao ou venda muda alavancagem, mix de receita e o multiplo; olhar preco pago e financiamento
-Ativos: CVX
-Como falar: 'saiu no TradingView (Reuters): Hess Midstream to Acquire Chevron DJ Basin Midstream Assets; Pays $200M and Resets Bakken…; confirmar o número no texto antes de repassar'
-Fonte: TradingView (Reuters) 08/10 18h13
-id: E05-CVX-d989f8916b-2026-10-08 · status: entregue
+## OUTRAS NOTÍCIAS (só manchete) (40)
 
-[ATENÇÃO] E05 · DI · XP (XPBR31) pode ganhar um empurrão da Selic mais baixa; UBS BB eleva preço-alvo e vê até 25% de alta
-Seu Dinheiro · 08/10 16h10 · fonte única · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – Essa possibilidade levou os analistas a elevarem o preço-alvo da ação de US$ 25 para US$ 37, mantendo a recomendação de compra.
-  – O novo alvo representa um potencial de valorização de 25% em relação ao último fechamento.
-  – Segundo o UBS BB, o net new money — os recursos líquidos que entram na plataforma — chegou a R$ 103 bilhões nos últimos 12 meses, uma média de R$ 26 bilhões por trimestre.
-  – Para os analistas, a queda dos juros pode reduzir a “inércia” dos investidores que hoje encontram retornos elevados em aplicações de baixo risco e estimular uma migração para outros produtos.
-  – Hoje, ações representam cerca de 25% dos ativos sob custódia da XP.
-  – Pelas contas do UBS BB, cada 10 pontos-base de aumento no take rate acrescentaria cerca de R$ 1,3 bilhão às receitas.
-Link: https://www.seudinheiro.com/2026/empresas/xp-xpbr31-pode-ganhar-um-empurrao-da-selic-mais-baixa-ubs-bb-eleva-preco-alvo-e-ve-ate-25-de-alta-miql/
-Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
-Ativos: DI
-Como falar: 'saiu no Seu Dinheiro: XP (XPBR31) pode ganhar um empurrão da Selic mais baixa; UBS BB eleva preço-alvo e vê até…; confirmar o número no texto antes de repassar'
-Fonte: Seu Dinheiro 08/10 16h10
-id: E05-DI-ea3764b6c3-2026-10-08 · status: entregue
-
-[ATENÇÃO] E05 · PETR4 · R$ 3,2 bi: Petrobras domina leilões da ANP e faz aposta em Campos e novas fronteiras
-InfoMoney · 08/10 15h30 · fonte única · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – Nos dois certames, o 6º Ciclo da Oferta Permanente de Concessão e o 4º Ciclo da Oferta Permanente de Partilha, o governo levantou aproximadamente R$ 3,54 bilhões em bônus de assinatura.
-  – Desse montante, a Petrobras comprometeu cerca de R$ 3,22 bilhões, ou aproximadamente 91% do total.
-  – O desembolso equivale a cerca de 0,44% do valor de mercado da estatal, segundo cálculos da XP.
-  – No total, foram 21 blocos para a Petrobras, sendo 19 na rodada de concessão e outros dois na rodada de partilha.
-  – A companhia garantiu 19 blocos e comprometeu R$ 2,99 bilhões em bônus, equivalentes a 0,4% de seu valor de mercado.
-  – Foram 12 blocos na Bacia de Campos, com participação de 100%, e sete na Bacia do Ceará, na Margem Equatorial, em consórcio com a QatarEnergy, no qual a estatal tem 70%.
-Link: https://www.infomoney.com.br/mercados/petrobras-petr4-tres-bilhoes-estatal-leiloes-da-anp-aposta-em-campos-e-novas-fronteiras/
-Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
-Ativos: PETR4
-Como falar: 'saiu no InfoMoney: R$ 3,2 bi: Petrobras domina leilões da ANP e faz aposta em Campos e novas fronteiras; confirmar o número no texto antes de repassar'
-Fonte: InfoMoney 08/10 15h30
-id: E05-PETR4-4f0acfc71e-2026-10-08 · status: entregue
-
-[ATENÇÃO] E05 · BTC · TD Cowen raises Bitcoin price target to $280,000 by 2029
-TradingView (Reuters) · 08/10 12h17 · fonte única · licença: manchete
-Link: https://www.tradingview.com/news/cryptobriefing:8e70aff74094b:0-td-cowen-raises-bitcoin-price-target-to-280-000-by-2029/
-Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
-Ativos: BTC
-Como falar: 'saiu no TradingView (Reuters): TD Cowen raises Bitcoin price target to $280,000 by 2029; confirmar o número no texto antes de repassar'
-Fonte: TradingView (Reuters) 08/10 12h17
-id: E05-BTC-5e96908bfd-2026-10-08 · status: entregue
-
-[ATENÇÃO] E05 · MRVL · Marvell Technology's AI Bet: Path To $90B In Revenue By 2031 (NASDAQ:MRVL)
-Seeking Alpha · 08/10 09h31 · fonte única · licença: manchete
-Link: https://seekingalpha.com/article/4952754-marvell-technologys-ai-bet-path-to-90b-in-revenue-by-2031
-Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
-Ativos: MRVL
-Como falar: 'saiu no Seeking Alpha: Marvell Technology's AI Bet: Path To $90B In Revenue By 2031 (NASDAQ:MRVL); confirmar o número no texto antes de repassar'
-Fonte: Seeking Alpha 08/10 09h31
-id: E05-MRVL-03379f2363-2026-10-08 · status: entregue
-
-[ATENÇÃO] E05 · MU · Micron Rival Samsung's Outlook Gets a $70 Billion Jolt
-TradingView (Reuters) · 08/10 09h17 · fonte única · licença: manchete
-Link: https://www.tradingview.com/news/gurufocus:093d8e388094b:0-micron-rival-samsung-s-outlook-gets-a-70-billion-jolt/
-Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
-Ativos: MU
-Como falar: 'saiu no TradingView (Reuters): Micron Rival Samsung's Outlook Gets a $70 Billion Jolt; confirmar o número no texto antes de repassar'
-Fonte: TradingView (Reuters) 08/10 09h17
-id: E05-MU-2bc160b1e4-2026-10-08 · status: entregue
-
-[ATENÇÃO] E05 · TSM · TSMC Q3 Revenue Tops Its Own Guidance and the 19-Analyst Forecast
-Yahoo Finance · 08/10 08h37 · fonte única · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – Taiwan Semiconductor Manufacturing Co. (TSMC) said September revenue rose 54.6% from a year earlier to NT$511.86 billion ($16.03 billion).
-  – The result lifted third-quarter revenue to a record NT$1.49 trillion.
-  – TSMC's Taiwan-listed shares closed 1.35% lower at NT$2,550 on Thursday, before the company published the figures.
-  – How September Revenue Pushed TSMC to a Record Quarter September revenue slipped 0.6% from August's NT$514.81 billion, according to TSMC's release.
-  – However, revenue for the first nine months still climbed 41.1% to NT$3.90 trillion.
-  – Reuters calculated third-quarter revenue at NT$1.49 trillion, a 50% rise from a year earlier.
-Link: https://finance.yahoo.com/markets/stocks/articles/tsmc-q3-revenue-tops-own-113733291.html
-Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
-Ativos: TSM
-Como falar: 'saiu no Yahoo Finance: TSMC Q3 Revenue Tops Its Own Guidance and the 19-Analyst Forecast; confirmar o número no texto antes de repassar'
-Fonte: Yahoo Finance 08/10 08h37
-id: E05-TSM-bd7bd7ed60-2026-10-08 · status: entregue
-
-[ATENÇÃO] E05 · MRVL · Marvell's Investor Day: $70-90B FY 2031 Sales Feels Like A Different Company
-Seeking Alpha · 08/10 07h39 · fonte única · licença: manchete
-Link: https://seekingalpha.com/article/4952720-marvells-investor-day-70-90b-fy31-sales-feels-like-a-different-company
-Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
-Ativos: MRVL
-Como falar: 'saiu no Seeking Alpha: Marvell's Investor Day: $70-90B FY 2031 Sales Feels Like A Different Company; confirmar o número no texto antes de repassar'
-Fonte: Seeking Alpha 08/10 07h39
-id: E05-MRVL-8e40b5f602-2026-10-08 · status: entregue
-
-[ATENÇÃO] E05 · UST · Treasury yields rise as Fed's Waller says more hikes needed, investors await 30-year auction
-CNBC · 08/10 06h19 · fonte única · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – The benchmark 10-year Treasury yield was 7 basis points higher at 5.35%, near its highest level since 2002.
-  – The 30-year Treasury bond yield rose over 6 basis points to 5.725%, after trading just below a 24-year high in the previous session.
-  – The 2-year Treasury note yield rose 5 basis points to 4.816%.
-  – One basis point is equal to 0.01%, and yields and prices move in opposite directions.
-  – Fed Governor Christopher Waller said on Thursday that more hikes are needed to bring inflation down after around 5-and-a-half years above the central bank's 2% target, but suggested rates did not need to rise immediatel…
-  – "The hikes do not need to come at consecutive meetings," Waller told a Central Bank of Turkey forum in Istanbul.
-Link: https://www.cnbc.com/2026/10/08/us-treasury-yields-30-year-bond-auction.html
-Por que importa: decisao de politica monetaria reprecifica toda a curva e o cambio
-Ativos: UST
-Como falar: 'saiu no CNBC: Treasury yields rise as Fed's Waller says more hikes needed, investors await 30-year auct…; confirmar o número no texto antes de repassar'
-Fonte: CNBC 08/10 06h19
-id: E05-UST-5785e8a04e-2026-10-08 · status: entregue
-
-[ATENÇÃO] E05 · MRVL · Marvell Investor Day: Connectivity Lifts Outlook To $20 Billion
-Seeking Alpha · 08/10 04h45 · fonte única · licença: manchete
-Link: https://seekingalpha.com/article/4952697-marvell-investor-day-connectivity-lifts-outlook-to-20-billion
-Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
-Ativos: MRVL
-Como falar: 'saiu no Seeking Alpha: Marvell Investor Day: Connectivity Lifts Outlook To $20 Billion; confirmar o número no texto antes de repassar'
-Fonte: Seeking Alpha 08/10 04h45
-id: E05-MRVL-910acc29de-2026-10-08 · status: entregue
-
-
-## OUTRAS NOTÍCIAS (só manchete) (25)
-
+· INTC Intel Accelerates Open Infrastructure for the Agentic AI Era (Business Wire) https://www.businesswire.com/news/home/20261012581523/en/Intel-Accelerates-Open-Infrastructure-for-the-Agentic-AI-Era
+· NVDA Intel aims to boost AI turnaround with new GPU chips to take on Nvidia (Yahoo Finance) https://finance.yahoo.com/technology/article/intel-aims-to-boost-ai-turnaround-with-new-gpu-chips-to-take-on-nvidia-192916083.html
+· ITUB4 Pesquisa de Nobel deu respaldo à atuação dos BCs quando juros estavam em zero, diz estrategista da Itaú Asset (Valor Economico) https://valor.globo.com/mundo/noticia/2026/10/12/pesquisa-de-nobel-deu-respaldo-a-atuacao-dos-bcs-quando-juros-estavam-em-zero-diz-estrategista-da-itau-asset.ghtml
+· GOOGL Levi & Korsinsky Reminds Alphabet Inc. Investors of the (GlobeNewswire) https://www.globenewswire.com/news-release/2026/10/12/3379199/3080/en/levi-korsinsky-reminds-alphabet-inc-investors-of-the-pending-class-action-lawsuit-with-a-lead-plaintiff-deadline-of-december-1-2026-googl-goog.html
+· AVGO Intel and Broadcom CEOs Delivers Stark AI Warning as Stocks Tumble (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:c02aed29e094b:0-intel-and-broadcom-ceos-delivers-stark-ai-warning-as-stocks-tumble/
+· GOOGL Alphabet Inc. (GOOGL) Shareholders Who Lost Money Have Opportunity to Lead Securities Fraud Lawsuit (PR Newswire) https://www.prnewswire.com/news-releases/alphabet-inc-googl-shareholders-who-lost-money-have-opportunity-to-lead-securities-fraud-lawsuit-302905385.html
+· AVGO Broadcom CEO Warns AI's Biggest Constraint Is Shifting (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/broadcom-ceo-warns-ais-biggest-183525495.html
+· NVDA Watch Cisco, Nvidia Tackle AI’s Growing Data Center Bottleneck (Bloomberg) https://www.bloomberg.com/news/videos/2026-10-12/cisco-nvidia-tackle-ai-s-growing-data-center-bottleneck-video
+· KO Coca-Cola, PepsiCo and Walmart among 8 stocks with A+ profitability grades (TradingView (Reuters)) https://www.tradingview.com/news/seekingalpha:58839756b094b:0-coca-cola-pepsico-and-walmart-among-8-stocks-with-a-profitability-grades/
+· MU 3 Reasons We’re Fans of Micron (MU) (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/3-reasons-fans-micron-mu-180703309.html
+· INTC Not Sandisk, Not Intel. This Stock Will Lead the S&P 500 Next Year (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/not-sandisk-not-intel-stock-180500957.html
+· JPM JPMorgan, Goldman Sachs Earnings Could Move This Dow ETF—Here’s the Portfolio Math (TradingView (Reuters)) https://news.google.com/rss/articles/CBMi1wFBVV95cUxPVGxkVkV6WXdCM2kzTEd4RUkxcFZuODFrOVRoYUNZMjVHYkVUcFg4bWE0bURLeWo4YUNCZ2tZWl8tUlBCT3EtMElCeEZEaDdKVUZkeU9aNTFJQkY2d0dKRERrMlBhNmpfNnR5aUZrUWxlYzFUbFJ6dTdwajhENE5JQVpmd2dNYmptd0sySVBld1JUQmlSa0Z5cEhpWVBVV3VSSkM2QkNMNHJVRnpLV3hJM1pGTl9Bdzh3LXdkRVh1eGdMRGhxTGtrX0Y3TXl4dW5jNm5hVnE2SQ?oc=5
+· MU Micron Just Said Something That Could Change How Investors See the Stock (Yahoo Finance) https://news.google.com/rss/articles/CBMingFBVV95cUxNVzNZSWJhdVRsNmItSUIxVWotNTZnYzlsM3RlRGlpM2VKaHNVR3lqU0ZXWWtMZklMUDU3OURqUHVpbDR1eldoZWVjeXZ1a1l4QjUtNGdOUHNvMjdxRWVtQ3ZkU2t6dV96cEUwRkhtTHlBMlk2d2I3VjFmWktUWnFwcUpzNXhKX2wyVXN3WUoxdFo3WHAzUFVRbGQ3VXN3UQ?oc=5
+· AMD 2 Reasons to Like AMD (and 1 Not So Much) (Yahoo Finance) https://news.google.com/rss/articles/CBMid0FVX3lxTFAwSDl0WVZFOVdlTjE0b0VjbmFpQnpMREpad0hIUU9VQWpvRE9NdUprYVM2WXZOM3lKeWtTSzBOTVZpX2RaX0hTaTRqTkdDaVJSYUJ4bVZ5bnF3MXFZUHhKRmxhWDBiUTlfUlBCdWUwSUgzN2VoRFE0?oc=5
+· JPM JPMorgan earnings preview: what to watch when JPM reports Tuesday (Investing.com) https://news.google.com/rss/articles/CBMixAFBVV95cUxONHVkZ1FTeG9TbDRHSHMwVkxYWnhTYnlFTUVhSVZpX1dzdUI4OWZvNXM3MjU3SW5NTDZVQmtxNGNObGRwb25Zb1A2ek9Yc05lXzdqTk5RMW1MQUxaQVNFMEdLeGVZTEFXU0NHQk0yM1RXMVN4aFZldVBzRXpaZldLaDRQemZQXzE5eEJPSlpTVTIyaWx3OGZGV1FhR3NuWUd5VmdJazM4SGJIVFNfNTZyNG53SV93TERiYS11Y192eVVDUjJB?oc=5
 · LITE Lumentum being sold out through 2029 is 'bullish' for suppliers, foundries: Wedbush (LITE:NASDAQ) (Seeking Alpha) https://seekingalpha.com/news/4652028-lumentum-being-sold-out-through-2029-is-bullish-for-suppliers-foundries-wedbush
 · NVDA Adding Nvidia During The Current Uncertainty is How Fortunes Are Made (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/adding-nvidia-during-current-uncertainty-111513084.html
 · BTC BMNR Stock Gains With Ethereum Outpacing Bitcoin After $84K Bounce Ahead Of CPI Report This Week (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:18cc24dd1094b:0-bmnr-stock-gains-with-ethereum-outpacing-bitcoin-after-84k-bounce-ahead-of-cpi-report-this-week/

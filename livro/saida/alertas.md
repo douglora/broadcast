@@ -1,30 +1,55 @@
-ALERTAS · Manhã 08h30
+ALERTAS · intradia
 
-Nenhum alerta novo neste slot.
+[ATENÇÃO] E05 · JPM · JPMorgan, Goldman Sachs tread carefully in $5B Volta AI loan offering - report (JPM:NYSE)
+Seeking Alpha · 12/10 17h00 · fonte única · licença: manchete
+Link: https://seekingalpha.com/news/4652223-jpmorgan-goldman-sachs-tread-carefully-in-5b-volta-ai-loan-offering---report
+Por que importa: oferta de acoes ou divida altera a base acionaria ou a alavancagem
+Ativos: JPM
+Como falar: 'saiu no Seeking Alpha: JPMorgan, Goldman Sachs tread carefully in $5B Volta AI loan offering - report (JPM:NYSE); confirmar o número no texto antes de repassar'
+Fonte: Seeking Alpha 12/10 17h00
+Push: intradia: 3 alertas de atenção — E05 JPM, E05 AMZN, E05 MU · detalhe na sessão
+ids: E05-JPM-d30c6e05f9-2026-10-12
+
+[ATENÇÃO] E05 · AMZN · MIT files patent lawsuit against Amazon over cloud security technology
+TradingView (Reuters) · 12/10 12h06 · + Reuters · licença: manchete
+Link: https://www.tradingview.com/news/reuters.com,2026:newsml_L6N45Y0S7:0-mit-files-patent-lawsuit-against-amazon-over-cloud-security-technology/
+Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e prazo
+Ativos: AMZN
+Como falar: 'saiu no TradingView (Reuters): MIT files patent lawsuit against Amazon over cloud security technology; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 12/10 12h06
+ids: E05-AMZN-88dbe45d2f-2026-10-12
+
+[ATENÇÃO] E05 · MU · What's next for Micron Technology after blockbuster Q4, guidance beat?
+TradingView (Reuters) · 12/10 09h06 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/seekingalpha:8c4879a9d094b:0-what-s-next-for-micron-technology-after-blockbuster-q4-guidance-beat/
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: MU
+Como falar: 'saiu no TradingView (Reuters): What's next for Micron Technology after blockbuster Q4, guidance beat?; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 12/10 09h06
+ids: E05-MU-5fb3d7e91d-2026-10-12
+
 Info (só linha no Fechamento):
-· T09 KLBN4 -1,1% com volume 2,5x a mediana de 20 sessões, a R$ 3,63
-· F05 Celulose (proxy SHFE, fibra longa) -3,1% na semana: 4.810 CNY/t (12/10)
-· E03 VALE3 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
-· E03 CURY3 · Participação relevante: gestor reduziu para 14,97% em 08/10
-· E05 LITE · Lumentum being sold out through 2029 is 'bullish' for suppliers, foundries: Wedbush (LITE:NASDAQ)
-· E05 NVDA · Adding Nvidia During The Current Uncertainty is How Fortunes Are Made
-· E05 BTC · BMNR Stock Gains With Ethereum Outpacing Bitcoin After $84K Bounce Ahead Of CPI Report This Week
-· E05 BTC · Current price of Bitcoin for Oct. 12, 2026
-· E05 CVX · ConocoPhillips, Chevron among eight energy stocks with A+ profitability grades (XLE:NYSEARCA)
-· E05 AVGO · Broadcom CEO says many AI investors are gamblers
-· E05 INTC · Intel CEO Highlights Rapid Adoption of Chinese AI Models and Potential for Quantum Computing
-· E05 AVGO · Broadcom CEO Sees Capital as Main Constraint on AI Growth Despite Easing Chip Shortages
-· E05 AVGO · AM Markets Need to Know: Trump’s ratings slide, Broadcom flags AI costs, and more (SPX:)
-· E05 BBDC4 · Seu próximo gerente pode ser uma IA: veja como Bradesco e Santander estão se preparando e se os apps de banco vão acabar
-· E05 LITE · Lumentum, Astera Labs, and Corning to Demonstrate 1060 nm VCSEL-Based PCIe over Optics for AI Rack-Scale Connectivity at the 2026 OCP Global Summit
-· E05 BRENT · Wall Street oscila sem viés, com petróleo, Bolsas na Europa e Ásia em alta
-· E05 BRENT · OPEC cuts 2026 oil demand growth forecast to 400,000 bpd, sees pent-up demand in 2027
-· E05 BTC · Spot Bitcoin and Ethereum ETFs bleed $1.22 billion in a single week
-· E05 AVGO · Broadcom CEO says capital will be biggest constraint for AI development: report (AVGO:NASDAQ)
+· E01 BAC: resultado sai em 3 sessões (14/10)
+· E05 INTC · Intel Accelerates Open Infrastructure for the Agentic AI Era
+· E05 NVDA · Intel aims to boost AI turnaround with new GPU chips to take on Nvidia
+· E05 ITUB4 · Pesquisa de Nobel deu respaldo à atuação dos BCs quando juros estavam em zero, diz estrategista da Itaú Asset
+· E05 GOOGL · Levi & Korsinsky Reminds Alphabet Inc. Investors of the
+· E05 AVGO · Intel and Broadcom CEOs Delivers Stark AI Warning as Stocks Tumble
+· E05 GOOGL · Alphabet Inc. (GOOGL) Shareholders Who Lost Money Have Opportunity to Lead Securities Fraud Lawsuit
+· E05 AVGO · Broadcom CEO Warns AI's Biggest Constraint Is Shifting
+· E05 NVDA · Watch Cisco, Nvidia Tackle AI’s Growing Data Center Bottleneck
+· E05 KO · Coca-Cola, PepsiCo and Walmart among 8 stocks with A+ profitability grades
+· E05 MU · 3 Reasons We’re Fans of Micron (MU)
+· E05 INTC · Not Sandisk, Not Intel. This Stock Will Lead the S&P 500 Next Year
+· E05 JPM · JPMorgan, Goldman Sachs Earnings Could Move This Dow ETF—Here’s the Portfolio Math
+· E05 MU · Micron Just Said Something That Could Change How Investors See the Stock
+· E05 AMD · 2 Reasons to Like AMD (and 1 Not So Much)
+· E05 JPM · JPMorgan earnings preview: what to watch when JPM reports Tuesday
+· T08 INTC entrou em queda de -25% do pico: -26% do pico de 52s (US$ 140,94 em 22/06) a US$ 104,70
 · C05 Pre 2029 FECHA 23 bps (PU +0,5%) · Pre 2031 FECHA 26 bps (PU +1,0%) · IPCA+ 2032 FECHA 17 bps (PU +1,1%) (base 09/10)
 · C03 Prefixado em nível: Pre 2029 cruzou 12,50% (agora 12,30%) · Pre 2029 na mínima de 252 bases: 12,30% · Pre 2031 cruzou 12,50% (agora 12,45%)
 · C06 Inflação implícita: implícita 2029 -67 bps na semana · implícita 2032 -56 bps na semana · implícita 2031/32 (descasado) -57 bps na semana
-· T08 INTC entrou em queda de -25% do pico: -26% do pico de 52s (US$ 140,94 em 22/06) a US$ 104,70
+· E05 BTC · Bitcoin Price Outlook: Bulls Defend $83K, But ETF Flows And Trading Volume Raise Recovery Questions
 · T06 PLTR +11% em 5 sessões a US$ 209,05: movimento de 3,2 desvios para a vol de 20 dias
 · T06 RARA11 -8,3% em 5 sessões a R$ 13,58: movimento de 2,6 desvios para a vol de 20 dias
 · T06 CURY3 +23% em 5 sessões a R$ 34,52: movimento de 2,9 desvios para a vol de 20 dias
@@ -33,15 +58,16 @@ Info (só linha no Fechamento):
 · T10 KLBN4 no mínimo de força relativa em 63 sessões contra IBOV: -5,7% vs +12% em 20 sessões (-16% relativo)
 · T10 MRVE3 no máximo de força relativa em 63 sessões contra IBOV: +36% vs +12% em 20 sessões (+22% relativo)
 
-Suprimidos pelo teto (viram linha do Fechamento): C05-TESOURO-fechou-2026-10-09 (teto diário de críticos), C03-TESOURO-td-2026-10-09 (teto diário de críticos), C06-TESOURO-implicita-2026-10-09 (teto diário de críticos), T08-INTC--25-2026-10-09 (teto diário de críticos), T06-PLTR-alta-2026-10-09 (teto de atenção), T06-RARA11-queda-2026-10-09 (teto de atenção), T06-CURY3-alta-2026-10-09 (teto de atenção), T09-MRVE3-alta-2026-10-09 (teto de atenção), T10-SAPR4-máximo-2026-10-09 (teto de atenção), T10-KLBN4-mínimo-2026-10-09 (teto de atenção), T10-MRVE3-máximo-2026-10-09 (teto de atenção)
+Suprimidos pelo teto (viram linha do Fechamento): T08-INTC--25-2026-10-09 (teto diário de críticos), C05-TESOURO-fechou-2026-10-09 (teto diário de críticos), C03-TESOURO-td-2026-10-09 (teto diário de críticos), C06-TESOURO-implicita-2026-10-09 (teto diário de críticos), E05-BTC-71251cc3b5-2026-10-12 (teto de noticias), T06-PLTR-alta-2026-10-09 (teto de atenção), T06-RARA11-queda-2026-10-09 (teto de atenção), T06-CURY3-alta-2026-10-09 (teto de atenção), T09-MRVE3-alta-2026-10-09 (teto de atenção), T10-SAPR4-máximo-2026-10-09 (teto de atenção), T10-KLBN4-mínimo-2026-10-09 (teto de atenção), T10-MRVE3-máximo-2026-10-09 (teto de atenção)
 
 Alertas do dia (todos, com status):
 · linha     C05 TESOURO — Pre 2029 FECHA 23 bps (PU +0,5%) · Pre 2031 FECHA 26 bps (PU +1,0%) · IPCA+ 2032
 · entregue  C01 DI — A curva FECHOU: F28 -98 bps em 5 pregões · F28 8 pregões seguidos (-115 bps) · F
 · entregue  T05 MRVE3 — MRVE3 +22% no dia a R$ 7,82: movimento de 6,0 desvios para uma vol de 20 dias de
 · linha     T08 INTC — INTC entrou em queda de -25% do pico: -26% do pico de 52s (US$ 140,94 em 22/06) 
-· entregue  C05 TESOURO — IPCA+ 2050 PU -6,9% em 5 datas-base (base 08/10)
-· entregue  C01 DI — A curva FECHOU: F28 -102 bps em 5 pregões · F28 7 pregões seguidos (-113 bps) · 
+· pendente  E05 JPM — JPM · JPMorgan, Goldman Sachs tread carefully in $5B Volta AI loan offering - re
+· pendente  E05 AMZN — AMZN · MIT files patent lawsuit against Amazon over cloud security technology
+· pendente  E05 MU — MU · What's next for Micron Technology after blockbuster Q4, guidance beat?
 · linha     C03 TESOURO — Prefixado em nível: Pre 2029 cruzou 12,50% (agora 12,30%) · Pre 2029 na mínima d
 · linha     C06 TESOURO — Inflação implícita: implícita 2029 -67 bps na semana · implícita 2032 -56 bps na
 · entregue  C02 DI — Inclinação da curva DI: F35-F28 -24 bps no dia: bull flattening (longo fechou ma
@@ -60,34 +86,10 @@ Alertas do dia (todos, com status):
 · entregue  E05 USDBRL — USDBRL · Tempo real: Ibovespa sobe aos 209 mil pontos e renova recorde intradia 
 · entregue  E05 BTC — BTC · Bitcoin steadies near $82,500 after Trump rules out Iran strike before mid
 · entregue  E05 BRENT — BRENT · Produção de petróleo e gás natural no Brasil bate recorde em 2025
-· entregue  C06 TESOURO — Inflação implícita: implícita 2029 -61 bps na semana · implícita 2032 -41 bps na
 · entregue  M01 MACRO — Agenda: IPCA de setembro (IBGE) hoje às 09:00 (09/10)
 · entregue  E05 MRVE3 — MRVE3 · Agenda de empresas: Lucro da Camil cai 47,5%; vendas da MRV&Co sobem 29,
 · entregue  E05 TSLA — TSLA · Key facts: Tesla, Inc. 486,532 Q3 deliveries; $25B+ 2026 capex; $43.5B ca
 · entregue  E05 META — META · Key facts: META Q4 $73–$76B guidance; bans TikTok ads; 2026 capex +$5–$10
-· entregue  E03 SBSP3 — SBSP3 · Fato Relevante: (“Sabesp”) e a EMAE – EMPRESA METROPOLITANA DE ÁGUAS E E
-· entregue  E03 BBDC4 — BBDC4 · Fato Relevante: Página 1 de 1 Banco Bradesco S.A. o 60.746.948/0001-12 F
-· entregue  E05 BBDC4 — BBDC4 · Bradesco (BBDC4) tem aumento de capital homologado pelo BC e ajusta JCP 
-· entregue  E05 CVX — CVX · Hess Midstream to Acquire Chevron DJ Basin Midstream Assets; Pays $200M an
-· entregue  C02 DI — Inclinação da curva DI: F35-F28 -13 bps no dia: bull flattening (longo fechou ma
-· entregue  C03 DI — DI em nível: F29 na mínima de 252 pregões: 12,32% · F30 cruzou 12,50% (para baix
-· linha     T04 REMX — REMX fechou na mínima de 52 semanas: US$ 60,58, -21% em 1m e -17% em 12m
-· linha     T10 REMX — REMX no mínimo de força relativa em 63 sessões contra SPX: -16% vs +2,3% em 20 s
-· linha     T10 PLTR — PLTR no máximo de força relativa em 63 sessões contra SPX: +20% vs +2,3% em 20 s
-· linha     T12 EQTL3 — EQTL3: 8 altas seguidas (+27% acumulado) a R$ 49,66
-· linha     T12 SBSP3 — SBSP3: 8 altas seguidas (+25% acumulado) a R$ 33,36
-· linha     T12 SMAL11 — SMAL11: 8 altas seguidas (+23% acumulado) a R$ 134,39
-· linha     S01 SISTEMA — coleta do slot fechamento saiu incompleta: bcb: BCB devolveu 4 de 5 séries (falt
-· entregue  E05 DI — DI · XP (XPBR31) pode ganhar um empurrão da Selic mais baixa; UBS BB eleva preço
-· entregue  E05 PETR4 — PETR4 · R$ 3,2 bi: Petrobras domina leilões da ANP e faz aposta em Campos e nova
-· entregue  E05 BTC — BTC · TD Cowen raises Bitcoin price target to $280,000 by 2029
-· entregue  E03 PETR4 — PETR4 · Fato Relevante: Participou do 4º Ciclo de Oferta Permanente de Partilha 
-· entregue  E05 MRVL — MRVL · Marvell Technology's AI Bet: Path To $90B In Revenue By 2031 (NASDAQ:MRVL
-· entregue  E05 MU — MU · Micron Rival Samsung's Outlook Gets a $70 Billion Jolt
-· entregue  E05 TSM — TSM · TSMC Q3 Revenue Tops Its Own Guidance and the 19-Analyst Forecast
-· entregue  E05 MRVL — MRVL · Marvell's Investor Day: $70-90B FY 2031 Sales Feels Like A Different Comp
-· entregue  E05 UST — UST · Treasury yields rise as Fed's Waller says more hikes needed, investors awa
-· entregue  E05 MRVL — MRVL · Marvell Investor Day: Connectivity Lifts Outlook To $20 Billion
 · linha     T09 KLBN4 — KLBN4 -1,1% com volume 2,5x a mediana de 20 sessões, a R$ 3,63
 · linha     F05 BHKP — Celulose (proxy SHFE, fibra longa) -3,1% na semana: 4.810 CNY/t (12/10)
 · linha     T01 AVGO — AVGO fechou abaixo da média de 200 dias pela 2ª sessão: US$ 361,54 vs MM200 US$ 
@@ -107,20 +109,4 @@ Alertas do dia (todos, com status):
 · linha     T10 IGV — IGV no máximo de força relativa em 63 sessões contra SPX: +11% vs +2,0% em 20 se
 · linha     T10 LITE — LITE no máximo de força relativa em 63 sessões contra SOX: +19% vs +6,3% em 20 s
 · linha     F01 USDBRL — Real sobe: USD/BRL 4,9823 (-4,5% em 5 sessões · cruzou R$ 5,00) (parcial, intrad
-· linha     C03 TESOURO — Prefixado em nível: Pre 2029 na mínima de 252 bases: 12,53%
-· linha     T04 EQTL3 — EQTL3 fechou na máxima de 52 semanas: R$ 49,66, +27% em 1m e +47% em 12m
-· linha     T04 ALUP4 — ALUP4 fechou na máxima de 52 semanas: R$ 12,83, +16% em 1m e +36% em 12m
-· linha     T04 SMAL11 — SMAL11 fechou na máxima de 52 semanas: R$ 134,39, +20% em 1m e +28% em 12m
-· linha     T02 VHYA — VHYA (Vanguard FTSE All-World High Dividend Yield UCITS ETF USD Accumulating) pe
-· linha     T02 QNTM — QNTM perdeu a MM100 pela 2ª sessão: US$ 28,35, ainda acima da MM200 (tendência l
-· linha     T02 WQTMUS — WQTMUS perdeu a MM50 pela 2ª sessão: US$ 31,09, ainda acima da MM200 (tendência 
-· linha     T07 REMX — REMX entrou em sobrevendido: RSI14 25 a US$ 60,58
-· linha     T09 GFS — GFS +2,7% com volume 2,8x a mediana de 20 sessões, a US$ 49,36
-· linha     T10 SMAL11 — SMAL11 no máximo de força relativa em 63 sessões contra IBOV: +20% vs +9,5% em 2
-· linha     T11 ITSA4 — ITSA4 descolou atrás de ITUB4: +13% vs +17% em 20 sessões (z -2,5 em 252 sessões
-· linha     T12 SAPR4 — SAPR4: 6 altas seguidas (+26% acumulado) a R$ 8,22
-· linha     F06 ETH — ETH cai a US$ 2.472 (cruzou US$ 2.500)
-· linha     F01 USDBRL — Real sobe: USD/BRL 5,0076 (-4,1% em 5 sessões) (parcial, intradia)
-· linha     F01 USDBRL — Real cai: USD/BRL 5,0234 (-3,8% em 5 sessões) (parcial, intradia)
-· linha     F03 BRENT — Brent sobe a US$ 104,28 (+4,1% no dia)
-· (+27 notícias só manchete, em noticias.md)
+· (+44 notícias só manchete, em noticias.md)
