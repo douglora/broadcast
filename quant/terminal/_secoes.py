@@ -152,12 +152,19 @@ def sec_tir(c: Ctx, t: str) -> tuple[dict | None, str | None]:
     tir = e.get("tir") or {}
     tp = e.get("tir_prudente") or {}
     cx = e.get("caixa") or {}
-    hoje_pct = L.pct(tir.get("menor"))
+    # desde 11/10/2026 o numero principal do terminal e a taxa com terminal endogeno (`principal`); `menor` (a menor entre a saida
+    # por P/L e a saida a NTN-B + 5) ficou so por compatibilidade e subestimava (relatorios/tir_auditoria no terminal).
+    def _principal(d):
+        d = d or {}
+        return d.get("principal") if d.get("principal") is not None else d.get("menor")
+    hoje_pct = L.pct(_principal(tir))
     out = _cab("Autopilot Terminal, modulo tir (cache/out/pagina/tir.json)", ref, c)
     out.update({
         "gerado": d.get("gerado"), "preco": L.arred(e.get("preco"), 4),
         "tir_hoje_pct": hoje_pct,
-        "tir_normalizada_pct": L.pct(((e.get("tir_normalizada") or {}).get("tir") or {}).get("menor")),
+        "tir_normalizada_pct": L.pct(_principal((e.get("tir_normalizada") or {}).get("tir"))),
+        "tir_pl_historico_pct": L.pct(tir.get("pl")),
+        "tir_saida_conservadora_pct": L.pct(tir.get("perp")),
         "tir_prudente": {"pct": L.pct(tp.get("v")), "base": tp.get("base"), "pico": bool(tp.get("pico")) if tp else None,
                          "premio_pp": L.arred(tp.get("premio_pp"))},
         "premio_hoje_pp": None if hoje_pct is None or ntnb is None else round(hoje_pct - ntnb, 2),

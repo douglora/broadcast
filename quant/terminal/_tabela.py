@@ -42,7 +42,7 @@ COLUNAS: list[tuple[str, str, Callable[[dict], Any]]] = [
     ("mcap_rs", "R$: valor de mercado", lambda f: _g(f, "multiplos", "mcap_rs")),
     ("liq_21d_rs", "R$: volume financeiro medio diario de 21 pregoes", lambda f: _g(f, "multiplos", "liq_media_21d_rs")),
     # TIR real implicita (modulo tir)
-    ("tir_pct", "% a.a. real: TIR de hoje (a menor entre valor terminal por P/L e por perpetuidade)", lambda f: _g(f, "tir", "tir_hoje_pct")),
+    ("tir_pct", "% a.a. real: TIR de hoje (terminal endogeno: o lucro do ano 11 capitalizado a propria taxa)", lambda f: _g(f, "tir", "tir_hoje_pct")),
     ("tir_prudente_pct", "% a.a. real: TIR prudente (a da tela; normalizada quando o lucro esta em pico)", lambda f: _g(f, "tir", "tir_prudente", "pct")),
     ("tir_premio_pp", "pp: TIR prudente menos a taxa da NTN-B de ~10 anos", lambda f: _g(f, "tir", "tir_prudente", "premio_pp")),
     ("tir_premio_hoje_pp", "pp: TIR de hoje menos a NTN-B", lambda f: _g(f, "tir", "premio_hoje_pp")),

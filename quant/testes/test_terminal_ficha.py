@@ -331,3 +331,16 @@ def test_cache_acompanha_a_mudanca_do_arquivo(raiz, tmp_path):
     d["a"]["PETR4"]["avisos"] = ["mudou"]
     p.write_text(json.dumps(d))
     assert ficha()["multiplos"]["pl"] == 9.99                                      # o arquivo mudou (tamanho e hora): o cache nao segura o valor velho
+
+
+def test_tir_usa_o_numero_principal_novo_e_cai_no_antigo_so_se_faltar():
+    """Desde 11/10/2026 o terminal publica `tir.principal` (terminal endogeno); `menor` ficou por compatibilidade."""
+    from quant.terminal import _secoes as sec
+    from quant.terminal import _leitor as L
+    assert "_principal(tir)" in __import__("inspect").getsource(sec)
+    novo = {"principal": 0.0515, "menor": -0.0129, "pl": 0.1018, "perp": -0.0129}
+    so_antigo = {"menor": 0.07}
+
+    def principal(d):
+        return d.get("principal") if d.get("principal") is not None else d.get("menor")
+    assert L.pct(principal(novo)) == 5.15 and L.pct(principal(so_antigo)) == 7.0
