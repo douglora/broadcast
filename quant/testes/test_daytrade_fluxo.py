@@ -1424,3 +1424,18 @@ def test_avisos_e_fase_do_setup_de_niveis_saem_do_modo_robo(tmp_path, monkeypatc
     # nada ligado
     est = rodar({"dado_opera": False, "climax_opera": False, "niveis_opera": False})
     assert "Nenhuma leitura opera" in " ".join(est["avisos"]) and est["vivo"]["fase_texto"].startswith("Nenhuma leitura operando, medindo ")
+
+
+def test_sinal_do_dado_leva_o_tipo_do_dia_so_como_rotulo(tmp_path, monkeypatch):
+    """12/10/2026: cada sinal do dado guarda que divulgacao saiu as 8h30 de NY (calendario_eua); nao muda a regra."""
+    rf, mt5 = _robo_niveis(tmp_path, monkeypatch)
+    _fita_do_dado(mt5, reacao=6.0)
+    r = rf.RoboFluxo("2026-10-08", saidas=[str(tmp_path / "quant.json")], pasta_mt5=str(mt5), setup="niveis")
+    r.codigos = {"WDOFUT": "WDOX26"}
+    r.sinais_pc["WDOFUT"] = type("S", (), {"atualizar": lambda self, df, extras=(): ({"pronto": False, "motivo": "teste"}, None)})()
+    agora = datetime(2026, 10, 8, 9, 32, 3, tzinfo=BRT)
+    r.ciclo(agora, retrato={"q": {"WDOFUT": _cotacao(5036.0, agora.timestamp(), maxima=5036.0)}})
+    sinal = json.loads(open(tmp_path / "dt" / "2026-10-08" / "sinais_niveis.jsonl").read().splitlines()[0])
+    assert sinal["medidas"]["tipo_do_dia"] == "claims"                 # quinta-feira sem dado do BLS: pedidos de auxilio
+    pos = r.estados["WDOFUT"].posicao
+    assert pos and (pos.lado, pos.entrada, pos.stop) == ("V", 5035.5, 5075.5)   # a regra continua a mesma

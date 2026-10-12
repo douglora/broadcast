@@ -294,10 +294,15 @@ class SinalDado:
         if lado is None or relogio % 60 > self.atraso_max_s:
             return self.leitura, None
         antes = float(fech[dado - pd.Timedelta(minutes=1)])
+        try:                                                     # so rotulo (12/10/2026): que dado saiu hoje as 8h30 de NY, para o placar separar
+            from quant.dados import calendario_eua as ce
+            tipo_dia = ce.tipo_do_dia(dia)
+        except Exception:
+            tipo_dia = None
         return self.leitura, hist.Ordem(lado, stop_pts=self.stop, alvo_pts=None, parcial_pts=None, tempo_max=self.tempo_max,
                                         motivo="reversão do dado", nivel=antes,
                                         nome_nivel=f"reação de {mv:+g} pontos ao dado das {dado.strftime('%Hh%M')}".replace(".", ","),
-                                        info={"movimento": round(mv, 1), "hora_dado": dado.strftime("%H:%M"), "preco_antes": antes})
+                                        info={"movimento": round(mv, 1), "hora_dado": dado.strftime("%H:%M"), "preco_antes": antes, "tipo_do_dia": tipo_dia})
 
 
 class SinalPhiCube:

@@ -86,7 +86,7 @@ def passo(dia, nome, args, timeout=1800, repetir=False):
 # ─────────────────────────────────────────────────────────────
 # Os tres momentos
 # ─────────────────────────────────────────────────────────────
-PASSOS_AUXILIARES = ("risco", "livro")             # falha aqui e avisada no log, mas nao reprova a manha
+PASSOS_AUXILIARES = ("risco", "livro", "observacao")   # falha aqui e avisada no log, mas nao reprova a manha
 
 
 def _boleta_swing_emitida(dia):
@@ -139,6 +139,9 @@ def preparar(dia=None, repetir=False, mods=None):
         # Passo auxiliar: se falhar, a boleta sai com mao cheia e diz isso; nao derruba a rotina.
         ("risco", ["-m", "quant.risco.orcamento"], 600),
         ("livro", ["-m", "quant.risco.livro"], 120),
+        # camada de observacao (12/10/2026): macro, micro, grafico e fundamento viram sinais SO MEDIDOS, com termometro,
+        # dose recomendada e placar; le o terminal e grava em quant/saida/observacao/. Auxiliar: nao muda nenhum modulo.
+        ("observacao", ["-m", "quant.observacao"], 300),
     ]
     if com_fatores:
         passos.append(("boleta", ["-m", "quant.rodar_diario", "--paper"], 600))
@@ -149,7 +152,7 @@ def preparar(dia=None, repetir=False, mods=None):
     tudo = True
     for nome, args, limite in passos:
         # validacao, risco e boleta dependem do que veio antes: se algo mudou hoje, refazem
-        ok = passo(dia, nome, args, timeout=limite, repetir=repetir or nome in ("validacao", "risco", "livro", "boleta", "swing"))
+        ok = passo(dia, nome, args, timeout=limite, repetir=repetir or nome in ("validacao", "risco", "livro", "observacao", "boleta", "swing"))
         tudo = tudo and (ok or nome in PASSOS_AUXILIARES)
     return tudo
 

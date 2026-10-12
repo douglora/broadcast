@@ -209,3 +209,49 @@ quant/saida/pesquisa5/noite/2026-10-09/). Nenhuma candidata.
      que ainda pode se estender 15 a 20 pontos antes de voltar, e um stop curto troca o acerto de 85% por 60% sem pagar a diferenca. Mesma regra de
      descoberta/validacao/prova do item 16; passa da descoberta se a media por pregao superar a do teto simples com o stop de 40 (+R$ 4,7) e o
      pior dia ficar acima de -R$ 500.
+
+
+## 12/10/2026: estudo completo da estrategia (pedido do Douglas; relatorio em quant/saida/relatorios/2026-10-12_estudo_completo_robo.html)
+
+Metodo da sessao: tudo com os custos do laboratorio, descoberta 10/2021-12/2024 e validacao 2025 quando a regra ja tinha aberto
+a validacao; 2026 NAO foi relido por nenhuma regra. Tentativas desta sessao: 2 (tipo de dia V1/V2) + 1 (overnight R1) + 2 eventos
+(anuncios, pre-FOMC) + 3 (tendencia do indice) + 3 (tendencia do DI) = 11 simulacoes/eventos novos no registro.jsonl (familias
+calendario_tipo_dia, anomalias_literatura, tendencia_indice, tendencia_juros). Monte Carlo e caminhos do livro nao sao tentativas.
+Scripts em quant/estudos/2026-10-12_*.py; saidas em quant/saida/pesquisa5/montecarlo/.
+
+### Testadas (12/10/2026)
+- Reversao do dado, Monte Carlo (2021-2025, 400 negocios): +R$ 88,85 por negocio, t 3,2, Sharpe 1,57, DSR 0,48 com 1.000 tentativas e
+  0,16 com 35 mil. Bootstrap por blocos (10 mil anos de 95 negocios): ano medio +R$ 8,4 mil, P(ano negativo) 4% a 6%, queda maxima
+  mediana -R$ 2,9 mil (p05 -5,3 mil), P(queda > 10 mil) 0,03% a 0,2%; na serie real 0 semanas estouraram os R$ 2.000. Permutacao (400 regras
+  aleatorias, mesma hora e numero de entradas): placebo -R$ 22,86 (o custo), a regra z 4,3, p < 0,0025. ATENCAO: inclui a descoberta;
+  so 2025 e +R$ 26 por negocio.
+- Reversao do dado por TIPO DE DIA (calendario do BLS + pedidos de auxilio; BEA/Census = lacuna): descoberta payroll +R$ 223 (n 34),
+  ppi +189 (26), outro BLS +165 (41), cpi +75 (31), claims +68 (51), sem dado conhecido +57 (155). Validacao: sem dado -R$ 21 (31),
+  payroll +153 (6), ppi +259 (5), cpi +40 (10). V1 (so dia com dado) 183 neg +R$ 137 (t 3,2, 7/7) mas R$ 31 por pregao contra 42 da base;
+  2025: +R$ 74 (n 31, R$ 9,2/pregao contra 6,6 da base). V2 (payroll/cpi/ppi) 91 neg +R$ 163 (t 2,6, 5/7), 2025 +R$ 125 (n 21).
+  VEREDITO: pelo pre-registro "nao agrega" (perde por pregao na descoberta); o rotulo `tipo_do_dia` entra em cada sinal ao vivo (so
+  medido) e a prova viva por tipo decide. A regra que opera NAO mudou.
+- Overnight x intradia (BOVA11, 2021-2024): overnight +5,0 pb por dia (t 2,0), intradia -3,4 pb; regra "compra 16h54, vende abertura"
+  -2,8 pb liquido depois de 7,8 pb de custo: REPROVADA (validacao nao aberta).
+- Dias de anuncio americano no BOVA11 (Savor-Wilson): -4,3 pb contra -2,8 pb nos demais (t -0,2): nada. Pre-FOMC (Lucca-Moench):
+  +12,4 pb contra +2,2 pb, 13 de 24 positivos, t 0,55: inconclusivo (pista: amostra cresce 8 por ano).
+- Tendencia de meses no INDICE (NEFIN Rm, vol alvo 10%, 2001-2010 e 2011-2015): 12-1 Sharpe 0,10 e 0,08; 6-1 0,08 e 0,01; 3-1 -0,02 e
+  -0,13. REPROVADA (G3 para o indice).
+- Tendencia em JUROS (DI de 2 anos, 2005-2015 e 2016-2020, o que a Kadima declara fazer): N=63 ?, N=126 Sharpe 0,33 e -0,58, N=252 0,35
+  e -0,23. REPROVADA. DI como sinal do indice/dolar em 20 pregoes: sinal troca entre as janelas: nada estavel.
+- Mecanismo da surpresa (payroll e CPI 2021-2025, 95 dias, efetivo contra o anterior pela API do BLS): a reacao de 2 minutos tem o sinal
+  "certo" em 58% dos dias; nas reacoes > 3 pontos (81) a devolucao media em 2 horas e 8,3 pontos: 6,3 quando a reacao concorda com a
+  surpresa e 11,3 quando contraria. PISTA (nao e regra): a reacao contra o sentido da surpresa devolve mais. Com consenso de verdade
+  (ForexFactory arquivado toda semana desde 12/10/2026, ou calendario do MetaTrader), medir em prova viva.
+- Caminhos do livro 60/30/10 (series mensais 2016-2021, 10 mil caminhos de 12 meses): queda do livro mediana 4%, p95 14%, p99 18%; acoes
+  estouram a fatia de 17% em 3% dos caminhos; opcoes e dolar nunca estouram; P(12 meses abaixo do CDI) 22%.
+
+### A testar (novas, 12/10/2026)
+16. Limiar do dado relativo a volatilidade (reacao / amplitude tipica dos 20 pregoes) em vez de 3 pontos fixos (pista do digest; nao testado).
+17. Execucao passiva calibrada com o negocio a negocio real (20 pregoes da B3 + livro do MetaTrader): o "0,26 ponto" da ordem parada e artefato do
+    fill do laboratorio; sem calibracao, os efeitos reais menores que o custo (reversao de barra, valor justo, 16h00) nao podem ser julgados.
+18. Reacao contra o sentido da surpresa (item acima) como filtro do setup do dado: so com consenso arquivado (prova viva).
+19. Opcoes A0 (capital protegido) e A1 (straddle barato): refazer com t agrupado por mes, tabela de eventos corrigida (315 bonificacoes), IR e mais ativos.
+20. Prova viva dos eventos raros congelados: anuncio extra do BC (n 15), fade do dado de quinta com ordem passiva (n 45), 1o pregao de jan/mai/set.
+21. Camada de observacao (quant/observacao, desde 12/10/2026): 17 sinais macro/micro/grafico/fundamento, termometro G20, dose G23 e placar
+    G19/G2, tudo so medido; com 60 leituras pontuadas por sinal (~3 meses) o placar diz quem tem informacao.

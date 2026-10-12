@@ -381,3 +381,32 @@ primeiro com a tabela de antes e bate com `holdout.json` a 1e-9):
   tentativa nova: mesma regra, mesmos parametros, outro dado.
 - Painel de sinais refeito com a tabela corrigida: `pesquisa_carteira/sinais_2011_2026_eventos_corrigidos.parquet` (so mudam as colunas derivadas de retorno: momentum e
   volatilidade). O original continua ao lado.
+
+
+## 12/10/2026: estudo completo da estrategia (auditoria, dados, literatura, testes, camada de observacao)
+
+Pedido do Douglas: "estudo completo da estrategia do robo, backtesting, Monte Carlo e outras formas... reveja a estrategia, ache os furos...
+pesquise estrategias vencedoras... deixe o modelo mais assertivo". Relatorio: `quant/saida/relatorios/2026-10-12_estudo_completo_robo.html`.
+Scripts em `quant/estudos/2026-10-12_*.py`; saidas em `quant/saida/pesquisa5/montecarlo/`; tentativas no `registro.jsonl` (11 novas).
+
+| O que | Resultado | Veredito |
+|---|---|---|
+| Reversao do dado (congelada), 2021-2025, Monte Carlo | 400 negocios, +R$ 88,85/neg, Sharpe 1,57, DSR 0,48 (N 1.000) e 0,16 (N 35 mil); bootstrap: ano medio +R$ 8,4 mil, P(ano negativo) 4-6%, P(queda > 10 mil) < 0,2%; permutacao z 4,3 (p < 0,0025); so 2025: +R$ 26/neg | continua a unica regra com capital; fraca fora da descoberta |
+| Reversao do dado por tipo de dia (calendario do BLS) | payroll +R$ 223 e PPI +189/neg na descoberta; dias sem dado conhecido +57 (2025: -21); V1 so dia com dado: +R$ 137/neg, t 3,2, 7/7, mas R$ 31/pregao (base 42) | "nao agrega" pelo pre-registro; rotulo `tipo_do_dia` so medido em cada sinal |
+| Overnight BOVA11 (Lou-Polk-Skouras) | +5 pb/dia (t 2,0); regra liquida -2,8 pb | reprovada |
+| Dia de anuncio (Savor-Wilson) e pre-FOMC (Lucca-Moench) no BOVA11 | -1,5 pb de diferenca; pre-FOMC +12 pb (n 24, t 0,6) | nada / inconclusivo |
+| Tendencia de meses no indice (NEFIN) | Sharpe 0,10 e 0,08 (12-1) | reprovada |
+| Tendencia em juros (DI 2 anos, Kadima) | Sharpe 0,33 e -0,58 (N 126) | reprovada |
+| Mecanismo da surpresa (payroll/CPI) | reacao contra o sentido da surpresa devolve 11,3 pts contra 6,3 | pista para a prova viva com consenso |
+| Caminhos do livro 60/30/10 | queda p95 14%, p99 18%; acoes estouram 17% em 3% dos caminhos | orcamento de 30% cabe |
+
+Furos (tabela completa no relatorio): o setup do dado dispara todo dia (A1); pausa do dado fixa em 9h28 nao segue o horario de verao dos EUA (A2);
+cotacao velha > 15 s nao executa o stop (A8); protocolo da noite promove com t >= 1 e n 20 (A11); placar do "so medido" ate 17h30 contra operado
+ate 13h (A12); N do Sharpe deflacionado varia por familia (A17); IR fora das opcoes e do swing (A18, A21); validacao/prova reabertas em varias
+regras (digest do agente: 168 aberturas da validacao, 16 da prova); custo de 1,24 ponto no codigo contra 1,05 nos briefs.
+
+Camada de observacao (`quant/observacao/`, so medida): 17 sinais (macro, micro, grafico, fundamento) lidos do terminal, termometro G20,
+dose G23 e placar G19/G2; passo auxiliar `observacao` na rotina da manha; primeira leitura em 12/10/2026. Dado novo: calendario das
+divulgacoes americanas (`quant/dados/calendario_eua.py`: BLS 2021-2026, pedidos de auxilio, efetivos pela API do BLS, consenso semanal
+do ForexFactory arquivado). Pendente do Douglas: compilar e rodar o script do calendario do MetaTrader (consenso historico).
+Nenhuma regra com capital mudou.
