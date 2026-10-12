@@ -1,20 +1,77 @@
-NOTÍCIAS E FATOS · 09/10 21h42
+NOTÍCIAS E FATOS · 12/10 08h33
 
-Pernas: noticias ok 10 novas (18 consultas; descartadas: 444 veículo fora da lista, 48 sem ativo, 0 teto) · cvm ok 0 novos de 4 (3 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 15 novas (18 consultas; descartadas: 463 veículo fora da lista, 27 sem ativo, 49 teto) · cvm ok 2 novos de 2 (2 cias casadas) · sec ok 0 novos em 3 dias
 
-## SEC (8-K, 6-K, 10-Q, 10-K) (1)
+## FATOS RELEVANTES E COMUNICADOS (CVM) (5)
 
-[INFO] E04 · MU · 10-K: 10-K
-SEC EDGAR · aceito 09/10 09h21 · 10-K
-Link: https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/mu-20260903.htm
-Por que importa: 10-K e o balanco anual completo
-Ativos: MU
-Como falar: 'a MU protocolou 10-K na SEC (10-K)'
-Fonte: SEC EDGAR 2026-10-09
-id: E04-MU-26000023-2026-10-09 · status: linha
+[ATENÇÃO] E03 · SBSP3 · Fato Relevante: (“Sabesp”) e a EMAE – EMPRESA METROPOLITANA DE ÁGUAS E ENERGIA S.A. (“EMAE” e, em conjunto com a Sabesp, as “Companhias”), em atendimento ao artigo 1…
+CVM · entregue 08/10/2026 20:30
+Do documento:
+  – São Paulo, 08 de outubro de 2026.
+  – 14/09 Publicação da ata da Assembleia da Sabesp no jornal “Valor Econômico”.
+  – 16/09  Realização da Assembleia da EMAE às 11h.
+  – 17/09 Publicação da ata da Assembleia da EMAE no jornal “Folha de São Paulo”.
+  – 18/09 Início do prazo para exercício do Direito de Retirada.
+  – 30/09 Último dia de atendimento pelo Antigo Escriturador (bloqueio p/corretoras,  pagamentos, transferência de titularidade etc.) à EMAE.
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1575714
+Por que importa: fato relevante e o que a propria companhia julga capaz de mover o preco; ler o documento inteiro antes de comentar
+Ativos: SBSP3
+Como falar: 'a Sabesp publicou fato relevante sobre (“Sabesp”) e a EMAE – EMPRESA METROPOLITANA DE ÁGUAS E ENERGIA S.A. (…'
+Fonte: CVM 08/10
+id: E03-SBSP3-1575714-2026-10-08 · status: entregue · íntegra disponível
+
+[ATENÇÃO] E03 · BBDC4 · Fato Relevante: Página 1 de 1 Banco Bradesco S.A. o 60.746.948/0001-12 Fato Relevante Homologação do Aumento de Capital pelo Banco Central do Brasil, com a consequen…
+CVM · entregue 08/10/2026 18:50
+Do documento:
+  – As ações subscritas no Aumento de Capital serão emitidas e creditadas em nome dos  respectivos subscritores em 13.10.2026.
+  – Cidade de Deus, Osasco, SP, 8 de outubro de 2026.
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1575663
+Por que importa: fato relevante e o que a propria companhia julga capaz de mover o preco; ler o documento inteiro antes de comentar
+Ativos: BBDC4
+Como falar: 'a Bradesco publicou fato relevante sobre Página 1 de 1 Banco Bradesco S.A. o 60.746.948/0001-12 Fato Relevante…'
+Fonte: CVM 08/10
+id: E03-BBDC4-1575663-2026-10-08 · status: entregue · íntegra disponível
+
+[ATENÇÃO] E03 · PETR4 · Fato Relevante: Participou do 4º Ciclo de Oferta Permanente de Partilha de Produção e do 6º Ciclo de Oferta Permanente de Concessão promovidos pela Agência Nacional…
+CVM · entregue 08/10/2026 08:44
+Do documento:
+  – No 4º Ciclo de Oferta Permanente de Partilha de Produção, a companhia adquiriu os blocos Azurita, na bacia  de Campos, e Cruzeiro do Sul, na bacia de Santos, ambos com 100% de participação.
+  – PÚBLICA  Na Bacia do Ceará, a Petrobras adquiriu como operadora os blocos CE-M-471, CE-M-473, CE-M-475, CE-M-477,  CE-M-537, CE-M-539 e CE-M-665, com participação de 70%, em parceria com a QatarEnergy Brasil Ltda (30%).
+  – A Petrobras atuou seletivamente nos leilões de forma a assegurar a incorporação de mais de 18 mil km2 em  seu portfólio exploratório.
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1575304
+Por que importa: fato relevante e o que a propria companhia julga capaz de mover o preco; ler o documento inteiro antes de comentar
+Ativos: PETR4
+Como falar: 'a Petrobras publicou fato relevante sobre Participou do 4º Ciclo de Oferta Permanente de Partilha de Produção e…'
+Fonte: CVM 08/10
+id: E03-PETR4-1575304-2026-10-08 · status: entregue · íntegra disponível
+
+[INFO] E03 · VALE3 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
+CVM · entregue 09/10/2026 18:56 · Outros Comunicados Não Considerados Fatos Relevantes
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1576356
+Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; confirma ou nega o que circula
+Ativos: VALE3
+Como falar: 'a Vale publicou comunicado ao mercado sobre Outros Comunicados Não Considerados Fatos Relevantes'
+Fonte: CVM 09/10
+id: E03-VALE3-1576356-2026-10-09 · status: linha
+
+[INFO] E03 · CURY3 · Participação relevante: gestor reduziu para 14,97% em 08/10
+CVM · entregue 09/10/2026 18:49 · Aquisição/Alienação de Participação Acionária Relevante / Declaração de Alienação de Participação Acionária Relevante
+Do documento:
+  – São Paulo, 9 de outubro de 2026.
+  – Ronaldo Cury de Capua  Diretor de Relações com Investidores        1    São Paulo, 9 de outubro de 2026      À  CURY CONSTRUTORA S.A. Rua Funchal, nº 411, 13º andar, Conjunto 132-D  Vila Olímpia, São Paulo, SP  CEP 0455…
+  – - DATE_ATOM: 2026-10-09T17:54:03-03:00 09 Oct 2026, 17:54:53 Assinaturas iniciadas por MARCELA LUZ FERREIRA (e1d5087d-97de-4e9c-8d73-dc4930330b9c).
+  – - DATE_ATOM: 2026-10-09T17:54:53-03:00 09 Oct 2026, 17:57:51 ASSINATURA COM CERTIFICADO DIGITAL ICP-BRASIL - MIGUEL MAIA MICKELBERG:00610508067 Assinou Email: miguel.mickelberg@cyrela.com.br.
+  – IP: 201.28.40.2 (201-28-40-2.customer.tdatabrasil.net.br porta: 27390).
+  – Dados do Certiﬁcado: C=BR,O=ICP-Brasil,OU=AC SAFEWEB RFB v5,CN=MIGUEL MAIA MICKELBERG:00610508067.
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1576353
+Por que importa: quem cruza 5% de uma companhia tem de avisar (Resolução CVM 44, art. 12); o fluxo de compra ou venda já aconteceu até 08/10, não no dia do aviso
+Ativos: CURY3
+Como falar: 'gestor reduziu para 14,97% em 08/10 na Cury Construtora e Incorporadora; é aviso de participação, não fato relevante'
+Fonte: CVM 09/10
+id: E03-CURY3-1576353-2026-10-09 · status: linha · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (10)
+## NOTÍCIAS COM MATERIALIDADE (20)
 
 [ATENÇÃO] E05 · USDBRL · Ibovespa tem duplo recorde aos 209 mil pontos e avança quase 9% na semana após 1º turno; dólar cai e fica abaixo de R$ 5
 Money Times · 09/10 17h31 · fonte única · licença: integral
@@ -30,7 +87,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: USDBRL
 Como falar: 'saiu no Money Times: Ibovespa tem duplo recorde aos 209 mil pontos e avança quase 9% na semana após 1º turno;…; confirmar o número no texto antes de repassar'
 Fonte: Money Times 09/10 17h31
-id: E05-USDBRL-14b1d6a48e-2026-10-09 · status: expirado · íntegra disponível
+id: E05-USDBRL-14b1d6a48e-2026-10-09 · status: entregue · íntegra disponível
 
 [ATENÇÃO] E05 · KO · Coca-Cola Consolidated Announces Fourth Quarter Dividend
 TradingView (Reuters) · 09/10 17h24 · + Investing.com · licença: manchete
@@ -39,7 +96,7 @@ Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir
 Ativos: KO
 Como falar: 'saiu no TradingView (Reuters): Coca-Cola Consolidated Announces Fourth Quarter Dividend; confirmar o número no texto antes de repassar'
 Fonte: TradingView (Reuters) 09/10 17h24
-id: E05-KO-36a8a0b554-2026-10-09 · status: expirado
+id: E05-KO-36a8a0b554-2026-10-09 · status: entregue
 
 [ATENÇÃO] E05 · KO · Coca-Cola Consolidated declares $0.25 quarterly dividend By Investing.com
 Investing.com · 09/10 17h24 · fonte única · licença: manchete
@@ -124,25 +181,158 @@ Como falar: 'saiu no TradingView (Reuters): Key facts: META Q4 $73–$76B guidan
 Fonte: TradingView (Reuters) 09/10 04h00
 id: E05-META-6441e75de3-2026-10-09 · status: entregue
 
-[ATENÇÃO] E05 · MU · Micron (MU) Is Down 5.6% After Netlist Deal, Strong Earnings And Dividend Affirmation - What's Changed
-Yahoo Finance · 09/10 02h14 · fonte única · licença: resumo
+[ATENÇÃO] E05 · BBDC4 · Bradesco (BBDC4) tem aumento de capital homologado pelo BC e ajusta JCP por ação
+Money Times · 08/10 20h07 · fonte única · licença: integral
+Do texto:
+  – Segundo o fato relevante, as ações subscritas no aumento de capital serão emitidas e creditadas aos respectivos subscritores em 13 de outubro de 2026.
+  – Com a homologação, o banco também atualizou os valores dos juros sobre o capital próprio (JCP) deliberados pelo conselho de administração em 30 de setembro.
+  – O montante total segue em R$ 3,8 bilhões, mas o valor por ação foi ajustado em razão da nova quantidade de papéis em circulação após a emissão das novas ações.
+  – O banco destacou que, fora esse ajuste nos valores por ação, permanecem inalteradas as demais condições do comunicado anterior, inclusive o valor global do JCP e a data de pagamento, prevista para ocorrer até 30 de abri…
+  – A movimentação ocorre após o banco já ter concluído o leilão de sobras e informado a homologação do aumento de capital de R$ 10 bilhões, divulgado recentemente.
+  – Link do documento original: https://www.rad.cvm.gov.br/ENETWEB/frmExibirArquivoIPEExterno.aspx?ID=1575663&flnk
+Link: https://www.moneytimes.com.br/bradesco-bbdc4-tem-aumento-de-capital-homologado-pelo-bc-e-ajusta-jcp-por-acao/
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: BBDC4
+Como falar: 'saiu no Money Times: Bradesco (BBDC4) tem aumento de capital homologado pelo BC e ajusta JCP por ação; confirmar o número no texto antes de repassar'
+Fonte: Money Times 08/10 20h07
+id: E05-BBDC4-0684110eca-2026-10-08 · status: entregue · íntegra disponível
+
+[ATENÇÃO] E05 · CVX · Hess Midstream to Acquire Chevron DJ Basin Midstream Assets; Pays $200M and Resets Bakken Contracts
+TradingView (Reuters) · 08/10 18h13 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/tradingview:068c81b6deac5:0-hess-midstream-to-acquire-chevron-dj-basin-midstream-assets-pays-200m-and-resets-bakken-contracts/
+Por que importa: aquisicao ou venda muda alavancagem, mix de receita e o multiplo; olhar preco pago e financiamento
+Ativos: CVX
+Como falar: 'saiu no TradingView (Reuters): Hess Midstream to Acquire Chevron DJ Basin Midstream Assets; Pays $200M and Resets Bakken…; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 08/10 18h13
+id: E05-CVX-d989f8916b-2026-10-08 · status: entregue
+
+[ATENÇÃO] E05 · DI · XP (XPBR31) pode ganhar um empurrão da Selic mais baixa; UBS BB eleva preço-alvo e vê até 25% de alta
+Seu Dinheiro · 08/10 16h10 · fonte única · licença: resumo
 Trechos (licença resumo: reescrever, não colar):
-  – These 32 stocks are working on everything from early diagnostics to drug discovery.
-  – The best part - they are all under $10b in market cap - there's still time to get in early.
-  – The most relevant recent announcement is Micron's blockbuster fiscal 2026 report, with US$133,188 million in revenue and US$84,969 million in net income, alongside stronger guidance for early fiscal 2027.
-  – Micron Technology's narrative projects $297.7 billion revenue and $184.0 billion earnings by 2029.
-  – This requires 48.9% yearly revenue growth and a $133.5 billion earnings increase from $50.5 billion today.
-  – Uncover how Micron Technology's forecasts yield a $1521 fair value, a 47% upside to its current price.
-Link: https://finance.yahoo.com/markets/stocks/articles/micron-mu-down-5-6-051403875.html
+  – Essa possibilidade levou os analistas a elevarem o preço-alvo da ação de US$ 25 para US$ 37, mantendo a recomendação de compra.
+  – O novo alvo representa um potencial de valorização de 25% em relação ao último fechamento.
+  – Segundo o UBS BB, o net new money — os recursos líquidos que entram na plataforma — chegou a R$ 103 bilhões nos últimos 12 meses, uma média de R$ 26 bilhões por trimestre.
+  – Para os analistas, a queda dos juros pode reduzir a “inércia” dos investidores que hoje encontram retornos elevados em aplicações de baixo risco e estimular uma migração para outros produtos.
+  – Hoje, ações representam cerca de 25% dos ativos sob custódia da XP.
+  – Pelas contas do UBS BB, cada 10 pontos-base de aumento no take rate acrescentaria cerca de R$ 1,3 bilhão às receitas.
+Link: https://www.seudinheiro.com/2026/empresas/xp-xpbr31-pode-ganhar-um-empurrao-da-selic-mais-baixa-ubs-bb-eleva-preco-alvo-e-ve-ate-25-de-alta-miql/
+Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
+Ativos: DI
+Como falar: 'saiu no Seu Dinheiro: XP (XPBR31) pode ganhar um empurrão da Selic mais baixa; UBS BB eleva preço-alvo e vê até…; confirmar o número no texto antes de repassar'
+Fonte: Seu Dinheiro 08/10 16h10
+id: E05-DI-ea3764b6c3-2026-10-08 · status: entregue
+
+[ATENÇÃO] E05 · PETR4 · R$ 3,2 bi: Petrobras domina leilões da ANP e faz aposta em Campos e novas fronteiras
+InfoMoney · 08/10 15h30 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Nos dois certames, o 6º Ciclo da Oferta Permanente de Concessão e o 4º Ciclo da Oferta Permanente de Partilha, o governo levantou aproximadamente R$ 3,54 bilhões em bônus de assinatura.
+  – Desse montante, a Petrobras comprometeu cerca de R$ 3,22 bilhões, ou aproximadamente 91% do total.
+  – O desembolso equivale a cerca de 0,44% do valor de mercado da estatal, segundo cálculos da XP.
+  – No total, foram 21 blocos para a Petrobras, sendo 19 na rodada de concessão e outros dois na rodada de partilha.
+  – A companhia garantiu 19 blocos e comprometeu R$ 2,99 bilhões em bônus, equivalentes a 0,4% de seu valor de mercado.
+  – Foram 12 blocos na Bacia de Campos, com participação de 100%, e sete na Bacia do Ceará, na Margem Equatorial, em consórcio com a QatarEnergy, no qual a estatal tem 70%.
+Link: https://www.infomoney.com.br/mercados/petrobras-petr4-tres-bilhoes-estatal-leiloes-da-anp-aposta-em-campos-e-novas-fronteiras/
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: PETR4
+Como falar: 'saiu no InfoMoney: R$ 3,2 bi: Petrobras domina leilões da ANP e faz aposta em Campos e novas fronteiras; confirmar o número no texto antes de repassar'
+Fonte: InfoMoney 08/10 15h30
+id: E05-PETR4-4f0acfc71e-2026-10-08 · status: entregue
+
+[ATENÇÃO] E05 · BTC · TD Cowen raises Bitcoin price target to $280,000 by 2029
+TradingView (Reuters) · 08/10 12h17 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/cryptobriefing:8e70aff74094b:0-td-cowen-raises-bitcoin-price-target-to-280-000-by-2029/
+Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
+Ativos: BTC
+Como falar: 'saiu no TradingView (Reuters): TD Cowen raises Bitcoin price target to $280,000 by 2029; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 08/10 12h17
+id: E05-BTC-5e96908bfd-2026-10-08 · status: entregue
+
+[ATENÇÃO] E05 · MRVL · Marvell Technology's AI Bet: Path To $90B In Revenue By 2031 (NASDAQ:MRVL)
+Seeking Alpha · 08/10 09h31 · fonte única · licença: manchete
+Link: https://seekingalpha.com/article/4952754-marvell-technologys-ai-bet-path-to-90b-in-revenue-by-2031
 Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: MRVL
+Como falar: 'saiu no Seeking Alpha: Marvell Technology's AI Bet: Path To $90B In Revenue By 2031 (NASDAQ:MRVL); confirmar o número no texto antes de repassar'
+Fonte: Seeking Alpha 08/10 09h31
+id: E05-MRVL-03379f2363-2026-10-08 · status: entregue
+
+[ATENÇÃO] E05 · MU · Micron Rival Samsung's Outlook Gets a $70 Billion Jolt
+TradingView (Reuters) · 08/10 09h17 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/gurufocus:093d8e388094b:0-micron-rival-samsung-s-outlook-gets-a-70-billion-jolt/
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
 Ativos: MU
-Como falar: 'saiu no Yahoo Finance: Micron (MU) Is Down 5.6% After Netlist Deal, Strong Earnings And Dividend Affirmation - W…; confirmar o número no texto antes de repassar'
-Fonte: Yahoo Finance 09/10 02h14
-id: E05-MU-67835dcf64-2026-10-09 · status: linha
+Como falar: 'saiu no TradingView (Reuters): Micron Rival Samsung's Outlook Gets a $70 Billion Jolt; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 08/10 09h17
+id: E05-MU-2bc160b1e4-2026-10-08 · status: entregue
+
+[ATENÇÃO] E05 · TSM · TSMC Q3 Revenue Tops Its Own Guidance and the 19-Analyst Forecast
+Yahoo Finance · 08/10 08h37 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Taiwan Semiconductor Manufacturing Co. (TSMC) said September revenue rose 54.6% from a year earlier to NT$511.86 billion ($16.03 billion).
+  – The result lifted third-quarter revenue to a record NT$1.49 trillion.
+  – TSMC's Taiwan-listed shares closed 1.35% lower at NT$2,550 on Thursday, before the company published the figures.
+  – How September Revenue Pushed TSMC to a Record Quarter September revenue slipped 0.6% from August's NT$514.81 billion, according to TSMC's release.
+  – However, revenue for the first nine months still climbed 41.1% to NT$3.90 trillion.
+  – Reuters calculated third-quarter revenue at NT$1.49 trillion, a 50% rise from a year earlier.
+Link: https://finance.yahoo.com/markets/stocks/articles/tsmc-q3-revenue-tops-own-113733291.html
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: TSM
+Como falar: 'saiu no Yahoo Finance: TSMC Q3 Revenue Tops Its Own Guidance and the 19-Analyst Forecast; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 08/10 08h37
+id: E05-TSM-bd7bd7ed60-2026-10-08 · status: entregue
+
+[ATENÇÃO] E05 · MRVL · Marvell's Investor Day: $70-90B FY 2031 Sales Feels Like A Different Company
+Seeking Alpha · 08/10 07h39 · fonte única · licença: manchete
+Link: https://seekingalpha.com/article/4952720-marvells-investor-day-70-90b-fy31-sales-feels-like-a-different-company
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: MRVL
+Como falar: 'saiu no Seeking Alpha: Marvell's Investor Day: $70-90B FY 2031 Sales Feels Like A Different Company; confirmar o número no texto antes de repassar'
+Fonte: Seeking Alpha 08/10 07h39
+id: E05-MRVL-8e40b5f602-2026-10-08 · status: entregue
+
+[ATENÇÃO] E05 · UST · Treasury yields rise as Fed's Waller says more hikes needed, investors await 30-year auction
+CNBC · 08/10 06h19 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – The benchmark 10-year Treasury yield was 7 basis points higher at 5.35%, near its highest level since 2002.
+  – The 30-year Treasury bond yield rose over 6 basis points to 5.725%, after trading just below a 24-year high in the previous session.
+  – The 2-year Treasury note yield rose 5 basis points to 4.816%.
+  – One basis point is equal to 0.01%, and yields and prices move in opposite directions.
+  – Fed Governor Christopher Waller said on Thursday that more hikes are needed to bring inflation down after around 5-and-a-half years above the central bank's 2% target, but suggested rates did not need to rise immediatel…
+  – "The hikes do not need to come at consecutive meetings," Waller told a Central Bank of Turkey forum in Istanbul.
+Link: https://www.cnbc.com/2026/10/08/us-treasury-yields-30-year-bond-auction.html
+Por que importa: decisao de politica monetaria reprecifica toda a curva e o cambio
+Ativos: UST
+Como falar: 'saiu no CNBC: Treasury yields rise as Fed's Waller says more hikes needed, investors await 30-year auct…; confirmar o número no texto antes de repassar'
+Fonte: CNBC 08/10 06h19
+id: E05-UST-5785e8a04e-2026-10-08 · status: entregue
+
+[ATENÇÃO] E05 · MRVL · Marvell Investor Day: Connectivity Lifts Outlook To $20 Billion
+Seeking Alpha · 08/10 04h45 · fonte única · licença: manchete
+Link: https://seekingalpha.com/article/4952697-marvell-investor-day-connectivity-lifts-outlook-to-20-billion
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: MRVL
+Como falar: 'saiu no Seeking Alpha: Marvell Investor Day: Connectivity Lifts Outlook To $20 Billion; confirmar o número no texto antes de repassar'
+Fonte: Seeking Alpha 08/10 04h45
+id: E05-MRVL-910acc29de-2026-10-08 · status: entregue
 
 
-## OUTRAS NOTÍCIAS (só manchete) (152)
+## OUTRAS NOTÍCIAS (só manchete) (25)
 
+· LITE Lumentum being sold out through 2029 is 'bullish' for suppliers, foundries: Wedbush (LITE:NASDAQ) (Seeking Alpha) https://seekingalpha.com/news/4652028-lumentum-being-sold-out-through-2029-is-bullish-for-suppliers-foundries-wedbush
+· NVDA Adding Nvidia During The Current Uncertainty is How Fortunes Are Made (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/adding-nvidia-during-current-uncertainty-111513084.html
+· BTC BMNR Stock Gains With Ethereum Outpacing Bitcoin After $84K Bounce Ahead Of CPI Report This Week (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:18cc24dd1094b:0-bmnr-stock-gains-with-ethereum-outpacing-bitcoin-after-84k-bounce-ahead-of-cpi-report-this-week/
+· BTC Current price of Bitcoin for Oct. 12, 2026 (Fortune) https://fortune.com/article/price-of-bitcoin-10-12-2026/
+· CVX ConocoPhillips, Chevron among eight energy stocks with A+ profitability grades (XLE:NYSEARCA) (Seeking Alpha) https://seekingalpha.com/news/4652010-conocophillips-chevron-among-eight-energy-stocks-with-a-profitability-grades
+· AVGO Broadcom CEO says many AI investors are gamblers (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/broadcom-ceo-says-many-ai-105524061.html
+· INTC Intel CEO Highlights Rapid Adoption of Chinese AI Models and Potential for Quantum Computing (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/intel-ceo-highlights-rapid-adoption-103525988.html
+· AVGO Broadcom CEO Sees Capital as Main Constraint on AI Growth Despite Easing Chip Shortages (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/broadcom-ceo-sees-capital-main-103425026.html
+· AVGO AM Markets Need to Know: Trump’s ratings slide, Broadcom flags AI costs, and more (SPX:) (Seeking Alpha) https://seekingalpha.com/news/4652007-am-markets-need-to-know-trumps-ratings-slide-broadcom-flags-ai-costs-and-more
+· BBDC4 Seu próximo gerente pode ser uma IA: veja como Bradesco e Santander estão se preparando e se os apps de banco vão acabar (Seu Dinheiro) https://www.seudinheiro.com/2026/empresas/seu-proximo-gerente-pode-ser-uma-ia-veja-como-bradesco-e-santander-estao-se-preparando-e-se-os-apps-de-banco-vao-acabar-miql/
+· LITE Lumentum, Astera Labs, and Corning to Demonstrate 1060 nm VCSEL-Based PCIe over Optics for AI Rack-Scale Connectivity at the 2026 OCP Global Summit (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/lumentum-astera-labs-corning-demonstrate-100000083.html
+· BRENT Wall Street oscila sem viés, com petróleo, Bolsas na Europa e Ásia em alta (UOL Economia) https://economia.uol.com.br/cotacoes/noticias/redacao/2026/10/12/petroleo-sobe-com-tensao-no-oriente-medio-e-bolsas-avancam.ghtm
+· BRENT OPEC cuts 2026 oil demand growth forecast to 400,000 bpd, sees pent-up demand in 2027 (Reuters) https://www.reuters.com/business/energy/opec-cuts-2026-oil-demand-growth-forecast-400000-bpd-sees-pent-up-demand-2027-2026-10-12/
+· BTC Spot Bitcoin and Ethereum ETFs bleed $1.22 billion in a single week (TradingView (Reuters)) https://www.tradingview.com/news/cryptobriefing:4e586bab8094b:0-spot-bitcoin-and-ethereum-etfs-bleed-1-22-billion-in-a-single-week/
+· AVGO Broadcom CEO says capital will be biggest constraint for AI development: report (AVGO:NASDAQ) (Seeking Alpha) https://seekingalpha.com/news/4651984-broadcom-ceo-says-capital-will-be-biggest-constraint-for-ai-development-report
 · UST Stocktwits Weekly Spread: What Shaped Treasury Yields And The Dollar This Week (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:b3c231cec094b:0-stocktwits-weekly-spread-what-shaped-treasury-yields-and-the-dollar-this-week/
 · NVDA What Is Physical AI? Nvidia Is the Stock I'd Buy to Own It. (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/physical-ai-nvidia-stock-id-000101758.html
 · VALE3 Vale sanciona Marcelo Gasparino por vazamento de informações confidenciais (Valor Economico) https://valor.globo.com/empresas/noticia/2026/10/09/vale-sanciona-marcelo-gasparino-por-vazamento-de-informacoes-confidenciais.ghtml
@@ -153,54 +343,3 @@ id: E05-MU-67835dcf64-2026-10-09 · status: linha
 · USDBRL Dólar casado piora e operadores de câmbio veem espaço para nova atuação do BC (Valor Economico) https://valor.globo.com/financas/intraday/post/2026/10/dolar-casado-piora-e-operadores-de-cambio-veem-espaco-para-nova-atuacao-do-bc.ghtml
 · SMAL11 Índice small caps salta mais de 20% e tem a melhor semana da história com as eleições (Bloomberg Linea) https://www.bloomberglinea.com.br/mercados/indice-small-caps-salta-mais-de-20-e-tem-a-melhor-semana-da-historia-com-as-eleicoes/?outputType=amp
 · LITE Lumentum CEO: Opto-Parts Capacity Sold Out to 2029 (Yahoo Finance) https://finance.yahoo.com/video/lumentum-ceo-opto-parts-capacity-013640075.html
-· USDBRL Dólar cai a R$ 4,98 e acumula perda de 4,44% na semana (Agencia Brasil) https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/dolar-cai-r-498-e-acumula-perda-de-444-na-semana
-· BTC XRP ETFs Gain as Bitcoin and Ethereum Funds Lose $317 Million. Is It a Trend? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/xrp-etfs-gain-bitcoin-ethereum-220022976.html
-· DI Juros futuros caem com ‘trade eleitoral’ e ignoram IPCA elevado (Money Times) https://www.moneytimes.com.br/juros-futuros-9-10-26-apsa/
-· USDBRL Dólar fecha abaixo de R$ 5 e cai 4,44% na semana; até onde vai a queda? (Suno Noticias) https://www.suno.com.br/noticias/dolar-abaixo-5-queda-cambio-analistas-mt/
-· GOOGL Microsoft vs. Alphabet: Which AI Cloud Stock Is Cheaper After the Capital Spending? (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/microsoft-vs-alphabet-ai-cloud-212027785.html
-· PETR4 Petrobras vê Belém como base de apoio a possível polo petrolífero no Amapá (CNN Brasil) https://www.cnnbrasil.com.br/infra/petrobras-ve-belem-como-base-de-apoio-a-possivel-polo-petrolifero-no-amapa/
-· KO Should Coca-Cola’s Upgraded Outlook and Prebiotic Push Require Action From Coca-Cola (KO) Investors? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/coca-cola-upgraded-outlook-prebiotic-211258629.html
-· BTC Weekly Wrap: Rising Treasury Yields Sink Bitcoin (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/weekly-wrap-rising-treasury-yields-205200729.html
-· USDBRL Semana fecha com topo histórico, dólar derrete com trade eleitoral (Investing.com) https://br.investing.com/analysis/semana-fecha-com-topo-historico-dolar-derrete-com-trade-eleitoral-200480082
-· USDBRL Ibovespa tem nova alta forte e renova máxima histórica; dólar cai a R$ 4,98 (InfoMoney) https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-09102026/
-· BTC IBIT: A Strategic Bet On A Bitcoin Comeback (NASDAQ:IBIT) (Seeking Alpha) https://seekingalpha.com/article/4953164-ibit-a-strategic-bet-on-a-bitcoin-comeback
-· PLTR Palantir Technologies Inc. (PLTR) Stock Price, News, Quote & History (Yahoo Finance) https://ca.finance.yahoo.com/quote/PLTR/
-· LITE Lumentum: At The Point Of A Potential Upside Breakout (Seeking Alpha) https://seekingalpha.com/article/4953150-lumentum-at-the-point-of-an-upside-breakout
-· NVDA NVIDIA's Rally in Trouble? Analyst Warns of Bull Trap (TradingView (Reuters)) https://news.google.com/rss/articles/CBMisAFBVV95cUxNbm1tbmx1dVd1aVVFSlg4RHBhQmpwUThQYjhZT05NMi1NOXNNeGdjTlhNdzlOc0htOE0wQmNqRHlxY2FCSnVxbjVvbTYzdmVudUZRTDdwR3RfdmV5dlJtakh0RS1JWnRWWWtkTjNkYzFMUnhvY3d0aXpMYWNwMm9EY3hnVzhOQ2lOVnVhWHRKSVdwOTB5ZGJaNFd2UXotTlNBcE5XZUVzWnhCbzFERWhXaA?oc=5
-· JPM JPMorgan, Citigroup, And Bank Of America Earnings Previews: Eventually A Return To More Normal Growth (Seeking Alpha) https://news.google.com/rss/articles/CBMivgFBVV95cUxQWEJQVEs0YzBKSF9FRGFzT2lVZkNxNHI3SmV0RXlTMjVGM2JZUnc5M0xUSWpNTVBTaDJJOUgtZy13MnVFREFUelZNNDJKMC1xR1pYMkVuazhXUGo5bGxSdHdUa0E4emZ3amQ5Q3pQMGh5em5XTnoxbjlueHdVUkhvY0hjT3FHdEhaTVRaSUdqdHVjU1B2MUo4RlB3MVRVYWxkZDRXaWxJVHRmRDdqRmQ2WDhyTmxRTnFBUVlYeVdn?oc=5
-· USDBRL Dólar cai com pesquisas eleitorais e acumula baixa de 4,44% na semana, diante do real (ADVFN) https://br.advfn.com/jornal/2026/10/dolar-cai-com-pesquisas-eleitorais-e-acumula-baixa-de-4-44-na-semana-diante-do-real
-· BABA Alibaba's Earnings Turn May Be Underpriced (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:29019dc8e094b:0-alibaba-s-earnings-turn-may-be-underpriced/
-· AMD AMD CEO Su shares important supply news with stock market investors (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/amd-ceo-su-shares-important-191300089.html
-· UST Treasury yields steady as traders wrap up volatile week (CNBC) https://www.cnbc.com/2026/10/09/us-treasurys-bond-yields-midterms.html
-· BRENT Oil prices settle higher as more production shut ahead of hurricane (Reuters) https://www.reuters.com/business/energy/oil-falls-trump-comments-iran-talks-ease-supply-concerns-2026-10-09/
-· INTC Intel Stocks Fall 1.0% as Applied Partnership Targets AI Bottlenecks (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:0d3a1d097094b:0-intel-stocks-fall-1-0-as-applied-partnership-targets-ai-bottlenecks/
-· UST Gold rises over 1% as dollar weakens, Treasury yields retreat (Yahoo Finance) https://au.finance.yahoo.com/news/gold-rises-over-1-dollar-032811396.html
-· USDBRL Dólar fecha abaixo de R$ 5 e cai 4,43% na semana; Bolsa sobe (UOL Economia) https://economia.uol.com.br/cotacoes/noticias/redacao/2026/10/09/dolar-fecha-abaixo-de-r-5-e-cai-443-na-semana-bolsa-sobe.htm
-· USDBRL Dólar à vista fecha em baixa de 0,76%, a R$4,9856 na venda Por Reuters (Investing.com) https://br.investing.com/news/forex-news/dolar-a-vista-fecha-em-baixa-de-076-a-r49856-na-venda-2088221
-· USDBRL Dólar cai com eleições em foco e fica abaixo de R$ 5; moeda recua mais de 4% na semana (Money Times) https://www.moneytimes.com.br/dolar-9-10-26-lils/
-· INTC Super Micro Stock Rises After Company Adds Former Intel Veteran to Board (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:271eda666094b:0-super-micro-stock-rises-after-company-adds-former-intel-veteran-to-board/
-· BABA Alibaba's Earnings Turn May Be Underpriced (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/alibabas-earnings-turn-may-underpriced-200110038.html
-· UST Treasury Yields Reach 24-Year Highs, Telecom Stocks Sell Off: This Week On Wall Street (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:880c0b0dc094b:0-treasury-yields-reach-24-year-highs-telecom-stocks-sell-off-this-week-on-wall-street/
-· MRVL Marvell Stocks Fall as $20 Billion Goal Tests Execution (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:086fe0e7a094b:0-marvell-stocks-fall-as-20-billion-goal-tests-execution/
-· BTC Bitcoin Rebounds After Rough Week, But Traders Are Pricing In More Downside (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-rebounds-rough-week-traders-173626502.html
-· BTC A Year On, Bitcoin Languishes a Third Below its All-Time High. What’s Next For The Cryptocurrency? (The Wall Street Journal) https://www.wsj.com/finance/currencies/a-year-on-bitcoin-languishes-a-third-below-its-all-time-high-whats-next-for-the-cryptocurrency-046f2689
-· KO Coca-Cola Seeks to Unwind $5 Billion Costa Coffee Acquisition (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/coca-cola-seeks-unwind-5-130526534.html
-· TSLA Unlike EV Narrative, Cybercab Does Not Need Tesla To Overcome An Entire Industry (TSLA) (Seeking Alpha) https://seekingalpha.com/article/4952939-unlike-the-ev-narrative-cybercab-does-not-need-tesla-to-overcome-an-entire-industry
-· BBDC4 Bradesco (BBDC4): 2 gatilhos que podem ‘turbinar’ rentabilidade, segundo UBS BB (Money Times) https://www.moneytimes.com.br/bradesco-bbdc4-2-gatilhos-que-podem-turbinar-rentabilidade-segundo-ubs-bb/
-· TSLA 'I drive a Tesla': After Elon Musk said he’d lose his job, Delta CEO Ed Bastian says there’s 'no tit for tat' as airline unveils earnings miss (Fortune) https://fortune.com/2026/10/09/delta-ed-bastian-elon-musk-q3-earnings-tit-for-tat-starlink/
-· NVDA Management Raised the Bar For NVIDIA Stock; Does The Chart Agree? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/management-raised-bar-nvidia-stock-182211820.html
-· GOOGL Constellation Energy (CEG) Is Up 10.1% After Google Backs 20-Year Nuclear Power Expansion (Yahoo Finance) https://sg.finance.yahoo.com/news/constellation-energy-ceg-10-1-180831306.html
-· GOOGL Alphabet Stocks Rise Higher as Nuclear Deal Locks 3.6 Gigawatts (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:c90fbe17d094b:0-alphabet-stocks-rise-higher-as-nuclear-deal-locks-3-6-gigawatts/
-· BTC Trader Loses $6.6 Million in Bitcoin After Buying New Ledger Wallet (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/trader-loses-6-6-million-162956153.html
-· NVDA Nvidia: Jensen Huang And Lisa Su Agree On One Thing (NASDAQ:NVDA) (Seeking Alpha) https://seekingalpha.com/article/4953017-nvidia-jensen-huang-and-lisa-su-agree-on-one-thing
-· MU Micron: Even If Memory Prices Fall 15%, It May Still Be Undervalued (NASDAQ:MU) (Seeking Alpha) https://seekingalpha.com/article/4953146-micron-even-if-memory-prices-fall-15-percent-it-may-still-be-undervalued
-· AMD AMD Stocks Slide Lower Despite Street-High $800 AI Target (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:1c4122e99094b:0-amd-stocks-slide-lower-despite-street-high-800-ai-target/
-· TSM TSMC Stocks Fall Despite 55% September Sales Surge (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:6011c3487094b:0-tsmc-stocks-fall-despite-55-september-sales-surge/
-· PLTR Palantir Stocks Rise 2.4% as Goldman Backs Sovereign AI (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:aef245264094b:0-palantir-stocks-rise-2-4-as-goldman-backs-sovereign-ai/
-· BTC Hedge funds cut Bitcoin, brokerages load up in Q2: CoinShares report (TradingView (Reuters)) https://www.tradingview.com/news/seekingalpha:5a278b51f094b:0-hedge-funds-cut-bitcoin-brokerages-load-up-in-q2-coinshares-report/
-· GOOGL Google Wants Gemini to Do the Work (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:aed05be03094b:0-google-wants-gemini-to-do-the-work/
-· MU Nvidia and Micron are about to lord their successes all over Wall Street (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/nvidia-micron-lord-successes-over-163700727.html
-· PETR4 Sachsida diz que Flávio Bolsonaro não vai privatizar a Petrobras (eixos) https://eixos.com.br/politica/eleicoes/eleicoes-2026/sachsida-diz-que-flavio-bolsonaro-nao-vai-privatizar-a-petrobras/
-· BTC Hedge funds cut Bitcoin, brokerages load up in Q2: CoinShares report (Seeking Alpha) https://seekingalpha.com/news/4651832-hedge-funds-cut-bitcoin-brokerages-load-up-in-q2-coinshares-report
-· LITE Lumentum stock holds Outperform at Evercore on AI demand outlook (Investing.com) https://www.investing.com/news/analyst-ratings/lumentum-stock-holds-outperform-at-evercore-on-ai-demand-outlook-93CH-4941510
-· (+92 manchetes; lista completa em eventos/noticias.json)

@@ -1,64 +1,29 @@
-ALERTAS · Fechamento 18h
+ALERTAS · Manhã 08h30
 
-(pendente de slot anterior) [CRÍTICO] CURVA · C01 A curva FECHOU: F28 -98 bps em 5 pregões · F28 8 pregões seguidos (-115 bps) · F29 -152 bps em 5 pregões (ajuste B3 09/10) / C02 Inclinação da curva DI: F35-F28 -24 bps no dia: bull flattening (longo fechou mais) · F35-F28 inverteu (cruzou zero) · F30-F28 -15 bps no dia: bull flattening (longo fechou mais) / C03 DI em nível: F29 na mínima de 252 pregões: 12,22% · F30 na mínima de 252 pregões: 12,22% · F32 cruzou 12,50% (para baixo, agora 12,30%)
-DI F28 12,53 (-2) · F29 12,22 (-9) · F30 12,22 (-17) · F32 12,30 (-23) · F35 12,35 (-26)
-Inclinação F35-F28 -18 bps (-24)
-F35-F28 -18 bps (-24 dia · -80 5 pregões)
-F30-F28 -31 bps (-15 dia · -71 5 pregões)
-F32 na mínima de 252 pregões: 12,30%
-F35 cruzou 12,50% (para baixo, agora 12,35%)
-F35 na mínima de 252 pregões: 12,35%
-Por que importa: delta em bps e inclinação são o que toda mesa de renda fixa reporta e o que explica a marcação do Tesouro ao cliente
-Como falar: 'a curva fechou: o prefixado valorizou na marcação; o cupom contratado não muda'
-Fonte: B3 ajuste 09/10 · ajuste B3 09/10
-ids: C01-DI-fechou-2026-10-09, C02-DI-inclinacao-2026-10-09, C03-DI-di-2026-10-09
-
-(pendente de slot anterior) [CRÍTICO] T05 · 2 ativos: PLTR, MRVE3
-· PLTR +5,2% no dia a US$ 209,05: movimento de 3,5 desvios para uma vol de 20 dias de 23% a.a.
-  1m +23% · 6m +63% · YTD +18%
-· MRVE3 +22% no dia a R$ 7,82: movimento de 6,0 desvios para uma vol de 20 dias de 52% a.a.
-  1m +39% · 6m +0,3% · YTD +0,4%
-Por que importa: acima de 3 desvios o movimento sai do ruído e costuma vir de fato novo ou fluxo forçado
-Como falar: 'alta fora do padrão; costuma vir de notícia ou de fluxo, e parte dela pode devolver'
-Fonte: Yahoo Finance fech. 09/10
-ids: T05-PLTR-alta-2026-10-09, T05-MRVE3-alta-2026-10-09
-
-(pendente de slot anterior) [ATENÇÃO] E05 · USDBRL · Ibovespa tem duplo recorde aos 209 mil pontos e avança quase 9% na semana após 1º turno; dólar cai e fica abaixo de R$ 5
-Money Times · 09/10 17h31 · fonte única · licença: integral
-Do texto:
-  – Ibovespa tem duplo recorde aos 209 mil pontos e avança quase 9% na semana após 1º turno; dólar cai e fica abaixo de R$ 5 O Ibovespa (IBOV) estendeu os ganhos da véspera com o ‘trade Flávio’ e a melhora do humor externo,…
-  – Nesta sexta-feira (9), o principal índice da bolsa brasileira terminou as negociações com alta de 1,38%, aos 209.066,90 pontos, em novo recorde nominal de fechamento.
-  – Durante o pregão, o IBOV também renovou máxima histórica, aos 209.713,45 pontos (+1,69%).
-  – Na semana, o índice acumulou valorização de 8,82%, melhor desempenho semanal desde março de 2020.
-  – Já o dólar à vista encerrou as negociações a R$ 4,9851, com queda de 0,78%.
-  – No acumulado dos últimos cinco dias, a moeda recuou 4,44% ante o real.
-Link: https://www.moneytimes.com.br/ibovespa-9-10-26-lils/
-Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
-Ativos: USDBRL
-Como falar: 'saiu no Money Times: Ibovespa tem duplo recorde aos 209 mil pontos e avança quase 9% na semana após 1º turno;…; confirmar o número no texto antes de repassar'
-Fonte: Money Times 09/10 17h31
-ids: E05-USDBRL-14b1d6a48e-2026-10-09
-
-(pendente de slot anterior) [ATENÇÃO] E05 · KO · Coca-Cola Consolidated Announces Fourth Quarter Dividend
-TradingView (Reuters) · 09/10 17h24 · + Investing.com · licença: manchete
-Link: https://www.tradingview.com/news/reuters.com,2026:newsml_TUABSRGDH:0-coca-cola-consolidated-announces-fourth-quarter-dividend/
-Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
-Ativos: KO
-Como falar: 'saiu no TradingView (Reuters): Coca-Cola Consolidated Announces Fourth Quarter Dividend; confirmar o número no texto antes de repassar'
-Fonte: TradingView (Reuters) 09/10 17h24
-ids: E05-KO-36a8a0b554-2026-10-09
-
+Nenhum alerta novo neste slot.
 Info (só linha no Fechamento):
-· E05 UST · Stocktwits Weekly Spread: What Shaped Treasury Yields And The Dollar This Week
-· E05 NVDA · What Is Physical AI? Nvidia Is the Stock I'd Buy to Own It.
-· E05 VALE3 · Vale sanciona Marcelo Gasparino por vazamento de informações confidenciais
-· E05 PETR4 · Petrobras anuncia fim de desconto de R$ 0,44 da gasolina
-· E05 UST · US Equity Indexes Rise This Week as Broad-Based Rally Helps Offset Tech Declines While Treasury Yields Remain Elevated
-· E05 ITUB4 · MRV gera R$ 435 milhões em caixa, mas operação no Brasil preocupa Itaú BBA
-· E05 MRVE3 · MRV (MRVE3) dispara mais de 20% com vendas recordes; bancos fazem ressalvas
-· E05 USDBRL · Dólar casado piora e operadores de câmbio veem espaço para nova atuação do BC
-· E05 SMAL11 · Índice small caps salta mais de 20% e tem a melhor semana da história com as eleições
-· E05 LITE · Lumentum CEO: Opto-Parts Capacity Sold Out to 2029
+· T09 KLBN4 -1,1% com volume 2,5x a mediana de 20 sessões, a R$ 3,63
+· F05 Celulose (proxy SHFE, fibra longa) -3,1% na semana: 4.810 CNY/t (12/10)
+· E03 VALE3 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
+· E03 CURY3 · Participação relevante: gestor reduziu para 14,97% em 08/10
+· E05 LITE · Lumentum being sold out through 2029 is 'bullish' for suppliers, foundries: Wedbush (LITE:NASDAQ)
+· E05 NVDA · Adding Nvidia During The Current Uncertainty is How Fortunes Are Made
+· E05 BTC · BMNR Stock Gains With Ethereum Outpacing Bitcoin After $84K Bounce Ahead Of CPI Report This Week
+· E05 BTC · Current price of Bitcoin for Oct. 12, 2026
+· E05 CVX · ConocoPhillips, Chevron among eight energy stocks with A+ profitability grades (XLE:NYSEARCA)
+· E05 AVGO · Broadcom CEO says many AI investors are gamblers
+· E05 INTC · Intel CEO Highlights Rapid Adoption of Chinese AI Models and Potential for Quantum Computing
+· E05 AVGO · Broadcom CEO Sees Capital as Main Constraint on AI Growth Despite Easing Chip Shortages
+· E05 AVGO · AM Markets Need to Know: Trump’s ratings slide, Broadcom flags AI costs, and more (SPX:)
+· E05 BBDC4 · Seu próximo gerente pode ser uma IA: veja como Bradesco e Santander estão se preparando e se os apps de banco vão acabar
+· E05 LITE · Lumentum, Astera Labs, and Corning to Demonstrate 1060 nm VCSEL-Based PCIe over Optics for AI Rack-Scale Connectivity at the 2026 OCP Global Summit
+· E05 BRENT · Wall Street oscila sem viés, com petróleo, Bolsas na Europa e Ásia em alta
+· E05 BRENT · OPEC cuts 2026 oil demand growth forecast to 400,000 bpd, sees pent-up demand in 2027
+· E05 BTC · Spot Bitcoin and Ethereum ETFs bleed $1.22 billion in a single week
+· E05 AVGO · Broadcom CEO says capital will be biggest constraint for AI development: report (AVGO:NASDAQ)
+· C05 Pre 2029 FECHA 23 bps (PU +0,5%) · Pre 2031 FECHA 26 bps (PU +1,0%) · IPCA+ 2032 FECHA 17 bps (PU +1,1%) (base 09/10)
+· C03 Prefixado em nível: Pre 2029 cruzou 12,50% (agora 12,30%) · Pre 2029 na mínima de 252 bases: 12,30% · Pre 2031 cruzou 12,50% (agora 12,45%)
+· C06 Inflação implícita: implícita 2029 -67 bps na semana · implícita 2032 -56 bps na semana · implícita 2031/32 (descasado) -57 bps na semana
 · T08 INTC entrou em queda de -25% do pico: -26% do pico de 52s (US$ 140,94 em 22/06) a US$ 104,70
 · T06 PLTR +11% em 5 sessões a US$ 209,05: movimento de 3,2 desvios para a vol de 20 dias
 · T06 RARA11 -8,3% em 5 sessões a R$ 13,58: movimento de 2,6 desvios para a vol de 20 dias
@@ -68,15 +33,20 @@ Info (só linha no Fechamento):
 · T10 KLBN4 no mínimo de força relativa em 63 sessões contra IBOV: -5,7% vs +12% em 20 sessões (-16% relativo)
 · T10 MRVE3 no máximo de força relativa em 63 sessões contra IBOV: +36% vs +12% em 20 sessões (+22% relativo)
 
-Suprimidos pelo teto (viram linha do Fechamento): T08-INTC--25-2026-10-09 (teto diário de críticos), T06-PLTR-alta-2026-10-09 (teto de atenção), T06-RARA11-queda-2026-10-09 (teto de atenção), T06-CURY3-alta-2026-10-09 (teto de atenção), T09-MRVE3-alta-2026-10-09 (teto de atenção), T10-SAPR4-máximo-2026-10-09 (teto de atenção), T10-KLBN4-mínimo-2026-10-09 (teto de atenção), T10-MRVE3-máximo-2026-10-09 (teto de atenção)
+Suprimidos pelo teto (viram linha do Fechamento): C05-TESOURO-fechou-2026-10-09 (teto diário de críticos), C03-TESOURO-td-2026-10-09 (teto diário de críticos), C06-TESOURO-implicita-2026-10-09 (teto diário de críticos), T08-INTC--25-2026-10-09 (teto diário de críticos), T06-PLTR-alta-2026-10-09 (teto de atenção), T06-RARA11-queda-2026-10-09 (teto de atenção), T06-CURY3-alta-2026-10-09 (teto de atenção), T09-MRVE3-alta-2026-10-09 (teto de atenção), T10-SAPR4-máximo-2026-10-09 (teto de atenção), T10-KLBN4-mínimo-2026-10-09 (teto de atenção), T10-MRVE3-máximo-2026-10-09 (teto de atenção)
 
 Alertas do dia (todos, com status):
-· expirado  C01 DI — A curva FECHOU: F28 -98 bps em 5 pregões · F28 8 pregões seguidos (-115 bps) · F
-· expirado  T05 MRVE3 — MRVE3 +22% no dia a R$ 7,82: movimento de 6,0 desvios para uma vol de 20 dias de
+· linha     C05 TESOURO — Pre 2029 FECHA 23 bps (PU +0,5%) · Pre 2031 FECHA 26 bps (PU +1,0%) · IPCA+ 2032
+· entregue  C01 DI — A curva FECHOU: F28 -98 bps em 5 pregões · F28 8 pregões seguidos (-115 bps) · F
+· entregue  T05 MRVE3 — MRVE3 +22% no dia a R$ 7,82: movimento de 6,0 desvios para uma vol de 20 dias de
 · linha     T08 INTC — INTC entrou em queda de -25% do pico: -26% do pico de 52s (US$ 140,94 em 22/06) 
-· expirado  C02 DI — Inclinação da curva DI: F35-F28 -24 bps no dia: bull flattening (longo fechou ma
-· expirado  C03 DI — DI em nível: F29 na mínima de 252 pregões: 12,22% · F30 na mínima de 252 pregões
-· expirado  T05 PLTR — PLTR +5,2% no dia a US$ 209,05: movimento de 3,5 desvios para uma vol de 20 dias
+· entregue  C05 TESOURO — IPCA+ 2050 PU -6,9% em 5 datas-base (base 08/10)
+· entregue  C01 DI — A curva FECHOU: F28 -102 bps em 5 pregões · F28 7 pregões seguidos (-113 bps) · 
+· linha     C03 TESOURO — Prefixado em nível: Pre 2029 cruzou 12,50% (agora 12,30%) · Pre 2029 na mínima d
+· linha     C06 TESOURO — Inflação implícita: implícita 2029 -67 bps na semana · implícita 2032 -56 bps na
+· entregue  C02 DI — Inclinação da curva DI: F35-F28 -24 bps no dia: bull flattening (longo fechou ma
+· entregue  C03 DI — DI em nível: F29 na mínima de 252 pregões: 12,22% · F30 na mínima de 252 pregões
+· entregue  T05 PLTR — PLTR +5,2% no dia a US$ 209,05: movimento de 3,5 desvios para uma vol de 20 dias
 · linha     T06 PLTR — PLTR +11% em 5 sessões a US$ 209,05: movimento de 3,2 desvios para a vol de 20 d
 · linha     T06 RARA11 — RARA11 -8,3% em 5 sessões a R$ 13,58: movimento de 2,6 desvios para a vol de 20 
 · linha     T06 CURY3 — CURY3 +23% em 5 sessões a R$ 34,52: movimento de 2,9 desvios para a vol de 20 di
@@ -84,16 +54,42 @@ Alertas do dia (todos, com status):
 · linha     T10 SAPR4 — SAPR4 no máximo de força relativa em 63 sessões contra IBOV: +28% vs +12% em 20 
 · linha     T10 KLBN4 — KLBN4 no mínimo de força relativa em 63 sessões contra IBOV: -5,7% vs +12% em 20
 · linha     T10 MRVE3 — MRVE3 no máximo de força relativa em 63 sessões contra IBOV: +36% vs +12% em 20 
-· expirado  E05 USDBRL — USDBRL · Ibovespa tem duplo recorde aos 209 mil pontos e avança quase 9% na sema
-· expirado  E05 KO — KO · Coca-Cola Consolidated Announces Fourth Quarter Dividend
+· entregue  E05 USDBRL — USDBRL · Ibovespa tem duplo recorde aos 209 mil pontos e avança quase 9% na sema
+· entregue  E05 KO — KO · Coca-Cola Consolidated Announces Fourth Quarter Dividend
 · expirado  E05 KO — KO · Coca-Cola Consolidated declares $0.25 quarterly dividend By Investing.com
 · entregue  E05 USDBRL — USDBRL · Tempo real: Ibovespa sobe aos 209 mil pontos e renova recorde intradia 
 · entregue  E05 BTC — BTC · Bitcoin steadies near $82,500 after Trump rules out Iran strike before mid
 · entregue  E05 BRENT — BRENT · Produção de petróleo e gás natural no Brasil bate recorde em 2025
+· entregue  C06 TESOURO — Inflação implícita: implícita 2029 -61 bps na semana · implícita 2032 -41 bps na
 · entregue  M01 MACRO — Agenda: IPCA de setembro (IBGE) hoje às 09:00 (09/10)
 · entregue  E05 MRVE3 — MRVE3 · Agenda de empresas: Lucro da Camil cai 47,5%; vendas da MRV&Co sobem 29,
 · entregue  E05 TSLA — TSLA · Key facts: Tesla, Inc. 486,532 Q3 deliveries; $25B+ 2026 capex; $43.5B ca
 · entregue  E05 META — META · Key facts: META Q4 $73–$76B guidance; bans TikTok ads; 2026 capex +$5–$10
+· entregue  E03 SBSP3 — SBSP3 · Fato Relevante: (“Sabesp”) e a EMAE – EMPRESA METROPOLITANA DE ÁGUAS E E
+· entregue  E03 BBDC4 — BBDC4 · Fato Relevante: Página 1 de 1 Banco Bradesco S.A. o 60.746.948/0001-12 F
+· entregue  E05 BBDC4 — BBDC4 · Bradesco (BBDC4) tem aumento de capital homologado pelo BC e ajusta JCP 
+· entregue  E05 CVX — CVX · Hess Midstream to Acquire Chevron DJ Basin Midstream Assets; Pays $200M an
+· entregue  C02 DI — Inclinação da curva DI: F35-F28 -13 bps no dia: bull flattening (longo fechou ma
+· entregue  C03 DI — DI em nível: F29 na mínima de 252 pregões: 12,32% · F30 cruzou 12,50% (para baix
+· linha     T04 REMX — REMX fechou na mínima de 52 semanas: US$ 60,58, -21% em 1m e -17% em 12m
+· linha     T10 REMX — REMX no mínimo de força relativa em 63 sessões contra SPX: -16% vs +2,3% em 20 s
+· linha     T10 PLTR — PLTR no máximo de força relativa em 63 sessões contra SPX: +20% vs +2,3% em 20 s
+· linha     T12 EQTL3 — EQTL3: 8 altas seguidas (+27% acumulado) a R$ 49,66
+· linha     T12 SBSP3 — SBSP3: 8 altas seguidas (+25% acumulado) a R$ 33,36
+· linha     T12 SMAL11 — SMAL11: 8 altas seguidas (+23% acumulado) a R$ 134,39
+· linha     S01 SISTEMA — coleta do slot fechamento saiu incompleta: bcb: BCB devolveu 4 de 5 séries (falt
+· entregue  E05 DI — DI · XP (XPBR31) pode ganhar um empurrão da Selic mais baixa; UBS BB eleva preço
+· entregue  E05 PETR4 — PETR4 · R$ 3,2 bi: Petrobras domina leilões da ANP e faz aposta em Campos e nova
+· entregue  E05 BTC — BTC · TD Cowen raises Bitcoin price target to $280,000 by 2029
+· entregue  E03 PETR4 — PETR4 · Fato Relevante: Participou do 4º Ciclo de Oferta Permanente de Partilha 
+· entregue  E05 MRVL — MRVL · Marvell Technology's AI Bet: Path To $90B In Revenue By 2031 (NASDAQ:MRVL
+· entregue  E05 MU — MU · Micron Rival Samsung's Outlook Gets a $70 Billion Jolt
+· entregue  E05 TSM — TSM · TSMC Q3 Revenue Tops Its Own Guidance and the 19-Analyst Forecast
+· entregue  E05 MRVL — MRVL · Marvell's Investor Day: $70-90B FY 2031 Sales Feels Like A Different Comp
+· entregue  E05 UST — UST · Treasury yields rise as Fed's Waller says more hikes needed, investors awa
+· entregue  E05 MRVL — MRVL · Marvell Investor Day: Connectivity Lifts Outlook To $20 Billion
+· linha     T09 KLBN4 — KLBN4 -1,1% com volume 2,5x a mediana de 20 sessões, a R$ 3,63
+· linha     F05 BHKP — Celulose (proxy SHFE, fibra longa) -3,1% na semana: 4.810 CNY/t (12/10)
 · linha     T01 AVGO — AVGO fechou abaixo da média de 200 dias pela 2ª sessão: US$ 361,54 vs MM200 US$ 
 · linha     T01 NOK — NOK retomou a média de 200 dias pela 1ª sessão: US$ 10,36 vs MM200 US$ 10,12 (+2
 · linha     T01 MRVE3 — MRVE3 retomou a média de 200 dias pela 1ª sessão: R$ 7,82 vs MM200 R$ 6,64 (+18%
@@ -111,4 +107,20 @@ Alertas do dia (todos, com status):
 · linha     T10 IGV — IGV no máximo de força relativa em 63 sessões contra SPX: +11% vs +2,0% em 20 se
 · linha     T10 LITE — LITE no máximo de força relativa em 63 sessões contra SOX: +19% vs +6,3% em 20 s
 · linha     F01 USDBRL — Real sobe: USD/BRL 4,9823 (-4,5% em 5 sessões · cruzou R$ 5,00) (parcial, intrad
-· (+155 notícias só manchete, em noticias.md)
+· linha     C03 TESOURO — Prefixado em nível: Pre 2029 na mínima de 252 bases: 12,53%
+· linha     T04 EQTL3 — EQTL3 fechou na máxima de 52 semanas: R$ 49,66, +27% em 1m e +47% em 12m
+· linha     T04 ALUP4 — ALUP4 fechou na máxima de 52 semanas: R$ 12,83, +16% em 1m e +36% em 12m
+· linha     T04 SMAL11 — SMAL11 fechou na máxima de 52 semanas: R$ 134,39, +20% em 1m e +28% em 12m
+· linha     T02 VHYA — VHYA (Vanguard FTSE All-World High Dividend Yield UCITS ETF USD Accumulating) pe
+· linha     T02 QNTM — QNTM perdeu a MM100 pela 2ª sessão: US$ 28,35, ainda acima da MM200 (tendência l
+· linha     T02 WQTMUS — WQTMUS perdeu a MM50 pela 2ª sessão: US$ 31,09, ainda acima da MM200 (tendência 
+· linha     T07 REMX — REMX entrou em sobrevendido: RSI14 25 a US$ 60,58
+· linha     T09 GFS — GFS +2,7% com volume 2,8x a mediana de 20 sessões, a US$ 49,36
+· linha     T10 SMAL11 — SMAL11 no máximo de força relativa em 63 sessões contra IBOV: +20% vs +9,5% em 2
+· linha     T11 ITSA4 — ITSA4 descolou atrás de ITUB4: +13% vs +17% em 20 sessões (z -2,5 em 252 sessões
+· linha     T12 SAPR4 — SAPR4: 6 altas seguidas (+26% acumulado) a R$ 8,22
+· linha     F06 ETH — ETH cai a US$ 2.472 (cruzou US$ 2.500)
+· linha     F01 USDBRL — Real sobe: USD/BRL 5,0076 (-4,1% em 5 sessões) (parcial, intradia)
+· linha     F01 USDBRL — Real cai: USD/BRL 5,0234 (-3,8% em 5 sessões) (parcial, intradia)
+· linha     F03 BRENT — Brent sobe a US$ 104,28 (+4,1% no dia)
+· (+27 notícias só manchete, em noticias.md)
