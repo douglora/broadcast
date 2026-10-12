@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 12/10 17h18
+NOTÍCIAS E FATOS · 12/10 18h14
 
-Pernas: noticias ok 19 novas (18 consultas; descartadas: 440 veículo fora da lista, 30 sem ativo, 57 teto) · cvm ok 0 novos de 2 (2 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 10 novas (18 consultas; descartadas: 435 veículo fora da lista, 32 sem ativo, 0 teto) · cvm ok 0 novos de 2 (2 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (2)
 
@@ -177,8 +177,18 @@ Fonte: TradingView (Reuters) 09/10 04h00
 id: E05-META-6441e75de3-2026-10-09 · status: entregue
 
 
-## OUTRAS NOTÍCIAS (só manchete) (40)
+## OUTRAS NOTÍCIAS (só manchete) (50)
 
+· BAC Is Bank of America's Stock a Buy Ahead of Its Q3 Earnings Report on Oct. 14? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/bank-americas-stock-buy-ahead-205002342.html
+· LITE Why Ciena, Lumentum and other optical stocks were among the market’s biggest losers on Monday (MarketWatch) https://www.marketwatch.com/story/why-ciena-lumentum-and-other-optical-stocks-were-among-the-markets-biggest-losers-on-monday-b3e53f6a
+· COHR Coherent: A Tempting Buy But There's One Big Reason To Stay Away (NYSE:COHR) (Seeking Alpha) https://seekingalpha.com/article/4953599-coherent-a-tempting-buy-but-theres-one-big-reason-to-stay-away
+· LITE Lumentum Holdings drops 10% as volatile trading continues (LITE:NASDAQ) (Seeking Alpha) https://seekingalpha.com/news/4652267-lumentum-holdings-drops-10-as-volatile-trading-continues
+· LITE Why Lumentum Sank Today (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/why-lumentum-sank-today-202058323.html
+· USDBRL Dólar mantém maior cotação em 18 meses diante de tensões no Golfo e inflação nos EUA (InfoMoney) https://www.infomoney.com.br/mercados/dolar-mantem-maior-cotacao-em-18-meses-diante-de-tensoes-no-golfo-e-inflacao-nos-eua/
+· TSLA Tesla Stock Rises as Elon Musk Asserts Control Over Terafab Chip Project (Barron's) https://www.barrons.com/articles/tesla-stock-price-elon-musk-terafab-3a1e3322
+· AVGO Broadcom CEO Says Many AI Investors Have ‘No Clue,’ Likens Boom to a Casino (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/broadcom-ceo-says-many-ai-193518585.html
+· UST European Weakness and Softer Inflation Could Push Treasury Yields Lower (Investing.com) https://www.investing.com/analysis/european-weakness-and-softer-inflation-could-push-treasury-yields-lower-200689436
+· UST Bonds At 5%: Is The 10-Year Treasury Finally A Buy? (Seeking Alpha) https://seekingalpha.com/article/4953472-bonds-at-5-percent-is-10-year-treasury-finally-a-buy
 · INTC Intel Accelerates Open Infrastructure for the Agentic AI Era (Business Wire) https://www.businesswire.com/news/home/20261012581523/en/Intel-Accelerates-Open-Infrastructure-for-the-Agentic-AI-Era
 · NVDA Intel aims to boost AI turnaround with new GPU chips to take on Nvidia (Yahoo Finance) https://finance.yahoo.com/technology/article/intel-aims-to-boost-ai-turnaround-with-new-gpu-chips-to-take-on-nvidia-192916083.html
 · ITUB4 Pesquisa de Nobel deu respaldo à atuação dos BCs quando juros estavam em zero, diz estrategista da Itaú Asset (Valor Economico) https://valor.globo.com/mundo/noticia/2026/10/12/pesquisa-de-nobel-deu-respaldo-a-atuacao-dos-bcs-quando-juros-estavam-em-zero-diz-estrategista-da-itau-asset.ghtml

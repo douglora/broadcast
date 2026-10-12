@@ -1,16 +1,15 @@
-ALERTAS · intradia
+ALERTAS · Fechamento 18h
 
-[ATENÇÃO] E05 · JPM · JPMorgan, Goldman Sachs tread carefully in $5B Volta AI loan offering - report (JPM:NYSE)
+(pendente de slot anterior) [ATENÇÃO] E05 · JPM · JPMorgan, Goldman Sachs tread carefully in $5B Volta AI loan offering - report (JPM:NYSE)
 Seeking Alpha · 12/10 17h00 · fonte única · licença: manchete
 Link: https://seekingalpha.com/news/4652223-jpmorgan-goldman-sachs-tread-carefully-in-5b-volta-ai-loan-offering---report
 Por que importa: oferta de acoes ou divida altera a base acionaria ou a alavancagem
 Ativos: JPM
 Como falar: 'saiu no Seeking Alpha: JPMorgan, Goldman Sachs tread carefully in $5B Volta AI loan offering - report (JPM:NYSE); confirmar o número no texto antes de repassar'
 Fonte: Seeking Alpha 12/10 17h00
-Push: intradia: 3 alertas de atenção — E05 JPM, E05 AMZN, E05 MU · detalhe na sessão
 ids: E05-JPM-d30c6e05f9-2026-10-12
 
-[ATENÇÃO] E05 · AMZN · MIT files patent lawsuit against Amazon over cloud security technology
+(pendente de slot anterior) [ATENÇÃO] E05 · AMZN · MIT files patent lawsuit against Amazon over cloud security technology
 TradingView (Reuters) · 12/10 12h06 · + Reuters · licença: manchete
 Link: https://www.tradingview.com/news/reuters.com,2026:newsml_L6N45Y0S7:0-mit-files-patent-lawsuit-against-amazon-over-cloud-security-technology/
 Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e prazo
@@ -19,7 +18,7 @@ Como falar: 'saiu no TradingView (Reuters): MIT files patent lawsuit against Ama
 Fonte: TradingView (Reuters) 12/10 12h06
 ids: E05-AMZN-88dbe45d2f-2026-10-12
 
-[ATENÇÃO] E05 · MU · What's next for Micron Technology after blockbuster Q4, guidance beat?
+(pendente de slot anterior) [ATENÇÃO] E05 · MU · What's next for Micron Technology after blockbuster Q4, guidance beat?
 TradingView (Reuters) · 12/10 09h06 · fonte única · licença: manchete
 Link: https://www.tradingview.com/news/seekingalpha:8c4879a9d094b:0-what-s-next-for-micron-technology-after-blockbuster-q4-guidance-beat/
 Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
@@ -29,27 +28,29 @@ Fonte: TradingView (Reuters) 12/10 09h06
 ids: E05-MU-5fb3d7e91d-2026-10-12
 
 Info (só linha no Fechamento):
-· E01 BAC: resultado sai em 3 sessões (14/10)
-· E05 INTC · Intel Accelerates Open Infrastructure for the Agentic AI Era
-· E05 NVDA · Intel aims to boost AI turnaround with new GPU chips to take on Nvidia
-· E05 ITUB4 · Pesquisa de Nobel deu respaldo à atuação dos BCs quando juros estavam em zero, diz estrategista da Itaú Asset
-· E05 GOOGL · Levi & Korsinsky Reminds Alphabet Inc. Investors of the
-· E05 AVGO · Intel and Broadcom CEOs Delivers Stark AI Warning as Stocks Tumble
-· E05 GOOGL · Alphabet Inc. (GOOGL) Shareholders Who Lost Money Have Opportunity to Lead Securities Fraud Lawsuit
-· E05 AVGO · Broadcom CEO Warns AI's Biggest Constraint Is Shifting
-· E05 NVDA · Watch Cisco, Nvidia Tackle AI’s Growing Data Center Bottleneck
-· E05 KO · Coca-Cola, PepsiCo and Walmart among 8 stocks with A+ profitability grades
-· E05 MU · 3 Reasons We’re Fans of Micron (MU)
-· E05 INTC · Not Sandisk, Not Intel. This Stock Will Lead the S&P 500 Next Year
-· E05 JPM · JPMorgan, Goldman Sachs Earnings Could Move This Dow ETF—Here’s the Portfolio Math
-· E05 MU · Micron Just Said Something That Could Change How Investors See the Stock
-· E05 AMD · 2 Reasons to Like AMD (and 1 Not So Much)
-· E05 JPM · JPMorgan earnings preview: what to watch when JPM reports Tuesday
+· E05 BAC · Is Bank of America's Stock a Buy Ahead of Its Q3 Earnings Report on Oct. 14?
+· E05 LITE · Why Ciena, Lumentum and other optical stocks were among the market’s biggest losers on Monday
+· E05 COHR · Coherent: A Tempting Buy But There's One Big Reason To Stay Away (NYSE:COHR)
+· E05 LITE · Lumentum Holdings drops 10% as volatile trading continues (LITE:NASDAQ)
+· E05 LITE · Why Lumentum Sank Today
+· E05 USDBRL · Dólar mantém maior cotação em 18 meses diante de tensões no Golfo e inflação nos EUA
+· E05 TSLA · Tesla Stock Rises as Elon Musk Asserts Control Over Terafab Chip Project
+· E05 AVGO · Broadcom CEO Says Many AI Investors Have ‘No Clue,’ Likens Boom to a Casino
+· E05 UST · European Weakness and Softer Inflation Could Push Treasury Yields Lower
+· E05 UST · Bonds At 5%: Is The 10-Year Treasury Finally A Buy?
+· T08 SOXX entrou em queda de -15% do pico: -17% do pico de 52s (US$ 655,01 em 22/06) a US$ 544,85
+· T08 REMX entrou em queda de -45% do pico: -47% do pico de 52s (US$ 109,53 em 11/05) a US$ 58,18
+· T08 MRVL entrou em queda de -15% do pico: -16% do pico de 52s (US$ 316,43 em 04/06) a US$ 265,86
+· T08 MU entrou em queda de -15% do pico: -19% do pico de 52s (US$ 1.214 em 25/06) a US$ 989,04
+· T08 COHR entrou em queda de -30% do pico: -33% do pico de 52s (US$ 426,89 em 02/06) a US$ 288,02
+· T08 NOK entrou em queda de -40% do pico: -41% do pico de 52s (US$ 16,85 em 02/06) a US$ 9,90
 · T08 INTC entrou em queda de -25% do pico: -26% do pico de 52s (US$ 140,94 em 22/06) a US$ 104,70
 · C05 Pre 2029 FECHA 23 bps (PU +0,5%) · Pre 2031 FECHA 26 bps (PU +1,0%) · IPCA+ 2032 FECHA 17 bps (PU +1,1%) (base 09/10)
 · C03 Prefixado em nível: Pre 2029 cruzou 12,50% (agora 12,30%) · Pre 2029 na mínima de 252 bases: 12,30% · Pre 2031 cruzou 12,50% (agora 12,45%)
 · C06 Inflação implícita: implícita 2029 -67 bps na semana · implícita 2032 -56 bps na semana · implícita 2031/32 (descasado) -57 bps na semana
-· E05 BTC · Bitcoin Price Outlook: Bulls Defend $83K, But ETF Flows And Trading Volume Raise Recovery Questions
+· T01 WQTMUS fechou abaixo da média de 200 dias pela 1ª sessão: US$ 30,24 vs MM200 US$ 31,08 (-2,7%)
+· T01 NOK fechou abaixo da média de 200 dias pela 1ª sessão: US$ 9,90 vs MM200 US$ 10,13 (-2,3%)
+· T04 REMX fechou na mínima de 52 semanas: US$ 58,18, -18% em 1m e -15% em 12m
 · T06 PLTR +11% em 5 sessões a US$ 209,05: movimento de 3,2 desvios para a vol de 20 dias
 · T06 RARA11 -8,3% em 5 sessões a R$ 13,58: movimento de 2,6 desvios para a vol de 20 dias
 · T06 CURY3 +23% em 5 sessões a R$ 34,52: movimento de 2,9 desvios para a vol de 20 dias
@@ -58,13 +59,22 @@ Info (só linha no Fechamento):
 · T10 KLBN4 no mínimo de força relativa em 63 sessões contra IBOV: -5,7% vs +12% em 20 sessões (-16% relativo)
 · T10 MRVE3 no máximo de força relativa em 63 sessões contra IBOV: +36% vs +12% em 20 sessões (+22% relativo)
 
-Suprimidos pelo teto (viram linha do Fechamento): T08-INTC--25-2026-10-09 (teto diário de críticos), C05-TESOURO-fechou-2026-10-09 (teto diário de críticos), C03-TESOURO-td-2026-10-09 (teto diário de críticos), C06-TESOURO-implicita-2026-10-09 (teto diário de críticos), E05-BTC-71251cc3b5-2026-10-12 (teto de noticias), T06-PLTR-alta-2026-10-09 (teto de atenção), T06-RARA11-queda-2026-10-09 (teto de atenção), T06-CURY3-alta-2026-10-09 (teto de atenção), T09-MRVE3-alta-2026-10-09 (teto de atenção), T10-SAPR4-máximo-2026-10-09 (teto de atenção), T10-KLBN4-mínimo-2026-10-09 (teto de atenção), T10-MRVE3-máximo-2026-10-09 (teto de atenção)
+Suprimidos pelo teto (viram linha do Fechamento): T08-SOXX--15-2026-10-12 (teto diário de críticos), T08-REMX--45-2026-10-12 (teto diário de críticos), T08-MRVL--15-2026-10-12 (teto diário de críticos), T08-MU--15-2026-10-12 (teto diário de críticos), T08-COHR--30-2026-10-12 (teto diário de críticos), T08-NOK--40-2026-10-12 (teto diário de críticos), T08-INTC--25-2026-10-09 (teto diário de críticos), C05-TESOURO-fechou-2026-10-09 (teto diário de críticos), C03-TESOURO-td-2026-10-09 (teto diário de críticos), C06-TESOURO-implicita-2026-10-09 (teto diário de críticos), T01-WQTMUS-perda-2026-10-12 (teto de atenção), T01-NOK-perda-2026-10-12 (teto de atenção), T04-REMX-minima-2026-10-12 (teto de atenção), T06-PLTR-alta-2026-10-09 (teto de atenção), T06-RARA11-queda-2026-10-09 (teto de atenção), T06-CURY3-alta-2026-10-09 (teto de atenção), T09-MRVE3-alta-2026-10-09 (teto de atenção), T10-SAPR4-máximo-2026-10-09 (teto de atenção), T10-KLBN4-mínimo-2026-10-09 (teto de atenção), T10-MRVE3-máximo-2026-10-09 (teto de atenção)
 
 Alertas do dia (todos, com status):
+· linha     T08 REMX — REMX entrou em queda de -45% do pico: -47% do pico de 52s (US$ 109,53 em 11/05) 
+· linha     T08 COHR — COHR entrou em queda de -30% do pico: -33% do pico de 52s (US$ 426,89 em 02/06) 
+· linha     T08 NOK — NOK entrou em queda de -40% do pico: -41% do pico de 52s (US$ 16,85 em 02/06) a 
 · linha     C05 TESOURO — Pre 2029 FECHA 23 bps (PU +0,5%) · Pre 2031 FECHA 26 bps (PU +1,0%) · IPCA+ 2032
 · entregue  C01 DI — A curva FECHOU: F28 -98 bps em 5 pregões · F28 8 pregões seguidos (-115 bps) · F
 · entregue  T05 MRVE3 — MRVE3 +22% no dia a R$ 7,82: movimento de 6,0 desvios para uma vol de 20 dias de
 · linha     T08 INTC — INTC entrou em queda de -25% do pico: -26% do pico de 52s (US$ 140,94 em 22/06) 
+· linha     T01 WQTMUS — WQTMUS fechou abaixo da média de 200 dias pela 1ª sessão: US$ 30,24 vs MM200 US$
+· linha     T01 NOK — NOK fechou abaixo da média de 200 dias pela 1ª sessão: US$ 9,90 vs MM200 US$ 10,
+· linha     T04 REMX — REMX fechou na mínima de 52 semanas: US$ 58,18, -18% em 1m e -15% em 12m
+· linha     T08 SOXX — SOXX entrou em queda de -15% do pico: -17% do pico de 52s (US$ 655,01 em 22/06) 
+· linha     T08 MRVL — MRVL entrou em queda de -15% do pico: -16% do pico de 52s (US$ 316,43 em 04/06) 
+· linha     T08 MU — MU entrou em queda de -15% do pico: -19% do pico de 52s (US$ 1.214 em 25/06) a U
 · pendente  E05 JPM — JPM · JPMorgan, Goldman Sachs tread carefully in $5B Volta AI loan offering - re
 · pendente  E05 AMZN — AMZN · MIT files patent lawsuit against Amazon over cloud security technology
 · pendente  E05 MU — MU · What's next for Micron Technology after blockbuster Q4, guidance beat?
@@ -109,4 +119,4 @@ Alertas do dia (todos, com status):
 · linha     T10 IGV — IGV no máximo de força relativa em 63 sessões contra SPX: +11% vs +2,0% em 20 se
 · linha     T10 LITE — LITE no máximo de força relativa em 63 sessões contra SOX: +19% vs +6,3% em 20 s
 · linha     F01 USDBRL — Real sobe: USD/BRL 4,9823 (-4,5% em 5 sessões · cruzou R$ 5,00) (parcial, intrad
-· (+44 notícias só manchete, em noticias.md)
+· (+54 notícias só manchete, em noticias.md)
