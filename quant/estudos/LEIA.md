@@ -467,3 +467,9 @@ Ensaio de 12/10: o leitor do MetaTrader entregou 27.900 barras do WDO$N para cad
 Furo A8 fechado (`robo_fluxo.py`): cotacao com mais de 15 s nao dispara entrada, mas a posicao aberta continua sendo
 conduzida (stop, tempo e fim do dia valem com o ultimo preco conhecido). Teste `test_stop_vale_mesmo_com_cotacao_velha`.
 Tudo no ramo de pesquisa; entra no robo com o "pode".
+
+Adendo (12/10, noite): a camada de observacao passou a ler o estado do mundo em tempo real do terminal
+(`cache/out/tempo_real/estado.json`, esquema em `quant/pesquisa/DADOS_ENTREGUES.md`; relato de "3- pode" vindo de outra sessao,
+tratado como permissao so para LER e REGISTRAR): sinais `tr_proximo_evento`, `tr_ultimo_dado` (surpresa em desvios, sentido do
+dolar), `tr_vix_percentil`, `tr_feed_mt5` (rajadas) e `tr_posicao_aberta_wdo`, todos so medidos. A variante `contra_surpresa`
+usa o livro de surpresas do terminal nos dias que a exportacao do MetaTrader ainda nao cobre (`surpresa_terminal_por_dia`).
