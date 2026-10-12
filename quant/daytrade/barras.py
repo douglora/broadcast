@@ -299,10 +299,15 @@ class SinalDado:
             tipo_dia = ce.tipo_do_dia(dia)
         except Exception:
             tipo_dia = None
+        try:                                                     # so rotulo (12/10/2026, rodada 2): deriva pre-dado = fechamento antes do dado
+            deriva = round(antes - float(fech[min(fech)]), 1)    # contra o primeiro minuto do dia (na descoberta, nao separou o resultado)
+        except (ValueError, TypeError, KeyError):
+            deriva = None
         return self.leitura, hist.Ordem(lado, stop_pts=self.stop, alvo_pts=None, parcial_pts=None, tempo_max=self.tempo_max,
                                         motivo="reversão do dado", nivel=antes,
                                         nome_nivel=f"reação de {mv:+g} pontos ao dado das {dado.strftime('%Hh%M')}".replace(".", ","),
-                                        info={"movimento": round(mv, 1), "hora_dado": dado.strftime("%H:%M"), "preco_antes": antes, "tipo_do_dia": tipo_dia})
+                                        info={"movimento": round(mv, 1), "hora_dado": dado.strftime("%H:%M"), "preco_antes": antes, "tipo_do_dia": tipo_dia,
+                                              "deriva_pre_dado": deriva})
 
 
 class SinalPhiCube:

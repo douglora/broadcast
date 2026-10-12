@@ -1437,5 +1437,6 @@ def test_sinal_do_dado_leva_o_tipo_do_dia_so_como_rotulo(tmp_path, monkeypatch):
     r.ciclo(agora, retrato={"q": {"WDOFUT": _cotacao(5036.0, agora.timestamp(), maxima=5036.0)}})
     sinal = json.loads(open(tmp_path / "dt" / "2026-10-08" / "sinais_niveis.jsonl").read().splitlines()[0])
     assert sinal["medidas"]["tipo_do_dia"] == "claims"                 # quinta-feira sem dado do BLS: pedidos de auxilio
+    assert isinstance(sinal["medidas"]["deriva_pre_dado"], (int, float))   # rodada 2: deriva pre-dado tambem so como rotulo
     pos = r.estados["WDOFUT"].posicao
     assert pos and (pos.lado, pos.entrada, pos.stop) == ("V", 5035.5, 5075.5)   # a regra continua a mesma

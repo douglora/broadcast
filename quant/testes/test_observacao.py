@@ -31,6 +31,8 @@ def terminal(tmp_path, monkeypatch):
     _hist(out / "hist", "DXY", np.r_[np.full(n - 20, 100.0), np.full(20, 103.0)])          # +3% em 20 pregoes
     _hist(out / "hist", "VIX", np.r_[np.full(n - 1, 14.0), [26.0]])                        # VIX 26: estresse
     _hist(out / "hist", "BRENT", np.full(n, 80.0))
+    _hist(out / "hist", "SPY", np.r_[np.full(n - 5, 500.0), np.full(5, 510.0)])             # +2% em 5 pregoes (a favor do risco)
+    _hist(out / "hist", "HYG", np.r_[np.full(n - 5, 80.0), np.full(5, 79.0)])               # credito caiu (contra)
     _hist(out / "hist", "UST10Y", np.r_[np.full(n - 10, 4.0), np.full(10, 4.4)])            # +40 pontos-base
     _hist(out / "hist", "TD-IPCA-2035", np.full(n, 7.0))
     _hist(out / "hist", "DI1F28", np.r_[np.full(n - 63, 13.0), np.full(63, 12.0)], venc="2028-01-03")   # -100 pontos-base em 63 pregoes
@@ -73,6 +75,9 @@ def test_sinais_leem_o_terminal_de_mentira(terminal):
     assert por["consenso_revisoes_30d"]["leitura"] == 1 and por["consenso_revisoes_30d"]["valor"] == pytest.approx(75.0)
     assert por["ibov_mm200"]["leitura"] == 1 and por["ibov_vol_20_252"]["leitura"] in (-1, 0, 1)
     assert por["erp_tir_mediana"]["leitura"] == 1 and por["cartas_tom"]["leitura"] == -1
+    # rodada 2 (12/10/2026): apetite a risco conta so o S&P (HYG caiu, DXY parado em 5 pregoes, VIX subiu) e a vol do dolar esta alta
+    assert por["risco_apetite"]["valor"] == 1 and por["risco_apetite"]["leitura"] == -1
+    assert por["usdbrl_vol_regime"]["leitura"] == 1
     assert por["dado_eua_hoje"]["leitura"] == 0 and "8h30" in por["dado_eua_hoje"]["texto"]
     assert por["copom_proximo"]["data_dado"] == "2026-11-05"
     assert not faltam or all(x in ("ntnb35_20d",) for x in faltam)

@@ -410,3 +410,33 @@ dose G23 e placar G19/G2; passo auxiliar `observacao` na rotina da manha; primei
 divulgacoes americanas (`quant/dados/calendario_eua.py`: BLS 2021-2026, pedidos de auxilio, efetivos pela API do BLS, consenso semanal
 do ForexFactory arquivado). Pendente do Douglas: compilar e rodar o script do calendario do MetaTrader (consenso historico).
 Nenhuma regra com capital mudou.
+
+## 12/10/2026, rodada 2: consenso real do MetaTrader, regimes macro/micro, meta-rotulo e dias analogos
+
+Depois do "mantem / pode compilar o script / pegue dados historicos e aplique as estrategias / o robo tem de entender macro e
+micro" do Douglas. Tudo na copia de pesquisa `~/Desktop/quant-b3-pesquisa` (ramo `pesquisa/revisao-2026-10`); nada mudou no
+robo que roda. Scripts `quant/estudos/2026-10-12_{dado_condicionado,dado_surpresa,meta_rotulo_dado,dias_analogos}.py`;
+saidas em `quant/saida/pesquisa5/montecarlo/`; 60 tentativas novas no ledger (familias dado_condicionado 26, win_regime 5,
+dado_surpresa 15, meta_rotulo 8, analogos 6). Criterio de candidata (pre-registrado): t >= 3, n >= 200, 5 de 7 semestres.
+
+Dado novo: calendario economico do MetaTrader exportado da instancia Global (`AutopilotCalendario.mq5`; 29.303 eventos dos EUA
+desde 2019, 17.543 com consenso), lido por `quant/dados/calendario_eua.py` (`carregar_mt5`, `eventos_830`, `surpresas`,
+`tabela_surpresa_dia`; copia versionada so do marco das 8h30 em `quant/dados/fixos/mt5_calendario_us_830.csv`). Fuso do
+arquivo: UTC+3 fixo (Brasilia = servidor - 6 h; conferido no payroll). Surpresa em z robusto (mediana de |surpresa| das 24
+observacoes anteriores do mesmo evento, |z| <= 4; sem isso os meses da pandemia esmagam tudo). Tabela de regimes ponto no
+tempo em `quant/pesquisa/regimes.py` (VIX, DXY, UST10, Brent, dolar, Ibov, S&P, EWZ, HYG, ouro, NTN-B 2035, SMLL).
+
+| O que | Resultado na descoberta (10/2021-12/2024) | Veredito |
+|---|---|---|
+| Reversao do dado por regime (26 condicoes) | nenhuma passa (n < 200 em todas as que tem t >= 3). Pistas: dia seguinte a perda +R$ 176/neg (n 142, t 3,7, 7/7); gap da noite > 10 pts +138 (n 184, t 3,3); vol do dolar alta +181 (n 128) contra +51 baixa; apetite a risco baixo +130 contra +83 alto | sem regra nova; rotulos so medidos |
+| Continuacao (a favor da reacao), todos/estresse/vol alta | -R$ 138, -194, -205/neg | reprovada (e o espelho da reversao, com custo) |
+| Rompimento da faixa de abertura no WIN por regime (5) | todos negativos ou zero (melhor: calmo +R$ 0,7/neg) | reprovada |
+| Reversao do dado contra a surpresa real (15) | contra a surpresa (|S| >= 0,5) +R$ 228/neg (n 56, t 2,5, 6/7) contra a favor +71 (n 110); |z| do evento principal >= 1,5 +131 (n 82, 7/7); sem consenso no marco +55 (n 111); payroll +223 (n 34), PPI +189 (n 26) | sem candidata (n pequeno); mecanismo confirmado com consenso real |
+| Continuacao quando a reacao concorda com surpresa grande | -R$ 121/neg (n 88) | reprovada |
+| Meta-rotulo (Lopez de Prado): logistica e arvores, walk-forward 6 blocos, dose 0/1/2 (8) | AUC fora da amostra 0,45-0,52; a dose perde para o lote fixo em todas | reprovada: nada do que se sabe no sinal preve qual negocio ganha |
+| Dias analogos (k = 20 e 50, 20 variaveis, alvos dolar, Ibov e setup) (6) | acerto 50-56% nos dias de conviccao, nenhum com p < 0,05 | sem informacao |
+
+Entrou so medindo (ramo de pesquisa, precisa do "pode" para o robo): sinais `risco_apetite` e `usdbrl_vol_regime` em
+`quant/observacao/sinais.py`; rotulo `deriva_pre_dado` em cada sinal do dado (`barras.py`). A surpresa real nao entra ao vivo
+(seria coleta em tempo real: pedido em `quant/pesquisa/DADOS_PEDIDOS.md`); o placar junta a surpresa depois, pelo
+calendario do MetaTrader reexportado por mes.

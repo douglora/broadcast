@@ -228,14 +228,47 @@ def cartas_tom(f):
                   f"Cartas de gestores desde {x['desde']}: {x['cautela']} paginas de cautela contra {x['oportunidade']} de oportunidade ({x['docs']} documentos)", f["hoje"], "cache/cartas/cartas.sqlite")
 
 
+def risco_apetite(f):
+    """Apetite a risco em 4 bandeiras (0 a 4): S&P 500 subiu em 5 pregoes, credito high yield (HYG) subiu em 5, dolar global
+    (DXY) caiu em 5, VIX caiu em 10. Mesmo criterio do `risco_score` de quant/pesquisa/regimes.py (estudo de 12/10/2026):
+    na descoberta, a reversao do dado rendeu R$ 130/negocio com 0-1 bandeiras contra R$ 83 com 3-4. So medido."""
+    pontos, datas = [], []
+    for sim, n, sentido in (("SPY", 5, 1), ("HYG", 5, 1), ("DXY", 5, -1), ("VIX", 10, -1)):
+        s = f["series"].get(sim, pd.Series(dtype=float))
+        v = _variacao(s, n)
+        if v is None:
+            return None
+        pontos.append(1 if v * sentido > 0 else 0)
+        datas.append(s.index[-1].date())
+    score = sum(pontos)
+    leit = 1 if score >= 3 else (-1 if score <= 1 else 0)
+    return _sinal("risco_apetite", "macro", "dolar", 5, score, leit, f"Apetite a risco {score} de 4 (S&P 5d, HYG 5d, DXY 5d, VIX 10d)", max(datas), "terminal hist/SPY,HYG,DXY,VIX")
+
+
+def usdbrl_vol_regime(f):
+    """Vol realizada do dolar (20 pregoes, anualizada) contra a mediana movel de 1 ano: alta ou baixa. Na descoberta
+    (12/10/2026) a reversao do dado rendeu R$ 181/negocio com vol alta contra R$ 51 com vol baixa (n 128 e 210). So medido."""
+    s = f["series"].get("USDBRL", pd.Series(dtype=float))
+    if len(s) < 140:
+        return None
+    vol = s.pct_change().rolling(20).std() * 100.0 * np.sqrt(252)
+    med = vol.rolling(252, min_periods=120).median().shift(1)
+    (v, _), (m, _) = _ultimo(vol), _ultimo(med)
+    if v is None or m is None or pd.isna(v) or pd.isna(m):
+        return None
+    alta = v > m
+    return _sinal("usdbrl_vol_regime", "micro", "dolar", 10, v, 1 if alta else -1,
+                  f"Vol realizada do dolar {v:.1f}% a.a. contra mediana de 1 ano {m:.1f}%: " + ("alta" if alta else "baixa"), s.index[-1].date(), "terminal hist/USDBRL.json")
+
+
 SINAIS = (ust10_10d, dxy_20d, vix_regime, brent_10d, usdbrl_10d, hy_10d, di2_63d, ntnb35_20d, focus_ipca_1sem, copom_proximo, dado_eua_hoje,
-          fluxo_estrangeiro_5d, consenso_revisoes_30d, ibov_mm200, ibov_vol_20_252, erp_tir_mediana, cartas_tom)
+          fluxo_estrangeiro_5d, consenso_revisoes_30d, ibov_mm200, ibov_vol_20_252, erp_tir_mediana, cartas_tom, risco_apetite, usdbrl_vol_regime)
 
 
 def montar_fontes(hoje=None, com_tabela=True):
     """Le tudo uma vez. Cada pedaco que falha vira serie vazia ou None (o sinal correspondente fica fora)."""
     hoje = pd.Timestamp(hoje or date.today()).date()
-    series = {s: fontes.serie(s) for s in ("UST10Y", "DXY", "VIX", "BRENT", "USDBRL", "IBOV", "TD-IPCA-2035")}
+    series = {s: fontes.serie(s) for s in ("UST10Y", "DXY", "VIX", "BRENT", "USDBRL", "IBOV", "TD-IPCA-2035", "SPY", "HYG")}
     r = fontes.rf()
     series["DI2A"] = _di2_serie(r)
     return {"hoje": hoje, "series": series, "hy": fontes.spread_serie("hy", r), "focus": fontes.focus(m=fontes.macro()),

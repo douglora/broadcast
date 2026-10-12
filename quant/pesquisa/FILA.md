@@ -255,3 +255,18 @@ Scripts em quant/estudos/2026-10-12_*.py; saidas em quant/saida/pesquisa5/montec
 20. Prova viva dos eventos raros congelados: anuncio extra do BC (n 15), fade do dado de quinta com ordem passiva (n 45), 1o pregao de jan/mai/set.
 21. Camada de observacao (quant/observacao, desde 12/10/2026): 17 sinais macro/micro/grafico/fundamento, termometro G20, dose G23 e placar
     G19/G2, tudo so medido; com 60 leituras pontuadas por sinal (~3 meses) o placar diz quem tem informacao.
+
+## 12/10/2026, rodada 2 (consenso do MetaTrader, regimes, meta-rotulo, analogos)
+
+Testadas e fechadas (60 tentativas; detalhe em `quant/estudos/LEIA.md`):
+- Reversao do dado condicionada a 26 estados macro/micro/intradiarios: nenhuma candidata (todas com t >= 3 tem n < 200).
+- Rompimento da faixa de abertura no WIN por regime: reprovado.
+- Reversao do dado contra a surpresa real: contra a surpresa rende 3x mais que a favor (n 56); sem candidata.
+- Meta-rotulo com e sem surpresa: AUC ~0,5; reprovado.
+- Dias analogos: sem informacao.
+
+Pistas abertas (so medindo; entram na prova viva pelo rotulo, nunca pela regra):
+22. Dia seguinte a uma perda do setup do dado (+R$ 176/neg na descoberta, 7/7): cobrar na prova viva com o rotulo do resultado de ontem.
+23. Gap da noite > 10 pontos e vol realizada do dolar alta: rotulos `usdbrl_vol_regime` (observacao) e gap (falta ao vivo: a fita nao tem o fechamento de ontem).
+24. Reacao contra a surpresa real (|S| >= 0,5): juntar a surpresa do MetaTrader ao placar por dia; se em 2026 (prova viva) repetir a razao 3:1, pre-registrar V2 "dose maior contra a surpresa" e so entao pedir o "pode".
+25. Dias sem consenso no marco rendem menos (+55): separar no placar; nao filtrar (perde por pregao).
