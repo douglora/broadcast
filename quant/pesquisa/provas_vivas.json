@@ -1,18 +1,153 @@
 {
  "_leia": "Regras em PROVA VIVA: nao foram aprovadas no historico, mas tem evidencia que merece ser acompanhada so com dado NOVO (pregoes depois de 'desde'). Nada aqui opera. quant/pesquisa/prova_viva.py mede; com 60+ negocios, media positiva e t >= 2 vira pedido de estudo.",
  "regras": [
-  {"nome": "win_fim_do_dia", "titulo": "Mini-indice: a tendencia do dia continua nos ultimos 30 minutos",
-   "arquivo": "quant/pesquisa/regras/win_fim_do_dia.py", "funcao": "regra", "ativo": "WIN", "simbolo": "WIN$N", "desde": "2026-10-10",
-   "na_tela": {"titulo": "A tendência do dia continua nos últimos 30 minutos",
-               "explicacao": "30 minutos antes do fim do pregão, entra no sentido do dia (acima da abertura compra, abaixo vende) e sai 25 minutos depois."},
-   "kw": {"stop": 500.0, "tempo": 25, "ini": "09:00", "ult": "18:30", "zerar": "18:30"},
-   "historico": "2021-24: Sharpe 3,7 (800 negocios, +R$ 15,30); 2025: -R$ 4,47 (reprovada); prova de 2026, aberta em 10/10/2026: Sharpe -3,65, acerto de 38% (o efeito inverteu)"},
-  {"nome": "win_fim_do_dia_adaptativa", "titulo": "Mini-indice, fim do pregao: opera no lado que vem dando certo nos ultimos 60 pregoes",
-   "arquivo": "quant/pesquisa/regras/win_fim_do_dia.py", "funcao": "regra_adaptativa", "ativo": "WIN", "simbolo": "WIN$N", "desde": "2026-10-13",
-   "na_tela": {"titulo": "Fim do pregão, no lado que vem dando certo",
-               "explicacao": "A mesma entrada do fim do pregão, mas só no lado (a favor ou contra o dia) que deu resultado nos 60 pregões anteriores."},
+  {
+   "nome": "win_fim_do_dia",
+   "titulo": "Mini-indice: a tendencia do dia continua nos ultimos 30 minutos",
+   "arquivo": "quant/pesquisa/regras/win_fim_do_dia.py",
+   "funcao": "regra",
+   "ativo": "WIN",
+   "simbolo": "WIN$N",
+   "desde": "2026-10-10",
+   "na_tela": {
+    "titulo": "A tendência do dia continua nos últimos 30 minutos",
+    "explicacao": "30 minutos antes do fim do pregão, entra no sentido do dia (acima da abertura compra, abaixo vende) e sai 25 minutos depois."
+   },
+   "kw": {
+    "stop": 500.0,
+    "tempo": 25,
+    "ini": "09:00",
+    "ult": "18:30",
+    "zerar": "18:30"
+   },
+   "historico": "2021-24: Sharpe 3,7 (800 negocios, +R$ 15,30); 2025: -R$ 4,47 (reprovada); prova de 2026, aberta em 10/10/2026: Sharpe -3,65, acerto de 38% (o efeito inverteu)"
+  },
+  {
+   "nome": "win_fim_do_dia_adaptativa",
+   "titulo": "Mini-indice, fim do pregao: opera no lado que vem dando certo nos ultimos 60 pregoes",
+   "arquivo": "quant/pesquisa/regras/win_fim_do_dia.py",
+   "funcao": "regra_adaptativa",
+   "ativo": "WIN",
+   "simbolo": "WIN$N",
+   "desde": "2026-10-13",
+   "na_tela": {
+    "titulo": "Fim do pregão, no lado que vem dando certo",
+    "explicacao": "A mesma entrada do fim do pregão, mas só no lado (a favor ou contra o dia) que deu resultado nos 60 pregões anteriores."
+   },
    "barras_extras": 45000,
-   "kw": {"stop": 500.0, "tempo": 25, "ini": "09:00", "ult": "18:30", "zerar": "18:30"},
-   "historico": "variante declarada em 10/10/2026, depois de 2026 ser visto: nao ha dado antigo que a prove. Descritivo nos 5 anos: Sharpe 2,28; 2025 -R$ 2,70 e 2026 +R$ 0,80 por pregao"}
+   "kw": {
+    "stop": 500.0,
+    "tempo": 25,
+    "ini": "09:00",
+    "ult": "18:30",
+    "zerar": "18:30"
+   },
+   "historico": "variante declarada em 10/10/2026, depois de 2026 ser visto: nao ha dado antigo que a prove. Descritivo nos 5 anos: Sharpe 2,28; 2025 -R$ 2,70 e 2026 +R$ 0,80 por pregao"
+  },
+  {
+   "nome": "dado_base",
+   "titulo": "Mini-dolar: reversao do dado (referencia, a regra que opera)",
+   "funcao": "base",
+   "na_tela": {
+    "titulo": "Reversão do dado: a própria regra, medida aqui como referência",
+    "explicacao": "A mesma regra que opera, simulada nas barras do MetaTrader, para comparar as variantes nos mesmos pregões."
+   },
+   "historico": "descoberta 2021-24: 338 negocios, +R$ 100/neg, acerto 58%, t 3,3, 7 de 7 semestres; 2025: 62 negocios, +R$ 26/neg",
+   "arquivo": "quant/pesquisa/regras/dado_variantes.py",
+   "ativo": "WDO",
+   "simbolo": "WDO$N",
+   "desde": "2026-10-13",
+   "kw": {
+    "stop": 40.0,
+    "alvo": null,
+    "tempo": 120
+   },
+   "barras_extras": 24800,
+   "comparar_com": "dado_base"
+  },
+  {
+   "nome": "dado_so_dia_de_dado",
+   "titulo": "Mini-dolar: reversao do dado so nos dias com divulgacao conhecida",
+   "funcao": "so_dia_de_dado",
+   "na_tela": {
+    "titulo": "Só nos dias em que sai um dado às 8h30 de Nova York",
+    "explicacao": "A mesma regra, só nos dias com divulgação do BLS ou pedidos de auxílio-desemprego. Na descoberta rendeu mais por negócio (R$ 137 contra 100) e menos por pregão."
+   },
+   "historico": "descoberta: +R$ 137/neg, t 3,2, 7 de 7 semestres, n 171; por pregao R$ 31 contra 42 da base",
+   "arquivo": "quant/pesquisa/regras/dado_variantes.py",
+   "ativo": "WDO",
+   "simbolo": "WDO$N",
+   "desde": "2026-10-13",
+   "kw": {
+    "stop": 40.0,
+    "alvo": null,
+    "tempo": 120
+   },
+   "barras_extras": 24800,
+   "comparar_com": "dado_base"
+  },
+  {
+   "nome": "dado_vol_alta",
+   "titulo": "Mini-dolar: reversao do dado so com vol realizada do dolar alta",
+   "funcao": "vol_alta",
+   "na_tela": {
+    "titulo": "Só quando a vol do dólar está acima da mediana de 1 ano",
+    "explicacao": "A mesma regra, só nos dias em que a vol realizada do dólar (20 pregões) está acima da mediana móvel de 1 ano, conhecida na véspera."
+   },
+   "historico": "descoberta: +R$ 181/neg (n 128, t 3,2, 5 de 6 semestres) contra +51 com vol baixa (n 210)",
+   "arquivo": "quant/pesquisa/regras/dado_variantes.py",
+   "ativo": "WDO",
+   "simbolo": "WDO$N",
+   "desde": "2026-10-13",
+   "kw": {
+    "stop": 40.0,
+    "alvo": null,
+    "tempo": 120
+   },
+   "barras_extras": 24800,
+   "comparar_com": "dado_base"
+  },
+  {
+   "nome": "dado_ontem_perdeu",
+   "titulo": "Mini-dolar: reversao do dado no pregao seguinte a uma perda",
+   "funcao": "ontem_perdeu",
+   "na_tela": {
+    "titulo": "Só no pregão seguinte a um negócio perdedor",
+    "explicacao": "A mesma regra, só quando o último negócio da regra foi perdedor. Na descoberta foi o melhor rótulo (R$ 176 por negócio, 7 de 7 semestres), com 142 casos."
+   },
+   "historico": "descoberta: +R$ 176/neg (n 142, t 3,7, 7 de 7) contra +48 depois de ganho (n 194)",
+   "arquivo": "quant/pesquisa/regras/dado_variantes.py",
+   "ativo": "WDO",
+   "simbolo": "WDO$N",
+   "desde": "2026-10-13",
+   "kw": {
+    "stop": 40.0,
+    "alvo": null,
+    "tempo": 120
+   },
+   "barras_extras": 24800,
+   "comparar_com": "dado_base"
+  },
+  {
+   "nome": "dado_contra_surpresa",
+   "titulo": "Mini-dolar: reversao do dado quando a reacao contraria a surpresa",
+   "funcao": "contra_surpresa",
+   "na_tela": {
+    "titulo": "Só quando a reação foi contra o que a surpresa mandava",
+    "explicacao": "A mesma regra, só quando o dólar reagiu nos 2 primeiros minutos no sentido oposto ao da surpresa do dado (efetivo contra consenso do calendário do MetaTrader). Depende da exportação mensal do calendário."
+   },
+   "historico": "descoberta: +R$ 228/neg (n 56, t 2,5, 6 de 7) contra +71 a favor da surpresa (n 110)",
+   "arquivo": "quant/pesquisa/regras/dado_variantes.py",
+   "ativo": "WDO",
+   "simbolo": "WDO$N",
+   "desde": "2026-10-13",
+   "kw": {
+    "stop": 40.0,
+    "alvo": null,
+    "tempo": 120
+   },
+   "barras_extras": 24800,
+   "comparar_com": "dado_base"
+  }
  ]
 }

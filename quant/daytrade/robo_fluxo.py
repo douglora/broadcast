@@ -642,8 +642,12 @@ class RoboFluxo:
                            "minima": _num(c[I_MIN]), "abertura": _num(c[I_ABE]), "anterior": _num(c[I_ANT]),
                            "var": _num(c[I_VAR]), "idade_s": idade, "ajuste": self.ajustes.get(a), "spread": spread,
                            "fonte_fluxo": fonte}
-            if idade > 15.0:
-                continue                                   # preco velho nao dispara nada
+            if idade > 15.0:                               # preco velho nao dispara entrada nenhuma...
+                if self.estados[a].posicao is not None:    # ...mas uma posicao aberta continua sendo conduzida (12/10/2026, furo A8):
+                    for ev in ef.passo(self.estados[a], ts, hora, preco, fita, ef.niveis_do_dia(self.cot[a], self.p), self.p, lote,
+                                       pode_entrar=False, feed_ok=False, contexto={"spread": spread, "fita_volume": self.fitas_mini[a]}):
+                        self._registrar(ev, agora)         # stop, tempo e fim do dia valem com o ultimo preco conhecido
+                continue
             base = self.ajustes.get(a) or self.cot[a]["anterior"]
             contexto = {"medio": self.cot[a]["medio"], "spread": spread, "fita_volume": self.fitas_mini[a],
                         "var": (preco / base - 1.0) if base and base > 0 else None}

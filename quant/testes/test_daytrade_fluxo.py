@@ -1440,3 +1440,21 @@ def test_sinal_do_dado_leva_o_tipo_do_dia_so_como_rotulo(tmp_path, monkeypatch):
     assert isinstance(sinal["medidas"]["deriva_pre_dado"], (int, float))   # rodada 2: deriva pre-dado tambem so como rotulo
     pos = r.estados["WDOFUT"].posicao
     assert pos and (pos.lado, pos.entrada, pos.stop) == ("V", 5035.5, 5075.5)   # a regra continua a mesma
+
+
+def test_stop_vale_mesmo_com_cotacao_velha(tmp_path, monkeypatch):
+    """12/10/2026 (furo A8): cotacao com mais de 15 s nao dispara entrada, mas uma posicao aberta continua sendo conduzida:
+    o stop sai com o ultimo preco conhecido em vez de esperar um tique novo."""
+    rf, mt5 = _robo_niveis(tmp_path, monkeypatch)
+    _fita_do_dado(mt5, reacao=6.0)
+    r = rf.RoboFluxo("2026-10-08", saidas=[str(tmp_path / "quant.json")], pasta_mt5=str(mt5), setup="niveis")
+    r.codigos = {"WDOFUT": "WDOX26"}
+    r.sinais_pc["WDOFUT"] = type("S", (), {"atualizar": lambda self, df, extras=(): ({"pronto": False, "motivo": "teste"}, None)})()
+    agora = datetime(2026, 10, 8, 9, 32, 3, tzinfo=BRT)
+    r.ciclo(agora, retrato={"q": {"WDOFUT": _cotacao(5036.0, agora.timestamp(), maxima=5036.0)}})
+    pos = r.estados["WDOFUT"].posicao
+    assert pos and pos.lado == "V" and pos.stop == 5075.5
+    depois = datetime(2026, 10, 8, 9, 40, 0, tzinfo=BRT)
+    velha = _cotacao(5080.0, depois.timestamp() - 40.0, maxima=5080.0)       # ultimo tique ha 40 s, acima do stop
+    r.ciclo(depois, retrato={"q": {"WDOFUT": velha}})
+    assert r.estados["WDOFUT"].posicao is None                                 # saiu no stop com o preco velho

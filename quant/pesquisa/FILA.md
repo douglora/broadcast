@@ -270,3 +270,5 @@ Pistas abertas (so medindo; entram na prova viva pelo rotulo, nunca pela regra):
 23. Gap da noite > 10 pontos e vol realizada do dolar alta: rotulos `usdbrl_vol_regime` (observacao) e gap (falta ao vivo: a fita nao tem o fechamento de ontem).
 24. Reacao contra a surpresa real (|S| >= 0,5): juntar a surpresa do MetaTrader ao placar por dia; se em 2026 (prova viva) repetir a razao 3:1, pre-registrar V2 "dose maior contra a surpresa" e so entao pedir o "pode".
 25. Dias sem consenso no marco rendem menos (+55): separar no placar; nao filtrar (perde por pregao).
+- Rodada 3 (12/10): saidas alternativas da reversao do dado (alvo, stop movel, tempo, stop): 10 tentativas, nenhuma melhor que a saida congelada; alvo curto sobe o acerto e derruba o resultado. Fechado.
+26. Prova viva das variantes do dado (`dado_variantes.py`, desde 13/10/2026): cobrar no painel da prova viva; gate 60 negocios, t >= 2 e acima de `dado_base` nos mesmos pregoes.

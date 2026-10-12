@@ -440,3 +440,30 @@ Entrou so medindo (ramo de pesquisa, precisa do "pode" para o robo): sinais `ris
 `quant/observacao/sinais.py`; rotulo `deriva_pre_dado` em cada sinal do dado (`barras.py`). A surpresa real nao entra ao vivo
 (seria coleta em tempo real: pedido em `quant/pesquisa/DADOS_PEDIDOS.md`); o placar junta a surpresa depois, pelo
 calendario do MetaTrader reexportado por mes.
+
+## 12/10/2026, rodada 3: "acertar mais que errar", prova viva das variantes e o stop com cotacao velha
+
+Pedido: "solucoes robustas para o robo operar acertando mais que errando... refine a estrategia para amanha e, conforme
+acerta e erra, refine mais". `quant/estudos/2026-10-12_dado_alvo_e_arrasto.py` (familia dado_saida, 10 tentativas):
+
+| Saida da reversao do dado (descoberta) | Acerto | R$/neg | t | Semestres |
+|---|---|---|---|---|
+| base: stop 40, tempo 120 (a que opera) | 57,7% | 100 | 3,27 | 7 de 7 |
+| alvo 10 / 15 / 20 / 30 | 77% / 70% / 64% / 60% | 36 / 52 / 66 / 74 | 2,1 / 2,6 / 2,9 / 2,8 | 5-6 de 7 |
+| stop movel 15 / 25 | 38% / 44% | 4 / 43 | 0,2 / 1,7 | 3 de 7 |
+| tempo 60 / 90 | 51% / 56% | 42 / 84 | 1,8 / 3,1 | 5-6 de 7 |
+| stop 30 | 56% | 87 | 2,9 | 7 de 7 |
+
+Acertar mais e facil (alvo curto) e custa dinheiro: cada ponto de acerto a mais tira resultado por negocio. A saida congelada
+continua a melhor. Nenhuma candidata; 2025 nao foi aberto.
+
+Refino vivo (o "conforme acerta e erra"): as quatro pistas com t >= 3 na descoberta viraram regras de PROVA VIVA em
+`quant/pesquisa/regras/dado_variantes.py` (`so_dia_de_dado`, `vol_alta`, `ontem_perdeu`, `contra_surpresa`), com a propria
+regra como referencia (`dado_base`), em `quant/pesquisa/provas_vivas.json` desde 13/10/2026, nas barras WDO$N do
+MetaTrader. Gate: 60 negocios, media positiva, t >= 2 E acima da base nos mesmos pregoes; dai vira pedido de estudo e so
+entra na regra com o "pode". O refino e por evidencia acumulada, nunca por reajuste diario (isso seria sobreajuste).
+Ensaio de 12/10: o leitor do MetaTrader entregou 27.900 barras do WDO$N para cada regra; tudo roda; 0 negocios (comeca amanha).
+
+Furo A8 fechado (`robo_fluxo.py`): cotacao com mais de 15 s nao dispara entrada, mas a posicao aberta continua sendo
+conduzida (stop, tempo e fim do dia valem com o ultimo preco conhecido). Teste `test_stop_vale_mesmo_com_cotacao_velha`.
+Tudo no ramo de pesquisa; entra no robo com o "pode".
