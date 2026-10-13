@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 12/10 23h31
+NOTÍCIAS E FATOS · 13/10 08h33
 
-Pernas: noticias ok 16 novas (18 consultas; descartadas: 439 veículo fora da lista, 35 sem ativo, 1 teto) · cvm ok 0 novos de 2 (2 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 18 novas (18 consultas; descartadas: 416 veículo fora da lista, 32 sem ativo, 53 teto) · cvm ok 0 novos de 0 (0 cias casadas) · sec ok 1 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (2)
 
@@ -30,52 +30,66 @@ Fonte: CVM 09/10
 id: E03-CURY3-1576353-2026-10-09 · status: linha · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (14)
+## SEC (8-K, 6-K, 10-Q, 10-K) (1)
 
-[ATENÇÃO] E05 · TSM · Weekly Recap: Moody's affirms A2, outlook positive and TSMC tie-up boosts chips
-TradingView (Reuters) · 12/10 19h00 · fonte única · licença: manchete
-Link: https://www.tradingview.com/news/tradingview:794bfa7cdba4f:0-weekly-recap-moody-s-affirms-a2-outlook-positive-and-tsmc-tie-up-boosts-chips/
-Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
-Ativos: TSM
-Como falar: 'saiu no TradingView (Reuters): Weekly Recap: Moody's affirms A2, outlook positive and TSMC tie-up boosts chips; confirmar o número no texto antes de repassar'
-Fonte: TradingView (Reuters) 12/10 19h00
-id: E05-TSM-8b8054442e-2026-10-12 · status: pendente
-
-[ATENÇÃO] E05 · JPM · JPMorgan, Goldman Sachs tread carefully in $5B Volta AI loan offering - report (JPM:NYSE)
-Seeking Alpha · 12/10 17h00 · fonte única · licença: manchete
-Link: https://seekingalpha.com/news/4652223-jpmorgan-goldman-sachs-tread-carefully-in-5b-volta-ai-loan-offering---report
-Por que importa: oferta de acoes ou divida altera a base acionaria ou a alavancagem
+[ATENÇÃO] E04 · JPM · 8-K: 2.02 resultado do trimestre
+SEC EDGAR · aceito 13/10 07h30 · 8-K
+Do documento:
+  – 20549   FORM 8-K   CURRENT REPORT   Pursuant to Section 13 or 15(d) of the Securities Exchange Act of 1934   Date of Report (date of earliest event reported): October 13, 2026   JPMorgan Chase & Co .
+  – (Exact name of registrant as specified in its charter)   Delaware 1-5805 13-2624428   (State or other jurisdiction of incorporation or organization) (Commission File Number) (I.R.S.
+  – A copy of the 2026 third quarter earnings release is attached hereto as Exhibit 99.1, and a copy of the earnings release financial supplement is attached hereto as Exhibit 99.2.
+  – Each of the Exhibits provided with this Form 8-K shall be deemed to be “filed” for purposes of the Securities Exchange Act of 1934.
+  – This Current Report on Form 8-K (including the Exhibits hereto) contains forward-looking statements within the meaning of the Private Securities Litigation Reform Act of 1995.
+Link: https://www.sec.gov/Archives/edgar/data/19617/000162828026065582/jpm-20261013.htm
+Por que importa: resultado do trimestre reprecifica lucro, guidance e multiplo; comparar com o consenso
 Ativos: JPM
-Como falar: 'saiu no Seeking Alpha: JPMorgan, Goldman Sachs tread carefully in $5B Volta AI loan offering - report (JPM:NYSE); confirmar o número no texto antes de repassar'
-Fonte: Seeking Alpha 12/10 17h00
-id: E05-JPM-d30c6e05f9-2026-10-12 · status: expirado
+Como falar: 'a JPM protocolou 8-K na SEC (2.02 resultado do trimestre)'
+Fonte: SEC EDGAR 2026-10-13
+id: E04-JPM-26065582-2026-10-13 · status: pendente · íntegra disponível
 
-[ATENÇÃO] E05 · AMZN · MIT files patent lawsuit against Amazon over cloud security technology
-TradingView (Reuters) · 12/10 12h06 · + Reuters · licença: manchete
-Link: https://www.tradingview.com/news/reuters.com,2026:newsml_L6N45Y0S7:0-mit-files-patent-lawsuit-against-amazon-over-cloud-security-technology/
-Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e prazo
-Ativos: AMZN
-Como falar: 'saiu no TradingView (Reuters): MIT files patent lawsuit against Amazon over cloud security technology; confirmar o número no texto antes de repassar'
-Fonte: TradingView (Reuters) 12/10 12h06
-id: E05-AMZN-88dbe45d2f-2026-10-12 · status: expirado
 
-[ATENÇÃO] E05 · MU · What's next for Micron Technology after blockbuster Q4, guidance beat?
-TradingView (Reuters) · 12/10 09h06 · fonte única · licença: manchete
-Link: https://www.tradingview.com/news/seekingalpha:8c4879a9d094b:0-what-s-next-for-micron-technology-after-blockbuster-q4-guidance-beat/
+## NOTÍCIAS COM MATERIALIDADE (12)
+
+[ATENÇÃO] E05 · CVX · Verizon or Chevron: I Can Only Pick One Dividend Stock for the Next 10 Years. Here’s Mine
+Yahoo Finance · 12/10 18h50 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Key Takeaways - Verizon yields 6.2% and Chevron 3.4%, and each paid out just over half its free cash flow as dividends in the 12 months to June 30, 2026.
+  – - Chevron raised its dividend 5.8% a year from fiscal 2020 to fiscal 2025, against 1.9% for Verizon, and carries far less debt.
+  – - Chevron's coverage depends on oil prices: its free cash flow fell far short of its dividend in fiscal 2020.
+  – - Verizon's debt, at 3.35x EBITDA, is the main risk to watch as it keeps raising its dividend.
+  – Verizon (VZ:NYSE) grew free cash flow 24.4% to $6.4 billion in the second quarter of 2026 from a year earlier, and it expects 9% to 10% free cash flow growth for the full year.
+  – Chevron (CVX:NYSE) went bigger: $18.1 billion of free cash flow in the second quarter of 2026, against $4.9 billion a year before, as production jumped 20%.
+Link: https://finance.yahoo.com/markets/stocks/articles/verizon-chevron-only-pick-one-215050924.html
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: CVX
+Como falar: 'saiu no Yahoo Finance: Verizon or Chevron: I Can Only Pick One Dividend Stock for the Next 10 Years. Here’s Mine; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 12/10 18h50
+id: E05-CVX-c21f48975e-2026-10-12 · status: pendente
+
+[ATENÇÃO] E05 · TSLA · Jefferies raises Tesla price target as resilient deliveries support automotive outlook
+Yahoo Finance · 12/10 11h44 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Jefferies has raised its price target for Tesla Inc (NASDAQ:TSLA), the electric carmaker, to $400 from $350, as resilient vehicle deliveries and improving prospects for non-automotive businesses offset concerns over ris…
+  – Analyst Philippe Houchois maintained a 'hold' rating, with the revised target implying 5% upside from Tesla's closing price of $382.70 cited in the 12 October research note.
+  – Jefferies expects third-quarter revenue of $29.2 billion, an automotive gross margin of 16.7% and adjusted operating profit of $781 million, while forecasting cash outflow of about $5 billion.
+  – Tesla delivered 486,532 vehicles during the quarter, up 1% from the previous three months but down 2% year on year, with its Model 3 and Model Y accounting for 478,200 deliveries.
+  – Production reached 464,400 vehicles, leaving output below deliveries, although Jefferies expects year-to-date production and deliveries to remain broadly aligned and support working capital.
+  – The broker forecast automotive revenue of $21 billion, with a limited contribution of $140 million from regulatory credits, while stronger software uptake and improved vehicle resale values could support margins.
+Link: https://ca.finance.yahoo.com/news/jefferies-raises-tesla-price-target-144400027.html
+Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
+Ativos: TSLA
+Como falar: 'saiu no Yahoo Finance: Jefferies raises Tesla price target as resilient deliveries support automotive outlook; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 12/10 11h44
+id: E05-TSLA-6599b58bac-2026-10-12 · status: pendente
+
+[ATENÇÃO] E05 · PLTR · Palantir Stock Hits New Record High, Wipes Out Its Nearly 50% Drawdown
+TradingView (Reuters) · 12/10 11h41 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/benzinga:1a32a6a57094b:0-palantir-stock-hits-new-record-high-wipes-out-its-nearly-50-drawdown/
 Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
-Ativos: MU
-Como falar: 'saiu no TradingView (Reuters): What's next for Micron Technology after blockbuster Q4, guidance beat?; confirmar o número no texto antes de repassar'
-Fonte: TradingView (Reuters) 12/10 09h06
-id: E05-MU-5fb3d7e91d-2026-10-12 · status: expirado
-
-[ATENÇÃO] E05 · BTC · Bitcoin Price Outlook: Bulls Defend $83K, But ETF Flows And Trading Volume Raise Recovery Questions
-TradingView (Reuters) · 12/10 06h37 · fonte única · licença: manchete
-Link: https://www.tradingview.com/news/stocktwits:d76bbe006094b:0-bitcoin-price-outlook-bulls-defend-83k-but-etf-flows-and-trading-volume-raise-recovery-questions/
-Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
-Ativos: BTC
-Como falar: 'saiu no TradingView (Reuters): Bitcoin Price Outlook: Bulls Defend $83K, But ETF Flows And Trading Volume Raise Recovery…; confirmar o número no texto antes de repassar'
-Fonte: TradingView (Reuters) 12/10 06h37
-id: E05-BTC-71251cc3b5-2026-10-12 · status: linha
+Ativos: PLTR
+Como falar: 'saiu no TradingView (Reuters): Palantir Stock Hits New Record High, Wipes Out Its Nearly 50% Drawdown; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 12/10 11h41
+id: E05-PLTR-e002d7e14c-2026-10-12 · status: pendente
 
 [ATENÇÃO] E05 · USDBRL · Ibovespa tem duplo recorde aos 209 mil pontos e avança quase 9% na semana após 1º turno; dólar cai e fica abaixo de R$ 5
 Money Times · 09/10 17h31 · fonte única · licença: integral
@@ -186,60 +200,23 @@ Fonte: TradingView (Reuters) 09/10 04h00
 id: E05-META-6441e75de3-2026-10-09 · status: entregue
 
 
-## OUTRAS NOTÍCIAS (só manchete) (55)
+## OUTRAS NOTÍCIAS (só manchete) (18)
 
+· VALE3 Agenda de empresas: Vale notifica ex-conselheiro; Motiva divulga tráfego de setembro (Valor Economico) https://valor.globo.com/empresas/noticia/2026/10/13/agenda-de-empresas-vale-notifica-ex-conselheiro-motiva-divulga-trafego-de-setembro.ghtml
+· BTC Bitcoin’s ‘V-Shape Recovery’ Is Being Led By Spot Buyers As Leveraged Traders And ETF Investors Hold Back (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:ce236e86c094b:0-bitcoin-s-v-shape-recovery-is-being-led-by-spot-buyers-as-leveraged-traders-and-etf-investors-hold-back/
+· BTC BTC, ETH prices slip and rebound as Kospi index slides on AI-related concerns: Crypto Markets Today (CoinDesk) https://www.coindesk.com/markets/2026/10/13/bitcoin-ether-slip-and-rebound-as-south-korean-stocks-slide-on-ai-related-concerns
+· JPM JPMorgan hit by slowdown in investment banking momentum, shares slip (Reuters) https://www.reuters.com/business/finance/jpmorgans-profit-rises-investment-banking-trading-strength-2026-10-13/
+· TSM Taiwan Semiconductor Manufacturing Company Limited expected to post earnings of $4.50 a share - Earnings Preview (TradingView (Reuters)) https://www.tradingview.com/news/reuters.com,2026:newsml_L8N45Z0ZE:0-taiwan-semiconductor-manufacturing-company-limited-expected-to-post-earnings-of-4-50-a-share-earnings-preview/
+· JPM JPMorgan profits rise as Jamie Dimon warns economic forces 'shift under the surface' (Yahoo Finance) https://finance.yahoo.com/markets/article/jpmorgan-profits-rise-as-jamie-dimon-warns-economic-forces-shift-under-the-surface-105617805.html
+· JPM JPMorgan stock recovers after Q3 earnings disappoint as markets soften (JPM:NYSE) (Seeking Alpha) https://seekingalpha.com/news/4652368-jpmorgan-stock-recovers-after-q3-earnings-disappoint-as-markets-soften
+· JPM As small e midcaps brasileiras para ficar de olho, segundo o JPMorgan (Money Times) https://www.moneytimes.com.br/as-small-e-midcaps-brasileiras-para-ficar-de-olho-segundo-o-jpmorgan-apsa/
+· TESOURO Agenda do dia: Leilão do Tesouro e discursos de dirigentes do Fed são destaque (Valor Economico) https://valor.globo.com/financas/noticia/2026/10/13/agenda-do-dia-leilao-do-tesouro-e-discursos-de-dirigentes-do-fed-sao-destaque.ghtml
+· BRENT Dow Jones hoje avança enquanto petróleo e dólar recuam; balanços de bancos são destaque (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/dow-jones-hoje-avanca-enquanto-petroleo-e-dolar-recuam-balancos-de-bancos-sao-destaque/
+· JPM JPMorgan Reports Surprise Drop in Fixed-Income Trading Revenue (Bloomberg) https://www.bloomberg.com/news/articles/2026-10-13/jpmorgan-reports-surprise-drop-in-fixed-income-trading-revenue
+· JPM JPMorgan earnings missed by $0.18, revenue fell short of estimates (Investing.com) https://www.investing.com/news/earnings/jpmorgan-earnings-missed-by-018-revenue-fell-short-of-estimates-4946097
+· UST Fed's Waller Says Higher Treasury Yields Are 'Doing A Little Bit Of The Work' Of Tighter Monetary Policy (TradingView (Reuters)) https://news.google.com/rss/articles/CBMi9gFBVV95cUxPOGc5MzRvWjdQV2NXTWd3aVJPdG1DcVpTbDJZazBCaWhsVEJ1bV9sakM5ZjZvRFVuV0lEcGdUS3I5ODJsZGZnQzRqSEJkUHJvUDdyZDhvbXI0NE16bnBHd3ZrbnR0blg1eEpBUUZ5aDZ4bWJSVnEtZXVYLTd1eV9yNnFvRnJuQkw3andVQlgtQmlRSjByTmdlY2U0MEZXZUpOM0JVdTY2VGhCR25tcXNsTHZSTUxvSlZFVVppbkU3S2xud3k0blBINHNMbmtUbGNvVDJ4NnNDX3YtWDljTlc0Rk92bjFRcHhZWGQ4ZTZnaENEVlU3V2c?oc=5
+· JPM JPMorgan Chase reports 3Q26 net income $15.3B; managed revenue $50.9B, EPS $5.57 (TradingView (Reuters)) https://news.google.com/rss/articles/CBMi0wFBVV95cUxQZ3VnRUFWNXV3eW4zMkd5SFN6eHRDZ2R2c0RlaDlNbllJU1pVUGFSdlZxMU9sd2VCbmJ3cmhPZWNLYXZzLWFMcTY4NHFtNThxa0doSzZmVHRjTUVJelo1YWVwTlVzRjNhUlI5T08zRTFnN3Nwa3BsQjNJOW5VQ044QUxTTzFyU3hOUkNkRjMzcWhOZmxuXzVVY2NueW9HZDNUY2RpQ1hNamg1Ukw5QkFUTGVIUDdlZ3BIVVNfRjZQQUZTaVY5clEwaG1DM0ZadHYydFFN?oc=5
+· META S&P Hits All-Time Highs, AI Trade Does All The Work (undefined:META) (Seeking Alpha) https://news.google.com/rss/articles/CBMimwFBVV95cUxOWXlnWktKRDJzLThCNWpNYUpBc0R5Qnlub2ozYUdxZ0t0eWlCM0MtMlQxZEZ4Nm5WLWNFZVJ1SnJoLWpVZ3JmR2FLaWVIeHdsUG5lY0pJeGlfU211VDVHY0FJT1M1cXU1eUo2MGZQN3VRRzc2VFlhNmptVklVZVlRaTdfaGhfQmVUMVUxR0pEckVEQ0FTY2RUR01zZw?oc=5
 · AMD SNDK, MU, INTC, AMD, SKHY: Chip Stocks Extend Slide As AI Funding Concerns, China Competition Weigh On Sector (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:0ea217928094b:0-sndk-mu-intc-amd-skhy-chip-stocks-extend-slide-as-ai-funding-concerns-china-competition-weigh-on-sector/
 · GOOGL Alphabet President Ruth Porat on how Google is funding AI to win long term, and the biggest risks ahead (Fortune) https://fortune.com/2026/10/12/google-ruth-porat-ai-spending-risks/
 · AMD AMD: CPU Boom Lifts Target To $1,200 (NASDAQ:AMD) (Seeking Alpha) https://seekingalpha.com/article/4953394-amd-cpu-boom-lifts-target-to-1200
-· BTC Bitcoin falls below $82,000 as $120 million in crypto longs get liquidated (TradingView (Reuters)) https://www.tradingview.com/news/cryptobriefing:3bdd3f16b094b:0-bitcoin-falls-below-82-000-as-120-million-in-crypto-longs-get-liquidated/
-· JPM JPMorgan options market prices in a 2.8% post-earnings move (JPM:NYSE) (Seeking Alpha) https://seekingalpha.com/news/4652194-jpmorgan-options-market-prices-in-a-28-post-earnings-move
-· UST Hong Kong investors are warming to US Treasury bonds as yields hit 20-year high (South China Morning Post) https://www.scmp.com/business/china-business/article/3370557/hong-kong-investors-are-warming-us-treasury-bonds-yields-hit-20-year-high
-· PLTR Palantir CTO Says Some AI Researchers Are So Sure It Will Cure Cancer They’ve Started 'Smoking' — Warns Both AI Extremes Reflect ‘Social Delusion’ (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/palantir-cto-says-ai-researchers-223007219.html
-· GOOGL Alphabet’s Gemini Success: Fueling Growth And Investor Returns (NASDAQ:GOOGL) (Seeking Alpha) https://seekingalpha.com/article/4953607-alphabet-gemini-success-fueling-growth-and-investor-returns
-· INTC Intel (INTC) Sees a More Significant Dip Than Broader Market: Some Facts to Know (Yahoo Finance) https://au.finance.yahoo.com/news/intel-intc-sees-more-significant-204504098.html
-· PETR4 Índice de ADRs brasileiros fecha estável, com leve alta de Petrobras; veja destaques (InfoMoney) https://www.infomoney.com.br/mercados/indice-de-adrs-brasileiros-feriado-nossa-senhora-aparecida-12102026/
-· MU Micron, SanDisk Look Cheaper by the Day: Here’s the Catch (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:dcd8a495f094b:0-micron-sandisk-look-cheaper-by-the-day-here-s-the-catch/
-· UST Fed’s Hammack says Treasury yields modest by historic standards (Yahoo Finance) https://uk.finance.yahoo.com/news/fed-hammack-says-treasury-yields-182208326.html
-· AMZN AWS Builder Center: Stop studying cloud. Start building on it. (TechCrunch) https://techcrunch.com/sponsor/amazon-web-services/aws-builder-center-stop-studying-cloud-start-building-on-it/
-· COHR Coherent Corp. (COHR) Stock Price, News, Quote & History (Yahoo Finance) https://ca.finance.yahoo.com/quote/COHR/
-· BRENT Nunes Marques proíbe distribuição de jornal ‘Petróleo dos Brasileiros’ a pedido de Flávio Bolsonaro (Estadao) https://news.google.com/rss/articles/CBMi2wFBVV95cUxNOHYxSHpUN0Y3Qzk1X2dlZDJsSHFieVZrZjZyNUp3RUxsUE5zVzJsNC1RZVZQWmdzUnAxRlo3bUVVeVF3NTFYS3ZYTThaYUI3d0x3eEh4UHZtdld1cHZFUGo1Y2dKbWNoVWdDWFVzd281T3ZJbGhKcnA3WFdBYktZd3RnSjNGc2hneVgya0dSV0xVaktHTDBnSFF3VnZkN1dUc3JjQ19NSWNycnRNNGk0a01lWEF1OW1XanFGNERBREhoUGpxVlNpeDMyU1ZPMHo0Y3hWNkdWcFVlMnPSAeABQVVfeXFMTThOQ3oteTNzeGhhdDZTSzRSSk56R1V0S3VpUkZ4MDJLS0N0V3lQVGxDMlBtaERQeHBQSDg2aEdYVDFaNU5oOE1mblJuVHBrbFFEa3VlT1NlQUpINEY1alRSdXZsZjVwbEdMbldwa3laMUZFWThYVUR4TjB4WFNQcnFDbDFSOU1qa2tFSkRMZy1sRlpJbnFoWmJfMnB3eC1xUzV3OE1LeGFKSENMSVdoRFFqeHpPVURwb1hfYUpSbmh4b0lMVmRTN1loTnU4NWVFb3VJR2JtbW53cTUwMnhONUc?oc=5
-· BAC Is Bank of America's Stock a Buy Ahead of Its Q3 Earnings Report on Oct. 14? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/bank-americas-stock-buy-ahead-205002342.html
-· LITE Why Ciena, Lumentum and other optical stocks were among the market’s biggest losers on Monday (MarketWatch) https://www.marketwatch.com/story/why-ciena-lumentum-and-other-optical-stocks-were-among-the-markets-biggest-losers-on-monday-b3e53f6a
-· COHR Coherent: A Tempting Buy But There's One Big Reason To Stay Away (NYSE:COHR) (Seeking Alpha) https://seekingalpha.com/article/4953599-coherent-a-tempting-buy-but-theres-one-big-reason-to-stay-away
-· LITE Lumentum Holdings drops 10% as volatile trading continues (LITE:NASDAQ) (Seeking Alpha) https://seekingalpha.com/news/4652267-lumentum-holdings-drops-10-as-volatile-trading-continues
-· LITE Why Lumentum Sank Today (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/why-lumentum-sank-today-202058323.html
-· USDBRL Dólar mantém maior cotação em 18 meses diante de tensões no Golfo e inflação nos EUA (InfoMoney) https://www.infomoney.com.br/mercados/dolar-mantem-maior-cotacao-em-18-meses-diante-de-tensoes-no-golfo-e-inflacao-nos-eua/
-· TSLA Tesla Stock Rises as Elon Musk Asserts Control Over Terafab Chip Project (Barron's) https://www.barrons.com/articles/tesla-stock-price-elon-musk-terafab-3a1e3322
-· AVGO Broadcom CEO Says Many AI Investors Have ‘No Clue,’ Likens Boom to a Casino (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/broadcom-ceo-says-many-ai-193518585.html
-· UST European Weakness and Softer Inflation Could Push Treasury Yields Lower (Investing.com) https://www.investing.com/analysis/european-weakness-and-softer-inflation-could-push-treasury-yields-lower-200689436
-· UST Bonds At 5%: Is The 10-Year Treasury Finally A Buy? (Seeking Alpha) https://seekingalpha.com/article/4953472-bonds-at-5-percent-is-10-year-treasury-finally-a-buy
-· INTC Intel Accelerates Open Infrastructure for the Agentic AI Era (Business Wire) https://www.businesswire.com/news/home/20261012581523/en/Intel-Accelerates-Open-Infrastructure-for-the-Agentic-AI-Era
-· NVDA Intel aims to boost AI turnaround with new GPU chips to take on Nvidia (Yahoo Finance) https://finance.yahoo.com/technology/article/intel-aims-to-boost-ai-turnaround-with-new-gpu-chips-to-take-on-nvidia-192916083.html
-· ITUB4 Pesquisa de Nobel deu respaldo à atuação dos BCs quando juros estavam em zero, diz estrategista da Itaú Asset (Valor Economico) https://valor.globo.com/mundo/noticia/2026/10/12/pesquisa-de-nobel-deu-respaldo-a-atuacao-dos-bcs-quando-juros-estavam-em-zero-diz-estrategista-da-itau-asset.ghtml
-· GOOGL Levi & Korsinsky Reminds Alphabet Inc. Investors of the (GlobeNewswire) https://www.globenewswire.com/news-release/2026/10/12/3379199/3080/en/levi-korsinsky-reminds-alphabet-inc-investors-of-the-pending-class-action-lawsuit-with-a-lead-plaintiff-deadline-of-december-1-2026-googl-goog.html
-· AVGO Intel and Broadcom CEOs Delivers Stark AI Warning as Stocks Tumble (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:c02aed29e094b:0-intel-and-broadcom-ceos-delivers-stark-ai-warning-as-stocks-tumble/
-· GOOGL Alphabet Inc. (GOOGL) Shareholders Who Lost Money Have Opportunity to Lead Securities Fraud Lawsuit (PR Newswire) https://www.prnewswire.com/news-releases/alphabet-inc-googl-shareholders-who-lost-money-have-opportunity-to-lead-securities-fraud-lawsuit-302905385.html
-· AVGO Broadcom CEO Warns AI's Biggest Constraint Is Shifting (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/broadcom-ceo-warns-ais-biggest-183525495.html
-· NVDA Watch Cisco, Nvidia Tackle AI’s Growing Data Center Bottleneck (Bloomberg) https://www.bloomberg.com/news/videos/2026-10-12/cisco-nvidia-tackle-ai-s-growing-data-center-bottleneck-video
-· KO Coca-Cola, PepsiCo and Walmart among 8 stocks with A+ profitability grades (TradingView (Reuters)) https://www.tradingview.com/news/seekingalpha:58839756b094b:0-coca-cola-pepsico-and-walmart-among-8-stocks-with-a-profitability-grades/
-· MU 3 Reasons We’re Fans of Micron (MU) (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/3-reasons-fans-micron-mu-180703309.html
-· INTC Not Sandisk, Not Intel. This Stock Will Lead the S&P 500 Next Year (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/not-sandisk-not-intel-stock-180500957.html
-· JPM JPMorgan, Goldman Sachs Earnings Could Move This Dow ETF—Here’s the Portfolio Math (TradingView (Reuters)) https://news.google.com/rss/articles/CBMi1wFBVV95cUxPVGxkVkV6WXdCM2kzTEd4RUkxcFZuODFrOVRoYUNZMjVHYkVUcFg4bWE0bURLeWo4YUNCZ2tZWl8tUlBCT3EtMElCeEZEaDdKVUZkeU9aNTFJQkY2d0dKRERrMlBhNmpfNnR5aUZrUWxlYzFUbFJ6dTdwajhENE5JQVpmd2dNYmptd0sySVBld1JUQmlSa0Z5cEhpWVBVV3VSSkM2QkNMNHJVRnpLV3hJM1pGTl9Bdzh3LXdkRVh1eGdMRGhxTGtrX0Y3TXl4dW5jNm5hVnE2SQ?oc=5
-· MU Micron Just Said Something That Could Change How Investors See the Stock (Yahoo Finance) https://news.google.com/rss/articles/CBMingFBVV95cUxNVzNZSWJhdVRsNmItSUIxVWotNTZnYzlsM3RlRGlpM2VKaHNVR3lqU0ZXWWtMZklMUDU3OURqUHVpbDR1eldoZWVjeXZ1a1l4QjUtNGdOUHNvMjdxRWVtQ3ZkU2t6dV96cEUwRkhtTHlBMlk2d2I3VjFmWktUWnFwcUpzNXhKX2wyVXN3WUoxdFo3WHAzUFVRbGQ3VXN3UQ?oc=5
-· AMD 2 Reasons to Like AMD (and 1 Not So Much) (Yahoo Finance) https://news.google.com/rss/articles/CBMid0FVX3lxTFAwSDl0WVZFOVdlTjE0b0VjbmFpQnpMREpad0hIUU9VQWpvRE9NdUprYVM2WXZOM3lKeWtTSzBOTVZpX2RaX0hTaTRqTkdDaVJSYUJ4bVZ5bnF3MXFZUHhKRmxhWDBiUTlfUlBCdWUwSUgzN2VoRFE0?oc=5
-· JPM JPMorgan earnings preview: what to watch when JPM reports Tuesday (Investing.com) https://news.google.com/rss/articles/CBMixAFBVV95cUxONHVkZ1FTeG9TbDRHSHMwVkxYWnhTYnlFTUVhSVZpX1dzdUI4OWZvNXM3MjU3SW5NTDZVQmtxNGNObGRwb25Zb1A2ek9Yc05lXzdqTk5RMW1MQUxaQVNFMEdLeGVZTEFXU0NHQk0yM1RXMVN4aFZldVBzRXpaZldLaDRQemZQXzE5eEJPSlpTVTIyaWx3OGZGV1FhR3NuWUd5VmdJazM4SGJIVFNfNTZyNG53SV93TERiYS11Y192eVVDUjJB?oc=5
-· LITE Lumentum being sold out through 2029 is 'bullish' for suppliers, foundries: Wedbush (LITE:NASDAQ) (Seeking Alpha) https://seekingalpha.com/news/4652028-lumentum-being-sold-out-through-2029-is-bullish-for-suppliers-foundries-wedbush
-· NVDA Adding Nvidia During The Current Uncertainty is How Fortunes Are Made (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/adding-nvidia-during-current-uncertainty-111513084.html
-· BTC BMNR Stock Gains With Ethereum Outpacing Bitcoin After $84K Bounce Ahead Of CPI Report This Week (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:18cc24dd1094b:0-bmnr-stock-gains-with-ethereum-outpacing-bitcoin-after-84k-bounce-ahead-of-cpi-report-this-week/
-· BTC Current price of Bitcoin for Oct. 12, 2026 (Fortune) https://fortune.com/article/price-of-bitcoin-10-12-2026/
-· CVX ConocoPhillips, Chevron among eight energy stocks with A+ profitability grades (XLE:NYSEARCA) (Seeking Alpha) https://seekingalpha.com/news/4652010-conocophillips-chevron-among-eight-energy-stocks-with-a-profitability-grades
-· AVGO Broadcom CEO says many AI investors are gamblers (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/broadcom-ceo-says-many-ai-105524061.html
-· INTC Intel CEO Highlights Rapid Adoption of Chinese AI Models and Potential for Quantum Computing (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/intel-ceo-highlights-rapid-adoption-103525988.html
-· AVGO Broadcom CEO Sees Capital as Main Constraint on AI Growth Despite Easing Chip Shortages (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/broadcom-ceo-sees-capital-main-103425026.html
-· AVGO AM Markets Need to Know: Trump’s ratings slide, Broadcom flags AI costs, and more (SPX:) (Seeking Alpha) https://seekingalpha.com/news/4652007-am-markets-need-to-know-trumps-ratings-slide-broadcom-flags-ai-costs-and-more
-· BBDC4 Seu próximo gerente pode ser uma IA: veja como Bradesco e Santander estão se preparando e se os apps de banco vão acabar (Seu Dinheiro) https://www.seudinheiro.com/2026/empresas/seu-proximo-gerente-pode-ser-uma-ia-veja-como-bradesco-e-santander-estao-se-preparando-e-se-os-apps-de-banco-vao-acabar-miql/
-· LITE Lumentum, Astera Labs, and Corning to Demonstrate 1060 nm VCSEL-Based PCIe over Optics for AI Rack-Scale Connectivity at the 2026 OCP Global Summit (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/lumentum-astera-labs-corning-demonstrate-100000083.html
-· BRENT Wall Street oscila sem viés, com petróleo, Bolsas na Europa e Ásia em alta (UOL Economia) https://economia.uol.com.br/cotacoes/noticias/redacao/2026/10/12/petroleo-sobe-com-tensao-no-oriente-medio-e-bolsas-avancam.ghtm
-· BRENT OPEC cuts 2026 oil demand growth forecast to 400,000 bpd, sees pent-up demand in 2027 (Reuters) https://www.reuters.com/business/energy/opec-cuts-2026-oil-demand-growth-forecast-400000-bpd-sees-pent-up-demand-2027-2026-10-12/
-· BTC Spot Bitcoin and Ethereum ETFs bleed $1.22 billion in a single week (TradingView (Reuters)) https://www.tradingview.com/news/cryptobriefing:4e586bab8094b:0-spot-bitcoin-and-ethereum-etfs-bleed-1-22-billion-in-a-single-week/
-· AVGO Broadcom CEO says capital will be biggest constraint for AI development: report (AVGO:NASDAQ) (Seeking Alpha) https://seekingalpha.com/news/4651984-broadcom-ceo-says-capital-will-be-biggest-constraint-for-ai-development-report
