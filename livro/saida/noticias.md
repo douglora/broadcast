@@ -1,8 +1,22 @@
-NOTÍCIAS E FATOS · 13/10 10h33
+NOTÍCIAS E FATOS · 13/10 11h23
 
-Pernas: noticias ok 19 novas (18 consultas; descartadas: 413 veículo fora da lista, 29 sem ativo, 36 teto) · cvm ok 0 novos de 0 (0 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 17 novas (18 consultas; descartadas: 412 veículo fora da lista, 28 sem ativo, 2 teto) · cvm ok 1 novos de 1 (1 cias casadas) · sec ok 1 novos em 3 dias
 
-## SEC (8-K, 6-K, 10-Q, 10-K) (1)
+## FATOS RELEVANTES E COMUNICADOS (CVM) (1)
+
+[ATENÇÃO] E03 · ALUP4 · Comunicado ao Mercado: ALUP11; ALUP3; ALUP4), comunica aos seus acionistas e ao mercado em geral que, nos termos do artigo 12 da Resolução da Comissão de Valores Mobiliário…
+CVM · entregue 13/10/2026 09:21 · Aquisição/Alienação de Participação Acionária Relevante / Declaração de Aquisição de Participação Acionária Relevante
+Do documento:
+  – 3 Permanecemos à disposição para quaisquer esclarecimentos ou comentários adicionais que  julguem necessários quanto ao assunto.
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1576536
+Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; confirma ou nega o que circula
+Ativos: ALUP4
+Como falar: 'a Alupar publicou comunicado ao mercado sobre ALUP11; ALUP3; ALUP4), comunica aos seus acionistas e ao mercado em g…'
+Fonte: CVM 13/10
+id: E03-ALUP4-1576536-2026-10-13 · status: pendente · íntegra disponível
+
+
+## SEC (8-K, 6-K, 10-Q, 10-K) (2)
 
 [ATENÇÃO] E04 · JPM · 8-K: 2.02 resultado do trimestre
 SEC EDGAR · aceito 13/10 07h30 · 8-K
@@ -19,8 +33,56 @@ Como falar: 'a JPM protocolou 8-K na SEC (2.02 resultado do trimestre)'
 Fonte: SEC EDGAR 2026-10-13
 id: E04-JPM-26065582-2026-10-13 · status: entregue · íntegra disponível
 
+[INFO] E04 · JPM · 8-K: 7.01 Regulation FD
+SEC EDGAR · aceito 13/10 10h38 · 8-K
+Do documento:
+  – 20549   FORM 8-K   CURRENT REPORT   Pursuant to Section 13 or 15(d) of the Securities Exchange Act of 1934   Date of Report (date of earliest event reported): October 13, 2026   JPMorgan Chase & Co .
+  – (Exact name of registrant as specified in its charter)   Delaware 1-5805 13-2624428   (State or other jurisdiction of incorporation or organization) (Commission File Number) (I.R.S.
+  – ☐   Item 7.01 Regulation FD Disclosure   On October 13, 2026, JPMorgan Chase & Co. (“JPMorganChase” or the “Firm”) held an investor presentation to review 2026 third quarter earnings.
+  – Exhibit 99 is a copy of slides furnished for, and posted on the Firm’s website in connection with, the presentation.
+  – The slides are being furnished pursuant to Item 7.01, and the information contained therein shall not be deemed to be “filed” for purposes of Section 18 of the Securities Exchange Act of 1934, or otherwise subject to th…
+  – Furthermore, the information contained in Exhibit 99 shall not be deemed to be incorporated by reference into the filings of the Firm under the Securities Act of 1933.
+Link: https://www.sec.gov/Archives/edgar/data/19617/000162828026065616/jpm-20261013.htm
+Por que importa: documento da companhia na SEC
+Ativos: JPM
+Como falar: 'a JPM protocolou 8-K na SEC (7.01 Regulation FD)'
+Fonte: SEC EDGAR 2026-10-13
+id: E04-JPM-26065616-2026-10-13 · status: linha · íntegra disponível
 
-## NOTÍCIAS COM MATERIALIDADE (7)
+
+## NOTÍCIAS COM MATERIALIDADE (9)
+
+[ATENÇÃO] E05 · JPM · JPMorgan Raises Income Outlook As Bond Trading Slips
+Yahoo Finance · 13/10 10h00 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Tell us how you invest and we'll show you why it's our #1 pick.
+  – The great part of JPMorgan's third quarter results, per CEO Dimon, was "another quarter of strong results," and parts of it were.
+  – Stock traders had their best third quarter ever, up 49% to nearly $5 billion.
+  – Net interest income beat and got a raise, with the bank now penciling in about $106 billion for the year and about $107 billion for next year, both ahead of what analysts had.
+  – Investors heard that part loudest, and shares shook off an early drop to trade up 1%.
+  – JPMorgan raised its full-year expense forecast, set aside another $539 million for loans that might go bad, and cut back on buybacks.
+Link: https://finance.yahoo.com/markets/stocks/articles/jpmorgan-raises-income-outlook-bond-130037075.html
+Por que importa: oferta de acoes ou divida altera a base acionaria ou a alavancagem
+Ativos: JPM
+Como falar: 'saiu no Yahoo Finance: JPMorgan Raises Income Outlook As Bond Trading Slips; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 13/10 10h00
+id: E05-JPM-063587f913-2026-10-13 · status: pendente
+
+[ATENÇÃO] E05 · JPM · JPMorgan profit rises 6% but misses third-quarter forecasts
+Yahoo Finance · 13/10 09h58 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – JPMorgan Chase & Co (NYSE:JPM, XETRA:CMC), the US banking group, reported third-quarter net income of $15.3 billion, up 6% year on year, but missed analysts' forecasts for earnings and revenue.
+  – The bank earned $5.57 per share on reported revenue of $50.2 billion, below market expectations of $5.93 per share and $51.23 billion in revenue.
+  – A $658 million loss on investment securities reduced earnings per share by $0.18, while net income excluding the item reached $15.8 billion, or $5.75 per share.
+  – Managed revenue, which adjusts reported figures to help assess business performance, rose 8% to $50.9 billion, supported by stronger interest income and higher revenue across several operating divisions.
+  – Net interest income, the difference between interest earned and interest paid, increased 13% to $27.1 billion, reflecting higher deposit balances and growth in card and wholesale lending.
+  – Market revenue climbed 15% to $10.3 billion, driven by a 49% increase in equity trading, which offset a 4% decline in fixed-income markets revenue.
+Link: https://ca.finance.yahoo.com/news/jpmorgan-profit-rises-6-misses-125800789.html
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: JPM
+Como falar: 'saiu no Yahoo Finance: JPMorgan profit rises 6% but misses third-quarter forecasts; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 13/10 09h58
+id: E05-JPM-1b5d9d7eda-2026-10-13 · status: pendente
 
 [ATENÇÃO] E05 · JPM · Bank Earnings Q3 2026: Goldman +30% Beat, JPMorgan Misses Revenue
 Investing.com · 13/10 10h32 · fonte única · licença: manchete
@@ -29,7 +91,7 @@ Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; 
 Ativos: JPM
 Como falar: 'saiu no Investing.com: Bank Earnings Q3 2026: Goldman +30% Beat, JPMorgan Misses Revenue; confirmar o número no texto antes de repassar'
 Fonte: Investing.com 13/10 10h32
-id: E05-JPM-2fb970c16b-2026-10-13 · status: pendente
+id: E05-JPM-2fb970c16b-2026-10-13 · status: entregue
 
 [ATENÇÃO] E05 · JPM · Lucro do JPMorgan aumenta no 3º tri com banco de investimento e negociações
 CNN Brasil · 13/10 10h19 · fonte única · licença: resumo
@@ -41,7 +103,7 @@ Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; 
 Ativos: JPM
 Como falar: 'saiu no CNN Brasil: Lucro do JPMorgan aumenta no 3º tri com banco de investimento e negociações; confirmar o número no texto antes de repassar'
 Fonte: CNN Brasil 13/10 10h19
-id: E05-JPM-712df246df-2026-10-13 · status: pendente
+id: E05-JPM-712df246df-2026-10-13 · status: entregue
 
 [ATENÇÃO] E05 · JPM · Earnings Snapshot: JPMorgan Chase misses Q3 estimates, reports $2.7B credit costs amid $539M reserve build
 TradingView (Reuters) · 13/10 09h06 · fonte única · licença: manchete
@@ -50,7 +112,7 @@ Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; 
 Ativos: JPM
 Como falar: 'saiu no TradingView (Reuters): Earnings Snapshot: JPMorgan Chase misses Q3 estimates, reports $2.7B credit costs amid $5…; confirmar o número no texto antes de repassar'
 Fonte: TradingView (Reuters) 13/10 09h06
-id: E05-JPM-33387b5356-2026-10-13 · status: pendente
+id: E05-JPM-33387b5356-2026-10-13 · status: entregue
 
 [ATENÇÃO] E05 · USDBRL · Boletim Focus eleva projeção de inflação para 5,22% em 2026 e reduz câmbio
 InfoMoney · 13/10 08h46 · + Poder360, TradingView (Reuters) · licença: resumo
@@ -66,7 +128,7 @@ Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais
 Ativos: USDBRL · DI
 Como falar: 'saiu no InfoMoney: Boletim Focus eleva projeção de inflação para 5,22% em 2026 e reduz câmbio; confirmar o número no texto antes de repassar'
 Fonte: InfoMoney 13/10 08h46
-id: E05-USDBRL-d893268615-2026-10-13 · status: linha
+id: E05-USDBRL-d893268615-2026-10-13 · status: entregue
 
 [ATENÇÃO] E05 · CVX · Verizon or Chevron: I Can Only Pick One Dividend Stock for the Next 10 Years. Here’s Mine
 Yahoo Finance · 12/10 18h50 · fonte única · licença: resumo
@@ -110,8 +172,23 @@ Fonte: TradingView (Reuters) 12/10 11h41
 id: E05-PLTR-e002d7e14c-2026-10-12 · status: entregue
 
 
-## OUTRAS NOTÍCIAS (só manchete) (33)
+## OUTRAS NOTÍCIAS (só manchete) (48)
 
+· JPM JPMorgan, Wells Fargo, and Citi earnings show consumers holding up despite high rates (Yahoo Finance) https://finance.yahoo.com/markets/article/jpmorgan-wells-fargo-and-citi-earnings-show-consumers-holding-up-despite-high-rates-142123134.html
+· MMM 3M shares may move 4.6% on earnings release next week (Investing.com) https://www.investing.com/news/stock-market-news/3m-shares-may-move-46-on-earnings-release-next-week-93CH-4947091
+· TSLA Tesla Trades at 219x Earnings. Here’s Why I’m Not Buying the Bet on Its Future. (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/tesla-trades-219x-earnings-why-141545835.html
+· ITUB4 Magalu pode ganhar com crise das Casas Bahia, avalia Itaú BBA (UOL Economia) https://economia.uol.com.br/noticias/redacao/2026/10/13/magalu-pode-ganhar-com-crise-da-casas-bahia-avalia-itau-bba.amp.htm
+· JPM JPMorgan’s Financial Results Miss Wall Street Targets (TradingView (Reuters)) https://www.tradingview.com/news/baystreet:d10885272094b:0-jpmorgan-s-financial-results-miss-wall-street-targets/
+· JPM Bank stocks rise on JPMorgan, Goldman earnings as chip stocks fall: AlphaCheck (Yahoo Finance) https://finance.yahoo.com/markets/article/bank-stocks-rise-on-jpmorgan-goldman-earnings-as-chip-stocks-fall-alphacheck-135541160.html
+· USDBRL Ibovespa cai após subir mais de 8% em uma semana; dólar avança e passa dos R$ 5 (Exame) https://exame.com/invest/mercados/ibovespa-cai-apos-subir-mais-de-8-em-uma-semana-dolar-avanca-e-passa-dos-r-5/
+· JPM JPMorgan Chase Misses Third-Quarter Earnings Estimates as Fixed-Income Trading Revenue Declines (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/jpmorgan-chase-misses-third-quarter-123638678.html
+· JPM JPMorgan Chase & Co. (JPM) Reports Q3 Earnings: What Key Metrics Have to Say (Yahoo Finance) https://ca.finance.yahoo.com/news/jpmorgan-chase-co-jpm-reports-123004958.html
+· BRENT Decline in Russian Crude Output Slowed in September, OPEC Says (Bloomberg) https://www.bloomberg.com/news/articles/2026-10-13/decline-in-russian-crude-output-slowed-in-september-opec-says
+· META Meta Platforms, Inc. (META) is Attracting Investor Attention: Here is What You Should Know (Yahoo Finance) https://au.finance.yahoo.com/news/meta-platforms-inc-meta-attracting-120005034.html
+· BTC Current price of Bitcoin for Oct. 13, 2026 (Fortune) https://fortune.com/article/price-of-bitcoin-10-13-2026/
+· AVGO Broadcom CEO sees capital hurdle to AI growth, ’casino’ in AI investing By Reuters (Investing.com) https://www.investing.com/news/stock-market-news/broadcom-ceo-sees-capital-hurdle-to-ai-growth-casino-in-ai-investing-4945686
+· BTC Bitcoin rebounds above $83,000, decoupling from tumbling Korean stocks (CoinDesk) https://news.google.com/rss/articles/CBMi1gFBVV95cUxNendGRHJlLVlnV2t4aUVVQlo5WnFmOS1tS29KcWRia0QwZnNaOFEyTFVhcldVQ2E3VEdiYnpfVl93UU5QRlhzOXlHdDFuTjV1d1FIbmhOcmZNaVNGZHM1ZGh1WDhaN3BTOVlIaWdUS0c1MmtFeXdUOXdRdlp3S0ZWbXNlMU5FYlVRSWQ4OVBfOWsxbVNRZlJhMkNJckpCelJKUTVrZmstWHhJY2hHLXM2eTRwY3VBUjU2c0hGTlE5dnlyWDFVcGNPblBlU2xmVHNRN0NDdGtn?oc=5
+· MU Micron Stock Slips as China’s CXMT Threatens the AI Memory Boom (TradingView (Reuters)) https://news.google.com/rss/articles/CBMiwAFBVV95cUxNZktWcElQNlk3eW5DTlphYmRGS3N3a1c5VTl1ZkRJcWtfakhBNFk3VG83bFRlMzA5SHZpRTNtbXl3RG5KN0xrcDBGem9iMkowOGZXM3VnWVJvYnN2NGN0a1owbFBFQ0xENVdZcXpFU3dWVThpUTZueW5JX2l4NGlxcHlQZGJvWVVnWEdXY1BuWW8xRkJYaDFaaGlEVWh6UjA3RkdmalE0d2Ficl9kZ29MM0RHR3YtZjE3N29heTAzWFc?oc=5
 · BRENT Ibovespa cai 1% com petróleo e empate técnico entre Flávio e Lula; 5 coisas para saber antes de investir hoje (13) (Money Times) https://www.moneytimes.com.br/ibovespa-5-coisas-13-10-26-apsa/
 · JPM JPMorgan Third-Quarter Results Miss Street Views Amid Investment Securities Losses (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/jpmorgan-third-quarter-results-miss-132418349.html
 · MU Micron: My DCF And Valuation Multiple Analysis Confirm It Is Still Cheap (NASDAQ:MU) (Seeking Alpha) https://seekingalpha.com/article/4953760-micron-my-dcf-and-valuation-multiple-analysis-confirm-it-is-still-cheap
