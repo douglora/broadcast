@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 13/10 15h19
+NOTÍCIAS E FATOS · 13/10 15h22
 
-Pernas: noticias ok 6 novas (18 consultas; descartadas: 426 veículo fora da lista, 33 sem ativo, 0 teto) · cvm ok 0 novos de 0 (0 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 2 novas (18 consultas; descartadas: 427 veículo fora da lista, 32 sem ativo, 0 teto) · cvm ok 0 novos de 1 (1 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (1)
 
@@ -59,7 +59,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: GOOGL
 Como falar: 'saiu no TradingView (Reuters): Alphabet target bumped to $450 at BNP Paribas on TPU outlook; confirmar o número no texto antes de repassar'
 Fonte: TradingView (Reuters) 13/10 12h22
-id: E05-GOOGL-da6a57b629-2026-10-13 · status: pendente
+id: E05-GOOGL-da6a57b629-2026-10-13 · status: entregue
 
 [ATENÇÃO] E05 · TSLA · Goldman Says Tesla’s Robotaxi, Optimus Outlook Will Matter More Than Q3 Earnings. Here’s the Bar for Oct. 21
 TradingView (Reuters) · 13/10 09h41 · fonte única · licença: manchete
@@ -68,7 +68,7 @@ Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; 
 Ativos: TSLA
 Como falar: 'saiu no TradingView (Reuters): Goldman Says Tesla’s Robotaxi, Optimus Outlook Will Matter More Than Q3 Earnings. Here’s…; confirmar o número no texto antes de repassar'
 Fonte: TradingView (Reuters) 13/10 09h41
-id: E05-TSLA-dd440b399e-2026-10-13 · status: pendente
+id: E05-TSLA-dd440b399e-2026-10-13 · status: entregue
 
 [ATENÇÃO] E05 · JPM · Top Midday Stories: JPMorgan Shares Rise Despite Q3 Miss; J&J EPS Guidance Undershoots Estimates, Shares Fall
 Yahoo Finance · 13/10 13h00 · fonte única · licença: resumo
@@ -227,8 +227,10 @@ Fonte: TradingView (Reuters) 12/10 11h41
 id: E05-PLTR-e002d7e14c-2026-10-12 · status: entregue
 
 
-## OUTRAS NOTÍCIAS (só manchete) (95)
+## OUTRAS NOTÍCIAS (só manchete) (97)
 
+· ETH Interactive Brokers expands crypto services with Ethereum staking via Zerohash (The Block) https://www.theblock.co/news/ecosystems/2026-10-13-interactive-brokers-ethereum-staking-zerohash-418457
+· AXIA3 Axia Energia (AXIA7) Previsões, Preço-Alvo e Projeções de Analistas (ADVFN) https://br.advfn.com/bolsa-de-valores/bovespa/axia-energia-pnc-AXIA7/previsoes
 · BTC Super League buys its first Bitcoin for $83,041 ahead of Metaplanet deal (TradingView (Reuters)) https://www.tradingview.com/news/cryptobriefing:8b1d90ea4094b:0-super-league-buys-its-first-bitcoin-for-83-041-ahead-of-metaplanet-deal/
 · MU China’s CXMT and Broadcom’s CEO Rattle Chip Stocks: Which Fear Matters More for Micron? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/china-cxmt-broadcom-ceo-rattle-173756730.html
 · JPM Goldman and JPMorgan Earnings: Bank Bosses Are Too Optimistic About the AI Boom (Bloomberg) https://www.bloomberg.com/opinion/articles/2026-10-13/goldman-and-jpmorgan-earnings-bank-bosses-are-too-optimistic-about-the-ai-boom
@@ -287,6 +289,4 @@ id: E05-PLTR-e002d7e14c-2026-10-12 · status: entregue
 · JPM JPMorgan Chase & Co. (JPM) Reports Q3 Earnings: What Key Metrics Have to Say (Yahoo Finance) https://ca.finance.yahoo.com/news/jpmorgan-chase-co-jpm-reports-123004958.html
 · BRENT Decline in Russian Crude Output Slowed in September, OPEC Says (Bloomberg) https://www.bloomberg.com/news/articles/2026-10-13/decline-in-russian-crude-output-slowed-in-september-opec-says
 · META Meta Platforms, Inc. (META) is Attracting Investor Attention: Here is What You Should Know (Yahoo Finance) https://au.finance.yahoo.com/news/meta-platforms-inc-meta-attracting-120005034.html
-· BTC Current price of Bitcoin for Oct. 13, 2026 (Fortune) https://fortune.com/article/price-of-bitcoin-10-13-2026/
-· AVGO Broadcom CEO sees capital hurdle to AI growth, ’casino’ in AI investing By Reuters (Investing.com) https://www.investing.com/news/stock-market-news/broadcom-ceo-sees-capital-hurdle-to-ai-growth-casino-in-ai-investing-4945686
-· (+35 manchetes; lista completa em eventos/noticias.json)
+· (+37 manchetes; lista completa em eventos/noticias.json)
