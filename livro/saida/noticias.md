@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 13/10 12h21
+NOTÍCIAS E FATOS · 13/10 13h23
 
-Pernas: noticias ok 15 novas (18 consultas; descartadas: 410 veículo fora da lista, 30 sem ativo, 5 teto) · cvm ok 0 novos de 1 (1 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 14 novas (18 consultas; descartadas: 429 veículo fora da lista, 29 sem ativo, 1 teto) · cvm ok 0 novos de 0 (0 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (1)
 
@@ -50,7 +50,19 @@ Fonte: SEC EDGAR 2026-10-13
 id: E04-JPM-26065616-2026-10-13 · status: linha · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (11)
+## NOTÍCIAS COM MATERIALIDADE (12)
+
+[ATENÇÃO] E05 · JPM · Top Midday Stories: JPMorgan Shares Rise Despite Q3 Miss; J&J EPS Guidance Undershoots Estimates, Shares Fall
+Yahoo Finance · 13/10 13h00 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – All three major US stock indexes were down in late-morning trading Tuesday, as the big banks kicked  Upgrade to read this MT Newswires article and get so much more.
+  – A Silver or Gold subscription plan is required to access premium news articles.
+Link: https://ca.finance.yahoo.com/news/top-midday-stories-jpmorgan-shares-160059935.html
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: JPM
+Como falar: 'saiu no Yahoo Finance: Top Midday Stories: JPMorgan Shares Rise Despite Q3 Miss; J&J EPS Guidance Undershoots Es…; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 13/10 13h00
+id: E05-JPM-1457ddf058-2026-10-13 · status: pendente
 
 [ATENÇÃO] E05 · JPM · JPMorgan Misses Q3 Estimates, but Dimon’s Buyback Cut Is the Bigger Story
 Yahoo Finance · 13/10 11h11 · fonte única · licença: resumo
@@ -66,7 +78,7 @@ Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir
 Ativos: JPM
 Como falar: 'saiu no Yahoo Finance: JPMorgan Misses Q3 Estimates, but Dimon’s Buyback Cut Is the Bigger Story; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 13/10 11h11
-id: E05-JPM-d9701b283b-2026-10-13 · status: pendente
+id: E05-JPM-d9701b283b-2026-10-13 · status: entregue
 
 [ATENÇÃO] E05 · JPM · Earnings call transcript: JPMorgan Chase misses Q3 2026 forecasts as profits stay strong
 Investing.com · 13/10 10h46 · fonte única · licença: manchete
@@ -75,7 +87,7 @@ Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; 
 Ativos: JPM
 Como falar: 'saiu no Investing.com: Earnings call transcript: JPMorgan Chase misses Q3 2026 forecasts as profits stay strong; confirmar o número no texto antes de repassar'
 Fonte: Investing.com 13/10 10h46
-id: E05-JPM-8215985427-2026-10-13 · status: pendente
+id: E05-JPM-8215985427-2026-10-13 · status: entregue
 
 [ATENÇÃO] E05 · JPM · JPMorgan Raises Income Outlook As Bond Trading Slips
 Yahoo Finance · 13/10 10h00 · fonte única · licença: resumo
@@ -197,8 +209,21 @@ Fonte: TradingView (Reuters) 12/10 11h41
 id: E05-PLTR-e002d7e14c-2026-10-12 · status: entregue
 
 
-## OUTRAS NOTÍCIAS (só manchete) (61)
+## OUTRAS NOTÍCIAS (só manchete) (74)
 
+· MRVL Marvell Technology Just Gave Its Investors Great News (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/marvell-technology-just-gave-investors-162002687.html
+· JPM JPMorgan’s Lisa Gill on UnitedHealth earnings: The stock slide has nothing to do with the results (CNBC) https://www.cnbc.com/video/2026/10/13/jpmorganas-lisa-gill-on-unitedhealth-earnings-the-stock-slide-has-nothing-to-do-with-the-results.html
+· UST B3 lança quatro contratos futuros de Treasuries para negociação em reais (InfoMoney) https://www.infomoney.com.br/mercados/b3-lanca-quatro-contratos-futuros-de-treasuries-para-negociacao-em-reais/
+· MRVL Marvell, Microsoft and Oracle Join Forces to Secure AI Data Center Boom (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:df898ac56094b:0-marvell-microsoft-and-oracle-join-forces-to-secure-ai-data-center-boom/
+· JPM JPMorgan, Goldman, Citigroup, Wells Fargo post Q3 profits but warn about higher rates and inflation (Fortune) https://fortune.com/2026/10/13/jpmorgan-goldman-sachs-citigroup-wells-fargo-interest-inflation/
+· UST Cash Is King Again? Record Money Market Inflows Put These Treasury ETFs on the Radar (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:8fcc95dec094b:0-cash-is-king-again-record-money-market-inflows-put-these-treasury-etfs-on-the-radar/
+· MU Micron Stock Extends Multi-Day Losing Streak: What's Going On? (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:b742bd2fb094b:0-micron-stock-extends-multi-day-losing-streak-what-s-going-on/
+· NVDA Nvidia (NVDA) Was Among Claude AI’s Top Picks This Year. Can The Stock Keep Rising? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/nvidia-nvda-among-claude-ai-133927424.html
+· GOOGL ALPHABET INC. (GOOG, GOOGL) SHAREHOLDER ALERT Bernstein (GlobeNewswire) https://www.globenewswire.com/news-release/2026/10/13/3379813/0/en/alphabet-inc-goog-googl-shareholder-alert-bernstein-liebhard-llp-reminds-alphabet-inc-investors-of-upcoming-deadline.html
+· KO Is Coca-Cola (KO) Stock Outpacing Its Consumer Staples Peers This Year? (Yahoo Finance) https://sg.finance.yahoo.com/news/coca-cola-ko-stock-outpacing-124002572.html
+· USDBRL Dólar sobe acima de R$ 5 e Bolsa recua com cenário eleitoral no radar (UOL Economia) https://economia.uol.com.br/cotacoes/noticias/redacao/2026/10/13/dolar-e-bolsa-13-de-outubro-de-2026.ghtm
+· BRENT Dólar opera em alta, com foco em preços do petróleo e novas pesquisas eleitorais no Brasil; Ibovespa cai (g1) https://g1.globo.com/economia/noticia/2026/10/13/dolar-ibovespa.ghtml
+· JPM JPMorgan Posts Surprise Drop in Fixed-Income Trading Revenue (Bloomberg) https://news.google.com/rss/articles/CBMiswFBVV95cUxOZnR2c2ZFTjlZZzIxWURnTG1xUzFMRWh4RjRoOVdreDNzUjc4aGZ4cVlnUHkyOXFVcTI2XzUzWW83VEdPenlNaTNUMUk0bzctbXZ3WjlvdzBZNHhyUlNmWEYxekppcDZFNS1YWE1hNjZSTGRzXzBnQW9HaE42RTVEcjRMMjZpT2FLUmQtUkt6TmV3alVXNFFHYjJEQnVzYXlBNFlDVkxxdDU4Um9BQzg5Q01rRQ?oc=5
 · MRVL Marvell: A Strong Buy With A $90 Billion Opportunity (NASDAQ:MRVL) (Seeking Alpha) https://seekingalpha.com/article/4953811-marvell-a-strong-buy-with-a-90-billion-opportunity
 · DI BTG aponta empresas da Bolsa que mais podem ganhar com queda da Selic (UOL Economia) https://economia.uol.com.br/noticias/redacao/2026/10/13/btg-aponta-empresas-da-bolsa-que-mais-podem-ganhar-com-queda-da-selic.ghtm
 · CVX How Has Chevron's Story Changed? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/chevrons-story-changed-143601990.html
@@ -246,17 +271,4 @@ id: E05-PLTR-e002d7e14c-2026-10-12 · status: entregue
 · BTC Bitcoin’s ‘V-Shape Recovery’ Is Being Led By Spot Buyers As Leveraged Traders And ETF Investors Hold Back (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:ce236e86c094b:0-bitcoin-s-v-shape-recovery-is-being-led-by-spot-buyers-as-leveraged-traders-and-etf-investors-hold-back/
 · BTC BTC, ETH prices slip and rebound as Kospi index slides on AI-related concerns: Crypto Markets Today (CoinDesk) https://www.coindesk.com/markets/2026/10/13/bitcoin-ether-slip-and-rebound-as-south-korean-stocks-slide-on-ai-related-concerns
 · JPM JPMorgan hit by slowdown in investment banking momentum, shares slip (Reuters) https://www.reuters.com/business/finance/jpmorgans-profit-rises-investment-banking-trading-strength-2026-10-13/
-· TSM Taiwan Semiconductor Manufacturing Company Limited expected to post earnings of $4.50 a share - Earnings Preview (TradingView (Reuters)) https://www.tradingview.com/news/reuters.com,2026:newsml_L8N45Z0ZE:0-taiwan-semiconductor-manufacturing-company-limited-expected-to-post-earnings-of-4-50-a-share-earnings-preview/
-· JPM JPMorgan profits rise as Jamie Dimon warns economic forces 'shift under the surface' (Yahoo Finance) https://finance.yahoo.com/markets/article/jpmorgan-profits-rise-as-jamie-dimon-warns-economic-forces-shift-under-the-surface-105617805.html
-· JPM JPMorgan stock recovers after Q3 earnings disappoint as markets soften (JPM:NYSE) (Seeking Alpha) https://seekingalpha.com/news/4652368-jpmorgan-stock-recovers-after-q3-earnings-disappoint-as-markets-soften
-· JPM As small e midcaps brasileiras para ficar de olho, segundo o JPMorgan (Money Times) https://www.moneytimes.com.br/as-small-e-midcaps-brasileiras-para-ficar-de-olho-segundo-o-jpmorgan-apsa/
-· TESOURO Agenda do dia: Leilão do Tesouro e discursos de dirigentes do Fed são destaque (Valor Economico) https://valor.globo.com/financas/noticia/2026/10/13/agenda-do-dia-leilao-do-tesouro-e-discursos-de-dirigentes-do-fed-sao-destaque.ghtml
-· BRENT Dow Jones hoje avança enquanto petróleo e dólar recuam; balanços de bancos são destaque (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/dow-jones-hoje-avanca-enquanto-petroleo-e-dolar-recuam-balancos-de-bancos-sao-destaque/
-· JPM JPMorgan Reports Surprise Drop in Fixed-Income Trading Revenue (Bloomberg) https://www.bloomberg.com/news/articles/2026-10-13/jpmorgan-reports-surprise-drop-in-fixed-income-trading-revenue
-· JPM JPMorgan earnings missed by $0.18, revenue fell short of estimates (Investing.com) https://www.investing.com/news/earnings/jpmorgan-earnings-missed-by-018-revenue-fell-short-of-estimates-4946097
-· UST Fed's Waller Says Higher Treasury Yields Are 'Doing A Little Bit Of The Work' Of Tighter Monetary Policy (TradingView (Reuters)) https://news.google.com/rss/articles/CBMi9gFBVV95cUxPOGc5MzRvWjdQV2NXTWd3aVJPdG1DcVpTbDJZazBCaWhsVEJ1bV9sakM5ZjZvRFVuV0lEcGdUS3I5ODJsZGZnQzRqSEJkUHJvUDdyZDhvbXI0NE16bnBHd3ZrbnR0blg1eEpBUUZ5aDZ4bWJSVnEtZXVYLTd1eV9yNnFvRnJuQkw3andVQlgtQmlRSjByTmdlY2U0MEZXZUpOM0JVdTY2VGhCR25tcXNsTHZSTUxvSlZFVVppbkU3S2xud3k0blBINHNMbmtUbGNvVDJ4NnNDX3YtWDljTlc0Rk92bjFRcHhZWGQ4ZTZnaENEVlU3V2c?oc=5
-· JPM JPMorgan Chase reports 3Q26 net income $15.3B; managed revenue $50.9B, EPS $5.57 (TradingView (Reuters)) https://news.google.com/rss/articles/CBMi0wFBVV95cUxQZ3VnRUFWNXV3eW4zMkd5SFN6eHRDZ2R2c0RlaDlNbllJU1pVUGFSdlZxMU9sd2VCbmJ3cmhPZWNLYXZzLWFMcTY4NHFtNThxa0doSzZmVHRjTUVJelo1YWVwTlVzRjNhUlI5T08zRTFnN3Nwa3BsQjNJOW5VQ044QUxTTzFyU3hOUkNkRjMzcWhOZmxuXzVVY2NueW9HZDNUY2RpQ1hNamg1Ukw5QkFUTGVIUDdlZ3BIVVNfRjZQQUZTaVY5clEwaG1DM0ZadHYydFFN?oc=5
-· META S&P Hits All-Time Highs, AI Trade Does All The Work (undefined:META) (Seeking Alpha) https://news.google.com/rss/articles/CBMimwFBVV95cUxOWXlnWktKRDJzLThCNWpNYUpBc0R5Qnlub2ozYUdxZ0t0eWlCM0MtMlQxZEZ4Nm5WLWNFZVJ1SnJoLWpVZ3JmR2FLaWVIeHdsUG5lY0pJeGlfU211VDVHY0FJT1M1cXU1eUo2MGZQN3VRRzc2VFlhNmptVklVZVlRaTdfaGhfQmVUMVUxR0pEckVEQ0FTY2RUR01zZw?oc=5
-· AMD SNDK, MU, INTC, AMD, SKHY: Chip Stocks Extend Slide As AI Funding Concerns, China Competition Weigh On Sector (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:0ea217928094b:0-sndk-mu-intc-amd-skhy-chip-stocks-extend-slide-as-ai-funding-concerns-china-competition-weigh-on-sector/
-· GOOGL Alphabet President Ruth Porat on how Google is funding AI to win long term, and the biggest risks ahead (Fortune) https://fortune.com/2026/10/12/google-ruth-porat-ai-spending-risks/
-· (+1 manchetes; lista completa em eventos/noticias.json)
+· (+14 manchetes; lista completa em eventos/noticias.json)
