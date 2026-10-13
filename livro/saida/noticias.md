@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 13/10 16h21
+NOTÍCIAS E FATOS · 13/10 16h49
 
-Pernas: noticias ok 14 novas (18 consultas; descartadas: 435 veículo fora da lista, 33 sem ativo, 2 teto) · cvm ok 0 novos de 1 (1 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 7 novas (18 consultas; descartadas: 435 veículo fora da lista, 33 sem ativo, 0 teto) · cvm ok 0 novos de 0 (0 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (1)
 
@@ -50,7 +50,39 @@ Fonte: SEC EDGAR 2026-10-13
 id: E04-JPM-26065616-2026-10-13 · status: linha · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (14)
+## NOTÍCIAS COM MATERIALIDADE (16)
+
+[ATENÇÃO] E05 · ETH · Ethereum Needs to Double to Reach $4,946 Again. XRP Needs 2.6x to Hit $3.65. Which All-Time High Gets Broken First?
+Yahoo Finance · 13/10 16h21 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Quick Read - Ethereum trades 49% below its $4,946 all-time high, while XRP sits 63% below its $3.65 peak, needing a 2.6x gain to recover.
+  – - Ethereum ETFs hold $15.86 billion, which is 10 times XRP's base, but nine straight days of outflows signal fading institutional demand.
+  – - Ethereum reclaimed its 2018 high in roughly 3 years; XRP took over 7 years, giving ETH a stronger historical recovery track record.
+  – (Sponsor) Ethereum (CRYPTO:ETH) trades at $2,531, about 49% below its all-time high of $4,946 set in August 2025.
+  – Meanwhile, XRP (CRYPTO:XRP) stands at $1.36, roughly 63% below its peak of $3.65 recorded on July 17, 2025.
+  – CoinMarketCap shows XRP's peak at $3.84 on January 4, 2018, because it includes older exchanges that were busiest then.
+Link: https://finance.yahoo.com/markets/crypto/articles/ethereum-needs-double-reach-4-192154632.html
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: ETH
+Como falar: 'saiu no Yahoo Finance: Ethereum Needs to Double to Reach $4,946 Again. XRP Needs 2.6x to Hit $3.65. Which All-Ti…; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 13/10 16h21
+id: E05-ETH-15c4174252-2026-10-13 · status: pendente
+
+[ATENÇÃO] E05 · NVDA · Nvidia (NVDA) or Apple (AAPL): Which Is the Better Bet on Dan Ives’ $4 Trillion AI Wave?
+Yahoo Finance · 13/10 15h41 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – He named the five companies as his top tech picks for 2027, with all five carrying Outperform ratings.
+  – Dan Ives believes investors are underestimating a $4 trillion spending wave.
+  – See which 10 stocks made the list of companies that could change the world by 2030.
+  – Goldman Sachs estimates that AI-related capital investment could total $4 trillion to $8 trillion over the next five years.
+  – Ives describes Nvidia as the "foundational compute platform for the AI economy" and has a $300 price target on the stock.
+  – He expects AI to contribute to Apple's device upgrades and service growth, supporting a $400 price target for the stock.
+Link: https://finance.yahoo.com/technology/ai/articles/nvidia-nvda-apple-aapl-better-184129502.html
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: NVDA
+Como falar: 'saiu no Yahoo Finance: Nvidia (NVDA) or Apple (AAPL): Which Is the Better Bet on Dan Ives’ $4 Trillion AI Wave?; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 13/10 15h41
+id: E05-NVDA-4b0cfcf7a8-2026-10-13 · status: pendente
 
 [ATENÇÃO] E05 · GOOGL · Alphabet target bumped to $450 at BNP Paribas on TPU outlook
 TradingView (Reuters) · 13/10 12h22 · fonte única · licença: manchete
@@ -227,8 +259,13 @@ Fonte: TradingView (Reuters) 12/10 11h41
 id: E05-PLTR-e002d7e14c-2026-10-12 · status: entregue
 
 
-## OUTRAS NOTÍCIAS (só manchete) (111)
+## OUTRAS NOTÍCIAS (só manchete) (116)
 
+· DI Selic mais baixa à vista? BTG avalia quem ganha com a queda dos juros (Money Times) https://www.moneytimes.com.br/selic-mais-baixa-a-vista-btg-avalia-quem-ganha-com-a-queda-dos-juros/
+· LITE Applied Optoelectronics Is Up 175% in 2026 and Lumentum Is Up 164%: Take Profits, or Hold On for the Ride? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/applied-optoelectronics-175-2026-lumentum-191047976.html
+· TSM TSMC: Strong Buy As AI Demand Keeps Surprising (NYSE:TSM) (Seeking Alpha) https://seekingalpha.com/article/4953868-tsmc-strong-buy-as-ai-demand-keeps-surprising
+· JPM JPMorgan Chase & Co. Q3 2026 Earnings Call Summary (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/jpmorgan-chase-co-q3-2026-164819845.html
+· AMZN LocalStack Adds Support for AWS Lambda Web Functions in Local AWS Sandbox Environments (Yahoo Finance) https://finance.yahoo.com/technology/articles/localstack-adds-support-aws-lambda-153500704.html
 · ITUB4 Compre Copasa (CSMG3), BB Seguridade (BBSE3) e outras 5 ações para ganhar mais de 8% nesta semana, segundo Itaú BBA (Money Times) https://www.moneytimes.com.br/day-trade-itau-bba-13-10-26-apsa/
 · BTC Bitcoin ETFs Lost $65 Million In A Day. One BlackRock Fund Accounted For Every Dollar. (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-etfs-lost-65-million-190200401.html
 · UST Treasury, Eurozone Yields Decline as Markets Look to U.S. Inflation Data (The Wall Street Journal) https://www.wsj.com/economy/central-banking/treasury-eurozone-yields-fall-as-markets-look-to-u-s-inflation-data-412d95a4
@@ -284,9 +321,4 @@ id: E05-PLTR-e002d7e14c-2026-10-12 · status: entregue
 · CVX How Has Chevron's Story Changed? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/chevrons-story-changed-143601990.html
 · MMM 3M shares may move 4.6% on earnings release next week By Investing.com (Investing.com) https://za.investing.com/news/stock-market-news/3m-shares-may-move-46-on-earnings-release-next-week-93CH-4502475
 · JPM JPMorgan CEO Jamie Dimon has his eye on global deficits: Bank earnings takeaways (Yahoo Finance) https://finance.yahoo.com/video/jpmorgan-ceo-jamie-dimon-has-his-eye-on-global-deficits-bank-earnings-takeaways-141725999.html
-· JPM JPMorgan profit misses estimates as fixed-income trading revenue disappoints (Investing.com) https://www.investing.com/news/earnings/jpmorgan-shares-edge-lower-after-thirdquarter-ficc-revenue-miss-4946116
-· MU The Third Player: YMTC Overtakes Micron in Global NAND Shipment Volumes (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:870db9749094b:0-the-third-player-ymtc-overtakes-micron-in-global-nand-shipment-volumes/
-· MRVL Marvell, Microsoft and Oracle Establish OCP Working Group to Standardize Data Center Hardware Security (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/marvell-microsoft-oracle-establish-ocp-130000416.html
-· JPM JPMorgan misses Wall Street's Q3 earnings and revenue estimates (Yahoo Finance) https://finance.yahoo.com/video/jpmorgan-misses-wall-streets-q3-earnings-and-revenue-estimates-125850488.html
-· TSLA Tesla Gears Up to Report Q3 Earnings: Here's What to Expect (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/tesla-gears-report-q3-earnings-125800623.html
-· (+51 manchetes; lista completa em eventos/noticias.json)
+· (+56 manchetes; lista completa em eventos/noticias.json)
