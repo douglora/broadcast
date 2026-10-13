@@ -1,8 +1,8 @@
-NOTÍCIAS E FATOS · 13/10 16h49
+NOTÍCIAS E FATOS · 13/10 17h22
 
-Pernas: noticias ok 7 novas (18 consultas; descartadas: 435 veículo fora da lista, 33 sem ativo, 0 teto) · cvm ok 0 novos de 0 (0 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 4 novas (18 consultas; descartadas: 443 veículo fora da lista, 32 sem ativo, 0 teto) · cvm ok 1 novos de 2 (2 cias casadas) · sec ok 0 novos em 3 dias
 
-## FATOS RELEVANTES E COMUNICADOS (CVM) (1)
+## FATOS RELEVANTES E COMUNICADOS (CVM) (2)
 
 [ATENÇÃO] E03 · ALUP4 · Comunicado ao Mercado: ALUP11; ALUP3; ALUP4), comunica aos seus acionistas e ao mercado em geral que, nos termos do artigo 12 da Resolução da Comissão de Valores Mobiliário…
 CVM · entregue 13/10/2026 09:21 · Aquisição/Alienação de Participação Acionária Relevante / Declaração de Aquisição de Participação Acionária Relevante
@@ -14,6 +14,15 @@ Ativos: ALUP4
 Como falar: 'a Alupar publicou comunicado ao mercado sobre ALUP11; ALUP3; ALUP4), comunica aos seus acionistas e ao mercado em g…'
 Fonte: CVM 13/10
 id: E03-ALUP4-1576536-2026-10-13 · status: entregue · íntegra disponível
+
+[INFO] E03 · AXIA3 · Aviso aos Acionistas: Outros avisos
+CVM · entregue 13/10/2026 17:02 · Outros avisos
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1576749
+Por que importa: aviso aos acionistas traz provento, data-com ou evento societario que muda o fluxo ao acionista
+Ativos: AXIA3
+Como falar: 'a Axia Energia publicou aviso aos acionistas sobre Outros avisos'
+Fonte: CVM 13/10
+id: E03-AXIA3-1576749-2026-10-13 · status: linha
 
 
 ## SEC (8-K, 6-K, 10-Q, 10-K) (2)
@@ -50,7 +59,23 @@ Fonte: SEC EDGAR 2026-10-13
 id: E04-JPM-26065616-2026-10-13 · status: linha · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (16)
+## NOTÍCIAS COM MATERIALIDADE (17)
+
+[ATENÇÃO] E05 · JPM · Prediction: JPMorgan Chase Raises Its Dividend Again in 2027
+Yahoo Finance · 13/10 16h50 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – CEO Jamie Dimon often used that phrase to describe the company during the Global financial crisis of 2008-2009, when JPMorgan Chase stood strong amid the financial meltdown that brought down major banks and businesses.
+  – Most investors think they missed the AI boat because they didn't buy Nvidia in 2005.
+  – But according to our analysts, we're only at the end of "Act 1"—the R&D phase.
+  – "Act 2" is the global rollout.
+  – Continue » In Dimon's 2007 letter to shareholders, he wrote, "We operate in risky businesses, and having a fortress balance sheet is a strategic imperative, not a philosophical bent.
+  – 16 years of dividend raises JPMorgan Chase has increased its annual dividend every year since the end of the Global financial crisis, including this year, its 16th in a row.
+Link: https://finance.yahoo.com/markets/stocks/articles/prediction-jpmorgan-chase-raises-dividend-195000107.html
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: JPM
+Como falar: 'saiu no Yahoo Finance: Prediction: JPMorgan Chase Raises Its Dividend Again in 2027; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 13/10 16h50
+id: E05-JPM-6eaef5df92-2026-10-13 · status: pendente
 
 [ATENÇÃO] E05 · ETH · Ethereum Needs to Double to Reach $4,946 Again. XRP Needs 2.6x to Hit $3.65. Which All-Time High Gets Broken First?
 Yahoo Finance · 13/10 16h21 · fonte única · licença: resumo
@@ -259,8 +284,11 @@ Fonte: TradingView (Reuters) 12/10 11h41
 id: E05-PLTR-e002d7e14c-2026-10-12 · status: entregue
 
 
-## OUTRAS NOTÍCIAS (só manchete) (116)
+## OUTRAS NOTÍCIAS (só manchete) (119)
 
+· PLTR Palantir: Keep Buying More As Consensus Still Underestimates It (NASDAQ:PLTR) (Seeking Alpha) https://seekingalpha.com/article/4953904-palantir-keep-buying-more-as-consensus-still-underestimates-it
+· USDBRL Dólar sobe a R$ 5,02 com cautela de investidores após pesquisas eleitorais (Money Times) https://www.moneytimes.com.br/dolar-13-10-26-apsa/
+· USDBRL Tempo real: Ibovespa cai 1% com disputa acirrada entre Flávio e Lula; dólar sobe a R$ 5,02 (Money Times) https://www.moneytimes.com.br/tempo-real-13-10-26-apsa-lils/
 · DI Selic mais baixa à vista? BTG avalia quem ganha com a queda dos juros (Money Times) https://www.moneytimes.com.br/selic-mais-baixa-a-vista-btg-avalia-quem-ganha-com-a-queda-dos-juros/
 · LITE Applied Optoelectronics Is Up 175% in 2026 and Lumentum Is Up 164%: Take Profits, or Hold On for the Ride? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/applied-optoelectronics-175-2026-lumentum-191047976.html
 · TSM TSMC: Strong Buy As AI Demand Keeps Surprising (NYSE:TSM) (Seeking Alpha) https://seekingalpha.com/article/4953868-tsmc-strong-buy-as-ai-demand-keeps-surprising
@@ -318,7 +346,4 @@ id: E05-PLTR-e002d7e14c-2026-10-12 · status: entregue
 · JPM JPMorgan Posts Surprise Drop in Fixed-Income Trading Revenue (Bloomberg) https://news.google.com/rss/articles/CBMiswFBVV95cUxOZnR2c2ZFTjlZZzIxWURnTG1xUzFMRWh4RjRoOVdreDNzUjc4aGZ4cVlnUHkyOXFVcTI2XzUzWW83VEdPenlNaTNUMUk0bzctbXZ3WjlvdzBZNHhyUlNmWEYxekppcDZFNS1YWE1hNjZSTGRzXzBnQW9HaE42RTVEcjRMMjZpT2FLUmQtUkt6TmV3alVXNFFHYjJEQnVzYXlBNFlDVkxxdDU4Um9BQzg5Q01rRQ?oc=5
 · MRVL Marvell: A Strong Buy With A $90 Billion Opportunity (NASDAQ:MRVL) (Seeking Alpha) https://seekingalpha.com/article/4953811-marvell-a-strong-buy-with-a-90-billion-opportunity
 · DI BTG aponta empresas da Bolsa que mais podem ganhar com queda da Selic (UOL Economia) https://economia.uol.com.br/noticias/redacao/2026/10/13/btg-aponta-empresas-da-bolsa-que-mais-podem-ganhar-com-queda-da-selic.ghtm
-· CVX How Has Chevron's Story Changed? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/chevrons-story-changed-143601990.html
-· MMM 3M shares may move 4.6% on earnings release next week By Investing.com (Investing.com) https://za.investing.com/news/stock-market-news/3m-shares-may-move-46-on-earnings-release-next-week-93CH-4502475
-· JPM JPMorgan CEO Jamie Dimon has his eye on global deficits: Bank earnings takeaways (Yahoo Finance) https://finance.yahoo.com/video/jpmorgan-ceo-jamie-dimon-has-his-eye-on-global-deficits-bank-earnings-takeaways-141725999.html
-· (+56 manchetes; lista completa em eventos/noticias.json)
+· (+59 manchetes; lista completa em eventos/noticias.json)

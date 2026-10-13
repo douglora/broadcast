@@ -1,6 +1,6 @@
 ALERTAS · intradia
 
-[ATENÇÃO] E05 · ETH · Ethereum Needs to Double to Reach $4,946 Again. XRP Needs 2.6x to Hit $3.65. Which All-Time High Gets Broken First?
+(pendente de slot anterior) [ATENÇÃO] E05 · ETH · Ethereum Needs to Double to Reach $4,946 Again. XRP Needs 2.6x to Hit $3.65. Which All-Time High Gets Broken First?
 Yahoo Finance · 13/10 16h21 · fonte única · licença: resumo
 Trechos (licença resumo: reescrever, não colar):
   – Quick Read - Ethereum trades 49% below its $4,946 all-time high, while XRP sits 63% below its $3.65 peak, needing a 2.6x gain to recover.
@@ -14,10 +14,9 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: ETH
 Como falar: 'saiu no Yahoo Finance: Ethereum Needs to Double to Reach $4,946 Again. XRP Needs 2.6x to Hit $3.65. Which All-Ti…; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 13/10 16h21
-Push: intradia: 2 alertas de atenção — E05 ETH, E05 NVDA · detalhe na sessão
 ids: E05-ETH-15c4174252-2026-10-13
 
-[ATENÇÃO] E05 · NVDA · Nvidia (NVDA) or Apple (AAPL): Which Is the Better Bet on Dan Ives’ $4 Trillion AI Wave?
+(pendente de slot anterior) [ATENÇÃO] E05 · NVDA · Nvidia (NVDA) or Apple (AAPL): Which Is the Better Bet on Dan Ives’ $4 Trillion AI Wave?
 Yahoo Finance · 13/10 15h41 · fonte única · licença: resumo
 Trechos (licença resumo: reescrever, não colar):
   – He named the five companies as his top tech picks for 2027, with all five carrying Outperform ratings.
@@ -33,15 +32,32 @@ Como falar: 'saiu no Yahoo Finance: Nvidia (NVDA) or Apple (AAPL): Which Is the 
 Fonte: Yahoo Finance 13/10 15h41
 ids: E05-NVDA-4b0cfcf7a8-2026-10-13
 
+[ATENÇÃO] E05 · JPM · Prediction: JPMorgan Chase Raises Its Dividend Again in 2027
+Yahoo Finance · 13/10 16h50 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – CEO Jamie Dimon often used that phrase to describe the company during the Global financial crisis of 2008-2009, when JPMorgan Chase stood strong amid the financial meltdown that brought down major banks and businesses.
+  – Most investors think they missed the AI boat because they didn't buy Nvidia in 2005.
+  – But according to our analysts, we're only at the end of "Act 1"—the R&D phase.
+  – "Act 2" is the global rollout.
+  – Continue » In Dimon's 2007 letter to shareholders, he wrote, "We operate in risky businesses, and having a fortress balance sheet is a strategic imperative, not a philosophical bent.
+  – 16 years of dividend raises JPMorgan Chase has increased its annual dividend every year since the end of the Global financial crisis, including this year, its 16th in a row.
+Link: https://finance.yahoo.com/markets/stocks/articles/prediction-jpmorgan-chase-raises-dividend-195000107.html
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: JPM
+Como falar: 'saiu no Yahoo Finance: Prediction: JPMorgan Chase Raises Its Dividend Again in 2027; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 13/10 16h50
+Push: [ATENÇÃO] JPM · Prediction · detalhe na sessão
+ids: E05-JPM-6eaef5df92-2026-10-13
+
 Info (só linha no Fechamento):
-· E05 DI · Selic mais baixa à vista? BTG avalia quem ganha com a queda dos juros
-· E05 LITE · Applied Optoelectronics Is Up 175% in 2026 and Lumentum Is Up 164%: Take Profits, or Hold On for the Ride?
-· E05 TSM · TSMC: Strong Buy As AI Demand Keeps Surprising (NYSE:TSM)
-· E05 JPM · JPMorgan Chase & Co. Q3 2026 Earnings Call Summary
-· E05 AMZN · LocalStack Adds Support for AWS Lambda Web Functions in Local AWS Sandbox Environments
+· E03 AXIA3 · Aviso aos Acionistas: Outros avisos
+· E05 PLTR · Palantir: Keep Buying More As Consensus Still Underestimates It (NASDAQ:PLTR)
+· E05 USDBRL · Dólar sobe a R$ 5,02 com cautela de investidores após pesquisas eleitorais
+· E05 USDBRL · Tempo real: Ibovespa cai 1% com disputa acirrada entre Flávio e Lula; dólar sobe a R$ 5,02
 
 
 Alertas do dia (todos, com status):
+· pendente  E05 JPM — JPM · Prediction: JPMorgan Chase Raises Its Dividend Again in 2027
 · pendente  E05 ETH — ETH · Ethereum Needs to Double to Reach $4,946 Again. XRP Needs 2.6x to Hit $3.6
 · pendente  E05 NVDA — NVDA · Nvidia (NVDA) or Apple (AAPL): Which Is the Better Bet on Dan Ives’ $4 Tr
 · entregue  E05 GOOGL — GOOGL · Alphabet target bumped to $450 at BNP Paribas on TPU outlook
@@ -61,6 +77,6 @@ Alertas do dia (todos, com status):
 · entregue  E05 TSLA — TSLA · Jefferies raises Tesla price target as resilient deliveries support autom
 · entregue  E05 PLTR — PLTR · Palantir Stock Hits New Record High, Wipes Out Its Nearly 50% Drawdown
 · entregue  S01 SISTEMA — coleta do slot manha saiu incompleta: bcb: BCB devolveu 4 de 5 séries (faltaram 
-· linha     F01 USDBRL — Real cai: USD/BRL 5,0214 (cruzou R$ 5,00) (parcial, intradia)
-· (+122 notícias só manchete, em noticias.md)
+· linha     F01 USDBRL — Real cai: USD/BRL 5,0218 (cruzou R$ 5,00) (parcial, intradia)
+· (+126 notícias só manchete, em noticias.md)
 
