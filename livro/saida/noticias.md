@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 13/10 15h22
+NOTÍCIAS E FATOS · 13/10 16h21
 
-Pernas: noticias ok 2 novas (18 consultas; descartadas: 427 veículo fora da lista, 32 sem ativo, 0 teto) · cvm ok 0 novos de 1 (1 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 14 novas (18 consultas; descartadas: 435 veículo fora da lista, 33 sem ativo, 2 teto) · cvm ok 0 novos de 1 (1 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (1)
 
@@ -227,8 +227,22 @@ Fonte: TradingView (Reuters) 12/10 11h41
 id: E05-PLTR-e002d7e14c-2026-10-12 · status: entregue
 
 
-## OUTRAS NOTÍCIAS (só manchete) (97)
+## OUTRAS NOTÍCIAS (só manchete) (111)
 
+· ITUB4 Compre Copasa (CSMG3), BB Seguridade (BBSE3) e outras 5 ações para ganhar mais de 8% nesta semana, segundo Itaú BBA (Money Times) https://www.moneytimes.com.br/day-trade-itau-bba-13-10-26-apsa/
+· BTC Bitcoin ETFs Lost $65 Million In A Day. One BlackRock Fund Accounted For Every Dollar. (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-etfs-lost-65-million-190200401.html
+· UST Treasury, Eurozone Yields Decline as Markets Look to U.S. Inflation Data (The Wall Street Journal) https://www.wsj.com/economy/central-banking/treasury-eurozone-yields-fall-as-markets-look-to-u-s-inflation-data-412d95a4
+· JPM JPMorgan Chase blocks outside AI agents like Muse, Instinct from directly accessing accounts (CNBC) https://www.cnbc.com/2026/10/13/jpmorgan-ai-agents-account-access.html
+· AMD Fermi Stock Soars 20% on AMD Deal. Why Analysts See Hurdles Ahead. (Barron's) https://www.barrons.com/articles/fermi-advanced-micro-devices-stock-ai-6c2ca297
+· PETR4 Investidores estrangeiros: Petrobras lidera ranking da B3 (Suno Noticias) https://www.suno.com.br/noticias/investidores-estrangeiros-acoes-mais-negociadas-b3-mt/
+· JPM JPMorgan stock wavers after Q3 earnings disappoint as markets soften (JPM:NYSE) (Seeking Alpha) https://seekingalpha.com/news/4652368-jpmorgan-stock-wavers-after-q3-earnings-disappoint-as-markets-soften
+· ETH Ethereum Whales Go Long, Network Activity Grows: Why Isn't ETH Going Up? (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:22cd72792094b:0-ethereum-whales-go-long-network-activity-grows-why-isn-t-eth-going-up/
+· UST US Treasury yield peak still ahead as Fed likely to tighten again, PIMCO's Ivascyn says (Reuters) https://www.reuters.com/markets/us/us-treasury-yields-yet-peak-fed-may-tighten-further-pimcos-ivascyn-says-2026-10-13/
+· JPM JPMorgan CEO Dimon warns customers of ‘liability transfer’ with AI (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/jpmorgan-ceo-dimon-warns-customers-155929986.html
+· MMM 3M shares may move 4.6% on earnings release next week By Investing.com (Investing.com) https://ca.investing.com/news/stock-market-news/3m-shares-may-move-46-on-earnings-release-next-week-93CH-4878661
+· USDBRL Ibovespa recua com cenário eleitoral no radar; dólar sobe a R$ 5 (CNN Brasil) https://www.cnnbrasil.com.br/economia/money/mercado/mercado-financeiro-ibovespa-dolar-13-outubro-2026/
+· BTC Bitcoin, XRP, ETH decouple from tumbling Korean stocks (CoinDesk) https://www.coindesk.com/markets/2026/10/13/bitcoin-rebounds-above-usd83-000-as-it-decouples-from-tumbling-korean-stocks-and-nasdaq-futures
+· MRVL Why It’s Time to Load Up on Marvell Stock (Yahoo Finance) https://news.google.com/rss/articles/CBMilwFBVV95cUxOWi1yTy1MWk1mWlpnVHZXMUJzLUxMWW0wRTZqQXBJclEtYTV5TWJpdll3Y3RBbmFmdHRSWWpTWFNDeWZsUzNrVjJOdUlCc3dZSHptQUFrZjRfV0g0Q0VEdkp2ekRpVFZZbUktVXJvbUsyNl9NLV9Ed0xOeFdoOVF2dWN2akU1V1kzb0FHUnJZV1R3a0VGWTNJ?oc=5
 · ETH Interactive Brokers expands crypto services with Ethereum staking via Zerohash (The Block) https://www.theblock.co/news/ecosystems/2026-10-13-interactive-brokers-ethereum-staking-zerohash-418457
 · AXIA3 Axia Energia (AXIA7) Previsões, Preço-Alvo e Projeções de Analistas (ADVFN) https://br.advfn.com/bolsa-de-valores/bovespa/axia-energia-pnc-AXIA7/previsoes
 · BTC Super League buys its first Bitcoin for $83,041 ahead of Metaplanet deal (TradingView (Reuters)) https://www.tradingview.com/news/cryptobriefing:8b1d90ea4094b:0-super-league-buys-its-first-bitcoin-for-83-041-ahead-of-metaplanet-deal/
@@ -275,18 +289,4 @@ id: E05-PLTR-e002d7e14c-2026-10-12 · status: entregue
 · MRVL Marvell, Microsoft and Oracle Establish OCP Working Group to Standardize Data Center Hardware Security (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/marvell-microsoft-oracle-establish-ocp-130000416.html
 · JPM JPMorgan misses Wall Street's Q3 earnings and revenue estimates (Yahoo Finance) https://finance.yahoo.com/video/jpmorgan-misses-wall-streets-q3-earnings-and-revenue-estimates-125850488.html
 · TSLA Tesla Gears Up to Report Q3 Earnings: Here's What to Expect (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/tesla-gears-report-q3-earnings-125800623.html
-· GOOGL Between Amazon and Alphabet One’s Gotten Much More Bang for Their 200 Billion Bucks (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/between-amazon-alphabet-one-gotten-124530437.html
-· NVDA NVIDIA Begins Vera Rubin Production: Can It Extend NVDA's AI Lead? (TradingView (Reuters)) https://news.google.com/rss/articles/CBMivAFBVV95cUxQWmRBRUdPSjlvalNpMTRMaVptVU5sYzJBWFBPcVdSX2NZbnZRRFZrQnJWUFdvYzFMLUxlTFhYc1daWEM5cnMtdjVvT0lHLUt1UHZkRE9ua3g4N19fRVRFY2xVT2dSaUczZDJUSnhfRTNDajFnaWdrRDNHVW5OdGlRMkUtQUFTNXpLQk8tZnYwbnh2WUU4ZEJNT216SlduYVV2N1JtSm5NZnczbVhob0dQaGtPWUY1VkRVa1NQaA?oc=5
-· BTC Strategy Bought 250 Bitcoin Last Week and Spent Nearly Nine Times That Buying Back Its Own Preferred Shares. Has the Biggest Buyer Stopped Moving the… (Yahoo Finance) https://news.google.com/rss/articles/CBMingFBVV95cUxPck9jbEtSV0QtNy1MNk5fYnY1aVV5a1d1Ym1aaEhfQUhlb3JHUHhsY0N3WVFibVdaR1lRVGp0LXlVRXhfbUs5ZmFGUG9vWExLY3Z3X21XTktpaFU4bEc0RDd4ZnFmSFFSWEhGZkFIQ1RKWmsyendaMGlaSFc3cXQxY2x6X2VHZkFQLTA0WGFKRExxaDlyeDUwRFlCY0hZZw?oc=5
-· JPM JPMorgan, Wells Fargo, and Citi earnings show consumers holding up despite high rates (Yahoo Finance) https://finance.yahoo.com/markets/article/jpmorgan-wells-fargo-and-citi-earnings-show-consumers-holding-up-despite-high-rates-142123134.html
-· MMM 3M shares may move 4.6% on earnings release next week (Investing.com) https://www.investing.com/news/stock-market-news/3m-shares-may-move-46-on-earnings-release-next-week-93CH-4947091
-· TSLA Tesla Trades at 219x Earnings. Here’s Why I’m Not Buying the Bet on Its Future. (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/tesla-trades-219x-earnings-why-141545835.html
-· ITUB4 Magalu pode ganhar com crise das Casas Bahia, avalia Itaú BBA (UOL Economia) https://economia.uol.com.br/noticias/redacao/2026/10/13/magalu-pode-ganhar-com-crise-da-casas-bahia-avalia-itau-bba.amp.htm
-· JPM JPMorgan’s Financial Results Miss Wall Street Targets (TradingView (Reuters)) https://www.tradingview.com/news/baystreet:d10885272094b:0-jpmorgan-s-financial-results-miss-wall-street-targets/
-· JPM Bank stocks rise on JPMorgan, Goldman earnings as chip stocks fall: AlphaCheck (Yahoo Finance) https://finance.yahoo.com/markets/article/bank-stocks-rise-on-jpmorgan-goldman-earnings-as-chip-stocks-fall-alphacheck-135541160.html
-· USDBRL Ibovespa cai após subir mais de 8% em uma semana; dólar avança e passa dos R$ 5 (Exame) https://exame.com/invest/mercados/ibovespa-cai-apos-subir-mais-de-8-em-uma-semana-dolar-avanca-e-passa-dos-r-5/
-· JPM JPMorgan Chase Misses Third-Quarter Earnings Estimates as Fixed-Income Trading Revenue Declines (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/jpmorgan-chase-misses-third-quarter-123638678.html
-· JPM JPMorgan Chase & Co. (JPM) Reports Q3 Earnings: What Key Metrics Have to Say (Yahoo Finance) https://ca.finance.yahoo.com/news/jpmorgan-chase-co-jpm-reports-123004958.html
-· BRENT Decline in Russian Crude Output Slowed in September, OPEC Says (Bloomberg) https://www.bloomberg.com/news/articles/2026-10-13/decline-in-russian-crude-output-slowed-in-september-opec-says
-· META Meta Platforms, Inc. (META) is Attracting Investor Attention: Here is What You Should Know (Yahoo Finance) https://au.finance.yahoo.com/news/meta-platforms-inc-meta-attracting-120005034.html
-· (+37 manchetes; lista completa em eventos/noticias.json)
+· (+51 manchetes; lista completa em eventos/noticias.json)
