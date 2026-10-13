@@ -1,113 +1,69 @@
 ALERTAS · intradia
 
-[ATENÇÃO] E05 · JPM · JPMorgan, Goldman Sachs tread carefully in $5B Volta AI loan offering - report (JPM:NYSE)
-Seeking Alpha · 12/10 17h00 · fonte única · licença: manchete
-Link: https://seekingalpha.com/news/4652223-jpmorgan-goldman-sachs-tread-carefully-in-5b-volta-ai-loan-offering---report
-Por que importa: oferta de acoes ou divida altera a base acionaria ou a alavancagem
+[ATENÇÃO] E05 · JPM · Bank Earnings Q3 2026: Goldman +30% Beat, JPMorgan Misses Revenue
+Investing.com · 13/10 10h32 · fonte única · licença: manchete
+Link: https://www.investing.com/analysis/bank-earnings-q3-2026-goldman-30-beat-jpmorgan-misses-revenue-200689491
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
 Ativos: JPM
-Como falar: 'saiu no Seeking Alpha: JPMorgan, Goldman Sachs tread carefully in $5B Volta AI loan offering - report (JPM:NYSE); confirmar o número no texto antes de repassar'
-Fonte: Seeking Alpha 12/10 17h00
-Push: intradia: 3 alertas de atenção — E05 JPM, E05 AMZN, E05 MU · detalhe na sessão
-ids: E05-JPM-d30c6e05f9-2026-10-12
+Como falar: 'saiu no Investing.com: Bank Earnings Q3 2026: Goldman +30% Beat, JPMorgan Misses Revenue; confirmar o número no texto antes de repassar'
+Fonte: Investing.com 13/10 10h32
+Push: intradia: 3 alertas de atenção — E05 JPM, E05 JPM, E05 JPM · detalhe na sessão
+ids: E05-JPM-2fb970c16b-2026-10-13
 
-[ATENÇÃO] E05 · AMZN · MIT files patent lawsuit against Amazon over cloud security technology
-TradingView (Reuters) · 12/10 12h06 · + Reuters · licença: manchete
-Link: https://www.tradingview.com/news/reuters.com,2026:newsml_L6N45Y0S7:0-mit-files-patent-lawsuit-against-amazon-over-cloud-security-technology/
-Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e prazo
-Ativos: AMZN
-Como falar: 'saiu no TradingView (Reuters): MIT files patent lawsuit against Amazon over cloud security technology; confirmar o número no texto antes de repassar'
-Fonte: TradingView (Reuters) 12/10 12h06
-ids: E05-AMZN-88dbe45d2f-2026-10-12
+[ATENÇÃO] E05 · JPM · Lucro do JPMorgan aumenta no 3º tri com banco de investimento e negociações
+CNN Brasil · 13/10 10h19 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – O gigante bancário americano anunciou na terça-feira (13) um lucro líquido de US$ 15,3 bilhões, ou US$ 5,57 por ação, para o trimestre encerrado em 30 de setembro.
+  – Em comparação, o lucro foi de US$ 14,4 bilhões, ou US$ 5,07 por ação, no mesmo período do ano anterior.
+Link: https://www.cnnbrasil.com.br/economia/money/negocios/lucro-do-jpmorgan-aumenta-no-3o-tri-com-banco-de-investimento-e-negociacoes/
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: JPM
+Como falar: 'saiu no CNN Brasil: Lucro do JPMorgan aumenta no 3º tri com banco de investimento e negociações; confirmar o número no texto antes de repassar'
+Fonte: CNN Brasil 13/10 10h19
+ids: E05-JPM-712df246df-2026-10-13
 
-[ATENÇÃO] E05 · MU · What's next for Micron Technology after blockbuster Q4, guidance beat?
-TradingView (Reuters) · 12/10 09h06 · fonte única · licença: manchete
-Link: https://www.tradingview.com/news/seekingalpha:8c4879a9d094b:0-what-s-next-for-micron-technology-after-blockbuster-q4-guidance-beat/
-Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
-Ativos: MU
-Como falar: 'saiu no TradingView (Reuters): What's next for Micron Technology after blockbuster Q4, guidance beat?; confirmar o número no texto antes de repassar'
-Fonte: TradingView (Reuters) 12/10 09h06
-ids: E05-MU-5fb3d7e91d-2026-10-12
+[ATENÇÃO] E05 · JPM · Earnings Snapshot: JPMorgan Chase misses Q3 estimates, reports $2.7B credit costs amid $539M reserve build
+TradingView (Reuters) · 13/10 09h06 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/seekingalpha:276280808094b:0-earnings-snapshot-jpmorgan-chase-misses-q3-estimates-reports-2-7b-credit-costs-amid-539m-reserve-build/
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: JPM
+Como falar: 'saiu no TradingView (Reuters): Earnings Snapshot: JPMorgan Chase misses Q3 estimates, reports $2.7B credit costs amid $5…; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 13/10 09h06
+ids: E05-JPM-33387b5356-2026-10-13
 
 Info (só linha no Fechamento):
-· E01 BAC: resultado sai em 3 sessões (14/10)
-· E05 INTC · Intel Accelerates Open Infrastructure for the Agentic AI Era
-· E05 NVDA · Intel aims to boost AI turnaround with new GPU chips to take on Nvidia
-· E05 ITUB4 · Pesquisa de Nobel deu respaldo à atuação dos BCs quando juros estavam em zero, diz estrategista da Itaú Asset
-· E05 GOOGL · Levi & Korsinsky Reminds Alphabet Inc. Investors of the
-· E05 AVGO · Intel and Broadcom CEOs Delivers Stark AI Warning as Stocks Tumble
-· E05 GOOGL · Alphabet Inc. (GOOGL) Shareholders Who Lost Money Have Opportunity to Lead Securities Fraud Lawsuit
-· E05 AVGO · Broadcom CEO Warns AI's Biggest Constraint Is Shifting
-· E05 NVDA · Watch Cisco, Nvidia Tackle AI’s Growing Data Center Bottleneck
-· E05 KO · Coca-Cola, PepsiCo and Walmart among 8 stocks with A+ profitability grades
-· E05 MU · 3 Reasons We’re Fans of Micron (MU)
-· E05 INTC · Not Sandisk, Not Intel. This Stock Will Lead the S&P 500 Next Year
-· E05 JPM · JPMorgan, Goldman Sachs Earnings Could Move This Dow ETF—Here’s the Portfolio Math
-· E05 MU · Micron Just Said Something That Could Change How Investors See the Stock
-· E05 AMD · 2 Reasons to Like AMD (and 1 Not So Much)
-· E05 JPM · JPMorgan earnings preview: what to watch when JPM reports Tuesday
-· T08 INTC entrou em queda de -25% do pico: -26% do pico de 52s (US$ 140,94 em 22/06) a US$ 104,70
-· C05 Pre 2029 FECHA 23 bps (PU +0,5%) · Pre 2031 FECHA 26 bps (PU +1,0%) · IPCA+ 2032 FECHA 17 bps (PU +1,1%) (base 09/10)
-· C03 Prefixado em nível: Pre 2029 cruzou 12,50% (agora 12,30%) · Pre 2029 na mínima de 252 bases: 12,30% · Pre 2031 cruzou 12,50% (agora 12,45%)
-· C06 Inflação implícita: implícita 2029 -67 bps na semana · implícita 2032 -56 bps na semana · implícita 2031/32 (descasado) -57 bps na semana
-· E05 BTC · Bitcoin Price Outlook: Bulls Defend $83K, But ETF Flows And Trading Volume Raise Recovery Questions
-· T06 PLTR +11% em 5 sessões a US$ 209,05: movimento de 3,2 desvios para a vol de 20 dias
-· T06 RARA11 -8,3% em 5 sessões a R$ 13,58: movimento de 2,6 desvios para a vol de 20 dias
-· T06 CURY3 +23% em 5 sessões a R$ 34,52: movimento de 2,9 desvios para a vol de 20 dias
-· T09 MRVE3 +22% com volume 2,6x a mediana de 20 sessões, a R$ 7,82
-· T10 SAPR4 no máximo de força relativa em 63 sessões contra IBOV: +28% vs +12% em 20 sessões (+14% relativo)
-· T10 KLBN4 no mínimo de força relativa em 63 sessões contra IBOV: -5,7% vs +12% em 20 sessões (-16% relativo)
-· T10 MRVE3 no máximo de força relativa em 63 sessões contra IBOV: +36% vs +12% em 20 sessões (+22% relativo)
+· F01 Real cai: USD/BRL 5,0155 (cruzou R$ 5,00) (parcial, intradia)
+· E05 BRENT · Ibovespa cai 1% com petróleo e empate técnico entre Flávio e Lula; 5 coisas para saber antes de investir hoje (13)
+· E05 JPM · JPMorgan Third-Quarter Results Miss Street Views Amid Investment Securities Losses
+· E05 MU · Micron: My DCF And Valuation Multiple Analysis Confirm It Is Still Cheap (NASDAQ:MU)
+· E05 NVDA · Nvidia: The Share Price Already Assumes No China Data Center Sales (NASDAQ:NVDA)
+· E05 JPM · JPMorgan, Goldman, Wells Fargo, Citi kick off bank earnings. What 'story' do they tell?
+· E05 BRENT · Saudi leads jump in OPEC+ oil output in September, despite Iran war disruption
+· E05 USDBRL · Dólar abre em alta com Flávio à frente de Lula em nova pesquisa eleitoral
+· E05 JPM · GS: Goldman Sachs Beats Estimates as Fellow Banking Giant JPMorgan Misses
+· E05 JPM · Why JPMorgan CEO Jamie is concerned about large global fiscal deficits
+· E05 SMAL11 · Ibovespa na máxima e small caps com alta de 20%: o que os analistas veem agora
+· E05 TSM · TSMC Earnings Preview: High Growth Likely, But Mind The CAPEX (Downgrade) (NYSE:TSM)
+· E05 BRENT · Tempo real: Ibovespa cai 1% com pressão externa e petróleo; dólar sobe
+· E05 USDBRL · Dólar abre em alta com mercado atento às eleições e sessão da 6x1
+· E05 MU · Micron: The HBM Pricing Reset Makes Me A Buyer (Rating Upgrade) (NASDAQ:MU)
+· E05 NVDA · U.S. Export Restrictions Drive Nvidia China AI Chip Market Share Down to 34%
+· E05 USDBRL · Boletim Focus eleva projeção de inflação para 5,22% em 2026 e reduz câmbio
+· S01 coleta do slot intradia saiu incompleta: bcb: BCB devolveu 4 de 5 séries (faltaram ptax_venda)
 
-Suprimidos pelo teto (viram linha do Fechamento): T08-INTC--25-2026-10-09 (teto diário de críticos), C05-TESOURO-fechou-2026-10-09 (teto diário de críticos), C03-TESOURO-td-2026-10-09 (teto diário de críticos), C06-TESOURO-implicita-2026-10-09 (teto diário de críticos), E05-BTC-71251cc3b5-2026-10-12 (teto de noticias), T06-PLTR-alta-2026-10-09 (teto de atenção), T06-RARA11-queda-2026-10-09 (teto de atenção), T06-CURY3-alta-2026-10-09 (teto de atenção), T09-MRVE3-alta-2026-10-09 (teto de atenção), T10-SAPR4-máximo-2026-10-09 (teto de atenção), T10-KLBN4-mínimo-2026-10-09 (teto de atenção), T10-MRVE3-máximo-2026-10-09 (teto de atenção)
+Suprimidos pelo teto (viram linha do Fechamento): E05-USDBRL-d893268615-2026-10-13 (teto de noticias), S01-SISTEMA-intradia-2026-10-13 (teto de atenção)
 
 Alertas do dia (todos, com status):
-· linha     C05 TESOURO — Pre 2029 FECHA 23 bps (PU +0,5%) · Pre 2031 FECHA 26 bps (PU +1,0%) · IPCA+ 2032
-· entregue  C01 DI — A curva FECHOU: F28 -98 bps em 5 pregões · F28 8 pregões seguidos (-115 bps) · F
-· entregue  T05 MRVE3 — MRVE3 +22% no dia a R$ 7,82: movimento de 6,0 desvios para uma vol de 20 dias de
-· linha     T08 INTC — INTC entrou em queda de -25% do pico: -26% do pico de 52s (US$ 140,94 em 22/06) 
-· pendente  E05 JPM — JPM · JPMorgan, Goldman Sachs tread carefully in $5B Volta AI loan offering - re
-· pendente  E05 AMZN — AMZN · MIT files patent lawsuit against Amazon over cloud security technology
-· pendente  E05 MU — MU · What's next for Micron Technology after blockbuster Q4, guidance beat?
-· linha     C03 TESOURO — Prefixado em nível: Pre 2029 cruzou 12,50% (agora 12,30%) · Pre 2029 na mínima d
-· linha     C06 TESOURO — Inflação implícita: implícita 2029 -67 bps na semana · implícita 2032 -56 bps na
-· entregue  C02 DI — Inclinação da curva DI: F35-F28 -24 bps no dia: bull flattening (longo fechou ma
-· entregue  C03 DI — DI em nível: F29 na mínima de 252 pregões: 12,22% · F30 na mínima de 252 pregões
-· entregue  T05 PLTR — PLTR +5,2% no dia a US$ 209,05: movimento de 3,5 desvios para uma vol de 20 dias
-· linha     T06 PLTR — PLTR +11% em 5 sessões a US$ 209,05: movimento de 3,2 desvios para a vol de 20 d
-· linha     T06 RARA11 — RARA11 -8,3% em 5 sessões a R$ 13,58: movimento de 2,6 desvios para a vol de 20 
-· linha     T06 CURY3 — CURY3 +23% em 5 sessões a R$ 34,52: movimento de 2,9 desvios para a vol de 20 di
-· linha     T09 MRVE3 — MRVE3 +22% com volume 2,6x a mediana de 20 sessões, a R$ 7,82
-· linha     T10 SAPR4 — SAPR4 no máximo de força relativa em 63 sessões contra IBOV: +28% vs +12% em 20 
-· linha     T10 KLBN4 — KLBN4 no mínimo de força relativa em 63 sessões contra IBOV: -5,7% vs +12% em 20
-· linha     T10 MRVE3 — MRVE3 no máximo de força relativa em 63 sessões contra IBOV: +36% vs +12% em 20 
-· entregue  E05 USDBRL — USDBRL · Ibovespa tem duplo recorde aos 209 mil pontos e avança quase 9% na sema
-· entregue  E05 KO — KO · Coca-Cola Consolidated Announces Fourth Quarter Dividend
-· expirado  E05 KO — KO · Coca-Cola Consolidated declares $0.25 quarterly dividend By Investing.com
-· entregue  E05 USDBRL — USDBRL · Tempo real: Ibovespa sobe aos 209 mil pontos e renova recorde intradia 
-· entregue  E05 BTC — BTC · Bitcoin steadies near $82,500 after Trump rules out Iran strike before mid
-· entregue  E05 BRENT — BRENT · Produção de petróleo e gás natural no Brasil bate recorde em 2025
-· entregue  M01 MACRO — Agenda: IPCA de setembro (IBGE) hoje às 09:00 (09/10)
-· entregue  E05 MRVE3 — MRVE3 · Agenda de empresas: Lucro da Camil cai 47,5%; vendas da MRV&Co sobem 29,
-· entregue  E05 TSLA — TSLA · Key facts: Tesla, Inc. 486,532 Q3 deliveries; $25B+ 2026 capex; $43.5B ca
-· entregue  E05 META — META · Key facts: META Q4 $73–$76B guidance; bans TikTok ads; 2026 capex +$5–$10
-· linha     T09 KLBN4 — KLBN4 -1,1% com volume 2,5x a mediana de 20 sessões, a R$ 3,63
-· linha     F05 BHKP — Celulose (proxy SHFE, fibra longa) -3,1% na semana: 4.810 CNY/t (12/10)
-· linha     T01 AVGO — AVGO fechou abaixo da média de 200 dias pela 2ª sessão: US$ 361,54 vs MM200 US$ 
-· linha     T01 NOK — NOK retomou a média de 200 dias pela 1ª sessão: US$ 10,36 vs MM200 US$ 10,12 (+2
-· linha     T01 MRVE3 — MRVE3 retomou a média de 200 dias pela 1ª sessão: R$ 7,82 vs MM200 R$ 6,64 (+18%
-· linha     T01 CURY3 — CURY3 retomou a média de 200 dias pela 1ª sessão: R$ 34,52 vs MM200 R$ 32,13 (+7
-· linha     T04 PLTR — PLTR fechou na máxima de 52 semanas: US$ 209,05, +23% em 1m e +13% em 12m
-· linha     T04 SMAL11 — SMAL11 fechou na máxima de 52 semanas: R$ 139,80, +27% em 1m e +35% em 12m
-· linha     T02 BOTZ — BOTZ perdeu a MM50 pela 2ª sessão: US$ 35,48, já abaixo da MM200 (confirma tendê
-· linha     T02 WQTM — WQTM perdeu a MM50 pela 2ª sessão: US$ 36,63, ainda acima da MM200 (tendência lo
-· linha     T02 AVGO — AVGO perdeu a MM50 pela 2ª sessão: US$ 361,54, já abaixo da MM200 (confirma tend
-· linha     T02 INTC — INTC perdeu a MM100 pela 2ª sessão: US$ 104,70, ainda acima da MM200 (tendência 
-· linha     T02 ETH — ETH perdeu a MM50 pela 2ª sessão: US$ 2.481, ainda acima da MM200 (tendência lon
-· linha     T07 PLTR — PLTR entrou em sobrecomprado: RSI14 76 a US$ 209,05
-· linha     T07 MRVE3 — MRVE3 entrou em sobrecomprado: RSI14 85 a R$ 7,82
-· linha     T09 ITSA4 — ITSA4 +1,6% com volume 2,7x a mediana de 20 sessões, a R$ 16,31
-· linha     T10 IGV — IGV no máximo de força relativa em 63 sessões contra SPX: +11% vs +2,0% em 20 se
-· linha     T10 LITE — LITE no máximo de força relativa em 63 sessões contra SOX: +19% vs +6,3% em 20 s
-· linha     F01 USDBRL — Real sobe: USD/BRL 4,9823 (-4,5% em 5 sessões · cruzou R$ 5,00) (parcial, intrad
-· (+44 notícias só manchete, em noticias.md)
+· pendente  E05 JPM — JPM · Bank Earnings Q3 2026: Goldman +30% Beat, JPMorgan Misses Revenue
+· pendente  E05 JPM — JPM · Lucro do JPMorgan aumenta no 3º tri com banco de investimento e negociaçõe
+· pendente  E05 JPM — JPM · Earnings Snapshot: JPMorgan Chase misses Q3 estimates, reports $2.7B credi
+· linha     S01 SISTEMA — coleta do slot intradia saiu incompleta: bcb: BCB devolveu 4 de 5 séries (faltar
+· entregue  E01 BAC — BAC: resultado sai na próxima sessão (14/10)
+· entregue  E04 JPM — JPM · 8-K: 2.02 resultado do trimestre
+· entregue  E05 CVX — CVX · Verizon or Chevron: I Can Only Pick One Dividend Stock for the Next 10 Yea
+· entregue  E05 TSLA — TSLA · Jefferies raises Tesla price target as resilient deliveries support autom
+· entregue  E05 PLTR — PLTR · Palantir Stock Hits New Record High, Wipes Out Its Nearly 50% Drawdown
+· entregue  S01 SISTEMA — coleta do slot manha saiu incompleta: bcb: BCB devolveu 4 de 5 séries (faltaram 
+· linha     F01 USDBRL — Real cai: USD/BRL 5,0155 (cruzou R$ 5,00) (parcial, intradia)
+· (+38 notícias só manchete, em noticias.md)
 

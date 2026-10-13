@@ -1,34 +1,6 @@
-NOTÍCIAS E FATOS · 13/10 08h33
+NOTÍCIAS E FATOS · 13/10 10h33
 
-Pernas: noticias ok 18 novas (18 consultas; descartadas: 416 veículo fora da lista, 32 sem ativo, 53 teto) · cvm ok 0 novos de 0 (0 cias casadas) · sec ok 1 novos em 3 dias
-
-## FATOS RELEVANTES E COMUNICADOS (CVM) (2)
-
-[INFO] E03 · VALE3 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
-CVM · entregue 09/10/2026 18:56 · Outros Comunicados Não Considerados Fatos Relevantes
-Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1576356
-Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; confirma ou nega o que circula
-Ativos: VALE3
-Como falar: 'a Vale publicou comunicado ao mercado sobre Outros Comunicados Não Considerados Fatos Relevantes'
-Fonte: CVM 09/10
-id: E03-VALE3-1576356-2026-10-09 · status: linha
-
-[INFO] E03 · CURY3 · Participação relevante: gestor reduziu para 14,97% em 08/10
-CVM · entregue 09/10/2026 18:49 · Aquisição/Alienação de Participação Acionária Relevante / Declaração de Alienação de Participação Acionária Relevante
-Do documento:
-  – São Paulo, 9 de outubro de 2026.
-  – Ronaldo Cury de Capua  Diretor de Relações com Investidores        1    São Paulo, 9 de outubro de 2026      À  CURY CONSTRUTORA S.A. Rua Funchal, nº 411, 13º andar, Conjunto 132-D  Vila Olímpia, São Paulo, SP  CEP 0455…
-  – - DATE_ATOM: 2026-10-09T17:54:03-03:00 09 Oct 2026, 17:54:53 Assinaturas iniciadas por MARCELA LUZ FERREIRA (e1d5087d-97de-4e9c-8d73-dc4930330b9c).
-  – - DATE_ATOM: 2026-10-09T17:54:53-03:00 09 Oct 2026, 17:57:51 ASSINATURA COM CERTIFICADO DIGITAL ICP-BRASIL - MIGUEL MAIA MICKELBERG:00610508067 Assinou Email: miguel.mickelberg@cyrela.com.br.
-  – IP: 201.28.40.2 (201-28-40-2.customer.tdatabrasil.net.br porta: 27390).
-  – Dados do Certiﬁcado: C=BR,O=ICP-Brasil,OU=AC SAFEWEB RFB v5,CN=MIGUEL MAIA MICKELBERG:00610508067.
-Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1576353
-Por que importa: quem cruza 5% de uma companhia tem de avisar (Resolução CVM 44, art. 12); o fluxo de compra ou venda já aconteceu até 08/10, não no dia do aviso
-Ativos: CURY3
-Como falar: 'gestor reduziu para 14,97% em 08/10 na Cury Construtora e Incorporadora; é aviso de participação, não fato relevante'
-Fonte: CVM 09/10
-id: E03-CURY3-1576353-2026-10-09 · status: linha · íntegra disponível
-
+Pernas: noticias ok 19 novas (18 consultas; descartadas: 413 veículo fora da lista, 29 sem ativo, 36 teto) · cvm ok 0 novos de 0 (0 cias casadas) · sec ok 0 novos em 3 dias
 
 ## SEC (8-K, 6-K, 10-Q, 10-K) (1)
 
@@ -45,10 +17,56 @@ Por que importa: resultado do trimestre reprecifica lucro, guidance e multiplo; 
 Ativos: JPM
 Como falar: 'a JPM protocolou 8-K na SEC (2.02 resultado do trimestre)'
 Fonte: SEC EDGAR 2026-10-13
-id: E04-JPM-26065582-2026-10-13 · status: pendente · íntegra disponível
+id: E04-JPM-26065582-2026-10-13 · status: entregue · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (12)
+## NOTÍCIAS COM MATERIALIDADE (7)
+
+[ATENÇÃO] E05 · JPM · Bank Earnings Q3 2026: Goldman +30% Beat, JPMorgan Misses Revenue
+Investing.com · 13/10 10h32 · fonte única · licença: manchete
+Link: https://www.investing.com/analysis/bank-earnings-q3-2026-goldman-30-beat-jpmorgan-misses-revenue-200689491
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: JPM
+Como falar: 'saiu no Investing.com: Bank Earnings Q3 2026: Goldman +30% Beat, JPMorgan Misses Revenue; confirmar o número no texto antes de repassar'
+Fonte: Investing.com 13/10 10h32
+id: E05-JPM-2fb970c16b-2026-10-13 · status: pendente
+
+[ATENÇÃO] E05 · JPM · Lucro do JPMorgan aumenta no 3º tri com banco de investimento e negociações
+CNN Brasil · 13/10 10h19 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – O gigante bancário americano anunciou na terça-feira (13) um lucro líquido de US$ 15,3 bilhões, ou US$ 5,57 por ação, para o trimestre encerrado em 30 de setembro.
+  – Em comparação, o lucro foi de US$ 14,4 bilhões, ou US$ 5,07 por ação, no mesmo período do ano anterior.
+Link: https://www.cnnbrasil.com.br/economia/money/negocios/lucro-do-jpmorgan-aumenta-no-3o-tri-com-banco-de-investimento-e-negociacoes/
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: JPM
+Como falar: 'saiu no CNN Brasil: Lucro do JPMorgan aumenta no 3º tri com banco de investimento e negociações; confirmar o número no texto antes de repassar'
+Fonte: CNN Brasil 13/10 10h19
+id: E05-JPM-712df246df-2026-10-13 · status: pendente
+
+[ATENÇÃO] E05 · JPM · Earnings Snapshot: JPMorgan Chase misses Q3 estimates, reports $2.7B credit costs amid $539M reserve build
+TradingView (Reuters) · 13/10 09h06 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/seekingalpha:276280808094b:0-earnings-snapshot-jpmorgan-chase-misses-q3-estimates-reports-2-7b-credit-costs-amid-539m-reserve-build/
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: JPM
+Como falar: 'saiu no TradingView (Reuters): Earnings Snapshot: JPMorgan Chase misses Q3 estimates, reports $2.7B credit costs amid $5…; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 13/10 09h06
+id: E05-JPM-33387b5356-2026-10-13 · status: pendente
+
+[ATENÇÃO] E05 · USDBRL · Boletim Focus eleva projeção de inflação para 5,22% em 2026 e reduz câmbio
+InfoMoney · 13/10 08h46 · + Poder360, TradingView (Reuters) · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Publicidade O mercado subindo a projeção para inflação de 2026, de 5,01% para 5,22%, segundo o Boletim Focus divulgado nesta terça-feira (13) pelo Banco Central.
+  – Para o ano, a mediana das estimativas aponta ainda para dólar a R$ 5,14, manutenção de 1,85% do Produto Interno Bruto (PIB) e Selic em 13,25%.
+  – Inflação A projeção para o IPCA de 2026 subiu de 5,01% para 5,22%, na quarta alta consecutiva.
+  – Para 2027, a estimativa se manteve em 4,30%.
+  – Para 2028, a projeção caiu de 3,80% para 3,79%.
+  – Em 2029, a estimativa caiu para 3,50%.
+Link: https://www.infomoney.com.br/economia/boletim-focus-eleva-projecao-de-inflacao-para-522-em-2026-e-reduz-cambio/
+Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
+Ativos: USDBRL · DI
+Como falar: 'saiu no InfoMoney: Boletim Focus eleva projeção de inflação para 5,22% em 2026 e reduz câmbio; confirmar o número no texto antes de repassar'
+Fonte: InfoMoney 13/10 08h46
+id: E05-USDBRL-d893268615-2026-10-13 · status: linha
 
 [ATENÇÃO] E05 · CVX · Verizon or Chevron: I Can Only Pick One Dividend Stock for the Next 10 Years. Here’s Mine
 Yahoo Finance · 12/10 18h50 · fonte única · licença: resumo
@@ -64,7 +82,7 @@ Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir
 Ativos: CVX
 Como falar: 'saiu no Yahoo Finance: Verizon or Chevron: I Can Only Pick One Dividend Stock for the Next 10 Years. Here’s Mine; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 12/10 18h50
-id: E05-CVX-c21f48975e-2026-10-12 · status: pendente
+id: E05-CVX-c21f48975e-2026-10-12 · status: entregue
 
 [ATENÇÃO] E05 · TSLA · Jefferies raises Tesla price target as resilient deliveries support automotive outlook
 Yahoo Finance · 12/10 11h44 · fonte única · licença: resumo
@@ -80,7 +98,7 @@ Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais
 Ativos: TSLA
 Como falar: 'saiu no Yahoo Finance: Jefferies raises Tesla price target as resilient deliveries support automotive outlook; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 12/10 11h44
-id: E05-TSLA-6599b58bac-2026-10-12 · status: pendente
+id: E05-TSLA-6599b58bac-2026-10-12 · status: entregue
 
 [ATENÇÃO] E05 · PLTR · Palantir Stock Hits New Record High, Wipes Out Its Nearly 50% Drawdown
 TradingView (Reuters) · 12/10 11h41 · fonte única · licença: manchete
@@ -89,119 +107,26 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: PLTR
 Como falar: 'saiu no TradingView (Reuters): Palantir Stock Hits New Record High, Wipes Out Its Nearly 50% Drawdown; confirmar o número no texto antes de repassar'
 Fonte: TradingView (Reuters) 12/10 11h41
-id: E05-PLTR-e002d7e14c-2026-10-12 · status: pendente
-
-[ATENÇÃO] E05 · USDBRL · Ibovespa tem duplo recorde aos 209 mil pontos e avança quase 9% na semana após 1º turno; dólar cai e fica abaixo de R$ 5
-Money Times · 09/10 17h31 · fonte única · licença: integral
-Do texto:
-  – Ibovespa tem duplo recorde aos 209 mil pontos e avança quase 9% na semana após 1º turno; dólar cai e fica abaixo de R$ 5 O Ibovespa (IBOV) estendeu os ganhos da véspera com o ‘trade Flávio’ e a melhora do humor externo,…
-  – Nesta sexta-feira (9), o principal índice da bolsa brasileira terminou as negociações com alta de 1,38%, aos 209.066,90 pontos, em novo recorde nominal de fechamento.
-  – Durante o pregão, o IBOV também renovou máxima histórica, aos 209.713,45 pontos (+1,69%).
-  – Na semana, o índice acumulou valorização de 8,82%, melhor desempenho semanal desde março de 2020.
-  – Já o dólar à vista encerrou as negociações a R$ 4,9851, com queda de 0,78%.
-  – No acumulado dos últimos cinco dias, a moeda recuou 4,44% ante o real.
-Link: https://www.moneytimes.com.br/ibovespa-9-10-26-lils/
-Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
-Ativos: USDBRL
-Como falar: 'saiu no Money Times: Ibovespa tem duplo recorde aos 209 mil pontos e avança quase 9% na semana após 1º turno;…; confirmar o número no texto antes de repassar'
-Fonte: Money Times 09/10 17h31
-id: E05-USDBRL-14b1d6a48e-2026-10-09 · status: entregue · íntegra disponível
-
-[ATENÇÃO] E05 · KO · Coca-Cola Consolidated Announces Fourth Quarter Dividend
-TradingView (Reuters) · 09/10 17h24 · + Investing.com · licença: manchete
-Link: https://www.tradingview.com/news/reuters.com,2026:newsml_TUABSRGDH:0-coca-cola-consolidated-announces-fourth-quarter-dividend/
-Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
-Ativos: KO
-Como falar: 'saiu no TradingView (Reuters): Coca-Cola Consolidated Announces Fourth Quarter Dividend; confirmar o número no texto antes de repassar'
-Fonte: TradingView (Reuters) 09/10 17h24
-id: E05-KO-36a8a0b554-2026-10-09 · status: entregue
-
-[ATENÇÃO] E05 · KO · Coca-Cola Consolidated declares $0.25 quarterly dividend By Investing.com
-Investing.com · 09/10 17h24 · fonte única · licença: manchete
-Link: https://ca.investing.com/news/stock-market-news/cocacola-consolidated-declares-025-quarterly-dividend-93CH-4874059
-Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
-Ativos: KO
-Como falar: 'saiu no Investing.com: Coca-Cola Consolidated declares $0.25 quarterly dividend By Investing.com; confirmar o número no texto antes de repassar'
-Fonte: Investing.com 09/10 17h24
-id: E05-KO-c6efed8be1-2026-10-09 · status: expirado
-
-[ATENÇÃO] E05 · USDBRL · Tempo real: Ibovespa sobe aos 209 mil pontos e renova recorde intradia com 'trade Flávio'; dólar cai
-Money Times · 09/10 10h17 · fonte única · licença: integral
-Do texto:
-  – O Centro de Operações de Comércio Marítimo do Reino Unido (UKMTO, na sigla em inglês) informou ter recebido um relato de incidente a 13 milhas náuticas (aproximadamente 24 quilômetros) a oeste de Al Jazeera, nos Emirado…
-  – “A situação da tripulação, a avaliação de danos e o impacto ambiental são desconhecidos no momento”, escreveu.
-  – “As autoridades estão investigando”, acrescentou.
-Link: https://www.moneytimes.com.br/tempo-real-9-10-26-apsa-lils/
-Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
-Ativos: USDBRL
-Como falar: 'saiu no Money Times: Tempo real: Ibovespa sobe aos 209 mil pontos e renova recorde intradia com 'trade Flávio'…; confirmar o número no texto antes de repassar'
-Fonte: Money Times 09/10 10h17
-id: E05-USDBRL-7b00c7028d-2026-10-09 · status: entregue · íntegra disponível
-
-[ATENÇÃO] E05 · BTC · Bitcoin steadies near $82,500 after Trump rules out Iran strike before midterms
-CoinDesk · 09/10 07h44 · fonte única · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – Bitcoin steadies near $82,500 after Trump rules out Iran strike before midterms Bitcoin recovered to around $82,500 after Trump ruled out an Iran strike, but remains about 4% lower on the week, while ether has lost 9%.
-  – - Bitcoin recovered to around $82,500 after President Donald Trump said the U.S.
-  – 3 midterm elections, but remains about 4% lower than a week ago.
-  – - Smaller tokens led the bounce, with the CoinDesk 80 up 2.2% since midnight UTC, though the CoinDesk 100 remains 2.2% lower over 24 hours.
-  – - Starknet’s STRK jumped 33% after the network said it is considering becoming a standalone layer-1 blockchain to achieve full quantum resistance by 2027.
-  – Bitcoin  heads into the weekend about 4% lower than at the same time last Friday, even after recovering to around $82,500 from a low near $80,300 on Thursday.
-Link: https://www.coindesk.com/markets/2026/10/09/bitcoin-steadies-near-usd82-500-after-trump-rules-out-iran-strike-before-midterms
-Por que importa: evento operacional afeta producao e custo no trimestre corrente
-Ativos: BTC
-Como falar: 'saiu no CoinDesk: Bitcoin steadies near $82,500 after Trump rules out Iran strike before midterms; confirmar o número no texto antes de repassar'
-Fonte: CoinDesk 09/10 07h44
-id: E05-BTC-fdd6813a5d-2026-10-09 · status: entregue
-
-[ATENÇÃO] E05 · BRENT · Produção de petróleo e gás natural no Brasil bate recorde em 2025
-Agencia Brasil · 08/10 12h37 · fonte única · licença: integral
-Do texto:
-  – A produção média nacional chegou, em 2025,  a quase 4,9 milhões de barris de óleo equivalente por dia.
-  – Um volume 12,7% maior que o recorde anterior, de 2023.
-  – Essa medida, "barril de óleo equivalente", é uma forma de somar, em um único número, o petróleo líquido e volume de gás natural retirados dos poços.
-  – No acumulado dos doze meses, o país extraiu quase 1,8 bilhão de barris, o que coloca o Brasil entre os nove maiores produtores de petróleo do mundo.
-  – No ano passado, as jazidas do pré-sal foram responsáveis por quase 80% da produção, principalmente em cinco campos entre o litoral do Rio de Janeiro e do Espírito Santo.
-  – A consequência é que, pelo segundo ano consecutivo, o petróleo bruto foi o item com maior faturamento entre as exportações brasileiras, superando soja e minério de ferro, e rendendo quase US$ 45 bilhões.
-Link: https://agenciabrasil.ebc.com.br/radioagencia-nacional/economia/audio/2026-10/producao-de-petroleo-e-gas-natural-no-brasil-bate-recorde-em-2025
-Por que importa: evento operacional afeta producao e custo no trimestre corrente
-Ativos: BRENT
-Como falar: 'saiu no Agencia Brasil: Produção de petróleo e gás natural no Brasil bate recorde em 2025; confirmar o número no texto antes de repassar'
-Fonte: Agencia Brasil 08/10 12h37
-id: E05-BRENT-37b7747fcd-2026-10-08 · status: entregue · íntegra disponível
-
-[ATENÇÃO] E05 · MRVE3 · Agenda de empresas: Lucro da Camil cai 47,5%; vendas da MRV&Co sobem 29,6% no 3° trimestre
-Valor Economico · 09/10 08h29 · fonte única · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – A teleconferência será realizada às 11h.
-Link: https://valor.globo.com/empresas/noticia/2026/10/09/agenda-de-empresas-lucro-da-camil-cai-475percent-vendas-da-mrvandco-sobem-296percent-no-3-trimestre.ghtml
-Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
-Ativos: MRVE3
-Como falar: 'saiu no Valor Economico: Agenda de empresas: Lucro da Camil cai 47,5%; vendas da MRV&Co sobem 29,6% no 3° trimestre; confirmar o número no texto antes de repassar'
-Fonte: Valor Economico 09/10 08h29
-id: E05-MRVE3-35c45e1314-2026-10-09 · status: entregue
-
-[ATENÇÃO] E05 · TSLA · Key facts: Tesla, Inc. 486,532 Q3 deliveries; $25B+ 2026 capex; $43.5B cash
-TradingView (Reuters) · 09/10 04h00 · fonte única · licença: manchete
-Link: https://www.tradingview.com/news/tradingview:5dbbd74b604fd:0-key-facts-tesla-inc-486-532-q3-deliveries-25b-2026-capex-43-5b-cash/
-Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
-Ativos: TSLA
-Como falar: 'saiu no TradingView (Reuters): Key facts: Tesla, Inc. 486,532 Q3 deliveries; $25B+ 2026 capex; $43.5B cash; confirmar o número no texto antes de repassar'
-Fonte: TradingView (Reuters) 09/10 04h00
-id: E05-TSLA-79fbbefc71-2026-10-09 · status: entregue
-
-[ATENÇÃO] E05 · META · Key facts: META Q4 $73–$76B guidance; bans TikTok ads; 2026 capex +$5–$10B
-TradingView (Reuters) · 09/10 04h00 · fonte única · licença: manchete
-Link: https://www.tradingview.com/news/tradingview:7a371049a4e80:0-key-facts-meta-q4-73-76b-guidance-bans-tiktok-ads-2026-capex-5-10b/
-Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
-Ativos: META
-Como falar: 'saiu no TradingView (Reuters): Key facts: META Q4 $73–$76B guidance; bans TikTok ads; 2026 capex +$5–$10B; confirmar o número no texto antes de repassar'
-Fonte: TradingView (Reuters) 09/10 04h00
-id: E05-META-6441e75de3-2026-10-09 · status: entregue
+id: E05-PLTR-e002d7e14c-2026-10-12 · status: entregue
 
 
-## OUTRAS NOTÍCIAS (só manchete) (18)
+## OUTRAS NOTÍCIAS (só manchete) (33)
 
+· BRENT Ibovespa cai 1% com petróleo e empate técnico entre Flávio e Lula; 5 coisas para saber antes de investir hoje (13) (Money Times) https://www.moneytimes.com.br/ibovespa-5-coisas-13-10-26-apsa/
+· JPM JPMorgan Third-Quarter Results Miss Street Views Amid Investment Securities Losses (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/jpmorgan-third-quarter-results-miss-132418349.html
+· MU Micron: My DCF And Valuation Multiple Analysis Confirm It Is Still Cheap (NASDAQ:MU) (Seeking Alpha) https://seekingalpha.com/article/4953760-micron-my-dcf-and-valuation-multiple-analysis-confirm-it-is-still-cheap
+· NVDA Nvidia: The Share Price Already Assumes No China Data Center Sales (NASDAQ:NVDA) (Seeking Alpha) https://seekingalpha.com/article/4953583-nvidia-the-share-price-already-assumes-no-china-data-center-sales
+· JPM JPMorgan, Goldman, Wells Fargo, Citi kick off bank earnings. What 'story' do they tell? (Yahoo Finance) https://finance.yahoo.com/video/jpmorgan-goldman-wells-fargo-citi-kick-off-bank-earnings-what-story-do-they-tell-131453741.html
+· BRENT Saudi leads jump in OPEC+ oil output in September, despite Iran war disruption (Reuters) https://www.reuters.com/business/energy/opec-raises-2027-oil-demand-view-citing-need-rebuild-stocks-2026-10-13/
+· USDBRL Dólar abre em alta com Flávio à frente de Lula em nova pesquisa eleitoral (Folha de S.Paulo) https://www1.folha.uol.com.br/mercado/2026/10/dolar-abre-em-alta-com-flavio-a-frente-de-lula-em-nova-pesquisa-eleitoral.shtml
+· JPM GS: Goldman Sachs Beats Estimates as Fellow Banking Giant JPMorgan Misses (TradingView (Reuters)) https://www.tradingview.com/news/tradingview:e98b255ed094b:0-gs-goldman-sachs-beats-estimates-as-fellow-banking-giant-jpmorgan-misses/
+· JPM Why JPMorgan CEO Jamie is concerned about large global fiscal deficits (Yahoo Finance) https://finance.yahoo.com/markets/stocks/article/why-jpmorgan-ceo-jamie-is-concerned-about-large-global-fiscal-deficits-125217541.html
+· SMAL11 Ibovespa na máxima e small caps com alta de 20%: o que os analistas veem agora (InfoMoney) https://www.infomoney.com.br/mercados/ibovespa-na-maxima-e-small-caps-com-alta-de-20-o-que-os-analistas-veem-agora/
+· TSM TSMC Earnings Preview: High Growth Likely, But Mind The CAPEX (Downgrade) (NYSE:TSM) (Seeking Alpha) https://seekingalpha.com/article/4953750-tsmc-earnings-preview-high-growth-likely-but-mind-the-capex-downgrade
+· BRENT Tempo real: Ibovespa cai 1% com pressão externa e petróleo; dólar sobe (Money Times) https://news.google.com/rss/articles/CBMibEFVX3lxTFBCN1FHM3k4Z2NtWEdKc0Y5WnRRYXgteFY1Nm5WTVlsWkstZWdFdlo2Q0ZwdEJFWlhpNXh6NU43TkhKTE1taFRGbFJHaWY5bHQzZWl1WTR1LS1nRG82M3Z2UmtNNXhKRHdDQTRXSg?oc=5
+· USDBRL Dólar abre em alta com mercado atento às eleições e sessão da 6x1 (CNN Brasil) https://news.google.com/rss/articles/CBMipAFBVV95cUxQbnlacWI3djVjSm5mM285UG9KWTc2cEtwTUlleFBQZVlfU1Vfalp1WHZzQzFGVEQ5Vmd0TE00S0JSbFlVeXp6bm9aQXlWQzV2ZkY2b05kaFlfSTNRZUJUQm9YcHo2QmNKMFk1NTBGbldzdHR6WXhsRnJHYlMxQmctVE84THF6T2M3YzJ1bkxEQmhNU3NZaDQ1WEc4WEE2Uzl1QmdsVA?oc=5
+· MU Micron: The HBM Pricing Reset Makes Me A Buyer (Rating Upgrade) (NASDAQ:MU) (Seeking Alpha) https://news.google.com/rss/articles/CBMijwFBVV95cUxPMXhWbVY4djBMTW9iQ2t2eXdmcHIydjl2OHh2eVNobDNFcXlDQjFubWtUbE5BS1hYM3puZS1JMGlFa0pYTjZ3Q2xKbjlLaGtBanEwbHFGRnJSVTJYVTFKS01SeUlwUkhMZjM1V0VkS3Uzdnh4SWZEemxEc1hNdjZ2d0NqUzgzLVQ1R3ZPU2ZMaw?oc=5
+· NVDA U.S. Export Restrictions Drive Nvidia China AI Chip Market Share Down to 34% (Yahoo Finance) https://news.google.com/rss/articles/CBMinwFBVV95cUxOQUpNWndGWWhqc3pMbkV0SEFkb3N4REVSQmpRZEsxdHlZZTIwVktsLXBjSTBxWDlrSjhNalJmakRzdFlmQm9TQlhhMXVWSjZ6UHNlY2RybldidkRaZHBKNk5NY3ZIUzdYcTVyZ2hpb3loaEkyUldsX2Nsb0xkWk43d3NwVWZkelMxMDRnUUpQaDNyUkxFUGFXY3VHeGFkeUU?oc=5
 · VALE3 Agenda de empresas: Vale notifica ex-conselheiro; Motiva divulga tráfego de setembro (Valor Economico) https://valor.globo.com/empresas/noticia/2026/10/13/agenda-de-empresas-vale-notifica-ex-conselheiro-motiva-divulga-trafego-de-setembro.ghtml
 · BTC Bitcoin’s ‘V-Shape Recovery’ Is Being Led By Spot Buyers As Leveraged Traders And ETF Investors Hold Back (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:ce236e86c094b:0-bitcoin-s-v-shape-recovery-is-being-led-by-spot-buyers-as-leveraged-traders-and-etf-investors-hold-back/
 · BTC BTC, ETH prices slip and rebound as Kospi index slides on AI-related concerns: Crypto Markets Today (CoinDesk) https://www.coindesk.com/markets/2026/10/13/bitcoin-ether-slip-and-rebound-as-south-korean-stocks-slide-on-ai-related-concerns
