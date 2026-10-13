@@ -1,8 +1,21 @@
-NOTÍCIAS E FATOS · 13/10 17h22
+NOTÍCIAS E FATOS · 13/10 18h12
 
-Pernas: noticias ok 4 novas (18 consultas; descartadas: 443 veículo fora da lista, 32 sem ativo, 0 teto) · cvm ok 1 novos de 2 (2 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 17 novas (18 consultas; descartadas: 441 veículo fora da lista, 33 sem ativo, 2 teto) · cvm ok 2 novos de 4 (4 cias casadas) · sec ok 0 novos em 3 dias
 
-## FATOS RELEVANTES E COMUNICADOS (CVM) (2)
+## FATOS RELEVANTES E COMUNICADOS (CVM) (4)
+
+[ATENÇÃO] E03 · PETR4 · Fato Relevante: Assinou com as empresas Shell, TotalEnergies e Petrogal, parceiras do Consórcio BM-S-11A, os Acordos de Equalização de Gastos e Volumes (AEGVs) de Be…
+CVM · entregue 13/10/2026 18:04
+Do documento:
+  – Em decorrência da assinatura dos Acordos de Equalização de Gastos e Volumes (AEGVs), a Petrobras  receberá das empresas parceiras do Consórcio BM -S-11A o valor líquido de aproximadamente US$ 859  milhões.
+  – O montante será liquidado até novembro de 2026.
+  – O período considerado compreende desde a assinatura do  Contrato de Concessão BM-S-11, em 15/09/2000, até a data de 30/04/2026, dia anterior à data efetiva  dos AIPs de Berbigão e de Sururu.
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1576827
+Por que importa: fato relevante e o que a propria companhia julga capaz de mover o preco; ler o documento inteiro antes de comentar
+Ativos: PETR4
+Como falar: 'a Petrobras publicou fato relevante sobre Assinou com as empresas Shell, TotalEnergies e Petrogal, parceiras do…'
+Fonte: CVM 13/10
+id: E03-PETR4-1576827-2026-10-13 · status: pendente · íntegra disponível
 
 [ATENÇÃO] E03 · ALUP4 · Comunicado ao Mercado: ALUP11; ALUP3; ALUP4), comunica aos seus acionistas e ao mercado em geral que, nos termos do artigo 12 da Resolução da Comissão de Valores Mobiliário…
 CVM · entregue 13/10/2026 09:21 · Aquisição/Alienação de Participação Acionária Relevante / Declaração de Aquisição de Participação Acionária Relevante
@@ -14,6 +27,15 @@ Ativos: ALUP4
 Como falar: 'a Alupar publicou comunicado ao mercado sobre ALUP11; ALUP3; ALUP4), comunica aos seus acionistas e ao mercado em g…'
 Fonte: CVM 13/10
 id: E03-ALUP4-1576536-2026-10-13 · status: entregue · íntegra disponível
+
+[INFO] E03 · SAPR4 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
+CVM · entregue 13/10/2026 18:00 · Outros Comunicados Não Considerados Fatos Relevantes
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1576820
+Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; confirma ou nega o que circula
+Ativos: SAPR4
+Como falar: 'a Sanepar publicou comunicado ao mercado sobre Outros Comunicados Não Considerados Fatos Relevantes'
+Fonte: CVM 13/10
+id: E03-SAPR4-1576820-2026-10-13 · status: linha
 
 [INFO] E03 · AXIA3 · Aviso aos Acionistas: Outros avisos
 CVM · entregue 13/10/2026 17:02 · Outros avisos
@@ -59,7 +81,39 @@ Fonte: SEC EDGAR 2026-10-13
 id: E04-JPM-26065616-2026-10-13 · status: linha · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (17)
+## NOTÍCIAS COM MATERIALIDADE (19)
+
+[ATENÇÃO] E05 · MELI34 · Mercado Livre (MELI34): Citi corta preço-alvo, mas vê melhora nas margens; vale comprar?
+Suno Noticias · 13/10 17h45 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Negócios Mercado Livre (MELI34): Citi corta preço-alvo, mas vê melhora nas margens; vale comprar?
+  – O Mercado Livre (MELI34) passou por uma revisão que mistura mais confiança na operação com cautela sobre o preço da ação.
+  – Nesta terça-feira (13), o Citi reduziu seu preço-alvo de US$ 2.150 para US$ 2.100 e manteve a recomendação neutra, antes do balanço do terceiro trimestre.
+  – O valor se refere à ação MELI, negociada nos Estados Unidos, e não diretamente ao BDR MELI34, disponível na bolsa brasileira.
+  – A divulgação dos resultados está prevista para 4 de novembro.
+  – A recomendação passou de “Neutra/Alto Risco” para “Neutra”, refletindo menor volatilidade e mais visibilidade sobre as margens.
+Link: https://www.suno.com.br/noticias/mercado-livre-meli34-citi-corta-preco-alvo-mt/
+Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
+Ativos: MELI34
+Como falar: 'saiu no Suno Noticias: Mercado Livre (MELI34): Citi corta preço-alvo, mas vê melhora nas margens; vale comprar?; confirmar o número no texto antes de repassar'
+Fonte: Suno Noticias 13/10 17h45
+id: E05-MELI34-75667e17d6-2026-10-13 · status: pendente
+
+[ATENÇÃO] E05 · KO · Coca-Cola or Chevron: The One Dividend Stock I’d Hold for the Next 20 Years
+Yahoo Finance · 13/10 17h02 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Key Takeaways - Chevron yields 3.4%, and Coca-Cola 2.5%, and Chevron raised its dividend faster from fiscal 2020 to fiscal 2025: 5.8% a year to Coca-Cola's 4.5%.
+  – - Over the last twelve months, Chevron's dividend took 51% of its free cash flow, against 77% for Coca-Cola.
+  – - Coca-Cola's free cash flow fell short of its dividend in fiscal 2024 and 2025, then rebounded to $6.9 billion in the first half of 2026.
+  – - Chevron's own 2030 targets assume commodity prices lower than today's, so oil prices are the thing to watch.
+  – Free cash flow hit $18.1 billion in the second quarter of 2026, up from $4.9 billion a year earlier, and production rose 20%.
+  – Net revenues grew 7% to $13.4 billion, and unit case volume rose 5%.
+Link: https://finance.yahoo.com/markets/stocks/articles/coca-cola-chevron-one-dividend-200203497.html
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: KO · CVX
+Como falar: 'saiu no Yahoo Finance: Coca-Cola or Chevron: The One Dividend Stock I’d Hold for the Next 20 Years; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 13/10 17h02
+id: E05-KO-051407d826-2026-10-13 · status: pendente
 
 [ATENÇÃO] E05 · JPM · Prediction: JPMorgan Chase Raises Its Dividend Again in 2027
 Yahoo Finance · 13/10 16h50 · fonte única · licença: resumo
@@ -75,7 +129,7 @@ Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir
 Ativos: JPM
 Como falar: 'saiu no Yahoo Finance: Prediction: JPMorgan Chase Raises Its Dividend Again in 2027; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 13/10 16h50
-id: E05-JPM-6eaef5df92-2026-10-13 · status: pendente
+id: E05-JPM-6eaef5df92-2026-10-13 · status: entregue
 
 [ATENÇÃO] E05 · ETH · Ethereum Needs to Double to Reach $4,946 Again. XRP Needs 2.6x to Hit $3.65. Which All-Time High Gets Broken First?
 Yahoo Finance · 13/10 16h21 · fonte única · licença: resumo
@@ -91,7 +145,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: ETH
 Como falar: 'saiu no Yahoo Finance: Ethereum Needs to Double to Reach $4,946 Again. XRP Needs 2.6x to Hit $3.65. Which All-Ti…; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 13/10 16h21
-id: E05-ETH-15c4174252-2026-10-13 · status: pendente
+id: E05-ETH-15c4174252-2026-10-13 · status: entregue
 
 [ATENÇÃO] E05 · NVDA · Nvidia (NVDA) or Apple (AAPL): Which Is the Better Bet on Dan Ives’ $4 Trillion AI Wave?
 Yahoo Finance · 13/10 15h41 · fonte única · licença: resumo
@@ -107,7 +161,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: NVDA
 Como falar: 'saiu no Yahoo Finance: Nvidia (NVDA) or Apple (AAPL): Which Is the Better Bet on Dan Ives’ $4 Trillion AI Wave?; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 13/10 15h41
-id: E05-NVDA-4b0cfcf7a8-2026-10-13 · status: pendente
+id: E05-NVDA-4b0cfcf7a8-2026-10-13 · status: entregue
 
 [ATENÇÃO] E05 · GOOGL · Alphabet target bumped to $450 at BNP Paribas on TPU outlook
 TradingView (Reuters) · 13/10 12h22 · fonte única · licença: manchete
@@ -284,8 +338,23 @@ Fonte: TradingView (Reuters) 12/10 11h41
 id: E05-PLTR-e002d7e14c-2026-10-12 · status: entregue
 
 
-## OUTRAS NOTÍCIAS (só manchete) (119)
+## OUTRAS NOTÍCIAS (só manchete) (134)
 
+· MU Micron Technology adds to recent weakness, slips another 4% (MU:NASDAQ) (Seeking Alpha) https://seekingalpha.com/news/4652705-micron-technology-adds-to-recent-weakness-slips-another-4
+· USDBRL Dólar sobe 0,71% e Bolsa registra queda de 1,04% (Poder360) https://www.poder360.com.br/poder-economia/dolar-sobe-071-e-bolsa-registra-queda-de-104/
+· USDBRL Dólar sobe e volta a superar R$ 5,00 com cenário eleitoral no radar (UOL Economia) https://economia.uol.com.br/noticias/estadao-conteudo/2026/10/13/dolar-sobe-e-volta-a-superar-r-500-com-cenario-eleitoral-no-radar.htm
+· USDBRL Ibovespa fecha em baixa de 1% e dólar ultrapassa R$ 5: eleição fez preço? (Exame) https://exame.com/invest/mercados/ibovespa-fecha-em-baixa-de-1-e-dolar-ultrapassa-r-5-eleicao-fez-preco/
+· USDBRL Ibovespa recua de olho na distância entre Lula e Flávio nas pesquisas eleitorais; dólar sobe a R$ 5,02 (Money Times) https://www.moneytimes.com.br/ibovespa-13-10-26-apsa/
+· USDBRL Dólar fecha em alta a R$ 5,02; Bolsa recua após recordes recentes (UOL Economia) https://economia.uol.com.br/cotacoes/noticias/redacao/2026/10/13/dolar-fecha-em-alta-a-r-502-bolsa-recua-apos-recordes-recentes.htm
+· USDBRL Dólar sobe com cautela dos investidores diante de pesquisas eleitorais, e contraria movimento do exterior (ADVFN) https://br.advfn.com/jornal/2026/10/dolar-sobe-com-cautela-dos-investidores-diante-de-pesquisas-eleitorais-e-contraria-movimento-do-exterior
+· PLTR If Palantir Stock Looks Expensive, You Need To Read This (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/palantir-stock-looks-expensive-read-193917404.html
+· NVDA Why Nvidia Stock Is Up Even as Microsoft Launches the Maia 300 (Barron's) https://www.barrons.com/articles/nvidia-stock-rises-microsoft-maia-300-chip-66537fa6
+· PLTR Palantir’s CTO claims AI researchers are smoking to prove they believe AI will cure cancer, and he says it’s a sign of tech-fueled ‘mass psychosis’ (Fortune) https://fortune.com/2026/10/13/palantir-cto-shyam-sankar-ai-researchers-smoking-cigarettes-cure-cancer-artificial-general-intelligence-silicon-valley-mass-psychosis-effective-altruism/
+· LITE Lumentum Stock Falls Nearly 10% as Optics Stocks Slide in a Sector-Wide Selloff . Here’s Where the Stock Could Go by 2032 (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/lumentum-stock-falls-nearly-10-165101269.html
+· GOOGL Alphabet Could Unlock $100 Billion From AI Chips by 2028, Analyst Says (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:5411733ec094b:0
+· BRENT Dow Jones hoje cai com pressão sobre ações de chips e petróleo no radar (Estadao) https://news.google.com/rss/articles/CBMi3gFBVV95cUxOYTAySlZVUlRmdzBZZjFZeVZMdDdWUWI1RC16QlYwQWlZVmVpZ3pRaU53cVdad0JoeUNDT3h1U19vOHExYWJTaXo3OUVuWlYwNGkzMWxBVzFMRzB6YW9JaWdza2FRbllQbzZQMmJWem8wT3dDMmpJQ2NlUW5NbF8tYWxUc20wbFhWSjZScXdEQkhUUlk5VUZPRjctR1pNcnZTR2VLY3dRWTJaWWh3RFUxVU9GbzRaUnJ1OU5fV3lpaXd3azRxS18tQWYtMWN3WFVESmZuME84U01tV3hwZWfSAeMBQVVfeXFMTzJsRVoyUWtIMXNQN3Q5cUtaNjFaaXNyVmVHUWg1cW1uNFpmVGZ5LTVvVUowaFZsX0pPNjZwOUxKZjFCbkRydGF6MlVRVmV2TFV4Z0lpU2RGS2trRklSVk1GZTJ3YWFsVzduZVpFcVREanc5X2ZkTnV4Q2Z6bjEzcG5vczRMdV9keGxsS1FDZGZ6TTQyczdVb0RjUjNmcGV0TVozS0hTMWphRXJPdjNDUl91d0J6YmlxWGpaVUZsOUI1U3hROElzYkJWV2pNbElIa3h6NU1KNG9rMDJhM09veEFSX2c?oc=5
+· GOOGL Claude AI Portfolio’s Best-Performing Stock Pick: Alphabet (GOOG) (Yahoo Finance) https://news.google.com/rss/articles/CBMiogFBVV95cUxQUVVJYTVoR3AyUzM2SXNwdkNlN1NSSmVPYkZHUFlKZ1ExSi12TmVQYVpjT2tScm53LXRpQl9nWjVFR00tTF9jQzA5S3NRR2RCaDdqY1pMaUN5d0ZHR2JOcFBaSVZQYXJFdjZoNXFrdGVjMGY3UHNHYjZBV0JveU9MelRZYXR1UDFmeXJreC0tdG5nVHlBdzA4UG1XVzJHSEF1TkE?oc=5
+· USDBRL Dólar fecha em alta com Flávio à frente de Lula em pesquisa; Bolsa cai com realização de lucros (Folha de S.Paulo) https://news.google.com/rss/articles/CBMiwwFBVV95cUxQOGJtRURURk04SFJGZE5nOFdnLVl1YmI2dUF2ZUo1UWJhVXljZG1oMEdoVUp4Q2hwSU9OQzlMR2otVlFZODlVaFlRUUtoQVJNU1NTY0FUY20xUGxqcmpPLVFCZnUzb2tUWWdTTDdlVkFlV3BtOC1RNGZGWV80cno3Q0tkSlJUbUxRdmtKbWhiQTNCdDNERUxhV3A4eFZFdTgzSS1pM09YVnRHckZ5bENqaHZsYlBVUEN4TlUydUg0SXlWbTg?oc=5
 · PLTR Palantir: Keep Buying More As Consensus Still Underestimates It (NASDAQ:PLTR) (Seeking Alpha) https://seekingalpha.com/article/4953904-palantir-keep-buying-more-as-consensus-still-underestimates-it
 · USDBRL Dólar sobe a R$ 5,02 com cautela de investidores após pesquisas eleitorais (Money Times) https://www.moneytimes.com.br/dolar-13-10-26-apsa/
 · USDBRL Tempo real: Ibovespa cai 1% com disputa acirrada entre Flávio e Lula; dólar sobe a R$ 5,02 (Money Times) https://www.moneytimes.com.br/tempo-real-13-10-26-apsa-lils/
@@ -331,19 +400,4 @@ id: E05-PLTR-e002d7e14c-2026-10-12 · status: entregue
 · LITE Lumentum Vs. Coherent: Backlog Quality Leaves Investors Spoiled for Choice (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/lumentum-vs-coherent-backlog-quality-144514968.html
 · MMM 3M shares may move 4.6% on earnings release next week By Investing.com (Investing.com) https://news.google.com/rss/articles/CBMisgFBVV95cUxQVUhRMmpzUXFfSWdQRUJOdWhteFVmQnM1X0s3S3Y1alcxUTZReHNnSXNxdWhXTHFoX2dkaFNnWndiMnpNWm1xb1dNRUNjTThXM19WVGFOanNBN2RXdjVEeUlNazRKMXIzeXdOVUlIOU5HX1JYOVM5T0xZeGktNVB0SEJLSU1zX3NQb01XRjNnSWl4c3FXME1TWkVxWlBYcnR1ZGwzaEctT1hIQXpWakYxZDNn?oc=5
 · NOK Nokia Stock Is Still Up 52% This Year, but Is the AI Rally Already Over? (Yahoo Finance) https://news.google.com/rss/articles/CBMikgFBVV95cUxQUlhqZVlYbzJWRGwtTndlMWNGRnJqekx3Mi0xQ3Ezc2piTG1tLW1RUGk0RC14Y0hibmNFNGdBeWNLNl9qM2U5dzY1aFZSVEFxVHJlMG1vaU1RaWFoQVpSUy1oMTFiZ1dfOXRfVjJ2ZHNkanV1MEU5VTZDSnQ2aWFHZkRmTTM3WmNQVGZZOTBkQ2pyQQ?oc=5
-· MRVL Marvell Technology Just Gave Its Investors Great News (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/marvell-technology-just-gave-investors-162002687.html
-· JPM JPMorgan’s Lisa Gill on UnitedHealth earnings: The stock slide has nothing to do with the results (CNBC) https://www.cnbc.com/video/2026/10/13/jpmorganas-lisa-gill-on-unitedhealth-earnings-the-stock-slide-has-nothing-to-do-with-the-results.html
-· UST B3 lança quatro contratos futuros de Treasuries para negociação em reais (InfoMoney) https://www.infomoney.com.br/mercados/b3-lanca-quatro-contratos-futuros-de-treasuries-para-negociacao-em-reais/
-· MRVL Marvell, Microsoft and Oracle Join Forces to Secure AI Data Center Boom (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:df898ac56094b:0-marvell-microsoft-and-oracle-join-forces-to-secure-ai-data-center-boom/
-· JPM JPMorgan, Goldman, Citigroup, Wells Fargo post Q3 profits but warn about higher rates and inflation (Fortune) https://fortune.com/2026/10/13/jpmorgan-goldman-sachs-citigroup-wells-fargo-interest-inflation/
-· UST Cash Is King Again? Record Money Market Inflows Put These Treasury ETFs on the Radar (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:8fcc95dec094b:0-cash-is-king-again-record-money-market-inflows-put-these-treasury-etfs-on-the-radar/
-· MU Micron Stock Extends Multi-Day Losing Streak: What's Going On? (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:b742bd2fb094b:0-micron-stock-extends-multi-day-losing-streak-what-s-going-on/
-· NVDA Nvidia (NVDA) Was Among Claude AI’s Top Picks This Year. Can The Stock Keep Rising? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/nvidia-nvda-among-claude-ai-133927424.html
-· GOOGL ALPHABET INC. (GOOG, GOOGL) SHAREHOLDER ALERT Bernstein (GlobeNewswire) https://www.globenewswire.com/news-release/2026/10/13/3379813/0/en/alphabet-inc-goog-googl-shareholder-alert-bernstein-liebhard-llp-reminds-alphabet-inc-investors-of-upcoming-deadline.html
-· KO Is Coca-Cola (KO) Stock Outpacing Its Consumer Staples Peers This Year? (Yahoo Finance) https://sg.finance.yahoo.com/news/coca-cola-ko-stock-outpacing-124002572.html
-· USDBRL Dólar sobe acima de R$ 5 e Bolsa recua com cenário eleitoral no radar (UOL Economia) https://economia.uol.com.br/cotacoes/noticias/redacao/2026/10/13/dolar-e-bolsa-13-de-outubro-de-2026.ghtm
-· BRENT Dólar opera em alta, com foco em preços do petróleo e novas pesquisas eleitorais no Brasil; Ibovespa cai (g1) https://g1.globo.com/economia/noticia/2026/10/13/dolar-ibovespa.ghtml
-· JPM JPMorgan Posts Surprise Drop in Fixed-Income Trading Revenue (Bloomberg) https://news.google.com/rss/articles/CBMiswFBVV95cUxOZnR2c2ZFTjlZZzIxWURnTG1xUzFMRWh4RjRoOVdreDNzUjc4aGZ4cVlnUHkyOXFVcTI2XzUzWW83VEdPenlNaTNUMUk0bzctbXZ3WjlvdzBZNHhyUlNmWEYxekppcDZFNS1YWE1hNjZSTGRzXzBnQW9HaE42RTVEcjRMMjZpT2FLUmQtUkt6TmV3alVXNFFHYjJEQnVzYXlBNFlDVkxxdDU4Um9BQzg5Q01rRQ?oc=5
-· MRVL Marvell: A Strong Buy With A $90 Billion Opportunity (NASDAQ:MRVL) (Seeking Alpha) https://seekingalpha.com/article/4953811-marvell-a-strong-buy-with-a-90-billion-opportunity
-· DI BTG aponta empresas da Bolsa que mais podem ganhar com queda da Selic (UOL Economia) https://economia.uol.com.br/noticias/redacao/2026/10/13/btg-aponta-empresas-da-bolsa-que-mais-podem-ganhar-com-queda-da-selic.ghtm
-· (+59 manchetes; lista completa em eventos/noticias.json)
+· (+74 manchetes; lista completa em eventos/noticias.json)
