@@ -1,104 +1,164 @@
 ALERTAS · eventos
 
-(pendente de slot anterior) [ATENÇÃO] E05 · JPM · JPMorgan, Goldman Sachs tread carefully in $5B Volta AI loan offering - report (JPM:NYSE)
-Seeking Alpha · 12/10 17h00 · fonte única · licença: manchete
-Link: https://seekingalpha.com/news/4652223-jpmorgan-goldman-sachs-tread-carefully-in-5b-volta-ai-loan-offering---report
-Por que importa: oferta de acoes ou divida altera a base acionaria ou a alavancagem
-Ativos: JPM
-Como falar: 'saiu no Seeking Alpha: JPMorgan, Goldman Sachs tread carefully in $5B Volta AI loan offering - report (JPM:NYSE); confirmar o número no texto antes de repassar'
-Fonte: Seeking Alpha 12/10 17h00
-ids: E05-JPM-d30c6e05f9-2026-10-12
+(pendente de slot anterior) [CRÍTICO] T05 · 2 ativos: SAPR4, RARA11
+· SAPR4 -7,9% no dia a R$ 7,97: movimento de 3,0 desvios para uma vol de 20 dias de 43% a.a.
+  1m +18% · 6m -2,8% · YTD +3,3%
+· RARA11 -4,9% no dia a R$ 12,92: movimento de 3,4 desvios para uma vol de 20 dias de 23% a.a.
+  1m -20% · 6m - · YTD -
+Por que importa: acima de 3 desvios o movimento sai do ruído e costuma vir de fato novo ou fluxo forçado
+Como falar: 'o movimento de hoje é atípico para este papel; antes de mexer, saber o motivo'
+Fonte: Yahoo Finance fech. 13/10
+ids: T05-SAPR4-queda-2026-10-13, T05-RARA11-queda-2026-10-13
 
-(pendente de slot anterior) [ATENÇÃO] E05 · AMZN · MIT files patent lawsuit against Amazon over cloud security technology
-TradingView (Reuters) · 12/10 12h06 · + Reuters · licença: manchete
-Link: https://www.tradingview.com/news/reuters.com,2026:newsml_L6N45Y0S7:0-mit-files-patent-lawsuit-against-amazon-over-cloud-security-technology/
-Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e prazo
-Ativos: AMZN
-Como falar: 'saiu no TradingView (Reuters): MIT files patent lawsuit against Amazon over cloud security technology; confirmar o número no texto antes de repassar'
-Fonte: TradingView (Reuters) 12/10 12h06
-ids: E05-AMZN-88dbe45d2f-2026-10-12
+(pendente de slot anterior) [CRÍTICO] T08 · 2 ativos: QNTM, SAPR4
+· QNTM entrou em bear técnico: -21% do pico de 52s (US$ 34,65 em 02/06) a US$ 27,35
+  1m -6,1% · 6m +7,8% · 12m -2,9%
+· SAPR4 entrou em correção: -12% do pico de 52s (R$ 9,08 em 28/01) a R$ 7,97
+  1m +18% · 6m -2,8% · 12m +17%
+Por que importa: -20% do pico é o limiar que a indústria chama de bear técnico; recuperar o pico exige +27%
+Como falar: 'o cliente sente a queda no extrato; a conversa é sobre a tese, não sobre o preço de hoje'
+Fonte: Yahoo Finance fech. 13/10
+ids: T08-QNTM--20-2026-10-13, T08-SAPR4--10-2026-10-13
 
-(pendente de slot anterior) [ATENÇÃO] E05 · MU · What's next for Micron Technology after blockbuster Q4, guidance beat?
-TradingView (Reuters) · 12/10 09h06 · fonte única · licença: manchete
-Link: https://www.tradingview.com/news/seekingalpha:8c4879a9d094b:0-what-s-next-for-micron-technology-after-blockbuster-q4-guidance-beat/
-Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
-Ativos: MU
-Como falar: 'saiu no TradingView (Reuters): What's next for Micron Technology after blockbuster Q4, guidance beat?; confirmar o número no texto antes de repassar'
-Fonte: TradingView (Reuters) 12/10 09h06
-ids: E05-MU-5fb3d7e91d-2026-10-12
+(pendente de slot anterior) [ATENÇÃO] M03 · Focus de 09/10: IPCA: 2026 5,22% (+21 bps) · 2027 4,30% (-0 bps)
+Selic fim de ano: 2026 13,25% (-25 bps) · 2027 12,00% (0 bps)
+Câmbio fim de ano: 2026 R$ 5,15 (-0,05) · 2027 R$ 5,26 (-0,02)
+Por que importa: a mediana do Focus é a régua do Copom; mudança de 10 bps no IPCA ou 25 bps na Selic muda a leitura da curva
+Ativos: DI · Tesouro · USD/BRL
+Como falar: 'o mercado revisou as projeções; comparar com o que a curva de juros já precifica'
+Fonte: BCB Focus (Olinda) 09/10
+ids: M03-MACRO-focus-2026-10-09
+
+(pendente de slot anterior) [ATENÇÃO] E03 · PETR4 · Fato Relevante: Assinou com as empresas Shell, TotalEnergies e Petrogal, parceiras do Consórcio BM-S-11A, os Acordos de Equalização de Gastos e Volumes (AEGVs) de Be…
+CVM · entregue 13/10/2026 18:04
+Do documento:
+  – Em decorrência da assinatura dos Acordos de Equalização de Gastos e Volumes (AEGVs), a Petrobras  receberá das empresas parceiras do Consórcio BM -S-11A o valor líquido de aproximadamente US$ 859  milhões.
+  – O montante será liquidado até novembro de 2026.
+  – O período considerado compreende desde a assinatura do  Contrato de Concessão BM-S-11, em 15/09/2000, até a data de 30/04/2026, dia anterior à data efetiva  dos AIPs de Berbigão e de Sururu.
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1576827
+Por que importa: fato relevante e o que a propria companhia julga capaz de mover o preco; ler o documento inteiro antes de comentar
+Ativos: PETR4
+Como falar: 'a Petrobras publicou fato relevante sobre Assinou com as empresas Shell, TotalEnergies e Petrogal, parceiras do…'
+Fonte: CVM 13/10
+ids: E03-PETR4-1576827-2026-10-13
+
+(pendente de slot anterior) [ATENÇÃO] E05 · MELI34 · Mercado Livre (MELI34): Citi corta preço-alvo, mas vê melhora nas margens; vale comprar?
+Suno Noticias · 13/10 17h45 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Negócios Mercado Livre (MELI34): Citi corta preço-alvo, mas vê melhora nas margens; vale comprar?
+  – O Mercado Livre (MELI34) passou por uma revisão que mistura mais confiança na operação com cautela sobre o preço da ação.
+  – Nesta terça-feira (13), o Citi reduziu seu preço-alvo de US$ 2.150 para US$ 2.100 e manteve a recomendação neutra, antes do balanço do terceiro trimestre.
+  – O valor se refere à ação MELI, negociada nos Estados Unidos, e não diretamente ao BDR MELI34, disponível na bolsa brasileira.
+  – A divulgação dos resultados está prevista para 4 de novembro.
+  – A recomendação passou de “Neutra/Alto Risco” para “Neutra”, refletindo menor volatilidade e mais visibilidade sobre as margens.
+Link: https://www.suno.com.br/noticias/mercado-livre-meli34-citi-corta-preco-alvo-mt/
+Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
+Ativos: MELI34
+Como falar: 'saiu no Suno Noticias: Mercado Livre (MELI34): Citi corta preço-alvo, mas vê melhora nas margens; vale comprar?; confirmar o número no texto antes de repassar'
+Fonte: Suno Noticias 13/10 17h45
+ids: E05-MELI34-75667e17d6-2026-10-13
+
+(pendente de slot anterior) [ATENÇÃO] E05 · KO · Coca-Cola or Chevron: The One Dividend Stock I’d Hold for the Next 20 Years
+Yahoo Finance · 13/10 17h02 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Key Takeaways - Chevron yields 3.4%, and Coca-Cola 2.5%, and Chevron raised its dividend faster from fiscal 2020 to fiscal 2025: 5.8% a year to Coca-Cola's 4.5%.
+  – - Over the last twelve months, Chevron's dividend took 51% of its free cash flow, against 77% for Coca-Cola.
+  – - Coca-Cola's free cash flow fell short of its dividend in fiscal 2024 and 2025, then rebounded to $6.9 billion in the first half of 2026.
+  – - Chevron's own 2030 targets assume commodity prices lower than today's, so oil prices are the thing to watch.
+  – Free cash flow hit $18.1 billion in the second quarter of 2026, up from $4.9 billion a year earlier, and production rose 20%.
+  – Net revenues grew 7% to $13.4 billion, and unit case volume rose 5%.
+Link: https://finance.yahoo.com/markets/stocks/articles/coca-cola-chevron-one-dividend-200203497.html
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: KO · CVX
+Como falar: 'saiu no Yahoo Finance: Coca-Cola or Chevron: The One Dividend Stock I’d Hold for the Next 20 Years; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 13/10 17h02
+ids: E05-KO-051407d826-2026-10-13
+
+[ATENÇÃO] E03 · BBDC4 · Comunicado ao Mercado: Recebeu, em 12 de outubro de 2026, notificação da BlackRock, Inc (“BlackRock”), anexa ao presente, informando aquisição de participação acionária rel…
+CVM · entregue 13/10/2026 18:46 · Aquisição/Alienação de Participação Acionária Relevante / Declaração de Aquisição de Participação Acionária Relevante
+Do documento:
+  – 3 Permanecemos à disposição para quaisquer esclarecimentos ou comentários adicionais que julguem  necessários quanto ao assunto.
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1576899
+Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; confirma ou nega o que circula
+Ativos: BBDC4
+Como falar: 'a Bradesco publicou comunicado ao mercado sobre Recebeu, em 12 de outubro de 2026, notificação da BlackRock, Inc (“Bl…'
+Fonte: CVM 13/10
+Push: [ATENÇÃO] BBDC4 · Comunicado ao Mercado · detalhe na sessão
+ids: E03-BBDC4-1576899-2026-10-13
 
 Info (só linha no Fechamento):
-· T08 INTC entrou em queda de -25% do pico: -26% do pico de 52s (US$ 140,94 em 22/06) a US$ 104,70
-· C05 Pre 2029 FECHA 23 bps (PU +0,5%) · Pre 2031 FECHA 26 bps (PU +1,0%) · IPCA+ 2032 FECHA 17 bps (PU +1,1%) (base 09/10)
-· C03 Prefixado em nível: Pre 2029 cruzou 12,50% (agora 12,30%) · Pre 2029 na mínima de 252 bases: 12,30% · Pre 2031 cruzou 12,50% (agora 12,45%)
-· C06 Inflação implícita: implícita 2029 -67 bps na semana · implícita 2032 -56 bps na semana · implícita 2031/32 (descasado) -57 bps na semana
-· T06 PLTR +11% em 5 sessões a US$ 209,05: movimento de 3,2 desvios para a vol de 20 dias
-· T06 RARA11 -8,3% em 5 sessões a R$ 13,58: movimento de 2,6 desvios para a vol de 20 dias
-· T06 CURY3 +23% em 5 sessões a R$ 34,52: movimento de 2,9 desvios para a vol de 20 dias
-· T09 MRVE3 +22% com volume 2,6x a mediana de 20 sessões, a R$ 7,82
-· T10 SAPR4 no máximo de força relativa em 63 sessões contra IBOV: +28% vs +12% em 20 sessões (+14% relativo)
-· T10 KLBN4 no mínimo de força relativa em 63 sessões contra IBOV: -5,7% vs +12% em 20 sessões (-16% relativo)
-· T10 MRVE3 no máximo de força relativa em 63 sessões contra IBOV: +36% vs +12% em 20 sessões (+22% relativo)
+· E03 PETR4 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
+· E05 USDBRL · Ibovespa cai e dólar sobe a R$5,02 com pesquisas eleitorais no radar
+· E05 BBDC4 · BlackRock amplia fatia no Bradesco e passa a deter mais de 10% das ações preferenciais
+· E05 NVDA · Nvidia in 5 Years: Where the Stock Could Be Headed
+· E05 DI · Vencedores e vencidos pelos juros: o mapa do BTG para a sua carteira com a Selic menor
+· E05 USDBRL · Dólar sobe 0,74% e volta a fechar acima de R$ 5
+· E05 PETR4 · PetroReconcavo (RECV3) aprova aditivos de contratos com Petrobras (PETR4) e acordo de venda de gás para a Shell
+· E05 PETR4 · Petrobras (PETR4) recebe valor milionário ligado a jazidas de Berbigão e Sururu; veja valor
+· E05 BRENT · OPEC Sees Oil Demand Growth Surging to 2.6 Million Bpd in 2027
+· E05 AXIA3 · Axia (AXIA3) divulga detalhes sobre 5º resgate de ações preferenciais classe C; confira
+· E05 GOOGL · Broadcom Stocks Drop as Its Google-Infrastructure Thesis Faces a Revenue Test
+· E05 PLTR · Palantir Stocks Fall as Baird Lifts Its AI Target
+· E05 BAC · Bank of America fined $1.2 billion over money-laundering violations
+· E05 BTC · Tom Lee Says Ethereum’s Years-Long Slide Against Bitcoin Is Ending. Ethereum Lost Another 4.6% to Bitcoin in a Week.
+· C01 A curva ABRIU: F28 +17 bps no dia · F29 +22 bps no dia · F30 +24 bps no dia (ajuste B3 13/10)
+· C02 Inclinação da curva DI: F35-F28 -25 bps em 5 pregões · F30-F28 -20 bps em 5 pregões
+· C03 DI em nível: F32 cruzou 12,50% (para cima, agora 12,54%) · F35 cruzou 12,50% (para cima, agora 12,58%)
+· T01 WQTM fechou abaixo da média de 200 dias pela 1ª sessão: US$ 34,82 vs MM200 US$ 35,84 (-2,9%)
+· T01 KLBN4 fechou abaixo da média de 200 dias pela 2ª sessão: R$ 3,64 vs MM200 R$ 3,67 (-0,8%)
+· T04 RARA11 fechou na mínima da série de 60 sessões: R$ 12,92, -20% em 1m e - em 12m
+· T09 SMAL11 -3,4% com volume 2,7x a mediana de 20 sessões, a R$ 134,99
+· T09 RARA11 -4,9% com volume 2,8x a mediana de 20 sessões, a R$ 12,92
 
-Suprimidos pelo teto (viram linha do Fechamento): T08-INTC--25-2026-10-09 (teto diário de críticos), C05-TESOURO-fechou-2026-10-09 (teto diário de críticos), C03-TESOURO-td-2026-10-09 (teto diário de críticos), C06-TESOURO-implicita-2026-10-09 (teto diário de críticos), T06-PLTR-alta-2026-10-09 (teto de atenção), T06-RARA11-queda-2026-10-09 (teto de atenção), T06-CURY3-alta-2026-10-09 (teto de atenção), T09-MRVE3-alta-2026-10-09 (teto de atenção), T10-SAPR4-máximo-2026-10-09 (teto de atenção), T10-KLBN4-mínimo-2026-10-09 (teto de atenção), T10-MRVE3-máximo-2026-10-09 (teto de atenção)
+Suprimidos pelo teto (viram linha do Fechamento): C01-DI-abriu-2026-10-13 (teto de atenção), C02-DI-inclinacao-2026-10-13 (teto de atenção), C03-DI-di-2026-10-13 (teto de atenção), T01-WQTM-perda-2026-10-13 (teto de atenção), T01-KLBN4-perda-2026-10-13 (teto de atenção), T04-RARA11-minima-2026-10-13 (teto de atenção), T09-SMAL11-queda-2026-10-13 (teto de atenção), T09-RARA11-queda-2026-10-13 (teto de atenção)
 
 Alertas do dia (todos, com status):
-· linha     T08 REMX — REMX entrou em queda de -45% do pico: -47% do pico de 52s (US$ 109,53 em 11/05) 
-· linha     T08 COHR — COHR entrou em queda de -30% do pico: -33% do pico de 52s (US$ 426,89 em 02/06) 
-· linha     T08 NOK — NOK entrou em queda de -40% do pico: -41% do pico de 52s (US$ 16,85 em 02/06) a 
-· linha     C05 TESOURO — Pre 2029 FECHA 23 bps (PU +0,5%) · Pre 2031 FECHA 26 bps (PU +1,0%) · IPCA+ 2032
-· entregue  C01 DI — A curva FECHOU: F28 -98 bps em 5 pregões · F28 8 pregões seguidos (-115 bps) · F
-· entregue  T05 MRVE3 — MRVE3 +22% no dia a R$ 7,82: movimento de 6,0 desvios para uma vol de 20 dias de
-· linha     T08 INTC — INTC entrou em queda de -25% do pico: -26% do pico de 52s (US$ 140,94 em 22/06) 
-· linha     T01 WQTMUS — WQTMUS fechou abaixo da média de 200 dias pela 1ª sessão: US$ 30,24 vs MM200 US$
-· linha     T01 NOK — NOK fechou abaixo da média de 200 dias pela 1ª sessão: US$ 9,90 vs MM200 US$ 10,
-· linha     T04 REMX — REMX fechou na mínima de 52 semanas: US$ 58,18, -18% em 1m e -15% em 12m
-· linha     T08 SOXX — SOXX entrou em queda de -15% do pico: -17% do pico de 52s (US$ 655,01 em 22/06) 
-· linha     T08 MRVL — MRVL entrou em queda de -15% do pico: -16% do pico de 52s (US$ 316,43 em 04/06) 
-· linha     T08 MU — MU entrou em queda de -15% do pico: -19% do pico de 52s (US$ 1.214 em 25/06) a U
-· expirado  E05 JPM — JPM · JPMorgan, Goldman Sachs tread carefully in $5B Volta AI loan offering - re
-· expirado  E05 AMZN — AMZN · MIT files patent lawsuit against Amazon over cloud security technology
-· expirado  E05 MU — MU · What's next for Micron Technology after blockbuster Q4, guidance beat?
-· linha     C03 TESOURO — Prefixado em nível: Pre 2029 cruzou 12,50% (agora 12,30%) · Pre 2029 na mínima d
-· linha     C06 TESOURO — Inflação implícita: implícita 2029 -67 bps na semana · implícita 2032 -56 bps na
-· entregue  C02 DI — Inclinação da curva DI: F35-F28 -24 bps no dia: bull flattening (longo fechou ma
-· entregue  C03 DI — DI em nível: F29 na mínima de 252 pregões: 12,22% · F30 na mínima de 252 pregões
-· entregue  T05 PLTR — PLTR +5,2% no dia a US$ 209,05: movimento de 3,5 desvios para uma vol de 20 dias
-· linha     T06 PLTR — PLTR +11% em 5 sessões a US$ 209,05: movimento de 3,2 desvios para a vol de 20 d
-· linha     T06 RARA11 — RARA11 -8,3% em 5 sessões a R$ 13,58: movimento de 2,6 desvios para a vol de 20 
-· linha     T06 CURY3 — CURY3 +23% em 5 sessões a R$ 34,52: movimento de 2,9 desvios para a vol de 20 di
-· linha     T09 MRVE3 — MRVE3 +22% com volume 2,6x a mediana de 20 sessões, a R$ 7,82
-· linha     T10 SAPR4 — SAPR4 no máximo de força relativa em 63 sessões contra IBOV: +28% vs +12% em 20 
-· linha     T10 KLBN4 — KLBN4 no mínimo de força relativa em 63 sessões contra IBOV: -5,7% vs +12% em 20
-· linha     T10 MRVE3 — MRVE3 no máximo de força relativa em 63 sessões contra IBOV: +36% vs +12% em 20 
-· entregue  E05 USDBRL — USDBRL · Ibovespa tem duplo recorde aos 209 mil pontos e avança quase 9% na sema
-· entregue  E05 KO — KO · Coca-Cola Consolidated Announces Fourth Quarter Dividend
-· expirado  E05 KO — KO · Coca-Cola Consolidated declares $0.25 quarterly dividend By Investing.com
-· entregue  E05 USDBRL — USDBRL · Tempo real: Ibovespa sobe aos 209 mil pontos e renova recorde intradia 
-· entregue  E05 BTC — BTC · Bitcoin steadies near $82,500 after Trump rules out Iran strike before mid
-· entregue  E05 BRENT — BRENT · Produção de petróleo e gás natural no Brasil bate recorde em 2025
-· entregue  M01 MACRO — Agenda: IPCA de setembro (IBGE) hoje às 09:00 (09/10)
-· entregue  E05 MRVE3 — MRVE3 · Agenda de empresas: Lucro da Camil cai 47,5%; vendas da MRV&Co sobem 29,
-· entregue  E05 TSLA — TSLA · Key facts: Tesla, Inc. 486,532 Q3 deliveries; $25B+ 2026 capex; $43.5B ca
-· entregue  E05 META — META · Key facts: META Q4 $73–$76B guidance; bans TikTok ads; 2026 capex +$5–$10
-· linha     T09 KLBN4 — KLBN4 -1,1% com volume 2,5x a mediana de 20 sessões, a R$ 3,63
-· linha     F05 BHKP — Celulose (proxy SHFE, fibra longa) -3,1% na semana: 4.810 CNY/t (12/10)
-· linha     T01 AVGO — AVGO fechou abaixo da média de 200 dias pela 2ª sessão: US$ 361,54 vs MM200 US$ 
-· linha     T01 NOK — NOK retomou a média de 200 dias pela 1ª sessão: US$ 10,36 vs MM200 US$ 10,12 (+2
-· linha     T01 MRVE3 — MRVE3 retomou a média de 200 dias pela 1ª sessão: R$ 7,82 vs MM200 R$ 6,64 (+18%
-· linha     T01 CURY3 — CURY3 retomou a média de 200 dias pela 1ª sessão: R$ 34,52 vs MM200 R$ 32,13 (+7
-· linha     T04 PLTR — PLTR fechou na máxima de 52 semanas: US$ 209,05, +23% em 1m e +13% em 12m
-· linha     T04 SMAL11 — SMAL11 fechou na máxima de 52 semanas: R$ 139,80, +27% em 1m e +35% em 12m
-· linha     T02 BOTZ — BOTZ perdeu a MM50 pela 2ª sessão: US$ 35,48, já abaixo da MM200 (confirma tendê
-· linha     T02 WQTM — WQTM perdeu a MM50 pela 2ª sessão: US$ 36,63, ainda acima da MM200 (tendência lo
-· linha     T02 AVGO — AVGO perdeu a MM50 pela 2ª sessão: US$ 361,54, já abaixo da MM200 (confirma tend
-· linha     T02 INTC — INTC perdeu a MM100 pela 2ª sessão: US$ 104,70, ainda acima da MM200 (tendência 
-· linha     T02 ETH — ETH perdeu a MM50 pela 2ª sessão: US$ 2.481, ainda acima da MM200 (tendência lon
-· linha     T07 PLTR — PLTR entrou em sobrecomprado: RSI14 76 a US$ 209,05
-· linha     T07 MRVE3 — MRVE3 entrou em sobrecomprado: RSI14 85 a R$ 7,82
-· linha     T09 ITSA4 — ITSA4 +1,6% com volume 2,7x a mediana de 20 sessões, a R$ 16,31
-· linha     T10 IGV — IGV no máximo de força relativa em 63 sessões contra SPX: +11% vs +2,0% em 20 se
-· linha     T10 LITE — LITE no máximo de força relativa em 63 sessões contra SOX: +19% vs +6,3% em 20 s
-· linha     F01 USDBRL — Real sobe: USD/BRL 4,9823 (-4,5% em 5 sessões · cruzou R$ 5,00) (parcial, intrad
-· (+54 notícias só manchete, em noticias.md)
+· pendente  T05 SAPR4 — SAPR4 -7,9% no dia a R$ 7,97: movimento de 3,0 desvios para uma vol de 20 dias d
+· pendente  T08 QNTM — QNTM entrou em bear técnico: -21% do pico de 52s (US$ 34,65 em 02/06) a US$ 27,3
+· pendente  E03 BBDC4 — BBDC4 · Comunicado ao Mercado: Recebeu, em 12 de outubro de 2026, notificação da
+· linha     C01 DI — A curva ABRIU: F28 +17 bps no dia · F29 +22 bps no dia · F30 +24 bps no dia (aju
+· linha     C02 DI — Inclinação da curva DI: F35-F28 -25 bps em 5 pregões · F30-F28 -20 bps em 5 preg
+· linha     C03 DI — DI em nível: F32 cruzou 12,50% (para cima, agora 12,54%) · F35 cruzou 12,50% (pa
+· linha     T01 WQTM — WQTM fechou abaixo da média de 200 dias pela 1ª sessão: US$ 34,82 vs MM200 US$ 3
+· linha     T01 KLBN4 — KLBN4 fechou abaixo da média de 200 dias pela 2ª sessão: R$ 3,64 vs MM200 R$ 3,6
+· linha     T04 RARA11 — RARA11 fechou na mínima da série de 60 sessões: R$ 12,92, -20% em 1m e - em 12m
+· pendente  T05 RARA11 — RARA11 -4,9% no dia a R$ 12,92: movimento de 3,4 desvios para uma vol de 20 dias
+· pendente  T08 SAPR4 — SAPR4 entrou em correção: -12% do pico de 52s (R$ 9,08 em 28/01) a R$ 7,97
+· linha     T09 SMAL11 — SMAL11 -3,4% com volume 2,7x a mediana de 20 sessões, a R$ 134,99
+· linha     T09 RARA11 — RARA11 -4,9% com volume 2,8x a mediana de 20 sessões, a R$ 12,92
+· pendente  M03 MACRO — Focus de 09/10: IPCA: 2026 5,22% (+21 bps) · 2027 4,30% (-0 bps)
+· pendente  E03 PETR4 — PETR4 · Fato Relevante: Assinou com as empresas Shell, TotalEnergies e Petrogal,
+· pendente  E05 MELI34 — MELI34 · Mercado Livre (MELI34): Citi corta preço-alvo, mas vê melhora nas marge
+· pendente  E05 KO — KO · Coca-Cola or Chevron: The One Dividend Stock I’d Hold for the Next 20 Years
+· entregue  E05 JPM — JPM · Prediction: JPMorgan Chase Raises Its Dividend Again in 2027
+· entregue  E05 ETH — ETH · Ethereum Needs to Double to Reach $4,946 Again. XRP Needs 2.6x to Hit $3.6
+· entregue  E05 NVDA — NVDA · Nvidia (NVDA) or Apple (AAPL): Which Is the Better Bet on Dan Ives’ $4 Tr
+· entregue  E05 GOOGL — GOOGL · Alphabet target bumped to $450 at BNP Paribas on TPU outlook
+· entregue  E05 TSLA — TSLA · Goldman Says Tesla’s Robotaxi, Optimus Outlook Will Matter More Than Q3 E
+· entregue  E05 JPM — JPM · Top Midday Stories: JPMorgan Shares Rise Despite Q3 Miss; J&J EPS Guidance
+· entregue  E05 JPM — JPM · JPMorgan Misses Q3 Estimates, but Dimon’s Buyback Cut Is the Bigger Story
+· entregue  E05 JPM — JPM · Earnings call transcript: JPMorgan Chase misses Q3 2026 forecasts as profi
+· entregue  E03 ALUP4 — ALUP4 · Comunicado ao Mercado: ALUP11; ALUP3; ALUP4), comunica aos seus acionist
+· entregue  E05 JPM — JPM · JPMorgan Raises Income Outlook As Bond Trading Slips
+· entregue  E05 JPM — JPM · JPMorgan profit rises 6% but misses third-quarter forecasts
+· entregue  E05 JPM — JPM · Bank Earnings Q3 2026: Goldman +30% Beat, JPMorgan Misses Revenue
+· entregue  E05 JPM — JPM · Lucro do JPMorgan aumenta no 3º tri com banco de investimento e negociaçõe
+· entregue  E05 JPM — JPM · Earnings Snapshot: JPMorgan Chase misses Q3 estimates, reports $2.7B credi
+· entregue  E01 BAC — BAC: resultado sai na próxima sessão (14/10)
+· entregue  E04 JPM — JPM · 8-K: 2.02 resultado do trimestre
+· entregue  E05 CVX — CVX · Verizon or Chevron: I Can Only Pick One Dividend Stock for the Next 10 Yea
+· entregue  E05 TSLA — TSLA · Jefferies raises Tesla price target as resilient deliveries support autom
+· entregue  E05 PLTR — PLTR · Palantir Stock Hits New Record High, Wipes Out Its Nearly 50% Drawdown
+· entregue  S01 SISTEMA — coleta do slot manha saiu incompleta: bcb: BCB devolveu 4 de 5 séries (faltaram 
+· linha     T01 MMM — MMM retomou a média de 200 dias pela 2ª sessão: US$ 162,77 vs MM200 US$ 159,57 (
+· linha     T02 SOXX — SOXX perdeu a MM100 pela 2ª sessão: US$ 543,90, ainda acima da MM200 (tendência 
+· linha     T02 QTUM — QTUM perdeu a MM100 pela 2ª sessão: US$ 147,61, ainda acima da MM200 (tendência 
+· linha     T02 COHR — COHR perdeu a MM50 pela 2ª sessão: US$ 289,98, já abaixo da MM200 (confirma tend
+· linha     T02 NOK — NOK perdeu a MM50 pela 2ª sessão: US$ 9,86, já abaixo da MM200 (confirma tendênc
+· linha     T02 KLBN4 — KLBN4 perdeu a MM50 pela 2ª sessão: R$ 3,64, já abaixo da MM200 (confirma tendên
+· linha     T06 WQTMUS — WQTMUS -9,0% em 5 sessões a US$ 29,72: movimento de 2,5 desvios para a vol de 20
+· linha     T12 SMH — SMH: 6 quedas seguidas (-7,2% acumulado) a US$ 588,12
+· linha     T12 RARA11 — RARA11: 6 quedas seguidas (-13% acumulado) a R$ 12,92
+· linha     F01 USDBRL — Real cai: USD/BRL 5,0218 (cruzou R$ 5,00) (parcial, intradia)
+· (+156 notícias só manchete, em noticias.md)
 

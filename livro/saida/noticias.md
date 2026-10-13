@@ -1,8 +1,19 @@
-NOTÍCIAS E FATOS · 13/10 18h12
+NOTÍCIAS E FATOS · 13/10 20h41
 
-Pernas: noticias ok 17 novas (18 consultas; descartadas: 441 veículo fora da lista, 33 sem ativo, 2 teto) · cvm ok 2 novos de 4 (4 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 13 novas (18 consultas; descartadas: 456 veículo fora da lista, 29 sem ativo, 3 teto) · cvm ok 2 novos de 6 (5 cias casadas) · sec ok 0 novos em 3 dias
 
-## FATOS RELEVANTES E COMUNICADOS (CVM) (4)
+## FATOS RELEVANTES E COMUNICADOS (CVM) (6)
+
+[ATENÇÃO] E03 · BBDC4 · Comunicado ao Mercado: Recebeu, em 12 de outubro de 2026, notificação da BlackRock, Inc (“BlackRock”), anexa ao presente, informando aquisição de participação acionária rel…
+CVM · entregue 13/10/2026 18:46 · Aquisição/Alienação de Participação Acionária Relevante / Declaração de Aquisição de Participação Acionária Relevante
+Do documento:
+  – 3 Permanecemos à disposição para quaisquer esclarecimentos ou comentários adicionais que julguem  necessários quanto ao assunto.
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1576899
+Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; confirma ou nega o que circula
+Ativos: BBDC4
+Como falar: 'a Bradesco publicou comunicado ao mercado sobre Recebeu, em 12 de outubro de 2026, notificação da BlackRock, Inc (“Bl…'
+Fonte: CVM 13/10
+id: E03-BBDC4-1576899-2026-10-13 · status: pendente · íntegra disponível
 
 [ATENÇÃO] E03 · PETR4 · Fato Relevante: Assinou com as empresas Shell, TotalEnergies e Petrogal, parceiras do Consórcio BM-S-11A, os Acordos de Equalização de Gastos e Volumes (AEGVs) de Be…
 CVM · entregue 13/10/2026 18:04
@@ -27,6 +38,15 @@ Ativos: ALUP4
 Como falar: 'a Alupar publicou comunicado ao mercado sobre ALUP11; ALUP3; ALUP4), comunica aos seus acionistas e ao mercado em g…'
 Fonte: CVM 13/10
 id: E03-ALUP4-1576536-2026-10-13 · status: entregue · íntegra disponível
+
+[INFO] E03 · PETR4 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
+CVM · entregue 13/10/2026 20:25 · Outros Comunicados Não Considerados Fatos Relevantes
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1576928
+Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; confirma ou nega o que circula
+Ativos: PETR4
+Como falar: 'a Petrobras publicou comunicado ao mercado sobre Outros Comunicados Não Considerados Fatos Relevantes'
+Fonte: CVM 13/10
+id: E03-PETR4-1576928-2026-10-13 · status: linha
 
 [INFO] E03 · SAPR4 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
 CVM · entregue 13/10/2026 18:00 · Outros Comunicados Não Considerados Fatos Relevantes
@@ -338,8 +358,21 @@ Fonte: TradingView (Reuters) 12/10 11h41
 id: E05-PLTR-e002d7e14c-2026-10-12 · status: entregue
 
 
-## OUTRAS NOTÍCIAS (só manchete) (134)
+## OUTRAS NOTÍCIAS (só manchete) (147)
 
+· USDBRL Ibovespa cai e dólar sobe a R$5,02 com pesquisas eleitorais no radar (TradingView (Reuters)) https://br.tradingview.com/news/reuters.com,2026:newsml_L1N45Z15K:0/
+· BBDC4 BlackRock amplia fatia no Bradesco e passa a deter mais de 10% das ações preferenciais (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/blackrock-amplia-fatia-no-bradesco-e-passa-a-deter-mais-de-10-das-acoes-preferenciais/
+· NVDA Nvidia in 5 Years: Where the Stock Could Be Headed (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/nvidia-5-years-where-stock-222600294.html
+· DI Vencedores e vencidos pelos juros: o mapa do BTG para a sua carteira com a Selic menor (Seu Dinheiro) https://www.seudinheiro.com/2026/empresas/vencedores-e-vencidos-pelos-juros-o-mapa-do-btg-para-a-sua-carteira-com-a-selic-menor-ccgg/
+· USDBRL Dólar sobe 0,74% e volta a fechar acima de R$ 5 (Agencia Brasil) https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/dolar-sobe-074-e-volta-fechar-acima-de-r-5
+· PETR4 PetroReconcavo (RECV3) aprova aditivos de contratos com Petrobras (PETR4) e acordo de venda de gás para a Shell (Money Times) https://www.moneytimes.com.br/petroreconcavo-recv3-aprova-aditivos-de-contratos-com-petrobras-petr4-e-acordo-de-venda-de-gas-para-a-shell-apsa/
+· PETR4 Petrobras (PETR4) recebe valor milionário ligado a jazidas de Berbigão e Sururu; veja valor (Money Times) https://www.moneytimes.com.br/petrobras-petr4-anuncia-recebimento-milionario-ligado-a-jazidas-de-berbigao-e-sururu-veja-valor-apsa/
+· BRENT OPEC Sees Oil Demand Growth Surging to 2.6 Million Bpd in 2027 (OilPrice.com) https://oilprice.com/Latest-Energy-News/World-News/OPEC-Sees-Oil-Demand-Growth-Surging-to-26-Million-Bpd-in-2027.html
+· AXIA3 Axia (AXIA3) divulga detalhes sobre 5º resgate de ações preferenciais classe C; confira (Money Times) https://www.moneytimes.com.br/axia-axia3-divulga-detalhes-sobre-5o-resgate-de-acoes-preferenciais-classe-c-confira/
+· GOOGL Broadcom Stocks Drop as Its Google-Infrastructure Thesis Faces a Revenue Test (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:e3263e78e094b:0-broadcom-stocks-drop-as-its-google-infrastructure-thesis-faces-a-revenue-test/
+· PLTR Palantir Stocks Fall as Baird Lifts Its AI Target (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:30230ade5094b:0-palantir-stocks-fall-as-baird-lifts-its-ai-target/
+· BAC Bank of America fined $1.2 billion over money-laundering violations (CNBC) https://www.cnbc.com/2026/10/13/bank-of-america-treasury-money-laundering.html
+· BTC Tom Lee Says Ethereum’s Years-Long Slide Against Bitcoin Is Ending. Ethereum Lost Another 4.6% to Bitcoin in a Week. (Yahoo Finance) https://news.google.com/rss/articles/CBMilwFBVV95cUxQUVQxQlZpcm93UHhvcklBbDN0cWNfMWNFdl8tLV9GOGdJcW1Wei1WekpnbWdaRFpSRldSZ0NnRmo4SXU2eXkyRmo4NmFiN0psS1Zzb1BRbFd3YzBqeHotWE5ESW9WRUFnaUo4Ym1Wc0xJWU1hei1rWTUwYWRGM0RReTlWQ0NLMi0yV0FueDk0NkVHZ1dYbnpv?oc=5
 · MU Micron Technology adds to recent weakness, slips another 4% (MU:NASDAQ) (Seeking Alpha) https://seekingalpha.com/news/4652705-micron-technology-adds-to-recent-weakness-slips-another-4
 · USDBRL Dólar sobe 0,71% e Bolsa registra queda de 1,04% (Poder360) https://www.poder360.com.br/poder-economia/dolar-sobe-071-e-bolsa-registra-queda-de-104/
 · USDBRL Dólar sobe e volta a superar R$ 5,00 com cenário eleitoral no radar (UOL Economia) https://economia.uol.com.br/noticias/estadao-conteudo/2026/10/13/dolar-sobe-e-volta-a-superar-r-500-com-cenario-eleitoral-no-radar.htm
@@ -387,17 +420,4 @@ id: E05-PLTR-e002d7e14c-2026-10-12 · status: entregue
 · UST The 10-year Treasury yield falls as energy prices stabilize (CNBC) https://www.cnbc.com/2026/10/13/us-treasurys-bonds-yields.html
 · BTC Bitcoin price stalls near $88K as selling pressure slows (TradingView (Reuters)) https://www.tradingview.com/news/cryptobriefing:a6d11e076094b:0-bitcoin-price-stalls-near-88k-as-selling-pressure-slows/
 · JPM JPMorgan Chase earnings analysis: questions answered and next catalysts (Investing.com) https://www.investing.com/news/stock-market-news/jpmorgan-chase-earnings-analysis-questions-answered-and-next-catalysts-93CH-4947286
-· AVGO Elon Musk Says ‘No Crying in the Casino’ After Broadcom CEO Warns AI Frenzy Is Getting Out of Hand (Barron's) https://www.barrons.com/articles/broadcom-spacex-tech-elon-musk-a96bfcbd
-· USDBRL Dólar e juros futuros sobem após nova pesquisa eleitoral; Ibovespa cai (TradingView (Reuters)) https://br.tradingview.com/news/reuters.com,2026:newsml_L1N45Z0SJ:0/
-· PLTR When Palantir's CEO and the Chart Say the Same Thing, Pay Attention (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/palantirs-ceo-chart-same-thing-163428652.html
-· BBDC4 Executivos e conselheiros do Bradesco compram R$ 26,95 mi em ações (Poder360) https://www.poder360.com.br/poder-economia/executivos-e-conselheiros-do-bradesco-compram-r-2695-mi-em-acoes/
-· NVDA Nvidia's China Troubles Deepen as Rivalry Takes New Turn (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:fc883f0af094b:0-nvidia-s-china-troubles-deepen-as-rivalry-takes-new-turn/
-· DI Focus: previsão de inflação sobe pela quarta semana, mas projeção para Selic cai após primeiro turno das eleições (O Globo) https://oglobo.globo.com/economia/noticia/2026/10/13/focus-previsao-de-inflacao-sobe-pela-quarta-semana-mas-projecao-para-selic-cai-apos-primeiro-turno-das-eleicoes.ghtml
-· JPM JPMorgan Chase & Co. Q3 Earnings Call Highlights (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/jpmorgan-chase-co-q3-earnings-160304160.html
-· UST US Treasury yields yet to peak as Fed may tighten further, PIMCO's Ivascyn says (Yahoo Finance) https://finance.yahoo.com/economy/policy/articles/us-treasury-yields-yet-peak-155219861.html
-· LITE Lumentum (LITE) Is Down 8.8% After Long‑Term AI Optics Commitments Raise New Demand Questions (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/lumentum-lite-down-8-8-151309863.html
-· ALUP4 Alupar: BlackRock eleva participação acionária para 5,195% das ações preferenciais (ADVFN) https://br.advfn.com/jornal/2026/10/alupar-blackrock-eleva-participacao-acionaria-para-5-195-das-acoes-preferenciais
-· LITE Lumentum Vs. Coherent: Backlog Quality Leaves Investors Spoiled for Choice (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/lumentum-vs-coherent-backlog-quality-144514968.html
-· MMM 3M shares may move 4.6% on earnings release next week By Investing.com (Investing.com) https://news.google.com/rss/articles/CBMisgFBVV95cUxQVUhRMmpzUXFfSWdQRUJOdWhteFVmQnM1X0s3S3Y1alcxUTZReHNnSXNxdWhXTHFoX2dkaFNnWndiMnpNWm1xb1dNRUNjTThXM19WVGFOanNBN2RXdjVEeUlNazRKMXIzeXdOVUlIOU5HX1JYOVM5T0xZeGktNVB0SEJLSU1zX3NQb01XRjNnSWl4c3FXME1TWkVxWlBYcnR1ZGwzaEctT1hIQXpWakYxZDNn?oc=5
-· NOK Nokia Stock Is Still Up 52% This Year, but Is the AI Rally Already Over? (Yahoo Finance) https://news.google.com/rss/articles/CBMikgFBVV95cUxQUlhqZVlYbzJWRGwtTndlMWNGRnJqekx3Mi0xQ3Ezc2piTG1tLW1RUGk0RC14Y0hibmNFNGdBeWNLNl9qM2U5dzY1aFZSVEFxVHJlMG1vaU1RaWFoQVpSUy1oMTFiZ1dfOXRfVjJ2ZHNkanV1MEU5VTZDSnQ2aWFHZkRmTTM3WmNQVGZZOTBkQ2pyQQ?oc=5
-· (+74 manchetes; lista completa em eventos/noticias.json)
+· (+87 manchetes; lista completa em eventos/noticias.json)
