@@ -1,8 +1,8 @@
 {
  "pregao": "2026-10-09",
- "situacao": "publicando",
+ "situacao": "atrasado",
  "errata": false,
- "atualizado_em": "2026-10-13T03:52:58.567",
+ "atualizado_em": "2026-10-13T15:18:51.763",
  "completo": {
   "arquivo": "",
   "pdf": ""
@@ -12,9 +12,9 @@
    "id": 1,
    "nome": "Renda fixa",
    "pai": null,
-   "situacao": "publicado",
+   "situacao": "republicado",
    "errata": false,
-   "atualizado_em": "2026-10-10T06:22:45.5",
+   "atualizado_em": "2026-10-13T08:05:40.107",
    "arquivo": "",
    "pdf": ""
   },
@@ -33,8 +33,8 @@
    "nome": "Resumo de ações",
    "pai": 20,
    "situacao": "publicado",
-   "errata": false,
-   "atualizado_em": "2026-10-09T21:02:24.567",
+   "errata": true,
+   "atualizado_em": "2026-10-13T15:17:32.887",
    "arquivo": "",
    "pdf": ""
   },
@@ -42,19 +42,19 @@
    "id": 2,
    "nome": "Indicadores e informativos",
    "pai": 20,
-   "situacao": "",
-   "errata": false,
-   "atualizado_em": "2026-10-13T04:00:38.193",
-   "arquivo": "",
-   "pdf": ""
+   "situacao": "republicado",
+   "errata": true,
+   "atualizado_em": "2026-10-13T15:18:51.763",
+   "arquivo": "BDI_02_20261009.pdf",
+   "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-10-09/BDI_02_20261009.pdf"
   },
   {
    "id": 23,
    "nome": "Maiores oscilações",
    "pai": 20,
-   "situacao": "publicado",
+   "situacao": "republicado",
    "errata": false,
-   "atualizado_em": "2026-10-13T00:42:06.787",
+   "atualizado_em": "2026-10-13T15:13:43.61",
    "arquivo": "",
    "pdf": ""
   },
@@ -64,7 +64,7 @@
    "pai": 3,
    "situacao": "republicado",
    "errata": false,
-   "atualizado_em": "2026-10-09T22:45:38.02",
+   "atualizado_em": "2026-10-13T15:14:01.657",
    "arquivo": "BDI_03-1_20261009.pdf",
    "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-10-09/BDI_03-1_20261009.pdf"
   },
@@ -82,9 +82,9 @@
    "id": 34,
    "nome": "Derivativos de bolsa",
    "pai": 3,
-   "situacao": "publicando",
+   "situacao": "",
    "errata": false,
-   "atualizado_em": "2026-10-10T04:43:18.417",
+   "atualizado_em": "2026-10-13T15:10:51.093",
    "arquivo": "",
    "pdf": ""
   },
@@ -104,7 +104,7 @@
    "pai": 4,
    "situacao": "republicado",
    "errata": false,
-   "atualizado_em": "2026-10-10T06:23:18.75",
+   "atualizado_em": "2026-10-13T15:14:06.193",
    "arquivo": "BDI_04-2_20261009.pdf",
    "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-10-09/BDI_04-2_20261009.pdf"
   },
