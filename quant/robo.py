@@ -108,7 +108,9 @@ def preparar(dia=None, repetir=False, mods=None):
     com_swing = "swing" in mods
     com_fatores = "fatores" in mods or not com_swing
     if not com_fatores and not repetir and _boleta_swing_emitida(dia):
-        log(f"rotina: a boleta de swing de {dia} ja foi emitida; a preparacao nao roda de novo")
+        log(f"rotina: a boleta de swing de {dia} ja foi emitida; a preparacao nao roda de novo (so os passos auxiliares)")
+        for nome, args, limite in (("observacao", ["-m", "quant.observacao"], 300), ("prova_viva", ["-m", "quant.pesquisa.prova_viva"], 1200)):
+            passo(dia, nome, args, timeout=limite, repetir=True)     # auxiliares: falha so avisa; a manha nao depende deles (13/10/2026)
         return True
     if com_fatores and not repetir and _boleta_da_manha(dia) and (_boleta_da_manha(dia) or {}).get("emitida"):
         # reinicio do robo com a boleta de hoje ja emitida: nada a refazer. Rodar de novo os sinais ou a

@@ -349,6 +349,10 @@ class RoboFluxo:
                 self.p.lote_base = max(1, min(int(modo["lote_base"]), self.p.lote_maximo))
         except (TypeError, ValueError):
             pass
+        for campo in ("hora_ultima_entrada", "hora_zerar"):      # janela do dia, do Douglas (13/10/2026: "operar todos os dias", ate o fim do pregao)
+            v = str(modo.get(campo) or "")
+            if len(v) == 5 and v[2] == ":" and v[:2].isdigit() and v[3:].isdigit() and "09:00" <= v <= "18:29":
+                setattr(self.p, campo, v)
         self.climax_opera = bool(modo.get("climax_opera", QUEM_OPERA["climax_opera"])) and setup == "niveis"
         self.dado_opera = bool(modo.get("dado_opera", QUEM_OPERA["dado_opera"])) and setup == "niveis"
         self.dado = {a: br.SinalDado(**DADO) for a in ATIVOS} if setup == "niveis" else {}
@@ -757,6 +761,8 @@ class RoboFluxo:
                     sinal = None                                 # so medido: nao vira entrada
             if self.setup == "niveis" and sinal is None and a in self.barras:
                 for sl in self.labs:                             # regras do laboratorio, na barra de 1 minuto que acabou de fechar
+                    if sl.ativo != a:                            # cada regra declara o seu ativo (WDOFUT ou WINFUT)
+                        continue
                     s_lab = sl.atualizar(self.barras[a].df)
                     if s_lab is None:
                         continue

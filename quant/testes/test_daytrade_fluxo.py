@@ -1458,3 +1458,23 @@ def test_stop_vale_mesmo_com_cotacao_velha(tmp_path, monkeypatch):
     velha = _cotacao(5080.0, depois.timestamp() - 40.0, maxima=5080.0)       # ultimo tique ha 40 s, acima do stop
     r.ciclo(depois, retrato={"q": {"WDOFUT": velha}})
     assert r.estados["WDOFUT"].posicao is None                                 # saiu no stop com o preco velho
+
+
+def test_dose_da_regra_e_janela_do_dia_configuravel(tmp_path, monkeypatch):
+    """13/10/2026: a regra pode trazer a sua dose em contratos (laboratorio opera pequeno) e a janela do dia vem do modo_robo.json."""
+    from quant.daytrade import estrategia_fluxo as ef2
+    p = ef2.ParamFluxo()
+    e = ef2.EstadoF(ativo="WDOFUT")
+    f = _fita_vazia() if "_fita_vazia" in globals() else None
+    sinal = {"tecnica": "laboratório", "lado": "C", "nivel": 5030.0, "nome_nivel": "lab", "stop_pts": 40.0, "alvo_pts": None, "parcial_pts": None,
+             "sem_parcial": True, "sem_arrasto": True, "tempo_max_s": 1500.0, "contratos": 1, "medidas": {"risco_pts": 40.0, "fracao_a_favor": None}}
+    ev = ef2.passo(e, 1000.0, "10:15:00", 5031.0, f, AJUSTE, p, lote=2, contexto={"sinal": sinal, "spread": 0.5})
+    assert ev and ev[0]["tipo"] == "entrada" and ev[0]["contratos"] == 1          # a dose da regra vence o lote do dia (2)
+    rf, mt5 = _robo_niveis(tmp_path, monkeypatch, modo={"hora_ultima_entrada": "18:10", "hora_zerar": "18:24", "niveis_opera": True})
+    r = rf.RoboFluxo("2026-10-14", saidas=[str(tmp_path / "quant.json")], pasta_mt5=str(mt5), setup="niveis")
+    assert (r.p.hora_ultima_entrada, r.p.hora_zerar) == ("18:10", "18:24")
+    outra = tmp_path / "outra"
+    outra.mkdir()
+    rf2, mt52 = _robo_niveis(outra, monkeypatch, modo={"hora_zerar": "25:99"})
+    r2 = rf2.RoboFluxo("2026-10-14", saidas=[str(outra / "quant2.json")], pasta_mt5=str(mt52), setup="niveis")
+    assert r2.p.hora_zerar == "13:00"                                              # valor invalido: fica o padrao

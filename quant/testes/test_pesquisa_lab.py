@@ -236,3 +236,22 @@ def test_ferramentas_de_lopez_de_prado():
     t = pd.DataFrame({"dia": [dias[0], dias[0], dias[3]], "res": [100.0, -50.0, 200.0]})
     r = ldp.retorno_por_pregao(t, dias[:5])
     assert list(r.round(5)) == [0.0005, 0.0, 0.0, 0.002, 0.0]
+
+
+def test_regra_de_laboratorio_com_ativo_dose_e_janela(tmp_path):
+    """13/10/2026 (pedido do Douglas: operar todos os dias): a regra declara o ativo, a dose em contratos e a janela do dia."""
+    from quant.daytrade import regras_lab
+    (tmp_path / "r.py").write_text("import numpy as np\ndef regra(m):\n    return np.where(m.c - m.o >= 3, -1.0, 0.0)\n")
+    reg = {"regras": [{"nome": "tarde_win", "titulo": "fim do pregão", "arquivo": str(tmp_path / "r.py"), "estado": "opera", "ativo": "WINFUT",
+                       "contratos": 1, "janela": ["17:30", "18:10"], "saida": {"stop": 500, "alvo": None, "tempo": 25}},
+                      {"nome": "padrao", "arquivo": str(tmp_path / "r.py"), "estado": "medido", "saida": {"stop": 8}}]}
+    (tmp_path / "setups.json").write_text(__import__("json").dumps(reg))
+    boas, falhas = regras_lab.carregar(str(tmp_path / "setups.json"))
+    assert not falhas and [(x.nome, x.ativo, x.contratos, x.janela) for x in boas] == [("tarde_win", "WINFUT", 1, ("17:30", "18:10")), ("padrao", "WDOFUT", None, None)]
+    m = _dia([PARADO] * 20 + [(5000.0, 5004.0, 5000.0, 5004.0)])                 # barra de 3 pontos as 09:20: fora da janela da tarde
+    assert boas[0].atualizar(m) is None
+    tarde = m.copy()
+    tarde.index = tarde.index + (pd.Timestamp("2026-10-13 17:40") - tarde.index[-1])      # a mesma barra, fechada as 17:40
+    s = boas[0].atualizar(tarde)
+    assert s and s["lado"] == "V" and s["contratos"] == 1 and s["medidas"]["dose"] == 1 and s["stop_pts"] == 500.0 and s["tempo_max_s"] == 1500.0
+    assert "contratos" not in boas[1].atualizar(m)                                  # sem dose declarada vale o lote do dia
