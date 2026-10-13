@@ -1,36 +1,46 @@
 ALERTAS · intradia
 
-[ATENÇÃO] E05 · JPM · Top Midday Stories: JPMorgan Shares Rise Despite Q3 Miss; J&J EPS Guidance Undershoots Estimates, Shares Fall
-Yahoo Finance · 13/10 13h00 · fonte única · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – All three major US stock indexes were down in late-morning trading Tuesday, as the big banks kicked  Upgrade to read this MT Newswires article and get so much more.
-  – A Silver or Gold subscription plan is required to access premium news articles.
-Link: https://ca.finance.yahoo.com/news/top-midday-stories-jpmorgan-shares-160059935.html
+[ATENÇÃO] E05 · GOOGL · Alphabet target bumped to $450 at BNP Paribas on TPU outlook
+TradingView (Reuters) · 13/10 12h22 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/seekingalpha:e250af97e094b:0-alphabet-target-bumped-to-450-at-bnp-paribas-on-tpu-outlook/
 Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
-Ativos: JPM
-Como falar: 'saiu no Yahoo Finance: Top Midday Stories: JPMorgan Shares Rise Despite Q3 Miss; J&J EPS Guidance Undershoots Es…; confirmar o número no texto antes de repassar'
-Fonte: Yahoo Finance 13/10 13h00
-Push: [ATENÇÃO] JPM · Top Midday Stories · detalhe na sessão
-ids: E05-JPM-1457ddf058-2026-10-13
+Ativos: GOOGL
+Como falar: 'saiu no TradingView (Reuters): Alphabet target bumped to $450 at BNP Paribas on TPU outlook; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 13/10 12h22
+Push: intradia: 2 alertas de atenção — E05 GOOGL, E05 TSLA · detalhe na sessão
+ids: E05-GOOGL-da6a57b629-2026-10-13
+
+[ATENÇÃO] E05 · TSLA · Goldman Says Tesla’s Robotaxi, Optimus Outlook Will Matter More Than Q3 Earnings. Here’s the Bar for Oct. 21
+TradingView (Reuters) · 13/10 09h41 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/benzinga:20d76c6db094b:0
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: TSLA
+Como falar: 'saiu no TradingView (Reuters): Goldman Says Tesla’s Robotaxi, Optimus Outlook Will Matter More Than Q3 Earnings. Here’s…; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 13/10 09h41
+ids: E05-TSLA-dd440b399e-2026-10-13
 
 Info (só linha no Fechamento):
-· E05 MRVL · Marvell Technology Just Gave Its Investors Great News
-· E05 JPM · JPMorgan’s Lisa Gill on UnitedHealth earnings: The stock slide has nothing to do with the results
-· E05 UST · B3 lança quatro contratos futuros de Treasuries para negociação em reais
-· E05 MRVL · Marvell, Microsoft and Oracle Join Forces to Secure AI Data Center Boom
-· E05 JPM · JPMorgan, Goldman, Citigroup, Wells Fargo post Q3 profits but warn about higher rates and inflation
-· E05 UST · Cash Is King Again? Record Money Market Inflows Put These Treasury ETFs on the Radar
-· E05 MU · Micron Stock Extends Multi-Day Losing Streak: What's Going On?
-· E05 NVDA · Nvidia (NVDA) Was Among Claude AI’s Top Picks This Year. Can The Stock Keep Rising?
-· E05 GOOGL · ALPHABET INC. (GOOG, GOOGL) SHAREHOLDER ALERT Bernstein
-· E05 KO · Is Coca-Cola (KO) Stock Outpacing Its Consumer Staples Peers This Year?
-· E05 USDBRL · Dólar sobe acima de R$ 5 e Bolsa recua com cenário eleitoral no radar
-· E05 BRENT · Dólar opera em alta, com foco em preços do petróleo e novas pesquisas eleitorais no Brasil; Ibovespa cai
-· E05 JPM · JPMorgan Posts Surprise Drop in Fixed-Income Trading Revenue
+· E05 BTC · Bitcoin price stalls near $88K as selling pressure slows
+· E05 JPM · JPMorgan Chase earnings analysis: questions answered and next catalysts
+· E05 AVGO · Elon Musk Says ‘No Crying in the Casino’ After Broadcom CEO Warns AI Frenzy Is Getting Out of Hand
+· E05 USDBRL · Dólar e juros futuros sobem após nova pesquisa eleitoral; Ibovespa cai
+· E05 PLTR · When Palantir's CEO and the Chart Say the Same Thing, Pay Attention
+· E05 BBDC4 · Executivos e conselheiros do Bradesco compram R$ 26,95 mi em ações
+· E05 NVDA · Nvidia's China Troubles Deepen as Rivalry Takes New Turn
+· E05 DI · Focus: previsão de inflação sobe pela quarta semana, mas projeção para Selic cai após primeiro turno das eleições
+· E05 JPM · JPMorgan Chase & Co. Q3 Earnings Call Highlights
+· E05 UST · US Treasury yields yet to peak as Fed may tighten further, PIMCO's Ivascyn says
+· E05 LITE · Lumentum (LITE) Is Down 8.8% After Long‑Term AI Optics Commitments Raise New Demand Questions
+· E05 ALUP4 · Alupar: BlackRock eleva participação acionária para 5,195% das ações preferenciais
+· E05 LITE · Lumentum Vs. Coherent: Backlog Quality Leaves Investors Spoiled for Choice
+· E05 MMM · 3M shares may move 4.6% on earnings release next week By Investing.com
+· E05 NOK · Nokia Stock Is Still Up 52% This Year, but Is the AI Rally Already Over?
 
 
 Alertas do dia (todos, com status):
-· pendente  E05 JPM — JPM · Top Midday Stories: JPMorgan Shares Rise Despite Q3 Miss; J&J EPS Guidance
+· pendente  E05 GOOGL — GOOGL · Alphabet target bumped to $450 at BNP Paribas on TPU outlook
+· pendente  E05 TSLA — TSLA · Goldman Says Tesla’s Robotaxi, Optimus Outlook Will Matter More Than Q3 E
+· entregue  E05 JPM — JPM · Top Midday Stories: JPMorgan Shares Rise Despite Q3 Miss; J&J EPS Guidance
 · entregue  E05 JPM — JPM · JPMorgan Misses Q3 Estimates, but Dimon’s Buyback Cut Is the Bigger Story
 · entregue  E05 JPM — JPM · Earnings call transcript: JPMorgan Chase misses Q3 2026 forecasts as profi
 · entregue  E03 ALUP4 — ALUP4 · Comunicado ao Mercado: ALUP11; ALUP3; ALUP4), comunica aos seus acionist
@@ -46,4 +56,4 @@ Alertas do dia (todos, com status):
 · entregue  E05 PLTR — PLTR · Palantir Stock Hits New Record High, Wipes Out Its Nearly 50% Drawdown
 · entregue  S01 SISTEMA — coleta do slot manha saiu incompleta: bcb: BCB devolveu 4 de 5 séries (faltaram 
 · linha     F01 USDBRL — Real cai: USD/BRL 5,0155 (cruzou R$ 5,00) (parcial, intradia)
-· (+80 notícias só manchete, em noticias.md)
+· (+95 notícias só manchete, em noticias.md)

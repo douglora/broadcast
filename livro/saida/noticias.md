@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 13/10 13h23
+NOTÍCIAS E FATOS · 13/10 14h22
 
-Pernas: noticias ok 14 novas (18 consultas; descartadas: 429 veículo fora da lista, 29 sem ativo, 1 teto) · cvm ok 0 novos de 0 (0 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 17 novas (18 consultas; descartadas: 429 veículo fora da lista, 33 sem ativo, 5 teto) · cvm ok 0 novos de 1 (1 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (1)
 
@@ -50,7 +50,25 @@ Fonte: SEC EDGAR 2026-10-13
 id: E04-JPM-26065616-2026-10-13 · status: linha · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (12)
+## NOTÍCIAS COM MATERIALIDADE (14)
+
+[ATENÇÃO] E05 · GOOGL · Alphabet target bumped to $450 at BNP Paribas on TPU outlook
+TradingView (Reuters) · 13/10 12h22 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/seekingalpha:e250af97e094b:0-alphabet-target-bumped-to-450-at-bnp-paribas-on-tpu-outlook/
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: GOOGL
+Como falar: 'saiu no TradingView (Reuters): Alphabet target bumped to $450 at BNP Paribas on TPU outlook; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 13/10 12h22
+id: E05-GOOGL-da6a57b629-2026-10-13 · status: pendente
+
+[ATENÇÃO] E05 · TSLA · Goldman Says Tesla’s Robotaxi, Optimus Outlook Will Matter More Than Q3 Earnings. Here’s the Bar for Oct. 21
+TradingView (Reuters) · 13/10 09h41 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/benzinga:20d76c6db094b:0
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: TSLA
+Como falar: 'saiu no TradingView (Reuters): Goldman Says Tesla’s Robotaxi, Optimus Outlook Will Matter More Than Q3 Earnings. Here’s…; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 13/10 09h41
+id: E05-TSLA-dd440b399e-2026-10-13 · status: pendente
 
 [ATENÇÃO] E05 · JPM · Top Midday Stories: JPMorgan Shares Rise Despite Q3 Miss; J&J EPS Guidance Undershoots Estimates, Shares Fall
 Yahoo Finance · 13/10 13h00 · fonte única · licença: resumo
@@ -62,7 +80,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: JPM
 Como falar: 'saiu no Yahoo Finance: Top Midday Stories: JPMorgan Shares Rise Despite Q3 Miss; J&J EPS Guidance Undershoots Es…; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 13/10 13h00
-id: E05-JPM-1457ddf058-2026-10-13 · status: pendente
+id: E05-JPM-1457ddf058-2026-10-13 · status: entregue
 
 [ATENÇÃO] E05 · JPM · JPMorgan Misses Q3 Estimates, but Dimon’s Buyback Cut Is the Bigger Story
 Yahoo Finance · 13/10 11h11 · fonte única · licença: resumo
@@ -209,8 +227,23 @@ Fonte: TradingView (Reuters) 12/10 11h41
 id: E05-PLTR-e002d7e14c-2026-10-12 · status: entregue
 
 
-## OUTRAS NOTÍCIAS (só manchete) (74)
+## OUTRAS NOTÍCIAS (só manchete) (89)
 
+· BTC Bitcoin price stalls near $88K as selling pressure slows (TradingView (Reuters)) https://www.tradingview.com/news/cryptobriefing:a6d11e076094b:0-bitcoin-price-stalls-near-88k-as-selling-pressure-slows/
+· JPM JPMorgan Chase earnings analysis: questions answered and next catalysts (Investing.com) https://www.investing.com/news/stock-market-news/jpmorgan-chase-earnings-analysis-questions-answered-and-next-catalysts-93CH-4947286
+· AVGO Elon Musk Says ‘No Crying in the Casino’ After Broadcom CEO Warns AI Frenzy Is Getting Out of Hand (Barron's) https://www.barrons.com/articles/broadcom-spacex-tech-elon-musk-a96bfcbd
+· USDBRL Dólar e juros futuros sobem após nova pesquisa eleitoral; Ibovespa cai (TradingView (Reuters)) https://br.tradingview.com/news/reuters.com,2026:newsml_L1N45Z0SJ:0/
+· PLTR When Palantir's CEO and the Chart Say the Same Thing, Pay Attention (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/palantirs-ceo-chart-same-thing-163428652.html
+· BBDC4 Executivos e conselheiros do Bradesco compram R$ 26,95 mi em ações (Poder360) https://www.poder360.com.br/poder-economia/executivos-e-conselheiros-do-bradesco-compram-r-2695-mi-em-acoes/
+· NVDA Nvidia's China Troubles Deepen as Rivalry Takes New Turn (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:fc883f0af094b:0-nvidia-s-china-troubles-deepen-as-rivalry-takes-new-turn/
+· DI Focus: previsão de inflação sobe pela quarta semana, mas projeção para Selic cai após primeiro turno das eleições (O Globo) https://oglobo.globo.com/economia/noticia/2026/10/13/focus-previsao-de-inflacao-sobe-pela-quarta-semana-mas-projecao-para-selic-cai-apos-primeiro-turno-das-eleicoes.ghtml
+· JPM JPMorgan Chase & Co. Q3 Earnings Call Highlights (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/jpmorgan-chase-co-q3-earnings-160304160.html
+· UST US Treasury yields yet to peak as Fed may tighten further, PIMCO's Ivascyn says (Yahoo Finance) https://finance.yahoo.com/economy/policy/articles/us-treasury-yields-yet-peak-155219861.html
+· LITE Lumentum (LITE) Is Down 8.8% After Long‑Term AI Optics Commitments Raise New Demand Questions (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/lumentum-lite-down-8-8-151309863.html
+· ALUP4 Alupar: BlackRock eleva participação acionária para 5,195% das ações preferenciais (ADVFN) https://br.advfn.com/jornal/2026/10/alupar-blackrock-eleva-participacao-acionaria-para-5-195-das-acoes-preferenciais
+· LITE Lumentum Vs. Coherent: Backlog Quality Leaves Investors Spoiled for Choice (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/lumentum-vs-coherent-backlog-quality-144514968.html
+· MMM 3M shares may move 4.6% on earnings release next week By Investing.com (Investing.com) https://news.google.com/rss/articles/CBMisgFBVV95cUxQVUhRMmpzUXFfSWdQRUJOdWhteFVmQnM1X0s3S3Y1alcxUTZReHNnSXNxdWhXTHFoX2dkaFNnWndiMnpNWm1xb1dNRUNjTThXM19WVGFOanNBN2RXdjVEeUlNazRKMXIzeXdOVUlIOU5HX1JYOVM5T0xZeGktNVB0SEJLSU1zX3NQb01XRjNnSWl4c3FXME1TWkVxWlBYcnR1ZGwzaEctT1hIQXpWakYxZDNn?oc=5
+· NOK Nokia Stock Is Still Up 52% This Year, but Is the AI Rally Already Over? (Yahoo Finance) https://news.google.com/rss/articles/CBMikgFBVV95cUxQUlhqZVlYbzJWRGwtTndlMWNGRnJqekx3Mi0xQ3Ezc2piTG1tLW1RUGk0RC14Y0hibmNFNGdBeWNLNl9qM2U5dzY1aFZSVEFxVHJlMG1vaU1RaWFoQVpSUy1oMTFiZ1dfOXRfVjJ2ZHNkanV1MEU5VTZDSnQ2aWFHZkRmTTM3WmNQVGZZOTBkQ2pyQQ?oc=5
 · MRVL Marvell Technology Just Gave Its Investors Great News (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/marvell-technology-just-gave-investors-162002687.html
 · JPM JPMorgan’s Lisa Gill on UnitedHealth earnings: The stock slide has nothing to do with the results (CNBC) https://www.cnbc.com/video/2026/10/13/jpmorganas-lisa-gill-on-unitedhealth-earnings-the-stock-slide-has-nothing-to-do-with-the-results.html
 · UST B3 lança quatro contratos futuros de Treasuries para negociação em reais (InfoMoney) https://www.infomoney.com.br/mercados/b3-lanca-quatro-contratos-futuros-de-treasuries-para-negociacao-em-reais/
@@ -256,19 +289,4 @@ id: E05-PLTR-e002d7e14c-2026-10-12 · status: entregue
 · JPM JPMorgan Third-Quarter Results Miss Street Views Amid Investment Securities Losses (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/jpmorgan-third-quarter-results-miss-132418349.html
 · MU Micron: My DCF And Valuation Multiple Analysis Confirm It Is Still Cheap (NASDAQ:MU) (Seeking Alpha) https://seekingalpha.com/article/4953760-micron-my-dcf-and-valuation-multiple-analysis-confirm-it-is-still-cheap
 · NVDA Nvidia: The Share Price Already Assumes No China Data Center Sales (NASDAQ:NVDA) (Seeking Alpha) https://seekingalpha.com/article/4953583-nvidia-the-share-price-already-assumes-no-china-data-center-sales
-· JPM JPMorgan, Goldman, Wells Fargo, Citi kick off bank earnings. What 'story' do they tell? (Yahoo Finance) https://finance.yahoo.com/video/jpmorgan-goldman-wells-fargo-citi-kick-off-bank-earnings-what-story-do-they-tell-131453741.html
-· BRENT Saudi leads jump in OPEC+ oil output in September, despite Iran war disruption (Reuters) https://www.reuters.com/business/energy/opec-raises-2027-oil-demand-view-citing-need-rebuild-stocks-2026-10-13/
-· USDBRL Dólar abre em alta com Flávio à frente de Lula em nova pesquisa eleitoral (Folha de S.Paulo) https://www1.folha.uol.com.br/mercado/2026/10/dolar-abre-em-alta-com-flavio-a-frente-de-lula-em-nova-pesquisa-eleitoral.shtml
-· JPM GS: Goldman Sachs Beats Estimates as Fellow Banking Giant JPMorgan Misses (TradingView (Reuters)) https://www.tradingview.com/news/tradingview:e98b255ed094b:0-gs-goldman-sachs-beats-estimates-as-fellow-banking-giant-jpmorgan-misses/
-· JPM Why JPMorgan CEO Jamie is concerned about large global fiscal deficits (Yahoo Finance) https://finance.yahoo.com/markets/stocks/article/why-jpmorgan-ceo-jamie-is-concerned-about-large-global-fiscal-deficits-125217541.html
-· SMAL11 Ibovespa na máxima e small caps com alta de 20%: o que os analistas veem agora (InfoMoney) https://www.infomoney.com.br/mercados/ibovespa-na-maxima-e-small-caps-com-alta-de-20-o-que-os-analistas-veem-agora/
-· TSM TSMC Earnings Preview: High Growth Likely, But Mind The CAPEX (Downgrade) (NYSE:TSM) (Seeking Alpha) https://seekingalpha.com/article/4953750-tsmc-earnings-preview-high-growth-likely-but-mind-the-capex-downgrade
-· BRENT Tempo real: Ibovespa cai 1% com pressão externa e petróleo; dólar sobe (Money Times) https://news.google.com/rss/articles/CBMibEFVX3lxTFBCN1FHM3k4Z2NtWEdKc0Y5WnRRYXgteFY1Nm5WTVlsWkstZWdFdlo2Q0ZwdEJFWlhpNXh6NU43TkhKTE1taFRGbFJHaWY5bHQzZWl1WTR1LS1nRG82M3Z2UmtNNXhKRHdDQTRXSg?oc=5
-· USDBRL Dólar abre em alta com mercado atento às eleições e sessão da 6x1 (CNN Brasil) https://news.google.com/rss/articles/CBMipAFBVV95cUxQbnlacWI3djVjSm5mM285UG9KWTc2cEtwTUlleFBQZVlfU1Vfalp1WHZzQzFGVEQ5Vmd0TE00S0JSbFlVeXp6bm9aQXlWQzV2ZkY2b05kaFlfSTNRZUJUQm9YcHo2QmNKMFk1NTBGbldzdHR6WXhsRnJHYlMxQmctVE84THF6T2M3YzJ1bkxEQmhNU3NZaDQ1WEc4WEE2Uzl1QmdsVA?oc=5
-· MU Micron: The HBM Pricing Reset Makes Me A Buyer (Rating Upgrade) (NASDAQ:MU) (Seeking Alpha) https://news.google.com/rss/articles/CBMijwFBVV95cUxPMXhWbVY4djBMTW9iQ2t2eXdmcHIydjl2OHh2eVNobDNFcXlDQjFubWtUbE5BS1hYM3puZS1JMGlFa0pYTjZ3Q2xKbjlLaGtBanEwbHFGRnJSVTJYVTFKS01SeUlwUkhMZjM1V0VkS3Uzdnh4SWZEemxEc1hNdjZ2d0NqUzgzLVQ1R3ZPU2ZMaw?oc=5
-· NVDA U.S. Export Restrictions Drive Nvidia China AI Chip Market Share Down to 34% (Yahoo Finance) https://news.google.com/rss/articles/CBMinwFBVV95cUxOQUpNWndGWWhqc3pMbkV0SEFkb3N4REVSQmpRZEsxdHlZZTIwVktsLXBjSTBxWDlrSjhNalJmakRzdFlmQm9TQlhhMXVWSjZ6UHNlY2RybldidkRaZHBKNk5NY3ZIUzdYcTVyZ2hpb3loaEkyUldsX2Nsb0xkWk43d3NwVWZkelMxMDRnUUpQaDNyUkxFUGFXY3VHeGFkeUU?oc=5
-· VALE3 Agenda de empresas: Vale notifica ex-conselheiro; Motiva divulga tráfego de setembro (Valor Economico) https://valor.globo.com/empresas/noticia/2026/10/13/agenda-de-empresas-vale-notifica-ex-conselheiro-motiva-divulga-trafego-de-setembro.ghtml
-· BTC Bitcoin’s ‘V-Shape Recovery’ Is Being Led By Spot Buyers As Leveraged Traders And ETF Investors Hold Back (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:ce236e86c094b:0-bitcoin-s-v-shape-recovery-is-being-led-by-spot-buyers-as-leveraged-traders-and-etf-investors-hold-back/
-· BTC BTC, ETH prices slip and rebound as Kospi index slides on AI-related concerns: Crypto Markets Today (CoinDesk) https://www.coindesk.com/markets/2026/10/13/bitcoin-ether-slip-and-rebound-as-south-korean-stocks-slide-on-ai-related-concerns
-· JPM JPMorgan hit by slowdown in investment banking momentum, shares slip (Reuters) https://www.reuters.com/business/finance/jpmorgans-profit-rises-investment-banking-trading-strength-2026-10-13/
-· (+14 manchetes; lista completa em eventos/noticias.json)
+· (+29 manchetes; lista completa em eventos/noticias.json)
