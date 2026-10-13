@@ -1,16 +1,15 @@
 ALERTAS · intradia
 
-[ATENÇÃO] E05 · GOOGL · Alphabet target bumped to $450 at BNP Paribas on TPU outlook
+(pendente de slot anterior) [ATENÇÃO] E05 · GOOGL · Alphabet target bumped to $450 at BNP Paribas on TPU outlook
 TradingView (Reuters) · 13/10 12h22 · fonte única · licença: manchete
 Link: https://www.tradingview.com/news/seekingalpha:e250af97e094b:0-alphabet-target-bumped-to-450-at-bnp-paribas-on-tpu-outlook/
 Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
 Ativos: GOOGL
 Como falar: 'saiu no TradingView (Reuters): Alphabet target bumped to $450 at BNP Paribas on TPU outlook; confirmar o número no texto antes de repassar'
 Fonte: TradingView (Reuters) 13/10 12h22
-Push: intradia: 2 alertas de atenção — E05 GOOGL, E05 TSLA · detalhe na sessão
 ids: E05-GOOGL-da6a57b629-2026-10-13
 
-[ATENÇÃO] E05 · TSLA · Goldman Says Tesla’s Robotaxi, Optimus Outlook Will Matter More Than Q3 Earnings. Here’s the Bar for Oct. 21
+(pendente de slot anterior) [ATENÇÃO] E05 · TSLA · Goldman Says Tesla’s Robotaxi, Optimus Outlook Will Matter More Than Q3 Earnings. Here’s the Bar for Oct. 21
 TradingView (Reuters) · 13/10 09h41 · fonte única · licença: manchete
 Link: https://www.tradingview.com/news/benzinga:20d76c6db094b:0
 Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
@@ -20,21 +19,12 @@ Fonte: TradingView (Reuters) 13/10 09h41
 ids: E05-TSLA-dd440b399e-2026-10-13
 
 Info (só linha no Fechamento):
-· E05 BTC · Bitcoin price stalls near $88K as selling pressure slows
-· E05 JPM · JPMorgan Chase earnings analysis: questions answered and next catalysts
-· E05 AVGO · Elon Musk Says ‘No Crying in the Casino’ After Broadcom CEO Warns AI Frenzy Is Getting Out of Hand
-· E05 USDBRL · Dólar e juros futuros sobem após nova pesquisa eleitoral; Ibovespa cai
-· E05 PLTR · When Palantir's CEO and the Chart Say the Same Thing, Pay Attention
-· E05 BBDC4 · Executivos e conselheiros do Bradesco compram R$ 26,95 mi em ações
-· E05 NVDA · Nvidia's China Troubles Deepen as Rivalry Takes New Turn
-· E05 DI · Focus: previsão de inflação sobe pela quarta semana, mas projeção para Selic cai após primeiro turno das eleições
-· E05 JPM · JPMorgan Chase & Co. Q3 Earnings Call Highlights
-· E05 UST · US Treasury yields yet to peak as Fed may tighten further, PIMCO's Ivascyn says
-· E05 LITE · Lumentum (LITE) Is Down 8.8% After Long‑Term AI Optics Commitments Raise New Demand Questions
-· E05 ALUP4 · Alupar: BlackRock eleva participação acionária para 5,195% das ações preferenciais
-· E05 LITE · Lumentum Vs. Coherent: Backlog Quality Leaves Investors Spoiled for Choice
-· E05 MMM · 3M shares may move 4.6% on earnings release next week By Investing.com
-· E05 NOK · Nokia Stock Is Still Up 52% This Year, but Is the AI Rally Already Over?
+· E05 BTC · Super League buys its first Bitcoin for $83,041 ahead of Metaplanet deal
+· E05 MU · China’s CXMT and Broadcom’s CEO Rattle Chip Stocks: Which Fear Matters More for Micron?
+· E05 JPM · Goldman and JPMorgan Earnings: Bank Bosses Are Too Optimistic About the AI Boom
+· E05 JPM · Jamie Dimon says JPMorgan Chase is putting up gates to protect against 'rogue agents'
+· E05 LITE · Coherent Stock Falls Nearly 8% as Ciena and Lumentum Drop About 10%. Here’s Where the Stock Could Go by 2031
+· E05 UST · The 10-year Treasury yield falls as energy prices stabilize
 
 
 Alertas do dia (todos, com status):
@@ -49,6 +39,7 @@ Alertas do dia (todos, com status):
 · entregue  E05 JPM — JPM · Bank Earnings Q3 2026: Goldman +30% Beat, JPMorgan Misses Revenue
 · entregue  E05 JPM — JPM · Lucro do JPMorgan aumenta no 3º tri com banco de investimento e negociaçõe
 · entregue  E05 JPM — JPM · Earnings Snapshot: JPMorgan Chase misses Q3 estimates, reports $2.7B credi
+· linha     S01 SISTEMA — coleta do slot intradia saiu incompleta: bcb: BCB devolveu 4 de 5 séries (faltar
 · entregue  E01 BAC — BAC: resultado sai na próxima sessão (14/10)
 · entregue  E04 JPM — JPM · 8-K: 2.02 resultado do trimestre
 · entregue  E05 CVX — CVX · Verizon or Chevron: I Can Only Pick One Dividend Stock for the Next 10 Yea
@@ -56,4 +47,4 @@ Alertas do dia (todos, com status):
 · entregue  E05 PLTR — PLTR · Palantir Stock Hits New Record High, Wipes Out Its Nearly 50% Drawdown
 · entregue  S01 SISTEMA — coleta do slot manha saiu incompleta: bcb: BCB devolveu 4 de 5 séries (faltaram 
 · linha     F01 USDBRL — Real cai: USD/BRL 5,0155 (cruzou R$ 5,00) (parcial, intradia)
-· (+95 notícias só manchete, em noticias.md)
+· (+101 notícias só manchete, em noticias.md)

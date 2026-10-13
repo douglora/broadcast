@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 13/10 14h22
+NOTÍCIAS E FATOS · 13/10 15h19
 
-Pernas: noticias ok 17 novas (18 consultas; descartadas: 429 veículo fora da lista, 33 sem ativo, 5 teto) · cvm ok 0 novos de 1 (1 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 6 novas (18 consultas; descartadas: 426 veículo fora da lista, 33 sem ativo, 0 teto) · cvm ok 0 novos de 0 (0 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (1)
 
@@ -227,8 +227,14 @@ Fonte: TradingView (Reuters) 12/10 11h41
 id: E05-PLTR-e002d7e14c-2026-10-12 · status: entregue
 
 
-## OUTRAS NOTÍCIAS (só manchete) (89)
+## OUTRAS NOTÍCIAS (só manchete) (95)
 
+· BTC Super League buys its first Bitcoin for $83,041 ahead of Metaplanet deal (TradingView (Reuters)) https://www.tradingview.com/news/cryptobriefing:8b1d90ea4094b:0-super-league-buys-its-first-bitcoin-for-83-041-ahead-of-metaplanet-deal/
+· MU China’s CXMT and Broadcom’s CEO Rattle Chip Stocks: Which Fear Matters More for Micron? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/china-cxmt-broadcom-ceo-rattle-173756730.html
+· JPM Goldman and JPMorgan Earnings: Bank Bosses Are Too Optimistic About the AI Boom (Bloomberg) https://www.bloomberg.com/opinion/articles/2026-10-13/goldman-and-jpmorgan-earnings-bank-bosses-are-too-optimistic-about-the-ai-boom
+· JPM Jamie Dimon says JPMorgan Chase is putting up gates to protect against 'rogue agents' (Yahoo Finance) https://uk.finance.yahoo.com/news/jamie-dimon-says-jpmorgan-chase-171529068.html
+· LITE Coherent Stock Falls Nearly 8% as Ciena and Lumentum Drop About 10%. Here’s Where the Stock Could Go by 2031 (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/coherent-stock-falls-nearly-8-165354917.html
+· UST The 10-year Treasury yield falls as energy prices stabilize (CNBC) https://www.cnbc.com/2026/10/13/us-treasurys-bonds-yields.html
 · BTC Bitcoin price stalls near $88K as selling pressure slows (TradingView (Reuters)) https://www.tradingview.com/news/cryptobriefing:a6d11e076094b:0-bitcoin-price-stalls-near-88k-as-selling-pressure-slows/
 · JPM JPMorgan Chase earnings analysis: questions answered and next catalysts (Investing.com) https://www.investing.com/news/stock-market-news/jpmorgan-chase-earnings-analysis-questions-answered-and-next-catalysts-93CH-4947286
 · AVGO Elon Musk Says ‘No Crying in the Casino’ After Broadcom CEO Warns AI Frenzy Is Getting Out of Hand (Barron's) https://www.barrons.com/articles/broadcom-spacex-tech-elon-musk-a96bfcbd
@@ -283,10 +289,4 @@ id: E05-PLTR-e002d7e14c-2026-10-12 · status: entregue
 · META Meta Platforms, Inc. (META) is Attracting Investor Attention: Here is What You Should Know (Yahoo Finance) https://au.finance.yahoo.com/news/meta-platforms-inc-meta-attracting-120005034.html
 · BTC Current price of Bitcoin for Oct. 13, 2026 (Fortune) https://fortune.com/article/price-of-bitcoin-10-13-2026/
 · AVGO Broadcom CEO sees capital hurdle to AI growth, ’casino’ in AI investing By Reuters (Investing.com) https://www.investing.com/news/stock-market-news/broadcom-ceo-sees-capital-hurdle-to-ai-growth-casino-in-ai-investing-4945686
-· BTC Bitcoin rebounds above $83,000, decoupling from tumbling Korean stocks (CoinDesk) https://news.google.com/rss/articles/CBMi1gFBVV95cUxNendGRHJlLVlnV2t4aUVVQlo5WnFmOS1tS29KcWRia0QwZnNaOFEyTFVhcldVQ2E3VEdiYnpfVl93UU5QRlhzOXlHdDFuTjV1d1FIbmhOcmZNaVNGZHM1ZGh1WDhaN3BTOVlIaWdUS0c1MmtFeXdUOXdRdlp3S0ZWbXNlMU5FYlVRSWQ4OVBfOWsxbVNRZlJhMkNJckpCelJKUTVrZmstWHhJY2hHLXM2eTRwY3VBUjU2c0hGTlE5dnlyWDFVcGNPblBlU2xmVHNRN0NDdGtn?oc=5
-· MU Micron Stock Slips as China’s CXMT Threatens the AI Memory Boom (TradingView (Reuters)) https://news.google.com/rss/articles/CBMiwAFBVV95cUxNZktWcElQNlk3eW5DTlphYmRGS3N3a1c5VTl1ZkRJcWtfakhBNFk3VG83bFRlMzA5SHZpRTNtbXl3RG5KN0xrcDBGem9iMkowOGZXM3VnWVJvYnN2NGN0a1owbFBFQ0xENVdZcXpFU3dWVThpUTZueW5JX2l4NGlxcHlQZGJvWVVnWEdXY1BuWW8xRkJYaDFaaGlEVWh6UjA3RkdmalE0d2Ficl9kZ29MM0RHR3YtZjE3N29heTAzWFc?oc=5
-· BRENT Ibovespa cai 1% com petróleo e empate técnico entre Flávio e Lula; 5 coisas para saber antes de investir hoje (13) (Money Times) https://www.moneytimes.com.br/ibovespa-5-coisas-13-10-26-apsa/
-· JPM JPMorgan Third-Quarter Results Miss Street Views Amid Investment Securities Losses (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/jpmorgan-third-quarter-results-miss-132418349.html
-· MU Micron: My DCF And Valuation Multiple Analysis Confirm It Is Still Cheap (NASDAQ:MU) (Seeking Alpha) https://seekingalpha.com/article/4953760-micron-my-dcf-and-valuation-multiple-analysis-confirm-it-is-still-cheap
-· NVDA Nvidia: The Share Price Already Assumes No China Data Center Sales (NASDAQ:NVDA) (Seeking Alpha) https://seekingalpha.com/article/4953583-nvidia-the-share-price-already-assumes-no-china-data-center-sales
-· (+29 manchetes; lista completa em eventos/noticias.json)
+· (+35 manchetes; lista completa em eventos/noticias.json)
