@@ -1,10 +1,10 @@
 BLOCO A
 ```
-FECHAMENTO DO LIVRO · sex 09/10 · 18h14 de 12/10 BRT
-Relógios: Yahoo 18h14 · DI ajuste D0 · Tesouro base
+FECHAMENTO DO LIVRO · sex 09/10 · 23h31 de 12/10 BRT
+Relógios: Yahoo 23h31 · DI ajuste D0 · Tesouro base
   09/10 · UST CMT D0 · PTAX 09/10
 
-ALERTAS DO DIA (57 · 7 críticos)
+ALERTAS DO DIA (58 · 7 críticos)
 [CRÍTICO] T08 REMX entrou em queda de -45% do pico:
           -47% do pico de 52s (US$ 109,53 em 11/05)
           a US$ 58,18
@@ -27,18 +27,21 @@ ALERTAS DO DIA (57 · 7 críticos)
 [CRÍTICO] T08 INTC entrou em queda de -25% do pico:
           -26% do pico de 52s (US$ 140,94 em 22/06)
           a US$ 104,70
-[ATENÇÃO] T01 WQTMUS fechou abaixo da média de 200
-          dias pela 1ª sessão: US$ 30,24 vs MM200
-          US$ 31,08 (-2,7%)
-(+49 em alertas.md)
+[ATENÇÃO] E05 TSM · Weekly Recap: Moody's affirms
+          A2, outlook positive and TSMC tie-up
+          boosts chips
+(+50 em alertas.md)
 
 ALTAS  MRVE3 +22% · CURY3 +9,7% · DIRR3 +6,4% ·
        SAPR4 +5,2% · SMAL11 +4,0%
 BAIXAS LITE -9,8% · COHR -7,9% · REMX -4,6% · NOK
        -4,4% · EWY -4,0%
 
-NOTÍCIAS E FATOS (13 com materialidade ·
+NOTÍCIAS E FATOS (14 com materialidade ·
   noticias.md)
+· TSM Weekly Recap: Moody's affirms A2, outlook
+  positive and TSMC tie-up boosts chips (TradingView
+  (Reuters))
 · JPM JPMorgan, Goldman Sachs tread carefully in $5B
   Volta AI loan offering - report (JPM:NYSE)
   (Seeking Alpha)
@@ -52,9 +55,7 @@ NOTÍCIAS E FATOS (13 com materialidade ·
   dólar cai e fica abaixo de R$ 5 (Money Times)
 · KO Coca-Cola Consolidated Announces Fourth Quarter
   Dividend (TradingView (Reuters))
-· KO Coca-Cola Consolidated declares $0.25 quarterly
-  dividend By Investing.com (Investing.com)
-  (+7)
+  (+8)
 
 CURVAS · taxa (Δ bps)
 DI (D0, Δ dia·sem bps) F28 12,53 (-2·-98) F29 12,22
@@ -91,9 +92,9 @@ qua 14/10 resultado BAC (antes de NY, confirmado)
 qui 15/10 09:30 PPI de setembro (BLS)
 qui 15/10 11:00 Leilao do Tesouro: NTN-B
 qui 15/10 resultado TSM (madrugada, estimado)
+qua 21/10 resultado META (Yahoo, estimado)
 qua 21/10 resultado TSLA (Yahoo, estimado)
 qui 22/10 resultado NOK (madrugada, estimado)
-sex 23/10 resultado CVX (antes de NY, estimado)
 
 LACUNAS: USDBRL: fechamento das 17h de 12/10
   indisponível; a barra diária do Yahoo não confirma
@@ -128,7 +129,7 @@ QNTM   Quantum   27,90 -2,4 -4,9 -4,2  +15 +2,2  +11
 QANT   Quantum    5,84 -2,2 -3,8 -4,0  +20    -  +16
 WQTM   Quantum   35,59 -2,9 -5,8 -5,1  +15 +5,2  +19
 WQTMUS Quantum   30,24 -2,9 -6,3 -5,4  +11 +5,4  +17
-QTUM   Quantum  148,49 -2,4 -5,1 +1,0  +25  +41  +36
+QTUM   Quantum  148,49 -2,3 -5,1 +1,0  +25  +41  +36
 REMX   TerrasR   58,18 -4,6 -8,4  -18  -41  -15  -21
 EUA · Semicondutores e óptica
 NVDA   Nvidia   226,32 -1,3 -5,3 +3,7  +20  +24  +22
@@ -181,11 +182,11 @@ MRVE3  MRV        7,82  +22  +39  +39 +0,3  +25 +0,4
 CURY3  Cury      34,52 +9,7  +23 +7,0 -0,1  +27  +13
 Macro
 USDBR* USD/BRL       -    -    -    -    -    -    -
-DXY    DXY      102,57 +0,4 +0,4 +3,5 +4,3 +3,6 +4,4
-BRENT  Brent    105,92 +1,1 +5,6 +1,3 +6,6  +69  +74
-BTC*   BTC      82.797 -1,1 -3,5 +7,2  +11  -28 -5,4
-ETH*   ETH       2.508 -1,1 -7,5 -0,7 +5,8  -40  -15
-MINER* Minerio   90,68 -0,3 -0,7 -8,7  -15  -14  -15
+DXY    DXY      102,58 +0,4 +0,4 +3,5 +4,3 +3,6 +4,4
+BRENT  Brent    106,65 +1,8 +6,3 +2,0 +7,3  +70  +75
+BTC    BTC      82.797 -1,1 -3,5 +7,2  +11  -28 -5,4
+ETH    ETH       2.508 -1,1 -7,5 -0,7 +5,8  -40  -15
+MINER* Minerio   90,83 +0,2 -0,7 -7,3  -15  -14  -15
 ```
 UCITS por extenso: VWRA Vanguard FTSE All-World
 UCITS ETF USD Accumulating · CSPX iShares Core S&P
@@ -201,6 +202,6 @@ Caixa em dolar e o IB01. · IB01 iShares $ Treasury
 Bond 0-1yr UCITS ETF USD (Acc). Hipótese: EWY
 iShares MSCI South Korea ETF · MCHI iShares MSCI
 China ETF (ETFs dos EUA, a confirmar).
-Minério: proxy Dalian 682 CNY/t (2026-10-12).
-Celulose: proxy SHFE SP (fibra longa) 4.806 CNY/t;
+Minério: proxy Dalian 680 CNY/t (2026-10-13).
+Celulose: proxy SHFE SP (fibra longa) 4.796 CNY/t;
 BHKP sem série diária.

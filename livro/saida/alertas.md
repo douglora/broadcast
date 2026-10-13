@@ -1,33 +1,31 @@
-ALERTAS · eventos
+ALERTAS · Fechamento 18h
 
-(pendente de slot anterior) [ATENÇÃO] E05 · JPM · JPMorgan, Goldman Sachs tread carefully in $5B Volta AI loan offering - report (JPM:NYSE)
-Seeking Alpha · 12/10 17h00 · fonte única · licença: manchete
-Link: https://seekingalpha.com/news/4652223-jpmorgan-goldman-sachs-tread-carefully-in-5b-volta-ai-loan-offering---report
-Por que importa: oferta de acoes ou divida altera a base acionaria ou a alavancagem
-Ativos: JPM
-Como falar: 'saiu no Seeking Alpha: JPMorgan, Goldman Sachs tread carefully in $5B Volta AI loan offering - report (JPM:NYSE); confirmar o número no texto antes de repassar'
-Fonte: Seeking Alpha 12/10 17h00
-ids: E05-JPM-d30c6e05f9-2026-10-12
-
-(pendente de slot anterior) [ATENÇÃO] E05 · AMZN · MIT files patent lawsuit against Amazon over cloud security technology
-TradingView (Reuters) · 12/10 12h06 · + Reuters · licença: manchete
-Link: https://www.tradingview.com/news/reuters.com,2026:newsml_L6N45Y0S7:0-mit-files-patent-lawsuit-against-amazon-over-cloud-security-technology/
-Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e prazo
-Ativos: AMZN
-Como falar: 'saiu no TradingView (Reuters): MIT files patent lawsuit against Amazon over cloud security technology; confirmar o número no texto antes de repassar'
-Fonte: TradingView (Reuters) 12/10 12h06
-ids: E05-AMZN-88dbe45d2f-2026-10-12
-
-(pendente de slot anterior) [ATENÇÃO] E05 · MU · What's next for Micron Technology after blockbuster Q4, guidance beat?
-TradingView (Reuters) · 12/10 09h06 · fonte única · licença: manchete
-Link: https://www.tradingview.com/news/seekingalpha:8c4879a9d094b:0-what-s-next-for-micron-technology-after-blockbuster-q4-guidance-beat/
+[ATENÇÃO] E05 · TSM · Weekly Recap: Moody's affirms A2, outlook positive and TSMC tie-up boosts chips
+TradingView (Reuters) · 12/10 19h00 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/tradingview:794bfa7cdba4f:0-weekly-recap-moody-s-affirms-a2-outlook-positive-and-tsmc-tie-up-boosts-chips/
 Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
-Ativos: MU
-Como falar: 'saiu no TradingView (Reuters): What's next for Micron Technology after blockbuster Q4, guidance beat?; confirmar o número no texto antes de repassar'
-Fonte: TradingView (Reuters) 12/10 09h06
-ids: E05-MU-5fb3d7e91d-2026-10-12
+Ativos: TSM
+Como falar: 'saiu no TradingView (Reuters): Weekly Recap: Moody's affirms A2, outlook positive and TSMC tie-up boosts chips; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 12/10 19h00
+Push: [ATENÇÃO] TSM · Weekly Recap · detalhe na sessão
+ids: E05-TSM-8b8054442e-2026-10-12
 
 Info (só linha no Fechamento):
+· E05 AMD · SNDK, MU, INTC, AMD, SKHY: Chip Stocks Extend Slide As AI Funding Concerns, China Competition Weigh On Sector
+· E05 GOOGL · Alphabet President Ruth Porat on how Google is funding AI to win long term, and the biggest risks ahead
+· E05 AMD · AMD: CPU Boom Lifts Target To $1,200 (NASDAQ:AMD)
+· E05 BTC · Bitcoin falls below $82,000 as $120 million in crypto longs get liquidated
+· E05 JPM · JPMorgan options market prices in a 2.8% post-earnings move (JPM:NYSE)
+· E05 UST · Hong Kong investors are warming to US Treasury bonds as yields hit 20-year high
+· E05 PLTR · Palantir CTO Says Some AI Researchers Are So Sure It Will Cure Cancer They’ve Started 'Smoking' — Warns Both AI Extremes Reflect ‘Social Delusion’
+· E05 GOOGL · Alphabet’s Gemini Success: Fueling Growth And Investor Returns (NASDAQ:GOOGL)
+· E05 INTC · Intel (INTC) Sees a More Significant Dip Than Broader Market: Some Facts to Know
+· E05 PETR4 · Índice de ADRs brasileiros fecha estável, com leve alta de Petrobras; veja destaques
+· E05 MU · Micron, SanDisk Look Cheaper by the Day: Here’s the Catch
+· E05 UST · Fed’s Hammack says Treasury yields modest by historic standards
+· E05 AMZN · AWS Builder Center: Stop studying cloud. Start building on it.
+· E05 COHR · Coherent Corp. (COHR) Stock Price, News, Quote & History
+· E05 BRENT · Nunes Marques proíbe distribuição de jornal ‘Petróleo dos Brasileiros’ a pedido de Flávio Bolsonaro
 · T08 INTC entrou em queda de -25% do pico: -26% do pico de 52s (US$ 140,94 em 22/06) a US$ 104,70
 · C05 Pre 2029 FECHA 23 bps (PU +0,5%) · Pre 2031 FECHA 26 bps (PU +1,0%) · IPCA+ 2032 FECHA 17 bps (PU +1,1%) (base 09/10)
 · C03 Prefixado em nível: Pre 2029 cruzou 12,50% (agora 12,30%) · Pre 2029 na mínima de 252 bases: 12,30% · Pre 2031 cruzou 12,50% (agora 12,45%)
@@ -50,6 +48,7 @@ Alertas do dia (todos, com status):
 · entregue  C01 DI — A curva FECHOU: F28 -98 bps em 5 pregões · F28 8 pregões seguidos (-115 bps) · F
 · entregue  T05 MRVE3 — MRVE3 +22% no dia a R$ 7,82: movimento de 6,0 desvios para uma vol de 20 dias de
 · linha     T08 INTC — INTC entrou em queda de -25% do pico: -26% do pico de 52s (US$ 140,94 em 22/06) 
+· pendente  E05 TSM — TSM · Weekly Recap: Moody's affirms A2, outlook positive and TSMC tie-up boosts 
 · linha     T01 WQTMUS — WQTMUS fechou abaixo da média de 200 dias pela 1ª sessão: US$ 30,24 vs MM200 US$
 · linha     T01 NOK — NOK fechou abaixo da média de 200 dias pela 1ª sessão: US$ 9,90 vs MM200 US$ 10,
 · linha     T04 REMX — REMX fechou na mínima de 52 semanas: US$ 58,18, -18% em 1m e -15% em 12m
@@ -100,4 +99,4 @@ Alertas do dia (todos, com status):
 · linha     T10 IGV — IGV no máximo de força relativa em 63 sessões contra SPX: +11% vs +2,0% em 20 se
 · linha     T10 LITE — LITE no máximo de força relativa em 63 sessões contra SOX: +19% vs +6,3% em 20 s
 · linha     F01 USDBRL — Real sobe: USD/BRL 4,9823 (-4,5% em 5 sessões · cruzou R$ 5,00) (parcial, intrad
-· (+54 notícias só manchete, em noticias.md)
+· (+59 notícias só manchete, em noticias.md)

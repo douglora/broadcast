@@ -23,7 +23,7 @@ QNTM   Quantu  27,90 -2,4 -4,9 -4,2  +11
 QANT   Quantu   5,84 -2,2 -3,8 -4,0  +16
 WQTM   Quantu  35,59 -2,9 -5,8 -5,1  +19
 WQTMUS Quantu  30,24 -2,9 -6,3 -5,4  +17
-QTUM   Quantu 148,49 -2,4 -5,1 +1,0  +36
+QTUM   Quantu 148,49 -2,3 -5,1 +1,0  +36
 REMX   Terras  58,18 -4,6 -8,4  -18  -21
 EUA · Semicondutores e óptica
 NVDA   Nvidia 226,32 -1,3 -5,3 +3,7  +22
@@ -76,11 +76,11 @@ MRVE3  MRV      7,82  +22  +39  +39 +0,4
 CURY3  Cury    34,52 +9,7  +23 +7,0  +13
 Macro
 USDBR* USD/BR      -    -    -    -    -
-DXY    DXY    102,57 +0,4 +0,4 +3,5 +4,4
-BRENT  Brent  105,92 +1,1 +5,6 +1,3  +74
-BTC*   BTC    82.797 -1,1 -3,5 +7,2 -5,4
-ETH*   ETH     2.508 -1,1 -7,5 -0,7  -15
-MINER* Mineri  90,68 -0,3 -0,7 -8,7  -15
+DXY    DXY    102,58 +0,4 +0,4 +3,5 +4,4
+BRENT  Brent  106,65 +1,8 +6,3 +2,0  +75
+BTC    BTC    82.797 -1,1 -3,5 +7,2 -5,4
+ETH    ETH     2.508 -1,1 -7,5 -0,7  -15
+MINER* Mineri  90,83 +0,2 -0,7 -7,3  -15
 ```
 UCITS por extenso: VWRA Vanguard FTSE All-World
 UCITS ETF USD Accumulating · CSPX iShares Core S&P

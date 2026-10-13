@@ -1,4 +1,4 @@
-## Fechamento do livro · sex 09/10 · 18h14 de 12/10 BRT
+## Fechamento do livro · sex 09/10 · 23h31 de 12/10 BRT
 
 ---
 
@@ -37,7 +37,7 @@
 | Ativo | dia | explicação | grau |
 |---|---:|---|---|
 | **MRVE3** | +22% | descolou do setor (construtoras de baixa renda +8,6% (mediana), DI F30 -17 bps; 13,0 p.p. da mediana); notícia a conferir (Valor Economico): Agenda de empresas: Lucro da Camil cai 47,5%; vendas da MRV&Co sobem 29,6% no 3° trimestre | notícia (conferir) |
-| **LITE** | -9,8% | notícia a conferir (Yahoo Finance): Lumentum CEO: Opto-Parts Capacity Sold Out to 2029 | notícia (conferir) |
+| **LITE** | -9,8% | investigar antes de comentar | sem causa no dado |
 | **CURY3** | +9,7% | descolou do setor (construtoras de baixa renda +8,6% (mediana), DI F30 -17 bps; 1,1 p.p. da mediana); aviso de participação: gestor reduziu para 14,97% em 08/10; não costuma explicar o preço do dia; investigar antes de comentar | sem causa no dado |
 | **COHR** | -7,9% | investigar antes de comentar | sem causa no dado |
 | **DIRR3** | +6,4% | descolou do setor (construtoras de baixa renda +8,6% (mediana), DI F30 -17 bps; -2,2 p.p. da mediana); investigar antes de comentar | sem causa no dado |
@@ -100,7 +100,7 @@ Nomes completos: **VWRA** Vanguard FTSE All-World UCITS ETF USD Accumulating · 
 | **QANT** iShares Quantum Computing | 5,84 | **-2,2** | -3,8 | -4,0 | -4,2 | +20 | - | +16 | - |
 | **WQTM** WisdomTree Quantum Computing | 35,59 | **-2,9** | -5,8 | -5,1 | -7,9 | +15 | +5,2 | +19 | - |
 | **WQTMUS** WisdomTree Quantum Computing Fund | 30,24 | **-2,9** | -6,3 | -5,4 | -9,4 | +11 | +5,4 | +17 | - |
-| **QTUM** Defiance Quantum ETF | 148,49 | **-2,4** | -5,1 | +1,0 | -0,1 | +25 | +41 | +36 | +202 |
+| **QTUM** Defiance Quantum ETF | 148,49 | **-2,3** | -5,1 | +1,0 | -0,1 | +25 | +41 | +36 | +202 |
 | **REMX** VanEck Rare Earth & Strategic Metals ETF · mínima de 52 semanas | 58,18 | **-4,6** | -8,4 | -18 | -24 | -41 | -15 | -21 | -43 |
 
 Nomes completos: **QNTM** VanEck Quantum Computing UCITS ETF USD (Acc) · **QANT** iShares Quantum Computing UCITS ETF USD (Acc) · **WQTM** WisdomTree Quantum Computing UCITS ETF USD (Acc).
@@ -129,7 +129,7 @@ Nomes completos: **QNTM** VanEck Quantum Computing UCITS ETF USD (Acc) · **QANT
 
 | Ativo | últ | dia | 1 sem | 1 mês | 3 m | 6 m | 1 ano | YTD | 5 anos |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| **META** Meta Platforms | 742,96 | **+3,4** | +0,1 | +15 | +13 | +17 | +5,7 | +13 | +131 |
+| **META** Meta Platforms · resultado 21/10 (estimado) | 742,96 | **+3,4** | +0,1 | +15 | +13 | +17 | +5,7 | +13 | +131 |
 | **GOOGL** Alphabet | 352,72 | **+0,3** | +1,8 | +4,2 | +0,1 | +9,9 | +49 | +13 | +152 |
 | **AMZN** Amazon | 259,53 | **-1,1** | +3,2 | +1,1 | +4,9 | +8,2 | +20 | +12 | +52 |
 | **PLTR** Palantir Technologies | 209,00 | **0,0** | +10 | +25 | +61 | +58 | +19 | +18 | +771 |
@@ -197,11 +197,11 @@ Nomes completos: **QNTM** VanEck Quantum Computing UCITS ETF USD (Acc) · **QANT
 | Ativo | últ | dia | 1 sem | 1 mês | 3 m | 6 m | 1 ano | YTD | 5 anos |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | **USDBRL** Dolar/Real _(dado a confirmar)_ | a confirmar | a confirmar | - | - | - | - | - | - | - |
-| **DXY** Indice Dolar DXY · máxima de 52 semanas | 102,57 | **+0,4** | +0,4 | +3,5 | +1,3 | +4,3 | +3,6 | +4,4 | +9,2 |
-| **BRENT** Petroleo Brent | 105,92 | **+1,1** | +5,6 | +1,3 | +27 | +6,6 | +69 | +74 | +25 |
-| **BTC** Bitcoin _(parcial)_ | 82.797 | **-1,1** | -3,5 | +7,2 | +33 | +11 | -28 | -5,4 | +35 |
-| **ETH** Ethereum _(parcial)_ | 2.508 | **-1,1** | -7,5 | -0,7 | +41 | +5,8 | -40 | -15 | -35 |
-| **MINERIO** Minerio de ferro 62% Fe CFR China _(D-1, 09/10)_ · mínima de 52 semanas | 90,68 | **-0,3** | -0,7 | -8,7 | -8,1 | -15 | -14 | -15 | -26 |
+| **DXY** Indice Dolar DXY · máxima de 52 semanas | 102,58 | **+0,4** | +0,4 | +3,5 | +1,3 | +4,3 | +3,6 | +4,4 | +9,2 |
+| **BRENT** Petroleo Brent | 106,65 | **+1,8** | +6,3 | +2,0 | +28 | +7,3 | +70 | +75 | +26 |
+| **BTC** Bitcoin | 82.797 | **-1,1** | -3,5 | +7,2 | +33 | +11 | -28 | -5,4 | +35 |
+| **ETH** Ethereum | 2.508 | **-1,1** | -7,5 | -0,7 | +41 | +5,8 | -40 | -15 | -35 |
+| **MINERIO** Minerio de ferro 62% Fe CFR China _(D-1, 12/10)_ | 90,83 | **+0,2** | -0,7 | -7,3 | -7,6 | -15 | -14 | -15 | -26 |
 
 **Brent em reais:** a confirmar (dólar sem fechamento confirmado).
 
@@ -211,11 +211,11 @@ Nomes completos: **QNTM** VanEck Quantum Computing UCITS ETF USD (Acc) · **QANT
 
 | Referência | US$/t | dia | 1 sem | 1 mês | leitura |
 |---|---:|---:|---:|---:|---|
-| **Celulose fibra longa** | 636 | -0,3 | -1,0 | - | 12/10 |
-| **Minerio de ferro Dalian** | 90 | +0,3 | -2,6 | - | 12/10 |
+| **Celulose fibra longa** | 634 | -0,3 | -1,0 | - | 13/10 |
+| **Minerio de ferro Dalian** | 90 | +0,3 | -2,6 | - | 13/10 |
 
-- **Celulose fibra longa**: futuro SP da SHFE (fibra longa) em CNY/t, sem o IVA de 13%; nao e preco de lista NBSK · CNY/t 4.806 a USD/CNY 6,69 = US$ 718/t com IVA
-- **Minerio de ferro Dalian**: futuro da DCE em CNY/t, sem o IVA de 13%; o CFR 62% em US$ e a linha MINERIO · CNY/t 682 a USD/CNY 6,69 = US$ 102/t com IVA
+- **Celulose fibra longa**: futuro SP da SHFE (fibra longa) em CNY/t, sem o IVA de 13%; nao e preco de lista NBSK · CNY/t 4.796 a USD/CNY 6,69 = US$ 716/t com IVA
+- **Minerio de ferro Dalian**: futuro da DCE em CNY/t, sem o IVA de 13%; o CFR 62% em US$ e a linha MINERIO · CNY/t 680 a USD/CNY 6,69 = US$ 102/t com IVA
 
 ---
 
@@ -256,8 +256,10 @@ Inflação implícita 2029 5,33% · 2032 5,52% · 2031/32 (descasado) 5,44% · F
 
 ---
 
-### Notícias e fatos · 13
+### Notícias e fatos · 14
 
+- **TSM** Weekly Recap: Moody's affirms A2, outlook positive and TSMC tie-up boosts chips (TradingView (Reuters) · 12/10) [abrir a fonte](https://www.tradingview.com/news/tradingview:794bfa7cdba4f:0-weekly-recap-moody-s-affirms-a2-outlook-positive-and-tsmc-tie-up-boosts-chips/)
+  *Por que importa:* noticia material sobre um ativo do livro; ler o texto antes de comentar
 - **JPM** JPMorgan, Goldman Sachs tread carefully in $5B Volta AI loan offering - report (JPM:NYSE) (Seeking Alpha · 12/10) [abrir a fonte](https://seekingalpha.com/news/4652223-jpmorgan-goldman-sachs-tread-carefully-in-5b-volta-ai-loan-offering---report)
   *Por que importa:* oferta de acoes ou divida altera a base acionaria ou a alavancagem
 - **AMZN** MIT files patent lawsuit against Amazon over cloud security technology (TradingView (Reuters) · 12/10) [abrir a fonte](https://www.tradingview.com/news/reuters.com,2026:newsml_L6N45Y0S7:0-mit-files-patent-lawsuit-against-amazon-over-cloud-security-technology/)
@@ -302,19 +304,19 @@ Inflação implícita 2029 5,33% · 2032 5,52% · 2031/32 (descasado) 5,44% · F
 - **qui 15/10** 09:30 — PPI de setembro (BLS)
 - **qui 15/10** 11:00 — Leilao do Tesouro: NTN-B
 - **qui 15/10** — resultado TSM (madrugada, estimado)
+- **qua 21/10** — resultado META (Yahoo, estimado)
 - **qua 21/10** — resultado TSLA (Yahoo, estimado)
 - **qui 22/10** — resultado NOK (madrugada, estimado)
-- **sex 23/10** — resultado CVX (antes de NY, estimado)
 
 ---
 
 ### Como ler
 
-**Relógios:** Yahoo 18h14 · DI ajuste D0 · Tesouro base 09/10 · UST CMT D0 · PTAX 09/10
+**Relógios:** Yahoo 23h31 · DI ajuste D0 · Tesouro base 09/10 · UST CMT D0 · PTAX 09/10
 **Lacunas:** USDBRL: fechamento das 17h de 12/10 indisponível; a barra diária do Yahoo não confirma o dólar do dia; variação do dia a confirmar.
 **IUAA:** NAO e renda fixa ultracurta: cai ~6% a cada +100 bps na curva. Ler junto com UST 10y/30y. Caixa em dolar e o IB01.
 **Hipótese:** **EWY** iShares MSCI South Korea ETF · **MCHI** iShares MSCI China ETF — ETFs dos EUA, a confirmar.
-Minério: proxy Dalian 682 CNY/t (2026-10-12).
-Celulose: proxy SHFE SP (fibra longa) 4.806 CNY/t; BHKP sem série diária.
+Minério: proxy Dalian 680 CNY/t (2026-10-13).
+Celulose: proxy SHFE SP (fibra longa) 4.796 CNY/t; BHKP sem série diária.
 **Fontes:** Yahoo Finance · B3 Boletim Diário · Tesouro Transparente · Treasury.gov CMT · BCB.
 *Uso interno da mesa. Organização e comparação de dados públicos, não é recomendação de investimento (Resolução CVM 178).*

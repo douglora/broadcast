@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 12/10 18h40
+NOTÍCIAS E FATOS · 12/10 23h31
 
-Pernas: noticias ok 0 novas (18 consultas; descartadas: 429 veículo fora da lista, 35 sem ativo, 0 teto) · cvm ok 0 novos de 2 (2 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 16 novas (18 consultas; descartadas: 439 veículo fora da lista, 35 sem ativo, 1 teto) · cvm ok 0 novos de 2 (2 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (2)
 
@@ -30,7 +30,16 @@ Fonte: CVM 09/10
 id: E03-CURY3-1576353-2026-10-09 · status: linha · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (13)
+## NOTÍCIAS COM MATERIALIDADE (14)
+
+[ATENÇÃO] E05 · TSM · Weekly Recap: Moody's affirms A2, outlook positive and TSMC tie-up boosts chips
+TradingView (Reuters) · 12/10 19h00 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/tradingview:794bfa7cdba4f:0-weekly-recap-moody-s-affirms-a2-outlook-positive-and-tsmc-tie-up-boosts-chips/
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: TSM
+Como falar: 'saiu no TradingView (Reuters): Weekly Recap: Moody's affirms A2, outlook positive and TSMC tie-up boosts chips; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 12/10 19h00
+id: E05-TSM-8b8054442e-2026-10-12 · status: pendente
 
 [ATENÇÃO] E05 · JPM · JPMorgan, Goldman Sachs tread carefully in $5B Volta AI loan offering - report (JPM:NYSE)
 Seeking Alpha · 12/10 17h00 · fonte única · licença: manchete
@@ -177,8 +186,23 @@ Fonte: TradingView (Reuters) 09/10 04h00
 id: E05-META-6441e75de3-2026-10-09 · status: entregue
 
 
-## OUTRAS NOTÍCIAS (só manchete) (50)
+## OUTRAS NOTÍCIAS (só manchete) (55)
 
+· AMD SNDK, MU, INTC, AMD, SKHY: Chip Stocks Extend Slide As AI Funding Concerns, China Competition Weigh On Sector (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:0ea217928094b:0-sndk-mu-intc-amd-skhy-chip-stocks-extend-slide-as-ai-funding-concerns-china-competition-weigh-on-sector/
+· GOOGL Alphabet President Ruth Porat on how Google is funding AI to win long term, and the biggest risks ahead (Fortune) https://fortune.com/2026/10/12/google-ruth-porat-ai-spending-risks/
+· AMD AMD: CPU Boom Lifts Target To $1,200 (NASDAQ:AMD) (Seeking Alpha) https://seekingalpha.com/article/4953394-amd-cpu-boom-lifts-target-to-1200
+· BTC Bitcoin falls below $82,000 as $120 million in crypto longs get liquidated (TradingView (Reuters)) https://www.tradingview.com/news/cryptobriefing:3bdd3f16b094b:0-bitcoin-falls-below-82-000-as-120-million-in-crypto-longs-get-liquidated/
+· JPM JPMorgan options market prices in a 2.8% post-earnings move (JPM:NYSE) (Seeking Alpha) https://seekingalpha.com/news/4652194-jpmorgan-options-market-prices-in-a-28-post-earnings-move
+· UST Hong Kong investors are warming to US Treasury bonds as yields hit 20-year high (South China Morning Post) https://www.scmp.com/business/china-business/article/3370557/hong-kong-investors-are-warming-us-treasury-bonds-yields-hit-20-year-high
+· PLTR Palantir CTO Says Some AI Researchers Are So Sure It Will Cure Cancer They’ve Started 'Smoking' — Warns Both AI Extremes Reflect ‘Social Delusion’ (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/palantir-cto-says-ai-researchers-223007219.html
+· GOOGL Alphabet’s Gemini Success: Fueling Growth And Investor Returns (NASDAQ:GOOGL) (Seeking Alpha) https://seekingalpha.com/article/4953607-alphabet-gemini-success-fueling-growth-and-investor-returns
+· INTC Intel (INTC) Sees a More Significant Dip Than Broader Market: Some Facts to Know (Yahoo Finance) https://au.finance.yahoo.com/news/intel-intc-sees-more-significant-204504098.html
+· PETR4 Índice de ADRs brasileiros fecha estável, com leve alta de Petrobras; veja destaques (InfoMoney) https://www.infomoney.com.br/mercados/indice-de-adrs-brasileiros-feriado-nossa-senhora-aparecida-12102026/
+· MU Micron, SanDisk Look Cheaper by the Day: Here’s the Catch (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:dcd8a495f094b:0-micron-sandisk-look-cheaper-by-the-day-here-s-the-catch/
+· UST Fed’s Hammack says Treasury yields modest by historic standards (Yahoo Finance) https://uk.finance.yahoo.com/news/fed-hammack-says-treasury-yields-182208326.html
+· AMZN AWS Builder Center: Stop studying cloud. Start building on it. (TechCrunch) https://techcrunch.com/sponsor/amazon-web-services/aws-builder-center-stop-studying-cloud-start-building-on-it/
+· COHR Coherent Corp. (COHR) Stock Price, News, Quote & History (Yahoo Finance) https://ca.finance.yahoo.com/quote/COHR/
+· BRENT Nunes Marques proíbe distribuição de jornal ‘Petróleo dos Brasileiros’ a pedido de Flávio Bolsonaro (Estadao) https://news.google.com/rss/articles/CBMi2wFBVV95cUxNOHYxSHpUN0Y3Qzk1X2dlZDJsSHFieVZrZjZyNUp3RUxsUE5zVzJsNC1RZVZQWmdzUnAxRlo3bUVVeVF3NTFYS3ZYTThaYUI3d0x3eEh4UHZtdld1cHZFUGo1Y2dKbWNoVWdDWFVzd281T3ZJbGhKcnA3WFdBYktZd3RnSjNGc2hneVgya0dSV0xVaktHTDBnSFF3VnZkN1dUc3JjQ19NSWNycnRNNGk0a01lWEF1OW1XanFGNERBREhoUGpxVlNpeDMyU1ZPMHo0Y3hWNkdWcFVlMnPSAeABQVVfeXFMTThOQ3oteTNzeGhhdDZTSzRSSk56R1V0S3VpUkZ4MDJLS0N0V3lQVGxDMlBtaERQeHBQSDg2aEdYVDFaNU5oOE1mblJuVHBrbFFEa3VlT1NlQUpINEY1alRSdXZsZjVwbEdMbldwa3laMUZFWThYVUR4TjB4WFNQcnFDbDFSOU1qa2tFSkRMZy1sRlpJbnFoWmJfMnB3eC1xUzV3OE1LeGFKSENMSVdoRFFqeHpPVURwb1hfYUpSbmh4b0lMVmRTN1loTnU4NWVFb3VJR2JtbW53cTUwMnhONUc?oc=5
 · BAC Is Bank of America's Stock a Buy Ahead of Its Q3 Earnings Report on Oct. 14? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/bank-americas-stock-buy-ahead-205002342.html
 · LITE Why Ciena, Lumentum and other optical stocks were among the market’s biggest losers on Monday (MarketWatch) https://www.marketwatch.com/story/why-ciena-lumentum-and-other-optical-stocks-were-among-the-markets-biggest-losers-on-monday-b3e53f6a
 · COHR Coherent: A Tempting Buy But There's One Big Reason To Stay Away (NYSE:COHR) (Seeking Alpha) https://seekingalpha.com/article/4953599-coherent-a-tempting-buy-but-theres-one-big-reason-to-stay-away
@@ -219,13 +243,3 @@ id: E05-META-6441e75de3-2026-10-09 · status: entregue
 · BRENT OPEC cuts 2026 oil demand growth forecast to 400,000 bpd, sees pent-up demand in 2027 (Reuters) https://www.reuters.com/business/energy/opec-cuts-2026-oil-demand-growth-forecast-400000-bpd-sees-pent-up-demand-2027-2026-10-12/
 · BTC Spot Bitcoin and Ethereum ETFs bleed $1.22 billion in a single week (TradingView (Reuters)) https://www.tradingview.com/news/cryptobriefing:4e586bab8094b:0-spot-bitcoin-and-ethereum-etfs-bleed-1-22-billion-in-a-single-week/
 · AVGO Broadcom CEO says capital will be biggest constraint for AI development: report (AVGO:NASDAQ) (Seeking Alpha) https://seekingalpha.com/news/4651984-broadcom-ceo-says-capital-will-be-biggest-constraint-for-ai-development-report
-· UST Stocktwits Weekly Spread: What Shaped Treasury Yields And The Dollar This Week (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:b3c231cec094b:0-stocktwits-weekly-spread-what-shaped-treasury-yields-and-the-dollar-this-week/
-· NVDA What Is Physical AI? Nvidia Is the Stock I'd Buy to Own It. (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/physical-ai-nvidia-stock-id-000101758.html
-· VALE3 Vale sanciona Marcelo Gasparino por vazamento de informações confidenciais (Valor Economico) https://valor.globo.com/empresas/noticia/2026/10/09/vale-sanciona-marcelo-gasparino-por-vazamento-de-informacoes-confidenciais.ghtml
-· PETR4 Petrobras anuncia fim de desconto de R$ 0,44 da gasolina (CNN Brasil) https://www.cnnbrasil.com.br/infra/petrobras-anuncia-fim-de-desconto-de-r-044-da-gasolina/
-· UST US Equity Indexes Rise This Week as Broad-Based Rally Helps Offset Tech Declines While Treasury Yields Remain Elevated (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-rise-week-202315082.html
-· ITUB4 MRV gera R$ 435 milhões em caixa, mas operação no Brasil preocupa Itaú BBA (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/mrv-tem-alivio-milionario-no-caixa-mas-problema-no-brasil-mantem-itau-bba-em-alerta/
-· MRVE3 MRV (MRVE3) dispara mais de 20% com vendas recordes; bancos fazem ressalvas (Investing.com) https://br.investing.com/news/stock-market-news/mrv-mrve3-dispara-mais-de-20-com-vendas-recordes-bancos-fazem-ressalvas-2088203
-· USDBRL Dólar casado piora e operadores de câmbio veem espaço para nova atuação do BC (Valor Economico) https://valor.globo.com/financas/intraday/post/2026/10/dolar-casado-piora-e-operadores-de-cambio-veem-espaco-para-nova-atuacao-do-bc.ghtml
-· SMAL11 Índice small caps salta mais de 20% e tem a melhor semana da história com as eleições (Bloomberg Linea) https://www.bloomberglinea.com.br/mercados/indice-small-caps-salta-mais-de-20-e-tem-a-melhor-semana-da-historia-com-as-eleicoes/?outputType=amp
-· LITE Lumentum CEO: Opto-Parts Capacity Sold Out to 2029 (Yahoo Finance) https://finance.yahoo.com/video/lumentum-ceo-opto-parts-capacity-013640075.html
