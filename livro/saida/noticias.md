@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 13/10 11h23
+NOTÍCIAS E FATOS · 13/10 12h21
 
-Pernas: noticias ok 17 novas (18 consultas; descartadas: 412 veículo fora da lista, 28 sem ativo, 2 teto) · cvm ok 1 novos de 1 (1 cias casadas) · sec ok 1 novos em 3 dias
+Pernas: noticias ok 15 novas (18 consultas; descartadas: 410 veículo fora da lista, 30 sem ativo, 5 teto) · cvm ok 0 novos de 1 (1 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (1)
 
@@ -13,7 +13,7 @@ Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; 
 Ativos: ALUP4
 Como falar: 'a Alupar publicou comunicado ao mercado sobre ALUP11; ALUP3; ALUP4), comunica aos seus acionistas e ao mercado em g…'
 Fonte: CVM 13/10
-id: E03-ALUP4-1576536-2026-10-13 · status: pendente · íntegra disponível
+id: E03-ALUP4-1576536-2026-10-13 · status: entregue · íntegra disponível
 
 
 ## SEC (8-K, 6-K, 10-Q, 10-K) (2)
@@ -50,7 +50,32 @@ Fonte: SEC EDGAR 2026-10-13
 id: E04-JPM-26065616-2026-10-13 · status: linha · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (9)
+## NOTÍCIAS COM MATERIALIDADE (11)
+
+[ATENÇÃO] E05 · JPM · JPMorgan Misses Q3 Estimates, but Dimon’s Buyback Cut Is the Bigger Story
+Yahoo Finance · 13/10 11h11 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – JPMorgan Chase (JPM:NYSE) missed Wall Street's third-quarter estimates on Tuesday, October 13, a rare stumble for the largest US bank.
+  – It reported earnings of $5.57 per share against a $5.90 consensus, and managed revenue of $50.9 billion fell short of the roughly $51.3 billion analysts expected.
+  – After drifting between small gains and losses before the bell, JPM shares were up about 1% in early trading, near $338.
+  – JPMorgan booked $658 million of pretax losses on investment securities, worth $0.18 a share.
+  – Without it, EPS was $5.75 (still a miss).
+  – Fixed-income markets revenue fell 4% from a year earlier to $5.4 billion, its first decline in more than two years.
+Link: https://finance.yahoo.com/markets/stocks/articles/jpmorgan-misses-q3-estimates-dimon-141102519.html
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: JPM
+Como falar: 'saiu no Yahoo Finance: JPMorgan Misses Q3 Estimates, but Dimon’s Buyback Cut Is the Bigger Story; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 13/10 11h11
+id: E05-JPM-d9701b283b-2026-10-13 · status: pendente
+
+[ATENÇÃO] E05 · JPM · Earnings call transcript: JPMorgan Chase misses Q3 2026 forecasts as profits stay strong
+Investing.com · 13/10 10h46 · fonte única · licença: manchete
+Link: https://www.investing.com/news/transcripts/earnings-call-transcript-jpmorgan-chase-misses-q3-2026-forecasts-as-profits-stay-strong-93CH-4946956
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: JPM
+Como falar: 'saiu no Investing.com: Earnings call transcript: JPMorgan Chase misses Q3 2026 forecasts as profits stay strong; confirmar o número no texto antes de repassar'
+Fonte: Investing.com 13/10 10h46
+id: E05-JPM-8215985427-2026-10-13 · status: pendente
 
 [ATENÇÃO] E05 · JPM · JPMorgan Raises Income Outlook As Bond Trading Slips
 Yahoo Finance · 13/10 10h00 · fonte única · licença: resumo
@@ -66,7 +91,7 @@ Por que importa: oferta de acoes ou divida altera a base acionaria ou a alavanca
 Ativos: JPM
 Como falar: 'saiu no Yahoo Finance: JPMorgan Raises Income Outlook As Bond Trading Slips; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 13/10 10h00
-id: E05-JPM-063587f913-2026-10-13 · status: pendente
+id: E05-JPM-063587f913-2026-10-13 · status: entregue
 
 [ATENÇÃO] E05 · JPM · JPMorgan profit rises 6% but misses third-quarter forecasts
 Yahoo Finance · 13/10 09h58 · fonte única · licença: resumo
@@ -82,7 +107,7 @@ Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; 
 Ativos: JPM
 Como falar: 'saiu no Yahoo Finance: JPMorgan profit rises 6% but misses third-quarter forecasts; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 13/10 09h58
-id: E05-JPM-1b5d9d7eda-2026-10-13 · status: pendente
+id: E05-JPM-1b5d9d7eda-2026-10-13 · status: entregue
 
 [ATENÇÃO] E05 · JPM · Bank Earnings Q3 2026: Goldman +30% Beat, JPMorgan Misses Revenue
 Investing.com · 13/10 10h32 · fonte única · licença: manchete
@@ -172,8 +197,21 @@ Fonte: TradingView (Reuters) 12/10 11h41
 id: E05-PLTR-e002d7e14c-2026-10-12 · status: entregue
 
 
-## OUTRAS NOTÍCIAS (só manchete) (48)
+## OUTRAS NOTÍCIAS (só manchete) (61)
 
+· MRVL Marvell: A Strong Buy With A $90 Billion Opportunity (NASDAQ:MRVL) (Seeking Alpha) https://seekingalpha.com/article/4953811-marvell-a-strong-buy-with-a-90-billion-opportunity
+· DI BTG aponta empresas da Bolsa que mais podem ganhar com queda da Selic (UOL Economia) https://economia.uol.com.br/noticias/redacao/2026/10/13/btg-aponta-empresas-da-bolsa-que-mais-podem-ganhar-com-queda-da-selic.ghtm
+· CVX How Has Chevron's Story Changed? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/chevrons-story-changed-143601990.html
+· MMM 3M shares may move 4.6% on earnings release next week By Investing.com (Investing.com) https://za.investing.com/news/stock-market-news/3m-shares-may-move-46-on-earnings-release-next-week-93CH-4502475
+· JPM JPMorgan CEO Jamie Dimon has his eye on global deficits: Bank earnings takeaways (Yahoo Finance) https://finance.yahoo.com/video/jpmorgan-ceo-jamie-dimon-has-his-eye-on-global-deficits-bank-earnings-takeaways-141725999.html
+· JPM JPMorgan profit misses estimates as fixed-income trading revenue disappoints (Investing.com) https://www.investing.com/news/earnings/jpmorgan-shares-edge-lower-after-thirdquarter-ficc-revenue-miss-4946116
+· MU The Third Player: YMTC Overtakes Micron in Global NAND Shipment Volumes (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:870db9749094b:0-the-third-player-ymtc-overtakes-micron-in-global-nand-shipment-volumes/
+· MRVL Marvell, Microsoft and Oracle Establish OCP Working Group to Standardize Data Center Hardware Security (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/marvell-microsoft-oracle-establish-ocp-130000416.html
+· JPM JPMorgan misses Wall Street's Q3 earnings and revenue estimates (Yahoo Finance) https://finance.yahoo.com/video/jpmorgan-misses-wall-streets-q3-earnings-and-revenue-estimates-125850488.html
+· TSLA Tesla Gears Up to Report Q3 Earnings: Here's What to Expect (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/tesla-gears-report-q3-earnings-125800623.html
+· GOOGL Between Amazon and Alphabet One’s Gotten Much More Bang for Their 200 Billion Bucks (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/between-amazon-alphabet-one-gotten-124530437.html
+· NVDA NVIDIA Begins Vera Rubin Production: Can It Extend NVDA's AI Lead? (TradingView (Reuters)) https://news.google.com/rss/articles/CBMivAFBVV95cUxQWmRBRUdPSjlvalNpMTRMaVptVU5sYzJBWFBPcVdSX2NZbnZRRFZrQnJWUFdvYzFMLUxlTFhYc1daWEM5cnMtdjVvT0lHLUt1UHZkRE9ua3g4N19fRVRFY2xVT2dSaUczZDJUSnhfRTNDajFnaWdrRDNHVW5OdGlRMkUtQUFTNXpLQk8tZnYwbnh2WUU4ZEJNT216SlduYVV2N1JtSm5NZnczbVhob0dQaGtPWUY1VkRVa1NQaA?oc=5
+· BTC Strategy Bought 250 Bitcoin Last Week and Spent Nearly Nine Times That Buying Back Its Own Preferred Shares. Has the Biggest Buyer Stopped Moving the… (Yahoo Finance) https://news.google.com/rss/articles/CBMingFBVV95cUxPck9jbEtSV0QtNy1MNk5fYnY1aVV5a1d1Ym1aaEhfQUhlb3JHUHhsY0N3WVFibVdaR1lRVGp0LXlVRXhfbUs5ZmFGUG9vWExLY3Z3X21XTktpaFU4bEc0RDd4ZnFmSFFSWEhGZkFIQ1RKWmsyendaMGlaSFc3cXQxY2x6X2VHZkFQLTA0WGFKRExxaDlyeDUwRFlCY0hZZw?oc=5
 · JPM JPMorgan, Wells Fargo, and Citi earnings show consumers holding up despite high rates (Yahoo Finance) https://finance.yahoo.com/markets/article/jpmorgan-wells-fargo-and-citi-earnings-show-consumers-holding-up-despite-high-rates-142123134.html
 · MMM 3M shares may move 4.6% on earnings release next week (Investing.com) https://www.investing.com/news/stock-market-news/3m-shares-may-move-46-on-earnings-release-next-week-93CH-4947091
 · TSLA Tesla Trades at 219x Earnings. Here’s Why I’m Not Buying the Bet on Its Future. (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/tesla-trades-219x-earnings-why-141545835.html
@@ -221,4 +259,4 @@ id: E05-PLTR-e002d7e14c-2026-10-12 · status: entregue
 · META S&P Hits All-Time Highs, AI Trade Does All The Work (undefined:META) (Seeking Alpha) https://news.google.com/rss/articles/CBMimwFBVV95cUxOWXlnWktKRDJzLThCNWpNYUpBc0R5Qnlub2ozYUdxZ0t0eWlCM0MtMlQxZEZ4Nm5WLWNFZVJ1SnJoLWpVZ3JmR2FLaWVIeHdsUG5lY0pJeGlfU211VDVHY0FJT1M1cXU1eUo2MGZQN3VRRzc2VFlhNmptVklVZVlRaTdfaGhfQmVUMVUxR0pEckVEQ0FTY2RUR01zZw?oc=5
 · AMD SNDK, MU, INTC, AMD, SKHY: Chip Stocks Extend Slide As AI Funding Concerns, China Competition Weigh On Sector (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:0ea217928094b:0-sndk-mu-intc-amd-skhy-chip-stocks-extend-slide-as-ai-funding-concerns-china-competition-weigh-on-sector/
 · GOOGL Alphabet President Ruth Porat on how Google is funding AI to win long term, and the biggest risks ahead (Fortune) https://fortune.com/2026/10/12/google-ruth-porat-ai-spending-risks/
-· AMD AMD: CPU Boom Lifts Target To $1,200 (NASDAQ:AMD) (Seeking Alpha) https://seekingalpha.com/article/4953394-amd-cpu-boom-lifts-target-to-1200
+· (+1 manchetes; lista completa em eventos/noticias.json)
