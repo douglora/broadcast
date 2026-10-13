@@ -6,14 +6,19 @@
  "paginas": 1,
  "colunas": [{"nome": "TckrSymb", "titulo": "Opções"}, {"nome": "DueDate", "titulo": "Vencimento"}, {"nome": "ExerPric", "titulo": "Preço exercício (R$)"}, {"nome": "VlmTradedDay", "titulo": "Volume (R$) mil"}, {"nome": "Part", "titulo": "Participação (%)"}],
  "texto": ["Mostra as opções de compra mais negociadas, indicando as ações com maior interesse dos investidores."],
- "situacao": "publicado",
- "atualizado_em": "2026-10-09T19:11:05.813",
+ "situacao": "republicado",
+ "atualizado_em": "2026-10-13T00:42:06.787",
  "truncada": false,
  "linhas": [
   ["SMALL140", "2026-12-18T20:59:59", 140, 68817.10751, 3.0438595562766286],
   ["SBSPJ294", "2026-10-16T20:59:59", 29.43, 64947.412, 2.872698487696659],
   ["SMALL145", "2026-12-18T20:59:59", 145, 51130.57477000001, 2.261563937556741],
   ["SBSPJ319", "2026-10-16T20:59:59", 31.93, 45718.326, 2.0221739699223553],
-  ["IBOVJ195", "2026-10-14T20:59:59", 195000, 27368, 1.2105180143480105]
+  ["IBOVJ195", "2026-10-14T20:59:59", 195000, 27368, 1.2105180143480105],
+  ["SMALL140", "2026-12-18", 140, 68817.10751, 3.0438595562766286],
+  ["SBSPJ294", "2026-10-16", 29.43, 64947.412, 2.872698487696659],
+  ["SMALL145", "2026-12-18", 145, 51130.57477000001, 2.261563937556741],
+  ["SBSPJ319", "2026-10-16", 31.93, 45718.326, 2.0221739699223553],
+  ["IBOVJ195", "2026-10-14", 195000, 27368, 1.2105180143480105]
  ]
 }

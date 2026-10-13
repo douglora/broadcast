@@ -2,7 +2,7 @@
  "pregao": "2026-10-09",
  "situacao": "publicando",
  "errata": false,
- "atualizado_em": "2026-10-10T10:52:42.24",
+ "atualizado_em": "2026-10-13T03:52:58.567",
  "completo": {
   "arquivo": "",
   "pdf": ""
@@ -42,9 +42,9 @@
    "id": 2,
    "nome": "Indicadores e informativos",
    "pai": 20,
-   "situacao": "publicado",
+   "situacao": "",
    "errata": false,
-   "atualizado_em": "2026-10-10T10:52:42.24",
+   "atualizado_em": "2026-10-13T04:00:38.193",
    "arquivo": "",
    "pdf": ""
   },
@@ -52,11 +52,11 @@
    "id": 23,
    "nome": "Maiores oscilações",
    "pai": 20,
-   "situacao": "republicado",
+   "situacao": "publicado",
    "errata": false,
-   "atualizado_em": "2026-10-10T04:43:01.71",
-   "arquivo": "BDI_02-3_20261009.pdf",
-   "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-10-09/BDI_02-3_20261009.pdf"
+   "atualizado_em": "2026-10-13T00:42:06.787",
+   "arquivo": "",
+   "pdf": ""
   },
   {
    "id": 31,
@@ -72,9 +72,9 @@
    "id": 33,
    "nome": "Derivativos de balcão",
    "pai": 3,
-   "situacao": "publicado",
+   "situacao": "republicado",
    "errata": false,
-   "atualizado_em": "2026-10-10T03:15:38.01",
+   "atualizado_em": "2026-10-13T03:01:48.76",
    "arquivo": "BDI_03-3_20261009.pdf",
    "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-10-09/BDI_03-3_20261009.pdf"
   },
