@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 14/10 10h26
+NOTÍCIAS E FATOS · 14/10 11h22
 
-Pernas: noticias ok 17 novas (18 consultas; descartadas: 471 veículo fora da lista, 23 sem ativo, 22 teto) · cvm ok 0 novos de 7 (5 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 17 novas (18 consultas; descartadas: 456 veículo fora da lista, 30 sem ativo, 6 teto) · cvm ok 0 novos de 7 (5 cias casadas) · sec ok 0 novos em 3 dias
 
 ## SEC (8-K, 6-K, 10-Q, 10-K) (1)
 
@@ -14,7 +14,28 @@ Fonte: SEC EDGAR 2026-10-14
 id: E04-BAC-26000481-2026-10-14 · status: entregue · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (7)
+## NOTÍCIAS COM MATERIALIDADE (9)
+
+[ATENÇÃO] E05 · BAC · Bank Of America’s Financial Results Miss Targets Due To $1.2 Billion Fine
+TradingView (Reuters) · 14/10 10h51 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/baystreet:c254f16c2094b:0-bank-of-america-s-financial-results-miss-targets-due-to-1-2-billion-fine/
+Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e prazo
+Ativos: BAC
+Como falar: 'saiu no TradingView (Reuters): Bank Of America’s Financial Results Miss Targets Due To $1.2 Billion Fine; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 14/10 10h51
+id: E05-BAC-e533d0a564-2026-10-14 · status: pendente
+
+[ATENÇÃO] E05 · BAC · Bank of America Third-Quarter Earnings Unexpectedly Decline Amid $1.2 Billion Treasury Fine
+Yahoo Finance · 14/10 10h01 · + TradingView (Reuters) · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Bank of America (BAC) reported an unexpected year-over-year decline in third-quarter earnings on Wed  Upgrade to read this MT Newswires article and get so much more.
+  – A Silver or Gold subscription plan is required to access premium news articles.
+Link: https://finance.yahoo.com/markets/stocks/articles/bank-america-third-quarter-earnings-130138160.html
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: BAC · UST
+Como falar: 'saiu no Yahoo Finance: Bank of America Third-Quarter Earnings Unexpectedly Decline Amid $1.2 Billion Treasury Fi…; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 14/10 10h01
+id: E05-BAC-c4465f8b11-2026-10-14 · status: pendente
 
 [ATENÇÃO] E05 · BAC · Bank of America profit hurt by $1.2 billion fine over anti-money laundering shortcomings
 Reuters · 14/10 08h15 · + MarketWatch · licença: manchete
@@ -23,7 +44,7 @@ Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; 
 Ativos: BAC
 Como falar: 'saiu no Reuters: Bank of America profit hurt by $1.2 billion fine over anti-money laundering shortcomings; confirmar o número no texto antes de repassar'
 Fonte: Reuters 14/10 08h15
-id: E05-BAC-27968fa9ac-2026-10-14 · status: pendente
+id: E05-BAC-27968fa9ac-2026-10-14 · status: entregue
 
 [ATENÇÃO] E05 · BAC · BofA Results Marred by $1.2 Billion Penalty, Weaker Trading
 Bloomberg · 14/10 07h57 · fonte única · licença: manchete
@@ -32,7 +53,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: BAC
 Como falar: 'saiu no Bloomberg: BofA Results Marred by $1.2 Billion Penalty, Weaker Trading; confirmar o número no texto antes de repassar'
 Fonte: Bloomberg 14/10 07h57
-id: E05-BAC-a9888874ca-2026-10-14 · status: pendente
+id: E05-BAC-a9888874ca-2026-10-14 · status: entregue
 
 [ATENÇÃO] E05 · BAC · Earnings Snapshot: Bank of America falls short of Q3 revenue and EPS estimates as provision for credit losses hits $1.30B
 TradingView (Reuters) · 14/10 08h14 · fonte única · licença: manchete
@@ -101,8 +122,23 @@ Fonte: Yahoo Finance 14/10 01h58
 id: E05-BAC-327b54562b-2026-10-14 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (30)
+## OUTRAS NOTÍCIAS (só manchete) (45)
 
+· META Meta Platforms shares may move 4.9% on Oct. 21 earnings By Investing.com (Investing.com) https://uk.investing.com/news/stock-market-news/meta-platforms-shares-may-move-49-on-oct-21-earnings-93CH-4910430
+· GOOGL Google Shareholder Alert: Alphabet Inc. Securities Class Action Lawsuit - Investors With Losses May Contact Levi & Korsinsky (PR Newswire) https://www.prnewswire.com/news-releases/google-shareholder-alert-alphabet-inc-securities-class-action-lawsuit---investors-with-losses-may-contact-levi--korsinsky-302908228.html
+· UST 10-year Treasury yield rises following hot inflation data: AlphaCheck (Yahoo Finance) https://sg.finance.yahoo.com/news/10-year-treasury-yield-rises-following-hot-inflation-data-alphacheck-135815482.html
+· TSM TSMC Q3 Earnings Preview: Investors eye margins as AI demand drives 50% revenue growth (TSM:NYSE) (Seeking Alpha) https://seekingalpha.com/news/4652468-tsmc-q3-earnings-preview-investors-eye-margins-as-ai-demand-drives-50-revenue-growth
+· BTC Bitcoin and ethereum prices today, Wednesday, October 14, 2026: Crypto prices sliding after higher-inflation report (Yahoo Finance) https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-wednesday-october-14-2026-crypto-prices-sliding-after-higher-inflation-report-133306768.html
+· BTC A Holder Who Put $100 a Month Into Bitcoin Since 2015 Has Paid In $14,000. Here Is What the Stack Is Worth Now. (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/holder-put-100-month-bitcoin-133113066.html
+· NVDA Nvidia's Valuation Is Becoming Absurdly Cheap (NASDAQ:NVDA) (Seeking Alpha) https://seekingalpha.com/article/4953587-nvidia-valuation-is-becoming-absurdly-cheap
+· AXIA3 Axia faz nova redução de participação acionária na ISA Energia (UOL Economia) https://megawhat.uol.com.br/economia-e-politica/empresas/axia-faz-nova-reducao-de-participacao-acionaria-na-isa-energia/
+· BTC Strategy’s Michael Saylor Says Bitcoin Bull Market Is Just Beginning (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/strategy-michael-saylor-says-bitcoin-132800845.html
+· BTC Coinbase Outlines Ways To Protect Bitcoin From Quantum Attacks (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/coinbase-outlines-ways-protect-bitcoin-132600142.html
+· UST U.S. 10-year yield jumps as hot inflation re-injects rate-hike fears (Investing.com) https://www.investing.com/news/forex-news/eurozone-debt-bourses-consolidate-as-lagarde-rejects-french-bond-backstop-4948176
+· COHR Is COHERENT CORP (COHR) Outperforming Other Business Services Stocks This Year? (Yahoo Finance) https://news.google.com/rss/articles/CBMikAFBVV95cUxNN0J3OXZCVTF6Y2FOMlJfNkQydDl3N2FCUEpJS0RObDFnaVZTY1RKN29tLXRvU0pRZ3RqODMyVHN6cDM1RGZyQVdxeVJYdTZyR3A0NUlBd0laWGhGNUpUMDJEWWhDUzUwRnlyYllvMUdZRm5GMmpqOExCaWJEUDdCNVcxUC1MSUtsQXQ2eEQ2bVk?oc=5
+· BAC Here's What Key Metrics Tell Us About Bank of America (BAC) Q3 Earnings (Yahoo Finance) https://news.google.com/rss/articles/CBMilAFBVV95cUxPZkpGY1A5NFdTcXZtZUVQdFBGWmlDVUpEZ3dEZ3dVWkxuMGtsQTVXdC1FS0JlY0hOWmU4X0RVMkp2QXBLV1FMVkN2MGVoZVhDbmo0bmxGZmhqbWQ1VGs1YzRBaWRmZWdsMDgzWE9nY1BvdDJKNkMyWU1kenF2SUthOWFpcUR1N0l6WDU0YTFVWnF6RDhO?oc=5
+· BAC Bank of America earnings missed by $0.02, revenue fell short of estimates (Investing.com) https://news.google.com/rss/articles/CBMiugFBVV95cUxPQlBtNHY5VlNSWnRscExyT0xVcGNCaGNHR2d5WkZrb1l0ejdHUlFveHJJUkVmcTlxUVdiN0NPWHk0MlpxUWhUeDV3b2dJcmdXbjR0MFlUcEFmbHdVT0dyTGVKWFZyZ250Q2hhREg1NS1LcUs2NnNGdVhsTER1YUFSRFlYLVpHN1RIcTQxRE96Y1RFTlZQLV90ekpmTXJ2SmNlRnhxcXd6ZWprcGxtbkZER0UtSHhmVU1pM2c?oc=5
+· TSLA Tesla to Post Q3 Earnings: Will Automotive Margins Play a Spoilsport? (TradingView (Reuters)) https://news.google.com/rss/articles/CBMiwAFBVV95cUxNWmhjLVVQTWdTX0EyYW9GTmF1QVdLeUl3a29JUklXNWtRUktlMEhPYUpmbDRCdmZ0dmtzbl9KNlllSVRUTHRIcG4wSjhZdkp1WS1hVmN5S3RCUTRIeGlyeW5zbEpfUEc5akE3QmJGWV9kZV8xX2swQlZfZU9ucWhZTHhyLWhtcUZleURYTjV1TVg3djV4eVdERWp2eW1SYzF5RndYQ3VoYXJCTzkxVks1QWpuWlZYX3BvbDBQZVlFckI?oc=5
 · MU Micron: China Just Broke The Memory Supercycle Story (NASDAQ:MU) (Seeking Alpha) https://seekingalpha.com/article/4954084-micron-china-just-broke-the-memory-supercycle-story
 · BAC Bank of America Corporation 2026 Q3 - Results - Earnings Call Presentation (NYSE:BAC) 2026-10-14 (Seeking Alpha) https://seekingalpha.com/article/4954108-bank-of-america-corporation-2026-q3-results-earnings-call-presentation
 · BTC CPI: Hot Inflation at 3.7% Lifts Yields and Dollar as Gold and Bitcoin Nosedive (TradingView (Reuters)) https://www.tradingview.com/news/tradingview:15f145716094b:0-cpi-hot-inflation-at-3-7-lifts-yields-and-dollar-as-gold-and-bitcoin-nosedive/
