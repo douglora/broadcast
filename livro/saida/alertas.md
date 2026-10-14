@@ -1,16 +1,15 @@
 ALERTAS · intradia
 
-[ATENÇÃO] E05 · PLTR · Palantir settles lawsuit with London mayor over police contract
+(pendente de slot anterior) [ATENÇÃO] E05 · PLTR · Palantir settles lawsuit with London mayor over police contract
 Investing.com · 14/10 11h36 · + Reuters · licença: manchete
 Link: https://www.investing.com/news/stock-market-news/palantir-settles-lawsuit-with-london-mayor-over-police-contract-4949629
 Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e prazo
 Ativos: PLTR
 Como falar: 'saiu no Investing.com: Palantir settles lawsuit with London mayor over police contract; confirmar o número no texto antes de repassar'
 Fonte: Investing.com 14/10 11h36
-Push: intradia: 3 alertas de atenção — E05 PLTR, E05 BAC, E05 TSLA · detalhe na sessão
 ids: E05-PLTR-c16e48e112-2026-10-14
 
-[ATENÇÃO] E05 · BAC · Bank of America profits hit by $1.2 billion regulatory penalty despite higher interest income
+(pendente de slot anterior) [ATENÇÃO] E05 · BAC · Bank of America profits hit by $1.2 billion regulatory penalty despite higher interest income
 Yahoo Finance · 14/10 10h45 · fonte única · licença: resumo
 Trechos (licença resumo: reescrever, não colar):
   – Bank of America Corp (NYSE:BAC), the US banking group, reported third-quarter net income of $6.9 billion after booking a $1.2 billion regulatory penalty, although rising interest income and wealth management fees suppor…
@@ -26,7 +25,7 @@ Como falar: 'saiu no Yahoo Finance: Bank of America profits hit by $1.2 billion 
 Fonte: Yahoo Finance 14/10 10h45
 ids: E05-BAC-60acad5e6b-2026-10-14
 
-[ATENÇÃO] E05 · TSLA · Earnings Preview: Tesla (TSLA) Q3 Earnings Expected to Decline
+(pendente de slot anterior) [ATENÇÃO] E05 · TSLA · Earnings Preview: Tesla (TSLA) Q3 Earnings Expected to Decline
 Yahoo Finance · 14/10 10h00 · fonte única · licença: resumo
 Trechos (licença resumo: reescrever, não colar):
   – Tesla (TSLA) is expected to deliver a year-over-year decline in earnings on lower revenues when it reports results for the quarter ended September 2026.
@@ -42,25 +41,29 @@ Como falar: 'saiu no Yahoo Finance: Earnings Preview: Tesla (TSLA) Q3 Earnings E
 Fonte: Yahoo Finance 14/10 10h00
 ids: E05-TSLA-35c0fb51d2-2026-10-14
 
+[ATENÇÃO] E05 · BAC · Bank of America profits drop 17% after $1.2bn money laundering fine
+Financial Times · 14/10 08h25 · fonte única · licença: manchete
+Link: https://www.ft.com/content/a82b4275-6519-4142-b1df-e74c66ead877?syn-25a6b1a6=1
+Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e prazo
+Ativos: BAC
+Como falar: 'saiu no Financial Times: Bank of America profits drop 17% after $1.2bn money laundering fine; confirmar o número no texto antes de repassar'
+Fonte: Financial Times 14/10 08h25
+Push: [ATENÇÃO] BAC · Bank of America profits drop 17% after $1.2bn money la · detalhe na sessão
+ids: E05-BAC-5d5e1c7f8c-2026-10-14
+
 Info (só linha no Fechamento):
-· E05 LITE · The Long-Term Investment Case for Lumentum (LITE)
-· E05 BAC · Bank of America Stock Drops After Q3 Earnings Miss
-· E05 BAC · Watch CNBC’s full interview with Bank of America CEO Brian Moynihan
-· E05 PETR4 · Petrobras: produção de petróleo bate novo recorde e reforça tese de alta, diz BBI
-· E05 TSM · History Says This Happens to Taiwan Semiconductor Stock After Oct. 15
-· E05 BTC · Bitcoin's Demise Is Coming, And Strategy Is Not Ready (NASDAQ:MSTR)
-· E05 TSLA · Tesla stock may move 5.1% on Oct. 21 earnings release
-· E05 META · Meta Platforms shares may move 4.9% on Oct. 21 earnings
-· E05 AVGO · Broadcom: AI Demand Is Strong, But Is That Enough? (NASDAQ:AVGO)
-· E05 BAC · Bank of America, Morgan Stanley, BlackRock: Key takeaways from bank earnings
-· E05 BRENT · Dólar sobe a R$ 5,05 e Bolsa cai, política, petróleo e EUA no radar
-· E05 ETH · 3 Warning Signs Stack Up Against Ethereum as Big Holders Sell
-· E05 AVGO · Elon Musk Fires Back at Broadcom CEO Hock Tan's AI Investment Warning: 'No Crying in the Casino'
-· E05 JPM · JPMorgan Q3 Earnings Call Highlights Capital Deployment and AI Risks
-· E05 GFS · GLOBALFOUNDRIES Inc. (GFS) stock price, news, quote and history
+· E05 GOOGL · Not Microsoft. Not Alphabet. Here's the Cloud Giant I'm Most Bullish About.
+· E05 PLTR · Palantir Settles Suit With London Mayor Over Scrapped Policing Contract
+· E05 USDBRL · Ibovespa amplia perdas com inflação nos EUA e eleição no radar; dólar sobe
+· E05 UST · 10-year Treasury yield rises following hot inflation data: AlphaCheck
+· E05 PETR4 · Acordo com sócias renderá US$ 859 milhões à Petrobras
+· E05 GOOGL · Google Is Turning Scientific AI Into a European Cloud Growth Strategy
+· E05 BAC · Bank of America Settlement Charge Hits Profit, Morgan Stanley Profit Climbs
+· E05 NVDA · Is AMD Even a Real Threat to Nvidia or Just a Pricing Lever?
 
 
 Alertas do dia (todos, com status):
+· pendente  E05 BAC — BAC · Bank of America profits drop 17% after $1.2bn money laundering fine
 · pendente  E05 PLTR — PLTR · Palantir settles lawsuit with London mayor over police contract
 · pendente  E05 BAC — BAC · Bank of America profits hit by $1.2 billion regulatory penalty despite hig
 · pendente  E05 TSLA — TSLA · Earnings Preview: Tesla (TSLA) Q3 Earnings Expected to Decline
@@ -76,4 +79,4 @@ Alertas do dia (todos, com status):
 · entregue  E05 MRVL — MRVL · Marvell: A $37.5 Billion Business Is Quietly Carrying The Growth Plan
 · entregue  S01 SISTEMA — coleta do slot manha saiu incompleta: bcb: BCB devolveu 4 de 5 séries (faltaram 
 · linha     F05 BHKP — Celulose (proxy SHFE, fibra longa) -3,7% na semana: 4.730 CNY/t (14/10)
-· (+64 notícias só manchete, em noticias.md)
+· (+72 notícias só manchete, em noticias.md)

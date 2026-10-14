@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 14/10 12h22
+NOTÍCIAS E FATOS · 14/10 12h50
 
-Pernas: noticias ok 18 novas (18 consultas; descartadas: 440 veículo fora da lista, 31 sem ativo, 7 teto) · cvm ok 0 novos de 0 (0 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 9 novas (18 consultas; descartadas: 444 veículo fora da lista, 31 sem ativo, 0 teto) · cvm ok 0 novos de 7 (5 cias casadas) · sec ok 0 novos em 3 dias
 
 ## SEC (8-K, 6-K, 10-Q, 10-K) (1)
 
@@ -14,7 +14,16 @@ Fonte: SEC EDGAR 2026-10-14
 id: E04-BAC-26000481-2026-10-14 · status: entregue · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (12)
+## NOTÍCIAS COM MATERIALIDADE (13)
+
+[ATENÇÃO] E05 · BAC · Bank of America profits drop 17% after $1.2bn money laundering fine
+Financial Times · 14/10 08h25 · fonte única · licença: manchete
+Link: https://www.ft.com/content/a82b4275-6519-4142-b1df-e74c66ead877?syn-25a6b1a6=1
+Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e prazo
+Ativos: BAC
+Como falar: 'saiu no Financial Times: Bank of America profits drop 17% after $1.2bn money laundering fine; confirmar o número no texto antes de repassar'
+Fonte: Financial Times 14/10 08h25
+id: E05-BAC-5d5e1c7f8c-2026-10-14 · status: pendente
 
 [ATENÇÃO] E05 · PLTR · Palantir settles lawsuit with London mayor over police contract
 Investing.com · 14/10 11h36 · + Reuters · licença: manchete
@@ -163,8 +172,16 @@ Fonte: Yahoo Finance 14/10 01h58
 id: E05-BAC-327b54562b-2026-10-14 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (60)
+## OUTRAS NOTÍCIAS (só manchete) (68)
 
+· GOOGL Not Microsoft. Not Alphabet. Here's the Cloud Giant I'm Most Bullish About. (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/not-microsoft-not-alphabet-heres-154300976.html
+· PLTR Palantir Settles Suit With London Mayor Over Scrapped Policing Contract (Bloomberg) https://www.bloomberg.com/news/articles/2026-10-14/palantir-settles-suit-with-london-mayor-over-scrapped-policing-contract
+· USDBRL Ibovespa amplia perdas com inflação nos EUA e eleição no radar; dólar sobe (Exame) https://exame.com/invest/mercados/ibovespa-amplia-perdas-com-inflacao-nos-eua-e-eleicao-no-radar-dolar-sobe/
+· UST 10-year Treasury yield rises following hot inflation data: AlphaCheck (Yahoo Finance) https://finance.yahoo.com/markets/article/10-year-treasury-yield-rises-following-hot-inflation-data-alphacheck-135815482.html
+· PETR4 Acordo com sócias renderá US$ 859 milhões à Petrobras (UOL Economia) https://megawhat.uol.com.br/economia-e-politica/empresas/acordo-com-socias-rendera-us-859-milhoes-a-petrobras/
+· GOOGL Google Is Turning Scientific AI Into a European Cloud Growth Strategy (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:e9469ac6a094b:0-google-is-turning-scientific-ai-into-a-european-cloud-growth-strategy/
+· BAC Bank of America Settlement Charge Hits Profit, Morgan Stanley Profit Climbs (The Wall Street Journal) https://www.wsj.com/business/earnings/bank-of-america-settlement-charge-hits-profit-morgan-stanley-profit-climbs-d9cde716
+· NVDA Is AMD Even a Real Threat to Nvidia or Just a Pricing Lever? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/amd-even-real-threat-nvidia-111558585.html
 · LITE The Long-Term Investment Case for Lumentum (LITE) (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/long-term-investment-case-lumentum-150332467.html
 · BAC Bank of America Stock Drops After Q3 Earnings Miss (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:d320d24a3094b:0-bank-of-america-stock-drops-after-q3-earnings-miss/
 · BAC Watch CNBC’s full interview with Bank of America CEO Brian Moynihan (CNBC) https://www.cnbc.com/video/2026/10/14/watch-cnbcas-full-interview-with-bank-of-america-ceo-brian-moynihan.html
@@ -217,11 +234,4 @@ id: E05-BAC-327b54562b-2026-10-14 · status: linha
 · BTC Bitcoin ETFs Just Had Their Best Day of October While XRP ETFs See No Inflows for Three Sessions. Are Investors Rotating to BTC? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-etfs-just-had-best-111000655.html
 · PETR4 Momento B3: Axia Energia, Cyrela, Mitre, Petrobras e os principais destaques desta quarta-feira (14) (ADVFN) https://br.advfn.com/jornal/2026/10/momento-b3-axia-energia-cyrela-mitre-petrobras-e-os-principais-destaques-desta-quarta-feira-14
 · BTC Coinbase Warns Bitcoin Faces Quantum Threat, Flags Satoshi-Era Coins As A Separate Challenge (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:e7fcfbf82094b:0-coinbase-warns-bitcoin-faces-quantum-threat-flags-satoshi-era-coins-as-a-separate-challenge/
-· BAC Bank of America stock falls on earnings miss (Investing.com) https://www.investing.com/news/earnings/bank-of-america-stock-falls-on-earnings-miss-4948757
-· PLTR Palantir Is Not C3.Ai, But C3.Ai Wrote Its Watch List - Downgrade Palantir To Hold, Sell C3.Ai (NASDAQ:PLTR) (Seeking Alpha) https://seekingalpha.com/article/4954036-palantir-is-not-c3ai-but-c3ai-wrote-its-watch-list-downgrade-palantir-to-hold-sell-c3ai?source=google_editors_picks
-· PETR4 Petrobras, Cyrela, Mitre, Isa Energia, Axia e mais ações para acompanhar nesta quarta (InfoMoney) https://news.google.com/rss/articles/CBMivAFBVV95cUxOWkY5UXlFYjlpY3pPU3B3SjRFeVJQUEpsNUxNS09Zd2VvTHNleHlNb2dFRG50Z1ZURjJVOG1VdzduTGZOWkNBRWdqR01LQUtXeEhKeUVHcmcwNVM1cEhSS3ItQnlhbXliRnVmSTAtMUJMTElDWlE5SW8tbElnZndSODFzRHRaSmdhNjFuUDJYcHVDVFdSWHR5dzc4VU5yUVRqSHNIcWx3V2YwSjhEMDJPUTQxZ0VaLTVZcXVCXw?oc=5
-· AXIA3 Axia Energia (AXIA3) abre prazo para conversão ou resgate de ações PNC (InfoMoney) https://news.google.com/rss/articles/CBMiqwFBVV95cUxPdXljREdfN0Y4ZjNpMWcwNkZNYkgwdmFEMmEzM1F6ZWlDc2pyNHAwMkxSV21MOF92bWRaV3k0c0hRU1BnbTFvaFg0c0JndDljSGZFcmFVdlJKRFQ1VTNrOUdHNERYaThfZjhkUkwxMUFOSGdhZzdwanRwRVpFWEw0cVU4ZUVaQkxPSXdqcXRDeW9QZThLTjVsNmxxYjFWZXpjcDF2YW1raENNR03SAbABQVVfeXFMUGQxbXI5NXgzU1AwQURwSFVTaFA4THlPM3djSXdJR3pEeENJTmFNd0QxUUtTVG1wcWozb1lLWExBck1CdUNVeXdSZWtlaFp5NnJWRGdsTXliczF4RGpNYl9CNzVqQzNPREczR05vS1B5ellFejFvMU1lVWZMS215eWRPU0R5T1BxeTA5a2Z3Y05XcjBPYmdOeVY5cm5DS0hvc2hGZkhuRDl6LWpWZkhGeHo?oc=5
-· BAC Bank of America Reports Third Quarter 2026 Financial Results (Yahoo Finance) https://news.google.com/rss/articles/CBMioAFBVV95cUxQbUFTOE9DMFJpbXhwdi1vOW01Ymt0WjMzRlJoR0E4dGJXcl9XTHNVV05NV2JBVnN6bUpnaFpKeGxRWUs1QkxwRVdnekxiSmx6azRsWEJTejdYQW1VZGVPUk0tT3FvUTl0QWxtWm5YN1hSaDFBSTJoX1R3Zk9paWRXT2lab2JtLV9uWlRUVUVieWtJVlczLVZrTU1LWXdCT1Fu?oc=5
-· BTC Bitcoin will become ‘less volatile’ and larger than gold: ‘The Bitcoin Standard’ author (TradingView (Reuters)) https://news.google.com/rss/articles/CBMi3wFBVV95cUxPcUwtUjVpcFFVVkdjaGQ0RlRmcGRTYno0MGJpbmllQUVPUkRaTUZCRGY4UXBoMjVFbGM0cTJ1QWhQMGxpV005dldaMUdLam5NejZfLW1LOC10d1ZPNEh4TC10aElXcm5yQUJEaXRjbEN6b3dxNlpEbmV1UVdMMnRON013QUFUYWdDQk5qSEx6M2VoZkdHMENfbHZ6VnczeXY5M2RCTnBlb21xU0JNUF9Hbm9VWXZhUkhTX2ZEeVV3dXBBUFY2U0pzS3pZWl9PTUE3eFg3YWZweml6M25mZ2sw?oc=5
-· USDBRL CPI nos EUA, Livro Bege e falas de Duringan mexem com mercados antes da pesquisa Quaest; Ibovespa em dólar cai nesta quarta-feira (14) (Money Times) https://news.google.com/rss/articles/CBMi6gFBVV95cUxOVGoxYWtZUUJGNXhsZ2xRdndIdlBtZk9TQVBBYzFiMkxMRWdGZGlZdUFuRXpJVUZmR25zTlo1cmpfdzdRUU5kZnR3emhjcEpjNjdqQ1RDTjFudF84QndWc0l0d09hNnJ4Q2FrNG42Z3o0QkFVV2JselJPNUtXeEJuTzRsV0VZN2Z0aHlyOWRhcVczcmQyck9Vd2pWLUpGbXBlUFVzb1ZON00yOWVCLW5rWjNLdGJWSDNPa2VnTzBST2JzU1dmSmY4XzVxcE5ZSGNlaHRPWk0teDNsYUFYOXk5VzRtUjJYalotbnc?oc=5
-· USDBRL Libra sobe levemente com dólar em queda antes do CPI dos EUA (Investing.com) https://news.google.com/rss/articles/CBMirgFBVV95cUxQZ3lyNW9wUUdWQ0VkSWI0UXZFX1duMjZKeDVrMTJnakVNUzRZcWVtOEd3eDZLSGhSSUZUT3h1V2dCS1NLYmp1UVZwX052N0ZrSWdvblpya2k3ZTB4dzliOHZLeW9pUU9CZS1ERG5Ucko0UFd4Q0hjNWtnYVE4bVZZd2tGY213clVYSEg2QUVSdDM0dlltR2p3YzFhTktZekdueDdnUXhDZzJtdnBwYkE?oc=5
+· (+8 manchetes; lista completa em eventos/noticias.json)
