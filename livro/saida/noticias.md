@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 14/10 12h50
+NOTÍCIAS E FATOS · 14/10 13h22
 
-Pernas: noticias ok 9 novas (18 consultas; descartadas: 444 veículo fora da lista, 31 sem ativo, 0 teto) · cvm ok 0 novos de 7 (5 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 10 novas (18 consultas; descartadas: 443 veículo fora da lista, 31 sem ativo, 0 teto) · cvm ok 0 novos de 0 (0 cias casadas) · sec ok 0 novos em 3 dias
 
 ## SEC (8-K, 6-K, 10-Q, 10-K) (1)
 
@@ -14,7 +14,16 @@ Fonte: SEC EDGAR 2026-10-14
 id: E04-BAC-26000481-2026-10-14 · status: entregue · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (13)
+## NOTÍCIAS COM MATERIALIDADE (14)
+
+[ATENÇÃO] E05 · BAC · Bank of America posts worst day since April 2025 after regulatory fine (BAC:NYSE)
+Seeking Alpha · 14/10 11h18 · fonte única · licença: manchete
+Link: https://seekingalpha.com/news/4652953-bank-of-america-posts-worst-day-since-april-2025-after-regulatory-fine
+Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e prazo
+Ativos: BAC
+Como falar: 'saiu no Seeking Alpha: Bank of America posts worst day since April 2025 after regulatory fine (BAC:NYSE); confirmar o número no texto antes de repassar'
+Fonte: Seeking Alpha 14/10 11h18
+id: E05-BAC-218c2c1b93-2026-10-14 · status: pendente
 
 [ATENÇÃO] E05 · BAC · Bank of America profits drop 17% after $1.2bn money laundering fine
 Financial Times · 14/10 08h25 · fonte única · licença: manchete
@@ -32,7 +41,7 @@ Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e 
 Ativos: PLTR
 Como falar: 'saiu no Investing.com: Palantir settles lawsuit with London mayor over police contract; confirmar o número no texto antes de repassar'
 Fonte: Investing.com 14/10 11h36
-id: E05-PLTR-c16e48e112-2026-10-14 · status: pendente
+id: E05-PLTR-c16e48e112-2026-10-14 · status: entregue
 
 [ATENÇÃO] E05 · BAC · Bank of America profits hit by $1.2 billion regulatory penalty despite higher interest income
 Yahoo Finance · 14/10 10h45 · fonte única · licença: resumo
@@ -48,7 +57,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: BAC
 Como falar: 'saiu no Yahoo Finance: Bank of America profits hit by $1.2 billion regulatory penalty despite higher interest in…; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 14/10 10h45
-id: E05-BAC-60acad5e6b-2026-10-14 · status: pendente
+id: E05-BAC-60acad5e6b-2026-10-14 · status: entregue
 
 [ATENÇÃO] E05 · TSLA · Earnings Preview: Tesla (TSLA) Q3 Earnings Expected to Decline
 Yahoo Finance · 14/10 10h00 · fonte única · licença: resumo
@@ -64,7 +73,7 @@ Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; 
 Ativos: TSLA
 Como falar: 'saiu no Yahoo Finance: Earnings Preview: Tesla (TSLA) Q3 Earnings Expected to Decline; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 14/10 10h00
-id: E05-TSLA-35c0fb51d2-2026-10-14 · status: pendente
+id: E05-TSLA-35c0fb51d2-2026-10-14 · status: entregue
 
 [ATENÇÃO] E05 · BAC · Bank Of America’s Financial Results Miss Targets Due To $1.2 Billion Fine
 TradingView (Reuters) · 14/10 10h51 · fonte única · licença: manchete
@@ -172,8 +181,17 @@ Fonte: Yahoo Finance 14/10 01h58
 id: E05-BAC-327b54562b-2026-10-14 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (68)
+## OUTRAS NOTÍCIAS (só manchete) (77)
 
+· USDBRL Dólar sobe e Ibovespa cai com exterior e eleição no Brasil em foco (TradingView (Reuters)) https://br.tradingview.com/news/reuters.com,2026:newsml_L1N4600U4:0/
+· UST Latam stocks, FX slide as hot US inflation data lifts dollar, Treasury yields (TradingView (Reuters)) https://www.tradingview.com/news/reuters.com,2026:newsml_L4N4601J0:0-latam-stocks-fx-slide-as-hot-us-inflation-data-lifts-dollar-treasury-yields/
+· NVDA Bitcoin, Nvidia And Tesla ETFs Lead Wall Street’s Most Traded Funds (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:f1c8a527f094b:0-bitcoin-nvidia-and-tesla-etfs-lead-wall-street-s-most-traded-funds/
+· INTC Qualcomm Vs. Intel: The Market is Refuting Both AI Rebrand Attempts (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/qualcomm-vs-intel-market-refuting-144552291.html
+· PLTR Palantir and London mayor's office settle lawsuit over UK police contract (TradingView (Reuters)) https://www.tradingview.com/news/reuters.com,2026:newsml_L8N4601HL:0-palantir-and-london-mayor-s-office-settle-lawsuit-over-uk-police-contract/
+· BRENT Bitcoin price dips below $82K as high oil prices spike US CPI inflation (TradingView (Reuters)) https://www.tradingview.com/news/cointelegraph:06a7ad22e094b:0-bitcoin-price-dips-below-82k-as-high-oil-prices-spike-us-cpi-inflation/
+· AMD Advanced Micro Devices Stock Surges 183% YTD: Time to Hold or Exit? (TradingView (Reuters)) https://www.tradingview.com/news/zacks:59d42d363094b:0-advanced-micro-devices-stock-surges-183-ytd-time-to-hold-or-exit/
+· JPM JPMorgan Q3 Earnings Call Highlights Capital Deployment and AI Risks (TradingView (Reuters)) https://www.tradingview.com/news/zacks:35ef3b044094b:0-jpmorgan-q3-earnings-call-highlights-capital-deployment-and-ai-risks/
+· USDBRL Dólar opera em alta, com foco em inflação americana e cenário político brasileiro; Ibovespa cai (g1) https://g1.globo.com/economia/noticia/2026/10/14/dolar-ibovespa.ghtml
 · GOOGL Not Microsoft. Not Alphabet. Here's the Cloud Giant I'm Most Bullish About. (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/not-microsoft-not-alphabet-heres-154300976.html
 · PLTR Palantir Settles Suit With London Mayor Over Scrapped Policing Contract (Bloomberg) https://www.bloomberg.com/news/articles/2026-10-14/palantir-settles-suit-with-london-mayor-over-scrapped-policing-contract
 · USDBRL Ibovespa amplia perdas com inflação nos EUA e eleição no radar; dólar sobe (Exame) https://exame.com/invest/mercados/ibovespa-amplia-perdas-com-inflacao-nos-eua-e-eleicao-no-radar-dolar-sobe/
@@ -225,13 +243,4 @@ id: E05-BAC-327b54562b-2026-10-14 · status: linha
 · GOOGL Google Is Turning Scientific AI Into a European Cloud Growth Strategy (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/google-turning-scientific-ai-european-122410692.html
 · BTC Bitcoin Is Up 7.1% and Solana 5.3% This Month. Ethereum Is Down 0.7% and XRP 1.4%. What Separates Them? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-7-1-solana-5-122013387.html
 · USDBRL Dólar hoje acelera ganhos após dados de inflação nos EUA (InfoMoney) https://news.google.com/rss/articles/CBMinAFBVV95cUxOOGZfekx0TFNjaUVyTkl0TUJSTk5ZUlFRc0N3dXFmY2hyTHhLRFdEdU50NWJKUWIwUDM0NmkzZW1Ga0ZkQVEzRndrSlVWbEUwSEd3YWtnWnFSQjVBOTFnQWR3c1BrOTVVV3VlcHh6WE15b3RrSk9RXzgwTmxXMW9WcWlDc0VxZU12NjhCaDVGSGI3SldzY1NLazd4VEXSAaIBQVVfeXFMTWtKUFBDVXZYZjJIR2lscVBqYlM0UTJjaXlaa29vRUpEa0JJTmRhMHk0V2twcEFQMmxnUGRYSVk3aERQZFB1QVBXRDYwUlVmQ3h2Sm1hamFmMGVlUlBRWmN2bjRTTGRZU0hzVFdtV2ZGNmdoQmZRLW1GbHpFaXd5aFJlNmplTllZMzVzMEhlVTlzUU5XUXpxbzh5X1Q3NFNXSkt3?oc=5
-· BBDC4 Bradesco: BlackRock eleva participação e passa a deter 10,06% das ações preferenciais (ADVFN) https://news.google.com/rss/articles/CBMiuwFBVV95cUxPeXNxcWdIMlFxRnBIcnRhNTlXbVJHMGNhT2JpbFRvNS1jUEF3MWMxdDZCWFFTVzhVUm5Ndzh4dnpCYWxlTmtBUVdMX2pjZF9yLXZ1UVRrN3lKREJBV3I3cWdiR3hHRUpZNjJOLXY1cFJscFkxd0JBY2FFMm9qNlhweWFKWUlCMzlNeUZ3ZGg1MHNkMW9fNDF6cndpQ0ZEMloxNXI0cl9ZTXJGbm05Z01VNjNvOHdmeDVwcEg0?oc=5
-· BRENT Dólar abre a R$ 5,02, com política, serviços, petróleo e EUA no radar (UOL Economia) https://news.google.com/rss/articles/CBMiswFBVV95cUxNTkcyN1VxeUpMZnVobDhqb2lFczdRMUVtMklLeWVxeTkzZUVuTDVoWHVqeHR0NUtFYTVtVlFjZTRwRnEtazk0NGFJV2JaMm42T1NYNnIyWmtrWjFhV0xjbmdlc0RXV1BzNXlsdTVoM3RwTjJYWmdPWXh1LUlDUnRyUHJyVkdLTkJMT1lucnlKS2pVa0dxSVhPaERWQmo4WjU4eVp2Tl84YnljWFhBb1dYLVMwbw?oc=5
-· ETH Current price of Ethereum for Oct. 14, 2026 (Fortune) https://fortune.com/article/price-of-ethereum-10-14-2026/
-· BTC Current price of Bitcoin for Oct. 14, 2026 (Fortune) https://fortune.com/article/price-of-bitcoin-10-14-2026/
-· PETR4 Agenda de empresas: Petrobras assina acordo sobre jazidas compartilhadas; Cyrela divulga prévia operacional (Valor Economico) https://valor.globo.com/empresas/noticia/2026/10/14/agenda-de-empresas-petrobras-assina-acordo-sobre-jazidas-compartilhadas-cyrela-divulga-previa-operacional.ghtml
-· BAC Bank of America Q3 profit tumbles 17% as fines, Wall Street slowdown dent lending income (Yahoo Finance) https://finance.yahoo.com/markets/article/bank-of-america-q3-profit-tumbles-17-as-fines-wall-street-slowdown-dent-lending-income-112153255.html
-· BTC Bitcoin ETFs Just Had Their Best Day of October While XRP ETFs See No Inflows for Three Sessions. Are Investors Rotating to BTC? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-etfs-just-had-best-111000655.html
-· PETR4 Momento B3: Axia Energia, Cyrela, Mitre, Petrobras e os principais destaques desta quarta-feira (14) (ADVFN) https://br.advfn.com/jornal/2026/10/momento-b3-axia-energia-cyrela-mitre-petrobras-e-os-principais-destaques-desta-quarta-feira-14
-· BTC Coinbase Warns Bitcoin Faces Quantum Threat, Flags Satoshi-Era Coins As A Separate Challenge (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:e7fcfbf82094b:0-coinbase-warns-bitcoin-faces-quantum-threat-flags-satoshi-era-coins-as-a-separate-challenge/
-· (+8 manchetes; lista completa em eventos/noticias.json)
+· (+17 manchetes; lista completa em eventos/noticias.json)
