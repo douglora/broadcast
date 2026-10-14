@@ -86,14 +86,43 @@ def _compilar(nome):
     return "0 errors" in fim, fim
 
 
-def _reabrir_metatrader():
+PADRAO_XP = r"MetaTrader 5\\terminal64\.exe"                          # a instancia da XP (pasta "MetaTrader 5")
+PADRAO_SEGUNDA = r"Global\\terminal64\.exe|terminal64\.exe /portable"   # a segunda instancia (MetaQuotes Global), que o vigia sobe
+
+
+def _pids(padrao):
+    r = subprocess.run(["pgrep", "-f", padrao], capture_output=True, text=True)
+    return [int(x) for x in str(r.stdout or "").split() if x.strip().isdigit()] if r.returncode == 0 else []
+
+
+def _reabrir_metatrader(log=None):
+    """Fecha e reabre o MetaTrader da XP. 14/10/2026: na 4a reabertura do dia a XP nao voltou e a B3 ficou sem tempo real das
+    11h52 ate o fim do pregao. Causa: a segunda instancia (Global) tinha ficado orfa de um wineserver que ja saiu; a espera por
+    "nenhum terminal64.exe" estourava sempre e, com ela viva, o `open` nao sobe a XP. Agora: espera SO pelo processo da XP; uma
+    segunda instancia que sobrou sem a XP e encerrada pelo pid (nunca `taskkill /im`, que leva a XP junto); depois do `open`
+    confere em ate 60 s que a XP voltou e tenta uma segunda vez, registrando no log. Devolve True se a XP esta de pe."""
+    anota = log or (lambda m: None)
     subprocess.run(["osascript", "-e", 'tell application "MetaTrader 5" to quit'], capture_output=True, timeout=30)
     for _ in range(30):
-        if subprocess.run(["pgrep", "-f", "terminal64.exe"], capture_output=True).returncode != 0:
+        if not _pids(PADRAO_XP):
             break
         time.sleep(1.0)
+    if not _pids(PADRAO_XP):
+        for pid in _pids(PADRAO_SEGUNDA):                     # sobrou so a segunda: orfa, segura o aplicativo aberto sem a XP
+            try:
+                os.kill(pid, 15)
+                anota(f"MetaTrader: segunda instância órfã encerrada (pid {pid}) para a XP poder reabrir")
+            except (ProcessLookupError, PermissionError):
+                pass
     time.sleep(2.0)
-    subprocess.run(["open", "-g", "-a", "MetaTrader 5"], capture_output=True, timeout=30)
+    for tentativa in (1, 2):
+        subprocess.run(["open", "-g", "-a", "MetaTrader 5"], capture_output=True, timeout=30)
+        for _ in range(30):
+            time.sleep(2.0)
+            if _pids(PADRAO_XP):
+                return True
+        anota(f"MetaTrader da XP não voltou em 60 s depois do open (tentativa {tentativa} de 2)")
+    return False
 
 
 def _esperar(condicao, segundos, passo=2.0):

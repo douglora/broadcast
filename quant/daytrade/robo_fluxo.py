@@ -104,7 +104,7 @@ def metatrader_aberto():
 def reabrir_metatrader():
     from quant.daytrade.ligar_fita import _reabrir_metatrader
     try:
-        _reabrir_metatrader()
+        _reabrir_metatrader(log=log)                             # 14/10/2026: espera so pela XP, encerra a segunda orfa, confere a volta
     except Exception as e:                                       # nao consegui reabrir: fica o aviso na tela, o robo segue
         log(f"nao consegui reabrir o MetaTrader: {type(e).__name__}: {e}")
 ARQ_MODO = os.path.join(os.path.dirname(DIR_DT), "modo_robo.json")
