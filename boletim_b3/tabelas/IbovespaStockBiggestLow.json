@@ -1,5 +1,5 @@
 {
- "pregao": "2026-10-09",
+ "pregao": "2026-10-13",
  "nome": "IbovespaStockBiggestLow",
  "titulo": "Ações do IBOVESPA - maiores baixas",
  "sla": "8:00:00",
@@ -7,18 +7,18 @@
  "colunas": [{"nome": "TckrSymb", "titulo": "Ação"}, {"nome": "Cod", "titulo": "Código"}, {"nome": "Price", "titulo": "Preço (R$)"}, {"nome": "OscillationDesc", "titulo": "Oscilação (%)"}],
  "texto": ["Lista as ações do IBOVESPA que apresentaram as maiores quedas de preços em um período."],
  "situacao": "publicado",
- "atualizado_em": "2026-10-09T23:30:17.987",
+ "atualizado_em": "2026-10-13T23:30:44.353",
  "truncada": false,
  "linhas": [
-  ["VIVT3", "ON", 30.35, -5.24],
-  ["TIMS3", "ON      NM", 18.1, -4.18],
-  ["AURE3", "ON      NM", 15.59, -2.92],
-  ["CXSE3", "ON      NM", 20.87, -2.47],
-  ["KLBN11", "UNT     N2", 18.13, -2],
-  ["VBBR3", "ON      NM", 36.88, -1.78],
-  ["ISAE4", "PN  EJ  N1", 29.32, -1.69],
-  ["ABEV3", "ON", 15.99, -0.99],
-  ["CMIN3", "ON      N2", 5.01, -0.98],
-  ["SANB11", "UNT", 28.83, -0.85]
+  ["VAMO3", "ON      NM", 6.09, -11.22],
+  ["YDUQ3", "ON      NM", 13.32, -8.45],
+  ["LREN3", "ON      NM", 13.85, -8.03],
+  ["MGLU3", "ON      NM", 11.36, -7.03],
+  ["COGN3", "ON      NM", 2.99, -5.97],
+  ["CEAB3", "ON      NM", 12.77, -5.96],
+  ["RENT3", "ON      NM", 51.39, -5.72],
+  ["NATU3", "ON      NM", 7.04, -5.5],
+  ["CSAN3", "ON      NM", 5.11, -5.37],
+  ["ASAI3", "ON      NM", 12.64, -4.74]
  ]
 }

@@ -1,7 +1,7 @@
 # Boletim da B3: pregão de 13/10/2026 (terça)
 
 **Situação: PARCIAL.** Ainda sem: posições em aberto (opções e futuros), saldo de aluguel, empréstimos do dia, quadro de posições em aberto. A B3 publica esses blocos na madrugada seguinte ao pregão; a rodada da manhã completa.
-Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10-14T00:53:01Z (UTC).
+Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10-14T05:21:22Z (UTC).
 
 [[LEITURA_DA_MESA]]
 
@@ -16,7 +16,7 @@ Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10
 - **Fluxo estrangeiro.** Estrangeiro comprou R$ 1.646 mi líquidos em 08/10; no mês, até 08/10, saldo de +R$ 14.721 mi. _(B3, SharesInvesVolum, 08/10)_
 - **Juros.** A curva de juros abriu: DI1F28 +17 pb, para 12,70%, DI1F29 +22 pb, para 12,44%, DI1F30 +24 pb, para 12,45%, DI1F32 +24 pb, para 12,54%, DI1F35 +23 pb, para 12,58%. _(B3, TradeInformationConsolidated, 13/10)_
 - **Paridade.** RARA11 fez -4,86% contra -1,27% de REMX em reais (-1,25% lá fora, câmbio -0,02%): descolamento de -3,59 ponto no dia. _(B3, TradeInformationConsolidated + series do livro, 13/10)_
-- **Listas do dia.** Do livro nas listas do boletim: mais negociadas à vista: PETR4 (1º), VALE3 (2º), ITUB4 (4º); puts mais negociadas: PETRW586 (3º). _(B3, tabelas de maiores oscilacoes, 13/10)_
+- **Listas do dia.** Do livro nas listas do boletim: maiores altas do Ibovespa: PETR4 (6º); mais negociadas à vista: PETR4 (1º), VALE3 (2º), ITUB4 (4º); puts mais negociadas: PETRW586 (3º). _(B3, tabelas de maiores oscilacoes, 13/10)_
 
 **Já vinham de pregões anteriores**
 
@@ -215,15 +215,10 @@ Por classe, mediana das taxas de referência dos papéis. Taxa de referência: n
 - empréstimos do dia: aguardando
 - aluguel por corretora: ignorado
 - Custody: aguardando
-- DIover: aguardando
 - posições em aberto (opções e futuros): aguardando
-- IbovespaStockBiggestHighs: aguardando
-- IbovespaStockBiggestLow: aguardando
 - Register: aguardando
-- RepurchaseDealings: aguardando
 - Stock: aguardando
 - Posição em aberto de derivativos por tipo de investidor (estrangeiro, institucional, pessoa física): não existe no Boletim Diário do Mercado; procurado nas 69 tabelas e no texto dos 11 cadernos em 30/09/2026.
 - Fluxo por tipo de investidor sai acumulado no mês e com dois pregões de atraso; o saldo de um dia é a diferença entre dois acumulados seguidos.
-- Carteira de índice: a B3 não publicou a tabela neste pregão; valem os pesos de 09/10.
 - RARA11: a B3 não publica valor de referência da cota (IOPV) para este ETF no boletim.
 - Paridade de MELI34: sem a barra de 13/10 de MELI nas séries do livro.
