@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 14/10 14h54
+NOTÍCIAS E FATOS · 14/10 15h21
 
-Pernas: noticias ok 10 novas (18 consultas; descartadas: 450 veículo fora da lista, 38 sem ativo, 0 teto) · cvm ok 0 novos de 7 (5 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 6 novas (18 consultas; descartadas: 455 veículo fora da lista, 38 sem ativo, 0 teto) · cvm ok 0 novos de 7 (5 cias casadas) · sec ok 0 novos em 3 dias
 
 ## SEC (8-K, 6-K, 10-Q, 10-K) (1)
 
@@ -197,8 +197,14 @@ Fonte: Yahoo Finance 14/10 01h58
 id: E05-BAC-327b54562b-2026-10-14 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (97)
+## OUTRAS NOTÍCIAS (só manchete) (103)
 
+· USDBRL Ouro cai com valorização do dólar e dos Treasuries após dado de inflação dos EUA (Valor Economico) https://valor.globo.com/financas/noticia/2026/10/14/ouro-cai-com-valorizacao-do-dolar-e-dos-treasuries-apos-dado-de-inflacao-dos-eua.ghtml
+· INTC Intel Stock Is Up 175%. Is the Turnaround Already Priced In? (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:a6ab00b31094b:0-intel-stock-is-up-175-is-the-turnaround-already-priced-in/
+· BAC Update: Equities Fall Intraday as Traders Parse Inflation Data, Bank of America's Earnings Miss (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/equities-fall-intraday-traders-parse-175654183.html
+· GOOGL ALPHABET INC. (GOOGCL1.SN) Q2 FY2026 earnings call transcript (Yahoo Finance) https://finance.yahoo.com/quote/GOOGCL1.SN/earnings/GOOGCL1.SN-Q2-2026-earnings_call-657320.html
+· ETH Ethereum Price Prediction: ETH Poised to Make a Comeback as ETF Inflows Turn Positive (Yahoo Finance) https://uk.finance.yahoo.com/news/ethereum-price-prediction-eth-poised-130750790.html
+· DI Juros futuros sobem após pesquisas apontarem empate entre Flávio e Lula (CNN Brasil) https://www.cnnbrasil.com.br/economia/money/mercado/juros-futuros-sobem-apos-pesquisas-apontarem-empate-entre-flavio-e-lula/
 · BTC Bitcoin Falls To $81K After Hotter-Than-Expected US Inflation Breaks BTC Below Tight Trading Range (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-falls-81k-hotter-expected-171900103.html
 · INTC 3 Reasons to Buy Intel Stock Before 2027 (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/3-reasons-buy-intel-stock-170300919.html
 · PETR4 Petrobras (PETR4): pagamento bilionário e acordo de US$ 859 milhões; de onde vem o dinheiro? (Suno Noticias) https://www.suno.com.br/noticias/petrobras-petr4-subvencoes-acordo-berbigao-sururu/
@@ -253,10 +259,4 @@ id: E05-BAC-327b54562b-2026-10-14 · status: linha
 · GFS GLOBALFOUNDRIES Inc. (GFS) stock price, news, quote and history (Yahoo Finance) https://news.google.com/rss/articles/CBMiUEFVX3lxTE90WEU5TXEtSlpXRF9lM3BpNG9zcXZuLUl4MWZpWGJVRXNvOHpGTTdPU0FCN2R3WUhsaklkUGZ0aUV5SWNWWUwxOWYyY1NIa2Qz?oc=5
 · META Meta Platforms shares may move 4.9% on Oct. 21 earnings By Investing.com (Investing.com) https://uk.investing.com/news/stock-market-news/meta-platforms-shares-may-move-49-on-oct-21-earnings-93CH-4910430
 · GOOGL Google Shareholder Alert: Alphabet Inc. Securities Class Action Lawsuit - Investors With Losses May Contact Levi & Korsinsky (PR Newswire) https://www.prnewswire.com/news-releases/google-shareholder-alert-alphabet-inc-securities-class-action-lawsuit---investors-with-losses-may-contact-levi--korsinsky-302908228.html
-· UST 10-year Treasury yield rises following hot inflation data: AlphaCheck (Yahoo Finance) https://sg.finance.yahoo.com/news/10-year-treasury-yield-rises-following-hot-inflation-data-alphacheck-135815482.html
-· TSM TSMC Q3 Earnings Preview: Investors eye margins as AI demand drives 50% revenue growth (TSM:NYSE) (Seeking Alpha) https://seekingalpha.com/news/4652468-tsmc-q3-earnings-preview-investors-eye-margins-as-ai-demand-drives-50-revenue-growth
-· BTC Bitcoin and ethereum prices today, Wednesday, October 14, 2026: Crypto prices sliding after higher-inflation report (Yahoo Finance) https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-wednesday-october-14-2026-crypto-prices-sliding-after-higher-inflation-report-133306768.html
-· BTC A Holder Who Put $100 a Month Into Bitcoin Since 2015 Has Paid In $14,000. Here Is What the Stack Is Worth Now. (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/holder-put-100-month-bitcoin-133113066.html
-· NVDA Nvidia's Valuation Is Becoming Absurdly Cheap (NASDAQ:NVDA) (Seeking Alpha) https://seekingalpha.com/article/4953587-nvidia-valuation-is-becoming-absurdly-cheap
-· AXIA3 Axia faz nova redução de participação acionária na ISA Energia (UOL Economia) https://megawhat.uol.com.br/economia-e-politica/empresas/axia-faz-nova-reducao-de-participacao-acionaria-na-isa-energia/
-· (+37 manchetes; lista completa em eventos/noticias.json)
+· (+43 manchetes; lista completa em eventos/noticias.json)
