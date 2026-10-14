@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 13/10 21h15
+NOTÍCIAS E FATOS · 14/10 08h34
 
-Pernas: noticias ok 6 novas (18 consultas; descartadas: 450 veículo fora da lista, 31 sem ativo, 0 teto) · cvm ok 1 novos de 7 (5 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 20 novas (18 consultas; descartadas: 463 veículo fora da lista, 25 sem ativo, 37 teto) · cvm ok 0 novos de 7 (5 cias casadas) · sec ok 1 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (7)
 
@@ -13,7 +13,7 @@ Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; 
 Ativos: BBDC4
 Como falar: 'a Bradesco publicou comunicado ao mercado sobre Recebeu, em 12 de outubro de 2026, notificação da BlackRock, Inc (“Bl…'
 Fonte: CVM 13/10
-id: E03-BBDC4-1576899-2026-10-13 · status: pendente · íntegra disponível
+id: E03-BBDC4-1576899-2026-10-13 · status: expirado · íntegra disponível
 
 [ATENÇÃO] E03 · PETR4 · Fato Relevante: Assinou com as empresas Shell, TotalEnergies e Petrogal, parceiras do Consórcio BM-S-11A, os Acordos de Equalização de Gastos e Volumes (AEGVs) de Be…
 CVM · entregue 13/10/2026 18:04
@@ -26,7 +26,7 @@ Por que importa: fato relevante e o que a propria companhia julga capaz de mover
 Ativos: PETR4
 Como falar: 'a Petrobras publicou fato relevante sobre Assinou com as empresas Shell, TotalEnergies e Petrogal, parceiras do…'
 Fonte: CVM 13/10
-id: E03-PETR4-1576827-2026-10-13 · status: expirado · íntegra disponível
+id: E03-PETR4-1576827-2026-10-13 · status: entregue · íntegra disponível
 
 [ATENÇÃO] E03 · ALUP4 · Comunicado ao Mercado: ALUP11; ALUP3; ALUP4), comunica aos seus acionistas e ao mercado em geral que, nos termos do artigo 12 da Resolução da Comissão de Valores Mobiliário…
 CVM · entregue 13/10/2026 09:21 · Aquisição/Alienação de Participação Acionária Relevante / Declaração de Aquisição de Participação Acionária Relevante
@@ -76,7 +76,16 @@ Fonte: CVM 13/10
 id: E03-AXIA3-1576749-2026-10-13 · status: linha
 
 
-## SEC (8-K, 6-K, 10-Q, 10-K) (2)
+## SEC (8-K, 6-K, 10-Q, 10-K) (3)
+
+[ATENÇÃO] E04 · BAC · 8-K: 2.02 resultado do trimestre, 7.01 Regulation FD
+SEC EDGAR · aceito 14/10 07h44 · 8-K
+Link: https://www.sec.gov/Archives/edgar/data/70858/000007085826000481/bac-20261014.htm
+Por que importa: resultado do trimestre reprecifica lucro, guidance e multiplo; comparar com o consenso
+Ativos: BAC
+Como falar: 'a BAC protocolou 8-K na SEC (2.02 resultado do trimestre, 7.01 Regulation FD)'
+Fonte: SEC EDGAR 2026-10-14
+id: E04-BAC-26000481-2026-10-14 · status: pendente · íntegra disponível
 
 [ATENÇÃO] E04 · JPM · 8-K: 2.02 resultado do trimestre
 SEC EDGAR · aceito 13/10 07h30 · 8-K
@@ -110,7 +119,73 @@ Fonte: SEC EDGAR 2026-10-13
 id: E04-JPM-26065616-2026-10-13 · status: linha · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (19)
+## NOTÍCIAS COM MATERIALIDADE (24)
+
+[ATENÇÃO] E05 · BAC · Earnings Snapshot: Bank of America falls short of Q3 revenue and EPS estimates as provision for credit losses hits $1.30B
+TradingView (Reuters) · 14/10 08h14 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/seekingalpha:1e7c03842094b:0-earnings-snapshot-bank-of-america-falls-short-of-q3-revenue-and-eps-estimates-as-provision-for-credit-losses-hits-1-30b/
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: BAC
+Como falar: 'saiu no TradingView (Reuters): Earnings Snapshot: Bank of America falls short of Q3 revenue and EPS estimates as provisi…; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 14/10 08h14
+id: E05-BAC-2d382bb675-2026-10-14 · status: pendente
+
+[ATENÇÃO] E05 · BAC · Bank of America posts third-quarter profit drop due to $1.2 billion Treasury fine
+CNBC · 14/10 07h15 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Bank of America posted a sharp decline to third-quarter profit after being hit with a $1.2 billion penalty by the U.S.
+  – Shares of the bank fell more than 4% in premarket trading.
+  – Here's what the company reported: - Earnings per share: 91 cents, may not compare with $1.10 LSEG estimate - Revenue: $30.12 billion vs. $30.69 billion estimate The bank's profit fell 17% to $6.93 billion, or 91 cents a…
+  – Excluding the penalty, which sapped income by 17 cents, EPS would've been $1.08 a share.
+  – Revenue rose 3.2% to $30.12 billion in the quarter, below expectations by about $570 million, largely on misses from Wall Street trading operations.
+  – Fixed income trading revenue fell 17% to $2.55 billion on weakness in mortgages, municipals, and credit activity.
+Link: https://www.cnbc.com/2026/10/14/bank-of-america-bac-q3-2026-earnings.html
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: BAC · UST
+Como falar: 'saiu no CNBC: Bank of America posts third-quarter profit drop due to $1.2 billion Treasury fine; confirmar o número no texto antes de repassar'
+Fonte: CNBC 14/10 07h15
+id: E05-BAC-9f4f658e77-2026-10-14 · status: pendente
+
+[ATENÇÃO] E05 · MRVL · Marvell: A $37.5 Billion Business Is Quietly Carrying The Growth Plan
+Seeking Alpha · 14/10 07h12 · fonte única · licença: manchete
+Link: https://seekingalpha.com/article/4954024-marvell-a-37-5-billion-business-is-quietly-carrying-the-growth-plan
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: MRVL
+Como falar: 'saiu no Seeking Alpha: Marvell: A $37.5 Billion Business Is Quietly Carrying The Growth Plan; confirmar o número no texto antes de repassar'
+Fonte: Seeking Alpha 14/10 07h12
+id: E05-MRVL-0c5bd62fa3-2026-10-14 · status: pendente
+
+[ATENÇÃO] E05 · JPM · JPMorgan Chase Raises Full-Year Net Interest Income Outlook Despite Missing Q3 Revenue Expectations
+Yahoo Finance · 14/10 05h28 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Key Stats for JPMorgan Chase Stock - Price change for JPMorgan Chase stock in the last 6 months: 6% - $JPM Stock Price as of Oct.
+  – 13: $331 - 52-Week High: $367 - $JPM Stock Price Target: $372 What Happened?
+  – JPMorgan Chase (JPM:NYSE) reported Q3 earnings of $5.57 per share, below estimates of $5.91 per share.
+  – Revenue was $50.9 billion, up 8% from a year ago, and net income was $15.3 billion.
+  – The results also included $658 million in losses on investment securities.
+  – Investment banking fees rose 14% from last year but fell 8% from Q2.
+Link: https://finance.yahoo.com/markets/stocks/articles/jpmorgan-chase-raises-full-net-082840712.html
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: JPM
+Como falar: 'saiu no Yahoo Finance: JPMorgan Chase Raises Full-Year Net Interest Income Outlook Despite Missing Q3 Revenue Ex…; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 14/10 05h28
+id: E05-JPM-fba121713a-2026-10-14 · status: linha
+
+[ATENÇÃO] E05 · BAC · Bank of America Heads Into Q3 Earnings Carrying a $1.2 Billion Treasury Penalty
+Yahoo Finance · 14/10 01h58 · + Seeking Alpha · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Bank of America received a $1.2 billion bill from the US Treasury a day before its earnings report.
+  – On Tuesday, the Treasury hit the second-largest US bank with more than $1.21 billion in anti-money-laundering and sanctions penalties.
+  – The bank said the charge will cut third-quarter net income by about 17 cents per share.
+  – A $1.2 Billion Bill Lands on the Eve of Bank of America's Q3 Earnings The penalties total more than $1.21 billion and come from three Treasury agencies.
+  – - $1.2 billion from FinCEN: The Financial Crimes Enforcement Network's penalty is the third-largest in Treasury history.
+  – - $750 million from the OCC: The Office of the Comptroller of the Currency imposed its largest penalty ever, counted within FinCEN's figure.
+Link: https://finance.yahoo.com/markets/stocks/articles/bank-america-heads-q3-earnings-045810438.html
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: BAC · UST
+Como falar: 'saiu no Yahoo Finance: Bank of America Heads Into Q3 Earnings Carrying a $1.2 Billion Treasury Penalty; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 14/10 01h58
+id: E05-BAC-327b54562b-2026-10-14 · status: linha
 
 [ATENÇÃO] E05 · MELI34 · Mercado Livre (MELI34): Citi corta preço-alvo, mas vê melhora nas margens; vale comprar?
 Suno Noticias · 13/10 17h45 · fonte única · licença: resumo
@@ -126,7 +201,7 @@ Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais
 Ativos: MELI34
 Como falar: 'saiu no Suno Noticias: Mercado Livre (MELI34): Citi corta preço-alvo, mas vê melhora nas margens; vale comprar?; confirmar o número no texto antes de repassar'
 Fonte: Suno Noticias 13/10 17h45
-id: E05-MELI34-75667e17d6-2026-10-13 · status: expirado
+id: E05-MELI34-75667e17d6-2026-10-13 · status: entregue
 
 [ATENÇÃO] E05 · KO · Coca-Cola or Chevron: The One Dividend Stock I’d Hold for the Next 20 Years
 Yahoo Finance · 13/10 17h02 · fonte única · licença: resumo
@@ -142,7 +217,7 @@ Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir
 Ativos: KO · CVX
 Como falar: 'saiu no Yahoo Finance: Coca-Cola or Chevron: The One Dividend Stock I’d Hold for the Next 20 Years; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 13/10 17h02
-id: E05-KO-051407d826-2026-10-13 · status: expirado
+id: E05-KO-051407d826-2026-10-13 · status: entregue
 
 [ATENÇÃO] E05 · JPM · Prediction: JPMorgan Chase Raises Its Dividend Again in 2027
 Yahoo Finance · 13/10 16h50 · fonte única · licença: resumo
@@ -367,8 +442,23 @@ Fonte: TradingView (Reuters) 12/10 11h41
 id: E05-PLTR-e002d7e14c-2026-10-12 · status: entregue
 
 
-## OUTRAS NOTÍCIAS (só manchete) (153)
+## OUTRAS NOTÍCIAS (só manchete) (168)
 
+· ETH Current price of Ethereum for Oct. 14, 2026 (Fortune) https://fortune.com/article/price-of-ethereum-10-14-2026/
+· BTC Current price of Bitcoin for Oct. 14, 2026 (Fortune) https://fortune.com/article/price-of-bitcoin-10-14-2026/
+· PETR4 Agenda de empresas: Petrobras assina acordo sobre jazidas compartilhadas; Cyrela divulga prévia operacional (Valor Economico) https://valor.globo.com/empresas/noticia/2026/10/14/agenda-de-empresas-petrobras-assina-acordo-sobre-jazidas-compartilhadas-cyrela-divulga-previa-operacional.ghtml
+· BAC Bank of America Q3 profit tumbles 17% as fines, Wall Street slowdown dent lending income (Yahoo Finance) https://finance.yahoo.com/markets/article/bank-of-america-q3-profit-tumbles-17-as-fines-wall-street-slowdown-dent-lending-income-112153255.html
+· BTC Bitcoin ETFs Just Had Their Best Day of October While XRP ETFs See No Inflows for Three Sessions. Are Investors Rotating to BTC? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-etfs-just-had-best-111000655.html
+· PETR4 Momento B3: Axia Energia, Cyrela, Mitre, Petrobras e os principais destaques desta quarta-feira (14) (ADVFN) https://br.advfn.com/jornal/2026/10/momento-b3-axia-energia-cyrela-mitre-petrobras-e-os-principais-destaques-desta-quarta-feira-14
+· BTC Coinbase Warns Bitcoin Faces Quantum Threat, Flags Satoshi-Era Coins As A Separate Challenge (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:e7fcfbf82094b:0-coinbase-warns-bitcoin-faces-quantum-threat-flags-satoshi-era-coins-as-a-separate-challenge/
+· BAC Bank of America stock falls on earnings miss (Investing.com) https://www.investing.com/news/earnings/bank-of-america-stock-falls-on-earnings-miss-4948757
+· PLTR Palantir Is Not C3.Ai, But C3.Ai Wrote Its Watch List - Downgrade Palantir To Hold, Sell C3.Ai (NASDAQ:PLTR) (Seeking Alpha) https://seekingalpha.com/article/4954036-palantir-is-not-c3ai-but-c3ai-wrote-its-watch-list-downgrade-palantir-to-hold-sell-c3ai?source=google_editors_picks
+· PETR4 Petrobras, Cyrela, Mitre, Isa Energia, Axia e mais ações para acompanhar nesta quarta (InfoMoney) https://news.google.com/rss/articles/CBMivAFBVV95cUxOWkY5UXlFYjlpY3pPU3B3SjRFeVJQUEpsNUxNS09Zd2VvTHNleHlNb2dFRG50Z1ZURjJVOG1VdzduTGZOWkNBRWdqR01LQUtXeEhKeUVHcmcwNVM1cEhSS3ItQnlhbXliRnVmSTAtMUJMTElDWlE5SW8tbElnZndSODFzRHRaSmdhNjFuUDJYcHVDVFdSWHR5dzc4VU5yUVRqSHNIcWx3V2YwSjhEMDJPUTQxZ0VaLTVZcXVCXw?oc=5
+· AXIA3 Axia Energia (AXIA3) abre prazo para conversão ou resgate de ações PNC (InfoMoney) https://news.google.com/rss/articles/CBMiqwFBVV95cUxPdXljREdfN0Y4ZjNpMWcwNkZNYkgwdmFEMmEzM1F6ZWlDc2pyNHAwMkxSV21MOF92bWRaV3k0c0hRU1BnbTFvaFg0c0JndDljSGZFcmFVdlJKRFQ1VTNrOUdHNERYaThfZjhkUkwxMUFOSGdhZzdwanRwRVpFWEw0cVU4ZUVaQkxPSXdqcXRDeW9QZThLTjVsNmxxYjFWZXpjcDF2YW1raENNR03SAbABQVVfeXFMUGQxbXI5NXgzU1AwQURwSFVTaFA4THlPM3djSXdJR3pEeENJTmFNd0QxUUtTVG1wcWozb1lLWExBck1CdUNVeXdSZWtlaFp5NnJWRGdsTXliczF4RGpNYl9CNzVqQzNPREczR05vS1B5ellFejFvMU1lVWZMS215eWRPU0R5T1BxeTA5a2Z3Y05XcjBPYmdOeVY5cm5DS0hvc2hGZkhuRDl6LWpWZkhGeHo?oc=5
+· BAC Bank of America Reports Third Quarter 2026 Financial Results (Yahoo Finance) https://news.google.com/rss/articles/CBMioAFBVV95cUxQbUFTOE9DMFJpbXhwdi1vOW01Ymt0WjMzRlJoR0E4dGJXcl9XTHNVV05NV2JBVnN6bUpnaFpKeGxRWUs1QkxwRVdnekxiSmx6azRsWEJTejdYQW1VZGVPUk0tT3FvUTl0QWxtWm5YN1hSaDFBSTJoX1R3Zk9paWRXT2lab2JtLV9uWlRUVUVieWtJVlczLVZrTU1LWXdCT1Fu?oc=5
+· BTC Bitcoin will become ‘less volatile’ and larger than gold: ‘The Bitcoin Standard’ author (TradingView (Reuters)) https://news.google.com/rss/articles/CBMi3wFBVV95cUxPcUwtUjVpcFFVVkdjaGQ0RlRmcGRTYno0MGJpbmllQUVPUkRaTUZCRGY4UXBoMjVFbGM0cTJ1QWhQMGxpV005dldaMUdLam5NejZfLW1LOC10d1ZPNEh4TC10aElXcm5yQUJEaXRjbEN6b3dxNlpEbmV1UVdMMnRON013QUFUYWdDQk5qSEx6M2VoZkdHMENfbHZ6VnczeXY5M2RCTnBlb21xU0JNUF9Hbm9VWXZhUkhTX2ZEeVV3dXBBUFY2U0pzS3pZWl9PTUE3eFg3YWZweml6M25mZ2sw?oc=5
+· USDBRL CPI nos EUA, Livro Bege e falas de Duringan mexem com mercados antes da pesquisa Quaest; Ibovespa em dólar cai nesta quarta-feira (14) (Money Times) https://news.google.com/rss/articles/CBMi6gFBVV95cUxOVGoxYWtZUUJGNXhsZ2xRdndIdlBtZk9TQVBBYzFiMkxMRWdGZGlZdUFuRXpJVUZmR25zTlo1cmpfdzdRUU5kZnR3emhjcEpjNjdqQ1RDTjFudF84QndWc0l0d09hNnJ4Q2FrNG42Z3o0QkFVV2JselJPNUtXeEJuTzRsV0VZN2Z0aHlyOWRhcVczcmQyck9Vd2pWLUpGbXBlUFVzb1ZON00yOWVCLW5rWjNLdGJWSDNPa2VnTzBST2JzU1dmSmY4XzVxcE5ZSGNlaHRPWk0teDNsYUFYOXk5VzRtUjJYalotbnc?oc=5
+· USDBRL Libra sobe levemente com dólar em queda antes do CPI dos EUA (Investing.com) https://news.google.com/rss/articles/CBMirgFBVV95cUxQZ3lyNW9wUUdWQ0VkSWI0UXZFX1duMjZKeDVrMTJnakVNUzRZcWVtOEd3eDZLSGhSSUZUT3h1V2dCS1NLYmp1UVZwX052N0ZrSWdvblpya2k3ZTB4dzliOHZLeW9pUU9CZS1ERG5Ucko0UFd4Q0hjNWtnYVE4bVZZd2tGY213clVYSEg2QUVSdDM0dlltR2p3YzFhTktZekdueDdnUXhDZzJtdnBwYkE?oc=5
 · PLTR CrowdStrike vs. Palantir Technologies: What Revenue Trends Tell Investors About These High-Growth Tech Companies (Yahoo Finance) https://finance.yahoo.com/technology/articles/crowdstrike-vs-palantir-technologies-revenue-235549445.html
 · BAC Bank of America’s $1.2 Billion in Fines Will Weigh on Earnings (Barron's) https://www.barrons.com/articles/bank-of-america-stock-money-laundering-fine-2b5b4eda
 · GOOGL Alphabet Stocks Rise as a $352 Billion AI Forecast Raises Cash Questions (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:25d21ea0f094b:0-alphabet-stocks-rise-as-a-352-billion-ai-forecast-raises-cash-questions/
@@ -414,19 +504,4 @@ id: E05-PLTR-e002d7e14c-2026-10-12 · status: entregue
 · ITUB4 Compre Copasa (CSMG3), BB Seguridade (BBSE3) e outras 5 ações para ganhar mais de 8% nesta semana, segundo Itaú BBA (Money Times) https://www.moneytimes.com.br/day-trade-itau-bba-13-10-26-apsa/
 · BTC Bitcoin ETFs Lost $65 Million In A Day. One BlackRock Fund Accounted For Every Dollar. (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-etfs-lost-65-million-190200401.html
 · UST Treasury, Eurozone Yields Decline as Markets Look to U.S. Inflation Data (The Wall Street Journal) https://www.wsj.com/economy/central-banking/treasury-eurozone-yields-fall-as-markets-look-to-u-s-inflation-data-412d95a4
-· JPM JPMorgan Chase blocks outside AI agents like Muse, Instinct from directly accessing accounts (CNBC) https://www.cnbc.com/2026/10/13/jpmorgan-ai-agents-account-access.html
-· AMD Fermi Stock Soars 20% on AMD Deal. Why Analysts See Hurdles Ahead. (Barron's) https://www.barrons.com/articles/fermi-advanced-micro-devices-stock-ai-6c2ca297
-· PETR4 Investidores estrangeiros: Petrobras lidera ranking da B3 (Suno Noticias) https://www.suno.com.br/noticias/investidores-estrangeiros-acoes-mais-negociadas-b3-mt/
-· JPM JPMorgan stock wavers after Q3 earnings disappoint as markets soften (JPM:NYSE) (Seeking Alpha) https://seekingalpha.com/news/4652368-jpmorgan-stock-wavers-after-q3-earnings-disappoint-as-markets-soften
-· ETH Ethereum Whales Go Long, Network Activity Grows: Why Isn't ETH Going Up? (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:22cd72792094b:0-ethereum-whales-go-long-network-activity-grows-why-isn-t-eth-going-up/
-· UST US Treasury yield peak still ahead as Fed likely to tighten again, PIMCO's Ivascyn says (Reuters) https://www.reuters.com/markets/us/us-treasury-yields-yet-peak-fed-may-tighten-further-pimcos-ivascyn-says-2026-10-13/
-· JPM JPMorgan CEO Dimon warns customers of ‘liability transfer’ with AI (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/jpmorgan-ceo-dimon-warns-customers-155929986.html
-· MMM 3M shares may move 4.6% on earnings release next week By Investing.com (Investing.com) https://ca.investing.com/news/stock-market-news/3m-shares-may-move-46-on-earnings-release-next-week-93CH-4878661
-· USDBRL Ibovespa recua com cenário eleitoral no radar; dólar sobe a R$ 5 (CNN Brasil) https://www.cnnbrasil.com.br/economia/money/mercado/mercado-financeiro-ibovespa-dolar-13-outubro-2026/
-· BTC Bitcoin, XRP, ETH decouple from tumbling Korean stocks (CoinDesk) https://www.coindesk.com/markets/2026/10/13/bitcoin-rebounds-above-usd83-000-as-it-decouples-from-tumbling-korean-stocks-and-nasdaq-futures
-· MRVL Why It’s Time to Load Up on Marvell Stock (Yahoo Finance) https://news.google.com/rss/articles/CBMilwFBVV95cUxOWi1yTy1MWk1mWlpnVHZXMUJzLUxMWW0wRTZqQXBJclEtYTV5TWJpdll3Y3RBbmFmdHRSWWpTWFNDeWZsUzNrVjJOdUlCc3dZSHptQUFrZjRfV0g0Q0VEdkp2ekRpVFZZbUktVXJvbUsyNl9NLV9Ed0xOeFdoOVF2dWN2akU1V1kzb0FHUnJZV1R3a0VGWTNJ?oc=5
-· ETH Interactive Brokers expands crypto services with Ethereum staking via Zerohash (The Block) https://www.theblock.co/news/ecosystems/2026-10-13-interactive-brokers-ethereum-staking-zerohash-418457
-· AXIA3 Axia Energia (AXIA7) Previsões, Preço-Alvo e Projeções de Analistas (ADVFN) https://br.advfn.com/bolsa-de-valores/bovespa/axia-energia-pnc-AXIA7/previsoes
-· BTC Super League buys its first Bitcoin for $83,041 ahead of Metaplanet deal (TradingView (Reuters)) https://www.tradingview.com/news/cryptobriefing:8b1d90ea4094b:0-super-league-buys-its-first-bitcoin-for-83-041-ahead-of-metaplanet-deal/
-· MU China’s CXMT and Broadcom’s CEO Rattle Chip Stocks: Which Fear Matters More for Micron? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/china-cxmt-broadcom-ceo-rattle-173756730.html
-· (+93 manchetes; lista completa em eventos/noticias.json)
+· (+108 manchetes; lista completa em eventos/noticias.json)

@@ -1,78 +1,15 @@
-ALERTAS · Fechamento 18h
+ALERTAS · Manhã 08h30
 
-(pendente de slot anterior) [CRÍTICO] T05 · 2 ativos: SAPR4, RARA11
-· SAPR4 -7,9% no dia a R$ 7,97: movimento de 3,0 desvios para uma vol de 20 dias de 43% a.a.
-  1m +18% · 6m -2,8% · YTD +3,3%
-· RARA11 -4,9% no dia a R$ 12,92: movimento de 3,4 desvios para uma vol de 20 dias de 23% a.a.
-  1m -20% · 6m - · YTD -
-Por que importa: acima de 3 desvios o movimento sai do ruído e costuma vir de fato novo ou fluxo forçado
-Como falar: 'o movimento de hoje é atípico para este papel; antes de mexer, saber o motivo'
-Fonte: Yahoo Finance fech. 13/10
-ids: T05-SAPR4-queda-2026-10-13, T05-RARA11-queda-2026-10-13
-
-(pendente de slot anterior) [CRÍTICO] T08 · 2 ativos: QNTM, SAPR4
-· QNTM entrou em bear técnico: -21% do pico de 52s (US$ 34,65 em 02/06) a US$ 27,35
-  1m -6,1% · 6m +7,8% · 12m -2,9%
-· SAPR4 entrou em correção: -12% do pico de 52s (R$ 9,08 em 28/01) a R$ 7,97
-  1m +18% · 6m -2,8% · 12m +17%
-Por que importa: -20% do pico é o limiar que a indústria chama de bear técnico; recuperar o pico exige +27%
-Como falar: 'o cliente sente a queda no extrato; a conversa é sobre a tese, não sobre o preço de hoje'
-Fonte: Yahoo Finance fech. 13/10
-ids: T08-QNTM--20-2026-10-13, T08-SAPR4--10-2026-10-13
-
-(pendente de slot anterior) [ATENÇÃO] M03 · Focus de 09/10: IPCA: 2026 5,22% (+21 bps) · 2027 4,30% (-0 bps)
-Selic fim de ano: 2026 13,25% (-25 bps) · 2027 12,00% (0 bps)
-Câmbio fim de ano: 2026 R$ 5,15 (-0,05) · 2027 R$ 5,26 (-0,02)
-Por que importa: a mediana do Focus é a régua do Copom; mudança de 10 bps no IPCA ou 25 bps na Selic muda a leitura da curva
-Ativos: DI · Tesouro · USD/BRL
-Como falar: 'o mercado revisou as projeções; comparar com o que a curva de juros já precifica'
-Fonte: BCB Focus (Olinda) 09/10
-ids: M03-MACRO-focus-2026-10-09
-
-(pendente de slot anterior) [ATENÇÃO] E03 · PETR4 · Fato Relevante: Assinou com as empresas Shell, TotalEnergies e Petrogal, parceiras do Consórcio BM-S-11A, os Acordos de Equalização de Gastos e Volumes (AEGVs) de Be…
-CVM · entregue 13/10/2026 18:04
-Do documento:
-  – Em decorrência da assinatura dos Acordos de Equalização de Gastos e Volumes (AEGVs), a Petrobras  receberá das empresas parceiras do Consórcio BM -S-11A o valor líquido de aproximadamente US$ 859  milhões.
-  – O montante será liquidado até novembro de 2026.
-  – O período considerado compreende desde a assinatura do  Contrato de Concessão BM-S-11, em 15/09/2000, até a data de 30/04/2026, dia anterior à data efetiva  dos AIPs de Berbigão e de Sururu.
-Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1576827
-Por que importa: fato relevante e o que a propria companhia julga capaz de mover o preco; ler o documento inteiro antes de comentar
-Ativos: PETR4
-Como falar: 'a Petrobras publicou fato relevante sobre Assinou com as empresas Shell, TotalEnergies e Petrogal, parceiras do…'
-Fonte: CVM 13/10
-ids: E03-PETR4-1576827-2026-10-13
-
-(pendente de slot anterior) [ATENÇÃO] E05 · MELI34 · Mercado Livre (MELI34): Citi corta preço-alvo, mas vê melhora nas margens; vale comprar?
-Suno Noticias · 13/10 17h45 · fonte única · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – Negócios Mercado Livre (MELI34): Citi corta preço-alvo, mas vê melhora nas margens; vale comprar?
-  – O Mercado Livre (MELI34) passou por uma revisão que mistura mais confiança na operação com cautela sobre o preço da ação.
-  – Nesta terça-feira (13), o Citi reduziu seu preço-alvo de US$ 2.150 para US$ 2.100 e manteve a recomendação neutra, antes do balanço do terceiro trimestre.
-  – O valor se refere à ação MELI, negociada nos Estados Unidos, e não diretamente ao BDR MELI34, disponível na bolsa brasileira.
-  – A divulgação dos resultados está prevista para 4 de novembro.
-  – A recomendação passou de “Neutra/Alto Risco” para “Neutra”, refletindo menor volatilidade e mais visibilidade sobre as margens.
-Link: https://www.suno.com.br/noticias/mercado-livre-meli34-citi-corta-preco-alvo-mt/
-Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
-Ativos: MELI34
-Como falar: 'saiu no Suno Noticias: Mercado Livre (MELI34): Citi corta preço-alvo, mas vê melhora nas margens; vale comprar?; confirmar o número no texto antes de repassar'
-Fonte: Suno Noticias 13/10 17h45
-ids: E05-MELI34-75667e17d6-2026-10-13
-
-(pendente de slot anterior) [ATENÇÃO] E05 · KO · Coca-Cola or Chevron: The One Dividend Stock I’d Hold for the Next 20 Years
-Yahoo Finance · 13/10 17h02 · fonte única · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – Key Takeaways - Chevron yields 3.4%, and Coca-Cola 2.5%, and Chevron raised its dividend faster from fiscal 2020 to fiscal 2025: 5.8% a year to Coca-Cola's 4.5%.
-  – - Over the last twelve months, Chevron's dividend took 51% of its free cash flow, against 77% for Coca-Cola.
-  – - Coca-Cola's free cash flow fell short of its dividend in fiscal 2024 and 2025, then rebounded to $6.9 billion in the first half of 2026.
-  – - Chevron's own 2030 targets assume commodity prices lower than today's, so oil prices are the thing to watch.
-  – Free cash flow hit $18.1 billion in the second quarter of 2026, up from $4.9 billion a year earlier, and production rose 20%.
-  – Net revenues grew 7% to $13.4 billion, and unit case volume rose 5%.
-Link: https://finance.yahoo.com/markets/stocks/articles/coca-cola-chevron-one-dividend-200203497.html
-Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
-Ativos: KO · CVX
-Como falar: 'saiu no Yahoo Finance: Coca-Cola or Chevron: The One Dividend Stock I’d Hold for the Next 20 Years; confirmar o número no texto antes de repassar'
-Fonte: Yahoo Finance 13/10 17h02
-ids: E05-KO-051407d826-2026-10-13
+[CRÍTICO] CURVA · C05 IPCA+ 2050 PU -5,0% em 5 datas-base (base 13/10) / C06 Inflação implícita: implícita 2029 +188 bps acima do Focus · implícita 2032 cruzou 5,50% · implícita 2031/32 (descasado) +189 bps acima do Focus
+TD Pre 2029 12,40 (+10) · Pre 2031 12,43 (-2) · IPCA+ 2032 6,68 (+3) · IPCA+ 2035 6,69 (+3) · IPCA+ 2040 6,56 (+5) PU -0,6% · IPCA+ 2050 6,57 (+9) PU -1,9% · IPCA+ 2029 6,66 (+4) · Pre 2032 12,51 (-3)
+Implícita 2029: 5,38% (-14 bps na semana) vs Focus IPCA 2029 3,50% (+188 bps)
+Implícita 2032: 5,46% (-18 bps na semana) vs Focus IPCA 2030 3,50% (+196 bps)
+Implícita 2031/32 (descasado): 5,39% (-18 bps na semana) vs Focus IPCA 2030 3,50% (+189 bps)
+Por que importa: fechamento de taxa é ganho de marcação; quem carrega até o vencimento não mudou de rentabilidade
+Como falar: 'a marcação a mercado veio a favor; o rendimento contratado segue igual'
+Fonte: Tesouro Transparente base 13/10; BCB Focus · Tesouro Transparente, base 13/10
+Push: [CRÍTICO] TESOURO IPCA+ 2050 PU -5,0% em 5 datas-base (base 13/10) | TESOURO Inflação implícita · detalhe na sessão
+ids: C05-TESOURO-fechou-2026-10-13, C06-TESOURO-implicita-2026-10-13
 
 (pendente de slot anterior) [ATENÇÃO] E03 · BBDC4 · Comunicado ao Mercado: Recebeu, em 12 de outubro de 2026, notificação da BlackRock, Inc (“BlackRock”), anexa ao presente, informando aquisição de participação acionária rel…
 CVM · entregue 13/10/2026 18:46 · Aquisição/Alienação de Participação Acionária Relevante / Declaração de Aquisição de Participação Acionária Relevante
@@ -85,43 +22,126 @@ Como falar: 'a Bradesco publicou comunicado ao mercado sobre Recebeu, em 12 de o
 Fonte: CVM 13/10
 ids: E03-BBDC4-1576899-2026-10-13
 
-Info (só linha no Fechamento):
-· E03 PETR4 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
-· E05 PLTR · CrowdStrike vs. Palantir Technologies: What Revenue Trends Tell Investors About These High-Growth Tech Companies
-· E05 BAC · Bank of America’s $1.2 Billion in Fines Will Weigh on Earnings
-· E05 GOOGL · Alphabet Stocks Rise as a $352 Billion AI Forecast Raises Cash Questions
-· E05 TSM · TSMC Stocks Slip as Thursday's Earnings Put AI Margins Under Scrutiny
-· E05 BTC · Bitcoin Is Worth $105,000, Mark Yusko Says—But It'll Take Time
-· E05 MU · Micron Technology, HPE, and AMD lead technology quant picks ahead of Q3 earnings
-· C01 A curva ABRIU: F28 +17 bps no dia · F29 +22 bps no dia · F30 +24 bps no dia (ajuste B3 13/10)
-· C02 Inclinação da curva DI: F35-F28 -25 bps em 5 pregões · F30-F28 -20 bps em 5 pregões
-· C03 DI em nível: F32 cruzou 12,50% (para cima, agora 12,54%) · F35 cruzou 12,50% (para cima, agora 12,58%)
-· T01 WQTM fechou abaixo da média de 200 dias pela 1ª sessão: US$ 34,82 vs MM200 US$ 35,84 (-2,9%)
-· T01 KLBN4 fechou abaixo da média de 200 dias pela 2ª sessão: R$ 3,64 vs MM200 R$ 3,67 (-0,8%)
-· T04 RARA11 fechou na mínima da série de 60 sessões: R$ 12,92, -20% em 1m e - em 12m
-· T09 SMAL11 -3,4% com volume 2,7x a mediana de 20 sessões, a R$ 134,99
-· T09 RARA11 -4,9% com volume 2,8x a mediana de 20 sessões, a R$ 12,92
+[ATENÇÃO] E01 · TSM: resultado sai na próxima sessão (15/10)
+qui 15/10 · de madrugada (horário de Brasília) · estimado (config/calendario.yaml)
+Vol de 20 dias +27% a.a. ⇒ movimento típico de 1 dia ±1,7%
+Chega ao resultado com 1m +3,0% · 6m +18% · YTD +48%
+Consenso: não disponível (sem fonte licenciada); usar o release e o guidance anterior
+Por que importa: resultado é o evento que mais move o papel em um dia; a vol implícita e o posicionamento sobem antes e caem depois
+Como falar: 'o resultado sai amanhã; o movimento típico do papel num dia é o da vol acima, e o mercado costuma exagerar na abertura'
+Fonte: config/calendario.yaml
+Push: Manhã 08h30: 7 alertas de atenção — E01 TSM, M01 MACRO, E04 BAC, E05 BAC, E05 BAC, E05 MRVL, S01 SISTEMA · detalhe na sessão
+ids: E01-TSM-D-1-2026-10-14
 
-Suprimidos pelo teto (viram linha do Fechamento): C01-DI-abriu-2026-10-13 (teto de atenção), C02-DI-inclinacao-2026-10-13 (teto de atenção), C03-DI-di-2026-10-13 (teto de atenção), T01-WQTM-perda-2026-10-13 (teto de atenção), T01-KLBN4-perda-2026-10-13 (teto de atenção), T04-RARA11-minima-2026-10-13 (teto de atenção), T09-SMAL11-queda-2026-10-13 (teto de atenção), T09-RARA11-queda-2026-10-13 (teto de atenção)
+[ATENÇÃO] M01 · Agenda: CPI de setembro (BLS) hoje às 09:30 (14/10)
+O que está no preço: F28 12,70% · F35 12,58% · implícita 2029 5,38% · Focus IPCA 2027 4,30%
+Por que importa: evento macro de alta relevância reprecifica a curva inteira; o que importa é a surpresa contra o que está no preço
+Ativos: UST · DXY · UCITS
+Como falar: 'CPI de setembro sai hoje; o mercado já precifica o consenso, a reação vem da surpresa'
+Fonte: config/calendario.yaml
+ids: M01-MACRO-D0_1410-2026-10-14
+
+[ATENÇÃO] E04 · BAC · 8-K: 2.02 resultado do trimestre, 7.01 Regulation FD
+SEC EDGAR · aceito 14/10 07h44 · 8-K
+Link: https://www.sec.gov/Archives/edgar/data/70858/000007085826000481/bac-20261014.htm
+Por que importa: resultado do trimestre reprecifica lucro, guidance e multiplo; comparar com o consenso
+Ativos: BAC
+Como falar: 'a BAC protocolou 8-K na SEC (2.02 resultado do trimestre, 7.01 Regulation FD)'
+Fonte: SEC EDGAR 2026-10-14
+ids: E04-BAC-26000481-2026-10-14
+
+[ATENÇÃO] E05 · BAC · Earnings Snapshot: Bank of America falls short of Q3 revenue and EPS estimates as provision for credit losses hits $1.30B
+TradingView (Reuters) · 14/10 08h14 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/seekingalpha:1e7c03842094b:0-earnings-snapshot-bank-of-america-falls-short-of-q3-revenue-and-eps-estimates-as-provision-for-credit-losses-hits-1-30b/
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: BAC
+Como falar: 'saiu no TradingView (Reuters): Earnings Snapshot: Bank of America falls short of Q3 revenue and EPS estimates as provisi…; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 14/10 08h14
+ids: E05-BAC-2d382bb675-2026-10-14
+
+[ATENÇÃO] E05 · BAC · Bank of America posts third-quarter profit drop due to $1.2 billion Treasury fine
+CNBC · 14/10 07h15 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Bank of America posted a sharp decline to third-quarter profit after being hit with a $1.2 billion penalty by the U.S.
+  – Shares of the bank fell more than 4% in premarket trading.
+  – Here's what the company reported: - Earnings per share: 91 cents, may not compare with $1.10 LSEG estimate - Revenue: $30.12 billion vs. $30.69 billion estimate The bank's profit fell 17% to $6.93 billion, or 91 cents a…
+  – Excluding the penalty, which sapped income by 17 cents, EPS would've been $1.08 a share.
+  – Revenue rose 3.2% to $30.12 billion in the quarter, below expectations by about $570 million, largely on misses from Wall Street trading operations.
+  – Fixed income trading revenue fell 17% to $2.55 billion on weakness in mortgages, municipals, and credit activity.
+Link: https://www.cnbc.com/2026/10/14/bank-of-america-bac-q3-2026-earnings.html
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: BAC · UST
+Como falar: 'saiu no CNBC: Bank of America posts third-quarter profit drop due to $1.2 billion Treasury fine; confirmar o número no texto antes de repassar'
+Fonte: CNBC 14/10 07h15
+ids: E05-BAC-9f4f658e77-2026-10-14
+
+[ATENÇÃO] E05 · MRVL · Marvell: A $37.5 Billion Business Is Quietly Carrying The Growth Plan
+Seeking Alpha · 14/10 07h12 · fonte única · licença: manchete
+Link: https://seekingalpha.com/article/4954024-marvell-a-37-5-billion-business-is-quietly-carrying-the-growth-plan
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: MRVL
+Como falar: 'saiu no Seeking Alpha: Marvell: A $37.5 Billion Business Is Quietly Carrying The Growth Plan; confirmar o número no texto antes de repassar'
+Fonte: Seeking Alpha 14/10 07h12
+ids: E05-MRVL-0c5bd62fa3-2026-10-14
+
+[ATENÇÃO] S01 · coleta do slot manha saiu incompleta: bcb: BCB devolveu 4 de 5 séries (faltaram cdi_dia)
+O que fiz: entreguei as seções disponíveis; as pernas que falharam estão em LACUNAS.
+Por que importa: silêncio é lido como 'está tudo bem'; declarar a falha é o que permite confiar no restante
+Fonte: manifest do runner
+ids: S01-SISTEMA-manha-2026-10-14
+
+Info (só linha no Fechamento):
+· C03 Prefixado em nível: Pre 2031 na mínima de 252 bases: 12,43% · Pre 2032 na mínima de 252 bases: 12,51%
+· F05 Celulose (proxy SHFE, fibra longa) -3,7% na semana: 4.730 CNY/t (14/10)
+· E01 BAC: resultado sai hoje (14/10)
+· M01 Agenda: PPI de setembro (BLS) amanhã às 09:30 (15/10)
+· E05 ETH · Current price of Ethereum for Oct. 14, 2026
+· E05 BTC · Current price of Bitcoin for Oct. 14, 2026
+· E05 PETR4 · Agenda de empresas: Petrobras assina acordo sobre jazidas compartilhadas; Cyrela divulga prévia operacional
+· E05 BAC · Bank of America Q3 profit tumbles 17% as fines, Wall Street slowdown dent lending income
+· E05 BTC · Bitcoin ETFs Just Had Their Best Day of October While XRP ETFs See No Inflows for Three Sessions. Are Investors Rotating to BTC?
+· E05 PETR4 · Momento B3: Axia Energia, Cyrela, Mitre, Petrobras e os principais destaques desta quarta-feira (14)
+· E05 BTC · Coinbase Warns Bitcoin Faces Quantum Threat, Flags Satoshi-Era Coins As A Separate Challenge
+· E05 BAC · Bank of America stock falls on earnings miss
+· E05 PLTR · Palantir Is Not C3.Ai, But C3.Ai Wrote Its Watch List - Downgrade Palantir To Hold, Sell C3.Ai (NASDAQ:PLTR)
+· E05 PETR4 · Petrobras, Cyrela, Mitre, Isa Energia, Axia e mais ações para acompanhar nesta quarta
+· E05 AXIA3 · Axia Energia (AXIA3) abre prazo para conversão ou resgate de ações PNC
+· E05 BAC · Bank of America Reports Third Quarter 2026 Financial Results
+· E05 BTC · Bitcoin will become ‘less volatile’ and larger than gold: ‘The Bitcoin Standard’ author
+· E05 USDBRL · CPI nos EUA, Livro Bege e falas de Duringan mexem com mercados antes da pesquisa Quaest; Ibovespa em dólar cai nesta quarta-feira (14)
+· E05 USDBRL · Libra sobe levemente com dólar em queda antes do CPI dos EUA
+· E05 JPM · JPMorgan Chase Raises Full-Year Net Interest Income Outlook Despite Missing Q3 Revenue Expectations
+· E05 BAC · Bank of America Heads Into Q3 Earnings Carrying a $1.2 Billion Treasury Penalty
+
+Suprimidos pelo teto (viram linha do Fechamento): E05-JPM-fba121713a-2026-10-14 (teto de noticias), E05-BAC-327b54562b-2026-10-14 (teto de noticias)
 
 Alertas do dia (todos, com status):
-· expirado  T05 SAPR4 — SAPR4 -7,9% no dia a R$ 7,97: movimento de 3,0 desvios para uma vol de 20 dias d
-· expirado  T08 QNTM — QNTM entrou em bear técnico: -21% do pico de 52s (US$ 34,65 em 02/06) a US$ 27,3
-· pendente  E03 BBDC4 — BBDC4 · Comunicado ao Mercado: Recebeu, em 12 de outubro de 2026, notificação da
-· linha     C01 DI — A curva ABRIU: F28 +17 bps no dia · F29 +22 bps no dia · F30 +24 bps no dia (aju
-· linha     C02 DI — Inclinação da curva DI: F35-F28 -25 bps em 5 pregões · F30-F28 -20 bps em 5 preg
-· linha     C03 DI — DI em nível: F32 cruzou 12,50% (para cima, agora 12,54%) · F35 cruzou 12,50% (pa
-· linha     T01 WQTM — WQTM fechou abaixo da média de 200 dias pela 1ª sessão: US$ 34,82 vs MM200 US$ 3
-· linha     T01 KLBN4 — KLBN4 fechou abaixo da média de 200 dias pela 2ª sessão: R$ 3,64 vs MM200 R$ 3,6
-· linha     T04 RARA11 — RARA11 fechou na mínima da série de 60 sessões: R$ 12,92, -20% em 1m e - em 12m
-· expirado  T05 RARA11 — RARA11 -4,9% no dia a R$ 12,92: movimento de 3,4 desvios para uma vol de 20 dias
-· expirado  T08 SAPR4 — SAPR4 entrou em correção: -12% do pico de 52s (R$ 9,08 em 28/01) a R$ 7,97
+· pendente  C05 TESOURO — IPCA+ 2050 PU -5,0% em 5 datas-base (base 13/10)
+· entregue  T05 SAPR4 — SAPR4 -7,9% no dia a R$ 7,97: movimento de 3,0 desvios para uma vol de 20 dias d
+· entregue  T08 QNTM — QNTM entrou em bear técnico: -21% do pico de 52s (US$ 34,65 em 02/06) a US$ 27,3
+· pendente  C06 TESOURO — Inflação implícita: implícita 2029 +188 bps acima do Focus · implícita 2032 cruz
+· pendente  E01 TSM — TSM: resultado sai na próxima sessão (15/10)
+· pendente  M01 MACRO — Agenda: Vencimento de opcoes sobre indice e futuros de Ibovespa (B3) hoje (14/10
+· pendente  E04 BAC — BAC · 8-K: 2.02 resultado do trimestre, 7.01 Regulation FD
+· pendente  E05 BAC — BAC · Earnings Snapshot: Bank of America falls short of Q3 revenue and EPS estim
+· pendente  E05 BAC — BAC · Bank of America posts third-quarter profit drop due to $1.2 billion Treasu
+· pendente  E05 MRVL — MRVL · Marvell: A $37.5 Billion Business Is Quietly Carrying The Growth Plan
+· pendente  S01 SISTEMA — coleta do slot manha saiu incompleta: bcb: BCB devolveu 4 de 5 séries (faltaram 
+· expirado  E03 BBDC4 — BBDC4 · Comunicado ao Mercado: Recebeu, em 12 de outubro de 2026, notificação da
+· entregue  C01 DI — A curva ABRIU: F28 +17 bps no dia · F29 +22 bps no dia · F30 +24 bps no dia (aju
+· entregue  C02 DI — Inclinação da curva DI: F35-F28 -25 bps em 5 pregões · F30-F28 -20 bps em 5 preg
+· entregue  C03 DI — DI em nível: F32 cruzou 12,50% (para cima, agora 12,54%) · F35 cruzou 12,50% (pa
+· entregue  T01 WQTM — WQTM fechou abaixo da média de 200 dias pela 1ª sessão: US$ 34,82 vs MM200 US$ 3
+· entregue  T01 KLBN4 — KLBN4 fechou abaixo da média de 200 dias pela 2ª sessão: R$ 3,64 vs MM200 R$ 3,6
+· entregue  T04 RARA11 — RARA11 fechou na mínima da série de 60 sessões: R$ 12,92, -20% em 1m e - em 12m
+· entregue  T05 RARA11 — RARA11 -4,9% no dia a R$ 12,92: movimento de 3,4 desvios para uma vol de 20 dias
+· entregue  T08 SAPR4 — SAPR4 entrou em correção: -12% do pico de 52s (R$ 9,08 em 28/01) a R$ 7,97
 · linha     T09 SMAL11 — SMAL11 -3,4% com volume 2,7x a mediana de 20 sessões, a R$ 134,99
 · linha     T09 RARA11 — RARA11 -4,9% com volume 2,8x a mediana de 20 sessões, a R$ 12,92
-· expirado  M03 MACRO — Focus de 09/10: IPCA: 2026 5,22% (+21 bps) · 2027 4,30% (-0 bps)
-· expirado  E03 PETR4 — PETR4 · Fato Relevante: Assinou com as empresas Shell, TotalEnergies e Petrogal,
-· expirado  E05 MELI34 — MELI34 · Mercado Livre (MELI34): Citi corta preço-alvo, mas vê melhora nas marge
-· expirado  E05 KO — KO · Coca-Cola or Chevron: The One Dividend Stock I’d Hold for the Next 20 Years
+· entregue  M03 MACRO — Focus de 09/10: IPCA: 2026 5,22% (+21 bps) · 2027 4,30% (-0 bps)
+· entregue  E03 PETR4 — PETR4 · Fato Relevante: Assinou com as empresas Shell, TotalEnergies e Petrogal,
+· entregue  E05 MELI34 — MELI34 · Mercado Livre (MELI34): Citi corta preço-alvo, mas vê melhora nas marge
+· entregue  E05 KO — KO · Coca-Cola or Chevron: The One Dividend Stock I’d Hold for the Next 20 Years
 · entregue  E05 JPM — JPM · Prediction: JPMorgan Chase Raises Its Dividend Again in 2027
 · entregue  E05 ETH — ETH · Ethereum Needs to Double to Reach $4,946 Again. XRP Needs 2.6x to Hit $3.6
 · entregue  E05 NVDA — NVDA · Nvidia (NVDA) or Apple (AAPL): Which Is the Better Bet on Dan Ives’ $4 Tr
@@ -142,6 +162,8 @@ Alertas do dia (todos, com status):
 · entregue  E05 TSLA — TSLA · Jefferies raises Tesla price target as resilient deliveries support autom
 · entregue  E05 PLTR — PLTR · Palantir Stock Hits New Record High, Wipes Out Its Nearly 50% Drawdown
 · entregue  S01 SISTEMA — coleta do slot manha saiu incompleta: bcb: BCB devolveu 4 de 5 séries (faltaram 
+· linha     C03 TESOURO — Prefixado em nível: Pre 2031 na mínima de 252 bases: 12,43% · Pre 2032 na mínima
+· linha     F05 BHKP — Celulose (proxy SHFE, fibra longa) -3,7% na semana: 4.730 CNY/t (14/10)
 · linha     T01 MMM — MMM retomou a média de 200 dias pela 2ª sessão: US$ 162,77 vs MM200 US$ 159,57 (
 · linha     T02 SOXX — SOXX perdeu a MM100 pela 2ª sessão: US$ 543,90, ainda acima da MM200 (tendência 
 · linha     T02 QTUM — QTUM perdeu a MM100 pela 2ª sessão: US$ 147,61, ainda acima da MM200 (tendência 
@@ -152,4 +174,4 @@ Alertas do dia (todos, com status):
 · linha     T12 SMH — SMH: 6 quedas seguidas (-7,2% acumulado) a US$ 588,12
 · linha     T12 RARA11 — RARA11: 6 quedas seguidas (-13% acumulado) a R$ 12,92
 · linha     F01 USDBRL — Real cai: USD/BRL 5,0218 (cruzou R$ 5,00) (parcial, intradia)
-· (+163 notícias só manchete, em noticias.md)
+· (+182 notícias só manchete, em noticias.md)
