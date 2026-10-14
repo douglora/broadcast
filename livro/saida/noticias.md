@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 14/10 18h13
+NOTÍCIAS E FATOS · 14/10 18h30
 
-Pernas: noticias ok 0 novas (18 consultas; descartadas: 0 veículo fora da lista, 0 sem ativo, 0 teto); 18 falhas · cvm ok 1 novos de 8 (6 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 17 novas (18 consultas; descartadas: 449 veículo fora da lista, 38 sem ativo, 0 teto) · cvm ok 0 novos de 8 (6 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (1)
 
@@ -33,7 +33,48 @@ Fonte: SEC EDGAR 2026-10-14
 id: E04-BAC-26000481-2026-10-14 · status: entregue · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (23)
+## NOTÍCIAS COM MATERIALIDADE (26)
+
+[ATENÇÃO] E05 · BTC · YieldMax Bitcoin Option Income Strategy ETF declares $0.159 dividend
+TradingView (Reuters) · 14/10 17h45 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/seekingalpha:ad7733f9c094b:0-yieldmax-bitcoin-option-income-strategy-etf-declares-0-159-dividend/
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: BTC
+Como falar: 'saiu no TradingView (Reuters): YieldMax Bitcoin Option Income Strategy ETF declares $0.159 dividend; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 14/10 17h45
+id: E05-BTC-c49d84596a-2026-10-14 · status: pendente
+
+[ATENÇÃO] E05 · BAC · Bank of America Stocks Fall 7.14% as Earnings Reveal Costs Beyond the Settlement
+Yahoo Finance · 14/10 16h38 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Bank of America, the consumer and investment-banking group (NYSE:BAC), faces a cost problem that goes beyond its $1.2 billion settlement, with shares at $50.105, down approximately 7.14% at 11.25am EST on October 14.
+  – Strip out the charge and the adjusted efficiency ratio still stands at 62%, up from 60% a year earlier.
+  – GuruFocus has detected 4 Warning Signs with BAC.
+  – The bank's October 14 filing puts adjusted noninterest expense at approximately $18.5 billion, compared with reported expense of $17.3 billion a year earlier.
+  – Revenue, net of interest expense, rose to $29.958 billion from $29.040 billion.
+  – Reported earnings were $0.91 per share, or $1.08 excluding the settlement charge.
+Link: https://finance.yahoo.com/markets/stocks/articles/bank-america-stocks-fall-7-193805470.html
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: BAC
+Como falar: 'saiu no Yahoo Finance: Bank of America Stocks Fall 7.14% as Earnings Reveal Costs Beyond the Settlement; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 14/10 16h38
+id: E05-BAC-2800a586fc-2026-10-14 · status: pendente
+
+[ATENÇÃO] E05 · PETR4 · Petrobras (PETR4) bate R$ 800 bilhões em valor de mercado pela primeira vez. O que está por trás do novo recorde?
+Seu Dinheiro · 14/10 16h27 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Petrobras (PETR4) bate R$ 800 bilhões em valor de mercado pela primeira vez.
+  – Alta do petróleo e entrada de capital estrangeiro na bolsa impulsionam ações da estatal, que se destacam entre os maiores ganhos do Ibovespa A Petrobras (PETR3) chegou a um patamar de inédito nesta quarta-feira (14): R$…
+  – Por volta das 16h, as ações ordinárias PETR3 avançavam 2,38%, a R$ 65,30, entre as maiores altas do índice.
+  – Já as preferenciais PETR4 subiam 1,78%, a R$ 57,94.
+  – Por volta das 16h, o barril do Brent, usado como referência para os preços da Petrobras, subia 0,92%, a US$ 106,66.
+  – Dados preliminares da Agência Nacional do Petróleo, Gás Natural e Biocombustíveis (ANP) mostram que a companhia produziu 2,96 milhões de barris de petróleo por dia em setembro, alta de 1% sobre agosto e um novo recorde…
+Link: https://www.seudinheiro.com/2026/bolsa-dolar/petrobras-petr4-bate-r-800-bilhoes-em-valor-de-mercado-pela-primeira-vez-com-petroleo-em-alta-e-bom-humor-dos-gringos-com-o-brasil-bdap/
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: PETR4
+Como falar: 'saiu no Seu Dinheiro: Petrobras (PETR4) bate R$ 800 bilhões em valor de mercado pela primeira vez. O que está p…; confirmar o número no texto antes de repassar'
+Fonte: Seu Dinheiro 14/10 16h27
+id: E05-PETR4-60e245666e-2026-10-14 · status: pendente
 
 [ATENÇÃO] E05 · PETR4 · Petrobras (PETR4) bate novo recorde histórico de valor de mercado. O que fazer com as ações?
 Estadao · 14/10 16h48 · fonte única · licença: manchete
@@ -302,8 +343,22 @@ Fonte: Yahoo Finance 14/10 01h58
 id: E05-BAC-327b54562b-2026-10-14 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (131)
+## OUTRAS NOTÍCIAS (só manchete) (145)
 
+· PETR4 Petrobras: BofA diz que mercado substima pré-sal e coloca R$ 15 no preço-alvo de PETR4 (Money Times) https://www.moneytimes.com.br/petrobras-bofa-diz-que-mercado-substima-pre-sal-e-eleva-o-preco-alvo-de-petr4-lils/
+· USDBRL Dólar sobe a R$ 5,03 e Ibovespa cai 0,18% com inflação dos EUA (Poder360) https://www.poder360.com.br/poder-economia/dolar-sobe-a-r-503-e-ibovespa-cai-018-com-inflacao-dos-eua/
+· BAC Bank of America Corporation Q3 2026 Earnings Call Summary (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/bank-america-corporation-q3-2026-204452276.html
+· USDBRL Ibovespa fecha estável com inflação nos EUA e corrida eleitoral; dólar vai a R$ 5,02 (Exame) https://exame.com/invest/mercados/ibovespa-fecha-estavel-com-inflacao-nos-eua-e-corrida-eleitoral-dolar-vai-a-r-502/
+· BAC Why Bank of America Plunged Today (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/why-bank-america-plunged-today-202823440.html
+· PETR4 Petrobras e PRIO são destaques do Ibovespa: petróleo e recomendações guiam altas (InfoMoney) https://www.infomoney.com.br/mercados/petrobras-petr3-petr4-e-prio-prio3-sao-destaques-do-ibovespa-petroleo-e-recomendacoes-guiam-altas/
+· JPM JPMorgan CEO sends blunt warning on 'rogue' AI agents (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/jpmorgan-ceo-sends-blunt-warning-202308031.html
+· ITUB4 Itaú compra 35% da Prisma para crescer na gestão de alternativos (Bloomberg Linea) https://www.bloomberglinea.com.br/2026/10/14/itau-compra-35-da-prisma-para-crescer-na-gestao-de-alternativos/
+· USDBRL Dólar sobe com inflação dos EUA acima do esperado, e juros do Fed no radar dos investidores (ADVFN) https://br.advfn.com/jornal/2026/10/dolar-sobe-com-inflacao-dos-eua-acima-do-esperado-e-juros-do-fed-no-radar-dos-investidores
+· MRVL Can Marvell Stock Drop From Here? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/marvell-stock-drop-195941932.html
+· TSM TSMC Stocks Fall Nearly 2.5% as Thursday's Earnings Test AI Growth Beyond September (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/tsmc-stocks-fall-nearly-2-190646333.html
+· JPM JPMorgan's Q3 Miss Is Noise, But Tread Carefully (NYSE:JPM) (Seeking Alpha) https://news.google.com/rss/articles/CBMijwFBVV95cUxNVGNSdVd5QlBTcDFYSmNmMlZGTENmMk9aLU1NejNOSERMZHNkbDgtWlQ5VEN1VnZkemtWWFdOb1Z6Nkl2UkI4NXJGbURSWU1BeldMNHlkNWljZFhuZk9CTGRvZXBmN09YRDZGc3RjMTZIWG1NTVRQTlZLUUtCN2cxbm40ODVaOU1TR29NVmRaNA?oc=5
+· PETR4 Ibovespa Hoje Ao Vivo: Bolsa oscila com pesquisas no radar; PETR4 sobe (InfoMoney) https://news.google.com/rss/articles/CBMijwFBVV95cUxOWWVYdlozQTdvU19EaHVQdlBSVDVmM0pEUUlPU05Xb1MySDZKUzVqMm80RGVIU2g3QTI0WTVEcUxHemY0elNCcTdTMHlxSng4UzhvdU5jdkZVYmZHTGJ5dVZqRVZBb0h1bG1jV1piY21ZY0FldVA4eDd5Y1VrYzVqelZ2TzZ5RjhsTlZpcW5IQQ?oc=5
+· AVGO Broadcom CEO Delivers Stark Warning on Artificial Intelligence (Yahoo Finance) https://news.google.com/rss/articles/CBMioAFBVV95cUxOMk15MXY5V3N5OEYwS0VJOVhDNVlLNkhlZmFLRUVJSEl6MGpvSUpteGd4ZVRFdGtWQk9hdW96UHlaOHB2MlB1R2VpZUYwQmdPNUdSTVFQSXltQ3JCSnBXUU90bkZmRkxZSnlJaW1GSEp6NG4tbTFVRjh3OVNPVVVBeDJiUWVUYXRDb0xwVEFsZlAxakMxcEw0cFBmWlJfbUg2?oc=5
 · USDBRL Dólar à vista fecha em alta de 0,14%, a R$5,0298 na venda Por Reuters (Investing.com) https://br.investing.com/news/forex-news/dolar-a-vista-fecha-em-alta-de-014-a-r50298-na-venda-2091975
 · USDBRL Dólar tem leve alta e fecha a R$ 5,02 com inflação dos EUA ‘mais forte’ que o esperado (Money Times) https://www.moneytimes.com.br/dolar-14-10-26-lils/
 · UST US Treasury yields fall after reversing inflation-led selloff (Investing.com) https://www.investing.com/news/stock-market-news/us-treasury-yields-fall-after-reversing-inflationled-selloff-93CH-4949903
@@ -350,18 +405,4 @@ id: E05-BAC-327b54562b-2026-10-14 · status: linha
 · TSM TSMC Earnings Will Surge but Terafab and Texas Talks Are in Focus (Barron's) https://www.barrons.com/articles/tsmc-earnings-stock-price-e352058b
 · MU Micron Takes Another Hit as China Chip Fears Flare (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:b167b8742094b:0-micron-takes-another-hit-as-china-chip-fears-flare/
 · PLTR Palantir drops legal case against Sadiq Khan over cancelled £50mn contract (Financial Times) https://www.ft.com/content/badcd536-6e53-4968-8fea-914ffc3d8d0c?syn-25a6b1a6=1
-· TSLA The Tesla Story Is Falling Apart, And A Flying Roadster Won’t Save It (NASDAQ:TSLA) (Seeking Alpha) https://seekingalpha.com/article/4954169-the-tesla-story-is-falling-apart-and-a-flying-roadster-wont-save-it
-· TSLA Tesla: The Robotaxi Dream Meets An Earnings Reality Check (NASDAQ:TSLA) (Seeking Alpha) https://seekingalpha.com/article/4954153-tesla-the-robotaxi-dream-meets-an-earnings-reality-check
-· PETR4 Tempo real: Ibovespa reduz perdas com Petrobras (PETR4); dólar sobe (Money Times) https://www.moneytimes.com.br/tempo-real-14-10-26-apsa-lils/
-· BAC Bank of America CEO Vows to Address Regulatory Requirements Following Treasury Fine (Yahoo Finance) https://finance.yahoo.com/economy/policy/articles/bank-america-ceo-vows-address-160221318.html
-· AMD Intel, AMD, and More Chip Stocks Fall After ASML’s Strong Earnings (Barron's) https://www.barrons.com/articles/chip-stocks-slump-asml-earnings-adf7c928
-· LITE Why is Lumentum stock sliding today? By Investing.com (Investing.com) https://in.investing.com/news/stock-market-news/why-is-lumentum-stock-sliding-today-93CH-5633381
-· KO Coca-Cola Stock Breaks Above 50-Day Moving Average: Is It Time to Buy? (TradingView (Reuters)) https://www.tradingview.com/news/zacks:225b41b87094b:0-coca-cola-stock-breaks-above-50-day-moving-average-is-it-time-to-buy/
-· BTC Altcoins slip as bitcoin (BTC) price steadies before U.S. CPI report: Crypto Markets Today (CoinDesk) https://www.coindesk.com/markets/2026/10/14/bitcoin-holds-above-usd83-000-ahead-of-u-s-inflation-data-as-altcoins-lag
-· USDBRL Dólar sobe e Ibovespa cai com exterior e eleição no Brasil em foco (TradingView (Reuters)) https://br.tradingview.com/news/reuters.com,2026:newsml_L1N4600U4:0/
-· UST Latam stocks, FX slide as hot US inflation data lifts dollar, Treasury yields (TradingView (Reuters)) https://www.tradingview.com/news/reuters.com,2026:newsml_L4N4601J0:0-latam-stocks-fx-slide-as-hot-us-inflation-data-lifts-dollar-treasury-yields/
-· NVDA Bitcoin, Nvidia And Tesla ETFs Lead Wall Street’s Most Traded Funds (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:f1c8a527f094b:0-bitcoin-nvidia-and-tesla-etfs-lead-wall-street-s-most-traded-funds/
-· INTC Qualcomm Vs. Intel: The Market is Refuting Both AI Rebrand Attempts (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/qualcomm-vs-intel-market-refuting-144552291.html
-· PLTR Palantir and London mayor's office settle lawsuit over UK police contract (TradingView (Reuters)) https://www.tradingview.com/news/reuters.com,2026:newsml_L8N4601HL:0-palantir-and-london-mayor-s-office-settle-lawsuit-over-uk-police-contract/
-· BRENT Bitcoin price dips below $82K as high oil prices spike US CPI inflation (TradingView (Reuters)) https://www.tradingview.com/news/cointelegraph:06a7ad22e094b:0-bitcoin-price-dips-below-82k-as-high-oil-prices-spike-us-cpi-inflation/
-· (+71 manchetes; lista completa em eventos/noticias.json)
+· (+85 manchetes; lista completa em eventos/noticias.json)

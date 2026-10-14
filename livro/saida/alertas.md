@@ -1,6 +1,6 @@
-ALERTAS · Fechamento 18h
+ALERTAS · eventos
 
-[CRÍTICO] T05 · 2 ativos: MRVL, BAC
+(pendente de slot anterior) [CRÍTICO] T05 · 2 ativos: MRVL, BAC
 · MRVL -8,7% no dia a US$ 245,28: movimento de 3,3 desvios para uma vol de 20 dias de 45% a.a.
   1m +12% · 6m +82% · YTD +189%
 · BAC -4,8% no dia a US$ 51,39: movimento de 4,0 desvios para uma vol de 20 dias de 19% a.a.
@@ -8,10 +8,9 @@ ALERTAS · Fechamento 18h
 Por que importa: acima de 3 desvios o movimento sai do ruído e costuma vir de fato novo ou fluxo forçado
 Como falar: 'o movimento de hoje é atípico para este papel; antes de mexer, saber o motivo'
 Fonte: Yahoo Finance fech. 14/10
-Push: [CRÍTICO] MRVL -8,7% no dia a US$ 245,28 | BAC -4,8% no dia a US$ 51,39 · detalhe na sessão
 ids: T05-MRVL-queda-2026-10-14, T05-BAC-queda-2026-10-14
 
-[CRÍTICO] T08 · 8 ativos: SMH, QANT, WQTMUS, LITE, BAC, EWY, RARA11, CURY3
+(pendente de slot anterior) [CRÍTICO] T08 · 8 ativos: SMH, QANT, WQTMUS, LITE, BAC, EWY, RARA11, CURY3
 · SMH entrou em queda de -15% do pico: -16% do pico de 52s (US$ 668,91 em 22/06) a US$ 564,74
   1m +4,3% · 6m +25% · 12m +70%
 · QANT entrou em bear técnico: -22% do pico de 52s (US$ 7,30 em 01/06) a US$ 5,67
@@ -31,10 +30,9 @@ ids: T05-MRVL-queda-2026-10-14, T05-BAC-queda-2026-10-14
 Por que importa: -15% do pico é o limiar que a indústria chama de queda de -15% do pico; recuperar o pico exige +18%
 Como falar: 'o cliente sente a queda no extrato; a conversa é sobre a tese, não sobre o preço de hoje'
 Fonte: Yahoo Finance fech. 14/10
-Push: [CRÍTICO] SMH entrou em queda de -15% do pico | QANT entrou em bear técnico | WQTMUS entrou em queda de -30% do pico +5 · detalhe na sessão
 ids: T08-SMH--15-2026-10-14, T08-QANT--20-2026-10-14, T08-WQTMUS--30-2026-10-14, T08-LITE--20-2026-10-14, T08-BAC--20-2026-10-14, T08-EWY--25-2026-10-14, T08-RARA11--30-2026-10-14, T08-CURY3--20-2026-10-14
 
-[ATENÇÃO] E03 · MRVE3 · Comunicado ao Mercado: MRVE3) Companhia disponibiliza ao mercado comunicado recebido pela para os fins do disposto no art. 12 da Instrução CVM nº 44/21, informando que rece…
+(pendente de slot anterior) [ATENÇÃO] E03 · MRVE3 · Comunicado ao Mercado: MRVE3) Companhia disponibiliza ao mercado comunicado recebido pela para os fins do disposto no art. 12 da Instrução CVM nº 44/21, informando que rece…
 CVM · entregue 14/10/2026 18:00 · Aquisição/Alienação de Participação Acionária Relevante / Declaração de Alienação de Participação Acionária Relevante
 Do documento:
   – A   M&G   informou que o conjunto de fundos de investimento e carteira sob gestão passou a deter  2 7.
@@ -48,20 +46,65 @@ Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; 
 Ativos: MRVE3
 Como falar: 'a MRV publicou comunicado ao mercado sobre MRVE3) Companhia disponibiliza ao mercado comunicado recebido pela pa…'
 Fonte: CVM 14/10
-Push: [ATENÇÃO] MRVE3 · Comunicado ao Mercado · detalhe na sessão
 ids: E03-MRVE3-1577174-2026-10-14
 
+[ATENÇÃO] E05 · BTC · YieldMax Bitcoin Option Income Strategy ETF declares $0.159 dividend
+TradingView (Reuters) · 14/10 17h45 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/seekingalpha:ad7733f9c094b:0-yieldmax-bitcoin-option-income-strategy-etf-declares-0-159-dividend/
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: BTC
+Como falar: 'saiu no TradingView (Reuters): YieldMax Bitcoin Option Income Strategy ETF declares $0.159 dividend; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 14/10 17h45
+Push: eventos: 3 alertas de atenção — E05 BTC, E05 BAC, E05 PETR4 · detalhe na sessão
+ids: E05-BTC-c49d84596a-2026-10-14
+
+[ATENÇÃO] E05 · BAC · Bank of America Stocks Fall 7.14% as Earnings Reveal Costs Beyond the Settlement
+Yahoo Finance · 14/10 16h38 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Bank of America, the consumer and investment-banking group (NYSE:BAC), faces a cost problem that goes beyond its $1.2 billion settlement, with shares at $50.105, down approximately 7.14% at 11.25am EST on October 14.
+  – Strip out the charge and the adjusted efficiency ratio still stands at 62%, up from 60% a year earlier.
+  – GuruFocus has detected 4 Warning Signs with BAC.
+  – The bank's October 14 filing puts adjusted noninterest expense at approximately $18.5 billion, compared with reported expense of $17.3 billion a year earlier.
+  – Revenue, net of interest expense, rose to $29.958 billion from $29.040 billion.
+  – Reported earnings were $0.91 per share, or $1.08 excluding the settlement charge.
+Link: https://finance.yahoo.com/markets/stocks/articles/bank-america-stocks-fall-7-193805470.html
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: BAC
+Como falar: 'saiu no Yahoo Finance: Bank of America Stocks Fall 7.14% as Earnings Reveal Costs Beyond the Settlement; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 14/10 16h38
+ids: E05-BAC-2800a586fc-2026-10-14
+
+[ATENÇÃO] E05 · PETR4 · Petrobras (PETR4) bate R$ 800 bilhões em valor de mercado pela primeira vez. O que está por trás do novo recorde?
+Seu Dinheiro · 14/10 16h27 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Petrobras (PETR4) bate R$ 800 bilhões em valor de mercado pela primeira vez.
+  – Alta do petróleo e entrada de capital estrangeiro na bolsa impulsionam ações da estatal, que se destacam entre os maiores ganhos do Ibovespa A Petrobras (PETR3) chegou a um patamar de inédito nesta quarta-feira (14): R$…
+  – Por volta das 16h, as ações ordinárias PETR3 avançavam 2,38%, a R$ 65,30, entre as maiores altas do índice.
+  – Já as preferenciais PETR4 subiam 1,78%, a R$ 57,94.
+  – Por volta das 16h, o barril do Brent, usado como referência para os preços da Petrobras, subia 0,92%, a US$ 106,66.
+  – Dados preliminares da Agência Nacional do Petróleo, Gás Natural e Biocombustíveis (ANP) mostram que a companhia produziu 2,96 milhões de barris de petróleo por dia em setembro, alta de 1% sobre agosto e um novo recorde…
+Link: https://www.seudinheiro.com/2026/bolsa-dolar/petrobras-petr4-bate-r-800-bilhoes-em-valor-de-mercado-pela-primeira-vez-com-petroleo-em-alta-e-bom-humor-dos-gringos-com-o-brasil-bdap/
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: PETR4
+Como falar: 'saiu no Seu Dinheiro: Petrobras (PETR4) bate R$ 800 bilhões em valor de mercado pela primeira vez. O que está p…; confirmar o número no texto antes de repassar'
+Fonte: Seu Dinheiro 14/10 16h27
+ids: E05-PETR4-60e245666e-2026-10-14
+
 Info (só linha no Fechamento):
-· T04 CVX fechou na máxima de 52 semanas: US$ 222,04, +4,7% em 1m e +51% em 12m
-· T04 PETR4 fechou na máxima de 52 semanas: R$ 58,11, +19% em 1m e +112% em 12m
-· T07 BAC entrou em sobrevendido: RSI14 23 a US$ 51,39
-· T10 QNTM no mínimo de força relativa em 63 sessões contra SPX: -7,9% vs +2,2% em 20 sessões (-9,9% relativo)
-· T10 WQTM no mínimo de força relativa em 63 sessões contra SPX: -7,1% vs +2,2% em 20 sessões (-9,1% relativo)
-· T10 WQTMUS no mínimo de força relativa em 63 sessões contra SPX: -8,4% vs +2,2% em 20 sessões (-10% relativo)
-· T10 MELI34 no mínimo de força relativa em 63 sessões contra IBOV: -2,4% vs +11% em 20 sessões (-12% relativo)
-· T12 CNDX (iShares NASDAQ 100 UCITS ETF USD (Acc)): 6 quedas seguidas (-3,7% acumulado) a US$ 1.733
-· T12 SOXX: 6 quedas seguidas (-12% acumulado) a US$ 519,42
-· T12 WQTM: 6 quedas seguidas (-12% acumulado) a US$ 33,94
+· E05 PETR4 · Petrobras: BofA diz que mercado substima pré-sal e coloca R$ 15 no preço-alvo de PETR4
+· E05 USDBRL · Dólar sobe a R$ 5,03 e Ibovespa cai 0,18% com inflação dos EUA
+· E05 BAC · Bank of America Corporation Q3 2026 Earnings Call Summary
+· E05 USDBRL · Ibovespa fecha estável com inflação nos EUA e corrida eleitoral; dólar vai a R$ 5,02
+· E05 BAC · Why Bank of America Plunged Today
+· E05 PETR4 · Petrobras e PRIO são destaques do Ibovespa: petróleo e recomendações guiam altas
+· E05 JPM · JPMorgan CEO sends blunt warning on 'rogue' AI agents
+· E05 ITUB4 · Itaú compra 35% da Prisma para crescer na gestão de alternativos
+· E05 USDBRL · Dólar sobe com inflação dos EUA acima do esperado, e juros do Fed no radar dos investidores
+· E05 MRVL · Can Marvell Stock Drop From Here?
+· E05 TSM · TSMC Stocks Fall Nearly 2.5% as Thursday's Earnings Test AI Growth Beyond September
+· E05 JPM · JPMorgan's Q3 Miss Is Noise, But Tread Carefully (NYSE:JPM)
+· E05 PETR4 · Ibovespa Hoje Ao Vivo: Bolsa oscila com pesquisas no radar; PETR4 sobe
+· E05 AVGO · Broadcom CEO Delivers Stark Warning on Artificial Intelligence
 · C02 Inclinação da curva DI: F35-F28 -21 bps em 5 pregões
 · T01 QNTM fechou abaixo da média de 200 dias pela 1ª sessão: US$ 26,53 vs MM200 US$ 27,71 (-4,2%)
 · T01 COHR fechou abaixo da média de 200 dias pela 1ª sessão: US$ 263,32 vs MM200 US$ 293,97 (-10%)
@@ -87,6 +130,9 @@ Alertas do dia (todos, com status):
 · pendente  T08 EWY — EWY entrou em queda de -25% do pico: -27% do pico de 52s (US$ 219,20 em 18/06) a
 · pendente  T08 RARA11 — RARA11 entrou em queda de -30% do pico: -32% do pico de 52s (R$ 18,56 em 21/08) 
 · pendente  T08 CURY3 — CURY3 entrou em bear técnico: -23% do pico de 52s (R$ 41,67 em 20/02) a R$ 32,26
+· pendente  E05 BTC — BTC · YieldMax Bitcoin Option Income Strategy ETF declares $0.159 dividend
+· pendente  E05 BAC — BAC · Bank of America Stocks Fall 7.14% as Earnings Reveal Costs Beyond the Sett
+· pendente  E05 PETR4 — PETR4 · Petrobras (PETR4) bate R$ 800 bilhões em valor de mercado pela primeira 
 · linha     C02 DI — Inclinação da curva DI: F35-F28 -21 bps em 5 pregões
 · linha     T01 QNTM — QNTM fechou abaixo da média de 200 dias pela 1ª sessão: US$ 26,53 vs MM200 US$ 2
 · linha     T01 COHR — COHR fechou abaixo da média de 200 dias pela 1ª sessão: US$ 263,32 vs MM200 US$ 
@@ -136,4 +182,4 @@ Alertas do dia (todos, com status):
 · linha     T12 SOXX — SOXX: 6 quedas seguidas (-12% acumulado) a US$ 519,42
 · linha     T12 WQTM — WQTM: 6 quedas seguidas (-12% acumulado) a US$ 33,94
 · linha     F05 BHKP — Celulose (proxy SHFE, fibra longa) -3,7% na semana: 4.730 CNY/t (14/10)
-· (+137 notícias só manchete, em noticias.md)
+· (+151 notícias só manchete, em noticias.md)
