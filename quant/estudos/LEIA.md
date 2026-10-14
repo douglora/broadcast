@@ -473,3 +473,34 @@ Adendo (12/10, noite): a camada de observacao passou a ler o estado do mundo em 
 tratado como permissao so para LER e REGISTRAR): sinais `tr_proximo_evento`, `tr_ultimo_dado` (surpresa em desvios, sentido do
 dolar), `tr_vix_percentil`, `tr_feed_mt5` (rajadas) e `tr_posicao_aberta_wdo`, todos so medidos. A variante `contra_surpresa`
 usa o livro de surpresas do terminal nos dias que a exportacao do MetaTrader ainda nao cobre (`surpresa_terminal_por_dia`).
+
+## 14/10/2026: revisao do pregao, consertos do dia e o custo das regras reprovadas
+
+Pedido do Douglas (20h): "mais um pregao que o robo toma prejuizo com mini-dolar, ajuste a estrategia. Todo pregao ele tem que
+rever a estrategia e ver onde ele errou para nao cometer o mesmo erro... Se esforce."
+
+O que o pregao de 14/10 teve (revisao em quant/saida/revisao/2026-10-14.md):
+- (a) venda do dado a 5.054 as 9h32 (CPI, reacao de +10,5 pontos), saida por tempo as 11h32 a 5.061,5: -R$ 154,80, percentil 33
+  da regra em 2021-2025 (400 negocios, media +R$ 88,85). Variancia, nao erro.
+- (b) robo cego das 11h51 ao fim do pregao: o MetaTrader fechado pelo proprio robo para reabrir (4a vez do dia) nao voltou e o
+  robo lia "fechado" como "fechado de proposito". Nesse tempo a regra de fim do pregao do mini-indice teria vendido as 17h53 e
+  dado +R$ 254,40 (barras do servidor). Consertos: o robo insiste em reabrir quando foi ele que fechou (mesma espera e limite do
+  dia); anota quando fica cego e quando volta ("cegueira" no estado); cada sinal guarda por que nao entrou ("bloqueio"); o placar
+  da noite conta como operado so o que entrou (antes contava o "opera" da regra: os sinais das 9h01 e 9h06, antes da janela, e os
+  das 9h48 as 10h36, com a posicao do dado aberta, viravam "operados"); a prova viva da noite pede barras novas (relia o arquivo
+  pedido de manha e nunca via o pregao do dia).
+- (d) saida por tempo de 60 minutos teria perdido R$ 100 a menos no dia; no historico rende R$ 42 contra R$ 100. Nada muda.
+
+Estudo (quant/estudos/2026-10-14_ajuste_estrategia.py, familia dado_limiar_relativo, 3 tentativas) e regua
+(quant/estudos/2026-10-14_distribuicoes.py -> quant/pesquisa/distribuicoes.json, 2021-2025, sem 2026):
+
+| O que | Resultado | Veredito |
+|---|---|---|
+| Limiar do dado relativo a volatilidade (k por contagem; 0,8k; 1,25k) | R$ 32,60 / 27,90 / 34,80 por pregao contra R$ 42,10 da regra | morta |
+| Nivel e reacao com as travas do dia | -R$ 128,60 por pregao; para nas 3 perdas em 96% dos dias (mediana 11h05) | perde o que o historico dizia (ao vivo -R$ 25/sinal) |
+| Climax de volume (janela 9h15-18h10) | -R$ 19,50 por negocio, 2,25 por pregao, -R$ 43,90 por pregao, t -6,2 | perde |
+| Fim do pregao do mini-indice (regua 2021-2025, 1 contrato) | +R$ 6,20 por negocio | so regua (variante nascida depois de 2026) |
+| Trava de 3 perdas causada pelo nivel bloqueia o fim do pregao do WIN | 96% dos pregoes | conflito |
+| Inverno americano (dado as 10h30): sinais do dado bloqueados pelas outras regras | 45 de 125 (36%), +R$ 10.184 perdidos | conflito a partir de 02/11/2026 |
+
+Nivel e climax estao travados pelo Douglas: nada foi desligado; a decisao foi pedida a ele com esses numeros.

@@ -96,6 +96,14 @@ def hipotetico(ev, df, contratos=2, custo_lado=1.20, valor_ponto=10.0, tick=0.5,
     return {"pontos": soma / contratos, "resultado": soma * valor_ponto - 2 * custo_lado * contratos, "saida": saida}
 
 
+def _segundos(hora):
+    try:
+        p = str(hora).split(":")
+        return int(p[0]) * 3600 + int(p[1]) * 60 + (int(p[2]) if len(p) > 2 else 0)
+    except (ValueError, IndexError):
+        return None
+
+
 def sinais(setup="niveis", pasta=DIR_DT, pasta_mt5=None, ativo="WDOFUT"):
     """Todos os sinais guardados, com o resultado que teriam dado."""
     from quant.daytrade import barras as br
@@ -106,6 +114,7 @@ def sinais(setup="niveis", pasta=DIR_DT, pasta_mt5=None, ativo="WDOFUT"):
             linhas = [json.loads(x) for x in open(os.path.join(dia, f"sinais_{setup}.jsonl"), encoding="utf-8") if x.strip()]
         except OSError:
             continue
+        entradas = [(e.get("tecnica"), _segundos(e.get("hora"))) for e in linhas if e.get("tipo") == "entrada" and e.get("ativo") == ativo]
         for ev in linhas:
             if ev.get("tipo") != "sinal" or ev.get("ativo") != ativo or ev.get("entrada") is None:
                 continue
@@ -113,8 +122,13 @@ def sinais(setup="niveis", pasta=DIR_DT, pasta_mt5=None, ativo="WDOFUT"):
             if r is None:
                 continue
             fita = (ev.get("medidas") or {}).get("fita") or {}
+            s = _segundos(ev.get("hora"))
+            # 14/10/2026: "opera" diz que a regra opera, nao que o sinal entrou (9h01 e 9h06 eram antes da janela; das 9h48 as 10h36
+            # havia posicao aberta). Operado e o sinal que tem a entrada da mesma tecnica no mesmo instante (ate 15 s).
+            entrou = s is not None and any(t == ev.get("tecnica") and e is not None and abs(e - s) <= 15 for t, e in entradas)
             fora.append({"dia": os.path.basename(dia), "hora": ev.get("hora"), "lado": ev.get("lado"), "tecnica": ev.get("tecnica"),
-                         "nivel": ev.get("nome_nivel"), "opera": bool(ev.get("opera")), "resultado": r["resultado"], "saida": r["saida"],
+                         "nivel": ev.get("nome_nivel"), "opera": bool(ev.get("opera")), "entrou": entrou, "bloqueio": ev.get("bloqueio"),
+                         "resultado": r["resultado"], "saida": r["saida"],
                          "confirmou": fita.get("confirmou"), "favor": fita.get("fracao_a_favor"),
                          "na_janela": "09:15" <= (ev.get("hora") or "")[:5] < "12:50"})
     return fora

@@ -1183,10 +1183,18 @@ def test_robo_reabre_o_metatrader_sozinho_quando_as_cotacoes_vem_em_rajadas(tmp_
     for _ in range(3):
         assert leitura(40.0, 30000.0, datetime(2026, 10, 9, 18, 40, 0, tzinfo=BRT)) is False
     monkeypatch.setattr(rf, "metatrader_aberto", lambda: False)
-    assert [leitura(40.0, 30000.0) for _ in range(4)] == [False] * 4
+    reconexoes, r.reconexoes = r.reconexoes, 0                  # fechado de proposito (o robo nao fechou nada hoje): nao abre
+    assert [leitura(40.0, 30000.0) for _ in range(4)] == [False] * 4 and chamadas == [1, 1]
+    # 14/10/2026: fechado PELO ROBO para reabrir, e a XP nao voltou: ele insiste (com a mesma espera de 3 minutos)
+    r.reconexoes, r.reconectou_em = reconexoes, 0.0
+    assert leitura(40.0, 30000.0) is True and chamadas == [1, 1, 1] and "não voltou: tentando abrir de novo (3ª vez hoje)" in r.diario[-1]["texto"]
+    assert [leitura(40.0, 30000.0) for _ in range(4)] == [False] * 4 and chamadas == [1, 1, 1]
     monkeypatch.setattr(rf, "metatrader_aberto", lambda: True)
     r.reconexoes = rf.FEED_RUIM["max_por_dia"]
-    assert [leitura(40.0, 30000.0) for _ in range(4)] == [False] * 4 and chamadas == [1, 1]
+    assert [leitura(40.0, 30000.0) for _ in range(4)] == [False] * 4 and chamadas == [1, 1, 1]
+    monkeypatch.setattr(rf, "metatrader_aberto", lambda: False)  # no limite do dia nem fechado pelo robo ele insiste
+    r.reconectou_em = 0.0
+    assert leitura(40.0, 30000.0) is False and chamadas == [1, 1, 1]
 
 
 def test_robo_nao_reabre_o_metatrader_quando_o_mac_acabou_de_acordar(tmp_path, monkeypatch):

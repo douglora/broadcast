@@ -95,6 +95,12 @@ QUEM_OPERA = {"dado_opera": True, "climax_opera": True, "niveis_opera": False}
 # manha e a tarde, 09/10 as 10h15). O remedio que sempre resolveu e fechar e reabrir o MetaTrader; o robo agora faz sozinho.
 FEED_RUIM = {"sem_tique_s": 30.0, "atraso_ms": 15_000.0, "leituras": 3, "espera_s": 180.0, "max_por_dia": 8,
              "pausa_do_mac_s": 30.0, "carencia_ao_acordar_s": 120.0}
+# 14/10/2026: das 11h52 ao fim do pregao o robo ficou sem cotacao (o MetaTrader que ele fechou nao voltou) e ninguem soube.
+# Com o pregao aberto, mais de CEGO_S sem tique novo = cego: o robo anota quando fica cego e quando volta, e guarda os
+# intervalos no estado ("cegueira"), que a revisao da noite le.
+CEGO_S = 60.0
+CEGO_AVISO_S = 300.0
+DIR_REVISAO = os.path.join(os.path.dirname(DIR_DT), "revisao")    # a revisao do pregao (quant/pesquisa/revisao.py) grava aqui
 
 
 def metatrader_aberto():
@@ -336,6 +342,9 @@ class RoboFluxo:
         self.cot, self.feed, self.feed_em, self.livro = {}, {}, 0.0, {}
         self.feed_visto, self.feed_ruim, self.reconectou_em, self.reconexoes = 0.0, 0, 0.0, 0
         self.vigia_em, self.acordou_em = time.time(), 0.0        # para saber quando o Mac dormiu (tampa fechada) e acabou de acordar
+        self.cegueira = [list(x) for x in salvo.get("cegueira") or [] if isinstance(x, (list, tuple)) and len(x) == 3]
+        self.cego_desde, self.cego_avisado = None, False         # relogio (epoch) do ultimo tique antes de ficar cego
+        self._revisao = (None, None)                             # (mtime, conteudo) da ultima revisao do pregao, para a tela
         self.chave = chave.ler()                                 # liga/desliga do Douglas
         self.preparado = False                                   # ja leu contratos e ajuste nesta execucao?
         self.barras, self.sinais_pc, self.leitura_pc, self.ordem_pc, self.minuto_pc = {}, {}, {}, {}, None
@@ -431,7 +440,84 @@ class RoboFluxo:
             "curva": self.curva[-700:], "trava": self.trava, "perdas": self.perdas, "negocio": self.negocio,
             "pico": self.pico, "vale": self.vale, "pico_realizado": self.pico_realizado,
             "marcos": sorted(self.marcos), "codigos": self.codigos,
-            "ajustes": self.ajustes}, ensure_ascii=False))
+            "ajustes": self.ajustes, "cegueira": self._cegueira_ate_agora()}, ensure_ascii=False))
+
+    def _cegueira_ate_agora(self, agora=None):
+        """Os intervalos cegos do dia, com o que esta aberto agora (se ja passou do aviso)."""
+        fora = [list(x) for x in self.cegueira]
+        if self.cego_desde is not None:
+            agora = agora or agora_brt()
+            minutos = int((agora.timestamp() - self.cego_desde) // 60)
+            if minutos * 60 >= CEGO_AVISO_S:
+                inicio = datetime.fromtimestamp(self.cego_desde, agora.tzinfo).strftime("%H:%M")
+                fora.append([inicio, agora.strftime("%H:%M"), minutos])
+        return fora
+
+    def _vigiar_cegueira(self, agora):
+        """Pregao aberto e nenhum tique novo ha mais de CEGO_S: o robo esta cego (nao le sinal nem entra). Anota quando fica
+        cego (passados CEGO_AVISO_S) e quando volta; os intervalos ficam no estado para a revisao da noite."""
+        hm = agora.strftime("%H:%M")
+        if agora.weekday() >= 5 or not ("09:00" <= hm < "18:20"):
+            return
+        tiques = [c.get("ts_tique") for c in self.cot.values() if c.get("ts_tique")]
+        ultimo = max(tiques) if tiques else None
+        cego = ultimo is None or agora.timestamp() - ultimo > CEGO_S
+        if cego:
+            if self.cego_desde is None:
+                inicio_pregao = agora.replace(hour=9, minute=0, second=0, microsecond=0).timestamp()
+                self.cego_desde = max(ultimo, inicio_pregao) if ultimo else max(agora.timestamp() - CEGO_S, inicio_pregao)
+            if not self.cego_avisado and agora.timestamp() - self.cego_desde >= CEGO_AVISO_S:
+                self.cego_avisado = True
+                desde = datetime.fromtimestamp(self.cego_desde, agora.tzinfo).strftime("%H:%M")
+                self.anotar("feed", f"Sem cotação do MetaTrader desde {desde}: o robô está cego (não lê sinal nem entra) até a cotação voltar.", agora)
+            return
+        if self.cego_desde is not None:
+            minutos = int((agora.timestamp() - self.cego_desde) // 60)
+            if minutos * 60 >= CEGO_AVISO_S:
+                inicio = datetime.fromtimestamp(self.cego_desde, agora.tzinfo).strftime("%H:%M")
+                self.cegueira.append([inicio, hm, minutos])
+                self.anotar("feed", f"Cotação de volta às {hm}, depois de {minutos} minutos sem preço (desde {inicio}).", agora)
+            self.cego_desde, self.cego_avisado = None, False
+
+    def _bloqueio(self, a, agora, sinal):
+        """Por que o sinal NAO vira entrada agora (as mesmas portas de estrategia_fluxo.passo), ou None. So para o registro do
+        sinal: em 14/10/2026 sinais das 9h01 e 9h06 ficaram marcados "opera" e o placar da noite os contou como operados."""
+        hm = agora.strftime("%H:%M")
+        if self.estados[a].posicao is not None:
+            return f"posição aberta ({self.estados[a].posicao.tecnica})"
+        if self.trava is not None:
+            return f"trava do dia ({self.trava})"
+        if not self.chave.get("ligado", True):
+            return "robô desligado"
+        if hm < ef.ATIVOS[a].hora_inicio:
+            return f"antes da janela ({ef.ATIVOS[a].hora_inicio})"
+        if hm >= self.p.hora_ultima_entrada:
+            return f"depois da última entrada ({self.p.hora_ultima_entrada})"
+        if self.p.pausa_dado and self.p.pausa_dado[0] <= hm < self.p.pausa_dado[1] and not sinal.get("ignora_pausa"):
+            return "pausa do dado"
+        return None
+
+    def revisao_para_tela(self):
+        """A ultima revisao do pregao (rotina da noite), para o card da area QUANT. Relida so quando o arquivo muda."""
+        try:
+            arqs = sorted(x for x in os.listdir(DIR_REVISAO) if len(x) == 15 and x.startswith("20") and x.endswith(".json"))
+        except OSError:
+            return None
+        if not arqs:
+            return None
+        arq = os.path.join(DIR_REVISAO, arqs[-1])
+        try:
+            mt = os.path.getmtime(arq)
+        except OSError:
+            return None
+        if self._revisao[0] != (arq, mt):
+            rev = ler_json(arq, padrao=None) or {}
+            try:
+                from quant.pesquisa.revisao import bloco_tela
+                self._revisao = ((arq, mt), bloco_tela(rev) if rev.get("dia") else None)
+            except Exception:
+                self._revisao = ((arq, mt), None)
+        return self._revisao[1]
 
     def anotar(self, tipo, texto, agora=None):
         self.diario.append({"hora": (agora or agora_brt()).strftime("%H:%M:%S"), "tipo": tipo, "texto": texto})
@@ -539,6 +625,16 @@ class RoboFluxo:
         self.feed_visto = self.feed_em
         if relogio - self.acordou_em < FEED_RUIM["carencia_ao_acordar_s"]:
             return False                                         # acabou de acordar: o MetaTrader reconecta sozinho; espera antes de julgar
+        if self.reconexoes and not metatrader_aberto():
+            # 14/10/2026: o robo fechou o MetaTrader para reabrir (4a vez do dia, 11h52), a XP nao voltou e, como "fechado" era lido
+            # como "fechado de proposito", ele nunca mais tentou: cego ate o fim do pregao. Fechado pelo Douglas continua fechado;
+            # o robo so insiste quando quem fechou HOJE foi ele, com a mesma espera e o mesmo limite do dia.
+            if time.time() - self.reconectou_em < FEED_RUIM["espera_s"] or self.reconexoes >= FEED_RUIM["max_por_dia"]:
+                return False
+            self.feed_ruim, self.reconectou_em, self.reconexoes = 0, time.time(), self.reconexoes + 1
+            self.anotar("feed", f"O MetaTrader que o robô fechou para reabrir não voltou: tentando abrir de novo ({self.reconexoes}ª vez hoje).", agora)
+            threading.Thread(target=reabrir_metatrader, daemon=True).start()
+            return True
         f = self.feed or {}
         ruim = (f.get("sem_tique_s") or 0) >= FEED_RUIM["sem_tique_s"] or (f.get("atraso_ms") or 0) >= FEED_RUIM["atraso_ms"]
         self.feed_ruim = self.feed_ruim + 1 if ruim else 0
@@ -645,7 +741,7 @@ class RoboFluxo:
             self.cot[a] = {"preco": preco, "medio": _num(c[I_MEDIO]) if len(c) > I_MEDIO else None, "maxima": _num(c[I_MAX]),
                            "minima": _num(c[I_MIN]), "abertura": _num(c[I_ABE]), "anterior": _num(c[I_ANT]),
                            "var": _num(c[I_VAR]), "idade_s": idade, "ajuste": self.ajustes.get(a), "spread": spread,
-                           "fonte_fluxo": fonte}
+                           "fonte_fluxo": fonte, "ts_tique": ts_tique}
             if idade > 15.0:                               # preco velho nao dispara entrada nenhuma...
                 if self.estados[a].posicao is not None:    # ...mas uma posicao aberta continua sendo conduzida (12/10/2026, furo A8):
                     for ev in ef.passo(self.estados[a], ts, hora, preco, fita, ef.niveis_do_dia(self.cot[a], self.p), self.p, lote,
@@ -665,6 +761,7 @@ class RoboFluxo:
             for ev in ef.passo(self.estados[a], ts, hora, preco, fita, ef.niveis_do_dia(self.cot[a], self.p), self.p, lote,
                                pode_entrar=pode, feed_ok=True, contexto=contexto):
                 self._registrar(ev, agora)
+        self._vigiar_cegueira(agora)
         realizado, aberto, _c = self.resultado()
         total = realizado + aberto
         motivo = None
@@ -858,11 +955,15 @@ class RoboFluxo:
         pr, tick = c.get("preco"), es.CONTRATOS[a]["tick"]
         entrada = None if pr is None else es.arredondar(pr + tick if sinal["lado"] == "C" else pr - tick, tick)
         try:
+            bloqueio = self._bloqueio(a, agora, sinal) if opera else None
+        except Exception:                                        # o registro do motivo nunca derruba o robo
+            bloqueio = None
+        try:
             with open(os.path.join(self.pasta, f"sinais_{self.setup}.jsonl"), "a", encoding="utf-8") as f:
                 f.write(json.dumps({"tipo": "sinal", "ativo": a, "tecnica": sinal["tecnica"], "lado": sinal["lado"], "entrada": entrada,
                                     "stop_pts": sinal["stop_pts"], "parcial_pts": sinal.get("parcial_pts"), "alvo_pts": sinal.get("alvo_pts"),
                                     "tempo_max_s": sinal.get("tempo_max_s"), "nivel": sinal["nivel"], "nome_nivel": sinal["nome_nivel"],
-                                    "medidas": sinal.get("medidas"), "opera": bool(opera), "hora": agora.strftime("%H:%M:%S"),
+                                    "medidas": sinal.get("medidas"), "opera": bool(opera), "bloqueio": bloqueio, "hora": agora.strftime("%H:%M:%S"),
                                     "quando": agora.isoformat(timespec="seconds"), "seg_fita": self.fitas_mini[a].ultimo_seg,
                                     "contrato": self.codigos.get(a)}, ensure_ascii=False) + "\n")
         except OSError:
@@ -1272,6 +1373,7 @@ class RoboFluxo:
                           "patrimonio": p.capital + acumulado, "acumulado": acumulado, "dias": len(serie)},
             "instrumentos": instrumentos, "posicoes": posicoes, "operacoes": list(reversed(ops)),
             "sinais_hoje": self.sinais_hoje(agora),
+            **({"revisao": rv} if (rv := self.revisao_para_tela()) else {}),
             "regras_de_laboratorio": [{"nome": x.nome, "titulo": x.titulo, "estado": x.estado, "erro": x.erro} for x in self.labs],
             "chave": {"ligado": self.chave["ligado"], "desde": self.chave["desde"]},
             "janela": {"inicio": min((ef.ATIVOS[a].hora_inicio for a in ATIVOS), default="09:15"), "ultima_entrada": p.hora_ultima_entrada,

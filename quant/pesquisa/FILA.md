@@ -277,3 +277,27 @@ ja foi testada e as corretoras ja fecharam sem pista viva. Nenhuma candidata nov
 - Item 11, continuacao depois do dado das 10h de NY (reacao em 5 minutos, limiar 5 pontos, segue, stop 40, 120 min): MORTA.
   n 260, acerto 45%, +R$ 12,50 por negocio (t 0,5), 4 de 7 semestres; 2021 -R$ 81, 2023 -R$ 17, 2024 -R$ 9; compra perde
   (-R$ 17,70) e so a venda ganha (+R$ 40,90). A pista de t 2 da noite de 09/10 nao se sustentou com custo.
+
+## 14/10/2026: revisao do pregao e ajuste da estrategia (pedido do Douglas: "ajuste a estrategia... se esforce")
+
+A partir de hoje a rotina da noite roda a REVISAO DO PREGAO (quant/pesquisa/revisao.py) antes do protocolo e escreve o caderno de
+erros (quant/saida/revisao/). Padrao de erro de contexto (c), de saida (d) ou alerta (a) que aparece num segundo pregao abre
+item aqui sozinho, marcado "[revisao: <chave>]". Estudo: quant/estudos/2026-10-14_ajuste_estrategia.py (familia
+dado_limiar_relativo, 3 tentativas); regua: quant/estudos/2026-10-14_distribuicoes.py -> quant/pesquisa/distribuicoes.json.
+- Item 16, limiar do dado relativo a volatilidade (|reacao| > k x mediana da amplitude diaria dos 20 pregoes anteriores; k pelo
+  casamento de contagem com os 3 pontos, sem olhar resultado): MORTA. k (n 337) +R$ 77,80/neg, R$ 32,60/pregao, t 2,6, 6 de 7;
+  0,8k R$ 27,90/pregao; 1,25k R$ 34,80/pregao; a regra que opera (3 pontos fixos) da R$ 42,10/pregao, t 3,3, 7 de 7. Pior em
+  todos; 2025 nao foi aberto.
+- O pregao de 14/10 (venda do dado a 5.054, saida por tempo, -R$ 154,80) ficou no percentil 33 dos 400 negocios de 2021-2025
+  (media +R$ 88,85; 54% dos perdedores chegaram a andar 8 pontos a favor antes). Contexto a favor em todos os rotulos (CPI,
+  reacao > 10, venda, 9h30). Saida por tempo 60 teria perdido R$ 100 a menos HOJE; no historico rende R$ 42 contra R$ 100 da
+  congelada. Nada muda na regra.
+- CUSTO DAS REGRAS REPROVADAS COM AS TRAVAS DO DIA (2021-2025, 1.055 pregoes, parametros vivos, 9h15-18h10): nivel e reacao
+  -R$ 128,60 por pregao (5,3 negocios, -R$ 24/neg, para nas 3 perdas em 96% dos dias, mediana as 11h05; 25% dos pregoes
+  positivos); climax -R$ 43,90 por pregao; reversao do dado +R$ 33,70. Com o nivel operando, a trava de 3 perdas do dia
+  bloqueia o fim do pregao do mini-indice (17h53) em 96% dos pregoes.
+- CONFLITO NO INVERNO AMERICANO (02/11/2026 a 08/03/2027: dado as 10h30, entrada 10h32): em 2021-2025, 45 de 125 sinais do
+  dado (36%) seriam bloqueados pelas outras regras (37 pela trava de 3 perdas/R$ 1.000, 8 por posicao aberta do nivel);
+  esses 45 somam +R$ 10.184 (media +R$ 226). Nivel e climax estao em "travado_pelo_douglas": a decisao e dele.
+27. (decisao do Douglas, nao hipotese) Nivel e reacao e climax: desligar, ou manter so medindo de manha nos dias de dado as 10h30.
+   Numeros acima. Sem a decisao, nada muda (protocolo nao toca chave travada).

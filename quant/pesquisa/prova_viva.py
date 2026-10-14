@@ -50,6 +50,13 @@ def pedir_barras(simbolo, quantas, pasta=fx.PASTA_MT5, espera_s=150, rotulo=None
     return h.carregar(nome)
 
 
+def rotulo_do_pedido(agora, indice):
+    """O rotulo do arquivo de barras. O leitor do MetaTrader nao regrava arquivo que ja existe: em 14/10/2026 a medicao da noite
+    (19h34) releu as barras pedidas de manha (08h13) e o pregao do dia ficou de fora. Depois das 18h o rotulo e outro."""
+    base = int(agora.strftime("%y%m%d"))
+    return base * 100 + 50 + indice if agora.hour >= 18 else base * 10 + indice
+
+
 def medir_regra(r, barras):
     """Roda a regra nas barras e devolve o resumo so dos negocios de `desde` em diante."""
     arq = r["arquivo"] if os.path.isabs(r["arquivo"]) else os.path.join(RAIZ, r["arquivo"])
@@ -78,7 +85,7 @@ def rodar(arq=ARQ, pasta=fx.PASTA_MT5, gravar=True):
         dias = max(1, int(np.busday_count(pd.Timestamp(r["desde"]).date(), hoje.date()))) + 4      # desde a vespera, com folga
         # "barras_extras": historia a mais para a regra que precisa de memoria (por exemplo, os 60 pregoes anteriores)
         barras = pedir_barras(r.get("simbolo") or r.get("ativo"), min(900_000, dias * 620 + int(r.get("barras_extras") or 0)), pasta,
-                              rotulo=int(agora_brt().strftime("%y%m%d")) * 10 + regras.index(r))
+                              rotulo=rotulo_do_pedido(hoje, regras.index(r)))
         if barras is None or not len(barras):
             fora.append({"nome": r["nome"], "titulo": r.get("titulo") or r["nome"], "erro": "o MetaTrader nao entregou as barras (esta aberto?)"})
             continue

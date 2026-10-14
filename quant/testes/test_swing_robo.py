@@ -114,7 +114,8 @@ def test_preparar_do_swing_nao_roda_de_novo_com_boleta_emitida(modo, monkeypatch
     monkeypatch.setattr(robo, "passo", lambda *a, **k: nomes.append(a[1]) or True)
     monkeypatch.setattr(robo, "_boleta_swing_emitida", lambda dia: True)
     from datetime import date
-    assert robo.preparar(date(2026, 10, 13), mods=["swing"]) is True and nomes == []
+    # 13/10/2026 (commit 53b245d0): com a boleta emitida a manha nao refaz a boleta, mas roda os dois passos auxiliares
+    assert robo.preparar(date(2026, 10, 13), mods=["swing"]) is True and nomes == ["observacao", "prova_viva"]
 
 
 def test_linha_de_comando_preparar_modulo_swing(modo, monkeypatch):

@@ -3,6 +3,8 @@ Rotina da noite do robo de day trade (pedido do Douglas em 09/10/2026: "quero a 
 para mexer no robo sozinho"). Roda depois do fechamento, nunca com o pregao aberto.
 
 O que faz, nesta ordem, sem depender de julgamento de ninguem (as contas decidem):
+  0. REVISAO DO PREGAO (quant/pesquisa/revisao.py, desde 14/10/2026): cada negocio e cada sinal do dia, em quatro categorias
+     (dentro do esperado, falha de execucao ou de dado, fora do contexto, a saida custou caro), o caderno de erros e a fila.
   1. PLACAR: junta todos os sinais guardados pelo robo (operando ou so medindo) e o que cada um deu ou teria dado,
      por leitura (reversao do dado, climax, nivel e reacao, e as regras de laboratorio de quant/pesquisa/setups.json).
   2. PROTOCOLO: decide quem opera e quem so mede, e grava em quant/saida/modo_robo.json e em setups.json.
@@ -62,7 +64,7 @@ def placar(pasta=DIR_DT, setup="niveis", pasta_mt5=None):
     res = {}
     for tec, lista in fora.items():
         r = [x["resultado"] for x in lista]
-        op = [x["resultado"] for x in lista if x["opera"]]
+        op = [x["resultado"] for x in lista if x.get("entrou", x["opera"])]     # operado = entrou de fato (14/10/2026)
         res[tec] = {"sinais": len(r), "media": round(float(np.mean(r)), 2), "t": round(_t(r), 2), "soma": round(float(np.sum(r)), 2),
                     "acerto": round(float(np.mean([v > 0 for v in r]) * 100), 1), "operados": len(op),
                     "soma_operados": round(float(np.sum(op)), 2) if op else 0.0,
@@ -152,9 +154,45 @@ def aplicar(decisoes, lista, arq_modo=ARQ_MODO, arq_setups=None, arq_decisoes=AR
     return mudou_modo or mudou_reg
 
 
-def relatorio(lista, pl, decisoes, ensaio=False):
+def revisar_pregao(ensaio=False, pasta=DIR_DT, dia=None):
+    """Passo 0: a revisao do pregao de hoje. Sem pregao hoje (sem estado do robo), nao ha revisao. Nunca derruba a rotina."""
+    dia = dia or agora_brt().strftime("%Y-%m-%d")
+    if not os.path.exists(os.path.join(pasta, dia)):
+        return None
+    try:
+        from quant.pesquisa import revisao
+        return revisao.gravar(revisao.revisar(dia, pasta=pasta), ensaio=ensaio)
+    except Exception as e:
+        return {"dia": dia, "erro": f"{type(e).__name__}: {e}"}
+
+
+def texto_da_revisao(rev, decisoes=()):
+    """A revisao em poucas linhas para o relatorio da noite (o detalhe fica em quant/saida/revisao/<dia>.md)."""
+    if not rev:
+        return []
+    if rev.get("erro"):
+        return ["## Revisao do pregao", f"A revisao nao rodou: {rev['erro']}.", ""]
+    L = ["## Revisao do pregao: onde errou e o que muda amanha", f"Em uma frase: {rev.get('manchete')}", ""]
+    for cat, nome in (("b", "Falha de execucao ou de dado"), ("a", "Dentro do esperado"), ("c", "Fora do contexto"), ("d", "A saida custou caro")):
+        xs = [x for x in rev.get("itens") or [] if x["categoria"] == cat and not str(x.get("chave", "")).startswith("b:sinal:posição")]
+        vistos = set()
+        for x in xs:
+            if x["texto"] in vistos:
+                continue
+            vistos.add(x["texto"])
+            L.append(f"- ({cat}) {nome}: {x['texto']}" + (f" -> {x['acao']}" if x.get("acao") else ""))
+    muda = list(rev.get("muda_amanha") or [])
+    for d in decisoes:
+        if d["acao"] in ("rebaixa", "promove"):
+            muda.append(f"{d['tecnica']}: {'passa a operar' if d['acao'] == 'promove' else 'passa a so medir'} ({d['motivo']}).")
+    L += ["", "O que muda amanha:"] + [f"- {x}" for x in muda] + [""]
+    return L
+
+
+def relatorio(lista, pl, decisoes, ensaio=False, rev=None):
     agora = agora_brt()
     linhas = [f"# Rotina da noite do robo - {agora.strftime('%d/%m/%Y %H:%M')}" + (" (ENSAIO: nada foi gravado)" if ensaio else ""), ""]
+    linhas += texto_da_revisao(rev, decisoes)
     linhas.append("## O que mudou no robo")
     mud = [d for d in decisoes if d["acao"] in ("rebaixa", "promove")]
     if not mud:
@@ -182,10 +220,11 @@ def relatorio(lista, pl, decisoes, ensaio=False):
     return "\n".join(linhas)
 
 
-def rodar(ensaio=False, pasta=DIR_DT, arq_modo=ARQ_MODO, arq_setups=None, pasta_mt5=None):
+def rodar(ensaio=False, pasta=DIR_DT, arq_modo=ARQ_MODO, arq_setups=None, pasta_mt5=None, revisar=True):
     hm = agora_brt().strftime("%H:%M")
     if not ensaio and "09:00" <= hm < "18:30" and agora_brt().weekday() < 5:
         raise SystemExit("O pregao esta aberto: a rotina da noite nao muda o robo agora. Rode depois das 18h30, ou com --ensaio.")
+    rev = revisar_pregao(ensaio, pasta) if revisar else None
     modo = ler_json(arq_modo, padrao=None) or {}
     registro = regras_lab.ler_registro(arq_setups)
     lista = leituras(modo, registro)
@@ -193,7 +232,7 @@ def rodar(ensaio=False, pasta=DIR_DT, arq_modo=ARQ_MODO, arq_setups=None, pasta_
     decisoes = decidir(lista, pl, modo)
     if not ensaio:
         aplicar(decisoes, lista, arq_modo, arq_setups)
-    texto = relatorio(lista, pl, decisoes, ensaio)
+    texto = relatorio(lista, pl, decisoes, ensaio, rev)
     if not ensaio:
         garantir_dir(DIR_RELATORIOS)
         gravar_atomico(os.path.join(DIR_RELATORIOS, f"noite_{agora_brt().strftime('%Y-%m-%d')}.md"), texto)
