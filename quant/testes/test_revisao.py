@@ -74,6 +74,7 @@ def test_percentil_e_sequencia_contra_o_historico():
     assert rv.percentil(-30.0, _dist()["nível e reação"]) == 50.0         # pelos quantis, interpolado
     assert rv.sequencia_final([100, -5, -10]) == 2 and rv.sequencia_final([-1, 5]) == 0
     assert rv.julgar_sequencia(2, d)["normal"] is True and rv.julgar_sequencia(4, d)["normal"] is False
+    assert rv._rs(-154.8) == "-R$ 154,80" and rv._rs(1234.5, 0) == "+R$ 1.234" and rv._pt(5054.0) == "5.054,0"   # formato brasileiro
     jv = rv.julgar_ao_vivo([-300.0] * 12, d)
     assert jv["pior"] is True and jv["n"] == 12
 

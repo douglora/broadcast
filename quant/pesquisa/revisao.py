@@ -103,6 +103,20 @@ def historico_ao_vivo(tecnica, ate_dia, pasta=DIR_DT, setup="niveis"):
     return fora
 
 
+def _num(v, casas):
+    return f"{abs(float(v)):,.{casas}f}".replace(",", "X").replace(".", ",").replace("X", ".")
+
+
+def _rs(v, casas=2):
+    """R$ no formato brasileiro, com o sinal na frente: -R$ 154,80; +R$ 100."""
+    return ("-" if v < 0 else "+" if v > 0 else "") + "R$ " + _num(v, casas)
+
+
+def _pt(v, casas=1):
+    """Preco ou pontos no formato brasileiro: 5.054,0."""
+    return "-" if v is None else ("-" if float(v) < 0 else "") + _num(v, casas)
+
+
 def _hm(x):
     return str(x or "")[:5]
 
@@ -438,21 +452,21 @@ def revisar(dia=None, pasta=DIR_DT, setup="niveis", servidor=None, pedir_servido
         t0 = pd.Timestamp(f"{dia} {n['hora_entrada']}").floor("min")
         t1 = pd.Timestamp(f"{dia} {n.get('hora_saida') or n['hora_entrada']}").floor("min") + pd.Timedelta(seconds=60)
         melhor, pior = caminho(barras, t0, t1, float(n["entrada"]), n["lado"]) if len(barras) else (None, None)
-        resumo = (f"{tec}: {'vendeu' if n['lado'] == 'V' else 'comprou'} {n['contratos']} a {n['entrada']:.1f} às {n['hora_entrada'][:5]}, saiu por "
-                  f"{n['motivo']} às {_hm(n.get('hora_saida'))} a {n.get('saida')}: R$ {n['resultado']:+.2f}"
-                  + ("" if melhor is None else f" (andou até {melhor:+.1f} pontos a favor e {pior:+.1f} contra)"))
+        resumo = (f"{tec}: {'vendeu' if n['lado'] == 'V' else 'comprou'} {n['contratos']} a {_pt(n['entrada'])} às {n['hora_entrada'][:5]}, saiu por "
+                  f"{n['motivo']} às {_hm(n.get('hora_saida'))} a {_pt(n.get('saida'))}: {_rs(n['resultado'])}"
+                  + ("" if melhor is None else f" (andou até {_pt(melhor)} pontos a favor e {_pt(abs(pior))} contra)"))
         neg = {"hora": n["hora_entrada"][:5], "lado": n["lado"], "resultado": n["resultado"], "motivo": n["motivo"], "percentil": p,
                "melhor_pts": melhor, "pior_pts": pior, "texto": resumo}
         pr["negocios"].append(neg)
         if regra.get("n"):
-            esperado = f"média histórica R$ {regra['media']:+.0f} por negócio, acerto {regra['acerto']:.0f}% ({regra['n']} negócios, 2021-2025)"
+            esperado = f"média histórica {_rs(regra['media'], 0)} por negócio, acerto {regra['acerto']:.0f}% ({regra['n']} negócios, 2021-2025)"
             if n["resultado"] <= 0:
                 txt = (f"{resumo}. Perda no percentil {p:.0f} da regra ({esperado}): "
                        + ("dentro do esperado, não é erro da regra." if p is not None and p >= 5 else "na cauda da distribuição (pior que 95% dos negócios)."))
             else:
                 txt = f"{resumo}. Ganho no percentil {p:.0f} ({esperado})."
             if regra.get("media", 0) < 0:
-                txt += f" A regra é reprovada no histórico: perder é o esperado dela (R$ {regra['media']:+.0f} por negócio)."
+                txt += f" A regra é reprovada no histórico: perder é o esperado dela ({_rs(regra['media'], 0)} por negócio)."
             itens.append(_item(dia, "a", f"a:{tec}:resultado", tec, txt, "nada muda: um dia dentro da distribuição não é erro da regra",
                                n["resultado"], percentil=p))
             ao_vivo = historico_ao_vivo(tec, dia, pasta, setup)
@@ -468,7 +482,7 @@ def revisar(dia=None, pasta=DIR_DT, setup="niveis", servidor=None, pedir_servido
                 pr["ao_vivo"] = jv
                 if jv["pior"]:
                     itens.append(_item(dia, "a", f"a:{tec}:pior_que_historico", tec,
-                                       f"ao vivo, {jv['n']} negócios com média R$ {jv['media']:+.0f}, contra R$ {jv['media_historica']:+.0f} no histórico (z {jv['z']:+.1f})",
+                                       f"ao vivo, {jv['n']} negócios com média {_rs(jv['media'], 0)}, contra {_rs(jv['media_historica'], 0)} no histórico (z {jv['z']:+.1f})",
                                        "alerta: ao vivo pior que o histórico; vai para a fila de estudo"))
         else:
             lacunas.append(f"sem distribuição histórica para {tec}: o resultado não foi comparado")
@@ -479,7 +493,7 @@ def revisar(dia=None, pasta=DIR_DT, setup="niveis", servidor=None, pedir_servido
                 bx = barras.loc[ts]
                 if not (bx.l - 1.0 <= float(n["saida"]) <= bx.h + 1.0):
                     itens.append(_item(dia, "b", "b:execucao:saida_fora_da_barra", tec,
-                                       f"a saída a {n['saida']} às {_hm(n['hora_saida'])} ficou fora da barra do servidor ({bx.l:.1f} a {bx.h:.1f})",
+                                       f"a saída a {_pt(n['saida'])} às {_hm(n['hora_saida'])} ficou fora da barra do servidor ({_pt(bx.l)} a {_pt(bx.h)})",
                                        "conferir a cotação que o robô usou (cotação velha?)"))
         # contexto e saidas (so a regra aprovada tem contexto com vantagem e saidas testadas)
         if tec == DADO:
@@ -490,11 +504,11 @@ def revisar(dia=None, pasta=DIR_DT, setup="niveis", servidor=None, pedir_servido
             if fora:
                 for x in fora:
                     itens.append(_item(dia, "c", f"c:{DADO}:{x['campo']}={x['faixa']}", DADO,
-                                       f"disparou com {x['campo']} = {x['faixa']}, faixa sem vantagem no histórico (descoberta R$ {x['descoberta']['media']:+.0f} "
+                                       f"disparou com {x['campo']} = {x['faixa']}, faixa sem vantagem no histórico (descoberta {_rs(x['descoberta']['media'], 0)} "
                                        f"por negócio, n {x['descoberta']['n']})", "hipótese: filtrar essa faixa (só depois do teste de 5 anos)", n["resultado"]))
             else:
                 neg["contexto_texto"] = "contexto a favor da regra em todos os rótulos (" + "; ".join(
-                    f"{x['campo']} {x['faixa']}: R$ {x['descoberta']['media']:+.0f}" for x in ctx) + ")"
+                    f"{x['campo']} {x['faixa']}: {_rs(x['descoberta']['media'], 0)}" for x in ctx) + ")"
             if len(barras):
                 alt = saidas_do_dia(barras, n, dia)
                 hist = ranking_historico_das_saidas()
@@ -502,21 +516,22 @@ def revisar(dia=None, pasta=DIR_DT, setup="niveis", servidor=None, pedir_servido
                 if alt and "base" in alt:
                     if abs(alt["base"]["resultado"] - n["resultado"]) > 40.0:
                         itens.append(_item(dia, "b", f"b:execucao:diferente_da_simulacao", tec,
-                                           f"o negócio real deu R$ {n['resultado']:+.0f} e a mesma regra nas barras do servidor daria R$ {alt['base']['resultado']:+.0f}",
+                                           f"o negócio real deu {_rs(n['resultado'], 0)} e a mesma regra nas barras do servidor daria {_rs(alt['base']['resultado'], 0)}",
                                            "conferir entrada e saída contra a barra (cotação velha ou rajada?)", n["resultado"] - alt["base"]["resultado"]))
                     outras = {k: v for k, v in alt.items() if k != "base"}
                     melhor_nome = max(outras, key=lambda k: outras[k]["resultado"])
                     ganho = outras[melhor_nome]["resultado"] - alt["base"]["resultado"]
                     if ganho >= SAIDA_CARA_RS:
                         base_h, alt_h = hist.get("base"), hist.get(melhor_nome)
-                        comp = "" if base_h is None or alt_h is None else (f" No histórico (descoberta) a saída congelada rende R$ {base_h:+.0f} por negócio e "
-                                                                          f"'{melhor_nome}' R$ {alt_h:+.0f}.")
+                        comp = "" if base_h is None or alt_h is None else (f" No histórico (descoberta) a saída congelada rende {_rs(base_h, 0)} por negócio e "
+                                                                          f"'{melhor_nome}' {_rs(alt_h, 0)}.")
                         itens.append(_item(dia, "d", f"d:{DADO}:{melhor_nome}", DADO,
-                                           f"com '{melhor_nome}' o negócio teria dado R$ {alt[melhor_nome]['resultado']:+.0f} (R$ {ganho:+.0f} a mais)." + comp,
+                                           f"com '{melhor_nome}' o negócio teria dado {_rs(alt[melhor_nome]['resultado'], 0)} ({_rs(ganho, 0)} a mais)." + comp,
                                            "nada muda: saída escolhida no histórico, não no dia" if (alt_h is not None and base_h is not None and alt_h < base_h)
                                            else "hipótese de saída para a fila", ganho))
 
     # sinais do dia: o que cada um teria dado e por que nao entrou
+    grupos = {}
     for s in sinais:
         tec = s.get("tecnica") or "?"
         pr = por_regra.setdefault(tec, {"tecnica": tec, "operados": 0, "resultado": 0.0, "sinais": 0, "soma_sinais": 0.0, "negocios": []})
@@ -530,8 +545,14 @@ def revisar(dia=None, pasta=DIR_DT, setup="niveis", servidor=None, pedir_servido
         pr.setdefault("por_motivo", {})
         pr["por_motivo"][motivo] = pr["por_motivo"].get(motivo, 0) + 1
         if falha:
-            itens.append(_item(dia, "b", f"b:sinal:{motivo}", tec, falha,
-                               "conserto: o sinal passa a dizer se entrou e por que não (campo 'entrou'/'bloqueio')", None if r is None else r["resultado"]))
+            grupos.setdefault((tec, motivo), []).append((_hm(s.get("hora")), None if r is None else r["resultado"]))
+    for (tec, motivo), lista in grupos.items():                  # um item por regra e motivo, com as horas
+        horas = ", ".join(h for h, _r in lista)
+        soma = sum(x for _h, x in lista if x is not None) if any(x is not None for _h, x in lista) else None
+        o_que = (f"marcados 'opera' antes da janela de entradas das {INICIO}: não podiam entrar e o placar da noite os contava como operados"
+                 if motivo == "antes da janela" else "deviam entrar e não entraram (spread aberto ou cotação velha?)")
+        itens.append(_item(dia, "b", f"b:sinal:{motivo}", tec, f"{len(lista)} sinal(is) de {tec} ({horas}) {o_que}",
+                           "conserto: o sinal guarda por que não entrou e o placar conta só o que entrou", soma))
     # regra do laboratorio que nao pode rodar porque o robo estava cego (fim do pregao do mini-indice e as outras)
     if cegos:
         itens += perdidas_por_cegueira(dia, cegos)
@@ -571,7 +592,7 @@ def perdidas_por_cegueira(dia, cegos, registro=None, barras_por_ativo=None):
                 x = t.iloc[0]
                 fora.append(_item(dia, "b", f"b:cego:{r['nome']}", r.get("titulo") or r["nome"],
                                   f"{r.get('titulo') or r['nome']} não rodou porque o robô estava cego; teria {'comprado' if x.lado == 'C' else 'vendido'} às {x.hora} "
-                                  f"e dado R$ {x.res:+.2f}", "o conserto da reabertura do MetaTrader cobre", float(x.res)))
+                                  f"e dado {_rs(x.res)}", "o conserto da reabertura do MetaTrader cobre", float(x.res)))
             else:
                 fora.append(_item(dia, "b", f"b:cego:{r['nome']}", r.get("titulo") or r["nome"],
                                   f"{r.get('titulo') or r['nome']} caiu na janela cega, mas não teria dado sinal hoje", None))
@@ -619,7 +640,7 @@ def manchete(rev):
     total = sum(pr["resultado"] for pr in rev["por_regra"])
     partes = []
     if oper:
-        partes.append(f"{len(oper)} negócio(s), R$ {total:+.2f}")
+        partes.append(f"{len(oper)} negócio(s), {_rs(total)}")
         perc = [n["percentil"] for n in oper if n.get("percentil") is not None]
         if perc and total <= 0:
             partes.append(f"perda dentro da distribuição histórica (percentil {min(perc):.0f})" if min(perc) >= 5 else "perda na cauda da distribuição")
@@ -644,7 +665,7 @@ def texto(rev):
     L += ["## Por regra", "", "| Regra | Feitos (R$) | Sinais (teria dado) | Por que não entrou |", "|---|---|---|---|"]
     for pr in rev["por_regra"]:
         mot = ", ".join(f"{k} {v}" for k, v in (pr.get("por_motivo") or {}).items())
-        L.append(f"| {pr['tecnica']} | {pr['operados']} (R$ {pr['resultado']:+.0f}) | {pr['sinais']} (R$ {pr['soma_sinais']:+.0f}) | {mot or '-'} |")
+        L.append(f"| {pr['tecnica']} | {pr['operados']} ({_rs(pr['resultado'], 0)}) | {pr['sinais']} ({_rs(pr['soma_sinais'], 0)}) | {mot or '-'} |")
     L += ["", "## O que muda amanhã"] + [f"- {x}" for x in rev["muda_amanha"]]
     if rev.get("lacunas"):
         L += ["", "## Lacunas"] + [f"- {x}" for x in rev["lacunas"]]
