@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 14/10 13h22
+NOTÍCIAS E FATOS · 14/10 14h21
 
-Pernas: noticias ok 10 novas (18 consultas; descartadas: 443 veículo fora da lista, 31 sem ativo, 0 teto) · cvm ok 0 novos de 0 (0 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 11 novas (18 consultas; descartadas: 450 veículo fora da lista, 35 sem ativo, 0 teto) · cvm ok 0 novos de 0 (0 cias casadas) · sec ok 0 novos em 3 dias
 
 ## SEC (8-K, 6-K, 10-Q, 10-K) (1)
 
@@ -23,7 +23,7 @@ Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e 
 Ativos: BAC
 Como falar: 'saiu no Seeking Alpha: Bank of America posts worst day since April 2025 after regulatory fine (BAC:NYSE); confirmar o número no texto antes de repassar'
 Fonte: Seeking Alpha 14/10 11h18
-id: E05-BAC-218c2c1b93-2026-10-14 · status: pendente
+id: E05-BAC-218c2c1b93-2026-10-14 · status: entregue
 
 [ATENÇÃO] E05 · BAC · Bank of America profits drop 17% after $1.2bn money laundering fine
 Financial Times · 14/10 08h25 · fonte única · licença: manchete
@@ -32,7 +32,7 @@ Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e 
 Ativos: BAC
 Como falar: 'saiu no Financial Times: Bank of America profits drop 17% after $1.2bn money laundering fine; confirmar o número no texto antes de repassar'
 Fonte: Financial Times 14/10 08h25
-id: E05-BAC-5d5e1c7f8c-2026-10-14 · status: pendente
+id: E05-BAC-5d5e1c7f8c-2026-10-14 · status: entregue
 
 [ATENÇÃO] E05 · PLTR · Palantir settles lawsuit with London mayor over police contract
 Investing.com · 14/10 11h36 · + Reuters · licença: manchete
@@ -181,8 +181,19 @@ Fonte: Yahoo Finance 14/10 01h58
 id: E05-BAC-327b54562b-2026-10-14 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (77)
+## OUTRAS NOTÍCIAS (só manchete) (88)
 
+· TSM TSMC Earnings Will Surge but Terafab and Texas Talks Are in Focus (Barron's) https://www.barrons.com/articles/tsmc-earnings-stock-price-e352058b
+· MU Micron Takes Another Hit as China Chip Fears Flare (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:b167b8742094b:0-micron-takes-another-hit-as-china-chip-fears-flare/
+· PLTR Palantir drops legal case against Sadiq Khan over cancelled £50mn contract (Financial Times) https://www.ft.com/content/badcd536-6e53-4968-8fea-914ffc3d8d0c?syn-25a6b1a6=1
+· TSLA The Tesla Story Is Falling Apart, And A Flying Roadster Won’t Save It (NASDAQ:TSLA) (Seeking Alpha) https://seekingalpha.com/article/4954169-the-tesla-story-is-falling-apart-and-a-flying-roadster-wont-save-it
+· TSLA Tesla: The Robotaxi Dream Meets An Earnings Reality Check (NASDAQ:TSLA) (Seeking Alpha) https://seekingalpha.com/article/4954153-tesla-the-robotaxi-dream-meets-an-earnings-reality-check
+· PETR4 Tempo real: Ibovespa reduz perdas com Petrobras (PETR4); dólar sobe (Money Times) https://www.moneytimes.com.br/tempo-real-14-10-26-apsa-lils/
+· BAC Bank of America CEO Vows to Address Regulatory Requirements Following Treasury Fine (Yahoo Finance) https://finance.yahoo.com/economy/policy/articles/bank-america-ceo-vows-address-160221318.html
+· AMD Intel, AMD, and More Chip Stocks Fall After ASML’s Strong Earnings (Barron's) https://www.barrons.com/articles/chip-stocks-slump-asml-earnings-adf7c928
+· LITE Why is Lumentum stock sliding today? By Investing.com (Investing.com) https://in.investing.com/news/stock-market-news/why-is-lumentum-stock-sliding-today-93CH-5633381
+· KO Coca-Cola Stock Breaks Above 50-Day Moving Average: Is It Time to Buy? (TradingView (Reuters)) https://www.tradingview.com/news/zacks:225b41b87094b:0-coca-cola-stock-breaks-above-50-day-moving-average-is-it-time-to-buy/
+· BTC Altcoins slip as bitcoin (BTC) price steadies before U.S. CPI report: Crypto Markets Today (CoinDesk) https://www.coindesk.com/markets/2026/10/14/bitcoin-holds-above-usd83-000-ahead-of-u-s-inflation-data-as-altcoins-lag
 · USDBRL Dólar sobe e Ibovespa cai com exterior e eleição no Brasil em foco (TradingView (Reuters)) https://br.tradingview.com/news/reuters.com,2026:newsml_L1N4600U4:0/
 · UST Latam stocks, FX slide as hot US inflation data lifts dollar, Treasury yields (TradingView (Reuters)) https://www.tradingview.com/news/reuters.com,2026:newsml_L4N4601J0:0-latam-stocks-fx-slide-as-hot-us-inflation-data-lifts-dollar-treasury-yields/
 · NVDA Bitcoin, Nvidia And Tesla ETFs Lead Wall Street’s Most Traded Funds (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:f1c8a527f094b:0-bitcoin-nvidia-and-tesla-etfs-lead-wall-street-s-most-traded-funds/
@@ -232,15 +243,4 @@ id: E05-BAC-327b54562b-2026-10-14 · status: linha
 · TSLA Tesla to Post Q3 Earnings: Will Automotive Margins Play a Spoilsport? (TradingView (Reuters)) https://news.google.com/rss/articles/CBMiwAFBVV95cUxNWmhjLVVQTWdTX0EyYW9GTmF1QVdLeUl3a29JUklXNWtRUktlMEhPYUpmbDRCdmZ0dmtzbl9KNlllSVRUTHRIcG4wSjhZdkp1WS1hVmN5S3RCUTRIeGlyeW5zbEpfUEc5akE3QmJGWV9kZV8xX2swQlZfZU9ucWhZTHhyLWhtcUZleURYTjV1TVg3djV4eVdERWp2eW1SYzF5RndYQ3VoYXJCTzkxVks1QWpuWlZYX3BvbDBQZVlFckI?oc=5
 · MU Micron: China Just Broke The Memory Supercycle Story (NASDAQ:MU) (Seeking Alpha) https://seekingalpha.com/article/4954084-micron-china-just-broke-the-memory-supercycle-story
 · BAC Bank of America Corporation 2026 Q3 - Results - Earnings Call Presentation (NYSE:BAC) 2026-10-14 (Seeking Alpha) https://seekingalpha.com/article/4954108-bank-of-america-corporation-2026-q3-results-earnings-call-presentation
-· BTC CPI: Hot Inflation at 3.7% Lifts Yields and Dollar as Gold and Bitcoin Nosedive (TradingView (Reuters)) https://www.tradingview.com/news/tradingview:15f145716094b:0-cpi-hot-inflation-at-3-7-lifts-yields-and-dollar-as-gold-and-bitcoin-nosedive/
-· UST Treasury yields jump across the curve on sticky inflation data (Seeking Alpha) https://seekingalpha.com/news/4652881-treasury-yields-jump-across-the-curve-on-sticky-inflation-data
-· UST Treasury Yields Jump After Hot CPI Report (TradingView (Reuters)) https://www.tradingview.com/news/te_news:591950:0-treasury-yields-jump-after-hot-cpi-report/
-· USDBRL Dólar abre em alta com cenário eleitoral e fim da escala 6x1 no radar (Folha de S.Paulo) https://www1.folha.uol.com.br/mercado/2026/10/dolar-abre-em-alta-com-cenario-eleitoral-e-fim-da-escala-6x1-no-radar.shtml
-· USDBRL Dólar sobe com cautela eleitoral e expectativa pelo CPI dos EUA (UOL Economia) https://economia.uol.com.br/noticias/estadao-conteudo/2026/10/14/dolar-sobe-com-cautela-eleitoral-e-expectativa-pelo-cpi-dos-eua.htm
-· AVGO Broadcom CEO Delivers Stark Warning on Artificial Intelligence (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:807ccb35b094b:0-broadcom-ceo-delivers-stark-warning-on-artificial-intelligence/
-· BAC Inflation data, Bank of America's penalty, Apple's new home hub and more in Morning Squawk (CNBC) https://www.cnbc.com/2026/10/14/5-things-to-know-before-the-stock-market-opens.html
-· JPM JPMorgan Chase Q3 2026: A Top-Tier Bank Whose Shares Already Reflect It (NYSE:JPM) (Seeking Alpha) https://seekingalpha.com/article/4953988-jpmorgan-chase-q3-earnings-top-tier-bank-stock-reflect-it
-· GOOGL Google Is Turning Scientific AI Into a European Cloud Growth Strategy (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/google-turning-scientific-ai-european-122410692.html
-· BTC Bitcoin Is Up 7.1% and Solana 5.3% This Month. Ethereum Is Down 0.7% and XRP 1.4%. What Separates Them? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-7-1-solana-5-122013387.html
-· USDBRL Dólar hoje acelera ganhos após dados de inflação nos EUA (InfoMoney) https://news.google.com/rss/articles/CBMinAFBVV95cUxOOGZfekx0TFNjaUVyTkl0TUJSTk5ZUlFRc0N3dXFmY2hyTHhLRFdEdU50NWJKUWIwUDM0NmkzZW1Ga0ZkQVEzRndrSlVWbEUwSEd3YWtnWnFSQjVBOTFnQWR3c1BrOTVVV3VlcHh6WE15b3RrSk9RXzgwTmxXMW9WcWlDc0VxZU12NjhCaDVGSGI3SldzY1NLazd4VEXSAaIBQVVfeXFMTWtKUFBDVXZYZjJIR2lscVBqYlM0UTJjaXlaa29vRUpEa0JJTmRhMHk0V2twcEFQMmxnUGRYSVk3aERQZFB1QVBXRDYwUlVmQ3h2Sm1hamFmMGVlUlBRWmN2bjRTTGRZU0hzVFdtV2ZGNmdoQmZRLW1GbHpFaXd5aFJlNmplTllZMzVzMEhlVTlzUU5XUXpxbzh5X1Q3NFNXSkt3?oc=5
-· (+17 manchetes; lista completa em eventos/noticias.json)
+· (+28 manchetes; lista completa em eventos/noticias.json)
