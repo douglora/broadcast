@@ -1,21 +1,39 @@
 ALERTAS · intradia
 
-Nenhum alerta novo neste slot.
-Info (só linha no Fechamento):
-· E05 TSM · TSMC Earnings Will Surge but Terafab and Texas Talks Are in Focus
-· E05 MU · Micron Takes Another Hit as China Chip Fears Flare
-· E05 PLTR · Palantir drops legal case against Sadiq Khan over cancelled £50mn contract
-· E05 TSLA · The Tesla Story Is Falling Apart, And A Flying Roadster Won’t Save It (NASDAQ:TSLA)
-· E05 TSLA · Tesla: The Robotaxi Dream Meets An Earnings Reality Check (NASDAQ:TSLA)
-· E05 PETR4 · Tempo real: Ibovespa reduz perdas com Petrobras (PETR4); dólar sobe
-· E05 BAC · Bank of America CEO Vows to Address Regulatory Requirements Following Treasury Fine
-· E05 AMD · Intel, AMD, and More Chip Stocks Fall After ASML’s Strong Earnings
-· E05 LITE · Why is Lumentum stock sliding today? By Investing.com
-· E05 KO · Coca-Cola Stock Breaks Above 50-Day Moving Average: Is It Time to Buy?
-· E05 BTC · Altcoins slip as bitcoin (BTC) price steadies before U.S. CPI report: Crypto Markets Today
+[ATENÇÃO] E05 · BAC · Bank of America Shares Slide 8% on Record OCC Fine and Trading Miss
+Yahoo Finance · 14/10 13h58 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Tell us how you invest and we'll show you why it's our #1 pick.
+  – Less than 15 hours before Bank of America reported, regulators hit it with $1.21 billion in fines for money laundering and sanctions violations, the biggest penalty the Office of the Comptroller of the Currency has ever…
+  – The fine knocked 17 cents off earnings, leaving EPS at 91 cents against $1.10 expected.
+  – Take the fine out and you get $1.08, which… still misses.
+  – Profit fell 17% to $6.93 billion.
+  – Revenue rose 3.2% to $30.12 billion, about $570 million short of estimates, and the shares fell as much as 8% Wednesday morning.
+Link: https://finance.yahoo.com/markets/stocks/articles/bank-america-shares-slide-8-165820683.html
+Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e prazo
+Ativos: BAC
+Como falar: 'saiu no Yahoo Finance: Bank of America Shares Slide 8% on Record OCC Fine and Trading Miss; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 14/10 13h58
+Push: [ATENÇÃO] BAC · Bank of America Shares Slide 8% on Record OCC Fine and · detalhe na sessão
+ids: E05-BAC-3e8cd3be4d-2026-10-14
 
+Info (só linha no Fechamento):
+· E05 BTC · Bitcoin Falls To $81K After Hotter-Than-Expected US Inflation Breaks BTC Below Tight Trading Range
+· E05 INTC · 3 Reasons to Buy Intel Stock Before 2027
+· E05 PETR4 · Petrobras (PETR4): pagamento bilionário e acordo de US$ 859 milhões; de onde vem o dinheiro?
+· E05 PLTR · Is Palantir's AIP Platform Fueling Explosive U.S. Commercial Growth?
+· E05 PLTR · Palantir drops City Hall legal fight over Met deal
+· E05 BAC · BANK OF AMERICA CORPORATION (BAC.MX) Q3 FY2026 earnings call transcript
+· E05 GFS · GLOBALFOUNDRIES Inc. (GFS) stock price, news, quote and history
+· E05 MRVL · Intel vs. Marvell Technology: Which Tech Stock Is a Better Buy in 2026?
+· E05 UST · Stock Market Today: Stocks Drop, Treasury Yields Surge After Hot Inflation Reading; Memory Stocks Extend Declines
+· S01 coleta do slot intradia saiu incompleta: bcb: BCB devolveu 3 de 5 séries (faltaram selic_meta, ipca_12m)
+
+Suprimidos pelo teto (viram linha do Fechamento): S01-SISTEMA-intradia-2026-10-14 (teto de atenção)
 
 Alertas do dia (todos, com status):
+· pendente  E05 BAC — BAC · Bank of America Shares Slide 8% on Record OCC Fine and Trading Miss
+· linha     S01 SISTEMA — coleta do slot intradia saiu incompleta: bcb: BCB devolveu 3 de 5 séries (faltar
 · entregue  E05 BAC — BAC · Bank of America posts worst day since April 2025 after regulatory fine (BA
 · entregue  E05 BAC — BAC · Bank of America profits drop 17% after $1.2bn money laundering fine
 · entregue  E05 PLTR — PLTR · Palantir settles lawsuit with London mayor over police contract
@@ -33,4 +51,4 @@ Alertas do dia (todos, com status):
 · entregue  E05 MRVL — MRVL · Marvell: A $37.5 Billion Business Is Quietly Carrying The Growth Plan
 · entregue  S01 SISTEMA — coleta do slot manha saiu incompleta: bcb: BCB devolveu 4 de 5 séries (faltaram 
 · linha     F05 BHKP — Celulose (proxy SHFE, fibra longa) -3,7% na semana: 4.730 CNY/t (14/10)
-· (+92 notícias só manchete, em noticias.md)
+· (+101 notícias só manchete, em noticias.md)

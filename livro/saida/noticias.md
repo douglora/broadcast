@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 14/10 14h21
+NOTÍCIAS E FATOS · 14/10 14h54
 
-Pernas: noticias ok 11 novas (18 consultas; descartadas: 450 veículo fora da lista, 35 sem ativo, 0 teto) · cvm ok 0 novos de 0 (0 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 10 novas (18 consultas; descartadas: 450 veículo fora da lista, 38 sem ativo, 0 teto) · cvm ok 0 novos de 7 (5 cias casadas) · sec ok 0 novos em 3 dias
 
 ## SEC (8-K, 6-K, 10-Q, 10-K) (1)
 
@@ -14,7 +14,23 @@ Fonte: SEC EDGAR 2026-10-14
 id: E04-BAC-26000481-2026-10-14 · status: entregue · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (14)
+## NOTÍCIAS COM MATERIALIDADE (15)
+
+[ATENÇÃO] E05 · BAC · Bank of America Shares Slide 8% on Record OCC Fine and Trading Miss
+Yahoo Finance · 14/10 13h58 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Tell us how you invest and we'll show you why it's our #1 pick.
+  – Less than 15 hours before Bank of America reported, regulators hit it with $1.21 billion in fines for money laundering and sanctions violations, the biggest penalty the Office of the Comptroller of the Currency has ever…
+  – The fine knocked 17 cents off earnings, leaving EPS at 91 cents against $1.10 expected.
+  – Take the fine out and you get $1.08, which… still misses.
+  – Profit fell 17% to $6.93 billion.
+  – Revenue rose 3.2% to $30.12 billion, about $570 million short of estimates, and the shares fell as much as 8% Wednesday morning.
+Link: https://finance.yahoo.com/markets/stocks/articles/bank-america-shares-slide-8-165820683.html
+Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e prazo
+Ativos: BAC
+Como falar: 'saiu no Yahoo Finance: Bank of America Shares Slide 8% on Record OCC Fine and Trading Miss; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 14/10 13h58
+id: E05-BAC-3e8cd3be4d-2026-10-14 · status: pendente
 
 [ATENÇÃO] E05 · BAC · Bank of America posts worst day since April 2025 after regulatory fine (BAC:NYSE)
 Seeking Alpha · 14/10 11h18 · fonte única · licença: manchete
@@ -181,8 +197,17 @@ Fonte: Yahoo Finance 14/10 01h58
 id: E05-BAC-327b54562b-2026-10-14 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (88)
+## OUTRAS NOTÍCIAS (só manchete) (97)
 
+· BTC Bitcoin Falls To $81K After Hotter-Than-Expected US Inflation Breaks BTC Below Tight Trading Range (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-falls-81k-hotter-expected-171900103.html
+· INTC 3 Reasons to Buy Intel Stock Before 2027 (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/3-reasons-buy-intel-stock-170300919.html
+· PETR4 Petrobras (PETR4): pagamento bilionário e acordo de US$ 859 milhões; de onde vem o dinheiro? (Suno Noticias) https://www.suno.com.br/noticias/petrobras-petr4-subvencoes-acordo-berbigao-sururu/
+· PLTR Is Palantir's AIP Platform Fueling Explosive U.S. Commercial Growth? (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/palantirs-aip-platform-fueling-explosive-163000333.html
+· PLTR Palantir drops City Hall legal fight over Met deal (BBC) https://www.bbc.com/news/articles/cjr4yzlwr00qo
+· BAC BANK OF AMERICA CORPORATION (BAC.MX) Q3 FY2026 earnings call transcript (Yahoo Finance) https://finance.yahoo.com/quote/BAC.MX/earnings/BAC.MX-Q3-2026-earnings_call-651459.html
+· GFS GLOBALFOUNDRIES Inc. (GFS) stock price, news, quote and history (Yahoo Finance) https://au.finance.yahoo.com/quote/GFS/
+· MRVL Intel vs. Marvell Technology: Which Tech Stock Is a Better Buy in 2026? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/intel-vs-marvell-technology-tech-112501424.html
+· UST Stock Market Today: Stocks Drop, Treasury Yields Surge After Hot Inflation Reading; Memory Stocks Extend Declines (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/stock-market-today-stocks-drop-104125102.html
 · TSM TSMC Earnings Will Surge but Terafab and Texas Talks Are in Focus (Barron's) https://www.barrons.com/articles/tsmc-earnings-stock-price-e352058b
 · MU Micron Takes Another Hit as China Chip Fears Flare (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:b167b8742094b:0-micron-takes-another-hit-as-china-chip-fears-flare/
 · PLTR Palantir drops legal case against Sadiq Khan over cancelled £50mn contract (Financial Times) https://www.ft.com/content/badcd536-6e53-4968-8fea-914ffc3d8d0c?syn-25a6b1a6=1
@@ -234,13 +259,4 @@ id: E05-BAC-327b54562b-2026-10-14 · status: linha
 · BTC A Holder Who Put $100 a Month Into Bitcoin Since 2015 Has Paid In $14,000. Here Is What the Stack Is Worth Now. (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/holder-put-100-month-bitcoin-133113066.html
 · NVDA Nvidia's Valuation Is Becoming Absurdly Cheap (NASDAQ:NVDA) (Seeking Alpha) https://seekingalpha.com/article/4953587-nvidia-valuation-is-becoming-absurdly-cheap
 · AXIA3 Axia faz nova redução de participação acionária na ISA Energia (UOL Economia) https://megawhat.uol.com.br/economia-e-politica/empresas/axia-faz-nova-reducao-de-participacao-acionaria-na-isa-energia/
-· BTC Strategy’s Michael Saylor Says Bitcoin Bull Market Is Just Beginning (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/strategy-michael-saylor-says-bitcoin-132800845.html
-· BTC Coinbase Outlines Ways To Protect Bitcoin From Quantum Attacks (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/coinbase-outlines-ways-protect-bitcoin-132600142.html
-· UST U.S. 10-year yield jumps as hot inflation re-injects rate-hike fears (Investing.com) https://www.investing.com/news/forex-news/eurozone-debt-bourses-consolidate-as-lagarde-rejects-french-bond-backstop-4948176
-· COHR Is COHERENT CORP (COHR) Outperforming Other Business Services Stocks This Year? (Yahoo Finance) https://news.google.com/rss/articles/CBMikAFBVV95cUxNN0J3OXZCVTF6Y2FOMlJfNkQydDl3N2FCUEpJS0RObDFnaVZTY1RKN29tLXRvU0pRZ3RqODMyVHN6cDM1RGZyQVdxeVJYdTZyR3A0NUlBd0laWGhGNUpUMDJEWWhDUzUwRnlyYllvMUdZRm5GMmpqOExCaWJEUDdCNVcxUC1MSUtsQXQ2eEQ2bVk?oc=5
-· BAC Here's What Key Metrics Tell Us About Bank of America (BAC) Q3 Earnings (Yahoo Finance) https://news.google.com/rss/articles/CBMilAFBVV95cUxPZkpGY1A5NFdTcXZtZUVQdFBGWmlDVUpEZ3dEZ3dVWkxuMGtsQTVXdC1FS0JlY0hOWmU4X0RVMkp2QXBLV1FMVkN2MGVoZVhDbmo0bmxGZmhqbWQ1VGs1YzRBaWRmZWdsMDgzWE9nY1BvdDJKNkMyWU1kenF2SUthOWFpcUR1N0l6WDU0YTFVWnF6RDhO?oc=5
-· BAC Bank of America earnings missed by $0.02, revenue fell short of estimates (Investing.com) https://news.google.com/rss/articles/CBMiugFBVV95cUxPQlBtNHY5VlNSWnRscExyT0xVcGNCaGNHR2d5WkZrb1l0ejdHUlFveHJJUkVmcTlxUVdiN0NPWHk0MlpxUWhUeDV3b2dJcmdXbjR0MFlUcEFmbHdVT0dyTGVKWFZyZ250Q2hhREg1NS1LcUs2NnNGdVhsTER1YUFSRFlYLVpHN1RIcTQxRE96Y1RFTlZQLV90ekpmTXJ2SmNlRnhxcXd6ZWprcGxtbkZER0UtSHhmVU1pM2c?oc=5
-· TSLA Tesla to Post Q3 Earnings: Will Automotive Margins Play a Spoilsport? (TradingView (Reuters)) https://news.google.com/rss/articles/CBMiwAFBVV95cUxNWmhjLVVQTWdTX0EyYW9GTmF1QVdLeUl3a29JUklXNWtRUktlMEhPYUpmbDRCdmZ0dmtzbl9KNlllSVRUTHRIcG4wSjhZdkp1WS1hVmN5S3RCUTRIeGlyeW5zbEpfUEc5akE3QmJGWV9kZV8xX2swQlZfZU9ucWhZTHhyLWhtcUZleURYTjV1TVg3djV4eVdERWp2eW1SYzF5RndYQ3VoYXJCTzkxVks1QWpuWlZYX3BvbDBQZVlFckI?oc=5
-· MU Micron: China Just Broke The Memory Supercycle Story (NASDAQ:MU) (Seeking Alpha) https://seekingalpha.com/article/4954084-micron-china-just-broke-the-memory-supercycle-story
-· BAC Bank of America Corporation 2026 Q3 - Results - Earnings Call Presentation (NYSE:BAC) 2026-10-14 (Seeking Alpha) https://seekingalpha.com/article/4954108-bank-of-america-corporation-2026-q3-results-earnings-call-presentation
-· (+28 manchetes; lista completa em eventos/noticias.json)
+· (+37 manchetes; lista completa em eventos/noticias.json)
