@@ -1,10 +1,10 @@
 BLOCO A
 ```
-FECHAMENTO DO LIVRO · qua 14/10 · 18h13 BRT
-Relógios: Yahoo 18h13 · DI ajuste D0 · Tesouro base
+FECHAMENTO DO LIVRO · qua 14/10 · 20h52 BRT
+Relógios: Yahoo 20h52 · DI ajuste D0 · Tesouro base
   13/10 · UST CMT D0 · PTAX 14/10
 
-ALERTAS DO DIA (58 · 9 críticos)
+ALERTAS DO DIA (63 · 9 críticos)
 [CRÍTICO] T05 MRVL -8,7% no dia a US$ 245,28:
           movimento de 3,3 desvios para uma vol de
           20 dias de 45% a.a.
@@ -28,34 +28,33 @@ ALERTAS DO DIA (58 · 9 críticos)
 [CRÍTICO] T08 RARA11 entrou em queda de -30% do
           pico: -32% do pico de 52s (R$ 18,56 em
           21/08) a R$ 12,55
-(+50 em alertas.md)
+(+55 em alertas.md)
 
 ALTAS  GFS +4,8% · PETR4 +2,2% · CVX +2,0% · KO
        +1,9% · AXIA3 +1,8%
 BAIXAS LITE -9,3% · COHR -9,2% · MRVL -8,7% · AMD
        -5,7% · BAC -4,8%
 
-NOTÍCIAS E FATOS (23 com materialidade ·
+NOTÍCIAS E FATOS (28 com materialidade ·
   noticias.md)
+· BAC Stock Market Today, Oct. 14: Bank of America
+  Shares Fall 5% on Earnings Miss and Compliance
+  Penalty (Yahoo Finance)
+· BAC Bank of America CEO on $1.2 billion fine:
+  We're on the right course to remediate everything
+  (CNBC)
+· BTC YieldMax Bitcoin Option Income Strategy ETF
+  declares $0.159 dividend (TradingView (Reuters))
+· BAC Bank of America Stocks Fall 7.14% as Earnings
+  Reveal Costs Beyond the Settlement (Yahoo Finance)
+· PETR4 Petrobras (PETR4) bate R$ 800 bilhões em
+  valor de mercado pela primeira vez. O que está por
+  trás do novo recorde? (Seu Dinheiro)
 · MRVE3 Comunicado ao Mercado: MRVE3) Companhia
   disponibiliza ao mercado comunicado recebido pela
   para os fins do disposto no art. 12 da Instrução
   CVM nº 44/21, informando que rece… (CVM)
-· PETR4 Petrobras (PETR4) bate novo recorde
-  histórico de valor de mercado. O que fazer com as
-  ações? (Estadao)
-· BAC Bank of America Stocks Fall 7.14% as Earnings
-  Reveal Costs Beyond the Settlement (Yahoo Finance)
-· BAC Bank of America Stock Plunges After $1.2
-  Billion Fine and Q3 Earnings Miss (TradingView
-  (Reuters))
-· TSM TSMC options chain shows big call wall at $500
-  strike ahead of earnings (TSM:NYSE) (Seeking
-  Alpha)
-· GFS Japan to invest $21 billion in up to two
-  GlobalFoundries chip factories in New York
-  (Reuters)
-  (+17)
+  (+22)
 
 CURVAS · taxa (Δ bps)
 DI (D0, Δ dia·sem bps) F28 12,70 (+0·+9) F29 12,44
@@ -71,7 +70,7 @@ TD (base 13/10, Δ desde 09/10) Pre 2029 12,40 (+10)
     (descasado) 5,39% vs Focus IPCA 2027 4,30%
 UST (D0) 2y 4,82 (+3) · 10y 5,19 (-2) · 30y 5,52
     (-4) · 2s10s +37 (-5)
-Regime: VIX 16,9 (+10%) · score risco 0 de 6 ·
+Regime: VIX 16,9 (+10%) · score risco 0 de 5 ·
     regime de vol LIGADO
 
 LEITURA DA MESA
@@ -92,7 +91,14 @@ ter 27/10 resultado KO (antes de NY, estimado)
 ter 27/10 resultado MMM (antes de NY, estimado)
 qua 28/10 resultado GOOGL (após NY, estimado)
 
-LACUNAS: nenhuma perna falhou.
+LACUNAS: DXY sem barra de 14/10 (última 13/10);
+  BRENT sem barra de 14/10 (última 13/10); DXY:
+  barra de 14/10 é o início da sessão seguinte
+  (última cotação 19:32 de Nova York); barra
+  descartada, fica a de 13/10; BRENT: barra de 14/10
+  é o início da sessão seguinte (última cotação
+  19:41 de Nova York); barra descartada, fica a de
+  13/10.
 Fontes: Yahoo Finance · B3 Boletim Diário · Tesouro
   Transparente · Treasury.gov CMT · BCB
 ```
@@ -176,10 +182,10 @@ MRVE3  MRV        7,49 +0,1  +18  +35 -4,2  +20 -3,9
 CURY3  Cury      32,26 -3,9  0,0 +4,7 -4,5  +19 +5,2
 Macro
 USDBRL USD/BRL  5,0287 +0,1 +0,3 -2,3 +0,9 -8,0 -8,2
-DXY    DXY      102,55 +0,4 +0,3 +3,1 +4,6 +3,5 +4,3
-BRENT  Brent    106,06 +0,4 +5,8 +0,4  +12  +70  +74
-BTC*   BTC      81.657 -1,7 -1,9 +4,5 +9,2  -28 -6,7
-ETH*   ETH       2.412 -3,4 -6,3 -4,1 +2,2  -42  -19
+DXY*   DXY      102,18 -0,4 +0,3 +3,1 +4,1 +2,9 +4,0
+BRENT* Brent    105,69 -0,9 +5,1 +1,0  +11  +67  +74
+BTC*   BTC      81.513 -1,9 -2,1 +4,3 +9,0  -28 -6,9
+ETH*   ETH       2.416 -3,2 -6,1 -3,9 +2,4  -41  -19
 MINER* Minerio   90,72 -0,1 -0,5 -7,4  -15  -15  -15
 ```
 UCITS por extenso: VWRA Vanguard FTSE All-World

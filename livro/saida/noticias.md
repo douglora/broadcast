@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 14/10 18h30
+NOTÍCIAS E FATOS · 14/10 20h52
 
-Pernas: noticias ok 17 novas (18 consultas; descartadas: 449 veículo fora da lista, 38 sem ativo, 0 teto) · cvm ok 0 novos de 8 (6 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 11 novas (18 consultas; descartadas: 455 veículo fora da lista, 38 sem ativo, 0 teto) · cvm ok 0 novos de 0 (0 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (1)
 
@@ -18,7 +18,7 @@ Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; 
 Ativos: MRVE3
 Como falar: 'a MRV publicou comunicado ao mercado sobre MRVE3) Companhia disponibiliza ao mercado comunicado recebido pela pa…'
 Fonte: CVM 14/10
-id: E03-MRVE3-1577174-2026-10-14 · status: pendente · íntegra disponível
+id: E03-MRVE3-1577174-2026-10-14 · status: expirado · íntegra disponível
 
 
 ## SEC (8-K, 6-K, 10-Q, 10-K) (1)
@@ -33,7 +33,34 @@ Fonte: SEC EDGAR 2026-10-14
 id: E04-BAC-26000481-2026-10-14 · status: entregue · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (26)
+## NOTÍCIAS COM MATERIALIDADE (28)
+
+[ATENÇÃO] E05 · BAC · Stock Market Today, Oct. 14: Bank of America Shares Fall 5% on Earnings Miss and Compliance Penalty
+Yahoo Finance · 14/10 19h02 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Bank of America (NYSE:BAC), a global consumer, commercial, and investment banking franchise, closed at $51.39, down 4.76%.
+  – Trading volume reached 115.1M shares, coming in about 226% above its three-month average of 35.3M shares.
+  – How the markets moved today S&P 500 (SNPINDEX:^GSPC) closed at 7,721, down 1.08%, and Nasdaq Composite (NASDAQINDEX:^IXIC) closed at 26,693, down 1.88%.
+  – Among diversified banks and financial services peers, JPMorgan Chase (NYSE:JPM) closed at $335.28, up 1.16%, while Wells Fargo (NYSE:WFC) closed at $80.91, up 0.20%, highlighting a mixed day for large-bank shares.
+  – What this means for investors Bank of America briefly suffered its biggest single-day drop since April 2025 after missing Q3 earnings and being hit with a $1.2 billion fine from the U.S.
+  – The fine amounted to a $0.17 hit to EPS in Q3, but even without including this figure, BAC stock's EPS of $1.08 came up two cents short of what Wall Street was expecting.
+Link: https://finance.yahoo.com/markets/stocks/articles/stock-market-today-oct-14-220245754.html
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: BAC
+Como falar: 'saiu no Yahoo Finance: Stock Market Today, Oct. 14: Bank of America Shares Fall 5% on Earnings Miss and Complian…; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 14/10 19h02
+id: E05-BAC-c9991d8e70-2026-10-14 · status: pendente
+
+[ATENÇÃO] E05 · BAC · Bank of America CEO on $1.2 billion fine: We're on the right course to remediate everything
+CNBC · 14/10 12h20 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – 05:33 Wed, Oct 14 202610:50 AM EDT
+Link: https://www.cnbc.com/video/2026/10/14/bank-of-america-ceo-on-1-point-2-billion-fine.html
+Por que importa: troca no comando reabre a discussao de estrategia e de alocacao de capital
+Ativos: BAC
+Como falar: 'saiu no CNBC: Bank of America CEO on $1.2 billion fine: We're on the right course to remediate everythi…; confirmar o número no texto antes de repassar'
+Fonte: CNBC 14/10 12h20
+id: E05-BAC-a742640f00-2026-10-14 · status: pendente
 
 [ATENÇÃO] E05 · BTC · YieldMax Bitcoin Option Income Strategy ETF declares $0.159 dividend
 TradingView (Reuters) · 14/10 17h45 · fonte única · licença: manchete
@@ -343,8 +370,17 @@ Fonte: Yahoo Finance 14/10 01h58
 id: E05-BAC-327b54562b-2026-10-14 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (145)
+## OUTRAS NOTÍCIAS (só manchete) (154)
 
+· BAC Bank of America: Huge Fine Makes Shares Slump (NYSE:BAC) (Seeking Alpha) https://seekingalpha.com/article/4954251-bank-of-america-huge-fine-makes-shares-slump
+· JPM Alibaba Stock Is Down 38% From Its 2025 High. JPMorgan Sees 81% Upside (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/alibaba-stock-down-38-2025-224618551.html
+· BBDC4 O Bradesco saiu de moda na bolsa? O rali eleitoral tem seus queridinhos — e BBDC4 ficou de escanteio (Seu Dinheiro) https://www.seudinheiro.com/2026/empresas/o-bradesco-saiu-de-moda-na-bolsa-o-rali-eleitoral-tem-seus-queridinhos-e-bbdc4-ficou-de-escanteio-miql/
+· KO Coca-Cola (KO) Gains As Market Dips: What You Should Know (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/coca-cola-ko-gains-market-205005179.html
+· NVDA Nvidia stock sinks as chip sell-off deepens on hot inflation data (Yahoo Finance) https://finance.yahoo.com/markets/stocks/article/nvidia-stock-sinks-as-chip-sell-off-deepens-on-hot-inflation-data-203235137.html
+· BAC Bank of America earnings analysis: questions answered and next catalysts (Investing.com) https://www.investing.com/news/stock-market-news/bank-of-america-earnings-analysis-questions-answered-and-next-catalysts-93CH-4949814
+· BTC iShares Bitcoin Trust ETF (IBIT) (Yahoo Finance) https://ca.finance.yahoo.com/quote/IBIT/options/?date=1792022400&straddle=false&type=all
+· LITE Lumentum Is Sold Out Through 2029. Could Tower Semiconductor Be the Next Big Winner? (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/lumentum-sold-2029-could-tower-140632384.html
+· UST 10-year Treasury yield dips as traders look ahead to Thursday economic reports (CNBC) https://www.cnbc.com/2026/10/14/us-treasury-yields-cpi-inflation-report.html
 · PETR4 Petrobras: BofA diz que mercado substima pré-sal e coloca R$ 15 no preço-alvo de PETR4 (Money Times) https://www.moneytimes.com.br/petrobras-bofa-diz-que-mercado-substima-pre-sal-e-eleva-o-preco-alvo-de-petr4-lils/
 · USDBRL Dólar sobe a R$ 5,03 e Ibovespa cai 0,18% com inflação dos EUA (Poder360) https://www.poder360.com.br/poder-economia/dolar-sobe-a-r-503-e-ibovespa-cai-018-com-inflacao-dos-eua/
 · BAC Bank of America Corporation Q3 2026 Earnings Call Summary (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/bank-america-corporation-q3-2026-204452276.html
@@ -396,13 +432,4 @@ id: E05-BAC-327b54562b-2026-10-14 · status: linha
 · BTC Bitcoin Falls To $81K After Hotter-Than-Expected US Inflation Breaks BTC Below Tight Trading Range (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-falls-81k-hotter-expected-171900103.html
 · INTC 3 Reasons to Buy Intel Stock Before 2027 (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/3-reasons-buy-intel-stock-170300919.html
 · PETR4 Petrobras (PETR4): pagamento bilionário e acordo de US$ 859 milhões; de onde vem o dinheiro? (Suno Noticias) https://www.suno.com.br/noticias/petrobras-petr4-subvencoes-acordo-berbigao-sururu/
-· PLTR Is Palantir's AIP Platform Fueling Explosive U.S. Commercial Growth? (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/palantirs-aip-platform-fueling-explosive-163000333.html
-· PLTR Palantir drops City Hall legal fight over Met deal (BBC) https://www.bbc.com/news/articles/cjr4yzlwr00qo
-· BAC BANK OF AMERICA CORPORATION (BAC.MX) Q3 FY2026 earnings call transcript (Yahoo Finance) https://finance.yahoo.com/quote/BAC.MX/earnings/BAC.MX-Q3-2026-earnings_call-651459.html
-· GFS GLOBALFOUNDRIES Inc. (GFS) stock price, news, quote and history (Yahoo Finance) https://au.finance.yahoo.com/quote/GFS/
-· MRVL Intel vs. Marvell Technology: Which Tech Stock Is a Better Buy in 2026? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/intel-vs-marvell-technology-tech-112501424.html
-· UST Stock Market Today: Stocks Drop, Treasury Yields Surge After Hot Inflation Reading; Memory Stocks Extend Declines (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/stock-market-today-stocks-drop-104125102.html
-· TSM TSMC Earnings Will Surge but Terafab and Texas Talks Are in Focus (Barron's) https://www.barrons.com/articles/tsmc-earnings-stock-price-e352058b
-· MU Micron Takes Another Hit as China Chip Fears Flare (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:b167b8742094b:0-micron-takes-another-hit-as-china-chip-fears-flare/
-· PLTR Palantir drops legal case against Sadiq Khan over cancelled £50mn contract (Financial Times) https://www.ft.com/content/badcd536-6e53-4968-8fea-914ffc3d8d0c?syn-25a6b1a6=1
-· (+85 manchetes; lista completa em eventos/noticias.json)
+· (+94 manchetes; lista completa em eventos/noticias.json)

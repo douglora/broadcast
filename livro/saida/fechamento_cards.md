@@ -1,4 +1,4 @@
-## Fechamento do livro · qua 14/10 · 18h13 BRT
+## Fechamento do livro · qua 14/10 · 20h52 BRT
 
 ---
 
@@ -61,7 +61,7 @@
 ### Destaques do dia
 
 **Altas** GFS +4,8% (vol 3,1x) · PETR4 +2,2% (fechou na máxima · máxima de 52 semanas) · CVX +2,0% (fechou na máxima · máxima de 52 semanas) · KO +1,9% (fechou na máxima) · AXIA3 +1,8%
-**Baixas** LITE -9,3% (fechou na mínima) · COHR -9,2% (fechou na mínima) · MRVL -8,7% (vol 1,3x · fechou na mínima) · AMD -5,7% · BAC -4,8% (vol 3,0x · fechou na máxima)
+**Baixas** LITE -9,3% (fechou na mínima) · COHR -9,2% (fechou na mínima) · MRVL -8,7% (vol 1,3x · fechou na mínima) · AMD -5,7% · BAC -4,8% (vol 3,1x · fechou na máxima)
 
 ---
 
@@ -69,12 +69,12 @@
 
 | Ativo | dia | explicação | grau |
 |---|---:|---|---|
-| **LITE** | -9,3% | notícia a conferir (Investing.com): Why is Lumentum stock sliding today? By Investing.com | notícia (conferir) |
+| **LITE** | -9,3% | notícia a conferir (Yahoo Finance): Lumentum Is Sold Out Through 2029. Could Tower Semiconductor Be the Next Big Winner? | notícia (conferir) |
 | **COHR** | -9,2% | notícia a conferir (Yahoo Finance): Is COHERENT CORP (COHR) Outperforming Other Business Services Stocks This Year? | notícia (conferir) |
 | **MRVL** | -8,7% | descolou do setor (semicondutores (eua) -3,7% (mediana), SOX -4,3%; -5,0 p.p. da mediana); notícia a conferir (Seeking Alpha): Marvell: A $37.5 Billion Business Is Quietly Carrying The Growth Plan | notícia (conferir) |
 | **AMD** | -5,7% | descolou do setor (semicondutores (eua) -3,7% (mediana), SOX -4,3%; -2,0 p.p. da mediana); notícia a conferir (Yahoo Finance): Advanced Micro Devices, Inc. (AMD) stock price, news, quote and history | notícia (conferir) |
 | **GFS** | +4,8% | descolou do setor (semicondutores (eua) -3,7% (mediana), SOX -4,3%; 8,5 p.p. da mediana); notícia a conferir (Reuters): Japan to invest $21 billion in up to two GlobalFoundries chip factories in New York | notícia (conferir) |
-| **BAC** | -4,8% | 8-K na SEC: BAC · 8-K: 2.02 resultado do trimestre, 7.01 Regulation FD; notícia a conferir (Yahoo Finance): Bank of America Stocks Fall 7.14% as Earnings Reveal Costs Beyond the Settlement | documento |
+| **BAC** | -4,8% | 8-K na SEC: BAC · 8-K: 2.02 resultado do trimestre, 7.01 Regulation FD; notícia a conferir (Yahoo Finance): Stock Market Today, Oct. 14: Bank of America Shares Fall 5% on Earnings Miss and Complianc | documento |
 | **NOK** | -4,7% | investigar antes de comentar | sem causa no dado |
 | **INTC** | -4,6% | andou com o setor: semicondutores (eua) -3,7% (mediana), SOX -4,3%; notícia a conferir (TradingView (Reuters)): Intel Stock Is Up 175%. Is the Turnaround Already Priced In? | setorial |
 
@@ -230,13 +230,13 @@ Nomes completos: **QNTM** VanEck Quantum Computing UCITS ETF USD (Acc) · **QANT
 | Ativo | últ | dia | 1 sem | 1 mês | 3 m | 6 m | 1 ano | YTD | 5 anos |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | **USDBRL** Dolar/Real | 5,0287 | **+0,1** | +0,3 | -2,3 | -1,2 | +0,9 | -8,0 | -8,2 | -7,8 |
-| **DXY** Indice Dolar DXY | 102,55 | **+0,4** | +0,3 | +3,1 | +2,0 | +4,6 | +3,5 | +4,3 | +9,2 |
-| **BRENT** Petroleo Brent | 106,06 | **+0,4** | +5,8 | +0,4 | +25 | +12 | +70 | +74 | +25 |
-| **BTC** Bitcoin _(parcial)_ | 81.657 | **-1,7** | -1,9 | +4,5 | +26 | +9,2 | -28 | -6,7 | +33 |
-| **ETH** Ethereum _(parcial)_ | 2.412 | **-3,4** | -6,3 | -4,1 | +26 | +2,2 | -42 | -19 | -37 |
+| **DXY** Indice Dolar DXY _(dia 13/10)_ | 102,18 | **-0,4** | +0,3 | +3,1 | +1,2 | +4,1 | +2,9 | +4,0 | +8,8 |
+| **BRENT** Petroleo Brent _(dia 13/10)_ | 105,69 | **-0,9** | +5,1 | +1,0 | +25 | +11 | +67 | +74 | +25 |
+| **BTC** Bitcoin _(parcial)_ | 81.513 | **-1,9** | -2,1 | +4,3 | +26 | +9,0 | -28 | -6,9 | +32 |
+| **ETH** Ethereum _(parcial)_ | 2.416 | **-3,2** | -6,1 | -3,9 | +26 | +2,4 | -41 | -19 | -37 |
 | **MINERIO** Minerio de ferro 62% Fe CFR China _(D-1, 13/10)_ | 90,72 | **-0,1** | -0,5 | -7,4 | -8,3 | -15 | -15 | -15 | -26 |
 
-**Brent em reais:** R$ 533,34 por barril (14/10) · dia +0,5% · 1 mês -2,0% · no ano +60% (Brent do 1º vencimento × dólar).
+**Brent em reais:** a confirmar (Brent sem fechamento confirmado).
 
 ---
 
@@ -285,12 +285,22 @@ Inflação implícita 2029 5,38% · 2032 5,46% · 2031/32 (descasado) 5,39% · F
 
 2s10s +37 bps (-5 no dia)
 
-**Regime** VIX 16,9 (+10%) · score de risco 0 de 6 · **regime de vol LIGADO**
+**Regime** VIX 16,9 (+10%) · score de risco 0 de 5 · **regime de vol LIGADO**
 
 ---
 
-### Notícias e fatos · 23
+### Notícias e fatos · 28
 
+- **BAC** Stock Market Today, Oct. 14: Bank of America Shares Fall 5% on Earnings Miss and Compliance Penalty (Yahoo Finance · 14/10) [abrir a fonte](https://finance.yahoo.com/markets/stocks/articles/stock-market-today-oct-14-220245754.html)
+  *Por que importa:* resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+- **BAC** Bank of America CEO on $1.2 billion fine: We're on the right course to remediate everything (CNBC · 14/10) [abrir a fonte](https://www.cnbc.com/video/2026/10/14/bank-of-america-ceo-on-1-point-2-billion-fine.html)
+  *Por que importa:* troca no comando reabre a discussao de estrategia e de alocacao de capital
+- **BTC** YieldMax Bitcoin Option Income Strategy ETF declares $0.159 dividend (TradingView (Reuters) · 14/10) [abrir a fonte](https://www.tradingview.com/news/seekingalpha:ad7733f9c094b:0-yieldmax-bitcoin-option-income-strategy-etf-declares-0-159-dividend/)
+  *Por que importa:* provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+- **BAC** Bank of America Stocks Fall 7.14% as Earnings Reveal Costs Beyond the Settlement (Yahoo Finance · 14/10) [abrir a fonte](https://finance.yahoo.com/markets/stocks/articles/bank-america-stocks-fall-7-193805470.html)
+  *Por que importa:* resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+- **PETR4** Petrobras (PETR4) bate R$ 800 bilhões em valor de mercado pela primeira vez. O que está por trás do novo recorde? (Seu Dinheiro · 14/10) [abrir a fonte](https://www.seudinheiro.com/2026/bolsa-dolar/petrobras-petr4-bate-r-800-bilhoes-em-valor-de-mercado-pela-primeira-vez-com-petroleo-em-alta-e-bom-humor-dos-gringos-com-o-brasil-bdap/)
+  *Por que importa:* noticia material sobre um ativo do livro; ler o texto antes de comentar
 - **MRVE3** Comunicado ao Mercado: MRVE3) Companhia disponibiliza ao mercado comunicado recebido pela para os fins do disposto no art. 12 da Instrução CVM nº 44/21, informando que rece… (CVM · 14/10) [abrir a fonte](https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1577174)
   *Por que importa:* comunicado ao mercado costuma responder a noticia ou a oficio; confirma ou nega o que circula
 - **PETR4** Petrobras (PETR4) bate novo recorde histórico de valor de mercado. O que fazer com as ações? (Estadao · 14/10) [abrir a fonte](https://www.estadao.com.br/einvestidor/cenarios-e-mercado/petrobras-petr4-bate-novo-recorde-historico-de-valor-de-mercado-o-que-fazer-com-as-acoes/)
@@ -362,8 +372,8 @@ Inflação implícita 2029 5,38% · 2032 5,46% · 2031/32 (descasado) 5,39% · F
 
 ### Como ler
 
-**Relógios:** Yahoo 18h13 · DI ajuste D0 · Tesouro base 13/10 · UST CMT D0 · PTAX 14/10
-**Lacunas:** nenhuma perna falhou.
+**Relógios:** Yahoo 20h52 · DI ajuste D0 · Tesouro base 13/10 · UST CMT D0 · PTAX 14/10
+**Lacunas:** DXY sem barra de 14/10 (última 13/10); BRENT sem barra de 14/10 (última 13/10); DXY: barra de 14/10 é o início da sessão seguinte (última cotação 19:32 de Nova York); barra descartada, fica a de 13/10; BRENT: barra de 14/10 é o início da sessão seguinte (última cotação 19:41 de Nova York); barra descartada, fica a de 13/10.
 **IUAA:** NAO e renda fixa ultracurta: cai ~6% a cada +100 bps na curva. Ler junto com UST 10y/30y. Caixa em dolar e o IB01.
 **Hipótese:** **EWY** iShares MSCI South Korea ETF · **MCHI** iShares MSCI China ETF — ETFs dos EUA, a confirmar.
 Minério: proxy Dalian 672 CNY/t (2026-10-14).
