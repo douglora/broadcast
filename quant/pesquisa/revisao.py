@@ -625,7 +625,7 @@ def muda_amanha(rev, consertos, abertos):
     dia = rev["dia"]
     for c in consertos:
         if str(c.get("dia") or c.get("quando", ""))[:10] >= dia:
-            fora.append(f"Conserto: {c.get('texto')}" + (f" (teste {c['teste']})" if c.get("teste") else ""))
+            fora.append(f"Conserto: {c.get('texto')}" + (" (com teste automático)" if c.get("teste") else ""))   # o nome do teste fica no caderno
     for n, x in abertos:
         fora.append(f"Hipótese nova na fila (item {n}): {x['texto']} — só muda a regra se passar no teste de 5 anos.")
     for pr in rev["por_regra"]:
