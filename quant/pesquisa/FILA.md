@@ -6,11 +6,6 @@ metodo em quant/saida/pesquisa5/BRIEF.md) e move a linha para "Testadas" com os 
 
 ## A testar
 
-4. Manha de volatilidade alta (pista da frente maquina: o pouco que ha de previsivel vive ali): repetir a regra do setup
-   proprio e as reversoes de barra grande so nos dias em que a faixa dos primeiros 15 minutos esta no tercil alto dos 20
-   pregoes anteriores.
-5. Fim da janela de ajuste (15h50 a 16h00): o preco devolve 0,5 ponto na barra das 16h00 (t -7,3, real mas menor que o
-   custo). Ha versao com movimento grande (decil alto: 1,8 ponto) que pague com entrada parada?
 6. Dados novos da B3 (quant/saida/pesquisa5/b3_dolar/LEIA.md, quando existir): posicao em aberto no dolar por tipo de
    participante (estrangeiro, banco, institucional) de ontem contra o comportamento do pregao de hoje (gap, direcao da
    manha, reversao do dado); PTAX das quatro janelas contra o preco do futuro na hora; corretoras na fita (20 pregoes).
@@ -28,12 +23,6 @@ metodo em quant/saida/pesquisa5/BRIEF.md) e move a linha para "Testadas" com os 
    25, stop 500, janela 09:00-18:30). Se a prova viva juntar 60+ negocios com media positiva e t >= 2, vira pedido de estudo.
 10. O mesmo empurrao do fim do dia no mini-dolar (pista da familia win_estrutura: +R$ 8,50 por negocio, t 1,6, 7 de 7
    semestres, N=50, tempo=40, stop=60): so depois de a prova viva do indice dizer se o efeito ainda existe.
-
-11. Continuacao (nao reversao) depois do dado das 10h de NY (pista da noite de 09/10, nao prevista): medindo a reacao em 5
-   minutos (nao em 2), o preco CONTINUA na direcao da reacao por 60 a 120 minutos (bruto +2,0 a +2,7 pontos, t 1,9 a 2,1, n
-   287, 3 de 4 anos). Mecanismo: dado de 10h (ISM, confianca, vendas) traz informacao que o mercado leva minutos para
-   digerir, ao contrario do dado das 8h30, que e exagerado. Testar com lab.avaliar, parametros redondos (r=5, thr=5, stop 40,
-   tempo 120), t por pregao; se nao for candidata na descoberta, nao vai a validacao.
 
 14. PROVA VIVA do dolar em prazo de dias (tendencia `tsm_media`, parametros congelados em 10/10/2026): rodar
    `quant/saida/pesquisa5/dolar_dias/coletar.py` e `sinal_hoje.py` todo dia util e comparar, so com pregoes de 13/10/2026 em
@@ -272,3 +261,19 @@ Pistas abertas (so medindo; entram na prova viva pelo rotulo, nunca pela regra):
 25. Dias sem consenso no marco rendem menos (+55): separar no placar; nao filtrar (perde por pregao).
 - Rodada 3 (12/10): saidas alternativas da reversao do dado (alvo, stop movel, tempo, stop): 10 tentativas, nenhuma melhor que a saida congelada; alvo curto sobe o acerto e derruba o resultado. Fechado.
 26. Prova viva das variantes do dado (`dado_variantes.py`, desde 13/10/2026): cobrar no painel da prova viva; gate 60 negocios, t >= 2 e acima de `dado_base` nos mesmos pregoes.
+
+(12/10/2026, rotina da noite) Itens 4, 5 e 11 da fila, so na descoberta (805 pregoes; scripts em
+quant/saida/pesquisa5/noite/2026-10-12/). O item 6 ficou de fora: posicao por tipo de participante nao existe de graca, PTAX
+ja foi testada e as corretoras ja fecharam sem pista viva. Nenhuma candidata nova.
+- Item 4, manha de volatilidade alta (faixa de 9h00 a 9h14 no tercil alto dos 20 pregoes anteriores, corte conhecido as 9h15):
+  MORTA. Reversao do dado (gatilho 3, stop 40, tempo 120): nos dias de faixa alta n 123, +R$ 56 por negocio (t 1,0, 5 de 7
+  semestres); nos outros dias n 206, +R$ 130 (t 3,5). O filtro PIORA a regra aprovada, nao melhora. Barra grande (variacao
+  >= 5 pontos e volume >= 3 vezes, entra contra, stop 10, alvo 4, 20 min): faixa alta n 287, -R$ 14,60 (t -1,9, 2 de 7
+  semestres); outros dias -R$ 19,40 (t -3,6). Perde nos dois regimes.
+- Item 5, fim da janela de ajuste (movimento de 15h50 a 15h59 no decil alto, corte movel de 60 pregoes; aposta contra na barra
+  das 16h00): MORTA. Bruto real (+1,5 a +1,8 pontos, 82 sinais, t 2,5 a 5,7) mas so 0,1 sinal por pregao: a mercado sobra
+  +R$ 8,40 por negocio (t 0,7, 4 de 7 semestres); com 10 minutos +R$ 7,50 (t 0,5). Entrada parada 0,5 ponto alem do
+  fechamento das 15h59: nenhum negocio executado.
+- Item 11, continuacao depois do dado das 10h de NY (reacao em 5 minutos, limiar 5 pontos, segue, stop 40, 120 min): MORTA.
+  n 260, acerto 45%, +R$ 12,50 por negocio (t 0,5), 4 de 7 semestres; 2021 -R$ 81, 2023 -R$ 17, 2024 -R$ 9; compra perde
+  (-R$ 17,70) e so a venda ganha (+R$ 40,90). A pista de t 2 da noite de 09/10 nao se sustentou com custo.

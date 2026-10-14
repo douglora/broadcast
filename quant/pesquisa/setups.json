@@ -1,4 +1,19 @@
 {
- "_leia": "Registro das regras de laboratorio que o robo roda ao vivo. estado: 'medido' (so guarda o sinal) ou 'opera'. So a rotina da noite (quant/pesquisa/noite.py) e o Douglas mudam o estado. Regra nova entra SEMPRE como 'medido' e so depois de positiva na descoberta, na validacao e na prova.",
- "regras": []
+ "_leia": "Registro das regras de laboratorio que o robo roda ao vivo. estado: 'medido' (so guarda o sinal) ou 'opera'. So a rotina da noite (quant/pesquisa/noite.py) e o Douglas mudam o estado. Regra nova entra SEMPRE como 'medido' e so depois de positiva na descoberta, na validacao e na prova; a excecao e decisao escrita do Douglas (campo 'decisao'). Campos: ativo (WDOFUT/WINFUT), contratos (dose), janela (so emite sinal com a barra fechada dentro dela), barras (historico que a regra recebe).",
+ "regras": [
+  {
+   "nome": "win_fim_do_dia_adaptativa",
+   "titulo": "fim do pregão (mini-índice, lado que vem dando certo)",
+   "arquivo": "quant/pesquisa/regras/win_fim_do_dia.py",
+   "funcao": "regra_adaptativa",
+   "ativo": "WINFUT",
+   "estado": "opera",
+   "contratos": 1,
+   "barras": 60000,
+   "janela": ["17:30", "18:10"],
+   "saida": {"stop": 500, "alvo": null, "tempo": 25},
+   "historico": "original (a favor da tendencia do dia): descoberta 2021-24 800 negocios, +R$ 15/neg, t 6,6, 7 de 7 semestres; validacao 2025 -R$ 4,5/neg; em 2026 o efeito inverteu. A variante adaptativa opera no lado que rendeu nos ultimos 60 pregoes (so pregoes encerrados); nasceu em 10/10/2026 depois de 2026 ser visto: so vale a prova viva.",
+   "decisao": "Douglas, 13/10/2026: 'nosso sistema esta muito engessado, muita regra pouca operacao... deixe ele mais maleavel, mas com estrategia vencedora, ele precisa fazer operacoes todos os dias'. Opera com 1 contrato (dose de laboratorio) em simulacao; a prova viva continua medindo a mesma regra. Para desfazer: estado 'medido'."
+  }
+ ]
 }
