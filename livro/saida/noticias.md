@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 14/10 16h21
+NOTÍCIAS E FATOS · 14/10 17h21
 
-Pernas: noticias ok 17 novas (18 consultas; descartadas: 435 veículo fora da lista, 42 sem ativo, 7 teto) · cvm ok 0 novos de 7 (5 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 19 novas (18 consultas; descartadas: 450 veículo fora da lista, 40 sem ativo, 4 teto) · cvm ok 0 novos de 0 (0 cias casadas) · sec ok 0 novos em 3 dias
 
 ## SEC (8-K, 6-K, 10-Q, 10-K) (1)
 
@@ -14,7 +14,59 @@ Fonte: SEC EDGAR 2026-10-14
 id: E04-BAC-26000481-2026-10-14 · status: entregue · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (18)
+## NOTÍCIAS COM MATERIALIDADE (23)
+
+[ATENÇÃO] E05 · PETR4 · Petrobras (PETR4) bate novo recorde histórico de valor de mercado. O que fazer com as ações?
+Estadao · 14/10 16h48 · fonte única · licença: manchete
+Link: https://www.estadao.com.br/einvestidor/cenarios-e-mercado/petrobras-petr4-bate-novo-recorde-historico-de-valor-de-mercado-o-que-fazer-com-as-acoes/
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: PETR4
+Como falar: 'saiu no Estadao: Petrobras (PETR4) bate novo recorde histórico de valor de mercado. O que fazer com as açõ…; confirmar o número no texto antes de repassar'
+Fonte: Estadao 14/10 16h48
+id: E05-PETR4-54ed2132dd-2026-10-14 · status: pendente
+
+[ATENÇÃO] E05 · BAC · Bank of America Stocks Fall 7.14% as Earnings Reveal Costs Beyond the Settlement
+Yahoo Finance · 14/10 16h38 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Bank of America, the consumer and investment-banking group (NYSE:BAC), faces a cost problem that goes beyond its $1.2 billion settlement, with shares at $50.105, down approximately 7.14% at 11.25am EST on October 14.
+  – Strip out the charge and the adjusted efficiency ratio still stands at 62%, up from 60% a year earlier.
+  – GuruFocus has detected 4 Warning Signs with BAC.
+  – The bank's October 14 filing puts adjusted noninterest expense at approximately $18.5 billion, compared with reported expense of $17.3 billion a year earlier.
+  – Revenue, net of interest expense, rose to $29.958 billion from $29.040 billion.
+  – Reported earnings were $0.91 per share, or $1.08 excluding the settlement charge.
+Link: https://ca.finance.yahoo.com/news/bank-america-stocks-fall-7-193805470.html
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: BAC
+Como falar: 'saiu no Yahoo Finance: Bank of America Stocks Fall 7.14% as Earnings Reveal Costs Beyond the Settlement; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 14/10 16h38
+id: E05-BAC-5a51d1cd24-2026-10-14 · status: pendente
+
+[ATENÇÃO] E05 · BAC · Bank of America Stock Plunges After $1.2 Billion Fine and Q3 Earnings Miss
+TradingView (Reuters) · 14/10 16h30 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/gurufocus:c383ea0a2094b:0-bank-of-america-stock-plunges-after-1-2-billion-fine-and-q3-earnings-miss/
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: BAC
+Como falar: 'saiu no TradingView (Reuters): Bank of America Stock Plunges After $1.2 Billion Fine and Q3 Earnings Miss; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 14/10 16h30
+id: E05-BAC-4ef65b4f8a-2026-10-14 · status: pendente
+
+[ATENÇÃO] E05 · PETR4 · Petrobras bate quarto recorde seguido e alcança marca histórica de R$ 800 bilhões na Bolsa
+Estadao · 14/10 15h35 · fonte única · licença: manchete
+Link: https://www.estadao.com.br/einvestidor/cenarios-e-mercado/petrobras-bate-quarto-recorde-seguido-e-alcanca-marca-historica-de-r-800-bilhoes-na-bolsa/
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: PETR4
+Como falar: 'saiu no Estadao: Petrobras bate quarto recorde seguido e alcança marca histórica de R$ 800 bilhões na Bolsa; confirmar o número no texto antes de repassar'
+Fonte: Estadao 14/10 15h35
+id: E05-PETR4-9fb07748d6-2026-10-14 · status: linha
+
+[ATENÇÃO] E05 · TSM · TSM Earnings Tomorrow: Can Strong AI Demand Boost Q3 Results?
+TradingView (Reuters) · 14/10 15h00 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/zacks:0ec847e22094b:0-tsm-earnings-tomorrow-can-strong-ai-demand-boost-q3-results/
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: TSM
+Como falar: 'saiu no TradingView (Reuters): TSM Earnings Tomorrow: Can Strong AI Demand Boost Q3 Results?; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 14/10 15h00
+id: E05-TSM-7a52e883b0-2026-10-14 · status: linha
 
 [ATENÇÃO] E05 · TSM · TSMC options chain shows big call wall at $500 strike ahead of earnings (TSM:NYSE)
 Seeking Alpha · 14/10 16h09 · fonte única · licença: manchete
@@ -23,7 +75,7 @@ Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; 
 Ativos: TSM
 Como falar: 'saiu no Seeking Alpha: TSMC options chain shows big call wall at $500 strike ahead of earnings (TSM:NYSE); confirmar o número no texto antes de repassar'
 Fonte: Seeking Alpha 14/10 16h09
-id: E05-TSM-e15bbed444-2026-10-14 · status: pendente
+id: E05-TSM-e15bbed444-2026-10-14 · status: entregue
 
 [ATENÇÃO] E05 · GFS · Japan to invest $21 billion in up to two GlobalFoundries chip factories in New York
 Reuters · 14/10 16h03 · fonte única · licença: manchete
@@ -32,7 +84,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: GFS
 Como falar: 'saiu no Reuters: Japan to invest $21 billion in up to two GlobalFoundries chip factories in New York; confirmar o número no texto antes de repassar'
 Fonte: Reuters 14/10 16h03
-id: E05-GFS-5c66e2e723-2026-10-14 · status: pendente
+id: E05-GFS-5c66e2e723-2026-10-14 · status: entregue
 
 [ATENÇÃO] E05 · PLTR · Palantir’s Earnings Gamble: Nine Straight Beats Set High Bar for Q3 Results
 Yahoo Finance · 14/10 10h00 · fonte única · licença: resumo
@@ -48,7 +100,7 @@ Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; 
 Ativos: PLTR
 Como falar: 'saiu no Yahoo Finance: Palantir’s Earnings Gamble: Nine Straight Beats Set High Bar for Q3 Results; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 14/10 10h00
-id: E05-PLTR-b0fa5c4b7d-2026-10-14 · status: pendente
+id: E05-PLTR-b0fa5c4b7d-2026-10-14 · status: entregue
 
 [ATENÇÃO] E05 · BAC · Bank of America Shares Slide 8% on Record OCC Fine and Trading Miss
 Yahoo Finance · 14/10 13h58 · fonte única · licença: resumo
@@ -231,8 +283,22 @@ Fonte: Yahoo Finance 14/10 01h58
 id: E05-BAC-327b54562b-2026-10-14 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (117)
+## OUTRAS NOTÍCIAS (só manchete) (131)
 
+· USDBRL Dólar à vista fecha em alta de 0,14%, a R$5,0298 na venda Por Reuters (Investing.com) https://br.investing.com/news/forex-news/dolar-a-vista-fecha-em-alta-de-014-a-r50298-na-venda-2091975
+· USDBRL Dólar tem leve alta e fecha a R$ 5,02 com inflação dos EUA ‘mais forte’ que o esperado (Money Times) https://www.moneytimes.com.br/dolar-14-10-26-lils/
+· UST US Treasury yields fall after reversing inflation-led selloff (Investing.com) https://www.investing.com/news/stock-market-news/us-treasury-yields-fall-after-reversing-inflationled-selloff-93CH-4949903
+· DI Reserva de emergência: onde investir com inflação e Selic altas (Exame) https://exame.com/invest/onde-investir/onde-guardar-reserva-emergencia-inflacao-selic/
+· VALE3 Vale notifica ex-conselheiro por vazamento e publicações e ameaça processá-lo até em 'âmbito criminal' (O Globo) https://oglobo.globo.com/economia/negocios/noticia/2026/10/14/vale-notifica-ex-conselheiro-por-vazamento-e-publicacoes-e-ameaca-processa-lo-ate-em-ambito-criminal.ghtml
+· NVDA Nvidia Talked Up Generative AI 2 Weeks Before ChatGPT. The Clues Hold Up. (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/nvidia-talked-generative-ai-2-193902085.html
+· VALE3 Vale: nova frota do Trem de Carajás promete dobrar capacidade de passageiros (ADVFN) https://br.advfn.com/jornal/2026/10/vale-nova-frota-do-trem-de-carajas-promete-dobrar-capacidade-de-passageiros
+· MU Micron Stocks Fall 3.2% Although Musk Backs Its Memory Pricing (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:e65b73627094b:0-micron-stocks-fall-3-2-although-musk-backs-its-memory-pricing/
+· BAC Bank of America Q3 Earnings Call Highlights (Yahoo Finance) https://news.google.com/rss/articles/CBMimgFBVV95cUxQejVBSzBYUmUyTkNycE9qalNCb1dlTHVvNGFJWnJqckQ4cm9fRjdDV1BoQlg1S1UxR28xVDA4anU4S1V1S3h2TDJOcFNodktkSFRXRnY2dW4yZnNoaE03U25ZY0dHQ1JudW15NnJUV0RQaW5FbExicENPRWNMUkNCUy1QZ0xSMEVibUc4b2FwbFNzOVhLVFBxaXZR?oc=5
+· KO Coca-Cola Bottling Co. Consolidated (COKE) stock price, news, quote and history (Yahoo Finance) https://news.google.com/rss/articles/CBMiUkFVX3lxTE1XRjFfSXRzTzJGQk5iOGdzdXJsbjBpM0JIckZiVXhuR0F0SU9sUXA1QV9MTFQtbjdrREc0dVpHUTl4UF9MbVluWnBGcllvR094Mnc?oc=5
+· AVGO Broadcom is The Steady Hand The Market Keeps Discounting (Yahoo Finance) https://news.google.com/rss/articles/CBMinwFBVV95cUxQWG5HNlZKSlpkSGp5QVg4WWxUelI4WlpsekJ0QzZERENVbmg0YTFPcDhwX210OFJieG9ucTBiUFJuLUNZYlVqdExvN3VWLUt6MENkMzhQdi1GV3ZnNS05NVZFSDhtQXpLTTVfbVQtLWFlYmtMUlUtd1dWTHZ1a1JvWUoxRjRId3huZnRWTUhzZjJNQmJBWHFGUWNBbHRGZDg?oc=5
+· BRENT Dólar sobe a R$ 5,05 e Bolsa cai, com política, petróleo e EUA no radar (UOL Economia) https://news.google.com/rss/articles/CBMiswFBVV95cUxNTkcyN1VxeUpMZnVobDhqb2lFczdRMUVtMklLeWVxeTkzZUVuTDVoWHVqeHR0NUtFYTVtVlFjZTRwRnEtazk0NGFJV2JaMm42T1NYNnIyWmtrWjFhV0xjbmdlc0RXV1BzNXlsdTVoM3RwTjJYWmdPWXh1LUlDUnRyUHJyVkdLTkJMT1lucnlKS2pVa0dxSVhPaERWQmo4WjU4eVp2Tl84YnljWFhBb1dYLVMwbw?oc=5
+· MU Micron: Buy The China Panic (NASDAQ:MU) (Seeking Alpha) https://news.google.com/rss/articles/CBMidkFVX3lxTFBRMHdhaG5DZWozZ3JvRWdmSFpMVmV5dzh4R0N2Zy1Fc1phOGJSdHlXRnBiV3lleS1QTXh5RUpZbjA3MF9CLXZ1VW9rRUVMWi1kNHhwS1RJcXRXdjBpaU9nTldCQUVOdlQyX2V4SVhBSUhqX0xDQUE?oc=5
+· AMD Advanced Micro Devices, Inc. (AMD) stock price, news, quote and history (Yahoo Finance) https://news.google.com/rss/articles/CBMiUEFVX3lxTE9Lc0JSZ21LRGhCZVF2clYwZms4eTF0TzFIdXJpSXVfUHgtSHhhQmk0ZlpDT29QQ2dqQ0daYTBNNHlwNjV2Rk1QNnZ0QndZMW5x?oc=5
 · TSM TSMC Stocks Fall Nearly 2.5% as Thursday's Earnings Test AI Growth Beyond September (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:5e1237a7f094b:0-tsmc-stocks-fall-nearly-2-5-as-thursday-s-earnings-test-ai-growth-beyond-september/
 · BAC Bank of America hired 1,000 contractors to patch software flaws exposed by Anthropic's Mythos (CNBC) https://www.cnbc.com/2026/10/14/anthropic-mythos-bank-of-america-hiring-cost.html
 · MU Elon Musk Backs Micron As MU Stock Falls 25%: Is This Memory ETF an AI Stock Bargain? (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:67e406d70094b:0-elon-musk-backs-micron-as-mu-stock-falls-25-is-this-memory-etf-an-ai-stock-bargain/
@@ -279,18 +345,4 @@ id: E05-BAC-327b54562b-2026-10-14 · status: linha
 · INTC Qualcomm Vs. Intel: The Market is Refuting Both AI Rebrand Attempts (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/qualcomm-vs-intel-market-refuting-144552291.html
 · PLTR Palantir and London mayor's office settle lawsuit over UK police contract (TradingView (Reuters)) https://www.tradingview.com/news/reuters.com,2026:newsml_L8N4601HL:0-palantir-and-london-mayor-s-office-settle-lawsuit-over-uk-police-contract/
 · BRENT Bitcoin price dips below $82K as high oil prices spike US CPI inflation (TradingView (Reuters)) https://www.tradingview.com/news/cointelegraph:06a7ad22e094b:0-bitcoin-price-dips-below-82k-as-high-oil-prices-spike-us-cpi-inflation/
-· AMD Advanced Micro Devices Stock Surges 183% YTD: Time to Hold or Exit? (TradingView (Reuters)) https://www.tradingview.com/news/zacks:59d42d363094b:0-advanced-micro-devices-stock-surges-183-ytd-time-to-hold-or-exit/
-· JPM JPMorgan Q3 Earnings Call Highlights Capital Deployment and AI Risks (TradingView (Reuters)) https://www.tradingview.com/news/zacks:35ef3b044094b:0-jpmorgan-q3-earnings-call-highlights-capital-deployment-and-ai-risks/
-· USDBRL Dólar opera em alta, com foco em inflação americana e cenário político brasileiro; Ibovespa cai (g1) https://g1.globo.com/economia/noticia/2026/10/14/dolar-ibovespa.ghtml
-· GOOGL Not Microsoft. Not Alphabet. Here's the Cloud Giant I'm Most Bullish About. (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/not-microsoft-not-alphabet-heres-154300976.html
-· PLTR Palantir Settles Suit With London Mayor Over Scrapped Policing Contract (Bloomberg) https://www.bloomberg.com/news/articles/2026-10-14/palantir-settles-suit-with-london-mayor-over-scrapped-policing-contract
-· USDBRL Ibovespa amplia perdas com inflação nos EUA e eleição no radar; dólar sobe (Exame) https://exame.com/invest/mercados/ibovespa-amplia-perdas-com-inflacao-nos-eua-e-eleicao-no-radar-dolar-sobe/
-· UST 10-year Treasury yield rises following hot inflation data: AlphaCheck (Yahoo Finance) https://finance.yahoo.com/markets/article/10-year-treasury-yield-rises-following-hot-inflation-data-alphacheck-135815482.html
-· PETR4 Acordo com sócias renderá US$ 859 milhões à Petrobras (UOL Economia) https://megawhat.uol.com.br/economia-e-politica/empresas/acordo-com-socias-rendera-us-859-milhoes-a-petrobras/
-· GOOGL Google Is Turning Scientific AI Into a European Cloud Growth Strategy (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:e9469ac6a094b:0-google-is-turning-scientific-ai-into-a-european-cloud-growth-strategy/
-· BAC Bank of America Settlement Charge Hits Profit, Morgan Stanley Profit Climbs (The Wall Street Journal) https://www.wsj.com/business/earnings/bank-of-america-settlement-charge-hits-profit-morgan-stanley-profit-climbs-d9cde716
-· NVDA Is AMD Even a Real Threat to Nvidia or Just a Pricing Lever? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/amd-even-real-threat-nvidia-111558585.html
-· LITE The Long-Term Investment Case for Lumentum (LITE) (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/long-term-investment-case-lumentum-150332467.html
-· BAC Bank of America Stock Drops After Q3 Earnings Miss (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:d320d24a3094b:0-bank-of-america-stock-drops-after-q3-earnings-miss/
-· BAC Watch CNBC’s full interview with Bank of America CEO Brian Moynihan (CNBC) https://www.cnbc.com/video/2026/10/14/watch-cnbcas-full-interview-with-bank-of-america-ceo-brian-moynihan.html
-· (+57 manchetes; lista completa em eventos/noticias.json)
+· (+71 manchetes; lista completa em eventos/noticias.json)
