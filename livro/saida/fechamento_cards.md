@@ -1,4 +1,4 @@
-## Fechamento do livro · ter 13/10 · 18h12 BRT
+## Fechamento do livro · ter 13/10 · 21h15 BRT
 
 ---
 
@@ -27,7 +27,7 @@
 
 ### Destaques do dia
 
-**Altas** META +2,6% · AMD +1,9% (fechou na máxima) · PETR4 +1,5% (fechou na máxima · máxima de 52 semanas) · INTC +1,4% (fechou na máxima) · CVX +1,3%
+**Altas** META +2,6% · ETH +2,6% · BTC +1,9% · AMD +1,9% (fechou na máxima) · PETR4 +1,5% (fechou na máxima · máxima de 52 semanas)
 **Baixas** SAPR4 -7,9% (fechou na mínima) · RARA11 -4,9% (vol 2,8x) · MRVE3 -4,3% (vol 2,0x) · MU -3,6% (fechou na máxima) · SMAL11 -3,4% (vol 1,5x)
 
 ---
@@ -39,7 +39,7 @@
 | **SAPR4** | -7,9% | descolou do setor (energia e saneamento -3,1% (mediana), DI F35 +23 bps; -4,8 p.p. da mediana); Comunicado ao Mercado na CVM: Outros Comunicados Não Considerados Fatos Relevantes; investigar antes de comentar | sem causa no dado |
 | **RARA11** | -4,9% | investigar antes de comentar | sem causa no dado |
 | **MRVE3** | -4,3% | descolou do setor (construtoras de baixa renda -3,0% (mediana), DI F30 +24 bps; -1,3 p.p. da mediana); investigar antes de comentar | sem causa no dado |
-| **MU** | -3,6% | descolou do setor (semicondutores (eua) +0,8% (mediana), SOX -0,2%; -4,5 p.p. da mediana); notícia a conferir (Seeking Alpha): Micron Technology adds to recent weakness, slips another 4% (MU:NASDAQ) | notícia (conferir) |
+| **MU** | -3,6% | descolou do setor (semicondutores (eua) +0,8% (mediana), SOX -0,2%; -4,5 p.p. da mediana); notícia a conferir (TradingView (Reuters)): Micron Technology, HPE, and AMD lead technology quant picks ahead of Q3 earnings | notícia (conferir) |
 | **SMAL11** | -3,4% | notícia a conferir (InfoMoney): Ibovespa na máxima e small caps com alta de 20%: o que os analistas veem agora | notícia (conferir) |
 | **GFS** | -3,4% | descolou do setor (semicondutores (eua) +0,8% (mediana), SOX -0,2%; -4,2 p.p. da mediana); investigar antes de comentar | sem causa no dado |
 | **SBSP3** | -3,2% | andou com o setor: energia e saneamento -3,1% (mediana), DI F35 +23 bps | setorial |
@@ -197,13 +197,13 @@ Nomes completos: **QNTM** VanEck Quantum Computing UCITS ETF USD (Acc) · **QANT
 | Ativo | últ | dia | 1 sem | 1 mês | 3 m | 6 m | 1 ano | YTD | 5 anos |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | **USDBRL** Dolar/Real | 5,0218 | **+0,7** | +1,0 | -2,0 | -2,4 | +0,5 | -9,1 | -8,3 | -8,0 |
-| **DXY** Indice Dolar DXY | 102,20 | **-0,4** | +0,4 | +3,1 | +1,2 | +4,2 | +3,0 | +4,0 | +8,8 |
-| **BRENT** Petroleo Brent | 106,36 | **-0,3** | +5,7 | +1,7 | +26 | +12 | +68 | +75 | +25 |
-| **BTC** Bitcoin _(parcial)_ | 83.324 | **+1,9** | -2,6 | +8,4 | +28 | +12 | -28 | -4,8 | +35 |
-| **ETH** Ethereum _(parcial)_ | 2.507 | **+2,6** | -7,1 | +1,2 | +33 | +7,9 | -41 | -15 | -35 |
+| **DXY** Indice Dolar DXY _(dia 12/10)_ | 102,58 | **+0,4** | +0,4 | +3,5 | +1,3 | +4,3 | +3,6 | +4,4 | +9,2 |
+| **BRENT** Petroleo Brent _(dia 12/10)_ | 106,65 | **+1,8** | +6,3 | +2,0 | +28 | +7,3 | +70 | +75 | +26 |
+| **BTC** Bitcoin | 83.324 | **+1,9** | -2,6 | +8,4 | +28 | +12 | -28 | -4,8 | +35 |
+| **ETH** Ethereum | 2.507 | **+2,6** | -7,1 | +1,2 | +33 | +7,9 | -41 | -15 | -35 |
 | **MINERIO** Minerio de ferro 62% Fe CFR China _(D-1, 12/10)_ | 90,83 | **+0,2** | -0,7 | -7,3 | -7,6 | -15 | -14 | -15 | -26 |
 
-**Brent em reais:** R$ 534,12 por barril (13/10) · dia +0,4% · 1 mês -0,3% · no ano +60% (Brent do 1º vencimento × dólar).
+**Brent em reais:** a confirmar (Brent sem fechamento confirmado).
 
 ---
 
@@ -211,11 +211,11 @@ Nomes completos: **QNTM** VanEck Quantum Computing UCITS ETF USD (Acc) · **QANT
 
 | Referência | US$/t | dia | 1 sem | 1 mês | leitura |
 |---|---:|---:|---:|---:|---|
-| **Celulose fibra longa** | 637 | +0,2 | -1,8 | - | 13/10 |
-| **Minerio de ferro Dalian** | 89 | -0,9 | -3,6 | - | 13/10 |
+| **Celulose fibra longa** | 636 | +0,1 | -1,9 | - | 13/10 |
+| **Minerio de ferro Dalian** | 89 | -1,1 | -3,8 | - | 13/10 |
 
-- **Celulose fibra longa**: futuro SP da SHFE (fibra longa) em CNY/t, sem o IVA de 13%; nao e preco de lista NBSK · CNY/t 4.810 a USD/CNY 6,68 = US$ 720/t com IVA
-- **Minerio de ferro Dalian**: futuro da DCE em CNY/t, sem o IVA de 13%; o CFR 62% em US$ e a linha MINERIO · CNY/t 675 a USD/CNY 6,68 = US$ 101/t com IVA
+- **Celulose fibra longa**: futuro SP da SHFE (fibra longa) em CNY/t, sem o IVA de 13%; nao e preco de lista NBSK · CNY/t 4.810 a USD/CNY 6,69 = US$ 719/t com IVA
+- **Minerio de ferro Dalian**: futuro da DCE em CNY/t, sem o IVA de 13%; o CFR 62% em US$ e a linha MINERIO · CNY/t 675 a USD/CNY 6,69 = US$ 101/t com IVA
 
 ---
 
@@ -252,12 +252,14 @@ Inflação implícita 2029 5,33% · 2032 5,52% · 2031/32 (descasado) 5,44% · F
 
 2s10s +42 bps (-2 no dia)
 
-**Regime** VIX 15,3 (+0,4%) · score de risco 1 de 6 · **regime de vol LIGADO**
+**Regime** VIX 15,3 (+0,4%) · score de risco 1 de 5 · **regime de vol LIGADO**
 
 ---
 
-### Notícias e fatos · 23
+### Notícias e fatos · 24
 
+- **BBDC4** Comunicado ao Mercado: Recebeu, em 12 de outubro de 2026, notificação da BlackRock, Inc (“BlackRock”), anexa ao presente, informando aquisição de participação acionária rel… (CVM · 13/10) [abrir a fonte](https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1576899)
+  *Por que importa:* comunicado ao mercado costuma responder a noticia ou a oficio; confirma ou nega o que circula
 - **MACRO** Focus de 09/10: IPCA: 2026 5,22% (+21 bps) · 2027 4,30% (-0 bps) (Focus · 09/10)
   *Por que importa:* a mediana do Focus é a régua do Copom; mudança de 10 bps no IPCA ou 25 bps na Selic muda a leitura da curva
 - **PETR4** Fato Relevante: Assinou com as empresas Shell, TotalEnergies e Petrogal, parceiras do Consórcio BM-S-11A, os Acordos de Equalização de Gastos e Volumes (AEGVs) de Be… (CVM · 13/10) [abrir a fonte](https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1576827)
@@ -330,8 +332,8 @@ Inflação implícita 2029 5,33% · 2032 5,52% · 2031/32 (descasado) 5,44% · F
 
 ### Como ler
 
-**Relógios:** Yahoo 18h12 · DI ajuste D0 · Tesouro base 09/10 · UST CMT D0 · PTAX 13/10
-**Lacunas:** nenhuma perna falhou.
+**Relógios:** Yahoo 21h15 · DI ajuste D0 · Tesouro base 09/10 · UST CMT D0 · PTAX 13/10
+**Lacunas:** DXY sem barra de 13/10 (última 12/10); BRENT sem barra de 13/10 (última 12/10); DXY: barra de 13/10 é o início da sessão seguinte (última cotação 20:05 de Nova York); barra descartada, fica a de 12/10; BRENT: barra de 13/10 é o início da sessão seguinte (última cotação 20:05 de Nova York); barra descartada, fica a de 12/10.
 **IUAA:** NAO e renda fixa ultracurta: cai ~6% a cada +100 bps na curva. Ler junto com UST 10y/30y. Caixa em dolar e o IB01.
 **Hipótese:** **EWY** iShares MSCI South Korea ETF · **MCHI** iShares MSCI China ETF — ETFs dos EUA, a confirmar.
 Minério: proxy Dalian 675 CNY/t (2026-10-13).

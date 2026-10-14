@@ -1,4 +1,4 @@
-ALERTAS · eventos
+ALERTAS · Fechamento 18h
 
 (pendente de slot anterior) [CRÍTICO] T05 · 2 ativos: SAPR4, RARA11
 · SAPR4 -7,9% no dia a R$ 7,97: movimento de 3,0 desvios para uma vol de 20 dias de 43% a.a.
@@ -74,7 +74,7 @@ Como falar: 'saiu no Yahoo Finance: Coca-Cola or Chevron: The One Dividend Stock
 Fonte: Yahoo Finance 13/10 17h02
 ids: E05-KO-051407d826-2026-10-13
 
-[ATENÇÃO] E03 · BBDC4 · Comunicado ao Mercado: Recebeu, em 12 de outubro de 2026, notificação da BlackRock, Inc (“BlackRock”), anexa ao presente, informando aquisição de participação acionária rel…
+(pendente de slot anterior) [ATENÇÃO] E03 · BBDC4 · Comunicado ao Mercado: Recebeu, em 12 de outubro de 2026, notificação da BlackRock, Inc (“BlackRock”), anexa ao presente, informando aquisição de participação acionária rel…
 CVM · entregue 13/10/2026 18:46 · Aquisição/Alienação de Participação Acionária Relevante / Declaração de Aquisição de Participação Acionária Relevante
 Do documento:
   – 3 Permanecemos à disposição para quaisquer esclarecimentos ou comentários adicionais que julguem  necessários quanto ao assunto.
@@ -83,24 +83,16 @@ Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; 
 Ativos: BBDC4
 Como falar: 'a Bradesco publicou comunicado ao mercado sobre Recebeu, em 12 de outubro de 2026, notificação da BlackRock, Inc (“Bl…'
 Fonte: CVM 13/10
-Push: [ATENÇÃO] BBDC4 · Comunicado ao Mercado · detalhe na sessão
 ids: E03-BBDC4-1576899-2026-10-13
 
 Info (só linha no Fechamento):
 · E03 PETR4 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
-· E05 USDBRL · Ibovespa cai e dólar sobe a R$5,02 com pesquisas eleitorais no radar
-· E05 BBDC4 · BlackRock amplia fatia no Bradesco e passa a deter mais de 10% das ações preferenciais
-· E05 NVDA · Nvidia in 5 Years: Where the Stock Could Be Headed
-· E05 DI · Vencedores e vencidos pelos juros: o mapa do BTG para a sua carteira com a Selic menor
-· E05 USDBRL · Dólar sobe 0,74% e volta a fechar acima de R$ 5
-· E05 PETR4 · PetroReconcavo (RECV3) aprova aditivos de contratos com Petrobras (PETR4) e acordo de venda de gás para a Shell
-· E05 PETR4 · Petrobras (PETR4) recebe valor milionário ligado a jazidas de Berbigão e Sururu; veja valor
-· E05 BRENT · OPEC Sees Oil Demand Growth Surging to 2.6 Million Bpd in 2027
-· E05 AXIA3 · Axia (AXIA3) divulga detalhes sobre 5º resgate de ações preferenciais classe C; confira
-· E05 GOOGL · Broadcom Stocks Drop as Its Google-Infrastructure Thesis Faces a Revenue Test
-· E05 PLTR · Palantir Stocks Fall as Baird Lifts Its AI Target
-· E05 BAC · Bank of America fined $1.2 billion over money-laundering violations
-· E05 BTC · Tom Lee Says Ethereum’s Years-Long Slide Against Bitcoin Is Ending. Ethereum Lost Another 4.6% to Bitcoin in a Week.
+· E05 PLTR · CrowdStrike vs. Palantir Technologies: What Revenue Trends Tell Investors About These High-Growth Tech Companies
+· E05 BAC · Bank of America’s $1.2 Billion in Fines Will Weigh on Earnings
+· E05 GOOGL · Alphabet Stocks Rise as a $352 Billion AI Forecast Raises Cash Questions
+· E05 TSM · TSMC Stocks Slip as Thursday's Earnings Put AI Margins Under Scrutiny
+· E05 BTC · Bitcoin Is Worth $105,000, Mark Yusko Says—But It'll Take Time
+· E05 MU · Micron Technology, HPE, and AMD lead technology quant picks ahead of Q3 earnings
 · C01 A curva ABRIU: F28 +17 bps no dia · F29 +22 bps no dia · F30 +24 bps no dia (ajuste B3 13/10)
 · C02 Inclinação da curva DI: F35-F28 -25 bps em 5 pregões · F30-F28 -20 bps em 5 pregões
 · C03 DI em nível: F32 cruzou 12,50% (para cima, agora 12,54%) · F35 cruzou 12,50% (para cima, agora 12,58%)
@@ -113,8 +105,8 @@ Info (só linha no Fechamento):
 Suprimidos pelo teto (viram linha do Fechamento): C01-DI-abriu-2026-10-13 (teto de atenção), C02-DI-inclinacao-2026-10-13 (teto de atenção), C03-DI-di-2026-10-13 (teto de atenção), T01-WQTM-perda-2026-10-13 (teto de atenção), T01-KLBN4-perda-2026-10-13 (teto de atenção), T04-RARA11-minima-2026-10-13 (teto de atenção), T09-SMAL11-queda-2026-10-13 (teto de atenção), T09-RARA11-queda-2026-10-13 (teto de atenção)
 
 Alertas do dia (todos, com status):
-· pendente  T05 SAPR4 — SAPR4 -7,9% no dia a R$ 7,97: movimento de 3,0 desvios para uma vol de 20 dias d
-· pendente  T08 QNTM — QNTM entrou em bear técnico: -21% do pico de 52s (US$ 34,65 em 02/06) a US$ 27,3
+· expirado  T05 SAPR4 — SAPR4 -7,9% no dia a R$ 7,97: movimento de 3,0 desvios para uma vol de 20 dias d
+· expirado  T08 QNTM — QNTM entrou em bear técnico: -21% do pico de 52s (US$ 34,65 em 02/06) a US$ 27,3
 · pendente  E03 BBDC4 — BBDC4 · Comunicado ao Mercado: Recebeu, em 12 de outubro de 2026, notificação da
 · linha     C01 DI — A curva ABRIU: F28 +17 bps no dia · F29 +22 bps no dia · F30 +24 bps no dia (aju
 · linha     C02 DI — Inclinação da curva DI: F35-F28 -25 bps em 5 pregões · F30-F28 -20 bps em 5 preg
@@ -122,14 +114,14 @@ Alertas do dia (todos, com status):
 · linha     T01 WQTM — WQTM fechou abaixo da média de 200 dias pela 1ª sessão: US$ 34,82 vs MM200 US$ 3
 · linha     T01 KLBN4 — KLBN4 fechou abaixo da média de 200 dias pela 2ª sessão: R$ 3,64 vs MM200 R$ 3,6
 · linha     T04 RARA11 — RARA11 fechou na mínima da série de 60 sessões: R$ 12,92, -20% em 1m e - em 12m
-· pendente  T05 RARA11 — RARA11 -4,9% no dia a R$ 12,92: movimento de 3,4 desvios para uma vol de 20 dias
-· pendente  T08 SAPR4 — SAPR4 entrou em correção: -12% do pico de 52s (R$ 9,08 em 28/01) a R$ 7,97
+· expirado  T05 RARA11 — RARA11 -4,9% no dia a R$ 12,92: movimento de 3,4 desvios para uma vol de 20 dias
+· expirado  T08 SAPR4 — SAPR4 entrou em correção: -12% do pico de 52s (R$ 9,08 em 28/01) a R$ 7,97
 · linha     T09 SMAL11 — SMAL11 -3,4% com volume 2,7x a mediana de 20 sessões, a R$ 134,99
 · linha     T09 RARA11 — RARA11 -4,9% com volume 2,8x a mediana de 20 sessões, a R$ 12,92
-· pendente  M03 MACRO — Focus de 09/10: IPCA: 2026 5,22% (+21 bps) · 2027 4,30% (-0 bps)
-· pendente  E03 PETR4 — PETR4 · Fato Relevante: Assinou com as empresas Shell, TotalEnergies e Petrogal,
-· pendente  E05 MELI34 — MELI34 · Mercado Livre (MELI34): Citi corta preço-alvo, mas vê melhora nas marge
-· pendente  E05 KO — KO · Coca-Cola or Chevron: The One Dividend Stock I’d Hold for the Next 20 Years
+· expirado  M03 MACRO — Focus de 09/10: IPCA: 2026 5,22% (+21 bps) · 2027 4,30% (-0 bps)
+· expirado  E03 PETR4 — PETR4 · Fato Relevante: Assinou com as empresas Shell, TotalEnergies e Petrogal,
+· expirado  E05 MELI34 — MELI34 · Mercado Livre (MELI34): Citi corta preço-alvo, mas vê melhora nas marge
+· expirado  E05 KO — KO · Coca-Cola or Chevron: The One Dividend Stock I’d Hold for the Next 20 Years
 · entregue  E05 JPM — JPM · Prediction: JPMorgan Chase Raises Its Dividend Again in 2027
 · entregue  E05 ETH — ETH · Ethereum Needs to Double to Reach $4,946 Again. XRP Needs 2.6x to Hit $3.6
 · entregue  E05 NVDA — NVDA · Nvidia (NVDA) or Apple (AAPL): Which Is the Better Bet on Dan Ives’ $4 Tr
@@ -160,4 +152,4 @@ Alertas do dia (todos, com status):
 · linha     T12 SMH — SMH: 6 quedas seguidas (-7,2% acumulado) a US$ 588,12
 · linha     T12 RARA11 — RARA11: 6 quedas seguidas (-13% acumulado) a R$ 12,92
 · linha     F01 USDBRL — Real cai: USD/BRL 5,0218 (cruzou R$ 5,00) (parcial, intradia)
-· (+156 notícias só manchete, em noticias.md)
+· (+163 notícias só manchete, em noticias.md)

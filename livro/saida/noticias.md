@@ -1,8 +1,8 @@
-NOTÍCIAS E FATOS · 13/10 20h41
+NOTÍCIAS E FATOS · 13/10 21h15
 
-Pernas: noticias ok 13 novas (18 consultas; descartadas: 456 veículo fora da lista, 29 sem ativo, 3 teto) · cvm ok 2 novos de 6 (5 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 6 novas (18 consultas; descartadas: 450 veículo fora da lista, 31 sem ativo, 0 teto) · cvm ok 1 novos de 7 (5 cias casadas) · sec ok 0 novos em 3 dias
 
-## FATOS RELEVANTES E COMUNICADOS (CVM) (6)
+## FATOS RELEVANTES E COMUNICADOS (CVM) (7)
 
 [ATENÇÃO] E03 · BBDC4 · Comunicado ao Mercado: Recebeu, em 12 de outubro de 2026, notificação da BlackRock, Inc (“BlackRock”), anexa ao presente, informando aquisição de participação acionária rel…
 CVM · entregue 13/10/2026 18:46 · Aquisição/Alienação de Participação Acionária Relevante / Declaração de Aquisição de Participação Acionária Relevante
@@ -26,7 +26,7 @@ Por que importa: fato relevante e o que a propria companhia julga capaz de mover
 Ativos: PETR4
 Como falar: 'a Petrobras publicou fato relevante sobre Assinou com as empresas Shell, TotalEnergies e Petrogal, parceiras do…'
 Fonte: CVM 13/10
-id: E03-PETR4-1576827-2026-10-13 · status: pendente · íntegra disponível
+id: E03-PETR4-1576827-2026-10-13 · status: expirado · íntegra disponível
 
 [ATENÇÃO] E03 · ALUP4 · Comunicado ao Mercado: ALUP11; ALUP3; ALUP4), comunica aos seus acionistas e ao mercado em geral que, nos termos do artigo 12 da Resolução da Comissão de Valores Mobiliário…
 CVM · entregue 13/10/2026 09:21 · Aquisição/Alienação de Participação Acionária Relevante / Declaração de Aquisição de Participação Acionária Relevante
@@ -38,6 +38,15 @@ Ativos: ALUP4
 Como falar: 'a Alupar publicou comunicado ao mercado sobre ALUP11; ALUP3; ALUP4), comunica aos seus acionistas e ao mercado em g…'
 Fonte: CVM 13/10
 id: E03-ALUP4-1576536-2026-10-13 · status: entregue · íntegra disponível
+
+[INFO] E03 · PETR4 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
+CVM · entregue 13/10/2026 20:49 · Outros Comunicados Não Considerados Fatos Relevantes
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1576933
+Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; confirma ou nega o que circula
+Ativos: PETR4
+Como falar: 'a Petrobras publicou comunicado ao mercado sobre Outros Comunicados Não Considerados Fatos Relevantes'
+Fonte: CVM 13/10
+id: E03-PETR4-1576933-2026-10-13 · status: linha
 
 [INFO] E03 · PETR4 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
 CVM · entregue 13/10/2026 20:25 · Outros Comunicados Não Considerados Fatos Relevantes
@@ -117,7 +126,7 @@ Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais
 Ativos: MELI34
 Como falar: 'saiu no Suno Noticias: Mercado Livre (MELI34): Citi corta preço-alvo, mas vê melhora nas margens; vale comprar?; confirmar o número no texto antes de repassar'
 Fonte: Suno Noticias 13/10 17h45
-id: E05-MELI34-75667e17d6-2026-10-13 · status: pendente
+id: E05-MELI34-75667e17d6-2026-10-13 · status: expirado
 
 [ATENÇÃO] E05 · KO · Coca-Cola or Chevron: The One Dividend Stock I’d Hold for the Next 20 Years
 Yahoo Finance · 13/10 17h02 · fonte única · licença: resumo
@@ -133,7 +142,7 @@ Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir
 Ativos: KO · CVX
 Como falar: 'saiu no Yahoo Finance: Coca-Cola or Chevron: The One Dividend Stock I’d Hold for the Next 20 Years; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 13/10 17h02
-id: E05-KO-051407d826-2026-10-13 · status: pendente
+id: E05-KO-051407d826-2026-10-13 · status: expirado
 
 [ATENÇÃO] E05 · JPM · Prediction: JPMorgan Chase Raises Its Dividend Again in 2027
 Yahoo Finance · 13/10 16h50 · fonte única · licença: resumo
@@ -358,8 +367,14 @@ Fonte: TradingView (Reuters) 12/10 11h41
 id: E05-PLTR-e002d7e14c-2026-10-12 · status: entregue
 
 
-## OUTRAS NOTÍCIAS (só manchete) (147)
+## OUTRAS NOTÍCIAS (só manchete) (153)
 
+· PLTR CrowdStrike vs. Palantir Technologies: What Revenue Trends Tell Investors About These High-Growth Tech Companies (Yahoo Finance) https://finance.yahoo.com/technology/articles/crowdstrike-vs-palantir-technologies-revenue-235549445.html
+· BAC Bank of America’s $1.2 Billion in Fines Will Weigh on Earnings (Barron's) https://www.barrons.com/articles/bank-of-america-stock-money-laundering-fine-2b5b4eda
+· GOOGL Alphabet Stocks Rise as a $352 Billion AI Forecast Raises Cash Questions (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:25d21ea0f094b:0-alphabet-stocks-rise-as-a-352-billion-ai-forecast-raises-cash-questions/
+· TSM TSMC Stocks Slip as Thursday's Earnings Put AI Margins Under Scrutiny (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:e38cc08b1094b:0-tsmc-stocks-slip-as-thursday-s-earnings-put-ai-margins-under-scrutiny/
+· BTC Bitcoin Is Worth $105,000, Mark Yusko Says—But It'll Take Time (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:7fdce6f5b094b:0-bitcoin-is-worth-105-000-mark-yusko-says-but-it-ll-take-time/
+· MU Micron Technology, HPE, and AMD lead technology quant picks ahead of Q3 earnings (TradingView (Reuters)) https://fr.tradingview.com/news/seekingalpha:93c0f152c094b:0-micron-technology-hpe-and-amd-lead-technology-quant-picks-ahead-of-q3-earnings/
 · USDBRL Ibovespa cai e dólar sobe a R$5,02 com pesquisas eleitorais no radar (TradingView (Reuters)) https://br.tradingview.com/news/reuters.com,2026:newsml_L1N45Z15K:0/
 · BBDC4 BlackRock amplia fatia no Bradesco e passa a deter mais de 10% das ações preferenciais (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/blackrock-amplia-fatia-no-bradesco-e-passa-a-deter-mais-de-10-das-acoes-preferenciais/
 · NVDA Nvidia in 5 Years: Where the Stock Could Be Headed (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/nvidia-5-years-where-stock-222600294.html
@@ -414,10 +429,4 @@ id: E05-PLTR-e002d7e14c-2026-10-12 · status: entregue
 · AXIA3 Axia Energia (AXIA7) Previsões, Preço-Alvo e Projeções de Analistas (ADVFN) https://br.advfn.com/bolsa-de-valores/bovespa/axia-energia-pnc-AXIA7/previsoes
 · BTC Super League buys its first Bitcoin for $83,041 ahead of Metaplanet deal (TradingView (Reuters)) https://www.tradingview.com/news/cryptobriefing:8b1d90ea4094b:0-super-league-buys-its-first-bitcoin-for-83-041-ahead-of-metaplanet-deal/
 · MU China’s CXMT and Broadcom’s CEO Rattle Chip Stocks: Which Fear Matters More for Micron? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/china-cxmt-broadcom-ceo-rattle-173756730.html
-· JPM Goldman and JPMorgan Earnings: Bank Bosses Are Too Optimistic About the AI Boom (Bloomberg) https://www.bloomberg.com/opinion/articles/2026-10-13/goldman-and-jpmorgan-earnings-bank-bosses-are-too-optimistic-about-the-ai-boom
-· JPM Jamie Dimon says JPMorgan Chase is putting up gates to protect against 'rogue agents' (Yahoo Finance) https://uk.finance.yahoo.com/news/jamie-dimon-says-jpmorgan-chase-171529068.html
-· LITE Coherent Stock Falls Nearly 8% as Ciena and Lumentum Drop About 10%. Here’s Where the Stock Could Go by 2031 (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/coherent-stock-falls-nearly-8-165354917.html
-· UST The 10-year Treasury yield falls as energy prices stabilize (CNBC) https://www.cnbc.com/2026/10/13/us-treasurys-bonds-yields.html
-· BTC Bitcoin price stalls near $88K as selling pressure slows (TradingView (Reuters)) https://www.tradingview.com/news/cryptobriefing:a6d11e076094b:0-bitcoin-price-stalls-near-88k-as-selling-pressure-slows/
-· JPM JPMorgan Chase earnings analysis: questions answered and next catalysts (Investing.com) https://www.investing.com/news/stock-market-news/jpmorgan-chase-earnings-analysis-questions-answered-and-next-catalysts-93CH-4947286
-· (+87 manchetes; lista completa em eventos/noticias.json)
+· (+93 manchetes; lista completa em eventos/noticias.json)

@@ -1,16 +1,22 @@
 BLOCO A
 ```
-FECHAMENTO DO LIVRO · ter 13/10 · 18h12 BRT
-Relógios: Yahoo 18h12 · DI ajuste D0 · Tesouro base
+FECHAMENTO DO LIVRO · ter 13/10 · 21h15 BRT
+Relógios: Yahoo 21h15 · DI ajuste D0 · Tesouro base
   09/10 · UST CMT D0 · PTAX 13/10
 
-ALERTAS DO DIA (46 · 2 críticos)
+ALERTAS DO DIA (47 · 2 críticos)
 [CRÍTICO] T05 SAPR4 -7,9% no dia a R$ 7,97:
           movimento de 3,0 desvios para uma vol de
           20 dias de 43% a.a.
 [CRÍTICO] T08 QNTM entrou em bear técnico: -21% do
           pico de 52s (US$ 34,65 em 02/06) a US$
           27,35
+[ATENÇÃO] E03 BBDC4 · Comunicado ao Mercado:
+          Recebeu, em 12 de outubro de 2026,
+          notificação da BlackRock, Inc
+          (“BlackRock”), anexa ao presente,
+          informando aquisição de participação
+          acionária rel…
 [ATENÇÃO] C01 A curva ABRIU: F28 +17 bps no dia ·
           F29 +22 bps no dia · F30 +24 bps no dia
           (ajuste B3 13/10)
@@ -26,17 +32,19 @@ ALERTAS DO DIA (46 · 2 críticos)
 [ATENÇÃO] T01 KLBN4 fechou abaixo da média de 200
           dias pela 2ª sessão: R$ 3,64 vs MM200 R$
           3,67 (-0,8%)
-[ATENÇÃO] T04 RARA11 fechou na mínima da série de 60
-          sessões: R$ 12,92, -20% em 1m e - em 12m
-(+38 em alertas.md)
+(+39 em alertas.md)
 
-ALTAS  META +2,6% · AMD +1,9% · PETR4 +1,5% · INTC
-       +1,4% · CVX +1,3%
+ALTAS  META +2,6% · ETH +2,6% · BTC +1,9% · AMD
+       +1,9% · PETR4 +1,5%
 BAIXAS SAPR4 -7,9% · RARA11 -4,9% · MRVE3 -4,3% · MU
        -3,6% · SMAL11 -3,4%
 
-NOTÍCIAS E FATOS (23 com materialidade ·
+NOTÍCIAS E FATOS (24 com materialidade ·
   noticias.md)
+· BBDC4 Comunicado ao Mercado: Recebeu, em 12 de
+  outubro de 2026, notificação da BlackRock, Inc
+  (“BlackRock”), anexa ao presente, informando
+  aquisição de participação acionária rel… (CVM)
 · MACRO Focus de 09/10: IPCA: 2026 5,22% (+21 bps) ·
   2027 4,30% (-0 bps) (Focus)
 · PETR4 Fato Relevante: Assinou com as empresas
@@ -50,10 +58,7 @@ NOTÍCIAS E FATOS (23 com materialidade ·
   I’d Hold for the Next 20 Years (Yahoo Finance)
 · JPM Prediction: JPMorgan Chase Raises Its Dividend
   Again in 2027 (Yahoo Finance)
-· ETH Ethereum Needs to Double to Reach $4,946
-  Again. XRP Needs 2.6x to Hit $3.65. Which All-Time
-  High Gets Broken First? (Yahoo Finance)
-  (+17)
+  (+18)
 
 CURVAS · taxa (Δ bps)
 DI (D0, Δ dia·sem bps) F28 12,70 (+17·+4) F29 12,44
@@ -69,7 +74,7 @@ TD (base 09/10, Δ desde 08/10) Pre 2029 12,30 (-23)
     (descasado) 5,44% vs Focus IPCA 2027 4,30%
 UST (D0) 2y 4,79 (-1) · 10y 5,21 (-3) · 30y 5,56
     (-4) · 2s10s +42 (-2)
-Regime: VIX 15,3 (+0,4%) · score risco 1 de 6 ·
+Regime: VIX 15,3 (+0,4%) · score risco 1 de 5 ·
     regime de vol LIGADO
 
 LEITURA DA MESA
@@ -94,7 +99,14 @@ qua 21/10 resultado TSLA (Yahoo, estimado)
 qui 22/10 resultado NOK (madrugada, estimado)
 sex 23/10 resultado CVX (antes de NY, estimado)
 
-LACUNAS: nenhuma perna falhou.
+LACUNAS: DXY sem barra de 13/10 (última 12/10);
+  BRENT sem barra de 13/10 (última 12/10); DXY:
+  barra de 13/10 é o início da sessão seguinte
+  (última cotação 20:05 de Nova York); barra
+  descartada, fica a de 12/10; BRENT: barra de 13/10
+  é o início da sessão seguinte (última cotação
+  20:05 de Nova York); barra descartada, fica a de
+  12/10.
 Fontes: Yahoo Finance · B3 Boletim Diário · Tesouro
   Transparente · Treasury.gov CMT · BCB
 ```
@@ -178,10 +190,10 @@ MRVE3  MRV        7,48 -4,3  +17  +30 -5,4  +20 -4,0
 CURY3  Cury      33,57 -2,8 +9,0 +5,5 -4,3  +24 +9,5
 Macro
 USDBRL USD/BRL  5,0218 +0,7 +1,0 -2,0 +0,5 -9,1 -8,3
-DXY    DXY      102,20 -0,4 +0,4 +3,1 +4,2 +3,0 +4,0
-BRENT  Brent    106,36 -0,3 +5,7 +1,7  +12  +68  +75
-BTC*   BTC      83.324 +1,9 -2,6 +8,4  +12  -28 -4,8
-ETH*   ETH       2.507 +2,6 -7,1 +1,2 +7,9  -41  -15
+DXY*   DXY      102,58 +0,4 +0,4 +3,5 +4,3 +3,6 +4,4
+BRENT* Brent    106,65 +1,8 +6,3 +2,0 +7,3  +70  +75
+BTC    BTC      83.324 +1,9 -2,6 +8,4  +12  -28 -4,8
+ETH    ETH       2.507 +2,6 -7,1 +1,2 +7,9  -41  -15
 MINER* Minerio   90,83 +0,2 -0,7 -7,3  -15  -14  -15
 ```
 UCITS por extenso: VWRA Vanguard FTSE All-World
