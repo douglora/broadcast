@@ -1,7 +1,7 @@
 # Boletim da B3: pregão de 09/10/2026 (sexta)
 
-**Situação: COMPLETO.** Boletim atrasado pela B3 em 2026-10-13 15:18 (hora de Brasília).
-Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10-13T18:30:59Z (UTC).
+**Situação: COMPLETO.** Boletim publicado pela B3 em 2026-10-13 16:02 (hora de Brasília).
+Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10-14T00:52:23Z (UTC).
 
 [[LEITURA_DA_MESA]]
 
@@ -340,3 +340,5 @@ Por classe, mediana das taxas de referência dos papéis. Taxa de referência: n
 - Fluxo por tipo de investidor sai acumulado no mês e com dois pregões de atraso; o saldo de um dia é a diferença entre dois acumulados seguidos.
 - RARA11: a B3 não publica valor de referência da cota (IOPV) para este ETF no boletim.
 - Paridade de MELI34: sem a barra de 09/10 de MELI nas séries do livro.
+
+Boletim completo em PDF (B3): https://arquivos.b3.com.br/bdi/download/bdi/2026-10-09/BDI_00_20261009.pdf

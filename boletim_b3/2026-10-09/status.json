@@ -1,11 +1,11 @@
 {
  "pregao": "2026-10-09",
- "situacao": "atrasado",
+ "situacao": "publicado",
  "errata": false,
- "atualizado_em": "2026-10-13T15:18:51.763",
+ "atualizado_em": "2026-10-13T16:02:23",
  "completo": {
-  "arquivo": "",
-  "pdf": ""
+  "arquivo": "BDI_00_20261009.pdf",
+  "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-10-09/BDI_00_20261009.pdf"
  },
  "cadernos": [
   {
@@ -82,11 +82,11 @@
    "id": 34,
    "nome": "Derivativos de bolsa",
    "pai": 3,
-   "situacao": "",
+   "situacao": "publicado",
    "errata": false,
-   "atualizado_em": "2026-10-13T15:10:51.093",
-   "arquivo": "",
-   "pdf": ""
+   "atualizado_em": "2026-10-13T16:10:25.1",
+   "arquivo": "BDI_03-4_20261009.pdf",
+   "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-10-09/BDI_03-4_20261009.pdf"
   },
   {
    "id": 41,

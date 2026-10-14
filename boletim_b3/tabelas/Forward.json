@@ -1,19 +1,19 @@
 {
- "pregao": "2026-10-09",
+ "pregao": "2026-10-13",
  "nome": "Forward",
  "titulo": "Ações mais negociadas - a termo",
  "sla": "8:00:00",
  "paginas": 1,
  "colunas": [{"nome": "TckrSymb", "titulo": "Ação"}, {"nome": "Cod", "titulo": "Código"}, {"nome": "Term", "titulo": "Prazo"}, {"nome": "Closing", "titulo": ""}, {"nome": "TradQty", "titulo": ""}, {"nome": "VlmTradedDay", "titulo": "Volume (R$) mil"}, {"nome": "Part", "titulo": "Participação (%)"}],
  "texto": ["Lista ações com maior volume de negociação em contratos a termo, destacando as mais ativas."],
- "situacao": "republicado",
- "atualizado_em": "2026-10-10T04:42:01.173",
+ "situacao": "publicado",
+ "atualizado_em": "2026-10-13T18:52:20.24",
  "truncada": false,
  "linhas": [
-  ["STONE CO    DRN", "DRN", 31, 61.85, 16000, 989.6, 0.6056304707830613],
-  ["ITAUUNIBANCOPN  EJ  N1", "PN  EJ  N1", 31, 50.77, 20000, 1015.4000000000001, 0.7570380884788267],
-  ["INVESTOUTIL CI", "CI", 31, 146.94, 42000, 6171.48, 1.589779985805536],
-  ["EVEN        ON      NM", "ON      NM", 360, 7.05, 130000, 916.5, 4.920747575112372],
-  ["PAGSEGURO   DRN", "DRN", 31, 11.24, 825000, 9273, 31.227821149751595]
+  ["FII XP MALLSCI", "CI", 63, 108.79, 30000, 3263.7, 0.48928849624030724],
+  ["ISHARES SMALCI", "CI", 62, 141.44, 30250, 4278.56, 0.49336590037564315],
+  ["SAO MARTINHOON      NM", "ON      NM", 62, 22.11, 150000, 3316.5, 2.446442481201536],
+  ["MOTIVA SA   ON      NM", "ON      NM", 59, 20.8, 565000, 11752, 9.214933345859121],
+  ["VIBRA       ON      NM", "ON      NM", 30, 36.6, 800000, 29280, 13.047693233074861]
  ]
 }
