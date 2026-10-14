@@ -1,6 +1,25 @@
-NOTÍCIAS E FATOS · 14/10 17h21
+NOTÍCIAS E FATOS · 14/10 18h13
 
-Pernas: noticias ok 19 novas (18 consultas; descartadas: 450 veículo fora da lista, 40 sem ativo, 4 teto) · cvm ok 0 novos de 0 (0 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 0 novas (18 consultas; descartadas: 0 veículo fora da lista, 0 sem ativo, 0 teto); 18 falhas · cvm ok 1 novos de 8 (6 cias casadas) · sec ok 0 novos em 3 dias
+
+## FATOS RELEVANTES E COMUNICADOS (CVM) (1)
+
+[ATENÇÃO] E03 · MRVE3 · Comunicado ao Mercado: MRVE3) Companhia disponibiliza ao mercado comunicado recebido pela para os fins do disposto no art. 12 da Instrução CVM nº 44/21, informando que rece…
+CVM · entregue 14/10/2026 18:00 · Aquisição/Alienação de Participação Acionária Relevante / Declaração de Alienação de Participação Acionária Relevante
+Do documento:
+  – A   M&G   informou que o conjunto de fundos de investimento e carteira sob gestão passou a deter  2 7.
+  – 122  ações  ,  equivalentes a   4, 90  %   da base acionária.
+  – ISIN: BRMRVEACNOR2  Number of Shares Held: 27,591,122  Percentage of Share Capital: 4.90%  Date Threshold Crossed: 13/10/2026    Please treat this correspondence as our formal notification of the relevant shareholding p…
+  – M&G  informed that the group of investment funds and managed portfolios  has  c o me to hold   2 7 , 591 , 122  shares  ,  representing   4.
+  – 90  %  of the share   capital  .
+  – ISIN: BRMRVEACNOR2  Number of Shares Held: 27,591,122  Percentage of Share Capital: 4.90%  Date Threshold Crossed: 13/10/2026    Please treat this correspondence as our formal notification of the relevant shareholding p…
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1577174
+Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; confirma ou nega o que circula
+Ativos: MRVE3
+Como falar: 'a MRV publicou comunicado ao mercado sobre MRVE3) Companhia disponibiliza ao mercado comunicado recebido pela pa…'
+Fonte: CVM 14/10
+id: E03-MRVE3-1577174-2026-10-14 · status: pendente · íntegra disponível
+
 
 ## SEC (8-K, 6-K, 10-Q, 10-K) (1)
 
@@ -23,7 +42,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: PETR4
 Como falar: 'saiu no Estadao: Petrobras (PETR4) bate novo recorde histórico de valor de mercado. O que fazer com as açõ…; confirmar o número no texto antes de repassar'
 Fonte: Estadao 14/10 16h48
-id: E05-PETR4-54ed2132dd-2026-10-14 · status: pendente
+id: E05-PETR4-54ed2132dd-2026-10-14 · status: entregue
 
 [ATENÇÃO] E05 · BAC · Bank of America Stocks Fall 7.14% as Earnings Reveal Costs Beyond the Settlement
 Yahoo Finance · 14/10 16h38 · fonte única · licença: resumo
@@ -39,7 +58,7 @@ Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; 
 Ativos: BAC
 Como falar: 'saiu no Yahoo Finance: Bank of America Stocks Fall 7.14% as Earnings Reveal Costs Beyond the Settlement; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 14/10 16h38
-id: E05-BAC-5a51d1cd24-2026-10-14 · status: pendente
+id: E05-BAC-5a51d1cd24-2026-10-14 · status: entregue
 
 [ATENÇÃO] E05 · BAC · Bank of America Stock Plunges After $1.2 Billion Fine and Q3 Earnings Miss
 TradingView (Reuters) · 14/10 16h30 · fonte única · licença: manchete
@@ -48,7 +67,7 @@ Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; 
 Ativos: BAC
 Como falar: 'saiu no TradingView (Reuters): Bank of America Stock Plunges After $1.2 Billion Fine and Q3 Earnings Miss; confirmar o número no texto antes de repassar'
 Fonte: TradingView (Reuters) 14/10 16h30
-id: E05-BAC-4ef65b4f8a-2026-10-14 · status: pendente
+id: E05-BAC-4ef65b4f8a-2026-10-14 · status: entregue
 
 [ATENÇÃO] E05 · PETR4 · Petrobras bate quarto recorde seguido e alcança marca histórica de R$ 800 bilhões na Bolsa
 Estadao · 14/10 15h35 · fonte única · licença: manchete
