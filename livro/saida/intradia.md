@@ -1,32 +1,63 @@
 ALERTAS · intradia
 
-(pendente de slot anterior) [ATENÇÃO] E05 · BAC · Bank of America Shares Slide 8% on Record OCC Fine and Trading Miss
-Yahoo Finance · 14/10 13h58 · fonte única · licença: resumo
+[ATENÇÃO] E05 · TSM · TSMC options chain shows big call wall at $500 strike ahead of earnings (TSM:NYSE)
+Seeking Alpha · 14/10 16h09 · fonte única · licença: manchete
+Link: https://seekingalpha.com/news/4653091-tsmc-options-chain-shows-big-call-wall-at-500-strike-ahead-of-earnings
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: TSM
+Como falar: 'saiu no Seeking Alpha: TSMC options chain shows big call wall at $500 strike ahead of earnings (TSM:NYSE); confirmar o número no texto antes de repassar'
+Fonte: Seeking Alpha 14/10 16h09
+Push: intradia: 3 alertas de atenção — E05 TSM, E05 GFS, E05 PLTR · detalhe na sessão
+ids: E05-TSM-e15bbed444-2026-10-14
+
+[ATENÇÃO] E05 · GFS · Japan to invest $21 billion in up to two GlobalFoundries chip factories in New York
+Reuters · 14/10 16h03 · fonte única · licença: manchete
+Link: https://www.reuters.com/business/retail-consumer/japan-invest-up-21-billion-two-us-chip-factories-be-run-by-globalfoundries-2026-10-14/
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: GFS
+Como falar: 'saiu no Reuters: Japan to invest $21 billion in up to two GlobalFoundries chip factories in New York; confirmar o número no texto antes de repassar'
+Fonte: Reuters 14/10 16h03
+ids: E05-GFS-5c66e2e723-2026-10-14
+
+[ATENÇÃO] E05 · PLTR · Palantir’s Earnings Gamble: Nine Straight Beats Set High Bar for Q3 Results
+Yahoo Finance · 14/10 10h00 · fonte única · licença: resumo
 Trechos (licença resumo: reescrever, não colar):
-  – Tell us how you invest and we'll show you why it's our #1 pick.
-  – Less than 15 hours before Bank of America reported, regulators hit it with $1.21 billion in fines for money laundering and sanctions violations, the biggest penalty the Office of the Comptroller of the Currency has ever…
-  – The fine knocked 17 cents off earnings, leaving EPS at 91 cents against $1.10 expected.
-  – Take the fine out and you get $1.08, which… still misses.
-  – Profit fell 17% to $6.93 billion.
-  – Revenue rose 3.2% to $30.12 billion, about $570 million short of estimates, and the shares fell as much as 8% Wednesday morning.
-Link: https://finance.yahoo.com/markets/stocks/articles/bank-america-shares-slide-8-165820683.html
-Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e prazo
-Ativos: BAC
-Como falar: 'saiu no Yahoo Finance: Bank of America Shares Slide 8% on Record OCC Fine and Trading Miss; confirmar o número no texto antes de repassar'
-Fonte: Yahoo Finance 14/10 13h58
-ids: E05-BAC-3e8cd3be4d-2026-10-14
+  – Quick Read - Palantir earns a HOLD at $213.38, with only 2.9% upside after a 24% monthly surge ahead of its November 2 earnings report.
+  – - Palantir's 85x forward P/E looks cheap beside Snowflake's 169x, especially paired with 93% revenue growth and a 47% operating margin.
+  – commercial growth creates a $267 bull case, but a multiple collapse risks a 36% drop to $133.
+  – price target for Palantir Technologies (NASDAQ:PLTR) is $213.38.
+  – That means 2.9% upside from the current price of $207.40.
+  – Palantir is expected to report third-quarter results on November 2, 2026, a date the company has yet to confirm.
+Link: https://finance.yahoo.com/markets/stocks/articles/palantir-earnings-gamble-nine-straight-130031334.html
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: PLTR
+Como falar: 'saiu no Yahoo Finance: Palantir’s Earnings Gamble: Nine Straight Beats Set High Bar for Q3 Results; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 14/10 10h00
+ids: E05-PLTR-b0fa5c4b7d-2026-10-14
 
 Info (só linha no Fechamento):
-· E05 USDBRL · Ouro cai com valorização do dólar e dos Treasuries após dado de inflação dos EUA
-· E05 INTC · Intel Stock Is Up 175%. Is the Turnaround Already Priced In?
-· E05 BAC · Update: Equities Fall Intraday as Traders Parse Inflation Data, Bank of America's Earnings Miss
-· E05 GOOGL · ALPHABET INC. (GOOGCL1.SN) Q2 FY2026 earnings call transcript
-· E05 ETH · Ethereum Price Prediction: ETH Poised to Make a Comeback as ETF Inflows Turn Positive
-· E05 DI · Juros futuros sobem após pesquisas apontarem empate entre Flávio e Lula
+· E05 TSM · TSMC Stocks Fall Nearly 2.5% as Thursday's Earnings Test AI Growth Beyond September
+· E05 BAC · Bank of America hired 1,000 contractors to patch software flaws exposed by Anthropic's Mythos
+· E05 MU · Elon Musk Backs Micron As MU Stock Falls 25%: Is This Memory ETF an AI Stock Bargain?
+· E05 LITE · Why is Lumentum stock sliding today? By Investing.com
+· E05 BAC · Why Bank of America (BAC) Shares Are Trading Lower Today
+· E05 BAC · Bank of America Took a $1.2 Billion Hit for the Wrong Reason
+· E05 BTC · Bitcoin Falls To $81K After Hotter-Than-Expected US Inflation Breaks BTC Below Tight Trading Range
+· E05 KO · Coca-Cola Consolidated, Inc. (COKE) stock price, news, quote and history
+· E05 BTC · Bitcoin falls below $82,000 as hotter core CPI revives Fed hike concerns
+· E05 PLTR · Is Palantir's AIP Platform Fueling Explosive U.S. Commercial Growth?
+· E05 NVDA · Is Nvidia Still the Best AI Stock to Buy in 2026, or Is This Challenger?
+· E05 CVX · Chevron (CVX) Stock Looks Reasonable With Cash Flow Value Above Price
+· E05 META · Meta Platforms: Muse Wonder Exposes The AI Trade's Biggest Disconnect (NASDAQ:META)
+· E05 BTC · Crypto Long & Short: Why gold and bitcoin belong in the same portfolio
 
 
 Alertas do dia (todos, com status):
-· pendente  E05 BAC — BAC · Bank of America Shares Slide 8% on Record OCC Fine and Trading Miss
+· pendente  E05 TSM — TSM · TSMC options chain shows big call wall at $500 strike ahead of earnings (T
+· pendente  E05 GFS — GFS · Japan to invest $21 billion in up to two GlobalFoundries chip factories in
+· pendente  E05 PLTR — PLTR · Palantir’s Earnings Gamble: Nine Straight Beats Set High Bar for Q3 Resul
+· entregue  E05 BAC — BAC · Bank of America Shares Slide 8% on Record OCC Fine and Trading Miss
+· linha     S01 SISTEMA — coleta do slot intradia saiu incompleta: bcb: BCB devolveu 4 de 5 séries (faltar
 · entregue  E05 BAC — BAC · Bank of America posts worst day since April 2025 after regulatory fine (BA
 · entregue  E05 BAC — BAC · Bank of America profits drop 17% after $1.2bn money laundering fine
 · entregue  E05 PLTR — PLTR · Palantir settles lawsuit with London mayor over police contract
@@ -44,5 +75,5 @@ Alertas do dia (todos, com status):
 · entregue  E05 MRVL — MRVL · Marvell: A $37.5 Billion Business Is Quietly Carrying The Growth Plan
 · entregue  S01 SISTEMA — coleta do slot manha saiu incompleta: bcb: BCB devolveu 4 de 5 séries (faltaram 
 · linha     F05 BHKP — Celulose (proxy SHFE, fibra longa) -3,7% na semana: 4.730 CNY/t (14/10)
-· (+107 notícias só manchete, em noticias.md)
+· (+121 notícias só manchete, em noticias.md)
 

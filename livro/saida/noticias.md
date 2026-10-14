@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 14/10 15h21
+NOTÍCIAS E FATOS · 14/10 16h21
 
-Pernas: noticias ok 6 novas (18 consultas; descartadas: 455 veículo fora da lista, 38 sem ativo, 0 teto) · cvm ok 0 novos de 7 (5 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 17 novas (18 consultas; descartadas: 435 veículo fora da lista, 42 sem ativo, 7 teto) · cvm ok 0 novos de 7 (5 cias casadas) · sec ok 0 novos em 3 dias
 
 ## SEC (8-K, 6-K, 10-Q, 10-K) (1)
 
@@ -14,7 +14,41 @@ Fonte: SEC EDGAR 2026-10-14
 id: E04-BAC-26000481-2026-10-14 · status: entregue · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (15)
+## NOTÍCIAS COM MATERIALIDADE (18)
+
+[ATENÇÃO] E05 · TSM · TSMC options chain shows big call wall at $500 strike ahead of earnings (TSM:NYSE)
+Seeking Alpha · 14/10 16h09 · fonte única · licença: manchete
+Link: https://seekingalpha.com/news/4653091-tsmc-options-chain-shows-big-call-wall-at-500-strike-ahead-of-earnings
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: TSM
+Como falar: 'saiu no Seeking Alpha: TSMC options chain shows big call wall at $500 strike ahead of earnings (TSM:NYSE); confirmar o número no texto antes de repassar'
+Fonte: Seeking Alpha 14/10 16h09
+id: E05-TSM-e15bbed444-2026-10-14 · status: pendente
+
+[ATENÇÃO] E05 · GFS · Japan to invest $21 billion in up to two GlobalFoundries chip factories in New York
+Reuters · 14/10 16h03 · fonte única · licença: manchete
+Link: https://www.reuters.com/business/retail-consumer/japan-invest-up-21-billion-two-us-chip-factories-be-run-by-globalfoundries-2026-10-14/
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: GFS
+Como falar: 'saiu no Reuters: Japan to invest $21 billion in up to two GlobalFoundries chip factories in New York; confirmar o número no texto antes de repassar'
+Fonte: Reuters 14/10 16h03
+id: E05-GFS-5c66e2e723-2026-10-14 · status: pendente
+
+[ATENÇÃO] E05 · PLTR · Palantir’s Earnings Gamble: Nine Straight Beats Set High Bar for Q3 Results
+Yahoo Finance · 14/10 10h00 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Quick Read - Palantir earns a HOLD at $213.38, with only 2.9% upside after a 24% monthly surge ahead of its November 2 earnings report.
+  – - Palantir's 85x forward P/E looks cheap beside Snowflake's 169x, especially paired with 93% revenue growth and a 47% operating margin.
+  – commercial growth creates a $267 bull case, but a multiple collapse risks a 36% drop to $133.
+  – price target for Palantir Technologies (NASDAQ:PLTR) is $213.38.
+  – That means 2.9% upside from the current price of $207.40.
+  – Palantir is expected to report third-quarter results on November 2, 2026, a date the company has yet to confirm.
+Link: https://finance.yahoo.com/markets/stocks/articles/palantir-earnings-gamble-nine-straight-130031334.html
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: PLTR
+Como falar: 'saiu no Yahoo Finance: Palantir’s Earnings Gamble: Nine Straight Beats Set High Bar for Q3 Results; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 14/10 10h00
+id: E05-PLTR-b0fa5c4b7d-2026-10-14 · status: pendente
 
 [ATENÇÃO] E05 · BAC · Bank of America Shares Slide 8% on Record OCC Fine and Trading Miss
 Yahoo Finance · 14/10 13h58 · fonte única · licença: resumo
@@ -30,7 +64,7 @@ Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e 
 Ativos: BAC
 Como falar: 'saiu no Yahoo Finance: Bank of America Shares Slide 8% on Record OCC Fine and Trading Miss; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 14/10 13h58
-id: E05-BAC-3e8cd3be4d-2026-10-14 · status: pendente
+id: E05-BAC-3e8cd3be4d-2026-10-14 · status: entregue
 
 [ATENÇÃO] E05 · BAC · Bank of America posts worst day since April 2025 after regulatory fine (BAC:NYSE)
 Seeking Alpha · 14/10 11h18 · fonte única · licença: manchete
@@ -197,8 +231,22 @@ Fonte: Yahoo Finance 14/10 01h58
 id: E05-BAC-327b54562b-2026-10-14 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (103)
+## OUTRAS NOTÍCIAS (só manchete) (117)
 
+· TSM TSMC Stocks Fall Nearly 2.5% as Thursday's Earnings Test AI Growth Beyond September (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:5e1237a7f094b:0-tsmc-stocks-fall-nearly-2-5-as-thursday-s-earnings-test-ai-growth-beyond-september/
+· BAC Bank of America hired 1,000 contractors to patch software flaws exposed by Anthropic's Mythos (CNBC) https://www.cnbc.com/2026/10/14/anthropic-mythos-bank-of-america-hiring-cost.html
+· MU Elon Musk Backs Micron As MU Stock Falls 25%: Is This Memory ETF an AI Stock Bargain? (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:67e406d70094b:0-elon-musk-backs-micron-as-mu-stock-falls-25-is-this-memory-etf-an-ai-stock-bargain/
+· LITE Why is Lumentum stock sliding today? By Investing.com (Investing.com) https://ng.investing.com/news/stock-market-news/why-is-lumentum-stock-sliding-today-93CH-2736568
+· BAC Why Bank of America (BAC) Shares Are Trading Lower Today (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/why-bank-america-bac-shares-173207265.html
+· BAC Bank of America Took a $1.2 Billion Hit for the Wrong Reason (Bloomberg) https://www.bloomberg.com/opinion/articles/2026-10-14/bank-of-america-took-a-1-2-billion-hit-for-the-wrong-reason
+· BTC Bitcoin Falls To $81K After Hotter-Than-Expected US Inflation Breaks BTC Below Tight Trading Range (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:ba56325a4094b:0-bitcoin-falls-to-81k-after-hotter-than-expected-us-inflation-breaks-btc-below-tight-trading-range/
+· KO Coca-Cola Consolidated, Inc. (COKE) stock price, news, quote and history (Yahoo Finance) https://au.finance.yahoo.com/quote/COKE/
+· BTC Bitcoin falls below $82,000 as hotter core CPI revives Fed hike concerns (The Block) https://www.theblock.co/news/markets/2026-10-14-bitcoin-falls-below-82000-core-inflation-fed-rate-hike-418582?utm_source=tradingview&utm_medium=rss
+· PLTR Is Palantir's AIP Platform Fueling Explosive U.S. Commercial Growth? (TradingView (Reuters)) https://www.tradingview.com/news/zacks:67d3bee6c094b:0-is-palantir-s-aip-platform-fueling-explosive-u-s-commercial-growth/
+· NVDA Is Nvidia Still the Best AI Stock to Buy in 2026, or Is This Challenger? (Yahoo Finance) https://news.google.com/rss/articles/CBMilgFBVV95cUxNY1RPVjdGRTM5RG8ySFFZdEhFcWpRWENISndTTGpDQzJJdGJGejNFY1QyY2NwUUlHNkRrUWtCd2dCMFZ4dlFnaXRvTG1uNkZwSVgwNXZWd3VGSTEyVTlWalJndjlDazJGNjhNNUtOaVE5UEhISmtrRl8wOUtsZFFyN2hPUGhpakdwRGJYUlkweGFGeEMyYnc?oc=5
+· CVX Chevron (CVX) Stock Looks Reasonable With Cash Flow Value Above Price (Yahoo Finance) https://news.google.com/rss/articles/CBMioAFBVV95cUxOQUxZM192cm9qTjB3WkdzYzZlTGNXdDRCWlQyXy1fbXR3d0lMR1pOZ2JWVDRxZ2NKaWpYbEs0amdKTW9FYXVVcVgwVk5tb0Z0Y05qWGwyd3dmQ3V0NUFqYmRaQlV5enZFazN1ZHlLaUYyRzVLV3k4U3BCOGRfYXpDcGR1aFFZX3VJN2VZOU5Gd1RtZDZlUGxHWDdDOXNFRzJX?oc=5
+· META Meta Platforms: Muse Wonder Exposes The AI Trade's Biggest Disconnect (NASDAQ:META) (Seeking Alpha) https://news.google.com/rss/articles/CBMiqwFBVV95cUxQNnl6WVlSV2RBbHVlZmNCZXFlbUtBQnppSnJTbXdSTTl2V1FhODQ0NWpfbXU0LWtiTVQ3RkhUMnRFcnpPZFVXZXViRjRwb0dlbjBITTRqTXlRSmNGYUhiWnJ0RW9yUVZIcDh4dnVBWi1VR0tPT0QxSlI3endxaU5NenZaNTIzV2J5STdRQ1VfbTF1NUt1OXlXZnVVNHo5clV5SWh2Y2RXN0dxZmc?oc=5
+· BTC Crypto Long & Short: Why gold and bitcoin belong in the same portfolio (CoinDesk) https://news.google.com/rss/articles/CBMiwgFBVV95cUxPV3dCLTI0Ml9fZ2UtUU41cWVvRXd2M001ajNpb0FaVFZvM0txRWliYVdDWWstTzNJUVkyb3VXLThzYTlxNFlSZkdiMUJSNVRfdlVfOC1pTWhCQTAyZXFVZWNDaU1lb1lsbUtzS2ZfZ3E2a0EzcENwTUMzaVJqVFVBNFB2OWFsYzBMZnJTVEFCNmU2QjFQWUU5cUpLc1hwSGQ1UHdqZEktT3pjTFZUZUtLRVRXWGpWcThCdXRWN0lPMnZQUQ?oc=5
 · USDBRL Ouro cai com valorização do dólar e dos Treasuries após dado de inflação dos EUA (Valor Economico) https://valor.globo.com/financas/noticia/2026/10/14/ouro-cai-com-valorizacao-do-dolar-e-dos-treasuries-apos-dado-de-inflacao-dos-eua.ghtml
 · INTC Intel Stock Is Up 175%. Is the Turnaround Already Priced In? (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:a6ab00b31094b:0-intel-stock-is-up-175-is-the-turnaround-already-priced-in/
 · BAC Update: Equities Fall Intraday as Traders Parse Inflation Data, Bank of America's Earnings Miss (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/equities-fall-intraday-traders-parse-175654183.html
@@ -245,18 +293,4 @@ id: E05-BAC-327b54562b-2026-10-14 · status: linha
 · LITE The Long-Term Investment Case for Lumentum (LITE) (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/long-term-investment-case-lumentum-150332467.html
 · BAC Bank of America Stock Drops After Q3 Earnings Miss (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:d320d24a3094b:0-bank-of-america-stock-drops-after-q3-earnings-miss/
 · BAC Watch CNBC’s full interview with Bank of America CEO Brian Moynihan (CNBC) https://www.cnbc.com/video/2026/10/14/watch-cnbcas-full-interview-with-bank-of-america-ceo-brian-moynihan.html
-· PETR4 Petrobras: produção de petróleo bate novo recorde e reforça tese de alta, diz BBI (InfoMoney) https://www.infomoney.com.br/mercados/petrobras-petr3-petr4-producao-de-petroleo-bate-novo-recorde-e-reforca-tese-de-alta-diz-bbi/
-· TSM History Says This Happens to Taiwan Semiconductor Stock After Oct. 15 (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/history-says-happens-taiwan-semiconductor-143432769.html
-· BTC Bitcoin's Demise Is Coming, And Strategy Is Not Ready (NASDAQ:MSTR) (Seeking Alpha) https://seekingalpha.com/article/4954039-bitcoins-demise-is-coming-and-strategy-is-not-ready
-· TSLA Tesla stock may move 5.1% on Oct. 21 earnings release (Investing.com) https://www.investing.com/news/stock-market-news/tesla-stock-may-move-51-on-oct-21-earnings-release-93CH-4949600
-· META Meta Platforms shares may move 4.9% on Oct. 21 earnings (Investing.com) https://www.investing.com/news/stock-market-news/meta-platforms-shares-may-move-49-on-oct-21-earnings-93CH-4949597
-· AVGO Broadcom: AI Demand Is Strong, But Is That Enough? (NASDAQ:AVGO) (Seeking Alpha) https://seekingalpha.com/article/4954102-broadcom-ai-demand-is-strong-but-is-that-enough
-· BAC Bank of America, Morgan Stanley, BlackRock: Key takeaways from bank earnings (Yahoo Finance) https://finance.yahoo.com/video/bank-america-morgan-stanley-blackrock-135100767.html
-· BRENT Dólar sobe a R$ 5,05 e Bolsa cai, política, petróleo e EUA no radar (UOL Economia) https://news.google.com/rss/articles/CBMiswFBVV95cUxNTkcyN1VxeUpMZnVobDhqb2lFczdRMUVtMklLeWVxeTkzZUVuTDVoWHVqeHR0NUtFYTVtVlFjZTRwRnEtazk0NGFJV2JaMm42T1NYNnIyWmtrWjFhV0xjbmdlc0RXV1BzNXlsdTVoM3RwTjJYWmdPWXh1LUlDUnRyUHJyVkdLTkJMT1lucnlKS2pVa0dxSVhPaERWQmo4WjU4eVp2Tl84YnljWFhBb1dYLVMwbw?oc=5
-· ETH 3 Warning Signs Stack Up Against Ethereum as Big Holders Sell (Yahoo Finance) https://news.google.com/rss/articles/CBMimgFBVV95cUxQdWV6WmVxQlRSLWNGTldmWWEtSkl6bXJETzFuelBZcmlKRWpiQXJ2WDN1ZFNrT0x1LUpCN25KLVRhejBZdm5qV091RHpDRTVUOU1NUmR0b2NEMlFsU245UUhDVW0yUnFOQ3RPOTlnRUcxZHp2a0pnTUswUGxwVGFRR1dNVHhWN3J2OW1MbGlEek1lMjFRUEhRMlJn?oc=5
-· AVGO Elon Musk Fires Back at Broadcom CEO Hock Tan's AI Investment Warning: 'No Crying in the Casino' (Yahoo Finance) https://news.google.com/rss/articles/CBMimAFBVV95cUxPclB6Yzl5WjNnYzNlaFcxZE9tSHhXdndFZDZJUi04TVpYUzNvWUktREY2WWtCSlJJWFBjbUl2cVZ5RXVmYjF2RmdicjN5dC0zSThVWjNLWUF3QWNSVXE0WVFlNHpQd3lWS3o1UlFaS3ZtOGtRejZnOEJMMHZNSEVBOXE2T21id25ZYUNiUFZ2bi1KUjg0WmpUZw?oc=5
-· JPM JPMorgan Q3 Earnings Call Highlights Capital Deployment and AI Risks (Yahoo Finance) https://news.google.com/rss/articles/CBMiowFBVV95cUxPWXV1bmk4VjAxWl9pb3Y2MzB4T2Vka3FkVXFYTXVCQjdZbl9MblFuaWpGeU1wNW1pU2hZVlF2a3RDd2tPdEJtZTQtaENFWExmWDByc0FBQi1FSjBPdXVMZkhfNG50dEVZS1ozbTlZNzJaQzRudmFSeGdoY3lJREF2OTYzUlEzNEZwWXo4ZTB0YXFjLWIxbl9DSGc3Z1FOU1FQMjE0?oc=5
-· GFS GLOBALFOUNDRIES Inc. (GFS) stock price, news, quote and history (Yahoo Finance) https://news.google.com/rss/articles/CBMiUEFVX3lxTE90WEU5TXEtSlpXRF9lM3BpNG9zcXZuLUl4MWZpWGJVRXNvOHpGTTdPU0FCN2R3WUhsaklkUGZ0aUV5SWNWWUwxOWYyY1NIa2Qz?oc=5
-· META Meta Platforms shares may move 4.9% on Oct. 21 earnings By Investing.com (Investing.com) https://uk.investing.com/news/stock-market-news/meta-platforms-shares-may-move-49-on-oct-21-earnings-93CH-4910430
-· GOOGL Google Shareholder Alert: Alphabet Inc. Securities Class Action Lawsuit - Investors With Losses May Contact Levi & Korsinsky (PR Newswire) https://www.prnewswire.com/news-releases/google-shareholder-alert-alphabet-inc-securities-class-action-lawsuit---investors-with-losses-may-contact-levi--korsinsky-302908228.html
-· (+43 manchetes; lista completa em eventos/noticias.json)
+· (+57 manchetes; lista completa em eventos/noticias.json)
