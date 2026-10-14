@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 14/10 11h22
+NOTÍCIAS E FATOS · 14/10 12h22
 
-Pernas: noticias ok 17 novas (18 consultas; descartadas: 456 veículo fora da lista, 30 sem ativo, 6 teto) · cvm ok 0 novos de 7 (5 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 18 novas (18 consultas; descartadas: 440 veículo fora da lista, 31 sem ativo, 7 teto) · cvm ok 0 novos de 0 (0 cias casadas) · sec ok 0 novos em 3 dias
 
 ## SEC (8-K, 6-K, 10-Q, 10-K) (1)
 
@@ -14,7 +14,48 @@ Fonte: SEC EDGAR 2026-10-14
 id: E04-BAC-26000481-2026-10-14 · status: entregue · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (9)
+## NOTÍCIAS COM MATERIALIDADE (12)
+
+[ATENÇÃO] E05 · PLTR · Palantir settles lawsuit with London mayor over police contract
+Investing.com · 14/10 11h36 · + Reuters · licença: manchete
+Link: https://www.investing.com/news/stock-market-news/palantir-settles-lawsuit-with-london-mayor-over-police-contract-4949629
+Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e prazo
+Ativos: PLTR
+Como falar: 'saiu no Investing.com: Palantir settles lawsuit with London mayor over police contract; confirmar o número no texto antes de repassar'
+Fonte: Investing.com 14/10 11h36
+id: E05-PLTR-c16e48e112-2026-10-14 · status: pendente
+
+[ATENÇÃO] E05 · BAC · Bank of America profits hit by $1.2 billion regulatory penalty despite higher interest income
+Yahoo Finance · 14/10 10h45 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Bank of America Corp (NYSE:BAC), the US banking group, reported third-quarter net income of $6.9 billion after booking a $1.2 billion regulatory penalty, although rising interest income and wealth management fees suppor…
+  – Net income fell from $8.3 billion a year earlier, while earnings per share dropped to 91 cents from $1.04, reflecting the cost of the settlement.
+  – Excluding the charge, adjusted net income reached $8.1 billion and adjusted earnings per share rose to $1.08, above the $1.04 reported in the same quarter last year.
+  – Revenue increased 3% year-on-year to $30 billion, supported by an 8% rise in net interest income to $16.4 billion as loan and deposit balances grew and fixed-rate assets repriced at higher rates.
+  – The regulatory charge followed consent orders announced on 13 October by US banking and financial crime authorities concerning aspects of the bank's anti-money laundering, Bank Secrecy Act and economic sanctions complia…
+  – Expenses rose to $19.7 billion from $17.3 billion, including the settlement charge, while the adjusted efficiency ratio improved the picture at 62%, compared with 60% a year earlier.
+Link: https://finance.yahoo.com/markets/stocks/articles/bank-america-profits-hit-1-134500075.html
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: BAC
+Como falar: 'saiu no Yahoo Finance: Bank of America profits hit by $1.2 billion regulatory penalty despite higher interest in…; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 14/10 10h45
+id: E05-BAC-60acad5e6b-2026-10-14 · status: pendente
+
+[ATENÇÃO] E05 · TSLA · Earnings Preview: Tesla (TSLA) Q3 Earnings Expected to Decline
+Yahoo Finance · 14/10 10h00 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Tesla (TSLA) is expected to deliver a year-over-year decline in earnings on lower revenues when it reports results for the quarter ended September 2026.
+  – The earnings report, which is expected to be released on October 21, might help the stock move higher if these key numbers are better than expectations.
+  – Zacks Consensus Estimate This electric car maker is expected to post quarterly earnings of $0.43 per share in its upcoming report, which represents a year-over-year change of -14%.
+  – Revenues are expected to be $27.79 billion, down 1.1% from the year-ago quarter.
+  – Estimate Revisions Trend The consensus EPS estimate for the quarter has been revised 11.91% lower over the last 30 days to the current level.
+  – A positive Earnings ESP is a strong predictor of an earnings beat, particularly when combined with a Zacks Rank #1 (Strong Buy), 2 (Buy) or 3 (Hold).
+Link: https://sg.finance.yahoo.com/news/earnings-preview-tesla-tsla-q3-130013020.html
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: TSLA
+Como falar: 'saiu no Yahoo Finance: Earnings Preview: Tesla (TSLA) Q3 Earnings Expected to Decline; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 14/10 10h00
+id: E05-TSLA-35c0fb51d2-2026-10-14 · status: pendente
 
 [ATENÇÃO] E05 · BAC · Bank Of America’s Financial Results Miss Targets Due To $1.2 Billion Fine
 TradingView (Reuters) · 14/10 10h51 · fonte única · licença: manchete
@@ -23,7 +64,7 @@ Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e 
 Ativos: BAC
 Como falar: 'saiu no TradingView (Reuters): Bank Of America’s Financial Results Miss Targets Due To $1.2 Billion Fine; confirmar o número no texto antes de repassar'
 Fonte: TradingView (Reuters) 14/10 10h51
-id: E05-BAC-e533d0a564-2026-10-14 · status: pendente
+id: E05-BAC-e533d0a564-2026-10-14 · status: entregue
 
 [ATENÇÃO] E05 · BAC · Bank of America Third-Quarter Earnings Unexpectedly Decline Amid $1.2 Billion Treasury Fine
 Yahoo Finance · 14/10 10h01 · + TradingView (Reuters) · licença: resumo
@@ -35,7 +76,7 @@ Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; 
 Ativos: BAC · UST
 Como falar: 'saiu no Yahoo Finance: Bank of America Third-Quarter Earnings Unexpectedly Decline Amid $1.2 Billion Treasury Fi…; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 14/10 10h01
-id: E05-BAC-c4465f8b11-2026-10-14 · status: pendente
+id: E05-BAC-c4465f8b11-2026-10-14 · status: entregue
 
 [ATENÇÃO] E05 · BAC · Bank of America profit hurt by $1.2 billion fine over anti-money laundering shortcomings
 Reuters · 14/10 08h15 · + MarketWatch · licença: manchete
@@ -122,8 +163,23 @@ Fonte: Yahoo Finance 14/10 01h58
 id: E05-BAC-327b54562b-2026-10-14 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (45)
+## OUTRAS NOTÍCIAS (só manchete) (60)
 
+· LITE The Long-Term Investment Case for Lumentum (LITE) (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/long-term-investment-case-lumentum-150332467.html
+· BAC Bank of America Stock Drops After Q3 Earnings Miss (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:d320d24a3094b:0-bank-of-america-stock-drops-after-q3-earnings-miss/
+· BAC Watch CNBC’s full interview with Bank of America CEO Brian Moynihan (CNBC) https://www.cnbc.com/video/2026/10/14/watch-cnbcas-full-interview-with-bank-of-america-ceo-brian-moynihan.html
+· PETR4 Petrobras: produção de petróleo bate novo recorde e reforça tese de alta, diz BBI (InfoMoney) https://www.infomoney.com.br/mercados/petrobras-petr3-petr4-producao-de-petroleo-bate-novo-recorde-e-reforca-tese-de-alta-diz-bbi/
+· TSM History Says This Happens to Taiwan Semiconductor Stock After Oct. 15 (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/history-says-happens-taiwan-semiconductor-143432769.html
+· BTC Bitcoin's Demise Is Coming, And Strategy Is Not Ready (NASDAQ:MSTR) (Seeking Alpha) https://seekingalpha.com/article/4954039-bitcoins-demise-is-coming-and-strategy-is-not-ready
+· TSLA Tesla stock may move 5.1% on Oct. 21 earnings release (Investing.com) https://www.investing.com/news/stock-market-news/tesla-stock-may-move-51-on-oct-21-earnings-release-93CH-4949600
+· META Meta Platforms shares may move 4.9% on Oct. 21 earnings (Investing.com) https://www.investing.com/news/stock-market-news/meta-platforms-shares-may-move-49-on-oct-21-earnings-93CH-4949597
+· AVGO Broadcom: AI Demand Is Strong, But Is That Enough? (NASDAQ:AVGO) (Seeking Alpha) https://seekingalpha.com/article/4954102-broadcom-ai-demand-is-strong-but-is-that-enough
+· BAC Bank of America, Morgan Stanley, BlackRock: Key takeaways from bank earnings (Yahoo Finance) https://finance.yahoo.com/video/bank-america-morgan-stanley-blackrock-135100767.html
+· BRENT Dólar sobe a R$ 5,05 e Bolsa cai, política, petróleo e EUA no radar (UOL Economia) https://news.google.com/rss/articles/CBMiswFBVV95cUxNTkcyN1VxeUpMZnVobDhqb2lFczdRMUVtMklLeWVxeTkzZUVuTDVoWHVqeHR0NUtFYTVtVlFjZTRwRnEtazk0NGFJV2JaMm42T1NYNnIyWmtrWjFhV0xjbmdlc0RXV1BzNXlsdTVoM3RwTjJYWmdPWXh1LUlDUnRyUHJyVkdLTkJMT1lucnlKS2pVa0dxSVhPaERWQmo4WjU4eVp2Tl84YnljWFhBb1dYLVMwbw?oc=5
+· ETH 3 Warning Signs Stack Up Against Ethereum as Big Holders Sell (Yahoo Finance) https://news.google.com/rss/articles/CBMimgFBVV95cUxQdWV6WmVxQlRSLWNGTldmWWEtSkl6bXJETzFuelBZcmlKRWpiQXJ2WDN1ZFNrT0x1LUpCN25KLVRhejBZdm5qV091RHpDRTVUOU1NUmR0b2NEMlFsU245UUhDVW0yUnFOQ3RPOTlnRUcxZHp2a0pnTUswUGxwVGFRR1dNVHhWN3J2OW1MbGlEek1lMjFRUEhRMlJn?oc=5
+· AVGO Elon Musk Fires Back at Broadcom CEO Hock Tan's AI Investment Warning: 'No Crying in the Casino' (Yahoo Finance) https://news.google.com/rss/articles/CBMimAFBVV95cUxPclB6Yzl5WjNnYzNlaFcxZE9tSHhXdndFZDZJUi04TVpYUzNvWUktREY2WWtCSlJJWFBjbUl2cVZ5RXVmYjF2RmdicjN5dC0zSThVWjNLWUF3QWNSVXE0WVFlNHpQd3lWS3o1UlFaS3ZtOGtRejZnOEJMMHZNSEVBOXE2T21id25ZYUNiUFZ2bi1KUjg0WmpUZw?oc=5
+· JPM JPMorgan Q3 Earnings Call Highlights Capital Deployment and AI Risks (Yahoo Finance) https://news.google.com/rss/articles/CBMiowFBVV95cUxPWXV1bmk4VjAxWl9pb3Y2MzB4T2Vka3FkVXFYTXVCQjdZbl9MblFuaWpGeU1wNW1pU2hZVlF2a3RDd2tPdEJtZTQtaENFWExmWDByc0FBQi1FSjBPdXVMZkhfNG50dEVZS1ozbTlZNzJaQzRudmFSeGdoY3lJREF2OTYzUlEzNEZwWXo4ZTB0YXFjLWIxbl9DSGc3Z1FOU1FQMjE0?oc=5
+· GFS GLOBALFOUNDRIES Inc. (GFS) stock price, news, quote and history (Yahoo Finance) https://news.google.com/rss/articles/CBMiUEFVX3lxTE90WEU5TXEtSlpXRF9lM3BpNG9zcXZuLUl4MWZpWGJVRXNvOHpGTTdPU0FCN2R3WUhsaklkUGZ0aUV5SWNWWUwxOWYyY1NIa2Qz?oc=5
 · META Meta Platforms shares may move 4.9% on Oct. 21 earnings By Investing.com (Investing.com) https://uk.investing.com/news/stock-market-news/meta-platforms-shares-may-move-49-on-oct-21-earnings-93CH-4910430
 · GOOGL Google Shareholder Alert: Alphabet Inc. Securities Class Action Lawsuit - Investors With Losses May Contact Levi & Korsinsky (PR Newswire) https://www.prnewswire.com/news-releases/google-shareholder-alert-alphabet-inc-securities-class-action-lawsuit---investors-with-losses-may-contact-levi--korsinsky-302908228.html
 · UST 10-year Treasury yield rises following hot inflation data: AlphaCheck (Yahoo Finance) https://sg.finance.yahoo.com/news/10-year-treasury-yield-rises-following-hot-inflation-data-alphacheck-135815482.html
