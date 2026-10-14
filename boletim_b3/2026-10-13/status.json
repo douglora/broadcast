@@ -1,8 +1,8 @@
 {
  "pregao": "2026-10-13",
- "situacao": "publicando",
+ "situacao": "atrasado",
  "errata": false,
- "atualizado_em": "2026-10-14T02:15:38.09",
+ "atualizado_em": "2026-10-14T08:44:05.053",
  "completo": {
   "arquivo": "",
   "pdf": ""
@@ -12,9 +12,9 @@
    "id": 1,
    "nome": "Renda fixa",
    "pai": null,
-   "situacao": "publicando",
-   "errata": false,
-   "atualizado_em": "2026-10-14T01:33:30.617",
+   "situacao": "publicado",
+   "errata": true,
+   "atualizado_em": "2026-10-14T08:06:54.063",
    "arquivo": "",
    "pdf": ""
   },
@@ -42,11 +42,11 @@
    "id": 2,
    "nome": "Indicadores e informativos",
    "pai": 20,
-   "situacao": "republicado",
-   "errata": false,
-   "atualizado_em": "2026-10-14T02:15:38.09",
-   "arquivo": "BDI_02_20261013.pdf",
-   "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-10-13/BDI_02_20261013.pdf"
+   "situacao": "publicado",
+   "errata": true,
+   "atualizado_em": "2026-10-14T08:44:05.053",
+   "arquivo": "",
+   "pdf": ""
   },
   {
    "id": 23,
@@ -54,7 +54,7 @@
    "pai": 20,
    "situacao": "republicado",
    "errata": false,
-   "atualizado_em": "2026-10-14T00:15:38.093",
+   "atualizado_em": "2026-10-14T03:35:38.143",
    "arquivo": "BDI_02-3_20261013.pdf",
    "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-10-13/BDI_02-3_20261013.pdf"
   },
@@ -72,19 +72,19 @@
    "id": 33,
    "nome": "Derivativos de balcão",
    "pai": 3,
-   "situacao": "publicando",
+   "situacao": "publicado",
    "errata": false,
-   "atualizado_em": "2026-10-14T01:22:49.08",
-   "arquivo": "",
-   "pdf": ""
+   "atualizado_em": "2026-10-14T07:55:38.187",
+   "arquivo": "BDI_03-3_20261013.pdf",
+   "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-10-13/BDI_03-3_20261013.pdf"
   },
   {
    "id": 34,
    "nome": "Derivativos de bolsa",
    "pai": 3,
-   "situacao": "publicando",
+   "situacao": "",
    "errata": false,
-   "atualizado_em": "2026-10-14T01:33:41.657",
+   "atualizado_em": "2026-10-14T08:49:03.153",
    "arquivo": "",
    "pdf": ""
   },
@@ -92,19 +92,19 @@
    "id": 41,
    "nome": "Clearing e depositária",
    "pai": 4,
-   "situacao": "publicando",
+   "situacao": "publicado",
    "errata": false,
-   "atualizado_em": "2026-10-13T21:21:03.5",
-   "arquivo": "",
-   "pdf": ""
+   "atualizado_em": "2026-10-14T08:18:05.12",
+   "arquivo": "BDI_04-1_20261013.pdf",
+   "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-10-13/BDI_04-1_20261013.pdf"
   },
   {
    "id": 42,
    "nome": "Empréstimos de ativos",
    "pai": 4,
-   "situacao": "publicado",
+   "situacao": "republicado",
    "errata": false,
-   "atualizado_em": "2026-10-13T00:00:38.007",
+   "atualizado_em": "2026-10-14T04:45:38.083",
    "arquivo": "BDI_04-2_20261013.pdf",
    "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-10-13/BDI_04-2_20261013.pdf"
   },
