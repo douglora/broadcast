@@ -7,7 +7,7 @@
  "colunas": [{"nome": "TckrSymb", "titulo": "TckrSymb"}, {"nome": "Category", "titulo": "Categoria"}, {"nome": "Market", "titulo": "Mercado"}, {"nome": "Derivatives", "titulo": "Commodity"}, {"nome": "Tipo", "titulo": "Tipo de contrato"}, {"nome": "NmbrTradesDay", "titulo": "Número de negócios"}, {"nome": "NmbrCntrctsDay", "titulo": "Contratos negociados"}, {"nome": "TotalVlmRS", "titulo": "Volume total (R$)"}, {"nome": "TotalVlmUS", "titulo": "Volume total (US$)"}, {"nome": "OrderCol", "titulo": "Ordem"}],
  "texto": ["Resume as transações realizadas em derivativos, incluindo detalhes sobre volumes e preços em um período específico."],
  "situacao": "republicado",
- "atualizado_em": "2026-10-13T22:41:21.147",
+ "atualizado_em": "2026-10-14T10:53:14.11",
  "truncada": false,
  "linhas": [
   ["BGI: BOI GORDO - FUTURO", "PREGÃO ELETRÔNICO", "COMMODITIES", "BGI: BOI GORDO", "FUTURO", 2571, 4885, 637405425, 127087114, 1],

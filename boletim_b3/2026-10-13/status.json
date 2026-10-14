@@ -2,7 +2,7 @@
  "pregao": "2026-10-13",
  "situacao": "atrasado",
  "errata": false,
- "atualizado_em": "2026-10-14T08:44:05.053",
+ "atualizado_em": "2026-10-14T10:53:18.357",
  "completo": {
   "arquivo": "",
   "pdf": ""
@@ -14,7 +14,7 @@
    "pai": null,
    "situacao": "publicado",
    "errata": true,
-   "atualizado_em": "2026-10-14T08:06:54.063",
+   "atualizado_em": "2026-10-14T10:35:31.79",
    "arquivo": "",
    "pdf": ""
   },
@@ -43,8 +43,8 @@
    "nome": "Indicadores e informativos",
    "pai": 20,
    "situacao": "publicado",
-   "errata": true,
-   "atualizado_em": "2026-10-14T08:44:05.053",
+   "errata": false,
+   "atualizado_em": "2026-10-14T10:53:18.357",
    "arquivo": "",
    "pdf": ""
   },
@@ -62,11 +62,11 @@
    "id": 31,
    "nome": "Resumo",
    "pai": 3,
-   "situacao": "republicado",
+   "situacao": "publicado",
    "errata": false,
-   "atualizado_em": "2026-10-13T22:45:38.003",
-   "arquivo": "BDI_03-1_20261013.pdf",
-   "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-10-13/BDI_03-1_20261013.pdf"
+   "atualizado_em": "2026-10-14T10:53:14.11",
+   "arquivo": "",
+   "pdf": ""
   },
   {
    "id": 33,
@@ -82,11 +82,11 @@
    "id": 34,
    "nome": "Derivativos de bolsa",
    "pai": 3,
-   "situacao": "",
+   "situacao": "publicado",
    "errata": false,
-   "atualizado_em": "2026-10-14T08:49:03.153",
-   "arquivo": "",
-   "pdf": ""
+   "atualizado_em": "2026-10-14T09:54:48.443",
+   "arquivo": "BDI_03-4_20261013.pdf",
+   "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-10-13/BDI_03-4_20261013.pdf"
   },
   {
    "id": 41,
