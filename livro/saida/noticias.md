@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 15/10 18h11
+NOTÍCIAS E FATOS · 15/10 18h13
 
-Pernas: noticias ok 14 novas (18 consultas; descartadas: 458 veículo fora da lista, 29 sem ativo, 0 teto) · cvm ok 0 novos de 9 (7 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 4 novas (18 consultas; descartadas: 459 veículo fora da lista, 28 sem ativo, 0 teto) · cvm ok 0 novos de 0 (0 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (1)
 
@@ -67,7 +67,7 @@ Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir
 Ativos: KO
 Como falar: 'saiu no Investing.com: Coca-Cola declares quarterly dividend of 53 cents per share; confirmar o número no texto antes de repassar'
 Fonte: Investing.com 15/10 15h25
-id: E05-KO-f6736d3620-2026-10-15 · status: pendente
+id: E05-KO-f6736d3620-2026-10-15 · status: entregue
 
 [ATENÇÃO] E05 · KO · Coca-Cola Declares Qtrly Dividend Of $0.53 Per Share
 TradingView (Reuters) · 15/10 15h13 · fonte única · licença: manchete
@@ -236,8 +236,12 @@ Fonte: Yahoo Finance 14/10 10h03
 id: E05-BAC-005e3f53ca-2026-10-14 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (140)
+## OUTRAS NOTÍCIAS (só manchete) (144)
 
+· TSLA Tesla Stocks Fall 1.7% as Roadster Reveal Faces a Revenue Reality Check (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/tesla-stocks-fall-1-7-191439293.html
+· KO Pop star: Coca-Cola has outperformed all the Mag 7 stocks this year (TradingView (Reuters)) https://www.tradingview.com/news/seekingalpha:d9f0bec5c094b:0-pop-star-coca-cola-has-outperformed-all-the-mag-7-stocks-this-year/
+· KO COCA-COLA CO (0QZK.IL) Q2 FY2026 earnings call transcript (Yahoo Finance) https://finance.yahoo.com/quote/0QZK.IL/earnings/0QZK.IL-Q2-2026-earnings_call-656148.html
+· NOK Nokia stock may move 8.9% on earnings release next week By Investing.com (Investing.com) https://ca.investing.com/news/stock-market-news/nokia-stock-may-move-89-on-earnings-release-next-week-93CH-4883048
 · MELI34 TRXF11 e Matriz fecham operação de R$ 1,4 bi em galpões alugados ao Mercado Livre (Exame) https://exame.com/mercado-imobiliario/trxf11-e-matriz-fecham-operacao-de-r-14-bi-em-galpoes-alugados-ao-mercado-livre/
 · TSM TSMC Q3: The AI Boom Isn’t Fully Priced In (NYSE:TSM) (Seeking Alpha) https://seekingalpha.com/article/4954605-tsmc-q3-the-ai-boom-isnt-fully-priced-in
 · USDBRL Dólar hoje sobe a R$ 5,09, à espera de Datafolha após reação à pesquisa Quaest (InfoMoney) https://www.infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-15102026/
@@ -294,8 +298,4 @@ id: E05-BAC-005e3f53ca-2026-10-14 · status: linha
 · TSLA Tesla may finally debut a flying car today, after testing fans’ patience for nearly a decade (MarketWatch) https://www.marketwatch.com/story/tesla-may-finally-debut-a-flying-car-today-after-testing-fans-patience-for-nearly-a-decade-9a23c8e8
 · VALE3 Vale vê metais básicos superando 40% do Ebitda nos próximos anos com avanço do cobre, diz CEO (Money Times) https://www.moneytimes.com.br/vale-ve-metais-basicos-superando-40-do-ebitda-nos-proximos-anos-com-avanco-do-cobre-diz-ceo/
 · UST Treasury, Eurozone Bond Yields Fall as Risk Aversion Beats Inflation Fears (The Wall Street Journal) https://www.wsj.com/finance/investing/treasury-eurozone-bond-yields-fall-to-multiweek-lows-as-u-s-inflation-shock-fades-29c7b1c1
-· AVGO ‘They are in a casino’: Broadcom is making billions off the AI boom, but CEO Hock Tan said many AI investors have ‘no clue’ what they’re investing in (Fortune) https://fortune.com/2026/10/15/broadcom-hock-tan-ai-investing-casino/
-· NVDA AMD, NVDA, Other Chip Stocks Extend Rout Amid AI Debt Concerns — Saxo Says Financing Squeeze Could Hit Supply Chain (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:7ed461646094b:0-amd-nvda-other-chip-stocks-extend-rout-amid-ai-debt-concerns-saxo-says-financing-squeeze-could-hit-supply-chain/
-· TSM TSMC stock drops despite record profit amid 'extremely robust demand' for AI chips (Yahoo Finance) https://finance.yahoo.com/markets/stocks/article/tsmc-stock-drops-despite-record-profit-amid-extremely-robust-demand-for-ai-chips-152649370.html
-· TSM Taiwan's chipmaker TSMC explores collaborating with Elon Musks's Terafab complex in Texas (Fortune) https://fortune.com/2026/10/15/elon-musk-tsmc-ai-texas-terafab/
-· (+80 manchetes; lista completa em eventos/noticias.json)
+· (+84 manchetes; lista completa em eventos/noticias.json)
