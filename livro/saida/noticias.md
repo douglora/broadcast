@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 15/10 14h22
+NOTÍCIAS E FATOS · 15/10 14h42
 
-Pernas: noticias ok 15 novas (18 consultas; descartadas: 461 veículo fora da lista, 31 sem ativo, 4 teto) · cvm ok 0 novos de 9 (7 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 7 novas (18 consultas; descartadas: 461 veículo fora da lista, 29 sem ativo, 0 teto) · cvm ok 0 novos de 9 (7 cias casadas) · sec ok 1 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (1)
 
@@ -14,7 +14,18 @@ Fonte: CVM 14/10
 id: E03-DIRR3-1577238-2026-10-14 · status: entregue
 
 
-## SEC (8-K, 6-K, 10-Q, 10-K) (1)
+## SEC (8-K, 6-K, 10-Q, 10-K) (2)
+
+[INFO] E04 · NOK · 6-K: 6-K
+SEC EDGAR · aceito 15/10 14h37 · FORM 6-K
+Do documento:
+  – 6-K  1  tm2627676d1_6k.htm  FORM 6-K  UNITED STATES  SECURITIES AND EXCHANGE COMMISSION  Washington, D.C.
+Link: https://www.sec.gov/Archives/edgar/data/924613/000110465926116141/tm2627676d1_6k.htm
+Por que importa: 6-K e o relatorio de emissor estrangeiro: resultado, provento ou fato relevante do pais de origem
+Ativos: NOK
+Como falar: 'a NOK protocolou 6-K na SEC (6-K)'
+Fonte: SEC EDGAR 2026-10-15
+id: E04-NOK-26116141-2026-10-15 · status: linha · íntegra disponível
 
 [INFO] E04 · TSM · 6-K: 6-K
 SEC EDGAR · aceito 15/10 07h40 · 6-K
@@ -29,7 +40,23 @@ Fonte: SEC EDGAR 2026-10-15
 id: E04-TSM-26000726-2026-10-15 · status: entregue · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (11)
+## NOTÍCIAS COM MATERIALIDADE (12)
+
+[ATENÇÃO] E05 · KO · Coca-Cola’s 64-Year Dividend Growth Streak Faces a Valuation Reality Check
+Yahoo Finance · 15/10 13h59 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – The company's second-quarter 2026 results show why investors keep coming back.
+  – Revenue climbed 7% from the year before, hitting $13.4 billion, and organic revenue wasn't far behind with a 6% gain.
+  – Operating margin ticked up to 34.9%.
+  – Earnings per share rose 16% to $1.03, partly thanks to favorable currency moves.
+  – What's especially encouraging is that unit case volume went up 5%, so growth didn't just rely on price hikes.
+  – Also read: 10 Best Bear Market Stocks to Invest In Right Now Dividend Growth Is Stronger Than the Starting Yield Earlier this year, The Coca-Cola Company (NYSE:KO) increased its quarterly dividend by about 4%, moving fr…
+Link: https://finance.yahoo.com/markets/stocks/articles/coca-cola-64-dividend-growth-165920480.html
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: KO
+Como falar: 'saiu no Yahoo Finance: Coca-Cola’s 64-Year Dividend Growth Streak Faces a Valuation Reality Check; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 15/10 13h59
+id: E05-KO-0a474c5dc1-2026-10-15 · status: pendente
 
 [ATENÇÃO] E05 · KO · Coca-Cola’s 64-Year Dividend Growth Streak Faces a Valuation Reality Check
 Yahoo Finance · 15/10 13h59 · fonte única · licença: resumo
@@ -173,8 +200,14 @@ Fonte: Yahoo Finance 14/10 10h03
 id: E05-BAC-005e3f53ca-2026-10-14 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (90)
+## OUTRAS NOTÍCIAS (só manchete) (96)
 
+· TSM TSMC earnings analysis: questions answered and next catalysts (Investing.com) https://www.investing.com/news/stock-market-news/tsmc-earnings-analysis-questions-answered-and-next-catalysts-93CH-4952354
+· NVDA Nvidia CEO Jensen Huang addresses CoreWeave stock plunge: 'I'm optimistic' (Yahoo Finance) https://uk.finance.yahoo.com/news/nvidia-ceo-jensen-huang-addresses-coreweave-stock-plunge-im-optimistic-161504419.html
+· GFS GlobalFoundries Set for Long-Term Earnings From US-Japan Chip Deal, Wedbush Says (Yahoo Finance) https://finance.yahoo.com/technology/articles/globalfoundries-set-long-term-earnings-154720466.html
+· GOOGL Alphabet Q3 Preview: Staying Ahead Of The AI Pack, Shares Fairly Valued (NASDAQ:GOOG) (Seeking Alpha) https://seekingalpha.com/article/4954456-alphabet-q3-preview-staying-ahead-of-the-ai-pack-shares-fairly-valued
+· CVX Chevron Corporation (CVX) Hits Fresh High: Is There Still Room to Run? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/chevron-corporation-cvx-hits-fresh-121528627.html
+· AMD Advanced Micro Devices, Inc. (AMD) Stock Price, News, Quote & History (Yahoo Finance) https://ca.finance.yahoo.com/quote/AMD/
 · UST Update: US Equity Indexes Mixed After Hot Producer Price Inflation, Slumping Treasury Yields (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-mixed-hot-165927840.html
 · UGPA3 Ultrapar (UGPA3): analistas elevam preço-alvo, mas veem pouco espaço após rali (Suno Noticias) https://www.suno.com.br/noticias/ultrapar-ugpa3-preco-alvo-bb-investimentos-mt/
 · NVDA Nvidia and Broadcom Narratives Define the AI Chip Landscape (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/nvidia-broadcom-narratives-define-ai-164509607.html
@@ -229,10 +262,4 @@ id: E05-BAC-005e3f53ca-2026-10-14 · status: linha
 · UST US 10-year Treasury yield levels not unprecedented, BNY CEO says (Yahoo Finance) https://finance.yahoo.com/markets/currencies/articles/us-10-treasury-yield-levels-132527255.html
 · VALE3 Vale projeta 700 mil t de cobre até 2035; VBM pode gerar mais de 40% do EBITDA (InfoMoney) https://www.infomoney.com.br/mercados/vale-projeta-700-mil-t-de-cobre-ate-2035-vbm-pode-gerar-mais-de-40-do-ebitda/amp/
 · TSM TSMC Q3 Earnings Review: A Top May Be In View (NYSE:TSM) (Seeking Alpha) https://seekingalpha.com/article/4954457-tsmc-q3-earnings-review-a-top-may-be-in-view
-· NOK Nokia stock may move 8.9% on earnings release next week By Investing.com (Investing.com) https://au.investing.com/news/stock-market-news/nokia-stock-may-move-89-on-earnings-release-next-week-93CH-4692910
-· MELI34 Grupo Escalada conquista prêmio de melhor consultoria do Mercado Livre (Valor Economico) https://valor.globo.com/google/amp/patrocinado/pulse-brand/noticia/2026/10/15/grupo-escalada-conquista-premio-de-melhor-consultoria-do-mercado-livre-1.ghtml
-· GOOGL Alphabet Stock Can Jump 24%, JPMorgan Says. Why Google Can Defy AI Fears. (Barron's) https://www.barrons.com/articles/google-alphabet-stock-ai-slump-1aa9c42e
-· TSM TSMC Stock Slips Despite Record Profit for Sixth Straight Quarter (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:b53be879a094b:0-tsmc-stock-slips-despite-record-profit-for-sixth-straight-quarter/
-· JPM Zacks Earnings Trends Highlights: JPMorgan, Citigroup, Bank of America and Wells Fargo (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/zacks-earnings-trends-highlights-jpmorgan-121600517.html
-· MMM Seeking Clues to 3M (MMM) Q3 Earnings? A Peek Into Wall Street Projections for Key Metrics (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/seeking-clues-3m-mmm-q3-121521359.html
-· (+30 manchetes; lista completa em eventos/noticias.json)
+· (+36 manchetes; lista completa em eventos/noticias.json)
