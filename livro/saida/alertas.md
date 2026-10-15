@@ -1,36 +1,28 @@
 ALERTAS · intradia
 
-[ATENÇÃO] E05 · TSM · TSMC's Q3 results, outlook pave path for 'banner year' in 2027: analysts
-Seeking Alpha · 15/10 10h19 · fonte única · licença: manchete
-Link: https://seekingalpha.com/news/4653366-tsmcs-q3-results-outlook-pave-path-for-banner-year-in-2027-analysts
-Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
-Ativos: TSM
-Como falar: 'saiu no Seeking Alpha: TSMC's Q3 results, outlook pave path for 'banner year' in 2027: analysts; confirmar o número no texto antes de repassar'
-Fonte: Seeking Alpha 15/10 10h19
-Push: [ATENÇÃO] TSM · TSMC's Q3 results, outlook pave path for 'banner year' · detalhe na sessão
-ids: E05-TSM-83e65e5db4-2026-10-15
-
+Nenhum alerta novo neste slot.
 Info (só linha no Fechamento):
-· E05 NOK · Nokia stock may move 8.9% on earnings release next week
-· E05 TSM · TSMC: Panic Selling Is Not Deterring Me - Strong Buy Maintained (NYSE:TSM)
-· E05 UST · Inflation Concerns Push 10-Year Yield Further Above Fair Value
-· E05 USDBRL · Dólar sobe com recuperação de Lula em pesquisa e dados fortes nos EUA
-· E05 USDBRL · Dólar abre em alta com empate entre Flávio e Lula e aprovação da escala 6x1 no radar
-· E05 TSM · Taiwan Semiconductor Stock: Excellent Growth, Buy The Sell-Off (NYSE:TSM)
-· E05 USDBRL · Dólar sobe pelo 3º dia por cautela com trade eleitoral
+· E05 DIRR3 · Direcional (DIRR3) cai até 6% após 'prévia fraca' do 3T26; veja o que pesou nos números, segundo analistas
+· E05 TSM · TSMC stock sinks despite record profit amid 'extremely robust demand' for AI chips
+· E05 BAC · TD Cowen maintains Hold rating on Bank of America, $56 price target
+· E05 TSM · Taiwan Semiconductor Posts Record Profit
+· E05 UST · US 10-year Treasury yield levels not unprecedented, BNY CEO says
+· E05 VALE3 · Vale projeta 700 mil t de cobre até 2035; VBM pode gerar mais de 40% do EBITDA
+· E05 TSM · TSMC Q3 Earnings Review: A Top May Be In View (NYSE:TSM)
+· E05 NOK · Nokia stock may move 8.9% on earnings release next week By Investing.com
+· E05 MELI34 · Grupo Escalada conquista prêmio de melhor consultoria do Mercado Livre
+· E05 GOOGL · Alphabet Stock Can Jump 24%, JPMorgan Says. Why Google Can Defy AI Fears.
 · E05 TSM · TSMC Stock Slips Despite Record Profit for Sixth Straight Quarter
-· E05 USDBRL · Ibovespa futuro cai com eleições e fim da escala 6×1 no radar; dólar sobe
-· E05 MRVL · Marvell's Optical Business Could Win Long Term, But Not Yet (NASDAQ:MRVL)
-· E05 PLTR · Cathie Wood Dumps $6.3 Million in Palantir Stock
-· E05 USDBRL · Dólar sobe ante real após nova pesquisa mostrar empate técnico entre Flávio e Lula Por Reuters
-· E05 USDBRL · Dólar abre em alta, com foco em inflação americana e pesquisas eleitorais
-· E05 AVGO · Broadcom: Should You Worry About Off-Balance-Sheet Financing Risk? (NASDAQ:AVGO)
-· E05 TSM · TSMC Q3 Overview: Don’t Let The AI Panic Fool You (NYSE:TSM)
+· E05 JPM · Zacks Earnings Trends Highlights: JPMorgan, Citigroup, Bank of America and Wells Fargo
+· E05 MMM · Seeking Clues to 3M (MMM) Q3 Earnings? A Peek Into Wall Street Projections for Key Metrics
+· S01 coleta do slot intradia saiu incompleta: bcb: BCB devolveu 4 de 5 séries (faltaram ptax_venda)
 
+Suprimidos pelo teto (viram linha do Fechamento): S01-SISTEMA-intradia-2026-10-15 (teto de atenção)
 
 Alertas do dia (todos, com status):
-· pendente  E05 TSM — TSM · TSMC's Q3 results, outlook pave path for 'banner year' in 2027: analysts
+· linha     S01 SISTEMA — coleta do slot intradia saiu incompleta: bcb: BCB devolveu 4 de 5 séries (faltar
+· entregue  E05 TSM — TSM · TSMC's Q3 results, outlook pave path for 'banner year' in 2027: analysts
 · entregue  E05 BTC — BTC · Citigroup Raises Its 12-Month Price Target for Bitcoin to $113,000. These 
 · entregue  E05 JPM — JPM · JPMorgan upgrades ArcelorMittal stock rating on earnings outlook
 · entregue  E05 TSM — TSM · Earnings Snapshot: Taiwan Semiconductor Manufacturing tops Q3 estimates, g
-· (+41 notícias só manchete, em noticias.md)
+· (+54 notícias só manchete, em noticias.md)

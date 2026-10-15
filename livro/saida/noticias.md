@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 15/10 10h24
+NOTÍCIAS E FATOS · 15/10 11h21
 
-Pernas: noticias ok 16 novas (18 consultas; descartadas: 446 veículo fora da lista, 41 sem ativo, 15 teto) · cvm ok 0 novos de 0 (0 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 13 novas (18 consultas; descartadas: 445 veículo fora da lista, 41 sem ativo, 4 teto) · cvm ok 0 novos de 0 (0 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (1)
 
@@ -38,7 +38,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: TSM
 Como falar: 'saiu no Seeking Alpha: TSMC's Q3 results, outlook pave path for 'banner year' in 2027: analysts; confirmar o número no texto antes de repassar'
 Fonte: Seeking Alpha 15/10 10h19
-id: E05-TSM-83e65e5db4-2026-10-15 · status: pendente
+id: E05-TSM-83e65e5db4-2026-10-15 · status: entregue
 
 [ATENÇÃO] E05 · BTC · Citigroup Raises Its 12-Month Price Target for Bitcoin to $113,000. These Are the 3 Catalysts Investors Need to Watch.
 Yahoo Finance · 15/10 06h35 · fonte única · licença: resumo
@@ -157,8 +157,21 @@ Fonte: Yahoo Finance 14/10 10h03
 id: E05-BAC-005e3f53ca-2026-10-14 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (30)
+## OUTRAS NOTÍCIAS (só manchete) (43)
 
+· DIRR3 Direcional (DIRR3) cai até 6% após 'prévia fraca' do 3T26; veja o que pesou nos números, segundo analistas (Money Times) https://www.moneytimes.com.br/direcional-dirr3-cai-ate-6-apos-previa-fraca-do-3t26-veja-o-que-pesou-nos-numeros-segundo-analistas-igdl/
+· TSM TSMC stock sinks despite record profit amid 'extremely robust demand' for AI chips (Yahoo Finance) https://finance.yahoo.com/markets/stocks/article/tsmc-stock-sinks-despite-record-profit-amid-extremely-robust-demand-for-ai-chips-134324217.html
+· BAC TD Cowen maintains Hold rating on Bank of America, $56 price target (TradingView (Reuters)) https://www.tradingview.com/news/tradingview:a1841c06ecfb2:0-td-cowen-maintains-hold-rating-on-bank-of-america-56-price-target/
+· TSM Taiwan Semiconductor Posts Record Profit (TradingView (Reuters)) https://www.tradingview.com/news/baystreet:0571a5924094b:0-taiwan-semiconductor-posts-record-profit/
+· UST US 10-year Treasury yield levels not unprecedented, BNY CEO says (Yahoo Finance) https://finance.yahoo.com/markets/currencies/articles/us-10-treasury-yield-levels-132527255.html
+· VALE3 Vale projeta 700 mil t de cobre até 2035; VBM pode gerar mais de 40% do EBITDA (InfoMoney) https://www.infomoney.com.br/mercados/vale-projeta-700-mil-t-de-cobre-ate-2035-vbm-pode-gerar-mais-de-40-do-ebitda/amp/
+· TSM TSMC Q3 Earnings Review: A Top May Be In View (NYSE:TSM) (Seeking Alpha) https://seekingalpha.com/article/4954457-tsmc-q3-earnings-review-a-top-may-be-in-view
+· NOK Nokia stock may move 8.9% on earnings release next week By Investing.com (Investing.com) https://au.investing.com/news/stock-market-news/nokia-stock-may-move-89-on-earnings-release-next-week-93CH-4692910
+· MELI34 Grupo Escalada conquista prêmio de melhor consultoria do Mercado Livre (Valor Economico) https://valor.globo.com/google/amp/patrocinado/pulse-brand/noticia/2026/10/15/grupo-escalada-conquista-premio-de-melhor-consultoria-do-mercado-livre-1.ghtml
+· GOOGL Alphabet Stock Can Jump 24%, JPMorgan Says. Why Google Can Defy AI Fears. (Barron's) https://www.barrons.com/articles/google-alphabet-stock-ai-slump-1aa9c42e
+· TSM TSMC Stock Slips Despite Record Profit for Sixth Straight Quarter (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:b53be879a094b:0-tsmc-stock-slips-despite-record-profit-for-sixth-straight-quarter/
+· JPM Zacks Earnings Trends Highlights: JPMorgan, Citigroup, Bank of America and Wells Fargo (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/zacks-earnings-trends-highlights-jpmorgan-121600517.html
+· MMM Seeking Clues to 3M (MMM) Q3 Earnings? A Peek Into Wall Street Projections for Key Metrics (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/seeking-clues-3m-mmm-q3-121521359.html
 · NOK Nokia stock may move 8.9% on earnings release next week (Investing.com) https://www.investing.com/news/stock-market-news/nokia-stock-may-move-89-on-earnings-release-next-week-93CH-4951757
 · TSM TSMC: Panic Selling Is Not Deterring Me - Strong Buy Maintained (NYSE:TSM) (Seeking Alpha) https://seekingalpha.com/article/4954442-tsmc-panic-selling-is-not-deterring-me-strong-buy-maintained
 · UST Inflation Concerns Push 10-Year Yield Further Above Fair Value (Seeking Alpha) https://seekingalpha.com/article/4954441-inflation-concerns-push-10-year-yield-further-above-fair-value
