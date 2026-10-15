@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 15/10 16h21
+NOTÍCIAS E FATOS · 15/10 17h21
 
-Pernas: noticias ok 9 novas (18 consultas; descartadas: 468 veículo fora da lista, 30 sem ativo, 0 teto) · cvm ok 0 novos de 9 (7 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 15 novas (18 consultas; descartadas: 458 veículo fora da lista, 30 sem ativo, 1 teto) · cvm ok 0 novos de 9 (7 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (1)
 
@@ -40,7 +40,16 @@ Fonte: SEC EDGAR 2026-10-15
 id: E04-TSM-26000726-2026-10-15 · status: entregue · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (13)
+## NOTÍCIAS COM MATERIALIDADE (14)
+
+[ATENÇÃO] E05 · KO · Coca-Cola declares quarterly dividend of 53 cents per share
+Investing.com · 15/10 15h25 · + TradingView (Reuters) · licença: manchete
+Link: https://www.investing.com/news/company-news/cocacola-declares-quarterly-dividend-of-53-cents-per-share-93CH-4952443
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: KO
+Como falar: 'saiu no Investing.com: Coca-Cola declares quarterly dividend of 53 cents per share; confirmar o número no texto antes de repassar'
+Fonte: Investing.com 15/10 15h25
+id: E05-KO-f6736d3620-2026-10-15 · status: pendente
 
 [ATENÇÃO] E05 · KO · Coca-Cola Declares Qtrly Dividend Of $0.53 Per Share
 TradingView (Reuters) · 15/10 15h13 · fonte única · licença: manchete
@@ -49,7 +58,7 @@ Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir
 Ativos: KO
 Como falar: 'saiu no TradingView (Reuters): Coca-Cola Declares Qtrly Dividend Of $0.53 Per Share; confirmar o número no texto antes de repassar'
 Fonte: TradingView (Reuters) 15/10 15h13
-id: E05-KO-7871d65f81-2026-10-15 · status: pendente
+id: E05-KO-7871d65f81-2026-10-15 · status: entregue
 
 [ATENÇÃO] E05 · KO · Coca-Cola’s 64-Year Dividend Growth Streak Faces a Valuation Reality Check
 Yahoo Finance · 15/10 13h59 · fonte única · licença: resumo
@@ -209,8 +218,22 @@ Fonte: Yahoo Finance 14/10 10h03
 id: E05-BAC-005e3f53ca-2026-10-14 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (114)
+## OUTRAS NOTÍCIAS (só manchete) (128)
 
+· USDBRL Dólar fecha em alta de 1,17%, a R$ 5,087; Bolsa cai com eleição no radar (UOL Economia) https://economia.uol.com.br/cotacoes/noticias/redacao/2026/10/15/dolar-fecha-em-alta-de-117-a-r-5087-bolsa-cai-com-eleicao-no-radar.htm
+· USDBRL Dólar sobe pelo terceiro dia, com cautela eleitoral no Brasil e inflação nos EUA (ADVFN) https://br.advfn.com/jornal/2026/10/dolar-sobe-pelo-terceiro-dia-com-cautela-eleitoral-no-brasil-e-inflacao-nos-eua
+· USDBRL Dólar sobe pelo 3ª dia consecutivo e fecha a R$ 5,08 com disputa presidencial mais acirrada (Money Times) https://www.moneytimes.com.br/dolar-15-10-26-lils/
+· GOOGL Alphabet Stocks Rise as JPMorgan Lifts Target on Cloud Growth (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/alphabet-stocks-rise-jpmorgan-lifts-194528302.html
+· USDBRL Tempo real: Ibovespa cai 1% com Flávio e Lula em empate técnico nas pesquisas; dólar sobe a R$ 5,08 (Money Times) https://www.moneytimes.com.br/tempo-real-15-10-26-apsa-lils/
+· BTC Fidelity Digital Assets finds Bitcoin now moving with US Treasury real rates (TradingView (Reuters)) https://www.tradingview.com/news/cryptobriefing:f594f6c75094b:0-fidelity-digital-assets-finds-bitcoin-now-moving-with-us-treasury-real-rates/
+· MELI34 Mercado Livre Racing busca consolidar evolução da temporada no circuito mais veloz do país (UOL Economia) https://motorsport.uol.com.br/stockcar-br/news/mercado-livre-racing-busca-consolidar-evolucao-da-temporada-no-circuito-mais-veloz-do-pais/10865477/
+· TSLA Tesla Stocks Fall 1.7% as Roadster Reveal Faces a Revenue Reality Check (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:7afa7f302094b:0-tesla-stocks-fall-1-7-as-roadster-reveal-faces-a-revenue-reality-check/
+· AMD Advanced Micro Devices (AMD) Expands AI Infrastructure Cooling, Is The Stock Fully Priced? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/advanced-micro-devices-amd-expands-181012642.html
+· NVDA Nvidia CEO says CoreWeave needs no backstop as shares extend slide (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/nvidia-ceo-says-coreweave-needs-162723555.html
+· JPM Price to earnings forward of JPMorgan India Growth & Income PLC GBP – HAN:3J8 (TradingView (Reuters)) https://www.tradingview.com/symbols/HAN-3J8/financials-statistics-and-ratios/price-earnings-fwd/
+· BAC QUICK SPARK: Bank of America's Bond Losses Swell to $109 Billion (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:3af1f510c094b:0-quick-spark-bank-of-america-s-bond-losses-swell-to-109-billion/
+· DI Juros futuros têm forte alta com melhora de Lula na Quaest e aprovação do fim da escala 6x1 (Valor Economico) https://valor.globo.com/google/amp/financas/noticia/2026/10/15/juros-futuros-tem-forte-alta-com-melhora-de-lula-na-quaest-e-aprovacao-do-fim-da-escala-6x1.ghtml
+· USDBRL Dólar opera em alta e vai a R$ 5,07, com foco em inflação americana e pesquisas eleitorais; Ibovespa cai (g1) https://news.google.com/rss/articles/CBMieEFVX3lxTE4wdzM1eXFkWklOMHpSbFQwbGJRYms2MWZyOTNaWDZCdkhZVnVJdkhqQ3BVWUJVbnJMaWZTbDFJSmxXTU1aZTdpLVZ2dFBjektxNDB6eEZDdHMxbEFvNHV4OHI2bWpXc0NDZjZXV3I2dHhHZmF0NnBCWNIBhwFBVV95cUxQTzZBYXUwcnJWVXRONkI1LTFqUnl3RjR1ZVZURTl1SFh3NU9GTnJlS0JpcE52d29Bd1ZOWEhuZGNBWFRVODhDS0M5WHp4LTN0MDJLaE93U3pMWWN4OXd5SnpPQ1gxbjB4bXotSnpvLWdPWjNMSkxKdlA0eEEzNmtkTm5xS0lxZXM?oc=5
 · TSLA Tesla plans next-generation Roadster reveal after almost a decade of delays (CNBC) https://www.cnbc.com/2026/10/15/tesla-roadster-reveal-what-to-know-about-the-delayed-ev.html
 · NVDA Nvidia’s European spending spree is about much more than Europe (Fortune) https://fortune.com/2026/10/15/nvidias-european-spending-spree-is-about-much-more-than-europe/
 · TSM TSMC’s Record Earnings Show AI Demand Is Outrunning Rate Concerns (Investing.com) https://www.investing.com/analysis/tsmcs-record-earnings-show-ai-demand-is-outrunning-rate-concerns-200689670
@@ -257,18 +280,4 @@ id: E05-BAC-005e3f53ca-2026-10-14 · status: linha
 · USDBRL Dólar sobe a R$ 5,04 e Bolsa cai com fim da 6x1 e vendas do varejo no radar (UOL Economia) https://economia.uol.com.br/cotacoes/noticias/redacao/2026/10/15/dolar-bolsa-abre-hoje-15-de-outubro-de-2026.ghtm
 · VALE3 Para CEO da Vale, independentemente do resultado da eleição, mineração vai ser um elemento fundamental (Valor Economico) https://valor.globo.com/empresas/noticia/2026/10/15/para-ceo-da-vale-independentemente-do-resultado-da-eleicao-mineracao-vai-ser-um-elemento-fundamental.ghtml
 · AVGO Why Is Broadcom (AVGO) Warning That The AI Boom Looks Like Gambling? (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/why-broadcom-avgo-warning-ai-150940968.html
-· BTC Bitcoin Just Fell Below $80,000: What Triggered the Selloff? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-just-fell-below-80-144459552.html
-· MU Micron (MU): Can Data Center Storage Become Another Durable Profit Engine? (Yahoo Finance) https://ca.finance.yahoo.com/news/micron-mu-data-center-storage-135806403.html
-· MMM MMM Q3 Earnings on Deck: How to Approach the Stock Now? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/mmm-q3-earnings-deck-approach-135600863.html
-· UST Gold Rebounds From Steep Losses As Treasury Yields And U.S. Dollar Fall (Yahoo Finance) https://ca.finance.yahoo.com/news/gold-rebounds-steep-losses-treasury-134730744.html
-· TSM Taiwan Semiconductor Q3 Earnings & Revenues Top Estimates, Margins Up (TradingView (Reuters)) https://www.tradingview.com/news/zacks:b427de115094b:0-taiwan-semiconductor-q3-earnings-revenues-top-estimates-margins-up/
-· NOK Nokia stock may move 8.9% on earnings release next week By Investing.com (Investing.com) https://in.investing.com/news/stock-market-news/nokia-stock-may-move-89-on-earnings-release-next-week-93CH-5635283
-· ETH Current price of Ethereum for October 15, 2026 (Fortune) https://fortune.com/article/price-of-ethereum-10-15-2026/
-· VALE3 Vale vê metais básicos superando 40% do Ebitda nos próximos anos com avanço do cobre, diz CEO Por Reuters (Investing.com) https://br.investing.com/news/stock-market-news/vale-ve-metais-basicos-superando-40-do-ebitda-nos-proximos-anos-com-avanco-do-cobre-diz-ceo-2093071
-· TSM TSMC CEO Hints Company Could Back Up Customers If Intel’s Advanced Packaging Ramp-Up Falls Short (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/tsmc-ceo-hints-company-could-151911042.html
-· BTC Bitcoin Stuck Between $80,000 and $88,000: Which Level Breaks First? (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:20f4aa87c094b:0-bitcoin-stuck-between-80-000-and-88-000-which-level-breaks-first/
-· TSM AMD: TSMC Just Fired A $175 Billion Warning Shot (NASDAQ:AMD) (Seeking Alpha) https://seekingalpha.com/article/4954501-amd-tsmc-just-fired-a-175-billion-warning-shot
-· TSM Watch CoreWeave Slides on Debt; TSMC Moves on Outlook | Stock Movers (Bloomberg) https://www.bloomberg.com/news/videos/2026-10-15/coreweave-slides-on-debt-tsmc-moves-on-outlook-video
-· MINERIO Iron ore slips to two-year low on concerns over weak demand, rising supply (Mining.com) https://www.mining.com/web/iron-ore-slips-to-two-year-low-on-concerns-over-weak-demand-rising-supply/
-· DIRR3 Ação da Direcional recua após queda nas vendas e lançamentos do 3º tri (InfoMoney) https://www.infomoney.com.br/mercados/acao-da-direcional-recua-apos-queda-nas-vendas-e-lancamentos-do-3o-tri/
-· (+54 manchetes; lista completa em eventos/noticias.json)
+· (+68 manchetes; lista completa em eventos/noticias.json)
