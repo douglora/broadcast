@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 15/10 17h21
+NOTÍCIAS E FATOS · 15/10 18h11
 
-Pernas: noticias ok 15 novas (18 consultas; descartadas: 458 veículo fora da lista, 30 sem ativo, 1 teto) · cvm ok 0 novos de 9 (7 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 14 novas (18 consultas; descartadas: 458 veículo fora da lista, 29 sem ativo, 0 teto) · cvm ok 0 novos de 9 (7 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (1)
 
@@ -40,7 +40,25 @@ Fonte: SEC EDGAR 2026-10-15
 id: E04-TSM-26000726-2026-10-15 · status: entregue · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (14)
+## NOTÍCIAS COM MATERIALIDADE (16)
+
+[ATENÇÃO] E05 · USDBRL · Fechamento câmbio: Dólar sobe 1,15% com expectativa por Datafolha e 'tarifa zero' de Lula
+UOL Economia · 15/10 17h54 · fonte única · licença: manchete
+Link: https://economia.uol.com.br/noticias/estadao-conteudo/2026/10/15/fechamento-cambio-dolar-sobe-115-com-expectativa-por-datafolha-e-tarifa-zero-de-lula.htm
+Por que importa: tarifa ou sancao muda margem e acesso a mercado
+Ativos: USDBRL
+Como falar: 'saiu no UOL Economia: Fechamento câmbio: Dólar sobe 1,15% com expectativa por Datafolha e 'tarifa zero' de Lula; confirmar o número no texto antes de repassar'
+Fonte: UOL Economia 15/10 17h54
+id: E05-USDBRL-611cc72a29-2026-10-15 · status: pendente
+
+[ATENÇÃO] E05 · KO · Coca-Cola declares quarterly dividend of 53 cents per share By Investing.com
+Investing.com · 15/10 15h10 · fonte única · licença: manchete
+Link: https://in.investing.com/news/stock-market-news/cocacola-declares-quarterly-dividend-of-53-cents-per-share-93CH-5635887
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: KO
+Como falar: 'saiu no Investing.com: Coca-Cola declares quarterly dividend of 53 cents per share By Investing.com; confirmar o número no texto antes de repassar'
+Fonte: Investing.com 15/10 15h10
+id: E05-KO-335c938af9-2026-10-15 · status: pendente
 
 [ATENÇÃO] E05 · KO · Coca-Cola declares quarterly dividend of 53 cents per share
 Investing.com · 15/10 15h25 · + TradingView (Reuters) · licença: manchete
@@ -218,8 +236,20 @@ Fonte: Yahoo Finance 14/10 10h03
 id: E05-BAC-005e3f53ca-2026-10-14 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (128)
+## OUTRAS NOTÍCIAS (só manchete) (140)
 
+· MELI34 TRXF11 e Matriz fecham operação de R$ 1,4 bi em galpões alugados ao Mercado Livre (Exame) https://exame.com/mercado-imobiliario/trxf11-e-matriz-fecham-operacao-de-r-14-bi-em-galpoes-alugados-ao-mercado-livre/
+· TSM TSMC Q3: The AI Boom Isn’t Fully Priced In (NYSE:TSM) (Seeking Alpha) https://seekingalpha.com/article/4954605-tsmc-q3-the-ai-boom-isnt-fully-priced-in
+· USDBRL Dólar hoje sobe a R$ 5,09, à espera de Datafolha após reação à pesquisa Quaest (InfoMoney) https://www.infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-15102026/
+· USDBRL Ibovespa cai pela 3ª vez seguida com disputa eleitoral mais acirrada; dólar dispara 1,17% (Exame) https://exame.com/invest/mercados/ibovespa-cai-pela-3a-vez-seguida-com-disputa-eleitoral-mais-acirrada-dolar-dispara-117/
+· USDBRL Bolsa cai 1% e dólar sobe para R$ 5,087 com pesquisas do 2º turno (Poder360) https://www.poder360.com.br/poder-economia/bolsa-cai-1-e-dolar-sobe-para-r-5087-com-pesquisas-do-2o-turno/
+· USDBRL Ibovespa tem terceira queda seguida, após 6×1 e pesquisa; dólar sobe e vai a R$ 5,08 (InfoMoney) https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-15102026/
+· UST Stocks Gain as Treasury Yields Give Back Some Recent Gains (The Wall Street Journal) https://www.wsj.com/finance/stocks/stocks-gain-as-treasury-yields-give-back-some-recent-gains-abd77be3
+· TESOURO Taxas do Tesouro Direto seguem em alta mesmo com alívio nos EUA; eleição e 6x1 pressionam juros (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/tesouro-cobra-mais-mesmo-com-alivio-nos-eua-eleicao-e-6x1-levam-prefixado-2032-a-1287/
+· USDBRL Ibovespa cai 1% à espera de Datafolha; dólar sobe (Money Times) https://www.moneytimes.com.br/ibovespa-15-10-26-lils/
+· USDBRL Dólar canadense sobe com recuo do dólar americano, mas PPI quente nubla perspectivas (Investing.com) https://br.investing.com/news/forex-news/dolar-canadense-sobe-com-recuo-do-dolar-americano-mas-ppi-quente-nubla-perspectivas-2093252
+· GOOGL Alphabet Stocks Rise as JPMorgan Lifts Target on Cloud Growth (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:92fada085094b:0-alphabet-stocks-rise-as-jpmorgan-lifts-target-on-cloud-growth/
+· MINERIO Iron ore price slips to two-year low on concerns over weak demand, rising supply (Mining.com) https://news.google.com/rss/articles/CBMiowFBVV95cUxNS0tYcDNMYWlhWldxVTAxYnNtclVveUxSWjd0emF3SVFqNEZRMF9PWmJiX0hhSkp1S0NtT3RRbUR6SUx3YjlaTENGZ0Z2ZTkzWk9iMlpOYkozVExKbjJJSWVfSjBCajNyN3ZMWGw0a2NORzJRbTZhUlNZOWIyYnI5UVZNOEsxRXFYcDBvTHp6MHFGNUNhQmxfTnlvdlBWd09aVkZZ?oc=5
 · USDBRL Dólar fecha em alta de 1,17%, a R$ 5,087; Bolsa cai com eleição no radar (UOL Economia) https://economia.uol.com.br/cotacoes/noticias/redacao/2026/10/15/dolar-fecha-em-alta-de-117-a-r-5087-bolsa-cai-com-eleicao-no-radar.htm
 · USDBRL Dólar sobe pelo terceiro dia, com cautela eleitoral no Brasil e inflação nos EUA (ADVFN) https://br.advfn.com/jornal/2026/10/dolar-sobe-pelo-terceiro-dia-com-cautela-eleitoral-no-brasil-e-inflacao-nos-eua
 · USDBRL Dólar sobe pelo 3ª dia consecutivo e fecha a R$ 5,08 com disputa presidencial mais acirrada (Money Times) https://www.moneytimes.com.br/dolar-15-10-26-lils/
@@ -268,16 +298,4 @@ id: E05-BAC-005e3f53ca-2026-10-14 · status: linha
 · NVDA AMD, NVDA, Other Chip Stocks Extend Rout Amid AI Debt Concerns — Saxo Says Financing Squeeze Could Hit Supply Chain (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:7ed461646094b:0-amd-nvda-other-chip-stocks-extend-rout-amid-ai-debt-concerns-saxo-says-financing-squeeze-could-hit-supply-chain/
 · TSM TSMC stock drops despite record profit amid 'extremely robust demand' for AI chips (Yahoo Finance) https://finance.yahoo.com/markets/stocks/article/tsmc-stock-drops-despite-record-profit-amid-extremely-robust-demand-for-ai-chips-152649370.html
 · TSM Taiwan's chipmaker TSMC explores collaborating with Elon Musks's Terafab complex in Texas (Fortune) https://fortune.com/2026/10/15/elon-musk-tsmc-ai-texas-terafab/
-· COHR CRDO vs. COHR: Which AI Connectivity Stock Is the Better Buy? (TradingView (Reuters)) https://www.tradingview.com/news/zacks:36887b035094b:0-crdo-vs-cohr-which-ai-connectivity-stock-is-the-better-buy/
-· MMM MMM Q3 Earnings on Deck: How to Approach the Stock Now? (TradingView (Reuters)) https://www.tradingview.com/news/zacks:4f2afbd94094b:0-mmm-q3-earnings-on-deck-how-to-approach-the-stock-now/
-· BTC Bitcoin & XRP Slip as US PPI Inflation Comes in Hot at 6.3%, Eyes on Fed Kevin Warsh’s Speech (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-xrp-slip-us-ppi-134202675.html
-· NOK Nokia stock may move 8.9% on earnings release next week By Investing.com (Investing.com) https://news.google.com/rss/articles/CBMitAFBVV95cUxQTkk3SGQ2eERZY1diSHdTWXQ3N2xWWWpGY3dXUEpITEo1MWVTbmprMTViYjRtUkk2eTlhUkx3QmRJREpsMEdUWDlOdU10MTRBNXV0SC1IUDB5Mzd5akh0LUJTVUNpRFh4T21SUE5IVlJqVDE4OGxTLVFtSDF6dFhTcXprNFp0VVVaTzM1V3FVVkhTajRfdHNqY1hlakdrZFltUmZraWxETTJobC1BY0ZWZEtHNFY?oc=5
-· MRVL Marvell Stock: A Brutal Selloff, An Even Bigger Opportunity (NASDAQ:MRVL) (Seeking Alpha) https://seekingalpha.com/article/4954529-marvell-stock-a-brutal-selloff-an-even-bigger-opportunity
-· USDBRL Dólar sobe e Ibovespa cai após pesquisa indicar empate técnico entre Flávio e Lula (TradingView (Reuters)) https://br.tradingview.com/news/reuters.com,2026:newsml_L1N4610TH:0/
-· ITUB4 Itaú fecha acordo para comprar 35% da gestora Prisma Capital (Estadao) https://www.estadao.com.br/economia/negocios/itau-fecha-acordo-gestora-prisma-capital/
-· BAC Bank Of America: Still Long After Earnings (NYSE:BAC) (Seeking Alpha) https://seekingalpha.com/article/4954524-bank-of-america-still-long-after-earnings
-· SMAL11 Small caps podem liderar nova onda de alta da Bolsa em 2027; veja ações com maior potencial (Money Times) https://www.moneytimes.com.br/small-caps-podem-liderar-nova-onda-de-alta-da-bolsa-em-2027-veja-acoes-com-maior-potencial-lils/
-· USDBRL Dólar sobe a R$ 5,04 e Bolsa cai com fim da 6x1 e vendas do varejo no radar (UOL Economia) https://economia.uol.com.br/cotacoes/noticias/redacao/2026/10/15/dolar-bolsa-abre-hoje-15-de-outubro-de-2026.ghtm
-· VALE3 Para CEO da Vale, independentemente do resultado da eleição, mineração vai ser um elemento fundamental (Valor Economico) https://valor.globo.com/empresas/noticia/2026/10/15/para-ceo-da-vale-independentemente-do-resultado-da-eleicao-mineracao-vai-ser-um-elemento-fundamental.ghtml
-· AVGO Why Is Broadcom (AVGO) Warning That The AI Boom Looks Like Gambling? (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/why-broadcom-avgo-warning-ai-150940968.html
-· (+68 manchetes; lista completa em eventos/noticias.json)
+· (+80 manchetes; lista completa em eventos/noticias.json)
