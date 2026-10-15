@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 15/10 11h21
+NOTÍCIAS E FATOS · 15/10 12h21
 
-Pernas: noticias ok 13 novas (18 consultas; descartadas: 445 veículo fora da lista, 41 sem ativo, 4 teto) · cvm ok 0 novos de 0 (0 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 15 novas (18 consultas; descartadas: 457 veículo fora da lista, 42 sem ativo, 6 teto) · cvm ok 0 novos de 9 (7 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (1)
 
@@ -157,8 +157,23 @@ Fonte: Yahoo Finance 14/10 10h03
 id: E05-BAC-005e3f53ca-2026-10-14 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (43)
+## OUTRAS NOTÍCIAS (só manchete) (58)
 
+· TSM AMD: TSMC Just Fired A $175 Billion Warning Shot (NASDAQ:AMD) (Seeking Alpha) https://seekingalpha.com/article/4954501-amd-tsmc-just-fired-a-175-billion-warning-shot
+· TSM Watch CoreWeave Slides on Debt; TSMC Moves on Outlook | Stock Movers (Bloomberg) https://www.bloomberg.com/news/videos/2026-10-15/coreweave-slides-on-debt-tsmc-moves-on-outlook-video
+· MINERIO Iron ore slips to two-year low on concerns over weak demand, rising supply (Mining.com) https://www.mining.com/web/iron-ore-slips-to-two-year-low-on-concerns-over-weak-demand-rising-supply/
+· DIRR3 Ação da Direcional recua após queda nas vendas e lançamentos do 3º tri (InfoMoney) https://www.infomoney.com.br/mercados/acao-da-direcional-recua-apos-queda-nas-vendas-e-lancamentos-do-3o-tri/
+· GOOGL From Search Destruction to Efficiency, I Have Faith in Alphabet’s Abilities (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/search-destruction-efficiency-faith-alphabet-144502407.html
+· KLBN4 Klabin (KLBN11): Citi prevê resultados estáveis no 3T26, mas vê pressão de custos; veja o que esperar (Money Times) https://www.moneytimes.com.br/klabin-klbn11-citi-preve-resultados-estaveis-no-3t26-mas-ve-pressao-de-custos-veja-o-que-esperar-pads/
+· BTC Bitcoin and Ethereum ETFs Lost $391 Million in a Day. Only XRP ETFs Took Money In. (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-ethereum-etfs-lost-391-141818508.html
+· BTC AI Price Prediction: We Asked Grok AI Which Recovers First From the October Selloff: Bitcoin, Ethereum, XRP or Solana (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/ai-price-prediction-asked-grok-141427521.html
+· BAC Bank of America (BAC): Can CashPro Make Earnings More Durable? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/bank-america-bac-cashpro-earnings-141252038.html
+· TSM What's causing the latest AI stock sell-off? Plus, TSMC earnings and Tesla's new Roadster (Yahoo Finance) https://finance.yahoo.com/video/whats-causing-the-latest-ai-stock-sell-off-plus-tsmc-earnings-and-teslas-new-roadster-140914242.html
+· BTC BlackRock's Larry Fink warns Bitcoin's leverage problem raises crash risks (TradingView (Reuters)) https://www.tradingview.com/news/cryptobriefing:5b962e565094b:0-blackrock-s-larry-fink-warns-bitcoin-s-leverage-problem-raises-crash-risks/
+· BTC SEC Approves Binary Options on Coinbase and MARA Metrics, but Not a Bet on Bitcoin’s Price (Yahoo Finance) https://finance.yahoo.com/markets/options/articles/sec-approves-binary-options-coinbase-132712946.html
+· TSM Taiwan Semiconductor Q3 Earnings & Revenues Top Estimates, Margins Up (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/taiwan-semiconductor-q3-earnings-revenues-131800915.html
+· TSM Taiwan Semiconductor Falls 3% Despite Record Quarterly Profit; Intel Drops 4%, AMD Slides 3% (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/taiwan-semiconductor-falls-3-despite-130847369.html
+· UST Treasury yields tumble despite a hot PPI print (Seeking Alpha) https://seekingalpha.com/news/4653383-treasury-yields-tumble-despite-a-hot-ppi-print
 · DIRR3 Direcional (DIRR3) cai até 6% após 'prévia fraca' do 3T26; veja o que pesou nos números, segundo analistas (Money Times) https://www.moneytimes.com.br/direcional-dirr3-cai-ate-6-apos-previa-fraca-do-3t26-veja-o-que-pesou-nos-numeros-segundo-analistas-igdl/
 · TSM TSMC stock sinks despite record profit amid 'extremely robust demand' for AI chips (Yahoo Finance) https://finance.yahoo.com/markets/stocks/article/tsmc-stock-sinks-despite-record-profit-amid-extremely-robust-demand-for-ai-chips-134324217.html
 · BAC TD Cowen maintains Hold rating on Bank of America, $56 price target (TradingView (Reuters)) https://www.tradingview.com/news/tradingview:a1841c06ecfb2:0-td-cowen-maintains-hold-rating-on-bank-of-america-56-price-target/
