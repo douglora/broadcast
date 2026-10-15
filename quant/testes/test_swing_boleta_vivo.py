@@ -99,7 +99,7 @@ def _retrato(agora, cot):
     return {"q": {t: [u, 0.0, ab, u, u, 1000.0, ab, agora.timestamp(), 0, 0, 0, 0, 0, 0, 0, 0, 0] for t, (u, ab) in cot.items()}, "mt5_idade_s": 0.2}
 
 
-def _boleta_com_ordem(ambiente, ticker="AAAA3", preco=20.0, stop=2.0, alvo=4.0, prazo=10, emitida=True):
+def _boleta_com_ordem(ambiente, ticker="AAAA3", preco=20.0, stop=2.0, alvo=4.0, prazo=10, emitida=True, gravada="08:35"):
     c = {"setup": "C1", "ticker": ticker, "sinal_em": "2026-10-09", "preco_ref": preco, "stop_dist": stop, "alvo_dist": alvo, "stop_ref": preco - stop, "alvo_ref": preco + alvo,
          "prazo": prazo, "adtv": 2e7, "top": True, "ibov_ok": True, "porque": "teste", "destino": "capital", "variante": "C1.S0", "qtd": 100, "valor": 2000.0,
          "mesa": {"conviccao": 0}, "ficha": {}}
@@ -109,6 +109,8 @@ def _boleta_com_ordem(ambiente, ticker="AAAA3", preco=20.0, stop=2.0, alvo=4.0, 
     import os
     os.makedirs(os.path.dirname(caminho), exist_ok=True)
     open(caminho, "w", encoding="utf-8").write(json.dumps(b))
+    t = _agora(gravada).timestamp()                                    # a boleta da manha sai antes do sino (o robo usa a hora em que ela foi gravada)
+    os.utime(caminho, (t, t))
     return b
 
 
@@ -269,3 +271,60 @@ def test_placar_conta_so_medidas_fechadas_e_respeita_a_sobreposicao(ambiente):
     assert linhas["A1.S0"]["acerto"] == pytest.approx(2 / 3) and linhas["A1.S0"]["expectativa_pct"] == pytest.approx(0.04 / 3)
     assert linhas["A1.S0"]["payoff"] == pytest.approx(0.025 / 0.01)
     assert painel.placar_capital(f)["operacoes"] == 1
+
+
+# ── 15/10/2026 (varredura, achado 9): ordem que so existiu depois da abertura nao entra no preco da abertura ──
+def test_ordem_liberada_a_tarde_entra_no_ultimo_preco_e_nao_na_abertura(ambiente, monkeypatch):
+    _liberar(ambiente, ["C1.S0"])
+    q = [{"AAAA3": (20.0, 20.0)}]
+    r = _robo(ambiente, monkeypatch, q)
+    _passo(r, "10:00", q)                                                              # de manha nao ha ordem com capital
+    assert r.estado["posicoes"] == []
+    _boleta_com_ordem(ambiente, preco=20.0, stop=2.0, alvo=4.0, gravada="15:09")       # a boleta e refeita as 15h09 com a ordem
+    _passo(r, "15:10", q, {"AAAA3": (22.0, 20.0)})                                    # abriu a 20, as 15h10 esta a 22
+    pos = [p for p in r.estado["posicoes"] if p["modo"] == "capital"][0]
+    assert pos["preco_entrada"] == 22.0 and pos["stop"] == 20.0 and pos["alvo"] == 26.0
+    assert pos["entrada_fora_da_abertura"] is True and pos["hora_entrada"] == "15:10" and pos["abertura_do_dia"] == 20.0
+    d = [x for x in r.estado["diario"] if x["tipo"] == "entrada"][-1]["texto"]
+    assert "a R$ 22,00" in d and "fora da abertura" in d
+
+
+def test_boleta_da_manha_com_robo_religado_a_tarde_continua_na_abertura(ambiente, monkeypatch):
+    _liberar(ambiente, ["C1.S0"])
+    _boleta_com_ordem(ambiente, gravada="08:35")                                       # a boleta saiu de manha, antes do sino
+    q = [{"AAAA3": (22.0, 20.0)}]
+    r = _robo(ambiente, monkeypatch, q)
+    _passo(r, "14:00", q)                                                              # o robo foi religado no meio do pregao
+    pos = [p for p in r.estado["posicoes"] if p["modo"] == "capital"][0]
+    assert pos["preco_entrada"] == 20.0 and "entrada_fora_da_abertura" not in pos
+
+
+def test_ordem_que_chega_depois_do_fechamento_e_cancelada(ambiente, monkeypatch):
+    _liberar(ambiente, ["C1.S0"])
+    q = [{"AAAA3": (22.0, 20.0)}]
+    r = _robo(ambiente, monkeypatch, q)
+    _passo(r, "16:00", q)
+    _boleta_com_ordem(ambiente, gravada="17:19")
+    _passo(r, "17:20", q)
+    assert r.estado["posicoes"] == [] and any("depois do fechamento" in x["texto"] for x in r.estado["diario"])
+
+
+# ── 15/10/2026 (varredura, achado 79): o aviso de "sem cotacao" acompanha o estado, nao fica acumulado ──
+def test_aviso_sem_cotacao_some_quando_a_cotacao_volta_e_nao_repete(ambiente, monkeypatch):
+    p = est.nova_posicao("C1", "AAAA3", "2026-10-09", 20.0, 2.0, 4.0, 10, 100, "2026-10-13", 2e7, modo="capital", porque="teste")
+    e = est.vazio()
+    e["posicoes"].append(p)
+    est.salvar(e)
+    q = [None]
+    r = _robo(ambiente, monkeypatch, q, hoje="2026-10-14")
+
+    def avisos():
+        return [a for a in json.load(open(ambiente / "tela" / "quant_fatores.json", encoding="utf-8"))["avisos"] if "sem cotação de hoje" in a]
+
+    _passo(r, "10:30", q, dia="2026-10-14")
+    assert len(avisos()) == 1 and avisos()[0].startswith("AAAA3:")
+    _passo(r, "10:31", q, {"AAAA3": (20.5, 20.2)}, dia="2026-10-14")
+    assert avisos() == []                                                              # a cotacao voltou: o stop esta sendo vigiado
+    q[0] = None
+    _passo(r, "11:00", q, dia="2026-10-14")
+    assert len(avisos()) == 1                                                          # nova queda: um aviso so, sem repetir

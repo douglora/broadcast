@@ -132,3 +132,26 @@ def test_arquivo_de_estado_vai_e_volta(pasta):
     de_volta = est.carregar()
     assert de_volta["posicoes"][0]["id"] == e["posicoes"][0]["id"] and de_volta["diario"][-1]["texto"] == "uma linha"
     assert est.carregar(str(pasta / "nao_existe.json"))["posicoes"] == []
+
+
+def test_entrada_fora_da_abertura_nao_usa_a_minima_de_antes_da_entrada(pasta):
+    """15/10/2026 (achado 9): a posicao que entrou as 15h10 a R$ 22 nao pode sair no stop pela minima da manha; a base e o preco de entrada."""
+    p = painel_plano(_sessoes("2026-10-01", 12))
+    barra(p, "AAAA3", "2026-10-13", o=20.0, h=22.5, l=18.0, c=22.2)           # a minima (18) e de antes da entrada; o stop e 20
+    barra(p, "AAAA3", "2026-10-14", o=22.3, h=26.5, l=22.0, c=26.0)           # alvo 26 (22 + 4) no dia seguinte
+    e = est.vazio()
+    pos = est.nova_posicao("C1", "AAAA3", "2026-10-09", 22.0, 2.0, 4.0, 10, 100, "2026-10-13", 2e7, modo="capital", porque="teste",
+                           extras={"entrada_fora_da_abertura": True, "hora_entrada": "15:10"})
+    e["posicoes"].append(pos)
+    n = est.conciliar(e, p, hoje="2026-10-20")
+    assert len(n) == 1 and n[0]["motivo_saida"] == "alvo" and n[0]["saida_em"] == "2026-10-14" and n[0]["preco_saida"] == pytest.approx(26.0)
+
+
+def test_entrada_fora_da_abertura_fecha_no_stop_se_o_fechamento_do_dia_ja_furou(pasta):
+    p = painel_plano(_sessoes("2026-10-01", 12))
+    barra(p, "AAAA3", "2026-10-13", o=20.0, h=22.5, l=19.0, c=19.5)           # o fechamento (posterior a entrada) ja esta abaixo do stop (20)
+    e = est.vazio()
+    e["posicoes"].append(est.nova_posicao("C1", "AAAA3", "2026-10-09", 22.0, 2.0, 4.0, 10, 100, "2026-10-13", 2e7, modo="capital",
+                                          extras={"entrada_fora_da_abertura": True}))
+    n = est.conciliar(e, p, hoje="2026-10-20")
+    assert n[0]["motivo_saida"] == "stop" and n[0]["saida_em"] == "2026-10-13" and n[0]["preco_saida"] == pytest.approx(20.0)
