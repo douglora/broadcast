@@ -1,5 +1,5 @@
 {
- "pregao": "2026-10-13",
+ "pregao": "2026-10-14",
  "nome": "InCashMarketBiggestLow",
  "titulo": "Mercado à vista - maiores baixas",
  "sla": "8:00:00",
@@ -7,18 +7,18 @@
  "colunas": [{"nome": "TckrSymb", "titulo": "Ação"}, {"nome": "Cod", "titulo": "Código"}, {"nome": "Price", "titulo": "Preço (R$)"}, {"nome": "OscillationDesc", "titulo": "Oscilação (%)"}],
  "texto": ["Mostra as maiores desvalorizações de ativos no mercado à vista num período."],
  "situacao": "publicado",
- "atualizado_em": "2026-10-13T18:50:20.067",
+ "atualizado_em": "2026-10-14T18:50:41.493",
  "truncada": false,
  "linhas": [
-  ["RBDS11", "CI", 1.7, -29.16],
-  ["C2HP34", "DRN", 12.43, -17.13],
-  ["M2KS34", "DRN", 69, -14.94],
-  ["PTBL3", "ON      NM", 2.8, -14.63],
-  ["I2ND34", "DRN", 11.03, -13.82],
-  ["Q2SC34", "DRN", 6.91, -12.42],
-  ["GFSA3", "ON      NM", 0.39, -11.36],
-  ["VAMO3", "ON      NM", 6.09, -11.22],
-  ["FSRF11", "CI", 0.08, -11.11],
-  ["F1BH34", "DRN", 195.3, -10.81]
+  ["C1AB34", "DRN EG", 47.1, -26.3],
+  ["BHIA3", "ON      NM", 1.09, -24.3],
+  ["PSVM11", "TPR", 10.6, -23.74],
+  ["DAMT11", "CI", 16.45, -19.99],
+  ["TRNT11", "CI", 115, -17.85],
+  ["C1TV34", "DRN", 16.8, -15.62],
+  ["SJAU11", "CI", 0.7, -14.63],
+  ["SEQL3", "ON      NM", 0.06, -14.28],
+  ["G1DS34", "DRN", 13.03, -13.24],
+  ["FSRF11", "CI", 0.07, -12.5]
  ]
 }

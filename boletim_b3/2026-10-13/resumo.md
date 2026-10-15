@@ -1,7 +1,7 @@
 # Boletim da B3: pregão de 13/10/2026 (terça)
 
-**Situação: COMPLETO.** Boletim atrasado pela B3 em 2026-10-14 10:53 (hora de Brasília).
-Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10-14T15:58:32Z (UTC).
+**Situação: COMPLETO.** Boletim publicado pela B3 em 2026-10-14 14:23 (hora de Brasília).
+Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10-15T00:52:01Z (UTC).
 
 [[LEITURA_DA_MESA]]
 
@@ -199,6 +199,18 @@ Parede = strike (preço de exercício) com a maior posição em aberto fora do d
 
 - Paridade: RARA11 -4,86% contra REMX em reais -1,27% (lá fora -1,25%, câmbio -0,02%); desvio de -3,59%. Fechamentos em horários diferentes: é aproximação.
 
+## Ações do livro em programa de ADR
+
+| Ativo | Ações em ADR (mi) | % da classe | Variação no pregão (mi) |
+|---|---:|---:|---:|
+| ITUB4 | 1.262,5 | 23,3% | +0,00 |
+| PETR4 | 761,6 | 14,0% | +0,00 |
+| VALE3 | 1.261,8 | 28,4% | +0,00 |
+| UGPA3 | 70,3 | 6,3% | +0,00 |
+| AXIA3 | 47,8 | 2,0% | -0,07 |
+
+ADR = recibo da ação negociado em Nova York. Ações entrando no programa indicam compra lá fora; saindo, venda.
+
 ## Radar do mercado: aluguel
 
 | Mais alugadas | % das ações | Taxa | Preço em 5 pregões |
@@ -320,9 +332,10 @@ Por classe, mediana das taxas de referência dos papéis. Taxa de referência: n
 ## Lacunas e pendências
 
 - aluguel por corretora: ignorado
-- Custody: atrasado
 - Publicadas pela B3 depois do prazo, mas com dado: AnalyticalFramework2.
 - Posição em aberto de derivativos por tipo de investidor (estrangeiro, institucional, pessoa física): não existe no Boletim Diário do Mercado; procurado nas 69 tabelas e no texto dos 11 cadernos em 30/09/2026.
 - Fluxo por tipo de investidor sai acumulado no mês e com dois pregões de atraso; o saldo de um dia é a diferença entre dois acumulados seguidos.
 - RARA11: a B3 não publica valor de referência da cota (IOPV) para este ETF no boletim.
 - Paridade de MELI34: sem a barra de 13/10 de MELI nas séries do livro.
+
+Boletim completo em PDF (B3): https://arquivos.b3.com.br/bdi/download/bdi/2026-10-13/BDI_00_20261013.pdf

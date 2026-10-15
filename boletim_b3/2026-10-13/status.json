@@ -1,11 +1,11 @@
 {
  "pregao": "2026-10-13",
- "situacao": "atrasado",
+ "situacao": "publicado",
  "errata": false,
- "atualizado_em": "2026-10-14T10:53:18.357",
+ "atualizado_em": "2026-10-14T14:23:52",
  "completo": {
-  "arquivo": "",
-  "pdf": ""
+  "arquivo": "BDI_00_20261013.pdf",
+  "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-10-13/BDI_00_20261013.pdf"
  },
  "cadernos": [
   {
@@ -92,9 +92,9 @@
    "id": 41,
    "nome": "Clearing e depositária",
    "pai": 4,
-   "situacao": "publicado",
-   "errata": false,
-   "atualizado_em": "2026-10-14T08:18:05.12",
+   "situacao": "republicado",
+   "errata": true,
+   "atualizado_em": "2026-10-14T17:15:38.13",
    "arquivo": "BDI_04-1_20261013.pdf",
    "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-10-13/BDI_04-1_20261013.pdf"
   },

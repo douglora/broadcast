@@ -1,5 +1,5 @@
 {
- "pregao": "2026-10-13",
+ "pregao": "2026-10-14",
  "nome": "InCashMarketBiggestHighs",
  "titulo": "Mercado à vista - maiores altas",
  "sla": "8:00:00",
@@ -7,18 +7,18 @@
  "colunas": [{"nome": "TckrSymb", "titulo": "Ação"}, {"nome": "Cod", "titulo": "Código"}, {"nome": "Price", "titulo": "Preço (R$)"}, {"nome": "Oscillation", "titulo": "Oscilação (%)"}],
  "texto": ["Mostra as maiores valorizações de ativos no mercado à vista, destacando as melhores performances."],
  "situacao": "publicado",
- "atualizado_em": "2026-10-13T18:50:17.38",
+ "atualizado_em": "2026-10-14T18:50:40.66",
  "truncada": false,
  "linhas": [
-  ["C1AB34", "DRN EG", 63.91, 12.87],
-  ["LUPA3", "ON      NM", 4.78, 15.73],
-  ["D1XC34", "DRN", 64.76, 17.44],
-  ["S2NA34", "DRN", 5.56, 17.79],
-  ["C1TV34", "DRN EC", 19.91, 20.88],
-  ["R1MD34", "DRN", 294.47, 21.04],
-  ["JFEN3", "ON", 3.17, 46.75],
-  ["VIVR12", "BNS ORD NM", 0.12, 71.42],
-  ["VIVR3", "ON      NM", 4.09, 73.3],
-  ["B2MB34", "DRN", 5.12, 100]
+  ["CARE11", "CI", 5.5, 10],
+  ["VIVR3", "ON      NM", 4.57, 11.73],
+  ["P2IN34", "DRN", 18.24, 12.8],
+  ["AERI3", "ON      NM", 2.55, 12.83],
+  ["BKCH39", "DRE", 29.78, 13.49],
+  ["STYI11", "CI", 795, 15.21],
+  ["B2MB34", "DRN", 5.98, 16.79],
+  ["TCSA3", "ON      NM", 0.89, 21.91],
+  ["JFEN3", "ON", 3.89, 22.71],
+  ["FLEM11", "CI", 142, 42]
  ]
 }

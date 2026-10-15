@@ -1,6 +1,6 @@
 {
  "pregao": "2026-10-13",
- "coletado_em": "2026-10-14T15:58:03Z",
+ "coletado_em": "2026-10-15T00:51:15Z",
  "tabelas": {
   "SharesInvesVolum": {
    "titulo": "Participação dos investidores",
@@ -244,10 +244,10 @@
   },
   "Custody": {
    "titulo": "Ações custodiadas - programa de ADR",
-   "situacao": "atrasado",
-   "atualizado_em": "2026-10-14T07:01:19.747",
+   "situacao": "publicado",
+   "atualizado_em": "2026-10-14T17:13:17.33",
    "sla": "7:00:00",
-   "linhas": 0,
+   "linhas": 64,
    "truncada": false
   },
   "FugibleCustody": {
