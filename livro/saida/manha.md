@@ -1,86 +1,81 @@
 BLOCO A
 ```
-MANHÃ DO LIVRO · qua 14/10 · 08h34 BRT (curvas D-1)
-Relógios: Yahoo 08h34 · DI ajuste 13/10 · Tesouro
-  base 13/10 · UST CMT 13/10 · PTAX 13/10
+MANHÃ DO LIVRO · qui 15/10 · 08h33 BRT (curvas D-1)
+Relógios: Yahoo 08h33 · DI ajuste 14/10 · Tesouro
+  base 14/10 · UST CMT 14/10 · PTAX 14/10
 
-ALERTAS DO DIA (58 · 3 críticos)
-[CRÍTICO] C05 IPCA+ 2050 PU -5,0% em 5 datas-base
-          (base 13/10)
-[CRÍTICO] T05 SAPR4 -7,9% no dia a R$ 7,97:
-          movimento de 3,0 desvios para uma vol de
-          20 dias de 43% a.a.
-[CRÍTICO] T08 QNTM entrou em bear técnico: -21% do
-          pico de 52s (US$ 34,65 em 02/06) a US$
-          27,35
-[ATENÇÃO] C06 Inflação implícita: implícita 2029
-          +188 bps acima do Focus · implícita 2032
-          cruzou 5,50% · implícita 2031/32
-          (descasado) +189 bps acima do Focus
-[ATENÇÃO] E01 TSM: resultado sai na próxima sessão
-          (15/10)
-[ATENÇÃO] M01 Agenda: Vencimento de opcoes sobre
-          indice e futuros de Ibovespa (B3) hoje
-          (14/10)
-[ATENÇÃO] E04 BAC · 8-K: 2.02 resultado do
-          trimestre, 7.01 Regulation FD
-[ATENÇÃO] E05 BAC · Earnings Snapshot: Bank of
-          America falls short of Q3 revenue and EPS
-          estimates as provision for credit losses
-          hits $1.30B
-(+50 em alertas.md)
+ALERTAS DO DIA (69 · 9 críticos)
+[CRÍTICO] T05 MRVL -8,7% no dia a US$ 245,28:
+          movimento de 3,3 desvios para uma vol de
+          20 dias de 45% a.a.
+[CRÍTICO] T05 BAC -4,8% no dia a US$ 51,39:
+          movimento de 4,0 desvios para uma vol de
+          20 dias de 19% a.a.
+[CRÍTICO] T08 QANT entrou em bear técnico: -22% do
+          pico de 52s (US$ 7,30 em 01/06) a US$ 5,67
+[CRÍTICO] T08 WQTMUS entrou em queda de -30% do
+          pico: -31% do pico de 52s (US$ 41,31 em
+          02/06) a US$ 28,46
+[CRÍTICO] T08 LITE entrou em bear técnico: -21% do
+          pico de 52s (US$ 1.133 em 06/10) a US$
+          896,33
+[CRÍTICO] T08 BAC entrou em bear técnico: -21% do
+          pico de 52s (US$ 64,81 em 12/08) a US$
+          51,39
+[CRÍTICO] T08 EWY entrou em queda de -25% do pico:
+          -27% do pico de 52s (US$ 219,20 em 18/06)
+          a US$ 159,83
+[CRÍTICO] T08 RARA11 entrou em queda de -30% do
+          pico: -32% do pico de 52s (R$ 18,56 em
+          21/08) a R$ 12,55
+(+61 em alertas.md)
 
-ALTAS  META +2,6% · ETH +2,1% · AMD +1,9% · BTC
-       +1,6% · PETR4 +1,5%
-BAIXAS SAPR4 -7,9% · RARA11 -4,9% · MRVE3 -4,3% · MU
-       -3,6% · SMAL11 -3,4%
+ALTAS  GFS +4,8% · PETR4 +2,2% · CVX +2,0% · KO
+       +1,9% · AXIA3 +1,8%
+BAIXAS LITE -9,3% · COHR -9,2% · MRVL -8,7% · AMD
+       -5,7% · BAC -4,8%
 
-NOTÍCIAS E FATOS (30 com materialidade ·
+NOTÍCIAS E FATOS (31 com materialidade ·
   noticias.md)
-· TSM TSM: resultado sai na próxima sessão (15/10)
-  (agenda)
-· MACRO Agenda: Vencimento de opcoes sobre indice e
-  futuros de Ibovespa (B3) hoje (14/10) (agenda)
-· BAC 8-K: 2.02 resultado do trimestre, 7.01
-  Regulation FD (SEC)
-· BAC Earnings Snapshot: Bank of America falls short
-  of Q3 revenue and EPS estimates as provision for
-  credit losses hits $1.30B (TradingView (Reuters))
-· BAC Bank of America posts third-quarter profit
-  drop due to $1.2 billion Treasury fine (CNBC)
-· MRVL Marvell: A $37.5 Billion Business Is Quietly
-  Carrying The Growth Plan (Seeking Alpha)
-  (+24)
+· BTC Citigroup Raises Its 12-Month Price Target for
+  Bitcoin to $113,000. These Are the 3 Catalysts
+  Investors Need to Watch. (Yahoo Finance)
+· JPM JPMorgan upgrades ArcelorMittal stock rating
+  on earnings outlook (Investing.com)
+· TSM Earnings Snapshot: Taiwan Semiconductor
+  Manufacturing tops Q3 estimates, gives Q4 revenue
+  guidance above estimates (TradingView (Reuters))
+· BAC Stock Market Today, Oct. 14: Bank of America
+  Shares Fall 5% on Earnings Miss and Compliance
+  Penalty (Yahoo Finance)
+· BAC Bank of America CEO on $1.2 billion fine:
+  We're on the right course to remediate everything
+  (CNBC)
+· BTC YieldMax Bitcoin Option Income Strategy ETF
+  declares $0.159 dividend (TradingView (Reuters))
+  (+25)
 
 CURVAS · taxa (Δ bps)
-DI (ajuste 13/10, Δ dia·sem bps) F28 12,70 (+17·+4)
-    F29 12,44 (+22·-15) F30 12,45 (+24·-17) F32
-    12,54 (+24·-18) F35 12,58 (+23·-21)
-    ABRIU; F35-F28 -12 bps (+6)
-TD (base 13/10, Δ desde 09/10) Pre 2029 12,40 (+10)
-    · Pre 2031 12,43 (-2) · Pre 2032 12,51 (-3) ·
-    IPCA+ 2032 6,68 (+3) · IPCA+ 2035 6,69 (+3) ·
-    IPCA+ 2040 6,56 (+5) · IPCA+ 2050 6,57 (+9) ·
-    IPCA+ 2029 6,66 (+4)
-    Implícita 2029 5,38% · 2032 5,46% · 2031/32
-    (descasado) 5,39% vs Focus IPCA 2027 4,30%
-UST (CMT 13/10) 2y 4,79 (-1) · 10y 5,21 (-3) · 30y
-    5,56 (-4) · 2s10s +42 (-2)
-Regime: VIX 15,3 (+0,4%) · score risco 0 de 5 ·
+DI (ajuste 14/10, Δ dia·sem bps) F28 12,70 (+0·+9)
+    F29 12,44 (-0·-2) F30 12,45 (0·-7) F32 12,57
+    (+3·-8) F35 12,61 (+3·-12)
+    ABRIU; F35-F28 -9 bps (+3)
+TD (base 14/10, Δ desde 13/10) Pre 2029 12,54 (+14)
+    · Pre 2031 12,62 (+19) · Pre 2032 12,72 (+21) ·
+    IPCA+ 2032 6,72 (+4) · IPCA+ 2035 6,74 (+5) ·
+    IPCA+ 2040 6,61 (+5) · IPCA+ 2050 6,62 (+5) ·
+    IPCA+ 2029 6,72 (+6)
+    Implícita 2029 5,45% · 2032 5,62% · 2031/32
+    (descasado) 5,53% vs Focus IPCA 2027 4,30%
+UST (CMT 14/10) 2y 4,82 (+3) · 10y 5,19 (-2) · 30y
+    5,52 (-4) · 2s10s +37 (-5)
+Regime: VIX 16,9 (+10%) · score risco 0 de 5 ·
     regime de vol LIGADO
 
 LEITURA DA MESA
 <<LEITURA_DA_MESA>>
 
 AGENDA
-qua 14/10 09:30 CPI de setembro (BLS)
-qua 14/10 Vencimento de opcoes sobre indice e
-    futuros de Ibovespa (B3)
-qua 14/10 ex-dividendo MU US$ 0,15 (último provento,
-    Yahoo)
-qua 14/10 ex-dividendo BBDC4 R$ 0,02 (último
-    provento, Yahoo)
-qua 14/10 resultado BAC (antes de NY, confirmado)
 qui 15/10 09:30 PPI de setembro (BLS)
 qui 15/10 11:00 Leilao do Tesouro: NTN-B
 qui 15/10 resultado TSM (madrugada, estimado)
@@ -91,9 +86,11 @@ qua 21/10 resultado META (Yahoo, estimado)
 qua 21/10 resultado TSLA (Yahoo, estimado)
 qui 22/10 resultado NOK (madrugada, estimado)
 sex 23/10 resultado CVX (antes de NY, estimado)
+ter 27/10 resultado KO (antes de NY, estimado)
+ter 27/10 resultado MMM (antes de NY, estimado)
+qua 28/10 resultado GOOGL (após NY, estimado)
 
-LACUNAS: bcb: BCB devolveu 4 de 5 séries (faltaram
-  cdi_dia).
+LACUNAS: nenhuma perna falhou.
 Fontes: Yahoo Finance · B3 Boletim Diário · Tesouro
   Transparente · Treasury.gov CMT · BCB
 ```
@@ -102,86 +99,86 @@ BLOCO B
 ```
 VARIAÇÃO %         últ  dia   1s   1m   6m   1a  YTD
 UCITS (USD)
-VWRA   Mundo    193,12 -0,3 -1,3 -0,3 +8,9  +18  +13
-CSPX   S&P500   840,44 -0,2 -0,6 +1,6  +13  +18  +14
-CNDX   Nasdaq    1.749 -0,8 -2,9 +3,3  +19  +23  +19
-VHYA   AltDiv   105,46 +0,1 -0,1 -2,8 +4,8  +21  +14
-WUTI   Utilit    67,11 +0,4 +1,5 -1,6 -8,6 +0,9 +1,4
-RBOT   Robot     21,97 -1,3 -4,4 +4,5  +26  +36  +35
-IUAA   RF EUA     5,59 +0,4 +0,4 -1,2 -3,0 -1,9 -2,8
-IB01   T-bill   122,16  0,0 +0,1 +0,3 +1,8 +3,7 +2,8
+VWRA   Mundo    191,78 -0,7 -0,8 -0,1 +7,8  +18  +12
+CSPX   S&P500   835,61 -0,6 -0,4 +1,7  +11  +18  +13
+CNDX   Nasdaq    1.733 -0,9 -2,9 +3,5  +16  +23  +18
+VHYA   AltDiv   105,00 -0,4 +0,6 -2,8 +4,6  +20  +13
+WUTI   Utilit    66,91 -0,3 +1,5 -0,2 -8,5 +0,4 +1,1
+RBOT   Robot     21,72 -1,2 -3,2 +5,3  +24  +35  +33
+IUAA   RF EUA     5,57 -0,5 +0,2 -1,4 -3,4 -2,5 -3,3
+IB01   T-bill   122,16  0,0  0,0 +0,3 +1,8 +3,7 +2,8
 ETFs EUA (USD)
-SPY    S&P 500  778,01  0,0 -0,1 +2,0  +13  +19  +15
-QQQ    Nasdaq   743,57 -0,3 -2,1 +4,1  +19  +24  +21
-SMH    Semis    588,12 -0,5 -7,0 +3,4  +30  +74  +63
-SOXX   SOXX     543,90 -0,2 -7,7 +3,3  +36  +92  +81
-XLK    Tech SP  196,28  0,0 -2,8 +4,7  +33  +38  +37
-VGT    Tech VG  126,48  0,0 -2,6 +4,6  +32  +35  +35
-IGV    Softwar  110,98 -0,3 -0,2 +9,3  +40 -3,2 +5,0
-BOTZ   Robotic   34,96 +0,2 -3,3 -0,9 -4,4 -4,4 -3,5
+SPY    S&P 500  769,60 -1,1 -1,0 +1,4  +11  +17  +14
+QQQ    Nasdaq   728,95 -2,0 -3,8 +2,9  +15  +22  +19
+SMH    Semis    564,74 -4,0 -9,6 +4,3  +25  +70  +57
+SOXX   SOXX     519,42 -4,5  -11 +4,5  +29  +87  +73
+XLK    Tech SP  190,43 -3,0 -5,4 +3,5  +27  +36  +33
+VGT    Tech VG  122,85 -2,9 -5,0 +3,2  +26  +32  +31
+IGV    Softwar  107,65 -3,0 -2,0 +0,9  +30 -5,2 +1,9
+BOTZ   Robotic   34,11 -2,4 -4,4 -1,9 -7,1 -6,0 -5,8
 Temáticos: quântica e metais (USD)
-QNTM   Quantum   27,35 -2,0 -8,2 -6,1 +7,8 -2,9 +9,0
-QANT   Quantum    5,80 -0,6 -5,5 -4,6  +13    -  +15
-WQTM   Quantum   34,82 -2,2 -9,5 -7,2 +6,5 -0,7  +16
-WQTMUS Quantum   29,72 -1,7 -9,0 -7,0 +3,9 -5,1  +15
-QTUM   Quantum  147,61 -0,6 -6,2 +0,4  +21  +33  +36
-REMX   TerrasR   57,45 -1,3 -9,9  -19  -42  -26  -22
+QNTM   Quantum   26,53 -3,0 -8,0 -8,1 +0,9 -7,0 +5,7
+QANT   Quantum    5,67 -2,3 -5,6 -6,4 +4,1    -  +12
+WQTM   Quantum   33,94 -2,5 -9,4 -7,3 -0,5 -4,1  +13
+WQTMUS Quantum   28,46 -4,2  -11 -8,8 -5,3 -9,4  +10
+QTUM   Quantum  141,83 -3,9 -8,2 -0,4  +15  +29  +30
+REMX   TerrasR   55,78 -2,9 -9,9  -19  -43  -29  -25
 EUA · Semicondutores e óptica
-NVDA   Nvidia   228,52 +1,0 -4,5 +4,7  +17  +22  +23
-AMD    AMD      605,53 +1,9 -6,8  +17 +137 +180 +183
-AVGO   Broadco  357,31 +0,7 -4,9 -1,1 -5,8 +0,9 +3,8
-MRVL   Marvell  268,73 +1,1 -6,3  +14 +101 +201 +217
-INTC   Intel    102,81 +1,4 -8,6 -0,1  +61 +176 +179
-MU     Micron   953,19 -3,6 -8,8 -2,3 +105 +395 +234
-TSM    TSMC     445,12 +0,2 -7,7 +3,0  +18  +49  +48
-GFS    GlobalF   46,70 -3,4 -4,0 -0,3 -3,2  +36  +34
-LITE   Lumentu  987,99 -0,7  -13 +6,6  +16 +515 +168
-COHR   Coheren  289,98 +0,7  -14 -5,0 -7,5 +152  +57
-NOK    Nokia      9,86 -0,4  -10  -11 -4,7  +88  +52
+NVDA   Nvidia   221,30 -3,2 -6,8 +4,9  +12  +23  +19
+AMD    AMD      570,82 -5,7  -12  +16 +121 +162 +167
+AVGO   Broadco  346,25 -3,1 -8,0 +0,6  -12 +1,4 +0,6
+MRVL   Marvell  245,28 -8,7  -14  +12  +82 +185 +189
+INTC   Intel     98,12 -4,6  -13 +1,0  +51 +175 +166
+MU     Micron   914,13 -4,1  -16 -1,1 +100 +389 +221
+TSM    TSMC     430,00 -3,4 -8,9 +3,1  +15  +47  +43
+GFS    GlobalF   48,94 +4,8 +1,8  +13 +1,7  +40  +41
+LITE   Lumentu  896,33 -9,3  -19 +7,3 +8,8 +472 +143
+COHR   Coheren  263,32 -9,2  -21 -1,2  -15 +141  +43
+NOK    Nokia      9,40 -4,7  -11 -2,6 -5,9  +72  +45
 EUA · Tecnologia e plataformas
-META   Meta     762,50 +2,6 +3,2  +18  +15 +6,9  +16
-GOOGL  Google   353,78 +0,3 +1,8 +4,5 +6,4  +45  +13
-AMZN   Amazon   258,58 -0,4 +0,9 +0,7 +3,8  +17  +12
-PLTR   Palanti  208,67 -0,2 +8,6  +25  +54  +18  +17
-TSLA   Tesla    375,23 -0,7 -1,4 +2,7 +3,0  -14  -17
-BABA   Alibaba  110,85 +0,1 +1,5 +1,4  -15  -33  -24
+META   Meta     737,54 -3,3 +2,3  +11  +10 +4,4  +12
+GOOGL  Google   347,64 -1,7 -0,8 -0,5 +3,2  +42  +11
+AMZN   Amazon   254,08 -1,7 -2,2 +0,2 +2,2  +17  +10
+PLTR   Palanti  200,97 -3,7 +3,5  +16  +41  +12  +13
+TSLA   Tesla    367,16 -2,2 -2,8 +2,3 -6,3  -14  -18
+BABA   Alibaba  111,17 +0,3 +3,9 +1,8  -16  -31  -23
 EUA · Bancos
-JPM    JPM      331,43 -0,9  0,0 -6,5 +7,5 +9,7 +4,8
-BAC    BofA      53,96 -1,1 -0,2  -14 +2,2  +13 -0,3
+JPM    JPM      335,28 +1,2 +1,7 -3,8  +11  +13 +6,1
+BAC    BofA      51,39 -4,8 -4,0  -14 -4,4 +4,8 -5,1
 EUA · Consumo, energia e indústria
-KO     Coca      90,11 +0,4 +4,6 +2,7  +20  +38  +31
-CVX    Chevron  217,73 +1,3 +4,9 +1,7  +19  +49  +47
-MMM    3M       162,77 +1,2 -0,5 -1,3 +7,7 +9,7 +3,1
+KO     Coca      91,78 +1,9 +6,9 +3,3  +23  +40  +34
+CVX    Chevron  222,04 +2,0 +8,2 +4,7  +22  +51  +50
+MMM    3M       164,46 +1,0 +1,4 +1,5 +9,8 +9,8 +4,2
 Hipótese (ETF país, a confirmar)
-EWY    Coreia   166,56 -2,1  -11  -12  +14 +104  +71
-MCHI   China     52,14  0,0 -0,2 -1,5 -9,5  -16  -13
+EWY    Coreia   159,83 -4,0  -13 -9,3  +10  +98  +64
+MCHI   China     51,44 -1,3 -0,4 -3,5  -11  -16  -14
 BR (R$)
-EQTL3  Equatr    49,20 -3,1 +2,1  +24 +9,2  +45  +28
-SAPR4  Sanepar    7,97 -7,9 +7,4  +18 -2,8  +17 +3,3
-KLBN4  Klabin     3,64 +0,3 -1,1 -5,5 -6,4  +12 -3,2
-ALUP4  Alupar    12,70 +0,8  +11  +16  +13  +35  +27
-ITUB4  Itau      49,68 -1,6 -1,5  +16 +8,0  +48  +29
-BBDC4  Bradesc   21,40 -1,0 -6,1  +15 +5,6  +35  +23
-PETR4  Petro     56,85 +1,5 +5,6  +16  +26 +106  +96
-VALE3  Vale      67,16 -1,1 -4,6  -14  -22  +22 -4,1
-MELI34 MeLi      78,70 +0,1 +2,1 -3,0 +3,0  -20  -15
-UGPA3  Ultra     38,80 -0,7 +0,1 +2,1  +33  +96  +91
-AXIA3  Axia      58,85 -1,7 -1,1 +7,4  -12  +17  +16
-ITSA4  Itausa    15,99 -2,0 -3,3  +13 +9,4  +63  +40
-BBAS3  BB        24,25 -1,6 -1,6 +7,8 -3,3  +19  +13
-SBSP3  Sabesp    32,54 -3,2 +1,6  +20 -3,7  +39  +23
-SMAL11 SmallC   134,99 -3,4 +5,0  +22 +7,6  +30  +20
-RARA11 TerrasR   12,92 -4,9 -9,1  -20    -    -    -
-DIRR3  Direc     11,93 -3,0 +4,9  +14  -19  -10  -16
-MRVE3  MRV        7,48 -4,3  +17  +30 -5,4  +20 -4,0
-CURY3  Cury      33,57 -2,8 +9,0 +5,5 -4,3  +24 +9,5
+EQTL3  Equatr    49,00 -0,4  0,0  +24 +8,0  +45  +27
+SAPR4  Sanepar    7,88 -1,1 -2,0  +16 -1,9  +14 +2,1
+KLBN4  Klabin     3,63 -0,3 -1,4 -4,5 -5,7  +12 -3,5
+ALUP4  Alupar    12,84 +1,1 +4,4  +19  +17  +36  +29
+ITUB4  Itau      48,98 -1,4 -0,3  +16 +5,3  +46  +28
+BBDC4  Bradesc   20,87 -0,8 -3,4  +16 +4,7  +32  +22
+PETR4  Petro     58,11 +2,2 +7,0  +19  +32 +112 +101
+VALE3  Vale      66,72 -0,7 -3,0  -12  -22  +21 -4,7
+MELI34 MeLi      77,26 -1,8 -1,4 -4,1 -1,3  -22  -16
+UGPA3  Ultra     39,20 +1,0 +1,2 +2,2  +32 +100  +93
+AXIA3  Axia      59,91 +1,8 +0,1 +8,8 -9,6  +19  +18
+ITSA4  Itausa    15,73 -1,6 -1,7  +12 +6,4  +60  +38
+BBAS3  BB        24,19 -0,2  0,0 +9,4 +0,3  +20  +13
+SBSP3  Sabesp    32,37 -0,5 +1,0  +21 -5,1  +37  +22
+SMAL11 SmallC   133,38 -1,2 +2,4  +21 +6,8  +29  +19
+RARA11 TerrasR   12,55 -2,9 -9,5  -21    -    -    -
+DIRR3  Direc     11,66 -2,3 +0,1  +15  -19  -12  -17
+MRVE3  MRV        7,49 +0,1  +18  +35 -4,2  +20 -3,9
+CURY3  Cury      32,26 -3,9  0,0 +4,7 -4,5  +19 +5,2
 Macro
-USDBRL USD/BRL  5,0218 +0,7 +1,0 -2,0 +0,5 -9,1 -8,3
-DXY    DXY      102,18 -0,4 +0,3 +3,1 +4,1 +2,9 +4,0
-BRENT  Brent    105,69 -0,9 +5,1 +1,0  +11  +67  +74
-BTC    BTC      83.095 +1,6 -2,9 +8,1  +12  -28 -5,0
-ETH    ETH       2.497 +2,1 -7,4 +0,8 +7,5  -41  -16
-MINER* Minerio   90,72 -0,1 -0,5 -7,4  -15  -15  -15
+USDBRL USD/BRL  5,0287 +0,1 +0,3 -2,3 +0,9 -8,0 -8,2
+DXY    DXY      102,55 +0,4 +0,3 +3,1 +4,6 +3,5 +4,3
+BRENT  Brent    106,06 +0,4 +5,8 +0,4  +12  +70  +74
+BTC    BTC      81.562 -1,8 -2,1 +4,3 +9,0  -28 -6,8
+ETH    ETH       2.418 -3,1 -6,0 -3,8 +2,5  -41  -18
+MINER* Minerio   90,74  0,0 -0,4 -7,0  -15  -14  -15
 ```
 UCITS por extenso: VWRA Vanguard FTSE All-World
 UCITS ETF USD Accumulating · CSPX iShares Core S&P
@@ -197,6 +194,6 @@ Caixa em dolar e o IB01. · IB01 iShares $ Treasury
 Bond 0-1yr UCITS ETF USD (Acc). Hipótese: EWY
 iShares MSCI South Korea ETF · MCHI iShares MSCI
 China ETF (ETFs dos EUA, a confirmar).
-Minério: proxy Dalian 674 CNY/t (2026-10-14).
-Celulose: proxy SHFE SP (fibra longa) 4.730 CNY/t;
+Minério: proxy Dalian 672 CNY/t (2026-10-15).
+Celulose: proxy SHFE SP (fibra longa) 4.742 CNY/t;
 BHKP sem série diária.

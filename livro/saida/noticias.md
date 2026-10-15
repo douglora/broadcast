@@ -1,8 +1,8 @@
-NOTÍCIAS E FATOS · 14/10 20h52
+NOTÍCIAS E FATOS · 15/10 08h33
 
-Pernas: noticias ok 11 novas (18 consultas; descartadas: 455 veículo fora da lista, 38 sem ativo, 0 teto) · cvm ok 0 novos de 0 (0 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 24 novas (18 consultas; descartadas: 447 veículo fora da lista, 41 sem ativo, 47 teto) · cvm ok 1 novos de 9 (7 cias casadas) · sec ok 1 novos em 3 dias
 
-## FATOS RELEVANTES E COMUNICADOS (CVM) (1)
+## FATOS RELEVANTES E COMUNICADOS (CVM) (2)
 
 [ATENÇÃO] E03 · MRVE3 · Comunicado ao Mercado: MRVE3) Companhia disponibiliza ao mercado comunicado recebido pela para os fins do disposto no art. 12 da Instrução CVM nº 44/21, informando que rece…
 CVM · entregue 14/10/2026 18:00 · Aquisição/Alienação de Participação Acionária Relevante / Declaração de Alienação de Participação Acionária Relevante
@@ -18,10 +18,19 @@ Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; 
 Ativos: MRVE3
 Como falar: 'a MRV publicou comunicado ao mercado sobre MRVE3) Companhia disponibiliza ao mercado comunicado recebido pela pa…'
 Fonte: CVM 14/10
-id: E03-MRVE3-1577174-2026-10-14 · status: expirado · íntegra disponível
+id: E03-MRVE3-1577174-2026-10-14 · status: entregue · íntegra disponível
+
+[INFO] E03 · DIRR3 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
+CVM · entregue 14/10/2026 19:50 · Outros Comunicados Não Considerados Fatos Relevantes
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1577238
+Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; confirma ou nega o que circula
+Ativos: DIRR3
+Como falar: 'a Direcional Engenharia publicou comunicado ao mercado sobre Outros Comunicados Não Considerados Fatos Relevantes'
+Fonte: CVM 14/10
+id: E03-DIRR3-1577238-2026-10-14 · status: linha
 
 
-## SEC (8-K, 6-K, 10-Q, 10-K) (1)
+## SEC (8-K, 6-K, 10-Q, 10-K) (2)
 
 [ATENÇÃO] E04 · BAC · 8-K: 2.02 resultado do trimestre, 7.01 Regulation FD
 SEC EDGAR · aceito 14/10 07h44 · 8-K
@@ -32,8 +41,136 @@ Como falar: 'a BAC protocolou 8-K na SEC (2.02 resultado do trimestre, 7.01 Regu
 Fonte: SEC EDGAR 2026-10-14
 id: E04-BAC-26000481-2026-10-14 · status: entregue · íntegra disponível
 
+[INFO] E04 · TSM · 6-K: 6-K
+SEC EDGAR · aceito 15/10 07h40 · 6-K
+Do documento:
+  – 6-K  1  tsm-20261015x6k.htm  6-K  1934 Act Registration No. 1-14700   UNITED STATES   SECURITIES AND EXCHANGE COMMISSION   Washington, D.C.
+  – 99.2 2026 Third Quarter Earnings Conference Presentation Material.
+Link: https://www.sec.gov/Archives/edgar/data/1046179/000104617926000726/tsm-20261015x6k.htm
+Por que importa: 6-K e o relatorio de emissor estrangeiro: resultado, provento ou fato relevante do pais de origem
+Ativos: TSM
+Como falar: 'a TSM protocolou 6-K na SEC (6-K)'
+Fonte: SEC EDGAR 2026-10-15
+id: E04-TSM-26000726-2026-10-15 · status: linha · íntegra disponível
 
-## NOTÍCIAS COM MATERIALIDADE (28)
+
+## NOTÍCIAS COM MATERIALIDADE (37)
+
+[ATENÇÃO] E05 · BTC · Citigroup Raises Its 12-Month Price Target for Bitcoin to $113,000. These Are the 3 Catalysts Investors Need to Watch.
+Yahoo Finance · 15/10 06h35 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Citigroup just hiked its 12-month price target for Bitcoin (CRYPTO: BTC) on Oct.
+  – 1, raising it to $113,000 from $82,000.
+  – 14, its price is $81,700, so Citi's estimate implies an upside of about 38%.
+  – In 2009, a "Double Down" signal flashed for a little-known chipmaker called Nvidia.
+  – For the first time in years, that same "Total Conviction" signal is flashing for a company 1/100th the size of Nvidia.
+  – Citi expects about $5 billion of crypto ETF inflows during the coming 12 months as financial advisors slowly raise their clients' allocations.
+Link: https://finance.yahoo.com/markets/crypto/articles/citigroup-raises-12-month-price-093500260.html
+Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
+Ativos: BTC
+Como falar: 'saiu no Yahoo Finance: Citigroup Raises Its 12-Month Price Target for Bitcoin to $113,000. These Are the 3 Catal…; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 15/10 06h35
+id: E05-BTC-1cbadf421a-2026-10-15 · status: pendente
+
+[ATENÇÃO] E05 · JPM · JPMorgan upgrades ArcelorMittal stock rating on earnings outlook
+Investing.com · 15/10 04h44 · fonte única · licença: manchete
+Link: https://www.investing.com/news/analyst-ratings/jpmorgan-upgrades-arcelormittal-stock-rating-on-earnings-outlook-93CH-4950682
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: JPM
+Como falar: 'saiu no Investing.com: JPMorgan upgrades ArcelorMittal stock rating on earnings outlook; confirmar o número no texto antes de repassar'
+Fonte: Investing.com 15/10 04h44
+id: E05-JPM-8153fab406-2026-10-15 · status: pendente
+
+[ATENÇÃO] E05 · TSM · Earnings Snapshot: Taiwan Semiconductor Manufacturing tops Q3 estimates, gives Q4 revenue guidance above estimates
+TradingView (Reuters) · 15/10 04h25 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/seekingalpha:5bfae6485094b:0-earnings-snapshot-taiwan-semiconductor-manufacturing-tops-q3-estimates-gives-q4-revenue-guidance-above-estimates/
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: TSM
+Como falar: 'saiu no TradingView (Reuters): Earnings Snapshot: Taiwan Semiconductor Manufacturing tops Q3 estimates, gives Q4 revenue…; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 15/10 04h25
+id: E05-TSM-57caecd7af-2026-10-15 · status: pendente
+
+[ATENÇÃO] E05 · TSM · Earnings call transcript: TSMC beats Q3 2026 estimates as stock slips
+Investing.com · 15/10 04h21 · fonte única · licença: manchete
+Link: https://www.investing.com/news/transcripts/earnings-call-transcript-tsmc-beats-q3-2026-estimates-as-stock-slips-93CH-4950695
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: TSM
+Como falar: 'saiu no Investing.com: Earnings call transcript: TSMC beats Q3 2026 estimates as stock slips; confirmar o número no texto antes de repassar'
+Fonte: Investing.com 15/10 04h21
+id: E05-TSM-f710bbdb13-2026-10-15 · status: linha
+
+[ATENÇÃO] E05 · JPM · Wall Street’s earnings split: Goldman’s $18.7 billion blowout quarter—and why JPMorgan and BofA fell short
+Fortune · 15/10 04h00 · fonte única · licença: manchete
+Link: https://fortune.com/2026/10/15/what-jpmorgan-and-bofas-earnings-miss-and-goldmans-tk-blowout-quarter-say-about-the-state-of-the-economy/
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: JPM · BAC
+Como falar: 'saiu no Fortune: Wall Street’s earnings split: Goldman’s $18.7 billion blowout quarter—and why JPMorgan an…; confirmar o número no texto antes de repassar'
+Fonte: Fortune 15/10 04h00
+id: E05-JPM-bb5a46235a-2026-10-15 · status: linha
+
+[ATENÇÃO] E05 · TSM · TSMC posts record profit for a sixth straight quarter, beating estimates on AI boom
+CNBC · 15/10 02h37 · + Reuters · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – TSMC's third-quarter operating margin came in at 58.7%, exceeding the upper end of its guidance range of 58%, showcasing the pricing power enjoyed by the company as the AI boom fuels demand for semiconductors.
+  – TSMC forecast fourth-quarter revenue between $52.3 billion and $54.3 billion, representing a 14% sequential increase and a 58% jump from a year earlier at the midpoint of its guidance range, according to the company's e…
+  – The chipmaker expects its capital expenditure from 2026 to 2028 to be significantly higher than in the previous three years, as it continues to ramp up investments to support growing customer demand.
+  – TSMC expects its fourth-quarter business to be supported by continued strong demand for its advanced chipmaking technologies, including the ramp-up of its 2-nanometer process.
+  – "Even after those checks, TSMC says demand remains well above its supply capacity," he said, adding that it reinforces confidence in the AI buildout while ensuring investment decisions reflect customers' ability to depl…
+  – Advanced technologies, defined as 7-nanometer and more advanced technologies, made up for 79% of TSMC's total wafer revenue in the reported.
+Link: https://www.cnbc.com/2026/10/15/tsmc-third-quarter-profit-global-ai-.html
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: TSM
+Como falar: 'saiu no CNBC: TSMC posts record profit for a sixth straight quarter, beating estimates on AI boom; confirmar o número no texto antes de repassar'
+Fonte: CNBC 15/10 02h37
+id: E05-TSM-379e3fbca1-2026-10-15 · status: linha
+
+[ATENÇÃO] E05 · BTC · Nearly $1 billion in crypto bets liquidated as bitcoin, ether and XRP slide
+CoinDesk · 15/10 01h25 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Nearly $1 billion in crypto bets liquidated as bitcoin, ether and XRP slide Ether accounted for nearly 60% of the forced closures across the two largest cryptocurrencies, falling roughly twice as much as bitcoin.
+  – - Nearly $483 million in bitcoin and ether futures positions were liquidated over 24 hours as uncertainty about the Federal Reserve’s next interest-rate decision weighed on cryptocurrency markets.
+  – - Ether traders bore the brunt of the sell-off, with about $286 million in liquidations as ether fell more than 6 percent to roughly $2,350.
+  – - Bitcoin declined about 3 percent to around $81,000, while losses spread to smaller tokens including Solana, dogecoin and Zcash.
+  – Nearly $483 million in bitcoin and ether futures positions were closed over the past 24 hours as cryptocurrency prices fell Thursday, with ether traders taking the largest hit.
+  – Bitcoin traded around $81,000, down roughly 3% over 24 hours, while ether lost more than 6% to about $2,350.
+Link: https://www.coindesk.com/markets/2026/10/15/nearly-usd1-billion-in-crypto-bets-liquidated-as-bitcoin-ether-and-xrp-slide
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: BTC · ETH
+Como falar: 'saiu no CoinDesk: Nearly $1 billion in crypto bets liquidated as bitcoin, ether and XRP slide; confirmar o número no texto antes de repassar'
+Fonte: CoinDesk 15/10 01h25
+id: E05-BTC-b61dfcd20c-2026-10-15 · status: linha
+
+[ATENÇÃO] E05 · TSM · TSM Earnings Tomorrow: Can Strong AI Demand Boost Q3 Results?
+Yahoo Finance · 14/10 15h00 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Taiwan Semiconductor TSM or TSMC is scheduled to report its third-quarter 2026 results tomorrow, before market open.
+  – The company's advanced process technologies, particularly the 3nm family and growing demand for advanced packaging solutions, are also expected to support another quarter of solid growth.
+  – Image Source: Zacks Investment Research TSM stock gained a mere 2.7% during the July-September quarter of 2026, compared with the broader Computer and Technology sector's 4.3% growth.
+  – TSMC's earnings beat estimates in each of the trailing four quarters, with the average positive surprise being 10.13%.
+  – The Zacks Consensus Estimate for third-quarter EPS has improved 9.1% to $4.45 per share over the past three months.
+  – The estimated figure indicates a 52.4% rise from the year-ago earnings per share.
+Link: https://finance.yahoo.com/technology/ai/articles/tsm-earnings-tomorrow-strong-ai-180000620.html
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: TSM
+Como falar: 'saiu no Yahoo Finance: TSM Earnings Tomorrow: Can Strong AI Demand Boost Q3 Results?; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 14/10 15h00
+id: E05-TSM-fbfbb6462f-2026-10-14 · status: linha
+
+[ATENÇÃO] E05 · BAC · Bank of America stock sinks as $1.2 billion fine weighs on Q3 earnings
+Yahoo Finance · 14/10 10h03 · + Seeking Alpha · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Bank of America's (BAC) stock dropped 4.7% Wednesday after paring some losses as a $1.2 billion regulatory penalty dragged down the major lender's third quarter results.
+  – The nation's second biggest bank reported third quarter net income of $6.93 billion, or $0.91 per share, compared with the $1.10 per share analysts expected.
+  – Excluding the regulatory penalty, Bank of America said it earned $8.1 billion, or $1.08 per share.
+  – Revenue rose 3% to $30 billion, compared with expectations of roughly $30.6 billion.
+  – On a call with analysts Wednesday, CEO Brian Moynihan said the bank spent more than $200 million on remediation efforts during the quarter and has assigned thousands of employees to the work.
+  – "We have a clear understanding of what we need to do.
+Link: https://finance.yahoo.com/markets/article/bank-of-america-stock-sinks-as-12-billion-fine-weighs-on-q3-earnings-200618341.html
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: BAC
+Como falar: 'saiu no Yahoo Finance: Bank of America stock sinks as $1.2 billion fine weighs on Q3 earnings; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 14/10 10h03
+id: E05-BAC-005e3f53ca-2026-10-14 · status: linha
 
 [ATENÇÃO] E05 · BAC · Stock Market Today, Oct. 14: Bank of America Shares Fall 5% on Earnings Miss and Compliance Penalty
 Yahoo Finance · 14/10 19h02 · fonte única · licença: resumo
@@ -69,7 +206,7 @@ Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir
 Ativos: BTC
 Como falar: 'saiu no TradingView (Reuters): YieldMax Bitcoin Option Income Strategy ETF declares $0.159 dividend; confirmar o número no texto antes de repassar'
 Fonte: TradingView (Reuters) 14/10 17h45
-id: E05-BTC-c49d84596a-2026-10-14 · status: pendente
+id: E05-BTC-c49d84596a-2026-10-14 · status: expirado
 
 [ATENÇÃO] E05 · BAC · Bank of America Stocks Fall 7.14% as Earnings Reveal Costs Beyond the Settlement
 Yahoo Finance · 14/10 16h38 · fonte única · licença: resumo
@@ -85,7 +222,7 @@ Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; 
 Ativos: BAC
 Como falar: 'saiu no Yahoo Finance: Bank of America Stocks Fall 7.14% as Earnings Reveal Costs Beyond the Settlement; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 14/10 16h38
-id: E05-BAC-2800a586fc-2026-10-14 · status: pendente
+id: E05-BAC-2800a586fc-2026-10-14 · status: expirado
 
 [ATENÇÃO] E05 · PETR4 · Petrobras (PETR4) bate R$ 800 bilhões em valor de mercado pela primeira vez. O que está por trás do novo recorde?
 Seu Dinheiro · 14/10 16h27 · fonte única · licença: resumo
@@ -101,7 +238,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: PETR4
 Como falar: 'saiu no Seu Dinheiro: Petrobras (PETR4) bate R$ 800 bilhões em valor de mercado pela primeira vez. O que está p…; confirmar o número no texto antes de repassar'
 Fonte: Seu Dinheiro 14/10 16h27
-id: E05-PETR4-60e245666e-2026-10-14 · status: pendente
+id: E05-PETR4-60e245666e-2026-10-14 · status: expirado
 
 [ATENÇÃO] E05 · PETR4 · Petrobras (PETR4) bate novo recorde histórico de valor de mercado. O que fazer com as ações?
 Estadao · 14/10 16h48 · fonte única · licença: manchete
@@ -370,8 +507,23 @@ Fonte: Yahoo Finance 14/10 01h58
 id: E05-BAC-327b54562b-2026-10-14 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (154)
+## OUTRAS NOTÍCIAS (só manchete) (169)
 
+· BTC Current price of Bitcoin for Oct. 15, 2026 (Fortune) https://fortune.com/article/price-of-bitcoin-10-15-2026/
+· DIRR3 Agenda de empresas: Direcional divulga prévia operacional; Americanas vende imóveis por R$ 130 milhões (Valor Economico) https://valor.globo.com/empresas/noticia/2026/10/15/agenda-de-empresas-direcional-divulga-previa-operacional-americanas-vende-imoveis-por-r-130-milhoes.ghtml
+· DIRR3 Direcional registra queda nas vendas e lançamentos no 3T26, mas geração de caixa operacional chega a R$ 228 milhões (ADVFN) https://br.advfn.com/jornal/2026/10/direcional-registra-queda-nas-vendas-e-lancamentos-no-3t26-mas-geracao-de-caixa-operacional-chega-a-r-228-milhoes
+· TSM Watch AI Stocks Slide as TSMC Outlook Fails to Ease Bubble Fears (Bloomberg) https://www.bloomberg.com/news/videos/2026-10-15/the-pulse-10-15-2026-video
+· GOOGL If I Can Only Own Alphabet or Amazon for The Next 5 Years, I’m Choosing This One (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/only-own-alphabet-amazon-next-111519481.html
+· BAC Ibovespa acima dos 220 mil pontos? BofA revela salto no otimismo após 1º turno (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/ibovespa-acima-dos-220-mil-pontos-bofa-revela-salto-no-otimismo-apos-1-turno/
+· BABA Alibaba: Enough Fuel To Power The Trillion-RMB Cloud Machine (NYSE:BABA) (Seeking Alpha) https://news.google.com/rss/articles/CBMiogFBVV95cUxOclZwLU45VDdVTVdZSUswak5nYzRjenNyT2J2dGJDTkROb3diZXFpUkFnWWF2THBQcE1tWWNkVHdrazhOZzdnWDlRRzBUZlJoMFIyWU41UEN2X3lmSDhDYUxjSVE4R3dJbE5VaU5wREdUSGJSVVJ6U3dZLUtzXzk3Q3JfSF9TZzVObW5mbWhIbnRBdGhobjlZakg3eXA1VnVpMWc?oc=5
+· TSM TSMC posts record profit amid 'extremely robust demand' for AI chips (Yahoo Finance) https://news.google.com/rss/articles/CBMiygFBVV95cUxPX0JVdlhVemVkT05Gc2lIY1ZSY0ZEX2hqNVE0M3Ytb2RTX3c5OFZCaGNvdUhXb3ZkOXgxUDU2ZjNUaDEtSllwakVXTlRaUm1lOGZkSGgwbl9xUjdUdE54VlBQbFlrOU9BdkszMHFyUHB6cWRHR3p1bWdqWmFaSERSNmFNNDFReHRrYXNuZnE3anNkTExoSGZ4cVNGaEZTRUs0NGRQejVXdXRnY25VSmJNOEFYOEdBWTJRUEJmY1dPSEVxdENibHB0Skp3?oc=5
+· TSM TSMC Reports Record Q3 Profit of $23.55 Billion as AI Demand Drives Growth and US Expansion Plans (Yahoo Finance) https://news.google.com/rss/articles/CBMimAFBVV95cUxPRmtpTUh0SGlLeUN0LVJ2UlFqbWZTdFAyTk5TeGJPdXE5YUhsaXI0NzlUYnZfbTFXNDNWVDRuU2Y2NGRZUmxZbVhaUWtoSTZ2ZWxDY2NsWmVXVGh6QmdhVFdDMG9HTWdHOThZei1VRG1GVzBhbHgtMG95NXNVM3gwdnhjWl9hV24wdU10WjBFeG9ZMW45bG11TQ?oc=5
+· USDBRL Minidólar (WDOX26): fluxo externo e eleição dividem forças no câmbio (InfoMoney) https://news.google.com/rss/articles/CBMijgFBVV95cUxQbzJnYzZNQVpLWWNjSHBCVURPTDI1a0MwR0d6ZzlrcW5NNDFaVDFHT3J5Vnc0c3lQQndUWWFsdmtYTFI5NnY5MUFWQXF3Tjl6ZWtBODFlT3lyMEpMcGIyNEEtRVJOZ1lseWlFSVQ1M2x2dGNabElvUHpTZlhyRG00Rk9WYjBpc3F3dDUzOTBR0gGTAUFVX3lxTE42OWtyM2g5ZG9EU1E2bjZYd3VpallHb3N3VWtvVURBZmFsRDFwVF93TDVuZGZscWgxazJleGRtd1p0ZE5kVU1oNEhMNk5FaXN0VGFRNnNncGN2WXE1NzkzenpsZ0EwSW9tcTg3RGtuU1JXYUZhV0x4N0t2U09FUHRZOXozZG9KR3REVUdjYmM1X2plYw?oc=5
+· USDBRL Mercado digere empate de Lula e Flávio na Quaest em dia de inflação ao produtor nos EUA; Ibovespa em dólar cai nesta quinta-feira (15) (Money Times) https://news.google.com/rss/articles/CBMi-wFBVV95cUxOWEFRMTNkRTFzdUNwUTdhVTNCZUxfdWF1aTl1ZU0wUTVjU3p2aW4xQXUtdE5YX3E1Q0R0c3pRV3dEREJfckc3SkI2M2FkWHdUNEJabVFHTjNzRmJQYjdHbkI5RzVPTTU0Rk1lOW9PZXVvWmh2THFCekk5eDVJd2F6TUhMVy1GQnJLVWJQeUNhRFhzREgtOG9qN3gzaUQ5emI2dm9fQllnZjBISVhLSFJrXzljTklFbnlCMXVxbDRZZWtPRzhkYy1RYmoxejhtbEo3enNvM3JMa280S082U01RVnBMNzdUYW4xc0lyZmd0ako3LWV4VXYtR1JwUQ?oc=5
+· BTC Bitcoin dips to $80.1K as KOSPI closes at its lowest since April (TradingView (Reuters)) https://news.google.com/rss/articles/CBMixgFBVV95cUxPd2U0ZXk1Vzg2VGZ0TkV2YklOd3JKMDlWbVRSSUlTclRsSXVaWnZfYjA1eXFTcm9Cd1lPcngwNzYzLURjeVdtaThpbXcwQTJ5V1NsdE5LMlU0OTdEMXkwUm1NcEJFTkw4cEplbU1rV1pELUZmLXVDM2lUWEVGRGYyclRrUlNyb2JzRHduOVExWTZmdnhYS1RsQ25ubjBqR2V4ekxXUm50WExVUEpaZzJPSVlhT254b09zSHZ5elBzdVJQMW9YWHc?oc=5
+· TSM TSMC revenue rises 41% as AI chip demand drives growth (TSM:NYSE) (Seeking Alpha) https://news.google.com/rss/articles/CBMilgFBVV95cUxNSHphT0k5RVdzUk1HSUdhNm1QZXNiTGdpdWhER0R2bzFaa3hiU1RTSU5nTkNZSnBZZm13ZmgxazRiR2hTenh6X0dwYTJKSGRJNGpfT05pYS13WVhiOVEtaDdKNDhHc1k3aXpWQnNhMHhVV2VUVGU3bF9vQWxabVdMZDM3azVkMHBaWWp3TXM3Mm54YXU4NHc?oc=5
+· UST Gold Prices Rebound as Dollar and Treasury Yields Ease Despite Higher US Inflation (Yahoo Finance) https://news.google.com/rss/articles/CBMiqAFBVV95cUxOYVBLMlFnTThPMXFubDNhemJmNnBhcHZ5bFBTYTQxZGFJSlJVY1VQMElRVDlaWTFacG55QUZVU1lqNG5FNFhiQXZHLWFsajNDM3VBUGxnSWE0OXpxVEg1UXF1Z25LUVY0MmwwQzI1bjRiU2dRNldjbnd1M2FoZEZfNXE5Z0VSQUdCb25zbWF0Y2s0dk9WM21Yd1VYeGtsdEtGRDVDbmlHUTg?oc=5
+· TSM Can robust TSMC earnings help settle AI jitters? (Investing.com) https://news.google.com/rss/articles/CBMingFBVV95cUxOcnpHTFBQWnZCdHZ6cEtoM21NOEV1R2tPaHJEZUcycWUwRFlYYVJNQ1NYdUFONElBc3Z4SWZpUFQ2c2hIOUZ5bkhsOE8xZ0dsVlVUbUtBMVJOWU9TRTNaTkl4dW9YcHRlSjl1YUFzYXdLYjFxaXk3YTNWb3ZLMmwwbjNzLWhDNFdzVmtGRlVMTExFZjVLal92QUtQdGxOQQ?oc=5
 · BAC Bank of America: Huge Fine Makes Shares Slump (NYSE:BAC) (Seeking Alpha) https://seekingalpha.com/article/4954251-bank-of-america-huge-fine-makes-shares-slump
 · JPM Alibaba Stock Is Down 38% From Its 2025 High. JPMorgan Sees 81% Upside (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/alibaba-stock-down-38-2025-224618551.html
 · BBDC4 O Bradesco saiu de moda na bolsa? O rali eleitoral tem seus queridinhos — e BBDC4 ficou de escanteio (Seu Dinheiro) https://www.seudinheiro.com/2026/empresas/o-bradesco-saiu-de-moda-na-bolsa-o-rali-eleitoral-tem-seus-queridinhos-e-bbdc4-ficou-de-escanteio-miql/
@@ -417,19 +569,4 @@ id: E05-BAC-327b54562b-2026-10-14 · status: linha
 · BAC Bank of America Took a $1.2 Billion Hit for the Wrong Reason (Bloomberg) https://www.bloomberg.com/opinion/articles/2026-10-14/bank-of-america-took-a-1-2-billion-hit-for-the-wrong-reason
 · BTC Bitcoin Falls To $81K After Hotter-Than-Expected US Inflation Breaks BTC Below Tight Trading Range (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:ba56325a4094b:0-bitcoin-falls-to-81k-after-hotter-than-expected-us-inflation-breaks-btc-below-tight-trading-range/
 · KO Coca-Cola Consolidated, Inc. (COKE) stock price, news, quote and history (Yahoo Finance) https://au.finance.yahoo.com/quote/COKE/
-· BTC Bitcoin falls below $82,000 as hotter core CPI revives Fed hike concerns (The Block) https://www.theblock.co/news/markets/2026-10-14-bitcoin-falls-below-82000-core-inflation-fed-rate-hike-418582?utm_source=tradingview&utm_medium=rss
-· PLTR Is Palantir's AIP Platform Fueling Explosive U.S. Commercial Growth? (TradingView (Reuters)) https://www.tradingview.com/news/zacks:67d3bee6c094b:0-is-palantir-s-aip-platform-fueling-explosive-u-s-commercial-growth/
-· NVDA Is Nvidia Still the Best AI Stock to Buy in 2026, or Is This Challenger? (Yahoo Finance) https://news.google.com/rss/articles/CBMilgFBVV95cUxNY1RPVjdGRTM5RG8ySFFZdEhFcWpRWENISndTTGpDQzJJdGJGejNFY1QyY2NwUUlHNkRrUWtCd2dCMFZ4dlFnaXRvTG1uNkZwSVgwNXZWd3VGSTEyVTlWalJndjlDazJGNjhNNUtOaVE5UEhISmtrRl8wOUtsZFFyN2hPUGhpakdwRGJYUlkweGFGeEMyYnc?oc=5
-· CVX Chevron (CVX) Stock Looks Reasonable With Cash Flow Value Above Price (Yahoo Finance) https://news.google.com/rss/articles/CBMioAFBVV95cUxOQUxZM192cm9qTjB3WkdzYzZlTGNXdDRCWlQyXy1fbXR3d0lMR1pOZ2JWVDRxZ2NKaWpYbEs0amdKTW9FYXVVcVgwVk5tb0Z0Y05qWGwyd3dmQ3V0NUFqYmRaQlV5enZFazN1ZHlLaUYyRzVLV3k4U3BCOGRfYXpDcGR1aFFZX3VJN2VZOU5Gd1RtZDZlUGxHWDdDOXNFRzJX?oc=5
-· META Meta Platforms: Muse Wonder Exposes The AI Trade's Biggest Disconnect (NASDAQ:META) (Seeking Alpha) https://news.google.com/rss/articles/CBMiqwFBVV95cUxQNnl6WVlSV2RBbHVlZmNCZXFlbUtBQnppSnJTbXdSTTl2V1FhODQ0NWpfbXU0LWtiTVQ3RkhUMnRFcnpPZFVXZXViRjRwb0dlbjBITTRqTXlRSmNGYUhiWnJ0RW9yUVZIcDh4dnVBWi1VR0tPT0QxSlI3endxaU5NenZaNTIzV2J5STdRQ1VfbTF1NUt1OXlXZnVVNHo5clV5SWh2Y2RXN0dxZmc?oc=5
-· BTC Crypto Long & Short: Why gold and bitcoin belong in the same portfolio (CoinDesk) https://news.google.com/rss/articles/CBMiwgFBVV95cUxPV3dCLTI0Ml9fZ2UtUU41cWVvRXd2M001ajNpb0FaVFZvM0txRWliYVdDWWstTzNJUVkyb3VXLThzYTlxNFlSZkdiMUJSNVRfdlVfOC1pTWhCQTAyZXFVZWNDaU1lb1lsbUtzS2ZfZ3E2a0EzcENwTUMzaVJqVFVBNFB2OWFsYzBMZnJTVEFCNmU2QjFQWUU5cUpLc1hwSGQ1UHdqZEktT3pjTFZUZUtLRVRXWGpWcThCdXRWN0lPMnZQUQ?oc=5
-· USDBRL Ouro cai com valorização do dólar e dos Treasuries após dado de inflação dos EUA (Valor Economico) https://valor.globo.com/financas/noticia/2026/10/14/ouro-cai-com-valorizacao-do-dolar-e-dos-treasuries-apos-dado-de-inflacao-dos-eua.ghtml
-· INTC Intel Stock Is Up 175%. Is the Turnaround Already Priced In? (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:a6ab00b31094b:0-intel-stock-is-up-175-is-the-turnaround-already-priced-in/
-· BAC Update: Equities Fall Intraday as Traders Parse Inflation Data, Bank of America's Earnings Miss (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/equities-fall-intraday-traders-parse-175654183.html
-· GOOGL ALPHABET INC. (GOOGCL1.SN) Q2 FY2026 earnings call transcript (Yahoo Finance) https://finance.yahoo.com/quote/GOOGCL1.SN/earnings/GOOGCL1.SN-Q2-2026-earnings_call-657320.html
-· ETH Ethereum Price Prediction: ETH Poised to Make a Comeback as ETF Inflows Turn Positive (Yahoo Finance) https://uk.finance.yahoo.com/news/ethereum-price-prediction-eth-poised-130750790.html
-· DI Juros futuros sobem após pesquisas apontarem empate entre Flávio e Lula (CNN Brasil) https://www.cnnbrasil.com.br/economia/money/mercado/juros-futuros-sobem-apos-pesquisas-apontarem-empate-entre-flavio-e-lula/
-· BTC Bitcoin Falls To $81K After Hotter-Than-Expected US Inflation Breaks BTC Below Tight Trading Range (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-falls-81k-hotter-expected-171900103.html
-· INTC 3 Reasons to Buy Intel Stock Before 2027 (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/3-reasons-buy-intel-stock-170300919.html
-· PETR4 Petrobras (PETR4): pagamento bilionário e acordo de US$ 859 milhões; de onde vem o dinheiro? (Suno Noticias) https://www.suno.com.br/noticias/petrobras-petr4-subvencoes-acordo-berbigao-sururu/
-· (+94 manchetes; lista completa em eventos/noticias.json)
+· (+109 manchetes; lista completa em eventos/noticias.json)
