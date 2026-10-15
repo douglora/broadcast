@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 15/10 15h22
+NOTÍCIAS E FATOS · 15/10 16h21
 
-Pernas: noticias ok 10 novas (18 consultas; descartadas: 460 veículo fora da lista, 26 sem ativo, 0 teto) · cvm ok 0 novos de 0 (0 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 9 novas (18 consultas; descartadas: 468 veículo fora da lista, 30 sem ativo, 0 teto) · cvm ok 0 novos de 9 (7 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (1)
 
@@ -40,7 +40,16 @@ Fonte: SEC EDGAR 2026-10-15
 id: E04-TSM-26000726-2026-10-15 · status: entregue · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (12)
+## NOTÍCIAS COM MATERIALIDADE (13)
+
+[ATENÇÃO] E05 · KO · Coca-Cola Declares Qtrly Dividend Of $0.53 Per Share
+TradingView (Reuters) · 15/10 15h13 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/reuters.com,2026:newsml_TUA7XR1L4:0-coca-cola-declares-qtrly-dividend-of-0-53-per-share/
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: KO
+Como falar: 'saiu no TradingView (Reuters): Coca-Cola Declares Qtrly Dividend Of $0.53 Per Share; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 15/10 15h13
+id: E05-KO-7871d65f81-2026-10-15 · status: pendente
 
 [ATENÇÃO] E05 · KO · Coca-Cola’s 64-Year Dividend Growth Streak Faces a Valuation Reality Check
 Yahoo Finance · 15/10 13h59 · fonte única · licença: resumo
@@ -56,7 +65,7 @@ Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir
 Ativos: KO
 Como falar: 'saiu no Yahoo Finance: Coca-Cola’s 64-Year Dividend Growth Streak Faces a Valuation Reality Check; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 15/10 13h59
-id: E05-KO-0a474c5dc1-2026-10-15 · status: pendente
+id: E05-KO-0a474c5dc1-2026-10-15 · status: entregue
 
 [ATENÇÃO] E05 · KO · Coca-Cola’s 64-Year Dividend Growth Streak Faces a Valuation Reality Check
 Yahoo Finance · 15/10 13h59 · fonte única · licença: resumo
@@ -200,8 +209,16 @@ Fonte: Yahoo Finance 14/10 10h03
 id: E05-BAC-005e3f53ca-2026-10-14 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (106)
+## OUTRAS NOTÍCIAS (só manchete) (114)
 
+· TSLA Tesla plans next-generation Roadster reveal after almost a decade of delays (CNBC) https://www.cnbc.com/2026/10/15/tesla-roadster-reveal-what-to-know-about-the-delayed-ev.html
+· NVDA Nvidia’s European spending spree is about much more than Europe (Fortune) https://fortune.com/2026/10/15/nvidias-european-spending-spree-is-about-much-more-than-europe/
+· TSM TSMC’s Record Earnings Show AI Demand Is Outrunning Rate Concerns (Investing.com) https://www.investing.com/analysis/tsmcs-record-earnings-show-ai-demand-is-outrunning-rate-concerns-200689670
+· NVDA Rate Pressure vs. AI Demand: Rising Treasury Yields Trigger Nvidia, AMD Slump (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:28404acf3094b:0-rate-pressure-vs-ai-demand-rising-treasury-yields-trigger-nvidia-amd-slump/
+· BAC Bank of America's Diversified Business Model Continues to Grow With US Economy, RBC Says (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/bank-america-apos-diversified-business-160509423.html
+· JPM JPMorgan vs. Citigroup: Which Stock Has the Edge After Q3 Results? (TradingView (Reuters)) https://www.tradingview.com/news/zacks:37e5a70da094b:0-jpmorgan-vs-citigroup-which-stock-has-the-edge-after-q3-results/
+· BAC Bank of America's Incremental Net Interest Income to Support Operating Leverage in 2027, Morgan Stanley Says (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/bank-america-apos-incremental-net-145127509.html
+· NOK Nokia stock may move 8.9% on earnings release next week By Investing.com (Investing.com) https://za.investing.com/news/stock-market-news/nokia-stock-may-move-89-on-earnings-release-next-week-93CH-4506645
 · JPM ‘You don’t want rogue agents': Jamie Dimon bars outside AI agents like Meta's Muse from JPMorgan accounts (Fortune) https://fortune.com/2026/10/15/jamie-dimon-ai-agents-meta-muse-jpmorgan/
 · KO Coca-Cola Board of Directors Declares Regular Quarterly Dividend (Business Wire) https://www.businesswire.com/news/home/20261015411144/en/Coca-Cola-Board-of-Directors-Declares-Regular-Quarterly-Dividend
 · UST Update: US Equity Indexes Mixed After Hot Producer Price Inflation Print, Tech Declines Accompany Sliding Treasury Yields (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-mixed-hot-174638915.html
@@ -254,12 +271,4 @@ id: E05-BAC-005e3f53ca-2026-10-14 · status: linha
 · TSM Watch CoreWeave Slides on Debt; TSMC Moves on Outlook | Stock Movers (Bloomberg) https://www.bloomberg.com/news/videos/2026-10-15/coreweave-slides-on-debt-tsmc-moves-on-outlook-video
 · MINERIO Iron ore slips to two-year low on concerns over weak demand, rising supply (Mining.com) https://www.mining.com/web/iron-ore-slips-to-two-year-low-on-concerns-over-weak-demand-rising-supply/
 · DIRR3 Ação da Direcional recua após queda nas vendas e lançamentos do 3º tri (InfoMoney) https://www.infomoney.com.br/mercados/acao-da-direcional-recua-apos-queda-nas-vendas-e-lancamentos-do-3o-tri/
-· GOOGL From Search Destruction to Efficiency, I Have Faith in Alphabet’s Abilities (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/search-destruction-efficiency-faith-alphabet-144502407.html
-· KLBN4 Klabin (KLBN11): Citi prevê resultados estáveis no 3T26, mas vê pressão de custos; veja o que esperar (Money Times) https://www.moneytimes.com.br/klabin-klbn11-citi-preve-resultados-estaveis-no-3t26-mas-ve-pressao-de-custos-veja-o-que-esperar-pads/
-· BTC Bitcoin and Ethereum ETFs Lost $391 Million in a Day. Only XRP ETFs Took Money In. (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-ethereum-etfs-lost-391-141818508.html
-· BTC AI Price Prediction: We Asked Grok AI Which Recovers First From the October Selloff: Bitcoin, Ethereum, XRP or Solana (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/ai-price-prediction-asked-grok-141427521.html
-· BAC Bank of America (BAC): Can CashPro Make Earnings More Durable? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/bank-america-bac-cashpro-earnings-141252038.html
-· TSM What's causing the latest AI stock sell-off? Plus, TSMC earnings and Tesla's new Roadster (Yahoo Finance) https://finance.yahoo.com/video/whats-causing-the-latest-ai-stock-sell-off-plus-tsmc-earnings-and-teslas-new-roadster-140914242.html
-· BTC BlackRock's Larry Fink warns Bitcoin's leverage problem raises crash risks (TradingView (Reuters)) https://www.tradingview.com/news/cryptobriefing:5b962e565094b:0-blackrock-s-larry-fink-warns-bitcoin-s-leverage-problem-raises-crash-risks/
-· BTC SEC Approves Binary Options on Coinbase and MARA Metrics, but Not a Bet on Bitcoin’s Price (Yahoo Finance) https://finance.yahoo.com/markets/options/articles/sec-approves-binary-options-coinbase-132712946.html
-· (+46 manchetes; lista completa em eventos/noticias.json)
+· (+54 manchetes; lista completa em eventos/noticias.json)
