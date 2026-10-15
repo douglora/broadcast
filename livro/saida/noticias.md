@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 15/10 13h22
+NOTÍCIAS E FATOS · 15/10 14h22
 
-Pernas: noticias ok 15 novas (18 consultas; descartadas: 445 veículo fora da lista, 35 sem ativo, 0 teto) · cvm ok 0 novos de 9 (7 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 15 novas (18 consultas; descartadas: 461 veículo fora da lista, 31 sem ativo, 4 teto) · cvm ok 0 novos de 9 (7 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (1)
 
@@ -29,7 +29,23 @@ Fonte: SEC EDGAR 2026-10-15
 id: E04-TSM-26000726-2026-10-15 · status: entregue · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (10)
+## NOTÍCIAS COM MATERIALIDADE (11)
+
+[ATENÇÃO] E05 · KO · Coca-Cola’s 64-Year Dividend Growth Streak Faces a Valuation Reality Check
+Yahoo Finance · 15/10 13h59 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – The company's second-quarter 2026 results show why investors keep coming back.
+  – Revenue climbed 7% from the year before, hitting $13.4 billion, and organic revenue wasn't far behind with a 6% gain.
+  – Operating margin ticked up to 34.9%.
+  – Earnings per share rose 16% to $1.03, partly thanks to favorable currency moves.
+  – What's especially encouraging is that unit case volume went up 5%, so growth didn't just rely on price hikes.
+  – Also read: 10 Best Bear Market Stocks to Invest In Right Now Dividend Growth Is Stronger Than the Starting Yield Earlier this year, The Coca-Cola Company (NYSE:KO) increased its quarterly dividend by about 4%, moving fr…
+Link: https://sg.finance.yahoo.com/news/coca-cola-64-dividend-growth-165920480.html
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: KO
+Como falar: 'saiu no Yahoo Finance: Coca-Cola’s 64-Year Dividend Growth Streak Faces a Valuation Reality Check; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 15/10 13h59
+id: E05-KO-5f568bb1d0-2026-10-15 · status: pendente
 
 [ATENÇÃO] E05 · TSM · TSMC's Q3 results, outlook pave path for 'banner year' in 2027: analysts
 Seeking Alpha · 15/10 10h19 · fonte única · licença: manchete
@@ -157,8 +173,22 @@ Fonte: Yahoo Finance 14/10 10h03
 id: E05-BAC-005e3f53ca-2026-10-14 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (76)
+## OUTRAS NOTÍCIAS (só manchete) (90)
 
+· UST Update: US Equity Indexes Mixed After Hot Producer Price Inflation, Slumping Treasury Yields (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-mixed-hot-165927840.html
+· UGPA3 Ultrapar (UGPA3): analistas elevam preço-alvo, mas veem pouco espaço após rali (Suno Noticias) https://www.suno.com.br/noticias/ultrapar-ugpa3-preco-alvo-bb-investimentos-mt/
+· NVDA Nvidia and Broadcom Narratives Define the AI Chip Landscape (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/nvidia-broadcom-narratives-define-ai-164509607.html
+· TSLA Tesla may finally debut a flying car today, after testing fans’ patience for nearly a decade (MarketWatch) https://www.marketwatch.com/story/tesla-may-finally-debut-a-flying-car-today-after-testing-fans-patience-for-nearly-a-decade-9a23c8e8
+· VALE3 Vale vê metais básicos superando 40% do Ebitda nos próximos anos com avanço do cobre, diz CEO (Money Times) https://www.moneytimes.com.br/vale-ve-metais-basicos-superando-40-do-ebitda-nos-proximos-anos-com-avanco-do-cobre-diz-ceo/
+· UST Treasury, Eurozone Bond Yields Fall as Risk Aversion Beats Inflation Fears (The Wall Street Journal) https://www.wsj.com/finance/investing/treasury-eurozone-bond-yields-fall-to-multiweek-lows-as-u-s-inflation-shock-fades-29c7b1c1
+· AVGO ‘They are in a casino’: Broadcom is making billions off the AI boom, but CEO Hock Tan said many AI investors have ‘no clue’ what they’re investing in (Fortune) https://fortune.com/2026/10/15/broadcom-hock-tan-ai-investing-casino/
+· NVDA AMD, NVDA, Other Chip Stocks Extend Rout Amid AI Debt Concerns — Saxo Says Financing Squeeze Could Hit Supply Chain (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:7ed461646094b:0-amd-nvda-other-chip-stocks-extend-rout-amid-ai-debt-concerns-saxo-says-financing-squeeze-could-hit-supply-chain/
+· TSM TSMC stock drops despite record profit amid 'extremely robust demand' for AI chips (Yahoo Finance) https://finance.yahoo.com/markets/stocks/article/tsmc-stock-drops-despite-record-profit-amid-extremely-robust-demand-for-ai-chips-152649370.html
+· TSM Taiwan's chipmaker TSMC explores collaborating with Elon Musks's Terafab complex in Texas (Fortune) https://fortune.com/2026/10/15/elon-musk-tsmc-ai-texas-terafab/
+· COHR CRDO vs. COHR: Which AI Connectivity Stock Is the Better Buy? (TradingView (Reuters)) https://www.tradingview.com/news/zacks:36887b035094b:0-crdo-vs-cohr-which-ai-connectivity-stock-is-the-better-buy/
+· MMM MMM Q3 Earnings on Deck: How to Approach the Stock Now? (TradingView (Reuters)) https://www.tradingview.com/news/zacks:4f2afbd94094b:0-mmm-q3-earnings-on-deck-how-to-approach-the-stock-now/
+· BTC Bitcoin & XRP Slip as US PPI Inflation Comes in Hot at 6.3%, Eyes on Fed Kevin Warsh’s Speech (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-xrp-slip-us-ppi-134202675.html
+· NOK Nokia stock may move 8.9% on earnings release next week By Investing.com (Investing.com) https://news.google.com/rss/articles/CBMitAFBVV95cUxQTkk3SGQ2eERZY1diSHdTWXQ3N2xWWWpGY3dXUEpITEo1MWVTbmprMTViYjRtUkk2eTlhUkx3QmRJREpsMEdUWDlOdU10MTRBNXV0SC1IUDB5Mzd5akh0LUJTVUNpRFh4T21SUE5IVlJqVDE4OGxTLVFtSDF6dFhTcXprNFp0VVVaTzM1V3FVVkhTajRfdHNqY1hlakdrZFltUmZraWxETTJobC1BY0ZWZEtHNFY?oc=5
 · MRVL Marvell Stock: A Brutal Selloff, An Even Bigger Opportunity (NASDAQ:MRVL) (Seeking Alpha) https://seekingalpha.com/article/4954529-marvell-stock-a-brutal-selloff-an-even-bigger-opportunity
 · USDBRL Dólar sobe e Ibovespa cai após pesquisa indicar empate técnico entre Flávio e Lula (TradingView (Reuters)) https://br.tradingview.com/news/reuters.com,2026:newsml_L1N4610TH:0/
 · ITUB4 Itaú fecha acordo para comprar 35% da gestora Prisma Capital (Estadao) https://www.estadao.com.br/economia/negocios/itau-fecha-acordo-gestora-prisma-capital/
@@ -205,18 +235,4 @@ id: E05-BAC-005e3f53ca-2026-10-14 · status: linha
 · TSM TSMC Stock Slips Despite Record Profit for Sixth Straight Quarter (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:b53be879a094b:0-tsmc-stock-slips-despite-record-profit-for-sixth-straight-quarter/
 · JPM Zacks Earnings Trends Highlights: JPMorgan, Citigroup, Bank of America and Wells Fargo (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/zacks-earnings-trends-highlights-jpmorgan-121600517.html
 · MMM Seeking Clues to 3M (MMM) Q3 Earnings? A Peek Into Wall Street Projections for Key Metrics (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/seeking-clues-3m-mmm-q3-121521359.html
-· NOK Nokia stock may move 8.9% on earnings release next week (Investing.com) https://www.investing.com/news/stock-market-news/nokia-stock-may-move-89-on-earnings-release-next-week-93CH-4951757
-· TSM TSMC: Panic Selling Is Not Deterring Me - Strong Buy Maintained (NYSE:TSM) (Seeking Alpha) https://seekingalpha.com/article/4954442-tsmc-panic-selling-is-not-deterring-me-strong-buy-maintained
-· UST Inflation Concerns Push 10-Year Yield Further Above Fair Value (Seeking Alpha) https://seekingalpha.com/article/4954441-inflation-concerns-push-10-year-yield-further-above-fair-value
-· USDBRL Dólar sobe com recuperação de Lula em pesquisa e dados fortes nos EUA (Valor Economico) https://valor.globo.com/financas/noticia/2026/10/15/dolar-sobe-com-recuperacao-de-lula-em-pesquisa-e-dados-fortes-nos-eua.ghtml
-· USDBRL Dólar abre em alta com empate entre Flávio e Lula e aprovação da escala 6x1 no radar (Folha de S.Paulo) https://www1.folha.uol.com.br/mercado/2026/10/dolar-abre-em-alta-com-empate-entre-flavio-e-lula-e-aprovacao-da-escala-6x1-no-radar.shtml
-· TSM Taiwan Semiconductor Stock: Excellent Growth, Buy The Sell-Off (NYSE:TSM) (Seeking Alpha) https://seekingalpha.com/article/4954451-taiwan-semiconductor-excellent-growth-buy-the-sell-off
-· USDBRL Dólar sobe pelo 3º dia por cautela com trade eleitoral (UOL Economia) https://economia.uol.com.br/noticias/estadao-conteudo/2026/10/15/dolar-sobe-pelo-3-dia-por-cautela-com-trade-eleitoral.htm
-· TSM TSMC Stock Slips Despite Record Profit for Sixth Straight Quarter (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/tsmc-stock-slips-despite-record-122709155.html
-· USDBRL Ibovespa futuro cai com eleições e fim da escala 6×1 no radar; dólar sobe (Money Times) https://www.moneytimes.com.br/ibovespa-futuro-15-20-26-lils/
-· MRVL Marvell's Optical Business Could Win Long Term, But Not Yet (NASDAQ:MRVL) (Seeking Alpha) https://seekingalpha.com/article/4954421-marvells-optical-business-could-win-long-term-but-not-yet
-· PLTR Cathie Wood Dumps $6.3 Million in Palantir Stock (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:0c459cf6d094b:0-cathie-wood-dumps-6-3-million-in-palantir-stock/
-· USDBRL Dólar sobe ante real após nova pesquisa mostrar empate técnico entre Flávio e Lula Por Reuters (Investing.com) https://br.investing.com/news/forex-news/dolar-sobe-ante-real-apos-nova-pesquisa-mostrar-empate-tecnico-entre-flavio-e-lula-2092660
-· USDBRL Dólar abre em alta, com foco em inflação americana e pesquisas eleitorais (g1) https://g1.globo.com/economia/noticia/2026/10/15/dolar-ibovespa.ghtml
-· AVGO Broadcom: Should You Worry About Off-Balance-Sheet Financing Risk? (NASDAQ:AVGO) (Seeking Alpha) https://seekingalpha.com/article/4954407-broadcom-should-you-worry-about-off-balance-sheet-financing-risk
-· (+16 manchetes; lista completa em eventos/noticias.json)
+· (+30 manchetes; lista completa em eventos/noticias.json)
