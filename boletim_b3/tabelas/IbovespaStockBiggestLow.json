@@ -1,5 +1,5 @@
 {
- "pregao": "2026-10-13",
+ "pregao": "2026-10-14",
  "nome": "IbovespaStockBiggestLow",
  "titulo": "Ações do IBOVESPA - maiores baixas",
  "sla": "8:00:00",
@@ -7,18 +7,18 @@
  "colunas": [{"nome": "TckrSymb", "titulo": "Ação"}, {"nome": "Cod", "titulo": "Código"}, {"nome": "Price", "titulo": "Preço (R$)"}, {"nome": "OscillationDesc", "titulo": "Oscilação (%)"}],
  "texto": ["Lista as ações do IBOVESPA que apresentaram as maiores quedas de preços em um período."],
  "situacao": "publicado",
- "atualizado_em": "2026-10-13T23:30:44.353",
+ "atualizado_em": "2026-10-14T23:30:29.587",
  "truncada": false,
  "linhas": [
-  ["VAMO3", "ON      NM", 6.09, -11.22],
-  ["YDUQ3", "ON      NM", 13.32, -8.45],
-  ["LREN3", "ON      NM", 13.85, -8.03],
-  ["MGLU3", "ON      NM", 11.36, -7.03],
-  ["COGN3", "ON      NM", 2.99, -5.97],
-  ["CEAB3", "ON      NM", 12.77, -5.96],
-  ["RENT3", "ON      NM", 51.39, -5.72],
-  ["NATU3", "ON      NM", 7.04, -5.5],
-  ["CSAN3", "ON      NM", 5.11, -5.37],
-  ["ASAI3", "ON      NM", 12.64, -4.74]
+  ["TEND3", "ON      NM", 28.41, -5.45],
+  ["USIM5", "PNA     N1", 6.81, -4.75],
+  ["MGLU3", "ON      NM", 10.85, -4.48],
+  ["CYRE3", "ON      NM", 32.45, -4.3],
+  ["BEEF3", "ON      NM", 4.18, -4.12],
+  ["AZZA3", "ON      NM", 24.31, -3.91],
+  ["CURY3", "ON      NM", 32.26, -3.9],
+  ["TOTS3", "ON      NM", 40.45, -3.8],
+  ["VAMO3", "ON      NM", 5.86, -3.77],
+  ["CSNA3", "ON", 6.21, -3.72]
  ]
 }

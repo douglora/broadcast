@@ -2,7 +2,7 @@
  "pregao": "2026-10-14",
  "situacao": "publicando",
  "errata": false,
- "atualizado_em": "2026-10-14T21:50:28.383",
+ "atualizado_em": "2026-10-15T02:03:29.643",
  "completo": {
   "arquivo": "",
   "pdf": ""
@@ -14,7 +14,7 @@
    "pai": null,
    "situacao": "publicando",
    "errata": false,
-   "atualizado_em": "2026-10-14T21:00:23.91",
+   "atualizado_em": "2026-10-15T01:12:55.143",
    "arquivo": "",
    "pdf": ""
   },
@@ -44,7 +44,7 @@
    "pai": 20,
    "situacao": "republicado",
    "errata": false,
-   "atualizado_em": "2026-10-14T21:45:38.007",
+   "atualizado_em": "2026-10-15T02:05:38.09",
    "arquivo": "BDI_02_20261014.pdf",
    "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-10-14/BDI_02_20261014.pdf"
   },
@@ -52,11 +52,11 @@
    "id": 23,
    "nome": "Maiores oscilações",
    "pai": 20,
-   "situacao": "publicando",
+   "situacao": "republicado",
    "errata": false,
-   "atualizado_em": "2026-10-14T21:42:55.41",
-   "arquivo": "",
-   "pdf": ""
+   "atualizado_em": "2026-10-15T02:05:38.09",
+   "arquivo": "BDI_02-3_20261014.pdf",
+   "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-10-14/BDI_02-3_20261014.pdf"
   },
   {
    "id": 31,
@@ -64,7 +64,7 @@
    "pai": 3,
    "situacao": "republicado",
    "errata": false,
-   "atualizado_em": "2026-10-14T21:50:38.01",
+   "atualizado_em": "2026-10-14T22:45:38.007",
    "arquivo": "BDI_03-1_20261014.pdf",
    "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-10-14/BDI_03-1_20261014.pdf"
   },
@@ -72,11 +72,11 @@
    "id": 33,
    "nome": "Derivativos de balcão",
    "pai": 3,
-   "situacao": "publicando",
+   "situacao": "publicado",
    "errata": false,
-   "atualizado_em": "2026-10-14T00:00:38.013",
-   "arquivo": "",
-   "pdf": ""
+   "atualizado_em": "2026-10-15T01:25:38.09",
+   "arquivo": "BDI_03-3_20261014.pdf",
+   "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-10-14/BDI_03-3_20261014.pdf"
   },
   {
    "id": 34,
@@ -84,7 +84,7 @@
    "pai": 3,
    "situacao": "publicando",
    "errata": false,
-   "atualizado_em": "2026-10-14T21:50:28.383",
+   "atualizado_em": "2026-10-15T01:23:11.4",
    "arquivo": "",
    "pdf": ""
   },
@@ -112,11 +112,11 @@
    "id": 43,
    "nome": "COE",
    "pai": 4,
-   "situacao": "publicando",
+   "situacao": "publicado",
    "errata": false,
-   "atualizado_em": "2026-10-14T00:00:38.013",
-   "arquivo": "",
-   "pdf": ""
+   "atualizado_em": "2026-10-15T01:25:38.09",
+   "arquivo": "BDI_04-3_20261014.pdf",
+   "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-10-14/BDI_04-3_20261014.pdf"
   }
  ]
 }
