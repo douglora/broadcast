@@ -1,10 +1,10 @@
 BLOCO A
 ```
-FECHAMENTO DO LIVRO · qui 15/10 · 18h13 BRT
-Relógios: Yahoo 18h13 · DI ajuste D0 · Tesouro base
+FECHAMENTO DO LIVRO · qui 15/10 · 20h39 BRT
+Relógios: Yahoo 20h39 · DI ajuste D0 · Tesouro base
   14/10 · UST CMT D0 · PTAX 15/10
 
-ALERTAS DO DIA (31 · 3 críticos)
+ALERTAS DO DIA (32 · 3 críticos)
 [CRÍTICO] C07 UST FECHOU: 30y cruzou 5,50% (15/10)
 [CRÍTICO] T05 DIRR3 -9,3% no dia a R$ 10,58:
           movimento de 3,2 desvios para uma vol de
@@ -12,6 +12,9 @@ ALERTAS DO DIA (31 · 3 críticos)
 [CRÍTICO] T08 MRVE3 entrou em queda de -30% do pico:
           -32% do pico de 52s (R$ 10,43 em 26/02) a
           R$ 7,12
+[ATENÇÃO] E05 PETR4 · Petrobras anuncia investimento
+          de R$ 6,1 milhões em novo laboratório de
+          óleo e gás na UFU
 [ATENÇÃO] C01 A curva ABRIU: F28 +18 bps no dia ·
           F29 +20 bps no dia · F30 +20 bps no dia
           (ajuste B3 15/10)
@@ -23,19 +26,18 @@ ALERTAS DO DIA (31 · 3 críticos)
 [ATENÇÃO] T01 EWY fechou abaixo da média de 200 dias
           pela 1ª sessão: US$ 156,22 vs MM200 US$
           159,92 (-2,3%)
-[ATENÇÃO] T05 IUAA (iShares US Aggregate Bond UCITS
-          ETF USD (Acc)) +1,0% no dia a US$ 5,62:
-          movimento de 3,5 desvios para uma vol de
-          20 dias de 5% a.a.
-(+23 em alertas.md)
+(+24 em alertas.md)
 
 ALTAS  MELI34 +2,1% · MU +1,9% · IGV +1,8% · NOK
        +1,8% · WQTMUS +1,2%
 BAIXAS DIRR3 -9,3% · MRVE3 -4,9% · COHR -4,8% ·
        ALUP4 -4,2% · CURY3 -3,8%
 
-NOTÍCIAS E FATOS (10 com materialidade ·
+NOTÍCIAS E FATOS (11 com materialidade ·
   noticias.md)
+· PETR4 Petrobras anuncia investimento de R$ 6,1
+  milhões em novo laboratório de óleo e gás na UFU
+  (g1)
 · USDBRL Fechamento câmbio: Dólar sobe 1,15% com
   expectativa por Datafolha e 'tarifa zero' de Lula
   (UOL Economia)
@@ -47,9 +49,7 @@ NOTÍCIAS E FATOS (10 com materialidade ·
   Share (TradingView (Reuters))
 · KO Coca-Cola’s 64-Year Dividend Growth Streak
   Faces a Valuation Reality Check (Yahoo Finance)
-· KO Coca-Cola’s 64-Year Dividend Growth Streak
-  Faces a Valuation Reality Check (Yahoo Finance)
-  (+4)
+  (+5)
 
 CURVAS · taxa (Δ bps)
 DI (D0, Δ dia·sem bps) F28 12,89 (+18·+29) F29 12,64
@@ -84,12 +84,16 @@ ter 27/10 resultado MMM (antes de NY, estimado)
 qua 28/10 resultado GOOGL (após NY, estimado)
 qua 28/10 resultado VALE3 (após B3, estimado)
 
-LACUNAS: QANT: barra de 15/10 não bate com a cotação
-  do Yahoo às 17:15 (5,6350 contra 5,6670, +0.57%);
-  variação do dia a confirmar; alertas_segurados:
-  alertas não emitidos por dado não confirmado: T10
-  QANT (QANT: barra de 15/10 não bate com a cotação
-  do Yahoo às 17:15 (5,6350 contra 5,6670, +0.57%)).
+LACUNAS: DXY sem barra de 15/10 (última 14/10);
+  BRENT sem barra de 15/10 (última 14/10); QANT:
+  barra de 15/10 não bate com a cotação do Yahoo às
+  17:15 (5,6350 contra 5,6670, +0.57%); variação do
+  dia a confirmar; DXY: barra de 15/10 é o início da
+  sessão seguinte (última cotação 18:04 de Nova
+  York); barra descartada, fica a de 14/10; BRENT:
+  barra de 15/10 é o início da sessão seguinte
+  (última cotação 19:06 de Nova York); barra
+  descartada, fica a de 14/10.
 Fontes: Yahoo Finance · B3 Boletim Diário · Tesouro
   Transparente · Treasury.gov CMT · BCB
 ```
@@ -173,10 +177,10 @@ MRVE3  MRV        7,12 -4,9  +11  +25 -6,4 +8,9 -8,6
 CURY3  Cury      31,02 -3,8 -1,5 -0,7 -5,9  +12 +1,1
 Macro
 USDBRL USD/BRL  5,0873 +1,2 +1,3 -1,3 +1,9 -7,2 -7,1
-DXY    DXY      102,00 -0,5 -0,1 +2,4 +3,9 +3,3 +3,8
-BRENT  Brent    105,73 -0,3 +1,4 -2,8 +6,4  +71  +74
-BTC*   BTC      82.061 +0,6 +0,5 +8,5 +9,2  -26 -6,2
-ETH*   ETH       2.451 +1,3 -0,9 +2,2 +4,3  -39  -17
+DXY*   DXY      102,55 +0,4 +0,3 +3,1 +4,6 +3,5 +4,3
+BRENT* Brent    106,06 +0,4 +5,8 +0,4  +12  +70  +74
+BTC*   BTC      82.106 +0,7 +0,5 +8,6 +9,3  -26 -6,2
+ETH*   ETH       2.439 +0,8 -1,3 +1,6 +3,8  -39  -18
 MINER* Minerio   90,74  0,0 -0,4 -7,0  -15  -14  -15
 ```
 UCITS por extenso: VWRA Vanguard FTSE All-World

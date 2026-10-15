@@ -1,4 +1,4 @@
-## Fechamento do livro · qui 15/10 · 18h13 BRT
+## Fechamento do livro · qui 15/10 · 20h39 BRT
 
 ---
 
@@ -39,7 +39,7 @@
 |---|---:|---|---|
 | **DIRR3** | -9,3% | descolou do setor (construtoras de baixa renda -4,9% (mediana), DI F30 +20 bps; -4,3 p.p. da mediana); notícia a conferir (InfoMoney): Ação da Direcional recua após queda nas vendas e lançamentos do 3º tri | notícia (conferir) |
 | **MRVE3** | -4,9% | andou com o setor: construtoras de baixa renda -4,9% (mediana), DI F30 +20 bps | setorial |
-| **COHR** | -4,8% | notícia a conferir (TradingView (Reuters)): CRDO vs. COHR: Which AI Connectivity Stock Is the Better Buy? | notícia (conferir) |
+| **COHR** | -4,8% | notícia a conferir (Yahoo Finance): Is Coherent (COHR) Using Its AI Capacity Buildout And TSX CDR Listing To Redefine Its Edge | notícia (conferir) |
 | **ALUP4** | -4,2% | descolou do setor (energia e saneamento -1,7% (mediana), DI F35 +20 bps; -2,5 p.p. da mediana); investigar antes de comentar | sem causa no dado |
 | **CURY3** | -3,8% | descolou do setor (construtoras de baixa renda -4,9% (mediana), DI F30 +20 bps; 1,1 p.p. da mediana); investigar antes de comentar | sem causa no dado |
 | **SAPR4** | -3,8% | descolou do setor (energia e saneamento -1,7% (mediana), DI F35 +20 bps; -2,1 p.p. da mediana); investigar antes de comentar | sem causa no dado |
@@ -198,13 +198,13 @@ Nomes completos: **QNTM** VanEck Quantum Computing UCITS ETF USD (Acc) · **QANT
 | Ativo | últ | dia | 1 sem | 1 mês | 3 m | 6 m | 1 ano | YTD | 5 anos |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | **USDBRL** Dolar/Real | 5,0873 | **+1,2** | +1,3 | -1,3 | -0,1 | +1,9 | -7,2 | -7,1 | -6,8 |
-| **DXY** Indice Dolar DXY | 102,00 | **-0,5** | -0,1 | +2,4 | +1,3 | +3,9 | +3,3 | +3,8 | +8,6 |
-| **BRENT** Petroleo Brent | 105,73 | **-0,3** | +1,4 | -2,8 | +26 | +6,4 | +71 | +74 | +25 |
-| **BTC** Bitcoin _(parcial)_ | 82.061 | **+0,6** | +0,5 | +8,5 | +29 | +9,2 | -26 | -6,2 | +33 |
-| **ETH** Ethereum _(parcial)_ | 2.451 | **+1,3** | -0,9 | +2,2 | +32 | +4,3 | -39 | -17 | -36 |
+| **DXY** Indice Dolar DXY _(dia 14/10)_ | 102,55 | **+0,4** | +0,3 | +3,1 | +2,0 | +4,6 | +3,5 | +4,3 | +9,2 |
+| **BRENT** Petroleo Brent _(dia 14/10)_ | 106,06 | **+0,4** | +5,8 | +0,4 | +25 | +12 | +70 | +74 | +25 |
+| **BTC** Bitcoin _(parcial)_ | 82.106 | **+0,7** | +0,5 | +8,6 | +29 | +9,3 | -26 | -6,2 | +33 |
+| **ETH** Ethereum _(parcial)_ | 2.439 | **+0,8** | -1,3 | +1,6 | +31 | +3,8 | -39 | -18 | -37 |
 | **MINERIO** Minerio de ferro 62% Fe CFR China _(D-1, 14/10)_ | 90,74 | **0,0** | -0,4 | -7,0 | -8,2 | -15 | -14 | -15 | -26 |
 
-**Brent em reais:** R$ 537,88 por barril (15/10) · dia +0,9% · 1 mês -4,0% · no ano +61% (Brent do 1º vencimento × dólar).
+**Brent em reais:** a confirmar (Brent sem fechamento confirmado).
 
 ---
 
@@ -212,8 +212,8 @@ Nomes completos: **QNTM** VanEck Quantum Computing UCITS ETF USD (Acc) · **QANT
 
 | Referência | US$/t | dia | 1 sem | 1 mês | leitura |
 |---|---:|---:|---:|---:|---|
-| **Celulose fibra longa** | 632 | +0,3 | -1,8 | - | 15/10 |
-| **Minerio de ferro Dalian** | 89 | +0,2 | -1,2 | - | 15/10 |
+| **Celulose fibra longa** | 632 | +0,2 | -1,8 | - | 15/10 |
+| **Minerio de ferro Dalian** | 89 | +0,1 | -1,2 | - | 15/10 |
 
 - **Celulose fibra longa**: futuro SP da SHFE (fibra longa) em CNY/t, sem o IVA de 13%; nao e preco de lista NBSK · CNY/t 4.780 a USD/CNY 6,69 = US$ 714/t com IVA
 - **Minerio de ferro Dalian**: futuro da DCE em CNY/t, sem o IVA de 13%; o CFR 62% em US$ e a linha MINERIO · CNY/t 673 a USD/CNY 6,69 = US$ 101/t com IVA
@@ -257,8 +257,10 @@ Inflação implícita 2029 5,45% · 2032 5,62% · 2031/32 (descasado) 5,53% · F
 
 ---
 
-### Notícias e fatos · 10
+### Notícias e fatos · 11
 
+- **PETR4** Petrobras anuncia investimento de R$ 6,1 milhões em novo laboratório de óleo e gás na UFU (g1 · 15/10) [abrir a fonte](https://g1.globo.com/mg/triangulo-mineiro/noticia/2026/10/15/petrobras-anuncia-investimento-de-r-61-milhoes-em-novo-laboratorio-de-oleo-e-gas-na-ufu.ghtml)
+  *Por que importa:* noticia material sobre um ativo do livro; ler o texto antes de comentar
 - **USDBRL** Fechamento câmbio: Dólar sobe 1,15% com expectativa por Datafolha e 'tarifa zero' de Lula (UOL Economia · 15/10) [abrir a fonte](https://economia.uol.com.br/noticias/estadao-conteudo/2026/10/15/fechamento-cambio-dolar-sobe-115-com-expectativa-por-datafolha-e-tarifa-zero-de-lula.htm)
   *Por que importa:* tarifa ou sancao muda margem e acesso a mercado
 - **KO** Coca-Cola declares quarterly dividend of 53 cents per share By Investing.com (Investing.com · 15/10) [abrir a fonte](https://in.investing.com/news/stock-market-news/cocacola-declares-quarterly-dividend-of-53-cents-per-share-93CH-5635887)
@@ -302,8 +304,8 @@ Inflação implícita 2029 5,45% · 2032 5,62% · 2031/32 (descasado) 5,53% · F
 
 ### Como ler
 
-**Relógios:** Yahoo 18h13 · DI ajuste D0 · Tesouro base 14/10 · UST CMT D0 · PTAX 15/10
-**Lacunas:** QANT: barra de 15/10 não bate com a cotação do Yahoo às 17:15 (5,6350 contra 5,6670, +0.57%); variação do dia a confirmar; alertas_segurados: alertas não emitidos por dado não confirmado: T10 QANT (QANT: barra de 15/10 não bate com a cotação do Yahoo às 17:15 (5,6350 contra 5,6670, +0.57%)).
+**Relógios:** Yahoo 20h39 · DI ajuste D0 · Tesouro base 14/10 · UST CMT D0 · PTAX 15/10
+**Lacunas:** DXY sem barra de 15/10 (última 14/10); BRENT sem barra de 15/10 (última 14/10); QANT: barra de 15/10 não bate com a cotação do Yahoo às 17:15 (5,6350 contra 5,6670, +0.57%); variação do dia a confirmar; DXY: barra de 15/10 é o início da sessão seguinte (última cotação 18:04 de Nova York); barra descartada, fica a de 14/10; BRENT: barra de 15/10 é o início da sessão seguinte (última cotação 19:06 de Nova York); barra descartada, fica a de 14/10.
 **IUAA:** NAO e renda fixa ultracurta: cai ~6% a cada +100 bps na curva. Ler junto com UST 10y/30y. Caixa em dolar e o IB01.
 **Hipótese:** **EWY** iShares MSCI South Korea ETF · **MCHI** iShares MSCI China ETF — ETFs dos EUA, a confirmar.
 Minério: proxy Dalian 673 CNY/t (2026-10-15).

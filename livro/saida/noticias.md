@@ -1,8 +1,17 @@
-NOTÍCIAS E FATOS · 15/10 18h13
+NOTÍCIAS E FATOS · 15/10 20h39
 
-Pernas: noticias ok 4 novas (18 consultas; descartadas: 459 veículo fora da lista, 28 sem ativo, 0 teto) · cvm ok 0 novos de 0 (0 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 12 novas (18 consultas; descartadas: 467 veículo fora da lista, 25 sem ativo, 5 teto) · cvm ok 1 novos de 10 (8 cias casadas) · sec ok 0 novos em 3 dias
 
-## FATOS RELEVANTES E COMUNICADOS (CVM) (1)
+## FATOS RELEVANTES E COMUNICADOS (CVM) (2)
+
+[INFO] E03 · KLBN4 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
+CVM · entregue 15/10/2026 18:41 · Outros Comunicados Não Considerados Fatos Relevantes
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1577579
+Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; confirma ou nega o que circula
+Ativos: KLBN4
+Como falar: 'a Klabin publicou comunicado ao mercado sobre Outros Comunicados Não Considerados Fatos Relevantes'
+Fonte: CVM 15/10
+id: E03-KLBN4-1577579-2026-10-15 · status: linha
 
 [INFO] E03 · DIRR3 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
 CVM · entregue 14/10/2026 19:50 · Outros Comunicados Não Considerados Fatos Relevantes
@@ -40,7 +49,22 @@ Fonte: SEC EDGAR 2026-10-15
 id: E04-TSM-26000726-2026-10-15 · status: entregue · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (16)
+## NOTÍCIAS COM MATERIALIDADE (17)
+
+[ATENÇÃO] E05 · PETR4 · Petrobras anuncia investimento de R$ 6,1 milhões em novo laboratório de óleo e gás na UFU
+g1 · 15/10 18h58 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Essas reservas se formaram há mais de 100 milhões de anos e estão localizadas em águas profundas e ultraprofundas, entre os litorais do Espírito Santo e de Santa Catarina.
+  – Ainda segundo estatal, o projeto conta com 1.200 m² de área construída, em um terreno de 2.105,40 m² cedido pela UFU, com capacidade estimada para cerca de 20 pessoas.
+  – Construção deve ser concluída em 2 anos A previsão é que as obras comecem no primeiro trimestre de 2027 e com conclusão até agosto de 2028.
+  – O cronograma total é de 24 meses, contados a partir da assinatura do Termo de Cooperação, em agosto de 2026, e os primeiros meses são destinados à preparação de documentos e à licitação da empresa responsável pela const…
+  – Parceria para a construção De acordo com a Petrobras, o investimento de R$ 6,127 milhões será custeado integralmente pela empresa da área de óleo, gás natural e energia.
+Link: https://g1.globo.com/mg/triangulo-mineiro/noticia/2026/10/15/petrobras-anuncia-investimento-de-r-61-milhoes-em-novo-laboratorio-de-oleo-e-gas-na-ufu.ghtml
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: PETR4
+Como falar: 'saiu no g1: Petrobras anuncia investimento de R$ 6,1 milhões em novo laboratório de óleo e gás na UFU; confirmar o número no texto antes de repassar'
+Fonte: g1 15/10 18h58
+id: E05-PETR4-89407ae5cc-2026-10-15 · status: pendente
 
 [ATENÇÃO] E05 · USDBRL · Fechamento câmbio: Dólar sobe 1,15% com expectativa por Datafolha e 'tarifa zero' de Lula
 UOL Economia · 15/10 17h54 · fonte única · licença: manchete
@@ -49,7 +73,7 @@ Por que importa: tarifa ou sancao muda margem e acesso a mercado
 Ativos: USDBRL
 Como falar: 'saiu no UOL Economia: Fechamento câmbio: Dólar sobe 1,15% com expectativa por Datafolha e 'tarifa zero' de Lula; confirmar o número no texto antes de repassar'
 Fonte: UOL Economia 15/10 17h54
-id: E05-USDBRL-611cc72a29-2026-10-15 · status: pendente
+id: E05-USDBRL-611cc72a29-2026-10-15 · status: expirado
 
 [ATENÇÃO] E05 · KO · Coca-Cola declares quarterly dividend of 53 cents per share By Investing.com
 Investing.com · 15/10 15h10 · fonte única · licença: manchete
@@ -58,7 +82,7 @@ Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir
 Ativos: KO
 Como falar: 'saiu no Investing.com: Coca-Cola declares quarterly dividend of 53 cents per share By Investing.com; confirmar o número no texto antes de repassar'
 Fonte: Investing.com 15/10 15h10
-id: E05-KO-335c938af9-2026-10-15 · status: pendente
+id: E05-KO-335c938af9-2026-10-15 · status: expirado
 
 [ATENÇÃO] E05 · KO · Coca-Cola declares quarterly dividend of 53 cents per share
 Investing.com · 15/10 15h25 · + TradingView (Reuters) · licença: manchete
@@ -236,8 +260,19 @@ Fonte: Yahoo Finance 14/10 10h03
 id: E05-BAC-005e3f53ca-2026-10-14 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (144)
+## OUTRAS NOTÍCIAS (só manchete) (155)
 
+· DI Juros futuros têm firme alta com cenário eleitoral apertado e promessa de Lula sobre transporte público (Money Times) https://www.moneytimes.com.br/juros-futuros-15-10-26-apsa/
+· NVDA Supermicro hires a new CFO after $2.5 billion Nvidia smuggling case and a 2-year search (Fortune) https://fortune.com/2026/10/15/supermicro-new-cfo-mark-long-western-digital-nvidia-smuggling/
+· JPM JPMorgan's Chicago Office Renovation Costing Bank Over $800M, Dimon Says (Yahoo Finance) https://finance.yahoo.com/real-estate/articles/jpmorgans-chicago-office-renovation-costing-214216824.html
+· JPM JPMorgan Chase (JPM) Misses Third Quarter Earnings, Is The Upside Already Priced In? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/jpmorgan-chase-jpm-misses-third-211402490.html
+· TSM 3 Taiwan AI Semiconductor Stocks Worth Watching After TSMC Earnings (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/3-taiwan-ai-semiconductor-stocks-211309719.html
+· COHR Is Coherent (COHR) Using Its AI Capacity Buildout And TSX CDR Listing To Redefine Its Edge? (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/coherent-cohr-using-ai-capacity-201724427.html
+· UST Update: US Equity Indexes Shrug Off Hot Producer Price Inflation Print Amid Slumping Treasury Yields (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-shrug-off-195343083.html
+· BTC Grayscale Bitcoin Trust ETF (GBTC) Options Chain (Yahoo Finance) https://ca.finance.yahoo.com/quote/GBTC/options/?date=1792108800&straddle=false&type=all
+· MU Micron vs. NVIDIA: Which AI Stock Is the Better Buy After Earnings? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/micron-vs-nvidia-ai-stock-180000877.html
+· BAC AI, Deal Pipelines and BofA’s Punishment Dominate Earnings Week Chatter (Bloomberg) https://www.bloomberg.com/news/newsletters/2026-10-15/ai-deal-pipelines-and-bofa-s-punishment-dominate-earnings-week-chatter
+· BAC Bank of America’s $1.2 Billion Problem Doesn’t End With Its Consent Order (Barron's) https://news.google.com/rss/articles/CBMigAFBVV95cUxNSXRnSzRJRGVHcnJXX0w5UU9wNXJZc3lwMzJXUUxTV0VGT1kwRkllV3JOalRxYzdEZUxCZHRyaUFOQlRlaDRMWUhkV1ZrTkZ0YjlrZzg1akxfVklxbXI1bk43MUgzeHdSSGNPdzhFaVhBQTBsVVNvTUM3VS1ISVc2cg?oc=5
 · TSLA Tesla Stocks Fall 1.7% as Roadster Reveal Faces a Revenue Reality Check (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/tesla-stocks-fall-1-7-191439293.html
 · KO Pop star: Coca-Cola has outperformed all the Mag 7 stocks this year (TradingView (Reuters)) https://www.tradingview.com/news/seekingalpha:d9f0bec5c094b:0-pop-star-coca-cola-has-outperformed-all-the-mag-7-stocks-this-year/
 · KO COCA-COLA CO (0QZK.IL) Q2 FY2026 earnings call transcript (Yahoo Finance) https://finance.yahoo.com/quote/0QZK.IL/earnings/0QZK.IL-Q2-2026-earnings_call-656148.html
@@ -287,15 +322,4 @@ id: E05-BAC-005e3f53ca-2026-10-14 · status: linha
 · BAC Bank of America Corporation (BAC) stock price, news, quote and history (Yahoo Finance) https://uk.finance.yahoo.com/quote/BAC/
 · NOK Nokia Corporation Sponsored (NOK) Stock Forecasts (Yahoo Finance) https://ca.finance.yahoo.com/research/reports/MS_0P000003XI_AnalystReport_1792021098000
 · TSM TSMC earnings analysis: questions answered and next catalysts (Investing.com) https://www.investing.com/news/stock-market-news/tsmc-earnings-analysis-questions-answered-and-next-catalysts-93CH-4952354
-· NVDA Nvidia CEO Jensen Huang addresses CoreWeave stock plunge: 'I'm optimistic' (Yahoo Finance) https://uk.finance.yahoo.com/news/nvidia-ceo-jensen-huang-addresses-coreweave-stock-plunge-im-optimistic-161504419.html
-· GFS GlobalFoundries Set for Long-Term Earnings From US-Japan Chip Deal, Wedbush Says (Yahoo Finance) https://finance.yahoo.com/technology/articles/globalfoundries-set-long-term-earnings-154720466.html
-· GOOGL Alphabet Q3 Preview: Staying Ahead Of The AI Pack, Shares Fairly Valued (NASDAQ:GOOG) (Seeking Alpha) https://seekingalpha.com/article/4954456-alphabet-q3-preview-staying-ahead-of-the-ai-pack-shares-fairly-valued
-· CVX Chevron Corporation (CVX) Hits Fresh High: Is There Still Room to Run? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/chevron-corporation-cvx-hits-fresh-121528627.html
-· AMD Advanced Micro Devices, Inc. (AMD) Stock Price, News, Quote & History (Yahoo Finance) https://ca.finance.yahoo.com/quote/AMD/
-· UST Update: US Equity Indexes Mixed After Hot Producer Price Inflation, Slumping Treasury Yields (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-mixed-hot-165927840.html
-· UGPA3 Ultrapar (UGPA3): analistas elevam preço-alvo, mas veem pouco espaço após rali (Suno Noticias) https://www.suno.com.br/noticias/ultrapar-ugpa3-preco-alvo-bb-investimentos-mt/
-· NVDA Nvidia and Broadcom Narratives Define the AI Chip Landscape (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/nvidia-broadcom-narratives-define-ai-164509607.html
-· TSLA Tesla may finally debut a flying car today, after testing fans’ patience for nearly a decade (MarketWatch) https://www.marketwatch.com/story/tesla-may-finally-debut-a-flying-car-today-after-testing-fans-patience-for-nearly-a-decade-9a23c8e8
-· VALE3 Vale vê metais básicos superando 40% do Ebitda nos próximos anos com avanço do cobre, diz CEO (Money Times) https://www.moneytimes.com.br/vale-ve-metais-basicos-superando-40-do-ebitda-nos-proximos-anos-com-avanco-do-cobre-diz-ceo/
-· UST Treasury, Eurozone Bond Yields Fall as Risk Aversion Beats Inflation Fears (The Wall Street Journal) https://www.wsj.com/finance/investing/treasury-eurozone-bond-yields-fall-to-multiweek-lows-as-u-s-inflation-shock-fades-29c7b1c1
-· (+84 manchetes; lista completa em eventos/noticias.json)
+· (+95 manchetes; lista completa em eventos/noticias.json)
