@@ -5,11 +5,23 @@ from datetime import datetime, timedelta, timezone
 
 import numpy as np
 import pandas as pd
+import pytest
 
 from quant.pesquisa import revisao as rv
 
 BRT = timezone(timedelta(hours=-3))
 DIA = "2026-10-14"
+_SONO_DO_MAC = rv.sono_do_mac
+
+
+@pytest.fixture(autouse=True)
+def _sem_metatrader_nem_pmset(monkeypatch):
+    """Teste nunca pede barras ao MetaTrader de verdade (o pedido vai para a pasta dele, com o pregao aberto) nem le o registro de
+    sono DESTE Mac: quem testa o sono passa o texto do pmset."""
+    def _sem_servidor(*a, **k):
+        raise RuntimeError("teste: sem MetaTrader")
+    monkeypatch.setattr(rv, "barras_do_servidor", _sem_servidor)
+    monkeypatch.setattr(rv, "sono_do_mac", lambda dia, texto=None: [] if texto is None else _SONO_DO_MAC(dia, texto))
 
 
 def _barras(inicio="09:00", fim="18:29", preco=5050.0, caminho=None, dia=DIA):
@@ -238,3 +250,109 @@ def test_rotina_da_noite_roda_a_revisao_antes_do_protocolo(tmp_path, monkeypatch
     texto, _d = noite.rodar(ensaio=True, pasta=str(tmp_path / "dt"), arq_modo=str(arq_modo), arq_setups=str(tmp_path / "s.json"))
     assert [c[0] for c in chamadas] == ["revisar", "gravar", "placar"]
     assert "Revisao do pregao" in texto and "percentil 33" in texto and "Conserto: o robô insiste" in texto
+
+
+# ── varredura de 15/10/2026 ───────────────────────────────────────────────────
+# o registro de energia do macOS na manha de 15/10/2026 (linhas reais, encurtadas): dormiu as 8h00 na bateria, so DarkWakes de
+# manutencao, e acordou de verdade as 9h24 com a tampa aberta
+PMSET_1510 = """2026-10-15 08:00:15 -0300 DarkWake            \tDarkWake from Deep Idle [CDNP] : due to rtc/Maintenance Using BATT (Charge:100%) 5 secs
+2026-10-15 08:00:20 -0300 Sleep               \tEntering Sleep state due to 'Maintenance Sleep':TCPKeepAlive=active Using Batt (Charge:100%) 1056 secs
+2026-10-15 08:00:22 -0300 Wake Requests       \t[*process=dasd request=SleepService deltaSecs=1054 wakeAt=2026-10-15 08:17:56]
+2026-10-15 09:00:00 -0300 DarkWake            \tDarkWake from Deep Idle [CDNP] : due to rtc/Maintenance Using BATT (Charge:100%) 5 secs
+2026-10-15 09:00:05 -0300 Sleep               \tEntering Sleep state due to 'Maintenance Sleep':TCPKeepAlive=active Using Batt (Charge:100%) 70 secs
+2026-10-15 09:18:11 -0300 DarkWake            \tDarkWake from Deep Idle [CDNP] : due to rtc/SleepService Using BATT (Charge:100%) 2 secs
+2026-10-15 09:18:13 -0300 Sleep               \tEntering Sleep state due to 'Sleep Service Back to Sleep' Using Batt (Charge:100%) 337 secs
+2026-10-15 09:24:18 -0300 Wake                \tWake from Deep Idle [CDNVA] : due to smc.sysState.Wake lid SMC.OutboxNotEmpty Using BATT (Charge:100%)
+2026-10-15 18:40:00 -0300 Sleep               \tEntering Sleep state due to 'Clamshell Sleep' Using AC (Charge:100%) 60 secs
+"""
+
+
+def _pregao_1510(tmp_path, cegueira, negocios_win=False, sinais_win=False, labs_rodando=None):
+    """15/10: o robo so montou barras do mini-dolar a partir das 9h25 (antes o Mac dormia), sem negocio do dolar."""
+    dia = "2026-10-15"
+    pasta = tmp_path / "dt"
+    (pasta / dia).mkdir(parents=True, exist_ok=True)
+    est = {"operacoes": [], "diario": [], "curva": [["09:25", 0.0]], "cegueira": cegueira}
+    if labs_rodando is not None:
+        est["labs_rodando"] = labs_rodando
+    linhas = []
+    if negocios_win:      # o mini-indice da regra do laboratorio: comprou 1 a 209.105 as 17h41 e saiu por tempo as 18h06 a 209.400
+        est["operacoes"].append({"tipo": "saida", "ativo": "WINFUT", "lado": "C", "contratos": 1, "entrada": 209105.0, "hora_entrada": "17:41:03",
+                                 "saida": 209400.0, "hora_saida": "18:06:03", "motivo": "tempo esgotado", "pontos": 295.0, "custos": 0.6,
+                                 "tecnica": "fim do pregão (teste)", "nome_nivel": "fim do pregão (teste)", "resultado": 58.4})
+    if sinais_win:
+        linhas += [{"tipo": "sinal", "ativo": "WINFUT", "tecnica": "fim do pregão (teste)", "lado": "C", "entrada": 209105.0, "stop_pts": 500.0,
+                    "tempo_max_s": 1500.0, "opera": True, "bloqueio": None, "hora": "17:41:03", "quando": f"{dia}T17:41:03-03:00", "medidas": {"dose": 1}},
+                   {"tipo": "entrada", "ativo": "WINFUT", "tecnica": "fim do pregão (teste)", "lado": "C", "contratos": 1, "entrada": 209105.0, "hora": "17:41:03"}]
+    (pasta / dia / "estado_niveis.json").write_text(json.dumps(est))
+    (pasta / dia / "sinais_niveis.jsonl").write_text("".join(json.dumps(x) + "\n" for x in linhas))
+    with open(pasta / "m1_WDOFUT.csv", "w") as f:
+        for t, x in _barras("09:25", "18:19", dia=dia).iterrows():
+            f.write(f"{t:%Y-%m-%d %H:%M:%S};{x.o};{x.h};{x.l};{x.c};{x.v}\n")
+    with open(pasta / "m1_WINFUT.csv", "w") as f:
+        for t, x in _barras("09:00", "18:19", preco=209200.0, dia=dia).iterrows():
+            f.write(f"{t:%Y-%m-%d %H:%M:%S};{x.c};{x.c + 250};{x.c - 150};{x.c};0.0\n")
+    return pasta, dia
+
+
+REG_WIN = [{"nome": "win_teste", "titulo": "fim do pregão (teste)", "arquivo": "x.py", "ativo": "WINFUT", "estado": "opera",
+            "janela": ["17:30", "18:10"], "saida": {"stop": 500, "tempo": 25}, "contratos": 1}]
+
+
+def test_sono_do_mac_pelo_registro_de_energia():
+    assert rv.sono_do_mac("2026-10-15", PMSET_1510) == [("08:00", "09:24"), ("18:40", "23:59")]   # o DarkWake nao acorda
+    assert rv.sono_do_mac("2026-10-14", PMSET_1510) == []
+    assert rv.fracao_dormindo("09:00", "09:24", [("08:00", "09:24")]) == 1.0
+    assert rv.fracao_dormindo("11:51", "18:19", [("08:00", "09:24")]) == 0.0
+    assert rv.sono_do_mac("2026-10-15", "") == []
+
+
+def test_mac_dormindo_vira_item_proprio_e_nao_falha_repetida_do_metatrader(tmp_path, monkeypatch):
+    """Achado 42: o robo de 15/10 ainda grava a cegueira com 3 campos; a revisao reconhece o sono pelo pmset e nao acusa o MetaTrader."""
+    pasta, dia = _pregao_1510(tmp_path, cegueira=[["09:00", "09:24", 24]])
+    sono = rv.sono_do_mac(dia, PMSET_1510)
+    rev = rv.revisar(dia, pasta=str(pasta), servidor=_servidor(dia), dist=_dist(), consertos=[], sono=sono, registro=[])
+    chaves = [x["chave"] for x in rev["itens"]]
+    assert "b:mac:dormiu" in chaves and "b:metatrader:cego" not in chaves
+    item = next(x for x in rev["itens"] if x["chave"] == "b:mac:dormiu")
+    assert item["inicio"] == "09:00" and "Mac estava dormindo" in item["texto"] and "tomada" in item["acao"]
+    caderno = tmp_path / "rev" / "caderno.jsonl"
+    caderno.parent.mkdir()
+    caderno.write_text(json.dumps({"dia": "2026-10-14", "categoria": "b", "chave": "b:metatrader:cego", "texto": "cego"}) + "\n"
+                       + json.dumps({"dia": "2026-10-14", "categoria": "b", "chave": "b:mac:dormiu", "texto": "dormiu"}) + "\n")
+    g = rv.gravar(rev, ensaio=True, arq_caderno=str(caderno), dir_rev=str(tmp_path / "rev"), telas=[], consertos=[])
+    assert not g["manchete"].startswith("FALHA REPETIDA") and "Mac dormindo 2" in g["manchete"]
+    # o robo novo ja anota o motivo: vale mesmo sem o pmset
+    pasta, dia = _pregao_1510(tmp_path / "b", cegueira=[["09:00", "09:24", 24, "mac_dormindo"]])
+    rev = rv.revisar(dia, pasta=str(pasta), servidor=_servidor(dia), dist=_dist(), consertos=[], sono=[], registro=[])
+    assert [x["chave"] for x in rev["itens"] if x["chave"].startswith("b:")] == ["b:mac:dormiu"]
+    # sem sono, a mesma cegueira continua sendo do MetaTrader
+    pasta, dia = _pregao_1510(tmp_path / "c", cegueira=[["09:00", "09:24", 24]])
+    rev = rv.revisar(dia, pasta=str(pasta), servidor=_servidor(dia), dist=_dist(), consertos=[], sono=[], registro=[])
+    assert "b:metatrader:cego" in [x["chave"] for x in rev["itens"]]
+
+
+def test_regra_do_mini_indice_fora_do_robo_nao_e_cegueira(tmp_path, monkeypatch):
+    """Achado 10: a revisao de 14/10 disse que a regra do mini-indice 'nao rodou porque o robo estava cego' e que o conserto do
+    MetaTrader cobria; ela nunca rodaria, o robo nao percorria o contrato dela."""
+    cego = [["11:51", "18:19", 388]]
+    pasta, dia = _pregao_1510(tmp_path, cegueira=cego)
+    rev = rv.revisar(dia, pasta=str(pasta), servidor=_servidor(dia), dist=_dist(), consertos=[], sono=[], registro=REG_WIN,
+                     ativos_robo=("WDOFUT",))
+    fora = [x for x in rev["itens"] if x["chave"] == "b:lab:fora_do_robo:win_teste"]
+    assert len(fora) == 1 and "não rodou" in fora[0]["texto"] and "WINFUT" in fora[0]["texto"] and "15/10/2026" in fora[0]["acao"]
+    assert not any(x["chave"].startswith("b:cego:") for x in rev["itens"])
+    # robo novo (grava labs_rodando) e a regra deu sinal e entrou: nada de "fora do robo" nem de "perdida por cegueira"
+    pasta, dia = _pregao_1510(tmp_path / "b", cegueira=cego, negocios_win=True, sinais_win=True, labs_rodando={"win_teste": "WINFUT"})
+    rev = rv.revisar(dia, pasta=str(pasta), servidor=_servidor(dia), dist=_dist(), consertos=[], sono=[], registro=REG_WIN,
+                     ativos_robo=("WDOFUT",))
+    chaves = [x["chave"] for x in rev["itens"]]
+    assert not any(c.startswith(("b:lab:fora_do_robo", "b:cego:")) for c in chaves)
+    # o negocio do mini-indice e conferido nas barras do mini-indice (antes: nas do mini-dolar, e a saida "ficava fora da barra")
+    assert "b:execucao:saida_fora_da_barra" not in chaves
+    regra = next(x for x in rev["por_regra"] if x["tecnica"] == "fim do pregão (teste)")
+    assert regra["operados"] == 1 and regra["por_motivo"] == {"entrou": 1}
+    # robo novo que rodou a regra, ficou cego na janela e ela nao deu sinal: ai sim e perdida por cegueira
+    pasta, dia = _pregao_1510(tmp_path / "c", cegueira=cego, labs_rodando={"win_teste": "WINFUT"})
+    rev = rv.revisar(dia, pasta=str(pasta), servidor=_servidor(dia), dist=_dist(), consertos=[], sono=[], registro=REG_WIN)
+    assert [x["chave"] for x in rev["itens"] if x["chave"].startswith(("b:cego:", "b:lab:"))] == ["b:cego:win_teste"]

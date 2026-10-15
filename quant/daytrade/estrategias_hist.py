@@ -368,10 +368,13 @@ class NivelReacao(Estrategia):
         das_medias = []
         if self.valor_medias is not None and self.medias_como_nivel:
             das_medias = [(self.valor_medias[j][i], f"média de {n} ({self.tempo_medias} min)") for j, n in enumerate(self.medias)]
-        tem_oficial = any(n == "ajuste de ontem" for _v, n in self.extras)       # o ajuste oficial vale mais que o calculado das barras
+        # o oficial (boletim da B3) vale mais que o calculado das barras: o ajuste e, desde 15/10/2026, maxima, minima e fechamento de
+        # ontem, que saiam das barras do proprio robo e erravam no dia em que ele ficou cego (14/10: "fechamento" 5.059,0 contra 5.066,0)
+        oficiais = {n for _v, n in self.extras}
+        de_ontem = [(self.max_ontem[i], "máxima de ontem"), (self.min_ontem[i], "mínima de ontem"), (self.fech_ontem[i], "fechamento de ontem")]
         lista = [] if self.so_medias else [
-            *([] if tem_oficial else [(self.ajuste[i], "ajuste de ontem")]), *[(v, n) for v, n in self.extras],
-            (self.max_ontem[i], "máxima de ontem"), (self.min_ontem[i], "mínima de ontem"), (self.fech_ontem[i], "fechamento de ontem"),
+            *([] if "ajuste de ontem" in oficiais else [(self.ajuste[i], "ajuste de ontem")]), *[(v, n) for v, n in self.extras],
+            *[(v, n) for v, n in de_ontem if n not in oficiais],
             (self.abertura[i], "abertura"), (self.max_dia[i], "máxima do dia"), (self.min_dia[i], "mínima do dia")]
         lista += das_medias
         if not self.so_medias:

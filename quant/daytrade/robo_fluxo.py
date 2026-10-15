@@ -100,6 +100,10 @@ FEED_RUIM = {"sem_tique_s": 30.0, "atraso_ms": 15_000.0, "leituras": 3, "espera_
 # intervalos no estado ("cegueira"), que a revisao da noite le.
 CEGO_S = 60.0
 CEGO_AVISO_S = 300.0
+# contrato so de regra do laboratorio (achado 10): o motor e relido ate o minuto que fechou aparecer, no maximo a cada LAB_RELER_S;
+# barra que chega com mais de LAB_ATRASO_MIN de atraso so e medida (a regra decide no fechamento e entra no minuto seguinte)
+LAB_RELER_S = 5.0
+LAB_ATRASO_MIN = 2
 DIR_REVISAO = os.path.join(os.path.dirname(DIR_DT), "revisao")    # a revisao do pregao (quant/pesquisa/revisao.py) grava aqui
 
 
@@ -147,6 +151,38 @@ def ajustes_oficiais(codigos, hoje, arquivo=None):
     return fora
 
 
+def extremos_oficiais(codigos, hoje, arquivo=None):
+    """{WDOFUT: [(maxima, "máxima de ontem"), (minima, "mínima de ontem"), (ultimo, "fechamento de ontem")]} do pregao ANTERIOR a
+    `hoje`, pelo mesmo arquivo de futuros do terminal (boletim diario da B3). So vale o arquivo que e exatamente do ultimo pregao antes
+    de hoje: de noite ele ja e o de hoje (max, min e ultimo de hoje), e um arquivo mais velho seria de outro pregao. Antes de 15/10/2026
+    os tres saiam das barras do proprio robo, e o dia em que ele ficou cego dava nivel falso (achado 41)."""
+    d = ler_json(arquivo or ARQ_FUTUROS_B3, padrao=None)
+    if not isinstance(d, dict) or not d.get("data"):
+        return {}
+    try:
+        h = datetime.strptime(str(hoje), "%Y-%m-%d").date()
+    except ValueError:
+        return {}
+    try:
+        from quant.dados import calendario as cal
+        anterior = cal.pregao_anterior(h)
+    except Exception:                                            # sem o calendario: o dia util anterior
+        anterior = h - timedelta(days=1)
+        while anterior.weekday() >= 5:
+            anterior -= timedelta(days=1)
+    if str(d["data"]) != anterior.isoformat():
+        return {}
+    por_codigo = {str(c.get("s")): c for f in (d.get("familias") or []) for c in (f.get("contratos") or []) if isinstance(c, dict)}
+    fora = {}
+    for a, cod in codigos.items():
+        c = por_codigo.get(cod) or {}
+        lista = [(v, nome) for campo, nome in (("max", "máxima de ontem"), ("min", "mínima de ontem"), ("ult", "fechamento de ontem"))
+                 if (v := _num(c.get(campo))) and v > 0]
+        if lista:
+            fora[a] = lista
+    return fora
+
+
 def _relogio_brt(agora):
     """A hora de Brasilia na escala da fita do MetaTrader, que carimba a hora de parede como se fosse UTC."""
     return int(datetime(agora.year, agora.month, agora.day, agora.hour, agora.minute, agora.second, tzinfo=timezone.utc).timestamp())
@@ -159,6 +195,11 @@ def _historico_do_climax(lote, capital=None):
             + f"e PERDEU cerca de R$ {abs(round(h['rs_por_negocio_e_contrato'] * lote + 1e-9))} por negócio com {lote} contratos, em todos os anos. "
             f"Só 2026 deu positivo (acerto de {h['acerto_2026']}%, cerca de R$ {round(h['rs_por_negocio_e_contrato_2026'] * lote)} por negócio): "
             f"de {h['configuracoes']} configurações testadas, nenhuma ganha de 2021 a 2025.")
+
+
+def _vezes(v):
+    """0.6 -> "0,6": quantas vezes a media, no formato brasileiro (15/10/2026, achado 83: a tela mostrava "0.6 vezes")."""
+    return f"{float(v):.1f}".replace(".", ",")
 
 
 def hora_da_fita(seg):
@@ -248,7 +289,7 @@ def regras_niveis(p, climax_opera=QUEM_OPERA["climax_opera"], niveis_opera=QUEM_
         "Limites mais longos (método de 10/10/2026): R$ 2.000 de perda na semana e o robô para até segunda-feira; R$ 10.000 de queda "
         "desde o pico do acumulado e ele para até você mandar religar. O stop cheio de um negócio nunca passa da perda máxima do dia: "
         "se o lote pedir mais que isso, o robô entra com menos contratos.",
-        f"Entradas das {ef.ATIVOS['WDOFUT'].hora_inicio} às {p.hora_ultima_entrada}, menos de {p.pausa_dado[0]} a {p.pausa_dado[1]} (dado das 9h30) "
+        f"Entradas das {ef.ATIVOS['WDOFUT'].hora_inicio} às {p.hora_ultima_entrada}, menos de {p.pausa_dado[0]} a {p.pausa_dado[1]} (dado das {ef.hora_do_dado(p)}) "
         f"e com o spread aberto. Às {p.hora_zerar} zera tudo.",
     ]
 
@@ -274,7 +315,7 @@ def regras_phicube(p, objetivo_rs=None, medicao=None):
         f"{ef._n(c['alvo_pts'])} pontos (o exemplo que ele dá no dólar; nas lives os alvos ficam entre 15 e 40).",
         f"Lote: {p.lote_base} contratos de mini-dólar; sobe {p.lote_por_degrau} a cada {ef._rs(p.colchao_por_degrau)} de lucro acumulado (até {p.lote_maximo}).",
         "Para " + ", ".join(parar) + ".",
-        f"Entradas das {ef.ATIVOS['WDOFUT'].hora_inicio} às {p.hora_ultima_entrada}, menos de {p.pausa_dado[0]} a {p.pausa_dado[1]} (dado das 9h30) "
+        f"Entradas das {ef.ATIVOS['WDOFUT'].hora_inicio} às {p.hora_ultima_entrada}, menos de {p.pausa_dado[0]} a {p.pausa_dado[1]} (dado das {ef.hora_do_dado(p)}) "
         f"e com o spread aberto. Às {p.hora_zerar} zera tudo.",
         "Ainda não entra: o indicador Santo (fórmula não publicada), as linhas verdes e vermelhas como alvo, o pivô com reteste "
         "que os instrutores usam nas lives, e a operação nas pontas de uma consolidação larga.",
@@ -307,20 +348,7 @@ class RoboFluxo:
         garantir_dir(self.pasta)
         self.arq_estado = os.path.join(self.pasta, f"estado_{setup}.json")
         salvo = ler_json(self.arq_estado, padrao=None) or {}
-        self.estados = {}
-        for a in ATIVOS:
-            e = ef.EstadoF(a)
-            s = (salvo.get("estados") or {}).get(a) or {}
-            e.operacoes = int(s.get("operacoes") or 0)
-            e.ultima_saida_ts = float(s.get("ultima_saida_ts") or 0.0)
-            e.lado_dos_niveis = dict(s.get("lado_dos_niveis") or {})
-            e.perdas = dict(s.get("perdas") or {})
-            e.extremos = dict(s.get("extremos") or {})
-            e.contras = dict(s.get("contras") or {})
-            e.ultima_foi_perda = bool(s.get("ultima_foi_perda"))
-            if isinstance(s.get("posicao"), dict):
-                e.posicao = ef.PosicaoF(**s["posicao"])
-            self.estados[a] = e
+        self.estados = {a: self._estado_salvo(a, salvo) for a in ATIVOS}
         self.operacoes = list(salvo.get("operacoes") or [])      # parciais e saidas, na ordem
         self.diario = list(salvo.get("diario") or [])
         self.curva = list(salvo.get("curva") or [])
@@ -333,6 +361,8 @@ class RoboFluxo:
         self.marcos = set(salvo.get("marcos") or [])
         self.codigos = dict(salvo.get("codigos") or {})          # WINFUT -> WINV26
         self.ajustes = dict(salvo.get("ajustes") or {})
+        self.ontem_oficial = {}                                  # ativo -> [(valor, nome)]: maxima, minima e fechamento de ontem da B3
+        self.ontem_falha = {}                                    # ativo -> por que as barras de ontem do robo estao incompletas (ou None)
         self.leitor = fx.Leitor(pasta=pasta_mt5, dia=self.hoje.replace("-", ""))
         # duas fitas por contrato: a da FONTE do fluxo (no dolar, o contrato cheio, sem lote de robo) e a do mini
         self.fitas = {a: fx.Fita(a, es.CONTRATOS[a]["tick"], sem_lote_de_robo=ef.ATIVOS[a].sem_lote_de_robo) for a in ATIVOS}
@@ -342,7 +372,9 @@ class RoboFluxo:
         self.cot, self.feed, self.feed_em, self.livro = {}, {}, 0.0, {}
         self.feed_visto, self.feed_ruim, self.reconectou_em, self.reconexoes = 0.0, 0, 0.0, 0
         self.vigia_em, self.acordou_em = time.time(), 0.0        # para saber quando o Mac dormiu (tampa fechada) e acabou de acordar
-        self.cegueira = [list(x) for x in salvo.get("cegueira") or [] if isinstance(x, (list, tuple)) and len(x) == 3]
+        self.sono = []                                           # (inicio, fim) em epoch de cada vez que o robo ficou parado com o Mac dormindo
+        # [inicio, fim, minutos] ou, quando o Mac dormia (15/10/2026), [inicio, fim, minutos, "mac_dormindo"]
+        self.cegueira = [list(x) for x in salvo.get("cegueira") or [] if isinstance(x, (list, tuple)) and len(x) in (3, 4)]
         self.cego_desde, self.cego_avisado = None, False         # relogio (epoch) do ultimo tique antes de ficar cego
         self._revisao = (None, None)                             # (mtime, conteudo) da ultima revisao do pregao, para a tela
         self.chave = chave.ler()                                 # liga/desliga do Douglas
@@ -374,12 +406,42 @@ class RoboFluxo:
         self.niveis_opera = bool(modo.get("niveis_opera", QUEM_OPERA["niveis_opera"]))
         self.climax = {a: br.SinalClimax(**CLIMAX) for a in ATIVOS} if setup == "niveis" else {}
         self.leitura_climax, self.climax_pendente = {}, {}
-        self.outras = self._outras_regras_do_dia()               # o dia e um so: perdas e resultado das regras que ja rodaram hoje
+        # 15/10/2026 (varredura, achado 10): regra do laboratorio de um contrato que o robo nao opera (o mini-indice, fora de
+        # ativos_robo.json desde 08/10) nunca rodava: o laco so passava pelos ATIVOS. Esses contratos agora tem estado, posicao e
+        # barras de 1 minuto (pelo fechamento por minuto do motor: a fita deles nao e pedida ao MetaTrader) e rodam SO as regras do
+        # laboratorio deles, sem nivel, climax nem dado. O negocio conta no limite do dia como qualquer outro.
+        self.extras = tuple(dict.fromkeys(sl.ativo for sl in self.labs if sl.ativo not in ATIVOS and sl.ativo in ef.ATIVOS and sl.ativo in es.CONTRATOS))
+        self.todos = tuple(ATIVOS) + self.extras
+        for a in self.extras:
+            self.estados[a] = self._estado_salvo(a, salvo)
+            self.fitas[a] = fx.Fita(a, es.CONTRATOS[a]["tick"])
+            self.fitas_mini[a] = fx.Fita(a, es.CONTRATOS[a]["tick"])
+            self.barras[a] = br.Barras(a, DIR_DT, pasta_mt5)
+        self.lab_lido_em = {}                                    # contrato fora dos ATIVOS -> relogio da ultima leitura do motor
+        # a pausa do dado segue o horario do dado americano do dia (9h30 no horario de verao dos EUA, 10h30 fora): 15/10/2026, achado 81
+        self.p.pausa_dado = br.pausa_do_dado(datetime.strptime(self.hoje, "%Y-%m-%d").date())
+        self.outras = self._outras_regras_do_dia()             # o dia e um so: perdas e resultado das regras que ja rodaram hoje
         self.acumulado_antes = self._acumulado_antes()
         if self.trava is None:                                   # limite da semana ou de queda ja estourado em pregoes anteriores:
             self.trava = self._limite_longo(0.0)                 # nasce parado, antes do primeiro ciclo
 
     # ── persistencia ─────────────────────────────────────────
+    @staticmethod
+    def _estado_salvo(a, salvo):
+        """O estado do contrato como ficou gravado hoje (o robo pode ser religado no meio do pregao)."""
+        e = ef.EstadoF(a)
+        s = (salvo.get("estados") or {}).get(a) or {}
+        e.operacoes = int(s.get("operacoes") or 0)
+        e.ultima_saida_ts = float(s.get("ultima_saida_ts") or 0.0)
+        e.lado_dos_niveis = dict(s.get("lado_dos_niveis") or {})
+        e.perdas = dict(s.get("perdas") or {})
+        e.extremos = dict(s.get("extremos") or {})
+        e.contras = dict(s.get("contras") or {})
+        e.ultima_foi_perda = bool(s.get("ultima_foi_perda"))
+        if isinstance(s.get("posicao"), dict):
+            e.posicao = ef.PosicaoF(**s["posicao"])
+        return e
+
     def _acumulado_antes(self):
         serie = ler_json(self.arq_serie, padrao=None)
         return sum(float(x.get("resultado") or 0.0) for x in (serie if isinstance(serie, list) else [])
@@ -440,7 +502,9 @@ class RoboFluxo:
             "curva": self.curva[-700:], "trava": self.trava, "perdas": self.perdas, "negocio": self.negocio,
             "pico": self.pico, "vale": self.vale, "pico_realizado": self.pico_realizado,
             "marcos": sorted(self.marcos), "codigos": self.codigos,
-            "ajustes": self.ajustes, "cegueira": self._cegueira_ate_agora()}, ensure_ascii=False))
+            "ajustes": self.ajustes, "cegueira": self._cegueira_ate_agora(),
+            # as regras do laboratorio que este robo roda hoje, com o contrato: a revisao da noite separa "nao rodou" de "rodou e nao deu sinal"
+            "labs_rodando": {sl.nome: sl.ativo for sl in self.labs if sl.ativo in self.todos}}, ensure_ascii=False))
 
     def _cegueira_ate_agora(self, agora=None):
         """Os intervalos cegos do dia, com o que esta aberto agora (se ja passou do aviso)."""
@@ -459,7 +523,8 @@ class RoboFluxo:
         hm = agora.strftime("%H:%M")
         if agora.weekday() >= 5 or not ("09:00" <= hm < "18:20"):
             return
-        tiques = [c.get("ts_tique") for c in self.cot.values() if c.get("ts_tique")]
+        # so os contratos que o robo opera: o de regra do laboratorio (achado 10) vem do mesmo motor e nao muda o diagnostico
+        tiques = [c.get("ts_tique") for a, c in self.cot.items() if a in ATIVOS and c.get("ts_tique")]
         ultimo = max(tiques) if tiques else None
         cego = ultimo is None or agora.timestamp() - ultimo > CEGO_S
         if cego:
@@ -469,15 +534,32 @@ class RoboFluxo:
             if not self.cego_avisado and agora.timestamp() - self.cego_desde >= CEGO_AVISO_S:
                 self.cego_avisado = True
                 desde = datetime.fromtimestamp(self.cego_desde, agora.tzinfo).strftime("%H:%M")
-                self.anotar("feed", f"Sem cotação do MetaTrader desde {desde}: o robô está cego (não lê sinal nem entra) até a cotação voltar.", agora)
+                if self._dormiu(self.cego_desde, agora.timestamp()) or time.time() - self.acordou_em < FEED_RUIM["carencia_ao_acordar_s"]:
+                    self.anotar("feed", f"Sem cotação desde {desde}: o Mac estava dormindo (tampa fechada ou na bateria) e o robô não roda "
+                                "enquanto ele dorme. Não é falha do MetaTrader.", agora)
+                else:
+                    self.anotar("feed", f"Sem cotação do MetaTrader desde {desde}: o robô está cego (não lê sinal nem entra) até a cotação voltar.", agora)
             return
         if self.cego_desde is not None:
             minutos = int((agora.timestamp() - self.cego_desde) // 60)
             if minutos * 60 >= CEGO_AVISO_S:
                 inicio = datetime.fromtimestamp(self.cego_desde, agora.tzinfo).strftime("%H:%M")
-                self.cegueira.append([inicio, hm, minutos])
-                self.anotar("feed", f"Cotação de volta às {hm}, depois de {minutos} minutos sem preço (desde {inicio}).", agora)
+                if self._dormiu(self.cego_desde, agora.timestamp()):
+                    # 15/10/2026 (achado 42): das 9h00 as 9h24 o Mac dormia; a revisao da noite contava como falha do MetaTrader
+                    self.cegueira.append([inicio, hm, minutos, "mac_dormindo"])
+                    self.anotar("feed", f"Cotação de volta às {hm}, depois de {minutos} minutos sem preço (desde {inicio}): o Mac estava "
+                                "dormindo (tampa fechada ou na bateria), não foi o MetaTrader.", agora)
+                else:
+                    self.cegueira.append([inicio, hm, minutos])
+                    self.anotar("feed", f"Cotação de volta às {hm}, depois de {minutos} minutos sem preço (desde {inicio}).", agora)
             self.cego_desde, self.cego_avisado = None, False
+
+    def _dormiu(self, ini, fim):
+        """O Mac dormiu a maior parte do intervalo [ini, fim] (epoch)? Pelos intervalos em que o robo ficou parado (`self.sono`)."""
+        if fim <= ini:
+            return False
+        dormido = sum(max(0.0, min(b, fim) - max(a, ini)) for a, b in self.sono)
+        return dormido >= 0.5 * (fim - ini)
 
     def _bloqueio(self, a, agora, sinal):
         """Por que o sinal NAO vira entrada agora (as mesmas portas de estrategia_fluxo.passo), ou None. So para o registro do
@@ -533,8 +615,9 @@ class RoboFluxo:
 
     # ── fita, contratos e ajuste ─────────────────────────────
     def preparar(self):
-        """Descobre o contrato vigente de cada futuro, pede a fita dele e le o ajuste de ontem."""
-        for a in ATIVOS:
+        """Descobre o contrato vigente de cada futuro, pede a fita dele e le o ajuste de ontem. O contrato que so tem regra do
+        laboratorio (achado 10) entra so na descoberta do codigo: a fita dele nao e pedida."""
+        for a in self.todos:
             if a not in self.codigos:
                 s = ler_motor(f"/vivo/intradia?s={a}&dias=1", self.motor, timeout=8.0) or {}
                 if s.get("codigo"):
@@ -546,6 +629,10 @@ class RoboFluxo:
             except OSError as e:
                 log(f"nao consegui pedir a fita ao MetaTrader: {e}")
         meus = {a: c for a, c in self.codigos.items() if a in ATIVOS}
+        self.ontem_oficial = extremos_oficiais(meus, self.hoje)   # maxima, minima e fechamento de ontem: os oficiais da B3 (achado 41)
+        for a in ATIVOS:
+            if a in self.barras and a not in self.ontem_falha:  # as barras de ontem nao mudam durante o dia: confere uma vez
+                self.ontem_falha[a] = br.falha_de_ontem(self.barras[a].df, self.hoje)
         oficiais = ajustes_oficiais(meus, self.hoje)           # ajuste de ontem: o oficial da B3, pelo terminal
         for a, (v, _data) in oficiais.items():
             self.ajustes[a] = v
@@ -619,6 +706,7 @@ class RoboFluxo:
         relogio = time.time()
         if relogio - self.vigia_em > FEED_RUIM["pausa_do_mac_s"]:      # o robo ficou parado: o Mac dormiu. Preco velho ao acordar
             self.acordou_em, self.feed_ruim = relogio, 0                # nao e defeito do MetaTrader (09/10/2026, tampa fechada as 13h59)
+            self.sono = (self.sono + [(self.vigia_em, relogio)])[-200:]   # a cegueira desse trecho e do Mac, nao do MetaTrader (15/10/2026)
         self.vigia_em = relogio
         if agora.weekday() >= 5 or not ("09:05" <= hm < "18:20") or self.feed_em == self.feed_visto:
             return False
@@ -669,6 +757,11 @@ class RoboFluxo:
                 self.anotar("entrada", f"{nome}: {'COMPROU' if ev['lado'] == 'C' else 'VENDEU'} {ev['contratos']} a {_pontos(ev['entrada'], a)} "
                             f"contra um {ev['nome_nivel']}; stop {_pontos(ev['stop'], a)}, alvo a {_pontos(m.get('alvo_pts') or 0, a)} pontos, "
                             f"sai em {m.get('tempo_max_min')} minutos se não andar.", agora)
+                return
+            if m.get("regra"):                               # regra do laboratorio (setups.json): nao e teste de nivel
+                self.anotar("entrada", f"{nome}: {'COMPROU' if ev['lado'] == 'C' else 'VENDEU'} {ev['contratos']} a {_pontos(ev['entrada'], a)} "
+                            f"pela regra do laboratório \"{ev['tecnica']}\"; stop {_pontos(ev['stop'], a)}"
+                            + (f", sai em {m['tempo_max_min']} minutos." if m.get("tempo_max_min") else "."), agora)
                 return
             if self.setup == "niveis":
                 ft = m.get("fita") or {}
@@ -722,12 +815,12 @@ class RoboFluxo:
         lote = ef.lote_do_dia(self.acumulado_antes, self.p)
         self.chave = chave.ler()
         if not self.chave["ligado"]:                       # o Douglas desligou: zera o que houver e nao entra
-            for a in ATIVOS:
+            for a in self.todos:
                 c = self.cot.get(a)
                 ev = ef.zerar(self.estados[a], ts, hora, c["preco"], "desligado") if c else None
                 if ev:
                     self._registrar(ev, agora)
-        for a in ATIVOS:
+        for a in self.todos:
             c = q.get(a)
             if not isinstance(c, list) or len(c) <= I_HORA:
                 continue
@@ -754,8 +847,8 @@ class RoboFluxo:
             self.cot[a]["var_ajuste"] = contexto["var"]
             pode = self.trava is None and self.chave["ligado"] \
                 and (self.perdas + self.outras["perdas"]) < self.p.perdas_para_parar      # o limite e do dia, nao da regra
-            if self.grafico:
-                contexto["sinal"] = self._sinal_phicube(a, agora)        # None na maior parte do tempo; a fita nao decide
+            if self.grafico:                                             # None na maior parte do tempo; a fita nao decide
+                contexto["sinal"] = self._sinal_phicube(a, agora) if a in ATIVOS else self._sinal_lab_fora(a, agora)
             else:
                 pode = pode and fonte is not None                        # leitura de fluxo sem fita nao entra
             for ev in ef.passo(self.estados[a], ts, hora, preco, fita, ef.niveis_do_dia(self.cot[a], self.p), self.p, lote,
@@ -787,7 +880,7 @@ class RoboFluxo:
                 self.anotar("trava", f"O dia chegou a {_reais(self.pico_realizado)} e devolveu {self.p.devolucao_para:.0%} "
                             f"ou mais (está em {_reais(realizado)}): o robô não entra mais hoje.", agora)
         if motivo:
-            for a in ATIVOS:
+            for a in self.todos:
                 c = self.cot.get(a)
                 ev = ef.zerar(self.estados[a], ts, hora, c["preco"], motivo) if c else None
                 if ev:
@@ -839,7 +932,7 @@ class RoboFluxo:
                 de = None if b.ultimo_minuto is None else b.ultimo_minuto - br.pd.Timedelta(minutes=15)
                 b.acrescentar(br.juntar_minutos(br.minutos_do_motor(serie, agora), br.minutos_da_fita(self.fitas_mini[a], de)))
                 if self.setup == "niveis":
-                    extras = [(self.ajustes[a], "ajuste de ontem")] if self.ajustes.get(a) else []
+                    extras = ([(self.ajustes[a], "ajuste de ontem")] if self.ajustes.get(a) else []) + list(self.ontem_oficial.get(a) or [])
                     self.leitura_pc[a], ordem = self.sinais_pc[a].atualizar(b.df, extras)
                 else:
                     self.leitura_pc[a], ordem = self.sinais_pc[a].atualizar(b.df)
@@ -852,22 +945,14 @@ class RoboFluxo:
                          "medidas": {"risco_pts": ordem.stop_pts, "alvo_pts": ordem.alvo_pts,
                                      "retorno_risco": round(ordem.alvo_pts / ordem.stop_pts, 2),
                                      "fracao_a_favor": fita.get("fracao_a_favor"), "fita": fita}}
-                opera_nivel = self.niveis_opera and not self._perto_do_dado(agora)
-                self._guardar_sinal(a, sinal, agora, opera=opera_nivel)
+                reservado = self._perto_do_dado(agora)
+                opera_nivel = self.niveis_opera and not reservado
+                self._guardar_sinal(a, sinal, agora, opera=opera_nivel,
+                                    motivo=self._motivo_reserva(agora) if self.niveis_opera and reservado else None)
                 if not opera_nivel:
                     sinal = None                                 # so medido: nao vira entrada
             if self.setup == "niveis" and sinal is None and a in self.barras:
-                for sl in self.labs:                             # regras do laboratorio, na barra de 1 minuto que acabou de fechar
-                    if sl.ativo != a:                            # cada regra declara o seu ativo (WDOFUT ou WINFUT)
-                        continue
-                    s_lab = sl.atualizar(self.barras[a].df)
-                    if s_lab is None:
-                        continue
-                    opera_lab = sl.estado == "opera" and not self._perto_do_dado(agora)
-                    s_lab["medidas"]["fita"] = self.leitura_da_fita(a, s_lab["lado"], s_lab["nivel"])
-                    self._guardar_sinal(a, s_lab, agora, opera=opera_lab)
-                    if opera_lab and sinal is None:
-                        sinal = s_lab
+                sinal = self._rodar_labs(a, agora, self.barras[a].df)   # regras do laboratorio, na barra de 1 minuto que acabou de fechar
             if ordem is not None and self.setup == "phicube":
                 l = self.leitura_pc[a]
                 sinal = {"tecnica": "phicube", "lado": ordem.lado, "nivel": l["medias_menor"][0],
@@ -878,6 +963,62 @@ class RoboFluxo:
                                      "medias_maior": l["medias_maior"], "medias_menor": l["medias_menor"],
                                      "risco_pts": ordem.stop_pts, "fracao_a_favor": None}}
         return sinal_dado or sinal_climax or sinal
+
+    def _rodar_labs(self, a, agora, df, fresco=True):
+        """As regras do laboratorio do contrato `a` (cada regra declara o seu: WDOFUT ou WINFUT) na ultima barra de `df`. Todo sinal fica
+        guardado; devolve o primeiro que pode virar entrada agora. `fresco` = a barra e a que acabou de fechar (barra atrasada so e medida)."""
+        sinal = None
+        for sl in self.labs:
+            if sl.ativo != a:
+                continue
+            s_lab = sl.atualizar(df)
+            if s_lab is None:
+                continue
+            reservado = self._perto_do_dado(agora)
+            opera_lab = sl.estado == "opera" and not reservado and fresco
+            motivo = None
+            if sl.estado == "opera" and not opera_lab:
+                motivo = self._motivo_reserva(agora) if reservado else f"barra das {df.index[-1].strftime('%H:%M')} chegou atrasada"
+            s_lab["medidas"]["fita"] = self.leitura_da_fita(a, s_lab["lado"], s_lab["nivel"])
+            self._guardar_sinal(a, s_lab, agora, opera=opera_lab, motivo=motivo)
+            if opera_lab and sinal is None:
+                sinal = s_lab
+        return sinal
+
+    def _sinal_lab_fora(self, a, agora):
+        """Contrato que o robo nao opera (fora de ativos_robo.json) mas tem regra do laboratorio ligada (13/10/2026: o mini-indice no fim
+        do pregao). Le o fechamento por minuto do motor quando o minuto que acabou de fechar ainda nao esta nas barras (no maximo a cada
+        LAB_RELER_S), completa minuto sem amostra com o fechamento anterior e roda as regras do contrato em CADA barra nova, na ordem:
+        uma barra pulada seria um sinal perdido. So a barra recente (ate LAB_ATRASO_MIN) pode virar entrada; a atrasada fica medida."""
+        b = self.barras.get(a)
+        if b is None:
+            return None
+        fechado = br.pd.Timestamp(agora.replace(tzinfo=None, second=0, microsecond=0)) - br.pd.Timedelta(minutes=1)
+        if b.ultimo_minuto is not None and b.ultimo_minuto >= fechado:
+            return None
+        if agora.timestamp() - self.lab_lido_em.get(a, 0.0) < LAB_RELER_S:
+            return None
+        self.lab_lido_em[a] = agora.timestamp()
+        serie = ler_motor(f"/vivo/intradia?s={a}&dias=1", self.motor, timeout=6.0) or {}
+        antes = b.ultimo_minuto
+        try:
+            b.acrescentar(br.completar_minutos(br.minutos_do_motor(serie, agora)))
+        except Exception as e:                                   # barra estragada nao derruba o robo
+            self.leitura_pc[a] = {"pronto": False, "motivo": f"erro nas barras: {type(e).__name__}: {e}"}
+            return None
+        novos = b.df.index if antes is None else b.df.index[b.df.index > antes]
+        sinal = None
+        for t in novos:
+            fresco = t >= fechado - br.pd.Timedelta(minutes=LAB_ATRASO_MIN)
+            s = self._rodar_labs(a, agora, b.df.loc[:t], fresco=fresco)
+            if s is not None and sinal is None:
+                sinal = s
+        return sinal
+
+    def _motivo_reserva(self, agora):
+        """O motivo gravado no sinal que a regra operaria, mas que caiu na reserva do dado (15/10/2026, achado 44)."""
+        dado = next(iter(self.dado.values())).horarios(agora.date())[0] if self.dado else None
+        return "reservado ao dado" + ("" if dado is None else f" das {dado.strftime('%Hh%M')}")
 
     def _perto_do_dado(self, agora):
         """Da reserva antes do dado ate o minuto da entrada, a vaga e do setup proprio."""
@@ -938,8 +1079,10 @@ class RoboFluxo:
                      "medidas": dict(ordem.info, risco_pts=ordem.stop_pts, alvo_pts=round(ordem.alvo_pts, 2), tempo_max_min=ordem.tempo_max,
                                      atraso_fita_s=atraso, fracao_a_favor=medida.get("fracao_a_favor"), fita=medida)}
             em_dia = -5 <= atraso <= 12
-            opera = bool(self.climax_opera and em_dia and ordem.info.get("opera", True) and not self._perto_do_dado(agora))
-            self._guardar_sinal(a, sinal, agora, opera=opera, diario=bool(ordem.info.get("opera", True)))
+            reservado = self._perto_do_dado(agora)
+            opera = bool(self.climax_opera and em_dia and ordem.info.get("opera", True) and not reservado)
+            motivo = self._motivo_reserva(agora) if self.climax_opera and em_dia and ordem.info.get("opera", True) and reservado else None
+            self._guardar_sinal(a, sinal, agora, opera=opera, diario=bool(ordem.info.get("opera", True)), motivo=motivo)
             if not opera:
                 return None
             self.climax_pendente[a] = (sinal, agora.timestamp() + CLIMAX_ESPERA_S)
@@ -948,14 +1091,15 @@ class RoboFluxo:
             self.leitura_climax[a] = {"pronto": False, "motivo": f"erro na leitura do climax: {type(e).__name__}: {e}"}
             return None
 
-    def _guardar_sinal(self, a, sinal, agora, opera, diario=True):
+    def _guardar_sinal(self, a, sinal, agora, opera, diario=True, motivo=None):
         """Todo sinal fica guardado (operando ou so medindo), o dia inteiro, com o preco e a leitura da fita: e com
-        isso que `medir` calcula depois o que cada entrada teria dado e se a fita separa as boas das ruins."""
+        isso que `medir` calcula depois o que cada entrada teria dado e se a fita separa as boas das ruins.
+        `motivo`: por que uma regra que OPERA deixou este sinal so medido (reserva do dado, barra atrasada); vai para "bloqueio"."""
         c = self.cot.get(a) or {}
         pr, tick = c.get("preco"), es.CONTRATOS[a]["tick"]
         entrada = None if pr is None else es.arredondar(pr + tick if sinal["lado"] == "C" else pr - tick, tick)
         try:
-            bloqueio = self._bloqueio(a, agora, sinal) if opera else None
+            bloqueio = self._bloqueio(a, agora, sinal) if opera else motivo
         except Exception:                                        # o registro do motivo nunca derruba o robo
             bloqueio = None
         try:
@@ -971,8 +1115,10 @@ class RoboFluxo:
         if not opera and diario and entrada is not None:
             ft = (sinal.get("medidas") or {}).get("fita") or {}
             fita = "sem leitura da fita" if ft.get("confirmou") is None else ("a fita confirma" if ft["confirmou"] else "a fita não confirma")
+            # o motivo (reserva do dado, barra atrasada) vai no fim: o comeco da frase e o formato que a tela le (RX_MEDIDA, 10-base.js)
             self.anotar("medida", f"{es.CONTRATOS[a]['nome']}: só medindo, sem operar: {sinal['tecnica']} em {sinal['nome_nivel']} "
-                        f"({_pontos(sinal['nivel'], a)}); {'compraria' if sinal['lado'] == 'C' else 'venderia'} a {_pontos(entrada, a)}; {fita}.", agora)
+                        f"({_pontos(sinal['nivel'], a)}); {'compraria' if sinal['lado'] == 'C' else 'venderia'} a {_pontos(entrada, a)}; {fita}"
+                        + (f"; a regra opera, mas este sinal não entrou: {motivo}." if motivo else "."), agora)
 
     def leitura_da_fita(self, a, lado, nivel):
         """O que a fita mostra no instante de uma entrada de grafico. E so MEDIDA, guardada com a operacao: serve para
@@ -1051,7 +1197,7 @@ class RoboFluxo:
         if hm >= p.hora_ultima_entrada:
             return [f"Sem novas entradas desde as {p.hora_ultima_entrada}."]
         if p.pausa_dado and p.pausa_dado[0] <= hm < p.pausa_dado[1]:
-            return [f"Pausa do dado das 9h30: volta às {p.pausa_dado[1]}."]
+            return [f"Pausa do dado das {ef.hora_do_dado(p)}: volta às {p.pausa_dado[1]}."]
         frases = []
         espera = p.espera_apos_perda_s if e.ultima_foi_perda else p.espera_apos_saida_s
         falta = espera - (agora.timestamp() - e.ultima_saida_ts)
@@ -1092,7 +1238,7 @@ class RoboFluxo:
         elif hm >= p.hora_ultima_entrada:
             frases.append(f"Sem novas entradas desde as {p.hora_ultima_entrada}.")
         elif p.pausa_dado and p.pausa_dado[0] <= hm < p.pausa_dado[1]:
-            frases.append(f"Pausa do dado das 9h30: volta às {p.pausa_dado[1]}.")
+            frases.append(f"Pausa do dado das {ef.hora_do_dado(p)}: volta às {p.pausa_dado[1]}.")
         espera = p.espera_apos_perda_s if e.ultima_foi_perda else p.espera_apos_saida_s
         falta = espera - (agora.timestamp() - e.ultima_saida_ts)
         if e.ultima_saida_ts and falta > 0:
@@ -1115,8 +1261,8 @@ class RoboFluxo:
         lc = self.leitura_climax.get(a) or {}
         if lc.get("pronto"):
             frases.append(f"Climax de volume{'' if self.climax_opera else ' (só medindo)'}: o minuto das {lc['minuto']} andou "
-                          f"{_pontos(abs(lc['tranco']), a)} pontos com volume de {lc['volume_x']:.1f} vezes a média; "
-                          f"entra contra o tranco com {_pontos(lc['pede_tranco'], a)} pontos e {lc['pede_volume_x']:g} vezes ou mais.")
+                          f"{_pontos(abs(lc['tranco']), a)} pontos com volume de {_vezes(lc['volume_x'])} vezes a média; "
+                          f"entra contra o tranco com {_pontos(lc['pede_tranco'], a)} pontos e {ef._n(lc['pede_volume_x'])} vezes ou mais.")
         else:
             frases.append("Climax de volume: " + str(lc.get("motivo") or "esperando a fita") + ".")
         nomes = {n["preco"]: n["nome"] for n in l["niveis"]}
@@ -1145,7 +1291,7 @@ class RoboFluxo:
         elif hm >= p.hora_ultima_entrada:
             frases.append(f"Sem novas entradas desde as {p.hora_ultima_entrada}.")
         elif p.pausa_dado and p.pausa_dado[0] <= hm < p.pausa_dado[1]:
-            frases.append(f"Pausa do dado das 9h30: volta às {p.pausa_dado[1]}.")
+            frases.append(f"Pausa do dado das {ef.hora_do_dado(p)}: volta às {p.pausa_dado[1]}.")
         m = l["medias_maior"]
         if l["tendencia"] == "consolidação":
             frases.append(f"Gráfico de {l['maior_min']} minutos em consolidação"
@@ -1163,6 +1309,45 @@ class RoboFluxo:
         return frases
 
     # ── o estado que a tela le ───────────────────────────────
+    def _posicao_na_tela(self, a, agora, posicoes, ops):
+        """A posicao aberta do contrato para a tela: acrescenta em `posicoes` e em `ops` e devolve o bloco do instrumento (None sem posicao)."""
+        e, c, k = self.estados[a], self.cot.get(a) or {}, es.CONTRATOS[a]
+        pr = c.get("preco")
+        if e.posicao is None:
+            return None
+        pts = ef._pontos(e.posicao, pr) if pr is not None else None
+        ab = (pts * k["valor_ponto"] * e.posicao.contratos - 2 * k["custo"] * e.posicao.contratos) if pts is not None else None
+        cfg = ef.ATIVOS[a]
+        sinal_lado = 1.0 if e.posicao.lado == "C" else -1.0
+        parcial_pts = e.posicao.parcial_pts if e.posicao.parcial_pts is not None else cfg.parcial_pts
+        parcial_em = None if e.posicao.parcial_feita or e.posicao.sem_parcial else e.posicao.entrada + sinal_lado * parcial_pts
+        do_alvo = f" Alvo em {_pontos(e.posicao.alvo, a)}." if e.posicao.alvo is not None else ""
+        if e.posicao.sem_parcial:
+            falta = None if not e.posicao.tempo_max_s or not e.posicao.ts_entrada else e.posicao.tempo_max_s - (agora.timestamp() - e.posicao.ts_entrada)
+            passo_txt = ("Sem alvo e sem parcial: segura até o stop"
+                         + (f" ou até o tempo acabar (faltam {max(0, int(falta // 60))} minutos)." if falta is not None else ".") + do_alvo)
+        elif e.posicao.parcial_feita and e.posicao.sem_arrasto:
+            passo_txt = f"Parcial feita. Stop no preço de entrada ({_pontos(e.posicao.stop, a)}); o resto espera o alvo." + do_alvo
+        elif e.posicao.parcial_feita:
+            passo_txt = f"Parcial feita. Stop em {_pontos(e.posicao.stop, a)}, andando {_pontos(cfg.arrasto_pts, a)} pontos atrás do melhor preço."
+        else:
+            passo_txt = (f"Parcial de metade em {_pontos(parcial_em, a)}"
+                         + (f" (faltam {_pontos(abs(parcial_em - pr), a)} pontos)" if pr is not None else "")
+                         + "; depois o stop vai para o preço de entrada." + do_alvo)
+        pos = dict(asdict(e.posicao), pontos=pts, aberto=ab, risco_pts=abs(e.posicao.entrada - e.posicao.stop),
+                   protegido=e.posicao.parcial_feita, parcial_em=parcial_em,
+                   ha_s=max(0, int(agora.timestamp() - e.posicao.ts_entrada)) if e.posicao.ts_entrada else None,
+                   stop_distancia_pts=abs(pr - e.posicao.stop) if pr is not None else None,
+                   risco_rs=abs(e.posicao.entrada - e.posicao.stop) * k["valor_ponto"] * e.posicao.contratos,
+                   proximo_passo=passo_txt)
+        posicoes.append(dict(pos, ativo=a, nome=k["nome"], contrato=self.codigos.get(a), ultimo=pr))
+        ops.append({"n": len(ops) + 1, "ativo": a, "lado": e.posicao.lado, "contratos": e.posicao.contratos,
+                    "entrada": e.posicao.entrada, "hora_entrada": e.posicao.hora, "saida": None, "hora_saida": None,
+                    "motivo": None, "stop": e.posicao.stop, "alvo": e.posicao.alvo, "pontos": pts,
+                    "custos": 2 * k["custo"] * e.posicao.contratos, "resultado": ab, "aberta": True,
+                    "tecnica": e.posicao.tecnica, "nome_nivel": e.posicao.nome_nivel})
+        return pos
+
     def estado(self, agora, retrato, realizado, aberto, fita_ok, lote, pregao):
         p, hm = self.p, agora.strftime("%H:%M")
         inicio = min((ef.ATIVOS[a].hora_inicio for a in ATIVOS), default="09:15")
@@ -1231,6 +1416,13 @@ class RoboFluxo:
         sem_cheio = [es.CONTRATOS[a]["nome"] for a in ATIVOS if (self.cot.get(a) or {}).get("fonte_fluxo") == "mini"
                      and ef.ATIVOS[a].fonte_fluxo != self.codigos.get(a, "")[:3]]
         sem_ajuste = [es.CONTRATOS[a]["nome"] for a in ATIVOS if a in self.cot and not self.ajustes.get(a)]
+        falhas_ontem = [(a, self.ontem_falha.get(a)) for a in ATIVOS if self.ontem_falha.get(a)]
+        if em_hora and falhas_ontem and self.setup == "niveis":
+            for a, falha in falhas_ontem:
+                avisos.insert(1, f"Níveis de ontem incompletos no {es.CONTRATOS[a]['nome']}: {falha} (o robô ficou sem cotação). "
+                              + ("Máxima, mínima e fechamento de ontem vêm do boletim oficial da B3; as médias de 36, 72 e 205 do gráfico de "
+                                 "6 minutos atravessam o buraco." if self.ontem_oficial.get(a) else
+                                 "Sem o boletim oficial da B3, máxima, mínima e fechamento de ontem e as médias saem dessas barras e podem estar errados."))
         if em_hora and sem_ajuste:
             avisos.insert(1, "Sem o ajuste oficial de ontem (" + ", ".join(sem_ajuste) + "): o nível do ajuste ficou de fora e a "
                           "variação do dia usa o último negócio de ontem.")
@@ -1247,43 +1439,13 @@ class RoboFluxo:
             avisos.insert(0, alerta)
             texto = alerta + " " + texto
         instrumentos, ops, posicoes = [], [dict(o, aberta=False) for o in self.operacoes], []
+        for a in self.extras:                                    # contrato so de regra do laboratorio: sem painel proprio, mas a posicao aparece
+            self._posicao_na_tela(a, agora, posicoes, ops)
         for a in ATIVOS:
             e, c, k = self.estados[a], self.cot.get(a) or {}, es.CONTRATOS[a]
             f, fonte = self.fita_de(a)
             pr = c.get("preco")
-            pos = None
-            if e.posicao is not None:
-                pts = ef._pontos(e.posicao, pr) if pr is not None else None
-                ab = (pts * k["valor_ponto"] * e.posicao.contratos - 2 * k["custo"] * e.posicao.contratos) if pts is not None else None
-                cfg = ef.ATIVOS[a]
-                sinal_lado = 1.0 if e.posicao.lado == "C" else -1.0
-                parcial_pts = e.posicao.parcial_pts if e.posicao.parcial_pts is not None else cfg.parcial_pts
-                parcial_em = None if e.posicao.parcial_feita or e.posicao.sem_parcial else e.posicao.entrada + sinal_lado * parcial_pts
-                do_alvo = f" Alvo em {_pontos(e.posicao.alvo, a)}." if e.posicao.alvo is not None else ""
-                if e.posicao.sem_parcial:
-                    falta = None if not e.posicao.tempo_max_s or not e.posicao.ts_entrada else e.posicao.tempo_max_s - (agora.timestamp() - e.posicao.ts_entrada)
-                    passo_txt = ("Sem alvo e sem parcial: segura até o stop"
-                                 + (f" ou até o tempo acabar (faltam {max(0, int(falta // 60))} minutos)." if falta is not None else ".") + do_alvo)
-                elif e.posicao.parcial_feita and e.posicao.sem_arrasto:
-                    passo_txt = f"Parcial feita. Stop no preço de entrada ({_pontos(e.posicao.stop, a)}); o resto espera o alvo." + do_alvo
-                elif e.posicao.parcial_feita:
-                    passo_txt = f"Parcial feita. Stop em {_pontos(e.posicao.stop, a)}, andando {_pontos(cfg.arrasto_pts, a)} pontos atrás do melhor preço."
-                else:
-                    passo_txt = (f"Parcial de metade em {_pontos(parcial_em, a)}"
-                                 + (f" (faltam {_pontos(abs(parcial_em - pr), a)} pontos)" if pr is not None else "")
-                                 + "; depois o stop vai para o preço de entrada." + do_alvo)
-                pos = dict(asdict(e.posicao), pontos=pts, aberto=ab, risco_pts=abs(e.posicao.entrada - e.posicao.stop),
-                           protegido=e.posicao.parcial_feita, parcial_em=parcial_em,
-                           ha_s=max(0, int(agora.timestamp() - e.posicao.ts_entrada)) if e.posicao.ts_entrada else None,
-                           stop_distancia_pts=abs(pr - e.posicao.stop) if pr is not None else None,
-                           risco_rs=abs(e.posicao.entrada - e.posicao.stop) * k["valor_ponto"] * e.posicao.contratos,
-                           proximo_passo=passo_txt)
-                posicoes.append(dict(pos, ativo=a, nome=k["nome"], contrato=self.codigos.get(a), ultimo=pr))
-                ops.append({"n": len(ops) + 1, "ativo": a, "lado": e.posicao.lado, "contratos": e.posicao.contratos,
-                            "entrada": e.posicao.entrada, "hora_entrada": e.posicao.hora, "saida": None, "hora_saida": None,
-                            "motivo": None, "stop": e.posicao.stop, "alvo": e.posicao.alvo, "pontos": pts,
-                            "custos": 2 * k["custo"] * e.posicao.contratos, "resultado": ab, "aberta": True,
-                            "tecnica": e.posicao.tecnica, "nome_nivel": e.posicao.nome_nivel})
+            pos = self._posicao_na_tela(a, agora, posicoes, ops)
             a15, a60 = f.agressao(15), f.agressao(60)
             leitura = self.leitura_dos_niveis(a, f, pr)
             niveis = [{"nome": n, "preco": v, "distancia_pts": (pr - v) if pr is not None else None, "leitura": leitura.get(n)}
@@ -1458,7 +1620,11 @@ class RoboFluxo:
 
     def sinais_hoje(self, agora):
         """Para a tela: todo sinal guardado hoje (operando ou so medindo) e o que cada um deu ou esta dando, pelas barras de 1 minuto.
-        Refeito uma vez por minuto."""
+        Refeito uma vez por minuto.
+
+        "opera" = o sinal VIROU entrada (a entrada da mesma tecnica e do mesmo contrato ate 15 s depois, como no placar da noite):
+        em 15/10/2026 o sinal das 9h36, barrado pela pausa do dado, aparecia como operado e com R$ de verdade (achado 43).
+        "regra_opera" = a regra opera (o "opera" gravado no sinal); "bloqueio" = por que o sinal da regra que opera nao entrou."""
         minuto = agora.strftime("%H:%M")
         if self._sinais_hoje[0] == minuto:
             return self._sinais_hoje[1]
@@ -1467,13 +1633,17 @@ class RoboFluxo:
             from quant.daytrade import medir
             with open(os.path.join(self.pasta, f"sinais_{self.setup}.jsonl"), encoding="utf-8") as f:
                 linhas = [json.loads(x) for x in f if x.strip()]
+            entradas = medir.entradas_do_dia(linhas)
             for ev in linhas:
                 if ev.get("tipo") != "sinal" or ev.get("entrada") is None:
                     continue
                 b = self.barras.get(ev.get("ativo"))
-                r = medir.hipotetico(ev, b.df) if b is not None else None
+                # as contas do contrato do sinal (o mini-indice vale R$ 0,20 o ponto) e a janela do robo (zera em hora_zerar)
+                r = medir.hipotetico(ev, b.df, fim=self.p.hora_zerar, **medir.do_contrato(ev)) if b is not None else None
+                entrou = medir.entrou(ev, entradas)
                 fora.append({"hora": ev.get("hora"), "ativo": ev.get("ativo"), "tecnica": ev.get("tecnica"), "lado": ev.get("lado"),
-                             "entrada": ev.get("entrada"), "opera": bool(ev.get("opera")), "nome_nivel": ev.get("nome_nivel"),
+                             "entrada": ev.get("entrada"), "opera": entrou, "regra_opera": bool(ev.get("opera")),
+                             "bloqueio": None if entrou else ev.get("bloqueio"), "nome_nivel": ev.get("nome_nivel"),
                              "fita_confirmou": ((ev.get("medidas") or {}).get("fita") or {}).get("confirmou"),
                              "situacao": "aberto" if r is None else "fechado", "saida": None if r is None else r["saida"],
                              "pontos": None if r is None else round(r["pontos"], 2), "resultado": None if r is None else round(r["resultado"], 2)})
@@ -1548,7 +1718,9 @@ def rodar(uma_vez=False, saidas=None, motor=MOTOR, intervalo=INTERVALO, ate=FIM_
         hm = agora.strftime("%H:%M")
         if uma_vez or hm >= ate or agora.strftime("%Y-%m-%d") != hoje:
             return 0
-        time.sleep(intervalo if ABERTURA <= hm < "17:25" else 10.0)
+        # ciclo de 1 s ate a hora de zerar (13/10/2026: a janela vai ate 18h10 e zera as 18h24); antes o corte fixo das 17h25 deixava
+        # a ultima hora com ciclo de 10 s: climax descartado e stop conferido de 10 em 10 s (15/10/2026, achado 45)
+        time.sleep(intervalo if ABERTURA <= hm < max(robo.p.hora_zerar, "17:25") else 10.0)
 
 
 def main(argv=None):

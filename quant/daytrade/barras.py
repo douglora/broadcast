@@ -118,6 +118,42 @@ def minutos_do_motor(serie, agora):
     return [(pd.Timestamp.fromtimestamp(m, tz).tz_localize(None), p) for m, p in sorted(fora.items())]
 
 
+def falha_de_ontem(df, hoje, fim_minimo="17:50", buraco_min=15):
+    """Por que as barras do pregao anterior a `hoje` estao incompletas (o robo ficou cego e ninguem completa), ou None. As barras
+    de ontem sao do proprio robo: maxima, minima, fechamento de ontem e as medias saem delas (15/10/2026, achado 41)."""
+    if df is None or not len(df):
+        return None
+    corte = pd.Timestamp(str(hoje))
+    ontem = df[df.index < corte]
+    if not len(ontem):
+        return None
+    dia = ontem.index[-1].normalize()
+    d = ontem[ontem.index >= dia].index
+    if d[-1].strftime("%H:%M") < fim_minimo:
+        return f"as barras de {dia.strftime('%d/%m')} param às {d[-1].strftime('%H:%M')}"
+    saltos = (d[1:] - d[:-1]) if len(d) > 1 else []
+    for k, s in enumerate(saltos):
+        if s > pd.Timedelta(minutes=buraco_min):
+            return f"as barras de {dia.strftime('%d/%m')} têm um buraco das {d[k].strftime('%H:%M')} às {d[k + 1].strftime('%H:%M')}"
+    return None
+
+
+def completar_minutos(minutos):
+    """[(minuto, fechamento)] do motor com o minuto sem amostra preenchido pelo fechamento anterior, dentro do mesmo dia. A regra do
+    laboratorio conta barras (n minutos antes do fim do pregao): um minuto que falta deslocaria a conta dela (15/10/2026, achado 10)."""
+    fora = []
+    for x in minutos:
+        t = x[0]
+        if fora:
+            ant_t, ant_c = fora[-1][0], fora[-1][1]
+            g = ant_t + pd.Timedelta(minutes=1)
+            while g < t and g.date() == t.date():
+                fora.append((g, ant_c))
+                g += pd.Timedelta(minutes=1)
+        fora.append(tuple(x))
+    return fora
+
+
 def minutos_da_fita(fita, depois_de=None):
     """Barras de 1 minuto INTEIRAS (abertura, maxima, minima, fechamento, volume) tiradas da fita de negocios,
     so dos minutos que ja fecharam no relogio da fita. A hora da fita ja e a de Brasilia."""
@@ -228,7 +264,7 @@ class SinalClimax:
         alvo = max(abs(r) * self.alvo_devolve, 1.5)
         return self.leitura, hist.Ordem(lado, stop_pts=self.stop_fixo, alvo_pts=alvo, parcial_pts=alvo, tempo_max=self.tempo_max,
                                         motivo="climax de volume", nivel=h if r > 0 else l,
-                                        nome_nivel=f"tranco de {abs(r):g} pontos com volume de {vezes:.1f}x",
+                                        nome_nivel=f"tranco de {abs(r):g} pontos com volume de {vezes:.1f}x".replace(".", ","),
                                         info={"tranco": round(r, 1), "volume_x": round(vezes, 2), "volume": v, "media": round(media, 1),
                                               "opera": forte})
 
@@ -240,6 +276,16 @@ def verao_eua(d):
         primeiro = date(ano, mes, 1)
         return primeiro + timedelta(days=(6 - primeiro.weekday()) % 7 + 7 * (n - 1))
     return domingo(d.year, 3, 2) <= d < domingo(d.year, 11, 1)
+
+
+def pausa_do_dado(dia):
+    """(inicio, fim) "HH:MM" da pausa do dado do dia: de PAUSA_ANTES_MIN minutos antes a PAUSA_DEPOIS_MIN depois do dado americano,
+    que sai as 9h30 no horario de verao dos EUA e as 10h30 fora dele. Fixa em 9h28-9h40, a partir de 02/11/2026 a pausa ficaria
+    onde nao sai dado nenhum e o dado das 10h30 ficaria sem pausa (15/10/2026, achado 81)."""
+    from quant.daytrade.estrategia_fluxo import PAUSA_ANTES_MIN, PAUSA_DEPOIS_MIN
+    dado = (9 if verao_eua(dia) else 10) * 60 + 30
+    a, b = dado - PAUSA_ANTES_MIN, dado + PAUSA_DEPOIS_MIN
+    return f"{a // 60:02d}:{a % 60:02d}", f"{b // 60:02d}:{b % 60:02d}"
 
 
 class SinalDado:

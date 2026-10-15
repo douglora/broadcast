@@ -31,11 +31,13 @@ import glob
 import json
 import os
 import re
+import subprocess
 
 import numpy as np
 import pandas as pd
 
 from quant.comum import agora_brt, garantir_dir, gravar_atomico, ler_json
+from quant.daytrade import barras as br
 from quant.daytrade import medir
 from quant.daytrade.robo import DIR_DT
 
@@ -52,7 +54,7 @@ TELAS = [os.path.expanduser(x) for x in os.environ.get(
 CATEGORIAS = {"a": "dentro do esperado", "b": "falha de execução ou de dado", "c": "fora do contexto", "d": "a saída custou caro"}
 DADO = "reversão do dado"
 VALOR_PONTO, TICK, CUSTO_LADO = 10.0, 0.5, 1.20
-INICIO, PAUSA, ULTIMA = "09:15", ("09:28", "09:40"), "18:10"       # a janela do robo (estrategia_fluxo/modo_robo.json)
+INICIO, ULTIMA = "09:15", "18:10"       # a janela do robo (estrategia_fluxo/modo_robo.json); a pausa do dado e a do dia (pausa_do_dia)
 PREGAO = ("09:00", "18:20")
 CEGO_MIN = 5                     # minutos seguidos sem barra do robo, com o servidor negociando, para contar como "cego"
 SAIDAS_TESTADAS = {              # as saidas ja testadas na descoberta (estudo de 12/10/2026, familia dado_saida)
@@ -124,6 +126,51 @@ def _hm(x):
 def _seg(h):
     p = str(h).split(":")
     return int(p[0]) * 3600 + int(p[1]) * 60 + (int(p[2]) if len(p) > 2 else 0)
+
+
+def pausa_do_dia(dia):
+    """A pausa do dado do pregao revisado: 9h28-9h40 no horario de verao dos EUA, 10h28-10h40 fora (15/10/2026, achado 81)."""
+    return br.pausa_do_dado(pd.Timestamp(dia).date())
+
+
+# ── o Mac dormindo ───────────────────────────────────────────
+RX_PMSET = re.compile(r"^(\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2}) [+-]\d{4} (Sleep|Wake|DarkWake)\s{2,}")
+
+
+def sono_do_mac(dia, texto=None):
+    """Os trechos do dia em que o Mac dormiu, pelo registro de energia do macOS (`pmset -g log`): de cada "Sleep" ate o proximo "Wake"
+    de verdade. O "DarkWake" (2 a 5 s de manutencao, com a tampa fechada) nao conta como acordado. [(inicio, fim)] em "HH:MM".
+    Em 15/10/2026 o Mac dormiu na bateria das 8h00 as 9h24 e a revisao contaria o trecho como falha do MetaTrader (achado 42)."""
+    if texto is None:
+        try:
+            texto = subprocess.run(["pmset", "-g", "log"], capture_output=True, text=True, timeout=60).stdout
+        except Exception:                                        # sem o registro, a revisao segue sem saber do sono
+            return []
+    trechos, desde = [], None
+    for ln in (texto or "").splitlines():
+        m = RX_PMSET.match(ln)
+        if not m:
+            continue
+        t, tipo = pd.Timestamp(m.group(1)), m.group(2)
+        if tipo == "Sleep" and desde is None:
+            desde = t
+        elif tipo == "Wake" and desde is not None:
+            trechos.append((desde, t))
+            desde = None
+    d0 = pd.Timestamp(dia)
+    d1 = d0 + pd.Timedelta(days=1)
+    if desde is not None:
+        trechos.append((desde, d1))
+    return [(max(a, d0).strftime("%H:%M"), (min(b, d1 - pd.Timedelta(minutes=1))).strftime("%H:%M")) for a, b in trechos if a < d1 and b > d0]
+
+
+def fracao_dormindo(inicio, fim, sono):
+    """Que fracao do intervalo [inicio, fim] ("HH:MM") o Mac passou dormindo."""
+    a, b = _seg(inicio) / 60, _seg(fim) / 60
+    if b <= a:
+        b = a + 1
+    dormido = sum(max(0.0, min(b, _seg(y) / 60) - max(a, _seg(x) / 60)) for x, y in sono)
+    return dormido / (b - a)
 
 
 # ── barras ───────────────────────────────────────────────────
@@ -314,12 +361,15 @@ def motivo_sem_entrada(sinal, entradas, negocios, est, dia):
     h = sinal.get("hora") or ""
     hm, seg = _hm(h), _seg(h)
     for e in entradas:
-        if e.get("tecnica") == sinal.get("tecnica") and abs(_seg(e.get("hora") or "00:00:00") - seg) <= 15:
+        if e.get("tecnica") == sinal.get("tecnica") and e.get("ativo", sinal.get("ativo")) == sinal.get("ativo") \
+                and abs(_seg(e.get("hora") or "00:00:00") - seg) <= 15:
             return "entrou", None
+    # o robo anota o motivo desde 15/10/2026, inclusive no sinal da regra que opera e caiu na reserva do dado (gravado com
+    # opera=False): antes ele era contado como "so medido" e a revisao dizia que a regra estava desligada (achado 44)
+    if sinal.get("bloqueio"):
+        return str(sinal["bloqueio"]).split(" (")[0], None
     if not sinal.get("opera"):
         return "só medido", None
-    if sinal.get("bloqueio"):                                     # o robo anota o motivo desde 15/10/2026
-        return str(sinal["bloqueio"]).split(" (")[0], None
     if hm < INICIO:
         return "antes da janela", f"sinal das {hm} marcado como 'opera', mas a janela de entradas só abre às {INICIO}"
     if hm >= ULTIMA:
@@ -327,7 +377,8 @@ def motivo_sem_entrada(sinal, entradas, negocios, est, dia):
     for n in negocios:
         if _seg(n["hora_entrada"]) <= seg < _seg(n.get("hora_saida") or "23:59:59"):
             return "posição aberta", None                        # uma posicao por vez: e a regra, nao falha
-    if PAUSA[0] <= hm < PAUSA[1] and sinal.get("tecnica") != DADO:
+    pausa = pausa_do_dia(dia)
+    if pausa[0] <= hm < pausa[1] and sinal.get("tecnica") != DADO:
         return "pausa do dado", None
     for x in est.get("diario") or []:
         if x.get("tipo") == "trava" and _seg(x.get("hora") or "23:59") <= seg:
@@ -400,12 +451,16 @@ def _item(dia, cat, chave, tecnica, texto, acao=None, valor=None, **extra):
                 valor_rs=None if valor is None else round(float(valor), 2), **extra)
 
 
-def revisar(dia=None, pasta=DIR_DT, setup="niveis", servidor=None, pedir_servidor=True, dist=None, consertos=None):
+def revisar(dia=None, pasta=DIR_DT, setup="niveis", servidor=None, pedir_servidor=True, dist=None, consertos=None, sono=None,
+            registro=None, ativos_robo=None):
     """Monta a revisao de um pregao. `servidor`: barras de 1 minuto do dia (se None e `pedir_servidor`, pede ao MetaTrader;
-    sem elas, usa as do robo). Nao grava nada (ver `gravar`)."""
+    sem elas, usa as do robo). `sono`: os trechos em que o Mac dormiu (None: le o `pmset -g log`). `registro`: as regras do
+    laboratorio (None: quant/pesquisa/setups.json). `ativos_robo`: os contratos que o robo percorria (None: ativos_robo.json).
+    Nao grava nada (ver `gravar`)."""
     dia = dia or agora_brt().strftime("%Y-%m-%d")
     dist = distribuicoes() if dist is None else dist
     consertos = _jsonl(ARQ_CONSERTOS) if consertos is None else consertos
+    sono = sono_do_mac(dia) if sono is None else sono
     est, linhas = ler_dia(dia, pasta, setup)
     negocios = negocios_do_dia(est)
     entradas = [x for x in linhas if x.get("tipo") == "entrada"]
@@ -423,6 +478,13 @@ def revisar(dia=None, pasta=DIR_DT, setup="niveis", servidor=None, pedir_servido
             lacunas.append("sem as barras do servidor: a revisão usou só os minutos que o robô montou (as horas cegas ficam sem conta)")
         servidor = robo
     barras = servidor
+    # cada contrato com as suas barras: o mini-indice (regra do laboratorio, achado 10) nas que o robo montou dele
+    por_ativo = {"WDOFUT": barras}
+
+    def barras_de(ativo):
+        if (ativo or "WDOFUT") not in por_ativo:
+            por_ativo[ativo] = barras_do_robo(dia, pasta, ativo)
+        return por_ativo[ativo or "WDOFUT"]
 
     # (b) o robo ficou cego? o MetaTrader foi reaberto?
     reab = [x for x in est.get("diario") or [] if x.get("tipo") == "feed" and "Reabrindo" in (x.get("texto") or "")]
@@ -430,13 +492,27 @@ def revisar(dia=None, pasta=DIR_DT, setup="niveis", servidor=None, pedir_servido
         itens.append(_item(dia, "b", "b:metatrader:reaberturas", None,
                            f"o MetaTrader foi fechado e reaberto {len(reab)} vezes por cotação em rajadas ({', '.join(_hm(x['hora']) for x in reab)})",
                            "conferir a conexão da XP; cada reabertura deixa o robô uns 40 s sem preço"))
-    cegos = intervalos_cegos(servidor, robo) if servidor is not robo else []
+    cegos = [(a, b, m, None) for a, b, m in intervalos_cegos(servidor, robo)] if servidor is not robo else []
     if not len(robo) and len(est.get("curva") or []):
         lacunas.append("o robô não gravou barra nenhuma da fita hoje")
-    for a, b, mins in est.get("cegueira") or []:                 # o proprio robo anota (desde 15/10/2026)
-        if not any(x[0] == a for x in cegos):
-            cegos.append((a, b, int(mins)))
-    for a, b, mins in cegos:
+    for x in est.get("cegueira") or []:                          # o proprio robo anota (desde 15/10/2026): [ini, fim, min(, motivo)]
+        if not isinstance(x, (list, tuple)) or len(x) < 3:
+            continue
+        motivo = x[3] if len(x) > 3 else None
+        k = next((i for i, c in enumerate(cegos) if c[0] == x[0]), None)
+        if k is None:
+            cegos.append((x[0], x[1], int(x[2]), motivo))
+        elif motivo:
+            cegos[k] = cegos[k][:3] + (motivo,)
+    # o Mac dormindo nao e falha do MetaTrader: o robo nao roda enquanto ele dorme (15/10/2026, achado 42)
+    cegos = [(a, b, m, "mac_dormindo" if mot == "mac_dormindo" or fracao_dormindo(a, b, sono) >= 0.5 else mot) for a, b, m, mot in cegos]
+    for a, b, mins, motivo in cegos:
+        if motivo == "mac_dormindo":
+            itens.append(_item(dia, "b", "b:mac:dormiu", None,
+                               f"o Mac estava dormindo de {a} a {b} ({mins} minutos; tampa fechada ou na bateria): o robô não roda enquanto ele "
+                               "dorme e não leu sinal nenhum nesse tempo. Não foi o MetaTrader",
+                               "no pregão, deixar o Mac na tomada e com a tampa aberta", inicio=a, fim=b, minutos=mins))
+            continue
         itens.append(_item(dia, "b", "b:metatrader:cego", None, f"o robô ficou sem cotação de {a} a {b} ({mins} minutos): não leu sinal nenhum nesse tempo",
                            "conserto: o robô volta a tentar abrir o MetaTrader quando foi ele que fechou e a XP não voltou (14/10/2026)",
                            inicio=a, fim=b, minutos=mins))
@@ -451,7 +527,8 @@ def revisar(dia=None, pasta=DIR_DT, setup="niveis", servidor=None, pedir_servido
         p = percentil(n["resultado"], regra) if regra.get("n") else None
         t0 = pd.Timestamp(f"{dia} {n['hora_entrada']}").floor("min")
         t1 = pd.Timestamp(f"{dia} {n.get('hora_saida') or n['hora_entrada']}").floor("min") + pd.Timedelta(seconds=60)
-        melhor, pior = caminho(barras, t0, t1, float(n["entrada"]), n["lado"]) if len(barras) else (None, None)
+        bn = barras_de(n.get("ativo"))
+        melhor, pior = caminho(bn, t0, t1, float(n["entrada"]), n["lado"]) if len(bn) else (None, None)
         resumo = (f"{tec}: {'vendeu' if n['lado'] == 'V' else 'comprou'} {n['contratos']} a {_pt(n['entrada'])} às {n['hora_entrada'][:5]}, saiu por "
                   f"{n['motivo']} às {_hm(n.get('hora_saida'))} a {_pt(n.get('saida'))}: {_rs(n['resultado'])}"
                   + ("" if melhor is None else f" (andou até {_pt(melhor)} pontos a favor e {_pt(abs(pior))} contra)"))
@@ -487,11 +564,12 @@ def revisar(dia=None, pasta=DIR_DT, setup="niveis", servidor=None, pedir_servido
         else:
             lacunas.append(f"sem distribuição histórica para {tec}: o resultado não foi comparado")
         # execucao: a saida bate com a barra?
-        if len(barras) and n.get("hora_saida") and n.get("saida") is not None:
+        if len(bn) and n.get("hora_saida") and n.get("saida") is not None:
             ts = pd.Timestamp(f"{dia} {n['hora_saida']}").floor("min")
-            if ts in barras.index:
-                bx = barras.loc[ts]
-                if not (bx.l - 1.0 <= float(n["saida"]) <= bx.h + 1.0):
+            if ts in bn.index:
+                bx = bn.loc[ts]
+                folga = 1.0 if (n.get("ativo") or "WDOFUT") == "WDOFUT" else 50.0
+                if not (bx.l - folga <= float(n["saida"]) <= bx.h + folga):
                     itens.append(_item(dia, "b", "b:execucao:saida_fora_da_barra", tec,
                                        f"a saída a {_pt(n['saida'])} às {_hm(n['hora_saida'])} ficou fora da barra do servidor ({_pt(bx.l)} a {_pt(bx.h)})",
                                        "conferir a cotação que o robô usou (cotação velha?)"))
@@ -536,7 +614,9 @@ def revisar(dia=None, pasta=DIR_DT, setup="niveis", servidor=None, pedir_servido
         tec = s.get("tecnica") or "?"
         pr = por_regra.setdefault(tec, {"tecnica": tec, "operados": 0, "resultado": 0.0, "sinais": 0, "soma_sinais": 0.0, "negocios": []})
         motivo, falha = motivo_sem_entrada(s, entradas, negocios, est, dia)
-        r = medir.hipotetico(s, barras) if len(barras) and s.get("entrada") is not None else None
+        bs = barras_de(s.get("ativo"))
+        r = (medir.hipotetico(s, bs, fim=medir.fim_do_robo(), **medir.do_contrato(s))
+             if len(bs) and s.get("entrada") is not None else None)
         pr["sinais"] += 1
         if r is not None:
             pr["soma_sinais"] = round(pr["soma_sinais"] + r["resultado"], 2)
@@ -553,52 +633,104 @@ def revisar(dia=None, pasta=DIR_DT, setup="niveis", servidor=None, pedir_servido
                  if motivo == "antes da janela" else "deviam entrar e não entraram (spread aberto ou cotação velha?)")
         itens.append(_item(dia, "b", f"b:sinal:{motivo}", tec, f"{len(lista)} sinal(is) de {tec} ({horas}) {o_que}",
                            "conserto: o sinal guarda por que não entrou e o placar conta só o que entrou", soma))
-    # regra do laboratorio que nao pode rodar porque o robo estava cego (fim do pregao do mini-indice e as outras)
+    # regra do laboratorio que opera e nao rodou: contrato fora do robo (o mini-indice ate 15/10/2026, achado 10) ou robo cego
+    reg = regras_lab_ler() if registro is None else registro
+    rodaram = regras_que_rodaram(est, reg, ativos_robo)
+    com_sinal = {s.get("tecnica") for s in sinais} | {e.get("tecnica") for e in entradas}
+    itens += fora_do_robo(dia, reg, rodaram)
     if cegos:
-        itens += perdidas_por_cegueira(dia, cegos)
+        itens += perdidas_por_cegueira(dia, cegos, reg, rodaram=rodaram, com_sinal=com_sinal)
     return {"dia": dia, "gerado": agora_brt().isoformat(timespec="seconds"), "itens": itens, "por_regra": list(por_regra.values()),
             "lacunas": lacunas, "fonte_barras": "servidor do MetaTrader" if barras is not robo else "minutos do robô"}
 
 
-def perdidas_por_cegueira(dia, cegos, registro=None, barras_por_ativo=None):
-    """As regras de laboratorio que operam e cuja janela caiu num intervalo cego: o que teriam dado (barras do servidor)."""
+def regras_lab_ler():
     from quant.daytrade import regras_lab
+    return regras_lab.ler_registro()
+
+
+def regras_que_rodaram(est, registro, ativos_robo=None):
+    """Os nomes das regras do laboratorio que o robo rodou no dia. Desde 15/10/2026 o robo grava a lista no estado ("labs_rodando");
+    no estado antigo, rodava so a regra cujo contrato estava em ativos_robo.json (o laco do robo so passava por eles: achado 10)."""
+    if isinstance(est.get("labs_rodando"), dict):
+        return set(est["labs_rodando"])
+    if ativos_robo is None:
+        from quant.daytrade import chave
+        from quant.daytrade.robo import TODOS_OS_ATIVOS
+        ativos_robo = chave.ativos_ligados(TODOS_OS_ATIVOS)
+    return {r["nome"] for r in registro if str(r.get("ativo") or "WDOFUT").upper() in set(ativos_robo)}
+
+
+def refazer_regra(dia, r, barras_por_ativo=None):
+    """A regra do laboratorio refeita nas barras do servidor do dia: o primeiro negocio do dia (lado, hora, resultado) ou None."""
     from quant.pesquisa import lab
     import importlib.util
+    simb = "WIN$N" if (r.get("ativo") or "").startswith("WIN") else "WDO$N"
+    b = (barras_por_ativo or {}).get(simb)
+    if b is None:
+        b = barras_do_servidor(dia, simb, quantas=int(r.get("barras") or 60000))
+    arq = r["arquivo"] if os.path.isabs(r["arquivo"]) else os.path.join(RAIZ, r["arquivo"])
+    spec = importlib.util.spec_from_file_location("regra_rev_" + r["nome"], arq)
+    mod = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(mod)
+    s = getattr(mod, r.get("funcao") or "regra")(b)
+    sd = r.get("saida") or {}
+    ja, jb = r["janela"]
+    ativo = "WIN" if simb.startswith("WIN") else "WDO"
+    t = lab.negocios(b, s, sd.get("stop"), sd.get("alvo"), sd.get("tempo"), ini=ja, ult=jb, zerar="18:30", tick=lab.ESPEC[ativo]["tick"])
+    t = lab.medir(t, contratos=int(r.get("contratos") or 1), espec=lab.ESPEC[ativo])
+    t = t[t.dia.astype(str) == dia]
+    return t.iloc[0] if len(t) else None
+
+
+def fora_do_robo(dia, registro, rodaram, barras_por_ativo=None):
+    """A regra que opera e o robo nao rodou porque nao percorria o contrato dela (o mini-indice ate 15/10/2026: o laco do robo so
+    passava pelos contratos de ativos_robo.json). Antes isso aparecia como 'robo cego', com o conserto errado (achado 10)."""
     fora = []
-    reg = registro if registro is not None else regras_lab.ler_registro()
+    for r in registro:
+        if r.get("estado") != "opera" or not r.get("janela") or r["nome"] in rodaram:
+            continue
+        nome, titulo = r["nome"], r.get("titulo") or r["nome"]
+        base = f"{titulo} não rodou: o robô só percorria os contratos ligados em ativos_robo.json e a regra é do {r.get('ativo') or 'WDOFUT'}"
+        acao = "conserto de 15/10/2026: o robô passa a rodar as regras do laboratório de qualquer contrato (vale depois de o robô ser religado)"
+        try:
+            x = refazer_regra(dia, r, barras_por_ativo)
+            txt = base + (f"; teria {'comprado' if x.lado == 'C' else 'vendido'} às {x.hora} e dado {_rs(x.res)}" if x is not None
+                          else "; hoje ela não teria dado sinal")
+            fora.append(_item(dia, "b", f"b:lab:fora_do_robo:{nome}", titulo, txt, acao, None if x is None else float(x.res)))
+        except Exception as e:
+            fora.append(_item(dia, "b", f"b:lab:fora_do_robo:{nome}", titulo, base + f" (não deu para refazer: {type(e).__name__})", acao, None))
+    return fora
+
+
+def perdidas_por_cegueira(dia, cegos, registro=None, barras_por_ativo=None, rodaram=None, com_sinal=()):
+    """As regras de laboratorio que operam e cuja janela caiu num intervalo cego: o que teriam dado (barras do servidor). Fica de fora a
+    regra que o robo nem rodava (vai em `fora_do_robo`) e a que deu sinal no dia (rodou). `cegos`: (ini, fim, min[, motivo])."""
+    fora = []
+    reg = registro if registro is not None else regras_lab_ler()
     for r in reg:
         if r.get("estado") != "opera" or not r.get("janela"):
             continue
-        ja, jb = r["janela"]
-        if not any(a <= jb and ja <= b for a, b, _m in cegos):
+        if (rodaram is not None and r["nome"] not in rodaram) or (r.get("titulo") or r["nome"]) in com_sinal:
             continue
-        simb = "WIN$N" if (r.get("ativo") or "").startswith("WIN") else "WDO$N"
+        ja, jb = r["janela"]
+        bate = [c for c in cegos if c[0] <= jb and ja <= c[1]]
+        if not bate:
+            continue
+        dormiu = all(len(c) > 3 and c[3] == "mac_dormindo" for c in bate)
+        por_que = "o Mac estava dormindo" if dormiu else "o robô estava cego"
+        acao = "no pregão, deixar o Mac na tomada e com a tampa aberta" if dormiu else "o conserto da reabertura do MetaTrader cobre"
+        titulo = r.get("titulo") or r["nome"]
         try:
-            b = (barras_por_ativo or {}).get(simb)
-            if b is None:
-                b = barras_do_servidor(dia, simb, quantas=int(r.get("barras") or 60000))
-            arq = r["arquivo"] if os.path.isabs(r["arquivo"]) else os.path.join(RAIZ, r["arquivo"])
-            spec = importlib.util.spec_from_file_location("regra_rev_" + r["nome"], arq)
-            mod = importlib.util.module_from_spec(spec)
-            spec.loader.exec_module(mod)
-            s = getattr(mod, r.get("funcao") or "regra")(b)
-            sd = r.get("saida") or {}
-            ativo = "WIN" if simb.startswith("WIN") else "WDO"
-            t = lab.negocios(b, s, sd.get("stop"), sd.get("alvo"), sd.get("tempo"), ini=ja, ult=jb, zerar="18:30", tick=lab.ESPEC[ativo]["tick"])
-            t = lab.medir(t, contratos=int(r.get("contratos") or 1), espec=lab.ESPEC[ativo])
-            t = t[t.dia.astype(str) == dia]
-            if len(t):
-                x = t.iloc[0]
-                fora.append(_item(dia, "b", f"b:cego:{r['nome']}", r.get("titulo") or r["nome"],
-                                  f"{r.get('titulo') or r['nome']} não rodou porque o robô estava cego; teria {'comprado' if x.lado == 'C' else 'vendido'} às {x.hora} "
-                                  f"e dado {_rs(x.res)}", "o conserto da reabertura do MetaTrader cobre", float(x.res)))
+            x = refazer_regra(dia, r, barras_por_ativo)
+            if x is not None:
+                fora.append(_item(dia, "b", f"b:cego:{r['nome']}", titulo,
+                                  f"{titulo} não rodou porque {por_que}; teria {'comprado' if x.lado == 'C' else 'vendido'} às {x.hora} "
+                                  f"e dado {_rs(x.res)}", acao, float(x.res)))
             else:
-                fora.append(_item(dia, "b", f"b:cego:{r['nome']}", r.get("titulo") or r["nome"],
-                                  f"{r.get('titulo') or r['nome']} caiu na janela cega, mas não teria dado sinal hoje", None))
+                fora.append(_item(dia, "b", f"b:cego:{r['nome']}", titulo, f"{titulo} caiu na janela cega, mas não teria dado sinal hoje", None))
         except Exception as e:
-            fora.append(_item(dia, "b", f"b:cego:{r['nome']}", r.get("titulo") or r["nome"],
-                              f"{r.get('titulo') or r['nome']} caiu na janela cega e não deu para refazer ({type(e).__name__})", None))
+            fora.append(_item(dia, "b", f"b:cego:{r['nome']}", titulo, f"{titulo} caiu na janela cega e não deu para refazer ({type(e).__name__})", None))
     return fora
 
 
@@ -648,7 +780,9 @@ def manchete(rev):
         partes.append("nenhum negócio")
     if falhas:
         cego = [x for x in falhas if x["chave"] == "b:metatrader:cego"]
-        partes.append(f"{len(falhas)} falha(s) de execução ou de dado" + (f", com o robô cego {sum(x.get('minutos', 0) for x in cego)} minutos" if cego else ""))
+        dormiu = [x for x in falhas if x["chave"] == "b:mac:dormiu"]
+        partes.append(f"{len(falhas)} falha(s) de execução ou de dado" + (f", com o robô cego {sum(x.get('minutos', 0) for x in cego)} minutos" if cego else "")
+                      + (f", com o Mac dormindo {sum(x.get('minutos', 0) for x in dormiu)} minutos" if dormiu else ""))
     return "; ".join(partes) + "."
 
 
@@ -724,7 +858,8 @@ def gravar(rev, ensaio=False, arq_caderno=ARQ_CADERNO, arq_fila=ARQ_FILA, dir_re
     # no caderno vai o que e erro ou alerta: falhas, contexto, saida, alertas e as perdas (o ganho da regra nao e erro)
     novos = [x for x in rev["itens"] if (x["dia"], x["chave"]) not in ja
              and not (x["chave"].endswith(":resultado") and (x.get("valor_rs") or 0) > 0)]
-    rep_b = [x for x in rev["itens"] if x["categoria"] == "b" and x.get("repetiu")]
+    # o Mac dormindo de novo nao e "conserto que nao resolveu": nao ha conserto de codigo para isso (15/10/2026, achado 42)
+    rep_b = [x for x in rev["itens"] if x["categoria"] == "b" and x.get("repetiu") and not x["chave"].startswith("b:mac:")]
     total = len(caderno) + len(novos)
     rev["caderno"] = {"total": total, "novos_hoje": len(novos), "falhas_repetidas": [x["chave"] for x in rep_b],
                       "abertos_na_fila": [n for n, _x in abertos if n]}

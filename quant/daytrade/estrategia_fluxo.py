@@ -115,7 +115,9 @@ class ParamFluxo:
     max_operacoes: int = 12                # por contrato, por dia (as lives dele tem de 10 a 17 no dolar)
     espera_apos_saida_s: int = 120         # dele: "para e respira" depois de cada operacao (o tempo e nosso)
     espera_apos_perda_s: int = 180         # ele diz "errou, respira mais", mas nas lives volta em ate 6 minutos (6 de 7 deram ganho)
-    pausa_dado: tuple = ("09:28", "09:40") # dele: cancela as ordens 1 minuto antes do dado das 9h30; o ciclo do dado leva 7 a 15 minutos
+    pausa_dado: tuple = ("09:28", "09:40") # dele: cancela as ordens 1 minuto antes do dado das 9h30; o ciclo do dado leva 7 a 15 minutos.
+                                           # O robo ao vivo troca pela pausa do DIA (barras.pausa_do_dado): 10h28 a 10h40 fora do
+                                           # horario de verao dos EUA, quando o dado sai as 10h30 (15/10/2026, achado 81)
     hora_ultima_entrada: str = "12:50"     # do Douglas (08/10): o robo opera das 9h15 as 13h. Bate com ele: as lives
     hora_zerar: str = "13:00"              # acabam de manha e os maiores stops dele vieram de ficar ate a tarde
     # leitura
@@ -579,6 +581,20 @@ def _n(v):
     return f"{v:g}".replace(".", ",")
 
 
+PAUSA_ANTES_MIN, PAUSA_DEPOIS_MIN = 2, 10      # a pausa do dado vai de 2 minutos antes a 10 minutos depois dele (barras.pausa_do_dado)
+
+
+def hora_do_dado(p):
+    """"9h30" ou "10h30": o dado americano que a pausa do dia cerca (ela comeca PAUSA_ANTES_MIN antes dele). Para os textos da
+    tela, que diziam "dado das 9h30" fixo (15/10/2026, achado 81)."""
+    try:
+        h, m = (int(x) for x in str(p.pausa_dado[0]).split(":"))
+    except (TypeError, ValueError, IndexError, AttributeError):
+        return "americano"
+    t = h * 60 + m + PAUSA_ANTES_MIN
+    return f"{t // 60}h{t % 60:02d}"
+
+
 # Numeros da medicao de 11/10/2026 (quant/pesquisa/META_DIA.md), em um JSON pequeno com fonte e data: o texto do objetivo cita DE LA, nunca de
 # numeros escritos a mao aqui. Sem o arquivo (ou com o objetivo diferente do teto testado) o texto sai sem os numeros.
 ARQ_MEDICAO_META = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "pesquisa", "meta_dia", "constantes_medicao.json")
@@ -663,7 +679,7 @@ def regras_em_texto(p: ParamFluxo, objetivo_rs=None, medicao=None):
         f"é devolvido (até {p.lote_maximo}).",
         "Para " + ", ".join(parar) + ".",
         f"Entradas: dólar a partir das {d.hora_inicio}, índice a partir das {i.hora_inicio}, até as {p.hora_ultima_entrada}; "
-        f"nada entre {p.pausa_dado[0]} e {p.pausa_dado[1]} (dado das 9h30) nem com o spread aberto. Às {p.hora_zerar} zera tudo.",
+        f"nada entre {p.pausa_dado[0]} e {p.pausa_dado[1]} (dado das {hora_do_dado(p)}) nem com o spread aberto. Às {p.hora_zerar} zera tudo.",
         "Não copia o que depende de saber qual corretora está comprando ou vendendo: o MetaTrader não informa.",
         "Mini-índice: adaptação nossa. Ele opera a sala de dólar e mostra pouco índice.",
     ]

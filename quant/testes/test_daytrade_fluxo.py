@@ -882,7 +882,7 @@ def test_climax_de_volume_entra_contra_o_tranco_e_sai_por_tempo(tmp_path, monkey
     assert rf.CLIMAX["tranco"] == 5.0 and rf.CLIMAX["vol"] == 3.0 and rf.CLIMAX["alvo_devolve"] == 0.8      # a calibracao de 08/10
     lc = est["instrumentos"][0]["climax"]
     assert lc["pronto"] and lc["minuto"] == "10:15" and lc["tranco"] == 5.0 and lc["volume_x"] == 4.5
-    assert "contra um tranco de 5 pontos com volume de 4.5x" in r.diario[-1]["texto"]
+    assert "contra um tranco de 5 pontos com volume de 4,5x" in r.diario[-1]["texto"]        # formato brasileiro (achado 83)
     linhas = [json.loads(x) for x in open(tmp_path / "dt" / "2026-10-08" / "sinais_niveis.jsonl").read().splitlines()]
     assert [x["tipo"] for x in linhas] == ["sinal", "entrada"] and linhas[0]["opera"] is True and linhas[0]["entrada"] == 5039.5
     assert any("climax de volume" in x.lower() for x in est["regras"]["itens"])
@@ -1486,3 +1486,254 @@ def test_dose_da_regra_e_janela_do_dia_configuravel(tmp_path, monkeypatch):
     rf2, mt52 = _robo_niveis(outra, monkeypatch, modo={"hora_zerar": "25:99"})
     r2 = rf2.RoboFluxo("2026-10-14", saidas=[str(outra / "quant2.json")], pasta_mt5=str(mt52), setup="niveis")
     assert r2.p.hora_zerar == "13:00"                                              # valor invalido: fica o padrao
+
+
+# ── varredura de 15/10/2026: achados do robo de day trade ────────────────────────────────────────────────────
+def _regra_win(tmp_path, monkeypatch, minuto="17:40"):
+    """Registro com UMA regra do laboratorio do mini-indice que opera (como a do fim do pregao, decisao do Douglas de 13/10): compra na
+    barra das `minuto`."""
+    from quant.daytrade import regras_lab
+    arq = tmp_path / "regra_win.py"
+    arq.write_text("import numpy as np\n\n\ndef regra(m):\n    s = np.zeros(len(m))\n"
+                   f"    if len(m) and m.index[-1].strftime('%H:%M') == '{minuto}':\n        s[-1] = 1.0\n    return s\n")
+    reg = tmp_path / "setups.json"
+    reg.write_text(json.dumps({"regras": [{"nome": "win_teste", "titulo": "fim do pregão (teste)", "arquivo": str(arq), "funcao": "regra",
+                                           "ativo": "WINFUT", "estado": "opera", "contratos": 1, "barras": 5000, "janela": ["17:30", "18:10"],
+                                           "saida": {"stop": 500, "alvo": None, "tempo": 25}}]}))
+    monkeypatch.setattr(regras_lab, "ARQ_SETUPS", str(reg))
+
+
+def _serie_win(dia, ate="17:40", preco=209000.0, sem=()):
+    """/vivo/intradia do mini-indice: uma amostra por minuto (no segundo 30), das 9h00 ate `ate`, menos os minutos de `sem`."""
+    ini = datetime.fromisoformat(f"{dia}T09:00:00-03:00")
+    fim = datetime.fromisoformat(f"{dia}T{ate}:00-03:00")
+    t, p, k = [], [], 0
+    while ini + timedelta(minutes=k) <= fim:
+        if (ini + timedelta(minutes=k)).strftime("%H:%M") not in sem:
+            t.append((ini + timedelta(minutes=k)).timestamp() + 30)
+            p.append(preco + 5 * (k % 7))
+        k += 1
+    return {"s": "WINFUT", "codigo": "WINZ26", "dia": dia, "t": t, "p": p}
+
+
+def _cotacao_win(preco, ts):
+    return [preco, -0.4, 208000.0, 210800.0, 207235.0, 1000, 210905.0, ts, None, None, "aberto", 10, 0, 209185.0]
+
+
+def test_regra_do_mini_indice_roda_mesmo_fora_dos_contratos_do_robo(tmp_path, monkeypatch):
+    """Achado 10: a regra do laboratorio do mini-indice, marcada 'opera' (decisao do Douglas de 13/10), nunca rodava: o laco do robo so
+    passava pelos contratos de ativos_robo.json (so o mini-dolar desde 08/10). Agora ela roda nas barras do motor e entra."""
+    import pandas as pd
+    _regra_win(tmp_path, monkeypatch)
+    rf, mt5 = _robo_niveis(tmp_path, monkeypatch, modo={"hora_ultima_entrada": "18:10", "hora_zerar": "18:24"})
+    dia = "2026-10-15"
+    serie = _serie_win(dia, sem=("17:35",))                                   # o motor nao amostrou o minuto das 17:35
+    lidas = []
+    monkeypatch.setattr(rf, "ler_motor", lambda caminho, *a, **k: (lidas.append(caminho) or serie) if "s=WINFUT" in caminho else None)
+    r = rf.RoboFluxo(dia, saidas=[str(tmp_path / "quant.json")], pasta_mt5=str(mt5), setup="niveis")
+    assert rf.ATIVOS == ("WDOFUT",) and r.extras == ("WINFUT",) and r.todos == ("WDOFUT", "WINFUT")
+    r.sinais_pc["WDOFUT"] = type("S", (), {"atualizar": lambda self, df, extras=(): ({"pronto": False, "motivo": "teste"}, None)})()
+    agora = datetime(2026, 10, 15, 17, 41, 3, tzinfo=BRT)
+    q = {"WDOFUT": _cotacao(5090.0, agora.timestamp()), "WINFUT": _cotacao_win(209100.0, agora.timestamp())}
+    est = r.ciclo(agora, retrato={"q": q})
+    assert r.codigos["WINFUT"] == "WINZ26"                                   # o contrato vem do motor, nao fica escrito no codigo
+    b = r.barras["WINFUT"].df
+    assert b.index[-1] == pd.Timestamp(f"{dia} 17:40") and pd.Timestamp(f"{dia} 17:35") in b.index   # minuto sem amostra completado
+    linhas = [json.loads(x) for x in open(tmp_path / "dt" / dia / "sinais_niveis.jsonl").read().splitlines()]
+    sinais = [x for x in linhas if x["tipo"] == "sinal" and x["ativo"] == "WINFUT"]
+    assert len(sinais) == 1 and sinais[0]["opera"] is True and sinais[0]["bloqueio"] is None and sinais[0]["tecnica"] == "fim do pregão (teste)"
+    entradas = [x for x in linhas if x["tipo"] == "entrada" and x["ativo"] == "WINFUT"]
+    assert len(entradas) == 1 and entradas[0]["lado"] == "C" and entradas[0]["contratos"] == 1      # a dose da regra: 1 contrato
+    pos = r.estados["WINFUT"].posicao
+    assert pos and pos.entrada == 209105.0 and pos.stop == 208605.0 and pos.tempo_max_s == 1500.0
+    assert any(p["ativo"] == "WINFUT" for p in est["posicoes"]) and "regra do laboratório" in r.diario[-1]["texto"]
+    assert json.loads(open(r.arq_estado).read())["labs_rodando"] == {"win_teste": "WINFUT"}       # a revisao da noite sabe que rodou
+    # no mesmo minuto o motor nao e relido e o sinal nao se repete
+    n = len(lidas)
+    depois = agora + timedelta(seconds=2)
+    r.ciclo(depois, retrato={"q": {"WDOFUT": _cotacao(5090.0, depois.timestamp()), "WINFUT": _cotacao_win(209110.0, depois.timestamp())}})
+    linhas = [json.loads(x) for x in open(tmp_path / "dt" / dia / "sinais_niveis.jsonl").read().splitlines()]
+    assert len([x for x in linhas if x["ativo"] == "WINFUT"]) == 2 and len([c for c in lidas[n:] if "dias=1" in c]) <= 1
+    # o resultado do mini-indice entra no dia em reais (R$ 0,20 o ponto), como o de qualquer outro contrato
+    realizado, aberto, _c = r.resultado()
+    assert aberto == pytest.approx((209110.0 - 209105.0) * 0.20 - 2 * 0.30)
+
+
+def test_regra_do_mini_indice_mede_a_barra_que_chega_atrasada(tmp_path, monkeypatch):
+    """A barra do mini-indice que chega com o minuto ja passado (motor atrasado) e medida, nao vira entrada, e diz por que."""
+    _regra_win(tmp_path, monkeypatch, minuto="17:35")
+    rf, mt5 = _robo_niveis(tmp_path, monkeypatch, modo={"hora_ultima_entrada": "18:10", "hora_zerar": "18:24"})
+    dia = "2026-10-15"
+    serie = _serie_win(dia, ate="17:40")
+    monkeypatch.setattr(rf, "ler_motor", lambda caminho, *a, **k: serie if "s=WINFUT" in caminho else None)
+    r = rf.RoboFluxo(dia, saidas=[str(tmp_path / "quant.json")], pasta_mt5=str(mt5), setup="niveis")
+    r.sinais_pc["WDOFUT"] = type("S", (), {"atualizar": lambda self, df, extras=(): ({"pronto": False, "motivo": "teste"}, None)})()
+    agora = datetime(2026, 10, 15, 17, 41, 3, tzinfo=BRT)
+    r.ciclo(agora, retrato={"q": {"WDOFUT": _cotacao(5090.0, agora.timestamp()), "WINFUT": _cotacao_win(209100.0, agora.timestamp())}})
+    sinal = [json.loads(x) for x in open(tmp_path / "dt" / dia / "sinais_niveis.jsonl").read().splitlines()][-1]
+    assert sinal["ativo"] == "WINFUT" and sinal["opera"] is False and sinal["bloqueio"] == "barra das 17:35 chegou atrasada"
+    assert r.estados["WINFUT"].posicao is None
+
+
+def test_sinais_do_dia_so_contam_como_operado_o_que_entrou(tmp_path, monkeypatch):
+    """Achado 43: o sinal das 9h36 de 15/10, barrado pela pausa do dado, aparecia na tela como OPERADO e com R$ de verdade."""
+    rf, mt5 = _robo_niveis(tmp_path, monkeypatch)
+    r = rf.RoboFluxo("2026-10-15", saidas=[str(tmp_path / "quant.json")], pasta_mt5=str(mt5), setup="niveis")
+    base = {"tipo": "sinal", "ativo": "WDOFUT", "tecnica": "nível e reação", "lado": "C", "entrada": 5060.5, "stop_pts": 4.0, "alvo_pts": 14.0}
+    linhas = [dict(base, hora="09:30:00", opera=False, bloqueio="reservado ao dado das 09h30", quando="2026-10-15T09:30:00-03:00"),
+              dict(base, hora="09:36:00", opera=True, bloqueio="pausa do dado", quando="2026-10-15T09:36:00-03:00"),
+              dict(base, hora="09:48:00", opera=True, bloqueio=None, quando="2026-10-15T09:48:00-03:00"),
+              {"tipo": "entrada", "ativo": "WDOFUT", "tecnica": "nível e reação", "lado": "C", "contratos": 2, "entrada": 5050.5, "hora": "09:48:00"},
+              dict(base, hora="10:06:00", opera=True, bloqueio="posição aberta (nível e reação)", quando="2026-10-15T10:06:00-03:00")]
+    (tmp_path / "dt" / "2026-10-15" / "sinais_niveis.jsonl").write_text("\n".join(json.dumps(x) for x in linhas) + "\n")
+    s = {x["hora"]: x for x in r.sinais_hoje(datetime(2026, 10, 15, 10, 30, tzinfo=BRT))}
+    assert (s["09:36:00"]["opera"], s["09:36:00"]["regra_opera"], s["09:36:00"]["bloqueio"]) == (False, True, "pausa do dado")
+    assert (s["09:48:00"]["opera"], s["09:48:00"]["regra_opera"], s["09:48:00"]["bloqueio"]) == (True, True, None)
+    assert (s["10:06:00"]["opera"], s["10:06:00"]["bloqueio"]) == (False, "posição aberta (nível e reação)")
+    assert (s["09:30:00"]["opera"], s["09:30:00"]["regra_opera"], s["09:30:00"]["bloqueio"]) == (False, False, "reservado ao dado das 09h30")
+    assert sum(1 for x in s.values() if x["opera"]) == 1                    # 4 sinais, 1 operado (o das 9h48)
+
+
+def test_sinal_na_reserva_do_dado_diz_o_motivo(tmp_path, monkeypatch):
+    """Achado 44: com o teste de nivel ligado, o sinal das 9h20 (reserva do dado, das 9h08 as 9h32) ficava 'so medindo' sem motivo, e a
+    revisao contava a regra como desligada."""
+    from quant.daytrade import historico as hist
+    from quant.pesquisa import revisao as rv
+    rf, mt5 = _robo_niveis(tmp_path, monkeypatch, modo={"niveis_opera": True})
+    r = rf.RoboFluxo("2026-10-15", saidas=[str(tmp_path / "quant.json")], pasta_mt5=str(mt5), setup="niveis")
+    r.codigos = {"WDOFUT": "WDOX26"}
+    leitura = {"pronto": True, "setup": "niveis", "tempo_min": 6, "fechamento": 5068.0, "barra": [5068.5, 5070.5, 5067.0, 5068.0],
+               "niveis": [{"preco": 5070.0, "nome": "número redondo"}], "acima": 5070.0, "abaixo": None, "barras": 9000}
+    ordens = [hist.Ordem("V", 4.0, parcial_pts=4.0, alvo_pts=16.0, nivel=5070.0, nome_nivel="número redondo")]
+    r.sinais_pc["WDOFUT"] = type("S", (), {"atualizar": lambda self, df, extras=(): (leitura, ordens.pop() if ordens else None)})()
+    agora = datetime(2026, 10, 15, 9, 20, 7, tzinfo=BRT)
+    r.ciclo(agora, retrato={"q": {"WDOFUT": _cotacao(5068.0, agora.timestamp())}})
+    sinal = [json.loads(x) for x in open(tmp_path / "dt" / "2026-10-15" / "sinais_niveis.jsonl").read().splitlines()][-1]
+    assert (sinal["tipo"], sinal["opera"], sinal["bloqueio"]) == ("sinal", False, "reservado ao dado das 09h30")
+    assert r.estados["WDOFUT"].posicao is None
+    medida = next(x["texto"] for x in reversed(r.diario) if x["tipo"] == "medida")
+    assert medida.startswith("Mini-dólar: só medindo, sem operar: nível e reação em número redondo (5.070,0); venderia a 5.067,5; ")
+    assert medida.endswith("não entrou: reservado ao dado das 09h30.")      # o comeco continua no formato que a tela le
+    assert rv.motivo_sem_entrada(sinal, [], [], {}, "2026-10-15") == ("reservado ao dado das 09h30", None)    # e nao "só medido"
+
+
+def test_mac_dormindo_nao_vira_cegueira_do_metatrader(tmp_path, monkeypatch):
+    """Achado 42: em 15/10 o Mac dormiu das 9h00 as 9h24 (tampa fechada, na bateria) e o robo anotou 'sem cotacao do MetaTrader'."""
+    rf, r, _mt5 = _robo(tmp_path, monkeypatch, "2026-10-15")
+    t = lambda h, m, s=0: datetime(2026, 10, 15, h, m, s, tzinfo=BRT)
+    relogio = [t(9, 0).timestamp()]
+    monkeypatch.setattr(rf.time, "time", lambda: relogio[0])
+    r.vigia_em = relogio[0]
+    r.cot = {"WDOFUT": {"preco": 5050.0, "ts_tique": t(8, 59, 50).timestamp()}}
+    relogio[0] = t(9, 24, 30).timestamp()                                    # o processo ficou parado 24 minutos: o Mac dormia
+    r._vigiar_feed(t(9, 24, 30))
+    r._vigiar_cegueira(t(9, 24, 30))
+    assert "o Mac estava dormindo" in r.diario[-1]["texto"] and "do MetaTrader desde" not in r.diario[-1]["texto"]
+    relogio[0] = t(9, 24, 40).timestamp()
+    r.cot["WDOFUT"]["ts_tique"] = relogio[0]
+    r._vigiar_feed(t(9, 24, 40))
+    r._vigiar_cegueira(t(9, 24, 40))
+    assert r.cegueira == [["09:00", "09:24", 24, "mac_dormindo"]] and "não foi o MetaTrader" in r.diario[-1]["texto"]
+    r._salvar()                                                              # religado no meio do pregao, le os 4 campos de volta
+    assert rf.RoboFluxo("2026-10-15", saidas=[str(tmp_path / "q2.json")], pasta_mt5=str(_mt5)).cegueira == [["09:00", "09:24", 24, "mac_dormindo"]]
+
+
+def test_pausa_do_dado_segue_o_horario_do_dado_americano(tmp_path, monkeypatch):
+    """Achado 81: a pausa era 9h28-9h40 fixa; fora do horario de verao dos EUA (a partir de 02/11/2026) o dado sai as 10h30."""
+    from datetime import date
+    from quant.daytrade import barras as br
+    from quant.pesquisa import revisao as rv
+    assert br.pausa_do_dado(date(2026, 10, 15)) == ("09:28", "09:40")
+    assert br.pausa_do_dado(date(2026, 11, 3)) == ("10:28", "10:40")         # EUA fora do horario de verao desde 01/11/2026
+    assert br.pausa_do_dado(date(2027, 3, 15)) == ("09:28", "09:40")
+    rf, r, _mt5 = _robo(tmp_path, monkeypatch, "2026-11-03")
+    assert r.p.pausa_dado == ("10:28", "10:40") and ef.hora_do_dado(r.p) == "10h30"
+    s = {"tecnica": "nível e reação", "lado": "V", "nivel": 5040.0, "nome_nivel": "abertura", "stop_pts": 4.0}
+    assert r._bloqueio("WDOFUT", datetime(2026, 11, 3, 9, 30, tzinfo=BRT), s) is None
+    assert r._bloqueio("WDOFUT", datetime(2026, 11, 3, 10, 31, tzinfo=BRT), s) == "pausa do dado"
+    textos = " ".join(rf.regras_niveis(r.p) + ef.regras_em_texto(r.p))
+    assert "10:28 a 10:40 (dado das 10h30)" in textos and "entre 10:28 e 10:40 (dado das 10h30)" in textos and "dado das 9h30)" not in textos
+    m = lambda dia, h: rv.motivo_sem_entrada({"tecnica": "nível e reação", "hora": h, "opera": True}, [], [], {}, dia)[0]
+    assert m("2026-11-03", "10:31:00") == "pausa do dado" and m("2026-11-03", "09:30:00") != "pausa do dado"
+    assert m("2026-10-14", "09:30:00") == "pausa do dado"                    # no horario de verao dos EUA continua 9h28-9h40
+
+
+def test_ciclo_de_1_segundo_vai_ate_a_hora_de_zerar(tmp_path, monkeypatch):
+    """Achado 45: depois das 17h25 o robo dormia 10 s por ciclo, mas desde 13/10 entra ate 18h10 e zera as 18h24."""
+    rf, mt5 = _robo_niveis(tmp_path, monkeypatch, modo={"hora_ultima_entrada": "18:10", "hora_zerar": "18:24"})
+    original = rf.RoboFluxo
+    monkeypatch.setattr(rf, "RoboFluxo", lambda hoje, **kw: original(hoje, pasta_mt5=str(mt5), **kw))
+
+    class Para(Exception):
+        pass
+
+    pedidos = []
+
+    def dorme(s):
+        pedidos.append(s)
+        raise Para()
+
+    monkeypatch.setattr(rf.time, "sleep", dorme)
+    for k, (hora, modo, esperado) in enumerate((((17, 40), None, 1.0), ((18, 26), None, 10.0), ((17, 40), {}, 10.0))):
+        if modo is not None:                                                 # sem as chaves da janela: o corte antigo das 17h25
+            (tmp_path / "modo_robo.json").write_text(json.dumps(modo))
+        monkeypatch.setattr(rf, "DIR_DT", str(tmp_path / f"dt{k}"))         # a trava de um robo por maquina e por pasta
+        monkeypatch.setattr(rf, "agora_brt", lambda h=hora: datetime(2026, 10, 15, *h, tzinfo=BRT))
+        with pytest.raises(Para):
+            rf.rodar(saidas=[str(tmp_path / f"q{k}.json")], setup="niveis")
+        assert pedidos[-1] == esperado, (hora, modo, pedidos)
+
+
+def test_textos_do_climax_saem_com_virgula(tmp_path, monkeypatch):
+    """Achado 83: 'volume de 0.6 vezes a média' na tela."""
+    rf, mt5 = _robo_niveis(tmp_path, monkeypatch)
+    r = rf.RoboFluxo("2026-10-15", saidas=[str(tmp_path / "quant.json")], pasta_mt5=str(mt5), setup="niveis")
+    r.leitura_pc["WDOFUT"] = {"pronto": True, "setup": "niveis", "tempo_min": 6, "fechamento": 5060.0,
+                              "niveis": [{"preco": 5070.0, "nome": "número redondo"}], "acima": 5070.0, "abaixo": None}
+    r.leitura_climax["WDOFUT"] = {"pronto": True, "minuto": "09:50", "tranco": 2.0, "volume_x": 0.6, "pede_tranco": 5.0, "pede_volume_x": 2.5}
+    r.cot = {"WDOFUT": {"preco": 5060.0}}
+    frase = next(f for f in r._espera_niveis("WDOFUT", datetime(2026, 10, 15, 9, 51, tzinfo=BRT)) if f.startswith("Climax"))
+    assert "andou 2,0 pontos com volume de 0,6 vezes a média" in frase and "5,0 pontos e 2,5 vezes ou mais" in frase
+
+
+def test_niveis_de_ontem_vem_do_boletim_oficial_e_nao_das_barras_cortadas(tmp_path, monkeypatch):
+    """Achado 41: em 14/10 o robo ficou cego das 11h51 ao fim do pregao e o 'fechamento de ontem' de 15/10 saiu 5.059,0 (a barra das
+    11h50); o oficial do WDOX26 foi 5.066,0."""
+    import numpy as np
+    import pandas as pd
+    from quant.daytrade import barras as br, estrategias_hist as eh
+    idx = pd.date_range("2026-10-14 09:00", "2026-10-14 11:50", freq="1min").append(pd.date_range("2026-10-15 09:00", "2026-10-15 10:00", freq="1min"))
+    c = np.r_[np.linspace(5040.0, 5059.0, 171), np.full(61, 5085.0)]
+    m1 = pd.DataFrame({"o": c, "h": c + 0.5, "l": c - 0.5, "c": c, "n": 0.0, "v": 0.0}, index=idx)
+    assert br.falha_de_ontem(m1, "2026-10-15") == "as barras de 14/10 param às 11:50"
+    futuros = tmp_path / "futuros.json"
+    futuros.write_text(json.dumps({"data": "2026-10-14", "familias": [{"contratos": [
+        {"s": "WDOX26", "ajuste": 5049.791, "ajuste_ant": 5037.501, "ult": 5066.0, "max": 5071.0, "min": 5033.5}]}]}))
+    from quant.daytrade import robo_fluxo as rf0
+    of = rf0.extremos_oficiais({"WDOFUT": "WDOX26"}, "2026-10-15", arquivo=str(futuros))
+    assert of == {"WDOFUT": [(5071.0, "máxima de ontem"), (5033.5, "mínima de ontem"), (5066.0, "fechamento de ontem")]}
+    assert rf0.extremos_oficiais({"WDOFUT": "WDOX26"}, "2026-10-14", arquivo=str(futuros)) == {}    # de noite o arquivo ja e o de hoje
+    assert rf0.extremos_oficiais({"WDOFUT": "WDOX26"}, "2026-10-16", arquivo=str(futuros)) == {}    # dois pregoes atras nao e "ontem"
+    assert rf0.extremos_oficiais({"WDOFUT": "WDOX26"}, "2026-10-13", arquivo=str(futuros)) == {}
+    e = eh.NivelReacao(**rf0.NIVEIS)
+    e.preparar(m1)
+    i = len(m1) - 1
+    calculado = e.niveis_com_nome(i, 5085.0)
+    assert [v for v, n in calculado.items() if n == "fechamento de ontem"] == [5059.0]            # o defeito: a barra das 11h50
+    e.extras = ((5049.791, "ajuste de ontem"), *of["WDOFUT"])
+    oficial = e.niveis_com_nome(i, 5085.0)
+    assert [v for v, n in oficial.items() if n == "fechamento de ontem"] == [5066.0]
+    assert [v for v, n in oficial.items() if n == "máxima de ontem"] == [5071.0] and [v for v, n in oficial.items() if n == "mínima de ontem"] == [5033.5]
+    # no robo: o oficial vai como nivel, e a tela avisa que as barras de ontem estao incompletas
+    rf, mt5 = _robo_niveis(tmp_path, monkeypatch)
+    monkeypatch.setattr(rf, "ARQ_FUTUROS_B3", str(futuros))
+    r = rf.RoboFluxo("2026-10-15", saidas=[str(tmp_path / "quant.json")], pasta_mt5=str(mt5), setup="niveis")
+    r.codigos = {"WDOFUT": "WDOX26"}
+    r.barras["WDOFUT"].df, r.barras["WDOFUT"].ultimo_minuto = m1, m1.index[-1]
+    pedidos = []
+    r.sinais_pc["WDOFUT"] = type("S", (), {"atualizar": lambda self, df, extras=(): pedidos.append(list(extras)) or ({"pronto": False, "motivo": "teste"}, None)})()
+    agora = datetime(2026, 10, 15, 10, 1, 3, tzinfo=BRT)
+    est = r.ciclo(agora, retrato={"q": {"WDOFUT": _cotacao(5085.0, agora.timestamp())}})
+    assert (5066.0, "fechamento de ontem") in pedidos[-1] and (5049.791, "ajuste de ontem") in pedidos[-1]
+    aviso = next(a for a in est["avisos"] if a.startswith("Níveis de ontem incompletos"))
+    assert "as barras de 14/10 param às 11:50" in aviso and "boletim oficial da B3" in aviso
