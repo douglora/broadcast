@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 15/10 12h36
+NOTÍCIAS E FATOS · 15/10 13h22
 
-Pernas: noticias ok 3 novas (18 consultas; descartadas: 463 veículo fora da lista, 39 sem ativo, 0 teto) · cvm ok 0 novos de 9 (7 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 15 novas (18 consultas; descartadas: 445 veículo fora da lista, 35 sem ativo, 0 teto) · cvm ok 0 novos de 9 (7 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (1)
 
@@ -157,8 +157,23 @@ Fonte: Yahoo Finance 14/10 10h03
 id: E05-BAC-005e3f53ca-2026-10-14 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (61)
+## OUTRAS NOTÍCIAS (só manchete) (76)
 
+· MRVL Marvell Stock: A Brutal Selloff, An Even Bigger Opportunity (NASDAQ:MRVL) (Seeking Alpha) https://seekingalpha.com/article/4954529-marvell-stock-a-brutal-selloff-an-even-bigger-opportunity
+· USDBRL Dólar sobe e Ibovespa cai após pesquisa indicar empate técnico entre Flávio e Lula (TradingView (Reuters)) https://br.tradingview.com/news/reuters.com,2026:newsml_L1N4610TH:0/
+· ITUB4 Itaú fecha acordo para comprar 35% da gestora Prisma Capital (Estadao) https://www.estadao.com.br/economia/negocios/itau-fecha-acordo-gestora-prisma-capital/
+· BAC Bank Of America: Still Long After Earnings (NYSE:BAC) (Seeking Alpha) https://seekingalpha.com/article/4954524-bank-of-america-still-long-after-earnings
+· SMAL11 Small caps podem liderar nova onda de alta da Bolsa em 2027; veja ações com maior potencial (Money Times) https://www.moneytimes.com.br/small-caps-podem-liderar-nova-onda-de-alta-da-bolsa-em-2027-veja-acoes-com-maior-potencial-lils/
+· USDBRL Dólar sobe a R$ 5,04 e Bolsa cai com fim da 6x1 e vendas do varejo no radar (UOL Economia) https://economia.uol.com.br/cotacoes/noticias/redacao/2026/10/15/dolar-bolsa-abre-hoje-15-de-outubro-de-2026.ghtm
+· VALE3 Para CEO da Vale, independentemente do resultado da eleição, mineração vai ser um elemento fundamental (Valor Economico) https://valor.globo.com/empresas/noticia/2026/10/15/para-ceo-da-vale-independentemente-do-resultado-da-eleicao-mineracao-vai-ser-um-elemento-fundamental.ghtml
+· AVGO Why Is Broadcom (AVGO) Warning That The AI Boom Looks Like Gambling? (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/why-broadcom-avgo-warning-ai-150940968.html
+· BTC Bitcoin Just Fell Below $80,000: What Triggered the Selloff? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-just-fell-below-80-144459552.html
+· MU Micron (MU): Can Data Center Storage Become Another Durable Profit Engine? (Yahoo Finance) https://ca.finance.yahoo.com/news/micron-mu-data-center-storage-135806403.html
+· MMM MMM Q3 Earnings on Deck: How to Approach the Stock Now? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/mmm-q3-earnings-deck-approach-135600863.html
+· UST Gold Rebounds From Steep Losses As Treasury Yields And U.S. Dollar Fall (Yahoo Finance) https://ca.finance.yahoo.com/news/gold-rebounds-steep-losses-treasury-134730744.html
+· TSM Taiwan Semiconductor Q3 Earnings & Revenues Top Estimates, Margins Up (TradingView (Reuters)) https://www.tradingview.com/news/zacks:b427de115094b:0-taiwan-semiconductor-q3-earnings-revenues-top-estimates-margins-up/
+· NOK Nokia stock may move 8.9% on earnings release next week By Investing.com (Investing.com) https://in.investing.com/news/stock-market-news/nokia-stock-may-move-89-on-earnings-release-next-week-93CH-5635283
+· ETH Current price of Ethereum for October 15, 2026 (Fortune) https://fortune.com/article/price-of-ethereum-10-15-2026/
 · VALE3 Vale vê metais básicos superando 40% do Ebitda nos próximos anos com avanço do cobre, diz CEO Por Reuters (Investing.com) https://br.investing.com/news/stock-market-news/vale-ve-metais-basicos-superando-40-do-ebitda-nos-proximos-anos-com-avanco-do-cobre-diz-ceo-2093071
 · TSM TSMC CEO Hints Company Could Back Up Customers If Intel’s Advanced Packaging Ramp-Up Falls Short (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/tsmc-ceo-hints-company-could-151911042.html
 · BTC Bitcoin Stuck Between $80,000 and $88,000: Which Level Breaks First? (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:20f4aa87c094b:0-bitcoin-stuck-between-80-000-and-88-000-which-level-breaks-first/
@@ -204,19 +219,4 @@ id: E05-BAC-005e3f53ca-2026-10-14 · status: linha
 · USDBRL Dólar sobe ante real após nova pesquisa mostrar empate técnico entre Flávio e Lula Por Reuters (Investing.com) https://br.investing.com/news/forex-news/dolar-sobe-ante-real-apos-nova-pesquisa-mostrar-empate-tecnico-entre-flavio-e-lula-2092660
 · USDBRL Dólar abre em alta, com foco em inflação americana e pesquisas eleitorais (g1) https://g1.globo.com/economia/noticia/2026/10/15/dolar-ibovespa.ghtml
 · AVGO Broadcom: Should You Worry About Off-Balance-Sheet Financing Risk? (NASDAQ:AVGO) (Seeking Alpha) https://seekingalpha.com/article/4954407-broadcom-should-you-worry-about-off-balance-sheet-financing-risk
-· TSM TSMC Q3 Overview: Don’t Let The AI Panic Fool You (NYSE:TSM) (Seeking Alpha) https://news.google.com/rss/articles/CBMikgFBVV95cUxNbFRCQk94Si0wd0pXTWo4azhQRXgtcVZNM29kb1IzYV9xRzJaYTlReGYzVlVPWmpTY21XM01UVFpsOEZ6c1VDRVBjTVBIUmpDZEJxdlBmRTNsN05iSjU2eWpUdUZYUHFmTlhfckhDcVdVckpWQnhmZ2JOUGUwUlQwUU9ETDFBOHFDbkt5V0gwaTI1QQ?oc=5
-· BTC Current price of Bitcoin for Oct. 15, 2026 (Fortune) https://fortune.com/article/price-of-bitcoin-10-15-2026/
-· DIRR3 Agenda de empresas: Direcional divulga prévia operacional; Americanas vende imóveis por R$ 130 milhões (Valor Economico) https://valor.globo.com/empresas/noticia/2026/10/15/agenda-de-empresas-direcional-divulga-previa-operacional-americanas-vende-imoveis-por-r-130-milhoes.ghtml
-· DIRR3 Direcional registra queda nas vendas e lançamentos no 3T26, mas geração de caixa operacional chega a R$ 228 milhões (ADVFN) https://br.advfn.com/jornal/2026/10/direcional-registra-queda-nas-vendas-e-lancamentos-no-3t26-mas-geracao-de-caixa-operacional-chega-a-r-228-milhoes
-· TSM Watch AI Stocks Slide as TSMC Outlook Fails to Ease Bubble Fears (Bloomberg) https://www.bloomberg.com/news/videos/2026-10-15/the-pulse-10-15-2026-video
-· GOOGL If I Can Only Own Alphabet or Amazon for The Next 5 Years, I’m Choosing This One (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/only-own-alphabet-amazon-next-111519481.html
-· BAC Ibovespa acima dos 220 mil pontos? BofA revela salto no otimismo após 1º turno (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/ibovespa-acima-dos-220-mil-pontos-bofa-revela-salto-no-otimismo-apos-1-turno/
-· BABA Alibaba: Enough Fuel To Power The Trillion-RMB Cloud Machine (NYSE:BABA) (Seeking Alpha) https://news.google.com/rss/articles/CBMiogFBVV95cUxOclZwLU45VDdVTVdZSUswak5nYzRjenNyT2J2dGJDTkROb3diZXFpUkFnWWF2THBQcE1tWWNkVHdrazhOZzdnWDlRRzBUZlJoMFIyWU41UEN2X3lmSDhDYUxjSVE4R3dJbE5VaU5wREdUSGJSVVJ6U3dZLUtzXzk3Q3JfSF9TZzVObW5mbWhIbnRBdGhobjlZakg3eXA1VnVpMWc?oc=5
-· TSM TSMC posts record profit amid 'extremely robust demand' for AI chips (Yahoo Finance) https://news.google.com/rss/articles/CBMiygFBVV95cUxPX0JVdlhVemVkT05Gc2lIY1ZSY0ZEX2hqNVE0M3Ytb2RTX3c5OFZCaGNvdUhXb3ZkOXgxUDU2ZjNUaDEtSllwakVXTlRaUm1lOGZkSGgwbl9xUjdUdE54VlBQbFlrOU9BdkszMHFyUHB6cWRHR3p1bWdqWmFaSERSNmFNNDFReHRrYXNuZnE3anNkTExoSGZ4cVNGaEZTRUs0NGRQejVXdXRnY25VSmJNOEFYOEdBWTJRUEJmY1dPSEVxdENibHB0Skp3?oc=5
-· TSM TSMC Reports Record Q3 Profit of $23.55 Billion as AI Demand Drives Growth and US Expansion Plans (Yahoo Finance) https://news.google.com/rss/articles/CBMimAFBVV95cUxPRmtpTUh0SGlLeUN0LVJ2UlFqbWZTdFAyTk5TeGJPdXE5YUhsaXI0NzlUYnZfbTFXNDNWVDRuU2Y2NGRZUmxZbVhaUWtoSTZ2ZWxDY2NsWmVXVGh6QmdhVFdDMG9HTWdHOThZei1VRG1GVzBhbHgtMG95NXNVM3gwdnhjWl9hV24wdU10WjBFeG9ZMW45bG11TQ?oc=5
-· USDBRL Minidólar (WDOX26): fluxo externo e eleição dividem forças no câmbio (InfoMoney) https://news.google.com/rss/articles/CBMijgFBVV95cUxQbzJnYzZNQVpLWWNjSHBCVURPTDI1a0MwR0d6ZzlrcW5NNDFaVDFHT3J5Vnc0c3lQQndUWWFsdmtYTFI5NnY5MUFWQXF3Tjl6ZWtBODFlT3lyMEpMcGIyNEEtRVJOZ1lseWlFSVQ1M2x2dGNabElvUHpTZlhyRG00Rk9WYjBpc3F3dDUzOTBR0gGTAUFVX3lxTE42OWtyM2g5ZG9EU1E2bjZYd3VpallHb3N3VWtvVURBZmFsRDFwVF93TDVuZGZscWgxazJleGRtd1p0ZE5kVU1oNEhMNk5FaXN0VGFRNnNncGN2WXE1NzkzenpsZ0EwSW9tcTg3RGtuU1JXYUZhV0x4N0t2U09FUHRZOXozZG9KR3REVUdjYmM1X2plYw?oc=5
-· USDBRL Mercado digere empate de Lula e Flávio na Quaest em dia de inflação ao produtor nos EUA; Ibovespa em dólar cai nesta quinta-feira (15) (Money Times) https://news.google.com/rss/articles/CBMi-wFBVV95cUxOWEFRMTNkRTFzdUNwUTdhVTNCZUxfdWF1aTl1ZU0wUTVjU3p2aW4xQXUtdE5YX3E1Q0R0c3pRV3dEREJfckc3SkI2M2FkWHdUNEJabVFHTjNzRmJQYjdHbkI5RzVPTTU0Rk1lOW9PZXVvWmh2THFCekk5eDVJd2F6TUhMVy1GQnJLVWJQeUNhRFhzREgtOG9qN3gzaUQ5emI2dm9fQllnZjBISVhLSFJrXzljTklFbnlCMXVxbDRZZWtPRzhkYy1RYmoxejhtbEo3enNvM3JMa280S082U01RVnBMNzdUYW4xc0lyZmd0ako3LWV4VXYtR1JwUQ?oc=5
-· BTC Bitcoin dips to $80.1K as KOSPI closes at its lowest since April (TradingView (Reuters)) https://news.google.com/rss/articles/CBMixgFBVV95cUxPd2U0ZXk1Vzg2VGZ0TkV2YklOd3JKMDlWbVRSSUlTclRsSXVaWnZfYjA1eXFTcm9Cd1lPcngwNzYzLURjeVdtaThpbXcwQTJ5V1NsdE5LMlU0OTdEMXkwUm1NcEJFTkw4cEplbU1rV1pELUZmLXVDM2lUWEVGRGYyclRrUlNyb2JzRHduOVExWTZmdnhYS1RsQ25ubjBqR2V4ekxXUm50WExVUEpaZzJPSVlhT254b09zSHZ5elBzdVJQMW9YWHc?oc=5
-· TSM TSMC revenue rises 41% as AI chip demand drives growth (TSM:NYSE) (Seeking Alpha) https://news.google.com/rss/articles/CBMilgFBVV95cUxNSHphT0k5RVdzUk1HSUdhNm1QZXNiTGdpdWhER0R2bzFaa3hiU1RTSU5nTkNZSnBZZm13ZmgxazRiR2hTenh6X0dwYTJKSGRJNGpfT05pYS13WVhiOVEtaDdKNDhHc1k3aXpWQnNhMHhVV2VUVGU3bF9vQWxabVdMZDM3azVkMHBaWWp3TXM3Mm54YXU4NHc?oc=5
-· UST Gold Prices Rebound as Dollar and Treasury Yields Ease Despite Higher US Inflation (Yahoo Finance) https://news.google.com/rss/articles/CBMiqAFBVV95cUxOYVBLMlFnTThPMXFubDNhemJmNnBhcHZ5bFBTYTQxZGFJSlJVY1VQMElRVDlaWTFacG55QUZVU1lqNG5FNFhiQXZHLWFsajNDM3VBUGxnSWE0OXpxVEg1UXF1Z25LUVY0MmwwQzI1bjRiU2dRNldjbnd1M2FoZEZfNXE5Z0VSQUdCb25zbWF0Y2s0dk9WM21Yd1VYeGtsdEtGRDVDbmlHUTg?oc=5
-· (+1 manchetes; lista completa em eventos/noticias.json)
+· (+16 manchetes; lista completa em eventos/noticias.json)
