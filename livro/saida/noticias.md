@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 15/10 12h21
+NOTÍCIAS E FATOS · 15/10 12h36
 
-Pernas: noticias ok 15 novas (18 consultas; descartadas: 457 veículo fora da lista, 42 sem ativo, 6 teto) · cvm ok 0 novos de 9 (7 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 3 novas (18 consultas; descartadas: 463 veículo fora da lista, 39 sem ativo, 0 teto) · cvm ok 0 novos de 9 (7 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (1)
 
@@ -157,8 +157,11 @@ Fonte: Yahoo Finance 14/10 10h03
 id: E05-BAC-005e3f53ca-2026-10-14 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (58)
+## OUTRAS NOTÍCIAS (só manchete) (61)
 
+· VALE3 Vale vê metais básicos superando 40% do Ebitda nos próximos anos com avanço do cobre, diz CEO Por Reuters (Investing.com) https://br.investing.com/news/stock-market-news/vale-ve-metais-basicos-superando-40-do-ebitda-nos-proximos-anos-com-avanco-do-cobre-diz-ceo-2093071
+· TSM TSMC CEO Hints Company Could Back Up Customers If Intel’s Advanced Packaging Ramp-Up Falls Short (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/tsmc-ceo-hints-company-could-151911042.html
+· BTC Bitcoin Stuck Between $80,000 and $88,000: Which Level Breaks First? (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:20f4aa87c094b:0-bitcoin-stuck-between-80-000-and-88-000-which-level-breaks-first/
 · TSM AMD: TSMC Just Fired A $175 Billion Warning Shot (NASDAQ:AMD) (Seeking Alpha) https://seekingalpha.com/article/4954501-amd-tsmc-just-fired-a-175-billion-warning-shot
 · TSM Watch CoreWeave Slides on Debt; TSMC Moves on Outlook | Stock Movers (Bloomberg) https://www.bloomberg.com/news/videos/2026-10-15/coreweave-slides-on-debt-tsmc-moves-on-outlook-video
 · MINERIO Iron ore slips to two-year low on concerns over weak demand, rising supply (Mining.com) https://www.mining.com/web/iron-ore-slips-to-two-year-low-on-concerns-over-weak-demand-rising-supply/
@@ -216,4 +219,4 @@ id: E05-BAC-005e3f53ca-2026-10-14 · status: linha
 · BTC Bitcoin dips to $80.1K as KOSPI closes at its lowest since April (TradingView (Reuters)) https://news.google.com/rss/articles/CBMixgFBVV95cUxPd2U0ZXk1Vzg2VGZ0TkV2YklOd3JKMDlWbVRSSUlTclRsSXVaWnZfYjA1eXFTcm9Cd1lPcngwNzYzLURjeVdtaThpbXcwQTJ5V1NsdE5LMlU0OTdEMXkwUm1NcEJFTkw4cEplbU1rV1pELUZmLXVDM2lUWEVGRGYyclRrUlNyb2JzRHduOVExWTZmdnhYS1RsQ25ubjBqR2V4ekxXUm50WExVUEpaZzJPSVlhT254b09zSHZ5elBzdVJQMW9YWHc?oc=5
 · TSM TSMC revenue rises 41% as AI chip demand drives growth (TSM:NYSE) (Seeking Alpha) https://news.google.com/rss/articles/CBMilgFBVV95cUxNSHphT0k5RVdzUk1HSUdhNm1QZXNiTGdpdWhER0R2bzFaa3hiU1RTSU5nTkNZSnBZZm13ZmgxazRiR2hTenh6X0dwYTJKSGRJNGpfT05pYS13WVhiOVEtaDdKNDhHc1k3aXpWQnNhMHhVV2VUVGU3bF9vQWxabVdMZDM3azVkMHBaWWp3TXM3Mm54YXU4NHc?oc=5
 · UST Gold Prices Rebound as Dollar and Treasury Yields Ease Despite Higher US Inflation (Yahoo Finance) https://news.google.com/rss/articles/CBMiqAFBVV95cUxOYVBLMlFnTThPMXFubDNhemJmNnBhcHZ5bFBTYTQxZGFJSlJVY1VQMElRVDlaWTFacG55QUZVU1lqNG5FNFhiQXZHLWFsajNDM3VBUGxnSWE0OXpxVEg1UXF1Z25LUVY0MmwwQzI1bjRiU2dRNldjbnd1M2FoZEZfNXE5Z0VSQUdCb25zbWF0Y2s0dk9WM21Yd1VYeGtsdEtGRDVDbmlHUTg?oc=5
-· TSM Can robust TSMC earnings help settle AI jitters? (Investing.com) https://news.google.com/rss/articles/CBMingFBVV95cUxOcnpHTFBQWnZCdHZ6cEtoM21NOEV1R2tPaHJEZUcycWUwRFlYYVJNQ1NYdUFONElBc3Z4SWZpUFQ2c2hIOUZ5bkhsOE8xZ0dsVlVUbUtBMVJOWU9TRTNaTkl4dW9YcHRlSjl1YUFzYXdLYjFxaXk3YTNWb3ZLMmwwbjNzLWhDNFdzVmtGRlVMTExFZjVLal92QUtQdGxOQQ?oc=5
+· (+1 manchetes; lista completa em eventos/noticias.json)
