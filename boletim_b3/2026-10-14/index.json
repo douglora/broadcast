@@ -1,6 +1,6 @@
 {
  "pregao": "2026-10-14",
- "coletado_em": "2026-10-15T11:53:18Z",
+ "coletado_em": "2026-10-15T15:43:19Z",
  "tabelas": {
   "SharesInvesVolum": {
    "titulo": "Participação dos investidores",
@@ -21,7 +21,7 @@
   "EconomicIndicators": {
    "titulo": "Indicadores econômicos",
    "situacao": "republicado",
-   "atualizado_em": "2026-10-15T08:44:49.273",
+   "atualizado_em": "2026-10-15T10:55:30.903",
    "sla": "8:00:00",
    "linhas": 434,
    "truncada": false
@@ -244,10 +244,10 @@
   },
   "Custody": {
    "titulo": "Ações custodiadas - programa de ADR",
-   "situacao": "atrasado",
-   "atualizado_em": "2026-10-15T07:00:38.1",
+   "situacao": "publicado",
+   "atualizado_em": "2026-10-15T10:54:23.98",
    "sla": "7:00:00",
-   "linhas": 0,
+   "linhas": 64,
    "truncada": false
   },
   "FugibleCustody": {
@@ -365,9 +365,9 @@
   "Trade": {
    "titulo": "Negócio a negócio",
    "situacao": "republicado",
-   "atualizado_em": "2026-10-14T20:24:15.78",
+   "atualizado_em": "2026-10-15T12:18:40.743",
    "sla": "18:00:00",
-   "linhas": 28117,
+   "linhas": 28186,
    "truncada": false
   },
   "BTBTrade": {
@@ -407,7 +407,7 @@
  },
  "falhas": {},
  "rf_cadastro": {
-  "papeis_no_dia": 1647,
+  "papeis_no_dia": 1633,
   "consultados": 0,
   "achados": 0,
   "sem_cadastro": 0,
