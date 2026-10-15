@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 15/10 14h42
+NOTÍCIAS E FATOS · 15/10 15h22
 
-Pernas: noticias ok 7 novas (18 consultas; descartadas: 461 veículo fora da lista, 29 sem ativo, 0 teto) · cvm ok 0 novos de 9 (7 cias casadas) · sec ok 1 novos em 3 dias
+Pernas: noticias ok 10 novas (18 consultas; descartadas: 460 veículo fora da lista, 26 sem ativo, 0 teto) · cvm ok 0 novos de 0 (0 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (1)
 
@@ -72,7 +72,7 @@ Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir
 Ativos: KO
 Como falar: 'saiu no Yahoo Finance: Coca-Cola’s 64-Year Dividend Growth Streak Faces a Valuation Reality Check; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 15/10 13h59
-id: E05-KO-5f568bb1d0-2026-10-15 · status: pendente
+id: E05-KO-5f568bb1d0-2026-10-15 · status: entregue
 
 [ATENÇÃO] E05 · TSM · TSMC's Q3 results, outlook pave path for 'banner year' in 2027: analysts
 Seeking Alpha · 15/10 10h19 · fonte única · licença: manchete
@@ -200,8 +200,18 @@ Fonte: Yahoo Finance 14/10 10h03
 id: E05-BAC-005e3f53ca-2026-10-14 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (96)
+## OUTRAS NOTÍCIAS (só manchete) (106)
 
+· JPM ‘You don’t want rogue agents': Jamie Dimon bars outside AI agents like Meta's Muse from JPMorgan accounts (Fortune) https://fortune.com/2026/10/15/jamie-dimon-ai-agents-meta-muse-jpmorgan/
+· KO Coca-Cola Board of Directors Declares Regular Quarterly Dividend (Business Wire) https://www.businesswire.com/news/home/20261015411144/en/Coca-Cola-Board-of-Directors-Declares-Regular-Quarterly-Dividend
+· UST Update: US Equity Indexes Mixed After Hot Producer Price Inflation Print, Tech Declines Accompany Sliding Treasury Yields (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-mixed-hot-174638915.html
+· AVGO Broadcom CEO Hock Tan Echoes Warren Buffett in Warning About "Casino"-Like Investing (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/broadcom-ceo-hock-tan-echoes-173700371.html
+· AVGO I’m Simply Not Worried About Broadcom’s Multi-Segment Drag (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/m-simply-not-worried-broadcom-164534970.html
+· BBAS3 Banco do Brasil (BBAS3): ações da instituição sobem 0,32% (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/bbas3-banco-do-brasil-acoes-26-de-janeiro/
+· ETH Ethereum Faces $8.71B Liquidation Risk as ETH Price Tests $2,350 – Is Another Flush Ahead? (TradingView (Reuters)) https://www.tradingview.com/news/coinpedia:05de475fb094b:0-ethereum-faces-8-71b-liquidation-risk-as-eth-price-tests-2-350-is-another-flush-ahead/
+· GOOGL Dogness (International) Corporation (DOGZ) Launches AI Pet Feeder With Google Cloud, Gemini (TradingView (Reuters)) https://www.tradingview.com/news/tradingview:37ef803fd4eac:0-dogness-international-corporation-dogz-launches-ai-pet-feeder-with-google-cloud-gemini/
+· BAC Bank of America Corporation (BAC) stock price, news, quote and history (Yahoo Finance) https://uk.finance.yahoo.com/quote/BAC/
+· NOK Nokia Corporation Sponsored (NOK) Stock Forecasts (Yahoo Finance) https://ca.finance.yahoo.com/research/reports/MS_0P000003XI_AnalystReport_1792021098000
 · TSM TSMC earnings analysis: questions answered and next catalysts (Investing.com) https://www.investing.com/news/stock-market-news/tsmc-earnings-analysis-questions-answered-and-next-catalysts-93CH-4952354
 · NVDA Nvidia CEO Jensen Huang addresses CoreWeave stock plunge: 'I'm optimistic' (Yahoo Finance) https://uk.finance.yahoo.com/news/nvidia-ceo-jensen-huang-addresses-coreweave-stock-plunge-im-optimistic-161504419.html
 · GFS GlobalFoundries Set for Long-Term Earnings From US-Japan Chip Deal, Wedbush Says (Yahoo Finance) https://finance.yahoo.com/technology/articles/globalfoundries-set-long-term-earnings-154720466.html
@@ -252,14 +262,4 @@ id: E05-BAC-005e3f53ca-2026-10-14 · status: linha
 · TSM What's causing the latest AI stock sell-off? Plus, TSMC earnings and Tesla's new Roadster (Yahoo Finance) https://finance.yahoo.com/video/whats-causing-the-latest-ai-stock-sell-off-plus-tsmc-earnings-and-teslas-new-roadster-140914242.html
 · BTC BlackRock's Larry Fink warns Bitcoin's leverage problem raises crash risks (TradingView (Reuters)) https://www.tradingview.com/news/cryptobriefing:5b962e565094b:0-blackrock-s-larry-fink-warns-bitcoin-s-leverage-problem-raises-crash-risks/
 · BTC SEC Approves Binary Options on Coinbase and MARA Metrics, but Not a Bet on Bitcoin’s Price (Yahoo Finance) https://finance.yahoo.com/markets/options/articles/sec-approves-binary-options-coinbase-132712946.html
-· TSM Taiwan Semiconductor Q3 Earnings & Revenues Top Estimates, Margins Up (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/taiwan-semiconductor-q3-earnings-revenues-131800915.html
-· TSM Taiwan Semiconductor Falls 3% Despite Record Quarterly Profit; Intel Drops 4%, AMD Slides 3% (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/taiwan-semiconductor-falls-3-despite-130847369.html
-· UST Treasury yields tumble despite a hot PPI print (Seeking Alpha) https://seekingalpha.com/news/4653383-treasury-yields-tumble-despite-a-hot-ppi-print
-· DIRR3 Direcional (DIRR3) cai até 6% após 'prévia fraca' do 3T26; veja o que pesou nos números, segundo analistas (Money Times) https://www.moneytimes.com.br/direcional-dirr3-cai-ate-6-apos-previa-fraca-do-3t26-veja-o-que-pesou-nos-numeros-segundo-analistas-igdl/
-· TSM TSMC stock sinks despite record profit amid 'extremely robust demand' for AI chips (Yahoo Finance) https://finance.yahoo.com/markets/stocks/article/tsmc-stock-sinks-despite-record-profit-amid-extremely-robust-demand-for-ai-chips-134324217.html
-· BAC TD Cowen maintains Hold rating on Bank of America, $56 price target (TradingView (Reuters)) https://www.tradingview.com/news/tradingview:a1841c06ecfb2:0-td-cowen-maintains-hold-rating-on-bank-of-america-56-price-target/
-· TSM Taiwan Semiconductor Posts Record Profit (TradingView (Reuters)) https://www.tradingview.com/news/baystreet:0571a5924094b:0-taiwan-semiconductor-posts-record-profit/
-· UST US 10-year Treasury yield levels not unprecedented, BNY CEO says (Yahoo Finance) https://finance.yahoo.com/markets/currencies/articles/us-10-treasury-yield-levels-132527255.html
-· VALE3 Vale projeta 700 mil t de cobre até 2035; VBM pode gerar mais de 40% do EBITDA (InfoMoney) https://www.infomoney.com.br/mercados/vale-projeta-700-mil-t-de-cobre-ate-2035-vbm-pode-gerar-mais-de-40-do-ebitda/amp/
-· TSM TSMC Q3 Earnings Review: A Top May Be In View (NYSE:TSM) (Seeking Alpha) https://seekingalpha.com/article/4954457-tsmc-q3-earnings-review-a-top-may-be-in-view
-· (+36 manchetes; lista completa em eventos/noticias.json)
+· (+46 manchetes; lista completa em eventos/noticias.json)
