@@ -92,3 +92,34 @@ def test_painel_do_mini_indice_com_e_sem_medicao(tmp_path, monkeypatch):
     assert o["serie"] == [{"dia": "2026-10-13", "resultado_rs": 47.4, "acumulado_rs": 47.4},
                           {"dia": "2026-10-14", "resultado_rs": -37.4, "acumulado_rs": 10.0}]
     assert any("Regra B" in a and "MetaTrader" in a for a in o["avisos"])
+
+
+def test_ligar_diz_a_janela_que_vale_hoje(modo, tmp_path, monkeypatch, capsys):
+    """Achado 84 (15/10/2026): o 'Robô - ligar' dizia 'opera das 9h15 às 13h'; desde 13/10 a janela vai até 18h10 (zera 18h24)."""
+    from quant.daytrade import chave
+    monkeypatch.setattr(chave, "ARQ_CHAVE", str(tmp_path / "chave.json"))       # a chave de verdade e do Douglas
+    monkeypatch.setattr(chave, "ARQ_JANELA", str(tmp_path / "janela.json"))
+    modo.write_text(json.dumps({"hora_ultima_entrada": "18:10", "hora_zerar": "18:24"}))
+    assert robo.main(["ligar"]) == 0
+    saida = capsys.readouterr().out
+    assert "Robô LIGADO" in saida and "9h15 às 18h10; zera tudo às 18h24" in saida and "13h" not in saida
+    modo.write_text(json.dumps({}))                                              # sem as chaves: a janela de 08/10
+    robo.main(["ligar"])
+    assert "9h15 às 12h50; zera tudo às 13h00" in capsys.readouterr().out
+    assert json.loads((tmp_path / "chave.json").read_text())["ligado"] is True
+
+
+def test_manha_refaz_o_painel_de_opcoes_com_a_cadeia_de_ontem(modo, monkeypatch):
+    """Achado 82 (15/10/2026): o painel de opcoes so rodava na rotina da noite, antes de a B3 publicar o arquivo do dia, e o pregao
+    inteiro ficava com a cadeia de dois pregoes atras. Agora roda de manha, depois das boletas, e a falha dele so avisa."""
+    from datetime import date
+    feitos = []
+    monkeypatch.setattr(robo, "passo", lambda dia, nome, args, timeout=0, repetir=False: feitos.append((nome, args, repetir)) or nome != "opcoes")
+    monkeypatch.setattr(robo, "_boleta_swing_emitida", lambda dia: False)
+    assert robo.preparar(date(2026, 10, 15), mods=["swing", "daytrade"]) is True          # a falha do painel nao reprova a manha
+    nomes = [n for n, _a, _r in feitos]
+    assert nomes[-2:] == ["swing", "opcoes"] and feitos[-1][1] == ["-m", "quant.opcoes.painel"] and feitos[-1][2] is False
+    feitos.clear()                                                                     # robo religado com a boleta de swing ja emitida
+    monkeypatch.setattr(robo, "_boleta_swing_emitida", lambda dia: True)
+    assert robo.preparar(date(2026, 10, 15), mods=["swing", "daytrade"]) is True
+    assert [n for n, _a, _r in feitos] == ["observacao", "prova_viva", "opcoes"] and feitos[-1][2] is False   # uma vez por dia
