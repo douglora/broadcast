@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 15/10 20h39
+NOTÍCIAS E FATOS · 16/10 08h33
 
-Pernas: noticias ok 12 novas (18 consultas; descartadas: 467 veículo fora da lista, 25 sem ativo, 5 teto) · cvm ok 1 novos de 10 (8 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 18 novas (18 consultas; descartadas: 482 veículo fora da lista, 26 sem ativo, 35 teto) · cvm ok 0 novos de 10 (8 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (2)
 
@@ -49,7 +49,41 @@ Fonte: SEC EDGAR 2026-10-15
 id: E04-TSM-26000726-2026-10-15 · status: entregue · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (17)
+## NOTÍCIAS COM MATERIALIDADE (20)
+
+[ATENÇÃO] E05 · BAC · Bank of America: The $1.2 Billion Fine Changes My Rating, But The Upside Remains
+Seeking Alpha · 16/10 00h18 · fonte única · licença: manchete
+Link: https://seekingalpha.com/article/4954646-bank-of-america-1-2-billion-fine-changes-my-rating-but-upside-remains
+Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
+Ativos: BAC
+Como falar: 'saiu no Seeking Alpha: Bank of America: The $1.2 Billion Fine Changes My Rating, But The Upside Remains; confirmar o número no texto antes de repassar'
+Fonte: Seeking Alpha 16/10 00h18
+id: E05-BAC-db5011b12f-2026-10-16 · status: pendente
+
+[ATENÇÃO] E05 · MMM · 3M to argue Australia's $1.4 billion 'forever chemicals' lawsuit legally flawed, court hears
+Reuters · 16/10 00h04 · fonte única · licença: manchete
+Link: https://www.reuters.com/business/environment/3m-argue-australias-14-billion-forever-chemicals-lawsuit-legally-flawed-court-2026-10-16/
+Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e prazo
+Ativos: MMM
+Como falar: 'saiu no Reuters: 3M to argue Australia's $1.4 billion 'forever chemicals' lawsuit legally flawed, court he…; confirmar o número no texto antes de repassar'
+Fonte: Reuters 16/10 00h04
+id: E05-MMM-b7de6b56d5-2026-10-16 · status: pendente
+
+[ATENÇÃO] E05 · PETR4 · Petrobras bate recorde e chega a R$ 800 bilhões em valor de mercado; ações sobem até 110% em 2026
+g1 · 15/10 16h31 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – A Petrobras bateu recorde no valor de mercado ao atingir R$ 800 bilhões no encerramento do pregão na B3 nesta quarta-feira (14), a primeira vez que a companhia supera esse patamar.
+  – Ao longo de 2026, as ações preferenciais da Petrobras (PETR4) subiram cerca de 100% e as ações ordinárias (PETR3) tiveram alta de aproximadamente 110%.
+  – “Ao longo dos últimos meses, afirmei diversas vezes que quem apostasse contra a Petrobras iria perder dinheiro.
+  – [...] A companhia está forte, eficiente e cada vez mais capaz de gerar valor”, destaca Magda Chambriard, presidente da Petrobras.
+  – - 🔎 Nesta quarta-feira, as ações preferenciais (PETR4) avançaram 2,22%, enquanto as ordinárias (PETR3) registraram alta de 1,94%.
+  – Com o acordo, a Petrobras receberá cerca de US$ 859 milhões líquidos, a serem pagos até novembro de 2026.
+Link: https://g1.globo.com/economia/noticia/2026/10/15/petrobras-bate-recorde-e-chega-a-r-800-bilhoes-em-valor-de-mercado-acoes-sobem-ate-110percent-em-2026.ghtml
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: PETR4
+Como falar: 'saiu no g1: Petrobras bate recorde e chega a R$ 800 bilhões em valor de mercado; ações sobem até 110%…; confirmar o número no texto antes de repassar'
+Fonte: g1 15/10 16h31
+id: E05-PETR4-a305718dd1-2026-10-15 · status: pendente
 
 [ATENÇÃO] E05 · PETR4 · Petrobras anuncia investimento de R$ 6,1 milhões em novo laboratório de óleo e gás na UFU
 g1 · 15/10 18h58 · fonte única · licença: resumo
@@ -73,7 +107,7 @@ Por que importa: tarifa ou sancao muda margem e acesso a mercado
 Ativos: USDBRL
 Como falar: 'saiu no UOL Economia: Fechamento câmbio: Dólar sobe 1,15% com expectativa por Datafolha e 'tarifa zero' de Lula; confirmar o número no texto antes de repassar'
 Fonte: UOL Economia 15/10 17h54
-id: E05-USDBRL-611cc72a29-2026-10-15 · status: expirado
+id: E05-USDBRL-611cc72a29-2026-10-15 · status: entregue
 
 [ATENÇÃO] E05 · KO · Coca-Cola declares quarterly dividend of 53 cents per share By Investing.com
 Investing.com · 15/10 15h10 · fonte única · licença: manchete
@@ -82,7 +116,7 @@ Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir
 Ativos: KO
 Como falar: 'saiu no Investing.com: Coca-Cola declares quarterly dividend of 53 cents per share By Investing.com; confirmar o número no texto antes de repassar'
 Fonte: Investing.com 15/10 15h10
-id: E05-KO-335c938af9-2026-10-15 · status: expirado
+id: E05-KO-335c938af9-2026-10-15 · status: entregue
 
 [ATENÇÃO] E05 · KO · Coca-Cola declares quarterly dividend of 53 cents per share
 Investing.com · 15/10 15h25 · + TradingView (Reuters) · licença: manchete
@@ -260,8 +294,23 @@ Fonte: Yahoo Finance 14/10 10h03
 id: E05-BAC-005e3f53ca-2026-10-14 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (155)
+## OUTRAS NOTÍCIAS (só manchete) (170)
 
+· ITUB4 Brava, Eneva, Itaú, Mitre, Lavvi e mais ações para acompanhar hoje (InfoMoney) https://www.infomoney.com.br/mercados/brava-eneva-itau-mitre-lavvi-e-mais-acoes-para-acompanhar-hoje/
+· TSLA Tesla Roadster probably won't drive an earnings beat, but the big unveil did achieve 2 things (Yahoo Finance) https://finance.yahoo.com/markets/stocks/article/tesla-roadster-probably-wont-drive-an-earnings-beat-but-the-big-unveil-did-achieve-2-things-111723421.html
+· BTC Strategy Stock Sinks as Index Exclusion May Outweigh Bitcoin Prices (Barron's) https://www.barrons.com/articles/strategy-stock-mcsi-index-exclusion-bitcoin-price-8602a511
+· TSLA Musk’s flying Roadster demo triggers a rush of Tesla (TSLA) bets on crypto exchange Hyperliquid (CoinDesk) https://www.coindesk.com/business/2026/10/16/elon-musk-s-flying-roadster-reveal-sent-tesla-crypto-trading-into-overdrive-while-stock-markets-were-closed
+· BRENT Bengal Crude Realizations Run US$25 a Barrel Above Brent in Fiscal 2027 to Date (TradingView (Reuters)) https://www.tradingview.com/news/tmx_newsfile:8ef1bf811094b:0-bengal-crude-realizations-run-us-25-a-barrel-above-brent-in-fiscal-2027-to-date/
+· USDBRL Investidores fecham semana repercutindo entrevista de Lula e prévia do PIB; Ibovespa em dólar sobe nesta sexta-feira (16) (Money Times) https://www.moneytimes.com.br/investidores-fecham-semana-repercutindo-entrevista-de-lula-e-previa-do-pib-ibovespa-em-dolar-sobe-nesta-sexta-feira-16-rens/
+· PETR4 Petrobras pode valer trilhão? Banco de Wall Street aposta que chegará perto (O Globo) https://oglobo.globo.com/blogs/capital/post/2026/10/petrobras-pode-valer-trilhao-banco-de-wall-street-aposta-que-chegara-perto.ghtml
+· BTC Capital B posts wider H1 net loss of $78 million on bitcoin impairment charge (The Block) https://www.theblock.co/news/business/2026-10-16-capital-b-wider-h1-net-loss-418781
+· AMZN AWS, Microsoft can do more to address cloud services barriers, UK competition watchdog says (Reuters) https://www.reuters.com/legal/litigation/aws-microsoft-can-do-more-address-cloud-services-barriers-uk-competition-2026-10-16/
+· JPM JPMorgan upgrades Fomento Economico stock rating on earnings momentum (Investing.com) https://www.investing.com/news/analyst-ratings/jpmorgan-upgrades-fomento-economico-stock-rating-on-earnings-momentum-93CH-4953424
+· UST Gold Advances as Treasury Yield Decline and Dollar Weakness Offset Interest Rate Concerns (Yahoo Finance) https://uk.finance.yahoo.com/news/gold-advances-treasury-yield-decline-090642754.html
+· UST Gold Prices Rise as Lower US Treasury Yields and Weaker Dollar Support Precious Metals (Yahoo Finance) https://finance.yahoo.com/markets/commodities/articles/gold-prices-rise-lower-us-090517927.html
+· DI Tesouro Selic, IPCA+ ou Prefixado? Onde investir de olho no segundo turno das eleições (Estadao) https://news.google.com/rss/articles/CBMi3gFBVV95cUxPOFpzcHI3RlN6OUVBQ3hIbWhqUmhEdmFfdFp1Q3dfekQ5LU1MamdmMzY1Ym0tTkJaNjVWdWE3RFNCSmh6YTRlNG9TNnhZQmFPTlk3aUwtenpwZkRWWE1vem9hTUpKenJnbU9rSnZjMEtITjM0WmlFSUtsdUlFNkd5b2xyOS1Oa2RiRVl0ZkRvOFh1Q09ycjc4YU1NX1ZRYkhPRVJHTHVWckxXMmZ1N3gydG5qWDhyaFpOWDlRb1RXYjE5OHpWWU5GNVEzdmJFZk8wcHVITlFQVjBnN2pPX2c?oc=5
+· PETR4 Petrobras dobra de valor e bate recorde na Bolsa: ainda vale comprar? (Exame) https://news.google.com/rss/articles/CBMirgFBVV95cUxOSFVsX3F3a21oS0JQNm03Z3dtZ1B0dC15Q3JCVW1qUTJ5YWFTMk9oRWFCUW5BTnQ2MWhtZnVVWGJ4ekx0TEdueVRzU0NRUU02NThmSWptZW5Cd0xBTVBnNVRfNlM3V0NhUWlHUFdSMFBUOUMyN3FvZEZrelB2TjdCRk9LNkFFbVlDVWdGa0JaQ0hfR2tlVklqUmtqeUUwNlpGbkdQQ0x5NGpFODlCSnc?oc=5
+· TSLA Warsh avoids rate guidance; Tesla’s Roadster turns in air - what’s moving markets (Yahoo Finance) https://news.google.com/rss/articles/CBMiiAFBVV95cUxQU0lHSk10UmQtUjFlb2VSSWtVS3E1dkUyTllTQTQ4WXlHT1RCSmNLMDRFZGktY1ZyUFU1eXhuYjJJTmZ6VHdSLWtCT01fcHA5NUllOEdhRkJkWUo0bXNVUDd3UWJCUEhwX08xNUkwT1pSd3BQeXN4LVRPVkZMaVY5TW1qbWZXS0hw?oc=5
 · DI Juros futuros têm firme alta com cenário eleitoral apertado e promessa de Lula sobre transporte público (Money Times) https://www.moneytimes.com.br/juros-futuros-15-10-26-apsa/
 · NVDA Supermicro hires a new CFO after $2.5 billion Nvidia smuggling case and a 2-year search (Fortune) https://fortune.com/2026/10/15/supermicro-new-cfo-mark-long-western-digital-nvidia-smuggling/
 · JPM JPMorgan's Chicago Office Renovation Costing Bank Over $800M, Dimon Says (Yahoo Finance) https://finance.yahoo.com/real-estate/articles/jpmorgans-chicago-office-renovation-costing-214216824.html
@@ -307,19 +356,4 @@ id: E05-BAC-005e3f53ca-2026-10-14 · status: linha
 · NVDA Nvidia’s European spending spree is about much more than Europe (Fortune) https://fortune.com/2026/10/15/nvidias-european-spending-spree-is-about-much-more-than-europe/
 · TSM TSMC’s Record Earnings Show AI Demand Is Outrunning Rate Concerns (Investing.com) https://www.investing.com/analysis/tsmcs-record-earnings-show-ai-demand-is-outrunning-rate-concerns-200689670
 · NVDA Rate Pressure vs. AI Demand: Rising Treasury Yields Trigger Nvidia, AMD Slump (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:28404acf3094b:0-rate-pressure-vs-ai-demand-rising-treasury-yields-trigger-nvidia-amd-slump/
-· BAC Bank of America's Diversified Business Model Continues to Grow With US Economy, RBC Says (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/bank-america-apos-diversified-business-160509423.html
-· JPM JPMorgan vs. Citigroup: Which Stock Has the Edge After Q3 Results? (TradingView (Reuters)) https://www.tradingview.com/news/zacks:37e5a70da094b:0-jpmorgan-vs-citigroup-which-stock-has-the-edge-after-q3-results/
-· BAC Bank of America's Incremental Net Interest Income to Support Operating Leverage in 2027, Morgan Stanley Says (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/bank-america-apos-incremental-net-145127509.html
-· NOK Nokia stock may move 8.9% on earnings release next week By Investing.com (Investing.com) https://za.investing.com/news/stock-market-news/nokia-stock-may-move-89-on-earnings-release-next-week-93CH-4506645
-· JPM ‘You don’t want rogue agents': Jamie Dimon bars outside AI agents like Meta's Muse from JPMorgan accounts (Fortune) https://fortune.com/2026/10/15/jamie-dimon-ai-agents-meta-muse-jpmorgan/
-· KO Coca-Cola Board of Directors Declares Regular Quarterly Dividend (Business Wire) https://www.businesswire.com/news/home/20261015411144/en/Coca-Cola-Board-of-Directors-Declares-Regular-Quarterly-Dividend
-· UST Update: US Equity Indexes Mixed After Hot Producer Price Inflation Print, Tech Declines Accompany Sliding Treasury Yields (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-mixed-hot-174638915.html
-· AVGO Broadcom CEO Hock Tan Echoes Warren Buffett in Warning About "Casino"-Like Investing (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/broadcom-ceo-hock-tan-echoes-173700371.html
-· AVGO I’m Simply Not Worried About Broadcom’s Multi-Segment Drag (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/m-simply-not-worried-broadcom-164534970.html
-· BBAS3 Banco do Brasil (BBAS3): ações da instituição sobem 0,32% (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/bbas3-banco-do-brasil-acoes-26-de-janeiro/
-· ETH Ethereum Faces $8.71B Liquidation Risk as ETH Price Tests $2,350 – Is Another Flush Ahead? (TradingView (Reuters)) https://www.tradingview.com/news/coinpedia:05de475fb094b:0-ethereum-faces-8-71b-liquidation-risk-as-eth-price-tests-2-350-is-another-flush-ahead/
-· GOOGL Dogness (International) Corporation (DOGZ) Launches AI Pet Feeder With Google Cloud, Gemini (TradingView (Reuters)) https://www.tradingview.com/news/tradingview:37ef803fd4eac:0-dogness-international-corporation-dogz-launches-ai-pet-feeder-with-google-cloud-gemini/
-· BAC Bank of America Corporation (BAC) stock price, news, quote and history (Yahoo Finance) https://uk.finance.yahoo.com/quote/BAC/
-· NOK Nokia Corporation Sponsored (NOK) Stock Forecasts (Yahoo Finance) https://ca.finance.yahoo.com/research/reports/MS_0P000003XI_AnalystReport_1792021098000
-· TSM TSMC earnings analysis: questions answered and next catalysts (Investing.com) https://www.investing.com/news/stock-market-news/tsmc-earnings-analysis-questions-answered-and-next-catalysts-93CH-4952354
-· (+95 manchetes; lista completa em eventos/noticias.json)
+· (+110 manchetes; lista completa em eventos/noticias.json)
