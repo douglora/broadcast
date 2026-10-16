@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 16/10 13h22
+NOTÍCIAS E FATOS · 16/10 14h17
 
-Pernas: noticias ok 11 novas (18 consultas; descartadas: 476 veículo fora da lista, 35 sem ativo, 5 teto) · cvm ok 0 novos de 11 (9 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 11 novas (18 consultas; descartadas: 486 veículo fora da lista, 31 sem ativo, 3 teto) · cvm ok 0 novos de 11 (9 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (1)
 
@@ -67,8 +67,19 @@ Fonte: g1 15/10 16h31
 id: E05-PETR4-a305718dd1-2026-10-15 · status: entregue
 
 
-## OUTRAS NOTÍCIAS (só manchete) (75)
+## OUTRAS NOTÍCIAS (só manchete) (86)
 
+· UST Here’s Why Treasury Yields Have Defied Hotter-Than-Expected Inflation (The Wall Street Journal) https://www.wsj.com/video/heres-why-treasury-yields-have-defied-hotter-than-expected-inflation/D6B3A72D-02C4-47A3-BEC9-B0B2A66AA197
+· JPM JPMorgan Chase: 3 Key Takeaways for Long-Term Investors (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/jpmorgan-chase-3-key-takeaways-165156835.html
+· GOOGL Alphabet’s Cloud Surge and AI Dominance Overshadow Capex Fears and Keep Me Buying (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/alphabet-cloud-surge-ai-dominance-164534776.html
+· KLBN4 Klabin alonga vencimento de empréstimos e reduz custo de dívida (CNN Brasil) https://www.cnnbrasil.com.br/agro/klabin-alonga-vencimento-de-emprestimos-e-reduz-custo-de-divida/
+· BTC Unique Wealth discloses $10.4 million in Bitcoin exposure in latest 13F-HR filing (TradingView (Reuters)) https://www.tradingview.com/news/cryptobriefing:526618ba4094b:0-unique-wealth-discloses-10-4-million-in-bitcoin-exposure-in-latest-13f-hr-filing/
+· BTC Bitcoin Bounces, But Where Does It Go Next? Here’s What the Charts Say (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-bounces-where-does-next-160605984.html
+· BAC Meta expected to beat revenue forecasts as AI boosts advertising, says Bank of America (Yahoo Finance) https://uk.finance.yahoo.com/news/meta-expected-beat-revenue-forecasts-153700392.html
+· INTC Will Intel (INTC) Beat Estimates Again in Its Next Earnings Report? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/intel-intc-beat-estimates-again-151004050.html
+· GOOGL Jack Henry, Google Cloud To Deliver Tokenized Deposits For Banks, Credit Unions (TradingView (Reuters)) https://www.tradingview.com/news/reuters.com,2026:newsml_TUA3GKDQD:0-jack-henry-google-cloud-to-deliver-tokenized-deposits-for-banks-credit-unions/
+· AMZN AWS and Microsoft Face Fresh UK Scrutiny Over Cloud Switching Barriers (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:59eaae1c1094b:0-aws-and-microsoft-face-fresh-uk-scrutiny-over-cloud-switching-barriers/
+· AMZN Is Amazon Stock Poised to Gain as AI Boosts Cash Flow Prospects? (TradingView (Reuters)) https://www.tradingview.com/news/zacks:81fa4815a094b:0-is-amazon-stock-poised-to-gain-as-ai-boosts-cash-flow-prospects/
 · BTC What Happens to Bitcoin When Billions in Options Expire? (Yahoo Finance) https://finance.yahoo.com/markets/options/articles/happens-bitcoin-billions-options-expire-160041374.html
 · BTC Bitcoin price steadies around $82K after Fed’s Warsh avoids rate-hike hints (TradingView (Reuters)) https://www.tradingview.com/news/cointelegraph:1b2f4548f094b:0-bitcoin-price-steadies-around-82k-after-fed-s-warsh-avoids-rate-hike-hints/
 · MU Micron: Why You Should Buy Before Dec'26 (NASDAQ:MU) (Seeking Alpha) https://seekingalpha.com/article/4954802-micron-why-you-should-buy-before-dec26
@@ -118,15 +129,4 @@ id: E05-PETR4-a305718dd1-2026-10-15 · status: entregue
 · BTC Bitcoin's loss-selling spike near $80K may mark a local bottom, Glassnode says (TradingView (Reuters)) https://www.tradingview.com/news/cryptobriefing:6ba216b84094b:0-bitcoin-s-loss-selling-spike-near-80k-may-mark-a-local-bottom-glassnode-says/
 · BRENT OPEC oil output rises by 1.78 million bpd in September, Reuters survey finds (TradingView (Reuters)) https://www.tradingview.com/news/reuters.com,2026:newsml_L6N4620P8:0-opec-oil-output-rises-by-1-78-million-bpd-in-september-reuters-survey-finds/
 · ITUB4 Itaú, Bradesco, BB, BTG e Santander: quem deve surpreender nos balanços, segundo o Citi? (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/itau-bradesco-bb-btg-e-santander-quem-deve-surpreender-nos-balancos-segundo-o-citi/
-· TSLA Elon Musk unveils Tesla's 'flying' car (Yahoo Finance) https://uk.finance.yahoo.com/news/elon-musk-unveils-teslas-flying-121915011.html
-· USDBRL Dólar abre a R$ 5,09, com IBC-Br e corrida presidencial no radar de mercado (UOL Economia) https://economia.uol.com.br/cotacoes/noticias/redacao/2026/10/16/dolar-bolsa-abre-hoje-16-de-outubro-de-2026.ghtm
-· USDBRL Ibovespa futuro avança de olho em prévia da inflação e eleições; dólar cai (Money Times) https://www.moneytimes.com.br/ibovespa-futuro-16-10-26-lils/
-· ETH Current price of Ethereum for Oct. 16, 2026 (Fortune) https://fortune.com/article/price-of-ethereum-10-16-2026/
-· CVX Chevron Corporation (CVX) Is a Trending Stock: Facts to Know Before Betting on It (Yahoo Finance) https://sg.finance.yahoo.com/news/chevron-corporation-cvx-trending-stock-120008701.html
-· BTC Current price of Bitcoin for Oct. 16, 2026 (Fortune) https://fortune.com/article/price-of-bitcoin-10-16-2026/
-· BTC Bitcoin and ethereum prices today, Friday, October 16, 2026: Bitcoin, ethereum prices firm despite two strong inflation reports (Yahoo Finance) https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-friday-october-16-2026-bitcoin-ethereum-prices-firm-despite-two-strong-inflation-reports-113928147.html
-· KLBN4 Momento B3: Brava Energia, Eneva, Klabin, Mitre e os principais destaques desta sexta-feira (16) (ADVFN) https://br.advfn.com/jornal/2026/10/momento-b3-brava-energia-eneva-klabin-mitre-e-os-principais-destaques-desta-sexta-feira-16
-· UST US Dollar and Treasury Yields Reverse Lower Despite Hot Inflation Data (Investing.com) https://www.investing.com/analysis/us-dollar-and-treasury-yields-reverse-lower-despite-hot-inflation-data-200689696
-· GOOGL GOOGL, GOOG Investors Have Opportunity to Lead Alphabet Inc. Securities Fraud Lawsuit (PR Newswire) https://www.prnewswire.com/news-releases/googl-goog-investors-have-opportunity-to-lead-alphabet-inc-securities-fraud-lawsuit-302910397.html
-· MRVL Should You Buy The Dip In Marvell Stock? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/buy-dip-marvell-stock-181101936.html
-· (+15 manchetes; lista completa em eventos/noticias.json)
+· (+26 manchetes; lista completa em eventos/noticias.json)

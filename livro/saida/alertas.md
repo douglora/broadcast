@@ -1,6 +1,6 @@
 ALERTAS · intradia
 
-[ATENÇÃO] E05 · TSM · TSMC's Record Q3 Earnings & Upbeat Outlook Put These ETFs in Focus
+(pendente de slot anterior) [ATENÇÃO] E05 · TSM · TSMC's Record Q3 Earnings & Upbeat Outlook Put These ETFs in Focus
 Yahoo Finance · 16/10 11h00 · fonte única · licença: resumo
 Trechos (licença resumo: reescrever, não colar):
   – TSMC Beats Q3 Earnings Estimates TSMC's third-quarter revenues of NT$1.49 trillion ($46.36 billion) topped the Zacks Consensus Estimate of $45.62 billion.
@@ -14,20 +14,21 @@ Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; 
 Ativos: TSM
 Como falar: 'saiu no Yahoo Finance: TSMC's Record Q3 Earnings & Upbeat Outlook Put These ETFs in Focus; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 16/10 11h00
-Push: [ATENÇÃO] TSM · TSMC's Record Q3 Earnings & Upbeat Outlook Put These E · detalhe na sessão
 ids: E05-TSM-795baac277-2026-10-16
 
 Info (só linha no Fechamento):
-· E05 BTC · What Happens to Bitcoin When Billions in Options Expire?
-· E05 BTC · Bitcoin price steadies around $82K after Fed’s Warsh avoids rate-hike hints
-· E05 MU · Micron: Why You Should Buy Before Dec'26 (NASDAQ:MU)
-· E05 BTC · Bitcoin ETFs trade over $7.5B in a week despite $145M in net selling
-· E05 GOOGL · Jack Henry & Associates, Inc. (JKHY) To Integrate Google Cloud Universal Ledger
-· E05 BTC · Bitcoin Price Rebound Faces a Fresh $82K Test: Will It Survive the Weekend?
-· E05 BAC · Bank of America Taps High-Grade Bond Market After Turbulent Week
-· E05 BTC · New whales account for one-third of Bitcoin's whale realized cap
-· E05 BAC · BofA's Brian Moynihan Downplays Inflation Concerns on US Economy, Says it is 'Resilient and Growing' — Here’s What Clients Are Doing
-· E05 BTC · Current price of Bitcoin for October 16, 2026
+· F03 Brent sobe a US$ 109,28 (+3,2% no dia) (parcial, intradia)
+· E05 UST · Here’s Why Treasury Yields Have Defied Hotter-Than-Expected Inflation
+· E05 JPM · JPMorgan Chase: 3 Key Takeaways for Long-Term Investors
+· E05 GOOGL · Alphabet’s Cloud Surge and AI Dominance Overshadow Capex Fears and Keep Me Buying
+· E05 KLBN4 · Klabin alonga vencimento de empréstimos e reduz custo de dívida
+· E05 BTC · Unique Wealth discloses $10.4 million in Bitcoin exposure in latest 13F-HR filing
+· E05 BTC · Bitcoin Bounces, But Where Does It Go Next? Here’s What the Charts Say
+· E05 BAC · Meta expected to beat revenue forecasts as AI boosts advertising, says Bank of America
+· E05 INTC · Will Intel (INTC) Beat Estimates Again in Its Next Earnings Report?
+· E05 GOOGL · Jack Henry, Google Cloud To Deliver Tokenized Deposits For Banks, Credit Unions
+· E05 AMZN · AWS and Microsoft Face Fresh UK Scrutiny Over Cloud Switching Barriers
+· E05 AMZN · Is Amazon Stock Poised to Gain as AI Boosts Cash Flow Prospects?
 
 
 Alertas do dia (todos, com status):
@@ -35,4 +36,5 @@ Alertas do dia (todos, com status):
 · entregue  E05 BAC — BAC · Bank of America: The $1.2 Billion Fine Changes My Rating, But The Upside R
 · entregue  E05 MMM — MMM · 3M to argue Australia's $1.4 billion 'forever chemicals' lawsuit legally f
 · entregue  E05 PETR4 — PETR4 · Petrobras bate recorde e chega a R$ 800 bilhões em valor de mercado; açõ
-· (+79 notícias só manchete, em noticias.md)
+· linha     F03 BRENT — Brent sobe a US$ 109,28 (+3,2% no dia) (parcial, intradia)
+· (+90 notícias só manchete, em noticias.md)
