@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 16/10 12h26
+NOTÍCIAS E FATOS · 16/10 13h22
 
-Pernas: noticias ok 5 novas (18 consultas; descartadas: 465 veículo fora da lista, 35 sem ativo, 0 teto) · cvm ok 0 novos de 11 (9 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 11 novas (18 consultas; descartadas: 476 veículo fora da lista, 35 sem ativo, 5 teto) · cvm ok 0 novos de 11 (9 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (1)
 
@@ -14,7 +14,23 @@ Fonte: CVM 16/10
 id: E03-VALE3-1577682-2026-10-16 · status: linha
 
 
-## NOTÍCIAS COM MATERIALIDADE (3)
+## NOTÍCIAS COM MATERIALIDADE (4)
+
+[ATENÇÃO] E05 · TSM · TSMC's Record Q3 Earnings & Upbeat Outlook Put These ETFs in Focus
+Yahoo Finance · 16/10 11h00 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – TSMC Beats Q3 Earnings Estimates TSMC's third-quarter revenues of NT$1.49 trillion ($46.36 billion) topped the Zacks Consensus Estimate of $45.62 billion.
+  – TSMC reported third-quarter 2026 earnings per share (EPS) of $4.60, ahead of the Zacks Consensus Estimate of $4.45.
+  – TSMC's net profit climbed 68.7% year over year, marking its sixth consecutive quarter of record earnings, per CNBC.
+  – Its operating margin reached 58.7%, surpassing the upper end of the company's guidance range of 58%.
+  – Strong Q4 Outlook Signals Sustained AI Momentum TSMC expects fourth-quarter revenues of $52.3 billion to $54.3 billion.
+  – At the midpoint, the forecast implies a 14% sequential increase and a 58% jump from the year-ago quarter, according to the company's earnings call.
+Link: https://finance.yahoo.com/technology/articles/tsmcs-record-q3-earnings-upbeat-140000557.html
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: TSM
+Como falar: 'saiu no Yahoo Finance: TSMC's Record Q3 Earnings & Upbeat Outlook Put These ETFs in Focus; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 16/10 11h00
+id: E05-TSM-795baac277-2026-10-16 · status: pendente
 
 [ATENÇÃO] E05 · BAC · Bank of America: The $1.2 Billion Fine Changes My Rating, But The Upside Remains
 Seeking Alpha · 16/10 00h18 · fonte única · licença: manchete
@@ -51,8 +67,18 @@ Fonte: g1 15/10 16h31
 id: E05-PETR4-a305718dd1-2026-10-15 · status: entregue
 
 
-## OUTRAS NOTÍCIAS (só manchete) (65)
+## OUTRAS NOTÍCIAS (só manchete) (75)
 
+· BTC What Happens to Bitcoin When Billions in Options Expire? (Yahoo Finance) https://finance.yahoo.com/markets/options/articles/happens-bitcoin-billions-options-expire-160041374.html
+· BTC Bitcoin price steadies around $82K after Fed’s Warsh avoids rate-hike hints (TradingView (Reuters)) https://www.tradingview.com/news/cointelegraph:1b2f4548f094b:0-bitcoin-price-steadies-around-82k-after-fed-s-warsh-avoids-rate-hike-hints/
+· MU Micron: Why You Should Buy Before Dec'26 (NASDAQ:MU) (Seeking Alpha) https://seekingalpha.com/article/4954802-micron-why-you-should-buy-before-dec26
+· BTC Bitcoin ETFs trade over $7.5B in a week despite $145M in net selling (TradingView (Reuters)) https://www.tradingview.com/news/cryptobriefing:a4c19e8a7094b:0-bitcoin-etfs-trade-over-7-5b-in-a-week-despite-145m-in-net-selling/
+· GOOGL Jack Henry & Associates, Inc. (JKHY) To Integrate Google Cloud Universal Ledger (TradingView (Reuters)) https://www.tradingview.com/news/tradingview:358088b4e99dc:0-jack-henry-associates-inc-jkhy-to-integrate-google-cloud-universal-ledger/
+· BTC Bitcoin Price Rebound Faces a Fresh $82K Test: Will It Survive the Weekend? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-price-rebound-faces-fresh-134206713.html
+· BAC Bank of America Taps High-Grade Bond Market After Turbulent Week (Bloomberg) https://www.bloomberg.com/news/articles/2026-10-16/bank-of-america-taps-high-grade-bond-market-after-turbulent-week
+· BTC New whales account for one-third of Bitcoin's whale realized cap (TradingView (Reuters)) https://www.tradingview.com/news/cryptobriefing:c55b80b65094b:0-new-whales-account-for-one-third-of-bitcoin-s-whale-realized-cap/
+· BAC BofA's Brian Moynihan Downplays Inflation Concerns on US Economy, Says it is 'Resilient and Growing' — Here’s What Clients Are Doing (Yahoo Finance) https://finance.yahoo.com/economy/articles/bofas-brian-moynihan-downplays-inflation-120017361.html
+· BTC Current price of Bitcoin for October 16, 2026 (Fortune) https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Nb0szWjZ1TjJ4TktPakY2b2VmcWp4NGRCbXd6SVlLZlM1NFZTbjB3eWF3YzR1dGFwVjZxMXVYUEN2T2pCWGdHMjVyVGxBWEcxUF9WTkhOenZSOVRGN19uNFFGLTVRWXc?oc=5
 · MINERIO Iron ore price rebounds from two-year low on dip buying, improving steel margins (Mining.com) https://www.mining.com/web/iron-ore-price-rebounds-from-two-year-low-on-dip-buying-improving-steel-margins/
 · NVDA Nvidia (NVDA) Expands Nemotron As $4 Billion Texas Supply Push Meets Customer Debt Stress (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/nvidia-nvda-expands-nemotron-4-151233429.html
 · NVDA NVIDIA and Taiwan’s New Chip Law: The Real Risk Sits With Super Micro (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/nvidia-taiwan-chip-law-real-151150327.html
@@ -103,14 +129,4 @@ id: E05-PETR4-a305718dd1-2026-10-15 · status: entregue
 · UST US Dollar and Treasury Yields Reverse Lower Despite Hot Inflation Data (Investing.com) https://www.investing.com/analysis/us-dollar-and-treasury-yields-reverse-lower-despite-hot-inflation-data-200689696
 · GOOGL GOOGL, GOOG Investors Have Opportunity to Lead Alphabet Inc. Securities Fraud Lawsuit (PR Newswire) https://www.prnewswire.com/news-releases/googl-goog-investors-have-opportunity-to-lead-alphabet-inc-securities-fraud-lawsuit-302910397.html
 · MRVL Should You Buy The Dip In Marvell Stock? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/buy-dip-marvell-stock-181101936.html
-· ITUB4 Brava, Eneva, Itaú, Mitre, Lavvi e mais ações para acompanhar hoje (InfoMoney) https://www.infomoney.com.br/mercados/brava-eneva-itau-mitre-lavvi-e-mais-acoes-para-acompanhar-hoje/
-· TSLA Tesla Roadster probably won't drive an earnings beat, but the big unveil did achieve 2 things (Yahoo Finance) https://finance.yahoo.com/markets/stocks/article/tesla-roadster-probably-wont-drive-an-earnings-beat-but-the-big-unveil-did-achieve-2-things-111723421.html
-· BTC Strategy Stock Sinks as Index Exclusion May Outweigh Bitcoin Prices (Barron's) https://www.barrons.com/articles/strategy-stock-mcsi-index-exclusion-bitcoin-price-8602a511
-· TSLA Musk’s flying Roadster demo triggers a rush of Tesla (TSLA) bets on crypto exchange Hyperliquid (CoinDesk) https://www.coindesk.com/business/2026/10/16/elon-musk-s-flying-roadster-reveal-sent-tesla-crypto-trading-into-overdrive-while-stock-markets-were-closed
-· BRENT Bengal Crude Realizations Run US$25 a Barrel Above Brent in Fiscal 2027 to Date (TradingView (Reuters)) https://www.tradingview.com/news/tmx_newsfile:8ef1bf811094b:0-bengal-crude-realizations-run-us-25-a-barrel-above-brent-in-fiscal-2027-to-date/
-· USDBRL Investidores fecham semana repercutindo entrevista de Lula e prévia do PIB; Ibovespa em dólar sobe nesta sexta-feira (16) (Money Times) https://www.moneytimes.com.br/investidores-fecham-semana-repercutindo-entrevista-de-lula-e-previa-do-pib-ibovespa-em-dolar-sobe-nesta-sexta-feira-16-rens/
-· PETR4 Petrobras pode valer trilhão? Banco de Wall Street aposta que chegará perto (O Globo) https://oglobo.globo.com/blogs/capital/post/2026/10/petrobras-pode-valer-trilhao-banco-de-wall-street-aposta-que-chegara-perto.ghtml
-· BTC Capital B posts wider H1 net loss of $78 million on bitcoin impairment charge (The Block) https://www.theblock.co/news/business/2026-10-16-capital-b-wider-h1-net-loss-418781
-· AMZN AWS, Microsoft can do more to address cloud services barriers, UK competition watchdog says (Reuters) https://www.reuters.com/legal/litigation/aws-microsoft-can-do-more-address-cloud-services-barriers-uk-competition-2026-10-16/
-· JPM JPMorgan upgrades Fomento Economico stock rating on earnings momentum (Investing.com) https://www.investing.com/news/analyst-ratings/jpmorgan-upgrades-fomento-economico-stock-rating-on-earnings-momentum-93CH-4953424
-· (+5 manchetes; lista completa em eventos/noticias.json)
+· (+15 manchetes; lista completa em eventos/noticias.json)
