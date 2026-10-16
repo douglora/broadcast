@@ -1,7 +1,7 @@
 # Boletim da B3: pregão de 14/10/2026 (quarta)
 
 **Situação: COMPLETO.** Boletim publicado pela B3 em 2026-10-15 07:55 (hora de Brasília).
-Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10-15T15:43:36Z (UTC).
+Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10-16T00:53:01Z (UTC).
 
 [[LEITURA_DA_MESA]]
 

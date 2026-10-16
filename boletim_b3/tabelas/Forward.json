@@ -1,19 +1,19 @@
 {
- "pregao": "2026-10-14",
+ "pregao": "2026-10-15",
  "nome": "Forward",
  "titulo": "Ações mais negociadas - a termo",
  "sla": "8:00:00",
  "paginas": 1,
  "colunas": [{"nome": "TckrSymb", "titulo": "Ação"}, {"nome": "Cod", "titulo": "Código"}, {"nome": "Term", "titulo": "Prazo"}, {"nome": "Closing", "titulo": ""}, {"nome": "TradQty", "titulo": ""}, {"nome": "VlmTradedDay", "titulo": "Volume (R$) mil"}, {"nome": "Part", "titulo": "Participação (%)"}],
  "texto": ["Lista ações com maior volume de negociação em contratos a termo, destacando as mais ativas."],
- "situacao": "republicado",
- "atualizado_em": "2026-10-15T03:23:35.503",
+ "situacao": "publicado",
+ "atualizado_em": "2026-10-15T19:00:38.977",
  "truncada": false,
  "linhas": [
-  ["INVESTOUTIL CI", "CI", 30, 143.22, 50000, 7161, 1.6122110152060518],
-  ["TREND SP BRLCI", "CI", 30, 60.36, 56676, 3420.9633599999997, 1.8274734299563637],
-  ["TENDA       ON      NM", "ON      NM", 114, 30.29, 200000, 6058, 6.448844060824206],
-  ["TREND SP BRLCI", "CI", 362, 67.5, 344712, 23268.06, 11.11496966947417],
-  ["VALE        ON      NM", "ON      NM", 30, 67.51, 416800, 28138.168000000005, 13.439391022757649]
+  ["ISHARES BOVACI", "CI", 30, 205.32, 25000, 5133, 0.5777485462691079],
+  ["DATADOG INC DRN", "DRN", 32, 133.26, 40000, 5330.4, 0.9243976740305727],
+  ["INVESTOUTIL CI", "CI", 32, 143.2, 50000, 7159.999999999999, 1.1554970925382155],
+  ["SANEPAR     UNT     N2", "UNT     N2", 32, 40.17, 150000, 6025.5, 3.4664912776146473],
+  ["VIBRA       ON      NM", "ON      NM", 32, 36.74, 454300, 16690.982, 10.498846582802232]
  ]
 }
