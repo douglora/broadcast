@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 16/10 17h50
+NOTÍCIAS E FATOS · 16/10 18h12
 
-Pernas: noticias ok 9 novas (18 consultas; descartadas: 471 veículo fora da lista, 33 sem ativo, 0 teto) · cvm ok 0 novos de 11 (9 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 7 novas (18 consultas; descartadas: 478 veículo fora da lista, 32 sem ativo, 0 teto) · cvm ok 0 novos de 11 (9 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (1)
 
@@ -25,7 +25,7 @@ Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e 
 Ativos: MMM
 Como falar: 'saiu no Yahoo Finance: Market Chatter: 3M Company to Challenge Australia's $1.4 Billion PFAS Contamination Lawsu…; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 16/10 04h41
-id: E05-MMM-4fe8b6db32-2026-10-16 · status: pendente
+id: E05-MMM-4fe8b6db32-2026-10-16 · status: entregue
 
 [ATENÇÃO] E05 · TSM · TSMC's Record Q3 Earnings & Upbeat Outlook Put These ETFs in Focus
 Yahoo Finance · 16/10 11h00 · fonte única · licença: resumo
@@ -78,8 +78,15 @@ Fonte: g1 15/10 16h31
 id: E05-PETR4-a305718dd1-2026-10-15 · status: entregue
 
 
-## OUTRAS NOTÍCIAS (só manchete) (123)
+## OUTRAS NOTÍCIAS (só manchete) (130)
 
+· JPM JPMorgan Chase: The Place To Be When Storm Clouds Gather (NYSE:JPM) (Seeking Alpha) https://seekingalpha.com/article/4954899-jpmorgan-chase-place-to-be-when-storm-clouds-gather
+· USDBRL Dólar cai a R$ 5,07 com sinais de fluxo, mas sobe 1,77% na semana (UOL Economia) https://economia.uol.com.br/noticias/estadao-conteudo/2026/10/16/dolar-cai-a-r-507-com-sinais-de-fluxo-mas-sobe-177-na-semana.htm
+· USDBRL Dólar ronda estabilidade com após pesquisa indicar empate técnico entre Flávio e Lula (InfoMoney) https://www.infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-16102026/
+· MU Micron, SK Hynix Have an AI Boom Problem — China Could Make It Worse (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:3d3d1f934094b:0-micron-sk-hynix-have-an-ai-boom-problem-china-could-make-it-worse/
+· NVDA Intel and AMD Drop 3% as Rotation Out of AI Chip Stocks Continues; NVIDIA Holds Steady (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/intel-amd-drop-3-rotation-145402890.html
+· TSM TSMC’s ‘Leave No Food On The Table’ Pledge Signals More AI Chip Investment, Morningstar Says (TradingView (Reuters)) https://fr.tradingview.com/news/stocktwits:f2a81056c094b:0-tsmc-s-leave-no-food-on-the-table-pledge-signals-more-ai-chip-investment-morningstar-says/
+· INTC Jim Cramer Says Starbucks Can Rise On Its Own, Apple’s Audience Is Worth Paying For, And Intel Investors Need Patience (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:24a984646094b:0-jim-cramer-says-starbucks-can-rise-on-its-own-apple-s-audience-is-worth-paying-for-and-intel-investors-need-patience/
 · PETR4 Ibovespa sobe com Petrobras, mas perde 1,74% na semana com cautela eleitoral (Exame) https://exame.com/invest/mercados/ibovespa-sobe-com-petrobras-mas-perde-174-na-semana-com-cautela-eleitoral/
 · VALE3 Vale trocar um Tesouro IPCA+ por uma debênture da Sabesp? Títulos isentos passam a pagar mais que os públicos, mostra BTG (Seu Dinheiro) https://www.seudinheiro.com/2026/renda-fixa/vale-trocar-um-tesouro-ipca-por-uma-debenture-da-sabesp-titulos-isentos-mlim/
 · PLTR Palantir Stocks Fall 6.6% Although Mizuho Raises Target to $245 (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:f604ddfa1094b:0-palantir-stocks-fall-6-6-although-mizuho-raises-target-to-245/
@@ -133,11 +140,4 @@ id: E05-PETR4-a305718dd1-2026-10-15 · status: entregue
 · MU Micron: Why You Should Buy Before Dec'26 (NASDAQ:MU) (Seeking Alpha) https://seekingalpha.com/article/4954802-micron-why-you-should-buy-before-dec26
 · BTC Bitcoin ETFs trade over $7.5B in a week despite $145M in net selling (TradingView (Reuters)) https://www.tradingview.com/news/cryptobriefing:a4c19e8a7094b:0-bitcoin-etfs-trade-over-7-5b-in-a-week-despite-145m-in-net-selling/
 · GOOGL Jack Henry & Associates, Inc. (JKHY) To Integrate Google Cloud Universal Ledger (TradingView (Reuters)) https://www.tradingview.com/news/tradingview:358088b4e99dc:0-jack-henry-associates-inc-jkhy-to-integrate-google-cloud-universal-ledger/
-· BTC Bitcoin Price Rebound Faces a Fresh $82K Test: Will It Survive the Weekend? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-price-rebound-faces-fresh-134206713.html
-· BAC Bank of America Taps High-Grade Bond Market After Turbulent Week (Bloomberg) https://www.bloomberg.com/news/articles/2026-10-16/bank-of-america-taps-high-grade-bond-market-after-turbulent-week
-· BTC New whales account for one-third of Bitcoin's whale realized cap (TradingView (Reuters)) https://www.tradingview.com/news/cryptobriefing:c55b80b65094b:0-new-whales-account-for-one-third-of-bitcoin-s-whale-realized-cap/
-· BAC BofA's Brian Moynihan Downplays Inflation Concerns on US Economy, Says it is 'Resilient and Growing' — Here’s What Clients Are Doing (Yahoo Finance) https://finance.yahoo.com/economy/articles/bofas-brian-moynihan-downplays-inflation-120017361.html
-· BTC Current price of Bitcoin for October 16, 2026 (Fortune) https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Nb0szWjZ1TjJ4TktPakY2b2VmcWp4NGRCbXd6SVlLZlM1NFZTbjB3eWF3YzR1dGFwVjZxMXVYUEN2T2pCWGdHMjVyVGxBWEcxUF9WTkhOenZSOVRGN19uNFFGLTVRWXc?oc=5
-· MINERIO Iron ore price rebounds from two-year low on dip buying, improving steel margins (Mining.com) https://www.mining.com/web/iron-ore-price-rebounds-from-two-year-low-on-dip-buying-improving-steel-margins/
-· NVDA Nvidia (NVDA) Expands Nemotron As $4 Billion Texas Supply Push Meets Customer Debt Stress (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/nvidia-nvda-expands-nemotron-4-151233429.html
-· (+63 manchetes; lista completa em eventos/noticias.json)
+· (+70 manchetes; lista completa em eventos/noticias.json)
