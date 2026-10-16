@@ -301,3 +301,6 @@ dado_limiar_relativo, 3 tentativas); regua: quant/estudos/2026-10-14_distribuico
   esses 45 somam +R$ 10.184 (media +R$ 226). Nivel e climax estao em "travado_pelo_douglas": a decisao e dele.
 27. (decisao do Douglas, nao hipotese) Nivel e reacao e climax: desligar, ou manter so medindo de manha nos dias de dado as 10h30.
    Numeros acima. Sem a decisao, nada muda (protocolo nao toca chave travada).
+   DECIDIDO (16/10/2026, 08h55, "pode fazer"): nivel e reacao e climax DESLIGADOS em modo_robo.json (seguem so medidos e na
+   lista travado_pelo_douglas, para a rotina nao religar). Valem a partir do proximo inicio do robo (19/10, 08h35): o processo
+   de 16/10 tinha subido as 08h47 com os dois ligados e o robo le as chaves so ao subir.

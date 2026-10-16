@@ -5,11 +5,19 @@ from datetime import datetime, timedelta, timezone
 
 import numpy as np
 import pandas as pd
+import pytest
 
 from quant.pesquisa import revisao as rv
 
 BRT = timezone(timedelta(hours=-3))
 DIA = "2026-10-14"
+
+
+@pytest.fixture(autouse=True)
+def _sem_regras_de_laboratorio(monkeypatch):
+    """O registro de verdade (quant/pesquisa/setups.json) tem regra do mini-indice: sem isto a revisao pediria barras ao MetaTrader."""
+    from quant.daytrade import regras_lab
+    monkeypatch.setattr(regras_lab, "ler_registro", lambda *a, **k: [])
 
 
 def _barras(inicio="09:00", fim="18:29", preco=5050.0, caminho=None, dia=DIA):
@@ -53,7 +61,7 @@ def _pregao(tmp_path, dia=DIA, tipo_do_dia="cpi", resultado=-154.8, sinais_extra
                "opera": True, "hora": "09:48:00", "quando": f"{dia}T09:48:00-03:00"}, *sinais_extra]
     (pasta / dia / "sinais_niveis.jsonl").write_text("\n".join(json.dumps(x) for x in linhas) + "\n")
     # o robo montou barras so ate 11h50 (cego depois)
-    robo = _barras("09:00", "11:50")
+    robo = _barras("09:00", "11:50", dia=dia)
     with open(pasta / "m1_WDOFUT.csv", "a") as f:
         for t, x in robo.iterrows():
             f.write(f"{t:%Y-%m-%d %H:%M:%S};{x.o};{x.h};{x.l};{x.c};{x.v}\n")
@@ -119,7 +127,7 @@ def test_contexto_do_dado_separa_faixa_sem_vantagem():
 def test_revisao_do_pregao_de_14_10_ponta_a_ponta(tmp_path, monkeypatch):
     pasta = _pregao(tmp_path)
     monkeypatch.setattr(rv, "ranking_historico_das_saidas", lambda: {"base": 100.0, "tempo 60": 42.0, "tempo 90": 84.0})
-    rev = rv.revisar(DIA, pasta=str(pasta), servidor=_servidor(), dist=_dist(), consertos=[])
+    rev = rv.revisar(DIA, pasta=str(pasta), servidor=_servidor(), dist=_dist(), consertos=[], dormindo=[])
     chaves = [x["chave"] for x in rev["itens"]]
     assert "b:metatrader:reaberturas" in chaves and "b:metatrader:cego" in chaves
     cego = next(x for x in rev["itens"] if x["chave"] == "b:metatrader:cego")
@@ -155,13 +163,13 @@ def test_padrao_repetido_abre_item_na_fila_e_falha_repetida_vira_manchete(tmp_pa
     kw = dict(arq_caderno=str(tmp_path / "rev" / "caderno.jsonl"), arq_fila=str(fila), dir_rev=str(tmp_path / "rev"), telas=[], consertos=[])
     for dia in ("2026-10-14", "2026-10-15"):
         pasta = _pregao(tmp_path, dia=dia, tipo_do_dia="nenhum")
-        g = rv.gravar(rv.revisar(dia, pasta=str(pasta), servidor=_servidor(dia), dist=_dist(), consertos=[]), **kw)
+        g = rv.gravar(rv.revisar(dia, pasta=str(pasta), servidor=_servidor(dia), dist=_dist(), consertos=[], dormindo=[]), **kw)
     texto = fila.read_text()
     assert texto.count("[revisao: c:reversão do dado:tipo_do_dia=nenhum]") == 1 and "27. [revisao:" in texto
     assert texto.index("[revisao:") < texto.index("## Testadas")
     assert g["manchete"].startswith("FALHA REPETIDA") and "b:metatrader:cego" in g["caderno"]["falhas_repetidas"]
     # rodar de novo no mesmo dia nao duplica nada
-    rv.gravar(rv.revisar("2026-10-15", pasta=str(pasta), servidor=_servidor("2026-10-15"), dist=_dist(), consertos=[]), **kw)
+    rv.gravar(rv.revisar("2026-10-15", pasta=str(pasta), servidor=_servidor("2026-10-15"), dist=_dist(), consertos=[], dormindo=[]), **kw)
     assert fila.read_text().count("[revisao:") == texto.count("[revisao:")
 
 
@@ -226,6 +234,7 @@ def test_rotina_da_noite_roda_a_revisao_antes_do_protocolo(tmp_path, monkeypatch
     chamadas = []
     monkeypatch.setattr(noite, "agora_brt", lambda: pd.Timestamp("2026-10-14 19:20").to_pydatetime())
     (tmp_path / "dt" / DIA).mkdir(parents=True)
+    (tmp_path / "dt" / DIA / "estado_niveis.json").write_text("{}")
     rev = {"dia": DIA, "manchete": "1 negócio(s), R$ -154.80; perda dentro da distribuição histórica (percentil 33).",
            "itens": [{"categoria": "b", "chave": "b:metatrader:cego", "texto": "o robô ficou sem cotação de 11:51 a 18:19", "acao": "conserto"}],
            "muda_amanha": ["Conserto: o robô insiste em reabrir o MetaTrader"]}
@@ -238,3 +247,52 @@ def test_rotina_da_noite_roda_a_revisao_antes_do_protocolo(tmp_path, monkeypatch
     texto, _d = noite.rodar(ensaio=True, pasta=str(tmp_path / "dt"), arq_modo=str(arq_modo), arq_setups=str(tmp_path / "s.json"))
     assert [c[0] for c in chamadas] == ["revisar", "gravar", "placar"]
     assert "Revisao do pregao" in texto and "percentil 33" in texto and "Conserto: o robô insiste" in texto
+
+
+PMSET = """2026-10-15 08:50:23 -0300 Sleep               \tEntering Sleep state due to 'Sleep Service Back to Sleep':TCPKeepAlive=active Using Batt
+2026-10-15 09:23:50 -0300 DarkWake            \tDarkWake from Deep Idle [CDNP] : due to smc.sysState.Wake wifibt
+2026-10-15 09:24:18 -0300 Wake                \tWake from Deep Idle [CDNVA] : due to smc.sysState.Wake lid
+2026-10-15 11:15:54 -0300 Sleep               \tEntering Sleep state due to 'Clamshell Sleep':TCPKeepAlive=active Using Batt (Charge:54%)
+2026-10-15 11:16:28 -0300 DarkWake            \tDarkWake from Deep Idle [CDNP] : due to smc.sysState.Wake wifibt
+2026-10-15 11:47:16 -0300 Sleep               \tEntering Sleep state due to 'Sleep Service Back to Sleep':TCPKeepAlive=active
+2026-10-15 13:40:08 -0300 Wake                \tWake from Deep Idle [CDNVA] : due to lid
+"""
+
+
+def test_mac_dormindo_pelo_registro_de_energia_do_macos():
+    # 15/10/2026: o robo "ficou cego" das 11h15 as 13h40, mas era o Mac dormindo com a tampa fechada (os DarkWake nao acordam o robo)
+    d = rv.mac_dormindo("2026-10-15", PMSET)
+    assert d == [("08:50", "09:24", "voltou a dormir"), ("11:15", "13:40", "tampa fechada")]
+    assert rv.cego_com_o_mac_dormindo("11:15", "13:40", d) == "tampa fechada"
+    assert rv.cego_com_o_mac_dormindo("09:00", "09:24", d) == "voltou a dormir"
+    assert rv.cego_com_o_mac_dormindo("15:55", "18:19", d) is None             # acordado: e cegueira de verdade
+    assert rv.mac_dormindo("2026-10-14", PMSET) == []
+
+
+def test_cegueira_com_o_mac_dormindo_nao_e_conserto_que_falhou(tmp_path, monkeypatch):
+    monkeypatch.setattr(rv, "ranking_historico_das_saidas", lambda: {"base": 100.0, "tempo 60": 42.0})
+    fila = tmp_path / "FILA.md"
+    fila.write_text("# Fila\n\n## A testar\n\n6. item\n\n## Testadas\n")
+    kw = dict(arq_caderno=str(tmp_path / "rev" / "caderno.jsonl"), arq_fila=str(fila), dir_rev=str(tmp_path / "rev"), telas=[], consertos=[])
+    for dia in ("2026-10-14", "2026-10-15"):
+        pasta = _pregao(tmp_path, dia=dia)
+        rev = rv.revisar(dia, pasta=str(pasta), servidor=_servidor(dia), dist=_dist(), consertos=[], dormindo=[("11:40", "18:29", "tampa fechada")])
+        g = rv.gravar(rev, **kw)
+    chaves = [x["chave"] for x in g["itens"]]
+    assert "b:mac:dormindo" in chaves and "b:metatrader:cego" not in chaves
+    mac = next(x for x in g["itens"] if x["chave"] == "b:mac:dormindo")
+    assert "tampa fechada" in mac["texto"] and "tomada" in mac["acao"]
+    assert "b:mac:dormindo" not in g["caderno"]["falhas_repetidas"] and "b:metatrader:reaberturas" not in g["caderno"]["falhas_repetidas"]
+    assert "DE NOVO: o Mac dormiu" in g["manchete"]                          # de fora: nao e "o conserto nao resolveu"
+    assert "com o Mac dormindo" in g["manchete"]
+
+
+def test_rotina_atrasada_revisa_o_ultimo_pregao_encerrado(tmp_path):
+    from quant.pesquisa import noite
+    for d in ("2026-10-14", "2026-10-15", "2026-10-16"):
+        (tmp_path / d).mkdir()
+        (tmp_path / d / "estado_niveis.json").write_text("{}")
+    manha = pd.Timestamp("2026-10-16 08:51").to_pydatetime()
+    noite_ = pd.Timestamp("2026-10-16 19:20").to_pydatetime()
+    assert noite.ultimo_pregao_encerrado(str(tmp_path), manha) == "2026-10-15"     # 16/10 ainda nao abriu
+    assert noite.ultimo_pregao_encerrado(str(tmp_path), noite_) == "2026-10-16"

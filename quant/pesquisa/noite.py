@@ -24,6 +24,7 @@ Toda decisao fica em quant/saida/pesquisa5/decisoes.jsonl.
 Uso: python -m quant.pesquisa.noite [--ensaio]     (--ensaio: mostra o que faria, sem gravar)
 """
 import argparse
+import glob
 import json
 import os
 import time
@@ -154,10 +155,24 @@ def aplicar(decisoes, lista, arq_modo=ARQ_MODO, arq_setups=None, arq_decisoes=AR
     return mudou_modo or mudou_reg
 
 
+def ultimo_pregao_encerrado(pasta=DIR_DT, agora=None):
+    """O pregao que a revisao deve olhar: hoje depois das 18h30; antes disso (a rotina atrasada que roda de madrugada ou de manha,
+    com o Mac acordando), o ultimo pregao anterior com estado do robo. Em 16/10/2026 a rotina de 15/10 rodou as 08h51 e revisou o
+    pregao de 16/10, que ainda nem tinha aberto."""
+    agora = agora or agora_brt()
+    hoje = agora.strftime("%Y-%m-%d")
+    dias = sorted(os.path.basename(d) for d in glob.glob(os.path.join(pasta, "20??-??-??"))
+                  if glob.glob(os.path.join(d, "estado_*.json")))
+    if agora.strftime("%H:%M") >= "18:30" and hoje in dias:
+        return hoje
+    antes = [d for d in dias if d < hoje]
+    return antes[-1] if antes else None
+
+
 def revisar_pregao(ensaio=False, pasta=DIR_DT, dia=None):
-    """Passo 0: a revisao do pregao de hoje. Sem pregao hoje (sem estado do robo), nao ha revisao. Nunca derruba a rotina."""
-    dia = dia or agora_brt().strftime("%Y-%m-%d")
-    if not os.path.exists(os.path.join(pasta, dia)):
+    """Passo 0: a revisao do ultimo pregao encerrado. Sem pregao (sem estado do robo), nao ha revisao. Nunca derruba a rotina."""
+    dia = dia or ultimo_pregao_encerrado(pasta)
+    if not dia or not os.path.exists(os.path.join(pasta, dia)):
         return None
     try:
         from quant.pesquisa import revisao

@@ -171,6 +171,55 @@ def intervalos_cegos(servidor, robo, minimo=CEGO_MIN, janela=PREGAO):
             if (b - a).total_seconds() // 60 + 1 >= minimo]
 
 
+# ── o Mac dormindo (15/10/2026: tampa fechada na bateria as 11h15; o robo para junto) ──
+MOTIVOS_REPOUSO = {"Clamshell Sleep": "tampa fechada", "Idle Sleep": "repouso por inatividade", "Software Sleep": "repouso pedido",
+                   "Sleep Service Back to Sleep": "voltou a dormir", "Maintenance Sleep": "voltou a dormir", "Low Power Sleep": "bateria fraca"}
+
+
+def mac_dormindo(dia, texto=None):
+    """[(inicio, fim, motivo)] em HH:MM, dentro do `dia`, em que o Mac estava dormindo, pelo registro de energia do macOS
+    (`pmset -g log`): de cada "Sleep" ate o proximo "Wake" de verdade (os DarkWake de manutencao nao acordam o robo).
+    O motivo e o do primeiro "Sleep" do intervalo. `texto`: o registro ja lido (testes)."""
+    if texto is None:
+        try:
+            import subprocess
+            texto = subprocess.run(["pmset", "-g", "log"], capture_output=True, text=True, timeout=60).stdout
+        except Exception:
+            return []
+    ev = []
+    for ln in texto.splitlines():
+        m = re.match(r"^(\d{4}-\d{2}-\d{2} \d{2}:\d{2}):\d{2} [-+]\d{4} (Sleep|Wake)\s+(.*)$", ln)
+        if m:
+            motivo = next((v for k, v in MOTIVOS_REPOUSO.items() if k in m.group(3)), "repouso")
+            ev.append((m.group(1), m.group(2), motivo))
+    ev.sort()
+    fora, inicio, motivo = [], None, None
+    ini_dia, fim_dia = f"{dia} 00:00", f"{dia} 23:59"
+    for quando, tipo, mot in ev:
+        if tipo == "Sleep" and inicio is None:
+            inicio, motivo = quando, mot
+        elif tipo == "Wake" and inicio is not None:
+            if quando >= ini_dia and inicio <= fim_dia:
+                fora.append((max(inicio, ini_dia)[11:], min(quando, fim_dia)[11:], motivo))
+            inicio = None
+    if inicio is not None and inicio <= fim_dia:
+        fora.append((max(inicio, ini_dia)[11:], "23:59", motivo))
+    return fora
+
+
+def _min(hhmm):
+    return int(hhmm[:2]) * 60 + int(hhmm[3:5])
+
+
+def cego_com_o_mac_dormindo(a, b, dormindo, fracao=0.8):
+    """O motivo do repouso quando pelo menos `fracao` do intervalo cego [a, b] foi com o Mac dormindo; senao None."""
+    ia, ib = _min(a), _min(b) + 1
+    junto = sum(max(0, min(ib, _min(y) + 1) - max(ia, _min(x))) for x, y, _m in dormindo)
+    if ib > ia and junto / (ib - ia) >= fracao:
+        return next((m for x, y, m in dormindo if _min(x) < ib and ia <= _min(y)), "repouso")
+    return None
+
+
 # ── a regua historica ────────────────────────────────────────
 def distribuicoes(arq=ARQ_DIST):
     return (ler_json(arq, padrao=None) or {}).get("regras") or {}
@@ -400,7 +449,7 @@ def _item(dia, cat, chave, tecnica, texto, acao=None, valor=None, **extra):
                 valor_rs=None if valor is None else round(float(valor), 2), **extra)
 
 
-def revisar(dia=None, pasta=DIR_DT, setup="niveis", servidor=None, pedir_servidor=True, dist=None, consertos=None):
+def revisar(dia=None, pasta=DIR_DT, setup="niveis", servidor=None, pedir_servidor=True, dist=None, consertos=None, dormindo=None):
     """Monta a revisao de um pregao. `servidor`: barras de 1 minuto do dia (se None e `pedir_servidor`, pede ao MetaTrader;
     sem elas, usa as do robo). Nao grava nada (ver `gravar`)."""
     dia = dia or agora_brt().strftime("%Y-%m-%d")
@@ -429,17 +478,25 @@ def revisar(dia=None, pasta=DIR_DT, setup="niveis", servidor=None, pedir_servido
     if len(reab) >= 3:
         itens.append(_item(dia, "b", "b:metatrader:reaberturas", None,
                            f"o MetaTrader foi fechado e reaberto {len(reab)} vezes por cotação em rajadas ({', '.join(_hm(x['hora']) for x in reab)})",
-                           "conferir a conexão da XP; cada reabertura deixa o robô uns 40 s sem preço"))
+                           "conferir a conexão da XP; cada reabertura deixa o robô uns 40 s sem preço", externa=True))
     cegos = intervalos_cegos(servidor, robo) if servidor is not robo else []
     if not len(robo) and len(est.get("curva") or []):
         lacunas.append("o robô não gravou barra nenhuma da fita hoje")
     for a, b, mins in est.get("cegueira") or []:                 # o proprio robo anota (desde 15/10/2026)
         if not any(x[0] == a for x in cegos):
             cegos.append((a, b, int(mins)))
-    for a, b, mins in cegos:
-        itens.append(_item(dia, "b", "b:metatrader:cego", None, f"o robô ficou sem cotação de {a} a {b} ({mins} minutos): não leu sinal nenhum nesse tempo",
-                           "conserto: o robô volta a tentar abrir o MetaTrader quando foi ele que fechou e a XP não voltou (14/10/2026)",
-                           inicio=a, fim=b, minutos=mins))
+    dormiu = mac_dormindo(dia) if dormindo is None else dormindo
+    for a, b, mins in sorted(cegos):
+        motivo = cego_com_o_mac_dormindo(a, b, dormiu)
+        if motivo:                                               # de fora: o Mac dormiu e o robo parou junto (nao e defeito do codigo)
+            itens.append(_item(dia, "b", "b:mac:dormindo", None,
+                               f"o Mac dormiu ({motivo}) de {a} a {b} ({mins} minutos) e o robô parou junto: não leu sinal nenhum nesse tempo",
+                               "no pregão, Mac na tomada e com a tampa aberta (com a tampa fechada na bateria o macOS sempre dorme)",
+                               inicio=a, fim=b, minutos=mins, externa=True))
+        else:
+            itens.append(_item(dia, "b", "b:metatrader:cego", None, f"o robô ficou sem cotação de {a} a {b} ({mins} minutos) com o Mac acordado: não leu sinal nenhum nesse tempo",
+                               "ver o conserto da reabertura do MetaTrader (14/10/2026); se repetir, o conserto não resolveu",
+                               inicio=a, fim=b, minutos=mins))
 
     # (a), (c), (d) por negocio feito
     for n in negocios:
@@ -555,12 +612,12 @@ def revisar(dia=None, pasta=DIR_DT, setup="niveis", servidor=None, pedir_servido
                            "conserto: o sinal guarda por que não entrou e o placar conta só o que entrou", soma))
     # regra do laboratorio que nao pode rodar porque o robo estava cego (fim do pregao do mini-indice e as outras)
     if cegos:
-        itens += perdidas_por_cegueira(dia, cegos)
+        itens += perdidas_por_cegueira(dia, cegos, dormindo=dormiu)
     return {"dia": dia, "gerado": agora_brt().isoformat(timespec="seconds"), "itens": itens, "por_regra": list(por_regra.values()),
             "lacunas": lacunas, "fonte_barras": "servidor do MetaTrader" if barras is not robo else "minutos do robô"}
 
 
-def perdidas_por_cegueira(dia, cegos, registro=None, barras_por_ativo=None):
+def perdidas_por_cegueira(dia, cegos, registro=None, barras_por_ativo=None, dormindo=()):
     """As regras de laboratorio que operam e cuja janela caiu num intervalo cego: o que teriam dado (barras do servidor)."""
     from quant.daytrade import regras_lab
     from quant.pesquisa import lab
@@ -571,8 +628,12 @@ def perdidas_por_cegueira(dia, cegos, registro=None, barras_por_ativo=None):
         if r.get("estado") != "opera" or not r.get("janela"):
             continue
         ja, jb = r["janela"]
-        if not any(a <= jb and ja <= b for a, b, _m in cegos):
+        no_cego = [(a, b) for a, b, _m in cegos if a <= jb and ja <= b]
+        if not no_cego:
             continue
+        mac = any(cego_com_o_mac_dormindo(a, b, dormindo or []) for a, b in no_cego)
+        acao = "só roda com o Mac acordado no pregão" if mac else "o conserto da reabertura do MetaTrader cobre"
+        porque = "o Mac estava dormindo" if mac else "o robô estava cego"
         simb = "WIN$N" if (r.get("ativo") or "").startswith("WIN") else "WDO$N"
         try:
             b = (barras_por_ativo or {}).get(simb)
@@ -591,8 +652,8 @@ def perdidas_por_cegueira(dia, cegos, registro=None, barras_por_ativo=None):
             if len(t):
                 x = t.iloc[0]
                 fora.append(_item(dia, "b", f"b:cego:{r['nome']}", r.get("titulo") or r["nome"],
-                                  f"{r.get('titulo') or r['nome']} não rodou porque o robô estava cego; teria {'comprado' if x.lado == 'C' else 'vendido'} às {x.hora} "
-                                  f"e dado {_rs(x.res)}", "o conserto da reabertura do MetaTrader cobre", float(x.res)))
+                                  f"{r.get('titulo') or r['nome']} não rodou porque {porque}; teria {'comprado' if x.lado == 'C' else 'vendido'} às {x.hora} "
+                                  f"e dado {_rs(x.res)}", acao, float(x.res)))
             else:
                 fora.append(_item(dia, "b", f"b:cego:{r['nome']}", r.get("titulo") or r["nome"],
                                   f"{r.get('titulo') or r['nome']} caiu na janela cega, mas não teria dado sinal hoje", None))
@@ -647,8 +708,10 @@ def manchete(rev):
     else:
         partes.append("nenhum negócio")
     if falhas:
-        cego = [x for x in falhas if x["chave"] == "b:metatrader:cego"]
-        partes.append(f"{len(falhas)} falha(s) de execução ou de dado" + (f", com o robô cego {sum(x.get('minutos', 0) for x in cego)} minutos" if cego else ""))
+        cego = sum(x.get("minutos", 0) for x in falhas if x["chave"] == "b:metatrader:cego")
+        dormiu = sum(x.get("minutos", 0) for x in falhas if x["chave"] == "b:mac:dormindo")
+        partes.append(f"{len(falhas)} falha(s) de execução ou de dado" + (f", com o robô cego {cego} minutos com o Mac acordado" if cego else "")
+                      + (f", com o Mac dormindo {dormiu} minutos" if dormiu else ""))
     return "; ".join(partes) + "."
 
 
@@ -724,10 +787,14 @@ def gravar(rev, ensaio=False, arq_caderno=ARQ_CADERNO, arq_fila=ARQ_FILA, dir_re
     # no caderno vai o que e erro ou alerta: falhas, contexto, saida, alertas e as perdas (o ganho da regra nao e erro)
     novos = [x for x in rev["itens"] if (x["dia"], x["chave"]) not in ja
              and not (x["chave"].endswith(":resultado") and (x.get("valor_rs") or 0) > 0)]
-    rep_b = [x for x in rev["itens"] if x["categoria"] == "b" and x.get("repetiu")]
+    rep_b = [x for x in rev["itens"] if x["categoria"] == "b" and x.get("repetiu") and not x.get("externa")]
+    rep_fora = sorted({x["chave"] for x in rev["itens"] if x["categoria"] == "b" and x.get("repetiu") and x.get("externa")})
     total = len(caderno) + len(novos)
     rev["caderno"] = {"total": total, "novos_hoje": len(novos), "falhas_repetidas": [x["chave"] for x in rep_b],
                       "abertos_na_fila": [n for n, _x in abertos if n]}
+    if rep_fora:
+        if "b:mac:dormindo" in rep_fora:
+            rev["manchete"] = "DE NOVO: o Mac dormiu no pregão e o robô parou junto (tampa fechada ou sem tomada). " + rev["manchete"]
     if rep_b:
         rev["manchete"] = f"FALHA REPETIDA ({', '.join(sorted({x['chave'] for x in rep_b}))}): o conserto anterior não resolveu. " + rev["manchete"]
     if ensaio:
