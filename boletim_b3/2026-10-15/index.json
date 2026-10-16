@@ -1,6 +1,6 @@
 {
  "pregao": "2026-10-15",
- "coletado_em": "2026-10-16T04:58:16Z",
+ "coletado_em": "2026-10-16T11:57:35Z",
  "tabelas": {
   "SharesInvesVolum": {
    "titulo": "Participação dos investidores",
@@ -21,9 +21,9 @@
   "EconomicIndicators": {
    "titulo": "Indicadores econômicos",
    "situacao": "republicado",
-   "atualizado_em": "2026-10-16T01:52:39.97",
+   "atualizado_em": "2026-10-16T08:54:00.613",
    "sla": "8:00:00",
-   "linhas": 211,
+   "linhas": 434,
    "truncada": false
   },
   "HistoricalExchange": {
@@ -132,8 +132,8 @@
   },
   "Forward": {
    "titulo": "Ações mais negociadas - a termo",
-   "situacao": "publicado",
-   "atualizado_em": "2026-10-15T19:00:38.977",
+   "situacao": "republicado",
+   "atualizado_em": "2026-10-16T02:42:29.153",
    "sla": "8:00:00",
    "linhas": 5,
    "truncada": false
@@ -180,10 +180,10 @@
   },
   "AnalyticalFramework2": {
    "titulo": "Quadro analítico das posições em aberto",
-   "situacao": "aguardando",
-   "atualizado_em": "2026-10-15T00:00:38.007",
+   "situacao": "atrasado",
+   "atualizado_em": "2026-10-16T08:05:38.547",
    "sla": "8:00:00",
-   "linhas": 0,
+   "linhas": 73,
    "truncada": false
   },
   "SwapFlex": {
@@ -204,34 +204,34 @@
   },
   "OTCRegistrationWCCP": {
    "titulo": "Registro sem CCP",
-   "situacao": "aguardando",
-   "atualizado_em": "2026-10-15T00:00:38.007",
+   "situacao": "publicado",
+   "atualizado_em": "2026-10-16T02:12:54.6",
    "sla": "8:00:00",
-   "linhas": 0,
+   "linhas": 4,
    "truncada": false
   },
   "OTCRegistrationCCP": {
    "titulo": "Registro com CCP",
-   "situacao": "aguardando",
-   "atualizado_em": "2026-10-15T00:00:38.007",
+   "situacao": "publicado",
+   "atualizado_em": "2026-10-16T02:12:54.577",
    "sla": "8:00:00",
-   "linhas": 0,
+   "linhas": 3,
    "truncada": false
   },
   "OTCInventoryWCCP": {
    "titulo": "Estoque sem CCP",
-   "situacao": "aguardando",
-   "atualizado_em": "2026-10-15T00:00:38.007",
+   "situacao": "publicado",
+   "atualizado_em": "2026-10-16T02:12:54.627",
    "sla": "8:00:00",
-   "linhas": 0,
+   "linhas": 4,
    "truncada": false
   },
   "OTCInventoryCCP": {
    "titulo": "Estoque com CCP",
-   "situacao": "aguardando",
-   "atualizado_em": "2026-10-15T00:00:38.007",
+   "situacao": "publicado",
+   "atualizado_em": "2026-10-16T02:12:54.58",
    "sla": "8:00:00",
-   "linhas": 0,
+   "linhas": 3,
    "truncada": false
   },
   "ProventionCreditVariable": {
@@ -244,8 +244,8 @@
   },
   "Custody": {
    "titulo": "Ações custodiadas - programa de ADR",
-   "situacao": "aguardando",
-   "atualizado_em": "2026-10-15T00:00:38.007",
+   "situacao": "atrasado",
+   "atualizado_em": "2026-10-16T07:03:31.4",
    "sla": "7:00:00",
    "linhas": 0,
    "truncada": false
@@ -268,18 +268,18 @@
   },
   "COERegistration": {
    "titulo": "Registro",
-   "situacao": "aguardando",
-   "atualizado_em": "2026-10-15T00:00:38.007",
+   "situacao": "publicado",
+   "atualizado_em": "2026-10-16T02:12:54.563",
    "sla": "8:00:00",
-   "linhas": 0,
+   "linhas": 1,
    "truncada": false
   },
   "COEInventory": {
    "titulo": "Estoque",
-   "situacao": "aguardando",
-   "atualizado_em": "2026-10-15T00:00:38.007",
+   "situacao": "publicado",
+   "atualizado_em": "2026-10-16T02:12:54.487",
    "sla": "8:00:00",
-   "linhas": 0,
+   "linhas": 1,
    "truncada": false
   },
   "DebenturesBusiness": {
@@ -292,34 +292,34 @@
   },
   "SaleOff": {
    "titulo": "Liquidação",
-   "situacao": "aguardando",
-   "atualizado_em": "2026-10-15T00:00:38.007",
+   "situacao": "publicado",
+   "atualizado_em": "2026-10-16T03:22:26.863",
    "sla": "8:00:00",
-   "linhas": 0,
+   "linhas": 45,
    "truncada": false
   },
   "Stock": {
    "titulo": "Estoque",
-   "situacao": "aguardando",
-   "atualizado_em": "2026-10-15T00:00:38.007",
+   "situacao": "publicado",
+   "atualizado_em": "2026-10-16T05:03:00.373",
    "sla": "8:00:00",
-   "linhas": 0,
+   "linhas": 43,
    "truncada": false
   },
   "Register": {
    "titulo": "Registro",
-   "situacao": "aguardando",
-   "atualizado_em": "2026-10-15T00:00:38.007",
+   "situacao": "publicado",
+   "atualizado_em": "2026-10-16T04:52:54.34",
    "sla": "8:00:00",
-   "linhas": 0,
+   "linhas": 20,
    "truncada": false
   },
   "RepurchaseDealings": {
    "titulo": "Negociações compromissadas",
-   "situacao": "aguardando",
-   "atualizado_em": "2026-10-15T00:00:38.007",
+   "situacao": "publicado",
+   "atualizado_em": "2026-10-16T02:43:01.817",
    "sla": "8:00:00",
-   "linhas": 0,
+   "linhas": 10,
    "truncada": false
   },
   "DIover": {
@@ -332,18 +332,18 @@
   },
   "BTBLendingOpenPosition": {
    "titulo": "Posições em aberto",
-   "situacao": "aguardando",
-   "atualizado_em": "2026-10-15T00:00:38.007",
+   "situacao": "publicado",
+   "atualizado_em": "2026-10-16T02:32:40.863",
    "sla": "8:00:00",
-   "linhas": 0,
+   "linhas": 2954,
    "truncada": false
   },
   "BTBLoanBalance": {
    "titulo": "Empréstimos registrados",
-   "situacao": "aguardando",
-   "atualizado_em": "2026-10-15T00:00:38.007",
+   "situacao": "publicado",
+   "atualizado_em": "2026-10-16T03:53:03.113",
    "sla": "8:00:00",
-   "linhas": 0,
+   "linhas": 4727,
    "truncada": false
   },
   "PreviaQuadrimestral": {
@@ -397,11 +397,15 @@
    "bytes": 21740377,
    "linhas": 96425,
    "estado": "Final"
+  },
+  "DerivativesOpenPosition": {
+   "arquivo": "DerivativesOpenPositionFile_20261015_1",
+   "bytes": 3947537,
+   "linhas": 49316,
+   "estado": null
   }
  },
- "falhas": {
-  "DerivativesOpenPosition": "arquivo DerivativesOpenPosition: token HTTP 400"
- },
+ "falhas": {},
  "rf_cadastro": {
   "papeis_no_dia": 1721,
   "consultados": 0,
