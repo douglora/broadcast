@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 16/10 14h17
+NOTÍCIAS E FATOS · 16/10 14h21
 
-Pernas: noticias ok 11 novas (18 consultas; descartadas: 486 veículo fora da lista, 31 sem ativo, 3 teto) · cvm ok 0 novos de 11 (9 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 4 novas (18 consultas; descartadas: 485 veículo fora da lista, 32 sem ativo, 0 teto) · cvm ok 0 novos de 11 (9 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (1)
 
@@ -30,7 +30,7 @@ Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; 
 Ativos: TSM
 Como falar: 'saiu no Yahoo Finance: TSMC's Record Q3 Earnings & Upbeat Outlook Put These ETFs in Focus; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 16/10 11h00
-id: E05-TSM-795baac277-2026-10-16 · status: pendente
+id: E05-TSM-795baac277-2026-10-16 · status: entregue
 
 [ATENÇÃO] E05 · BAC · Bank of America: The $1.2 Billion Fine Changes My Rating, But The Upside Remains
 Seeking Alpha · 16/10 00h18 · fonte única · licença: manchete
@@ -67,8 +67,12 @@ Fonte: g1 15/10 16h31
 id: E05-PETR4-a305718dd1-2026-10-15 · status: entregue
 
 
-## OUTRAS NOTÍCIAS (só manchete) (86)
+## OUTRAS NOTÍCIAS (só manchete) (90)
 
+· GOOGL Alphabet Stocks Fall Although AI-Chip Forecast Signals a Bigger Cloud Business (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:14775eeac094b:0-alphabet-stocks-fall-although-ai-chip-forecast-signals-a-bigger-cloud-business/
+· GOOGL Apple and Alphabet Are Especially Scared of a Blue Wave (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/apple-alphabet-especially-scared-blue-164527715.html
+· BAC BofA's Hartnett leaning risk-off for next month (TradingView (Reuters)) https://www.tradingview.com/news/seekingalpha:84a0f07e6094b:0-bofa-s-hartnett-leaning-risk-off-for-next-month/
+· META Ahead of Meta Platforms (META) Q3 Earnings: Get Ready With Wall Street Estimates for Key Metrics (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/ahead-meta-platforms-meta-q3-121522821.html
 · UST Here’s Why Treasury Yields Have Defied Hotter-Than-Expected Inflation (The Wall Street Journal) https://www.wsj.com/video/heres-why-treasury-yields-have-defied-hotter-than-expected-inflation/D6B3A72D-02C4-47A3-BEC9-B0B2A66AA197
 · JPM JPMorgan Chase: 3 Key Takeaways for Long-Term Investors (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/jpmorgan-chase-3-key-takeaways-165156835.html
 · GOOGL Alphabet’s Cloud Surge and AI Dominance Overshadow Capex Fears and Keep Me Buying (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/alphabet-cloud-surge-ai-dominance-164534776.html
@@ -125,8 +129,4 @@ id: E05-PETR4-a305718dd1-2026-10-15 · status: entregue
 · USDBRL Dólar abre em queda com alívio externo; juros futuros sobem com empate entre Lula e Flávio (Folha de S.Paulo) https://www1.folha.uol.com.br/mercado/2026/10/dolar-abre-em-queda-com-alivio-externo-juros-futuros-sobem-com-empate-entre-lula-e-flavio.shtml
 · TSLA Tesla’s Flying Roadster Fuels SpaceX Merger Speculation, But Analysts Question Earnings Impact (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/tesla-flying-roadster-fuels-spacex-125446274.html
 · VALE3 Vale Base Metals conclui transação e estabelece nova estrutura de controle para o complexo de Thompson; veja (Money Times) https://www.moneytimes.com.br/vale-base-metals-conclui-transacao-e-estabelece-nova-estrutura-de-controle-para-o-complexo-de-thompson-veja-lmrs/
-· KO Dividend Roundup: Johnson & Johnson, Coca-Cola, Costco, CVS Health, and more (Seeking Alpha) https://seekingalpha.com/news/4653804-dividend-roundup-johnson-johnson-coca-cola-costco-cvs-health-and-more
-· BTC Bitcoin's loss-selling spike near $80K may mark a local bottom, Glassnode says (TradingView (Reuters)) https://www.tradingview.com/news/cryptobriefing:6ba216b84094b:0-bitcoin-s-loss-selling-spike-near-80k-may-mark-a-local-bottom-glassnode-says/
-· BRENT OPEC oil output rises by 1.78 million bpd in September, Reuters survey finds (TradingView (Reuters)) https://www.tradingview.com/news/reuters.com,2026:newsml_L6N4620P8:0-opec-oil-output-rises-by-1-78-million-bpd-in-september-reuters-survey-finds/
-· ITUB4 Itaú, Bradesco, BB, BTG e Santander: quem deve surpreender nos balanços, segundo o Citi? (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/itau-bradesco-bb-btg-e-santander-quem-deve-surpreender-nos-balancos-segundo-o-citi/
-· (+26 manchetes; lista completa em eventos/noticias.json)
+· (+30 manchetes; lista completa em eventos/noticias.json)
