@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 16/10 11h33
+NOTÍCIAS E FATOS · 16/10 12h21
 
-Pernas: noticias ok 2 novas (18 consultas; descartadas: 464 veículo fora da lista, 34 sem ativo, 0 teto) · cvm ok 0 novos de 11 (9 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 10 novas (18 consultas; descartadas: 471 veículo fora da lista, 36 sem ativo, 0 teto) · cvm ok 0 novos de 0 (0 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (1)
 
@@ -51,8 +51,18 @@ Fonte: g1 15/10 16h31
 id: E05-PETR4-a305718dd1-2026-10-15 · status: entregue
 
 
-## OUTRAS NOTÍCIAS (só manchete) (50)
+## OUTRAS NOTÍCIAS (só manchete) (60)
 
+· GOOGL Jack Henry to integrate with Google Cloud Universal Ledger By Investing.com (Investing.com) https://in.investing.com/news/stock-market-news/jack-henry-to-integrate-with-google-cloud-universal-ledger-93CH-5637748
+· GOOGL Jack Henry Expands Collaboration with Google Cloud to Deliver Tokenized Deposits for Banks and Credit Unions (PR Newswire) https://www.prnewswire.com/news-releases/jack-henry-expands-collaboration-with-google-cloud-to-deliver-tokenized-deposits-for-banks-and-credit-unions-302911361.html
+· TSLA Tesla Roadster Awes, But Shares Lag Into Earnings - Where To Buy (Downgrade) (NASDAQ:TSLA) (Seeking Alpha) https://seekingalpha.com/article/4954791-tesla-roadster-awes-but-shares-lag-into-earnings-where-to-buy-downgrade
+· JPM JPMorgan Chase CEO Jamie Dimon Warns That Inflation, Rising Asset Prices, and More "Continue to Shift Under the Surface." (Yahoo Finance) https://finance.yahoo.com/economy/articles/jpmorgan-chase-ceo-jamie-dimon-144300507.html
+· JPM Magalu vai à Shopee para crescer, mas JPMorgan não muda visão cautelosa para ação (InfoMoney) https://www.infomoney.com.br/mercados/magalu-vai-a-shopee-para-crescer-mas-jpmorgan-nao-muda-visao-cautelosa-para-acao/
+· MU Micron Stock’s Drop Triggers ‘Buy the Dip’ Calls. No One’s Listening. (Barron's) https://www.barrons.com/articles/micron-stock-price-drop-buy-ad2ff6d2
+· META Meta Platforms (META): Distribution Reach and Muse AI Catalyst Bridge the Capex Return Gap (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/meta-platforms-meta-distribution-reach-133547186.html
+· AMD AMD’s Price Action Around $600 is Telling Investors Something Specific (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/amd-price-action-around-600-111529572.html
+· NVDA Taiwan Is Planning $4 Billion Industrial Parks in Texas for Nvidia’s Suppliers (Yahoo Finance) https://finance.yahoo.com/technology/articles/taiwan-planning-4-billion-industrial-110001272.html
+· NVDA Taiwan Semiconductor Holds the Cards As NVIDIA, Apple and AMD Battle for Limited AI Chip Capacity (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:7296c689c094b:0
 · TSLA Tesla Stock May Share Even More Bad Earnings News Next Week (NASDAQ:TSLA) (Seeking Alpha) https://seekingalpha.com/article/4954765-tesla-may-share-even-more-bad-earnings-news-next-week
 · UST U.S. Treasury yields rise as traders wrap up volatile week (CNBC) https://www.cnbc.com/2026/10/16/us-treasury-yields-investors-hot-inflation-data-.html
 · ITUB4 O Itaú (ITUB4) quer mais energia: bancão injeta mais R$ 1,77 bilhão em subsidiária da Eneva (ENEV3) (Seu Dinheiro) https://www.seudinheiro.com/2026/empresas/o-itau-itub4-quer-mais-energia-bancao-injeta-mais-r-177-bilhao-em-subsidiaria-da-eneva-enev3-miql/
