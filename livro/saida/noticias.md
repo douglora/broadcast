@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 16/10 11h23
+NOTÍCIAS E FATOS · 16/10 11h33
 
-Pernas: noticias ok 13 novas (18 consultas; descartadas: 467 veículo fora da lista, 33 sem ativo, 5 teto) · cvm ok 0 novos de 11 (9 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 2 novas (18 consultas; descartadas: 464 veículo fora da lista, 34 sem ativo, 0 teto) · cvm ok 0 novos de 11 (9 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (1)
 
@@ -51,8 +51,10 @@ Fonte: g1 15/10 16h31
 id: E05-PETR4-a305718dd1-2026-10-15 · status: entregue
 
 
-## OUTRAS NOTÍCIAS (só manchete) (48)
+## OUTRAS NOTÍCIAS (só manchete) (50)
 
+· TSLA Tesla Stock May Share Even More Bad Earnings News Next Week (NASDAQ:TSLA) (Seeking Alpha) https://seekingalpha.com/article/4954765-tesla-may-share-even-more-bad-earnings-news-next-week
+· UST U.S. Treasury yields rise as traders wrap up volatile week (CNBC) https://www.cnbc.com/2026/10/16/us-treasury-yields-investors-hot-inflation-data-.html
 · ITUB4 O Itaú (ITUB4) quer mais energia: bancão injeta mais R$ 1,77 bilhão em subsidiária da Eneva (ENEV3) (Seu Dinheiro) https://www.seudinheiro.com/2026/empresas/o-itau-itub4-quer-mais-energia-bancao-injeta-mais-r-177-bilhao-em-subsidiaria-da-eneva-enev3-miql/
 · TSLA Could Tesla’s flying car send sales and shares soaring? (Yahoo Finance) https://uk.finance.yahoo.com/news/could-tesla-flying-car-send-140448718.html
 · PETR4 Ibovespa reage com Petrobras e bancos após três quedas seguidas; dólar cai (Exame) https://exame.com/invest/mercados/ibovespa-reage-com-petrobras-e-bancos-apos-tres-quedas-seguidas-dolar-cai/
