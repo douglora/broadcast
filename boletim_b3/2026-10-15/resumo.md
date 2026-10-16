@@ -1,7 +1,7 @@
 # Boletim da B3: pregão de 15/10/2026 (quinta)
 
 **Situação: PARCIAL.** Ainda sem: posições em aberto (opções e futuros), saldo de aluguel, empréstimos do dia, quadro de posições em aberto. A B3 publica esses blocos na madrugada seguinte ao pregão; a rodada da manhã completa.
-Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10-16T00:53:38Z (UTC).
+Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10-16T04:58:40Z (UTC).
 
 [[LEITURA_DA_MESA]]
 
@@ -20,7 +20,7 @@ Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10
 - **Crédito: prêmio alto.** RMSA12 (Brk Ambiental - Regiao Metropolitana…, debênture incentivada): taxa indicativa da ANBIMA de 15/10 a IPCA+ 9,91%, 315 pb acima do juro real de mercado na duration de 6,8 anos; R$ 13,0 mi negociados na B3 em 15/10, sem taxa. _(ANBIMA e B3, taxa indicativa de debêntures (ANBIMA) e DAP (B3), 15/10)_
 - **Fluxo estrangeiro.** Estrangeiro comprou R$ 2.076 mi líquidos em 13/10; no mês, até 13/10, saldo de +R$ 17.827 mi. _(B3, SharesInvesVolum, 13/10)_
 - **Juros.** A curva de juros abriu: DI1F28 +18 pb, para 12,89%, DI1F29 +20 pb, para 12,64%, DI1F30 +20 pb, para 12,66%, DI1F32 +18 pb, para 12,75%, DI1F35 +20 pb, para 12,81%. _(B3, TradeInformationConsolidated, 15/10)_
-- **Listas do dia.** Do livro nas listas do boletim: mais negociadas à vista: PETR4 (1º), VALE3 (3º), ITUB4 (4º), SMAL11 (5º); calls mais negociadas: PETRJ22 (1º), PETRK611 (4º); puts mais negociadas: VALEV784 (1º), PETRW611 (3º), BBASV113 (5º). _(B3, tabelas de maiores oscilacoes, 15/10)_
+- **Listas do dia.** Do livro nas listas do boletim: maiores baixas do Ibovespa: DIRR3 (1º), MRVE3 (2º), CURY3 (6º); mais negociadas à vista: PETR4 (1º), VALE3 (3º), ITUB4 (4º), SMAL11 (5º); calls mais negociadas: PETRJ22 (1º), PETRK611 (4º); puts mais negociadas: VALEV784 (1º), PETRW611 (3º), BBASV113 (5º). _(B3, tabelas de maiores oscilacoes, 15/10)_
 
 ## Índices
 
@@ -180,7 +180,7 @@ Nas incentivadas, a mediana pelos negócios do dia (B3 negócios de 15/10) foi I
 **Fecharam taxa pela indicativa da ANBIMA:** SBSPF3 -5,8 pb contra 14/10, para IPCA+ 7,35% (R$ 14,5 mi); CTGE11 -4,6 pb contra 14/10, para IPCA+ 6,77% (R$ 3,9 mi); CUTI11 -1,6 pb contra 14/10, para IPCA+ 7,07% (R$ 12,8 mi); PRAS11 -1,1 pb contra 14/10, para IPCA+ 6,82% (R$ 10,4 mi).
 **Abriram taxa pelos negócios da B3:** CRA02400AYK +115 pb contra 13/10, para IPCA+ 11,59% (R$ 4,0 mi); CRA022000XF +64 pb contra 14/10, para IPCA+ 14,32% (R$ 3,0 mi); 22D1289007 +63 pb contra 14/10, para IPCA+ 7,84% (R$ 5,6 mi); CRA022007EP +25 pb contra 14/10, para IPCA+ 7,73% (R$ 7,5 mi); CRA026001JM +19 pb contra 14/10, para 14,09% pré (R$ 6,6 mi).
 **Fecharam taxa pelos negócios da B3:** 23L1737622 -108 pb contra 14/10, para IPCA+ 7,32% (R$ 4,4 mi); 22E1325262 -69 pb contra 01/10, para IPCA+ 8,37% (R$ 4,2 mi); CRA025006SP -61 pb contra 30/09, para 16,49% pré (R$ 112,7 mi); CRA021002NF -40 pb contra 14/10, para IPCA+ 8,24% (R$ 11,4 mi); 24J2539865 -38 pb contra 13/10, para IPCA+ 7,74% (R$ 6,6 mi).
-**Prêmio alto:** CRA022000XF a IPCA+ 14,32% (B3 negócios de 15/10), +745 pb no vencimento, R$ 3,0 mi; CRA020002H1 a IPCA+ 12,56% (B3 negócios de 15/10), +567 pb no vencimento, R$ 3,9 mi; IRJS14 a IPCA+ 11,61% (ANBIMA indicativa de 15/10), +484 pb na duration, R$ 43,4 mi; CRA02400AYK a IPCA+ 11,59% (B3 negócios de 15/10), +472 pb no vencimento, R$ 4,0 mi; ASER12 a IPCA+ 11,38% (ANBIMA indicativa de 15/10), +472 pb no vencimento, R$ 4,1 mi.
+**Prêmio alto:** CRA022000XF a IPCA+ 14,32% (B3 negócios de 15/10), +745 pb no vencimento, R$ 3,0 mi; CRA020002H1 a IPCA+ 12,56% (B3 negócios de 15/10), +567 pb no vencimento, R$ 3,9 mi; IRJS14 a IPCA+ 11,61% (ANBIMA indicativa de 15/10), +484 pb na duration, R$ 43,4 mi; ASER12 a IPCA+ 11,38% (ANBIMA indicativa de 15/10), +472 pb no vencimento, R$ 4,1 mi; CRA02400AYK a IPCA+ 11,59% (B3 negócios de 15/10), +472 pb no vencimento, R$ 4,0 mi.
 
 Por classe, mediana das taxas de referência dos papéis. Taxa de referência: nas debêntures, a indicativa da ANBIMA quando há; nos demais papéis, a média dos negócios da B3 ponderada pelo volume. Juro real = DAP (cupom de IPCA) da mesma data: na duration do papel quando a taxa é a indicativa, no vencimento quando é a dos negócios (aproximação). Em CRI e CRA a B3 informa a securitizadora.
 
@@ -216,16 +216,11 @@ Por classe, mediana das taxas de referência dos papéis. Taxa de referência: n
 - empréstimos do dia: aguardando
 - aluguel por corretora: ignorado
 - Custody: aguardando
-- DIover: aguardando
 - posições em aberto (opções e futuros): aguardando
-- IbovespaStockBiggestHighs: aguardando
-- IbovespaStockBiggestLow: aguardando
-- ProventionCreditVariable: aguardando
 - Register: aguardando
 - RepurchaseDealings: aguardando
 - Stock: aguardando
 - Posição em aberto de derivativos por tipo de investidor (estrangeiro, institucional, pessoa física): não existe no Boletim Diário do Mercado; procurado nas 69 tabelas e no texto dos 11 cadernos em 30/09/2026.
 - Fluxo por tipo de investidor sai acumulado no mês e com dois pregões de atraso; o saldo de um dia é a diferença entre dois acumulados seguidos.
-- Carteira de índice: a B3 não publicou a tabela neste pregão; valem os pesos de 14/10.
 - RARA11: a B3 não publica valor de referência da cota (IOPV) para este ETF no boletim.
 - Paridade de MELI34: sem a barra de 15/10 de MELI nas séries do livro.
