@@ -1,4 +1,4 @@
-## Manhã do livro · sex 16/10 · 08h33 BRT
+## Manhã do livro · sex 16/10 · 08h38 BRT
 
 ---
 
@@ -6,7 +6,11 @@
 
 ---
 
-### Alertas do dia · 7 (2 críticos)
+### Alertas do dia · 8 (3 críticos)
+
+> **CRÍTICO · C05 · TESOURO** — IPCA+ 2050 PU -5,5% em 5 datas-base · Pre 2032 ABRE 15 bps (PU -0,6%) (base 15/10)
+> TD Pre 2029 12,64 (+10) · Pre 2031 12,76 (+14) · IPCA+ 2032 6,80 (+8) · IPCA+ 2035 6,84 (+10) PU -0,8% · IPCA+ 2040 6,73 (+12) PU -1,5% · IPCA+ 2050 6,74 (+12) PU -2,6% · IPCA+ 2029 6,77 (+5) · Pre 2032 12,87 (+15) PU -0,6%
+> *Por que importa:* abertura crescente com o prazo é venda de duration, não revisão de inflação; o cliente vê o PU cair no extrato
 
 > **CRÍTICO · C07 · UST** — UST FECHOU: 30y cruzou 5,50% (15/10)
 > 2y 4,77 · 10y 5,10 · 30y 5,43 · 2s10s +33 bps
@@ -17,7 +21,7 @@
 > 1m +3,0% · 6m -26% · YTD -25%
 > *Por que importa:* acima de 3 desvios o movimento sai do ruído e costuma vir de fato novo ou fluxo forçado
 
-- **S01 · SISTEMA** coleta do slot manha saiu incompleta: tesouro: falha: HttpError: HTTP 502 em https://www.tesourotransparente.gov.br/ckan/dataset/df56aa42-484a-4a
+- **C06 · TESOURO** Inflação implícita: implícita 2029 +22 bps na semana · implícita 2032 +218 bps acima do Focus · implícita 2031/32 (descasado) +208 bps acima do Focus
 - **C01 · DI** A curva ABRIU: F28 +18 bps no dia · F29 +20 bps no dia · F30 +20 bps no dia (ajuste B3 15/10)
 - **C02 · DI** Inclinação da curva DI: F35-F28 -26 bps em 5 pregões
 - **C03 · DI** DI em nível: F29 cruzou 12,50% (para cima, agora 12,64%) · F30 cruzou 12,50% (para cima, agora 12,66%)
@@ -213,7 +217,7 @@ Nomes completos: **QNTM** VanEck Quantum Computing UCITS ETF USD (Acc) · **QANT
 
 | Referência | US$/t | dia | 1 sem | 1 mês | leitura |
 |---|---:|---:|---:|---:|---|
-| **Celulose fibra longa** | 630 | -0,2 | -1,7 | - | 16/10 |
+| **Celulose fibra longa** | 631 | -0,2 | -1,7 | - | 16/10 |
 | **Minerio de ferro Dalian** | 89 | +0,2 | -1,3 | - | 16/10 |
 
 - **Celulose fibra longa**: futuro SP da SHFE (fibra longa) em CNY/t, sem o IVA de 13%; nao e preco de lista NBSK · CNY/t 4.756 a USD/CNY 6,68 = US$ 712/t com IVA
@@ -233,18 +237,18 @@ Nomes completos: **QNTM** VanEck Quantum Computing UCITS ETF USD (Acc) · **QANT
 
 **ABRIU** · inclinação F35-F28 -8 bps (+1 no dia)
 
-| Tesouro Direto · base 14/10 | taxa | Δ 13/10→14/10 |
+| Tesouro Direto · base 15/10 | taxa | Δ 14/10→15/10 |
 |---|---:|---:|
-| Pre 2029 | 12,54% | +14 bps |
-| Pre 2031 | 12,62% | +19 bps |
-| Pre 2032 | 12,72% | +21 bps |
-| IPCA+ 2029 | 6,72% | +6 bps |
-| IPCA+ 2032 | 6,72% | +4 bps |
-| IPCA+ 2035 | 6,74% | +5 bps |
-| IPCA+ 2040 | 6,61% | +5 bps |
-| IPCA+ 2050 | 6,62% | +5 bps |
+| Pre 2029 | 12,64% | +10 bps |
+| Pre 2031 | 12,76% | +14 bps |
+| Pre 2032 | 12,87% | +15 bps |
+| IPCA+ 2029 | 6,77% | +5 bps |
+| IPCA+ 2032 | 6,80% | +8 bps |
+| IPCA+ 2035 | 6,84% | +10 bps |
+| IPCA+ 2040 | 6,73% | +12 bps |
+| IPCA+ 2050 | 6,74% | +12 bps |
 
-Inflação implícita 2029 5,45% · 2032 5,62% · 2031/32 (descasado) 5,53% · Focus IPCA 2027 4,30%
+Inflação implícita 2029 5,50% · 2032 5,68% · 2031/32 (descasado) 5,58% · Focus IPCA 2027 4,30%
 
 | Treasury (EUA) · CMT 15/10 | taxa | Δ dia |
 |---|---:|---:|
@@ -312,8 +316,8 @@ Inflação implícita 2029 5,45% · 2032 5,62% · 2031/32 (descasado) 5,53% · F
 
 ### Como ler
 
-**Relógios:** Yahoo 08h33 · DI ajuste 15/10 · Tesouro base 14/10 · UST CMT 15/10 · PTAX 15/10
-**Lacunas:** tesouro: falha: HttpError: HTTP 502 em https://www.tesourotransparente.gov.br/ckan/dataset/df56aa42-484a-4a.
+**Relógios:** Yahoo 08h38 · DI ajuste 15/10 · Tesouro base 15/10 · UST CMT 15/10 · PTAX 15/10
+**Lacunas:** nenhuma perna falhou.
 **IUAA:** NAO e renda fixa ultracurta: cai ~6% a cada +100 bps na curva. Ler junto com UST 10y/30y. Caixa em dolar e o IB01.
 **Hipótese:** **EWY** iShares MSCI South Korea ETF · **MCHI** iShares MSCI China ETF — ETFs dos EUA, a confirmar.
 Minério: proxy Dalian 672 CNY/t (2026-10-16).

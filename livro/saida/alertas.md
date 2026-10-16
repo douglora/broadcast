@@ -1,5 +1,16 @@
 ALERTAS · Manhã 08h30
 
+[CRÍTICO] CURVA · C05 IPCA+ 2050 PU -5,5% em 5 datas-base · Pre 2032 ABRE 15 bps (PU -0,6%) (base 15/10) / C06 Inflação implícita: implícita 2029 +22 bps na semana · implícita 2032 +218 bps acima do Focus · implícita 2031/32 (descasado) +208 bps acima do Focus
+TD Pre 2029 12,64 (+10) · Pre 2031 12,76 (+14) · IPCA+ 2032 6,80 (+8) · IPCA+ 2035 6,84 (+10) PU -0,8% · IPCA+ 2040 6,73 (+12) PU -1,5% · IPCA+ 2050 6,74 (+12) PU -2,6% · IPCA+ 2029 6,77 (+5) · Pre 2032 12,87 (+15) PU -0,6%
+Implícita 2029: 5,50% (+22 bps na semana) vs Focus IPCA 2029 3,50% (+200 bps)
+Implícita 2032: 5,68% (+20 bps na semana) vs Focus IPCA 2030 3,50% (+218 bps)
+Implícita 2031/32 (descasado): 5,58% (+19 bps na semana) vs Focus IPCA 2030 3,50% (+208 bps)
+Por que importa: abertura crescente com o prazo é venda de duration, não revisão de inflação; o cliente vê o PU cair no extrato
+Como falar: 'quem comprou para carregar não perdeu nada: o PU marca a mercado, a taxa contratada é a mesma'
+Fonte: Tesouro Transparente base 15/10; BCB Focus · Tesouro Transparente, base 15/10
+Push: [CRÍTICO] TESOURO IPCA+ 2050 PU -5,5% em 5 datas-base · Pre 2032 ABRE 15 bps ( | TESOURO Inflação implícita · detalhe na sessão
+ids: C05-TESOURO-abriu-2026-10-15, C06-TESOURO-implicita-2026-10-15
+
 (pendente de slot anterior) [ATENÇÃO] E05 · PETR4 · Petrobras anuncia investimento de R$ 6,1 milhões em novo laboratório de óleo e gás na UFU
 g1 · 15/10 18h58 · fonte única · licença: resumo
 Trechos (licença resumo: reescrever, não colar):
@@ -15,17 +26,16 @@ Como falar: 'saiu no g1: Petrobras anuncia investimento de R$ 6,1 milhões em no
 Fonte: g1 15/10 18h58
 ids: E05-PETR4-89407ae5cc-2026-10-15
 
-[ATENÇÃO] E05 · BAC · Bank of America: The $1.2 Billion Fine Changes My Rating, But The Upside Remains
+(pendente de slot anterior) [ATENÇÃO] E05 · BAC · Bank of America: The $1.2 Billion Fine Changes My Rating, But The Upside Remains
 Seeking Alpha · 16/10 00h18 · fonte única · licença: manchete
 Link: https://seekingalpha.com/article/4954646-bank-of-america-1-2-billion-fine-changes-my-rating-but-upside-remains
 Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
 Ativos: BAC
 Como falar: 'saiu no Seeking Alpha: Bank of America: The $1.2 Billion Fine Changes My Rating, But The Upside Remains; confirmar o número no texto antes de repassar'
 Fonte: Seeking Alpha 16/10 00h18
-Push: Manhã 08h30: 4 alertas de atenção — E05 BAC, E05 MMM, E05 PETR4, S01 SISTEMA · detalhe na sessão
 ids: E05-BAC-db5011b12f-2026-10-16
 
-[ATENÇÃO] E05 · MMM · 3M to argue Australia's $1.4 billion 'forever chemicals' lawsuit legally flawed, court hears
+(pendente de slot anterior) [ATENÇÃO] E05 · MMM · 3M to argue Australia's $1.4 billion 'forever chemicals' lawsuit legally flawed, court hears
 Reuters · 16/10 00h04 · fonte única · licença: manchete
 Link: https://www.reuters.com/business/environment/3m-argue-australias-14-billion-forever-chemicals-lawsuit-legally-flawed-court-2026-10-16/
 Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e prazo
@@ -34,7 +44,7 @@ Como falar: 'saiu no Reuters: 3M to argue Australia's $1.4 billion 'forever chem
 Fonte: Reuters 16/10 00h04
 ids: E05-MMM-b7de6b56d5-2026-10-16
 
-[ATENÇÃO] E05 · PETR4 · Petrobras bate recorde e chega a R$ 800 bilhões em valor de mercado; ações sobem até 110% em 2026
+(pendente de slot anterior) [ATENÇÃO] E05 · PETR4 · Petrobras bate recorde e chega a R$ 800 bilhões em valor de mercado; ações sobem até 110% em 2026
 g1 · 15/10 16h31 · fonte única · licença: resumo
 Trechos (licença resumo: reescrever, não colar):
   – A Petrobras bateu recorde no valor de mercado ao atingir R$ 800 bilhões no encerramento do pregão na B3 nesta quarta-feira (14), a primeira vez que a companhia supera esse patamar.
@@ -50,42 +60,24 @@ Como falar: 'saiu no g1: Petrobras bate recorde e chega a R$ 800 bilhões em val
 Fonte: g1 15/10 16h31
 ids: E05-PETR4-a305718dd1-2026-10-15
 
-[ATENÇÃO] S01 · coleta do slot manha saiu incompleta: tesouro: falha: HttpError: HTTP 502 em https://www.tesourotransparente.gov.br/ckan/dataset/df56aa42-484a-4a
-O que fiz: entreguei as seções disponíveis; as pernas que falharam estão em LACUNAS.
-Por que importa: silêncio é lido como 'está tudo bem'; declarar a falha é o que permite confiar no restante
-Fonte: manifest do runner
-ids: S01-SISTEMA-manha-2026-10-16
-
 Info (só linha no Fechamento):
-· E01 META: resultado sai em 3 sessões (21/10)
-· E01 TSLA: resultado sai em 3 sessões (21/10)
-· M01 Agenda: Vencimento de opcoes sobre acoes (B3) hoje (16/10)
-· E05 ITUB4 · Brava, Eneva, Itaú, Mitre, Lavvi e mais ações para acompanhar hoje
-· E05 TSLA · Tesla Roadster probably won't drive an earnings beat, but the big unveil did achieve 2 things
-· E05 BTC · Strategy Stock Sinks as Index Exclusion May Outweigh Bitcoin Prices
-· E05 TSLA · Musk’s flying Roadster demo triggers a rush of Tesla (TSLA) bets on crypto exchange Hyperliquid
-· E05 BRENT · Bengal Crude Realizations Run US$25 a Barrel Above Brent in Fiscal 2027 to Date
-· E05 USDBRL · Investidores fecham semana repercutindo entrevista de Lula e prévia do PIB; Ibovespa em dólar sobe nesta sexta-feira (16)
-· E05 PETR4 · Petrobras pode valer trilhão? Banco de Wall Street aposta que chegará perto
-· E05 BTC · Capital B posts wider H1 net loss of $78 million on bitcoin impairment charge
-· E05 AMZN · AWS, Microsoft can do more to address cloud services barriers, UK competition watchdog says
-· E05 JPM · JPMorgan upgrades Fomento Economico stock rating on earnings momentum
-· E05 UST · Gold Advances as Treasury Yield Decline and Dollar Weakness Offset Interest Rate Concerns
-· E05 UST · Gold Prices Rise as Lower US Treasury Yields and Weaker Dollar Support Precious Metals
-· E05 DI · Tesouro Selic, IPCA+ ou Prefixado? Onde investir de olho no segundo turno das eleições
-· E05 PETR4 · Petrobras dobra de valor e bate recorde na Bolsa: ainda vale comprar?
-· E05 TSLA · Warsh avoids rate guidance; Tesla’s Roadster turns in air - what’s moving markets
+· E05 BTC · Bitcoin and ethereum prices today, Friday, October 16, 2026: Bitcoin, ethereum prices firm despite two strong inflation reports
+· E05 KLBN4 · Momento B3: Brava Energia, Eneva, Klabin, Mitre e os principais destaques desta sexta-feira (16)
+· E05 UST · US Dollar and Treasury Yields Reverse Lower Despite Hot Inflation Data
+· E05 GOOGL · GOOGL, GOOG Investors Have Opportunity to Lead Alphabet Inc. Securities Fraud Lawsuit
+· E05 MRVL · Should You Buy The Dip In Marvell Stock?
 
 
 Alertas do dia (todos, com status):
+· pendente  C05 TESOURO — IPCA+ 2050 PU -5,5% em 5 datas-base · Pre 2032 ABRE 15 bps (PU -0,6%) (base 15/1
 · entregue  C07 UST — UST FECHOU: 30y cruzou 5,50% (15/10)
 · entregue  T05 DIRR3 — DIRR3 -9,3% no dia a R$ 10,58: movimento de 3,2 desvios para uma vol de 20 dias 
 · linha     T08 MRVE3 — MRVE3 entrou em queda de -30% do pico: -32% do pico de 52s (R$ 10,43 em 26/02) a
+· pendente  C06 TESOURO — Inflação implícita: implícita 2029 +22 bps na semana · implícita 2032 +218 bps a
 · pendente  E05 BAC — BAC · Bank of America: The $1.2 Billion Fine Changes My Rating, But The Upside R
 · pendente  E05 MMM — MMM · 3M to argue Australia's $1.4 billion 'forever chemicals' lawsuit legally f
 · pendente  E05 PETR4 — PETR4 · Petrobras bate recorde e chega a R$ 800 bilhões em valor de mercado; açõ
-· pendente  S01 SISTEMA — coleta do slot manha saiu incompleta: tesouro: falha: HttpError: HTTP 502 em htt
-· pendente  E05 PETR4 — PETR4 · Petrobras anuncia investimento de R$ 6,1 milhões em novo laboratório de 
+· expirado  E05 PETR4 — PETR4 · Petrobras anuncia investimento de R$ 6,1 milhões em novo laboratório de 
 · entregue  C01 DI — A curva ABRIU: F28 +18 bps no dia · F29 +20 bps no dia · F30 +20 bps no dia (aju
 · entregue  C02 DI — Inclinação da curva DI: F35-F28 -26 bps em 5 pregões
 · entregue  C03 DI — DI em nível: F29 cruzou 12,50% (para cima, agora 12,64%) · F30 cruzou 12,50% (pa
@@ -114,4 +106,4 @@ Alertas do dia (todos, com status):
 · linha     T09 EWY — EWY -2,3% com volume 2,6x a mediana de 20 sessões, a US$ 156,22
 · linha     T12 KO — KO: 6 altas seguidas (+7,2% acumulado) a US$ 92,00
 · linha     F01 USDBRL — Real cai: USD/BRL 5,0873 (+1,2% contra o dólar global) (parcial, intradia)
-· (+186 notícias só manchete, em noticias.md)
+· (+191 notícias só manchete, em noticias.md)

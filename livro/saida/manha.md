@@ -1,10 +1,13 @@
 BLOCO A
 ```
-MANHÃ DO LIVRO · sex 16/10 · 08h33 BRT (curvas D-1)
-Relógios: Yahoo 08h33 · DI ajuste 15/10 · Tesouro
-  base 14/10 · UST CMT 15/10 · PTAX 15/10
+MANHÃ DO LIVRO · sex 16/10 · 08h38 BRT (curvas D-1)
+Relógios: Yahoo 08h38 · DI ajuste 15/10 · Tesouro
+  base 15/10 · UST CMT 15/10 · PTAX 15/10
 
-ALERTAS DO DIA (36 · 3 críticos)
+ALERTAS DO DIA (37 · 4 críticos)
+[CRÍTICO] C05 IPCA+ 2050 PU -5,5% em 5 datas-base ·
+          Pre 2032 ABRE 15 bps (PU -0,6%) (base
+          15/10)
 [CRÍTICO] C07 UST FECHOU: 30y cruzou 5,50% (15/10)
 [CRÍTICO] T05 DIRR3 -9,3% no dia a R$ 10,58:
           movimento de 3,2 desvios para uma vol de
@@ -12,6 +15,10 @@ ALERTAS DO DIA (36 · 3 críticos)
 [CRÍTICO] T08 MRVE3 entrou em queda de -30% do pico:
           -32% do pico de 52s (R$ 10,43 em 26/02) a
           R$ 7,12
+[ATENÇÃO] C06 Inflação implícita: implícita 2029 +22
+          bps na semana · implícita 2032 +218 bps
+          acima do Focus · implícita 2031/32
+          (descasado) +208 bps acima do Focus
 [ATENÇÃO] E05 BAC · Bank of America: The $1.2
           Billion Fine Changes My Rating, But The
           Upside Remains
@@ -21,13 +28,7 @@ ALERTAS DO DIA (36 · 3 críticos)
 [ATENÇÃO] E05 PETR4 · Petrobras bate recorde e chega
           a R$ 800 bilhões em valor de mercado;
           ações sobem até 110% em 2026
-[ATENÇÃO] S01 coleta do slot manha saiu incompleta:
-          tesouro: falha: HttpError: HTTP 502 em
-          https://www.tesourotransparente.gov.br/ckan/dataset/df56aa42-484a-4a
-[ATENÇÃO] E05 PETR4 · Petrobras anuncia investimento
-          de R$ 6,1 milhões em novo laboratório de
-          óleo e gás na UFU
-(+28 em alertas.md)
+(+29 em alertas.md)
 
 ALTAS  MELI34 +2,1% · MU +1,9% · IGV +1,8% · NOK
        +1,8% · WQTMUS +1,2%
@@ -59,13 +60,13 @@ DI (ajuste 15/10, Δ dia·sem bps) F28 12,89 (+18·+29)
     F29 12,64 (+20·+20) F30 12,66 (+20·+15) F32
     12,75 (+18·+6) F35 12,81 (+20·+3)
     ABRIU; F35-F28 -8 bps (+1)
-TD (base 14/10, Δ desde 13/10) Pre 2029 12,54 (+14)
-    · Pre 2031 12,62 (+19) · Pre 2032 12,72 (+21) ·
-    IPCA+ 2032 6,72 (+4) · IPCA+ 2035 6,74 (+5) ·
-    IPCA+ 2040 6,61 (+5) · IPCA+ 2050 6,62 (+5) ·
-    IPCA+ 2029 6,72 (+6)
-    Implícita 2029 5,45% · 2032 5,62% · 2031/32
-    (descasado) 5,53% vs Focus IPCA 2027 4,30%
+TD (base 15/10, Δ desde 14/10) Pre 2029 12,64 (+10)
+    · Pre 2031 12,76 (+14) · Pre 2032 12,87 (+15) ·
+    IPCA+ 2032 6,80 (+8) · IPCA+ 2035 6,84 (+10) ·
+    IPCA+ 2040 6,73 (+12) · IPCA+ 2050 6,74 (+12) ·
+    IPCA+ 2029 6,77 (+5)
+    Implícita 2029 5,50% · 2032 5,68% · 2031/32
+    (descasado) 5,58% vs Focus IPCA 2027 4,30%
 UST (CMT 15/10) 2y 4,77 (-5) · 10y 5,10 (-9) · 30y
     5,43 (-9) · 2s10s +33 (-4)
 Regime: VIX 16,5 (-2,4%) · score risco 1 de 5 ·
@@ -88,8 +89,7 @@ ter 27/10 resultado MMM (antes de NY, estimado)
 qua 28/10 resultado GOOGL (após NY, estimado)
 qua 28/10 resultado VALE3 (após B3, estimado)
 
-LACUNAS: tesouro: falha: HttpError: HTTP 502 em
-  https://www.tesourotransparente.gov.br/ckan/dataset/df56aa42-484a-4a.
+LACUNAS: nenhuma perna falhou.
 Fontes: Yahoo Finance · B3 Boletim Diário · Tesouro
   Transparente · Treasury.gov CMT · BCB
 ```

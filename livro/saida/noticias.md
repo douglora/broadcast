@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 16/10 08h33
+NOTÍCIAS E FATOS · 16/10 08h38
 
-Pernas: noticias ok 18 novas (18 consultas; descartadas: 482 veículo fora da lista, 26 sem ativo, 35 teto) · cvm ok 0 novos de 10 (8 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 5 novas (18 consultas; descartadas: 444 veículo fora da lista, 26 sem ativo, 0 teto) · cvm ok 0 novos de 10 (8 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (2)
 
@@ -98,7 +98,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: PETR4
 Como falar: 'saiu no g1: Petrobras anuncia investimento de R$ 6,1 milhões em novo laboratório de óleo e gás na UFU; confirmar o número no texto antes de repassar'
 Fonte: g1 15/10 18h58
-id: E05-PETR4-89407ae5cc-2026-10-15 · status: pendente
+id: E05-PETR4-89407ae5cc-2026-10-15 · status: expirado
 
 [ATENÇÃO] E05 · USDBRL · Fechamento câmbio: Dólar sobe 1,15% com expectativa por Datafolha e 'tarifa zero' de Lula
 UOL Economia · 15/10 17h54 · fonte única · licença: manchete
@@ -294,8 +294,13 @@ Fonte: Yahoo Finance 14/10 10h03
 id: E05-BAC-005e3f53ca-2026-10-14 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (170)
+## OUTRAS NOTÍCIAS (só manchete) (175)
 
+· BTC Bitcoin and ethereum prices today, Friday, October 16, 2026: Bitcoin, ethereum prices firm despite two strong inflation reports (Yahoo Finance) https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-friday-october-16-2026-bitcoin-ethereum-prices-firm-despite-two-strong-inflation-reports-113928147.html
+· KLBN4 Momento B3: Brava Energia, Eneva, Klabin, Mitre e os principais destaques desta sexta-feira (16) (ADVFN) https://br.advfn.com/jornal/2026/10/momento-b3-brava-energia-eneva-klabin-mitre-e-os-principais-destaques-desta-sexta-feira-16
+· UST US Dollar and Treasury Yields Reverse Lower Despite Hot Inflation Data (Investing.com) https://www.investing.com/analysis/us-dollar-and-treasury-yields-reverse-lower-despite-hot-inflation-data-200689696
+· GOOGL GOOGL, GOOG Investors Have Opportunity to Lead Alphabet Inc. Securities Fraud Lawsuit (PR Newswire) https://www.prnewswire.com/news-releases/googl-goog-investors-have-opportunity-to-lead-alphabet-inc-securities-fraud-lawsuit-302910397.html
+· MRVL Should You Buy The Dip In Marvell Stock? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/buy-dip-marvell-stock-181101936.html
 · ITUB4 Brava, Eneva, Itaú, Mitre, Lavvi e mais ações para acompanhar hoje (InfoMoney) https://www.infomoney.com.br/mercados/brava-eneva-itau-mitre-lavvi-e-mais-acoes-para-acompanhar-hoje/
 · TSLA Tesla Roadster probably won't drive an earnings beat, but the big unveil did achieve 2 things (Yahoo Finance) https://finance.yahoo.com/markets/stocks/article/tesla-roadster-probably-wont-drive-an-earnings-beat-but-the-big-unveil-did-achieve-2-things-111723421.html
 · BTC Strategy Stock Sinks as Index Exclusion May Outweigh Bitcoin Prices (Barron's) https://www.barrons.com/articles/strategy-stock-mcsi-index-exclusion-bitcoin-price-8602a511
@@ -351,9 +356,4 @@ id: E05-BAC-005e3f53ca-2026-10-14 · status: linha
 · JPM Price to earnings forward of JPMorgan India Growth & Income PLC GBP – HAN:3J8 (TradingView (Reuters)) https://www.tradingview.com/symbols/HAN-3J8/financials-statistics-and-ratios/price-earnings-fwd/
 · BAC QUICK SPARK: Bank of America's Bond Losses Swell to $109 Billion (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:3af1f510c094b:0-quick-spark-bank-of-america-s-bond-losses-swell-to-109-billion/
 · DI Juros futuros têm forte alta com melhora de Lula na Quaest e aprovação do fim da escala 6x1 (Valor Economico) https://valor.globo.com/google/amp/financas/noticia/2026/10/15/juros-futuros-tem-forte-alta-com-melhora-de-lula-na-quaest-e-aprovacao-do-fim-da-escala-6x1.ghtml
-· USDBRL Dólar opera em alta e vai a R$ 5,07, com foco em inflação americana e pesquisas eleitorais; Ibovespa cai (g1) https://news.google.com/rss/articles/CBMieEFVX3lxTE4wdzM1eXFkWklOMHpSbFQwbGJRYms2MWZyOTNaWDZCdkhZVnVJdkhqQ3BVWUJVbnJMaWZTbDFJSmxXTU1aZTdpLVZ2dFBjektxNDB6eEZDdHMxbEFvNHV4OHI2bWpXc0NDZjZXV3I2dHhHZmF0NnBCWNIBhwFBVV95cUxQTzZBYXUwcnJWVXRONkI1LTFqUnl3RjR1ZVZURTl1SFh3NU9GTnJlS0JpcE52d29Bd1ZOWEhuZGNBWFRVODhDS0M5WHp4LTN0MDJLaE93U3pMWWN4OXd5SnpPQ1gxbjB4bXotSnpvLWdPWjNMSkxKdlA0eEEzNmtkTm5xS0lxZXM?oc=5
-· TSLA Tesla plans next-generation Roadster reveal after almost a decade of delays (CNBC) https://www.cnbc.com/2026/10/15/tesla-roadster-reveal-what-to-know-about-the-delayed-ev.html
-· NVDA Nvidia’s European spending spree is about much more than Europe (Fortune) https://fortune.com/2026/10/15/nvidias-european-spending-spree-is-about-much-more-than-europe/
-· TSM TSMC’s Record Earnings Show AI Demand Is Outrunning Rate Concerns (Investing.com) https://www.investing.com/analysis/tsmcs-record-earnings-show-ai-demand-is-outrunning-rate-concerns-200689670
-· NVDA Rate Pressure vs. AI Demand: Rising Treasury Yields Trigger Nvidia, AMD Slump (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:28404acf3094b:0-rate-pressure-vs-ai-demand-rising-treasury-yields-trigger-nvidia-amd-slump/
-· (+110 manchetes; lista completa em eventos/noticias.json)
+· (+115 manchetes; lista completa em eventos/noticias.json)
