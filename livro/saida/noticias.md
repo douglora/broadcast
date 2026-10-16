@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 16/10 16h21
+NOTÍCIAS E FATOS · 16/10 17h22
 
-Pernas: noticias ok 6 novas (18 consultas; descartadas: 469 veículo fora da lista, 34 sem ativo, 0 teto) · cvm ok 0 novos de 11 (9 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 11 novas (18 consultas; descartadas: 466 veículo fora da lista, 31 sem ativo, 2 teto) · cvm ok 0 novos de 11 (9 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (1)
 
@@ -14,7 +14,18 @@ Fonte: CVM 16/10
 id: E03-VALE3-1577682-2026-10-16 · status: linha
 
 
-## NOTÍCIAS COM MATERIALIDADE (4)
+## NOTÍCIAS COM MATERIALIDADE (5)
+
+[ATENÇÃO] E05 · MMM · Market Chatter: 3M Company to Challenge Australia's $1.4 Billion PFAS Contamination Lawsuit
+Yahoo Finance · 16/10 04h41 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – 3M (MMM) plans to challenge the legal basis of Australia's lawsuit seeking more than A$2 billion ($1  Upgrade to read this MT Newswires article and get so much more.
+Link: https://finance.yahoo.com/markets/stocks/articles/market-chatter-3m-company-challenge-074117207.html
+Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e prazo
+Ativos: MMM
+Como falar: 'saiu no Yahoo Finance: Market Chatter: 3M Company to Challenge Australia's $1.4 Billion PFAS Contamination Lawsu…; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 16/10 04h41
+id: E05-MMM-4fe8b6db32-2026-10-16 · status: pendente
 
 [ATENÇÃO] E05 · TSM · TSMC's Record Q3 Earnings & Upbeat Outlook Put These ETFs in Focus
 Yahoo Finance · 16/10 11h00 · fonte única · licença: resumo
@@ -67,8 +78,18 @@ Fonte: g1 15/10 16h31
 id: E05-PETR4-a305718dd1-2026-10-15 · status: entregue
 
 
-## OUTRAS NOTÍCIAS (só manchete) (104)
+## OUTRAS NOTÍCIAS (só manchete) (114)
 
+· USDBRL Dólar fecha semana em leve queda, cotado a R$ 5,07; Bolsa sobe (UOL Economia) https://economia.uol.com.br/cotacoes/noticias/redacao/2026/10/16/fechamento-dolar-bolsa-hoje-16-de-outubro-de-2026.ghtm
+· USDBRL Dólar à vista fecha em baixa de 0,30%, a R$5,0730 na venda Por Reuters (Investing.com) https://br.investing.com/news/forex-news/dolar-a-vista-fecha-em-baixa-de-030-a-r50730-na-venda-2094275
+· USDBRL Dólar interrompe sequência de ganhos e cai a R$ 5,07 com cautela eleitoral; moeda tem valorização de 1,7% na semana (Money Times) https://www.moneytimes.com.br/dolar-16-10-26-lils/
+· BRENT Brent Oil Taps $110 for First Time Since May as Risks Swirl (Bloomberg) https://www.bloomberg.com/news/articles/2026-10-16/oil-tops-110-for-first-time-since-may-as-supply-risk-grows
+· TSLA Tesla Stocks Rise Although Roadster Reveal Leaves Pricing and Volume Unset (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:55cfac489094b:0-tesla-stocks-rise-although-roadster-reveal-leaves-pricing-and-volume-unset/
+· GOOGL Evercore raises Alphabet estimates on potential TPU hardware sales (TradingView (Reuters)) https://www.tradingview.com/news/seekingalpha:554b9cca8094b:0-evercore-raises-alphabet-estimates-on-potential-tpu-hardware-sales/
+· GOOGL Alphabet Stocks Fall Although AI-Chip Forecast Signals a Bigger Cloud Business (Yahoo Finance) https://finance.yahoo.com/technology/articles/alphabet-stocks-fall-although-ai-171338942.html
+· GOOGL Jack Henry to integrate with Google Cloud Universal Ledger By Investing.com (Investing.com) https://ng.investing.com/news/stock-market-news/jack-henry-to-integrate-with-google-cloud-universal-ledger-93CH-2740927
+· ETH Ethereum Price Prediction: Rally Poised to Resume as ETH Finds Strong Floor at $2.4K (Yahoo Finance) https://ca.finance.yahoo.com/news/ethereum-price-prediction-rally-poised-140337594.html
+· LITE Earnings Preview: What to Expect From Lumentum’s Report (Yahoo Finance) https://news.google.com/rss/articles/CBMipwFBVV95cUxOY1gxenNVSDJKMEpnbm5LVWhpOXM3ODBWQ3FXcTdwdC1KR0dSSm91MjAwYmFQQjREVXN2Q05sMXNLTWJ1VUpVMGNqb3BfUDAtUzEyZkJCbTRmbURKbUVhNW5yN1o2SHBJMkxsNDhVUV9oR1BJUG9vRU9ZdUFrMy10RVVYMHVFWGhiV25DaEpERGRscUlyRFFMVV81Q0tFTFJFMS1KZVhPMA?oc=5
 · JPM JPMorgan Chase: Leverage A Concern To Future Earnings (Downgrade To Hold) (NYSE:JPM) (Seeking Alpha) https://seekingalpha.com/article/4954874-jpmorgan-chase-leverage-a-concern-to-future-earnings-downgrade-to-hold
 · NVDA Jensen Huang's Nvidia Lost $200 Billion in Value After OpenAI's Revenue Run Rate Came Up $18 Billion Below Expectations. Is This AI-Jitters Sell-Off… (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/jensen-huangs-nvidia-lost-200-185100224.html
 · NVDA Nvidia (NVDA): Can Paid Software Make Its Earnings Less Dependent on Hardware Sales? (Yahoo Finance) https://finance.yahoo.com/technology/articles/nvidia-nvda-paid-software-earnings-182924722.html
@@ -119,14 +140,4 @@ id: E05-PETR4-a305718dd1-2026-10-15 · status: entregue
 · JPM JPMorgan Chase CEO Jamie Dimon Warns That Inflation, Rising Asset Prices, and More "Continue to Shift Under the Surface." (Yahoo Finance) https://finance.yahoo.com/economy/articles/jpmorgan-chase-ceo-jamie-dimon-144300507.html
 · JPM Magalu vai à Shopee para crescer, mas JPMorgan não muda visão cautelosa para ação (InfoMoney) https://www.infomoney.com.br/mercados/magalu-vai-a-shopee-para-crescer-mas-jpmorgan-nao-muda-visao-cautelosa-para-acao/
 · MU Micron Stock’s Drop Triggers ‘Buy the Dip’ Calls. No One’s Listening. (Barron's) https://www.barrons.com/articles/micron-stock-price-drop-buy-ad2ff6d2
-· META Meta Platforms (META): Distribution Reach and Muse AI Catalyst Bridge the Capex Return Gap (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/meta-platforms-meta-distribution-reach-133547186.html
-· AMD AMD’s Price Action Around $600 is Telling Investors Something Specific (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/amd-price-action-around-600-111529572.html
-· NVDA Taiwan Is Planning $4 Billion Industrial Parks in Texas for Nvidia’s Suppliers (Yahoo Finance) https://finance.yahoo.com/technology/articles/taiwan-planning-4-billion-industrial-110001272.html
-· NVDA Taiwan Semiconductor Holds the Cards As NVIDIA, Apple and AMD Battle for Limited AI Chip Capacity (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:7296c689c094b:0
-· TSLA Tesla Stock May Share Even More Bad Earnings News Next Week (NASDAQ:TSLA) (Seeking Alpha) https://seekingalpha.com/article/4954765-tesla-may-share-even-more-bad-earnings-news-next-week
-· UST U.S. Treasury yields rise as traders wrap up volatile week (CNBC) https://www.cnbc.com/2026/10/16/us-treasury-yields-investors-hot-inflation-data-.html
-· ITUB4 O Itaú (ITUB4) quer mais energia: bancão injeta mais R$ 1,77 bilhão em subsidiária da Eneva (ENEV3) (Seu Dinheiro) https://www.seudinheiro.com/2026/empresas/o-itau-itub4-quer-mais-energia-bancao-injeta-mais-r-177-bilhao-em-subsidiaria-da-eneva-enev3-miql/
-· TSLA Could Tesla’s flying car send sales and shares soaring? (Yahoo Finance) https://uk.finance.yahoo.com/news/could-tesla-flying-car-send-140448718.html
-· PETR4 Ibovespa reage com Petrobras e bancos após três quedas seguidas; dólar cai (Exame) https://exame.com/invest/mercados/ibovespa-reage-com-petrobras-e-bancos-apos-tres-quedas-seguidas-dolar-cai/
-· ETH How Ethereum Works: Gas, Smart Contracts & Finality (The Block) https://www.theblock.co/learn/ethereum/how-ethereum-works-418525
-· (+44 manchetes; lista completa em eventos/noticias.json)
+· (+54 manchetes; lista completa em eventos/noticias.json)
