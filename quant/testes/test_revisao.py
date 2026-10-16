@@ -11,13 +11,17 @@ from quant.pesquisa import revisao as rv
 
 BRT = timezone(timedelta(hours=-3))
 DIA = "2026-10-14"
+_SONO_DO_MAC = rv.sono_do_mac
 
 
 @pytest.fixture(autouse=True)
-def _sem_regras_de_laboratorio(monkeypatch):
-    """O registro de verdade (quant/pesquisa/setups.json) tem regra do mini-indice: sem isto a revisao pediria barras ao MetaTrader."""
-    from quant.daytrade import regras_lab
-    monkeypatch.setattr(regras_lab, "ler_registro", lambda *a, **k: [])
+def _sem_metatrader_nem_pmset(monkeypatch):
+    """Teste nunca pede barras ao MetaTrader de verdade (o pedido vai para a pasta dele, com o pregao aberto) nem le o registro de
+    sono DESTE Mac: quem testa o sono passa o texto do pmset."""
+    def _sem_servidor(*a, **k):
+        raise RuntimeError("teste: sem MetaTrader")
+    monkeypatch.setattr(rv, "barras_do_servidor", _sem_servidor)
+    monkeypatch.setattr(rv, "sono_do_mac", lambda dia, texto=None: [] if texto is None else _SONO_DO_MAC(dia, texto))
 
 
 def _barras(inicio="09:00", fim="18:29", preco=5050.0, caminho=None, dia=DIA):
@@ -61,7 +65,7 @@ def _pregao(tmp_path, dia=DIA, tipo_do_dia="cpi", resultado=-154.8, sinais_extra
                "opera": True, "hora": "09:48:00", "quando": f"{dia}T09:48:00-03:00"}, *sinais_extra]
     (pasta / dia / "sinais_niveis.jsonl").write_text("\n".join(json.dumps(x) for x in linhas) + "\n")
     # o robo montou barras so ate 11h50 (cego depois)
-    robo = _barras("09:00", "11:50", dia=dia)
+    robo = _barras("09:00", "11:50")
     with open(pasta / "m1_WDOFUT.csv", "a") as f:
         for t, x in robo.iterrows():
             f.write(f"{t:%Y-%m-%d %H:%M:%S};{x.o};{x.h};{x.l};{x.c};{x.v}\n")
@@ -127,7 +131,7 @@ def test_contexto_do_dado_separa_faixa_sem_vantagem():
 def test_revisao_do_pregao_de_14_10_ponta_a_ponta(tmp_path, monkeypatch):
     pasta = _pregao(tmp_path)
     monkeypatch.setattr(rv, "ranking_historico_das_saidas", lambda: {"base": 100.0, "tempo 60": 42.0, "tempo 90": 84.0})
-    rev = rv.revisar(DIA, pasta=str(pasta), servidor=_servidor(), dist=_dist(), consertos=[], dormindo=[])
+    rev = rv.revisar(DIA, pasta=str(pasta), servidor=_servidor(), dist=_dist(), consertos=[])
     chaves = [x["chave"] for x in rev["itens"]]
     assert "b:metatrader:reaberturas" in chaves and "b:metatrader:cego" in chaves
     cego = next(x for x in rev["itens"] if x["chave"] == "b:metatrader:cego")
@@ -163,13 +167,14 @@ def test_padrao_repetido_abre_item_na_fila_e_falha_repetida_vira_manchete(tmp_pa
     kw = dict(arq_caderno=str(tmp_path / "rev" / "caderno.jsonl"), arq_fila=str(fila), dir_rev=str(tmp_path / "rev"), telas=[], consertos=[])
     for dia in ("2026-10-14", "2026-10-15"):
         pasta = _pregao(tmp_path, dia=dia, tipo_do_dia="nenhum")
-        g = rv.gravar(rv.revisar(dia, pasta=str(pasta), servidor=_servidor(dia), dist=_dist(), consertos=[], dormindo=[]), **kw)
+        g = rv.gravar(rv.revisar(dia, pasta=str(pasta), servidor=_servidor(dia), dist=_dist(), consertos=[]), **kw)
     texto = fila.read_text()
     assert texto.count("[revisao: c:reversão do dado:tipo_do_dia=nenhum]") == 1 and "27. [revisao:" in texto
     assert texto.index("[revisao:") < texto.index("## Testadas")
     assert g["manchete"].startswith("FALHA REPETIDA") and "b:metatrader:cego" in g["caderno"]["falhas_repetidas"]
+    assert "b:metatrader:reaberturas" not in g["caderno"]["falhas_repetidas"]   # rajada da XP e de fora: nao e conserto que falhou
     # rodar de novo no mesmo dia nao duplica nada
-    rv.gravar(rv.revisar("2026-10-15", pasta=str(pasta), servidor=_servidor("2026-10-15"), dist=_dist(), consertos=[], dormindo=[]), **kw)
+    rv.gravar(rv.revisar("2026-10-15", pasta=str(pasta), servidor=_servidor("2026-10-15"), dist=_dist(), consertos=[]), **kw)
     assert fila.read_text().count("[revisao:") == texto.count("[revisao:")
 
 
@@ -249,50 +254,164 @@ def test_rotina_da_noite_roda_a_revisao_antes_do_protocolo(tmp_path, monkeypatch
     assert "Revisao do pregao" in texto and "percentil 33" in texto and "Conserto: o robô insiste" in texto
 
 
-PMSET = """2026-10-15 08:50:23 -0300 Sleep               \tEntering Sleep state due to 'Sleep Service Back to Sleep':TCPKeepAlive=active Using Batt
-2026-10-15 09:23:50 -0300 DarkWake            \tDarkWake from Deep Idle [CDNP] : due to smc.sysState.Wake wifibt
-2026-10-15 09:24:18 -0300 Wake                \tWake from Deep Idle [CDNVA] : due to smc.sysState.Wake lid
-2026-10-15 11:15:54 -0300 Sleep               \tEntering Sleep state due to 'Clamshell Sleep':TCPKeepAlive=active Using Batt (Charge:54%)
-2026-10-15 11:16:28 -0300 DarkWake            \tDarkWake from Deep Idle [CDNP] : due to smc.sysState.Wake wifibt
-2026-10-15 11:47:16 -0300 Sleep               \tEntering Sleep state due to 'Sleep Service Back to Sleep':TCPKeepAlive=active
-2026-10-15 13:40:08 -0300 Wake                \tWake from Deep Idle [CDNVA] : due to lid
+# ── varredura de 15/10/2026 ───────────────────────────────────────────────────
+# o registro de energia do macOS na manha de 15/10/2026 (linhas reais, encurtadas): dormiu as 8h00 na bateria, so DarkWakes de
+# manutencao, e acordou de verdade as 9h24 com a tampa aberta
+PMSET_1510 = """2026-10-15 08:00:15 -0300 DarkWake            \tDarkWake from Deep Idle [CDNP] : due to rtc/Maintenance Using BATT (Charge:100%) 5 secs
+2026-10-15 08:00:20 -0300 Sleep               \tEntering Sleep state due to 'Maintenance Sleep':TCPKeepAlive=active Using Batt (Charge:100%) 1056 secs
+2026-10-15 08:00:22 -0300 Wake Requests       \t[*process=dasd request=SleepService deltaSecs=1054 wakeAt=2026-10-15 08:17:56]
+2026-10-15 09:00:00 -0300 DarkWake            \tDarkWake from Deep Idle [CDNP] : due to rtc/Maintenance Using BATT (Charge:100%) 5 secs
+2026-10-15 09:00:05 -0300 Sleep               \tEntering Sleep state due to 'Maintenance Sleep':TCPKeepAlive=active Using Batt (Charge:100%) 70 secs
+2026-10-15 09:18:11 -0300 DarkWake            \tDarkWake from Deep Idle [CDNP] : due to rtc/SleepService Using BATT (Charge:100%) 2 secs
+2026-10-15 09:18:13 -0300 Sleep               \tEntering Sleep state due to 'Sleep Service Back to Sleep' Using Batt (Charge:100%) 337 secs
+2026-10-15 09:24:18 -0300 Wake                \tWake from Deep Idle [CDNVA] : due to smc.sysState.Wake lid SMC.OutboxNotEmpty Using BATT (Charge:100%)
+2026-10-15 18:40:00 -0300 Sleep               \tEntering Sleep state due to 'Clamshell Sleep' Using AC (Charge:100%) 60 secs
 """
 
 
-def test_mac_dormindo_pelo_registro_de_energia_do_macos():
-    # 15/10/2026: o robo "ficou cego" das 11h15 as 13h40, mas era o Mac dormindo com a tampa fechada (os DarkWake nao acordam o robo)
-    d = rv.mac_dormindo("2026-10-15", PMSET)
-    assert d == [("08:50", "09:24", "voltou a dormir"), ("11:15", "13:40", "tampa fechada")]
-    assert rv.cego_com_o_mac_dormindo("11:15", "13:40", d) == "tampa fechada"
-    assert rv.cego_com_o_mac_dormindo("09:00", "09:24", d) == "voltou a dormir"
-    assert rv.cego_com_o_mac_dormindo("15:55", "18:19", d) is None             # acordado: e cegueira de verdade
-    assert rv.mac_dormindo("2026-10-14", PMSET) == []
+def _pregao_1510(tmp_path, cegueira, negocios_win=False, sinais_win=False, labs_rodando=None, vespera=None, sinais=()):
+    """15/10: o robo so montou barras do mini-dolar a partir das 9h25 (antes o Mac dormia), sem negocio do dolar."""
+    dia = "2026-10-15"
+    pasta = tmp_path / "dt"
+    (pasta / dia).mkdir(parents=True, exist_ok=True)
+    est = {"operacoes": [], "diario": [], "curva": [["09:25", 0.0]], "cegueira": cegueira}
+    if labs_rodando is not None:
+        est["labs_rodando"] = labs_rodando
+    if vespera is not None:
+        est["vespera"] = vespera
+    linhas = list(sinais)
+    if negocios_win:      # o mini-indice da regra do laboratorio: comprou 1 a 209.105 as 17h41 e saiu por tempo as 18h06 a 209.400
+        est["operacoes"].append({"tipo": "saida", "ativo": "WINFUT", "lado": "C", "contratos": 1, "entrada": 209105.0, "hora_entrada": "17:41:03",
+                                 "saida": 209400.0, "hora_saida": "18:06:03", "motivo": "tempo esgotado", "pontos": 295.0, "custos": 0.6,
+                                 "tecnica": "fim do pregão (teste)", "nome_nivel": "fim do pregão (teste)", "resultado": 58.4})
+    if sinais_win:
+        linhas += [{"tipo": "sinal", "ativo": "WINFUT", "tecnica": "fim do pregão (teste)", "lado": "C", "entrada": 209105.0, "stop_pts": 500.0,
+                    "tempo_max_s": 1500.0, "opera": True, "bloqueio": None, "hora": "17:41:03", "quando": f"{dia}T17:41:03-03:00", "medidas": {"dose": 1}},
+                   {"tipo": "entrada", "ativo": "WINFUT", "tecnica": "fim do pregão (teste)", "lado": "C", "contratos": 1, "entrada": 209105.0, "hora": "17:41:03"}]
+    (pasta / dia / "estado_niveis.json").write_text(json.dumps(est))
+    (pasta / dia / "sinais_niveis.jsonl").write_text("".join(json.dumps(x) + "\n" for x in linhas))
+    with open(pasta / "m1_WDOFUT.csv", "w") as f:
+        for t, x in _barras("09:25", "18:19", dia=dia).iterrows():
+            f.write(f"{t:%Y-%m-%d %H:%M:%S};{x.o};{x.h};{x.l};{x.c};{x.v}\n")
+    with open(pasta / "m1_WINFUT.csv", "w") as f:
+        for t, x in _barras("09:00", "18:19", preco=209200.0, dia=dia).iterrows():
+            f.write(f"{t:%Y-%m-%d %H:%M:%S};{x.c};{x.c + 250};{x.c - 150};{x.c};0.0\n")
+    return pasta, dia
 
 
-def test_cegueira_com_o_mac_dormindo_nao_e_conserto_que_falhou(tmp_path, monkeypatch):
-    monkeypatch.setattr(rv, "ranking_historico_das_saidas", lambda: {"base": 100.0, "tempo 60": 42.0})
-    fila = tmp_path / "FILA.md"
-    fila.write_text("# Fila\n\n## A testar\n\n6. item\n\n## Testadas\n")
-    kw = dict(arq_caderno=str(tmp_path / "rev" / "caderno.jsonl"), arq_fila=str(fila), dir_rev=str(tmp_path / "rev"), telas=[], consertos=[])
-    for dia in ("2026-10-14", "2026-10-15"):
-        pasta = _pregao(tmp_path, dia=dia)
-        rev = rv.revisar(dia, pasta=str(pasta), servidor=_servidor(dia), dist=_dist(), consertos=[], dormindo=[("11:40", "18:29", "tampa fechada")])
-        g = rv.gravar(rev, **kw)
-    chaves = [x["chave"] for x in g["itens"]]
-    assert "b:mac:dormindo" in chaves and "b:metatrader:cego" not in chaves
-    mac = next(x for x in g["itens"] if x["chave"] == "b:mac:dormindo")
-    assert "tampa fechada" in mac["texto"] and "tomada" in mac["acao"]
-    assert "b:mac:dormindo" not in g["caderno"]["falhas_repetidas"] and "b:metatrader:reaberturas" not in g["caderno"]["falhas_repetidas"]
-    assert "DE NOVO: o Mac dormiu" in g["manchete"]                          # de fora: nao e "o conserto nao resolveu"
-    assert "com o Mac dormindo" in g["manchete"]
+REG_WIN = [{"nome": "win_teste", "titulo": "fim do pregão (teste)", "arquivo": "x.py", "ativo": "WINFUT", "estado": "opera",
+            "janela": ["17:30", "18:10"], "saida": {"stop": 500, "tempo": 25}, "contratos": 1}]
+
+
+def test_sono_do_mac_pelo_registro_de_energia():
+    assert rv.sono_do_mac("2026-10-15", PMSET_1510) == [("08:00", "09:24"), ("18:40", "23:59")]   # o DarkWake nao acorda
+    assert rv.sono_do_mac("2026-10-14", PMSET_1510) == []
+    assert rv.fracao_dormindo("09:00", "09:24", [("08:00", "09:24")]) == 1.0
+    assert rv.fracao_dormindo("11:51", "18:19", [("08:00", "09:24")]) == 0.0
+    assert rv.sono_do_mac("2026-10-15", "") == []
+
+
+def test_mac_dormindo_vira_item_proprio_e_nao_falha_repetida_do_metatrader(tmp_path, monkeypatch):
+    """Achado 42: o robo de 15/10 ainda grava a cegueira com 3 campos; a revisao reconhece o sono pelo pmset e nao acusa o MetaTrader."""
+    pasta, dia = _pregao_1510(tmp_path, cegueira=[["09:00", "09:24", 24]])
+    sono = rv.sono_do_mac(dia, PMSET_1510)
+    rev = rv.revisar(dia, pasta=str(pasta), servidor=_servidor(dia), dist=_dist(), consertos=[], sono=sono, registro=[])
+    chaves = [x["chave"] for x in rev["itens"]]
+    assert "b:mac:dormiu" in chaves and "b:metatrader:cego" not in chaves
+    item = next(x for x in rev["itens"] if x["chave"] == "b:mac:dormiu")
+    assert item["inicio"] == "09:00" and "Mac estava dormindo" in item["texto"] and "tomada" in item["acao"]
+    caderno = tmp_path / "rev" / "caderno.jsonl"
+    caderno.parent.mkdir()
+    caderno.write_text(json.dumps({"dia": "2026-10-14", "categoria": "b", "chave": "b:metatrader:cego", "texto": "cego"}) + "\n"
+                       + json.dumps({"dia": "2026-10-14", "categoria": "b", "chave": "b:mac:dormiu", "texto": "dormiu"}) + "\n")
+    g = rv.gravar(rev, ensaio=True, arq_caderno=str(caderno), dir_rev=str(tmp_path / "rev"), telas=[], consertos=[])
+    assert not g["manchete"].startswith("FALHA REPETIDA") and "Mac dormindo 2" in g["manchete"]
+    # o robo novo ja anota o motivo: vale mesmo sem o pmset
+    pasta, dia = _pregao_1510(tmp_path / "b", cegueira=[["09:00", "09:24", 24, "mac_dormindo"]])
+    rev = rv.revisar(dia, pasta=str(pasta), servidor=_servidor(dia), dist=_dist(), consertos=[], sono=[], registro=[])
+    assert [x["chave"] for x in rev["itens"] if x["chave"].startswith("b:")] == ["b:mac:dormiu"]
+    # sem sono, a mesma cegueira continua sendo do MetaTrader
+    pasta, dia = _pregao_1510(tmp_path / "c", cegueira=[["09:00", "09:24", 24]])
+    rev = rv.revisar(dia, pasta=str(pasta), servidor=_servidor(dia), dist=_dist(), consertos=[], sono=[], registro=[])
+    assert "b:metatrader:cego" in [x["chave"] for x in rev["itens"]]
+
+
+def test_regra_do_mini_indice_fora_do_robo_nao_e_cegueira(tmp_path, monkeypatch):
+    """Achado 10: a revisao de 14/10 disse que a regra do mini-indice 'nao rodou porque o robo estava cego' e que o conserto do
+    MetaTrader cobria; ela nunca rodaria, o robo nao percorria o contrato dela."""
+    cego = [["11:51", "18:19", 388]]
+    pasta, dia = _pregao_1510(tmp_path, cegueira=cego)
+    rev = rv.revisar(dia, pasta=str(pasta), servidor=_servidor(dia), dist=_dist(), consertos=[], sono=[], registro=REG_WIN,
+                     ativos_robo=("WDOFUT",))
+    fora = [x for x in rev["itens"] if x["chave"] == "b:lab:fora_do_robo:win_teste"]
+    assert len(fora) == 1 and "não rodou" in fora[0]["texto"] and "WINFUT" in fora[0]["texto"] and "15/10/2026" in fora[0]["acao"]
+    assert not any(x["chave"].startswith("b:cego:") for x in rev["itens"])
+    # robo novo (grava labs_rodando) e a regra deu sinal e entrou: nada de "fora do robo" nem de "perdida por cegueira"
+    pasta, dia = _pregao_1510(tmp_path / "b", cegueira=cego, negocios_win=True, sinais_win=True, labs_rodando={"win_teste": "WINFUT"})
+    rev = rv.revisar(dia, pasta=str(pasta), servidor=_servidor(dia), dist=_dist(), consertos=[], sono=[], registro=REG_WIN,
+                     ativos_robo=("WDOFUT",))
+    chaves = [x["chave"] for x in rev["itens"]]
+    assert not any(c.startswith(("b:lab:fora_do_robo", "b:cego:")) for c in chaves)
+    # o negocio do mini-indice e conferido nas barras do mini-indice (antes: nas do mini-dolar, e a saida "ficava fora da barra")
+    assert "b:execucao:saida_fora_da_barra" not in chaves
+    regra = next(x for x in rev["por_regra"] if x["tecnica"] == "fim do pregão (teste)")
+    assert regra["operados"] == 1 and regra["por_motivo"] == {"entrou": 1}
+    # robo novo que rodou a regra, ficou cego na janela e ela nao deu sinal: ai sim e perdida por cegueira
+    pasta, dia = _pregao_1510(tmp_path / "c", cegueira=cego, labs_rodando={"win_teste": "WINFUT"})
+    rev = rv.revisar(dia, pasta=str(pasta), servidor=_servidor(dia), dist=_dist(), consertos=[], sono=[], registro=REG_WIN)
+    assert [x["chave"] for x in rev["itens"] if x["chave"].startswith(("b:cego:", "b:lab:"))] == ["b:cego:win_teste"]
+
+
+# ── revisao de 15/10/2026 (problemas apontados pelo revisor no conserto dos achados 10 e 44) ──
+def _sinal_win(hora, bloqueio):
+    return {"tipo": "sinal", "ativo": "WINFUT", "tecnica": "fim do pregão (teste)", "lado": "C", "entrada": 209105.0, "stop_pts": 500.0,
+            "tempo_max_s": 1500.0, "opera": False, "bloqueio": bloqueio, "hora": hora, "quando": f"2026-10-15T{hora}-03:00", "medidas": {"dose": 1}}
+
+
+def test_barra_atrasada_da_regra_que_opera_vira_item_do_caderno(tmp_path):
+    """A regra que opera e ficou so medida porque a barra do motor chegou atrasada e falha de execucao: antes ia so para por_motivo, com uma
+    chave por minuto ('barra das 17:39 chegou atrasada', 'barra das 17:40 ...'), e nao virava item do caderno."""
+    sinais = [_sinal_win("17:41:03", "barra das 17:39 chegou atrasada"), _sinal_win("17:42:03", "barra das 17:40 chegou atrasada")]
+    pasta, dia = _pregao_1510(tmp_path, cegueira=[], labs_rodando={"win_teste": "WINFUT"}, vespera={"WINFUT": None}, sinais=sinais)
+    rev = rv.revisar(dia, pasta=str(pasta), servidor=_servidor(dia), dist=_dist(), consertos=[], sono=[], registro=REG_WIN)
+    item = [x for x in rev["itens"] if x["chave"] == "b:sinal:barra atrasada"]
+    assert len(item) == 1 and "2 sinal(is) de fim do pregão (teste) (17:41, 17:42)" in item[0]["texto"]
+    assert "barra das 17:39 chegou atrasada; barra das 17:40 chegou atrasada" in item[0]["texto"] and "motor" in item[0]["acao"]
+    regra = next(x for x in rev["por_regra"] if x["tecnica"] == "fim do pregão (teste)")
+    assert regra["por_motivo"] == {"barra atrasada": 2}
+    assert not any(x["chave"].startswith("b:lab:vespera") for x in rev["itens"])
+
+
+def test_vespera_incompleta_do_mini_indice_vira_item_da_regra(tmp_path):
+    """A regra do mini-indice decide pela ultima barra do pregao anterior. Com a vespera cortada (15h54) ela decide as 15h23, fora da janela,
+    e nao da sinal: a revisao nao acusava nada, porque labs_rodando dizia que a regra rodou. Agora o robo grava a vespera e a revisao acusa."""
+    falha = "as barras de 14/10 terminam às 15:54, e o pregão termina às 18:24"
+    pasta, dia = _pregao_1510(tmp_path, cegueira=[], labs_rodando={"win_teste": "WINFUT"}, vespera={"WINFUT": falha})
+    rev = rv.revisar(dia, pasta=str(pasta), servidor=_servidor(dia), dist=_dist(), consertos=[], sono=[], registro=REG_WIN)
+    item = [x for x in rev["itens"] if x["chave"] == "b:lab:vespera:win_teste"]
+    assert len(item) == 1 and falha in item[0]["texto"] and "não deu sinal no minuto da pesquisa" in item[0]["texto"]
+    assert "MetaTrader" in item[0]["acao"]
+    # com o sinal so medido pela vespera: o mesmo item (da regra), e o sinal conta pelo motivo, sem item duplicado
+    sinais = [_sinal_win("17:40:03", "véspera incompleta: " + falha)]
+    pasta, dia = _pregao_1510(tmp_path / "b", cegueira=[], labs_rodando={"win_teste": "WINFUT"}, vespera={"WINFUT": falha}, sinais=sinais)
+    rev = rv.revisar(dia, pasta=str(pasta), servidor=_servidor(dia), dist=_dist(), consertos=[], sono=[], registro=REG_WIN)
+    assert [x["chave"] for x in rev["itens"] if x["chave"].startswith(("b:lab:", "b:sinal:"))] == ["b:lab:vespera:win_teste"]
+    assert "o sinal de hoje ficou só medido" in rev["itens"][-1]["texto"]
+    assert next(x for x in rev["por_regra"] if x["tecnica"] == "fim do pregão (teste)")["por_motivo"] == {"véspera incompleta": 1}
+    # vespera boa, ou estado antigo sem o campo: nada
+    for vesp in ({"WINFUT": None}, None):
+        pasta, dia = _pregao_1510(tmp_path / f"c{vesp is None}", cegueira=[], labs_rodando={"win_teste": "WINFUT"}, vespera=vesp)
+        rev = rv.revisar(dia, pasta=str(pasta), servidor=_servidor(dia), dist=_dist(), consertos=[], sono=[], registro=REG_WIN)
+        assert not any(x["chave"].startswith("b:lab:vespera") for x in rev["itens"])
 
 
 def test_rotina_atrasada_revisa_o_ultimo_pregao_encerrado(tmp_path):
+    # 16/10/2026: a rotina de 15/10 rodou atrasada as 08h51 (Mac dormindo as 19h15) e revisou o pregao de 16/10, que nem tinha aberto
     from quant.pesquisa import noite
     for d in ("2026-10-14", "2026-10-15", "2026-10-16"):
         (tmp_path / d).mkdir()
         (tmp_path / d / "estado_niveis.json").write_text("{}")
-    manha = pd.Timestamp("2026-10-16 08:51").to_pydatetime()
-    noite_ = pd.Timestamp("2026-10-16 19:20").to_pydatetime()
-    assert noite.ultimo_pregao_encerrado(str(tmp_path), manha) == "2026-10-15"     # 16/10 ainda nao abriu
-    assert noite.ultimo_pregao_encerrado(str(tmp_path), noite_) == "2026-10-16"
+    (tmp_path / "2026-10-17").mkdir()                                       # pasta sem estado do robo nao e pregao
+    assert noite.ultimo_pregao_encerrado(str(tmp_path), pd.Timestamp("2026-10-16 08:51").to_pydatetime()) == "2026-10-15"
+    assert noite.ultimo_pregao_encerrado(str(tmp_path), pd.Timestamp("2026-10-16 19:20").to_pydatetime()) == "2026-10-16"
+    assert noite.ultimo_pregao_encerrado(str(tmp_path), pd.Timestamp("2026-10-18 10:00").to_pydatetime()) == "2026-10-16"

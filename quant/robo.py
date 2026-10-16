@@ -86,7 +86,11 @@ def passo(dia, nome, args, timeout=1800, repetir=False):
 # ─────────────────────────────────────────────────────────────
 # Os tres momentos
 # ─────────────────────────────────────────────────────────────
-PASSOS_AUXILIARES = ("risco", "livro", "observacao", "prova_viva")   # falha aqui e avisada no log, mas nao reprova a manha
+PASSOS_AUXILIARES = ("risco", "livro", "observacao", "prova_viva", "opcoes")   # falha aqui e avisada no log, mas nao reprova a manha
+# painel de opcoes (estruturas do dia, ranking e a carteira simulada) com a cadeia do ultimo fechamento: a rotina da noite roda antes de a
+# B3 publicar o arquivo do dia, e o pregao inteiro ficava com a cadeia de dois pregoes atras (15/10/2026, achado 82). Marcar e abrir
+# posicao acontecem uma vez por data de cadeia, entao rodar de manha e de noite nao duplica nada.
+PASSO_OPCOES = ("opcoes", ["-m", "quant.opcoes.painel"], 600)
 
 
 def _boleta_swing_emitida(dia):
@@ -111,6 +115,7 @@ def preparar(dia=None, repetir=False, mods=None):
         log(f"rotina: a boleta de swing de {dia} ja foi emitida; a preparacao nao roda de novo (so os passos auxiliares)")
         for nome, args, limite in (("observacao", ["-m", "quant.observacao"], 300), ("prova_viva", ["-m", "quant.pesquisa.prova_viva"], 1200)):
             passo(dia, nome, args, timeout=limite, repetir=True)     # auxiliares: falha so avisa; a manha nao depende deles (13/10/2026)
+        passo(dia, *PASSO_OPCOES[:2], timeout=PASSO_OPCOES[2])        # uma vez por dia: o robo religado no meio do pregao nao refaz
         return True
     if com_fatores and not repetir and _boleta_da_manha(dia) and (_boleta_da_manha(dia) or {}).get("emitida"):
         # reinicio do robo com a boleta de hoje ja emitida: nada a refazer. Rodar de novo os sinais ou a
@@ -154,6 +159,7 @@ def preparar(dia=None, repetir=False, mods=None):
     if com_swing:
         # swing: concilia as posicoes com as barras oficiais de ontem, acha os sinais do ultimo fechamento e grava a boleta do dia (e a tela)
         passos.append(("swing", ["-m", "quant.swing.boleta"], 900))
+    passos.append(PASSO_OPCOES)                                  # depois das boletas: ate 10 minutos que nao podem atrasar a manha
     tudo = True
     for nome, args, limite in passos:
         # validacao, risco e boleta dependem do que veio antes: se algo mudou hoje, refazem
@@ -239,6 +245,27 @@ def modo():
     """
     m = ler_json(ARQ_MODO, padrao=None)
     return str((m or {}).get("robo") or "fatores")
+
+
+def janela_do_day_trade(dia=None):
+    """(inicio, ultima entrada, zerar) "HH:MM" do robo de day trade, como ele le: a janela do Douglas (chave.janela) e, por cima, as chaves
+    hora_ultima_entrada e hora_zerar de modo_robo.json (13/10/2026: entradas ate 18h10, zera as 18h24). O "ligar" dizia "9h15 as 13h"
+    fixo, a janela de 08/10 (15/10/2026, achado 84)."""
+    from quant.daytrade import chave
+    j = chave.janela(str(dia or agora_brt().date()))
+    m = ler_json(ARQ_MODO, padrao=None) or {}
+    fim = {"hora_ultima_entrada": j["ultima_entrada"], "hora_zerar": j["zerar"]}
+    for campo in fim:
+        v = str(m.get(campo) or "")
+        if len(v) == 5 and v[2] == ":" and v[:2].isdigit() and v[3:].isdigit() and "09:00" <= v <= "18:29":
+            fim[campo] = v
+    return j["inicio"], fim["hora_ultima_entrada"], fim["hora_zerar"]
+
+
+def _hm(v):
+    """"09:15" -> "9h15"."""
+    h, m = str(v).split(":")
+    return f"{int(h)}h{m}"
 
 
 MODULOS_VALIDOS = ("fatores", "swing", "daytrade")
@@ -359,8 +386,9 @@ def main(argv=None):
     if args.comando in ("desligar", "ligar"):
         from quant.daytrade import chave
         d = chave.gravar(args.comando == "ligar", motivo="pedido do Douglas")
+        ini, ultima, zerar = janela_do_day_trade((d.get("desde") or "")[:10] or None)
         print(("Robô LIGADO" if d["ligado"] else "Robô DESLIGADO") + f" às {chave.hora_de(d)}. "
-              + ("Ele volta a operar dentro do horário (9h15 às 13h), em simulação." if d["ligado"]
+              + (f"Ele volta a operar dentro do horário ({_hm(ini)} às {_hm(ultima)}; zera tudo às {_hm(zerar)}), em simulação." if d["ligado"]
                  else "Em até 2 segundos ele zera o que estiver aberto e não entra mais até você religar."))
         return 0
     if args.comando == "dia":

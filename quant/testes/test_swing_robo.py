@@ -95,18 +95,19 @@ def _passos(monkeypatch, mods):
 
 def test_preparar_do_swing_faz_a_boleta_de_swing_e_nao_a_de_fatores(modo, monkeypatch):
     n = _passos(monkeypatch, ["swing"])
-    assert n[-1] == "swing" and "boleta" not in n and "cotacoes" in n and "sinais" in n and "risco" in n
+    # o painel de opcoes vem por ultimo, depois das boletas (15/10/2026, achado 82)
+    assert n[-2:] == ["swing", "opcoes"] and "boleta" not in n and "cotacoes" in n and "sinais" in n and "risco" in n
 
 
 def test_preparar_de_fatores_nao_mudou(modo, monkeypatch):
     for mods in (["fatores"], ["daytrade"], None):
         n = _passos(monkeypatch, mods)
-        assert n[-1] == "boleta" and "swing" not in n
+        assert n[-2:] == ["boleta", "opcoes"] and "swing" not in n
 
 
 def test_preparar_dos_dois_faz_as_duas_boletas_com_os_dados_uma_vez(modo, monkeypatch):
     n = _passos(monkeypatch, ["fatores", "swing"])
-    assert n.count("cotacoes") == 1 and n[-2:] == ["boleta", "swing"]
+    assert n.count("cotacoes") == 1 and n[-3:] == ["boleta", "swing", "opcoes"]
 
 
 def test_preparar_do_swing_nao_roda_de_novo_com_boleta_emitida(modo, monkeypatch):
@@ -115,7 +116,7 @@ def test_preparar_do_swing_nao_roda_de_novo_com_boleta_emitida(modo, monkeypatch
     monkeypatch.setattr(robo, "_boleta_swing_emitida", lambda dia: True)
     from datetime import date
     # 13/10/2026 (commit 53b245d0): com a boleta emitida a manha nao refaz a boleta, mas roda os dois passos auxiliares
-    assert robo.preparar(date(2026, 10, 13), mods=["swing"]) is True and nomes == ["observacao", "prova_viva"]
+    assert robo.preparar(date(2026, 10, 13), mods=["swing"]) is True and nomes == ["observacao", "prova_viva", "opcoes"]
 
 
 def test_linha_de_comando_preparar_modulo_swing(modo, monkeypatch):

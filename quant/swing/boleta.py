@@ -95,6 +95,22 @@ def _ctx_depois(ctx, dec):
     return novo
 
 
+def marcar_capital_desde(linhas, agora, anterior=None):
+    """Anota em cada ordem com capital QUANDO ela passou a existir (`capital_desde`). E por esse campo que o robo ao vivo decide se a ordem
+    entra na abertura ou no ultimo preco (achado 9). A hora em que o arquivo foi gravado nao serve: o passo --so-mesa regrava a boleta no meio
+    do dia por outro motivo (revisao de 15/10/2026). Refazer a boleta mantem a hora da ordem que ja tinha capital na boleta anterior."""
+    antes = {}
+    if anterior and anterior.get("emitida"):
+        for c in anterior.get("candidatas") or []:
+            if c.get("destino") == "capital":
+                antes[(c.get("setup"), c.get("ticker"))] = c.get("capital_desde") or anterior.get("gerado")
+    quando = agora.isoformat(timespec="seconds")
+    for c in linhas:
+        if c.get("destino") == "capital" and not c.get("capital_desde"):
+            c["capital_desde"] = antes.get((c.get("setup"), c.get("ticker"))) or quando
+    return linhas
+
+
 def _pendente_de(c, entrada_em, cfg):
     """A operacao medida de uma candidata. As da mesa (M1, M2) entram na abertura do primeiro pregao depois da visao (`entrada_em` da linha)."""
     extras = {"conviccao_mesa": c["mesa"]["conviccao"]}
@@ -166,7 +182,7 @@ def acrescentar_mesa(p=None, agora=None, visao_arq=None, gravar_tela=True, termi
     novas = sum(int(est.adicionar(estado, _pendente_de(c, entrada_m, cfg))) for c in m["linhas"])
     est.salvar(estado)
     ja_na_boleta = {(c["setup"], c["ticker"]) for c in b["candidatas"]}
-    b["candidatas"] += [c for c in m["linhas"] if (c["setup"], c["ticker"]) not in ja_na_boleta]
+    b["candidatas"] += marcar_capital_desde([c for c in m["linhas"] if (c["setup"], c["ticker"]) not in ja_na_boleta], agora)   # as de antes nao mudam
     b["entradas"] = list(b.get("entradas") or []) + [x["ticker"] + "|" + x["setup"] for x in m["entradas"]]
     b["medidas_mesa"] = m["resumo"]
     b["avisos"] = list(b.get("avisos") or []) + [a for a in m["avisos"] if a not in (b.get("avisos") or [])]
@@ -228,6 +244,7 @@ def gerar(entrada_em=None, refazer=False, p=None, agora=None, visao_arq=None, gr
         if mesa_m["ja_medida"] and anterior:                       # boleta refeita: as linhas da mesa ja medidas continuam nela
             dec["linhas"] += [c for c in anterior.get("candidatas") or [] if c.get("camada_de_julgamento") and c.get("visao_gerado") == str(visao["gerado"])]
         avisos += [a for a in mesa_m["avisos"] if a not in avisos]
+    marcar_capital_desde(dec["linhas"], agora, anterior)
     # as operacoes MEDIDAS: uma por sinal, valor padrao, resolvidas pelas barras oficiais na conciliacao seguinte
     novas = 0
     for c in dec["linhas"]:

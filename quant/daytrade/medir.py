@@ -25,6 +25,37 @@ from quant.comum import ler_json
 from quant.daytrade.robo import DIR_DT
 
 FIM_DA_MEDIDA = "17:30"            # o sinal medido que nao saiu por stop, alvo ou tempo sai aqui, a mercado
+ARQ_MODO = os.path.join(os.path.dirname(DIR_DT), "modo_robo.json")
+
+
+def fim_do_robo(arq=None):
+    """A hora em que o robo zera tudo (`hora_zerar` em modo_robo.json; desde 13/10/2026 vai ate 18h24). O sinal medido segue a mesma
+    janela do robo: com o corte antigo (17h30) a regra do fim do pregao do mini-indice "saia" na propria barra da entrada. Sem a chave,
+    FIM_DA_MEDIDA."""
+    v = str((ler_json(arq or ARQ_MODO, padrao=None) or {}).get("hora_zerar") or "")
+    return v if len(v) == 5 and v[2] == ":" and "09:00" <= v <= "18:29" else FIM_DA_MEDIDA
+
+
+def do_contrato(ev):
+    """Contratos, custo, valor do ponto e tick para o `hipotetico` de um sinal: os do contrato do sinal (mini-dolar ou mini-indice) e a dose
+    da regra do laboratorio, quando ela traz uma; sem dose, 2 contratos (a medida de sempre)."""
+    from quant.daytrade.estrategia import CONTRATOS
+    k = CONTRATOS.get(ev.get("ativo") or "WDOFUT") or CONTRATOS["WDOFUT"]
+    dose = (ev.get("medidas") or {}).get("dose")
+    return {"contratos": int(dose) if dose else 2, "custo_lado": k["custo"], "valor_ponto": k["valor_ponto"], "tick": k["tick"]}
+
+
+def entradas_do_dia(linhas):
+    """[(ativo, tecnica, segundos)] das entradas gravadas no jsonl de sinais do dia."""
+    return [(e.get("ativo"), e.get("tecnica"), _segundos(e.get("hora"))) for e in linhas if e.get("tipo") == "entrada"]
+
+
+def entrou(ev, entradas, folga_s=15):
+    """O sinal virou entrada? "opera" diz que a REGRA opera, nao que o sinal entrou (14/10/2026): operado e o sinal que tem a entrada
+    da mesma tecnica, no mesmo contrato, ate `folga_s` segundos depois (ou antes) dele."""
+    s = _segundos(ev.get("hora"))
+    return s is not None and any(a == ev.get("ativo") and t == ev.get("tecnica") and x is not None and abs(x - s) <= folga_s
+                                 for a, t, x in entradas)
 
 
 def negocios(setup="niveis", pasta=DIR_DT):
@@ -114,20 +145,18 @@ def sinais(setup="niveis", pasta=DIR_DT, pasta_mt5=None, ativo="WDOFUT"):
             linhas = [json.loads(x) for x in open(os.path.join(dia, f"sinais_{setup}.jsonl"), encoding="utf-8") if x.strip()]
         except OSError:
             continue
-        entradas = [(e.get("tecnica"), _segundos(e.get("hora"))) for e in linhas if e.get("tipo") == "entrada" and e.get("ativo") == ativo]
+        entradas = entradas_do_dia(linhas)
         for ev in linhas:
             if ev.get("tipo") != "sinal" or ev.get("ativo") != ativo or ev.get("entrada") is None:
                 continue
-            r = hipotetico(ev, df)
+            r = hipotetico(ev, df, fim=fim_do_robo(), **do_contrato(ev))
             if r is None:
                 continue
             fita = (ev.get("medidas") or {}).get("fita") or {}
-            s = _segundos(ev.get("hora"))
             # 14/10/2026: "opera" diz que a regra opera, nao que o sinal entrou (9h01 e 9h06 eram antes da janela; das 9h48 as 10h36
             # havia posicao aberta). Operado e o sinal que tem a entrada da mesma tecnica no mesmo instante (ate 15 s).
-            entrou = s is not None and any(t == ev.get("tecnica") and e is not None and abs(e - s) <= 15 for t, e in entradas)
             fora.append({"dia": os.path.basename(dia), "hora": ev.get("hora"), "lado": ev.get("lado"), "tecnica": ev.get("tecnica"),
-                         "nivel": ev.get("nome_nivel"), "opera": bool(ev.get("opera")), "entrou": entrou, "bloqueio": ev.get("bloqueio"),
+                         "nivel": ev.get("nome_nivel"), "opera": bool(ev.get("opera")), "entrou": entrou(ev, entradas), "bloqueio": ev.get("bloqueio"),
                          "resultado": r["resultado"], "saida": r["saida"],
                          "confirmou": fita.get("confirmou"), "favor": fita.get("fracao_a_favor"),
                          "na_janela": "09:15" <= (ev.get("hora") or "")[:5] < "12:50"})

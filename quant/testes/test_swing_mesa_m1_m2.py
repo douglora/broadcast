@@ -167,6 +167,23 @@ def test_m1_m2_so_ganham_capital_por_liberacao_escrita(ambiente, tmp_path):
     assert por["M2"]["destino"] == "recusada" and "vetada pela mesa" in por["M2"]["motivo"]   # o veto da propria mesa barra a compra do vetado
 
 
+def test_ordem_com_capital_que_o_so_mesa_acrescenta_leva_a_hora_do_acrescimo(ambiente, tmp_path):
+    """Revisao de 15/10/2026: a hora da ordem com capital fica gravada na candidata (o robo decide abertura ou ultimo preco por ela, nao pela
+    hora do arquivo). A M1 liberada que o --so-mesa acrescenta as 11h00 passou a existir as 11h00; as candidatas de antes nao mudam."""
+    (tmp_path / "swing_config.json").write_text(json.dumps({"liberar": ["M1.S0"], "decidido_em": "2026-10-13", "motivo": "teste"}))
+    ambiente["v"] = None
+    p = _p()
+    manha = datetime(2026, 10, 13, 8, 35, tzinfo=FUSO_BRT)
+    b0 = bol.gerar(entrada_em="2026-10-13", p=p, agora=manha, usar_terminal=False)
+    ambiente["v"] = _visao(gerado="2026-10-11T11:12:04-03:00")
+    r = bol.acrescentar_mesa(p=p, agora=datetime(2026, 10, 13, 11, 0, tzinfo=FUSO_BRT), usar_terminal=False)
+    assert r["ok"] and r["m1"] == 1
+    b1 = bol.ler_boleta(date(2026, 10, 13))
+    m1 = [c for c in b1["candidatas"] if c["setup"] == "M1"]
+    assert m1 and m1[0]["destino"] == "capital" and m1[0]["capital_desde"] == "2026-10-13T11:00:00-03:00"
+    assert b1["candidatas"][:len(b0["candidatas"])] == b0["candidatas"]
+
+
 def test_placar_e_evidencia_trazem_m1_m2_com_a_etiqueta(ambiente):
     v = evidencia.por_variante()
     fech = [{"id": "a", "setup": "M2", "modo": "medida", "status": "fechada", "resultado_pct": -0.02, "resultado_rs": -120.0, "overlays": {"top": False, "ibov_ok": True}},

@@ -7,7 +7,8 @@ Arquivos em `quant/saida/swing/` (pasta trocavel pela variavel de ambiente QUANT
 
 DOIS MODOS:
   - "capital": a operacao usa dinheiro do livro (setup com evidencia, ou liberado por decisao do Douglas). Entra ao vivo, na abertura do dia, e o
-    robo vigia o stop durante o pregao.
+    robo vigia o stop durante o pregao. Ordem que so existiu depois da abertura entra no ultimo preco (`entrada_fora_da_abertura`); na conciliacao,
+    do dia dela so conta o fechamento.
   - "medida": a operacao e simulada com valor padrao (R$ 6.000) so para medir o setup, sem capital. Cada sinal vira UMA operacao medida por setup. Ela
     nasce "pendente" na boleta da manha e e resolvida pelas barras OFICIAIS (abertura, maxima, minima, fechamento) na conciliacao da manha seguinte,
     com a mesma regra da pesquisa: e isso que faz o placar ser comparavel com os 15 anos testados. As sobreposicoes (metade de cima do ranking,
@@ -267,6 +268,16 @@ def conciliar(estado, painel, hoje=None):
         n = len(O)
         ate = int(np.argmax(ruim_ou_vazio)) if ruim_ou_vazio.any() else n          # primeira barra invalida: a regra da pesquisa descarta a operacao
         e = O[0] if n else np.nan
+        if pos.get("entrada_fora_da_abertura") and n:
+            # entrou no meio do pregao (ordem liberada depois da abertura): a base e o preco de entrada no mesmo ajuste das barras, e do dia da
+            # entrada so vale o fechamento, que e posterior a entrada (a maxima e a minima podem ser de antes dela)
+            cru, aj = painel.preco_cru[i0, j], painel.C[i0, j]
+            if not (np.isfinite(cru) and np.isfinite(aj) and cru > 0 and aj > 0):
+                restantes.append(pos)
+                continue
+            e = pos["preco_entrada"] * aj / cru
+            H, L = H.copy(), L.copy()
+            H[0] = L[0] = C[0]
         r = saida_da_operacao(O[:ate] / e, H[:ate] / e, L[:ate] / e, C[:ate] / e, 1.0 - pos["stop_dist"] / pos["preco_entrada"],
                               None if pos["alvo"] is None else 1.0 + pos["alvo_dist"] / pos["preco_entrada"], pos["prazo"]) if ate > 0 else None
         if r is None:
