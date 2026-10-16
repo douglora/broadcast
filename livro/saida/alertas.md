@@ -2,23 +2,23 @@ ALERTAS · intradia
 
 Nenhum alerta novo neste slot.
 Info (só linha no Fechamento):
-· E05 AVGO · Broadcom Falls 4% as CEO Hock Tan’s Capital Warning Hangs Over AI Chips; Marvell Drops 4%
-· E05 PLTR · Palantir's record breakout unravels as software stocks shed $260 billion
-· E05 MU · Micron Stocks Fall 3.5% Although Bullish Memory Commentary Meets a Cash Test
-· E05 AMZN · Amazon Is 11% Below Its High Heading Into Earnings on Oct. 29. Here's the 1 Number That Will Decide What Happens Next.
-· E05 ITUB4 · As preferenciais do Itaú na Eneva
-· E05 TSM · TSMC Stocks Fall Although $670 Target Raises the Advanced-Chip Stakes
-· E05 TSLA · Elon Musk unveils Tesla’s ‘flying’ car
-· E05 BBDC4 · Por que este banco pode chegar a R$ 105, segundo Bradesco BBI
+· E05 JPM · JPMorgan Chase: Leverage A Concern To Future Earnings (Downgrade To Hold) (NYSE:JPM)
+· E05 NVDA · Jensen Huang's Nvidia Lost $200 Billion in Value After OpenAI's Revenue Run Rate Came Up $18 Billion Below Expectations. Is This AI-Jitters Sell-Off…
+· E05 NVDA · Nvidia (NVDA): Can Paid Software Make Its Earnings Less Dependent on Hardware Sales?
+· E05 MELI34 · De cliente a investidor: como ter Mercado Livre (MELI34) na carteira pela B3?
+· E05 JPM · Is Rare Earnings Miss Altering The Investment Case For JPMorgan Chase (JPM)?
+· E05 TSLA · Tesla Roadster probably won't drive an earnings beat, but the big reveal did achieve 2 things
+· S01 coleta do slot intradia saiu incompleta: bcb: BCB devolveu 4 de 5 séries (faltaram ipca_12m)
 · T13 VIX cruzou 20: 20,5 (+25% no dia)
 
-Suprimidos pelo teto (viram linha do Fechamento): T13-VIX-vix20-2026-10-16 (teto de atenção)
+Suprimidos pelo teto (viram linha do Fechamento): S01-SISTEMA-intradia-2026-10-16 (teto de atenção), T13-VIX-vix20-2026-10-16 (teto de atenção)
 
 Alertas do dia (todos, com status):
+· linha     S01 SISTEMA — coleta do slot intradia saiu incompleta: bcb: BCB devolveu 4 de 5 séries (faltar
 · linha     T13 VIX — VIX cruzou 20: 20,5 (+25% no dia)
 · entregue  E05 TSM — TSM · TSMC's Record Q3 Earnings & Upbeat Outlook Put These ETFs in Focus
 · entregue  E05 BAC — BAC · Bank of America: The $1.2 Billion Fine Changes My Rating, But The Upside R
 · entregue  E05 MMM — MMM · 3M to argue Australia's $1.4 billion 'forever chemicals' lawsuit legally f
 · entregue  E05 PETR4 — PETR4 · Petrobras bate recorde e chega a R$ 800 bilhões em valor de mercado; açõ
-· linha     F03 BRENT — Brent sobe a US$ 109,41 (+3,3% no dia) (parcial, intradia)
-· (+102 notícias só manchete, em noticias.md)
+· linha     F03 BRENT — Brent sobe a US$ 109,74 (+3,6% no dia) (parcial, intradia)
+· (+108 notícias só manchete, em noticias.md)

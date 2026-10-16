@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 16/10 15h21
+NOTÍCIAS E FATOS · 16/10 16h21
 
-Pernas: noticias ok 8 novas (18 consultas; descartadas: 467 veículo fora da lista, 33 sem ativo, 0 teto) · cvm ok 0 novos de 11 (9 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 6 novas (18 consultas; descartadas: 469 veículo fora da lista, 34 sem ativo, 0 teto) · cvm ok 0 novos de 11 (9 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (1)
 
@@ -67,8 +67,14 @@ Fonte: g1 15/10 16h31
 id: E05-PETR4-a305718dd1-2026-10-15 · status: entregue
 
 
-## OUTRAS NOTÍCIAS (só manchete) (98)
+## OUTRAS NOTÍCIAS (só manchete) (104)
 
+· JPM JPMorgan Chase: Leverage A Concern To Future Earnings (Downgrade To Hold) (NYSE:JPM) (Seeking Alpha) https://seekingalpha.com/article/4954874-jpmorgan-chase-leverage-a-concern-to-future-earnings-downgrade-to-hold
+· NVDA Jensen Huang's Nvidia Lost $200 Billion in Value After OpenAI's Revenue Run Rate Came Up $18 Billion Below Expectations. Is This AI-Jitters Sell-Off… (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/jensen-huangs-nvidia-lost-200-185100224.html
+· NVDA Nvidia (NVDA): Can Paid Software Make Its Earnings Less Dependent on Hardware Sales? (Yahoo Finance) https://finance.yahoo.com/technology/articles/nvidia-nvda-paid-software-earnings-182924722.html
+· MELI34 De cliente a investidor: como ter Mercado Livre (MELI34) na carteira pela B3? (Suno Noticias) https://www.suno.com.br/noticias/meli34-como-investir-mercado-livre-b3-mt/amp/
+· JPM Is Rare Earnings Miss Altering The Investment Case For JPMorgan Chase (JPM)? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/rare-earnings-miss-altering-investment-161912213.html
+· TSLA Tesla Roadster probably won't drive an earnings beat, but the big reveal did achieve 2 things (Yahoo Finance) https://finance.yahoo.com/markets/stocks/article/tesla-roadster-probably-wont-drive-an-earnings-beat-but-the-big-reveal-did-achieve-2-things-130628792.html
 · AVGO Broadcom Falls 4% as CEO Hock Tan’s Capital Warning Hangs Over AI Chips; Marvell Drops 4% (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/broadcom-falls-4-ceo-hock-180208266.html
 · PLTR Palantir's record breakout unravels as software stocks shed $260 billion (Yahoo Finance) https://finance.yahoo.com/markets/article/palantirs-record-breakout-unravels-as-software-stocks-shed-260-billion-174307974.html
 · MU Micron Stocks Fall 3.5% Although Bullish Memory Commentary Meets a Cash Test (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:8f319f89c094b:0-micron-stocks-fall-3-5-although-bullish-memory-commentary-meets-a-cash-test/
@@ -123,10 +129,4 @@ id: E05-PETR4-a305718dd1-2026-10-15 · status: entregue
 · TSLA Could Tesla’s flying car send sales and shares soaring? (Yahoo Finance) https://uk.finance.yahoo.com/news/could-tesla-flying-car-send-140448718.html
 · PETR4 Ibovespa reage com Petrobras e bancos após três quedas seguidas; dólar cai (Exame) https://exame.com/invest/mercados/ibovespa-reage-com-petrobras-e-bancos-apos-tres-quedas-seguidas-dolar-cai/
 · ETH How Ethereum Works: Gas, Smart Contracts & Finality (The Block) https://www.theblock.co/learn/ethereum/how-ethereum-works-418525
-· TSLA Prediction market odds on Tesla-SpaceX merger are above 50% for early 2027 (CNBC) https://www.cnbc.com/2026/10/16/tesla-spacex-merger-odds-rise-on-kalshi.html
-· PETR4 Tempo real: Ibovespa avança com Petrobras (PETR4) e eleições no radar; dólar cai (Money Times) https://www.moneytimes.com.br/tempo-real-16-10-26-apsa-lils/
-· NVDA Nvidia stock pullback a buying opportunity, says Dan Ives (TradingView (Reuters)) https://www.tradingview.com/news/seekingalpha:97548d2a5094b:0-nvidia-stock-pullback-a-buying-opportunity-says-dan-ives/
-· BTC Michael Saylor Says Bitcoin Bottom Is Already In (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:6363568fa094b:0-michael-saylor-says-bitcoin-bottom-is-already-in/
-· INTC Intel Cratered Over The Last 90 Days: This Prominent Analyst Says It’s Going to Double (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/intel-cratered-over-last-90-124502354.html
-· BTC Price to earnings forward of Rhino Bitcoin Inc. – OTC:RHNO (TradingView (Reuters)) https://www.tradingview.com/symbols/OTC-RHNO/financials-statistics-and-ratios/price-earnings-fwd/
-· (+38 manchetes; lista completa em eventos/noticias.json)
+· (+44 manchetes; lista completa em eventos/noticias.json)
