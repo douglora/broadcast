@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 16/10 14h21
+NOTÍCIAS E FATOS · 16/10 15h21
 
-Pernas: noticias ok 4 novas (18 consultas; descartadas: 485 veículo fora da lista, 32 sem ativo, 0 teto) · cvm ok 0 novos de 11 (9 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 8 novas (18 consultas; descartadas: 467 veículo fora da lista, 33 sem ativo, 0 teto) · cvm ok 0 novos de 11 (9 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (1)
 
@@ -67,8 +67,16 @@ Fonte: g1 15/10 16h31
 id: E05-PETR4-a305718dd1-2026-10-15 · status: entregue
 
 
-## OUTRAS NOTÍCIAS (só manchete) (90)
+## OUTRAS NOTÍCIAS (só manchete) (98)
 
+· AVGO Broadcom Falls 4% as CEO Hock Tan’s Capital Warning Hangs Over AI Chips; Marvell Drops 4% (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/broadcom-falls-4-ceo-hock-180208266.html
+· PLTR Palantir's record breakout unravels as software stocks shed $260 billion (Yahoo Finance) https://finance.yahoo.com/markets/article/palantirs-record-breakout-unravels-as-software-stocks-shed-260-billion-174307974.html
+· MU Micron Stocks Fall 3.5% Although Bullish Memory Commentary Meets a Cash Test (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:8f319f89c094b:0-micron-stocks-fall-3-5-although-bullish-memory-commentary-meets-a-cash-test/
+· AMZN Amazon Is 11% Below Its High Heading Into Earnings on Oct. 29. Here's the 1 Number That Will Decide What Happens Next. (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/amazon-11-below-high-heading-173000077.html
+· ITUB4 As preferenciais do Itaú na Eneva (Brazil Journal) https://braziljournal.com/as-preferenciais-do-itau-na-eneva
+· TSM TSMC Stocks Fall Although $670 Target Raises the Advanced-Chip Stakes (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:533ff331f094b:0-tsmc-stocks-fall-although-670-target-raises-the-advanced-chip-stakes/
+· TSLA Elon Musk unveils Tesla’s ‘flying’ car (South China Morning Post) https://www.scmp.com/news/world/united-states-canada/article/3371209/elon-musk-unveils-teslas-flying-car
+· BBDC4 Por que este banco pode chegar a R$ 105, segundo Bradesco BBI (Money Times) https://www.moneytimes.com.br/por-que-este-banco-pode-chegar-a-r-105-segundo-bradesco-bbi/
 · GOOGL Alphabet Stocks Fall Although AI-Chip Forecast Signals a Bigger Cloud Business (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:14775eeac094b:0-alphabet-stocks-fall-although-ai-chip-forecast-signals-a-bigger-cloud-business/
 · GOOGL Apple and Alphabet Are Especially Scared of a Blue Wave (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/apple-alphabet-especially-scared-blue-164527715.html
 · BAC BofA's Hartnett leaning risk-off for next month (TradingView (Reuters)) https://www.tradingview.com/news/seekingalpha:84a0f07e6094b:0-bofa-s-hartnett-leaning-risk-off-for-next-month/
@@ -121,12 +129,4 @@ id: E05-PETR4-a305718dd1-2026-10-15 · status: entregue
 · BTC Michael Saylor Says Bitcoin Bottom Is Already In (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:6363568fa094b:0-michael-saylor-says-bitcoin-bottom-is-already-in/
 · INTC Intel Cratered Over The Last 90 Days: This Prominent Analyst Says It’s Going to Double (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/intel-cratered-over-last-90-124502354.html
 · BTC Price to earnings forward of Rhino Bitcoin Inc. – OTC:RHNO (TradingView (Reuters)) https://www.tradingview.com/symbols/OTC-RHNO/financials-statistics-and-ratios/price-earnings-fwd/
-· META Ahead of Meta Platforms (META) Q3 Earnings: Get Ready With Wall Street Estimates for Key Metrics (Yahoo Finance) https://ca.finance.yahoo.com/news/ahead-meta-platforms-meta-q3-121522821.html
-· MU Here is What to Know Beyond Why Micron Technology, Inc. (MU) is a Trending Stock (Yahoo Finance) https://sg.finance.yahoo.com/news/know-beyond-why-micron-technology-120008361.html
-· USDBRL Dólar abre em queda com pesquisas eleitorais e fim da escala 6x1 no radar (g1) https://g1.globo.com/economia/noticia/2026/10/16/dolar-ibovespa.ghtml
-· PLTR Palantir: The Growth Investor’s Case For Buying At A Premium (NASDAQ:PLTR) (Seeking Alpha) https://seekingalpha.com/article/4954751-palantir-the-growth-investors-case-for-buying-at-a-premium
-· VALE3 Vale says soaring costs put 10% of iron ore in the red (Mining.com) https://www.mining.com/vale-says-soaring-costs-put-10-of-iron-ore-in-the-red/
-· USDBRL Dólar abre em queda com alívio externo; juros futuros sobem com empate entre Lula e Flávio (Folha de S.Paulo) https://www1.folha.uol.com.br/mercado/2026/10/dolar-abre-em-queda-com-alivio-externo-juros-futuros-sobem-com-empate-entre-lula-e-flavio.shtml
-· TSLA Tesla’s Flying Roadster Fuels SpaceX Merger Speculation, But Analysts Question Earnings Impact (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/tesla-flying-roadster-fuels-spacex-125446274.html
-· VALE3 Vale Base Metals conclui transação e estabelece nova estrutura de controle para o complexo de Thompson; veja (Money Times) https://www.moneytimes.com.br/vale-base-metals-conclui-transacao-e-estabelece-nova-estrutura-de-controle-para-o-complexo-de-thompson-veja-lmrs/
-· (+30 manchetes; lista completa em eventos/noticias.json)
+· (+38 manchetes; lista completa em eventos/noticias.json)
