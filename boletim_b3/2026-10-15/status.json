@@ -1,11 +1,11 @@
 {
  "pregao": "2026-10-15",
- "situacao": "atrasado",
- "errata": false,
- "atualizado_em": "2026-10-16T08:54:00.613",
+ "situacao": "publicado",
+ "errata": true,
+ "atualizado_em": "2026-10-16T00:00:00",
  "completo": {
-  "arquivo": "",
-  "pdf": ""
+  "arquivo": "BDI_00_20261015.pdf",
+  "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-10-15/BDI_00_20261015.pdf"
  },
  "cadernos": [
   {
@@ -13,8 +13,8 @@
    "nome": "Renda fixa",
    "pai": null,
    "situacao": "publicado",
-   "errata": false,
-   "atualizado_em": "2026-10-16T08:05:38.547",
+   "errata": true,
+   "atualizado_em": "2026-10-16T10:56:38.177",
    "arquivo": "",
    "pdf": ""
   },
@@ -32,9 +32,9 @@
    "id": 21,
    "nome": "Resumo de ações",
    "pai": 20,
-   "situacao": "publicado",
+   "situacao": "republicado",
    "errata": false,
-   "atualizado_em": "2026-10-15T22:07:50.573",
+   "atualizado_em": "2026-10-16T09:37:30.967",
    "arquivo": "BDI_02-1_20261015.pdf",
    "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-10-15/BDI_02-1_20261015.pdf"
   },
@@ -44,7 +44,7 @@
    "pai": 20,
    "situacao": "publicado",
    "errata": false,
-   "atualizado_em": "2026-10-16T08:54:00.613",
+   "atualizado_em": "2026-10-16T10:53:32.397",
    "arquivo": "",
    "pdf": ""
   },
@@ -53,20 +53,20 @@
    "nome": "Maiores oscilações",
    "pai": 20,
    "situacao": "republicado",
-   "errata": false,
-   "atualizado_em": "2026-10-16T02:45:38.14",
-   "arquivo": "BDI_02-3_20261015.pdf",
-   "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-10-15/BDI_02-3_20261015.pdf"
+   "errata": true,
+   "atualizado_em": "2026-10-16T10:02:20.107",
+   "arquivo": "",
+   "pdf": ""
   },
   {
    "id": 31,
    "nome": "Resumo",
    "pai": 3,
-   "situacao": "republicado",
+   "situacao": "publicado",
    "errata": false,
-   "atualizado_em": "2026-10-15T22:45:38.187",
-   "arquivo": "BDI_03-1_20261015.pdf",
-   "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-10-15/BDI_03-1_20261015.pdf"
+   "atualizado_em": "2026-10-16T09:53:06.047",
+   "arquivo": "",
+   "pdf": ""
   },
   {
    "id": 33,
@@ -102,11 +102,11 @@
    "id": 42,
    "nome": "Empréstimos de ativos",
    "pai": 4,
-   "situacao": "republicado",
-   "errata": false,
-   "atualizado_em": "2026-10-16T03:55:38.123",
-   "arquivo": "BDI_04-2_20261015.pdf",
-   "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-10-15/BDI_04-2_20261015.pdf"
+   "situacao": "publicado",
+   "errata": true,
+   "atualizado_em": "2026-10-16T10:13:55.02",
+   "arquivo": "",
+   "pdf": ""
   },
   {
    "id": 43,
