@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 16/10 10h23
+NOTÍCIAS E FATOS · 16/10 11h23
 
-Pernas: noticias ok 15 novas (18 consultas; descartadas: 468 veículo fora da lista, 27 sem ativo, 13 teto) · cvm ok 1 novos de 11 (9 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 13 novas (18 consultas; descartadas: 467 veículo fora da lista, 33 sem ativo, 5 teto) · cvm ok 0 novos de 11 (9 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (1)
 
@@ -51,8 +51,21 @@ Fonte: g1 15/10 16h31
 id: E05-PETR4-a305718dd1-2026-10-15 · status: entregue
 
 
-## OUTRAS NOTÍCIAS (só manchete) (35)
+## OUTRAS NOTÍCIAS (só manchete) (48)
 
+· ITUB4 O Itaú (ITUB4) quer mais energia: bancão injeta mais R$ 1,77 bilhão em subsidiária da Eneva (ENEV3) (Seu Dinheiro) https://www.seudinheiro.com/2026/empresas/o-itau-itub4-quer-mais-energia-bancao-injeta-mais-r-177-bilhao-em-subsidiaria-da-eneva-enev3-miql/
+· TSLA Could Tesla’s flying car send sales and shares soaring? (Yahoo Finance) https://uk.finance.yahoo.com/news/could-tesla-flying-car-send-140448718.html
+· PETR4 Ibovespa reage com Petrobras e bancos após três quedas seguidas; dólar cai (Exame) https://exame.com/invest/mercados/ibovespa-reage-com-petrobras-e-bancos-apos-tres-quedas-seguidas-dolar-cai/
+· ETH How Ethereum Works: Gas, Smart Contracts & Finality (The Block) https://www.theblock.co/learn/ethereum/how-ethereum-works-418525
+· TSLA Prediction market odds on Tesla-SpaceX merger are above 50% for early 2027 (CNBC) https://www.cnbc.com/2026/10/16/tesla-spacex-merger-odds-rise-on-kalshi.html
+· PETR4 Tempo real: Ibovespa avança com Petrobras (PETR4) e eleições no radar; dólar cai (Money Times) https://www.moneytimes.com.br/tempo-real-16-10-26-apsa-lils/
+· NVDA Nvidia stock pullback a buying opportunity, says Dan Ives (TradingView (Reuters)) https://www.tradingview.com/news/seekingalpha:97548d2a5094b:0-nvidia-stock-pullback-a-buying-opportunity-says-dan-ives/
+· BTC Michael Saylor Says Bitcoin Bottom Is Already In (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:6363568fa094b:0-michael-saylor-says-bitcoin-bottom-is-already-in/
+· INTC Intel Cratered Over The Last 90 Days: This Prominent Analyst Says It’s Going to Double (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/intel-cratered-over-last-90-124502354.html
+· BTC Price to earnings forward of Rhino Bitcoin Inc. – OTC:RHNO (TradingView (Reuters)) https://www.tradingview.com/symbols/OTC-RHNO/financials-statistics-and-ratios/price-earnings-fwd/
+· META Ahead of Meta Platforms (META) Q3 Earnings: Get Ready With Wall Street Estimates for Key Metrics (Yahoo Finance) https://ca.finance.yahoo.com/news/ahead-meta-platforms-meta-q3-121522821.html
+· MU Here is What to Know Beyond Why Micron Technology, Inc. (MU) is a Trending Stock (Yahoo Finance) https://sg.finance.yahoo.com/news/know-beyond-why-micron-technology-120008361.html
+· USDBRL Dólar abre em queda com pesquisas eleitorais e fim da escala 6x1 no radar (g1) https://g1.globo.com/economia/noticia/2026/10/16/dolar-ibovespa.ghtml
 · PLTR Palantir: The Growth Investor’s Case For Buying At A Premium (NASDAQ:PLTR) (Seeking Alpha) https://seekingalpha.com/article/4954751-palantir-the-growth-investors-case-for-buying-at-a-premium
 · VALE3 Vale says soaring costs put 10% of iron ore in the red (Mining.com) https://www.mining.com/vale-says-soaring-costs-put-10-of-iron-ore-in-the-red/
 · USDBRL Dólar abre em queda com alívio externo; juros futuros sobem com empate entre Lula e Flávio (Folha de S.Paulo) https://www1.folha.uol.com.br/mercado/2026/10/dolar-abre-em-queda-com-alivio-externo-juros-futuros-sobem-com-empate-entre-lula-e-flavio.shtml
