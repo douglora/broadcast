@@ -1,8 +1,19 @@
-NOTÍCIAS E FATOS · 16/10 18h12
+NOTÍCIAS E FATOS · 16/10 20h28
 
-Pernas: noticias ok 7 novas (18 consultas; descartadas: 478 veículo fora da lista, 32 sem ativo, 0 teto) · cvm ok 0 novos de 11 (9 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 13 novas (18 consultas; descartadas: 475 veículo fora da lista, 31 sem ativo, 12 teto) · cvm ok 1 novos de 12 (9 cias casadas) · sec ok 0 novos em 3 dias
 
-## FATOS RELEVANTES E COMUNICADOS (CVM) (1)
+## FATOS RELEVANTES E COMUNICADOS (CVM) (2)
+
+[INFO] E03 · DIRR3 · Participação relevante: Driehaus Capital Management LLC reduziu para participação relevante (objetivo: só investimento)
+CVM · entregue 16/10/2026 19:33 · Aquisição/Alienação de Participação Acionária Relevante / Declaração de Alienação de Participação Acionária Relevante
+Do documento:
+  – Belo Horizonte, October 16, 2026    Paulo Henrique Martins de Sousa  CFO and IR Officer                                              TEXT - 52579528v1 6947.34                 TEXT - 52579528v1 6947.34
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1578085
+Por que importa: quem cruza 5% de uma companhia tem de avisar (Resolução CVM 44, art. 12); o objetivo declarado é só investimento e não muda controle; o fluxo de compra ou venda já aconteceu, não no dia do aviso
+Ativos: DIRR3
+Como falar: 'Driehaus Capital Management LLC reduziu para participação relevante (objetivo: só investimento) na Direcional Engenharia; é aviso de participação, não fato relevante'
+Fonte: CVM 16/10
+id: E03-DIRR3-1578085-2026-10-16 · status: linha · íntegra disponível
 
 [INFO] E03 · VALE3 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
 CVM · entregue 16/10/2026 09:33 · Outros Comunicados Não Considerados Fatos Relevantes
@@ -78,8 +89,21 @@ Fonte: g1 15/10 16h31
 id: E05-PETR4-a305718dd1-2026-10-15 · status: entregue
 
 
-## OUTRAS NOTÍCIAS (só manchete) (130)
+## OUTRAS NOTÍCIAS (só manchete) (143)
 
+· NVDA 1 Obvious Metric That Makes Nvidia a Top Stock to Buy Now (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/1-obvious-metric-makes-nvidia-230400433.html
+· BTC Bitcoin's $350,000 price target comes with a terrifying warning, analyst says (Yahoo Finance) https://au.finance.yahoo.com/news/bitcoins-350-000-price-target-220000867.html
+· JPM JPMorgan Blocks Outside AI Agents From Customer Accounts (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/jpmorgan-blocks-outside-ai-agents-214548634.html
+· USDBRL Dólar cai 0,28% e Bolsa registra alta de 0,54% (Poder360) https://www.poder360.com.br/poder-economia/dolar-cai-028-e-bolsa-registra-alta-de-054/
+· TSM Prediction: $1,000 Invested in Taiwan Semi (TSMC) Today Will Be Worth This Much by 2030. (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/prediction-1-000-invested-taiwan-212500814.html
+· PLTR Palantir Technologies declines 7% amid broader tech selloff (PLTR:NASDAQ) (Seeking Alpha) https://seekingalpha.com/news/4654013-palantir-technologies-declines-7-amid-broader-tech-selloff
+· BTC Cantor's $112,000 Bitcoin Call Lifts Strategy Target to $208 (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/cantors-112-000-bitcoin-call-205538907.html
+· PETR4 Ibovespa sobe puxado por Petrobras e com atenção a pesquisas, mas cai 1,74% na semana (InfoMoney) https://www.infomoney.com.br/mercados/ibovespa-sobe-apos-recentes-quedas-atento-a-pesquisas-eleitorais-mas-cautela-segue/
+· KO Coca-Cola Stocks Rise 1.72% as Barclays Highlights Defensive Appeal Before Earnings (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:37a50badc094b:0-coca-cola-stocks-rise-1-72-as-barclays-highlights-defensive-appeal-before-earnings/
+· TSM Intel Stocks Fall 3.9% as TSMC's Packaging Comments Challenge Its Expansion (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:acbe19962094b:0-intel-stocks-fall-3-9-as-tsmc-s-packaging-comments-challenge-its-expansion/
+· BRENT Brent Rises Near $110 on Increasing Supply Risks (TradingView (Reuters)) https://www.tradingview.com/news/te_news:592872:0-brent-rises-near-110-on-increasing-supply-risks/
+· BAC AML Penalty Could Be A Game Changer For Bank of America Stock (BAC) (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/aml-penalty-could-game-changer-201453006.html
+· TSLA US appeals court blocks class actions over Tesla's self-driving claims (Reuters) https://www.reuters.com/business/media-telecom/us-appeals-court-blocks-class-actions-over-teslas-self-driving-claims-2026-10-16/
 · JPM JPMorgan Chase: The Place To Be When Storm Clouds Gather (NYSE:JPM) (Seeking Alpha) https://seekingalpha.com/article/4954899-jpmorgan-chase-place-to-be-when-storm-clouds-gather
 · USDBRL Dólar cai a R$ 5,07 com sinais de fluxo, mas sobe 1,77% na semana (UOL Economia) https://economia.uol.com.br/noticias/estadao-conteudo/2026/10/16/dolar-cai-a-r-507-com-sinais-de-fluxo-mas-sobe-177-na-semana.htm
 · USDBRL Dólar ronda estabilidade com após pesquisa indicar empate técnico entre Flávio e Lula (InfoMoney) https://www.infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-16102026/
@@ -127,17 +151,4 @@ id: E05-PETR4-a305718dd1-2026-10-15 · status: entregue
 · UST Here’s Why Treasury Yields Have Defied Hotter-Than-Expected Inflation (The Wall Street Journal) https://www.wsj.com/video/heres-why-treasury-yields-have-defied-hotter-than-expected-inflation/D6B3A72D-02C4-47A3-BEC9-B0B2A66AA197
 · JPM JPMorgan Chase: 3 Key Takeaways for Long-Term Investors (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/jpmorgan-chase-3-key-takeaways-165156835.html
 · GOOGL Alphabet’s Cloud Surge and AI Dominance Overshadow Capex Fears and Keep Me Buying (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/alphabet-cloud-surge-ai-dominance-164534776.html
-· KLBN4 Klabin alonga vencimento de empréstimos e reduz custo de dívida (CNN Brasil) https://www.cnnbrasil.com.br/agro/klabin-alonga-vencimento-de-emprestimos-e-reduz-custo-de-divida/
-· BTC Unique Wealth discloses $10.4 million in Bitcoin exposure in latest 13F-HR filing (TradingView (Reuters)) https://www.tradingview.com/news/cryptobriefing:526618ba4094b:0-unique-wealth-discloses-10-4-million-in-bitcoin-exposure-in-latest-13f-hr-filing/
-· BTC Bitcoin Bounces, But Where Does It Go Next? Here’s What the Charts Say (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-bounces-where-does-next-160605984.html
-· BAC Meta expected to beat revenue forecasts as AI boosts advertising, says Bank of America (Yahoo Finance) https://uk.finance.yahoo.com/news/meta-expected-beat-revenue-forecasts-153700392.html
-· INTC Will Intel (INTC) Beat Estimates Again in Its Next Earnings Report? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/intel-intc-beat-estimates-again-151004050.html
-· GOOGL Jack Henry, Google Cloud To Deliver Tokenized Deposits For Banks, Credit Unions (TradingView (Reuters)) https://www.tradingview.com/news/reuters.com,2026:newsml_TUA3GKDQD:0-jack-henry-google-cloud-to-deliver-tokenized-deposits-for-banks-credit-unions/
-· AMZN AWS and Microsoft Face Fresh UK Scrutiny Over Cloud Switching Barriers (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:59eaae1c1094b:0-aws-and-microsoft-face-fresh-uk-scrutiny-over-cloud-switching-barriers/
-· AMZN Is Amazon Stock Poised to Gain as AI Boosts Cash Flow Prospects? (TradingView (Reuters)) https://www.tradingview.com/news/zacks:81fa4815a094b:0-is-amazon-stock-poised-to-gain-as-ai-boosts-cash-flow-prospects/
-· BTC What Happens to Bitcoin When Billions in Options Expire? (Yahoo Finance) https://finance.yahoo.com/markets/options/articles/happens-bitcoin-billions-options-expire-160041374.html
-· BTC Bitcoin price steadies around $82K after Fed’s Warsh avoids rate-hike hints (TradingView (Reuters)) https://www.tradingview.com/news/cointelegraph:1b2f4548f094b:0-bitcoin-price-steadies-around-82k-after-fed-s-warsh-avoids-rate-hike-hints/
-· MU Micron: Why You Should Buy Before Dec'26 (NASDAQ:MU) (Seeking Alpha) https://seekingalpha.com/article/4954802-micron-why-you-should-buy-before-dec26
-· BTC Bitcoin ETFs trade over $7.5B in a week despite $145M in net selling (TradingView (Reuters)) https://www.tradingview.com/news/cryptobriefing:a4c19e8a7094b:0-bitcoin-etfs-trade-over-7-5b-in-a-week-despite-145m-in-net-selling/
-· GOOGL Jack Henry & Associates, Inc. (JKHY) To Integrate Google Cloud Universal Ledger (TradingView (Reuters)) https://www.tradingview.com/news/tradingview:358088b4e99dc:0-jack-henry-associates-inc-jkhy-to-integrate-google-cloud-universal-ledger/
-· (+70 manchetes; lista completa em eventos/noticias.json)
+· (+83 manchetes; lista completa em eventos/noticias.json)

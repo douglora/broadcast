@@ -1,6 +1,6 @@
 ALERTAS · Fechamento 18h
 
-[CRÍTICO] T08 · 5 ativos: IGV, AMD, MRVL, MU, BBDC4
+(pendente de slot anterior) [CRÍTICO] T08 · 5 ativos: IGV, AMD, MRVL, MU, BBDC4
 · IGV entrou em correção: -11% do pico de 52s (US$ 117,08 em 27/10) a US$ 104,34
   1m -0,6% · 6m +23% · 12m -7,5%
 · AMD entrou em queda de -15% do pico: -19% do pico de 52s (US$ 649,42 em 06/10) a US$ 528,75
@@ -14,22 +14,24 @@ ALERTAS · Fechamento 18h
 Por que importa: -10% do pico é o limiar que a indústria chama de correção; recuperar o pico exige +12%
 Como falar: 'o cliente sente a queda no extrato; a conversa é sobre a tese, não sobre o preço de hoje'
 Fonte: Yahoo Finance fech. 16/10
-Push: [CRÍTICO] IGV entrou em correção | AMD entrou em queda de -15% do pico | MRVL entrou em queda de -25% do pico +2 · detalhe na sessão
 ids: T08-IGV--10-2026-10-16, T08-AMD--15-2026-10-16, T08-MRVL--25-2026-10-16, T08-MU--25-2026-10-16, T08-BBDC4--10-2026-10-16
 
 Info (só linha no Fechamento):
-· T02 RBOT (iShares Automation & Robotics UCITS ETF USD (Acc)) perdeu a MM50 pela 2ª sessão: US$ 21,22, ainda acima da MM200 (tendência longa preservada)
-· T02 NVDA perdeu a MM50 pela 2ª sessão: US$ 214,13, ainda acima da MM200 (tendência longa preservada)
-· T02 TSLA perdeu a MM100 pela 2ª sessão: US$ 354,72, já abaixo da MM200 (confirma tendência de baixa)
-· T07 KO entrou em sobrecomprado: RSI14 76 a US$ 93,90
-· T10 PETR4 no máximo de força relativa em 63 sessões contra IBOV: +23% vs +10% em 20 sessões (+11% relativo)
-· E05 JPM · JPMorgan Chase: The Place To Be When Storm Clouds Gather (NYSE:JPM)
-· E05 USDBRL · Dólar cai a R$ 5,07 com sinais de fluxo, mas sobe 1,77% na semana
-· E05 USDBRL · Dólar ronda estabilidade com após pesquisa indicar empate técnico entre Flávio e Lula
-· E05 MU · Micron, SK Hynix Have an AI Boom Problem — China Could Make It Worse
-· E05 NVDA · Intel and AMD Drop 3% as Rotation Out of AI Chip Stocks Continues; NVIDIA Holds Steady
-· E05 TSM · TSMC’s ‘Leave No Food On The Table’ Pledge Signals More AI Chip Investment, Morningstar Says
-· E05 INTC · Jim Cramer Says Starbucks Can Rise On Its Own, Apple’s Audience Is Worth Paying For, And Intel Investors Need Patience
+· E03 DIRR3 · Participação relevante: Driehaus Capital Management LLC reduziu para participação relevante (objetivo: só investimento)
+· E05 NVDA · 1 Obvious Metric That Makes Nvidia a Top Stock to Buy Now
+· E05 BTC · Bitcoin's $350,000 price target comes with a terrifying warning, analyst says
+· E05 JPM · JPMorgan Blocks Outside AI Agents From Customer Accounts
+· E05 USDBRL · Dólar cai 0,28% e Bolsa registra alta de 0,54%
+· E05 TSM · Prediction: $1,000 Invested in Taiwan Semi (TSMC) Today Will Be Worth This Much by 2030.
+· E05 PLTR · Palantir Technologies declines 7% amid broader tech selloff (PLTR:NASDAQ)
+· E05 BTC · Cantor's $112,000 Bitcoin Call Lifts Strategy Target to $208
+· E05 PETR4 · Ibovespa sobe puxado por Petrobras e com atenção a pesquisas, mas cai 1,74% na semana
+· E05 KO · Coca-Cola Stocks Rise 1.72% as Barclays Highlights Defensive Appeal Before Earnings
+· E05 TSM · Intel Stocks Fall 3.9% as TSMC's Packaging Comments Challenge Its Expansion
+· E05 BRENT · Brent Rises Near $110 on Increasing Supply Risks
+· E05 BAC · AML Penalty Could Be A Game Changer For Bank of America Stock (BAC)
+· E05 TSLA · US appeals court blocks class actions over Tesla's self-driving claims
+· T13 VIX cruzou 20: 20,5 (+25% no dia)
 · C01 A curva ABRIU: F29 +40 bps em 5 pregões · F32 4 pregões seguidos (+53 bps) · F35 4 pregões seguidos (+55 bps) (ajuste B3 16/10)
 · T03 AVGO formou death cross: MM50 US$ 365,32 cruzou abaixo da MM200 US$ 367,06 pela 2ª sessão; preço US$ 328,75, -10% da MM200, -6,5% em 12m
 · T04 RARA11 fechou na mínima da série de 63 sessões: R$ 12,41, -20% em 1m e - em 12m
@@ -45,9 +47,8 @@ Info (só linha no Fechamento):
 · T10 COHR no mínimo de força relativa em 63 sessões contra SOX: -27% vs -6,6% em 20 sessões (-21% relativo)
 · T12 CNDX (iShares NASDAQ 100 UCITS ETF USD (Acc)): 8 quedas seguidas (-5,8% acumulado) a US$ 1.696
 · T12 SOXX: 8 quedas seguidas (-16% acumulado) a US$ 493,39
-· T13 VIX cruzou 20: 20,5 (+25% no dia)
 
-Suprimidos pelo teto (viram linha do Fechamento): C01-DI-abriu-2026-10-16 (teto de atenção), T03-AVGO-death-2026-10-16 (teto de atenção), T04-RARA11-minima-2026-10-16 (teto de atenção), T05-IGV-queda-2026-10-16 (teto de atenção), T05-PLTR-queda-2026-10-16 (teto de atenção), T06-XLK-queda-2026-10-16 (teto de atenção), T06-VGT-queda-2026-10-16 (teto de atenção), T06-REMX-queda-2026-10-16 (teto de atenção), T06-LITE-queda-2026-10-16 (teto de atenção), T06-PLTR-queda-2026-10-16 (teto de atenção), T06-EWY-queda-2026-10-16 (teto de atenção), T09-SMH-queda-2026-10-16 (teto de atenção), T10-COHR-mínimo-2026-10-16 (teto de atenção), T12-CNDX-quedas_8-2026-10-16 (teto de atenção), T12-SOXX-quedas_8-2026-10-16 (teto de atenção), T13-VIX-vix20-2026-10-16 (teto de atenção)
+Suprimidos pelo teto (viram linha do Fechamento): T13-VIX-vix20-2026-10-16 (teto de atenção), C01-DI-abriu-2026-10-16 (teto de atenção), T03-AVGO-death-2026-10-16 (teto de atenção), T04-RARA11-minima-2026-10-16 (teto de atenção), T05-IGV-queda-2026-10-16 (teto de atenção), T05-PLTR-queda-2026-10-16 (teto de atenção), T06-XLK-queda-2026-10-16 (teto de atenção), T06-VGT-queda-2026-10-16 (teto de atenção), T06-REMX-queda-2026-10-16 (teto de atenção), T06-LITE-queda-2026-10-16 (teto de atenção), T06-PLTR-queda-2026-10-16 (teto de atenção), T06-EWY-queda-2026-10-16 (teto de atenção), T09-SMH-queda-2026-10-16 (teto de atenção), T10-COHR-mínimo-2026-10-16 (teto de atenção), T12-CNDX-quedas_8-2026-10-16 (teto de atenção), T12-SOXX-quedas_8-2026-10-16 (teto de atenção)
 
 Alertas do dia (todos, com status):
 · pendente  T08 MRVL — MRVL entrou em queda de -25% do pico: -28% do pico de 52s (US$ 316,43 em 04/06) 
@@ -82,4 +83,4 @@ Alertas do dia (todos, com status):
 · linha     T07 KO — KO entrou em sobrecomprado: RSI14 76 a US$ 93,90
 · linha     T10 PETR4 — PETR4 no máximo de força relativa em 63 sessões contra IBOV: +23% vs +10% em 20 
 · linha     F03 BRENT — Brent sobe a US$ 109,69 (+3,6% no dia)
-· (+134 notícias só manchete, em noticias.md)
+· (+148 notícias só manchete, em noticias.md)

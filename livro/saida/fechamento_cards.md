@@ -1,4 +1,4 @@
-## Fechamento do livro · sex 16/10 · 18h12 BRT
+## Fechamento do livro · sex 16/10 · 20h28 BRT
 
 ---
 
@@ -37,7 +37,7 @@
 
 | Ativo | dia | explicação | grau |
 |---|---:|---|---|
-| **PLTR** | -7,2% | notícia a conferir (TradingView (Reuters)): Palantir Stocks Fall 6.6% Although Mizuho Raises Target to $245 | notícia (conferir) |
+| **PLTR** | -7,2% | notícia a conferir (Seeking Alpha): Palantir Technologies declines 7% amid broader tech selloff (PLTR:NASDAQ) | notícia (conferir) |
 | **COHR** | -7,1% | investigar antes de comentar | sem causa no dado |
 | **AMD** | -6,0% | andou com o setor: semicondutores (eua) -5,0% (mediana), SOX -3,8%; notícia a conferir (Yahoo Finance): AMD’s Price Action Around $600 is Telling Investors Something Specific | setorial |
 | **INTC** | -5,8% | andou com o setor: semicondutores (eua) -5,0% (mediana), SOX -3,8%; notícia a conferir (TradingView (Reuters)): Jim Cramer Says Starbucks Can Rise On Its Own, Apple’s Audience Is Worth Paying For, And I | setorial |
@@ -200,8 +200,8 @@ Nomes completos: **QNTM** VanEck Quantum Computing UCITS ETF USD (Acc) · **QANT
 | **USDBRL** Dolar/Real | 5,0721 | **-0,3** | +1,8 | -1,5 | -0,8 | +1,7 | -6,9 | -7,4 | -7,0 |
 | **DXY** Indice Dolar DXY | 101,78 | **-0,2** | -0,4 | +1,5 | +1,0 | +3,8 | +3,4 | +3,6 | +8,3 |
 | **BRENT** Petroleo Brent | 109,69 | **+3,6** | +4,7 | +3,6 | +25 | +21 | +80 | +80 | +29 |
-| **BTC** Bitcoin _(parcial)_ | 81.584 | **-0,7** | -1,2 | +7,1 | +28 | +5,8 | -25 | -6,8 | +33 |
-| **ETH** Ethereum _(parcial)_ | 2.413 | **-1,1** | -2,9 | -0,1 | +31 | -0,3 | -38 | -19 | -37 |
+| **BTC** Bitcoin _(parcial)_ | 81.533 | **-0,7** | -1,2 | +7,1 | +28 | +5,7 | -25 | -6,8 | +32 |
+| **ETH** Ethereum _(parcial)_ | 2.420 | **-0,9** | -2,7 | +0,1 | +31 | -0,1 | -38 | -18 | -37 |
 | **MINERIO** Minerio de ferro 62% Fe CFR China _(D-1, 15/10)_ · mínima de 52 semanas | 90,57 | **-0,2** | -0,5 | -7,0 | -8,3 | -15 | -14 | -15 | -26 |
 
 **Brent em reais:** R$ 556,36 por barril (16/10) · dia +3,2% · 1 mês +2,1% · no ano +67% (Brent do 1º vencimento × dólar).
@@ -212,11 +212,11 @@ Nomes completos: **QNTM** VanEck Quantum Computing UCITS ETF USD (Acc) · **QANT
 
 | Referência | US$/t | dia | 1 sem | 1 mês | leitura |
 |---|---:|---:|---:|---:|---|
-| **Celulose fibra longa** | 628 | -0,6 | -2,1 | - | 16/10 |
-| **Minerio de ferro Dalian** | 91 | +1,9 | +0,4 | - | 16/10 |
+| **Celulose fibra longa** | 629 | -0,4 | -1,9 | - | 16/10 |
+| **Minerio de ferro Dalian** | 91 | +2,0 | +0,5 | - | 16/10 |
 
-- **Celulose fibra longa**: futuro SP da SHFE (fibra longa) em CNY/t, sem o IVA de 13%; nao e preco de lista NBSK · CNY/t 4.748 a USD/CNY 6,69 = US$ 710/t com IVA
-- **Minerio de ferro Dalian**: futuro da DCE em CNY/t, sem o IVA de 13%; o CFR 62% em US$ e a linha MINERIO · CNY/t 685 a USD/CNY 6,69 = US$ 102/t com IVA
+- **Celulose fibra longa**: futuro SP da SHFE (fibra longa) em CNY/t, sem o IVA de 13%; nao e preco de lista NBSK · CNY/t 4.748 a USD/CNY 6,68 = US$ 711/t com IVA
+- **Minerio de ferro Dalian**: futuro da DCE em CNY/t, sem o IVA de 13%; o CFR 62% em US$ e a linha MINERIO · CNY/t 685 a USD/CNY 6,68 = US$ 103/t com IVA
 
 ---
 
@@ -292,7 +292,7 @@ Inflação implícita 2029 5,50% · 2032 5,68% · 2031/32 (descasado) 5,58% · F
 
 ### Como ler
 
-**Relógios:** Yahoo 18h12 · DI ajuste D0 · Tesouro base 15/10 · UST CMT D0 · PTAX 16/10
+**Relógios:** Yahoo 20h28 · DI ajuste D0 · Tesouro base 15/10 · UST CMT D0 · PTAX 16/10
 **Lacunas:** QANT: barra de 16/10 não bate com a cotação do Yahoo às 17:09 (5,6600 contra 5,6380, -0.39%); variação do dia a confirmar.
 **IUAA:** NAO e renda fixa ultracurta: cai ~6% a cada +100 bps na curva. Ler junto com UST 10y/30y. Caixa em dolar e o IB01.
 **Hipótese:** **EWY** iShares MSCI South Korea ETF · **MCHI** iShares MSCI China ETF — ETFs dos EUA, a confirmar.
