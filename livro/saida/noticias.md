@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 16/10 17h22
+NOTÍCIAS E FATOS · 16/10 17h50
 
-Pernas: noticias ok 11 novas (18 consultas; descartadas: 466 veículo fora da lista, 31 sem ativo, 2 teto) · cvm ok 0 novos de 11 (9 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 9 novas (18 consultas; descartadas: 471 veículo fora da lista, 33 sem ativo, 0 teto) · cvm ok 0 novos de 11 (9 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (1)
 
@@ -78,8 +78,17 @@ Fonte: g1 15/10 16h31
 id: E05-PETR4-a305718dd1-2026-10-15 · status: entregue
 
 
-## OUTRAS NOTÍCIAS (só manchete) (114)
+## OUTRAS NOTÍCIAS (só manchete) (123)
 
+· PETR4 Ibovespa sobe com Petrobras, mas perde 1,74% na semana com cautela eleitoral (Exame) https://exame.com/invest/mercados/ibovespa-sobe-com-petrobras-mas-perde-174-na-semana-com-cautela-eleitoral/
+· VALE3 Vale trocar um Tesouro IPCA+ por uma debênture da Sabesp? Títulos isentos passam a pagar mais que os públicos, mostra BTG (Seu Dinheiro) https://www.seudinheiro.com/2026/renda-fixa/vale-trocar-um-tesouro-ipca-por-uma-debenture-da-sabesp-titulos-isentos-mlim/
+· PLTR Palantir Stocks Fall 6.6% Although Mizuho Raises Target to $245 (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:f604ddfa1094b:0-palantir-stocks-fall-6-6-although-mizuho-raises-target-to-245/
+· USDBRL Ibovespa volta a subir, após três quedas, mas semana termina no negativo; Dólar cai (InfoMoney) https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-16102026/
+· USDBRL Dólar recua com possível fluxo ao país; na semana moeda avança 1,7% com Lula competitivo (Valor Economico) https://valor.globo.com/financas/noticia/2026/10/16/dolar-recua-com-possivel-fluxo-ao-pais-na-semana-moeda-avanca-17percent-com-lula-competitivo.ghtml
+· PETR4 Ibovespa ganha fôlego com Petrobras (PETR4) e interrompe ciclo de perdas; dólar cai (Money Times) https://www.moneytimes.com.br/ibovespa-16-10-26-lils/
+· MU Prediction: Micron Could Turn $10,000 Into a Fortune by 2030 (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/prediction-micron-could-turn-10-200500593.html
+· NVDA Dan Ives Says 'Buy the Dip' in Nvidia Stock After Brutal Sell-Off (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:344f1a007094b:0-dan-ives-says-buy-the-dip-in-nvidia-stock-after-brutal-sell-off/
+· BRENT Brent oil touches $110 as Iran escalates Hormuz attacks, Ukraine vows to hit Russian refineries (CNBC) https://www.cnbc.com/2026/10/16/oil-price-today-iran-strait-hormuz-ukraine-russia.html
 · USDBRL Dólar fecha semana em leve queda, cotado a R$ 5,07; Bolsa sobe (UOL Economia) https://economia.uol.com.br/cotacoes/noticias/redacao/2026/10/16/fechamento-dolar-bolsa-hoje-16-de-outubro-de-2026.ghtm
 · USDBRL Dólar à vista fecha em baixa de 0,30%, a R$5,0730 na venda Por Reuters (Investing.com) https://br.investing.com/news/forex-news/dolar-a-vista-fecha-em-baixa-de-030-a-r50730-na-venda-2094275
 · USDBRL Dólar interrompe sequência de ganhos e cai a R$ 5,07 com cautela eleitoral; moeda tem valorização de 1,7% na semana (Money Times) https://www.moneytimes.com.br/dolar-16-10-26-lils/
@@ -131,13 +140,4 @@ id: E05-PETR4-a305718dd1-2026-10-15 · status: entregue
 · BTC Current price of Bitcoin for October 16, 2026 (Fortune) https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Nb0szWjZ1TjJ4TktPakY2b2VmcWp4NGRCbXd6SVlLZlM1NFZTbjB3eWF3YzR1dGFwVjZxMXVYUEN2T2pCWGdHMjVyVGxBWEcxUF9WTkhOenZSOVRGN19uNFFGLTVRWXc?oc=5
 · MINERIO Iron ore price rebounds from two-year low on dip buying, improving steel margins (Mining.com) https://www.mining.com/web/iron-ore-price-rebounds-from-two-year-low-on-dip-buying-improving-steel-margins/
 · NVDA Nvidia (NVDA) Expands Nemotron As $4 Billion Texas Supply Push Meets Customer Debt Stress (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/nvidia-nvda-expands-nemotron-4-151233429.html
-· NVDA NVIDIA and Taiwan’s New Chip Law: The Real Risk Sits With Super Micro (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/nvidia-taiwan-chip-law-real-151150327.html
-· TSLA What Analyst Projections for Key Metrics Reveal About Tesla (TSLA) Q3 Earnings (Yahoo Finance) https://ca.finance.yahoo.com/news/analyst-projections-key-metrics-reveal-121518951.html
-· MRVL Marvell Technology, Inc. (MRVL) is Attracting Investor Attention: Here is What You Should Know (Yahoo Finance) https://au.finance.yahoo.com/news/marvell-technology-inc-mrvl-attracting-120009610.html
-· GOOGL Jack Henry to integrate with Google Cloud Universal Ledger By Investing.com (Investing.com) https://in.investing.com/news/stock-market-news/jack-henry-to-integrate-with-google-cloud-universal-ledger-93CH-5637748
-· GOOGL Jack Henry Expands Collaboration with Google Cloud to Deliver Tokenized Deposits for Banks and Credit Unions (PR Newswire) https://www.prnewswire.com/news-releases/jack-henry-expands-collaboration-with-google-cloud-to-deliver-tokenized-deposits-for-banks-and-credit-unions-302911361.html
-· TSLA Tesla Roadster Awes, But Shares Lag Into Earnings - Where To Buy (Downgrade) (NASDAQ:TSLA) (Seeking Alpha) https://seekingalpha.com/article/4954791-tesla-roadster-awes-but-shares-lag-into-earnings-where-to-buy-downgrade
-· JPM JPMorgan Chase CEO Jamie Dimon Warns That Inflation, Rising Asset Prices, and More "Continue to Shift Under the Surface." (Yahoo Finance) https://finance.yahoo.com/economy/articles/jpmorgan-chase-ceo-jamie-dimon-144300507.html
-· JPM Magalu vai à Shopee para crescer, mas JPMorgan não muda visão cautelosa para ação (InfoMoney) https://www.infomoney.com.br/mercados/magalu-vai-a-shopee-para-crescer-mas-jpmorgan-nao-muda-visao-cautelosa-para-acao/
-· MU Micron Stock’s Drop Triggers ‘Buy the Dip’ Calls. No One’s Listening. (Barron's) https://www.barrons.com/articles/micron-stock-price-drop-buy-ad2ff6d2
-· (+54 manchetes; lista completa em eventos/noticias.json)
+· (+63 manchetes; lista completa em eventos/noticias.json)
