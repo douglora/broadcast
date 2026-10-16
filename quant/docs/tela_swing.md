@@ -90,6 +90,7 @@ As chaves específicas da carteira de fatores (`hedge`, `protecao`, `gate`...) n
  "top": true, "ibov_ok": true, "porque": "frase", "destino": "medida",         // "capital" | "medida" | "recusada"
  "motivo": "setup só medido: reprovou na descoberta: ...",                      // por que não é capital, ou por que foi recusada (veto da mesa, véspera de resultado, sem espaço...)
  "variante": null, "qtd": null, "valor": null, "risco_rs": null,                // preenchidos só quando destino = "capital"
+ "capital_desde": null,                                                            // só com capital: quando a ordem passou a existir (ISO); o robô decide por ele se entra na abertura ou no último preço
  "proximo_resultado": null, "nota_resultado": null,
  "resultado_antes_da_abertura": null,                                              // true/false quando o terminal ou a mesa dizem o horário do resultado; null = não sabe
  "mesa": {"conviccao": 0, "setor_inclinacao": 0, "analisado": false, "gatilho_curto_prazo": null, "eventos_10_pregoes": []},

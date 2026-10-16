@@ -10,6 +10,7 @@ O QUE ELE FAZ:
      risco no preco real da abertura. Sem cotacao de hoje ate as 11h, a entrada e cancelada e anotada. Hoje nenhum setup tem capital: a lista vem vazia.
      Ordem que so passou a existir DEPOIS da abertura (boleta refeita ou liberada a tarde, 13/10/2026) nao entra no preco da abertura, que a essa hora
      ja nao existe: entra no ultimo preco do ciclo em que apareceu, com quantidade, stop e alvo a partir dele, e o diario anota "fora da abertura".
+     A hora em que a ordem passou a existir e a que a boleta grava na candidata (`capital_desde`), nao a da gravacao do arquivo.
   2. SAIDA. A cada ciclo confere stop, alvo e prazo (`posicao.decidir_saida`): stop e ordem a mercado simulada (no ultimo preco visto; se a abertura ja
      esta abaixo do stop, na abertura, PIOR que o stop); alvo e ordem limitada; no ultimo pregao do prazo (10o, no maximo) sai no leilao de fechamento.
   3. AS OPERACOES SO MEDIDAS NAO SAEM AQUI. Elas sao resolvidas na manha seguinte pelas barras oficiais (`estado.conciliar`), com a regra exata da
@@ -101,18 +102,30 @@ class RoboSwing:
         return list(self.boleta.get("bloqueios") or [])
 
     # ── entradas ─────────────────────────────────────────────
-    def _marcar_disponiveis(self, agora):
-        """Anota quando cada ordem com capital passou a existir. Ordem nova num ciclo: a hora da ultima gravacao da boleta (se ja passou) ou a do ciclo.
-        Assim a boleta da manha (gravada antes das 10h) entra na abertura mesmo com o robo religado no meio do dia, e a liberada a tarde nao."""
-        gravada = None
+    def _desde_da_ordem(self, c, agora):
+        """Quando a ordem com capital passou a existir: o `capital_desde` que a boleta grava na propria candidata (gerar, --refazer e --so-mesa
+        o mantem). A hora da gravacao do arquivo nao serve: o --so-mesa regrava a boleta da manha no meio do dia (revisao de 15/10/2026).
+        Boleta antiga, sem o campo: a hora em que ela foi gerada e, sem ela, a da gravacao do arquivo. Nunca depois de agora."""
+        for v in (c.get("capital_desde"), (self.boleta or {}).get("gerado")):
+            try:
+                d = datetime.fromisoformat(str(v)) if v else None
+            except ValueError:
+                d = None
+            if d is not None:
+                return min(d if d.tzinfo else d.replace(tzinfo=agora.tzinfo), agora)
         if self.boleta_lida_em:
-            gravada = datetime.fromtimestamp(self.boleta_lida_em, agora.tzinfo)
+            return min(datetime.fromtimestamp(self.boleta_lida_em, agora.tzinfo), agora)
+        return agora
+
+    def _marcar_disponiveis(self, agora):
+        """Anota quando cada ordem com capital passou a existir. A boleta da manha entra na abertura mesmo com o robo religado no meio do dia
+        (e mesmo que o --so-mesa tenha regravado o arquivo depois do sino); a ordem liberada a tarde entra no ultimo preco."""
         for c in self.boleta.get("candidatas") or []:
             if c.get("destino") != "capital":
                 continue
             pid = f"{self.hoje}|{c['setup']}|{c['ticker']}|capital"
             if pid not in self.disponivel:
-                self.disponivel[pid] = gravada if gravada is not None and gravada < agora else agora
+                self.disponivel[pid] = self._desde_da_ordem(c, agora)
 
     def _abertura_de_hoje(self, agora):
         h, m = (int(x) for x in ABERTURA.split(":"))
