@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 16/10 12h21
+NOTÍCIAS E FATOS · 16/10 12h26
 
-Pernas: noticias ok 10 novas (18 consultas; descartadas: 471 veículo fora da lista, 36 sem ativo, 0 teto) · cvm ok 0 novos de 0 (0 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 5 novas (18 consultas; descartadas: 465 veículo fora da lista, 35 sem ativo, 0 teto) · cvm ok 0 novos de 11 (9 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (1)
 
@@ -51,8 +51,13 @@ Fonte: g1 15/10 16h31
 id: E05-PETR4-a305718dd1-2026-10-15 · status: entregue
 
 
-## OUTRAS NOTÍCIAS (só manchete) (60)
+## OUTRAS NOTÍCIAS (só manchete) (65)
 
+· MINERIO Iron ore price rebounds from two-year low on dip buying, improving steel margins (Mining.com) https://www.mining.com/web/iron-ore-price-rebounds-from-two-year-low-on-dip-buying-improving-steel-margins/
+· NVDA Nvidia (NVDA) Expands Nemotron As $4 Billion Texas Supply Push Meets Customer Debt Stress (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/nvidia-nvda-expands-nemotron-4-151233429.html
+· NVDA NVIDIA and Taiwan’s New Chip Law: The Real Risk Sits With Super Micro (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/nvidia-taiwan-chip-law-real-151150327.html
+· TSLA What Analyst Projections for Key Metrics Reveal About Tesla (TSLA) Q3 Earnings (Yahoo Finance) https://ca.finance.yahoo.com/news/analyst-projections-key-metrics-reveal-121518951.html
+· MRVL Marvell Technology, Inc. (MRVL) is Attracting Investor Attention: Here is What You Should Know (Yahoo Finance) https://au.finance.yahoo.com/news/marvell-technology-inc-mrvl-attracting-120009610.html
 · GOOGL Jack Henry to integrate with Google Cloud Universal Ledger By Investing.com (Investing.com) https://in.investing.com/news/stock-market-news/jack-henry-to-integrate-with-google-cloud-universal-ledger-93CH-5637748
 · GOOGL Jack Henry Expands Collaboration with Google Cloud to Deliver Tokenized Deposits for Banks and Credit Unions (PR Newswire) https://www.prnewswire.com/news-releases/jack-henry-expands-collaboration-with-google-cloud-to-deliver-tokenized-deposits-for-banks-and-credit-unions-302911361.html
 · TSLA Tesla Roadster Awes, But Shares Lag Into Earnings - Where To Buy (Downgrade) (NASDAQ:TSLA) (Seeking Alpha) https://seekingalpha.com/article/4954791-tesla-roadster-awes-but-shares-lag-into-earnings-where-to-buy-downgrade
@@ -108,8 +113,4 @@ id: E05-PETR4-a305718dd1-2026-10-15 · status: entregue
 · BTC Capital B posts wider H1 net loss of $78 million on bitcoin impairment charge (The Block) https://www.theblock.co/news/business/2026-10-16-capital-b-wider-h1-net-loss-418781
 · AMZN AWS, Microsoft can do more to address cloud services barriers, UK competition watchdog says (Reuters) https://www.reuters.com/legal/litigation/aws-microsoft-can-do-more-address-cloud-services-barriers-uk-competition-2026-10-16/
 · JPM JPMorgan upgrades Fomento Economico stock rating on earnings momentum (Investing.com) https://www.investing.com/news/analyst-ratings/jpmorgan-upgrades-fomento-economico-stock-rating-on-earnings-momentum-93CH-4953424
-· UST Gold Advances as Treasury Yield Decline and Dollar Weakness Offset Interest Rate Concerns (Yahoo Finance) https://uk.finance.yahoo.com/news/gold-advances-treasury-yield-decline-090642754.html
-· UST Gold Prices Rise as Lower US Treasury Yields and Weaker Dollar Support Precious Metals (Yahoo Finance) https://finance.yahoo.com/markets/commodities/articles/gold-prices-rise-lower-us-090517927.html
-· DI Tesouro Selic, IPCA+ ou Prefixado? Onde investir de olho no segundo turno das eleições (Estadao) https://news.google.com/rss/articles/CBMi3gFBVV95cUxPOFpzcHI3RlN6OUVBQ3hIbWhqUmhEdmFfdFp1Q3dfekQ5LU1MamdmMzY1Ym0tTkJaNjVWdWE3RFNCSmh6YTRlNG9TNnhZQmFPTlk3aUwtenpwZkRWWE1vem9hTUpKenJnbU9rSnZjMEtITjM0WmlFSUtsdUlFNkd5b2xyOS1Oa2RiRVl0ZkRvOFh1Q09ycjc4YU1NX1ZRYkhPRVJHTHVWckxXMmZ1N3gydG5qWDhyaFpOWDlRb1RXYjE5OHpWWU5GNVEzdmJFZk8wcHVITlFQVjBnN2pPX2c?oc=5
-· PETR4 Petrobras dobra de valor e bate recorde na Bolsa: ainda vale comprar? (Exame) https://news.google.com/rss/articles/CBMirgFBVV95cUxOSFVsX3F3a21oS0JQNm03Z3dtZ1B0dC15Q3JCVW1qUTJ5YWFTMk9oRWFCUW5BTnQ2MWhtZnVVWGJ4ekx0TEdueVRzU0NRUU02NThmSWptZW5Cd0xBTVBnNVRfNlM3V0NhUWlHUFdSMFBUOUMyN3FvZEZrelB2TjdCRk9LNkFFbVlDVWdGa0JaQ0hfR2tlVklqUmtqeUUwNlpGbkdQQ0x5NGpFODlCSnc?oc=5
-· TSLA Warsh avoids rate guidance; Tesla’s Roadster turns in air - what’s moving markets (Yahoo Finance) https://news.google.com/rss/articles/CBMiiAFBVV95cUxQU0lHSk10UmQtUjFlb2VSSWtVS3E1dkUyTllTQTQ4WXlHT1RCSmNLMDRFZGktY1ZyUFU1eXhuYjJJTmZ6VHdSLWtCT01fcHA5NUllOEdhRkJkWUo0bXNVUDd3UWJCUEhwX08xNUkwT1pSd3BQeXN4LVRPVkZMaVY5TW1qbWZXS0hw?oc=5
+· (+5 manchetes; lista completa em eventos/noticias.json)
