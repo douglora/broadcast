@@ -14,7 +14,10 @@ O SINAL
   A mesma classe do teste historico (estrategias_hist.PhiCube), chamada quando fecha uma barra do tempo
   menor: o que o robo opera ao vivo e exatamente o que foi testado no passado.
 """
+import glob
 import os
+import time
+from collections import Counter
 from datetime import date, timedelta
 
 import numpy as np
@@ -90,6 +93,21 @@ class Barras:
         self._gravar_linhas(novos)
         return len(novos) + len(trocas)
 
+    def juntar_do_servidor(self, serv, antes_de):
+        """Nos dias que o historico do servidor do MetaTrader tem (so os anteriores a `antes_de`), as barras passam a ser as dele, inteiras:
+        o servidor guarda o pregao todo, e as do robo so tem o que ele viu ligado (e podem passar do fim do pregao com amostra do motor).
+        Hoje nao muda. Nada e gravado no arquivo do robo. Devolve quantos dias vieram do servidor."""
+        if serv is None or not len(serv):
+            return 0
+        serv = serv[serv.index < pd.Timestamp(str(antes_de))][["o", "h", "l", "c", "n", "v"]]
+        if not len(serv):
+            return 0
+        dias = serv.index.normalize().unique()
+        fica = self.df[~self.df.index.normalize().isin(dias)]
+        self.df = pd.concat([fica, serv]).sort_index().iloc[-MAXIMO_NA_MEMORIA:]
+        self.ultimo_minuto = self.df.index[-1] if len(self.df) else None
+        return len(dias)
+
     def _gravar_linhas(self, barras):
         try:
             garantir_dir(os.path.dirname(self.arq_proprio))
@@ -135,6 +153,115 @@ def falha_de_ontem(df, hoje, fim_minimo="17:50", buraco_min=15):
     for k, s in enumerate(saltos):
         if s > pd.Timedelta(minutes=buraco_min):
             return f"as barras de {dia.strftime('%d/%m')} têm um buraco das {d[k].strftime('%H:%M')} às {d[k + 1].strftime('%H:%M')}"
+    return None
+
+
+def _nome_historia(simbolo, rotulo):
+    return f"autopilot_historia_{simbolo.replace('$', 'S').replace('@', 'A')}_M{rotulo}.csv"
+
+
+def _historia_pronta(caminho, simbolo):
+    """O arquivo e um historico de 1 minuto do `simbolo` e o leitor do MetaTrader ja terminou de grava-lo ('#HISTORIA;1;<simbolo>;...' na
+    primeira linha e '#FIM' na ultima)."""
+    try:
+        with open(caminho, "rb") as f:
+            cab = f.readline().decode("latin-1").strip().split(";")
+            f.seek(0, os.SEEK_END)
+            f.seek(max(0, f.tell() - 32))
+            fim = f.read().decode("latin-1").strip()
+    except OSError:
+        return False
+    return len(cab) >= 3 and cab[0] == "#HISTORIA" and cab[1] == "1" and cab[2] == simbolo and fim.endswith("#FIM")
+
+
+def arquivos_de_historia(ativo, pasta_mt5, desde_ts=0.0):
+    """[(mtime, caminho)] dos historicos de 1 minuto do contrato que o MetaTrader entregou (pedidos da prova viva da manha, da revisao e do
+    proprio robo) gravados a partir de `desde_ts`, o mais novo primeiro."""
+    simbolo = SERIE_DO_PASSADO.get(ativo, ativo)
+    fora = []
+    for caminho in glob.glob(os.path.join(glob.escape(pasta_mt5 or ""), _nome_historia(simbolo, "*"))):
+        try:
+            mt = os.path.getmtime(caminho)
+        except OSError:
+            continue
+        if mt >= desde_ts and _historia_pronta(caminho, simbolo):
+            fora.append((mt, caminho))
+    return sorted(fora, reverse=True)
+
+
+def historia_do_servidor(arquivos, fuso=None):
+    """As barras de 1 minuto dos `arquivos` (de `arquivos_de_historia`), juntas dia a dia. Para cada dia vale, entre os arquivos gravados num
+    dia SEGUINTE, o que tem mais barras dele; sem nenhum, o mais novo. Por que: de noite o servidor ainda guarda o leilao de fechamento numa
+    barra das 18h31, que no dia seguinte vai para a das 18h24 (a da pesquisa); e um pedido as vezes vem cortado (o das 08h51 de 16/10/2026
+    parava as 15h55 de 15/10, o das 08h52 ia ate as 18h24)."""
+    escolha = {}                                               # dia -> (dia seguinte?, barras do dia, mtime, DataFrame do dia)
+    for mt, caminho in arquivos:
+        try:
+            df = hist.carregar(caminho)
+        except Exception:
+            continue
+        gravado = pd.Timestamp.fromtimestamp(mt, fuso).tz_localize(None).normalize() if fuso else pd.Timestamp.fromtimestamp(mt).normalize()
+        for dia, g in df.groupby(df.index.normalize()):
+            chave = (bool(gravado > dia), len(g), mt)
+            if dia not in escolha or chave > escolha[dia][:3]:
+                escolha[dia] = chave + (g,)
+    if not escolha:
+        return pd.DataFrame(columns=["o", "h", "l", "c", "n", "v"], index=pd.DatetimeIndex([], name="hora"), dtype=float)
+    return pd.concat([escolha[d][3] for d in sorted(escolha)])
+
+
+def pedir_historia(ativo, pasta_mt5, rotulo, quantas, abandonado_s=600):
+    """Pede ao leitor do MetaTrader as barras de 1 minuto do contrato SEM ESPERAR (o robo nao para por isso): o arquivo chega na pasta dele
+    em alguns segundos e o robo o junta no minuto seguinte. So escreve o pedido quando o anterior ja foi atendido (o arquivo dele existe) ou
+    foi abandonado (mais de `abandonado_s` sem resposta), para nao atropelar o da prova viva ou o da revisao. Nada e apagado.
+    Devolve o caminho do arquivo esperado, ou None quando nao pediu."""
+    simbolo = SERIE_DO_PASSADO.get(ativo, ativo)
+    destino = os.path.join(pasta_mt5, _nome_historia(simbolo, int(rotulo)))
+    if os.path.exists(destino):
+        return destino
+    pedido = os.path.join(pasta_mt5, "autopilot_historia.txt")
+    try:
+        recente = time.time() - os.path.getmtime(pedido) < abandonado_s
+        with open(pedido, encoding="ascii", errors="ignore") as f:
+            linhas = [x.strip().split(";") for x in f.read().splitlines() if x.strip()]
+        if recente and any(len(c) >= 2 and c[1].isdigit() and not os.path.exists(os.path.join(pasta_mt5, _nome_historia(c[0], c[1])))
+                           for c in linhas):
+            return None                                        # outro pedido ainda esperando o leitor
+    except OSError:
+        pass
+    try:
+        with open(pedido, "w", encoding="ascii") as f:
+            f.write(f"{simbolo};{int(rotulo)};{int(quantas)}\n")
+    except OSError:
+        return None
+    return destino
+
+
+def falha_da_vespera(df, hoje, anterior, buraco_min=15, sessoes=10):
+    """Por que o pregao anterior nas barras nao serve para uma regra que conta os minutos a partir do fim dele (a do mini-indice no fim do
+    pregao decide 31 minutos antes da hora da ultima barra do pregao anterior), ou None. Confere: o pregao `anterior` (calendario da B3) esta
+    nas barras; nao tem buraco de mais de `buraco_min` minutos; e a ultima barra dele e a da hora em que os pregoes terminam (a mais comum dos
+    `sessoes` anteriores) ou a do pregao de antes (mudanca de horario da B3). Revisao de 15/10/2026 do achado 10."""
+    ant = pd.Timestamp(str(anterior))
+    antes = df[df.index < pd.Timestamp(str(hoje))] if df is not None and len(df) else None
+    if antes is None or not len(antes):
+        return f"sem barras do pregão de {ant.strftime('%d/%m')}"
+    if antes.index[-1].normalize() != ant:
+        return f"faltam as barras do pregão de {ant.strftime('%d/%m')} (as últimas são de {antes.index[-1].strftime('%d/%m')})"
+    d = antes[antes.index >= ant].index
+    saltos = (d[1:] - d[:-1]) if len(d) > 1 else []
+    for k, s in enumerate(saltos):
+        if s > pd.Timedelta(minutes=buraco_min):
+            return f"as barras de {ant.strftime('%d/%m')} têm um buraco das {d[k].strftime('%H:%M')} às {d[k + 1].strftime('%H:%M')}"
+    previas = antes[antes.index < ant].index
+    if not len(previas):
+        return None                                            # sem pregao de antes nao ha com que comparar
+    fins = pd.Series(previas, index=previas).groupby(previas.normalize()).max().iloc[-sessoes:].dt.strftime("%H:%M").tolist()
+    conta = Counter(fins)
+    comum = max(conta, key=lambda h: (conta[h], max(i for i, x in enumerate(fins) if x == h)))
+    fim = d[-1].strftime("%H:%M")
+    if fim not in (comum, fins[-1]):
+        return f"as barras de {ant.strftime('%d/%m')} terminam às {fim}, e o pregão termina às {comum}"
     return None
 
 

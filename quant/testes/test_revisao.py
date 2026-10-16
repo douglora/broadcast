@@ -267,7 +267,7 @@ PMSET_1510 = """2026-10-15 08:00:15 -0300 DarkWake            \tDarkWake from De
 """
 
 
-def _pregao_1510(tmp_path, cegueira, negocios_win=False, sinais_win=False, labs_rodando=None):
+def _pregao_1510(tmp_path, cegueira, negocios_win=False, sinais_win=False, labs_rodando=None, vespera=None, sinais=()):
     """15/10: o robo so montou barras do mini-dolar a partir das 9h25 (antes o Mac dormia), sem negocio do dolar."""
     dia = "2026-10-15"
     pasta = tmp_path / "dt"
@@ -275,7 +275,9 @@ def _pregao_1510(tmp_path, cegueira, negocios_win=False, sinais_win=False, labs_
     est = {"operacoes": [], "diario": [], "curva": [["09:25", 0.0]], "cegueira": cegueira}
     if labs_rodando is not None:
         est["labs_rodando"] = labs_rodando
-    linhas = []
+    if vespera is not None:
+        est["vespera"] = vespera
+    linhas = list(sinais)
     if negocios_win:      # o mini-indice da regra do laboratorio: comprou 1 a 209.105 as 17h41 e saiu por tempo as 18h06 a 209.400
         est["operacoes"].append({"tipo": "saida", "ativo": "WINFUT", "lado": "C", "contratos": 1, "entrada": 209105.0, "hora_entrada": "17:41:03",
                                  "saida": 209400.0, "hora_saida": "18:06:03", "motivo": "tempo esgotado", "pontos": 295.0, "custos": 0.6,
@@ -356,3 +358,46 @@ def test_regra_do_mini_indice_fora_do_robo_nao_e_cegueira(tmp_path, monkeypatch)
     pasta, dia = _pregao_1510(tmp_path / "c", cegueira=cego, labs_rodando={"win_teste": "WINFUT"})
     rev = rv.revisar(dia, pasta=str(pasta), servidor=_servidor(dia), dist=_dist(), consertos=[], sono=[], registro=REG_WIN)
     assert [x["chave"] for x in rev["itens"] if x["chave"].startswith(("b:cego:", "b:lab:"))] == ["b:cego:win_teste"]
+
+
+# ── revisao de 15/10/2026 (problemas apontados pelo revisor no conserto dos achados 10 e 44) ──
+def _sinal_win(hora, bloqueio):
+    return {"tipo": "sinal", "ativo": "WINFUT", "tecnica": "fim do pregão (teste)", "lado": "C", "entrada": 209105.0, "stop_pts": 500.0,
+            "tempo_max_s": 1500.0, "opera": False, "bloqueio": bloqueio, "hora": hora, "quando": f"2026-10-15T{hora}-03:00", "medidas": {"dose": 1}}
+
+
+def test_barra_atrasada_da_regra_que_opera_vira_item_do_caderno(tmp_path):
+    """A regra que opera e ficou so medida porque a barra do motor chegou atrasada e falha de execucao: antes ia so para por_motivo, com uma
+    chave por minuto ('barra das 17:39 chegou atrasada', 'barra das 17:40 ...'), e nao virava item do caderno."""
+    sinais = [_sinal_win("17:41:03", "barra das 17:39 chegou atrasada"), _sinal_win("17:42:03", "barra das 17:40 chegou atrasada")]
+    pasta, dia = _pregao_1510(tmp_path, cegueira=[], labs_rodando={"win_teste": "WINFUT"}, vespera={"WINFUT": None}, sinais=sinais)
+    rev = rv.revisar(dia, pasta=str(pasta), servidor=_servidor(dia), dist=_dist(), consertos=[], sono=[], registro=REG_WIN)
+    item = [x for x in rev["itens"] if x["chave"] == "b:sinal:barra atrasada"]
+    assert len(item) == 1 and "2 sinal(is) de fim do pregão (teste) (17:41, 17:42)" in item[0]["texto"]
+    assert "barra das 17:39 chegou atrasada; barra das 17:40 chegou atrasada" in item[0]["texto"] and "motor" in item[0]["acao"]
+    regra = next(x for x in rev["por_regra"] if x["tecnica"] == "fim do pregão (teste)")
+    assert regra["por_motivo"] == {"barra atrasada": 2}
+    assert not any(x["chave"].startswith("b:lab:vespera") for x in rev["itens"])
+
+
+def test_vespera_incompleta_do_mini_indice_vira_item_da_regra(tmp_path):
+    """A regra do mini-indice decide pela ultima barra do pregao anterior. Com a vespera cortada (15h54) ela decide as 15h23, fora da janela,
+    e nao da sinal: a revisao nao acusava nada, porque labs_rodando dizia que a regra rodou. Agora o robo grava a vespera e a revisao acusa."""
+    falha = "as barras de 14/10 terminam às 15:54, e o pregão termina às 18:24"
+    pasta, dia = _pregao_1510(tmp_path, cegueira=[], labs_rodando={"win_teste": "WINFUT"}, vespera={"WINFUT": falha})
+    rev = rv.revisar(dia, pasta=str(pasta), servidor=_servidor(dia), dist=_dist(), consertos=[], sono=[], registro=REG_WIN)
+    item = [x for x in rev["itens"] if x["chave"] == "b:lab:vespera:win_teste"]
+    assert len(item) == 1 and falha in item[0]["texto"] and "não deu sinal no minuto da pesquisa" in item[0]["texto"]
+    assert "MetaTrader" in item[0]["acao"]
+    # com o sinal so medido pela vespera: o mesmo item (da regra), e o sinal conta pelo motivo, sem item duplicado
+    sinais = [_sinal_win("17:40:03", "véspera incompleta: " + falha)]
+    pasta, dia = _pregao_1510(tmp_path / "b", cegueira=[], labs_rodando={"win_teste": "WINFUT"}, vespera={"WINFUT": falha}, sinais=sinais)
+    rev = rv.revisar(dia, pasta=str(pasta), servidor=_servidor(dia), dist=_dist(), consertos=[], sono=[], registro=REG_WIN)
+    assert [x["chave"] for x in rev["itens"] if x["chave"].startswith(("b:lab:", "b:sinal:"))] == ["b:lab:vespera:win_teste"]
+    assert "o sinal de hoje ficou só medido" in rev["itens"][-1]["texto"]
+    assert next(x for x in rev["por_regra"] if x["tecnica"] == "fim do pregão (teste)")["por_motivo"] == {"véspera incompleta": 1}
+    # vespera boa, ou estado antigo sem o campo: nada
+    for vesp in ({"WINFUT": None}, None):
+        pasta, dia = _pregao_1510(tmp_path / f"c{vesp is None}", cegueira=[], labs_rodando={"win_teste": "WINFUT"}, vespera=vesp)
+        rev = rv.revisar(dia, pasta=str(pasta), servidor=_servidor(dia), dist=_dist(), consertos=[], sono=[], registro=REG_WIN)
+        assert not any(x["chave"].startswith("b:lab:vespera") for x in rev["itens"])

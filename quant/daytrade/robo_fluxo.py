@@ -104,6 +104,8 @@ CEGO_AVISO_S = 300.0
 # barra que chega com mais de LAB_ATRASO_MIN de atraso so e medida (a regra decide no fechamento e entra no minuto seguinte)
 LAB_RELER_S = 5.0
 LAB_ATRASO_MIN = 2
+VESPERA_PEDIDOS = 3               # pedidos de historico ao MetaTrader por dia, por contrato, enquanto a vespera do contrato extra nao serve
+VESPERA_ENTRE_PEDIDOS_S = 1200.0  # e o intervalo entre eles
 DIR_REVISAO = os.path.join(os.path.dirname(DIR_DT), "revisao")    # a revisao do pregao (quant/pesquisa/revisao.py) grava aqui
 
 
@@ -418,6 +420,10 @@ class RoboFluxo:
             self.fitas_mini[a] = fx.Fita(a, es.CONTRATOS[a]["tick"])
             self.barras[a] = br.Barras(a, DIR_DT, pasta_mt5)
         self.lab_lido_em = {}                                    # contrato fora dos ATIVOS -> relogio da ultima leitura do motor
+        # revisao de 15/10/2026 do achado 10: a regra do mini-indice decide pela ultima barra do pregao ANTERIOR (_conferir_vespera)
+        self.vespera = {}                                        # contrato extra -> por que a vespera nas barras nao serve (None: serve)
+        self.vespera_arqs = {}                                   # contrato extra -> historicos do MetaTrader ja juntados
+        self.vespera_pedidos = {}                                # contrato extra -> [relogio de cada pedido de historico feito nesta execucao]
         # a pausa do dado segue o horario do dado americano do dia (9h30 no horario de verao dos EUA, 10h30 fora): 15/10/2026, achado 81
         self.p.pausa_dado = br.pausa_do_dado(datetime.strptime(self.hoje, "%Y-%m-%d").date())
         self.outras = self._outras_regras_do_dia()             # o dia e um so: perdas e resultado das regras que ja rodaram hoje
@@ -504,7 +510,9 @@ class RoboFluxo:
             "marcos": sorted(self.marcos), "codigos": self.codigos,
             "ajustes": self.ajustes, "cegueira": self._cegueira_ate_agora(),
             # as regras do laboratorio que este robo roda hoje, com o contrato: a revisao da noite separa "nao rodou" de "rodou e nao deu sinal"
-            "labs_rodando": {sl.nome: sl.ativo for sl in self.labs if sl.ativo in self.todos}}, ensure_ascii=False))
+            "labs_rodando": {sl.nome: sl.ativo for sl in self.labs if sl.ativo in self.todos},
+            # contrato extra -> por que a vespera nas barras nao servia (None: servia); a revisao da noite acusa a regra que opera nele
+            "vespera": {a: self.vespera[a] for a in self.extras if a in self.vespera}}, ensure_ascii=False))
 
     def _cegueira_ate_agora(self, agora=None):
         """Os intervalos cegos do dia, com o que esta aberto agora (se ja passou do aviso)."""
@@ -614,7 +622,7 @@ class RoboFluxo:
         return True
 
     # ── fita, contratos e ajuste ─────────────────────────────
-    def preparar(self):
+    def preparar(self, agora=None):
         """Descobre o contrato vigente de cada futuro, pede a fita dele e le o ajuste de ontem. O contrato que so tem regra do
         laboratorio (achado 10) entra so na descoberta do codigo: a fita dele nao e pedida."""
         for a in self.todos:
@@ -628,6 +636,8 @@ class RoboFluxo:
                 self.leitor.pedir(sorted(set(meus.values()) | {codigo_da_fonte(a, c) for a, c in meus.items()}))
             except OSError as e:
                 log(f"nao consegui pedir a fita ao MetaTrader: {e}")
+        for a in self.extras:                                    # a vespera do contrato so de regra do laboratorio (revisao do achado 10)
+            self._conferir_vespera(a, agora)
         meus = {a: c for a, c in self.codigos.items() if a in ATIVOS}
         self.ontem_oficial = extremos_oficiais(meus, self.hoje)   # maxima, minima e fechamento de ontem: os oficiais da B3 (achado 41)
         for a in ATIVOS:
@@ -646,6 +656,55 @@ class RoboFluxo:
                                 self.ajustes[a] = _num(c[12])
             except OSError:
                 pass
+
+    def _conferir_vespera(self, a, agora=None):
+        """A regra do mini-indice no fim do pregao decide 31 minutos antes da hora da ULTIMA barra do pregao ANTERIOR. As barras desse contrato
+        vinham do historico do MetaTrader exportado uma vez (parado em 13/10/2026) e do motor so enquanto o robo roda: a vespera faltava, vinha
+        cortada (15h54 decide as 15h23, fora da janela, e a regra nao opera sem aviso) ou passava do fim (18h31 decide as 18h00, e o zerar corta
+        os 25 minutos). Revisao de 15/10/2026 do achado 10. Aqui: junta o historico do servidor que a prova viva da manha (ou o proprio robo)
+        pediu, confere a vespera (barras.falha_da_vespera) e, se ainda nao serve, pede de novo ao MetaTrader sem esperar. Enquanto nao servir,
+        o sinal da regra que opera nesse contrato fica so medido, com o motivo (_rodar_labs); a tela avisa e a revisao da noite acusa."""
+        b = self.barras.get(a)
+        if b is None or (a in self.vespera and self.vespera[a] is None):
+            return
+        agora = agora or agora_brt()
+        hoje = datetime.strptime(self.hoje, "%Y-%m-%d").date()
+        try:
+            from quant.dados import calendario as cal
+            anterior = cal.pregao_anterior(hoje)
+        except Exception:                                        # sem o calendario: o dia util anterior
+            anterior = hoje - timedelta(days=1)
+            while anterior.weekday() >= 5:
+                anterior -= timedelta(days=1)
+        desde = datetime(anterior.year, anterior.month, anterior.day, tzinfo=agora.tzinfo).timestamp()
+        try:
+            arqs = br.arquivos_de_historia(a, self.leitor.pasta, desde)
+            if arqs and arqs != self.vespera_arqs.get(a):
+                self.vespera_arqs[a] = arqs
+                dias = b.juntar_do_servidor(br.historia_do_servidor(arqs, agora.tzinfo), hoje)
+                log(f"{a}: {dias} pregao(oes) das barras vieram do historico do servidor do MetaTrader ({len(arqs)} arquivo(s))")
+            falha = br.falha_da_vespera(b.df, hoje, anterior)
+        except Exception as e:                                   # conferencia que quebra nao derruba o robo: a vespera fica sem servir
+            falha = f"erro ao conferir as barras: {type(e).__name__}: {e}"
+        nome = es.CONTRATOS[a]["nome"]
+        self.vespera[a] = falha
+        if falha is None:
+            if f"vespera:{a}" in self.marcos:
+                self.marco(f"vespera_ok:{a}", "lab", f"{nome}: a véspera ficou completa (barras do servidor do MetaTrader); a regra do "
+                                                     "laboratório volta a poder operar.", agora)
+            return
+        self.marco(f"vespera:{a}", "lab", f"{nome}: véspera incompleta nas barras ({falha}). A regra do laboratório decide pelo fim do "
+                                          "pregão anterior: enquanto isso o sinal dela fica só medido. O robô pediu as barras ao MetaTrader.", agora)
+        pedidos = self.vespera_pedidos.setdefault(a, [])
+        if len(pedidos) >= VESPERA_PEDIDOS or (pedidos and agora.timestamp() - pedidos[-1] < VESPERA_ENTRE_PEDIDOS_S):
+            return
+        quantas = min(900_000, max([sl.barras for sl in self.labs if sl.ativo == a] or [15_000]) + 2_000)
+        rotulo = int(agora.strftime("%y%m%d")) * 1000 + 700 + len(pedidos)   # 7xx: nao cruza com a prova viva (dia*10/*100) nem a revisao (8xx, 9xx)
+        try:
+            if br.pedir_historia(a, self.leitor.pasta, rotulo, quantas):
+                pedidos.append(agora.timestamp())
+        except OSError:
+            pass
 
     def ler_fita(self):
         mini = {cod: a for a, cod in self.codigos.items() if a in ATIVOS}
@@ -807,7 +866,7 @@ class RoboFluxo:
         self._vigiar_feed(agora)
         pregao = agora.weekday() < 5 and ABERTURA <= hora[:5]
         if pregao and (not all(a in self.codigos for a in ATIVOS) or int(ts) % 60 == 0 or not self.preparado):
-            self.preparar()
+            self.preparar(agora)
             self.preparado = True
         self.ler_fita()
         fita_ok = (time.time() - self.ultima_fita) <= FITA_PARADA_S if self.ultima_fita else False
@@ -975,10 +1034,13 @@ class RoboFluxo:
             if s_lab is None:
                 continue
             reservado = self._perto_do_dado(agora)
-            opera_lab = sl.estado == "opera" and not reservado and fresco
+            # contrato so de regra do laboratorio: com a vespera que nao serve, a regra decide no minuto errado (_conferir_vespera)
+            vespera = self.vespera.get(a, "véspera não conferida") if a in self.extras else None
+            opera_lab = sl.estado == "opera" and not reservado and fresco and not vespera
             motivo = None
             if sl.estado == "opera" and not opera_lab:
-                motivo = self._motivo_reserva(agora) if reservado else f"barra das {df.index[-1].strftime('%H:%M')} chegou atrasada"
+                motivo = (self._motivo_reserva(agora) if reservado else f"barra das {df.index[-1].strftime('%H:%M')} chegou atrasada" if not fresco
+                          else f"véspera incompleta: {vespera}")
             s_lab["medidas"]["fita"] = self.leitura_da_fita(a, s_lab["lado"], s_lab["nivel"])
             self._guardar_sinal(a, s_lab, agora, opera=opera_lab, motivo=motivo)
             if opera_lab and sinal is None:
@@ -1007,6 +1069,7 @@ class RoboFluxo:
             self.leitura_pc[a] = {"pronto": False, "motivo": f"erro nas barras: {type(e).__name__}: {e}"}
             return None
         novos = b.df.index if antes is None else b.df.index[b.df.index > antes]
+        novos = novos[novos >= br.pd.Timestamp(self.hoje)]          # so as barras de hoje: as de dias passados nunca sao "novas"
         sinal = None
         for t in novos:
             fresco = t >= fechado - br.pd.Timedelta(minutes=LAB_ATRASO_MIN)
@@ -1018,7 +1081,7 @@ class RoboFluxo:
     def _motivo_reserva(self, agora):
         """O motivo gravado no sinal que a regra operaria, mas que caiu na reserva do dado (15/10/2026, achado 44)."""
         dado = next(iter(self.dado.values())).horarios(agora.date())[0] if self.dado else None
-        return "reservado ao dado" + ("" if dado is None else f" das {dado.strftime('%Hh%M')}")
+        return "reservado ao dado" + ("" if dado is None else f" das {dado.hour}h{dado.minute:02d}")     # "9h30", como ef.hora_do_dado
 
     def _perto_do_dado(self, agora):
         """Da reserva antes do dado ate o minuto da entrada, a vaga e do setup proprio."""
@@ -1309,6 +1372,22 @@ class RoboFluxo:
         return frases
 
     # ── o estado que a tela le ───────────────────────────────
+    def _instrumento_lab(self, a, agora, posicoes, ops):
+        """O contrato que so tem regra do laboratorio (o mini-indice) tambem entra em `instrumentos`, com o essencial: a tela formata o preco
+        e os pontos pelo tick dele, faz a conta da posicao ao vivo pelo valor do ponto e mostra o resultado. Sem fluxo, niveis nem as
+        leituras do quadro (o robo nao le a fita desse contrato). Antes, o sinal do mini-indice saia com as casas do mini-dolar e a posicao
+        dele ficava sem resultado ao vivo (revisao de 15/10/2026 do achado 10)."""
+        e, c, k = self.estados[a], self.cot.get(a) or {}, es.CONTRATOS[a]
+        pos = self._posicao_na_tela(a, agora, posicoes, ops)
+        fechadas = [o for o in self.operacoes if o["ativo"] == a]
+        return {"ativo": a, "nome": k["nome"], "contrato": self.codigos.get(a), "valor_ponto": k["valor_ponto"], "tick": k["tick"],
+                "ultimo": c.get("preco"), "variacao_pct": c.get("var"), "medio_dia": c.get("medio"), "maxima": c.get("maxima"),
+                "minima": c.get("minima"), "abertura": c.get("abertura"), "anterior": c.get("anterior"), "ajuste": c.get("ajuste"),
+                "idade_s": c.get("idade_s"), "so_laboratorio": True, "regras_laboratorio": [sl.titulo for sl in self.labs if sl.ativo == a],
+                "vespera": self.vespera.get(a), "niveis": [], "espera": [], "fluxo": None,
+                "posicao": pos, "operacoes_hoje": e.operacoes, "restam": max(self.p.max_operacoes - e.operacoes, 0),
+                "resultado": sum(float(o["resultado"]) for o in fechadas) + ((pos or {}).get("aberto") or 0.0)}
+
     def _posicao_na_tela(self, a, agora, posicoes, ops):
         """A posicao aberta do contrato para a tela: acrescenta em `posicoes` e em `ops` e devolve o bloco do instrumento (None sem posicao)."""
         e, c, k = self.estados[a], self.cot.get(a) or {}, es.CONTRATOS[a]
@@ -1423,6 +1502,12 @@ class RoboFluxo:
                               + ("Máxima, mínima e fechamento de ontem vêm do boletim oficial da B3; as médias de 36, 72 e 205 do gráfico de "
                                  "6 minutos atravessam o buraco." if self.ontem_oficial.get(a) else
                                  "Sem o boletim oficial da B3, máxima, mínima e fechamento de ontem e as médias saem dessas barras e podem estar errados."))
+        for a in self.extras:                                    # a vespera do contrato so de regra do laboratorio (revisao do achado 10)
+            regras = [sl.titulo for sl in self.labs if sl.ativo == a and sl.estado == "opera"]
+            if em_hora and regras and self.vespera.get(a) and self.setup == "niveis":
+                avisos.insert(1, f"{es.CONTRATOS[a]['nome']}: véspera incompleta nas barras ({self.vespera[a]}). "
+                              f"A regra do laboratório ({', '.join(regras)}) decide pelo fim do pregão anterior: enquanto isso o sinal dela "
+                              "fica só medido. O robô pede as barras ao MetaTrader sozinho.")
         if em_hora and sem_ajuste:
             avisos.insert(1, "Sem o ajuste oficial de ontem (" + ", ".join(sem_ajuste) + "): o nível do ajuste ficou de fora e a "
                           "variação do dia usa o último negócio de ontem.")
@@ -1439,8 +1524,7 @@ class RoboFluxo:
             avisos.insert(0, alerta)
             texto = alerta + " " + texto
         instrumentos, ops, posicoes = [], [dict(o, aberta=False) for o in self.operacoes], []
-        for a in self.extras:                                    # contrato so de regra do laboratorio: sem painel proprio, mas a posicao aparece
-            self._posicao_na_tela(a, agora, posicoes, ops)
+        extras = [self._instrumento_lab(a, agora, posicoes, ops) for a in self.extras]   # vao no fim de `instrumentos`
         for a in ATIVOS:
             e, c, k = self.estados[a], self.cot.get(a) or {}, es.CONTRATOS[a]
             f, fonte = self.fita_de(a)
@@ -1493,6 +1577,7 @@ class RoboFluxo:
                           "livro_compra": (livro.get("compra") or [])[:10], "livro_venda": (livro.get("venda") or [])[:10]},
                 "posicao": pos, "operacoes_hoje": e.operacoes, "restam": max(p.max_operacoes - e.operacoes, 0),
                 "resultado": sum(float(o["resultado"]) for o in fechadas) + ((pos or {}).get("aberto") or 0.0)})
+        instrumentos += extras
         finais = [o for o in self.operacoes if o["tipo"] == "saida"]
         ganhos = [o for o in self.operacoes if o["resultado"] > 0]
         perdas = [o for o in self.operacoes if o["resultado"] <= 0]

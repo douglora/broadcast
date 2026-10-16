@@ -1516,6 +1516,34 @@ def _serie_win(dia, ate="17:40", preco=209000.0, sem=()):
     return {"s": "WINFUT", "codigo": "WINZ26", "dia": dia, "t": t, "p": p}
 
 
+def _historia_win(caminho, dias, fim="18:24", cortes=None, gravado=None, base=200000.0):
+    """Historico de 1 minuto do mini-indice como o leitor do MetaTrader grava (#HISTORIA;1;WIN$N;...; cabecalho; barras; #FIM): cada dia das
+    9h00 ate `fim` (ou `cortes[dia]`), subindo 2 pontos por minuto. `gravado`: a hora da gravacao do arquivo."""
+    import pandas as pd
+    linhas = []
+    for j, d in enumerate(dias):
+        for k, t in enumerate(pd.date_range(f"{d} 09:00", f"{d} {(cortes or {}).get(d, fim)}", freq="1min")):
+            c = base + 100 * j + 2 * k
+            linhas.append(f"{t.strftime('%Y.%m.%d %H:%M')};{c - 1:.0f};{c + 1:.0f};{c - 2:.0f};{c:.0f};100;1000")
+    rotulo = caminho.name.split("_M")[-1][:-4]
+    caminho.write_text(f"#HISTORIA;1;WIN$N;M{rotulo};{len(linhas)}\nhora_servidor;abertura;maxima;minima;fechamento;negocios;volume\n"
+                       + "\n".join(linhas) + "\n#FIM\n", encoding="latin-1")
+    if gravado is not None:
+        os.utime(caminho, (gravado.timestamp(), gravado.timestamp()))
+    return caminho
+
+
+def _pregoes_ate(dia, n):
+    """Os `n` pregoes da B3 antes de `dia` (AAAA-MM-DD), do mais velho ao mais novo."""
+    from datetime import date as _date
+    from quant.dados import calendario as cal
+    fora, d = [], _date.fromisoformat(dia)
+    while len(fora) < n:
+        d = cal.pregao_anterior(d)
+        fora.append(d.isoformat())
+    return fora[::-1]
+
+
 def _cotacao_win(preco, ts):
     return [preco, -0.4, 208000.0, 210800.0, 207235.0, 1000, 210905.0, ts, None, None, "aberto", 10, 0, 209185.0]
 
@@ -1527,6 +1555,7 @@ def test_regra_do_mini_indice_roda_mesmo_fora_dos_contratos_do_robo(tmp_path, mo
     _regra_win(tmp_path, monkeypatch)
     rf, mt5 = _robo_niveis(tmp_path, monkeypatch, modo={"hora_ultima_entrada": "18:10", "hora_zerar": "18:24"})
     dia = "2026-10-15"
+    _historia_win(mt5 / "autopilot_historia_WINSN_M2610151.csv", _pregoes_ate(dia, 3), gravado=datetime(2026, 10, 15, 8, 52, tzinfo=BRT))
     serie = _serie_win(dia, sem=("17:35",))                                   # o motor nao amostrou o minuto das 17:35
     lidas = []
     monkeypatch.setattr(rf, "ler_motor", lambda caminho, *a, **k: (lidas.append(caminho) or serie) if "s=WINFUT" in caminho else None)
@@ -1564,6 +1593,7 @@ def test_regra_do_mini_indice_mede_a_barra_que_chega_atrasada(tmp_path, monkeypa
     _regra_win(tmp_path, monkeypatch, minuto="17:35")
     rf, mt5 = _robo_niveis(tmp_path, monkeypatch, modo={"hora_ultima_entrada": "18:10", "hora_zerar": "18:24"})
     dia = "2026-10-15"
+    _historia_win(mt5 / "autopilot_historia_WINSN_M2610151.csv", _pregoes_ate(dia, 3), gravado=datetime(2026, 10, 15, 8, 52, tzinfo=BRT))
     serie = _serie_win(dia, ate="17:40")
     monkeypatch.setattr(rf, "ler_motor", lambda caminho, *a, **k: serie if "s=WINFUT" in caminho else None)
     r = rf.RoboFluxo(dia, saidas=[str(tmp_path / "quant.json")], pasta_mt5=str(mt5), setup="niveis")
@@ -1580,7 +1610,7 @@ def test_sinais_do_dia_so_contam_como_operado_o_que_entrou(tmp_path, monkeypatch
     rf, mt5 = _robo_niveis(tmp_path, monkeypatch)
     r = rf.RoboFluxo("2026-10-15", saidas=[str(tmp_path / "quant.json")], pasta_mt5=str(mt5), setup="niveis")
     base = {"tipo": "sinal", "ativo": "WDOFUT", "tecnica": "nível e reação", "lado": "C", "entrada": 5060.5, "stop_pts": 4.0, "alvo_pts": 14.0}
-    linhas = [dict(base, hora="09:30:00", opera=False, bloqueio="reservado ao dado das 09h30", quando="2026-10-15T09:30:00-03:00"),
+    linhas = [dict(base, hora="09:30:00", opera=False, bloqueio="reservado ao dado das 9h30", quando="2026-10-15T09:30:00-03:00"),
               dict(base, hora="09:36:00", opera=True, bloqueio="pausa do dado", quando="2026-10-15T09:36:00-03:00"),
               dict(base, hora="09:48:00", opera=True, bloqueio=None, quando="2026-10-15T09:48:00-03:00"),
               {"tipo": "entrada", "ativo": "WDOFUT", "tecnica": "nível e reação", "lado": "C", "contratos": 2, "entrada": 5050.5, "hora": "09:48:00"},
@@ -1590,7 +1620,7 @@ def test_sinais_do_dia_so_contam_como_operado_o_que_entrou(tmp_path, monkeypatch
     assert (s["09:36:00"]["opera"], s["09:36:00"]["regra_opera"], s["09:36:00"]["bloqueio"]) == (False, True, "pausa do dado")
     assert (s["09:48:00"]["opera"], s["09:48:00"]["regra_opera"], s["09:48:00"]["bloqueio"]) == (True, True, None)
     assert (s["10:06:00"]["opera"], s["10:06:00"]["bloqueio"]) == (False, "posição aberta (nível e reação)")
-    assert (s["09:30:00"]["opera"], s["09:30:00"]["regra_opera"], s["09:30:00"]["bloqueio"]) == (False, False, "reservado ao dado das 09h30")
+    assert (s["09:30:00"]["opera"], s["09:30:00"]["regra_opera"], s["09:30:00"]["bloqueio"]) == (False, False, "reservado ao dado das 9h30")
     assert sum(1 for x in s.values() if x["opera"]) == 1                    # 4 sinais, 1 operado (o das 9h48)
 
 
@@ -1609,12 +1639,12 @@ def test_sinal_na_reserva_do_dado_diz_o_motivo(tmp_path, monkeypatch):
     agora = datetime(2026, 10, 15, 9, 20, 7, tzinfo=BRT)
     r.ciclo(agora, retrato={"q": {"WDOFUT": _cotacao(5068.0, agora.timestamp())}})
     sinal = [json.loads(x) for x in open(tmp_path / "dt" / "2026-10-15" / "sinais_niveis.jsonl").read().splitlines()][-1]
-    assert (sinal["tipo"], sinal["opera"], sinal["bloqueio"]) == ("sinal", False, "reservado ao dado das 09h30")
+    assert (sinal["tipo"], sinal["opera"], sinal["bloqueio"]) == ("sinal", False, "reservado ao dado das 9h30")
     assert r.estados["WDOFUT"].posicao is None
     medida = next(x["texto"] for x in reversed(r.diario) if x["tipo"] == "medida")
     assert medida.startswith("Mini-dólar: só medindo, sem operar: nível e reação em número redondo (5.070,0); venderia a 5.067,5; ")
-    assert medida.endswith("não entrou: reservado ao dado das 09h30.")      # o comeco continua no formato que a tela le
-    assert rv.motivo_sem_entrada(sinal, [], [], {}, "2026-10-15") == ("reservado ao dado das 09h30", None)    # e nao "só medido"
+    assert medida.endswith("não entrou: reservado ao dado das 9h30.")      # o comeco continua no formato que a tela le
+    assert rv.motivo_sem_entrada(sinal, [], [], {}, "2026-10-15") == ("reservado ao dado das 9h30", None)    # e nao "só medido"
 
 
 def test_mac_dormindo_nao_vira_cegueira_do_metatrader(tmp_path, monkeypatch):
@@ -1737,3 +1767,164 @@ def test_niveis_de_ontem_vem_do_boletim_oficial_e_nao_das_barras_cortadas(tmp_pa
     assert (5066.0, "fechamento de ontem") in pedidos[-1] and (5049.791, "ajuste de ontem") in pedidos[-1]
     aviso = next(a for a in est["avisos"] if a.startswith("Níveis de ontem incompletos"))
     assert "as barras de 14/10 param às 11:50" in aviso and "boletim oficial da B3" in aviso
+
+
+# ── revisao de 15/10/2026 do achado 10: a vespera do mini-indice (a regra decide pela ultima barra do pregao anterior) ──
+def _regra_win_real(tmp_path, monkeypatch):
+    """O registro com a regra DE VERDADE do mini-indice (quant/pesquisa/regras/win_fim_do_dia.py, regra_adaptativa), como em setups.json."""
+    from quant.daytrade import regras_lab
+    reg = tmp_path / "setups.json"
+    reg.write_text(json.dumps({"regras": [{"nome": "win_fim_do_dia_adaptativa", "titulo": "fim do pregão (mini-índice, lado que vem dando certo)",
+                                           "arquivo": os.path.join(regras_lab.RAIZ, "quant", "pesquisa", "regras", "win_fim_do_dia.py"),
+                                           "funcao": "regra_adaptativa", "ativo": "WINFUT", "estado": "opera", "contratos": 1, "barras": 60000,
+                                           "janela": ["17:30", "18:10"], "saida": {"stop": 500, "alvo": None, "tempo": 25}}]}))
+    monkeypatch.setattr(regras_lab, "ARQ_SETUPS", str(reg))
+
+
+def _serie_win_subindo(dia, ate):
+    """/vivo/intradia do mini-indice subindo 2 pontos por minuto desde as 9h00 (o dia e de alta: a regra compra)."""
+    ini = datetime.fromisoformat(f"{dia}T09:00:00-03:00")
+    n = int((datetime.fromisoformat(f"{dia}T{ate}:00-03:00") - ini).total_seconds() // 60) + 1
+    return {"s": "WINFUT", "codigo": "WINZ26", "dia": dia, "t": [(ini + timedelta(minutes=k)).timestamp() + 30 for k in range(n)],
+            "p": [209000.0 + 2 * k for k in range(n)]}
+
+
+def _sinais_win(tmp_path, dia):
+    arq = tmp_path / "dt" / dia / "sinais_niveis.jsonl"
+    return [x for x in (json.loads(y) for y in arq.read_text().splitlines()) if x["ativo"] == "WINFUT" and x["tipo"] == "sinal"] if arq.exists() else []
+
+
+def test_historico_do_servidor_vale_o_arquivo_do_dia_seguinte_com_mais_barras(tmp_path):
+    """De noite o servidor ainda guarda o leilao de fechamento numa barra das 18h31 (no dia seguinte ela vai para a das 18h24); e o primeiro
+    pedido da manha as vezes vem cortado (08h51 de 16/10/2026: parava as 15h55 de 15/10)."""
+    from quant.daytrade import barras as br
+    dias = _pregoes_ate("2026-10-16", 3)                                      # 13/10, 14/10 e 15/10
+    noite = _historia_win(tmp_path / "autopilot_historia_WINSN_M26101520.csv", dias, cortes={dias[-1]: "18:31"},
+                          gravado=datetime(2026, 10, 15, 20, 40, tzinfo=BRT))
+    cortado = _historia_win(tmp_path / "autopilot_historia_WINSN_M2610160.csv", dias, cortes={dias[-1]: "15:55"},
+                            gravado=datetime(2026, 10, 16, 8, 51, tzinfo=BRT))
+    inteiro = _historia_win(tmp_path / "autopilot_historia_WINSN_M2610161.csv", dias, gravado=datetime(2026, 10, 16, 8, 50, tzinfo=BRT))
+    (tmp_path / "autopilot_historia_WINSN_M2610162.csv").write_text("#HISTORIA;1;WIN$N;M2610162;10\nhora_servidor;a\n2026.10.15 09:00;1;1;1;1;1;1\n")
+    _historia_win(tmp_path / "autopilot_historia_WDOSN_M2610161.csv", dias)            # outro simbolo
+    arqs = br.arquivos_de_historia("WINFUT", str(tmp_path), desde_ts=datetime(2026, 10, 15, tzinfo=BRT).timestamp())
+    assert [os.path.basename(c) for _m, c in arqs] == [cortado.name, inteiro.name, noite.name]   # o sem #FIM (ainda gravando) fica de fora
+    h = br.historia_do_servidor(arqs, BRT)
+    assert h[h.index.normalize() == "2026-10-15"].index[-1].strftime("%H:%M") == "18:24"
+    so_noite = br.historia_do_servidor([(m, c) for m, c in arqs if c.endswith(noite.name)], BRT)
+    assert so_noite.index[-1].strftime("%H:%M") == "18:31"                   # sem arquivo do dia seguinte, vale o que ha
+
+
+def test_falha_da_vespera_confere_o_pregao_anterior_inteiro():
+    import pandas as pd
+    from quant.daytrade import barras as br
+    dias = _pregoes_ate("2026-10-15", 6)
+
+    def barras(cortes=None, buraco=None, sem=()):
+        idx = []
+        for d in dias:
+            if d in sem:
+                continue
+            r = pd.date_range(f"{d} 09:00", f"{d} {(cortes or {}).get(d, '18:24')}", freq="1min")
+            if buraco and d == buraco[0]:
+                r = r[(r < pd.Timestamp(f"{d} {buraco[1]}")) | (r > pd.Timestamp(f"{d} {buraco[2]}"))]
+            idx.extend(r)
+        idx = pd.DatetimeIndex(idx)
+        return pd.DataFrame({"o": 1.0, "h": 1.0, "l": 1.0, "c": 1.0, "n": 0.0, "v": 0.0}, index=idx)
+
+    ontem = dias[-1]
+    assert br.falha_da_vespera(barras(), "2026-10-15", ontem) is None
+    assert br.falha_da_vespera(barras(sem=(ontem,)), "2026-10-15", ontem) == "faltam as barras do pregão de 14/10 (as últimas são de 13/10)"
+    assert br.falha_da_vespera(barras(cortes={ontem: "15:54"}), "2026-10-15", ontem) == "as barras de 14/10 terminam às 15:54, e o pregão termina às 18:24"
+    assert br.falha_da_vespera(barras(cortes={ontem: "18:28"}), "2026-10-15", ontem) == "as barras de 14/10 terminam às 18:28, e o pregão termina às 18:24"
+    assert br.falha_da_vespera(barras(cortes={ontem: "18:31"}), "2026-10-15", ontem) == "as barras de 14/10 terminam às 18:31, e o pregão termina às 18:24"
+    assert br.falha_da_vespera(barras(buraco=(ontem, "12:00", "12:40")), "2026-10-15", ontem) == "as barras de 14/10 têm um buraco das 11:59 às 12:41"
+    # a B3 mudou o horario: o pregao de antes ja terminou as 18:29, entao 18:29 ontem serve
+    assert br.falha_da_vespera(barras(cortes={dias[-2]: "18:29", ontem: "18:29"}), "2026-10-15", ontem) is None
+    assert br.falha_da_vespera(barras().iloc[:0], "2026-10-15", ontem) == "sem barras do pregão de 14/10"
+
+
+def test_pedido_de_historico_nao_atropela_o_pedido_de_outro(tmp_path):
+    from quant.daytrade import barras as br
+    pedido = tmp_path / "autopilot_historia.txt"
+    pedido.write_text("WIN$N;2610161;49340\n")                              # a prova viva pediu e o leitor ainda nao entregou
+    assert br.pedir_historia("WINFUT", str(tmp_path), 261015700, 62000) is None and pedido.read_text() == "WIN$N;2610161;49340\n"
+    (tmp_path / "autopilot_historia_WINSN_M2610161.csv").write_text("x")      # entregou: agora pode
+    assert br.pedir_historia("WINFUT", str(tmp_path), 261015700, 62000).endswith("autopilot_historia_WINSN_M261015700.csv")
+    assert pedido.read_text() == "WIN$N;261015700;62000\n"
+    pedido.write_text("WDO$N;2610169;100\n")
+    velho = datetime(2026, 10, 15, 8, 0, tzinfo=BRT).timestamp()
+    os.utime(pedido, (velho, velho))                                         # pedido abandonado (o leitor nunca respondeu): pode
+    assert br.pedir_historia("WINFUT", str(tmp_path), 261015701, 62000) and pedido.read_text() == "WIN$N;261015701;62000\n"
+
+
+def test_regra_real_do_mini_indice_decide_pelo_fim_do_pregao_anterior_do_servidor(tmp_path, monkeypatch):
+    """A regra de verdade decide 31 minutos antes da ultima barra do pregao anterior. As barras do proprio robo de 14/10 iam ate as 18h28
+    (amostras do motor depois do fechamento) e o arquivo M1 do MetaTrader parou em 13/10 (18h31): sem o servidor, a regra decidiria as 17h57,
+    ou no minuto de 13/10. Com o historico que a prova viva pediu de manha, a vespera termina as 18h24 e a regra decide as 17h53."""
+    import pandas as pd
+    _regra_win_real(tmp_path, monkeypatch)
+    rf, mt5 = _robo_niveis(tmp_path, monkeypatch, modo={"hora_ultima_entrada": "18:10", "hora_zerar": "18:24"})
+    dia = "2026-10-15"
+    dias = _pregoes_ate(dia, 50)
+    _historia_win(mt5 / "autopilot_historia_WINSN_M1.csv", dias[:-1], cortes={dias[-2]: "18:31"}, gravado=datetime(2026, 10, 13, 19, 30, tzinfo=BRT))
+    (tmp_path / "dt").mkdir(exist_ok=True)
+    (tmp_path / "dt" / "m1_WINFUT.csv").write_text("".join(f"{t:%Y-%m-%d %H:%M:%S};{205000 + k};{205000 + k};{205000 + k};{205000 + k};0.0\n"
+                                                           for k, t in enumerate(pd.date_range(f"{dias[-1]} 09:00", f"{dias[-1]} 18:28", freq="1min"))))
+    _historia_win(mt5 / "autopilot_historia_WINSN_M2610151.csv", dias, gravado=datetime(2026, 10, 15, 8, 52, tzinfo=BRT))
+    serie = _serie_win_subindo(dia, "17:53")
+    monkeypatch.setattr(rf, "ler_motor", lambda caminho, *a, **k: serie if "s=WINFUT" in caminho else None)
+    r = rf.RoboFluxo(dia, saidas=[str(tmp_path / "quant.json")], pasta_mt5=str(mt5), setup="niveis")
+    r.sinais_pc["WDOFUT"] = type("S", (), {"atualizar": lambda self, df, extras=(): ({"pronto": False, "motivo": "teste"}, None)})()
+    agora = datetime(2026, 10, 15, 17, 54, 3, tzinfo=BRT)
+    est = r.ciclo(agora, retrato={"q": {"WDOFUT": _cotacao(5090.0, agora.timestamp()), "WINFUT": _cotacao_win(210070.0, agora.timestamp())}})
+    assert r.vespera == {"WINFUT": None}
+    b = r.barras["WINFUT"].df
+    assert b[b.index.normalize() == pd.Timestamp(dias[-1])].index[-1].strftime("%H:%M") == "18:24"
+    sinais = _sinais_win(tmp_path, dia)
+    assert [(x["hora"][:5], x["lado"], x["opera"], x["bloqueio"]) for x in sinais] == [("17:54", "C", True, None)]
+    assert sinais[0]["medidas"]["regra"] == "win_fim_do_dia_adaptativa" and r.estados["WINFUT"].posicao is not None
+    assert r.barras["WINFUT"].df.loc[pd.Timestamp(f"{dia} 17:53"), "c"] == 209000.0 + 2 * 533       # o sinal saiu na barra das 17h53
+    win = next(i for i in est["instrumentos"] if i["ativo"] == "WINFUT")
+    assert (win["tick"], win["valor_ponto"], win["so_laboratorio"], win["vespera"]) == (5.0, 0.20, True, None) and win["posicao"]["lado"] == "C"
+    assert est["instrumentos"][0]["ativo"] == "WDOFUT"                          # o mini-dolar continua o primeiro
+    assert not (mt5 / "autopilot_historia.txt").exists()                         # com a vespera completa, nada e pedido ao MetaTrader
+
+
+def test_vespera_cortada_deixa_a_regra_so_medida_pede_ao_metatrader_e_volta_quando_chega(tmp_path, monkeypatch):
+    """Sem o historico do servidor e com as barras do robo de 14/10 parando as 18h10, a regra de verdade decidiria as 17h39 (o minuto errado)
+    e operaria. Agora: o sinal fica so medido com o motivo, a tela avisa, o robo pede o historico ao MetaTrader e, quando ele chega, a regra
+    volta a operar no minuto certo (17h53)."""
+    import pandas as pd
+    _regra_win_real(tmp_path, monkeypatch)
+    rf, mt5 = _robo_niveis(tmp_path, monkeypatch, modo={"hora_ultima_entrada": "18:10", "hora_zerar": "18:24"})
+    dia = "2026-10-15"
+    dias = _pregoes_ate(dia, 50)
+    _historia_win(mt5 / "autopilot_historia_WINSN_M1.csv", dias[:-1], gravado=datetime(2026, 10, 13, 19, 30, tzinfo=BRT))
+    (tmp_path / "dt").mkdir(exist_ok=True)
+    (tmp_path / "dt" / "m1_WINFUT.csv").write_text("".join(f"{t:%Y-%m-%d %H:%M:%S};{205000 + k};{205000 + k};{205000 + k};{205000 + k};0.0\n"
+                                                           for k, t in enumerate(pd.date_range(f"{dias[-1]} 09:00", f"{dias[-1]} 18:10", freq="1min"))))
+    serie = {"v": _serie_win_subindo(dia, "17:39")}
+    monkeypatch.setattr(rf, "ler_motor", lambda caminho, *a, **k: serie["v"] if "s=WINFUT" in caminho else None)
+    r = rf.RoboFluxo(dia, saidas=[str(tmp_path / "quant.json")], pasta_mt5=str(mt5), setup="niveis")
+    r.sinais_pc["WDOFUT"] = type("S", (), {"atualizar": lambda self, df, extras=(): ({"pronto": False, "motivo": "teste"}, None)})()
+
+    def ciclo(h, m, sg, preco):
+        agora = datetime(2026, 10, 15, h, m, sg, tzinfo=BRT)
+        return r.ciclo(agora, retrato={"q": {"WDOFUT": _cotacao(5090.0, agora.timestamp()), "WINFUT": _cotacao_win(preco, agora.timestamp())}})
+
+    est = ciclo(17, 40, 3, 210040.0)
+    falha = "as barras de 14/10 terminam às 18:10, e o pregão termina às 18:24"
+    assert r.vespera == {"WINFUT": falha}
+    sinais = _sinais_win(tmp_path, dia)
+    assert [(x["hora"][:5], x["opera"], x["bloqueio"]) for x in sinais] == [("17:40", False, "véspera incompleta: " + falha)]   # a barra das 17h39
+    assert r.estados["WINFUT"].posicao is None
+    assert any(a.startswith("Mini-índice: véspera incompleta nas barras (" + falha) for a in est["avisos"])
+    assert json.loads(open(r.arq_estado).read())["vespera"] == {"WINFUT": falha}
+    assert (mt5 / "autopilot_historia.txt").read_text() == "WIN$N;261015700;62000\n"     # pediu o historico ao MetaTrader, sem esperar
+    # o leitor do MetaTrader entrega o pedido; no minuto seguinte o robo junta e a vespera passa a servir
+    _historia_win(mt5 / "autopilot_historia_WINSN_M261015700.csv", dias, gravado=datetime(2026, 10, 15, 17, 41, tzinfo=BRT))
+    serie["v"] = _serie_win_subindo(dia, "17:53")
+    ciclo(17, 54, 0, 210070.0)
+    assert r.vespera == {"WINFUT": None} and any("véspera ficou completa" in x["texto"] for x in r.diario)
+    sinais = _sinais_win(tmp_path, dia)
+    assert [(x["hora"][:5], x["opera"], x["bloqueio"]) for x in sinais][-1] == ("17:54", True, None) and r.estados["WINFUT"].posicao is not None

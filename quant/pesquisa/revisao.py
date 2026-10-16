@@ -356,6 +356,12 @@ def contexto_do_dado(medidas, regra):
 
 
 # ── sinais que nao entraram ──────────────────────────────────
+MOTIVOS_DE_FALHA = {      # motivo -> (o que houve, o que fazer): falhas de execucao que viram item b do caderno (revisao de 15/10/2026)
+    "barra atrasada": ("ficaram só medidos: a barra de 1 minuto do motor chegou atrasada (a regra só entra na barra que acabou de fechar)",
+                       "conferir o motor do terminal (/vivo/intradia) e se o Mac estava acordado na hora"),
+}
+
+
 def motivo_sem_entrada(sinal, entradas, negocios, est, dia):
     """Por que um sinal da regra que opera nao virou entrada (as mesmas portas de estrategia_fluxo.passo)."""
     h = sinal.get("hora") or ""
@@ -367,7 +373,13 @@ def motivo_sem_entrada(sinal, entradas, negocios, est, dia):
     # o robo anota o motivo desde 15/10/2026, inclusive no sinal da regra que opera e caiu na reserva do dado (gravado com
     # opera=False): antes ele era contado como "so medido" e a revisao dizia que a regra estava desligada (achado 44)
     if sinal.get("bloqueio"):
-        return str(sinal["bloqueio"]).split(" (")[0], None
+        b = str(sinal["bloqueio"])
+        # falhas de execucao (revisao de 15/10/2026): viram item b do caderno, um por regra e motivo, com a hora e o detalhe no texto
+        if re.match(r"^barra das \d\d:\d\d chegou atrasada", b):
+            return "barra atrasada", f"sinal das {hm}: {b}"
+        if b.startswith("véspera incompleta"):
+            return "véspera incompleta", None                    # o item e da regra (b:lab:vespera), com o que ela teria dado no servidor
+        return b.split(" (")[0], None
     if not sinal.get("opera"):
         return "só medido", None
     if hm < INICIO:
@@ -625,19 +637,23 @@ def revisar(dia=None, pasta=DIR_DT, setup="niveis", servidor=None, pedir_servido
         pr.setdefault("por_motivo", {})
         pr["por_motivo"][motivo] = pr["por_motivo"].get(motivo, 0) + 1
         if falha:
-            grupos.setdefault((tec, motivo), []).append((_hm(s.get("hora")), None if r is None else r["resultado"]))
+            grupos.setdefault((tec, motivo), []).append((_hm(s.get("hora")), None if r is None else r["resultado"],
+                                                         falha.split(": ", 1)[-1]))
     for (tec, motivo), lista in grupos.items():                  # um item por regra e motivo, com as horas
-        horas = ", ".join(h for h, _r in lista)
-        soma = sum(x for _h, x in lista if x is not None) if any(x is not None for _h, x in lista) else None
-        o_que = (f"marcados 'opera' antes da janela de entradas das {INICIO}: não podiam entrar e o placar da noite os contava como operados"
-                 if motivo == "antes da janela" else "deviam entrar e não entraram (spread aberto ou cotação velha?)")
-        itens.append(_item(dia, "b", f"b:sinal:{motivo}", tec, f"{len(lista)} sinal(is) de {tec} ({horas}) {o_que}",
-                           "conserto: o sinal guarda por que não entrou e o placar conta só o que entrou", soma))
+        horas = ", ".join(h for h, _r, _f in lista)
+        soma = sum(x for _h, x, _f in lista if x is not None) if any(x is not None for _h, x, _f in lista) else None
+        o_que, acao = MOTIVOS_DE_FALHA.get(motivo, ("deviam entrar e não entraram (spread aberto ou cotação velha?)",
+                                                    "conserto: o sinal guarda por que não entrou e o placar conta só o que entrou"))
+        if motivo == "antes da janela":
+            o_que = f"marcados 'opera' antes da janela de entradas das {INICIO}: não podiam entrar e o placar da noite os contava como operados"
+        detalhe = "" if motivo not in MOTIVOS_DE_FALHA else " (" + "; ".join(sorted({f for _h, _r, f in lista})) + ")"
+        itens.append(_item(dia, "b", f"b:sinal:{motivo}", tec, f"{len(lista)} sinal(is) de {tec} ({horas}) {o_que}{detalhe}", acao, soma))
     # regra do laboratorio que opera e nao rodou: contrato fora do robo (o mini-indice ate 15/10/2026, achado 10) ou robo cego
     reg = regras_lab_ler() if registro is None else registro
     rodaram = regras_que_rodaram(est, reg, ativos_robo)
     com_sinal = {s.get("tecnica") for s in sinais} | {e.get("tecnica") for e in entradas}
     itens += fora_do_robo(dia, reg, rodaram)
+    itens += vespera_incompleta(dia, reg, est, rodaram, com_sinal)
     if cegos:
         itens += perdidas_por_cegueira(dia, cegos, reg, rodaram=rodaram, com_sinal=com_sinal)
     return {"dia": dia, "gerado": agora_brt().isoformat(timespec="seconds"), "itens": itens, "por_regra": list(por_regra.values()),
@@ -700,6 +716,32 @@ def fora_do_robo(dia, registro, rodaram, barras_por_ativo=None):
             fora.append(_item(dia, "b", f"b:lab:fora_do_robo:{nome}", titulo, txt, acao, None if x is None else float(x.res)))
         except Exception as e:
             fora.append(_item(dia, "b", f"b:lab:fora_do_robo:{nome}", titulo, base + f" (não deu para refazer: {type(e).__name__})", acao, None))
+    return fora
+
+
+def vespera_incompleta(dia, registro, est, rodaram, com_sinal=(), barras_por_ativo=None):
+    """A regra que opera num contrato cuja vespera nas barras do robo nao servia (o robo grava em "vespera" desde 15/10/2026). A regra do
+    mini-indice decide pela hora da ultima barra do pregao anterior: com a vespera cortada ou passando do fim, ela decide no minuto errado
+    ou nem da sinal na janela, e antes isso passava sem registro (labs_rodando dizia que ela rodou). Revisao do achado 10."""
+    fora = []
+    vesp = est.get("vespera") if isinstance(est.get("vespera"), dict) else {}
+    for r in registro:
+        ativo = str(r.get("ativo") or "WDOFUT").upper()
+        falha = vesp.get(ativo)
+        if r.get("estado") != "opera" or not falha or r["nome"] not in rodaram:
+            continue
+        titulo = r.get("titulo") or r["nome"]
+        base = (f"{titulo}: a véspera do {ativo} nas barras do robô não servia ({falha}). A regra decide pelo fim do pregão anterior: "
+                + ("o sinal de hoje ficou só medido" if titulo in com_sinal else "hoje ela não deu sinal no minuto da pesquisa"))
+        acao = ("o robô junta o histórico do servidor do MetaTrader (o pedido da prova viva da manhã) e pede de novo sozinho; "
+                "conferir se o MetaTrader estava aberto de manhã")
+        try:
+            x = refazer_regra(dia, r, barras_por_ativo)
+            txt = base + (f"; nas barras do servidor ela teria {'comprado' if x.lado == 'C' else 'vendido'} às {x.hora} e dado {_rs(x.res)}"
+                          if x is not None else "; nas barras do servidor ela também não teria dado sinal")
+            fora.append(_item(dia, "b", f"b:lab:vespera:{r['nome']}", titulo, txt, acao, None if x is None else float(x.res)))
+        except Exception as e:
+            fora.append(_item(dia, "b", f"b:lab:vespera:{r['nome']}", titulo, base + f" (não deu para refazer: {type(e).__name__})", acao, None))
     return fora
 
 
