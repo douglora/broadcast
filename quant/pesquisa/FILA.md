@@ -310,3 +310,15 @@ NAO existe de graca (b3_dolar/2_posicoes_participante/LEIA_ISTO.txt), PTAX e cor
 Item 7: depende de leitura ao vivo que ainda nao existe. Item 8: ainda so 15 casos. Itens 9 e 10: seguem na prova viva (4
 negocios do mini-indice desde 13/10, cedo demais). Item 14: o pacote yfinance nao esta no .venv e a rotina nao instala
 dependencia. Nenhuma tentativa nova entrou no registro.
+
+## 17/10/2026: revisao da semana (08 a 16/10) pedida pelo Douglas
+
+- Climax com liga/desliga por regime (opera so quando a media dos proprios negocios nos ultimos 60 pregoes encerrados e
+  positiva; quant/estudos/2026-10-17_climax_regime.py, familia climax_regime, 3 tentativas): MORTA na descoberta. Sem filtro
+  1.862 negocios, -R$ 17,86/neg, 0 de 7 semestres positivos; com o filtro de 60 pregoes 141 negocios, -R$ 17,50/neg (t -1,4);
+  40 pregoes -R$ 17,36; 120 pregoes nunca liga. 2025 nao foi aberto. Ao vivo (09 a 16/10) os 14 sinais medidos acertaram 13
+  (+R$ 48,50 por sinal): coerente com 2026 ser diferente de 2021-2025, nao com um filtro que se ache no passado. Segue so
+  medindo; com 60 sinais ao vivo, media positiva e t >= 2 vira pedido de estudo (protocolo da noite) e a decisao e do Douglas.
+- Semana ao vivo (sinais medidos, 2 contratos): nivel e reacao 140 sinais, -R$ 43,30 por sinal, acerto 31% (pior que os 5 anos);
+  reversao do dado 1 sinal (14/10, -R$ 154,80, percentil 33); fim do pregao do mini-indice (prova viva, variante adaptativa)
+  4 negocios, +R$ 299 com 2 contratos, mas o robo nunca a rodou ao vivo (so percorria o WDOFUT; conserto da varredura de 15/10).
