@@ -2,7 +2,7 @@
  "pregao": "2026-10-16",
  "situacao": "publicando",
  "errata": false,
- "atualizado_em": "2026-10-17T01:55:38.007",
+ "atualizado_em": "2026-10-17T08:45:38.01",
  "completo": {
   "arquivo": "",
   "pdf": ""
@@ -12,9 +12,9 @@
    "id": 1,
    "nome": "Renda fixa",
    "pai": null,
-   "situacao": "publicando",
+   "situacao": "publicado",
    "errata": false,
-   "atualizado_em": "2026-10-16T21:22:07.867",
+   "atualizado_em": "2026-10-17T06:12:20.093",
    "arquivo": "",
    "pdf": ""
   },
@@ -44,7 +44,7 @@
    "pai": 20,
    "situacao": "republicado",
    "errata": false,
-   "atualizado_em": "2026-10-17T01:55:38.007",
+   "atualizado_em": "2026-10-17T08:45:38.01",
    "arquivo": "BDI_02_20261016.pdf",
    "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-10-16/BDI_02_20261016.pdf"
   },
@@ -52,9 +52,9 @@
    "id": 23,
    "nome": "Maiores oscilações",
    "pai": 20,
-   "situacao": "publicado",
+   "situacao": "republicado",
    "errata": false,
-   "atualizado_em": "2026-10-16T23:35:38.207",
+   "atualizado_em": "2026-10-17T03:05:38.017",
    "arquivo": "BDI_02-3_20261016.pdf",
    "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-10-16/BDI_02-3_20261016.pdf"
   },
@@ -74,7 +74,7 @@
    "pai": 3,
    "situacao": "publicando",
    "errata": false,
-   "atualizado_em": "2026-10-16T23:20:37.727",
+   "atualizado_em": "2026-10-17T03:52:47.117",
    "arquivo": "",
    "pdf": ""
   },
@@ -84,7 +84,7 @@
    "pai": 3,
    "situacao": "publicando",
    "errata": false,
-   "atualizado_em": "2026-10-17T01:33:12.11",
+   "atualizado_em": "2026-10-17T03:03:37.037",
    "arquivo": "",
    "pdf": ""
   },
@@ -102,9 +102,9 @@
    "id": 42,
    "nome": "Empréstimos de ativos",
    "pai": 4,
-   "situacao": "publicado",
+   "situacao": "republicado",
    "errata": false,
-   "atualizado_em": "2026-10-16T00:00:38.02",
+   "atualizado_em": "2026-10-17T03:45:38.013",
    "arquivo": "BDI_04-2_20261016.pdf",
    "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-10-16/BDI_04-2_20261016.pdf"
   },
@@ -112,11 +112,11 @@
    "id": 43,
    "nome": "COE",
    "pai": 4,
-   "situacao": "publicando",
+   "situacao": "publicado",
    "errata": false,
-   "atualizado_em": "2026-10-16T00:00:38.02",
-   "arquivo": "",
-   "pdf": ""
+   "atualizado_em": "2026-10-17T03:55:38.01",
+   "arquivo": "BDI_04-3_20261016.pdf",
+   "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-10-16/BDI_04-3_20261016.pdf"
   }
  ]
 }

@@ -1,14 +1,15 @@
 # Boletim da B3: pregão de 16/10/2026 (sexta)
 
-**Situação: PARCIAL.** Ainda sem: posições em aberto (opções e futuros), saldo de aluguel, empréstimos do dia, quadro de posições em aberto. A B3 publica esses blocos na madrugada seguinte ao pregão; a rodada da manhã completa.
-Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10-17T04:58:01Z (UTC).
+**Situação: PARCIAL.** Ainda sem: posições em aberto (opções e futuros), quadro de posições em aberto. A B3 publica esses blocos na madrugada seguinte ao pregão; a rodada da manhã completa.
+Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10-17T11:52:16Z (UTC).
 
 [[LEITURA_DA_MESA]]
 
-## Sinais do dia (9)
+## Sinais do dia (15)
 
 **Novos hoje**
 
+- **Aluguel mudou.** VALE3: saldo alugado subiu 10,3% em um pregão, para 163,2 mi de ações, com o preço em -0,31% no dia. _(B3, BTBLendingOpenPosition, 16/10)_
 - **Crédito: taxa abriu.** RIS414 (Aguas do Rio 4 Spe, debênture incentivada): a taxa indicativa da ANBIMA abriu 37,5 pb de 15/10 para 16/10, para IPCA+ 14,08%; na B3, negócios de 16/10 a IPCA+ 14,43% em R$ 17,9 mi. _(ANBIMA, taxa indicativa de debêntures, 16/10)_
 - **Crédito: taxa abriu.** IRJS14 (Igua Rio de Janeiro, debênture incentivada): a taxa indicativa da ANBIMA abriu 34,6 pb de 15/10 para 16/10, para IPCA+ 11,96%; R$ 11,2 mi negociados na B3 em 16/10, sem taxa. _(ANBIMA, taxa indicativa de debêntures, 16/10)_
 - **Crédito: taxa abriu.** RECV14 (Petroreconcavo, debênture incentivada): a taxa indicativa da ANBIMA abriu 31,6 pb de 15/10 para 16/10, para IPCA+ 7,81%; na B3, negócios de 16/10 a IPCA+ 8,10% em R$ 30,1 mi. _(ANBIMA, taxa indicativa de debêntures, 16/10)_
@@ -18,6 +19,14 @@ Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10
 - **Crédito: prêmio alto.** CGEE13 (Companhia Estadual de Geracao de Ener…, debênture incentivada): taxa indicativa da ANBIMA de 16/10 a IPCA+ 13,80%, 690 pb acima do juro real de mercado na duration de 5,3 anos; na B3, negócios de 16/10 a IPCA+ 15,63% em R$ 13,6 mi. _(ANBIMA e B3, taxa indicativa de debêntures (ANBIMA) e DAP (B3), 16/10)_
 - **Fluxo estrangeiro.** Estrangeiro comprou R$ 708 mi líquidos em 14/10; no mês, até 14/10, saldo de +R$ 18.535 mi. _(B3, SharesInvesVolum, 14/10)_
 - **Listas do dia.** Do livro nas listas do boletim: maiores altas do Ibovespa: UGPA3 (2º), PETR4 (8º); maiores baixas do Ibovespa: BBDC4 (6º); mais negociadas à vista: PETR4 (1º), AXIA3 (2º), VALE3 (3º), SBSP3 (4º); calls mais negociadas: SMALK140 (4º); puts mais negociadas: VALEV844 (3º). _(B3, tabelas de maiores oscilacoes, 16/10)_
+
+**Já vinham de pregões anteriores**
+
+- **Aluguel alto.** BBAS3: saldo alugado de 320,0 mi de ações, 11,3% da quantidade teórica do índice e 6,2 pregões de giro; taxa média do tomador de 0,03% ao ano. _(B3, BTBLendingOpenPosition, 16/10 · 32º pregão seguido)_
+- **Aluguel alto.** BBDC4: saldo alugado de 338,3 mi de ações, 6,6% da quantidade teórica do índice e 5,1 pregões de giro; taxa média do tomador de 0,35% ao ano. _(B3, BTBLendingOpenPosition, 16/10 · 25º pregão seguido)_
+- **Aluguel alto.** CURY3: saldo alugado de 19,2 mi de ações, 11,9% da quantidade teórica do índice e 3,2 pregões de giro; taxa média do tomador de 2,95% ao ano. _(B3, BTBLendingOpenPosition, 16/10 · 32º pregão seguido)_
+- **Aluguel alto.** DIRR3: saldo alugado de 32,0 mi de ações, 9,8% da quantidade teórica do índice e 2,1 pregões de giro; taxa média do tomador de 0,02% ao ano. _(B3, BTBLendingOpenPosition, 16/10 · 32º pregão seguido)_
+- **Aluguel alto.** MRVE3: saldo alugado de 64,8 mi de ações, 17,3% da quantidade teórica do índice e 3,8 pregões de giro; taxa média do tomador de 6,60% ao ano. O preço subiu 12,3% em 5 pregões: aluguel alto e caro com preço subindo é o quadro em que o vendido costuma ser forçado a recomprar. _(B3, BTBLendingOpenPosition, 16/10 · 32º pregão seguido)_
 
 ## Índices
 
@@ -111,6 +120,32 @@ Juros no mesmo dia: DI1F27 -2,4 pb, DI1F28 +3,4 pb, DI1F29 +8,4 pb, DI1F30 +9,3 
 
 x média = volume do dia dividido pela média dos pregões anteriores no histórico (até 20).
 
+## Livro: aluguel de ações
+
+| Ativo | Saldo alugado em mi de ações (% do free float) | Variação no pregão | Taxa do tomador (ao ano) |
+|---|---:|---:|---:|
+| EQTL3 | 37,9 (3,0%) | +1,41% | 0,04% |
+| SAPR4 | 1,1 | -0,47% | 0,05% |
+| KLBN4 | 7,9 | -7,04% | 0,02% |
+| ALUP4 | 0,03 | +0,00% | 0,12% |
+| ITUB4 | 157,2 (2,9%) | +0,39% | 0,04% |
+| BBDC4 | 338,3 (6,6%) | +3,27% | 0,35% |
+| PETR4 | 205,2 (4,7%) | -2,46% | 0,04% |
+| VALE3 | 163,2 (4,4%) | +10,27% | 0,02% |
+| MELI34 | 5,0 | -2,54% | 0,23% |
+| UGPA3 | 35,7 (3,3%) | +0,74% | 0,29% |
+| AXIA3 | 52,5 (2,3%) | -0,74% | 0,02% |
+| ITSA4 | 41,3 (0,7%) | -2,76% | 0,10% |
+| BBAS3 | 320,0 (11,3%) | +0,29% | 0,03% |
+| SBSP3 | 98,2 (2,8%) | -0,28% | 0,10% |
+| SMAL11 | 15,0 | -5,35% | 1,81% |
+| RARA11 | 0,00 | -96,57% | 1,00% |
+| DIRR3 | 32,0 (9,8%) | +7,12% | 0,02% |
+| MRVE3 | 64,8 (17,3%) | -2,30% | 6,60% |
+| CURY3 | 19,2 (11,9%) | -6,37% | 2,95% |
+
+Aluguel de ações (BTC, o banco de títulos da B3): quem aluga normalmente vende a descoberto, então o saldo mede a aposta vendida. Free float aqui é a quantidade teórica da carteira de índice.
+
 ## ETFs do livro
 
 | ETF | Valor de referência da cota (IOPV) | Prêmio ou desconto | Cotas criadas no dia |
@@ -119,6 +154,22 @@ x média = volume do dia dividido pela média dos pregões anteriores no histór
 | RARA11 | - | - | 0 |
 
 - Paridade: RARA11 -2,05% contra REMX em reais -2,13% (lá fora -2,71%, câmbio +0,59%); desvio de +0,08%. Fechamentos em horários diferentes: é aproximação.
+
+## Radar do mercado: aluguel
+
+| Mais alugadas | % das ações | Taxa | Preço em 5 pregões |
+|---|---:|---:|---:|
+| PLPL3 | 24,7% | 0,41% | -12,11% |
+| TTEN3 | 24,2% | 0,44% | +0,15% |
+| TAEE11 | 22,1% | 0,55% | -2,34% |
+| BEEF3 | 21,8% | 3,02% | -5,88% |
+| VULC3 | 19,3% | 0,89% | -2,52% |
+| JHSF3 | 18,9% | 0,41% | -2,63% |
+
+**Aluguel mais caro (taxa ao ano):** YDUQ3 29,82%, CMIN3 25,98%, FRAS3 14,22%, AZZA3 13,77%, ECOR3 10,08%, PRNR3 9,15%.
+**Saldo alugado que mais subiu no pregão:** ALOS3 +20,1%, ALPA4 +14,2%, EMBJ3 +10,6%, VALE3 +10,3%, ABEV3 +9,9%, BRSR6 +9,8%.
+**Saldo que mais caiu:** ECOR3 -23,5%, MOVI3 -23,3%, SBFG3 -17,4%, CSMG3 -14,9%, YDUQ3 -11,8%, SMTO3 -10,7%.
+**Vendidos sob pressão (muito alugadas, preço subindo):** ALPA4 +13,0%, MRVE3 +12,3%, ANIM3 +8,5%, MGLU3 +8,4%, PINE4 +7,3%, RIAA3 +5,8%.
 
 **Volume fora do padrão no mercado:** BBDC3 2,5x (-1,10%), CPFE3 2,2x (-0,62%).
 
@@ -209,15 +260,9 @@ Por classe, mediana das taxas de referência dos papéis. Taxa de referência: n
 ## Lacunas e pendências
 
 - quadro de posições em aberto: aguardando
-- saldo de aluguel: aguardando
-- empréstimos do dia: aguardando
 - aluguel por corretora: ignorado
 - Custody: aguardando
-- DIover: aguardando
 - posições em aberto (opções e futuros): aguardando
-- Register: aguardando
-- RepurchaseDealings: aguardando
-- Stock: aguardando
 - Posição em aberto de derivativos por tipo de investidor (estrangeiro, institucional, pessoa física): não existe no Boletim Diário do Mercado; procurado nas 69 tabelas e no texto dos 11 cadernos em 30/09/2026.
 - Fluxo por tipo de investidor sai acumulado no mês e com dois pregões de atraso; o saldo de um dia é a diferença entre dois acumulados seguidos.
 - RARA11: a B3 não publica valor de referência da cota (IOPV) para este ETF no boletim.

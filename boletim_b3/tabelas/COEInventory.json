@@ -1,5 +1,5 @@
 {
- "pregao": "2026-10-15",
+ "pregao": "2026-10-16",
  "nome": "COEInventory",
  "titulo": "Estoque",
  "sla": "8:00:00",
@@ -7,9 +7,9 @@
  "colunas": [{"nome": "TckrSymb", "titulo": "Instrumento financeiro"}, {"nome": "TradQty", "titulo": "Quantidade contratos"}, {"nome": "FinancialVol", "titulo": "Volume financeiro (R$)"}],
  "texto": ["COEs (Certificados de Operações Estruturadas) são instrumentos emitidos por instituições financeiras que combinam diferentes ativos. Esta tabela traz informações sobre quantidade e valor dos COEs que estão atualmente disponíveis para negociação no mercado. Os detalhes sobre as regras utilizadas, bem como a definição de cada um dos campos, estão disponíveis no <a href=\"https://www.b3.com.br/pt_br/market-data-e-indices/servicos-de-dados/market-data/consultas/boletim-diario/dados-publicos-de-produtos-listados-e-de-balcao/glossario/\">Glossário</a>."],
  "situacao": "publicado",
- "atualizado_em": "2026-10-16T02:12:54.487",
+ "atualizado_em": "2026-10-17T03:52:47.907",
  "truncada": false,
  "linhas": [
-  ["COE", 427064, 104196593797.5]
+  ["COE", 427207, 104375477761.2]
  ]
 }
