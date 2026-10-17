@@ -304,3 +304,9 @@ dado_limiar_relativo, 3 tentativas); regua: quant/estudos/2026-10-14_distribuico
    DECIDIDO (16/10/2026, 08h55, "pode fazer"): nivel e reacao e climax DESLIGADOS em modo_robo.json (seguem so medidos e na
    lista travado_pelo_douglas, para a rotina nao religar). Valem a partir do proximo inicio do robo (19/10, 08h35): o processo
    de 16/10 tinha subido as 08h47 com os dois ligados e o robo le as chaves so ao subir.
+
+(16/10/2026, noite) Pesquisa da noite: nenhuma hipotese testada, por falta de dado. Item 6: a posicao por tipo de participante
+NAO existe de graca (b3_dolar/2_posicoes_participante/LEIA_ISTO.txt), PTAX e corretoras na fita ja foram testadas em 09/10.
+Item 7: depende de leitura ao vivo que ainda nao existe. Item 8: ainda so 15 casos. Itens 9 e 10: seguem na prova viva (4
+negocios do mini-indice desde 13/10, cedo demais). Item 14: o pacote yfinance nao esta no .venv e a rotina nao instala
+dependencia. Nenhuma tentativa nova entrou no registro.
