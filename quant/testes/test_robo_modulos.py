@@ -123,3 +123,33 @@ def test_manha_refaz_o_painel_de_opcoes_com_a_cadeia_de_ontem(modo, monkeypatch)
     monkeypatch.setattr(robo, "_boleta_swing_emitida", lambda dia: True)
     assert robo.preparar(date(2026, 10, 15), mods=["swing", "daytrade"]) is True
     assert [n for n, _a, _r in feitos] == ["observacao", "prova_viva", "opcoes"] and feitos[-1][2] is False   # uma vez por dia
+
+
+def test_fim_do_expediente_vem_do_modo(modo):
+    # 17/10/2026, o Douglas: "so consigo deixar o mac ligado das 9 as 13h"
+    assert robo.fim_do_expediente() == robo.HORA_FIM_VIVO                    # sem a chave: o fim do pregao, como sempre foi
+    modo.write_text(json.dumps({"fim_do_expediente": "12:55"}))
+    assert robo.fim_do_expediente() == "12:55"
+    for ruim in ("25:00", "8:30", "19:00", "", None, 7):
+        modo.write_text(json.dumps({"fim_do_expediente": ruim}))
+        assert robo.fim_do_expediente() == robo.HORA_FIM_VIVO
+
+
+def test_processo_de_ontem_que_acorda_hoje_sai_com_erro_para_o_agendador_religar(modo, monkeypatch):
+    from datetime import datetime, timedelta, timezone
+    brt = timezone(timedelta(hours=-3))
+    relogio = [datetime(2026, 10, 19, 12, 50, tzinfo=brt)]
+    monkeypatch.setattr(robo, "agora_brt", lambda: relogio[0])
+    monkeypatch.setattr(robo.calendario, "eh_pregao", lambda d: True)
+
+    def dormiu(hoje):                                                         # o Mac dormiu as 13h e so acordou no dia seguinte
+        relogio[0] = datetime(2026, 10, 20, 9, 0, tzinfo=brt)
+        return 0
+    monkeypatch.setattr(robo, "_dia_dos_dois", dormiu)
+    modo.write_text(json.dumps({"robo": "daytrade", "modulos": ["swing", "daytrade"]}))
+    assert robo.dia() == 1                                                     # o launchd (KeepAlive) religa e o pregao de hoje comeca do zero
+    monkeypatch.setattr(robo, "_dia_dos_dois", lambda hoje: 0)
+    assert robo.dia() == 0                                                     # o dia normal sai com 0
+    relogio[0] = datetime(2026, 10, 19, 12, 50, tzinfo=brt)
+    monkeypatch.setattr(robo, "_dia_fatores", dormiu)
+    assert robo.dia(so="fatores") == 0                                         # o filho nao decide: quem sai com 1 e o processo principal

@@ -168,14 +168,14 @@ def preparar(dia=None, repetir=False, mods=None):
     return tudo
 
 
-def vivo(ate=HORA_FIM_VIVO):
+def vivo(ate=None):
     from quant.execucao import robo_vivo
-    return robo_vivo.rodar(ate=ate)
+    return robo_vivo.rodar(ate=ate or fim_do_expediente())
 
 
-def vivo_swing(ate=HORA_FIM_VIVO):
+def vivo_swing(ate=None):
     from quant.swing import vivo as vivo_sw
-    return vivo_sw.rodar(ate=ate)
+    return vivo_sw.rodar(ate=ate or fim_do_expediente())
 
 
 def _boleta_da_manha(dia):
@@ -262,6 +262,16 @@ def janela_do_day_trade(dia=None):
     return j["inicio"], fim["hora_ultima_entrada"], fim["hora_zerar"]
 
 
+def fim_do_expediente():
+    """Ate quando os processos do dia ficam de pe (o robo ao vivo das acoes e o day trade). 17/10/2026, o Douglas: "so consigo deixar o
+    mac ligado das 9 as 13h": com a chave `fim_do_expediente` em modo_robo.json os processos saem nesse horario, antes de o Mac dormir,
+    e a rotina da noite pode rodar logo depois. Sem a chave vale HORA_FIM_VIVO (o fim do pregao, como sempre foi)."""
+    v = str((ler_json(ARQ_MODO, padrao=None) or {}).get("fim_do_expediente") or "")
+    if len(v) == 5 and v[2] == ":" and v[:2].isdigit() and v[3:].isdigit() and "09:00" <= v <= HORA_FIM_VIVO:
+        return v
+    return HORA_FIM_VIVO
+
+
 def _hm(v):
     """"09:15" -> "9h15"."""
     h, m = str(v).split(":")
@@ -314,8 +324,20 @@ def _dia_dos_dois(hoje, mods=None):
 
 
 def dia(so=None):
-    """O dia inteiro. Sai sozinho em fim de semana e feriado da B3. `so`: roda um modulo so ("fatores" ou "daytrade")."""
+    """O dia inteiro. Sai sozinho em fim de semana e feriado da B3. `so`: roda um modulo so ("fatores" ou "daytrade").
+    17/10/2026: com o Mac dormindo no meio do dia, o processo de ontem so acorda no dia seguinte. Se o dia virou enquanto ele rodava, o processo
+    principal sai com codigo 1: o agendador (KeepAlive do launchd) o religa em ate 2 minutos e o pregao de hoje comeca do zero. O horario do
+    agendador (08h35) nao basta: quando o Mac acorda, o processo de ontem ainda esta de pe e o agendador nao sobe um segundo."""
     hoje = agora_brt().date()
+    codigo = _dia(hoje, so)
+    if so is None and agora_brt().date() != hoje:
+        log(f"rotina: o dia virou ({hoje} -> {agora_brt().date()}) com este processo de pe (o Mac dormiu); saio com codigo 1 para o agendador "
+            "subir o pregao de hoje")
+        return 1
+    return codigo
+
+
+def _dia(hoje, so=None):
     if not calendario.eh_pregao(hoje):
         log(f"{hoje} nao e pregao: nada a fazer")
         return 0
@@ -331,7 +353,7 @@ def dia(so=None):
             # "fluxo": leitura da fita (precisa do AutopilotFeed 1.3 no MetaTrader); "phicube": grafico (medias de Bo Williams)
             from quant.daytrade import robo_fluxo as dt
             log(f"rotina: modo day trade, setup {regra} (simulacao)")
-            dt.rodar(setup=regra)
+            dt.rodar(setup=regra, ate=min(dt.FIM_PROCESSO, fim_do_expediente()))
             return 0
         else:
             from quant.daytrade import robo as dt
@@ -363,7 +385,7 @@ def _dia_swing(hoje):
     """Swing (acoes de curto prazo, ate 10 pregoes): manha (dados, conciliacao com as barras oficiais, sinais, boleta) e pregao (entrada na abertura,
     stop, alvo e prazo ao vivo). Nao ha medicao a noite: as operacoes so medidas sao resolvidas pelas barras oficiais na manha seguinte."""
     hm = lambda: agora_brt().strftime("%H:%M")        # noqa: E731
-    if hm() < HORA_FIM_VIVO:
+    if hm() < fim_do_expediente():
         preparar(hoje, mods=["swing"])
         # visao nova da mesa depois da boleta da manha: acrescenta M1 e M2 a boleta (idempotente: visao ja medida = nada a fazer)
         passo(hoje, "swing_mesa", ["-m", "quant.swing.boleta", "--so-mesa"], timeout=300, repetir=True)

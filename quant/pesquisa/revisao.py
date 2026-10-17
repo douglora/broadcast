@@ -199,6 +199,16 @@ def barras_do_robo(dia, pasta=DIR_DT, ativo="WDOFUT"):
     return pd.DataFrame({"o": p["a"], "h": p["b"].where(inteira, p["a"]), "l": p["c"].where(inteira, p["a"]), "c": p["d"].where(inteira, p["a"])})
 
 
+def janela_do_robo(dia=None):
+    """(inicio, ultima entrada, zerar) do day trade, como o robo le (quant/robo.py). 17/10/2026: o Douglas so deixa o Mac ligado das 9h
+    as 13h; depois de zerar, o robo esta parado de proposito e nada disso e cegueira."""
+    try:
+        from quant import robo
+        return robo.janela_do_day_trade(dia)
+    except Exception:
+        return INICIO, ULTIMA, "18:24"
+
+
 def intervalos_cegos(servidor, robo, minimo=CEGO_MIN, janela=PREGAO):
     """[(inicio, fim, minutos)] em que o servidor negociou e o robo nao montou barra (minutos seguidos >= `minimo`)."""
     if servidor is None or not len(servidor):
@@ -505,12 +515,18 @@ def revisar(dia=None, pasta=DIR_DT, setup="niveis", servidor=None, pedir_servido
         itens.append(_item(dia, "b", "b:metatrader:reaberturas", None,
                            f"o MetaTrader foi fechado e reaberto {len(reab)} vezes por cotação em rajadas ({', '.join(_hm(x['hora']) for x in reab)})",
                            "conferir a conexão da XP; cada reabertura deixa o robô uns 40 s sem preço"))
-    cegos = [(a, b, m, None) for a, b, m in intervalos_cegos(servidor, robo)] if servidor is not robo else []
+    _ini, ultima_robo, zerar_robo = janela_do_robo(dia)
+    fim_janela = min(PREGAO[1], zerar_robo)                      # depois de zerar o robo para de proposito (17/10/2026: Mac ligado ate 13h)
+    cegos = [(a, b, m, None) for a, b, m in intervalos_cegos(servidor, robo, janela=(PREGAO[0], fim_janela))] if servidor is not robo else []
     if not len(robo) and len(est.get("curva") or []):
         lacunas.append("o robô não gravou barra nenhuma da fita hoje")
     for x in est.get("cegueira") or []:                          # o proprio robo anota (desde 15/10/2026): [ini, fim, min(, motivo)]
         if not isinstance(x, (list, tuple)) or len(x) < 3:
             continue
+        if str(x[0]) >= fim_janela:                              # depois de o robo zerar: parado de proposito
+            continue
+        if str(x[1]) > fim_janela:
+            x = [x[0], fim_janela, max(1, (_seg(fim_janela) - _seg(x[0])) // 60)] + list(x[3:])
         motivo = x[3] if len(x) > 3 else None
         k = next((i for i, c in enumerate(cegos) if c[0] == x[0]), None)
         if k is None:
@@ -651,6 +667,12 @@ def revisar(dia=None, pasta=DIR_DT, setup="niveis", servidor=None, pedir_servido
         itens.append(_item(dia, "b", f"b:sinal:{motivo}", tec, f"{len(lista)} sinal(is) de {tec} ({horas}) {o_que}{detalhe}", acao, soma))
     # regra do laboratorio que opera e nao rodou: contrato fora do robo (o mini-indice ate 15/10/2026, achado 10) ou robo cego
     reg = regras_lab_ler() if registro is None else registro
+    for r in reg:                                                # regra que opera fora da janela do robo: nao e falha, e informacao
+        j = r.get("janela")
+        if r.get("estado") == "opera" and j and str(j[0]) >= ultima_robo:
+            lacunas.append(f"{r.get('titulo') or r.get('nome')}: a janela da regra ({j[0]} a {j[1]}) fica depois da última entrada do robô "
+                           f"({ultima_robo}); ela não opera e segue medida na prova viva")
+    reg = [r for r in reg if not (r.get("janela") and str(r["janela"][0]) >= ultima_robo)]
     rodaram = regras_que_rodaram(est, reg, ativos_robo)
     com_sinal = {s.get("tecnica") for s in sinais} | {e.get("tecnica") for e in entradas}
     itens += fora_do_robo(dia, reg, rodaram)
@@ -933,6 +955,10 @@ def registrar_conserto(chave, texto_, teste=None, commit=None, dia=None, arq=ARQ
 
 
 def rodar(dia=None, ensaio=False, pedir_servidor=True, pasta=DIR_DT):
+    """Sem `dia`, o ultimo pregao encerrado (17/10/2026: a rotina que atrasa para a manha seguinte nao revisa o pregao que ainda esta rodando)."""
+    if dia is None:
+        from quant.pesquisa import noite
+        dia = noite.ultimo_pregao_encerrado(pasta) or agora_brt().strftime("%Y-%m-%d")
     rev = revisar(dia, pasta=pasta, pedir_servidor=pedir_servidor)
     return gravar(rev, ensaio=ensaio)
 

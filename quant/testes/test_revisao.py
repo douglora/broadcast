@@ -22,6 +22,8 @@ def _sem_metatrader_nem_pmset(monkeypatch):
         raise RuntimeError("teste: sem MetaTrader")
     monkeypatch.setattr(rv, "barras_do_servidor", _sem_servidor)
     monkeypatch.setattr(rv, "sono_do_mac", lambda dia, texto=None: [] if texto is None else _SONO_DO_MAC(dia, texto))
+    # a janela de verdade (modo_robo.json) e do Douglas e muda; os testes antigos usam a de 13/10 (ate 18h24)
+    monkeypatch.setattr(rv, "janela_do_robo", lambda dia=None: ("09:15", "18:10", "18:24"))
 
 
 def _barras(inicio="09:00", fim="18:29", preco=5050.0, caminho=None, dia=DIA):
@@ -231,7 +233,9 @@ def test_prova_viva_da_noite_pede_barras_novas():
     from quant.pesquisa import prova_viva as pv
     manha, noite = datetime(2026, 10, 14, 8, 13, tzinfo=BRT), datetime(2026, 10, 14, 19, 34, tzinfo=BRT)
     assert pv.rotulo_do_pedido(manha, 2) == 2610142                         # o de sempre de manha
-    assert pv.rotulo_do_pedido(noite, 2) == 261014 * 100 + 52 != pv.rotulo_do_pedido(manha, 2)
+    assert pv.rotulo_do_pedido(noite, 2) == 261014192 != pv.rotulo_do_pedido(manha, 2)
+    tarde = datetime(2026, 10, 14, 12, 55, tzinfo=BRT)                        # 17/10/2026: a rotina passa a rodar as 12h55
+    assert pv.rotulo_do_pedido(tarde, 2) == 261014122 not in (pv.rotulo_do_pedido(manha, 2), pv.rotulo_do_pedido(noite, 2))
 
 
 def test_rotina_da_noite_roda_a_revisao_antes_do_protocolo(tmp_path, monkeypatch):
@@ -415,3 +419,42 @@ def test_rotina_atrasada_revisa_o_ultimo_pregao_encerrado(tmp_path):
     assert noite.ultimo_pregao_encerrado(str(tmp_path), pd.Timestamp("2026-10-16 08:51").to_pydatetime()) == "2026-10-15"
     assert noite.ultimo_pregao_encerrado(str(tmp_path), pd.Timestamp("2026-10-16 19:20").to_pydatetime()) == "2026-10-16"
     assert noite.ultimo_pregao_encerrado(str(tmp_path), pd.Timestamp("2026-10-18 10:00").to_pydatetime()) == "2026-10-16"
+
+
+def test_depois_de_zerar_o_robo_esta_parado_de_proposito(tmp_path, monkeypatch):
+    # 17/10/2026: o Mac so fica ligado das 9h as 13h e o robo zera as 12h50. Cegueira e regra do fim do pregao depois disso nao sao falha
+    monkeypatch.setattr(rv, "janela_do_robo", lambda dia=None: ("09:15", "12:40", "12:50"))
+    pasta = _pregao(tmp_path)
+    est = json.loads((pasta / DIA / "estado_niveis.json").read_text())
+    est["cegueira"] = [["11:00", "11:20", 20], ["12:40", "15:00", 140], ["15:55", "17:14", 79]]
+    (pasta / DIA / "estado_niveis.json").write_text(json.dumps(est))
+    reg = [{"nome": "win_fim", "titulo": "fim do pregão (mini-índice)", "estado": "opera", "ativo": "WINFUT", "janela": ["17:30", "18:10"]}]
+    rev = rv.revisar(DIA, pasta=str(pasta), servidor=_servidor(), dist=_dist(), consertos=[], sono=[], registro=reg, ativos_robo=["WDOFUT", "WINFUT"])
+    cegos = [x for x in rev["itens"] if x["chave"] in ("b:metatrader:cego", "b:mac:dormiu")]
+    assert cegos and all(x["fim"] <= "12:50" for x in cegos)                  # nada depois das 12h50 conta como cegueira
+    assert ("11:00", "11:20") in [(x["inicio"], x["fim"]) for x in cegos]
+    assert not any("15:55" in x["texto"] or "17:14" in x["texto"] for x in rev["itens"])
+    assert not any("win_fim" in x["chave"] for x in rev["itens"])             # a regra do fim do pregao nao e falha
+    assert any("fica depois da última entrada do robô (12:40)" in x for x in rev["lacunas"])
+
+
+def test_rotina_da_noite_respeita_o_fim_do_expediente(tmp_path, monkeypatch):
+    from quant.pesquisa import noite
+    monkeypatch.setattr(noite, "fim_do_expediente", lambda: "12:55")
+    for d in ("2026-10-19", "2026-10-20"):
+        (tmp_path / d).mkdir()
+        (tmp_path / d / "estado_niveis.json").write_text("{}")
+    assert noite.ultimo_pregao_encerrado(str(tmp_path), pd.Timestamp("2026-10-20 12:56").to_pydatetime()) == "2026-10-20"
+    assert noite.ultimo_pregao_encerrado(str(tmp_path), pd.Timestamp("2026-10-20 12:40").to_pydatetime()) == "2026-10-19"
+    monkeypatch.setattr(noite, "agora_brt", lambda: pd.Timestamp("2026-10-20 12:30").to_pydatetime())
+    with pytest.raises(SystemExit, match="12:55"):
+        noite.rodar(ensaio=False, pasta=str(tmp_path), arq_modo=str(tmp_path / "m.json"), arq_setups=str(tmp_path / "s.json"))
+
+
+def test_revisao_sem_dia_olha_o_ultimo_pregao_encerrado(tmp_path, monkeypatch):
+    from quant.pesquisa import noite
+    vistos = []
+    monkeypatch.setattr(noite, "ultimo_pregao_encerrado", lambda pasta=None, agora=None: "2026-10-16")
+    monkeypatch.setattr(rv, "revisar", lambda dia, pasta=None, pedir_servidor=True: vistos.append(dia) or {"dia": dia})
+    monkeypatch.setattr(rv, "gravar", lambda rev, ensaio=False: rev)
+    assert rv.rodar(pasta=str(tmp_path))["dia"] == "2026-10-16" and vistos == ["2026-10-16"]

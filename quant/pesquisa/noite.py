@@ -155,15 +155,25 @@ def aplicar(decisoes, lista, arq_modo=ARQ_MODO, arq_setups=None, arq_decisoes=AR
     return mudou_modo or mudou_reg
 
 
+def fim_do_expediente():
+    """A hora em que o robo do dia termina (modo_robo.json, chave fim_do_expediente; 17/10/2026: o Mac so fica ligado das 9h as 13h).
+    Sem a chave, 18h30, como sempre foi."""
+    try:
+        from quant import robo
+        return robo.fim_do_expediente()
+    except Exception:
+        return "18:30"
+
+
 def ultimo_pregao_encerrado(pasta=DIR_DT, agora=None):
-    """O pregao que a revisao deve olhar: hoje depois das 18h30; antes disso (a rotina atrasada que roda de madrugada ou de manha,
+    """O pregao que a revisao deve olhar: hoje depois do fim do expediente do robo; antes disso (a rotina atrasada que roda de madrugada ou de manha,
     com o Mac acordando), o ultimo pregao anterior com estado do robo. Em 16/10/2026 a rotina de 15/10 rodou as 08h51 e revisou o
     pregao de 16/10, que ainda nem tinha aberto."""
     agora = agora or agora_brt()
     hoje = agora.strftime("%Y-%m-%d")
     dias = sorted(os.path.basename(d) for d in glob.glob(os.path.join(pasta, "20??-??-??"))
                   if glob.glob(os.path.join(d, "estado_*.json")))
-    if agora.strftime("%H:%M") >= "18:30" and hoje in dias:
+    if agora.strftime("%H:%M") >= fim_do_expediente() and hoje in dias:
         return hoje
     antes = [d for d in dias if d < hoje]
     return antes[-1] if antes else None
@@ -237,8 +247,9 @@ def relatorio(lista, pl, decisoes, ensaio=False, rev=None):
 
 def rodar(ensaio=False, pasta=DIR_DT, arq_modo=ARQ_MODO, arq_setups=None, pasta_mt5=None, revisar=True):
     hm = agora_brt().strftime("%H:%M")
-    if not ensaio and "09:00" <= hm < "18:30" and agora_brt().weekday() < 5:
-        raise SystemExit("O pregao esta aberto: a rotina da noite nao muda o robo agora. Rode depois das 18h30, ou com --ensaio.")
+    fim = fim_do_expediente()
+    if not ensaio and "09:00" <= hm < fim and agora_brt().weekday() < 5:
+        raise SystemExit(f"O robo esta no expediente: a rotina da noite nao muda o robo agora. Rode depois das {fim}, ou com --ensaio.")
     rev = revisar_pregao(ensaio, pasta) if revisar else None
     modo = ler_json(arq_modo, padrao=None) or {}
     registro = regras_lab.ler_registro(arq_setups)

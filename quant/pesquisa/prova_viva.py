@@ -52,9 +52,10 @@ def pedir_barras(simbolo, quantas, pasta=fx.PASTA_MT5, espera_s=150, rotulo=None
 
 def rotulo_do_pedido(agora, indice):
     """O rotulo do arquivo de barras. O leitor do MetaTrader nao regrava arquivo que ja existe: em 14/10/2026 a medicao da noite
-    (19h34) releu as barras pedidas de manha (08h13) e o pregao do dia ficou de fora. Depois das 18h o rotulo e outro."""
+    (19h34) releu as barras pedidas de manha (08h13) e o pregao do dia ficou de fora. Antes das 9h o rotulo e o da manha; dali em
+    diante leva a hora (17/10/2026: a rotina da noite passa a rodar as 12h55, quando o Mac ainda esta ligado)."""
     base = int(agora.strftime("%y%m%d"))
-    return base * 100 + 50 + indice if agora.hour >= 18 else base * 10 + indice
+    return base * 10 + indice if agora.hour < 9 else base * 1000 + agora.hour * 10 + indice
 
 
 def medir_regra(r, barras):
