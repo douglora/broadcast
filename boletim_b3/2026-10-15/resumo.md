@@ -1,7 +1,7 @@
 # Boletim da B3: pregão de 15/10/2026 (quinta)
 
 **Situação: COMPLETO.** Boletim publicado pela B3 em 2026-10-16 00:00 (hora de Brasília).
-Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10-16T15:31:17Z (UTC).
+Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10-17T00:54:20Z (UTC).
 
 [[LEITURA_DA_MESA]]
 
@@ -203,6 +203,18 @@ Parede = strike (preço de exercício) com a maior posição em aberto fora do d
 
 - Paridade: RARA11 +0,95% contra REMX em reais +0,20% (lá fora -0,07%, câmbio +0,27%); desvio de +0,75%. Fechamentos em horários diferentes: é aproximação.
 
+## Ações do livro em programa de ADR
+
+| Ativo | Ações em ADR (mi) | % da classe | Variação no pregão (mi) |
+|---|---:|---:|---:|
+| ITUB4 | 1.262,5 | 23,3% | +0,00 |
+| PETR4 | 761,6 | 14,0% | +0,00 |
+| VALE3 | 1.261,8 | 28,4% | +0,00 |
+| UGPA3 | 70,3 | 6,3% | +0,00 |
+| AXIA3 | 47,5 | 1,9% | -0,01 |
+
+ADR = recibo da ação negociado em Nova York. Ações entrando no programa indicam compra lá fora; saindo, venda.
+
 ## Radar do mercado: aluguel
 
 | Mais alugadas | % das ações | Taxa | Preço em 5 pregões |
@@ -325,7 +337,6 @@ Por classe, mediana das taxas de referência dos papéis. Taxa de referência: n
 ## Lacunas e pendências
 
 - aluguel por corretora: ignorado
-- Custody: atrasado
 - Publicadas pela B3 depois do prazo, mas com dado: AnalyticalFramework2.
 - Posição em aberto de derivativos por tipo de investidor (estrangeiro, institucional, pessoa física): não existe no Boletim Diário do Mercado; procurado nas 69 tabelas e no texto dos 11 cadernos em 30/09/2026.
 - Fluxo por tipo de investidor sai acumulado no mês e com dois pregões de atraso; o saldo de um dia é a diferença entre dois acumulados seguidos.
