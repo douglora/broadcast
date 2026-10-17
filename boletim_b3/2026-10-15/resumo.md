@@ -1,7 +1,7 @@
 # Boletim da B3: pregão de 15/10/2026 (quinta)
 
 **Situação: COMPLETO.** Boletim publicado pela B3 em 2026-10-16 00:00 (hora de Brasília).
-Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10-17T11:51:58Z (UTC).
+Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10-17T14:23:26Z (UTC).
 
 [[LEITURA_DA_MESA]]
 
@@ -303,7 +303,7 @@ Nas incentivadas, a mediana pelos negócios do dia (B3 negócios de 15/10) foi I
 
 **Abriram taxa pela indicativa da ANBIMA:** PEJA22 +41,6 pb contra 14/10, para IPCA+ 7,88% (R$ 10,7 mi); PEJA23 +34,9 pb contra 14/10, para IPCA+ 7,92% (R$ 27,0 mi); CPFPB1 +34,2 pb contra 14/10, para IPCA+ 7,64% (R$ 9,0 mi); TRGP13 +31 pb contra 14/10, para IPCA+ 7,40% (R$ 41,9 mi); IRJS15 +29,6 pb contra 14/10, para IPCA+ 11,31% (R$ 13,1 mi).
 **Fecharam taxa pela indicativa da ANBIMA:** SBSPF3 -5,8 pb contra 14/10, para IPCA+ 7,35% (R$ 4,0 mi); CTGE11 -4,6 pb contra 14/10, para IPCA+ 6,77% (R$ 3,9 mi).
-**Abriram taxa pelos negócios da B3:** 22D1289007 +63 pb contra 14/10, para IPCA+ 7,84% (R$ 5,6 mi); CRA022007EP +25 pb contra 14/10, para IPCA+ 7,73% (R$ 7,5 mi); CRA026001JM +19 pb contra 14/10, para 14,09% pré (R$ 6,6 mi); CPGS16 +14 pb contra 13/10, para IPCA+ 6,70% (R$ 13,1 mi); CRA019001E7 +14 pb contra 14/10, para IPCA+ 7,60% (R$ 4,0 mi).
+**Abriram taxa pelos negócios da B3:** 22D1289007 +63 pb contra 14/10, para IPCA+ 7,84% (R$ 5,6 mi); CRA022007EP +25 pb contra 14/10, para IPCA+ 7,73% (R$ 7,5 mi); CRA026001JM +19 pb contra 14/10, para 14,09% pré (R$ 6,6 mi); CRA019001E7 +14 pb contra 14/10, para IPCA+ 7,60% (R$ 4,0 mi); CPGS16 +14 pb contra 13/10, para IPCA+ 6,70% (R$ 13,1 mi).
 **Fecharam taxa pelos negócios da B3:** 23L1737622 -108 pb contra 14/10, para IPCA+ 7,32% (R$ 4,4 mi); 22E1325262 -69 pb contra 01/10, para IPCA+ 8,37% (R$ 4,2 mi); CRA025006SP -61 pb contra 30/09, para 16,49% pré (R$ 112,7 mi); CRA021002NF -40 pb contra 14/10, para IPCA+ 8,24% (R$ 11,4 mi); 24J2539865 -38 pb contra 13/10, para IPCA+ 7,74% (R$ 6,6 mi).
 **Prêmio alto:** CRA020002H1 a IPCA+ 12,56% (B3 negócios de 15/10), +567 pb no vencimento, R$ 3,9 mi; IRJS14 a IPCA+ 11,61% (ANBIMA indicativa de 15/10), +484 pb na duration, R$ 43,3 mi; ASER12 a IPCA+ 11,38% (ANBIMA indicativa de 15/10), +472 pb no vencimento, R$ 4,1 mi; CRA0190066O a IPCA+ 11,67% (B3 negócios de 15/10), +458 pb no vencimento, R$ 3,9 mi; IRJS15 a IPCA+ 11,31% (ANBIMA indicativa de 15/10), +455 pb na duration, R$ 13,1 mi.
 
