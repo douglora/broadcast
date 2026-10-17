@@ -1,5 +1,5 @@
 {
- "pregao": "2026-10-15",
+ "pregao": "2026-10-16",
  "nome": "IbovespaStockBiggestHighs",
  "titulo": "Ações do IBOVESPA - maiores altas",
  "sla": "8:00:00",
@@ -7,18 +7,18 @@
  "colunas": [{"nome": "TckrSymb", "titulo": "Ação"}, {"nome": "Cod", "titulo": "Código"}, {"nome": "Price", "titulo": "Preço (R$)"}, {"nome": "Oscillation", "titulo": "Oscilação (%)"}],
  "texto": ["Lista as ações do IBOVESPA com os maiores percentuais de valorização em um período."],
  "situacao": "publicado",
- "atualizado_em": "2026-10-15T23:30:24.533",
+ "atualizado_em": "2026-10-16T23:30:41.527",
  "truncada": false,
  "linhas": [
-  ["PRIO3", "ON      NM", 68.35, 0.08],
-  ["VIVT3", "ON", 31.22, 0.22],
-  ["FLRY3", "ON      NM", 27.25, 0.44],
-  ["SANB11", "UNT", 28.45, 0.6],
-  ["BRAV3", "ON      NM", 20.69, 0.68],
-  ["ABEV3", "ON", 16.69, 1.02],
-  ["TIMS3", "ON      NM", 18.64, 1.35],
-  ["CXSE3", "ON      NM", 21.21, 1.72],
-  ["YDUQ3", "ON      NM", 13.46, 2.12],
-  ["EMBJ3", "ON      NM", 92.3, 2.7]
+  ["CPLE3", "ON      NM", 17.7, 1.89],
+  ["UGPA3", "ON      NM", 39.4, 1.96],
+  ["CXSE3", "ON      NM", 21.66, 2.12],
+  ["PRIO3", "ON      NM", 70.1, 2.56],
+  ["MBRF3", "ON      NM", 18.98, 2.59],
+  ["CEAB3", "ON      NM", 12.56, 3.45],
+  ["PETR3", "ON      N2", 66.49, 3.53],
+  ["PETR4", "PN      N2", 59.68, 4.04],
+  ["ASAI3", "ON      NM", 12.84, 4.22],
+  ["MGLU3", "ON      NM", 11.11, 6.92]
  ]
 }

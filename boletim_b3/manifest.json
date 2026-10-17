@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-10-17T00:51:42Z",
+ "gerado_em": "2026-10-17T04:57:16Z",
  "cliente_http": "curl_cffi",
  "livro": [
   "EQTL3",
@@ -42,7 +42,7 @@
     "sem_cadastro": 0,
     "erros": 0,
     "ficaram_para_depois": 0,
-    "no_cache": 3508
+    "no_cache": 3538
    },
    "anbima": {
     "situacao": "publicado",
@@ -56,7 +56,7 @@
     }
    },
    "falhas": {},
-   "segundos": 158
+   "segundos": 22
   },
   "2026-10-16": {
    "completo": false,
@@ -76,9 +76,9 @@
    ],
    "rf_cadastro": {
     "papeis_no_dia": 1568,
-    "consultados": 33,
+    "consultados": 0,
     "achados": 0,
-    "sem_cadastro": 33,
+    "sem_cadastro": 0,
     "erros": 0,
     "ficaram_para_depois": 0,
     "no_cache": 3538
@@ -97,7 +97,7 @@
    "falhas": {
     "DerivativesOpenPosition": "arquivo DerivativesOpenPosition: token HTTP 400"
    },
-   "segundos": 93
+   "segundos": 23
   }
  },
  "falhas": [],

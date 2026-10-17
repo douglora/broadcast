@@ -1,6 +1,6 @@
 {
  "pregao": "2026-10-16",
- "coletado_em": "2026-10-17T00:54:20Z",
+ "coletado_em": "2026-10-17T04:57:38Z",
  "tabelas": {
   "SharesInvesVolum": {
    "titulo": "Participação dos investidores",
@@ -21,7 +21,7 @@
   "EconomicIndicators": {
    "titulo": "Indicadores econômicos",
    "situacao": "republicado",
-   "atualizado_em": "2026-10-16T21:49:15.483",
+   "atualizado_em": "2026-10-17T01:52:23.057",
    "sla": "8:00:00",
    "linhas": 211,
    "truncada": false
@@ -92,18 +92,18 @@
   },
   "IbovespaStockBiggestHighs": {
    "titulo": "Ações do IBOVESPA - maiores altas",
-   "situacao": "aguardando",
-   "atualizado_em": "2026-10-16T00:00:38.02",
+   "situacao": "publicado",
+   "atualizado_em": "2026-10-16T23:30:41.527",
    "sla": "8:00:00",
-   "linhas": 0,
+   "linhas": 10,
    "truncada": false
   },
   "IbovespaStockBiggestLow": {
    "titulo": "Ações do IBOVESPA - maiores baixas",
-   "situacao": "aguardando",
-   "atualizado_em": "2026-10-16T00:00:38.02",
+   "situacao": "publicado",
+   "atualizado_em": "2026-10-16T23:30:41.527",
    "sla": "8:00:00",
-   "linhas": 0,
+   "linhas": 10,
    "truncada": false
   },
   "InCashMarketBiggestHighs": {
@@ -149,25 +149,25 @@
   "OptionsSelling": {
    "titulo": "Ações mais negociadas - opções de venda",
    "situacao": "republicado",
-   "atualizado_em": "2026-10-16T19:01:43.427",
+   "atualizado_em": "2026-10-16T22:01:13.49",
    "sla": "8:00:00",
-   "linhas": 9,
+   "linhas": 10,
    "truncada": false
   },
   "DailyAverageDerivatives2": {
    "titulo": "Derivativos",
    "situacao": "republicado",
-   "atualizado_em": "2026-10-16T21:48:32.313",
+   "atualizado_em": "2026-10-16T23:40:11.697",
    "sla": "6:00:00",
    "linhas": 9,
    "truncada": false
   },
   "DerivativesOperation2": {
    "titulo": "Derivativos - resumo das operações",
-   "situacao": "publicado",
-   "atualizado_em": "2026-10-16T19:41:35.373",
+   "situacao": "republicado",
+   "atualizado_em": "2026-10-16T23:40:52.237",
    "sla": "8:00:00",
-   "linhas": 93,
+   "linhas": 97,
    "truncada": false
   },
   "DerivativesMtM": {
@@ -236,10 +236,10 @@
   },
   "ProventionCreditVariable": {
    "titulo": "Crédito de proventos",
-   "situacao": "aguardando",
-   "atualizado_em": "2026-10-16T00:00:38.02",
+   "situacao": "publicado",
+   "atualizado_em": "2026-10-16T22:10:36.467",
    "sla": "00:00:00",
-   "linhas": 0,
+   "linhas": 28,
    "truncada": false
   },
   "Custody": {
@@ -252,10 +252,10 @@
   },
   "FugibleCustody": {
    "titulo": "Custódia fungível",
-   "situacao": "publicado",
-   "atualizado_em": "2026-10-16T00:00:32.263",
+   "situacao": "republicado",
+   "atualizado_em": "2026-10-16T22:00:29.04",
    "sla": "00:00:00",
-   "linhas": 5,
+   "linhas": 6,
    "truncada": false
   },
   "DeadlineDepositSecurities": {
@@ -348,10 +348,10 @@
   },
   "PreviaQuadrimestral": {
    "titulo": "Composição das carteiras de índices",
-   "situacao": "publicado",
-   "atualizado_em": "2026-10-16T00:01:22.707",
+   "situacao": "republicado",
+   "atualizado_em": "2026-10-16T23:31:45.587",
    "sla": "21:00:00",
-   "linhas": 0,
+   "linhas": 2253,
    "truncada": false
   },
   "Previa": {
@@ -375,7 +375,7 @@
    "situacao": "ignorado",
    "atualizado_em": "2026-10-16T21:01:18.883",
    "sla": "21:00:00",
-   "linhas": 0,
+   "linhas": 53492,
    "truncada": false
   }
  },
@@ -404,9 +404,9 @@
  },
  "rf_cadastro": {
   "papeis_no_dia": 1568,
-  "consultados": 33,
+  "consultados": 0,
   "achados": 0,
-  "sem_cadastro": 33,
+  "sem_cadastro": 0,
   "erros": 0,
   "ficaram_para_depois": 0,
   "no_cache": 3538
