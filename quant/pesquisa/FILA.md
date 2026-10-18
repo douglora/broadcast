@@ -35,6 +35,13 @@ metodo em quant/saida/pesquisa5/BRIEF.md) e move a linha para "Testadas" com os 
    por minuto; a fita diaria do robo acumula o mini-dolar dai para a frente. So testar leitura de fluxo com agressor real
    quando houver 120+ pregoes (por volta de 03/2027); ate la, NAO garimpar os 28 pregoes.
 
+16. PROVA VIVA da TIR nova (metodo do Safra) no robo, desde 19/10/2026 (pedido do Douglas em 18/10; quant/estudos/LEIA.md, secao
+   de 18/10/2026). Sem teste historico: o consenso de preco-alvo nao tem serie. Nada opera com ela (a TIR nao e filtro da boleta). Medir so
+   com pregoes de 19/10/2026 em diante, com o retrato diario `quant/saida/observacao/tir_diaria.jsonl` (a TIR do robo e a antiga ao lado):
+   (a) o placar do sinal novo `erp_tir_safra_mediana` (o antigo `erp_tir_mediana` parou com 5 leituras, ate 16/10); (b) a cada 20 pregoes,
+   o retorno de 20 pregoes dos papeis com premio de 4 pontos ou mais (linha da G5) contra os de menos de 4, na TIR nova e na antiga, sem
+   conclusao antes de 120 pregoes; (c) quantos papeis cairam na reserva antiga (`tir_fonte = 'antiga'`) e por que.
+
 ## Testadas
 
 (08/10/2026) Sete frentes, mais de 12 mil medicoes: ver quant/estudos/LEIA.md. Passou so a reversao do dado americano.

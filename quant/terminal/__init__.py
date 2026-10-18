@@ -6,6 +6,7 @@ Este pacote e o caminho terminal -> robo. O caminho inverso (robo -> tela) e `qu
 API (os nomes sao combinados com os outros modulos do robo; nao mude)
     terminal.disponivel()                       -> bool
     terminal.ficha("PETR4")                     -> dict: TIR real e premio sobre a NTN-B, consenso e revisao, insiders, aluguel, noticias
+                                                   (TIR: desde 19/10/2026 a do metodo do Safra, tir_safra.json; reserva = a antiga, ver _secoes.sec_tir)
                                                    pontuadas, proximo resultado, multiplos, valuation contra a propria historia, divida,
                                                    opcoes, fundos e pares. Cada pedaco tem `fonte`, `data` e `idade_dias`; dado mais velho que
                                                    o limite do seu tipo (`LIMITES_DIAS`) vira None, com o motivo em `ficha["motivos"]`.
@@ -92,7 +93,8 @@ def historico(tabela: str, ticker: str | None = None, desde: date | str | None =
     `ativo`); `desde` e uma data ISO. A coluna `origem` diz se a linha e 'retrato' (gravada no proprio dia) ou 'hist' (reconstruida de um
     historico que o terminal ja tinha) ou 'reconstruida' (so na `tir`). Banco ausente: DataFrame vazio com `.attrs['motivo']`. Tabela inexistente: ValueError.
 
-    TABELA `tir`: o numero principal da TIR e o terminal endogeno. As colunas CANONICAS vem primeiro (`tir_principal_pct`, `tir_principal_norm_pct`,
+    TABELA `tir`: so o modelo ANTIGO do terminal (o banco nao guarda a TIR nova do metodo do Safra, que o robo usa desde 19/10/2026).
+    Nele o numero principal da TIR e o terminal endogeno. As colunas CANONICAS vem primeiro (`tir_principal_pct`, `tir_principal_norm_pct`,
     `tir_principal_prudente_pct`, `tir_principal_base`, `premio_principal_pp`) mais `conta`; `tir_hoje_pct`, `tir_normalizada_pct`, `tir_pl_pct`, `tir_perp_pct`,
     `tir_prudente_pct`, `tir_prudente_base`, `premio_pp` e `premio_hoje_pp` sao LEGADO (a menor entre P/L e perpetuidade). `conta` diz so com qual definicao o
     `tir_prudente_pct` (legado) da linha saiu ('endogena' ou 'menor_das_duas'); as colunas `tir_principal_*` sao sempre a conta endogena, em qualquer linha,
@@ -103,7 +105,7 @@ def historico(tabela: str, ticker: str | None = None, desde: date | str | None =
 def estado() -> dict[str, Any]:
     """Diagnostico: o terminal esta no disco, que arquivos existem e de quando sao (para o CLI `status` e para quem investiga)."""
     from datetime import datetime
-    arqs = ["universo.json", "pagina/tir.json", "multiplos.json", "b3_aluguel.json", "noticias.json", "noticias_ativos.json",
+    arqs = ["universo.json", "pagina/tir_safra.json", "pagina/tir.json", "multiplos.json", "b3_aluguel.json", "noticias.json", "noticias_ativos.json",
             "pagina/eventos.json", "pagina/agenda.json", "pagina/proximos.json", "deriv/opcoes_resumo.json", "porativo/consenso/_pronto.json",
             "porativo/insidersbr/_pronto.json", "porativo/divida/_pronto.json", "porativo/valuation/_pronto.json", "macro.json", "rf.json"]
     out: dict[str, Any] = {}

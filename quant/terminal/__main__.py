@@ -18,7 +18,7 @@ import pandas as pd
 
 from . import COLUNAS_TABELA, LIMITES_DIAS, cobertura, estado, eventos, ficha, historico, tabela
 
-COLUNAS_RESUMO = ["nome", "tir_prudente_pct", "tir_premio_pp", "ciclo_lucro", "consenso_upside_pct", "consenso_lpa_rev_30d_pct",
+COLUNAS_RESUMO = ["nome", "tir_prudente_pct", "tir_premio_pp", "tir_fonte", "ciclo_lucro", "consenso_upside_pct", "consenso_lpa_rev_30d_pct",
                   "insiders_saldo_90d_rs", "aluguel_taxa_aa", "noticia_score_7d", "dias_ate_resultado", "pl", "ev_ebitda", "div_liq_ebitda",
                   "iv_atm_pct"]
 

@@ -42,15 +42,15 @@ COLUNAS: list[tuple[str, str, Callable[[dict], Any]]] = [
     ("mcap_rs", "R$: valor de mercado", lambda f: _g(f, "multiplos", "mcap_rs")),
     ("liq_21d_rs", "R$: volume financeiro medio diario de 21 pregoes", lambda f: _g(f, "multiplos", "liq_media_21d_rs")),
     # TIR real implicita (modulo tir)
-    ("tir_pct", "% a.a. real: TIR de hoje (terminal endogeno: o lucro do ano 11 capitalizado a propria taxa)", lambda f: _g(f, "tir", "tir_hoje_pct")),
-    ("tir_prudente_pct", "% a.a. real: TIR prudente (a da tela; normalizada quando o lucro esta em pico)", lambda f: _g(f, "tir", "tir_prudente", "pct")),
-    ("tir_premio_pp", "pp: TIR prudente menos a taxa da NTN-B de ~10 anos", lambda f: _g(f, "tir", "tir_prudente", "premio_pp")),
-    ("tir_premio_hoje_pp", "pp: TIR de hoje menos a NTN-B", lambda f: _g(f, "tir", "premio_hoje_pp")),
+    ("tir_pct", "% a.a. real: modelo antigo, TIR de hoje (terminal endogeno: o lucro do ano 11 capitalizado a propria taxa)", lambda f: _g(f, "tir", "tir_hoje_pct")),
+    ("tir_prudente_pct", "% a.a. real: a TIR que o robo usa; desde 19/10/2026 a do metodo do Safra (tir_safra.json), e o papel fora dela usa a prudente antiga (ver tir_fonte)", lambda f: _g(f, "tir", "tir_prudente", "pct")),
+    ("tir_premio_pp", "pp: essa TIR menos a NTN-B 2035 (na reserva antiga, menos a NTN-B de ~10 anos)", lambda f: _g(f, "tir", "tir_prudente", "premio_pp")),
+    ("tir_premio_hoje_pp", "pp: modelo antigo, TIR de hoje menos a NTN-B de ~10 anos", lambda f: _g(f, "tir", "premio_hoje_pp")),
     ("ciclo_lucro", "codigo: -1 fundo de lucro, 0 normal, 1 pico possivel, 2 pico provavel (vazio = sem dado)", lambda f: _g(f, "tir", "ciclo_do_lucro", "codigo")),
     ("ciclo_razao", "x: lucro de 12 meses sobre a media real de 5 anos", lambda f: _g(f, "tir", "ciclo_do_lucro", "razao_lucro_12m_sobre_media_5a")),
-    ("tir_caixa_g0_pct", "% a.a. real: segunda leitura da TIR (caixa normalizado, sem crescimento)", lambda f: _g(f, "tir", "caixa", "tir_g0_pct")),
-    ("tir_caixa_diverge", "0/1: as duas leituras da TIR divergem 10 pp ou mais", lambda f: _bin(_g(f, "tir", "caixa", "diverge"))),
-    ("tir_casas", "n: analistas por tras do lucro esperado da TIR (1 = nao e consenso)", lambda f: _g(f, "tir", "base", "casas")),
+    ("tir_caixa_g0_pct", "% a.a. real: modelo antigo, segunda leitura da TIR (caixa normalizado, sem crescimento)", lambda f: _g(f, "tir", "caixa", "tir_g0_pct")),
+    ("tir_caixa_diverge", "0/1: modelo antigo, as duas leituras da TIR divergem 10 pp ou mais", lambda f: _bin(_g(f, "tir", "caixa", "diverge"))),
+    ("tir_casas", "n: modelo antigo, analistas por tras do lucro esperado da TIR (1 = nao e consenso)", lambda f: _g(f, "tir", "base", "casas")),
     # consenso (agregador)
     ("consenso_upside_pct", "%: preco-alvo medio sobre o preco na coleta, menos 1", lambda f: _g(f, "consenso", "alvo", "potencial_pct")),
     ("consenso_alvo_n", "n: analistas no preco-alvo", lambda f: _g(f, "consenso", "alvo", "analistas")),
@@ -117,9 +117,17 @@ COLUNAS: list[tuple[str, str, Callable[[dict], Any]]] = [
      lambda f: _g(f, "opcoes", "sorriso_do_vencimento_de_referencia", "skew_10_pp")),
     ("opcoes_pregao_incompleto", "0/1: o pregao mais recente veio incompleto da B3 e os numeros de opcao sao do ultimo pregao COMPLETO",
      lambda f: None if f.get("opcoes") is None else float(bool(_g(f, "opcoes", "pregao_incompleto_mais_recente")))),
+    # TIR pelo metodo do Safra (acrescentadas em 18/10/2026, no fim pelo contrato de colunas; o robo le a TIR nova desde 19/10/2026)
+    ("tir_fonte", "texto: o que esta por tras de tir_prudente_pct e tir_premio_pp: 'safra' (numero recente do Safra), 'analistas' (preco-alvo medio "
+                  "descontado ao Ke padrao do Safra) ou 'antiga' (reserva: a prudente do modelo antigo, papel fora da TIR nova)", lambda f: _g(f, "tir", "fonte_tir")),
+    ("tir_confianca", "texto: confianca da TIR nova ('alta', 'media', 'analistas', 'poucos'; vazio na reserva)", lambda f: _g(f, "tir", "tir_safra", "confianca")),
+    ("tir_potencial_pct", "%: preco-alvo medio dos analistas sobre o preco, na TIR nova", lambda f: _g(f, "tir", "tir_safra", "analistas", "potencial_pct")),
+    ("tir_analistas_n", "n: analistas no preco-alvo da TIR nova", lambda f: _g(f, "tir", "tir_safra", "analistas", "n")),
+    ("tir_antiga_pct", "% a.a. real: a prudente do modelo antigo, so para comparar (o robo deixou de usar em 19/10/2026)", lambda f: _g(f, "tir", "tir_antiga", "pct")),
+    ("tir_antiga_premio_pp", "pp: a prudente antiga menos a NTN-B de ~10 anos, so para comparar", lambda f: _g(f, "tir", "tir_antiga", "premio_pp")),
 ]
 NOMES = [c[0] for c in COLUNAS]
-TEXTO = ("nome", "classe", "setor", "subsetor")
+TEXTO = ("nome", "classe", "setor", "subsetor", "tir_fonte", "tir_confianca")
 
 
 def documentacao() -> str:
@@ -135,6 +143,7 @@ def universo_padrao(ctx: S.Ctx, classes: Iterable[str]) -> list[str]:
     if tks:
         return sorted(tks)
     chaves = set((L.ler("multiplos.json") or {}).get("a", {})) | set(((L.ler("pagina/tir.json") or {}).get("empresas") or {}))
+    chaves |= set(((L.ler("pagina/tir_safra.json") or {}).get("empresas") or {}))
     return sorted(chaves)
 
 

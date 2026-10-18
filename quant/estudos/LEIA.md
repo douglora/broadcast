@@ -504,3 +504,44 @@ Estudo (quant/estudos/2026-10-14_ajuste_estrategia.py, familia dado_limiar_relat
 | Inverno americano (dado as 10h30): sinais do dado bloqueados pelas outras regras | 45 de 125 (36%), +R$ 10.184 perdidos | conflito a partir de 02/11/2026 |
 
 Nivel e climax estao travados pelo Douglas: nada foi desligado; a decisao foi pedida a ele com esses numeros.
+
+## 18/10/2026: a TIR do robo passa a ser a do metodo do Safra (prova viva a partir de 19/10)
+
+Pedido do Douglas (18/10, "3- pode levar"): levar ao robo a TIR real nova do terminal, calculada pelo metodo do Safra (Ke padrao do Safra,
+15,4% nominal e 11,2% real, o mesmo que reproduz as TIRs que o Safra passou a ele), no lugar da TIR antiga. Feito no domingo, pregao fechado.
+
+O que mudou no codigo:
+- `quant/terminal/_secoes.py::sec_tir` le primeiro `cache/out/pagina/tir_safra.json` (100 empresas em 18/10). `tir_prudente` (pct, premio_pp,
+  base, pico, fonte, ntnb) e sempre o numero do robo; `fonte_tir` diz o que esta por tras: 'safra' (numero recente do Safra), 'analistas'
+  (preco-alvo medio descontado ao Ke padrao do Safra) ou 'antiga' (RESERVA: a prudente do modelo antigo, quando o papel nao esta no arquivo
+  novo ou o arquivo esta ausente ou velho; o motivo vai em `reserva`). A antiga fica ao lado em `tir_antiga`, a nova inteira em `tir_safra`.
+  O premio da nova e sobre a NTN-B 2035 (6,90% em 16/10); o da antiga, sobre a NTN-B 2037 (6,92%).
+- Tabela: `tir_prudente_pct` e `tir_premio_pp` trazem esse numero (o nome ficou pelo contrato de colunas); no fim, `tir_fonte`, `tir_confianca`,
+  `tir_potencial_pct`, `tir_analistas_n`, `tir_antiga_pct` e `tir_antiga_premio_pp`. O resumo da linha de comando mostra `tir_fonte`.
+- Observacao: `erp_tir_mediana` deu lugar a `erp_tir_safra_mediana`, com id novo para o placar nao misturar as definicoes (os limiares sao os
+  declarados, 2 e 5 pontos; so entram as linhas da TIR nova). `quant/observacao/tir_diaria.py` grava todo dia a TIR de cada papel, a do robo e a
+  antiga ao lado, em `quant/saida/observacao/tir_diaria.jsonl`: o terminal regrava o arquivo a cada rodada e o banco dele nao guarda a TIR nova.
+
+Antes e depois (TIR com o preco de 16/10, medida em 18/10; quem faz a conta e o terminal):
+
+| O que | Antes (TIR antiga) | Depois (TIR nova) |
+|---|---|---|
+| Papeis com TIR | 92 | 100 (novos: ANIM3, AURE3, CSAN3, CSNA3, ENEV3, HAPV3, MRVE3, ORVR3); 0 na reserva |
+| Premio mediano sobre a NTN-B (sinal da observacao) | +1,7 ponto, leitura -1 | +4,3 pontos, leitura 0 |
+| Premio de 4 pontos ou mais (linha da G5, regra so escrita, nao programada) | 32 papeis | 57 (entram 34, saem 9) |
+| Premio de 2 pontos ou menos | 47 papeis | 5 |
+| Ordem dos 92 papeis em comum (correlacao de postos) | - | 0,35; em 27 deles o premio mudou mais de 5 pontos |
+
+Saem da linha de 4 pontos: BBAS3, BMOB3, BRSR6, EZTC3, IRBR3, PETR4, RAPT4, TAEE11, VAMO3. Entram: ALOS3, AXIA3, BBDC4, CEAB3, CPFE3, CPLE3,
+CSAN3, CSMG3, CSNA3, EMBJ3, EQTL3, GGPS3, HAPV3, ITSA4, KLBN11, LREN3, MDNE3, MRVE3, NATU3, ORVR3, PSSA3, RADL3, RDOR3, RENT3, SAPR11, SLCE3,
+SMFT3, SUZB3, TOTS3, USIM5, VALE3, VBBR3, VIVA3, WEGE3.
+
+O que NAO muda: a boleta do swing e as opcoes nao leem TIR (o gestor so tira da ficha a data do resultado; a ficha inteira fica guardada na
+operacao e passa a levar a TIR nova); nenhuma conviccao da visao da mesa de 18/10 (69 papeis) usa TIR (so dois avisos dizendo que a TIR antiga de
+SBSP3 e EQTL3 nao foi usada). Nenhum papel entra ou sai da boleta por causa da troca. Se a mesa passar a usar a linha de 4 pontos, entre os 69
+entrariam 23 e sairiam 4 (BBAS3, BRSR6, PETR4, VAMO3).
+
+Sem teste historico: o consenso de preco-alvo nao tem serie. A TIR nova entra como PROVA VIVA (FILA, item 16), nada opera com ela e o holdout
+continua fechado. Testes: 1.233 verdes na suite inteira (mais o teste novo do retrato diario e os 89 do leitor e da observacao,
+rodados de novo depois do ultimo ajuste); a unica falha e a antiga da auditoria da TIR de 11/10 (retorno total, 8 de 41 casos), sem
+relacao com esta troca.

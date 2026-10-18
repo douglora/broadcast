@@ -22,7 +22,9 @@ COLUNAS_ESTAVEIS = [
     "div_cobertura_juros", "div_custo_pct", "div_moeda_estrangeira_pct", "iv_atm_pct", "iv_pctil", "opcoes_pc_oi", "opcoes_dor_maxima_dist_pct",
     "retorno_12d_pct", "retorno_12d_vs_pares_pp", "fundos_pct_classe",
     # acrescentadas em 12/10/2026 (sempre no fim: a ordem das anteriores nao muda)
-    "resultado_antes_da_abertura", "resultado_momento_confianca", "iv_skew_10_pp", "opcoes_pregao_incompleto"]
+    "resultado_antes_da_abertura", "resultado_momento_confianca", "iv_skew_10_pp", "opcoes_pregao_incompleto",
+    # acrescentadas em 18/10/2026: a TIR pelo metodo do Safra (o robo usa desde 19/10/2026)
+    "tir_fonte", "tir_confianca", "tir_potencial_pct", "tir_analistas_n", "tir_antiga_pct", "tir_antiga_premio_pp"]
 
 
 @pytest.fixture
@@ -54,7 +56,7 @@ def test_uma_linha_por_ticker_na_ordem_pedida_com_indice_ticker(raiz):
 def test_colunas_numericas_sao_float_e_as_de_texto_ficam_texto(raiz):
     df = T.tabela(["PETR4", "BBAS3"], hoje=HOJE)
     for c in COLUNAS_ESTAVEIS:
-        if c in ("nome", "classe", "setor", "subsetor"):
+        if c in ("nome", "classe", "setor", "subsetor", "tir_fonte", "tir_confianca"):
             assert df[c].dtype == object, c
         else:
             assert pd.api.types.is_float_dtype(df[c]), c

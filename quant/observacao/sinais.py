@@ -208,16 +208,20 @@ def ibov_vol_20_252(f):
 # ─────────────────────────────────────────────────────────────
 # fundamento
 # ─────────────────────────────────────────────────────────────
-def erp_tir_mediana(f):
+def erp_tir_safra_mediana(f):
+    """Premio mediano da TIR nova (metodo do Safra) sobre a NTN-B 2035. Nasceu em 19/10/2026 no lugar de `erp_tir_mediana` (TIR prudente antiga sobre
+    a NTN-B de ~10 anos), com id novo para o placar nao misturar as duas definicoes; os limiares sao os mesmos, declarados antes. So entram as linhas da
+    TIR nova (`tir_fonte` 'safra' ou 'analistas'): a reserva antiga fica de fora da mediana, que mudaria de nivel."""
     t = f.get("tabela")
-    if t is None or "tir_premio_pp" not in getattr(t, "columns", []):
+    if t is None or not {"tir_premio_pp", "tir_fonte"} <= set(getattr(t, "columns", [])):
         return None
-    p = pd.to_numeric(t["tir_premio_pp"], errors="coerce").dropna()
+    p = pd.to_numeric(t.loc[t["tir_fonte"].isin(("safra", "analistas")), "tir_premio_pp"], errors="coerce").dropna()
     if len(p) < 20:
         return None
     med = float(p.median())
     leit = 1 if med >= LIMIARES["erp_alto_pp"] else (-1 if med <= LIMIARES["erp_baixo_pp"] else 0)
-    return _sinal("erp_tir_mediana", "fundamento", "swing", 20, med, leit, f"Premio mediano da TIR real sobre a NTN-B: {med:+.1f} pontos ({len(p)} empresas; G26)", f["hoje"], "terminal tir")
+    return _sinal("erp_tir_safra_mediana", "fundamento", "swing", 20, med, leit,
+                  f"Premio mediano da TIR real (metodo do Safra) sobre a NTN-B 2035: {med:+.1f} pontos ({len(p)} empresas; G26)", f["hoje"], "terminal tir_safra")
 
 
 def cartas_tom(f):
@@ -343,7 +347,7 @@ def tr_posicao_aberta_wdo(f):
 
 
 SINAIS = (ust10_10d, dxy_20d, vix_regime, brent_10d, usdbrl_10d, hy_10d, di2_63d, ntnb35_20d, focus_ipca_1sem, copom_proximo, dado_eua_hoje,
-          fluxo_estrangeiro_5d, consenso_revisoes_30d, ibov_mm200, ibov_vol_20_252, erp_tir_mediana, cartas_tom, risco_apetite, usdbrl_vol_regime,
+          fluxo_estrangeiro_5d, consenso_revisoes_30d, ibov_mm200, ibov_vol_20_252, erp_tir_safra_mediana, cartas_tom, risco_apetite, usdbrl_vol_regime,
           tr_proximo_evento, tr_ultimo_dado, tr_vix_percentil, tr_feed_mt5, tr_posicao_aberta_wdo)
 
 

@@ -54,7 +54,9 @@ def terminal(tmp_path, monkeypatch):
               "fluxo": {"posicao_em_aberto_total": {"valor": {"WDO": {"contratos_em_aberto": 500000, "variacao_dia": -1200}}, "pregao": "2026-10-09"}}}
     (out / "tempo_real" / "estado.json").write_text(json.dumps(estado))
     monkeypatch.setenv("AUTOPILOT_TERMINAL", str(tmp_path))
-    tabela = pd.DataFrame({"consenso_lpa_rev_30d_pct": [2.0] * 30 + [-1.0] * 10, "tir_premio_pp": [6.0] * 25 + [np.nan] * 15})
+    # TIR (19/10/2026): 20 papeis na TIR nova a 6 pontos e 20 na reserva antiga a 1 ponto; a mediana conta so a nova
+    tabela = pd.DataFrame({"consenso_lpa_rev_30d_pct": [2.0] * 30 + [-1.0] * 10, "tir_premio_pp": [6.0] * 20 + [1.0] * 20,
+                           "tir_fonte": ["analistas"] * 18 + ["safra"] * 2 + ["antiga"] * 20})
     monkeypatch.setattr(fontes, "tabela_terminal", lambda: tabela)
     monkeypatch.setattr(fontes, "cartas_tom", lambda hoje, meses=3, caminho=None: {"cautela": 30, "oportunidade": 10, "docs": 12, "desde": "2026-07"})
     return out
@@ -83,7 +85,9 @@ def test_sinais_leem_o_terminal_de_mentira(terminal):
     assert por["fluxo_estrangeiro_5d"]["leitura"] == 1 and por["fluxo_estrangeiro_5d"]["valor"] == pytest.approx(5.0)
     assert por["consenso_revisoes_30d"]["leitura"] == 1 and por["consenso_revisoes_30d"]["valor"] == pytest.approx(75.0)
     assert por["ibov_mm200"]["leitura"] == 1 and por["ibov_vol_20_252"]["leitura"] in (-1, 0, 1)
-    assert por["erp_tir_mediana"]["leitura"] == 1 and por["cartas_tom"]["leitura"] == -1
+    assert por["erp_tir_safra_mediana"]["leitura"] == 1 and por["cartas_tom"]["leitura"] == -1
+    assert por["erp_tir_safra_mediana"]["valor"] == pytest.approx(6.0) and "(20 empresas" in por["erp_tir_safra_mediana"]["texto"]
+    assert "erp_tir_mediana" not in por                                  # a definicao antiga saiu (id novo: o placar nao mistura)
     # rodada 2 (12/10/2026): apetite a risco conta so o S&P (HYG caiu, DXY parado em 5 pregoes, VIX subiu) e a vol do dolar esta alta
     assert por["risco_apetite"]["valor"] == 1 and por["risco_apetite"]["leitura"] == -1
     assert por["usdbrl_vol_regime"]["leitura"] == 1
@@ -170,3 +174,18 @@ def test_brier_do_cartao():
     assert placar.brier(cartao, {"IBOV": ibov}, hoje="2026-10-20") is None             # ainda nao e hora
     r = placar.brier(cartao, {"IBOV": ibov}, hoje="2026-11-05")
     assert r["realizado"] == ["sobe"] and r["brier"] == pytest.approx(0.18) and r["brier_ingenuo"] == pytest.approx(0.5) and r["melhor_que_ingenuo"]
+
+
+def test_retrato_diario_da_tir_grava_um_dia_por_linha_e_substitui_o_dia(tmp_path):
+    from quant.observacao import tir_diaria
+    t = pd.DataFrame({"tir_prudente_pct": [10.33, np.nan, 15.0], "tir_premio_pp": [3.43, np.nan, 8.1], "tir_fonte": ["analistas", None, "antiga"],
+                      "tir_antiga_pct": [18.39, np.nan, 15.0], "tir_antiga_premio_pp": [11.68, np.nan, 8.1], "tir_potencial_pct": [1.17, np.nan, np.nan]},
+                     index=pd.Index(["PETR4", "BBAS3", "VALE3"], name="ticker"))
+    arq = str(tmp_path / "tir_diaria.jsonl")
+    assert tir_diaria.registrar("2026-10-19", t, arq=arq) == 2                    # BBAS3 sem TIR nenhuma fica de fora
+    assert tir_diaria.registrar("2026-10-19", t, arq=arq) == 2                    # repetir o dia substitui
+    assert tir_diaria.registrar("2026-10-20", t.iloc[:1], arq=arq) == 1
+    linhas = [json.loads(x) for x in open(arq, encoding="utf-8")]
+    assert [x["dia"] for x in linhas] == ["2026-10-19", "2026-10-20"]
+    assert linhas[0]["papeis"]["PETR4"] == [10.33, 3.43, "analistas", 18.39, 11.68, 1.17] and linhas[0]["papeis"]["VALE3"][5] is None
+    assert tir_diaria.registrar("2026-10-21", None, arq=arq) == 0 and tir_diaria.registrar("2026-10-21", t[["tir_prudente_pct"]], arq=arq) == 0

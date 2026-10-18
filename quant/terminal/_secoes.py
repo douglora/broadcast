@@ -129,7 +129,83 @@ def identidade(c: Ctx, t: str) -> dict | None:
 
 # --------------------------------------------------------------------------- TIR real
 
+_PICO = ("pico_provavel", "pico_possivel")
+
+
 def sec_tir(c: Ctx, t: str) -> tuple[dict | None, str | None]:
+    """A TIR real que o robo usa. Desde 19/10/2026 (pedido do Douglas em 18/10) e a TIR nova do terminal, pelo metodo do Safra
+    (`_tir_safra`); o papel que ela nao cobre, ou com o arquivo novo ausente ou velho, usa a TIR prudente antiga como RESERVA.
+
+    `tir_prudente` (pct, premio_pp, base, pico, fonte, ntnb) e SEMPRE o numero do robo, qualquer que seja a fonte: e dele que a tabela tira
+    `tir_prudente_pct` e `tir_premio_pp`. `fonte_tir` diz o que esta por tras: 'safra' (numero recente do Safra), 'analistas' (preco-alvo medio
+    descontado ao Ke padrao do Safra) ou 'antiga' (reserva, com o motivo em `reserva`). A prudente antiga fica em `tir_antiga` (mesmo formato) e a
+    TIR nova inteira em `tir_safra`, para comparar. Os outros campos (`tir_hoje_pct`, `ciclo_do_lucro`, `caixa`, `premissas`...) sao do modelo antigo
+    e so aparecem quando ele cobre o papel. Premio: a TIR nova sobre a NTN-B 2035; a antiga sobre a NTN-B de ~10 anos (2037)."""
+    novo, m_novo = _tir_safra(c, t)
+    velho, m_velho = _tir_antiga(c, t)
+    if novo is None and velho is None:
+        return None, f"TIR nova: {m_novo}; TIR antiga (reserva): {m_velho}"
+    antiga = dict(velho["tir_prudente"]) if velho else None
+    if novo is None:
+        out = dict(velho)
+        out["tir_prudente"] = dict(antiga, fonte="antiga", ntnb=velho.get("ntnb"))
+        out.update({"fonte_tir": "antiga", "reserva": m_novo, "tir_antiga": antiga, "tir_safra": None})
+        return out, None
+    nivel = novo.get("ciclo_do_lucro")
+    out = dict(velho) if velho else {"ciclo_do_lucro": {"nivel": nivel, "marca": "pico" if nivel in _PICO else "fundo" if nivel == "fundo" else None,
+                                                        "codigo": _CODIGO_CICLO.get(nivel)}}
+    out.update({k: novo[k] for k in ("fonte", "data", "idade_dias", "gerado", "preco")})   # cabecalho, rodada e preco: os da fonte que o robo usa
+    if velho:
+        out["avisos_tir_antiga"] = list(velho.get("avisos") or [])
+    out["avisos"] = list(novo["avisos"])
+    out["tir_prudente"] = {"pct": novo["tir_pct"], "base": novo["base"], "pico": (nivel in _PICO) if nivel else None, "premio_pp": novo["premio_pp"],
+                           "fonte": novo["base"], "ntnb": novo["ntnb"]}
+    out.update({"fonte_tir": novo["base"], "reserva": None, "tir_antiga": antiga, "tir_safra": novo})
+    return out, None
+
+
+def _tir_safra(c: Ctx, t: str) -> tuple[dict | None, str | None]:
+    """A TIR nova do terminal (cache/out/pagina/tir_safra.json, metodo do Safra): `tir` em fracao ao ano, `premio_ntnb35_pp` em pontos sobre a
+    NTN-B 2035, `base` 'safra' ou 'analistas', `confianca`, `avisos` e `analistas.potencial`/`analistas.n`. Mesmo limite de idade da TIR antiga."""
+    d = L.ler("pagina/tir_safra.json")
+    if not isinstance(d, dict) or not d.get("empresas"):
+        return None, "arquivo da TIR nova (cache/out/pagina/tir_safra.json) ausente ou vazio"
+    e = d["empresas"].get(t)
+    if e is None:
+        fora = next((x for x in d.get("fora") or [] if isinstance(x, dict) and x.get("t") == t), None)
+        if fora:
+            return None, f"fora da TIR nova: {fora.get('motivo')}"
+        return None, f"a TIR nova nao cobre {t} (cobre {len(d['empresas'])} empresas)"
+    ref = e.get("preco_data") or d.get("gerado")
+    motivo = _velho("tir", ref, c, "o preco da TIR nova")
+    if motivo:
+        return None, motivo
+    pct = L.pct(e.get("tir"))
+    if pct is None:
+        return None, "a TIR nova nao traz numero para o papel"
+    nt = d.get("ntnb") or {}
+    ntnb = L.arred(nt.get("taxa"), 4)
+    premio = L.arred(e.get("premio_ntnb35_pp"))
+    if premio is None and ntnb is not None:
+        premio = round(pct - ntnb, 2)
+    an = e.get("analistas") or {}
+    sf = e.get("safra") or {}
+    out = _cab("Autopilot Terminal, modulo tir_safra (cache/out/pagina/tir_safra.json)", ref, c)
+    out.update({
+        "gerado": d.get("gerado"), "metodo": d.get("metodo"), "preco": L.arred(e.get("preco"), 4), "preco_data": e.get("preco_data"),
+        "tir_pct": pct, "premio_pp": premio, "ntnb": {"taxa_pct": ntnb, "vencimento": nt.get("venc"), "data": nt.get("data")},
+        "base": e.get("base"), "confianca": e.get("confianca"), "tipo": e.get("tipo"),
+        "ciclo_do_lucro": e.get("ciclo_do_lucro") if isinstance(e.get("ciclo_do_lucro"), str) else None,
+        "analistas": {"potencial_pct": L.pct(an.get("potencial")), "n": L.inteiro(an.get("n")), "alvo_medio": L.arred(an.get("alvo_medio"), 4),
+                      "coleta": an.get("coleta")} if an else None,
+        "safra": {"tir_pct": L.arred(sf.get("tir")), "data": sf.get("data"), "fonte": sf.get("fonte")} if sf else None,
+        "avisos": list(e.get("avisos") or []),
+    })
+    return out, None
+
+
+def _tir_antiga(c: Ctx, t: str) -> tuple[dict | None, str | None]:
+    """A TIR do modelo antigo do terminal (cache/out/pagina/tir.json). Desde 19/10/2026 so e reserva e comparacao (ver `sec_tir`)."""
     d = L.ler("pagina/tir.json")
     if not isinstance(d, dict) or not d.get("empresas"):
         return None, "arquivo da TIR (cache/out/pagina/tir.json) ausente ou vazio"

@@ -9,7 +9,7 @@ import numpy as np
 import pandas as pd
 
 from quant.comum import gravar_atomico
-from quant.observacao import ARQ_HOJE, DIR_OBS, dose, placar, sinais, termometro
+from quant.observacao import ARQ_HOJE, DIR_OBS, dose, placar, sinais, termometro, tir_diaria
 
 
 def _mao_atual():
@@ -40,6 +40,7 @@ def rodar(hoje=None, com_tabela=True, gravar=True):
            "nota": "Camada de observacao: tudo e so medido; nenhum sinal muda lote, exposicao ou chave. O placar (python -m quant.observacao --placar) diz, com 60+ leituras, quem tem informacao."}
     if gravar:
         n = placar.registrar(hoje, lidos, term, rec)
+        obj["tir_papeis_gravados"] = tir_diaria.registrar(hoje, f.get("tabela"))     # prova viva da TIR nova (19/10/2026)
         os.makedirs(DIR_OBS, exist_ok=True)
         gravar_atomico(ARQ_HOJE, json.dumps(obj, ensure_ascii=False, indent=1))
         obj["leituras_gravadas"] = n
