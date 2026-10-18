@@ -22,7 +22,24 @@ def montar_terminal(raiz: Path) -> Path:
         {"s": "NVDC34", "n": "Nvidia BDR", "c": "bdr", "g": "Tecnologia", "sg": "Semicondutores", "m": "BRL", "idx": []},
         {"s": "NVDA", "n": "Nvidia", "c": "acao_us", "g": "Tecnologia", "sg": "Semicondutores", "m": "USD", "idx": []}]})
 
-    # ---- TIR: PETR4 normal; DIRR3 em pico (numero principal e o normalizado); ENEV3 fora do modelo
+    # ---- TIR NOVA (a unica que o robo le desde 19/10/2026): PETR4 normal (analistas); DIRR3 em pico (numero do Safra); PRIO3 em fundo de
+    #      lucro, sem o campo do premio (o leitor conta TIR menos a NTN-B 2035); ENEV3 fora da conta; VALE3 so na antiga (fica SEM TIR)
+    _g(out / "pagina" / "tir_safra.json", {
+        "gerado": "2026-10-12T08:30:00-03:00", "metodo": "safra_v2", "ntnb": {"venc": "2035-05-15", "taxa": 6.71, "data": "2026-10-09"},
+        "empresas": {
+            "PETR4": {"t": "PETR4", "base": "analistas", "tipo": "real", "tir": 0.18389, "premio_ntnb35_pp": 11.68, "preco": 56.0, "preco_data": "2026-10-09",
+                      "analistas": {"alvo_medio": 58.31, "n": 13, "potencial": 0.041, "coleta": "2026-10-11"}, "safra": None, "confianca": "analistas",
+                      "avisos": ["preco-alvo de 13 casas"], "ciclo_do_lucro": "normal"},
+            "DIRR3": {"t": "DIRR3", "base": "safra", "tipo": "real", "tir": 0.10, "premio_ntnb35_pp": 3.29, "preco": 12.3, "preco_data": "2026-10-09",
+                      "analistas": {"alvo_medio": 14.0, "n": 3, "potencial": 0.138, "coleta": "2026-10-11"},
+                      "safra": {"tir": 10.1, "data": "2026-10-08", "fonte": "Safra, numero passado ao Douglas"}, "confianca": "alta", "avisos": [],
+                      "ciclo_do_lucro": "pico_provavel"},
+            "PRIO3": {"t": "PRIO3", "base": "analistas", "tipo": "real", "tir": 0.15, "preco": 40.0, "preco_data": "2026-10-09",
+                      "analistas": {"alvo_medio": 50.0, "n": 8, "potencial": 0.25, "coleta": "2026-10-11"}, "confianca": "analistas", "avisos": [],
+                      "ciclo_do_lucro": "fundo"}},
+        "fora": [{"t": "ENEV3", "n": "Eneva ON", "motivo": "sem preco-alvo dos analistas"}]})
+
+    # ---- TIR ANTIGA: continua no disco do terminal, mas o robo NAO le (os testes conferem que VALE3, so daqui, fica sem TIR)
     _g(out / "pagina" / "tir.json", {
         "gerado": "2026-10-12T09:00:00-03:00", "horizonte": 10,
         "geral": {"ntnb": {"venc": "2037-05-15", "taxa": 6.71, "data": "2026-10-09"}, "k_real": 0.1171},

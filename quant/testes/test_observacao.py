@@ -176,16 +176,20 @@ def test_brier_do_cartao():
     assert r["realizado"] == ["sobe"] and r["brier"] == pytest.approx(0.18) and r["brier_ingenuo"] == pytest.approx(0.5) and r["melhor_que_ingenuo"]
 
 
-def test_retrato_diario_da_tir_grava_um_dia_por_linha_e_substitui_o_dia(tmp_path):
+def test_retrato_diario_da_tir_grava_so_a_nova_e_o_dia_recusado(tmp_path):
     from quant.observacao import tir_diaria
-    t = pd.DataFrame({"tir_prudente_pct": [10.33, np.nan, 15.0], "tir_premio_pp": [3.43, np.nan, 8.1], "tir_fonte": ["analistas", None, "antiga"],
-                      "tir_antiga_pct": [18.39, np.nan, 15.0], "tir_antiga_premio_pp": [11.68, np.nan, 8.1], "tir_potencial_pct": [1.17, np.nan, np.nan]},
-                     index=pd.Index(["PETR4", "BBAS3", "VALE3"], name="ticker"))
+    t = pd.DataFrame({"tir_prudente_pct": [10.33, np.nan, 15.0], "tir_premio_pp": [3.43, np.nan, 8.1], "tir_fonte": ["analistas", None, "safra"],
+                      "tir_potencial_pct": [1.17, np.nan, np.nan]}, index=pd.Index(["PETR4", "BBAS3", "VALE3"], name="ticker"))
+    ok = {"ok": True, "motivo": None, "gerado": "2026-10-19T08:40:00-03:00", "conferido_em": "2026-10-19T08:40:02-03:00",
+          "sem_tir": {"ENEV3": "fora da TIR nova: sem preco-alvo"}}
     arq = str(tmp_path / "tir_diaria.jsonl")
-    assert tir_diaria.registrar("2026-10-19", t, arq=arq) == 2                    # BBAS3 sem TIR nenhuma fica de fora
-    assert tir_diaria.registrar("2026-10-19", t, arq=arq) == 2                    # repetir o dia substitui
-    assert tir_diaria.registrar("2026-10-20", t.iloc[:1], arq=arq) == 1
+    assert tir_diaria.registrar("2026-10-19", t, ok, arq=arq) == 2                # BBAS3 sem TIR fica de fora
+    assert tir_diaria.registrar("2026-10-19", t, ok, arq=arq) == 2                # repetir o dia substitui
+    recusa = {"ok": False, "motivo": "o recalculo da TIR no terminal falhou: codigo 1", "gerado": None, "conferido_em": "2026-10-20T08:40:00-03:00"}
+    assert tir_diaria.registrar("2026-10-20", t, recusa, arq=arq) == 0            # dia recusado: nenhum numero, mesmo com a tabela cheia
     linhas = [json.loads(x) for x in open(arq, encoding="utf-8")]
     assert [x["dia"] for x in linhas] == ["2026-10-19", "2026-10-20"]
-    assert linhas[0]["papeis"]["PETR4"] == [10.33, 3.43, "analistas", 18.39, 11.68, 1.17] and linhas[0]["papeis"]["VALE3"][5] is None
-    assert tir_diaria.registrar("2026-10-21", None, arq=arq) == 0 and tir_diaria.registrar("2026-10-21", t[["tir_prudente_pct"]], arq=arq) == 0
+    assert linhas[0]["papeis"]["PETR4"] == [10.33, 3.43, "analistas", 1.17] and linhas[0]["papeis"]["VALE3"][3] is None
+    assert linhas[0]["sem_tir"] == {"ENEV3": "fora da TIR nova: sem preco-alvo"} and linhas[0]["recusada"] is None
+    assert linhas[1]["ok"] is False and linhas[1]["papeis"] == {} and "codigo 1" in linhas[1]["recusada"]
+    assert tir_diaria.registrar("2026-10-21", t, None, arq=arq) == 0 and len(open(arq).readlines()) == 2    # sem terminal: nao grava

@@ -11,3 +11,16 @@ def _livro_do_douglas_fora_dos_testes(tmp_path, monkeypatch):
     monkeypatch.setattr(livro, "ARQ_ORCAMENTO", str(tmp_path / "_sem_orcamento.json"))
     monkeypatch.setattr(livro, "ARQ_SAIDA", str(tmp_path / "_livro.json"))
     monkeypatch.setattr(livro, "ARQ_HISTORICO", str(tmp_path / "_livro_historico.json"))
+
+
+@pytest.fixture(autouse=True)
+def _tir_sem_recalculo_de_verdade(tmp_path, monkeypatch):
+    """Nenhum teste roda o recalculo da TIR do terminal de verdade (`python -m coletor.tir_safra`) nem anota em quant/saida/terminal: o
+    recalculo vira um "deu certo" que nao mexe no arquivo e as conferencias vao para a pasta temporaria. Quem testa o recalculo troca
+    `_tir.recalcular` de novo."""
+    from quant.terminal import _tir
+    monkeypatch.setattr(_tir, "recalcular", lambda: None)
+    monkeypatch.setattr(_tir, "ARQ_CHECAGENS", str(tmp_path / "_tir_checagens.jsonl"))
+    _tir.limpar()
+    yield
+    _tir.limpar()

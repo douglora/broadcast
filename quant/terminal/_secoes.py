@@ -3,16 +3,18 @@
 Contrato de todos os pedacos
   - `fonte`, `data` (a data DO DADO, nao a da leitura) e `idade_dias` em todo dict devolvido;
   - dado mais velho que o limite de `_leitor.LIMITES_DIAS` vira None com o motivo (nunca um numero velho vestido de novo);
+    a TIR tem regra propria, mais dura (`_tir.py`: recalculada antes de ler, 36 h e o ultimo pregao);
   - o que o arquivo nao traz fica None dentro do dict; nada e estimado, copiado de outro dia ou preenchido de memoria;
   - percentual em pontos (7.4 = 7,4%), dinheiro em reais (unidade cheia), datas ISO.
 """
 from __future__ import annotations
 
 import re
-from datetime import date, datetime, timedelta
+from datetime import date, datetime, time, timedelta
 from typing import Any, Callable
 
 from . import _leitor as L
+from . import _tir
 
 TERMINAL = "Autopilot Terminal"
 _CODIGO_CICLO = {"pico_provavel": 2, "pico_possivel": 1, "normal": 0, "fundo": -1}
@@ -27,8 +29,12 @@ JANELA_NOTICIAS_DIAS = 7
 class Ctx:
     """Estado de uma consulta: o dia de referencia e os indices montados uma vez (valem para varios tickers)."""
 
-    def __init__(self, hoje: date | None = None):
-        self.hoje = hoje or L.hoje()
+    def __init__(self, hoje: date | None = None, agora: datetime | None = None):
+        # `agora` (com fuso) so conta para a TIR, que confere horas; com so `hoje`, vale as 9h daquele dia (antes da abertura)
+        if agora is not None and agora.tzinfo is None:
+            agora = agora.replace(tzinfo=L.FUSO_BRT)
+        self.hoje = hoje or (agora.date() if agora else L.hoje())
+        self.agora = agora or (datetime.combine(hoje, time(9, 0), L.FUSO_BRT) if hoje else L.agora())
         self._idx: dict[str, Any] = {}
 
     def memo(self, nome: str, fn: Callable[[], Any]) -> Any:
@@ -133,130 +139,47 @@ _PICO = ("pico_provavel", "pico_possivel")
 
 
 def sec_tir(c: Ctx, t: str) -> tuple[dict | None, str | None]:
-    """A TIR real que o robo usa. Desde 19/10/2026 (pedido do Douglas em 18/10) e a TIR nova do terminal, pelo metodo do Safra
-    (`_tir_safra`); o papel que ela nao cobre, ou com o arquivo novo ausente ou velho, usa a TIR prudente antiga como RESERVA.
+    """A TIR real que o robo usa: SO a nova do terminal, pelo metodo do Safra (cache/out/pagina/tir_safra.json), recalculada e conferida antes
+    de ler (`_tir.estado`). A TIR antiga (pagina/tir.json) nao e lida desde 19/10/2026 ("o robo nao pode usar antiga", Douglas, 18/10): papel
+    sem a TIR nova e papel sem TIR, com o motivo. Recalculo que falhou ou arquivo velho: nenhum papel tem TIR naquele dia.
 
-    `tir_prudente` (pct, premio_pp, base, pico, fonte, ntnb) e SEMPRE o numero do robo, qualquer que seja a fonte: e dele que a tabela tira
-    `tir_prudente_pct` e `tir_premio_pp`. `fonte_tir` diz o que esta por tras: 'safra' (numero recente do Safra), 'analistas' (preco-alvo medio
-    descontado ao Ke padrao do Safra) ou 'antiga' (reserva, com o motivo em `reserva`). A prudente antiga fica em `tir_antiga` (mesmo formato) e a
-    TIR nova inteira em `tir_safra`, para comparar. Os outros campos (`tir_hoje_pct`, `ciclo_do_lucro`, `caixa`, `premissas`...) sao do modelo antigo
-    e so aparecem quando ele cobre o papel. Premio: a TIR nova sobre a NTN-B 2035; a antiga sobre a NTN-B de ~10 anos (2037)."""
-    novo, m_novo = _tir_safra(c, t)
-    velho, m_velho = _tir_antiga(c, t)
-    if novo is None and velho is None:
-        return None, f"TIR nova: {m_novo}; TIR antiga (reserva): {m_velho}"
-    antiga = dict(velho["tir_prudente"]) if velho else None
-    if novo is None:
-        out = dict(velho)
-        out["tir_prudente"] = dict(antiga, fonte="antiga", ntnb=velho.get("ntnb"))
-        out.update({"fonte_tir": "antiga", "reserva": m_novo, "tir_antiga": antiga, "tir_safra": None})
-        return out, None
-    nivel = novo.get("ciclo_do_lucro")
-    out = dict(velho) if velho else {"ciclo_do_lucro": {"nivel": nivel, "marca": "pico" if nivel in _PICO else "fundo" if nivel == "fundo" else None,
-                                                        "codigo": _CODIGO_CICLO.get(nivel)}}
-    out.update({k: novo[k] for k in ("fonte", "data", "idade_dias", "gerado", "preco")})   # cabecalho, rodada e preco: os da fonte que o robo usa
-    if velho:
-        out["avisos_tir_antiga"] = list(velho.get("avisos") or [])
-    out["avisos"] = list(novo["avisos"])
-    out["tir_prudente"] = {"pct": novo["tir_pct"], "base": novo["base"], "pico": (nivel in _PICO) if nivel else None, "premio_pp": novo["premio_pp"],
-                           "fonte": novo["base"], "ntnb": novo["ntnb"]}
-    out.update({"fonte_tir": novo["base"], "reserva": None, "tir_antiga": antiga, "tir_safra": novo})
-    return out, None
-
-
-def _tir_safra(c: Ctx, t: str) -> tuple[dict | None, str | None]:
-    """A TIR nova do terminal (cache/out/pagina/tir_safra.json, metodo do Safra): `tir` em fracao ao ano, `premio_ntnb35_pp` em pontos sobre a
-    NTN-B 2035, `base` 'safra' ou 'analistas', `confianca`, `avisos` e `analistas.potencial`/`analistas.n`. Mesmo limite de idade da TIR antiga."""
-    d = L.ler("pagina/tir_safra.json")
-    if not isinstance(d, dict) or not d.get("empresas"):
-        return None, "arquivo da TIR nova (cache/out/pagina/tir_safra.json) ausente ou vazio"
+    `tir_prudente` (pct, premio_pp, base, pico, fonte, ntnb) e o numero do robo (o nome ficou pelo contrato da tabela: `tir_prudente_pct` e
+    `tir_premio_pp`); `fonte_tir` e a base dele: 'safra' (numero recente do Safra) ou 'analistas' (preco-alvo medio descontado ao Ke padrao
+    do Safra). Premio sobre a NTN-B 2035."""
+    est = _tir.estado(c.agora)
+    if not est["ok"]:
+        return None, f"TIR recusada: {est['motivo']}"
+    d = est["dados"]
     e = d["empresas"].get(t)
     if e is None:
         fora = next((x for x in d.get("fora") or [] if isinstance(x, dict) and x.get("t") == t), None)
         if fora:
             return None, f"fora da TIR nova: {fora.get('motivo')}"
         return None, f"a TIR nova nao cobre {t} (cobre {len(d['empresas'])} empresas)"
-    ref = e.get("preco_data") or d.get("gerado")
-    motivo = _velho("tir", ref, c, "o preco da TIR nova")
+    motivo = _tir.motivo_papel(t, e, c.agora)
     if motivo:
         return None, motivo
     pct = L.pct(e.get("tir"))
-    if pct is None:
-        return None, "a TIR nova nao traz numero para o papel"
     nt = d.get("ntnb") or {}
-    ntnb = L.arred(nt.get("taxa"), 4)
+    ntnb = {"taxa_pct": L.arred(nt.get("taxa"), 4), "vencimento": nt.get("venc"), "data": nt.get("data")}
     premio = L.arred(e.get("premio_ntnb35_pp"))
-    if premio is None and ntnb is not None:
-        premio = round(pct - ntnb, 2)
+    if premio is None and ntnb["taxa_pct"] is not None:
+        premio = round(pct - ntnb["taxa_pct"], 2)
+    nivel = e.get("ciclo_do_lucro") if isinstance(e.get("ciclo_do_lucro"), str) else None
     an = e.get("analistas") or {}
     sf = e.get("safra") or {}
-    out = _cab("Autopilot Terminal, modulo tir_safra (cache/out/pagina/tir_safra.json)", ref, c)
+    out = _cab("Autopilot Terminal, modulo tir_safra (cache/out/pagina/tir_safra.json, recalculado antes da leitura)", e.get("preco_data"), c)
     out.update({
-        "gerado": d.get("gerado"), "metodo": d.get("metodo"), "preco": L.arred(e.get("preco"), 4), "preco_data": e.get("preco_data"),
-        "tir_pct": pct, "premio_pp": premio, "ntnb": {"taxa_pct": ntnb, "vencimento": nt.get("venc"), "data": nt.get("data")},
-        "base": e.get("base"), "confianca": e.get("confianca"), "tipo": e.get("tipo"),
-        "ciclo_do_lucro": e.get("ciclo_do_lucro") if isinstance(e.get("ciclo_do_lucro"), str) else None,
+        "gerado": d.get("gerado"), "conferido_em": est["conferido_em"], "metodo": d.get("metodo"),
+        "preco": L.arred(e.get("preco"), 4), "preco_data": e.get("preco_data"),
+        "tir_prudente": {"pct": pct, "premio_pp": premio, "base": e.get("base"), "pico": (nivel in _PICO) if nivel else None,
+                         "fonte": e.get("base"), "ntnb": ntnb},
+        "fonte_tir": e.get("base"), "confianca": e.get("confianca"), "tipo": e.get("tipo"), "ntnb": ntnb,
+        "ciclo_do_lucro": {"nivel": nivel, "marca": "pico" if nivel in _PICO else "fundo" if nivel == "fundo" else None,
+                           "codigo": _CODIGO_CICLO.get(nivel)},
         "analistas": {"potencial_pct": L.pct(an.get("potencial")), "n": L.inteiro(an.get("n")), "alvo_medio": L.arred(an.get("alvo_medio"), 4),
                       "coleta": an.get("coleta")} if an else None,
         "safra": {"tir_pct": L.arred(sf.get("tir")), "data": sf.get("data"), "fonte": sf.get("fonte")} if sf else None,
-        "avisos": list(e.get("avisos") or []),
-    })
-    return out, None
-
-
-def _tir_antiga(c: Ctx, t: str) -> tuple[dict | None, str | None]:
-    """A TIR do modelo antigo do terminal (cache/out/pagina/tir.json). Desde 19/10/2026 so e reserva e comparacao (ver `sec_tir`)."""
-    d = L.ler("pagina/tir.json")
-    if not isinstance(d, dict) or not d.get("empresas"):
-        return None, "arquivo da TIR (cache/out/pagina/tir.json) ausente ou vazio"
-    e = d["empresas"].get(t)
-    if e is None:
-        fora = next((x for x in d.get("fora") or [] if x.get("t") == t), None)
-        if fora:
-            return None, f"fora do modelo de TIR: {fora.get('motivo')}"
-        return None, f"o modelo de TIR nao cobre {t} (cobre {len(d['empresas'])} empresas)"
-    ref = e.get("preco_data") or d.get("gerado")
-    motivo = _velho("tir", ref, c, "o preco da TIR")
-    if motivo:
-        return None, motivo
-    g = d.get("geral") or {}
-    nt = g.get("ntnb") or {}
-    ntnb = L.arred(nt.get("taxa"), 4)
-    ciclo = e.get("ciclo_do_lucro") or {}
-    nivel = ciclo.get("nivel")
-    marca = "pico" if nivel in ("pico_provavel", "pico_possivel") else "fundo" if nivel == "fundo" else None
-    tir = e.get("tir") or {}
-    tp = e.get("tir_prudente") or {}
-    cx = e.get("caixa") or {}
-    # desde 11/10/2026 o numero principal do terminal e a taxa com terminal endogeno (`principal`); `menor` (a menor entre a saida
-    # por P/L e a saida a NTN-B + 5) ficou so por compatibilidade e subestimava (relatorios/tir_auditoria no terminal).
-    def _principal(d):
-        d = d or {}
-        return d.get("principal") if d.get("principal") is not None else d.get("menor")
-    hoje_pct = L.pct(_principal(tir))
-    out = _cab("Autopilot Terminal, modulo tir (cache/out/pagina/tir.json)", ref, c)
-    out.update({
-        "gerado": d.get("gerado"), "preco": L.arred(e.get("preco"), 4),
-        "tir_hoje_pct": hoje_pct,
-        "tir_normalizada_pct": L.pct(_principal((e.get("tir_normalizada") or {}).get("tir"))),
-        "tir_pl_historico_pct": L.pct(tir.get("pl")),
-        "tir_saida_conservadora_pct": L.pct(tir.get("perp")),
-        "tir_prudente": {"pct": L.pct(tp.get("v")), "base": tp.get("base"), "pico": bool(tp.get("pico")) if tp else None,
-                         "premio_pp": L.arred(tp.get("premio_pp"))},
-        "premio_hoje_pp": None if hoje_pct is None or ntnb is None else round(hoje_pct - ntnb, 2),
-        "ntnb": {"taxa_pct": ntnb, "vencimento": nt.get("venc"), "data": nt.get("data")},
-        "ciclo_do_lucro": {"nivel": nivel, "marca": marca, "codigo": _CODIGO_CICLO.get(nivel), "criterios": ciclo.get("criterios") or [],
-                           "razao_lucro_12m_sobre_media_5a": L.arred(ciclo.get("razao"), 3),
-                           "margem_12m_pct": L.arred(ciclo.get("margem_12m")), "margem_mediana_5a_pct": L.arred(ciclo.get("margem_mediana_5a")),
-                           "roe_12m_pct": L.arred(ciclo.get("roe_12m")), "roe_mediano_5a_pct": L.arred(ciclo.get("roe_mediano_5a")),
-                           "nota": ciclo.get("nota")},
-        "base": {"fonte": (e.get("base") or {}).get("fonte"), "casas": L.inteiro(e.get("casas")), "texto": (e.get("base") or {}).get("texto")},
-        "balanco": e.get("balanco"), "balanco_idade_dias": L.inteiro(e.get("balanco_idade_dias")),
-        "premissas": {"g1_pct": L.pct(e.get("g1")), "g_lp_pct": L.pct(e.get("g_lp")), "payout_pct": L.pct(e.get("payout")),
-                      "roe_pct": L.pct(e.get("roe")), "mult_pl": L.arred(e.get("mult")), "k_real_pct": L.pct(e.get("k")),
-                      "ciclica": e.get("ciclica"), "virada": e.get("virada"), "qualidade": e.get("qualidade")},
-        "caixa": {"tir_g0_pct": L.pct(cx.get("tir_g0")), "tir_g2_pct": L.pct(cx.get("tir_g2")), "dif_pp": L.arred(cx.get("dif_pp")),
-                  "diverge": cx.get("diverge"), "metodo": cx.get("metodo")} if cx else None,
         "avisos": list(e.get("avisos") or []),
     })
     return out, None

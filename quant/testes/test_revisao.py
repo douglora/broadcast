@@ -458,3 +458,16 @@ def test_revisao_sem_dia_olha_o_ultimo_pregao_encerrado(tmp_path, monkeypatch):
     monkeypatch.setattr(rv, "revisar", lambda dia, pasta=None, pedir_servidor=True: vistos.append(dia) or {"dia": dia})
     monkeypatch.setattr(rv, "gravar", lambda rev, ensaio=False: rev)
     assert rv.rodar(pasta=str(tmp_path))["dia"] == "2026-10-16" and vistos == ["2026-10-16"]
+
+
+def test_tir_recusada_no_dia_vira_item_b_da_revisao(tmp_path):
+    """18/10/2026: o robo so usa a TIR atualizada; recusada (recalculo que falhou ou arquivo velho), a revisao da noite diz que o dia foi sem TIR."""
+    from quant.terminal import _tir
+    pasta, dia = _pregao_1510(tmp_path, cegueira=[])
+    rev = rv.revisar(dia, pasta=str(pasta), servidor=_servidor(dia), dist=_dist(), consertos=[], sono=[], registro=[])
+    assert "b:dado:tir_recusada" not in [x["chave"] for x in rev["itens"]]
+    with open(_tir.ARQ_CHECAGENS, "w", encoding="utf-8") as f:                    # o conftest aponta para a pasta temporaria
+        f.write(json.dumps({"dia": dia, "hora": "08:40:01", "ok": False, "motivo": "o recalculo da TIR no terminal falhou: codigo 1"}) + "\n")
+    rev = rv.revisar(dia, pasta=str(pasta), servidor=_servidor(dia), dist=_dist(), consertos=[], sono=[], registro=[])
+    item = next(x for x in rev["itens"] if x["chave"] == "b:dado:tir_recusada")
+    assert item["categoria"] == "b" and "08:40:01" in item["texto"] and "não usou TIR nenhuma" in item["texto"] and "coletor.tir_safra" in item["acao"]

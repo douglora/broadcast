@@ -1,7 +1,8 @@
 """Leitura dos arquivos do Autopilot Terminal: onde ficam, como ler sem travar o robo e quanto cada tipo de dado pode envelhecer.
 
 O terminal grava JSON em `<terminal>/cache/out/` (e o banco historico em `<terminal>/cache/banco/terminal.sqlite`). Aqui so se le:
-nada neste pacote escreve no terminal.
+nada neste pacote escreve no terminal. A unica excecao e a TIR (`_tir.py`, pedido do Douglas em 18/10/2026): antes de ler, o leitor roda o
+recalculo do proprio terminal (`python -m coletor.tir_safra`, sem rede), que regrava o arquivo da TIR.
 
 Regras
   - Caminho do terminal: variavel de ambiente AUTOPILOT_TERMINAL; sem ela, ~/Desktop/terminal-artefato.
@@ -25,7 +26,6 @@ FUSO_BRT = timezone(timedelta(hours=-3))
 # Quantos dias cada tipo de dado pode ter, contados da DATA DO DADO ate hoje, antes de virar None com o motivo.
 # O que conta como "data do dado" esta ao lado de cada limite. Fim de semana e feriado longo cabem em 4 a 5 dias.
 LIMITES_DIAS: dict[str, int] = {
-    "tir": 5,          # data do preco usado na TIR (pregao); o modelo e refeito a cada rodada do terminal
     "consenso": 4,     # dia em que o terminal coletou o consenso no agregador (uma coleta por dia, inclusive fim de semana)
     "insiders": 75,    # dias depois do FIM do mes do ultimo formulario entregue (a CVM recebe ate o dia 10 do mes seguinte)
     "aluguel": 5,      # pregao da posicao de aluguel da B3
@@ -95,6 +95,11 @@ def ler_arquivo_da_cache(rel: str | Path) -> Any | None:
 
 def hoje() -> date:
     return datetime.now(FUSO_BRT).date()
+
+
+def agora() -> datetime:
+    """A hora de agora em Brasilia (a TIR confere horas: 36 h e o fim do ultimo pregao)."""
+    return datetime.now(FUSO_BRT)
 
 
 def como_data(x: Any) -> date | None:

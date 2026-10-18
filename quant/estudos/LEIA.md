@@ -515,6 +515,7 @@ O que mudou no codigo:
   base, pico, fonte, ntnb) e sempre o numero do robo; `fonte_tir` diz o que esta por tras: 'safra' (numero recente do Safra), 'analistas'
   (preco-alvo medio descontado ao Ke padrao do Safra) ou 'antiga' (RESERVA: a prudente do modelo antigo, quando o papel nao esta no arquivo
   novo ou o arquivo esta ausente ou velho; o motivo vai em `reserva`). A antiga fica ao lado em `tir_antiga`, a nova inteira em `tir_safra`.
+  [A reserva e a antiga ao lado SAIRAM no mesmo dia: ver "Correcao do Douglas" no fim desta secao.]
   O premio da nova e sobre a NTN-B 2035 (6,90% em 16/10); o da antiga, sobre a NTN-B 2037 (6,92%).
 - Tabela: `tir_prudente_pct` e `tir_premio_pp` trazem esse numero (o nome ficou pelo contrato de colunas); no fim, `tir_fonte`, `tir_confianca`,
   `tir_potencial_pct`, `tir_analistas_n`, `tir_antiga_pct` e `tir_antiga_premio_pp`. O resumo da linha de comando mostra `tir_fonte`.
@@ -545,3 +546,21 @@ Sem teste historico: o consenso de preco-alvo nao tem serie. A TIR nova entra co
 continua fechado. Testes: 1.233 verdes na suite inteira (mais o teste novo do retrato diario e os 89 do leitor e da observacao,
 rodados de novo depois do ultimo ajuste); a unica falha e a antiga da auditoria da TIR de 11/10 (retorno total, 8 de 41 casos), sem
 relacao com esta troca.
+
+Correcao do Douglas no mesmo dia (18/10, tarde): "o robo nao pode usar antiga, sempre tem que ser TIR atualizada". O que mudou:
+- A RESERVA SAIU. O robo nao le mais `cache/out/pagina/tir.json` (a TIR antiga) para nada: papel sem a TIR nova e papel SEM TIR, com o motivo
+  na ficha (`motivos["tir"]`). Sairam tambem da tabela as colunas do modelo antigo (`tir_pct`, `tir_premio_hoje_pp`, `ciclo_razao`,
+  `tir_caixa_g0_pct`, `tir_caixa_diverge`, `tir_casas`, `tir_antiga_pct`, `tir_antiga_premio_pp`; nenhuma regra lia). `ciclo_lucro` vem da TIR nova.
+- TIR SEMPRE ATUALIZADA (`quant/terminal/_tir.py`). Antes de ler, o robo roda o recalculo do proprio terminal com o preco mais novo
+  (`.venv/bin/python -m coletor.tir_safra` na pasta do terminal, sem rede; medido em 18/10: 0,3 s) e confere o `gerado`. Recusa o arquivo com
+  mais de 36 h ou gerado antes do fim do ultimo pregao encerrado (18h), e recusa o papel cujo preco e de antes do ultimo pregao encerrado.
+  Recalculo que falha ou arquivo velho: o robo nao usa TIR nenhuma naquele dia (a trava vale ate o fim do dia, mesmo que um recalculo mais tarde
+  de certo), anota no log ("TIR RECUSADA") e em `quant/saida/terminal/tir_checagens.jsonl` (uma linha por conferencia), e a revisao do pregao
+  abre o item (b) `b:dado:tir_recusada`. Num mesmo processo a conferencia vale 10 minutos (a tabela de 369 papeis faz um recalculo so).
+- O retrato diario (`tir_diaria.jsonl`) guarda so a TIR nova, os papeis que ela conhece e ficaram sem TIR (e por que) e o dia recusado.
+- Conferido ao vivo em 18/10 13h53: recalculo certo, 100 papeis com TIR, nenhum sem, premio mediano +4,3 pontos (leitura 0).
+
+Decisoes atuais: nenhuma mudou. A reserva antiga nao era usada por nenhum papel (os 100 estao no arquivo novo) e a boleta, as opcoes e a visao
+da mesa nao leem TIR. Testes: 1.235 verdes e 2 pulados na suite inteira; a unica falha e a antiga da auditoria da TIR de 11/10
+(retorno total, 8 de 41 casos), sem relacao com esta troca.
+

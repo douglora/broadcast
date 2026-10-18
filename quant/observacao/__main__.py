@@ -29,6 +29,15 @@ def _vol_ibov(f):
     return float(r.iloc[-20:].std() * np.sqrt(252))
 
 
+def _tir_estado():
+    """A conferencia da TIR que a tabela acabou de fazer (o leitor guarda 10 minutos: nao roda o recalculo de novo). None sem terminal."""
+    try:
+        from quant import terminal
+        return terminal.tir_estado() if terminal.disponivel() else None
+    except Exception:
+        return None
+
+
 def rodar(hoje=None, com_tabela=True, gravar=True):
     hoje = pd.Timestamp(hoje or date.today()).date()
     f = sinais.montar_fontes(hoje, com_tabela=com_tabela)
@@ -40,7 +49,7 @@ def rodar(hoje=None, com_tabela=True, gravar=True):
            "nota": "Camada de observacao: tudo e so medido; nenhum sinal muda lote, exposicao ou chave. O placar (python -m quant.observacao --placar) diz, com 60+ leituras, quem tem informacao."}
     if gravar:
         n = placar.registrar(hoje, lidos, term, rec)
-        obj["tir_papeis_gravados"] = tir_diaria.registrar(hoje, f.get("tabela"))     # prova viva da TIR nova (19/10/2026)
+        obj["tir_papeis_gravados"] = tir_diaria.registrar(hoje, f.get("tabela"), _tir_estado() if com_tabela else None)   # prova viva (19/10/2026)
         os.makedirs(DIR_OBS, exist_ok=True)
         gravar_atomico(ARQ_HOJE, json.dumps(obj, ensure_ascii=False, indent=1))
         obj["leituras_gravadas"] = n

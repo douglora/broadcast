@@ -24,7 +24,7 @@ from quant import terminal
 terminal.disponivel()                                  # bool: o terminal esta no disco?
 f = terminal.ficha("PETR4")                            # dict: tudo o que o terminal sabe do papel
 f["tir"]["tir_prudente"]["premio_pp"]                  # 3.43: a TIR do robo (metodo do Safra desde 19/10/2026) menos a NTN-B 2035, em pontos
-f["tir"]["fonte_tir"]                                  # "safra" | "analistas" | "antiga" (reserva: papel fora de tir_safra.json)
+f["tir"]["fonte_tir"]                                  # "safra" | "analistas"; papel sem a TIR nova = f["tir"] None, motivo em f["motivos"]["tir"]
 f["tir"]["ciclo_do_lucro"]["marca"]                    # None | "pico" | "fundo"
 f["proximo_resultado"]["proximo"]["antes_da_abertura"] # True | False | None: o resultado sai antes da abertura? (estimativa, com confianca)
 f["motivos"]                                           # por que cada pedaco ausente esta ausente
@@ -78,7 +78,7 @@ CLI (mesmos dados, para olhar no Terminal do Mac): `python -m quant.terminal fic
 |---|---|
 | Preco e liquidez | `preco` 362, `mcap_rs` 362, `liq_21d_rs` 362 |
 | TIR | `tir_pct` 92, `tir_prudente_pct` 92, `tir_premio_pp` 92, `tir_premio_hoje_pp` 92, `ciclo_lucro` 83, `ciclo_razao` 87, `tir_caixa_g0_pct` 71, `tir_caixa_diverge` 91, `tir_casas` 90 |
-| TIR do robo (19/10/2026) | `tir_prudente_pct` e `tir_premio_pp` passaram a ser a TIR pelo metodo do Safra (`pagina/tir_safra.json`, 100 empresas em 18/10), premio sobre a NTN-B 2035; reserva = a prudente antiga, etiquetada em `tir_fonte`; `tir_antiga_pct` e `tir_antiga_premio_pp` so para comparar; `tir_pct`, `tir_premio_hoje_pp`, `tir_caixa_*` e `tir_casas` sao do modelo antigo |
+| TIR do robo (19/10/2026) | so a TIR pelo metodo do Safra (`pagina/tir_safra.json`, recalculada pelo terminal antes de ler; arquivo com mais de 36 h ou de antes do ultimo pregao e recusado e o dia fica sem TIR): `tir_prudente_pct`, `tir_premio_pp` (sobre a NTN-B 2035), `ciclo_lucro`, `tir_fonte`, `tir_confianca`, `tir_potencial_pct`, `tir_analistas_n`. As colunas do modelo antigo da linha de cima SAIRAM em 18/10/2026 ("o robo nao pode usar antiga") |
 | Consenso | `consenso_upside_pct` 182, `consenso_alvo_n` 182, `consenso_nota` 124, `consenso_pct_compra` 179, `consenso_lpa_rev_30d_pct` 166, `consenso_lpa_rev_90d_pct` 166, `consenso_lpa_subiram_30d` 171, `consenso_lpa_cortaram_30d` 171, `consenso_pl_proj` 157 |
 | Insiders | `insiders_saldo_90d_rs` 351, `insiders_saldo_gestao_90d_rs` 351, `insiders_negocios_90d` 351, `insiders_idade_dias` 351 |
 | Aluguel | `aluguel_taxa_aa` 328, `aluguel_pct_float` 219, `aluguel_var_20d_pct` 324, `aluguel_dias_para_cobrir` 328, `aluguel_saldo_rs` 328 |

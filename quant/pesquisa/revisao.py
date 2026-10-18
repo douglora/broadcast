@@ -509,6 +509,13 @@ def revisar(dia=None, pasta=DIR_DT, setup="niveis", servidor=None, pedir_servido
             por_ativo[ativo] = barras_do_robo(dia, pasta, ativo)
         return por_ativo[ativo or "WDOFUT"]
 
+    # (b) a TIR do dia foi recusada? (18/10/2026: o robo so usa a TIR atualizada; recusada, nao usa TIR nenhuma no dia)
+    from quant.terminal import _tir
+    rec = next((x for x in _jsonl(_tir.ARQ_CHECAGENS) if x.get("dia") == dia and not x.get("ok")), None)
+    if rec:
+        itens.append(_item(dia, "b", "b:dado:tir_recusada", None,
+                           f"a TIR do dia foi recusada às {rec.get('hora')} ({rec.get('motivo')}): o robô não usou TIR nenhuma hoje",
+                           "conferir o recálculo do terminal (python -m coletor.tir_safra) e a coleta de preços"))
     # (b) o robo ficou cego? o MetaTrader foi reaberto?
     reab = [x for x in est.get("diario") or [] if x.get("tipo") == "feed" and "Reabrindo" in (x.get("texto") or "")]
     if len(reab) >= 3:

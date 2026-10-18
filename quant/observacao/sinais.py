@@ -211,7 +211,7 @@ def ibov_vol_20_252(f):
 def erp_tir_safra_mediana(f):
     """Premio mediano da TIR nova (metodo do Safra) sobre a NTN-B 2035. Nasceu em 19/10/2026 no lugar de `erp_tir_mediana` (TIR prudente antiga sobre
     a NTN-B de ~10 anos), com id novo para o placar nao misturar as duas definicoes; os limiares sao os mesmos, declarados antes. So entram as linhas da
-    TIR nova (`tir_fonte` 'safra' ou 'analistas'): a reserva antiga fica de fora da mediana, que mudaria de nivel."""
+    TIR nova (`tir_fonte` 'safra' ou 'analistas'); desde 18/10/2026 o robo nem le a antiga, e dia com a TIR recusada fica sem este sinal."""
     t = f.get("tabela")
     if t is None or not {"tir_premio_pp", "tir_fonte"} <= set(getattr(t, "columns", [])):
         return None

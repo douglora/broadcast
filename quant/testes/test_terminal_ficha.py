@@ -4,7 +4,7 @@ Todos os arquivos do terminal vem de `terminal_fixture.py` (pasta temporaria, fo
 leem o cache de verdade. `hoje` fixo em 2026-10-12 para a idade dos dados ser previsivel.
 """
 import json
-from datetime import date
+from datetime import date, datetime, timedelta, timezone
 
 import pytest
 
@@ -12,6 +12,7 @@ from quant import terminal as T
 from quant.testes.terminal_fixture import montar_terminal
 
 HOJE = date(2026, 10, 12)
+FUSO = timezone(timedelta(hours=-3))
 
 
 @pytest.fixture
@@ -63,37 +64,43 @@ def test_todo_pedaco_com_dado_traz_fonte_data_e_idade(raiz):
         assert f[k]["fonte"] and f[k]["data"] and isinstance(f[k]["idade_dias"], int), k
 
 
-# ---------------------------------------------------------------- TIR
-def test_tir_em_pontos_percentuais_e_premio_sobre_a_ntnb(raiz):
+# ---------------------------------------------------------------- TIR (so a nova, pelo metodo do Safra; a antiga nao e lida desde 19/10/2026)
+def test_tir_em_pontos_percentuais_e_premio_sobre_a_ntnb_2035(raiz):
     t = ficha()["tir"]
-    assert t["tir_hoje_pct"] == 18.39 and t["tir_prudente"]["pct"] == 18.39 and t["tir_prudente"]["premio_pp"] == 11.68
-    assert t["premio_hoje_pp"] == pytest.approx(18.39 - 6.71, abs=0.01)           # a conta do robo: TIR de hoje menos a NTN-B
-    assert t["ntnb"]["taxa_pct"] == 6.71 and t["idade_dias"] == 3 and t["data"] == "2026-10-09"
-    assert t["ciclo_do_lucro"]["nivel"] == "normal" and t["ciclo_do_lucro"]["marca"] is None and t["ciclo_do_lucro"]["codigo"] == 0
-    assert t["caixa"]["tir_g0_pct"] == 23.32 and t["base"]["casas"] == 1 and isinstance(t["base"]["casas"], int)
-    assert any("1 casa" in a for a in t["avisos"]) and any("1 casa" in a for a in ficha()["avisos"])
+    assert t["tir_prudente"]["pct"] == 18.39 and t["tir_prudente"]["premio_pp"] == 11.68 and t["fonte_tir"] == "analistas"
+    assert t["ntnb"] == {"taxa_pct": 6.71, "vencimento": "2035-05-15", "data": "2026-10-09"} and t["tir_prudente"]["ntnb"] == t["ntnb"]
+    assert t["idade_dias"] == 3 and t["data"] == "2026-10-09" and "tir_safra.json" in t["fonte"] and t["gerado"] == "2026-10-12T08:30:00-03:00"
+    assert t["ciclo_do_lucro"] == {"nivel": "normal", "marca": None, "codigo": 0}
+    assert t["analistas"]["n"] == 13 and t["analistas"]["potencial_pct"] == 4.1 and t["confianca"] == "analistas"
+    assert t["avisos"] == ["preco-alvo de 13 casas"] and "tir: preco-alvo de 13 casas" in ficha()["avisos"]
+    assert not any(k in t for k in ("tir_hoje_pct", "caixa", "premissas", "tir_antiga"))     # nada do modelo antigo
 
 
 def test_tir_marca_pico_e_fundo_de_lucro(raiz):
     d = ficha("DIRR3")["tir"]
     assert d["ciclo_do_lucro"]["marca"] == "pico" and d["ciclo_do_lucro"]["codigo"] == 2
-    assert d["tir_prudente"]["pct"] == 10.0 and d["tir_prudente"]["base"] == "normalizada" and d["tir_prudente"]["pico"] is True
-    assert d["tir_hoje_pct"] == 30.0                                               # a de hoje continua visivel ao lado da prudente
-    v = ficha("VALE3")["tir"]
-    assert v["ciclo_do_lucro"]["marca"] == "fundo" and v["ciclo_do_lucro"]["codigo"] == -1
+    assert d["tir_prudente"]["pct"] == 10.0 and d["tir_prudente"]["base"] == "safra" and d["tir_prudente"]["pico"] is True
+    assert d["safra"]["tir_pct"] == 10.1 and d["confianca"] == "alta"
+    p = ficha("PRIO3")["tir"]
+    assert p["ciclo_do_lucro"]["marca"] == "fundo" and p["ciclo_do_lucro"]["codigo"] == -1
+    assert p["tir_prudente"]["premio_pp"] == pytest.approx(15.0 - 6.71)             # sem o campo do premio: TIR menos a NTN-B 2035
 
 
-def test_tir_fora_do_modelo_diz_o_motivo(raiz):
+def test_tir_fora_do_modelo_ou_so_na_antiga_fica_sem_tir(raiz):
     f = ficha("ENEV3")
-    assert f["tir"] is None and "sem payout" in f["motivos"]["tir"]
+    assert f["tir"] is None and "sem preco-alvo" in f["motivos"]["tir"]
     f = ficha("BBAS3")
-    assert f["tir"] is None and "nao cobre" in f["motivos"]["tir"]
+    assert f["tir"] is None and "nao cobre BBAS3" in f["motivos"]["tir"]
+    f = ficha("VALE3")                                                              # tem TIR so no arquivo antigo: o robo nao usa
+    assert f["tir"] is None and "nao cobre VALE3" in f["motivos"]["tir"] and "antiga" not in f["motivos"]["tir"]
 
 
-def test_tir_velha_vira_none_com_o_motivo(raiz):
-    f = ficha(hoje=date(2026, 10, 20))                                             # preco de 09/10: 11 dias, limite 5
-    assert f["tir"] is None and "11 dias" in f["motivos"]["tir"] and "5 dias" in f["motivos"]["tir"]
-    assert ficha(hoje=date(2026, 10, 14))["tir"] is not None                       # 5 dias exatos ainda vale
+def test_tir_velha_e_recusada_com_o_motivo(raiz):
+    f = ficha(hoje=date(2026, 10, 20))                                             # gerada em 12/10 08h30: 192 h
+    assert f["tir"] is None and "TIR recusada" in f["motivos"]["tir"] and "36 h" in f["motivos"]["tir"]
+    assert ficha(hoje=date(2026, 10, 13))["tir"] is not None                       # 13/10 9h: 24 h e o ultimo pregao e 09/10 (12/10 e feriado)
+    f = T.ficha("PETR4", agora=datetime(2026, 10, 13, 19, 0, tzinfo=FUSO))        # 13/10 depois das 18h: o pregao do dia ja fechou
+    assert f["tir"] is None and "antes do fim do ultimo pregao encerrado (13/10, 18h)" in f["motivos"]["tir"]
 
 
 # ---------------------------------------------------------------- consenso
@@ -333,14 +340,3 @@ def test_cache_acompanha_a_mudanca_do_arquivo(raiz, tmp_path):
     assert ficha()["multiplos"]["pl"] == 9.99                                      # o arquivo mudou (tamanho e hora): o cache nao segura o valor velho
 
 
-def test_tir_usa_o_numero_principal_novo_e_cai_no_antigo_so_se_faltar():
-    """Desde 11/10/2026 o terminal publica `tir.principal` (terminal endogeno); `menor` ficou por compatibilidade."""
-    from quant.terminal import _secoes as sec
-    from quant.terminal import _leitor as L
-    assert "_principal(tir)" in __import__("inspect").getsource(sec)
-    novo = {"principal": 0.0515, "menor": -0.0129, "pl": 0.1018, "perp": -0.0129}
-    so_antigo = {"menor": 0.07}
-
-    def principal(d):
-        return d.get("principal") if d.get("principal") is not None else d.get("menor")
-    assert L.pct(principal(novo)) == 5.15 and L.pct(principal(so_antigo)) == 7.0

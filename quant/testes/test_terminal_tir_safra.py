@@ -1,32 +1,20 @@
-"""A TIR que o robo usa desde 19/10/2026: a nova do terminal (metodo do Safra, cache/out/pagina/tir_safra.json), com a TIR prudente antiga
-(cache/out/pagina/tir.json) como reserva etiquetada para o papel que a nova nao cobre. O terminal de mentira e o de `terminal_fixture.py`
-(so a TIR antiga); estes testes gravam por cima a TIR nova, com numeros contados a mao."""
+"""A TIR que o robo usa desde 19/10/2026: so a nova do terminal (metodo do Safra), recalculada antes de ler e conferida ("o robo nao pode usar
+antiga, sempre tem que ser TIR atualizada", Douglas, 18/10/2026). O terminal de mentira e o de `terminal_fixture.py`; o recalculo de verdade
+nunca roda nos testes (conftest): aqui ele e trocado por funcoes que regravam o arquivo, falham ou contam as chamadas."""
 import json
-from datetime import date
+import subprocess
+from datetime import date, datetime, timedelta, timezone
 
 import pytest
 
 from quant import terminal as T
+from quant.terminal import _leitor as L
+from quant.terminal import _tir
+from quant.terminal._tir import recalcular as RECALCULAR_DE_VERDADE      # importado antes do conftest trocar a funcao
 from quant.testes.terminal_fixture import montar_terminal
 
-HOJE = date(2026, 10, 12)
-
-
-def _empresa(t, tir, premio, base="analistas", confianca="analistas", ciclo="normal", potencial=0.10, n=12, avisos=()):
-    return {"t": t, "base": base, "tipo": "real", "tir": tir, "premio_ntnb35_pp": premio, "preco": 50.0, "preco_data": "2026-10-09",
-            "analistas": {"alvo_medio": 55.0, "n": n, "potencial": potencial, "coleta": "2026-10-11"},
-            "safra": {"tir": 11.7, "data": "2026-10-08", "fonte": "Safra"} if base == "safra" else None,
-            "confianca": confianca, "avisos": list(avisos), "ciclo_do_lucro": ciclo}
-
-
-def gravar_tir_safra(raiz, empresas, preco_data="2026-10-09"):
-    for e in empresas.values():
-        e["preco_data"] = preco_data
-    d = {"gerado": "2026-10-12T09:00:00-03:00", "metodo": "safra_v2", "ntnb": {"venc": "2035-05-15", "taxa": 6.9, "data": "2026-10-09"},
-         "empresas": empresas, "fora": [{"t": "ENEV3", "motivo": "sem preco-alvo"}]}
-    p = raiz / "cache" / "out" / "pagina" / "tir_safra.json"
-    p.write_text(json.dumps(d, ensure_ascii=False), encoding="utf-8")
-    T.limpar_cache()
+FUSO = timezone(timedelta(hours=-3))
+NOVE_DE_12 = datetime(2026, 10, 12, 9, 0, tzinfo=FUSO)                   # 12/10/2026 e feriado: o ultimo pregao encerrado e 09/10
 
 
 @pytest.fixture
@@ -38,64 +26,109 @@ def raiz(tmp_path, monkeypatch):
     T.limpar_cache()
 
 
-@pytest.fixture
-def com_nova(raiz):
-    gravar_tir_safra(raiz, {
-        "PETR4": _empresa("PETR4", 0.103305, 3.43, potencial=0.0117, n=13, avisos=["alvo de 13 casas"]),
-        "DIRR3": _empresa("DIRR3", 0.1178, 4.88, base="safra", confianca="alta", ciclo="pico_provavel"),
-        "PRIO3": _empresa("PRIO3", 0.15, None, ciclo="fundo")})                     # so na TIR nova; premio sem campo: TIR menos a NTN-B 2035
-    return raiz
+def _arquivo(raiz):
+    return raiz / "cache" / "out" / "pagina" / "tir_safra.json"
 
 
-def test_sem_o_arquivo_novo_tudo_e_a_antiga_com_etiqueta(raiz):
-    t = T.ficha("PETR4", hoje=HOJE)["tir"]
-    assert t["fonte_tir"] == "antiga" and "tir_safra.json" in t["reserva"] and "ausente" in t["reserva"]
-    assert t["tir_prudente"]["pct"] == 18.39 and t["tir_prudente"]["fonte"] == "antiga" and t["tir_prudente"]["ntnb"]["vencimento"] == "2037-05-15"
-    assert t["tir_antiga"]["pct"] == 18.39 and t["tir_safra"] is None
-    r = T.tabela(["PETR4"], hoje=HOJE).loc["PETR4"]
-    assert r["tir_fonte"] == "antiga" and r["tir_prudente_pct"] == 18.39 and r["tir_premio_pp"] == 11.68 and r["tir_antiga_pct"] == 18.39
+def _regravar(raiz, gerado, **por_papel):
+    """Regrava a TIR nova como o recalculo do terminal faria: `gerado` novo e, por papel, os campos trocados."""
+    d = json.loads(_arquivo(raiz).read_text(encoding="utf-8"))
+    d["gerado"] = gerado.isoformat()
+    for t, campos in por_papel.items():
+        d["empresas"][t].update(campos)
+    _arquivo(raiz).write_text(json.dumps(d, ensure_ascii=False), encoding="utf-8")
 
 
-def test_papel_na_tir_nova_usa_a_nova_e_guarda_a_antiga_ao_lado(com_nova):
-    t = T.ficha("PETR4", hoje=HOJE)["tir"]
-    assert t["fonte_tir"] == "analistas" and t["reserva"] is None and "tir_safra.json" in t["fonte"] and t["idade_dias"] == 3
-    assert t["tir_prudente"] == {"pct": 10.33, "base": "analistas", "pico": False, "premio_pp": 3.43, "fonte": "analistas",
-                                 "ntnb": {"taxa_pct": 6.9, "vencimento": "2035-05-15", "data": "2026-10-09"}}
-    assert t["tir_antiga"]["pct"] == 18.39 and t["tir_antiga"]["premio_pp"] == 11.68
-    assert t["tir_hoje_pct"] == 18.39                                              # o modelo antigo continua visivel quando cobre o papel
-    assert t["avisos"] == ["alvo de 13 casas"] and any("1 casa" in a for a in t["avisos_tir_antiga"])
-    r = T.tabela(["PETR4"], hoje=HOJE).loc["PETR4"]
-    assert r["tir_prudente_pct"] == 10.33 and r["tir_premio_pp"] == 3.43 and r["tir_fonte"] == "analistas" and r["tir_confianca"] == "analistas"
-    assert r["tir_potencial_pct"] == 1.17 and r["tir_analistas_n"] == 13 and r["tir_antiga_pct"] == 18.39 and r["tir_antiga_premio_pp"] == 11.68
+def _checagens():
+    try:
+        return [json.loads(x) for x in open(_tir.ARQ_CHECAGENS, encoding="utf-8") if x.strip()]
+    except OSError:
+        return []
 
 
-def test_base_safra_e_pico_vem_da_tir_nova(com_nova):
-    d = T.ficha("DIRR3", hoje=HOJE)["tir"]
-    assert d["fonte_tir"] == "safra" and d["tir_prudente"]["pct"] == 11.78 and d["tir_prudente"]["pico"] is True
-    assert d["tir_safra"]["safra"]["tir_pct"] == 11.7 and d["tir_safra"]["confianca"] == "alta"
-    assert d["tir_antiga"]["base"] == "normalizada" and d["tir_antiga"]["pct"] == 10.0
+def test_so_a_tir_nova_e_lida_nunca_a_antiga(raiz, monkeypatch):
+    lidos = []
+    ler = L.ler
+    monkeypatch.setattr(L, "ler", lambda rel, **kw: lidos.append(str(rel)) or ler(rel, **kw))
+    assert T.ficha("PETR4", agora=NOVE_DE_12)["tir"]["tir_prudente"]["pct"] == 18.39
+    f = T.ficha("VALE3", agora=NOVE_DE_12)                                            # so no arquivo antigo: sem TIR, sem reserva
+    assert f["tir"] is None and "nao cobre VALE3" in f["motivos"]["tir"]
+    T.tabela(agora=NOVE_DE_12)
+    assert "pagina/tir_safra.json" in lidos and not any(x.endswith("pagina/tir.json") for x in lidos)
 
 
-def test_papel_so_na_tir_nova_tem_ciclo_e_premio_contado(com_nova):
-    p = T.ficha("PRIO3", hoje=HOJE)["tir"]
-    assert p["tir_prudente"]["pct"] == 15.0 and p["tir_prudente"]["premio_pp"] == pytest.approx(15.0 - 6.9)
-    assert p["ciclo_do_lucro"]["codigo"] == -1 and p["ciclo_do_lucro"]["marca"] == "fundo" and p["tir_antiga"] is None
-    r = T.tabela(["PRIO3"], hoje=HOJE).loc["PRIO3"]
-    assert r["ciclo_lucro"] == -1.0 and r["tir_fonte"] == "analistas" and r["tir_antiga_pct"] != r["tir_antiga_pct"]   # NaN: sem antiga
+def test_o_recalculo_roda_antes_da_leitura_e_uma_vez_por_conferencia(raiz, monkeypatch):
+    chamadas = []
+
+    def recalculo():
+        chamadas.append(1)
+        _regravar(raiz, NOVE_DE_12 - timedelta(minutes=1), PETR4={"tir": 0.25, "premio_ntnb35_pp": 18.29})
+    monkeypatch.setattr(_tir, "recalcular", recalculo)
+    assert T.ficha("PETR4", agora=NOVE_DE_12)["tir"]["tir_prudente"]["pct"] == 25.0    # o numero do arquivo regravado: leu depois do recalculo
+    df = T.tabela(agora=NOVE_DE_12 + timedelta(minutes=5))
+    assert df.loc["PETR4", "tir_premio_pp"] == 18.29 and len(chamadas) == 1          # 4 papeis em 10 minutos: um recalculo so
+    T.tabela(agora=NOVE_DE_12 + timedelta(minutes=11))
+    assert len(chamadas) == 2                                                         # passou de 10 minutos: confere de novo
+    assert [x["ok"] for x in _checagens()] == [True, True] and _checagens()[0]["hora"] == "09:00:00"
 
 
-def test_papel_fora_da_nova_cai_na_reserva_antiga_com_o_motivo(com_nova):
-    v = T.ficha("VALE3", hoje=HOJE)["tir"]
-    assert v["fonte_tir"] == "antiga" and "nao cobre VALE3" in v["reserva"] and v["tir_prudente"]["pct"] == 20.0
-    f = T.ficha("BBAS3", hoje=HOJE)                                                # em nenhuma das duas
-    assert f["tir"] is None and "TIR nova" in f["motivos"]["tir"] and "TIR antiga" in f["motivos"]["tir"]
-    f = T.ficha("ENEV3", hoje=HOJE)
-    assert f["tir"] is None and "sem preco-alvo" in f["motivos"]["tir"] and "sem payout" in f["motivos"]["tir"]
+def test_recalculo_que_falha_deixa_o_dia_inteiro_sem_tir(raiz, monkeypatch, capsys):
+    monkeypatch.setattr(_tir, "recalcular", lambda: "o recalculo saiu com codigo 1: so 12 empresas montaram")
+    f = T.ficha("PETR4", agora=NOVE_DE_12)
+    assert f["tir"] is None and "recalculo da TIR no terminal falhou" in f["motivos"]["tir"] and "so 12 empresas" in f["motivos"]["tir"]
+    assert "TIR RECUSADA" in capsys.readouterr().out
+    assert _checagens()[-1]["ok"] is False and "so 12 empresas" in _checagens()[-1]["motivo"]
+    monkeypatch.setattr(_tir, "recalcular", lambda: None)                             # o terminal voltou, mas o dia ja foi recusado
+    T.limpar_cache()
+    f = T.ficha("PETR4", agora=NOVE_DE_12 + timedelta(hours=3))
+    assert f["tir"] is None and "recusada hoje as 09:00:00" in f["motivos"]["tir"] and "resto do dia" in f["motivos"]["tir"]
+    assert len(_checagens()) == 1                                                     # o dia recusado nem roda o recalculo de novo
+    amanha = datetime(2026, 10, 13, 9, 0, tzinfo=FUSO)                                # no dia seguinte tudo recomeca
+    monkeypatch.setattr(_tir, "recalcular", lambda: _regravar(raiz, amanha - timedelta(minutes=2)))
+    assert T.ficha("PETR4", agora=amanha)["tir"]["tir_prudente"]["pct"] == 18.39
 
 
-def test_tir_nova_velha_vira_reserva_e_as_duas_velhas_viram_none(com_nova):
-    gravar_tir_safra(com_nova, {"PETR4": _empresa("PETR4", 0.103305, 3.43)}, preco_data="2026-10-01")
-    t = T.ficha("PETR4", hoje=HOJE)["tir"]
-    assert t["fonte_tir"] == "antiga" and "11 dias" in t["reserva"] and t["tir_prudente"]["pct"] == 18.39
-    f = T.ficha("PETR4", hoje=date(2026, 10, 20))
-    assert f["tir"] is None and "TIR nova" in f["motivos"]["tir"] and "TIR antiga" in f["motivos"]["tir"]
+def test_arquivo_que_o_recalculo_nao_renovou_e_recusado(raiz, monkeypatch):
+    agora = datetime(2026, 10, 14, 9, 0, tzinfo=FUSO)                                 # o recalculo "deu certo" mas o arquivo segue de 12/10
+    t = T.tir_estado(agora=agora)
+    assert t["ok"] is False and "acima do limite de 36 h" in t["motivo"] and t["sem_tir"] == {}
+    assert T.tabela(agora=agora)["tir_prudente_pct"].isna().all()
+
+
+def test_preco_velho_tira_so_aquele_papel(raiz, monkeypatch):
+    monkeypatch.setattr(_tir, "recalcular", lambda: _regravar(raiz, NOVE_DE_12, PETR4={"preco_data": "2026-10-08"}))
+    f = T.ficha("PETR4", agora=NOVE_DE_12)
+    assert f["tir"] is None and "preco da TIR nova de PETR4 e de 08/10, antes do ultimo pregao encerrado (09/10)" in f["motivos"]["tir"]
+    assert T.ficha("DIRR3", agora=NOVE_DE_12)["tir"]["tir_prudente"]["pct"] == 10.0
+    t = T.tir_estado(agora=NOVE_DE_12)
+    assert t["ok"] and t["empresas"] == 3 and t["ultimo_pregao"] == "2026-10-09"
+    assert set(t["sem_tir"]) == {"ENEV3", "PETR4"} and "sem preco-alvo" in t["sem_tir"]["ENEV3"]
+
+
+def test_o_recalculo_de_verdade_chama_o_comando_do_terminal(tmp_path, monkeypatch):
+    monkeypatch.setenv("AUTOPILOT_TERMINAL", str(tmp_path))
+    assert "nao existe" in RECALCULAR_DE_VERDADE()                                    # sem o Python do terminal: falha com o motivo
+    py = tmp_path / ".venv" / "bin" / "python"
+    py.parent.mkdir(parents=True)
+    py.write_text("")
+    vistos = []
+
+    def rodar(args, **kw):
+        vistos.append((args, kw.get("cwd")))
+        return subprocess.CompletedProcess(args, 0, "", "")
+    monkeypatch.setattr(_tir.subprocess, "run", rodar)
+    assert RECALCULAR_DE_VERDADE() is None
+    assert vistos == [([str(py), "-m", "coletor.tir_safra"], str(tmp_path))]
+    monkeypatch.setattr(_tir.subprocess, "run", lambda args, **kw: subprocess.CompletedProcess(args, 1, "", "linha 1\ntir_safra: so 12 empresas"))
+    assert RECALCULAR_DE_VERDADE() == "o recalculo saiu com codigo 1: tir_safra: so 12 empresas"
+
+    def demora(args, **kw):
+        raise subprocess.TimeoutExpired(args, kw.get("timeout"))
+    monkeypatch.setattr(_tir.subprocess, "run", demora)
+    assert "passou de 120 s" in RECALCULAR_DE_VERDADE()
+
+
+def test_ultimo_pregao_encerrado_vira_as_18h():
+    assert _tir.ultimo_pregao_encerrado(datetime(2026, 10, 13, 17, 59, tzinfo=FUSO)) == date(2026, 10, 9)    # 12/10 feriado
+    assert _tir.ultimo_pregao_encerrado(datetime(2026, 10, 13, 18, 0, tzinfo=FUSO)) == date(2026, 10, 13)
+    assert _tir.ultimo_pregao_encerrado(datetime(2026, 10, 18, 12, 0, tzinfo=FUSO)) == date(2026, 10, 16)    # domingo

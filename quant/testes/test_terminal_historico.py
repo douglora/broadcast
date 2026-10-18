@@ -1,11 +1,12 @@
 """Leitura do banco historico do terminal (SQLite criado por `python -m coletor.banco`) e a CLI do pacote."""
 import sqlite3
-from datetime import date
+from datetime import date, datetime, time
 
 import pytest
 
 from quant import terminal as T
 from quant.terminal import __main__ as cli
+from quant.terminal._leitor import FUSO_BRT
 from quant.testes.terminal_fixture import montar_terminal
 
 HOJE = date(2026, 10, 12)
@@ -16,6 +17,7 @@ def raiz(tmp_path, monkeypatch):
     montar_terminal(tmp_path)
     monkeypatch.setenv("AUTOPILOT_TERMINAL", str(tmp_path))
     monkeypatch.setattr("quant.terminal._leitor.hoje", lambda: HOJE)             # a CLI usa o relogio: fixa o dia para o teste nao envelhecer
+    monkeypatch.setattr("quant.terminal._leitor.agora", lambda: datetime.combine(HOJE, time(9, 0), FUSO_BRT))   # e a hora (a TIR confere horas)
     T.limpar_cache()
     yield tmp_path
     T.limpar_cache()
