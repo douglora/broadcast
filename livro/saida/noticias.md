@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 19/10 12h22
+NOTÍCIAS E FATOS · 19/10 13h22
 
-Pernas: noticias ok 18 novas (18 consultas; descartadas: 448 veículo fora da lista, 35 sem ativo, 10 teto) · cvm ok 0 novos de 2 (2 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 15 novas (18 consultas; descartadas: 444 veículo fora da lista, 35 sem ativo, 1 teto) · cvm ok 0 novos de 2 (2 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (2)
 
@@ -23,7 +23,18 @@ Fonte: CVM 16/10
 id: E03-DIRR3-28709e18-2026-10-16 · status: linha
 
 
-## NOTÍCIAS COM MATERIALIDADE (13)
+## NOTÍCIAS COM MATERIALIDADE (14)
+
+[ATENÇÃO] E05 · MMM · Update: Market Chatter: 3M Company to Challenge Australia's $1.4 Billion PFAS Contamination Lawsuit
+Yahoo Finance · 19/10 05h21 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – (Updates to add 3M's comment in sixth paragraph.) 3M (MMM) plans to challenge the legal basis of  Upgrade to read this MT Newswires article and get so much more.
+Link: https://finance.yahoo.com/markets/stocks/articles/market-chatter-3m-company-challenge-082140672.html
+Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e prazo
+Ativos: MMM
+Como falar: 'saiu no Yahoo Finance: Update: Market Chatter: 3M Company to Challenge Australia's $1.4 Billion PFAS Contaminati…; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 19/10 05h21
+id: E05-MMM-41bbe88ba0-2026-10-19 · status: pendente
 
 [ATENÇÃO] E05 · DI · Itaú BBA vê Movida (MOVI3) entre as melhores apostas para um cenário de Selic menor e eleva preço-alvo em R$ 10
 Money Times · 19/10 11h32 · fonte única · licença: integral
@@ -39,7 +50,7 @@ Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais
 Ativos: DI
 Como falar: 'saiu no Money Times: Itaú BBA vê Movida (MOVI3) entre as melhores apostas para um cenário de Selic menor e ele…; confirmar o número no texto antes de repassar'
 Fonte: Money Times 19/10 11h32
-id: E05-DI-589ca620fd-2026-10-19 · status: pendente · íntegra disponível
+id: E05-DI-589ca620fd-2026-10-19 · status: entregue · íntegra disponível
 
 [ATENÇÃO] E05 · BTC · Michael Saylor’s Strategy Boosts STRC Buyback Program To $3B, Keeps BTC Buying Muted
 TradingView (Reuters) · 19/10 10h20 · fonte única · licença: manchete
@@ -48,7 +59,7 @@ Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir
 Ativos: BTC
 Como falar: 'saiu no TradingView (Reuters): Michael Saylor’s Strategy Boosts STRC Buyback Program To $3B, Keeps BTC Buying Muted; confirmar o número no texto antes de repassar'
 Fonte: TradingView (Reuters) 19/10 10h20
-id: E05-BTC-b3982af8e6-2026-10-19 · status: pendente
+id: E05-BTC-b3982af8e6-2026-10-19 · status: entregue
 
 [ATENÇÃO] E05 · KO · Coca-Cola Yields 2.3% and Nike Yields 4.4%. Here's Why Only 1 of These High-Yield Dividend Stocks Is a Buy This October.
 Yahoo Finance · 18/10 14h25 · fonte única · licença: resumo
@@ -64,7 +75,7 @@ Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir
 Ativos: KO
 Como falar: 'saiu no Yahoo Finance: Coca-Cola Yields 2.3% and Nike Yields 4.4%. Here's Why Only 1 of These High-Yield Dividen…; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 18/10 14h25
-id: E05-KO-82b9c08de3-2026-10-18 · status: pendente
+id: E05-KO-82b9c08de3-2026-10-18 · status: entregue
 
 [ATENÇÃO] E05 · GOOGL · KeyBanc lowers Alphabet stock price target on cloud, search outlook By Investing.com
 Investing.com · 19/10 10h33 · fonte única · licença: manchete
@@ -201,8 +212,22 @@ Fonte: Yahoo Finance 18/10 11h53
 id: E05-TSM-cead2a6c14-2026-10-18 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (60)
+## OUTRAS NOTÍCIAS (só manchete) (74)
 
+· GOOGL Cognizant expands Google Cloud partnership with 18,000 engineers By Investing.com (Investing.com) https://ca.investing.com/news/stock-market-news/cognizant-expands-google-cloud-partnership-with-18000-engineers-93CH-4888931
+· GOOGL Cognizant (CTSH) Expands Google Cloud Alliance To Scale Agentic AI (TradingView (Reuters)) https://www.tradingview.com/news/tradingview:d8ff580f0b12d:0-cognizant-ctsh-expands-google-cloud-alliance-to-scale-agentic-ai/
+· ITUB4 MOVI3: cada ponto de queda na Selic eleva o lucro em 15% de Movida, diz Itaú BBA (Investing.com) https://br.investing.com/news/general-news/movi3-cada-ponto-de-queda-na-selic-eleva-o-lucro-em-15-de-movida-diz-itau-bba-2095471
+· MU Micron (MU) Looks Cheap at 5 Times Forward Earnings. Can Its Profit Boom Last? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/micron-mu-looks-cheap-5-153626120.html
+· NVDA Samsung Makes Unusual Move for Nvidia Chips (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:a029699f1094b:0-samsung-makes-unusual-move-for-nvidia-chips/
+· JPM Intel stock gets JPMorgan upgrade as AI and data center demand builds (Yahoo Finance) https://finance.yahoo.com/video/intel-stock-gets-jpmorgan-upgrade-as-ai-and-data-center-demand-builds-140905212.html
+· AMZN Amazon stock pops after Morgan Stanley details 5 catalysts, lifts price target (Yahoo Finance) https://sg.finance.yahoo.com/news/amazon-stock-pops-after-morgan-stanley-details-5-catalysts-lifts-price-target-140841569.html
+· BTC Strategy (MSTR) on verge of golden cross, just weeks after bitcoin (BTC) did the same: Crypto Daily (CoinDesk) https://www.coindesk.com/daybook-us/2026/10/19/strategy-on-verge-of-golden-cross-just-weeks-after-bitcoin-flashed-same-bullish-signal
+· NVDA Nvidia dodged the AI selloff, and Jensen Huang has a theory why (Yahoo Finance) https://au.finance.yahoo.com/news/nvidia-dodged-ai-selloff-jensen-133300474.html
+· GOOGL Keybanc maintains Overweight rating on Alphabet, $410 price target (TradingView (Reuters)) https://www.tradingview.com/news/tradingview:bd7301914ff70:0-keybanc-maintains-overweight-rating-on-alphabet-410-price-target/
+· GOOGL Xnode Launches Cortx Sentinel to Control AI Agent Actions; Xnode Cortx Now Available on AWS, Azure and Google Cloud Marketplaces (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/xnode-launches-cortx-sentinel-control-120000339.html
+· TSLA Tesla asks shareholders to re-elect Musk, Denholm and Straubel at December annual meeting (Reuters) https://www.reuters.com/legal/government/tesla-asks-shareholders-re-elect-musk-denholm-straubel-december-annual-meeting-2026-10-19/
+· DI Prêmio eleitoral derrete, IPCA aperta o Copom, e a bolsa devolve o troco (Investing.com) https://br.investing.com/analysis/premio-eleitoral-derrete-ipca-aperta-o-copom-e-a-bolsa-devolve-o-troco-200480231
+· MCHI Hang Seng consolidates bearishly at 24,107: Live levels By Investing.com (Investing.com) https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWXFpekxRTXNuWExtVWlDbmRCaTZSaFo4bDhkc2lhbEZEQ25tQW5DRDVKUG5HZXpmOXJHSGI3N3JCelJkT3RrUjZtS0g5TzJNWFhMUVNlbGxPNFNmYXo5LUFieDZUX1ZFcEFtcTVaempXUmlsN2k4SzByZ0xBZnU3akplNnVyOHVMYl9DeWpyS3oxYklhUko0bE1td3hSUXJpM283THcwemxESUh3dFdYV2Y2WHZsOVp0?oc=5
 · BRENT Ibovespa: incerteza eleitoral e petróleo ofuscam alta de NY e índice registra queda (InfoMoney) https://www.infomoney.com.br/mercados/ibovespa-incerteza-eleitoral-e-petroleo-ofuscam-alta-de-ny-e-indice-registra-queda/
 · MU Nvidia, Intel, Micron, Monolithic Power Are Buys Ahead of Tech Earnings. (Barron's) https://www.barrons.com/articles/nvidia-intel-micron-monolithic-power-stock-8899a1be
 · KO UBS reiterates Buy on Coca-Cola stock citing earnings visibility (Investing.com) https://www.investing.com/news/analyst-ratings/ubs-reiterates-buy-on-cocacola-stock-citing-earnings-visibility-93CH-4957955
@@ -249,17 +274,4 @@ id: E05-TSM-cead2a6c14-2026-10-18 · status: linha
 · NVDA Samsung Is Turning to Rival TSMC for Nvidia's Next AI Memory (Yahoo Finance) https://news.google.com/rss/articles/CBMinwFBVV95cUxOQnNGMFU2S3J3OGp3WDZFN3gwOXNFck14eHdiUGFzNUdYbS1TakVYZG1qekZOV3dibW9CbmtjS1pIckQ2RDlQTXpZNk9NcFJwSlRhaEFWUkdrNTdMNjRMREM1SnlJeWlNUFVsYWNlN3hKS3dPMFZSUlU0b2YwNUlGRHV5VHpOTlRUZXlzZ00weXBrcDhNb2ZHTkNzTUJ5eFE?oc=5
 · USDBRL Ibovespa futuro cai para os 210 mil pontos com eleições em foco; dólar recua (Money Times) https://news.google.com/rss/articles/CBMibEFVX3lxTE1BUEVMWXByN0VFZWR4Q1JXb1dpcnNQRnhqWURhRW1XN3R5d1N1VHNLbDc3YnRVeTNwS01OY2tndmFLbUhKOFQzaEdETGJOc3FacjVPUEEzTU8tYXZCb0psb19rMTh3YmhYOEVuWQ?oc=5
 · JPM Intel upgraded at JPM as AI workloads support earnings (INTC:NASDAQ) (Seeking Alpha) https://seekingalpha.com/news/4654160-intel-upgraded-at-jpm-as-ai-workloads-support-earnings
-· SMAL11 Chegou a hora das small caps? Veja em quais ações investir para um cenário de queda de juros (Money Times) https://www.moneytimes.com.br/small-caps-em-quais-acoes-investir-para-um-cenario-de-queda-de-juros-mlem/
-· UST Treasuries Rallied as Tech Slid, and the Crowded Bet Against Bonds Felt It (TradingView (Reuters)) https://www.tradingview.com/news/prnewswire:8651f885cc280:0-treasuries-rallied-as-tech-slid-and-the-crowded-bet-against-bonds-felt-it/
-· JPM U.S. economy is "booming," JPMorgan’s Dimon says By Investing.com (Investing.com) https://ca.investing.com/news/economy-news/us-economy-is-booming-jpmorgans-dimon-says-4887825
-· JPM Intel Shares Rise Nearly 4% Following JPMorgan Upgrade and Tesla Foundry Agreement (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/intel-shares-rise-nearly-4-104812458.html
-· BRENT Commerzbank Says Treasuries Pare Gains, US Equity Futures Higher as Brent Crude Slips (Yahoo Finance) https://finance.yahoo.com/economy/policy/articles/commerzbank-says-treasuries-pare-gains-102042026.html
-· BTC Stocks rebound into key tech earnings: Three things to know in Bitcoin this week (TradingView (Reuters)) https://www.tradingview.com/news/cointelegraph:023544b8f094b:0-stocks-rebound-into-key-tech-earnings-three-things-to-know-in-bitcoin-this-week/
-· TSLA US Equity Investors to Monitor Meta Platform, Tesla's Earnings While Watching Treasury Yields Alongside Crude Oil This Week (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/us-equity-investors-monitor-meta-101427671.html
-· JPM Exclusive | JPMorgan CEO Jamie Dimon on Inflation, AI and Bolstering America’s Supply Chains (The Wall Street Journal) https://www.wsj.com/video/series/wsj-leadership-institute-leaders/exclusive-jpmorgan-ceo-jamie-dimon-on-inflation-ai-and-bolstering-americas-supply-chains/16E0054B-0D3E-4BBD-AB94-0758395701BD?startPosition={seek_to_second_number}
-· TSLA A big 'yikes' still hangs over the AI trade as Meta and Tesla report: What to watch this week (Yahoo Finance) https://news.google.com/rss/articles/CBMi4AFBVV95cUxOWHpmR1M1ak5abS10aHNhOWZJOTJ5Y2lTNGxSZ05UVHVZRkFGS29OYkU3eUt4UTg0ZGxvSFpIOVJ6SlZpZjFlYTlDVF96WUVjYnBZS1hjUURKZEVURGtrM093bTgtb3MtcVZkMlNyTnpWV0cyMF9oM2lQTlpKbm9KY2FwT1NGUGZNZFZaNGFzaU5uV3o4blZhdWJxT1c2OWlma01KMGhnT0ExVmUzRzVHLXY1ZmJ3ckdFRDktUC1STWxmQkhtZHd2QWg1THhWTHc0aVRWd1dsYWdZN2txWGJ6aQ?oc=5
-· JPM JPMorgan Deployed $230 Billion in First Year of Security Effort (Yahoo Finance) https://news.google.com/rss/articles/CBMiogFBVV95cUxPamI1LUhFeUY1cDlqSTNWeUtZMU42ODRZSUZlZlR6bWZOQWxrUkZXdTlsNTczRFRVM1pKUlVXR0E3d0ZsM2xNTlVKY3hsT21vRk11M21WYU9DWkxNSGE2SlBOWHN5X3ROODd6RjZFUnY0eS1UVVlnZExsR29lai1NTDJTYnA1SXR6eHJTcVc4NG9uZWg1cXU0YjR3N1JBaEdjUlE?oc=5
-· USDBRL Investidores avaliam debate e pesquisas eleitorais com início da temporada de balanços; Ibovespa em dólar sobe nesta segunda-feira (19) (Money Times) https://news.google.com/rss/articles/CBMi_AFBVV95cUxNak1kbVZOZE4tU2E1SW1pMng3dUhwS0FUWV91alNrZ3BCWmtOZl9lT09qTE1TVFRkRnM1WnpTQ0Z5MDRTbFZHUlpMeHZnT1NVenQ3S0N6NmNBTk1kVmJlVGluNl8xMTNMNzRPV3g3TGZQa3RqTC0xZXZQN2lCNUtKLUJqdDdJazdZVGJjTFJJeTNrZEh4Zkl1V2JzVGtVZS1vZDdYUF91N0hSay1Nd3A0MVBKWndMSjRsTVloMDB2SC1QOXJLNllveVRRNDJ0WGk2RTFNeE5kaU1TX3Nxam9namlEZ3VnR094Wmt4V2hYM08zckF2SDFDanBiU2I?oc=5
-· BTC MARA Selling Bitcoin? Exchange Deposits Put 1,000 BTC Under Watch (Yahoo Finance) https://news.google.com/rss/articles/CBMipgFBVV95cUxNWjRPdExYWnEzQWFLbmp3RG1JYWFqT3hQaG13R25jMFlXbDlDb0pjRWVjQWJBTTJrdkw5bGdxOFRnTkNMNnV4ZzA5SWNzV2pOYjc1Nlo3NEJna1V4WXUwQVgySmpWVXpIVmJNR0Fpem9GR1ZINV9UWlc5RWtTTUEyX0RFS2FWXzNibkRvcVQwcTJsdVhtaEdIVHlQOWxZR1BSRXZLNnJR?oc=5
-· MU Micron Stock Rallies as China Memory Chip Rival Forecasts Revenue Boom (Barron's) https://news.google.com/rss/articles/CBMigwFBVV95cUxOSzgycjVEZy1udFpGVjlVc0hxamM0WWNWZWRLazhJZGxqeFo3YThfRkFYX0VDVURZUVZSbWpCMXJCTEt3OEdNcFZTb0VnaTF3RUVOR3hKanBUZzJOQVJQOHJoVldMTWo5aF9IdVdxV2JkVHB4WEF3TFB4Q2ZWanR5MFo4aw?oc=5
-· BBDC4 3T26: WEG (WEGE3), Bradesco (BBDC3), Neoenergia (NEOE3) e mais duas empresas divulgam balanços nesta semana (Money Times) https://news.google.com/rss/articles/CBMiswFBVV95cUxOa0xfUVJyMDA1SlpZMTVRT0xNM3RjbVpWdmw2VTVXSFl4YXJZdUNyQVFCaDVnUFRKb2Z2N2x3WTY0M3Z3UFBqdDFCVXNWODZ1Qjl5QnF0TlZCUHprb3RBY0NQV1BYZWV2Y1oxMWtMN3VMWDRhLWxOSVlBUEtIU0l4bk0wNV9BS2JWS3Z6RGRnS0RRRF9wMWhEb2RqbzEzNFRXYWluMDVrYWNBdXVHV2Q0eUgzSQ?oc=5
+· (+14 manchetes; lista completa em eventos/noticias.json)
