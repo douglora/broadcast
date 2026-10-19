@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 19/10 10h28
+NOTÍCIAS E FATOS · 19/10 11h22
 
-Pernas: noticias ok 17 novas (18 consultas; descartadas: 471 veículo fora da lista, 39 sem ativo, 24 teto) · cvm ok 0 novos de 2 (2 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 17 novas (18 consultas; descartadas: 455 veículo fora da lista, 40 sem ativo, 17 teto) · cvm ok 0 novos de 2 (2 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (2)
 
@@ -23,7 +23,25 @@ Fonte: CVM 16/10
 id: E03-DIRR3-28709e18-2026-10-16 · status: linha
 
 
-## NOTÍCIAS COM MATERIALIDADE (8)
+## NOTÍCIAS COM MATERIALIDADE (10)
+
+[ATENÇÃO] E05 · GOOGL · KeyBanc lowers Alphabet stock price target on cloud, search outlook By Investing.com
+Investing.com · 19/10 10h33 · fonte única · licença: manchete
+Link: https://in.investing.com/news/stock-market-news/keybanc-lowers-alphabet-stock-price-target-on-cloud-search-outlook-93CH-5640638
+Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
+Ativos: GOOGL
+Como falar: 'saiu no Investing.com: KeyBanc lowers Alphabet stock price target on cloud, search outlook By Investing.com; confirmar o número no texto antes de repassar'
+Fonte: Investing.com 19/10 10h33
+id: E05-GOOGL-e7e0508487-2026-10-19 · status: pendente
+
+[ATENÇÃO] E05 · USDBRL · Mercado mantém projeção para inflação e juros em 2026 e espera PIB e dólar mais baixos
+Estadao · 19/10 09h51 · fonte única · licença: manchete
+Link: https://www.estadao.com.br/economia/focus-mercado-mantem-projecao-inflacao-juros-em-2026-pib-dolar/
+Por que importa: decisao de politica monetaria reprecifica toda a curva e o cambio
+Ativos: USDBRL
+Como falar: 'saiu no Estadao: Mercado mantém projeção para inflação e juros em 2026 e espera PIB e dólar mais baixos; confirmar o número no texto antes de repassar'
+Fonte: Estadao 19/10 09h51
+id: E05-USDBRL-47e3aba85d-2026-10-19 · status: pendente
 
 [ATENÇÃO] E05 · JPM · JPMorgan Chase Invests $5 Billion In US National Security Tech
 Yahoo Finance · 19/10 09h50 · fonte única · licença: resumo
@@ -39,7 +57,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: JPM
 Como falar: 'saiu no Yahoo Finance: JPMorgan Chase Invests $5 Billion In US National Security Tech; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 19/10 09h50
-id: E05-JPM-4d49fba553-2026-10-19 · status: pendente
+id: E05-JPM-4d49fba553-2026-10-19 · status: entregue
 
 [ATENÇÃO] E05 · AMD · AMD Stocks Rise 2.56% With $13 Billion Revenue Guidance in Focus
 TradingView (Reuters) · 19/10 09h02 · fonte única · licença: manchete
@@ -48,7 +66,7 @@ Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; 
 Ativos: AMD
 Como falar: 'saiu no TradingView (Reuters): AMD Stocks Rise 2.56% With $13 Billion Revenue Guidance in Focus; confirmar o número no texto antes de repassar'
 Fonte: TradingView (Reuters) 19/10 09h02
-id: E05-AMD-9b36e4f4d0-2026-10-19 · status: pendente
+id: E05-AMD-9b36e4f4d0-2026-10-19 · status: entregue
 
 [ATENÇÃO] E05 · MELI34 · Fundo imobiliário investe R$ 250 milhões em galpão do Mercado Livre (MELI34) e rescinde venda de imóveis do GPA (PCAR3)
 Money Times · 19/10 08h35 · fonte única · licença: integral
@@ -142,8 +160,23 @@ Fonte: Yahoo Finance 18/10 11h53
 id: E05-TSM-cead2a6c14-2026-10-18 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (30)
+## OUTRAS NOTÍCIAS (só manchete) (45)
 
+· USDBRL Dólar cai a R$ 5,06 e Bolsa abre em alta, com Focus, China e EUA no radar (UOL Economia) https://economia.uol.com.br/cotacoes/noticias/redacao/2026/10/19/dolar-bolsa-abre-hoje-19-de-outubro-de-2026.ghtm
+· USDBRL Ibovespa sobe e dólar recua com mercado atento a pesquisas e reta final das eleições (Exame) https://exame.com/invest/mercados/ibovespa-sobe-e-dolar-recua-com-mercado-atento-a-pesquisas-e-reta-final-das-eleicoes/
+· MMM All eyes on 3M earnings as transformation test looms Tuesday By Investing.com (Investing.com) https://uk.investing.com/news/stock-market-news/all-eyes-on-3m-earnings-as-transformation-test-looms-tuesday-93CH-4917942
+· VALE3 Vale fica fora do rali eleitoral e opera no menor nível do ano; é hora de investir? (Estadao) https://www.estadao.com.br/einvestidor/onde-investir/vale-fica-fora-do-rali-eleitoral-e-opera-no-menor-nivel-do-ano-e-hora-de-investir/
+· GOOGL Accenture and Google Launch Gemini AI Agent Programme for US Federal Agencies (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/accenture-google-launch-gemini-ai-134936837.html
+· NVDA Nvidia: Financial Risks Behind AI Expansion (NASDAQ:NVDA) (Seeking Alpha) https://seekingalpha.com/article/4955193-nvidia-financial-risks-behind-ai-expansion
+· COHR Coherent (COHR) Could Benefit From AI Networking Even if CPO Adoption Takes Time (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/coherent-cohr-could-benefit-ai-134711534.html
+· AMD AMD: More Room To Fall (NASDAQ:AMD) (Seeking Alpha) https://seekingalpha.com/article/4955111-amd-more-room-to-fall
+· GOOGL Microsoft vs. Alphabet: Is GOOGL’s Cloud Growth Worth More Than Investors Think? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/microsoft-vs-alphabet-googl-cloud-133811978.html
+· JPM ETH to $60,000? Critics Challenge Bullish Math as JPMorgan Expands on Ethereum (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/eth-60-000-critics-challenge-133753121.html
+· LITE Lumentum (LITE) Can’t Meet Demand. Can Its Valuation Hold Up? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/lumentum-lite-t-meet-demand-133358382.html
+· NVDA Nvidia dodged the AI selloff, and Jensen Huang has a theory why (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/nvidia-dodged-ai-selloff-jensen-133300474.html
+· MU Micron and other chip stocks spring back to life after bruising selloff (MarketWatch) https://www.marketwatch.com/story/micron-and-other-chip-stocks-spring-back-to-life-after-bruising-selloff-16486541
+· BTC Strategy Buys Another $22 Million Of Bitcoin (Yahoo Finance) https://news.google.com/rss/articles/CBMingFBVV95cUxNLXZTSTJaS1RzeE9MR3MzX1VnRTltb3gxTnN6T0RVUF9YNnN2SzJKRngzSkl5U3V4VmlXQjdETy01cG1qZUhMMEJLaHlyRGhWV2VESzlrbnR3bVhGZVpsY29zTGlLa0QyZnljLTh6T1JleTF2UXdaZFVuaWxzUFpkZXUtSGk1RW85TDBZOU14X2hFV0tQZHRkLVVpZm5BQQ?oc=5
+· BTC Current price of Bitcoin for Oct. 19, 2026 (Fortune) https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1vb3A0Q24zaWUwM0E5LXNKeEc3VW5RMF9OZEh3UDZ2TE42RlhTelFvakpHWFQzZTc1WEFIVlBzV25XZVpJUTlxX0RXUnAtblluQUtQWGV5QVdLOGtmNmlINDVvc2tRZk0?oc=5
 · USDBRL Dólar abre em queda atento às pesquisas eleitorais em destaque no Brasil (CNN Brasil) https://www.cnnbrasil.com.br/economia/money/mercado/mercado-financeiro-ibovespa-dolar-19-outubro-2026/
 · MINERIO Minério de ferro avança com crescimento econômico da China (CNN Brasil) https://www.cnnbrasil.com.br/economia/money/mercado/minerio-de-ferro-avanca-com-crescimento-economico-da-china/
 · MELI34 TRXF11 coloca maior centro de distribuição do Mercado Livre (MELI34) na carteira por R$ 250 milhões — mas volta atrás em outro negócio (Seu Dinheiro) https://www.seudinheiro.com/2026/bolsa-dolar/trxf11-coloca-maior-centro-de-distribuicao-do-mercado-livre-meli34-na-carteira-por-r-250-milhoes-mas-volta-atras-em-outro-negocio-davs/
