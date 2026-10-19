@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 19/10 13h22
+NOTÍCIAS E FATOS · 19/10 14h21
 
-Pernas: noticias ok 15 novas (18 consultas; descartadas: 444 veículo fora da lista, 35 sem ativo, 1 teto) · cvm ok 0 novos de 2 (2 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 14 novas (18 consultas; descartadas: 427 veículo fora da lista, 35 sem ativo, 8 teto) · cvm ok 0 novos de 2 (2 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (2)
 
@@ -23,7 +23,16 @@ Fonte: CVM 16/10
 id: E03-DIRR3-28709e18-2026-10-16 · status: linha
 
 
-## NOTÍCIAS COM MATERIALIDADE (14)
+## NOTÍCIAS COM MATERIALIDADE (15)
+
+[ATENÇÃO] E05 · GOOGL · KeyBanc lowers Alphabet stock price target on cloud, search outlook
+Investing.com · 19/10 10h33 · fonte única · licença: manchete
+Link: https://www.investing.com/news/analyst-ratings/keybanc-lowers-alphabet-stock-price-target-on-cloud-search-outlook-93CH-4957679
+Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
+Ativos: GOOGL
+Como falar: 'saiu no Investing.com: KeyBanc lowers Alphabet stock price target on cloud, search outlook; confirmar o número no texto antes de repassar'
+Fonte: Investing.com 19/10 10h33
+id: E05-GOOGL-471ff2bd1d-2026-10-19 · status: pendente
 
 [ATENÇÃO] E05 · MMM · Update: Market Chatter: 3M Company to Challenge Australia's $1.4 Billion PFAS Contamination Lawsuit
 Yahoo Finance · 19/10 05h21 · fonte única · licença: resumo
@@ -34,7 +43,7 @@ Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e 
 Ativos: MMM
 Como falar: 'saiu no Yahoo Finance: Update: Market Chatter: 3M Company to Challenge Australia's $1.4 Billion PFAS Contaminati…; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 19/10 05h21
-id: E05-MMM-41bbe88ba0-2026-10-19 · status: pendente
+id: E05-MMM-41bbe88ba0-2026-10-19 · status: entregue
 
 [ATENÇÃO] E05 · DI · Itaú BBA vê Movida (MOVI3) entre as melhores apostas para um cenário de Selic menor e eleva preço-alvo em R$ 10
 Money Times · 19/10 11h32 · fonte única · licença: integral
@@ -212,8 +221,21 @@ Fonte: Yahoo Finance 18/10 11h53
 id: E05-TSM-cead2a6c14-2026-10-18 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (74)
+## OUTRAS NOTÍCIAS (só manchete) (87)
 
+· COHR GLW, VZ, COHR In Focus As AI Fiber Shortage Drives Prices Higher — TrendForce Sees Supply Crunch Through 2028 (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:0a56076ef094b:0-glw-vz-cohr-in-focus-as-ai-fiber-shortage-drives-prices-higher-trendforce-sees-supply-crunch-through-2028/
+· GOOGL Marvell Jumps 6% as GF Securities Says Google Chip Delay Won’t Dent Its Position; Broadcom Rises 3% (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/marvell-jumps-6-gf-securities-170826594.html
+· JPM Intel Stock Jumps After JPMorgan Upgrade on AI Demand (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:881ee56a5094b:0-intel-stock-jumps-after-jpmorgan-upgrade-on-ai-demand/
+· NVDA Nvidia: The Real Competitive Advantage Isn't About The Chip (NASDAQ:NVDA) (Seeking Alpha) https://seekingalpha.com/article/4955243-nvidia-the-real-competitive-advantage-isnt-about-the-chip
+· INTC Why a former Intel skeptic is giving up his negative call on the stock after four years (MarketWatch) https://www.marketwatch.com/story/why-a-former-intel-skeptic-is-giving-up-his-negative-call-on-the-stock-after-four-years-47c2fab6
+· ITUB4 Compre Embraer (EMBJ3), Axia (AXIA3) e outras 15 ações para ganhar mais de 5% nesta semana, segundo Itaú BBA (Money Times) https://www.moneytimes.com.br/day-trade-itau-bba-19-10-26-apsa/
+· GOOGL Agência de Comunicação - A Cognizant e o Google Cloud ampliam sua aliança para acelerar a transformação das empresas por meio de agentes de IA (Estadao) https://bluestudio.estadao.com.br/agencia-de-comunicacao/prnewswire/a-cognizant-e-o-google-cloud-ampliam-sua-alianca-para-acelerar-a-transformacao-das-empresas-por-meio-de-agentes-de-ia/
+· GOOGL Cognizant expands Google Cloud partnership with 18,000 engineers (Investing.com) https://www.investing.com/news/company-news/cognizant-expands-google-cloud-partnership-with-18000-engineers-93CH-4958051
+· NVDA Jensen Huang Declares NVIDIA Can Win “in the Absence of Any AI Labs” (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/jensen-huang-declares-nvidia-win-161237132.html
+· NVDA What Is Nvidia (NVDA) Signaling With New AI Chip And Space Computing Deals? (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/nvidia-nvda-signaling-ai-chip-161138667.html
+· JPM Intel Stock Climbs as JPMorgan Ends Bearish Call Held Since 2022 (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/intel-stock-climbs-jpmorgan-ends-161038269.html
+· BTC Bitcoin is rejected at $83K as US bond yields reverse higher with equities (TradingView (Reuters)) https://www.tradingview.com/news/cointelegraph:44a348ee0094b:0-bitcoin-is-rejected-at-83k-as-us-bond-yields-reverse-higher-with-equities/
+· GOOGL Cognizant and Google Cloud Expand Alliance to Accelerate Agentic Enterprise Transformation (PR Newswire) https://news.google.com/rss/articles/CBMi3wFBVV95cUxQdnl5MmFfb1dhQlRmQzJRaHdvVHV0M1VLS3dJSTAwQlAzRVlWUFVxa1lubTlUWlpyaTlrYzltRVllcDhTMXpjTENuZ25TU3hqTWk1S2tRUGotb1F5bGNyLUpzY0trelFLQU5oUXJjRUdoTUNGTWVIMnMzdndxa0NrTWZiU1BTWnAxelFzbG9Uek5TLVdmRExuYzJXNkJTM3hTbEdKclJrVHAzUkExVDNjNmMwVEFUOTFjSGdOaGJvLTVWSEFyOVdwTlhGZ2N2UWJZZDhMbXVTNnBWamY1THJR?oc=5
 · GOOGL Cognizant expands Google Cloud partnership with 18,000 engineers By Investing.com (Investing.com) https://ca.investing.com/news/stock-market-news/cognizant-expands-google-cloud-partnership-with-18000-engineers-93CH-4888931
 · GOOGL Cognizant (CTSH) Expands Google Cloud Alliance To Scale Agentic AI (TradingView (Reuters)) https://www.tradingview.com/news/tradingview:d8ff580f0b12d:0-cognizant-ctsh-expands-google-cloud-alliance-to-scale-agentic-ai/
 · ITUB4 MOVI3: cada ponto de queda na Selic eleva o lucro em 15% de Movida, diz Itaú BBA (Investing.com) https://br.investing.com/news/general-news/movi3-cada-ponto-de-queda-na-selic-eleva-o-lucro-em-15-de-movida-diz-itau-bba-2095471
@@ -261,17 +283,4 @@ id: E05-TSM-cead2a6c14-2026-10-18 · status: linha
 · USDBRL Dólar abre em queda atento às pesquisas eleitorais em destaque no Brasil (CNN Brasil) https://www.cnnbrasil.com.br/economia/money/mercado/mercado-financeiro-ibovespa-dolar-19-outubro-2026/
 · MINERIO Minério de ferro avança com crescimento econômico da China (CNN Brasil) https://www.cnnbrasil.com.br/economia/money/mercado/minerio-de-ferro-avanca-com-crescimento-economico-da-china/
 · MELI34 TRXF11 coloca maior centro de distribuição do Mercado Livre (MELI34) na carteira por R$ 250 milhões — mas volta atrás em outro negócio (Seu Dinheiro) https://www.seudinheiro.com/2026/bolsa-dolar/trxf11-coloca-maior-centro-de-distribuicao-do-mercado-livre-meli34-na-carteira-por-r-250-milhoes-mas-volta-atras-em-outro-negocio-davs/
-· USDBRL Dólar cai com pesquisa eleitoral no radar a uma semana do segundo turno (Folha de S.Paulo) https://www1.folha.uol.com.br/mercado/2026/10/dolar-cai-com-pesquisa-eleitoral-no-radar-a-uma-semana-do-segundo-turno.shtml
-· BRENT Dólar cai ante real e moedas emergentes com recuo do petróleo e pesquisas no radar (UOL Economia) https://economia.uol.com.br/noticias/estadao-conteudo/2026/10/19/dolar-cai-ante-real-e-moedas-emergentes-com-recuo-do-petroleo-e-pesquisas-no-radar.htm
-· GOOGL Accenture Expands Federal AI Push With Google's Gemini Agents, Months After OpenAI Partnership (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/accenture-expands-federal-ai-push-124140285.html
-· SBSP3 Day trade: Compre Sabesp (SBSP3) e venda Usiminas (USIM5) para ganhar até 1,4% hoje (19), segundo a Ágora (Money Times) https://www.moneytimes.com.br/day-trade-compre-sabesp-sbsp3-e-venda-usiminas-usim5-para-ganhar-ate-14-hoje-19-segundo-a-agora/
-· TSLA SpaceX, Tesla earnings to test Musk's AI spending ambitions as merger talk grows (Reuters) https://www.reuters.com/business/media-telecom/spacex-tesla-earnings-test-musks-ai-spending-ambitions-merger-talk-grows-2026-10-19/
-· BTC Bitcoin Is Flashing a Warning Sign Wall Street Can’t Ignore, Says Mike McGlone (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-flashing-warning-sign-wall-122659478.html
-· MU Micron: The Undisputed King Of Memory Chips (NASDAQ:MU) (Seeking Alpha) https://seekingalpha.com/article/4955162-micron-the-undisputed-king-of-memory-chips
-· GOOGL Huntington Bank Introduces The 1866 Studio, an AI-Powered Small Business Operating System Built with Google Cloud (PR Newswire) https://www.prnewswire.com/news-releases/huntington-bank-introduces-the-1866-studio-an-ai-powered-small-business-operating-system-built-with-google-cloud-302912579.html
-· BTC Strategy buys $22M in Bitcoin, repurchases $193M in STRC (TradingView (Reuters)) https://www.tradingview.com/news/cointelegraph:ef4774cc1094b:0-strategy-buys-22m-in-bitcoin-repurchases-193m-in-strc/
-· USDBRL Dólar cai ante o real na esteira de novas pesquisas eleitorais Por Reuters (Investing.com) https://br.investing.com/news/forex-news/dolar-cai-ante-o-real-na-esteira-de-novas-pesquisas-eleitorais-2095088
-· NVDA Samsung Is Turning to Rival TSMC for Nvidia's Next AI Memory (Yahoo Finance) https://news.google.com/rss/articles/CBMinwFBVV95cUxOQnNGMFU2S3J3OGp3WDZFN3gwOXNFck14eHdiUGFzNUdYbS1TakVYZG1qekZOV3dibW9CbmtjS1pIckQ2RDlQTXpZNk9NcFJwSlRhaEFWUkdrNTdMNjRMREM1SnlJeWlNUFVsYWNlN3hKS3dPMFZSUlU0b2YwNUlGRHV5VHpOTlRUZXlzZ00weXBrcDhNb2ZHTkNzTUJ5eFE?oc=5
-· USDBRL Ibovespa futuro cai para os 210 mil pontos com eleições em foco; dólar recua (Money Times) https://news.google.com/rss/articles/CBMibEFVX3lxTE1BUEVMWXByN0VFZWR4Q1JXb1dpcnNQRnhqWURhRW1XN3R5d1N1VHNLbDc3YnRVeTNwS01OY2tndmFLbUhKOFQzaEdETGJOc3FacjVPUEEzTU8tYXZCb0psb19rMTh3YmhYOEVuWQ?oc=5
-· JPM Intel upgraded at JPM as AI workloads support earnings (INTC:NASDAQ) (Seeking Alpha) https://seekingalpha.com/news/4654160-intel-upgraded-at-jpm-as-ai-workloads-support-earnings
-· (+14 manchetes; lista completa em eventos/noticias.json)
+· (+27 manchetes; lista completa em eventos/noticias.json)
