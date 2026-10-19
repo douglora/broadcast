@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 19/10 14h21
+NOTÍCIAS E FATOS · 19/10 14h29
 
-Pernas: noticias ok 14 novas (18 consultas; descartadas: 427 veículo fora da lista, 35 sem ativo, 8 teto) · cvm ok 0 novos de 2 (2 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 4 novas (18 consultas; descartadas: 441 veículo fora da lista, 41 sem ativo, 0 teto) · cvm ok 0 novos de 2 (2 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (2)
 
@@ -23,7 +23,23 @@ Fonte: CVM 16/10
 id: E03-DIRR3-28709e18-2026-10-16 · status: linha
 
 
-## NOTÍCIAS COM MATERIALIDADE (15)
+## NOTÍCIAS COM MATERIALIDADE (16)
+
+[ATENÇÃO] E05 · JPM · Robot factories and hypersonic missiles: JPMorgan Chase's first $5 billion of defense investments
+CNBC · 19/10 07h00 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – JPMorgan Chase has made $5 billion in startup investments in the first year of its U.S.
+  – The bank, which last year said it would deploy $10 billion into startups over a decade, may expand the program beyond that initial dollar amount, JPMorgan co-President Doug Petno told CNBC in an interview.
+  – Todd Combs, the former Berkshire Hathaway executive who leads the JPMorgan group in charge of making startup investments, has "hit the ground running," Petno said.
+  – "He's done a great job and put us in some really interesting companies," he added.
+  – "There's a lot of really interesting companies that have been working to solve some of these problems," Petno said.
+  – These "early venture-stage, advanced manufacturing companies have found ways to build these capabilities in the U.S." rather than relying on overseas trading partners, he said.
+Link: https://www.cnbc.com/2026/10/19/jpmorgan-security-defense-investments.html
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: JPM
+Como falar: 'saiu no CNBC: Robot factories and hypersonic missiles: JPMorgan Chase's first $5 billion of defense inv…; confirmar o número no texto antes de repassar'
+Fonte: CNBC 19/10 07h00
+id: E05-JPM-60fd019b62-2026-10-19 · status: pendente
 
 [ATENÇÃO] E05 · GOOGL · KeyBanc lowers Alphabet stock price target on cloud, search outlook
 Investing.com · 19/10 10h33 · fonte única · licença: manchete
@@ -221,8 +237,11 @@ Fonte: Yahoo Finance 18/10 11h53
 id: E05-TSM-cead2a6c14-2026-10-18 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (87)
+## OUTRAS NOTÍCIAS (só manchete) (90)
 
+· BRENT Wright Says Gas Prices Peaked As Brent Holds Above $108 (OilPrice.com) https://oilprice.com/Energy/Gas-Prices/Wright-Says-Gas-Prices-Peaked-As-Brent-Holds-Above-108.amp.html
+· ETH Current price of Ethereum for October 19, 2026 (Fortune) https://fortune.com/article/price-of-ethereum-10-19-2026/
+· BTC Current price of Bitcoin for October 19, 2026 (Fortune) https://fortune.com/article/price-of-bitcoin-10-19-2026/
 · COHR GLW, VZ, COHR In Focus As AI Fiber Shortage Drives Prices Higher — TrendForce Sees Supply Crunch Through 2028 (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:0a56076ef094b:0-glw-vz-cohr-in-focus-as-ai-fiber-shortage-drives-prices-higher-trendforce-sees-supply-crunch-through-2028/
 · GOOGL Marvell Jumps 6% as GF Securities Says Google Chip Delay Won’t Dent Its Position; Broadcom Rises 3% (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/marvell-jumps-6-gf-securities-170826594.html
 · JPM Intel Stock Jumps After JPMorgan Upgrade on AI Demand (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:881ee56a5094b:0-intel-stock-jumps-after-jpmorgan-upgrade-on-ai-demand/
@@ -280,7 +299,4 @@ id: E05-TSM-cead2a6c14-2026-10-18 · status: linha
 · MU Micron and other chip stocks spring back to life after bruising selloff (MarketWatch) https://www.marketwatch.com/story/micron-and-other-chip-stocks-spring-back-to-life-after-bruising-selloff-16486541
 · BTC Strategy Buys Another $22 Million Of Bitcoin (Yahoo Finance) https://news.google.com/rss/articles/CBMingFBVV95cUxNLXZTSTJaS1RzeE9MR3MzX1VnRTltb3gxTnN6T0RVUF9YNnN2SzJKRngzSkl5U3V4VmlXQjdETy01cG1qZUhMMEJLaHlyRGhWV2VESzlrbnR3bVhGZVpsY29zTGlLa0QyZnljLTh6T1JleTF2UXdaZFVuaWxzUFpkZXUtSGk1RW85TDBZOU14X2hFV0tQZHRkLVVpZm5BQQ?oc=5
 · BTC Current price of Bitcoin for Oct. 19, 2026 (Fortune) https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1vb3A0Q24zaWUwM0E5LXNKeEc3VW5RMF9OZEh3UDZ2TE42RlhTelFvakpHWFQzZTc1WEFIVlBzV25XZVpJUTlxX0RXUnAtblluQUtQWGV5QVdLOGtmNmlINDVvc2tRZk0?oc=5
-· USDBRL Dólar abre em queda atento às pesquisas eleitorais em destaque no Brasil (CNN Brasil) https://www.cnnbrasil.com.br/economia/money/mercado/mercado-financeiro-ibovespa-dolar-19-outubro-2026/
-· MINERIO Minério de ferro avança com crescimento econômico da China (CNN Brasil) https://www.cnnbrasil.com.br/economia/money/mercado/minerio-de-ferro-avanca-com-crescimento-economico-da-china/
-· MELI34 TRXF11 coloca maior centro de distribuição do Mercado Livre (MELI34) na carteira por R$ 250 milhões — mas volta atrás em outro negócio (Seu Dinheiro) https://www.seudinheiro.com/2026/bolsa-dolar/trxf11-coloca-maior-centro-de-distribuicao-do-mercado-livre-meli34-na-carteira-por-r-250-milhoes-mas-volta-atras-em-outro-negocio-davs/
-· (+27 manchetes; lista completa em eventos/noticias.json)
+· (+30 manchetes; lista completa em eventos/noticias.json)
