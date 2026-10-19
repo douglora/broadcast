@@ -1,8 +1,20 @@
-NOTÍCIAS E FATOS · 19/10 18h12
+NOTÍCIAS E FATOS · 19/10 20h30
 
-Pernas: noticias ok 13 novas (18 consultas; descartadas: 447 veículo fora da lista, 44 sem ativo, 0 teto) · cvm ok 0 novos de 3 (3 cias casadas) · sec ok 1 novos em 3 dias
+Pernas: noticias ok 13 novas (18 consultas; descartadas: 465 veículo fora da lista, 41 sem ativo, 3 teto) · cvm ok 1 novos de 4 (4 cias casadas) · sec ok 0 novos em 3 dias
 
-## FATOS RELEVANTES E COMUNICADOS (CVM) (3)
+## FATOS RELEVANTES E COMUNICADOS (CVM) (4)
+
+[INFO] E03 · ALUP4 · Participação relevante: gestor reduziu para 4,82%
+CVM · entregue 19/10/2026 19:47 · Aquisição/Alienação de Participação Acionária Relevante / Declaração de Alienação de Participação Acionária Relevante
+Do documento:
+  – O Capital Social total informado pela Companhia é de 988.880.601 ações, sendo 317.386.323 ações  Preferenciais e 671.494.278 ações Ordinárias.
+  – Curitiba, 19 de outubro de 2026.
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1578491
+Por que importa: quem cruza 5% de uma companhia tem de avisar (Resolução CVM 44, art. 12); o fluxo de compra ou venda já aconteceu, não no dia do aviso
+Ativos: ALUP4
+Como falar: 'gestor reduziu para 4,82% na Alupar; é aviso de participação, não fato relevante'
+Fonte: CVM 19/10
+id: E03-ALUP4-1578491-2026-10-19 · status: linha · íntegra disponível
 
 [INFO] E03 · AXIA3 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
 CVM · entregue 19/10/2026 17:12 · Outros Comunicados Não Considerados Fatos Relevantes
@@ -51,7 +63,16 @@ Fonte: SEC EDGAR 2026-10-19
 id: E04-MMM-26000303-2026-10-19 · status: linha · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (18)
+## NOTÍCIAS COM MATERIALIDADE (19)
+
+[ATENÇÃO] E05 · GOOGL · KeyBanc lowers Alphabet stock price target on cloud, search outlook By Investing.com
+Investing.com · 19/10 16h17 · fonte única · licença: manchete
+Link: https://ng.investing.com/news/stock-market-news/keybanc-lowers-alphabet-stock-price-target-on-cloud-search-outlook-93CH-2743800
+Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
+Ativos: GOOGL
+Como falar: 'saiu no Investing.com: KeyBanc lowers Alphabet stock price target on cloud, search outlook By Investing.com; confirmar o número no texto antes de repassar'
+Fonte: Investing.com 19/10 16h17
+id: E05-GOOGL-7f8ed29fce-2026-10-19 · status: pendente
 
 [ATENÇÃO] E05 · KO · If You Invest $200 a Month in Coca-Cola (KO) Stock, Here's the Dividend Income It Could Generate Over 10 Years.
 Yahoo Finance · 19/10 17h10 · fonte única · licença: resumo
@@ -297,8 +318,20 @@ Fonte: Yahoo Finance 18/10 11h53
 id: E05-TSM-cead2a6c14-2026-10-18 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (141)
+## OUTRAS NOTÍCIAS (só manchete) (153)
 
+· INTC Did Foundry Win Just Shift Intel (INTC) Investment Narrative? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/did-foundry-win-just-shift-221539389.html
+· TSM The AI Conundrum: Massive AI Panic While TSMC's Profits Soar 69% (NYSE:TSM) (Seeking Alpha) https://seekingalpha.com/article/4955325-the-ai-conundrum-massive-ai-panic-while-tsmcs-profits-soar-69-percent
+· AMZN 3M stock rises 3% on $6B Amazon data center deal (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/3m-stock-rises-3-6b-213632761.html
+· TSLA Tesla Q3 Preview: FSD Could Be The Key Driver Of Profitability (Downgrade) (NASDAQ:TSLA) (Seeking Alpha) https://seekingalpha.com/article/4955309-tesla-q3-preview-fsd-could-be-the-key-driver-of-profitability-downgrade
+· USDBRL Dólar hoje cai a R$ 5,04, reagindo a disputa eleitoral no Brasil e seguindo exterior (InfoMoney) https://www.infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-19102026/
+· USDBRL Ibovespa fecha com leve queda, com olhos na eleição; dólar cai a R$ 5,04 (InfoMoney) https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-19102026/
+· TSM Buy Top-Ranked Tech Stock TSMC Now on the Dip and Hold (Yahoo Finance) https://uk.finance.yahoo.com/news/buy-top-ranked-tech-stock-202600390.html
+· BRENT Brent Tops $104 on Supply Concerns (TradingView (Reuters)) https://www.tradingview.com/news/te_news:593220:0-brent-tops-104-on-supply-concerns/
+· LITE Sandisk and Lumentum Bounce Back From AI Selloff as CoreWeave Sits Out the Rally (Barron's) https://www.barrons.com/articles/coreweave-lumentum-sandisk-stocks-ai-selloff-260125cc
+· UST U.S. Treasury Yields Turn Higher With Oil; French Bond Yields Rise on Protests (The Wall Street Journal) https://www.wsj.com/finance/investing/u-s-treasury-yields-fall-in-asian-trade-e5171539
+· AMZN Amazon shares jump as Morgan Stanley calls AWS runway “under-appreciated” (Yahoo Finance) https://uk.finance.yahoo.com/news/amazon-shares-jump-morgan-stanley-170500831.html
+· GOOGL Amazon Jumps 5% as Morgan Stanley Names It Top Pick on Faster AWS Growth; Microsoft and Alphabet Edge Higher (Yahoo Finance) https://news.google.com/rss/articles/CBMimgFBVV95cUxQTFdBRmR2TUQ1WkRSQVQ4MjlJVHQ1VEdRZk9PQTRYcTd1UmVQYzdTZTJvanVmczhKb0VmalR1VmJJTnhRNzJtUmFpQTQ4ZWhHWnFUT0pTbGV2NWxvY3hVSU1ZZDQwUlFKWW5ZV1hYYWV0Ylp3QmR4SE5IMzlNTGJTdGxsMUZHdDhpV1UxYUpkVnVoTTdfSTcxX3JR?oc=5
 · USDBRL Dólar cai 0,49% e fecha a R$ 5,048; Ibovespa também tem queda (Poder360) https://www.poder360.com.br/poder-economia/dolar-cai-049-e-fecha-a-r-5048-ibovespa-tambem-tem-queda/
 · PETR4 Ibovespa recua com tombo de Petrobras (PETR4) e disputa eleitoral acirrada no radar; dólar cai (Money Times) https://www.moneytimes.com.br/ibovespa-19-10-26-apsa/
 · TSM TSMC: Irrational Fears Don't Make Much Sense (NYSE:TSM) (Seeking Alpha) https://seekingalpha.com/article/4955306-tsmc-irrational-fears-dont-make-much-sense
@@ -347,16 +380,4 @@ id: E05-TSM-cead2a6c14-2026-10-18 · status: linha
 · JPM Jamie Dimon slammed crypto. JPMorgan quietly built JPM Coin. (Yahoo Finance) https://finance.yahoo.com/video/jamie-dimon-slammed-crypto-jpmorgan-163000069.html
 · MU Micron: CXMT Sparks Fear, HBM Fuels Higher Margins (NASDAQ:MU) (Seeking Alpha) https://seekingalpha.com/article/4955233-micron-cxmt-sparks-fear-hbm-fuels-higher-margins
 · TSLA Tesla: Why I'm Upgrading Ahead Of Q3 (Preview) (NASDAQ:TSLA) (Seeking Alpha) https://seekingalpha.com/article/4955227-tesla-why-im-upgrading-ahead-of-q3-preview
-· PETR4 Plataforma P-82, da Petrobras, deixa estaleiro em Cingapura rumo ao Brasil (Valor Economico) https://valor.globo.com/google/amp/empresas/noticia/2026/10/19/plataforma-p-82-da-petrobras-deixa-estaleiro-em-cingapura-rumo-ao-brasil.ghtml
-· MU Why Micron and Sandisk Stocks Are Surging Monday (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:87a9fc0d2094b:0-why-micron-and-sandisk-stocks-are-surging-monday/
-· MU Micron: Don't Fear Chinese Memory Competition (NASDAQ:MU) (Seeking Alpha) https://seekingalpha.com/article/4955143-micron-dont-fear-chinese-memory-competition
-· BRENT Wright Says Gas Prices Peaked As Brent Holds Above $108 (OilPrice.com) https://oilprice.com/Energy/Gas-Prices/Wright-Says-Gas-Prices-Peaked-As-Brent-Holds-Above-108.amp.html
-· ETH Current price of Ethereum for October 19, 2026 (Fortune) https://fortune.com/article/price-of-ethereum-10-19-2026/
-· BTC Current price of Bitcoin for October 19, 2026 (Fortune) https://fortune.com/article/price-of-bitcoin-10-19-2026/
-· COHR GLW, VZ, COHR In Focus As AI Fiber Shortage Drives Prices Higher — TrendForce Sees Supply Crunch Through 2028 (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:0a56076ef094b:0-glw-vz-cohr-in-focus-as-ai-fiber-shortage-drives-prices-higher-trendforce-sees-supply-crunch-through-2028/
-· GOOGL Marvell Jumps 6% as GF Securities Says Google Chip Delay Won’t Dent Its Position; Broadcom Rises 3% (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/marvell-jumps-6-gf-securities-170826594.html
-· JPM Intel Stock Jumps After JPMorgan Upgrade on AI Demand (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:881ee56a5094b:0-intel-stock-jumps-after-jpmorgan-upgrade-on-ai-demand/
-· NVDA Nvidia: The Real Competitive Advantage Isn't About The Chip (NASDAQ:NVDA) (Seeking Alpha) https://seekingalpha.com/article/4955243-nvidia-the-real-competitive-advantage-isnt-about-the-chip
-· INTC Why a former Intel skeptic is giving up his negative call on the stock after four years (MarketWatch) https://www.marketwatch.com/story/why-a-former-intel-skeptic-is-giving-up-his-negative-call-on-the-stock-after-four-years-47c2fab6
-· ITUB4 Compre Embraer (EMBJ3), Axia (AXIA3) e outras 15 ações para ganhar mais de 5% nesta semana, segundo Itaú BBA (Money Times) https://www.moneytimes.com.br/day-trade-itau-bba-19-10-26-apsa/
-· (+81 manchetes; lista completa em eventos/noticias.json)
+· (+93 manchetes; lista completa em eventos/noticias.json)

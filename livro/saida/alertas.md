@@ -1,16 +1,15 @@
-ALERTAS · Fechamento 18h
+ALERTAS · eventos
 
-[CRÍTICO] T08 · COHR entrou em queda de -45% do pico: -46% do pico de 52s (US$ 426,89 em 02/06) a US$ 232,02
+(pendente de slot anterior) [CRÍTICO] T08 · COHR entrou em queda de -45% do pico: -46% do pico de 52s (US$ 426,89 em 02/06) a US$ 232,02
 1m -27% · 6m -33% · 12m +99%
 PHLX Semiconductor: 1m -5,1% · 6m +18%: a queda é do ativo, não do mercado
 Por que importa: -45% do pico é o limiar que a indústria chama de queda de -45% do pico; recuperar o pico exige +84%
 Como falar: 'o cliente sente a queda no extrato; a conversa é sobre a tese, não sobre o preço de hoje'
 Anula/Confirma: rearma acima de -40% do pico
 Fonte: Yahoo Finance fech. 19/10
-Push: [CRÍTICO] COHR entrou em queda de -45% do pico · detalhe na sessão
 ids: T08-COHR--45-2026-10-19
 
-[ATENÇÃO] E05 · KO · If You Invest $200 a Month in Coca-Cola (KO) Stock, Here's the Dividend Income It Could Generate Over 10 Years.
+(pendente de slot anterior) [ATENÇÃO] E05 · KO · If You Invest $200 a Month in Coca-Cola (KO) Stock, Here's the Dividend Income It Could Generate Over 10 Years.
 Yahoo Finance · 19/10 17h10 · fonte única · licença: resumo
 Trechos (licença resumo: reescrever, não colar):
   – The world's largest beverage company has raised its dividend annually for 64 consecutive years, putting it in the elite club of Dividend Kings, which have maintained that streak for at least 50 years.
@@ -24,41 +23,43 @@ Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir
 Ativos: KO
 Como falar: 'saiu no Yahoo Finance: If You Invest $200 a Month in Coca-Cola (KO) Stock, Here's the Dividend Income It Could G…; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 19/10 17h10
-Push: [ATENÇÃO] KO · If You Invest $200 a Month in Coca-Cola (KO) Stock, Her · detalhe na sessão
 ids: E05-KO-c6af630f50-2026-10-19
 
+[ATENÇÃO] E05 · GOOGL · KeyBanc lowers Alphabet stock price target on cloud, search outlook By Investing.com
+Investing.com · 19/10 16h17 · fonte única · licença: manchete
+Link: https://ng.investing.com/news/stock-market-news/keybanc-lowers-alphabet-stock-price-target-on-cloud-search-outlook-93CH-2743800
+Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
+Ativos: GOOGL
+Como falar: 'saiu no Investing.com: KeyBanc lowers Alphabet stock price target on cloud, search outlook By Investing.com; confirmar o número no texto antes de repassar'
+Fonte: Investing.com 19/10 16h17
+Push: [ATENÇÃO] GOOGL · KeyBanc lowers Alphabet stock price target on cloud, · detalhe na sessão
+ids: E05-GOOGL-7f8ed29fce-2026-10-19
+
 Info (só linha no Fechamento):
-· T01 MELI34 fechou abaixo da média de 200 dias pela 2ª sessão: R$ 77,22 vs MM200 R$ 78,46 (-1,6%)
-· T02 QQQ perdeu a MM50 pela 2ª sessão: US$ 718,36, ainda acima da MM200 (tendência longa preservada)
-· T02 XLK perdeu a MM50 pela 2ª sessão: US$ 185,96, ainda acima da MM200 (tendência longa preservada)
-· T02 VGT perdeu a MM50 pela 2ª sessão: US$ 120,33, ainda acima da MM200 (tendência longa preservada)
-· T02 MMM perdeu a MM100 pela 2ª sessão: US$ 162,01, ainda acima da MM200 (tendência longa preservada)
-· T12 REMX: 6 quedas seguidas (-12% acumulado) a US$ 53,36
-· M03 Focus de 16/10: IPCA: 2026 5,22% (+0 bps) · 2027 4,32% (+2 bps)
-· E04 MMM · 8-K: 7.01 Regulation FD
-· E05 USDBRL · Dólar cai 0,49% e fecha a R$ 5,048; Ibovespa também tem queda
-· E05 PETR4 · Ibovespa recua com tombo de Petrobras (PETR4) e disputa eleitoral acirrada no radar; dólar cai
-· E05 TSM · TSMC: Irrational Fears Don't Make Much Sense (NYSE:TSM)
-· E05 TESOURO · Taxas do Tesouro Direto têm nova alta; prefixado volta a pagar 13%
-· E05 GOOGL · Alphabet (GOOGL) Pushes Into Carbon Removal Power Markets And Quantum AI
-· E05 USDBRL · Dólar fecha em baixa com eleição no Brasil e exterior no foco
-· E05 USDBRL · Dólar à vista fecha em baixa de 0,50%, aos R$5,0476 Por Reuters
-· E05 JPM · Tesla Rises on a Foundry Agreement With Intel as JPMorgan Upgrades the Stock
-· E05 BTC · MARA Holdings (MARA) Mined More Bitcoin, but Revenue Fell 27%
-· E05 BTC · EVOLVE BITCOIN ETF (BTEUF) stock price, news, quote and history
-· E05 TSLA · Dan Ives Says Meta, SpaceX and Tesla Face Big Questions This Week — His 3 'Big Focus Points' Ahead of Tech Earnings
-· E05 USDBRL · Dólar cai e fecha a R$ 5,04 com mercado de olho na reta final das eleições; Ibovespa recua
+· E03 ALUP4 · Participação relevante: gestor reduziu para 4,82%
+· E05 INTC · Did Foundry Win Just Shift Intel (INTC) Investment Narrative?
+· E05 TSM · The AI Conundrum: Massive AI Panic While TSMC's Profits Soar 69% (NYSE:TSM)
+· E05 AMZN · 3M stock rises 3% on $6B Amazon data center deal
+· E05 TSLA · Tesla Q3 Preview: FSD Could Be The Key Driver Of Profitability (Downgrade) (NASDAQ:TSLA)
+· E05 USDBRL · Dólar hoje cai a R$ 5,04, reagindo a disputa eleitoral no Brasil e seguindo exterior
+· E05 USDBRL · Ibovespa fecha com leve queda, com olhos na eleição; dólar cai a R$ 5,04
+· E05 TSM · Buy Top-Ranked Tech Stock TSMC Now on the Dip and Hold
+· E05 BRENT · Brent Tops $104 on Supply Concerns
+· E05 LITE · Sandisk and Lumentum Bounce Back From AI Selloff as CoreWeave Sits Out the Rally
+· E05 UST · U.S. Treasury Yields Turn Higher With Oil; French Bond Yields Rise on Protests
+· E05 AMZN · Amazon shares jump as Morgan Stanley calls AWS runway “under-appreciated”
+· E05 GOOGL · Amazon Jumps 5% as Morgan Stanley Names It Top Pick on Faster AWS Growth; Microsoft and Alphabet Edge Higher
 · C01 A curva ABRIU: F29 +49 bps em 5 pregões · F30 +54 bps em 5 pregões · F32 +56 bps em 5 pregões (ajuste B3 19/10)
 · T04 REMX fechou na mínima de 52 semanas: US$ 53,36, -23% em 1m e -24% em 12m
 · T05 AMZN +5,0% no dia a US$ 262,45: movimento de 3,2 desvios para uma vol de 20 dias de 24% a.a.
 · T02 MRVL perdeu a MM50 e perdeu a MM100 pela 2ª sessão: US$ 237,09, ainda acima da MM200 (tendência longa preservada)
 · T06 RARA11 -11% em 5 sessões a R$ 12,05: movimento de 3,1 desvios para a vol de 20 dias
-· S01 coleta do slot fechamento saiu incompleta: tesouro: Tesouro Transparente com data-base 15/10; faltam 16/10 (taxas não são as de hoje)
 
-Suprimidos pelo teto (viram linha do Fechamento): C01-DI-abriu-2026-10-19 (teto de atenção), T04-REMX-minima-2026-10-19 (teto de atenção), T05-AMZN-alta-2026-10-19 (teto de atenção), T02-MRVL-perdeu_perdeu-2026-10-19 (teto de atenção), T06-RARA11-queda-2026-10-19 (teto de atenção), S01-SISTEMA-fechamento-2026-10-19 (teto de atenção)
+Suprimidos pelo teto (viram linha do Fechamento): C01-DI-abriu-2026-10-19 (teto de atenção), T04-REMX-minima-2026-10-19 (teto de atenção), T05-AMZN-alta-2026-10-19 (teto de atenção), T02-MRVL-perdeu_perdeu-2026-10-19 (teto de atenção), T06-RARA11-queda-2026-10-19 (teto de atenção)
 
 Alertas do dia (todos, com status):
 · pendente  T08 COHR — COHR entrou em queda de -45% do pico: -46% do pico de 52s (US$ 426,89 em 02/06) 
+· pendente  E05 GOOGL — GOOGL · KeyBanc lowers Alphabet stock price target on cloud, search outlook By I
 · linha     C01 DI — A curva ABRIU: F29 +49 bps em 5 pregões · F30 +54 bps em 5 pregões · F32 +56 bps
 · linha     T04 REMX — REMX fechou na mínima de 52 semanas: US$ 53,36, -23% em 1m e -24% em 12m
 · linha     T05 AMZN — AMZN +5,0% no dia a US$ 262,45: movimento de 3,2 desvios para uma vol de 20 dias
@@ -87,4 +88,4 @@ Alertas do dia (todos, com status):
 · linha     T02 VGT — VGT perdeu a MM50 pela 2ª sessão: US$ 120,33, ainda acima da MM200 (tendência lo
 · linha     T02 MMM — MMM perdeu a MM100 pela 2ª sessão: US$ 162,01, ainda acima da MM200 (tendência l
 · linha     T12 REMX — REMX: 6 quedas seguidas (-12% acumulado) a US$ 53,36
-· (+150 notícias só manchete, em noticias.md)
+· (+163 notícias só manchete, em noticias.md)
