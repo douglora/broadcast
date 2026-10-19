@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 19/10 08h34
+NOTÍCIAS E FATOS · 19/10 10h28
 
-Pernas: noticias ok 21 novas (18 consultas; descartadas: 475 veículo fora da lista, 43 sem ativo, 45 teto) · cvm ok 2 novos de 4 (2 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 17 novas (18 consultas; descartadas: 471 veículo fora da lista, 39 sem ativo, 24 teto) · cvm ok 0 novos de 2 (2 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (2)
 
@@ -23,7 +23,32 @@ Fonte: CVM 16/10
 id: E03-DIRR3-28709e18-2026-10-16 · status: linha
 
 
-## NOTÍCIAS COM MATERIALIDADE (11)
+## NOTÍCIAS COM MATERIALIDADE (8)
+
+[ATENÇÃO] E05 · JPM · JPMorgan Chase Invests $5 Billion In US National Security Tech
+Yahoo Finance · 19/10 09h50 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Key Stats for JPMorgan Chase Stock - Price change for JPMorgan Chase stock in last 6 months: 7% - $JPM Stock Price as of Oct.
+  – 16: $340 - 52-Week High: $367 - $JPM Stock Price Target: $372 What Happened?
+  – JPMorgan Chase (JPM:NYSE) said it has invested $5 billion in equity in industries critical to US economic and national security, Reuters reports.
+  – The bank also said it has financed about $230 billion under its Security and Resiliency Initiative, launched a year ago.
+  – At the time, JPMorgan committed to financing $1.5 trillion of US investments over the next decade.
+  – Bank of America said in August it plans to invest $250 billion by July 2027 in US digital and infrastructure projects.
+Link: https://finance.yahoo.com/markets/stocks/articles/jpmorgan-chase-invests-5-billion-125011764.html
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: JPM
+Como falar: 'saiu no Yahoo Finance: JPMorgan Chase Invests $5 Billion In US National Security Tech; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 19/10 09h50
+id: E05-JPM-4d49fba553-2026-10-19 · status: pendente
+
+[ATENÇÃO] E05 · AMD · AMD Stocks Rise 2.56% With $13 Billion Revenue Guidance in Focus
+TradingView (Reuters) · 19/10 09h02 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/gurufocus:774412881094b:0-amd-stocks-rise-2-56-with-13-billion-revenue-guidance-in-focus/
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: AMD
+Como falar: 'saiu no TradingView (Reuters): AMD Stocks Rise 2.56% With $13 Billion Revenue Guidance in Focus; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 19/10 09h02
+id: E05-AMD-9b36e4f4d0-2026-10-19 · status: pendente
 
 [ATENÇÃO] E05 · MELI34 · Fundo imobiliário investe R$ 250 milhões em galpão do Mercado Livre (MELI34) e rescinde venda de imóveis do GPA (PCAR3)
 Money Times · 19/10 08h35 · fonte única · licença: integral
@@ -39,7 +64,7 @@ Por que importa: aquisicao ou venda muda alavancagem, mix de receita e o multipl
 Ativos: MELI34
 Como falar: 'saiu no Money Times: Fundo imobiliário investe R$ 250 milhões em galpão do Mercado Livre (MELI34) e rescinde v…; confirmar o número no texto antes de repassar'
 Fonte: Money Times 19/10 08h35
-id: E05-MELI34-ff54e5086f-2026-10-19 · status: pendente · íntegra disponível
+id: E05-MELI34-ff54e5086f-2026-10-19 · status: entregue · íntegra disponível
 
 [ATENÇÃO] E05 · USDBRL · Boletim Focus: mercado reduz projeção do PIB de 2026 e vê dólar mais baixo
 InfoMoney · 19/10 08h33 · fonte única · licença: resumo
@@ -55,7 +80,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: USDBRL
 Como falar: 'saiu no InfoMoney: Boletim Focus: mercado reduz projeção do PIB de 2026 e vê dólar mais baixo; confirmar o número no texto antes de repassar'
 Fonte: InfoMoney 19/10 08h33
-id: E05-USDBRL-dcbcb1207e-2026-10-19 · status: pendente
+id: E05-USDBRL-dcbcb1207e-2026-10-19 · status: entregue
 
 [ATENÇÃO] E05 · JPM · JPMorgan announces $5 billion in investments in companies critical to US national security
 Yahoo Finance · 19/10 07h01 · fonte única · licença: resumo
@@ -68,7 +93,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: JPM
 Como falar: 'saiu no Yahoo Finance: JPMorgan announces $5 billion in investments in companies critical to US national security; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 19/10 07h01
-id: E05-JPM-dfa952ff2c-2026-10-19 · status: pendente
+id: E05-JPM-dfa952ff2c-2026-10-19 · status: entregue
 
 [ATENÇÃO] E05 · PETR4 · Petrobras bate recorde de R$ 800 bilhões em meio a expectativas sobre petróleo na Margem Equatorial
 g1 · 19/10 04h00 · fonte única · licença: resumo
@@ -116,70 +141,24 @@ Como falar: 'saiu no Yahoo Finance: TSMC Is Spending up to $64 Billion This Year
 Fonte: Yahoo Finance 18/10 11h53
 id: E05-TSM-cead2a6c14-2026-10-18 · status: linha
 
-[ATENÇÃO] E05 · MMM · Market Chatter: 3M Company to Challenge Australia's $1.4 Billion PFAS Contamination Lawsuit
-Yahoo Finance · 16/10 04h41 · fonte única · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – 3M (MMM) plans to challenge the legal basis of Australia's lawsuit seeking more than A$2 billion ($1  Upgrade to read this MT Newswires article and get so much more.
-Link: https://finance.yahoo.com/markets/stocks/articles/market-chatter-3m-company-challenge-074117207.html
-Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e prazo
-Ativos: MMM
-Como falar: 'saiu no Yahoo Finance: Market Chatter: 3M Company to Challenge Australia's $1.4 Billion PFAS Contamination Lawsu…; confirmar o número no texto antes de repassar'
-Fonte: Yahoo Finance 16/10 04h41
-id: E05-MMM-4fe8b6db32-2026-10-16 · status: entregue
 
-[ATENÇÃO] E05 · TSM · TSMC's Record Q3 Earnings & Upbeat Outlook Put These ETFs in Focus
-Yahoo Finance · 16/10 11h00 · fonte única · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – TSMC Beats Q3 Earnings Estimates TSMC's third-quarter revenues of NT$1.49 trillion ($46.36 billion) topped the Zacks Consensus Estimate of $45.62 billion.
-  – TSMC reported third-quarter 2026 earnings per share (EPS) of $4.60, ahead of the Zacks Consensus Estimate of $4.45.
-  – TSMC's net profit climbed 68.7% year over year, marking its sixth consecutive quarter of record earnings, per CNBC.
-  – Its operating margin reached 58.7%, surpassing the upper end of the company's guidance range of 58%.
-  – Strong Q4 Outlook Signals Sustained AI Momentum TSMC expects fourth-quarter revenues of $52.3 billion to $54.3 billion.
-  – At the midpoint, the forecast implies a 14% sequential increase and a 58% jump from the year-ago quarter, according to the company's earnings call.
-Link: https://finance.yahoo.com/technology/articles/tsmcs-record-q3-earnings-upbeat-140000557.html
-Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
-Ativos: TSM
-Como falar: 'saiu no Yahoo Finance: TSMC's Record Q3 Earnings & Upbeat Outlook Put These ETFs in Focus; confirmar o número no texto antes de repassar'
-Fonte: Yahoo Finance 16/10 11h00
-id: E05-TSM-795baac277-2026-10-16 · status: entregue
+## OUTRAS NOTÍCIAS (só manchete) (30)
 
-[ATENÇÃO] E05 · BAC · Bank of America: The $1.2 Billion Fine Changes My Rating, But The Upside Remains
-Seeking Alpha · 16/10 00h18 · fonte única · licença: manchete
-Link: https://seekingalpha.com/article/4954646-bank-of-america-1-2-billion-fine-changes-my-rating-but-upside-remains
-Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
-Ativos: BAC
-Como falar: 'saiu no Seeking Alpha: Bank of America: The $1.2 Billion Fine Changes My Rating, But The Upside Remains; confirmar o número no texto antes de repassar'
-Fonte: Seeking Alpha 16/10 00h18
-id: E05-BAC-db5011b12f-2026-10-16 · status: entregue
-
-[ATENÇÃO] E05 · MMM · 3M to argue Australia's $1.4 billion 'forever chemicals' lawsuit legally flawed, court hears
-Reuters · 16/10 00h04 · fonte única · licença: manchete
-Link: https://www.reuters.com/business/environment/3m-argue-australias-14-billion-forever-chemicals-lawsuit-legally-flawed-court-2026-10-16/
-Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e prazo
-Ativos: MMM
-Como falar: 'saiu no Reuters: 3M to argue Australia's $1.4 billion 'forever chemicals' lawsuit legally flawed, court he…; confirmar o número no texto antes de repassar'
-Fonte: Reuters 16/10 00h04
-id: E05-MMM-b7de6b56d5-2026-10-16 · status: entregue
-
-[ATENÇÃO] E05 · PETR4 · Petrobras bate recorde e chega a R$ 800 bilhões em valor de mercado; ações sobem até 110% em 2026
-g1 · 15/10 16h31 · fonte única · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – A Petrobras bateu recorde no valor de mercado ao atingir R$ 800 bilhões no encerramento do pregão na B3 nesta quarta-feira (14), a primeira vez que a companhia supera esse patamar.
-  – Ao longo de 2026, as ações preferenciais da Petrobras (PETR4) subiram cerca de 100% e as ações ordinárias (PETR3) tiveram alta de aproximadamente 110%.
-  – “Ao longo dos últimos meses, afirmei diversas vezes que quem apostasse contra a Petrobras iria perder dinheiro.
-  – [...] A companhia está forte, eficiente e cada vez mais capaz de gerar valor”, destaca Magda Chambriard, presidente da Petrobras.
-  – - 🔎 Nesta quarta-feira, as ações preferenciais (PETR4) avançaram 2,22%, enquanto as ordinárias (PETR3) registraram alta de 1,94%.
-  – Com o acordo, a Petrobras receberá cerca de US$ 859 milhões líquidos, a serem pagos até novembro de 2026.
-Link: https://g1.globo.com/economia/noticia/2026/10/15/petrobras-bate-recorde-e-chega-a-r-800-bilhoes-em-valor-de-mercado-acoes-sobem-ate-110percent-em-2026.ghtml
-Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
-Ativos: PETR4
-Como falar: 'saiu no g1: Petrobras bate recorde e chega a R$ 800 bilhões em valor de mercado; ações sobem até 110%…; confirmar o número no texto antes de repassar'
-Fonte: g1 15/10 16h31
-id: E05-PETR4-a305718dd1-2026-10-15 · status: entregue
-
-
-## OUTRAS NOTÍCIAS (só manchete) (15)
-
+· USDBRL Dólar abre em queda atento às pesquisas eleitorais em destaque no Brasil (CNN Brasil) https://www.cnnbrasil.com.br/economia/money/mercado/mercado-financeiro-ibovespa-dolar-19-outubro-2026/
+· MINERIO Minério de ferro avança com crescimento econômico da China (CNN Brasil) https://www.cnnbrasil.com.br/economia/money/mercado/minerio-de-ferro-avanca-com-crescimento-economico-da-china/
+· MELI34 TRXF11 coloca maior centro de distribuição do Mercado Livre (MELI34) na carteira por R$ 250 milhões — mas volta atrás em outro negócio (Seu Dinheiro) https://www.seudinheiro.com/2026/bolsa-dolar/trxf11-coloca-maior-centro-de-distribuicao-do-mercado-livre-meli34-na-carteira-por-r-250-milhoes-mas-volta-atras-em-outro-negocio-davs/
+· USDBRL Dólar cai com pesquisa eleitoral no radar a uma semana do segundo turno (Folha de S.Paulo) https://www1.folha.uol.com.br/mercado/2026/10/dolar-cai-com-pesquisa-eleitoral-no-radar-a-uma-semana-do-segundo-turno.shtml
+· BRENT Dólar cai ante real e moedas emergentes com recuo do petróleo e pesquisas no radar (UOL Economia) https://economia.uol.com.br/noticias/estadao-conteudo/2026/10/19/dolar-cai-ante-real-e-moedas-emergentes-com-recuo-do-petroleo-e-pesquisas-no-radar.htm
+· GOOGL Accenture Expands Federal AI Push With Google's Gemini Agents, Months After OpenAI Partnership (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/accenture-expands-federal-ai-push-124140285.html
+· SBSP3 Day trade: Compre Sabesp (SBSP3) e venda Usiminas (USIM5) para ganhar até 1,4% hoje (19), segundo a Ágora (Money Times) https://www.moneytimes.com.br/day-trade-compre-sabesp-sbsp3-e-venda-usiminas-usim5-para-ganhar-ate-14-hoje-19-segundo-a-agora/
+· TSLA SpaceX, Tesla earnings to test Musk's AI spending ambitions as merger talk grows (Reuters) https://www.reuters.com/business/media-telecom/spacex-tesla-earnings-test-musks-ai-spending-ambitions-merger-talk-grows-2026-10-19/
+· BTC Bitcoin Is Flashing a Warning Sign Wall Street Can’t Ignore, Says Mike McGlone (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-flashing-warning-sign-wall-122659478.html
+· MU Micron: The Undisputed King Of Memory Chips (NASDAQ:MU) (Seeking Alpha) https://seekingalpha.com/article/4955162-micron-the-undisputed-king-of-memory-chips
+· GOOGL Huntington Bank Introduces The 1866 Studio, an AI-Powered Small Business Operating System Built with Google Cloud (PR Newswire) https://www.prnewswire.com/news-releases/huntington-bank-introduces-the-1866-studio-an-ai-powered-small-business-operating-system-built-with-google-cloud-302912579.html
+· BTC Strategy buys $22M in Bitcoin, repurchases $193M in STRC (TradingView (Reuters)) https://www.tradingview.com/news/cointelegraph:ef4774cc1094b:0-strategy-buys-22m-in-bitcoin-repurchases-193m-in-strc/
+· USDBRL Dólar cai ante o real na esteira de novas pesquisas eleitorais Por Reuters (Investing.com) https://br.investing.com/news/forex-news/dolar-cai-ante-o-real-na-esteira-de-novas-pesquisas-eleitorais-2095088
+· NVDA Samsung Is Turning to Rival TSMC for Nvidia's Next AI Memory (Yahoo Finance) https://news.google.com/rss/articles/CBMinwFBVV95cUxOQnNGMFU2S3J3OGp3WDZFN3gwOXNFck14eHdiUGFzNUdYbS1TakVYZG1qekZOV3dibW9CbmtjS1pIckQ2RDlQTXpZNk9NcFJwSlRhaEFWUkdrNTdMNjRMREM1SnlJeWlNUFVsYWNlN3hKS3dPMFZSUlU0b2YwNUlGRHV5VHpOTlRUZXlzZ00weXBrcDhNb2ZHTkNzTUJ5eFE?oc=5
+· USDBRL Ibovespa futuro cai para os 210 mil pontos com eleições em foco; dólar recua (Money Times) https://news.google.com/rss/articles/CBMibEFVX3lxTE1BUEVMWXByN0VFZWR4Q1JXb1dpcnNQRnhqWURhRW1XN3R5d1N1VHNLbDc3YnRVeTNwS01OY2tndmFLbUhKOFQzaEdETGJOc3FacjVPUEEzTU8tYXZCb0psb19rMTh3YmhYOEVuWQ?oc=5
 · JPM Intel upgraded at JPM as AI workloads support earnings (INTC:NASDAQ) (Seeking Alpha) https://seekingalpha.com/news/4654160-intel-upgraded-at-jpm-as-ai-workloads-support-earnings
 · SMAL11 Chegou a hora das small caps? Veja em quais ações investir para um cenário de queda de juros (Money Times) https://www.moneytimes.com.br/small-caps-em-quais-acoes-investir-para-um-cenario-de-queda-de-juros-mlem/
 · UST Treasuries Rallied as Tech Slid, and the Crowded Bet Against Bonds Felt It (TradingView (Reuters)) https://www.tradingview.com/news/prnewswire:8651f885cc280:0-treasuries-rallied-as-tech-slid-and-the-crowded-bet-against-bonds-felt-it/
