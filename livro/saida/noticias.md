@@ -1,31 +1,120 @@
-NOTÍCIAS E FATOS · 16/10 20h28
+NOTÍCIAS E FATOS · 19/10 08h34
 
-Pernas: noticias ok 13 novas (18 consultas; descartadas: 475 veículo fora da lista, 31 sem ativo, 12 teto) · cvm ok 1 novos de 12 (9 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 21 novas (18 consultas; descartadas: 475 veículo fora da lista, 43 sem ativo, 45 teto) · cvm ok 2 novos de 4 (2 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (2)
 
-[INFO] E03 · DIRR3 · Participação relevante: Driehaus Capital Management LLC reduziu para participação relevante (objetivo: só investimento)
-CVM · entregue 16/10/2026 19:33 · Aquisição/Alienação de Participação Acionária Relevante / Declaração de Alienação de Participação Acionária Relevante
-Do documento:
-  – Belo Horizonte, October 16, 2026    Paulo Henrique Martins de Sousa  CFO and IR Officer                                              TEXT - 52579528v1 6947.34                 TEXT - 52579528v1 6947.34
-Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1578085
-Por que importa: quem cruza 5% de uma companhia tem de avisar (Resolução CVM 44, art. 12); o objetivo declarado é só investimento e não muda controle; o fluxo de compra ou venda já aconteceu, não no dia do aviso
-Ativos: DIRR3
-Como falar: 'Driehaus Capital Management LLC reduziu para participação relevante (objetivo: só investimento) na Direcional Engenharia; é aviso de participação, não fato relevante'
-Fonte: CVM 16/10
-id: E03-DIRR3-1578085-2026-10-16 · status: linha · íntegra disponível
-
-[INFO] E03 · VALE3 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
-CVM · entregue 16/10/2026 09:33 · Outros Comunicados Não Considerados Fatos Relevantes
-Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1577682
+[INFO] E03 · VALE3 · Comunicado ao Mercado: Vale Base Metals conclui transação para estabelecer nova  estrutura de controle do Complexo Minerário de Thompson
+CVM · entregue 2026-10-16 · Outros Comunicados Não Considerados Fatos Relevantes
+Link: https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1577682&numSequencia=1102388&numVersao=1
 Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; confirma ou nega o que circula
 Ativos: VALE3
-Como falar: 'a Vale publicou comunicado ao mercado sobre Outros Comunicados Não Considerados Fatos Relevantes'
+Como falar: 'a Vale publicou comunicado ao mercado sobre Vale Base Metals conclui transação para estabelecer nova  estrutura d…'
 Fonte: CVM 16/10
-id: E03-VALE3-1577682-2026-10-16 · status: linha
+id: E03-VALE3-65b73f8b-2026-10-16 · status: linha
+
+[INFO] E03 · DIRR3 · Comunicado ao Mercado: Aquisição/Alienação de Participação Acionária (art. 12 da Instr. CVM nº 358)
+CVM · entregue 2026-10-16 · Aquisição/Alienação de Participação Acionária (art. 12 da Instr. CVM nº 358) / Declaração de Alienação de Participação Acionária Relevante - Art.12, §4º, da Instrução CVM nº358/02
+Link: https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1578085&numSequencia=1102791&numVersao=1
+Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; confirma ou nega o que circula
+Ativos: DIRR3
+Como falar: 'a Direcional Engenharia publicou comunicado ao mercado sobre Aquisição/Alienação de Participação Acionária (art. 12 da Instr. CVM…'
+Fonte: CVM 16/10
+id: E03-DIRR3-28709e18-2026-10-16 · status: linha
 
 
-## NOTÍCIAS COM MATERIALIDADE (5)
+## NOTÍCIAS COM MATERIALIDADE (11)
+
+[ATENÇÃO] E05 · MELI34 · Fundo imobiliário investe R$ 250 milhões em galpão do Mercado Livre (MELI34) e rescinde venda de imóveis do GPA (PCAR3)
+Money Times · 19/10 08h35 · fonte única · licença: integral
+Do texto:
+  – Durante a fase de obras do galpão, o título terá remuneração de 8,5% ao ano, corrigida pelo Índice Nacional de Construção Civil (INCC).
+  – O pagamento será realizado pelo TRXF11 conforme o fluxo contratado, até julho de 2028.
+  – A entrega do imóvel ocorrerá por etapas, com a conclusão da primeira prevista para outubro de 2027.
+  – Contrato de locação com o MELI O contrato de locação com o Mercado Livre terá prazo de 16 anos, contados a partir da entrega da primeira etapa do galpão.
+  – De acordo com o TRXF11, o empreendimento terá aproximadamente 461 mil metros quadrados (m²) de área bruta locável (ABL) e será o maior centro de distribuição da varejista.
+  – TRXF11 rescinde venda de imóveis locados ao GPA Paralelamente, o TRXF11 anunciou que rescindiu o compromisso de venda de um portfólio de imóveis locados ao Grupo Pão de Açúcar (GPA), localizados nos municípios de São Pa…
+Link: https://www.moneytimes.com.br/fundo-imobiliario-investe-r-250-milhoes-em-galpao-do-mercado-livre-meli34-e-rescinde-venda-de-imoveis-do-gpa-pcar3-igdl/
+Por que importa: aquisicao ou venda muda alavancagem, mix de receita e o multiplo; olhar preco pago e financiamento
+Ativos: MELI34
+Como falar: 'saiu no Money Times: Fundo imobiliário investe R$ 250 milhões em galpão do Mercado Livre (MELI34) e rescinde v…; confirmar o número no texto antes de repassar'
+Fonte: Money Times 19/10 08h35
+id: E05-MELI34-ff54e5086f-2026-10-19 · status: pendente · íntegra disponível
+
+[ATENÇÃO] E05 · USDBRL · Boletim Focus: mercado reduz projeção do PIB de 2026 e vê dólar mais baixo
+InfoMoney · 19/10 08h33 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – O Relatório Focus divulgado nesta segunda-feira (19) também mostrou queda na projeção para o dólar ao fim do ano, de R$ 5,15 para R$ 5,13, enquanto a expectativa para a taxa básica de juros, a Selic, permaneceu em 13,25…
+  – Inflação Para 2027, a previsão subiu de 4,30% para 4,32%, interrompendo a estabilidade observada na semana anterior.
+  – Para 2028, a expectativa recuou de 3,79% para 3,75%, enquanto, para 2029, permaneceu em 3,50%.
+  – No caso do Índice Geral de Preços – Mercado (IGP-M), a projeção para 2026 caiu de 5,27% para 5,26%.
+  – Para 2027, a estimativa recuou de 4,11% para 4,00%, enquanto, para 2028, caiu de 3,93% para 3,90%.
+  – Já para 2029, a projeção subiu de 3,80% para 3,81%, após uma semana de estabilidade.
+Link: https://www.infomoney.com.br/economia/boletim-focus-projecoes-19102026/
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: USDBRL
+Como falar: 'saiu no InfoMoney: Boletim Focus: mercado reduz projeção do PIB de 2026 e vê dólar mais baixo; confirmar o número no texto antes de repassar'
+Fonte: InfoMoney 19/10 08h33
+id: E05-USDBRL-dcbcb1207e-2026-10-19 · status: pendente
+
+[ATENÇÃO] E05 · JPM · JPMorgan announces $5 billion in investments in companies critical to US national security
+Yahoo Finance · 19/10 07h01 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – The lender also announced it has financed about $230 billion under its Security and Resiliency Initiative since launching the effort a year ago, when it committed to financing $1.5 trillion of US investments in the next…
+  – Bank of America in August said it plans to invest $250 billion by July 2027 to support US digital and infrastructure projects.
+  – Morgan Stanley has also said it would facilitate roughly $1.5 trillion in investments over the next decade for technology and infrastructure projects.
+Link: https://finance.yahoo.com/economy/policy/articles/jpmorgan-announces-5-billion-investments-100149936.html
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: JPM
+Como falar: 'saiu no Yahoo Finance: JPMorgan announces $5 billion in investments in companies critical to US national security; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 19/10 07h01
+id: E05-JPM-dfa952ff2c-2026-10-19 · status: pendente
+
+[ATENÇÃO] E05 · PETR4 · Petrobras bate recorde de R$ 800 bilhões em meio a expectativas sobre petróleo na Margem Equatorial
+g1 · 19/10 04h00 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Petrobras faz nova descoberta de petróleo em poço na costa do Amapá A Petrobras atingiu pela primeira vez o valor de mercado de R$ 800 bilhões, consolidando um momento de forte valorização da companhia em 2026.
+  – O marco foi alcançado no fechamento do pregão de 14 de outubro.
+  – Segundo a estatal, as ações preferenciais (PETR4) acumulam alta de cerca de 100% neste ano, enquanto os papéis ordinários (PETR3) avançaram aproximadamente 110%.
+  – Em 2026, a Petrobras também registrou aumento na produção própria de petróleo no país, que atingiu 2,7 milhões de barris por dia no segundo trimestre, crescimento de 15% em comparação ao mesmo período do ano passado.
+Link: https://g1.globo.com/google/amp/ap/amapa/noticia/2026/10/19/petrobras-bate-recorde-de-r-800-bilhoes-em-meio-a-expectativas-sobre-petroleo-na-margem-equatorial.ghtml
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: PETR4 · EQTL3 · BRENT
+Como falar: 'saiu no g1: Petrobras bate recorde de R$ 800 bilhões em meio a expectativas sobre petróleo na Margem…; confirmar o número no texto antes de repassar'
+Fonte: g1 19/10 04h00
+id: E05-PETR4-47050f3e27-2026-10-19 · status: linha
+
+[ATENÇÃO] E05 · BTC · AI Chip Bets Suffer $34M Liquidation Wipeout As Bitcoin, Ethereum Near Danger Zone Ahead Of Black Monday Fears
+Yahoo Finance · 18/10 13h52 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – - Crypto venues recorded over $33 million in liquidations tied to AI chip stocks, with leveraged long positions accounting for most losses.
+  – - SOXL contracts led with $13.05 million liquidated, followed by SanDisk and Micron.
+  – - Bitcoin traded near its $80,862 long liquidation-risk level, while Ethereum hovered close to its comparable $2,354 threshold.
+  – Traders who piled into AI chip stocks lost about $33.8 million on crypto exchanges a day earlier.
+  – The wipeout hit contracts tied to Micron (MU), SanDisk (SNDK) and SK Hynix (SKHY) one day before the 39th anniversary of the Black Monday crash.
+  – Contracts tied to the Direxion Daily Semiconductor Bull 3X Shares (SOXL) took the biggest hit, CoinGlass said.
+Link: https://finance.yahoo.com/markets/crypto/articles/ai-chip-bets-suffer-34m-165252079.html
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: BTC · ETH
+Como falar: 'saiu no Yahoo Finance: AI Chip Bets Suffer $34M Liquidation Wipeout As Bitcoin, Ethereum Near Danger Zone Ahead…; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 18/10 13h52
+id: E05-BTC-39199001c0-2026-10-18 · status: linha
+
+[ATENÇÃO] E05 · TSM · TSMC Is Spending up to $64 Billion This Year. Here's Why That's Great News for Investors.
+Yahoo Finance · 18/10 11h53 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Taiwan Semiconductor Manufacturing (NYSE: TSM) plans to spend $60 billion to $64 billion this year on new factories and equipment.
+  – That's a lot of cash going out the door, with capital spending totaling a third of trailing-12-month revenue.
+  – 15 earnings call, CFO Wendell Huang tied spending to long-term demand from customers, including the emerging market for agentic AI -- autonomous software that completes tasks on its own.
+  – He also said spending from 2026 through 2028 should be significantly higher than in the previous three years.
+  – Most investors think they missed the AI boat because they didn't buy Nvidia in 2005.
+  – But according to our analysts, we're only at the end of "Act 1"—the R&D phase.
+Link: https://finance.yahoo.com/technology/articles/tsmc-spending-64-billion-heres-145300304.html
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: TSM
+Como falar: 'saiu no Yahoo Finance: TSMC Is Spending up to $64 Billion This Year. Here's Why That's Great News for Investors.; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 18/10 11h53
+id: E05-TSM-cead2a6c14-2026-10-18 · status: linha
 
 [ATENÇÃO] E05 · MMM · Market Chatter: 3M Company to Challenge Australia's $1.4 Billion PFAS Contamination Lawsuit
 Yahoo Finance · 16/10 04h41 · fonte única · licença: resumo
@@ -89,66 +178,20 @@ Fonte: g1 15/10 16h31
 id: E05-PETR4-a305718dd1-2026-10-15 · status: entregue
 
 
-## OUTRAS NOTÍCIAS (só manchete) (143)
+## OUTRAS NOTÍCIAS (só manchete) (15)
 
-· NVDA 1 Obvious Metric That Makes Nvidia a Top Stock to Buy Now (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/1-obvious-metric-makes-nvidia-230400433.html
-· BTC Bitcoin's $350,000 price target comes with a terrifying warning, analyst says (Yahoo Finance) https://au.finance.yahoo.com/news/bitcoins-350-000-price-target-220000867.html
-· JPM JPMorgan Blocks Outside AI Agents From Customer Accounts (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/jpmorgan-blocks-outside-ai-agents-214548634.html
-· USDBRL Dólar cai 0,28% e Bolsa registra alta de 0,54% (Poder360) https://www.poder360.com.br/poder-economia/dolar-cai-028-e-bolsa-registra-alta-de-054/
-· TSM Prediction: $1,000 Invested in Taiwan Semi (TSMC) Today Will Be Worth This Much by 2030. (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/prediction-1-000-invested-taiwan-212500814.html
-· PLTR Palantir Technologies declines 7% amid broader tech selloff (PLTR:NASDAQ) (Seeking Alpha) https://seekingalpha.com/news/4654013-palantir-technologies-declines-7-amid-broader-tech-selloff
-· BTC Cantor's $112,000 Bitcoin Call Lifts Strategy Target to $208 (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/cantors-112-000-bitcoin-call-205538907.html
-· PETR4 Ibovespa sobe puxado por Petrobras e com atenção a pesquisas, mas cai 1,74% na semana (InfoMoney) https://www.infomoney.com.br/mercados/ibovespa-sobe-apos-recentes-quedas-atento-a-pesquisas-eleitorais-mas-cautela-segue/
-· KO Coca-Cola Stocks Rise 1.72% as Barclays Highlights Defensive Appeal Before Earnings (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:37a50badc094b:0-coca-cola-stocks-rise-1-72-as-barclays-highlights-defensive-appeal-before-earnings/
-· TSM Intel Stocks Fall 3.9% as TSMC's Packaging Comments Challenge Its Expansion (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:acbe19962094b:0-intel-stocks-fall-3-9-as-tsmc-s-packaging-comments-challenge-its-expansion/
-· BRENT Brent Rises Near $110 on Increasing Supply Risks (TradingView (Reuters)) https://www.tradingview.com/news/te_news:592872:0-brent-rises-near-110-on-increasing-supply-risks/
-· BAC AML Penalty Could Be A Game Changer For Bank of America Stock (BAC) (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/aml-penalty-could-game-changer-201453006.html
-· TSLA US appeals court blocks class actions over Tesla's self-driving claims (Reuters) https://www.reuters.com/business/media-telecom/us-appeals-court-blocks-class-actions-over-teslas-self-driving-claims-2026-10-16/
-· JPM JPMorgan Chase: The Place To Be When Storm Clouds Gather (NYSE:JPM) (Seeking Alpha) https://seekingalpha.com/article/4954899-jpmorgan-chase-place-to-be-when-storm-clouds-gather
-· USDBRL Dólar cai a R$ 5,07 com sinais de fluxo, mas sobe 1,77% na semana (UOL Economia) https://economia.uol.com.br/noticias/estadao-conteudo/2026/10/16/dolar-cai-a-r-507-com-sinais-de-fluxo-mas-sobe-177-na-semana.htm
-· USDBRL Dólar ronda estabilidade com após pesquisa indicar empate técnico entre Flávio e Lula (InfoMoney) https://www.infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-16102026/
-· MU Micron, SK Hynix Have an AI Boom Problem — China Could Make It Worse (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:3d3d1f934094b:0-micron-sk-hynix-have-an-ai-boom-problem-china-could-make-it-worse/
-· NVDA Intel and AMD Drop 3% as Rotation Out of AI Chip Stocks Continues; NVIDIA Holds Steady (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/intel-amd-drop-3-rotation-145402890.html
-· TSM TSMC’s ‘Leave No Food On The Table’ Pledge Signals More AI Chip Investment, Morningstar Says (TradingView (Reuters)) https://fr.tradingview.com/news/stocktwits:f2a81056c094b:0-tsmc-s-leave-no-food-on-the-table-pledge-signals-more-ai-chip-investment-morningstar-says/
-· INTC Jim Cramer Says Starbucks Can Rise On Its Own, Apple’s Audience Is Worth Paying For, And Intel Investors Need Patience (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:24a984646094b:0-jim-cramer-says-starbucks-can-rise-on-its-own-apple-s-audience-is-worth-paying-for-and-intel-investors-need-patience/
-· PETR4 Ibovespa sobe com Petrobras, mas perde 1,74% na semana com cautela eleitoral (Exame) https://exame.com/invest/mercados/ibovespa-sobe-com-petrobras-mas-perde-174-na-semana-com-cautela-eleitoral/
-· VALE3 Vale trocar um Tesouro IPCA+ por uma debênture da Sabesp? Títulos isentos passam a pagar mais que os públicos, mostra BTG (Seu Dinheiro) https://www.seudinheiro.com/2026/renda-fixa/vale-trocar-um-tesouro-ipca-por-uma-debenture-da-sabesp-titulos-isentos-mlim/
-· PLTR Palantir Stocks Fall 6.6% Although Mizuho Raises Target to $245 (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:f604ddfa1094b:0-palantir-stocks-fall-6-6-although-mizuho-raises-target-to-245/
-· USDBRL Ibovespa volta a subir, após três quedas, mas semana termina no negativo; Dólar cai (InfoMoney) https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-16102026/
-· USDBRL Dólar recua com possível fluxo ao país; na semana moeda avança 1,7% com Lula competitivo (Valor Economico) https://valor.globo.com/financas/noticia/2026/10/16/dolar-recua-com-possivel-fluxo-ao-pais-na-semana-moeda-avanca-17percent-com-lula-competitivo.ghtml
-· PETR4 Ibovespa ganha fôlego com Petrobras (PETR4) e interrompe ciclo de perdas; dólar cai (Money Times) https://www.moneytimes.com.br/ibovespa-16-10-26-lils/
-· MU Prediction: Micron Could Turn $10,000 Into a Fortune by 2030 (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/prediction-micron-could-turn-10-200500593.html
-· NVDA Dan Ives Says 'Buy the Dip' in Nvidia Stock After Brutal Sell-Off (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:344f1a007094b:0-dan-ives-says-buy-the-dip-in-nvidia-stock-after-brutal-sell-off/
-· BRENT Brent oil touches $110 as Iran escalates Hormuz attacks, Ukraine vows to hit Russian refineries (CNBC) https://www.cnbc.com/2026/10/16/oil-price-today-iran-strait-hormuz-ukraine-russia.html
-· USDBRL Dólar fecha semana em leve queda, cotado a R$ 5,07; Bolsa sobe (UOL Economia) https://economia.uol.com.br/cotacoes/noticias/redacao/2026/10/16/fechamento-dolar-bolsa-hoje-16-de-outubro-de-2026.ghtm
-· USDBRL Dólar à vista fecha em baixa de 0,30%, a R$5,0730 na venda Por Reuters (Investing.com) https://br.investing.com/news/forex-news/dolar-a-vista-fecha-em-baixa-de-030-a-r50730-na-venda-2094275
-· USDBRL Dólar interrompe sequência de ganhos e cai a R$ 5,07 com cautela eleitoral; moeda tem valorização de 1,7% na semana (Money Times) https://www.moneytimes.com.br/dolar-16-10-26-lils/
-· BRENT Brent Oil Taps $110 for First Time Since May as Risks Swirl (Bloomberg) https://www.bloomberg.com/news/articles/2026-10-16/oil-tops-110-for-first-time-since-may-as-supply-risk-grows
-· TSLA Tesla Stocks Rise Although Roadster Reveal Leaves Pricing and Volume Unset (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:55cfac489094b:0-tesla-stocks-rise-although-roadster-reveal-leaves-pricing-and-volume-unset/
-· GOOGL Evercore raises Alphabet estimates on potential TPU hardware sales (TradingView (Reuters)) https://www.tradingview.com/news/seekingalpha:554b9cca8094b:0-evercore-raises-alphabet-estimates-on-potential-tpu-hardware-sales/
-· GOOGL Alphabet Stocks Fall Although AI-Chip Forecast Signals a Bigger Cloud Business (Yahoo Finance) https://finance.yahoo.com/technology/articles/alphabet-stocks-fall-although-ai-171338942.html
-· GOOGL Jack Henry to integrate with Google Cloud Universal Ledger By Investing.com (Investing.com) https://ng.investing.com/news/stock-market-news/jack-henry-to-integrate-with-google-cloud-universal-ledger-93CH-2740927
-· ETH Ethereum Price Prediction: Rally Poised to Resume as ETH Finds Strong Floor at $2.4K (Yahoo Finance) https://ca.finance.yahoo.com/news/ethereum-price-prediction-rally-poised-140337594.html
-· LITE Earnings Preview: What to Expect From Lumentum’s Report (Yahoo Finance) https://news.google.com/rss/articles/CBMipwFBVV95cUxOY1gxenNVSDJKMEpnbm5LVWhpOXM3ODBWQ3FXcTdwdC1KR0dSSm91MjAwYmFQQjREVXN2Q05sMXNLTWJ1VUpVMGNqb3BfUDAtUzEyZkJCbTRmbURKbUVhNW5yN1o2SHBJMkxsNDhVUV9oR1BJUG9vRU9ZdUFrMy10RVVYMHVFWGhiV25DaEpERGRscUlyRFFMVV81Q0tFTFJFMS1KZVhPMA?oc=5
-· JPM JPMorgan Chase: Leverage A Concern To Future Earnings (Downgrade To Hold) (NYSE:JPM) (Seeking Alpha) https://seekingalpha.com/article/4954874-jpmorgan-chase-leverage-a-concern-to-future-earnings-downgrade-to-hold
-· NVDA Jensen Huang's Nvidia Lost $200 Billion in Value After OpenAI's Revenue Run Rate Came Up $18 Billion Below Expectations. Is This AI-Jitters Sell-Off… (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/jensen-huangs-nvidia-lost-200-185100224.html
-· NVDA Nvidia (NVDA): Can Paid Software Make Its Earnings Less Dependent on Hardware Sales? (Yahoo Finance) https://finance.yahoo.com/technology/articles/nvidia-nvda-paid-software-earnings-182924722.html
-· MELI34 De cliente a investidor: como ter Mercado Livre (MELI34) na carteira pela B3? (Suno Noticias) https://www.suno.com.br/noticias/meli34-como-investir-mercado-livre-b3-mt/amp/
-· JPM Is Rare Earnings Miss Altering The Investment Case For JPMorgan Chase (JPM)? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/rare-earnings-miss-altering-investment-161912213.html
-· TSLA Tesla Roadster probably won't drive an earnings beat, but the big reveal did achieve 2 things (Yahoo Finance) https://finance.yahoo.com/markets/stocks/article/tesla-roadster-probably-wont-drive-an-earnings-beat-but-the-big-reveal-did-achieve-2-things-130628792.html
-· AVGO Broadcom Falls 4% as CEO Hock Tan’s Capital Warning Hangs Over AI Chips; Marvell Drops 4% (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/broadcom-falls-4-ceo-hock-180208266.html
-· PLTR Palantir's record breakout unravels as software stocks shed $260 billion (Yahoo Finance) https://finance.yahoo.com/markets/article/palantirs-record-breakout-unravels-as-software-stocks-shed-260-billion-174307974.html
-· MU Micron Stocks Fall 3.5% Although Bullish Memory Commentary Meets a Cash Test (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:8f319f89c094b:0-micron-stocks-fall-3-5-although-bullish-memory-commentary-meets-a-cash-test/
-· AMZN Amazon Is 11% Below Its High Heading Into Earnings on Oct. 29. Here's the 1 Number That Will Decide What Happens Next. (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/amazon-11-below-high-heading-173000077.html
-· ITUB4 As preferenciais do Itaú na Eneva (Brazil Journal) https://braziljournal.com/as-preferenciais-do-itau-na-eneva
-· TSM TSMC Stocks Fall Although $670 Target Raises the Advanced-Chip Stakes (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:533ff331f094b:0-tsmc-stocks-fall-although-670-target-raises-the-advanced-chip-stakes/
-· TSLA Elon Musk unveils Tesla’s ‘flying’ car (South China Morning Post) https://www.scmp.com/news/world/united-states-canada/article/3371209/elon-musk-unveils-teslas-flying-car
-· BBDC4 Por que este banco pode chegar a R$ 105, segundo Bradesco BBI (Money Times) https://www.moneytimes.com.br/por-que-este-banco-pode-chegar-a-r-105-segundo-bradesco-bbi/
-· GOOGL Alphabet Stocks Fall Although AI-Chip Forecast Signals a Bigger Cloud Business (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:14775eeac094b:0-alphabet-stocks-fall-although-ai-chip-forecast-signals-a-bigger-cloud-business/
-· GOOGL Apple and Alphabet Are Especially Scared of a Blue Wave (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/apple-alphabet-especially-scared-blue-164527715.html
-· BAC BofA's Hartnett leaning risk-off for next month (TradingView (Reuters)) https://www.tradingview.com/news/seekingalpha:84a0f07e6094b:0-bofa-s-hartnett-leaning-risk-off-for-next-month/
-· META Ahead of Meta Platforms (META) Q3 Earnings: Get Ready With Wall Street Estimates for Key Metrics (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/ahead-meta-platforms-meta-q3-121522821.html
-· UST Here’s Why Treasury Yields Have Defied Hotter-Than-Expected Inflation (The Wall Street Journal) https://www.wsj.com/video/heres-why-treasury-yields-have-defied-hotter-than-expected-inflation/D6B3A72D-02C4-47A3-BEC9-B0B2A66AA197
-· JPM JPMorgan Chase: 3 Key Takeaways for Long-Term Investors (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/jpmorgan-chase-3-key-takeaways-165156835.html
-· GOOGL Alphabet’s Cloud Surge and AI Dominance Overshadow Capex Fears and Keep Me Buying (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/alphabet-cloud-surge-ai-dominance-164534776.html
-· (+83 manchetes; lista completa em eventos/noticias.json)
+· JPM Intel upgraded at JPM as AI workloads support earnings (INTC:NASDAQ) (Seeking Alpha) https://seekingalpha.com/news/4654160-intel-upgraded-at-jpm-as-ai-workloads-support-earnings
+· SMAL11 Chegou a hora das small caps? Veja em quais ações investir para um cenário de queda de juros (Money Times) https://www.moneytimes.com.br/small-caps-em-quais-acoes-investir-para-um-cenario-de-queda-de-juros-mlem/
+· UST Treasuries Rallied as Tech Slid, and the Crowded Bet Against Bonds Felt It (TradingView (Reuters)) https://www.tradingview.com/news/prnewswire:8651f885cc280:0-treasuries-rallied-as-tech-slid-and-the-crowded-bet-against-bonds-felt-it/
+· JPM U.S. economy is "booming," JPMorgan’s Dimon says By Investing.com (Investing.com) https://ca.investing.com/news/economy-news/us-economy-is-booming-jpmorgans-dimon-says-4887825
+· JPM Intel Shares Rise Nearly 4% Following JPMorgan Upgrade and Tesla Foundry Agreement (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/intel-shares-rise-nearly-4-104812458.html
+· BRENT Commerzbank Says Treasuries Pare Gains, US Equity Futures Higher as Brent Crude Slips (Yahoo Finance) https://finance.yahoo.com/economy/policy/articles/commerzbank-says-treasuries-pare-gains-102042026.html
+· BTC Stocks rebound into key tech earnings: Three things to know in Bitcoin this week (TradingView (Reuters)) https://www.tradingview.com/news/cointelegraph:023544b8f094b:0-stocks-rebound-into-key-tech-earnings-three-things-to-know-in-bitcoin-this-week/
+· TSLA US Equity Investors to Monitor Meta Platform, Tesla's Earnings While Watching Treasury Yields Alongside Crude Oil This Week (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/us-equity-investors-monitor-meta-101427671.html
+· JPM Exclusive | JPMorgan CEO Jamie Dimon on Inflation, AI and Bolstering America’s Supply Chains (The Wall Street Journal) https://www.wsj.com/video/series/wsj-leadership-institute-leaders/exclusive-jpmorgan-ceo-jamie-dimon-on-inflation-ai-and-bolstering-americas-supply-chains/16E0054B-0D3E-4BBD-AB94-0758395701BD?startPosition={seek_to_second_number}
+· TSLA A big 'yikes' still hangs over the AI trade as Meta and Tesla report: What to watch this week (Yahoo Finance) https://news.google.com/rss/articles/CBMi4AFBVV95cUxOWHpmR1M1ak5abS10aHNhOWZJOTJ5Y2lTNGxSZ05UVHVZRkFGS29OYkU3eUt4UTg0ZGxvSFpIOVJ6SlZpZjFlYTlDVF96WUVjYnBZS1hjUURKZEVURGtrM093bTgtb3MtcVZkMlNyTnpWV0cyMF9oM2lQTlpKbm9KY2FwT1NGUGZNZFZaNGFzaU5uV3o4blZhdWJxT1c2OWlma01KMGhnT0ExVmUzRzVHLXY1ZmJ3ckdFRDktUC1STWxmQkhtZHd2QWg1THhWTHc0aVRWd1dsYWdZN2txWGJ6aQ?oc=5
+· JPM JPMorgan Deployed $230 Billion in First Year of Security Effort (Yahoo Finance) https://news.google.com/rss/articles/CBMiogFBVV95cUxPamI1LUhFeUY1cDlqSTNWeUtZMU42ODRZSUZlZlR6bWZOQWxrUkZXdTlsNTczRFRVM1pKUlVXR0E3d0ZsM2xNTlVKY3hsT21vRk11M21WYU9DWkxNSGE2SlBOWHN5X3ROODd6RjZFUnY0eS1UVVlnZExsR29lai1NTDJTYnA1SXR6eHJTcVc4NG9uZWg1cXU0YjR3N1JBaEdjUlE?oc=5
+· USDBRL Investidores avaliam debate e pesquisas eleitorais com início da temporada de balanços; Ibovespa em dólar sobe nesta segunda-feira (19) (Money Times) https://news.google.com/rss/articles/CBMi_AFBVV95cUxNak1kbVZOZE4tU2E1SW1pMng3dUhwS0FUWV91alNrZ3BCWmtOZl9lT09qTE1TVFRkRnM1WnpTQ0Z5MDRTbFZHUlpMeHZnT1NVenQ3S0N6NmNBTk1kVmJlVGluNl8xMTNMNzRPV3g3TGZQa3RqTC0xZXZQN2lCNUtKLUJqdDdJazdZVGJjTFJJeTNrZEh4Zkl1V2JzVGtVZS1vZDdYUF91N0hSay1Nd3A0MVBKWndMSjRsTVloMDB2SC1QOXJLNllveVRRNDJ0WGk2RTFNeE5kaU1TX3Nxam9namlEZ3VnR094Wmt4V2hYM08zckF2SDFDanBiU2I?oc=5
+· BTC MARA Selling Bitcoin? Exchange Deposits Put 1,000 BTC Under Watch (Yahoo Finance) https://news.google.com/rss/articles/CBMipgFBVV95cUxNWjRPdExYWnEzQWFLbmp3RG1JYWFqT3hQaG13R25jMFlXbDlDb0pjRWVjQWJBTTJrdkw5bGdxOFRnTkNMNnV4ZzA5SWNzV2pOYjc1Nlo3NEJna1V4WXUwQVgySmpWVXpIVmJNR0Fpem9GR1ZINV9UWlc5RWtTTUEyX0RFS2FWXzNibkRvcVQwcTJsdVhtaEdIVHlQOWxZR1BSRXZLNnJR?oc=5
+· MU Micron Stock Rallies as China Memory Chip Rival Forecasts Revenue Boom (Barron's) https://news.google.com/rss/articles/CBMigwFBVV95cUxOSzgycjVEZy1udFpGVjlVc0hxamM0WWNWZWRLazhJZGxqeFo3YThfRkFYX0VDVURZUVZSbWpCMXJCTEt3OEdNcFZTb0VnaTF3RUVOR3hKanBUZzJOQVJQOHJoVldMTWo5aF9IdVdxV2JkVHB4WEF3TFB4Q2ZWanR5MFo4aw?oc=5
+· BBDC4 3T26: WEG (WEGE3), Bradesco (BBDC3), Neoenergia (NEOE3) e mais duas empresas divulgam balanços nesta semana (Money Times) https://news.google.com/rss/articles/CBMiswFBVV95cUxOa0xfUVJyMDA1SlpZMTVRT0xNM3RjbVpWdmw2VTVXSFl4YXJZdUNyQVFCaDVnUFRKb2Z2N2x3WTY0M3Z3UFBqdDFCVXNWODZ1Qjl5QnF0TlZCUHprb3RBY0NQV1BYZWV2Y1oxMWtMN3VMWDRhLWxOSVlBUEtIU0l4bk0wNV9BS2JWS3Z6RGRnS0RRRF9wMWhEb2RqbzEzNFRXYWluMDVrYWNBdXVHV2Q0eUgzSQ?oc=5
