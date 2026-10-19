@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 19/10 17h21
+NOTÍCIAS E FATOS · 19/10 18h12
 
-Pernas: noticias ok 13 novas (18 consultas; descartadas: 446 veículo fora da lista, 42 sem ativo, 2 teto) · cvm ok 1 novos de 3 (3 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 13 novas (18 consultas; descartadas: 447 veículo fora da lista, 44 sem ativo, 0 teto) · cvm ok 0 novos de 3 (3 cias casadas) · sec ok 1 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (3)
 
@@ -32,7 +32,42 @@ Fonte: CVM 16/10
 id: E03-DIRR3-28709e18-2026-10-16 · status: linha
 
 
-## NOTÍCIAS COM MATERIALIDADE (17)
+## SEC (8-K, 6-K, 10-Q, 10-K) (1)
+
+[INFO] E04 · MMM · 8-K: 7.01 Regulation FD
+SEC EDGAR · aceito 19/10 17h55 · 8-K
+Do documento:
+  – Regulation FD Disclosure   On October 19, 2026, 3M Company (“3M”) entered into an expanded strategic commercial relationship with a wholly-owned subsidiary of Amazon.com, Inc. (“Amazon”).
+  – 3M has issued a warrant (the “Warrant”) to a separate wholly-owned subsidiary of Amazon to purchase up to 3,162,015 shares (the “Warrant Shares”) of 3M common stock over a seven year period, at a purchase price per comm…
+  – Forward-looking statements speak only as of the date they are made, 3M assumes no duty to update those statements, and readers are cautioned not to place undue reliance on any of those statements.
+  – SIGNATURE   Pursuant to the requirements of the Securities Exchange Act of 1934, the Registrant has duly caused this report to be signed on its behalf by the undersigned hereunto duly authorized.
+  – 3M COMPANY   By:   /s/ Kevin H.
+  – Rhodes   Executive Vice President, Chief Legal Affairs Officer and Secretary   Dated: October 19, 2026
+Link: https://www.sec.gov/Archives/edgar/data/66740/000006674026000303/mmm-20261019.htm
+Por que importa: documento da companhia na SEC
+Ativos: MMM
+Como falar: 'a MMM protocolou 8-K na SEC (7.01 Regulation FD)'
+Fonte: SEC EDGAR 2026-10-19
+id: E04-MMM-26000303-2026-10-19 · status: linha · íntegra disponível
+
+
+## NOTÍCIAS COM MATERIALIDADE (18)
+
+[ATENÇÃO] E05 · KO · If You Invest $200 a Month in Coca-Cola (KO) Stock, Here's the Dividend Income It Could Generate Over 10 Years.
+Yahoo Finance · 19/10 17h10 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – The world's largest beverage company has raised its dividend annually for 64 consecutive years, putting it in the elite club of Dividend Kings, which have maintained that streak for at least 50 years.
+  – If you had invested $200 into Coca-Cola's stock each month for the past 10 years, your principal would have grown from $24,000 to nearly $37,800 and paid out over $3,800 in cumulative dividends.
+  – You would also have an annualized yield on cost (based on your average purchase price) of 3.5%, compared to its current forward dividend yield of 2.3%.
+  – Most investors think they missed the AI boat because they didn't buy Nvidia in 2005.
+  – But according to our analysts, we're only at the end of "Act 1"—the R&D phase.
+  – "Act 2" is the global rollout.
+Link: https://finance.yahoo.com/markets/stocks/articles/invest-200-month-coca-cola-201000007.html
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: KO
+Como falar: 'saiu no Yahoo Finance: If You Invest $200 a Month in Coca-Cola (KO) Stock, Here's the Dividend Income It Could G…; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 19/10 17h10
+id: E05-KO-c6af630f50-2026-10-19 · status: pendente
 
 [ATENÇÃO] E05 · BBAS3 · Banco do Brasil lança 'Cofrinho de Proventos' para reinvestir dividendos de forma automática, mas tem um ponto de atenção
 Seu Dinheiro · 19/10 17h02 · fonte única · licença: resumo
@@ -48,7 +83,7 @@ Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir
 Ativos: BBAS3
 Como falar: 'saiu no Seu Dinheiro: Banco do Brasil lança 'Cofrinho de Proventos' para reinvestir dividendos de forma automát…; confirmar o número no texto antes de repassar'
 Fonte: Seu Dinheiro 19/10 17h02
-id: E05-BBAS3-6d3fc09b04-2026-10-19 · status: pendente
+id: E05-BBAS3-6d3fc09b04-2026-10-19 · status: entregue
 
 [ATENÇÃO] E05 · JPM · Robot factories and hypersonic missiles: JPMorgan Chase's first $5 billion of defense investments
 CNBC · 19/10 07h00 · fonte única · licença: resumo
@@ -262,8 +297,20 @@ Fonte: Yahoo Finance 18/10 11h53
 id: E05-TSM-cead2a6c14-2026-10-18 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (129)
+## OUTRAS NOTÍCIAS (só manchete) (141)
 
+· USDBRL Dólar cai 0,49% e fecha a R$ 5,048; Ibovespa também tem queda (Poder360) https://www.poder360.com.br/poder-economia/dolar-cai-049-e-fecha-a-r-5048-ibovespa-tambem-tem-queda/
+· PETR4 Ibovespa recua com tombo de Petrobras (PETR4) e disputa eleitoral acirrada no radar; dólar cai (Money Times) https://www.moneytimes.com.br/ibovespa-19-10-26-apsa/
+· TSM TSMC: Irrational Fears Don't Make Much Sense (NYSE:TSM) (Seeking Alpha) https://seekingalpha.com/article/4955306-tsmc-irrational-fears-dont-make-much-sense
+· TESOURO Taxas do Tesouro Direto têm nova alta; prefixado volta a pagar 13% (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/tesouro-entra-na-ultima-semana-da-eleicao-com-taxas-em-queda-ipca-2050-vai-a-666/
+· GOOGL Alphabet (GOOGL) Pushes Into Carbon Removal Power Markets And Quantum AI (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/alphabet-googl-pushes-carbon-removal-201134256.html
+· USDBRL Dólar fecha em baixa com eleição no Brasil e exterior no foco (UOL Economia) https://economia.uol.com.br/noticias/reuters/2026/10/19/dolar-fecha-em-baixa-com-eleicao-no-brasil-e-exterior-no-foco.htm
+· USDBRL Dólar à vista fecha em baixa de 0,50%, aos R$5,0476 Por Reuters (Investing.com) https://br.investing.com/news/forex-news/dolar-a-vista-fecha-em-baixa-de-050-aos-r50476-2095624
+· JPM Tesla Rises on a Foundry Agreement With Intel as JPMorgan Upgrades the Stock (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/tesla-rises-foundry-agreement-intel-200747274.html
+· BTC MARA Holdings (MARA) Mined More Bitcoin, but Revenue Fell 27% (Yahoo Finance) https://uk.finance.yahoo.com/news/mara-holdings-mara-mined-more-194115972.html
+· BTC EVOLVE BITCOIN ETF (BTEUF) stock price, news, quote and history (Yahoo Finance) https://uk.finance.yahoo.com/quote/BTEUF/latest-news/
+· TSLA Dan Ives Says Meta, SpaceX and Tesla Face Big Questions This Week — His 3 'Big Focus Points' Ahead of Tech Earnings (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:20b0871cc094b:0-dan-ives-says-meta-spacex-and-tesla-face-big-questions-this-week-his-3-big-focus-points-ahead-of-tech-earnings/
+· USDBRL Dólar cai e fecha a R$ 5,04 com mercado de olho na reta final das eleições; Ibovespa recua (g1) https://news.google.com/rss/articles/CBMieEFVX3lxTFBBelFBQ1RTRnBDbUhoNWlDT3hQVGRtY0QyQ2QyY3JpSms5cEVlakhtLUxlSGFrSmJ4Mzh4cTZ5aGVSMm9HTmZyMm42WFZXQk95WlprOWk3UDFLLWRKMmJWa1N3S3VHUktZaVhGNEVfbGZ1ajk1U3ljRNIBhwFBVV95cUxNWUZOOTl4cmEtbTJzWDZWTnlianZNVzBUSDVOWUg1UTQzUHZRNkdmc2p1NnM1UjBTd21sM0tTbzhLY3JuWXFlbVF4S1Yxc0JHZFhkZWdfanNqU2h0X1pDOVJEVE5wblBrZ0N6Nm8xT043dEFCYlB3TjFDNGh1UEJhT3duMHhJdUE?oc=5
 · PETR4 Dólar fecha em queda de 0,49%, a R$ 5,048; Petrobras pesa na Bolsa (UOL Economia) https://economia.uol.com.br/cotacoes/noticias/redacao/2026/10/19/dolar-fecha-em-queda-de-049-a-r-5048-petrobras-pesa-na-bolsa.htm
 · USDBRL Dólar cai com otimismo eleitoral no Brasil, apesar da alta da moeda no exterior (ADVFN) https://br.advfn.com/jornal/2026/10/dolar-cai-com-otimismo-eleitoral-no-brasil-apesar-da-alta-da-moeda-no-exterior
 · MU Why Micron and SanDisk Stocks Are Climbing Today (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:f2fdd93fc094b:0-why-micron-and-sandisk-stocks-are-climbing-today/
@@ -312,16 +359,4 @@ id: E05-TSM-cead2a6c14-2026-10-18 · status: linha
 · NVDA Nvidia: The Real Competitive Advantage Isn't About The Chip (NASDAQ:NVDA) (Seeking Alpha) https://seekingalpha.com/article/4955243-nvidia-the-real-competitive-advantage-isnt-about-the-chip
 · INTC Why a former Intel skeptic is giving up his negative call on the stock after four years (MarketWatch) https://www.marketwatch.com/story/why-a-former-intel-skeptic-is-giving-up-his-negative-call-on-the-stock-after-four-years-47c2fab6
 · ITUB4 Compre Embraer (EMBJ3), Axia (AXIA3) e outras 15 ações para ganhar mais de 5% nesta semana, segundo Itaú BBA (Money Times) https://www.moneytimes.com.br/day-trade-itau-bba-19-10-26-apsa/
-· GOOGL Agência de Comunicação - A Cognizant e o Google Cloud ampliam sua aliança para acelerar a transformação das empresas por meio de agentes de IA (Estadao) https://bluestudio.estadao.com.br/agencia-de-comunicacao/prnewswire/a-cognizant-e-o-google-cloud-ampliam-sua-alianca-para-acelerar-a-transformacao-das-empresas-por-meio-de-agentes-de-ia/
-· GOOGL Cognizant expands Google Cloud partnership with 18,000 engineers (Investing.com) https://www.investing.com/news/company-news/cognizant-expands-google-cloud-partnership-with-18000-engineers-93CH-4958051
-· NVDA Jensen Huang Declares NVIDIA Can Win “in the Absence of Any AI Labs” (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/jensen-huang-declares-nvidia-win-161237132.html
-· NVDA What Is Nvidia (NVDA) Signaling With New AI Chip And Space Computing Deals? (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/nvidia-nvda-signaling-ai-chip-161138667.html
-· JPM Intel Stock Climbs as JPMorgan Ends Bearish Call Held Since 2022 (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/intel-stock-climbs-jpmorgan-ends-161038269.html
-· BTC Bitcoin is rejected at $83K as US bond yields reverse higher with equities (TradingView (Reuters)) https://www.tradingview.com/news/cointelegraph:44a348ee0094b:0-bitcoin-is-rejected-at-83k-as-us-bond-yields-reverse-higher-with-equities/
-· GOOGL Cognizant and Google Cloud Expand Alliance to Accelerate Agentic Enterprise Transformation (PR Newswire) https://news.google.com/rss/articles/CBMi3wFBVV95cUxQdnl5MmFfb1dhQlRmQzJRaHdvVHV0M1VLS3dJSTAwQlAzRVlWUFVxa1lubTlUWlpyaTlrYzltRVllcDhTMXpjTENuZ25TU3hqTWk1S2tRUGotb1F5bGNyLUpzY0trelFLQU5oUXJjRUdoTUNGTWVIMnMzdndxa0NrTWZiU1BTWnAxelFzbG9Uek5TLVdmRExuYzJXNkJTM3hTbEdKclJrVHAzUkExVDNjNmMwVEFUOTFjSGdOaGJvLTVWSEFyOVdwTlhGZ2N2UWJZZDhMbXVTNnBWamY1THJR?oc=5
-· GOOGL Cognizant expands Google Cloud partnership with 18,000 engineers By Investing.com (Investing.com) https://ca.investing.com/news/stock-market-news/cognizant-expands-google-cloud-partnership-with-18000-engineers-93CH-4888931
-· GOOGL Cognizant (CTSH) Expands Google Cloud Alliance To Scale Agentic AI (TradingView (Reuters)) https://www.tradingview.com/news/tradingview:d8ff580f0b12d:0-cognizant-ctsh-expands-google-cloud-alliance-to-scale-agentic-ai/
-· ITUB4 MOVI3: cada ponto de queda na Selic eleva o lucro em 15% de Movida, diz Itaú BBA (Investing.com) https://br.investing.com/news/general-news/movi3-cada-ponto-de-queda-na-selic-eleva-o-lucro-em-15-de-movida-diz-itau-bba-2095471
-· MU Micron (MU) Looks Cheap at 5 Times Forward Earnings. Can Its Profit Boom Last? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/micron-mu-looks-cheap-5-153626120.html
-· NVDA Samsung Makes Unusual Move for Nvidia Chips (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:a029699f1094b:0-samsung-makes-unusual-move-for-nvidia-chips/
-· (+69 manchetes; lista completa em eventos/noticias.json)
+· (+81 manchetes; lista completa em eventos/noticias.json)
