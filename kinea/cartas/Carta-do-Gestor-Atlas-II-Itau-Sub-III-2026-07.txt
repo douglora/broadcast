@@ -157,12 +157,10 @@ de dividendos elevados e crescimento de lucros.
 DIVIDEND YIELD E CRESCIMENTO DE LUCROS DE 
 CONSTRUTORAS DE BAIXA RENDA E UTILITIES VS. IBOV | %
 Fonte: Kinea Research
-7% 14% 7% 11% 11% 6% 7%
-6%
+7% 14% 7% 11% 11% 6% 7%6%
 20% 31% 23% 24%
 23% 17% 28%
-39% 42%
-36%
+39% 42% 36%
 IBOV CURY3-
 BR
 TEND3-
@@ -461,10 +459,7 @@ IMPACTO EM 2026
 Fonte: Ministério da Fazenda, Tesouro Nacional e Kinea
 IMPULSO FISCAL E PARAFISCAL | 
 DELTA ANUAL, EM P.P. DO PIB
-Programa Status Δ 25-26
-(R$ bi)
-Δ 25-26
-% PIB
+Programa Status Δ 25-26(R$ bi) Δ 25-26% PIB
 TOTAL 141,5 1,0%
 Isenção IRPF Início: jan/26 31,0 0,2%
 Move Brasil 1 e 2 
@@ -477,11 +472,9 @@ Crédito Imobiliário Início: out/25 22,3 0,2%
 Desenrola 2.0 + FGTS Início: maio/26 10,5 0,1%
 Reforma Casa Brasil Início: nov/25 12,9 0,1%
 Move Aplicativo Início: jul/26 7,4 0,1%
-MCMV – Faixa 3 e 4 Início: 1S26 (faixa 
-4) / 2S26 (faixa 3) 6,5 0,0%
+MCMV – Faixa 3 e 4 Início: 1S26 (faixa 4) / 2S26 (faixa 3) 6,5 0,0%
 Luz do Povo Início: jul/25 4,3 0,0%
-Move Combustível Saques: jan/26, 
-fev/26, mai/26 4,2 0,0%
+Move Combustível Saques: jan/26, fev/26, mai/26 4,2 0,0%
 Gás do Povo Início: nov/25 1,6 0,0%
 Restrições Saque 
 Aniversário Início: nov/25 -12,5 -0,1%
@@ -863,9 +856,8 @@ relacionamento@kinea.com.br.
 RESULTADO DA GESTÃO*
 Rentabilidade 
 do fundo desde 
-seu início.
-224,31%
-184,60%
+seu início. 192,79%
+131,75%
 -50%
 0%
 50%
@@ -873,14 +865,14 @@ seu início.
 150%
 200%
 250%
-jun/15 jun/16 jun/17 jun/18 jun/19 jun/20 jun/21 jun/22 jun/23 jun/24 jun/25 jun/26
-Chronos - Espelhos CDI
+dez/16 dez/17 dez/18 dez/19 dez/20 dez/21 dez/22 dez/23 dez/24 dez/25
+Atlas II - Itaú CDI
 RETORNO POR ESTRATÉGIAS
  12 MESES
 ANO 2022 2023 2024 2025 2026 jul/26 Início
-FUNDO 13,67% 12,40% 9,80% 14,58% 5,87% 0,30% 224,31%
-CDI 12,37% 13,05% 10,87% 14,31% 8,14% 1,22% 184,60%
-% CDI 110,51% 95,05% 90,12% 101,87% 72,09% 24,87% 121,51%
+FUNDO 15,48% 13,23% 10,34% 15,80% 5,10% -0,15% 192,79%
+CDI 12,37% 13,05% 10,87% 14,31% 8,14% 1,22% 131,75%
+% CDI 125,11% 101,40% 95,12% 110,39% 62,64% --- 146,33%
 HISTÓRICO DE RENTABILIDADE*
 K I N E A . C O M . B R
 INÍCIO DO FUNDO PL ATUAL PL MÉDIO (12 MESES): TAXA DE ADM¹ TAXA DE PERF.²
@@ -888,23 +880,25 @@ PÚBLICO ALVO OBJETIVO COTA RESGATE PAGAMENTO RESGATE TAXA DE SAÍDA
 Não possui
 APLICAÇÃO INICIAL
 Sujeito às regras do distribuidor.
-112
+94
 22
 MESES POSITIVOS:              
-MESES NEGATIVOS:   08/Jun/2015 R$ 1.544.241 1,5% a.a. 20% do que exceder 100% 
-do CDI
+MESES NEGATIVOS:   29/Dez/2016 R$ 313.158.467 2,0% a.a. 20% do que exceder 100% do CDI
 Público em geral Superar o CDI com vol. de 
-3% a 5% a.a..
-D+5 dias úteis da solicitação D+1 dia útil da conversão de 
+5% a 7% a.a..
+D+10 dias úteis da 
+solicitação
+D+1 dia útil da conversão de 
 cotas
-R$ 1.607.704
+R$ 308.988.319
 1. Trata-se da taxa de administração considerando as taxas dos fundos da estrutura.
 2. Trata-se da taxa de performance considerando todos os fundos da estrutura.
-* As informações AQUI dispostas, incluindo rentabilidade, data de início, etc, dizem respeito ao fundo SUBCLASSE II DO KINEA CHRONOS FUNDO DE 
-INVESTIMENTO FINANCEIRO MULTIMERCADO RESP LIMITADA CNPJ: 21.624.757/0001 -26 Cód. Subclasse: ZCEBZ1744744534, que NÃO está dispon ível ao 
+* As informações AQUI dispostas, incluindo rentabilidade, data de início, etc, dizem respeito ao fundo SUBCLASSE III DO KINEA ATLAS II FUNDO DE 
+INVESTIMENTO FINANCEIRO MULTIMERCADO RESP LIMITADA CNPJ: 29.762.315/0001 -58 Cód. Subclasse: LRTPA1746555728, que NÃO está dispon ível ao 
 cliente final. Para consultar as informações referente ao seu fundo, acesse o site do distribuidor.
-Chronos - Espelhos (Sub II)
+** O fundo Kinea Atlas foi cindido em Kinea Atlas e Kinea Atlas II no dia 09/04/2018.
+Atlas II - Itaú (Sub III)
 Julho 2026
-21.624.757/0001-26CNPJ:
-Cód. Subclasse: ZCEBZ1744744534
+29.762.315/0001-58CNPJ:
+Cód. Subclasse: LRTPA1746555728
 MULTIMERCADO

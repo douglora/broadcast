@@ -1,10 +1,36 @@
 {
- "gerado_em": "2026-10-12T21:48:21Z",
+ "gerado_em": "2026-10-19T19:22:56Z",
  "canal": "https://www.youtube.com/@KineaInvestimentos",
  "listagem": "yt-dlp",
  "fora_do_tema": 0,
  "fonte": "YouTube (legenda publicada pelo proprio YouTube; a automatica e transcricao de maquina e pode errar nome proprio)",
  "videos": [
+  {
+   "id": "1d1-ccTJ4dw",
+   "titulo": "Ajuste fiscal: o desafio dos gastos | Resumo Kinea Insights",
+   "aba": "videos",
+   "url": "https://www.youtube.com/watch?v=1d1-ccTJ4dw",
+   "data": "2026-10-17",
+   "descricao": "Ajuste fiscal: o que precisa mudar nas contas públicas brasileiras? Analisamos os obstáculos para reduzir desequilíbrios e estabilizar a dívida. Nesta Pílula Kinea Insights, apresentamos os principais pontos do estudo “As dificuldades práticas de um ajuste fiscal ambicioso” e explicamos por que o próximo governo terá de enfrentar escolhas difíceis para construir uma trajetória fiscal sustentável. Percorremos o histórico dos ajustes brasileiros, das tentativas durante a hiperinflação ao Plano Real e aos superávits primários mantidos nos anos seguintes, para entender o que funcionou e por que os resultados mudaram. Também discutimos o teto de gastos, a redução das despesas discricionárias e os limites de repetir esse caminho sem mudanças nos gastos obrigatórios. Apresentamos cenários que consideram um superávit primário de pelo menos 2% do PIB e sua relação com a estabilização da dívida pública e condições para juros mais baixos. A analogia com a Bela Adormecida ajuda a organizar essa discussão sobre os desafios práticos de uma proposta fiscal mais sustentável. \n\nAssista ao vídeo Kinea Insights - As dificuldades práticas de um ajuste fiscal ambicioso | A Bela Adormecida: https://youtu.be/4MsKbD06rtY\n\nPara ler este conteúdo, acesse o blog da Kinea em: https://www.kinea.com.br/blog/kinea-insights-a-bela-adormecida/\n\nAcesse a comunidade da Kinea no Whatsapp e fique por dentro de tudo: https://kinea.me/3KrOUkb  \n\nCadastre-se em nossa newsletter e receba as informações da Kinea em primeira mão: https://www.kinea.com.br/newsletter/\n\nAcesse as redes da Kinea e fique por dentro das novidades, clicando aqui: https://linktr.ee/kineainvestimentos\n\nMais informações sobre os fundos Kinea em: https://www.kinea.com.br/",
+   "coleta": 2,
+   "duracao_min": null,
+   "capitulos": [],
+   "ao_vivo": false,
+   "erro": "painel: painel: get_transcript HTTP 400, 0 trechos | yt-dlp: nenhuma legenda listada | audio: padrao: DownloadError: ERROR: [youtube] 1d1-ccTJ4dw: Faça login para confirmar que você não é um bot"
+  },
+  {
+   "id": "4MsKbD06rtY",
+   "titulo": "As dificuldades práticas de um ajuste fiscal ambicioso | Kinea Insights - A Bela Adormecida",
+   "aba": "videos",
+   "url": "https://www.youtube.com/watch?v=4MsKbD06rtY",
+   "data": "2026-10-13",
+   "descricao": "Neste episódio do Kinea Insights, analisamos os principais desafios e as dificuldades práticas de implementar um ajuste fiscal ambicioso no Brasil. Entenda como o equilíbrio das contas públicas, os gastos governamentais e as decisões de política fiscal impactam diretamente o cenário macroeconômico, a inflação, a taxa de juros (Selic) e as perspectivas para os seus investimentos e o mercado financeiro.\n\nPor Ruy Alves, Sócio e Gestor de Investimentos, André Diniz, Economista Chefe e Daniela Lima, Economista Chefe Brasil.\n\nPara ler este conteúdo, acesse o blog da kinea em: https://www.kinea.com.br/blog/kinea-insights-a-bela-adormecida/\n\n0:00 - Introdução e contexto macroeconômico\n02:15 - O cenário atual das contas públicas no Brasil\n06:40 - O que seria um ajuste fiscal ambicioso?\n12:10 - Principais entraves e dificuldades práticas\n18:30 - Impactos na inflação e na taxa Selic\n23:50 - Perspectivas para o mercado financeiro e investimentos\n28:15 - Conclusão e considerações finais\n\nAcesse a comunidade da Kinea no Whatsapp e fique por dentro de tudo: https://kinea.me/3KrOUkb  \n\nCadastre-se em nossa newsletter e receba as informações da Kinea em primeira mão: https://www.kinea.com.br/newsletter/\n\nAcesse as redes da Kinea e fique por dentro das novidades, clicando aqui: https://linktr.ee/kineainvestimentos\n\nMais informações sobre os fundos Kinea em: https://www.kinea.com.br/",
+   "coleta": 2,
+   "duracao_min": null,
+   "capitulos": [],
+   "ao_vivo": false,
+   "erro": "painel: painel: get_transcript HTTP 400, 0 trechos | yt-dlp: nenhuma legenda listada | audio: padrao: DownloadError: ERROR: [youtube] 4MsKbD06rtY: Faça login para confirmar que você não é um bot"
+  },
   {
    "id": "9lasMCOB6Ic",
    "titulo": "Como a Governabilidade Destrava o Mercado | Corte da Live Economia e Mercados - Ref. Set/26",
@@ -17,16 +43,6 @@
    "capitulos": [],
    "ao_vivo": false,
    "erro": "painel: painel: get_transcript HTTP 400, 0 trechos | yt-dlp: nenhuma legenda listada | audio: padrao: DownloadError: ERROR: [youtube] 9lasMCOB6Ic: Faça login para confirmar que você não é um bot"
-  },
-  {
-   "id": "2Hkb9GcGwV8",
-   "titulo": "Eleição brasileira, um novo Fed e os riscos de I.A. | Live Economia e Mercados ref. Setembro/26",
-   "aba": "streams",
-   "url": "https://www.youtube.com/watch?v=2Hkb9GcGwV8",
-   "data": "2026-10-06",
-   "descricao": "Receba a apresentação utilizada na live: https://www.kinea.com.br/livemensal/\n\n00:00 - Início\n03:30 - Introdução e Visão Geral do Mês\n07:00 - Macro Global: Juros nos EUA, Fed e Treasuries\n13:44 - Cenário na Europa e Risco Fiscal da França\n19:18 - Commodities: Petróleo, Estreito de Ormuz e Diesel Russo\n23:58 - Agrícolas e Clima: Efeitos do El Niño e Grãos\n26:13 - Eleições no Brasil: Análise do 1º Turno e Congresso\n28:25 - Perspectivas para o 2º Turno e Governabilidade\n33:17 - Ativos Brasileiros: Curva de Juros e Câmbio (Real)\n39:00 - Bolsas Globais, Big Techs e Inteligência Artificial\n46:43 - O Impacto dos Assistentes Pessoais de IA\n51:04 - Bolsa Brasil: NTN-B, Ações e Setores\n54:20 - Posicionamento dos Fundos e Estratégias da Kinea\n58:10 - Perguntas e Respostas: Cenário Econômico, Inflação e Varejo\n01:04:18 - Encerramento\n\nAcesse a comunidade da Kinea no Whatsapp e fique por dentro de todos os conteúdos da Kinea: https://kinea.me/3KrOUkb\n\nMais informações sobre os fundos Kinea em: https://www.kinea.com.br/\n\nSiga a Kinea no Linkedin: https://www.linkedin.com/company/kinea-investimentos/\n\nCadastre-se em nossa newsletter e receba as informações da Kinea em primeira mão: https://www.kinea.com.br/newsletter/\n\nMais informações sobre os fundos multimercados Kinea em:\nKinea Atlas (II): https://www.kinea.com.br/fundos/fundo-multimercado-atlas-ii/\nKinea Chronos: https://www.kinea.com.br/fundos/fundo-multimercado-chronos/\nKinea Apolo: https://www.kinea.com.br/fundos/fundo-multimercado-apolo/\nKinea Prev XTR: https://www.kinea.com.br/fundos/prev-xtr/\nKinea Prev MM: https://www.kinea.com.br/fundos/prev/\nKinea Prev Apolo: https://www.kinea.com.br/fundos/kinea-prev-apolo-itau/\n\nFale com a equipe Kinea para tirar dúvidas e saber mais sobre oportunidades de investimento:\nhttps://www.kinea.com.br/fale-conosco/\nrelacionamento@kinea.com.br",
-   "coleta": 2,
-   "erro": "painel: painel: get_transcript HTTP 400, 0 trechos | yt-dlp: android_vr: legenda listada mas nao entregue (o YouTube pede PO token) | audio: padrao: DownloadError: ERROR: [youtube] 2Hkb9GcGwV8: Faça login para confirmar que você não é um bot"
   },
   {
    "id": "j-XlSMoLhQ8",
@@ -66,6 +82,16 @@
    "capitulos": [],
    "ao_vivo": false,
    "erro": "painel: painel: get_transcript HTTP 400, 0 trechos | yt-dlp: nenhuma legenda listada | audio: padrao: DownloadError: ERROR: [youtube] 01R-xcr5OOA: Faça login para confirmar que você não é um bot"
+  },
+  {
+   "id": "2Hkb9GcGwV8",
+   "titulo": "Eleição brasileira, um novo Fed e os riscos de I.A. | Live Economia e Mercados ref. Setembro/26",
+   "aba": "streams",
+   "url": "https://www.youtube.com/watch?v=2Hkb9GcGwV8",
+   "data": null,
+   "descricao": "",
+   "coleta": 2,
+   "erro": "painel: painel: get_transcript HTTP 400, 0 trechos | yt-dlp: android_vr: legenda listada mas nao entregue (o YouTube pede PO token) | audio: padrao: DownloadError: ERROR: [youtube] 2Hkb9GcGwV8: Faça login para confirmar que você não é um bot"
   },
   {
    "id": "zYBbPDmHp70",
@@ -174,16 +200,6 @@
    "erro": "nao tentado nesta rodada: o YouTube recusou os anteriores"
   },
   {
-   "id": "zMxIb6ODMWI",
-   "titulo": "Dívida Pública: O Desafio do Próximo Presidente no Brasil | Kinea Expresso #05",
-   "aba": "videos",
-   "url": "https://www.youtube.com/watch?v=zMxIb6ODMWI",
-   "data": null,
-   "descricao": "",
-   "coleta": 2,
-   "erro": "painel: painel: get_transcript HTTP 400, 0 trechos | yt-dlp: android_vr: legenda listada mas nao entregue (o YouTube pede PO token) | audio: padrao: DownloadError: ERROR: [youtube] zMxIb6ODMWI: Faça login para confirmar que você não é um bot"
-  },
-  {
    "id": "VhHDQtDG2S0",
    "titulo": "Guerra EUA e Irã: qual o verdadeiro impacto? | Live Economia e Mercados ref. Fevereiro/2026",
    "aba": "streams",
@@ -221,14 +237,6 @@
    "aba": "streams",
    "coleta": 2,
    "url": "https://www.youtube.com/watch?v=40E8hwSkztw",
-   "erro": "nao tentado nesta rodada: o YouTube recusou os anteriores"
-  },
-  {
-   "id": "_t09ws4qcZw",
-   "titulo": "A Odisseia | Live Economia e Mercados ref. Setembro/2025",
-   "aba": "streams",
-   "coleta": 2,
-   "url": "https://www.youtube.com/watch?v=_t09ws4qcZw",
    "erro": "nao tentado nesta rodada: o YouTube recusou os anteriores"
   },
   {
@@ -347,6 +355,6 @@
   }
  ],
  "log": [
-  "parei em wAhbls4vkoo: 6 videos seguidos sem legenda por erro do YouTube"
+  "parei em 2kiNjyZxmq0: 6 videos seguidos sem legenda por erro do YouTube"
  ]
 }

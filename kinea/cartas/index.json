@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-10-12T21:47:22Z",
+ "gerado_em": "2026-10-19T19:21:31Z",
  "fonte": "https://www.kinea.com.br (PDF da Carta do Gestor, texto extraido com pypdf)",
  "desde": "2025-07",
  "cartas": [
@@ -199,23 +199,81 @@
    "baixado_em": "2026-09-24T00:13:05Z"
   },
   {
-   "arquivo": "kinea/cartas/Carta-do-Gestor-Chronos-Alocadores-Sub-II-2026-07.txt",
-   "url": "https://www.kinea.com.br/wp-content/uploads/2026/08/Carta-do-Gestor-Chronos-Alocadores-Sub-II-2026-07.pdf",
-   "fundo": "Chronos Alocadores Sub II",
+   "arquivo": "kinea/cartas/Carta-do-Gestor-Sigma-2026-07.txt",
+   "url": "https://www.kinea.com.br/wp-content/uploads/2026/08/Carta-do-Gestor-Sigma-2026-07.pdf",
+   "fundo": "Sigma",
    "familia": "multimercado",
    "mes_ref": "2026-07",
    "paginas": 19,
-   "chars": 34422,
-   "sha1_texto": "e88e094c56e1e825",
+   "chars": 34217,
+   "sha1_texto": "b97df5e5f15a62eb",
    "titulo": "[p. 1] D R .  S T R A N G E L O V E",
-   "descoberta": "wp-json",
-   "baixado_em": "2026-09-24T00:14:07Z",
+   "descoberta": "padrao",
+   "baixado_em": "2026-10-19T19:21:19Z"
+  },
+  {
+   "arquivo": "kinea/cartas/Carta-do-Gestor-Prev-Sigma-2026-07.txt",
+   "url": "https://www.kinea.com.br/wp-content/uploads/2026/08/Carta-do-Gestor-Prev-Sigma-2026-07.pdf",
+   "fundo": "Prev Sigma",
+   "familia": "multimercado",
+   "mes_ref": "2026-07",
+   "paginas": 19,
+   "chars": 34289,
+   "sha1_texto": "c77d442a7ea0af08",
+   "titulo": "[p. 1] D R .  S T R A N G E L O V E",
+   "descoberta": "padrao",
+   "baixado_em": "2026-10-19T19:21:22Z",
    "imagens": [
     {
      "pagina": 6,
-     "arquivo": "kinea/imagens/cartas/Carta-do-Gestor-Chronos-Alocadores-Sub-II-2026-07-p06.jpg"
+     "arquivo": "kinea/imagens/cartas/Carta-do-Gestor-Prev-Sigma-2026-07-p06.jpg"
     }
    ]
+  },
+  {
+   "arquivo": "kinea/cartas/Carta-do-Gestor-Prev-Acoes-2026-07.txt",
+   "url": "https://www.kinea.com.br/wp-content/uploads/2026/08/Carta-do-Gestor-Prev-Acoes-2026-07.pdf",
+   "fundo": "Prev Acoes",
+   "familia": "acoes",
+   "mes_ref": "2026-07",
+   "paginas": 2,
+   "chars": 11462,
+   "sha1_texto": "5aa7d692850db9e3",
+   "titulo": "[p. 1] Fundo de ações long",
+   "descoberta": "padrao",
+   "baixado_em": "2026-10-19T19:21:25Z",
+   "imagens": [
+    {
+     "pagina": 2,
+     "arquivo": "kinea/imagens/cartas/Carta-do-Gestor-Prev-Acoes-2026-07-p02.jpg"
+    }
+   ]
+  },
+  {
+   "arquivo": "kinea/cartas/Carta-do-Gestor-Atlas-II-Itau-Sub-III-2026-07.txt",
+   "url": "https://www.kinea.com.br/wp-content/uploads/2026/08/Carta-do-Gestor-Atlas-II-Itau-Sub-III-2026-07.pdf",
+   "fundo": "Atlas II Itau Sub III",
+   "familia": "multimercado",
+   "mes_ref": "2026-07",
+   "paginas": 19,
+   "chars": 34490,
+   "sha1_texto": "cb608f3658fd5634",
+   "titulo": "[p. 1] D R .  S T R A N G E L O V E",
+   "descoberta": "padrao",
+   "baixado_em": "2026-10-19T19:21:28Z"
+  },
+  {
+   "arquivo": "kinea/cartas/Carta-do-Gestor-Apolo-Itau-Sub-II-2026-07.txt",
+   "url": "https://www.kinea.com.br/wp-content/uploads/2026/08/Carta-do-Gestor-Apolo-Itau-Sub-II-2026-07.pdf",
+   "fundo": "Apolo Itau Sub II",
+   "familia": "multimercado",
+   "mes_ref": "2026-07",
+   "paginas": 19,
+   "chars": 35600,
+   "sha1_texto": "63f26592d1ff00fc",
+   "titulo": "[p. 1] D R .  S T R A N G E L O V E",
+   "descoberta": "padrao",
+   "baixado_em": "2026-10-19T19:21:31Z"
   },
   {
    "arquivo": "kinea/cartas/Carta-do-Gestor-Sigma-2026-06.txt",
@@ -679,7 +737,7 @@
  "metodos": {
   "wp-json": 899,
   "categoria": 0,
-  "padrao": 54,
+  "padrao": 63,
   "informadas": 0
  },
  "log": []
