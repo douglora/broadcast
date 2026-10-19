@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 19/10 16h11
+NOTÍCIAS E FATOS · 19/10 16h22
 
-Pernas: noticias ok 12 novas (18 consultas; descartadas: 444 veículo fora da lista, 45 sem ativo, 0 teto) · cvm ok 0 novos de 2 (2 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 6 novas (18 consultas; descartadas: 447 veículo fora da lista, 42 sem ativo, 0 teto) · cvm ok 0 novos de 2 (2 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (2)
 
@@ -39,7 +39,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: JPM
 Como falar: 'saiu no CNBC: Robot factories and hypersonic missiles: JPMorgan Chase's first $5 billion of defense inv…; confirmar o número no texto antes de repassar'
 Fonte: CNBC 19/10 07h00
-id: E05-JPM-60fd019b62-2026-10-19 · status: expirado
+id: E05-JPM-60fd019b62-2026-10-19 · status: entregue
 
 [ATENÇÃO] E05 · GOOGL · KeyBanc lowers Alphabet stock price target on cloud, search outlook
 Investing.com · 19/10 10h33 · fonte única · licença: manchete
@@ -237,8 +237,14 @@ Fonte: Yahoo Finance 18/10 11h53
 id: E05-TSM-cead2a6c14-2026-10-18 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (111)
+## OUTRAS NOTÍCIAS (só manchete) (117)
 
+· VALE3 Vale Base Metals avança em virada operacional e acelera expansão em cobre (InfoMoney) https://www.infomoney.com.br/mercados/vale-base-metals-avanca-em-virada-operacional-e-acelera-expansao-em-cobre/amp/
+· PLTR Palantir stock flashes a rare technical pattern that points to more upside (TradingView (Reuters)) https://www.tradingview.com/news/invezz:59fc0387e094b:0-palantir-stock-flashes-a-rare-technical-pattern-that-points-to-more-upside/
+· CVX Earnings Estimates Moving Higher for Chevron (CVX): Time to Buy? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/earnings-estimates-moving-higher-chevron-152002318.html
+· MRVL Marvell Technology (MRVL) Stock Sees Fair Value Lift After Analysts Back AI Growth (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/marvell-technology-mrvl-stock-sees-151045002.html
+· GOOGL Alphabet Stock Rises: What's Going On? (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:82330c6eb094b:0
+· CVX Chevron Stock Price Targets Are Up and Put Credit Spreads Are Attractive to Value Players (Yahoo Finance) https://finance.yahoo.com/markets/options/articles/chevron-stock-price-targets-put-130002552.html
 · AMZN Amazon: Big Morgan Stanley Upgrade, Primed Into Earnings (NASDAQ:AMZN) (Seeking Alpha) https://seekingalpha.com/article/4955277-amazon-big-morgan-stanley-upgrade-primed-into-earnings
 · USDBRL Ouro cai com pressão dos Treasuries e alta do dólar global (Money Times) https://www.moneytimes.com.br/ouro-19-10-26-lils/
 · AVGO Broadcom (AVGO) Sees AI Chip Sales Up 236%, but Who Is Paying? (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/broadcom-avgo-sees-ai-chip-182852846.html
@@ -293,10 +299,4 @@ id: E05-TSM-cead2a6c14-2026-10-18 · status: linha
 · BRENT Ibovespa: incerteza eleitoral e petróleo ofuscam alta de NY e índice registra queda (InfoMoney) https://www.infomoney.com.br/mercados/ibovespa-incerteza-eleitoral-e-petroleo-ofuscam-alta-de-ny-e-indice-registra-queda/
 · MU Nvidia, Intel, Micron, Monolithic Power Are Buys Ahead of Tech Earnings. (Barron's) https://www.barrons.com/articles/nvidia-intel-micron-monolithic-power-stock-8899a1be
 · KO UBS reiterates Buy on Coca-Cola stock citing earnings visibility (Investing.com) https://www.investing.com/news/analyst-ratings/ubs-reiterates-buy-on-cocacola-stock-citing-earnings-visibility-93CH-4957955
-· KLBN4 Suzano (SUZB3) deve superar consenso no 3T26, enquanto Klabin (KLBN11) fica abaixo das projeções do Safra (Money Times) https://www.moneytimes.com.br/suzano-suzb3-deve-superar-consenso-no-3t26-enquanto-klabin-klbn11-fica-abaixo-das-projecoes-do-safra/
-· GOOGL Search Resilience and Cloud Growth Powers Alphabet’s (GOOGL) Resilience (Yahoo Finance) https://finance.yahoo.com/technology/articles/search-resilience-cloud-growth-powers-144446892.html
-· TSM Sandisk: TSMC Just Fired A $94 Billion Warning Shot (NASDAQ:SNDK) (Seeking Alpha) https://seekingalpha.com/article/4955206-sandisk-tsmc-just-fired-a-94-billion-warning-shot
-· USDBRL Euro cai em meio à turbulência na França, dólar australiano se valoriza com crescimento da China (TradingView (Reuters)) https://br.tradingview.com/news/reuters.com,2026:newsml_L6N4650YF:0/
-· ETH Ether ETFs Have Given Back 62% of This Year’s Inflows. Is Wall Street Giving Up on Ethereum? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/ether-etfs-given-back-62-143035053.html
-· JPM Intel Stock Rises After JPMorgan Upgrades Shares to Neutral (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:563f365d5094b:0-intel-stock-rises-after-jpmorgan-upgrades-shares-to-neutral/
-· (+51 manchetes; lista completa em eventos/noticias.json)
+· (+57 manchetes; lista completa em eventos/noticias.json)
