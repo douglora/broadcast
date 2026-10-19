@@ -1,8 +1,17 @@
-NOTÍCIAS E FATOS · 19/10 16h22
+NOTÍCIAS E FATOS · 19/10 17h21
 
-Pernas: noticias ok 6 novas (18 consultas; descartadas: 447 veículo fora da lista, 42 sem ativo, 0 teto) · cvm ok 0 novos de 2 (2 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 13 novas (18 consultas; descartadas: 446 veículo fora da lista, 42 sem ativo, 2 teto) · cvm ok 1 novos de 3 (3 cias casadas) · sec ok 0 novos em 3 dias
 
-## FATOS RELEVANTES E COMUNICADOS (CVM) (2)
+## FATOS RELEVANTES E COMUNICADOS (CVM) (3)
+
+[INFO] E03 · AXIA3 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
+CVM · entregue 19/10/2026 17:12 · Outros Comunicados Não Considerados Fatos Relevantes
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1578307
+Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; confirma ou nega o que circula
+Ativos: AXIA3
+Como falar: 'a Axia Energia publicou comunicado ao mercado sobre Outros Comunicados Não Considerados Fatos Relevantes'
+Fonte: CVM 19/10
+id: E03-AXIA3-1578307-2026-10-19 · status: linha
 
 [INFO] E03 · VALE3 · Comunicado ao Mercado: Vale Base Metals conclui transação para estabelecer nova  estrutura de controle do Complexo Minerário de Thompson
 CVM · entregue 2026-10-16 · Outros Comunicados Não Considerados Fatos Relevantes
@@ -23,7 +32,23 @@ Fonte: CVM 16/10
 id: E03-DIRR3-28709e18-2026-10-16 · status: linha
 
 
-## NOTÍCIAS COM MATERIALIDADE (16)
+## NOTÍCIAS COM MATERIALIDADE (17)
+
+[ATENÇÃO] E05 · BBAS3 · Banco do Brasil lança 'Cofrinho de Proventos' para reinvestir dividendos de forma automática, mas tem um ponto de atenção
+Seu Dinheiro · 19/10 17h02 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – A partir de 26 de outubro, clientes do banco estatal poderão investir automaticamente dividendos, juros sobre capital próprio (JCP) e rendimentos de fundos imobiliários (FIIs) em um cofrinho próprio para esse dinheiro.
+  – Trata-se do "Cofrinho de Proventos", uma nova funcionalidade anunciada pela instituição nesta segunda-feira (19).
+  – Segundo o Banco do Brasil, o fundo acumulou rentabilidade de 13,90% nos últimos 12 meses até setembro, ante 14,48% do CDI — o equivalente a cerca de 96% do indicador.
+  – Entre as características do produto elencadas pelo Banco do Brasil estão: - aplicação mínima de apenas R$ 0,01; - resgate com crédito no mesmo dia (D+0); - taxa global de 0,5% ao ano.
+  – Enquanto os Cofrinhos BB atingiram R$ 1 bilhão em patrimônio em fevereiro deste ano, o patrimônio do fundo superava R$ 3,6 bilhões em setembro, com 693,89 mil cotistas desde seu lançamento, em junho de 2024.
+  – Enquanto os dividendos de ações e FIIs são isentos de imposto de renda para a maior parte das pessoas físicas e os JCP têm desconto de 15% direto na fonte, o fundo BB Renda Fixa Simples Reserva tem outra regra de tribut…
+Link: https://www.seudinheiro.com/2026/renda-fixa/banco-do-brasil-lanca-cofrinho-de-proventos-para-reinvestir-dividendos-mlim/
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: BBAS3
+Como falar: 'saiu no Seu Dinheiro: Banco do Brasil lança 'Cofrinho de Proventos' para reinvestir dividendos de forma automát…; confirmar o número no texto antes de repassar'
+Fonte: Seu Dinheiro 19/10 17h02
+id: E05-BBAS3-6d3fc09b04-2026-10-19 · status: pendente
 
 [ATENÇÃO] E05 · JPM · Robot factories and hypersonic missiles: JPMorgan Chase's first $5 billion of defense investments
 CNBC · 19/10 07h00 · fonte única · licença: resumo
@@ -237,8 +262,20 @@ Fonte: Yahoo Finance 18/10 11h53
 id: E05-TSM-cead2a6c14-2026-10-18 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (117)
+## OUTRAS NOTÍCIAS (só manchete) (129)
 
+· PETR4 Dólar fecha em queda de 0,49%, a R$ 5,048; Petrobras pesa na Bolsa (UOL Economia) https://economia.uol.com.br/cotacoes/noticias/redacao/2026/10/19/dolar-fecha-em-queda-de-049-a-r-5048-petrobras-pesa-na-bolsa.htm
+· USDBRL Dólar cai com otimismo eleitoral no Brasil, apesar da alta da moeda no exterior (ADVFN) https://br.advfn.com/jornal/2026/10/dolar-cai-com-otimismo-eleitoral-no-brasil-apesar-da-alta-da-moeda-no-exterior
+· MU Why Micron and SanDisk Stocks Are Climbing Today (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:f2fdd93fc094b:0-why-micron-and-sandisk-stocks-are-climbing-today/
+· TSLA Tesla Asks Investors to Make Major Elon Musk Decision (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:056264587094b:0-tesla-asks-investors-to-make-major-elon-musk-decision/
+· BTC MARA Holdings (MARA) Mined More Bitcoin, but Revenue Fell 27% (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/mara-holdings-mara-mined-more-194115972.html
+· UST The 10-year Treasury yield is above 5%. Should savers lock in now? (Yahoo Finance) https://finance.yahoo.com/personal-finance/investing/article/the-10-year-treasury-yield-is-above-5-should-savers-lock-in-now-193110179.html
+· CVX Better Oil Stock: Chevron (CVX) vs. ExxonMobil (XOM) (Yahoo Finance) https://finance.yahoo.com/energy/articles/better-oil-stock-chevron-cvx-191500321.html
+· BTC Bitcoin Reclaims $81,000 as Ethereum, XRP, Dogecoin Gain 2% on Equity Market Rebound (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:8b63c7903094b:0-bitcoin-reclaims-81-000-as-ethereum-xrp-dogecoin-gain-2-on-equity-market-rebound/
+· JPM JPMorgan Chase & Co. (JPM) stock price, news, quote and history (Yahoo Finance) https://sg.finance.yahoo.com/quote/JPM/
+· TSM TSMC’s Profit Soars 69%, but Can its Next Chip Breakthrough Justify the Valuation? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/tsmc-profit-soars-69-next-134131519.html
+· INTC Intel’s AI Growth Is Accelerating. Can Packaging Add More Upside? (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/intel-ai-growth-accelerating-packaging-133744460.html
+· GOOGL Huntington Bancshares Incorporated (HBAN) Launches AI Small-Business OS With Google Cloud (TradingView (Reuters)) https://news.google.com/rss/articles/CBMi4wFBVV95cUxOOUNCbVQtZzZTbFVNX1ppTm1SS24xQVlmdTVabE5HdFlBdTB0LUIxVHVDY0dqV1E0OVM1U25uN1U4RnhTUGZiLVY2WUM5akV1TC1UTm1LUURsZ1lRMUlXMjlNazY5NFFYQ0pTOG8tVk1ZZ2k3R3cxU3lIYXBmanEyTDdIbnlfLXh0LUxtMmNBRFN4bmdNbDRGeGdjX3ZkQ3JkTjRwM3psTC00UTNiYjczdXhIQVMybkNqTE4tNzhBOUVscVM3WW92dW9MblVMQUZVNURxZGtGUHlKS3ZoMHJNeHZJZw?oc=5
 · VALE3 Vale Base Metals avança em virada operacional e acelera expansão em cobre (InfoMoney) https://www.infomoney.com.br/mercados/vale-base-metals-avanca-em-virada-operacional-e-acelera-expansao-em-cobre/amp/
 · PLTR Palantir stock flashes a rare technical pattern that points to more upside (TradingView (Reuters)) https://www.tradingview.com/news/invezz:59fc0387e094b:0-palantir-stock-flashes-a-rare-technical-pattern-that-points-to-more-upside/
 · CVX Earnings Estimates Moving Higher for Chevron (CVX): Time to Buy? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/earnings-estimates-moving-higher-chevron-152002318.html
@@ -287,16 +324,4 @@ id: E05-TSM-cead2a6c14-2026-10-18 · status: linha
 · ITUB4 MOVI3: cada ponto de queda na Selic eleva o lucro em 15% de Movida, diz Itaú BBA (Investing.com) https://br.investing.com/news/general-news/movi3-cada-ponto-de-queda-na-selic-eleva-o-lucro-em-15-de-movida-diz-itau-bba-2095471
 · MU Micron (MU) Looks Cheap at 5 Times Forward Earnings. Can Its Profit Boom Last? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/micron-mu-looks-cheap-5-153626120.html
 · NVDA Samsung Makes Unusual Move for Nvidia Chips (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:a029699f1094b:0-samsung-makes-unusual-move-for-nvidia-chips/
-· JPM Intel stock gets JPMorgan upgrade as AI and data center demand builds (Yahoo Finance) https://finance.yahoo.com/video/intel-stock-gets-jpmorgan-upgrade-as-ai-and-data-center-demand-builds-140905212.html
-· AMZN Amazon stock pops after Morgan Stanley details 5 catalysts, lifts price target (Yahoo Finance) https://sg.finance.yahoo.com/news/amazon-stock-pops-after-morgan-stanley-details-5-catalysts-lifts-price-target-140841569.html
-· BTC Strategy (MSTR) on verge of golden cross, just weeks after bitcoin (BTC) did the same: Crypto Daily (CoinDesk) https://www.coindesk.com/daybook-us/2026/10/19/strategy-on-verge-of-golden-cross-just-weeks-after-bitcoin-flashed-same-bullish-signal
-· NVDA Nvidia dodged the AI selloff, and Jensen Huang has a theory why (Yahoo Finance) https://au.finance.yahoo.com/news/nvidia-dodged-ai-selloff-jensen-133300474.html
-· GOOGL Keybanc maintains Overweight rating on Alphabet, $410 price target (TradingView (Reuters)) https://www.tradingview.com/news/tradingview:bd7301914ff70:0-keybanc-maintains-overweight-rating-on-alphabet-410-price-target/
-· GOOGL Xnode Launches Cortx Sentinel to Control AI Agent Actions; Xnode Cortx Now Available on AWS, Azure and Google Cloud Marketplaces (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/xnode-launches-cortx-sentinel-control-120000339.html
-· TSLA Tesla asks shareholders to re-elect Musk, Denholm and Straubel at December annual meeting (Reuters) https://www.reuters.com/legal/government/tesla-asks-shareholders-re-elect-musk-denholm-straubel-december-annual-meeting-2026-10-19/
-· DI Prêmio eleitoral derrete, IPCA aperta o Copom, e a bolsa devolve o troco (Investing.com) https://br.investing.com/analysis/premio-eleitoral-derrete-ipca-aperta-o-copom-e-a-bolsa-devolve-o-troco-200480231
-· MCHI Hang Seng consolidates bearishly at 24,107: Live levels By Investing.com (Investing.com) https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWXFpekxRTXNuWExtVWlDbmRCaTZSaFo4bDhkc2lhbEZEQ25tQW5DRDVKUG5HZXpmOXJHSGI3N3JCelJkT3RrUjZtS0g5TzJNWFhMUVNlbGxPNFNmYXo5LUFieDZUX1ZFcEFtcTVaempXUmlsN2k4SzByZ0xBZnU3akplNnVyOHVMYl9DeWpyS3oxYklhUko0bE1td3hSUXJpM283THcwemxESUh3dFdYV2Y2WHZsOVp0?oc=5
-· BRENT Ibovespa: incerteza eleitoral e petróleo ofuscam alta de NY e índice registra queda (InfoMoney) https://www.infomoney.com.br/mercados/ibovespa-incerteza-eleitoral-e-petroleo-ofuscam-alta-de-ny-e-indice-registra-queda/
-· MU Nvidia, Intel, Micron, Monolithic Power Are Buys Ahead of Tech Earnings. (Barron's) https://www.barrons.com/articles/nvidia-intel-micron-monolithic-power-stock-8899a1be
-· KO UBS reiterates Buy on Coca-Cola stock citing earnings visibility (Investing.com) https://www.investing.com/news/analyst-ratings/ubs-reiterates-buy-on-cocacola-stock-citing-earnings-visibility-93CH-4957955
-· (+57 manchetes; lista completa em eventos/noticias.json)
+· (+69 manchetes; lista completa em eventos/noticias.json)
