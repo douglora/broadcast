@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 19/10 15h21
+NOTÍCIAS E FATOS · 19/10 16h11
 
-Pernas: noticias ok 9 novas (18 consultas; descartadas: 444 veículo fora da lista, 43 sem ativo, 0 teto) · cvm ok 0 novos de 2 (2 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 12 novas (18 consultas; descartadas: 444 veículo fora da lista, 45 sem ativo, 0 teto) · cvm ok 0 novos de 2 (2 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (2)
 
@@ -39,7 +39,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: JPM
 Como falar: 'saiu no CNBC: Robot factories and hypersonic missiles: JPMorgan Chase's first $5 billion of defense inv…; confirmar o número no texto antes de repassar'
 Fonte: CNBC 19/10 07h00
-id: E05-JPM-60fd019b62-2026-10-19 · status: pendente
+id: E05-JPM-60fd019b62-2026-10-19 · status: expirado
 
 [ATENÇÃO] E05 · GOOGL · KeyBanc lowers Alphabet stock price target on cloud, search outlook
 Investing.com · 19/10 10h33 · fonte única · licença: manchete
@@ -237,8 +237,20 @@ Fonte: Yahoo Finance 18/10 11h53
 id: E05-TSM-cead2a6c14-2026-10-18 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (99)
+## OUTRAS NOTÍCIAS (só manchete) (111)
 
+· AMZN Amazon: Big Morgan Stanley Upgrade, Primed Into Earnings (NASDAQ:AMZN) (Seeking Alpha) https://seekingalpha.com/article/4955277-amazon-big-morgan-stanley-upgrade-primed-into-earnings
+· USDBRL Ouro cai com pressão dos Treasuries e alta do dólar global (Money Times) https://www.moneytimes.com.br/ouro-19-10-26-lils/
+· AVGO Broadcom (AVGO) Sees AI Chip Sales Up 236%, but Who Is Paying? (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/broadcom-avgo-sees-ai-chip-182852846.html
+· KLBN4 Klabin (KLBN11) pode decepcionar no 3T26? Safra prevê resultado 11% abaixo do esperado (Suno Noticias) https://www.suno.com.br/noticias/klabin-klbn11-previa-resultados-terceiro-trimestre-2026-mt/
+· JPM Intel stock surges on JPMorgan upgrade after 14% weekly plunge (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/intel-stock-surges-jpmorgan-upgrade-181149210.html
+· TSLA Magnificent 7 Earnings Preview: Meta & Tesla Take Center Stage This Week (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/magnificent-7-earnings-preview-meta-173500726.html
+· TSLA Tesla’s Biggest Earnings Risk May Be Its Bullish Sentiment (NASDAQ:TSLA) (Seeking Alpha) https://seekingalpha.com/article/4955256-tesla-biggest-earnings-risk-may-be-its-bullish-sentiment
+· NVDA Nvidia (NVDA) Stock Price Lags Massive Earnings Growth—A Compelling Value Opportunity (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/nvidia-nvda-stock-price-lags-173216123.html
+· MRVL Marvell Technology (MRVL) Forms Cloud Security Alliance After New CXL And Connectivity Launches (Yahoo Finance) https://finance.yahoo.com/technology/articles/marvell-technology-mrvl-forms-cloud-161339233.html
+· PLTR Why Is Palantir Technologies Stock Gaining Monday? (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:ec14720d2094b:0
+· USDBRL Dólar e Ibovespa operam em queda, com foco nas eleições presidenciais (g1) https://g1.globo.com/economia/noticia/2026/10/19/dolar-ibovespa.ghtml
+· KO All It Takes Is 472 Shares of Coca-Cola Stock to Earn $1,000 a Year in Dividends. Is It Worth It? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/takes-472-shares-coca-cola-113100679.html
 · BTC Strategy buys another $22 million of Bitcoin, increases planned share buybacks (Fortune) https://fortune.com/2026/10/19/strategy-22-million-bitcoin-planned-share-buybacks/
 · GOOGL Cognizant And Google Cloud Expand Alliance To Accelerate Agentic Enterprise Transformation (TradingView (Reuters)) https://www.tradingview.com/news/reuters.com,2026:newsml_FWN4650YZ:0-cognizant-and-google-cloud-expand-alliance-to-accelerate-agentic-enterprise-transformation/
 · JPM Intel Stock Jumps After JPMorgan Upgrade on AI Demand (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/intel-stock-jumps-jpmorgan-upgrade-170744884.html
@@ -287,16 +299,4 @@ id: E05-TSM-cead2a6c14-2026-10-18 · status: linha
 · USDBRL Euro cai em meio à turbulência na França, dólar australiano se valoriza com crescimento da China (TradingView (Reuters)) https://br.tradingview.com/news/reuters.com,2026:newsml_L6N4650YF:0/
 · ETH Ether ETFs Have Given Back 62% of This Year’s Inflows. Is Wall Street Giving Up on Ethereum? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/ether-etfs-given-back-62-143035053.html
 · JPM Intel Stock Rises After JPMorgan Upgrades Shares to Neutral (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:563f365d5094b:0-intel-stock-rises-after-jpmorgan-upgrades-shares-to-neutral/
-· GOOGL GOOGL/GOOG Shareholder Alert: Alphabet Inc. Securities (GlobeNewswire) https://www.globenewswire.com/news-release/2026/10/19/3383595/3080/en/googl-goog-shareholder-alert-alphabet-inc-securities-class-action-lawsuit-investors-should-contact-levi-korsinsky.html
-· AMZN Amazon stock pops after Morgan Stanley details 5 catalysts, lifts price target (Yahoo Finance) https://finance.yahoo.com/markets/stocks/article/amazon-stock-pops-after-morgan-stanley-details-5-catalysts-lifts-price-target-140841569.html
-· MMM All eyes on 3M earnings as transformation test looms Tuesday (Investing.com) https://www.investing.com/news/earnings/all-eyes-on-3m-earnings-as-transformation-test-looms-tuesday-93CH-4957858
-· UST Inflation is heating up; why did Treasury yields fall? (Yahoo Finance) https://news.google.com/rss/articles/CBMiiwFBVV95cUxNWjhaSzBUOElBUndRZVpJNXdhdFoyWjFhWVZxeVRXcDdyM3ktNlpJZEhkSGlER1lrbGI3R1hvUnlQUHZXNEpFcDlzbkoya2Y1NTAtS0Q0UFpPblJoZVV3WkJNZU5KQWF5YkE3TEVDUm9RdmE0bnB5REVfS1BsY2x3UEkyVGl0bjg1Y0ln?oc=5
-· INTC Intel’s AI Growth Is Accelerating. Can Packaging Add More Upside? (Yahoo Finance) https://news.google.com/rss/articles/CBMikAFBVV95cUxPQmFuMUhMSm10ZnQyejBxdHVPTUhWUkZnRDl2bEhOc21GcnYtYzRwUUNmVU9VWVF5cHRDQmJUbFM5SFRGVUlMTHVwT2swZ3BQN3JlakFhR3lZTUxzbDBQQ045TFh4LWdiQm9SUTJwWFV1UndxaDhQN210R0xfV2wtTE54b0FCcG1PZ010WGlLam8?oc=5
-· USDBRL Ibovespa sobe com apoio com pesquisas eleitorais em foco; dólar cai (CNN Brasil) https://news.google.com/rss/articles/CBMipAFBVV95cUxQT05SaXI2amdKVDF5TndWS3YzdVNDMkF2NW1hMmNHZ253SXAtd3lfY0pzcGRvZFJTSHBVYktXbTJYYi0ySTZoUmIzQ1U4dl9iYjZtaGRNSEJZWGFVaXZqcVNNdy1zQi1LRlF5aUJxcW1uM3c3QjFnd2wzVEpJeElCdWV1NGRXaVZmQVYzdmhIR3RNQWlSRXVJSkpiSzgtMUhEaEZ1bQ?oc=5
-· USDBRL Dólar cai a R$ 5,06 e Bolsa abre em alta, com Focus, China e EUA no radar (UOL Economia) https://economia.uol.com.br/cotacoes/noticias/redacao/2026/10/19/dolar-bolsa-abre-hoje-19-de-outubro-de-2026.ghtm
-· USDBRL Ibovespa sobe e dólar recua com mercado atento a pesquisas e reta final das eleições (Exame) https://exame.com/invest/mercados/ibovespa-sobe-e-dolar-recua-com-mercado-atento-a-pesquisas-e-reta-final-das-eleicoes/
-· MMM All eyes on 3M earnings as transformation test looms Tuesday By Investing.com (Investing.com) https://uk.investing.com/news/stock-market-news/all-eyes-on-3m-earnings-as-transformation-test-looms-tuesday-93CH-4917942
-· VALE3 Vale fica fora do rali eleitoral e opera no menor nível do ano; é hora de investir? (Estadao) https://www.estadao.com.br/einvestidor/onde-investir/vale-fica-fora-do-rali-eleitoral-e-opera-no-menor-nivel-do-ano-e-hora-de-investir/
-· GOOGL Accenture and Google Launch Gemini AI Agent Programme for US Federal Agencies (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/accenture-google-launch-gemini-ai-134936837.html
-· NVDA Nvidia: Financial Risks Behind AI Expansion (NASDAQ:NVDA) (Seeking Alpha) https://seekingalpha.com/article/4955193-nvidia-financial-risks-behind-ai-expansion
-· (+39 manchetes; lista completa em eventos/noticias.json)
+· (+51 manchetes; lista completa em eventos/noticias.json)

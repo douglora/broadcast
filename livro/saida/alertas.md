@@ -17,19 +17,22 @@ Fonte: CNBC 19/10 07h00
 ids: E05-JPM-60fd019b62-2026-10-19
 
 Info (só linha no Fechamento):
-· E05 BTC · Strategy buys another $22 million of Bitcoin, increases planned share buybacks
-· E05 GOOGL · Cognizant And Google Cloud Expand Alliance To Accelerate Agentic Enterprise Transformation
-· E05 JPM · Intel Stock Jumps After JPMorgan Upgrade on AI Demand
-· E05 JPM · Jamie Dimon slammed crypto. JPMorgan quietly built JPM Coin.
-· E05 MU · Micron: CXMT Sparks Fear, HBM Fuels Higher Margins (NASDAQ:MU)
-· E05 TSLA · Tesla: Why I'm Upgrading Ahead Of Q3 (Preview) (NASDAQ:TSLA)
-· E05 PETR4 · Plataforma P-82, da Petrobras, deixa estaleiro em Cingapura rumo ao Brasil
-· E05 MU · Why Micron and Sandisk Stocks Are Surging Monday
-· E05 MU · Micron: Don't Fear Chinese Memory Competition (NASDAQ:MU)
+· E05 AMZN · Amazon: Big Morgan Stanley Upgrade, Primed Into Earnings (NASDAQ:AMZN)
+· E05 USDBRL · Ouro cai com pressão dos Treasuries e alta do dólar global
+· E05 AVGO · Broadcom (AVGO) Sees AI Chip Sales Up 236%, but Who Is Paying?
+· E05 KLBN4 · Klabin (KLBN11) pode decepcionar no 3T26? Safra prevê resultado 11% abaixo do esperado
+· E05 JPM · Intel stock surges on JPMorgan upgrade after 14% weekly plunge
+· E05 TSLA · Magnificent 7 Earnings Preview: Meta & Tesla Take Center Stage This Week
+· E05 TSLA · Tesla’s Biggest Earnings Risk May Be Its Bullish Sentiment (NASDAQ:TSLA)
+· E05 NVDA · Nvidia (NVDA) Stock Price Lags Massive Earnings Growth—A Compelling Value Opportunity
+· E05 MRVL · Marvell Technology (MRVL) Forms Cloud Security Alliance After New CXL And Connectivity Launches
+· E05 PLTR · Why Is Palantir Technologies Stock Gaining Monday?
+· E05 USDBRL · Dólar e Ibovespa operam em queda, com foco nas eleições presidenciais
+· E05 KO · All It Takes Is 472 Shares of Coca-Cola Stock to Earn $1,000 a Year in Dividends. Is It Worth It?
 
 
 Alertas do dia (todos, com status):
-· pendente  E05 JPM — JPM · Robot factories and hypersonic missiles: JPMorgan Chase's first $5 billion
+· expirado  E05 JPM — JPM · Robot factories and hypersonic missiles: JPMorgan Chase's first $5 billion
 · entregue  E05 GOOGL — GOOGL · KeyBanc lowers Alphabet stock price target on cloud, search outlook
 · entregue  E05 MMM — MMM · Update: Market Chatter: 3M Company to Challenge Australia's $1.4 Billion P
 · entregue  E05 DI — DI · Itaú BBA vê Movida (MOVI3) entre as melhores apostas para um cenário de Sel
@@ -44,4 +47,4 @@ Alertas do dia (todos, com status):
 · entregue  E05 USDBRL — USDBRL · Boletim Focus: mercado reduz projeção do PIB de 2026 e vê dólar mais ba
 · entregue  E05 JPM — JPM · JPMorgan announces $5 billion in investments in companies critical to US n
 · entregue  S01 SISTEMA — coleta do slot manha saiu incompleta: tesouro: Tesouro Transparente com data-bas
-· (+105 notícias só manchete, em noticias.md)
+· (+117 notícias só manchete, em noticias.md)
