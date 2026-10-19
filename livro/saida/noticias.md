@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 19/10 14h29
+NOTÍCIAS E FATOS · 19/10 15h21
 
-Pernas: noticias ok 4 novas (18 consultas; descartadas: 441 veículo fora da lista, 41 sem ativo, 0 teto) · cvm ok 0 novos de 2 (2 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 9 novas (18 consultas; descartadas: 444 veículo fora da lista, 43 sem ativo, 0 teto) · cvm ok 0 novos de 2 (2 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (2)
 
@@ -48,7 +48,7 @@ Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais
 Ativos: GOOGL
 Como falar: 'saiu no Investing.com: KeyBanc lowers Alphabet stock price target on cloud, search outlook; confirmar o número no texto antes de repassar'
 Fonte: Investing.com 19/10 10h33
-id: E05-GOOGL-471ff2bd1d-2026-10-19 · status: pendente
+id: E05-GOOGL-471ff2bd1d-2026-10-19 · status: entregue
 
 [ATENÇÃO] E05 · MMM · Update: Market Chatter: 3M Company to Challenge Australia's $1.4 Billion PFAS Contamination Lawsuit
 Yahoo Finance · 19/10 05h21 · fonte única · licença: resumo
@@ -237,8 +237,17 @@ Fonte: Yahoo Finance 18/10 11h53
 id: E05-TSM-cead2a6c14-2026-10-18 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (90)
+## OUTRAS NOTÍCIAS (só manchete) (99)
 
+· BTC Strategy buys another $22 million of Bitcoin, increases planned share buybacks (Fortune) https://fortune.com/2026/10/19/strategy-22-million-bitcoin-planned-share-buybacks/
+· GOOGL Cognizant And Google Cloud Expand Alliance To Accelerate Agentic Enterprise Transformation (TradingView (Reuters)) https://www.tradingview.com/news/reuters.com,2026:newsml_FWN4650YZ:0-cognizant-and-google-cloud-expand-alliance-to-accelerate-agentic-enterprise-transformation/
+· JPM Intel Stock Jumps After JPMorgan Upgrade on AI Demand (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/intel-stock-jumps-jpmorgan-upgrade-170744884.html
+· JPM Jamie Dimon slammed crypto. JPMorgan quietly built JPM Coin. (Yahoo Finance) https://finance.yahoo.com/video/jamie-dimon-slammed-crypto-jpmorgan-163000069.html
+· MU Micron: CXMT Sparks Fear, HBM Fuels Higher Margins (NASDAQ:MU) (Seeking Alpha) https://seekingalpha.com/article/4955233-micron-cxmt-sparks-fear-hbm-fuels-higher-margins
+· TSLA Tesla: Why I'm Upgrading Ahead Of Q3 (Preview) (NASDAQ:TSLA) (Seeking Alpha) https://seekingalpha.com/article/4955227-tesla-why-im-upgrading-ahead-of-q3-preview
+· PETR4 Plataforma P-82, da Petrobras, deixa estaleiro em Cingapura rumo ao Brasil (Valor Economico) https://valor.globo.com/google/amp/empresas/noticia/2026/10/19/plataforma-p-82-da-petrobras-deixa-estaleiro-em-cingapura-rumo-ao-brasil.ghtml
+· MU Why Micron and Sandisk Stocks Are Surging Monday (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:87a9fc0d2094b:0-why-micron-and-sandisk-stocks-are-surging-monday/
+· MU Micron: Don't Fear Chinese Memory Competition (NASDAQ:MU) (Seeking Alpha) https://seekingalpha.com/article/4955143-micron-dont-fear-chinese-memory-competition
 · BRENT Wright Says Gas Prices Peaked As Brent Holds Above $108 (OilPrice.com) https://oilprice.com/Energy/Gas-Prices/Wright-Says-Gas-Prices-Peaked-As-Brent-Holds-Above-108.amp.html
 · ETH Current price of Ethereum for October 19, 2026 (Fortune) https://fortune.com/article/price-of-ethereum-10-19-2026/
 · BTC Current price of Bitcoin for October 19, 2026 (Fortune) https://fortune.com/article/price-of-bitcoin-10-19-2026/
@@ -290,13 +299,4 @@ id: E05-TSM-cead2a6c14-2026-10-18 · status: linha
 · VALE3 Vale fica fora do rali eleitoral e opera no menor nível do ano; é hora de investir? (Estadao) https://www.estadao.com.br/einvestidor/onde-investir/vale-fica-fora-do-rali-eleitoral-e-opera-no-menor-nivel-do-ano-e-hora-de-investir/
 · GOOGL Accenture and Google Launch Gemini AI Agent Programme for US Federal Agencies (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/accenture-google-launch-gemini-ai-134936837.html
 · NVDA Nvidia: Financial Risks Behind AI Expansion (NASDAQ:NVDA) (Seeking Alpha) https://seekingalpha.com/article/4955193-nvidia-financial-risks-behind-ai-expansion
-· COHR Coherent (COHR) Could Benefit From AI Networking Even if CPO Adoption Takes Time (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/coherent-cohr-could-benefit-ai-134711534.html
-· AMD AMD: More Room To Fall (NASDAQ:AMD) (Seeking Alpha) https://seekingalpha.com/article/4955111-amd-more-room-to-fall
-· GOOGL Microsoft vs. Alphabet: Is GOOGL’s Cloud Growth Worth More Than Investors Think? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/microsoft-vs-alphabet-googl-cloud-133811978.html
-· JPM ETH to $60,000? Critics Challenge Bullish Math as JPMorgan Expands on Ethereum (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/eth-60-000-critics-challenge-133753121.html
-· LITE Lumentum (LITE) Can’t Meet Demand. Can Its Valuation Hold Up? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/lumentum-lite-t-meet-demand-133358382.html
-· NVDA Nvidia dodged the AI selloff, and Jensen Huang has a theory why (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/nvidia-dodged-ai-selloff-jensen-133300474.html
-· MU Micron and other chip stocks spring back to life after bruising selloff (MarketWatch) https://www.marketwatch.com/story/micron-and-other-chip-stocks-spring-back-to-life-after-bruising-selloff-16486541
-· BTC Strategy Buys Another $22 Million Of Bitcoin (Yahoo Finance) https://news.google.com/rss/articles/CBMingFBVV95cUxNLXZTSTJaS1RzeE9MR3MzX1VnRTltb3gxTnN6T0RVUF9YNnN2SzJKRngzSkl5U3V4VmlXQjdETy01cG1qZUhMMEJLaHlyRGhWV2VESzlrbnR3bVhGZVpsY29zTGlLa0QyZnljLTh6T1JleTF2UXdaZFVuaWxzUFpkZXUtSGk1RW85TDBZOU14X2hFV0tQZHRkLVVpZm5BQQ?oc=5
-· BTC Current price of Bitcoin for Oct. 19, 2026 (Fortune) https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1vb3A0Q24zaWUwM0E5LXNKeEc3VW5RMF9OZEh3UDZ2TE42RlhTelFvakpHWFQzZTc1WEFIVlBzV25XZVpJUTlxX0RXUnAtblluQUtQWGV5QVdLOGtmNmlINDVvc2tRZk0?oc=5
-· (+30 manchetes; lista completa em eventos/noticias.json)
+· (+39 manchetes; lista completa em eventos/noticias.json)
