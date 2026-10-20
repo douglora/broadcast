@@ -1,13 +1,19 @@
 BLOCO A
 ```
-FECHAMENTO DO LIVRO · seg 19/10 · 18h12 BRT
-Relógios: Yahoo 18h12 · DI ajuste D0 · Tesouro base
+FECHAMENTO DO LIVRO · seg 19/10 · 21h13 BRT
+Relógios: Yahoo 21h13 · DI ajuste D0 · Tesouro base
   15/10 · UST CMT D0 · PTAX 19/10
 
-ALERTAS DO DIA (29 · 1 crítico)
+ALERTAS DO DIA (31 · 1 crítico)
 [CRÍTICO] T08 COHR entrou em queda de -45% do pico:
           -46% do pico de 52s (US$ 426,89 em 02/06)
           a US$ 232,02
+[ATENÇÃO] E05 BAC · Should You Buy Bank of America
+          Stock After a $1.2 Billion Regulatory
+          Fine?
+[ATENÇÃO] E05 GOOGL · KeyBanc lowers Alphabet stock
+          price target on cloud, search outlook By
+          Investing.com
 [ATENÇÃO] C01 A curva ABRIU: F29 +49 bps em 5
           pregões · F30 +54 bps em 5 pregões · F32
           +56 bps em 5 pregões (ajuste B3 19/10)
@@ -22,22 +28,20 @@ ALERTAS DO DIA (29 · 1 crítico)
 [ATENÇÃO] T06 RARA11 -11% em 5 sessões a R$ 12,05:
           movimento de 3,1 desvios para a vol de 20
           dias
-[ATENÇÃO] E05 KO · If You Invest $200 a Month in
-          Coca-Cola (KO) Stock, Here's the Dividend
-          Income It Could Generate Over 10 Years.
-[ATENÇÃO] S01 coleta do slot fechamento saiu
-          incompleta: tesouro: Tesouro Transparente
-          com data-base 15/10; faltam 16/10 (taxas
-          não são as de hoje)
-(+21 em alertas.md)
+(+23 em alertas.md)
 
 ALTAS  MRVE3 +11% · AMZN +5,0% · PLTR +4,4% · EWY
        +4,1% · MRVL +4,1%
 BAIXAS RARA11 -2,9% · PETR4 -2,8% · JPM -1,8% · WUTI
        -1,7% · MMM -1,7%
 
-NOTÍCIAS E FATOS (15 com materialidade ·
+NOTÍCIAS E FATOS (17 com materialidade ·
   noticias.md)
+· BAC Should You Buy Bank of America Stock After a
+  $1.2 Billion Regulatory Fine? (Yahoo Finance)
+· GOOGL KeyBanc lowers Alphabet stock price target
+  on cloud, search outlook By Investing.com
+  (Investing.com)
 · KO If You Invest $200 a Month in Coca-Cola (KO)
   Stock, Here's the Dividend Income It Could
   Generate Over 10 Years. (Yahoo Finance)
@@ -50,13 +54,7 @@ NOTÍCIAS E FATOS (15 com materialidade ·
   investments (CNBC)
 · GOOGL KeyBanc lowers Alphabet stock price target
   on cloud, search outlook (Investing.com)
-· MMM Update: Market Chatter: 3M Company to
-  Challenge Australia's $1.4 Billion PFAS
-  Contamination Lawsuit (Yahoo Finance)
-· DI Itaú BBA vê Movida (MOVI3) entre as melhores
-  apostas para um cenário de Selic menor e eleva
-  preço-alvo em R$ 10 (Money Times)
-  (+9)
+  (+11)
 
 CURVAS · taxa (Δ bps)
 DI (D0, Δ dia·sem bps) F28 12,89 (-3·+36) F29 12,71
@@ -72,7 +70,7 @@ TD (base 15/10, Δ desde 14/10) Pre 2029 12,64 (+10)
     (descasado) 5,58% vs Focus IPCA 2027 4,32%
 UST (D0) 2y 4,77 (+3) · 10y 5,15 (+6) · 30y 5,48
     (+5) · 2s10s +38 (+3)
-Regime: VIX 18,4 (-7,8%) · score risco 0 de 6 ·
+Regime: VIX 18,4 (-7,8%) · score risco 0 de 5 ·
     regime de vol LIGADO
 
 LEITURA DA MESA
@@ -91,7 +89,14 @@ ter 27/10 resultado MMM (antes de NY, estimado)
 qua 28/10 resultado GOOGL (após NY, estimado)
 qua 28/10 resultado VALE3 (após B3, estimado)
 
-LACUNAS: tesouro: Tesouro Transparente com data-base
+LACUNAS: DXY sem barra de 19/10 (última 16/10);
+  BRENT sem barra de 19/10 (última 16/10); DXY:
+  barra de 19/10 é o início da sessão seguinte
+  (última cotação 20:04 de Nova York); barra
+  descartada, fica a de 16/10; BRENT: barra de 19/10
+  é o início da sessão seguinte (última cotação
+  20:03 de Nova York); barra descartada, fica a de
+  16/10; tesouro: Tesouro Transparente com data-base
   15/10; faltam 16/10 (taxas não são as de hoje).
 Fontes: Yahoo Finance · B3 Boletim Diário · Tesouro
   Transparente · Treasury.gov CMT · BCB
@@ -176,10 +181,10 @@ MRVE3  MRV        8,01  +11 +2,4  +53 +4,4  +24 +2,8
 CURY3  Cury      31,54 +2,0 -8,6 +8,6 -5,3  +14 +2,8
 Macro
 USDBRL USD/BRL  5,0446 -0,5 +1,2 -1,9 +0,8 -7,3 -7,9
-DXY    DXY      101,98 +0,1 -0,6 +1,8 +4,0 +3,6 +3,8
-BRENT  Brent    109,21 -0,6 +2,4 +5,1  +14  +78  +79
-BTC*   BTC      81.999  0,0 +0,3 +0,9 +8,1  -25 -6,3
-ETH*   ETH       2.402 -0,3 -1,7 -8,7 +3,8  -40  -19
+DXY*   DXY      101,84 -0,2 -0,4 +1,5 +3,8 +3,5 +3,6
+BRENT* Brent    109,86 +3,7 +4,9 +3,8  +22  +80  +81
+BTC    BTC      81.999  0,0 +0,3 +0,9 +8,1  -25 -6,3
+ETH    ETH       2.402 -0,3 -1,7 -8,7 +3,8  -40  -19
 MINER* Minerio   90,90 +0,4 +0,2 -6,7  -15  -14  -15
 ```
 UCITS por extenso: VWRA Vanguard FTSE All-World

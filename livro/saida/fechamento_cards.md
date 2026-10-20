@@ -1,4 +1,4 @@
-## Fechamento do livro · seg 19/10 · 18h12 BRT
+## Fechamento do livro · seg 19/10 · 21h13 BRT
 
 ---
 
@@ -31,11 +31,11 @@
 | Ativo | dia | explicação | grau |
 |---|---:|---|---|
 | **MRVE3** | +11% | descolou do setor (construtoras de baixa renda +2,9% (mediana), DI F30 +1 bps; 8,1 p.p. da mediana); investigar antes de comentar | sem causa no dado |
-| **AMZN** | +5,0% | notícia a conferir (Seeking Alpha): Amazon: Big Morgan Stanley Upgrade, Primed Into Earnings (NASDAQ:AMZN) | notícia (conferir) |
+| **AMZN** | +5,0% | notícia a conferir (Yahoo Finance): 3M stock rises 3% on $6B Amazon data center deal | notícia (conferir) |
 | **PLTR** | +4,4% | notícia a conferir (TradingView (Reuters)): Palantir stock flashes a rare technical pattern that points to more upside | notícia (conferir) |
 | **EWY** | +4,1% | investigar antes de comentar | sem causa no dado |
 | **MRVL** | +4,1% | descolou do setor (semicondutores (eua) +1,8% (mediana), SOX +1,6%; 2,3 p.p. da mediana); notícia a conferir (Yahoo Finance): Marvell Technology (MRVL) Stock Sees Fair Value Lift After Analysts Back AI Growth | notícia (conferir) |
-| **TSLA** | +3,8% | notícia a conferir (TradingView (Reuters)): Dan Ives Says Meta, SpaceX and Tesla Face Big Questions This Week — His 3 'Big Focus Point | notícia (conferir) |
+| **TSLA** | +3,8% | notícia a conferir (Seeking Alpha): Tesla Q3 Preview: FSD Could Be The Key Driver Of Profitability (Downgrade) (NASDAQ:TSLA) | notícia (conferir) |
 | **MU** | +3,0% | descolou do setor (semicondutores (eua) +1,8% (mediana), SOX +1,6%; 1,2 p.p. da mediana); notícia a conferir (TradingView (Reuters)): Why Micron and SanDisk Stocks Are Climbing Today | notícia (conferir) |
 | **RARA11** | -2,9% | investigar antes de comentar | sem causa no dado |
 
@@ -191,13 +191,13 @@ Nomes completos: **QNTM** VanEck Quantum Computing UCITS ETF USD (Acc) · **QANT
 | Ativo | últ | dia | 1 sem | 1 mês | 3 m | 6 m | 1 ano | YTD | 5 anos |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | **USDBRL** Dolar/Real | 5,0446 | **-0,5** | +1,2 | -1,9 | -1,6 | +0,8 | -7,3 | -7,9 | -11 |
-| **DXY** Indice Dolar DXY | 101,98 | **+0,1** | -0,6 | +1,8 | +1,0 | +4,0 | +3,6 | +3,8 | +8,9 |
-| **BRENT** Petroleo Brent | 109,21 | **-0,6** | +2,4 | +5,1 | +22 | +14 | +78 | +79 | +28 |
-| **BTC** Bitcoin _(parcial)_ | 81.999 | **0,0** | +0,3 | +0,9 | +26 | +8,1 | -25 | -6,3 | +35 |
-| **ETH** Ethereum _(parcial)_ | 2.402 | **-0,3** | -1,7 | -8,7 | +26 | +3,8 | -40 | -19 | -41 |
+| **DXY** Indice Dolar DXY _(dia 16/10)_ | 101,84 | **-0,2** | -0,4 | +1,5 | +1,1 | +3,8 | +3,5 | +3,6 | +8,4 |
+| **BRENT** Petroleo Brent _(dia 16/10)_ | 109,86 | **+3,7** | +4,9 | +3,8 | +25 | +22 | +80 | +81 | +29 |
+| **BTC** Bitcoin | 81.999 | **0,0** | +0,3 | +0,9 | +26 | +8,1 | -25 | -6,3 | +35 |
+| **ETH** Ethereum | 2.402 | **-0,3** | -1,7 | -8,7 | +26 | +3,8 | -40 | -19 | -41 |
 | **MINERIO** Minerio de ferro 62% Fe CFR China _(D-1, 16/10)_ | 90,90 | **+0,4** | +0,2 | -6,7 | -8,1 | -15 | -14 | -15 | -26 |
 
-**Brent em reais:** R$ 550,92 por barril (19/10) · dia -1,1% · 1 mês +3,1% · no ano +65% (Brent do 1º vencimento × dólar).
+**Brent em reais:** a confirmar (Brent sem fechamento confirmado).
 
 ---
 
@@ -205,11 +205,11 @@ Nomes completos: **QNTM** VanEck Quantum Computing UCITS ETF USD (Acc) · **QANT
 
 | Referência | US$/t | dia | 1 sem | 1 mês | leitura |
 |---|---:|---:|---:|---:|---|
-| **Celulose fibra longa** | 624 | -0,6 | -1,8 | -4,0 | 19/10 |
-| **Minerio de ferro Dalian** | 91 | +0,2 | +0,5 | -3,8 | 19/10 |
+| **Celulose fibra longa** | 623 | -0,8 | -2,0 | -4,2 | 19/10 |
+| **Minerio de ferro Dalian** | 91 | 0,0 | +0,4 | -4,0 | 19/10 |
 
-- **Celulose fibra longa**: futuro SP da SHFE (fibra longa) em CNY/t, sem o IVA de 13%; nao e preco de lista NBSK · CNY/t 4.710 a USD/CNY 6,68 = US$ 705/t com IVA
-- **Minerio de ferro Dalian**: futuro da DCE em CNY/t, sem o IVA de 13%; o CFR 62% em US$ e a linha MINERIO · CNY/t 685 a USD/CNY 6,68 = US$ 103/t com IVA
+- **Celulose fibra longa**: futuro SP da SHFE (fibra longa) em CNY/t, sem o IVA de 13%; nao e preco de lista NBSK · CNY/t 4.710 a USD/CNY 6,69 = US$ 704/t com IVA
+- **Minerio de ferro Dalian**: futuro da DCE em CNY/t, sem o IVA de 13%; o CFR 62% em US$ e a linha MINERIO · CNY/t 685 a USD/CNY 6,69 = US$ 102/t com IVA
 
 ---
 
@@ -246,12 +246,16 @@ Inflação implícita 2029 5,50% · 2032 5,68% · 2031/32 (descasado) 5,58% · F
 
 2s10s +38 bps (+3 no dia)
 
-**Regime** VIX 18,4 (-7,8%) · score de risco 0 de 6 · **regime de vol LIGADO**
+**Regime** VIX 18,4 (-7,8%) · score de risco 0 de 5 · **regime de vol LIGADO**
 
 ---
 
-### Notícias e fatos · 15
+### Notícias e fatos · 17
 
+- **BAC** Should You Buy Bank of America Stock After a $1.2 Billion Regulatory Fine? (Yahoo Finance · 19/10) [abrir a fonte](https://finance.yahoo.com/markets/stocks/articles/buy-bank-america-stock-1-122000033.html)
+  *Por que importa:* contingencia muda o risco e pode virar provisao; olhar valor e prazo
+- **GOOGL** KeyBanc lowers Alphabet stock price target on cloud, search outlook By Investing.com (Investing.com · 19/10) [abrir a fonte](https://ng.investing.com/news/stock-market-news/keybanc-lowers-alphabet-stock-price-target-on-cloud-search-outlook-93CH-2743800)
+  *Por que importa:* mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
 - **KO** If You Invest $200 a Month in Coca-Cola (KO) Stock, Here's the Dividend Income It Could Generate Over 10 Years. (Yahoo Finance · 19/10) [abrir a fonte](https://finance.yahoo.com/markets/stocks/articles/invest-200-month-coca-cola-201000007.html)
   *Por que importa:* provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
 - **BBAS3** Banco do Brasil lança 'Cofrinho de Proventos' para reinvestir dividendos de forma automática, mas tem um ponto de atenção (Seu Dinheiro · 19/10) [abrir a fonte](https://www.seudinheiro.com/2026/renda-fixa/banco-do-brasil-lanca-cofrinho-de-proventos-para-reinvestir-dividendos-mlim/)
@@ -305,8 +309,8 @@ Inflação implícita 2029 5,50% · 2032 5,68% · 2031/32 (descasado) 5,58% · F
 
 ### Como ler
 
-**Relógios:** Yahoo 18h12 · DI ajuste D0 · Tesouro base 15/10 · UST CMT D0 · PTAX 19/10
-**Lacunas:** tesouro: Tesouro Transparente com data-base 15/10; faltam 16/10 (taxas não são as de hoje).
+**Relógios:** Yahoo 21h13 · DI ajuste D0 · Tesouro base 15/10 · UST CMT D0 · PTAX 19/10
+**Lacunas:** DXY sem barra de 19/10 (última 16/10); BRENT sem barra de 19/10 (última 16/10); DXY: barra de 19/10 é o início da sessão seguinte (última cotação 20:04 de Nova York); barra descartada, fica a de 16/10; BRENT: barra de 19/10 é o início da sessão seguinte (última cotação 20:03 de Nova York); barra descartada, fica a de 16/10; tesouro: Tesouro Transparente com data-base 15/10; faltam 16/10 (taxas não são as de hoje).
 **IUAA:** NAO e renda fixa ultracurta: cai ~6% a cada +100 bps na curva. Ler junto com UST 10y/30y. Caixa em dolar e o IB01.
 **Hipótese:** **EWY** iShares MSCI South Korea ETF · **MCHI** iShares MSCI China ETF — ETFs dos EUA, a confirmar.
 Minério: proxy Dalian 685 CNY/t (2026-10-19).

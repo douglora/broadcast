@@ -76,10 +76,10 @@ MRVE3  MRV      8,01  +11 +2,4  +53 +2,8
 CURY3  Cury    31,54 +2,0 -8,6 +8,6 +2,8
 Macro
 USDBRL USD/BR 5,0446 -0,5 +1,2 -1,9 -7,9
-DXY    DXY    101,98 +0,1 -0,6 +1,8 +3,8
-BRENT  Brent  109,21 -0,6 +2,4 +5,1  +79
-BTC*   BTC    81.999  0,0 +0,3 +0,9 -6,3
-ETH*   ETH     2.402 -0,3 -1,7 -8,7  -19
+DXY*   DXY    101,84 -0,2 -0,4 +1,5 +3,6
+BRENT* Brent  109,86 +3,7 +4,9 +3,8  +81
+BTC    BTC    81.999  0,0 +0,3 +0,9 -6,3
+ETH    ETH     2.402 -0,3 -1,7 -8,7  -19
 MINER* Mineri  90,90 +0,4 +0,2 -6,7  -15
 ```
 UCITS por extenso: VWRA Vanguard FTSE All-World

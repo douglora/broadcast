@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 19/10 20h30
+NOTÍCIAS E FATOS · 19/10 21h13
 
-Pernas: noticias ok 13 novas (18 consultas; descartadas: 465 veículo fora da lista, 41 sem ativo, 3 teto) · cvm ok 1 novos de 4 (4 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 3 novas (18 consultas; descartadas: 469 veículo fora da lista, 42 sem ativo, 0 teto) · cvm ok 0 novos de 4 (4 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (4)
 
@@ -63,7 +63,23 @@ Fonte: SEC EDGAR 2026-10-19
 id: E04-MMM-26000303-2026-10-19 · status: linha · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (19)
+## NOTÍCIAS COM MATERIALIDADE (20)
+
+[ATENÇÃO] E05 · BAC · Should You Buy Bank of America Stock After a $1.2 Billion Regulatory Fine?
+Yahoo Finance · 19/10 09h20 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Following its third-quarter earnings report, Bank of America's (NYSE: BAC) stock fell 4.7% on Oct.
+  – 14 in its worst performance in 18 months.
+  – At one point, the stock fell almost 9%, a huge move for a stock like Bank of America.
+  – Not only did the bank report weak results, it also disclosed a $1.2 billion regulatory fine for money-laundering violations.
+  – In 2009, a "Double Down" signal flashed for a little-known chipmaker called Nvidia.
+  – For the first time in years, that same "Total Conviction" signal is flashing for a company 1/100th the size of Nvidia.
+Link: https://finance.yahoo.com/markets/stocks/articles/buy-bank-america-stock-1-122000033.html
+Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e prazo
+Ativos: BAC
+Como falar: 'saiu no Yahoo Finance: Should You Buy Bank of America Stock After a $1.2 Billion Regulatory Fine?; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 19/10 09h20
+id: E05-BAC-ed45c4483d-2026-10-19 · status: pendente
 
 [ATENÇÃO] E05 · GOOGL · KeyBanc lowers Alphabet stock price target on cloud, search outlook By Investing.com
 Investing.com · 19/10 16h17 · fonte única · licença: manchete
@@ -88,7 +104,7 @@ Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir
 Ativos: KO
 Como falar: 'saiu no Yahoo Finance: If You Invest $200 a Month in Coca-Cola (KO) Stock, Here's the Dividend Income It Could G…; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 19/10 17h10
-id: E05-KO-c6af630f50-2026-10-19 · status: pendente
+id: E05-KO-c6af630f50-2026-10-19 · status: expirado
 
 [ATENÇÃO] E05 · BBAS3 · Banco do Brasil lança 'Cofrinho de Proventos' para reinvestir dividendos de forma automática, mas tem um ponto de atenção
 Seu Dinheiro · 19/10 17h02 · fonte única · licença: resumo
@@ -318,8 +334,10 @@ Fonte: Yahoo Finance 18/10 11h53
 id: E05-TSM-cead2a6c14-2026-10-18 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (153)
+## OUTRAS NOTÍCIAS (só manchete) (155)
 
+· BTC Bitcoin Volatility Hits 2.5-Year Low as Traders Brace for 30% Move (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-volatility-hits-2-5-222051331.html
+· NVDA Nvidia’s Valuation and Narrative Risk are High Now So Act Accordingly (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/nvidia-valuation-narrative-risk-high-111541294.html
 · INTC Did Foundry Win Just Shift Intel (INTC) Investment Narrative? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/did-foundry-win-just-shift-221539389.html
 · TSM The AI Conundrum: Massive AI Panic While TSMC's Profits Soar 69% (NYSE:TSM) (Seeking Alpha) https://seekingalpha.com/article/4955325-the-ai-conundrum-massive-ai-panic-while-tsmcs-profits-soar-69-percent
 · AMZN 3M stock rises 3% on $6B Amazon data center deal (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/3m-stock-rises-3-6b-213632761.html
@@ -378,6 +396,4 @@ id: E05-TSM-cead2a6c14-2026-10-18 · status: linha
 · GOOGL Cognizant And Google Cloud Expand Alliance To Accelerate Agentic Enterprise Transformation (TradingView (Reuters)) https://www.tradingview.com/news/reuters.com,2026:newsml_FWN4650YZ:0-cognizant-and-google-cloud-expand-alliance-to-accelerate-agentic-enterprise-transformation/
 · JPM Intel Stock Jumps After JPMorgan Upgrade on AI Demand (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/intel-stock-jumps-jpmorgan-upgrade-170744884.html
 · JPM Jamie Dimon slammed crypto. JPMorgan quietly built JPM Coin. (Yahoo Finance) https://finance.yahoo.com/video/jamie-dimon-slammed-crypto-jpmorgan-163000069.html
-· MU Micron: CXMT Sparks Fear, HBM Fuels Higher Margins (NASDAQ:MU) (Seeking Alpha) https://seekingalpha.com/article/4955233-micron-cxmt-sparks-fear-hbm-fuels-higher-margins
-· TSLA Tesla: Why I'm Upgrading Ahead Of Q3 (Preview) (NASDAQ:TSLA) (Seeking Alpha) https://seekingalpha.com/article/4955227-tesla-why-im-upgrading-ahead-of-q3-preview
-· (+93 manchetes; lista completa em eventos/noticias.json)
+· (+95 manchetes; lista completa em eventos/noticias.json)
