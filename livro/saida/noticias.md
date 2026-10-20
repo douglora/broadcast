@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 20/10 10h23
+NOTÍCIAS E FATOS · 20/10 11h22
 
-Pernas: noticias ok 18 novas (18 consultas; descartadas: 488 veículo fora da lista, 26 sem ativo, 23 teto) · cvm ok 1 novos de 5 (3 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 18 novas (18 consultas; descartadas: 473 veículo fora da lista, 32 sem ativo, 9 teto) · cvm ok 0 novos de 5 (3 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (3)
 
@@ -58,7 +58,71 @@ Fonte: SEC EDGAR 2026-10-20
 id: E04-MMM-26000308-2026-10-20 · status: entregue · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (7)
+## NOTÍCIAS COM MATERIALIDADE (11)
+
+[ATENÇÃO] E05 · PETR4 · “O investidor trocou Vale por Petrobras”: a combinação que faz a mineradora perder R$ 24 bilhões enquanto o Ibovespa festeja
+Seu Dinheiro · 20/10 10h29 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – A mineradora acumula desvalorização de 8% desde a eleição, o que representa uma perda de R$ 24,64 bilhões em valor de mercado.
+  – Em outubro, as ações recuam 5%, reduzindo a capitalização da companhia em R$ 15,13 bilhões.
+  – O movimento pode parecer contraintuitivo, já que um dos grandes responsáveis pelo desempenho do principal índice de ações da B3 é o fluxo gringo, que já descarregou mais de R$ 18,5 bilhões por aqui no mês.
+  – Mas no caminho três fatores pressionaram a Vale: o petróleo, o dólar e outra gigante da bolsa, a Petrobras (PETR4).
+  – Na teleconferência de resultados do segundo trimestre de 2026, Rogério Nogueira, vice-presidente executivo de Desenvolvimento Comercial da Vale, deu um recado ao mercado: olho no petróleo.
+  – Leia Também Quase três meses depois, o petróleo Brent, usado como padrão internacional e referência nesse caso, segue como estava quando Nogueira fez o aviso: acima dos US$ 100 o barril, graças à guerra persistente que…
+Link: https://www.seudinheiro.com/2026/bolsa-dolar/o-investidor-trocou-vale-por-petrobras-a-combinacao-que-faz-a-mineradora-perder-r-24-bilhoes-enquanto-o-ibovespa-festeja-bdap/
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: PETR4 · VALE3
+Como falar: 'saiu no Seu Dinheiro: “O investidor trocou Vale por Petrobras”: a combinação que faz a mineradora perder R$ 24…; confirmar o número no texto antes de repassar'
+Fonte: Seu Dinheiro 20/10 10h29
+id: E05-PETR4-121d92eff2-2026-10-20 · status: pendente
+
+[ATENÇÃO] E05 · TSLA · General Motors Sinks 6% Despite Earnings Beat and New Buyback as Outlook Narrows; Ford Slips, Tesla Barely Budges
+Yahoo Finance · 20/10 09h45 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – - Ford slipped just 2% on the same news while Tesla barely moved, confirming the 8% selloff is entirely GM-specific.
+  – - GM's international profit cratered 87% and commodity costs are hitting the top of prior ranges, clouding an otherwise strong North American quarter.
+  – General Motors (NYSE:GM) coupled a Q3 2026 earnings beat with a fresh buyback, yet its full-year outlook is drawing sellers.
+  – In morning trading, General Motors shares are down 6% to $77.87.
+  – Meanwhile, Ford Motor (NYSE:F) stock is down 2% to $11.94, a softer slide.
+  – Tesla (NASDAQ:TSLA) shares are down 0.3% to $366.95, holding close to even by comparison.
+Link: https://finance.yahoo.com/markets/stocks/articles/general-motors-sinks-6-despite-124505144.html
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: TSLA
+Como falar: 'saiu no Yahoo Finance: General Motors Sinks 6% Despite Earnings Beat and New Buyback as Outlook Narrows; Ford Sl…; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 20/10 09h45
+id: E05-TSLA-3afd248bef-2026-10-20 · status: pendente
+
+[ATENÇÃO] E05 · MMM · 3M tops forecasts for Q3 profit and full-year guidance; shares climb
+Yahoo Finance · 20/10 08h14 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Investing.com -- 3M on Tuesday reported better-than-expected third-quarter earnings, and its full-year guidance also came in above consensus estimates.
+  – The company posted earnings per share of $2.50, above the $2.39 analysts expected.
+  – Revenue was $6.6 billion, roughly in line with the $6.61 billion consensus, with organic growth of 3.3%.
+  – Adjusted operating margin was 26.2%, compared with an estimate of 25.2%.
+  – "We delivered another quarter of strong results, including solid sales growth, continued margin expansion, double-digit EPS growth, and robust free cash flow," said William Brown, 3M Chairman and CEO.
+  – It expects adjusted total sales growth of more than 4.5%, including adjusted organic growth of more than 3.5%.
+Link: https://finance.yahoo.com/markets/stocks/articles/3m-tops-forecasts-q3-profit-111431228.html
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: MMM
+Como falar: 'saiu no Yahoo Finance: 3M tops forecasts for Q3 profit and full-year guidance; shares climb; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 20/10 08h14
+id: E05-MMM-d2505509af-2026-10-20 · status: pendente
+
+[ATENÇÃO] E05 · MMM · 3M Reports Third-Quarter 2026 Results; Raises Full-Year EPS Guidance
+PR Newswire · 20/10 07h30 · + Yahoo Finance · licença: integral
+Do texto:
+  – 20, 2026 /PRNewswire/ -- 3M (NYSE: MMM) today reported third-quarter results.
+  – "We delivered another quarter of strong results, including solid sales growth, continued margin expansion, double-digit EPS growth, and robust free cash flow," said William Brown, 3M Chairman and CEO.
+  – "Improving productivity through structural transformation and a stronger pipeline of differentiated technologies reinforce our confidence in the full-year outlook and long-term growth and margin potential.
+  – - GAAP EPS of $2.63 and operating margin of 23.7%.
+  – - Adjusted EPS of $2.50, up 12% year-on-year.
+  – - Adjusted operating income margin of 26.2%, up 110 basis points year-on-year.
+Link: https://www.prnewswire.com/news-releases/3m-reports-third-quarter-2026-results-raises-full-year-eps-guidance-302913342.html
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: MMM
+Como falar: 'saiu no PR Newswire: 3M Reports Third-Quarter 2026 Results; Raises Full-Year EPS Guidance; confirmar o número no texto antes de repassar'
+Fonte: PR Newswire 20/10 07h30
+id: E05-MMM-9057798249-2026-10-20 · status: linha · íntegra disponível
 
 [ATENÇÃO] E05 · MMM · 3M beats estimates as profit margins expand, outlook improves (MMM:NYSE)
 Seeking Alpha · 20/10 08h41 · fonte única · licença: manchete
@@ -67,7 +131,7 @@ Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; 
 Ativos: MMM
 Como falar: 'saiu no Seeking Alpha: 3M beats estimates as profit margins expand, outlook improves (MMM:NYSE); confirmar o número no texto antes de repassar'
 Fonte: Seeking Alpha 20/10 08h41
-id: E05-MMM-2dc773abd7-2026-10-20 · status: pendente
+id: E05-MMM-2dc773abd7-2026-10-20 · status: entregue
 
 [ATENÇÃO] E05 · MMM · 3M tops forecasts for Q3 profit and full-year guidance; shares climb
 Yahoo Finance · 20/10 08h14 · fonte única · licença: resumo
@@ -83,7 +147,7 @@ Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; 
 Ativos: MMM
 Como falar: 'saiu no Yahoo Finance: 3M tops forecasts for Q3 profit and full-year guidance; shares climb; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 20/10 08h14
-id: E05-MMM-b1c2c37148-2026-10-20 · status: pendente
+id: E05-MMM-b1c2c37148-2026-10-20 · status: entregue
 
 [ATENÇÃO] E05 · BRENT · Bitcoin dips below $82,000 as elevated oil prices, Fed outlook weigh
 Yahoo Finance · 20/10 04h37 · fonte única · licença: resumo
@@ -99,7 +163,7 @@ Por que importa: decisao de politica monetaria reprecifica toda a curva e o camb
 Ativos: BRENT · BTC
 Como falar: 'saiu no Yahoo Finance: Bitcoin dips below $82,000 as elevated oil prices, Fed outlook weigh; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 20/10 04h37
-id: E05-BRENT-d1276a4a9c-2026-10-20 · status: pendente
+id: E05-BRENT-d1276a4a9c-2026-10-20 · status: entregue
 
 [ATENÇÃO] E05 · MMM · 3M Lifts Earnings Outlook as Profit Jumps
 The Wall Street Journal · 20/10 08h30 · fonte única · licença: manchete
@@ -145,8 +209,22 @@ Fonte: Yahoo Finance 20/10 07h30
 id: E05-MMM-c2716ce8dd-2026-10-20 · status: entregue
 
 
-## OUTRAS NOTÍCIAS (só manchete) (30)
+## OUTRAS NOTÍCIAS (só manchete) (44)
 
+· USDBRL Ibovespa sobe e dólar cai com mercado atento a pesquisas eleitorais e balanços corporativos (Exame) https://exame.com/invest/mercados/ibovespa-sobe-e-dolar-cai-com-mercado-atento-a-pesquisas-eleitorais-e-balancos-corporativos/
+· TSLA Ferrari CEO hails Tesla Roadster redesign as the bold innovation the industry needs (TradingView (Reuters)) https://www.tradingview.com/news/reuters.com,2026:newsml_L8N4660SZ:0-ferrari-ceo-hails-tesla-roadster-redesign-as-the-bold-innovation-the-industry-needs/
+· BTC Bitcoin ETFs buy $526.6M in Bitcoin amid price weakness (TradingView (Reuters)) https://www.tradingview.com/news/cryptobriefing:b3542b509094b:0-bitcoin-etfs-buy-526-6m-in-bitcoin-amid-price-weakness/
+· VALE3 Ibovespa hoje ganha força com petróleo e pesquisa eleitoral; Vale e dólar operam em queda (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/ibovespa-hoje-pesquisa-eleitoral-e-petroleo-podem-mexer-com-a-bolsa-nesta-terca/
+· BAC Bank of America (BAC): Is Its Deposit Franchise Getting Stronger as Lending Accelerates? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/bank-america-bac-deposit-franchise-133815113.html
+· GOOGL Google Cloud services largely back up in UK (Reuters) https://www.reuters.com/business/google-cloud-services-largely-back-up-uk-2026-10-20/
+· COHR Why is Coherent stock sliding today? (Investing.com) https://www.investing.com/news/stock-market-news/why-is-coherent-stock-sliding-today-93CH-4960266
+· TSLA SpaceX And Tesla Prepare Side By Side Earnings Reports Amid Merger Speculation (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/spacex-tesla-prepare-side-side-131333836.html
+· MMM 3M Q3 2026 Earnings Call Is Live (TradingView (Reuters)) https://www.tradingview.com/news/urn:live_audio:quartr.com:710407:0-3m-q3-2026-earnings-call-is-live/
+· MMM Compared to Estimates, 3M (MMM) Q3 Earnings: A Look at Key Metrics (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/compared-estimates-3m-mmm-q3-123005315.html
+· BBDC4 Temporada de balanços ganha força com WEG e Bradesco; confira todas as datas (Estadao) https://news.google.com/rss/articles/CBMixwFBVV95cUxPN0FjM05OS01YVWRjSlZ3SWRYRW9BRkdFS3JiMFZlVFNGenVaWk1MN2hjVExVOHc5a3IyRDZBaEhoUTUxMndyUFdRZWZfSHFYRmp0dmZVMmxGQ0F4djlXS1A5MG5aby1iT1ZBalc3UXItYzlqS0hPS3BMcml6c1hVdDNoTTZrcVpVNmdCdzBLOEs0azVKZ29xdDF1V2VoZHM0YUpYRVRXZDZEd1l2dVlGaWNPLTJNdjJ4QmlCSmJpTmtQWDM5Nkhv0gHHAUFVX3lxTE83QWMzTk5LTVhVZGNKVndJZFhFb0FGR0VLcmIwVmVUU0Z6dVpaTUw3aGNUTFU4dzlrcjJENkFoSGhRNTEyd3JQV1FlZl9IcVhGanR2ZlUybEZDQXh2OVdLUDkwblpvLWJPVkFqVzdRci1jOWpLSE9LcExyaXpzWFV0M2hNNmtxWlU2Z0J3MEs4SzRrNUpnb3F0MXVXZWhkczRhSlhFVFdkNkR3WXZ1WUZpY08tMk12MnhCaUJKYmlOa1BYMzk2SG8?oc=5
+· BRENT Dólar cai a R$ 5,02 e Bolsa sobe influenciados por eleição e petróleo (UOL Economia) https://news.google.com/rss/articles/CBMiswFBVV95cUxOcXQtZ3RqSU9JWFRoRHZZOEpkZmVaOHVqR0tVYUZZX3pSVmR4SElxUGNYR3FtdGFVdTB2VkY0a1o2YmJYSC1JZEZWdkZuemZ4YkhrYnJfZUlNSE80SGo0d3owZm0teFZxUF8wOGZ0U01pR1NnU3BwZElWNVZHMnRvZ1Nrc0QtNnhzVHZMZjFjdk9ocjJWdW9DdXpNWlpQWjVPSGQ2N1BnVXpxaEJhbko3aTFRWQ?oc=5
+· ETH Current price of Ethereum for October 20, 2026 (Fortune) https://news.google.com/rss/articles/CBMiaEFVX3lxTFBqQjZXRjctR1NwY1RjSlZsN3VhU2YzTk5MSzU0dlFObXdiWEYzM3BoRWdDYnFtbWRMSTNualZhUkZRWjZ2bXQ3eGVMZlBZamx5MmJzQjMyR2N4UnhtdDVkbjlRUUNMenR2?oc=5
+· BTC Current price of Bitcoin for Oct. 20, 2026 (Fortune) https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBYZGxkaDRrV0pqWHU5YVZmU2dvY1pEQ3gtOS1iWmdfS3BuaEdHN25HajJPUmxFR2Fmb2Z1UFNScHMzeUgxZXpSTDh4dHpwRTN1Q2dYNUVvSmNfTm13NXZwSml4blpZMW8?oc=5
 · VALE3 Vale (VALE3) entra em sobrevenda; ação pode reagir ou ainda tem espaço para cair? (InfoMoney) https://www.infomoney.com.br/mercados/vale-vale3-entra-em-sobrevenda-acao-pode-reagir-ou-ainda-tem-espaco-para-cair/
 · BRENT Taxas do Tesouro Direto caem forte após novas pesquisas, mesmo com alta do petróleo (InfoMoney) https://www.infomoney.com.br/onde-investir/tesouro-direto-abertura-fechamento-20102026/
 · MU Micron Invests In US Indium Processing Amid China Export Restrictions – MU Stock Still Dips (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:6fa3edd00094b:0-micron-invests-in-us-indium-processing-amid-china-export-restrictions-mu-stock-still-dips/
