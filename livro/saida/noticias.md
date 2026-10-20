@@ -1,8 +1,33 @@
-NOTÍCIAS E FATOS · 19/10 21h13
+NOTÍCIAS E FATOS · 20/10 08h32
 
-Pernas: noticias ok 3 novas (18 consultas; descartadas: 469 veículo fora da lista, 42 sem ativo, 0 teto) · cvm ok 0 novos de 4 (4 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 19 novas (18 consultas; descartadas: 481 veículo fora da lista, 35 sem ativo, 44 teto) · cvm ok 2 novos de 4 (2 cias casadas) · sec ok 1 novos em 3 dias
 
-## FATOS RELEVANTES E COMUNICADOS (CVM) (4)
+## FATOS RELEVANTES E COMUNICADOS (CVM) (6)
+
+[ATENÇÃO] E03 · AXIA3 · Fato Relevante: O seu Conselho de Administração aprovou, nesta data, o resgate de 59.264.305 ações preferenciais classe “C” (“PNC”), equivalente a R$ 3,48 bilhões e…
+CVM · entregue 20/10/2026 07:35
+Do documento:
+  – Os principais termos e condições da operação são os seguintes:  • Data de corte da B3: 21 de outubro de 2026.
+  – • Data ex-direitos: a partir de 22 de outubro de 2026 as ações PNC passarão a ser negociadas ex- direitos.
+  – • Valor total do resgate: R$ 3,48 bilhões.
+  – • Valor do resgate da ação PNC: R$ 58,72 por ação, correspondente a cotação de fechamento das  ações ordinárias de emissão da Companhia no pregão do dia 19 de outubro de 2026.
+  – • Tratamento tributário para investidores não residentes: informações sobre o tratamento tributário  aplicável ao resgate, em especial para investidores não residentes (“INRs”), encontram-se detalhadas n o  Aviso aos Ac…
+  – O período para  manifestação será de 26 a 28 de outubro de 2026 inclusive.
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1578524
+Por que importa: fato relevante e o que a propria companhia julga capaz de mover o preco; ler o documento inteiro antes de comentar
+Ativos: AXIA3
+Como falar: 'a Axia Energia publicou fato relevante sobre O seu Conselho de Administração aprovou, nesta data, o resgate de 59.…'
+Fonte: CVM 20/10
+id: E03-AXIA3-1578524-2026-10-20 · status: pendente · íntegra disponível
+
+[INFO] E03 · AXIA3 · Aviso aos Acionistas: Outros avisos
+CVM · entregue 20/10/2026 07:36 · Outros avisos
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1578535
+Por que importa: aviso aos acionistas traz provento, data-com ou evento societario que muda o fluxo ao acionista
+Ativos: AXIA3
+Como falar: 'a Axia Energia publicou aviso aos acionistas sobre Outros avisos'
+Fonte: CVM 20/10
+id: E03-AXIA3-1578535-2026-10-20 · status: linha
 
 [INFO] E03 · ALUP4 · Participação relevante: gestor reduziu para 4,82%
 CVM · entregue 19/10/2026 19:47 · Aquisição/Alienação de Participação Acionária Relevante / Declaração de Alienação de Participação Acionária Relevante
@@ -44,7 +69,23 @@ Fonte: CVM 16/10
 id: E03-DIRR3-28709e18-2026-10-16 · status: linha
 
 
-## SEC (8-K, 6-K, 10-Q, 10-K) (1)
+## SEC (8-K, 6-K, 10-Q, 10-K) (2)
+
+[ATENÇÃO] E04 · MMM · 8-K: 2.02 resultado do trimestre
+SEC EDGAR · aceito 20/10 07h35 · 8-K
+Do documento:
+  – FALSE 0000066740 NYSETX Common Stock, Par Value $.01 Per Share 3M Center St.
+  – Financial Statements and Exhibits   (d) Exhibits   Exhibit Number Description   99.1   Press Release, dated as of October 20, 2026, of 3M Company (furnished pursuant to Item 2.02 hereof) .
+  – 104 Cover Page Interactive Data File (the cover page XBRL tags are embedded in the Inline XBRL document).
+  – SIGNATURE   Pursuant to the requirements of the Securities Exchange Act of 1934, the Registrant has duly caused this report to be signed on its behalf by the undersigned hereunto duly authorized.
+  – 3M COMPANY   By:   /s/ Kevin H.
+  – Rhodes,   Executive Vice President, Chief Legal Affairs Officer and Secretary   Dated: October 20, 2026
+Link: https://www.sec.gov/Archives/edgar/data/66740/000006674026000308/mmm-20261020.htm
+Por que importa: resultado do trimestre reprecifica lucro, guidance e multiplo; comparar com o consenso
+Ativos: MMM
+Como falar: 'a MMM protocolou 8-K na SEC (2.02 resultado do trimestre)'
+Fonte: SEC EDGAR 2026-10-20
+id: E04-MMM-26000308-2026-10-20 · status: pendente · íntegra disponível
 
 [INFO] E04 · MMM · 8-K: 7.01 Regulation FD
 SEC EDGAR · aceito 19/10 17h55 · 8-K
@@ -63,7 +104,50 @@ Fonte: SEC EDGAR 2026-10-19
 id: E04-MMM-26000303-2026-10-19 · status: linha · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (20)
+## NOTÍCIAS COM MATERIALIDADE (24)
+
+[ATENÇÃO] E05 · MMM · 3M Lifts Earnings Outlook as Profit Jumps
+The Wall Street Journal · 20/10 08h30 · fonte única · licença: manchete
+Link: https://www.wsj.com/business/earnings/3m-lifts-earnings-outlook-as-profit-jumps-5c5ac54a
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: MMM
+Como falar: 'saiu no The Wall Street Journal: 3M Lifts Earnings Outlook as Profit Jumps; confirmar o número no texto antes de repassar'
+Fonte: The Wall Street Journal 20/10 08h30
+id: E05-MMM-bb896be4de-2026-10-20 · status: pendente
+
+[ATENÇÃO] E05 · MMM · 3M Company Expects Outlook FY FCF Of About $4.8 Billion
+TradingView (Reuters) · 20/10 07h56 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/reuters.com,2026:newsml_FWN4660YK:0-3m-company-expects-outlook-fy-fcf-of-about-4-8-billion/
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: MMM
+Como falar: 'saiu no TradingView (Reuters): 3M Company Expects Outlook FY FCF Of About $4.8 Billion; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 20/10 07h56
+id: E05-MMM-b49daa67fe-2026-10-20 · status: pendente
+
+[ATENÇÃO] E05 · MMM · 3M tops forecasts for Q3 profit and full-year guidance; shares climb
+Investing.com · 20/10 07h52 · fonte única · licença: manchete
+Link: https://au.investing.com/news/earnings/3m-tops-forecasts-for-q3-profit-and-fullyear-guidance-shares-climb-4701020
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: MMM
+Como falar: 'saiu no Investing.com: 3M tops forecasts for Q3 profit and full-year guidance; shares climb; confirmar o número no texto antes de repassar'
+Fonte: Investing.com 20/10 07h52
+id: E05-MMM-7d551e6fc8-2026-10-20 · status: pendente
+
+[ATENÇÃO] E05 · MMM · 3M Reports Third-Quarter 2026 Results; Raises Full-Year EPS Guidance
+Yahoo Finance · 20/10 07h30 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – 20, 2026 /PRNewswire/ -- 3M (NYSE: MMM) today reported third-quarter results.
+  – "We delivered another quarter of strong results, including solid sales growth, continued margin expansion, double-digit EPS growth, and robust free cash flow," said William Brown, 3M Chairman and CEO.
+  – "Improving productivity through structural transformation and a stronger pipeline of differentiated technologies reinforce our confidence in the full-year outlook and long-term growth and margin potential.
+  – - GAAP EPS of $2.63 and operating margin of 23.7%.
+  – - Adjusted EPS of $2.50, up 12% year-on-year.
+  – - Adjusted operating income margin of 26.2%, up 110 basis points year-on-year.
+Link: https://finance.yahoo.com/markets/stocks/articles/3m-reports-third-quarter-2026-103000413.html
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: MMM
+Como falar: 'saiu no Yahoo Finance: 3M Reports Third-Quarter 2026 Results; Raises Full-Year EPS Guidance; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 20/10 07h30
+id: E05-MMM-c2716ce8dd-2026-10-20 · status: linha
 
 [ATENÇÃO] E05 · BAC · Should You Buy Bank of America Stock After a $1.2 Billion Regulatory Fine?
 Yahoo Finance · 19/10 09h20 · fonte única · licença: resumo
@@ -88,7 +172,7 @@ Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais
 Ativos: GOOGL
 Como falar: 'saiu no Investing.com: KeyBanc lowers Alphabet stock price target on cloud, search outlook By Investing.com; confirmar o número no texto antes de repassar'
 Fonte: Investing.com 19/10 16h17
-id: E05-GOOGL-7f8ed29fce-2026-10-19 · status: pendente
+id: E05-GOOGL-7f8ed29fce-2026-10-19 · status: expirado
 
 [ATENÇÃO] E05 · KO · If You Invest $200 a Month in Coca-Cola (KO) Stock, Here's the Dividend Income It Could Generate Over 10 Years.
 Yahoo Finance · 19/10 17h10 · fonte única · licença: resumo
@@ -104,7 +188,7 @@ Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir
 Ativos: KO
 Como falar: 'saiu no Yahoo Finance: If You Invest $200 a Month in Coca-Cola (KO) Stock, Here's the Dividend Income It Could G…; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 19/10 17h10
-id: E05-KO-c6af630f50-2026-10-19 · status: expirado
+id: E05-KO-c6af630f50-2026-10-19 · status: entregue
 
 [ATENÇÃO] E05 · BBAS3 · Banco do Brasil lança 'Cofrinho de Proventos' para reinvestir dividendos de forma automática, mas tem um ponto de atenção
 Seu Dinheiro · 19/10 17h02 · fonte única · licença: resumo
@@ -334,8 +418,23 @@ Fonte: Yahoo Finance 18/10 11h53
 id: E05-TSM-cead2a6c14-2026-10-18 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (155)
+## OUTRAS NOTÍCIAS (só manchete) (170)
 
+· TSM TSMC: The Margin Peak That Isn’t (NYSE:TSM) (Seeking Alpha) https://seekingalpha.com/article/4955439-taiwan-semiconductor-stock-margin-peak-that-isnt
+· AXIA3 Axia Energia (AXIA3) aprova resgate de R$ 3,48 bilhões em ações PNC e abre prazo para conversão em ordinárias (Money Times) https://www.moneytimes.com.br/axia-energia-axia3-aprova-resgate-de-r-348-bilhoes-em-acoes-pnc-e-abre-prazo-para-conversao-em-ordinarias-lmrs/
+· BTC Equity weakness could damp demand for bitcoin after biggest ETF inflows in a month (CoinDesk) https://www.coindesk.com/daybook-us/2026/10/20/equity-weakness-could-damp-demand-for-bitcoin-after-biggest-etf-inflows-in-a-month
+· AXIA3 Momento B3: Americanas, Axia, Raízen, Totvs e os principais destaques desta terça-feira (20) (ADVFN) https://br.advfn.com/jornal/2026/10/momento-b3-americanas-axia-raizen-totvs-e-os-principais-destaques-desta-terca-feira-20
+· AXIA3 Axia Energia (AXIA3) converterá 35 milhões de ações preferenciais em ordinárias (InfoMoney) https://www.infomoney.com.br/mercados/axia-energia-axia3-convertera-35-milhoes-de-acoes-preferenciais-em-ordinarias/
+· DI Selic alta protege o patrimônio? Entenda os limites (ADVFN) https://br.advfn.com/jornal/2026/10/selic-alta-diversificacao-internacional-patrimonio
+· LITE Coherent stock and Lumentum shares set to report earnings next week, Bernstein previews (Investing.com) https://in.investing.com/news/stock-market-news/coherent-stock-and-lumentum-shares-set-to-report-earnings-next-week-bernstein-previews-93CH-5642328
+· TSLA Tesla reports third quarter earnings Wednesday, Sell-side comments By Investing.com (Investing.com) https://ng.investing.com/news/stock-market-news/tesla-reports-third-quarter-earnings-wednesday-sellside-comments-93CH-2745460
+· MMM 3M (NYSE:MMM) Reports Q3 2026 In Line With Expectations (TradingView (Reuters)) https://www.tradingview.com/news/stockstory:2f25fb25b094b:0-3m-nyse-mmm-reports-q3-2026-in-line-with-expectations/
+· MMM 3M earnings beat by $0.11, revenue fell short of estimates (Investing.com) https://in.investing.com/news/earnings/3m-earnings-beat-by-011-revenue-fell-short-of-estimates-5642279
+· GOOGL Google Cloud Outage Takes Down Revolut and Other Banks in UK (Bloomberg) https://www.bloomberg.com/news/articles/2026-10-20/google-cloud-outage-takes-down-revolut-and-other-banks-in-uk
+· BRENT Mercados acompanham contagem regressiva para eleição, ADP nos EUA e salto do petróleo; Ibovespa em dólar sobe nesta terça-feira (20) (Money Times) https://news.google.com/rss/articles/CBMi9wFBVV95cUxNQWY2UEUzWnE1YXNJbXRnTkVtVllmZ0EyWjJ0MXdjNzBqNEJzbVNBU040cF9MVm5qZnJWVFN3blF5ekk2ZHNqVzBMOXpFVGVFeDNwVFdNWHNkV0d3enk2UC0wQkstUVlOZ2dQSnlQNFp6QjlaMXZuYUlOUGhiaHYxZDktWF8zbFNEeHhEOHE0RTczWms1NnVlMkp6dHVzallVZWtxcXdXd1czNF9xZFNpZm50eHdaMHpWdHYtSzVkRDNld2lRSXVjdTFsTWdMbHJVSGRzaXJoSEZhMjQ3WFBHc3pnSmVsUlhhUjRvbUZ3YlEyUFRFVWpv?oc=5
+· JPM Jamie Dimon Details JPMorgan’s Push to Fund Defense, Healthcare and Energy Infrastructure (The Wall Street Journal) https://news.google.com/rss/articles/CBMimgJBVV95cUxNUHNrWnFOQ01Td2RmMFFXazZHR1FqbHY5UnF2OE5DUEtHeEFGZFJlbWtoejN5QldpWWxQUlUyTHFXaWZHS0ZiNk1uVVJMd0I1YVcwTzBVMUJhUkNJSGVueG1tUUJCaFJZNGlmVTVaa0NNT1lCdFkxTFhwQ1ZERUM2eTlPNVJ1ejl3TzdrMVVDVkVFQWlIcjRxQW96SjkxTjB4SGxCbzVsS0Rjb1JYbV9za0t5MFkyVG9OT212enJ5d3JBX3h2RHpXaW0yeTlsX3IyZXNMLWJfdHVtbERVLXhvSlN1YXVQeDBpNTljVE9nWkx2UzFlMEJBZW1RdE9LSEJXNm1xelllaDMtN3REdUpfNENNM3lfYVQ1cUE?oc=5
+· NVDA ByteDance, Alibaba and Tencent order $35 billion of Nvidia chips: Reuters (Yahoo Finance) https://news.google.com/rss/articles/CBMimwFBVV95cUxQc3FzUjAwbGtKMG13MFNmZFNJT3JnU2EwNWllSWZHX2llZkRDcXVEUDh3aWFyb1lHNzFyLWxoZmhfeXVrOW04UTViOVF5TzhQMWhMeUZSRk5yRzRLbE1VZ09Ta251bm5ua04yOGFNSmdzcmZ3V3dCZlhiaEtib3U2QUU3WEZqV0ZUbjBfanZaUWpmRVhEVmFYcGNxQQ?oc=5
+· BRENT Brent Crude Hits Five-Month High as Houthi Attack Claims Raise Oil Supply Concerns (Yahoo Finance) https://news.google.com/rss/articles/CBMijAFBVV95cUxQclZoUTdjU1ZlSUF4TTdNQVgyY3JlOXVYMExpNWtyeW1Ea1dWRDZzVTVzcG5DeHFyNUo2WXIxTlE3bHBCMWZ6ZXJwVXdEMmszSlNCSlN5TGk5UFRDcmRrSTBNYUgtZzNnMmFlZWN0WmhkUmtFVFMxQ2k2VTFBeWtFNmlqR0tHT2tlaG5ycA?oc=5
 · BTC Bitcoin Volatility Hits 2.5-Year Low as Traders Brace for 30% Move (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-volatility-hits-2-5-222051331.html
 · NVDA Nvidia’s Valuation and Narrative Risk are High Now So Act Accordingly (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/nvidia-valuation-narrative-risk-high-111541294.html
 · INTC Did Foundry Win Just Shift Intel (INTC) Investment Narrative? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/did-foundry-win-just-shift-221539389.html
@@ -381,19 +480,4 @@ id: E05-TSM-cead2a6c14-2026-10-18 · status: linha
 · GOOGL Alphabet Stock Rises: What's Going On? (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:82330c6eb094b:0
 · CVX Chevron Stock Price Targets Are Up and Put Credit Spreads Are Attractive to Value Players (Yahoo Finance) https://finance.yahoo.com/markets/options/articles/chevron-stock-price-targets-put-130002552.html
 · AMZN Amazon: Big Morgan Stanley Upgrade, Primed Into Earnings (NASDAQ:AMZN) (Seeking Alpha) https://seekingalpha.com/article/4955277-amazon-big-morgan-stanley-upgrade-primed-into-earnings
-· USDBRL Ouro cai com pressão dos Treasuries e alta do dólar global (Money Times) https://www.moneytimes.com.br/ouro-19-10-26-lils/
-· AVGO Broadcom (AVGO) Sees AI Chip Sales Up 236%, but Who Is Paying? (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/broadcom-avgo-sees-ai-chip-182852846.html
-· KLBN4 Klabin (KLBN11) pode decepcionar no 3T26? Safra prevê resultado 11% abaixo do esperado (Suno Noticias) https://www.suno.com.br/noticias/klabin-klbn11-previa-resultados-terceiro-trimestre-2026-mt/
-· JPM Intel stock surges on JPMorgan upgrade after 14% weekly plunge (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/intel-stock-surges-jpmorgan-upgrade-181149210.html
-· TSLA Magnificent 7 Earnings Preview: Meta & Tesla Take Center Stage This Week (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/magnificent-7-earnings-preview-meta-173500726.html
-· TSLA Tesla’s Biggest Earnings Risk May Be Its Bullish Sentiment (NASDAQ:TSLA) (Seeking Alpha) https://seekingalpha.com/article/4955256-tesla-biggest-earnings-risk-may-be-its-bullish-sentiment
-· NVDA Nvidia (NVDA) Stock Price Lags Massive Earnings Growth—A Compelling Value Opportunity (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/nvidia-nvda-stock-price-lags-173216123.html
-· MRVL Marvell Technology (MRVL) Forms Cloud Security Alliance After New CXL And Connectivity Launches (Yahoo Finance) https://finance.yahoo.com/technology/articles/marvell-technology-mrvl-forms-cloud-161339233.html
-· PLTR Why Is Palantir Technologies Stock Gaining Monday? (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:ec14720d2094b:0
-· USDBRL Dólar e Ibovespa operam em queda, com foco nas eleições presidenciais (g1) https://g1.globo.com/economia/noticia/2026/10/19/dolar-ibovespa.ghtml
-· KO All It Takes Is 472 Shares of Coca-Cola Stock to Earn $1,000 a Year in Dividends. Is It Worth It? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/takes-472-shares-coca-cola-113100679.html
-· BTC Strategy buys another $22 million of Bitcoin, increases planned share buybacks (Fortune) https://fortune.com/2026/10/19/strategy-22-million-bitcoin-planned-share-buybacks/
-· GOOGL Cognizant And Google Cloud Expand Alliance To Accelerate Agentic Enterprise Transformation (TradingView (Reuters)) https://www.tradingview.com/news/reuters.com,2026:newsml_FWN4650YZ:0-cognizant-and-google-cloud-expand-alliance-to-accelerate-agentic-enterprise-transformation/
-· JPM Intel Stock Jumps After JPMorgan Upgrade on AI Demand (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/intel-stock-jumps-jpmorgan-upgrade-170744884.html
-· JPM Jamie Dimon slammed crypto. JPMorgan quietly built JPM Coin. (Yahoo Finance) https://finance.yahoo.com/video/jamie-dimon-slammed-crypto-jpmorgan-163000069.html
-· (+95 manchetes; lista completa em eventos/noticias.json)
+· (+110 manchetes; lista completa em eventos/noticias.json)
