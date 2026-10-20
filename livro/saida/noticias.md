@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 20/10 12h39
+NOTÍCIAS E FATOS · 20/10 13h22
 
-Pernas: noticias ok 8 novas (18 consultas; descartadas: 490 veículo fora da lista, 32 sem ativo, 0 teto) · cvm ok 0 novos de 5 (3 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 17 novas (18 consultas; descartadas: 475 veículo fora da lista, 33 sem ativo, 1 teto) · cvm ok 0 novos de 5 (3 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (3)
 
@@ -58,7 +58,39 @@ Fonte: SEC EDGAR 2026-10-20
 id: E04-MMM-26000308-2026-10-20 · status: entregue · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (17)
+## NOTÍCIAS COM MATERIALIDADE (19)
+
+[ATENÇÃO] E05 · TSLA · Tesla Q3 preview: Delivery outlook, cash flow, and a dash of merger speculation on tap
+Yahoo Finance · 20/10 13h06 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Tesla is expected to report Q3 revenue of $28.13 billion, flat year over year, per Bloomberg consensus.
+  – Adjusted EPS is estimated at $0.44, with adjusted EBITDA of $3.66 billion.
+  – Consensus EBIT of $760 million, a 2.7% margin, would be a step up from $400 million and 1.4% in Q2.
+  – Tesla stock is still down about 17% this year, a test for investors, but typically the company rallies on stronger deliveries in the back half of the year.
+  – Tesla reported Q3 deliveries of 486,532, down 2% from a year ago but well ahead of Bloomberg consensus of 463,000.
+  – Energy storage deployments came in at 13.7 GWh, up from 12.5 GWh a year ago and Q2's 13.5 GWh.
+Link: https://finance.yahoo.com/markets/stocks/article/tesla-q3-preview-delivery-outlook-cash-flow-and-a-dash-of-merger-speculation-on-tap-160637755.html
+Por que importa: aquisicao ou venda muda alavancagem, mix de receita e o multiplo; olhar preco pago e financiamento
+Ativos: TSLA
+Como falar: 'saiu no Yahoo Finance: Tesla Q3 preview: Delivery outlook, cash flow, and a dash of merger speculation on tap; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 20/10 13h06
+id: E05-TSLA-891bd32f4e-2026-10-20 · status: pendente
+
+[ATENÇÃO] E05 · MMM · MMM Q3 Earnings Top Estimates on Industrial Strength, Outlook Raised
+Yahoo Finance · 20/10 11h24 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – 3M Company MMM posted third-quarter 2026 results, wherein earnings surpassed the Zacks Consensus Estimate but revenues met the same.
+  – 3M delivered adjusted earnings of $2.50 per share, which surpassed the Zacks Consensus Estimate of $2.40 by 4.2%.
+  – The bottom line increased 12% year over year.
+  – The company reported net revenues (on a GAAP basis) of $6.6 billion in the quarter.
+  – The metric increased 1% year over year.
+  – Foreign currency translation had an adverse impact of 0.1% while acquisitions/divestitures had a positive impact of 0.9%.
+Link: https://finance.yahoo.com/markets/stocks/articles/mmm-q3-earnings-top-estimates-142400617.html
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: MMM
+Como falar: 'saiu no Yahoo Finance: MMM Q3 Earnings Top Estimates on Industrial Strength, Outlook Raised; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 20/10 11h24
+id: E05-MMM-a5274d628b-2026-10-20 · status: pendente
 
 [ATENÇÃO] E05 · MMM · 3M Q3 Adjusted Earnings, Revenue Rise; Full-Year Adjusted EPS Outlook Upgraded -- Shares Up Pre-Bell
 Yahoo Finance · 20/10 07h48 · fonte única · licença: resumo
@@ -78,7 +110,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: MMM
 Como falar: 'saiu no Investing.com: 3M Q3 2026 slides: margin expansion drives raised guidance; confirmar o número no texto antes de repassar'
 Fonte: Investing.com 20/10 11h52
-id: E05-MMM-79b31c3a74-2026-10-20 · status: pendente
+id: E05-MMM-79b31c3a74-2026-10-20 · status: entregue
 
 [ATENÇÃO] E05 · MMM · Earnings call transcript: 3M tops Q3 2026 profit views as shares rise
 Investing.com · 20/10 11h32 · fonte única · licença: manchete
@@ -87,7 +119,7 @@ Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; 
 Ativos: MMM
 Como falar: 'saiu no Investing.com: Earnings call transcript: 3M tops Q3 2026 profit views as shares rise; confirmar o número no texto antes de repassar'
 Fonte: Investing.com 20/10 11h32
-id: E05-MMM-6085f3bd72-2026-10-20 · status: pendente
+id: E05-MMM-6085f3bd72-2026-10-20 · status: entregue
 
 [ATENÇÃO] E05 · MMM · 3M raises 2026 earnings guidance after quarterly profit growth
 Yahoo Finance · 20/10 11h07 · fonte única · licença: resumo
@@ -103,7 +135,7 @@ Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; 
 Ativos: MMM
 Como falar: 'saiu no Yahoo Finance: 3M raises 2026 earnings guidance after quarterly profit growth; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 20/10 11h07
-id: E05-MMM-093cd8bce0-2026-10-20 · status: pendente
+id: E05-MMM-093cd8bce0-2026-10-20 · status: entregue
 
 [ATENÇÃO] E05 · TSLA · What could a Tesla-SpaceX merger earn? Cathie Wood's Ark Invest has a $2.7 trillion answer.
 Yahoo Finance · 20/10 10h08 · fonte única · licença: resumo
@@ -279,8 +311,23 @@ Fonte: Yahoo Finance 20/10 07h30
 id: E05-MMM-c2716ce8dd-2026-10-20 · status: entregue
 
 
-## OUTRAS NOTÍCIAS (só manchete) (66)
+## OUTRAS NOTÍCIAS (só manchete) (81)
 
+· TSLA Tesla earnings preview: Fireworks or the calm before the SpaceX merger? (TSLA:NASDAQ) (Seeking Alpha) https://seekingalpha.com/news/4654646-tesla-earnings-preview-fireworks-or-the-calm-before-the-spacex-merger
+· MMM 3M Q3 Earnings Call Highlights (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/3m-q3-earnings-call-highlights-160421732.html
+· BRENT Oil Prices Reverse Gains, Move Lower After Brent Tops $111 a Barrel (The Wall Street Journal) https://www.wsj.com/business/energy-oil/oil-prices-up-as-traders-weigh-middle-east-supply-risks-560c31ca
+· GOOGL Knexus Accelerates Enterprise AI Transformation with Google Cloud's Gemini for Government Services (PR Newswire) https://www.prnewswire.com/news-releases/knexus-accelerates-enterprise-ai-transformation-with-google-clouds-gemini-for-government-services-302914330.html
+· TSM TSMC Stock: AI Demand Drives Strong Q3 Results (NYSE:TSM) (Seeking Alpha) https://seekingalpha.com/article/4955542-tsmc-stock-ai-demand-drives-strong-q3-results
+· ITUB4 Vamos (VAMO3) sobe entre as maiores altas do Ibovespa; Itaú BBA eleva alvo a R$ 9 (Investing.com) https://br.investing.com/news/stock-market-news/vamos-vamo3-sobe-entre-as-maiores-altas-do-ibovespa-itau-bba-eleva-alvo-a-r-9-2096824
+· EQTL3 Aneel aprova alta tarifária média de 7,25% para consumidores da Equatorial Goiás Distribuidora (UOL Economia) https://economia.uol.com.br/noticias/estadao-conteudo/2026/10/20/aneel-aprova-alta-tarifaria-media-de-725-para-consumidores-da-equatorial-goias-distribuidora.htm
+· ITUB4 Bancos abrem temporada do 3T26 com crédito sob pressão; o que esperar de Bradesco, Santander, Itaú e Banco do Brasil? (Money Times) https://www.moneytimes.com.br/bancos-abrem-temporada-do-3t26-com-credito-sob-pressao-o-que-esperar-de-bradesco-santander-itau-e-banco-do-brasil-miql/
+· MRVL Will AI Data Center Launches Change Marvell Stock Narrative (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/ai-data-center-launches-change-151227292.html
+· GOOGL Alphabet's Cloud Growth, TPU Sales Could Drive Q3 Upside, BofA Says (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/alphabet-apos-cloud-growth-tpu-151007904.html
+· KO Coca-Cola stock may move 2.9% on earnings release next week (Investing.com) https://www.investing.com/news/stock-market-news/cocacola-stock-may-move-29-on-earnings-release-next-week-93CH-4960520
+· GOOGL Power outage hits Google Cloud services, disrupting UK banks (Yahoo Finance) https://uk.finance.yahoo.com/news/power-outage-hits-google-cloud-141629539.html
+· META Will Higher Ad Revenues Aid Meta Platforms Stock in Q3 Earnings? (TradingView (Reuters)) https://www.tradingview.com/news/zacks:83f027b93094b:0-will-higher-ad-revenues-aid-meta-platforms-stock-in-q3-earnings/
+· BTC Bitcoin ETFs Post Best Day In A Month (Yahoo Finance) https://news.google.com/rss/articles/CBMilgFBVV95cUxQRmRWamxFYkRXX01ZM0dRaE8wc2hWb09rUVJCNUIyT2NOQ2l6SjVHSi05RGRkdWN3aUFZOVRyamZRM1FTU3hJcHFNZXJtd3FmVHlmbG8ybjZVM2EwcWpqVFFWd0FOY0FZMHkydVBWQi1HUHlpQTE3c1BvVlZSVmw2ckFGUjJkYlVpOHRqRU5MZnVzSFg4Ync?oc=5
+· BRENT Bolsa sobe mais de 1% e dólar recua com eleição e petróleo no radar (Folha de S.Paulo) https://news.google.com/rss/articles/CBMivgFBVV95cUxPWHFpRU5ITnVIVGppWkZwTGxjdlVYd0Z4TzNaN3E0azkwSklSbHRfdkJaUTNpU0c5dXBQMUd6VkFTN2U1R1c0VkljVExxc2gxUkZpY3VMcUhsN3lJRXZIa21kYUs1dmVkUWpOM0Q4TnpyMmplVE5BcjlURnowUDlJdkdBTmFUNXZzYlEzanBFMkVjZkxONFYtTW42em1uTlR6aWw4ZHR3Tm5hc0lfRlBfQjJfT1B6bGpCNjdDZ09B?oc=5
 · BTC BlackRock seeks to shield Bitcoin investors from losses after rival fund weathers 50% crash (CoinDesk) https://www.coindesk.com/markets/2026/10/20/blackrock-seeks-to-shield-bitcoin-investors-from-losses-after-rival-fund-weathers-50-crash
 · KO Coca-Cola stock may move 2.9% on earnings release next week (Investing.com) https://ng.investing.com/news/stock-market-news/cocacola-stock-may-move-29-on-earnings-release-next-week-93CH-2746392
 · JPM Enterprise value to EBITDA forward of JPMorgan Emerging Markets Dividend Income plc GBP – TURQUOISE:JEMIL (TradingView (Reuters)) https://www.tradingview.com/symbols/TURQUOISE-JEMIL/financials-statistics-and-ratios/enterprise-value-ebitda-fwd/
@@ -326,19 +373,4 @@ id: E05-MMM-c2716ce8dd-2026-10-20 · status: entregue
 · MU Cantor Fitzgerald reiterates Micron stock rating on supply outlook By Investing.com (Investing.com) https://in.investing.com/news/stock-market-news/cantor-fitzgerald-reiterates-micron-stock-rating-on-supply-outlook-93CH-5642768
 · AMZN 3M’s Q3 Earnings Beat Was Solid, But Its Amazon Fiber Optic Pact is the Real Story (Barron's) https://www.barrons.com/articles/3m-earnings-amazon-optical-connectivity-warrant-deal-03d78678
 · TSLA Why Tesla Could Make Much More Money (NASDAQ:TSLA) (Seeking Alpha) https://seekingalpha.com/article/4955458-why-tesla-could-make-much-more-money
-· ETH Current price of Ethereum for Oct. 20, 2026 (Fortune) https://fortune.com/article/price-of-ethereum-10-20-2026/
-· USDBRL Ibovespa futuro salta mais de 2 mil pontos após a abertura com ‘trade eleitoral’; dólar cai (Money Times) https://www.moneytimes.com.br/ibovespa-futuro-20-10-26-lils/
-· TSLA Tesla Catalyst Week: What Earnings, SpaceX, and AI Mean for Battered TSLA Stock (Barron's) https://www.barrons.com/articles/tesla-earnings-spacex-merger-ai-tsla-stock-outlook-cbada0dd
-· MU Micron Stock: The AI Memory Tax Could Change Everything (NASDAQ:MU) (Seeking Alpha) https://news.google.com/rss/articles/CBMimwFBVV95cUxQUm5LdHJSWlJqVGF4a2ZQZUllSGE2RU1kQlctd0lMd2JNSW1HRzRYSXVIR1E1SjJ6RGh0OGRiWGtpbTRKOFBVcmN0cXhqUEQwN0dhZXRwcGJKUXVvR3kyUE5fRm00NVZ5TVlwT2paR2haaXBsbXNvakhtV3dINEx1Q25OdEZyeGQ2ejBFNWQ5OVI0T2M1SzhpMndSVQ?oc=5
-· USDBRL Dólar cai na abertura ante o real em sintonia com o exterior Por Reuters (Investing.com) https://news.google.com/rss/articles/CBMirgFBVV95cUxQa28xMUxPYjlzdUtWRE9wOTRSVTFTQ2ZCaVo1SHNYbkU0Yl9pUGVvdUNvSlZXNEl6Y1NQdjVaQmNmT3A5U2xIZU5PczNnQ1hnQkdUdGI3ZEpocU81b0ZKV2E3N3JBMUcyV2xTVTdxTENLd3ZDTWVNUUdzSzB2YVd4QkZNQ0ZKTUNDdTdYeWR0VDNibmJZT2drdUFrS3NJYnBNUWFqY2tocDRrWVpETWc?oc=5
-· GOOGL How Investors May Respond To Google (GOOGL) London Cloud Outage (Yahoo Finance) https://news.google.com/rss/articles/CBMioAFBVV95cUxPUkVXZ2hId3Y1V2JTR1RWa2s4SnZhMUNiZlVCNDhiWE5TcnpBUXcwWnJNdnlqajVySTVaM3pUUHhmQThSSjdjWHg1eTFpZmFBRUR3bC1UMEY3WjVIeWZ0UGFvWEtKYmJBb2dGeFlBZFdHZXQ2dTd4QlBwRzh0WXEwR1pSRzZMcVJfWEdlQ0VsYXQ3TUZBeWM3S1ZVZlVxR3hN?oc=5
-· TSM TSMC: The Margin Peak That Isn’t (NYSE:TSM) (Seeking Alpha) https://seekingalpha.com/article/4955439-taiwan-semiconductor-stock-margin-peak-that-isnt
-· AXIA3 Axia Energia (AXIA3) aprova resgate de R$ 3,48 bilhões em ações PNC e abre prazo para conversão em ordinárias (Money Times) https://www.moneytimes.com.br/axia-energia-axia3-aprova-resgate-de-r-348-bilhoes-em-acoes-pnc-e-abre-prazo-para-conversao-em-ordinarias-lmrs/
-· BTC Equity weakness could damp demand for bitcoin after biggest ETF inflows in a month (CoinDesk) https://www.coindesk.com/daybook-us/2026/10/20/equity-weakness-could-damp-demand-for-bitcoin-after-biggest-etf-inflows-in-a-month
-· AXIA3 Momento B3: Americanas, Axia, Raízen, Totvs e os principais destaques desta terça-feira (20) (ADVFN) https://br.advfn.com/jornal/2026/10/momento-b3-americanas-axia-raizen-totvs-e-os-principais-destaques-desta-terca-feira-20
-· AXIA3 Axia Energia (AXIA3) converterá 35 milhões de ações preferenciais em ordinárias (InfoMoney) https://www.infomoney.com.br/mercados/axia-energia-axia3-convertera-35-milhoes-de-acoes-preferenciais-em-ordinarias/
-· DI Selic alta protege o patrimônio? Entenda os limites (ADVFN) https://br.advfn.com/jornal/2026/10/selic-alta-diversificacao-internacional-patrimonio
-· LITE Coherent stock and Lumentum shares set to report earnings next week, Bernstein previews (Investing.com) https://in.investing.com/news/stock-market-news/coherent-stock-and-lumentum-shares-set-to-report-earnings-next-week-bernstein-previews-93CH-5642328
-· TSLA Tesla reports third quarter earnings Wednesday, Sell-side comments By Investing.com (Investing.com) https://ng.investing.com/news/stock-market-news/tesla-reports-third-quarter-earnings-wednesday-sellside-comments-93CH-2745460
-· MMM 3M (NYSE:MMM) Reports Q3 2026 In Line With Expectations (TradingView (Reuters)) https://www.tradingview.com/news/stockstory:2f25fb25b094b:0-3m-nyse-mmm-reports-q3-2026-in-line-with-expectations/
-· (+6 manchetes; lista completa em eventos/noticias.json)
+· (+21 manchetes; lista completa em eventos/noticias.json)
