@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 20/10 13h22
+NOTÍCIAS E FATOS · 20/10 14h22
 
-Pernas: noticias ok 17 novas (18 consultas; descartadas: 475 veículo fora da lista, 33 sem ativo, 1 teto) · cvm ok 0 novos de 5 (3 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 15 novas (18 consultas; descartadas: 456 veículo fora da lista, 33 sem ativo, 3 teto) · cvm ok 0 novos de 5 (3 cias casadas) · sec ok 1 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (3)
 
@@ -39,7 +39,7 @@ Fonte: CVM 20/10
 id: E03-AXIA3-1578535-2026-10-20 · status: linha
 
 
-## SEC (8-K, 6-K, 10-Q, 10-K) (1)
+## SEC (8-K, 6-K, 10-Q, 10-K) (2)
 
 [ATENÇÃO] E04 · MMM · 8-K: 2.02 resultado do trimestre
 SEC EDGAR · aceito 20/10 07h35 · 8-K
@@ -57,8 +57,26 @@ Como falar: 'a MMM protocolou 8-K na SEC (2.02 resultado do trimestre)'
 Fonte: SEC EDGAR 2026-10-20
 id: E04-MMM-26000308-2026-10-20 · status: entregue · íntegra disponível
 
+[INFO] E04 · MMM · 10-Q: 10-Q
+SEC EDGAR · aceito 20/10 13h30 · 10-Q
+Link: https://www.sec.gov/Archives/edgar/data/66740/000006674026000311/mmm-20260930.htm
+Por que importa: 10-Q e o balanco trimestral completo
+Ativos: MMM
+Como falar: 'a MMM protocolou 10-Q na SEC (10-Q)'
+Fonte: SEC EDGAR 2026-10-20
+id: E04-MMM-26000311-2026-10-20 · status: linha
 
-## NOTÍCIAS COM MATERIALIDADE (19)
+
+## NOTÍCIAS COM MATERIALIDADE (20)
+
+[ATENÇÃO] E05 · META · META vs Tesla earnings setup ahead of Q3 2026 results By Investing.com
+Investing.com · 20/10 13h56 · fonte única · licença: manchete
+Link: https://ca.investing.com/news/stock-market-news/meta-vs-tesla-earnings-setup-ahead-of-q3-2026-results-93CH-4891463
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: META · TSLA
+Como falar: 'saiu no Investing.com: META vs Tesla earnings setup ahead of Q3 2026 results By Investing.com; confirmar o número no texto antes de repassar'
+Fonte: Investing.com 20/10 13h56
+id: E05-META-67bc8aaa4f-2026-10-20 · status: pendente
 
 [ATENÇÃO] E05 · TSLA · Tesla Q3 preview: Delivery outlook, cash flow, and a dash of merger speculation on tap
 Yahoo Finance · 20/10 13h06 · fonte única · licença: resumo
@@ -74,7 +92,7 @@ Por que importa: aquisicao ou venda muda alavancagem, mix de receita e o multipl
 Ativos: TSLA
 Como falar: 'saiu no Yahoo Finance: Tesla Q3 preview: Delivery outlook, cash flow, and a dash of merger speculation on tap; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 20/10 13h06
-id: E05-TSLA-891bd32f4e-2026-10-20 · status: pendente
+id: E05-TSLA-891bd32f4e-2026-10-20 · status: entregue
 
 [ATENÇÃO] E05 · MMM · MMM Q3 Earnings Top Estimates on Industrial Strength, Outlook Raised
 Yahoo Finance · 20/10 11h24 · fonte única · licença: resumo
@@ -90,7 +108,7 @@ Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; 
 Ativos: MMM
 Como falar: 'saiu no Yahoo Finance: MMM Q3 Earnings Top Estimates on Industrial Strength, Outlook Raised; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 20/10 11h24
-id: E05-MMM-a5274d628b-2026-10-20 · status: pendente
+id: E05-MMM-a5274d628b-2026-10-20 · status: entregue
 
 [ATENÇÃO] E05 · MMM · 3M Q3 Adjusted Earnings, Revenue Rise; Full-Year Adjusted EPS Outlook Upgraded -- Shares Up Pre-Bell
 Yahoo Finance · 20/10 07h48 · fonte única · licença: resumo
@@ -101,7 +119,7 @@ Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; 
 Ativos: MMM
 Como falar: 'saiu no Yahoo Finance: 3M Q3 Adjusted Earnings, Revenue Rise; Full-Year Adjusted EPS Outlook Upgraded -- Shares…; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 20/10 07h48
-id: E05-MMM-6993d07a88-2026-10-20 · status: pendente
+id: E05-MMM-6993d07a88-2026-10-20 · status: entregue
 
 [ATENÇÃO] E05 · MMM · 3M Q3 2026 slides: margin expansion drives raised guidance
 Investing.com · 20/10 11h52 · fonte única · licença: manchete
@@ -311,8 +329,22 @@ Fonte: Yahoo Finance 20/10 07h30
 id: E05-MMM-c2716ce8dd-2026-10-20 · status: entregue
 
 
-## OUTRAS NOTÍCIAS (só manchete) (81)
+## OUTRAS NOTÍCIAS (só manchete) (95)
 
+· MU Intel Vs. Micron: Who Is More Exposed By Chinese Rival CXMT’s Progress? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/intel-vs-micron-more-exposed-164512063.html
+· MU Micron Stock Faces Unexpected Threat Amid Memory Boom (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:444921ee8094b:0-micron-stock-faces-unexpected-threat-amid-memory-boom/
+· BTC Bitcoin price spikes to $83.3K as US stocks rise on Q3 earnings, oil falls (TradingView (Reuters)) https://www.tradingview.com/news/cointelegraph:69d70d30f094b:0-bitcoin-price-spikes-to-83-3k-as-us-stocks-rise-on-q3-earnings-oil-falls/
+· MMM Why 3M Stock Jumped Today (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/why-3m-stock-jumped-today-160319640.html
+· JPM JPMorgan Says One Big Headwind for Stocks May Be Fading (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:59c44d176094b:0-jpmorgan-says-one-big-headwind-for-stocks-may-be-fading/
+· KO Nike Now Yields More Than Procter & Gamble and Twice as Much as Coca-Cola. Is It the Most Overlooked Dividend Stock? Here's the Clear Answer. (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/nike-now-yields-more-procter-151200493.html
+· GOOGL Google Cloud Outage Hits UK Banks and Public Services (Yahoo Finance) https://finance.yahoo.com/technology/articles/google-cloud-outage-hits-uk-151041396.html
+· JPM Enterprise value to revenue forward of JPMorgan Emerging Markets Dividend Income plc GBP – TURQUOISE:JEMIL (TradingView (Reuters)) https://www.tradingview.com/symbols/TURQUOISE-JEMIL/financials-statistics-and-ratios/enterprise-value-sales-fwd/
+· MU Cantor Fitzgerald reiterates Micron stock rating on supply outlook By Investing.com (Investing.com) https://ng.investing.com/news/stock-market-news/cantor-fitzgerald-reiterates-micron-stock-rating-on-supply-outlook-93CH-2745934
+· BTC BlackRock’s Secret Weapon Against Bitcoin Crashes Just Hit the SEC’s Desk (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/blackrock-secret-weapon-against-bitcoin-141715190.html
+· NVDA Nvidia secures $35B in orders for new export-compliant GPU from Chinese tech giants: report (NVDA:NASDAQ) (Seeking Alpha) https://seekingalpha.com/news/4654626-nvidia-secures-35b-in-orders-for-new-export-compliant-gpu-from-chinese-tech-giants-report
+· MMM 3M Company (MMM) Q3 FY2026 earnings call transcript (Yahoo Finance) https://finance.yahoo.com/quote/MMM/earnings/MMM-Q3-2026-earnings_call-711277.html
+· KO Here's How Much a $10,000 Investment in Coca-Cola Will Get You in Dividends (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/heres-much-10-000-investment-122100953.html
+· BRENT Oil prices fall as traders hope for diplomatic progress in Middle East (CNBC) https://news.google.com/rss/articles/CBMib0FVX3lxTE03NjBGWFYwdTRJdGVxMnJ4QVNWUzNxeW9BUzZUTThjU3V5NThLWDBHdUx2RVhFMEI3WnVsdzBQVWtvZ1FUelQ4bkgyNk9MTmxFeWV4eFRoRWZVV3JQTEpQSVI1aXNpTW9uVk5IX3VNSdIBdEFVX3lxTE5BVFpmcUNCZTlrOXhpOGttMmlaLW03M3pabEk3TzVReVhkYmc4b0xLNU9henJ4Tl9uVkc2OHJ4UjVNUmlYdGp6Y3FyZXFFbVU0ZF9Zb3RELW1Pb3Q2RFlQVHBDUTRrTVVkZHdaUmZkNnI4Y21S?oc=5
 · TSLA Tesla earnings preview: Fireworks or the calm before the SpaceX merger? (TSLA:NASDAQ) (Seeking Alpha) https://seekingalpha.com/news/4654646-tesla-earnings-preview-fireworks-or-the-calm-before-the-spacex-merger
 · MMM 3M Q3 Earnings Call Highlights (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/3m-q3-earnings-call-highlights-160421732.html
 · BRENT Oil Prices Reverse Gains, Move Lower After Brent Tops $111 a Barrel (The Wall Street Journal) https://www.wsj.com/business/energy-oil/oil-prices-up-as-traders-weigh-middle-east-supply-risks-560c31ca
@@ -359,18 +391,4 @@ id: E05-MMM-c2716ce8dd-2026-10-20 · status: entregue
 · COHR Why is Coherent stock sliding today? (Investing.com) https://www.investing.com/news/stock-market-news/why-is-coherent-stock-sliding-today-93CH-4960266
 · TSLA SpaceX And Tesla Prepare Side By Side Earnings Reports Amid Merger Speculation (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/spacex-tesla-prepare-side-side-131333836.html
 · MMM 3M Q3 2026 Earnings Call Is Live (TradingView (Reuters)) https://www.tradingview.com/news/urn:live_audio:quartr.com:710407:0-3m-q3-2026-earnings-call-is-live/
-· MMM Compared to Estimates, 3M (MMM) Q3 Earnings: A Look at Key Metrics (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/compared-estimates-3m-mmm-q3-123005315.html
-· BBDC4 Temporada de balanços ganha força com WEG e Bradesco; confira todas as datas (Estadao) https://news.google.com/rss/articles/CBMixwFBVV95cUxPN0FjM05OS01YVWRjSlZ3SWRYRW9BRkdFS3JiMFZlVFNGenVaWk1MN2hjVExVOHc5a3IyRDZBaEhoUTUxMndyUFdRZWZfSHFYRmp0dmZVMmxGQ0F4djlXS1A5MG5aby1iT1ZBalc3UXItYzlqS0hPS3BMcml6c1hVdDNoTTZrcVpVNmdCdzBLOEs0azVKZ29xdDF1V2VoZHM0YUpYRVRXZDZEd1l2dVlGaWNPLTJNdjJ4QmlCSmJpTmtQWDM5Nkhv0gHHAUFVX3lxTE83QWMzTk5LTVhVZGNKVndJZFhFb0FGR0VLcmIwVmVUU0Z6dVpaTUw3aGNUTFU4dzlrcjJENkFoSGhRNTEyd3JQV1FlZl9IcVhGanR2ZlUybEZDQXh2OVdLUDkwblpvLWJPVkFqVzdRci1jOWpLSE9LcExyaXpzWFV0M2hNNmtxWlU2Z0J3MEs4SzRrNUpnb3F0MXVXZWhkczRhSlhFVFdkNkR3WXZ1WUZpY08tMk12MnhCaUJKYmlOa1BYMzk2SG8?oc=5
-· BRENT Dólar cai a R$ 5,02 e Bolsa sobe influenciados por eleição e petróleo (UOL Economia) https://news.google.com/rss/articles/CBMiswFBVV95cUxOcXQtZ3RqSU9JWFRoRHZZOEpkZmVaOHVqR0tVYUZZX3pSVmR4SElxUGNYR3FtdGFVdTB2VkY0a1o2YmJYSC1JZEZWdkZuemZ4YkhrYnJfZUlNSE80SGo0d3owZm0teFZxUF8wOGZ0U01pR1NnU3BwZElWNVZHMnRvZ1Nrc0QtNnhzVHZMZjFjdk9ocjJWdW9DdXpNWlpQWjVPSGQ2N1BnVXpxaEJhbko3aTFRWQ?oc=5
-· ETH Current price of Ethereum for October 20, 2026 (Fortune) https://news.google.com/rss/articles/CBMiaEFVX3lxTFBqQjZXRjctR1NwY1RjSlZsN3VhU2YzTk5MSzU0dlFObXdiWEYzM3BoRWdDYnFtbWRMSTNualZhUkZRWjZ2bXQ3eGVMZlBZamx5MmJzQjMyR2N4UnhtdDVkbjlRUUNMenR2?oc=5
-· BTC Current price of Bitcoin for Oct. 20, 2026 (Fortune) https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBYZGxkaDRrV0pqWHU5YVZmU2dvY1pEQ3gtOS1iWmdfS3BuaEdHN25HajJPUmxFR2Fmb2Z1UFNScHMzeUgxZXpSTDh4dHpwRTN1Q2dYNUVvSmNfTm13NXZwSml4blpZMW8?oc=5
-· VALE3 Vale (VALE3) entra em sobrevenda; ação pode reagir ou ainda tem espaço para cair? (InfoMoney) https://www.infomoney.com.br/mercados/vale-vale3-entra-em-sobrevenda-acao-pode-reagir-ou-ainda-tem-espaco-para-cair/
-· BRENT Taxas do Tesouro Direto caem forte após novas pesquisas, mesmo com alta do petróleo (InfoMoney) https://www.infomoney.com.br/onde-investir/tesouro-direto-abertura-fechamento-20102026/
-· MU Micron Invests In US Indium Processing Amid China Export Restrictions – MU Stock Still Dips (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:6fa3edd00094b:0-micron-invests-in-us-indium-processing-amid-china-export-restrictions-mu-stock-still-dips/
-· BRENT Dólar abre em queda com petróleo em alta e cenário eleitoral no radar (Folha de S.Paulo) https://www1.folha.uol.com.br/mercado/2026/10/dolar-abre-em-queda-com-petroleo-em-alta-e-cenario-eleitoral-no-radar.shtml
-· USDBRL Ibovespa futuro sobe mais de 1% e dólar cai após pesquisas eleitorais pós-debate (Exame) https://exame.com/invest/mercados/ibovespa-futuro-sobe-mais-de-1-e-dolar-cai-apos-pesquisas-eleitorais-pos-debate/
-· USDBRL Dólar abre em queda com mercado atento à segundo turno das eleições (CNN Brasil) https://www.cnnbrasil.com.br/economia/money/mercado/mercado-financeiro-ibovespa-dolar-20-outubro-2026/
-· MU Cantor Fitzgerald reiterates Micron stock rating on supply outlook By Investing.com (Investing.com) https://in.investing.com/news/stock-market-news/cantor-fitzgerald-reiterates-micron-stock-rating-on-supply-outlook-93CH-5642768
-· AMZN 3M’s Q3 Earnings Beat Was Solid, But Its Amazon Fiber Optic Pact is the Real Story (Barron's) https://www.barrons.com/articles/3m-earnings-amazon-optical-connectivity-warrant-deal-03d78678
-· TSLA Why Tesla Could Make Much More Money (NASDAQ:TSLA) (Seeking Alpha) https://seekingalpha.com/article/4955458-why-tesla-could-make-much-more-money
-· (+21 manchetes; lista completa em eventos/noticias.json)
+· (+35 manchetes; lista completa em eventos/noticias.json)
