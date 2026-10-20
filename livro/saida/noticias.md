@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 20/10 16h21
+NOTÍCIAS E FATOS · 20/10 17h22
 
-Pernas: noticias ok 15 novas (18 consultas; descartadas: 449 veículo fora da lista, 33 sem ativo, 0 teto) · cvm ok 0 novos de 5 (3 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 15 novas (18 consultas; descartadas: 442 veículo fora da lista, 34 sem ativo, 0 teto) · cvm ok 0 novos de 2 (2 cias casadas) · sec ok 1 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (3)
 
@@ -39,7 +39,7 @@ Fonte: CVM 20/10
 id: E03-AXIA3-1578535-2026-10-20 · status: linha
 
 
-## SEC (8-K, 6-K, 10-Q, 10-K) (2)
+## SEC (8-K, 6-K, 10-Q, 10-K) (3)
 
 [ATENÇÃO] E04 · MMM · 8-K: 2.02 resultado do trimestre
 SEC EDGAR · aceito 20/10 07h35 · 8-K
@@ -57,6 +57,22 @@ Como falar: 'a MMM protocolou 8-K na SEC (2.02 resultado do trimestre)'
 Fonte: SEC EDGAR 2026-10-20
 id: E04-MMM-26000308-2026-10-20 · status: entregue · íntegra disponível
 
+[INFO] E04 · JPM · 8-K: 8.01 outros eventos
+SEC EDGAR · aceito 20/10 17h15 · 8-K
+Do documento:
+  – The offerings of the Notes were registered under the Securities Act of 1933, as amended, pursuant to a registration statement on Form S-3 (File No. 333-285537), as amended.
+  – In connection with these offerings, the legal opinion as to the legality of the Notes is being filed as Exhibit 5.1 to this report.
+  – (d) Exhibits   5.1   Opinion of Simpson Thacher & Bartlett LLP as to the legality of the Notes.
+  – 23.1   Consent of Simpson Thacher & Bartlett LLP (included as part of Exhibit 5.1).
+  – 101   Pursuant to Rule 406 of Regulation S-T, the cover page is formatted in Inline XBRL (Inline eXtensible Business Reporting Language).
+  – 104   Cover Page Interactive Data File (embedded within the Inline XBRL document and included in Exhi
+Link: https://www.sec.gov/Archives/edgar/data/19617/000119312526426704/d351999d8k.htm
+Por que importa: documento da companhia na SEC
+Ativos: JPM
+Como falar: 'a JPM protocolou 8-K na SEC (8.01 outros eventos)'
+Fonte: SEC EDGAR 2026-10-20
+id: E04-JPM-26426704-2026-10-20 · status: linha · íntegra disponível
+
 [INFO] E04 · MMM · 10-Q: 10-Q
 SEC EDGAR · aceito 20/10 13h30 · 10-Q
 Link: https://www.sec.gov/Archives/edgar/data/66740/000006674026000311/mmm-20260930.htm
@@ -67,7 +83,39 @@ Fonte: SEC EDGAR 2026-10-20
 id: E04-MMM-26000311-2026-10-20 · status: linha
 
 
-## NOTÍCIAS COM MATERIALIDADE (23)
+## NOTÍCIAS COM MATERIALIDADE (25)
+
+[ATENÇÃO] E05 · ITUB4 · Itaú (ITUB4) rendeu 576% em 10 anos? Veja como o banco mudou e quanto pagou em dividendos
+Suno Noticias · 20/10 17h05 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Mercado Itaú (ITUB4) rendeu 576% em 10 anos?
+  – Veja como o banco mudou e quanto pagou em dividendos Dez anos, quase o dobro do lucro e uma transformação na forma de atender milhões de brasileiros.
+  – O Itaú (ITUB4) atravessou uma década marcada por crises econômicas, avanço das fintechs e mudanças nos hábitos dos consumidores, mas conseguiu ampliar seus resultados e entregar retornos expressivos aos acionistas.
+  – Entre 2016 e 2025, o lucro líquido anual do banco passou de R$ 23,3 bilhões para R$ 44,9 bilhões, crescimento nominal de aproximadamente 93%.
+  – Segundo uma simulação histórica da plataforma Investidor10, as ações do Itaú acumularam rentabilidade de aproximadamente 576% em dez anos, considerando o reinvestimento dos dividendos.
+  – Pelas premissas do levantamento, uma aplicação hipotética de R$ 10 mil teria alcançado cerca de R$ 67,6 mil, antes de impostos e custos operacionais.
+Link: https://www.suno.com.br/noticias/itau-itub4-desempenho-10-anos-dividendos-mt/
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: ITUB4
+Como falar: 'saiu no Suno Noticias: Itaú (ITUB4) rendeu 576% em 10 anos? Veja como o banco mudou e quanto pagou em dividendos; confirmar o número no texto antes de repassar'
+Fonte: Suno Noticias 20/10 17h05
+id: E05-ITUB4-055eb74b82-2026-10-20 · status: pendente
+
+[ATENÇÃO] E05 · BTC · Strive Raises $630M in SATS IPO, Keeps Bitcoin Allocation Open
+Yahoo Finance · 20/10 15h10 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Strive (NASDAQ: $ASST) closed its upsized initial public offering of SATS preferred stock, raising $630 million gross, though the bitcoin treasury company has not said how much of the money will go toward bitcoin.
+  – The company sold 7 million shares at $90 each.
+  – After underwriting discounts, commissions and expenses, net proceeds come to an estimated $608.15 million, according to BitcoinTreasuries.net.
+  – At a bitcoin price of $82,500, the net proceeds could buy about 7,372 BTC before fees.
+  – Putting the entire amount into Bitcoin (CRYPTO: $BTC) would lift Strive's holdings from 36,818 BTC to roughly 44,190, potentially passing Metaplanet's reported 44,000 and moving Strive into second place among public cor…
+  – CEO Matt Cole has said he wants to finish 2026 as the second-largest public bitcoin holder.
+Link: https://finance.yahoo.com/markets/crypto/articles/strive-raises-630m-sats-ipo-181000229.html
+Por que importa: oferta de acoes ou divida altera a base acionaria ou a alavancagem
+Ativos: BTC
+Como falar: 'saiu no Yahoo Finance: Strive Raises $630M in SATS IPO, Keeps Bitcoin Allocation Open; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 20/10 15h10
+id: E05-BTC-b918e0b7a6-2026-10-20 · status: pendente
 
 [ATENÇÃO] E05 · TSLA · Tesla Needs Strong Guidance to Offset 4 Straight Earnings Misses
 Investing.com · 20/10 13h43 · fonte única · licença: manchete
@@ -76,7 +124,7 @@ Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; 
 Ativos: TSLA
 Como falar: 'saiu no Investing.com: Tesla Needs Strong Guidance to Offset 4 Straight Earnings Misses; confirmar o número no texto antes de repassar'
 Fonte: Investing.com 20/10 13h43
-id: E05-TSLA-ca34782234-2026-10-20 · status: pendente
+id: E05-TSLA-ca34782234-2026-10-20 · status: entregue
 
 [ATENÇÃO] E05 · PETR4 · Petrobras (PETR4) pode surpreender com dividendos de até US$ 4,2 bilhões no 3T26; veja projeções
 Suno Noticias · 20/10 14h45 · fonte única · licença: resumo
@@ -363,8 +411,21 @@ Fonte: Yahoo Finance 20/10 07h30
 id: E05-MMM-c2716ce8dd-2026-10-20 · status: entregue
 
 
-## OUTRAS NOTÍCIAS (só manchete) (128)
+## OUTRAS NOTÍCIAS (só manchete) (141)
 
+· USDBRL Dólar fecha em queda de 0,58%, a R$ 5,019; Bolsa sobe com varejistas (UOL Economia) https://economia.uol.com.br/cotacoes/noticias/redacao/2026/10/20/dolar-fecha-em-queda-de-058-a-r-5019-bolsa-sobe-com-varejistas.htm
+· USDBRL Dólar à vista fecha em baixa de 0,58%, a R$5,0182 na venda Por Reuters (Investing.com) https://br.investing.com/news/forex-news/dolar-a-vista-fecha-em-baixa-de-058-a-r50182-na-venda-2097029
+· TSLA Tesla Q3 earnings preview: 3 key things to watch (Yahoo Finance) https://finance.yahoo.com/video/tesla-q3-earnings-preview-3-key-things-to-watch-200654318.html
+· USDBRL Dólar cai a R$ 5,01 com eleições em foco (Money Times) https://www.moneytimes.com.br/dolar-20-10-26-lils/
+· AXIA3 Axia reúne ofertas de pequenos consumidores e leva 15 MW à Resposta da Demanda (UOL Economia) https://megawhat.uol.com.br/economia-e-politica/empresas/axia-reune-ofertas-de-pequenos-consumidores-e-leva-15-mw-a-resposta-da-demanda/
+· TSLA Tesla Stocks Rise Ahead of a $323 Million Gross-Profit Forecast Gap (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:0ac7b8f53094b:0-tesla-stocks-rise-ahead-of-a-323-million-gross-profit-forecast-gap/
+· NVDA Nvidia Reportedly Just Landed $35 Billion In Chip Orders From Chinese Companies. Here's Why That Could Be Great News for the Stock (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/nvidia-reportedly-just-landed-35-182801431.html
+· BAC Form 4 Bank of America Corp: Brian T. Moynihan (Director, Chair and CEO) For: 15 October (Investing.com) https://ng.investing.com/news/stock-market-news/form-4-bank-of-america-corp-brian-t-moynihan-director-chair-and-ceo-for-15-october-93CH-2745049
+· ITUB4 A ação que sobe com o trade eleitoral e pode ganhar mais 47%, segundo o Itaú BBA (Money Times) https://www.moneytimes.com.br/a-acao-que-sobe-com-o-trade-eleitoral-e-pode-ganhar-mais-47-segundo-o-itau-bba-lils/
+· USDBRL Como Ibovespa e dólar reagiram à vitória de Lula em 2022? (Exame) https://exame.com/invest/mercados/como-ibovespa-dolar-reagiram-vitoria-lula-2022/
+· META Zacks Investment Ideas feature highlights: Meta Platforms and Tesla (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/zacks-investment-ideas-feature-highlights-121000231.html
+· JPM US Treasury yields ease: JPMorgan sees year-end stock gains if yields remain stable (TradingView (Reuters)) https://es.tradingview.com/news/invezz:0d97104bd094b:0-us-treasury-yields-ease-jpmorgan-sees-year-end-stock-gains-if-yields-remain-stable/
+· BRENT Brent falls as Iran's president discusses mediation with Pakistani army chief (Reuters) https://news.google.com/rss/articles/CBMixgFBVV95cUxPZlA3RXBMd0lXRU1feWpodXpZQ2tnUERkUHFQSlFGX2hCMjdrOVdhRVd2eVk3dmhLYklUdVM1WGtoXzc0cUt2OG44WjBYVFVZazFvQWo1UmJWRlliNzJHWlZBU1hScTU1RU9sVEdDVllsSWE4UXh5b0ZHX0VlU01fNDc3ckpxRkw3ZGdaM0xxMW1qOEhWck1XYUlSVkJWeVZyZWRRSkpqdTFQSmZhejlBRmkxZUJmMGtPVWx6Ym82SnNTcElaWGc?oc=5
 · PETR4 Petrobras pode pagar bilhões a mais em dividendos do que o mercado espera; BTG revela suas apostas (Estadao) https://www.estadao.com.br/em-alta/einvestidor/cenarios-e-mercado/petrobras-pode-pagar-bilhoes-a-mais-em-dividendos-do-que-o-mercado-espera-btg-revela-suas-apostas/
 · AMD AMD: The Helios Ramp Is Priced But The Margin Path Is Not (NASDAQ:AMD) (Seeking Alpha) https://seekingalpha.com/article/4955619-amd-the-helios-ramp-is-priced-but-the-margin-path-is-not
 · UST Treasury Yields Fall on String of Weak Housing Data (The Wall Street Journal) https://www.wsj.com/finance/french-government-bonds-recover-as-yields-on-eurozone-u-s-peers-fall-cf473ce6
@@ -412,17 +473,4 @@ id: E05-MMM-c2716ce8dd-2026-10-20 · status: entregue
 · MMM 3M Company (MMM) Q3 FY2026 earnings call transcript (Yahoo Finance) https://finance.yahoo.com/quote/MMM/earnings/MMM-Q3-2026-earnings_call-711277.html
 · KO Here's How Much a $10,000 Investment in Coca-Cola Will Get You in Dividends (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/heres-much-10-000-investment-122100953.html
 · BRENT Oil prices fall as traders hope for diplomatic progress in Middle East (CNBC) https://news.google.com/rss/articles/CBMib0FVX3lxTE03NjBGWFYwdTRJdGVxMnJ4QVNWUzNxeW9BUzZUTThjU3V5NThLWDBHdUx2RVhFMEI3WnVsdzBQVWtvZ1FUelQ4bkgyNk9MTmxFeWV4eFRoRWZVV3JQTEpQSVI1aXNpTW9uVk5IX3VNSdIBdEFVX3lxTE5BVFpmcUNCZTlrOXhpOGttMmlaLW03M3pabEk3TzVReVhkYmc4b0xLNU9henJ4Tl9uVkc2OHJ4UjVNUmlYdGp6Y3FyZXFFbVU0ZF9Zb3RELW1Pb3Q2RFlQVHBDUTRrTVVkZHdaUmZkNnI4Y21S?oc=5
-· TSLA Tesla earnings preview: Fireworks or the calm before the SpaceX merger? (TSLA:NASDAQ) (Seeking Alpha) https://seekingalpha.com/news/4654646-tesla-earnings-preview-fireworks-or-the-calm-before-the-spacex-merger
-· MMM 3M Q3 Earnings Call Highlights (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/3m-q3-earnings-call-highlights-160421732.html
-· BRENT Oil Prices Reverse Gains, Move Lower After Brent Tops $111 a Barrel (The Wall Street Journal) https://www.wsj.com/business/energy-oil/oil-prices-up-as-traders-weigh-middle-east-supply-risks-560c31ca
-· GOOGL Knexus Accelerates Enterprise AI Transformation with Google Cloud's Gemini for Government Services (PR Newswire) https://www.prnewswire.com/news-releases/knexus-accelerates-enterprise-ai-transformation-with-google-clouds-gemini-for-government-services-302914330.html
-· TSM TSMC Stock: AI Demand Drives Strong Q3 Results (NYSE:TSM) (Seeking Alpha) https://seekingalpha.com/article/4955542-tsmc-stock-ai-demand-drives-strong-q3-results
-· ITUB4 Vamos (VAMO3) sobe entre as maiores altas do Ibovespa; Itaú BBA eleva alvo a R$ 9 (Investing.com) https://br.investing.com/news/stock-market-news/vamos-vamo3-sobe-entre-as-maiores-altas-do-ibovespa-itau-bba-eleva-alvo-a-r-9-2096824
-· EQTL3 Aneel aprova alta tarifária média de 7,25% para consumidores da Equatorial Goiás Distribuidora (UOL Economia) https://economia.uol.com.br/noticias/estadao-conteudo/2026/10/20/aneel-aprova-alta-tarifaria-media-de-725-para-consumidores-da-equatorial-goias-distribuidora.htm
-· ITUB4 Bancos abrem temporada do 3T26 com crédito sob pressão; o que esperar de Bradesco, Santander, Itaú e Banco do Brasil? (Money Times) https://www.moneytimes.com.br/bancos-abrem-temporada-do-3t26-com-credito-sob-pressao-o-que-esperar-de-bradesco-santander-itau-e-banco-do-brasil-miql/
-· MRVL Will AI Data Center Launches Change Marvell Stock Narrative (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/ai-data-center-launches-change-151227292.html
-· GOOGL Alphabet's Cloud Growth, TPU Sales Could Drive Q3 Upside, BofA Says (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/alphabet-apos-cloud-growth-tpu-151007904.html
-· KO Coca-Cola stock may move 2.9% on earnings release next week (Investing.com) https://www.investing.com/news/stock-market-news/cocacola-stock-may-move-29-on-earnings-release-next-week-93CH-4960520
-· GOOGL Power outage hits Google Cloud services, disrupting UK banks (Yahoo Finance) https://uk.finance.yahoo.com/news/power-outage-hits-google-cloud-141629539.html
-· META Will Higher Ad Revenues Aid Meta Platforms Stock in Q3 Earnings? (TradingView (Reuters)) https://www.tradingview.com/news/zacks:83f027b93094b:0-will-higher-ad-revenues-aid-meta-platforms-stock-in-q3-earnings/
-· (+68 manchetes; lista completa em eventos/noticias.json)
+· (+81 manchetes; lista completa em eventos/noticias.json)
