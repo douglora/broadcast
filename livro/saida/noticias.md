@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 20/10 15h21
+NOTÍCIAS E FATOS · 20/10 16h21
 
-Pernas: noticias ok 10 novas (18 consultas; descartadas: 459 veículo fora da lista, 37 sem ativo, 0 teto) · cvm ok 0 novos de 5 (3 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 15 novas (18 consultas; descartadas: 449 veículo fora da lista, 33 sem ativo, 0 teto) · cvm ok 0 novos de 5 (3 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (3)
 
@@ -67,7 +67,16 @@ Fonte: SEC EDGAR 2026-10-20
 id: E04-MMM-26000311-2026-10-20 · status: linha
 
 
-## NOTÍCIAS COM MATERIALIDADE (22)
+## NOTÍCIAS COM MATERIALIDADE (23)
+
+[ATENÇÃO] E05 · TSLA · Tesla Needs Strong Guidance to Offset 4 Straight Earnings Misses
+Investing.com · 20/10 13h43 · fonte única · licença: manchete
+Link: https://www.investing.com/analysis/tesla-needs-strong-guidance-to-offset-4-straight-earnings-misses-200689927
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: TSLA
+Como falar: 'saiu no Investing.com: Tesla Needs Strong Guidance to Offset 4 Straight Earnings Misses; confirmar o número no texto antes de repassar'
+Fonte: Investing.com 20/10 13h43
+id: E05-TSLA-ca34782234-2026-10-20 · status: pendente
 
 [ATENÇÃO] E05 · PETR4 · Petrobras (PETR4) pode surpreender com dividendos de até US$ 4,2 bilhões no 3T26; veja projeções
 Suno Noticias · 20/10 14h45 · fonte única · licença: resumo
@@ -83,7 +92,7 @@ Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir
 Ativos: PETR4
 Como falar: 'saiu no Suno Noticias: Petrobras (PETR4) pode surpreender com dividendos de até US$ 4,2 bilhões no 3T26; veja pr…; confirmar o número no texto antes de repassar'
 Fonte: Suno Noticias 20/10 14h45
-id: E05-PETR4-fef95084b3-2026-10-20 · status: pendente
+id: E05-PETR4-fef95084b3-2026-10-20 · status: entregue
 
 [ATENÇÃO] E05 · META · META vs Tesla earnings setup ahead of Q3 2026 results
 Investing.com · 20/10 13h57 · fonte única · licença: manchete
@@ -92,7 +101,7 @@ Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; 
 Ativos: META · TSLA
 Como falar: 'saiu no Investing.com: META vs Tesla earnings setup ahead of Q3 2026 results; confirmar o número no texto antes de repassar'
 Fonte: Investing.com 20/10 13h57
-id: E05-META-c5f91bd5e6-2026-10-20 · status: pendente
+id: E05-META-c5f91bd5e6-2026-10-20 · status: entregue
 
 [ATENÇÃO] E05 · META · META vs Tesla earnings setup ahead of Q3 2026 results By Investing.com
 Investing.com · 20/10 13h56 · fonte única · licença: manchete
@@ -354,8 +363,22 @@ Fonte: Yahoo Finance 20/10 07h30
 id: E05-MMM-c2716ce8dd-2026-10-20 · status: entregue
 
 
-## OUTRAS NOTÍCIAS (só manchete) (114)
+## OUTRAS NOTÍCIAS (só manchete) (128)
 
+· PETR4 Petrobras pode pagar bilhões a mais em dividendos do que o mercado espera; BTG revela suas apostas (Estadao) https://www.estadao.com.br/em-alta/einvestidor/cenarios-e-mercado/petrobras-pode-pagar-bilhoes-a-mais-em-dividendos-do-que-o-mercado-espera-btg-revela-suas-apostas/
+· AMD AMD: The Helios Ramp Is Priced But The Margin Path Is Not (NASDAQ:AMD) (Seeking Alpha) https://seekingalpha.com/article/4955619-amd-the-helios-ramp-is-priced-but-the-margin-path-is-not
+· UST Treasury Yields Fall on String of Weak Housing Data (The Wall Street Journal) https://www.wsj.com/finance/french-government-bonds-recover-as-yields-on-eurozone-u-s-peers-fall-cf473ce6
+· NVDA Google has joined Amazon in attacking Nvidia’s stronghold with AI app developers (TechCrunch) https://techcrunch.com/2026/10/20/google-has-joined-amazon-in-attacking-nvidias-stronghold-with-ai-app-developers/
+· BTC Bitcoin ETFs Post Their Best Day in Nearly a Month as BlackRock Does All the Buying (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-etfs-post-best-day-183104727.html
+· PETR4 Abicom: Diesel da Petrobras se aproxima ao subsídio com alta do Brent (CNN Brasil) https://www.cnnbrasil.com.br/economia/money/macroeconomia/abicom-diesel-da-petrobras-se-aproxima-ao-subsidio-com-alta-do-brent/
+· KO What Is Coca-Cola (KO) Rethinking In Its Coffee Business? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/coca-cola-ko-rethinking-coffee-171155294.html
+· BTC BlackRock's bitcoin ETF saw inflows of $665M on Monday (Yahoo Finance) https://finance.yahoo.com/video/blackrocks-bitcoin-etf-saw-inflows-170000221.html
+· BTC Bitcoin volatility is now quieter than roughly 20% of the S&P 500 (Seeking Alpha) https://seekingalpha.com/news/4654789-bitcoin-volatility-is-now-quieter-than-roughly-20-of-the-sp-500
+· GOOGL Alphabet set for earnings beat as Cloud and AI chips take centre stage (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/alphabet-set-earnings-beat-cloud-163400786.html
+· GOOGL Google says services recovering after cloud outage hits UK banks and websites (BBC) https://www.bbc.com/news/articles/cxdd8mm6qy4mo
+· JPM JPMorgan sees 10% annual bitcoin returns, topping stocks, bonds and gold over next decade (CoinDesk) https://www.coindesk.com/markets/2026/10/20/jpmorgan-sees-10-annual-bitcoin-returns-topping-stocks-bonds-and-gold-over-next-decade
+· BRENT Dólar cai a R$ 5,01 e Bolsa sobe firme influenciados por eleição e petróleo (UOL Economia) https://economia.uol.com.br/cotacoes/noticias/redacao/2026/10/20/dolar-bolsa-abre-hoje-20-de-outubro-de-2026.ghtm
+· UST Treasury Yield 30 Years (^TYX) charts, data and news (Yahoo Finance) https://news.google.com/rss/articles/CBMiVEFVX3lxTE42UlpSZnR0MGJKWlRpZy15YXFVYjJtRmpid1ZEdmtpT3dXLV8wTVVPN3JTbFdORFdaT0ttWU1PWW9BMHU2NERja1drZTdSOThXSFItUw?oc=5
 · TSLA Here’s what matters most to Tesla investors heading into earnings (MarketWatch) https://www.marketwatch.com/story/heres-what-matters-most-to-tesla-investors-heading-into-earnings-6b9e5d27
 · NVDA Investment summit: German government strikes AI deal with Nvidia (Yahoo Finance) https://uk.finance.yahoo.com/news/investment-summit-german-government-strikes-181008216.html
 · JPM Marsh Stocks Rise 5.40% With JPMorgan's $218 Target in Focus (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:fdb3e03b5094b:0-marsh-stocks-rise-5-40-with-jpmorgan-s-218-target-in-focus/
@@ -402,18 +425,4 @@ id: E05-MMM-c2716ce8dd-2026-10-20 · status: entregue
 · KO Coca-Cola stock may move 2.9% on earnings release next week (Investing.com) https://www.investing.com/news/stock-market-news/cocacola-stock-may-move-29-on-earnings-release-next-week-93CH-4960520
 · GOOGL Power outage hits Google Cloud services, disrupting UK banks (Yahoo Finance) https://uk.finance.yahoo.com/news/power-outage-hits-google-cloud-141629539.html
 · META Will Higher Ad Revenues Aid Meta Platforms Stock in Q3 Earnings? (TradingView (Reuters)) https://www.tradingview.com/news/zacks:83f027b93094b:0-will-higher-ad-revenues-aid-meta-platforms-stock-in-q3-earnings/
-· BTC Bitcoin ETFs Post Best Day In A Month (Yahoo Finance) https://news.google.com/rss/articles/CBMilgFBVV95cUxQRmRWamxFYkRXX01ZM0dRaE8wc2hWb09rUVJCNUIyT2NOQ2l6SjVHSi05RGRkdWN3aUFZOVRyamZRM1FTU3hJcHFNZXJtd3FmVHlmbG8ybjZVM2EwcWpqVFFWd0FOY0FZMHkydVBWQi1HUHlpQTE3c1BvVlZSVmw2ckFGUjJkYlVpOHRqRU5MZnVzSFg4Ync?oc=5
-· BRENT Bolsa sobe mais de 1% e dólar recua com eleição e petróleo no radar (Folha de S.Paulo) https://news.google.com/rss/articles/CBMivgFBVV95cUxPWHFpRU5ITnVIVGppWkZwTGxjdlVYd0Z4TzNaN3E0azkwSklSbHRfdkJaUTNpU0c5dXBQMUd6VkFTN2U1R1c0VkljVExxc2gxUkZpY3VMcUhsN3lJRXZIa21kYUs1dmVkUWpOM0Q4TnpyMmplVE5BcjlURnowUDlJdkdBTmFUNXZzYlEzanBFMkVjZkxONFYtTW42em1uTlR6aWw4ZHR3Tm5hc0lfRlBfQjJfT1B6bGpCNjdDZ09B?oc=5
-· BTC BlackRock seeks to shield Bitcoin investors from losses after rival fund weathers 50% crash (CoinDesk) https://www.coindesk.com/markets/2026/10/20/blackrock-seeks-to-shield-bitcoin-investors-from-losses-after-rival-fund-weathers-50-crash
-· KO Coca-Cola stock may move 2.9% on earnings release next week (Investing.com) https://ng.investing.com/news/stock-market-news/cocacola-stock-may-move-29-on-earnings-release-next-week-93CH-2746392
-· JPM Enterprise value to EBITDA forward of JPMorgan Emerging Markets Dividend Income plc GBP – TURQUOISE:JEMIL (TradingView (Reuters)) https://www.tradingview.com/symbols/TURQUOISE-JEMIL/financials-statistics-and-ratios/enterprise-value-ebitda-fwd/
-· LITE Why is Lumentum stock sliding today? By Investing.com (Investing.com) https://uk.investing.com/news/stock-market-news/why-is-lumentum-stock-sliding-today-93CH-4920171
-· BAC Bank of America says 1% increase to interest rate would add $95 billion in national debt costs (Fortune) https://fortune.com/2026/10/20/white-house-warsh-national-debt-fed-interest-rate-cost/
-· USDBRL Dólar opera em queda e Ibovespa sobe, de olho no exterior e com eleição no radar (g1) https://g1.globo.com/economia/noticia/2026/10/20/dolar-ibovespa.ghtml
-· PETR4 Petroleo Brasileiro S.A. Petrobras (PETR4) Previsões, Preço-Alvo e Projeções de Analistas (ADVFN) https://br.advfn.com/bolsa-de-valores/bovespa/petrobras-pn-PETR4/previsoes
-· NVDA These 2 Billionaires Like Nvidia (NVDA). Should You Buy the Dip Ahead of Earnings? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/2-billionaires-nvidia-nvda-buy-150152803.html
-· AMZN 3M Jumps 6% on Expanded Amazon Data Center Deal and Earnings Beat; Coherent Edges Higher, Corning Stays Flat (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/3m-jumps-6-expanded-amazon-145845385.html
-· BBDC4 Bradesco reorganiza lideranças de marketing e anuncia novo cargo para José Maurício Lilla (Valor Economico) https://valor.globo.com/empresas/marketing/noticia/2026/10/20/bradesco-reorganiza-liderancas-de-marketing-e-anuncia-novo-cargo-para-jose-mauricio-lilla.ghtml
-· UST Citi's Nathan Sheets Warns Markets Could Misread The Fed — Sees Fiscal, AI Financing Worries Pushing Up Treasury Yields (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:aea633eb2094b:0-citi-s-nathan-sheets-warns-markets-could-misread-the-fed-sees-fiscal-ai-financing-worries-pushing-up-treasury-yields/
-· UST US Treasury Yields Fall on Tuesday (TradingView (Reuters)) https://www.tradingview.com/news/te_news:593498:0-us-treasury-yields-fall-on-tuesday/
-· (+54 manchetes; lista completa em eventos/noticias.json)
+· (+68 manchetes; lista completa em eventos/noticias.json)
