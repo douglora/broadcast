@@ -1,16 +1,15 @@
 ALERTAS · intradia
 
-[ATENÇÃO] E05 · MMM · 3M Q3 2026 slides: margin expansion drives raised guidance
+(pendente de slot anterior) [ATENÇÃO] E05 · MMM · 3M Q3 2026 slides: margin expansion drives raised guidance
 Investing.com · 20/10 11h52 · fonte única · licença: manchete
 Link: https://www.investing.com/news/company-news/3m-q3-2026-slides-margin-expansion-drives-raised-guidance-93CH-4960542
 Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
 Ativos: MMM
 Como falar: 'saiu no Investing.com: 3M Q3 2026 slides: margin expansion drives raised guidance; confirmar o número no texto antes de repassar'
 Fonte: Investing.com 20/10 11h52
-Push: intradia: 3 alertas de atenção — E05 MMM, E05 MMM, E05 MMM · detalhe na sessão
 ids: E05-MMM-79b31c3a74-2026-10-20
 
-[ATENÇÃO] E05 · MMM · Earnings call transcript: 3M tops Q3 2026 profit views as shares rise
+(pendente de slot anterior) [ATENÇÃO] E05 · MMM · Earnings call transcript: 3M tops Q3 2026 profit views as shares rise
 Investing.com · 20/10 11h32 · fonte única · licença: manchete
 Link: https://www.investing.com/news/transcripts/earnings-call-transcript-3m-tops-q3-2026-profit-views-as-shares-rise-93CH-4960515
 Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
@@ -19,7 +18,7 @@ Como falar: 'saiu no Investing.com: Earnings call transcript: 3M tops Q3 2026 pr
 Fonte: Investing.com 20/10 11h32
 ids: E05-MMM-6085f3bd72-2026-10-20
 
-[ATENÇÃO] E05 · MMM · 3M raises 2026 earnings guidance after quarterly profit growth
+(pendente de slot anterior) [ATENÇÃO] E05 · MMM · 3M raises 2026 earnings guidance after quarterly profit growth
 Yahoo Finance · 20/10 11h07 · fonte única · licença: resumo
 Trechos (licença resumo: reescrever, não colar):
   – 3M Co (NYSE:MMM) raised its full-year 2026 earnings guidance after third-quarter adjusted earnings per share increased 12% to $2.50.
@@ -35,28 +34,30 @@ Como falar: 'saiu no Yahoo Finance: 3M raises 2026 earnings guidance after quart
 Fonte: Yahoo Finance 20/10 11h07
 ids: E05-MMM-093cd8bce0-2026-10-20
 
-Info (só linha no Fechamento):
-· E05 NVDA · These 2 Billionaires Like Nvidia (NVDA). Should You Buy the Dip Ahead of Earnings?
-· E05 AMZN · 3M Jumps 6% on Expanded Amazon Data Center Deal and Earnings Beat; Coherent Edges Higher, Corning Stays Flat
-· E05 BBDC4 · Bradesco reorganiza lideranças de marketing e anuncia novo cargo para José Maurício Lilla
-· E05 UST · Citi's Nathan Sheets Warns Markets Could Misread The Fed — Sees Fiscal, AI Financing Worries Pushing Up Treasury Yields
-· E05 UST · US Treasury Yields Fall on Tuesday
-· E05 GOOGL · Google Says Services Are Recovering After U.K. Cloud Outage Hits Businesses
-· E05 MMM · 3M Company reports results for the quarter ended September 30 - Earnings Summary
-· E05 TESOURO · Tesouro Direto hoje: Prefixado 2029 cai a 12,69% nesta terça
-· E05 NVDA · Nvidia secures $35B in orders for new export-compliant GPU from Chinese tech giants: report
-· E05 GOOGL · Google Cloud outage in UK eases after impacting digital banks, public sector websites
-· E05 META · Will Higher Ad Revenues Aid Meta Platforms Stock in Q3 Earnings?
-· E05 LITE · Why is Lumentum stock sliding today?
-· E05 KO · Coca-Cola (KO) Earnings Expected to Grow: Should You Buy?
-· E05 BRENT · Dólar recua e Bolsa sobe com petróleo em alta e cenário eleitoral no radar
-· E05 MU · Cantor Fitzgerald reiterates Micron stock rating on supply outlook By Investing.com
-· E05 TSLA · What could a Tesla-SpaceX merger earn? Cathie Wood's Ark Invest has a $2.7 trillion answer.
-· E05 MMM · 3M beats estimates as profit margins expand, outlook improves
+[ATENÇÃO] E05 · MMM · 3M Q3 Adjusted Earnings, Revenue Rise; Full-Year Adjusted EPS Outlook Upgraded -- Shares Up Pre-Bell
+Yahoo Finance · 20/10 07h48 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – 3M (MMM) reported Q3 adjusted earnings Tuesday of $2.50 per share, up from $2.23 a year earlier.
+Link: https://finance.yahoo.com/markets/stocks/articles/3m-q3-adjusted-earnings-revenue-104838106.html
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: MMM
+Como falar: 'saiu no Yahoo Finance: 3M Q3 Adjusted Earnings, Revenue Rise; Full-Year Adjusted EPS Outlook Upgraded -- Shares…; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 20/10 07h48
+Push: [ATENÇÃO] MMM · 3M Q3 Adjusted Earnings, Revenue Rise; Full-Year Adjus · detalhe na sessão
+ids: E05-MMM-6993d07a88-2026-10-20
 
-Suprimidos pelo teto (viram linha do Fechamento): E05-TSLA-e999b0ce76-2026-10-20 (teto de noticias), E05-MMM-d652623376-2026-10-20 (teto de noticias)
+Info (só linha no Fechamento):
+· E05 BTC · BlackRock seeks to shield Bitcoin investors from losses after rival fund weathers 50% crash
+· E05 KO · Coca-Cola stock may move 2.9% on earnings release next week
+· E05 JPM · Enterprise value to EBITDA forward of JPMorgan Emerging Markets Dividend Income plc GBP – TURQUOISE:JEMIL
+· E05 LITE · Why is Lumentum stock sliding today? By Investing.com
+· E05 BAC · Bank of America says 1% increase to interest rate would add $95 billion in national debt costs
+· E05 USDBRL · Dólar opera em queda e Ibovespa sobe, de olho no exterior e com eleição no radar
+· E05 PETR4 · Petroleo Brasileiro S.A. Petrobras (PETR4) Previsões, Preço-Alvo e Projeções de Analistas
+
 
 Alertas do dia (todos, com status):
+· pendente  E05 MMM — MMM · 3M Q3 Adjusted Earnings, Revenue Rise; Full-Year Adjusted EPS Outlook Upgr
 · pendente  E05 MMM — MMM · 3M Q3 2026 slides: margin expansion drives raised guidance
 · pendente  E05 MMM — MMM · Earnings call transcript: 3M tops Q3 2026 profit views as shares rise
 · pendente  E05 MMM — MMM · 3M raises 2026 earnings guidance after quarterly profit growth
@@ -74,4 +75,4 @@ Alertas do dia (todos, com status):
 · entregue  E05 MMM — MMM · 3M Company Expects Outlook FY FCF Of About $4.8 Billion
 · entregue  E05 MMM — MMM · 3M tops forecasts for Q3 profit and full-year guidance; shares climb
 · entregue  S01 SISTEMA — coleta do slot manha saiu incompleta: tesouro: Tesouro Transparente com data-bas
-· (+66 notícias só manchete, em noticias.md)
+· (+73 notícias só manchete, em noticias.md)

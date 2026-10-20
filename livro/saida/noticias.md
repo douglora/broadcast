@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 20/10 12h23
+NOTÍCIAS E FATOS · 20/10 12h39
 
-Pernas: noticias ok 20 novas (18 consultas; descartadas: 487 veículo fora da lista, 33 sem ativo, 5 teto) · cvm ok 0 novos de 5 (3 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 8 novas (18 consultas; descartadas: 490 veículo fora da lista, 32 sem ativo, 0 teto) · cvm ok 0 novos de 5 (3 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (3)
 
@@ -58,7 +58,18 @@ Fonte: SEC EDGAR 2026-10-20
 id: E04-MMM-26000308-2026-10-20 · status: entregue · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (16)
+## NOTÍCIAS COM MATERIALIDADE (17)
+
+[ATENÇÃO] E05 · MMM · 3M Q3 Adjusted Earnings, Revenue Rise; Full-Year Adjusted EPS Outlook Upgraded -- Shares Up Pre-Bell
+Yahoo Finance · 20/10 07h48 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – 3M (MMM) reported Q3 adjusted earnings Tuesday of $2.50 per share, up from $2.23 a year earlier.
+Link: https://finance.yahoo.com/markets/stocks/articles/3m-q3-adjusted-earnings-revenue-104838106.html
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: MMM
+Como falar: 'saiu no Yahoo Finance: 3M Q3 Adjusted Earnings, Revenue Rise; Full-Year Adjusted EPS Outlook Upgraded -- Shares…; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 20/10 07h48
+id: E05-MMM-6993d07a88-2026-10-20 · status: pendente
 
 [ATENÇÃO] E05 · MMM · 3M Q3 2026 slides: margin expansion drives raised guidance
 Investing.com · 20/10 11h52 · fonte única · licença: manchete
@@ -268,8 +279,15 @@ Fonte: Yahoo Finance 20/10 07h30
 id: E05-MMM-c2716ce8dd-2026-10-20 · status: entregue
 
 
-## OUTRAS NOTÍCIAS (só manchete) (59)
+## OUTRAS NOTÍCIAS (só manchete) (66)
 
+· BTC BlackRock seeks to shield Bitcoin investors from losses after rival fund weathers 50% crash (CoinDesk) https://www.coindesk.com/markets/2026/10/20/blackrock-seeks-to-shield-bitcoin-investors-from-losses-after-rival-fund-weathers-50-crash
+· KO Coca-Cola stock may move 2.9% on earnings release next week (Investing.com) https://ng.investing.com/news/stock-market-news/cocacola-stock-may-move-29-on-earnings-release-next-week-93CH-2746392
+· JPM Enterprise value to EBITDA forward of JPMorgan Emerging Markets Dividend Income plc GBP – TURQUOISE:JEMIL (TradingView (Reuters)) https://www.tradingview.com/symbols/TURQUOISE-JEMIL/financials-statistics-and-ratios/enterprise-value-ebitda-fwd/
+· LITE Why is Lumentum stock sliding today? By Investing.com (Investing.com) https://uk.investing.com/news/stock-market-news/why-is-lumentum-stock-sliding-today-93CH-4920171
+· BAC Bank of America says 1% increase to interest rate would add $95 billion in national debt costs (Fortune) https://fortune.com/2026/10/20/white-house-warsh-national-debt-fed-interest-rate-cost/
+· USDBRL Dólar opera em queda e Ibovespa sobe, de olho no exterior e com eleição no radar (g1) https://g1.globo.com/economia/noticia/2026/10/20/dolar-ibovespa.ghtml
+· PETR4 Petroleo Brasileiro S.A. Petrobras (PETR4) Previsões, Preço-Alvo e Projeções de Analistas (ADVFN) https://br.advfn.com/bolsa-de-valores/bovespa/petrobras-pn-PETR4/previsoes
 · NVDA These 2 Billionaires Like Nvidia (NVDA). Should You Buy the Dip Ahead of Earnings? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/2-billionaires-nvidia-nvda-buy-150152803.html
 · AMZN 3M Jumps 6% on Expanded Amazon Data Center Deal and Earnings Beat; Coherent Edges Higher, Corning Stays Flat (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/3m-jumps-6-expanded-amazon-145845385.html
 · BBDC4 Bradesco reorganiza lideranças de marketing e anuncia novo cargo para José Maurício Lilla (Valor Economico) https://valor.globo.com/empresas/marketing/noticia/2026/10/20/bradesco-reorganiza-liderancas-de-marketing-e-anuncia-novo-cargo-para-jose-mauricio-lilla.ghtml
@@ -323,9 +341,4 @@ id: E05-MMM-c2716ce8dd-2026-10-20 · status: entregue
 · LITE Coherent stock and Lumentum shares set to report earnings next week, Bernstein previews (Investing.com) https://in.investing.com/news/stock-market-news/coherent-stock-and-lumentum-shares-set-to-report-earnings-next-week-bernstein-previews-93CH-5642328
 · TSLA Tesla reports third quarter earnings Wednesday, Sell-side comments By Investing.com (Investing.com) https://ng.investing.com/news/stock-market-news/tesla-reports-third-quarter-earnings-wednesday-sellside-comments-93CH-2745460
 · MMM 3M (NYSE:MMM) Reports Q3 2026 In Line With Expectations (TradingView (Reuters)) https://www.tradingview.com/news/stockstory:2f25fb25b094b:0-3m-nyse-mmm-reports-q3-2026-in-line-with-expectations/
-· MMM 3M earnings beat by $0.11, revenue fell short of estimates (Investing.com) https://in.investing.com/news/earnings/3m-earnings-beat-by-011-revenue-fell-short-of-estimates-5642279
-· GOOGL Google Cloud Outage Takes Down Revolut and Other Banks in UK (Bloomberg) https://www.bloomberg.com/news/articles/2026-10-20/google-cloud-outage-takes-down-revolut-and-other-banks-in-uk
-· BRENT Mercados acompanham contagem regressiva para eleição, ADP nos EUA e salto do petróleo; Ibovespa em dólar sobe nesta terça-feira (20) (Money Times) https://news.google.com/rss/articles/CBMi9wFBVV95cUxNQWY2UEUzWnE1YXNJbXRnTkVtVllmZ0EyWjJ0MXdjNzBqNEJzbVNBU040cF9MVm5qZnJWVFN3blF5ekk2ZHNqVzBMOXpFVGVFeDNwVFdNWHNkV0d3enk2UC0wQkstUVlOZ2dQSnlQNFp6QjlaMXZuYUlOUGhiaHYxZDktWF8zbFNEeHhEOHE0RTczWms1NnVlMkp6dHVzallVZWtxcXdXd1czNF9xZFNpZm50eHdaMHpWdHYtSzVkRDNld2lRSXVjdTFsTWdMbHJVSGRzaXJoSEZhMjQ3WFBHc3pnSmVsUlhhUjRvbUZ3YlEyUFRFVWpv?oc=5
-· JPM Jamie Dimon Details JPMorgan’s Push to Fund Defense, Healthcare and Energy Infrastructure (The Wall Street Journal) https://news.google.com/rss/articles/CBMimgJBVV95cUxNUHNrWnFOQ01Td2RmMFFXazZHR1FqbHY5UnF2OE5DUEtHeEFGZFJlbWtoejN5QldpWWxQUlUyTHFXaWZHS0ZiNk1uVVJMd0I1YVcwTzBVMUJhUkNJSGVueG1tUUJCaFJZNGlmVTVaa0NNT1lCdFkxTFhwQ1ZERUM2eTlPNVJ1ejl3TzdrMVVDVkVFQWlIcjRxQW96SjkxTjB4SGxCbzVsS0Rjb1JYbV9za0t5MFkyVG9OT212enJ5d3JBX3h2RHpXaW0yeTlsX3IyZXNMLWJfdHVtbERVLXhvSlN1YXVQeDBpNTljVE9nWkx2UzFlMEJBZW1RdE9LSEJXNm1xelllaDMtN3REdUpfNENNM3lfYVQ1cUE?oc=5
-· NVDA ByteDance, Alibaba and Tencent order $35 billion of Nvidia chips: Reuters (Yahoo Finance) https://news.google.com/rss/articles/CBMimwFBVV95cUxQc3FzUjAwbGtKMG13MFNmZFNJT3JnU2EwNWllSWZHX2llZkRDcXVEUDh3aWFyb1lHNzFyLWxoZmhfeXVrOW04UTViOVF5TzhQMWhMeUZSRk5yRzRLbE1VZ09Ta251bm5ua04yOGFNSmdzcmZ3V3dCZlhiaEtib3U2QUU3WEZqV0ZUbjBfanZaUWpmRVhEVmFYcGNxQQ?oc=5
-· BRENT Brent Crude Hits Five-Month High as Houthi Attack Claims Raise Oil Supply Concerns (Yahoo Finance) https://news.google.com/rss/articles/CBMijAFBVV95cUxQclZoUTdjU1ZlSUF4TTdNQVgyY3JlOXVYMExpNWtyeW1Ea1dWRDZzVTVzcG5DeHFyNUo2WXIxTlE3bHBCMWZ6ZXJwVXdEMmszSlNCSlN5TGk5UFRDcmRrSTBNYUgtZzNnMmFlZWN0WmhkUmtFVFMxQ2k2VTFBeWtFNmlqR0tHT2tlaG5ycA?oc=5
+· (+6 manchetes; lista completa em eventos/noticias.json)
