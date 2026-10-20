@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 20/10 11h22
+NOTÍCIAS E FATOS · 20/10 12h23
 
-Pernas: noticias ok 18 novas (18 consultas; descartadas: 473 veículo fora da lista, 32 sem ativo, 9 teto) · cvm ok 0 novos de 5 (3 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 20 novas (18 consultas; descartadas: 487 veículo fora da lista, 33 sem ativo, 5 teto) · cvm ok 0 novos de 5 (3 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (3)
 
@@ -58,7 +58,66 @@ Fonte: SEC EDGAR 2026-10-20
 id: E04-MMM-26000308-2026-10-20 · status: entregue · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (11)
+## NOTÍCIAS COM MATERIALIDADE (16)
+
+[ATENÇÃO] E05 · MMM · 3M Q3 2026 slides: margin expansion drives raised guidance
+Investing.com · 20/10 11h52 · fonte única · licença: manchete
+Link: https://www.investing.com/news/company-news/3m-q3-2026-slides-margin-expansion-drives-raised-guidance-93CH-4960542
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: MMM
+Como falar: 'saiu no Investing.com: 3M Q3 2026 slides: margin expansion drives raised guidance; confirmar o número no texto antes de repassar'
+Fonte: Investing.com 20/10 11h52
+id: E05-MMM-79b31c3a74-2026-10-20 · status: pendente
+
+[ATENÇÃO] E05 · MMM · Earnings call transcript: 3M tops Q3 2026 profit views as shares rise
+Investing.com · 20/10 11h32 · fonte única · licença: manchete
+Link: https://www.investing.com/news/transcripts/earnings-call-transcript-3m-tops-q3-2026-profit-views-as-shares-rise-93CH-4960515
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: MMM
+Como falar: 'saiu no Investing.com: Earnings call transcript: 3M tops Q3 2026 profit views as shares rise; confirmar o número no texto antes de repassar'
+Fonte: Investing.com 20/10 11h32
+id: E05-MMM-6085f3bd72-2026-10-20 · status: pendente
+
+[ATENÇÃO] E05 · MMM · 3M raises 2026 earnings guidance after quarterly profit growth
+Yahoo Finance · 20/10 11h07 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – 3M Co (NYSE:MMM) raised its full-year 2026 earnings guidance after third-quarter adjusted earnings per share increased 12% to $2.50.
+  – The company now expects adjusted earnings per share of $9.10 to $9.15 for 2026, incorporating its performance so far this year and an updated approach to reporting certain costs.
+  – Third-quarter adjusted sales rose 4.2% year on year to $6.6 billion, including organic growth of 3.3%, which excludes the effects of acquisitions, disposals and other specified factors.
+  – Reported sales increased 1% to $6.6 billion, while organic sales grew 0.2%, reflecting a difference between the reported and adjusted measures.
+  – Adjusted operating margin, which measures the proportion of revenue remaining after operating costs, increased 110 basis points to 26.2% on the company's updated reporting basis.
+  – Reported earnings per share rose 70% to $2.63, while the reported operating margin increased 150 basis points to 23.7% from 22.2% a year earlier.
+Link: https://finance.yahoo.com/markets/stocks/articles/3m-raises-2026-earnings-guidance-140700211.html
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: MMM
+Como falar: 'saiu no Yahoo Finance: 3M raises 2026 earnings guidance after quarterly profit growth; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 20/10 11h07
+id: E05-MMM-093cd8bce0-2026-10-20 · status: pendente
+
+[ATENÇÃO] E05 · TSLA · What could a Tesla-SpaceX merger earn? Cathie Wood's Ark Invest has a $2.7 trillion answer.
+Yahoo Finance · 20/10 10h08 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – The Elon Musk bull's firm estimated that SpaceX and Tesla could generate $3.8 trillion in sales and $2.7 trillion in operating profits by 2031, with SpaceX contributing roughly 62% and 69%, respectively.
+  – To get a sense of how bullish a call this is, Yahoo Finance data shows that Wall Street analysts expect SpaceX to post $43 billion in sales this year, while Tesla clocks in at $107 billion.
+  – "While our model assesses Tesla as a standalone business, a SpaceX-Tesla merger could take place within the next five years," the Ark Invest team said.
+  – "Tesla's highly cash-generative robotaxi network could help fund SpaceX's ambitious plans for orbital data centers, and at the same time SpaceX's compute-intensive frontier AI models could serve as the planning layer fo…
+  – Working together on the Terafab project, both companies could alleviate chip constraints." It has been an eventful few weeks for CEO Elon Musk as chatter heats up about a merger between SpaceX and Tesla.
+  – Musk said on Monday he would give one share of SpaceX stock to every kid in America in 2027.
+Link: https://finance.yahoo.com/markets/article/what-could-a-tesla-spacex-merger-earn-cathie-woods-ark-invest-has-a-27-trillion-answer-130802955.html
+Por que importa: aquisicao ou venda muda alavancagem, mix de receita e o multiplo; olhar preco pago e financiamento
+Ativos: TSLA
+Como falar: 'saiu no Yahoo Finance: What could a Tesla-SpaceX merger earn? Cathie Wood's Ark Invest has a $2.7 trillion answe…; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 20/10 10h08
+id: E05-TSLA-e999b0ce76-2026-10-20 · status: linha
+
+[ATENÇÃO] E05 · MMM · 3M beats estimates as profit margins expand, outlook improves
+TradingView (Reuters) · 20/10 08h41 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/seekingalpha:b7655fed4094b:0-3m-beats-estimates-as-profit-margins-expand-outlook-improves/
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: MMM
+Como falar: 'saiu no TradingView (Reuters): 3M beats estimates as profit margins expand, outlook improves; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 20/10 08h41
+id: E05-MMM-d652623376-2026-10-20 · status: linha
 
 [ATENÇÃO] E05 · PETR4 · “O investidor trocou Vale por Petrobras”: a combinação que faz a mineradora perder R$ 24 bilhões enquanto o Ibovespa festeja
 Seu Dinheiro · 20/10 10h29 · fonte única · licença: resumo
@@ -74,7 +133,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: PETR4 · VALE3
 Como falar: 'saiu no Seu Dinheiro: “O investidor trocou Vale por Petrobras”: a combinação que faz a mineradora perder R$ 24…; confirmar o número no texto antes de repassar'
 Fonte: Seu Dinheiro 20/10 10h29
-id: E05-PETR4-121d92eff2-2026-10-20 · status: pendente
+id: E05-PETR4-121d92eff2-2026-10-20 · status: entregue
 
 [ATENÇÃO] E05 · TSLA · General Motors Sinks 6% Despite Earnings Beat and New Buyback as Outlook Narrows; Ford Slips, Tesla Barely Budges
 Yahoo Finance · 20/10 09h45 · fonte única · licença: resumo
@@ -90,7 +149,7 @@ Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; 
 Ativos: TSLA
 Como falar: 'saiu no Yahoo Finance: General Motors Sinks 6% Despite Earnings Beat and New Buyback as Outlook Narrows; Ford Sl…; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 20/10 09h45
-id: E05-TSLA-3afd248bef-2026-10-20 · status: pendente
+id: E05-TSLA-3afd248bef-2026-10-20 · status: entregue
 
 [ATENÇÃO] E05 · MMM · 3M tops forecasts for Q3 profit and full-year guidance; shares climb
 Yahoo Finance · 20/10 08h14 · fonte única · licença: resumo
@@ -106,7 +165,7 @@ Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; 
 Ativos: MMM
 Como falar: 'saiu no Yahoo Finance: 3M tops forecasts for Q3 profit and full-year guidance; shares climb; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 20/10 08h14
-id: E05-MMM-d2505509af-2026-10-20 · status: pendente
+id: E05-MMM-d2505509af-2026-10-20 · status: entregue
 
 [ATENÇÃO] E05 · MMM · 3M Reports Third-Quarter 2026 Results; Raises Full-Year EPS Guidance
 PR Newswire · 20/10 07h30 · + Yahoo Finance · licença: integral
@@ -209,8 +268,23 @@ Fonte: Yahoo Finance 20/10 07h30
 id: E05-MMM-c2716ce8dd-2026-10-20 · status: entregue
 
 
-## OUTRAS NOTÍCIAS (só manchete) (44)
+## OUTRAS NOTÍCIAS (só manchete) (59)
 
+· NVDA These 2 Billionaires Like Nvidia (NVDA). Should You Buy the Dip Ahead of Earnings? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/2-billionaires-nvidia-nvda-buy-150152803.html
+· AMZN 3M Jumps 6% on Expanded Amazon Data Center Deal and Earnings Beat; Coherent Edges Higher, Corning Stays Flat (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/3m-jumps-6-expanded-amazon-145845385.html
+· BBDC4 Bradesco reorganiza lideranças de marketing e anuncia novo cargo para José Maurício Lilla (Valor Economico) https://valor.globo.com/empresas/marketing/noticia/2026/10/20/bradesco-reorganiza-liderancas-de-marketing-e-anuncia-novo-cargo-para-jose-mauricio-lilla.ghtml
+· UST Citi's Nathan Sheets Warns Markets Could Misread The Fed — Sees Fiscal, AI Financing Worries Pushing Up Treasury Yields (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:aea633eb2094b:0-citi-s-nathan-sheets-warns-markets-could-misread-the-fed-sees-fiscal-ai-financing-worries-pushing-up-treasury-yields/
+· UST US Treasury Yields Fall on Tuesday (TradingView (Reuters)) https://www.tradingview.com/news/te_news:593498:0-us-treasury-yields-fall-on-tuesday/
+· GOOGL Google Says Services Are Recovering After U.K. Cloud Outage Hits Businesses (The Wall Street Journal) https://www.wsj.com/finance/investing/revolut-hit-by-widespread-outage-affecting-payments-transfers-withdrawals-5971bf0a
+· MMM 3M Company reports results for the quarter ended September 30 - Earnings Summary (TradingView (Reuters)) https://www.tradingview.com/news/reuters.com,2026:newsml_L8N4661LT:0-3m-company-reports-results-for-the-quarter-ended-september-30-earnings-summary/
+· TESOURO Tesouro Direto hoje: Prefixado 2029 cai a 12,69% nesta terça (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/tesouro-devolve-alta-da-vespera-e-prefixados-recuam-ate-014-ponto-nesta-terca/
+· NVDA Nvidia secures $35B in orders for new export-compliant GPU from Chinese tech giants: report (TradingView (Reuters)) https://www.tradingview.com/news/seekingalpha:ee446e02b094b:0-nvidia-secures-35b-in-orders-for-new-export-compliant-gpu-from-chinese-tech-giants-report/
+· GOOGL Google Cloud outage in UK eases after impacting digital banks, public sector websites (Reuters) https://www.reuters.com/world/europe/google-cloud-services-experience-outage-europe-2026-10-20/
+· META Will Higher Ad Revenues Aid Meta Platforms Stock in Q3 Earnings? (Yahoo Finance) https://news.google.com/rss/articles/CBMimwFBVV95cUxNSS1IR0hGR085c3Vfa3NfZXVxQUEzUG1JVDJFNG0xRnhPSmhaSl8wZ1BwZHRCTUhZNURSRVVMV29zNVlrU2lfSUtZYVRqLWNoUVNTLUY4ekNCSXlUWm1TVFBGMlVrY2RWOXhvaEpxcGpBR1VpVXVfc3pEMEMxd1JYbGhZQkJZMjl6SmdXejhNQkVwSldUZndNZWNYNA?oc=5
+· LITE Why is Lumentum stock sliding today? (Investing.com) https://news.google.com/rss/articles/CBMingFBVV95cUxQYjQ2bVdEV2FDZmVJSm13eGx6YmZwQUtPTzNfeXM5V1RfaDRNUEkwY21UWlc2RTlPbXJwQ0k4Y0lJT1JYSlpfSFMtbzd2MnFvNGRlYzRsaExHcm0yYmZGR2hxcWVzdFJFbkx0RGN1MnprV0lrTVZTYWFEZUhqZG5maTdWeHRXeFZzcmdiTkJwS0JoSXZ1V2dtTWg2Nmw1QQ?oc=5
+· KO Coca-Cola (KO) Earnings Expected to Grow: Should You Buy? (Yahoo Finance) https://news.google.com/rss/articles/CBMimwFBVV95cUxPcTgxRHg2UkZQa3Z1RzB2cU1mTUN1dmlOM2lVelN4bmd0MzFvMjI0cksxZTU0bFZnMExQYUxqYTZ4Y2xSMlQ0X3FEVEVvNEdHLWVSN183S0FtVmJRUl85MG5EdXZDcHlJaS1TZ3FXakEycmRVM3U2dThlRkVZcnB2VVFzUkdQVHcwVVhGb3UwYW9hbFg4c3UxdDZXTQ?oc=5
+· BRENT Dólar recua e Bolsa sobe com petróleo em alta e cenário eleitoral no radar (Folha de S.Paulo) https://news.google.com/rss/articles/CBMivgFBVV95cUxPWHFpRU5ITnVIVGppWkZwTGxjdlVYd0Z4TzNaN3E0azkwSklSbHRfdkJaUTNpU0c5dXBQMUd6VkFTN2U1R1c0VkljVExxc2gxUkZpY3VMcUhsN3lJRXZIa21kYUs1dmVkUWpOM0Q4TnpyMmplVE5BcjlURnowUDlJdkdBTmFUNXZzYlEzanBFMkVjZkxONFYtTW42em1uTlR6aWw4ZHR3Tm5hc0lfRlBfQjJfT1B6bGpCNjdDZ09B?oc=5
+· MU Cantor Fitzgerald reiterates Micron stock rating on supply outlook By Investing.com (Investing.com) https://news.google.com/rss/articles/CBMixgFBVV95cUxNRzB0Y1lGQnkzNDRhVVg5RXNqSmpZQ2JIWVFqdjgyb1hGYUtXQkVxNXRBZFNWRTZhU3lVV1pCdzd0ajVCSzd3aHRtX0hodmlCdHdmWXlWbVczX2VLT0o0eDI4bVVQbzJLWWNSdTZtTmVuWnBRVGtNYWJCX084NkZhUEJlWVFwTmtoWHZPeFVqeDVUejF3QnA5MGhfNDEtemF1S2F5SUdpbHJHNTVsSGVWekNERFhLVy1PZ0FpaDVZbnJBMEtPbUE?oc=5
 · USDBRL Ibovespa sobe e dólar cai com mercado atento a pesquisas eleitorais e balanços corporativos (Exame) https://exame.com/invest/mercados/ibovespa-sobe-e-dolar-cai-com-mercado-atento-a-pesquisas-eleitorais-e-balancos-corporativos/
 · TSLA Ferrari CEO hails Tesla Roadster redesign as the bold innovation the industry needs (TradingView (Reuters)) https://www.tradingview.com/news/reuters.com,2026:newsml_L8N4660SZ:0-ferrari-ceo-hails-tesla-roadster-redesign-as-the-bold-innovation-the-industry-needs/
 · BTC Bitcoin ETFs buy $526.6M in Bitcoin amid price weakness (TradingView (Reuters)) https://www.tradingview.com/news/cryptobriefing:b3542b509094b:0-bitcoin-etfs-buy-526-6m-in-bitcoin-amid-price-weakness/
