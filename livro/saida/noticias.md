@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 20/10 17h22
+NOTÍCIAS E FATOS · 20/10 18h12
 
-Pernas: noticias ok 15 novas (18 consultas; descartadas: 442 veículo fora da lista, 34 sem ativo, 0 teto) · cvm ok 0 novos de 2 (2 cias casadas) · sec ok 1 novos em 3 dias
+Pernas: noticias ok 6 novas (18 consultas; descartadas: 445 veículo fora da lista, 33 sem ativo, 0 teto) · cvm ok 0 novos de 5 (3 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (3)
 
@@ -99,7 +99,7 @@ Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir
 Ativos: ITUB4
 Como falar: 'saiu no Suno Noticias: Itaú (ITUB4) rendeu 576% em 10 anos? Veja como o banco mudou e quanto pagou em dividendos; confirmar o número no texto antes de repassar'
 Fonte: Suno Noticias 20/10 17h05
-id: E05-ITUB4-055eb74b82-2026-10-20 · status: pendente
+id: E05-ITUB4-055eb74b82-2026-10-20 · status: entregue
 
 [ATENÇÃO] E05 · BTC · Strive Raises $630M in SATS IPO, Keeps Bitcoin Allocation Open
 Yahoo Finance · 20/10 15h10 · fonte única · licença: resumo
@@ -115,7 +115,7 @@ Por que importa: oferta de acoes ou divida altera a base acionaria ou a alavanca
 Ativos: BTC
 Como falar: 'saiu no Yahoo Finance: Strive Raises $630M in SATS IPO, Keeps Bitcoin Allocation Open; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 20/10 15h10
-id: E05-BTC-b918e0b7a6-2026-10-20 · status: pendente
+id: E05-BTC-b918e0b7a6-2026-10-20 · status: entregue
 
 [ATENÇÃO] E05 · TSLA · Tesla Needs Strong Guidance to Offset 4 Straight Earnings Misses
 Investing.com · 20/10 13h43 · fonte única · licença: manchete
@@ -411,8 +411,14 @@ Fonte: Yahoo Finance 20/10 07h30
 id: E05-MMM-c2716ce8dd-2026-10-20 · status: entregue
 
 
-## OUTRAS NOTÍCIAS (só manchete) (141)
+## OUTRAS NOTÍCIAS (só manchete) (147)
 
+· USDBRL Dólar cai 0,58% com apetite ao risco no exterior e 'trade' eleitoral (UOL Economia) https://economia.uol.com.br/noticias/estadao-conteudo/2026/10/20/dolar-cai-058-com-apetite-ao-risco-no-exterior-e-trade-eleitoral.htm
+· USDBRL Ibovespa sobe 1,5% com otimismo eleitoral; dólar cai a R$ 5,01 (Money Times) https://www.moneytimes.com.br/ibovespa-20-10-26-lils/
+· USDBRL Dólar cai, com disputa eleitoral acirrada e fraqueza da moeda no exterior (ADVFN) https://br.advfn.com/jornal/2026/10/dolar-cai-com-disputa-eleitoral-acirrada-e-fraqueza-da-moeda-no-exterior
+· JPM JPMorgan Reveals 3 Bitcoin Price Scenarios for 2036 (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/jpmorgan-reveals-3-bitcoin-price-182406353.html
+· TSLA Tesla's Earnings Will Put Its AI Spending to the Test (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/teslas-earnings-put-ai-spending-171715355.html
+· TESOURO Trade eleitoral impulsiona mercado e Tesouro Direto tem queda forte nas taxas (Estadao) https://www.estadao.com.br/em-alta/einvestidor/cenarios-e-mercado/tesouro-devolve-alta-da-vespera-e-prefixados-recuam-ate-014-ponto-nesta-terca/
 · USDBRL Dólar fecha em queda de 0,58%, a R$ 5,019; Bolsa sobe com varejistas (UOL Economia) https://economia.uol.com.br/cotacoes/noticias/redacao/2026/10/20/dolar-fecha-em-queda-de-058-a-r-5019-bolsa-sobe-com-varejistas.htm
 · USDBRL Dólar à vista fecha em baixa de 0,58%, a R$5,0182 na venda Por Reuters (Investing.com) https://br.investing.com/news/forex-news/dolar-a-vista-fecha-em-baixa-de-058-a-r50182-na-venda-2097029
 · TSLA Tesla Q3 earnings preview: 3 key things to watch (Yahoo Finance) https://finance.yahoo.com/video/tesla-q3-earnings-preview-3-key-things-to-watch-200654318.html
@@ -467,10 +473,4 @@ id: E05-MMM-c2716ce8dd-2026-10-20 · status: entregue
 · KO Nike Now Yields More Than Procter & Gamble and Twice as Much as Coca-Cola. Is It the Most Overlooked Dividend Stock? Here's the Clear Answer. (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/nike-now-yields-more-procter-151200493.html
 · GOOGL Google Cloud Outage Hits UK Banks and Public Services (Yahoo Finance) https://finance.yahoo.com/technology/articles/google-cloud-outage-hits-uk-151041396.html
 · JPM Enterprise value to revenue forward of JPMorgan Emerging Markets Dividend Income plc GBP – TURQUOISE:JEMIL (TradingView (Reuters)) https://www.tradingview.com/symbols/TURQUOISE-JEMIL/financials-statistics-and-ratios/enterprise-value-sales-fwd/
-· MU Cantor Fitzgerald reiterates Micron stock rating on supply outlook By Investing.com (Investing.com) https://ng.investing.com/news/stock-market-news/cantor-fitzgerald-reiterates-micron-stock-rating-on-supply-outlook-93CH-2745934
-· BTC BlackRock’s Secret Weapon Against Bitcoin Crashes Just Hit the SEC’s Desk (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/blackrock-secret-weapon-against-bitcoin-141715190.html
-· NVDA Nvidia secures $35B in orders for new export-compliant GPU from Chinese tech giants: report (NVDA:NASDAQ) (Seeking Alpha) https://seekingalpha.com/news/4654626-nvidia-secures-35b-in-orders-for-new-export-compliant-gpu-from-chinese-tech-giants-report
-· MMM 3M Company (MMM) Q3 FY2026 earnings call transcript (Yahoo Finance) https://finance.yahoo.com/quote/MMM/earnings/MMM-Q3-2026-earnings_call-711277.html
-· KO Here's How Much a $10,000 Investment in Coca-Cola Will Get You in Dividends (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/heres-much-10-000-investment-122100953.html
-· BRENT Oil prices fall as traders hope for diplomatic progress in Middle East (CNBC) https://news.google.com/rss/articles/CBMib0FVX3lxTE03NjBGWFYwdTRJdGVxMnJ4QVNWUzNxeW9BUzZUTThjU3V5NThLWDBHdUx2RVhFMEI3WnVsdzBQVWtvZ1FUelQ4bkgyNk9MTmxFeWV4eFRoRWZVV3JQTEpQSVI1aXNpTW9uVk5IX3VNSdIBdEFVX3lxTE5BVFpmcUNCZTlrOXhpOGttMmlaLW03M3pabEk3TzVReVhkYmc4b0xLNU9henJ4Tl9uVkc2OHJ4UjVNUmlYdGp6Y3FyZXFFbVU0ZF9Zb3RELW1Pb3Q2RFlQVHBDUTRrTVVkZHdaUmZkNnI4Y21S?oc=5
-· (+81 manchetes; lista completa em eventos/noticias.json)
+· (+87 manchetes; lista completa em eventos/noticias.json)
