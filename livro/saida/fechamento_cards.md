@@ -1,4 +1,4 @@
-## Fechamento do livro · ter 20/10 · 18h12 BRT
+## Fechamento do livro · ter 20/10 · 20h47 BRT
 
 ---
 
@@ -190,13 +190,13 @@ Nomes completos: **QNTM** VanEck Quantum Computing UCITS ETF USD (Acc) · **QANT
 | Ativo | últ | dia | 1 sem | 1 mês | 3 m | 6 m | 1 ano | YTD | 5 anos |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | **USDBRL** Dolar/Real | 5,0172 | **-0,5** | -0,1 | -2,4 | -1,7 | +1,3 | -7,2 | -8,4 | -11 |
-| **DXY** Indice Dolar DXY | 101,71 | **-0,3** | -0,5 | +1,5 | +0,5 | +3,4 | +3,2 | +3,5 | +8,7 |
-| **BRENT** Petroleo Brent | 109,12 | **-0,4** | +3,2 | +5,1 | +20 | +11 | +79 | +79 | +28 |
-| **BTC** Bitcoin _(parcial)_ | 82.810 | **+1,2** | -0,3 | +2,1 | +25 | +8,5 | -25 | -5,4 | +36 |
-| **ETH** Ethereum _(parcial)_ | 2.451 | **+1,9** | -1,8 | -7,3 | +27 | +5,3 | -38 | -17 | -40 |
+| **DXY** Indice Dolar DXY _(dia 19/10)_ | 101,98 | **+0,1** | -0,6 | +1,8 | +1,0 | +4,0 | +3,6 | +3,8 | +8,9 |
+| **BRENT** Petroleo Brent _(dia 19/10)_ | 109,55 | **-0,3** | +2,7 | +5,5 | +23 | +15 | +79 | +80 | +28 |
+| **BTC** Bitcoin _(parcial)_ | 82.937 | **+1,3** | -0,2 | +2,2 | +25 | +8,6 | -25 | -5,2 | +36 |
+| **ETH** Ethereum _(parcial)_ | 2.448 | **+1,8** | -1,9 | -7,4 | +27 | +5,2 | -39 | -17 | -40 |
 | **MINERIO** Minerio de ferro 62% Fe CFR China _(D-1, 19/10)_ | 90,95 | **+0,1** | +0,1 | -6,8 | -7,9 | -15 | -14 | -15 | -26 |
 
-**Brent em reais:** R$ 547,48 por barril (20/10) · dia -0,9% · 1 mês +2,5% · no ano +64% (Brent do 1º vencimento × dólar).
+**Brent em reais:** a confirmar (Brent sem fechamento confirmado).
 
 ---
 
@@ -204,11 +204,11 @@ Nomes completos: **QNTM** VanEck Quantum Computing UCITS ETF USD (Acc) · **QANT
 
 | Referência | US$/t | dia | 1 sem | 1 mês | leitura |
 |---|---:|---:|---:|---:|---|
-| **Celulose fibra longa** | 619 | -0,6 | -2,6 | -4,7 | 20/10 |
-| **Minerio de ferro Dalian** | 90 | -0,7 | +0,8 | -4,6 | 20/10 |
+| **Celulose fibra longa** | 618 | -0,8 | -2,8 | -4,9 | 20/10 |
+| **Minerio de ferro Dalian** | 90 | -0,9 | +0,6 | -4,8 | 20/10 |
 
-- **Celulose fibra longa**: futuro SP da SHFE (fibra longa) em CNY/t, sem o IVA de 13%; nao e preco de lista NBSK · CNY/t 4.674 a USD/CNY 6,68 = US$ 700/t com IVA
-- **Minerio de ferro Dalian**: futuro da DCE em CNY/t, sem o IVA de 13%; o CFR 62% em US$ e a linha MINERIO · CNY/t 679 a USD/CNY 6,68 = US$ 102/t com IVA
+- **Celulose fibra longa**: futuro SP da SHFE (fibra longa) em CNY/t, sem o IVA de 13%; nao e preco de lista NBSK · CNY/t 4.674 a USD/CNY 6,69 = US$ 699/t com IVA
+- **Minerio de ferro Dalian**: futuro da DCE em CNY/t, sem o IVA de 13%; o CFR 62% em US$ e a linha MINERIO · CNY/t 679 a USD/CNY 6,69 = US$ 101/t com IVA
 
 ---
 
@@ -245,12 +245,14 @@ Inflação implícita 2029 5,50% · 2032 5,68% · 2031/32 (descasado) 5,58% · F
 
 2s10s +33 bps (-5 no dia)
 
-**Regime** VIX 17,3 (-6,1%) · score de risco 0 de 6 · **regime de vol LIGADO**
+**Regime** VIX 17,3 (-6,1%) · score de risco 0 de 5 · **regime de vol LIGADO**
 
 ---
 
-### Notícias e fatos · 25
+### Notícias e fatos · 26
 
+- **AMZN** 3M Co (MMM) (Q3 2026) Earnings Call Highlights: Raised Guidance, Amazon Data Center Deal and ... (Yahoo Finance · 20/10) [abrir a fonte](https://finance.yahoo.com/markets/stocks/articles/3m-co-mmm-q3-2026-230101681.html)
+  *Por que importa:* resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
 - **ITUB4** Itaú (ITUB4) rendeu 576% em 10 anos? Veja como o banco mudou e quanto pagou em dividendos (Suno Noticias · 20/10) [abrir a fonte](https://www.suno.com.br/noticias/itau-itub4-desempenho-10-anos-dividendos-mt/)
   *Por que importa:* provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
 - **BTC** Strive Raises $630M in SATS IPO, Keeps Bitcoin Allocation Open (Yahoo Finance · 20/10) [abrir a fonte](https://finance.yahoo.com/markets/crypto/articles/strive-raises-630m-sats-ipo-181000229.html)
@@ -324,8 +326,8 @@ Inflação implícita 2029 5,50% · 2032 5,68% · 2031/32 (descasado) 5,58% · F
 
 ### Como ler
 
-**Relógios:** Yahoo 18h12 · DI ajuste D0 · Tesouro base 15/10 · UST CMT D0 · PTAX 20/10
-**Lacunas:** tesouro: Tesouro Transparente com data-base 15/10; faltam 16/10, 19/10 (taxas não são as de hoje).
+**Relógios:** Yahoo 20h47 · DI ajuste D0 · Tesouro base 15/10 · UST CMT D0 · PTAX 20/10
+**Lacunas:** DXY sem barra de 20/10 (última 19/10); BRENT sem barra de 20/10 (última 19/10); DXY: barra de 20/10 é o início da sessão seguinte (última cotação 19:32 de Nova York); barra descartada, fica a de 19/10; BRENT: barra de 20/10 é o início da sessão seguinte (última cotação 19:37 de Nova York); barra descartada, fica a de 19/10; tesouro: Tesouro Transparente com data-base 15/10; faltam 16/10, 19/10 (taxas não são as de hoje).
 **IUAA:** NAO e renda fixa ultracurta: cai ~6% a cada +100 bps na curva. Ler junto com UST 10y/30y. Caixa em dolar e o IB01.
 **Hipótese:** **EWY** iShares MSCI South Korea ETF · **MCHI** iShares MSCI China ETF — ETFs dos EUA, a confirmar.
 Minério: proxy Dalian 679 CNY/t (2026-10-20).

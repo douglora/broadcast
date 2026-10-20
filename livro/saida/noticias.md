@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 20/10 18h28
+NOTÍCIAS E FATOS · 20/10 20h47
 
-Pernas: noticias ok 1 novas (18 consultas; descartadas: 442 veículo fora da lista, 33 sem ativo, 0 teto) · cvm ok 0 novos de 5 (3 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 14 novas (18 consultas; descartadas: 441 veículo fora da lista, 35 sem ativo, 3 teto) · cvm ok 0 novos de 2 (2 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (3)
 
@@ -83,7 +83,23 @@ Fonte: SEC EDGAR 2026-10-20
 id: E04-MMM-26000311-2026-10-20 · status: linha
 
 
-## NOTÍCIAS COM MATERIALIDADE (25)
+## NOTÍCIAS COM MATERIALIDADE (26)
+
+[ATENÇÃO] E05 · AMZN · 3M Co (MMM) (Q3 2026) Earnings Call Highlights: Raised Guidance, Amazon Data Center Deal and ...
+Yahoo Finance · 20/10 20h01 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – - Organic Sales Growth: 3.3% in Q3; full-year guidance of greater than 3.5%; Q4 expected just over 4%.
+  – - Adjusted Operating Margin: 26.2% in Q3, up 110 basis points year over year; three business groups up 140 basis points, partially offset by 30 basis points from corporate.
+  – - Adjusted EPS: $2.50 in Q3, up 12% year over year.
+  – - GAAP EPS: $2.63 in Q3, up 70% year over year.
+  – - Free Cash Flow: $1.2 billion in Q3; year to date $3.1 billion; full-year guidance approximately $4.8 billion.
+  – - Operating Profit: Increased $140 million, with $260 million from sales growth and productivity, partially offset by about $120 million of stranded costs and investments.
+Link: https://finance.yahoo.com/markets/stocks/articles/3m-co-mmm-q3-2026-230101681.html
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: AMZN · MMM
+Como falar: 'saiu no Yahoo Finance: 3M Co (MMM) (Q3 2026) Earnings Call Highlights: Raised Guidance, Amazon Data Center Deal…; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 20/10 20h01
+id: E05-AMZN-f5da63c200-2026-10-20 · status: pendente
 
 [ATENÇÃO] E05 · ITUB4 · Itaú (ITUB4) rendeu 576% em 10 anos? Veja como o banco mudou e quanto pagou em dividendos
 Suno Noticias · 20/10 17h05 · fonte única · licença: resumo
@@ -411,8 +427,21 @@ Fonte: Yahoo Finance 20/10 07h30
 id: E05-MMM-c2716ce8dd-2026-10-20 · status: entregue
 
 
-## OUTRAS NOTÍCIAS (só manchete) (148)
+## OUTRAS NOTÍCIAS (só manchete) (161)
 
+· TSLA Musk Teases SpaceX-Tesla Merger in Earnings Call (Bloomberg) https://www.bloomberg.com/news/videos/2026-10-20/musk-teases-spacex-tesla-merger-in-earnings-call-video?srnd=homepage-europe
+· TSLA SpaceX and Tesla's Terafab targets 2028 for volume chip production, Musk says (Reuters) https://www.reuters.com/business/media-telecom/spacex-teslas-terafab-targets-2028-volume-chip-production-musk-says-2026-10-20/
+· USDBRL Ibovespa avança mais de 1,5% e dólar cai a R$5,01 de olho na eleição (TradingView (Reuters)) https://br.tradingview.com/news/reuters.com,2026:newsml_L1N46616I:0/
+· TSLA Musk calls Tesla-SpaceX merger a 'good idea' as SpaceX posts first profit as a public company (Reuters) https://www.reuters.com/business/media-telecom/spacex-quarterly-revenue-jumps-beats-estimates-ai-business-surges-2026-10-20/
+· TSLA Elon Musk says Tesla and SpaceX are weighing a $3.5 trillion merger—without him in the room (Fortune) https://fortune.com/2026/10/20/elon-musk-tesla-and-spacex-weighing-merger/
+· USDBRL Dólar cai para R$ 5,01 com exterior e expectativa eleitoral no Brasil (Agencia Brasil) https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/dolar-cai-para-r-501-com-exterior-e-expectativa-eleitoral-no-brasil
+· TSLA Space X and Tesla exploring merger, CEO Elon Musk says (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/space-x-tesla-exploring-merger-213351681.html
+· GOOGL TTEC Digital Unveils 40+ AI Agents on Google Cloud Gemini Enterprise for CX to Help Modernize Government Experiences (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/ttec-digital-unveils-40-ai-213000856.html
+· MMM Why Is 3M (MMM) Stock Rocketing Higher Today (TradingView (Reuters)) https://www.tradingview.com/news/stockstory:f22b29d35094b:0-why-is-3m-mmm-stock-rocketing-higher-today/
+· JPM Jamie Dimon Once Called Bitcoin a 'Fraud'—Now JP Morgan Projects 10% Annualized Returns (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:b1ad78dbb094b:0-jamie-dimon-once-called-bitcoin-a-fraud-now-jp-morgan-projects-10-annualized-returns/
+· TSLA SpaceX and Tesla boards are exploring potential merger (Financial Times) https://www.ft.com/content/f2a2a578-5a2e-42ff-b4c9-8bafff271b37?syn-25a6b1a6=1
+· LITE Learn Why The Bull Case For Lumentum Holdings (LITE) Could Change Following Production Bottlenecks (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/learn-why-bull-case-lumentum-200938022.html
+· JPM JPMorgan Chase (JPM) Q2 2026 Earnings Call Transcript (Fortune) https://news.google.com/rss/articles/CBMibEFVX3lxTE91OUd1YUJLRGFLdlBUMDQ3d1pvVndQWnY5b2JXNEVVU0Z2V1Jza0h2bEUtOWtHU0RDZFJMLXVZeG9UTXJRZzFXcG1tbnFITDh4TUdveWtBbU5LTjRqY3k1eVdfVVV0VEp0bktMSw?oc=5
 · MU Prediction: Micron Could Turn a $5,000 Investment Into This by 2030 (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/prediction-micron-could-turn-5-193300157.html
 · USDBRL Dólar cai 0,58% com apetite ao risco no exterior e 'trade' eleitoral (UOL Economia) https://economia.uol.com.br/noticias/estadao-conteudo/2026/10/20/dolar-cai-058-com-apetite-ao-risco-no-exterior-e-trade-eleitoral.htm
 · USDBRL Ibovespa sobe 1,5% com otimismo eleitoral; dólar cai a R$ 5,01 (Money Times) https://www.moneytimes.com.br/ibovespa-20-10-26-lils/
@@ -460,17 +489,4 @@ id: E05-MMM-c2716ce8dd-2026-10-20 · status: entregue
 · AVGO Celestica: Broadcom Just Fired A $350 Billion Warning Shot (NYSE:CLS) (Seeking Alpha) https://seekingalpha.com/article/4955584-celestica-broadcom-just-fired-a-350-billion-warning-shot
 · PETR4 Abicom: alta do Brent faz diesel da Petrobras se aproximar do valor do subsídio (eixos) https://eixos.com.br/combustiveis-e-bioenergia/abicom-alta-do-brent-faz-diesel-da-petrobras-se-aproximar-do-valor-do-subsidio/
 · TSLA Tesla's Earnings Will Put Its AI Spending to the Test (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:b4336d995094b:0-tesla-s-earnings-will-put-its-ai-spending-to-the-test/
-· TSM TSMC Stocks Rise 2.5% as Its $53.3 Billion Sales Target Tests Margins (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:7cd4ac63b094b:0-tsmc-stocks-rise-2-5-as-its-53-3-billion-sales-target-tests-margins/
-· MRVL Marvell Stocks Rise Nearly 7% With $300 Target and Profit Adjustments in Focus (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:fec3fff9c094b:0-marvell-stocks-rise-nearly-7-with-300-target-and-profit-adjustments-in-focus/
-· GOOGL Alphabet Poised For Third-Quarter Beat Amid Cloud Strength, BofA Says (Yahoo Finance) https://finance.yahoo.com/technology/articles/alphabet-poised-third-quarter-beat-165702768.html
-· MMM 3M earnings analysis: questions answered and next catalysts (Investing.com) https://www.investing.com/news/stock-market-news/3m-earnings-analysis-questions-answered-and-next-catalysts-93CH-4960714
-· BTC Michael Saylor Says Bitcoin's Next Bull Run Has Begun, Sees It Back In 'Six Figures' Within A Year (TradingView (Reuters)) https://es.tradingview.com/news/stocktwits:772c6d29d094b:0-michael-saylor-says-bitcoin-s-next-bull-run-has-begun-sees-it-back-in-six-figures-within-a-year/
-· BTC Current price of Bitcoin for October 20, 2026 (Fortune) https://fortune.com/article/price-of-bitcoin-10-20-2026/
-· MU Intel Vs. Micron: Who Is More Exposed By Chinese Rival CXMT’s Progress? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/intel-vs-micron-more-exposed-164512063.html
-· MU Micron Stock Faces Unexpected Threat Amid Memory Boom (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:444921ee8094b:0-micron-stock-faces-unexpected-threat-amid-memory-boom/
-· BTC Bitcoin price spikes to $83.3K as US stocks rise on Q3 earnings, oil falls (TradingView (Reuters)) https://www.tradingview.com/news/cointelegraph:69d70d30f094b:0-bitcoin-price-spikes-to-83-3k-as-us-stocks-rise-on-q3-earnings-oil-falls/
-· MMM Why 3M Stock Jumped Today (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/why-3m-stock-jumped-today-160319640.html
-· JPM JPMorgan Says One Big Headwind for Stocks May Be Fading (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:59c44d176094b:0-jpmorgan-says-one-big-headwind-for-stocks-may-be-fading/
-· KO Nike Now Yields More Than Procter & Gamble and Twice as Much as Coca-Cola. Is It the Most Overlooked Dividend Stock? Here's the Clear Answer. (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/nike-now-yields-more-procter-151200493.html
-· GOOGL Google Cloud Outage Hits UK Banks and Public Services (Yahoo Finance) https://finance.yahoo.com/technology/articles/google-cloud-outage-hits-uk-151041396.html
-· (+88 manchetes; lista completa em eventos/noticias.json)
+· (+101 manchetes; lista completa em eventos/noticias.json)

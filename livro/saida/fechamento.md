@@ -1,13 +1,16 @@
 BLOCO A
 ```
-FECHAMENTO DO LIVRO · ter 20/10 · 18h12 BRT
-Relógios: Yahoo 18h12 · DI ajuste D0 · Tesouro base
+FECHAMENTO DO LIVRO · ter 20/10 · 20h47 BRT
+Relógios: Yahoo 20h47 · DI ajuste D0 · Tesouro base
   15/10 · UST CMT D0 · PTAX 20/10
 
-ALERTAS DO DIA (33 · 1 crítico)
+ALERTAS DO DIA (34 · 1 crítico)
 [CRÍTICO] T05 MMM +5,8% no dia a US$ 171,37:
           movimento de 4,3 desvios para uma vol de
           20 dias de 21% a.a.
+[ATENÇÃO] E05 AMZN · 3M Co (MMM) (Q3 2026) Earnings
+          Call Highlights: Raised Guidance, Amazon
+          Data Center Deal and ...
 [ATENÇÃO] C01 A curva FECHOU: F30 -15 bps no dia ·
           F32 -16 bps no dia (ajuste B3 20/10)
 [ATENÇÃO] T09 MMM +5,8% com volume 2,8x a mediana de
@@ -23,18 +26,18 @@ ALERTAS DO DIA (33 · 1 crítico)
           Keeps Bitcoin Allocation Open
 [ATENÇÃO] E05 TSLA · Tesla Needs Strong Guidance to
           Offset 4 Straight Earnings Misses
-[ATENÇÃO] E05 PETR4 · Petrobras (PETR4) pode
-          surpreender com dividendos de até US$ 4,2
-          bilhões no 3T26; veja projeções
-(+25 em alertas.md)
+(+26 em alertas.md)
 
 ALTAS  MMM +5,8% · DIRR3 +5,7% · MRVE3 +4,2% · CURY3
        +3,8% · SMAL11 +3,0%
 BAIXAS EWY -1,7% · META -1,6% · LITE -1,4% · VALE3
        -1,4% · GOOGL -1,1%
 
-NOTÍCIAS E FATOS (25 com materialidade ·
+NOTÍCIAS E FATOS (26 com materialidade ·
   noticias.md)
+· AMZN 3M Co (MMM) (Q3 2026) Earnings Call
+  Highlights: Raised Guidance, Amazon Data Center
+  Deal and ... (Yahoo Finance)
 · ITUB4 Itaú (ITUB4) rendeu 576% em 10 anos? Veja
   como o banco mudou e quanto pagou em dividendos
   (Suno Noticias)
@@ -47,9 +50,7 @@ NOTÍCIAS E FATOS (25 com materialidade ·
   projeções (Suno Noticias)
 · META META vs Tesla earnings setup ahead of Q3 2026
   results (Investing.com)
-· META META vs Tesla earnings setup ahead of Q3 2026
-  results By Investing.com (Investing.com)
-  (+19)
+  (+20)
 
 CURVAS · taxa (Δ bps)
 DI (D0, Δ dia·sem bps) F28 12,78 (-11·+8) F29 12,56
@@ -65,7 +66,7 @@ TD (base 15/10, Δ desde 14/10) Pre 2029 12,64 (+10)
     (descasado) 5,58% vs Focus IPCA 2027 4,32%
 UST (D0) 2y 4,79 (+2) · 10y 5,12 (-3) · 30y 5,42
     (-6) · 2s10s +33 (-5)
-Regime: VIX 17,3 (-6,1%) · score risco 0 de 6 ·
+Regime: VIX 17,3 (-6,1%) · score risco 0 de 5 ·
     regime de vol LIGADO
 
 LEITURA DA MESA
@@ -84,7 +85,14 @@ ter 27/10 resultado MMM (antes de NY, estimado)
 qua 28/10 resultado GOOGL (após NY, estimado)
 qua 28/10 resultado VALE3 (após B3, estimado)
 
-LACUNAS: tesouro: Tesouro Transparente com data-base
+LACUNAS: DXY sem barra de 20/10 (última 19/10);
+  BRENT sem barra de 20/10 (última 19/10); DXY:
+  barra de 20/10 é o início da sessão seguinte
+  (última cotação 19:32 de Nova York); barra
+  descartada, fica a de 19/10; BRENT: barra de 20/10
+  é o início da sessão seguinte (última cotação
+  19:37 de Nova York); barra descartada, fica a de
+  19/10; tesouro: Tesouro Transparente com data-base
   15/10; faltam 16/10, 19/10 (taxas não são as de
   hoje).
 Fontes: Yahoo Finance · B3 Boletim Diário · Tesouro
@@ -170,10 +178,10 @@ MRVE3  MRV        8,35 +4,2  +12  +60 +8,9  +27 +7,2
 CURY3  Cury      32,75 +3,8 -2,4  +13 -1,7  +15 +6,8
 Macro
 USDBRL USD/BRL  5,0172 -0,5 -0,1 -2,4 +1,3 -7,2 -8,4
-DXY    DXY      101,71 -0,3 -0,5 +1,5 +3,4 +3,2 +3,5
-BRENT  Brent    109,12 -0,4 +3,2 +5,1  +11  +79  +79
-BTC*   BTC      82.810 +1,2 -0,3 +2,1 +8,5  -25 -5,4
-ETH*   ETH       2.451 +1,9 -1,8 -7,3 +5,3  -38  -17
+DXY*   DXY      101,98 +0,1 -0,6 +1,8 +4,0 +3,6 +3,8
+BRENT* Brent    109,55 -0,3 +2,7 +5,5  +15  +79  +80
+BTC*   BTC      82.937 +1,3 -0,2 +2,2 +8,6  -25 -5,2
+ETH*   ETH       2.448 +1,8 -1,9 -7,4 +5,2  -39  -17
 MINER* Minerio   90,95 +0,1 +0,1 -6,8  -15  -14  -15
 ```
 UCITS por extenso: VWRA Vanguard FTSE All-World
