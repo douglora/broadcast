@@ -1,5 +1,5 @@
 {
- "pregao": "2026-10-16",
+ "pregao": "2026-10-19",
  "nome": "InCashMarketBiggestHighs",
  "titulo": "Mercado à vista - maiores altas",
  "sla": "8:00:00",
@@ -7,18 +7,18 @@
  "colunas": [{"nome": "TckrSymb", "titulo": "Ação"}, {"nome": "Cod", "titulo": "Código"}, {"nome": "Price", "titulo": "Preço (R$)"}, {"nome": "Oscillation", "titulo": "Oscilação (%)"}],
  "texto": ["Mostra as maiores valorizações de ativos no mercado à vista, destacando as melhores performances."],
  "situacao": "publicado",
- "atualizado_em": "2026-10-16T18:50:25.073",
+ "atualizado_em": "2026-10-19T19:10:09.697",
  "truncada": false,
  "linhas": [
-  ["H1AS34", "DRN", 250, 9.13],
-  ["SCPF11", "CI", 3.1, 9.15],
-  ["PHGN34", "DRN", 130.7, 9.52],
-  ["TAKP34", "DRN", 99.5, 9.89],
-  ["VIVR12", "BNS ORD NM", 0.11, 10],
-  ["VOTS11", "CI", 90.99, 10.96],
-  ["GFSA12", "BNS ORD NM", 0.1, 11.11],
-  ["Z2LL34", "DRN", 12.97, 13.37],
-  ["AZEV3", "ON", 12.55, 15.13],
-  ["PSVM11", "TPR", 14, 32.07]
+  ["GFSA3", "ON      NM", 0.39, 11.42],
+  ["TASA4", "PN      N2", 9.39, 11.52],
+  ["AZZA3", "ON      NM", 26.5, 13.24],
+  ["DASA3", "ON      NM", 5.3, 13.73],
+  ["AMOB3", "ON      NM", 16.13, 15.29],
+  ["GSHP3", "ON", 4.78, 16.58],
+  ["C1CI34", "DRN", 101.6, 18.33],
+  ["PPLA11", "UNT", 45, 25],
+  ["NUTR3", "ON      MP", 3.24, 25.09],
+  ["PRNR1", "DIR ORD NM", 0.69, 135.17]
  ]
 }

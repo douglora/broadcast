@@ -1,19 +1,19 @@
 {
- "pregao": "2026-10-16",
+ "pregao": "2026-10-19",
  "nome": "Forward",
  "titulo": "Ações mais negociadas - a termo",
  "sla": "8:00:00",
  "paginas": 1,
  "colunas": [{"nome": "TckrSymb", "titulo": "Ação"}, {"nome": "Cod", "titulo": "Código"}, {"nome": "Term", "titulo": "Prazo"}, {"nome": "Closing", "titulo": ""}, {"nome": "TradQty", "titulo": ""}, {"nome": "VlmTradedDay", "titulo": "Volume (R$) mil"}, {"nome": "Part", "titulo": "Participação (%)"}],
  "texto": ["Lista ações com maior volume de negociação em contratos a termo, destacando as mais ativas."],
- "situacao": "republicado",
- "atualizado_em": "2026-10-17T03:02:18.883",
+ "situacao": "publicado",
+ "atualizado_em": "2026-10-19T19:11:44.13",
  "truncada": false,
  "linhas": [
-  ["AXIA ENERGIAON      NM", "ON      NM", 67, 61.37, 180000, 11046.6, 1.779084900007027],
-  ["VALE        ON      NM", "ON      NM", 39, 67.22, 952900, 64053.938, 9.418277784537201],
-  ["INTER CO    DR2", "DR2", 18, 33.01, 1173625, 38741.36125, 11.599880643170819],
-  ["GRUPO SBF   ON      NM", "ON      NM", 16, 10.2, 1500000, 15299.999999999998, 14.82570750005856],
-  ["PETZCOBASI  ON  ATZ NM", "ON  ATZ NM", 16, 5.06, 2000000, 10120, 19.767610000078083]
+  ["INVESTOUTIL CI", "CI", 30, 142.47, 52000, 7408.44, 0.4343432175093106],
+  ["ISHARES SMALCI", "CI", 16, 135.05, 100000, 13505.000000000002, 0.835275418287136],
+  ["VIBRA       ON      NM", "ON      NM", 30, 36.31, 867600, 31502.556000000004, 7.24684952905919],
+  ["P.ACUCAR-CBDON      NM", "ON      NM", 30, 3, 2733200, 8199.6, 22.829747732623996],
+  ["BRASIL      ON      NM", "ON      NM", 91, 25, 4000000, 100000, 33.41101673148543]
  ]
 }

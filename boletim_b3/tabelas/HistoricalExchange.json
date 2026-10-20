@@ -1,5 +1,5 @@
 {
- "pregao": "2026-10-16",
+ "pregao": "2026-10-19",
  "nome": "HistoricalExchange",
  "titulo": "Histórico de taxas de câmbio (Resolução BCB nº 120)",
  "sla": "21:00:00",
@@ -7,11 +7,11 @@
  "colunas": [{"nome": "RptDt", "titulo": "Data de referência"}, {"nome": "TckrSymb", "titulo": "Ativo"}, {"nome": "Symb", "titulo": "Instrumento financeiro"}, {"nome": "EcncIndDesc", "titulo": "Descrição"}, {"nome": "PricVal", "titulo": "Preço"}],
  "texto": ["Disponibiliza as taxas de câmbio oficiais determinadas pelo Banco Central no período dos últimos 5 anos completos mais o ano atual. As informações são úteis para análises financeiras, planejamento de negócios e acompanhamento de tendências de mercado."],
  "situacao": "publicado",
- "atualizado_em": "2026-10-16T16:11:51.603",
+ "atualizado_em": "2026-10-19T16:11:48.357",
  "truncada": false,
  "linhas": [
-  ["2026-10-16", "DOL", "RTDOLD2", "Indicadores gerais", 5.072],
-  ["2026-10-16", "DOL", "RTDOLD1", "Indicador Econômico", 5.0711],
-  ["2026-10-16", "DOL", "RTDOLCL", "Indicadores gerais", 5.075]
+  ["2026-10-19", "DOL", "RTDOLD2", "Indicadores gerais", 5.0532],
+  ["2026-10-19", "DOL", "RTDOLD1", "Indicador Econômico", 5.0512],
+  ["2026-10-19", "DOL", "RTDOLCL", "Indicadores gerais", 5.0503]
  ]
 }
