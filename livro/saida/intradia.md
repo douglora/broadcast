@@ -1,53 +1,77 @@
 ALERTAS · intradia
 
-[ATENÇÃO] E05 · BBAS3 · Banco do Brasil lança 'Cofrinho de Proventos' para reinvestir dividendos de forma automática, mas tem um ponto de atenção
-Seu Dinheiro · 19/10 17h02 · fonte única · licença: resumo
+[ATENÇÃO] E05 · MMM · 3M beats estimates as profit margins expand, outlook improves (MMM:NYSE)
+Seeking Alpha · 20/10 08h41 · fonte única · licença: manchete
+Link: https://seekingalpha.com/news/4654542-3m-beats-estimates-as-profit-margins-expand-outlook-improves
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: MMM
+Como falar: 'saiu no Seeking Alpha: 3M beats estimates as profit margins expand, outlook improves (MMM:NYSE); confirmar o número no texto antes de repassar'
+Fonte: Seeking Alpha 20/10 08h41
+Push: intradia: 3 alertas de atenção — E05 MMM, E05 MMM, E05 BRENT · detalhe na sessão
+ids: E05-MMM-2dc773abd7-2026-10-20
+
+[ATENÇÃO] E05 · MMM · 3M tops forecasts for Q3 profit and full-year guidance; shares climb
+Yahoo Finance · 20/10 08h14 · fonte única · licença: resumo
 Trechos (licença resumo: reescrever, não colar):
-  – A partir de 26 de outubro, clientes do banco estatal poderão investir automaticamente dividendos, juros sobre capital próprio (JCP) e rendimentos de fundos imobiliários (FIIs) em um cofrinho próprio para esse dinheiro.
-  – Trata-se do "Cofrinho de Proventos", uma nova funcionalidade anunciada pela instituição nesta segunda-feira (19).
-  – Segundo o Banco do Brasil, o fundo acumulou rentabilidade de 13,90% nos últimos 12 meses até setembro, ante 14,48% do CDI — o equivalente a cerca de 96% do indicador.
-  – Entre as características do produto elencadas pelo Banco do Brasil estão: - aplicação mínima de apenas R$ 0,01; - resgate com crédito no mesmo dia (D+0); - taxa global de 0,5% ao ano.
-  – Enquanto os Cofrinhos BB atingiram R$ 1 bilhão em patrimônio em fevereiro deste ano, o patrimônio do fundo superava R$ 3,6 bilhões em setembro, com 693,89 mil cotistas desde seu lançamento, em junho de 2024.
-  – Enquanto os dividendos de ações e FIIs são isentos de imposto de renda para a maior parte das pessoas físicas e os JCP têm desconto de 15% direto na fonte, o fundo BB Renda Fixa Simples Reserva tem outra regra de tribut…
-Link: https://www.seudinheiro.com/2026/renda-fixa/banco-do-brasil-lanca-cofrinho-de-proventos-para-reinvestir-dividendos-mlim/
-Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
-Ativos: BBAS3
-Como falar: 'saiu no Seu Dinheiro: Banco do Brasil lança 'Cofrinho de Proventos' para reinvestir dividendos de forma automát…; confirmar o número no texto antes de repassar'
-Fonte: Seu Dinheiro 19/10 17h02
-Push: [ATENÇÃO] BBAS3 · Banco do Brasil lança 'Cofrinho de Proventos' para r · detalhe na sessão
-ids: E05-BBAS3-6d3fc09b04-2026-10-19
+  – Investing.com -- 3M on Tuesday reported better-than-expected third-quarter earnings, and its full-year guidance also came in above consensus estimates.
+  – The company posted earnings per share of $2.50, above the $2.39 analysts expected.
+  – Revenue was $6.6 billion, roughly in line with the $6.61 billion consensus, with organic growth of 3.3%.
+  – Adjusted operating margin was 26.2%, compared with an estimate of 25.2%.
+  – "We delivered another quarter of strong results, including solid sales growth, continued margin expansion, double-digit EPS growth, and robust free cash flow," said William Brown, 3M Chairman and CEO.
+  – It expects adjusted total sales growth of more than 4.5%, including adjusted organic growth of more than 3.5%.
+Link: https://uk.finance.yahoo.com/news/3m-tops-forecasts-q3-profit-111431228.html
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: MMM
+Como falar: 'saiu no Yahoo Finance: 3M tops forecasts for Q3 profit and full-year guidance; shares climb; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 20/10 08h14
+ids: E05-MMM-b1c2c37148-2026-10-20
+
+[ATENÇÃO] E05 · BRENT · Bitcoin dips below $82,000 as elevated oil prices, Fed outlook weigh
+Yahoo Finance · 20/10 04h37 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Investing.com-- Bitcoin slipped below $82,000 on Tuesday as elevated oil prices and persistent geopolitical tensions weighed on risk sentiment, while investors assessed the Federal Reserve's interest-rate outlook ahead…
+  – The world's largest cryptocurrency was trading at around $81,511.2 by 05:19 ET (09:19 GMT), down about 1.5% on the day.
+  – Bitcoin had risen above $83,000 in the previous session but failed to hold gains.
+  – It has struggled to sustain recovery after retreating from levels above $85,000 earlier this month.
+  – Oil hits 5-mth high; Fed outlook in focus Oil prices remained elevated on Tuesday, with Brent crude futures rising to as high as $111.05 a barrel -- a fresh five-month high.
+  – Higher oil prices could complicate the Fed's efforts to bring inflation back towards its 2% target, potentially limiting its flexibility to ease monetary policy.
+Link: https://finance.yahoo.com/markets/crypto/articles/bitcoin-dips-below-82-000-073705552.html
+Por que importa: decisao de politica monetaria reprecifica toda a curva e o cambio
+Ativos: BRENT · BTC
+Como falar: 'saiu no Yahoo Finance: Bitcoin dips below $82,000 as elevated oil prices, Fed outlook weigh; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 20/10 04h37
+ids: E05-BRENT-d1276a4a9c-2026-10-20
 
 Info (só linha no Fechamento):
-· E03 AXIA3 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
-· E05 PETR4 · Dólar fecha em queda de 0,49%, a R$ 5,048; Petrobras pesa na Bolsa
-· E05 USDBRL · Dólar cai com otimismo eleitoral no Brasil, apesar da alta da moeda no exterior
-· E05 MU · Why Micron and SanDisk Stocks Are Climbing Today
-· E05 TSLA · Tesla Asks Investors to Make Major Elon Musk Decision
-· E05 BTC · MARA Holdings (MARA) Mined More Bitcoin, but Revenue Fell 27%
-· E05 UST · The 10-year Treasury yield is above 5%. Should savers lock in now?
-· E05 CVX · Better Oil Stock: Chevron (CVX) vs. ExxonMobil (XOM)
-· E05 BTC · Bitcoin Reclaims $81,000 as Ethereum, XRP, Dogecoin Gain 2% on Equity Market Rebound
-· E05 JPM · JPMorgan Chase & Co. (JPM) stock price, news, quote and history
-· E05 TSM · TSMC’s Profit Soars 69%, but Can its Next Chip Breakthrough Justify the Valuation?
-· E05 INTC · Intel’s AI Growth Is Accelerating. Can Packaging Add More Upside?
-· E05 GOOGL · Huntington Bancshares Incorporated (HBAN) Launches AI Small-Business OS With Google Cloud
+· E03 VALE3 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
+· E05 VALE3 · Vale (VALE3) entra em sobrevenda; ação pode reagir ou ainda tem espaço para cair?
+· E05 BRENT · Taxas do Tesouro Direto caem forte após novas pesquisas, mesmo com alta do petróleo
+· E05 MU · Micron Invests In US Indium Processing Amid China Export Restrictions – MU Stock Still Dips
+· E05 BRENT · Dólar abre em queda com petróleo em alta e cenário eleitoral no radar
+· E05 USDBRL · Ibovespa futuro sobe mais de 1% e dólar cai após pesquisas eleitorais pós-debate
+· E05 USDBRL · Dólar abre em queda com mercado atento à segundo turno das eleições
+· E05 MU · Cantor Fitzgerald reiterates Micron stock rating on supply outlook By Investing.com
+· E05 AMZN · 3M’s Q3 Earnings Beat Was Solid, But Its Amazon Fiber Optic Pact is the Real Story
+· E05 TSLA · Why Tesla Could Make Much More Money (NASDAQ:TSLA)
+· E05 ETH · Current price of Ethereum for Oct. 20, 2026
+· E05 USDBRL · Ibovespa futuro salta mais de 2 mil pontos após a abertura com ‘trade eleitoral’; dólar cai
+· E05 TSLA · Tesla Catalyst Week: What Earnings, SpaceX, and AI Mean for Battered TSLA Stock
+· E05 MU · Micron Stock: The AI Memory Tax Could Change Everything (NASDAQ:MU)
+· E05 USDBRL · Dólar cai na abertura ante o real em sintonia com o exterior Por Reuters
+· E05 GOOGL · How Investors May Respond To Google (GOOGL) London Cloud Outage
 
 
 Alertas do dia (todos, com status):
-· pendente  E05 BBAS3 — BBAS3 · Banco do Brasil lança 'Cofrinho de Proventos' para reinvestir dividendos
-· entregue  E05 JPM — JPM · Robot factories and hypersonic missiles: JPMorgan Chase's first $5 billion
-· entregue  E05 GOOGL — GOOGL · KeyBanc lowers Alphabet stock price target on cloud, search outlook
-· entregue  E05 MMM — MMM · Update: Market Chatter: 3M Company to Challenge Australia's $1.4 Billion P
-· entregue  E05 DI — DI · Itaú BBA vê Movida (MOVI3) entre as melhores apostas para um cenário de Sel
-· entregue  E05 BTC — BTC · Michael Saylor’s Strategy Boosts STRC Buyback Program To $3B, Keeps BTC Bu
-· entregue  E05 KO — KO · Coca-Cola Yields 2.3% and Nike Yields 4.4%. Here's Why Only 1 of These High
-· entregue  E05 GOOGL — GOOGL · KeyBanc lowers Alphabet stock price target on cloud, search outlook By I
-· entregue  E05 USDBRL — USDBRL · Mercado mantém projeção para inflação e juros em 2026 e espera PIB e dó
-· entregue  E05 JPM — JPM · JPMorgan Chase Invests $5 Billion In US National Security Tech
-· entregue  E05 AMD — AMD · AMD Stocks Rise 2.56% With $13 Billion Revenue Guidance in Focus
-· entregue  E05 MELI34 — MELI34 · Fundo imobiliário investe R$ 250 milhões em galpão do Mercado Livre (ME
-· entregue  E05 USDBRL — USDBRL · Boletim Focus: mercado reduz projeção do PIB de 2026 e vê dólar mais ba
-· entregue  E05 JPM — JPM · JPMorgan announces $5 billion in investments in companies critical to US n
+· pendente  E05 MMM — MMM · 3M beats estimates as profit margins expand, outlook improves (MMM:NYSE)
+· pendente  E05 MMM — MMM · 3M tops forecasts for Q3 profit and full-year guidance; shares climb
+· pendente  E05 BRENT — BRENT · Bitcoin dips below $82,000 as elevated oil prices, Fed outlook weigh
+· entregue  E01 META — META: resultado sai na próxima sessão (21/10)
+· entregue  E01 TSLA — TSLA: resultado sai na próxima sessão (21/10)
+· entregue  E03 AXIA3 — AXIA3 · Fato Relevante: O seu Conselho de Administração aprovou, nesta data, o r
+· entregue  E04 MMM — MMM · 8-K: 2.02 resultado do trimestre
+· entregue  E05 MMM — MMM · 3M Lifts Earnings Outlook as Profit Jumps
+· entregue  E05 MMM — MMM · 3M Company Expects Outlook FY FCF Of About $4.8 Billion
+· entregue  E05 MMM — MMM · 3M tops forecasts for Q3 profit and full-year guidance; shares climb
 · entregue  S01 SISTEMA — coleta do slot manha saiu incompleta: tesouro: Tesouro Transparente com data-bas
-· (+136 notícias só manchete, em noticias.md)
+· (+34 notícias só manchete, em noticias.md)
 
