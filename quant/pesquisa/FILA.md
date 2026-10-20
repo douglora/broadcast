@@ -6,10 +6,6 @@ metodo em quant/saida/pesquisa5/BRIEF.md) e move a linha para "Testadas" com os 
 
 ## A testar
 
-6. Dados novos da B3 (quant/saida/pesquisa5/b3_dolar/LEIA.md, quando existir): posicao em aberto no dolar por tipo de
-   participante (estrangeiro, banco, institucional) de ontem contra o comportamento do pregao de hoje (gap, direcao da
-   manha, reversao do dado); PTAX das quatro janelas contra o preco do futuro na hora; corretoras na fita (20 pregoes).
-
 7. Pistas da segunda rodada que dependem de dado diario da B3 (so quando a rotina tiver acumulado mais pregoes e houver
    leitura ao vivo desse dado): preco x contratos em aberto de ontem (familia posicao, regra_A) e rolagem adiantada
    (regra_C). Validar com parametros congelados em 2025 e 2026 antes de qualquer coisa.
@@ -44,6 +40,10 @@ metodo em quant/saida/pesquisa5/BRIEF.md) e move a linha para "Testadas" com os 
    papeis ficaram sem TIR, e por que.
 
 ## Testadas
+- 20/10/2026, noite: item 6 (dados novos da B3) saiu de "A testar" sem teste novo, porque ja estava coberto: posicao por tipo de participante
+  NAO existe de graca (b3_dolar/2_posicoes_participante/LEIA_ISTO.txt); PTAX das 4 janelas e corretoras na fita foram testadas em 09/10
+  (ptax_bc, corretoras: nenhuma candidata). Corretoras na fita so reabre com 120+ pregoes. Nenhuma outra hipotese de "A testar" e testavel
+  hoje (7, 9, 10, 12, 14, 15, 16 esperam dado novo ou sao prova viva). Pelo METODO (parar em vez de forcar), nenhuma tentativa nova.
 
 (08/10/2026) Sete frentes, mais de 12 mil medicoes: ver quant/estudos/LEIA.md. Passou so a reversao do dado americano.
 
