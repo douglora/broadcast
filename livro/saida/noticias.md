@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 20/10 14h22
+NOTÍCIAS E FATOS · 20/10 14h52
 
-Pernas: noticias ok 15 novas (18 consultas; descartadas: 456 veículo fora da lista, 33 sem ativo, 3 teto) · cvm ok 0 novos de 5 (3 cias casadas) · sec ok 1 novos em 3 dias
+Pernas: noticias ok 11 novas (18 consultas; descartadas: 455 veículo fora da lista, 34 sem ativo, 0 teto) · cvm ok 0 novos de 5 (3 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (3)
 
@@ -67,7 +67,32 @@ Fonte: SEC EDGAR 2026-10-20
 id: E04-MMM-26000311-2026-10-20 · status: linha
 
 
-## NOTÍCIAS COM MATERIALIDADE (20)
+## NOTÍCIAS COM MATERIALIDADE (22)
+
+[ATENÇÃO] E05 · PETR4 · Petrobras (PETR4) pode surpreender com dividendos de até US$ 4,2 bilhões no 3T26; veja projeções
+Suno Noticias · 20/10 14h45 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Negócios Petrobras (PETR4) pode surpreender com dividendos de até US$ 4,2 bilhões no 3T26; veja projeções A Petrobras (PETR4) pode surpreender os investidores com uma distribuição de dividendos acima das expectativas do…
+  – Segundo relatório do BTG Pactual divulgado nesta segunda-feira (19), a estatal deve anunciar proventos entre US$ 3,8 bilhões e US$ 4,2 bilhões, superando o consenso de analistas, que aponta para US$ 3,2 bilhões.
+  – No cenário-base do banco, a distribuição deve ficar próxima de US$ 4 bilhões, valor 25% superior à estimativa média do mercado.
+  – A projeção representa um dividend yield trimestral entre 2,4% e 2,7%, indicador que relaciona os proventos distribuídos ao valor de mercado da companhia.
+  – PETR4 pode apresentar Ebitda acima do consenso Além dos dividendos, o BTG projeta um resultado operacional superior às expectativas para a Petrobras no terceiro trimestre.
+  – O banco estima Ebitda de aproximadamente US$ 20 bilhões, ante consenso de US$ 17,1 bilhões, uma diferença de cerca de 17%.
+Link: https://www.suno.com.br/noticias/petrobras-petr4-dividendos-terceiro-trimestre-mt/
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: PETR4
+Como falar: 'saiu no Suno Noticias: Petrobras (PETR4) pode surpreender com dividendos de até US$ 4,2 bilhões no 3T26; veja pr…; confirmar o número no texto antes de repassar'
+Fonte: Suno Noticias 20/10 14h45
+id: E05-PETR4-fef95084b3-2026-10-20 · status: pendente
+
+[ATENÇÃO] E05 · META · META vs Tesla earnings setup ahead of Q3 2026 results
+Investing.com · 20/10 13h57 · fonte única · licença: manchete
+Link: https://www.investing.com/news/stock-market-news/meta-vs-tesla-earnings-setup-ahead-of-q3-2026-results-93CH-4960746
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: META · TSLA
+Como falar: 'saiu no Investing.com: META vs Tesla earnings setup ahead of Q3 2026 results; confirmar o número no texto antes de repassar'
+Fonte: Investing.com 20/10 13h57
+id: E05-META-c5f91bd5e6-2026-10-20 · status: pendente
 
 [ATENÇÃO] E05 · META · META vs Tesla earnings setup ahead of Q3 2026 results By Investing.com
 Investing.com · 20/10 13h56 · fonte única · licença: manchete
@@ -329,8 +354,17 @@ Fonte: Yahoo Finance 20/10 07h30
 id: E05-MMM-c2716ce8dd-2026-10-20 · status: entregue
 
 
-## OUTRAS NOTÍCIAS (só manchete) (95)
+## OUTRAS NOTÍCIAS (só manchete) (104)
 
+· AVGO Celestica: Broadcom Just Fired A $350 Billion Warning Shot (NYSE:CLS) (Seeking Alpha) https://seekingalpha.com/article/4955584-celestica-broadcom-just-fired-a-350-billion-warning-shot
+· PETR4 Abicom: alta do Brent faz diesel da Petrobras se aproximar do valor do subsídio (eixos) https://eixos.com.br/combustiveis-e-bioenergia/abicom-alta-do-brent-faz-diesel-da-petrobras-se-aproximar-do-valor-do-subsidio/
+· TSLA Tesla's Earnings Will Put Its AI Spending to the Test (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:b4336d995094b:0-tesla-s-earnings-will-put-its-ai-spending-to-the-test/
+· TSM TSMC Stocks Rise 2.5% as Its $53.3 Billion Sales Target Tests Margins (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:7cd4ac63b094b:0-tsmc-stocks-rise-2-5-as-its-53-3-billion-sales-target-tests-margins/
+· MRVL Marvell Stocks Rise Nearly 7% With $300 Target and Profit Adjustments in Focus (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:fec3fff9c094b:0-marvell-stocks-rise-nearly-7-with-300-target-and-profit-adjustments-in-focus/
+· GOOGL Alphabet Poised For Third-Quarter Beat Amid Cloud Strength, BofA Says (Yahoo Finance) https://finance.yahoo.com/technology/articles/alphabet-poised-third-quarter-beat-165702768.html
+· MMM 3M earnings analysis: questions answered and next catalysts (Investing.com) https://www.investing.com/news/stock-market-news/3m-earnings-analysis-questions-answered-and-next-catalysts-93CH-4960714
+· BTC Michael Saylor Says Bitcoin's Next Bull Run Has Begun, Sees It Back In 'Six Figures' Within A Year (TradingView (Reuters)) https://es.tradingview.com/news/stocktwits:772c6d29d094b:0-michael-saylor-says-bitcoin-s-next-bull-run-has-begun-sees-it-back-in-six-figures-within-a-year/
+· BTC Current price of Bitcoin for October 20, 2026 (Fortune) https://fortune.com/article/price-of-bitcoin-10-20-2026/
 · MU Intel Vs. Micron: Who Is More Exposed By Chinese Rival CXMT’s Progress? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/intel-vs-micron-more-exposed-164512063.html
 · MU Micron Stock Faces Unexpected Threat Amid Memory Boom (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:444921ee8094b:0-micron-stock-faces-unexpected-threat-amid-memory-boom/
 · BTC Bitcoin price spikes to $83.3K as US stocks rise on Q3 earnings, oil falls (TradingView (Reuters)) https://www.tradingview.com/news/cointelegraph:69d70d30f094b:0-bitcoin-price-spikes-to-83-3k-as-us-stocks-rise-on-q3-earnings-oil-falls/
@@ -382,13 +416,4 @@ id: E05-MMM-c2716ce8dd-2026-10-20 · status: entregue
 · KO Coca-Cola (KO) Earnings Expected to Grow: Should You Buy? (Yahoo Finance) https://news.google.com/rss/articles/CBMimwFBVV95cUxPcTgxRHg2UkZQa3Z1RzB2cU1mTUN1dmlOM2lVelN4bmd0MzFvMjI0cksxZTU0bFZnMExQYUxqYTZ4Y2xSMlQ0X3FEVEVvNEdHLWVSN183S0FtVmJRUl85MG5EdXZDcHlJaS1TZ3FXakEycmRVM3U2dThlRkVZcnB2VVFzUkdQVHcwVVhGb3UwYW9hbFg4c3UxdDZXTQ?oc=5
 · BRENT Dólar recua e Bolsa sobe com petróleo em alta e cenário eleitoral no radar (Folha de S.Paulo) https://news.google.com/rss/articles/CBMivgFBVV95cUxPWHFpRU5ITnVIVGppWkZwTGxjdlVYd0Z4TzNaN3E0azkwSklSbHRfdkJaUTNpU0c5dXBQMUd6VkFTN2U1R1c0VkljVExxc2gxUkZpY3VMcUhsN3lJRXZIa21kYUs1dmVkUWpOM0Q4TnpyMmplVE5BcjlURnowUDlJdkdBTmFUNXZzYlEzanBFMkVjZkxONFYtTW42em1uTlR6aWw4ZHR3Tm5hc0lfRlBfQjJfT1B6bGpCNjdDZ09B?oc=5
 · MU Cantor Fitzgerald reiterates Micron stock rating on supply outlook By Investing.com (Investing.com) https://news.google.com/rss/articles/CBMixgFBVV95cUxNRzB0Y1lGQnkzNDRhVVg5RXNqSmpZQ2JIWVFqdjgyb1hGYUtXQkVxNXRBZFNWRTZhU3lVV1pCdzd0ajVCSzd3aHRtX0hodmlCdHdmWXlWbVczX2VLT0o0eDI4bVVQbzJLWWNSdTZtTmVuWnBRVGtNYWJCX084NkZhUEJlWVFwTmtoWHZPeFVqeDVUejF3QnA5MGhfNDEtemF1S2F5SUdpbHJHNTVsSGVWekNERFhLVy1PZ0FpaDVZbnJBMEtPbUE?oc=5
-· USDBRL Ibovespa sobe e dólar cai com mercado atento a pesquisas eleitorais e balanços corporativos (Exame) https://exame.com/invest/mercados/ibovespa-sobe-e-dolar-cai-com-mercado-atento-a-pesquisas-eleitorais-e-balancos-corporativos/
-· TSLA Ferrari CEO hails Tesla Roadster redesign as the bold innovation the industry needs (TradingView (Reuters)) https://www.tradingview.com/news/reuters.com,2026:newsml_L8N4660SZ:0-ferrari-ceo-hails-tesla-roadster-redesign-as-the-bold-innovation-the-industry-needs/
-· BTC Bitcoin ETFs buy $526.6M in Bitcoin amid price weakness (TradingView (Reuters)) https://www.tradingview.com/news/cryptobriefing:b3542b509094b:0-bitcoin-etfs-buy-526-6m-in-bitcoin-amid-price-weakness/
-· VALE3 Ibovespa hoje ganha força com petróleo e pesquisa eleitoral; Vale e dólar operam em queda (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/ibovespa-hoje-pesquisa-eleitoral-e-petroleo-podem-mexer-com-a-bolsa-nesta-terca/
-· BAC Bank of America (BAC): Is Its Deposit Franchise Getting Stronger as Lending Accelerates? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/bank-america-bac-deposit-franchise-133815113.html
-· GOOGL Google Cloud services largely back up in UK (Reuters) https://www.reuters.com/business/google-cloud-services-largely-back-up-uk-2026-10-20/
-· COHR Why is Coherent stock sliding today? (Investing.com) https://www.investing.com/news/stock-market-news/why-is-coherent-stock-sliding-today-93CH-4960266
-· TSLA SpaceX And Tesla Prepare Side By Side Earnings Reports Amid Merger Speculation (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/spacex-tesla-prepare-side-side-131333836.html
-· MMM 3M Q3 2026 Earnings Call Is Live (TradingView (Reuters)) https://www.tradingview.com/news/urn:live_audio:quartr.com:710407:0-3m-q3-2026-earnings-call-is-live/
-· (+35 manchetes; lista completa em eventos/noticias.json)
+· (+44 manchetes; lista completa em eventos/noticias.json)
