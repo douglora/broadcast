@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 20/10 14h52
+NOTÍCIAS E FATOS · 20/10 15h21
 
-Pernas: noticias ok 11 novas (18 consultas; descartadas: 455 veículo fora da lista, 34 sem ativo, 0 teto) · cvm ok 0 novos de 5 (3 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 10 novas (18 consultas; descartadas: 459 veículo fora da lista, 37 sem ativo, 0 teto) · cvm ok 0 novos de 5 (3 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (3)
 
@@ -101,7 +101,7 @@ Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; 
 Ativos: META · TSLA
 Como falar: 'saiu no Investing.com: META vs Tesla earnings setup ahead of Q3 2026 results By Investing.com; confirmar o número no texto antes de repassar'
 Fonte: Investing.com 20/10 13h56
-id: E05-META-67bc8aaa4f-2026-10-20 · status: pendente
+id: E05-META-67bc8aaa4f-2026-10-20 · status: entregue
 
 [ATENÇÃO] E05 · TSLA · Tesla Q3 preview: Delivery outlook, cash flow, and a dash of merger speculation on tap
 Yahoo Finance · 20/10 13h06 · fonte única · licença: resumo
@@ -354,8 +354,18 @@ Fonte: Yahoo Finance 20/10 07h30
 id: E05-MMM-c2716ce8dd-2026-10-20 · status: entregue
 
 
-## OUTRAS NOTÍCIAS (só manchete) (104)
+## OUTRAS NOTÍCIAS (só manchete) (114)
 
+· TSLA Here’s what matters most to Tesla investors heading into earnings (MarketWatch) https://www.marketwatch.com/story/heres-what-matters-most-to-tesla-investors-heading-into-earnings-6b9e5d27
+· NVDA Investment summit: German government strikes AI deal with Nvidia (Yahoo Finance) https://uk.finance.yahoo.com/news/investment-summit-german-government-strikes-181008216.html
+· JPM Marsh Stocks Rise 5.40% With JPMorgan's $218 Target in Focus (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:fdb3e03b5094b:0-marsh-stocks-rise-5-40-with-jpmorgan-s-218-target-in-focus/
+· BTC Zcash Is More Like AI Than Bitcoin, Says Cameron Winklevoss: Predicts ZEC Price Could Eventually Top $5,000 (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/zcash-more-ai-bitcoin-says-175509043.html
+· AMD AMD Faces Key Test as AI Server Demand Surges (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:fdf763831094b:0-amd-faces-key-test-as-ai-server-demand-surges/
+· AVGO Broadcom Stocks Fall Although Docomo Commits to a 10-Year Cloud Agreement (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:220019b66094b:0-broadcom-stocks-fall-although-docomo-commits-to-a-10-year-cloud-agreement/
+· BAC Reflecting On Diversified Banks Stocks’ Q3 Earnings: Bank of America (NYSE:BAC) (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/reflecting-diversified-banks-stocks-q3-161350210.html
+· JPM JPMorgan Asset Sees Bitcoin Beating Stocks, But With a Catch (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/jpmorgan-asset-sees-bitcoin-beating-155653867.html
+· MU Cantor Fitzgerald reiterates Micron stock rating on supply outlook By Investing.com (Investing.com) https://au.investing.com/news/stock-market-news/cantor-fitzgerald-reiterates-micron-stock-rating-on-supply-outlook-93CH-4701455
+· BAC Bank of America Back in Market After Last Week’s $8 Billion Sale (Bloomberg) https://www.bloomberg.com/news/articles/2026-10-20/bank-of-america-back-in-market-after-last-week-s-8-billion-sale
 · AVGO Celestica: Broadcom Just Fired A $350 Billion Warning Shot (NYSE:CLS) (Seeking Alpha) https://seekingalpha.com/article/4955584-celestica-broadcom-just-fired-a-350-billion-warning-shot
 · PETR4 Abicom: alta do Brent faz diesel da Petrobras se aproximar do valor do subsídio (eixos) https://eixos.com.br/combustiveis-e-bioenergia/abicom-alta-do-brent-faz-diesel-da-petrobras-se-aproximar-do-valor-do-subsidio/
 · TSLA Tesla's Earnings Will Put Its AI Spending to the Test (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:b4336d995094b:0-tesla-s-earnings-will-put-its-ai-spending-to-the-test/
@@ -406,14 +416,4 @@ id: E05-MMM-c2716ce8dd-2026-10-20 · status: entregue
 · BBDC4 Bradesco reorganiza lideranças de marketing e anuncia novo cargo para José Maurício Lilla (Valor Economico) https://valor.globo.com/empresas/marketing/noticia/2026/10/20/bradesco-reorganiza-liderancas-de-marketing-e-anuncia-novo-cargo-para-jose-mauricio-lilla.ghtml
 · UST Citi's Nathan Sheets Warns Markets Could Misread The Fed — Sees Fiscal, AI Financing Worries Pushing Up Treasury Yields (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:aea633eb2094b:0-citi-s-nathan-sheets-warns-markets-could-misread-the-fed-sees-fiscal-ai-financing-worries-pushing-up-treasury-yields/
 · UST US Treasury Yields Fall on Tuesday (TradingView (Reuters)) https://www.tradingview.com/news/te_news:593498:0-us-treasury-yields-fall-on-tuesday/
-· GOOGL Google Says Services Are Recovering After U.K. Cloud Outage Hits Businesses (The Wall Street Journal) https://www.wsj.com/finance/investing/revolut-hit-by-widespread-outage-affecting-payments-transfers-withdrawals-5971bf0a
-· MMM 3M Company reports results for the quarter ended September 30 - Earnings Summary (TradingView (Reuters)) https://www.tradingview.com/news/reuters.com,2026:newsml_L8N4661LT:0-3m-company-reports-results-for-the-quarter-ended-september-30-earnings-summary/
-· TESOURO Tesouro Direto hoje: Prefixado 2029 cai a 12,69% nesta terça (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/tesouro-devolve-alta-da-vespera-e-prefixados-recuam-ate-014-ponto-nesta-terca/
-· NVDA Nvidia secures $35B in orders for new export-compliant GPU from Chinese tech giants: report (TradingView (Reuters)) https://www.tradingview.com/news/seekingalpha:ee446e02b094b:0-nvidia-secures-35b-in-orders-for-new-export-compliant-gpu-from-chinese-tech-giants-report/
-· GOOGL Google Cloud outage in UK eases after impacting digital banks, public sector websites (Reuters) https://www.reuters.com/world/europe/google-cloud-services-experience-outage-europe-2026-10-20/
-· META Will Higher Ad Revenues Aid Meta Platforms Stock in Q3 Earnings? (Yahoo Finance) https://news.google.com/rss/articles/CBMimwFBVV95cUxNSS1IR0hGR085c3Vfa3NfZXVxQUEzUG1JVDJFNG0xRnhPSmhaSl8wZ1BwZHRCTUhZNURSRVVMV29zNVlrU2lfSUtZYVRqLWNoUVNTLUY4ekNCSXlUWm1TVFBGMlVrY2RWOXhvaEpxcGpBR1VpVXVfc3pEMEMxd1JYbGhZQkJZMjl6SmdXejhNQkVwSldUZndNZWNYNA?oc=5
-· LITE Why is Lumentum stock sliding today? (Investing.com) https://news.google.com/rss/articles/CBMingFBVV95cUxQYjQ2bVdEV2FDZmVJSm13eGx6YmZwQUtPTzNfeXM5V1RfaDRNUEkwY21UWlc2RTlPbXJwQ0k4Y0lJT1JYSlpfSFMtbzd2MnFvNGRlYzRsaExHcm0yYmZGR2hxcWVzdFJFbkx0RGN1MnprV0lrTVZTYWFEZUhqZG5maTdWeHRXeFZzcmdiTkJwS0JoSXZ1V2dtTWg2Nmw1QQ?oc=5
-· KO Coca-Cola (KO) Earnings Expected to Grow: Should You Buy? (Yahoo Finance) https://news.google.com/rss/articles/CBMimwFBVV95cUxPcTgxRHg2UkZQa3Z1RzB2cU1mTUN1dmlOM2lVelN4bmd0MzFvMjI0cksxZTU0bFZnMExQYUxqYTZ4Y2xSMlQ0X3FEVEVvNEdHLWVSN183S0FtVmJRUl85MG5EdXZDcHlJaS1TZ3FXakEycmRVM3U2dThlRkVZcnB2VVFzUkdQVHcwVVhGb3UwYW9hbFg4c3UxdDZXTQ?oc=5
-· BRENT Dólar recua e Bolsa sobe com petróleo em alta e cenário eleitoral no radar (Folha de S.Paulo) https://news.google.com/rss/articles/CBMivgFBVV95cUxPWHFpRU5ITnVIVGppWkZwTGxjdlVYd0Z4TzNaN3E0azkwSklSbHRfdkJaUTNpU0c5dXBQMUd6VkFTN2U1R1c0VkljVExxc2gxUkZpY3VMcUhsN3lJRXZIa21kYUs1dmVkUWpOM0Q4TnpyMmplVE5BcjlURnowUDlJdkdBTmFUNXZzYlEzanBFMkVjZkxONFYtTW42em1uTlR6aWw4ZHR3Tm5hc0lfRlBfQjJfT1B6bGpCNjdDZ09B?oc=5
-· MU Cantor Fitzgerald reiterates Micron stock rating on supply outlook By Investing.com (Investing.com) https://news.google.com/rss/articles/CBMixgFBVV95cUxNRzB0Y1lGQnkzNDRhVVg5RXNqSmpZQ2JIWVFqdjgyb1hGYUtXQkVxNXRBZFNWRTZhU3lVV1pCdzd0ajVCSzd3aHRtX0hodmlCdHdmWXlWbVczX2VLT0o0eDI4bVVQbzJLWWNSdTZtTmVuWnBRVGtNYWJCX084NkZhUEJlWVFwTmtoWHZPeFVqeDVUejF3QnA5MGhfNDEtemF1S2F5SUdpbHJHNTVsSGVWekNERFhLVy1PZ0FpaDVZbnJBMEtPbUE?oc=5
-· (+44 manchetes; lista completa em eventos/noticias.json)
+· (+54 manchetes; lista completa em eventos/noticias.json)
