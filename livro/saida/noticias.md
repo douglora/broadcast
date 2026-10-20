@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 20/10 18h12
+NOTÍCIAS E FATOS · 20/10 18h28
 
-Pernas: noticias ok 6 novas (18 consultas; descartadas: 445 veículo fora da lista, 33 sem ativo, 0 teto) · cvm ok 0 novos de 5 (3 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 1 novas (18 consultas; descartadas: 442 veículo fora da lista, 33 sem ativo, 0 teto) · cvm ok 0 novos de 5 (3 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (3)
 
@@ -411,8 +411,9 @@ Fonte: Yahoo Finance 20/10 07h30
 id: E05-MMM-c2716ce8dd-2026-10-20 · status: entregue
 
 
-## OUTRAS NOTÍCIAS (só manchete) (147)
+## OUTRAS NOTÍCIAS (só manchete) (148)
 
+· MU Prediction: Micron Could Turn a $5,000 Investment Into This by 2030 (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/prediction-micron-could-turn-5-193300157.html
 · USDBRL Dólar cai 0,58% com apetite ao risco no exterior e 'trade' eleitoral (UOL Economia) https://economia.uol.com.br/noticias/estadao-conteudo/2026/10/20/dolar-cai-058-com-apetite-ao-risco-no-exterior-e-trade-eleitoral.htm
 · USDBRL Ibovespa sobe 1,5% com otimismo eleitoral; dólar cai a R$ 5,01 (Money Times) https://www.moneytimes.com.br/ibovespa-20-10-26-lils/
 · USDBRL Dólar cai, com disputa eleitoral acirrada e fraqueza da moeda no exterior (ADVFN) https://br.advfn.com/jornal/2026/10/dolar-cai-com-disputa-eleitoral-acirrada-e-fraqueza-da-moeda-no-exterior
@@ -472,5 +473,4 @@ id: E05-MMM-c2716ce8dd-2026-10-20 · status: entregue
 · JPM JPMorgan Says One Big Headwind for Stocks May Be Fading (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:59c44d176094b:0-jpmorgan-says-one-big-headwind-for-stocks-may-be-fading/
 · KO Nike Now Yields More Than Procter & Gamble and Twice as Much as Coca-Cola. Is It the Most Overlooked Dividend Stock? Here's the Clear Answer. (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/nike-now-yields-more-procter-151200493.html
 · GOOGL Google Cloud Outage Hits UK Banks and Public Services (Yahoo Finance) https://finance.yahoo.com/technology/articles/google-cloud-outage-hits-uk-151041396.html
-· JPM Enterprise value to revenue forward of JPMorgan Emerging Markets Dividend Income plc GBP – TURQUOISE:JEMIL (TradingView (Reuters)) https://www.tradingview.com/symbols/TURQUOISE-JEMIL/financials-statistics-and-ratios/enterprise-value-sales-fwd/
-· (+87 manchetes; lista completa em eventos/noticias.json)
+· (+88 manchetes; lista completa em eventos/noticias.json)
