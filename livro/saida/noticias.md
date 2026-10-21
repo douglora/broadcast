@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 21/10 14h58
+NOTÍCIAS E FATOS · 21/10 18h14
 
-Pernas: noticias ok 15 novas (18 consultas; descartadas: 434 veículo fora da lista, 16 sem ativo, 21 teto) · cvm ok 0 novos de 6 (4 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 19 novas (18 consultas; descartadas: 422 veículo fora da lista, 21 sem ativo, 31 teto) · cvm ok 0 novos de 6 (4 cias casadas) · sec ok 1 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (1)
 
@@ -18,10 +18,58 @@ Por que importa: fato relevante e o que a propria companhia julga capaz de mover
 Ativos: SBSP3
 Como falar: 'a Sabesp publicou fato relevante sobre (11) 2763-6504 | ri.emae.com.br A Companhia de Saneamento Básico do E…'
 Fonte: CVM 20/10
-id: E03-SBSP3-1578859-2026-10-20 · status: expirado · íntegra disponível
+id: E03-SBSP3-1578859-2026-10-20 · status: entregue · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (8)
+## SEC (8-K, 6-K, 10-Q, 10-K) (1)
+
+[ATENÇÃO] E04 · BAC · 8-K: 5.02 entrada ou saida de diretor ou conselheiro
+SEC EDGAR · aceito 21/10 18h07 · 8-K
+Link: https://www.sec.gov/Archives/edgar/data/70858/000007085826000494/bac-20261021.htm
+Por que importa: troca de diretor ou conselheiro reabre a discussao de estrategia
+Ativos: BAC
+Como falar: 'a BAC protocolou 8-K na SEC (5.02 entrada ou saida de diretor ou conselheiro)'
+Fonte: SEC EDGAR 2026-10-21
+id: E04-BAC-26000494-2026-10-21 · status: pendente · íntegra disponível
+
+
+## NOTÍCIAS COM MATERIALIDADE (12)
+
+[ATENÇÃO] E05 · BAC · Bank of America Corporation (BAC) Declares $0.32 Q4 Common Dividend
+TradingView (Reuters) · 21/10 17h15 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/tradingview:db07f9d132181:0-bank-of-america-corporation-bac-declares-0-32-q4-common-dividend/
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: BAC
+Como falar: 'saiu no TradingView (Reuters): Bank of America Corporation (BAC) Declares $0.32 Q4 Common Dividend; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 21/10 17h15
+id: E05-BAC-b26d1862ad-2026-10-21 · status: pendente
+
+[ATENÇÃO] E05 · INTC · Veteran Bank Cuts Intel Stock Price Target Ahead of Earnings
+TradingView (Reuters) · 21/10 15h18 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/gurufocus:2870912d8094b:0-veteran-bank-cuts-intel-stock-price-target-ahead-of-earnings/
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: INTC
+Como falar: 'saiu no TradingView (Reuters): Veteran Bank Cuts Intel Stock Price Target Ahead of Earnings; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 21/10 15h18
+id: E05-INTC-090b4aa9ce-2026-10-21 · status: pendente
+
+[ATENÇÃO] E05 · AMZN · UBS reiterates 3M stock Buy rating on Amazon deal, growth outlook
+Investing.com · 21/10 11h36 · fonte única · licença: manchete
+Link: https://ca.investing.com/news/stock-market-news/ubs-reiterates-3m-stock-buy-rating-on-amazon-deal-growth-outlook-93CH-4893999
+Por que importa: aquisicao ou venda muda alavancagem, mix de receita e o multiplo; olhar preco pago e financiamento
+Ativos: AMZN · MMM
+Como falar: 'saiu no Investing.com: UBS reiterates 3M stock Buy rating on Amazon deal, growth outlook; confirmar o número no texto antes de repassar'
+Fonte: Investing.com 21/10 11h36
+id: E05-AMZN-14cff58eb2-2026-10-21 · status: pendente
+
+[ATENÇÃO] E05 · MMM · MMM Q3 Earnings Call Highlights AI Deals and Higher Outlook
+TradingView (Reuters) · 21/10 10h10 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/zacks:2808063ce094b:0-mmm-q3-earnings-call-highlights-ai-deals-and-higher-outlook/
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: MMM
+Como falar: 'saiu no TradingView (Reuters): MMM Q3 Earnings Call Highlights AI Deals and Higher Outlook; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 21/10 10h10
+id: E05-MMM-3146f4bd67-2026-10-21 · status: linha
 
 [ATENÇÃO] E05 · AMZN · UBS reiterates 3M stock Buy rating on Amazon deal, growth outlook
 Investing.com · 21/10 11h45 · fonte única · licença: manchete
@@ -30,7 +78,7 @@ Por que importa: aquisicao ou venda muda alavancagem, mix de receita e o multipl
 Ativos: AMZN · MMM
 Como falar: 'saiu no Investing.com: UBS reiterates 3M stock Buy rating on Amazon deal, growth outlook; confirmar o número no texto antes de repassar'
 Fonte: Investing.com 21/10 11h45
-id: E05-AMZN-cf20f6d54a-2026-10-21 · status: pendente
+id: E05-AMZN-cf20f6d54a-2026-10-21 · status: expirado
 
 [ATENÇÃO] E05 · BBDC4 · Bradesco (BBDC4): mercado prevê alta no lucro no 3T26, mas inadimplência ainda desafia a recuperação do banco
 Money Times · 21/10 09h38 · fonte única · licença: integral
@@ -46,7 +94,7 @@ Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; 
 Ativos: BBDC4
 Como falar: 'saiu no Money Times: Bradesco (BBDC4): mercado prevê alta no lucro no 3T26, mas inadimplência ainda desafia a…; confirmar o número no texto antes de repassar'
 Fonte: Money Times 21/10 09h38
-id: E05-BBDC4-d4967b51b6-2026-10-21 · status: pendente · íntegra disponível
+id: E05-BBDC4-d4967b51b6-2026-10-21 · status: expirado · íntegra disponível
 
 [ATENÇÃO] E05 · BBDC4 · Bradesco (BBDC4) corrige após recorde; ação ainda tem espaço para subir?
 InfoMoney · 21/10 09h30 · fonte única · licença: resumo
@@ -62,7 +110,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: BBDC4
 Como falar: 'saiu no InfoMoney: Bradesco (BBDC4) corrige após recorde; ação ainda tem espaço para subir?; confirmar o número no texto antes de repassar'
 Fonte: InfoMoney 21/10 09h30
-id: E05-BBDC4-ff01be9700-2026-10-21 · status: pendente
+id: E05-BBDC4-ff01be9700-2026-10-21 · status: expirado
 
 [ATENÇÃO] E05 · MMM · MMM Q3 Deep Dive: Data Center Momentum and Productivity Drive Upgraded Outlook
 Yahoo Finance · 21/10 08h10 · fonte única · licença: resumo
@@ -96,7 +144,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: MMM
 Como falar: 'saiu no TradingView (Reuters): MMM Q3 Deep Dive: Data Center Momentum and Productivity Drive Upgraded Outlook; confirmar o número no texto antes de repassar'
 Fonte: TradingView (Reuters) 21/10 02h33
-id: E05-MMM-42467b5c2c-2026-10-21 · status: expirado
+id: E05-MMM-42467b5c2c-2026-10-21 · status: entregue
 
 [ATENÇÃO] E05 · TSLA · Elon Musk Teases Tesla Merger and $1 Trillion Milestone for SpaceX
 Yahoo Finance · 20/10 23h00 · + CoinDesk, Bloomberg · licença: resumo
@@ -112,7 +160,7 @@ Por que importa: aquisicao ou venda muda alavancagem, mix de receita e o multipl
 Ativos: TSLA
 Como falar: 'saiu no Yahoo Finance: Elon Musk Teases Tesla Merger and $1 Trillion Milestone for SpaceX; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 20/10 23h00
-id: E05-TSLA-bf6bfca65b-2026-10-21 · status: expirado
+id: E05-TSLA-bf6bfca65b-2026-10-21 · status: entregue
 
 [ATENÇÃO] E05 · AXIA3 · Oferta de consumidores da Axia para resposta da demanda soma 15 MW
 CanalEnergia · 20/10 18h55 · fonte única · licença: manchete
@@ -121,11 +169,26 @@ Por que importa: oferta de acoes ou divida altera a base acionaria ou a alavanca
 Ativos: AXIA3
 Como falar: 'saiu no CanalEnergia: Oferta de consumidores da Axia para resposta da demanda soma 15 MW; confirmar o número no texto antes de repassar'
 Fonte: CanalEnergia 20/10 18h55
-id: E05-AXIA3-d34f17fe4a-2026-10-20 · status: expirado
+id: E05-AXIA3-d34f17fe4a-2026-10-20 · status: entregue
 
 
-## OUTRAS NOTÍCIAS (só manchete) (45)
+## OUTRAS NOTÍCIAS (só manchete) (60)
 
+· USDBRL Dólar sobe com disputa acirrada entre Flávio Bolsonaro e Lula, no segundo turno (ADVFN) https://br.advfn.com/jornal/2026/10/dolar-sobe-com-disputa-acirrada-entre-flavio-bolsonaro-e-lula-no-segundo-turno
+· TSLA Tesla posts surprise positive cash flow on lower-than-expected AI spending (Reuters) https://www.reuters.com/business/media-telecom/tesla-revenue-beats-estimates-deliveries-rebound-energy-storage-grows-2026-10-21/
+· TSLA Tesla revenue flat as Elon Musk eyes possible SpaceX deal (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/tesla-revenue-flat-elon-musk-204111687.html
+· TSLA Tesla Reports Flat Revenue, Increased Cash Flow as SpaceX Merger Talk Looms (The Wall Street Journal) https://www.wsj.com/business/autos/tesla-tsla-3q-earnings-report-2026-stock-a1dc9ce2
+· USDBRL Ibovespa reverte ganhos a quatro dias da eleição; dólar sobe (Exame) https://exame.com/invest/mercados/ibovespa-reverte-ganhos-a-quatro-dias-da-eleicao-dolar-sobe/
+· GOOGL Alphabet Stocks Fall Over 2% While Google Cloud Adds OpenAI Models (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:0b3fbb4aa094b:0-alphabet-stocks-fall-over-2-while-google-cloud-adds-openai-models/
+· TSLA Tesla beats Q3 estimates as services surge (Yahoo Finance) https://uk.finance.yahoo.com/news/tesla-beats-q3-estimates-services-203300641.html
+· USDBRL Dólar valoriza 0,17% e vai a R$ 5,027; Bovespa cai 0,86% e fecha com 206.495 pontos em 21/10/2026 (UOL Economia) https://www.uol.com.br/flash/?c=d565cd172040f249e93f2a595740c39c20261021
+· ETH Ethereum Price Prediction: What Could ETH Be Worth by 2028? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/ethereum-price-prediction-could-eth-203043704.html
+· TSLA Tesla stock up after hours on results beat, improved automotive gross margin (Investing.com) https://www.investing.com/news/earnings/tesla-stock-up-after-hours-on-results-beat-improved-automotive-gross-margin-4963976
+· TSLA Tesla beats on Q3 revenue and earnings expectations (CNBC) https://www.cnbc.com/video/2026/10/21/tesla-beats-on-q3-revenue-and-earnings-expectations.html
+· USDBRL Dólar fecha em alta a R$ 5,027; Bolsa cai com pesquisa eleitoral (UOL Economia) https://news.google.com/rss/articles/CBMiswFBVV95cUxNbU1EdnRpTDdYbzVmR0tURlo3Z3A2VU9NNXlwdENaNGxkTTdiLU90WlRJZlh5RFN5OGlkREtscmZoWm5oVzNsdWlhalFuRnhwZjRRVXBwcldyRjlNbDVZZ3JISUtSbnAyNVZOVmhzcHJkRjZoU200U3NyYlg5VldFelgzS3V4dk5IQzBmTXoyMkdoYWN0OWVIM2lnTHVRcmNGT3Z2TktDODI4TDZpazNNNFJnTQ?oc=5
+· META Meta Platforms: Q3 Earnings Snapshot (Yahoo Finance) https://news.google.com/rss/articles/CBMiogFBVV95cUxPSkxLY21vd0hNclM2U0FXeTVRVmxQNDV5Z3NXVVRwZldBQkVZMmthTEFJMjVUZmVoT2hta3dfUHR5eFYwam1ocG5BemlrM0VsTTNCZ2xELUZwS3Myc05sOEFtQm1IbEpRLW1pZXlsTE1hNGlvX3dkdlpPOXF3bGpCcUloSzUzcFYwZ3JKWmJQQU90VUluQU5VNjZVcnVyWlBfRkE?oc=5
+· BAC Bank of America Declares Fourth Quarter 2026 Stock Dividends (TradingView (Reuters)) https://news.google.com/rss/articles/CBMivgFBVV95cUxOS3ZCcDV5UkNYa1BncUtBX0JhRmx3YlFYQm9BUlZoOFFwT3VPeDcwVW1Jb1pGYlZKU1RRUWoyc21MQjlTYUd4NC1xTmJkYlJIeV9KeHIza2lyVHIwWU9sTFNJNmZhak0tUkd2ajFqemx2anBQRXFNaHdtaWVGWURBOVFGZHNqNkpPdWJ0Ny1VTGl0RU40UnY3NjdqOWxlN0dHOWcwLXAwblRRRU5RbUtDcERXc1dKUjhFcGdkTHRR?oc=5
+· SMAL11 SMAL11 movimenta R$ 2,16 bilhões por dia e supera BOVA11 após eleições (Estadao) https://news.google.com/rss/articles/CBMi2AFBVV95cUxNc09ZM0F6Zy1RX3MyRkhyS2NXQ3B5SDVydFN3a3Z2ODdTOEZ4cEFPU1lpX1FzOGp0X0JPZVM4YkZOTVNGOTFYTFRrYUtYamw0LWdpQUxVNG04dkdZcnJuT3ZrVXYtM3VWbW4xeks1MmNOdHN1M2RCeHJ2Mm42WkNqXzRhUEc1WkJlVl8wcmt3WEFNVkNqTXVuX2NxcjF2ekRLeF9NUVd2MVJuTkJhRHlLMERQX2RfSUZNLUxQT3Fsa2dkSF9iSDlESE9xbl8ydDRYYXA5VHMzSGk?oc=5
 · KO Can Coca-Cola (KO) Stock Support 28 Times Earnings? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/coca-cola-ko-stock-support-173010396.html
 · NVDA Nvidia Seeks to Slash Data Center Deployment Times with New DSX Pods (Barron's) https://www.barrons.com/articles/nvidia-data-center-dsx-pods-a05933ba
 · USDBRL WEG (WEGE3) cai mais de 7% com balanço pressionado por dólar e tarifas; exagero ou sinal de alerta? (Seu Dinheiro) https://www.seudinheiro.com/2026/empresas/weg-wege3-amarga-queda-no-ibovespa-com-balanco-pressionado-por-dolar-e-tarifas-exagero-ou-sinal-de-alerta-lmrs/
