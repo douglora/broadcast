@@ -35,8 +35,10 @@ def validar(prazo, stop_dist, alvo_dist=None):
     return True
 
 
-def decidir_saida(pos, ultimo, abertura, hoje, hm):
-    """(preco, motivo) se a posicao deve sair agora, ou None. `hm`: 'HH:MM' do relogio de Brasilia. Ordem: gap, stop, alvo, tempo."""
+def decidir_saida(pos, ultimo, abertura, hoje, hm, sair_em=None):
+    """(preco, motivo) se a posicao deve sair agora, ou None. `hm`: 'HH:MM' do relogio de Brasilia. Ordem: gap, stop, alvo, evento, tempo.
+    `sair_em` (AAAA-MM-DD, decisao escrita do Douglas em swing_config.json): no leilao de fechamento desse dia o livro sai de tudo,
+    antes de um evento binario (eleicao); se o robo so acordar depois, sai no primeiro preco (21/10/2026)."""
     h = _d(hoje)
     primeiro_dia = h == _d(pos["entrada_em"])
     stop, alvo = float(pos["stop"]), pos.get("alvo")
@@ -51,6 +53,10 @@ def decidir_saida(pos, ultimo, abertura, hoje, hm):
             return float(ultimo), "stop"
         if alvo is not None and ultimo >= alvo:
             return float(alvo), "alvo"
+        if sair_em:
+            dia_evento = _d(sair_em)
+            if h > dia_evento or (h == dia_evento and hm >= HORA_TEMPO):
+                return float(ultimo), "evento"
         limite = _d(pos["prazo_ate"])
         if h > limite or (h == limite and hm >= HORA_TEMPO):
             return float(ultimo), "tempo"

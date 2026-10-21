@@ -288,3 +288,18 @@ def test_data_da_mesa_com_horario_da_ficha_quando_os_dois_concordam():
     por = {x["ticker"]: x for x in r["linhas"]}
     assert por["AAAA3"]["destino"] == "recusada" and "depois do fechamento" in por["AAAA3"]["motivo"]       # a mesa deu a data; o terminal concorda e traz o horario
     assert por["BBBB3"]["destino"] == "recusada" and "antes da abertura" in por["BBBB3"]["motivo"]          # o horario da propria mesa vale; o terminal discorda da data e nao entra
+
+
+def test_config_sair_antes_de_evento(tmp_path):
+    """21/10/2026: `sair_antes_de` aceita so AAAA-MM-DD; vazio ou ilegivel vira None com aviso."""
+    import json
+    from quant.swing import evidencia
+    arq = tmp_path / "swing_config.json"
+    arq.write_text(json.dumps({"liberar": ["M1.S0"], "sair_antes_de": "2026-10-23"}))
+    c = evidencia.config(str(arq))
+    assert c["sair_antes_de"] == "2026-10-23" and c["liberar"] == ["M1.S0"]
+    arq.write_text(json.dumps({"sair_antes_de": "23/10/2026"}))
+    c = evidencia.config(str(arq))
+    assert c["sair_antes_de"] is None and any("sair_antes_de" in a for a in c["avisos"])
+    arq.write_text(json.dumps({}))
+    assert evidencia.config(str(arq))["sair_antes_de"] is None

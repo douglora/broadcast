@@ -151,3 +151,14 @@ def test_sao_39_variantes_em_13_setups():
     vs = setups.variantes()
     assert len(vs) == 39 and len({v["nucleo"] for v in vs}) == 13
     assert max(len([v for v in vs if v["familia"] == f]) for f in {v["familia"] for v in vs}) <= 6      # ate 6 por familia
+
+
+def test_saida_antes_de_evento_binario():
+    """21/10/2026: com `sair_antes_de` (decisao escrita), o livro sai de tudo no leilao de fechamento desse dia; acordando depois, sai no primeiro preco."""
+    p = {"entrada_em": "2026-10-13", "stop": 18.0, "alvo": 24.0, "prazo_ate": "2026-10-26"}
+    assert posicao.decidir_saida(p, 21.0, 20.5, "2026-10-22", "16:50", sair_em="2026-10-23") is None            # vespera: nada muda
+    assert posicao.decidir_saida(p, 21.0, 20.5, "2026-10-23", "11:00", sair_em="2026-10-23") is None            # no dia, antes do leilao, ainda nao
+    assert posicao.decidir_saida(p, 21.0, 20.5, "2026-10-23", "16:50", sair_em="2026-10-23") == (21.0, "evento")
+    assert posicao.decidir_saida(p, 21.0, 20.5, "2026-10-26", "10:05", sair_em="2026-10-23") == (21.0, "evento")   # robo dormiu: sai ja
+    assert posicao.decidir_saida(p, 17.9, 19.0, "2026-10-23", "16:50", sair_em="2026-10-23") == (17.9, "stop")     # stop continua na frente
+    assert posicao.decidir_saida(p, 21.0, 20.5, "2026-10-26", "16:50") == (21.0, "tempo")                          # sem a chave, nada muda

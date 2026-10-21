@@ -214,6 +214,55 @@ def texto_da_revisao(rev, decisoes=()):
     return L
 
 
+def placar_por_classe():
+    """Placar das outras classes do livro (acoes pelo swing, opcoes, regras medidas na prova viva), lido dos arquivos da tela e da
+    prova viva. 13/10/2026, pedido do Douglas: 'aprender com erros e acertos sempre... ir excluindo as classes que nao estao indo
+    bem e ficar com a de mais acertos'. So leitura; numero que nao existe vira 'sem leitura', nunca zero."""
+    pasta_tela = os.path.join(os.path.expanduser(os.environ.get("AUTOPILOT_TERMINAL", "~/Desktop/terminal-artefato")), "cache", "out", "pagina")
+    br = lambda s: s.replace(",", "X").replace(".", ",").replace("X", ".")       # noqa: E731  (formato brasileiro)
+    L = ["", "## Placar por classe (simulacao; 'capital' operou de verdade, 'medido' teria operado)", ""]
+    try:
+        f = ler_json(os.path.join(pasta_tela, "quant_fatores.json"), padrao=None) or {}
+        sw, c = f.get("swing") or {}, f.get("carteira") or {}
+        cap = (sw.get("placar") or {}).get("capital") or {}
+        patr, base = float(c.get("patrimonio") or 0), float(f.get("capital") or 60_000.0)
+        L.append(br(f"- Acoes (swing): patrimonio R$ {patr:,.0f} ({(patr / base - 1) * 100:+.2f}% desde o inicio), {c.get('n_posicoes', 0)} posicao(oes) aberta(s); "
+                    f"fechadas com capital: {cap.get('operacoes', 0)}, acerto {100 * (cap.get('acerto') or 0):.0f}%, R$ {cap.get('resultado_rs') or 0:+,.0f}."))
+        med = [x for x in (sw.get("placar") or {}).get("medido") or [] if (x.get("operacoes") or 0) >= 5 and str(x.get("sobreposicao")) == "S0"]
+        med.sort(key=lambda x: (x.get("expectativa_pct") or 0), reverse=True)
+        if med:
+            L += ["", "| Setup de acoes (so medido) | Operacoes | Acerto | Expectativa | R$ |", "|---|---|---|---|---|"]
+            for x in med[:8]:
+                L.append(br(f"| {x.get('rotulo')} ({x.get('variante')}) | {x.get('operacoes')} | {100 * (x.get('acerto') or 0):.0f}% | "
+                            f"{100 * (x.get('expectativa_pct') or 0):+.2f}% | {x.get('resultado_rs') or 0:+,.0f} |"))
+    except Exception as e:                                       # noqa: BLE001
+        L.append(f"- Acoes (swing): sem leitura ({type(e).__name__}).")
+    try:
+        o = ler_json(os.path.join(pasta_tela, "quant_opcoes.json"), padrao=None) or {}
+        r = o.get("resultado") or ((o.get("resumo") or {}).get("resultado")) or {}      # o modulo grava `resultado` na raiz
+        if not r:
+            raise KeyError("resultado")
+        L.append(br(f"- Opcoes (ate {r.get('ultima_data') or '?'}): {r.get('n_abertas', 0)} estrutura(s) aberta(s), aberto R$ {r.get('aberto_rs') or 0:+,.0f}, "
+                    f"realizado R$ {r.get('realizado_rs') or 0:+,.0f} em {r.get('n_encerradas', 0)} encerrada(s), acumulado R$ {r.get('acumulado_rs') or 0:+,.0f} "
+                    f"desde {r.get('desde') or '?'}; risco em aberto R$ {r.get('risco_em_aberto_rs') or 0:,.0f}."))
+    except Exception as e:                                       # noqa: BLE001
+        L.append(f"- Opcoes: sem leitura ({type(e).__name__}).")
+    try:
+        ult = None
+        with open(os.path.join(lab.PASTA, "prova_viva.jsonl"), encoding="utf-8") as fh:
+            for ln in fh:
+                if ln.strip():
+                    ult = ln
+        pv = json.loads(ult) if ult else {}
+        rg = [x for x in pv.get("regras") or [] if x.get("negocios")]
+        if rg:
+            L.append(br(f"- Prova viva (regras medidas em barras reais, {str(pv.get('quando'))[:16]}): " +
+                        "; ".join(f"{x.get('titulo') or x.get('nome')}: {x.get('negocios')} neg, media R$ {x.get('media') or 0:+.0f}" for x in rg) + "."))
+    except Exception as e:                                       # noqa: BLE001
+        L.append(f"- Prova viva: sem leitura ({type(e).__name__}).")
+    return L
+
+
 def relatorio(lista, pl, decisoes, ensaio=False, rev=None):
     agora = agora_brt()
     linhas = [f"# Rotina da noite do robo - {agora.strftime('%d/%m/%Y %H:%M')}" + (" (ENSAIO: nada foi gravado)" if ensaio else ""), ""]
@@ -240,6 +289,7 @@ def relatorio(lista, pl, decisoes, ensaio=False, rev=None):
             continue
         linhas.append(f"| {x['tecnica']} | {est} | {p['sinais']} em {p['pregoes']} pregoes | {p['acerto']:.0f}% | R$ {p['media']:+.2f} (t {p['t']:+.1f}) | "
                       f"R$ {p['soma']:+.0f} | {p['operados']} (R$ {p['soma_operados']:+.0f}) |")
+    linhas += placar_por_classe()
     linhas += ["", "## O historico de cada leitura"] + [f"- {x['tecnica']}: {'APROVADA' if x['aprovada'] else 'reprovada'} - {x['historico']}" for x in lista]
     linhas += ["", "Com menos de 100 sinais por leitura, as medias ao vivo ainda sao acaso: o protocolo so age com as contagens minimas."]
     return "\n".join(linhas)

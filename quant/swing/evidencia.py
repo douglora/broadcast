@@ -23,7 +23,8 @@ ARQ_DV = os.path.join(PASTA, "resultados_dv.json")
 ARQ_PROVA = os.path.join(PASTA, "resultados_prova.json")
 ARQ_CONFIG = os.environ.get("QUANT_SWING_CONFIG") or os.path.join(DIR_SAIDA, "swing_config.json")
 DSR_MIN = 0.95
-PADRAO = {"capital": 60_000.0, "risco": 0.005, "teto_nome": 0.12, "max_posicoes": 10, "valor_medido": 6_000.0, "liberar": []}
+PADRAO = {"capital": 60_000.0, "risco": 0.005, "teto_nome": 0.12, "max_posicoes": 10, "valor_medido": 6_000.0, "liberar": [],
+          "sair_antes_de": None}     # AAAA-MM-DD: o livro sai de tudo no fechamento desse dia e nao entra ate passar (evento binario; decisao escrita)
 LIMITES = {"capital": (1_000.0, 10_000_000.0), "risco": (0.0005, 0.02), "teto_nome": (0.02, 0.25), "max_posicoes": (1, 10), "valor_medido": (500.0, 100_000.0)}
 
 STATUS_TEXTO = {
@@ -55,6 +56,15 @@ def config(arq=None):
             if k == "liberar":
                 ids = lido[k] if isinstance(lido[k], list) else []
                 c[k] = [str(x) for x in ids]
+                continue
+            if k == "sair_antes_de":
+                v = lido[k]
+                if v in (None, ""):
+                    c[k] = None
+                elif isinstance(v, str) and len(v) == 10 and v[4] == "-" and v[7] == "-" and v.replace("-", "").isdigit():
+                    c[k] = v
+                else:
+                    avisos.append(f"sair_antes_de={v!r} ilegível em swing_config.json (use AAAA-MM-DD); ignorado")
                 continue
             try:
                 v = float(lido[k])

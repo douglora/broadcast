@@ -1,0 +1,133 @@
+<title>Revisão do Robô 21/10</title>
+<style>
+:root{--bg:#f7f8fa;--card:#fff;--ink:#1a2233;--mut:#5b6474;--line:#e3e7ee;--acc:#0f4c81;--pos:#0a7d4f;--neg:#b3372f;--hl:#fff8e6;--exp:#eef4fa;--ouro:#b8860b;color-scheme:light}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.55 -apple-system,"Segoe UI",Roboto,Arial,sans-serif}
+.wrap{max-width:900px;margin:0 auto;padding-block:20px;padding-inline:16px}
+h1{font-size:24px;margin:0 0 4px;color:var(--acc);text-wrap:balance}
+.sub{color:var(--mut);margin:0 0 18px;font-size:14px}
+h2{font-size:17px;color:var(--acc);margin:26px 0 10px;text-transform:uppercase;letter-spacing:.4px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin-bottom:12px}
+.card-destaque{border-color:var(--acc);border-width:2px}
+.quer{background:var(--hl);border:1px solid #f1dca3;border-radius:10px;padding:10px 14px;margin:10px 0}
+.explicacao{background:var(--exp);border-left:4px solid var(--acc);border-radius:8px;padding:10px 14px;margin:10px 0;font-size:14px}
+.banner-risco{border:2px solid var(--neg);border-radius:10px;padding:10px 14px;margin:10px 0;background:#fff6f5}
+.badge{display:inline-block;padding:2px 9px;border-radius:12px;font-size:12px;font-weight:700;background:var(--acc);color:#fff;letter-spacing:.3px}
+.badge.neg{background:var(--neg)}.badge.pos{background:var(--pos)}.badge.mut{background:#8b94a3}.badge.ouro{background:var(--ouro)}
+.overx{overflow-x:auto}
+table{width:100%;border-collapse:collapse;font-size:14px;margin:8px 0}
+th{text-align:left;color:var(--mut);font-weight:600;border-bottom:1px solid var(--line);padding:6px 8px;white-space:nowrap}
+td{padding:6px 8px;border-bottom:1px solid var(--line);vertical-align:top;font-variant-numeric:tabular-nums}
+tr.pos td{color:var(--pos)}tr.neg td{color:var(--neg)}
+.pos{color:var(--pos)}.neg{color:var(--neg)}.mut{color:var(--mut)}
+.code{font-family:Consolas,Menlo,monospace;font-weight:700;color:var(--acc)}
+.mini{font-size:12.5px;color:var(--mut)}
+.disclaimer{font-style:italic;color:var(--mut);font-size:13px;margin-top:26px;border-top:1px solid var(--line);padding-top:12px}
+ul{margin:6px 0;padding-left:20px}li{margin:3px 0}
+.pedido{background:var(--card);border:1px dashed var(--acc);border-radius:10px;padding:10px 14px;font-size:13.5px}
+.pedido b{color:var(--acc)}
+</style>
+<div class="wrap">
+<h1>🤖 Revisão profunda do robô quant</h1>
+<p class="sub">21/10/2026, 20h · simulação desde 08/10 · dados: arquivos do robô, placar da rotina da noite, prova viva, Ibovespa 2001-2026 · 2º turno da eleição em 25/10</p>
+
+<div class="pedido"><b>Pedido:</b> ver como está o robô depois de duas semanas e melhorá-lo.<br>
+<b>Altitude (resultado):</b> cada classe com o seu placar real (capital e medido), as três causas do resultado, as melhorias já no código e UMA decisão sua para o fim de semana da eleição.<br>
+<b>Profundidade:</b> um gestor quant olharia os negócios fechados por setup, a prova viva, o calendário (evento binário domingo), a janela de operação e as paradas do robô; o problema por baixo é que o livro foi desenhado para 10 pregões e vai atravessar um evento que a própria mesa classificou como o que mais pesa.<br>
+<b>Alcance:</b> estatística da eleição (Ibovespa 2002-2022), operação do Mac (sono e MetaTrader), compliance (tudo simulação, sem compre/venda).<br>
+<b>Pronto quando:</b> placar por classe na rotina da noite, saída antes do evento pronta no código com teste, e a decisão de sexta nas suas mãos com os números.<br>
+<b>Fica com você:</b> sair ou não antes da eleição, ligar o Mac até 18h10, desligar o sono do Mac (senha).</div>
+
+<h2>1. Resumo executivo</h2>
+<div class="card card-destaque">
+<p><b>Em uma frase:</b> o robô está inteiro e disciplinado, mas rende pouco porque o day trade só tem uma regra aprovada (que disparou 1 vez em 6 pregões) e porque o livro de ações, a única classe com capital rendendo, vai atravessar o 2º turno no domingo com R$ 41,6 mil comprados.</p>
+<div class="overx"><table>
+<tr><th>Classe</th><th>Desde 08/10</th><th>Como está</th><th>Leitura</th></tr>
+<tr class="neg"><td>Mini-dólar (day trade)</td><td>−R$ 1.017,60</td><td>só o dado opera, das 9h15 às 12h40; 0 negócios nos últimos 3 pregões</td><td>−R$ 863 vieram do teste de nível, desligado desde 19/10</td></tr>
+<tr><td>Ações (swing)</td><td>−R$ 162 (−0,27%)</td><td>9 posições abertas, R$ 41,6 mil, marcadas em cerca de +R$ 300</td><td>3 fechadas: 1 ganho (+R$ 396) e 2 stops (−R$ 353, −R$ 322)</td></tr>
+<tr class="neg"><td>Opções</td><td>−R$ 309 (aberto)</td><td>3 estruturas, risco em aberto R$ 1.687</td><td>nada realizado ainda</td></tr>
+<tr><td>Mini-índice</td><td>R$ 0</td><td>a regra do fim do pregão nunca rodou ao vivo: fica fora da janela 9h-13h</td><td>prova viva: 6 negócios, +R$ 25,80 cada</td></tr>
+</table></div>
+<p class="mini">Fontes: série diária do robô (quant.json), carteira do swing (quant_fatores.json), módulo de opções (quant_opcoes.json), prova viva de 21/10 13h02.</p>
+</div>
+
+<h2>2. Day trade: por que quase não opera</h2>
+<div class="card">
+<ul>
+<li><b>A regra que ganha é rara por natureza.</b> A reversão do dado das 9h30 dispara quando a reação passa de 3 pontos: 42% dos pregões no histórico; nesta semana a reação ficou abaixo do gatilho nos três dias (+1,0 ponto em 13/10, por exemplo). Baixar o gatilho para operar todo dia foi medido em 13/10: cai de R$ 42 para R$ 15 por pregão.</li>
+<li><b>O teste de nível confirmou ao vivo o que o histórico dizia.</b> 207 sinais medidos em 9 pregões, 27% de acerto, −R$ 27,70 por sinal (t −3,8). Foi desligado com o seu "pode fazer" de 16/10 e continua medido.</li>
+<li><b>O climax de volume é a única leitura com placar vivo positivo:</b> 20 sinais, 70% de acerto, +R$ 24,20 por sinal (t 1,4). Ainda é pouco: o protocolo da noite pede 60 sinais com t ≥ 2 para virar pedido de estudo. Segue medindo.</li>
+<li><b>O mini-índice não opera porque o Mac desliga às 13h.</b> O fim do pregão (17h53) é a regra de tarde com melhor histórico (800 negócios em 2021-24, t 6,6) e a prova viva vai +R$ 155 em 6 negócios. Com o Mac ligado até 18h10 ela opera; é decisão sua.</li>
+</ul>
+</div>
+
+<h2>3. Ações: o que o livro aprendeu em 229 operações medidas</h2>
+<div class="card">
+<div class="explicacao"><b>Medida</b> é uma operação simulada de R$ 6.000 que o livro registra sem capital, para aprender; <b>capital</b> é a que entrou de verdade na simulação (só a convicção da mesa, liberada por você em 13/10).</div>
+<div class="overx"><table>
+<tr><th>Setup</th><th>Operações</th><th>Acerto</th><th>Resultado médio</th></tr>
+<tr class="neg"><td>Rompimento da máxima de 20 pregões (C1)</td><td>40</td><td>5%</td><td>−8,4% por operação</td></tr>
+<tr class="neg"><td>Rompimento com filtro (C2)</td><td>12</td><td>0%</td><td>−12,4%</td></tr>
+<tr><td>Força relativa contra o Ibovespa (E1/E2)</td><td>16 a 18</td><td>31% a 33%</td><td>−1,2% a −1,7%</td></tr>
+<tr class="pos"><td>Pullback em tendência de alta (A1)</td><td>2</td><td>100%</td><td>+11,9% (amostra mínima)</td></tr>
+<tr class="neg"><td>Vetos da mesa (M2, medidos)</td><td>4</td><td>0%</td><td>−10,3%: a mesa acertou ao vetar</td></tr>
+<tr><td>Convicção da mesa (M1, com capital)</td><td>3 fechadas</td><td>33%</td><td>−R$ 279 (PRIO3 +396; WEGE3 −353; TEND3 −322)</td></tr>
+</table></div>
+<p><b>O que isso diz:</b> numa correção com eleição à frente, comprar rompimento foi a pior ideia possível (1 acerto em 40), e o julgamento da mesa (vetar e escolher) foi o que segurou o livro perto do zero. Dois dos três stops com capital vieram de WEGE3 e TEND3, que a mesa colocou na lista e o mercado derrubou; os ganhos abertos estão em VIVT3 (+R$ 400), ABEV3 (+R$ 240) e EMBJ3 (+R$ 111). Nada aqui muda regra sozinho: com 60 operações por setup e t ≥ 2 o protocolo pede estudo.</p>
+</div>
+
+<h2>4. A decisão da semana: o 2º turno no domingo</h2>
+<div class="banner-risco"><b>Risco maior:</b> 9 posições (R$ 41,6 mil, 70% do livro de ações) atravessam a eleição de 25/10. Sete delas vencem o prazo em 26/10, segunda-feira, ou seja, o robô venderia no leilão do dia da reação, depois do salto, e não antes. Stop não protege de salto: a ação abre além dele.</div>
+<div class="card">
+<div class="overx"><table>
+<tr><th>2º turno</th><th>Segunda seguinte (Ibovespa)</th><th>Mínima do dia</th><th>Máxima do dia</th></tr>
+<tr class="neg"><td>2002</td><td>−4,4%</td><td>−4,4%</td><td>+0,8%</td></tr>
+<tr class="neg"><td>2006</td><td>−1,1%</td><td>−1,7%</td><td>0,0%</td></tr>
+<tr class="pos"><td>2010</td><td>+1,3%</td><td>0,0%</td><td>+1,5%</td></tr>
+<tr class="neg"><td>2014</td><td>−2,8%</td><td>−6,2%</td><td>0,0%</td></tr>
+<tr class="neg"><td>2018</td><td>−2,2%</td><td>−3,4%</td><td>+3,1%</td></tr>
+<tr class="pos"><td>2022</td><td>+1,3%</td><td>−2,1%</td><td>+1,9%</td></tr>
+</table></div>
+<p class="mini">Fonte: fechamentos e extremos do Ibovespa, base dados_local/eleicoes_vol (Yahoo), calculados em 21/10/2026. Em 4 de 6 eleições a segunda-feira fechou em queda; a mediana é −1,6% e a pior mínima intradiária foi −6,2% (2014). Para o livro de hoje, 1% do Ibovespa vale cerca de R$ 420.</p>
+<div class="quer">🎯 <b>O que queremos:</b> não deixar um livro desenhado para 10 pregões decidir o resultado do mês num salto de domingo.</div>
+<p><b>Três caminhos (a escolha é sua):</b></p>
+<ul>
+<li><span class="badge">RECOMENDADA</span> <b>Sair na sexta 23/10 no leilão de fechamento</b> e reentrar na segunda ou terça com a visão nova da mesa (a rotina de domingo às 08h42 refaz a visão com o resultado da urna). Mecanismo pronto no código: a chave <span class="code">sair_antes_de</span> em <span class="code">swing_config.json</span>; o livro sai de tudo às 16h50 de sexta e não entra nada novo até passar. Custo: perder a alta se o mercado gostar do resultado (em 2010 e 2022 a segunda subiu 1,3%).</li>
+<li><span class="badge mut">ALTERNATIVA</span> <b>Manter tudo com os stops.</b> Ganha se o mercado gostar; nas quedas de 2002 e 2014 o stop teria sido pulado e a perda seria a do salto inteiro (2 a 6% sobre R$ 41,6 mil = R$ 850 a R$ 2.600).</li>
+<li><span class="badge mut">MEIO-TERMO</span> <b>Reduzir à metade na sexta</b> (vender 5 das 9, as de menor convicção ou maior volatilidade). Mecanismo não existe ainda: faço se escolher.</li>
+</ul>
+<p class="mini">Responda "sai sexta", "mantém" ou "metade". Sem resposta até sexta 15h, o robô mantém (é o comportamento atual).</p>
+</div>
+
+<h2>5. Operação: onde o robô perdeu sem culpa da regra</h2>
+<div class="card">
+<ul>
+<li><b>Mac dormindo</b> (tampa fechada na bateria) em 15 e 16/10: o robô, o MetaTrader e o terminal param juntos. Remédio sem senha: tomada e tampa aberta das 9h às 13h. Remédio definitivo (pede a sua senha, você roda no Terminal): <span class="code">sudo pmset -a disablesleep 1</span>; para desfazer, <span class="code">sudo pmset -a disablesleep 0</span>.</li>
+<li><b>MetaTrader da XP que não voltava</b> depois de uma reabertura (14/10, 6 horas cegas): corrigido e testado em 14/10 à noite; não se repetiu.</li>
+<li><b>Janela 9h-13h:</b> o robô zera às 12h50 e a rotina da noite roda às 12h55. Tudo o que acontece à tarde fica só na prova viva.</li>
+</ul>
+</div>
+
+<h2>6. O que mudou hoje no código (sem mexer em regra com capital)</h2>
+<div class="card">
+<ul>
+<li><b>Saída antes de evento binário</b> no livro de swing (<span class="code">quant/swing/posicao.py</span>, <span class="code">vivo.py</span>, <span class="code">evidencia.py</span>): desligada por padrão; liga com a data em <span class="code">swing_config.json</span>. Testes novos.</li>
+<li><b>Placar por classe na rotina da noite</b> (<span class="code">quant/pesquisa/noite.py</span>): ações com capital e os setups medidos com 5 ou mais operações, opções, prova viva. É o relatório de aprendizado que você pediu em 13/10, todo dia às 12h55.</li>
+<li>Nada mudou nas regras com capital: dado (2 contratos, gatilho 3), convicção da mesa no swing, três vertentes de opções.</li>
+</ul>
+</div>
+
+<h2>7. Termos desta nota</h2>
+<div class="card">
+<ul>
+<li><b>Capital / medido:</b> operação que entrou de verdade na simulação / operação só registrada para aprender.</li>
+<li><b>Prova viva:</b> regra medida em barras reais do MetaTrader, sem operar.</li>
+<li><b>Gatilho:</b> movimento mínimo (3 pontos) para a reversão do dado entrar.</li>
+<li><b>t:</b> quantas vezes o ganho médio supera o ruído; acima de 2 é confiável.</li>
+<li><b>Leilão de fechamento:</b> os últimos minutos do pregão (16h50 em diante), onde o livro sai por prazo.</li>
+<li><b>Salto (gap):</b> a ação abre longe do fechamento anterior; o stop não é executado no preço combinado.</li>
+</ul>
+</div>
+
+<p class="disclaimer">Material de estudo de um robô em simulação. Não é recomendação de investimento nos termos da Resolução CVM 178; o autor não é consultor de valores mobiliários registrado. Nenhuma ordem real é enviada. Decisão e execução por conta do leitor.</p>
+</div>

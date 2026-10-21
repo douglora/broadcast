@@ -146,6 +146,9 @@ class RoboSwing:
             pid = f"{self.hoje}|{c['setup']}|{c['ticker']}|capital"
             if pid in ja:
                 continue
+            if self.cfg.get("sair_antes_de") and self.hoje >= str(self.cfg["sair_antes_de"]):      # evento binario a frente: so sai, nao entra
+                self._cancelar(pid, c, f"evento binário à frente ({self.cfg['sair_antes_de']}): sem entrada nova até passar (decisão do Douglas)", agora)
+                continue
             desde = self.disponivel.get(pid, agora)
             na_abertura = desde <= abertura                   # a ordem existia antes do sino: entra no preco da abertura
             q = cot.get(c["ticker"])
@@ -198,7 +201,7 @@ class RoboSwing:
                 self.sem_cotacao.add(pos["ticker"])           # o aviso sai do conjunto em tela(): some quando a cotacao volta
                 continue
             self.sem_cotacao.discard(pos["ticker"])
-            r = posicao.decidir_saida(pos, q["ultimo"], q["abertura"], self.hoje, hm)
+            r = posicao.decidir_saida(pos, q["ultimo"], q["abertura"], self.hoje, hm, sair_em=self.cfg.get("sair_antes_de"))
             if r is None:
                 continue
             preco, motivo = r
