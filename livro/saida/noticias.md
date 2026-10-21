@@ -1,8 +1,24 @@
-NOTÍCIAS E FATOS · 20/10 20h47
+NOTÍCIAS E FATOS · 21/10 08h33
 
-Pernas: noticias ok 14 novas (18 consultas; descartadas: 441 veículo fora da lista, 35 sem ativo, 3 teto) · cvm ok 0 novos de 2 (2 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 18 novas (18 consultas; descartadas: 399 veículo fora da lista, 25 sem ativo, 42 teto) · cvm ok 1 novos de 6 (4 cias casadas) · sec ok 0 novos em 3 dias
 
-## FATOS RELEVANTES E COMUNICADOS (CVM) (3)
+## FATOS RELEVANTES E COMUNICADOS (CVM) (4)
+
+[ATENÇÃO] E03 · SBSP3 · Fato Relevante: (11) 2763-6504 | ri.emae.com.br A Companhia de Saneamento Básico do Estado de São Paulo – SABESP (“SABESP”) e a EMAE – Empresa Metropolitana de Águas…
+CVM · entregue 20/10/2026 20:33
+Do documento:
+  – Jornalista Roberto Marinho, 85, 16º andar, Cidade Monções | CEP 04576-010 | São Paulo – SP  Fone: (11) 2763-6504 | ri.emae.com.br    III.
+  – Jornalista Roberto Marinho, 85, 16º andar, Cidade Monções | CEP 04576-010 | São Paulo – SP  Fone: (11) 2763-6504 | ri.emae.com.br  ANEXO I  CRONOGRAMA DA INCORPORAÇÃO DE AÇÕES    Data Evento  30/07  Realização da Assemb…
+  – 14/09 Publicação da ata da Assembleia da Sabesp no jornal “Valor  Econômico”.
+  – 16/09  Realização da Assembleia da EMAE às 11h.
+  – 17/09 Publicação da ata da Assembleia da EMAE no jornal “Folha de São  Paulo”.
+  – 18/09 Início do prazo para exercício do Direito de Retirada.
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1578859
+Por que importa: fato relevante e o que a propria companhia julga capaz de mover o preco; ler o documento inteiro antes de comentar
+Ativos: SBSP3
+Como falar: 'a Sabesp publicou fato relevante sobre (11) 2763-6504 | ri.emae.com.br A Companhia de Saneamento Básico do E…'
+Fonte: CVM 20/10
+id: E03-SBSP3-1578859-2026-10-20 · status: pendente · íntegra disponível
 
 [ATENÇÃO] E03 · AXIA3 · Fato Relevante: O seu Conselho de Administração aprovou, nesta data, o resgate de 59.264.305 ações preferenciais classe “C” (“PNC”), equivalente a R$ 3,48 bilhões e…
 CVM · entregue 20/10/2026 07:35
@@ -83,7 +99,41 @@ Fonte: SEC EDGAR 2026-10-20
 id: E04-MMM-26000311-2026-10-20 · status: linha
 
 
-## NOTÍCIAS COM MATERIALIDADE (26)
+## NOTÍCIAS COM MATERIALIDADE (29)
+
+[ATENÇÃO] E05 · MMM · MMM Q3 Deep Dive: Data Center Momentum and Productivity Drive Upgraded Outlook
+TradingView (Reuters) · 21/10 02h33 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/stockstory:3c8be8af6094b:0-mmm-q3-deep-dive-data-center-momentum-and-productivity-drive-upgraded-outlook/
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: MMM
+Como falar: 'saiu no TradingView (Reuters): MMM Q3 Deep Dive: Data Center Momentum and Productivity Drive Upgraded Outlook; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 21/10 02h33
+id: E05-MMM-42467b5c2c-2026-10-21 · status: pendente
+
+[ATENÇÃO] E05 · TSLA · Elon Musk Teases Tesla Merger and $1 Trillion Milestone for SpaceX
+Yahoo Finance · 20/10 23h00 · + CoinDesk, Bloomberg · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Elon Musk said SpaceX could reach a $500 billion to $1 trillion annual recurring revenue (ARR) run rate by 2027.
+  – Musk's Response to Surprise Q3 Earnings Annual recurring revenue (ARR) is the yearly value of recurring revenue, usually estimated by annualizing a current period.
+  – The range Musk gave runs from $500 billion to $1 trillion by the end of 2027.
+  – Any deal would require approval from at least 50% of Tesla shareholders, which Musk called a high hurdle.
+  – A combined company would be valued at roughly $2 trillion for SpaceX and $1.5 trillion for Tesla.
+  – SpaceX posted third-quarter revenue of $14.6 billion, up 161% YoY, beating analyst estimates.
+Link: https://finance.yahoo.com/markets/stocks/articles/elon-musk-teases-tesla-merger-020000124.html
+Por que importa: aquisicao ou venda muda alavancagem, mix de receita e o multiplo; olhar preco pago e financiamento
+Ativos: TSLA
+Como falar: 'saiu no Yahoo Finance: Elon Musk Teases Tesla Merger and $1 Trillion Milestone for SpaceX; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 20/10 23h00
+id: E05-TSLA-bf6bfca65b-2026-10-21 · status: pendente
+
+[ATENÇÃO] E05 · AXIA3 · Oferta de consumidores da Axia para resposta da demanda soma 15 MW
+CanalEnergia · 20/10 18h55 · fonte única · licença: manchete
+Link: https://www.canalenergia.com.br/noticias/53358471/oferta-de-consumidores-da-axia-para-resposta-da-demanda-soma-15-mw
+Por que importa: oferta de acoes ou divida altera a base acionaria ou a alavancagem
+Ativos: AXIA3
+Como falar: 'saiu no CanalEnergia: Oferta de consumidores da Axia para resposta da demanda soma 15 MW; confirmar o número no texto antes de repassar'
+Fonte: CanalEnergia 20/10 18h55
+id: E05-AXIA3-d34f17fe4a-2026-10-20 · status: pendente
 
 [ATENÇÃO] E05 · AMZN · 3M Co (MMM) (Q3 2026) Earnings Call Highlights: Raised Guidance, Amazon Data Center Deal and ...
 Yahoo Finance · 20/10 20h01 · fonte única · licença: resumo
@@ -427,8 +477,23 @@ Fonte: Yahoo Finance 20/10 07h30
 id: E05-MMM-c2716ce8dd-2026-10-20 · status: entregue
 
 
-## OUTRAS NOTÍCIAS (só manchete) (161)
+## OUTRAS NOTÍCIAS (só manchete) (176)
 
+· NVDA Nvidia unveils DSX POD, a data center about the size of a shipping container (Yahoo Finance) https://finance.yahoo.com/technology/article/nvidia-unveils-dsx-pod-a-data-center-about-the-size-of-a-shipping-container-113000508.html
+· SBSP3 Sabesp confirma fim de processo de incorporação de ações da EMAE (UOL Economia) https://economia.uol.com.br/noticias/redacao/2026/10/21/sabesp-confirma-incorporacao-de-acoes-da-emae-e-encerra-direito-de-retirada-sem-pedidos-de-reembolso.ghtm
+· BTC Bitcoin risk management grows more popular as the 'just bet on price' era fades (CoinDesk) https://www.coindesk.com/daybook-us/2026/10/21/bitcoin-risk-management-grows-more-popular-as-the-just-bet-on-price-era-fades
+· GOOGL If Alphabet Does This on Oct. 28, the Stock Could Skyrocket (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/alphabet-does-oct-28-stock-111300411.html
+· TSLA Stocks Rise Pre-Bell as Traders Await Meta, Tesla Earnings (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/stocks-rise-pre-bell-traders-111252077.html
+· NVDA Nvidia’s $10 Billion AI Data Center Quick-Fix and the Winning Stocks (Barron's) https://www.barrons.com/articles/nvidia-huang-data-centre-ai-pods-6812247d
+· BTC Bitcoin price resistance near $87K reinforced by late 2025 buyers, Glassnode says (TradingView (Reuters)) https://www.tradingview.com/news/cryptobriefing:4c40b83a1094b:0-bitcoin-price-resistance-near-87k-reinforced-by-late-2025-buyers-glassnode-says/
+· USDBRL Preço do ouro cai com dólar forte, tensão EUA-Irã e incerteza sobre juros do Fed (ADVFN) https://br.advfn.com/jornal/2026/10/ouro-cai-dolar-forte-tensao-eua-ira-juros-fed
+· BTC Bitcoin ‘top buyers’ halt BTC price upside with $87.7K now key: Glassnode (TradingView (Reuters)) https://www.tradingview.com/news/cointelegraph:90d25bde7094b:0-bitcoin-top-buyers-halt-btc-price-upside-with-87-7k-now-key-glassnode/
+· USDBRL Pesquisa Quaest aparece em dia mais esvaziado e investidores monitoram balanços; Ibovespa em dólar cai nesta quarta-feira (21) (Money Times) https://www.moneytimes.com.br/pesquisa-quaest-aparece-em-dia-mais-esvaziado-e-investidores-monitoram-balancos-ibovespa-em-dolar-cai-nesta-quarta-feira-21-rens/
+· UST Indian central bank rejects all bids at treasury bill auction as short-term yields surge (TradingView (Reuters)) https://www.tradingview.com/news/reuters.com,2026:newsml_L4N4670PI:0-indian-central-bank-rejects-all-bids-at-treasury-bill-auction-as-short-term-yields-surge/
+· BTC Is Bitcoin on the Verge of a Deeper Correction? The S&P 500 May Hold the Answer (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-verge-deeper-correction-p-100000734.html
+· PETR4 Petrobras (PETR4) avalia como positivo adiamento de audiência sobre Gas Release (InfoMoney) https://news.google.com/rss/articles/CBMitwFBVV95cUxQQ0x0QkJQd3ZRekpNQkpVcUZibEFjVTlhbjhvUGJMMU1YYk9BVjlCbzh3bGVtYTlXSUN5MnV3S201ZkhUQWpaOWdFd2x4U2Z1Ql92cnB0TVpvRE1KdEc5VllEanVRdWZ6aVlSbzl2R25ZYmJvNVRnLUtEaVl2Z0xRYjhfOU1jQ2tJc2c4bzBkSUhNcEloSGZCYkE1blZ1Uml5bnRCRFVhQmdwcDRDdTItOXBhc0dRemPSAbwBQVVfeXFMT2JsZHE0UXZlNHJKb3prQjRjbmR3NVFyRkIwZXVwMFY5TUd6SWdVSjQwMU5ZMU1DUW5MbEFYblpYUkIxSVRmOXduLU5OZFBDLVZobnVXUThkZmtsVUI5eXRCOHpDa0dyc015YkVjdXFjS1lEX2dlTUpRVHotbFVhU0FIekhKUzBHQzJ2UWZDd1I3aXpPUy04S19mOS1sLW5jVExuclZlVWEwYmhaclNDbE5ZWnZ6R3lLTnQ5cXU?oc=5
+· TSLA US Stock Futures Edge Higher as SpaceX and Tesla Explore Merger and Meta Earnings Approach: Dow Jones, S&P, Nasdaq, Wall Street (Yahoo Finance) https://news.google.com/rss/articles/CBMimAFBVV95cUxOazVLcDItRGFmTHc0VFY0M3FhV1B4Ymg2NUl0eGRDc0JHb25hUkZrblhjelAzM3JjYVU5Z1BMald1NFZRSVhFcFVLcFB5MmhLYlktcVVrREN1aHk1bGNKaEdHejB3cHVmUzFvaXIwaHc1WEFnQS1QczNHVHNNOFhtUTBkZWFhdGtacXpwQ1BjbW1kV1FGQU90VA?oc=5
+· UST Eurozone Bond Yields Rise, U.S. Treasury Yields Steady (The Wall Street Journal) https://news.google.com/rss/articles/CBMimAFBVV95cUxNUUVqY01YZEVBNGdnSkZQSllpNnZmNFNUUm5ab0VxODNVWXVUdm5VYW1GcGRjSXJvTE9lSjlITEZZYmR6MUJiQ1ZtaFhNb3JDQkJoQ09JdlJUdlFsTXRfeEVKM0s1em51dUR0Z3h2WW9hRS1BdVVDSWhGSXNZZ1NIRTlzSnk4ZzZianQ0bnRheEEwRGpXTmY0SA?oc=5
 · TSLA Musk Teases SpaceX-Tesla Merger in Earnings Call (Bloomberg) https://www.bloomberg.com/news/videos/2026-10-20/musk-teases-spacex-tesla-merger-in-earnings-call-video?srnd=homepage-europe
 · TSLA SpaceX and Tesla's Terafab targets 2028 for volume chip production, Musk says (Reuters) https://www.reuters.com/business/media-telecom/spacex-teslas-terafab-targets-2028-volume-chip-production-musk-says-2026-10-20/
 · USDBRL Ibovespa avança mais de 1,5% e dólar cai a R$5,01 de olho na eleição (TradingView (Reuters)) https://br.tradingview.com/news/reuters.com,2026:newsml_L1N46616I:0/
@@ -474,19 +539,4 @@ id: E05-MMM-c2716ce8dd-2026-10-20 · status: entregue
 · GOOGL Alphabet set for earnings beat as Cloud and AI chips take centre stage (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/alphabet-set-earnings-beat-cloud-163400786.html
 · GOOGL Google says services recovering after cloud outage hits UK banks and websites (BBC) https://www.bbc.com/news/articles/cxdd8mm6qy4mo
 · JPM JPMorgan sees 10% annual bitcoin returns, topping stocks, bonds and gold over next decade (CoinDesk) https://www.coindesk.com/markets/2026/10/20/jpmorgan-sees-10-annual-bitcoin-returns-topping-stocks-bonds-and-gold-over-next-decade
-· BRENT Dólar cai a R$ 5,01 e Bolsa sobe firme influenciados por eleição e petróleo (UOL Economia) https://economia.uol.com.br/cotacoes/noticias/redacao/2026/10/20/dolar-bolsa-abre-hoje-20-de-outubro-de-2026.ghtm
-· UST Treasury Yield 30 Years (^TYX) charts, data and news (Yahoo Finance) https://news.google.com/rss/articles/CBMiVEFVX3lxTE42UlpSZnR0MGJKWlRpZy15YXFVYjJtRmpid1ZEdmtpT3dXLV8wTVVPN3JTbFdORFdaT0ttWU1PWW9BMHU2NERja1drZTdSOThXSFItUw?oc=5
-· TSLA Here’s what matters most to Tesla investors heading into earnings (MarketWatch) https://www.marketwatch.com/story/heres-what-matters-most-to-tesla-investors-heading-into-earnings-6b9e5d27
-· NVDA Investment summit: German government strikes AI deal with Nvidia (Yahoo Finance) https://uk.finance.yahoo.com/news/investment-summit-german-government-strikes-181008216.html
-· JPM Marsh Stocks Rise 5.40% With JPMorgan's $218 Target in Focus (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:fdb3e03b5094b:0-marsh-stocks-rise-5-40-with-jpmorgan-s-218-target-in-focus/
-· BTC Zcash Is More Like AI Than Bitcoin, Says Cameron Winklevoss: Predicts ZEC Price Could Eventually Top $5,000 (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/zcash-more-ai-bitcoin-says-175509043.html
-· AMD AMD Faces Key Test as AI Server Demand Surges (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:fdf763831094b:0-amd-faces-key-test-as-ai-server-demand-surges/
-· AVGO Broadcom Stocks Fall Although Docomo Commits to a 10-Year Cloud Agreement (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:220019b66094b:0-broadcom-stocks-fall-although-docomo-commits-to-a-10-year-cloud-agreement/
-· BAC Reflecting On Diversified Banks Stocks’ Q3 Earnings: Bank of America (NYSE:BAC) (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/reflecting-diversified-banks-stocks-q3-161350210.html
-· JPM JPMorgan Asset Sees Bitcoin Beating Stocks, But With a Catch (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/jpmorgan-asset-sees-bitcoin-beating-155653867.html
-· MU Cantor Fitzgerald reiterates Micron stock rating on supply outlook By Investing.com (Investing.com) https://au.investing.com/news/stock-market-news/cantor-fitzgerald-reiterates-micron-stock-rating-on-supply-outlook-93CH-4701455
-· BAC Bank of America Back in Market After Last Week’s $8 Billion Sale (Bloomberg) https://www.bloomberg.com/news/articles/2026-10-20/bank-of-america-back-in-market-after-last-week-s-8-billion-sale
-· AVGO Celestica: Broadcom Just Fired A $350 Billion Warning Shot (NYSE:CLS) (Seeking Alpha) https://seekingalpha.com/article/4955584-celestica-broadcom-just-fired-a-350-billion-warning-shot
-· PETR4 Abicom: alta do Brent faz diesel da Petrobras se aproximar do valor do subsídio (eixos) https://eixos.com.br/combustiveis-e-bioenergia/abicom-alta-do-brent-faz-diesel-da-petrobras-se-aproximar-do-valor-do-subsidio/
-· TSLA Tesla's Earnings Will Put Its AI Spending to the Test (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:b4336d995094b:0-tesla-s-earnings-will-put-its-ai-spending-to-the-test/
-· (+101 manchetes; lista completa em eventos/noticias.json)
+· (+116 manchetes; lista completa em eventos/noticias.json)
