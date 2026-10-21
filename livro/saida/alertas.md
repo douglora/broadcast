@@ -1,25 +1,9 @@
 ALERTAS · intradia
 
-(pendente de slot anterior) [ATENÇÃO] E05 · AMZN · 3M Co (MMM) (Q3 2026) Earnings Call Highlights: Raised Guidance, Amazon Data Center Deal and ...
-Yahoo Finance · 20/10 20h01 · fonte única · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – - Organic Sales Growth: 3.3% in Q3; full-year guidance of greater than 3.5%; Q4 expected just over 4%.
-  – - Adjusted Operating Margin: 26.2% in Q3, up 110 basis points year over year; three business groups up 140 basis points, partially offset by 30 basis points from corporate.
-  – - Adjusted EPS: $2.50 in Q3, up 12% year over year.
-  – - GAAP EPS: $2.63 in Q3, up 70% year over year.
-  – - Free Cash Flow: $1.2 billion in Q3; year to date $3.1 billion; full-year guidance approximately $4.8 billion.
-  – - Operating Profit: Increased $140 million, with $260 million from sales growth and productivity, partially offset by about $120 million of stranded costs and investments.
-Link: https://finance.yahoo.com/markets/stocks/articles/3m-co-mmm-q3-2026-230101681.html
-Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
-Ativos: AMZN · MMM
-Como falar: 'saiu no Yahoo Finance: 3M Co (MMM) (Q3 2026) Earnings Call Highlights: Raised Guidance, Amazon Data Center Deal…; confirmar o número no texto antes de repassar'
-Fonte: Yahoo Finance 20/10 20h01
-ids: E05-AMZN-f5da63c200-2026-10-20
-
 (pendente de slot anterior) [ATENÇÃO] E01 · NOK: resultado sai na próxima sessão (22/10)
 qui 22/10 · de madrugada (horário de Brasília) · estimado (config/calendario.yaml)
-Vol de 20 dias +51% a.a. ⇒ movimento típico de 1 dia ±3,2%
-Chega ao resultado com 1m -16% · 6m -6,7% · YTD +42%
+Vol de 20 dias +52% a.a. ⇒ movimento típico de 1 dia ±3,3%
+Chega ao resultado com 1m -15% · 6m -5,8% · YTD +44%
 Consenso: não disponível (sem fonte licenciada); usar o release e o guidance anterior
 Por que importa: resultado é o evento que mais move o papel em um dia; a vol implícita e o posicionamento sobem antes e caem depois
 Como falar: 'o resultado sai amanhã; o movimento típico do papel num dia é o da vol acima, e o mercado costuma exagerar na abertura'
@@ -82,17 +66,16 @@ Por que importa: silêncio é lido como 'está tudo bem'; declarar a falha é o 
 Fonte: manifest do runner
 ids: S01-SISTEMA-manha-2026-10-21
 
-[ATENÇÃO] E05 · AMZN · UBS reiterates 3M stock Buy rating on Amazon deal, growth outlook
+(pendente de slot anterior) [ATENÇÃO] E05 · AMZN · UBS reiterates 3M stock Buy rating on Amazon deal, growth outlook
 Investing.com · 21/10 11h45 · fonte única · licença: manchete
 Link: https://www.investing.com/news/analyst-ratings/ubs-reiterates-3m-stock-buy-rating-on-amazon-deal-growth-outlook-93CH-4963433
 Por que importa: aquisicao ou venda muda alavancagem, mix de receita e o multiplo; olhar preco pago e financiamento
 Ativos: AMZN · MMM
 Como falar: 'saiu no Investing.com: UBS reiterates 3M stock Buy rating on Amazon deal, growth outlook; confirmar o número no texto antes de repassar'
 Fonte: Investing.com 21/10 11h45
-Push: intradia: 3 alertas de atenção — E05 AMZN, E05 BBDC4, E05 BBDC4 · detalhe na sessão
 ids: E05-AMZN-cf20f6d54a-2026-10-21
 
-[ATENÇÃO] E05 · BBDC4 · Bradesco (BBDC4): mercado prevê alta no lucro no 3T26, mas inadimplência ainda desafia a recuperação do banco
+(pendente de slot anterior) [ATENÇÃO] E05 · BBDC4 · Bradesco (BBDC4): mercado prevê alta no lucro no 3T26, mas inadimplência ainda desafia a recuperação do banco
 Money Times · 21/10 09h38 · fonte única · licença: integral
 Do texto:
   – O consenso compilado pela Bloomberg projeta lucro líquido ajustado de R$ 7,145 bilhões, alta de 15% na comparação anual.
@@ -108,7 +91,7 @@ Como falar: 'saiu no Money Times: Bradesco (BBDC4): mercado prevê alta no lucro
 Fonte: Money Times 21/10 09h38
 ids: E05-BBDC4-d4967b51b6-2026-10-21
 
-[ATENÇÃO] E05 · BBDC4 · Bradesco (BBDC4) corrige após recorde; ação ainda tem espaço para subir?
+(pendente de slot anterior) [ATENÇÃO] E05 · BBDC4 · Bradesco (BBDC4) corrige após recorde; ação ainda tem espaço para subir?
 InfoMoney · 21/10 09h30 · fonte única · licença: resumo
 Trechos (licença resumo: reescrever, não colar):
   – Publicidade As ações do Bradesco (BBDC4) entraram em uma fase de correção depois do forte rali observado no início de outubro.
@@ -125,34 +108,31 @@ Fonte: InfoMoney 21/10 09h30
 ids: E05-BBDC4-ff01be9700-2026-10-21
 
 Info (só linha no Fechamento):
-· E05 GOOGL · Alphabet Slips 2% Despite NASDAQ Rally as Pichai Says Google Cloud Is Giving Up Revenue for AI Capacity; Amazon Dips, Microsoft Holds Steady
-· E05 GOOGL · Europe's financial regulators query Google over cloud outage that hit banks
-· E05 VALE3 · UBS BB passa a tesoura nas ações da Vale (VALE3) pela segunda vez em um mês; veja preço-alvo
-· E05 NVDA · AMD vs. Nvidia. 1 Metric Proves Which Is the Best Stock.
-· E05 AMD · AMD’s Data Center Business Is Finally Delivering Profits. Can MU’s Rival Sustain the Momentum?
-· E05 AVGO · Broadcom’s AI Revenue Surges 221%, But is Growth Becoming Too Dependent on AI Spending?
-· E05 INTC · Intel advances Arizona, Ohio factory projects as chip demand outlook improves
-· E05 GOOGL · Amazon vs. Alphabet: Is GOOGL’s Cloud Growth Being Undervalued?
-· E05 GOOGL · Google to host OpenAI's models, as all three cloud giants deliver GPT products
-· E05 BTC · Bitcoin price tags $84.6K as US stocks head higher on SpaceX Q3 earnings beat
-· E05 INTC · Intel hits construction milestone at Ohio chip fab that’s at least 5 years behind schedule
-· E05 MU · Time for a Micron mindset shift? Here’s how to navigate the new AI landscape.
-· E05 COHR · Total revenue of Coherent Corp Shs Canadian Depositary Receipt Repr Shs Reg S – NEO:COHR
-· E05 TSLA · Where is Optimus? Key questions for Tesla earnings.
-· E05 TSLA · Tesla (TSLA) Needs Stronger Earnings to Justify Its Autonomy Ambitions
-· E05 MMM · MMM Q3 Deep Dive: Data Center Momentum and Productivity Drive Upgraded Outlook
-· E05 MMM · Earnings call transcript: 3M tops Q3 2026 profit views as shares rise
+· E05 KO · Can Coca-Cola (KO) Stock Support 28 Times Earnings?
+· E05 NVDA · Nvidia Seeks to Slash Data Center Deployment Times with New DSX Pods
+· E05 USDBRL · WEG (WEGE3) cai mais de 7% com balanço pressionado por dólar e tarifas; exagero ou sinal de alerta?
+· E05 PETR4 · Petrobras lidera valorização entre gigantes globais do petróleo no mês; veja ranking
+· E05 TSLA · What to Know About the SpaceX-Tesla Merger Talks
+· E05 GOOGL · Wall Street Continues to Systematically Undervalue Alphabet, So I Continue to Buy
+· E05 TSLA · Tesla’s ‘flying car’ draws public concern in China – and an official response
+· E05 TSLA · Meta and Tesla bulls get confidence boost after SpaceX earnings
+· E05 KO · Prediction: Coca-Cola Stock Is Going to Soar After Oct. 27
+· E05 MU · Micron Says Rival DRAM Design Has ‘Fundamental Problems’: Targets Next-Gen Memory With 3D DRAM, New Chips Planned For 2027
+· E05 BTC · Bitcoin Price Analysis: Recent Buyers Break Even Near $87,700. Could Their Selling Stop BTC’s Rally?
+· E05 TSM · Moody’s upgrades TSMC rating to Aa2 on booming AI demand and market dominance
+· E05 BTC · Bitcoin’s performance will depend more on macro factors than supply reductions – Wells Fargo
+· E05 BTC · Current price of Bitcoin for Oct. 21, 2026
+· E05 USDBRL · Dólar ronda R$ 5,03 e Bolsa perde força, com pesquisas e balanços na agenda
 
-Suprimidos pelo teto (viram linha do Fechamento): E05-MMM-0ceee1dc45-2026-10-21 (teto de noticias), E05-MMM-d8bbb62e33-2026-10-20 (teto de noticias)
 
 Alertas do dia (todos, com status):
 · pendente  E05 AMZN — AMZN · UBS reiterates 3M stock Buy rating on Amazon deal, growth outlook
 · pendente  E05 BBDC4 — BBDC4 · Bradesco (BBDC4): mercado prevê alta no lucro no 3T26, mas inadimplência
 · pendente  E05 BBDC4 — BBDC4 · Bradesco (BBDC4) corrige após recorde; ação ainda tem espaço para subir?
-· pendente  E01 NOK — NOK: resultado sai na próxima sessão (22/10)
-· pendente  E03 SBSP3 — SBSP3 · Fato Relevante: (11) 2763-6504 | ri.emae.com.br A Companhia de Saneament
-· pendente  E05 MMM — MMM · MMM Q3 Deep Dive: Data Center Momentum and Productivity Drive Upgraded Out
-· pendente  E05 TSLA — TSLA · Elon Musk Teases Tesla Merger and $1 Trillion Milestone for SpaceX
-· pendente  E05 AXIA3 — AXIA3 · Oferta de consumidores da Axia para resposta da demanda soma 15 MW
-· pendente  S01 SISTEMA — coleta do slot manha saiu incompleta: tesouro: falha: ValueError: cabecalho ines
-· (+34 notícias só manchete, em noticias.md)
+· expirado  E01 NOK — NOK: resultado sai na próxima sessão (22/10)
+· expirado  E03 SBSP3 — SBSP3 · Fato Relevante: (11) 2763-6504 | ri.emae.com.br A Companhia de Saneament
+· expirado  E05 MMM — MMM · MMM Q3 Deep Dive: Data Center Momentum and Productivity Drive Upgraded Out
+· expirado  E05 TSLA — TSLA · Elon Musk Teases Tesla Merger and $1 Trillion Milestone for SpaceX
+· expirado  E05 AXIA3 — AXIA3 · Oferta de consumidores da Axia para resposta da demanda soma 15 MW
+· expirado  S01 SISTEMA — coleta do slot manha saiu incompleta: tesouro: falha: ValueError: cabecalho ines
+· (+49 notícias só manchete, em noticias.md)

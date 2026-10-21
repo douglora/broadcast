@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 21/10 12h58
+NOTÍCIAS E FATOS · 21/10 14h58
 
-Pernas: noticias ok 20 novas (18 consultas; descartadas: 439 veículo fora da lista, 18 sem ativo, 50 teto) · cvm ok 0 novos de 6 (4 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 15 novas (18 consultas; descartadas: 434 veículo fora da lista, 16 sem ativo, 21 teto) · cvm ok 0 novos de 6 (4 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (1)
 
@@ -18,7 +18,7 @@ Por que importa: fato relevante e o que a propria companhia julga capaz de mover
 Ativos: SBSP3
 Como falar: 'a Sabesp publicou fato relevante sobre (11) 2763-6504 | ri.emae.com.br A Companhia de Saneamento Básico do E…'
 Fonte: CVM 20/10
-id: E03-SBSP3-1578859-2026-10-20 · status: pendente · íntegra disponível
+id: E03-SBSP3-1578859-2026-10-20 · status: expirado · íntegra disponível
 
 
 ## NOTÍCIAS COM MATERIALIDADE (8)
@@ -96,7 +96,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: MMM
 Como falar: 'saiu no TradingView (Reuters): MMM Q3 Deep Dive: Data Center Momentum and Productivity Drive Upgraded Outlook; confirmar o número no texto antes de repassar'
 Fonte: TradingView (Reuters) 21/10 02h33
-id: E05-MMM-42467b5c2c-2026-10-21 · status: pendente
+id: E05-MMM-42467b5c2c-2026-10-21 · status: expirado
 
 [ATENÇÃO] E05 · TSLA · Elon Musk Teases Tesla Merger and $1 Trillion Milestone for SpaceX
 Yahoo Finance · 20/10 23h00 · + CoinDesk, Bloomberg · licença: resumo
@@ -112,7 +112,7 @@ Por que importa: aquisicao ou venda muda alavancagem, mix de receita e o multipl
 Ativos: TSLA
 Como falar: 'saiu no Yahoo Finance: Elon Musk Teases Tesla Merger and $1 Trillion Milestone for SpaceX; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 20/10 23h00
-id: E05-TSLA-bf6bfca65b-2026-10-21 · status: pendente
+id: E05-TSLA-bf6bfca65b-2026-10-21 · status: expirado
 
 [ATENÇÃO] E05 · AXIA3 · Oferta de consumidores da Axia para resposta da demanda soma 15 MW
 CanalEnergia · 20/10 18h55 · fonte única · licença: manchete
@@ -121,11 +121,26 @@ Por que importa: oferta de acoes ou divida altera a base acionaria ou a alavanca
 Ativos: AXIA3
 Como falar: 'saiu no CanalEnergia: Oferta de consumidores da Axia para resposta da demanda soma 15 MW; confirmar o número no texto antes de repassar'
 Fonte: CanalEnergia 20/10 18h55
-id: E05-AXIA3-d34f17fe4a-2026-10-20 · status: pendente
+id: E05-AXIA3-d34f17fe4a-2026-10-20 · status: expirado
 
 
-## OUTRAS NOTÍCIAS (só manchete) (30)
+## OUTRAS NOTÍCIAS (só manchete) (45)
 
+· KO Can Coca-Cola (KO) Stock Support 28 Times Earnings? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/coca-cola-ko-stock-support-173010396.html
+· NVDA Nvidia Seeks to Slash Data Center Deployment Times with New DSX Pods (Barron's) https://www.barrons.com/articles/nvidia-data-center-dsx-pods-a05933ba
+· USDBRL WEG (WEGE3) cai mais de 7% com balanço pressionado por dólar e tarifas; exagero ou sinal de alerta? (Seu Dinheiro) https://www.seudinheiro.com/2026/empresas/weg-wege3-amarga-queda-no-ibovespa-com-balanco-pressionado-por-dolar-e-tarifas-exagero-ou-sinal-de-alerta-lmrs/
+· PETR4 Petrobras lidera valorização entre gigantes globais do petróleo no mês; veja ranking (InfoMoney) https://www.infomoney.com.br/mercados/petrobras-petr3-petr4-lidera-valorizacao-entre-gigantes-globais-do-petroleo-outubro-2026-veja-ranking/
+· TSLA What to Know About the SpaceX-Tesla Merger Talks (The Wall Street Journal) https://www.wsj.com/business/five-takeaways-from-spacexs-earnings-call-b91bcaf2
+· GOOGL Wall Street Continues to Systematically Undervalue Alphabet, So I Continue to Buy (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/wall-street-continues-systematically-undervalue-164546504.html
+· TSLA Tesla’s ‘flying car’ draws public concern in China – and an official response (South China Morning Post) https://www.scmp.com/economy/china-economy/article/3371644/teslas-flying-car-draws-public-concern-china-and-official-response
+· TSLA Meta and Tesla bulls get confidence boost after SpaceX earnings (CNBC) https://www.cnbc.com/2026/10/21/meta-tesla-options-earnings.html
+· KO Prediction: Coca-Cola Stock Is Going to Soar After Oct. 27 (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/prediction-coca-cola-stock-going-163500271.html
+· MU Micron Says Rival DRAM Design Has ‘Fundamental Problems’: Targets Next-Gen Memory With 3D DRAM, New Chips Planned For 2027 (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:3ba63b1f5094b:0-micron-says-rival-dram-design-has-fundamental-problems-targets-next-gen-memory-with-3d-dram-new-chips-planned-for-2027/
+· BTC Bitcoin Price Analysis: Recent Buyers Break Even Near $87,700. Could Their Selling Stop BTC’s Rally? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-price-analysis-recent-buyers-161645881.html
+· TSM Moody’s upgrades TSMC rating to Aa2 on booming AI demand and market dominance (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/moody-upgrades-tsmc-rating-aa2-161637254.html
+· BTC Bitcoin’s performance will depend more on macro factors than supply reductions – Wells Fargo (Seeking Alpha) https://seekingalpha.com/news/4655376-bitcoin-s-performance-will-depend-more-on-macro-factors-than-supply-reductions-wells-fargo
+· BTC Current price of Bitcoin for Oct. 21, 2026 (Fortune) https://fortune.com/article/price-of-bitcoin-10-21-2026/
+· USDBRL Dólar ronda R$ 5,03 e Bolsa perde força, com pesquisas e balanços na agenda (UOL Economia) https://economia.uol.com.br/cotacoes/noticias/redacao/2026/10/21/dolar-bolsa-abre-hoje-21-de-outubro-de-2026.ghtm
 · GOOGL Alphabet Slips 2% Despite NASDAQ Rally as Pichai Says Google Cloud Is Giving Up Revenue for AI Capacity; Amazon Dips, Microsoft Holds Steady (Yahoo Finance) https://finance.yahoo.com/technology/articles/alphabet-slips-2-despite-nasdaq-154839337.html
 · GOOGL Europe's financial regulators query Google over cloud outage that hit banks (Reuters) https://www.reuters.com/business/finance/europes-financial-regulators-query-google-over-cloud-outage-that-hit-banks-2026-10-21/
 · VALE3 UBS BB passa a tesoura nas ações da Vale (VALE3) pela segunda vez em um mês; veja preço-alvo (Money Times) https://www.moneytimes.com.br/ubs-bb-passa-a-tesoura-nas-acoes-da-vale-vale3-pela-segunda-vez-em-um-mes-veja-preco-alvo-lils/
