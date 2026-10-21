@@ -564,3 +564,14 @@ Decisoes atuais: nenhuma mudou. A reserva antiga nao era usada por nenhum papel 
 da mesa nao leem TIR. Testes: 1.235 verdes e 2 pulados na suite inteira; a unica falha e a antiga da auditoria da TIR de 11/10
 (retorno total, 8 de 41 casos), sem relacao com esta troca.
 
+
+## 21/10/2026 (noite): teste da auditoria da TIR le o arquivo como ele esta hoje; CONHECIDOS perde 2 meses
+
+`test_retorno_total_universo.py` falhava desde 12/10 em dois pontos (a "falha antiga" anotada em 18/10), nenhum deles defeito de dado:
+- `resultados.json` da auditoria foi sobrescrito pela segunda execucao (11/10 22h44, commit 511cf28 do terminal) e guarda so os 8 meses residuais (BBDC4 2017-03,
+  2018-03 e 2022-04, ITSA4 2016-04, CMIG4 2013-04 e 2014-09, EZTC3 2015-04, ALPA4 2014-04: o terminal data o evento na assembleia e nao no ex); o teste exigia as 41
+  linhas da primeira execucao. Agora os 41 estao congelados no proprio teste (`AUDITORIA_41`, iguais a lista do commit 42d9fee do terminal; nenhum reprova, conferido
+  em 21/10) e um segundo teste le o arquivo como estiver: o que a auditoria ainda marca tambem nao pode reprovar aqui (os 8: razao dentro do limiar).
+- ARML3 e NATU3 2026-09 sairam de `CONHECIDOS`: a serie mensal do terminal (Yahoo) foi refeita e o mes deixou de reprovar; nenhum evento entrou na tabela (nada
+  desde 06/2026 nos dois). Lista: 33 -> 31 meses (22 Yahoo ajusta sem evento, 9 Yahoo com erro).
+Nada do robo de day trade nem do swing mudou.
