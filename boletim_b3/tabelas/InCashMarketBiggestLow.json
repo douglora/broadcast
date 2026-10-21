@@ -1,5 +1,5 @@
 {
- "pregao": "2026-10-19",
+ "pregao": "2026-10-20",
  "nome": "InCashMarketBiggestLow",
  "titulo": "Mercado à vista - maiores baixas",
  "sla": "8:00:00",
@@ -7,18 +7,18 @@
  "colunas": [{"nome": "TckrSymb", "titulo": "Ação"}, {"nome": "Cod", "titulo": "Código"}, {"nome": "Price", "titulo": "Preço (R$)"}, {"nome": "OscillationDesc", "titulo": "Oscilação (%)"}],
  "texto": ["Mostra as maiores desvalorizações de ativos no mercado à vista num período."],
  "situacao": "publicado",
- "atualizado_em": "2026-10-19T19:10:09.743",
+ "atualizado_em": "2026-10-20T19:00:20.297",
  "truncada": false,
  "linhas": [
-  ["AZUL99", "UNT     N2", 3.43, -20.04],
-  ["C1AB34", "DRN", 31, -16.64],
-  ["INHF11", "CI", 9.1, -12.41],
-  ["VIVR3", "ON      NM", 3.35, -11.14],
-  ["JFEN3", "ON", 4, -11.11],
-  ["CCTY3", "ON      NM", 4.6, -10.85],
-  ["PLAS3", "ON", 3.4, -10.52],
-  ["J1KH34", "DRN", 193.99, -9.24],
-  ["VVRI11", "CI", 7.27, -9.12],
-  ["BOBR4", "PN", 1.48, -7.5]
+  ["WIZC3", "ON      NM", 7.27, -20.02],
+  ["APXM11", "CI", 49.75, -18.38],
+  ["PABY11", "CI", 21, -15.18],
+  ["FSRF11", "CI", 0.07, -12.5],
+  ["INHF11", "CI", 8.05, -11.53],
+  ["VIVR3", "ON      NM", 2.98, -11.04],
+  ["EDFO11", "CI", 121, -11.01],
+  ["PATA11", "CI", 9, -10.89],
+  ["AERI3", "ON      NM", 2.28, -10.23],
+  ["NVHO11", "CI", 12.12, -10.15]
  ]
 }

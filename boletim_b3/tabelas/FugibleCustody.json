@@ -1,5 +1,5 @@
 {
- "pregao": "2026-10-19",
+ "pregao": "2026-10-20",
  "nome": "FugibleCustody",
  "titulo": "Custódia fungível",
  "sla": "00:00:00",
@@ -7,10 +7,9 @@
  "colunas": [{"nome": "SbscrptnDeadline", "titulo": "Prazo final subscrição"}, {"nome": "DeadlineAssgnmnt", "titulo": "Prazo final cessão"}, {"nome": "TckrSymb", "titulo": "Emissor"}, {"nome": "IsinOrigin", "titulo": "Código ISIN origem"}, {"nome": "IsinRight", "titulo": "Código ISIN direito"}, {"nome": "IsinSbscrptn", "titulo": "Código ISIN subscrição"}],
  "texto": ["Informações sobre ativos que estão sob custódia, mas não são de propriedade do investidor. O objetivo é fornecer transparência sobre a gestão de ativos que pertencem a terceiros, garantindo controle e rastreabilidade. Os agentes de custódia que pretenderem exercer o direito de subscrição e/ou solicitar cessão de direitos da(s) empresa(s) abaixo relacionada(s) deverão manifestar-se nos prazos mencionados."],
  "situacao": "publicado",
- "atualizado_em": "2026-10-19T00:10:28.51",
+ "atualizado_em": "2026-10-20T00:00:58.267",
  "truncada": false,
  "linhas": [
-  ["2026-10-19", "2026-10-19", "FII REC RECEBIVEIS IMOBILIARIOS RESP LIM", "BRRECRCTF004 174", "BRRECRD07M14 174", "BRRECRR14M19 175"],
   ["2026-10-26", "2026-10-26", "BIOMM S.A.", "BRBIOMACNOR2 113", "BRBIOMD01M15 113", "BRBIOMDBS004 100"],
   ["2026-10-27", "2026-10-27", "BTG PACTUAL LOGISTICA FDO INV IMOB RESP LIM", "BRBTLGCTF000 193", "BRBTLGD12M10 193", "BRBTLGR35M17 194"],
   ["2026-10-29", "2026-10-29", "EXES FUNDO DE INVESTIMENTO IMOBILIÁRIO RESP LIM", "BREXESCTF006 154", "BREXESD03M17 154", "BREXESR18M14 155"],

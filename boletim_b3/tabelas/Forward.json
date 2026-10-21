@@ -1,5 +1,5 @@
 {
- "pregao": "2026-10-19",
+ "pregao": "2026-10-20",
  "nome": "Forward",
  "titulo": "Ações mais negociadas - a termo",
  "sla": "8:00:00",
@@ -7,13 +7,13 @@
  "colunas": [{"nome": "TckrSymb", "titulo": "Ação"}, {"nome": "Cod", "titulo": "Código"}, {"nome": "Term", "titulo": "Prazo"}, {"nome": "Closing", "titulo": ""}, {"nome": "TradQty", "titulo": ""}, {"nome": "VlmTradedDay", "titulo": "Volume (R$) mil"}, {"nome": "Part", "titulo": "Participação (%)"}],
  "texto": ["Lista ações com maior volume de negociação em contratos a termo, destacando as mais ativas."],
  "situacao": "publicado",
- "atualizado_em": "2026-10-19T19:11:44.13",
+ "atualizado_em": "2026-10-20T19:03:08.797",
  "truncada": false,
  "linhas": [
-  ["INVESTOUTIL CI", "CI", 30, 142.47, 52000, 7408.44, 0.4343432175093106],
-  ["ISHARES SMALCI", "CI", 16, 135.05, 100000, 13505.000000000002, 0.835275418287136],
-  ["VIBRA       ON      NM", "ON      NM", 30, 36.31, 867600, 31502.556000000004, 7.24684952905919],
-  ["P.ACUCAR-CBDON      NM", "ON      NM", 30, 3, 2733200, 8199.6, 22.829747732623996],
-  ["BRASIL      ON      NM", "ON      NM", 91, 25, 4000000, 100000, 33.41101673148543]
+  ["ISHARES BOVACI", "CI", 62, 209.97, 24890, 5226.1533, 0.30952533438125085],
+  ["AXIA ENERGIAON      NM", "ON      NM", 16, 59.93, 93000, 5573.49, 1.156522944855618],
+  ["INVESTOUTIL CI", "CI", 30, 145.25, 122000, 17720.5, 1.5171591319611333],
+  ["ISHARES SMALCI", "CI", 16, 139.12, 403900, 56190.568, 5.02279158523854],
+  ["VIBRA       ON      NM", "ON      NM", 30, 36.87, 600000, 22122, 7.461438353907214]
  ]
 }
