@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 21/10 18h14
+NOTÍCIAS E FATOS · 21/10 18h30
 
-Pernas: noticias ok 19 novas (18 consultas; descartadas: 422 veículo fora da lista, 21 sem ativo, 31 teto) · cvm ok 0 novos de 6 (4 cias casadas) · sec ok 1 novos em 3 dias
+Pernas: noticias ok 5 novas (18 consultas; descartadas: 399 veículo fora da lista, 19 sem ativo, 0 teto) · cvm ok 0 novos de 6 (4 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (1)
 
@@ -33,7 +33,16 @@ Fonte: SEC EDGAR 2026-10-21
 id: E04-BAC-26000494-2026-10-21 · status: pendente · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (12)
+## NOTÍCIAS COM MATERIALIDADE (13)
+
+[ATENÇÃO] E05 · KO · How Coca-Cola Got Burned With a $5 Billion Bet on Costa Coffee
+Bloomberg · 21/10 10h46 · fonte única · licença: manchete
+Link: https://www.bloomberg.com/news/features/2026-10-21/how-coca-cola-s-5-billion-costa-coffee-deal-went-wrong
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: KO
+Como falar: 'saiu no Bloomberg: How Coca-Cola Got Burned With a $5 Billion Bet on Costa Coffee; confirmar o número no texto antes de repassar'
+Fonte: Bloomberg 21/10 10h46
+id: E05-KO-a475774f28-2026-10-21 · status: pendente
 
 [ATENÇÃO] E05 · BAC · Bank of America Corporation (BAC) Declares $0.32 Q4 Common Dividend
 TradingView (Reuters) · 21/10 17h15 · fonte única · licença: manchete
@@ -172,8 +181,12 @@ Fonte: CanalEnergia 20/10 18h55
 id: E05-AXIA3-d34f17fe4a-2026-10-20 · status: entregue
 
 
-## OUTRAS NOTÍCIAS (só manchete) (60)
+## OUTRAS NOTÍCIAS (só manchete) (64)
 
+· TSLA Tesla profits drop but top analyst estimates (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/tesla-profits-drop-top-analyst-205828910.html
+· TSLA Tesla Beats Estimates as Musk Floats SpaceX Merger (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/tesla-beats-estimates-musk-floats-204544066.html
+· META Update: US Equity Indexes Rise Ahead of Quarterly Earnings From Meta Platforms, Tesla Following Blockbuster SpaceX Results (Yahoo Finance) https://ca.finance.yahoo.com/news/us-equity-indexes-rise-ahead-193943286.html
+· UST Treasury yields steady as investors await jobless claims (CNBC) https://www.cnbc.com/2026/10/21/bonds-us-treasurys-yields.html
 · USDBRL Dólar sobe com disputa acirrada entre Flávio Bolsonaro e Lula, no segundo turno (ADVFN) https://br.advfn.com/jornal/2026/10/dolar-sobe-com-disputa-acirrada-entre-flavio-bolsonaro-e-lula-no-segundo-turno
 · TSLA Tesla posts surprise positive cash flow on lower-than-expected AI spending (Reuters) https://www.reuters.com/business/media-telecom/tesla-revenue-beats-estimates-deliveries-rebound-energy-storage-grows-2026-10-21/
 · TSLA Tesla revenue flat as Elon Musk eyes possible SpaceX deal (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/tesla-revenue-flat-elon-musk-204111687.html
@@ -230,7 +243,4 @@ id: E05-AXIA3-d34f17fe4a-2026-10-20 · status: entregue
 · BTC Bitcoin ‘top buyers’ halt BTC price upside with $87.7K now key: Glassnode (TradingView (Reuters)) https://www.tradingview.com/news/cointelegraph:90d25bde7094b:0-bitcoin-top-buyers-halt-btc-price-upside-with-87-7k-now-key-glassnode/
 · USDBRL Pesquisa Quaest aparece em dia mais esvaziado e investidores monitoram balanços; Ibovespa em dólar cai nesta quarta-feira (21) (Money Times) https://www.moneytimes.com.br/pesquisa-quaest-aparece-em-dia-mais-esvaziado-e-investidores-monitoram-balancos-ibovespa-em-dolar-cai-nesta-quarta-feira-21-rens/
 · UST Indian central bank rejects all bids at treasury bill auction as short-term yields surge (TradingView (Reuters)) https://www.tradingview.com/news/reuters.com,2026:newsml_L4N4670PI:0-indian-central-bank-rejects-all-bids-at-treasury-bill-auction-as-short-term-yields-surge/
-· BTC Is Bitcoin on the Verge of a Deeper Correction? The S&P 500 May Hold the Answer (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-verge-deeper-correction-p-100000734.html
-· PETR4 Petrobras (PETR4) avalia como positivo adiamento de audiência sobre Gas Release (InfoMoney) https://news.google.com/rss/articles/CBMitwFBVV95cUxQQ0x0QkJQd3ZRekpNQkpVcUZibEFjVTlhbjhvUGJMMU1YYk9BVjlCbzh3bGVtYTlXSUN5MnV3S201ZkhUQWpaOWdFd2x4U2Z1Ql92cnB0TVpvRE1KdEc5VllEanVRdWZ6aVlSbzl2R25ZYmJvNVRnLUtEaVl2Z0xRYjhfOU1jQ2tJc2c4bzBkSUhNcEloSGZCYkE1blZ1Uml5bnRCRFVhQmdwcDRDdTItOXBhc0dRemPSAbwBQVVfeXFMT2JsZHE0UXZlNHJKb3prQjRjbmR3NVFyRkIwZXVwMFY5TUd6SWdVSjQwMU5ZMU1DUW5MbEFYblpYUkIxSVRmOXduLU5OZFBDLVZobnVXUThkZmtsVUI5eXRCOHpDa0dyc015YkVjdXFjS1lEX2dlTUpRVHotbFVhU0FIekhKUzBHQzJ2UWZDd1I3aXpPUy04S19mOS1sLW5jVExuclZlVWEwYmhaclNDbE5ZWnZ6R3lLTnQ5cXU?oc=5
-· TSLA US Stock Futures Edge Higher as SpaceX and Tesla Explore Merger and Meta Earnings Approach: Dow Jones, S&P, Nasdaq, Wall Street (Yahoo Finance) https://news.google.com/rss/articles/CBMimAFBVV95cUxOazVLcDItRGFmTHc0VFY0M3FhV1B4Ymg2NUl0eGRDc0JHb25hUkZrblhjelAzM3JjYVU5Z1BMald1NFZRSVhFcFVLcFB5MmhLYlktcVVrREN1aHk1bGNKaEdHejB3cHVmUzFvaXIwaHc1WEFnQS1QczNHVHNNOFhtUTBkZWFhdGtacXpwQ1BjbW1kV1FGQU90VA?oc=5
-· UST Eurozone Bond Yields Rise, U.S. Treasury Yields Steady (The Wall Street Journal) https://news.google.com/rss/articles/CBMimAFBVV95cUxNUUVqY01YZEVBNGdnSkZQSllpNnZmNFNUUm5ab0VxODNVWXVUdm5VYW1GcGRjSXJvTE9lSjlITEZZYmR6MUJiQ1ZtaFhNb3JDQkJoQ09JdlJUdlFsTXRfeEVKM0s1em51dUR0Z3h2WW9hRS1BdVVDSWhGSXNZZ1NIRTlzSnk4ZzZianQ0bnRheEEwRGpXTmY0SA?oc=5
+· (+4 manchetes; lista completa em eventos/noticias.json)
