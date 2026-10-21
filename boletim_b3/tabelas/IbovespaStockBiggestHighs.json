@@ -1,5 +1,5 @@
 {
- "pregao": "2026-10-19",
+ "pregao": "2026-10-20",
  "nome": "IbovespaStockBiggestHighs",
  "titulo": "Ações do IBOVESPA - maiores altas",
  "sla": "8:00:00",
@@ -7,18 +7,18 @@
  "colunas": [{"nome": "TckrSymb", "titulo": "Ação"}, {"nome": "Cod", "titulo": "Código"}, {"nome": "Price", "titulo": "Preço (R$)"}, {"nome": "Oscillation", "titulo": "Oscilação (%)"}],
  "texto": ["Lista as ações do IBOVESPA com os maiores percentuais de valorização em um período."],
  "situacao": "publicado",
- "atualizado_em": "2026-10-19T23:30:19.337",
+ "atualizado_em": "2026-10-20T23:30:21.007",
  "truncada": false,
  "linhas": [
-  ["ASAI3", "ON      NM", 13.39, 4.28],
-  ["BEEF3", "ON      NM", 4.34, 4.32],
-  ["LREN3", "ON      NM", 14.14, 4.74],
-  ["MGLU3", "ON      NM", 11.83, 6.48],
-  ["HAPV3", "ON      NM", 8.88, 7.11],
-  ["CEAB3", "ON      NM", 13.49, 7.4],
-  ["VAMO3", "ON      NM", 6.13, 8.11],
-  ["COGN3", "ON      NM", 3.14, 8.65],
-  ["MRVE3", "ON      NM", 8.01, 10.94],
-  ["AZZA3", "ON      NM", 26.5, 13.24]
+  ["B3SA3", "ON      NM", 23.71, 5.37],
+  ["CYRE3", "ON      NM", 34.41, 5.39],
+  ["LREN3", "ON      NM", 14.93, 5.58],
+  ["DIRR3", "ON      NM", 11.42, 5.74],
+  ["CEAB3", "ON      NM", 14.27, 5.78],
+  ["POMO4", "PN      N2", 4.95, 5.99],
+  ["HAPV3", "ON      NM", 9.55, 7.54],
+  ["NATU3", "ON      NM", 7.65, 7.74],
+  ["VAMO3", "ON      NM", 6.64, 8.31],
+  ["MGLU3", "ON      NM", 13.58, 14.79]
  ]
 }

@@ -1,7 +1,7 @@
 # Boletim da B3: pregão de 19/10/2026 (segunda)
 
 **Situação: COMPLETO.** Boletim publicado pela B3 em 2026-10-20 09:30 (hora de Brasília).
-Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10-21T00:52:19Z (UTC).
+Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10-21T05:17:02Z (UTC).
 
 [[LEITURA_DA_MESA]]
 
