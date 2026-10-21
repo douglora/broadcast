@@ -330,3 +330,5 @@ dependencia. Nenhuma tentativa nova entrou no registro.
 - Semana ao vivo (sinais medidos, 2 contratos): nivel e reacao 140 sinais, -R$ 43,30 por sinal, acerto 31% (pior que os 5 anos);
   reversao do dado 1 sinal (14/10, -R$ 154,80, percentil 33); fim do pregao do mini-indice (prova viva, variante adaptativa)
   4 negocios, +R$ 299 com 2 contratos, mas o robo nunca a rodou ao vivo (so percorria o WDOFUT; conserto da varredura de 15/10).
+
+(21/10/2026, noite) Pesquisa da noite: nenhuma hipotese testada, por falta de dado. Item 7 sem leitura ao vivo; item 8 segue com 15 casos; itens 9 e 10 na prova viva (6 negocios do mini-indice, cedo demais); item 14 sem yfinance no .venv. Nenhuma tentativa nova no registro.
