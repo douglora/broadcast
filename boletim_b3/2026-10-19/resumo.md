@@ -1,7 +1,7 @@
 # Boletim da B3: pregão de 19/10/2026 (segunda)
 
-**Situação: COMPLETO.** Boletim publicado pela B3 em 2026-10-20 09:30 (hora de Brasília).
-Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10-21T11:53:26Z (UTC).
+**Situação: PARCIAL.** Ainda sem: quadro de posições em aberto. A B3 publica esses blocos na madrugada seguinte ao pregão; a rodada da manhã completa.
+Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10-21T16:05:35Z (UTC).
 
 [[LEITURA_DA_MESA]]
 
@@ -89,18 +89,6 @@ Saldo = compras menos vendas, somando todos os mercados da B3. A B3 divulga com 
 | INDZ26 | 209.305,00 | -0,00% | 175.800 |
 
 DI1 = DI futuro (taxa prefixada); DAP = cupom de IPCA (juro real); DOL = dólar futuro; IND = Ibovespa futuro. pb = ponto-base (0,01 ponto percentual).
-
-## Posições em aberto por mercado (futuros)
-
-| Mercado | Contratos | Variação no pregão | Referencial (R$ mi) |
-|---|---:|---:|---:|
-| WIN | 895.532 | +1,09% | 37.492 |
-| IND | 184.580 | +1,10% | 38.688 |
-| WDO | 2.129.498 | -0,03% | 107.828 |
-| DOL | 1.011.612 | +2,75% | 256.121 |
-| DAP | 3.216.147 | -0,08% | 457.913 |
-| DDI | 4.870.588 | +0,38% | 1.157.198 |
-| DI1 | 44.165.393 | -0,04% | 3.640.977 |
 
 ## O livro em blocos
 
@@ -329,8 +317,8 @@ Por classe, mediana das taxas de referência dos papéis. Taxa de referência: n
 
 ## Lacunas e pendências
 
+- quadro de posições em aberto: atrasado
 - aluguel por corretora: ignorado
-- Publicadas pela B3 depois do prazo, mas com dado: AnalyticalFramework2.
 - Posição em aberto de derivativos por tipo de investidor (estrangeiro, institucional, pessoa física): não existe no Boletim Diário do Mercado; procurado nas 69 tabelas e no texto dos 11 cadernos em 30/09/2026.
 - Fluxo por tipo de investidor sai acumulado no mês e com dois pregões de atraso; o saldo de um dia é a diferença entre dois acumulados seguidos.
 - RARA11: a B3 não publica valor de referência da cota (IOPV) para este ETF no boletim.

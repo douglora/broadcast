@@ -1,6 +1,6 @@
 {
  "pregao": "2026-10-19",
- "coletado_em": "2026-10-21T11:52:38Z",
+ "coletado_em": "2026-10-21T16:05:04Z",
  "tabelas": {
   "SharesInvesVolum": {
    "titulo": "Participação dos investidores",
@@ -183,7 +183,7 @@
    "situacao": "atrasado",
    "atualizado_em": "2026-10-20T08:02:26.403",
    "sla": "8:00:00",
-   "linhas": 73,
+   "linhas": 0,
    "truncada": false
   },
   "SwapFlex": {
@@ -191,7 +191,7 @@
    "situacao": "atrasado",
    "atualizado_em": "2026-10-20T03:00:38.117",
    "sla": "3:00:00",
-   "linhas": 0,
+   "linhas": 5,
    "truncada": false
   },
   "EletronicTerm": {
