@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 22/10 15h22
+NOTÍCIAS E FATOS · 22/10 16h22
 
-Pernas: noticias ok 6 novas (18 consultas; descartadas: 456 veículo fora da lista, 37 sem ativo, 0 teto) · cvm ok 0 novos de 6 (4 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 9 novas (18 consultas; descartadas: 453 veículo fora da lista, 35 sem ativo, 0 teto) · cvm ok 0 novos de 6 (4 cias casadas) · sec ok 0 novos em 3 dias
 
 ## SEC (8-K, 6-K, 10-Q, 10-K) (2)
 
@@ -53,7 +53,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: NOK
 Como falar: 'saiu no Yahoo Finance: Nokia Sinks 9% on Q3 Beat as It Holds Outlook, Cuts Cash Flow View: “Growth Is Accelerati…; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 22/10 14h38
-id: E05-NOK-834963b693-2026-10-22 · status: pendente
+id: E05-NOK-834963b693-2026-10-22 · status: entregue
 
 [ATENÇÃO] E05 · KO · Unstoppable Momentum? Coca-Cola Aims for Flawless Earnings Streak as Q3 Sales Projections Top $12.9 Billion
 Yahoo Finance · 22/10 14h11 · fonte única · licença: resumo
@@ -177,8 +177,17 @@ Fonte: Investing.com 21/10 20h07
 id: E05-TSLA-594bd31921-2026-10-21 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (98)
+## OUTRAS NOTÍCIAS (só manchete) (107)
 
+· BBDC4 Bradesco continua líder no ranking de reclamações no 3º tri de 2026 (Poder360) https://www.poder360.com.br/poder-economia/bradesco-continua-lider-no-ranking-de-reclamacoes-no-3o-tri-de-2026/
+· GOOGL Alphabet Stocks Slip 2.5% as Vera Rubin Cloud Scale Nears (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:eefb65458094b:0-alphabet-stocks-slip-2-5-as-vera-rubin-cloud-scale-nears/
+· JPM How Much of Your Portfolio Should Be in Bitcoin After JPMorgan’s 10% Forecast? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/much-portfolio-bitcoin-jpmorgan-10-183046168.html
+· AMD AMD Stocks Drop 7.53% as AI Spending Fears Challenge a $620 Target (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:659bc3bf4094b:0-amd-stocks-drop-7-53-as-ai-spending-fears-challenge-a-620-target/
+· NOK What Is Nokia (HLSE:NOKIA) Building With Its New Push Into Agentic AI? (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/nokia-hlse-nokia-building-push-181225190.html
+· EQTL3 Equatorial troca postes atingidos durante acidente no Setor Perim (g1) https://g1.globo.com/go/goias/videos-ja-1-edicao/video/equatorial-troca-postes-atingidos-durante-acidente-no-setor-perim-15113261.ghtml
+· MU Micron Rolls Out Quarterly Profit-Linked Bonuses (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:f8c9959f0094b:0-micron-rolls-out-quarterly-profit-linked-bonuses/
+· AMD I Think AMD’s Potential Is Actively Being Underestimated So I Keep Betting On It (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/think-amd-potential-actively-being-124559116.html
+· MCHI China Stocks Set for Bear Market as AI Trade, Policy Hopes Fade (Bloomberg) https://www.bloomberg.com/news/articles/2026-10-22/china-stocks-set-for-bear-market-as-ai-trade-policy-hopes-fade
 · UST Mortgage rates decline for first time in about two months as Treasury yields fall (XLRE:NYSEARCA) (Seeking Alpha) https://seekingalpha.com/news/4656053-mortgage-rates-decline-for-first-time-in-about-two-months-as-treasury-yields-fall
 · INTC Intel stock may move 8.3% on Oct. 29 earnings report (Investing.com) https://www.investing.com/news/stock-market-news/intel-stock-may-move-83-on-oct-29-earnings-report-93CH-4966674
 · TSLA TSX futures point lower following Meta, Tesla earnings (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/tsx-futures-point-lower-following-123414655.html
@@ -230,13 +239,4 @@ id: E05-TSLA-594bd31921-2026-10-21 · status: linha
 · BRENT Nasdaq leads Wall Street lower on AI spending jitters; oil prices rebound (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/nasdaq-futures-drop-over-1-093849296.html
 · GOOGL One Reason Alphabet Stock Looks Better Than Its Price (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/one-reason-alphabet-stock-looks-140754006.html
 · TSLA Tesla stock slips despite Q3 earnings beat, better-than-expected capex spend (Yahoo Finance) https://finance.yahoo.com/markets/stocks/article/tesla-stock-slips-despite-q3-earnings-beat-better-than-expected-capex-spend-101521707.html
-· BTC Bitcoin Price Erases Two-Day Gains After $85,000 Rejection: Will it Fall to $80,000? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-price-erases-two-day-140000496.html
-· ETH Ethereum Price Analysis: Can ETH Hold $2,300 Support After a 12% Monthly Drop? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/ethereum-price-analysis-eth-hold-135806976.html
-· LITE Why is Lumentum stock sliding today? (Investing.com) https://in.investing.com/news/stock-market-news/why-is-lumentum-stock-sliding-today-93CH-5648666
-· META Tesla lowers capital expenditures target, IBM recovers from earnings, META AI build-out plans (Yahoo Finance) https://finance.yahoo.com/video/tesla-lowers-capital-expenditures-target-ibm-recovers-from-earnings-meta-ai-build-out-plans-134207957.html
-· NOK Nokia's Q3 Earnings Beat Estimates on AI & Cloud Strength (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/nokias-q3-earnings-beat-estimates-133400001.html
-· INTC Intel stock may move 8.3% on Oct. 29 earnings report By Investing.com (Investing.com) https://ng.investing.com/news/stock-market-news/intel-stock-may-move-83-on-oct-29-earnings-report-93CH-2751995
-· ETH Uniswap's aggregator hooks go live on Ethereum, Base and Robinhood Chain (The Block) https://www.theblock.co/news/defi/2026-10-22-uniswaps-aggregator-hooks-go-live-ethereum-base-robinhood-chain-421932?utm_source=tradingview&utm_medium=rss
-· BTC CryptoQuant CEO calls rising Bitcoin hashrate ‘indirect bullish signal’ from institutions (TradingView (Reuters)) https://www.tradingview.com/news/cointelegraph:0d9133e85094b:0-cryptoquant-ceo-calls-rising-bitcoin-hashrate-indirect-bullish-signal-from-institutions/
-· LITE Brown Advisory Sees AI Infrastructure Opportunity in Lumentum Holdings Inc. (LITE) (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/brown-advisory-sees-ai-infrastructure-134225204.html
-· (+38 manchetes; lista completa em eventos/noticias.json)
+· (+47 manchetes; lista completa em eventos/noticias.json)
