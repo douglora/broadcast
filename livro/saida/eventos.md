@@ -1,97 +1,147 @@
 ALERTAS · eventos
 
-(pendente de slot anterior) [CRÍTICO] T08 · MRVE3 entrou em bear técnico: -21% do pico de 52s (R$ 10,43 em 26/02) a R$ 8,23
-1m +56% · 6m +8,4% · 12m +24%
-Ibovespa: 1m +11% · 6m +7,1%: o mercado caiu junto
-Por que importa: -20% do pico é o limiar que a indústria chama de bear técnico; recuperar o pico exige +27%
-Como falar: 'o cliente sente a queda no extrato; a conversa é sobre a tese, não sobre o preço de hoje'
-Anula/Confirma: rearma acima de -15% do pico
-Fonte: Yahoo Finance fech. 21/10
-ids: T08-MRVE3--20-2026-10-21
+(pendente de slot anterior) [CRÍTICO] C07 · UST FECHOU: 2y -16 bps · 10y -17 bps · 30y -13 bps (22/10)
+2y 4,65 · 10y 4,96 · 30y 5,29 · 2s10s +31 bps
+Transmissão: IUAA (iShares US Aggregate Bond, duração ~6) ≈ +1,0%; alivia CNDX/RBOT e o real
+Por que importa: o 10 anos americano é a taxa de desconto do mundo; toda nota de estratégia global abre por ele
+Ativos: IUAA ↑ · CNDX ↑ · RBOT ↑ · USD/BRL ↓
+Como falar: 'o juro americano caiu: bond em dólar valoriza e o apetite por risco melhora'
+Fonte: Treasury.gov CMT 22/10
+ids: C07-UST-fechou-2026-10-22
 
-(pendente de slot anterior) [ATENÇÃO] E04 · BAC · 8-K: 5.02 entrada ou saida de diretor ou conselheiro
-SEC EDGAR · aceito 21/10 18h07 · 8-K
-Link: https://www.sec.gov/Archives/edgar/data/70858/000007085826000494/bac-20261021.htm
-Por que importa: troca de diretor ou conselheiro reabre a discussao de estrategia
-Ativos: BAC
-Como falar: 'a BAC protocolou 8-K na SEC (5.02 entrada ou saida de diretor ou conselheiro)'
-Fonte: SEC EDGAR 2026-10-21
-ids: E04-BAC-26000494-2026-10-21
+(pendente de slot anterior) [CRÍTICO] T05 · 6 ativos: SMH, SOXX, AMD, GFS, NOK, VALE3
+· SMH -6,0% no dia a US$ 523,35: movimento de 3,5 desvios para uma vol de 20 dias de 28% a.a.
+  1m -14% · 6m +8,6% · YTD +45%
+· SOXX -6,8% no dia a US$ 475,69: movimento de 3,5 desvios para uma vol de 20 dias de 32% a.a.
+  1m -17% · 6m +8,0% · YTD +58%
+· AMD -8,1% no dia a US$ 507,93: movimento de 3,0 desvios para uma vol de 20 dias de 44% a.a.
+  1m -19% · 6m +66% · YTD +137%
+· GFS -9,1% no dia a US$ 43,37: movimento de 3,8 desvios para uma vol de 20 dias de 40% a.a.
+  1m -9,3% · 6m -29% · YTD +25%
+· NOK -15% no dia a US$ 7,88: movimento de 4,9 desvios para uma vol de 20 dias de 52% a.a.
+  1m -27% · 6m -24% · YTD +22%
+· VALE3 -4,0% no dia a R$ 61,49: movimento de 3,3 desvios para uma vol de 20 dias de 19% a.a.
+  1m -16% · 6m -26% · YTD -12%
+Por que importa: acima de 3 desvios o movimento sai do ruído e costuma vir de fato novo ou fluxo forçado
+Como falar: 'o movimento de hoje é atípico para este papel; antes de mexer, saber o motivo'
+Fonte: Yahoo Finance fech. 22/10
+ids: T05-SMH-queda-2026-10-22, T05-SOXX-queda-2026-10-22, T05-AMD-queda-2026-10-22, T05-GFS-queda-2026-10-22, T05-NOK-queda-2026-10-22, T05-VALE3-queda-2026-10-22
 
-(pendente de slot anterior) [ATENÇÃO] E05 · BAC · Bank of America Corporation (BAC) Declares $0.32 Q4 Common Dividend
-TradingView (Reuters) · 21/10 17h15 · fonte única · licença: manchete
-Link: https://www.tradingview.com/news/tradingview:db07f9d132181:0-bank-of-america-corporation-bac-declares-0-32-q4-common-dividend/
-Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
-Ativos: BAC
-Como falar: 'saiu no TradingView (Reuters): Bank of America Corporation (BAC) Declares $0.32 Q4 Common Dividend; confirmar o número no texto antes de repassar'
-Fonte: TradingView (Reuters) 21/10 17h15
-ids: E05-BAC-b26d1862ad-2026-10-21
-
-(pendente de slot anterior) [ATENÇÃO] E05 · INTC · Veteran Bank Cuts Intel Stock Price Target Ahead of Earnings
-TradingView (Reuters) · 21/10 15h18 · fonte única · licença: manchete
-Link: https://www.tradingview.com/news/gurufocus:2870912d8094b:0-veteran-bank-cuts-intel-stock-price-target-ahead-of-earnings/
+(pendente de slot anterior) [ATENÇÃO] E05 · BBDC4 · Lucro do Bradesco (BBDC4) avança a R$ 7,1 bilhões no 3T26, em linha com as expectativas
+Money Times · 22/10 18h04 · + Seu Dinheiro · licença: integral
+Do texto:
+  – Com o resultado, o banco completa o 11º trimestre consecutivo de melhora desde o início do turnaround iniciado nos últimos anos.
+  – O retorno sobre o patrimônio líquido médio (ROAE) ficou em 16,1%, levemente acima da expectativa de 15,9%.
+  – O indicador recuou 0,1 ponto percentual em relação ao trimestre anterior, mas subiu 1,4 p.p. na comparação com o terceiro trimestre de 2025.
+  – A carteira de crédito expandida cresceu 11,1% em relação ao mesmo período do ano passado e 1,1% frente ao trimestre anterior, alcançando R$ 1,15 trilhão.
+  – Já o índice de inadimplência acima de 90 dias avançou 0,5 ponto percentual em 12 meses e 0,3 p.p. na comparação trimestral, encerrando setembro em 4,6%.
+  – Os recursos reservados para cobrir possíveis perdas com empréstimos saltaram 24,3% na comparação anual e avançaram 6,6% frente ao trimestre anterior, somando R$ 10,6 bilhões.
+Link: https://www.moneytimes.com.br/lucro-do-bradesco-bbdc4-3t26-rentabilidade-roe-expectativas-miql/
 Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
-Ativos: INTC
-Como falar: 'saiu no TradingView (Reuters): Veteran Bank Cuts Intel Stock Price Target Ahead of Earnings; confirmar o número no texto antes de repassar'
-Fonte: TradingView (Reuters) 21/10 15h18
-ids: E05-INTC-090b4aa9ce-2026-10-21
+Ativos: BBDC4
+Como falar: 'saiu no Money Times: Lucro do Bradesco (BBDC4) avança a R$ 7,1 bilhões no 3T26, em linha com as expectativas; confirmar o número no texto antes de repassar'
+Fonte: Money Times 22/10 18h04
+ids: E05-BBDC4-1bed502114-2026-10-22
 
-(pendente de slot anterior) [ATENÇÃO] E05 · AMZN · UBS reiterates 3M stock Buy rating on Amazon deal, growth outlook
-Investing.com · 21/10 11h36 · fonte única · licença: manchete
-Link: https://ca.investing.com/news/stock-market-news/ubs-reiterates-3m-stock-buy-rating-on-amazon-deal-growth-outlook-93CH-4893999
-Por que importa: aquisicao ou venda muda alavancagem, mix de receita e o multiplo; olhar preco pago e financiamento
-Ativos: AMZN · MMM
-Como falar: 'saiu no Investing.com: UBS reiterates 3M stock Buy rating on Amazon deal, growth outlook; confirmar o número no texto antes de repassar'
-Fonte: Investing.com 21/10 11h36
-ids: E05-AMZN-14cff58eb2-2026-10-21
+(pendente de slot anterior) [ATENÇÃO] E05 · BBDC4 · Bradesco (BBDC4) tem lucro líquido recorrente de R$ 7,1 bi no 3º trimestre de 2026
+InfoMoney · 22/10 18h02 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Publicidade O Bradesco (BBDC4) divulgou seus resultados do terceiro trimestre de 2026 (3T26) com lucro líquido recorrente de R$ 7,1 bilhões no período.
+  – O valor ficou 0,8% superior ao observado no último trimestre e subiu 14,6% na comparação anual, informou o banco nesta quinta-feira (22).
+  – A receita também ficou exatamente em linha com as estimativas, registrando R$ 38 bilhões, enquanto as projeções apontavam para R$ 37,7 bilhões.
+  – A margem financeira total avançou 2,4% no trimestre a trimestre, enquanto no ano o crescimento foi de 14,2%.
+  – As despesas de Provisão para Devedores Duvidosos (PDD) expandida ficou em R$ 10,64 bilhões, com alta de 6,6% entre o 2º trimestre e o 3º, e avanço de 24,3% anual.
+Link: https://www.infomoney.com.br/mercados/bradesco-bbdc4-resultados-terceiro-trimestre-2026/
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: BBDC4
+Como falar: 'saiu no InfoMoney: Bradesco (BBDC4) tem lucro líquido recorrente de R$ 7,1 bi no 3º trimestre de 2026; confirmar o número no texto antes de repassar'
+Fonte: InfoMoney 22/10 18h02
+ids: E05-BBDC4-b18bf23339-2026-10-22
 
-[ATENÇÃO] E05 · KO · How Coca-Cola Got Burned With a $5 Billion Bet on Costa Coffee
-Bloomberg · 21/10 10h46 · fonte única · licença: manchete
-Link: https://www.bloomberg.com/news/features/2026-10-21/how-coca-cola-s-5-billion-costa-coffee-deal-went-wrong
-Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
-Ativos: KO
-Como falar: 'saiu no Bloomberg: How Coca-Cola Got Burned With a $5 Billion Bet on Costa Coffee; confirmar o número no texto antes de repassar'
-Fonte: Bloomberg 21/10 10h46
-Push: [ATENÇÃO] KO · How Coca-Cola Got Burned With a $5 Billion Bet on Costa · detalhe na sessão
-ids: E05-KO-a475774f28-2026-10-21
+[ATENÇÃO] E05 · BBDC4 · Bradesco tem lucro líquido de R$7,1 bi no 3º tri, em linha com esperado
+TradingView (Reuters) · 22/10 18h01 · fonte única · licença: manchete
+Link: https://br.tradingview.com/news/reuters.com,2026:newsml_S0N45U05T:0/
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: BBDC4
+Como falar: 'saiu no TradingView (Reuters): Bradesco tem lucro líquido de R$7,1 bi no 3º tri, em linha com esperado; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 22/10 18h01
+Push: [ATENÇÃO] BBDC4 · Bradesco tem lucro líquido de R$7,1 bi no 3º tri, em · detalhe na sessão
+ids: E05-BBDC4-41c002e4e6-2026-10-22
 
 Info (só linha no Fechamento):
-· E05 TSLA · Tesla profits drop but top analyst estimates
-· E05 TSLA · Tesla Beats Estimates as Musk Floats SpaceX Merger
-· E05 META · Update: US Equity Indexes Rise Ahead of Quarterly Earnings From Meta Platforms, Tesla Following Blockbuster SpaceX Results
-· E05 UST · Treasury yields steady as investors await jobless claims
-· T04 MCHI fechou na mínima de 52 semanas: US$ 50,05, -7,3% em 1m e -20% em 12m
-· T04 RARA11 fechou na mínima da série de 66 sessões: R$ 11,99, -25% em 1m e - em 12m
+· E03 BBDC4 · Comunicado ao Mercado: Apresentações a analistas/agentes do mercado
+· E05 BABA · Here’s why Alibaba stock is in a strong sell-off this month
+· T08 SOXX entrou em queda de -25% do pico: -27% do pico de 52s (US$ 655,01 em 22/06) a US$ 475,69
+· T08 WQTM entrou em queda de -30% do pico: -32% do pico de 52s (US$ 47,10 em 02/06) a US$ 32,12
+· T08 LITE entrou em queda de -30% do pico: -34% do pico de 52s (US$ 1.133 em 06/10) a US$ 752,54
+· T08 META entrou em queda de -15% do pico: -17% do pico de 52s (US$ 777,59 em 24/09) a US$ 648,85
+· T08 VALE3 entrou em queda de -30% do pico: -32% do pico de 52s (R$ 90,09 em 11/02) a R$ 61,49
+· T13 VIX cruzou 20: 20,1 (+20% no dia)
+· T01 LITE fechou abaixo da média de 200 dias pela 1ª sessão: US$ 752,54 vs MM200 US$ 786,23 (-4,3%)
+· T01 GOOGL fechou abaixo da média de 200 dias pela 2ª sessão: US$ 324,22 vs MM200 US$ 340,99 (-4,9%)
+· T03 COHR formou death cross: MM50 US$ 290,26 cruzou abaixo da MM200 US$ 295,26 pela 2ª sessão; preço US$ 207,82, -30% da MM200, +80% em 12m
+· T03 NOK formou death cross: MM50 US$ 10,17 cruzou abaixo da MM200 US$ 10,24 pela 2ª sessão; preço US$ 7,88, -23% da MM200, +42% em 12m
+· T04 REMX fechou na mínima de 52 semanas: US$ 51,60, -27% em 1m e -24% em 12m
+· T06 NOK -18% em 5 sessões a US$ 7,88: movimento de 2,7 desvios para a vol de 20 dias
+· T06 GOOGL -7,2% em 5 sessões a US$ 324,22: movimento de 2,8 desvios para a vol de 20 dias
+· T06 VALE3 -7,4% em 5 sessões a R$ 61,49: movimento de 2,8 desvios para a vol de 20 dias
+· T09 NOK -15% com volume 2,9x a mediana de 20 sessões, a US$ 7,88
+· T10 REMX no mínimo de força relativa em 63 sessões contra SPX: -23% vs -0,5% em 20 sessões (-22% relativo)
+· T10 NOK no mínimo de força relativa em 63 sessões contra SPX: -24% vs -0,5% em 20 sessões (-24% relativo)
+· T10 VALE3 no mínimo de força relativa em 63 sessões contra IBOV: -14% vs +9,9% em 20 sessões (-22% relativo)
 
-Suprimidos pelo teto (viram linha do Fechamento): T04-MCHI-minima-2026-10-21 (teto de atenção), T04-RARA11-minima-2026-10-21 (teto de atenção)
+Suprimidos pelo teto (viram linha do Fechamento): T08-SOXX--25-2026-10-22 (teto diário de críticos), T08-WQTM--30-2026-10-22 (teto diário de críticos), T08-LITE--30-2026-10-22 (teto diário de críticos), T08-META--15-2026-10-22 (teto diário de críticos), T08-VALE3--30-2026-10-22 (teto diário de críticos), T13-VIX-vix20-2026-10-22 (teto de atenção), T01-LITE-perda-2026-10-22 (teto de atenção), T01-GOOGL-perda-2026-10-22 (teto de atenção), T03-COHR-death-2026-10-22 (teto de atenção), T03-NOK-death-2026-10-22 (teto de atenção), T04-REMX-minima-2026-10-22 (teto de atenção), T06-NOK-queda-2026-10-22 (teto de atenção), T06-GOOGL-queda-2026-10-22 (teto de atenção), T06-VALE3-queda-2026-10-22 (teto de atenção), T09-NOK-queda-2026-10-22 (teto de atenção), T10-REMX-mínimo-2026-10-22 (teto de atenção), T10-NOK-mínimo-2026-10-22 (teto de atenção), T10-VALE3-mínimo-2026-10-22 (teto de atenção)
 
 Alertas do dia (todos, com status):
-· pendente  T08 MRVE3 — MRVE3 entrou em bear técnico: -21% do pico de 52s (R$ 10,43 em 26/02) a R$ 8,23
-· pendente  E05 KO — KO · How Coca-Cola Got Burned With a $5 Billion Bet on Costa Coffee
-· linha     T04 MCHI — MCHI fechou na mínima de 52 semanas: US$ 50,05, -7,3% em 1m e -20% em 12m
-· linha     T04 RARA11 — RARA11 fechou na mínima da série de 66 sessões: R$ 11,99, -25% em 1m e - em 12m
-· pendente  E04 BAC — BAC · 8-K: 5.02 entrada ou saida de diretor ou conselheiro
-· pendente  E05 BAC — BAC · Bank of America Corporation (BAC) Declares $0.32 Q4 Common Dividend
-· pendente  E05 INTC — INTC · Veteran Bank Cuts Intel Stock Price Target Ahead of Earnings
-· pendente  E05 AMZN — AMZN · UBS reiterates 3M stock Buy rating on Amazon deal, growth outlook
+· pendente  C07 UST — UST FECHOU: 2y -16 bps · 10y -17 bps · 30y -13 bps (22/10)
+· pendente  T05 AMD — AMD -8,1% no dia a US$ 507,93: movimento de 3,0 desvios para uma vol de 20 dias 
+· pendente  T05 GFS — GFS -9,1% no dia a US$ 43,37: movimento de 3,8 desvios para uma vol de 20 dias d
+· pendente  T05 NOK — NOK -15% no dia a US$ 7,88: movimento de 4,9 desvios para uma vol de 20 dias de 
+· linha     T08 SOXX — SOXX entrou em queda de -25% do pico: -27% do pico de 52s (US$ 655,01 em 22/06) 
+· linha     T08 WQTM — WQTM entrou em queda de -30% do pico: -32% do pico de 52s (US$ 47,10 em 02/06) a
+· linha     T08 LITE — LITE entrou em queda de -30% do pico: -34% do pico de 52s (US$ 1.133 em 06/10) a
+· linha     T08 VALE3 — VALE3 entrou em queda de -30% do pico: -32% do pico de 52s (R$ 90,09 em 11/02) a
+· pendente  E05 BBDC4 — BBDC4 · Bradesco tem lucro líquido de R$7,1 bi no 3º tri, em linha com esperado
+· linha     T01 LITE — LITE fechou abaixo da média de 200 dias pela 1ª sessão: US$ 752,54 vs MM200 US$ 
+· linha     T01 GOOGL — GOOGL fechou abaixo da média de 200 dias pela 2ª sessão: US$ 324,22 vs MM200 US$
+· linha     T03 COHR — COHR formou death cross: MM50 US$ 290,26 cruzou abaixo da MM200 US$ 295,26 pela 
+· linha     T03 NOK — NOK formou death cross: MM50 US$ 10,17 cruzou abaixo da MM200 US$ 10,24 pela 2ª 
+· linha     T04 REMX — REMX fechou na mínima de 52 semanas: US$ 51,60, -27% em 1m e -24% em 12m
+· pendente  T05 SMH — SMH -6,0% no dia a US$ 523,35: movimento de 3,5 desvios para uma vol de 20 dias 
+· pendente  T05 SOXX — SOXX -6,8% no dia a US$ 475,69: movimento de 3,5 desvios para uma vol de 20 dias
+· pendente  T05 VALE3 — VALE3 -4,0% no dia a R$ 61,49: movimento de 3,3 desvios para uma vol de 20 dias 
+· linha     T08 META — META entrou em queda de -15% do pico: -17% do pico de 52s (US$ 777,59 em 24/09) 
+· linha     T06 NOK — NOK -18% em 5 sessões a US$ 7,88: movimento de 2,7 desvios para a vol de 20 dias
+· linha     T06 GOOGL — GOOGL -7,2% em 5 sessões a US$ 324,22: movimento de 2,8 desvios para a vol de 20
+· linha     T06 VALE3 — VALE3 -7,4% em 5 sessões a R$ 61,49: movimento de 2,8 desvios para a vol de 20 d
+· linha     T09 NOK — NOK -15% com volume 2,9x a mediana de 20 sessões, a US$ 7,88
+· linha     T10 REMX — REMX no mínimo de força relativa em 63 sessões contra SPX: -23% vs -0,5% em 20 s
+· linha     T10 NOK — NOK no mínimo de força relativa em 63 sessões contra SPX: -24% vs -0,5% em 20 se
+· linha     T10 VALE3 — VALE3 no mínimo de força relativa em 63 sessões contra IBOV: -14% vs +9,9% em 20
+· pendente  E05 BBDC4 — BBDC4 · Lucro do Bradesco (BBDC4) avança a R$ 7,1 bilhões no 3T26, em linha com 
+· pendente  E05 BBDC4 — BBDC4 · Bradesco (BBDC4) tem lucro líquido recorrente de R$ 7,1 bi no 3º trimest
 · linha     S01 SISTEMA — coleta do slot fechamento saiu incompleta: tesouro: falha: ValueError: cabecalho
-· expirado  E05 AMZN — AMZN · UBS reiterates 3M stock Buy rating on Amazon deal, growth outlook
-· expirado  E05 BBDC4 — BBDC4 · Bradesco (BBDC4): mercado prevê alta no lucro no 3T26, mas inadimplência
-· expirado  E05 BBDC4 — BBDC4 · Bradesco (BBDC4) corrige após recorde; ação ainda tem espaço para subir?
-· entregue  E01 NOK — NOK: resultado sai na próxima sessão (22/10)
-· entregue  E03 SBSP3 — SBSP3 · Fato Relevante: (11) 2763-6504 | ri.emae.com.br A Companhia de Saneament
-· entregue  E05 MMM — MMM · MMM Q3 Deep Dive: Data Center Momentum and Productivity Drive Upgraded Out
-· entregue  E05 TSLA — TSLA · Elon Musk Teases Tesla Merger and $1 Trillion Milestone for SpaceX
-· entregue  E05 AXIA3 — AXIA3 · Oferta de consumidores da Axia para resposta da demanda soma 15 MW
+· linha     T13 VIX — VIX cruzou 20: 20,1 (+20% no dia)
+· entregue  E05 NOK — NOK · Nokia Sinks 9% on Q3 Beat as It Holds Outlook, Cuts Cash Flow View: “Growt
+· entregue  E05 KO — KO · Unstoppable Momentum? Coca-Cola Aims for Flawless Earnings Streak as Q3 Sal
+· entregue  E05 TSLA — TSLA · Top Midday Stories: Meta Credit Risk Gauge Hits Record High Amid AI Spend
+· entregue  E05 BTC — BTC · Bitcoin Slides From $84,900 to $82,200 as Oil Jumps on Iran Strike Plans: 
+· entregue  E05 UGPA3 — UGPA3 · JPMorgan rebaixa Ultrapar para neutro e reitera recomendação de compra p
+· entregue  E05 NOK — NOK · Nokia Q3 Comparable Earnings, Sales Rise; Issues Q3 Sales Growth Outlook
+· entregue  E01 CVX — CVX: resultado sai na próxima sessão (23/10)
+· entregue  E05 TSLA — TSLA · Tesla Cuts Capex Guidance, Meta Hikes AI Spending Outlook, Announces New 
+· entregue  E05 NOK — NOK · Nokia Q3 profit rises on AI-driven network demand, outlook unchanged
+· entregue  E05 TSLA — TSLA · Tesla Asian supplier shares fall after mixed Q3 earnings, cautious outloo
 · entregue  S01 SISTEMA — coleta do slot manha saiu incompleta: tesouro: falha: ValueError: cabecalho ines
-· linha     T01 QANT — QANT fechou abaixo da média de 200 dias pela 2ª sessão: US$ 5,65 vs MM200 US$ 5,
-· linha     T03 EQTL3 — EQTL3 formou golden cross: MM50 R$ 40,68 cruzou acima da MM200 R$ 40,31 pela 2ª 
-· linha     T02 GOOGL — GOOGL perdeu a MM50 pela 2ª sessão: US$ 334,76, já abaixo da MM200 (confirma ten
-· linha     T02 MELI34 — MELI34 retomou a MM100 pela 2ª sessão: R$ 78,00, ainda abaixo da MM200 (repique 
-· linha     T02 DIRR3 — DIRR3 retomou a MM50 pela 2ª sessão: R$ 11,46, ainda abaixo da MM200 (repique de
-· linha     T02 BTC — BTC retomou a MM50 pela 2ª sessão: US$ 84.620, acima da MM200 (tendência longa p
-· linha     T07 VALE3 — VALE3 entrou em sobrevendido: RSI14 24 a R$ 64,03
-· linha     T10 BAC — BAC no mínimo de força relativa em 63 sessões contra SPX: -9,3% vs +0,7% em 20 s
-· linha     T11 INTC — INTC descolou atrás de GFS: -24% vs +2,8% em 20 sessões (z -2,2 em 252 sessões, 
-· (+69 notícias só manchete, em noticias.md)
+· linha     T01 TSLA — TSLA fechou abaixo da média de 200 dias pela 1ª sessão: US$ 374,58 vs MM200 US$ 
+· linha     T04 KO — KO fechou na máxima de 52 semanas: US$ 95,34, +7,6% em 1m e +38% em 12m
+· linha     T02 WUTI — WUTI (State Street SPDR MSCI World Utilities UCITS ETF (USD)) retomou a MM50 pel
+· linha     T02 IGV — IGV retomou a MM50 pela 2ª sessão: US$ 108,72, acima da MM200 (tendência longa p
+· linha     T09 QANT — QANT -1,3% com volume 3,1x a mediana de 20 sessões, a US$ 5,57
+· linha     T10 QTUM — QTUM no mínimo de força relativa em 63 sessões contra SPX: -11% vs -0,5% em 20 s
+· linha     T10 KO — KO no máximo de força relativa em 63 sessões contra SPX: +8,2% vs -0,5% em 20 se
+· linha     T10 CVX — CVX no máximo de força relativa em 63 sessões contra SPX: +10% vs -0,5% em 20 se
+· linha     F03 BRENT — Brent sobe a US$ 112,87 (+3,7% no dia · cruzou US$ 110)
+· linha     F05 BHKP — Celulose (proxy SHFE, fibra longa) -3,1% na semana: 4.632 CNY/t (22/10)
+· (+145 notícias só manchete, em noticias.md)
 

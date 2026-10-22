@@ -1,8 +1,17 @@
-NOTÍCIAS E FATOS · 22/10 18h13
+NOTÍCIAS E FATOS · 22/10 18h24
 
-Pernas: noticias ok 16 novas (18 consultas; descartadas: 437 veículo fora da lista, 34 sem ativo, 3 teto) · cvm ok 1 novos de 7 (5 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 2 novas (18 consultas; descartadas: 452 veículo fora da lista, 30 sem ativo, 0 teto) · cvm ok 1 novos de 8 (5 cias casadas) · sec ok 0 novos em 3 dias
 
-## FATOS RELEVANTES E COMUNICADOS (CVM) (1)
+## FATOS RELEVANTES E COMUNICADOS (CVM) (2)
+
+[INFO] E03 · BBDC4 · Comunicado ao Mercado: Apresentações a analistas/agentes do mercado
+CVM · entregue 22/10/2026 18:18 · Apresentações a analistas/agentes do mercado
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1579526
+Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; confirma ou nega o que circula
+Ativos: BBDC4
+Como falar: 'a Bradesco publicou comunicado ao mercado sobre Apresentações a analistas/agentes do mercado'
+Fonte: CVM 22/10
+id: E03-BBDC4-1579526-2026-10-22 · status: linha
 
 [INFO] E03 · BBDC4 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
 CVM · entregue 22/10/2026 18:11 · Outros Comunicados Não Considerados Fatos Relevantes
@@ -49,7 +58,16 @@ Fonte: SEC EDGAR 2026-10-22
 id: E04-TSM-26000728-2026-10-22 · status: linha · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (12)
+## NOTÍCIAS COM MATERIALIDADE (13)
+
+[ATENÇÃO] E05 · BBDC4 · Bradesco tem lucro líquido de R$7,1 bi no 3º tri, em linha com esperado
+TradingView (Reuters) · 22/10 18h01 · fonte única · licença: manchete
+Link: https://br.tradingview.com/news/reuters.com,2026:newsml_S0N45U05T:0/
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: BBDC4
+Como falar: 'saiu no TradingView (Reuters): Bradesco tem lucro líquido de R$7,1 bi no 3º tri, em linha com esperado; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 22/10 18h01
+id: E05-BBDC4-41c002e4e6-2026-10-22 · status: pendente
 
 [ATENÇÃO] E05 · BBDC4 · Lucro do Bradesco (BBDC4) avança a R$ 7,1 bilhões no 3T26, em linha com as expectativas
 Money Times · 22/10 18h04 · + Seu Dinheiro · licença: integral
@@ -220,8 +238,9 @@ Fonte: Investing.com 21/10 20h07
 id: E05-TSLA-594bd31921-2026-10-21 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (135)
+## OUTRAS NOTÍCIAS (só manchete) (136)
 
+· BABA Here’s why Alibaba stock is in a strong sell-off this month (TradingView (Reuters)) https://fr.tradingview.com/news/invezz:2659b50ab094b:0-here-s-why-alibaba-stock-is-in-a-strong-sell-off-this-month/
 · USDBRL Cautela eleitoral e exterior derrubam Ibovespa; dólar avança e Nasdaq cai mais de 2% (Exame) https://exame.com/invest/mercados/cautela-eleitoral-e-exterior-derrubam-ibovespa-dolar-avanca-e-nasdaq-cai-mais-de-2/
 · USDBRL Dólar sobe 0,22% e fecha a R$ 5,038; Ibovespa cai 1,15% (Poder360) https://www.poder360.com.br/poder-economia/dolar-sobe-022-e-fecha-a-r-5038-ibovespa-cai-115/
 · LITE Lumentum tumbles 12% amid tech selloff (LITE:NASDAQ) (Seeking Alpha) https://seekingalpha.com/news/4656258-lumentum-tumbles-12-percent-amid-tech-selloff
@@ -281,5 +300,4 @@ id: E05-TSLA-594bd31921-2026-10-21 · status: linha
 · TSLA Tesla Outlook Supported by Self-Driving Software, Robotaxi Growth, RBC Says (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/tesla-outlook-supported-self-driving-154658911.html
 · GOOGL OpenAI Models Land on Google Cloud: Frontier Distribution Goes Multi-Cloud While the Watts Stay Exclusive (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/openai-models-land-google-cloud-151018996.html
 · NOK Nokia Tumbles 10% Despite Data Center-Driven Profit Beat; Ericsson Slips (Yahoo Finance) https://finance.yahoo.com/technology/articles/nokia-tumbles-10-despite-data-145759922.html
-· TSLA Tesla shares slip after capex cut raises doubts over Musk's AI and robotics push (Reuters) https://news.google.com/rss/articles/CBMiwgFBVV95cUxNU2hUYVoxVEgxUmdpSW1qZ0ZlcTJnRUJPLVhjUS12cExoTDBZbFlfNHVmejZoVFhBZ3VxNTc1NThRVkZnVTNvVUJXYThLcTduSjlGVkVlX0xiTDhNSkNjN09lblZJeVZEWW9BZXRqS05PY2tBRUxzU3NaSFlxdDY2V1JGMHBpbFdzRlIwTlRXQ2twVHN5MEhIQjVIMXJQVzlzWHo5aFo2alM4X1hjSlBEcGVlZ0V3WHhrN2cybWxKTU5Edw?oc=5
-· (+75 manchetes; lista completa em eventos/noticias.json)
+· (+76 manchetes; lista completa em eventos/noticias.json)

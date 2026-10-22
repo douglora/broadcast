@@ -1,16 +1,15 @@
-ALERTAS · Fechamento 18h
+ALERTAS · eventos
 
-[CRÍTICO] C07 · UST FECHOU: 2y -16 bps · 10y -17 bps · 30y -13 bps (22/10)
+(pendente de slot anterior) [CRÍTICO] C07 · UST FECHOU: 2y -16 bps · 10y -17 bps · 30y -13 bps (22/10)
 2y 4,65 · 10y 4,96 · 30y 5,29 · 2s10s +31 bps
 Transmissão: IUAA (iShares US Aggregate Bond, duração ~6) ≈ +1,0%; alivia CNDX/RBOT e o real
 Por que importa: o 10 anos americano é a taxa de desconto do mundo; toda nota de estratégia global abre por ele
 Ativos: IUAA ↑ · CNDX ↑ · RBOT ↑ · USD/BRL ↓
 Como falar: 'o juro americano caiu: bond em dólar valoriza e o apetite por risco melhora'
 Fonte: Treasury.gov CMT 22/10
-Push: [CRÍTICO] UST FECHOU · detalhe na sessão
 ids: C07-UST-fechou-2026-10-22
 
-[CRÍTICO] T05 · 6 ativos: SMH, SOXX, AMD, GFS, NOK, VALE3
+(pendente de slot anterior) [CRÍTICO] T05 · 6 ativos: SMH, SOXX, AMD, GFS, NOK, VALE3
 · SMH -6,0% no dia a US$ 523,35: movimento de 3,5 desvios para uma vol de 20 dias de 28% a.a.
   1m -14% · 6m +8,6% · YTD +45%
 · SOXX -6,8% no dia a US$ 475,69: movimento de 3,5 desvios para uma vol de 20 dias de 32% a.a.
@@ -26,10 +25,9 @@ ids: C07-UST-fechou-2026-10-22
 Por que importa: acima de 3 desvios o movimento sai do ruído e costuma vir de fato novo ou fluxo forçado
 Como falar: 'o movimento de hoje é atípico para este papel; antes de mexer, saber o motivo'
 Fonte: Yahoo Finance fech. 22/10
-Push: [CRÍTICO] SMH -6,0% no dia a US$ 523,35 | SOXX -6,8% no dia a US$ 475,69 | AMD -8,1% no dia a US$ 507,93 +3 · detalhe na sessão
 ids: T05-SMH-queda-2026-10-22, T05-SOXX-queda-2026-10-22, T05-AMD-queda-2026-10-22, T05-GFS-queda-2026-10-22, T05-NOK-queda-2026-10-22, T05-VALE3-queda-2026-10-22
 
-[ATENÇÃO] E05 · BBDC4 · Lucro do Bradesco (BBDC4) avança a R$ 7,1 bilhões no 3T26, em linha com as expectativas
+(pendente de slot anterior) [ATENÇÃO] E05 · BBDC4 · Lucro do Bradesco (BBDC4) avança a R$ 7,1 bilhões no 3T26, em linha com as expectativas
 Money Times · 22/10 18h04 · + Seu Dinheiro · licença: integral
 Do texto:
   – Com o resultado, o banco completa o 11º trimestre consecutivo de melhora desde o início do turnaround iniciado nos últimos anos.
@@ -43,10 +41,9 @@ Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; 
 Ativos: BBDC4
 Como falar: 'saiu no Money Times: Lucro do Bradesco (BBDC4) avança a R$ 7,1 bilhões no 3T26, em linha com as expectativas; confirmar o número no texto antes de repassar'
 Fonte: Money Times 22/10 18h04
-Push: Fechamento 18h: 2 alertas de atenção — E05 BBDC4, E05 BBDC4 · detalhe na sessão
 ids: E05-BBDC4-1bed502114-2026-10-22
 
-[ATENÇÃO] E05 · BBDC4 · Bradesco (BBDC4) tem lucro líquido recorrente de R$ 7,1 bi no 3º trimestre de 2026
+(pendente de slot anterior) [ATENÇÃO] E05 · BBDC4 · Bradesco (BBDC4) tem lucro líquido recorrente de R$ 7,1 bi no 3º trimestre de 2026
 InfoMoney · 22/10 18h02 · fonte única · licença: resumo
 Trechos (licença resumo: reescrever, não colar):
   – Publicidade O Bradesco (BBDC4) divulgou seus resultados do terceiro trimestre de 2026 (3T26) com lucro líquido recorrente de R$ 7,1 bilhões no período.
@@ -61,35 +58,25 @@ Como falar: 'saiu no InfoMoney: Bradesco (BBDC4) tem lucro líquido recorrente d
 Fonte: InfoMoney 22/10 18h02
 ids: E05-BBDC4-b18bf23339-2026-10-22
 
+[ATENÇÃO] E05 · BBDC4 · Bradesco tem lucro líquido de R$7,1 bi no 3º tri, em linha com esperado
+TradingView (Reuters) · 22/10 18h01 · fonte única · licença: manchete
+Link: https://br.tradingview.com/news/reuters.com,2026:newsml_S0N45U05T:0/
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: BBDC4
+Como falar: 'saiu no TradingView (Reuters): Bradesco tem lucro líquido de R$7,1 bi no 3º tri, em linha com esperado; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 22/10 18h01
+Push: [ATENÇÃO] BBDC4 · Bradesco tem lucro líquido de R$7,1 bi no 3º tri, em · detalhe na sessão
+ids: E05-BBDC4-41c002e4e6-2026-10-22
+
 Info (só linha no Fechamento):
-· T01 TSLA fechou abaixo da média de 200 dias pela 1ª sessão: US$ 374,58 vs MM200 US$ 386,64 (-3,1%)
-· T04 KO fechou na máxima de 52 semanas: US$ 95,34, +7,6% em 1m e +38% em 12m
-· T02 WUTI (State Street SPDR MSCI World Utilities UCITS ETF (USD)) retomou a MM50 pela 2ª sessão: US$ 68,50, ainda abaixo da MM200 (repique dentro da baixa)
-· T02 IGV retomou a MM50 pela 2ª sessão: US$ 108,72, acima da MM200 (tendência longa preservada)
-· T09 QANT -1,3% com volume 3,1x a mediana de 20 sessões, a US$ 5,57
-· T10 QTUM no mínimo de força relativa em 63 sessões contra SPX: -11% vs -0,5% em 20 sessões (-11% relativo)
-· T10 KO no máximo de força relativa em 63 sessões contra SPX: +8,2% vs -0,5% em 20 sessões (+8,8% relativo)
-· T10 CVX no máximo de força relativa em 63 sessões contra SPX: +10% vs -0,5% em 20 sessões (+11% relativo)
-· E03 BBDC4 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
-· E05 USDBRL · Cautela eleitoral e exterior derrubam Ibovespa; dólar avança e Nasdaq cai mais de 2%
-· E05 USDBRL · Dólar sobe 0,22% e fecha a R$ 5,038; Ibovespa cai 1,15%
-· E05 LITE · Lumentum tumbles 12% amid tech selloff (LITE:NASDAQ)
-· E05 USDBRL · Ibovespa cai 1% com pressão externa e acirramento da disputa entre Flávio e Lula; dólar sobe a R$ 5,03
-· E05 VALE3 · Ibovespa fecha em queda, com exterior, eleição, Vale e bancos; dólar sobe a R$ 5,03
-· E05 GOOGL · Alphabet (GOOGL) vs. MSFT and AMZN: Can AI Investments and Google Cloud Growth Unlock a 26% Upside?
-· E05 PETR4 · A Petrobras, o preço do diesel e as eleições
-· E05 NOK · Why Nokia Sank today
-· E05 PETR4 · Petrobras (PETR4): nenhuma grande petroleira do mundo subiu tanto em outubro. O que explica?
-· E05 INTC · Intel Stocks Fall 5.74% With a Lower Target Before October 29 Earnings
-· E05 NVDA · Nvidia Earnings Are Coming Next Month and the Stock Looks Poised to Dip Regardless of the Outcome
-· E05 LITE · Why is Lumentum stock sliding today? By Investing.com
-· E05 BTC · Bitcoin Price Prediction: Rally Poised to Continue as BTC ETFs Bag $1 Billion
-· E05 INTC · Why is Intel stock sliding today?
+· E03 BBDC4 · Comunicado ao Mercado: Apresentações a analistas/agentes do mercado
+· E05 BABA · Here’s why Alibaba stock is in a strong sell-off this month
 · T08 SOXX entrou em queda de -25% do pico: -27% do pico de 52s (US$ 655,01 em 22/06) a US$ 475,69
 · T08 WQTM entrou em queda de -30% do pico: -32% do pico de 52s (US$ 47,10 em 02/06) a US$ 32,12
 · T08 LITE entrou em queda de -30% do pico: -34% do pico de 52s (US$ 1.133 em 06/10) a US$ 752,54
 · T08 META entrou em queda de -15% do pico: -17% do pico de 52s (US$ 777,59 em 24/09) a US$ 648,85
 · T08 VALE3 entrou em queda de -30% do pico: -32% do pico de 52s (R$ 90,09 em 11/02) a R$ 61,49
+· T13 VIX cruzou 20: 20,1 (+20% no dia)
 · T01 LITE fechou abaixo da média de 200 dias pela 1ª sessão: US$ 752,54 vs MM200 US$ 786,23 (-4,3%)
 · T01 GOOGL fechou abaixo da média de 200 dias pela 2ª sessão: US$ 324,22 vs MM200 US$ 340,99 (-4,9%)
 · T03 COHR formou death cross: MM50 US$ 290,26 cruzou abaixo da MM200 US$ 295,26 pela 2ª sessão; preço US$ 207,82, -30% da MM200, +80% em 12m
@@ -102,10 +89,8 @@ Info (só linha no Fechamento):
 · T10 REMX no mínimo de força relativa em 63 sessões contra SPX: -23% vs -0,5% em 20 sessões (-22% relativo)
 · T10 NOK no mínimo de força relativa em 63 sessões contra SPX: -24% vs -0,5% em 20 sessões (-24% relativo)
 · T10 VALE3 no mínimo de força relativa em 63 sessões contra IBOV: -14% vs +9,9% em 20 sessões (-22% relativo)
-· S01 coleta do slot fechamento saiu incompleta: tesouro: falha: ValueError: cabecalho inesperado no CSV do Tesouro
-· T13 VIX cruzou 20: 20,1 (+20% no dia)
 
-Suprimidos pelo teto (viram linha do Fechamento): T08-SOXX--25-2026-10-22 (teto diário de críticos), T08-WQTM--30-2026-10-22 (teto diário de críticos), T08-LITE--30-2026-10-22 (teto diário de críticos), T08-META--15-2026-10-22 (teto diário de críticos), T08-VALE3--30-2026-10-22 (teto diário de críticos), T01-LITE-perda-2026-10-22 (teto de atenção), T01-GOOGL-perda-2026-10-22 (teto de atenção), T03-COHR-death-2026-10-22 (teto de atenção), T03-NOK-death-2026-10-22 (teto de atenção), T04-REMX-minima-2026-10-22 (teto de atenção), T06-NOK-queda-2026-10-22 (teto de atenção), T06-GOOGL-queda-2026-10-22 (teto de atenção), T06-VALE3-queda-2026-10-22 (teto de atenção), T09-NOK-queda-2026-10-22 (teto de atenção), T10-REMX-mínimo-2026-10-22 (teto de atenção), T10-NOK-mínimo-2026-10-22 (teto de atenção), T10-VALE3-mínimo-2026-10-22 (teto de atenção), S01-SISTEMA-fechamento-2026-10-22 (teto de atenção), T13-VIX-vix20-2026-10-22 (teto de atenção)
+Suprimidos pelo teto (viram linha do Fechamento): T08-SOXX--25-2026-10-22 (teto diário de críticos), T08-WQTM--30-2026-10-22 (teto diário de críticos), T08-LITE--30-2026-10-22 (teto diário de críticos), T08-META--15-2026-10-22 (teto diário de críticos), T08-VALE3--30-2026-10-22 (teto diário de críticos), T13-VIX-vix20-2026-10-22 (teto de atenção), T01-LITE-perda-2026-10-22 (teto de atenção), T01-GOOGL-perda-2026-10-22 (teto de atenção), T03-COHR-death-2026-10-22 (teto de atenção), T03-NOK-death-2026-10-22 (teto de atenção), T04-REMX-minima-2026-10-22 (teto de atenção), T06-NOK-queda-2026-10-22 (teto de atenção), T06-GOOGL-queda-2026-10-22 (teto de atenção), T06-VALE3-queda-2026-10-22 (teto de atenção), T09-NOK-queda-2026-10-22 (teto de atenção), T10-REMX-mínimo-2026-10-22 (teto de atenção), T10-NOK-mínimo-2026-10-22 (teto de atenção), T10-VALE3-mínimo-2026-10-22 (teto de atenção)
 
 Alertas do dia (todos, com status):
 · pendente  C07 UST — UST FECHOU: 2y -16 bps · 10y -17 bps · 30y -13 bps (22/10)
@@ -116,6 +101,7 @@ Alertas do dia (todos, com status):
 · linha     T08 WQTM — WQTM entrou em queda de -30% do pico: -32% do pico de 52s (US$ 47,10 em 02/06) a
 · linha     T08 LITE — LITE entrou em queda de -30% do pico: -34% do pico de 52s (US$ 1.133 em 06/10) a
 · linha     T08 VALE3 — VALE3 entrou em queda de -30% do pico: -32% do pico de 52s (R$ 90,09 em 11/02) a
+· pendente  E05 BBDC4 — BBDC4 · Bradesco tem lucro líquido de R$7,1 bi no 3º tri, em linha com esperado
 · linha     T01 LITE — LITE fechou abaixo da média de 200 dias pela 1ª sessão: US$ 752,54 vs MM200 US$ 
 · linha     T01 GOOGL — GOOGL fechou abaixo da média de 200 dias pela 2ª sessão: US$ 324,22 vs MM200 US$
 · linha     T03 COHR — COHR formou death cross: MM50 US$ 290,26 cruzou abaixo da MM200 US$ 295,26 pela 
@@ -157,4 +143,4 @@ Alertas do dia (todos, com status):
 · linha     T10 CVX — CVX no máximo de força relativa em 63 sessões contra SPX: +10% vs -0,5% em 20 se
 · linha     F03 BRENT — Brent sobe a US$ 112,87 (+3,7% no dia · cruzou US$ 110)
 · linha     F05 BHKP — Celulose (proxy SHFE, fibra longa) -3,1% na semana: 4.632 CNY/t (22/10)
-· (+143 notícias só manchete, em noticias.md)
+· (+145 notícias só manchete, em noticias.md)
