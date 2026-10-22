@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 22/10 12h53
+NOTÍCIAS E FATOS · 22/10 13h23
 
-Pernas: noticias ok 8 novas (18 consultas; descartadas: 443 veículo fora da lista, 25 sem ativo, 0 teto) · cvm ok 0 novos de 6 (4 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 11 novas (18 consultas; descartadas: 446 veículo fora da lista, 35 sem ativo, 1 teto) · cvm ok 0 novos de 6 (4 cias casadas) · sec ok 0 novos em 3 dias
 
 ## SEC (8-K, 6-K, 10-Q, 10-K) (2)
 
@@ -133,8 +133,19 @@ Fonte: Investing.com 21/10 20h07
 id: E05-TSLA-594bd31921-2026-10-21 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (63)
+## OUTRAS NOTÍCIAS (só manchete) (74)
 
+· ITUB4 ITUB4, BBDC4, BBAS3: cenário para os 'bancões' no 3T26 é parecido, avalia analista da TCM Capital (Money Times) https://www.moneytimes.com.br/itub4-bbdc4-bbas3-cenario-para-os-bancoes-no-3t26-e-parecido-avalia-analista-mlem/
+· NOK Nokia CEO Says Supply Squeeze Is ‘A Structural Cost Increase, Not Just A Shortage': NOK Stock Drops To 6-Month Low Despite Q3 Beat (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:aa04da9b5094b:0-nokia-ceo-says-supply-squeeze-is-a-structural-cost-increase-not-just-a-shortage-nok-stock-drops-to-6-month-low-despite-q3-beat/
+· USDBRL Ibovespa cai e dólar sobe com pressão de disputa eleitoral e busca global por segurança (TradingView (Reuters)) https://br.tradingview.com/news/reuters.com,2026:newsml_L1N4680WX:0/
+· GOOGL Alphabet: The Best Way To Invest In AI May Be Closer To The End User (NASDAQ:GOOG) (Seeking Alpha) https://seekingalpha.com/article/4956418-alphabet-the-best-way-to-invest-in-ai-may-be-closer-to-the-end-user
+· BTC Bitcoin ETFs Stage a $1 Billion Comeback, but Ether ETFs Can't Catch a Break: What’s Driving the Divergence? (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:e80c7f0af094b:0-bitcoin-etfs-stage-a-1-billion-comeback-but-ether-etfs-can-t-catch-a-break-what-s-driving-the-divergence/
+· JPM Bank of America vs. JPMorgan Chase: Which Financial Stock Is a Better Buy in 2026? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/bank-america-vs-jpmorgan-chase-145002365.html
+· INTC Intel stock may move 8.3% on Oct. 29 earnings report By Investing.com (Investing.com) https://ca.investing.com/news/stock-market-news/intel-stock-may-move-83-on-oct-29-earnings-report-93CH-4897115
+· META Meta Platforms beat the Street. Here's why analysts are bullish on the stock (CNBC) https://www.cnbc.com/2026/10/22/meta-platforms-beat-the-street-heres-why-analysts-are-bullish-on-the-stock.html
+· UST U.S. Treasury yields drop to 1-month lows on safe-haven flows (Investing.com) https://www.investing.com/news/forex-news/french-yields-breach-5-amid-paris-budget-paralysis-and-nationwide-unrest-4964673
+· BRENT Dólar opera em alta, com avanço nos preços do petróleo e na reta final das eleições no Brasil; Ibovespa cai (g1) https://g1.globo.com/economia/noticia/2026/10/22/dolar-ibovespa.ghtml
+· UST Treasury yields fall sharply as traders seek safety from stock market sell-off (CNBC) https://www.cnbc.com/2026/10/22/treasurys-bonds-ai-yields.html
 · TSLA Watch Stocks Fall as Meta and Tesla Earnings Fail to Support AI Trade (Bloomberg) https://www.bloomberg.com/news/videos/2026-10-22/bloomberg-surveillance-10-22-2026-video
 · DI Fitch: PIB brasileiro perde força em 2027 e Selic termina 2026 em 13,50% — seja qual for o resultado das urnas (Money Times) https://www.moneytimes.com.br/fitch-independentemente-do-resultado-das-urnas-pib-deve-perder-forca-em-2027-selic-fica-1350-2026-jcav/
 · SBSP3 Manutenção emergencial da Sabesp afeta fornecimento de água em diversos bairros de Piraju (g1) https://g1.globo.com/sp/itapetininga-regiao/noticia/2026/10/22/manutencao-emergencial-da-sabesp-afeta-fornecimento-de-agua-em-diversos-bairros-de-piraju.ghtml
@@ -184,15 +195,4 @@ id: E05-TSLA-594bd31921-2026-10-21 · status: linha
 · BRENT Dólar abre em alta, com avanço nos preços do petróleo e na reta final das eleições no Brasil (g1) https://news.google.com/rss/articles/CBMieEFVX3lxTE1sYko1Z2JrSDc3VHVFY1loUS1uRFlUb1AyeE9SU0tfdzNtMXBRYThseFRiaEF1VXN2Q2wzdE5HNjRPeVNaaWs3c1huVlhjSFZZa0xhX3dHcnI4UEJFdXBMOU5JN19GckpYX2NkMGtVYTJjQmw1Ym9kY9IBhwFBVV95cUxPQXdxS0I5WTNvaWZjem1rVVBHQWxwamtHVUstWk9aaEM2eXpEcmxJcjZjTHk0WUJiWVdoeFpoS2ZkY0xsb1NjdkN1YmI3U2ZrU2hDbHFrdHRkTmFyM25yNW5nZVhRd2U4ZDVVbkpPbUlqOEV0WnZBb0R3VFlfSnowZU52NzZTVVU?oc=5
 · ETH Current price of Ethereum for October 22, 2026 (Fortune) https://news.google.com/rss/articles/CBMiaEFVX3lxTE1mLXo4X29JcG8yTjZzQ3JoUEwzbXRkY1dKQ0Y4WDhNTWY4ZHRJRDk1Vkg2eE9MaGRKYWNEYjR2dFJFME81SWdMdmFBejJhdk9qWjBCMWQ4dmx5dzJkV01zQzhONzJnR2s1?oc=5
 · BRENT Bitcoin and ethereum prices today, Thursday, October 22, 2026: Crypto gains wiped out as oil prices stay over $111 a barrel (Yahoo Finance) https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-thursday-october-22-2026-crypto-gains-wiped-out-as-oil-prices-stay-over-111-a-barrel-113128321.html
-· BBDC4 Balanço do Bradesco, arrecadação federal e eleições movem mercado hoje (UOL Economia) https://economia.uol.com.br/colunas/por-dentro-da-bolsa/2026/10/22/balanco-do-bradesco-arrecadacao-federal-pesquisa-datafolha-o-que-move-o-mercado-hoje.htm
-· BBDC4 Bradesco, BradSaúde, Raízen, Braskem, WEG e mais ações para acompanhar nesta quinta (InfoMoney) https://www.infomoney.com.br/mercados/bradesco-bradsaude-raizen-braskem-weg-e-mais-acoes-para-acompanhar-nesta-quinta/
-· BTC Crypto traders seek shelter in bitcoin as altcoins slide and ETF flows wobble (CoinDesk) https://www.coindesk.com/daybook-us/2026/10/22/crypto-traders-seek-shelter-in-bitcoin-as-altcoins-slide-and-etf-flows-wobble
-· MU Micron Posted a $54.23 Billion Quarter and Guided to $61.5 Billion for Next Quarter (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/micron-posted-54-23-billion-111559663.html
-· TSLA Tesla, SpaceX, Meta, IBM, and More Stocks That Explain Today’s Market (Barron's) https://www.barrons.com/articles/stock-movers-aecffefc
-· META Meta Platforms Third-Quarter Results Rise; Issues Strong Revenue Outlook (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/meta-platforms-third-quarter-results-110454824.html
-· TSLA Elon Musk’s SpaceX-Tesla merger math doesn’t add up (Fortune) https://fortune.com/2026/10/22/elon-musk-spacex-tesla-merger-math-doesnt-add-up/
-· USDBRL Mercado local reage a balanços e nova pesquisa Datafolha; Ibovespa em dólar cai nesta quinta-feira (22) (Money Times) https://www.moneytimes.com.br/mercado-local-reage-a-balancos-e-nova-pesquisa-datafolha-ibovespa-em-dolar-cai-nesta-quinta-feira-22-rens/
-· BBDC4 Bradesco (BBDC4) divulga balanço nesta quinta: recuperação continua? (InfoMoney) https://www.infomoney.com.br/mercados/bradesco-bbdc4-divulga-seu-balanco-nesta-5a-a-recuperacao-continuara/
-· BTC Is the 21st Bitcoin’s Unlucky Date? Its Latest Breakout Just Fell Apart (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/21st-bitcoin-unlucky-date-latest-095919613.html
-· BTC Bitcoin ETFs draw $528 million as ether funds snap five-day outflow streak (The Block) https://news.google.com/rss/articles/CBMixwFBVV95cUxObS00cHVoeFZOd2dkSFZaZGlrLWwzLVVmTFI0cXI5TVV5cEZoU28ycmd0OGZabU92My1wUHNQNnZPemtJamdueTRFUWllMGF0bDU2TkVCZVVHd1lBcVdnb3NDMnFRekFtVXBIbEQteHhORVk1UHlOXzE2Q1FHLU1xbkVVSzQ0bG00b1pmanZZbXEzNGhIbEEwZFNDeG1lcnlEbmViOUlRdW1SWGlUcHlZUllsM0RqUkhxbkE0VDlLY1R1LUpBYVZ3?oc=5
-· (+3 manchetes; lista completa em eventos/noticias.json)
+· (+14 manchetes; lista completa em eventos/noticias.json)
