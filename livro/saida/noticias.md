@@ -1,6 +1,18 @@
-NOTÍCIAS E FATOS · 22/10 17h22
+NOTÍCIAS E FATOS · 22/10 18h13
 
-Pernas: noticias ok 14 novas (18 consultas; descartadas: 444 veículo fora da lista, 36 sem ativo, 4 teto) · cvm ok 0 novos de 6 (4 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 16 novas (18 consultas; descartadas: 437 veículo fora da lista, 34 sem ativo, 3 teto) · cvm ok 1 novos de 7 (5 cias casadas) · sec ok 0 novos em 3 dias
+
+## FATOS RELEVANTES E COMUNICADOS (CVM) (1)
+
+[INFO] E03 · BBDC4 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
+CVM · entregue 22/10/2026 18:11 · Outros Comunicados Não Considerados Fatos Relevantes
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1579518
+Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; confirma ou nega o que circula
+Ativos: BBDC4
+Como falar: 'a Bradesco publicou comunicado ao mercado sobre Outros Comunicados Não Considerados Fatos Relevantes'
+Fonte: CVM 22/10
+id: E03-BBDC4-1579518-2026-10-22 · status: linha
+
 
 ## SEC (8-K, 6-K, 10-Q, 10-K) (2)
 
@@ -37,7 +49,38 @@ Fonte: SEC EDGAR 2026-10-22
 id: E04-TSM-26000728-2026-10-22 · status: linha · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (10)
+## NOTÍCIAS COM MATERIALIDADE (12)
+
+[ATENÇÃO] E05 · BBDC4 · Lucro do Bradesco (BBDC4) avança a R$ 7,1 bilhões no 3T26, em linha com as expectativas
+Money Times · 22/10 18h04 · + Seu Dinheiro · licença: integral
+Do texto:
+  – Com o resultado, o banco completa o 11º trimestre consecutivo de melhora desde o início do turnaround iniciado nos últimos anos.
+  – O retorno sobre o patrimônio líquido médio (ROAE) ficou em 16,1%, levemente acima da expectativa de 15,9%.
+  – O indicador recuou 0,1 ponto percentual em relação ao trimestre anterior, mas subiu 1,4 p.p. na comparação com o terceiro trimestre de 2025.
+  – A carteira de crédito expandida cresceu 11,1% em relação ao mesmo período do ano passado e 1,1% frente ao trimestre anterior, alcançando R$ 1,15 trilhão.
+  – Já o índice de inadimplência acima de 90 dias avançou 0,5 ponto percentual em 12 meses e 0,3 p.p. na comparação trimestral, encerrando setembro em 4,6%.
+  – Os recursos reservados para cobrir possíveis perdas com empréstimos saltaram 24,3% na comparação anual e avançaram 6,6% frente ao trimestre anterior, somando R$ 10,6 bilhões.
+Link: https://www.moneytimes.com.br/lucro-do-bradesco-bbdc4-3t26-rentabilidade-roe-expectativas-miql/
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: BBDC4
+Como falar: 'saiu no Money Times: Lucro do Bradesco (BBDC4) avança a R$ 7,1 bilhões no 3T26, em linha com as expectativas; confirmar o número no texto antes de repassar'
+Fonte: Money Times 22/10 18h04
+id: E05-BBDC4-1bed502114-2026-10-22 · status: pendente · íntegra disponível
+
+[ATENÇÃO] E05 · BBDC4 · Bradesco (BBDC4) tem lucro líquido recorrente de R$ 7,1 bi no 3º trimestre de 2026
+InfoMoney · 22/10 18h02 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Publicidade O Bradesco (BBDC4) divulgou seus resultados do terceiro trimestre de 2026 (3T26) com lucro líquido recorrente de R$ 7,1 bilhões no período.
+  – O valor ficou 0,8% superior ao observado no último trimestre e subiu 14,6% na comparação anual, informou o banco nesta quinta-feira (22).
+  – A receita também ficou exatamente em linha com as estimativas, registrando R$ 38 bilhões, enquanto as projeções apontavam para R$ 37,7 bilhões.
+  – A margem financeira total avançou 2,4% no trimestre a trimestre, enquanto no ano o crescimento foi de 14,2%.
+  – As despesas de Provisão para Devedores Duvidosos (PDD) expandida ficou em R$ 10,64 bilhões, com alta de 6,6% entre o 2º trimestre e o 3º, e avanço de 24,3% anual.
+Link: https://www.infomoney.com.br/mercados/bradesco-bbdc4-resultados-terceiro-trimestre-2026/
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: BBDC4
+Como falar: 'saiu no InfoMoney: Bradesco (BBDC4) tem lucro líquido recorrente de R$ 7,1 bi no 3º trimestre de 2026; confirmar o número no texto antes de repassar'
+Fonte: InfoMoney 22/10 18h02
+id: E05-BBDC4-b18bf23339-2026-10-22 · status: pendente
 
 [ATENÇÃO] E05 · NOK · Nokia Sinks 9% on Q3 Beat as It Holds Outlook, Cuts Cash Flow View: “Growth Is Accelerating”
 Yahoo Finance · 22/10 14h38 · fonte única · licença: resumo
@@ -177,8 +220,22 @@ Fonte: Investing.com 21/10 20h07
 id: E05-TSLA-594bd31921-2026-10-21 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (121)
+## OUTRAS NOTÍCIAS (só manchete) (135)
 
+· USDBRL Cautela eleitoral e exterior derrubam Ibovespa; dólar avança e Nasdaq cai mais de 2% (Exame) https://exame.com/invest/mercados/cautela-eleitoral-e-exterior-derrubam-ibovespa-dolar-avanca-e-nasdaq-cai-mais-de-2/
+· USDBRL Dólar sobe 0,22% e fecha a R$ 5,038; Ibovespa cai 1,15% (Poder360) https://www.poder360.com.br/poder-economia/dolar-sobe-022-e-fecha-a-r-5038-ibovespa-cai-115/
+· LITE Lumentum tumbles 12% amid tech selloff (LITE:NASDAQ) (Seeking Alpha) https://seekingalpha.com/news/4656258-lumentum-tumbles-12-percent-amid-tech-selloff
+· USDBRL Ibovespa cai 1% com pressão externa e acirramento da disputa entre Flávio e Lula; dólar sobe a R$ 5,03 (Money Times) https://www.moneytimes.com.br/ibovespa-22-10-26-lils/
+· VALE3 Ibovespa fecha em queda, com exterior, eleição, Vale e bancos; dólar sobe a R$ 5,03 (InfoMoney) https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-22102026/
+· GOOGL Alphabet (GOOGL) vs. MSFT and AMZN: Can AI Investments and Google Cloud Growth Unlock a 26% Upside? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/alphabet-googl-vs-msft-amzn-202624782.html
+· PETR4 A Petrobras, o preço do diesel e as eleições (O Globo) https://oglobo.globo.com/blogs/lauro-jardim/post/2026/10/a-petrobras-o-preco-do-diesel-e-as-eleicoes.ghtml
+· NOK Why Nokia Sank today (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/why-nokia-sank-today-201031320.html
+· PETR4 Petrobras (PETR4): nenhuma grande petroleira do mundo subiu tanto em outubro. O que explica? (Money Times) https://www.moneytimes.com.br/petrobras-petr4-nenhuma-outra-grande-petroleira-do-mundo-se-valorizou-tanto-em-outubro-o-que-explica-bdap/
+· INTC Intel Stocks Fall 5.74% With a Lower Target Before October 29 Earnings (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/intel-stocks-fall-5-74-182538077.html
+· NVDA Nvidia Earnings Are Coming Next Month and the Stock Looks Poised to Dip Regardless of the Outcome (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/nvidia-earnings-coming-next-month-173700760.html
+· LITE Why is Lumentum stock sliding today? By Investing.com (Investing.com) https://za.investing.com/news/stock-market-news/why-is-lumentum-stock-sliding-today-93CH-4519948
+· BTC Bitcoin Price Prediction: Rally Poised to Continue as BTC ETFs Bag $1 Billion (Yahoo Finance) https://news.google.com/rss/articles/CBMipAFBVV95cUxNZTFPLXZUV2ZxQ243SU4zT05kLTVFRUU1WjNxQjBEbG13YjNoeTBwb3l5U09fNG5aWXIxb2xOTTRpMlk5Y1pnZF9laWczRlB6YmdsTHlkMlhCMUdCdW0wWm5xLVpIajlicE5HYmxDcUw4Ykt6dUtPem5KN05kd3FQZ0l1Y0lILW1UVVNkU0FtY1dSS2Qyd01jclNTR2QtSmY2RTNuTw?oc=5
+· INTC Why is Intel stock sliding today? (Investing.com) https://news.google.com/rss/articles/CBMimgFBVV95cUxNbWxhdnI3aEpUaF9wQnAwbURnUVNlS3B2MjJlTllwRWh2YVRGdXlRMlNvcGxFNDdvRzZ3T3NNYWREdW05UUVjVzRIUnBLSWhBcXllR3I4dHdmalViVkRxV3dSdUk3MzhORzdsVWgtOEtrOGJvLU1fMmY2Vmc5UDQySHNnRzZBcVVlWk90MTFESmRMVjJkN2RsZXV3?oc=5
 · USDBRL Dólar sobe com incertezas eleitorais e cautela dos investidores às vésperas do segundo turno (ADVFN) https://br.advfn.com/jornal/2026/10/dolar-sobe-com-incertezas-eleitorais-e-cautela-dos-investidores-as-vesperas-do-segundo-turno
 · USDBRL Dólar fecha com leve alta; Bolsa cai com eleição e tensão no exterior (UOL Economia) https://economia.uol.com.br/noticias/redacao/2026/10/22/dolar-fecha-a-r-5038-bolsa-cai-com-eleicao-e-tensao-no-exterior.amp.htm
 · USDBRL Dólar à vista fecha em alta de 0,22%, a R$5,0384 na venda Por Reuters (Investing.com) https://br.investing.com/news/forex-news/dolar-a-vista-fecha-em-alta-de-022-a-r50384-na-venda-2100286
@@ -225,18 +282,4 @@ id: E05-TSLA-594bd31921-2026-10-21 · status: linha
 · GOOGL OpenAI Models Land on Google Cloud: Frontier Distribution Goes Multi-Cloud While the Watts Stay Exclusive (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/openai-models-land-google-cloud-151018996.html
 · NOK Nokia Tumbles 10% Despite Data Center-Driven Profit Beat; Ericsson Slips (Yahoo Finance) https://finance.yahoo.com/technology/articles/nokia-tumbles-10-despite-data-145759922.html
 · TSLA Tesla shares slip after capex cut raises doubts over Musk's AI and robotics push (Reuters) https://news.google.com/rss/articles/CBMiwgFBVV95cUxNU2hUYVoxVEgxUmdpSW1qZ0ZlcTJnRUJPLVhjUS12cExoTDBZbFlfNHVmejZoVFhBZ3VxNTc1NThRVkZnVTNvVUJXYThLcTduSjlGVkVlX0xiTDhNSkNjN09lblZJeVZEWW9BZXRqS05PY2tBRUxzU3NaSFlxdDY2V1JGMHBpbFdzRlIwTlRXQ2twVHN5MEhIQjVIMXJQVzlzWHo5aFo2alM4X1hjSlBEcGVlZ0V3WHhrN2cybWxKTU5Edw?oc=5
-· BRENT Ibovespa hoje cai mais de 1% com pesquisa eleitoral e petróleo a US$ 112; Vale afunda 3% (Estadao) https://news.google.com/rss/articles/CBMi4gFBVV95cUxPVWNXSURtYjFDR3NJaWdhWHBoRjdCT3hFR29DQzYweGRLVDFlaXRzX2Y5LXJmUjlRQUZSR24wTkNDSTlseVVWYm1Vd3ZwUl85Uk9tdk5faTdRLXp6ZU5NODVwOVlIWUZiV2NfVTVpYzZTcUVaMk55Y2xhVGJmMUsyMnFpQzRVbVM5ZEFndExSLXYybFh0dENoNTZzaVdET1JKZl9BVjFuVERVNXpXcXhhS2NWUzcyZU1GLXAzYTE2S2twNUI4aEFDN2pIY0FHbFBJQ2RZalJzY3lYR2t4cnZSSGV30gHnAUFVX3lxTE1JQ1pibGlaTExucGduNno1dVZiTlc5amlVQ3NMRGRPV3lXdC1HNEdwdU92bnZreFFiNjZwZkhuRXZqVTFwWGNjQnctOExOTEtKSUpRa2F2TmNCdi1OU1NiaFo2aVBMY1YxdDR0dVh5aE1IZ01xa0tickE4N2ZYdjlQbS1fRE1ZbXRYV3BHQnlZTjRlOTdaRmc5QlNNa2l0NHJpa3YzMTl6VWw1akJmd1dKNjIzUl9FRTBybko0TU5oamUzNm1DSGt3bkhvS2xTazFZNDNxaVd3blpTQVM0aDZ6MmFNanhKRQ?oc=5
-· ITUB4 ITUB4, BBDC4, BBAS3: cenário para os 'bancões' no 3T26 é parecido, avalia analista da TCM Capital (Money Times) https://www.moneytimes.com.br/itub4-bbdc4-bbas3-cenario-para-os-bancoes-no-3t26-e-parecido-avalia-analista-mlem/
-· NOK Nokia CEO Says Supply Squeeze Is ‘A Structural Cost Increase, Not Just A Shortage': NOK Stock Drops To 6-Month Low Despite Q3 Beat (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:aa04da9b5094b:0-nokia-ceo-says-supply-squeeze-is-a-structural-cost-increase-not-just-a-shortage-nok-stock-drops-to-6-month-low-despite-q3-beat/
-· USDBRL Ibovespa cai e dólar sobe com pressão de disputa eleitoral e busca global por segurança (TradingView (Reuters)) https://br.tradingview.com/news/reuters.com,2026:newsml_L1N4680WX:0/
-· GOOGL Alphabet: The Best Way To Invest In AI May Be Closer To The End User (NASDAQ:GOOG) (Seeking Alpha) https://seekingalpha.com/article/4956418-alphabet-the-best-way-to-invest-in-ai-may-be-closer-to-the-end-user
-· BTC Bitcoin ETFs Stage a $1 Billion Comeback, but Ether ETFs Can't Catch a Break: What’s Driving the Divergence? (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:e80c7f0af094b:0-bitcoin-etfs-stage-a-1-billion-comeback-but-ether-etfs-can-t-catch-a-break-what-s-driving-the-divergence/
-· JPM Bank of America vs. JPMorgan Chase: Which Financial Stock Is a Better Buy in 2026? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/bank-america-vs-jpmorgan-chase-145002365.html
-· INTC Intel stock may move 8.3% on Oct. 29 earnings report By Investing.com (Investing.com) https://ca.investing.com/news/stock-market-news/intel-stock-may-move-83-on-oct-29-earnings-report-93CH-4897115
-· META Meta Platforms beat the Street. Here's why analysts are bullish on the stock (CNBC) https://www.cnbc.com/2026/10/22/meta-platforms-beat-the-street-heres-why-analysts-are-bullish-on-the-stock.html
-· UST U.S. Treasury yields drop to 1-month lows on safe-haven flows (Investing.com) https://www.investing.com/news/forex-news/french-yields-breach-5-amid-paris-budget-paralysis-and-nationwide-unrest-4964673
-· BRENT Dólar opera em alta, com avanço nos preços do petróleo e na reta final das eleições no Brasil; Ibovespa cai (g1) https://g1.globo.com/economia/noticia/2026/10/22/dolar-ibovespa.ghtml
-· UST Treasury yields fall sharply as traders seek safety from stock market sell-off (CNBC) https://www.cnbc.com/2026/10/22/treasurys-bonds-ai-yields.html
-· TSLA Watch Stocks Fall as Meta and Tesla Earnings Fail to Support AI Trade (Bloomberg) https://www.bloomberg.com/news/videos/2026-10-22/bloomberg-surveillance-10-22-2026-video
-· DI Fitch: PIB brasileiro perde força em 2027 e Selic termina 2026 em 13,50% — seja qual for o resultado das urnas (Money Times) https://www.moneytimes.com.br/fitch-independentemente-do-resultado-das-urnas-pib-deve-perder-forca-em-2027-selic-fica-1350-2026-jcav/
-· (+61 manchetes; lista completa em eventos/noticias.json)
+· (+75 manchetes; lista completa em eventos/noticias.json)
