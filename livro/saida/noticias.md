@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 22/10 11h25
+NOTÍCIAS E FATOS · 22/10 12h23
 
-Pernas: noticias ok 14 novas (18 consultas; descartadas: 437 veículo fora da lista, 38 sem ativo, 4 teto) · cvm ok 0 novos de 6 (4 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 13 novas (18 consultas; descartadas: 429 veículo fora da lista, 37 sem ativo, 11 teto) · cvm ok 0 novos de 6 (4 cias casadas) · sec ok 0 novos em 3 dias
 
 ## SEC (8-K, 6-K, 10-Q, 10-K) (2)
 
@@ -53,7 +53,7 @@ Por que importa: evento operacional afeta producao e custo no trimestre corrente
 Ativos: BTC
 Como falar: 'saiu no Yahoo Finance: Bitcoin Slides From $84,900 to $82,200 as Oil Jumps on Iran Strike Plans: Is the US-Iran…; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 22/10 05h38
-id: E05-BTC-290ec2d57f-2026-10-22 · status: pendente
+id: E05-BTC-290ec2d57f-2026-10-22 · status: entregue
 
 [ATENÇÃO] E05 · UGPA3 · JPMorgan rebaixa Ultrapar para neutro e reitera recomendação de compra para Vibra
 InfoMoney · 22/10 09h56 · fonte única · licença: resumo
@@ -133,8 +133,21 @@ Fonte: Investing.com 21/10 20h07
 id: E05-TSLA-594bd31921-2026-10-21 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (42)
+## OUTRAS NOTÍCIAS (só manchete) (55)
 
+· ETH Ethereum ETFs Break Five-Day Outflow Run With $14.9 Million Inflows (TradingView (Reuters)) https://www.tradingview.com/news/newsbtc:9583ca315094b:0-ethereum-etfs-break-five-day-outflow-run-with-14-9-million-inflows/
+· BAC Meta Platforms' AI Story Gains Traction After Q3 Revenue Beat, BofA Says (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/meta-platforms-apos-ai-story-145724947.html
+· INTC Intel Stock Could Have a Turnaround Opportunity if These 3 Catalysts Deliver (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/intel-stock-could-turnaround-opportunity-143021395.html
+· BTC Bitcoin ETFs Draw $524.8 Million As BlackRock And Fidelity Lead (TradingView (Reuters)) https://www.tradingview.com/news/newsbtc:022a0cadf094b:0-bitcoin-etfs-draw-524-8-million-as-blackrock-and-fidelity-lead/
+· BABA Alibaba stock outlook: bearish trend with rebound potential (Investing.com) https://www.investing.com/news/stock-market-news/alibaba-stock-outlook-bearish-trend-with-rebound-potential-93CH-4966712
+· BRENT Nasdaq leads Wall Street lower on AI spending jitters; oil prices rebound (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/nasdaq-futures-drop-over-1-093849296.html
+· GOOGL One Reason Alphabet Stock Looks Better Than Its Price (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/one-reason-alphabet-stock-looks-140754006.html
+· TSLA Tesla stock slips despite Q3 earnings beat, better-than-expected capex spend (Yahoo Finance) https://finance.yahoo.com/markets/stocks/article/tesla-stock-slips-despite-q3-earnings-beat-better-than-expected-capex-spend-101521707.html
+· BTC Bitcoin Price Erases Two-Day Gains After $85,000 Rejection: Will it Fall to $80,000? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-price-erases-two-day-140000496.html
+· ETH Ethereum Price Analysis: Can ETH Hold $2,300 Support After a 12% Monthly Drop? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/ethereum-price-analysis-eth-hold-135806976.html
+· LITE Why is Lumentum stock sliding today? (Investing.com) https://in.investing.com/news/stock-market-news/why-is-lumentum-stock-sliding-today-93CH-5648666
+· META Tesla lowers capital expenditures target, IBM recovers from earnings, META AI build-out plans (Yahoo Finance) https://finance.yahoo.com/video/tesla-lowers-capital-expenditures-target-ibm-recovers-from-earnings-meta-ai-build-out-plans-134207957.html
+· NOK Nokia's Q3 Earnings Beat Estimates on AI & Cloud Strength (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/nokias-q3-earnings-beat-estimates-133400001.html
 · INTC Intel stock may move 8.3% on Oct. 29 earnings report By Investing.com (Investing.com) https://ng.investing.com/news/stock-market-news/intel-stock-may-move-83-on-oct-29-earnings-report-93CH-2751995
 · ETH Uniswap's aggregator hooks go live on Ethereum, Base and Robinhood Chain (The Block) https://www.theblock.co/news/defi/2026-10-22-uniswaps-aggregator-hooks-go-live-ethereum-base-robinhood-chain-421932?utm_source=tradingview&utm_medium=rss
 · BTC CryptoQuant CEO calls rising Bitcoin hashrate ‘indirect bullish signal’ from institutions (TradingView (Reuters)) https://www.tradingview.com/news/cointelegraph:0d9133e85094b:0-cryptoquant-ceo-calls-rising-bitcoin-hashrate-indirect-bullish-signal-from-institutions/
