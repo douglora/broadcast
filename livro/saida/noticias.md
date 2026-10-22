@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 22/10 13h23
+NOTÍCIAS E FATOS · 22/10 14h22
 
-Pernas: noticias ok 11 novas (18 consultas; descartadas: 446 veículo fora da lista, 35 sem ativo, 1 teto) · cvm ok 0 novos de 6 (4 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 17 novas (18 consultas; descartadas: 435 veículo fora da lista, 37 sem ativo, 5 teto) · cvm ok 0 novos de 6 (4 cias casadas) · sec ok 0 novos em 3 dias
 
 ## SEC (8-K, 6-K, 10-Q, 10-K) (2)
 
@@ -37,7 +37,35 @@ Fonte: SEC EDGAR 2026-10-22
 id: E04-TSM-26000728-2026-10-22 · status: linha · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (7)
+## NOTÍCIAS COM MATERIALIDADE (9)
+
+[ATENÇÃO] E05 · KO · Unstoppable Momentum? Coca-Cola Aims for Flawless Earnings Streak as Q3 Sales Projections Top $12.9 Billion
+Yahoo Finance · 22/10 14h11 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Quick Read - KO has beaten EPS estimates six straight quarters and shares are up 38% this year, leaving little room for error heading into Q3.
+  – - Analysts expect Q3 EPS of $0.88 and revenue of $12.93 billion, with three upward revisions in the past week and zero downward.
+  – - The critical Q3 test is whether unit case volume holds without World Cup tailwinds after Asia Pacific price/mix fell 9%.
+  – - Read More: Learn 7 ways to generate income with a $1,000,000+ portfolio (sponsor) Coca-Cola (NYSE:KO) reports third-quarter results on October 27 before the market opens.
+  – Coca-Cola has beaten EPS estimates for six straight quarters, and shares are up 38.07% this year.
+  – World Cup Momentum Sets a High Bar Last quarter, Coca-Cola reported EPS of $0.97 against a $0.9323 estimate.
+Link: https://finance.yahoo.com/markets/stocks/articles/unstoppable-momentum-coca-cola-aims-171122145.html
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: KO
+Como falar: 'saiu no Yahoo Finance: Unstoppable Momentum? Coca-Cola Aims for Flawless Earnings Streak as Q3 Sales Projections…; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 22/10 14h11
+id: E05-KO-ca73be572e-2026-10-22 · status: pendente
+
+[ATENÇÃO] E05 · TSLA · Top Midday Stories: Meta Credit Risk Gauge Hits Record High Amid AI Spending Plans; Tesla Q3 Revenue Misses Consensus
+Yahoo Finance · 22/10 12h55 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – All three major US stock indexes were down in late-morning trading Thursday, as concerns mounted amo  Upgrade to read this MT Newswires article and get so much more.
+  – A Silver or Gold subscription plan is required to access premium news articles.
+Link: https://finance.yahoo.com/markets/stocks/articles/top-midday-stories-meta-credit-155537877.html
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: TSLA
+Como falar: 'saiu no Yahoo Finance: Top Midday Stories: Meta Credit Risk Gauge Hits Record High Amid AI Spending Plans; Tesla…; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 22/10 12h55
+id: E05-TSLA-54e767fe1e-2026-10-22 · status: pendente
 
 [ATENÇÃO] E05 · BTC · Bitcoin Slides From $84,900 to $82,200 as Oil Jumps on Iran Strike Plans: Is the US-Iran War About to Restart?
 Yahoo Finance · 22/10 05h38 · fonte única · licença: resumo
@@ -133,8 +161,23 @@ Fonte: Investing.com 21/10 20h07
 id: E05-TSLA-594bd31921-2026-10-21 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (74)
+## OUTRAS NOTÍCIAS (só manchete) (89)
 
+· UST U.S. 10-Year Treasury yield cracks below 5% for the first time in a month as bonds rally (TradingView (Reuters)) https://www.tradingview.com/news/seekingalpha:63d45967d094b:0-u-s-10-year-treasury-yield-cracks-below-5-for-the-first-time-in-a-month-as-bonds-rally/
+· LITE Optics Stocks Tumble as Tech Selloff Deepens Ahead of Earnings: Coherent Tumbles 12%, Applied Optoelectronics Drops 10%, Lumentum Falls 9% (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/optics-stocks-tumble-tech-selloff-171005784.html
+· PETR4 Petrobras terá que subir diesel em até 50%? Goldman aponta impactos em ações e preços (InfoMoney) https://www.infomoney.com.br/mercados/petrobras-petr3-petr4-pode-ter-subir-diesel-ate-cinquenta-porcento-goldman-sachs-quais-impactos-acoes-inflacao/
+· TSLA Tesla earnings analysis: questions answered and next catalysts (Investing.com) https://www.investing.com/news/stock-market-news/tesla-earnings-analysis-questions-answered-and-next-catalysts-93CH-4967048
+· BTC Bitcoin ETFs Erase October Losses With $1 Billion in Three Days (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-etfs-erase-october-losses-163107282.html
+· TSLA Tesla: 3 Key Takeaways for Long-Term Investors (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/tesla-3-key-takeaways-long-163034560.html
+· BTC Prediction: What Would Have to Happen for Bitcoin to Hit $150,000? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/prediction-happen-bitcoin-hit-150-163024713.html
+· TSLA Why Tesla Stock Dropped After Earnings (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/why-tesla-stock-dropped-earnings-162557098.html
+· TSLA Tesla's AI-Related Investments Drive Operating Margin Miss, Truist Says (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/tesla-apos-ai-related-investments-161105193.html
+· AMD Susquehanna Makes Strong Calls on AMD, Intel, Qualcomm (Yahoo Finance) https://finance.yahoo.com/technology/articles/susquehanna-makes-strong-calls-amd-160728619.html
+· TSLA Tesla Outlook Supported by Self-Driving Software, Robotaxi Growth, RBC Says (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/tesla-outlook-supported-self-driving-154658911.html
+· GOOGL OpenAI Models Land on Google Cloud: Frontier Distribution Goes Multi-Cloud While the Watts Stay Exclusive (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/openai-models-land-google-cloud-151018996.html
+· NOK Nokia Tumbles 10% Despite Data Center-Driven Profit Beat; Ericsson Slips (Yahoo Finance) https://finance.yahoo.com/technology/articles/nokia-tumbles-10-despite-data-145759922.html
+· TSLA Tesla shares slip after capex cut raises doubts over Musk's AI and robotics push (Reuters) https://news.google.com/rss/articles/CBMiwgFBVV95cUxNU2hUYVoxVEgxUmdpSW1qZ0ZlcTJnRUJPLVhjUS12cExoTDBZbFlfNHVmejZoVFhBZ3VxNTc1NThRVkZnVTNvVUJXYThLcTduSjlGVkVlX0xiTDhNSkNjN09lblZJeVZEWW9BZXRqS05PY2tBRUxzU3NaSFlxdDY2V1JGMHBpbFdzRlIwTlRXQ2twVHN5MEhIQjVIMXJQVzlzWHo5aFo2alM4X1hjSlBEcGVlZ0V3WHhrN2cybWxKTU5Edw?oc=5
+· BRENT Ibovespa hoje cai mais de 1% com pesquisa eleitoral e petróleo a US$ 112; Vale afunda 3% (Estadao) https://news.google.com/rss/articles/CBMi4gFBVV95cUxPVWNXSURtYjFDR3NJaWdhWHBoRjdCT3hFR29DQzYweGRLVDFlaXRzX2Y5LXJmUjlRQUZSR24wTkNDSTlseVVWYm1Vd3ZwUl85Uk9tdk5faTdRLXp6ZU5NODVwOVlIWUZiV2NfVTVpYzZTcUVaMk55Y2xhVGJmMUsyMnFpQzRVbVM5ZEFndExSLXYybFh0dENoNTZzaVdET1JKZl9BVjFuVERVNXpXcXhhS2NWUzcyZU1GLXAzYTE2S2twNUI4aEFDN2pIY0FHbFBJQ2RZalJzY3lYR2t4cnZSSGV30gHnAUFVX3lxTE1JQ1pibGlaTExucGduNno1dVZiTlc5amlVQ3NMRGRPV3lXdC1HNEdwdU92bnZreFFiNjZwZkhuRXZqVTFwWGNjQnctOExOTEtKSUpRa2F2TmNCdi1OU1NiaFo2aVBMY1YxdDR0dVh5aE1IZ01xa0tickE4N2ZYdjlQbS1fRE1ZbXRYV3BHQnlZTjRlOTdaRmc5QlNNa2l0NHJpa3YzMTl6VWw1akJmd1dKNjIzUl9FRTBybko0TU5oamUzNm1DSGt3bkhvS2xTazFZNDNxaVd3blpTQVM0aDZ6MmFNanhKRQ?oc=5
 · ITUB4 ITUB4, BBDC4, BBAS3: cenário para os 'bancões' no 3T26 é parecido, avalia analista da TCM Capital (Money Times) https://www.moneytimes.com.br/itub4-bbdc4-bbas3-cenario-para-os-bancoes-no-3t26-e-parecido-avalia-analista-mlem/
 · NOK Nokia CEO Says Supply Squeeze Is ‘A Structural Cost Increase, Not Just A Shortage': NOK Stock Drops To 6-Month Low Despite Q3 Beat (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:aa04da9b5094b:0-nokia-ceo-says-supply-squeeze-is-a-structural-cost-increase-not-just-a-shortage-nok-stock-drops-to-6-month-low-despite-q3-beat/
 · USDBRL Ibovespa cai e dólar sobe com pressão de disputa eleitoral e busca global por segurança (TradingView (Reuters)) https://br.tradingview.com/news/reuters.com,2026:newsml_L1N4680WX:0/
@@ -180,19 +223,4 @@ id: E05-TSLA-594bd31921-2026-10-21 · status: linha
 · TSLA Tesla drops as spending pullback clouds AI, robotics ambitions (Reuters) https://www.reuters.com/business/autos-transportation/tesla-drops-spending-pullback-clouds-ai-robotics-ambitions-2026-10-22/
 · BTC DeFi tokens lead crypto lower as bitcoin (BTC) price gives up Wednesday’s surge (CoinDesk) https://www.coindesk.com/markets/2026/10/22/bitcoin-slides-below-usd82-000-as-ai-doubts-return-with-defi-tokens-leading-declines
 · NVDA Needham reiterates Buy rating on NVIDIA, $300 price target (TradingView (Reuters)) https://news.google.com/rss/articles/CBMiugFBVV95cUxNZ2ctcmNVaXZiVWdyRWxXN1hNVlBmZ0RPbXd4dExxRVh2Q3B2ZlI4Zzg0b2s1b1VPZWhraGlFajAwa0hRSkRUcFlMbG1iOWZHMnRYLXFrSk1jYmlzazhkdF8xMlBpSDdBWThKVzh3bXNIVDdYeC1BcFp2UVRwUXRIRlhhclVqRHZYaEIwY3NJaFdzT0hIbmpXWU82OFRJRVo0Y0doWnNLWGd4ZUNnRVhNM0gyV19zdE01Y2c?oc=5
-· USDBRL Ibovespa abre estável com eleições e balanços em foco; dólar sobe (CNN Brasil) https://www.cnnbrasil.com.br/economia/money/mercado/mercado-financeiro-ibovespa-dolar-22-outubro-2026/
-· BBDC4 Bradesco divulga balanço hoje; lucro de R$ 7,1 bi terá teste na inadimplência (Investing.com) https://br.investing.com/news/stock-market-news/bradesco-divulga-balanco-hoje-lucro-de-r-71-bi-tera-teste-na-inadimplencia-2099682
-· TSLA Why Tesla's lower capex plans are worrying investors (Yahoo Finance) https://finance.yahoo.com/video/why-teslas-lower-capex-plans-are-worrying-investors-125310147.html
-· TSM ASML Vs. Taiwan Semiconductor: Who Can More Fully Satisfy AI Demand? (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/asml-vs-taiwan-semiconductor-more-124509753.html
-· USDBRL Dólar abre em alta nesta quinta-feira à espera de pesquisa Datafolha da eleição presidencial (Folha de S.Paulo) https://www1.folha.uol.com.br/mercado/2026/10/dolar-abre-em-alta-nesta-quinta-feira-a-espera-de-pesquisa-datafolha-da-eleicao-presidencial.shtml
-· BRENT Ibovespa hoje: eleições e petróleo a US$ 112 ditam o ritmo dos mercados; dólar sobe a R$ 5,04 (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/ibovespa-enfrenta-novo-teste-com-duas-pesquisas-eleitorais-na-reta-final-do-segundo-turno/
-· TSLA Tesla Stock Plunges After Earnings as Profit Drops 43% (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/tesla-stock-plunges-earnings-profit-122111715.html
-· USDBRL Dólar hoje sobe com força da moeda no exterior e expectativa por pesquisa eleitoral (InfoMoney) https://www.infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-22102026/
-· USDBRL Ibovespa futuro cai à espera de Datafolha e escalada de tensões no Oriente Médio; dólar sobe (Money Times) https://www.moneytimes.com.br/ibovespa-futuro-22-10-26-lils/
-· USDBRL Dólar sobe ante real sob influência do exterior e antes de nova pesquisa eleitoral Por Reuters (Investing.com) https://br.investing.com/news/forex-news/dolar-sobe-ante-real-sob-influencia-do-exterior-e-antes-de-nova-pesquisa-eleitoral-2099530
-· TSLA TSX futures point lower following Meta, Tesla earnings (Investing.com) https://www.investing.com/news/economy-news/tsx-futures-point-lower-following-meta-tesla-earnings-4965848
-· USDBRL Dólar abre em alta, a R$ 5,03, com eleição e balanços influenciando mercado (UOL Economia) https://economia.uol.com.br/cotacoes/noticias/redacao/2026/10/22/dolar-bolsa-abre-hoje-22-de-outubro-de-2026.ghtm
-· BRENT Dólar abre em alta, com avanço nos preços do petróleo e na reta final das eleições no Brasil (g1) https://news.google.com/rss/articles/CBMieEFVX3lxTE1sYko1Z2JrSDc3VHVFY1loUS1uRFlUb1AyeE9SU0tfdzNtMXBRYThseFRiaEF1VXN2Q2wzdE5HNjRPeVNaaWs3c1huVlhjSFZZa0xhX3dHcnI4UEJFdXBMOU5JN19GckpYX2NkMGtVYTJjQmw1Ym9kY9IBhwFBVV95cUxPQXdxS0I5WTNvaWZjem1rVVBHQWxwamtHVUstWk9aaEM2eXpEcmxJcjZjTHk0WUJiWVdoeFpoS2ZkY0xsb1NjdkN1YmI3U2ZrU2hDbHFrdHRkTmFyM25yNW5nZVhRd2U4ZDVVbkpPbUlqOEV0WnZBb0R3VFlfSnowZU52NzZTVVU?oc=5
-· ETH Current price of Ethereum for October 22, 2026 (Fortune) https://news.google.com/rss/articles/CBMiaEFVX3lxTE1mLXo4X29JcG8yTjZzQ3JoUEwzbXRkY1dKQ0Y4WDhNTWY4ZHRJRDk1Vkg2eE9MaGRKYWNEYjR2dFJFME81SWdMdmFBejJhdk9qWjBCMWQ4dmx5dzJkV01zQzhONzJnR2s1?oc=5
-· BRENT Bitcoin and ethereum prices today, Thursday, October 22, 2026: Crypto gains wiped out as oil prices stay over $111 a barrel (Yahoo Finance) https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-thursday-october-22-2026-crypto-gains-wiped-out-as-oil-prices-stay-over-111-a-barrel-113128321.html
-· (+14 manchetes; lista completa em eventos/noticias.json)
+· (+29 manchetes; lista completa em eventos/noticias.json)
