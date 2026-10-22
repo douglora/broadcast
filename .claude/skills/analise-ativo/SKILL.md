@@ -133,6 +133,17 @@ para nao responder; e motivo para dizer a idade do dado na primeira linha.**
 
 ### 2b. Dispare a coleta com pares
 
+**Modo local (a sessao abriu com a linha "MODO LOCAL")**: nao dispare nem espere o
+Actions. Rode `python3 ferramentas/local/coletar.py MELI34 --pares auto` (cerca de
+1 minuto por ativo; com o grupo de pares, alguns minutos: use `run_in_background`
+ou timeout de 10 min). Ele coleta direto das fontes, com o mesmo `coletar_dados.py`,
+grava em `dados_local/` (fora do git) e avisa o Actions sozinho, para o branch
+`dados` alcancar depois. O `mesa.py` le a copia local enquanto ela for mais nova
+que a do branch e avisa com uma linha `>> ... coleta local de ...`. Avise o Douglas
+em uma linha que a coleta esta rodando, repita `frescor` e `cobertura` e siga. O
+resto desta secao (ferramenta do GitHub, espera com `time.sleep`, cache do CDN) so
+vale na nuvem.
+
 Ferramenta GitHub `mcp__github__actions_run_trigger`, `method: run_workflow`,
 `owner: douglora`, `repo: broadcast`, `workflow_id: coletar-dados.yml`,
 `ref: main`, `inputs: {"tickers": "MELI34", "pares": "auto"}`. Varios
@@ -400,6 +411,20 @@ Se a nota nao responde uma delas com numero e fonte, nao esta pronta.
   Nubank linha a linha", "o que a alavancagem de 11x significa para o
   capital"). O Douglas escolhe; voce nao entrega tudo de uma vez.
 - Titulos curtos, em portugues, sem numeracao de secao.
+- As linhas do **Quer aprofundar?** sao NUMERADAS (1, 2, 3...): ele responde pelo
+  numero ("quero aprofundar, faca o 2, 3 e 4", 23/09). Cada item tem de ser algo
+  que voce consegue entregar com o dado que existe.
+- Analise longa, comparativo, tese ou qualquer coisa "para ler depois" vai em
+  Artifact de fundo branco, elegante e limpo, com os graficos de analise tecnica
+  ("me entregue em artefato, fica melhor a leitura", 26/09; "artifact fundo branco
+  elegante, para eu ler depois", 29/09). No computador do Douglas existe a skill
+  `relatorio-branco-azul`, o modelo padrao dele: use-a. Na conversa fica o "Em uma
+  frase", 3 a 5 achados e o link.
+- No modo local, pergunta de ponto de entrada com opcoes (venda de put "para ficar
+  com o premio", call coberta) usa `python3 ferramentas/local/opcoes.py TICKER`: a
+  cadeia real do fechamento da B3, nunca premio estimado por formula. E pergunta
+  de "por que caiu/subiu hoje" comeca por `python3 ferramentas/local/porque.py
+  TICKER`.
 
 ### 6c. Termos e siglas
 

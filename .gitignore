@@ -20,3 +20,9 @@ livro_out/
 
 # Saida das analises de ETF (dado de mercado: nao versionar)
 ferramentas/etf/saida/
+
+# Coleta direta feita no computador do Douglas (ferramentas/local/coletar.py)
+dados_local/
+
+# roteiros de troca de conta: e-mails, ids de organizacao e decisoes internas (ficam so no Mac, nunca no repositorio publico)
+PROMPT-PROXIMA-CONTA*.md

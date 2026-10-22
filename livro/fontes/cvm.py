@@ -103,9 +103,14 @@ def diagnostico(texto: str, desde: date, amostra: str = "PETROBRAS") -> dict:
 
 
 def protocolo_de(link: str) -> str:
+    """Numero do protocolo no link da CVM. O IPE troca o formato do link
+    (NumeroProtocoloEntrega no frmExibirArquivoIPEExterno, numProtocolo no
+    frmDownloadDocumento); sem ler os dois, o mesmo documento ganha id novo
+    por hash e vira alerta repetido (AXIA3, 28/09)."""
     q = parse_qs(urlparse(link).query)
     for k, v in q.items():
-        if k.lower().startswith("numeroprotocolo") and v:
+        chave = k.lower()
+        if (chave.startswith("numeroprotocolo") or chave == "numprotocolo") and v:
             return v[0]
     return ""
 

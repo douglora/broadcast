@@ -128,6 +128,7 @@ eventos_macro:
   - {data: 2026-09-24, hora_brt: "09:00", evento: "Relatorio de Politica Monetaria 3T26 (BCB)", pais: BR, confianca: media}
   - {data: 2026-09-25, hora_brt: "09:00", evento: "IPCA-15 de setembro (IBGE)", pais: BR, confianca: media}
   - {data: 2026-10-02, hora_brt: "09:30", evento: "Payroll de setembro (BLS)", pais: EUA, confianca: alta}
+  - {data: 2026-10-04, hora_brt: "", evento: "Eleicoes gerais: 1o turno (presidente, governadores e Congresso)", pais: BR, confianca: alta}
   - {data: 2026-10-04, hora_brt: "", evento: "OPEP+ (grupo dos 8): cotas de novembro", pais: Global, confianca: baixa}
   - {data: 2026-10-09, hora_brt: "09:00", evento: "IPCA de setembro (IBGE)", pais: BR, confianca: media}
   - {data: 2026-10-14, hora_brt: "09:30", evento: "CPI de setembro (BLS)", pais: EUA, confianca: alta}
@@ -135,6 +136,7 @@ eventos_macro:
   - {data: 2026-10-15, hora_brt: "09:30", evento: "PPI de setembro (BLS)", pais: EUA, confianca: alta}
   - {data: 2026-10-16, hora_brt: "", evento: "Vencimento de opcoes sobre acoes (B3)", pais: BR, confianca: media}
   - {data: 2026-10-23, hora_brt: "09:00", evento: "IPCA-15 de outubro (IBGE)", pais: BR, confianca: media}
+  - {data: 2026-10-25, hora_brt: "", evento: "Eleicoes gerais: 2o turno, onde houver", pais: BR, confianca: alta}
   - {data: 2026-10-28, hora_brt: "15:00", evento: "FOMC: decisao de juros (sem projecoes)", pais: EUA, confianca: alta}
   - {data: 2026-10-29, hora_brt: "09:30", evento: "PIB dos EUA 3T26, estimativa avancada (BEA)", pais: EUA, confianca: media}
   - {data: 2026-10-29, hora_brt: "10:15", evento: "BCE: decisao de politica monetaria", pais: EUR, confianca: alta}

@@ -97,6 +97,16 @@ def test_parse_ipe_casa_por_codigo_e_nome():
     assert cvm.texto_de_pdf_bytes(b"nao e pdf") is None
 
 
+def test_protocolo_nos_dois_formatos_de_link_da_cvm():
+    # o mesmo fato relevante da AXIA3 chegou em 25/09 com um link e em 28/09 com
+    # outro; o id tem de ser o mesmo para o alerta nao repetir
+    antigo = "https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1571417"
+    novo = ("https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE"
+            "&CodigoInstituicao=1&numProtocolo=1571417&numSequencia=1096123&numVersao=1")
+    assert cvm.protocolo_de(antigo) == cvm.protocolo_de(novo) == "1571417"
+    assert cvm.protocolo_de("https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?numSequencia=1") == ""
+
+
 def test_parse_submissions_e_severidade():
     payload = json.load(open(os.path.join(RAW, "sec_submissions_sample.json"), encoding="utf-8"))
     fs = sec.parse_submissions(payload, date(2026, 9, 16))

@@ -97,6 +97,11 @@ mediana errada, e a comparacao e o passo 5 do deep search.
    central de resultados antes de disparar (WebSearch, entrada em
    `ri_fontes.py`, commit, merge na `main`). Com o indice da CVM fora do ar, o
    site de RI e a unica fonte de release.
+   **Modo local** (a sessao abriu com a linha "MODO LOCAL"): os passos 2 a 4 viram
+   um so comando, `python3 ferramentas/local/coletar.py TICKER --pares auto`, que
+   coleta direto das fontes em cerca de 1 minuto por ativo, grava em `dados_local/`
+   (o `mesa.py` le dali enquanto for mais novo que o branch) e avisa o Actions
+   sozinho. Depois va para o passo 5. Na nuvem, siga os passos 2 a 4:
 2. Dispare a coleta: ferramenta `mcp__github__actions_run_trigger`,
    `method: run_workflow`, `owner: douglora`, `repo: broadcast`,
    `workflow_id: coletar-dados.yml`, `ref: main`,

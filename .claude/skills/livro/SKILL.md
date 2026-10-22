@@ -23,6 +23,61 @@ Regras que nao se negociam:
   `WebSearch`. Nunca `cd` nem `git push`. Um comando negado pelo classificador de
   permissoes nao trava o turno: siga com a alternativa e registre em LACUNAS.
 
+## Modo local (computador do Douglas)
+
+Se a sessao abriu com a linha "MODO LOCAL" (hook de inicio,
+`ferramentas/local/preparar.sh`), vale tudo o que esta nesta skill, com as trocas
+abaixo. Na nuvem, ignore esta secao.
+
+| Onde a skill diz (nuvem) | Local |
+|---|---|
+| `mcp__github__actions_run_trigger` + laco de espera | `python3 ferramentas/local/disparar.py livro <modo> --ids "<ids>"`: dispara pelo `gh`, espera o manifest novo e devolve uma linha (FRESCO, FALHOU ou NAO CHEGOU). Rode com `run_in_background: true` ou timeout de 10 min |
+| `mcp__github__actions_list` | `python3 ferramentas/local/disparar.py ultimo livro` |
+| `cd /home/user/broadcast` | sem `cd`: os comandos rodam na raiz do repositorio |
+| `/tmp/painel/` | `livro_out/painel/` (pasta fora do git; crie com `mkdir -p`) |
+| `python3 -c "import time; time.sleep(N)"` | nao precisa: o `disparar.py` espera sozinho |
+
+O disparo continua sendo o plano B: o cron do Actions grava o livro sozinho, com o
+computador ligado ou nao. O que o modo local acrescenta, com internet aberta:
+
+- **Fita intradia** (`python3 ferramentas/local/fita.py CURY3 DIRR3 TEND3 [--dia AAAA-MM-DD]
+  [--intervalo 30m]`): o caminho do preco hora a hora, direto do Yahoo, e a hora em
+  que um ativo se descolou do outro. Na nuvem isso so saia reconstruindo o historico
+  do git das series (CURY3 de 30/09).
+- **Por que mexeu** (`python3 ferramentas/local/porque.py TICKER [--dia AAAA-MM-DD]`):
+  rode ANTES de escrever a Leitura sempre que o card "Por que mexeu" disser "sem
+  causa no dado" para a CURY3 (ele pede o numero dela em todo turno) ou para um ativo
+  com alerta critico ou de atencao de preco. A ficha separa a parte do setor da parte
+  so do ativo, da a HORA em que a divergencia abriu, o volume contra a media, os
+  documentos da CVM do dia e os outros dias em que o ativo destoou dos pares. Use a
+  secao 5 da ficha em 2 a 3 linhas; a secao 6 e roteiro de WebSearch, sempre rotulado.
+  Continua valendo: "sem causa no dado" nao vira causa inventada. Sem achado datado
+  do dia, a frase e "sem causa identificada: ate HHhMM andou com os pares, depois so
+  ela".
+- **Plano C, quando o Actions nao entrega** (`disparar.py` devolveu FALHOU ou NAO
+  CHEGOU, ou o GitHub esta fora): `bash ferramentas/local/livro_local.sh <manha|
+  intradia|fechamento|eventos>` roda o mesmo runner aqui, em 1 a 3 minutos, numa
+  copia em `livro_out/previa/livro/`. Leia os mesmos arquivos de `saida/` dali e
+  narre, abrindo com a linha "Previa local das HHhMM: o Actions nao rodou (motivo)".
+  O portao da previa esta dentro dela (`saida/manifest.json -> qualidade` e
+  `saida/fechamento.json -> qualidade` e `-> drivers`): `python3 -m livro.portao` olha
+  o branch `dados`, nao a previa. As regras R1 a R10 valem iguais. O livro ficou parado de 21 a 23/09 porque
+  so o Actions coletava; local isso nao pode se repetir. A previa nao vai para o
+  branch `dados` e os alertas dela nao contam como entregues: quando o Actions
+  voltar, o turno seguinte narra o dado oficial e corrige o que divergir.
+- A fita e a ficha sao APOIO para explicar. O numero do livro continua vindo do
+  runner (branch `dados`), o portao R0 a R10 continua mandando e a sessao continua
+  sem escrever no branch `dados`.
+
+Turnos de rotina rodando local vem de tarefas agendadas do Claude Desktop, e cada
+turno abre uma sessao NOVA: nao ha "o turno anterior" na memoria. Por isso o ack
+(passo 7) passa por arquivo: ao fim de todo turno, grave os ids que voce narrou em
+`livro_out/ids_narrados.txt` (uma linha, separados por virgula, com a data na
+frente: `2026-10-01 E04-MU-...,T01-...`); no turno seguinte, leia o arquivo e passe
+os ids do dia em `--ids` se for disparar. Arquivo de outro dia nao vale. Tarefa
+local so roda com o computador ligado e o app aberto; a coleta do Actions nao
+depende disso.
+
 ## Onde estao as coisas (branch `dados`, pasta `livro/`)
 
 | Caminho | O que e |
@@ -321,6 +376,13 @@ tem slot `fechamento`, abra com "Fechamento de ontem nao saiu (motivo)".
   runner (sao dados do runner, nao numero inventado) e cite "Yahoo Finance, barra
   de dd/mm".
 - "curto" / "celular": Fechamento com `fechamento_celular.md`.
+- "fita X Y" / "como foi o dia de X" (so no modo local):
+  `python3 ferramentas/local/fita.py X Y`; cole a tabela de horas (ate 4 colunas) e
+  diga em uma frase quando a diferenca abriu.
+- "por que X caiu/subiu" / "X destoou dos pares" (so no modo local):
+  `python3 ferramentas/local/porque.py X`, depois WebSearch pelo roteiro da secao 6
+  da ficha. Resposta: "Em uma frase", a tabela hora a hora (ativo, pares, diferenca),
+  o que e do setor e o que e so do ativo, o que a CVM tem, e a busca web rotulada.
 - "pausar o livro": crie o arquivo `PAUSADO` na raiz da main via PR e
   `update_trigger enabled=false` nas 3 Routines; "religar" desfaz.
 - "recriar rotinas": use `mcp__Claude_Code_Remote__create_trigger` (mode padrao:

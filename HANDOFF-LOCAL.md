@@ -6,6 +6,12 @@ investimentos" (`session_015YuN1wiZ8G2GovL7vnA4QN`, repo douglora/broadcast, bra
 mesa rode no computador dele daqui em diante, e que este arquivo ja traga as melhorias pedidas
 como se o agente fosse local.
 
+ATUALIZACAO de 30/09/2026 a noite, pela sessao local: o computador do Douglas hoje e um
+MacBook Air (macOS, sem Homebrew), nao o Windows que este arquivo supunha (deducao errada a
+partir das rotinas antigas em `C:\Users\Douglas`). A secao 2 foi reescrita para o Mac, a
+secao 5 marca o que ja foi feito e o `CLAUDE.md` ganhou as secoes "Como o Douglas quer as
+entregas" e "Modo local". O que e do Windows ficou no anexo B.
+
 Leia junto: `CLAUDE.md` (como a mesa se comporta), `.claude/skills/` (analise-ativo, deep-search,
 dados-completos, livro), `README.md` (terminal), `ferramentas/etf/README.md` (analise de ETFs).
 
@@ -33,31 +39,31 @@ Atencao: rotina local so roda com o PC ligado e o app aberto. Em 29/09 duas roti
 suspensas por "device_absent" (PC desligado). Por isso a coleta fica no Actions e o local cuida
 da analise e da narracao.
 
-## 2. Instalacao no Windows (checklist)
+## 2. Instalacao no Mac (feita e conferida em 30/09/2026)
 
-1. Git for Windows. Ele da o Bash ao Claude Code, e o hook de inicio do projeto chama `bash`.
-2. Python 3.11 ou mais novo, com "Add Python to PATH". No Windows o comando e `py` (ou
-   `python`); os skills e o CLAUDE.md escrevem `python3`.
-3. Claude Code pelo instalador do PowerShell (https://code.claude.com/docs/en/setup), com login
-   na mesma conta claude.ai.
-4. Clonar numa pasta nova, sem mexer na `C:\Users\Douglas\Desktop\BROADCAST` antiga ate validar:
-   `git clone https://github.com/douglora/broadcast C:\Users\Douglas\broadcast` e, dentro dela,
+Tudo abaixo ja esta no lugar; a lista serve para refazer num Mac novo.
+
+1. Clone em uma pasta do Douglas. Hoje e a pasta `~/agene analista ` (ele a criou para o agente;
+   o nome tem um espaco no fim, entao sempre entre aspas): a raiz do repositorio e a propria
+   pasta, para que o `CLAUDE.md`, as skills e o hook valham em toda sessao aberta nela. Depois,
    `git fetch origin dados`.
-5. Dependencias: `py -m pip install -r requirements.txt -r requirements-livro.txt`.
-6. GitHub CLI: `winget install GitHub.cli` e `gh auth login` na conta douglora. Na nuvem, os
-   skills disparavam os workflows pela ferramenta MCP do GitHub (`mcp__github__actions_run_trigger`),
-   que vinha pronta. Local, ela so existe se o servidor MCP do GitHub for configurado; sem ele,
-   use `gh workflow run livro.yml --ref main -f modo=fechamento -f ids_entregues=...` e
-   `gh run list --workflow livro.yml` (item 4 do P1).
-7. Validar: `py mesa.py skills` (tem de dizer TUDO OPERANDO), `py mesa.py frescor CURY3`,
-   `py -m pytest -q`. Se o console estragar acentos: `set PYTHONIOENCODING=utf-8`.
-8. Abrir a sessao na pasta com `claude remote-control`. Ela aparece no app Claude do celular e em
-   claude.ai/code, com o codigo rodando no PC (https://code.claude.com/docs/en/remote-control).
-   O Claude Desktop tambem serve.
-9. Opcional, para trazer o historico da sessao da nuvem: `claude --teleport` na pasta clonada
-   (escolha a sessao "Ferramentas para assessoria de investimentos"). Exige o branch no remoto,
-   arvore limpa e a mesma conta. O historico e longo (cerca de 630 mil tokens, ja compactado);
-   comecar uma sessao nova com este arquivo e mais limpo.
+2. Python: o do macOS e 3.9 e nao serve para o `livro/`. O hook de inicio
+   (`ferramentas/local/preparar.sh`) cria o `.venv` com o Python 3.12 de `~/.local/bin` (via `uv`),
+   instala `requirements.txt`, `requirements-livro.txt`, `yfinance`, `lxml` e `pytest`, e poe o
+   `.venv` na frente do PATH da sessao: `python3` passa a ser o do `.venv`. Nao ha Homebrew nesta
+   maquina, de proposito.
+3. GitHub CLI: `gh` em `~/.local/bin`, logado na conta douglora com escopo `workflow`. E com ele
+   que a sessao local dispara os workflows (`ferramentas/local/disparar.py`).
+4. Conferido em 30/09: `python3 mesa.py skills` (TUDO OPERANDO), `python3 mesa.py frescor CURY3`
+   (ATUAL), `python3 -m pytest -q` (187 testes), `python3 -m livro.portao`, Yahoo e CVM respondendo
+   direto, coleta local da CURY3 em 66 s (com os 6 pares: 176 s), disparo de `coletar-dados.yml`
+   pelo `gh` com o branch `dados` atualizado em menos de 2 minutos, runner do livro rodando local
+   em 107 s (`python3 -m livro.rodar --modo intradia --saida livro_out/previa/livro`).
+5. Sessao: aberta pelo app Claude Desktop (aba Code) na pasta do clone. O hook imprime a linha
+   "MODO LOCAL" e o `CLAUDE.md` e as skills do repositorio passam a valer.
+6. Historico da nuvem: as duas sessoes continuam em claude.ai/code. A sessao local leu as 101
+   mensagens do Douglas (48 da mesa, 53 do livro) e destilou em `CLAUDE.md`, secao "Como o
+   Douglas quer as entregas". Nao e preciso `claude --teleport`.
 
 ## 3. Rotinas: o que existe e como fica
 
@@ -95,16 +101,60 @@ Pendencias abertas com o Douglas:
    do fim da greve da Caixa (TST em 29/09). A tarde so a Cury nao voltou. Em aberto: o que
    houve em 17/09 (CURY3 -5,2% com a DIRR3 estavel); a previa operacional do 3T26, na primeira
    quinzena de outubro (a do 2T26 saiu em 07/07 e a acao caiu 7,9% em 08/07).
+   Atualizacao local (30/09, `ferramentas/local/porque.py`): em 30/09 a CURY3 andou com os
+   pares proximos (DIRR3, TEND3, CYRE3) ate 13h00 e a diferenca abriu a partir das 13h30,
+   fechando em -2,9 pp contra a mediana deles, a 10% da faixa do dia, sem documento na CVM.
+   Em 17/09 nao foi queda isolada da Cury: o grupo de construcao inteiro caiu (mediana -4,2%;
+   TEND3 -5,0%, PLPL3 -5,3%, MRVE3 -4,9%), com a Cury -5,2% e volume de 2,7 vezes a media; a
+   excecao do dia foi a DIRR3 (-0,1%). Falta a busca na web datada para os dois dias.
 2. VALE3, venda de puts. Os premios foram estimados por Black-Scholes (vol 30%, CDI 13,65%)
-   porque a cadeia de opcoes nao era acessivel da nuvem. Refazer com a cadeia real.
+   porque a cadeia de opcoes nao era acessivel da nuvem. Refazer com a cadeia real:
+   `python3 ferramentas/local/opcoes.py VALE3` ja traz os premios do fechamento da B3.
 3. UCITS. Conferir as conclusoes de 5 anos com o PDF "Selecao UCITS" da Avenue.
 4. Calendario. 1o turno em 04/10 e 2o turno em 25/10. O Conselho Curador do FGTS vota o
    orcamento de 2027 a 2029 no fim de outubro.
+
+5. Livro, pendencias que a sessao da nuvem "Sistema de monitoramento de ativos" deixou
+   (sintese dela em 30/09):
+   - Brent do fechamento pelo preco oficial de ajuste (hoje sai do ultimo negocio do Yahoo,
+     rotulado "pos-ajuste" e conferido de manha; errou o tamanho em 24/09 e 28/09);
+   - confirmar a troca do contrato do Brent para dezembro (BZZ26) em 01/10;
+   - agrupar a mesma noticia publicada por varios veiculos (AMD/HPE tres vezes, MU duas,
+     Tesla quatro, entre 29 e 30/09) e o mesmo fato relevante com dois protocolos (AXIA3);
+   - atribuicao por palavra-chave errada (SMAL11 marcado por "small cap");
+   - agenda macro com janela de so 6 dias (na sexta nao aparece o payroll da sexta seguinte);
+   - a notificacao sugerida conta noticia como "alerta";
+   - o card "Por que mexeu" do intradia usa o DI de ontem como fator (CURY3, 30/09);
+   - o cron do Actions falha: o de 18h05 nao rodou em 29 e 30/09 e o de 08h20 em 30/09. Por
+     isso o disparo pela sessao (plano B) e o que tem segurado o fechamento;
+   - o aviso no celular nunca foi confirmado como entregue (teste de 20/09 nao chegou).
+6. Dois commits que so existiam no container da nuvem (push barrado pela trava em 28/09)
+   foram refeitos no clone local em 30/09: protocolo da CVM nos dois formatos de link
+   (`livro/fontes/cvm.py`, com teste) e as eleicoes de 04/10 e 25/10 no
+   `config/calendario.yaml`. Ainda nao estao na `main`: o runner do Actions so passa a
+   usa-los depois da publicacao.
 
 Codigo novo desta sessao: `etfs.py` e `.github/workflows/etfs.yml` (coletor de ETFs, ja na
 main) e `ferramentas/etf/` (analise de ETFs, com README).
 
 ## 5. Melhorias pedidas ao agente local (em ordem)
+
+Estado em 30/09/2026 a noite, depois da primeira sessao local no Mac:
+
+| Item | Estado |
+|---|---|
+| 1. Hook de inicio | feito para o Mac: `ferramentas/local/preparar.sh` no SessionStart (cria o `.venv`, ajusta o PATH, busca o branch `dados`); o hook dos plugins continua |
+| 2. Permissoes | feito: `python3` e o do `.venv`; regras novas em `.claude/settings.json` para `mesa.py`, `ferramentas/local/*` e `gh` |
+| 3. Validar mesa, livro e etf | feito: mesa e livro validados (testes, portao, runner local) e `ferramentas/etf` rodou de ponta a ponta no Mac (faltava o `openpyxl`, agora instalado pelo hook) |
+| 4. Disparo sem a ferramenta do GitHub | feito: `ferramentas/local/disparar.py` (`gh` + espera), testado com `coletar-dados.yml`. `PushNotification` existe na sessao local; falta conferir se chega ao celular |
+| 5. Rotinas do livro locais | PENDENTE: depende da decisao do Douglas (secao 3) |
+| 6. Coleta local rapida | feito: `ferramentas/local/coletar.py`; o `mesa.py` le `dados_local/` quando e mais novo que o branch |
+| 7. Fita intradia | feito de outro jeito: `ferramentas/local/fita.py` busca a fita sob demanda no Yahoo (60m guarda uns 2 anos; 30m, 15m e 5m, 60 dias), sem precisar gravar a cada rodada |
+| 8. Por que mexeu | feito: `ferramentas/local/porque.py`. No caso CURY3 de 30/09 a ficha separa a manha (setor) da tarde (so a Cury, a partir das 13h30) |
+| 9. Opcoes da B3 | feito: `ferramentas/local/opcoes.py` le a cadeia real nos arquivos publicos do Boletim Diario da B3 (InstrumentsConsolidated e TradeInformationConsolidated): premio do fechamento, volatilidade implicita, delta e liquidez. VALE3 em 30/09: put nov/26 strike 66,39 a R$ 1,35 (a estimativa da nuvem era R$ 1,31), vol implicita perto de 32% |
+| 10. Calendario de catalisadores | pendente |
+| 11 a 14 | pendentes. O PDF "Selecao UCITS" esta no Mac: `~/Downloads/selecao-ucits.pdf` |
+| 15. CLAUDE.md | feito: secoes "Como o Douglas quer as entregas" e "Modo local" |
 
 ### P1. Funcionar local (primeiro dia)
 1. Hook de inicio por sistema operacional. Hoje o `SessionStart` roda
@@ -231,3 +281,29 @@ COMO ESTE TURNO FUNCIONA: o workflow `livro.yml` ja roda sozinho no Actions as 1
 
 SE ALGO QUEBRAR, a falha vira a PRIMEIRA linha da resposta, nunca silencio: `git fetch` com 503 -> leia pelo CDN `https://raw.githubusercontent.com/douglora/broadcast/dados/livro/saida/<arquivo>?nocache=$(date +%s)$RANDOM`; sem a ferramenta do GitHub voce nao dispara o workflow, entao entregue o ultimo dado com o horario em destaque e a lacuna declarada; workflow com `startup_failure` -> leia a anotacao do run e diga a causa em portugues.
 ```
+
+## Anexo B. Se um dia for Windows (checklist original, nao testado)
+
+1. Git for Windows. Ele da o Bash ao Claude Code, e o hook de inicio do projeto chama `bash`.
+2. Python 3.11 ou mais novo, com "Add Python to PATH". No Windows o comando e `py` (ou
+   `python`); os skills e o CLAUDE.md escrevem `python3`.
+3. Claude Code pelo instalador do PowerShell (https://code.claude.com/docs/en/setup), com login
+   na mesma conta claude.ai.
+4. Clonar numa pasta nova, sem mexer na `C:\Users\Douglas\Desktop\BROADCAST` antiga ate validar:
+   `git clone https://github.com/douglora/broadcast C:\Users\Douglas\broadcast` e, dentro dela,
+   `git fetch origin dados`.
+5. Dependencias: `py -m pip install -r requirements.txt -r requirements-livro.txt`.
+6. GitHub CLI: `winget install GitHub.cli` e `gh auth login` na conta douglora. Na nuvem, os
+   skills disparavam os workflows pela ferramenta MCP do GitHub (`mcp__github__actions_run_trigger`),
+   que vinha pronta. Local, ela so existe se o servidor MCP do GitHub for configurado; sem ele,
+   use `gh workflow run livro.yml --ref main -f modo=fechamento -f ids_entregues=...` e
+   `gh run list --workflow livro.yml` (item 4 do P1).
+7. Validar: `py mesa.py skills` (tem de dizer TUDO OPERANDO), `py mesa.py frescor CURY3`,
+   `py -m pytest -q`. Se o console estragar acentos: `set PYTHONIOENCODING=utf-8`.
+8. Abrir a sessao na pasta com `claude remote-control`. Ela aparece no app Claude do celular e em
+   claude.ai/code, com o codigo rodando no PC (https://code.claude.com/docs/en/remote-control).
+   O Claude Desktop tambem serve.
+9. Opcional, para trazer o historico da sessao da nuvem: `claude --teleport` na pasta clonada
+   (escolha a sessao "Ferramentas para assessoria de investimentos"). Exige o branch no remoto,
+   arvore limpa e a mesma conta. O historico e longo (cerca de 630 mil tokens, ja compactado);
+   comecar uma sessao nova com este arquivo e mais limpo.

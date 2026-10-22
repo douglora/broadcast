@@ -48,7 +48,22 @@
       "Glob",
       "Grep",
       "Bash(python3 -m livro.portao:*)",
-      "Bash(python3 -m livro.portao)"
+      "Bash(python3 -m livro.portao)",
+      "Bash(python3 mesa.py:*)",
+      "Bash(python3 ferramentas/local/fita.py:*)",
+      "Bash(python3 ferramentas/local/porque.py:*)",
+      "Bash(python3 ferramentas/local/opcoes.py:*)",
+      "Bash(python3 ferramentas/local/coletar.py:*)",
+      "Bash(python3 ferramentas/local/disparar.py:*)",
+      "Bash(bash ferramentas/local/preparar.sh:*)",
+      "Bash(bash ferramentas/local/livro_local.sh:*)",
+      "Bash(git fetch -q origin dados)",
+      "Bash(gh run list:*)",
+      "Bash(gh run view:*)",
+      "Bash(gh workflow run livro.yml:*)",
+      "Bash(gh workflow run coletar-dados.yml:*)",
+      "Bash(gh workflow run etfs.yml:*)",
+      "Bash(gh workflow run kinea.yml:*)"
     ],
     "deny": [
       "Bash(git push origin dados:*)",
@@ -64,6 +79,15 @@
           {
             "type": "command",
             "command": "bash \"$CLAUDE_PROJECT_DIR/INSTALAR-PLUGINS-CLAUDE.command\" --quiet",
+            "timeout": 300
+          }
+        ]
+      },
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"$CLAUDE_PROJECT_DIR/ferramentas/local/preparar.sh\"",
             "timeout": 300
           }
         ]

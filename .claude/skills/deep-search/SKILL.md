@@ -1,6 +1,6 @@
 ---
 name: deep-search
-description: Investigacao a fundo de UMA pergunta sobre um ativo, ate a resposta ter numero, fonte e data. Dispara quando o Douglas pergunta por que, como, de onde vem, o que precisa acontecer, ou desconfia de um numero: "por que a margem caiu", "quais os gatilhos para melhorar a margem EBIT", "se eles nao tem guidance por que eu compraria", "isso e sustentavel", "de onde vem esse lucro", "o que o preco exige", "eles entregaram o que prometeram", "a divida preocupa". Sete passos obrigatorios: fixa a pergunta, inventaria o dado, decompoe a DRE linha a linha, varre os 8 releases atras do discurso da gestao, faz a conta reversa do preco, testa contra os pares e fecha com veredito e o que mudaria de ideia. Nao recomenda; investiga e apresenta.
+description: Investigacao a fundo de UMA pergunta sobre um ativo, ate a resposta ter numero, fonte e data. Dispara quando o Douglas pergunta por que, como, de onde vem, o que precisa acontecer, ou desconfia de um numero: "por que a margem caiu", "quais os gatilhos para melhorar a margem EBIT", "se eles nao tem guidance por que eu compraria", "isso e sustentavel", "de onde vem esse lucro", "o que o preco exige", "eles entregaram o que prometeram", "a divida preocupa", "qual o motivo da queda de X hoje", "X destoou dos pares". Sete passos obrigatorios: fixa a pergunta, inventaria o dado, decompoe a DRE linha a linha, varre os 8 releases atras do discurso da gestao, faz a conta reversa do preco, testa contra os pares e fecha com veredito e o que mudaria de ideia. Nao recomenda; investiga e apresenta.
 ---
 
 # Deep search (investigacao da mesa)
@@ -140,6 +140,13 @@ falta mesmo quando ele e mais antigo que o release mais novo. Ferramenta `mcp__g
 espere com `python3 -c "import time; time.sleep(45)"` (o comando `sleep` e
 bloqueado aqui) e confirme por `mcp__github__actions_list`. O detalhe completo
 de espera e cache do CDN esta na secao 2b da skill `analise-ativo`.
+
+No modo local (a sessao abriu com a linha "MODO LOCAL") nada disso: rode
+`python3 ferramentas/local/coletar.py TICKER --pares auto` (cerca de 1 minuto por
+ativo, direto das fontes) e repita `frescor` e `cobertura`. Para pergunta de "por
+que caiu/subiu no dia", comece por `python3 ferramentas/local/porque.py TICKER
+[--dia AAAA-MM-DD]`: a ficha separa o que e do setor do que e so do ativo e da a
+hora em que a diferenca abriu, antes de qualquer busca na web.
 
 Uma pergunta sobre trajetoria (margem, custo, entrega) exige a janela
 inteira: 8 trimestres de release e 8 de demonstracao oficial. Abaixo disso a
@@ -301,8 +308,12 @@ resposta desta skill e lida no celular:
   resposta como data; cite so o trimestre ("release do 2T26").
 - Toda sigla explicada em portugues na primeira vez, em ate 12 palavras
   (`python3 mesa.py termos ROE NIM` imprime a linha pronta de GLOSSARIO.md).
-- Feche com **Termos desta nota** e **Quer aprofundar?** com 3 a 5 opcoes,
-  cada uma um tema que renda uma investigacao propria.
+- Feche com **Termos desta nota** e **Quer aprofundar?** com 3 a 5 opcoes
+  NUMERADAS (ele responde pelo numero: "faca o 2, 3 e 4"), cada uma um tema que
+  renda uma investigacao propria.
+- Quando ele pedir em artefato, ou quando for para ler depois, a investigacao vai
+  em Artifact de fundo branco (skill `relatorio-branco-azul` no computador dele),
+  e a conversa fica com o "Em uma frase", os achados e o link.
 - Uma linha no fim: "Analise para uso interno do assessor; nao constitui
   recomendacao de investimento."
 

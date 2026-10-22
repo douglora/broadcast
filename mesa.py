@@ -56,12 +56,57 @@ import urllib.request
 BASE = os.environ.get("MESA_BASE", "https://raw.githubusercontent.com/douglora/broadcast/dados/")
 CACHE = os.path.join(os.environ.get("TMPDIR", "/tmp"), "mesa_cache")
 AQUI = os.path.dirname(os.path.abspath(__file__))
+# Coleta direta feita no computador do Douglas (ferramentas/local/coletar.py). Fora do git.
+LOCAL = os.environ.get("MESA_LOCAL", os.path.join(AQUI, "dados_local"))
+_LOCAL_AVISADO = set()
+
+
+def _carimbo(dados):
+    """Hora da coleta gravada no proprio JSON (gerado_em ou atualizado_em)."""
+    try:
+        d = json.loads(dados.decode("utf-8"))
+    except Exception:
+        return None
+    if not isinstance(d, dict):
+        return None
+    return d.get("gerado_em") or d.get("atualizado_em")
+
+
+def _coleta_local(caminho, remoto):
+    """Copia de dados_local/ quando ela vale mais que a do branch `dados`.
+
+    O JSON local so entra se for MAIS NOVO que o do branch (pelo carimbo gravado
+    nele) ou se o branch nao tiver o arquivo; assim que o Actions alcanca, o branch
+    volta a mandar. Texto de release e igual nos dois: o local so cobre a falta."""
+    p = os.path.join(LOCAL, caminho)
+    if not os.path.isfile(p):
+        return None
+    with open(p, "rb") as f:
+        local = f.read()
+    cl = _carimbo(local)
+    if remoto is not None:
+        cr = _carimbo(remoto)
+        if not cl or not cr or cl <= cr:
+            return None
+    if caminho not in _LOCAL_AVISADO:
+        _LOCAL_AVISADO.add(caminho)
+        motivo = "mais nova que o branch dados" if remoto is not None else "o branch dados nao respondeu ou nao tem o arquivo"
+        print(f">> {caminho}: coleta local de {cl or 'data nao gravada'} ({motivo})")
+    return local
+
+
+def _modo_local():
+    """Verdadeiro no computador do Douglas (internet aberta); falso nas sessoes da nuvem."""
+    return os.environ.get("CLAUDE_CODE_REMOTE") != "true" and AQUI != "/home/user/broadcast" \
+        and os.path.exists(os.path.join(AQUI, "ferramentas", "local", "coletar.py"))
 
 
 def baixar(caminho, texto=False, ttl=120):
-    """Baixa um arquivo do branch dados, com cache curto em disco e cache-busting no CDN."""
+    """Baixa um arquivo do branch dados, com cache curto em disco e cache-busting no CDN.
+    Coleta local mais nova (dados_local/) passa na frente: ver _coleta_local."""
     os.makedirs(CACHE, exist_ok=True)
     local = os.path.join(CACHE, caminho.replace("/", "__"))
+    dados, erro = None, None
     if os.path.exists(local) and time.time() - os.path.getmtime(local) < ttl:
         with open(local, "rb") as f:
             dados = f.read()
@@ -72,10 +117,16 @@ def baixar(caminho, texto=False, ttl=120):
             with urllib.request.urlopen(req, timeout=40) as r:
                 dados = r.read()
         except Exception as e:
-            print(f"!! {caminho}: {type(e).__name__}: {e}")
-            return None
-        with open(local, "wb") as f:
-            f.write(dados)
+            erro = f"{type(e).__name__}: {e}"
+        else:
+            with open(local, "wb") as f:
+                f.write(dados)
+    do_pc = _coleta_local(caminho, dados)
+    if do_pc is not None:
+        dados = do_pc
+    if dados is None:
+        print(f"!! {caminho}: {erro}")
+        return None
     if texto:
         return dados.decode("utf-8", "replace")
     try:
@@ -876,7 +927,10 @@ def cobertura(tk, pares_tambem=False):
     print("VEREDITO: " + ("COMPLETA" if ok == total else veredito_cobertura(tk, d, idx)))
     if ok != total:
         print("A SEGUIR:")
-        print(f"  1. dispare coletar-dados.yml (ref main) com tickers: {tk} e pares: auto e espere terminar;")
+        if _modo_local():
+            print(f"  1. colete direto: python3 ferramentas/local/coletar.py {tk} --pares auto (cerca de 1 minuto por ativo);")
+        else:
+            print(f"  1. dispare coletar-dados.yml (ref main) com tickers: {tk} e pares: auto e espere terminar;")
         print(f"     o coletor agora vai atras do trimestre que falta mesmo sendo mais antigo que o mais novo.")
         print(f"  2. repita: python3 mesa.py cobertura {tk}")
         print("  3. se continuar faltando depois da coleta, a lacuna vira a PRIMEIRA FRASE da resposta,")

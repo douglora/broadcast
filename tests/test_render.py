@@ -118,14 +118,18 @@ def test_bloco_a_nao_conta_manchete_no_digest():
 
 def test_podar_tira_manchete_antiga_e_guarda_o_que_virou_mensagem():
     from livro.estado import Repositorio
+    from datetime import date, timedelta
     import tempfile
+    # datas relativas a hoje: com data fixa o teste vencia 30 dias depois de escrito
+    dez_dias = (date.today() - timedelta(days=10)).isoformat() + "T12:00:00Z"
+    ano_passado = (date.today() - timedelta(days=400)).isoformat() + "T12:00:00Z"
     with tempfile.TemporaryDirectory() as d:
         r = Repositorio(d)
         r.fila = {
-            "velha-manchete": {"familia": "noticia", "canal": "info", "gerado_em": "2026-09-10T12:00:00Z"},
-            "velha-mensagem": {"familia": "noticia", "canal": "mensagem", "gerado_em": "2026-09-10T12:00:00Z"},
-            "tecnica-antiga": {"familia": "preco", "gerado_em": "2026-09-10T12:00:00Z"},
-            "tecnica-velhissima": {"familia": "preco", "gerado_em": "2025-01-10T12:00:00Z"},
+            "velha-manchete": {"familia": "noticia", "canal": "info", "gerado_em": dez_dias},
+            "velha-mensagem": {"familia": "noticia", "canal": "mensagem", "gerado_em": dez_dias},
+            "tecnica-antiga": {"familia": "preco", "gerado_em": dez_dias},
+            "tecnica-velhissima": {"familia": "preco", "gerado_em": ano_passado},
         }
         r.podar(dias=30, dias_manchete=2)
         assert set(r.fila) == {"velha-mensagem", "tecnica-antiga"}
