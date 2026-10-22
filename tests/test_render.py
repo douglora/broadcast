@@ -250,3 +250,28 @@ def test_do_dia_conta_a_coleta_em_brt_e_nao_puxa_alerta_de_preco_de_ontem():
         assert ids == {"T08-COHR-x-2026-09-24", "E03-AXIA3-x-2026-09-22"}
         # a noticia das 21h de 23/09 (BRT) conta para 23/09
         assert "E05-PETR4-x-2026-09-23" in {k for k, v in r.fila.items() if v in r.do_dia("2026-09-23")}
+
+
+def test_tesouro_parado_sai_da_tabela_e_da_implicita(universo):
+    """22/10/2026 (auditoria do terminal, salto 10): o CSV do Tesouro Transparente parou em 15/10 e o livro misturava o Tesouro de 15/10
+    com o DI de 21/10. Base mais velha que dois pregoes: lacuna com a data, nada na tabela, nos insumos nem na inflacao implicita."""
+    from livro import render
+    pres = [be["pre"] for be in (universo.curvas.get("tesouro", {}).get("breakevens") or [])]
+    ipcas = [be["ipca"] for be in (universo.curvas.get("tesouro", {}).get("breakevens") or [])]
+    assert pres and ipcas
+
+    def curvas(base, ant):
+        tit = {tid: {"apelido": tid, "tipo": "Tesouro Prefixado", "historico": [[ant, 13.0, 700.0], [base, 13.1, 699.0]]} for tid in pres}
+        tit.update({tid: {"apelido": tid, "tipo": "Tesouro IPCA+", "historico": [[ant, 7.5, 1500.0], [base, 7.6, 1499.0]]} for tid in ipcas})
+        return {"tesouro": {"data_base": base, "titulos": tit}}
+
+    hoje = date(2026, 10, 22)
+    linhas, lac, ins = render.curvas_linhas(curvas("2026-10-15", "2026-10-14"), universo, {}, {}, hoje)
+    assert ins.get("tesouro_parado") == "2026-10-15" and not ins.get("tesouro") and not ins.get("breakeven")
+    assert any("Tesouro Direto parado na base 15/10" in x for x in lac) and not any("TD (base" in x for x in linhas)
+    assert not any(x == "Tesouro sem dado" for x in lac)
+    # D-1 (21/10) e um pregao de atraso alem disso (20/10) ainda valem
+    for base in ("2026-10-21", "2026-10-20"):
+        linhas, lac, ins = render.curvas_linhas(curvas(base, "2026-10-19"), universo, {}, {}, hoje)
+        assert ins.get("tesouro") and ins.get("tesouro_base") == base and "tesouro_parado" not in ins
+        assert not any("parado" in x for x in lac)
