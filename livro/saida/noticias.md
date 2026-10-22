@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 22/10 14h22
+NOTÍCIAS E FATOS · 22/10 14h55
 
-Pernas: noticias ok 17 novas (18 consultas; descartadas: 435 veículo fora da lista, 37 sem ativo, 5 teto) · cvm ok 0 novos de 6 (4 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 4 novas (18 consultas; descartadas: 443 veículo fora da lista, 36 sem ativo, 0 teto) · cvm ok 0 novos de 6 (4 cias casadas) · sec ok 0 novos em 3 dias
 
 ## SEC (8-K, 6-K, 10-Q, 10-K) (2)
 
@@ -161,8 +161,12 @@ Fonte: Investing.com 21/10 20h07
 id: E05-TSLA-594bd31921-2026-10-21 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (89)
+## OUTRAS NOTÍCIAS (só manchete) (93)
 
+· NOK Nokia Oyj 2026 Q3 - Results - Earnings Call Presentation (NYSE:NOK) 2026-10-22 (Seeking Alpha) https://seekingalpha.com/article/4956535-nokia-oyj-2026-q3-results-earnings-call-presentation
+· INTC Intel Stock Tumbles Ahead of Q3 Earnings (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/intel-stock-tumbles-ahead-q3-161912152.html
+· CVX Chevron Eyes $1B Gulf Asset Sale to Focus on Growth Projects (TradingView (Reuters)) https://www.tradingview.com/news/zacks:019039c66094b:0-chevron-eyes-1b-gulf-asset-sale-to-focus-on-growth-projects/
+· LITE Lumentum Holdings Inc. (LITE) Stock forecasts (Yahoo Finance) https://uk.finance.yahoo.com/research/reports/ARGUS_4688_QuantitativeReport_1792540800000
 · UST U.S. 10-Year Treasury yield cracks below 5% for the first time in a month as bonds rally (TradingView (Reuters)) https://www.tradingview.com/news/seekingalpha:63d45967d094b:0-u-s-10-year-treasury-yield-cracks-below-5-for-the-first-time-in-a-month-as-bonds-rally/
 · LITE Optics Stocks Tumble as Tech Selloff Deepens Ahead of Earnings: Coherent Tumbles 12%, Applied Optoelectronics Drops 10%, Lumentum Falls 9% (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/optics-stocks-tumble-tech-selloff-171005784.html
 · PETR4 Petrobras terá que subir diesel em até 50%? Goldman aponta impactos em ações e preços (InfoMoney) https://www.infomoney.com.br/mercados/petrobras-petr3-petr4-pode-ter-subir-diesel-ate-cinquenta-porcento-goldman-sachs-quais-impactos-acoes-inflacao/
@@ -219,8 +223,4 @@ id: E05-TSLA-594bd31921-2026-10-21 · status: linha
 · USDBRL Dólar sobe com disputa presidencial indefinida e tensão no exterior (UOL Economia) https://economia.uol.com.br/noticias/estadao-conteudo/2026/10/22/dolar-sobe-com-disputa-presidencial-indefinida-e-tensao-no-exterior.htm
 · TSLA TSLA Q3 Earnings Beat on Auto Margin Gains, '26 Capex View Cut (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/tsla-q3-earnings-beat-auto-124200869.html
 · KO Seeking Clues to Coca-Cola (KO) Q3 Earnings? A Peek Into Wall Street Projections for Key Metrics (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/seeking-clues-coca-cola-ko-121507645.html
-· NOK Nokia Corporation (NOKIA.HE) Q3 FY2026 earnings call transcript (Yahoo Finance) https://finance.yahoo.com/quote/NOKIA.HE/earnings/NOKIA.HE-Q3-2026-earnings_call-460672.html
-· TSLA Tesla drops as spending pullback clouds AI, robotics ambitions (Reuters) https://www.reuters.com/business/autos-transportation/tesla-drops-spending-pullback-clouds-ai-robotics-ambitions-2026-10-22/
-· BTC DeFi tokens lead crypto lower as bitcoin (BTC) price gives up Wednesday’s surge (CoinDesk) https://www.coindesk.com/markets/2026/10/22/bitcoin-slides-below-usd82-000-as-ai-doubts-return-with-defi-tokens-leading-declines
-· NVDA Needham reiterates Buy rating on NVIDIA, $300 price target (TradingView (Reuters)) https://news.google.com/rss/articles/CBMiugFBVV95cUxNZ2ctcmNVaXZiVWdyRWxXN1hNVlBmZ0RPbXd4dExxRVh2Q3B2ZlI4Zzg0b2s1b1VPZWhraGlFajAwa0hRSkRUcFlMbG1iOWZHMnRYLXFrSk1jYmlzazhkdF8xMlBpSDdBWThKVzh3bXNIVDdYeC1BcFp2UVRwUXRIRlhhclVqRHZYaEIwY3NJaFdzT0hIbmpXWU82OFRJRVo0Y0doWnNLWGd4ZUNnRVhNM0gyV19zdE01Y2c?oc=5
-· (+29 manchetes; lista completa em eventos/noticias.json)
+· (+33 manchetes; lista completa em eventos/noticias.json)
