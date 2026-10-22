@@ -1,4 +1,4 @@
-## Fechamento do livro · qua 21/10 · 18h14 BRT
+## Fechamento do livro · qua 21/10 · 20h58 BRT
 
 ---
 
@@ -32,9 +32,9 @@
 |---|---:|---|---|
 | **PLTR** | +4,7% | investigar antes de comentar | sem causa no dado |
 | **BABA** | -3,9% | investigar antes de comentar | sem causa no dado |
-| **LITE** | +3,4% | investigar antes de comentar | sem causa no dado |
-| **TSLA** | +3,4% | notícia a conferir (Yahoo Finance): Elon Musk Teases Tesla Merger and $1 Trillion Milestone for SpaceX | notícia (conferir) |
-| **AMD** | +3,4% | descolou do setor (semicondutores (eua) +1,7% (mediana), SOX +2,0%; 1,7 p.p. da mediana); notícia a conferir (Yahoo Finance): AMD’s Data Center Business Is Finally Delivering Profits. Can MU’s Rival Sustain the Momen | notícia (conferir) |
+| **LITE** | +3,4% | notícia a conferir (Yahoo Finance): Lumentum Holdings Inc. (LITE) Stock Forecasts | notícia (conferir) |
+| **TSLA** | +3,4% | notícia a conferir (Yahoo Finance): Tesla Stocks Rise 3.7% Before a $7.8 Billion Capex Test | notícia (conferir) |
+| **AMD** | +3,4% | descolou do setor (semicondutores (eua) +1,7% (mediana), SOX +2,0%; 1,7 p.p. da mediana); notícia a conferir (Yahoo Finance): AMD Stocks Gain 1.8% as AI Ambition Pulls Valuation Higher | notícia (conferir) |
 | **NOK** | +2,5% | investigar antes de comentar | sem causa no dado |
 | **NVDA** | +2,5% | andou com o setor: semicondutores (eua) +1,7% (mediana), SOX +2,0%; notícia a conferir (Barron's): Nvidia Seeks to Slash Data Center Deployment Times with New DSX Pods | setorial |
 | **COHR** | +2,5% | notícia a conferir (TradingView (Reuters)): Total revenue of Coherent Corp Shs Canadian Depositary Receipt Repr Shs Reg S – NEO:COHR | notícia (conferir) |
@@ -191,13 +191,13 @@ Nomes completos: **QNTM** VanEck Quantum Computing UCITS ETF USD (Acc) · **QANT
 | Ativo | últ | dia | 1 sem | 1 mês | 3 m | 6 m | 1 ano | YTD | 5 anos |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | **USDBRL** Dolar/Real | 5,0263 | **+0,2** | 0,0 | -1,5 | -1,2 | +0,4 | -6,4 | -8,2 | -11 |
-| **DXY** Indice Dolar DXY | 101,72 | **0,0** | -0,8 | +1,3 | +0,6 | +3,2 | +2,8 | +3,5 | +8,7 |
-| **BRENT** Petroleo Brent | 109,73 | **+0,9** | +3,5 | +14 | +17 | +7,7 | +79 | +80 | +28 |
-| **BTC** Bitcoin _(parcial)_ | 84.620 | **+2,0** | +3,7 | -2,3 | +28 | +8,2 | -22 | -3,3 | +39 |
-| **ETH** Ethereum _(parcial)_ | 2.490 | **+1,8** | +3,0 | -10 | +29 | +4,8 | -36 | -16 | -39 |
+| **DXY** Indice Dolar DXY _(dia 20/10)_ | 101,73 | **-0,2** | -0,4 | +1,5 | +0,5 | +3,4 | +3,2 | +3,5 | +8,7 |
+| **BRENT** Petroleo Brent _(dia 20/10)_ | 108,79 | **-0,7** | +2,9 | +4,7 | +20 | +10 | +78 | +79 | +27 |
+| **BTC** Bitcoin _(parcial)_ | 84.021 | **+1,3** | +3,0 | -3,0 | +27 | +7,4 | -23 | -4,0 | +38 |
+| **ETH** Ethereum _(parcial)_ | 2.471 | **+1,0** | +2,2 | -11 | +28 | +4,0 | -36 | -17 | -40 |
 | **MINERIO** Minerio de ferro 62% Fe CFR China _(D-1, 20/10)_ | 90,86 | **-0,1** | +0,2 | -6,9 | -7,9 | -15 | -14 | -15 | -26 |
 
-**Brent em reais:** R$ 551,54 por barril (21/10) · dia +1,0% · 1 mês +12% · no ano +66% (Brent do 1º vencimento × dólar).
+**Brent em reais:** a confirmar (Brent sem fechamento confirmado).
 
 ---
 
@@ -205,8 +205,8 @@ Nomes completos: **QNTM** VanEck Quantum Computing UCITS ETF USD (Acc) · **QANT
 
 | Referência | US$/t | dia | 1 sem | 1 mês | leitura |
 |---|---:|---:|---:|---:|---|
-| **Celulose fibra longa** | 620 | +0,3 | -1,7 | -5,8 | 21/10 |
-| **Minerio de ferro Dalian** | 90 | -0,2 | +0,8 | -5,1 | 21/10 |
+| **Celulose fibra longa** | 620 | +0,2 | -1,7 | -5,8 | 21/10 |
+| **Minerio de ferro Dalian** | 90 | -0,2 | +0,8 | -5,2 | 21/10 |
 
 - **Celulose fibra longa**: futuro SP da SHFE (fibra longa) em CNY/t, sem o IVA de 13%; nao e preco de lista NBSK · CNY/t 4.676 a USD/CNY 6,68 = US$ 700/t com IVA
 - **Minerio de ferro Dalian**: futuro da DCE em CNY/t, sem o IVA de 13%; o CFR 62% em US$ e a linha MINERIO · CNY/t 676 a USD/CNY 6,68 = US$ 101/t com IVA
@@ -246,12 +246,16 @@ Inflação implícita 2029 5,50% · 2032 5,68% · 2031/32 (descasado) 5,58% · F
 
 2s10s +32 bps (-1 no dia)
 
-**Regime** VIX 16,7 (-3,6%) · score de risco 0 de 6 · **regime de vol LIGADO**
+**Regime** VIX 16,7 (-3,6%) · score de risco 0 de 5 · **regime de vol LIGADO**
 
 ---
 
-### Notícias e fatos · 12
+### Notícias e fatos · 14
 
+- **TSLA** Tesla Stocks Rise 3.7% Before a $7.8 Billion Capex Test (Yahoo Finance · 21/10) [abrir a fonte](https://finance.yahoo.com/markets/stocks/articles/tesla-stocks-rise-3-7-222518549.html)
+  *Por que importa:* noticia material sobre um ativo do livro; ler o texto antes de comentar
+- **KO** How Coca-Cola Got Burned With a $5 Billion Bet on Costa Coffee (Bloomberg · 21/10) [abrir a fonte](https://www.bloomberg.com/news/features/2026-10-21/how-coca-cola-s-5-billion-costa-coffee-deal-went-wrong)
+  *Por que importa:* noticia material sobre um ativo do livro; ler o texto antes de comentar
 - **BAC** 8-K: 5.02 entrada ou saida de diretor ou conselheiro (SEC · 21/10) [abrir a fonte](https://www.sec.gov/Archives/edgar/data/70858/000007085826000494/bac-20261021.htm)
   *Por que importa:* troca de diretor ou conselheiro reabre a discussao de estrategia
 - **BAC** Bank of America Corporation (BAC) Declares $0.32 Q4 Common Dividend (TradingView (Reuters) · 21/10) [abrir a fonte](https://www.tradingview.com/news/tradingview:db07f9d132181:0-bank-of-america-corporation-bac-declares-0-32-q4-common-dividend/)
@@ -300,8 +304,8 @@ Inflação implícita 2029 5,50% · 2032 5,68% · 2031/32 (descasado) 5,58% · F
 
 ### Como ler
 
-**Relógios:** Yahoo 18h14 · DI ajuste D0 · Tesouro base 15/10 · UST CMT D0 · PTAX 21/10
-**Lacunas:** tesouro: falha: ValueError: cabecalho inesperado no CSV do Tesouro.
+**Relógios:** Yahoo 20h58 · DI ajuste D0 · Tesouro base 15/10 · UST CMT D0 · PTAX 21/10
+**Lacunas:** DXY sem barra de 21/10 (última 20/10); BRENT sem barra de 21/10 (última 20/10); DXY: barra de 21/10 é o início da sessão seguinte (última cotação 19:49 de Nova York); barra descartada, fica a de 20/10; BRENT: barra de 21/10 é o início da sessão seguinte (última cotação 19:35 de Nova York); barra descartada, fica a de 20/10; tesouro: falha: ValueError: cabecalho inesperado no CSV do Tesouro.
 **IUAA:** NAO e renda fixa ultracurta: cai ~6% a cada +100 bps na curva. Ler junto com UST 10y/30y. Caixa em dolar e o IB01.
 **Hipótese:** **EWY** iShares MSCI South Korea ETF · **MCHI** iShares MSCI China ETF — ETFs dos EUA, a confirmar.
 Minério: proxy Dalian 676 CNY/t (2026-10-21).

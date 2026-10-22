@@ -1,12 +1,16 @@
 BLOCO A
 ```
-FECHAMENTO DO LIVRO · qua 21/10 · 18h14 BRT
-Relógios: Yahoo 18h14 · DI ajuste D0 · Tesouro base
+FECHAMENTO DO LIVRO · qua 21/10 · 20h58 BRT
+Relógios: Yahoo 20h58 · DI ajuste D0 · Tesouro base
   15/10 · UST CMT D0 · PTAX 21/10
 
-ALERTAS DO DIA (26 · 1 crítico)
+ALERTAS DO DIA (28 · 1 crítico)
 [CRÍTICO] T08 MRVE3 entrou em bear técnico: -21% do
           pico de 52s (R$ 10,43 em 26/02) a R$ 8,23
+[ATENÇÃO] E05 TSLA · Tesla Stocks Rise 3.7% Before a
+          $7.8 Billion Capex Test
+[ATENÇÃO] E05 KO · How Coca-Cola Got Burned With a
+          $5 Billion Bet on Costa Coffee
 [ATENÇÃO] T04 MCHI fechou na mínima de 52 semanas:
           US$ 50,05, -7,3% em 1m e -20% em 12m
 [ATENÇÃO] T04 RARA11 fechou na mínima da série de 66
@@ -17,20 +21,19 @@ ALERTAS DO DIA (26 · 1 crítico)
           (BAC) Declares $0.32 Q4 Common Dividend
 [ATENÇÃO] E05 INTC · Veteran Bank Cuts Intel Stock
           Price Target Ahead of Earnings
-[ATENÇÃO] E05 AMZN · UBS reiterates 3M stock Buy
-          rating on Amazon deal, growth outlook
-[ATENÇÃO] S01 coleta do slot fechamento saiu
-          incompleta: tesouro: falha: ValueError:
-          cabecalho inesperado no CSV do Tesouro
-(+18 em alertas.md)
+(+20 em alertas.md)
 
 ALTAS  PLTR +4,7% · LITE +3,4% · TSLA +3,4% · AMD
        +3,4% · NOK +2,5%
 BAIXAS BABA -3,9% · VALE3 -2,2% · EQTL3 -1,9% ·
        KLBN4 -1,9% · MCHI -1,8%
 
-NOTÍCIAS E FATOS (12 com materialidade ·
+NOTÍCIAS E FATOS (14 com materialidade ·
   noticias.md)
+· TSLA Tesla Stocks Rise 3.7% Before a $7.8 Billion
+  Capex Test (Yahoo Finance)
+· KO How Coca-Cola Got Burned With a $5 Billion Bet
+  on Costa Coffee (Bloomberg)
 · BAC 8-K: 5.02 entrada ou saida de diretor ou
   conselheiro (SEC)
 · BAC Bank of America Corporation (BAC) Declares
@@ -39,12 +42,7 @@ NOTÍCIAS E FATOS (12 com materialidade ·
   Ahead of Earnings (TradingView (Reuters))
 · AMZN UBS reiterates 3M stock Buy rating on Amazon
   deal, growth outlook (Investing.com)
-· AMZN UBS reiterates 3M stock Buy rating on Amazon
-  deal, growth outlook (Investing.com)
-· BBDC4 Bradesco (BBDC4): mercado prevê alta no
-  lucro no 3T26, mas inadimplência ainda desafia a
-  recuperação do banco (Money Times)
-  (+6)
+  (+8)
 
 CURVAS · taxa (Δ bps)
 DI (D0, Δ dia·sem bps) F28 12,78 (-0·+7) F29 12,56
@@ -60,7 +58,7 @@ TD (base 15/10, Δ desde 14/10) Pre 2029 12,64 (+10)
     (descasado) 5,58% vs Focus IPCA 2027 4,32%
 UST (D0) 2y 4,81 (+2) · 10y 5,13 (+1) · 30y 5,42 (0)
     · 2s10s +32 (-1)
-Regime: VIX 16,7 (-3,6%) · score risco 0 de 6 ·
+Regime: VIX 16,7 (-3,6%) · score risco 0 de 5 ·
     regime de vol LIGADO
 
 LEITURA DA MESA
@@ -80,7 +78,14 @@ qua 28/10 resultado VALE3 (após B3, estimado)
 qua 28/10 resultado KLBN4 (após B3, estimado)
 qua 28/10 resultado UGPA3 (após B3, estimado)
 
-LACUNAS: tesouro: falha: ValueError: cabecalho
+LACUNAS: DXY sem barra de 21/10 (última 20/10);
+  BRENT sem barra de 21/10 (última 20/10); DXY:
+  barra de 21/10 é o início da sessão seguinte
+  (última cotação 19:49 de Nova York); barra
+  descartada, fica a de 20/10; BRENT: barra de 21/10
+  é o início da sessão seguinte (última cotação
+  19:35 de Nova York); barra descartada, fica a de
+  20/10; tesouro: falha: ValueError: cabecalho
   inesperado no CSV do Tesouro.
 Fontes: Yahoo Finance · B3 Boletim Diário · Tesouro
   Transparente · Treasury.gov CMT · BCB
@@ -165,10 +170,10 @@ MRVE3  MRV        8,23 -1,4 +9,9  +56 +8,4  +24 +5,6
 CURY3  Cury      32,36 -1,2 +0,3  +11 -1,6  +14 +5,5
 Macro
 USDBRL USD/BRL  5,0263 +0,2  0,0 -1,5 +0,4 -6,4 -8,2
-DXY    DXY      101,72  0,0 -0,8 +1,3 +3,2 +2,8 +3,5
-BRENT  Brent    109,73 +0,9 +3,5  +14 +7,7  +79  +80
-BTC*   BTC      84.620 +2,0 +3,7 -2,3 +8,2  -22 -3,3
-ETH*   ETH       2.490 +1,8 +3,0  -10 +4,8  -36  -16
+DXY*   DXY      101,73 -0,2 -0,4 +1,5 +3,4 +3,2 +3,5
+BRENT* Brent    108,79 -0,7 +2,9 +4,7  +10  +78  +79
+BTC*   BTC      84.021 +1,3 +3,0 -3,0 +7,4  -23 -4,0
+ETH*   ETH       2.471 +1,0 +2,2  -11 +4,0  -36  -17
 MINER* Minerio   90,86 -0,1 +0,2 -6,9  -15  -14  -15
 ```
 UCITS por extenso: VWRA Vanguard FTSE All-World

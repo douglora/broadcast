@@ -1,4 +1,4 @@
-ALERTAS · eventos
+ALERTAS · Fechamento 18h
 
 (pendente de slot anterior) [CRÍTICO] T08 · MRVE3 entrou em bear técnico: -21% do pico de 52s (R$ 10,43 em 26/02) a R$ 8,23
 1m +56% · 6m +8,4% · 12m +24%
@@ -45,35 +45,62 @@ Como falar: 'saiu no Investing.com: UBS reiterates 3M stock Buy rating on Amazon
 Fonte: Investing.com 21/10 11h36
 ids: E05-AMZN-14cff58eb2-2026-10-21
 
-[ATENÇÃO] E05 · KO · How Coca-Cola Got Burned With a $5 Billion Bet on Costa Coffee
+(pendente de slot anterior) [ATENÇÃO] E05 · KO · How Coca-Cola Got Burned With a $5 Billion Bet on Costa Coffee
 Bloomberg · 21/10 10h46 · fonte única · licença: manchete
 Link: https://www.bloomberg.com/news/features/2026-10-21/how-coca-cola-s-5-billion-costa-coffee-deal-went-wrong
 Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
 Ativos: KO
 Como falar: 'saiu no Bloomberg: How Coca-Cola Got Burned With a $5 Billion Bet on Costa Coffee; confirmar o número no texto antes de repassar'
 Fonte: Bloomberg 21/10 10h46
-Push: [ATENÇÃO] KO · How Coca-Cola Got Burned With a $5 Billion Bet on Costa · detalhe na sessão
 ids: E05-KO-a475774f28-2026-10-21
 
+[ATENÇÃO] E05 · TSLA · Tesla Stocks Rise 3.7% Before a $7.8 Billion Capex Test
+Yahoo Finance · 21/10 19h25 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Electric-vehicle and AI developer Tesla (NASDAQ:TSLA) climbed to $387.475, up 3.68% from the previous close, around 10:00 a.m.
+  – ET on October 21 as investors awaited quarterly results.
+  – Tesla's company-compiled analyst consensus projects $28.34 billion in third-quarter revenue alongside $7.77 billion in capital spending.
+  – GuruFocus has detected 6 Warning Signs with TSLA.
+  – Analysts expect a 17.9% gross margin but just a 2.5% operating margin, leaving little revenue flowing through to operating profit.
+  – They also forecast $3.27 billion in operating cash flow and negative $4.51 billion in free cash flow.
+Link: https://finance.yahoo.com/markets/stocks/articles/tesla-stocks-rise-3-7-222518549.html
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: TSLA
+Como falar: 'saiu no Yahoo Finance: Tesla Stocks Rise 3.7% Before a $7.8 Billion Capex Test; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 21/10 19h25
+Push: [ATENÇÃO] TSLA · Tesla Stocks Rise 3.7% Before a $7.8 Billion Capex Te · detalhe na sessão
+ids: E05-TSLA-9faf4051dd-2026-10-21
+
 Info (só linha no Fechamento):
-· E05 TSLA · Tesla profits drop but top analyst estimates
-· E05 TSLA · Tesla Beats Estimates as Musk Floats SpaceX Merger
-· E05 META · Update: US Equity Indexes Rise Ahead of Quarterly Earnings From Meta Platforms, Tesla Following Blockbuster SpaceX Results
-· E05 UST · Treasury yields steady as investors await jobless claims
+· E05 USDBRL · Ibovespa cai 0,86% com pesquisa eleitoral; dólar fecha a R$ 5,027
+· E05 TSLA · Tesla earnings call: Musk talks EV demand, Optimus production, and Terafab value (TSLA:NASDAQ)
+· E05 LITE · Lumentum Holdings Inc. (LITE) Stock Forecasts
+· E05 META · Meta Platforms, Inc. Q3 2026 Earnings: Live Updates of $META Earnings Call, Stock Forecast
+· E05 AMD · AMD Stocks Gain 1.8% as AI Ambition Pulls Valuation Higher
+· E05 TSLA · Tesla's FSD growth is the real earnings story, says Deepwater's Gene Munster
+· E05 TSLA · Tesla (NASDAQ:TSLA) reports Q3 2026 revenue in line with expectations
+· E05 UST · Treasury Counselor David Zervos: Energy shock, not sticky inflation, driving yields
+· E05 USDBRL · Dólar hoje sobe a R$ 5,02, após nova pesquisa da Quaest e na contramão do exterior
+· E05 TSLA · Tesla Third-Quarter Earnings Top Views as Automotive, Energy Generation Sales Decline
+· E05 TSLA · Q3 Earnings Beats for Meta, Tesla, IBM and T.I.
+· E05 META · Meta Platforms (META) Tops Q3 Earnings and Revenue Estimates
+· E05 MRVL · Marvell Technology (MRVL) Rises Higher Than Market: Key Facts
+· E05 USDBRL · Ibovespa cai quase 1% com empate entre Flávio e Lula nas pesquisas; dólar vai a R$ 5,03
 · T04 MCHI fechou na mínima de 52 semanas: US$ 50,05, -7,3% em 1m e -20% em 12m
 · T04 RARA11 fechou na mínima da série de 66 sessões: R$ 11,99, -25% em 1m e - em 12m
 
 Suprimidos pelo teto (viram linha do Fechamento): T04-MCHI-minima-2026-10-21 (teto de atenção), T04-RARA11-minima-2026-10-21 (teto de atenção)
 
 Alertas do dia (todos, com status):
-· pendente  T08 MRVE3 — MRVE3 entrou em bear técnico: -21% do pico de 52s (R$ 10,43 em 26/02) a R$ 8,23
+· expirado  T08 MRVE3 — MRVE3 entrou em bear técnico: -21% do pico de 52s (R$ 10,43 em 26/02) a R$ 8,23
+· pendente  E05 TSLA — TSLA · Tesla Stocks Rise 3.7% Before a $7.8 Billion Capex Test
 · pendente  E05 KO — KO · How Coca-Cola Got Burned With a $5 Billion Bet on Costa Coffee
 · linha     T04 MCHI — MCHI fechou na mínima de 52 semanas: US$ 50,05, -7,3% em 1m e -20% em 12m
 · linha     T04 RARA11 — RARA11 fechou na mínima da série de 66 sessões: R$ 11,99, -25% em 1m e - em 12m
-· pendente  E04 BAC — BAC · 8-K: 5.02 entrada ou saida de diretor ou conselheiro
-· pendente  E05 BAC — BAC · Bank of America Corporation (BAC) Declares $0.32 Q4 Common Dividend
-· pendente  E05 INTC — INTC · Veteran Bank Cuts Intel Stock Price Target Ahead of Earnings
-· pendente  E05 AMZN — AMZN · UBS reiterates 3M stock Buy rating on Amazon deal, growth outlook
+· expirado  E04 BAC — BAC · 8-K: 5.02 entrada ou saida de diretor ou conselheiro
+· expirado  E05 BAC — BAC · Bank of America Corporation (BAC) Declares $0.32 Q4 Common Dividend
+· expirado  E05 INTC — INTC · Veteran Bank Cuts Intel Stock Price Target Ahead of Earnings
+· expirado  E05 AMZN — AMZN · UBS reiterates 3M stock Buy rating on Amazon deal, growth outlook
 · linha     S01 SISTEMA — coleta do slot fechamento saiu incompleta: tesouro: falha: ValueError: cabecalho
 · expirado  E05 AMZN — AMZN · UBS reiterates 3M stock Buy rating on Amazon deal, growth outlook
 · expirado  E05 BBDC4 — BBDC4 · Bradesco (BBDC4): mercado prevê alta no lucro no 3T26, mas inadimplência
@@ -93,4 +120,4 @@ Alertas do dia (todos, com status):
 · linha     T07 VALE3 — VALE3 entrou em sobrevendido: RSI14 24 a R$ 64,03
 · linha     T10 BAC — BAC no mínimo de força relativa em 63 sessões contra SPX: -9,3% vs +0,7% em 20 s
 · linha     T11 INTC — INTC descolou atrás de GFS: -24% vs +2,8% em 20 sessões (z -2,2 em 252 sessões, 
-· (+69 notícias só manchete, em noticias.md)
+· (+83 notícias só manchete, em noticias.md)

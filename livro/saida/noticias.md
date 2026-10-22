@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 21/10 18h30
+NOTÍCIAS E FATOS · 21/10 20h58
 
-Pernas: noticias ok 5 novas (18 consultas; descartadas: 399 veículo fora da lista, 19 sem ativo, 0 teto) · cvm ok 0 novos de 6 (4 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 15 novas (18 consultas; descartadas: 435 veículo fora da lista, 22 sem ativo, 18 teto) · cvm ok 0 novos de 6 (4 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (1)
 
@@ -30,10 +30,26 @@ Por que importa: troca de diretor ou conselheiro reabre a discussao de estrategi
 Ativos: BAC
 Como falar: 'a BAC protocolou 8-K na SEC (5.02 entrada ou saida de diretor ou conselheiro)'
 Fonte: SEC EDGAR 2026-10-21
-id: E04-BAC-26000494-2026-10-21 · status: pendente · íntegra disponível
+id: E04-BAC-26000494-2026-10-21 · status: expirado · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (13)
+## NOTÍCIAS COM MATERIALIDADE (14)
+
+[ATENÇÃO] E05 · TSLA · Tesla Stocks Rise 3.7% Before a $7.8 Billion Capex Test
+Yahoo Finance · 21/10 19h25 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Electric-vehicle and AI developer Tesla (NASDAQ:TSLA) climbed to $387.475, up 3.68% from the previous close, around 10:00 a.m.
+  – ET on October 21 as investors awaited quarterly results.
+  – Tesla's company-compiled analyst consensus projects $28.34 billion in third-quarter revenue alongside $7.77 billion in capital spending.
+  – GuruFocus has detected 6 Warning Signs with TSLA.
+  – Analysts expect a 17.9% gross margin but just a 2.5% operating margin, leaving little revenue flowing through to operating profit.
+  – They also forecast $3.27 billion in operating cash flow and negative $4.51 billion in free cash flow.
+Link: https://finance.yahoo.com/markets/stocks/articles/tesla-stocks-rise-3-7-222518549.html
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: TSLA
+Como falar: 'saiu no Yahoo Finance: Tesla Stocks Rise 3.7% Before a $7.8 Billion Capex Test; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 21/10 19h25
+id: E05-TSLA-9faf4051dd-2026-10-21 · status: pendente
 
 [ATENÇÃO] E05 · KO · How Coca-Cola Got Burned With a $5 Billion Bet on Costa Coffee
 Bloomberg · 21/10 10h46 · fonte única · licença: manchete
@@ -51,7 +67,7 @@ Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir
 Ativos: BAC
 Como falar: 'saiu no TradingView (Reuters): Bank of America Corporation (BAC) Declares $0.32 Q4 Common Dividend; confirmar o número no texto antes de repassar'
 Fonte: TradingView (Reuters) 21/10 17h15
-id: E05-BAC-b26d1862ad-2026-10-21 · status: pendente
+id: E05-BAC-b26d1862ad-2026-10-21 · status: expirado
 
 [ATENÇÃO] E05 · INTC · Veteran Bank Cuts Intel Stock Price Target Ahead of Earnings
 TradingView (Reuters) · 21/10 15h18 · fonte única · licença: manchete
@@ -60,7 +76,7 @@ Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; 
 Ativos: INTC
 Como falar: 'saiu no TradingView (Reuters): Veteran Bank Cuts Intel Stock Price Target Ahead of Earnings; confirmar o número no texto antes de repassar'
 Fonte: TradingView (Reuters) 21/10 15h18
-id: E05-INTC-090b4aa9ce-2026-10-21 · status: pendente
+id: E05-INTC-090b4aa9ce-2026-10-21 · status: expirado
 
 [ATENÇÃO] E05 · AMZN · UBS reiterates 3M stock Buy rating on Amazon deal, growth outlook
 Investing.com · 21/10 11h36 · fonte única · licença: manchete
@@ -69,7 +85,7 @@ Por que importa: aquisicao ou venda muda alavancagem, mix de receita e o multipl
 Ativos: AMZN · MMM
 Como falar: 'saiu no Investing.com: UBS reiterates 3M stock Buy rating on Amazon deal, growth outlook; confirmar o número no texto antes de repassar'
 Fonte: Investing.com 21/10 11h36
-id: E05-AMZN-14cff58eb2-2026-10-21 · status: pendente
+id: E05-AMZN-14cff58eb2-2026-10-21 · status: expirado
 
 [ATENÇÃO] E05 · MMM · MMM Q3 Earnings Call Highlights AI Deals and Higher Outlook
 TradingView (Reuters) · 21/10 10h10 · fonte única · licença: manchete
@@ -181,8 +197,22 @@ Fonte: CanalEnergia 20/10 18h55
 id: E05-AXIA3-d34f17fe4a-2026-10-20 · status: entregue
 
 
-## OUTRAS NOTÍCIAS (só manchete) (64)
+## OUTRAS NOTÍCIAS (só manchete) (78)
 
+· USDBRL Ibovespa cai 0,86% com pesquisa eleitoral; dólar fecha a R$ 5,027 (UOL Economia) https://economia.uol.com.br/cotacoes/noticias/redacao/2026/10/21/fecha-dolar-bolsa-hoje-21-de-outubro-de-2026.htm
+· TSLA Tesla earnings call: Musk talks EV demand, Optimus production, and Terafab value (TSLA:NASDAQ) (Seeking Alpha) https://seekingalpha.com/news/4655637-tesla-earnings-call-musk-talks-ev-demand-optimus-production-and-terafab-value
+· LITE Lumentum Holdings Inc. (LITE) Stock Forecasts (Yahoo Finance) https://finance.yahoo.com/research/reports/ARGUS_4688_QuantitativeReport_1792540800000
+· META Meta Platforms, Inc. Q3 2026 Earnings: Live Updates of $META Earnings Call, Stock Forecast (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/meta-platforms-inc-q3-2026-215356830.html
+· AMD AMD Stocks Gain 1.8% as AI Ambition Pulls Valuation Higher (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/amd-stocks-gain-1-8-214209469.html
+· TSLA Tesla's FSD growth is the real earnings story, says Deepwater's Gene Munster (CNBC) https://www.cnbc.com/video/2026/10/21/teslas-fsd-growth-is-the-real-earnings-story-says-deepwaters-gene-munster.html
+· TSLA Tesla (NASDAQ:TSLA) reports Q3 2026 revenue in line with expectations (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/tesla-nasdaq-tsla-reports-q3-212913068.html
+· UST Treasury Counselor David Zervos: Energy shock, not sticky inflation, driving yields (CNBC) https://www.cnbc.com/video/2026/10/21/treasury-counselor-david-zervos-energy-shock-not-sticky-inflation-driving-yields.html
+· USDBRL Dólar hoje sobe a R$ 5,02, após nova pesquisa da Quaest e na contramão do exterior (InfoMoney) https://www.infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-21102026/
+· TSLA Tesla Third-Quarter Earnings Top Views as Automotive, Energy Generation Sales Decline (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/tesla-third-quarter-earnings-top-205848924.html
+· TSLA Q3 Earnings Beats for Meta, Tesla, IBM and T.I. (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/q3-earnings-beats-meta-tesla-205600481.html
+· META Meta Platforms (META) Tops Q3 Earnings and Revenue Estimates (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/meta-platforms-meta-tops-q3-205006462.html
+· MRVL Marvell Technology (MRVL) Rises Higher Than Market: Key Facts (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/marvell-technology-mrvl-rises-higher-204504597.html
+· USDBRL Ibovespa cai quase 1% com empate entre Flávio e Lula nas pesquisas; dólar vai a R$ 5,03 (Exame) https://news.google.com/rss/articles/CBMimgFBVV95cUxQd0FTcnlrOGt6aFVTRHp2YU1leUFySWx2RlQzNTBjYWlsSlBnWTV6VUFLVnNXOTZTbHdDY00yRTVkZTVBQ2FHdXl1WnA3TzltdWZXeE5QcWRVT0gzVlVwMWtKdlJ5YTFHckdsNEFndktQXzB2dVdHdXcwZ3R1UTlnWGZKSzBoWENMN1BLektNaTlibXo4cXFZUkV3?oc=5
 · TSLA Tesla profits drop but top analyst estimates (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/tesla-profits-drop-top-analyst-205828910.html
 · TSLA Tesla Beats Estimates as Musk Floats SpaceX Merger (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/tesla-beats-estimates-musk-floats-204544066.html
 · META Update: US Equity Indexes Rise Ahead of Quarterly Earnings From Meta Platforms, Tesla Following Blockbuster SpaceX Results (Yahoo Finance) https://ca.finance.yahoo.com/news/us-equity-indexes-rise-ahead-193943286.html
@@ -229,18 +259,4 @@ id: E05-AXIA3-d34f17fe4a-2026-10-20 · status: entregue
 · BTC Bitcoin price tags $84.6K as US stocks head higher on SpaceX Q3 earnings beat (TradingView (Reuters)) https://www.tradingview.com/news/cointelegraph:d3a88afb8094b:0-bitcoin-price-tags-84-6k-as-us-stocks-head-higher-on-spacex-q3-earnings-beat/
 · INTC Intel hits construction milestone at Ohio chip fab that’s at least 5 years behind schedule (CNBC) https://news.google.com/rss/articles/CBMinAFBVV95cUxNanJVeDF2OGJlVm1CM0JtNkVZYkN1ZXFicVV4VC1WMVg5d2xwdkhxUm42MXhGZURic0dHSVV4UHE2V2JJUmJMZElfVGVlVml2dE9OcjRTT3M4U2gwaklacW56R2cwZGtfbTFVMUZiVWtoa1FCaHV3X1FCOS1xMEhJVDBLdzRUbkgwb3JEY2xxWmh6SkZYZDJFU2dTTHbSAaIBQVVfeXFMTy1WYkZINUtxdzFSUDB3T0JkR1phaWJLMTRqeURJUE1BZVdqOUxWdl95Tko1NHlBLXBvYW9RRHlSUl9PQ2VWUjZPc3paTC1FVUZmTGExNVpjOVMzT3g0RUlsX2RNUVU4Zl91NlVpRERDOGp0SFZOS3FsaE9HOUpYYjdEZ25CeGsyMVJXTXc4Yk1UWTlEYlRyUW1TdnRCYnRxXzhB?oc=5
 · MU Time for a Micron mindset shift? Here’s how to navigate the new AI landscape. (MarketWatch) https://news.google.com/rss/articles/CBMiuAFBVV95cUxOdkFINWtNS05kT0NQcWQ4aWJfOXpiMDFiU0JHMjRDUWNXd1c1b2hkcmJwSlp4ZkxzOVZEa01sbXVmbEtBa2xvcFVkTTVUOU9IMENqLVdFZmtydmd3SU9FRHRpSDdZbGZOeHdDR09VTUdUekpsZjFzQ2VESTFVOTZ5S0lfZEo2THZYRnhvV2VHejE2OUN5dmpyeldTcnJyTDlLeDJTbzU3WkVQYnVSOTQ4UmFFR3FxaWJS?oc=5
-· COHR Total revenue of Coherent Corp Shs Canadian Depositary Receipt Repr Shs Reg S – NEO:COHR (TradingView (Reuters)) https://news.google.com/rss/articles/CBMikAFBVV95cUxOclA1VkFvVVRrOXdJWFlYSlhrZXlpcW8yXzE2b2ozdW1kLWpTc1ZOa2hzRDVGYkppNVAzRnV2VW4waUIzNnFONzJ0SXFlOElSTkNJQ3ZDU2VHZHRYZTZRWGpMb3RUUVdSeVJrRnZZWHhxei1IaWZ6Rlc4UWxOb1BHTW54WDAtbXEtdkRyY3ZfMjg?oc=5
-· TSLA Where is Optimus? Key questions for Tesla earnings. (Yahoo Finance) https://news.google.com/rss/articles/CBMinAFBVV95cUxPZ3R4T09FT2hsS3ZGU21OUGtpYlpheFMyZ2NDazZKZVhGNEpscFNpVnRhNGdDUWI3aHd4a1lZTzMxc0dLOUg1OW1xb2NEbDg5UE01aFhfdlVWa0NvcUlmclNzUGp5Z3I0SEk3YzRfM2U1Wkt6MU9FQ0dlUDZQbE12SFk0emhwTFBQem0xOGZLRHFfWXBGWnJQekpzVm8?oc=5
-· TSLA Tesla (TSLA) Needs Stronger Earnings to Justify Its Autonomy Ambitions (Yahoo Finance) https://news.google.com/rss/articles/CBMioAFBVV95cUxNQUcwYWxJdEhTZm9CbnBsUngyNEZlcnM2NXpsRG1CT3U2TzUwem9tdkxHVVRLcDdMMFF5RDVFclYxY2ZIMmwzSm8yU0pLU3dabnhuSWJTOVpTeHZuVkFoRjh0a2NxaW1mVnhPQ0loSWtuQ1h2bXpDWjVHc0VFZDJZQ0p0c29rS21WbWtSOEdDTUdwNU9GbENSUkptOThLSlBx?oc=5
-· NVDA Nvidia unveils DSX POD, a data center about the size of a shipping container (Yahoo Finance) https://finance.yahoo.com/technology/article/nvidia-unveils-dsx-pod-a-data-center-about-the-size-of-a-shipping-container-113000508.html
-· SBSP3 Sabesp confirma fim de processo de incorporação de ações da EMAE (UOL Economia) https://economia.uol.com.br/noticias/redacao/2026/10/21/sabesp-confirma-incorporacao-de-acoes-da-emae-e-encerra-direito-de-retirada-sem-pedidos-de-reembolso.ghtm
-· BTC Bitcoin risk management grows more popular as the 'just bet on price' era fades (CoinDesk) https://www.coindesk.com/daybook-us/2026/10/21/bitcoin-risk-management-grows-more-popular-as-the-just-bet-on-price-era-fades
-· GOOGL If Alphabet Does This on Oct. 28, the Stock Could Skyrocket (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/alphabet-does-oct-28-stock-111300411.html
-· TSLA Stocks Rise Pre-Bell as Traders Await Meta, Tesla Earnings (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/stocks-rise-pre-bell-traders-111252077.html
-· NVDA Nvidia’s $10 Billion AI Data Center Quick-Fix and the Winning Stocks (Barron's) https://www.barrons.com/articles/nvidia-huang-data-centre-ai-pods-6812247d
-· BTC Bitcoin price resistance near $87K reinforced by late 2025 buyers, Glassnode says (TradingView (Reuters)) https://www.tradingview.com/news/cryptobriefing:4c40b83a1094b:0-bitcoin-price-resistance-near-87k-reinforced-by-late-2025-buyers-glassnode-says/
-· USDBRL Preço do ouro cai com dólar forte, tensão EUA-Irã e incerteza sobre juros do Fed (ADVFN) https://br.advfn.com/jornal/2026/10/ouro-cai-dolar-forte-tensao-eua-ira-juros-fed
-· BTC Bitcoin ‘top buyers’ halt BTC price upside with $87.7K now key: Glassnode (TradingView (Reuters)) https://www.tradingview.com/news/cointelegraph:90d25bde7094b:0-bitcoin-top-buyers-halt-btc-price-upside-with-87-7k-now-key-glassnode/
-· USDBRL Pesquisa Quaest aparece em dia mais esvaziado e investidores monitoram balanços; Ibovespa em dólar cai nesta quarta-feira (21) (Money Times) https://www.moneytimes.com.br/pesquisa-quaest-aparece-em-dia-mais-esvaziado-e-investidores-monitoram-balancos-ibovespa-em-dolar-cai-nesta-quarta-feira-21-rens/
-· UST Indian central bank rejects all bids at treasury bill auction as short-term yields surge (TradingView (Reuters)) https://www.tradingview.com/news/reuters.com,2026:newsml_L4N4670PI:0-indian-central-bank-rejects-all-bids-at-treasury-bill-auction-as-short-term-yields-surge/
-· (+4 manchetes; lista completa em eventos/noticias.json)
+· (+18 manchetes; lista completa em eventos/noticias.json)
