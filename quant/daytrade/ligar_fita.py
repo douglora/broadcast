@@ -28,6 +28,8 @@ import argparse
 import filecmp
 import json
 import os
+import threading
+import re
 import shutil
 import subprocess
 import sys
@@ -95,6 +97,37 @@ def _pids(padrao):
     return [int(x) for x in str(r.stdout or "").split() if x.strip().isdigit()] if r.returncode == 0 else []
 
 
+def _frente():
+    """(bundle id, nome) do aplicativo na frente da tela, pelo lsappinfo (nao pede permissao ao macOS). As janelas do MetaTrader aparecem
+    como "wine", sem bundle id."""
+    try:
+        asn = subprocess.run(["lsappinfo", "front"], capture_output=True, text=True, timeout=5).stdout.strip()
+        info = subprocess.run(["lsappinfo", "info", "-only", "bundleid", "-only", "name", asn], capture_output=True, text=True, timeout=5).stdout
+    except Exception:
+        return None, None
+    b = re.search(r'"CFBundleIdentifier"="([^"]+)"', info)
+    n = re.search(r'"LSDisplayName"="([^"]+)"', info)
+    return (b.group(1) if b else None), (n.group(1) if n else None)
+
+
+def _eh_metatrader(bundle, nome):
+    return (bundle or "").startswith("net.metaquotes") or (nome or "").lower() in ("wine", "wine64-preloader", "metatrader 5", "terminal64.exe")
+
+
+def devolver_foco(bundle, segundos=120.0):
+    """22/10/2026 ("o MT5 fica abrindo toda hora na minha tela"): a janela do MetaTrader (Wine) toma a frente da tela ao abrir, mesmo com
+    `open -g`. Durante `segundos` depois de uma reabertura (a XP e, ~10 s depois, a segunda instancia que o vigia sobe), sempre que o
+    MetaTrader estiver na frente, a frente volta para o aplicativo `bundle` (o que estava na frente antes). Sem `bundle`, nada."""
+    if not bundle or _eh_metatrader(bundle, None):
+        return
+    fim = time.time() + segundos
+    while time.time() < fim:
+        b, n = _frente()
+        if _eh_metatrader(b, n):
+            subprocess.run(["open", "-b", bundle], capture_output=True, timeout=10)
+        time.sleep(0.5)
+
+
 def _reabrir_metatrader(log=None):
     """Fecha e reabre o MetaTrader da XP. 14/10/2026: na 4a reabertura do dia a XP nao voltou e a B3 ficou sem tempo real das
     11h52 ate o fim do pregao. Causa: a segunda instancia (Global) tinha ficado orfa de um wineserver que ja saiu; a espera por
@@ -102,6 +135,9 @@ def _reabrir_metatrader(log=None):
     segunda instancia que sobrou sem a XP e encerrada pelo pid (nunca `taskkill /im`, que leva a XP junto); depois do `open`
     confere em ate 60 s que a XP voltou e tenta uma segunda vez, registrando no log. Devolve True se a XP esta de pe."""
     anota = log or (lambda m: None)
+    antes, _ = _frente()                                      # quem estava na frente da tela volta para a frente quando o MetaTrader abrir
+    if antes and not _eh_metatrader(antes, None):
+        threading.Thread(target=devolver_foco, args=(antes, 150.0), daemon=True).start()
     subprocess.run(["osascript", "-e", 'tell application "MetaTrader 5" to quit'], capture_output=True, timeout=30)
     for _ in range(30):
         if not _pids(PADRAO_XP):

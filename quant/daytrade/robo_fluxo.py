@@ -93,8 +93,13 @@ DADO_RESERVA_MIN = 22             # antes do dado as outras leituras nao abrem p
 QUEM_OPERA = {"dado_opera": True, "climax_opera": True, "niveis_opera": False}
 # Cotacoes em rajadas: a conexao do MetaTrader com a corretora degrada e os tiques chegam de 20 em 20 segundos (08/10 de
 # manha e a tarde, 09/10 as 10h15). O remedio que sempre resolveu e fechar e reabrir o MetaTrader; o robo agora faz sozinho.
-FEED_RUIM = {"sem_tique_s": 30.0, "atraso_ms": 15_000.0, "leituras": 3, "espera_s": 180.0, "max_por_dia": 8,
-             "pausa_do_mac_s": 30.0, "carencia_ao_acordar_s": 120.0}
+FEED_RUIM = {"sem_tique_s": 30.0, "atraso_ms": 15_000.0, "leituras": 3, "espera_s": 900.0, "max_por_dia": 3,
+             "pausa_do_mac_s": 30.0, "carencia_ao_acordar_s": 120.0, "carencia_reabrir_s": 600.0, "abertura_b3": ("09:58", "10:20")}
+# 22/10/2026 ("o MT5 fica abrindo toda hora na minha tela, atrapalhando"): das 10h02 as 10h14 o robo reabriu o MetaTrader 5 vezes, uma a cada
+# 3 min. Na abertura da B3 as 600 acoes abrem juntas e a XP engasga alguns minutos (o atraso tipico do motor vai a 25-28 s, como em 05/10);
+# cada reabertura gera outro engasgo (a corretora reenvia o que mudou) e o atraso tipico seguia alto: um ciclo. Agora o atraso tipico NAO
+# conta na abertura (09h58 as 10h20) nem nos 10 min depois de uma reabertura (so conta a parada de verdade, `sem_tique_s`); entre uma
+# reabertura e outra, 15 min; no maximo 3 por dia. E cada reabertura devolve a frente da tela ao aplicativo que estava nela (ligar_fita).
 # 14/10/2026: das 11h52 ao fim do pregao o robo ficou sem cotacao (o MetaTrader que ele fechou nao voltou) e ninguem soube.
 # Com o pregao aberto, mais de CEGO_S sem tique novo = cego: o robo anota quando fica cego e quando volta, e guarda os
 # intervalos no estado ("cegueira"), que a revisao da noite le.
@@ -783,7 +788,10 @@ class RoboFluxo:
             threading.Thread(target=reabrir_metatrader, daemon=True).start()
             return True
         f = self.feed or {}
-        ruim = (f.get("sem_tique_s") or 0) >= FEED_RUIM["sem_tique_s"] or (f.get("atraso_ms") or 0) >= FEED_RUIM["atraso_ms"]
+        # o atraso tipico nao conta na abertura da B3 nem logo depois de uma reabertura: e o engasgo normal, e julgar por ele fazia um ciclo
+        atraso_conta = not (FEED_RUIM["abertura_b3"][0] <= hm < FEED_RUIM["abertura_b3"][1]
+                            or (self.reconectou_em and time.time() - self.reconectou_em < FEED_RUIM["carencia_reabrir_s"]))
+        ruim = (f.get("sem_tique_s") or 0) >= FEED_RUIM["sem_tique_s"] or (atraso_conta and (f.get("atraso_ms") or 0) >= FEED_RUIM["atraso_ms"])
         self.feed_ruim = self.feed_ruim + 1 if ruim else 0
         if self.feed_ruim < FEED_RUIM["leituras"] or time.time() - self.reconectou_em < FEED_RUIM["espera_s"] \
                 or self.reconexoes >= FEED_RUIM["max_por_dia"] or not metatrader_aberto():

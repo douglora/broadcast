@@ -1164,7 +1164,7 @@ def test_robo_reabre_o_metatrader_sozinho_quando_as_cotacoes_vem_em_rajadas(tmp_
     monkeypatch.setattr(rf, "reabrir_metatrader", lambda: chamadas.append(1))
     monkeypatch.setattr(rf, "metatrader_aberto", lambda: True)
     monkeypatch.setattr(rf.threading, "Thread", lambda target, daemon=None: type("T", (), {"start": lambda self: target()})())
-    agora = datetime(2026, 10, 9, 10, 15, 0, tzinfo=BRT)
+    agora = datetime(2026, 10, 9, 10, 45, 0, tzinfo=BRT)       # depois da abertura da B3 (22/10/2026)
 
     def leitura(sem_tique, atraso, quando=agora):
         r.feed, r.feed_em = {"sem_tique_s": sem_tique, "atraso_ms": atraso, "mt5": "ligado"}, r.feed_em + 6.0
@@ -1172,7 +1172,7 @@ def test_robo_reabre_o_metatrader_sozinho_quando_as_cotacoes_vem_em_rajadas(tmp_
     # saudavel: nada. Duas leituras ruins: ainda nada. A terceira seguida: reabre.
     assert [leitura(0.3, 180.0), leitura(31.0, 24000.0), leitura(4.0, 24000.0)] == [False, False, False] and chamadas == []
     assert leitura(22.0, 24500.0) is True and chamadas == [1] and "Reabrindo o MetaTrader sozinho (1ª vez hoje)" in r.diario[-1]["texto"]
-    # logo depois nao repete (espera de 3 minutos), mesmo que siga ruim
+    # logo depois nao repete (espera de 15 minutos), mesmo que siga ruim
     assert [leitura(35.0, 30000.0) for _ in range(4)] == [False] * 4 and chamadas == [1]
     # passada a espera e ainda ruim: reabre de novo. A mesma leitura da saude nao conta duas vezes; leitura boa zera a contagem
     r.reconectou_em = 0.0
@@ -1185,7 +1185,7 @@ def test_robo_reabre_o_metatrader_sozinho_quando_as_cotacoes_vem_em_rajadas(tmp_
     monkeypatch.setattr(rf, "metatrader_aberto", lambda: False)
     reconexoes, r.reconexoes = r.reconexoes, 0                  # fechado de proposito (o robo nao fechou nada hoje): nao abre
     assert [leitura(40.0, 30000.0) for _ in range(4)] == [False] * 4 and chamadas == [1, 1]
-    # 14/10/2026: fechado PELO ROBO para reabrir, e a XP nao voltou: ele insiste (com a mesma espera de 3 minutos)
+    # 14/10/2026: fechado PELO ROBO para reabrir, e a XP nao voltou: ele insiste (com a mesma espera de 15 minutos)
     r.reconexoes, r.reconectou_em = reconexoes, 0.0
     assert leitura(40.0, 30000.0) is True and chamadas == [1, 1, 1] and "não voltou: tentando abrir de novo (3ª vez hoje)" in r.diario[-1]["texto"]
     assert [leitura(40.0, 30000.0) for _ in range(4)] == [False] * 4 and chamadas == [1, 1, 1]
@@ -1196,6 +1196,50 @@ def test_robo_reabre_o_metatrader_sozinho_quando_as_cotacoes_vem_em_rajadas(tmp_
     r.reconectou_em = 0.0
     assert leitura(40.0, 30000.0) is False and chamadas == [1, 1, 1]
 
+
+
+def test_robo_nao_reabre_o_metatrader_pelo_engasgo_da_abertura_nem_logo_depois_de_reabrir(tmp_path, monkeypatch):
+    # 22/10/2026: das 10h02 as 10h14 o robo reabriu o MetaTrader 5 vezes (uma a cada 3 min): na abertura da B3 a XP engasga e o atraso
+    # tipico do motor vai a 25-28 s; cada reabertura gerava outro engasgo. O atraso tipico nao conta na abertura (09h58 as 10h20) nem nos
+    # 10 min depois de uma reabertura; a parada de verdade (sem tique) conta sempre
+    rf, r, _mt5 = _robo(tmp_path, monkeypatch, "2026-10-22")
+    chamadas = []
+    monkeypatch.setattr(rf, "reabrir_metatrader", lambda: chamadas.append(1))
+    monkeypatch.setattr(rf, "metatrader_aberto", lambda: True)
+    monkeypatch.setattr(rf.threading, "Thread", lambda target, daemon=None: type("T", (), {"start": lambda self: target()})())
+    abertura = datetime(2026, 10, 22, 10, 2, 13, tzinfo=BRT)
+
+    def leitura(sem_tique, atraso, quando):
+        r.feed, r.feed_em = {"sem_tique_s": sem_tique, "atraso_ms": atraso, "mt5": "ligado"}, r.feed_em + 6.0
+        return r._vigiar_feed(quando)
+    assert [leitura(1.0, 28000.0, abertura) for _ in range(6)] == [False] * 6 and chamadas == [], "engasgo da abertura: nao reabre"
+    assert [leitura(35.0, 28000.0, abertura) for _ in range(3)] == [False, False, True] and chamadas == [1], "parada de verdade: reabre"
+    depois = datetime(2026, 10, 22, 10, 30, 0, tzinfo=BRT)
+    r.reconectou_em = rf.time.time() - 300.0                   # reabriu ha 5 min: o atraso tipico ainda e o engasgo da reabertura
+    assert [leitura(1.0, 28000.0, depois) for _ in range(4)] == [False] * 4 and chamadas == [1]
+    r.reconectou_em = rf.time.time() - 1000.0                  # passados a carencia e a espera: atraso tipico alto de novo conta
+    assert [leitura(1.0, 28000.0, depois) for _ in range(3)] == [False, False, True] and chamadas == [1, 1]
+    assert rf.FEED_RUIM["max_por_dia"] == 3 and rf.FEED_RUIM["espera_s"] == 900.0
+
+
+def test_reabrir_devolve_a_frente_da_tela_ao_aplicativo_que_estava_nela(monkeypatch):
+    from quant.daytrade import ligar_fita as lf
+    frentes = [("com.google.Chrome", "Google Chrome"), (None, "wine"), ("com.google.Chrome", "Google Chrome"), (None, "wine")]
+    abertos = []
+    monkeypatch.setattr(lf, "_frente", lambda: frentes.pop(0) if frentes else ("com.google.Chrome", "Google Chrome"))
+    monkeypatch.setattr(lf.subprocess, "run", lambda cmd, **k: abertos.append(cmd))
+    monkeypatch.setattr(lf.time, "sleep", lambda s: None)
+    relogio = [0.0]
+    def _t():
+        relogio[0] += 0.5
+        return relogio[0]
+    monkeypatch.setattr(lf.time, "time", _t)
+    lf.devolver_foco("com.google.Chrome", segundos=3.0)
+    assert abertos.count(["open", "-b", "com.google.Chrome"]) == 2, abertos
+    assert lf._eh_metatrader(None, "wine") and lf._eh_metatrader("net.metaquotes.wine.MetaTrader5", None) and not lf._eh_metatrader("com.google.Chrome", "Google Chrome")
+    abertos.clear()
+    lf.devolver_foco("net.metaquotes.wine.MetaTrader5", segundos=3.0)    # o proprio MetaTrader estava na frente: nada a devolver
+    assert abertos == []
 
 def test_robo_nao_reabre_o_metatrader_quando_o_mac_acabou_de_acordar(tmp_path, monkeypatch):
     # 09/10/2026: tampa fechada as 13h59; a cada despertar de manutencao o robo via preco velho e reabria o MetaTrader a toa
