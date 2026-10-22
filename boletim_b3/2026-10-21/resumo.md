@@ -1,7 +1,7 @@
 # Boletim da B3: pregão de 21/10/2026 (quarta)
 
 **Situação: PARCIAL.** Ainda sem: posições em aberto (opções e futuros), saldo de aluguel, empréstimos do dia, quadro de posições em aberto. A B3 publica esses blocos na madrugada seguinte ao pregão; a rodada da manhã completa.
-Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10-22T00:53:20Z (UTC).
+Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10-22T05:20:23Z (UTC).
 
 [[LEITURA_DA_MESA]]
 
@@ -13,7 +13,7 @@ Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10
 - **Crédito: prêmio alto.** 22J0306937 (Vert Companhia Securitizadora, CRI): negociada a IPCA+ 14,98%, 822 pb acima do juro real de mercado de prazo equivalente, em R$ 5,7 mi. _(B3, Trade + InstrumentRegistration (preliminar), 21/10)_
 - **Crédito: prêmio alto.** IRJS14 (Igua Rio de Janeiro, debênture incentivada): taxa indicativa da ANBIMA de 21/10 a IPCA+ 11,85%, 510 pb acima do juro real de mercado na duration de 6,4 anos; R$ 5,6 mi negociados na B3 em 21/10, sem taxa. _(ANBIMA e B3, taxa indicativa de debêntures (ANBIMA) e DAP (B3), 21/10)_
 - **Fluxo estrangeiro.** Estrangeiro vendeu R$ 1.009 mi líquidos em 19/10; no mês, até 19/10, saldo de +R$ 19.983 mi. _(B3, SharesInvesVolum, 19/10)_
-- **Listas do dia.** Do livro nas listas do boletim: mais negociadas à vista: PETR4 (1º), VALE3 (2º), ITUB4 (3º), SMAL11 (5º). _(B3, tabelas de maiores oscilacoes, 21/10)_
+- **Listas do dia.** Do livro nas listas do boletim: maiores altas do Ibovespa: UGPA3 (3º); mais negociadas à vista: PETR4 (1º), VALE3 (2º), ITUB4 (3º), SMAL11 (5º). _(B3, tabelas de maiores oscilacoes, 21/10)_
 
 **Já vinham de pregões anteriores**
 
@@ -120,6 +120,18 @@ x média = volume do dia dividido pela média dos pregões anteriores no histór
 
 - Paridade: RARA11 -1,15% contra REMX em reais -1,56% (lá fora -1,28%, câmbio -0,28%); desvio de +0,41%. Fechamentos em horários diferentes: é aproximação.
 
+## Ações do livro em programa de ADR
+
+| Ativo | Ações em ADR (mi) | % da classe | Variação no pregão (mi) |
+|---|---:|---:|---:|
+| ITUB4 | 1.262,5 | 23,3% | +0,00 |
+| PETR4 | 761,6 | 14,0% | +0,00 |
+| VALE3 | 1.261,8 | 28,4% | +0,00 |
+| UGPA3 | 70,3 | 6,3% | +0,00 |
+| AXIA3 | 47,5 | 1,9% | -0,03 |
+
+ADR = recibo da ação negociado em Nova York. Ações entrando no programa indicam compra lá fora; saindo, venda.
+
 **Volume fora do padrão no mercado:** WEGE3 2,4x (-7,33%), DXCO3 2,3x (+0,60%), MGLU3 2,0x (-3,97%), PINE4 2,0x (+6,67%).
 
 ## Renda fixa: debêntures incentivadas, CRI e CRA
@@ -214,16 +226,10 @@ Por classe, mediana das taxas de referência dos papéis. Taxa de referência: n
 - saldo de aluguel: aguardando
 - empréstimos do dia: aguardando
 - aluguel por corretora: ignorado
-- Custody: aguardando
-- DIover: aguardando
 - posições em aberto (opções e futuros): aguardando
-- IbovespaStockBiggestHighs: aguardando
-- IbovespaStockBiggestLow: aguardando
 - Register: aguardando
-- RepurchaseDealings: aguardando
 - Stock: aguardando
 - Posição em aberto de derivativos por tipo de investidor (estrangeiro, institucional, pessoa física): não existe no Boletim Diário do Mercado; procurado nas 69 tabelas e no texto dos 11 cadernos em 30/09/2026.
 - Fluxo por tipo de investidor sai acumulado no mês e com dois pregões de atraso; o saldo de um dia é a diferença entre dois acumulados seguidos.
-- Carteira de índice: a B3 não publicou a tabela neste pregão; valem os pesos de 20/10.
 - RARA11: a B3 não publica valor de referência da cota (IOPV) para este ETF no boletim.
 - Paridade de MELI34: sem a barra de 21/10 de MELI nas séries do livro.

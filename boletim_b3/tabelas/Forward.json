@@ -7,7 +7,7 @@
  "colunas": [{"nome": "TckrSymb", "titulo": "Ação"}, {"nome": "Cod", "titulo": "Código"}, {"nome": "Term", "titulo": "Prazo"}, {"nome": "Closing", "titulo": ""}, {"nome": "TradQty", "titulo": ""}, {"nome": "VlmTradedDay", "titulo": "Volume (R$) mil"}, {"nome": "Part", "titulo": "Participação (%)"}],
  "texto": ["Lista ações com maior volume de negociação em contratos a termo, destacando as mais ativas."],
  "situacao": "republicado",
- "atualizado_em": "2026-10-21T21:42:12.85",
+ "atualizado_em": "2026-10-22T02:13:44.877",
  "truncada": false,
  "linhas": [
   ["BRADESCO    PN  EJ  N1", "PN  EJ  N1", 30, 20.92, 250000, 5230, 4.43742345444541],
