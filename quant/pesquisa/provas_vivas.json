@@ -148,6 +148,27 @@
    },
    "barras_extras": 24800,
    "comparar_com": "dado_base"
+  },
+  {
+   "nome": "dado_gatilho_2",
+   "titulo": "Mini-dolar: reversao do dado com gatilho de 2 pontos (dispara em mais pregoes)",
+   "funcao": "gatilho_2",
+   "na_tela": {
+    "titulo": "Reversão do dado com gatilho de 2 pontos",
+    "explicacao": "A mesma reversão do dado das 9h30, entrando quando a reação passa de 2 pontos em vez de 3: opera em mais pregões, rendendo menos por pregão no histórico."
+   },
+   "historico": "Descoberta 2021-24 (estudo de 13/10/2026): R$ 31,50 por pregao, 458 negocios, 54,8% de acerto, t 2,1, 7 de 7 semestres, contra R$ 42,10 por pregao da base com gatilho 3; dispara em 57% dos pregoes (base 42%). Prova viva pedida em 21/10/2026, so medindo.",
+   "arquivo": "quant/pesquisa/regras/dado_variantes.py",
+   "ativo": "WDO",
+   "simbolo": "WDO$N",
+   "desde": "2026-10-22",
+   "kw": {
+    "stop": 40.0,
+    "alvo": null,
+    "tempo": 120
+   },
+   "barras_extras": 24800,
+   "comparar_com": "dado_base"
   }
  ]
 }

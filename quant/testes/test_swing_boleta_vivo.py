@@ -99,18 +99,18 @@ def _retrato(agora, cot):
     return {"q": {t: [u, 0.0, ab, u, u, 1000.0, ab, agora.timestamp(), 0, 0, 0, 0, 0, 0, 0, 0, 0] for t, (u, ab) in cot.items()}, "mt5_idade_s": 0.2}
 
 
-def _boleta_com_ordem(ambiente, ticker="AAAA3", preco=20.0, stop=2.0, alvo=4.0, prazo=10, emitida=True, gravada="08:35"):
+def _boleta_com_ordem(ambiente, ticker="AAAA3", preco=20.0, stop=2.0, alvo=4.0, prazo=10, emitida=True, gravada="08:35", dia="2026-10-13"):
     c = {"setup": "C1", "ticker": ticker, "sinal_em": "2026-10-09", "preco_ref": preco, "stop_dist": stop, "alvo_dist": alvo, "stop_ref": preco - stop, "alvo_ref": preco + alvo,
          "prazo": prazo, "adtv": 2e7, "top": True, "ibov_ok": True, "porque": "teste", "destino": "capital", "variante": "C1.S0", "qtd": 100, "valor": 2000.0,
          "mesa": {"conviccao": 0}, "ficha": {}}
-    c["capital_desde"] = _agora(gravada).isoformat(timespec="seconds")   # como a boleta grava (gerar, --refazer, --so-mesa): a hora em que a ordem passou a existir
-    b = {"v": 1, "data": "2026-10-13", "id": "swing-2026-10-13", "emitida": emitida, "sinal_em": "2026-10-09", "bloqueios": [] if emitida else [{"titulo": "x", "detalhe": "y"}],
-         "candidatas": [c], "avisos": [], "gerado": _agora(gravada).isoformat(timespec="seconds")}
-    caminho = bol.arq_boleta("2026-10-13")
+    c["capital_desde"] = _agora(gravada, dia).isoformat(timespec="seconds")   # como a boleta grava (gerar, --refazer, --so-mesa): a hora em que a ordem passou a existir
+    b = {"v": 1, "data": dia, "id": f"swing-{dia}", "emitida": emitida, "sinal_em": "2026-10-09", "bloqueios": [] if emitida else [{"titulo": "x", "detalhe": "y"}],
+         "candidatas": [c], "avisos": [], "gerado": _agora(gravada, dia).isoformat(timespec="seconds")}
+    caminho = bol.arq_boleta(dia)
     import os
     os.makedirs(os.path.dirname(caminho), exist_ok=True)
     open(caminho, "w", encoding="utf-8").write(json.dumps(b))
-    t = _agora(gravada).timestamp()                                    # a boleta da manha sai antes do sino (o robo usa a hora em que ela foi gravada)
+    t = _agora(gravada, dia).timestamp()                                    # a boleta da manha sai antes do sino (o robo usa a hora em que ela foi gravada)
     os.utime(caminho, (t, t))
     return b
 
@@ -387,3 +387,62 @@ def test_aviso_sem_cotacao_some_quando_a_cotacao_volta_e_nao_repete(ambiente, mo
     q[0] = None
     _passo(r, "11:00", q, dia="2026-10-14")
     assert len(avisos()) == 1                                                          # nova queda: um aviso so, sem repetir
+
+
+# ── saida antes de evento binario (21/10/2026: '1- liga', '2- Mecanismo') ──────────────────────────────
+def _config_evento(ambiente, liberar, **kw):
+    cfg = {"liberar": liberar, "motivo": "teste"}
+    cfg.update(kw)
+    (ambiente / "swing_config.json").write_text(json.dumps(cfg))
+
+
+def _posicao(ticker, preco, qtd=100):
+    return est.nova_posicao("C1", ticker, "2026-10-08", preco, 2.0, 4.0, 10, qtd, "2026-10-09", 2e7, modo="capital", porque="teste")
+
+
+def test_robo_sai_metade_do_financeiro_antes_do_evento_so_na_hora(ambiente, monkeypatch):
+    """Com fracao 0,5 e hora 12:40: na hora sai a metade do financeiro (as maiores posicoes), o resto fica com stop e prazo, a escolha
+    e unica, a tela avisa; no dia da saida nao entra posicao nova com capital."""
+    _config_evento(ambiente, ["C1.S0"], sair_antes_de="2026-10-13", sair_antes_de_fracao=0.5, sair_antes_de_hora="12:40")
+    e = est.vazio()
+    e["posicoes"] += [_posicao("AAAA3", 20.0), _posicao("BBBB3", 30.0), _posicao("CCCC3", 10.0)]
+    est.salvar(e)
+    _boleta_com_ordem(ambiente, ticker="DDDD3")
+    q = [{"AAAA3": (20.0, 20.0), "BBBB3": (30.0, 30.0), "CCCC3": (10.0, 10.0), "DDDD3": (20.0, 20.0)}]
+    r = _robo(ambiente, monkeypatch, q)
+    _passo(r, "10:00", q)
+    assert "DDDD3" not in {p["ticker"] for p in r.estado["posicoes"]}
+    assert "sem entrada nova com capital" in json.dumps(r.estado["diario"], ensure_ascii=False)
+    _passo(r, "12:39", q)
+    assert len(r.estado["posicoes"]) == 3 and "evento_saida" not in r.estado
+    _passo(r, "12:40", q)
+    assert {p["ticker"] for p in r.estado["posicoes"]} == {"AAAA3", "CCCC3"}
+    f = est.fechadas()
+    assert len(f) == 1 and f[0]["ticker"] == "BBBB3" and f[0]["motivo_saida"] == "evento" and f[0]["preco_saida"] == 30.0
+    assert r.estado["evento_saida"]["tickers"] == {"sair": ["BBBB3"], "manter": ["AAAA3", "CCCC3"]}
+    _passo(r, "12:45", q)
+    assert {p["ticker"] for p in r.estado["posicoes"]} == {"AAAA3", "CCCC3"}             # a escolha e unica: nao sai mais ninguem
+    _passo(r, "12:50", q, {"AAAA3": (17.5, 20.0), "BBBB3": (30.0, 30.0), "CCCC3": (10.0, 10.0), "DDDD3": (20.0, 20.0)})
+    assert {p["ticker"] for p in r.estado["posicoes"]} == {"CCCC3"}                      # quem ficou segue com o stop
+    assert est.fechadas()[-1]["motivo_saida"] == "stop"
+    tela = json.dumps(json.load(open(ambiente / "tela" / "quant_fatores.json", encoding="utf-8")), ensure_ascii=False)
+    assert "Evento binário em 13/10/2026" in tela and "Já decidido: sai BBBB3; fica AAAA3, CCCC3" in tela
+
+
+def test_robo_sai_de_tudo_antes_do_evento_e_volta_a_entrar_no_dia_seguinte(ambiente, monkeypatch):
+    """Fracao padrao (tudo): na hora sai de todas; no dia seguinte o livro volta ao normal sem mexer na configuracao, e a posicao
+    aberta depois do evento nao e alcancada pela chave."""
+    _config_evento(ambiente, ["C1.S0"], sair_antes_de="2026-10-13", sair_antes_de_hora="12:40")
+    e = est.vazio()
+    e["posicoes"] += [_posicao("AAAA3", 20.0), _posicao("BBBB3", 30.0)]
+    est.salvar(e)
+    q = [{"AAAA3": (20.0, 20.0), "BBBB3": (30.0, 30.0), "CCCC3": (10.0, 10.0)}]
+    r = _robo(ambiente, monkeypatch, q)
+    _passo(r, "12:40", q)
+    assert r.estado["posicoes"] == [] and {f["motivo_saida"] for f in est.fechadas()} == {"evento"} and len(est.fechadas()) == 2
+    _boleta_com_ordem(ambiente, ticker="CCCC3", preco=10.0, dia="2026-10-14")
+    r2 = _robo(ambiente, monkeypatch, q, hoje="2026-10-14")
+    _passo(r2, "10:00", q, dia="2026-10-14")
+    assert [p["ticker"] for p in r2.estado["posicoes"] if p["modo"] == "capital"] == ["CCCC3"]
+    _passo(r2, "12:40", q, dia="2026-10-14")
+    assert [p["ticker"] for p in r2.estado["posicoes"] if p["modo"] == "capital"] == ["CCCC3"] and len(est.fechadas()) == 2

@@ -24,8 +24,11 @@ ARQ_PROVA = os.path.join(PASTA, "resultados_prova.json")
 ARQ_CONFIG = os.environ.get("QUANT_SWING_CONFIG") or os.path.join(DIR_SAIDA, "swing_config.json")
 DSR_MIN = 0.95
 PADRAO = {"capital": 60_000.0, "risco": 0.005, "teto_nome": 0.12, "max_posicoes": 10, "valor_medido": 6_000.0, "liberar": [],
-          "sair_antes_de": None}     # AAAA-MM-DD: o livro sai de tudo no fechamento desse dia e nao entra ate passar (evento binario; decisao escrita)
-LIMITES = {"capital": (1_000.0, 10_000_000.0), "risco": (0.0005, 0.02), "teto_nome": (0.02, 0.25), "max_posicoes": (1, 10), "valor_medido": (500.0, 100_000.0)}
+          "sair_antes_de": None,            # AAAA-MM-DD: o livro sai nesse dia e nao abre posicao nova ate passar (evento binario; decisao escrita)
+          "sair_antes_de_fracao": 1.0,      # fracao do financeiro que sai nesse dia: 1,0 = tudo; 0,5 = metade, as maiores posicoes primeiro
+          "sair_antes_de_hora": "12:40"}    # HH:MM da saida nesse dia: antes de o Mac desligar as 13h (decisao do Douglas em 21/10/2026)
+LIMITES = {"capital": (1_000.0, 10_000_000.0), "risco": (0.0005, 0.02), "teto_nome": (0.02, 0.25), "max_posicoes": (1, 10), "valor_medido": (500.0, 100_000.0),
+           "sair_antes_de_fracao": (0.1, 1.0)}
 
 STATUS_TEXTO = {
     "so_medido": "só medido (sem capital)",
@@ -65,6 +68,13 @@ def config(arq=None):
                     c[k] = v
                 else:
                     avisos.append(f"sair_antes_de={v!r} ilegível em swing_config.json (use AAAA-MM-DD); ignorado")
+                continue
+            if k == "sair_antes_de_hora":
+                v = lido[k]
+                if isinstance(v, str) and len(v) == 5 and v[2] == ":" and v[:2].isdigit() and v[3:].isdigit() and int(v[:2]) < 24 and int(v[3:]) < 60:
+                    c[k] = v
+                else:
+                    avisos.append(f"sair_antes_de_hora={v!r} ilegível em swing_config.json (use HH:MM); vale {PADRAO[k]}")
                 continue
             try:
                 v = float(lido[k])

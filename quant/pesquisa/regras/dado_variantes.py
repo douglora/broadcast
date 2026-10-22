@@ -81,3 +81,10 @@ def contra_surpresa(m):
     mv = np.nan_to_num(regras._mov(m, PARAM["r"]))
     contra = (np.sign(mv) == -np.sign(Sd)) & (np.abs(Sd) >= 0.5)
     return np.where(contra & ~np.isnan(Sd), s, 0.0)
+
+
+def gatilho_2(m):
+    """A mesma regra com gatilho de 2 pontos em vez de 3: dispara em 57% dos pregoes (a base, 42%). Descoberta 2021-24 (estudo de
+    13/10/2026, operar_todo_dia.json): R$ 31,50 por pregao (458 negocios, 54,8% de acerto, R$ 55 por negocio, t 2,1, 7 de 7 semestres)
+    contra R$ 42,10 da base, por isso nao substituiu a regra. Prova viva pedida pelo Douglas em 21/10/2026 ('4- Ok'): nasce so medindo."""
+    return regras.reverte_dado_ny(m, r=PARAM["r"], thr=2.0)

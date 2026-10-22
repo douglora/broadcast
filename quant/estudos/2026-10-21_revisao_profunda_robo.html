@@ -29,14 +29,14 @@ ul{margin:6px 0;padding-left:20px}li{margin:3px 0}
 </style>
 <div class="wrap">
 <h1>🤖 Revisão profunda do robô quant</h1>
-<p class="sub">21/10/2026, 20h · simulação desde 08/10 · dados: arquivos do robô, placar da rotina da noite, prova viva, Ibovespa 2001-2026 · 2º turno da eleição em 25/10</p>
+<p class="sub">21/10/2026, 21h (atualizado com a decisão do Douglas) · simulação desde 08/10 · dados: arquivos do robô, placar da rotina da noite, prova viva, Ibovespa 2001-2026 · 2º turno da eleição em 25/10</p>
 
 <div class="pedido"><b>Pedido:</b> ver como está o robô depois de duas semanas e melhorá-lo.<br>
 <b>Altitude (resultado):</b> cada classe com o seu placar real (capital e medido), as três causas do resultado, as melhorias já no código e UMA decisão sua para o fim de semana da eleição.<br>
 <b>Profundidade:</b> um gestor quant olharia os negócios fechados por setup, a prova viva, o calendário (evento binário domingo), a janela de operação e as paradas do robô; o problema por baixo é que o livro foi desenhado para 10 pregões e vai atravessar um evento que a própria mesa classificou como o que mais pesa.<br>
 <b>Alcance:</b> estatística da eleição (Ibovespa 2002-2022), operação do Mac (sono e MetaTrader), compliance (tudo simulação, sem compre/venda).<br>
 <b>Pronto quando:</b> placar por classe na rotina da noite, saída antes do evento pronta no código com teste, e a decisão de sexta nas suas mãos com os números.<br>
-<b>Fica com você:</b> sair ou não antes da eleição, ligar o Mac até 18h10, desligar o sono do Mac (senha).</div>
+<b>Fica com você:</b> decidido às 21h ("1- liga, 2- Mecanismo, 3- Mac até 13h, 4- Ok"): o livro sai de tudo na sexta às 12h40, o mecanismo de metade fica pronto, o mini-índice segue só medido e o gatilho de 2 pontos nasce medindo. Resta o sono do Mac (senha).</div>
 
 <h2>1. Resumo executivo</h2>
 <div class="card card-destaque">
@@ -54,7 +54,7 @@ ul{margin:6px 0;padding-left:20px}li{margin:3px 0}
 <h2>2. Day trade: por que quase não opera</h2>
 <div class="card">
 <ul>
-<li><b>A regra que ganha é rara por natureza.</b> A reversão do dado das 9h30 dispara quando a reação passa de 3 pontos: 42% dos pregões no histórico; nesta semana a reação ficou abaixo do gatilho nos três dias (+1,0 ponto em 13/10, por exemplo). Baixar o gatilho para operar todo dia foi medido em 13/10: cai de R$ 42 para R$ 15 por pregão.</li>
+<li><b>A regra que ganha é rara por natureza.</b> A reversão do dado das 9h30 dispara quando a reação passa de 3 pontos: 42% dos pregões no histórico; nesta semana a reação ficou abaixo do gatilho nos três dias (+1,0 ponto em 13/10, por exemplo). Baixar o gatilho para operar todo dia foi medido em 13/10: cai de R$ 42 para R$ 15 por pregão. O meio-termo, gatilho de 2 pontos, rendeu R$ 31,50 por pregão operando 57% dos pregões (458 negócios, t 2,1, 7 de 7 semestres): entra na prova viva a partir de 22/10, só medindo, pela sua resposta "4- Ok". Nas barras reais de 14 a 21/10 ele disparou 1 vez (20/10, −R$ 64,80) e a base, nenhuma.</li>
 <li><b>O teste de nível confirmou ao vivo o que o histórico dizia.</b> 207 sinais medidos em 9 pregões, 27% de acerto, −R$ 27,70 por sinal (t −3,8). Foi desligado com o seu "pode fazer" de 16/10 e continua medido.</li>
 <li><b>O climax de volume é a única leitura com placar vivo positivo:</b> 20 sinais, 70% de acerto, +R$ 24,20 por sinal (t 1,4). Ainda é pouco: o protocolo da noite pede 60 sinais com t ≥ 2 para virar pedido de estudo. Segue medindo.</li>
 <li><b>O mini-índice não opera porque o Mac desliga às 13h.</b> O fim do pregão (17h53) é a regra de tarde com melhor histórico (800 negócios em 2021-24, t 6,6) e a prova viva vai +R$ 155 em 6 negócios. Com o Mac ligado até 18h10 ela opera; é decisão sua.</li>
@@ -92,11 +92,11 @@ ul{margin:6px 0;padding-left:20px}li{margin:3px 0}
 <div class="quer">🎯 <b>O que queremos:</b> não deixar um livro desenhado para 10 pregões decidir o resultado do mês num salto de domingo.</div>
 <p><b>Três caminhos (a escolha é sua):</b></p>
 <ul>
-<li><span class="badge">RECOMENDADA</span> <b>Sair na sexta 23/10 no leilão de fechamento</b> e reentrar na segunda ou terça com a visão nova da mesa (a rotina de domingo às 08h42 refaz a visão com o resultado da urna). Mecanismo pronto no código: a chave <span class="code">sair_antes_de</span> em <span class="code">swing_config.json</span>; o livro sai de tudo às 16h50 de sexta e não entra nada novo até passar. Custo: perder a alta se o mercado gostar do resultado (em 2010 e 2022 a segunda subiu 1,3%).</li>
+<li><span class="badge">RECOMENDADA</span> <b>Sair na sexta 23/10 no leilão de fechamento</b> e reentrar na segunda ou terça com a visão nova da mesa (a rotina de domingo às 08h42 refaz a visão com o resultado da urna). Mecanismo pronto no código: a chave <span class="code">sair_antes_de</span> em <span class="code">swing_config.json</span>; o livro sai de tudo às 12h40 de sexta (antes de o Mac desligar às 13h) e não abre posição nova nesse dia; na segunda volta ao normal sozinho. Custo: perder a alta se o mercado gostar do resultado (em 2010 e 2022 a segunda subiu 1,3%).</li>
 <li><span class="badge mut">ALTERNATIVA</span> <b>Manter tudo com os stops.</b> Ganha se o mercado gostar; nas quedas de 2002 e 2014 o stop teria sido pulado e a perda seria a do salto inteiro (2 a 6% sobre R$ 41,6 mil = R$ 850 a R$ 2.600).</li>
-<li><span class="badge mut">MEIO-TERMO</span> <b>Reduzir à metade na sexta</b> (vender 5 das 9, as de menor convicção ou maior volatilidade). Mecanismo não existe ainda: faço se escolher.</li>
+<li><span class="badge mut">MEIO-TERMO</span> <b>Reduzir à metade na sexta</b> (vender 5 das 9, as de menor convicção ou maior volatilidade). Mecanismo pronto desde 21/10 à noite: sai metade do financeiro, as maiores posições primeiro, e o resto fica com stop, alvo e prazo normais.</li>
 </ul>
-<p class="mini">Responda "sai sexta", "mantém" ou "metade". Sem resposta até sexta 15h, o robô mantém (é o comportamento atual).</p>
+<p><span class="badge ouro">DECIDIDO 21/10 21h</span> <b>"1- liga":</b> o robô sai de todas as posições com capital na sexta 23/10 às 12h40, no último preço, e não abre posição nova nesse dia. Se o Mac estiver desligado na hora, sai no primeiro preço em que acordar. Para trocar por metade, basta responder "metade" até sexta de manhã.</p>
 </div>
 
 <h2>5. Operação: onde o robô perdeu sem culpa da regra</h2>
@@ -112,6 +112,8 @@ ul{margin:6px 0;padding-left:20px}li{margin:3px 0}
 <div class="card">
 <ul>
 <li><b>Saída antes de evento binário</b> no livro de swing (<span class="code">quant/swing/posicao.py</span>, <span class="code">vivo.py</span>, <span class="code">evidencia.py</span>): desligada por padrão; liga com a data em <span class="code">swing_config.json</span>. Testes novos.</li>
+<li><b>Hora da saída e saída parcial</b> (21h, depois da sua resposta): a hora vem da configuração (12h40, antes de o Mac desligar); com a fração em 0,5 o robô escolhe uma vez, na hora, as maiores posições até cobrir metade do financeiro, grava a escolha e deixa o resto com stop e prazo. A tela do QUANT avisa o que vai acontecer e, depois, o que foi decidido. Testes ao vivo novos.</li>
+<li><b>Gatilho de 2 pontos</b> da reversão do dado na prova viva desde 22/10, só medindo.</li>
 <li><b>Placar por classe na rotina da noite</b> (<span class="code">quant/pesquisa/noite.py</span>): ações com capital e os setups medidos com 5 ou mais operações, opções, prova viva. É o relatório de aprendizado que você pediu em 13/10, todo dia às 12h55.</li>
 <li>Nada mudou nas regras com capital: dado (2 contratos, gatilho 3), convicção da mesa no swing, três vertentes de opções.</li>
 </ul>

@@ -162,3 +162,24 @@ def test_saida_antes_de_evento_binario():
     assert posicao.decidir_saida(p, 21.0, 20.5, "2026-10-26", "10:05", sair_em="2026-10-23") == (21.0, "evento")   # robo dormiu: sai ja
     assert posicao.decidir_saida(p, 17.9, 19.0, "2026-10-23", "16:50", sair_em="2026-10-23") == (17.9, "stop")     # stop continua na frente
     assert posicao.decidir_saida(p, 21.0, 20.5, "2026-10-26", "16:50") == (21.0, "tempo")                          # sem a chave, nada muda
+
+
+def test_saida_antes_de_evento_respeita_a_hora_e_so_alcanca_posicao_de_antes():
+    """21/10/2026 ('1- liga', Mac desliga as 13h): a hora da saida vem da configuracao; posicao aberta depois do evento nao e alcancada."""
+    p = {"entrada_em": "2026-10-13", "stop": 18.0, "alvo": 24.0, "prazo_ate": "2026-10-26"}
+    assert posicao.decidir_saida(p, 21.0, 20.5, "2026-10-23", "12:39", sair_em="2026-10-23", hora_evento="12:40") is None
+    assert posicao.decidir_saida(p, 21.0, 20.5, "2026-10-23", "12:40", sair_em="2026-10-23", hora_evento="12:40") == (21.0, "evento")
+    nova = dict(p, entrada_em="2026-10-26", prazo_ate="2026-11-06")
+    assert posicao.decidir_saida(nova, 21.0, 20.5, "2026-10-27", "16:50", sair_em="2026-10-23") is None          # aberta depois: a chave ja passou
+
+
+def test_escolha_da_saida_parcial_pelo_financeiro():
+    """21/10/2026 ('2- Mecanismo'): sai a fracao do financeiro, as maiores posicoes primeiro; o resto fica."""
+    P = [{"id": "a", "ticker": "AAAA3", "qtd": 100, "preco_entrada": 20.0}, {"id": "b", "ticker": "BBBB3", "qtd": 100, "preco_entrada": 30.0},
+         {"id": "c", "ticker": "CCCC3", "qtd": 100, "preco_entrada": 10.0}]
+    precos = {"AAAA3": 20.0, "BBBB3": 30.0, "CCCC3": 10.0}
+    assert posicao.escolher_saida_parcial(P, precos, 0.5) == (["b"], ["a", "c"])         # 3.000 de 6.000: a maior cobre a metade
+    assert posicao.escolher_saida_parcial(P, precos, 0.6) == (["b", "a"], ["c"])          # 3.000 < 3.600: entra a segunda maior
+    assert posicao.escolher_saida_parcial(P, precos, 1.0) == (["a", "b", "c"], [])
+    assert posicao.escolher_saida_parcial(P, {}, 0.1) == (["b"], ["a", "c"])              # sem preco vale o de entrada; ao menos uma sai
+    assert posicao.escolher_saida_parcial([], precos, 0.5) == ([], [])

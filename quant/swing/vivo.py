@@ -146,8 +146,8 @@ class RoboSwing:
             pid = f"{self.hoje}|{c['setup']}|{c['ticker']}|capital"
             if pid in ja:
                 continue
-            if self.cfg.get("sair_antes_de") and self.hoje >= str(self.cfg["sair_antes_de"]):      # evento binario a frente: so sai, nao entra
-                self._cancelar(pid, c, f"evento binário à frente ({self.cfg['sair_antes_de']}): sem entrada nova até passar (decisão do Douglas)", agora)
+            if self.cfg.get("sair_antes_de") and self.hoje == str(self.cfg["sair_antes_de"]):      # dia da saida antes do evento binario: so sai, nao entra
+                self._cancelar(pid, c, f"dia da saída antes do evento binário ({_br_data(self.cfg['sair_antes_de'])}): sem entrada nova com capital (decisão do Douglas)", agora)
                 continue
             desde = self.disponivel.get(pid, agora)
             na_abertura = desde <= abertura                   # a ordem existia antes do sino: entra no preco da abertura
@@ -191,17 +191,44 @@ class RoboSwing:
         self._salvar(True)
 
     # ── saidas ───────────────────────────────────────────────
+    def _manter_no_evento(self, cot, hm, agora):
+        """Saida parcial antes do evento binario (`sair_antes_de_fracao` < 1; decisao escrita do Douglas em 21/10/2026, '2- Mecanismo'):
+        na hora da saida escolhe UMA vez quais posicoes saem (as maiores em financeiro, ate cobrir a fracao) e quais ficam, grava a
+        escolha no estado e devolve os ids que ficam; nos ciclos seguintes vale a escolha gravada, para o livro nao sair mais a cada ciclo."""
+        sair_em = self.cfg.get("sair_antes_de")
+        fracao = float(self.cfg.get("sair_antes_de_fracao") or 1.0)
+        if not sair_em or fracao >= 1.0:
+            return set()
+        ev = self.estado.get("evento_saida") or {}
+        if ev.get("dia") == sair_em and ev.get("fracao") == fracao:
+            return set(ev.get("manter") or [])
+        hora = self.cfg.get("sair_antes_de_hora") or posicao.HORA_TEMPO
+        if not (self.hoje > sair_em or (self.hoje == sair_em and hm >= hora)):
+            return set()
+        abertas = [p for p in self.estado["posicoes"] if p.get("modo") == "capital" and p.get("status") == "aberta" and str(p["entrada_em"]) <= sair_em]
+        precos = {p["ticker"]: (cot.get(p["ticker"]) or {}).get("ultimo") or self.precos.get(p["ticker"]) for p in abertas}
+        sair, manter = posicao.escolher_saida_parcial(abertas, precos, fracao)
+        nomes = lambda ids: sorted(p["ticker"] for p in abertas if p["id"] in ids)                                    # noqa: E731
+        self.estado["evento_saida"] = {"dia": sair_em, "fracao": fracao, "sair": sair, "manter": manter, "tickers": {"sair": nomes(sair), "manter": nomes(manter)},
+                                       "decidido_em": agora.isoformat(timespec="seconds")}
+        est.anotar(self.estado, "evento", f"Saída parcial antes do evento de {_br_data(sair_em)} ({fracao:.0%} do financeiro, decisão do Douglas): "
+                                          f"sai {', '.join(nomes(sair)) or 'nenhuma'}; fica {', '.join(nomes(manter)) or 'nenhuma'} com stop, alvo e prazo normais.", agora)
+        self._salvar(True)
+        return set(manter)
+
     def _saidas(self, cot, agora):
         hm = agora.strftime("%H:%M")
         if hm < ABERTURA:
             return
+        sair_em, hora_evento = self.cfg.get("sair_antes_de"), self.cfg.get("sair_antes_de_hora") or posicao.HORA_TEMPO
+        manter = self._manter_no_evento(cot, hm, agora)
         for pos in [p for p in self.estado["posicoes"] if p.get("modo") == "capital" and p.get("status") == "aberta"]:
             q = cot.get(pos["ticker"])
             if not q or not q["de_hoje"] or q["ultimo"] is None:
                 self.sem_cotacao.add(pos["ticker"])           # o aviso sai do conjunto em tela(): some quando a cotacao volta
                 continue
             self.sem_cotacao.discard(pos["ticker"])
-            r = posicao.decidir_saida(pos, q["ultimo"], q["abertura"], self.hoje, hm, sair_em=self.cfg.get("sair_antes_de"))
+            r = posicao.decidir_saida(pos, q["ultimo"], q["abertura"], self.hoje, hm, sair_em=None if pos["id"] in manter else sair_em, hora_evento=hora_evento)
             if r is None:
                 continue
             preco, motivo = r
@@ -248,10 +275,29 @@ class RoboSwing:
             avisos.append(f"{', '.join(sem)}: sem cotação de hoje no motor; o stop não está sendo vigiado até a cotação voltar.")
         if retrato is None:
             avisos.append("O motor de cotações do terminal não respondeu: sem preço ao vivo, o stop não está sendo vigiado.")
+        avisos += self._aviso_evento()
         obj = painel.tela(self.estado, est.fechadas(), self.boleta, self.variantes, self.cfg, self.hoje, self.precos, self.exposicao, visao=self.visao,
                           motivo_visao=self.motivo_visao, vivo=vivo, serie=self._serie(lv["patrimonio"], fase), avisos=avisos, bloqueios=self._bloqueios())
         gravar_estado(obj, self.saidas)
         self.ultima_tela = time.time()
+
+    def _aviso_evento(self):
+        """Uma frase na tela enquanto a saida antes do evento binario (`sair_antes_de`) esta a frente ou ainda alcanca posicao aberta."""
+        ev = self.cfg.get("sair_antes_de")
+        if not ev:
+            return []
+        de_antes = [p["ticker"] for p in self.estado["posicoes"] if p.get("modo") == "capital" and p.get("status") == "aberta" and str(p["entrada_em"]) <= ev]
+        if self.hoje > ev and not de_antes:
+            return []
+        fr = float(self.cfg.get("sair_antes_de_fracao") or 1.0)
+        hora = (self.cfg.get("sair_antes_de_hora") or posicao.HORA_TEMPO).replace(":", "h")
+        dec = self.estado.get("evento_saida") or {}
+        feito = ""
+        if dec.get("dia") == ev:
+            t = dec.get("tickers") or {}
+            feito = f" Já decidido: sai {', '.join(t.get('sair') or []) or 'nenhuma'}; fica {', '.join(t.get('manter') or []) or 'nenhuma'}."
+        return [f"Evento binário em {_br_data(ev)} (decisão do Douglas): o livro sai de {'tudo' if fr >= 1 else f'{fr:.0%} do financeiro, as maiores posições primeiro'} "
+                f"às {hora} desse dia, no último preço, e não abre posição nova com capital nesse dia.{feito}"]
 
     # ── o ciclo ──────────────────────────────────────────────
     def ciclo(self, agora, forcar_tela=False):

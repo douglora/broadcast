@@ -303,3 +303,17 @@ def test_config_sair_antes_de_evento(tmp_path):
     assert c["sair_antes_de"] is None and any("sair_antes_de" in a for a in c["avisos"])
     arq.write_text(json.dumps({}))
     assert evidencia.config(str(arq))["sair_antes_de"] is None
+
+
+def test_config_fracao_e_hora_da_saida_antes_do_evento(tmp_path):
+    """21/10/2026: fracao entre 0,1 e 1,0 e hora HH:MM; fora disso vale o padrao (tudo, 12:40) com aviso."""
+    import json
+    from quant.swing import evidencia
+    arq = tmp_path / "swing_config.json"
+    arq.write_text(json.dumps({"sair_antes_de": "2026-10-23", "sair_antes_de_fracao": 0.5, "sair_antes_de_hora": "12:40"}))
+    c = evidencia.config(str(arq))
+    assert c["sair_antes_de_fracao"] == 0.5 and c["sair_antes_de_hora"] == "12:40" and not c["avisos"]
+    arq.write_text(json.dumps({"sair_antes_de_fracao": 0.0, "sair_antes_de_hora": "25:99"}))
+    c = evidencia.config(str(arq))
+    assert c["sair_antes_de_fracao"] == 1.0 and c["sair_antes_de_hora"] == "12:40" and len(c["avisos"]) == 2
+    assert evidencia.config(str(tmp_path / "nao_existe.json"))["sair_antes_de_hora"] == "12:40"
