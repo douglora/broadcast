@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 22/10 14h55
+NOTÍCIAS E FATOS · 22/10 15h22
 
-Pernas: noticias ok 4 novas (18 consultas; descartadas: 443 veículo fora da lista, 36 sem ativo, 0 teto) · cvm ok 0 novos de 6 (4 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 6 novas (18 consultas; descartadas: 456 veículo fora da lista, 37 sem ativo, 0 teto) · cvm ok 0 novos de 6 (4 cias casadas) · sec ok 0 novos em 3 dias
 
 ## SEC (8-K, 6-K, 10-Q, 10-K) (2)
 
@@ -37,7 +37,23 @@ Fonte: SEC EDGAR 2026-10-22
 id: E04-TSM-26000728-2026-10-22 · status: linha · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (9)
+## NOTÍCIAS COM MATERIALIDADE (10)
+
+[ATENÇÃO] E05 · NOK · Nokia Sinks 9% on Q3 Beat as It Holds Outlook, Cuts Cash Flow View: “Growth Is Accelerating”
+Yahoo Finance · 22/10 14h38 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Key Takeaways - Nokia shares fell 9% today.
+  – Third-quarter revenue of €5.15 billion beat estimates, and comparable EPS of €0.09 matched them.
+  – - Nokia is putting an extra €400 million into working capital this year so it has supply for 2027, when it expects Optical and IP Networks to grow 25% to 30%.
+  – - Nokia also lowered its 2026 free cash flow conversion assumption to 35%-55% of comparable operating profit, down from 55%-75% in July.
+  – - Even after today's drop, Nokia trades well above its five-year average forward P/E, so the 2027 growth has to show up.
+  – Nokia (NOK) sank 9% today after a third quarter that beat on revenue.
+Link: https://finance.yahoo.com/markets/stocks/articles/nokia-sinks-9-q3-beat-173831061.html
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: NOK
+Como falar: 'saiu no Yahoo Finance: Nokia Sinks 9% on Q3 Beat as It Holds Outlook, Cuts Cash Flow View: “Growth Is Accelerati…; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 22/10 14h38
+id: E05-NOK-834963b693-2026-10-22 · status: pendente
 
 [ATENÇÃO] E05 · KO · Unstoppable Momentum? Coca-Cola Aims for Flawless Earnings Streak as Q3 Sales Projections Top $12.9 Billion
 Yahoo Finance · 22/10 14h11 · fonte única · licença: resumo
@@ -53,7 +69,7 @@ Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; 
 Ativos: KO
 Como falar: 'saiu no Yahoo Finance: Unstoppable Momentum? Coca-Cola Aims for Flawless Earnings Streak as Q3 Sales Projections…; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 22/10 14h11
-id: E05-KO-ca73be572e-2026-10-22 · status: pendente
+id: E05-KO-ca73be572e-2026-10-22 · status: entregue
 
 [ATENÇÃO] E05 · TSLA · Top Midday Stories: Meta Credit Risk Gauge Hits Record High Amid AI Spending Plans; Tesla Q3 Revenue Misses Consensus
 Yahoo Finance · 22/10 12h55 · fonte única · licença: resumo
@@ -65,7 +81,7 @@ Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; 
 Ativos: TSLA
 Como falar: 'saiu no Yahoo Finance: Top Midday Stories: Meta Credit Risk Gauge Hits Record High Amid AI Spending Plans; Tesla…; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 22/10 12h55
-id: E05-TSLA-54e767fe1e-2026-10-22 · status: pendente
+id: E05-TSLA-54e767fe1e-2026-10-22 · status: entregue
 
 [ATENÇÃO] E05 · BTC · Bitcoin Slides From $84,900 to $82,200 as Oil Jumps on Iran Strike Plans: Is the US-Iran War About to Restart?
 Yahoo Finance · 22/10 05h38 · fonte única · licença: resumo
@@ -161,8 +177,13 @@ Fonte: Investing.com 21/10 20h07
 id: E05-TSLA-594bd31921-2026-10-21 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (93)
+## OUTRAS NOTÍCIAS (só manchete) (98)
 
+· UST Mortgage rates decline for first time in about two months as Treasury yields fall (XLRE:NYSEARCA) (Seeking Alpha) https://seekingalpha.com/news/4656053-mortgage-rates-decline-for-first-time-in-about-two-months-as-treasury-yields-fall
+· INTC Intel stock may move 8.3% on Oct. 29 earnings report (Investing.com) https://www.investing.com/news/stock-market-news/intel-stock-may-move-83-on-oct-29-earnings-report-93CH-4966674
+· TSLA TSX futures point lower following Meta, Tesla earnings (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/tsx-futures-point-lower-following-123414655.html
+· AVGO Broadcom’s Hock Tan Says AI’s Next Bottleneck Isn’t Chips, Power, or Memory. It’s Not a Tech Problem at All. (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/broadcom-hock-tan-says-ai-110333011.html
+· BTC Bitcoin gets $1 billion in ETF inflows, yet can't crack $84,000: what's wrong? (TradingView (Reuters)) https://es.tradingview.com/news/invezz:bbc529cad094b:0-bitcoin-gets-1-billion-in-etf-inflows-yet-can-t-crack-84-000-what-s-wrong/
 · NOK Nokia Oyj 2026 Q3 - Results - Earnings Call Presentation (NYSE:NOK) 2026-10-22 (Seeking Alpha) https://seekingalpha.com/article/4956535-nokia-oyj-2026-q3-results-earnings-call-presentation
 · INTC Intel Stock Tumbles Ahead of Q3 Earnings (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/intel-stock-tumbles-ahead-q3-161912152.html
 · CVX Chevron Eyes $1B Gulf Asset Sale to Focus on Growth Projects (TradingView (Reuters)) https://www.tradingview.com/news/zacks:019039c66094b:0-chevron-eyes-1b-gulf-asset-sale-to-focus-on-growth-projects/
@@ -218,9 +239,4 @@ id: E05-TSLA-594bd31921-2026-10-21 · status: linha
 · ETH Uniswap's aggregator hooks go live on Ethereum, Base and Robinhood Chain (The Block) https://www.theblock.co/news/defi/2026-10-22-uniswaps-aggregator-hooks-go-live-ethereum-base-robinhood-chain-421932?utm_source=tradingview&utm_medium=rss
 · BTC CryptoQuant CEO calls rising Bitcoin hashrate ‘indirect bullish signal’ from institutions (TradingView (Reuters)) https://www.tradingview.com/news/cointelegraph:0d9133e85094b:0-cryptoquant-ceo-calls-rising-bitcoin-hashrate-indirect-bullish-signal-from-institutions/
 · LITE Brown Advisory Sees AI Infrastructure Opportunity in Lumentum Holdings Inc. (LITE) (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/brown-advisory-sees-ai-infrastructure-134225204.html
-· UST American States Water: A Great Utility That Now Yields Less Than A Treasury (NYSE:AWR) (Seeking Alpha) https://seekingalpha.com/article/4956343-american-states-water-a-great-utility-that-now-yields-less-than-a-treasury
-· TSLA What analysts are saying about Tesla after earnings (TSLA:NASDAQ) (Seeking Alpha) https://seekingalpha.com/news/4655896-what-analysts-are-saying-about-tesla-after-earnings
-· USDBRL Dólar sobe com disputa presidencial indefinida e tensão no exterior (UOL Economia) https://economia.uol.com.br/noticias/estadao-conteudo/2026/10/22/dolar-sobe-com-disputa-presidencial-indefinida-e-tensao-no-exterior.htm
-· TSLA TSLA Q3 Earnings Beat on Auto Margin Gains, '26 Capex View Cut (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/tsla-q3-earnings-beat-auto-124200869.html
-· KO Seeking Clues to Coca-Cola (KO) Q3 Earnings? A Peek Into Wall Street Projections for Key Metrics (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/seeking-clues-coca-cola-ko-121507645.html
-· (+33 manchetes; lista completa em eventos/noticias.json)
+· (+38 manchetes; lista completa em eventos/noticias.json)

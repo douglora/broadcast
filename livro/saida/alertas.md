@@ -1,43 +1,37 @@
 ALERTAS · intradia
 
-(pendente de slot anterior) [ATENÇÃO] E05 · KO · Unstoppable Momentum? Coca-Cola Aims for Flawless Earnings Streak as Q3 Sales Projections Top $12.9 Billion
-Yahoo Finance · 22/10 14h11 · fonte única · licença: resumo
+[ATENÇÃO] E05 · NOK · Nokia Sinks 9% on Q3 Beat as It Holds Outlook, Cuts Cash Flow View: “Growth Is Accelerating”
+Yahoo Finance · 22/10 14h38 · fonte única · licença: resumo
 Trechos (licença resumo: reescrever, não colar):
-  – Quick Read - KO has beaten EPS estimates six straight quarters and shares are up 38% this year, leaving little room for error heading into Q3.
-  – - Analysts expect Q3 EPS of $0.88 and revenue of $12.93 billion, with three upward revisions in the past week and zero downward.
-  – - The critical Q3 test is whether unit case volume holds without World Cup tailwinds after Asia Pacific price/mix fell 9%.
-  – - Read More: Learn 7 ways to generate income with a $1,000,000+ portfolio (sponsor) Coca-Cola (NYSE:KO) reports third-quarter results on October 27 before the market opens.
-  – Coca-Cola has beaten EPS estimates for six straight quarters, and shares are up 38.07% this year.
-  – World Cup Momentum Sets a High Bar Last quarter, Coca-Cola reported EPS of $0.97 against a $0.9323 estimate.
-Link: https://finance.yahoo.com/markets/stocks/articles/unstoppable-momentum-coca-cola-aims-171122145.html
-Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
-Ativos: KO
-Como falar: 'saiu no Yahoo Finance: Unstoppable Momentum? Coca-Cola Aims for Flawless Earnings Streak as Q3 Sales Projections…; confirmar o número no texto antes de repassar'
-Fonte: Yahoo Finance 22/10 14h11
-ids: E05-KO-ca73be572e-2026-10-22
-
-(pendente de slot anterior) [ATENÇÃO] E05 · TSLA · Top Midday Stories: Meta Credit Risk Gauge Hits Record High Amid AI Spending Plans; Tesla Q3 Revenue Misses Consensus
-Yahoo Finance · 22/10 12h55 · fonte única · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – All three major US stock indexes were down in late-morning trading Thursday, as concerns mounted amo  Upgrade to read this MT Newswires article and get so much more.
-  – A Silver or Gold subscription plan is required to access premium news articles.
-Link: https://finance.yahoo.com/markets/stocks/articles/top-midday-stories-meta-credit-155537877.html
-Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
-Ativos: TSLA
-Como falar: 'saiu no Yahoo Finance: Top Midday Stories: Meta Credit Risk Gauge Hits Record High Amid AI Spending Plans; Tesla…; confirmar o número no texto antes de repassar'
-Fonte: Yahoo Finance 22/10 12h55
-ids: E05-TSLA-54e767fe1e-2026-10-22
+  – Key Takeaways - Nokia shares fell 9% today.
+  – Third-quarter revenue of €5.15 billion beat estimates, and comparable EPS of €0.09 matched them.
+  – - Nokia is putting an extra €400 million into working capital this year so it has supply for 2027, when it expects Optical and IP Networks to grow 25% to 30%.
+  – - Nokia also lowered its 2026 free cash flow conversion assumption to 35%-55% of comparable operating profit, down from 55%-75% in July.
+  – - Even after today's drop, Nokia trades well above its five-year average forward P/E, so the 2027 growth has to show up.
+  – Nokia (NOK) sank 9% today after a third quarter that beat on revenue.
+Link: https://finance.yahoo.com/markets/stocks/articles/nokia-sinks-9-q3-beat-173831061.html
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: NOK
+Como falar: 'saiu no Yahoo Finance: Nokia Sinks 9% on Q3 Beat as It Holds Outlook, Cuts Cash Flow View: “Growth Is Accelerati…; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 22/10 14h38
+Push: [ATENÇÃO] NOK · Nokia Sinks 9% on Q3 Beat as It Holds Outlook, Cuts Ca · detalhe na sessão
+ids: E05-NOK-834963b693-2026-10-22
 
 Info (só linha no Fechamento):
-· E05 NOK · Nokia Oyj 2026 Q3 - Results - Earnings Call Presentation (NYSE:NOK) 2026-10-22
-· E05 INTC · Intel Stock Tumbles Ahead of Q3 Earnings
-· E05 CVX · Chevron Eyes $1B Gulf Asset Sale to Focus on Growth Projects
-· E05 LITE · Lumentum Holdings Inc. (LITE) Stock forecasts
+· E05 UST · Mortgage rates decline for first time in about two months as Treasury yields fall (XLRE:NYSEARCA)
+· E05 INTC · Intel stock may move 8.3% on Oct. 29 earnings report
+· E05 TSLA · TSX futures point lower following Meta, Tesla earnings
+· E05 AVGO · Broadcom’s Hock Tan Says AI’s Next Bottleneck Isn’t Chips, Power, or Memory. It’s Not a Tech Problem at All.
+· E05 BTC · Bitcoin gets $1 billion in ETF inflows, yet can't crack $84,000: what's wrong?
+· S01 coleta do slot intradia saiu incompleta: bcb: BCB devolveu 4 de 5 séries (faltaram cdi_dia)
 
+Suprimidos pelo teto (viram linha do Fechamento): S01-SISTEMA-intradia-2026-10-22 (teto de atenção)
 
 Alertas do dia (todos, com status):
-· pendente  E05 KO — KO · Unstoppable Momentum? Coca-Cola Aims for Flawless Earnings Streak as Q3 Sal
-· pendente  E05 TSLA — TSLA · Top Midday Stories: Meta Credit Risk Gauge Hits Record High Amid AI Spend
+· pendente  E05 NOK — NOK · Nokia Sinks 9% on Q3 Beat as It Holds Outlook, Cuts Cash Flow View: “Growt
+· linha     S01 SISTEMA — coleta do slot intradia saiu incompleta: bcb: BCB devolveu 4 de 5 séries (faltar
+· entregue  E05 KO — KO · Unstoppable Momentum? Coca-Cola Aims for Flawless Earnings Streak as Q3 Sal
+· entregue  E05 TSLA — TSLA · Top Midday Stories: Meta Credit Risk Gauge Hits Record High Amid AI Spend
 · entregue  E05 BTC — BTC · Bitcoin Slides From $84,900 to $82,200 as Oil Jumps on Iran Strike Plans: 
 · entregue  E05 UGPA3 — UGPA3 · JPMorgan rebaixa Ultrapar para neutro e reitera recomendação de compra p
 · entregue  E05 NOK — NOK · Nokia Q3 Comparable Earnings, Sales Rise; Issues Q3 Sales Growth Outlook
@@ -46,6 +40,6 @@ Alertas do dia (todos, com status):
 · entregue  E05 NOK — NOK · Nokia Q3 profit rises on AI-driven network demand, outlook unchanged
 · entregue  E05 TSLA — TSLA · Tesla Asian supplier shares fall after mixed Q3 earnings, cautious outloo
 · entregue  S01 SISTEMA — coleta do slot manha saiu incompleta: tesouro: falha: ValueError: cabecalho ines
-· linha     F03 BRENT — Brent sobe a US$ 112,79 (+3,6% no dia · cruzou US$ 110) (parcial, intradia)
+· linha     F03 BRENT — Brent sobe a US$ 113,19 (+4,0% no dia · cruzou US$ 110) (parcial, intradia)
 · linha     F05 BHKP — Celulose (proxy SHFE, fibra longa) -3,1% na semana: 4.632 CNY/t (22/10)
-· (+100 notícias só manchete, em noticias.md)
+· (+105 notícias só manchete, em noticias.md)
