@@ -118,6 +118,16 @@ def curvas_linhas(curvas: dict, universo, macro: dict, regime: dict, hoje: date)
         lacunas.append("DI sem ajuste B3 (regras de curva DI desligadas)")
     tes = curvas.get("tesouro") or {}
     titulos = tes.get("titulos") or {}
+    # 22/10/2026 (auditoria do terminal de 21/10, salto 10): o CSV do Tesouro Transparente parou em 15/10 e o livro seguiu misturando o
+    # Tesouro de 15/10 com o DI de 21/10 (ate 13 bp de diferenca), na tabela e na inflacao implicita. A base do Tesouro e D-1; com mais de
+    # um pregao de atraso alem disso, o Tesouro sai do texto, da tabela e dos breakevens e vira lacuna com a data (como serie nao ok).
+    base_td = tes.get("data_base")
+    limite_td = relogios.dia_util_anterior("B3", relogios.dia_util_anterior("B3", hoje)).isoformat()
+    if titulos and base_td and base_td < limite_td:
+        lacunas.append(f"Tesouro Direto parado na base {fmt.data_br(base_td)} (fonte do Tesouro Transparente sem dado novo): "
+                       "fora da tabela e da inflação implícita")
+        ins["tesouro_parado"] = base_td
+        titulos = {}
     if titulos:
         base = tes.get("data_base")
         pre, ipca = [], []
@@ -152,7 +162,7 @@ def curvas_linhas(curvas: dict, universo, macro: dict, regime: dict, hoje: date)
             ins["focus_ipca"] = {"ano": ano_prox, "mediana": f_ipca}
         if bes:
             linhas += quebrar("    Implícita " + " · ".join(bes) + (f" vs Focus IPCA {ano_prox} {fmt.taxa(f_ipca)}%" if f_ipca else ""), indent="    ")
-    else:
+    elif not ins.get("tesouro_parado"):
         lacunas.append("Tesouro sem dado")
     ust = curvas.get("ust") or {}
     h = ust.get("historico") or []
