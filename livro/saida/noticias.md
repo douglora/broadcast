@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 22/10 16h22
+NOTÍCIAS E FATOS · 22/10 17h22
 
-Pernas: noticias ok 9 novas (18 consultas; descartadas: 453 veículo fora da lista, 35 sem ativo, 0 teto) · cvm ok 0 novos de 6 (4 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 14 novas (18 consultas; descartadas: 444 veículo fora da lista, 36 sem ativo, 4 teto) · cvm ok 0 novos de 6 (4 cias casadas) · sec ok 0 novos em 3 dias
 
 ## SEC (8-K, 6-K, 10-Q, 10-K) (2)
 
@@ -177,8 +177,22 @@ Fonte: Investing.com 21/10 20h07
 id: E05-TSLA-594bd31921-2026-10-21 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (107)
+## OUTRAS NOTÍCIAS (só manchete) (121)
 
+· USDBRL Dólar sobe com incertezas eleitorais e cautela dos investidores às vésperas do segundo turno (ADVFN) https://br.advfn.com/jornal/2026/10/dolar-sobe-com-incertezas-eleitorais-e-cautela-dos-investidores-as-vesperas-do-segundo-turno
+· USDBRL Dólar fecha com leve alta; Bolsa cai com eleição e tensão no exterior (UOL Economia) https://economia.uol.com.br/noticias/redacao/2026/10/22/dolar-fecha-a-r-5038-bolsa-cai-com-eleicao-e-tensao-no-exterior.amp.htm
+· USDBRL Dólar à vista fecha em alta de 0,22%, a R$5,0384 na venda Por Reuters (Investing.com) https://br.investing.com/news/forex-news/dolar-a-vista-fecha-em-alta-de-022-a-r50384-na-venda-2100286
+· USDBRL Dólar tem 2º dia de ganhos e fecha a R$ 5,0394 à espera de Datafolha (Money Times) https://www.moneytimes.com.br/dolar-22-10-26-lils/
+· PETR4 Petrobras (PETR4) supera gigantes globais e emplaca a maior valorização do setor em outubro. Além do petróleo, o que está por trás? (Seu Dinheiro) https://www.seudinheiro.com/2026/empresas/petrobras-petr4-supera-gigantes-globais-e-emplaca-a-maior-valorizacao-do-setor-em-outubro-alem-do-petroleo-o-que-esta-por-tras-bdap/
+· BRENT Dólar canadense sobe com petróleo e apostas em alta do BoC (Investing.com) https://br.investing.com/news/forex-news/dolar-canadense-sobe-com-petroleo-e-apostas-em-alta-do-boc-2100242
+· USDBRL Bolsa cai e dólar sobe na reta final da corrida presidencial (g1) https://g1.globo.com/google/amp/jornal-hoje/video/bolsa-cai-e-dolar-sobe-na-reta-final-da-corrida-presidencial-15113314.ghtml
+· UST Disappointing 20-Year Treasury Auction Underscores Weakness In The Bond Market (Seeking Alpha) https://seekingalpha.com/article/4956495-disappointing-20-year-treasury-auction-underscores-weakness-bond-market
+· TSLA Tesla Strong Margins, FSD Adoption Offset by Optimus Timing Concerns, Oppenheimer Says (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/tesla-strong-margins-fsd-adoption-160907029.html
+· AMD Susquehanna Makes Strong Calls on AMD, Intel, Qualcomm (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:fb1c94d3f094b:0-susquehanna-makes-strong-calls-on-amd-intel-qualcomm/
+· KO Coca-Cola Consolidated, Inc. (COKE) stock price, news, quote and history (Yahoo Finance) https://sg.finance.yahoo.com/quote/COKE/
+· AMD Por que as ações da Intel e da AMD estão caindo na quinta-feira? (TradingView (Reuters)) https://www.tradingview.com/news/invezz:887906d12bc81:0/
+· BTC Bitcoin Price Prediction: Rally Poised to Continue as BTC ETFs Bag $1 Billion (Yahoo Finance) https://au.finance.yahoo.com/news/bitcoin-price-prediction-rally-poised-142947172.html
+· AVGO Snowflake vs. Broadcom: Which Enterprise AI Stock Is the Smarter Buy? (TradingView (Reuters)) https://www.tradingview.com/news/zacks:ca8afb9e2094b:0-snowflake-vs-broadcom-which-enterprise-ai-stock-is-the-smarter-buy/
 · BBDC4 Bradesco continua líder no ranking de reclamações no 3º tri de 2026 (Poder360) https://www.poder360.com.br/poder-economia/bradesco-continua-lider-no-ranking-de-reclamacoes-no-3o-tri-de-2026/
 · GOOGL Alphabet Stocks Slip 2.5% as Vera Rubin Cloud Scale Nears (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:eefb65458094b:0-alphabet-stocks-slip-2-5-as-vera-rubin-cloud-scale-nears/
 · JPM How Much of Your Portfolio Should Be in Bitcoin After JPMorgan’s 10% Forecast? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/much-portfolio-bitcoin-jpmorgan-10-183046168.html
@@ -225,18 +239,4 @@ id: E05-TSLA-594bd31921-2026-10-21 · status: linha
 · UST Treasury yields fall sharply as traders seek safety from stock market sell-off (CNBC) https://www.cnbc.com/2026/10/22/treasurys-bonds-ai-yields.html
 · TSLA Watch Stocks Fall as Meta and Tesla Earnings Fail to Support AI Trade (Bloomberg) https://www.bloomberg.com/news/videos/2026-10-22/bloomberg-surveillance-10-22-2026-video
 · DI Fitch: PIB brasileiro perde força em 2027 e Selic termina 2026 em 13,50% — seja qual for o resultado das urnas (Money Times) https://www.moneytimes.com.br/fitch-independentemente-do-resultado-das-urnas-pib-deve-perder-forca-em-2027-selic-fica-1350-2026-jcav/
-· SBSP3 Manutenção emergencial da Sabesp afeta fornecimento de água em diversos bairros de Piraju (g1) https://g1.globo.com/sp/itapetininga-regiao/noticia/2026/10/22/manutencao-emergencial-da-sabesp-afeta-fornecimento-de-agua-em-diversos-bairros-de-piraju.ghtml
-· TSLA Tesla’s Q3 profit falls 43% as operating costs rise (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/tesla-q3-profit-falls-43-151639059.html
-· VALE3 CSN, Gerdau, Vale e mais empresas arrematam lotes em 1º leilão de gás da União (InfoMoney) https://www.infomoney.com.br/mercados/csn-gerdau-vale-e-mais-empresas-arrematam-lotes-em-1o-leilao-de-gas-da-uniao/
-· BTC Would you take out a mortgage backed by bitcoin? (Financial Times) https://www.ft.com/content/42176f60-b2fd-431c-9f2c-e7e015b07315?syn-25a6b1a6=1
-· TESOURO Tesouro Direto: taxas pré sobem, mas IPCA+ longo recua antes do Datafolha (InfoMoney) https://www.infomoney.com.br/onde-investir/tesouro-direto-abertura-fechamento-22102026/
-· AMZN Amazon Earnings Are a Week Away: Here’s What to Expect (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:22a3fbf4e094b:0
-· ETH Ethereum ETFs Break Five-Day Outflow Run With $14.9 Million Inflows (TradingView (Reuters)) https://www.tradingview.com/news/newsbtc:9583ca315094b:0-ethereum-etfs-break-five-day-outflow-run-with-14-9-million-inflows/
-· BAC Meta Platforms' AI Story Gains Traction After Q3 Revenue Beat, BofA Says (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/meta-platforms-apos-ai-story-145724947.html
-· INTC Intel Stock Could Have a Turnaround Opportunity if These 3 Catalysts Deliver (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/intel-stock-could-turnaround-opportunity-143021395.html
-· BTC Bitcoin ETFs Draw $524.8 Million As BlackRock And Fidelity Lead (TradingView (Reuters)) https://www.tradingview.com/news/newsbtc:022a0cadf094b:0-bitcoin-etfs-draw-524-8-million-as-blackrock-and-fidelity-lead/
-· BABA Alibaba stock outlook: bearish trend with rebound potential (Investing.com) https://www.investing.com/news/stock-market-news/alibaba-stock-outlook-bearish-trend-with-rebound-potential-93CH-4966712
-· BRENT Nasdaq leads Wall Street lower on AI spending jitters; oil prices rebound (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/nasdaq-futures-drop-over-1-093849296.html
-· GOOGL One Reason Alphabet Stock Looks Better Than Its Price (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/one-reason-alphabet-stock-looks-140754006.html
-· TSLA Tesla stock slips despite Q3 earnings beat, better-than-expected capex spend (Yahoo Finance) https://finance.yahoo.com/markets/stocks/article/tesla-stock-slips-despite-q3-earnings-beat-better-than-expected-capex-spend-101521707.html
-· (+47 manchetes; lista completa em eventos/noticias.json)
+· (+61 manchetes; lista completa em eventos/noticias.json)
