@@ -2,19 +2,14 @@ ALERTAS · intradia
 
 Nenhum alerta novo neste slot.
 Info (só linha no Fechamento):
-· E05 ETH · Ethereum ETFs Break Five-Day Outflow Run With $14.9 Million Inflows
-· E05 BAC · Meta Platforms' AI Story Gains Traction After Q3 Revenue Beat, BofA Says
-· E05 INTC · Intel Stock Could Have a Turnaround Opportunity if These 3 Catalysts Deliver
-· E05 BTC · Bitcoin ETFs Draw $524.8 Million As BlackRock And Fidelity Lead
-· E05 BABA · Alibaba stock outlook: bearish trend with rebound potential
-· E05 BRENT · Nasdaq leads Wall Street lower on AI spending jitters; oil prices rebound
-· E05 GOOGL · One Reason Alphabet Stock Looks Better Than Its Price
-· E05 TSLA · Tesla stock slips despite Q3 earnings beat, better-than-expected capex spend
-· E05 BTC · Bitcoin Price Erases Two-Day Gains After $85,000 Rejection: Will it Fall to $80,000?
-· E05 ETH · Ethereum Price Analysis: Can ETH Hold $2,300 Support After a 12% Monthly Drop?
-· E05 LITE · Why is Lumentum stock sliding today?
-· E05 META · Tesla lowers capital expenditures target, IBM recovers from earnings, META AI build-out plans
-· E05 NOK · Nokia's Q3 Earnings Beat Estimates on AI & Cloud Strength
+· E05 TSLA · Watch Stocks Fall as Meta and Tesla Earnings Fail to Support AI Trade
+· E05 DI · Fitch: PIB brasileiro perde força em 2027 e Selic termina 2026 em 13,50% — seja qual for o resultado das urnas
+· E05 SBSP3 · Manutenção emergencial da Sabesp afeta fornecimento de água em diversos bairros de Piraju
+· E05 TSLA · Tesla’s Q3 profit falls 43% as operating costs rise
+· E05 VALE3 · CSN, Gerdau, Vale e mais empresas arrematam lotes em 1º leilão de gás da União
+· E05 BTC · Would you take out a mortgage backed by bitcoin?
+· E05 TESOURO · Tesouro Direto: taxas pré sobem, mas IPCA+ longo recua antes do Datafolha
+· E05 AMZN · Amazon Earnings Are a Week Away: Here’s What to Expect
 
 
 Alertas do dia (todos, com status):
@@ -26,6 +21,6 @@ Alertas do dia (todos, com status):
 · entregue  E05 NOK — NOK · Nokia Q3 profit rises on AI-driven network demand, outlook unchanged
 · entregue  E05 TSLA — TSLA · Tesla Asian supplier shares fall after mixed Q3 earnings, cautious outloo
 · entregue  S01 SISTEMA — coleta do slot manha saiu incompleta: tesouro: falha: ValueError: cabecalho ines
-· linha     F03 BRENT — Brent sobe a US$ 111,34 (cruzou US$ 110) (parcial, intradia)
+· linha     F03 BRENT — Brent sobe a US$ 111,24 (cruzou US$ 110) (parcial, intradia)
 · linha     F05 BHKP — Celulose (proxy SHFE, fibra longa) -3,1% na semana: 4.632 CNY/t (22/10)
-· (+62 notícias só manchete, em noticias.md)
+· (+70 notícias só manchete, em noticias.md)

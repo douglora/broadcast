@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 22/10 12h23
+NOTÍCIAS E FATOS · 22/10 12h53
 
-Pernas: noticias ok 13 novas (18 consultas; descartadas: 429 veículo fora da lista, 37 sem ativo, 11 teto) · cvm ok 0 novos de 6 (4 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 8 novas (18 consultas; descartadas: 443 veículo fora da lista, 25 sem ativo, 0 teto) · cvm ok 0 novos de 6 (4 cias casadas) · sec ok 0 novos em 3 dias
 
 ## SEC (8-K, 6-K, 10-Q, 10-K) (2)
 
@@ -133,8 +133,16 @@ Fonte: Investing.com 21/10 20h07
 id: E05-TSLA-594bd31921-2026-10-21 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (55)
+## OUTRAS NOTÍCIAS (só manchete) (63)
 
+· TSLA Watch Stocks Fall as Meta and Tesla Earnings Fail to Support AI Trade (Bloomberg) https://www.bloomberg.com/news/videos/2026-10-22/bloomberg-surveillance-10-22-2026-video
+· DI Fitch: PIB brasileiro perde força em 2027 e Selic termina 2026 em 13,50% — seja qual for o resultado das urnas (Money Times) https://www.moneytimes.com.br/fitch-independentemente-do-resultado-das-urnas-pib-deve-perder-forca-em-2027-selic-fica-1350-2026-jcav/
+· SBSP3 Manutenção emergencial da Sabesp afeta fornecimento de água em diversos bairros de Piraju (g1) https://g1.globo.com/sp/itapetininga-regiao/noticia/2026/10/22/manutencao-emergencial-da-sabesp-afeta-fornecimento-de-agua-em-diversos-bairros-de-piraju.ghtml
+· TSLA Tesla’s Q3 profit falls 43% as operating costs rise (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/tesla-q3-profit-falls-43-151639059.html
+· VALE3 CSN, Gerdau, Vale e mais empresas arrematam lotes em 1º leilão de gás da União (InfoMoney) https://www.infomoney.com.br/mercados/csn-gerdau-vale-e-mais-empresas-arrematam-lotes-em-1o-leilao-de-gas-da-uniao/
+· BTC Would you take out a mortgage backed by bitcoin? (Financial Times) https://www.ft.com/content/42176f60-b2fd-431c-9f2c-e7e015b07315?syn-25a6b1a6=1
+· TESOURO Tesouro Direto: taxas pré sobem, mas IPCA+ longo recua antes do Datafolha (InfoMoney) https://www.infomoney.com.br/onde-investir/tesouro-direto-abertura-fechamento-22102026/
+· AMZN Amazon Earnings Are a Week Away: Here’s What to Expect (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:22a3fbf4e094b:0
 · ETH Ethereum ETFs Break Five-Day Outflow Run With $14.9 Million Inflows (TradingView (Reuters)) https://www.tradingview.com/news/newsbtc:9583ca315094b:0-ethereum-etfs-break-five-day-outflow-run-with-14-9-million-inflows/
 · BAC Meta Platforms' AI Story Gains Traction After Q3 Revenue Beat, BofA Says (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/meta-platforms-apos-ai-story-145724947.html
 · INTC Intel Stock Could Have a Turnaround Opportunity if These 3 Catalysts Deliver (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/intel-stock-could-turnaround-opportunity-143021395.html
@@ -187,6 +195,4 @@ id: E05-TSLA-594bd31921-2026-10-21 · status: linha
 · BBDC4 Bradesco (BBDC4) divulga balanço nesta quinta: recuperação continua? (InfoMoney) https://www.infomoney.com.br/mercados/bradesco-bbdc4-divulga-seu-balanco-nesta-5a-a-recuperacao-continuara/
 · BTC Is the 21st Bitcoin’s Unlucky Date? Its Latest Breakout Just Fell Apart (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/21st-bitcoin-unlucky-date-latest-095919613.html
 · BTC Bitcoin ETFs draw $528 million as ether funds snap five-day outflow streak (The Block) https://news.google.com/rss/articles/CBMixwFBVV95cUxObS00cHVoeFZOd2dkSFZaZGlrLWwzLVVmTFI0cXI5TVV5cEZoU28ycmd0OGZabU92My1wUHNQNnZPemtJamdueTRFUWllMGF0bDU2TkVCZVVHd1lBcVdnb3NDMnFRekFtVXBIbEQteHhORVk1UHlOXzE2Q1FHLU1xbkVVSzQ0bG00b1pmanZZbXEzNGhIbEEwZFNDeG1lcnlEbmViOUlRdW1SWGlUcHlZUllsM0RqUkhxbkE0VDlLY1R1LUpBYVZ3?oc=5
-· MU Handful of Micron workers strike in Taiwan (Yahoo Finance) https://news.google.com/rss/articles/CBMijgFBVV95cUxOTEN4WThSdFFtc2VrR0pXM0RuN1ozem9lR1B0eHlZaXhySnRzbk1JT3NFbXFoaDQ4UmVCSEN3V2FSNnZMdGxEUHNlajRhNG8yY1dvaWJvcFBLSnlkWms2MTJpYWRlZzdPbWJkZ212bVdxRkxaUmk3Z3VPRmFmMGN6TnB3NnFqRm9yWEJuUE1n?oc=5
-· TSLA A SpaceX-Tesla merger: The ins, outs, and what-have-yous (Fortune) https://news.google.com/rss/articles/CBMigAFBVV95cUxNOFlla1BGY21yQ05sWGV5aUZ4cldPU1V5eVVTd0tjSmdIUS1CLS1aMUgzOHV0aFNCeHNoaENnRFhJTFEwVEx5QWx6NEp4bkxwLTBmRXBYUzdFYThkV3NkU3Z0dUxTZkdHOGI4cnJENDRsNWFTSGM4VUdleDRnWThPUQ?oc=5
-· BABA Alibaba Shares Post Steepest Drop in Two Months on China Curbs (Yahoo Finance) https://news.google.com/rss/articles/CBMinwFBVV95cUxPXzVFeExnUkF2QUpWc1dCRDJnYjRqVFdNbmhGUk5KOTZPeTVQQ25oa1FoZlBpUG9RaUtFaUVLM1I4NXg5MDMta3NVSTJ6MGhVU1Rzc05DUVltR0NmZ25FbUxqTjlnQjRiMmFWTEhIN1lvYnJLNjR6dXluSFAySWtFeFA2cllsaEt5aTdnNmg1bmlXbjUzRmRhaXJOSGgwbmM?oc=5
+· (+3 manchetes; lista completa em eventos/noticias.json)
