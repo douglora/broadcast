@@ -1,6 +1,6 @@
 {
  "pregao": "2026-10-21",
- "coletado_em": "2026-10-22T05:19:57Z",
+ "coletado_em": "2026-10-22T11:52:56Z",
  "tabelas": {
   "SharesInvesVolum": {
    "titulo": "Participação dos investidores",
@@ -21,9 +21,9 @@
   "EconomicIndicators": {
    "titulo": "Indicadores econômicos",
    "situacao": "republicado",
-   "atualizado_em": "2026-10-22T02:12:51.227",
+   "atualizado_em": "2026-10-22T08:42:46.007",
    "sla": "8:00:00",
-   "linhas": 211,
+   "linhas": 433,
    "truncada": false
   },
   "HistoricalExchange": {
@@ -133,7 +133,7 @@
   "Forward": {
    "titulo": "Ações mais negociadas - a termo",
    "situacao": "republicado",
-   "atualizado_em": "2026-10-22T02:13:44.877",
+   "atualizado_em": "2026-10-22T02:54:03.193",
    "sla": "8:00:00",
    "linhas": 5,
    "truncada": false
@@ -180,24 +180,24 @@
   },
   "AnalyticalFramework2": {
    "titulo": "Quadro analítico das posições em aberto",
-   "situacao": "aguardando",
-   "atualizado_em": "2026-10-21T00:00:38.013",
+   "situacao": "atrasado",
+   "atualizado_em": "2026-10-22T08:06:55.147",
    "sla": "8:00:00",
-   "linhas": 0,
+   "linhas": 73,
    "truncada": false
   },
   "SwapFlex": {
    "titulo": "Swap",
-   "situacao": "aguardando",
-   "atualizado_em": "2026-10-21T00:00:38.013",
+   "situacao": "atrasado",
+   "atualizado_em": "2026-10-22T03:00:38.89",
    "sla": "3:00:00",
    "linhas": 0,
    "truncada": false
   },
   "EletronicTerm": {
    "titulo": "Termo eletrônico",
-   "situacao": "aguardando",
-   "atualizado_em": "2026-10-21T00:00:38.013",
+   "situacao": "ignorado",
+   "atualizado_em": "2026-10-22T03:00:38.89",
    "sla": "3:00:00",
    "linhas": 0,
    "truncada": false
@@ -300,18 +300,18 @@
   },
   "Stock": {
    "titulo": "Estoque",
-   "situacao": "aguardando",
-   "atualizado_em": "2026-10-21T00:00:38.013",
+   "situacao": "publicado",
+   "atualizado_em": "2026-10-22T05:02:28.48",
    "sla": "8:00:00",
-   "linhas": 0,
+   "linhas": 42,
    "truncada": false
   },
   "Register": {
    "titulo": "Registro",
-   "situacao": "aguardando",
-   "atualizado_em": "2026-10-21T00:00:38.013",
+   "situacao": "publicado",
+   "atualizado_em": "2026-10-22T04:42:56.233",
    "sla": "8:00:00",
-   "linhas": 0,
+   "linhas": 17,
    "truncada": false
   },
   "RepurchaseDealings": {
@@ -332,18 +332,18 @@
   },
   "BTBLendingOpenPosition": {
    "titulo": "Posições em aberto",
-   "situacao": "aguardando",
-   "atualizado_em": "2026-10-21T00:00:38.013",
+   "situacao": "publicado",
+   "atualizado_em": "2026-10-22T02:22:28.357",
    "sla": "8:00:00",
-   "linhas": 0,
+   "linhas": 2920,
    "truncada": false
   },
   "BTBLoanBalance": {
    "titulo": "Empréstimos registrados",
-   "situacao": "aguardando",
-   "atualizado_em": "2026-10-21T00:00:38.013",
+   "situacao": "publicado",
+   "atualizado_em": "2026-10-22T03:53:26.783",
    "sla": "8:00:00",
-   "linhas": 0,
+   "linhas": 4740,
    "truncada": false
   },
   "PreviaQuadrimestral": {
@@ -397,11 +397,15 @@
    "bytes": 19428312,
    "linhas": 86312,
    "estado": "Final"
+  },
+  "DerivativesOpenPosition": {
+   "arquivo": "DerivativesOpenPositionFile_20261021_1",
+   "bytes": 3257970,
+   "linhas": 40827,
+   "estado": null
   }
  },
- "falhas": {
-  "DerivativesOpenPosition": "arquivo DerivativesOpenPosition: token HTTP 400"
- },
+ "falhas": {},
  "rf_cadastro": {
   "papeis_no_dia": 1598,
   "consultados": 0,
