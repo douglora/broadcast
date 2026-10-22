@@ -1,20 +1,20 @@
 {
  "pregao": "2026-10-21",
- "situacao": "atrasado",
+ "situacao": "publicado",
  "errata": false,
- "atualizado_em": "2026-10-22T08:44:06.513",
+ "atualizado_em": "2026-10-22T00:00:00",
  "completo": {
-  "arquivo": "",
-  "pdf": ""
+  "arquivo": "BDI_00_20261021.pdf",
+  "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-10-21/BDI_00_20261021.pdf"
  },
  "cadernos": [
   {
    "id": 1,
    "nome": "Renda fixa",
    "pai": null,
-   "situacao": "",
+   "situacao": "republicado",
    "errata": true,
-   "atualizado_em": "2026-10-22T08:44:23.44",
+   "atualizado_em": "2026-10-22T09:47:18.213",
    "arquivo": "",
    "pdf": ""
   },
@@ -44,7 +44,7 @@
    "pai": 20,
    "situacao": "publicado",
    "errata": false,
-   "atualizado_em": "2026-10-22T08:44:23.44",
+   "atualizado_em": "2026-10-22T11:07:03.463",
    "arquivo": "BDI_02_20261021.pdf",
    "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-10-21/BDI_02_20261021.pdf"
   },
@@ -72,21 +72,21 @@
    "id": 33,
    "nome": "Derivativos de balcão",
    "pai": 3,
-   "situacao": "",
+   "situacao": "publicado",
    "errata": false,
-   "atualizado_em": "2026-10-22T08:34:48.45",
-   "arquivo": "",
-   "pdf": ""
+   "atualizado_em": "2026-10-22T00:00:00",
+   "arquivo": "BDI_03-3_20261021.pdf",
+   "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-10-21/BDI_03-3_20261021.pdf"
   },
   {
    "id": 34,
    "nome": "Derivativos de bolsa",
    "pai": 3,
-   "situacao": "",
+   "situacao": "publicado",
    "errata": false,
-   "atualizado_em": "2026-10-22T08:08:02.057",
-   "arquivo": "",
-   "pdf": ""
+   "atualizado_em": "2026-10-22T00:00:00",
+   "arquivo": "BDI_00_20261021.pdf",
+   "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-10-21/BDI_00_20261021.pdf"
   },
   {
    "id": 41,

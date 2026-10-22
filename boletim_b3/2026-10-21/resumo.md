@@ -1,7 +1,7 @@
 # Boletim da B3: pregão de 21/10/2026 (quarta)
 
-**Situação: COMPLETO.** Boletim atrasado pela B3 em 2026-10-22 08:44 (hora de Brasília).
-Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10-22T11:53:44Z (UTC).
+**Situação: COMPLETO.** Boletim publicado pela B3 em 2026-10-22 00:00 (hora de Brasília).
+Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10-22T16:03:07Z (UTC).
 
 [[LEITURA_DA_MESA]]
 
@@ -11,8 +11,8 @@ Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10
 
 - **Posição em opções.** PETR4: a call PETRK669 (strike 66,91, vencimento 19/11) ganhou 5.631.300 opções em aberto no dia, para 6.404.600. _(B3, DerivativesOpenPosition, 21/10)_
 - **Posição em opções.** EQTL3: a put EQTLW432 (strike 43,24, vencimento 19/11) ganhou 5.011.000 opções em aberto no dia, para 5.116.500. _(B3, DerivativesOpenPosition, 21/10)_
-- **Crédito: taxa abriu.** 22J0306937 (Vert Companhia Securitizadora, CRI): taxa média dos negócios da B3 abriu 107 pb contra 16/10, para IPCA+ 14,98%, em R$ 5,7 mi. _(B3, Trade + InstrumentRegistration (preliminar), 21/10)_
-- **Crédito: prêmio alto.** 22J0306937 (Vert Companhia Securitizadora, CRI): negociada a IPCA+ 14,98%, 822 pb acima do juro real de mercado de prazo equivalente, em R$ 5,7 mi. _(B3, Trade + InstrumentRegistration (preliminar), 21/10)_
+- **Crédito: taxa abriu.** 22J0306937 (Vert Companhia Securitizadora, CRI): taxa média dos negócios da B3 abriu 107 pb contra 16/10, para IPCA+ 14,98%, em R$ 5,7 mi. _(B3, Trade + InstrumentRegistration, 21/10)_
+- **Crédito: prêmio alto.** 22J0306937 (Vert Companhia Securitizadora, CRI): negociada a IPCA+ 14,98%, 822 pb acima do juro real de mercado de prazo equivalente, em R$ 5,7 mi. _(B3, Trade + InstrumentRegistration, 21/10)_
 - **Crédito: prêmio alto.** IRJS14 (Igua Rio de Janeiro, debênture incentivada): taxa indicativa da ANBIMA de 21/10 a IPCA+ 11,85%, 510 pb acima do juro real de mercado na duration de 6,4 anos; R$ 5,6 mi negociados na B3 em 21/10, sem taxa. _(ANBIMA e B3, taxa indicativa de debêntures (ANBIMA) e DAP (B3), 21/10)_
 - **Fluxo estrangeiro.** Estrangeiro vendeu R$ 1.009 mi líquidos em 19/10; no mês, até 19/10, saldo de +R$ 19.983 mi. _(B3, SharesInvesVolum, 19/10)_
 - **Listas do dia.** Do livro nas listas do boletim: maiores altas do Ibovespa: UGPA3 (3º); mais negociadas à vista: PETR4 (1º), VALE3 (2º), ITUB4 (3º), SMAL11 (5º). _(B3, tabelas de maiores oscilacoes, 21/10)_
@@ -237,24 +237,22 @@ Posição em aberto: 3,7 bi de calls e 3,3 bi de puts (put/call 0,90); no volume
 
 ## Renda fixa: debêntures incentivadas, CRI e CRA
 
-**Preliminar:** a B3 ajusta os negócios de balcão no dia seguinte; volumes e taxas dos negócios deste pregão ainda podem mudar.
-
 **De onde vem cada taxa:** debêntures pela taxa indicativa da ANBIMA de 21/10 (1.259 papéis), com os negócios da B3 de 21/10 ao lado; CRI e CRA só pelos negócios da B3.
 
 | Classe | Volume do dia | Taxa mediana | Sobre o juro real |
 |---|---:|---:|---:|
-| Debêntures incentivadas | R$ 3,2 bi | IPCA+ 7,45% | +69 pb |
-| CRI | R$ 909,5 mi | IPCA+ 8,36% e CDI+ 2,43% | +160 pb |
-| CRA | R$ 316,2 mi | IPCA+ 9,08% e CDI+ 2,94% | +236 pb |
+| Debêntures incentivadas | R$ 3,0 bi | IPCA+ 7,46% | +69 pb |
+| CRI | R$ 904,7 mi | IPCA+ 8,35% e CDI+ 2,43% | +160 pb |
+| CRA | R$ 297,8 mi | IPCA+ 9,08% e CDI+ 2,94% | +236 pb |
 
-Nas incentivadas, a mediana pelos negócios do dia (B3 negócios de 21/10) foi IPCA+ 7,43%.
+Nas incentivadas, a mediana pelos negócios do dia (B3 negócios de 21/10) foi IPCA+ 7,44%.
 
 **Papéis acompanhados (config/boletim.yaml)**
 
 | Papel | Taxa de referência | B3 negócios de 21/10 | Sobre o juro real |
 |---|---:|---:|---:|
 | CGOS16 | IPCA+ 7,77% (ANBIMA indicativa de 21/10) | IPCA+ 7,72%, R$ 218,4 mil | +98 pb na duration |
-| CGOS28 | IPCA+ 7,80% (ANBIMA indicativa de 21/10) | IPCA+ 7,39%, R$ 2,8 mi | +105 pb na duration |
+| CGOS28 | IPCA+ 7,80% (ANBIMA indicativa de 21/10) | IPCA+ 7,39%, R$ 2,2 mi | +105 pb na duration |
 | 22B0006022 (MRV (CRI em IPCA, única série)) | IPCA+ 14,16% (B3 negócios de 21/10) | R$ 2,2 mi | +741 pb no vencimento |
 | CRA025003UZ (Cooxupé (% do CDI, única série)) | 112,0% do CDI (B3 negócios de 21/10) | R$ 280,1 mil | - |
 | CRA024007K9 (Cooxupé (CDI+, única série)) | CDI+ 2,10% (B3 negócios de 21/10) | R$ 392,8 mil | - |
@@ -277,19 +275,19 @@ Nas incentivadas, a mediana pelos negócios do dia (B3 negócios de 21/10) foi I
 
 | Papel | Taxa de referência | B3 negócios de 21/10 | Sobre o juro real |
 |---|---:|---:|---:|
-| CEEBF3 (Cia. De Eletric. Do Est. Da ) | 13,09% pré (B3 negócios de 21/10) | R$ 168,3 mi | - |
 | RECV14 (Petroreconcavo S.A.) | IPCA+ 7,81% (ANBIMA indicativa de 21/10) | IPCA+ 7,79%, R$ 156,3 mi | +101 pb na duration |
+| CEEBF3 (Cia. De Eletric. Do Est. Da ) | 13,10% pré (B3 negócios de 21/10) | R$ 149,3 mi | - |
 | RDOE18 (Concessionaria Do Rodoanel O) | IPCA+ 7,02% (ANBIMA indicativa de 21/10) | IPCA+ 6,98%, R$ 146,9 mi | +24 pb na duration |
 | CHSF13 (Companhia Hidro Eletrica Do ) | IPCA+ 7,19% (ANBIMA indicativa de 21/10) | IPCA+ 7,20%, R$ 133,9 mi | +37 pb na duration |
 | CMGDB4 (Cemig Distribuicao S/A) | IPCA+ 7,58% (ANBIMA indicativa de 21/10) | IPCA+ 7,65%, R$ 120,9 mi | +85 pb na duration |
-| CNRD12 (Concessionaria Da Rodovia Ms) | IPCA+ 8,79% (ANBIMA indicativa de 21/10) | IPCA+ 8,73%, R$ 111,1 mi | +205 pb na duration |
-| AURP13 (Auren Operacoes S.A.) | IPCA+ 7,76% (ANBIMA indicativa de 21/10) | IPCA+ 7,73%, R$ 106,9 mi | +102 pb na duration |
 | CPLDC0 (Copel  Distribuicao S/A) | IPCA+ 7,43% (ANBIMA indicativa de 21/10) | IPCA+ 7,50%, R$ 84,3 mi | +68 pb na duration |
+| AURP13 (Auren Operacoes S.A.) | IPCA+ 7,76% (ANBIMA indicativa de 21/10) | IPCA+ 7,77%, R$ 76,2 mi | +102 pb na duration |
+| CNRD12 (Concessionaria Da Rodovia Ms) | IPCA+ 8,79% (ANBIMA indicativa de 21/10) | IPCA+ 8,74%, R$ 75,8 mi | +205 pb na duration |
 
-**Abriram taxa pela indicativa da ANBIMA:** TPNO12 +19 pb contra 20/10, para IPCA+ 6,81% (R$ 11,6 mi); BTEL13 +10,4 pb contra 20/10, para 15,76% pré (R$ 38,6 mi); IGSN15 +9,5 pb contra 20/10, para IPCA+ 11,02% (R$ 3,7 mi); IRJS15 +8,5 pb contra 20/10, para IPCA+ 11,39% (R$ 23,9 mi); ORIG12 +7,9 pb contra 20/10, para IPCA+ 10,53% (R$ 4,8 mi).
-**Fecharam taxa pela indicativa da ANBIMA:** ANHBB6 -24,9 pb contra 20/10, para IPCA+ 7,07% (R$ 29,1 mi); APFD19 -24,1 pb contra 20/10, para IPCA+ 8,02% (R$ 19,4 mi); IRJS14 -19,7 pb contra 20/10, para IPCA+ 11,85% (R$ 5,6 mi); EGIEA4 -18,3 pb contra 20/10, para 12,99% pré (R$ 5,2 mi); SBSPJ8 -17,1 pb contra 20/10, para IPCA+ 7,32% (R$ 11,3 mi).
-**Abriram taxa pelos negócios da B3:** 22J0306937 +107 pb contra 16/10, para IPCA+ 14,98% (R$ 5,7 mi); CRA021000RX +97 pb contra 20/10, para IPCA+ 12,73% (R$ 3,4 mi); CRA022007EP +9 pb contra 20/10, para IPCA+ 7,34% (R$ 6,6 mi); 22L1465644 +6 pb contra 20/10, para CDI+ 2,43% (R$ 4,2 mi); CRA02300CCH +6 pb contra 20/10, para CDI+ 4,06% (R$ 8,3 mi).
-**Fecharam taxa pelos negócios da B3:** CRA021001PQ -68 pb contra 20/10, para IPCA+ 13,68% (R$ 3,9 mi); 23F2455004 -63 pb contra 20/10, para 16,36% pré (R$ 3,7 mi); CRA02300795 -60 pb contra 20/10, para CDI+ 4,03% (R$ 23,1 mi); CRA02300NAX -37 pb contra 20/10, para IPCA+ 7,65% (R$ 36,8 mi); CRA021002SO -37 pb contra 20/10, para IPCA+ 7,98% (R$ 3,4 mi).
+**Abriram taxa pela indicativa da ANBIMA:** TPNO12 +19 pb contra 20/10, para IPCA+ 6,81% (R$ 11,6 mi); BTEL13 +10,4 pb contra 20/10, para 15,76% pré (R$ 38,4 mi); IRJS15 +8,5 pb contra 20/10, para IPCA+ 11,39% (R$ 23,9 mi); ORIG12 +7,9 pb contra 20/10, para IPCA+ 10,53% (R$ 4,8 mi); EPRL12 +7,5 pb contra 20/10, para IPCA+ 8,57% (R$ 3,4 mi).
+**Fecharam taxa pela indicativa da ANBIMA:** ANHBB6 -24,9 pb contra 20/10, para IPCA+ 7,07% (R$ 29,1 mi); APFD19 -24,1 pb contra 20/10, para IPCA+ 8,02% (R$ 19,4 mi); IRJS14 -19,7 pb contra 20/10, para IPCA+ 11,85% (R$ 5,6 mi); EGIEA4 -18,3 pb contra 20/10, para 12,99% pré (R$ 3,1 mi); SBSPJ8 -17,1 pb contra 20/10, para IPCA+ 7,32% (R$ 11,3 mi).
+**Abriram taxa pelos negócios da B3:** 22J0306937 +107 pb contra 16/10, para IPCA+ 14,98% (R$ 5,7 mi); CRA021000RX +97 pb contra 20/10, para IPCA+ 12,73% (R$ 3,4 mi); CRA022007EP +9 pb contra 20/10, para IPCA+ 7,34% (R$ 6,6 mi); 22L1465644 +6 pb contra 20/10, para CDI+ 2,43% (R$ 4,1 mi); CRA02300CCH +6 pb contra 20/10, para CDI+ 4,06% (R$ 8,3 mi).
+**Fecharam taxa pelos negócios da B3:** CRA021001PQ -68 pb contra 20/10, para IPCA+ 13,68% (R$ 3,9 mi); 23F2455004 -63 pb contra 20/10, para 16,36% pré (R$ 3,6 mi); CRA02300795 -60 pb contra 20/10, para CDI+ 4,03% (R$ 23,1 mi); CRA02300NAX -37 pb contra 20/10, para IPCA+ 7,66% (R$ 27,1 mi); CRA021002SO -37 pb contra 20/10, para IPCA+ 7,98% (R$ 3,4 mi).
 **Prêmio alto:** 22J0306937 a IPCA+ 14,98% (B3 negócios de 21/10), +822 pb no vencimento, R$ 5,7 mi; SUMI17 a IPCA+ 14,62% (ANBIMA indicativa de 21/10), +782 pb na duration, R$ 11,8 mi; CRA021001PQ a IPCA+ 13,68% (B3 negócios de 21/10), +689 pb no vencimento, R$ 3,9 mi; CRA021000RX a IPCA+ 12,73% (B3 negócios de 21/10), +585 pb no vencimento, R$ 3,4 mi; IRJS14 a IPCA+ 11,85% (ANBIMA indicativa de 21/10), +510 pb na duration, R$ 5,6 mi.
 
 Por classe, mediana das taxas de referência dos papéis. Taxa de referência: nas debêntures, a indicativa da ANBIMA quando há; nos demais papéis, a média dos negócios da B3 ponderada pelo volume. Juro real = DAP (cupom de IPCA) da mesma data: na duration do papel quando a taxa é a indicativa, no vencimento quando é a dos negócios (aproximação). Em CRI e CRA a B3 informa a securitizadora.
@@ -329,3 +327,5 @@ Por classe, mediana das taxas de referência dos papéis. Taxa de referência: n
 - Fluxo por tipo de investidor sai acumulado no mês e com dois pregões de atraso; o saldo de um dia é a diferença entre dois acumulados seguidos.
 - RARA11: a B3 não publica valor de referência da cota (IOPV) para este ETF no boletim.
 - Paridade de MELI34: sem a barra de 21/10 de MELI nas séries do livro.
+
+Boletim completo em PDF (B3): https://arquivos.b3.com.br/bdi/download/bdi/2026-10-21/BDI_00_20261021.pdf
