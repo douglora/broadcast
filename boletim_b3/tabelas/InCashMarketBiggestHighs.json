@@ -1,5 +1,5 @@
 {
- "pregao": "2026-10-20",
+ "pregao": "2026-10-21",
  "nome": "InCashMarketBiggestHighs",
  "titulo": "Mercado à vista - maiores altas",
  "sla": "8:00:00",
@@ -7,18 +7,18 @@
  "colunas": [{"nome": "TckrSymb", "titulo": "Ação"}, {"nome": "Cod", "titulo": "Código"}, {"nome": "Price", "titulo": "Preço (R$)"}, {"nome": "Oscillation", "titulo": "Oscilação (%)"}],
  "texto": ["Mostra as maiores valorizações de ativos no mercado à vista, destacando as melhores performances."],
  "situacao": "publicado",
- "atualizado_em": "2026-10-20T19:00:20.72",
+ "atualizado_em": "2026-10-21T19:00:34.34",
  "truncada": false,
  "linhas": [
-  ["PLAS3", "ON", 3.89, 14.41],
-  ["MGLU3", "ON      NM", 13.58, 14.79],
-  ["AMER3", "ON      NM", 6.9, 15.57],
-  ["CRPG5", "PNA", 10.2, 15.9],
-  ["LJQQ3", "ON      NM", 3.11, 17.35],
-  ["BHIA3", "ON      NM", 1.43, 20.16],
-  ["PPLA11", "UNT", 55.55, 23.44],
-  ["AMER11", "BNS ORD NM", 4.96, 24],
-  ["NUTR3", "ON      MP", 4.38, 35.18],
-  ["PRNR1", "DIR ORD NM", 0.94, 36.23]
+  ["LOWC34", "DRN ED", 49.55, 13.17],
+  ["EDFO11", "CI", 137.99, 14.04],
+  ["PLAS3", "ON", 4.5, 15.68],
+  ["CTSH34", "DRN", 349.52, 18.4],
+  ["VIVR12", "BNS ORD NM", 0.12, 20],
+  ["LUPA3", "ON      NM", 5.2, 20.09],
+  ["PATI4", "PN", 35.45, 20.25],
+  ["AZEV3", "ON", 16.7, 24.62],
+  ["RZZI11", "CI  ER", 1300, 26.7],
+  ["FSRF11", "CI", 0.09, 28.57]
  ]
 }

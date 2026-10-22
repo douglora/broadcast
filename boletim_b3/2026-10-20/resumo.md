@@ -1,7 +1,7 @@
 # Boletim da B3: pregão de 20/10/2026 (terça)
 
 **Situação: COMPLETO.** Boletim publicado pela B3 em 2026-10-21 09:06 (hora de Brasília).
-Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10-21T16:05:57Z (UTC).
+Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10-22T00:52:52Z (UTC).
 
 [[LEITURA_DA_MESA]]
 
@@ -292,7 +292,7 @@ Nas incentivadas, a mediana pelos negócios do dia (B3 negócios de 20/10) foi I
 
 **Abriram taxa pela indicativa da ANBIMA:** APFD19 +20,4 pb contra 19/10, para IPCA+ 8,26% (R$ 19,2 mi); CGEE23 +17,2 pb contra 19/10, para IPCA+ 15,26% (R$ 3,5 mi); IRJS14 +7,8 pb contra 19/10, para IPCA+ 12,05% (R$ 4,0 mi); AEAB11 +7,5 pb contra 19/10, para IPCA+ 8,08% (R$ 6,5 mi); SUMI17 +7,1 pb contra 19/10, para IPCA+ 14,79% (R$ 32,8 mi).
 **Fecharam taxa pela indicativa da ANBIMA:** SBSPE9 -18,8 pb contra 19/10, para IPCA+ 7,07% (R$ 4,1 mi); VLIM29 -18,1 pb contra 19/10, para IPCA+ 7,62% (R$ 8,5 mi); BTEL23 -17,4 pb contra 19/10, para IPCA+ 9,74% (R$ 13,4 mi); ENMTF8 -16,1 pb contra 19/10, para IPCA+ 7,78% (R$ 8,7 mi); EQPAA1 -16 pb contra 19/10, para IPCA+ 7,93% (R$ 10,9 mi).
-**Abriram taxa pelos negócios da B3:** CRA024001P7 +164 pb contra 15/10, para CDI+ 5,60% (R$ 5,3 mi); 21H1078699 +103 pb contra 19/10, para IPCA+ 10,69% (R$ 4,7 mi); CRA021000RY +56 pb contra 19/10, para IPCA+ 11,38% (R$ 4,1 mi); 22L1465644 +56 pb contra 16/10, para CDI+ 2,37% (R$ 9,6 mi); CRA0220073P +51 pb contra 19/10, para IPCA+ 13,98% (R$ 3,3 mi).
+**Abriram taxa pelos negócios da B3:** CRA024001P7 +164 pb contra 15/10, para CDI+ 5,60% (R$ 5,3 mi); 21H1078699 +103 pb contra 19/10, para IPCA+ 10,69% (R$ 4,7 mi); CRA021000RY +56 pb contra 19/10, para IPCA+ 11,38% (R$ 4,1 mi); 22L1465644 +56 pb contra 16/10, para CDI+ 2,37% (R$ 9,6 mi); CRA02400AYK +51 pb contra 19/10, para IPCA+ 11,75% (R$ 3,2 mi).
 **Fecharam taxa pelos negócios da B3:** CRA0210012Z -109 pb contra 19/10, para IPCA+ 52,07% (R$ 7,6 mi); CRA024004SC -81 pb contra 29/09, para IPCA+ 9,10% (R$ 6,5 mi); EKTRB8 -80 pb contra 01/09, para 13,07% pré (R$ 8,2 mi); CPGS16 -77 pb contra 19/10, para IPCA+ 6,83% (R$ 40,7 mi); BTGL32 -57 pb contra 14/10, para 12,01% pré (R$ 7,2 mi).
 **Prêmio alto:** CRA0210012Z a IPCA+ 52,07% (B3 negócios de 20/10), +4.521 pb no vencimento, R$ 7,6 mi; CGEE23 a IPCA+ 15,26% (ANBIMA indicativa de 20/10), +844 pb na duration, R$ 3,5 mi; SUMI17 a IPCA+ 14,79% (ANBIMA indicativa de 20/10), +797 pb na duration, R$ 32,8 mi; CRA021001PQ a IPCA+ 14,37% (B3 negócios de 20/10), +758 pb no vencimento, R$ 4,2 mi; CRA0220073P a IPCA+ 13,98% (B3 negócios de 20/10), +721 pb no vencimento, R$ 3,3 mi.
 
@@ -326,7 +326,6 @@ Por classe, mediana das taxas de referência dos papéis. Taxa de referência: n
 ## Lacunas e pendências
 
 - aluguel por corretora: ignorado
-- Publicadas pela B3 depois do prazo, mas com dado: AnalyticalFramework2.
 - Posição em aberto de derivativos por tipo de investidor (estrangeiro, institucional, pessoa física): não existe no Boletim Diário do Mercado; procurado nas 69 tabelas e no texto dos 11 cadernos em 30/09/2026.
 - Fluxo por tipo de investidor sai acumulado no mês e com dois pregões de atraso; o saldo de um dia é a diferença entre dois acumulados seguidos.
 - RARA11: a B3 não publica valor de referência da cota (IOPV) para este ETF no boletim.
