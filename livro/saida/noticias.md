@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 21/10 20h58
+NOTÍCIAS E FATOS · 22/10 08h33
 
-Pernas: noticias ok 15 novas (18 consultas; descartadas: 435 veículo fora da lista, 22 sem ativo, 18 teto) · cvm ok 0 novos de 6 (4 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 19 novas (18 consultas; descartadas: 438 veículo fora da lista, 34 sem ativo, 52 teto) · cvm ok 0 novos de 6 (4 cias casadas) · sec ok 1 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (1)
 
@@ -21,7 +21,7 @@ Fonte: CVM 20/10
 id: E03-SBSP3-1578859-2026-10-20 · status: entregue · íntegra disponível
 
 
-## SEC (8-K, 6-K, 10-Q, 10-K) (1)
+## SEC (8-K, 6-K, 10-Q, 10-K) (2)
 
 [ATENÇÃO] E04 · BAC · 8-K: 5.02 entrada ou saida de diretor ou conselheiro
 SEC EDGAR · aceito 21/10 18h07 · 8-K
@@ -30,10 +30,76 @@ Por que importa: troca de diretor ou conselheiro reabre a discussao de estrategi
 Ativos: BAC
 Como falar: 'a BAC protocolou 8-K na SEC (5.02 entrada ou saida de diretor ou conselheiro)'
 Fonte: SEC EDGAR 2026-10-21
-id: E04-BAC-26000494-2026-10-21 · status: expirado · íntegra disponível
+id: E04-BAC-26000494-2026-10-21 · status: entregue · íntegra disponível
+
+[INFO] E04 · TSM · 6-K: 6-K
+SEC EDGAR · aceito 22/10 07h02 · 6-K
+Do documento:
+  – 6-K  1  tsm-monthend6kx20261022.htm  6-K  1934 Act Registration No. 1-14700   UNITED STATES   SECURITIES AND EXCHANGE COMMISSION   Washington, D.C.
+  – Wei 8,152,610 8,356,985 204,375   Executive Vice President and Co-Chief Operating Officer Y.P.
+  – Chyn 9,362,042 9,394,246 32,204   Executive Vice President and Co-Chief Operating Officer Y.J.
+  – Wang 1,497,921 1,510,802 12,881   Senior Vice President T.S.
+  – Lu 291,716 299,891 8,175   Vice President K.C.
+  – Hsu 190,924 199,099 8,175   Vice President Ray Chuang 345,738 365,239 19,501   Note: Shareholdings include shares held by the related parties.
+Link: https://www.sec.gov/Archives/edgar/data/1046179/000104617926000728/tsm-monthend6kx20261022.htm
+Por que importa: 6-K e o relatorio de emissor estrangeiro: resultado, provento ou fato relevante do pais de origem
+Ativos: TSM
+Como falar: 'a TSM protocolou 6-K na SEC (6-K)'
+Fonte: SEC EDGAR 2026-10-22
+id: E04-TSM-26000728-2026-10-22 · status: linha · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (14)
+## NOTÍCIAS COM MATERIALIDADE (18)
+
+[ATENÇÃO] E05 · TSLA · Tesla Cuts Capex Guidance, Meta Hikes AI Spending Outlook, Announces New Stock Class
+Bloomberg · 22/10 03h44 · fonte única · licença: manchete
+Link: https://www.bloomberg.com/news/videos/2026-10-22/the-asia-trade-10-22-2026-video?srnd=phx-technology
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: TSLA
+Como falar: 'saiu no Bloomberg: Tesla Cuts Capex Guidance, Meta Hikes AI Spending Outlook, Announces New Stock Class; confirmar o número no texto antes de repassar'
+Fonte: Bloomberg 22/10 03h44
+id: E05-TSLA-06f27744fe-2026-10-22 · status: pendente
+
+[ATENÇÃO] E05 · NOK · Nokia Q3 profit rises on AI-driven network demand, outlook unchanged
+Yahoo Finance · 22/10 03h09 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – The Finnish telecom equipment maker's comparable operating profit rose to 605 million euros ($680 million) in the July-September quarter from 448 million euros a year earlier.
+  – Nokia stock fell more than 5% during premarket trading on Thursday even as sales to AI and cloud customers surged 123% in the third quarter.
+  – Net sales increased 10% to 5.15 billion euros, while comparable operating margin expanded to 11.7% from 9.5%.
+  – Nokia's Network Infrastructure business led growth, with sales rising 15% on a constant-currency basis, supported by a 43% increase in IP Networks and an 18% rise in Optical Networks.
+  – Sales to AI and cloud customers surged 123%, while order intake from the segment increased 118%.
+  – Mobile Infrastructure sales grew 5%, partly reflecting revenue brought forward from the fourth quarter, the company said.
+Link: https://finance.yahoo.com/technology/ai/articles/nokia-q3-profit-rises-ai-060956372.html
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: NOK
+Como falar: 'saiu no Yahoo Finance: Nokia Q3 profit rises on AI-driven network demand, outlook unchanged; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 22/10 03h09
+id: E05-NOK-ed2ac4d357-2026-10-22 · status: pendente
+
+[ATENÇÃO] E05 · TSLA · Tesla Asian supplier shares fall after mixed Q3 earnings, cautious outlook
+Yahoo Finance · 22/10 01h07 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – South Korean battery suppliers LG Energy Solution and Samsung SDI fell 3% and 4.5%, respectively.
+  – Chip supplier Samsung Electronics, with whom Tesla recently signed a $16.5 billion chipmaking partnership, fell 3.3%.
+  – In Japan, battery technology supplier Panasonic fell 3%, while auto parts supplier Harada slid nearly 5%.
+  – China's CATL, which was among Tesla's biggest battery suppliers, fell 5.5% in Hong Kong trade, extending losses after a 11% wipeout this week on soft quarterly earnings.
+  – But the company's net income still fell sharply from last year, and it cut its full-year capital expenditure forecast to $20 billion from $25 billion.
+  – Tesla shares fell 3% in after-hours trade following Musk's comments on the earnings call.
+Link: https://finance.yahoo.com/markets/stocks/articles/tesla-asian-supplier-shares-fall-040733543.html
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: TSLA
+Como falar: 'saiu no Yahoo Finance: Tesla Asian supplier shares fall after mixed Q3 earnings, cautious outlook; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 22/10 01h07
+id: E05-TSLA-3de402e9a7-2026-10-22 · status: pendente
+
+[ATENÇÃO] E05 · TSLA · Earnings call transcript: Tesla beats Q3 2026 estimates as stock slips after hours
+Investing.com · 21/10 20h07 · fonte única · licença: manchete
+Link: https://www.investing.com/news/transcripts/earnings-call-transcript-tesla-beats-q3-2026-estimates-as-stock-slips-after-hours-93CH-4964365
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: TSLA
+Como falar: 'saiu no Investing.com: Earnings call transcript: Tesla beats Q3 2026 estimates as stock slips after hours; confirmar o número no texto antes de repassar'
+Fonte: Investing.com 21/10 20h07
+id: E05-TSLA-594bd31921-2026-10-21 · status: linha
 
 [ATENÇÃO] E05 · TSLA · Tesla Stocks Rise 3.7% Before a $7.8 Billion Capex Test
 Yahoo Finance · 21/10 19h25 · fonte única · licença: resumo
@@ -58,7 +124,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: KO
 Como falar: 'saiu no Bloomberg: How Coca-Cola Got Burned With a $5 Billion Bet on Costa Coffee; confirmar o número no texto antes de repassar'
 Fonte: Bloomberg 21/10 10h46
-id: E05-KO-a475774f28-2026-10-21 · status: pendente
+id: E05-KO-a475774f28-2026-10-21 · status: expirado
 
 [ATENÇÃO] E05 · BAC · Bank of America Corporation (BAC) Declares $0.32 Q4 Common Dividend
 TradingView (Reuters) · 21/10 17h15 · fonte única · licença: manchete
@@ -67,7 +133,7 @@ Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir
 Ativos: BAC
 Como falar: 'saiu no TradingView (Reuters): Bank of America Corporation (BAC) Declares $0.32 Q4 Common Dividend; confirmar o número no texto antes de repassar'
 Fonte: TradingView (Reuters) 21/10 17h15
-id: E05-BAC-b26d1862ad-2026-10-21 · status: expirado
+id: E05-BAC-b26d1862ad-2026-10-21 · status: entregue
 
 [ATENÇÃO] E05 · INTC · Veteran Bank Cuts Intel Stock Price Target Ahead of Earnings
 TradingView (Reuters) · 21/10 15h18 · fonte única · licença: manchete
@@ -76,7 +142,7 @@ Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; 
 Ativos: INTC
 Como falar: 'saiu no TradingView (Reuters): Veteran Bank Cuts Intel Stock Price Target Ahead of Earnings; confirmar o número no texto antes de repassar'
 Fonte: TradingView (Reuters) 21/10 15h18
-id: E05-INTC-090b4aa9ce-2026-10-21 · status: expirado
+id: E05-INTC-090b4aa9ce-2026-10-21 · status: entregue
 
 [ATENÇÃO] E05 · AMZN · UBS reiterates 3M stock Buy rating on Amazon deal, growth outlook
 Investing.com · 21/10 11h36 · fonte única · licença: manchete
@@ -85,7 +151,7 @@ Por que importa: aquisicao ou venda muda alavancagem, mix de receita e o multipl
 Ativos: AMZN · MMM
 Como falar: 'saiu no Investing.com: UBS reiterates 3M stock Buy rating on Amazon deal, growth outlook; confirmar o número no texto antes de repassar'
 Fonte: Investing.com 21/10 11h36
-id: E05-AMZN-14cff58eb2-2026-10-21 · status: expirado
+id: E05-AMZN-14cff58eb2-2026-10-21 · status: entregue
 
 [ATENÇÃO] E05 · MMM · MMM Q3 Earnings Call Highlights AI Deals and Higher Outlook
 TradingView (Reuters) · 21/10 10h10 · fonte única · licença: manchete
@@ -103,7 +169,7 @@ Por que importa: aquisicao ou venda muda alavancagem, mix de receita e o multipl
 Ativos: AMZN · MMM
 Como falar: 'saiu no Investing.com: UBS reiterates 3M stock Buy rating on Amazon deal, growth outlook; confirmar o número no texto antes de repassar'
 Fonte: Investing.com 21/10 11h45
-id: E05-AMZN-cf20f6d54a-2026-10-21 · status: expirado
+id: E05-AMZN-cf20f6d54a-2026-10-21 · status: entregue
 
 [ATENÇÃO] E05 · BBDC4 · Bradesco (BBDC4): mercado prevê alta no lucro no 3T26, mas inadimplência ainda desafia a recuperação do banco
 Money Times · 21/10 09h38 · fonte única · licença: integral
@@ -119,7 +185,7 @@ Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; 
 Ativos: BBDC4
 Como falar: 'saiu no Money Times: Bradesco (BBDC4): mercado prevê alta no lucro no 3T26, mas inadimplência ainda desafia a…; confirmar o número no texto antes de repassar'
 Fonte: Money Times 21/10 09h38
-id: E05-BBDC4-d4967b51b6-2026-10-21 · status: expirado · íntegra disponível
+id: E05-BBDC4-d4967b51b6-2026-10-21 · status: entregue · íntegra disponível
 
 [ATENÇÃO] E05 · BBDC4 · Bradesco (BBDC4) corrige após recorde; ação ainda tem espaço para subir?
 InfoMoney · 21/10 09h30 · fonte única · licença: resumo
@@ -135,7 +201,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: BBDC4
 Como falar: 'saiu no InfoMoney: Bradesco (BBDC4) corrige após recorde; ação ainda tem espaço para subir?; confirmar o número no texto antes de repassar'
 Fonte: InfoMoney 21/10 09h30
-id: E05-BBDC4-ff01be9700-2026-10-21 · status: expirado
+id: E05-BBDC4-ff01be9700-2026-10-21 · status: entregue
 
 [ATENÇÃO] E05 · MMM · MMM Q3 Deep Dive: Data Center Momentum and Productivity Drive Upgraded Outlook
 Yahoo Finance · 21/10 08h10 · fonte única · licença: resumo
@@ -197,8 +263,23 @@ Fonte: CanalEnergia 20/10 18h55
 id: E05-AXIA3-d34f17fe4a-2026-10-20 · status: entregue
 
 
-## OUTRAS NOTÍCIAS (só manchete) (78)
+## OUTRAS NOTÍCIAS (só manchete) (93)
 
+· BRENT Bitcoin and ethereum prices today, Thursday, October 22, 2026: Crypto gains wiped out as oil prices stay over $111 a barrel (Yahoo Finance) https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-thursday-october-22-2026-crypto-gains-wiped-out-as-oil-prices-stay-over-111-a-barrel-113128321.html
+· BBDC4 Balanço do Bradesco, arrecadação federal e eleições movem mercado hoje (UOL Economia) https://economia.uol.com.br/colunas/por-dentro-da-bolsa/2026/10/22/balanco-do-bradesco-arrecadacao-federal-pesquisa-datafolha-o-que-move-o-mercado-hoje.htm
+· BBDC4 Bradesco, BradSaúde, Raízen, Braskem, WEG e mais ações para acompanhar nesta quinta (InfoMoney) https://www.infomoney.com.br/mercados/bradesco-bradsaude-raizen-braskem-weg-e-mais-acoes-para-acompanhar-nesta-quinta/
+· BTC Crypto traders seek shelter in bitcoin as altcoins slide and ETF flows wobble (CoinDesk) https://www.coindesk.com/daybook-us/2026/10/22/crypto-traders-seek-shelter-in-bitcoin-as-altcoins-slide-and-etf-flows-wobble
+· MU Micron Posted a $54.23 Billion Quarter and Guided to $61.5 Billion for Next Quarter (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/micron-posted-54-23-billion-111559663.html
+· TSLA Tesla, SpaceX, Meta, IBM, and More Stocks That Explain Today’s Market (Barron's) https://www.barrons.com/articles/stock-movers-aecffefc
+· META Meta Platforms Third-Quarter Results Rise; Issues Strong Revenue Outlook (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/meta-platforms-third-quarter-results-110454824.html
+· TSLA Elon Musk’s SpaceX-Tesla merger math doesn’t add up (Fortune) https://fortune.com/2026/10/22/elon-musk-spacex-tesla-merger-math-doesnt-add-up/
+· USDBRL Mercado local reage a balanços e nova pesquisa Datafolha; Ibovespa em dólar cai nesta quinta-feira (22) (Money Times) https://www.moneytimes.com.br/mercado-local-reage-a-balancos-e-nova-pesquisa-datafolha-ibovespa-em-dolar-cai-nesta-quinta-feira-22-rens/
+· BBDC4 Bradesco (BBDC4) divulga balanço nesta quinta: recuperação continua? (InfoMoney) https://www.infomoney.com.br/mercados/bradesco-bbdc4-divulga-seu-balanco-nesta-5a-a-recuperacao-continuara/
+· BTC Is the 21st Bitcoin’s Unlucky Date? Its Latest Breakout Just Fell Apart (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/21st-bitcoin-unlucky-date-latest-095919613.html
+· BTC Bitcoin ETFs draw $528 million as ether funds snap five-day outflow streak (The Block) https://news.google.com/rss/articles/CBMixwFBVV95cUxObS00cHVoeFZOd2dkSFZaZGlrLWwzLVVmTFI0cXI5TVV5cEZoU28ycmd0OGZabU92My1wUHNQNnZPemtJamdueTRFUWllMGF0bDU2TkVCZVVHd1lBcVdnb3NDMnFRekFtVXBIbEQteHhORVk1UHlOXzE2Q1FHLU1xbkVVSzQ0bG00b1pmanZZbXEzNGhIbEEwZFNDeG1lcnlEbmViOUlRdW1SWGlUcHlZUllsM0RqUkhxbkE0VDlLY1R1LUpBYVZ3?oc=5
+· MU Handful of Micron workers strike in Taiwan (Yahoo Finance) https://news.google.com/rss/articles/CBMijgFBVV95cUxOTEN4WThSdFFtc2VrR0pXM0RuN1ozem9lR1B0eHlZaXhySnRzbk1JT3NFbXFoaDQ4UmVCSEN3V2FSNnZMdGxEUHNlajRhNG8yY1dvaWJvcFBLSnlkWms2MTJpYWRlZzdPbWJkZ212bVdxRkxaUmk3Z3VPRmFmMGN6TnB3NnFqRm9yWEJuUE1n?oc=5
+· TSLA A SpaceX-Tesla merger: The ins, outs, and what-have-yous (Fortune) https://news.google.com/rss/articles/CBMigAFBVV95cUxNOFlla1BGY21yQ05sWGV5aUZ4cldPU1V5eVVTd0tjSmdIUS1CLS1aMUgzOHV0aFNCeHNoaENnRFhJTFEwVEx5QWx6NEp4bkxwLTBmRXBYUzdFYThkV3NkU3Z0dUxTZkdHOGI4cnJENDRsNWFTSGM4VUdleDRnWThPUQ?oc=5
+· BABA Alibaba Shares Post Steepest Drop in Two Months on China Curbs (Yahoo Finance) https://news.google.com/rss/articles/CBMinwFBVV95cUxPXzVFeExnUkF2QUpWc1dCRDJnYjRqVFdNbmhGUk5KOTZPeTVQQ25oa1FoZlBpUG9RaUtFaUVLM1I4NXg5MDMta3NVSTJ6MGhVU1Rzc05DUVltR0NmZ25FbUxqTjlnQjRiMmFWTEhIN1lvYnJLNjR6dXluSFAySWtFeFA2cllsaEt5aTdnNmg1bmlXbjUzRmRhaXJOSGgwbmM?oc=5
 · USDBRL Ibovespa cai 0,86% com pesquisa eleitoral; dólar fecha a R$ 5,027 (UOL Economia) https://economia.uol.com.br/cotacoes/noticias/redacao/2026/10/21/fecha-dolar-bolsa-hoje-21-de-outubro-de-2026.htm
 · TSLA Tesla earnings call: Musk talks EV demand, Optimus production, and Terafab value (TSLA:NASDAQ) (Seeking Alpha) https://seekingalpha.com/news/4655637-tesla-earnings-call-musk-talks-ev-demand-optimus-production-and-terafab-value
 · LITE Lumentum Holdings Inc. (LITE) Stock Forecasts (Yahoo Finance) https://finance.yahoo.com/research/reports/ARGUS_4688_QuantitativeReport_1792540800000
@@ -244,19 +325,4 @@ id: E05-AXIA3-d34f17fe4a-2026-10-20 · status: entregue
 · MU Micron Says Rival DRAM Design Has ‘Fundamental Problems’: Targets Next-Gen Memory With 3D DRAM, New Chips Planned For 2027 (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:3ba63b1f5094b:0-micron-says-rival-dram-design-has-fundamental-problems-targets-next-gen-memory-with-3d-dram-new-chips-planned-for-2027/
 · BTC Bitcoin Price Analysis: Recent Buyers Break Even Near $87,700. Could Their Selling Stop BTC’s Rally? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-price-analysis-recent-buyers-161645881.html
 · TSM Moody’s upgrades TSMC rating to Aa2 on booming AI demand and market dominance (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/moody-upgrades-tsmc-rating-aa2-161637254.html
-· BTC Bitcoin’s performance will depend more on macro factors than supply reductions – Wells Fargo (Seeking Alpha) https://seekingalpha.com/news/4655376-bitcoin-s-performance-will-depend-more-on-macro-factors-than-supply-reductions-wells-fargo
-· BTC Current price of Bitcoin for Oct. 21, 2026 (Fortune) https://fortune.com/article/price-of-bitcoin-10-21-2026/
-· USDBRL Dólar ronda R$ 5,03 e Bolsa perde força, com pesquisas e balanços na agenda (UOL Economia) https://economia.uol.com.br/cotacoes/noticias/redacao/2026/10/21/dolar-bolsa-abre-hoje-21-de-outubro-de-2026.ghtm
-· GOOGL Alphabet Slips 2% Despite NASDAQ Rally as Pichai Says Google Cloud Is Giving Up Revenue for AI Capacity; Amazon Dips, Microsoft Holds Steady (Yahoo Finance) https://finance.yahoo.com/technology/articles/alphabet-slips-2-despite-nasdaq-154839337.html
-· GOOGL Europe's financial regulators query Google over cloud outage that hit banks (Reuters) https://www.reuters.com/business/finance/europes-financial-regulators-query-google-over-cloud-outage-that-hit-banks-2026-10-21/
-· VALE3 UBS BB passa a tesoura nas ações da Vale (VALE3) pela segunda vez em um mês; veja preço-alvo (Money Times) https://www.moneytimes.com.br/ubs-bb-passa-a-tesoura-nas-acoes-da-vale-vale3-pela-segunda-vez-em-um-mes-veja-preco-alvo-lils/
-· NVDA AMD vs. Nvidia. 1 Metric Proves Which Is the Best Stock. (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/amd-vs-nvidia-1-metric-153500190.html
-· AMD AMD’s Data Center Business Is Finally Delivering Profits. Can MU’s Rival Sustain the Momentum? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/amd-data-center-business-finally-152555944.html
-· AVGO Broadcom’s AI Revenue Surges 221%, But is Growth Becoming Too Dependent on AI Spending? (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/broadcom-ai-revenue-surges-221-152533215.html
-· INTC Intel advances Arizona, Ohio factory projects as chip demand outlook improves (Investing.com) https://www.investing.com/news/stock-market-news/intel-advances-arizona-ohio-factory-projects-as-chip-demand-outlook-improves-4963637
-· GOOGL Amazon vs. Alphabet: Is GOOGL’s Cloud Growth Being Undervalued? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/amazon-vs-alphabet-googl-cloud-151741846.html
-· GOOGL Google to host OpenAI's models, as all three cloud giants deliver GPT products (Seeking Alpha) https://seekingalpha.com/news/4655212-google-to-host-openais-models-as-all-three-cloud-giants-deliver-gpt-products
-· BTC Bitcoin price tags $84.6K as US stocks head higher on SpaceX Q3 earnings beat (TradingView (Reuters)) https://www.tradingview.com/news/cointelegraph:d3a88afb8094b:0-bitcoin-price-tags-84-6k-as-us-stocks-head-higher-on-spacex-q3-earnings-beat/
-· INTC Intel hits construction milestone at Ohio chip fab that’s at least 5 years behind schedule (CNBC) https://news.google.com/rss/articles/CBMinAFBVV95cUxNanJVeDF2OGJlVm1CM0JtNkVZYkN1ZXFicVV4VC1WMVg5d2xwdkhxUm42MXhGZURic0dHSVV4UHE2V2JJUmJMZElfVGVlVml2dE9OcjRTT3M4U2gwaklacW56R2cwZGtfbTFVMUZiVWtoa1FCaHV3X1FCOS1xMEhJVDBLdzRUbkgwb3JEY2xxWmh6SkZYZDJFU2dTTHbSAaIBQVVfeXFMTy1WYkZINUtxdzFSUDB3T0JkR1phaWJLMTRqeURJUE1BZVdqOUxWdl95Tko1NHlBLXBvYW9RRHlSUl9PQ2VWUjZPc3paTC1FVUZmTGExNVpjOVMzT3g0RUlsX2RNUVU4Zl91NlVpRERDOGp0SFZOS3FsaE9HOUpYYjdEZ25CeGsyMVJXTXc4Yk1UWTlEYlRyUW1TdnRCYnRxXzhB?oc=5
-· MU Time for a Micron mindset shift? Here’s how to navigate the new AI landscape. (MarketWatch) https://news.google.com/rss/articles/CBMiuAFBVV95cUxOdkFINWtNS05kT0NQcWQ4aWJfOXpiMDFiU0JHMjRDUWNXd1c1b2hkcmJwSlp4ZkxzOVZEa01sbXVmbEtBa2xvcFVkTTVUOU9IMENqLVdFZmtydmd3SU9FRHRpSDdZbGZOeHdDR09VTUdUekpsZjFzQ2VESTFVOTZ5S0lfZEo2THZYRnhvV2VHejE2OUN5dmpyeldTcnJyTDlLeDJTbzU3WkVQYnVSOTQ4UmFFR3FxaWJS?oc=5
-· (+18 manchetes; lista completa em eventos/noticias.json)
+· (+33 manchetes; lista completa em eventos/noticias.json)
