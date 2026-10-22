@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 22/10 10h24
+NOTÍCIAS E FATOS · 22/10 11h25
 
-Pernas: noticias ok 16 novas (18 consultas; descartadas: 438 veículo fora da lista, 36 sem ativo, 16 teto) · cvm ok 0 novos de 6 (4 cias casadas) · sec ok 1 novos em 3 dias
+Pernas: noticias ok 14 novas (18 consultas; descartadas: 437 veículo fora da lista, 38 sem ativo, 4 teto) · cvm ok 0 novos de 6 (4 cias casadas) · sec ok 0 novos em 3 dias
 
 ## SEC (8-K, 6-K, 10-Q, 10-K) (2)
 
@@ -37,7 +37,23 @@ Fonte: SEC EDGAR 2026-10-22
 id: E04-TSM-26000728-2026-10-22 · status: linha · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (6)
+## NOTÍCIAS COM MATERIALIDADE (7)
+
+[ATENÇÃO] E05 · BTC · Bitcoin Slides From $84,900 to $82,200 as Oil Jumps on Iran Strike Plans: Is the US-Iran War About to Restart?
+Yahoo Finance · 22/10 05h38 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – In today's Bitcoin news, the BTC price is down 2.1% on the day and Brent crude is up 2.7% to $111.73 a barrel.
+  – Bitcoin fell from nearly $85,000 to about $82,200 early on Thursday, October 22.
+  – Bitcoin News: Why Did BTC Drop From $84,800 to $82,190 Today?
+  – On Wednesday, BTC rallied to $84,898 while U.S.
+  – spot Bitcoin ETFs took in $524.8 million, Farside data shows.
+  – Then the strike report landed at about 00:35 UTC, and BTC lost about $800 in the 01:00 UTC hour alone.
+Link: https://finance.yahoo.com/markets/crypto/articles/bitcoin-slides-84-900-82-083836394.html
+Por que importa: evento operacional afeta producao e custo no trimestre corrente
+Ativos: BTC
+Como falar: 'saiu no Yahoo Finance: Bitcoin Slides From $84,900 to $82,200 as Oil Jumps on Iran Strike Plans: Is the US-Iran…; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 22/10 05h38
+id: E05-BTC-290ec2d57f-2026-10-22 · status: pendente
 
 [ATENÇÃO] E05 · UGPA3 · JPMorgan rebaixa Ultrapar para neutro e reitera recomendação de compra para Vibra
 InfoMoney · 22/10 09h56 · fonte única · licença: resumo
@@ -53,7 +69,7 @@ Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais
 Ativos: UGPA3 · JPM
 Como falar: 'saiu no InfoMoney: JPMorgan rebaixa Ultrapar para neutro e reitera recomendação de compra para Vibra; confirmar o número no texto antes de repassar'
 Fonte: InfoMoney 22/10 09h56
-id: E05-UGPA3-9dd1ba1a33-2026-10-22 · status: pendente
+id: E05-UGPA3-9dd1ba1a33-2026-10-22 · status: entregue
 
 [ATENÇÃO] E05 · NOK · Nokia Q3 Comparable Earnings, Sales Rise; Issues Q3 Sales Growth Outlook
 Yahoo Finance · 22/10 04h53 · fonte única · licença: resumo
@@ -64,7 +80,7 @@ Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; 
 Ativos: NOK
 Como falar: 'saiu no Yahoo Finance: Nokia Q3 Comparable Earnings, Sales Rise; Issues Q3 Sales Growth Outlook; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 22/10 04h53
-id: E05-NOK-c22b7c469e-2026-10-22 · status: pendente
+id: E05-NOK-c22b7c469e-2026-10-22 · status: entregue
 
 [ATENÇÃO] E05 · TSLA · Tesla Cuts Capex Guidance, Meta Hikes AI Spending Outlook, Announces New Stock Class
 Bloomberg · 22/10 03h44 · fonte única · licença: manchete
@@ -117,8 +133,21 @@ Fonte: Investing.com 21/10 20h07
 id: E05-TSLA-594bd31921-2026-10-21 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (29)
+## OUTRAS NOTÍCIAS (só manchete) (42)
 
+· INTC Intel stock may move 8.3% on Oct. 29 earnings report By Investing.com (Investing.com) https://ng.investing.com/news/stock-market-news/intel-stock-may-move-83-on-oct-29-earnings-report-93CH-2751995
+· ETH Uniswap's aggregator hooks go live on Ethereum, Base and Robinhood Chain (The Block) https://www.theblock.co/news/defi/2026-10-22-uniswaps-aggregator-hooks-go-live-ethereum-base-robinhood-chain-421932?utm_source=tradingview&utm_medium=rss
+· BTC CryptoQuant CEO calls rising Bitcoin hashrate ‘indirect bullish signal’ from institutions (TradingView (Reuters)) https://www.tradingview.com/news/cointelegraph:0d9133e85094b:0-cryptoquant-ceo-calls-rising-bitcoin-hashrate-indirect-bullish-signal-from-institutions/
+· LITE Brown Advisory Sees AI Infrastructure Opportunity in Lumentum Holdings Inc. (LITE) (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/brown-advisory-sees-ai-infrastructure-134225204.html
+· UST American States Water: A Great Utility That Now Yields Less Than A Treasury (NYSE:AWR) (Seeking Alpha) https://seekingalpha.com/article/4956343-american-states-water-a-great-utility-that-now-yields-less-than-a-treasury
+· TSLA What analysts are saying about Tesla after earnings (TSLA:NASDAQ) (Seeking Alpha) https://seekingalpha.com/news/4655896-what-analysts-are-saying-about-tesla-after-earnings
+· USDBRL Dólar sobe com disputa presidencial indefinida e tensão no exterior (UOL Economia) https://economia.uol.com.br/noticias/estadao-conteudo/2026/10/22/dolar-sobe-com-disputa-presidencial-indefinida-e-tensao-no-exterior.htm
+· TSLA TSLA Q3 Earnings Beat on Auto Margin Gains, '26 Capex View Cut (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/tsla-q3-earnings-beat-auto-124200869.html
+· KO Seeking Clues to Coca-Cola (KO) Q3 Earnings? A Peek Into Wall Street Projections for Key Metrics (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/seeking-clues-coca-cola-ko-121507645.html
+· NOK Nokia Corporation (NOKIA.HE) Q3 FY2026 earnings call transcript (Yahoo Finance) https://finance.yahoo.com/quote/NOKIA.HE/earnings/NOKIA.HE-Q3-2026-earnings_call-460672.html
+· TSLA Tesla drops as spending pullback clouds AI, robotics ambitions (Reuters) https://www.reuters.com/business/autos-transportation/tesla-drops-spending-pullback-clouds-ai-robotics-ambitions-2026-10-22/
+· BTC DeFi tokens lead crypto lower as bitcoin (BTC) price gives up Wednesday’s surge (CoinDesk) https://www.coindesk.com/markets/2026/10/22/bitcoin-slides-below-usd82-000-as-ai-doubts-return-with-defi-tokens-leading-declines
+· NVDA Needham reiterates Buy rating on NVIDIA, $300 price target (TradingView (Reuters)) https://news.google.com/rss/articles/CBMiugFBVV95cUxNZ2ctcmNVaXZiVWdyRWxXN1hNVlBmZ0RPbXd4dExxRVh2Q3B2ZlI4Zzg0b2s1b1VPZWhraGlFajAwa0hRSkRUcFlMbG1iOWZHMnRYLXFrSk1jYmlzazhkdF8xMlBpSDdBWThKVzh3bXNIVDdYeC1BcFp2UVRwUXRIRlhhclVqRHZYaEIwY3NJaFdzT0hIbmpXWU82OFRJRVo0Y0doWnNLWGd4ZUNnRVhNM0gyV19zdE01Y2c?oc=5
 · USDBRL Ibovespa abre estável com eleições e balanços em foco; dólar sobe (CNN Brasil) https://www.cnnbrasil.com.br/economia/money/mercado/mercado-financeiro-ibovespa-dolar-22-outubro-2026/
 · BBDC4 Bradesco divulga balanço hoje; lucro de R$ 7,1 bi terá teste na inadimplência (Investing.com) https://br.investing.com/news/stock-market-news/bradesco-divulga-balanco-hoje-lucro-de-r-71-bi-tera-teste-na-inadimplencia-2099682
 · TSLA Why Tesla's lower capex plans are worrying investors (Yahoo Finance) https://finance.yahoo.com/video/why-teslas-lower-capex-plans-are-worrying-investors-125310147.html
