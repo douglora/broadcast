@@ -1,8 +1,36 @@
-NOTÍCIAS E FATOS · 23/10 16h22
+NOTÍCIAS E FATOS · 23/10 17h22
 
-Pernas: noticias ok 5 novas (18 consultas; descartadas: 462 veículo fora da lista, 43 sem ativo, 0 teto) · cvm ok 0 novos de 7 (4 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 12 novas (18 consultas; descartadas: 447 veículo fora da lista, 39 sem ativo, 0 teto) · cvm ok 1 novos de 8 (4 cias casadas) · sec ok 0 novos em 3 dias
 
-## NOTÍCIAS COM MATERIALIDADE (13)
+## FATOS RELEVANTES E COMUNICADOS (CVM) (1)
+
+[INFO] E03 · AXIA3 · Aviso aos Acionistas: Outros avisos
+CVM · entregue 23/10/2026 17:01 · Outros avisos
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1579865
+Por que importa: aviso aos acionistas traz provento, data-com ou evento societario que muda o fluxo ao acionista
+Ativos: AXIA3
+Como falar: 'a Axia Energia publicou aviso aos acionistas sobre Outros avisos'
+Fonte: CVM 23/10
+id: E03-AXIA3-1579865-2026-10-23 · status: linha
+
+
+## NOTÍCIAS COM MATERIALIDADE (14)
+
+[ATENÇÃO] E05 · BBDC4 · Bradesco (BBDC4) tem lucro líquido recorrente de R$ 7,1 bi no 3T26, alta de 14,6%
+Suno Noticias · 23/10 10h00 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Principal indicador de rentabilidade, o retorno sobre o patrimônio líquido (ROAE) do banco ficou em 16,1% em setembro, de 14,6% um ano antes.
+  – Ao fim do segundo trimestre, o indicador trimestral estava em 16,2%.
+  – A margem financeira bruta atingiu R$ 21,37 bilhões no trimestre, avanço anual de 14,2%.
+  – Já a margem líquida, que desconta as despesas com provisões para perdas, cresceu 5,7% em 12 meses, a R$ 10,7 bilhões.
+  – A margem com clientes totalizou R$ 10,5 bilhões, expansão de 10,1% no comparativo anual, refletindo o aumento da carteira de crédito.
+  – A margem com clientes líquida, por sua vez, foi a R$ 9,8 bilhões, queda anual de 2%.
+Link: https://www.suno.com.br/noticias/bradesco-tem-lucro-liquido-recorrente-bi-no-3o-trimestre-go/amp/
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: BBDC4
+Como falar: 'saiu no Suno Noticias: Bradesco (BBDC4) tem lucro líquido recorrente de R$ 7,1 bi no 3T26, alta de 14,6%; confirmar o número no texto antes de repassar'
+Fonte: Suno Noticias 23/10 10h00
+id: E05-BBDC4-4100fb66fe-2026-10-23 · status: pendente
 
 [ATENÇÃO] E05 · BBDC4 · Bradesco registra lucro recorrente de R$ 7,1 bilhões no 3T26
 ADVFN · 23/10 08h38 · fonte única · licença: manchete
@@ -153,8 +181,19 @@ Fonte: Yahoo Finance 22/10 17h25
 id: E05-KO-7c5c6eb679-2026-10-22 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (100)
+## OUTRAS NOTÍCIAS (só manchete) (111)
 
+· USDBRL Dólar à vista fecha em baixa de 0,97%, a R$4,9896 na venda Por Reuters (Investing.com) https://br.investing.com/news/forex-news/dolar-a-vista-fecha-em-baixa-de-097-a-r49896-na-venda-2101601
+· USDBRL Dólar cai e fecha abaixo de R$ 5 no último pregão antes do segundo turno (Money Times) https://www.moneytimes.com.br/dolar-23-10-26-lils/
+· CVX Hess Midstream upgraded at Raymond James as Chevron restructuring selloff overdone (HESM:NYSE) (Seeking Alpha) https://seekingalpha.com/news/4656710-hess-midstream-upgraded-at-raymond-james-as-chevron-restructuring-selloff-overdone
+· INTC Intel Stocks Rise, Trade at 166.5% Above GF Value Ahead of Earnings (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/intel-stocks-rise-trade-166-192617080.html
+· PETR4 Goldman Sachs alerta para risco de Petrobras reajustar preço do diesel em 50% após eleições (Exame) https://exame.com/economia/goldman-sachs-alerta-para-risco-de-petrobras-reajustar-preco-do-diesel-em-50-apos-eleicoes/
+· NOK Nokia: 3 Key Takeaways for Long-Term Investors (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/nokia-3-key-takeaways-long-181702745.html
+· GOOGL Alphabet: Gemini 4 Argon Is Coming For ChatGPT’s Lunch (NASDAQ:GOOG) (Seeking Alpha) https://seekingalpha.com/article/4957003-alphabet-gemini-4-argon-is-coming-for-chatgpts-lunch
+· SMAL11 10 small caps que saltaram mais de 50% em outubro e lideram rali histórico na bolsa (Seu Dinheiro) https://www.seudinheiro.com/2026/bolsa-dolar/small-caps-10-acoes-saltam-mais-de-50-em-outubro-e-lideram-rali-historico-na-bolsa-mlem/
+· BBDC4 Bradesco vê pressão em inadimplência, mas está seguro com crédito, diz CEO (InfoMoney) https://www.infomoney.com.br/mercados/bradesco-ve-pressao-em-inadimplencia-mas-esta-seguro-com-credito-diz-ceo/
+· USDBRL Dólar abre sessão desta sexta-feira, no último pregão antes do 2º turno (g1) https://g1.globo.com/google/amp/economia/noticia/2026/10/23/dolar-ibovespa.ghtml
+· BRENT Brent crude jumps to highest since April on Houthi attacks, UAE oil spill (Reuters) https://www.reuters.com/business/energy/oil-little-changed-supply-concern-lingers-amid-houthi-attacks-saudi-arabia-2026-10-23/
 · NVDA Apple is set to take back the market-cap crown from Nvidia. Upcoming earnings may push it over the top (CNBC) https://www.cnbc.com/2026/10/23/apple-nvidia-market-cap-earnings.html
 · GOOGL Alphabet Stocks Face Wednesday Earnings Test After 82% Cloud Revenue Growth (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/alphabet-stocks-face-wednesday-earnings-182756390.html
 · ETH Is Ethereum a Buy Under $2,400? We Asked Grok AI (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/ethereum-buy-under-2-400-173022875.html
@@ -204,15 +243,4 @@ id: E05-KO-7c5c6eb679-2026-10-22 · status: linha
 · BBDC4 Sem "vento de popa", Bradesco aposta em crédito mais seguro para seguir crescendo (NeoFeed) https://neofeed.com.br/negocios/sem-vento-de-popa-bradesco-aposta-em-credito-mais-seguro-para-seguir-crescendo/
 · SMAL11 Índice Small Caps salta 20% em outubro e tem 2ª maior alta mensal de sua história (InfoMoney) https://www.infomoney.com.br/mercados/indice-small-caps-salta-20-em-outubro-e-tem-2a-maior-alta-mensal-de-sua-historia/
 · CVX Chevron stock may move 2.3% on earnings release By Investing.com (Investing.com) https://ng.investing.com/news/stock-market-news/chevron-stock-may-move-23-on-earnings-release-93CH-2754938
-· BBDC4 Balanço do Bradesco sinaliza perda de fôlego, dizem analistas; ações recuam (UOL Economia) https://economia.uol.com.br/noticias/redacao/2026/10/23/recuperacao-do-bradesco-perde-folego-e-preocupa-analistas.htm
-· BBDC4 Bradesco tem 11 altas seguidas no lucro, mas inadimplência preocupa e ações caem (InfoMoney) https://www.infomoney.com.br/mercados/bradesco-bbdc4-11-altas-seguidas-no-lucro-mas-inadimplencia-preocupa-mercado-3t26-desempenho-acoes/
-· COHR Coherent Corp Shs Canadian Depositary Receipt Repr Shs Reg S Estimates – TSX:COHR (TradingView (Reuters)) https://www.tradingview.com/symbols/TSX-COHR/financials-estimates/
-· BBDC4 Programa de renegociação de dívidas Desenrola 3 não é prioridade para o Bradesco, diz CEO (O Globo) https://oglobo.globo.com/economia/noticia/2026/10/23/programa-de-renegociacao-de-divida-desenrola-3-nao-e-prioridade-para-o-bradesco-diz-ceo.ghtml
-· MU Micron vs. Texas Instruments: Which Semiconductor Stock Has the Edge? (Yahoo Finance) https://sg.finance.yahoo.com/news/micron-vs-texas-instruments-semiconductor-123100874.html
-· USDBRL Tempo real: Ibovespa opera instável às vésperas do 2º turno; dólar sobe (Money Times) https://news.google.com/rss/articles/CBMibEFVX3lxTE0yemU3VmxiN3hzcnljTUE3MEFXTVVhc3ZjT3RSRWE5MXJfMkNkOU9IbUtxbk4wc183Rl81X0lTUmNKSkFlcTB6S0NkQnlvQlBtYzJHMU10b2xWSjRkLXJzeEYzSjFlWW9xcUNIQw?oc=5
-· BRENT Petróleo acima de US$ 116 pressiona Wall Street; Dow Jones recua mais de 1% (Estadao) https://news.google.com/rss/articles/CBMi1AFBVV95cUxNRWQzREh3YUJUYlMxNWFYQ2NGNUx5QXE3cTVFazNPY3gtUmpoQUxCYzFVS3lHdHN4UWlGMU93Rk5VTlV3U3BIajkzQmJ6cHFFMTZ0SDZ1N0tXLXo0M3FBS0x2NnNJdTlKVEY1Q01OTEtFZFJsemNZQV94NVNOQUxscGdsaV96dy1acnVZUmJZWC1ZaXlNM01CQ2toMm13TWdhVmk0WFBIaVNNcHdjZFp2OHYyZFVwN3FGY1hPWlY5T1hfbWl3ck9vVHdmcFNKSUVJTTJjUtIB2gFBVV95cUxOREpQSm5ReG1RakNvejMxdlN1Y1B2MGliZENSRWp6T2laeFRaM3JpLXNxYURQclNLUDN6cTB1TEdyMWhJZFFEd3NXUmhORXZvWlBPazdHWVpYZnZHVjZCdVJ2dGJLc2VOUDEwSHM5ZENNN3lPajhvZUR5aDRVb2VERWlkS1dndEtzTl9QVFQycG90cWNVRm53SDZKN0Mzano4ZTVWVzUtWEpZYmlOUkVzNk1vTHJZTE5YOVMxN05ZUF9NdDAtSV9PX1RETTFDN3hMSUJlRHVEXzNRdw?oc=5
-· BBDC4 Bradesco lucraria até R$ 500 milhões a mais com juros abaixo de 10%, diz Noronha (Exame) https://exame.com/invest/mercados/bradesco-lucraria-ate-r-500-milhoes-a-mais-com-juros-abaixo-de-10-diz-noronha/
-· CVX Chevron stock may move 2.3% on earnings release (Investing.com) https://www.investing.com/news/stock-market-news/chevron-stock-may-move-23-on-earnings-release-93CH-4969892
-· NVDA Nvidia Stock’s 2 Critical Flaws and More Reasons an Analyst Says Sell (Barron's) https://www.barrons.com/articles/nvidia-stock-price-sell-analyst-64e607bf
-· BTC Robinhood sees surge in bitcoin, gold prediction markets as traders move beyond sports (CoinDesk) https://www.coindesk.com/markets/2026/10/23/robinhood-sees-surge-in-bitcoin-gold-prediction-markets-as-traders-move-beyond-sports
-· (+40 manchetes; lista completa em eventos/noticias.json)
+· (+51 manchetes; lista completa em eventos/noticias.json)
