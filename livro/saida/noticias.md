@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 23/10 12h22
+NOTÍCIAS E FATOS · 23/10 12h45
 
-Pernas: noticias ok 15 novas (18 consultas; descartadas: 463 veículo fora da lista, 34 sem ativo, 1 teto) · cvm ok 0 novos de 7 (4 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 6 novas (18 consultas; descartadas: 459 veículo fora da lista, 38 sem ativo, 0 teto) · cvm ok 0 novos de 7 (4 cias casadas) · sec ok 0 novos em 3 dias
 
 ## NOTÍCIAS COM MATERIALIDADE (11)
 
@@ -135,8 +135,14 @@ Fonte: Yahoo Finance 22/10 17h25
 id: E05-KO-7c5c6eb679-2026-10-22 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (58)
+## OUTRAS NOTÍCIAS (só manchete) (64)
 
+· BBDC4 Ações do Bradesco caem após balanço; veja os 4 pontos que preocupam os analistas (Exame) https://exame.com/invest/mercados/acoes-do-bradesco-caem-apos-balanco-veja-os-4-pontos-que-preocupam-os-analistas/
+· META Meta Platforms' Q3: The Market Is Being Dramatic About Negative Free Cash Flow (META) (Seeking Alpha) https://seekingalpha.com/article/4956914-meta-platforms-q3-the-market-is-being-dramatic-about-negative-free-cash-flow
+· TSLA SpaceX And Tesla Q3, And Why Some Mergers Are Not Made In Heaven (NASDAQ:SPCX) (Seeking Alpha) https://seekingalpha.com/article/4956911-spacex-and-tesla-q3-and-why-some-mergers-are-not-made-in-heaven
+· TSLA Gary Black Says Tesla Investors Are Taking Elon Musk's Earnings Call Projections as 'Gospel' Despite Stock's 'Extreme Valuation Metrics' (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:c8eaab04d094b:0-gary-black-says-tesla-investors-are-taking-elon-musk-s-earnings-call-projections-as-gospel-despite-stock-s-extreme-valuation-metrics/
+· GOOGL Alphabet's Google Cloud Announces General Availability of Anthropic-Managed Deployment Option for Claude Models (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/alphabet-apos-google-cloud-announces-082035137.html
+· AVGO Broadcom Inc. (AVGO) Suffers a Larger Drop Than the General Market: Key Insights (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/broadcom-inc-avgo-suffers-larger-204502208.html
 · MU Micron: HBM’s Margin Drag Flips Into A Profit Driver In 2027 (NASDAQ:MU) (Seeking Alpha) https://seekingalpha.com/article/4956963-micron-hbm-margin-drag-flips-into-a-profit-driver-in-2027
 · BBDC4 Bradesco manterá expansão do crédito apesar do cenário econômico (Poder360) https://www.poder360.com.br/poder-economia/bradesco-mantera-expansao-do-credito-apesar-do-cenario-economico/
 · BTC Bitcoin ETFs See Outflows Return As Market Volatility Worsens (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-etfs-see-outflows-return-144700178.html
@@ -191,7 +197,4 @@ id: E05-KO-7c5c6eb679-2026-10-22 · status: linha
 · TSLA AI stock bears probably just missed this point on Tesla in their run for the exits (Yahoo Finance) https://finance.yahoo.com/technology/ai/article/ai-stock-bears-probably-just-missed-this-point-on-tesla-in-their-run-for-the-exits-095101368.html
 · MU Better Memory Stock: SK Hynix vs. Micron (Yahoo Finance) https://news.google.com/rss/articles/CBMimAFBVV95cUxOVkRJSXlCM0lMRlJqZlRrMEFESi1WTWN5dVlxYzVGLUxzMXNHdXZISWhPUlRGcWVTbkx0d0tRcXBZVnZVanJqa1ZjVXZHdE5fNFlnSklnNExlREQxeGNab3IxX3MzZ3k5NkIxYmdGQWQxR1pkd0hDbWNlVV8yYTlhWHcxY2NtY3dYak1tdENVdHJJZnE0Vmozdg?oc=5
 · UST Treasury yields rise as traders await more economic data ahead of Fed decision (CNBC) https://news.google.com/rss/articles/CBMib0FVX3lxTE9fUFhkR0R0cmxYeWNRb2Y2LXEyNUlGQnozcWxNUW1jaWRDcUdpYnBTWVZGR3p4OWwydEdicWRMMEozdXpxUl9td1V6SVVZM2JOT25hOWU3TUFLU1h4aHk0VC1VcjQ2bkhyMGJSVzduZ9IBdEFVX3lxTE1KUjZzM3JxQnUxN2Y0LVlocU52STl2ZUIwSlNOMFNnY3hyUlJ5TGJpZjJlc3VRaS1LdDh1ZlNvSDNCYWlmdnpIMHk4ZWFTT1E3UmplVjAwRm5MNnM5V2FsSWVpZ0Z3aWVhMjNVeWhrX1lRWWtk?oc=5
-· BTC CZ Says AI Won’t Break Bitcoin, but Leaked Data Will Hurt Its Users: Can BTC Turn the $81,000 Floor Into a Bounce? (Yahoo Finance) https://news.google.com/rss/articles/CBMiiAFBVV95cUxPMWlubUtjajM4bENiMkthb2lBLTlGWHNxWkJBOTJYNTZTY3BGN3Zka2xINUhRQk0zbWVNUHZPZE1Pb0I3empER2RFdXRSU3FZaFBIdkZqTjUzTDQ2TTZ2TFVsdEpRNFpLWmxMQ1dJaEZPamNSeWZaMnRBeGFNMVZUdFA3SXVqQzFT?oc=5
-· BTC BlackRock (BLK) Files Bitcoin Protection ETF And Launches Active Robotics Fund (Yahoo Finance) https://news.google.com/rss/articles/CBMipgFBVV95cUxQYXVZQzFiZDdoWVVQZ0hSZXRjNUJia19kZnJRajI3dkVTaDYxek9PYkl0a1VPc3hpaUZmaEpTR2IzV0xMeHZQWEYtTlY4MXJIRDlUM05qV1FzS1V3R2UxYzV6R0VvVGdvLVphVnZFeUxCWFY4RlRlVDExNjlibWhOVU95TW81YTd5VzhOVDRCZXM1UlZ0SThndkN6MlJKN1ZCc3R1SVJR?oc=5
-· TSLA SpaceX CEO Elon Musk's Approval Required in Potential Merger With Tesla (Yahoo Finance) https://news.google.com/rss/articles/CBMilAFBVV95cUxOamRMMEFVNlo2WFZyQ2ZpRE1tSEx3YkhaY1BjcjFHdV9MLTJCY1VjejBiWTVPLUxpXzYtcTJHbHVsZVZTR2w0UURzXy0zUUVEbkM1dkxEaU1mYjdQQXRMR01DSVNQVmRyYmRkRlZBNGhUUGRIcGRhbTFqYXB6djJFb2VJeUJoTjJKRFlyNm5pZU9wb2ZU?oc=5
-· PETR4 Ex-diretores apostam em venda de ativos da Petrobras com Flávio no Planalto (UOL Economia) https://news.google.com/rss/articles/CBMi0gFBVV95cUxPX25fXzVwcGU1ZjlJY0ktb2pCcEZfYWVaRmM4SENtbVlwSlBSZWJVd3FmTGZUbjVFVUVaSm1ULUNPU3pQZ1ZkbUlfTDhjeks2UURMbXVobG80a0VSMFdRUkRMRFI5T2x3WWgtWnB6eG1xVlIyWjNRMmZoTE9yRkFka01RckU4RTJtZFJEQlFlWDZDbW5pWDBUWUttdFljSFFFNy1LMFowSUZESWZsdmU2QXBtRWJHZTJFVG9JbG5weHd3YXUzc3lzcFRjdG5Vdkt4Y3c?oc=5
+· (+4 manchetes; lista completa em eventos/noticias.json)

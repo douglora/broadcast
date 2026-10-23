@@ -1,6 +1,6 @@
 ALERTAS · intradia
 
-[ATENÇÃO] E05 · TSLA · TSLA Q3 deep dive: autonomy adoption and margin dynamics shape outlook
+(pendente de slot anterior) [ATENÇÃO] E05 · TSLA · TSLA Q3 deep dive: autonomy adoption and margin dynamics shape outlook
 Yahoo Finance · 22/10 20h01 · fonte única · licença: resumo
 Trechos (licença resumo: reescrever, não colar):
   – Electric vehicle pioneer Tesla (NASDAQ:TSLA) met Wall Street's revenue expectations in Q3 2026, but sales were flat year on year at $28.05 billion.
@@ -14,31 +14,22 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: TSLA
 Como falar: 'saiu no Yahoo Finance: TSLA Q3 deep dive: autonomy adoption and margin dynamics shape outlook; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 22/10 20h01
-Push: [ATENÇÃO] TSLA · TSLA Q3 deep dive · detalhe na sessão
 ids: E05-TSLA-c7c008eb50-2026-10-22
 
 Info (só linha no Fechamento):
-· E05 MU · Micron: HBM’s Margin Drag Flips Into A Profit Driver In 2027 (NASDAQ:MU)
-· E05 BBDC4 · Bradesco manterá expansão do crédito apesar do cenário econômico
-· E05 BTC · Bitcoin ETFs See Outflows Return As Market Volatility Worsens
-· E05 BBDC4 · Crédito sob pressão: CEO do Bradesco (BBDC4) defende qualidade da carteira, mas mercado teme perda de ritmo
-· E05 BBDC4 · Sem "vento de popa", Bradesco aposta em crédito mais seguro para seguir crescendo
-· E05 SMAL11 · Índice Small Caps salta 20% em outubro e tem 2ª maior alta mensal de sua história
-· E05 CVX · Chevron stock may move 2.3% on earnings release By Investing.com
-· E05 BBDC4 · Balanço do Bradesco sinaliza perda de fôlego, dizem analistas; ações recuam
-· E05 BBDC4 · Bradesco tem 11 altas seguidas no lucro, mas inadimplência preocupa e ações caem
-· E05 COHR · Coherent Corp Shs Canadian Depositary Receipt Repr Shs Reg S Estimates – TSX:COHR
-· E05 BBDC4 · Programa de renegociação de dívidas Desenrola 3 não é prioridade para o Bradesco, diz CEO
-· E05 MU · Micron vs. Texas Instruments: Which Semiconductor Stock Has the Edge?
-· E05 USDBRL · Tempo real: Ibovespa opera instável às vésperas do 2º turno; dólar sobe
-· E05 BRENT · Petróleo acima de US$ 116 pressiona Wall Street; Dow Jones recua mais de 1%
+· F03 Brent sobe a US$ 116,63 (+3,1% no dia) (parcial, intradia)
+· E05 BBDC4 · Ações do Bradesco caem após balanço; veja os 4 pontos que preocupam os analistas
+· E05 META · Meta Platforms' Q3: The Market Is Being Dramatic About Negative Free Cash Flow (META)
+· E05 TSLA · SpaceX And Tesla Q3, And Why Some Mergers Are Not Made In Heaven (NASDAQ:SPCX)
+· E05 TSLA · Gary Black Says Tesla Investors Are Taking Elon Musk's Earnings Call Projections as 'Gospel' Despite Stock's 'Extreme Valuation Metrics'
+· E05 GOOGL · Alphabet's Google Cloud Announces General Availability of Anthropic-Managed Deployment Option for Claude Models
+· E05 AVGO · Broadcom Inc. (AVGO) Suffers a Larger Drop Than the General Market: Key Insights
 · T13 VIX cruzou 20: 20,2 (+6,0% no dia)
 
 Suprimidos pelo teto (viram linha do Fechamento): T13-VIX-vix20-2026-10-23 (teto de atenção)
 
 Alertas do dia (todos, com status):
 · pendente  E05 TSLA — TSLA · TSLA Q3 deep dive: autonomy adoption and margin dynamics shape outlook
-· linha     S01 SISTEMA — coleta do slot intradia saiu incompleta: bcb: BCB devolveu 4 de 5 séries (faltar
 · linha     T13 VIX — VIX cruzou 20: 20,2 (+6,0% no dia)
 · entregue  E05 TSLA — TSLA · Why Tesla's $5 billion capex cut isn't the warning sign AI stock bears th
 · entregue  E05 BBDC4 — BBDC4 · Lucro da Bradesco Seguros cresce 14% no 3° tri, para R$ 2,88 bi
@@ -48,5 +39,6 @@ Alertas do dia (todos, com status):
 · entregue  E05 BBDC4 — BBDC4 · Bradesco (BBDC3; BBDC4) aprova recompra de ações
 · entregue  E05 NVDA — NVDA · Key facts: SMCI raises Q1 guidance; Nokia, NVIDIA AI-RAN; ARC MGX demo
 · entregue  S01 SISTEMA — coleta do slot manha saiu incompleta: tesouro: falha: ValueError: cabecalho ines
-· (+67 notícias só manchete, em noticias.md)
+· linha     F03 BRENT — Brent sobe a US$ 116,63 (+3,1% no dia) (parcial, intradia)
+· (+73 notícias só manchete, em noticias.md)
 
