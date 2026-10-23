@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 23/10 10h24
+NOTÍCIAS E FATOS · 23/10 11h23
 
-Pernas: noticias ok 19 novas (18 consultas; descartadas: 446 veículo fora da lista, 41 sem ativo, 13 teto) · cvm ok 0 novos de 7 (4 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 14 novas (18 consultas; descartadas: 455 veículo fora da lista, 41 sem ativo, 15 teto) · cvm ok 0 novos de 7 (4 cias casadas) · sec ok 0 novos em 3 dias
 
 ## NOTÍCIAS COM MATERIALIDADE (10)
 
@@ -18,7 +18,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: TSLA
 Como falar: 'saiu no Yahoo Finance: Why Tesla's $5 billion capex cut isn't the warning sign AI stock bears think it is; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 23/10 09h40
-id: E05-TSLA-0ede01f171-2026-10-23 · status: pendente
+id: E05-TSLA-0ede01f171-2026-10-23 · status: entregue
 
 [ATENÇÃO] E05 · BBDC4 · Lucro da Bradesco Seguros cresce 14% no 3° tri, para R$ 2,88 bi
 Valor Economico · 23/10 09h17 · fonte única · licença: resumo
@@ -34,7 +34,7 @@ Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; 
 Ativos: BBDC4
 Como falar: 'saiu no Valor Economico: Lucro da Bradesco Seguros cresce 14% no 3° tri, para R$ 2,88 bi; confirmar o número no texto antes de repassar'
 Fonte: Valor Economico 23/10 09h17
-id: E05-BBDC4-6acb064454-2026-10-23 · status: pendente
+id: E05-BBDC4-6acb064454-2026-10-23 · status: entregue
 
 [ATENÇÃO] E05 · BBDC4 · Bradesco aprova recompra de até 106,6 milhões de ações em programa de 18 meses
 ADVFN · 23/10 08h47 · fonte única · licença: manchete
@@ -43,7 +43,7 @@ Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir
 Ativos: BBDC4
 Como falar: 'saiu no ADVFN: Bradesco aprova recompra de até 106,6 milhões de ações em programa de 18 meses; confirmar o número no texto antes de repassar'
 Fonte: ADVFN 23/10 08h47
-id: E05-BBDC4-2f710f30c0-2026-10-23 · status: pendente
+id: E05-BBDC4-2f710f30c0-2026-10-23 · status: entregue
 
 [ATENÇÃO] E05 · NOK · Earnings call transcript: Nokia beats Q3 2026 estimates but shares fall premarket
 Investing.com · 22/10 13h33 · fonte única · licença: manchete
@@ -119,8 +119,22 @@ Fonte: Yahoo Finance 22/10 17h25
 id: E05-KO-7c5c6eb679-2026-10-22 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (30)
+## OUTRAS NOTÍCIAS (só manchete) (44)
 
+· BBDC4 Bradesco lucraria até R$ 500 milhões a mais com juros abaixo de 10%, diz Noronha (Exame) https://exame.com/invest/mercados/bradesco-lucraria-ate-r-500-milhoes-a-mais-com-juros-abaixo-de-10-diz-noronha/
+· CVX Chevron stock may move 2.3% on earnings release (Investing.com) https://www.investing.com/news/stock-market-news/chevron-stock-may-move-23-on-earnings-release-93CH-4969892
+· NVDA Nvidia Stock’s 2 Critical Flaws and More Reasons an Analyst Says Sell (Barron's) https://www.barrons.com/articles/nvidia-stock-price-sell-analyst-64e607bf
+· BTC Robinhood sees surge in bitcoin, gold prediction markets as traders move beyond sports (CoinDesk) https://www.coindesk.com/markets/2026/10/23/robinhood-sees-surge-in-bitcoin-gold-prediction-markets-as-traders-move-beyond-sports
+· UST Stocks extend declines, 10-year Treasury holds below 5%: AlphaCheck (Yahoo Finance) https://finance.yahoo.com/markets/article/tech-extends-decline-10-year-treasury-holds-below-5-alphacheck-134224473.html
+· BBDC4 Bradesco vê crescimento de inadimplência generalizada, mas carteira protegida, diz CEO (Exame) https://exame.com/invest/mercados/bradesco-ve-crescimento-de-inadimplencia-generalizada-mas-carteira-protegida-diz-ceo/
+· BTC AI Pivot Fails to Slow Bitcoin Mining Competition as Hashrate Surges (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/ai-pivot-fails-slow-bitcoin-133300338.html
+· GOOGL Alphabet (GOOGL) Cloud Outage And Share Token Fight Put Regulation In Focus (Yahoo Finance) https://finance.yahoo.com/technology/articles/alphabet-googl-cloud-outage-share-131307505.html
+· GOOGL Pre-Q3 Earnings: Is Alphabet Stock a Portfolio Must-Have? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/pre-q3-earnings-alphabet-stock-131000590.html
+· BBDC4 Programa de renegociação de dívida Desenrola 3 não é prioridade para o Bradesco, diz CEO (O Globo) https://oglobo.globo.com/google/amp/economia/noticia/2026/10/23/programa-de-renegociacao-de-divida-desenrola-3-nao-e-prioridade-para-o-bradesco-diz-ceo.ghtml
+· CVX Chevron (CVX) Earnings Expected to Grow: What to Know Ahead of Next Week's Release (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/chevron-cvx-earnings-expected-grow-130004941.html
+· NVDA NVIDIA Corporation Revenue Breakdown – TURQUOISE:NVDD (TradingView (Reuters)) https://www.tradingview.com/symbols/TURQUOISE-NVDD/financials-revenue/
+· NVDA Brokers Suggest Investing in Nvidia (NVDA): Read This Before Placing a Bet (Yahoo Finance) https://uk.finance.yahoo.com/news/brokers-suggest-investing-nvidia-nvda-123003095.html
+· GOOGL Countdown to Alphabet (GOOGL) Q3 Earnings: Wall Street Forecasts for Key Metrics (Yahoo Finance) https://news.google.com/rss/articles/CBMiowFBVV95cUxOWURST1VUYy1jU0NIYXBHa2VYbDF2ZXNDTlU2ZU9DN2tIcHRTemJaV3d6ZWlnME9lSnJlQkg1eDVqWjdXbEJiYnBrY1IwZ3BaSWNGQXNSam5KMmI0UU9uOGZYeWd1M2JJZlJHTEhMaWJpUlkxS3RrOFVCdGlBaWl4aE9HQ1V5Y0dNbTVOSVR5U25HU0VxS202ZVZnZXdwdzhDSTl3?oc=5
 · LITE Lumentum Holdings (LITE) Fell In The AI Optics Selloff, Is It Still Undervalued? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/lumentum-holdings-lite-fell-ai-130756133.html
 · VALE3 Agência de Comunicação - Cobre e níquel devem ampliar participação nos resultados da Vale (Estadao) https://bluestudio.estadao.com.br/agencia-de-comunicacao/agencia-minera-brasil/cobre-e-niquel-devem-ampliar-participacao-nos-resultados-da-vale/
 · INTC 4 stocks to watch on Friday: INTC, RITM, ETSY, and GM (SPX:) (Seeking Alpha) https://seekingalpha.com/news/4656537-4-stocks-to-watch-on-friday-intc-ritm-etsy-and-gm
