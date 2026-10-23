@@ -7,7 +7,7 @@
  "colunas": [{"nome": "TckrSymb", "titulo": "Opções"}, {"nome": "DueDate", "titulo": "Vencimento"}, {"nome": "ExerPric", "titulo": "Preço exercício (R$)"}, {"nome": "VlmTradedDay", "titulo": "Volume (R$) mil"}, {"nome": "Part", "titulo": "Participação (%)"}],
  "texto": ["Apresenta as opções de venda mais ativas, refletindo as ações que atraem maior volume de negociação."],
  "situacao": "republicado",
- "atualizado_em": "2026-10-22T21:10:39.97",
+ "atualizado_em": "2026-10-23T00:12:10.387",
  "truncada": false,
  "linhas": [
   ["BOVVW220W4", "2026-11-27T20:59:59", 220, 71030.7, 3.109706312852475],
@@ -16,6 +16,9 @@
   ["SMALV128W5", "2026-10-30T20:59:59", 128, 18236.90329, 0.7984070731077276],
   ["IBOVW210", "2026-11-18T20:59:59", 210000, 15074.46, 0.659956095390333],
   ["IBOVW189", "2026-11-18", 189000, 12918.9523, 0.5655885064169437],
+  ["IBOVW200", "2026-11-18", 200000, 23519.537600000003, 1.0296794843650865],
+  ["SMALV128W5", "2026-10-30", 128, 18236.90329, 0.7984070731077276],
+  ["IBOVW210", "2026-11-18", 210000, 15074.46, 0.659956095390333],
   ["IBOVW189", "2026-11-18T20:59:59", 189000, 12918.9523, 0.5655885064169437]
  ]
 }

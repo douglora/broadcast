@@ -1,5 +1,5 @@
 {
- "pregao": "2026-10-21",
+ "pregao": "2026-10-22",
  "nome": "IbovespaStockBiggestLow",
  "titulo": "Ações do IBOVESPA - maiores baixas",
  "sla": "8:00:00",
@@ -7,18 +7,18 @@
  "colunas": [{"nome": "TckrSymb", "titulo": "Ação"}, {"nome": "Cod", "titulo": "Código"}, {"nome": "Price", "titulo": "Preço (R$)"}, {"nome": "OscillationDesc", "titulo": "Oscilação (%)"}],
  "texto": ["Lista as ações do IBOVESPA que apresentaram as maiores quedas de preços em um período."],
  "situacao": "publicado",
- "atualizado_em": "2026-10-21T23:30:13.93",
+ "atualizado_em": "2026-10-22T23:30:16.477",
  "truncada": false,
  "linhas": [
-  ["HAPV3", "ON      NM", 8.74, -8.48],
-  ["WEGE3", "ON      NM", 45.21, -7.33],
-  ["COGN3", "ON      NM", 3.02, -7.07],
-  ["POMO4", "PN      N2", 4.68, -5.45],
-  ["AZZA3", "ON      NM", 25.8, -5.04],
-  ["CSNA3", "ON", 5.71, -4.99],
-  ["MGLU3", "ON      NM", 13.04, -3.97],
-  ["VAMO3", "ON      NM", 6.4, -3.61],
-  ["CSAN3", "ON      NM", 5.09, -3.41],
-  ["YDUQ3", "ON      NM", 14, -3.31]
+  ["CSNA3", "ON", 5.4, -5.42],
+  ["USIM5", "PNA     N1", 6.33, -4.81],
+  ["EMBJ3", "ON      NM", 87.55, -4.66],
+  ["VALE3", "ON      NM", 61.49, -3.96],
+  ["GGBR4", "PN      N1", 25.48, -3.92],
+  ["BRAP4", "PN      N1", 18.79, -3.88],
+  ["RADL3", "ON      NM", 20.32, -3.78],
+  ["GOAU4", "PN      N1", 11.53, -3.51],
+  ["MBRF3", "ON      NM", 18.3, -2.71],
+  ["WEGE3", "ON      NM", 44, -2.67]
  ]
 }
