@@ -1,8 +1,24 @@
-NOTÍCIAS E FATOS · 23/10 11h23
+NOTÍCIAS E FATOS · 23/10 12h22
 
-Pernas: noticias ok 14 novas (18 consultas; descartadas: 455 veículo fora da lista, 41 sem ativo, 15 teto) · cvm ok 0 novos de 7 (4 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 15 novas (18 consultas; descartadas: 463 veículo fora da lista, 34 sem ativo, 1 teto) · cvm ok 0 novos de 7 (4 cias casadas) · sec ok 0 novos em 3 dias
 
-## NOTÍCIAS COM MATERIALIDADE (10)
+## NOTÍCIAS COM MATERIALIDADE (11)
+
+[ATENÇÃO] E05 · TSLA · TSLA Q3 deep dive: autonomy adoption and margin dynamics shape outlook
+Yahoo Finance · 22/10 20h01 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Electric vehicle pioneer Tesla (NASDAQ:TSLA) met Wall Street's revenue expectations in Q3 2026, but sales were flat year on year at $28.05 billion.
+  – Its non-GAAP profit of $0.48 per share was 6.3% above analysts' consensus estimates.
+  – CFO Vaibhav Taneja highlighted the highest vehicle backlog in four years, while CEO Elon Musk emphasized, "The biggest driver for demand is full self-driving.
+  – There's really no competitor for FSD in any car that you can buy." Looking forward, Tesla's guidance is shaped by a heavy investment cycle and major bets on autonomy, robotics, and energy.
+  – Musk noted that "all the pieces—the refinements in electromechanical dexterity, the AI software, and the AI5 chip—come together" for Optimus, aiming for initial deliveries to outside customers in about a year.
+  – Taneja added that ongoing operating expense growth will persist until commercialization of new products like Optimus, Megapack 3, and the Semi truck is achieved.
+Link: https://finance.yahoo.com/markets/stocks/articles/tsla-q3-deep-dive-autonomy-230153150.html
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: TSLA
+Como falar: 'saiu no Yahoo Finance: TSLA Q3 deep dive: autonomy adoption and margin dynamics shape outlook; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 22/10 20h01
+id: E05-TSLA-c7c008eb50-2026-10-22 · status: pendente
 
 [ATENÇÃO] E05 · TSLA · Why Tesla's $5 billion capex cut isn't the warning sign AI stock bears think it is
 Yahoo Finance · 23/10 09h40 · fonte única · licença: resumo
@@ -119,8 +135,22 @@ Fonte: Yahoo Finance 22/10 17h25
 id: E05-KO-7c5c6eb679-2026-10-22 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (44)
+## OUTRAS NOTÍCIAS (só manchete) (58)
 
+· MU Micron: HBM’s Margin Drag Flips Into A Profit Driver In 2027 (NASDAQ:MU) (Seeking Alpha) https://seekingalpha.com/article/4956963-micron-hbm-margin-drag-flips-into-a-profit-driver-in-2027
+· BBDC4 Bradesco manterá expansão do crédito apesar do cenário econômico (Poder360) https://www.poder360.com.br/poder-economia/bradesco-mantera-expansao-do-credito-apesar-do-cenario-economico/
+· BTC Bitcoin ETFs See Outflows Return As Market Volatility Worsens (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-etfs-see-outflows-return-144700178.html
+· BBDC4 Crédito sob pressão: CEO do Bradesco (BBDC4) defende qualidade da carteira, mas mercado teme perda de ritmo (Seu Dinheiro) https://www.seudinheiro.com/2026/economia/credito-sob-pressao-ceo-do-bradesco-bbdc4-defende-qualidade-da-carteira-mas-mercado-teme-perda-de-ritmo-bdap/
+· BBDC4 Sem "vento de popa", Bradesco aposta em crédito mais seguro para seguir crescendo (NeoFeed) https://neofeed.com.br/negocios/sem-vento-de-popa-bradesco-aposta-em-credito-mais-seguro-para-seguir-crescendo/
+· SMAL11 Índice Small Caps salta 20% em outubro e tem 2ª maior alta mensal de sua história (InfoMoney) https://www.infomoney.com.br/mercados/indice-small-caps-salta-20-em-outubro-e-tem-2a-maior-alta-mensal-de-sua-historia/
+· CVX Chevron stock may move 2.3% on earnings release By Investing.com (Investing.com) https://ng.investing.com/news/stock-market-news/chevron-stock-may-move-23-on-earnings-release-93CH-2754938
+· BBDC4 Balanço do Bradesco sinaliza perda de fôlego, dizem analistas; ações recuam (UOL Economia) https://economia.uol.com.br/noticias/redacao/2026/10/23/recuperacao-do-bradesco-perde-folego-e-preocupa-analistas.htm
+· BBDC4 Bradesco tem 11 altas seguidas no lucro, mas inadimplência preocupa e ações caem (InfoMoney) https://www.infomoney.com.br/mercados/bradesco-bbdc4-11-altas-seguidas-no-lucro-mas-inadimplencia-preocupa-mercado-3t26-desempenho-acoes/
+· COHR Coherent Corp Shs Canadian Depositary Receipt Repr Shs Reg S Estimates – TSX:COHR (TradingView (Reuters)) https://www.tradingview.com/symbols/TSX-COHR/financials-estimates/
+· BBDC4 Programa de renegociação de dívidas Desenrola 3 não é prioridade para o Bradesco, diz CEO (O Globo) https://oglobo.globo.com/economia/noticia/2026/10/23/programa-de-renegociacao-de-divida-desenrola-3-nao-e-prioridade-para-o-bradesco-diz-ceo.ghtml
+· MU Micron vs. Texas Instruments: Which Semiconductor Stock Has the Edge? (Yahoo Finance) https://sg.finance.yahoo.com/news/micron-vs-texas-instruments-semiconductor-123100874.html
+· USDBRL Tempo real: Ibovespa opera instável às vésperas do 2º turno; dólar sobe (Money Times) https://news.google.com/rss/articles/CBMibEFVX3lxTE0yemU3VmxiN3hzcnljTUE3MEFXTVVhc3ZjT3RSRWE5MXJfMkNkOU9IbUtxbk4wc183Rl81X0lTUmNKSkFlcTB6S0NkQnlvQlBtYzJHMU10b2xWSjRkLXJzeEYzSjFlWW9xcUNIQw?oc=5
+· BRENT Petróleo acima de US$ 116 pressiona Wall Street; Dow Jones recua mais de 1% (Estadao) https://news.google.com/rss/articles/CBMi1AFBVV95cUxNRWQzREh3YUJUYlMxNWFYQ2NGNUx5QXE3cTVFazNPY3gtUmpoQUxCYzFVS3lHdHN4UWlGMU93Rk5VTlV3U3BIajkzQmJ6cHFFMTZ0SDZ1N0tXLXo0M3FBS0x2NnNJdTlKVEY1Q01OTEtFZFJsemNZQV94NVNOQUxscGdsaV96dy1acnVZUmJZWC1ZaXlNM01CQ2toMm13TWdhVmk0WFBIaVNNcHdjZFp2OHYyZFVwN3FGY1hPWlY5T1hfbWl3ck9vVHdmcFNKSUVJTTJjUtIB2gFBVV95cUxOREpQSm5ReG1RakNvejMxdlN1Y1B2MGliZENSRWp6T2laeFRaM3JpLXNxYURQclNLUDN6cTB1TEdyMWhJZFFEd3NXUmhORXZvWlBPazdHWVpYZnZHVjZCdVJ2dGJLc2VOUDEwSHM5ZENNN3lPajhvZUR5aDRVb2VERWlkS1dndEtzTl9QVFQycG90cWNVRm53SDZKN0Mzano4ZTVWVzUtWEpZYmlOUkVzNk1vTHJZTE5YOVMxN05ZUF9NdDAtSV9PX1RETTFDN3hMSUJlRHVEXzNRdw?oc=5
 · BBDC4 Bradesco lucraria até R$ 500 milhões a mais com juros abaixo de 10%, diz Noronha (Exame) https://exame.com/invest/mercados/bradesco-lucraria-ate-r-500-milhoes-a-mais-com-juros-abaixo-de-10-diz-noronha/
 · CVX Chevron stock may move 2.3% on earnings release (Investing.com) https://www.investing.com/news/stock-market-news/chevron-stock-may-move-23-on-earnings-release-93CH-4969892
 · NVDA Nvidia Stock’s 2 Critical Flaws and More Reasons an Analyst Says Sell (Barron's) https://www.barrons.com/articles/nvidia-stock-price-sell-analyst-64e607bf
