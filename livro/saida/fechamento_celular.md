@@ -1,86 +1,86 @@
 ```
 VARIAÇÃO %       últ  dia   1s   1m  YTD
 UCITS (USD)
-VWRA   Mundo  189,66 -1,4 -1,0 -2,7  +11
-CSPX   S&P500 827,06 -1,1 -0,8 -1,2  +12
-CNDX   Nasdaq  1.674 -2,3 -2,1 -4,9  +14
-VHYA   AltDiv 106,44 -0,5 +0,3 -0,6  +15
-WUTI   Utilit  68,50 +0,7 +1,8 +2,7 +3,5
-RBOT   Robot   21,05 -2,6 -1,5 -4,0  +29
-IUAA   RF EUA   5,65 +0,5 +0,4 +0,1 -1,8
-IB01   T-bill 122,34  0,0 +0,1 +0,4 +2,9
+VWRA   Mundo  189,60  0,0 -1,1 -2,1  +11
+CSPX   S&P500 826,43 -0,1 -0,8 -0,7  +12
+CNDX   Nasdaq  1.673 -0,1 -1,4 -4,5  +14
+VHYA   AltDiv 106,58 +0,1 -0,2 +0,2  +15
+WUTI   Utilit  68,58 +0,1 +0,6 +4,9 +3,6
+RBOT   Robot   21,19 +0,7 -0,1 -3,2  +30
+IUAA   RF EUA   5,65 +0,1 +0,3 +0,5 -1,8
+IB01   T-bill 122,32  0,0 +0,1 +0,4 +2,9
 ETFs EUA (USD)
-SPY    S&P 50 763,96 -1,2 -1,0 -1,2  +13
-QQQ    Nasdaq 704,47 -2,9 -3,2 -5,8  +15
-SMH    Semis  523,35 -6,0 -6,4  -14  +45
-SOXX   SOXX   475,69 -6,8 -7,6  -17  +58
-XLK    Tech S 182,34 -3,3 -3,6 -7,1  +27
-VGT    Tech V 118,60 -3,0 -3,1 -6,1  +26
-IGV    Softwa 108,72 -0,1 -0,8 +1,8 +2,9
-BOTZ   Roboti  32,68 -2,7 -3,1 -9,2 -9,8
+SPY    S&P 50 759,97 -0,5 -0,4 -1,0  +12
+QQQ    Nasdaq 704,40  0,0 -0,8 -5,0  +15
+SMH    Semis  527,20 +0,7 -2,3  -12  +46
+SOXX   SOXX   478,20 +0,5 -3,1  -15  +59
+XLK    Tech S 183,23 +0,5 -0,1 -6,2  +28
+VGT    Tech V 119,17 +0,5 +0,3 -5,1  +27
+IGV    Softwa 110,59 +1,7 +6,0 +2,3 +4,7
+BOTZ   Roboti  33,02 +1,0  0,0 -6,4 -8,8
 Temáticos: quântica e metais (USD)
-QNTM   Quantu  25,94 -1,6 -1,9  -12 +3,4
-QANT   Quantu   5,57 -1,3 -1,1  -11  +10
-WQTM   Quantu  32,12 -3,4 -3,0  -16 +7,3
-WQTMUS Quantu  27,35 -4,4 -5,0  -16 +5,7
-QTUM   Quantu 135,54 -4,4 -4,5  -12  +24
-REMX   Terras  51,60 -3,3 -7,4  -27  -30
+QNTM   Quantu  25,85 -0,3 -1,6  -13 +3,0
+QANT   Quantu   5,53 -0,8 -2,3  -12 +9,5
+WQTM   Quantu  32,06 -0,2 -3,6  -16 +7,1
+WQTMUS Quantu  27,28 -0,3 -2,0  -15 +5,4
+QTUM   Quantu 136,20 +0,5 -0,7  -11  +25
+REMX   Terras  51,46 -0,3 -5,1  -25  -30
 EUA · Semicondutores e óptica
-NVDA   Nvidia 212,21 -4,4 -2,3 -7,3  +14
-AMD    AMD    507,93 -8,1 -9,7  -19 +137
-AVGO   Broadc 323,24 -4,3 -6,1  -11 -6,1
-MRVL   Marvel 223,47 -8,7 -7,4  -15 +163
-INTC   Intel   85,49 -8,0  -10  -31 +132
-MU     Micron 856,49 -6,3 -8,0  -22 +200
-TSM    TSMC   412,35 -4,5 -2,3 -8,8  +37
-GFS    Global  43,37 -9,1  -11 -9,3  +25
-LITE   Lument 752,54  -12  -13  -20 +104
-COHR   Cohere 207,82  -13  -17  -33  +13
-NOK    Nokia    7,88  -15  -18  -27  +22
+NVDA   Nvidia 210,96 -0,6 -1,5 -6,5  +13
+AMD    AMD    516,79 +1,7 -2,3  -16 +141
+AVGO   Broadc 321,68 -0,5 -2,2 -9,4 -6,5
+MRVL   Marvel 228,51 +2,3 +0,3  -12 +169
+INTC   Intel   86,96 +1,7 -3,2  -29 +136
+MU     Micron 877,55 +2,5 -0,1  -18 +208
+TSM    TSMC   418,51 +1,5 +1,4 -6,3  +39
+GFS    Global  44,39 +2,4 -4,9 -4,4  +28
+LITE   Lument 756,17 +0,5 -8,2  -19 +105
+COHR   Cohere 209,29 +0,7  -10  -30  +13
+NOK    Nokia    8,14 +3,3  -11  -23  +26
 EUA · Tecnologia e plataformas
-META   Meta   648,85 -7,0  -12  -12 -1,4
-GOOGL  Google 324,22 -3,1 -7,2 -7,7 +3,8
-AMZN   Amazon 250,38 -4,6 -1,7 -1,8 +8,5
-PLTR   Palant 196,19 -2,7 -2,1 +6,1  +10
-TSLA   Tesla  374,58 -3,1 +3,3 -1,1  -17
-BABA   Alibab 101,82 -2,5 -8,4  -12  -30
+META   Meta   642,62 -1,0 -9,4  -14 -2,4
+GOOGL  Google 320,21 -1,2 -6,0 -5,2 +2,5
+AMZN   Amazon 248,00 -1,0 -0,8 -0,5 +7,4
+PLTR   Palant 196,75 +0,3 +5,8 +2,6  +11
+TSLA   Tesla  372,22 -0,6 +4,9 -2,1  -17
+BABA   Alibab  99,64 -2,1 -8,7  -10  -31
 EUA · Bancos
-JPM    JPM    336,54 +0,4 +0,3 -0,5 +6,5
-BAC    BofA    51,08 +0,6 -1,2 -9,1 -5,6
+JPM    JPM    331,58 -1,5 -2,4 -1,3 +4,9
+BAC    BofA    50,56 -1,0 -1,3 -9,7 -6,6
 EUA · Consumo, energia e indústria
-KO     Coca    95,34 +2,9 +3,6 +7,6  +39
-CVX    Chevro 226,68  0,0 +3,4  +12  +53
-MMM    3M     175,56 +0,5 +6,2 +3,7  +11
+KO     Coca    92,71 -2,8 -1,3 +5,2  +35
+CVX    Chevro 233,21 +2,9 +3,7  +13  +57
+MMM    3M     173,46 -1,2 +5,3 +1,9 +9,9
 Hipótese (ETF país, a confirmar)
-EWY    Coreia 149,06 -5,0 -4,6  -23  +53
-MCHI   China   49,02 -2,1 -5,2 -9,6  -18
+EWY    Coreia 151,26 +1,5 +0,5  -19  +56
+MCHI   China   49,00  0,0 -4,3 -7,8  -18
 BR (R$)
-EQTL3  Equatr  48,17 -0,9  0,0  +19  +25
-SAPR4  Sanepa   7,93 +0,4 +4,6  +16 +2,8
-KLBN4  Klabin   3,61 -0,3 -0,6 -5,0 -4,0
-ALUP4  Alupar  12,60 +0,6 +2,4  +17  +26
-ITUB4  Itau    48,00 -1,8 -0,7  +11  +25
-BBDC4  Brades  20,22 -2,1 -2,5  +12  +18
-PETR4  Petro   57,83 +0,1 +0,8  +20 +100
-VALE3  Vale    61,49 -4,0 -7,4  -16  -12
-MELI34 MeLi    76,31 -2,2 -3,3 -1,5  -17
-UGPA3  Ultra   39,12 -2,3 +1,2 -0,9  +93
-AXIA3  Axia    59,08 +0,9 -0,1 +5,8  +17
-ITSA4  Itausa  15,30 -2,6 -1,7 +6,4  +34
-BBAS3  BB      23,92 -0,7 +0,7 +5,5  +12
-SBSP3  Sabesp  31,80 -0,7 -0,2  +15  +20
-SMAL11 SmallC 134,70 -1,5 +3,0  +20  +20
-RARA11 Terras  11,65 -2,8 -8,1  -28    -
-DIRR3  Direc   11,32 -1,2 +7,0  +11  -20
-MRVE3  MRV      8,23  0,0  +16  +55 +5,6
-CURY3  Cury    31,98 -1,2 +3,1  +13 +4,3
+EQTL3  Equatr  48,88 +1,5 +1,0  +22  +27
+SAPR4  Sanepa   8,09 +2,0 +5,3  +21 +4,8
+KLBN4  Klabin   3,62 +0,3 +0,3 -1,6 -3,7
+ALUP4  Alupar  12,50 -0,8 +1,0  +16  +25
+ITUB4  Itau    48,30 +0,6 +0,4  +14  +26
+BBDC4  Brades  20,37 +0,7  0,0  +15  +19
+PETR4  Petro   58,68 +1,5 -1,7  +18 +102
+VALE3  Vale    61,90 +0,7 -6,5  -13  -12
+MELI34 MeLi    75,40 -1,2 -2,9 -2,3  -18
+UGPA3  Ultra   38,55 -1,5 -2,2 -3,0  +90
+AXIA3  Axia    58,00 -1,8 -2,5 +4,8  +15
+ITSA4  Itausa  15,31 +0,1 -0,8 +8,6  +34
+BBAS3  BB      24,72 +3,3 +4,6  +12  +15
+SBSP3  Sabesp  31,98 +0,6 -0,7  +19  +21
+SMAL11 SmallC 137,50 +2,1 +5,0  +24  +22
+RARA11 Terras  11,48 -1,5 -7,5  -28    -
+DIRR3  Direc   11,56 +2,1  +10  +17  -18
+MRVE3  MRV      8,23  0,0  +14  +57 +5,6
+CURY3  Cury    32,50 +1,6 +5,1  +19 +6,0
 Macro
-USDBRL USD/BR 5,0371 +0,2 -1,0 -1,3 -8,0
-DXY*   DXY    101,78  0,0 -0,8 +1,3 +3,6
-BRENT* Brent  108,82  0,0 +2,6  +13  +79
-BTC*   BTC    81.304 -3,2 -1,0 -5,6 -7,1
-ETH*   ETH     2.386 -3,4 -2,2  -13  -20
-MINER* Mineri  90,85  0,0 +0,1 -6,8  -15
+USDBRL USD/BR 4,9892 -1,0 -1,6 -3,4 -8,9
+DXY    DXY    101,75 +0,1 -0,1 +0,6 +3,5
+BRENT  Brent  116,91 +3,3 +6,4  +19  +92
+BTC*   BTC    81.336  0,0 -0,2 -3,6 -7,1
+ETH*   ETH     2.399 +0,5 -0,9  -11  -19
+MINER* Mineri  90,73 -0,1 +0,2 -6,8  -15
 ```
 UCITS por extenso: VWRA Vanguard FTSE All-World
 UCITS ETF USD Accumulating · CSPX iShares Core S&P

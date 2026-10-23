@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 23/10 17h22
+NOTÍCIAS E FATOS · 23/10 18h13
 
-Pernas: noticias ok 12 novas (18 consultas; descartadas: 447 veículo fora da lista, 39 sem ativo, 0 teto) · cvm ok 1 novos de 8 (4 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 13 novas (18 consultas; descartadas: 478 veículo fora da lista, 42 sem ativo, 2 teto) · cvm ok 0 novos de 8 (4 cias casadas) · sec ok 1 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (1)
 
@@ -14,7 +14,35 @@ Fonte: CVM 23/10
 id: E03-AXIA3-1579865-2026-10-23 · status: linha
 
 
-## NOTÍCIAS COM MATERIALIDADE (14)
+## SEC (8-K, 6-K, 10-Q, 10-K) (1)
+
+[INFO] E04 · BAC · 8-K: 3.03 mudanca de direitos dos acionistas, 5.03 mudanca de estatuto ou exercicio, 8.01 outros eventos
+SEC EDGAR · aceito 23/10 17h41 · 8-K
+Link: https://www.sec.gov/Archives/edgar/data/70858/000119312526430566/d176604d8k.htm
+Por que importa: documento da companhia na SEC
+Ativos: BAC
+Como falar: 'a BAC protocolou 8-K na SEC (3.03 mudanca de direitos dos acionistas, 5.03 mudanca de es…)'
+Fonte: SEC EDGAR 2026-10-23
+id: E04-BAC-26430566-2026-10-23 · status: linha · íntegra disponível
+
+
+## NOTÍCIAS COM MATERIALIDADE (15)
+
+[ATENÇÃO] E05 · USDBRL · Ibovespa fecha em alta com aposta de vitória de Flávio Bolsonaro; dólar encerra abaixo de R$ 5
+Money Times · 23/10 17h38 · + Exame · licença: integral
+Do texto:
+  – Nesta sexta-feira (23), o principal índice da bolsa brasileira terminou as negociações com queda de 0,47%, aos 205.082,56 pontos.
+  – Na semana, o IBOV acumulou perda de 0,17%.
+  – Já o dólar à vista encerrou o dia a R$ 4,9931, com queda de 0,92%.
+  – Na semana, a divisa norte-americana acumulou queda de 1,58% ante o real.
+  – A prévia da inflação, o Índice Nacional de Preços ao Consumidor Amplo (IPCA-15), subiu 0,32% em outubro e fechou o período de 12 meses com alta acumulada de 4,62%.
+  – O número desacelerou na comparação mensal, após alta de 0,70% em setembro, mas subiu no comparativo anual após alta de 4,47% no acumulado em 12 meses no mês anterior.
+Link: https://www.moneytimes.com.br/ibovespa-23-10-26-lils/
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: USDBRL
+Como falar: 'saiu no Money Times: Ibovespa fecha em alta com aposta de vitória de Flávio Bolsonaro; dólar encerra abaixo de…; confirmar o número no texto antes de repassar'
+Fonte: Money Times 23/10 17h38
+id: E05-USDBRL-69917e4181-2026-10-23 · status: pendente · íntegra disponível
 
 [ATENÇÃO] E05 · BBDC4 · Bradesco (BBDC4) tem lucro líquido recorrente de R$ 7,1 bi no 3T26, alta de 14,6%
 Suno Noticias · 23/10 10h00 · fonte única · licença: resumo
@@ -30,7 +58,7 @@ Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; 
 Ativos: BBDC4
 Como falar: 'saiu no Suno Noticias: Bradesco (BBDC4) tem lucro líquido recorrente de R$ 7,1 bi no 3T26, alta de 14,6%; confirmar o número no texto antes de repassar'
 Fonte: Suno Noticias 23/10 10h00
-id: E05-BBDC4-4100fb66fe-2026-10-23 · status: pendente
+id: E05-BBDC4-4100fb66fe-2026-10-23 · status: entregue
 
 [ATENÇÃO] E05 · BBDC4 · Bradesco registra lucro recorrente de R$ 7,1 bilhões no 3T26
 ADVFN · 23/10 08h38 · fonte única · licença: manchete
@@ -181,8 +209,20 @@ Fonte: Yahoo Finance 22/10 17h25
 id: E05-KO-7c5c6eb679-2026-10-22 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (111)
+## OUTRAS NOTÍCIAS (só manchete) (123)
 
+· USDBRL Dólar cai 0,90% e fecha em R$ 4,993; Ibovespa sobe (Poder360) https://www.poder360.com.br/poder-economia/dolar-cai-090-e-fecha-em-r-4993-ibovespa-sobe/
+· USDBRL Dólar cai com maior apetite ao risco antes do segundo turno das eleições presidenciais (ADVFN) https://br.advfn.com/jornal/2026/10/dolar-cai-com-maior-apetite-ao-risco-antes-do-segundo-turno-das-eleicoes-presidenciais
+· TSLA Musk: Optimus and Cybercab “Will Be the Vast Majority of Tesla’s Value” as Earnings Loom (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/musk-optimus-cybercab-vast-majority-200502045.html
+· TSM TSMC Stocks Rise as Record Profit Meets 2027 Caution (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:be0dc20cb094b:0-tsmc-stocks-rise-as-record-profit-meets-2027-caution/
+· GOOGL Alphabet's Q3 Could Reframe Its AI Spending Story (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:c86f6746a094b:0-alphabet-s-q3-could-reframe-its-ai-spending-story/
+· BTC Fidelity Wise Origin Bitcoin Fund (FBTC) Stock Price, News, Quote & History (Yahoo Finance) https://ca.finance.yahoo.com/quote/FBTC/
+· AMD AMD Stock Price Prediction: One Growth Opportunity Could Push Shares Much Higher (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/amd-stock-price-prediction-one-150045130.html
+· CVX Chevron stock may move 2.3% on earnings release By Investing.com (Investing.com) https://za.investing.com/news/stock-market-news/chevron-stock-may-move-23-on-earnings-release-93CH-4523052
+· BBDC4 Bradesco: Há pressão em inadimplência, mas banco está seguro com portfólio (CNN Brasil) https://www.cnnbrasil.com.br/economia/money/negocios/bradesco-ha-pressao-em-inadimplencia-mas-banco-esta-seguro-com-portfolio/
+· MU Stock Split Watch: Is Micron Next? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/stock-split-watch-micron-next-122202385.html
+· USDBRL Dólar cai a R$ 4,99 e Ibovespa sobe antes do 2º turno das eleições (g1) https://g1.globo.com/economia/noticia/2026/10/23/dolar-ibovespa.ghtml
+· LITE Lumentum Holdings Inc. Estimates – NASDAQ:LITE (TradingView (Reuters)) https://news.google.com/rss/articles/CBMieEFVX3lxTE00ajd1T0RobllMNldURWVpMGdueFhwNVFrcDlmczgyRkdfQk8zOUN2TW5XU1MwRW5tMmh0OXQ2SUlxekFNWWxmck55X3dtUFNxY2lnQlk1VktVRmE5REx6anQwZG5lR0lqNVN4aTh3dllYNnBVZU84Ng?oc=5
 · USDBRL Dólar à vista fecha em baixa de 0,97%, a R$4,9896 na venda Por Reuters (Investing.com) https://br.investing.com/news/forex-news/dolar-a-vista-fecha-em-baixa-de-097-a-r49896-na-venda-2101601
 · USDBRL Dólar cai e fecha abaixo de R$ 5 no último pregão antes do segundo turno (Money Times) https://www.moneytimes.com.br/dolar-23-10-26-lils/
 · CVX Hess Midstream upgraded at Raymond James as Chevron restructuring selloff overdone (HESM:NYSE) (Seeking Alpha) https://seekingalpha.com/news/4656710-hess-midstream-upgraded-at-raymond-james-as-chevron-restructuring-selloff-overdone
@@ -231,16 +271,4 @@ id: E05-KO-7c5c6eb679-2026-10-22 · status: linha
 · BTC Current price of Bitcoin for Oct. 23, 2026 (Fortune) https://fortune.com/article/price-of-bitcoin-10-23-2026/
 · AMZN Is 3M (MMM) A Bargain Following Strong Q3 Results And Its AWS Expansion? (Yahoo Finance) https://finance.yahoo.com/news/3m-mmm-bargain-following-strong-231803118.html
 · BBDC4 Ações do Bradesco caem após balanço; veja os 4 pontos que preocupam os analistas (Exame) https://exame.com/invest/mercados/acoes-do-bradesco-caem-apos-balanco-veja-os-4-pontos-que-preocupam-os-analistas/
-· META Meta Platforms' Q3: The Market Is Being Dramatic About Negative Free Cash Flow (META) (Seeking Alpha) https://seekingalpha.com/article/4956914-meta-platforms-q3-the-market-is-being-dramatic-about-negative-free-cash-flow
-· TSLA SpaceX And Tesla Q3, And Why Some Mergers Are Not Made In Heaven (NASDAQ:SPCX) (Seeking Alpha) https://seekingalpha.com/article/4956911-spacex-and-tesla-q3-and-why-some-mergers-are-not-made-in-heaven
-· TSLA Gary Black Says Tesla Investors Are Taking Elon Musk's Earnings Call Projections as 'Gospel' Despite Stock's 'Extreme Valuation Metrics' (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:c8eaab04d094b:0-gary-black-says-tesla-investors-are-taking-elon-musk-s-earnings-call-projections-as-gospel-despite-stock-s-extreme-valuation-metrics/
-· GOOGL Alphabet's Google Cloud Announces General Availability of Anthropic-Managed Deployment Option for Claude Models (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/alphabet-apos-google-cloud-announces-082035137.html
-· AVGO Broadcom Inc. (AVGO) Suffers a Larger Drop Than the General Market: Key Insights (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/broadcom-inc-avgo-suffers-larger-204502208.html
-· MU Micron: HBM’s Margin Drag Flips Into A Profit Driver In 2027 (NASDAQ:MU) (Seeking Alpha) https://seekingalpha.com/article/4956963-micron-hbm-margin-drag-flips-into-a-profit-driver-in-2027
-· BBDC4 Bradesco manterá expansão do crédito apesar do cenário econômico (Poder360) https://www.poder360.com.br/poder-economia/bradesco-mantera-expansao-do-credito-apesar-do-cenario-economico/
-· BTC Bitcoin ETFs See Outflows Return As Market Volatility Worsens (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-etfs-see-outflows-return-144700178.html
-· BBDC4 Crédito sob pressão: CEO do Bradesco (BBDC4) defende qualidade da carteira, mas mercado teme perda de ritmo (Seu Dinheiro) https://www.seudinheiro.com/2026/economia/credito-sob-pressao-ceo-do-bradesco-bbdc4-defende-qualidade-da-carteira-mas-mercado-teme-perda-de-ritmo-bdap/
-· BBDC4 Sem "vento de popa", Bradesco aposta em crédito mais seguro para seguir crescendo (NeoFeed) https://neofeed.com.br/negocios/sem-vento-de-popa-bradesco-aposta-em-credito-mais-seguro-para-seguir-crescendo/
-· SMAL11 Índice Small Caps salta 20% em outubro e tem 2ª maior alta mensal de sua história (InfoMoney) https://www.infomoney.com.br/mercados/indice-small-caps-salta-20-em-outubro-e-tem-2a-maior-alta-mensal-de-sua-historia/
-· CVX Chevron stock may move 2.3% on earnings release By Investing.com (Investing.com) https://ng.investing.com/news/stock-market-news/chevron-stock-may-move-23-on-earnings-release-93CH-2754938
-· (+51 manchetes; lista completa em eventos/noticias.json)
+· (+63 manchetes; lista completa em eventos/noticias.json)
