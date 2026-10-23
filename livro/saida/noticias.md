@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 23/10 15h21
+NOTÍCIAS E FATOS · 23/10 16h22
 
-Pernas: noticias ok 7 novas (18 consultas; descartadas: 470 veículo fora da lista, 42 sem ativo, 0 teto) · cvm ok 0 novos de 7 (4 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 5 novas (18 consultas; descartadas: 462 veículo fora da lista, 43 sem ativo, 0 teto) · cvm ok 0 novos de 7 (4 cias casadas) · sec ok 0 novos em 3 dias
 
 ## NOTÍCIAS COM MATERIALIDADE (13)
 
@@ -11,7 +11,7 @@ Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; 
 Ativos: BBDC4
 Como falar: 'saiu no ADVFN: Bradesco registra lucro recorrente de R$ 7,1 bilhões no 3T26; confirmar o número no texto antes de repassar'
 Fonte: ADVFN 23/10 08h38
-id: E05-BBDC4-3bcdefaa30-2026-10-23 · status: pendente
+id: E05-BBDC4-3bcdefaa30-2026-10-23 · status: entregue
 
 [ATENÇÃO] E05 · NOK · Earnings call transcript: Nokia beats Q3 2026 estimates but shares fall premarket By Investing.com
 Investing.com · 22/10 15h27 · fonte única · licença: manchete
@@ -20,7 +20,7 @@ Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; 
 Ativos: NOK
 Como falar: 'saiu no Investing.com: Earnings call transcript: Nokia beats Q3 2026 estimates but shares fall premarket By Inve…; confirmar o número no texto antes de repassar'
 Fonte: Investing.com 22/10 15h27
-id: E05-NOK-c7e14a43df-2026-10-22 · status: pendente
+id: E05-NOK-c7e14a43df-2026-10-22 · status: entregue
 
 [ATENÇÃO] E05 · TSLA · TSLA Q3 deep dive: autonomy adoption and margin dynamics shape outlook
 Yahoo Finance · 22/10 20h01 · fonte única · licença: resumo
@@ -153,8 +153,13 @@ Fonte: Yahoo Finance 22/10 17h25
 id: E05-KO-7c5c6eb679-2026-10-22 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (95)
+## OUTRAS NOTÍCIAS (só manchete) (100)
 
+· NVDA Apple is set to take back the market-cap crown from Nvidia. Upcoming earnings may push it over the top (CNBC) https://www.cnbc.com/2026/10/23/apple-nvidia-market-cap-earnings.html
+· GOOGL Alphabet Stocks Face Wednesday Earnings Test After 82% Cloud Revenue Growth (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/alphabet-stocks-face-wednesday-earnings-182756390.html
+· ETH Is Ethereum a Buy Under $2,400? We Asked Grok AI (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/ethereum-buy-under-2-400-173022875.html
+· USDBRL Tempo real: Ibovespa sobe aos 205 mil pontos com 'trade eleitoral'; dólar cai para o nível abaixo de R$ 5 (Money Times) https://www.moneytimes.com.br/tempo-real-23-10-26-apsa-lils/
+· KO Coca-Cola Consolidated, Inc. (COKE) Stock Price, News, Quote & History (Yahoo Finance) https://ca.finance.yahoo.com/quote/COKE/
 · SAPR4 O que os novos governadores mudam nos dividendos de Cemig, Sanepar e Banrisul? (InfoMoney) https://www.infomoney.com.br/onde-investir/o-que-os-novos-governadores-mudam-nos-dividendos-de-cemig-sanepar-e-banrisul/
 · PLTR Should You 'Buy' or 'Sell' Palantir Stock Ahead of Earnings? (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:a43edbaba094b:0-should-you-buy-or-sell-palantir-stock-ahead-of-earnings/
 · PETR4 Conselho da Petrobras deve discutir preço do diesel depois do segundo turno, dizem fontes (Valor Economico) https://valor.globo.com/google/amp/empresas/noticia/2026/10/23/conselho-da-petrobras-deve-discutir-preo-do-diesel-depois-do-segundo-turno-dizem-fontes.ghtml
@@ -210,9 +215,4 @@ id: E05-KO-7c5c6eb679-2026-10-22 · status: linha
 · CVX Chevron stock may move 2.3% on earnings release (Investing.com) https://www.investing.com/news/stock-market-news/chevron-stock-may-move-23-on-earnings-release-93CH-4969892
 · NVDA Nvidia Stock’s 2 Critical Flaws and More Reasons an Analyst Says Sell (Barron's) https://www.barrons.com/articles/nvidia-stock-price-sell-analyst-64e607bf
 · BTC Robinhood sees surge in bitcoin, gold prediction markets as traders move beyond sports (CoinDesk) https://www.coindesk.com/markets/2026/10/23/robinhood-sees-surge-in-bitcoin-gold-prediction-markets-as-traders-move-beyond-sports
-· UST Stocks extend declines, 10-year Treasury holds below 5%: AlphaCheck (Yahoo Finance) https://finance.yahoo.com/markets/article/tech-extends-decline-10-year-treasury-holds-below-5-alphacheck-134224473.html
-· BBDC4 Bradesco vê crescimento de inadimplência generalizada, mas carteira protegida, diz CEO (Exame) https://exame.com/invest/mercados/bradesco-ve-crescimento-de-inadimplencia-generalizada-mas-carteira-protegida-diz-ceo/
-· BTC AI Pivot Fails to Slow Bitcoin Mining Competition as Hashrate Surges (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/ai-pivot-fails-slow-bitcoin-133300338.html
-· GOOGL Alphabet (GOOGL) Cloud Outage And Share Token Fight Put Regulation In Focus (Yahoo Finance) https://finance.yahoo.com/technology/articles/alphabet-googl-cloud-outage-share-131307505.html
-· GOOGL Pre-Q3 Earnings: Is Alphabet Stock a Portfolio Must-Have? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/pre-q3-earnings-alphabet-stock-131000590.html
-· (+35 manchetes; lista completa em eventos/noticias.json)
+· (+40 manchetes; lista completa em eventos/noticias.json)
