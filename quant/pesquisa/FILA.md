@@ -40,6 +40,7 @@ metodo em quant/saida/pesquisa5/BRIEF.md) e move a linha para "Testadas" com os 
    papeis ficaram sem TIR, e por que.
 
 ## Testadas
+- 23/10/2026, noite: nenhuma hipotese nova testada. Itens 7, 9, 10, 12, 14, 15 e 16 seguem esperando dado ou pregoes novos (prova viva do indice: 8 negocios, +R$ 91 no original e -R$ 38 na variante adaptativa, abaixo de 60; reversao do dado: 1 negocio, -R$ 155). Pregao de 23/10: robo sem negocio (saida da eleicao as 12h40); so medidos: nivel e reacao 25 sinais (-R$ 1.775), climax 1 (+R$ 43). Pelo METODO, nenhuma tentativa forcada.
 - 22/10/2026, noite: nenhuma hipotese nova testada. Itens 7, 9, 10, 12, 15 e 16 seguem esperando dado ou pregoes novos (prova viva do indice: 7 negocios, media +R$ 47 no original e -R$ 15 na variante adaptativa, ainda abaixo de 60). Item 14: a coleta do dolar em dias parou em 09/10 (series yfinance sem dado novo) e o sinal de hoje saiu zerado/sem volatilidade; verificar a fonte na proxima noite. Pelo METODO, nenhuma tentativa forcada.
 - 20/10/2026, noite: item 6 (dados novos da B3) saiu de "A testar" sem teste novo, porque ja estava coberto: posicao por tipo de participante
   NAO existe de graca (b3_dolar/2_posicoes_participante/LEIA_ISTO.txt); PTAX das 4 janelas e corretoras na fita foram testadas em 09/10
