@@ -1,23 +1,39 @@
 ALERTAS · intradia
 
-Nenhum alerta novo neste slot.
+[ATENÇÃO] E05 · BBDC4 · Bradesco registra lucro recorrente de R$ 7,1 bilhões no 3T26
+ADVFN · 23/10 08h38 · fonte única · licença: manchete
+Link: https://br.advfn.com/jornal/2026/10/bradesco-registra-lucro-recorrente-de-r-7-1-bilhoes-no-3t26
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: BBDC4
+Como falar: 'saiu no ADVFN: Bradesco registra lucro recorrente de R$ 7,1 bilhões no 3T26; confirmar o número no texto antes de repassar'
+Fonte: ADVFN 23/10 08h38
+Push: intradia: 2 alertas de atenção — E05 BBDC4, E05 NOK · detalhe na sessão
+ids: E05-BBDC4-3bcdefaa30-2026-10-23
+
+[ATENÇÃO] E05 · NOK · Earnings call transcript: Nokia beats Q3 2026 estimates but shares fall premarket By Investing.com
+Investing.com · 22/10 15h27 · fonte única · licença: manchete
+Link: https://za.investing.com/news/stock-market-news/earnings-call-transcript-nokia-beats-q3-2026-estimates-but-shares-fall-premarket-93CH-4519759
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: NOK
+Como falar: 'saiu no Investing.com: Earnings call transcript: Nokia beats Q3 2026 estimates but shares fall premarket By Inve…; confirmar o número no texto antes de repassar'
+Fonte: Investing.com 22/10 15h27
+ids: E05-NOK-c7e14a43df-2026-10-22
+
 Info (só linha no Fechamento):
-· E05 MRVL · Marvell Technology Faces a Multi-Front War Against Taiwan’s Custom Silicon Ecosystem
-· E05 BBDC4 · Lucro do Grupo Bradesco Seguros cresce 18,2% no ano
-· E05 PLTR · Palantir Guided for $2.16 Billion in Revenue for Q3. Its Last 2 Quarters Suggest We Should Expect More.
-· E05 NOK · Nokia (HLSE:NOKIA) Stock Price Questions Q3 Earnings Margin Gains
-· E05 BBDC4 · Independentemente de governo, se eu estivesse sentado lá manteria FGI/FGO, é ótimo programa, diz CEO do Bradesco
-· E05 NVDA · NVIDIA Corporation (NVDA) stock price, news, quote and history
-· E05 USDBRL · Dólar e Bolsa rondam estabilidade antes de eleições, em dia de IPCA-15
-· E05 INTC · Not Intel. Not CoreWeave. This Underappreciated Nvidia-Backed Company Is Growing Artificial Intelligence (AI) Revenue by 123%. Here's Why It's a Buy…
-· E05 USDBRL · Dólar oscila e Bolsa sobe com Datafolha e inflação no radar antes do segundo turno
-· E05 BRENT · Brent crude oil tops $116, a six-month high, as tensions swell in the Middle East
-· E05 TSLA · Tesla Fell 3% as Musk Trims Capex, Delays Optimus Ramp for “The Biggest Product on Earth”
+· E05 BBDC4 · Bradesco cresce lucro sob ventos contrários, mas inadimplência limita recuperação estrutural
+· E05 CVX · Chevron vs. ExxonMobil: Which Stock Has the Edge at 52-Week Highs?
+· E05 NVDA · Can Apple Top Nvidia? iPhone Duo and Nov. 2 Earnings Hold the Key
+· E05 BBDC4 · Crédito com garantia pública deveria seguir em qualquer governo, diz CEO do Bradesco
+· E05 AMD · AMD Has a High Floor, High Volatility Trajectory Through the End of 2026
+· E05 BTC · Bitcoin’s midterm bottom pattern faces a test as QQQ shows mixed returns
+· E05 TSLA · Stocktwits Wall Street Wrap: Analysts Turn Bullish On SpaceX, Tesla, But Netflix And Chipotle Face Fresh Downgrades Amid Growth Concerns
 · T13 VIX cruzou 20: 20,2 (+6,0% no dia)
 
 Suprimidos pelo teto (viram linha do Fechamento): T13-VIX-vix20-2026-10-23 (teto de atenção)
 
 Alertas do dia (todos, com status):
+· pendente  E05 BBDC4 — BBDC4 · Bradesco registra lucro recorrente de R$ 7,1 bilhões no 3T26
+· pendente  E05 NOK — NOK · Earnings call transcript: Nokia beats Q3 2026 estimates but shares fall pr
 · entregue  E05 TSLA — TSLA · TSLA Q3 deep dive: autonomy adoption and margin dynamics shape outlook
 · linha     T13 VIX — VIX cruzou 20: 20,2 (+6,0% no dia)
 · entregue  E05 TSLA — TSLA · Why Tesla's $5 billion capex cut isn't the warning sign AI stock bears th
@@ -28,5 +44,5 @@ Alertas do dia (todos, com status):
 · entregue  E05 BBDC4 — BBDC4 · Bradesco (BBDC3; BBDC4) aprova recompra de ações
 · entregue  E05 NVDA — NVDA · Key facts: SMCI raises Q1 guidance; Nokia, NVIDIA AI-RAN; ARC MGX demo
 · entregue  S01 SISTEMA — coleta do slot manha saiu incompleta: tesouro: falha: ValueError: cabecalho ines
-· linha     F03 BRENT — Brent sobe a US$ 117,04 (+3,4% no dia) (parcial, intradia)
-· (+90 notícias só manchete, em noticias.md)
+· linha     F03 BRENT — Brent sobe a US$ 116,61 (+3,0% no dia) (parcial, intradia)
+· (+97 notícias só manchete, em noticias.md)

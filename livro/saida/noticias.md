@@ -1,8 +1,26 @@
-NOTÍCIAS E FATOS · 23/10 14h22
+NOTÍCIAS E FATOS · 23/10 14h49
 
-Pernas: noticias ok 11 novas (18 consultas; descartadas: 464 veículo fora da lista, 42 sem ativo, 0 teto) · cvm ok 0 novos de 7 (4 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 9 novas (18 consultas; descartadas: 464 veículo fora da lista, 43 sem ativo, 0 teto) · cvm ok 0 novos de 7 (4 cias casadas) · sec ok 0 novos em 3 dias
 
-## NOTÍCIAS COM MATERIALIDADE (11)
+## NOTÍCIAS COM MATERIALIDADE (13)
+
+[ATENÇÃO] E05 · BBDC4 · Bradesco registra lucro recorrente de R$ 7,1 bilhões no 3T26
+ADVFN · 23/10 08h38 · fonte única · licença: manchete
+Link: https://br.advfn.com/jornal/2026/10/bradesco-registra-lucro-recorrente-de-r-7-1-bilhoes-no-3t26
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: BBDC4
+Como falar: 'saiu no ADVFN: Bradesco registra lucro recorrente de R$ 7,1 bilhões no 3T26; confirmar o número no texto antes de repassar'
+Fonte: ADVFN 23/10 08h38
+id: E05-BBDC4-3bcdefaa30-2026-10-23 · status: pendente
+
+[ATENÇÃO] E05 · NOK · Earnings call transcript: Nokia beats Q3 2026 estimates but shares fall premarket By Investing.com
+Investing.com · 22/10 15h27 · fonte única · licença: manchete
+Link: https://za.investing.com/news/stock-market-news/earnings-call-transcript-nokia-beats-q3-2026-estimates-but-shares-fall-premarket-93CH-4519759
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: NOK
+Como falar: 'saiu no Investing.com: Earnings call transcript: Nokia beats Q3 2026 estimates but shares fall premarket By Inve…; confirmar o número no texto antes de repassar'
+Fonte: Investing.com 22/10 15h27
+id: E05-NOK-c7e14a43df-2026-10-22 · status: pendente
 
 [ATENÇÃO] E05 · TSLA · TSLA Q3 deep dive: autonomy adoption and margin dynamics shape outlook
 Yahoo Finance · 22/10 20h01 · fonte única · licença: resumo
@@ -135,8 +153,15 @@ Fonte: Yahoo Finance 22/10 17h25
 id: E05-KO-7c5c6eb679-2026-10-22 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (81)
+## OUTRAS NOTÍCIAS (só manchete) (88)
 
+· BBDC4 Bradesco cresce lucro sob ventos contrários, mas inadimplência limita recuperação estrutural (Estadao) https://www.estadao.com.br/em-alta/economia/negocios/bradesco-cresce-lucro-inadimplencia-limita-recuperacao-estrutural/
+· CVX Chevron vs. ExxonMobil: Which Stock Has the Edge at 52-Week Highs? (TradingView (Reuters)) https://www.tradingview.com/news/zacks:b6eebed77094b:0-chevron-vs-exxonmobil-which-stock-has-the-edge-at-52-week-highs/
+· NVDA Can Apple Top Nvidia? iPhone Duo and Nov. 2 Earnings Hold the Key (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:64bd340db094b:0-can-apple-top-nvidia-iphone-duo-and-nov-2-earnings-hold-the-key/
+· BBDC4 Crédito com garantia pública deveria seguir em qualquer governo, diz CEO do Bradesco (Bloomberg Linea) https://www.bloomberglinea.com.br/negocios/credito-com-garantia-publica-deveria-seguir-em-qualquer-governo-diz-ceo-do-bradesco/?outputType=amp
+· AMD AMD Has a High Floor, High Volatility Trajectory Through the End of 2026 (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/amd-high-floor-high-volatility-111531353.html
+· BTC Bitcoin’s midterm bottom pattern faces a test as QQQ shows mixed returns (CoinDesk) https://www.coindesk.com/markets/2026/10/23/bitcoin-approaches-midterms-as-july-low-challenges-historical-cycle-pattern
+· TSLA Stocktwits Wall Street Wrap: Analysts Turn Bullish On SpaceX, Tesla, But Netflix And Chipotle Face Fresh Downgrades Amid Growth Concerns (TradingView (Reuters)) https://es.tradingview.com/news/stocktwits:4a1c3a9d4094b:0-stocktwits-wall-street-wrap-analysts-turn-bullish-on-spacex-tesla-but-netflix-and-chipotle-face-fresh-downgrades-amid-growth-concerns/
 · MRVL Marvell Technology Faces a Multi-Front War Against Taiwan’s Custom Silicon Ecosystem (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/marvell-technology-faces-multi-front-164503344.html
 · BBDC4 Lucro do Grupo Bradesco Seguros cresce 18,2% no ano (O Globo) https://oglobo.globo.com/patrocinado/dino/noticia/2026/10/23/lucro-do-grupo-bradesco-seguros-cresce-182-no-ano-1.ghtml
 · PLTR Palantir Guided for $2.16 Billion in Revenue for Q3. Its Last 2 Quarters Suggest We Should Expect More. (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/palantir-guided-2-16-billion-162400685.html
@@ -190,11 +215,4 @@ id: E05-KO-7c5c6eb679-2026-10-22 · status: linha
 · GOOGL Countdown to Alphabet (GOOGL) Q3 Earnings: Wall Street Forecasts for Key Metrics (Yahoo Finance) https://news.google.com/rss/articles/CBMiowFBVV95cUxOWURST1VUYy1jU0NIYXBHa2VYbDF2ZXNDTlU2ZU9DN2tIcHRTemJaV3d6ZWlnME9lSnJlQkg1eDVqWjdXbEJiYnBrY1IwZ3BaSWNGQXNSam5KMmI0UU9uOGZYeWd1M2JJZlJHTEhMaWJpUlkxS3RrOFVCdGlBaWl4aE9HQ1V5Y0dNbTVOSVR5U25HU0VxS202ZVZnZXdwdzhDSTl3?oc=5
 · LITE Lumentum Holdings (LITE) Fell In The AI Optics Selloff, Is It Still Undervalued? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/lumentum-holdings-lite-fell-ai-130756133.html
 · VALE3 Agência de Comunicação - Cobre e níquel devem ampliar participação nos resultados da Vale (Estadao) https://bluestudio.estadao.com.br/agencia-de-comunicacao/agencia-minera-brasil/cobre-e-niquel-devem-ampliar-participacao-nos-resultados-da-vale/
-· INTC 4 stocks to watch on Friday: INTC, RITM, ETSY, and GM (SPX:) (Seeking Alpha) https://seekingalpha.com/news/4656537-4-stocks-to-watch-on-friday-intc-ritm-etsy-and-gm
-· USDBRL Dólar abre perto da estabilidade de olho em novas pesquisas eleitorais (CNN Brasil) https://www.cnnbrasil.com.br/economia/money/mercado/mercado-financeiro-ibovespa-dolar-23-outubro-2026/
-· TESOURO Taxas do Tesouro Direto recuam após IPCA-15 abaixo do esperado e empate no Datafolha (InfoMoney) https://www.infomoney.com.br/onde-investir/tesouro-direto-abertura-fechamento-23102026/
-· AMD Same Playbook, Different Silicon: Broadcom Holds the Throne, Marvell Plays the AMD Challenger. (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/same-playbook-different-silicon-broadcom-124558105.html
-· BBDC4 Bradesco vê pressão em inadimplência no mercado, mas está seguro com portfólio de crédito do banco, diz CEO (TradingView (Reuters)) https://br.tradingview.com/news/reuters.com,2026:newsml_L6N4690RB:0/
-· BBDC4 Para CEO do Bradesco, não há 'mérito' para ter engajamento alto no Desenrola 3.0 (Valor Economico) https://valor.globo.com/financas/noticia/2026/10/23/para-ceo-do-bradesco-nao-ha-merito-para-ter-engajamento-alto-no-desenrola-30.ghtml
-· AMZN Amazon Q3 Preview: CAPEX Spending In Focus, Shares Fairly Valued (NASDAQ:AMZN) (Seeking Alpha) https://seekingalpha.com/article/4956874-amazon-q3-preview-capex-spending-in-focus-shares-fairly-valued
-· (+21 manchetes; lista completa em eventos/noticias.json)
+· (+28 manchetes; lista completa em eventos/noticias.json)
