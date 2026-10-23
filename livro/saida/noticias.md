@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 23/10 18h16
+NOTÍCIAS E FATOS · 23/10 20h50
 
-Pernas: noticias ok 2 novas (18 consultas; descartadas: 474 veículo fora da lista, 41 sem ativo, 0 teto) · cvm ok 0 novos de 8 (4 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 12 novas (18 consultas; descartadas: 453 veículo fora da lista, 37 sem ativo, 10 teto) · cvm ok 0 novos de 8 (4 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (1)
 
@@ -42,7 +42,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: USDBRL
 Como falar: 'saiu no Money Times: Ibovespa fecha em alta com aposta de vitória de Flávio Bolsonaro; dólar encerra abaixo de…; confirmar o número no texto antes de repassar'
 Fonte: Money Times 23/10 17h38
-id: E05-USDBRL-69917e4181-2026-10-23 · status: pendente · íntegra disponível
+id: E05-USDBRL-69917e4181-2026-10-23 · status: expirado · íntegra disponível
 
 [ATENÇÃO] E05 · BBDC4 · Bradesco (BBDC4) tem lucro líquido recorrente de R$ 7,1 bi no 3T26, alta de 14,6%
 Suno Noticias · 23/10 10h00 · fonte única · licença: resumo
@@ -209,8 +209,20 @@ Fonte: Yahoo Finance 22/10 17h25
 id: E05-KO-7c5c6eb679-2026-10-22 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (125)
+## OUTRAS NOTÍCIAS (só manchete) (137)
 
+· AMZN Amazon cloud capacity sold out through 2027, CEO Jassy says (Reuters) https://www.reuters.com/business/retail-consumer/amazon-cloud-capacity-sold-out-through-2027-ceo-jassy-says-2026-10-23/
+· USDBRL Dólar fecha abaixo de R$ 5 e recua 1,58% na semana (Agencia Brasil) https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/dolar-fecha-abaixo-de-r-5-e-recua-158-na-semana
+· USDBRL Moedas Globais: dólar sobe por tensão em geopolítica e à espera de reunião do Fed (InfoMoney) https://www.infomoney.com.br/mercados/moedas-globais-dolar-sobe-por-tensao-em-geopolitica-e-a-espera-de-reuniao-do-fed/
+· TSLA Tesla Stock Lags Apple Because Of ‘Communications Problem,’ Says Investor Gary Black (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/tesla-stock-lags-apple-because-211156397.html
+· ITUB4 Petrobras sobe 18% em outubro e surpreende: por que o Itaú BBA ainda prefere a estatal? (Estadao) https://www.estadao.com.br/einvestidor/onde-investir/petrobras-sobe-18-em-outubro-e-surpreende-por-que-o-itau-bba-ainda-prefere-a-estatal/
+· BTC Bitcoin ‘Goes to Zero’ After a Hack, Chamath Palihapitiya Predicts (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-goes-zero-hack-chamath-205007801.html
+· CVX Chevron (CVX) Ascends While Market Falls: Some Facts to Note (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/chevron-cvx-ascends-while-market-204503008.html
+· BRENT Brent crude tops $116 as traders price escalating Middle East conflict (Yahoo Finance) https://finance.yahoo.com/markets/article/brent-crude-tops-116-as-traders-price-in-middle-east-escalation-192101547.html
+· NOK Nokia: Turning Bullish Despite The Free Cash Flow Scare (NYSE:NOK) (Seeking Alpha) https://seekingalpha.com/article/4957074-nokia-turning-bullish-despite-the-free-cash-flow-scare
+· INTC Intel Stocks Rise, Trade at 166.5% Above GF Value Ahead of Earnings (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:1e0603a03094b:0-intel-stocks-rise-trade-at-166-5-above-gf-value-ahead-of-earnings/
+· AMZN Amazon Stocks Edge Lower Ahead of Earnings After 37% AWS Revenue Growth (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/amazon-stocks-edge-lower-ahead-192507898.html
+· AMD AMD Stocks Gain as $620 Target Raises the Execution Bar (TradingView (Reuters)) https://news.google.com/rss/articles/CBMitAFBVV95cUxPXzhTcXZ2Wmk5dU81Vkh5aWNqN3VKVVdWU0dCTENwTEsxb3pZMEFuTTFLNndCZWpONWdrbDlWY2poRzJKVm5GandER0FyaHplRWJrenlLYnRCTXNXSTFCa3JYTGdNT3RwS0NMdFpxWFN6NXQ2c1FKNlRab0NTaHQ3N0xqLUdiRVBrZWJtaXoyVUtzV3JjcU5tTllFLWticFpSWlpfT0kxTW9aRXViaHV4cWRuZUg?oc=5
 · BTC Franklin Templeton to launch two 95% stock, 5% Bitcoin ETFs (TradingView (Reuters)) https://www.tradingview.com/news/cryptobriefing:60b5194d8094b:0-franklin-templeton-to-launch-two-95-stock-5-bitcoin-etfs/
 · BAC Bank of America Just Dropped 12% in a Month. Is It Time to Sell, or Load Up? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/bank-america-just-dropped-12-124701898.html
 · USDBRL Dólar cai 0,90% e fecha em R$ 4,993; Ibovespa sobe (Poder360) https://www.poder360.com.br/poder-economia/dolar-cai-090-e-fecha-em-r-4993-ibovespa-sobe/
@@ -259,16 +271,4 @@ id: E05-KO-7c5c6eb679-2026-10-22 · status: linha
 · BBDC4 Lucro do Grupo Bradesco Seguros cresce 18,2% no ano (O Globo) https://oglobo.globo.com/patrocinado/dino/noticia/2026/10/23/lucro-do-grupo-bradesco-seguros-cresce-182-no-ano-1.ghtml
 · PLTR Palantir Guided for $2.16 Billion in Revenue for Q3. Its Last 2 Quarters Suggest We Should Expect More. (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/palantir-guided-2-16-billion-162400685.html
 · NOK Nokia (HLSE:NOKIA) Stock Price Questions Q3 Earnings Margin Gains (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/nokia-hlse-nokia-stock-price-161112863.html
-· BBDC4 Independentemente de governo, se eu estivesse sentado lá manteria FGI/FGO, é ótimo programa, diz CEO do Bradesco (Valor Economico) https://valor.globo.com/financas/noticia/2026/10/23/independentemente-de-governo-se-eu-estivesse-sentado-la-manteria-fgifgo-e-otimo-programa-diz-ceo-do-bradesco.ghtml
-· NVDA NVIDIA Corporation (NVDA) stock price, news, quote and history (Yahoo Finance) https://sg.finance.yahoo.com/quote/NVDA/
-· USDBRL Dólar e Bolsa rondam estabilidade antes de eleições, em dia de IPCA-15 (UOL Economia) https://economia.uol.com.br/cotacoes/noticias/redacao/2026/10/23/dolar-bolsa-abre-hoje-23-de-outubro-de-2026.ghtm
-· INTC Not Intel. Not CoreWeave. This Underappreciated Nvidia-Backed Company Is Growing Artificial Intelligence (AI) Revenue by 123%. Here's Why It's a Buy… (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/not-intel-not-coreweave-underappreciated-145000623.html
-· USDBRL Dólar oscila e Bolsa sobe com Datafolha e inflação no radar antes do segundo turno (Folha de S.Paulo) https://www1.folha.uol.com.br/mercado/2026/10/dolar-oscila-perto-da-estabilidade-em-ultimo-pregao-antes-do-segundo-turno-com-datafolha-no-radar.shtml
-· BRENT Brent crude oil tops $116, a six-month high, as tensions swell in the Middle East (CNBC) https://www.cnbc.com/2026/10/23/oil-price-brent-wti-iran-war-saudi-arabia.html
-· TSLA Tesla Fell 3% as Musk Trims Capex, Delays Optimus Ramp for “The Biggest Product on Earth” (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/tesla-fell-3-musk-trims-064229504.html
-· AMD MU vs. AMD: Which Stock Is the Better Value Option? (Yahoo Finance) https://sg.finance.yahoo.com/news/mu-vs-amd-stock-better-144002841.html
-· BBDC4 Perdeu o fôlego? Bradesco (BBDC4) enfrenta pressão da inadimplência, mas CEO destaca carteira mais segura (Money Times) https://www.moneytimes.com.br/perdeu-o-folego-bradesco-bbdc4-enfrenta-pressao-da-inadimplencia-e-ve-desafios-no-cenario-macro-ceo-conta-como-quer-driblar-bdap/
-· PLTR Dan Ives Says Palantir and Snowflake Are Nearing the 'End of That Gap' Between AI CapEx and True Monetization, Warns Wall Street Is Underestimating T… (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:bf51bb28e094b:0-dan-ives-says-palantir-and-snowflake-are-nearing-the-end-of-that-gap-between-ai-capex-and-true-monetization-warns-wall-street-is-underestimating-tech-earnings-by-up-to-25/
-· CVX Chevron (CVX) Earnings Expected to Grow: What to Know Ahead of Next Week's Release (Yahoo Finance) https://ca.finance.yahoo.com/news/chevron-cvx-earnings-expected-grow-130004941.html
-· BTC Current price of Bitcoin for Oct. 23, 2026 (Fortune) https://fortune.com/article/price-of-bitcoin-10-23-2026/
-· (+65 manchetes; lista completa em eventos/noticias.json)
+· (+77 manchetes; lista completa em eventos/noticias.json)

@@ -1,4 +1,4 @@
-## Fechamento do livro · sex 23/10 · 18h13 BRT
+## Fechamento do livro · sex 23/10 · 20h50 BRT
 
 ---
 
@@ -26,8 +26,8 @@
 | Ativo | dia | explicação | grau |
 |---|---:|---|---|
 | **BBAS3** | +3,3% | descolou do setor (bancos +0,7% (mediana), DI F28 -3 bps; 2,7 p.p. da mediana); investigar antes de comentar | sem causa no dado |
-| **NOK** | +3,3% | notícia a conferir (Yahoo Finance): Nokia: 3 Key Takeaways for Long-Term Investors | notícia (conferir) |
-| **CVX** | +2,9% | acompanhou o Brent (+3,3%); notícia a conferir (Investing.com): Chevron stock may move 2.3% on earnings release By Investing.com | driver |
+| **NOK** | +3,3% | notícia a conferir (Seeking Alpha): Nokia: Turning Bullish Despite The Free Cash Flow Scare (NYSE:NOK) | notícia (conferir) |
+| **CVX** | +2,9% | acompanhou o Brent (+3,3%); notícia a conferir (Yahoo Finance): Chevron (CVX) Ascends While Market Falls: Some Facts to Note | driver |
 | **KO** | -2,8% | notícia a conferir (Yahoo Finance): Coca-Cola Consolidated, Inc. (COKE) Stock Price, News, Quote & History | notícia (conferir) |
 | **MU** | +2,5% | andou com o setor: semicondutores (eua) +1,7% (mediana), SOX +0,4%; notícia a conferir (Yahoo Finance): Stock Split Watch: Is Micron Next? | setorial |
 | **GFS** | +2,4% | andou com o setor: semicondutores (eua) +1,7% (mediana), SOX +0,4% | setorial |
@@ -188,8 +188,8 @@ Nomes completos: **QNTM** VanEck Quantum Computing UCITS ETF USD (Acc) · **QANT
 | **USDBRL** Dolar/Real | 4,9892 | **-1,0** | -1,6 | -3,4 | -2,1 | -0,8 | -7,6 | -8,9 | -12 |
 | **DXY** Indice Dolar DXY | 101,75 | **+0,1** | -0,1 | +0,6 | +0,3 | +3,3 | +2,8 | +3,5 | +8,7 |
 | **BRENT** Petroleo Brent | 116,91 | **+3,3** | +6,4 | +19 | +21 | +11 | +77 | +92 | +37 |
-| **BTC** Bitcoin _(parcial)_ | 81.336 | **0,0** | -0,2 | -3,6 | +27 | +5,0 | -26 | -7,1 | +33 |
-| **ETH** Ethereum _(parcial)_ | 2.399 | **+0,5** | -0,9 | -11 | +29 | +3,6 | -38 | -19 | -41 |
+| **BTC** Bitcoin _(parcial)_ | 81.051 | **-0,3** | -0,6 | -3,9 | +26 | +4,6 | -26 | -7,4 | +33 |
+| **ETH** Ethereum _(parcial)_ | 2.384 | **-0,1** | -1,5 | -11 | +28 | +3,0 | -38 | -20 | -42 |
 | **MINERIO** Minerio de ferro 62% Fe CFR China _(D-1, 22/10)_ | 90,73 | **-0,1** | +0,2 | -6,8 | -7,9 | -15 | -14 | -15 | -26 |
 
 **Brent em reais:** R$ 583,29 por barril (23/10) · dia +2,3% · 1 mês +15% · no ano +75% (Brent do 1º vencimento × dólar).
@@ -285,7 +285,7 @@ Nomes completos: **QNTM** VanEck Quantum Computing UCITS ETF USD (Acc) · **QANT
 
 ### Como ler
 
-**Relógios:** Yahoo 18h13 · DI ajuste D0 · Tesouro base 15/10 · UST CMT D0 · PTAX 23/10
+**Relógios:** Yahoo 20h50 · DI ajuste D0 · Tesouro base 15/10 · UST CMT D0 · PTAX 23/10
 **Lacunas:** Tesouro Direto parado na base 15/10 (fonte do Tesouro Transparente sem dado novo): fora da tabela e da inflação implícita; tesouro: falha: ValueError: cabecalho inesperado no CSV do Tesouro.
 **IUAA:** NAO e renda fixa ultracurta: cai ~6% a cada +100 bps na curva. Ler junto com UST 10y/30y. Caixa em dolar e o IB01.
 **Hipótese:** **EWY** iShares MSCI South Korea ETF · **MCHI** iShares MSCI China ETF — ETFs dos EUA, a confirmar.

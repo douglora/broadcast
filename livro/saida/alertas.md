@@ -1,4 +1,4 @@
-ALERTAS · eventos
+ALERTAS · Fechamento 18h
 
 (pendente de slot anterior) [ATENÇÃO] E05 · USDBRL · Ibovespa fecha em alta com aposta de vitória de Flávio Bolsonaro; dólar encerra abaixo de R$ 5
 Money Times · 23/10 17h38 · + Exame · licença: integral
@@ -17,8 +17,18 @@ Fonte: Money Times 23/10 17h38
 ids: E05-USDBRL-69917e4181-2026-10-23
 
 Info (só linha no Fechamento):
-· E05 BTC · Franklin Templeton to launch two 95% stock, 5% Bitcoin ETFs
-· E05 BAC · Bank of America Just Dropped 12% in a Month. Is It Time to Sell, or Load Up?
+· E05 AMZN · Amazon cloud capacity sold out through 2027, CEO Jassy says
+· E05 USDBRL · Dólar fecha abaixo de R$ 5 e recua 1,58% na semana
+· E05 USDBRL · Moedas Globais: dólar sobe por tensão em geopolítica e à espera de reunião do Fed
+· E05 TSLA · Tesla Stock Lags Apple Because Of ‘Communications Problem,’ Says Investor Gary Black
+· E05 ITUB4 · Petrobras sobe 18% em outubro e surpreende: por que o Itaú BBA ainda prefere a estatal?
+· E05 BTC · Bitcoin ‘Goes to Zero’ After a Hack, Chamath Palihapitiya Predicts
+· E05 CVX · Chevron (CVX) Ascends While Market Falls: Some Facts to Note
+· E05 BRENT · Brent crude tops $116 as traders price escalating Middle East conflict
+· E05 NOK · Nokia: Turning Bullish Despite The Free Cash Flow Scare (NYSE:NOK)
+· E05 INTC · Intel Stocks Rise, Trade at 166.5% Above GF Value Ahead of Earnings
+· E05 AMZN · Amazon Stocks Edge Lower Ahead of Earnings After 37% AWS Revenue Growth
+· E05 AMD · AMD Stocks Gain as $620 Target Raises the Execution Bar
 · T13 VIX cruzou 20: 20,2 (+6,0% no dia)
 · T04 RARA11 fechou na mínima da série de 68 sessões: R$ 11,48, -28% em 1m e - em 12m
 · T02 CNDX (iShares NASDAQ 100 UCITS ETF USD (Acc)) perdeu a MM50 e perdeu a MM100 pela 2ª sessão: US$ 1.673, ainda acima da MM200 (tendência longa preservada)
@@ -32,7 +42,7 @@ Alertas do dia (todos, com status):
 · linha     T02 CNDX — CNDX (iShares NASDAQ 100 UCITS ETF USD (Acc)) perdeu a MM50 e perdeu a MM100 pel
 · linha     T10 SMAL11 — SMAL11 no máximo de força relativa em 63 sessões contra IBOV: +25% vs +11% em 20
 · linha     T11 ITSA4 — ITSA4 descolou atrás de ITUB4: +9,4% vs +15% em 20 sessões (z -3,4 em 252 sessõe
-· pendente  E05 USDBRL — USDBRL · Ibovespa fecha em alta com aposta de vitória de Flávio Bolsonaro; dólar
+· expirado  E05 USDBRL — USDBRL · Ibovespa fecha em alta com aposta de vitória de Flávio Bolsonaro; dólar
 · linha     S01 SISTEMA — coleta do slot fechamento saiu incompleta: tesouro: falha: ValueError: cabecalho
 · entregue  E05 BBDC4 — BBDC4 · Bradesco (BBDC4) tem lucro líquido recorrente de R$ 7,1 bi no 3T26, alta
 · entregue  E05 BBDC4 — BBDC4 · Bradesco registra lucro recorrente de R$ 7,1 bilhões no 3T26
@@ -55,4 +65,4 @@ Alertas do dia (todos, com status):
 · linha     T07 CVX — CVX entrou em sobrecomprado: RSI14 77 a US$ 233,21
 · linha     T10 TSM — TSM no máximo de força relativa em 63 sessões contra SOX: -7,1% vs -15% em 20 se
 · linha     F03 BRENT — Brent sobe a US$ 116,91 (+3,3% no dia)
-· (+136 notícias só manchete, em noticias.md)
+· (+148 notícias só manchete, em noticias.md)

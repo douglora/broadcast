@@ -1,7 +1,7 @@
 BLOCO A
 ```
-FECHAMENTO DO LIVRO · sex 23/10 · 18h13 BRT
-Relógios: Yahoo 18h13 · DI ajuste D0 · Tesouro base
+FECHAMENTO DO LIVRO · sex 23/10 · 20h50 BRT
+Relógios: Yahoo 20h50 · DI ajuste D0 · Tesouro base
   15/10 · UST CMT D0 · PTAX 23/10
 
 ALERTAS DO DIA (27)
@@ -178,8 +178,8 @@ Macro
 USDBRL USD/BRL  4,9892 -1,0 -1,6 -3,4 -0,8 -7,6 -8,9
 DXY    DXY      101,75 +0,1 -0,1 +0,6 +3,3 +2,8 +3,5
 BRENT  Brent    116,91 +3,3 +6,4  +19  +11  +77  +92
-BTC*   BTC      81.336  0,0 -0,2 -3,6 +5,0  -26 -7,1
-ETH*   ETH       2.399 +0,5 -0,9  -11 +3,6  -38  -19
+BTC*   BTC      81.051 -0,3 -0,6 -3,9 +4,6  -26 -7,4
+ETH*   ETH       2.384 -0,1 -1,5  -11 +3,0  -38  -20
 MINER* Minerio   90,73 -0,1 +0,2 -6,8  -15  -14  -15
 ```
 UCITS por extenso: VWRA Vanguard FTSE All-World
