@@ -2,12 +2,17 @@ ALERTAS · intradia
 
 Nenhum alerta novo neste slot.
 Info (só linha no Fechamento):
-· E05 AMD · MU vs. AMD: Which Stock Is the Better Value Option?
-· E05 BBDC4 · Perdeu o fôlego? Bradesco (BBDC4) enfrenta pressão da inadimplência, mas CEO destaca carteira mais segura
-· E05 PLTR · Dan Ives Says Palantir and Snowflake Are Nearing the 'End of That Gap' Between AI CapEx and True Monetization, Warns Wall Street Is Underestimating T…
-· E05 CVX · Chevron (CVX) Earnings Expected to Grow: What to Know Ahead of Next Week's Release
-· E05 BTC · Current price of Bitcoin for Oct. 23, 2026
-· E05 AMZN · Is 3M (MMM) A Bargain Following Strong Q3 Results And Its AWS Expansion?
+· E05 MRVL · Marvell Technology Faces a Multi-Front War Against Taiwan’s Custom Silicon Ecosystem
+· E05 BBDC4 · Lucro do Grupo Bradesco Seguros cresce 18,2% no ano
+· E05 PLTR · Palantir Guided for $2.16 Billion in Revenue for Q3. Its Last 2 Quarters Suggest We Should Expect More.
+· E05 NOK · Nokia (HLSE:NOKIA) Stock Price Questions Q3 Earnings Margin Gains
+· E05 BBDC4 · Independentemente de governo, se eu estivesse sentado lá manteria FGI/FGO, é ótimo programa, diz CEO do Bradesco
+· E05 NVDA · NVIDIA Corporation (NVDA) stock price, news, quote and history
+· E05 USDBRL · Dólar e Bolsa rondam estabilidade antes de eleições, em dia de IPCA-15
+· E05 INTC · Not Intel. Not CoreWeave. This Underappreciated Nvidia-Backed Company Is Growing Artificial Intelligence (AI) Revenue by 123%. Here's Why It's a Buy…
+· E05 USDBRL · Dólar oscila e Bolsa sobe com Datafolha e inflação no radar antes do segundo turno
+· E05 BRENT · Brent crude oil tops $116, a six-month high, as tensions swell in the Middle East
+· E05 TSLA · Tesla Fell 3% as Musk Trims Capex, Delays Optimus Ramp for “The Biggest Product on Earth”
 · T13 VIX cruzou 20: 20,2 (+6,0% no dia)
 
 Suprimidos pelo teto (viram linha do Fechamento): T13-VIX-vix20-2026-10-23 (teto de atenção)
@@ -24,4 +29,4 @@ Alertas do dia (todos, com status):
 · entregue  E05 NVDA — NVDA · Key facts: SMCI raises Q1 guidance; Nokia, NVIDIA AI-RAN; ARC MGX demo
 · entregue  S01 SISTEMA — coleta do slot manha saiu incompleta: tesouro: falha: ValueError: cabecalho ines
 · linha     F03 BRENT — Brent sobe a US$ 117,04 (+3,4% no dia) (parcial, intradia)
-· (+79 notícias só manchete, em noticias.md)
+· (+90 notícias só manchete, em noticias.md)

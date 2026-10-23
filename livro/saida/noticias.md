@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 23/10 13h21
+NOTÍCIAS E FATOS · 23/10 14h22
 
-Pernas: noticias ok 6 novas (18 consultas; descartadas: 464 veículo fora da lista, 33 sem ativo, 0 teto) · cvm ok 0 novos de 7 (4 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 11 novas (18 consultas; descartadas: 464 veículo fora da lista, 42 sem ativo, 0 teto) · cvm ok 0 novos de 7 (4 cias casadas) · sec ok 0 novos em 3 dias
 
 ## NOTÍCIAS COM MATERIALIDADE (11)
 
@@ -135,8 +135,19 @@ Fonte: Yahoo Finance 22/10 17h25
 id: E05-KO-7c5c6eb679-2026-10-22 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (70)
+## OUTRAS NOTÍCIAS (só manchete) (81)
 
+· MRVL Marvell Technology Faces a Multi-Front War Against Taiwan’s Custom Silicon Ecosystem (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/marvell-technology-faces-multi-front-164503344.html
+· BBDC4 Lucro do Grupo Bradesco Seguros cresce 18,2% no ano (O Globo) https://oglobo.globo.com/patrocinado/dino/noticia/2026/10/23/lucro-do-grupo-bradesco-seguros-cresce-182-no-ano-1.ghtml
+· PLTR Palantir Guided for $2.16 Billion in Revenue for Q3. Its Last 2 Quarters Suggest We Should Expect More. (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/palantir-guided-2-16-billion-162400685.html
+· NOK Nokia (HLSE:NOKIA) Stock Price Questions Q3 Earnings Margin Gains (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/nokia-hlse-nokia-stock-price-161112863.html
+· BBDC4 Independentemente de governo, se eu estivesse sentado lá manteria FGI/FGO, é ótimo programa, diz CEO do Bradesco (Valor Economico) https://valor.globo.com/financas/noticia/2026/10/23/independentemente-de-governo-se-eu-estivesse-sentado-la-manteria-fgifgo-e-otimo-programa-diz-ceo-do-bradesco.ghtml
+· NVDA NVIDIA Corporation (NVDA) stock price, news, quote and history (Yahoo Finance) https://sg.finance.yahoo.com/quote/NVDA/
+· USDBRL Dólar e Bolsa rondam estabilidade antes de eleições, em dia de IPCA-15 (UOL Economia) https://economia.uol.com.br/cotacoes/noticias/redacao/2026/10/23/dolar-bolsa-abre-hoje-23-de-outubro-de-2026.ghtm
+· INTC Not Intel. Not CoreWeave. This Underappreciated Nvidia-Backed Company Is Growing Artificial Intelligence (AI) Revenue by 123%. Here's Why It's a Buy… (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/not-intel-not-coreweave-underappreciated-145000623.html
+· USDBRL Dólar oscila e Bolsa sobe com Datafolha e inflação no radar antes do segundo turno (Folha de S.Paulo) https://www1.folha.uol.com.br/mercado/2026/10/dolar-oscila-perto-da-estabilidade-em-ultimo-pregao-antes-do-segundo-turno-com-datafolha-no-radar.shtml
+· BRENT Brent crude oil tops $116, a six-month high, as tensions swell in the Middle East (CNBC) https://www.cnbc.com/2026/10/23/oil-price-brent-wti-iran-war-saudi-arabia.html
+· TSLA Tesla Fell 3% as Musk Trims Capex, Delays Optimus Ramp for “The Biggest Product on Earth” (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/tesla-fell-3-musk-trims-064229504.html
 · AMD MU vs. AMD: Which Stock Is the Better Value Option? (Yahoo Finance) https://sg.finance.yahoo.com/news/mu-vs-amd-stock-better-144002841.html
 · BBDC4 Perdeu o fôlego? Bradesco (BBDC4) enfrenta pressão da inadimplência, mas CEO destaca carteira mais segura (Money Times) https://www.moneytimes.com.br/perdeu-o-folego-bradesco-bbdc4-enfrenta-pressao-da-inadimplencia-e-ve-desafios-no-cenario-macro-ceo-conta-como-quer-driblar-bdap/
 · PLTR Dan Ives Says Palantir and Snowflake Are Nearing the 'End of That Gap' Between AI CapEx and True Monetization, Warns Wall Street Is Underestimating T… (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:bf51bb28e094b:0-dan-ives-says-palantir-and-snowflake-are-nearing-the-end-of-that-gap-between-ai-capex-and-true-monetization-warns-wall-street-is-underestimating-tech-earnings-by-up-to-25/
@@ -186,15 +197,4 @@ id: E05-KO-7c5c6eb679-2026-10-22 · status: linha
 · BBDC4 Bradesco vê pressão em inadimplência no mercado, mas está seguro com portfólio de crédito do banco, diz CEO (TradingView (Reuters)) https://br.tradingview.com/news/reuters.com,2026:newsml_L6N4690RB:0/
 · BBDC4 Para CEO do Bradesco, não há 'mérito' para ter engajamento alto no Desenrola 3.0 (Valor Economico) https://valor.globo.com/financas/noticia/2026/10/23/para-ceo-do-bradesco-nao-ha-merito-para-ter-engajamento-alto-no-desenrola-30.ghtml
 · AMZN Amazon Q3 Preview: CAPEX Spending In Focus, Shares Fairly Valued (NASDAQ:AMZN) (Seeking Alpha) https://seekingalpha.com/article/4956874-amazon-q3-preview-capex-spending-in-focus-shares-fairly-valued
-· USDBRL Dólar hoje tem leve alta após Datafolha indicar empate entre Lula e Flávio (InfoMoney) https://www.infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-23102026/
-· VALE3 Ações da Vale caem 12% em 2026: vale a pena investir na mineradora agora? (Exame) https://news.google.com/rss/articles/CBMiqAFBVV95cUxQS2lLeEFIZnhpQnFVTzFNc042dV9jMURkUFpFM3dUWDFoNUZzTVczaTg3T1doYVRNREloS1R6cWE2WE5FVnlMeXE2ZW00V0l5Z2RfbnhrTGVsRUh3WXZZQzN1b21MUncyc1pXc0dkQjc0X2VzT1JRUXZiR3UydG1OWmFFcjZsM19QM1d6cW1ZTWFfVG8ybnFJMm5aVTRobVV3aXJvSXB0X1A?oc=5
-· BBDC4 Bradesco (BBDC4), CSN (CSNA3), Embraer (EMBJ3) estão entre os destaques desta sexta-feira (23) na bolsa (Money Times) https://news.google.com/rss/articles/CBMiuAFBVV95cUxOVVIwQ2ZtSkhFN0JPWWtEUHBRckVpNnJuVHRCSDhoTnRVeVc3THNUNWU3ZEpnbkQtZldNUU43WlVSdzI2Ry02amNFOFFxX2czWGZJeGFscklBTlRxVHBNekNCd3VRRXNoXzZWWnlVVGtpdXRYaWdiTDNnREJfOTFoaXNEX2YyR01mRmtjU05YYzdZR0xac2pBenVKVHJrWExSQVVIRXpJMWFONlNjT0hTNWtGaEdmU0JC?oc=5
-· NVDA Two Critical Nvidia Stock Flaws and Other Reasons to Sell, Says Analyst (Barron's) https://news.google.com/rss/articles/CBMifkFVX3lxTE5SVktBZjJfVEV6cG1KNTRURUZ5MUNuSmFSeW5aeldtcWg4LWNkZC05TVVmRmhZYzhSWnNtbG81Vkt0ellCTWZ3dGRYMGptZ0xfZGdCTU8xY3lmR2tjNE80NE5MZ0l1R3M5M0xHV0k2THFIYk13QXlRRU5hSFdzZw?oc=5
-· INTC Intel in spotlight as Wedbush says tool installation at Az. fab should aid revenue growth (INTC:NASDAQ) (Seeking Alpha) https://news.google.com/rss/articles/CBMixAFBVV95cUxNdW1iSTdjbTV6a2gxVVNqNjdVN0ZaNmlBSWRaSkVPdm83VlVGdXZXVHpfV1J3RmhtUE5maVRaV0NRWEs4cE1Wc2g2bGhXdV94QWJxakhGa2VIdEh2X1J0ZkxhYmFaMkdFMWNlSV8teTRxOVNnZmZDdHItcEZJRVRZdE9mSFBhamhmd3hsYUhfSWo4QlhCOG1pZjV5S3FySjIxM0VWdjktVkwyS01UZEMzWnc3UG1HcWZwZXRLZmVRWl9sLXZH?oc=5
-· USDBRL Ibovespa futuro avança com IPCA-15 fraco no último pregão antes do 2º turno; dólar sobe (Money Times) https://news.google.com/rss/articles/CBMibEFVX3lxTE1hZEY0ZDNCU2lvUmdnMzF2V0FsLU93eHEwZ1lzaVJ0TjEzZzNjbkJ0OVVnYkxaRkhsNnVaWjBURjRwdDJySzAzOTZjbTZPc3ZpWXdJMTRfbk5Mc3hVNnRSM3psYVpIN3dON0ZEMA?oc=5
-· JPM Norwegian Cruise Line cut to Underweight by JPMorgan ahead of earnings (Investing.com) https://www.investing.com/news/stock-market-news/norwegian-cruise-line-cut-to-underweight-by-jpmorgan-ahead-of-earnings-4969051
-· BRENT Dow Jones hoje cai com petróleo em alta e temores sobre inteligência artificial (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/dow-jones-hoje-cai-com-petroleo-em-alta-e-temores-sobre-inteligencia-artificial/
-· ETH Current price of Ethereum for Oct. 23, 2026 (Fortune) https://fortune.com/article/price-of-ethereum-10-23-2026/
-· USDBRL Dólar neozelandês sobe com aposta de 85% em alta dos juros na Nova Zelândia (ADVFN) https://br.advfn.com/jornal/2026/10/dolar-neozelandes-sobe-alta-juros-rbnz
-· META Is Meta Platforms Stock a Buy as Revenue Continues to Soar? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/meta-platforms-stock-buy-revenue-110100050.html
-· (+10 manchetes; lista completa em eventos/noticias.json)
+· (+21 manchetes; lista completa em eventos/noticias.json)
