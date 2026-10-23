@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 22/10 20h57
+NOTÍCIAS E FATOS · 23/10 08h33
 
-Pernas: noticias ok 18 novas (18 consultas; descartadas: 438 veículo fora da lista, 30 sem ativo, 9 teto) · cvm ok 1 novos de 9 (5 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 21 novas (18 consultas; descartadas: 440 veículo fora da lista, 40 sem ativo, 34 teto) · cvm ok 0 novos de 7 (4 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (3)
 
@@ -74,7 +74,71 @@ Fonte: SEC EDGAR 2026-10-22
 id: E04-TSM-26000728-2026-10-22 · status: linha · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (16)
+## NOTÍCIAS COM MATERIALIDADE (22)
+
+[ATENÇÃO] E05 · BBDC4 · ADRs do Bradesco caem em NY após balanço do 3º tri e recompra de ações
+UOL Economia · 23/10 07h26 · fonte única · licença: manchete
+Link: https://economia.uol.com.br/cotacoes/noticias/redacao/2026/10/23/adrs-do-bradesco-caem-em-ny-apos-balanco-do-3-tri-e-recompra-de-acoes.ghtm
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: BBDC4
+Como falar: 'saiu no UOL Economia: ADRs do Bradesco caem em NY após balanço do 3º tri e recompra de ações; confirmar o número no texto antes de repassar'
+Fonte: UOL Economia 23/10 07h26
+id: E05-BBDC4-e6d63bb835-2026-10-23 · status: pendente
+
+[ATENÇÃO] E05 · BBDC4 · Bradesco (BBDC3; BBDC4) aprova recompra de ações
+InfoMoney · 23/10 07h00 · + UOL Economia · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – O banco afirmou que vai recomprar até 53.413.506 ações ordinárias e até 53.171.375 papeis preferenciais.
+  – A ação ordinária do Bradesco encerrou nesta quinta-feira cotada a R$17,91, em queda de 1,97% na sessão, e a preferencial fechou a R$20,22, baixa de 2,08%.
+Link: https://www.infomoney.com.br/mercados/bradesco-bbdc3-bbdc4-aprova-recompra-de-acoes/
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: BBDC4
+Como falar: 'saiu no InfoMoney: Bradesco (BBDC3; BBDC4) aprova recompra de ações; confirmar o número no texto antes de repassar'
+Fonte: InfoMoney 23/10 07h00
+id: E05-BBDC4-feaffcd2b7-2026-10-23 · status: pendente
+
+[ATENÇÃO] E05 · NVDA · Key facts: SMCI raises Q1 guidance; Nokia, NVIDIA AI-RAN; ARC MGX demo
+TradingView (Reuters) · 23/10 04h00 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/tradingview:26e9d47d847db:0-key-facts-smci-raises-q1-guidance-nokia-nvidia-ai-ran-arc-mgx-demo/
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: NVDA · NOK
+Como falar: 'saiu no TradingView (Reuters): Key facts: SMCI raises Q1 guidance; Nokia, NVIDIA AI-RAN; ARC MGX demo; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 23/10 04h00
+id: E05-NVDA-4b92c26630-2026-10-23 · status: pendente
+
+[ATENÇÃO] E05 · BBDC4 · Lucro do Bradesco salta para R$ 7,1 bilhões no 3T26 com avanço do crédito; veja o balanço
+Estadao · 22/10 18h38 · fonte única · licença: manchete
+Link: https://www.estadao.com.br/em-alta/einvestidor/cenarios-e-mercado/lucro-do-bradesco-dispara-para-r-71-bilhoes-no-3t26-com-avanco-do-credito-confira-o-balanco/
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: BBDC4
+Como falar: 'saiu no Estadao: Lucro do Bradesco salta para R$ 7,1 bilhões no 3T26 com avanço do crédito; veja o balanço; confirmar o número no texto antes de repassar'
+Fonte: Estadao 22/10 18h38
+id: E05-BBDC4-1ce29ea2ff-2026-10-22 · status: linha
+
+[ATENÇÃO] E05 · BBDC4 · Bradesco tem lucro líquido de R$7,1 bi no 3º tri, em linha com esperado Por Reuters
+Investing.com · 22/10 18h18 · fonte única · licença: manchete
+Link: https://br.investing.com/news/stock-market-news/bradesco-tem-lucro-liquido-de-r71-bi-no-3o-tri-em-linha-com-esperado-2100455
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: BBDC4
+Como falar: 'saiu no Investing.com: Bradesco tem lucro líquido de R$7,1 bi no 3º tri, em linha com esperado Por Reuters; confirmar o número no texto antes de repassar'
+Fonte: Investing.com 22/10 18h18
+id: E05-BBDC4-4608c4c854-2026-10-22 · status: linha
+
+[ATENÇÃO] E05 · KO · Coca-Cola Joins Costco in the $400 Billion Club. I Predict Only 1 of These Dividend Stocks Will Surpass $1 Trillion by 2036.
+Yahoo Finance · 22/10 17h25 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Thanks to KO stock's year-to-date 34% rally to record highs, the beverage behemoth's market cap has just eclipsed the $400 billion mark, moving within sight of Costco's $440 billion.
+  – Coca-Cola is simply extending a long-lived growth trend that puts it on track to eventually join the $1 trillion club.
+  – Only one of these dividend payers has a realistic shot at getting there within the next 10 years, however.
+  – In 2009, a "Double Down" signal flashed for a little-known chipmaker called Nvidia.
+  – For the first time in years, that same "Total Conviction" signal is flashing for a company 1/100th the size of Nvidia.
+  – Its stock is also an income juggernaut, not only paying a quarterly dividend like clockwork for decades now, but raising its dividend payment for 64 consecutive years.
+Link: https://finance.yahoo.com/markets/stocks/articles/coca-cola-joins-costco-400-202500326.html
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: KO
+Como falar: 'saiu no Yahoo Finance: Coca-Cola Joins Costco in the $400 Billion Club. I Predict Only 1 of These Dividend Stock…; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 22/10 17h25
+id: E05-KO-7c5c6eb679-2026-10-22 · status: linha
 
 [ATENÇÃO] E05 · BBDC4 · Lucro do Bradesco dispara para R$ 7,1 bilhões no 3T26 com avanço do crédito; confira o balanço
 Estadao · 22/10 18h28 · fonte única · licença: manchete
@@ -119,7 +183,7 @@ Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; 
 Ativos: BBDC4
 Como falar: 'saiu no TradingView (Reuters): Bradesco tem lucro líquido de R$7,1 bi no 3º tri, em linha com esperado; confirmar o número no texto antes de repassar'
 Fonte: TradingView (Reuters) 22/10 18h01
-id: E05-BBDC4-41c002e4e6-2026-10-22 · status: pendente
+id: E05-BBDC4-41c002e4e6-2026-10-22 · status: expirado
 
 [ATENÇÃO] E05 · BBDC4 · Lucro do Bradesco (BBDC4) avança a R$ 7,1 bilhões no 3T26, em linha com as expectativas
 Money Times · 22/10 18h04 · + Seu Dinheiro · licença: integral
@@ -135,7 +199,7 @@ Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; 
 Ativos: BBDC4
 Como falar: 'saiu no Money Times: Lucro do Bradesco (BBDC4) avança a R$ 7,1 bilhões no 3T26, em linha com as expectativas; confirmar o número no texto antes de repassar'
 Fonte: Money Times 22/10 18h04
-id: E05-BBDC4-1bed502114-2026-10-22 · status: expirado · íntegra disponível
+id: E05-BBDC4-1bed502114-2026-10-22 · status: entregue · íntegra disponível
 
 [ATENÇÃO] E05 · BBDC4 · Bradesco (BBDC4) tem lucro líquido recorrente de R$ 7,1 bi no 3º trimestre de 2026
 InfoMoney · 22/10 18h02 · fonte única · licença: resumo
@@ -150,7 +214,7 @@ Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; 
 Ativos: BBDC4
 Como falar: 'saiu no InfoMoney: Bradesco (BBDC4) tem lucro líquido recorrente de R$ 7,1 bi no 3º trimestre de 2026; confirmar o número no texto antes de repassar'
 Fonte: InfoMoney 22/10 18h02
-id: E05-BBDC4-b18bf23339-2026-10-22 · status: expirado
+id: E05-BBDC4-b18bf23339-2026-10-22 · status: entregue
 
 [ATENÇÃO] E05 · NOK · Nokia Sinks 9% on Q3 Beat as It Holds Outlook, Cuts Cash Flow View: “Growth Is Accelerating”
 Yahoo Finance · 22/10 14h38 · fonte única · licença: resumo
@@ -290,8 +354,23 @@ Fonte: Investing.com 21/10 20h07
 id: E05-TSLA-594bd31921-2026-10-21 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (151)
+## OUTRAS NOTÍCIAS (só manchete) (166)
 
+· JPM Norwegian Cruise Line cut to Underweight by JPMorgan ahead of earnings (Investing.com) https://www.investing.com/news/stock-market-news/norwegian-cruise-line-cut-to-underweight-by-jpmorgan-ahead-of-earnings-4969051
+· BRENT Dow Jones hoje cai com petróleo em alta e temores sobre inteligência artificial (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/dow-jones-hoje-cai-com-petroleo-em-alta-e-temores-sobre-inteligencia-artificial/
+· ETH Current price of Ethereum for Oct. 23, 2026 (Fortune) https://fortune.com/article/price-of-ethereum-10-23-2026/
+· USDBRL Dólar neozelandês sobe com aposta de 85% em alta dos juros na Nova Zelândia (ADVFN) https://br.advfn.com/jornal/2026/10/dolar-neozelandes-sobe-alta-juros-rbnz
+· META Is Meta Platforms Stock a Buy as Revenue Continues to Soar? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/meta-platforms-stock-buy-revenue-110100050.html
+· USDBRL Último pregão antes das eleições tem digestão do Datafolha e IPCA-15; Ibovespa em dólar cai nesta sexta-feira (23) (Money Times) https://www.moneytimes.com.br/ultimo-pregao-antes-das-eleicoes-tem-digestao-do-datafolha-e-ipca-15-ibovespa-em-dolar-cai-nesta-sexta-feira-23-rens/
+· TSLA Big Tech's capex spending looks different this year as Meta and Tesla save for later (Yahoo Finance) https://finance.yahoo.com/technology/article/big-techs-capex-spending-looks-different-this-year-as-meta-and-tesla-save-for-later-100000383.html
+· TSLA How Elon Musk went from Tesla CEO to the 'most powerful civilian, non-governmental actor in history' (Yahoo Finance) https://finance.yahoo.com/technology/article/how-elon-musk-went-from-tesla-ceo-to-the-most-powerful-civilian-non-governmental-actor-in-history-100000227.html
+· TSLA AI stock bears probably just missed this point on Tesla in their run for the exits (Yahoo Finance) https://finance.yahoo.com/technology/ai/article/ai-stock-bears-probably-just-missed-this-point-on-tesla-in-their-run-for-the-exits-095101368.html
+· MU Better Memory Stock: SK Hynix vs. Micron (Yahoo Finance) https://news.google.com/rss/articles/CBMimAFBVV95cUxOVkRJSXlCM0lMRlJqZlRrMEFESi1WTWN5dVlxYzVGLUxzMXNHdXZISWhPUlRGcWVTbkx0d0tRcXBZVnZVanJqa1ZjVXZHdE5fNFlnSklnNExlREQxeGNab3IxX3MzZ3k5NkIxYmdGQWQxR1pkd0hDbWNlVV8yYTlhWHcxY2NtY3dYak1tdENVdHJJZnE0Vmozdg?oc=5
+· UST Treasury yields rise as traders await more economic data ahead of Fed decision (CNBC) https://news.google.com/rss/articles/CBMib0FVX3lxTE9fUFhkR0R0cmxYeWNRb2Y2LXEyNUlGQnozcWxNUW1jaWRDcUdpYnBTWVZGR3p4OWwydEdicWRMMEozdXpxUl9td1V6SVVZM2JOT25hOWU3TUFLU1h4aHk0VC1VcjQ2bkhyMGJSVzduZ9IBdEFVX3lxTE1KUjZzM3JxQnUxN2Y0LVlocU52STl2ZUIwSlNOMFNnY3hyUlJ5TGJpZjJlc3VRaS1LdDh1ZlNvSDNCYWlmdnpIMHk4ZWFTT1E3UmplVjAwRm5MNnM5V2FsSWVpZ0Z3aWVhMjNVeWhrX1lRWWtk?oc=5
+· BTC CZ Says AI Won’t Break Bitcoin, but Leaked Data Will Hurt Its Users: Can BTC Turn the $81,000 Floor Into a Bounce? (Yahoo Finance) https://news.google.com/rss/articles/CBMiiAFBVV95cUxPMWlubUtjajM4bENiMkthb2lBLTlGWHNxWkJBOTJYNTZTY3BGN3Zka2xINUhRQk0zbWVNUHZPZE1Pb0I3empER2RFdXRSU3FZaFBIdkZqTjUzTDQ2TTZ2TFVsdEpRNFpLWmxMQ1dJaEZPamNSeWZaMnRBeGFNMVZUdFA3SXVqQzFT?oc=5
+· BTC BlackRock (BLK) Files Bitcoin Protection ETF And Launches Active Robotics Fund (Yahoo Finance) https://news.google.com/rss/articles/CBMipgFBVV95cUxQYXVZQzFiZDdoWVVQZ0hSZXRjNUJia19kZnJRajI3dkVTaDYxek9PYkl0a1VPc3hpaUZmaEpTR2IzV0xMeHZQWEYtTlY4MXJIRDlUM05qV1FzS1V3R2UxYzV6R0VvVGdvLVphVnZFeUxCWFY4RlRlVDExNjlibWhOVU95TW81YTd5VzhOVDRCZXM1UlZ0SThndkN6MlJKN1ZCc3R1SVJR?oc=5
+· TSLA SpaceX CEO Elon Musk's Approval Required in Potential Merger With Tesla (Yahoo Finance) https://news.google.com/rss/articles/CBMilAFBVV95cUxOamRMMEFVNlo2WFZyQ2ZpRE1tSEx3YkhaY1BjcjFHdV9MLTJCY1VjejBiWTVPLUxpXzYtcTJHbHVsZVZTR2w0UURzXy0zUUVEbkM1dkxEaU1mYjdQQXRMR01DSVNQVmRyYmRkRlZBNGhUUGRIcGRhbTFqYXB6djJFb2VJeUJoTjJKRFlyNm5pZU9wb2ZU?oc=5
+· PETR4 Ex-diretores apostam em venda de ativos da Petrobras com Flávio no Planalto (UOL Economia) https://news.google.com/rss/articles/CBMi0gFBVV95cUxPX25fXzVwcGU1ZjlJY0ktb2pCcEZfYWVaRmM4SENtbVlwSlBSZWJVd3FmTGZUbjVFVUVaSm1ULUNPU3pQZ1ZkbUlfTDhjeks2UURMbXVobG80a0VSMFdRUkRMRFI5T2x3WWgtWnB6eG1xVlIyWjNRMmZoTE9yRkFka01RckU4RTJtZFJEQlFlWDZDbW5pWDBUWUttdFljSFFFNy1LMFowSUZESWZsdmU2QXBtRWJHZTJFVG9JbG5weHd3YXUzc3lzcFRjdG5Vdkt4Y3c?oc=5
 · BBDC4 Macro pesa e Bradesco perde fôlego no 3º tri (Brazil Journal) https://braziljournal.com/macro-pesa-e-bradesco-perde-folego-no-3-tri
 · BBDC4 Bradesco lucra R$ 7,1 bilhões e ROE atinge 16,1% (NeoFeed) https://neofeed.com.br/negocios/bradesco-lucra-r-71-bilhoes-e-roe-atinge-161/
 · VALE3 Ibovespa cai com Vale e dólar sobe em dia de aversão ao risco e cautela eleitoral (TradingView (Reuters)) https://br.tradingview.com/news/reuters.com,2026:newsml_L1N4681GV:0/
@@ -337,19 +416,4 @@ id: E05-TSLA-594bd31921-2026-10-21 · status: linha
 · BTC Bitcoin Price Prediction: Rally Poised to Continue as BTC ETFs Bag $1 Billion (Yahoo Finance) https://au.finance.yahoo.com/news/bitcoin-price-prediction-rally-poised-142947172.html
 · AVGO Snowflake vs. Broadcom: Which Enterprise AI Stock Is the Smarter Buy? (TradingView (Reuters)) https://www.tradingview.com/news/zacks:ca8afb9e2094b:0-snowflake-vs-broadcom-which-enterprise-ai-stock-is-the-smarter-buy/
 · BBDC4 Bradesco continua líder no ranking de reclamações no 3º tri de 2026 (Poder360) https://www.poder360.com.br/poder-economia/bradesco-continua-lider-no-ranking-de-reclamacoes-no-3o-tri-de-2026/
-· GOOGL Alphabet Stocks Slip 2.5% as Vera Rubin Cloud Scale Nears (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:eefb65458094b:0-alphabet-stocks-slip-2-5-as-vera-rubin-cloud-scale-nears/
-· JPM How Much of Your Portfolio Should Be in Bitcoin After JPMorgan’s 10% Forecast? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/much-portfolio-bitcoin-jpmorgan-10-183046168.html
-· AMD AMD Stocks Drop 7.53% as AI Spending Fears Challenge a $620 Target (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:659bc3bf4094b:0-amd-stocks-drop-7-53-as-ai-spending-fears-challenge-a-620-target/
-· NOK What Is Nokia (HLSE:NOKIA) Building With Its New Push Into Agentic AI? (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/nokia-hlse-nokia-building-push-181225190.html
-· EQTL3 Equatorial troca postes atingidos durante acidente no Setor Perim (g1) https://g1.globo.com/go/goias/videos-ja-1-edicao/video/equatorial-troca-postes-atingidos-durante-acidente-no-setor-perim-15113261.ghtml
-· MU Micron Rolls Out Quarterly Profit-Linked Bonuses (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:f8c9959f0094b:0-micron-rolls-out-quarterly-profit-linked-bonuses/
-· AMD I Think AMD’s Potential Is Actively Being Underestimated So I Keep Betting On It (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/think-amd-potential-actively-being-124559116.html
-· MCHI China Stocks Set for Bear Market as AI Trade, Policy Hopes Fade (Bloomberg) https://www.bloomberg.com/news/articles/2026-10-22/china-stocks-set-for-bear-market-as-ai-trade-policy-hopes-fade
-· UST Mortgage rates decline for first time in about two months as Treasury yields fall (XLRE:NYSEARCA) (Seeking Alpha) https://seekingalpha.com/news/4656053-mortgage-rates-decline-for-first-time-in-about-two-months-as-treasury-yields-fall
-· INTC Intel stock may move 8.3% on Oct. 29 earnings report (Investing.com) https://www.investing.com/news/stock-market-news/intel-stock-may-move-83-on-oct-29-earnings-report-93CH-4966674
-· TSLA TSX futures point lower following Meta, Tesla earnings (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/tsx-futures-point-lower-following-123414655.html
-· AVGO Broadcom’s Hock Tan Says AI’s Next Bottleneck Isn’t Chips, Power, or Memory. It’s Not a Tech Problem at All. (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/broadcom-hock-tan-says-ai-110333011.html
-· BTC Bitcoin gets $1 billion in ETF inflows, yet can't crack $84,000: what's wrong? (TradingView (Reuters)) https://es.tradingview.com/news/invezz:bbc529cad094b:0-bitcoin-gets-1-billion-in-etf-inflows-yet-can-t-crack-84-000-what-s-wrong/
-· NOK Nokia Oyj 2026 Q3 - Results - Earnings Call Presentation (NYSE:NOK) 2026-10-22 (Seeking Alpha) https://seekingalpha.com/article/4956535-nokia-oyj-2026-q3-results-earnings-call-presentation
-· INTC Intel Stock Tumbles Ahead of Q3 Earnings (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/intel-stock-tumbles-ahead-q3-161912152.html
-· (+91 manchetes; lista completa em eventos/noticias.json)
+· (+106 manchetes; lista completa em eventos/noticias.json)
