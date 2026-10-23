@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 23/10 18h13
+NOTÍCIAS E FATOS · 23/10 18h16
 
-Pernas: noticias ok 13 novas (18 consultas; descartadas: 478 veículo fora da lista, 42 sem ativo, 2 teto) · cvm ok 0 novos de 8 (4 cias casadas) · sec ok 1 novos em 3 dias
+Pernas: noticias ok 2 novas (18 consultas; descartadas: 474 veículo fora da lista, 41 sem ativo, 0 teto) · cvm ok 0 novos de 8 (4 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (1)
 
@@ -209,8 +209,10 @@ Fonte: Yahoo Finance 22/10 17h25
 id: E05-KO-7c5c6eb679-2026-10-22 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (123)
+## OUTRAS NOTÍCIAS (só manchete) (125)
 
+· BTC Franklin Templeton to launch two 95% stock, 5% Bitcoin ETFs (TradingView (Reuters)) https://www.tradingview.com/news/cryptobriefing:60b5194d8094b:0-franklin-templeton-to-launch-two-95-stock-5-bitcoin-etfs/
+· BAC Bank of America Just Dropped 12% in a Month. Is It Time to Sell, or Load Up? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/bank-america-just-dropped-12-124701898.html
 · USDBRL Dólar cai 0,90% e fecha em R$ 4,993; Ibovespa sobe (Poder360) https://www.poder360.com.br/poder-economia/dolar-cai-090-e-fecha-em-r-4993-ibovespa-sobe/
 · USDBRL Dólar cai com maior apetite ao risco antes do segundo turno das eleições presidenciais (ADVFN) https://br.advfn.com/jornal/2026/10/dolar-cai-com-maior-apetite-ao-risco-antes-do-segundo-turno-das-eleicoes-presidenciais
 · TSLA Musk: Optimus and Cybercab “Will Be the Vast Majority of Tesla’s Value” as Earnings Loom (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/musk-optimus-cybercab-vast-majority-200502045.html
@@ -269,6 +271,4 @@ id: E05-KO-7c5c6eb679-2026-10-22 · status: linha
 · PLTR Dan Ives Says Palantir and Snowflake Are Nearing the 'End of That Gap' Between AI CapEx and True Monetization, Warns Wall Street Is Underestimating T… (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:bf51bb28e094b:0-dan-ives-says-palantir-and-snowflake-are-nearing-the-end-of-that-gap-between-ai-capex-and-true-monetization-warns-wall-street-is-underestimating-tech-earnings-by-up-to-25/
 · CVX Chevron (CVX) Earnings Expected to Grow: What to Know Ahead of Next Week's Release (Yahoo Finance) https://ca.finance.yahoo.com/news/chevron-cvx-earnings-expected-grow-130004941.html
 · BTC Current price of Bitcoin for Oct. 23, 2026 (Fortune) https://fortune.com/article/price-of-bitcoin-10-23-2026/
-· AMZN Is 3M (MMM) A Bargain Following Strong Q3 Results And Its AWS Expansion? (Yahoo Finance) https://finance.yahoo.com/news/3m-mmm-bargain-following-strong-231803118.html
-· BBDC4 Ações do Bradesco caem após balanço; veja os 4 pontos que preocupam os analistas (Exame) https://exame.com/invest/mercados/acoes-do-bradesco-caem-apos-balanco-veja-os-4-pontos-que-preocupam-os-analistas/
-· (+63 manchetes; lista completa em eventos/noticias.json)
+· (+65 manchetes; lista completa em eventos/noticias.json)
