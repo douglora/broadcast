@@ -1,20 +1,20 @@
 {
  "pregao": "2026-10-22",
- "situacao": "publicando",
+ "situacao": "publicado",
  "errata": false,
- "atualizado_em": "2026-10-23T02:12:45.813",
+ "atualizado_em": "2026-10-23T00:00:00",
  "completo": {
-  "arquivo": "",
-  "pdf": ""
+  "arquivo": "BDI_00_20261022.pdf",
+  "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-10-22/BDI_00_20261022.pdf"
  },
  "cadernos": [
   {
    "id": 1,
    "nome": "Renda fixa",
    "pai": null,
-   "situacao": "publicando",
+   "situacao": "publicado",
    "errata": false,
-   "atualizado_em": "2026-10-23T01:12:59.753",
+   "atualizado_em": "2026-10-23T08:07:11.3",
    "arquivo": "",
    "pdf": ""
   },
@@ -34,7 +34,7 @@
    "pai": 20,
    "situacao": "publicado",
    "errata": false,
-   "atualizado_em": "2026-10-23T02:11:57.707",
+   "atualizado_em": "2026-10-23T08:42:30.563",
    "arquivo": "",
    "pdf": ""
   },
@@ -43,8 +43,8 @@
    "nome": "Indicadores e informativos",
    "pai": 20,
    "situacao": "republicado",
-   "errata": false,
-   "atualizado_em": "2026-10-23T02:15:38.08",
+   "errata": true,
+   "atualizado_em": "2026-10-23T08:43:46.517",
    "arquivo": "BDI_02_20261022.pdf",
    "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-10-22/BDI_02_20261022.pdf"
   },
@@ -72,21 +72,21 @@
    "id": 33,
    "nome": "Derivativos de balcão",
    "pai": 3,
-   "situacao": "publicando",
+   "situacao": "publicado",
    "errata": false,
-   "atualizado_em": "2026-10-23T01:02:36.4",
-   "arquivo": "",
-   "pdf": ""
+   "atualizado_em": "2026-10-22T00:00:00",
+   "arquivo": "BDI_03-3_20261021.pdf",
+   "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-10-22/BDI_03-3_20261021.pdf"
   },
   {
    "id": 34,
    "nome": "Derivativos de bolsa",
    "pai": 3,
-   "situacao": "publicando",
+   "situacao": "publicado",
    "errata": false,
-   "atualizado_em": "2026-10-23T01:23:57.7",
-   "arquivo": "",
-   "pdf": ""
+   "atualizado_em": "2026-10-23T00:00:00",
+   "arquivo": "BDI_03-3_20261021.pdf",
+   "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-10-22/BDI_03-3_20261021.pdf"
   },
   {
    "id": 41,
@@ -104,7 +104,7 @@
    "pai": 4,
    "situacao": "republicado",
    "errata": false,
-   "atualizado_em": "2026-10-23T01:25:38.093",
+   "atualizado_em": "2026-10-23T03:35:38.093",
    "arquivo": "BDI_04-2_20261022.pdf",
    "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-10-22/BDI_04-2_20261022.pdf"
   },
