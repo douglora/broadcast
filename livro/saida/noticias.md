@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 23/10 14h49
+NOTÍCIAS E FATOS · 23/10 15h21
 
-Pernas: noticias ok 9 novas (18 consultas; descartadas: 464 veículo fora da lista, 43 sem ativo, 0 teto) · cvm ok 0 novos de 7 (4 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 7 novas (18 consultas; descartadas: 470 veículo fora da lista, 42 sem ativo, 0 teto) · cvm ok 0 novos de 7 (4 cias casadas) · sec ok 0 novos em 3 dias
 
 ## NOTÍCIAS COM MATERIALIDADE (13)
 
@@ -153,8 +153,15 @@ Fonte: Yahoo Finance 22/10 17h25
 id: E05-KO-7c5c6eb679-2026-10-22 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (88)
+## OUTRAS NOTÍCIAS (só manchete) (95)
 
+· SAPR4 O que os novos governadores mudam nos dividendos de Cemig, Sanepar e Banrisul? (InfoMoney) https://www.infomoney.com.br/onde-investir/o-que-os-novos-governadores-mudam-nos-dividendos-de-cemig-sanepar-e-banrisul/
+· PLTR Should You 'Buy' or 'Sell' Palantir Stock Ahead of Earnings? (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:a43edbaba094b:0-should-you-buy-or-sell-palantir-stock-ahead-of-earnings/
+· PETR4 Conselho da Petrobras deve discutir preço do diesel depois do segundo turno, dizem fontes (Valor Economico) https://valor.globo.com/google/amp/empresas/noticia/2026/10/23/conselho-da-petrobras-deve-discutir-preo-do-diesel-depois-do-segundo-turno-dizem-fontes.ghtml
+· MU Micron (MU) is an Incredible Growth Stock: 3 Reasons Why (Yahoo Finance) https://ca.finance.yahoo.com/news/micron-mu-incredible-growth-stock-154501386.html
+· BTC Whale's Insight: Bitcoin Holds $80K - What Could Spark A Breakout? (Seeking Alpha) https://seekingalpha.com/article/4957006-whale-insight-bitcoin-holds-80k-what-could-spark-breakout
+· BTC Bitcoin Billionaires Are Racing to Ride a 3,000% Crypto Boom (Bloomberg) https://www.bloomberg.com/news/articles/2026-10-23/bitcoin-billionaires-are-racing-to-ride-a-3-000-crypto-boom
+· NOK Nokia Oyj (NOK) (Q3 2026) Earnings Call Highlights: AI and Cloud Sales Surge 123% as Operating ... By GuruFocus (Investing.com) https://ca.investing.com/news/company-news/nokia-oyj-nok-q3-2026-earnings-call-highlights-ai-and-cloud-sales-surge-123-as-operating--4898322
 · BBDC4 Bradesco cresce lucro sob ventos contrários, mas inadimplência limita recuperação estrutural (Estadao) https://www.estadao.com.br/em-alta/economia/negocios/bradesco-cresce-lucro-inadimplencia-limita-recuperacao-estrutural/
 · CVX Chevron vs. ExxonMobil: Which Stock Has the Edge at 52-Week Highs? (TradingView (Reuters)) https://www.tradingview.com/news/zacks:b6eebed77094b:0-chevron-vs-exxonmobil-which-stock-has-the-edge-at-52-week-highs/
 · NVDA Can Apple Top Nvidia? iPhone Duo and Nov. 2 Earnings Hold the Key (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:64bd340db094b:0-can-apple-top-nvidia-iphone-duo-and-nov-2-earnings-hold-the-key/
@@ -208,11 +215,4 @@ id: E05-KO-7c5c6eb679-2026-10-22 · status: linha
 · BTC AI Pivot Fails to Slow Bitcoin Mining Competition as Hashrate Surges (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/ai-pivot-fails-slow-bitcoin-133300338.html
 · GOOGL Alphabet (GOOGL) Cloud Outage And Share Token Fight Put Regulation In Focus (Yahoo Finance) https://finance.yahoo.com/technology/articles/alphabet-googl-cloud-outage-share-131307505.html
 · GOOGL Pre-Q3 Earnings: Is Alphabet Stock a Portfolio Must-Have? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/pre-q3-earnings-alphabet-stock-131000590.html
-· BBDC4 Programa de renegociação de dívida Desenrola 3 não é prioridade para o Bradesco, diz CEO (O Globo) https://oglobo.globo.com/google/amp/economia/noticia/2026/10/23/programa-de-renegociacao-de-divida-desenrola-3-nao-e-prioridade-para-o-bradesco-diz-ceo.ghtml
-· CVX Chevron (CVX) Earnings Expected to Grow: What to Know Ahead of Next Week's Release (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/chevron-cvx-earnings-expected-grow-130004941.html
-· NVDA NVIDIA Corporation Revenue Breakdown – TURQUOISE:NVDD (TradingView (Reuters)) https://www.tradingview.com/symbols/TURQUOISE-NVDD/financials-revenue/
-· NVDA Brokers Suggest Investing in Nvidia (NVDA): Read This Before Placing a Bet (Yahoo Finance) https://uk.finance.yahoo.com/news/brokers-suggest-investing-nvidia-nvda-123003095.html
-· GOOGL Countdown to Alphabet (GOOGL) Q3 Earnings: Wall Street Forecasts for Key Metrics (Yahoo Finance) https://news.google.com/rss/articles/CBMiowFBVV95cUxOWURST1VUYy1jU0NIYXBHa2VYbDF2ZXNDTlU2ZU9DN2tIcHRTemJaV3d6ZWlnME9lSnJlQkg1eDVqWjdXbEJiYnBrY1IwZ3BaSWNGQXNSam5KMmI0UU9uOGZYeWd1M2JJZlJHTEhMaWJpUlkxS3RrOFVCdGlBaWl4aE9HQ1V5Y0dNbTVOSVR5U25HU0VxS202ZVZnZXdwdzhDSTl3?oc=5
-· LITE Lumentum Holdings (LITE) Fell In The AI Optics Selloff, Is It Still Undervalued? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/lumentum-holdings-lite-fell-ai-130756133.html
-· VALE3 Agência de Comunicação - Cobre e níquel devem ampliar participação nos resultados da Vale (Estadao) https://bluestudio.estadao.com.br/agencia-de-comunicacao/agencia-minera-brasil/cobre-e-niquel-devem-ampliar-participacao-nos-resultados-da-vale/
-· (+28 manchetes; lista completa em eventos/noticias.json)
+· (+35 manchetes; lista completa em eventos/noticias.json)

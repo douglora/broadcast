@@ -1,16 +1,15 @@
 ALERTAS · intradia
 
-[ATENÇÃO] E05 · BBDC4 · Bradesco registra lucro recorrente de R$ 7,1 bilhões no 3T26
+(pendente de slot anterior) [ATENÇÃO] E05 · BBDC4 · Bradesco registra lucro recorrente de R$ 7,1 bilhões no 3T26
 ADVFN · 23/10 08h38 · fonte única · licença: manchete
 Link: https://br.advfn.com/jornal/2026/10/bradesco-registra-lucro-recorrente-de-r-7-1-bilhoes-no-3t26
 Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
 Ativos: BBDC4
 Como falar: 'saiu no ADVFN: Bradesco registra lucro recorrente de R$ 7,1 bilhões no 3T26; confirmar o número no texto antes de repassar'
 Fonte: ADVFN 23/10 08h38
-Push: intradia: 2 alertas de atenção — E05 BBDC4, E05 NOK · detalhe na sessão
 ids: E05-BBDC4-3bcdefaa30-2026-10-23
 
-[ATENÇÃO] E05 · NOK · Earnings call transcript: Nokia beats Q3 2026 estimates but shares fall premarket By Investing.com
+(pendente de slot anterior) [ATENÇÃO] E05 · NOK · Earnings call transcript: Nokia beats Q3 2026 estimates but shares fall premarket By Investing.com
 Investing.com · 22/10 15h27 · fonte única · licença: manchete
 Link: https://za.investing.com/news/stock-market-news/earnings-call-transcript-nokia-beats-q3-2026-estimates-but-shares-fall-premarket-93CH-4519759
 Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
@@ -20,13 +19,13 @@ Fonte: Investing.com 22/10 15h27
 ids: E05-NOK-c7e14a43df-2026-10-22
 
 Info (só linha no Fechamento):
-· E05 BBDC4 · Bradesco cresce lucro sob ventos contrários, mas inadimplência limita recuperação estrutural
-· E05 CVX · Chevron vs. ExxonMobil: Which Stock Has the Edge at 52-Week Highs?
-· E05 NVDA · Can Apple Top Nvidia? iPhone Duo and Nov. 2 Earnings Hold the Key
-· E05 BBDC4 · Crédito com garantia pública deveria seguir em qualquer governo, diz CEO do Bradesco
-· E05 AMD · AMD Has a High Floor, High Volatility Trajectory Through the End of 2026
-· E05 BTC · Bitcoin’s midterm bottom pattern faces a test as QQQ shows mixed returns
-· E05 TSLA · Stocktwits Wall Street Wrap: Analysts Turn Bullish On SpaceX, Tesla, But Netflix And Chipotle Face Fresh Downgrades Amid Growth Concerns
+· E05 SAPR4 · O que os novos governadores mudam nos dividendos de Cemig, Sanepar e Banrisul?
+· E05 PLTR · Should You 'Buy' or 'Sell' Palantir Stock Ahead of Earnings?
+· E05 PETR4 · Conselho da Petrobras deve discutir preço do diesel depois do segundo turno, dizem fontes
+· E05 MU · Micron (MU) is an Incredible Growth Stock: 3 Reasons Why
+· E05 BTC · Whale's Insight: Bitcoin Holds $80K - What Could Spark A Breakout?
+· E05 BTC · Bitcoin Billionaires Are Racing to Ride a 3,000% Crypto Boom
+· E05 NOK · Nokia Oyj (NOK) (Q3 2026) Earnings Call Highlights: AI and Cloud Sales Surge 123% as Operating ... By GuruFocus
 · T13 VIX cruzou 20: 20,2 (+6,0% no dia)
 
 Suprimidos pelo teto (viram linha do Fechamento): T13-VIX-vix20-2026-10-23 (teto de atenção)
@@ -45,4 +44,4 @@ Alertas do dia (todos, com status):
 · entregue  E05 NVDA — NVDA · Key facts: SMCI raises Q1 guidance; Nokia, NVIDIA AI-RAN; ARC MGX demo
 · entregue  S01 SISTEMA — coleta do slot manha saiu incompleta: tesouro: falha: ValueError: cabecalho ines
 · linha     F03 BRENT — Brent sobe a US$ 116,61 (+3,0% no dia) (parcial, intradia)
-· (+97 notícias só manchete, em noticias.md)
+· (+104 notícias só manchete, em noticias.md)
