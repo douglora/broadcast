@@ -1,10 +1,10 @@
 BLOCO A
 ```
-FECHAMENTO DO LIVRO · qui 22/10 · 18h13 BRT
-Relógios: Yahoo 18h13 · DI ajuste D0 · Tesouro base
-  15/10 · UST CMT D0 · PTAX 22/10
+FECHAMENTO DO LIVRO · qui 22/10 · 20h57 BRT
+Relógios: Yahoo 20h57 · DI ajuste D0 · Tesouro base
+  15/10 · UST CMT D0
 
-ALERTAS DO DIA (49 · 8 críticos)
+ALERTAS DO DIA (54 · 8 críticos)
 [CRÍTICO] C07 UST FECHOU: 2y -16 bps · 10y -17 bps ·
           30y -13 bps (22/10)
 [CRÍTICO] T05 AMD -8,1% no dia a US$ 507,93:
@@ -28,34 +28,33 @@ ALERTAS DO DIA (49 · 8 críticos)
 [CRÍTICO] T08 VALE3 entrou em queda de -30% do pico:
           -32% do pico de 52s (R$ 90,09 em 11/02) a
           R$ 61,49
-(+41 em alertas.md)
+(+46 em alertas.md)
 
-ALTAS  BRENT +3,7% · KO +2,9% · AXIA3 +0,9% · WUTI
-       +0,7% · ALUP4 +0,6%
+ALTAS  KO +2,9% · AXIA3 +0,9% · WUTI +0,7% · ALUP4
+       +0,6% · BAC +0,6%
 BAIXAS NOK -15% · COHR -13% · LITE -12% · GFS -9,1%
        · MRVL -8,7%
 
-NOTÍCIAS E FATOS (12 com materialidade ·
+NOTÍCIAS E FATOS (17 com materialidade ·
   noticias.md)
+· BBDC4 Fato Relevante: O Conselho de Administração
+  , nesta data, deliberou renovar o programa de
+  recompra de ações de própria emissão , autorizando
+  a Diretoria a adquirir,… (CVM)
+· BBDC4 Lucro do Bradesco dispara para R$ 7,1
+  bilhões no 3T26 com avanço do crédito; confira o
+  balanço (Estadao)
+· BBDC4 Bradesco tem lucro de R$ 7,1 bi no 3º tri:
+  inadimplência e provisões também avançam (Exame)
+· BBDC4 Bradesco tem lucro recorrente de R$ 7,109 bi
+  no 3º tri, com alta de 0,8% no trimestre e 14,6%
+  em 12 meses (Valor Economico)
+· BBDC4 Bradesco tem lucro líquido de R$7,1 bi no 3º
+  tri, em linha com esperado (TradingView (Reuters))
 · BBDC4 Lucro do Bradesco (BBDC4) avança a R$ 7,1
   bilhões no 3T26, em linha com as expectativas
   (Money Times)
-· BBDC4 Bradesco (BBDC4) tem lucro líquido
-  recorrente de R$ 7,1 bi no 3º trimestre de 2026
-  (InfoMoney)
-· NOK Nokia Sinks 9% on Q3 Beat as It Holds Outlook,
-  Cuts Cash Flow View: “Growth Is Accelerating”
-  (Yahoo Finance)
-· KO Unstoppable Momentum? Coca-Cola Aims for
-  Flawless Earnings Streak as Q3 Sales Projections
-  Top $12.9 Billion (Yahoo Finance)
-· TSLA Top Midday Stories: Meta Credit Risk Gauge
-  Hits Record High Amid AI Spending Plans; Tesla Q3
-  Revenue Misses Consensus (Yahoo Finance)
-· BTC Bitcoin Slides From $84,900 to $82,200 as Oil
-  Jumps on Iran Strike Plans: Is the US-Iran War
-  About to Restart? (Yahoo Finance)
-  (+6)
+  (+11)
 
 CURVAS · taxa (Δ bps)
 DI (D0, Δ dia·sem bps) F28 12,89 (+11·0) F29 12,67
@@ -64,7 +63,7 @@ DI (D0, Δ dia·sem bps) F28 12,89 (+11·0) F29 12,67
     ABRIU; F35-F28 -12 bps (-9)
 UST (D0) 2y 4,65 (-16) · 10y 4,96 (-17) · 30y 5,29
     (-13) · 2s10s +31 (-1)
-Regime: VIX 19,0 (+14%) · score risco 0 de 6 ·
+Regime: VIX 19,0 (+14%) · score risco 0 de 5 ·
     regime de vol LIGADO
 
 LEITURA DA MESA
@@ -88,9 +87,17 @@ qui 29/10 resultado INTC (Yahoo, estimado)
 
 LACUNAS: Tesouro Direto parado na base 15/10 (fonte
   do Tesouro Transparente sem dado novo): fora da
-  tabela e da inflação implícita; tesouro: falha:
+  tabela e da inflação implícita; DXY sem barra de
+  22/10 (última 21/10); BRENT sem barra de 22/10
+  (última 21/10); DXY: barra de 22/10 é o início da
+  sessão seguinte (última cotação 19:48 de Nova
+  York); barra descartada, fica a de 21/10; BRENT:
+  barra de 22/10 é o início da sessão seguinte
+  (última cotação 19:48 de Nova York); barra
+  descartada, fica a de 21/10; tesouro: falha:
   ValueError: cabecalho inesperado no CSV do
-  Tesouro.
+  Tesouro; bcb: BCB devolveu 3 de 5 séries (faltaram
+  ptax_venda, ipca_12m).
 Fontes: Yahoo Finance · B3 Boletim Diário · Tesouro
   Transparente · Treasury.gov CMT · BCB
 ```
@@ -174,10 +181,10 @@ MRVE3  MRV        8,23  0,0  +16  +55  +10  +20 +5,6
 CURY3  Cury      31,98 -1,2 +3,1  +13 -1,2  +11 +4,3
 Macro
 USDBRL USD/BRL  5,0371 +0,2 -1,0 -1,3 +1,0 -6,5 -8,0
-DXY    DXY      101,63 -0,1 -0,4 +1,0 +2,9 +2,8 +3,4
-BRENT  Brent    112,87 +3,7 +6,6  +18 +7,4  +80  +85
-BTC*   BTC      81.324 -3,2 -1,0 -5,6 +3,9  -24 -7,1
-ETH*   ETH       2.387 -3,4 -2,2  -13 +2,4  -37  -20
+DXY*   DXY      101,78  0,0 -0,8 +1,3 +3,2 +2,9 +3,6
+BRENT* Brent    108,82  0,0 +2,6  +13 +6,8  +77  +79
+BTC*   BTC      81.304 -3,2 -1,0 -5,6 +3,9  -25 -7,1
+ETH*   ETH       2.386 -3,4 -2,2  -13 +2,3  -37  -20
 MINER* Minerio   90,85  0,0 +0,1 -6,8  -15  -14  -15
 ```
 UCITS por extenso: VWRA Vanguard FTSE All-World

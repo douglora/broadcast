@@ -1,8 +1,24 @@
-NOTÍCIAS E FATOS · 22/10 18h24
+NOTÍCIAS E FATOS · 22/10 20h57
 
-Pernas: noticias ok 2 novas (18 consultas; descartadas: 452 veículo fora da lista, 30 sem ativo, 0 teto) · cvm ok 1 novos de 8 (5 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 18 novas (18 consultas; descartadas: 438 veículo fora da lista, 30 sem ativo, 9 teto) · cvm ok 1 novos de 9 (5 cias casadas) · sec ok 0 novos em 3 dias
 
-## FATOS RELEVANTES E COMUNICADOS (CVM) (2)
+## FATOS RELEVANTES E COMUNICADOS (CVM) (3)
+
+[ATENÇÃO] E03 · BBDC4 · Fato Relevante: O Conselho de Administração , nesta data, deliberou renovar o programa de recompra de ações de própria emissão , autorizando a Diretoria a adquirir,…
+CVM · entregue 22/10/2026 18:33
+Do documento:
+  – Objetivo: aplicar parcela dos recursos existentes em “Reservas de Lucros – Estatutária”,  disponíveis para investimentos, na aquisição de ações que serão mantidas em tesouraria  para posterior cancelamento ou alienação,…
+  – Efeitos Econômicos: Para os acionistas, a operação possibilita maior retorno financeiro  devido ao aumento proporcional do valor dos dividendos/juros sobre o capital próprio  (JCP) distribuídos por ação.
+  – Até 106.584.881 de ações nominativas -escriturais, sem valor nominal, sendo até  53.413.506 ordinárias e até 53.171.375 preferenciais.
+  – As aquisições das ações serão realizadas na B3 S.A. - Brasil, Bolsa, Balcão  (B3).
+  – As ações serão adquiridas a preço de mercado, por meio de operações na  B3.
+  – Considerando qu e as operações serão realizadas na B3, as contrapartes não são  conhecidas.
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1579530
+Por que importa: fato relevante e o que a propria companhia julga capaz de mover o preco; ler o documento inteiro antes de comentar
+Ativos: BBDC4
+Como falar: 'a Bradesco publicou fato relevante sobre O Conselho de Administração , nesta data, deliberou renovar o program…'
+Fonte: CVM 22/10
+id: E03-BBDC4-1579530-2026-10-22 · status: pendente · íntegra disponível
 
 [INFO] E03 · BBDC4 · Comunicado ao Mercado: Apresentações a analistas/agentes do mercado
 CVM · entregue 22/10/2026 18:18 · Apresentações a analistas/agentes do mercado
@@ -58,7 +74,43 @@ Fonte: SEC EDGAR 2026-10-22
 id: E04-TSM-26000728-2026-10-22 · status: linha · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (13)
+## NOTÍCIAS COM MATERIALIDADE (16)
+
+[ATENÇÃO] E05 · BBDC4 · Lucro do Bradesco dispara para R$ 7,1 bilhões no 3T26 com avanço do crédito; confira o balanço
+Estadao · 22/10 18h28 · fonte única · licença: manchete
+Link: https://www.estadao.com.br/einvestidor/cenarios-e-mercado/lucro-do-bradesco-dispara-para-r-71-bilhoes-no-3t26-com-avanco-do-credito-confira-o-balanco/
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: BBDC4
+Como falar: 'saiu no Estadao: Lucro do Bradesco dispara para R$ 7,1 bilhões no 3T26 com avanço do crédito; confira o ba…; confirmar o número no texto antes de repassar'
+Fonte: Estadao 22/10 18h28
+id: E05-BBDC4-0ebe7bcd2e-2026-10-22 · status: pendente
+
+[ATENÇÃO] E05 · BBDC4 · Bradesco tem lucro de R$ 7,1 bi no 3º tri: inadimplência e provisões também avançam
+Exame · 22/10 18h25 · + Bloomberg Linea, TradingView (Reuters) · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – O resultado foi divulgado nesta quinta-feira, 22.
+  – No acumulado de nove meses, o lucro soma R$ 21 bilhões, avanço de 15,6%.
+  – A despesa com provisões para devedores duvidosos (PDD expandida) chegou a R$ 10,6 bilhões no trimestre, alta de 24,3% em um ano e de 6,6% sobre o segundo trimestre.
+  – O custo do crédito, que mede essa despesa em relação à carteira, subiu para 3,7%, ante 3,5% no trimestre anterior e 3,3% um ano antes.
+  – A margem financeira total, que é o que o banco ganha com crédito e com sua tesouraria, cresceu 14,2%, para R$ 21,4 bilhões.
+  – Em valores, foram R$ 2,7 bilhões a mais do que no terceiro trimestre de 2025.
+Link: https://exame.com/invest/mercados/bradesco-tem-lucro-de-r-71-bi-no-3o-tri-inadimplencia-e-provisoes-tambem-avancam/
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: BBDC4
+Como falar: 'saiu no Exame: Bradesco tem lucro de R$ 7,1 bi no 3º tri: inadimplência e provisões também avançam; confirmar o número no texto antes de repassar'
+Fonte: Exame 22/10 18h25
+id: E05-BBDC4-108abb10f2-2026-10-22 · status: pendente
+
+[ATENÇÃO] E05 · BBDC4 · Bradesco tem lucro recorrente de R$ 7,109 bi no 3º tri, com alta de 0,8% no trimestre e 14,6% em 12 meses
+Valor Economico · 22/10 18h18 · + CNN Brasil, UOL Economia · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Bradesco lucra R$ 7,1 bilhões, mas vê cenário com desafios Inadimplência sobe e banco cita pressão no agro e linhas com garantia do governo O Bradesco se manteve em trajetória de recuperação e registrou lucro recorde no…
+Link: https://valor.globo.com/financas/noticia/2026/10/22/bradesco-tem-lucro-recorrente-de-r-7109-bi-no-3-tri-com-alta-de-08-pontos-percentuais-no-trimestre-e-146-em-12-meses.ghtml
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: BBDC4
+Como falar: 'saiu no Valor Economico: Bradesco tem lucro recorrente de R$ 7,109 bi no 3º tri, com alta de 0,8% no trimestre e 1…; confirmar o número no texto antes de repassar'
+Fonte: Valor Economico 22/10 18h18
+id: E05-BBDC4-1acf95f940-2026-10-22 · status: pendente
 
 [ATENÇÃO] E05 · BBDC4 · Bradesco tem lucro líquido de R$7,1 bi no 3º tri, em linha com esperado
 TradingView (Reuters) · 22/10 18h01 · fonte única · licença: manchete
@@ -83,7 +135,7 @@ Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; 
 Ativos: BBDC4
 Como falar: 'saiu no Money Times: Lucro do Bradesco (BBDC4) avança a R$ 7,1 bilhões no 3T26, em linha com as expectativas; confirmar o número no texto antes de repassar'
 Fonte: Money Times 22/10 18h04
-id: E05-BBDC4-1bed502114-2026-10-22 · status: pendente · íntegra disponível
+id: E05-BBDC4-1bed502114-2026-10-22 · status: expirado · íntegra disponível
 
 [ATENÇÃO] E05 · BBDC4 · Bradesco (BBDC4) tem lucro líquido recorrente de R$ 7,1 bi no 3º trimestre de 2026
 InfoMoney · 22/10 18h02 · fonte única · licença: resumo
@@ -98,7 +150,7 @@ Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; 
 Ativos: BBDC4
 Como falar: 'saiu no InfoMoney: Bradesco (BBDC4) tem lucro líquido recorrente de R$ 7,1 bi no 3º trimestre de 2026; confirmar o número no texto antes de repassar'
 Fonte: InfoMoney 22/10 18h02
-id: E05-BBDC4-b18bf23339-2026-10-22 · status: pendente
+id: E05-BBDC4-b18bf23339-2026-10-22 · status: expirado
 
 [ATENÇÃO] E05 · NOK · Nokia Sinks 9% on Q3 Beat as It Holds Outlook, Cuts Cash Flow View: “Growth Is Accelerating”
 Yahoo Finance · 22/10 14h38 · fonte única · licença: resumo
@@ -238,8 +290,23 @@ Fonte: Investing.com 21/10 20h07
 id: E05-TSLA-594bd31921-2026-10-21 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (136)
+## OUTRAS NOTÍCIAS (só manchete) (151)
 
+· BBDC4 Macro pesa e Bradesco perde fôlego no 3º tri (Brazil Journal) https://braziljournal.com/macro-pesa-e-bradesco-perde-folego-no-3-tri
+· BBDC4 Bradesco lucra R$ 7,1 bilhões e ROE atinge 16,1% (NeoFeed) https://neofeed.com.br/negocios/bradesco-lucra-r-71-bilhoes-e-roe-atinge-161/
+· VALE3 Ibovespa cai com Vale e dólar sobe em dia de aversão ao risco e cautela eleitoral (TradingView (Reuters)) https://br.tradingview.com/news/reuters.com,2026:newsml_L1N4681GV:0/
+· MINERIO Rio Tinto and China’s state buyer agree iron ore supply deal (Mining.com) https://www.mining.com/web/rio-tinto-and-chinas-state-buyer-agree-iron-ore-supply-deal/
+· BBDC4 Bradesco lucra R$ 7,11 bilhões no 3º tri de 2026, alta de 14,6% (Poder360) https://www.poder360.com.br/poder-economia/bradesco-lucra-r-711-bilhoes-no-3o-tri-de-2026-alta-de-146/
+· AMD Is nVent Electric (NVT) Undervalued On Its AMD AI Data Center Cooling Deal? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/nvent-electric-nvt-undervalued-amd-221535600.html
+· UST Treasury yields log biggest drop since the 2023 banking crisis. Here’s what’s going on. (MarketWatch) https://www.marketwatch.com/story/treasury-yields-see-extreme-plunge-why-investors-are-ducking-for-cover-60044c66
+· TSLA A Tesla-SpaceX Merger Doesn’t Add Up (Bloomberg) https://www.bloomberg.com/news/videos/2026-10-22/opinion-a-tesla-spacex-merger-doesn-t-add-up-video?srnd=phx-india
+· MU 3 big reasons Micron and other chip stocks fell hard on Thursday (MarketWatch) https://www.marketwatch.com/story/two-big-reasons-micron-and-other-chip-stocks-are-falling-on-thursday-312f1fb2
+· BRENT Moedas Globais: dólar cai forte ante iene com petróleo, IA e protestos na Europa (InfoMoney) https://www.infomoney.com.br/mercados/moedas-globais-dolar-cai-forte-ante-iene-com-petroleo-ia-e-protestos-na-europa/
+· VALE3 Vale cai 4% com baixa do minério; CSN, Usiminas e Gerdau também têm fortes perdas (InfoMoney) https://www.infomoney.com.br/mercados/vale-vale3-cai-4-com-baixa-do-minerio-csn-usiminas-e-gerdau-tambem-tem-fortes-perdas/
+· NOK Nokia Q3 Earnings Call Highlights (Yahoo Finance) https://finance.yahoo.com/technology/articles/nokia-q3-earnings-call-highlights-210434382.html
+· TSLA Tesla, SpaceX, Meta, Lockheed Martin, Lam Research, Spotify, and More Stocks That Explain Today’s Market (Barron's) https://news.google.com/rss/articles/CBMiZEFVX3lxTE5BN3EwZ1JSQWVhWmowRnhCcllsSVc2QXlpc1laQnZuSkVvUXpjTjFwaHpLT095bXdvUDhWRWlTdlAwcEJIY2dVZWNrLUxBSjk4VzhMTnlkRlJPX20xSmJNaEN0WVo?oc=5
+· KO Coca-Cola (KO) Rises As Market Takes a Dip: Key Facts (Yahoo Finance) https://news.google.com/rss/articles/CBMilAFBVV95cUxQUTAwSkQ3ajkzck9nOEpueFJZWjJscHFHSnFnQ2g1a1lGUXF0VEo4SEtqRzhjOHN2ZDJ4NlE1RncxSXRObVVlX0VyVW5zU2dueU90QmNwakJ3VnQwdVhzd3BqXzNnSDB1N2wyM0ZTbWk3SXZPaXpMR3lRTmk4aFFYYmd1MmJwUWZGM2JlSGZ3TmQ4UDly?oc=5
+· USDBRL Dólar hoje sobe a R$ 5,04, acompanhando exterior e à espera de pesquisa Datafolha (InfoMoney) https://news.google.com/rss/articles/CBMinAFBVV95cUxPQURuSjN6dkFfeDBldUtIR28wVnFnOGFILVd3aUYxT1pmTERVSElZT2xOU3M1d3M3MG9LWDN0MU9lZ0FXcXVGeE9jS080cFBaazB4aVJvZ2hxTEhld2NSVEg5TjJxRWNfUHFPdFhQUnJ2b1M3YndYLUU0YkRrYWs5dFhmbDJjaHk0NE5jaEtuc28yQnUydEZBeGtYVDHSAaIBQVVfeXFMTlVCU0RmTHUxcmN6ZWd4Sk80eDJCVldxLTRONUR2ZmJDMS1LMmtfcVFEVjZlc1hta3JjRDRvWmNMLVFvRUVzcEktUG94OWdDTDdtN2xkV2FHVzNoZ2JDRXBwLTJzSXBxSXUwd2k1NC0wRktOZmF4WllaV2tBdDh4LU9Fd0pHOTZITFZLMm95SzQ4MU9IZ2ZqOVJoTE42T2xfODR3?oc=5
 · BABA Here’s why Alibaba stock is in a strong sell-off this month (TradingView (Reuters)) https://fr.tradingview.com/news/invezz:2659b50ab094b:0-here-s-why-alibaba-stock-is-in-a-strong-sell-off-this-month/
 · USDBRL Cautela eleitoral e exterior derrubam Ibovespa; dólar avança e Nasdaq cai mais de 2% (Exame) https://exame.com/invest/mercados/cautela-eleitoral-e-exterior-derrubam-ibovespa-dolar-avanca-e-nasdaq-cai-mais-de-2/
 · USDBRL Dólar sobe 0,22% e fecha a R$ 5,038; Ibovespa cai 1,15% (Poder360) https://www.poder360.com.br/poder-economia/dolar-sobe-022-e-fecha-a-r-5038-ibovespa-cai-115/
@@ -285,19 +352,4 @@ id: E05-TSLA-594bd31921-2026-10-21 · status: linha
 · BTC Bitcoin gets $1 billion in ETF inflows, yet can't crack $84,000: what's wrong? (TradingView (Reuters)) https://es.tradingview.com/news/invezz:bbc529cad094b:0-bitcoin-gets-1-billion-in-etf-inflows-yet-can-t-crack-84-000-what-s-wrong/
 · NOK Nokia Oyj 2026 Q3 - Results - Earnings Call Presentation (NYSE:NOK) 2026-10-22 (Seeking Alpha) https://seekingalpha.com/article/4956535-nokia-oyj-2026-q3-results-earnings-call-presentation
 · INTC Intel Stock Tumbles Ahead of Q3 Earnings (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/intel-stock-tumbles-ahead-q3-161912152.html
-· CVX Chevron Eyes $1B Gulf Asset Sale to Focus on Growth Projects (TradingView (Reuters)) https://www.tradingview.com/news/zacks:019039c66094b:0-chevron-eyes-1b-gulf-asset-sale-to-focus-on-growth-projects/
-· LITE Lumentum Holdings Inc. (LITE) Stock forecasts (Yahoo Finance) https://uk.finance.yahoo.com/research/reports/ARGUS_4688_QuantitativeReport_1792540800000
-· UST U.S. 10-Year Treasury yield cracks below 5% for the first time in a month as bonds rally (TradingView (Reuters)) https://www.tradingview.com/news/seekingalpha:63d45967d094b:0-u-s-10-year-treasury-yield-cracks-below-5-for-the-first-time-in-a-month-as-bonds-rally/
-· LITE Optics Stocks Tumble as Tech Selloff Deepens Ahead of Earnings: Coherent Tumbles 12%, Applied Optoelectronics Drops 10%, Lumentum Falls 9% (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/optics-stocks-tumble-tech-selloff-171005784.html
-· PETR4 Petrobras terá que subir diesel em até 50%? Goldman aponta impactos em ações e preços (InfoMoney) https://www.infomoney.com.br/mercados/petrobras-petr3-petr4-pode-ter-subir-diesel-ate-cinquenta-porcento-goldman-sachs-quais-impactos-acoes-inflacao/
-· TSLA Tesla earnings analysis: questions answered and next catalysts (Investing.com) https://www.investing.com/news/stock-market-news/tesla-earnings-analysis-questions-answered-and-next-catalysts-93CH-4967048
-· BTC Bitcoin ETFs Erase October Losses With $1 Billion in Three Days (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-etfs-erase-october-losses-163107282.html
-· TSLA Tesla: 3 Key Takeaways for Long-Term Investors (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/tesla-3-key-takeaways-long-163034560.html
-· BTC Prediction: What Would Have to Happen for Bitcoin to Hit $150,000? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/prediction-happen-bitcoin-hit-150-163024713.html
-· TSLA Why Tesla Stock Dropped After Earnings (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/why-tesla-stock-dropped-earnings-162557098.html
-· TSLA Tesla's AI-Related Investments Drive Operating Margin Miss, Truist Says (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/tesla-apos-ai-related-investments-161105193.html
-· AMD Susquehanna Makes Strong Calls on AMD, Intel, Qualcomm (Yahoo Finance) https://finance.yahoo.com/technology/articles/susquehanna-makes-strong-calls-amd-160728619.html
-· TSLA Tesla Outlook Supported by Self-Driving Software, Robotaxi Growth, RBC Says (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/tesla-outlook-supported-self-driving-154658911.html
-· GOOGL OpenAI Models Land on Google Cloud: Frontier Distribution Goes Multi-Cloud While the Watts Stay Exclusive (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/openai-models-land-google-cloud-151018996.html
-· NOK Nokia Tumbles 10% Despite Data Center-Driven Profit Beat; Ericsson Slips (Yahoo Finance) https://finance.yahoo.com/technology/articles/nokia-tumbles-10-despite-data-145759922.html
-· (+76 manchetes; lista completa em eventos/noticias.json)
+· (+91 manchetes; lista completa em eventos/noticias.json)

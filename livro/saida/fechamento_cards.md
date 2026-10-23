@@ -1,4 +1,4 @@
-## Fechamento do livro · qui 22/10 · 18h13 BRT
+## Fechamento do livro · qui 22/10 · 20h57 BRT
 
 ---
 
@@ -36,7 +36,7 @@
 
 ### Destaques do dia
 
-**Altas** BRENT +3,7% · KO +2,9% (fechou na máxima · máxima de 52 semanas) · AXIA3 +0,9% (vol 0,5x) · WUTI +0,7% (vol 1,3x · fechou na máxima) · ALUP4 +0,6% (vol 0,6x)
+**Altas** KO +2,9% (fechou na máxima · máxima de 52 semanas) · AXIA3 +0,9% (vol 0,5x) · WUTI +0,7% (vol 1,3x · fechou na máxima) · ALUP4 +0,6% (vol 0,6x) · BAC +0,6% (fechou na máxima)
 **Baixas** NOK -15% (vol 3,0x · fechou na mínima) · COHR -13% (vol 1,8x) · LITE -12% (fechou na mínima) · GFS -9,1% (fechou na mínima) · MRVL -8,7%
 
 ---
@@ -50,7 +50,7 @@
 | **LITE** | -12% | notícia a conferir (Seeking Alpha): Lumentum tumbles 12% amid tech selloff (LITE:NASDAQ) | notícia (conferir) |
 | **GFS** | -9,1% | descolou do setor (semicondutores (eua) -7,1% (mediana), SOX -6,7%; -1,9 p.p. da mediana); investigar antes de comentar | sem causa no dado |
 | **MRVL** | -8,7% | descolou do setor (semicondutores (eua) -7,1% (mediana), SOX -6,7%; -1,6 p.p. da mediana); investigar antes de comentar | sem causa no dado |
-| **AMD** | -8,1% | andou com o setor: semicondutores (eua) -7,1% (mediana), SOX -6,7%; notícia a conferir (TradingView (Reuters)): Susquehanna Makes Strong Calls on AMD, Intel, Qualcomm | setorial |
+| **AMD** | -8,1% | andou com o setor: semicondutores (eua) -7,1% (mediana), SOX -6,7%; notícia a conferir (Yahoo Finance): Is nVent Electric (NVT) Undervalued On Its AMD AI Data Center Cooling Deal? | setorial |
 | **INTC** | -8,0% | andou com o setor: semicondutores (eua) -7,1% (mediana), SOX -6,7%; notícia a conferir (Yahoo Finance): Intel Stocks Fall 5.74% With a Lower Target Before October 29 Earnings | setorial |
 | **META** | -7,0% | notícia a conferir (CNBC): Meta Platforms beat the Street. Here's why analysts are bullish on the stock | notícia (conferir) |
 
@@ -206,13 +206,13 @@ Nomes completos: **QNTM** VanEck Quantum Computing UCITS ETF USD (Acc) · **QANT
 | Ativo | últ | dia | 1 sem | 1 mês | 3 m | 6 m | 1 ano | YTD | 5 anos |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | **USDBRL** Dolar/Real | 5,0371 | **+0,2** | -1,0 | -1,3 | -0,5 | +1,0 | -6,5 | -8,0 | -11 |
-| **DXY** Indice Dolar DXY | 101,63 | **-0,1** | -0,4 | +1,0 | +0,2 | +2,9 | +2,8 | +3,4 | +8,6 |
-| **BRENT** Petroleo Brent | 112,87 | **+3,7** | +6,6 | +18 | +12 | +7,4 | +80 | +85 | +32 |
-| **BTC** Bitcoin _(parcial)_ | 81.324 | **-3,2** | -1,0 | -5,6 | +25 | +3,9 | -24 | -7,1 | +33 |
-| **ETH** Ethereum _(parcial)_ | 2.387 | **-3,4** | -2,2 | -13 | +27 | +2,4 | -37 | -20 | -42 |
+| **DXY** Indice Dolar DXY _(dia 21/10)_ | 101,78 | **0,0** | -0,8 | +1,3 | +0,6 | +3,2 | +2,9 | +3,6 | +8,7 |
+| **BRENT** Petroleo Brent _(dia 21/10)_ | 108,82 | **0,0** | +2,6 | +13 | +16 | +6,8 | +77 | +79 | +27 |
+| **BTC** Bitcoin _(parcial)_ | 81.304 | **-3,2** | -1,0 | -5,6 | +25 | +3,9 | -25 | -7,1 | +33 |
+| **ETH** Ethereum _(parcial)_ | 2.386 | **-3,4** | -2,2 | -13 | +27 | +2,3 | -37 | -20 | -42 |
 | **MINERIO** Minerio de ferro 62% Fe CFR China _(D-1, 21/10)_ | 90,85 | **0,0** | +0,1 | -6,8 | -7,7 | -15 | -14 | -15 | -26 |
 
-**Brent em reais:** R$ 568,54 por barril (22/10) · dia +3,9% · 1 mês +17% · no ano +71% (Brent do 1º vencimento × dólar).
+**Brent em reais:** a confirmar (Brent sem fechamento confirmado).
 
 ---
 
@@ -220,11 +220,11 @@ Nomes completos: **QNTM** VanEck Quantum Computing UCITS ETF USD (Acc) · **QANT
 
 | Referência | US$/t | dia | 1 sem | 1 mês | leitura |
 |---|---:|---:|---:|---:|---|
-| **Celulose fibra longa** | 614 | -0,9 | -2,9 | -6,7 | 22/10 |
-| **Minerio de ferro Dalian** | 89 | -0,8 | -0,1 | -5,9 | 22/10 |
+| **Celulose fibra longa** | 614 | -1,0 | -2,9 | -6,7 | 22/10 |
+| **Minerio de ferro Dalian** | 89 | -0,8 | -0,2 | -5,9 | 22/10 |
 
-- **Celulose fibra longa**: futuro SP da SHFE (fibra longa) em CNY/t, sem o IVA de 13%; nao e preco de lista NBSK · CNY/t 4.630 a USD/CNY 6,67 = US$ 694/t com IVA
-- **Minerio de ferro Dalian**: futuro da DCE em CNY/t, sem o IVA de 13%; o CFR 62% em US$ e a linha MINERIO · CNY/t 670 a USD/CNY 6,67 = US$ 100/t com IVA
+- **Celulose fibra longa**: futuro SP da SHFE (fibra longa) em CNY/t, sem o IVA de 13%; nao e preco de lista NBSK · CNY/t 4.630 a USD/CNY 6,68 = US$ 693/t com IVA
+- **Minerio de ferro Dalian**: futuro da DCE em CNY/t, sem o IVA de 13%; o CFR 62% em US$ e a linha MINERIO · CNY/t 670 a USD/CNY 6,68 = US$ 100/t com IVA
 
 ---
 
@@ -248,12 +248,22 @@ Nomes completos: **QNTM** VanEck Quantum Computing UCITS ETF USD (Acc) · **QANT
 
 2s10s +31 bps (-1 no dia)
 
-**Regime** VIX 19,0 (+14%) · score de risco 0 de 6 · **regime de vol LIGADO**
+**Regime** VIX 19,0 (+14%) · score de risco 0 de 5 · **regime de vol LIGADO**
 
 ---
 
-### Notícias e fatos · 12
+### Notícias e fatos · 17
 
+- **BBDC4** Fato Relevante: O Conselho de Administração , nesta data, deliberou renovar o programa de recompra de ações de própria emissão , autorizando a Diretoria a adquirir,… (CVM · 22/10) [abrir a fonte](https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1579530)
+  *Por que importa:* fato relevante e o que a propria companhia julga capaz de mover o preco; ler o documento inteiro antes de comentar
+- **BBDC4** Lucro do Bradesco dispara para R$ 7,1 bilhões no 3T26 com avanço do crédito; confira o balanço (Estadao · 22/10) [abrir a fonte](https://www.estadao.com.br/einvestidor/cenarios-e-mercado/lucro-do-bradesco-dispara-para-r-71-bilhoes-no-3t26-com-avanco-do-credito-confira-o-balanco/)
+  *Por que importa:* resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+- **BBDC4** Bradesco tem lucro de R$ 7,1 bi no 3º tri: inadimplência e provisões também avançam (Exame · 22/10) [abrir a fonte](https://exame.com/invest/mercados/bradesco-tem-lucro-de-r-71-bi-no-3o-tri-inadimplencia-e-provisoes-tambem-avancam/)
+  *Por que importa:* resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+- **BBDC4** Bradesco tem lucro recorrente de R$ 7,109 bi no 3º tri, com alta de 0,8% no trimestre e 14,6% em 12 meses (Valor Economico · 22/10) [abrir a fonte](https://valor.globo.com/financas/noticia/2026/10/22/bradesco-tem-lucro-recorrente-de-r-7109-bi-no-3-tri-com-alta-de-08-pontos-percentuais-no-trimestre-e-146-em-12-meses.ghtml)
+  *Por que importa:* resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+- **BBDC4** Bradesco tem lucro líquido de R$7,1 bi no 3º tri, em linha com esperado (TradingView (Reuters) · 22/10) [abrir a fonte](https://br.tradingview.com/news/reuters.com,2026:newsml_S0N45U05T:0/)
+  *Por que importa:* resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
 - **BBDC4** Lucro do Bradesco (BBDC4) avança a R$ 7,1 bilhões no 3T26, em linha com as expectativas (Money Times · 22/10) [abrir a fonte](https://www.moneytimes.com.br/lucro-do-bradesco-bbdc4-3t26-rentabilidade-roe-expectativas-miql/)
   *Por que importa:* resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
 - **BBDC4** Bradesco (BBDC4) tem lucro líquido recorrente de R$ 7,1 bi no 3º trimestre de 2026 (InfoMoney · 22/10) [abrir a fonte](https://www.infomoney.com.br/mercados/bradesco-bbdc4-resultados-terceiro-trimestre-2026/)
@@ -303,8 +313,8 @@ Nomes completos: **QNTM** VanEck Quantum Computing UCITS ETF USD (Acc) · **QANT
 
 ### Como ler
 
-**Relógios:** Yahoo 18h13 · DI ajuste D0 · Tesouro base 15/10 · UST CMT D0 · PTAX 22/10
-**Lacunas:** Tesouro Direto parado na base 15/10 (fonte do Tesouro Transparente sem dado novo): fora da tabela e da inflação implícita; tesouro: falha: ValueError: cabecalho inesperado no CSV do Tesouro.
+**Relógios:** Yahoo 20h57 · DI ajuste D0 · Tesouro base 15/10 · UST CMT D0
+**Lacunas:** Tesouro Direto parado na base 15/10 (fonte do Tesouro Transparente sem dado novo): fora da tabela e da inflação implícita; DXY sem barra de 22/10 (última 21/10); BRENT sem barra de 22/10 (última 21/10); DXY: barra de 22/10 é o início da sessão seguinte (última cotação 19:48 de Nova York); barra descartada, fica a de 21/10; BRENT: barra de 22/10 é o início da sessão seguinte (última cotação 19:48 de Nova York); barra descartada, fica a de 21/10; tesouro: falha: ValueError: cabecalho inesperado no CSV do Tesouro; bcb: BCB devolveu 3 de 5 séries (faltaram ptax_venda, ipca_12m).
 **IUAA:** NAO e renda fixa ultracurta: cai ~6% a cada +100 bps na curva. Ler junto com UST 10y/30y. Caixa em dolar e o IB01.
 **Hipótese:** **EWY** iShares MSCI South Korea ETF · **MCHI** iShares MSCI China ETF — ETFs dos EUA, a confirmar.
 Minério: proxy Dalian 670 CNY/t (2026-10-22).
