@@ -1,5 +1,5 @@
 {
- "pregao": "2026-10-21",
+ "pregao": "2026-10-22",
  "nome": "InCashMarketBiggestLow",
  "titulo": "Mercado à vista - maiores baixas",
  "sla": "8:00:00",
@@ -7,18 +7,18 @@
  "colunas": [{"nome": "TckrSymb", "titulo": "Ação"}, {"nome": "Cod", "titulo": "Código"}, {"nome": "Price", "titulo": "Preço (R$)"}, {"nome": "OscillationDesc", "titulo": "Oscilação (%)"}],
  "texto": ["Mostra as maiores desvalorizações de ativos no mercado à vista num período."],
  "situacao": "publicado",
- "atualizado_em": "2026-10-21T19:00:33.403",
+ "atualizado_em": "2026-10-22T19:20:49.503",
  "truncada": false,
  "linhas": [
-  ["GSHP3", "ON", 3.8, -20.5],
-  ["BIOM12", "DIR     N2", 2.14, -20.14],
-  ["NUTR3", "ON      MP", 3.54, -19.17],
-  ["AZUL98", "UNT     N2", 4.5, -16.66],
-  ["SJAU11", "CI", 0.56, -15.15],
-  ["AZUL99", "UNT     N2", 3, -12.53],
-  ["AZUL97", "UNT     N2", 3.03, -12.17],
-  ["CARE11", "CI", 4.03, -11.03],
-  ["ONCO11", "BNS ORD NM", 0.17, -10.52],
-  ["GFSA12", "BNS ORD NM", 0.09, -10]
+  ["AZUL97", "UNT     N2", 1.96, -35.31],
+  ["AZUL99", "UNT     N2", 2, -33.33],
+  ["JFEN3", "ON", 3.05, -25.6],
+  ["AZEV3", "ON", 13.57, -18.74],
+  ["M1RN34", "DRN", 50.9, -17.9],
+  ["VIVR12", "BNS ORD NM", 0.1, -16.66],
+  ["A1LK34", "DRN", 178.8, -14.51],
+  ["NOKI34", "DRN", 40.64, -12.88],
+  ["L1VS34", "DRN", 37.44, -12.6],
+  ["NTST34", "DRN", 42.64, -11.51]
  ]
 }

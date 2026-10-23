@@ -1,5 +1,5 @@
 {
- "pregao": "2026-10-21",
+ "pregao": "2026-10-22",
  "nome": "InCashMarketBiggestHighs",
  "titulo": "Mercado à vista - maiores altas",
  "sla": "8:00:00",
@@ -7,18 +7,18 @@
  "colunas": [{"nome": "TckrSymb", "titulo": "Ação"}, {"nome": "Cod", "titulo": "Código"}, {"nome": "Price", "titulo": "Preço (R$)"}, {"nome": "Oscillation", "titulo": "Oscilação (%)"}],
  "texto": ["Mostra as maiores valorizações de ativos no mercado à vista, destacando as melhores performances."],
  "situacao": "publicado",
- "atualizado_em": "2026-10-21T19:00:34.34",
+ "atualizado_em": "2026-10-22T19:20:49.49",
  "truncada": false,
  "linhas": [
-  ["LOWC34", "DRN ED", 49.55, 13.17],
-  ["EDFO11", "CI", 137.99, 14.04],
-  ["PLAS3", "ON", 4.5, 15.68],
-  ["CTSH34", "DRN", 349.52, 18.4],
-  ["VIVR12", "BNS ORD NM", 0.12, 20],
-  ["LUPA3", "ON      NM", 5.2, 20.09],
-  ["PATI4", "PN", 35.45, 20.25],
-  ["AZEV3", "ON", 16.7, 24.62],
-  ["RZZI11", "CI  ER", 1300, 26.7],
-  ["FSRF11", "CI", 0.09, 28.57]
+  ["ORLY34", "DRN", 1.5, 11.94],
+  ["S1PO34", "DRN", 730, 12.06],
+  ["B2LN34", "DRN", 14.35, 12.46],
+  ["A2LC34", "DRN", 35.54, 13.43],
+  ["R1OP34", "DRN", 220.6, 13.71],
+  ["M1CB34", "DRN", 208, 15.55],
+  ["K1SS34", "DRN", 125.4, 17.19],
+  ["BIOM12", "DIR     N2", 3, 40.18],
+  ["SJAU11", "CI", 0.84, 50],
+  ["B1ZE34", "DRN", 115.4, 58.95]
  ]
 }

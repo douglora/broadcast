@@ -1,7 +1,7 @@
 # Boletim da B3: pregão de 21/10/2026 (quarta)
 
 **Situação: COMPLETO.** Boletim publicado pela B3 em 2026-10-22 00:00 (hora de Brasília).
-Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10-22T16:03:07Z (UTC).
+Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10-23T00:52:28Z (UTC).
 
 [[LEITURA_DA_MESA]]
 
@@ -287,7 +287,7 @@ Nas incentivadas, a mediana pelos negócios do dia (B3 negócios de 21/10) foi I
 **Abriram taxa pela indicativa da ANBIMA:** TPNO12 +19 pb contra 20/10, para IPCA+ 6,81% (R$ 11,6 mi); BTEL13 +10,4 pb contra 20/10, para 15,76% pré (R$ 38,4 mi); IRJS15 +8,5 pb contra 20/10, para IPCA+ 11,39% (R$ 23,9 mi); ORIG12 +7,9 pb contra 20/10, para IPCA+ 10,53% (R$ 4,8 mi); EPRL12 +7,5 pb contra 20/10, para IPCA+ 8,57% (R$ 3,4 mi).
 **Fecharam taxa pela indicativa da ANBIMA:** ANHBB6 -24,9 pb contra 20/10, para IPCA+ 7,07% (R$ 29,1 mi); APFD19 -24,1 pb contra 20/10, para IPCA+ 8,02% (R$ 19,4 mi); IRJS14 -19,7 pb contra 20/10, para IPCA+ 11,85% (R$ 5,6 mi); EGIEA4 -18,3 pb contra 20/10, para 12,99% pré (R$ 3,1 mi); SBSPJ8 -17,1 pb contra 20/10, para IPCA+ 7,32% (R$ 11,3 mi).
 **Abriram taxa pelos negócios da B3:** 22J0306937 +107 pb contra 16/10, para IPCA+ 14,98% (R$ 5,7 mi); CRA021000RX +97 pb contra 20/10, para IPCA+ 12,73% (R$ 3,4 mi); CRA022007EP +9 pb contra 20/10, para IPCA+ 7,34% (R$ 6,6 mi); 22L1465644 +6 pb contra 20/10, para CDI+ 2,43% (R$ 4,1 mi); CRA02300CCH +6 pb contra 20/10, para CDI+ 4,06% (R$ 8,3 mi).
-**Fecharam taxa pelos negócios da B3:** CRA021001PQ -68 pb contra 20/10, para IPCA+ 13,68% (R$ 3,9 mi); 23F2455004 -63 pb contra 20/10, para 16,36% pré (R$ 3,6 mi); CRA02300795 -60 pb contra 20/10, para CDI+ 4,03% (R$ 23,1 mi); CRA02300NAX -37 pb contra 20/10, para IPCA+ 7,66% (R$ 27,1 mi); CRA021002SO -37 pb contra 20/10, para IPCA+ 7,98% (R$ 3,4 mi).
+**Fecharam taxa pelos negócios da B3:** CRA021001PQ -68 pb contra 20/10, para IPCA+ 13,68% (R$ 3,9 mi); 23F2455004 -63 pb contra 20/10, para 16,36% pré (R$ 3,6 mi); CRA02300795 -60 pb contra 20/10, para CDI+ 4,03% (R$ 23,1 mi); CRA021002SO -37 pb contra 20/10, para IPCA+ 7,98% (R$ 3,4 mi); CRA02300NAX -37 pb contra 20/10, para IPCA+ 7,66% (R$ 27,1 mi).
 **Prêmio alto:** 22J0306937 a IPCA+ 14,98% (B3 negócios de 21/10), +822 pb no vencimento, R$ 5,7 mi; SUMI17 a IPCA+ 14,62% (ANBIMA indicativa de 21/10), +782 pb na duration, R$ 11,8 mi; CRA021001PQ a IPCA+ 13,68% (B3 negócios de 21/10), +689 pb no vencimento, R$ 3,9 mi; CRA021000RX a IPCA+ 12,73% (B3 negócios de 21/10), +585 pb no vencimento, R$ 3,4 mi; IRJS14 a IPCA+ 11,85% (ANBIMA indicativa de 21/10), +510 pb na duration, R$ 5,6 mi.
 
 Por classe, mediana das taxas de referência dos papéis. Taxa de referência: nas debêntures, a indicativa da ANBIMA quando há; nos demais papéis, a média dos negócios da B3 ponderada pelo volume. Juro real = DAP (cupom de IPCA) da mesma data: na duration do papel quando a taxa é a indicativa, no vencimento quando é a dos negócios (aproximação). Em CRI e CRA a B3 informa a securitizadora.
