@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 23/10 12h45
+NOTÍCIAS E FATOS · 23/10 13h21
 
-Pernas: noticias ok 6 novas (18 consultas; descartadas: 459 veículo fora da lista, 38 sem ativo, 0 teto) · cvm ok 0 novos de 7 (4 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 6 novas (18 consultas; descartadas: 464 veículo fora da lista, 33 sem ativo, 0 teto) · cvm ok 0 novos de 7 (4 cias casadas) · sec ok 0 novos em 3 dias
 
 ## NOTÍCIAS COM MATERIALIDADE (11)
 
@@ -18,7 +18,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: TSLA
 Como falar: 'saiu no Yahoo Finance: TSLA Q3 deep dive: autonomy adoption and margin dynamics shape outlook; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 22/10 20h01
-id: E05-TSLA-c7c008eb50-2026-10-22 · status: pendente
+id: E05-TSLA-c7c008eb50-2026-10-22 · status: entregue
 
 [ATENÇÃO] E05 · TSLA · Why Tesla's $5 billion capex cut isn't the warning sign AI stock bears think it is
 Yahoo Finance · 23/10 09h40 · fonte única · licença: resumo
@@ -135,8 +135,14 @@ Fonte: Yahoo Finance 22/10 17h25
 id: E05-KO-7c5c6eb679-2026-10-22 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (64)
+## OUTRAS NOTÍCIAS (só manchete) (70)
 
+· AMD MU vs. AMD: Which Stock Is the Better Value Option? (Yahoo Finance) https://sg.finance.yahoo.com/news/mu-vs-amd-stock-better-144002841.html
+· BBDC4 Perdeu o fôlego? Bradesco (BBDC4) enfrenta pressão da inadimplência, mas CEO destaca carteira mais segura (Money Times) https://www.moneytimes.com.br/perdeu-o-folego-bradesco-bbdc4-enfrenta-pressao-da-inadimplencia-e-ve-desafios-no-cenario-macro-ceo-conta-como-quer-driblar-bdap/
+· PLTR Dan Ives Says Palantir and Snowflake Are Nearing the 'End of That Gap' Between AI CapEx and True Monetization, Warns Wall Street Is Underestimating T… (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:bf51bb28e094b:0-dan-ives-says-palantir-and-snowflake-are-nearing-the-end-of-that-gap-between-ai-capex-and-true-monetization-warns-wall-street-is-underestimating-tech-earnings-by-up-to-25/
+· CVX Chevron (CVX) Earnings Expected to Grow: What to Know Ahead of Next Week's Release (Yahoo Finance) https://ca.finance.yahoo.com/news/chevron-cvx-earnings-expected-grow-130004941.html
+· BTC Current price of Bitcoin for Oct. 23, 2026 (Fortune) https://fortune.com/article/price-of-bitcoin-10-23-2026/
+· AMZN Is 3M (MMM) A Bargain Following Strong Q3 Results And Its AWS Expansion? (Yahoo Finance) https://finance.yahoo.com/news/3m-mmm-bargain-following-strong-231803118.html
 · BBDC4 Ações do Bradesco caem após balanço; veja os 4 pontos que preocupam os analistas (Exame) https://exame.com/invest/mercados/acoes-do-bradesco-caem-apos-balanco-veja-os-4-pontos-que-preocupam-os-analistas/
 · META Meta Platforms' Q3: The Market Is Being Dramatic About Negative Free Cash Flow (META) (Seeking Alpha) https://seekingalpha.com/article/4956914-meta-platforms-q3-the-market-is-being-dramatic-about-negative-free-cash-flow
 · TSLA SpaceX And Tesla Q3, And Why Some Mergers Are Not Made In Heaven (NASDAQ:SPCX) (Seeking Alpha) https://seekingalpha.com/article/4956911-spacex-and-tesla-q3-and-why-some-mergers-are-not-made-in-heaven
@@ -191,10 +197,4 @@ id: E05-KO-7c5c6eb679-2026-10-22 · status: linha
 · ETH Current price of Ethereum for Oct. 23, 2026 (Fortune) https://fortune.com/article/price-of-ethereum-10-23-2026/
 · USDBRL Dólar neozelandês sobe com aposta de 85% em alta dos juros na Nova Zelândia (ADVFN) https://br.advfn.com/jornal/2026/10/dolar-neozelandes-sobe-alta-juros-rbnz
 · META Is Meta Platforms Stock a Buy as Revenue Continues to Soar? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/meta-platforms-stock-buy-revenue-110100050.html
-· USDBRL Último pregão antes das eleições tem digestão do Datafolha e IPCA-15; Ibovespa em dólar cai nesta sexta-feira (23) (Money Times) https://www.moneytimes.com.br/ultimo-pregao-antes-das-eleicoes-tem-digestao-do-datafolha-e-ipca-15-ibovespa-em-dolar-cai-nesta-sexta-feira-23-rens/
-· TSLA Big Tech's capex spending looks different this year as Meta and Tesla save for later (Yahoo Finance) https://finance.yahoo.com/technology/article/big-techs-capex-spending-looks-different-this-year-as-meta-and-tesla-save-for-later-100000383.html
-· TSLA How Elon Musk went from Tesla CEO to the 'most powerful civilian, non-governmental actor in history' (Yahoo Finance) https://finance.yahoo.com/technology/article/how-elon-musk-went-from-tesla-ceo-to-the-most-powerful-civilian-non-governmental-actor-in-history-100000227.html
-· TSLA AI stock bears probably just missed this point on Tesla in their run for the exits (Yahoo Finance) https://finance.yahoo.com/technology/ai/article/ai-stock-bears-probably-just-missed-this-point-on-tesla-in-their-run-for-the-exits-095101368.html
-· MU Better Memory Stock: SK Hynix vs. Micron (Yahoo Finance) https://news.google.com/rss/articles/CBMimAFBVV95cUxOVkRJSXlCM0lMRlJqZlRrMEFESi1WTWN5dVlxYzVGLUxzMXNHdXZISWhPUlRGcWVTbkx0d0tRcXBZVnZVanJqa1ZjVXZHdE5fNFlnSklnNExlREQxeGNab3IxX3MzZ3k5NkIxYmdGQWQxR1pkd0hDbWNlVV8yYTlhWHcxY2NtY3dYak1tdENVdHJJZnE0Vmozdg?oc=5
-· UST Treasury yields rise as traders await more economic data ahead of Fed decision (CNBC) https://news.google.com/rss/articles/CBMib0FVX3lxTE9fUFhkR0R0cmxYeWNRb2Y2LXEyNUlGQnozcWxNUW1jaWRDcUdpYnBTWVZGR3p4OWwydEdicWRMMEozdXpxUl9td1V6SVVZM2JOT25hOWU3TUFLU1h4aHk0VC1VcjQ2bkhyMGJSVzduZ9IBdEFVX3lxTE1KUjZzM3JxQnUxN2Y0LVlocU52STl2ZUIwSlNOMFNnY3hyUlJ5TGJpZjJlc3VRaS1LdDh1ZlNvSDNCYWlmdnpIMHk4ZWFTT1E3UmplVjAwRm5MNnM5V2FsSWVpZ0Z3aWVhMjNVeWhrX1lRWWtk?oc=5
-· (+4 manchetes; lista completa em eventos/noticias.json)
+· (+10 manchetes; lista completa em eventos/noticias.json)
