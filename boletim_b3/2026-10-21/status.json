@@ -72,9 +72,9 @@
    "id": 33,
    "nome": "Derivativos de balcão",
    "pai": 3,
-   "situacao": "publicado",
+   "situacao": "republicado",
    "errata": false,
-   "atualizado_em": "2026-10-22T00:00:00",
+   "atualizado_em": "2026-10-20T21:00:00",
    "arquivo": "BDI_03-3_20261021.pdf",
    "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-10-21/BDI_03-3_20261021.pdf"
   },

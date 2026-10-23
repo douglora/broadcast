@@ -1,6 +1,6 @@
 {
  "pregao": "2026-10-22",
- "coletado_em": "2026-10-23T11:54:26Z",
+ "coletado_em": "2026-10-23T15:53:59Z",
  "tabelas": {
   "SharesInvesVolum": {
    "titulo": "Participação dos investidores",
@@ -21,7 +21,7 @@
   "EconomicIndicators": {
    "titulo": "Indicadores econômicos",
    "situacao": "republicado",
-   "atualizado_em": "2026-10-23T08:43:33.783",
+   "atualizado_em": "2026-10-23T10:53:43.103",
    "sla": "8:00:00",
    "linhas": 432,
    "truncada": false
@@ -85,9 +85,9 @@
   "NegotiStrategi": {
    "titulo": "Negociação de estratégias",
    "situacao": "republicado",
-   "atualizado_em": "2026-10-23T08:52:16.497",
+   "atualizado_em": "2026-10-23T10:53:04.69",
    "sla": "20:00:00",
-   "linhas": 445,
+   "linhas": 469,
    "truncada": false
   },
   "IbovespaStockBiggestHighs": {
@@ -157,7 +157,7 @@
   "DailyAverageDerivatives2": {
    "titulo": "Derivativos",
    "situacao": "republicado",
-   "atualizado_em": "2026-10-23T08:52:06.767",
+   "atualizado_em": "2026-10-23T10:42:18.423",
    "sla": "6:00:00",
    "linhas": 9,
    "truncada": false
@@ -165,9 +165,9 @@
   "DerivativesOperation2": {
    "titulo": "Derivativos - resumo das operações",
    "situacao": "republicado",
-   "atualizado_em": "2026-10-22T22:41:01.66",
+   "atualizado_em": "2026-10-23T10:43:10.927",
    "sla": "8:00:00",
-   "linhas": 96,
+   "linhas": 106,
    "truncada": false
   },
   "DerivativesMtM": {
@@ -188,18 +188,18 @@
   },
   "SwapFlex": {
    "titulo": "Swap",
-   "situacao": "atrasado",
-   "atualizado_em": "2026-10-23T03:01:30.823",
+   "situacao": "publicado",
+   "atualizado_em": "2026-10-23T09:42:36.773",
    "sla": "3:00:00",
-   "linhas": 0,
+   "linhas": 6,
    "truncada": false
   },
   "EletronicTerm": {
    "titulo": "Termo eletrônico",
-   "situacao": "ignorado",
-   "atualizado_em": "2026-10-23T03:01:30.823",
+   "situacao": "publicado",
+   "atualizado_em": "2026-10-23T09:42:37.143",
    "sla": "3:00:00",
-   "linhas": 0,
+   "linhas": 1,
    "truncada": false
   },
   "OTCRegistrationWCCP": {
@@ -365,9 +365,9 @@
   "Trade": {
    "titulo": "Negócio a negócio",
    "situacao": "republicado",
-   "atualizado_em": "2026-10-23T00:09:31.77",
+   "atualizado_em": "2026-10-23T11:48:00.847",
    "sla": "18:00:00",
-   "linhas": 29949,
+   "linhas": 25969,
    "truncada": false
   },
   "BTBTrade": {
@@ -407,7 +407,7 @@
  },
  "falhas": {},
  "rf_cadastro": {
-  "papeis_no_dia": 1608,
+  "papeis_no_dia": 1569,
   "consultados": 0,
   "achados": 0,
   "sem_cadastro": 0,

@@ -34,7 +34,7 @@
    "pai": 20,
    "situacao": "publicado",
    "errata": false,
-   "atualizado_em": "2026-10-23T08:42:30.563",
+   "atualizado_em": "2026-10-23T10:53:04.69",
    "arquivo": "",
    "pdf": ""
   },
@@ -44,7 +44,7 @@
    "pai": 20,
    "situacao": "republicado",
    "errata": true,
-   "atualizado_em": "2026-10-23T08:43:46.517",
+   "atualizado_em": "2026-10-23T10:53:43.103",
    "arquivo": "BDI_02_20261022.pdf",
    "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-10-22/BDI_02_20261022.pdf"
   },
@@ -64,7 +64,7 @@
    "pai": 3,
    "situacao": "republicado",
    "errata": false,
-   "atualizado_em": "2026-10-22T22:45:38.013",
+   "atualizado_em": "2026-10-23T10:43:10.927",
    "arquivo": "BDI_03-1_20261022.pdf",
    "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-10-22/BDI_03-1_20261022.pdf"
   },
@@ -72,9 +72,9 @@
    "id": 33,
    "nome": "Derivativos de balcão",
    "pai": 3,
-   "situacao": "publicado",
+   "situacao": "republicado",
    "errata": false,
-   "atualizado_em": "2026-10-22T00:00:00",
+   "atualizado_em": "2026-10-23T09:42:37.57",
    "arquivo": "BDI_03-3_20261021.pdf",
    "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-10-22/BDI_03-3_20261021.pdf"
   },
