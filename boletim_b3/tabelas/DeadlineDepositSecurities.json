@@ -1,5 +1,5 @@
 {
- "pregao": "2026-10-22",
+ "pregao": "2026-10-23",
  "nome": "DeadlineDepositSecurities",
  "titulo": "Prazo para depósito de títulos",
  "sla": "00:00:00",
@@ -7,19 +7,15 @@
  "colunas": [{"nome": "UpdateDate", "titulo": "Data"}, {"nome": "TckrSymb", "titulo": "Empresa"}, {"nome": "Code", "titulo": "Código IF"}, {"nome": "Earnings", "titulo": "Tipo de provento"}],
  "texto": ["Informações sobre prazos estabelecidos para depósito de títulos financeiros em uma instituição de custódia. Os detentores de títulos representativos de ações, com direito aos proventos envolvendo as empresas abaixo relacionadas, poderão efetuar o depósito junto à Custódia nos seguintes prazos."],
  "situacao": "publicado",
- "atualizado_em": "2026-10-22T00:00:28.87",
+ "atualizado_em": "2026-10-23T00:00:32.37",
  "truncada": false,
  "linhas": [
-  ["2026-10-23", "AXIA ENERGIA S.A.", "BRAXIACDAM14 105", "ATUALIZACAO"],
-  ["2026-10-23", "AXIA ENERGIA S.A.", "BRAXIAACNPC9 105", "ATUALIZACAO"],
-  ["2026-10-23", "AXIA ENERGIA S.A.", "BRAXIACDAXX0 105", "ATUALIZACAO"],
-  ["2026-10-23", "BRASILAGRO - CIA BRAS DE PROP AGRICOLAS", "BRAGROACNOR7 116", "DIVIDENDO"],
-  ["2026-10-23", "GE HEALTHCARE TECHNOLOGIES INC", "BRGEHCBDR009 108", "DIVIDENDO"],
-  ["2026-10-23", "PENTAIR PLC", "BRP1NRBDR003 126", "DIVIDENDO"],
-  ["2026-10-23", "PROCTER & GAMBLE COMPANY", "BRPGCOBDR001 164", "DIVIDENDO"],
-  ["2026-10-23", "REVVITY, INC.", "BRR1VTBDR000 113", "DIVIDENDO"],
-  ["2026-10-23", "SPECIALE BLUE REAL ASSET FII RESP LIM", "BRLTMTR06M14 101", "ATUALIZACAO"],
-  ["2026-10-23", "SPECIALE REAL ESTATE DEVELOPMENT II FII", "BRDVLTR10M15 101", "ATUALIZACAO"],
-  ["2026-10-23", "SPECIALE REAL ESTATE DEVELOPMENT II FII", "BRDVLTR09M18 101", "ATUALIZACAO"]
+  ["2026-10-26", "ALLOS S.A", "BRALOSACNOR5 126", "DIVIDENDO"],
+  ["2026-10-26", "BTG PACTUAL IE DIV. FDO INV. PART. IE", "BRBDIVCTF009 126", "RENDIMENTO"],
+  ["2026-10-26", "GALAPAGOS DESENV RES - FII RESP LIM", "BRGSRFR10M17 100", "ATUALIZACAO"],
+  ["2026-10-26", "GENERAL SHOP E OUTLETS DO BRASIL FII RESP LIM", "BRGSFIR12M16 105", "ATUALIZACAO"],
+  ["2026-10-26", "ITAÚ TEMPUS FUNDO DE INVESTIMENTO IMOBILIÁRIO RESP", "BRTMPSCTF003 143", "AMORTIZAÇÃO"],
+  ["2026-10-26", "M.DIAS BRANCO S.A. IND COM DE ALIMENTOS", "BRMDIAACNOR7 158", "DIVIDENDO"],
+  ["2026-10-26", "PAYCHEX INC", "BRP1AYBDR006 127", "DIVIDENDO"]
  ]
 }

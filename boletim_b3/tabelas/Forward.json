@@ -1,5 +1,5 @@
 {
- "pregao": "2026-10-22",
+ "pregao": "2026-10-23",
  "nome": "Forward",
  "titulo": "Ações mais negociadas - a termo",
  "sla": "8:00:00",
@@ -7,13 +7,13 @@
  "colunas": [{"nome": "TckrSymb", "titulo": "Ação"}, {"nome": "Cod", "titulo": "Código"}, {"nome": "Term", "titulo": "Prazo"}, {"nome": "Closing", "titulo": ""}, {"nome": "TradQty", "titulo": ""}, {"nome": "VlmTradedDay", "titulo": "Volume (R$) mil"}, {"nome": "Part", "titulo": "Participação (%)"}],
  "texto": ["Lista ações com maior volume de negociação em contratos a termo, destacando as mais ativas."],
  "situacao": "republicado",
- "atualizado_em": "2026-10-23T01:02:10.837",
+ "atualizado_em": "2026-10-23T21:43:23.707",
  "truncada": false,
  "linhas": [
-  ["ALUPAR      UNT     N2", "UNT     N2", 90, 39.83, 640000, 25491.2, 3.187737411724579],
-  ["VIBRA       ON      NM", "ON      NM", 32, 36.67, 1200000, 44004, 5.977007646983582],
-  ["LOCALIZA    ON      NM", "ON      NM", 32, 52.2, 2652700, 138470.94, 13.212673487627793],
-  ["EQUATORIAL  ON      NM", "ON      NM", 32, 48.68, 2830300, 137779.004, 14.097270619381364],
-  ["WEG         ON      NM", "ON      NM", 32, 44.78, 3064500, 137228.31, 15.263783278484325]
+  ["ISHARES BOVACI", "CI", 17, 203.07, 19158, 3890.4150600000003, 0.2738921115554935],
+  ["ISHARES BOVACI", "CI", 56, 205.1, 48800, 10008.88, 0.6976686002666296],
+  ["ISHARES SMALCI", "CI", 17, 138.4, 100043, 13845.951200000001, 1.430263520009722],
+  ["B3          ON      NM", "ON      NM", 17, 23.81, 193500, 4607.235, 2.766370371958869],
+  ["VIBRA       ON      NM", "ON      NM", 31, 36.37, 1300000, 47281, 18.585434023496276]
  ]
 }

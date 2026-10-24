@@ -1,6 +1,6 @@
 {
  "pregao": "2026-10-22",
- "coletado_em": "2026-10-23T15:53:59Z",
+ "coletado_em": "2026-10-24T00:51:56Z",
  "tabelas": {
   "SharesInvesVolum": {
    "titulo": "Participação dos investidores",
@@ -419,7 +419,7 @@
   "situacao": "publicado",
   "data": "2026-10-22",
   "papeis": 1259,
-  "publicado_em": "2026-10-22T19:54:47",
+  "publicado_em": "2026-10-23T19:44:26",
   "comparado_com": "2026-10-21",
   "tentativas": {
    "2026-10-22": "publicado",

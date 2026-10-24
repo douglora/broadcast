@@ -1,5 +1,5 @@
 {
- "pregao": "2026-10-22",
+ "pregao": "2026-10-23",
  "nome": "InCashMarketBiggestLow",
  "titulo": "Mercado à vista - maiores baixas",
  "sla": "8:00:00",
@@ -7,18 +7,18 @@
  "colunas": [{"nome": "TckrSymb", "titulo": "Ação"}, {"nome": "Cod", "titulo": "Código"}, {"nome": "Price", "titulo": "Preço (R$)"}, {"nome": "OscillationDesc", "titulo": "Oscilação (%)"}],
  "texto": ["Mostra as maiores desvalorizações de ativos no mercado à vista num período."],
  "situacao": "publicado",
- "atualizado_em": "2026-10-22T19:20:49.503",
+ "atualizado_em": "2026-10-23T19:00:29.15",
  "truncada": false,
  "linhas": [
-  ["AZUL97", "UNT     N2", 1.96, -35.31],
-  ["AZUL99", "UNT     N2", 2, -33.33],
-  ["JFEN3", "ON", 3.05, -25.6],
-  ["AZEV3", "ON", 13.57, -18.74],
-  ["M1RN34", "DRN", 50.9, -17.9],
-  ["VIVR12", "BNS ORD NM", 0.1, -16.66],
-  ["A1LK34", "DRN", 178.8, -14.51],
-  ["NOKI34", "DRN", 40.64, -12.88],
-  ["L1VS34", "DRN", 37.44, -12.6],
-  ["NTST34", "DRN", 42.64, -11.51]
+  ["L1KQ34", "DRN", 87.89, -19.36],
+  ["C2GN34", "DRN", 34.97, -14.87],
+  ["C1AB34", "DRN", 24.34, -14.68],
+  ["M1LC34", "DRN", 9.34, -12.54],
+  ["P1KX34", "DRN", 64.68, -12.5],
+  ["AZEV3", "ON", 12.01, -11.49],
+  ["PSVM11", "TPR", 12.6, -10],
+  ["K1SG34", "DRN", 780.52, -9.61],
+  ["KNRE11", "CI", 0.19, -9.52],
+  ["AZTE11", "BNS ORD", 0.1, -9.09]
  ]
 }
