@@ -1,6 +1,6 @@
 {
  "pregao": "2026-10-23",
- "coletado_em": "2026-10-24T11:52:30Z",
+ "coletado_em": "2026-10-24T14:50:10Z",
  "tabelas": {
   "SharesInvesVolum": {
    "titulo": "Participação dos investidores",
@@ -21,7 +21,7 @@
   "EconomicIndicators": {
    "titulo": "Indicadores econômicos",
    "situacao": "republicado",
-   "atualizado_em": "2026-10-24T08:43:00.903",
+   "atualizado_em": "2026-10-24T10:52:29.73",
    "sla": "8:00:00",
    "linhas": 432,
    "truncada": false
@@ -133,7 +133,7 @@
   "Forward": {
    "titulo": "Ações mais negociadas - a termo",
    "situacao": "republicado",
-   "atualizado_em": "2026-10-24T08:44:00.19",
+   "atualizado_em": "2026-10-24T10:53:28.113",
    "sla": "8:00:00",
    "linhas": 5,
    "truncada": false
