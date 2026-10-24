@@ -449,8 +449,8 @@ class Coleta:
         if self.modo in ("fechamento", "manha", "backfill"):
             try:
                 titulos = list(cfg.get("tesouro", {}).get("titulos", [])) + list(cfg.get("tesouro", {}).get("controles", []))
-                tes = tesouro.coletar(titulos)
                 antigo_tes = ler_json(caminho_tes, {}) or {}
+                tes = tesouro.coletar(titulos, anterior=antigo_tes)
                 if antigo_tes.get("data_base") and str(tes.get("data_base") or "") < str(antigo_tes["data_base"]):
                     # o CSV voltou mais velho que o guardado (cache do CKAN): nao regride
                     tes = antigo_tes
@@ -458,6 +458,10 @@ class Coleta:
                     gravar_json(caminho_tes, tes)
                 self.curvas["tesouro"] = tes
                 self.pernas["tesouro"] = f"ok base {tes.get('data_base')}"
+                if tes.get("reserva"):     # 23/10/2026: o dia pelo site do Tesouro Direto (CSV parado ou em falha)
+                    r = tes["reserva"]
+                    self.pernas["tesouro"] += (f" (site do Tesouro Direto {r.get('hora_site') or ''}; {r.get('motivo', '')[:90]}"
+                                               + (f"; sem o site: {', '.join(r['sem_site'])}" if r.get("sem_site") else "") + ")")
                 # a base esperada e D-1 (o Tesouro Transparente publica o dia anterior).
                 # Em 23/09 a base era 18/09 e o manifest dizia "ok": dois pregoes de
                 # atraso sem lacuna nem alerta (auditoria de 23/09)
@@ -471,7 +475,7 @@ class Coleta:
                             faltam.append(d.isoformat())
                     if faltam:
                         self.pernas["tesouro"] += f" (atrasada: faltam {', '.join(fmt.data_br(x) for x in faltam)})"
-                        self.falhas["tesouro"] = (f"Tesouro Transparente com data-base {fmt.data_br(tes['data_base'])}; "
+                        self.falhas["tesouro"] = (f"Tesouro ({tes.get('fonte') or 'Tesouro Transparente'}) com data-base {fmt.data_br(tes['data_base'])}; "
                                                   f"faltam {', '.join(fmt.data_br(x) for x in faltam)} (taxas não são as de hoje)")
             except Exception as e:
                 self.curvas["tesouro"] = ler_json(caminho_tes, {}) or {}
@@ -959,7 +963,9 @@ class Coleta:
                    + [f"{k}: {v}" for k, v in self.falhas.items() if not k.startswith("regra_")])
         mov = render.movers(janelas, self.u)
         relogios_txt = self._relogios_txt()
-        fontes = ["Yahoo Finance", "B3 Boletim Diário", "Tesouro Transparente", "Treasury.gov CMT", "BCB"]
+        fontes = ["Yahoo Finance", "B3 Boletim Diário",
+                  "site do Tesouro Direto" if (self.curvas.get("tesouro") or {}).get("reserva") else "Tesouro Transparente",
+                  "Treasury.gov CMT", "BCB"]
         # "parcial" = pregao dos EUA ainda aberto; vale para todos os blocos de la
         eua = [a for b in ("etf_eua", "eua_semis", "eua_tech", "eua_banco", "eua_outros")
                for a in self.u.por_bloco(b)]

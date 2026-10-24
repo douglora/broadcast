@@ -165,7 +165,7 @@ class M01AgendaMacro(Regra):
                 partes.append(f"{c[3:]} {fmt.taxa(h[-1][1])}%")
         tes = ((ctx.curvas.get("tesouro") or {}).get("titulos") or {})
         pre, ipca = tes.get("PRE2029"), tes.get("IPCA2029")
-        if pre and ipca and pre.get("historico") and ipca.get("historico"):
+        if pre and ipca and pre.get("historico") and ipca.get("historico") and pre["historico"][-1][0] == ipca["historico"][-1][0]:
             be = ind.breakeven(pre["historico"][-1][1], ipca["historico"][-1][1])
             partes.append(f"implícita 2029 {fmt.taxa(be)}%")
         foc = ((ctx.macro.get("focus") or {}).get("expectativas") or {}).get("IPCA") or {}

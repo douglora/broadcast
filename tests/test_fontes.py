@@ -167,3 +167,91 @@ def test_cury_candidato_nao_vira_noticia_da_construtora():
     assert "CURY3" in at("Cury (CURY3) cai 4% com juros futuros em alta")
     assert "CURY3" in at("Construtora Cury bate recorde de lançamentos no 3T26")
     assert "CURY3" in at("Cury, Direcional e MRV: o que esperar das construtoras de baixa renda")
+
+
+# 23/10/2026 (auditoria do terminal, salto 10): o CSV do Tesouro Transparente parou em 15/10 e, desde 21/10, devolve a pagina anti-robo.
+# Reserva: o dia pelo site do Tesouro Direto, somado ao historico (do CSV quando ele responde velho, do guardado quando ele falha).
+_TIT_TD = [{"id": "PRE2029", "tipo": "Tesouro Prefixado", "ano": 2029}, {"id": "PRE2031", "tipo": "Tesouro Prefixado", "ano": 2031},
+           {"id": "IPCA2032", "tipo": "Tesouro IPCA+", "ano": 2032}, {"id": "IPCA2050", "tipo": "Tesouro IPCA+", "ano": 2050}]
+
+
+def _site_td(base="2026-10-23T18:00:08.193"):
+    def it(nome, venc, taxa_inv, pu_inv, taxa_res, pu_res):
+        return {"treasuryBondName": nome, "maturityDate": venc + "T00:00", "lastMarketPricingDate": base,
+                "investmentProfitabilityIndexerName": taxa_inv, "unitaryInvestmentValue": pu_inv,
+                "redemptionProfitabilityFeeIndexerName": taxa_res, "unitaryRedemptionValue": pu_res}
+    investir = {"TesouroLegado": [it("Tesouro Prefixado 2029", "2029-01-01", "13,02%", 760.5, "13,14%", 759.1),
+                                  it("Tesouro IPCA+ 2032", "2032-08-15", "IPCA + 7,41%", 3101.2, "IPCA + 7,53%", 3080.0),
+                                  it("Tesouro IPCA+ com Juros Semestrais 2032", "2032-08-15", "IPCA + 7,20%", 4400.0, "IPCA + 7,32%", 4390.0)],
+                "Tesouro24x7": [it("Tesouro Prefixado 2029", "2029-01-01", "13,50%", 750.0, "13,60%", 749.0)]}
+    resgatar = {"TesouroLegado": investir["TesouroLegado"] + [it("Tesouro Prefixado 2031", "2031-01-01", "", 0, "13,77%", 601.3)]}
+    return {"investir": investir, "resgatar": resgatar}
+
+
+class _CliTD:
+    """O CSV do jeito que vier (texto, ou None = pagina anti-robo) e o site do Tesouro Direto (None = fora)."""
+    def __init__(self, csv, site):
+        self.csv, self.site = csv, site
+
+    def get(self, url, **kw):
+        from livro.http import Resposta
+        return Resposta(404, b"")
+
+    def get_ok(self, url, **kw):
+        import json as _j
+        from livro.http import HttpError, Resposta
+        if url.startswith(tesouro.SITE_URL):
+            if self.site is None:
+                raise HttpError(403, "bloqueado", url)
+            return Resposta(200, _j.dumps(self.site[url[len(tesouro.SITE_URL):]]).encode())
+        if self.csv is None:
+            return Resposta(200, b"<html><body>Request Rejected. F5 support ID</body></html>")
+        return Resposta(200, self.csv.encode())
+
+
+def test_tesouro_site_quando_o_csv_falha(fixtures_dir):
+    guardado = tesouro.parse_csv(_ler(fixtures_dir, "tesouro_amostra.csv"), _TIT_TD)
+    anterior = {"fonte": tesouro.FONTE_CSV, "data_base": "2026-09-17", "titulos": guardado}
+    d = tesouro.coletar(_TIT_TD, _CliTD(None, _site_td()), anterior=anterior)
+    assert d["fonte"] == tesouro.FONTE_SITE and d["data_base"] == "2026-10-23"
+    r = d["reserva"]
+    assert r["csv_ate"] == "2026-09-17" and r["hora_site"] == "18:00" and "em falha" in r["motivo"]
+    assert r["do_site"] == ["IPCA2032", "PRE2029", "PRE2031"] and r["sem_site"] == ["IPCA2050"]
+    p29 = d["titulos"]["PRE2029"]["historico"]
+    assert p29[-1] == ["2026-10-23", 13.02, 760.5, "compra"]           # o TesouroLegado ganha do Tesouro24x7
+    assert p29[-2][:2] == ["2026-09-17", 13.85] and len(p29) == len(guardado["PRE2029"]["historico"]) + 1
+    assert d["titulos"]["PRE2031"]["historico"][-1] == ["2026-10-23", 13.77, 601.3, "venda"]   # fora de venda: taxa de recompra
+    assert d["titulos"]["IPCA2032"]["historico"][-1][1] == 7.41                # 'com Juros Semestrais' nao casa com 'Tesouro IPCA+'
+    assert d["titulos"]["IPCA2050"]["historico"] == []
+    # a rodada seguinte, ainda sem CSV, guarda a data em que o CSV parou e nao duplica o dia
+    d2 = tesouro.coletar(_TIT_TD, _CliTD(None, _site_td()), anterior=d)
+    assert d2["reserva"]["csv_ate"] == "2026-09-17" and d2["titulos"]["PRE2029"]["historico"] == p29
+
+
+def test_tesouro_site_completa_o_csv_parado(fixtures_dir):
+    csv = _ler(fixtures_dir, "tesouro_amostra.csv")
+    d = tesouro.coletar(_TIT_TD, _CliTD(csv, _site_td()))
+    assert d["fonte"] == tesouro.FONTE_SITE and d["data_base"] == "2026-10-23"
+    assert d["reserva"]["csv_ate"] == "2026-09-17" and "parado na base 2026-09-17" in d["reserva"]["motivo"]
+    assert d["titulos"]["PRE2029"]["historico"][-2][:2] == ["2026-09-17", 13.85]
+    # site sem data mais nova que a do CSV, ou site fora: fica o CSV como sempre
+    assert "reserva" not in tesouro.coletar(_TIT_TD, _CliTD(csv, _site_td("2026-09-17T18:00:00")))
+    assert tesouro.coletar(_TIT_TD, _CliTD(csv, None))["fonte"] == tesouro.FONTE_CSV
+
+
+def test_tesouro_csv_e_site_fora_levanta(fixtures_dir):
+    import pytest
+    with pytest.raises(ValueError, match="site do Tesouro Direto em falha"):
+        tesouro.coletar(_TIT_TD, _CliTD(None, None), anterior={})
+
+
+def test_tesouro_site_nao_mistura_resgate_com_compra(fixtures_dir):
+    """Titulo fora de venda: o site so traz a taxa de resgate, 0,12 pp acima da de compra (medido em 23/10/2026). Com o historico
+    em taxa de compra, o ponto do site nao entra (o titulo fica na base antiga e o render o tira da tabela)."""
+    guardado = tesouro.parse_csv(_ler(fixtures_dir, "tesouro_amostra.csv"), _TIT_TD)
+    guardado["PRE2031"]["historico"] = [["2026-09-17", 13.60, 610.0, "compra"]]
+    anterior = {"fonte": tesouro.FONTE_CSV, "data_base": "2026-09-17", "titulos": guardado}
+    d = tesouro.coletar(_TIT_TD, _CliTD(None, _site_td()), anterior=anterior)
+    assert d["titulos"]["PRE2031"]["historico"] == [["2026-09-17", 13.60, 610.0, "compra"]]
+    assert d["reserva"]["so_resgate"] == ["PRE2031"] and "PRE2031" not in d["reserva"]["do_site"] + d["reserva"]["sem_site"]
+    assert d["titulos"]["PRE2029"]["historico"][-1][3] == "compra"

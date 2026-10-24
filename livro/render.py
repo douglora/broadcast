@@ -124,10 +124,21 @@ def curvas_linhas(curvas: dict, universo, macro: dict, regime: dict, hoje: date)
     base_td = tes.get("data_base")
     limite_td = relogios.dia_util_anterior("B3", relogios.dia_util_anterior("B3", hoje)).isoformat()
     if titulos and base_td and base_td < limite_td:
-        lacunas.append(f"Tesouro Direto parado na base {fmt.data_br(base_td)} (fonte do Tesouro Transparente sem dado novo): "
+        lacunas.append(f"Tesouro Direto parado na base {fmt.data_br(base_td)} (Tesouro Transparente e site do TD sem dado novo): "
                        "fora da tabela e da inflação implícita")
         ins["tesouro_parado"] = base_td
         titulos = {}
+    # 23/10/2026: com o site do Tesouro Direto de reserva, um titulo pode ficar para tras (so taxa de resgate no site): a mesma regra,
+    # titulo a titulo, para nao misturar a taxa de um dia com a de outro na tabela e na inflacao implicita
+    parados = {tid: t for tid, t in titulos.items() if (t.get("historico") or []) and t["historico"][-1][0] < limite_td}
+    if parados:
+        motivo = " (só a taxa de resgate no site do TD; a de compra volta com o CSV do Tesouro Transparente)" \
+            if set(parados) <= set((tes.get("reserva") or {}).get("so_resgate") or []) else ""
+        datas = sorted({t["historico"][-1][0] for t in parados.values()})
+        lacunas.append(f"Tesouro: {', '.join(t.get('apelido', tid) for tid, t in parados.items())} parado(s) na base "
+                       f"{', '.join(fmt.data_br(d) for d in datas)}{motivo}: fora da tabela e da inflação implícita")
+        ins["tesouro_titulos_parados"] = sorted(parados)
+        titulos = {tid: t for tid, t in titulos.items() if tid not in parados}
     if titulos:
         base = tes.get("data_base")
         pre, ipca = [], []
@@ -144,8 +155,12 @@ def curvas_linhas(curvas: dict, universo, macro: dict, regime: dict, hoje: date)
             ins.setdefault("tesouro", {})[tid] = {"taxa": h[-1][1], "delta": d1, "pu": h[-1][2],
                                                   "apelido": t.get("apelido", tid), "tipo": t.get("tipo", "")}
         ant = ins.get("tesouro_base_anterior")
+        res = tes.get("reserva") or {}     # 23/10/2026: o dia pelo site do Tesouro Direto (CSV do Tesouro Transparente parado ou fora)
         linhas += quebrar(f"TD (base {fmt.data_br(base)}"
+                          + (f", site do TD {res['hora_site'].replace(':', 'h')}" if res.get("hora_site") else ", site do TD" if res else "")
                           + (f", Δ desde {fmt.data_br(ant)}" if ant else "") + ") " + " · ".join(pre + ipca), indent="    ")
+        if res:
+            ins["tesouro_fonte"] = {"fonte": tes.get("fonte"), "hora": res.get("hora_site"), "csv_ate": res.get("csv_ate")}
         ins["tesouro_base"] = base
         # breakevens
         bes = []

@@ -279,3 +279,33 @@ def test_tesouro_parado_sai_da_tabela_e_da_implicita(universo):
         linhas, lac, ins = render.curvas_linhas(curvas(base, "2026-10-19"), universo, {}, {}, hoje)
         assert ins.get("tesouro") and ins.get("tesouro_base") == base and "tesouro_parado" not in ins
         assert not any("parado" in x for x in lac)
+
+
+def test_tesouro_pelo_site_vem_rotulado(universo):
+    """23/10/2026: com o CSV do Tesouro Transparente fora, o dia vem do site do Tesouro Direto e a linha diz isso (com a hora) e
+    o Δ conta desde a ultima base do historico (a do CSV, que parou)."""
+    from livro import render
+    tid = (universo.curvas.get("tesouro", {}).get("breakevens") or [])[0]["pre"]
+    tes = {"data_base": "2026-10-23", "fonte": "site do Tesouro Direto",
+           "reserva": {"hora_site": "18:00", "csv_ate": "2026-10-15", "motivo": "CSV do Tesouro Transparente em falha"},
+           "titulos": {tid: {"apelido": tid, "tipo": "Tesouro Prefixado", "historico": [["2026-10-15", 12.64, 770.85], ["2026-10-23", 13.02, 760.5]]}}}
+    linhas, lac, ins = render.curvas_linhas({"tesouro": tes}, universo, {}, {}, date(2026, 10, 23))
+    txt = " ".join(linhas)
+    assert "TD (base 23/10, site do TD 18h00, Δ desde 15/10)" in txt and "tesouro_parado" not in ins
+    assert ins["tesouro_fonte"] == {"fonte": "site do Tesouro Direto", "hora": "18:00", "csv_ate": "2026-10-15"}
+
+
+def test_tesouro_titulo_parado_sai_da_tabela(universo):
+    """23/10/2026: com o site de reserva, um titulo pode ficar na base antiga (so taxa de resgate no site): sai da tabela e da
+    inflacao implicita, com a lacuna dizendo o porque, e os outros seguem."""
+    from livro import render
+    be = (universo.curvas.get("tesouro", {}).get("breakevens") or [])[0]
+    tes = {"data_base": "2026-10-23", "fonte": "site do Tesouro Direto",
+           "reserva": {"hora_site": "18:00", "csv_ate": "2026-10-15", "so_resgate": [be["ipca"]]},
+           "titulos": {be["pre"]: {"apelido": be["pre"], "historico": [["2026-10-15", 12.64, 770.85, "compra"], ["2026-10-23", 13.02, 760.5, "compra"]]},
+                       be["ipca"]: {"apelido": be["ipca"], "historico": [["2026-10-15", 7.30, 3000.0, "compra"]]}}}
+    linhas, lac, ins = render.curvas_linhas({"tesouro": tes}, universo, {}, {}, date(2026, 10, 23))
+    txt = " ".join(lac)
+    assert f"{be['ipca']} parado(s) na base 15/10 (só a taxa de resgate no site do TD" in txt
+    assert ins["tesouro_titulos_parados"] == [be["ipca"]] and be["ipca"] not in ins["tesouro"] and be["pre"] in ins["tesouro"]
+    assert not any("implícita" in l.lower() and be["ipca"] in l for l in linhas)
