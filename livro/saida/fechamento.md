@@ -1,10 +1,17 @@
 BLOCO A
 ```
-FECHAMENTO DO LIVRO · sex 23/10 · 20h50 BRT
-Relógios: Yahoo 20h50 · DI ajuste D0 · Tesouro base
-  15/10 · UST CMT D0 · PTAX 23/10
+FECHAMENTO DO LIVRO · sex 23/10 · 23h19 BRT
+Relógios: Yahoo 23h19 · DI ajuste D0 · Tesouro base
+  23/10 · UST CMT D0
 
-ALERTAS DO DIA (27)
+ALERTAS DO DIA (29 · 1 crítico)
+[CRÍTICO] C05 IPCA+ 2040 FECHA 20 bps (PU +2,9%) ·
+          IPCA+ 2050 FECHA 32 bps (PU +7,6%) (base
+          23/10)
+[ATENÇÃO] C06 Inflação implícita: implícita 2029 +22
+          bps na semana · implícita 2032 +228 bps
+          acima do Focus · implícita 2031/32
+          (descasado) +208 bps acima do Focus
 [ATENÇÃO] T04 RARA11 fechou na mínima da série de 68
           sessões: R$ 11,48, -28% em 1m e - em 12m
 [ATENÇÃO] T02 CNDX (iShares NASDAQ 100 UCITS ETF USD
@@ -21,14 +28,9 @@ ALERTAS DO DIA (27)
           aposta de vitória de Flávio Bolsonaro;
           dólar encerra abaixo de R$ 5
 [ATENÇÃO] S01 coleta do slot fechamento saiu
-          incompleta: tesouro: falha: ValueError:
-          cabecalho inesperado no CSV do Tesouro
-[ATENÇÃO] E05 BBDC4 · Bradesco (BBDC4) tem lucro
-          líquido recorrente de R$ 7,1 bi no 3T26,
-          alta de 14,6%
-[ATENÇÃO] E05 BBDC4 · Bradesco registra lucro
-          recorrente de R$ 7,1 bilhões no 3T26
-(+19 em alertas.md)
+          incompleta: bcb: BCB devolveu 3 de 5
+          séries (faltaram ptax_venda, selic_meta)
+(+21 em alertas.md)
 
 ALTAS  BBAS3 +3,3% · BRENT +3,3% · NOK +3,3% · CVX
        +2,9% · MU +2,5%
@@ -60,6 +62,11 @@ DI (D0, Δ dia·sem bps) F28 12,86 (-3·-6) F29 12,64
     (-2·-8) F30 12,64 (-2·-10) F32 12,70 (-4·-14)
     F35 12,74 (-2·-15)
     FECHOU; F35-F28 -11 bps (+1)
+TD (base 23/10, site do TD 18h00, Δ desde 15/10) Pre
+    2029 12,76 (+12) · Pre 2032 12,89 (+2) · IPCA+
+    2032 6,72 (-8) · IPCA+ 2040 6,53 (-20) · IPCA+
+    2050 6,42 (-32)
+    Implícita 2032 5,78% vs Focus IPCA 2027 4,32%
 UST (D0) 2y 4,69 (+4) · 10y 5,00 (+4) · 30y 5,33
     (+4) · 2s10s +31 (0)
 Regime: VIX 19,5 (+2,2%) · score risco 0 de 6 ·
@@ -88,13 +95,14 @@ qui 29/10 10:15 BCE: decisao de politica monetaria
 qui 29/10 11:00 Leilao do Tesouro: NTN-B
 qui 29/10 resultado INTC (Yahoo, estimado)
 
-LACUNAS: Tesouro Direto parado na base 15/10 (fonte
-  do Tesouro Transparente sem dado novo): fora da
-  tabela e da inflação implícita; tesouro: falha:
-  ValueError: cabecalho inesperado no CSV do
-  Tesouro.
-Fontes: Yahoo Finance · B3 Boletim Diário · Tesouro
-  Transparente · Treasury.gov CMT · BCB
+LACUNAS: Tesouro: Pre 2031, IPCA+ 2035, IPCA+ 2029
+  parado(s) na base 15/10 (só a taxa de resgate no
+  site do TD; a de compra volta com o CSV do Tesouro
+  Transparente): fora da tabela e da inflação
+  implícita; bcb: BCB devolveu 3 de 5 séries
+  (faltaram ptax_venda, selic_meta).
+Fontes: Yahoo Finance · B3 Boletim Diário · site do
+  Tesouro Direto · Treasury.gov CMT · BCB
 ```
 
 BLOCO B
@@ -178,9 +186,9 @@ Macro
 USDBRL USD/BRL  4,9892 -1,0 -1,6 -3,4 -0,8 -7,6 -8,9
 DXY    DXY      101,75 +0,1 -0,1 +0,6 +3,3 +2,8 +3,5
 BRENT  Brent    116,91 +3,3 +6,4  +19  +11  +77  +92
-BTC*   BTC      81.051 -0,3 -0,6 -3,9 +4,6  -26 -7,4
-ETH*   ETH       2.384 -0,1 -1,5  -11 +3,0  -38  -20
-MINER* Minerio   90,73 -0,1 +0,2 -6,8  -15  -14  -15
+BTC    BTC      81.051 -0,3 -0,6 -3,9 +4,6  -26 -7,4
+ETH    ETH       2.384 -0,1 -1,5  -11 +3,0  -38  -20
+MINER* Minerio   90,83 +0,1 -0,1 -6,6  -15  -14  -15
 ```
 UCITS por extenso: VWRA Vanguard FTSE All-World
 UCITS ETF USD Accumulating · CSPX iShares Core S&P

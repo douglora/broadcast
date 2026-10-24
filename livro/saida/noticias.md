@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 23/10 20h50
+NOTÍCIAS E FATOS · 23/10 23h19
 
-Pernas: noticias ok 12 novas (18 consultas; descartadas: 453 veículo fora da lista, 37 sem ativo, 10 teto) · cvm ok 0 novos de 8 (4 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 12 novas (18 consultas; descartadas: 449 veículo fora da lista, 40 sem ativo, 6 teto) · cvm ok 0 novos de 8 (4 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (1)
 
@@ -209,8 +209,20 @@ Fonte: Yahoo Finance 22/10 17h25
 id: E05-KO-7c5c6eb679-2026-10-22 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (137)
+## OUTRAS NOTÍCIAS (só manchete) (149)
 
+· PLTR Palantir stock faces brutal test after crushing expectations (Yahoo Finance) https://sg.finance.yahoo.com/news/palantir-stock-faces-brutal-test-014700094.html
+· GOOGL The Bet Alphabet Holders Made (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/bet-alphabet-holders-made-011025851.html
+· TSLA Stocktwits Zero To Sixty: Tesla And SpaceX Form Merger Committees As Profits Drop, While Rivian Buys AI Startup And GM, Ford Advance EV Plans (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/stocktwits-zero-sixty-tesla-spacex-005858287.html
+· TSLA Tesla Just Reversed Its 2026 CapEx Surge — Why Gordon Johnson Asks If It's the 'End of the AI Trade' (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/tesla-just-reversed-2026-capex-003005120.html
+· META Elon Musk Eyes SpaceX-Tesla Merger, Huang Pitches ‘Financeable’ Chips, Zuckerberg Wants More Compute: Mag 7 Voices This Week (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:607f94983094b:0-elon-musk-eyes-spacex-tesla-merger-huang-pitches-financeable-chips-zuckerberg-wants-more-compute-mag-7-voices-this-week/
+· BTC Bitcoin Usually Bottoms After Midterm Elections. What Happens if This Cycle Breaks the Pattern? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-usually-bottoms-midterm-elections-000053376.html
+· AMZN Amazon cloud capacity sold out through 2027, CEO Jassy says (TradingView (Reuters)) https://www.tradingview.com/news/reuters.com,2026:newsml_L4N4691SV:0-amazon-cloud-capacity-sold-out-through-2027-ceo-jassy-says/
+· META Meta Platforms Inc (META) Q3 2026 Earnings Call Highlights: Revenue Surges 26% to $64. ... By GuruFocus (Investing.com) https://ca.investing.com/news/company-news/meta-platforms-inc-meta-q3-2026-earnings-call-highlights-revenue-surges-26-to-64--4900888
+· BBAS3 Ibovespa reage antes das eleições; Petrobras (PETR4) sobe 1,47% e Banco do Brasil (BBAS3) dispara (Suno Noticias) https://www.suno.com.br/noticias/ibovespa-hoje-23-outubro-petrobras-petr4-bbas3/
+· USDBRL Dólar à vista fecha em baixa de 0,97%, a R$4,9896 na venda (UOL Economia) https://economia.uol.com.br/noticias/reuters/2026/10/23/dolar-a-vista-fecha-em-baixa-de-097-a-r49896-na-venda.htm
+· AMZN Post-it Notes maker 3M eyes AI gold rush in major Amazon deal (Yahoo Finance) https://sg.finance.yahoo.com/news/post-notes-maker-3m-eyes-193700619.html
+· AMZN Amazon Stocks Edge Lower Ahead of Earnings After 37% AWS Revenue Growth (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:88d472b7c094b:0-amazon-stocks-edge-lower-ahead-of-earnings-after-37-aws-revenue-growth/
 · AMZN Amazon cloud capacity sold out through 2027, CEO Jassy says (Reuters) https://www.reuters.com/business/retail-consumer/amazon-cloud-capacity-sold-out-through-2027-ceo-jassy-says-2026-10-23/
 · USDBRL Dólar fecha abaixo de R$ 5 e recua 1,58% na semana (Agencia Brasil) https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/dolar-fecha-abaixo-de-r-5-e-recua-158-na-semana
 · USDBRL Moedas Globais: dólar sobe por tensão em geopolítica e à espera de reunião do Fed (InfoMoney) https://www.infomoney.com.br/mercados/moedas-globais-dolar-sobe-por-tensao-em-geopolitica-e-a-espera-de-reuniao-do-fed/
@@ -259,16 +271,4 @@ id: E05-KO-7c5c6eb679-2026-10-22 · status: linha
 · MU Micron (MU) is an Incredible Growth Stock: 3 Reasons Why (Yahoo Finance) https://ca.finance.yahoo.com/news/micron-mu-incredible-growth-stock-154501386.html
 · BTC Whale's Insight: Bitcoin Holds $80K - What Could Spark A Breakout? (Seeking Alpha) https://seekingalpha.com/article/4957006-whale-insight-bitcoin-holds-80k-what-could-spark-breakout
 · BTC Bitcoin Billionaires Are Racing to Ride a 3,000% Crypto Boom (Bloomberg) https://www.bloomberg.com/news/articles/2026-10-23/bitcoin-billionaires-are-racing-to-ride-a-3-000-crypto-boom
-· NOK Nokia Oyj (NOK) (Q3 2026) Earnings Call Highlights: AI and Cloud Sales Surge 123% as Operating ... By GuruFocus (Investing.com) https://ca.investing.com/news/company-news/nokia-oyj-nok-q3-2026-earnings-call-highlights-ai-and-cloud-sales-surge-123-as-operating--4898322
-· BBDC4 Bradesco cresce lucro sob ventos contrários, mas inadimplência limita recuperação estrutural (Estadao) https://www.estadao.com.br/em-alta/economia/negocios/bradesco-cresce-lucro-inadimplencia-limita-recuperacao-estrutural/
-· CVX Chevron vs. ExxonMobil: Which Stock Has the Edge at 52-Week Highs? (TradingView (Reuters)) https://www.tradingview.com/news/zacks:b6eebed77094b:0-chevron-vs-exxonmobil-which-stock-has-the-edge-at-52-week-highs/
-· NVDA Can Apple Top Nvidia? iPhone Duo and Nov. 2 Earnings Hold the Key (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:64bd340db094b:0-can-apple-top-nvidia-iphone-duo-and-nov-2-earnings-hold-the-key/
-· BBDC4 Crédito com garantia pública deveria seguir em qualquer governo, diz CEO do Bradesco (Bloomberg Linea) https://www.bloomberglinea.com.br/negocios/credito-com-garantia-publica-deveria-seguir-em-qualquer-governo-diz-ceo-do-bradesco/?outputType=amp
-· AMD AMD Has a High Floor, High Volatility Trajectory Through the End of 2026 (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/amd-high-floor-high-volatility-111531353.html
-· BTC Bitcoin’s midterm bottom pattern faces a test as QQQ shows mixed returns (CoinDesk) https://www.coindesk.com/markets/2026/10/23/bitcoin-approaches-midterms-as-july-low-challenges-historical-cycle-pattern
-· TSLA Stocktwits Wall Street Wrap: Analysts Turn Bullish On SpaceX, Tesla, But Netflix And Chipotle Face Fresh Downgrades Amid Growth Concerns (TradingView (Reuters)) https://es.tradingview.com/news/stocktwits:4a1c3a9d4094b:0-stocktwits-wall-street-wrap-analysts-turn-bullish-on-spacex-tesla-but-netflix-and-chipotle-face-fresh-downgrades-amid-growth-concerns/
-· MRVL Marvell Technology Faces a Multi-Front War Against Taiwan’s Custom Silicon Ecosystem (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/marvell-technology-faces-multi-front-164503344.html
-· BBDC4 Lucro do Grupo Bradesco Seguros cresce 18,2% no ano (O Globo) https://oglobo.globo.com/patrocinado/dino/noticia/2026/10/23/lucro-do-grupo-bradesco-seguros-cresce-182-no-ano-1.ghtml
-· PLTR Palantir Guided for $2.16 Billion in Revenue for Q3. Its Last 2 Quarters Suggest We Should Expect More. (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/palantir-guided-2-16-billion-162400685.html
-· NOK Nokia (HLSE:NOKIA) Stock Price Questions Q3 Earnings Margin Gains (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/nokia-hlse-nokia-stock-price-161112863.html
-· (+77 manchetes; lista completa em eventos/noticias.json)
+· (+89 manchetes; lista completa em eventos/noticias.json)

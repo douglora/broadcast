@@ -1,34 +1,29 @@
 ALERTAS · Fechamento 18h
 
-(pendente de slot anterior) [ATENÇÃO] E05 · USDBRL · Ibovespa fecha em alta com aposta de vitória de Flávio Bolsonaro; dólar encerra abaixo de R$ 5
-Money Times · 23/10 17h38 · + Exame · licença: integral
-Do texto:
-  – Nesta sexta-feira (23), o principal índice da bolsa brasileira terminou as negociações com queda de 0,47%, aos 205.082,56 pontos.
-  – Na semana, o IBOV acumulou perda de 0,17%.
-  – Já o dólar à vista encerrou o dia a R$ 4,9931, com queda de 0,92%.
-  – Na semana, a divisa norte-americana acumulou queda de 1,58% ante o real.
-  – A prévia da inflação, o Índice Nacional de Preços ao Consumidor Amplo (IPCA-15), subiu 0,32% em outubro e fechou o período de 12 meses com alta acumulada de 4,62%.
-  – O número desacelerou na comparação mensal, após alta de 0,70% em setembro, mas subiu no comparativo anual após alta de 4,47% no acumulado em 12 meses no mês anterior.
-Link: https://www.moneytimes.com.br/ibovespa-23-10-26-lils/
-Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
-Ativos: USDBRL
-Como falar: 'saiu no Money Times: Ibovespa fecha em alta com aposta de vitória de Flávio Bolsonaro; dólar encerra abaixo de…; confirmar o número no texto antes de repassar'
-Fonte: Money Times 23/10 17h38
-ids: E05-USDBRL-69917e4181-2026-10-23
+[CRÍTICO] CURVA · C05 IPCA+ 2040 FECHA 20 bps (PU +2,9%) · IPCA+ 2050 FECHA 32 bps (PU +7,6%) (base 23/10) / C06 Inflação implícita: implícita 2029 +22 bps na semana · implícita 2032 +228 bps acima do Focus · implícita 2031/32 (descasado) +208 bps acima do Focus
+TD Pre 2029 12,76 (+12) · IPCA+ 2032 6,72 (-8) PU +0,7% · IPCA+ 2040 6,53 (-20) PU +2,9% · IPCA+ 2050 6,42 (-32) PU +7,6% · Pre 2032 12,89 (+2)
+Implícita 2029: 5,50% (+22 bps na semana) vs Focus IPCA 2029 3,50% (+200 bps)
+Implícita 2032: 5,78% (+16 bps na semana) vs Focus IPCA 2030 3,50% (+228 bps)
+Implícita 2031/32 (descasado): 5,58% (+19 bps na semana) vs Focus IPCA 2030 3,50% (+208 bps)
+Por que importa: fechamento de taxa é ganho de marcação; quem carrega até o vencimento não mudou de rentabilidade
+Como falar: 'a marcação a mercado veio a favor; o rendimento contratado segue igual'
+Fonte: Tesouro Transparente base 23/10; BCB Focus · Tesouro Transparente, base 23/10
+Push: [CRÍTICO] TESOURO IPCA+ 2040 FECHA 20 bps (PU +2,9%) · IPCA+ 2050 FECHA 32 bps | TESOURO Inflação implícita · detalhe na sessão
+ids: C05-TESOURO-fechou-2026-10-23, C06-TESOURO-implicita-2026-10-23
 
 Info (só linha no Fechamento):
+· E05 PLTR · Palantir stock faces brutal test after crushing expectations
+· E05 GOOGL · The Bet Alphabet Holders Made
+· E05 TSLA · Stocktwits Zero To Sixty: Tesla And SpaceX Form Merger Committees As Profits Drop, While Rivian Buys AI Startup And GM, Ford Advance EV Plans
+· E05 TSLA · Tesla Just Reversed Its 2026 CapEx Surge — Why Gordon Johnson Asks If It's the 'End of the AI Trade'
+· E05 META · Elon Musk Eyes SpaceX-Tesla Merger, Huang Pitches ‘Financeable’ Chips, Zuckerberg Wants More Compute: Mag 7 Voices This Week
+· E05 BTC · Bitcoin Usually Bottoms After Midterm Elections. What Happens if This Cycle Breaks the Pattern?
 · E05 AMZN · Amazon cloud capacity sold out through 2027, CEO Jassy says
-· E05 USDBRL · Dólar fecha abaixo de R$ 5 e recua 1,58% na semana
-· E05 USDBRL · Moedas Globais: dólar sobe por tensão em geopolítica e à espera de reunião do Fed
-· E05 TSLA · Tesla Stock Lags Apple Because Of ‘Communications Problem,’ Says Investor Gary Black
-· E05 ITUB4 · Petrobras sobe 18% em outubro e surpreende: por que o Itaú BBA ainda prefere a estatal?
-· E05 BTC · Bitcoin ‘Goes to Zero’ After a Hack, Chamath Palihapitiya Predicts
-· E05 CVX · Chevron (CVX) Ascends While Market Falls: Some Facts to Note
-· E05 BRENT · Brent crude tops $116 as traders price escalating Middle East conflict
-· E05 NOK · Nokia: Turning Bullish Despite The Free Cash Flow Scare (NYSE:NOK)
-· E05 INTC · Intel Stocks Rise, Trade at 166.5% Above GF Value Ahead of Earnings
+· E05 META · Meta Platforms Inc (META) Q3 2026 Earnings Call Highlights: Revenue Surges 26% to $64. ... By GuruFocus
+· E05 BBAS3 · Ibovespa reage antes das eleições; Petrobras (PETR4) sobe 1,47% e Banco do Brasil (BBAS3) dispara
+· E05 USDBRL · Dólar à vista fecha em baixa de 0,97%, a R$4,9896 na venda
+· E05 AMZN · Post-it Notes maker 3M eyes AI gold rush in major Amazon deal
 · E05 AMZN · Amazon Stocks Edge Lower Ahead of Earnings After 37% AWS Revenue Growth
-· E05 AMD · AMD Stocks Gain as $620 Target Raises the Execution Bar
 · T13 VIX cruzou 20: 20,2 (+6,0% no dia)
 · T04 RARA11 fechou na mínima da série de 68 sessões: R$ 11,48, -28% em 1m e - em 12m
 · T02 CNDX (iShares NASDAQ 100 UCITS ETF USD (Acc)) perdeu a MM50 e perdeu a MM100 pela 2ª sessão: US$ 1.673, ainda acima da MM200 (tendência longa preservada)
@@ -38,12 +33,14 @@ Info (só linha no Fechamento):
 Suprimidos pelo teto (viram linha do Fechamento): T13-VIX-vix20-2026-10-23 (teto de atenção), T04-RARA11-minima-2026-10-23 (teto de atenção), T02-CNDX-perdeu_perdeu-2026-10-23 (teto de atenção), T10-SMAL11-máximo-2026-10-23 (teto de atenção), T11-ITSA4-ITUB4_abaixo-2026-10-23 (teto de atenção)
 
 Alertas do dia (todos, com status):
+· pendente  C05 TESOURO — IPCA+ 2040 FECHA 20 bps (PU +2,9%) · IPCA+ 2050 FECHA 32 bps (PU +7,6%) (base 23
+· pendente  C06 TESOURO — Inflação implícita: implícita 2029 +22 bps na semana · implícita 2032 +228 bps a
 · linha     T04 RARA11 — RARA11 fechou na mínima da série de 68 sessões: R$ 11,48, -28% em 1m e - em 12m
 · linha     T02 CNDX — CNDX (iShares NASDAQ 100 UCITS ETF USD (Acc)) perdeu a MM50 e perdeu a MM100 pel
 · linha     T10 SMAL11 — SMAL11 no máximo de força relativa em 63 sessões contra IBOV: +25% vs +11% em 20
 · linha     T11 ITSA4 — ITSA4 descolou atrás de ITUB4: +9,4% vs +15% em 20 sessões (z -3,4 em 252 sessõe
 · expirado  E05 USDBRL — USDBRL · Ibovespa fecha em alta com aposta de vitória de Flávio Bolsonaro; dólar
-· linha     S01 SISTEMA — coleta do slot fechamento saiu incompleta: tesouro: falha: ValueError: cabecalho
+· linha     S01 SISTEMA — coleta do slot fechamento saiu incompleta: bcb: BCB devolveu 3 de 5 séries (falt
 · entregue  E05 BBDC4 — BBDC4 · Bradesco (BBDC4) tem lucro líquido recorrente de R$ 7,1 bi no 3T26, alta
 · entregue  E05 BBDC4 — BBDC4 · Bradesco registra lucro recorrente de R$ 7,1 bilhões no 3T26
 · entregue  E05 NOK — NOK · Earnings call transcript: Nokia beats Q3 2026 estimates but shares fall pr
@@ -65,4 +62,4 @@ Alertas do dia (todos, com status):
 · linha     T07 CVX — CVX entrou em sobrecomprado: RSI14 77 a US$ 233,21
 · linha     T10 TSM — TSM no máximo de força relativa em 63 sessões contra SOX: -7,1% vs -15% em 20 se
 · linha     F03 BRENT — Brent sobe a US$ 116,91 (+3,3% no dia)
-· (+148 notícias só manchete, em noticias.md)
+· (+160 notícias só manchete, em noticias.md)

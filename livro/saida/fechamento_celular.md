@@ -78,9 +78,9 @@ Macro
 USDBRL USD/BR 4,9892 -1,0 -1,6 -3,4 -8,9
 DXY    DXY    101,75 +0,1 -0,1 +0,6 +3,5
 BRENT  Brent  116,91 +3,3 +6,4  +19  +92
-BTC*   BTC    81.051 -0,3 -0,6 -3,9 -7,4
-ETH*   ETH     2.384 -0,1 -1,5  -11  -20
-MINER* Mineri  90,73 -0,1 +0,2 -6,8  -15
+BTC    BTC    81.051 -0,3 -0,6 -3,9 -7,4
+ETH    ETH     2.384 -0,1 -1,5  -11  -20
+MINER* Mineri  90,83 +0,1 -0,1 -6,6  -15
 ```
 UCITS por extenso: VWRA Vanguard FTSE All-World
 UCITS ETF USD Accumulating · CSPX iShares Core S&P

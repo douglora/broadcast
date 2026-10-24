@@ -1,4 +1,4 @@
-## Fechamento do livro · sex 23/10 · 20h50 BRT
+## Fechamento do livro · sex 23/10 · 23h19 BRT
 
 ---
 
@@ -6,8 +6,13 @@
 
 ---
 
-### Alertas do dia · 1
+### Alertas do dia · 3 (1 crítico)
 
+> **CRÍTICO · C05 · TESOURO** — IPCA+ 2040 FECHA 20 bps (PU +2,9%) · IPCA+ 2050 FECHA 32 bps (PU +7,6%) (base 23/10)
+> TD Pre 2029 12,76 (+12) · IPCA+ 2032 6,72 (-8) PU +0,7% · IPCA+ 2040 6,53 (-20) PU +2,9% · IPCA+ 2050 6,42 (-32) PU +7,6% · Pre 2032 12,89 (+2)
+> *Por que importa:* fechamento de taxa é ganho de marcação; quem carrega até o vencimento não mudou de rentabilidade
+
+- **C06 · TESOURO** Inflação implícita: implícita 2029 +22 bps na semana · implícita 2032 +228 bps acima do Focus · implícita 2031/32 (descasado) +208 bps acima do Focus
 - **S01 · SISTEMA** coleta do slot manha saiu incompleta: tesouro: falha: ValueError: cabecalho inesperado no CSV do Tesouro
 
 *Mais 14 sinais de baixa prioridade em `alertas.md`.*
@@ -25,7 +30,7 @@
 
 | Ativo | dia | explicação | grau |
 |---|---:|---|---|
-| **BBAS3** | +3,3% | descolou do setor (bancos +0,7% (mediana), DI F28 -3 bps; 2,7 p.p. da mediana); investigar antes de comentar | sem causa no dado |
+| **BBAS3** | +3,3% | descolou do setor (bancos +0,7% (mediana), DI F28 -3 bps; 2,7 p.p. da mediana); notícia a conferir (Suno Noticias): Ibovespa reage antes das eleições; Petrobras (PETR4) sobe 1,47% e Banco do Brasil (BBAS3) | notícia (conferir) |
 | **NOK** | +3,3% | notícia a conferir (Seeking Alpha): Nokia: Turning Bullish Despite The Free Cash Flow Scare (NYSE:NOK) | notícia (conferir) |
 | **CVX** | +2,9% | acompanhou o Brent (+3,3%); notícia a conferir (Yahoo Finance): Chevron (CVX) Ascends While Market Falls: Some Facts to Note | driver |
 | **KO** | -2,8% | notícia a conferir (Yahoo Finance): Coca-Cola Consolidated, Inc. (COKE) Stock Price, News, Quote & History | notícia (conferir) |
@@ -188,9 +193,9 @@ Nomes completos: **QNTM** VanEck Quantum Computing UCITS ETF USD (Acc) · **QANT
 | **USDBRL** Dolar/Real | 4,9892 | **-1,0** | -1,6 | -3,4 | -2,1 | -0,8 | -7,6 | -8,9 | -12 |
 | **DXY** Indice Dolar DXY | 101,75 | **+0,1** | -0,1 | +0,6 | +0,3 | +3,3 | +2,8 | +3,5 | +8,7 |
 | **BRENT** Petroleo Brent | 116,91 | **+3,3** | +6,4 | +19 | +21 | +11 | +77 | +92 | +37 |
-| **BTC** Bitcoin _(parcial)_ | 81.051 | **-0,3** | -0,6 | -3,9 | +26 | +4,6 | -26 | -7,4 | +33 |
-| **ETH** Ethereum _(parcial)_ | 2.384 | **-0,1** | -1,5 | -11 | +28 | +3,0 | -38 | -20 | -42 |
-| **MINERIO** Minerio de ferro 62% Fe CFR China _(D-1, 22/10)_ | 90,73 | **-0,1** | +0,2 | -6,8 | -7,9 | -15 | -14 | -15 | -26 |
+| **BTC** Bitcoin | 81.051 | **-0,3** | -0,6 | -3,9 | +26 | +4,6 | -26 | -7,4 | +33 |
+| **ETH** Ethereum | 2.384 | **-0,1** | -1,5 | -11 | +28 | +3,0 | -38 | -20 | -42 |
+| **MINERIO** Minerio de ferro 62% Fe CFR China _(D-1, 23/10)_ | 90,83 | **+0,1** | -0,1 | -6,6 | -7,7 | -15 | -14 | -15 | -26 |
 
 **Brent em reais:** R$ 583,29 por barril (23/10) · dia +2,3% · 1 mês +15% · no ano +75% (Brent do 1º vencimento × dólar).
 
@@ -219,6 +224,16 @@ Nomes completos: **QNTM** VanEck Quantum Computing UCITS ETF USD (Acc) · **QANT
 | F35 | 12,74 | -2 bps |
 
 **FECHOU** · inclinação F35-F28 -11 bps (+1 no dia)
+
+| Tesouro Direto · base 23/10 | taxa | Δ 15/10→23/10 |
+|---|---:|---:|
+| Pre 2029 | 12,76% | +12 bps |
+| Pre 2032 | 12,89% | +2 bps |
+| IPCA+ 2032 | 6,72% | -8 bps |
+| IPCA+ 2040 | 6,53% | -20 bps |
+| IPCA+ 2050 | 6,42% | -32 bps |
+
+Inflação implícita 2032 5,78% · Focus IPCA 2027 4,32%
 
 | Treasury (EUA) · D0 | taxa | Δ dia |
 |---|---:|---:|
@@ -285,11 +300,11 @@ Nomes completos: **QNTM** VanEck Quantum Computing UCITS ETF USD (Acc) · **QANT
 
 ### Como ler
 
-**Relógios:** Yahoo 20h50 · DI ajuste D0 · Tesouro base 15/10 · UST CMT D0 · PTAX 23/10
-**Lacunas:** Tesouro Direto parado na base 15/10 (fonte do Tesouro Transparente sem dado novo): fora da tabela e da inflação implícita; tesouro: falha: ValueError: cabecalho inesperado no CSV do Tesouro.
+**Relógios:** Yahoo 23h19 · DI ajuste D0 · Tesouro base 23/10 · UST CMT D0
+**Lacunas:** Tesouro: Pre 2031, IPCA+ 2035, IPCA+ 2029 parado(s) na base 15/10 (só a taxa de resgate no site do TD; a de compra volta com o CSV do Tesouro Transparente): fora da tabela e da inflação implícita; bcb: BCB devolveu 3 de 5 séries (faltaram ptax_venda, selic_meta).
 **IUAA:** NAO e renda fixa ultracurta: cai ~6% a cada +100 bps na curva. Ler junto com UST 10y/30y. Caixa em dolar e o IB01.
 **Hipótese:** **EWY** iShares MSCI South Korea ETF · **MCHI** iShares MSCI China ETF — ETFs dos EUA, a confirmar.
 Minério: proxy Dalian 670 CNY/t (2026-10-23).
 Celulose: proxy SHFE SP (fibra longa) 4.630 CNY/t; BHKP sem série diária.
-**Fontes:** Yahoo Finance · B3 Boletim Diário · Tesouro Transparente · Treasury.gov CMT · BCB.
+**Fontes:** Yahoo Finance · B3 Boletim Diário · site do Tesouro Direto · Treasury.gov CMT · BCB.
 *Uso interno da mesa. Organização e comparação de dados públicos, não é recomendação de investimento (Resolução CVM 178).*
