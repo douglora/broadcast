@@ -7,7 +7,7 @@
  "colunas": [{"nome": "TckrSymb", "titulo": "Ação"}, {"nome": "Cod", "titulo": "Código"}, {"nome": "Term", "titulo": "Prazo"}, {"nome": "Closing", "titulo": ""}, {"nome": "TradQty", "titulo": ""}, {"nome": "VlmTradedDay", "titulo": "Volume (R$) mil"}, {"nome": "Part", "titulo": "Participação (%)"}],
  "texto": ["Lista ações com maior volume de negociação em contratos a termo, destacando as mais ativas."],
  "situacao": "republicado",
- "atualizado_em": "2026-10-23T21:43:23.707",
+ "atualizado_em": "2026-10-24T01:54:07.397",
  "truncada": false,
  "linhas": [
   ["ISHARES BOVACI", "CI", 17, 203.07, 19158, 3890.4150600000003, 0.2738921115554935],

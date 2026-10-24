@@ -1,7 +1,7 @@
 # Boletim da B3: pregão de 23/10/2026 (sexta)
 
 **Situação: PARCIAL.** Ainda sem: posições em aberto (opções e futuros), saldo de aluguel, empréstimos do dia, quadro de posições em aberto. A B3 publica esses blocos na madrugada seguinte ao pregão; a rodada da manhã completa.
-Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10-24T00:53:55Z (UTC).
+Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10-24T04:59:59Z (UTC).
 
 [[LEITURA_DA_MESA]]
 
@@ -14,7 +14,7 @@ Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10
 - **Fluxo estrangeiro.** Estrangeiro comprou R$ 157 mi líquidos em 21/10; no mês, até 21/10, saldo de +R$ 20.158 mi. _(B3, SharesInvesVolum, 21/10)_
 - **After market.** BBDC4: preço médio do after market a +1,03% do fechamento (R$ 20,58 contra R$ 20,37), em R$ 2.906 mil. _(B3, TradeInformationConsolidatedAfterHours, 23/10)_
 - **After market.** SMAL11: preço médio do after market a +1,06% do fechamento (R$ 138,96 contra R$ 137,50), em R$ 6.777 mil. _(B3, TradeInformationConsolidatedAfterHours, 23/10)_
-- **Listas do dia.** Do livro nas listas do boletim: mais negociadas à vista: PETR4 (1º), BBDC4 (2º), VALE3 (3º), SMAL11 (5º); calls mais negociadas: PETRK463 (4º), PETRL474 (5º); puts mais negociadas: BBDCW47 (4º). _(B3, tabelas de maiores oscilacoes, 23/10)_
+- **Listas do dia.** Do livro nas listas do boletim: maiores altas do Ibovespa: BBAS3 (5º); maiores baixas do Ibovespa: AXIA3 (5º), UGPA3 (8º); mais negociadas à vista: PETR4 (1º), BBDC4 (2º), VALE3 (3º), SMAL11 (5º); calls mais negociadas: PETRK463 (4º), PETRL474 (5º); puts mais negociadas: BBDCW47 (4º). _(B3, tabelas de maiores oscilacoes, 23/10)_
 
 **Já vinham de pregões anteriores**
 
@@ -208,17 +208,14 @@ Por classe, mediana das taxas de referência dos papéis. Taxa de referência: n
 - quadro de posições em aberto: aguardando
 - saldo de aluguel: aguardando
 - empréstimos do dia: aguardando
-- aluguel por corretora: aguardando
+- aluguel por corretora: ignorado
 - Custody: aguardando
 - DIover: aguardando
 - posições em aberto (opções e futuros): aguardando
-- IbovespaStockBiggestHighs: aguardando
-- IbovespaStockBiggestLow: aguardando
 - Register: aguardando
 - RepurchaseDealings: aguardando
 - Stock: aguardando
 - Posição em aberto de derivativos por tipo de investidor (estrangeiro, institucional, pessoa física): não existe no Boletim Diário do Mercado; procurado nas 69 tabelas e no texto dos 11 cadernos em 30/09/2026.
 - Fluxo por tipo de investidor sai acumulado no mês e com dois pregões de atraso; o saldo de um dia é a diferença entre dois acumulados seguidos.
-- Carteira de índice: a B3 não publicou a tabela neste pregão; valem os pesos de 22/10.
 - RARA11: a B3 não publica valor de referência da cota (IOPV) para este ETF no boletim.
 - Paridade de MELI34: sem a barra de 23/10 de MELI nas séries do livro.

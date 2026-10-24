@@ -1,5 +1,5 @@
 {
- "pregao": "2026-10-22",
+ "pregao": "2026-10-23",
  "nome": "IbovespaStockBiggestHighs",
  "titulo": "Ações do IBOVESPA - maiores altas",
  "sla": "8:00:00",
@@ -7,18 +7,18 @@
  "colunas": [{"nome": "TckrSymb", "titulo": "Ação"}, {"nome": "Cod", "titulo": "Código"}, {"nome": "Price", "titulo": "Preço (R$)"}, {"nome": "Oscillation", "titulo": "Oscilação (%)"}],
  "texto": ["Lista as ações do IBOVESPA com os maiores percentuais de valorização em um período."],
  "situacao": "publicado",
- "atualizado_em": "2026-10-22T23:30:15.697",
+ "atualizado_em": "2026-10-23T23:30:30.42",
  "truncada": false,
  "linhas": [
-  ["CPLE3", "ON      NM", 17.48, 0.69],
-  ["RDOR3", "ON      NM", 44.03, 0.73],
-  ["SUZB3", "ON      NM", 42.98, 0.79],
-  ["AXIA3", "ON      NM", 59.08, 0.85],
-  ["TOTS3", "ON      NM", 43.75, 1.17],
-  ["ABEV3", "ON", 16.9, 1.25],
-  ["POMO4", "PN      N2", 4.75, 1.49],
-  ["VIVT3", "ON", 33.18, 1.65],
-  ["PRIO3", "ON      NM", 72.63, 1.85],
-  ["BBSE3", "ON      NM", 43.33, 2.04]
+  ["AURE3", "ON      NM", 15.24, 2.76],
+  ["BRAV3", "ON      NM", 21.69, 2.79],
+  ["HYPE3", "ON      NM", 27.25, 2.9],
+  ["COGN3", "ON      NM", 3.1, 2.99],
+  ["BBAS3", "ON      NM", 24.72, 3.34],
+  ["CSAN3", "ON      NM", 5.2, 3.58],
+  ["CYRE3", "ON      NM", 35.57, 3.7],
+  ["NATU3", "ON      NM", 7.9, 4.49],
+  ["USIM5", "PNA     N1", 6.63, 4.73],
+  ["CSNA3", "ON", 6.07, 12.4]
  ]
 }
