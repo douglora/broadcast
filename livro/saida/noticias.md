@@ -1,8 +1,8 @@
-NOTÍCIAS E FATOS · 26/10 08h33
+NOTÍCIAS E FATOS · 26/10 10h24
 
-Pernas: noticias ok 20 novas (18 consultas; descartadas: 371 veículo fora da lista, 54 sem ativo, 69 teto) · cvm ok 1 novos de 2 (2 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 19 novas (18 consultas; descartadas: 378 veículo fora da lista, 48 sem ativo, 35 teto) · cvm ok 1 novos de 3 (3 cias casadas) · sec ok 0 novos em 3 dias
 
-## FATOS RELEVANTES E COMUNICADOS (CVM) (1)
+## FATOS RELEVANTES E COMUNICADOS (CVM) (2)
 
 [ATENÇÃO] E03 · ITUB4 · Fato Relevante: ITAÚ UNIBANCO HOLDING S.A. (“Companhia”) informa aos seus acionistas e ao mercado em geral que celebrou um Contrato de Compra e Venda visando à aquis…
 CVM · entregue 26/10/2026 07:30
@@ -14,10 +14,82 @@ Por que importa: fato relevante e o que a propria companhia julga capaz de mover
 Ativos: ITUB4
 Como falar: 'a Itau Unibanco publicou fato relevante sobre ITAÚ UNIBANCO HOLDING S.A. (“Companhia”) informa aos seus acionistas…'
 Fonte: CVM 26/10
-id: E03-ITUB4-1580024-2026-10-26 · status: pendente · íntegra disponível
+id: E03-ITUB4-1580024-2026-10-26 · status: entregue · íntegra disponível
+
+[INFO] E03 · UGPA3 · Participação relevante: gestor reduziu para 0,70%
+CVM · entregue 26/10/2026 08:59 · Aquisição/Alienação de Participação Acionária Relevante / Declaração de Alienação de Participação Acionária Relevante
+Do documento:
+  – (“Parth”) que o Pátria  Private Equity V I FIP Multiestratégia (“Pátria”), signatário do acordo de acionistas celebrado entre  Ultra S.A. Participações e Parth do Brasil Ltda.
+  – Alexandre Mendes Palhares  Diretor Financeiro e de Relações com Investidores  Ultrapar Participações S.A. São Paulo, 23 de outubro de 2026.
+  – Jennings Luis Igel Hoffenberg  Docusign Envelope ID: 1061050F-8F0F-862C-8147-026B75D25E98
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1580051
+Por que importa: quem cruza 5% de uma companhia tem de avisar (Resolução CVM 44, art. 12); o fluxo de compra ou venda já aconteceu, não no dia do aviso
+Ativos: UGPA3
+Como falar: 'gestor reduziu para 0,70% na Ultrapar; é aviso de participação, não fato relevante'
+Fonte: CVM 26/10
+id: E03-UGPA3-1580051-2026-10-26 · status: linha · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (16)
+## NOTÍCIAS COM MATERIALIDADE (9)
+
+[ATENÇÃO] E05 · ITUB4 · Itaú anuncia compra da NeoSpace por quase R$ 3 bilhões
+Poder360 · 26/10 09h36 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Em fato relevante (íntegra – PDF – 321 kB), o banco declarou que o preço a ser pago será de R$ 2,925 bilhões, sendo uma parcela no fechamento e as demais ao longo de 5 anos.
+  – A aquisição, de acordo com o Itaú, “fortalece a continuidade da relação” entre as partes.
+  – O banco falou em “resultados relevantes e transformadores” em frentes como crédito, relação com os clientes e prevenção de fraudes.
+Link: https://www.poder360.com.br/poder-economia/itau-anuncia-compra-da-neospace-por-quase-r-3-bilhoes/
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: ITUB4
+Como falar: 'saiu no Poder360: Itaú anuncia compra da NeoSpace por quase R$ 3 bilhões; confirmar o número no texto antes de repassar'
+Fonte: Poder360 26/10 09h36
+id: E05-ITUB4-9c2fe76b7b-2026-10-26 · status: pendente
+
+[ATENÇÃO] E05 · PETR4 · Petrobras: Bradesco BBI corta preço-alvo, mas mantém compra para ações após eleição
+InfoMoney · 26/10 08h59 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Os ADRs PBR – equivalente aos PETR3 – caíam mais de 20% no pré-market da Bolsa de Nova York após os resultados das eleições.
+  – UGPA3 negocia a 13,6 vezes o lucro estimado (P/L), considerando margem EBITDA de aproximadamente R$ 200/m³, ou a 10,6 vezes em um cenário de R$ 250/m³; para VBBR3 os múltiplos seriam de 10,1 vezes e 8,0 vezes, respectiv…
+  – “Mantemos também uma visão positiva para a Petrobras, apoiada pelo bom desempenho operacional, pela produção acima das expectativas e pela possibilidade de spreads de refino mais elevados em 2027 sustentarem novas revis…
+  – Ainda assim, seguimos cautelosos com o aumento de exposição a produtoras puras de petróleo, uma vez que os preços do Brent estão próximos das máximas do ciclo, impulsionados por fatores geopolíticos”, concluem os analis…
+Link: https://www.infomoney.com.br/mercados/petrobras-petr4-bradesco-bbi-corta-preco-alvo-mas-mantem-compra-para-acoes-apos-eleicao/amp/
+Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
+Ativos: PETR4
+Como falar: 'saiu no InfoMoney: Petrobras: Bradesco BBI corta preço-alvo, mas mantém compra para ações após eleição; confirmar o número no texto antes de repassar'
+Fonte: InfoMoney 26/10 08h59
+id: E05-PETR4-9f9c9e0057-2026-10-26 · status: pendente
+
+[ATENÇÃO] E05 · BTC · A $68 million BTC price bet is targeting a surge to $90,000 after U.S. mid-term vote: Crypto Daily
+CoinDesk · 26/10 08h53 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Bitcoin  is trading pretty much where it was on Saturday, around $80,000, offering little news on the price front.
+  – The platform told CoinDesk that one trader took $68 million bet that BTC's spot price would climb above $90,000 just after U.S.
+  – There has also been an increase in bets implying market prices will top $100,000 by Christmas.
+  – 20, a single wallet bought 800 contracts of $90,000 call options expiring on Nov.
+  – “That's approximately $68 million in face value at current Bitcoin prices – the largest open Bitcoin position on Derive,” the exchange told CoinDesk.
+  – The wallet sold 400 contracts of $100,000 calls expiring in March 2027 and another 400 contracts of $90,000 calls expiring Oct.
+Link: https://www.coindesk.com/daybook-us/2026/10/26/a-usd68-million-bitcoin-bet-is-targeting-a-post-midterm-election-breakout-to-usd90-000
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: BTC
+Como falar: 'saiu no CoinDesk: A $68 million BTC price bet is targeting a surge to $90,000 after U.S. mid-term vote: Cry…; confirmar o número no texto antes de repassar'
+Fonte: CoinDesk 26/10 08h53
+id: E05-BTC-1727602563-2026-10-26 · status: pendente
+
+[ATENÇÃO] E05 · ITUB4 · Itaú compra NeoSpace por R$ 2,9 bilhões e avança na inteligência artificial
+NeoFeed · 26/10 07h43 · + Exame, Seu Dinheiro · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – O Itaú acaba de comprar 100% da NeoSpace, startup brasileira que desenvolve grandes modelos fundacionais de inteligência artificial (IA) generativa e de dados.
+  – Pelos termos do acordo, anunciado na manhã desta segunda-feira, 26 de outubro, o banco pagará R$ 2,92 bilhões para incorporar essa operação.
+  – Em janeiro de 2025, a NeoSpace foi avaliada em US$ 100 milhões em uma rodada de US$ 18 milhões liderada pelo Itaú.
+  – “O Brasil já demonstrou sua capacidade de estabelecer referências internacionais em inovação bancária e temos a oportunidade de elevar esse patamar com inteligência artificial de fronteira”, afirmou, em nota, Milton Mal…
+  – “A aquisição da NeoSpace é um investimento estratégico nessa ambição.
+  – Ao reunir tecnologia fundacional, conhecimento financeiro e escala, estamos construindo as condições para desenvolver soluções que estabeleçam novos padrões de mercado, no Brasil e no mundo”, acrescentou o executivo.
+Link: https://neofeed.com.br/negocios/itau-compra-neospace-por-r-29-bilhoes-e-avanca-na-inteligencia-artificial/
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: ITUB4
+Como falar: 'saiu no NeoFeed: Itaú compra NeoSpace por R$ 2,9 bilhões e avança na inteligência artificial; confirmar o número no texto antes de repassar'
+Fonte: NeoFeed 26/10 07h43
+id: E05-ITUB4-ce991fc98c-2026-10-26 · status: linha
 
 [ATENÇÃO] E05 · ITUB4 · Itaú anuncia aquisição da NeoSpace por R$ 2,925 bilhões e amplia investimento em IA fundacional
 Valor Economico · 26/10 08h04 · fonte única · licença: resumo
@@ -33,7 +105,7 @@ Por que importa: aquisicao ou venda muda alavancagem, mix de receita e o multipl
 Ativos: ITUB4
 Como falar: 'saiu no Valor Economico: Itaú anuncia aquisição da NeoSpace por R$ 2,925 bilhões e amplia investimento em IA funda…; confirmar o número no texto antes de repassar'
 Fonte: Valor Economico 26/10 08h04
-id: E05-ITUB4-cd40da6668-2026-10-26 · status: pendente
+id: E05-ITUB4-cd40da6668-2026-10-26 · status: entregue
 
 [ATENÇÃO] E05 · AMZN · Amazon Into Earnings: The Parts Add Up To $290, And Anthropic's IPO Could Add More
 Seeking Alpha · 26/10 07h06 · fonte única · licença: manchete
@@ -42,7 +114,7 @@ Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; 
 Ativos: AMZN
 Como falar: 'saiu no Seeking Alpha: Amazon Into Earnings: The Parts Add Up To $290, And Anthropic's IPO Could Add More; confirmar o número no texto antes de repassar'
 Fonte: Seeking Alpha 26/10 07h06
-id: E05-AMZN-ef30228b66-2026-10-26 · status: pendente
+id: E05-AMZN-ef30228b66-2026-10-26 · status: entregue
 
 [ATENÇÃO] E05 · GOOGL · Key facts: GOOG Q2 results; call 4:30pm; 2026 capex $195–$205B
 TradingView (Reuters) · 26/10 04h00 · fonte única · licença: manchete
@@ -51,7 +123,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: GOOGL
 Como falar: 'saiu no TradingView (Reuters): Key facts: GOOG Q2 results; call 4:30pm; 2026 capex $195–$205B; confirmar o número no texto antes de repassar'
 Fonte: TradingView (Reuters) 26/10 04h00
-id: E05-GOOGL-6544034d52-2026-10-26 · status: pendente
+id: E05-GOOGL-6544034d52-2026-10-26 · status: entregue
 
 [ATENÇÃO] E05 · NVDA · Weekly Recap: Q4 guidance and 3nm foundry for Nvidia NVHBM
 TradingView (Reuters) · 25/10 20h00 · fonte única · licença: manchete
@@ -78,146 +150,24 @@ Como falar: 'saiu no Yahoo Finance: Mike Alfred Says He Would Bet $1 Million Bit
 Fonte: Yahoo Finance 25/10 18h30
 id: E05-BTC-c33ca2324e-2026-10-25 · status: linha
 
-[ATENÇÃO] E05 · USDBRL · Ibovespa fecha em alta com aposta de vitória de Flávio Bolsonaro; dólar encerra abaixo de R$ 5
-Money Times · 23/10 17h38 · + Exame · licença: integral
-Do texto:
-  – Nesta sexta-feira (23), o principal índice da bolsa brasileira terminou as negociações com queda de 0,47%, aos 205.082,56 pontos.
-  – Na semana, o IBOV acumulou perda de 0,17%.
-  – Já o dólar à vista encerrou o dia a R$ 4,9931, com queda de 0,92%.
-  – Na semana, a divisa norte-americana acumulou queda de 1,58% ante o real.
-  – A prévia da inflação, o Índice Nacional de Preços ao Consumidor Amplo (IPCA-15), subiu 0,32% em outubro e fechou o período de 12 meses com alta acumulada de 4,62%.
-  – O número desacelerou na comparação mensal, após alta de 0,70% em setembro, mas subiu no comparativo anual após alta de 4,47% no acumulado em 12 meses no mês anterior.
-Link: https://www.moneytimes.com.br/ibovespa-23-10-26-lils/
-Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
-Ativos: USDBRL
-Como falar: 'saiu no Money Times: Ibovespa fecha em alta com aposta de vitória de Flávio Bolsonaro; dólar encerra abaixo de…; confirmar o número no texto antes de repassar'
-Fonte: Money Times 23/10 17h38
-id: E05-USDBRL-69917e4181-2026-10-23 · status: entregue · íntegra disponível
 
-[ATENÇÃO] E05 · BBDC4 · Bradesco (BBDC4) tem lucro líquido recorrente de R$ 7,1 bi no 3T26, alta de 14,6%
-Suno Noticias · 23/10 10h00 · fonte única · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – Principal indicador de rentabilidade, o retorno sobre o patrimônio líquido (ROAE) do banco ficou em 16,1% em setembro, de 14,6% um ano antes.
-  – Ao fim do segundo trimestre, o indicador trimestral estava em 16,2%.
-  – A margem financeira bruta atingiu R$ 21,37 bilhões no trimestre, avanço anual de 14,2%.
-  – Já a margem líquida, que desconta as despesas com provisões para perdas, cresceu 5,7% em 12 meses, a R$ 10,7 bilhões.
-  – A margem com clientes totalizou R$ 10,5 bilhões, expansão de 10,1% no comparativo anual, refletindo o aumento da carteira de crédito.
-  – A margem com clientes líquida, por sua vez, foi a R$ 9,8 bilhões, queda anual de 2%.
-Link: https://www.suno.com.br/noticias/bradesco-tem-lucro-liquido-recorrente-bi-no-3o-trimestre-go/amp/
-Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
-Ativos: BBDC4
-Como falar: 'saiu no Suno Noticias: Bradesco (BBDC4) tem lucro líquido recorrente de R$ 7,1 bi no 3T26, alta de 14,6%; confirmar o número no texto antes de repassar'
-Fonte: Suno Noticias 23/10 10h00
-id: E05-BBDC4-4100fb66fe-2026-10-23 · status: entregue
+## OUTRAS NOTÍCIAS (só manchete) (30)
 
-[ATENÇÃO] E05 · BBDC4 · Bradesco registra lucro recorrente de R$ 7,1 bilhões no 3T26
-ADVFN · 23/10 08h38 · fonte única · licença: manchete
-Link: https://br.advfn.com/jornal/2026/10/bradesco-registra-lucro-recorrente-de-r-7-1-bilhoes-no-3t26
-Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
-Ativos: BBDC4
-Como falar: 'saiu no ADVFN: Bradesco registra lucro recorrente de R$ 7,1 bilhões no 3T26; confirmar o número no texto antes de repassar'
-Fonte: ADVFN 23/10 08h38
-id: E05-BBDC4-3bcdefaa30-2026-10-23 · status: entregue
-
-[ATENÇÃO] E05 · NOK · Earnings call transcript: Nokia beats Q3 2026 estimates but shares fall premarket By Investing.com
-Investing.com · 22/10 15h27 · fonte única · licença: manchete
-Link: https://za.investing.com/news/stock-market-news/earnings-call-transcript-nokia-beats-q3-2026-estimates-but-shares-fall-premarket-93CH-4519759
-Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
-Ativos: NOK
-Como falar: 'saiu no Investing.com: Earnings call transcript: Nokia beats Q3 2026 estimates but shares fall premarket By Inve…; confirmar o número no texto antes de repassar'
-Fonte: Investing.com 22/10 15h27
-id: E05-NOK-c7e14a43df-2026-10-22 · status: entregue
-
-[ATENÇÃO] E05 · TSLA · TSLA Q3 deep dive: autonomy adoption and margin dynamics shape outlook
-Yahoo Finance · 22/10 20h01 · fonte única · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – Electric vehicle pioneer Tesla (NASDAQ:TSLA) met Wall Street's revenue expectations in Q3 2026, but sales were flat year on year at $28.05 billion.
-  – Its non-GAAP profit of $0.48 per share was 6.3% above analysts' consensus estimates.
-  – CFO Vaibhav Taneja highlighted the highest vehicle backlog in four years, while CEO Elon Musk emphasized, "The biggest driver for demand is full self-driving.
-  – There's really no competitor for FSD in any car that you can buy." Looking forward, Tesla's guidance is shaped by a heavy investment cycle and major bets on autonomy, robotics, and energy.
-  – Musk noted that "all the pieces—the refinements in electromechanical dexterity, the AI software, and the AI5 chip—come together" for Optimus, aiming for initial deliveries to outside customers in about a year.
-  – Taneja added that ongoing operating expense growth will persist until commercialization of new products like Optimus, Megapack 3, and the Semi truck is achieved.
-Link: https://finance.yahoo.com/markets/stocks/articles/tsla-q3-deep-dive-autonomy-230153150.html
-Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
-Ativos: TSLA
-Como falar: 'saiu no Yahoo Finance: TSLA Q3 deep dive: autonomy adoption and margin dynamics shape outlook; confirmar o número no texto antes de repassar'
-Fonte: Yahoo Finance 22/10 20h01
-id: E05-TSLA-c7c008eb50-2026-10-22 · status: entregue
-
-[ATENÇÃO] E05 · TSLA · Why Tesla's $5 billion capex cut isn't the warning sign AI stock bears think it is
-Yahoo Finance · 23/10 09h40 · fonte única · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – Tesla (TSLA) said this week it's cutting its 2026 capital expenditures guidance by $5 billion to $20 billion.
-  – Just three months ago, the company lifted it by $5 billion to $25 billion.
-  – "Bears are already calling that the first hyperscaler capex cut, but Tesla has no cloud to sell and no contracted capacity to walk away from," Yorkville Ives partner Dan Ives said in a note.
-  – Thursday was an absolute bloodbath for Big Tech, with the Nasdaq Composite (^IXIC) getting slammed nearly 2.6% in its worst single-day beatdown since June.
-  – Adding to the perception of what Tesla did, Meta (META) dropped a bombshell in its third quarter results, posting negative free cash flow for the first time since 2012 amid aggressive spending on AI.
-  – Throw in crude oil spiking above $112 a barrel on geopolitical tensions with Iran, and you have a mini market meltdown like Thursday.
-Link: https://finance.yahoo.com/technology/ai/article/why-teslas-5-billion-capex-cut-isnt-the-warning-sign-ai-stock-bears-think-it-is-124021981.html
-Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
-Ativos: TSLA
-Como falar: 'saiu no Yahoo Finance: Why Tesla's $5 billion capex cut isn't the warning sign AI stock bears think it is; confirmar o número no texto antes de repassar'
-Fonte: Yahoo Finance 23/10 09h40
-id: E05-TSLA-0ede01f171-2026-10-23 · status: entregue
-
-[ATENÇÃO] E05 · BBDC4 · Lucro da Bradesco Seguros cresce 14% no 3° tri, para R$ 2,88 bi
-Valor Economico · 23/10 09h17 · fonte única · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – Ante o segundo trimestre deste ano houve queda de 2%.
-  – Entre todas as divisões da companhia, capitalização foi a única a apontar queda no lucro, na comparação anual, de cerca de 43%.
-  – O resultado das operações de seguros, previdência e capitalização somou R$ 5,59 bilhões, com queda anual de 2% e trimestral de 8,6%.
-  – A linha que considera prêmios ganhos de seguros, contribuições de previdência e receitas com capitalização chegou a R$ 19,87 bilhões, com avanço anual de 4,2%.
-  – O índice de sinistralidade ficou em 74,6% ante 72,7% no segundo trimestre.
-  – Um ano antes, estava em 72,8%.
-Link: https://valor.globo.com/financas/noticia/2026/10/23/lucro-da-bradesco-seguros-cresce-14percent-no-3-tri-para-r-288-bi.ghtml
-Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
-Ativos: BBDC4
-Como falar: 'saiu no Valor Economico: Lucro da Bradesco Seguros cresce 14% no 3° tri, para R$ 2,88 bi; confirmar o número no texto antes de repassar'
-Fonte: Valor Economico 23/10 09h17
-id: E05-BBDC4-6acb064454-2026-10-23 · status: entregue
-
-[ATENÇÃO] E05 · BBDC4 · Bradesco aprova recompra de até 106,6 milhões de ações em programa de 18 meses
-ADVFN · 23/10 08h47 · fonte única · licença: manchete
-Link: https://br.advfn.com/jornal/2026/10/bradesco-aprova-recompra-de-ate-106-6-milhoes-de-acoes-em-programa-de-18-meses
-Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
-Ativos: BBDC4
-Como falar: 'saiu no ADVFN: Bradesco aprova recompra de até 106,6 milhões de ações em programa de 18 meses; confirmar o número no texto antes de repassar'
-Fonte: ADVFN 23/10 08h47
-id: E05-BBDC4-2f710f30c0-2026-10-23 · status: entregue
-
-[ATENÇÃO] E05 · BBDC4 · ADRs do Bradesco caem em NY após balanço do 3º tri e recompra de ações
-UOL Economia · 23/10 07h26 · fonte única · licença: manchete
-Link: https://economia.uol.com.br/cotacoes/noticias/redacao/2026/10/23/adrs-do-bradesco-caem-em-ny-apos-balanco-do-3-tri-e-recompra-de-acoes.ghtm
-Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
-Ativos: BBDC4
-Como falar: 'saiu no UOL Economia: ADRs do Bradesco caem em NY após balanço do 3º tri e recompra de ações; confirmar o número no texto antes de repassar'
-Fonte: UOL Economia 23/10 07h26
-id: E05-BBDC4-e6d63bb835-2026-10-23 · status: entregue
-
-[ATENÇÃO] E05 · BBDC4 · Bradesco (BBDC3; BBDC4) aprova recompra de ações
-InfoMoney · 23/10 07h00 · + UOL Economia · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – O banco afirmou que vai recomprar até 53.413.506 ações ordinárias e até 53.171.375 papeis preferenciais.
-  – A ação ordinária do Bradesco encerrou nesta quinta-feira cotada a R$17,91, em queda de 1,97% na sessão, e a preferencial fechou a R$20,22, baixa de 2,08%.
-Link: https://www.infomoney.com.br/mercados/bradesco-bbdc3-bbdc4-aprova-recompra-de-acoes/
-Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
-Ativos: BBDC4
-Como falar: 'saiu no InfoMoney: Bradesco (BBDC3; BBDC4) aprova recompra de ações; confirmar o número no texto antes de repassar'
-Fonte: InfoMoney 23/10 07h00
-id: E05-BBDC4-feaffcd2b7-2026-10-23 · status: entregue
-
-[ATENÇÃO] E05 · NVDA · Key facts: SMCI raises Q1 guidance; Nokia, NVIDIA AI-RAN; ARC MGX demo
-TradingView (Reuters) · 23/10 04h00 · fonte única · licença: manchete
-Link: https://www.tradingview.com/news/tradingview:26e9d47d847db:0-key-facts-smci-raises-q1-guidance-nokia-nvidia-ai-ran-arc-mgx-demo/
-Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
-Ativos: NVDA · NOK
-Como falar: 'saiu no TradingView (Reuters): Key facts: SMCI raises Q1 guidance; Nokia, NVIDIA AI-RAN; ARC MGX demo; confirmar o número no texto antes de repassar'
-Fonte: TradingView (Reuters) 23/10 04h00
-id: E05-NVDA-4b92c26630-2026-10-23 · status: entregue
-
-
-## OUTRAS NOTÍCIAS (só manchete) (27)
-
+· AXIA3 Axia Energia amplia centro de operação em Tucuruí (CanalEnergia) https://www.canalenergia.com.br/noticias/53358789/axia-energia-amplia-centro-de-operacao-em-tucurui
+· PETR4 Reeleição de Lula vai fazer Petrobras ‘arrumar a casa’ com reajuste gradual de preço, diz Abicom (Estadao) https://www.estadao.com.br/em-alta/economia/reeleicao-lula-petrobras-arrumar-casa-reajuste-gradual/
+· BTC Bitcoin’s Bear Market Is Over, Galaxy Research Says: 'Now Is an Attractive Time to Buy' (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-bear-market-over-galaxy-130102380.html
+· BTC Current price of Bitcoin for Oct. 26, 2026 (Fortune) https://fortune.com/article/price-of-bitcoin-10-26-2026/
+· MU Micron: I Was Bearish Before, But This Call May Be Even More Controversial (Upgrade) (MU) (Seeking Alpha) https://seekingalpha.com/article/4957455-micron-i-was-bearish-before-but-this-call-may-be-even-more-controversial-upgrade
+· USDBRL Dólar dispara a R$ 5,42, índice futuro da Bolsa despenca, 'circuit breaker' é acionado. Tesouro cancela leilão (O Globo) https://oglobo.globo.com/economia/noticia/2026/10/26/bolsa-e-dolar-nesta-segunda-feira-mercados-reagem-a-reeleicao-de-lula.ghtml
+· TSLA TSLA Is The Worst-Performing Mag 7 Stock This Year But Leads The Pack In October – Barclays Sees 19% Upside Potential (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:7579bca36094b:0-tsla-is-the-worst-performing-mag-7-stock-this-year-but-leads-the-pack-in-october-barclays-sees-19-upside-potential/
+· UST US 10-Year Treasury Yield Little Changed on Monday (TradingView (Reuters)) https://www.tradingview.com/news/te_news:595072:0-us-10-year-treasury-yield-little-changed-on-monday/
+· ETH Current price of Ethereum for Oct 26, 2026 (Fortune) https://fortune.com/article/price-of-ethereum-10-26-2026/
+· TSLA Tesla: Too Big To Fail, Too Expensive To Justify - Reiterate Sell (NASDAQ:TSLA) (Seeking Alpha) https://seekingalpha.com/article/4957449-tesla-too-big-to-fail-too-expensive-to-justify-reiterate-sell
+· USDBRL Reeleição de Lula: dólar futuro dispara 9% e ETF brasileiro cai mais de 26% em NY (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/ibovespa-hoje-fim-das-eleicoes-abre-nova-disputa-no-mercado-o-que-esta-em-jogo/
+· USDBRL Economistas reduzem previsão de inflação, PIB e dólar neste ano (Folha de S.Paulo) https://news.google.com/rss/articles/CBMitAFBVV95cUxQWVNqdUtHYUFsWG41OEF6Rk1ha1NfWDhYdTNUYjZlZ2JTUFJvTWY5SGx5Ql9kM3N5cU1FamU5Zl9pdHRTQWY4V05SbGk4b29sZjRwem9FdzRzTFlFZGhrUzdEVXBfSnlUWms5T1ZGN28yYzBkSlZkcGFOcE05eHlpRUVFQ21vYjVycVRaSFlza1RPM3lHazJ1N2FXekpzQkpLZVVWOUFsaFROUjdxeThLUDlNTDY?oc=5
+· LITE Lumentum, Coherent in focus as StoneX starts with Buy ratings (TradingView (Reuters)) https://news.google.com/rss/articles/CBMiwAFBVV95cUxNZ3l5NFlBSFNvNHNYdmM5SkRlWTFNckxFX1Y1NkdKbVNpT0lzZWd3dTJKdC1QN0xiYzVvRFpvYVpFeEJXZFV0TEozeWxkSXZHal8zTzFjVXlEakdKdFYyTHJCZTBsUEMwQmh0eUg0dEhmRkxXX2FPTk51RTdMTkZVTV9TTWYyZGUtMUpDQWNkS0FjSnFKYXlpdU9RcHYyd1QtZUlFcGdIN2RFdDlFSk1rMWlPVjFXajFac2xGN3ZTUlc?oc=5
+· USDBRL Dólar dispara 12% e supera R$ 5,60 com reeleição de Lula (Money Times) https://news.google.com/rss/articles/CBMia0FVX3lxTFBUdjZwWTI5dml0bk5IWkxnZmNvUnh6dG9SeVZiNDM1RFg1TnZiMGhSUmFsajRlNmRFaTB0N0owTi1TSVpzbmQyN2xtQ2VNbDltR29WbHBLUFlxbEQyOUctZVl1RldMdk9PQ0w4?oc=5
+· USDBRL Expectativa para o dólar no fim de 2026 cai de R$ 5,13 para R$ 5,05 no Focus do BC (UOL Economia) https://news.google.com/rss/articles/CBMi4AFBVV95cUxNSnJTV2Vybk5RUDN0UjBHYmczeXVkMUJCRzE4YWdqc2dLVXhodTJrQXRuTlI5NDhlTWhHa3AxRnpXVlRucGpIclNTcE9Idy1jZF9WZUpNYXRSZzA1UEtQS1BrMU4wcDVmcmxlbjNkbHJLZkpEaXZlRjBDZHlCZ0wyT1h2eXVuUjlyT3p3MFF3elJjQ0VZTk1iamp1b2F2OGw1c2dneG9sTGRXOFo3ajdEQTBWSEx2NTZwUFFYWFQwRjZvTFJnX25BY3ZXSHZDMHotZUFLWmJDeDF5cXF1WXp3bg?oc=5
 · MU Audi Announces Its First U.S. Factory; Nvidia, Micron Drive Earnings Boom (The Wall Street Journal) https://www.wsj.com/cfo-journal/audi-announces-its-first-u-s-factory-nvidia-micron-drive-earnings-boom-281693e0
 · BTC Bitcoin holds near $80,000 as oil retreats and the Fed decision looms (CoinDesk) https://www.coindesk.com/markets/2026/10/26/bitcoin-holds-near-usd80-000-as-oil-retreats-and-the-fed-decision-looms
 · ITUB4 Itaú (ITUB4) fecha acordo para comprar startup brasileira de IA por R$ 2,9 bilhões; veja detalhes (Money Times) https://www.moneytimes.com.br/itau-itub4-fecha-acordo-para-comprar-startup-brasileira-ia-por-29-bilhoes-veja-detalhes-lmrs/
@@ -233,15 +183,3 @@ id: E05-NVDA-4b92c26630-2026-10-23 · status: entregue
 · NVDA The Mixed Blessing From Tech Earnings Weighing on Nvidia Stock (Barron's) https://news.google.com/rss/articles/CBMigwFBVV95cUxNMTFwZFVteGpUWTFvanFsalB1MUlMcmVua0FsbzB6c2tRUFhaQXpZWXNpaXVtUVAyaVZ3UFF1Vnk3SXI0NlhMTGgtWXdIM3hjdERWeDZOdkZlbjI3SjgzdHRlVU1USDN0TzNJeHdPcUtIbVZXcTBZSTFRc1hQYnpHbHpXVQ?oc=5
 · MMM Prediction: 3M Will Reward Patient Investors (Yahoo Finance) https://news.google.com/rss/articles/CBMipgFBVV95cUxPWU1tUElBdHF4Zk1QQWVkVU1xaHlOM3hXSnVEQnJqbS14NlpzWHlWZkRubmFPZFRjNFVjTThCT2RMVFRaTnhwbzgwRHhra3pvbUZ1ZDhoMEhEU3k3a0ZPaEJEcTZqQVNKMUhtUDU0dXJ3c0ZDX0pQSTB3cHpJVVhRc1VKNlh0ZWFuUnY5a3ZhZEtrVGlFbUc3WnFxTUItdVFNVzlqMG9R?oc=5
 · BTC SATS: The Price Of Funding Strive's Bitcoin Ambition (NASDAQ:SATS) (Seeking Alpha) https://news.google.com/rss/articles/CBMilgFBVV95cUxOSEVtcEpVeU41RDJraTJLamJnVWp6XzBQSVJ4aTdXTWZac2RJeU0yNzFXRFVRYmUybG5od2pXT1ZtTHo2ckx2WkpNVnpfR2I5RU1sVFZwd1VHQ25rM3pzN3BSalZjeVp3NjVDcy0wODdBdzVLb0s0Q3VtY2Q3XzFIdXdDRnpRSFhJZjU1WmNBSzh3U1JYLXc?oc=5
-· PLTR Palantir stock faces brutal test after crushing expectations (Yahoo Finance) https://sg.finance.yahoo.com/news/palantir-stock-faces-brutal-test-014700094.html
-· GOOGL The Bet Alphabet Holders Made (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/bet-alphabet-holders-made-011025851.html
-· TSLA Stocktwits Zero To Sixty: Tesla And SpaceX Form Merger Committees As Profits Drop, While Rivian Buys AI Startup And GM, Ford Advance EV Plans (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/stocktwits-zero-sixty-tesla-spacex-005858287.html
-· TSLA Tesla Just Reversed Its 2026 CapEx Surge — Why Gordon Johnson Asks If It's the 'End of the AI Trade' (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/tesla-just-reversed-2026-capex-003005120.html
-· META Elon Musk Eyes SpaceX-Tesla Merger, Huang Pitches ‘Financeable’ Chips, Zuckerberg Wants More Compute: Mag 7 Voices This Week (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:607f94983094b:0-elon-musk-eyes-spacex-tesla-merger-huang-pitches-financeable-chips-zuckerberg-wants-more-compute-mag-7-voices-this-week/
-· BTC Bitcoin Usually Bottoms After Midterm Elections. What Happens if This Cycle Breaks the Pattern? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-usually-bottoms-midterm-elections-000053376.html
-· AMZN Amazon cloud capacity sold out through 2027, CEO Jassy says (TradingView (Reuters)) https://www.tradingview.com/news/reuters.com,2026:newsml_L4N4691SV:0-amazon-cloud-capacity-sold-out-through-2027-ceo-jassy-says/
-· META Meta Platforms Inc (META) Q3 2026 Earnings Call Highlights: Revenue Surges 26% to $64. ... By GuruFocus (Investing.com) https://ca.investing.com/news/company-news/meta-platforms-inc-meta-q3-2026-earnings-call-highlights-revenue-surges-26-to-64--4900888
-· BBAS3 Ibovespa reage antes das eleições; Petrobras (PETR4) sobe 1,47% e Banco do Brasil (BBAS3) dispara (Suno Noticias) https://www.suno.com.br/noticias/ibovespa-hoje-23-outubro-petrobras-petr4-bbas3/
-· USDBRL Dólar à vista fecha em baixa de 0,97%, a R$4,9896 na venda (UOL Economia) https://economia.uol.com.br/noticias/reuters/2026/10/23/dolar-a-vista-fecha-em-baixa-de-097-a-r49896-na-venda.htm
-· AMZN Post-it Notes maker 3M eyes AI gold rush in major Amazon deal (Yahoo Finance) https://sg.finance.yahoo.com/news/post-notes-maker-3m-eyes-193700619.html
-· AMZN Amazon Stocks Edge Lower Ahead of Earnings After 37% AWS Revenue Growth (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:88d472b7c094b:0-amazon-stocks-edge-lower-ahead-of-earnings-after-37-aws-revenue-growth/

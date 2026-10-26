@@ -1,53 +1,92 @@
 ALERTAS · intradia
 
-[ATENÇÃO] E05 · BBDC4 · Bradesco (BBDC4) tem lucro líquido recorrente de R$ 7,1 bi no 3T26, alta de 14,6%
-Suno Noticias · 23/10 10h00 · fonte única · licença: resumo
+[CRÍTICO] F01 · Real cai: USD/BRL 5,6034 (+12% no dia · +11% em 5 sessões · cruzou R$ 5,00) (parcial, intradia)
+DXY +0,1% no dia: movimento doméstico (risco Brasil), resíduo +12%
+1m +8,1% · 6m +13% · YTD +2,3%
+Por que importa: BRL e DI piorando juntos com DXY fraco é prêmio de risco Brasil; só reverte com sinal fiscal
+Ativos: UCITS em R$ ↑ · exportadoras (VALE3, KLBN4) ↑
+Como falar: 'o dólar subiu por Brasil, não pelo mundo: é prêmio de risco doméstico'
+Fonte: Yahoo Finance 26/10; BCB PTAX
+Push: [CRÍTICO] USDBRL Real cai · detalhe na sessão
+ids: F01-USDBRL-alta-2026-10-26
+
+[ATENÇÃO] E05 · ITUB4 · Itaú anuncia compra da NeoSpace por quase R$ 3 bilhões
+Poder360 · 26/10 09h36 · fonte única · licença: resumo
 Trechos (licença resumo: reescrever, não colar):
-  – Principal indicador de rentabilidade, o retorno sobre o patrimônio líquido (ROAE) do banco ficou em 16,1% em setembro, de 14,6% um ano antes.
-  – Ao fim do segundo trimestre, o indicador trimestral estava em 16,2%.
-  – A margem financeira bruta atingiu R$ 21,37 bilhões no trimestre, avanço anual de 14,2%.
-  – Já a margem líquida, que desconta as despesas com provisões para perdas, cresceu 5,7% em 12 meses, a R$ 10,7 bilhões.
-  – A margem com clientes totalizou R$ 10,5 bilhões, expansão de 10,1% no comparativo anual, refletindo o aumento da carteira de crédito.
-  – A margem com clientes líquida, por sua vez, foi a R$ 9,8 bilhões, queda anual de 2%.
-Link: https://www.suno.com.br/noticias/bradesco-tem-lucro-liquido-recorrente-bi-no-3o-trimestre-go/amp/
-Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
-Ativos: BBDC4
-Como falar: 'saiu no Suno Noticias: Bradesco (BBDC4) tem lucro líquido recorrente de R$ 7,1 bi no 3T26, alta de 14,6%; confirmar o número no texto antes de repassar'
-Fonte: Suno Noticias 23/10 10h00
-Push: [ATENÇÃO] BBDC4 · Bradesco (BBDC4) tem lucro líquido recorrente de R$  · detalhe na sessão
-ids: E05-BBDC4-4100fb66fe-2026-10-23
+  – Em fato relevante (íntegra – PDF – 321 kB), o banco declarou que o preço a ser pago será de R$ 2,925 bilhões, sendo uma parcela no fechamento e as demais ao longo de 5 anos.
+  – A aquisição, de acordo com o Itaú, “fortalece a continuidade da relação” entre as partes.
+  – O banco falou em “resultados relevantes e transformadores” em frentes como crédito, relação com os clientes e prevenção de fraudes.
+Link: https://www.poder360.com.br/poder-economia/itau-anuncia-compra-da-neospace-por-quase-r-3-bilhoes/
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: ITUB4
+Como falar: 'saiu no Poder360: Itaú anuncia compra da NeoSpace por quase R$ 3 bilhões; confirmar o número no texto antes de repassar'
+Fonte: Poder360 26/10 09h36
+Push: intradia: 3 alertas de atenção — E05 ITUB4, E05 PETR4, E05 BTC · detalhe na sessão
+ids: E05-ITUB4-9c2fe76b7b-2026-10-26
+
+[ATENÇÃO] E05 · PETR4 · Petrobras: Bradesco BBI corta preço-alvo, mas mantém compra para ações após eleição
+InfoMoney · 26/10 08h59 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Os ADRs PBR – equivalente aos PETR3 – caíam mais de 20% no pré-market da Bolsa de Nova York após os resultados das eleições.
+  – UGPA3 negocia a 13,6 vezes o lucro estimado (P/L), considerando margem EBITDA de aproximadamente R$ 200/m³, ou a 10,6 vezes em um cenário de R$ 250/m³; para VBBR3 os múltiplos seriam de 10,1 vezes e 8,0 vezes, respectiv…
+  – “Mantemos também uma visão positiva para a Petrobras, apoiada pelo bom desempenho operacional, pela produção acima das expectativas e pela possibilidade de spreads de refino mais elevados em 2027 sustentarem novas revis…
+  – Ainda assim, seguimos cautelosos com o aumento de exposição a produtoras puras de petróleo, uma vez que os preços do Brent estão próximos das máximas do ciclo, impulsionados por fatores geopolíticos”, concluem os analis…
+Link: https://www.infomoney.com.br/mercados/petrobras-petr4-bradesco-bbi-corta-preco-alvo-mas-mantem-compra-para-acoes-apos-eleicao/amp/
+Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
+Ativos: PETR4
+Como falar: 'saiu no InfoMoney: Petrobras: Bradesco BBI corta preço-alvo, mas mantém compra para ações após eleição; confirmar o número no texto antes de repassar'
+Fonte: InfoMoney 26/10 08h59
+ids: E05-PETR4-9f9c9e0057-2026-10-26
+
+[ATENÇÃO] E05 · BTC · A $68 million BTC price bet is targeting a surge to $90,000 after U.S. mid-term vote: Crypto Daily
+CoinDesk · 26/10 08h53 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Bitcoin  is trading pretty much where it was on Saturday, around $80,000, offering little news on the price front.
+  – The platform told CoinDesk that one trader took $68 million bet that BTC's spot price would climb above $90,000 just after U.S.
+  – There has also been an increase in bets implying market prices will top $100,000 by Christmas.
+  – 20, a single wallet bought 800 contracts of $90,000 call options expiring on Nov.
+  – “That's approximately $68 million in face value at current Bitcoin prices – the largest open Bitcoin position on Derive,” the exchange told CoinDesk.
+  – The wallet sold 400 contracts of $100,000 calls expiring in March 2027 and another 400 contracts of $90,000 calls expiring Oct.
+Link: https://www.coindesk.com/daybook-us/2026/10/26/a-usd68-million-bitcoin-bet-is-targeting-a-post-midterm-election-breakout-to-usd90-000
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: BTC
+Como falar: 'saiu no CoinDesk: A $68 million BTC price bet is targeting a surge to $90,000 after U.S. mid-term vote: Cry…; confirmar o número no texto antes de repassar'
+Fonte: CoinDesk 26/10 08h53
+ids: E05-BTC-1727602563-2026-10-26
 
 Info (só linha no Fechamento):
-· E03 AXIA3 · Aviso aos Acionistas: Outros avisos
-· E05 USDBRL · Dólar à vista fecha em baixa de 0,97%, a R$4,9896 na venda Por Reuters
-· E05 USDBRL · Dólar cai e fecha abaixo de R$ 5 no último pregão antes do segundo turno
-· E05 CVX · Hess Midstream upgraded at Raymond James as Chevron restructuring selloff overdone (HESM:NYSE)
-· E05 INTC · Intel Stocks Rise, Trade at 166.5% Above GF Value Ahead of Earnings
-· E05 PETR4 · Goldman Sachs alerta para risco de Petrobras reajustar preço do diesel em 50% após eleições
-· E05 NOK · Nokia: 3 Key Takeaways for Long-Term Investors
-· E05 GOOGL · Alphabet: Gemini 4 Argon Is Coming For ChatGPT’s Lunch (NASDAQ:GOOG)
-· E05 SMAL11 · 10 small caps que saltaram mais de 50% em outubro e lideram rali histórico na bolsa
-· E05 BBDC4 · Bradesco vê pressão em inadimplência, mas está seguro com crédito, diz CEO
-· E05 USDBRL · Dólar abre sessão desta sexta-feira, no último pregão antes do 2º turno
-· E05 BRENT · Brent crude jumps to highest since April on Houthi attacks, UAE oil spill
-· T13 VIX cruzou 20: 20,2 (+6,0% no dia)
+· E03 UGPA3 · Participação relevante: gestor reduziu para 0,70%
+· E05 AXIA3 · Axia Energia amplia centro de operação em Tucuruí
+· E05 PETR4 · Reeleição de Lula vai fazer Petrobras ‘arrumar a casa’ com reajuste gradual de preço, diz Abicom
+· E05 BTC · Bitcoin’s Bear Market Is Over, Galaxy Research Says: 'Now Is an Attractive Time to Buy'
+· E05 BTC · Current price of Bitcoin for Oct. 26, 2026
+· E05 MU · Micron: I Was Bearish Before, But This Call May Be Even More Controversial (Upgrade) (MU)
+· E05 USDBRL · Dólar dispara a R$ 5,42, índice futuro da Bolsa despenca, 'circuit breaker' é acionado. Tesouro cancela leilão
+· E05 TSLA · TSLA Is The Worst-Performing Mag 7 Stock This Year But Leads The Pack In October – Barclays Sees 19% Upside Potential
+· E05 UST · US 10-Year Treasury Yield Little Changed on Monday
+· E05 ETH · Current price of Ethereum for Oct 26, 2026
+· E05 TSLA · Tesla: Too Big To Fail, Too Expensive To Justify - Reiterate Sell (NASDAQ:TSLA)
+· E05 USDBRL · Reeleição de Lula: dólar futuro dispara 9% e ETF brasileiro cai mais de 26% em NY
+· E05 USDBRL · Economistas reduzem previsão de inflação, PIB e dólar neste ano
+· E05 LITE · Lumentum, Coherent in focus as StoneX starts with Buy ratings
+· E05 USDBRL · Dólar dispara 12% e supera R$ 5,60 com reeleição de Lula
+· E05 USDBRL · Expectativa para o dólar no fim de 2026 cai de R$ 5,13 para R$ 5,05 no Focus do BC
+· E05 ITUB4 · Itaú compra NeoSpace por R$ 2,9 bilhões e avança na inteligência artificial
+· S01 coleta do slot intradia saiu incompleta: bcb: BCB devolveu 3 de 5 séries (faltaram ptax_venda, selic_meta)
 
-Suprimidos pelo teto (viram linha do Fechamento): T13-VIX-vix20-2026-10-23 (teto de atenção)
+Suprimidos pelo teto (viram linha do Fechamento): E05-ITUB4-ce991fc98c-2026-10-26 (teto de noticias), S01-SISTEMA-intradia-2026-10-26 (teto de atenção)
 
 Alertas do dia (todos, com status):
-· pendente  E05 BBDC4 — BBDC4 · Bradesco (BBDC4) tem lucro líquido recorrente de R$ 7,1 bi no 3T26, alta
-· entregue  E05 BBDC4 — BBDC4 · Bradesco registra lucro recorrente de R$ 7,1 bilhões no 3T26
-· entregue  E05 NOK — NOK · Earnings call transcript: Nokia beats Q3 2026 estimates but shares fall pr
-· entregue  E05 TSLA — TSLA · TSLA Q3 deep dive: autonomy adoption and margin dynamics shape outlook
-· linha     T13 VIX — VIX cruzou 20: 20,2 (+6,0% no dia)
-· entregue  E05 TSLA — TSLA · Why Tesla's $5 billion capex cut isn't the warning sign AI stock bears th
-· entregue  E05 BBDC4 — BBDC4 · Lucro da Bradesco Seguros cresce 14% no 3° tri, para R$ 2,88 bi
-· entregue  E05 BBDC4 — BBDC4 · Bradesco aprova recompra de até 106,6 milhões de ações em programa de 18
-· entregue  M01 MACRO — Agenda: IPCA-15 de outubro (IBGE) hoje às 09:00 (23/10)
-· entregue  E05 BBDC4 — BBDC4 · ADRs do Bradesco caem em NY após balanço do 3º tri e recompra de ações
-· entregue  E05 BBDC4 — BBDC4 · Bradesco (BBDC3; BBDC4) aprova recompra de ações
-· entregue  E05 NVDA — NVDA · Key facts: SMCI raises Q1 guidance; Nokia, NVIDIA AI-RAN; ARC MGX demo
-· entregue  S01 SISTEMA — coleta do slot manha saiu incompleta: tesouro: falha: ValueError: cabecalho ines
-· linha     F03 BRENT — Brent sobe a US$ 116,89 (+3,3% no dia) (parcial, intradia)
-· (+121 notícias só manchete, em noticias.md)
+· pendente  F01 USDBRL — Real cai: USD/BRL 5,6034 (+12% no dia · +11% em 5 sessões · cruzou R$ 5,00) (par
+· pendente  E05 ITUB4 — ITUB4 · Itaú anuncia compra da NeoSpace por quase R$ 3 bilhões
+· pendente  E05 PETR4 — PETR4 · Petrobras: Bradesco BBI corta preço-alvo, mas mantém compra para ações a
+· pendente  E05 BTC — BTC · A $68 million BTC price bet is targeting a surge to $90,000 after U.S. mid
+· linha     S01 SISTEMA — coleta do slot intradia saiu incompleta: bcb: BCB devolveu 3 de 5 séries (faltar
+· entregue  E01 KO — KO: resultado sai na próxima sessão (27/10)
+· entregue  E01 MMM — MMM: resultado sai na próxima sessão (27/10)
+· entregue  E03 ITUB4 — ITUB4 · Fato Relevante: ITAÚ UNIBANCO HOLDING S.A. (“Companhia”) informa aos seu
+· entregue  E05 ITUB4 — ITUB4 · Itaú anuncia aquisição da NeoSpace por R$ 2,925 bilhões e amplia investi
+· entregue  E05 AMZN — AMZN · Amazon Into Earnings: The Parts Add Up To $290, And Anthropic's IPO Could
+· entregue  E05 GOOGL — GOOGL · Key facts: GOOG Q2 results; call 4:30pm; 2026 capex $195–$205B
+· (+38 notícias só manchete, em noticias.md)
 
