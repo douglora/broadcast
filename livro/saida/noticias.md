@@ -1,8 +1,19 @@
-NOTÍCIAS E FATOS · 26/10 17h22
+NOTÍCIAS E FATOS · 26/10 18h13
 
-Pernas: noticias ok 11 novas (18 consultas; descartadas: 386 veículo fora da lista, 50 sem ativo, 7 teto) · cvm ok 0 novos de 3 (3 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 12 novas (18 consultas; descartadas: 403 veículo fora da lista, 49 sem ativo, 10 teto) · cvm ok 1 novos de 4 (4 cias casadas) · sec ok 0 novos em 3 dias
 
-## FATOS RELEVANTES E COMUNICADOS (CVM) (2)
+## FATOS RELEVANTES E COMUNICADOS (CVM) (3)
+
+[ATENÇÃO] E03 · SAPR4 · Fato Relevante: A Companhia de Saneamento do Paraná – Sanepar (“Companhia”), em cumprimento ao disposto na Resolução CVM nº 44/2021 e em continuidade ao Comunicado a…
+CVM · entregue 26/10/2026 18:01
+Do documento:
+  – Curitiba, 26 de outubro de 2026.
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1580311
+Por que importa: fato relevante e o que a propria companhia julga capaz de mover o preco; ler o documento inteiro antes de comentar
+Ativos: SAPR4
+Como falar: 'a Sanepar publicou fato relevante sobre A Companhia de Saneamento do Paraná – Sanepar (“Companhia”), em cumpr…'
+Fonte: CVM 26/10
+id: E03-SAPR4-1580311-2026-10-26 · status: pendente · íntegra disponível
 
 [ATENÇÃO] E03 · ITUB4 · Fato Relevante: ITAÚ UNIBANCO HOLDING S.A. (“Companhia”) informa aos seus acionistas e ao mercado em geral que celebrou um Contrato de Compra e Venda visando à aquis…
 CVM · entregue 26/10/2026 07:30
@@ -187,8 +198,20 @@ Fonte: Yahoo Finance 25/10 18h30
 id: E05-BTC-c33ca2324e-2026-10-25 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (128)
+## OUTRAS NOTÍCIAS (só manchete) (140)
 
+· GOOGL Alphabet Inc. expected to post earnings of $3.02 a share - Earnings Preview (TradingView (Reuters)) https://www.tradingview.com/news/reuters.com,2026:newsml_L5N46C2AS:0-alphabet-inc-expected-to-post-earnings-of-3-02-a-share-earnings-preview/
+· GOOGL Alphabet Earnings Dilemma: Organic Traffic Slowdown Meets Unstoppable CapEx (NASDAQ:GOOG) (Seeking Alpha) https://seekingalpha.com/article/4957623-alphabet-earnings-dilemma-organic-traffic-slowdown-meets-unstoppable-capex
+· SMAL11 Índice de Small Caps fecha com queda de 26,9% após eleição (CNN Brasil) https://www.cnnbrasil.com.br/economia/money/mercado/indice-de-small-caps-fecha-com-queda-de-269-apos-eleicao/
+· USDBRL Dólar tem maior alta diária em 23 anos após vitória de Lula e fecha em R$5,4066 (UOL Economia) https://noticias.uol.com.br/ultimas-noticias/reuters/2026/10/26/dolar-tem-maior-alta-diaria-em-23-anos-apos-vitoria-de-lula-e-fecha-em-r54066.htm
+· LITE Why Lumentum’s stock led the S&P 500 higher on Monday (MarketWatch) https://www.marketwatch.com/story/why-lumentums-stock-led-the-s-p-500-higher-on-monday-0dff125b
+· GOOGL Why Google might avoid an earnings 'reckoning' this week (Yahoo Finance) https://finance.yahoo.com/markets/stocks/article/why-google-might-avoid-an-earnings-reckoning-this-week-210350868.html
+· KO Coca-Cola Earnings Are Coming. Its Stock Rally Raises the Stakes. (Barron's) https://www.barrons.com/articles/coca-cola-earnings-stock-price-0a2e6364
+· LITE Why Lumentum Holdings Stock Soared 8.2% Today (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/why-lumentum-holdings-stock-soared-203640142.html
+· USDBRL Bolsa desaba quase 14% com vitória de Lula; dólar fecha em R$ 5,40 (Poder360) https://www.poder360.com.br/poder-economia/bolsa-desaba-quase-14-com-vitoria-de-lula-dolar-fecha-em-r-540/
+· USDBRL Tempo real: Ibovespa afunda 13% com vitória de Lula após circuit breaker; dólar e juros futuros disparam (Money Times) https://www.moneytimes.com.br/tempo-real-ibovespa-reage-a-vitoria-de-lula-rens-apsa-lils-jcav/
+· BTC Galaxy Research says Bitcoin's bear market ended in June as accumulation begins (TradingView (Reuters)) https://www.tradingview.com/news/cryptobriefing:b73b824cc094b:0-galaxy-research-says-bitcoin-s-bear-market-ended-in-june-as-accumulation-begins/
+· USDBRL Exportadores aproveitam turbulência no dólar para trazer recursos de volta ao Brasil (Valor Economico) https://valor.globo.com/financas/intraday/post/2026/10/exportadores-aproveitam-turbulencia-no-dolar-para-trazer-recursos-de-volta-ao-brasil.ghtml
 · LITE Lumentum rises 8% on StoneX buy initiation, AI optimism (LITE:NASDAQ) (Seeking Alpha) https://seekingalpha.com/news/4657529-lumentum-rises-8-percent-on-stonex-buy-initiation-ai-optimism
 · USDBRL Após vitória de Lula, dólar fecha na maior alta diária desde 1999 (Folha de S.Paulo) https://www1.folha.uol.com.br/mercado/2026/10/apos-vitoria-de-lula-dolar-fecha-na-maior-alta-diaria-desde-1999.shtml
 · ETH AI Price Prediction: ChatGPT Predicts Where Ethereum, Chainlink and Uniswap Could Be by the End of 2026 (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/ai-price-prediction-chatgpt-predicts-193039368.html
@@ -237,16 +260,4 @@ id: E05-BTC-c33ca2324e-2026-10-25 · status: linha
 · INTC Intel Q3 Preview: Server CPU Shortage Sets Up A Pricing Tailwind, Strong Buy (NASDAQ:INTC) (Seeking Alpha) https://seekingalpha.com/article/4957531-intel-q3-preview-server-cpu-shortage-sets-up-a-pricing-tailwind-strong-buy
 · USDBRL Após disparada do dólar, ministro da Fazenda conversa com Lula e coordena com BC intervenção do Tesouro: ‘Precisamos ter alguma racionalidade’ (O Globo) https://oglobo.globo.com/economia/fabio-graner/noticia/2026/10/26/ministro-da-fazenda-diz-que-tesouro-fara-intervencao-em-titulos-publicos-apos-mercado-reagir-a-vitoria-de-lula.ghtml
 · LITE Lumentum and Coherent Stocks Jump 3% as StoneX Unveils Bold Price Targets (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/lumentum-coherent-stocks-jump-3-155903440.html
-· KO RBC Capital reiterates Coca-Cola stock rating on strong results outlook (Investing.com) https://www.investing.com/news/analyst-ratings/rbc-capital-reiterates-cocacola-stock-rating-on-strong-results-outlook-93CH-4973250
-· KO Coca-Cola Q3 earnings on deck: What to expect (KO:NYSE) (Seeking Alpha) https://seekingalpha.com/news/4657378-coca-cola-q3-earnings-on-deck-what-to-expect
-· MRVL What's Going On With Marvell Technology Stock Monday? (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:b9ac60dc5094b:0-what-s-going-on-with-marvell-technology-stock-monday/
-· NVDA Nvidia Could Exploit “Completely Legal” China Loophole Worth Billions. But It (Probably) Won’t. (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/nvidia-could-exploit-completely-legal-155027867.html
-· PETR4 A reação de CEO da Petrobras (PETR4) após vitória de Lula; ‘a hora é de comprar’ (Money Times) https://www.moneytimes.com.br/a-reacao-de-ceo-da-petrobras-petr4-apos-vitoria-de-lula-a-hora-e-de-comprar-rnda/
-· USDBRL BC diz ser muito cedo para prever impacto de disparada do dólar após reeleição de Lula (Folha de S.Paulo) https://www1.folha.uol.com.br/mercado/2026/10/bc-diz-ser-muito-cedo-para-prever-impacto-de-disparada-do-dolar-apos-reeleicao-do-lula.shtml
-· PLTR Palantir stock may move 10% on Nov. 2 earnings report (Investing.com) https://news.google.com/rss/articles/CBMiswFBVV95cUxPWDZSRGlubEpjanpneTBXLVpIam9wUjNCai1XejYyVnNucTRXQ2o0NG9SSVJVNHpRQnIweUtubHJJVDhnUUZ4bTl1Y3BtNXRFZGRjRHg4YTUtSGE4b0NuNmlzQmc4U24ySmpXMUZPRW92SmpCQmpLdlIwd0hLRE5HTW1pRmlSRThlV29EbmZZSHp2QkFVcFNIOHpaOFY1Qmg5cGp6dzNiVmxzcFRfVlc0MER2WQ?oc=5
-· USDBRL Dólar sobe até 12,2% e testa maior cotação desde junho de 2025 (UOL Economia) https://economia.uol.com.br/cotacoes/noticias/redacao/2026/10/26/dolar-sobe-ate-122-e-testa-maior-cotacao-desde-junho-de-2025.ghtm
-· USDBRL Dólar sobe 9% após vitória de Lula e pode ter 5ª maior alta desde o Plano Real (InfoMoney) https://www.infomoney.com.br/mercados/dolar-sobe-9-apos-vitoria-de-lula-e-pode-ter-5a-maior-alta-desde-o-plano-real/
-· CVX Hess Midstream: Buy The Chevron Selloff At A 10% Yield (NYSE:HESM) (Seeking Alpha) https://seekingalpha.com/article/4957522-hess-midstream-buy-the-chevron-selloff-at-a-10-percent-yield
-· KO Coca-Cola Q3 earnings on deck: What to expect (TradingView (Reuters)) https://www.tradingview.com/news/seekingalpha:ef70887bf094b:0-coca-cola-q3-earnings-on-deck-what-to-expect/
-· AMZN Amazon's AWS Backlog Takes Center Stage Ahead of Q3 Earnings (Yahoo Finance) https://finance.yahoo.com/technology/articles/amazons-aws-backlog-takes-center-154739984.html
-· (+68 manchetes; lista completa em eventos/noticias.json)
+· (+80 manchetes; lista completa em eventos/noticias.json)
