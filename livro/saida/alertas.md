@@ -2,24 +2,21 @@ ALERTAS · intradia
 
 Nenhum alerta novo neste slot.
 Info (só linha no Fechamento):
-· E05 GOOGL · Microsoft And Alphabet Q3 2026 Earnings Previews
-· E05 BBAS3 · Ação da Petrobras ou Banco do Brasil: qual estatal cai mais após a eleição de Lula? Entenda
-· E05 AMZN · UBS Sets Bold Amazon Stock Target Ahead of Earnings
-· E05 TSLA · Tesla Stock Soars on Wave of Analyst Upgrades
-· E05 DI · Juros futuros disparam após eleição por incertezas sobre ajuste fiscal
-· E05 INTC · Why is Intel stock rallying today?
-· E05 ETH · If Crypto Falls Another 20%, Which Holds Up Best: Ethereum, Sui or Avalanche? Grok AI Ranks Them
-· E05 GOOGL · Anthropic relies on Google, Amazon and Microsoft for nearly half its revenue
-· E05 USDBRL · Dólar hoje sobe mais de 10% e chega a ultrapassar os R$ 5,50 com reeleição de Lula
-· E05 USDBRL · É cedo para saber o impacto da alta do dólar nas contas externas, diz Fernando Rocha, do BC
-· E05 BTC · Bitcoin Can Retake $125,000, Galaxy Says: ‘The Crowd Has Left’
-· E05 PETR4 · CEO da Petrobras vê queda das ações após vitória de Lula como especulativa
-· E05 TSLA · Tesla's Bet: Robotaxis, Robots, and a SpaceX Merger
-· E05 TSLA · Why is Tesla stock gaining 5% today?
+· E05 LITE · Lumentum rises 8% on StoneX buy initiation, AI optimism (LITE:NASDAQ)
+· E05 USDBRL · Após vitória de Lula, dólar fecha na maior alta diária desde 1999
+· E05 ETH · AI Price Prediction: ChatGPT Predicts Where Ethereum, Chainlink and Uniswap Could Be by the End of 2026
+· E05 NVDA · NVIDIA leads Magnificent 7 on earnings upside and valuation By Investing.com
+· E05 USDBRL · Açúcar cai 5,63% em Nova York sob influência do câmbio e safra brasileira
+· E05 AMZN · Earnings week preview: Microsoft, Amazon, Intel and more report Oct 26–29
+· E05 LITE · Lumentum, Coherent Rise as StoneX Backs Optical Names
+· E05 AMD · AMD Stocks Rise 2.3% as Meta's AI Raise Draws Chipmakers
+· E05 MU · Micron Technology, Inc. Revenue Breakdown – TURQUOISE:MTED
+· E05 GOOGL · Alphabet Stocks Move Lower Before Cloud Margin Test
+· E05 GOOGL · Alphabet (GOOG) Could Be a Key Rival to Meta in the Race for AI Assistants, Burke Wealth Says
 
 
 Alertas do dia (todos, com status):
-· entregue  F01 USDBRL — Real cai: USD/BRL 5,4146 (+8,5% no dia · +7,3% em 5 sessões · cruzou R$ 5,00) (p
+· entregue  F01 USDBRL — Real cai: USD/BRL 5,3969 (+8,2% no dia · +7,0% em 5 sessões · cruzou R$ 5,00) (p
 · entregue  E05 AMZN — AMZN · Verizon Raises Earnings Outlook as Quarterly Postpaid Subscribers Surge; 
 · entregue  E05 ITUB4 — ITUB4 · Itaú faz aquisição de quase R$ 3 bilhões para acelerar uso de inteligênc
 · entregue  E05 KO — KO · PepsiCo Pays More, Coca-Cola Looks Stronger. Which Dividend Wins for Retire
@@ -32,4 +29,4 @@ Alertas do dia (todos, com status):
 · entregue  E05 ITUB4 — ITUB4 · Itaú anuncia aquisição da NeoSpace por R$ 2,925 bilhões e amplia investi
 · entregue  E05 AMZN — AMZN · Amazon Into Earnings: The Parts Add Up To $290, And Anthropic's IPO Could
 · entregue  E05 GOOGL — GOOGL · Key facts: GOOG Q2 results; call 4:30pm; 2026 capex $195–$205B
-· (+125 notícias só manchete, em noticias.md)
+· (+136 notícias só manchete, em noticias.md)

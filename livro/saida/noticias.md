@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 26/10 16h07
+NOTÍCIAS E FATOS · 26/10 17h22
 
-Pernas: noticias ok 14 novas (18 consultas; descartadas: 402 veículo fora da lista, 51 sem ativo, 1 teto) · cvm ok 0 novos de 3 (3 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 11 novas (18 consultas; descartadas: 386 veículo fora da lista, 50 sem ativo, 7 teto) · cvm ok 0 novos de 3 (3 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (2)
 
@@ -187,8 +187,19 @@ Fonte: Yahoo Finance 25/10 18h30
 id: E05-BTC-c33ca2324e-2026-10-25 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (117)
+## OUTRAS NOTÍCIAS (só manchete) (128)
 
+· LITE Lumentum rises 8% on StoneX buy initiation, AI optimism (LITE:NASDAQ) (Seeking Alpha) https://seekingalpha.com/news/4657529-lumentum-rises-8-percent-on-stonex-buy-initiation-ai-optimism
+· USDBRL Após vitória de Lula, dólar fecha na maior alta diária desde 1999 (Folha de S.Paulo) https://www1.folha.uol.com.br/mercado/2026/10/apos-vitoria-de-lula-dolar-fecha-na-maior-alta-diaria-desde-1999.shtml
+· ETH AI Price Prediction: ChatGPT Predicts Where Ethereum, Chainlink and Uniswap Could Be by the End of 2026 (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/ai-price-prediction-chatgpt-predicts-193039368.html
+· NVDA NVIDIA leads Magnificent 7 on earnings upside and valuation By Investing.com (Investing.com) https://za.investing.com/news/stock-market-news/nvidia-leads-magnificent-7-on-earnings-upside-and-valuation-93CH-4526183
+· USDBRL Açúcar cai 5,63% em Nova York sob influência do câmbio e safra brasileira (CNN Brasil) https://www.cnnbrasil.com.br/agro/acucar-cai-563-em-nova-york-sob-influencia-do-cambio-e-safra-brasileira/
+· AMZN Earnings week preview: Microsoft, Amazon, Intel and more report Oct 26–29 (Investing.com) https://www.investing.com/news/stock-market-news/earnings-week-preview-microsoft-amazon-intel-and-more-report-oct-2629-93CH-4973444
+· LITE Lumentum, Coherent Rise as StoneX Backs Optical Names (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:165009da8094b:0-lumentum-coherent-rise-as-stonex-backs-optical-names/
+· AMD AMD Stocks Rise 2.3% as Meta's AI Raise Draws Chipmakers (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:bd25b9f9f094b:0-amd-stocks-rise-2-3-as-meta-s-ai-raise-draws-chipmakers/
+· MU Micron Technology, Inc. Revenue Breakdown – TURQUOISE:MTED (TradingView (Reuters)) https://www.tradingview.com/symbols/TURQUOISE-MTED/financials-segments/
+· GOOGL Alphabet Stocks Move Lower Before Cloud Margin Test (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/alphabet-stocks-move-lower-cloud-175836585.html
+· GOOGL Alphabet (GOOG) Could Be a Key Rival to Meta in the Race for AI Assistants, Burke Wealth Says (Yahoo Finance) https://sg.finance.yahoo.com/news/alphabet-goog-could-key-rival-174155659.html
 · GOOGL Microsoft And Alphabet Q3 2026 Earnings Previews (Seeking Alpha) https://seekingalpha.com/article/4957582-microsoft-alphabet-q3-2026-earnings-previews
 · BBAS3 Ação da Petrobras ou Banco do Brasil: qual estatal cai mais após a eleição de Lula? Entenda (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/acao-da-petrobras-ou-banco-do-brasil-qual-estatal-cai-mais-apos-a-eleicao-de-lula-entenda/
 · AMZN UBS Sets Bold Amazon Stock Target Ahead of Earnings (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:1d04be5ff094b:0-ubs-sets-bold-amazon-stock-target-ahead-of-earnings/
@@ -238,15 +249,4 @@ id: E05-BTC-c33ca2324e-2026-10-25 · status: linha
 · CVX Hess Midstream: Buy The Chevron Selloff At A 10% Yield (NYSE:HESM) (Seeking Alpha) https://seekingalpha.com/article/4957522-hess-midstream-buy-the-chevron-selloff-at-a-10-percent-yield
 · KO Coca-Cola Q3 earnings on deck: What to expect (TradingView (Reuters)) https://www.tradingview.com/news/seekingalpha:ef70887bf094b:0-coca-cola-q3-earnings-on-deck-what-to-expect/
 · AMZN Amazon's AWS Backlog Takes Center Stage Ahead of Q3 Earnings (Yahoo Finance) https://finance.yahoo.com/technology/articles/amazons-aws-backlog-takes-center-154739984.html
-· KO RBC Capital reiterates Coca-Cola stock rating on strong results outlook (Investing.com) https://uk.investing.com/news/stock-market-news/rbc-capital-reiterates-cocacola-stock-rating-on-strong-results-outlook-93CH-4932107
-· BTC Michael Howell Says Bitcoin Outperforms Gold When Fed Liquidity Beats China (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:9c95ab9d5094b:0-michael-howell-says-bitcoin-outperforms-gold-when-fed-liquidity-beats-china/
-· PETR4 CEO da Petrobras vê queda das ações após vitória de Lula como especulativa (InfoMoney) https://www.infomoney.com.br/mercados/ceo-da-petrobras-petr4-ve-queda-das-acoes-apos-vitoria-de-lula-como-especulativa/
-· USDBRL Ibovespa cai 17%, dólar vai a R$ 5,50, mas nem todo mundo perde — entenda o caos nos mercados hoje (Seu Dinheiro) https://www.seudinheiro.com/2026/bolsa-dolar/ibovespa-cai-17-dolar-vai-a-r-550-mas-nem-todo-mundo-perde-entenda-o-caos-nos-mercados-hoje-ccgg/
-· TSLA Tesla stock jumps as Barclays bets a SpaceX takeout bump is coming (Yahoo Finance) https://finance.yahoo.com/markets/stocks/article/tesla-stock-jumps-as-barclays-bets-a-spacex-takeout-bump-is-coming-152118597.html
-· USDBRL Dólar hoje dispara 9% e supera R$ 5,45 após vitória de Lula; mercado teme risco fiscal (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/dolar-hoje-dispara-apos-vitoria-de-lula-e-mercado-teme-risco-fiscal/
-· NVDA Nvidia Is Now Cheaper Than the Average S&P 500 Stock: Wall Street Still Sees Record Profits (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:b59b0caf6094b:0-nvidia-is-now-cheaper-than-the-average-s-p-500-stock-wall-street-still-sees-record-profits/
-· BBAS3 Ações da Petrobras e Banco do Brasil caem após resultado eleitoral (O Globo) https://news.google.com/rss/articles/CBMizwFBVV95cUxQUFpXem1pQmNvNVo2eVJZMlJ0YkNXd1FRa1pIWFpVZzZ4TUNjdzlBaVlDa01XcGI0Q0dwcUE3c0xReWlZNUxCX28xVHp5UHVUR1NOZHpKU2VCX1c4amxleXpBWS1kaFpKR2VIYW95YXVnRjBIaVdITnpLV3JaRy14dkUydWdMcUk1WmJwal9wb05mSE9tcW9pRjJueGhQcUlRNTZpT2swZnN4S3Q0RjRkSjNuSm81cl9CVGhEbFBFbVZRNGxmallHTjVwVnU4M0XSAd4BQVVfeXFMT3J3cXFXX0RwMk04ZERXbk1Ib3VETzIzVDZSMWM1UW5oYmZJN3dNOGlBc0NfT2pRNnhudUU5ZW9keXAxT3VDUE9GWTRMUHRyXzg5V3NVZmZRNjFaeGl4c3Nxa1R1WVIyVUlfajZBRzhTZkNheFF5NnVQWU9zSktQYkg2MmZDUDhuNU12Ymwxcm1KVy1JOXZGWTJoWTFyWUZPRVZ0MFpwSDNMVEFwOUEyZzB4YVRfZmE0R2RKdkQ0aEZMN3pEYTlmOTE5S0Z0aEZiUDQ3N29BOWtHYUFmX3dB?oc=5
-· NVDA Nvidia Or AMD On This Dip? Pick The Safest (NASDAQ:NVDA) (Seeking Alpha) https://news.google.com/rss/articles/CBMiigFBVV95cUxOa1Y1aXpkR09yZVlIdEQ2TXIxMjZOMUlTRGN3QWFiaXpQTjdlTTJ1dG5CME1ETXZ4eGV4akZ4U0c0TmtBSnFNNDBLempUX1h3UE94R21BUnBlYjNMME1MeFR3SlRDdERKUnRVdGFTaUFPSlFLQVJ3T0w2MFk3S24zUGxkX3p4b0ttNUE?oc=5
-· ITUB4 Milton Maluhy Filho explica por que o Itaú desembolsou R$ 2,92 bilhões pela NeoSpace (NeoFeed) https://neofeed.com.br/negocios/milton-maluhy-filho-explica-por-que-o-itau-desembolsou-r-292-bilhoes-pela-neospace/
-· TSM Intel and TSMC Are Vying for Chip Fabrication Supremacy. 1 Offers Superior Value. (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/intel-tsmc-vying-chip-fabrication-150500654.html
-· (+57 manchetes; lista completa em eventos/noticias.json)
+· (+68 manchetes; lista completa em eventos/noticias.json)
