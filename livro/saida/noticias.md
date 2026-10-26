@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 26/10 12h24
+NOTÍCIAS E FATOS · 26/10 13h22
 
-Pernas: noticias ok 14 novas (18 consultas; descartadas: 369 veículo fora da lista, 55 sem ativo, 12 teto) · cvm ok 0 novos de 3 (3 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 16 novas (18 consultas; descartadas: 390 veículo fora da lista, 48 sem ativo, 11 teto) · cvm ok 0 novos de 3 (3 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (2)
 
@@ -30,7 +30,32 @@ Fonte: CVM 26/10
 id: E03-UGPA3-1580051-2026-10-26 · status: linha · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (9)
+## NOTÍCIAS COM MATERIALIDADE (11)
+
+[ATENÇÃO] E05 · ITUB4 · Itaú faz aquisição de quase R$ 3 bilhões para acelerar uso de inteligência artificial no banco
+Estadao · 26/10 12h35 · fonte única · licença: manchete
+Link: https://www.estadao.com.br/em-alta/einvestidor/cenarios-e-mercado/itau-faz-aquisicao-de-quase-r-3-bilhoes-para-acelerar-uso-de-inteligencia-artificial-no-banco/
+Por que importa: aquisicao ou venda muda alavancagem, mix de receita e o multiplo; olhar preco pago e financiamento
+Ativos: ITUB4
+Como falar: 'saiu no Estadao: Itaú faz aquisição de quase R$ 3 bilhões para acelerar uso de inteligência artificial no…; confirmar o número no texto antes de repassar'
+Fonte: Estadao 26/10 12h35
+id: E05-ITUB4-6a34d411bd-2026-10-26 · status: pendente
+
+[ATENÇÃO] E05 · KO · PepsiCo Pays More, Coca-Cola Looks Stronger. Which Dividend Wins for Retirement?
+Yahoo Finance · 25/10 16h00 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Quick Read - PepsiCo yields 4.13% versus Coca-Cola's 2.20%, but Coca-Cola's raised 2026 guidance and 63-year dividend streak make it the stronger retirement pick.
+  – - PepsiCo slashed its 2026 core EPS growth guidance to just 2.5%-3.5%, leaving little room for meaningful dividend raises until its outlook steadies.
+  – PepsiCo lowered its 2026 earnings outlook on October 8, 2026, and Coca-Cola raised its guidance in July.
+  – Yield: PepsiCo Pays Nearly Double the Income PepsiCo yields 4.13%, compared with Coca-Cola's 2.20%.
+  – PepsiCo's annualized forward dividend is $5.92 per share.
+  – That figure reflects its 54th consecutive annual increase, a 4% raise from $5.69 that started with the June 2026 payment.
+Link: https://finance.yahoo.com/markets/stocks/articles/pepsico-pays-more-coca-cola-190049124.html
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: KO
+Como falar: 'saiu no Yahoo Finance: PepsiCo Pays More, Coca-Cola Looks Stronger. Which Dividend Wins for Retirement?; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 25/10 16h00
+id: E05-KO-d9ee0b71ee-2026-10-25 · status: pendente
 
 [ATENÇÃO] E05 · ITUB4 · Itaú anuncia compra da NeoSpace por quase R$ 3 bilhões
 Poder360 · 26/10 09h36 · fonte única · licença: resumo
@@ -151,8 +176,22 @@ Fonte: Yahoo Finance 25/10 18h30
 id: E05-BTC-c33ca2324e-2026-10-25 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (59)
+## OUTRAS NOTÍCIAS (só manchete) (73)
 
+· USDBRL Dólar sobe até 12,2% e testa maior cotação desde junho de 2025 (UOL Economia) https://economia.uol.com.br/cotacoes/noticias/redacao/2026/10/26/dolar-sobe-ate-122-e-testa-maior-cotacao-desde-junho-de-2025.ghtm
+· USDBRL Dólar sobe 9% após vitória de Lula e pode ter 5ª maior alta desde o Plano Real (InfoMoney) https://www.infomoney.com.br/mercados/dolar-sobe-9-apos-vitoria-de-lula-e-pode-ter-5a-maior-alta-desde-o-plano-real/
+· CVX Hess Midstream: Buy The Chevron Selloff At A 10% Yield (NYSE:HESM) (Seeking Alpha) https://seekingalpha.com/article/4957522-hess-midstream-buy-the-chevron-selloff-at-a-10-percent-yield
+· KO Coca-Cola Q3 earnings on deck: What to expect (TradingView (Reuters)) https://www.tradingview.com/news/seekingalpha:ef70887bf094b:0-coca-cola-q3-earnings-on-deck-what-to-expect/
+· AMZN Amazon's AWS Backlog Takes Center Stage Ahead of Q3 Earnings (Yahoo Finance) https://finance.yahoo.com/technology/articles/amazons-aws-backlog-takes-center-154739984.html
+· KO RBC Capital reiterates Coca-Cola stock rating on strong results outlook (Investing.com) https://uk.investing.com/news/stock-market-news/rbc-capital-reiterates-cocacola-stock-rating-on-strong-results-outlook-93CH-4932107
+· BTC Michael Howell Says Bitcoin Outperforms Gold When Fed Liquidity Beats China (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:9c95ab9d5094b:0-michael-howell-says-bitcoin-outperforms-gold-when-fed-liquidity-beats-china/
+· PETR4 CEO da Petrobras vê queda das ações após vitória de Lula como especulativa (InfoMoney) https://www.infomoney.com.br/mercados/ceo-da-petrobras-petr4-ve-queda-das-acoes-apos-vitoria-de-lula-como-especulativa/
+· USDBRL Ibovespa cai 17%, dólar vai a R$ 5,50, mas nem todo mundo perde — entenda o caos nos mercados hoje (Seu Dinheiro) https://www.seudinheiro.com/2026/bolsa-dolar/ibovespa-cai-17-dolar-vai-a-r-550-mas-nem-todo-mundo-perde-entenda-o-caos-nos-mercados-hoje-ccgg/
+· TSLA Tesla stock jumps as Barclays bets a SpaceX takeout bump is coming (Yahoo Finance) https://finance.yahoo.com/markets/stocks/article/tesla-stock-jumps-as-barclays-bets-a-spacex-takeout-bump-is-coming-152118597.html
+· USDBRL Dólar hoje dispara 9% e supera R$ 5,45 após vitória de Lula; mercado teme risco fiscal (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/dolar-hoje-dispara-apos-vitoria-de-lula-e-mercado-teme-risco-fiscal/
+· NVDA Nvidia Is Now Cheaper Than the Average S&P 500 Stock: Wall Street Still Sees Record Profits (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:b59b0caf6094b:0-nvidia-is-now-cheaper-than-the-average-s-p-500-stock-wall-street-still-sees-record-profits/
+· BBAS3 Ações da Petrobras e Banco do Brasil caem após resultado eleitoral (O Globo) https://news.google.com/rss/articles/CBMizwFBVV95cUxQUFpXem1pQmNvNVo2eVJZMlJ0YkNXd1FRa1pIWFpVZzZ4TUNjdzlBaVlDa01XcGI0Q0dwcUE3c0xReWlZNUxCX28xVHp5UHVUR1NOZHpKU2VCX1c4amxleXpBWS1kaFpKR2VIYW95YXVnRjBIaVdITnpLV3JaRy14dkUydWdMcUk1WmJwal9wb05mSE9tcW9pRjJueGhQcUlRNTZpT2swZnN4S3Q0RjRkSjNuSm81cl9CVGhEbFBFbVZRNGxmallHTjVwVnU4M0XSAd4BQVVfeXFMT3J3cXFXX0RwMk04ZERXbk1Ib3VETzIzVDZSMWM1UW5oYmZJN3dNOGlBc0NfT2pRNnhudUU5ZW9keXAxT3VDUE9GWTRMUHRyXzg5V3NVZmZRNjFaeGl4c3Nxa1R1WVIyVUlfajZBRzhTZkNheFF5NnVQWU9zSktQYkg2MmZDUDhuNU12Ymwxcm1KVy1JOXZGWTJoWTFyWUZPRVZ0MFpwSDNMVEFwOUEyZzB4YVRfZmE0R2RKdkQ0aEZMN3pEYTlmOTE5S0Z0aEZiUDQ3N29BOWtHYUFmX3dB?oc=5
+· NVDA Nvidia Or AMD On This Dip? Pick The Safest (NASDAQ:NVDA) (Seeking Alpha) https://news.google.com/rss/articles/CBMiigFBVV95cUxOa1Y1aXpkR09yZVlIdEQ2TXIxMjZOMUlTRGN3QWFiaXpQTjdlTTJ1dG5CME1ETXZ4eGV4akZ4U0c0TmtBSnFNNDBLempUX1h3UE94R21BUnBlYjNMME1MeFR3SlRDdERKUnRVdGFTaUFPSlFLQVJ3T0w2MFk3S24zUGxkX3p4b0ttNUE?oc=5
 · ITUB4 Milton Maluhy Filho explica por que o Itaú desembolsou R$ 2,92 bilhões pela NeoSpace (NeoFeed) https://neofeed.com.br/negocios/milton-maluhy-filho-explica-por-que-o-itau-desembolsou-r-292-bilhoes-pela-neospace/
 · TSM Intel and TSMC Are Vying for Chip Fabrication Supremacy. 1 Offers Superior Value. (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/intel-tsmc-vying-chip-fabrication-150500654.html
 · BTC Is Bitcoin a Good Buy at $80,000 Right Now? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-good-buy-80-000-145620150.html
@@ -199,16 +238,4 @@ id: E05-BTC-c33ca2324e-2026-10-25 · status: linha
 · USDBRL Expectativa para o dólar no fim de 2026 cai de R$ 5,13 para R$ 5,05 no Focus do BC (UOL Economia) https://news.google.com/rss/articles/CBMi4AFBVV95cUxNSnJTV2Vybk5RUDN0UjBHYmczeXVkMUJCRzE4YWdqc2dLVXhodTJrQXRuTlI5NDhlTWhHa3AxRnpXVlRucGpIclNTcE9Idy1jZF9WZUpNYXRSZzA1UEtQS1BrMU4wcDVmcmxlbjNkbHJLZkpEaXZlRjBDZHlCZ0wyT1h2eXVuUjlyT3p3MFF3elJjQ0VZTk1iamp1b2F2OGw1c2dneG9sTGRXOFo3ajdEQTBWSEx2NTZwUFFYWFQwRjZvTFJnX25BY3ZXSHZDMHotZUFLWmJDeDF5cXF1WXp3bg?oc=5
 · MU Audi Announces Its First U.S. Factory; Nvidia, Micron Drive Earnings Boom (The Wall Street Journal) https://www.wsj.com/cfo-journal/audi-announces-its-first-u-s-factory-nvidia-micron-drive-earnings-boom-281693e0
 · BTC Bitcoin holds near $80,000 as oil retreats and the Fed decision looms (CoinDesk) https://www.coindesk.com/markets/2026/10/26/bitcoin-holds-near-usd80-000-as-oil-retreats-and-the-fed-decision-looms
-· ITUB4 Itaú (ITUB4) fecha acordo para comprar startup brasileira de IA por R$ 2,9 bilhões; veja detalhes (Money Times) https://www.moneytimes.com.br/itau-itub4-fecha-acordo-para-comprar-startup-brasileira-ia-por-29-bilhoes-veja-detalhes-lmrs/
-· ITUB4 Bradesco e Itaú desabam quase 30% na pré-abertura de NY; Petrobras cai 23% (UOL Economia) https://economia.uol.com.br/cotacoes/noticias/redacao/2026/10/26/adrs-brasileiras-apos-eleicao.ghtm
-· JPM JPMorgan vê taxa de papéis do Tesouro em até 15,5% após reeleição de Lula (InfoMoney) https://www.infomoney.com.br/onde-investir/jpmorgan-ve-taxa-de-papeis-do-tesouro-em-ate-155-apos-reeleicao-de-lula/
-· ITUB4 Petrobras, Itaú e mais: ADRs de empresas brasileiras despencam até 30% após vitória de Lula (Money Times) https://www.moneytimes.com.br/adrs-de-empresas-brasileiras-despencam-apos-vitoria-de-lula-igdl/
-· JPM JPMorgan: Ibovespa deve cair 20% e dólar ir a R$ 5,50 nos próximos dias após eleição (InfoMoney) https://www.infomoney.com.br/mercados/jpmorgan-ibovespa-deve-cair-20-e-dolar-ir-a-r-550-nos-proximos-dias-apos-eleicao-lula/
-· USDBRL Minidólar (WDOX26): reeleição de Lula eleva risco de disparada do dólar nesta segunda (InfoMoney) https://www.infomoney.com.br/mercados/minidolar-hoje-futuro-do-dolar-wdox26-26102026/
-· USDBRL Mercado repercute vitória de Lula na eleição de 2026; Ibovespa em dólar despenca quase 30% nesta segunda-feira (26) (Money Times) https://www.moneytimes.com.br/mercado-repercute-vitoria-de-lula-na-eleicao-de-2026-ibovespa-em-dolar-despenca-quase-30-nesta-segunda-feira-26-rens/
-· UST Treasury Yields Turn Slightly Higher, French Bonds Outperform (The Wall Street Journal) https://www.wsj.com/economy/central-banking/treasury-yields-turn-slightly-higher-french-bonds-outperform-2fd1aaa0
-· GOOGL Google, Microsoft, Amazon, and the Fed step up to a skittish market: What to watch this week (Yahoo Finance) https://news.google.com/rss/articles/CBMi3gFBVV95cUxPLWp5V3hoVnVuSFBZUk5xUzYzWVNOUGZKMnVMMC1zM2JoZTc0aGR6YXgxN1ZrdUxITk5Sa2o0VS1BTWxaMHEyY2lFSFRNNl9IcU96aTlwR2FpZlQ0d2dtTW1OZEhSM0YyTVVfODVzWUZya2pWRHdKUE1JdlZPWUR6OTFmaFNtaG9mMjh0Q3Fqa25kdDdqV1RiNUtZeTBuRXhqdTE2Zk4xeFNCOUhrTTZ5V2hsNDVpRDRuVWhxdVlOTXFrVVpmQVI2ZlZWa1dwMlZxXzBsUUZGYkNBVUJXa0E?oc=5
-· MRVL Marvell Technology, Inc. (MRVL) Stock Price, News, Quote & History (Yahoo Finance) https://news.google.com/rss/articles/CBMiUkFVX3lxTE1Zbm9EMEdPUFdxdk96TUhKZG5JSUJOTFJFUFRJb2Jpdk5qOWVIMWVWekY3TVJ4eWVpU0tzbDJoejZRbW1tNmtuUVNPTFY0N1Q5dGc?oc=5
-· NVDA The Mixed Blessing From Tech Earnings Weighing on Nvidia Stock (Barron's) https://news.google.com/rss/articles/CBMigwFBVV95cUxNMTFwZFVteGpUWTFvanFsalB1MUlMcmVua0FsbzB6c2tRUFhaQXpZWXNpaXVtUVAyaVZ3UFF1Vnk3SXI0NlhMTGgtWXdIM3hjdERWeDZOdkZlbjI3SjgzdHRlVU1USDN0TzNJeHdPcUtIbVZXcTBZSTFRc1hQYnpHbHpXVQ?oc=5
-· MMM Prediction: 3M Will Reward Patient Investors (Yahoo Finance) https://news.google.com/rss/articles/CBMipgFBVV95cUxPWU1tUElBdHF4Zk1QQWVkVU1xaHlOM3hXSnVEQnJqbS14NlpzWHlWZkRubmFPZFRjNFVjTThCT2RMVFRaTnhwbzgwRHhra3pvbUZ1ZDhoMEhEU3k3a0ZPaEJEcTZqQVNKMUhtUDU0dXJ3c0ZDX0pQSTB3cHpJVVhRc1VKNlh0ZWFuUnY5a3ZhZEtrVGlFbUc3WnFxTUItdVFNVzlqMG9R?oc=5
-· BTC SATS: The Price Of Funding Strive's Bitcoin Ambition (NASDAQ:SATS) (Seeking Alpha) https://news.google.com/rss/articles/CBMilgFBVV95cUxOSEVtcEpVeU41RDJraTJLamJnVWp6XzBQSVJ4aTdXTWZac2RJeU0yNzFXRFVRYmUybG5od2pXT1ZtTHo2ckx2WkpNVnpfR2I5RU1sVFZwd1VHQ25rM3pzN3BSalZjeVp3NjVDcy0wODdBdzVLb0s0Q3VtY2Q3XzFIdXdDRnpRSFhJZjU1WmNBSzh3U1JYLXc?oc=5
+· (+13 manchetes; lista completa em eventos/noticias.json)
