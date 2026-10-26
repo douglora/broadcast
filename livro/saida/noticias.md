@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 26/10 11h35
+NOTÍCIAS E FATOS · 26/10 12h24
 
-Pernas: noticias ok 15 novas (18 consultas; descartadas: 371 veículo fora da lista, 47 sem ativo, 33 teto) · cvm ok 0 novos de 3 (3 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 14 novas (18 consultas; descartadas: 369 veículo fora da lista, 55 sem ativo, 12 teto) · cvm ok 0 novos de 3 (3 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (2)
 
@@ -151,8 +151,22 @@ Fonte: Yahoo Finance 25/10 18h30
 id: E05-BTC-c33ca2324e-2026-10-25 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (45)
+## OUTRAS NOTÍCIAS (só manchete) (59)
 
+· ITUB4 Milton Maluhy Filho explica por que o Itaú desembolsou R$ 2,92 bilhões pela NeoSpace (NeoFeed) https://neofeed.com.br/negocios/milton-maluhy-filho-explica-por-que-o-itau-desembolsou-r-292-bilhoes-pela-neospace/
+· TSM Intel and TSMC Are Vying for Chip Fabrication Supremacy. 1 Offers Superior Value. (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/intel-tsmc-vying-chip-fabrication-150500654.html
+· BTC Is Bitcoin a Good Buy at $80,000 Right Now? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-good-buy-80-000-145620150.html
+· BTC Franklin Templeton's New ETFs Could Create a Bitcoin Buying Machine (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/franklin-templetons-etfs-could-create-144718324.html
+· TESOURO Tesouro Direto já atrasa abertura em mais de duas horas em meio a disparada de juros (InfoMoney) https://www.infomoney.com.br/onde-investir/tesouro-direto-abertura-fechamento-26102026/
+· INTC New Street bullish on Intel to Buy as CPU scarcity strengthens turnaround (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/street-bullish-intel-buy-cpu-144611818.html
+· MU Micron Rises as Bank of America Gets “Incrementally More Positive on Memory” After Executive Meetings (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/micron-rises-bank-america-gets-144512723.html
+· DI Mercado vê fim do corte de juros e discute possível alta da Selic (CNN Brasil) https://www.cnnbrasil.com.br/blogs/lucinda-pinto/economia/money/macroeconomia/mercado-ve-fim-do-corte-de-juros-e-discute-possivel-alta-da-selic/
+· PLTR Palantir stock may move 10% on Nov. 2 earnings report By Investing.com (Investing.com) https://za.investing.com/news/stock-market-news/palantir-stock-may-move-10-on-nov-2-earnings-report-93CH-4525883
+· DI Juros futuros sobem mais de 260 pontos-base após vitória de Lula (CNN Brasil) https://www.cnnbrasil.com.br/economia/money/mercado/juros-futuros-sobem-mais-de-260-pontos-base-apos-vitoria-de-lula/
+· PLTR Michael Burry Is Shorting PLTR: Why Palantir’s Earnings Next Monday Are a Make-or-Break Moment (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/michael-burry-shorting-pltr-why-134924781.html
+· AMZN UBS Sees 40% Upside For AMZN Stock — AWS Margins Take Center Stage Ahead Of Earnings (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/ubs-sees-40-upside-amzn-134610864.html
+· GOOGL Here’s How Much Traders See Google Parent Alphabet’s Stock Moving After Earnings (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/much-traders-see-google-parent-134302815.html
+· BTC Bitcoin Holds $79,200 Before the Fed, Coinbase Earnings and a $10.9B Expiry: Which Way Next? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-holds-79-200-fed-133225031.html
 · TSLA Tesla near-term outlook: valuation risk versus autonomy upside (Investing.com) https://www.investing.com/news/stock-market-news/tesla-nearterm-outlook-valuation-risk-versus-autonomy-upside-93CH-4973099
 · USDBRL Ibovespa cai mais 17% após 'circuit breaker' e dólar sobe 10%; ações caem até 60% (Exame) https://exame.com/invest/mercados/ibovespa-cai-mais-17-apos-circuit-breaker-e-dolar-sobe-10-acoes-caem-ate-60/
 · PLTR Palantir stock may move 10% on Nov. 2 earnings report By Investing.com (Investing.com) https://ng.investing.com/news/stock-market-news/palantir-stock-may-move-10-on-nov-2-earnings-report-93CH-2757802
