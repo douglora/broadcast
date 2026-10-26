@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 26/10 10h24
+NOTÍCIAS E FATOS · 26/10 11h35
 
-Pernas: noticias ok 19 novas (18 consultas; descartadas: 378 veículo fora da lista, 48 sem ativo, 35 teto) · cvm ok 1 novos de 3 (3 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 15 novas (18 consultas; descartadas: 371 veículo fora da lista, 47 sem ativo, 33 teto) · cvm ok 0 novos de 3 (3 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (2)
 
@@ -43,7 +43,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: ITUB4
 Como falar: 'saiu no Poder360: Itaú anuncia compra da NeoSpace por quase R$ 3 bilhões; confirmar o número no texto antes de repassar'
 Fonte: Poder360 26/10 09h36
-id: E05-ITUB4-9c2fe76b7b-2026-10-26 · status: pendente
+id: E05-ITUB4-9c2fe76b7b-2026-10-26 · status: entregue
 
 [ATENÇÃO] E05 · PETR4 · Petrobras: Bradesco BBI corta preço-alvo, mas mantém compra para ações após eleição
 InfoMoney · 26/10 08h59 · fonte única · licença: resumo
@@ -57,7 +57,7 @@ Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais
 Ativos: PETR4
 Como falar: 'saiu no InfoMoney: Petrobras: Bradesco BBI corta preço-alvo, mas mantém compra para ações após eleição; confirmar o número no texto antes de repassar'
 Fonte: InfoMoney 26/10 08h59
-id: E05-PETR4-9f9c9e0057-2026-10-26 · status: pendente
+id: E05-PETR4-9f9c9e0057-2026-10-26 · status: entregue
 
 [ATENÇÃO] E05 · BTC · A $68 million BTC price bet is targeting a surge to $90,000 after U.S. mid-term vote: Crypto Daily
 CoinDesk · 26/10 08h53 · fonte única · licença: resumo
@@ -73,7 +73,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: BTC
 Como falar: 'saiu no CoinDesk: A $68 million BTC price bet is targeting a surge to $90,000 after U.S. mid-term vote: Cry…; confirmar o número no texto antes de repassar'
 Fonte: CoinDesk 26/10 08h53
-id: E05-BTC-1727602563-2026-10-26 · status: pendente
+id: E05-BTC-1727602563-2026-10-26 · status: entregue
 
 [ATENÇÃO] E05 · ITUB4 · Itaú compra NeoSpace por R$ 2,9 bilhões e avança na inteligência artificial
 NeoFeed · 26/10 07h43 · + Exame, Seu Dinheiro · licença: resumo
@@ -151,8 +151,23 @@ Fonte: Yahoo Finance 25/10 18h30
 id: E05-BTC-c33ca2324e-2026-10-25 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (30)
+## OUTRAS NOTÍCIAS (só manchete) (45)
 
+· TSLA Tesla near-term outlook: valuation risk versus autonomy upside (Investing.com) https://www.investing.com/news/stock-market-news/tesla-nearterm-outlook-valuation-risk-versus-autonomy-upside-93CH-4973099
+· USDBRL Ibovespa cai mais 17% após 'circuit breaker' e dólar sobe 10%; ações caem até 60% (Exame) https://exame.com/invest/mercados/ibovespa-cai-mais-17-apos-circuit-breaker-e-dolar-sobe-10-acoes-caem-ate-60/
+· PLTR Palantir stock may move 10% on Nov. 2 earnings report By Investing.com (Investing.com) https://ng.investing.com/news/stock-market-news/palantir-stock-may-move-10-on-nov-2-earnings-report-93CH-2757802
+· USDBRL Ações de exportadoras operam na contramão e sobem na bolsa com a ajuda do dólar (Valor Economico) https://valor.globo.com/financas/noticia/2026/10/26/aes-de-exportadoras-operam-na-contramo-e-sobem-na-bolsa-com-a-ajuda-do-dlar.ghtml
+· VALE3 Vale (VALE3) acompanha dólar e dispara após resultado das eleições (InfoMoney) https://www.infomoney.com.br/mercados/vale-vale3-desempenho-eleicoes-segundo-turno-262102026/
+· AMD AMD Q3 Preview: The Market Is Watching OpenAI, I'm Watching EPYC (NASDAQ:AMD) (Seeking Alpha) https://seekingalpha.com/article/4957481-amd-q3-preview-the-market-is-watching-openai-im-watching-epyc
+· JPM JPMorgan (JPM) Stock Could Be 33% Undervalued Following JPM Coin Expansion (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/jpmorgan-jpm-stock-could-33-140811654.html
+· MINERIO Iron ore prices rangebound as investors weigh weakening demand against stimulus bets (Mining.com) https://www.mining.com/web/iron-ore-prices-rangebound-as-investors-weigh-weakening-demand-against-stimulus-bets/
+· INTC Intel: Server Strength Could Easily Offset A Weak PC Quarter In Q3 (NASDAQ:INTC) (Seeking Alpha) https://seekingalpha.com/article/4957480-intel-server-strength-could-easily-offset-a-weak-pc-quarter-in-q3
+· PETR4 Petrobras (PETR3; PETR4) cai 10% após vitória de Lula sobre Flávio Bolsonaro (InfoMoney) https://www.infomoney.com.br/mercados/petrobras-petr3-petr4-cai-10-apos-vitoria-de-lula-sobre-flavio-bolsonaro/
+· BAC Installed Building Products rated Buy in new coverage at Bank of America (TradingView (Reuters)) https://www.tradingview.com/news/seekingalpha:2fd64197e094b:0-installed-building-products-rated-buy-in-new-coverage-at-bank-of-america/
+· DI Tesouro Direto permanece fechado com alta volatilidade das taxas após eleição de Lula; juros futuros disparam para 15% (Money Times) https://www.moneytimes.com.br/tesouro-direto-permanece-fechado-com-alta-volatilidade-das-taxas-apos-eleicao-de-lula-juros-futuros-disparam-para-15/
+· BTC Chamath’s $0 Bitcoin Call Meets Musk’s AI ‘Death’ Warning — Where Could BTC Price Be by 2031? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/chamath-0-bitcoin-call-meets-140215999.html
+· NVDA Price Prediction: The Gap With Nvidia Could Shape AMD’s Next Big Move (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/price-prediction-gap-nvidia-could-140043585.html
+· TESOURO Reeleição de Lula: Tesouro Direto paralisa negociações após forte volatilidade nas taxas; acompanhe (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/virada-de-lula-faz-mercado-parar-e-juros-subirem-tesouro-direto-atrasa-abertura-em-uma-hora/
 · AXIA3 Axia Energia amplia centro de operação em Tucuruí (CanalEnergia) https://www.canalenergia.com.br/noticias/53358789/axia-energia-amplia-centro-de-operacao-em-tucurui
 · PETR4 Reeleição de Lula vai fazer Petrobras ‘arrumar a casa’ com reajuste gradual de preço, diz Abicom (Estadao) https://www.estadao.com.br/em-alta/economia/reeleicao-lula-petrobras-arrumar-casa-reajuste-gradual/
 · BTC Bitcoin’s Bear Market Is Over, Galaxy Research Says: 'Now Is an Attractive Time to Buy' (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-bear-market-over-galaxy-130102380.html
