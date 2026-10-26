@@ -334,6 +334,32 @@ comunicados). O workflow `.github/workflows/boletim-b3.yml` roda `boletim_b3.py`
   investidor. PDF do boletim nao vai para o git (o completo passa de 50 MB); o
   `status.json` do pregao guarda o link de cada caderno na B3.
 
+## Mesa de asset allocation (prospects e clientes, desde 26/10/2026)
+
+Pedido do Douglas em 26/10: um analista/assessor de grande instituicao, especialista
+em asset allocation e construcao de portfolio ao longo do tempo, com quem ele
+conversa sobre o prospect ate fechar a estrategia, que diz se a proposta esta
+alinhada ou meio fora, troca opiniao e no fim gera o relatorio elegante estilo
+Safra/LF, com grafico. "Fixe ele pq isso e importante": por isso e skill GLOBAL.
+
+- Skill `asset-allocation` (`~/.claude/skills/asset-allocation/SKILL.md`, global, vale
+  em qualquer pasta): persona, protocolo da conversa e regras. Use quando ele falar
+  de prospect, cliente novo, "asset allocation", "alocacao", "proposta de carteira",
+  "esta alinhado". `python3 mesa.py skills` confere se ela esta instalada.
+- Motor: `python3 ferramentas/local/alocar.py <comando>` (mercado, novo, ficha,
+  sugerir, proposta, visao, alinhar, avaliar, simular, stress, movimentos, importar,
+  relatorio, diario, ajuste). Codigo em `ferramentas/local/alocacao/`; testes em
+  `tests/test_alocacao.py` (sem rede; os que leem o cache do terminal pulam sozinhos).
+- Dado de cliente fica em `~/Documents/Asset Allocation/<cliente>/` (LGPD): ficha,
+  atual, proposta (versionada), visoes do Douglas, diario e `saida/` com o PDF. Nunca
+  no git, nunca em Artifact; o relatorio vai pelo SendUserFile.
+- Mercado vem so do cache do terminal (`~/Desktop/terminal-artefato/cache/out/`, leitura):
+  curva DI, NTN-B, Focus, TIR da bolsa, historico. Dia de choque (DI 3a mexe 75 bps ou
+  mais contra o ajuste) marca NTN-B e pre como ESTIMATIVA; mostrar tambem `--curva ontem`.
+- Palavras: "aumentar", "reduzir", "manter"; nunca "compre/venda" (CVM 178). A proposta
+  e do Douglas; o motor mede, sinaliza e cobra coerencia (ALINHADA, ALINHADA COM
+  RESSALVAS, FORA DO ALINHAMENTO).
+
 ## Ferramentas instaladas
 
 Plugins: financial-analysis (comps, dcf, 3-statement), equity-research

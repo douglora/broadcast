@@ -1834,6 +1834,19 @@ def skills():
     except Exception as e:
         print(f"  FALTA   ri_fontes.py: {e}")
         ok = False
+    # mesa de asset allocation (so no Mac do Douglas): skill global fixa + motor em ferramentas/local/alocacao/
+    if os.path.exists(os.path.join(AQUI, "ferramentas", "local", "alocar.py")):
+        sk = os.path.expanduser("~/.claude/skills/asset-allocation/SKILL.md")
+        if not os.path.exists(sk):
+            print("  FALTA   asset-allocation/SKILL.md (skill global em ~/.claude/skills)")
+            ok = False
+        else:
+            texto = open(sk, encoding="utf-8").read()
+            if re.match(r"---\nname:\s*asset-allocation\n", texto) and re.search(r"^description:", texto, re.M):
+                print(f"  ok      asset-allocation/SKILL.md (global)  {len(texto.split(chr(10)))} linhas; motor alocar.py")
+            else:
+                print("  INVALIDA asset-allocation/SKILL.md: frontmatter sem name ou description")
+                ok = False
     print("\n" + ("TUDO OPERANDO" if ok else "HA PENDENCIA ACIMA"))
     return 0 if ok else 1
 
