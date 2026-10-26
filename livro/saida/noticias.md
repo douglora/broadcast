@@ -1,32 +1,82 @@
-NOTÍCIAS E FATOS · 23/10 23h19
+NOTÍCIAS E FATOS · 26/10 08h33
 
-Pernas: noticias ok 12 novas (18 consultas; descartadas: 449 veículo fora da lista, 40 sem ativo, 6 teto) · cvm ok 0 novos de 8 (4 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 20 novas (18 consultas; descartadas: 371 veículo fora da lista, 54 sem ativo, 69 teto) · cvm ok 1 novos de 2 (2 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (1)
 
-[INFO] E03 · AXIA3 · Aviso aos Acionistas: Outros avisos
-CVM · entregue 23/10/2026 17:01 · Outros avisos
-Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1579865
-Por que importa: aviso aos acionistas traz provento, data-com ou evento societario que muda o fluxo ao acionista
-Ativos: AXIA3
-Como falar: 'a Axia Energia publicou aviso aos acionistas sobre Outros avisos'
-Fonte: CVM 23/10
-id: E03-AXIA3-1579865-2026-10-23 · status: linha
+[ATENÇÃO] E03 · ITUB4 · Fato Relevante: ITAÚ UNIBANCO HOLDING S.A. (“Companhia”) informa aos seus acionistas e ao mercado em geral que celebrou um Contrato de Compra e Venda visando à aquis…
+CVM · entregue 26/10/2026 07:30
+Do documento:
+  – O preço a ser pago pela aquisição será de R$ 2.925.000.000,00, sendo uma parcela devida no fechamento  e as demais de forma diferida ao longo de cinco anos, sujeito a determinadas condições.
+  – São Paulo - SP , 26 de outubro de 2026.
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1580024
+Por que importa: fato relevante e o que a propria companhia julga capaz de mover o preco; ler o documento inteiro antes de comentar
+Ativos: ITUB4
+Como falar: 'a Itau Unibanco publicou fato relevante sobre ITAÚ UNIBANCO HOLDING S.A. (“Companhia”) informa aos seus acionistas…'
+Fonte: CVM 26/10
+id: E03-ITUB4-1580024-2026-10-26 · status: pendente · íntegra disponível
 
 
-## SEC (8-K, 6-K, 10-Q, 10-K) (1)
+## NOTÍCIAS COM MATERIALIDADE (16)
 
-[INFO] E04 · BAC · 8-K: 3.03 mudanca de direitos dos acionistas, 5.03 mudanca de estatuto ou exercicio, 8.01 outros eventos
-SEC EDGAR · aceito 23/10 17h41 · 8-K
-Link: https://www.sec.gov/Archives/edgar/data/70858/000119312526430566/d176604d8k.htm
-Por que importa: documento da companhia na SEC
-Ativos: BAC
-Como falar: 'a BAC protocolou 8-K na SEC (3.03 mudanca de direitos dos acionistas, 5.03 mudanca de es…)'
-Fonte: SEC EDGAR 2026-10-23
-id: E04-BAC-26430566-2026-10-23 · status: linha · íntegra disponível
+[ATENÇÃO] E05 · ITUB4 · Itaú anuncia aquisição da NeoSpace por R$ 2,925 bilhões e amplia investimento em IA fundacional
+Valor Economico · 26/10 08h04 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Segundo comunicado divulgado nesta segunda-feira (26), a operação busca ampliar a capacidade do banco de desenvolver tecnologias próprias para serviços financeiros.
+  – Para Pierobon, a parceria permite avançar no desenvolvimento de IA, “aplicando modelos fundacionais a desafios reais do sistema financeiro e comprovando seu potencial em escala”.
+  – “Essa nova etapa cria condições para aprofundar nosso trabalho de pesquisa e desenvolvimento, com a continuidade da equipe e da visão que deram origem à empresa.
+  – Queremos contribuir para uma nova geração de inteligência artificial especializada, capaz de transformar a experiência financeira de milhões de pessoas”, afirma o executivo, em nota.
+  – Milton Maluhy Filho, CEO do Itaú, destaca que o banco quer estar entre as instituições que “vão definir o próximo capítulo da indústria financeira global”.
+  – “O Brasil já demonstrou sua capacidade de estabelecer referências internacionais em inovação bancária, e temos a oportunidade de elevar esse patamar com inteligência artificial de fronteira”, diz, na mesma nota.
+Link: https://valor.globo.com/financas/noticia/2026/10/26/ita-anuncia-aquisio-da-neospace-por-r-2925-bilhes-e-amplia-investimento-em-ia-fundacional.ghtml
+Por que importa: aquisicao ou venda muda alavancagem, mix de receita e o multiplo; olhar preco pago e financiamento
+Ativos: ITUB4
+Como falar: 'saiu no Valor Economico: Itaú anuncia aquisição da NeoSpace por R$ 2,925 bilhões e amplia investimento em IA funda…; confirmar o número no texto antes de repassar'
+Fonte: Valor Economico 26/10 08h04
+id: E05-ITUB4-cd40da6668-2026-10-26 · status: pendente
 
+[ATENÇÃO] E05 · AMZN · Amazon Into Earnings: The Parts Add Up To $290, And Anthropic's IPO Could Add More
+Seeking Alpha · 26/10 07h06 · fonte única · licença: manchete
+Link: https://seekingalpha.com/article/4957422-amazon-into-earnings-the-parts-add-up-to-290-and-anthropics-ipo-could-add-more
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: AMZN
+Como falar: 'saiu no Seeking Alpha: Amazon Into Earnings: The Parts Add Up To $290, And Anthropic's IPO Could Add More; confirmar o número no texto antes de repassar'
+Fonte: Seeking Alpha 26/10 07h06
+id: E05-AMZN-ef30228b66-2026-10-26 · status: pendente
 
-## NOTÍCIAS COM MATERIALIDADE (15)
+[ATENÇÃO] E05 · GOOGL · Key facts: GOOG Q2 results; call 4:30pm; 2026 capex $195–$205B
+TradingView (Reuters) · 26/10 04h00 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/tradingview:f57e397e9f1fa:0-key-facts-goog-q2-results-call-4-30pm-2026-capex-195-205b/
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: GOOGL
+Como falar: 'saiu no TradingView (Reuters): Key facts: GOOG Q2 results; call 4:30pm; 2026 capex $195–$205B; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 26/10 04h00
+id: E05-GOOGL-6544034d52-2026-10-26 · status: pendente
+
+[ATENÇÃO] E05 · NVDA · Weekly Recap: Q4 guidance and 3nm foundry for Nvidia NVHBM
+TradingView (Reuters) · 25/10 20h00 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/tradingview:cb1bb4383b4b6:0-weekly-recap-q4-guidance-and-3nm-foundry-for-nvidia-nvhbm/
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: NVDA
+Como falar: 'saiu no TradingView (Reuters): Weekly Recap: Q4 guidance and 3nm foundry for Nvidia NVHBM; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 25/10 20h00
+id: E05-NVDA-b691f96b58-2026-10-25 · status: linha
+
+[ATENÇÃO] E05 · BTC · Mike Alfred Says He Would Bet $1 Million Bitcoin Reaches $100,000 Before $60,000
+Yahoo Finance · 25/10 18h30 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Investor Mike Alfred said he is willing to bet up to $1 million in cash that bitcoin (CRYPTO: $BTC) will reach $100,000 again before it falls below $60,000, arguing the world's largest cryptocurrency has probably seen i…
+  – He expects bitcoin to hit $100,000 within the next two to four months, a call he described as "not financial advice." He also sees a run to between $200,000 and $300,000 over the next three to five years.
+  – Bitcoin traded around $80,504 on Sunday, up from an intraday low of $79,989.
+  – It fell to roughly $57,000 to $58,000 earlier this year, according to Alfred.
+  – Alfred rejected that view, citing what he called "Bitcoin derangement syndrome" among skeptics and describing bitcoin as "sound money" that sits outside a fiat system built on debt and deficits.
+  – He recommended holding bitcoin for 10 to 20 years, calling it a "family heirloom asset" given its short-term volatility and limited liquidity.
+Link: https://finance.yahoo.com/markets/crypto/articles/mike-alfred-says-bet-1-213000700.html
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: BTC
+Como falar: 'saiu no Yahoo Finance: Mike Alfred Says He Would Bet $1 Million Bitcoin Reaches $100,000 Before $60,000; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 25/10 18h30
+id: E05-BTC-c33ca2324e-2026-10-25 · status: linha
 
 [ATENÇÃO] E05 · USDBRL · Ibovespa fecha em alta com aposta de vitória de Flávio Bolsonaro; dólar encerra abaixo de R$ 5
 Money Times · 23/10 17h38 · + Exame · licença: integral
@@ -42,7 +92,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: USDBRL
 Como falar: 'saiu no Money Times: Ibovespa fecha em alta com aposta de vitória de Flávio Bolsonaro; dólar encerra abaixo de…; confirmar o número no texto antes de repassar'
 Fonte: Money Times 23/10 17h38
-id: E05-USDBRL-69917e4181-2026-10-23 · status: expirado · íntegra disponível
+id: E05-USDBRL-69917e4181-2026-10-23 · status: entregue · íntegra disponível
 
 [ATENÇÃO] E05 · BBDC4 · Bradesco (BBDC4) tem lucro líquido recorrente de R$ 7,1 bi no 3T26, alta de 14,6%
 Suno Noticias · 23/10 10h00 · fonte única · licença: resumo
@@ -135,15 +185,6 @@ Como falar: 'saiu no ADVFN: Bradesco aprova recompra de até 106,6 milhões de a
 Fonte: ADVFN 23/10 08h47
 id: E05-BBDC4-2f710f30c0-2026-10-23 · status: entregue
 
-[ATENÇÃO] E05 · NOK · Earnings call transcript: Nokia beats Q3 2026 estimates but shares fall premarket
-Investing.com · 22/10 13h33 · fonte única · licença: manchete
-Link: https://ng.investing.com/news/stock-market-news/earnings-call-transcript-nokia-beats-q3-2026-estimates-but-shares-fall-premarket-93CH-2751619
-Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
-Ativos: NOK
-Como falar: 'saiu no Investing.com: Earnings call transcript: Nokia beats Q3 2026 estimates but shares fall premarket; confirmar o número no texto antes de repassar'
-Fonte: Investing.com 22/10 13h33
-id: E05-NOK-67be63f763-2026-10-22 · status: linha
-
 [ATENÇÃO] E05 · BBDC4 · ADRs do Bradesco caem em NY após balanço do 3º tri e recompra de ações
 UOL Economia · 23/10 07h26 · fonte única · licença: manchete
 Link: https://economia.uol.com.br/cotacoes/noticias/redacao/2026/10/23/adrs-do-bradesco-caem-em-ny-apos-balanco-do-3-tri-e-recompra-de-acoes.ghtm
@@ -174,43 +215,24 @@ Como falar: 'saiu no TradingView (Reuters): Key facts: SMCI raises Q1 guidance; 
 Fonte: TradingView (Reuters) 23/10 04h00
 id: E05-NVDA-4b92c26630-2026-10-23 · status: entregue
 
-[ATENÇÃO] E05 · BBDC4 · Lucro do Bradesco salta para R$ 7,1 bilhões no 3T26 com avanço do crédito; veja o balanço
-Estadao · 22/10 18h38 · fonte única · licença: manchete
-Link: https://www.estadao.com.br/em-alta/einvestidor/cenarios-e-mercado/lucro-do-bradesco-dispara-para-r-71-bilhoes-no-3t26-com-avanco-do-credito-confira-o-balanco/
-Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
-Ativos: BBDC4
-Como falar: 'saiu no Estadao: Lucro do Bradesco salta para R$ 7,1 bilhões no 3T26 com avanço do crédito; veja o balanço; confirmar o número no texto antes de repassar'
-Fonte: Estadao 22/10 18h38
-id: E05-BBDC4-1ce29ea2ff-2026-10-22 · status: linha
 
-[ATENÇÃO] E05 · BBDC4 · Bradesco tem lucro líquido de R$7,1 bi no 3º tri, em linha com esperado Por Reuters
-Investing.com · 22/10 18h18 · fonte única · licença: manchete
-Link: https://br.investing.com/news/stock-market-news/bradesco-tem-lucro-liquido-de-r71-bi-no-3o-tri-em-linha-com-esperado-2100455
-Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
-Ativos: BBDC4
-Como falar: 'saiu no Investing.com: Bradesco tem lucro líquido de R$7,1 bi no 3º tri, em linha com esperado Por Reuters; confirmar o número no texto antes de repassar'
-Fonte: Investing.com 22/10 18h18
-id: E05-BBDC4-4608c4c854-2026-10-22 · status: linha
+## OUTRAS NOTÍCIAS (só manchete) (27)
 
-[ATENÇÃO] E05 · KO · Coca-Cola Joins Costco in the $400 Billion Club. I Predict Only 1 of These Dividend Stocks Will Surpass $1 Trillion by 2036.
-Yahoo Finance · 22/10 17h25 · fonte única · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – Thanks to KO stock's year-to-date 34% rally to record highs, the beverage behemoth's market cap has just eclipsed the $400 billion mark, moving within sight of Costco's $440 billion.
-  – Coca-Cola is simply extending a long-lived growth trend that puts it on track to eventually join the $1 trillion club.
-  – Only one of these dividend payers has a realistic shot at getting there within the next 10 years, however.
-  – In 2009, a "Double Down" signal flashed for a little-known chipmaker called Nvidia.
-  – For the first time in years, that same "Total Conviction" signal is flashing for a company 1/100th the size of Nvidia.
-  – Its stock is also an income juggernaut, not only paying a quarterly dividend like clockwork for decades now, but raising its dividend payment for 64 consecutive years.
-Link: https://finance.yahoo.com/markets/stocks/articles/coca-cola-joins-costco-400-202500326.html
-Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
-Ativos: KO
-Como falar: 'saiu no Yahoo Finance: Coca-Cola Joins Costco in the $400 Billion Club. I Predict Only 1 of These Dividend Stock…; confirmar o número no texto antes de repassar'
-Fonte: Yahoo Finance 22/10 17h25
-id: E05-KO-7c5c6eb679-2026-10-22 · status: linha
-
-
-## OUTRAS NOTÍCIAS (só manchete) (149)
-
+· MU Audi Announces Its First U.S. Factory; Nvidia, Micron Drive Earnings Boom (The Wall Street Journal) https://www.wsj.com/cfo-journal/audi-announces-its-first-u-s-factory-nvidia-micron-drive-earnings-boom-281693e0
+· BTC Bitcoin holds near $80,000 as oil retreats and the Fed decision looms (CoinDesk) https://www.coindesk.com/markets/2026/10/26/bitcoin-holds-near-usd80-000-as-oil-retreats-and-the-fed-decision-looms
+· ITUB4 Itaú (ITUB4) fecha acordo para comprar startup brasileira de IA por R$ 2,9 bilhões; veja detalhes (Money Times) https://www.moneytimes.com.br/itau-itub4-fecha-acordo-para-comprar-startup-brasileira-ia-por-29-bilhoes-veja-detalhes-lmrs/
+· ITUB4 Bradesco e Itaú desabam quase 30% na pré-abertura de NY; Petrobras cai 23% (UOL Economia) https://economia.uol.com.br/cotacoes/noticias/redacao/2026/10/26/adrs-brasileiras-apos-eleicao.ghtm
+· JPM JPMorgan vê taxa de papéis do Tesouro em até 15,5% após reeleição de Lula (InfoMoney) https://www.infomoney.com.br/onde-investir/jpmorgan-ve-taxa-de-papeis-do-tesouro-em-ate-155-apos-reeleicao-de-lula/
+· ITUB4 Petrobras, Itaú e mais: ADRs de empresas brasileiras despencam até 30% após vitória de Lula (Money Times) https://www.moneytimes.com.br/adrs-de-empresas-brasileiras-despencam-apos-vitoria-de-lula-igdl/
+· JPM JPMorgan: Ibovespa deve cair 20% e dólar ir a R$ 5,50 nos próximos dias após eleição (InfoMoney) https://www.infomoney.com.br/mercados/jpmorgan-ibovespa-deve-cair-20-e-dolar-ir-a-r-550-nos-proximos-dias-apos-eleicao-lula/
+· USDBRL Minidólar (WDOX26): reeleição de Lula eleva risco de disparada do dólar nesta segunda (InfoMoney) https://www.infomoney.com.br/mercados/minidolar-hoje-futuro-do-dolar-wdox26-26102026/
+· USDBRL Mercado repercute vitória de Lula na eleição de 2026; Ibovespa em dólar despenca quase 30% nesta segunda-feira (26) (Money Times) https://www.moneytimes.com.br/mercado-repercute-vitoria-de-lula-na-eleicao-de-2026-ibovespa-em-dolar-despenca-quase-30-nesta-segunda-feira-26-rens/
+· UST Treasury Yields Turn Slightly Higher, French Bonds Outperform (The Wall Street Journal) https://www.wsj.com/economy/central-banking/treasury-yields-turn-slightly-higher-french-bonds-outperform-2fd1aaa0
+· GOOGL Google, Microsoft, Amazon, and the Fed step up to a skittish market: What to watch this week (Yahoo Finance) https://news.google.com/rss/articles/CBMi3gFBVV95cUxPLWp5V3hoVnVuSFBZUk5xUzYzWVNOUGZKMnVMMC1zM2JoZTc0aGR6YXgxN1ZrdUxITk5Sa2o0VS1BTWxaMHEyY2lFSFRNNl9IcU96aTlwR2FpZlQ0d2dtTW1OZEhSM0YyTVVfODVzWUZya2pWRHdKUE1JdlZPWUR6OTFmaFNtaG9mMjh0Q3Fqa25kdDdqV1RiNUtZeTBuRXhqdTE2Zk4xeFNCOUhrTTZ5V2hsNDVpRDRuVWhxdVlOTXFrVVpmQVI2ZlZWa1dwMlZxXzBsUUZGYkNBVUJXa0E?oc=5
+· MRVL Marvell Technology, Inc. (MRVL) Stock Price, News, Quote & History (Yahoo Finance) https://news.google.com/rss/articles/CBMiUkFVX3lxTE1Zbm9EMEdPUFdxdk96TUhKZG5JSUJOTFJFUFRJb2Jpdk5qOWVIMWVWekY3TVJ4eWVpU0tzbDJoejZRbW1tNmtuUVNPTFY0N1Q5dGc?oc=5
+· NVDA The Mixed Blessing From Tech Earnings Weighing on Nvidia Stock (Barron's) https://news.google.com/rss/articles/CBMigwFBVV95cUxNMTFwZFVteGpUWTFvanFsalB1MUlMcmVua0FsbzB6c2tRUFhaQXpZWXNpaXVtUVAyaVZ3UFF1Vnk3SXI0NlhMTGgtWXdIM3hjdERWeDZOdkZlbjI3SjgzdHRlVU1USDN0TzNJeHdPcUtIbVZXcTBZSTFRc1hQYnpHbHpXVQ?oc=5
+· MMM Prediction: 3M Will Reward Patient Investors (Yahoo Finance) https://news.google.com/rss/articles/CBMipgFBVV95cUxPWU1tUElBdHF4Zk1QQWVkVU1xaHlOM3hXSnVEQnJqbS14NlpzWHlWZkRubmFPZFRjNFVjTThCT2RMVFRaTnhwbzgwRHhra3pvbUZ1ZDhoMEhEU3k3a0ZPaEJEcTZqQVNKMUhtUDU0dXJ3c0ZDX0pQSTB3cHpJVVhRc1VKNlh0ZWFuUnY5a3ZhZEtrVGlFbUc3WnFxTUItdVFNVzlqMG9R?oc=5
+· BTC SATS: The Price Of Funding Strive's Bitcoin Ambition (NASDAQ:SATS) (Seeking Alpha) https://news.google.com/rss/articles/CBMilgFBVV95cUxOSEVtcEpVeU41RDJraTJLamJnVWp6XzBQSVJ4aTdXTWZac2RJeU0yNzFXRFVRYmUybG5od2pXT1ZtTHo2ckx2WkpNVnpfR2I5RU1sVFZwd1VHQ25rM3pzN3BSalZjeVp3NjVDcy0wODdBdzVLb0s0Q3VtY2Q3XzFIdXdDRnpRSFhJZjU1WmNBSzh3U1JYLXc?oc=5
 · PLTR Palantir stock faces brutal test after crushing expectations (Yahoo Finance) https://sg.finance.yahoo.com/news/palantir-stock-faces-brutal-test-014700094.html
 · GOOGL The Bet Alphabet Holders Made (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/bet-alphabet-holders-made-011025851.html
 · TSLA Stocktwits Zero To Sixty: Tesla And SpaceX Form Merger Committees As Profits Drop, While Rivian Buys AI Startup And GM, Ford Advance EV Plans (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/stocktwits-zero-sixty-tesla-spacex-005858287.html
@@ -223,52 +245,3 @@ id: E05-KO-7c5c6eb679-2026-10-22 · status: linha
 · USDBRL Dólar à vista fecha em baixa de 0,97%, a R$4,9896 na venda (UOL Economia) https://economia.uol.com.br/noticias/reuters/2026/10/23/dolar-a-vista-fecha-em-baixa-de-097-a-r49896-na-venda.htm
 · AMZN Post-it Notes maker 3M eyes AI gold rush in major Amazon deal (Yahoo Finance) https://sg.finance.yahoo.com/news/post-notes-maker-3m-eyes-193700619.html
 · AMZN Amazon Stocks Edge Lower Ahead of Earnings After 37% AWS Revenue Growth (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:88d472b7c094b:0-amazon-stocks-edge-lower-ahead-of-earnings-after-37-aws-revenue-growth/
-· AMZN Amazon cloud capacity sold out through 2027, CEO Jassy says (Reuters) https://www.reuters.com/business/retail-consumer/amazon-cloud-capacity-sold-out-through-2027-ceo-jassy-says-2026-10-23/
-· USDBRL Dólar fecha abaixo de R$ 5 e recua 1,58% na semana (Agencia Brasil) https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/dolar-fecha-abaixo-de-r-5-e-recua-158-na-semana
-· USDBRL Moedas Globais: dólar sobe por tensão em geopolítica e à espera de reunião do Fed (InfoMoney) https://www.infomoney.com.br/mercados/moedas-globais-dolar-sobe-por-tensao-em-geopolitica-e-a-espera-de-reuniao-do-fed/
-· TSLA Tesla Stock Lags Apple Because Of ‘Communications Problem,’ Says Investor Gary Black (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/tesla-stock-lags-apple-because-211156397.html
-· ITUB4 Petrobras sobe 18% em outubro e surpreende: por que o Itaú BBA ainda prefere a estatal? (Estadao) https://www.estadao.com.br/einvestidor/onde-investir/petrobras-sobe-18-em-outubro-e-surpreende-por-que-o-itau-bba-ainda-prefere-a-estatal/
-· BTC Bitcoin ‘Goes to Zero’ After a Hack, Chamath Palihapitiya Predicts (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-goes-zero-hack-chamath-205007801.html
-· CVX Chevron (CVX) Ascends While Market Falls: Some Facts to Note (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/chevron-cvx-ascends-while-market-204503008.html
-· BRENT Brent crude tops $116 as traders price escalating Middle East conflict (Yahoo Finance) https://finance.yahoo.com/markets/article/brent-crude-tops-116-as-traders-price-in-middle-east-escalation-192101547.html
-· NOK Nokia: Turning Bullish Despite The Free Cash Flow Scare (NYSE:NOK) (Seeking Alpha) https://seekingalpha.com/article/4957074-nokia-turning-bullish-despite-the-free-cash-flow-scare
-· INTC Intel Stocks Rise, Trade at 166.5% Above GF Value Ahead of Earnings (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:1e0603a03094b:0-intel-stocks-rise-trade-at-166-5-above-gf-value-ahead-of-earnings/
-· AMZN Amazon Stocks Edge Lower Ahead of Earnings After 37% AWS Revenue Growth (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/amazon-stocks-edge-lower-ahead-192507898.html
-· AMD AMD Stocks Gain as $620 Target Raises the Execution Bar (TradingView (Reuters)) https://news.google.com/rss/articles/CBMitAFBVV95cUxPXzhTcXZ2Wmk5dU81Vkh5aWNqN3VKVVdWU0dCTENwTEsxb3pZMEFuTTFLNndCZWpONWdrbDlWY2poRzJKVm5GandER0FyaHplRWJrenlLYnRCTXNXSTFCa3JYTGdNT3RwS0NMdFpxWFN6NXQ2c1FKNlRab0NTaHQ3N0xqLUdiRVBrZWJtaXoyVUtzV3JjcU5tTllFLWticFpSWlpfT0kxTW9aRXViaHV4cWRuZUg?oc=5
-· BTC Franklin Templeton to launch two 95% stock, 5% Bitcoin ETFs (TradingView (Reuters)) https://www.tradingview.com/news/cryptobriefing:60b5194d8094b:0-franklin-templeton-to-launch-two-95-stock-5-bitcoin-etfs/
-· BAC Bank of America Just Dropped 12% in a Month. Is It Time to Sell, or Load Up? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/bank-america-just-dropped-12-124701898.html
-· USDBRL Dólar cai 0,90% e fecha em R$ 4,993; Ibovespa sobe (Poder360) https://www.poder360.com.br/poder-economia/dolar-cai-090-e-fecha-em-r-4993-ibovespa-sobe/
-· USDBRL Dólar cai com maior apetite ao risco antes do segundo turno das eleições presidenciais (ADVFN) https://br.advfn.com/jornal/2026/10/dolar-cai-com-maior-apetite-ao-risco-antes-do-segundo-turno-das-eleicoes-presidenciais
-· TSLA Musk: Optimus and Cybercab “Will Be the Vast Majority of Tesla’s Value” as Earnings Loom (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/musk-optimus-cybercab-vast-majority-200502045.html
-· TSM TSMC Stocks Rise as Record Profit Meets 2027 Caution (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:be0dc20cb094b:0-tsmc-stocks-rise-as-record-profit-meets-2027-caution/
-· GOOGL Alphabet's Q3 Could Reframe Its AI Spending Story (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:c86f6746a094b:0-alphabet-s-q3-could-reframe-its-ai-spending-story/
-· BTC Fidelity Wise Origin Bitcoin Fund (FBTC) Stock Price, News, Quote & History (Yahoo Finance) https://ca.finance.yahoo.com/quote/FBTC/
-· AMD AMD Stock Price Prediction: One Growth Opportunity Could Push Shares Much Higher (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/amd-stock-price-prediction-one-150045130.html
-· CVX Chevron stock may move 2.3% on earnings release By Investing.com (Investing.com) https://za.investing.com/news/stock-market-news/chevron-stock-may-move-23-on-earnings-release-93CH-4523052
-· BBDC4 Bradesco: Há pressão em inadimplência, mas banco está seguro com portfólio (CNN Brasil) https://www.cnnbrasil.com.br/economia/money/negocios/bradesco-ha-pressao-em-inadimplencia-mas-banco-esta-seguro-com-portfolio/
-· MU Stock Split Watch: Is Micron Next? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/stock-split-watch-micron-next-122202385.html
-· USDBRL Dólar cai a R$ 4,99 e Ibovespa sobe antes do 2º turno das eleições (g1) https://g1.globo.com/economia/noticia/2026/10/23/dolar-ibovespa.ghtml
-· LITE Lumentum Holdings Inc. Estimates – NASDAQ:LITE (TradingView (Reuters)) https://news.google.com/rss/articles/CBMieEFVX3lxTE00ajd1T0RobllMNldURWVpMGdueFhwNVFrcDlmczgyRkdfQk8zOUN2TW5XU1MwRW5tMmh0OXQ2SUlxekFNWWxmck55X3dtUFNxY2lnQlk1VktVRmE5REx6anQwZG5lR0lqNVN4aTh3dllYNnBVZU84Ng?oc=5
-· USDBRL Dólar à vista fecha em baixa de 0,97%, a R$4,9896 na venda Por Reuters (Investing.com) https://br.investing.com/news/forex-news/dolar-a-vista-fecha-em-baixa-de-097-a-r49896-na-venda-2101601
-· USDBRL Dólar cai e fecha abaixo de R$ 5 no último pregão antes do segundo turno (Money Times) https://www.moneytimes.com.br/dolar-23-10-26-lils/
-· CVX Hess Midstream upgraded at Raymond James as Chevron restructuring selloff overdone (HESM:NYSE) (Seeking Alpha) https://seekingalpha.com/news/4656710-hess-midstream-upgraded-at-raymond-james-as-chevron-restructuring-selloff-overdone
-· INTC Intel Stocks Rise, Trade at 166.5% Above GF Value Ahead of Earnings (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/intel-stocks-rise-trade-166-192617080.html
-· PETR4 Goldman Sachs alerta para risco de Petrobras reajustar preço do diesel em 50% após eleições (Exame) https://exame.com/economia/goldman-sachs-alerta-para-risco-de-petrobras-reajustar-preco-do-diesel-em-50-apos-eleicoes/
-· NOK Nokia: 3 Key Takeaways for Long-Term Investors (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/nokia-3-key-takeaways-long-181702745.html
-· GOOGL Alphabet: Gemini 4 Argon Is Coming For ChatGPT’s Lunch (NASDAQ:GOOG) (Seeking Alpha) https://seekingalpha.com/article/4957003-alphabet-gemini-4-argon-is-coming-for-chatgpts-lunch
-· SMAL11 10 small caps que saltaram mais de 50% em outubro e lideram rali histórico na bolsa (Seu Dinheiro) https://www.seudinheiro.com/2026/bolsa-dolar/small-caps-10-acoes-saltam-mais-de-50-em-outubro-e-lideram-rali-historico-na-bolsa-mlem/
-· BBDC4 Bradesco vê pressão em inadimplência, mas está seguro com crédito, diz CEO (InfoMoney) https://www.infomoney.com.br/mercados/bradesco-ve-pressao-em-inadimplencia-mas-esta-seguro-com-credito-diz-ceo/
-· USDBRL Dólar abre sessão desta sexta-feira, no último pregão antes do 2º turno (g1) https://g1.globo.com/google/amp/economia/noticia/2026/10/23/dolar-ibovespa.ghtml
-· BRENT Brent crude jumps to highest since April on Houthi attacks, UAE oil spill (Reuters) https://www.reuters.com/business/energy/oil-little-changed-supply-concern-lingers-amid-houthi-attacks-saudi-arabia-2026-10-23/
-· NVDA Apple is set to take back the market-cap crown from Nvidia. Upcoming earnings may push it over the top (CNBC) https://www.cnbc.com/2026/10/23/apple-nvidia-market-cap-earnings.html
-· GOOGL Alphabet Stocks Face Wednesday Earnings Test After 82% Cloud Revenue Growth (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/alphabet-stocks-face-wednesday-earnings-182756390.html
-· ETH Is Ethereum a Buy Under $2,400? We Asked Grok AI (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/ethereum-buy-under-2-400-173022875.html
-· USDBRL Tempo real: Ibovespa sobe aos 205 mil pontos com 'trade eleitoral'; dólar cai para o nível abaixo de R$ 5 (Money Times) https://www.moneytimes.com.br/tempo-real-23-10-26-apsa-lils/
-· KO Coca-Cola Consolidated, Inc. (COKE) Stock Price, News, Quote & History (Yahoo Finance) https://ca.finance.yahoo.com/quote/COKE/
-· SAPR4 O que os novos governadores mudam nos dividendos de Cemig, Sanepar e Banrisul? (InfoMoney) https://www.infomoney.com.br/onde-investir/o-que-os-novos-governadores-mudam-nos-dividendos-de-cemig-sanepar-e-banrisul/
-· PLTR Should You 'Buy' or 'Sell' Palantir Stock Ahead of Earnings? (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:a43edbaba094b:0-should-you-buy-or-sell-palantir-stock-ahead-of-earnings/
-· PETR4 Conselho da Petrobras deve discutir preço do diesel depois do segundo turno, dizem fontes (Valor Economico) https://valor.globo.com/google/amp/empresas/noticia/2026/10/23/conselho-da-petrobras-deve-discutir-preo-do-diesel-depois-do-segundo-turno-dizem-fontes.ghtml
-· MU Micron (MU) is an Incredible Growth Stock: 3 Reasons Why (Yahoo Finance) https://ca.finance.yahoo.com/news/micron-mu-incredible-growth-stock-154501386.html
-· BTC Whale's Insight: Bitcoin Holds $80K - What Could Spark A Breakout? (Seeking Alpha) https://seekingalpha.com/article/4957006-whale-insight-bitcoin-holds-80k-what-could-spark-breakout
-· BTC Bitcoin Billionaires Are Racing to Ride a 3,000% Crypto Boom (Bloomberg) https://www.bloomberg.com/news/articles/2026-10-23/bitcoin-billionaires-are-racing-to-ride-a-3-000-crypto-boom
-· (+89 manchetes; lista completa em eventos/noticias.json)
