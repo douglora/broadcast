@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 26/10 15h22
+NOTÍCIAS E FATOS · 26/10 16h07
 
-Pernas: noticias ok 13 novas (18 consultas; descartadas: 375 veículo fora da lista, 48 sem ativo, 0 teto) · cvm ok 0 novos de 3 (3 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 14 novas (18 consultas; descartadas: 402 veículo fora da lista, 51 sem ativo, 1 teto) · cvm ok 0 novos de 3 (3 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (2)
 
@@ -187,8 +187,22 @@ Fonte: Yahoo Finance 25/10 18h30
 id: E05-BTC-c33ca2324e-2026-10-25 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (103)
+## OUTRAS NOTÍCIAS (só manchete) (117)
 
+· GOOGL Microsoft And Alphabet Q3 2026 Earnings Previews (Seeking Alpha) https://seekingalpha.com/article/4957582-microsoft-alphabet-q3-2026-earnings-previews
+· BBAS3 Ação da Petrobras ou Banco do Brasil: qual estatal cai mais após a eleição de Lula? Entenda (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/acao-da-petrobras-ou-banco-do-brasil-qual-estatal-cai-mais-apos-a-eleicao-de-lula-entenda/
+· AMZN UBS Sets Bold Amazon Stock Target Ahead of Earnings (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:1d04be5ff094b:0-ubs-sets-bold-amazon-stock-target-ahead-of-earnings/
+· TSLA Tesla Stock Soars on Wave of Analyst Upgrades (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:9791fec6f094b:0-tesla-stock-soars-on-wave-of-analyst-upgrades/
+· DI Juros futuros disparam após eleição por incertezas sobre ajuste fiscal (UOL Economia) https://economia.uol.com.br/noticias/redacao/2026/10/26/juros-futuros-eleicao-de-lula.ghtm
+· INTC Why is Intel stock rallying today? (Investing.com) https://www.investing.com/news/stock-market-news/why-is-intel-stock-rallying-today-93CH-4973403
+· ETH If Crypto Falls Another 20%, Which Holds Up Best: Ethereum, Sui or Avalanche? Grok AI Ranks Them (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/crypto-falls-another-20-holds-175448886.html
+· GOOGL Anthropic relies on Google, Amazon and Microsoft for nearly half its revenue (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/anthropic-relies-google-amazon-microsoft-175139044.html
+· USDBRL Dólar hoje sobe mais de 10% e chega a ultrapassar os R$ 5,50 com reeleição de Lula (InfoMoney) https://www.infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-26102026-2/
+· USDBRL É cedo para saber o impacto da alta do dólar nas contas externas, diz Fernando Rocha, do BC (Valor Economico) https://valor.globo.com/google/amp/financas/noticia/2026/10/26/cedo-para-saber-o-impacto-da-alta-do-dlar-nas-contas-externas-diz-fernando-rocha-do-bc.ghtml
+· BTC Bitcoin Can Retake $125,000, Galaxy Says: ‘The Crowd Has Left’ (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:7cf30cfd4094b:0-bitcoin-can-retake-125-000-galaxy-says-the-crowd-has-left/
+· PETR4 CEO da Petrobras vê queda das ações após vitória de Lula como especulativa (CNN Brasil) https://www.cnnbrasil.com.br/economia/money/negocios/ceo-da-petrobras-ve-queda-das-acoes-apos-vitoria-de-lula-como-especulativa/
+· TSLA Tesla's Bet: Robotaxis, Robots, and a SpaceX Merger (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/teslas-bet-robotaxis-robots-spacex-153700180.html
+· TSLA Why is Tesla stock gaining 5% today? (TradingView (Reuters)) https://www.tradingview.com/news/invezz:00496481e094b:0-why-is-tesla-stock-gaining-5-today/
 · INTC Intel: Agentic AI Is Making CPUs A New Bottleneck (NASDAQ:INTC) (Seeking Alpha) https://seekingalpha.com/article/4957571-intel-agentic-ai-is-making-cpu-new-bottleneck
 · GOOGL Alphabet Stocks Move Lower Before Cloud Margin Test (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:327e955cf094b:0-alphabet-stocks-move-lower-before-cloud-margin-test/
 · USDBRL Soja, café e açúcar caem nas bolsas globais com alta do dólar após eleição no Brasil (InfoMoney) https://www.infomoney.com.br/mercados/soja-cafe-e-acucar-caem-nas-bolsas-globais-com-alta-do-dolar-apos-eleicao-no-brasil/
@@ -235,18 +249,4 @@ id: E05-BTC-c33ca2324e-2026-10-25 · status: linha
 · NVDA Nvidia Or AMD On This Dip? Pick The Safest (NASDAQ:NVDA) (Seeking Alpha) https://news.google.com/rss/articles/CBMiigFBVV95cUxOa1Y1aXpkR09yZVlIdEQ2TXIxMjZOMUlTRGN3QWFiaXpQTjdlTTJ1dG5CME1ETXZ4eGV4akZ4U0c0TmtBSnFNNDBLempUX1h3UE94R21BUnBlYjNMME1MeFR3SlRDdERKUnRVdGFTaUFPSlFLQVJ3T0w2MFk3S24zUGxkX3p4b0ttNUE?oc=5
 · ITUB4 Milton Maluhy Filho explica por que o Itaú desembolsou R$ 2,92 bilhões pela NeoSpace (NeoFeed) https://neofeed.com.br/negocios/milton-maluhy-filho-explica-por-que-o-itau-desembolsou-r-292-bilhoes-pela-neospace/
 · TSM Intel and TSMC Are Vying for Chip Fabrication Supremacy. 1 Offers Superior Value. (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/intel-tsmc-vying-chip-fabrication-150500654.html
-· BTC Is Bitcoin a Good Buy at $80,000 Right Now? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-good-buy-80-000-145620150.html
-· BTC Franklin Templeton's New ETFs Could Create a Bitcoin Buying Machine (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/franklin-templetons-etfs-could-create-144718324.html
-· TESOURO Tesouro Direto já atrasa abertura em mais de duas horas em meio a disparada de juros (InfoMoney) https://www.infomoney.com.br/onde-investir/tesouro-direto-abertura-fechamento-26102026/
-· INTC New Street bullish on Intel to Buy as CPU scarcity strengthens turnaround (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/street-bullish-intel-buy-cpu-144611818.html
-· MU Micron Rises as Bank of America Gets “Incrementally More Positive on Memory” After Executive Meetings (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/micron-rises-bank-america-gets-144512723.html
-· DI Mercado vê fim do corte de juros e discute possível alta da Selic (CNN Brasil) https://www.cnnbrasil.com.br/blogs/lucinda-pinto/economia/money/macroeconomia/mercado-ve-fim-do-corte-de-juros-e-discute-possivel-alta-da-selic/
-· PLTR Palantir stock may move 10% on Nov. 2 earnings report By Investing.com (Investing.com) https://za.investing.com/news/stock-market-news/palantir-stock-may-move-10-on-nov-2-earnings-report-93CH-4525883
-· DI Juros futuros sobem mais de 260 pontos-base após vitória de Lula (CNN Brasil) https://www.cnnbrasil.com.br/economia/money/mercado/juros-futuros-sobem-mais-de-260-pontos-base-apos-vitoria-de-lula/
-· PLTR Michael Burry Is Shorting PLTR: Why Palantir’s Earnings Next Monday Are a Make-or-Break Moment (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/michael-burry-shorting-pltr-why-134924781.html
-· AMZN UBS Sees 40% Upside For AMZN Stock — AWS Margins Take Center Stage Ahead Of Earnings (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/ubs-sees-40-upside-amzn-134610864.html
-· GOOGL Here’s How Much Traders See Google Parent Alphabet’s Stock Moving After Earnings (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/much-traders-see-google-parent-134302815.html
-· BTC Bitcoin Holds $79,200 Before the Fed, Coinbase Earnings and a $10.9B Expiry: Which Way Next? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-holds-79-200-fed-133225031.html
-· TSLA Tesla near-term outlook: valuation risk versus autonomy upside (Investing.com) https://www.investing.com/news/stock-market-news/tesla-nearterm-outlook-valuation-risk-versus-autonomy-upside-93CH-4973099
-· USDBRL Ibovespa cai mais 17% após 'circuit breaker' e dólar sobe 10%; ações caem até 60% (Exame) https://exame.com/invest/mercados/ibovespa-cai-mais-17-apos-circuit-breaker-e-dolar-sobe-10-acoes-caem-ate-60/
-· (+43 manchetes; lista completa em eventos/noticias.json)
+· (+57 manchetes; lista completa em eventos/noticias.json)
