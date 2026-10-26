@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 26/10 13h22
+NOTÍCIAS E FATOS · 26/10 14h22
 
-Pernas: noticias ok 16 novas (18 consultas; descartadas: 390 veículo fora da lista, 48 sem ativo, 11 teto) · cvm ok 0 novos de 3 (3 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 15 novas (18 consultas; descartadas: 401 veículo fora da lista, 45 sem ativo, 9 teto) · cvm ok 0 novos de 3 (3 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (2)
 
@@ -30,7 +30,18 @@ Fonte: CVM 26/10
 id: E03-UGPA3-1580051-2026-10-26 · status: linha · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (11)
+## NOTÍCIAS COM MATERIALIDADE (12)
+
+[ATENÇÃO] E05 · AMZN · Verizon Raises Earnings Outlook as Quarterly Postpaid Subscribers Surge; Announces AI Infrastructure Deal With AWS
+Yahoo Finance · 26/10 11h14 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Verizon Communications (VZ) raised its full-year earnings outlook on Monday after reporting an 820%  Upgrade to read this MT Newswires article and get so much more.
+Link: https://finance.yahoo.com/technology/articles/verizon-raises-earnings-outlook-quarterly-141408494.html
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: AMZN
+Como falar: 'saiu no Yahoo Finance: Verizon Raises Earnings Outlook as Quarterly Postpaid Subscribers Surge; Announces AI Inf…; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 26/10 11h14
+id: E05-AMZN-d795df8eb8-2026-10-26 · status: pendente
 
 [ATENÇÃO] E05 · ITUB4 · Itaú faz aquisição de quase R$ 3 bilhões para acelerar uso de inteligência artificial no banco
 Estadao · 26/10 12h35 · fonte única · licença: manchete
@@ -39,7 +50,7 @@ Por que importa: aquisicao ou venda muda alavancagem, mix de receita e o multipl
 Ativos: ITUB4
 Como falar: 'saiu no Estadao: Itaú faz aquisição de quase R$ 3 bilhões para acelerar uso de inteligência artificial no…; confirmar o número no texto antes de repassar'
 Fonte: Estadao 26/10 12h35
-id: E05-ITUB4-6a34d411bd-2026-10-26 · status: pendente
+id: E05-ITUB4-6a34d411bd-2026-10-26 · status: entregue
 
 [ATENÇÃO] E05 · KO · PepsiCo Pays More, Coca-Cola Looks Stronger. Which Dividend Wins for Retirement?
 Yahoo Finance · 25/10 16h00 · fonte única · licença: resumo
@@ -55,7 +66,7 @@ Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir
 Ativos: KO
 Como falar: 'saiu no Yahoo Finance: PepsiCo Pays More, Coca-Cola Looks Stronger. Which Dividend Wins for Retirement?; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 25/10 16h00
-id: E05-KO-d9ee0b71ee-2026-10-25 · status: pendente
+id: E05-KO-d9ee0b71ee-2026-10-25 · status: entregue
 
 [ATENÇÃO] E05 · ITUB4 · Itaú anuncia compra da NeoSpace por quase R$ 3 bilhões
 Poder360 · 26/10 09h36 · fonte única · licença: resumo
@@ -176,8 +187,22 @@ Fonte: Yahoo Finance 25/10 18h30
 id: E05-BTC-c33ca2324e-2026-10-25 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (73)
+## OUTRAS NOTÍCIAS (só manchete) (87)
 
+· GOOGL Alphabet: The AI Business Is Booming, But I'd Sell Before Earnings (NASDAQ:GOOG) (Seeking Alpha) https://seekingalpha.com/article/4957547-alphabet-the-ai-business-is-booming-but-id-sell-before-earnings
+· ETH Ethereum Analysis: Could ETH Fall to $2,180 and Liquidate a $214 Million Whale? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/ethereum-analysis-could-eth-fall-165814335.html
+· DI Ativos brasileiros desabam após eleição e mercado precifica alta da Selic em novembro Por Reuters (Investing.com) https://br.investing.com/news/forex-news/ativos-brasileiros-desabam-apos-eleicao-e-mercado-precifica-alta-da-selic-em-novembro-2103044
+· PETR4 CEO da Petrobras vê queda das ações após vitória de Lula como especulativa (Valor Economico) https://valor.globo.com/empresas/noticia/2026/10/26/ceo-da-petrobras-v-queda-das-aes-aps-vitria-de-lula-como-especulativa.ghtml
+· INTC Intel Q3 Preview: Server CPU Shortage Sets Up A Pricing Tailwind, Strong Buy (NASDAQ:INTC) (Seeking Alpha) https://seekingalpha.com/article/4957531-intel-q3-preview-server-cpu-shortage-sets-up-a-pricing-tailwind-strong-buy
+· USDBRL Após disparada do dólar, ministro da Fazenda conversa com Lula e coordena com BC intervenção do Tesouro: ‘Precisamos ter alguma racionalidade’ (O Globo) https://oglobo.globo.com/economia/fabio-graner/noticia/2026/10/26/ministro-da-fazenda-diz-que-tesouro-fara-intervencao-em-titulos-publicos-apos-mercado-reagir-a-vitoria-de-lula.ghtml
+· LITE Lumentum and Coherent Stocks Jump 3% as StoneX Unveils Bold Price Targets (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/lumentum-coherent-stocks-jump-3-155903440.html
+· KO RBC Capital reiterates Coca-Cola stock rating on strong results outlook (Investing.com) https://www.investing.com/news/analyst-ratings/rbc-capital-reiterates-cocacola-stock-rating-on-strong-results-outlook-93CH-4973250
+· KO Coca-Cola Q3 earnings on deck: What to expect (KO:NYSE) (Seeking Alpha) https://seekingalpha.com/news/4657378-coca-cola-q3-earnings-on-deck-what-to-expect
+· MRVL What's Going On With Marvell Technology Stock Monday? (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:b9ac60dc5094b:0-what-s-going-on-with-marvell-technology-stock-monday/
+· NVDA Nvidia Could Exploit “Completely Legal” China Loophole Worth Billions. But It (Probably) Won’t. (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/nvidia-could-exploit-completely-legal-155027867.html
+· PETR4 A reação de CEO da Petrobras (PETR4) após vitória de Lula; ‘a hora é de comprar’ (Money Times) https://www.moneytimes.com.br/a-reacao-de-ceo-da-petrobras-petr4-apos-vitoria-de-lula-a-hora-e-de-comprar-rnda/
+· USDBRL BC diz ser muito cedo para prever impacto de disparada do dólar após reeleição de Lula (Folha de S.Paulo) https://www1.folha.uol.com.br/mercado/2026/10/bc-diz-ser-muito-cedo-para-prever-impacto-de-disparada-do-dolar-apos-reeleicao-do-lula.shtml
+· PLTR Palantir stock may move 10% on Nov. 2 earnings report (Investing.com) https://news.google.com/rss/articles/CBMiswFBVV95cUxPWDZSRGlubEpjanpneTBXLVpIam9wUjNCai1XejYyVnNucTRXQ2o0NG9SSVJVNHpRQnIweUtubHJJVDhnUUZ4bTl1Y3BtNXRFZGRjRHg4YTUtSGE4b0NuNmlzQmc4U24ySmpXMUZPRW92SmpCQmpLdlIwd0hLRE5HTW1pRmlSRThlV29EbmZZSHp2QkFVcFNIOHpaOFY1Qmg5cGp6dzNiVmxzcFRfVlc0MER2WQ?oc=5
 · USDBRL Dólar sobe até 12,2% e testa maior cotação desde junho de 2025 (UOL Economia) https://economia.uol.com.br/cotacoes/noticias/redacao/2026/10/26/dolar-sobe-ate-122-e-testa-maior-cotacao-desde-junho-de-2025.ghtm
 · USDBRL Dólar sobe 9% após vitória de Lula e pode ter 5ª maior alta desde o Plano Real (InfoMoney) https://www.infomoney.com.br/mercados/dolar-sobe-9-apos-vitoria-de-lula-e-pode-ter-5a-maior-alta-desde-o-plano-real/
 · CVX Hess Midstream: Buy The Chevron Selloff At A 10% Yield (NYSE:HESM) (Seeking Alpha) https://seekingalpha.com/article/4957522-hess-midstream-buy-the-chevron-selloff-at-a-10-percent-yield
@@ -224,18 +249,4 @@ id: E05-BTC-c33ca2324e-2026-10-25 · status: linha
 · AXIA3 Axia Energia amplia centro de operação em Tucuruí (CanalEnergia) https://www.canalenergia.com.br/noticias/53358789/axia-energia-amplia-centro-de-operacao-em-tucurui
 · PETR4 Reeleição de Lula vai fazer Petrobras ‘arrumar a casa’ com reajuste gradual de preço, diz Abicom (Estadao) https://www.estadao.com.br/em-alta/economia/reeleicao-lula-petrobras-arrumar-casa-reajuste-gradual/
 · BTC Bitcoin’s Bear Market Is Over, Galaxy Research Says: 'Now Is an Attractive Time to Buy' (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-bear-market-over-galaxy-130102380.html
-· BTC Current price of Bitcoin for Oct. 26, 2026 (Fortune) https://fortune.com/article/price-of-bitcoin-10-26-2026/
-· MU Micron: I Was Bearish Before, But This Call May Be Even More Controversial (Upgrade) (MU) (Seeking Alpha) https://seekingalpha.com/article/4957455-micron-i-was-bearish-before-but-this-call-may-be-even-more-controversial-upgrade
-· USDBRL Dólar dispara a R$ 5,42, índice futuro da Bolsa despenca, 'circuit breaker' é acionado. Tesouro cancela leilão (O Globo) https://oglobo.globo.com/economia/noticia/2026/10/26/bolsa-e-dolar-nesta-segunda-feira-mercados-reagem-a-reeleicao-de-lula.ghtml
-· TSLA TSLA Is The Worst-Performing Mag 7 Stock This Year But Leads The Pack In October – Barclays Sees 19% Upside Potential (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:7579bca36094b:0-tsla-is-the-worst-performing-mag-7-stock-this-year-but-leads-the-pack-in-october-barclays-sees-19-upside-potential/
-· UST US 10-Year Treasury Yield Little Changed on Monday (TradingView (Reuters)) https://www.tradingview.com/news/te_news:595072:0-us-10-year-treasury-yield-little-changed-on-monday/
-· ETH Current price of Ethereum for Oct 26, 2026 (Fortune) https://fortune.com/article/price-of-ethereum-10-26-2026/
-· TSLA Tesla: Too Big To Fail, Too Expensive To Justify - Reiterate Sell (NASDAQ:TSLA) (Seeking Alpha) https://seekingalpha.com/article/4957449-tesla-too-big-to-fail-too-expensive-to-justify-reiterate-sell
-· USDBRL Reeleição de Lula: dólar futuro dispara 9% e ETF brasileiro cai mais de 26% em NY (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/ibovespa-hoje-fim-das-eleicoes-abre-nova-disputa-no-mercado-o-que-esta-em-jogo/
-· USDBRL Economistas reduzem previsão de inflação, PIB e dólar neste ano (Folha de S.Paulo) https://news.google.com/rss/articles/CBMitAFBVV95cUxQWVNqdUtHYUFsWG41OEF6Rk1ha1NfWDhYdTNUYjZlZ2JTUFJvTWY5SGx5Ql9kM3N5cU1FamU5Zl9pdHRTQWY4V05SbGk4b29sZjRwem9FdzRzTFlFZGhrUzdEVXBfSnlUWms5T1ZGN28yYzBkSlZkcGFOcE05eHlpRUVFQ21vYjVycVRaSFlza1RPM3lHazJ1N2FXekpzQkpLZVVWOUFsaFROUjdxeThLUDlNTDY?oc=5
-· LITE Lumentum, Coherent in focus as StoneX starts with Buy ratings (TradingView (Reuters)) https://news.google.com/rss/articles/CBMiwAFBVV95cUxNZ3l5NFlBSFNvNHNYdmM5SkRlWTFNckxFX1Y1NkdKbVNpT0lzZWd3dTJKdC1QN0xiYzVvRFpvYVpFeEJXZFV0TEozeWxkSXZHal8zTzFjVXlEakdKdFYyTHJCZTBsUEMwQmh0eUg0dEhmRkxXX2FPTk51RTdMTkZVTV9TTWYyZGUtMUpDQWNkS0FjSnFKYXlpdU9RcHYyd1QtZUlFcGdIN2RFdDlFSk1rMWlPVjFXajFac2xGN3ZTUlc?oc=5
-· USDBRL Dólar dispara 12% e supera R$ 5,60 com reeleição de Lula (Money Times) https://news.google.com/rss/articles/CBMia0FVX3lxTFBUdjZwWTI5dml0bk5IWkxnZmNvUnh6dG9SeVZiNDM1RFg1TnZiMGhSUmFsajRlNmRFaTB0N0owTi1TSVpzbmQyN2xtQ2VNbDltR29WbHBLUFlxbEQyOUctZVl1RldMdk9PQ0w4?oc=5
-· USDBRL Expectativa para o dólar no fim de 2026 cai de R$ 5,13 para R$ 5,05 no Focus do BC (UOL Economia) https://news.google.com/rss/articles/CBMi4AFBVV95cUxNSnJTV2Vybk5RUDN0UjBHYmczeXVkMUJCRzE4YWdqc2dLVXhodTJrQXRuTlI5NDhlTWhHa3AxRnpXVlRucGpIclNTcE9Idy1jZF9WZUpNYXRSZzA1UEtQS1BrMU4wcDVmcmxlbjNkbHJLZkpEaXZlRjBDZHlCZ0wyT1h2eXVuUjlyT3p3MFF3elJjQ0VZTk1iamp1b2F2OGw1c2dneG9sTGRXOFo3ajdEQTBWSEx2NTZwUFFYWFQwRjZvTFJnX25BY3ZXSHZDMHotZUFLWmJDeDF5cXF1WXp3bg?oc=5
-· MU Audi Announces Its First U.S. Factory; Nvidia, Micron Drive Earnings Boom (The Wall Street Journal) https://www.wsj.com/cfo-journal/audi-announces-its-first-u-s-factory-nvidia-micron-drive-earnings-boom-281693e0
-· BTC Bitcoin holds near $80,000 as oil retreats and the Fed decision looms (CoinDesk) https://www.coindesk.com/markets/2026/10/26/bitcoin-holds-near-usd80-000-as-oil-retreats-and-the-fed-decision-looms
-· (+13 manchetes; lista completa em eventos/noticias.json)
+· (+27 manchetes; lista completa em eventos/noticias.json)
