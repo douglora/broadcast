@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 26/10 14h25
+NOTÍCIAS E FATOS · 26/10 15h22
 
-Pernas: noticias ok 3 novas (18 consultas; descartadas: 396 veículo fora da lista, 51 sem ativo, 0 teto) · cvm ok 0 novos de 3 (3 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 13 novas (18 consultas; descartadas: 375 veículo fora da lista, 48 sem ativo, 0 teto) · cvm ok 0 novos de 3 (3 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (2)
 
@@ -41,7 +41,7 @@ Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; 
 Ativos: AMZN
 Como falar: 'saiu no Yahoo Finance: Verizon Raises Earnings Outlook as Quarterly Postpaid Subscribers Surge; Announces AI Inf…; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 26/10 11h14
-id: E05-AMZN-d795df8eb8-2026-10-26 · status: pendente
+id: E05-AMZN-d795df8eb8-2026-10-26 · status: entregue
 
 [ATENÇÃO] E05 · ITUB4 · Itaú faz aquisição de quase R$ 3 bilhões para acelerar uso de inteligência artificial no banco
 Estadao · 26/10 12h35 · fonte única · licença: manchete
@@ -187,8 +187,21 @@ Fonte: Yahoo Finance 25/10 18h30
 id: E05-BTC-c33ca2324e-2026-10-25 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (90)
+## OUTRAS NOTÍCIAS (só manchete) (103)
 
+· INTC Intel: Agentic AI Is Making CPUs A New Bottleneck (NASDAQ:INTC) (Seeking Alpha) https://seekingalpha.com/article/4957571-intel-agentic-ai-is-making-cpu-new-bottleneck
+· GOOGL Alphabet Stocks Move Lower Before Cloud Margin Test (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:327e955cf094b:0-alphabet-stocks-move-lower-before-cloud-margin-test/
+· USDBRL Soja, café e açúcar caem nas bolsas globais com alta do dólar após eleição no Brasil (InfoMoney) https://www.infomoney.com.br/mercados/soja-cafe-e-acucar-caem-nas-bolsas-globais-com-alta-do-dolar-apos-eleicao-no-brasil/
+· LITE Lumentum: Sold Out Is Not The Same As Scalable (NASDAQ:LITE) (Seeking Alpha) https://seekingalpha.com/article/4957554-lumentum-sold-out-is-not-the-same-as-scalable
+· BTC Tom Lee Says Crypto Faced Same ‘Risk Off’ Forces Behind AI Sell-Off: BMNR, ASST Add To Crypto Treasuries As MSTR Skips Bitcoin Buys (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:049958e32094b:0-tom-lee-says-crypto-faced-same-risk-off-forces-behind-ai-sell-off-bmnr-asst-add-to-crypto-treasuries-as-mstr-skips-bitcoin-buys/
+· TSLA Why Tesla (TSLA) stock is trading up today (TradingView (Reuters)) https://www.tradingview.com/news/stockstory:daa56b521094b:0-why-tesla-tsla-stock-is-trading-up-today/
+· COHR Why is Coherent (COHR) stock rocketing higher today (TradingView (Reuters)) https://www.tradingview.com/news/stockstory:563dfb398094b:0-why-is-coherent-cohr-stock-rocketing-higher-today/
+· LITE Lumentum and Coherent Stocks Jump 3% as StoneX Unveils Bold Price Targets (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:695c6c126094b:0-lumentum-and-coherent-stocks-jump-3-as-stonex-unveils-bold-price-targets/
+· AMZN Amazon's AWS Backlog Takes Center Stage Ahead of Q3 Earnings (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:75d23cb71094b:0-amazon-s-aws-backlog-takes-center-stage-ahead-of-q3-earnings/
+· GOOGL Big Tech Earnings: Who Is Really Making Money From AI? for NASDAQ:GOOGL by Errante (TradingView (Reuters)) https://www.tradingview.com/chart/GOOGL/TgtwQFmN-Big-Tech-Earnings-Who-Is-Really-Making-Money-From-AI/
+· USDBRL Dólar à vista sobe 9% com eleição de Lula; exportador aproveita janela (Valor Economico) https://valor.globo.com/financas/noticia/2026/10/26/dolar-dispara-865percent-a-r-542-bate-em-trava-no-exterior-vai-a-r-560-apos-vitoria-de-lula.ghtml
+· KO Boeing, Coca-Cola Earnings Previews: A Turnaround Story and a Defensive Staple Face the Same Test (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/boeing-coca-cola-earnings-previews-120522327.html
+· UGPA3 Ipiranga - Posto de Saúde, 41ª zona eleitoral: resultado da votação em Vassouras (RJ) no 2º turno (g1) https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/10/26/ipiranga-posto-de-saude-41a-zona-eleitoral-resultado-da-votacao-em-vassouras-rj-no-2o-turno.ghtml
 · NVDA AI Critic Claims “200 Billion Dollars Worth” of Nvidia Chips Sit in Warehouses (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/ai-critic-claims-200-billion-141420303.html
 · UGPA3 PRE Escolar Maricas Lopes, 64ª zona eleitoral: resultado da votação em Ipiranga do Piauí (PI) no 2º turno (g1) https://g1.globo.com/google/amp/pi/piaui/eleicoes/2026/noticia/2026/10/26/pre-escolar-maricas-lopes-64a-zona-eleitoral-resultado-da-votacao-em-ipiranga-do-piaui-pi-no-2o-turno.ghtml
 · VALE3 EEIEF Joaquim Ferreira do Vale - Alazans, 40ª zona eleitoral: resultado da votação em Ipueiras (CE) no 2º turno (g1) https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/10/26/eeief-joaquim-ferreira-do-vale-alazans-40a-zona-eleitoral-resultado-da-votacao-em-ipueiras-ce-no-2o-turno.ghtml
@@ -236,17 +249,4 @@ id: E05-BTC-c33ca2324e-2026-10-25 · status: linha
 · BTC Bitcoin Holds $79,200 Before the Fed, Coinbase Earnings and a $10.9B Expiry: Which Way Next? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-holds-79-200-fed-133225031.html
 · TSLA Tesla near-term outlook: valuation risk versus autonomy upside (Investing.com) https://www.investing.com/news/stock-market-news/tesla-nearterm-outlook-valuation-risk-versus-autonomy-upside-93CH-4973099
 · USDBRL Ibovespa cai mais 17% após 'circuit breaker' e dólar sobe 10%; ações caem até 60% (Exame) https://exame.com/invest/mercados/ibovespa-cai-mais-17-apos-circuit-breaker-e-dolar-sobe-10-acoes-caem-ate-60/
-· PLTR Palantir stock may move 10% on Nov. 2 earnings report By Investing.com (Investing.com) https://ng.investing.com/news/stock-market-news/palantir-stock-may-move-10-on-nov-2-earnings-report-93CH-2757802
-· USDBRL Ações de exportadoras operam na contramão e sobem na bolsa com a ajuda do dólar (Valor Economico) https://valor.globo.com/financas/noticia/2026/10/26/aes-de-exportadoras-operam-na-contramo-e-sobem-na-bolsa-com-a-ajuda-do-dlar.ghtml
-· VALE3 Vale (VALE3) acompanha dólar e dispara após resultado das eleições (InfoMoney) https://www.infomoney.com.br/mercados/vale-vale3-desempenho-eleicoes-segundo-turno-262102026/
-· AMD AMD Q3 Preview: The Market Is Watching OpenAI, I'm Watching EPYC (NASDAQ:AMD) (Seeking Alpha) https://seekingalpha.com/article/4957481-amd-q3-preview-the-market-is-watching-openai-im-watching-epyc
-· JPM JPMorgan (JPM) Stock Could Be 33% Undervalued Following JPM Coin Expansion (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/jpmorgan-jpm-stock-could-33-140811654.html
-· MINERIO Iron ore prices rangebound as investors weigh weakening demand against stimulus bets (Mining.com) https://www.mining.com/web/iron-ore-prices-rangebound-as-investors-weigh-weakening-demand-against-stimulus-bets/
-· INTC Intel: Server Strength Could Easily Offset A Weak PC Quarter In Q3 (NASDAQ:INTC) (Seeking Alpha) https://seekingalpha.com/article/4957480-intel-server-strength-could-easily-offset-a-weak-pc-quarter-in-q3
-· PETR4 Petrobras (PETR3; PETR4) cai 10% após vitória de Lula sobre Flávio Bolsonaro (InfoMoney) https://www.infomoney.com.br/mercados/petrobras-petr3-petr4-cai-10-apos-vitoria-de-lula-sobre-flavio-bolsonaro/
-· BAC Installed Building Products rated Buy in new coverage at Bank of America (TradingView (Reuters)) https://www.tradingview.com/news/seekingalpha:2fd64197e094b:0-installed-building-products-rated-buy-in-new-coverage-at-bank-of-america/
-· DI Tesouro Direto permanece fechado com alta volatilidade das taxas após eleição de Lula; juros futuros disparam para 15% (Money Times) https://www.moneytimes.com.br/tesouro-direto-permanece-fechado-com-alta-volatilidade-das-taxas-apos-eleicao-de-lula-juros-futuros-disparam-para-15/
-· BTC Chamath’s $0 Bitcoin Call Meets Musk’s AI ‘Death’ Warning — Where Could BTC Price Be by 2031? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/chamath-0-bitcoin-call-meets-140215999.html
-· NVDA Price Prediction: The Gap With Nvidia Could Shape AMD’s Next Big Move (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/price-prediction-gap-nvidia-could-140043585.html
-· TESOURO Reeleição de Lula: Tesouro Direto paralisa negociações após forte volatilidade nas taxas; acompanhe (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/virada-de-lula-faz-mercado-parar-e-juros-subirem-tesouro-direto-atrasa-abertura-em-uma-hora/
-· (+30 manchetes; lista completa em eventos/noticias.json)
+· (+43 manchetes; lista completa em eventos/noticias.json)
