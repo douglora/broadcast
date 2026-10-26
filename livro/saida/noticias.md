@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 26/10 18h13
+NOTÍCIAS E FATOS · 26/10 20h41
 
-Pernas: noticias ok 12 novas (18 consultas; descartadas: 403 veículo fora da lista, 49 sem ativo, 10 teto) · cvm ok 1 novos de 4 (4 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 9 novas (18 consultas; descartadas: 371 veículo fora da lista, 48 sem ativo, 12 teto) · cvm ok 0 novos de 0 (0 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (3)
 
@@ -198,8 +198,17 @@ Fonte: Yahoo Finance 25/10 18h30
 id: E05-BTC-c33ca2324e-2026-10-25 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (140)
+## OUTRAS NOTÍCIAS (só manchete) (149)
 
+· LITE Lumentum stock surges 10% as AI components ‘completely sold out’ (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/lumentum-stock-surges-10-ai-222440380.html
+· USDBRL Dólar sobe 8,21%, e bolsa cai 13,88% após reeleição de Lula (Agencia Brasil) https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/dolar-sobe-821-e-bolsa-cai-1388-apos-reeleicao-de-lula
+· VALE3 Com alta do dólar, Vale contraria Bolsa e sobe mais de 4% (Poder360) https://www.poder360.com.br/poder-infra/com-alta-do-dolar-vale-contraria-bolsa-e-sobe-mais-de-4/
+· GOOGL Tech Earnings Are the Market’s Biggest Story This Week: Here’s Why Microsoft, Amazon, Intel, SanDisk, and Alphabet Will Drive the Stock Market’s Next… (Yahoo Finance) https://finance.yahoo.com/video/tech-earnings-market-biggest-story-211514752.html
+· DI Juros futuros fecham em alta após reeleição de Lula (CNN Brasil) https://www.cnnbrasil.com.br/economia/money/mercado/juros-futuros-fecham-em-alta-apos-reeleicao-de-lula/
+· PETR4 Abicom: reeleição de Lula fará Petrobras reajustar gradualmente os preços (CNN Brasil) https://www.cnnbrasil.com.br/economia/abicom-reeleicao-de-lula-fara-petrobras-reajustar-gradualmente-os-precos/
+· BTC The Bitcoin Bull Market Is Finally Here, According to Strategy's Michael Saylor. Could Bitcoin Hit a Price of $100,000 in 2027? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-bull-market-finally-according-182147230.html
+· GOOGL Prediction: Earnings Will “Double” at Amazon, Alphabet and Meta in Five Years (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/prediction-earnings-double-amazon-alphabet-175835684.html
+· VALE3 Eleito no 2º turno, Lula teve maioria em somente 4 das 46 cidades do Vale e região bragantina (g1) https://g1.globo.com/sp/vale-do-paraiba-regiao/eleicoes/2026/noticia/2026/10/26/eleito-no-2o-turno-lula-teve-maioria-em-somente-4-das-46-cidades-do-vale-e-regiao-bragantina.ghtml
 · GOOGL Alphabet Inc. expected to post earnings of $3.02 a share - Earnings Preview (TradingView (Reuters)) https://www.tradingview.com/news/reuters.com,2026:newsml_L5N46C2AS:0-alphabet-inc-expected-to-post-earnings-of-3-02-a-share-earnings-preview/
 · GOOGL Alphabet Earnings Dilemma: Organic Traffic Slowdown Meets Unstoppable CapEx (NASDAQ:GOOG) (Seeking Alpha) https://seekingalpha.com/article/4957623-alphabet-earnings-dilemma-organic-traffic-slowdown-meets-unstoppable-capex
 · SMAL11 Índice de Small Caps fecha com queda de 26,9% após eleição (CNN Brasil) https://www.cnnbrasil.com.br/economia/money/mercado/indice-de-small-caps-fecha-com-queda-de-269-apos-eleicao/
@@ -251,13 +260,4 @@ id: E05-BTC-c33ca2324e-2026-10-25 · status: linha
 · KO Boeing, Coca-Cola Earnings Previews: A Turnaround Story and a Defensive Staple Face the Same Test (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/boeing-coca-cola-earnings-previews-120522327.html
 · UGPA3 Ipiranga - Posto de Saúde, 41ª zona eleitoral: resultado da votação em Vassouras (RJ) no 2º turno (g1) https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/10/26/ipiranga-posto-de-saude-41a-zona-eleitoral-resultado-da-votacao-em-vassouras-rj-no-2o-turno.ghtml
 · NVDA AI Critic Claims “200 Billion Dollars Worth” of Nvidia Chips Sit in Warehouses (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/ai-critic-claims-200-billion-141420303.html
-· UGPA3 PRE Escolar Maricas Lopes, 64ª zona eleitoral: resultado da votação em Ipiranga do Piauí (PI) no 2º turno (g1) https://g1.globo.com/google/amp/pi/piaui/eleicoes/2026/noticia/2026/10/26/pre-escolar-maricas-lopes-64a-zona-eleitoral-resultado-da-votacao-em-ipiranga-do-piaui-pi-no-2o-turno.ghtml
-· VALE3 EEIEF Joaquim Ferreira do Vale - Alazans, 40ª zona eleitoral: resultado da votação em Ipueiras (CE) no 2º turno (g1) https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/10/26/eeief-joaquim-ferreira-do-vale-alazans-40a-zona-eleitoral-resultado-da-votacao-em-ipueiras-ce-no-2o-turno.ghtml
-· GOOGL Alphabet: The AI Business Is Booming, But I'd Sell Before Earnings (NASDAQ:GOOG) (Seeking Alpha) https://seekingalpha.com/article/4957547-alphabet-the-ai-business-is-booming-but-id-sell-before-earnings
-· ETH Ethereum Analysis: Could ETH Fall to $2,180 and Liquidate a $214 Million Whale? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/ethereum-analysis-could-eth-fall-165814335.html
-· DI Ativos brasileiros desabam após eleição e mercado precifica alta da Selic em novembro Por Reuters (Investing.com) https://br.investing.com/news/forex-news/ativos-brasileiros-desabam-apos-eleicao-e-mercado-precifica-alta-da-selic-em-novembro-2103044
-· PETR4 CEO da Petrobras vê queda das ações após vitória de Lula como especulativa (Valor Economico) https://valor.globo.com/empresas/noticia/2026/10/26/ceo-da-petrobras-v-queda-das-aes-aps-vitria-de-lula-como-especulativa.ghtml
-· INTC Intel Q3 Preview: Server CPU Shortage Sets Up A Pricing Tailwind, Strong Buy (NASDAQ:INTC) (Seeking Alpha) https://seekingalpha.com/article/4957531-intel-q3-preview-server-cpu-shortage-sets-up-a-pricing-tailwind-strong-buy
-· USDBRL Após disparada do dólar, ministro da Fazenda conversa com Lula e coordena com BC intervenção do Tesouro: ‘Precisamos ter alguma racionalidade’ (O Globo) https://oglobo.globo.com/economia/fabio-graner/noticia/2026/10/26/ministro-da-fazenda-diz-que-tesouro-fara-intervencao-em-titulos-publicos-apos-mercado-reagir-a-vitoria-de-lula.ghtml
-· LITE Lumentum and Coherent Stocks Jump 3% as StoneX Unveils Bold Price Targets (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/lumentum-coherent-stocks-jump-3-155903440.html
-· (+80 manchetes; lista completa em eventos/noticias.json)
+· (+89 manchetes; lista completa em eventos/noticias.json)

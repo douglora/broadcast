@@ -1,6 +1,6 @@
-ALERTAS · Fechamento 18h
+ALERTAS · eventos
 
-[CRÍTICO] CURVA · C01 A curva ABRIU: F28 +196 bps no dia · F28 +193 bps em 5 pregões · F29 +258 bps no dia (ajuste B3 26/10) / C05 Pre 2029 ABRE 250 bps (PU -4,6%) · Pre 2029 PU -5,0% em 5 datas-base · IPCA+ 2032 ABRE 108 bps (PU -5,6%) (base 26/10) / C02 Inclinação da curva DI: F35-F28 +52 bps no dia: bear steepening (longo abriu mais) · F35-F28 desinverteu (cruzou zero) · F30-F28 +68 bps no dia: bear steepening (longo abriu mais)
+(pendente de slot anterior) [CRÍTICO] CURVA · C01 A curva ABRIU: F28 +196 bps no dia · F28 +193 bps em 5 pregões · F29 +258 bps no dia (ajuste B3 26/10) / C05 Pre 2029 ABRE 250 bps (PU -4,6%) · Pre 2029 PU -5,0% em 5 datas-base · IPCA+ 2032 ABRE 108 bps (PU -5,6%) (base 26/10) / C02 Inclinação da curva DI: F35-F28 +52 bps no dia: bear steepening (longo abriu mais) · F35-F28 desinverteu (cruzou zero) · F30-F28 +68 bps no dia: bear steepening (longo abriu mais)
 DI F28 14,82 (+196) · F29 15,22 (+258) · F30 15,29 (+265) · F32 15,30 (+260) · F35 15,22 (+248)
 Inclinação F35-F28 +40 bps (+52)
 TD Pre 2029 15,26 (+250) PU -4,6% · IPCA+ 2032 7,80 (+108) PU -5,6% · IPCA+ 2040 7,29 (+76) PU -9,3% · IPCA+ 2050 7,03 (+61) PU -13% · Pre 2032 15,50 (+261) PU -11%
@@ -18,20 +18,18 @@ Implícita 2031/32 (descasado): 5,58% (+19 bps na semana) vs Focus IPCA 2030 3,5
 Por que importa: a curva é o preço do dinheiro no Brasil; longo abrindo com curto parado é prêmio de risco, não Selic
 Como falar: 'o prefixado longo marcou a mercado para baixo; quem carrega até o vencimento não mudou de taxa'
 Fonte: B3 ajuste 26/10 · Tesouro Transparente base 26/10; BCB Focus · Tesouro Transparente, base 26/10 · ajuste B3 26/10
-Push: [CRÍTICO] DI A curva ABRIU | TESOURO Pre 2029 ABRE 250 bps (PU -4,6%) · Pre 2029 PU -5,0% em 5 da | DI Inclinação da curva DI +3 · detalhe na sessão
 ids: C01-DI-abriu-2026-10-26, C05-TESOURO-abriu-2026-10-26, C02-DI-inclinacao-2026-10-26, C03-DI-di-2026-10-26, C03-TESOURO-td-2026-10-26, C06-TESOURO-implicita-2026-10-26
 
-[ATENÇÃO] M03 · Focus de 23/10: IPCA: 2026 5,19% (-2 bps) · 2027 4,34% (+4 bps)
+(pendente de slot anterior) [ATENÇÃO] M03 · Focus de 23/10: IPCA: 2026 5,19% (-2 bps) · 2027 4,34% (+4 bps)
 Selic fim de ano: 2026 13,25% (0 bps) · 2027 11,75% (-25 bps)
 Câmbio fim de ano: 2026 R$ 5,05 (-0,05) · 2027 R$ 5,15 (-0,05)
 Por que importa: a mediana do Focus é a régua do Copom; mudança de 10 bps no IPCA ou 25 bps na Selic muda a leitura da curva
 Ativos: DI · Tesouro · USD/BRL
 Como falar: 'o mercado revisou as projeções; comparar com o que a curva de juros já precifica'
 Fonte: BCB Focus (Olinda) 23/10
-Push: Fechamento 18h: 2 alertas de atenção — M03 MACRO, E03 SAPR4 · detalhe na sessão
 ids: M03-MACRO-focus-2026-10-23
 
-[ATENÇÃO] E03 · SAPR4 · Fato Relevante: A Companhia de Saneamento do Paraná – Sanepar (“Companhia”), em cumprimento ao disposto na Resolução CVM nº 44/2021 e em continuidade ao Comunicado a…
+(pendente de slot anterior) [ATENÇÃO] E03 · SAPR4 · Fato Relevante: A Companhia de Saneamento do Paraná – Sanepar (“Companhia”), em cumprimento ao disposto na Resolução CVM nº 44/2021 e em continuidade ao Comunicado a…
 CVM · entregue 26/10/2026 18:01
 Do documento:
   – Curitiba, 26 de outubro de 2026.
@@ -43,29 +41,15 @@ Fonte: CVM 26/10
 ids: E03-SAPR4-1580311-2026-10-26
 
 Info (só linha no Fechamento):
-· T01 INTC retomou a média de 200 dias pela 2ª sessão: US$ 90,47 vs MM200 US$ 86,06 (+5,1%)
-· T01 LITE retomou a média de 200 dias pela 1ª sessão: US$ 818,10 vs MM200 US$ 790,39 (+3,5%)
-· T01 SMAL11 fechou abaixo da média de 200 dias pela 1ª sessão: R$ 98,81 vs MM200 R$ 114,84 (-14%) (dado a confirmar)
-· T01 MRVE3 fechou abaixo da média de 200 dias pela 1ª sessão: R$ 4,73 vs MM200 R$ 6,62 (-29%)
-· T01 USDBRL retomou a média de 200 dias pela 1ª sessão: R$ 5,3969 vs MM200 R$ 5,1305 (+5,2%)
-· T04 SMAL11 fechou na mínima de 52 semanas: R$ 98,81, -11% em 1m e -7,5% em 12m (dado a confirmar)
-· T09 KLBN4 +2,2% com volume 5,2x a mediana de 20 sessões, a R$ 3,70
-· T09 MELI34 -1,3% com volume 6,5x a mediana de 20 sessões, a R$ 74,45
-· T09 SMAL11 -28% com volume 3,4x a mediana de 20 sessões, a R$ 98,81 (dado a confirmar)
-· T10 TSLA no máximo de força relativa em 63 sessões contra SPX: +9,6% vs -0,1% em 20 sessões (+9,7% relativo)
-· T10 EQTL3 no mínimo de força relativa em 63 sessões contra IBOV: -12% vs -3,7% em 20 sessões (-9,0% relativo)
-· E05 GOOGL · Alphabet Inc. expected to post earnings of $3.02 a share - Earnings Preview
-· E05 GOOGL · Alphabet Earnings Dilemma: Organic Traffic Slowdown Meets Unstoppable CapEx (NASDAQ:GOOG)
-· E05 SMAL11 · Índice de Small Caps fecha com queda de 26,9% após eleição
-· E05 USDBRL · Dólar tem maior alta diária em 23 anos após vitória de Lula e fecha em R$5,4066
-· E05 LITE · Why Lumentum’s stock led the S&P 500 higher on Monday
-· E05 GOOGL · Why Google might avoid an earnings 'reckoning' this week
-· E05 KO · Coca-Cola Earnings Are Coming. Its Stock Rally Raises the Stakes.
-· E05 LITE · Why Lumentum Holdings Stock Soared 8.2% Today
-· E05 USDBRL · Bolsa desaba quase 14% com vitória de Lula; dólar fecha em R$ 5,40
-· E05 USDBRL · Tempo real: Ibovespa afunda 13% com vitória de Lula após circuit breaker; dólar e juros futuros disparam
-· E05 BTC · Galaxy Research says Bitcoin's bear market ended in June as accumulation begins
-· E05 USDBRL · Exportadores aproveitam turbulência no dólar para trazer recursos de volta ao Brasil
+· E05 LITE · Lumentum stock surges 10% as AI components ‘completely sold out’
+· E05 USDBRL · Dólar sobe 8,21%, e bolsa cai 13,88% após reeleição de Lula
+· E05 VALE3 · Com alta do dólar, Vale contraria Bolsa e sobe mais de 4%
+· E05 GOOGL · Tech Earnings Are the Market’s Biggest Story This Week: Here’s Why Microsoft, Amazon, Intel, SanDisk, and Alphabet Will Drive the Stock Market’s Next…
+· E05 DI · Juros futuros fecham em alta após reeleição de Lula
+· E05 PETR4 · Abicom: reeleição de Lula fará Petrobras reajustar gradualmente os preços
+· E05 BTC · The Bitcoin Bull Market Is Finally Here, According to Strategy's Michael Saylor. Could Bitcoin Hit a Price of $100,000 in 2027?
+· E05 GOOGL · Prediction: Earnings Will “Double” at Amazon, Alphabet and Meta in Five Years
+· E05 VALE3 · Eleito no 2º turno, Lula teve maioria em somente 4 das 46 cidades do Vale e região bragantina
 · T05 EQTL3 -29% no dia a R$ 34,84: movimento de 10,6 desvios para uma vol de 20 dias de 51% a.a.
 · T05 SAPR4 -16% no dia a R$ 6,80: movimento de 5,0 desvios para uma vol de 20 dias de 55% a.a.
 · T05 ALUP4 -16% no dia a R$ 10,56: movimento de 6,3 desvios para uma vol de 20 dias de 43% a.a.
@@ -220,4 +204,4 @@ Alertas do dia (todos, com status):
 · linha     T09 SMAL11 — SMAL11 -28% com volume 3,4x a mediana de 20 sessões, a R$ 98,81 (dado a confirma
 · linha     T10 TSLA — TSLA no máximo de força relativa em 63 sessões contra SPX: +9,6% vs -0,1% em 20 
 · linha     T10 EQTL3 — EQTL3 no mínimo de força relativa em 63 sessões contra IBOV: -12% vs -3,7% em 20
-· (+148 notícias só manchete, em noticias.md)
+· (+157 notícias só manchete, em noticias.md)
