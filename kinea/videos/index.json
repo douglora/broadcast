@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-10-19T19:22:56Z",
+ "gerado_em": "2026-10-26T19:20:47Z",
  "canal": "https://www.youtube.com/@KineaInvestimentos",
  "listagem": "yt-dlp",
  "fora_do_tema": 0,
@@ -16,7 +16,7 @@
    "duracao_min": null,
    "capitulos": [],
    "ao_vivo": false,
-   "erro": "painel: painel: get_transcript HTTP 400, 0 trechos | yt-dlp: nenhuma legenda listada | audio: padrao: DownloadError: ERROR: [youtube] 1d1-ccTJ4dw: Faça login para confirmar que você não é um bot"
+   "erro": "painel: painel: get_transcript HTTP 400, 0 trechos | yt-dlp: nenhuma legenda listada | audio: padrao: DownloadError: ERROR: [youtube] 1d1-ccTJ4dw: Faça login para confirmar que você não é um bot. Isso ajuda a proteger nossa comunidade"
   },
   {
    "id": "4MsKbD06rtY",
@@ -29,7 +29,7 @@
    "duracao_min": null,
    "capitulos": [],
    "ao_vivo": false,
-   "erro": "painel: painel: get_transcript HTTP 400, 0 trechos | yt-dlp: nenhuma legenda listada | audio: padrao: DownloadError: ERROR: [youtube] 4MsKbD06rtY: Faça login para confirmar que você não é um bot"
+   "erro": "painel: painel: get_transcript HTTP 400, 0 trechos | yt-dlp: nenhuma legenda listada | audio: padrao: DownloadError: ERROR: [youtube] 4MsKbD06rtY: Faça login para confirmar que você não é um bot. Isso ajuda a proteger nossa comunidade"
   },
   {
    "id": "9lasMCOB6Ic",
@@ -42,7 +42,7 @@
    "duracao_min": null,
    "capitulos": [],
    "ao_vivo": false,
-   "erro": "painel: painel: get_transcript HTTP 400, 0 trechos | yt-dlp: nenhuma legenda listada | audio: padrao: DownloadError: ERROR: [youtube] 9lasMCOB6Ic: Faça login para confirmar que você não é um bot"
+   "erro": "painel: painel: get_transcript HTTP 400, 0 trechos | yt-dlp: nenhuma legenda listada | audio: padrao: DownloadError: ERROR: [youtube] 9lasMCOB6Ic: Faça login para confirmar que você não é um bot. Isso ajuda a proteger nossa comunidade"
   },
   {
    "id": "j-XlSMoLhQ8",
@@ -58,32 +58,6 @@
    "erro": "painel: painel: get_transcript HTTP 400, 0 trechos | yt-dlp: nenhuma legenda listada | audio: padrao: DownloadError: ERROR: [youtube] j-XlSMoLhQ8: Faça login para confirmar que você não é um bot"
   },
   {
-   "id": "XNKlvKgDbt4",
-   "titulo": "A Bolsa Brasileira Realmente Está Barata? | Resumo Kinea Insights",
-   "aba": "videos",
-   "url": "https://www.youtube.com/watch?v=XNKlvKgDbt4",
-   "data": "2026-09-19",
-   "descricao": "A Bolsa brasileira está mesmo barata ou é uma ilusão dos múltiplos? Neste vídeo, Danilo Vasconcelos, analista de ações da Kinea, analisa o atual cenário do mercado acionário no Brasil, o impacto dos juros reais elevados no lucro das empresas e quais setores (como utilities e construção civil de baixa renda) oferecem mais previsibilidade.\n\nAssista ao vídeo Kinea Insights - O guia do mochileiro das galáxias: https://youtu.be/01R-xcr5OOA\n\nPara ler este conteúdo, acesse o blog da kinea em: https://www.kinea.com.br/blog/kinea-insights-bolsa-brasileira-juros-valuation/\n\nAcesse a comunidade da Kinea no Whatsapp e fique por dentro de tudo: https://kinea.me/3KrOUkb  \n\nCadastre-se em nossa newsletter e receba as informações da Kinea em primeira mão: https://www.kinea.com.br/newsletter/\n\nAcesse as redes da Kinea e fique por dentro das novidades, clicando aqui: https://linktr.ee/kineainvestimentos\n\nMais informações sobre os fundos Kinea em: https://www.kinea.com.br/",
-   "coleta": 2,
-   "duracao_min": null,
-   "capitulos": [],
-   "ao_vivo": false,
-   "erro": "painel: painel: get_transcript HTTP 400, 0 trechos | yt-dlp: nenhuma legenda listada | audio: padrao: DownloadError: ERROR: [youtube] XNKlvKgDbt4: Faça login para confirmar que você não é um bot"
-  },
-  {
-   "id": "01R-xcr5OOA",
-   "titulo": "Um guia para o investidor da bolsa brasileira | Kinea Insights - O guia do mochileiro das galáxias",
-   "aba": "videos",
-   "url": "https://www.youtube.com/watch?v=01R-xcr5OOA",
-   "data": "2026-09-17",
-   "descricao": "No novo Kinea Insights, exploramos como as escolhas do Brasil a partir de 2027 podem definir o rumo da nossa bolsa e onde estão as oportunidades.\nMúltiplos baixos, sozinhos, não significam oportunidade. Juros reais, crescimento dos lucros, composição da bolsa e prêmio de risco ajudam a explicar o aparente desconto.\n\nPor Ruy Alves, Sócio e Gestor de Investimentos, Leandro Souza, Head de Research de Ações, Danilo Vasconcelos e Antonio Martins -  Analistas de ações.\n\nPara ler este conteúdo, acesse o blog da kinea em: https://www.kinea.com.br/blog/kinea-insights-bolsa-brasileira-juros-valuation/\n\nAcesse a comunidade da Kinea no Whatsapp e fique por dentro de tudo: https://kinea.me/3KrOUkb  \n\nCadastre-se em nossa newsletter e receba as informações da Kinea em primeira mão: https://www.kinea.com.br/newsletter/\n\nAcesse as redes da Kinea e fique por dentro das novidades, clicando aqui: https://linktr.ee/kineainvestimentos\n\nMais informações sobre os fundos Kinea em: https://www.kinea.com.br/",
-   "coleta": 2,
-   "duracao_min": null,
-   "capitulos": [],
-   "ao_vivo": false,
-   "erro": "painel: painel: get_transcript HTTP 400, 0 trechos | yt-dlp: nenhuma legenda listada | audio: padrao: DownloadError: ERROR: [youtube] 01R-xcr5OOA: Faça login para confirmar que você não é um bot"
-  },
-  {
    "id": "2Hkb9GcGwV8",
    "titulo": "Eleição brasileira, um novo Fed e os riscos de I.A. | Live Economia e Mercados ref. Setembro/26",
    "aba": "streams",
@@ -91,7 +65,7 @@
    "data": null,
    "descricao": "",
    "coleta": 2,
-   "erro": "painel: painel: get_transcript HTTP 400, 0 trechos | yt-dlp: android_vr: legenda listada mas nao entregue (o YouTube pede PO token) | audio: padrao: DownloadError: ERROR: [youtube] 2Hkb9GcGwV8: Faça login para confirmar que você não é um bot"
+   "erro": "painel: painel: get_transcript HTTP 400, 0 trechos | yt-dlp: android_vr: legenda listada mas nao entregue (o YouTube pede PO token) | audio: padrao: DownloadError: ERROR: [youtube] 2Hkb9GcGwV8: Faça login para confirmar que você não é um bot. Isso ajuda a proteger nossa comunidade"
   },
   {
    "id": "zYBbPDmHp70",
@@ -101,7 +75,7 @@
    "data": null,
    "descricao": "",
    "coleta": 2,
-   "erro": "painel: painel: get_transcript HTTP 400, 0 trechos | yt-dlp: android_vr: legenda listada mas nao entregue (o YouTube pede PO token) | audio: padrao: DownloadError: ERROR: [youtube] zYBbPDmHp70: Faça login para confirmar que você não é um bot"
+   "erro": "painel: painel: get_transcript HTTP 400, 0 trechos | yt-dlp: android_vr: legenda listada mas nao entregue (o YouTube pede PO token) | audio: padrao: DownloadError: ERROR: [youtube] zYBbPDmHp70: Faça login para confirmar que você não é um bot. Isso ajuda a proteger nossa comunidade"
   },
   {
    "id": "tpHBNW5ZLCc",
@@ -111,7 +85,31 @@
    "data": null,
    "descricao": "",
    "coleta": 2,
-   "erro": "painel: painel: get_transcript HTTP 400, 0 trechos | yt-dlp: android_vr: legenda listada mas nao entregue (o YouTube pede PO token) | audio: padrao: DownloadError: ERROR: [youtube] tpHBNW5ZLCc: Faça login para confirmar que você não é um bot"
+   "erro": "painel: painel: get_transcript HTTP 400, 0 trechos | yt-dlp: android_vr: legenda listada mas nao entregue (o YouTube pede PO token) | audio: padrao: DownloadError: ERROR: [youtube] tpHBNW5ZLCc: Faça login para confirmar que você não é um bot. Isso ajuda a proteger nossa comunidade"
+  },
+  {
+   "id": "ue4zvhTuWk8",
+   "titulo": "O que aprender sobre crises, bancos e carreira com Murilo Portugal | Corte do Kafé com Kinea #59",
+   "aba": "videos",
+   "coleta": 2,
+   "url": "https://www.youtube.com/watch?v=ue4zvhTuWk8",
+   "erro": "nao tentado nesta rodada: o YouTube recusou os anteriores"
+  },
+  {
+   "id": "ckWCSh-bH_I",
+   "titulo": "O que você faria se estivesse na presidência? | Kinea Reflexões #12",
+   "aba": "videos",
+   "coleta": 2,
+   "url": "https://www.youtube.com/watch?v=ckWCSh-bH_I",
+   "erro": "nao tentado nesta rodada: o YouTube recusou os anteriores"
+  },
+  {
+   "id": "1K81qsL9ri4",
+   "titulo": "Governos mudam, o Brasil fica. Uma conversa com Murilo Portugal | Kafé com Kinea #59",
+   "aba": "videos",
+   "coleta": 2,
+   "url": "https://www.youtube.com/watch?v=1K81qsL9ri4",
+   "erro": "nao tentado nesta rodada: o YouTube recusou os anteriores"
   },
   {
    "id": "2kiNjyZxmq0",
@@ -237,14 +235,6 @@
    "aba": "streams",
    "coleta": 2,
    "url": "https://www.youtube.com/watch?v=40E8hwSkztw",
-   "erro": "nao tentado nesta rodada: o YouTube recusou os anteriores"
-  },
-  {
-   "id": "1KCLxigyGxk",
-   "titulo": "Quem manda nos juros no Brasil? | Kafé com Kinea #58 com Gustavo Loyola",
-   "aba": "videos",
-   "coleta": 2,
-   "url": "https://www.youtube.com/watch?v=1KCLxigyGxk",
    "erro": "nao tentado nesta rodada: o YouTube recusou os anteriores"
   },
   {

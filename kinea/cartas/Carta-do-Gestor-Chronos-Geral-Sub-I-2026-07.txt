@@ -856,8 +856,9 @@ relacionamento@kinea.com.br.
 RESULTADO DA GESTÃO*
 Rentabilidade 
 do fundo desde 
-seu início. 192,79%
-131,75%
+seu início.
+221,71%
+184,60%
 -50%
 0%
 50%
@@ -865,14 +866,14 @@ seu início. 192,79%
 150%
 200%
 250%
-dez/16 dez/17 dez/18 dez/19 dez/20 dez/21 dez/22 dez/23 dez/24 dez/25
-Atlas II - Itaú CDI
+jun/15 jun/16 jun/17 jun/18 jun/19 jun/20 jun/21 jun/22 jun/23 jun/24 jun/25 jun/26
+Chronos CDI
 RETORNO POR ESTRATÉGIAS
  12 MESES
 ANO 2022 2023 2024 2025 2026 jul/26 Início
-FUNDO 15,48% 13,23% 10,34% 15,80% 5,10% -0,15% 192,79%
-CDI 12,37% 13,05% 10,87% 14,31% 8,14% 1,22% 131,75%
-% CDI 125,11% 101,40% 95,12% 110,39% 62,64% --- 146,33%
+FUNDO 13,67% 12,40% 9,80% 14,03% 5,53% 0,26% 221,71%
+CDI 12,37% 13,05% 10,87% 14,31% 8,14% 1,22% 184,60%
+% CDI 110,51% 95,05% 90,12% 98,01% 67,94% 21,19% 120,10%
 HISTÓRICO DE RENTABILIDADE*
 K I N E A . C O M . B R
 INÍCIO DO FUNDO PL ATUAL PL MÉDIO (12 MESES): TAXA DE ADM¹ TAXA DE PERF.²
@@ -880,25 +881,18 @@ PÚBLICO ALVO OBJETIVO COTA RESGATE PAGAMENTO RESGATE TAXA DE SAÍDA
 Não possui
 APLICAÇÃO INICIAL
 Sujeito às regras do distribuidor.
-94
+112
 22
 MESES POSITIVOS:              
-MESES NEGATIVOS:   29/Dez/2016 R$ 313.158.467 2,0% a.a. 20% do que exceder 100% do CDI
+MESES NEGATIVOS:   08/Jun/2015 R$ 347.617.682 1,5% a.a. 20% do que exceder 100% do CDI
 Público em geral Superar o CDI com vol. de 
-5% a 7% a.a..
-D+10 dias úteis da 
-solicitação
-D+1 dia útil da conversão de 
-cotas
-R$ 308.988.319
+3% a 5% a.a..
+D+0 D+1 dia útil da conversão de cotas
+R$ 254.245.033
 1. Trata-se da taxa de administração considerando as taxas dos fundos da estrutura.
 2. Trata-se da taxa de performance considerando todos os fundos da estrutura.
-* As informações AQUI dispostas, incluindo rentabilidade, data de início, etc, dizem respeito ao fundo SUBCLASSE III DO KINEA ATLAS II FUNDO DE 
-INVESTIMENTO FINANCEIRO MULTIMERCADO RESP LIMITADA CNPJ: 29.762.315/0001 -58 Cód. Subclasse: LRTPA1746555728, que NÃO está dispon ível ao 
-cliente final. Para consultar as informações referente ao seu fundo, acesse o site do distribuidor.
-** O fundo Kinea Atlas foi cindido em Kinea Atlas e Kinea Atlas II no dia 09/04/2018.
-Atlas II - Itaú (Sub III)
+Chronos - Geral (Sub I)
 Julho 2026
-29.762.315/0001-58CNPJ:
-Cód. Subclasse: LRTPA1746555728
+21.624.757/0001-26CNPJ:
+Cód. Subclasse: TV0KI1744744066
 MULTIMERCADO

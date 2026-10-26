@@ -1,14 +1,14 @@
 {
- "gerado_em": "2026-10-19T19:16:37Z",
+ "gerado_em": "2026-10-26T19:14:31Z",
  "partes": {
   "cartas": {
-   "em": "2026-10-19T19:21:31Z",
+   "em": "2026-10-26T19:19:21Z",
    "resultado": {
-    "cartas": 49,
+    "cartas": 48,
     "metodos": {
-     "wp-json": 899,
+     "wp-json": 999,
      "categoria": 0,
-     "padrao": 63,
+     "padrao": 54,
      "informadas": 0
     },
     "meses": [
@@ -25,7 +25,7 @@
    }
   },
   "documentos": {
-   "em": "2026-10-19T19:21:54Z",
+   "em": "2026-10-26T19:19:41Z",
    "resultado": {
     "pdfs": 17,
     "posts": 0,
@@ -33,7 +33,7 @@
    }
   },
   "videos": {
-   "em": "2026-10-19T19:22:56Z",
+   "em": "2026-10-26T19:20:47Z",
    "resultado": {
     "videos": 38,
     "com_legenda": 0,
@@ -64,7 +64,7 @@
   }
  },
  "falhas": [
-  "videos: nenhuma legenda baixada; ultimo erro: painel: painel: get_transcript HTTP 400, 0 trechos | yt-dlp: nenhuma legenda listada | audio: padrao: DownloadError: ERROR: [youtube] 1d1-ccTJ4dw: Faça login para confirmar que você não é um bot"
+  "videos: nenhuma legenda baixada; ultimo erro: painel: painel: get_transcript HTTP 400, 0 trechos | yt-dlp: nenhuma legenda listada | audio: padrao: DownloadError: ERROR: [youtube] 1d1-ccTJ4dw: Faça login para confirmar que você não é um bot. Isso"
  ],
  "rodou": [
   "cartas",

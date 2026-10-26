@@ -794,19 +794,6 @@ nos EUA. O mercado de trabalho americano tem
 melhorado e, junto com uma inflação resiliente,
 aumentado a chance de o FED ter que reverter os
 cortes feitos no ano passado.
-COMMODITIES
-Resultado positivo. Mantivemos posições
-compradas em petróleo e em grãos, beneficiadas
-tanto pelo cenário geopolítico quanto pela piora
-das condições climáticas na Europa e nos Estados
-Unidos ao longo de julho. As dificuldades de
-exportação de grãos na região da Rússia e da
-Ucrânia também contribuíram para esse cenário.
-Essas posições foram reduzidas no final do
-mês.Atualmente, mantemos posições compradas
-em ouro, metais industriais, como cobre e
-alumínio, e também em boi gordo, após a forte
-correção recente do ativo.
 MOEDAS E CUPOM CAMBIAL
 Resultado positivo. Estamos comprados em won
 coreano, dólar, real, yuan chinês e iene. Vendidos
@@ -818,34 +805,6 @@ por inteligência artificial, e os juros estão subindo.
 Temos uma posição líquida comprada em dólar
 (principalmente contra o dólar australiano) como
 proteção para o Fundo.
-CRÉDITO PRIVADO
-Resultado positivo. Em crédito privado local, o
-Índice de Debêntures da Anbima (IDA-DI)
-terminou o mês com fechamento de 2 bps.
-Observamos que seus subíndices HG e MY já
-retornaram aos patamares pré-crise e, portanto, a
-velocidade de fechamento de spreads já diminuiu
-bastante. Entretanto, em HY os spreads ainda
-estão deslocados, voltando apenas 42% desde o
-pico de spreads em abril deste ano, e vemos
-vários nomes com volatilidade de spreads
-oferecendo oportunidades de compra. Olhando
-para frente, apesar dos spreads médios mais
-baixos, seguimos construtivos com a classe de
-ativos por alguns motivos: (i) mesmo com os juros
-altos, as empresas mantêm saúde financeira, (ii)
-não vemos outros emissores grandes da indústria
-que estejam na iminência de novas
-reestruturações de dívidas nos próximos
-trimestres (ou que já não estejam precificados
-para tal) e (iii) vemos oportunidades em nomes
-HY em que os investidores ainda estão cautelosos,
-mas os fundamentos são resilientes. Em crédito
-offshore, o mês foi de estabilidade de spreads na
-média dos emissores da América Latina, e nossa
-carteira performou bem devido à seleção de
-papéis que performaram acima da média do
-mercado, especialmente no Brasil.
 AÇÕES
 Resultado negativo. No exterior, o principal
 detrator foi a exposição à tecnologia com a
@@ -860,6 +819,19 @@ economia doméstica, como Minha Casa Minha
 Vida e utilidades públicas. Mantivemos o
 posicionamento em virtude de crescimento,
 baixos múltiplos e dividendos elevados.
+COMMODITIES
+Resultado positivo. Mantivemos posições
+compradas em petróleo e em grãos, beneficiadas
+tanto pelo cenário geopolítico quanto pela piora
+das condições climáticas na Europa e nos Estados
+Unidos ao longo de julho. As dificuldades de
+exportação de grãos na região da Rússia e da
+Ucrânia também contribuíram para esse cenário.
+Essas posições foram reduzidas no final do
+mês.Atualmente, mantemos posições compradas
+em ouro, metais industriais, como cobre e
+alumínio, e também em boi gordo, após a forte
+correção recente do ativo.
 K I N E A . C O M . B R
 Este material de divulgaçãofoi elaborado pela Kinea (Kinea InvestimentosLtda e Kinea Private Equity Investimentos S.A.), empresa do Grupo Itaú Unibanco. A Kinea não comercializa e nem distribui cotas de fundos de investimentos. Os fundos são supervisionadose fiscalizados pela Comissão de Valores
 Mobiliários – CVM (Serviço de atendimento ao Cidadão em www.cvm.gov.br). Os fundos de condomínio aberto e não destinados a investidores qualificados possuem lâminas de informações essenciais. Não há garantia de tratamento tributário de longo prazo para os fundos que informam buscar este
@@ -884,28 +856,23 @@ relacionamento@kinea.com.br.
 RESULTADO DA GESTÃO*
 Rentabilidade 
 do fundo desde 
-seu início. 86,59%
-87,51%
--10%
+seu início. 190,29%
+131,75%
+-50%
 0%
-10%
-20%
-30%
-40%
 50%
-60%
-70%
-80%
-90%
 100%
-nov/19 jul/20 mar/21 nov/21 jul/22 mar/23 nov/23 jul/24 mar/25 nov/25 jul/26
-Apolo - Itaú CDI
+150%
+200%
+250%
+dez/16 dez/17 dez/18 dez/19 dez/20 dez/21 dez/22 dez/23 dez/24 dez/25
+Atlas II - Geral CDI
 RETORNO POR ESTRATÉGIAS
  12 MESES
 ANO 2022 2023 2024 2025 2026 jul/26 Início
-FUNDO 12,87% 13,05% 10,71% 14,62% 7,51% 0,95% 86,59%
-CDI 12,37% 13,05% 10,87% 14,31% 8,14% 1,22% 87,51%
-% CDI 104,01% 100,02% 98,45% 102,14% 92,19% 78,17% 98,95%
+FUNDO 15,48% 13,23% 10,34% 15,26% 4,69% -0,21% 190,29%
+CDI 12,37% 13,05% 10,87% 14,31% 8,14% 1,22% 131,75%
+% CDI 125,11% 101,40% 95,12% 106,64% 57,58% --- 144,43%
 HISTÓRICO DE RENTABILIDADE*
 K I N E A . C O M . B R
 INÍCIO DO FUNDO PL ATUAL PL MÉDIO (12 MESES): TAXA DE ADM¹ TAXA DE PERF.²
@@ -913,21 +880,22 @@ PÚBLICO ALVO OBJETIVO COTA RESGATE PAGAMENTO RESGATE TAXA DE SAÍDA
 Não possui
 APLICAÇÃO INICIAL
 Sujeito às regras do distribuidor.
-76
-5
+94
+22
 MESES POSITIVOS:              
-MESES NEGATIVOS:   29/Nov/2019 R$ 2.447.071.431 0,8% a.a. 25% do que exceder 100% do CDI
+MESES NEGATIVOS:   29/Dez/2016 R$ 579.242.761 2,0% a.a. 20% do que exceder 100% do CDI
 Público em geral Superar o CDI com vol. de 
-1% a 2% a.a..
-D+0 D+1 dia útil da conversão de cotas
-R$ 2.621.643.909
+5% a 7% a.a..
+D+10 dias úteis da 
+solicitação
+D+1 dia útil da conversão de 
+cotas
+R$ 581.218.274
 1. Trata-se da taxa de administração considerando as taxas dos fundos da estrutura.
 2. Trata-se da taxa de performance considerando todos os fundos da estrutura.
-* As informações AQUI dispostas, incluindo rentabilidade, data de início, etc, dizem respeito ao fundo SUBCLASSE II DO KINEA APOLO FUNDO DE 
-INVESTIMENTO FINANCEIRO MULT RESP LIMITADA CNPJ: 34.687.633/0001 -31 Cód. Subclasse: HWEDP1746020253, que NÃO está disponível ao cliente 
-final. Para consultar as informações referente ao seu fundo, acesse o site do distribuidor.
-Apolo - Itaú (Sub II)
+* O fundo Kinea Atlas foi cindido em Kinea Atlas e Kinea Atlas II no dia 09/04/2018.
+Atlas II - Geral (Sub I)
 Julho 2026
-34.687.633/0001-31CNPJ:
-Cód. Subclasse: HWEDP1746020253
+29.762.315/0001-58CNPJ:
+Cód. Subclasse: 30SMU1746554429
 MULTIMERCADO

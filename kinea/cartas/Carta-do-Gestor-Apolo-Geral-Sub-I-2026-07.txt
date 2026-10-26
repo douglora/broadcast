@@ -794,6 +794,19 @@ nos EUA. O mercado de trabalho americano tem
 melhorado e, junto com uma inflação resiliente,
 aumentado a chance de o FED ter que reverter os
 cortes feitos no ano passado.
+COMMODITIES
+Resultado positivo. Mantivemos posições
+compradas em petróleo e em grãos, beneficiadas
+tanto pelo cenário geopolítico quanto pela piora
+das condições climáticas na Europa e nos Estados
+Unidos ao longo de julho. As dificuldades de
+exportação de grãos na região da Rússia e da
+Ucrânia também contribuíram para esse cenário.
+Essas posições foram reduzidas no final do
+mês.Atualmente, mantemos posições compradas
+em ouro, metais industriais, como cobre e
+alumínio, e também em boi gordo, após a forte
+correção recente do ativo.
 MOEDAS E CUPOM CAMBIAL
 Resultado positivo. Estamos comprados em won
 coreano, dólar, real, yuan chinês e iene. Vendidos
@@ -805,6 +818,34 @@ por inteligência artificial, e os juros estão subindo.
 Temos uma posição líquida comprada em dólar
 (principalmente contra o dólar australiano) como
 proteção para o Fundo.
+CRÉDITO PRIVADO
+Resultado positivo. Em crédito privado local, o
+Índice de Debêntures da Anbima (IDA-DI)
+terminou o mês com fechamento de 2 bps.
+Observamos que seus subíndices HG e MY já
+retornaram aos patamares pré-crise e, portanto, a
+velocidade de fechamento de spreads já diminuiu
+bastante. Entretanto, em HY os spreads ainda
+estão deslocados, voltando apenas 42% desde o
+pico de spreads em abril deste ano, e vemos
+vários nomes com volatilidade de spreads
+oferecendo oportunidades de compra. Olhando
+para frente, apesar dos spreads médios mais
+baixos, seguimos construtivos com a classe de
+ativos por alguns motivos: (i) mesmo com os juros
+altos, as empresas mantêm saúde financeira, (ii)
+não vemos outros emissores grandes da indústria
+que estejam na iminência de novas
+reestruturações de dívidas nos próximos
+trimestres (ou que já não estejam precificados
+para tal) e (iii) vemos oportunidades em nomes
+HY em que os investidores ainda estão cautelosos,
+mas os fundamentos são resilientes. Em crédito
+offshore, o mês foi de estabilidade de spreads na
+média dos emissores da América Latina, e nossa
+carteira performou bem devido à seleção de
+papéis que performaram acima da média do
+mercado, especialmente no Brasil.
 AÇÕES
 Resultado negativo. No exterior, o principal
 detrator foi a exposição à tecnologia com a
@@ -819,19 +860,6 @@ economia doméstica, como Minha Casa Minha
 Vida e utilidades públicas. Mantivemos o
 posicionamento em virtude de crescimento,
 baixos múltiplos e dividendos elevados.
-COMMODITIES
-Resultado positivo. Mantivemos posições
-compradas em petróleo e em grãos, beneficiadas
-tanto pelo cenário geopolítico quanto pela piora
-das condições climáticas na Europa e nos Estados
-Unidos ao longo de julho. As dificuldades de
-exportação de grãos na região da Rússia e da
-Ucrânia também contribuíram para esse cenário.
-Essas posições foram reduzidas no final do
-mês.Atualmente, mantemos posições compradas
-em ouro, metais industriais, como cobre e
-alumínio, e também em boi gordo, após a forte
-correção recente do ativo.
 K I N E A . C O M . B R
 Este material de divulgaçãofoi elaborado pela Kinea (Kinea InvestimentosLtda e Kinea Private Equity Investimentos S.A.), empresa do Grupo Itaú Unibanco. A Kinea não comercializa e nem distribui cotas de fundos de investimentos. Os fundos são supervisionadose fiscalizados pela Comissão de Valores
 Mobiliários – CVM (Serviço de atendimento ao Cidadão em www.cvm.gov.br). Os fundos de condomínio aberto e não destinados a investidores qualificados possuem lâminas de informações essenciais. Não há garantia de tratamento tributário de longo prazo para os fundos que informam buscar este
@@ -856,26 +884,28 @@ relacionamento@kinea.com.br.
 RESULTADO DA GESTÃO*
 Rentabilidade 
 do fundo desde 
-seu início. 34,01%
-35,87%
--5%
+seu início. 85,94%
+87,51%
+-10%
 0%
-5%
 10%
-15%
 20%
-25%
 30%
-35%
 40%
-jan/24 abr/24 jul/24 out/24 jan/25 abr/25 jul/25 out/25 jan/26 abr/26 jul/26
-Sigma CDI
+50%
+60%
+70%
+80%
+90%
+100%
+nov/19 jul/20 mar/21 nov/21 jul/22 mar/23 nov/23 jul/24 mar/25 nov/25 jul/26
+Apolo - Geral CDI
 RETORNO POR ESTRATÉGIAS
  12 MESES
-ANO 2024 2025 2026 jul/26 Início
-FUNDO 10,29% 15,12% 5,55% 0,13% 34,01%
-CDI 9,91% 14,31% 8,14% 1,22% 35,87%
-% CDI 103,87% 105,66% 68,09% 10,75% 94,82%
+ANO 2022 2023 2024 2025 2026 jul/26 Início
+FUNDO 12,87% 13,05% 10,71% 14,43% 7,31% 0,92% 85,94%
+CDI 12,37% 13,05% 10,87% 14,31% 8,14% 1,22% 87,51%
+% CDI 104,01% 100,02% 98,45% 100,80% 89,81% 75,97% 98,20%
 HISTÓRICO DE RENTABILIDADE*
 K I N E A . C O M . B R
 INÍCIO DO FUNDO PL ATUAL PL MÉDIO (12 MESES): TAXA DE ADM¹ TAXA DE PERF.²
@@ -883,20 +913,18 @@ PÚBLICO ALVO OBJETIVO COTA RESGATE PAGAMENTO RESGATE TAXA DE SAÍDA
 Não possui
 APLICAÇÃO INICIAL
 Sujeito às regras do distribuidor.
-27
-4
+76
+5
 MESES POSITIVOS:              
-MESES NEGATIVOS:   29/Jan/2024 R$ 78.554.945 2,0% a.a. 20% do que exceder 100% do CDI
+MESES NEGATIVOS:   29/Nov/2019 R$ 39.230.465 0,8% a.a. 25% do que exceder 100% do CDI
 Público em geral Superar o CDI com vol. de 
-4% a 6% a.a..
-D+5 dias úteis da solicitação D+1 dia útil da conversão de cotas
-R$ 86.429.778
+1% a 2% a.a..
+D+0 D+1 dia útil da conversão de cotas
+R$ 52.205.530
 1. Trata-se da taxa de administração considerando as taxas dos fundos da estrutura.
 2. Trata-se da taxa de performance considerando todos os fundos da estrutura.
-* As informações AQUI dispostas, incluindo rentabilidade, data de início, etc, dizem respeito ao fundo KINEA SIGMA FIF MULTI - RESPONSABILIDADE 
-LIMITADA CNPJ: 53.372.030/0001-95, que NÃO está disponível ao cliente final. Para consultar as informações referente ao seu fund o, acesse o site do 
-distribuidor.
-Sigma
+Apolo - Geral (Sub I)
 Julho 2026
-53.372.030/0001-95CNPJ:
+34.687.633/0001-31CNPJ:
+Cód. Subclasse: XELXE1746019072
 MULTIMERCADO

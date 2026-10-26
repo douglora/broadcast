@@ -856,29 +856,23 @@ relacionamento@kinea.com.br.
 RESULTADO DA GESTÃO*
 Rentabilidade 
 do fundo desde 
-seu início.
-87,09%
-79,97%
--10%
+seu início. 190,80%
+131,75%
+-50%
 0%
-10%
-20%
-30%
-40%
 50%
-60%
-70%
-80%
-90%
 100%
-jun/21 dez/21 jun/22 dez/22 jun/23 dez/23 jun/24 dez/24 jun/25 dez/25 jun/26
-Prev Sigma CDI
+150%
+200%
+250%
+dez/16 dez/17 dez/18 dez/19 dez/20 dez/21 dez/22 dez/23 dez/24 dez/25
+Atlas - Geral CDI
 RETORNO POR ESTRATÉGIAS
  12 MESES
 ANO 2022 2023 2024 2025 2026 jul/26 Início
-FUNDO 15,56% 14,15% 11,51% 15,95% 5,92% 0,37% 87,09%
-CDI 12,37% 13,05% 10,87% 14,31% 8,14% 1,22% 79,97%
-% CDI 125,80% 108,44% 105,87% 111,46% 72,66% 30,56% 108,90%
+FUNDO 15,45% 13,32% 10,32% 15,35% 4,69% -0,21% 190,80%
+CDI 12,37% 13,05% 10,87% 14,31% 8,14% 1,22% 131,75%
+% CDI 124,88% 102,10% 94,90% 107,24% 57,56% --- 144,82%
 HISTÓRICO DE RENTABILIDADE*
 K I N E A . C O M . B R
 INÍCIO DO FUNDO PL ATUAL PL MÉDIO (12 MESES): TAXA DE ADM¹ TAXA DE PERF.²
@@ -886,20 +880,22 @@ PÚBLICO ALVO OBJETIVO COTA RESGATE PAGAMENTO RESGATE TAXA DE SAÍDA
 Não possui
 APLICAÇÃO INICIAL
 Sujeito às regras do distribuidor.
-54
-8
+94
+22
 MESES POSITIVOS:              
-MESES NEGATIVOS:   04/Jun/2021 R$ 3.294.840.055 2,0% a.a. 17% do que exceder 100% do CDI
-Público em geral Superar o CDI com vol. de 
-4% a 6% a.a..
-D+0 D+2 dias úteis da conversão de cotas
-R$ 3.328.230.956
+MESES NEGATIVOS:   29/Dez/2016 R$ 358.573.771 2,0% a.a. 20% do que exceder 100% do CDI
+Investidor Qualificado Superar o CDI com vol. de 
+5% a 7% a.a..
+D+10 dias úteis da 
+solicitação
+D+1 dia útil da conversão de 
+cotas
+R$ 330.409.597
 1. Trata-se da taxa de administração considerando as taxas dos fundos da estrutura.
 2. Trata-se da taxa de performance considerando todos os fundos da estrutura.
-* As informações AQUI dispostas, incluindo rentabilidade, data de início, etc, dizem respeito ao fundo BRASILPREV KINEA SIGMA PREV FUNDO DE 
-INVESTIMENTO MULTIMERCADO CNPJ: 41.504.602/0001-63, que NÃO está disponível ao cliente final. Para consultar as informações refe rente ao seu 
-fundo, acesse o site do distribuidor.
-Prev Sigma
+* O fundo Kinea Atlas foi cindido em Kinea Atlas e Kinea Atlas II no dia 09/04/2018.
+Atlas - Geral (Sub I)
 Julho 2026
-41.504.602/0001-63CNPJ:
+26.218.403/0001-03CNPJ:
+Cód. Subclasse: GUYTY1747060710
 MULTIMERCADO
