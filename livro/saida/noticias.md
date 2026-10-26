@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 26/10 14h22
+NOTÍCIAS E FATOS · 26/10 14h25
 
-Pernas: noticias ok 15 novas (18 consultas; descartadas: 401 veículo fora da lista, 45 sem ativo, 9 teto) · cvm ok 0 novos de 3 (3 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 3 novas (18 consultas; descartadas: 396 veículo fora da lista, 51 sem ativo, 0 teto) · cvm ok 0 novos de 3 (3 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (2)
 
@@ -187,8 +187,11 @@ Fonte: Yahoo Finance 25/10 18h30
 id: E05-BTC-c33ca2324e-2026-10-25 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (87)
+## OUTRAS NOTÍCIAS (só manchete) (90)
 
+· NVDA AI Critic Claims “200 Billion Dollars Worth” of Nvidia Chips Sit in Warehouses (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/ai-critic-claims-200-billion-141420303.html
+· UGPA3 PRE Escolar Maricas Lopes, 64ª zona eleitoral: resultado da votação em Ipiranga do Piauí (PI) no 2º turno (g1) https://g1.globo.com/google/amp/pi/piaui/eleicoes/2026/noticia/2026/10/26/pre-escolar-maricas-lopes-64a-zona-eleitoral-resultado-da-votacao-em-ipiranga-do-piaui-pi-no-2o-turno.ghtml
+· VALE3 EEIEF Joaquim Ferreira do Vale - Alazans, 40ª zona eleitoral: resultado da votação em Ipueiras (CE) no 2º turno (g1) https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/10/26/eeief-joaquim-ferreira-do-vale-alazans-40a-zona-eleitoral-resultado-da-votacao-em-ipueiras-ce-no-2o-turno.ghtml
 · GOOGL Alphabet: The AI Business Is Booming, But I'd Sell Before Earnings (NASDAQ:GOOG) (Seeking Alpha) https://seekingalpha.com/article/4957547-alphabet-the-ai-business-is-booming-but-id-sell-before-earnings
 · ETH Ethereum Analysis: Could ETH Fall to $2,180 and Liquidate a $214 Million Whale? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/ethereum-analysis-could-eth-fall-165814335.html
 · DI Ativos brasileiros desabam após eleição e mercado precifica alta da Selic em novembro Por Reuters (Investing.com) https://br.investing.com/news/forex-news/ativos-brasileiros-desabam-apos-eleicao-e-mercado-precifica-alta-da-selic-em-novembro-2103044
@@ -246,7 +249,4 @@ id: E05-BTC-c33ca2324e-2026-10-25 · status: linha
 · BTC Chamath’s $0 Bitcoin Call Meets Musk’s AI ‘Death’ Warning — Where Could BTC Price Be by 2031? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/chamath-0-bitcoin-call-meets-140215999.html
 · NVDA Price Prediction: The Gap With Nvidia Could Shape AMD’s Next Big Move (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/price-prediction-gap-nvidia-could-140043585.html
 · TESOURO Reeleição de Lula: Tesouro Direto paralisa negociações após forte volatilidade nas taxas; acompanhe (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/virada-de-lula-faz-mercado-parar-e-juros-subirem-tesouro-direto-atrasa-abertura-em-uma-hora/
-· AXIA3 Axia Energia amplia centro de operação em Tucuruí (CanalEnergia) https://www.canalenergia.com.br/noticias/53358789/axia-energia-amplia-centro-de-operacao-em-tucurui
-· PETR4 Reeleição de Lula vai fazer Petrobras ‘arrumar a casa’ com reajuste gradual de preço, diz Abicom (Estadao) https://www.estadao.com.br/em-alta/economia/reeleicao-lula-petrobras-arrumar-casa-reajuste-gradual/
-· BTC Bitcoin’s Bear Market Is Over, Galaxy Research Says: 'Now Is an Attractive Time to Buy' (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-bear-market-over-galaxy-130102380.html
-· (+27 manchetes; lista completa em eventos/noticias.json)
+· (+30 manchetes; lista completa em eventos/noticias.json)
