@@ -1,38 +1,4 @@
-ALERTAS · intradia
-
-(pendente de slot anterior) [ATENÇÃO] E05 · AXIA3 · Axia negocia até R$ 680 milhões com IDB Invest para transmissão
-UOL Economia · 27/10 11h04 · fonte única · licença: manchete
-Link: https://megawhat.uol.com.br/economia-e-politica/empresas/axia-negocia-ate-r-680-milhoes-com-idb-invest-para-transmissao/
-Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
-Ativos: AXIA3
-Como falar: 'saiu no UOL Economia: Axia negocia até R$ 680 milhões com IDB Invest para transmissão; confirmar o número no texto antes de repassar'
-Fonte: UOL Economia 27/10 11h04
-ids: E05-AXIA3-d56332cd55-2026-10-27
-
-(pendente de slot anterior) [ATENÇÃO] E05 · KO · Earnings call transcript: Coca-Cola beats Q3 2026 forecasts as sales rise
-Investing.com · 27/10 10h47 · fonte única · licença: manchete
-Link: https://www.investing.com/news/transcripts/earnings-call-transcript-cocacola-beats-q3-2026-forecasts-as-sales-rise-93CH-4975880
-Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
-Ativos: KO
-Como falar: 'saiu no Investing.com: Earnings call transcript: Coca-Cola beats Q3 2026 forecasts as sales rise; confirmar o número no texto antes de repassar'
-Fonte: Investing.com 27/10 10h47
-ids: E05-KO-d0e1c47ffd-2026-10-27
-
-(pendente de slot anterior) [ATENÇÃO] E05 · BTC · Ark Invest Sells $15 Million Of Its Own Bitcoin ETF As Price Falls
-Yahoo Finance · 27/10 10h47 · fonte única · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – Asset manager Ark Invest has sold $15.9 million U.S.
-  – worth of its own Bitcoin (CRYPTO: $BTC) exchange-traded fund (ETF) as the price of the largest cryptocurrency declines.
-  – The firm led by investor Cathie Wood offloaded its ARK 21Shares Bitcoin ETF (NYSE: $ARKB) from its investment funds as the price of the crypto declines from its early October highs.
-  – To ensure diversification, Ark does not let any individual holding take up more than 10% of its fund portfolios.
-  – The fund currently has $2.5 billion U.S.
-  – Ark Invest's sale comes as the price of Bitcoin falls below the key support level of $80,000 U.S.
-Link: https://finance.yahoo.com/markets/crypto/articles/ark-invest-sells-15-million-134700893.html
-Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
-Ativos: BTC
-Como falar: 'saiu no Yahoo Finance: Ark Invest Sells $15 Million Of Its Own Bitcoin ETF As Price Falls; confirmar o número no texto antes de repassar'
-Fonte: Yahoo Finance 27/10 10h47
-ids: E05-BTC-343848630a-2026-10-27
+ALERTAS · eventos
 
 (pendente de slot anterior) [ATENÇÃO] E05 · KO · Midday Need to Know: Consumer confidence rebounds, Coca-Cola raises outlook & more (SPY:NYSEARCA)
 Seeking Alpha · 27/10 12h36 · fonte única · licença: manchete
@@ -68,7 +34,7 @@ Como falar: 'saiu no Barron's: Why Broadcom Is the Big Anthropic IPO Winner. The
 Fonte: Barron's 27/10 11h15
 ids: E05-AVGO-69e657f976-2026-10-27
 
-[ATENÇÃO] E05 · USDBRL · Resumão diário #2206: Xi Jinping, da China, parabeniza Lula por reeleição; Ibovespa opera em baixa após abrir em leve alta; dólar cai a R$ 5,30; Gase…
+(pendente de slot anterior) [ATENÇÃO] E05 · USDBRL · Resumão diário #2206: Xi Jinping, da China, parabeniza Lula por reeleição; Ibovespa opera em baixa após abrir em leve alta; dólar cai a R$ 5,30; Gase…
 g1 · 27/10 13h29 · fonte única · licença: resumo
 Trechos (licença resumo: reescrever, não colar):
   – Ibovespa opera em baixa após abrir em leve alta; dólar cai a R$ 5,30 A uma semana da disputa pelo controle do Congresso nos EUA, Trump oferece US$ 1 milhão por denúncias que levem a condenações por fraude eleitoral.
@@ -78,10 +44,9 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: USDBRL
 Como falar: 'saiu no g1: Resumão diário #2206: Xi Jinping, da China, parabeniza Lula por reeleição; Ibovespa opera…; confirmar o número no texto antes de repassar'
 Fonte: g1 27/10 13h29
-Push: intradia: 3 alertas de atenção — E05 USDBRL, E05 NVDA, E05 KO · detalhe na sessão
 ids: E05-USDBRL-4aa2704ebb-2026-10-27
 
-[ATENÇÃO] E05 · NVDA · Nvidia Stocks Rise With $3 Billion Meta Bet Behind Broader Hardware Push
+(pendente de slot anterior) [ATENÇÃO] E05 · NVDA · Nvidia Stocks Rise With $3 Billion Meta Bet Behind Broader Hardware Push
 TradingView (Reuters) · 27/10 12h18 · fonte única · licença: manchete
 Link: https://www.tradingview.com/news/gurufocus:9176fd56c094b:0-nvidia-stocks-rise-with-3-billion-meta-bet-behind-broader-hardware-push/
 Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
@@ -90,7 +55,7 @@ Como falar: 'saiu no TradingView (Reuters): Nvidia Stocks Rise With $3 Billion M
 Fonte: TradingView (Reuters) 27/10 12h18
 ids: E05-NVDA-7cc5d35846-2026-10-27
 
-[ATENÇÃO] E05 · KO · Coca-Cola Raises Outlook Again As North America Goes Flat
+(pendente de slot anterior) [ATENÇÃO] E05 · KO · Coca-Cola Raises Outlook Again As North America Goes Flat
 Yahoo Finance · 27/10 11h32 · fonte única · licença: resumo
 Trechos (licença resumo: reescrever, não colar):
   – Tell us how you invest and we'll show you why it's our #1 pick.
@@ -103,32 +68,93 @@ Como falar: 'saiu no Yahoo Finance: Coca-Cola Raises Outlook Again As North Amer
 Fonte: Yahoo Finance 27/10 11h32
 ids: E05-KO-e62736ef3f-2026-10-27
 
+[ATENÇÃO] E03 · SBSP3 · Fato Relevante: A Companhia de Saneamento Básico do Estado de São Paulo – SABESP (“SABESP”) e a EMAE – Empresa Metropolitana de Águas e Energia S.A. (“EMAE” e, em co…
+CVM · entregue 27/10/2026 19:44
+Do documento:
+  – O produto da  alienação, líquido de taxas e despesas, será disponibilizado aos antigos acionistas da EMAE  titulares das respectivas frações, na proporção de sua participação em cada ação alienada.
+  – As Companhias manterão seus acionistas e o mercado informados sobre as atualizações  relevantes relativas aos assuntos tratados neste Fato Relevante.
+  – The proceeds from such sale, net of applicable fees and expenses, will be made  available to the former EMAE shareholders entitled to the corresponding fractions, pro rata to  their interest in each share sold.
+  – The Companies will keep their shareholders and the market informed of any relevant updates  regarding the matters addressed in this Material Fact.
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1580869
+Por que importa: fato relevante e o que a propria companhia julga capaz de mover o preco; ler o documento inteiro antes de comentar
+Ativos: SBSP3
+Como falar: 'a Sabesp publicou fato relevante sobre A Companhia de Saneamento Básico do Estado de São Paulo – SABESP (“SA…'
+Fonte: CVM 27/10
+Push: eventos: 4 alertas de atenção — E03 SBSP3, E05 KO, E05 KO, E05 KO · detalhe na sessão
+ids: E03-SBSP3-1580869-2026-10-27
+
+[ATENÇÃO] E05 · KO · Pepsi vs. Coca-Cola: Which Dividend King stock will outperform in 2027?
+Yahoo Finance · 27/10 14h47 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – PepsiCo has trailed Coca-Cola over the last 12 months.
+  – Since October 2025, shares of Coca-Cola (KO) have surged 36% after adjusting for dividends.
+  – Comparatively, Pepsi (PEP) stock is down 10%.
+  – They also hint at whether 2027 could flip the script.
+  – 8 third-quarter call, PepsiCo reported organic revenue growth of 3.1%.
+  – CEO Ramon Laguarta said that was the fastest pace since the fourth quarter of 2023.
+Link: https://sg.finance.yahoo.com/news/pepsi-vs-coca-cola-dividend-174700976.html
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: KO
+Como falar: 'saiu no Yahoo Finance: Pepsi vs. Coca-Cola: Which Dividend King stock will outperform in 2027?; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 27/10 14h47
+ids: E05-KO-09bd200c4d-2026-10-27
+
+[ATENÇÃO] E05 · KO · Coca-Cola raises earnings outlook as North America business slows
+Yahoo Finance · 27/10 08h50 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – The company posted adjusted earnings of $0.91 per share, above the $0.88 expected by Wall Street analysts, alongside revenue of $13.4 billion, also higher than estimates of $12.9 billion.
+  – Overall unit case volume grew by 5%, more than the roughly 3% expected.
+  – The increase was once again led by Coke Zero, which grew roughly 16% year over year.
+  – Diet Coke and Coca-Cola Light grew by 6%.
+  – "In a nutshell, if you take it out, those two elements, we would be growing, and we see that was a solid result," he told Yahoo Finance, adding that Coke Zero grew by double digits.
+  – Coca-Cola now expects earnings growth of 11%, compared to a prior range of 9% to 10%.
+Link: https://sg.finance.yahoo.com/news/coca-cola-raises-earnings-outlook-as-north-america-business-slows-115001447.html
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: KO
+Como falar: 'saiu no Yahoo Finance: Coca-Cola raises earnings outlook as North America business slows; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 27/10 08h50
+ids: E05-KO-5d6e343c0d-2026-10-27
+
+[ATENÇÃO] E05 · KO · Coca-Cola Fiscal Q3 Comparable Earnings, Revenue Rise; 2026 Growth Outlook Raised
+Yahoo Finance · 27/10 08h14 · + TradingView (Reuters) · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Coca-Cola (KO) reported fiscal Q3 comparable earnings Tuesday of $0.91 per diluted share, up from $0  Upgrade to read this MT Newswires article and get so much more.
+Link: https://finance.yahoo.com/markets/stocks/articles/coca-cola-fiscal-q3-comparable-111420303.html
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: KO
+Como falar: 'saiu no Yahoo Finance: Coca-Cola Fiscal Q3 Comparable Earnings, Revenue Rise; 2026 Growth Outlook Raised; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 27/10 08h14
+ids: E05-KO-f935c18919-2026-10-27
+
 Info (só linha no Fechamento):
-· E05 PETR4 · Petrobras, Prio ou Brava? BTG revisa ações de petróleo após queda da Bolsa e aponta oportunidades
-· E05 GOOGL · Alphabet Stocks Rise Before Cloud Profit Meets the Capital-Spending Test
-· E05 BTC · Bitcoin Outperforms Grayscale’s AI Compute ETF As AI Cloud Stocks Slide
-· E05 INTC · Intel faces test of recovery as Wedbush looks beyond Q3 results
-· E05 KO · Coca-Cola earnings analysis: questions answered and next catalysts
-· E05 ITUB4 · Sete ações para ficar de olho após queda da Bolsa, segundo o Itaú BBA
-· E05 NVDA · Musk's Neocloud Warning Makes SOXX A Better Buy Than Nvidia, And SMH (NASDAQ:SOXX)
-· E05 SBSP3 · Leonardo Sakamoto: Sabesp é autuada por demissões em massa após a privatização
-· E05 USDBRL · Suzano (SUZB3) sobe com dólar alto, mas o que esperar das ações daqui para frente?
-· E05 NVDA · 45,000 Nvidia Blackwell GPUs Cleared for Kazakhstan Data Center
-· E05 GOOGL · Options Action: Alphabet and Microsoft Ahead of Earnings
-· E05 GOOGL · Amazon and Alphabet Are Each Spending At Least $200 Billion on Data Centers This Year. Here's Which Stock Outperforms Through 2028.
-· E05 MRVL · Can Marvell Stock Jump 30%?
-· E05 BTC · QUICK SPARK: VanEck’s New ETF Blends Bitcoin, Gold and Global Stocks in One Fund
-· E05 BTC · 2 Fed Debates Could Move Bitcoin and Gold Now That a Hold Is Priced In
+· E03 KLBN4 · Comunicado ao Mercado: Mudança de Auditor
+· E05 BTC · Is Bitcoin’s Bear Market Over? Galaxy Thinks It Might Be
+· E05 NOK · Nokia: Stronger Optical And IP Outlook Makes The Pullback Attractive (NYSE:NOK)
+· E05 BTC · Hyperliquid’s Biggest Traders Are Shorting Bitcoin for the First Time Since March. Could BTC Drop Below $75,000?
+· E05 BBAS3 · Banco do Brasil cai quase 30% após eleição. O que fazer com as ações BBAS3 agora?
+· E05 BTC · VanEck launches diversified ETF combining stocks, bonds and Bitcoin exposure
+· E05 AMZN · Amazon (AMZN) Q3 Earnings Preview: AWS Growth Takes Center Stage
+· E05 PETR4 · Petrobras terá papel central na transição energética e seguirá explorando petróleo, diz Gabrielli
+· E05 KO · The Coca-Cola Company Q3 2026 Earnings Call Summary
+· E05 GOOGL · Google earnings checklist: Why YouTube, Search, & Cloud are key
+· E05 USDBRL · Ibovespa fecha em baixa e acumula queda de 14,3% em dois dias; dólar cai 1%
+· E05 USDBRL · Ibovespa recua com pressão de ‘pesos-pesados’ após choque eleitoral; dólar cai
+· E05 GOOGL · Alphabet reports Q3 earnings on Wednesday: Here's what to watch for
+· E05 USDBRL · Dólar cai após disparada, com mercado atento à política fiscal e à decisão do Fed
 
 
 Alertas do dia (todos, com status):
 · entregue  F01 USDBRL — Real sobe: USD/BRL 5,3392 (+6,4% em 5 sessões · 13 dias seguidos de movimento do
+· pendente  E03 SBSP3 — SBSP3 · Fato Relevante: A Companhia de Saneamento Básico do Estado de São Paulo 
+· pendente  E05 KO — KO · Pepsi vs. Coca-Cola: Which Dividend King stock will outperform in 2027?
+· pendente  E05 KO — KO · Coca-Cola raises earnings outlook as North America business slows
+· pendente  E05 KO — KO · Coca-Cola Fiscal Q3 Comparable Earnings, Revenue Rise; 2026 Growth Outlook 
 · pendente  E05 USDBRL — USDBRL · Resumão diário #2206: Xi Jinping, da China, parabeniza Lula por reeleiç
 · pendente  E05 NVDA — NVDA · Nvidia Stocks Rise With $3 Billion Meta Bet Behind Broader Hardware Push
 · pendente  E05 KO — KO · Coca-Cola Raises Outlook Again As North America Goes Flat
-· pendente  E05 KO — KO · Midday Need to Know: Consumer confidence rebounds, Coca-Cola raises outlook
-· pendente  E05 KO — KO · Coca-Cola Raises 2026 Earnings Outlook After Q3 Revenue and Profit Exceed E
-· pendente  E05 AVGO — AVGO · Why Broadcom Is the Big Anthropic IPO Winner. The Stock Jumps on Buy Upgr
+· expirado  E05 KO — KO · Midday Need to Know: Consumer confidence rebounds, Coca-Cola raises outlook
+· expirado  E05 KO — KO · Coca-Cola Raises 2026 Earnings Outlook After Q3 Revenue and Profit Exceed E
+· expirado  E05 AVGO — AVGO · Why Broadcom Is the Big Anthropic IPO Winner. The Stock Jumps on Buy Upgr
 · expirado  E05 AXIA3 — AXIA3 · Axia negocia até R$ 680 milhões com IDB Invest para transmissão
 · expirado  E05 KO — KO · Earnings call transcript: Coca-Cola beats Q3 2026 forecasts as sales rise
 · expirado  E05 BTC — BTC · Ark Invest Sells $15 Million Of Its Own Bitcoin ETF As Price Falls
@@ -144,4 +170,4 @@ Alertas do dia (todos, com status):
 · entregue  E05 BTC — BTC · Jason Calacanis tells investors to sell Bitcoin, predicts a slide to $57,0
 · entregue  E05 KO — KO · BRIEF-Coca-Cola Outlook FY Organic Revenue Growth 5%
 · linha     F05 BHKP — Celulose (proxy SHFE, fibra longa) -3,0% na semana: 4.532 CNY/t (27/10)
-· (+98 notícias só manchete, em noticias.md)
+· (+112 notícias só manchete, em noticias.md)

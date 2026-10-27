@@ -1,8 +1,31 @@
-NOTÍCIAS E FATOS · 27/10 15h37
+NOTÍCIAS E FATOS · 27/10 19h54
 
-Pernas: noticias ok 18 novas (18 consultas; descartadas: 392 veículo fora da lista, 30 sem ativo, 17 teto) · cvm ok 0 novos de 5 (5 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 16 novas (18 consultas; descartadas: 374 veículo fora da lista, 37 sem ativo, 39 teto) · cvm ok 2 novos de 7 (7 cias casadas) · sec ok 0 novos em 3 dias
 
-## FATOS RELEVANTES E COMUNICADOS (CVM) (2)
+## FATOS RELEVANTES E COMUNICADOS (CVM) (4)
+
+[ATENÇÃO] E03 · SBSP3 · Fato Relevante: A Companhia de Saneamento Básico do Estado de São Paulo – SABESP (“SABESP”) e a EMAE – Empresa Metropolitana de Águas e Energia S.A. (“EMAE” e, em co…
+CVM · entregue 27/10/2026 19:44
+Do documento:
+  – O produto da  alienação, líquido de taxas e despesas, será disponibilizado aos antigos acionistas da EMAE  titulares das respectivas frações, na proporção de sua participação em cada ação alienada.
+  – As Companhias manterão seus acionistas e o mercado informados sobre as atualizações  relevantes relativas aos assuntos tratados neste Fato Relevante.
+  – The proceeds from such sale, net of applicable fees and expenses, will be made  available to the former EMAE shareholders entitled to the corresponding fractions, pro rata to  their interest in each share sold.
+  – The Companies will keep their shareholders and the market informed of any relevant updates  regarding the matters addressed in this Material Fact.
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1580869
+Por que importa: fato relevante e o que a propria companhia julga capaz de mover o preco; ler o documento inteiro antes de comentar
+Ativos: SBSP3
+Como falar: 'a Sabesp publicou fato relevante sobre A Companhia de Saneamento Básico do Estado de São Paulo – SABESP (“SA…'
+Fonte: CVM 27/10
+id: E03-SBSP3-1580869-2026-10-27 · status: pendente · íntegra disponível
+
+[INFO] E03 · KLBN4 · Comunicado ao Mercado: Mudança de Auditor
+CVM · entregue 27/10/2026 19:09 · Mudança de Auditor
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1580858
+Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; confirma ou nega o que circula
+Ativos: KLBN4
+Como falar: 'a Klabin publicou comunicado ao mercado sobre Mudança de Auditor'
+Fonte: CVM 27/10
+id: E03-KLBN4-1580858-2026-10-27 · status: linha
 
 [INFO] E03 · AXIA3 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
 CVM · entregue 27/10/2026 08:32 · Outros Comunicados Não Considerados Fatos Relevantes
@@ -41,7 +64,50 @@ Fonte: SEC EDGAR 2026-10-27
 id: E04-KO-26067403-2026-10-27 · status: linha · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (32)
+## NOTÍCIAS COM MATERIALIDADE (35)
+
+[ATENÇÃO] E05 · KO · Pepsi vs. Coca-Cola: Which Dividend King stock will outperform in 2027?
+Yahoo Finance · 27/10 14h47 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – PepsiCo has trailed Coca-Cola over the last 12 months.
+  – Since October 2025, shares of Coca-Cola (KO) have surged 36% after adjusting for dividends.
+  – Comparatively, Pepsi (PEP) stock is down 10%.
+  – They also hint at whether 2027 could flip the script.
+  – 8 third-quarter call, PepsiCo reported organic revenue growth of 3.1%.
+  – CEO Ramon Laguarta said that was the fastest pace since the fourth quarter of 2023.
+Link: https://sg.finance.yahoo.com/news/pepsi-vs-coca-cola-dividend-174700976.html
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: KO
+Como falar: 'saiu no Yahoo Finance: Pepsi vs. Coca-Cola: Which Dividend King stock will outperform in 2027?; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 27/10 14h47
+id: E05-KO-09bd200c4d-2026-10-27 · status: pendente
+
+[ATENÇÃO] E05 · KO · Coca-Cola raises earnings outlook as North America business slows
+Yahoo Finance · 27/10 08h50 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – The company posted adjusted earnings of $0.91 per share, above the $0.88 expected by Wall Street analysts, alongside revenue of $13.4 billion, also higher than estimates of $12.9 billion.
+  – Overall unit case volume grew by 5%, more than the roughly 3% expected.
+  – The increase was once again led by Coke Zero, which grew roughly 16% year over year.
+  – Diet Coke and Coca-Cola Light grew by 6%.
+  – "In a nutshell, if you take it out, those two elements, we would be growing, and we see that was a solid result," he told Yahoo Finance, adding that Coke Zero grew by double digits.
+  – Coca-Cola now expects earnings growth of 11%, compared to a prior range of 9% to 10%.
+Link: https://sg.finance.yahoo.com/news/coca-cola-raises-earnings-outlook-as-north-america-business-slows-115001447.html
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: KO
+Como falar: 'saiu no Yahoo Finance: Coca-Cola raises earnings outlook as North America business slows; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 27/10 08h50
+id: E05-KO-5d6e343c0d-2026-10-27 · status: pendente
+
+[ATENÇÃO] E05 · KO · Coca-Cola Fiscal Q3 Comparable Earnings, Revenue Rise; 2026 Growth Outlook Raised
+Yahoo Finance · 27/10 08h14 · + TradingView (Reuters) · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Coca-Cola (KO) reported fiscal Q3 comparable earnings Tuesday of $0.91 per diluted share, up from $0  Upgrade to read this MT Newswires article and get so much more.
+Link: https://finance.yahoo.com/markets/stocks/articles/coca-cola-fiscal-q3-comparable-111420303.html
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: KO
+Como falar: 'saiu no Yahoo Finance: Coca-Cola Fiscal Q3 Comparable Earnings, Revenue Rise; 2026 Growth Outlook Raised; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 27/10 08h14
+id: E05-KO-f935c18919-2026-10-27 · status: pendente
 
 [ATENÇÃO] E05 · USDBRL · Resumão diário #2206: Xi Jinping, da China, parabeniza Lula por reeleição; Ibovespa opera em baixa após abrir em leve alta; dólar cai a R$ 5,30; Gase…
 g1 · 27/10 13h29 · fonte única · licença: resumo
@@ -84,7 +150,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: KO
 Como falar: 'saiu no Seeking Alpha: Midday Need to Know: Consumer confidence rebounds, Coca-Cola raises outlook & more (SPY:N…; confirmar o número no texto antes de repassar'
 Fonte: Seeking Alpha 27/10 12h36
-id: E05-KO-ea95aea8e4-2026-10-27 · status: pendente
+id: E05-KO-ea95aea8e4-2026-10-27 · status: expirado
 
 [ATENÇÃO] E05 · KO · Coca-Cola Raises 2026 Earnings Outlook After Q3 Revenue and Profit Exceed Estimates
 Yahoo Finance · 27/10 11h27 · fonte única · licença: resumo
@@ -100,7 +166,7 @@ Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; 
 Ativos: KO
 Como falar: 'saiu no Yahoo Finance: Coca-Cola Raises 2026 Earnings Outlook After Q3 Revenue and Profit Exceed Estimates; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 27/10 11h27
-id: E05-KO-c15098abda-2026-10-27 · status: pendente
+id: E05-KO-c15098abda-2026-10-27 · status: expirado
 
 [ATENÇÃO] E05 · AVGO · Why Broadcom Is the Big Anthropic IPO Winner. The Stock Jumps on Buy Upgrade.
 Barron's · 27/10 11h15 · fonte única · licença: manchete
@@ -109,7 +175,7 @@ Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais
 Ativos: AVGO
 Como falar: 'saiu no Barron's: Why Broadcom Is the Big Anthropic IPO Winner. The Stock Jumps on Buy Upgrade.; confirmar o número no texto antes de repassar'
 Fonte: Barron's 27/10 11h15
-id: E05-AVGO-69e657f976-2026-10-27 · status: pendente
+id: E05-AVGO-69e657f976-2026-10-27 · status: expirado
 
 [ATENÇÃO] E05 · KO · Coca-Cola Reports Third Quarter 2026 Results and Raises Full Year Guidance
 Yahoo Finance · 27/10 07h55 · + TradingView (Reuters) · licença: resumo
@@ -429,8 +495,21 @@ Fonte: Yahoo Finance 26/10 17h53
 id: E05-TSLA-afffcb7976-2026-10-26 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (74)
+## OUTRAS NOTÍCIAS (só manchete) (87)
 
+· BTC Is Bitcoin’s Bear Market Over? Galaxy Thinks It Might Be (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-bear-market-over-galaxy-222134137.html
+· NOK Nokia: Stronger Optical And IP Outlook Makes The Pullback Attractive (NYSE:NOK) (Seeking Alpha) https://seekingalpha.com/article/4958220-nokia-stronger-optical-and-ip-outlook-makes-the-pullback-attractive
+· BTC Hyperliquid’s Biggest Traders Are Shorting Bitcoin for the First Time Since March. Could BTC Drop Below $75,000? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/hyperliquid-biggest-traders-shorting-bitcoin-221947426.html
+· BBAS3 Banco do Brasil cai quase 30% após eleição. O que fazer com as ações BBAS3 agora? (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/banco-do-brasil-cai-quase-30-apos-eleicao-o-que-fazer-com-as-acoes-bbas3-agora/
+· BTC VanEck launches diversified ETF combining stocks, bonds and Bitcoin exposure (TradingView (Reuters)) https://www.tradingview.com/news/cointelegraph:50f0a7593094b:0-vaneck-launches-diversified-etf-combining-stocks-bonds-and-bitcoin-exposure/
+· AMZN Amazon (AMZN) Q3 Earnings Preview: AWS Growth Takes Center Stage (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/amazon-amzn-q3-earnings-preview-211300540.html
+· PETR4 Petrobras terá papel central na transição energética e seguirá explorando petróleo, diz Gabrielli (Estadao) https://www.estadao.com.br/economia/petrobras-tera-papel-central-na-transicao-energetica-e-seguira-explorando-petroleo-diz-gabrielli/
+· KO The Coca-Cola Company Q3 2026 Earnings Call Summary (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/coca-cola-company-q3-2026-205529831.html
+· GOOGL Google earnings checklist: Why YouTube, Search, & Cloud are key (Yahoo Finance) https://finance.yahoo.com/video/google-earnings-checklist-why-youtube-search--cloud-are-key-205219168.html
+· USDBRL Ibovespa fecha em baixa e acumula queda de 14,3% em dois dias; dólar cai 1% (Exame) https://news.google.com/rss/articles/CBMiqwFBVV95cUxPaTYtVVFfRGs4cnNTZHhQcmtndEFmM21fVS1vWWdnOHQ0bjFLZXRQdGJHQ29BdXJfLWgyTng3ZzFZeW0tVjRlY2xRcnVIU3dyNjN0X0NfWkVqS1ZrWHlIMHJkeGZrQVY5dmdTRkdtbHJsbEYtamtvOS1FTW5wcVpSU0Y5S0VPejVtb3dXNXRHMlJnQzBYREp3Nm5IQUdNSUhjeklVOGlrV2haOVk?oc=5
+· USDBRL Ibovespa recua com pressão de ‘pesos-pesados’ após choque eleitoral; dólar cai (Money Times) https://news.google.com/rss/articles/CBMiY0FVX3lxTE11MHp3LUNfUzF2cjBYaGxPMHhRUF9tbENqSnF2NHJ5N0xGdmRrQ2dlTTM3anBkTTlmd2JtbEpMUHhHd2Z5MjZ1NGl0N3lYVmFMaEpsUE9hanZwNTdaVkRNbW9Taw?oc=5
+· GOOGL Alphabet reports Q3 earnings on Wednesday: Here's what to watch for (CNBC) https://news.google.com/rss/articles/CBMirAFBVV95cUxOcGRyV2Fic3UzX2lyMjJQNWQ5d3Zvdm1aTF9MZkdRYkJrS1BhQjBYNWVYdUlCYkpta0pfN25pcDNILXBGSE8yQnNWakhBQmc0bnhoWWRkR2liOTgwVkhpOUQyNG1VMFRxR1ZMR3B5eGZESWZPaHd6V1FLTVd4UGdtaEpRUk1RSTRMT3FBcHRRa1pGZU1hWmtKbVV2VGpEM05KNFlnOU5aSDdQdkVj?oc=5
+· USDBRL Dólar cai após disparada, com mercado atento à política fiscal e à decisão do Fed (ADVFN) https://news.google.com/rss/articles/CBMitwFBVV95cUxNZjBfd2tXbmdnclNVbF82SnJSTi05cFVscFhxRWFTLUNYYUc3UjhKTG9OMGE4SlZQbWRucHZsN3M2a3pvTk0wd0M4SjRNNjZfS1plOEVRU09jR2FPYVQtTG1HVWxONUprX3pDTTVSbTZSamVkZUdlSE41WkpmU3VEZWQyMFE1SDhzbnREbG9ic094b0hEbjNaZXdDdHRPYkVWRFVwTEVxR0sxaTJWVzhFOWkxalQwRVU?oc=5
 · PETR4 Petrobras, Prio ou Brava? BTG revisa ações de petróleo após queda da Bolsa e aponta oportunidades (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/petrobras-prio-ou-brava-btg-revisa-acoes-de-petroleo-apos-queda-da-bolsa-e-aponta-oportunidades/
 · GOOGL Alphabet Stocks Rise Before Cloud Profit Meets the Capital-Spending Test (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:ae38bd609094b:0-alphabet-stocks-rise-before-cloud-profit-meets-the-capital-spending-test/
 · BTC Bitcoin Outperforms Grayscale’s AI Compute ETF As AI Cloud Stocks Slide (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-outperforms-grayscale-ai-compute-173430632.html
@@ -478,17 +557,4 @@ id: E05-TSLA-afffcb7976-2026-10-26 · status: linha
 · GOOGL Servicenow And Google Cloud Advance Agentic Ai For Industry Workflows (TradingView (Reuters)) https://www.tradingview.com/news/reuters.com,2026:newsml_TUA9FDXT8:0-servicenow-and-google-cloud-advance-agentic-ai-for-industry-workflows/
 · USDBRL Dólar abre em baixa, a R$ 5,39, acomodando após alta de 8% ontem (UOL Economia) https://economia.uol.com.br/cotacoes/noticias/redacao/2026/10/27/dolar-bolsa-abre-hoje-27-de-outubro-de-2026.ghtm
 · GOOGL ServiceNow expands partnership with Google Cloud for AI agents By Investing.com (Investing.com) https://uk.investing.com/news/stock-market-news/servicenow-expands-partnership-with-google-cloud-for-ai-agents-93CH-4934373
-· BTC Jason Calacanis Predicts a ‘Brutal Year’ for Bitcoin, Urges Holders to Shift to AI (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/jason-calacanis-predicts-brutal-bitcoin-130249748.html
-· KO The Coca-Cola Company 2026 Q3 - Results - Earnings Call Presentation (NYSE:KO) 2026-10-27 (Seeking Alpha) https://seekingalpha.com/article/4957927-the-coca-cola-company-2026-q3-results-earnings-call-presentation
-· USDBRL Dólar hoje cai mais de 1% após forte alta registrada com vitória de Lula (InfoMoney) https://www.infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-27102026/
-· BRENT Dólar vira para baixo com ajuste após estresse eleitoral e recuo em Treasuries e petróleo (UOL Economia) https://economia.uol.com.br/noticias/estadao-conteudo/2026/10/27/dolar-vira-para-baixo-com-ajuste-apos-estresse-eleitoral-e-recuo-em-treasuries-e-petroleo.htm
-· AVGO Broadcom Helps Seal $63 Billion Anthropic AI Financing (TradingView (Reuters)) https://news.google.com/rss/articles/CBMiswFBVV95cUxPaEV6RU9rNlIxemFkNVBfZUZUNktuR0c2R1RtUEk3VDNrc1BObUpyN0IzWS1lV3FKVWU4Y3plQ1hJSGNacWFMS1ByZHZOeTlVMVlOeS12S3hJLTdOeTVWYVNLVmhWSncwYUNzM2VWTXlEUnctMVRhX3dPbmtvb013d01ZZjRjbHF5Q2FxdF91bFA4ejVsa2ZqYmw0b2h3TnhCSk9GeHZWUHVZVlBGZHJTTWJJcw?oc=5
-· USDBRL Dólar abre em queda após disparada com vitória de Lula; juros futuros recuam (Folha de S.Paulo) https://news.google.com/rss/articles/CBMixgFBVV95cUxQd0JNRFpDRmYwRnI1QVdhc3BaZnkzMkJtV3dLcEZjMjBRRkd3SVVlTk9UNjFvZUN6OG82cTFEX3k5UWlFaWNGSnNsa09xd29pajRDZEtueGtPX3U5bFVGbHhtMkFzSnpVcXVDbHhpTWV4TEU1bWJoeW9FRTgzbklSWjRhc1MyeHg3eEwxdlpSeG1VNDh1ZTB2RnRrMkxzRDJHOFFKTXhlVWF6aDdQQnl5cF9MaVNIbGxOdDEtRm1Wa1ZoQnhEcEE?oc=5
-· UST U.S. Treasury yields hover near multi-week lows ahead of Fed decision (Investing.com) https://news.google.com/rss/articles/CBMiwAFBVV95cUxOY1FYbk0xOF8xOWdJZWQ0YlhmWXlzd1JjMG02cUlJLTNmeFF4c2VyOVVzcEVzX2hJMC1RWFZxbW8yR3d0dlNuVmdNQ3pXRUFvQ3VteTJaaVpvcDIwelNQS2pXTHJoQnlQb2Y3Z3BwSDVUdVg1MV83WjV2aENYRFRjT0l4TGIxU3lGeVIzYmNTVllHTHRQanJhWUVGSDY2MWhWc0Jqb3BjMk1EbVppWWNtUEZkSjVjOEdtX0hnYV81MW4?oc=5
-· BTC Tom Lee Sees ‘One of the Biggest Rallies of Our Lifetime’ as $10.8B Bitcoin Options Expiry Looms (Yahoo Finance) https://news.google.com/rss/articles/CBMikwFBVV95cUxNbTJLVHBrTzkyUXJXeHNxcm5wSjlMb05IT1p3VU1vb2RLMHRIbTZ5SXhGa1djVGpScVQ5QTI1d2xZaUVCLWZRUUR6SVpWblc0bDRJX1dod0VBRmpicnEtS0dBcy00T0dtcEQtY0ZabDY0T2RVTzY1bHZJbHF3QmpUQTkxUFVsdWRJUm5nNzFWQWVIMGM?oc=5
-· USDBRL Dólar cai perto de 1% na abertura após disparada pós-eleição Por Reuters (Investing.com) https://news.google.com/rss/articles/CBMiqwFBVV95cUxOLXlUWGlNOHplSDB1c1hic1VWVWROOTJzWnRBbUtieVU0a2NIT3RlNVFCaW1uYWtoVFFCZmFpSE13RWg5b1U1bkJDUk40OVVnU2Z0cGsxUnhNNktsMndrY2RYMzNVNzhHdjV4Rk9POFpSRHlDbTdQS09XVnBEckRFYjIwT0piWHBvaVE0YjlNWTdhZTlRZlZYRHF2UjE0U3p2d1dTWVBsNVhEMWM?oc=5
-· TSM Cathie Wood Trims AMD and TSMC, Adds Air Taxi Bets (TradingView (Reuters)) https://news.google.com/rss/articles/CBMirgFBVV95cUxOTzEwYmx3NE82T2E0cVA3bGZabkVLUndQNkctSkE4RFotcjZ5Yk1BcEYydjZFQTJpSFRIeDFVbGtsdXhSZTd3N3VRcWVXaE8xdU9VczZzekp2VEpJa1lxUHI2WGtEYTFWalhzRDlZYTZzODdrY1VlU09HMVpJLTl2T29uT0gwQzQyeHg2WEM3VklmRTVJbkI3Mk1sRlVBNnpOMG52QURYcFJoNlZvckE?oc=5
-· ETH Current price of Ethereum for Oct. 27, 2026 (Fortune) https://news.google.com/rss/articles/CBMiaEFVX3lxTE1sUjhfaWRUb1VzRGMxYjFFQktVU0ExOTZIV2x0UXdRRXNoS3l2bDFjR19wcVVGZkl4NjAyWGxWWVlsTVNPSTJLQ0NQTUE0cTBNYl9hak8wYk1YNkZUcENpd2VmejNMMUZK?oc=5
-· INTC Intel offers 'balanced setup' into Q3 results, with servers the key: Wedbush (TradingView (Reuters)) https://www.tradingview.com/news/seekingalpha:d8640efef094b:0-intel-offers-balanced-setup-into-q3-results-with-servers-the-key-wedbush/
-· AVGO Broadcom Could Generate Up to $30 Billion in Revenue From Anthropic AI Financing Deal With Limited Risk, Truist Says (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/broadcom-could-generate-30-billion-110822892.html
-· (+14 manchetes; lista completa em eventos/noticias.json)
+· (+27 manchetes; lista completa em eventos/noticias.json)
