@@ -1,7 +1,7 @@
 BLOCO A
 ```
-FECHAMENTO DO LIVRO · seg 26/10 · 18h13 BRT
-Relógios: Yahoo 18h13 · DI ajuste D0 · Tesouro base
+FECHAMENTO DO LIVRO · seg 26/10 · 21h21 BRT
+Relógios: Yahoo 21h21 · DI ajuste D0 · Tesouro base
   26/10 · UST CMT D0 · PTAX 26/10
 
 ALERTAS DO DIA (91 · 32 críticos)
@@ -69,7 +69,7 @@ TD (base 26/10, site do TD 18h00, Δ desde 23/10) Pre
     Implícita 2032 7,14% vs Focus IPCA 2027 4,34%
 UST (D0) 2y 4,68 (-1) · 10y 5,00 (0) · 30y 5,31 (-2)
     · 2s10s +32 (+1)
-Regime: VIX 18,4 (-5,4%) · score risco 2 de 6 ·
+Regime: VIX 18,4 (-5,4%) · score risco 2 de 5 ·
     regime de vol LIGADO
 
 LEITURA DA MESA
@@ -102,7 +102,14 @@ LACUNAS: Tesouro: Pre 2031, IPCA+ 2035, IPCA+ 2029
   parado(s) na base 15/10 (só a taxa de resgate no
   site do TD; a de compra volta com o CSV do Tesouro
   Transparente): fora da tabela e da inflação
-  implícita.
+  implícita; DXY sem barra de 26/10 (última 23/10);
+  BRENT sem barra de 26/10 (última 23/10); DXY:
+  barra de 26/10 é o início da sessão seguinte
+  (última cotação 20:12 de Nova York); barra
+  descartada, fica a de 23/10; BRENT: barra de 26/10
+  é o início da sessão seguinte (última cotação
+  20:12 de Nova York); barra descartada, fica a de
+  23/10.
 Fontes: Yahoo Finance · B3 Boletim Diário · site do
   Tesouro Direto · Treasury.gov CMT · BCB
 ```
@@ -186,10 +193,10 @@ MRVE3  MRV        4,73  -43  -41 -8,5  -31  -34  -39
 CURY3  Cury      27,08  -17  -14 -1,7 -7,0 -8,5  -12
 Macro
 USDBRL USD/BRL  5,3969 +8,2 +7,0 +4,1 +8,4 +0,3 -1,4
-DXY    DXY      102,00 +0,2  0,0 +1,0 +3,6 +3,1 +3,8
-BRENT  Brent    115,22 -1,3 +5,2  +18 +6,5  +75  +89
-BTC*   BTC      79.802 -0,3 -2,5 -5,5 +3,1  -30 -8,8
-ETH*   ETH       2.301 -1,1 -4,3  -15 -0,1  -45  -22
+DXY*   DXY      101,81 +0,2  0,0 +0,7 +3,3 +2,9 +3,6
+BRENT* Brent    116,72 +3,1 +6,2  +19  +11  +77  +92
+BTC    BTC      79.802 -0,3 -2,5 -5,5 +3,1  -30 -8,8
+ETH    ETH       2.301 -1,1 -4,3  -15 -0,1  -45  -22
 MINER* Minerio   90,83 +0,1 -0,1 -6,6  -15  -14  -15
 ```
 UCITS por extenso: VWRA Vanguard FTSE All-World

@@ -1,4 +1,4 @@
-ALERTAS · eventos
+ALERTAS · Fechamento 18h
 
 (pendente de slot anterior) [CRÍTICO] CURVA · C01 A curva ABRIU: F28 +196 bps no dia · F28 +193 bps em 5 pregões · F29 +258 bps no dia (ajuste B3 26/10) / C05 Pre 2029 ABRE 250 bps (PU -4,6%) · Pre 2029 PU -5,0% em 5 datas-base · IPCA+ 2032 ABRE 108 bps (PU -5,6%) (base 26/10) / C02 Inclinação da curva DI: F35-F28 +52 bps no dia: bear steepening (longo abriu mais) · F35-F28 desinverteu (cruzou zero) · F30-F28 +68 bps no dia: bear steepening (longo abriu mais)
 DI F28 14,82 (+196) · F29 15,22 (+258) · F30 15,29 (+265) · F32 15,30 (+260) · F35 15,22 (+248)
@@ -41,15 +41,13 @@ Fonte: CVM 26/10
 ids: E03-SAPR4-1580311-2026-10-26
 
 Info (só linha no Fechamento):
-· E05 LITE · Lumentum stock surges 10% as AI components ‘completely sold out’
-· E05 USDBRL · Dólar sobe 8,21%, e bolsa cai 13,88% após reeleição de Lula
-· E05 VALE3 · Com alta do dólar, Vale contraria Bolsa e sobe mais de 4%
-· E05 GOOGL · Tech Earnings Are the Market’s Biggest Story This Week: Here’s Why Microsoft, Amazon, Intel, SanDisk, and Alphabet Will Drive the Stock Market’s Next…
-· E05 DI · Juros futuros fecham em alta após reeleição de Lula
-· E05 PETR4 · Abicom: reeleição de Lula fará Petrobras reajustar gradualmente os preços
-· E05 BTC · The Bitcoin Bull Market Is Finally Here, According to Strategy's Michael Saylor. Could Bitcoin Hit a Price of $100,000 in 2027?
-· E05 GOOGL · Prediction: Earnings Will “Double” at Amazon, Alphabet and Meta in Five Years
-· E05 VALE3 · Eleito no 2º turno, Lula teve maioria em somente 4 das 46 cidades do Vale e região bragantina
+· E05 KO · Visa, Coca-Cola, Boeing earnings, and consumer confidence data: What to Watch
+· E05 INTC · Q2 earnings recap: Intel (NASDAQ:INTC) tops processors and graphics chips stocks
+· E05 GOOGL · Will Alphabet Stock Surge After Oct. 28?
+· E05 GOOGL · Alphabet (GOOG) Could Be a Key Rival to Meta in the Race for AI Assistants, Burke Wealth Says
+· E05 AMZN · UBS on Amazon: Street’s AWS margin estimates for 2027 are too low
+· E05 VALE3 · Escola Municipal Reginaldo Ferreira Vale, 30ª zona eleitoral: resultado da votação em Guimarães (MA) no 2º turno
+· E05 BBAS3 · Associacao Atletica Banco do Brasil, 45ª zona eleitoral: resultado da votação em Santo Ângelo (RS) no 2º turno
 · T05 EQTL3 -29% no dia a R$ 34,84: movimento de 10,6 desvios para uma vol de 20 dias de 51% a.a.
 · T05 SAPR4 -16% no dia a R$ 6,80: movimento de 5,0 desvios para uma vol de 20 dias de 55% a.a.
 · T05 ALUP4 -16% no dia a R$ 10,56: movimento de 6,3 desvios para uma vol de 20 dias de 43% a.a.
@@ -113,8 +111,8 @@ Info (só linha no Fechamento):
 Suprimidos pelo teto (viram linha do Fechamento): T05-EQTL3-queda-2026-10-26 (teto diário de críticos), T05-SAPR4-queda-2026-10-26 (teto diário de críticos), T05-ALUP4-queda-2026-10-26 (teto diário de críticos), T05-ITUB4-queda-2026-10-26 (teto diário de críticos), T05-BBDC4-queda-2026-10-26 (teto diário de críticos), T05-PETR4-queda-2026-10-26 (teto diário de críticos), T05-UGPA3-queda-2026-10-26 (teto diário de críticos), T05-AXIA3-queda-2026-10-26 (teto diário de críticos), T05-ITSA4-queda-2026-10-26 (teto diário de críticos), T05-BBAS3-queda-2026-10-26 (teto diário de críticos), T05-SBSP3-queda-2026-10-26 (teto diário de críticos), T05-SMAL11-queda-2026-10-26 (teto diário de críticos), T05-RARA11-alta-2026-10-26 (teto diário de críticos), T05-DIRR3-queda-2026-10-26 (teto diário de críticos), T05-MRVE3-queda-2026-10-26 (teto diário de críticos), T05-CURY3-queda-2026-10-26 (teto diário de críticos), T05-USDBRL-alta-2026-10-26 (teto diário de críticos), T08-GOOGL--20-2026-10-26 (teto diário de críticos), T08-EQTL3--30-2026-10-26 (teto diário de críticos), T08-SAPR4--20-2026-10-26 (teto diário de críticos), T08-ALUP4--10-2026-10-26 (teto diário de críticos), T08-ITUB4--10-2026-10-26 (teto diário de críticos), T08-BBDC4--20-2026-10-26 (teto diário de críticos), T08-UGPA3--10-2026-10-26 (teto diário de críticos), T08-AXIA3--20-2026-10-26 (teto diário de críticos), T08-ITSA4--10-2026-10-26 (teto diário de críticos), T08-BBAS3--30-2026-10-26 (teto diário de críticos), T08-SBSP3--20-2026-10-26 (teto diário de críticos), T08-SMAL11--20-2026-10-26 (teto diário de críticos), T08-MRVE3--30-2026-10-26 (teto diário de críticos), T08-CURY3--30-2026-10-26 (teto diário de críticos), T06-EQTL3-queda-2026-10-26 (teto diário de críticos), T06-ALUP4-queda-2026-10-26 (teto diário de críticos), T06-BBDC4-queda-2026-10-26 (teto diário de críticos), T06-AXIA3-queda-2026-10-26 (teto diário de críticos), T06-BBAS3-queda-2026-10-26 (teto diário de críticos), T06-SBSP3-queda-2026-10-26 (teto diário de críticos), T06-SMAL11-queda-2026-10-26 (teto diário de críticos), T06-MRVE3-queda-2026-10-26 (teto diário de críticos), T06-USDBRL-alta-2026-10-26 (teto diário de críticos), T01-EQTL3-perda-2026-10-26 (teto de atenção), T01-SAPR4-perda-2026-10-26 (teto de atenção), T01-BBDC4-perda-2026-10-26 (teto de atenção), T01-AXIA3-perda-2026-10-26 (teto de atenção), T01-BBAS3-perda-2026-10-26 (teto de atenção), T01-SBSP3-perda-2026-10-26 (teto de atenção), T04-BBAS3-minima-2026-10-26 (teto de atenção), T04-DIRR3-minima-2026-10-26 (teto de atenção), T09-EQTL3-queda-2026-10-26 (teto de atenção), T09-SAPR4-queda-2026-10-26 (teto de atenção), T09-ALUP4-queda-2026-10-26 (teto de atenção), T09-ITUB4-queda-2026-10-26 (teto de atenção), T09-BBDC4-queda-2026-10-26 (teto de atenção), T09-PETR4-queda-2026-10-26 (teto de atenção), T09-VALE3-alta-2026-10-26 (teto de atenção), T09-ITSA4-queda-2026-10-26 (teto de atenção), T09-BBAS3-queda-2026-10-26 (teto de atenção), T09-SBSP3-queda-2026-10-26 (teto de atenção), T10-BBAS3-mínimo-2026-10-26 (teto de atenção)
 
 Alertas do dia (todos, com status):
-· pendente  C01 DI — A curva ABRIU: F28 +196 bps no dia · F28 +193 bps em 5 pregões · F29 +258 bps no
-· pendente  C05 TESOURO — Pre 2029 ABRE 250 bps (PU -4,6%) · Pre 2029 PU -5,0% em 5 datas-base · IPCA+ 203
+· expirado  C01 DI — A curva ABRIU: F28 +196 bps no dia · F28 +193 bps em 5 pregões · F29 +258 bps no
+· expirado  C05 TESOURO — Pre 2029 ABRE 250 bps (PU -4,6%) · Pre 2029 PU -5,0% em 5 datas-base · IPCA+ 203
 · linha     T05 EQTL3 — EQTL3 -29% no dia a R$ 34,84: movimento de 10,6 desvios para uma vol de 20 dias 
 · linha     T05 SAPR4 — SAPR4 -16% no dia a R$ 6,80: movimento de 5,0 desvios para uma vol de 20 dias de
 · linha     T05 ALUP4 — ALUP4 -16% no dia a R$ 10,56: movimento de 6,3 desvios para uma vol de 20 dias d
@@ -145,10 +143,10 @@ Alertas do dia (todos, com status):
 · linha     T06 SBSP3 — SBSP3 -21% em 5 sessões a R$ 25,27: movimento de 3,8 desvios para a vol de 20 di
 · linha     T06 MRVE3 — MRVE3 -41% em 5 sessões a R$ 4,73: movimento de 4,2 desvios para a vol de 20 dia
 · entregue  F01 USDBRL — Real cai: USD/BRL 5,3969 (+8,2% no dia · +7,0% em 5 sessões · cruzou R$ 5,00) (p
-· pendente  C02 DI — Inclinação da curva DI: F35-F28 +52 bps no dia: bear steepening (longo abriu mai
-· pendente  C03 DI — DI em nível: F28 cruzou 13,00% (para cima, agora 14,82%) · F28 cruzou 13,50% (pa
-· pendente  C03 TESOURO — Prefixado em nível: Pre 2029 cruzou 13,00% (agora 15,26%) · Pre 2029 cruzou 13,5
-· pendente  C06 TESOURO — Inflação implícita: implícita 2029 +22 bps na semana · implícita 2032 +162 bps n
+· expirado  C02 DI — Inclinação da curva DI: F35-F28 +52 bps no dia: bear steepening (longo abriu mai
+· expirado  C03 DI — DI em nível: F28 cruzou 13,00% (para cima, agora 14,82%) · F28 cruzou 13,50% (pa
+· expirado  C03 TESOURO — Prefixado em nível: Pre 2029 cruzou 13,00% (agora 15,26%) · Pre 2029 cruzou 13,5
+· expirado  C06 TESOURO — Inflação implícita: implícita 2029 +22 bps na semana · implícita 2032 +162 bps n
 · linha     T01 EQTL3 — EQTL3 fechou abaixo da média de 200 dias pela 1ª sessão: R$ 34,84 vs MM200 R$ 40
 · linha     T01 SAPR4 — SAPR4 fechou abaixo da média de 200 dias pela 1ª sessão: R$ 6,80 vs MM200 R$ 7,6
 · linha     T01 BBDC4 — BBDC4 fechou abaixo da média de 200 dias pela 1ª sessão: R$ 15,95 vs MM200 R$ 18
@@ -179,8 +177,8 @@ Alertas do dia (todos, com status):
 · linha     T09 BBAS3 — BBAS3 -29% com volume 6,6x a mediana de 20 sessões, a R$ 17,47
 · linha     T09 SBSP3 — SBSP3 -21% com volume 3,9x a mediana de 20 sessões, a R$ 25,27
 · linha     T10 BBAS3 — BBAS3 no mínimo de força relativa em 63 sessões contra IBOV: -19% vs -3,7% em 20
-· pendente  M03 MACRO — Focus de 23/10: IPCA: 2026 5,19% (-2 bps) · 2027 4,34% (+4 bps)
-· pendente  E03 SAPR4 — SAPR4 · Fato Relevante: A Companhia de Saneamento do Paraná – Sanepar (“Companhi
+· expirado  M03 MACRO — Focus de 23/10: IPCA: 2026 5,19% (-2 bps) · 2027 4,34% (+4 bps)
+· expirado  E03 SAPR4 — SAPR4 · Fato Relevante: A Companhia de Saneamento do Paraná – Sanepar (“Companhi
 · entregue  E05 AMZN — AMZN · Verizon Raises Earnings Outlook as Quarterly Postpaid Subscribers Surge; 
 · entregue  E05 ITUB4 — ITUB4 · Itaú faz aquisição de quase R$ 3 bilhões para acelerar uso de inteligênc
 · entregue  E05 KO — KO · PepsiCo Pays More, Coca-Cola Looks Stronger. Which Dividend Wins for Retire
@@ -204,4 +202,4 @@ Alertas do dia (todos, com status):
 · linha     T09 SMAL11 — SMAL11 -28% com volume 3,4x a mediana de 20 sessões, a R$ 98,81 (dado a confirma
 · linha     T10 TSLA — TSLA no máximo de força relativa em 63 sessões contra SPX: +9,6% vs -0,1% em 20 
 · linha     T10 EQTL3 — EQTL3 no mínimo de força relativa em 63 sessões contra IBOV: -12% vs -3,7% em 20
-· (+157 notícias só manchete, em noticias.md)
+· (+164 notícias só manchete, em noticias.md)

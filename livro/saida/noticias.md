@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 26/10 20h41
+NOTÍCIAS E FATOS · 26/10 21h21
 
-Pernas: noticias ok 9 novas (18 consultas; descartadas: 371 veículo fora da lista, 48 sem ativo, 12 teto) · cvm ok 0 novos de 0 (0 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 7 novas (18 consultas; descartadas: 364 veículo fora da lista, 38 sem ativo, 0 teto) · cvm ok 0 novos de 0 (0 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (3)
 
@@ -13,7 +13,7 @@ Por que importa: fato relevante e o que a propria companhia julga capaz de mover
 Ativos: SAPR4
 Como falar: 'a Sanepar publicou fato relevante sobre A Companhia de Saneamento do Paraná – Sanepar (“Companhia”), em cumpr…'
 Fonte: CVM 26/10
-id: E03-SAPR4-1580311-2026-10-26 · status: pendente · íntegra disponível
+id: E03-SAPR4-1580311-2026-10-26 · status: expirado · íntegra disponível
 
 [ATENÇÃO] E03 · ITUB4 · Fato Relevante: ITAÚ UNIBANCO HOLDING S.A. (“Companhia”) informa aos seus acionistas e ao mercado em geral que celebrou um Contrato de Compra e Venda visando à aquis…
 CVM · entregue 26/10/2026 07:30
@@ -198,8 +198,15 @@ Fonte: Yahoo Finance 25/10 18h30
 id: E05-BTC-c33ca2324e-2026-10-25 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (149)
+## OUTRAS NOTÍCIAS (só manchete) (156)
 
+· KO Visa, Coca-Cola, Boeing earnings, and consumer confidence data: What to Watch (Yahoo Finance) https://finance.yahoo.com/video/visa-coca-cola-boeing-earnings-000000222.html
+· INTC Q2 earnings recap: Intel (NASDAQ:INTC) tops processors and graphics chips stocks (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/q2-earnings-recap-intel-nasdaq-233447148.html
+· GOOGL Will Alphabet Stock Surge After Oct. 28? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/alphabet-stock-surge-oct-28-222500307.html
+· GOOGL Alphabet (GOOG) Could Be a Key Rival to Meta in the Race for AI Assistants, Burke Wealth Says (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/alphabet-goog-could-key-rival-174155659.html
+· AMZN UBS on Amazon: Street’s AWS margin estimates for 2027 are too low (Yahoo Finance) https://au.finance.yahoo.com/news/ubs-amazon-street-aws-margin-153209198.html
+· VALE3 Escola Municipal Reginaldo Ferreira Vale, 30ª zona eleitoral: resultado da votação em Guimarães (MA) no 2º turno (g1) https://g1.globo.com/ma/maranhao/eleicoes/2026/noticia/2026/10/26/escola-municipal-reginaldo-ferreira-vale-30a-zona-eleitoral-resultado-da-votacao-em-guimaraes-ma-no-2o-turno.ghtml
+· BBAS3 Associacao Atletica Banco do Brasil, 45ª zona eleitoral: resultado da votação em Santo Ângelo (RS) no 2º turno (g1) https://g1.globo.com/rs/rio-grande-do-sul/eleicoes/2026/noticia/2026/10/26/associacao-atletica-banco-do-brasil-45a-zona-eleitoral-resultado-da-votacao-em-santo-angelo-rs-no-2o-turno.ghtml
 · LITE Lumentum stock surges 10% as AI components ‘completely sold out’ (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/lumentum-stock-surges-10-ai-222440380.html
 · USDBRL Dólar sobe 8,21%, e bolsa cai 13,88% após reeleição de Lula (Agencia Brasil) https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/dolar-sobe-821-e-bolsa-cai-1388-apos-reeleicao-de-lula
 · VALE3 Com alta do dólar, Vale contraria Bolsa e sobe mais de 4% (Poder360) https://www.poder360.com.br/poder-infra/com-alta-do-dolar-vale-contraria-bolsa-e-sobe-mais-de-4/
@@ -253,11 +260,4 @@ id: E05-BTC-c33ca2324e-2026-10-25 · status: linha
 · BTC Tom Lee Says Crypto Faced Same ‘Risk Off’ Forces Behind AI Sell-Off: BMNR, ASST Add To Crypto Treasuries As MSTR Skips Bitcoin Buys (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:049958e32094b:0-tom-lee-says-crypto-faced-same-risk-off-forces-behind-ai-sell-off-bmnr-asst-add-to-crypto-treasuries-as-mstr-skips-bitcoin-buys/
 · TSLA Why Tesla (TSLA) stock is trading up today (TradingView (Reuters)) https://www.tradingview.com/news/stockstory:daa56b521094b:0-why-tesla-tsla-stock-is-trading-up-today/
 · COHR Why is Coherent (COHR) stock rocketing higher today (TradingView (Reuters)) https://www.tradingview.com/news/stockstory:563dfb398094b:0-why-is-coherent-cohr-stock-rocketing-higher-today/
-· LITE Lumentum and Coherent Stocks Jump 3% as StoneX Unveils Bold Price Targets (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:695c6c126094b:0-lumentum-and-coherent-stocks-jump-3-as-stonex-unveils-bold-price-targets/
-· AMZN Amazon's AWS Backlog Takes Center Stage Ahead of Q3 Earnings (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:75d23cb71094b:0-amazon-s-aws-backlog-takes-center-stage-ahead-of-q3-earnings/
-· GOOGL Big Tech Earnings: Who Is Really Making Money From AI? for NASDAQ:GOOGL by Errante (TradingView (Reuters)) https://www.tradingview.com/chart/GOOGL/TgtwQFmN-Big-Tech-Earnings-Who-Is-Really-Making-Money-From-AI/
-· USDBRL Dólar à vista sobe 9% com eleição de Lula; exportador aproveita janela (Valor Economico) https://valor.globo.com/financas/noticia/2026/10/26/dolar-dispara-865percent-a-r-542-bate-em-trava-no-exterior-vai-a-r-560-apos-vitoria-de-lula.ghtml
-· KO Boeing, Coca-Cola Earnings Previews: A Turnaround Story and a Defensive Staple Face the Same Test (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/boeing-coca-cola-earnings-previews-120522327.html
-· UGPA3 Ipiranga - Posto de Saúde, 41ª zona eleitoral: resultado da votação em Vassouras (RJ) no 2º turno (g1) https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/10/26/ipiranga-posto-de-saude-41a-zona-eleitoral-resultado-da-votacao-em-vassouras-rj-no-2o-turno.ghtml
-· NVDA AI Critic Claims “200 Billion Dollars Worth” of Nvidia Chips Sit in Warehouses (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/ai-critic-claims-200-billion-141420303.html
-· (+89 manchetes; lista completa em eventos/noticias.json)
+· (+96 manchetes; lista completa em eventos/noticias.json)

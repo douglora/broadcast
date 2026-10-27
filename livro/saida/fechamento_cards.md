@@ -1,4 +1,4 @@
-## Fechamento do livro · seg 26/10 · 18h13 BRT
+## Fechamento do livro · seg 26/10 · 21h21 BRT
 
 ---
 
@@ -45,7 +45,7 @@
 | Ativo | dia | explicação | grau |
 |---|---:|---|---|
 | **MRVE3** | -43% | descolou do setor (construtoras de baixa renda -26% (mediana), DI F30 +265 bps; -16,2 p.p. da mediana); investigar antes de comentar | sem causa no dado |
-| **BBAS3** | -29% | descolou do setor (bancos -18% (mediana), DI F28 +196 bps; -11,6 p.p. da mediana); notícia a conferir (Estadao): Ação da Petrobras ou Banco do Brasil: qual estatal cai mais após a eleição de Lula? Entend | notícia (conferir) |
+| **BBAS3** | -29% | descolou do setor (bancos -18% (mediana), DI F28 +196 bps; -11,6 p.p. da mediana); notícia a conferir (g1): Associacao Atletica Banco do Brasil, 45ª zona eleitoral: resultado da votação em Santo Âng | notícia (conferir) |
 | **EQTL3** | -29% | descolou do setor (energia e saneamento -16% (mediana), DI F35 +248 bps; -12,8 p.p. da mediana); investigar antes de comentar | sem causa no dado |
 | **DIRR3** | -24% | descolou do setor (construtoras de baixa renda -26% (mediana), DI F30 +265 bps; 2,3 p.p. da mediana); investigar antes de comentar | sem causa no dado |
 | **BBDC4** | -22% | descolou do setor (bancos -18% (mediana), DI F28 +196 bps; -4,0 p.p. da mediana); investigar antes de comentar | sem causa no dado |
@@ -205,13 +205,13 @@ Nomes completos: **QNTM** VanEck Quantum Computing UCITS ETF USD (Acc) · **QANT
 | Ativo | últ | dia | 1 sem | 1 mês | 3 m | 6 m | 1 ano | YTD | 5 anos |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | **USDBRL** Dolar/Real | 5,3969 | **+8,2** | +7,0 | +4,1 | +6,2 | +8,4 | +0,3 | -1,4 | -4,2 |
-| **DXY** Indice Dolar DXY | 102,00 | **+0,2** | 0,0 | +1,0 | +0,5 | +3,6 | +3,1 | +3,8 | +8,4 |
-| **BRENT** Petroleo Brent | 115,22 | **-1,3** | +5,2 | +18 | +30 | +6,5 | +75 | +89 | +37 |
-| **BTC** Bitcoin _(parcial)_ | 79.802 | **-0,3** | -2,5 | -5,5 | +25 | +3,1 | -30 | -8,8 | +30 |
-| **ETH** Ethereum _(parcial)_ | 2.301 | **-1,1** | -4,3 | -15 | +22 | -0,1 | -45 | -22 | -46 |
+| **DXY** Indice Dolar DXY _(dia 23/10)_ | 101,81 | **+0,2** | 0,0 | +0,7 | +0,3 | +3,3 | +2,9 | +3,6 | +8,8 |
+| **BRENT** Petroleo Brent _(dia 23/10)_ | 116,72 | **+3,1** | +6,2 | +19 | +21 | +11 | +77 | +92 | +36 |
+| **BTC** Bitcoin | 79.802 | **-0,3** | -2,5 | -5,5 | +25 | +3,1 | -30 | -8,8 | +30 |
+| **ETH** Ethereum | 2.301 | **-1,1** | -4,3 | -15 | +22 | -0,1 | -45 | -22 | -46 |
 | **MINERIO** Minerio de ferro 62% Fe CFR China _(D-1, 23/10)_ | 90,83 | **+0,1** | -0,1 | -6,6 | -7,7 | -15 | -14 | -15 | -26 |
 
-**Brent em reais:** R$ 621,83 por barril (26/10) · dia +6,8% · 1 mês +23% · no ano +87% (Brent do 1º vencimento × dólar).
+**Brent em reais:** a confirmar (Brent sem fechamento confirmado).
 
 ---
 
@@ -219,11 +219,11 @@ Nomes completos: **QNTM** VanEck Quantum Computing UCITS ETF USD (Acc) · **QANT
 
 | Referência | US$/t | dia | 1 sem | 1 mês | leitura |
 |---|---:|---:|---:|---:|---|
-| **Celulose fibra longa** | 608 | -0,9 | -2,4 | -5,4 | 26/10 |
-| **Minerio de ferro Dalian** | 88 | -0,7 | -2,6 | -6,2 | 26/10 |
+| **Celulose fibra longa** | 606 | -1,2 | -2,7 | -5,6 | 26/10 |
+| **Minerio de ferro Dalian** | 88 | -1,0 | -2,9 | -6,5 | 26/10 |
 
-- **Celulose fibra longa**: futuro SP da SHFE (fibra longa) em CNY/t, sem o IVA de 13%; nao e preco de lista NBSK · CNY/t 4.576 a USD/CNY 6,66 = US$ 687/t com IVA
-- **Minerio de ferro Dalian**: futuro da DCE em CNY/t, sem o IVA de 13%; o CFR 62% em US$ e a linha MINERIO · CNY/t 664 a USD/CNY 6,66 = US$ 100/t com IVA
+- **Celulose fibra longa**: futuro SP da SHFE (fibra longa) em CNY/t, sem o IVA de 13%; nao e preco de lista NBSK · CNY/t 4.576 a USD/CNY 6,68 = US$ 685/t com IVA
+- **Minerio de ferro Dalian**: futuro da DCE em CNY/t, sem o IVA de 13%; o CFR 62% em US$ e a linha MINERIO · CNY/t 664 a USD/CNY 6,68 = US$ 99/t com IVA
 
 ---
 
@@ -257,7 +257,7 @@ Inflação implícita 2032 7,14% · Focus IPCA 2027 4,34%
 
 2s10s +32 bps (+1 no dia)
 
-**Regime** VIX 18,4 (-5,4%) · score de risco 2 de 6 · **regime de vol LIGADO**
+**Regime** VIX 18,4 (-5,4%) · score de risco 2 de 5 · **regime de vol LIGADO**
 
 ---
 
@@ -319,8 +319,8 @@ Inflação implícita 2032 7,14% · Focus IPCA 2027 4,34%
 
 ### Como ler
 
-**Relógios:** Yahoo 18h13 · DI ajuste D0 · Tesouro base 26/10 · UST CMT D0 · PTAX 26/10
-**Lacunas:** Tesouro: Pre 2031, IPCA+ 2035, IPCA+ 2029 parado(s) na base 15/10 (só a taxa de resgate no site do TD; a de compra volta com o CSV do Tesouro Transparente): fora da tabela e da inflação implícita.
+**Relógios:** Yahoo 21h21 · DI ajuste D0 · Tesouro base 26/10 · UST CMT D0 · PTAX 26/10
+**Lacunas:** Tesouro: Pre 2031, IPCA+ 2035, IPCA+ 2029 parado(s) na base 15/10 (só a taxa de resgate no site do TD; a de compra volta com o CSV do Tesouro Transparente): fora da tabela e da inflação implícita; DXY sem barra de 26/10 (última 23/10); BRENT sem barra de 26/10 (última 23/10); DXY: barra de 26/10 é o início da sessão seguinte (última cotação 20:12 de Nova York); barra descartada, fica a de 23/10; BRENT: barra de 26/10 é o início da sessão seguinte (última cotação 20:12 de Nova York); barra descartada, fica a de 23/10.
 **IUAA:** NAO e renda fixa ultracurta: cai ~6% a cada +100 bps na curva. Ler junto com UST 10y/30y. Caixa em dolar e o IB01.
 **Hipótese:** **EWY** iShares MSCI South Korea ETF · **MCHI** iShares MSCI China ETF — ETFs dos EUA, a confirmar.
 Minério: proxy Dalian 664 CNY/t (2026-10-26).
