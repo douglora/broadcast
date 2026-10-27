@@ -1,7 +1,7 @@
 # Boletim da B3: pregão de 26/10/2026 (segunda)
 
 **Situação: PARCIAL.** Ainda sem: posições em aberto (opções e futuros), saldo de aluguel, empréstimos do dia, quadro de posições em aberto. A B3 publica esses blocos na madrugada seguinte ao pregão; a rodada da manhã completa.
-Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10-27T00:53:12Z (UTC).
+Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10-27T05:34:24Z (UTC).
 
 [[LEITURA_DA_MESA]]
 
@@ -41,7 +41,7 @@ Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10
 - **After market.** MRVE3: preço médio do after market a -1,27% do fechamento (R$ 4,67 contra R$ 4,73), em R$ 1.202 mil. _(B3, TradeInformationConsolidatedAfterHours, 26/10)_
 - **After market.** PETR4: preço médio do after market a -1,00% do fechamento (R$ 53,34 contra R$ 53,88), em R$ 11.192 mil. _(B3, TradeInformationConsolidatedAfterHours, 26/10)_
 - **After market.** UGPA3: preço médio do after market a -1,42% do fechamento (R$ 34,74 contra R$ 35,24), em R$ 768 mil. _(B3, TradeInformationConsolidatedAfterHours, 26/10)_
-- **Listas do dia.** Do livro nas listas do boletim: mais negociadas à vista: PETR4 (1º), ITUB4 (3º), VALE3 (4º), BBAS3 (5º); calls mais negociadas: PETRL546 (4º). _(B3, tabelas de maiores oscilacoes, 26/10)_
+- **Listas do dia.** Do livro nas listas do boletim: maiores altas do Ibovespa: VALE3 (7º); maiores baixas do Ibovespa: MRVE3 (8º); mais negociadas à vista: PETR4 (1º), ITUB4 (3º), VALE3 (4º), BBAS3 (5º); calls mais negociadas: PETRL546 (4º). _(B3, tabelas de maiores oscilacoes, 26/10)_
 
 **Já vinham de pregões anteriores**
 
@@ -149,6 +149,18 @@ x média = volume do dia dividido pela média dos pregões anteriores no histór
 
 - Paridade: RARA11 +8,71% contra REMX em reais -1,32% (lá fora +0,47%, câmbio -1,78%); desvio de +10,03%. Fechamentos em horários diferentes: é aproximação.
 
+## Ações do livro em programa de ADR
+
+| Ativo | Ações em ADR (mi) | % da classe | Variação no pregão (mi) |
+|---|---:|---:|---:|
+| ITUB4 | 1.265,0 | 23,4% | +2,50 |
+| PETR4 | 767,6 | 14,1% | +6,00 |
+| VALE3 | 1.261,8 | 28,4% | +0,00 |
+| UGPA3 | 79,3 | 7,1% | +9,00 |
+| AXIA3 | 47,4 | 1,9% | -0,06 |
+
+ADR = recibo da ação negociado em Nova York. Ações entrando no programa indicam compra lá fora; saindo, venda.
+
 **Volume fora do padrão no mercado:** MELI34 5,9x (-1,25%), SUZB3 5,3x (+10,07%), BPAC11 4,9x (-24,83%), VLID3 4,6x (-23,75%), SAPR4 4,6x (-15,94%), PETR3 4,2x (-6,80%), RANI3 4,2x (-10,10%), BBAS3 4,2x (-29,32%).
 
 ## Renda fixa: debêntures incentivadas, CRI e CRA
@@ -234,18 +246,11 @@ Por classe, mediana das taxas de referência dos papéis. Taxa de referência: n
 - quadro de posições em aberto: aguardando
 - saldo de aluguel: aguardando
 - empréstimos do dia: aguardando
-- aluguel por corretora: aguardando
-- Custody: aguardando
-- DIover: aguardando
+- aluguel por corretora: ignorado
 - posições em aberto (opções e futuros): aguardando
-- IbovespaStockBiggestHighs: aguardando
-- IbovespaStockBiggestLow: aguardando
-- ProventionCreditVariable: aguardando
 - Register: aguardando
-- RepurchaseDealings: aguardando
 - Stock: aguardando
 - Posição em aberto de derivativos por tipo de investidor (estrangeiro, institucional, pessoa física): não existe no Boletim Diário do Mercado; procurado nas 69 tabelas e no texto dos 11 cadernos em 30/09/2026.
 - Fluxo por tipo de investidor sai acumulado no mês e com dois pregões de atraso; o saldo de um dia é a diferença entre dois acumulados seguidos.
-- Carteira de índice: a B3 não publicou a tabela neste pregão; valem os pesos de 23/10.
 - RARA11: a B3 não publica valor de referência da cota (IOPV) para este ETF no boletim.
 - Paridade de MELI34: sem a barra de 26/10 de MELI nas séries do livro.

@@ -1,5 +1,5 @@
 {
- "pregao": "2026-10-23",
+ "pregao": "2026-10-26",
  "nome": "IbovespaStockBiggestHighs",
  "titulo": "Ações do IBOVESPA - maiores altas",
  "sla": "8:00:00",
@@ -7,18 +7,18 @@
  "colunas": [{"nome": "TckrSymb", "titulo": "Ação"}, {"nome": "Cod", "titulo": "Código"}, {"nome": "Price", "titulo": "Preço (R$)"}, {"nome": "Oscillation", "titulo": "Oscilação (%)"}],
  "texto": ["Lista as ações do IBOVESPA com os maiores percentuais de valorização em um período."],
  "situacao": "publicado",
- "atualizado_em": "2026-10-23T23:30:30.42",
+ "atualizado_em": "2026-10-26T23:31:02.93",
  "truncada": false,
  "linhas": [
-  ["AURE3", "ON      NM", 15.24, 2.76],
-  ["BRAV3", "ON      NM", 21.69, 2.79],
-  ["HYPE3", "ON      NM", 27.25, 2.9],
-  ["COGN3", "ON      NM", 3.1, 2.99],
-  ["BBAS3", "ON      NM", 24.72, 3.34],
-  ["CSAN3", "ON      NM", 5.2, 3.58],
-  ["CYRE3", "ON      NM", 35.57, 3.7],
-  ["NATU3", "ON      NM", 7.9, 4.49],
-  ["USIM5", "PNA     N1", 6.63, 4.73],
-  ["CSNA3", "ON", 6.07, 12.4]
+  ["CXSE3", "ON      NM", 21.1, -1.44],
+  ["BBSE3", "ON      NM", 43.14, -1.23],
+  ["GGBR4", "PN      N1", 25.45, 0.91],
+  ["GOAU4", "PN      N1", 11.52, 1.05],
+  ["BRAP4", "PN      N1", 19.26, 1.31],
+  ["KLBN11", "UNT     N2", 18.81, 3.23],
+  ["VALE3", "ON      NM", 64.38, 4],
+  ["WEGE3", "ON      NM", 44.53, 4.21],
+  ["EMBJ3", "ON      NM", 96.2, 8.88],
+  ["SUZB3", "ON      NM", 47.4, 10.07]
  ]
 }
