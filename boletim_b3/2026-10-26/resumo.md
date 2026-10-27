@@ -1,7 +1,7 @@
 # Boletim da B3: pregão de 26/10/2026 (segunda)
 
 **Situação: COMPLETO.** Boletim publicado pela B3 em 2026-10-27 08:37 (hora de Brasília).
-Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10-27T11:56:30Z (UTC).
+Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10-27T16:52:27Z (UTC).
 
 [[LEITURA_DA_MESA]]
 
@@ -33,9 +33,9 @@ Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10
 - **Crédito: taxa abriu.** CEPEA6 (Companhia Energetica de Pernambuco-Ce…, debênture incentivada): a taxa indicativa da ANBIMA abriu 157 pb de 23/10 para 26/10, para Pré 14,82%; na B3, negócios de 26/10 a Pré 15,83% em R$ 5,2 mi. _(ANBIMA, taxa indicativa de debêntures, 26/10)_
 - **Crédito: taxa abriu.** RIS424 (Aguas do Rio 4 Spe, debênture incentivada): a taxa indicativa da ANBIMA abriu 147,3 pb de 23/10 para 26/10, para IPCA+ 14,04%; na B3, negócios de 26/10 a IPCA+ 11,40% em R$ 5,1 mi. _(ANBIMA, taxa indicativa de debêntures, 26/10)_
 - **Crédito: taxa abriu.** CRNP13 (Concessionaria de Rodovias Noroeste P…, debênture incentivada): a taxa indicativa da ANBIMA abriu 143,8 pb de 23/10 para 26/10, para IPCA+ 9,72%; na B3, negócios de 26/10 a IPCA+ 9,69% em R$ 9,4 mi. _(ANBIMA, taxa indicativa de debêntures, 26/10)_
-- **Crédito: taxa abriu.** CEPEB8 (Companhia Energetica de Pernambuco-Ce…, debênture incentivada): taxa média dos negócios da B3 abriu 273 pb contra 23/10, para Pré 15,33%, em R$ 5,9 mi. _(B3, Trade + InstrumentRegistration (preliminar), 26/10)_
-- **Crédito: taxa abriu.** CSRNB4 (Companhia Energetica do Rio Grande do…, debênture incentivada): taxa média dos negócios da B3 abriu 233 pb contra 16/10, para Pré 15,34%, em R$ 5,6 mi. _(B3, Trade + InstrumentRegistration (preliminar), 26/10)_
-- **Crédito: taxa abriu.** CEEBF3 (Cia. de Eletric. do Est. da Bahia-Coe…, debênture incentivada): taxa média dos negócios da B3 abriu 187 pb contra 23/10, para Pré 14,85%, em R$ 113,0 mi. _(B3, Trade + InstrumentRegistration (preliminar), 26/10)_
+- **Crédito: taxa abriu.** CEPEB8 (Companhia Energetica de Pernambuco-Ce…, debênture incentivada): taxa média dos negócios da B3 abriu 273 pb contra 23/10, para Pré 15,33%, em R$ 5,9 mi. _(B3, Trade + InstrumentRegistration, 26/10)_
+- **Crédito: taxa abriu.** CSRNB4 (Companhia Energetica do Rio Grande do…, debênture incentivada): taxa média dos negócios da B3 abriu 233 pb contra 16/10, para Pré 15,34%, em R$ 5,6 mi. _(B3, Trade + InstrumentRegistration, 26/10)_
+- **Crédito: taxa abriu.** CEEBF3 (Cia. de Eletric. do Est. da Bahia-Coe…, debênture incentivada): taxa média dos negócios da B3 abriu 167 pb contra 23/10, para Pré 14,65%, em R$ 85,9 mi. _(B3, Trade + InstrumentRegistration, 26/10)_
 - **Crédito: taxa abriu.** CGOS16 (Equatorial Goias Distribuidora de Ene…, debênture incentivada): a taxa indicativa da ANBIMA abriu 126,8 pb de 23/10 para 26/10, para IPCA+ 8,90%; na B3, negócios de 26/10 a IPCA+ 7,78% em R$ 0,3 mi. _(ANBIMA, taxa indicativa de debêntures, 26/10)_
 - **Crédito: taxa abriu.** CGOS28 (Equatorial Goias Distribuidora de Ene…, debênture incentivada): a taxa indicativa da ANBIMA abriu 116,1 pb de 23/10 para 26/10, para IPCA+ 8,67%; na B3, negócios de 26/10 a IPCA+ 8,53% em R$ 6,4 mi. _(ANBIMA, taxa indicativa de debêntures, 26/10)_
 - **Crédito: taxa abriu.** CERT11 (Concessionaria Ecovias Raposo-Castelo, debênture incentivada): a taxa indicativa da ANBIMA abriu 103 pb de 23/10 para 26/10, para IPCA+ 8,97%; na B3, negócios de 26/10 a IPCA+ 8,74% em R$ 132,0 mi. _(ANBIMA, taxa indicativa de debêntures, 26/10)_
@@ -276,15 +276,13 @@ Posição em aberto: 4,0 bi de calls e 3,6 bi de puts (put/call 0,88); no volume
 
 ## Renda fixa: debêntures incentivadas, CRI e CRA
 
-**Preliminar:** a B3 ajusta os negócios de balcão no dia seguinte; volumes e taxas dos negócios deste pregão ainda podem mudar.
-
 **De onde vem cada taxa:** debêntures pela taxa indicativa da ANBIMA de 26/10 (1.256 papéis), com os negócios da B3 de 26/10 ao lado; CRI e CRA só pelos negócios da B3.
 
 | Classe | Volume do dia | Taxa mediana | Sobre o juro real |
 |---|---:|---:|---:|
-| Debêntures incentivadas | R$ 3,0 bi | IPCA+ 8,62% | +54 pb |
-| CRI | R$ 1,3 bi | IPCA+ 8,03% e CDI+ 0,91% | +1 pb |
-| CRA | R$ 175,2 mi | IPCA+ 8,99% e CDI+ 2,68% | +133 pb |
+| Debêntures incentivadas | R$ 2,8 bi | IPCA+ 8,61% | +54 pb |
+| CRI | R$ 992,3 mi | IPCA+ 7,52% e CDI+ 2,47% | -49 pb |
+| CRA | R$ 172,9 mi | IPCA+ 8,99% e CDI+ 2,68% | +122 pb |
 
 Nas incentivadas, a mediana pelos negócios do dia (B3 negócios de 26/10) foi IPCA+ 8,34%.
 
@@ -294,7 +292,7 @@ Nas incentivadas, a mediana pelos negócios do dia (B3 negócios de 26/10) foi I
 |---|---:|---:|---:|
 | CGOS16 | IPCA+ 8,90% (ANBIMA indicativa de 26/10) | IPCA+ 7,78%, R$ 336,7 mil | +69 pb na duration |
 | CGOS28 | IPCA+ 8,67% (ANBIMA indicativa de 26/10) | IPCA+ 8,53%, R$ 6,4 mi | +51 pb na duration |
-| 22B0006022 (MRV (CRI em IPCA, única série)) | IPCA+ 13,18% (B3 negócios de 26/10) | R$ 41,1 mil | +528 pb no vencimento |
+| 22B0006022 (MRV (CRI em IPCA, única série)) | IPCA+ 14,03% (B3 negócios de 26/10) | R$ 29,3 mil | +612 pb no vencimento |
 | CRA025003UZ (Cooxupé (% do CDI, única série)) | 120,0% do CDI (B3 negócios de 26/10) | R$ 95,4 mil | - |
 | CRA025007KK (Eldorado Celulose (prefixado, única série)) | 14,24% pré (B3 negócios de 26/10) | R$ 387,5 mil | - |
 | CERT11 | IPCA+ 8,97% (ANBIMA indicativa de 26/10) | IPCA+ 8,74%, R$ 132,0 mi | +106 pb na duration |
@@ -316,16 +314,16 @@ Sem negócio neste pregão e sem taxa indicativa: CRA024007K9, CRA0240099F, CRA0
 | Papel | Taxa de referência | B3 negócios de 26/10 | Sobre o juro real |
 |---|---:|---:|---:|
 | RDOE18 (Concessionaria Do Rodoanel O) | IPCA+ 8,05% (ANBIMA indicativa de 26/10) | IPCA+ 7,93%, R$ 211,0 mi | +5 pb na duration |
-| CEEBD1 (Cia. De Eletric. Do Est. Da ) | 14,36% pré (ANBIMA indicativa de 26/10) | 15,36% pré, R$ 160,5 mi | - |
 | CERT11 (Concessionaria Ecovias Rapos) | IPCA+ 8,97% (ANBIMA indicativa de 26/10) | IPCA+ 8,74%, R$ 132,0 mi | +106 pb na duration |
 | ELPLC8 (Eletropaulo Metropol. Eletr.) | IPCA+ 10,19% (ANBIMA indicativa de 26/10) | IPCA+ 10,34%, R$ 127,4 mi | +225 pb na duration |
-| CEEBF3 (Cia. De Eletric. Do Est. Da ) | 14,85% pré (B3 negócios de 26/10) | R$ 113,0 mi | - |
+| CEEBD1 (Cia. De Eletric. Do Est. Da ) | 14,36% pré (ANBIMA indicativa de 26/10) | 15,35% pré, R$ 120,3 mi | - |
 | RALM11 (Rialma Transmissora De Energ) | IPCA+ 9,47% (ANBIMA indicativa de 26/10) | sem taxa, R$ 102,8 mi | +138 pb na duration |
 | DESK19 (Desktop S/A) | IPCA+ 8,47% (ANBIMA indicativa de 26/10) | IPCA+ 8,49%, R$ 96,5 mi | +44 pb na duration |
 | DESK17 (Desktop S/A) | IPCA+ 8,37% (ANBIMA indicativa de 26/10) | IPCA+ 8,45%, R$ 93,2 mi | +37 pb na duration |
+| CEEBF3 (Cia. De Eletric. Do Est. Da ) | 14,65% pré (B3 negócios de 26/10) | R$ 85,9 mi | - |
 
 **Abriram taxa pela indicativa da ANBIMA:** CEPEA6 +157 pb contra 23/10, para 14,82% pré (R$ 5,2 mi); RIS424 +147,3 pb contra 23/10, para IPCA+ 14,04% (R$ 5,1 mi); RISP24 +146,1 pb contra 23/10, para IPCA+ 14,07% (R$ 3,5 mi); ENERB6 +146 pb contra 23/10, para 14,83% pré (R$ 3,3 mi); CRNP13 +143,8 pb contra 23/10, para IPCA+ 9,72% (R$ 9,4 mi).
-**Abriram taxa pelos negócios da B3:** CEPEB8 +273 pb contra 23/10, para 15,33% pré (R$ 5,9 mi); CEEBC0 +266 pb contra 23/10, para 16,02% pré (R$ 3,3 mi); CSRNB4 +233 pb contra 16/10, para 15,34% pré (R$ 5,6 mi); CEEBF3 +187 pb contra 23/10, para 14,85% pré (R$ 113,0 mi); CRA022007EP +16 pb contra 23/10, para IPCA+ 7,16% (R$ 3,4 mi).
+**Abriram taxa pelos negócios da B3:** CEPEB8 +273 pb contra 23/10, para 15,33% pré (R$ 5,9 mi); CEEBC0 +266 pb contra 23/10, para 16,02% pré (R$ 3,3 mi); CSRNB4 +233 pb contra 16/10, para 15,34% pré (R$ 5,6 mi); CEEBF3 +167 pb contra 23/10, para 14,65% pré (R$ 85,9 mi); CRA022007EP +17 pb contra 23/10, para IPCA+ 7,17% (R$ 3,3 mi).
 **Fecharam taxa pelos negócios da B3:** AGVL13 -80 pb contra 04/09, para IPCA+ 7,94% (R$ 9,3 mi); CRA02300NAX -72 pb contra 23/10, para IPCA+ 7,26% (R$ 5,1 mi); CRA02400ANS -4 pb contra 09/10, para CDI+ 4,25% (R$ 12,7 mi).
 **Prêmio alto:** SUMI18 a IPCA+ 15,89% (ANBIMA indicativa de 26/10), +783 pb na duration, R$ 15,8 mi; RIS412 a IPCA+ 14,88% (ANBIMA indicativa de 26/10), +682 pb na duration, R$ 3,6 mi; 25L4107389 a CDI+ 6,51% (B3 negócios de 26/10), R$ 4,6 mi; RISP24 a IPCA+ 14,07% (ANBIMA indicativa de 26/10), +595 pb na duration, R$ 3,5 mi; RIS424 a IPCA+ 14,04% (ANBIMA indicativa de 26/10), +592 pb na duration, R$ 5,1 mi.
 
