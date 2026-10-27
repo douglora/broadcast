@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 27/10 10h36
+NOTÍCIAS E FATOS · 27/10 12h02
 
-Pernas: noticias ok 22 novas (18 consultas; descartadas: 407 veículo fora da lista, 29 sem ativo, 30 teto) · cvm ok 0 novos de 5 (5 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 23 novas (18 consultas; descartadas: 414 veículo fora da lista, 30 sem ativo, 19 teto) · cvm ok 0 novos de 5 (5 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (2)
 
@@ -41,7 +41,119 @@ Fonte: SEC EDGAR 2026-10-27
 id: E04-KO-26067403-2026-10-27 · status: linha · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (16)
+## NOTÍCIAS COM MATERIALIDADE (25)
+
+[ATENÇÃO] E05 · AXIA3 · Axia negocia até R$ 680 milhões com IDB Invest para transmissão
+UOL Economia · 27/10 11h04 · fonte única · licença: manchete
+Link: https://megawhat.uol.com.br/economia-e-politica/empresas/axia-negocia-ate-r-680-milhoes-com-idb-invest-para-transmissao/
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: AXIA3
+Como falar: 'saiu no UOL Economia: Axia negocia até R$ 680 milhões com IDB Invest para transmissão; confirmar o número no texto antes de repassar'
+Fonte: UOL Economia 27/10 11h04
+id: E05-AXIA3-d56332cd55-2026-10-27 · status: pendente
+
+[ATENÇÃO] E05 · KO · Earnings call transcript: Coca-Cola beats Q3 2026 forecasts as sales rise
+Investing.com · 27/10 10h47 · fonte única · licença: manchete
+Link: https://www.investing.com/news/transcripts/earnings-call-transcript-cocacola-beats-q3-2026-forecasts-as-sales-rise-93CH-4975880
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: KO
+Como falar: 'saiu no Investing.com: Earnings call transcript: Coca-Cola beats Q3 2026 forecasts as sales rise; confirmar o número no texto antes de repassar'
+Fonte: Investing.com 27/10 10h47
+id: E05-KO-d0e1c47ffd-2026-10-27 · status: pendente
+
+[ATENÇÃO] E05 · BTC · Ark Invest Sells $15 Million Of Its Own Bitcoin ETF As Price Falls
+Yahoo Finance · 27/10 10h47 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Asset manager Ark Invest has sold $15.9 million U.S.
+  – worth of its own Bitcoin (CRYPTO: $BTC) exchange-traded fund (ETF) as the price of the largest cryptocurrency declines.
+  – The firm led by investor Cathie Wood offloaded its ARK 21Shares Bitcoin ETF (NYSE: $ARKB) from its investment funds as the price of the crypto declines from its early October highs.
+  – To ensure diversification, Ark does not let any individual holding take up more than 10% of its fund portfolios.
+  – The fund currently has $2.5 billion U.S.
+  – Ark Invest's sale comes as the price of Bitcoin falls below the key support level of $80,000 U.S.
+Link: https://finance.yahoo.com/markets/crypto/articles/ark-invest-sells-15-million-134700893.html
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: BTC
+Como falar: 'saiu no Yahoo Finance: Ark Invest Sells $15 Million Of Its Own Bitcoin ETF As Price Falls; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 27/10 10h47
+id: E05-BTC-343848630a-2026-10-27 · status: pendente
+
+[ATENÇÃO] E05 · KO · Coca-Cola Posts Strong Financial Results And Raises Guidance
+TradingView (Reuters) · 27/10 10h45 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/baystreet:6b0a18620094b:0-coca-cola-posts-strong-financial-results-and-raises-guidance/
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: KO
+Como falar: 'saiu no TradingView (Reuters): Coca-Cola Posts Strong Financial Results And Raises Guidance; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 27/10 10h45
+id: E05-KO-51bd5376b5-2026-10-27 · status: linha
+
+[ATENÇÃO] E05 · KO · Coca-Cola raises full-year outlook after profit rise in Q3
+Yahoo Finance · 27/10 10h18 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – For fiscal 2026, the company now expects organic revenue growth of at least 5%, compared with its previous forecast of approximately 5%.
+  – Comparable currency-neutral earnings per share, excluding acquisitions and divestitures, are now expected to increase at least 9%, up from the earlier range of 7% to 8%.
+  – "Our results this quarter demonstrate our system's sustained momentum, giving us confidence in our updated full year guidance," said Henrique Braun, chief executive of The Coca-Cola Company.
+  – Third-quarter net income rose to $4.009 billion from $3.696 billion a year earlier.
+  – Excluding items, adjusted earnings came in at $3.944 billion.
+  – Operating income increased 12% to $4.465 billion from $3.982 billion last year.
+Link: https://finance.yahoo.com/markets/stocks/articles/coca-cola-raises-full-outlook-131841270.html
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: KO
+Como falar: 'saiu no Yahoo Finance: Coca-Cola raises full-year outlook after profit rise in Q3; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 27/10 10h18
+id: E05-KO-a368d46814-2026-10-27 · status: linha
+
+[ATENÇÃO] E05 · KO · Coca-Cola raises 2026 earnings guidance after quarterly revenue grows
+Yahoo Finance · 27/10 09h39 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – The Coca-Cola Company (NYSE:KO) raised its full-year earnings guidance after third-quarter revenue increased 7% to $13.4 billion and comparable earnings per share rose 11% to $0.91.
+  – The Atlanta-based company now expects comparable earnings per share to grow by at least 11% in 2026, up from its previous forecast of 9% to 10%.
+  – Coca-Cola also raised its free cash flow forecast to at least $13 billion, up from approximately $12.4 billion, while projecting cash generated from operations of at least $15.2 billion.
+  – Organic revenue growth, which excludes the effects of currency movements and acquisitions and disposals, is expected to reach at least 5%, compared with previous guidance of approximately 5%.
+  – Third-quarter operating performance benefited from stronger beverage volumes, with global unit case sales increasing 5% as Coca-Cola gained customers in India, China, Mexico and Brazil.
+  – Comparable operating income, which excludes certain exceptional items, rose 8% after accounting for currency movements, while the comparable operating margin expanded to 32.9% from 31.9%.
+Link: https://finance.yahoo.com/markets/stocks/articles/coca-cola-raises-2026-earnings-123900727.html
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: KO
+Como falar: 'saiu no Yahoo Finance: Coca-Cola raises 2026 earnings guidance after quarterly revenue grows; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 27/10 09h39
+id: E05-KO-6122519784-2026-10-27 · status: linha
+
+[ATENÇÃO] E05 · NVDA · Nvidia, AMD to invest $4 billion in Meta as tech giants deepen AI partnership
+CNBC · 27/10 05h40 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Nvidia and Advanced Micro Devices have said they will invest a total of $4 billion in Meta after the social media and artificial intelligence giant announced plans to raise $95 billion to support its investments in AI i…
+  – Meta on Monday said it would initially raise $35 billion in underwritten public equity offerings, before raising an additional $60 billion with an at-the-market program.
+  – Nvidia on Tuesday said it would invest $3 billion in Meta's equity offering, with AMD announcing it would invest $1 billion.
+  – Meta's Monday announcement said Nvidia, AMD and Broadcom were interested in purchasing up to $5 billion in shares.
+  – "AI agents represent a new computing paradigm — software that understands our goals, reasons, uses tools and gets work done on our behalf," said Nvidia CEO Jensen Huang in a statement.
+  – "This changes how we use computers, from operating applications to working with intelligent agents." "We're excited to keep working with NVIDIA to deliver the best personal agents and frontier models for billions of peo…
+Link: https://www.cnbc.com/2026/10/27/nvidia-invest-meta.html
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: NVDA · AMD
+Como falar: 'saiu no CNBC: Nvidia, AMD to invest $4 billion in Meta as tech giants deepen AI partnership; confirmar o número no texto antes de repassar'
+Fonte: CNBC 27/10 05h40
+id: E05-NVDA-1a8fb34199-2026-10-27 · status: linha
+
+[ATENÇÃO] E05 · ITUB4 · Itaú compra startup NeoSpace por R$ 2,9 bi
+Valor Economico · 27/10 05h00 · + Suno Noticias · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – A operação busca ampliar a capacidade do banco de desenvolver tecnologias próprias para serviços financeiros, diz a instituição em comunicado.
+  – A tecnologia da NeoSpace também deve contribuir para a evolução da ia.i, plataforma de IA generativa do banco, com possibilidades de personalização de serviços, orientações financeiras e oferta de crédito aos clientes.
+Link: https://valor.globo.com/impresso/noticia/2026/10/27/itau-compra-startup-neospace-por-r-29-bi.ghtml
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: ITUB4
+Como falar: 'saiu no Valor Economico: Itaú compra startup NeoSpace por R$ 2,9 bi; confirmar o número no texto antes de repassar'
+Fonte: Valor Economico 27/10 05h00
+id: E05-ITUB4-54d4bf87aa-2026-10-27 · status: linha
+
+[ATENÇÃO] E05 · KO · Watch Coca-Cola Raises Guidance, North America Sales Disappoint
+Bloomberg · 26/10 21h00 · fonte única · licença: manchete
+Link: https://www.bloomberg.com/news/videos/2026-10-27/coca-cola-raises-guidance-as-north-america-sales-miss-video
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: KO
+Como falar: 'saiu no Bloomberg: Watch Coca-Cola Raises Guidance, North America Sales Disappoint; confirmar o número no texto antes de repassar'
+Fonte: Bloomberg 26/10 21h00
+id: E05-KO-ee54f485c2-2026-10-27 · status: linha
 
 [ATENÇÃO] E05 · CVX · Chevron: Holding For The Dividend And Buybacks But Not Adding With Brent Above $115 (CVX)
 Seeking Alpha · 27/10 10h00 · fonte única · licença: manchete
@@ -50,7 +162,7 @@ Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir
 Ativos: CVX · BRENT
 Como falar: 'saiu no Seeking Alpha: Chevron: Holding For The Dividend And Buybacks But Not Adding With Brent Above $115 (CVX); confirmar o número no texto antes de repassar'
 Fonte: Seeking Alpha 27/10 10h00
-id: E05-CVX-d08c5ca572-2026-10-27 · status: pendente
+id: E05-CVX-d08c5ca572-2026-10-27 · status: entregue
 
 [ATENÇÃO] E05 · KO · Coca-Cola raises earnings outlook as North America business slows
 Yahoo Finance · 27/10 08h50 · fonte única · licença: resumo
@@ -66,7 +178,7 @@ Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; 
 Ativos: KO
 Como falar: 'saiu no Yahoo Finance: Coca-Cola raises earnings outlook as North America business slows; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 27/10 08h50
-id: E05-KO-30aea7ed17-2026-10-27 · status: pendente
+id: E05-KO-30aea7ed17-2026-10-27 · status: entregue
 
 [ATENÇÃO] E05 · AXIA3 · Axia Energia (AXIA3) assina carta-mandato com IDB Invest para potencial financiamento de até R$ 680 milhões
 Money Times · 27/10 08h49 · + InfoMoney, CNN Brasil · licença: integral
@@ -78,7 +190,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: AXIA3
 Como falar: 'saiu no Money Times: Axia Energia (AXIA3) assina carta-mandato com IDB Invest para potencial financiamento de…; confirmar o número no texto antes de repassar'
 Fonte: Money Times 27/10 08h49
-id: E05-AXIA3-77bee8b844-2026-10-27 · status: pendente · íntegra disponível
+id: E05-AXIA3-77bee8b844-2026-10-27 · status: entregue · íntegra disponível
 
 [ATENÇÃO] E05 · BTC · Bitcoin hovers near $80,000 as AI stock jitters spill into crypto
 TradingView (Reuters) · 27/10 08h46 · fonte única · licença: manchete
@@ -233,8 +345,22 @@ Fonte: Yahoo Finance 26/10 17h53
 id: E05-TSLA-afffcb7976-2026-10-26 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (31)
+## OUTRAS NOTÍCIAS (só manchete) (45)
 
+· INTC Intel Quantum Acquisition Might Not Be Enough to Make It a Powerhouse (Barron's) https://www.barrons.com/articles/intel-quantum-acquisition-classiq-8db96649
+· BBAS3 BBAS3: ação do Banco do Brasil sobe após “tombo” de quase 30%; mercado mantém cautela (InfoMoney) https://www.infomoney.com.br/mercados/bbas3-desempenho-acao-do-banco-do-brasil-apos-tombo-de-quase-30-mercado-mantem-cautela/
+· TESOURO Tesouro Direto atrasa abertura mais uma vez, em meio a expectativa de queda nas taxas (InfoMoney) https://www.infomoney.com.br/onde-investir/tesouro-direto-abertura-fechamento-27102026/
+· USDBRL Ibovespa opera na estabilidade após tombo com eleição; dólar cai mais de 1% (Exame) https://exame.com/invest/mercados/ibovespa-opera-na-estabilidade-apos-tombo-com-eleicao-dolar-cai-mais-de-1/
+· AXIA3 Axia Energia busca R$ 680 milhões com braço do BID para ampliar infraestrutura elétrica (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/axia-energia-busca-r-680-milhoes-com-braco-do-bid-para-ampliar-infraestrutura-eletrica/
+· AMD Advanced Micro Devices (AMD) Ties AI Deals To $95 Billion Infrastructure Push (Yahoo Finance) https://news.google.com/rss/articles/CBMimwFBVV95cUxNQ2NvRFJMOTVERnp2TEFXSjhyd0N2THZyMGtaNDg1VlJTMUt4OC1vd3F3Zll3SmJvSGFtMjYycHFILXNybHBzMHlPc19RR0trWDJybmxjeVB4TEkwT0ZrS1hsQnMyM1dlSlpWYWNDblJUZC1NYUtGM29PSVZZazIwV2g1NE1DR0ZBVEIyTmtNQzc1bUg5RzRmWWY1QQ?oc=5
+· NVDA Nvidia and AMD Take $4B Chunk of Meta’s Equity. They Are Fighting Custom Chips. (Barron's) https://news.google.com/rss/articles/CBMigAFBVV95cUxNMWRsM3hhTFdOVTR4S2dZWkdCM2lLdUNvajFzRTRIN0wyQXRKUkdYd3hJWlNPQzEtYl8xa0paU3VSNzJUbnI4eE5fdzRGMktOUWE2cFpYMVZ5MEtPaWxuWU9uMUVaMko5dklsM0RmYWM0TGRzejRyRkl5UWt5SHJxag?oc=5
+· USDBRL Dólar cai a R$ 5,35 e Bolsa abre em alta, após ajustes do mercado à eleição (UOL Economia) https://news.google.com/rss/articles/CBMiswFBVV95cUxOR2FOeWdUcWNsZ0pTWXlGZTZxb2oybV9tdFRDUDZmdk4zTk1mTjlwVC10b3FuLTNHaVpBc1hKVDVnMWJpZXNnaEpNTG1qQ0I5MmJ4RU1MQmRFLUNvNW8xSGg0aVU3RFJndnl3QWVRYkZWNU42Q3ZYVWtwTEk4cjEzTk9JSDBwYkZObXpZQXB1eUFmSFFudTNLZlJyQnhYZVRleVVKOGRjdWZkRGt1VjFqT1VxSQ?oc=5
+· INTC Can Higher Data Center Revenues Propel Intel's Q3 Earnings? (Yahoo Finance) https://news.google.com/rss/articles/CBMiiwFBVV95cUxNa0dmSjVDampmWXZkSHZVYkZlaWtETkxrOU9oTmNvVzBFTV9RcTl3NUNwN0I2dExyck5xSUduMDBYNl9uNlBJTmxQWU5IZllfNm4xdVVfcVhJWHo4UGRGSl81M0hnR3k1d2tOVUdHOFBzVGxfZjE4U3dOTVYzb3FTREdVQlh5bDdaRUNR?oc=5
+· GOOGL Prediction: Alphabet Could Be Sitting on More Upside Than Investors Realize (Yahoo Finance) https://news.google.com/rss/articles/CBMipgFBVV95cUxNUXoxZVVqZGpDQk9uMEVJUTVndWxqcUU0ZDBhU3ZKLWNNVldVenk4bERvOHlBM3ZyN3U1RXdILXE1MFhFTF9aRFJWRDZZREtES0dxZGRwQ3VQamxwVlRNdF9DRnpSanp1aGg0TmoycmFFQW1NTkZjNlQ0Y0VvRzgwV2hSREVtaHg1dTdQMjZ0eHBnUlp2QUMwSld3OFZPYWwwMmtDQ19n?oc=5
+· USDBRL Dólar cai 1,6% e devolve parte da disparada após reeleição de Lula (Suno Noticias) https://news.google.com/rss/articles/CBMiiAFBVV95cUxNNFFlYXRLYi1NMkRWRnpTYzhIdnFmY0ZnVU5WbDZDVU5GS09iS28xeXU0OTJpbDE1Y2gwYXRiLUxRM01zRWF3aTI1TjV6V2xUc0U4Mk1lVURySXpDaHZ6OElBVnVUUExDT1VxTVR3dkZtR1QtRnlUSS02aS02dTl3eVJFM1l5MVRW0gGOAUFVX3lxTE5rUk5ud3N4c0ktNHBqN2NmZnk5N2FoM19xalVxNUFiTmJPNk9mMmZUVkRQcXQwTmR1Rkd0RzdvaTJObFhiVjl2bGJKWEcxdU9DZVFVbnZUUlhkZGZhdlZyTDhMTnVMQzBsbkp3X2JBRS1JU0RtNEp1UWNLRzdMWkRGR1I2LXp3LWxtdDFCZGc?oc=5
+· ETH Current price of Ethereum for October 27, 2026 (Fortune) https://news.google.com/rss/articles/CBMiaEFVX3lxTE1sUjhfaWRUb1VzRGMxYjFFQktVU0ExOTZIV2x0UXdRRXNoS3l2bDFjR19wcVVGZkl4NjAyWGxWWVlsTVNPSTJLQ0NQTUE0cTBNYl9hak8wYk1YNkZUcENpd2VmejNMMUZK?oc=5
+· BTC Current price of Bitcoin for October 27, 2026 (Fortune) https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBVZVdoa0V4Y3ZqckhTYTN6TklOc2dXUkRhQTA1Yjk4emZIbkN0WHNEdVlfdmxDLTBVRUdMRmtUVFhKT3B1bVVrWnhydmI0cTgzRkd0azczQ1hrakV4OFF3R1ZPUjNqNWM?oc=5
+· AVGO Broadcom Helps Seal $63 Billion Anthropic AI Financing (Yahoo Finance) https://news.google.com/rss/articles/CBMimgFBVV95cUxNYXdBZ2hKU1VGeUlGR050V2t2RHdIbEVhOUpfRm5jLVFZeWstQWlEbkIwaWRjYzdjaXBBM0wzX1A3ckh6dURIbGp3eEE5ZXlTMnBZbk51cXIzV0ZjR1BERlhzQ1hVMkhOQWRrVUlLWlJFZ2RycVdRRWw2Y0hfNVFERFhhcjNsdUhfTFY2ZmFjTHlvcUNyYVRQMVFn?oc=5
 · USDBRL Ibovespa hoje sobe após tombo de quase 14% com reeleição de Lula; dólar recua a R$ 5,34 (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/ibovespa-hoje-apos-tombo-de-quase-14-com-vitoria-de-lula-o-que-esperar-da-bolsa-nesta-terca/
 · GOOGL Servicenow And Google Cloud Advance Agentic Ai For Industry Workflows (TradingView (Reuters)) https://www.tradingview.com/news/reuters.com,2026:newsml_TUA9FDXT8:0-servicenow-and-google-cloud-advance-agentic-ai-for-industry-workflows/
 · USDBRL Dólar abre em baixa, a R$ 5,39, acomodando após alta de 8% ontem (UOL Economia) https://economia.uol.com.br/cotacoes/noticias/redacao/2026/10/27/dolar-bolsa-abre-hoje-27-de-outubro-de-2026.ghtm

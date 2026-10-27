@@ -1,83 +1,72 @@
 ALERTAS · intradia
 
-[CRÍTICO] F01 · Real sobe: USD/BRL 5,3247 (+6,1% em 5 sessões · 10 dias seguidos de movimento doméstico) (parcial, intradia)
-DXY +0,3% no dia: movimento doméstico (risco Brasil), resíduo -1,4%
-1m +2,7% · 6m +6,5% · YTD -2,8%
-Por que importa: BRL e DI piorando juntos com DXY fraco é prêmio de risco Brasil; só reverte com sinal fiscal
-Ativos: UCITS em R$ ↓ · exportadoras (VALE3, KLBN4) ↓
-Como falar: 'o câmbio acompanhou o dólar no mundo; não é notícia brasileira'
-Fonte: Yahoo Finance 27/10; BCB PTAX
-Push: [CRÍTICO] USDBRL Real sobe · detalhe na sessão
-ids: F01-USDBRL-queda-2026-10-27
-
-[ATENÇÃO] E05 · CVX · Chevron: Holding For The Dividend And Buybacks But Not Adding With Brent Above $115 (CVX)
-Seeking Alpha · 27/10 10h00 · fonte única · licença: manchete
-Link: https://seekingalpha.com/article/4957752-chevron-holding-dividend-buybacks-not-adding-with-brent-above-115
-Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
-Ativos: CVX · BRENT
-Como falar: 'saiu no Seeking Alpha: Chevron: Holding For The Dividend And Buybacks But Not Adding With Brent Above $115 (CVX); confirmar o número no texto antes de repassar'
-Fonte: Seeking Alpha 27/10 10h00
-Push: intradia: 3 alertas de atenção — E05 CVX, E05 KO, E05 AXIA3 · detalhe na sessão
-ids: E05-CVX-d08c5ca572-2026-10-27
-
-[ATENÇÃO] E05 · KO · Coca-Cola raises earnings outlook as North America business slows
-Yahoo Finance · 27/10 08h50 · fonte única · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – The company posted adjusted earnings of $0.91 per share, above the $0.88 expected by Wall Street analysts, alongside revenue of $13.4 billion, also higher than estimates of $12.9 billion.
-  – Overall unit case volume grew by 5%, more than the roughly 3% expected.
-  – The increase was once again led by Coke Zero, which grew roughly 16% year over year.
-  – Diet Coke and Coca-Cola Light grew by 6%.
-  – "We are very mindful of the input costs that come our way, and the conflict in the Middle East this year … has had a pretty significant impact on fuel prices," CFO John Murphy told Yahoo Finance earlier this year.
-  – Coca-Cola now expects earnings growth of 11%, compared to a prior range of 9% to 10%.
-Link: https://finance.yahoo.com/markets/stocks/article/coca-cola-raises-earnings-outlook-as-north-america-business-slows-115001447.html
-Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
-Ativos: KO
-Como falar: 'saiu no Yahoo Finance: Coca-Cola raises earnings outlook as North America business slows; confirmar o número no texto antes de repassar'
-Fonte: Yahoo Finance 27/10 08h50
-ids: E05-KO-30aea7ed17-2026-10-27
-
-[ATENÇÃO] E05 · AXIA3 · Axia Energia (AXIA3) assina carta-mandato com IDB Invest para potencial financiamento de até R$ 680 milhões
-Money Times · 27/10 08h49 · + InfoMoney, CNN Brasil · licença: integral
-Do texto:
-  – O mandato prevê a estruturação de um potencial financiamento de até R$ 680 milhões para o desenvolvimento e a implantação do Lote 7 da Concessão de Transmissão, formado pelos Sublotes 7A e 7B, arrematado no Leilão de Tr…
-  – Segundo o comunicado, os recursos seriam destinados ao projeto de instalação de três compensadores síncronos de 500 kV no Rio Grande do Norte, sendo dois na Subestação Açu III e um na Subestação João Câmara III.
-Link: https://www.moneytimes.com.br/axia-energia-axia3-assina-carta-mandato-com-idb-invest-para-potencial-financiamento-de-ate-r-680-milhoes-lmrs/
+[ATENÇÃO] E05 · AXIA3 · Axia negocia até R$ 680 milhões com IDB Invest para transmissão
+UOL Economia · 27/10 11h04 · fonte única · licença: manchete
+Link: https://megawhat.uol.com.br/economia-e-politica/empresas/axia-negocia-ate-r-680-milhoes-com-idb-invest-para-transmissao/
 Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
 Ativos: AXIA3
-Como falar: 'saiu no Money Times: Axia Energia (AXIA3) assina carta-mandato com IDB Invest para potencial financiamento de…; confirmar o número no texto antes de repassar'
-Fonte: Money Times 27/10 08h49
-ids: E05-AXIA3-77bee8b844-2026-10-27
+Como falar: 'saiu no UOL Economia: Axia negocia até R$ 680 milhões com IDB Invest para transmissão; confirmar o número no texto antes de repassar'
+Fonte: UOL Economia 27/10 11h04
+Push: intradia: 3 alertas de atenção — E05 AXIA3, E05 KO, E05 BTC · detalhe na sessão
+ids: E05-AXIA3-d56332cd55-2026-10-27
+
+[ATENÇÃO] E05 · KO · Earnings call transcript: Coca-Cola beats Q3 2026 forecasts as sales rise
+Investing.com · 27/10 10h47 · fonte única · licença: manchete
+Link: https://www.investing.com/news/transcripts/earnings-call-transcript-cocacola-beats-q3-2026-forecasts-as-sales-rise-93CH-4975880
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: KO
+Como falar: 'saiu no Investing.com: Earnings call transcript: Coca-Cola beats Q3 2026 forecasts as sales rise; confirmar o número no texto antes de repassar'
+Fonte: Investing.com 27/10 10h47
+ids: E05-KO-d0e1c47ffd-2026-10-27
+
+[ATENÇÃO] E05 · BTC · Ark Invest Sells $15 Million Of Its Own Bitcoin ETF As Price Falls
+Yahoo Finance · 27/10 10h47 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Asset manager Ark Invest has sold $15.9 million U.S.
+  – worth of its own Bitcoin (CRYPTO: $BTC) exchange-traded fund (ETF) as the price of the largest cryptocurrency declines.
+  – The firm led by investor Cathie Wood offloaded its ARK 21Shares Bitcoin ETF (NYSE: $ARKB) from its investment funds as the price of the crypto declines from its early October highs.
+  – To ensure diversification, Ark does not let any individual holding take up more than 10% of its fund portfolios.
+  – The fund currently has $2.5 billion U.S.
+  – Ark Invest's sale comes as the price of Bitcoin falls below the key support level of $80,000 U.S.
+Link: https://finance.yahoo.com/markets/crypto/articles/ark-invest-sells-15-million-134700893.html
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: BTC
+Como falar: 'saiu no Yahoo Finance: Ark Invest Sells $15 Million Of Its Own Bitcoin ETF As Price Falls; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 27/10 10h47
+ids: E05-BTC-343848630a-2026-10-27
 
 Info (só linha no Fechamento):
-· E05 USDBRL · Ibovespa hoje sobe após tombo de quase 14% com reeleição de Lula; dólar recua a R$ 5,34
-· E05 GOOGL · Servicenow And Google Cloud Advance Agentic Ai For Industry Workflows
-· E05 USDBRL · Dólar abre em baixa, a R$ 5,39, acomodando após alta de 8% ontem
-· E05 GOOGL · ServiceNow expands partnership with Google Cloud for AI agents By Investing.com
-· E05 BTC · Jason Calacanis Predicts a ‘Brutal Year’ for Bitcoin, Urges Holders to Shift to AI
-· E05 KO · The Coca-Cola Company 2026 Q3 - Results - Earnings Call Presentation (NYSE:KO) 2026-10-27
-· E05 USDBRL · Dólar hoje cai mais de 1% após forte alta registrada com vitória de Lula
-· E05 BRENT · Dólar vira para baixo com ajuste após estresse eleitoral e recuo em Treasuries e petróleo
+· E05 INTC · Intel Quantum Acquisition Might Not Be Enough to Make It a Powerhouse
+· E05 BBAS3 · BBAS3: ação do Banco do Brasil sobe após “tombo” de quase 30%; mercado mantém cautela
+· E05 TESOURO · Tesouro Direto atrasa abertura mais uma vez, em meio a expectativa de queda nas taxas
+· E05 USDBRL · Ibovespa opera na estabilidade após tombo com eleição; dólar cai mais de 1%
+· E05 AXIA3 · Axia Energia busca R$ 680 milhões com braço do BID para ampliar infraestrutura elétrica
+· E05 AMD · Advanced Micro Devices (AMD) Ties AI Deals To $95 Billion Infrastructure Push
+· E05 NVDA · Nvidia and AMD Take $4B Chunk of Meta’s Equity. They Are Fighting Custom Chips.
+· E05 USDBRL · Dólar cai a R$ 5,35 e Bolsa abre em alta, após ajustes do mercado à eleição
+· E05 INTC · Can Higher Data Center Revenues Propel Intel's Q3 Earnings?
+· E05 GOOGL · Prediction: Alphabet Could Be Sitting on More Upside Than Investors Realize
+· E05 USDBRL · Dólar cai 1,6% e devolve parte da disparada após reeleição de Lula
+· E05 ETH · Current price of Ethereum for October 27, 2026
+· E05 BTC · Current price of Bitcoin for October 27, 2026
 · E05 AVGO · Broadcom Helps Seal $63 Billion Anthropic AI Financing
-· E05 USDBRL · Dólar abre em queda após disparada com vitória de Lula; juros futuros recuam
-· E05 UST · U.S. Treasury yields hover near multi-week lows ahead of Fed decision
-· E05 BTC · Tom Lee Sees ‘One of the Biggest Rallies of Our Lifetime’ as $10.8B Bitcoin Options Expiry Looms
-· E05 USDBRL · Dólar cai perto de 1% na abertura após disparada pós-eleição Por Reuters
-· E05 TSM · Cathie Wood Trims AMD and TSMC, Adds Air Taxi Bets
-· E05 ETH · Current price of Ethereum for Oct. 27, 2026
-· E05 BTC · Bitcoin hovers near $80,000 as AI stock jitters spill into crypto
-· E05 KO · Coca-Cola Raises Outlook as Increased Volumes, Prices Boost Results
-· E05 KO · Coca-Cola Raises Guidance, Buoyed by Soda Sales Abroad
-· E05 TSLA · SPCX Stock Up Nearly 10% Since IPO — Analyst Sees 82% Upside Without Tesla Merger, Even If Revenue Misses Lofty Goals
-· S01 coleta do slot intradia saiu incompleta: bcb: BCB devolveu 4 de 5 séries (faltaram ptax_venda)
+· E05 KO · Coca-Cola Posts Strong Financial Results And Raises Guidance
+· E05 KO · Coca-Cola raises full-year outlook after profit rise in Q3
+· E05 KO · Coca-Cola raises 2026 earnings guidance after quarterly revenue grows
+· E05 NVDA · Nvidia, AMD to invest $4 billion in Meta as tech giants deepen AI partnership
+· E05 ITUB4 · Itaú compra startup NeoSpace por R$ 2,9 bi
+· E05 KO · Watch Coca-Cola Raises Guidance, North America Sales Disappoint
 
-Suprimidos pelo teto (viram linha do Fechamento): E05-BTC-1ee569e358-2026-10-27 (teto de noticias), E05-KO-2c2770c262-2026-10-27 (teto de noticias), E05-KO-03e4badbea-2026-10-27 (teto de noticias), E05-TSLA-795cec2e3f-2026-10-27 (teto de noticias), S01-SISTEMA-intradia-2026-10-27 (teto de atenção)
+Suprimidos pelo teto (viram linha do Fechamento): E05-KO-51bd5376b5-2026-10-27 (teto de noticias), E05-KO-a368d46814-2026-10-27 (teto de noticias), E05-KO-6122519784-2026-10-27 (teto de noticias), E05-NVDA-1a8fb34199-2026-10-27 (teto de noticias), E05-ITUB4-54d4bf87aa-2026-10-27 (teto de noticias), E05-KO-ee54f485c2-2026-10-27 (teto de noticias)
 
 Alertas do dia (todos, com status):
-· pendente  F01 USDBRL — Real sobe: USD/BRL 5,3247 (+6,1% em 5 sessões · 10 dias seguidos de movimento do
-· pendente  E05 CVX — CVX · Chevron: Holding For The Dividend And Buybacks But Not Adding With Brent A
-· pendente  E05 KO — KO · Coca-Cola raises earnings outlook as North America business slows
-· pendente  E05 AXIA3 — AXIA3 · Axia Energia (AXIA3) assina carta-mandato com IDB Invest para potencial 
-· linha     S01 SISTEMA — coleta do slot intradia saiu incompleta: bcb: BCB devolveu 4 de 5 séries (faltar
+· entregue  F01 USDBRL — Real sobe: USD/BRL 5,3330 (+6,3% em 5 sessões · 11 dias seguidos de movimento do
+· pendente  E05 AXIA3 — AXIA3 · Axia negocia até R$ 680 milhões com IDB Invest para transmissão
+· pendente  E05 KO — KO · Earnings call transcript: Coca-Cola beats Q3 2026 forecasts as sales rise
+· pendente  E05 BTC — BTC · Ark Invest Sells $15 Million Of Its Own Bitcoin ETF As Price Falls
+· entregue  E05 CVX — CVX · Chevron: Holding For The Dividend And Buybacks But Not Adding With Brent A
+· entregue  E05 KO — KO · Coca-Cola raises earnings outlook as North America business slows
+· entregue  E05 AXIA3 — AXIA3 · Axia Energia (AXIA3) assina carta-mandato com IDB Invest para potencial 
 · entregue  E01 GOOGL — GOOGL: resultado sai na próxima sessão (28/10)
 · entregue  E01 VALE3 — VALE3: resultado sai na próxima sessão (28/10)
 · entregue  E01 KLBN4 — KLBN4: resultado sai na próxima sessão (28/10)
@@ -86,4 +75,4 @@ Alertas do dia (todos, com status):
 · entregue  E05 BTC — BTC · Jason Calacanis tells investors to sell Bitcoin, predicts a slide to $57,0
 · entregue  E05 KO — KO · BRIEF-Coca-Cola Outlook FY Organic Revenue Growth 5%
 · linha     F05 BHKP — Celulose (proxy SHFE, fibra longa) -3,0% na semana: 4.532 CNY/t (27/10)
-· (+48 notícias só manchete, em noticias.md)
+· (+68 notícias só manchete, em noticias.md)
