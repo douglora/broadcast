@@ -1,7 +1,7 @@
 # Boletim da B3: pregão de 23/10/2026 (sexta)
 
 **Situação: COMPLETO.** Boletim publicado pela B3 em 2026-10-23 00:00 (hora de Brasília).
-Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10-27T05:34:00Z (UTC).
+Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10-27T11:55:58Z (UTC).
 
 [[LEITURA_DA_MESA]]
 
@@ -287,9 +287,9 @@ Nas incentivadas, a mediana pelos negócios do dia (B3 negócios de 23/10) foi I
 | CPGS16 (Companhia Paranaense De Gas ) | IPCA+ 7,02% (ANBIMA indicativa de 23/10) | IPCA+ 6,32%, R$ 83,4 mi | +42 pb na duration |
 | ENMTG8 (Energisa Mato Grosso - Distr) | IPCA+ 7,52% (ANBIMA indicativa de 23/10) | IPCA+ 7,39%, R$ 79,8 mi | +92 pb na duration |
 
-**Abriram taxa pela indicativa da ANBIMA:** SUMI18 +11,5 pb contra 22/10, para IPCA+ 14,81% (R$ 29,9 mi); ARTRA7 +6,7 pb contra 22/10, para IPCA+ 9,76% (R$ 20,1 mi); ENAT32 +4,5 pb contra 22/10, para 14,34% pré (R$ 3,2 mi); BARU11 +3,8 pb contra 22/10, para IPCA+ 7,57% (R$ 3,3 mi); VRDN12 +3,3 pb contra 22/10, para IPCA+ 8,44% (R$ 61,6 mi).
+**Abriram taxa pela indicativa da ANBIMA:** SUMI18 +11,5 pb contra 22/10, para IPCA+ 14,81% (R$ 29,9 mi); ARTRA7 +6,7 pb contra 22/10, para IPCA+ 9,76% (R$ 20,1 mi); ENAT32 +4,5 pb contra 22/10, para 14,34% pré (R$ 3,2 mi); BARU11 +3,8 pb contra 22/10, para IPCA+ 7,57% (R$ 3,3 mi); SBSPB6 +3,3 pb contra 22/10, para IPCA+ 6,86% (R$ 6,2 mi).
 **Fecharam taxa pela indicativa da ANBIMA:** CPGS16 -46,9 pb contra 22/10, para IPCA+ 7,02% (R$ 83,4 mi); SBSPK8 -30,3 pb contra 22/10, para IPCA+ 6,93% (R$ 22,2 mi); CESPA3 -28 pb contra 22/10, para IPCA+ 7,22% (R$ 39,8 mi); CESE32 -26,4 pb contra 22/10, para IPCA+ 7,22% (R$ 55,8 mi); CGOSA2 -24,9 pb contra 22/10, para IPCA+ 7,47% (R$ 3,3 mi).
-**Abriram taxa pelos negócios da B3:** 22F0315398 +53 pb contra 01/10, para CDI+ 0,58% (R$ 3,4 mi); CRA02300NAX +44 pb contra 22/10, para IPCA+ 7,98% (R$ 3,9 mi); 23L1737622 +19 pb contra 15/10, para IPCA+ 7,52% (R$ 3,4 mi); CRA022002Y2 +5 pb contra 21/10, para IPCA+ 8,27% (R$ 3,4 mi); CRA02500B9M +1 pb contra 13/10, para CDI+ 1,22% (R$ 6,8 mi).
+**Abriram taxa pelos negócios da B3:** 22F0315398 +53 pb contra 01/10, para CDI+ 0,58% (R$ 3,4 mi); CRA02300NAX +44 pb contra 22/10, para IPCA+ 7,98% (R$ 3,9 mi); 23L1737622 +19 pb contra 15/10, para IPCA+ 7,52% (R$ 3,4 mi); CRA022002Y2 +5 pb contra 21/10, para IPCA+ 8,27% (R$ 3,4 mi); 25L4107389 +1 pb contra 22/10, para CDI+ 6,50% (R$ 4,6 mi).
 **Fecharam taxa pelos negócios da B3:** CRA025008NA -140 pb contra 18/09, para 13,50% pré (R$ 56,4 mi); CRA021000RX -108 pb contra 22/10, para IPCA+ 12,31% (R$ 3,4 mi); AGVL15 -82 pb contra 07/10, para IPCA+ 7,80% (R$ 5,2 mi); 23H0190135 -45 pb contra 22/10, para IPCA+ 9,79% (R$ 4,7 mi); CRA022007EP -41 pb contra 22/10, para IPCA+ 7,00% (R$ 9,9 mi).
 **Prêmio alto:** SUMI18 a IPCA+ 14,81% (ANBIMA indicativa de 23/10), +804 pb na duration, R$ 29,9 mi; 25L4107389 a CDI+ 6,50% (B3 negócios de 23/10), R$ 4,6 mi; CRA021000RX a IPCA+ 12,31% (B3 negócios de 23/10), +540 pb no vencimento, R$ 3,4 mi; IRJS14 a IPCA+ 11,63% (ANBIMA indicativa de 23/10), +498 pb na duration, R$ 17,2 mi; VBRR11 a IPCA+ 11,70% (ANBIMA indicativa de 23/10), +493 pb na duration, R$ 53,9 mi.
 
