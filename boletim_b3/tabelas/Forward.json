@@ -1,19 +1,19 @@
 {
- "pregao": "2026-10-23",
+ "pregao": "2026-10-26",
  "nome": "Forward",
  "titulo": "Ações mais negociadas - a termo",
  "sla": "8:00:00",
  "paginas": 1,
  "colunas": [{"nome": "TckrSymb", "titulo": "Ação"}, {"nome": "Cod", "titulo": "Código"}, {"nome": "Term", "titulo": "Prazo"}, {"nome": "Closing", "titulo": ""}, {"nome": "TradQty", "titulo": ""}, {"nome": "VlmTradedDay", "titulo": "Volume (R$) mil"}, {"nome": "Part", "titulo": "Participação (%)"}],
  "texto": ["Lista ações com maior volume de negociação em contratos a termo, destacando as mais ativas."],
- "situacao": "republicado",
- "atualizado_em": "2026-10-24T10:53:28.113",
+ "situacao": "publicado",
+ "atualizado_em": "2026-10-26T19:12:39.247",
  "truncada": false,
  "linhas": [
-  ["ISHARES BOVACI", "CI", 17, 203.07, 19158, 3890.4150600000003, 0.2738921115554935],
-  ["ISHARES BOVACI", "CI", 56, 205.1, 48800, 10008.88, 0.6976686002666296],
-  ["ISHARES SMALCI", "CI", 17, 138.4, 100043, 13845.951200000001, 1.430263520009722],
-  ["B3          ON      NM", "ON      NM", 17, 23.81, 193500, 4607.235, 2.766370371958869],
-  ["VIBRA       ON      NM", "ON      NM", 31, 36.37, 1300000, 47281, 18.585434023496276]
+  ["AXIA ENERGIAON      NM", "ON      NM", 60, 50.59, 203000, 10269.77, 1.1610308627168509],
+  ["BRADESCO    PN      N1", "PN      N1", 57, 15.9, 910000, 14469, 5.204621108730714],
+  ["MAGAZ LUIZA ON      NM", "ON      NM", 30, 5.37, 1043100, 5601.447, 5.965868437930774],
+  ["ITAUUNIBANCOPN      N1", "PN      N1", 63, 42.24, 1424400, 60166.656, 8.1466618761275],
+  ["ECORODOVIAS ON      NM", "ON      NM", 360, 5.99, 4000000, 23960, 22.87745542299215]
  ]
 }

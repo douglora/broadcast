@@ -1,19 +1,19 @@
 {
- "pregao": "2026-10-23",
+ "pregao": "2026-10-26",
  "nome": "InCash",
  "titulo": "Ações mais negociadas - à vista",
  "sla": "8:00:00",
  "paginas": 1,
  "colunas": [{"nome": "TckrSymb", "titulo": "Ação"}, {"nome": "Cod", "titulo": "Código"}, {"nome": "VlmTradedDay", "titulo": "Volume (R$) mil"}, {"nome": "Participation", "titulo": "Participação (%)"}],
  "texto": ["Indica as ações que tiveram maior volume de negociação no mercado à vista, refletindo interesse do investidor."],
- "situacao": "publicado",
- "atualizado_em": "2026-10-23T19:00:28.35",
+ "situacao": "republicado",
+ "atualizado_em": "2026-10-26T19:22:25.733",
  "truncada": false,
  "linhas": [
-  ["PETR4", "PN      N2", 3437709.46, 8.283597335725764],
-  ["BBDC4", "PN  EJ  N1", 1937263.07, 4.668081288420435],
-  ["VALE3", "ON      NM", 1671196.874, 4.026961014017639],
-  ["BOVA11", "CI", 1612494.92439, 3.8855112146528885],
-  ["SMAL11", "CI", 1608456.5850499999, 3.8757803233757695]
+  ["PETR4", "PN      N2", 7459734.946, 6.6876251368656146],
+  ["BPAC11", "UNT     N2", 6206610.974, 5.56420407225396],
+  ["ITUB4", "PN      N1", 6034197.682, 5.409636185612462],
+  ["VALE3", "ON      NM", 6021159.012, 5.397947065573412],
+  ["BBAS3", "ON      NM", 4978645.162, 4.463337206207163]
  ]
 }

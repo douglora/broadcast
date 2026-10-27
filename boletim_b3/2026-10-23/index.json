@@ -1,6 +1,6 @@
 {
  "pregao": "2026-10-23",
- "coletado_em": "2026-10-24T14:50:10Z",
+ "coletado_em": "2026-10-27T00:51:14Z",
  "tabelas": {
   "SharesInvesVolum": {
    "titulo": "Participação dos investidores",
@@ -21,7 +21,7 @@
   "EconomicIndicators": {
    "titulo": "Indicadores econômicos",
    "situacao": "republicado",
-   "atualizado_em": "2026-10-24T10:52:29.73",
+   "atualizado_em": "2026-10-26T10:53:05.627",
    "sla": "8:00:00",
    "linhas": 432,
    "truncada": false
@@ -133,25 +133,25 @@
   "Forward": {
    "titulo": "Ações mais negociadas - a termo",
    "situacao": "republicado",
-   "atualizado_em": "2026-10-24T10:53:28.113",
+   "atualizado_em": "2026-10-26T10:54:44.4",
    "sla": "8:00:00",
    "linhas": 5,
    "truncada": false
   },
   "OptionsPurshase": {
    "titulo": "Ações mais negociadas - opções de compra",
-   "situacao": "publicado",
-   "atualizado_em": "2026-10-23T19:01:01.217",
+   "situacao": "republicado",
+   "atualizado_em": "2026-10-26T00:41:57.477",
    "sla": "8:00:00",
-   "linhas": 5,
+   "linhas": 10,
    "truncada": false
   },
   "OptionsSelling": {
    "titulo": "Ações mais negociadas - opções de venda",
-   "situacao": "publicado",
-   "atualizado_em": "2026-10-23T19:01:02.46",
+   "situacao": "republicado",
+   "atualizado_em": "2026-10-26T00:41:57.397",
    "sla": "8:00:00",
-   "linhas": 5,
+   "linhas": 10,
    "truncada": false
   },
   "DailyAverageDerivatives2": {
@@ -180,8 +180,8 @@
   },
   "AnalyticalFramework2": {
    "titulo": "Quadro analítico das posições em aberto",
-   "situacao": "aguardando",
-   "atualizado_em": "2026-10-23T00:00:38.013",
+   "situacao": "atrasado",
+   "atualizado_em": "2026-10-26T08:08:20.933",
    "sla": "8:00:00",
    "linhas": 75,
    "truncada": false
@@ -365,9 +365,9 @@
   "Trade": {
    "titulo": "Negócio a negócio",
    "situacao": "republicado",
-   "atualizado_em": "2026-10-23T20:06:08.597",
+   "atualizado_em": "2026-10-26T11:42:21.933",
    "sla": "18:00:00",
-   "linhas": 38572,
+   "linhas": 38616,
    "truncada": false
   },
   "BTBTrade": {
@@ -397,13 +397,17 @@
    "bytes": 19572180,
    "linhas": 86912,
    "estado": "Final"
+  },
+  "DerivativesOpenPosition": {
+   "arquivo": "DerivativesOpenPositionFile_20261023_1",
+   "bytes": 3222220,
+   "linhas": 40360,
+   "estado": null
   }
  },
- "falhas": {
-  "DerivativesOpenPosition": "arquivo DerivativesOpenPosition: token HTTP 400"
- },
+ "falhas": {},
  "rf_cadastro": {
-  "papeis_no_dia": 1652,
+  "papeis_no_dia": 1646,
   "consultados": 0,
   "achados": 0,
   "sem_cadastro": 0,

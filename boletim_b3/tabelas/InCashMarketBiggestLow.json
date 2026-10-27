@@ -1,5 +1,5 @@
 {
- "pregao": "2026-10-23",
+ "pregao": "2026-10-26",
  "nome": "InCashMarketBiggestLow",
  "titulo": "Mercado à vista - maiores baixas",
  "sla": "8:00:00",
@@ -7,18 +7,18 @@
  "colunas": [{"nome": "TckrSymb", "titulo": "Ação"}, {"nome": "Cod", "titulo": "Código"}, {"nome": "Price", "titulo": "Preço (R$)"}, {"nome": "OscillationDesc", "titulo": "Oscilação (%)"}],
  "texto": ["Mostra as maiores desvalorizações de ativos no mercado à vista num período."],
  "situacao": "publicado",
- "atualizado_em": "2026-10-23T19:00:29.15",
+ "atualizado_em": "2026-10-26T19:10:39.997",
  "truncada": false,
  "linhas": [
-  ["L1KQ34", "DRN", 87.89, -19.36],
-  ["C2GN34", "DRN", 34.97, -14.87],
-  ["C1AB34", "DRN", 24.34, -14.68],
-  ["M1LC34", "DRN", 9.34, -12.54],
-  ["P1KX34", "DRN", 64.68, -12.5],
-  ["AZEV3", "ON", 12.01, -11.49],
-  ["PSVM11", "TPR", 12.6, -10],
-  ["K1SG34", "DRN", 780.52, -9.61],
-  ["KNRE11", "CI", 0.19, -9.52],
-  ["AZTE11", "BNS ORD", 0.1, -9.09]
+  ["PRNR1", "DIR ORD NM", 0.03, -98.06],
+  ["SIMH3", "ON      NM", 5.85, -64.86],
+  ["LJQQ3", "ON      NM", 1.1, -63.93],
+  ["ECOR3", "ON      NM", 5.19, -60.53],
+  ["MOVI3", "ON      NM", 7.75, -58.48],
+  ["MGLU3", "ON      NM", 5.3, -58.23],
+  ["VAMO3", "ON      NM", 2.77, -56.78],
+  ["HAPV3", "ON      NM", 3.98, -54.92],
+  ["ARML3", "ON      NM", 3.31, -53.11],
+  ["TASA4", "PN      N2", 5.1, -52.2]
  ]
 }

@@ -1,11 +1,11 @@
 {
  "pregao": "2026-10-23",
- "situacao": "publicando",
+ "situacao": "publicado",
  "errata": false,
- "atualizado_em": "2026-10-24T10:55:38.007",
+ "atualizado_em": "2026-10-23T00:00:00",
  "completo": {
-  "arquivo": "",
-  "pdf": ""
+  "arquivo": "BDI_00_20261023.pdf",
+  "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-10-23/BDI_00_20261023.pdf"
  },
  "cadernos": [
   {
@@ -14,7 +14,7 @@
    "pai": null,
    "situacao": "publicado",
    "errata": false,
-   "atualizado_em": "2026-10-24T07:03:14.53",
+   "atualizado_em": "2026-10-26T08:08:20.933",
    "arquivo": "",
    "pdf": ""
   },
@@ -43,8 +43,8 @@
    "nome": "Indicadores e informativos",
    "pai": 20,
    "situacao": "republicado",
-   "errata": false,
-   "atualizado_em": "2026-10-24T10:55:38.007",
+   "errata": true,
+   "atualizado_em": "2026-10-26T10:55:40.297",
    "arquivo": "BDI_02_20261023.pdf",
    "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-10-23/BDI_02_20261023.pdf"
   },
@@ -53,8 +53,8 @@
    "nome": "Maiores oscilações",
    "pai": 20,
    "situacao": "republicado",
-   "errata": false,
-   "atualizado_em": "2026-10-24T10:55:38.007",
+   "errata": true,
+   "atualizado_em": "2026-10-26T10:55:40.297",
    "arquivo": "BDI_02-3_20261023.pdf",
    "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-10-23/BDI_02-3_20261023.pdf"
   },
@@ -82,11 +82,11 @@
    "id": 34,
    "nome": "Derivativos de bolsa",
    "pai": 3,
-   "situacao": "publicando",
+   "situacao": "publicado",
    "errata": false,
-   "atualizado_em": "2026-10-24T02:03:26.31",
-   "arquivo": "",
-   "pdf": ""
+   "atualizado_em": "2026-10-23T00:00:00",
+   "arquivo": "BDI_34_20261023.pdf",
+   "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-10-23/BDI_34_20261023.pdf"
   },
   {
    "id": 41,
