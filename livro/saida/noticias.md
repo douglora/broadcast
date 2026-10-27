@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 27/10 12h02
+NOTÍCIAS E FATOS · 27/10 13h40
 
-Pernas: noticias ok 23 novas (18 consultas; descartadas: 414 veículo fora da lista, 30 sem ativo, 19 teto) · cvm ok 0 novos de 5 (5 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 18 novas (18 consultas; descartadas: 386 veículo fora da lista, 28 sem ativo, 24 teto) · cvm ok 0 novos de 5 (5 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (2)
 
@@ -41,7 +41,57 @@ Fonte: SEC EDGAR 2026-10-27
 id: E04-KO-26067403-2026-10-27 · status: linha · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (25)
+## NOTÍCIAS COM MATERIALIDADE (29)
+
+[ATENÇÃO] E05 · KO · Midday Need to Know: Consumer confidence rebounds, Coca-Cola raises outlook & more (SPY:NYSEARCA)
+Seeking Alpha · 27/10 12h36 · fonte única · licença: manchete
+Link: https://seekingalpha.com/news/4658030-midday-need-to-know-consumer-confidence-rebounds-coca-cola-raises-outlook-more
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: KO
+Como falar: 'saiu no Seeking Alpha: Midday Need to Know: Consumer confidence rebounds, Coca-Cola raises outlook & more (SPY:N…; confirmar o número no texto antes de repassar'
+Fonte: Seeking Alpha 27/10 12h36
+id: E05-KO-ea95aea8e4-2026-10-27 · status: pendente
+
+[ATENÇÃO] E05 · KO · Coca-Cola Raises 2026 Earnings Outlook After Q3 Revenue and Profit Exceed Estimates
+Yahoo Finance · 27/10 11h27 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Adjusted earnings per share reached $0.91, exceeding the consensus forecast of $0.88, while quarterly revenue increased 7% year over year to $13.4 billion, ahead of estimates of $12.93 billion.
+  – The company also raised its full-year 2026 forecasts for organic revenue growth, comparable adjusted earnings per share and free cash flow.
+  – Despite the results, Coca-Cola shares declined approximately 0.4% shortly after the opening of U.S.
+  – Coca-Cola reported adjusted earnings of $0.91 per share, exceeding analysts' expectations of $0.88 by $0.03.
+  – Quarterly revenue reached $13.4 billion, representing a 7% increase compared with the corresponding period of the previous year.
+  – The result exceeded the Wall Street consensus estimate of $12.93 billion.
+Link: https://finance.yahoo.com/markets/stocks/articles/coca-cola-raises-2026-earnings-142720693.html
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: KO
+Como falar: 'saiu no Yahoo Finance: Coca-Cola Raises 2026 Earnings Outlook After Q3 Revenue and Profit Exceed Estimates; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 27/10 11h27
+id: E05-KO-c15098abda-2026-10-27 · status: pendente
+
+[ATENÇÃO] E05 · AVGO · Why Broadcom Is the Big Anthropic IPO Winner. The Stock Jumps on Buy Upgrade.
+Barron's · 27/10 11h15 · fonte única · licença: manchete
+Link: https://www.barrons.com/articles/broadcom-stock-upgrade-anthropic-ipo-68e211ac
+Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
+Ativos: AVGO
+Como falar: 'saiu no Barron's: Why Broadcom Is the Big Anthropic IPO Winner. The Stock Jumps on Buy Upgrade.; confirmar o número no texto antes de repassar'
+Fonte: Barron's 27/10 11h15
+id: E05-AVGO-69e657f976-2026-10-27 · status: pendente
+
+[ATENÇÃO] E05 · KO · Coca-Cola Reports Third Quarter 2026 Results and Raises Full Year Guidance
+Yahoo Finance · 27/10 07h55 · + TradingView (Reuters) · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – "Our results this quarter demonstrate our system's sustained momentum, giving us confidence in our updated full year guidance," said Henrique Braun, CEO of The Coca-Cola Company.
+  – Concentrate sales were 2 points ahead of unit case volume due to the timing of concentrate shipments.
+  – - Operating margin: Operating margin was 33.4% versus 32.0% in the prior year, and comparable operating margin (non-GAAP) was 32.9% versus 31.9% in the prior year.
+  – - Earnings per share: EPS grew 8% to $0.93, and comparable EPS (non-GAAP) grew 11% to $0.91.
+  – Both EPS and comparable EPS (non-GAAP) performance included the impact of a 2-point currency tailwind.
+  – - Market share: The company gained value share in total nonalcoholic ready-to-drink ("NARTD") beverages.
+Link: https://finance.yahoo.com/markets/stocks/articles/coca-cola-reports-third-quarter-105500863.html
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: KO
+Como falar: 'saiu no Yahoo Finance: Coca-Cola Reports Third Quarter 2026 Results and Raises Full Year Guidance; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 27/10 07h55
+id: E05-KO-030766937c-2026-10-27 · status: linha
 
 [ATENÇÃO] E05 · AXIA3 · Axia negocia até R$ 680 milhões com IDB Invest para transmissão
 UOL Economia · 27/10 11h04 · fonte única · licença: manchete
@@ -345,8 +395,22 @@ Fonte: Yahoo Finance 26/10 17h53
 id: E05-TSLA-afffcb7976-2026-10-26 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (45)
+## OUTRAS NOTÍCIAS (só manchete) (59)
 
+· VALE3 Vale cai com minério de ferro em mínima de dois anos, e Goldman Sachs reduz projeções de lucro (ADVFN) https://br.advfn.com/jornal/2026/10/vale-cai-com-minerio-de-ferro-em-minima-de-dois-anos-e-goldman-sachs-reduz-projecoes-de-lucro
+· GOOGL Oracle Brings Google TPUs to Oracle Cloud Infrastructure (PR Newswire) https://www.prnewswire.com/news-releases/oracle-brings-google-tpus-to-oracle-cloud-infrastructure-302920827.html
+· USDBRL Dólar cai mais de 1% e taxas futuras recuam em dia de acomodação dos mercados (TradingView (Reuters)) https://br.tradingview.com/news/reuters.com,2026:newsml_L2N46D0TG:0/
+· BBAS3 Citi manda vender Banco do Brasil (BBAS3) após eleições; veja o que colocar no lugar (Seu Dinheiro) https://www.seudinheiro.com/2026/empresas/citi-manda-vender-banco-do-brasil-bbas3-apos-eleicoes-veja-o-que-colocar-no-lugar-rnda/
+· KO What analysts are saying about Coca-Cola after its earnings report (KO:NYSE) (Seeking Alpha) https://seekingalpha.com/news/4658060-what-analyst-are-saying-about-coca-cola-after-its-earnings-report
+· NVDA AMD and Nvidia Split the AI Chip Market. 1 Stock Is Far Cheaper Today. (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/amd-nvidia-split-ai-chip-153500915.html
+· JPM JPMorgan CEO Warns of 5 Risks Threatening US Stocks and Bonds (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/jpmorgan-ceo-warns-5-risks-153200082.html
+· MINERIO Iron ore slumps to two-year low on mounting concerns over Chinese demand (BHP:NYSE) (Seeking Alpha) https://seekingalpha.com/news/4657986-iron-ore-slumps-to-two-year-low-on-mounting-concerns-over-chinese-demand
+· VALE3 VALE3: Ações da Vale caem com minério de ferro e corte de expectativas por Goldman (InfoMoney) https://www.infomoney.com.br/mercados/vale3-acoes-da-vale-caem-com-minerio-de-ferro-e-corte-de-expectativas-por-goldman/
+· UST Brazil’s 10-Year Yield Retreats After National Treasury Intervention (TradingView (Reuters)) https://news.google.com/rss/articles/CBMiuwFBVV95cUxNdTZxbVFPZWVIbnJPeXpITEJGMjdpZUQzVHR0NlJIdmRFaF9xQnE2aUhPTmZNRWNZRm55WThqZVdNclJ6cGd1ZFZ5ZlZ0LWFUWDFEN05hNDRSQnp3cU9BQWtkRFdKNWoxaENVdk5iTkdGbFZXazBTQkl5cDRQWmlCOHBYZmV4ZGRBYUQ1QXp1V0QzRWdPdjd3WWlKSS1ETFFSa1hhSi1yWjJuaTRaZzllbDdpY2NsMWkxWEE0?oc=5
+· BTC Hedgeye Hedged Bitcoin ETF HBIT Stock Forecast & Price Target (Yahoo Finance) https://news.google.com/rss/articles/CBMiigFBVV95cUxNbXJRcU12THRVRXBVTHBjWnB4dHlzdzI5czdKVURjdGg3TlVfc21hV3JWTnpWLXdxdndvSnR2WW1UdUJXZ2w3MDBGdzBNTDEzbktDVmxYSkhUVl95b3RCUGJLOHJyRHVyakZLV1JDbWZmNVJBN1hoZlJwQkdzbF9xZ2g4dzQxRFhoVlE?oc=5
+· BTC VanEck launches Wealth Builder ETF with Bitcoin exposure (TradingView (Reuters)) https://news.google.com/rss/articles/CBMivgFBVV95cUxQZFBMa1lJZ0xMX0VhWk52LXZnLTBpWkpRVzZVcmI4S0ZhLVZUdFlIMzl1N2JjZ01yMk9kWVQxcERLT0NENlFFSmZ6RVFwV1RJVnBmX3A3TGFuMzRldGJLOFpjSmpnYlFJaUw0VEI1QlE5eXZWQTFMUFRuY2M2NEIxamd4dENUWWtaZEQzSEd5b3paYjJQMHdub1ZPUzhqckNweVRKRUNJT0ktRDRtU2Y0OURXQkZqRk83R0ZhOHhn?oc=5
+· AVGO How Broadcom’s stock can surge and overcome ‘the biggest dislocation in the market’ (MarketWatch) https://news.google.com/rss/articles/CBMiwAFBVV95cUxPLXQ0RWN0U21hNlZWMlJMZWtXN2p5MHpyTDA5YXpSdEw5MHFBRVhBUTZCWW9YY2c5VXNNWEd1Y2MxNmNIZFphMXdQc1ktb3J0V29NTU1LX210X2Vtd1RQY2ZnT2VQRU5yc2ZuSUd4WUd3SE9XVE1aY0RYZ2k4QnMyaXNSdFJBcF9tdWlNWXFIQXBZbGVBR1ZHX0x4RnpOckpieHlyY0VTdnNDSzVFX2NDZ0lfVnZzOHRPUGZPMHdqY1U?oc=5
+· GOOGL Alphabet Stock Breaks Down Ahead of Q3 Earnings: Could GOOGL Fall 30%? (Yahoo Finance) https://news.google.com/rss/articles/CBMingFBVV95cUxPWktkYzZaNW94WldwdUVfMjdHNWxiSTFGZjM2NWt2MlZiQUVOMjM3a1k4ZDhJZjlMMnB5dHkzdk1qelBxQlVzT1VpbG5qSDFXQ2VoTFZLaHRjZlkyRzQ2R2ZJMHQxaTRWM09TRC1iRms1TW1aVTZmRFRmcmVWN0h6czNzblVvOF96bWVHQUowTnI5aHZuMzhYcDJzMXZGQQ?oc=5
 · INTC Intel Quantum Acquisition Might Not Be Enough to Make It a Powerhouse (Barron's) https://www.barrons.com/articles/intel-quantum-acquisition-classiq-8db96649
 · BBAS3 BBAS3: ação do Banco do Brasil sobe após “tombo” de quase 30%; mercado mantém cautela (InfoMoney) https://www.infomoney.com.br/mercados/bbas3-desempenho-acao-do-banco-do-brasil-apos-tombo-de-quase-30-mercado-mantem-cautela/
 · TESOURO Tesouro Direto atrasa abertura mais uma vez, em meio a expectativa de queda nas taxas (InfoMoney) https://www.infomoney.com.br/onde-investir/tesouro-direto-abertura-fechamento-27102026/
