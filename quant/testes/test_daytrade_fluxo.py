@@ -1712,6 +1712,29 @@ def test_mac_dormindo_nao_vira_cegueira_do_metatrader(tmp_path, monkeypatch):
     assert rf.RoboFluxo("2026-10-15", saidas=[str(tmp_path / "q2.json")], pasta_mt5=str(_mt5)).cegueira == [["09:00", "09:24", 24, "mac_dormindo"]]
 
 
+def test_mac_travado_acordado_nao_vira_mac_dormindo(tmp_path, monkeypatch):
+    """27/10/2026: das 9h40 as 11h40 o Mac ficou acordado com a Mesa travada (janela de permissao do macOS sem resposta) e o robo
+    anotou "o Mac estava dormindo". O relogio monotonico andou junto com o de parede: e trava, nao sono."""
+    rf, r, _mt5 = _robo(tmp_path, monkeypatch, "2026-10-27")
+    t = lambda h, m, s=0: datetime(2026, 10, 27, h, m, s, tzinfo=BRT)
+    relogio = [t(9, 40).timestamp()]
+    monkeypatch.setattr(rf.time, "time", lambda: relogio[0])
+    monkeypatch.setattr(rf.time, "monotonic", lambda: relogio[0] - 1000.0)  # anda junto com a parede: o Mac nao dormiu
+    r.vigia_em, r.vigia_mono = relogio[0], relogio[0] - 1000.0
+    r.cot = {"WDOFUT": {"preco": 5050.0, "ts_tique": t(9, 39, 50).timestamp()}}
+    relogio[0] = t(10, 37, 30).timestamp()                                  # o processo ficou parado 57 minutos, acordado
+    r._vigiar_feed(t(10, 37, 30))
+    r._vigiar_cegueira(t(10, 37, 30))
+    texto = r.diario[-1]["texto"]
+    assert "travou" in texto and "dormindo" not in texto and "do MetaTrader desde" not in texto
+    assert r.sono == [] and len(r.travas) == 1
+    relogio[0] = t(10, 37, 40).timestamp()
+    r.cot["WDOFUT"]["ts_tique"] = relogio[0]
+    r._vigiar_feed(t(10, 37, 40))
+    r._vigiar_cegueira(t(10, 37, 40))
+    assert r.cegueira == [["09:39", "10:37", 57, "mac_travado"]] and "não foi o MetaTrader" in r.diario[-1]["texto"]
+
+
 def test_pausa_do_dado_segue_o_horario_do_dado_americano(tmp_path, monkeypatch):
     """Achado 81: a pausa era 9h28-9h40 fixa; fora do horario de verao dos EUA (a partir de 02/11/2026) o dado sai as 10h30."""
     from datetime import date

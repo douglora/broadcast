@@ -549,6 +549,13 @@ def revisar(dia=None, pasta=DIR_DT, setup="niveis", servidor=None, pedir_servido
                                "dorme e não leu sinal nenhum nesse tempo. Não foi o MetaTrader",
                                "no pregão, deixar o Mac na tomada e com a tampa aberta", inicio=a, fim=b, minutos=mins))
             continue
+        if motivo == "mac_travado":                              # 27/10/2026: Mesa travada por janela de permissao do macOS
+            itens.append(_item(dia, "b", "b:mac:travou", None,
+                               f"o Mac travou acordado de {a} a {b} ({mins} minutos) e o robô ficou parado junto: não leu sinal nenhum "
+                               "nesse tempo. Não foi o MetaTrader",
+                               "janela de permissão do macOS esperando resposta trava a Mesa: o sentinela da Mesa avisa na tela",
+                               inicio=a, fim=b, minutos=mins))
+            continue
         itens.append(_item(dia, "b", "b:metatrader:cego", None, f"o robô ficou sem cotação de {a} a {b} ({mins} minutos): não leu sinal nenhum nesse tempo",
                            "conserto: o robô volta a tentar abrir o MetaTrader quando foi ele que fechou e a XP não voltou (14/10/2026)",
                            inicio=a, fim=b, minutos=mins))
@@ -790,8 +797,10 @@ def perdidas_por_cegueira(dia, cegos, registro=None, barras_por_ativo=None, roda
         if not bate:
             continue
         dormiu = all(len(c) > 3 and c[3] == "mac_dormindo" for c in bate)
-        por_que = "o Mac estava dormindo" if dormiu else "o robô estava cego"
-        acao = "no pregão, deixar o Mac na tomada e com a tampa aberta" if dormiu else "o conserto da reabertura do MetaTrader cobre"
+        travou = not dormiu and all(len(c) > 3 and c[3] == "mac_travado" for c in bate)
+        por_que = "o Mac estava dormindo" if dormiu else "o Mac travou" if travou else "o robô estava cego"
+        acao = ("no pregão, deixar o Mac na tomada e com a tampa aberta" if dormiu else
+                "responder a janela de permissão do macOS (o sentinela da Mesa avisa)" if travou else "o conserto da reabertura do MetaTrader cobre")
         titulo = r.get("titulo") or r["nome"]
         try:
             x = refazer_regra(dia, r, barras_por_ativo)

@@ -190,6 +190,13 @@ def extremos_oficiais(codigos, hoje, arquivo=None):
     return fora
 
 
+def _cobre(trechos, ini, fim):
+    """Os trechos (inicio, fim) em epoch cobrem a maior parte do intervalo [ini, fim]?"""
+    if fim <= ini:
+        return False
+    return sum(max(0.0, min(b, fim) - max(a, ini)) for a, b in trechos) >= 0.5 * (fim - ini)
+
+
 def _relogio_brt(agora):
     """A hora de Brasilia na escala da fita do MetaTrader, que carimba a hora de parede como se fosse UTC."""
     return int(datetime(agora.year, agora.month, agora.day, agora.hour, agora.minute, agora.second, tzinfo=timezone.utc).timestamp())
@@ -379,8 +386,10 @@ class RoboFluxo:
         self.cot, self.feed, self.feed_em, self.livro = {}, {}, 0.0, {}
         self.feed_visto, self.feed_ruim, self.reconectou_em, self.reconexoes = 0.0, 0, 0.0, 0
         self.vigia_em, self.acordou_em = time.time(), 0.0        # para saber quando o Mac dormiu (tampa fechada) e acabou de acordar
+        self.vigia_mono, self.ultima_pausa = time.monotonic(), None  # relogio que nao anda com o Mac dormindo; "sono" ou "trava"
         self.sono = []                                           # (inicio, fim) em epoch de cada vez que o robo ficou parado com o Mac dormindo
-        # [inicio, fim, minutos] ou, quando o Mac dormia (15/10/2026), [inicio, fim, minutos, "mac_dormindo"]
+        self.travas = []                                         # (inicio, fim) de cada vez que ficou parado com o Mac ACORDADO (27/10/2026)
+        # [inicio, fim, minutos] ou, quando o Mac dormia (15/10/2026), [inicio, fim, minutos, "mac_dormindo"]; travado, "mac_travado"
         self.cegueira = [list(x) for x in salvo.get("cegueira") or [] if isinstance(x, (list, tuple)) and len(x) in (3, 4)]
         self.cego_desde, self.cego_avisado = None, False         # relogio (epoch) do ultimo tique antes de ficar cego
         self._revisao = (None, None)                             # (mtime, conteudo) da ultima revisao do pregao, para a tela
@@ -547,9 +556,13 @@ class RoboFluxo:
             if not self.cego_avisado and agora.timestamp() - self.cego_desde >= CEGO_AVISO_S:
                 self.cego_avisado = True
                 desde = datetime.fromtimestamp(self.cego_desde, agora.tzinfo).strftime("%H:%M")
-                if self._dormiu(self.cego_desde, agora.timestamp()) or time.time() - self.acordou_em < FEED_RUIM["carencia_ao_acordar_s"]:
+                recente = time.time() - self.acordou_em < FEED_RUIM["carencia_ao_acordar_s"]
+                if self._dormiu(self.cego_desde, agora.timestamp()) or (recente and self.ultima_pausa == "sono"):
                     self.anotar("feed", f"Sem cotação desde {desde}: o Mac estava dormindo (tampa fechada ou na bateria) e o robô não roda "
                                 "enquanto ele dorme. Não é falha do MetaTrader.", agora)
+                elif self._travou(self.cego_desde, agora.timestamp()) or recente:
+                    self.anotar("feed", f"Sem cotação desde {desde}: o Mac travou acordado e o robô ficou parado junto (a causa mais comum "
+                                "é uma janela de permissão do macOS esperando resposta). Não é falha do MetaTrader.", agora)
                 else:
                     self.anotar("feed", f"Sem cotação do MetaTrader desde {desde}: o robô está cego (não lê sinal nem entra) até a cotação voltar.", agora)
             return
@@ -562,6 +575,10 @@ class RoboFluxo:
                     self.cegueira.append([inicio, hm, minutos, "mac_dormindo"])
                     self.anotar("feed", f"Cotação de volta às {hm}, depois de {minutos} minutos sem preço (desde {inicio}): o Mac estava "
                                 "dormindo (tampa fechada ou na bateria), não foi o MetaTrader.", agora)
+                elif self._travou(self.cego_desde, agora.timestamp()):
+                    self.cegueira.append([inicio, hm, minutos, "mac_travado"])
+                    self.anotar("feed", f"Cotação de volta às {hm}, depois de {minutos} minutos sem preço (desde {inicio}): o Mac travou "
+                                "acordado e o robô ficou parado junto, não foi o MetaTrader.", agora)
                 else:
                     self.cegueira.append([inicio, hm, minutos])
                     self.anotar("feed", f"Cotação de volta às {hm}, depois de {minutos} minutos sem preço (desde {inicio}).", agora)
@@ -569,10 +586,11 @@ class RoboFluxo:
 
     def _dormiu(self, ini, fim):
         """O Mac dormiu a maior parte do intervalo [ini, fim] (epoch)? Pelos intervalos em que o robo ficou parado (`self.sono`)."""
-        if fim <= ini:
-            return False
-        dormido = sum(max(0.0, min(b, fim) - max(a, ini)) for a, b in self.sono)
-        return dormido >= 0.5 * (fim - ini)
+        return _cobre(self.sono, ini, fim)
+
+    def _travou(self, ini, fim):
+        """O robo ficou parado com o Mac acordado (travado) a maior parte do intervalo [ini, fim]? Pelos intervalos de `self.travas`."""
+        return _cobre(self.travas, ini, fim)
 
     def _bloqueio(self, a, agora, sinal):
         """Por que o sinal NAO vira entrada agora (as mesmas portas de estrategia_fluxo.passo), ou None. So para o registro do
@@ -767,11 +785,20 @@ class RoboFluxo:
         """Cotacoes em rajadas por tres leituras seguidas da saude do motor: reabre o MetaTrader sozinho (conexao nova).
         So no pregao, so se o MetaTrader estiver aberto (fechado de proposito, nao reabre), com espera entre uma e outra."""
         hm = agora.strftime("%H:%M")
-        relogio = time.time()
-        if relogio - self.vigia_em > FEED_RUIM["pausa_do_mac_s"]:      # o robo ficou parado: o Mac dormiu. Preco velho ao acordar
+        relogio, mono = time.time(), time.monotonic()
+        parado = relogio - self.vigia_em
+        if parado > FEED_RUIM["pausa_do_mac_s"]:                       # o robo ficou parado: o Mac dormiu ou travou. Preco velho ao voltar
             self.acordou_em, self.feed_ruim = relogio, 0                # nao e defeito do MetaTrader (09/10/2026, tampa fechada as 13h59)
-            self.sono = (self.sono + [(self.vigia_em, relogio)])[-200:]   # a cegueira desse trecho e do Mac, nao do MetaTrader (15/10/2026)
-        self.vigia_em = relogio
+            # 27/10/2026: das 9h40 as 11h40 o Mac ficou ACORDADO com a Mesa travada (janela de permissao do macOS sem resposta) e o robo
+            # anotou "Mac dormindo". O relogio monotonico (mach_absolute_time) nao anda com o Mac dormindo: se ele andou quase tanto
+            # quanto o relogio de parede, o Mac nao dormiu, travou.
+            if parado - (mono - self.vigia_mono) >= 0.5 * parado:
+                self.sono = (self.sono + [(self.vigia_em, relogio)])[-200:]   # a cegueira desse trecho e do Mac, nao do MetaTrader (15/10/2026)
+                self.ultima_pausa = "sono"
+            else:
+                self.travas = (self.travas + [(self.vigia_em, relogio)])[-200:]
+                self.ultima_pausa = "trava"
+        self.vigia_em, self.vigia_mono = relogio, mono
         if agora.weekday() >= 5 or not ("09:05" <= hm < "18:20") or self.feed_em == self.feed_visto:
             return False
         self.feed_visto = self.feed_em
