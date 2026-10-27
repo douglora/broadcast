@@ -48,6 +48,10 @@ metodo em quant/saida/pesquisa5/BRIEF.md) e move a linha para "Testadas" com os 
   (ptax_bc, corretoras: nenhuma candidata). Corretoras na fita so reabre com 120+ pregoes. Nenhuma outra hipotese de "A testar" e testavel
   hoje (7, 9, 10, 12, 14, 15, 16 esperam dado novo ou sao prova viva). Pelo METODO (parar em vez de forcar), nenhuma tentativa nova.
 
+- 27/10/2026, tarde (rotina atrasada: o Mac reiniciou as 13h03): nenhuma hipotese testavel; 7, 8, 9, 10, 12, 14, 15 e 16 seguem esperando dado novo ou
+  sao prova viva. Item 14: `coletar.py` do dolar em dias parou nos dados de 09/10 (yfinance/di_curva sem dia novo) e `sinal_hoje.py` devolveu sinal 0
+  e vol NaN em 26/10: a prova viva do item 14 nao esta medindo; conferir a fonte antes de contar pregoes. Nenhuma tentativa nova (METODO: parar em vez de forcar).
+
 (08/10/2026) Sete frentes, mais de 12 mil medicoes: ver quant/estudos/LEIA.md. Passou so a reversao do dado americano.
 
 (09/10/2026) Segunda rodada, com os dados da B3 e do Banco Central (quant/saida/pesquisa5/BRIEF_B3.md; notas em
