@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 27/10 13h40
+NOTÍCIAS E FATOS · 27/10 15h37
 
-Pernas: noticias ok 18 novas (18 consultas; descartadas: 386 veículo fora da lista, 28 sem ativo, 24 teto) · cvm ok 0 novos de 5 (5 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 18 novas (18 consultas; descartadas: 392 veículo fora da lista, 30 sem ativo, 17 teto) · cvm ok 0 novos de 5 (5 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (2)
 
@@ -41,7 +41,41 @@ Fonte: SEC EDGAR 2026-10-27
 id: E04-KO-26067403-2026-10-27 · status: linha · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (29)
+## NOTÍCIAS COM MATERIALIDADE (32)
+
+[ATENÇÃO] E05 · USDBRL · Resumão diário #2206: Xi Jinping, da China, parabeniza Lula por reeleição; Ibovespa opera em baixa após abrir em leve alta; dólar cai a R$ 5,30; Gase…
+g1 · 27/10 13h29 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Ibovespa opera em baixa após abrir em leve alta; dólar cai a R$ 5,30 A uma semana da disputa pelo controle do Congresso nos EUA, Trump oferece US$ 1 milhão por denúncias que levem a condenações por fraude eleitoral.
+  – — Foto: Comunicação/Globo Produzido pelas equipes de vídeos e podcasts do g1, o Resumão é apresentado pela jornalista Daniela Scalabrini e tem edição de áudio de Kaique Mattos.
+Link: https://g1.globo.com/podcast/resumao-diario/noticia/2026/10/27/resumao-diario-2206-xi-jinping-da-china-parabeniza-lula-por-reeleicao-ibovespa-opera-em-baixa-apos-abrir-em-leve-alta-dolar-cai-a-r-530-gases-de-efeito-estufa-batem-recorde-e-agravam-aquecimento-global-diz-onu.ghtml
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: USDBRL
+Como falar: 'saiu no g1: Resumão diário #2206: Xi Jinping, da China, parabeniza Lula por reeleição; Ibovespa opera…; confirmar o número no texto antes de repassar'
+Fonte: g1 27/10 13h29
+id: E05-USDBRL-4aa2704ebb-2026-10-27 · status: pendente
+
+[ATENÇÃO] E05 · NVDA · Nvidia Stocks Rise With $3 Billion Meta Bet Behind Broader Hardware Push
+TradingView (Reuters) · 27/10 12h18 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/gurufocus:9176fd56c094b:0-nvidia-stocks-rise-with-3-billion-meta-bet-behind-broader-hardware-push/
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: NVDA
+Como falar: 'saiu no TradingView (Reuters): Nvidia Stocks Rise With $3 Billion Meta Bet Behind Broader Hardware Push; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 27/10 12h18
+id: E05-NVDA-7cc5d35846-2026-10-27 · status: pendente
+
+[ATENÇÃO] E05 · KO · Coca-Cola Raises Outlook Again As North America Goes Flat
+Yahoo Finance · 27/10 11h32 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Tell us how you invest and we'll show you why it's our #1 pick.
+  – 30M+ investors trust Moby to find it first.
+  – Murphy told CNBC that he expects restaurants to stay under pressure through year-end, says shoppers at every income level are hunting for value, and sees no change in that behavior in 2027.
+Link: https://finance.yahoo.com/markets/stocks/articles/coca-cola-raises-outlook-again-143209302.html
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: KO
+Como falar: 'saiu no Yahoo Finance: Coca-Cola Raises Outlook Again As North America Goes Flat; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 27/10 11h32
+id: E05-KO-e62736ef3f-2026-10-27 · status: pendente
 
 [ATENÇÃO] E05 · KO · Midday Need to Know: Consumer confidence rebounds, Coca-Cola raises outlook & more (SPY:NYSEARCA)
 Seeking Alpha · 27/10 12h36 · fonte única · licença: manchete
@@ -100,7 +134,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: AXIA3
 Como falar: 'saiu no UOL Economia: Axia negocia até R$ 680 milhões com IDB Invest para transmissão; confirmar o número no texto antes de repassar'
 Fonte: UOL Economia 27/10 11h04
-id: E05-AXIA3-d56332cd55-2026-10-27 · status: pendente
+id: E05-AXIA3-d56332cd55-2026-10-27 · status: expirado
 
 [ATENÇÃO] E05 · KO · Earnings call transcript: Coca-Cola beats Q3 2026 forecasts as sales rise
 Investing.com · 27/10 10h47 · fonte única · licença: manchete
@@ -109,7 +143,7 @@ Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; 
 Ativos: KO
 Como falar: 'saiu no Investing.com: Earnings call transcript: Coca-Cola beats Q3 2026 forecasts as sales rise; confirmar o número no texto antes de repassar'
 Fonte: Investing.com 27/10 10h47
-id: E05-KO-d0e1c47ffd-2026-10-27 · status: pendente
+id: E05-KO-d0e1c47ffd-2026-10-27 · status: expirado
 
 [ATENÇÃO] E05 · BTC · Ark Invest Sells $15 Million Of Its Own Bitcoin ETF As Price Falls
 Yahoo Finance · 27/10 10h47 · fonte única · licença: resumo
@@ -125,7 +159,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: BTC
 Como falar: 'saiu no Yahoo Finance: Ark Invest Sells $15 Million Of Its Own Bitcoin ETF As Price Falls; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 27/10 10h47
-id: E05-BTC-343848630a-2026-10-27 · status: pendente
+id: E05-BTC-343848630a-2026-10-27 · status: expirado
 
 [ATENÇÃO] E05 · KO · Coca-Cola Posts Strong Financial Results And Raises Guidance
 TradingView (Reuters) · 27/10 10h45 · fonte única · licença: manchete
@@ -395,8 +429,23 @@ Fonte: Yahoo Finance 26/10 17h53
 id: E05-TSLA-afffcb7976-2026-10-26 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (59)
+## OUTRAS NOTÍCIAS (só manchete) (74)
 
+· PETR4 Petrobras, Prio ou Brava? BTG revisa ações de petróleo após queda da Bolsa e aponta oportunidades (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/petrobras-prio-ou-brava-btg-revisa-acoes-de-petroleo-apos-queda-da-bolsa-e-aponta-oportunidades/
+· GOOGL Alphabet Stocks Rise Before Cloud Profit Meets the Capital-Spending Test (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:ae38bd609094b:0-alphabet-stocks-rise-before-cloud-profit-meets-the-capital-spending-test/
+· BTC Bitcoin Outperforms Grayscale’s AI Compute ETF As AI Cloud Stocks Slide (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-outperforms-grayscale-ai-compute-173430632.html
+· INTC Intel faces test of recovery as Wedbush looks beyond Q3 results (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/intel-faces-test-recovery-wedbush-173400757.html
+· KO Coca-Cola earnings analysis: questions answered and next catalysts (Investing.com) https://www.investing.com/news/stock-market-news/cocacola-earnings-analysis-questions-answered-and-next-catalysts-93CH-4976527
+· ITUB4 Sete ações para ficar de olho após queda da Bolsa, segundo o Itaú BBA (Money Times) https://www.moneytimes.com.br/sete-acoes-para-ficar-de-olho-apos-queda-da-bolsa-segundo-o-itau-bba/
+· NVDA Musk's Neocloud Warning Makes SOXX A Better Buy Than Nvidia, And SMH (NASDAQ:SOXX) (Seeking Alpha) https://seekingalpha.com/article/4958075-musks-neocloud-warning-makes-soxx-a-better-buy-than-nvidia-and-smh
+· SBSP3 Leonardo Sakamoto: Sabesp é autuada por demissões em massa após a privatização (UOL Economia) https://noticias.uol.com.br/colunas/leonardo-sakamoto/2026/10/27/sabesp-e-autuada-por-demissoes-em-massa-apos-a-privatizacao.amp.htm
+· USDBRL Suzano (SUZB3) sobe com dólar alto, mas o que esperar das ações daqui para frente? (InfoMoney) https://www.infomoney.com.br/mercados/suzano-suzb3-sobe-com-dolar-alto-mas-o-que-esperar-das-acoes-daqui-para-frente/
+· NVDA 45,000 Nvidia Blackwell GPUs Cleared for Kazakhstan Data Center (OilPrice.com) https://oilprice.com/Energy/Energy-General/45000-Nvidia-Blackwell-GPUs-Cleared-for-Kazakhstan-Data-Center.html
+· GOOGL Options Action: Alphabet and Microsoft Ahead of Earnings (CNBC) https://www.cnbc.com/video/2026/10/27/options-action-alphabet-and-microsoft-ahead-of-earnings.html
+· GOOGL Amazon and Alphabet Are Each Spending At Least $200 Billion on Data Centers This Year. Here's Which Stock Outperforms Through 2028. (Yahoo Finance) https://news.google.com/rss/articles/CBMimwFBVV95cUxOakZVU0JONkRKcmg3YjBTX0huenZoUWtWaDlJbkhmYnkxaGl0V2VhVTJaOVVudm8yLVpfRkdDLUExXzJoTGJYV256UVotcHJJNmlOcEhNMmUwTE5iMGJ4dkYzanM4QW13Mmd4SGN2bE1ZdnhsSm5yaEFHSVc1MzlpcTBjUVNmXzFJSTBTQ2R3MFdJeDV5TDQzeVp2bw?oc=5
+· MRVL Can Marvell Stock Jump 30%? (Yahoo Finance) https://news.google.com/rss/articles/CBMijwFBVV95cUxPWklaeVdiZHV1dDdLaFlVV05rQVBJc1F6cXBuZy1zZHJnWC1xNVBnMmJnejd3REJlMzNiVFNJMVdKVUw5d0N2Qk45VFRLT29uRGx3NzVLWVphOVdrcWZzUnFKSk9fYmtCYUxqTmp6U2tIWkNMV0dfWmRTYVE2b1lFRkVMQ184T3JNcGRGZUhjdw?oc=5
+· BTC QUICK SPARK: VanEck’s New ETF Blends Bitcoin, Gold and Global Stocks in One Fund (TradingView (Reuters)) https://news.google.com/rss/articles/CBMi0wFBVV95cUxPSDdpNDZHTTFwRGMzV2JrSEZaaVNhd0V5U096c2hyc3hOa2NETndDU3VhT3dFOHBnT2hfWGR2Skc3d2JqN1JLZXkzNHlPYkVmM3Y3UkNSOGNTLXVIb3RyWlJrNzhGQTZHcDJEbGdQNlZIaHh3SmlYT3NuVlV2OW5tczcwV0VOcnMtLWN5Qk5Mb3JUZEZfbl9kU0JvS1lST3ZqaDkwN3NIQlRwUWV5Nlo5ZXNpX1pxRGNoRUc1ejFZeDNRd1Nha2Z2TXhXTk9KTUg3b0pV?oc=5
+· BTC 2 Fed Debates Could Move Bitcoin and Gold Now That a Hold Is Priced In (Yahoo Finance) https://news.google.com/rss/articles/CBMikwFBVV95cUxOZDdMbzhxdXczNVBxWWIwTTgtRURpTzJpaXdqMGU4eTV1V3JncS1rM3Zjd0cycm1GS29Oa1VjOFRyUWlzNVZkTUhnaXlPMTFOQjJpakF0TDVLUDZZVDF1MWRJb2RZQlRTZmVXbHo5X21GRkxDYmxYUUQ4S1dtNGlBQW5OWGxUdUJpYXlRazFFcXcwQ3M?oc=5
 · VALE3 Vale cai com minério de ferro em mínima de dois anos, e Goldman Sachs reduz projeções de lucro (ADVFN) https://br.advfn.com/jornal/2026/10/vale-cai-com-minerio-de-ferro-em-minima-de-dois-anos-e-goldman-sachs-reduz-projecoes-de-lucro
 · GOOGL Oracle Brings Google TPUs to Oracle Cloud Infrastructure (PR Newswire) https://www.prnewswire.com/news-releases/oracle-brings-google-tpus-to-oracle-cloud-infrastructure-302920827.html
 · USDBRL Dólar cai mais de 1% e taxas futuras recuam em dia de acomodação dos mercados (TradingView (Reuters)) https://br.tradingview.com/news/reuters.com,2026:newsml_L2N46D0TG:0/
@@ -442,17 +491,4 @@ id: E05-TSLA-afffcb7976-2026-10-26 · status: linha
 · ETH Current price of Ethereum for Oct. 27, 2026 (Fortune) https://news.google.com/rss/articles/CBMiaEFVX3lxTE1sUjhfaWRUb1VzRGMxYjFFQktVU0ExOTZIV2x0UXdRRXNoS3l2bDFjR19wcVVGZkl4NjAyWGxWWVlsTVNPSTJLQ0NQTUE0cTBNYl9hak8wYk1YNkZUcENpd2VmejNMMUZK?oc=5
 · INTC Intel offers 'balanced setup' into Q3 results, with servers the key: Wedbush (TradingView (Reuters)) https://www.tradingview.com/news/seekingalpha:d8640efef094b:0-intel-offers-balanced-setup-into-q3-results-with-servers-the-key-wedbush/
 · AVGO Broadcom Could Generate Up to $30 Billion in Revenue From Anthropic AI Financing Deal With Limited Risk, Truist Says (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/broadcom-could-generate-30-billion-110822892.html
-· KO Coca-Cola earnings beat by $0.03, revenue topped estimates (Investing.com) https://www.investing.com/news/earnings/cocacola-earnings-beat-by-003-revenue-topped-estimates-4974951
-· USDBRL Bolsa e dólar dão sinais de acomodação após forte queda pós-eleição (UOL Economia) https://economia.uol.com.br/cotacoes/noticias/redacao/2026/10/27/ativos-brasileiros-no-exterior-27-de-outubro-de-2026.ghtm
-· PETR4 Petrobras inova na produção sustentável de combustível de aviação (Agencia Brasil) https://agenciabrasil.ebc.com.br/meio-ambiente/noticia/2026-10/petrobras-inova-na-producao-sustentavel-de-combustivel-de-aviacao
-· KO The Coca-Cola Company (KO) Stock Price, News, Quote & History (Yahoo Finance) https://ca.finance.yahoo.com/quote/KO/
-· USDBRL Mercado busca recuperação após ressaca eleitoral; Ibovespa em dólar sobe nesta terça-feira (27) (Money Times) https://news.google.com/rss/articles/CBMixwFBVV95cUxPemNuaU1FaGppTG1MYUMxX25fQ1NwVUxSeThKakpiVDBTdy1NWVNGVXUteDUtc2lIMUZpTEc3dEdmaXFoUkh6MTJIenRxUXJmUUZLRzljcmdMeU1JbU1hMGpXbmNnS3hVaDA1cnplUWVwVTZISm14RGtxMjRETm5ybHNVTHZubExrVlhlNTZmQUFvRm5fSGtFaGlJcVhkZExpVGQzcjBFak40b1BHTUdZbEVYQzk2WkRrbVNrZkdWYjVrZWJmMFhZ?oc=5
-· JPM JPMorgan Chase Says That Bitcoin Will Outperform Stocks, Bonds, and Gold Over the Next 10 Years. Here's Why It Might Be Right (Yahoo Finance) https://news.google.com/rss/articles/CBMipgFBVV95cUxQbmpBUHhNWFlWQTQtbTFKZjhBNXB2TXpwM0U0bWxBeVJLN0JyU3dhdkQ1TVhBYmI1WmFzVndxNlV2cGdZTVdndGNNWmZmUGdPTWViSlNBSlpJTjJaMWtHNXdiXzljaEVBX25CMERJX2I2SGllMmtPS3R1SlFvTDZ2RDE4bzh2YXNxczg1aTFqLXNKS3RKUlFRUTZmZ0Y3WHRBRXd1ZnZn?oc=5
-· NVDA Nvidia Is Taking a $3 Billion Chunk of Meta’s Equity. It’s Over to Broadcom. (Barron's) https://news.google.com/rss/articles/CBMigAFBVV95cUxNMWRsM3hhTFdOVTR4S2dZWkdCM2lLdUNvajFzRTRIN0wyQXRKUkdYd3hJWlNPQzEtYl8xa0paU3VSNzJUbnI4eE5fdzRGMktOUWE2cFpYMVZ5MEtPaWxuWU9uMUVaMko5dklsM0RmYWM0TGRzejRyRkl5UWt5SHJxag?oc=5
-· UST U.S. Treasury yields are flat ahead of the Federal Reserve's monetary policy meeting (CNBC) https://news.google.com/rss/articles/CBMilwFBVV95cUxQNmh6WFAzNWdIOWhlWXJxTjdEVk44cmliSXBmSlVuVDVmMkNxVzY0Ykc5TzFBVEVrNXcxSXNnc0VqZlAxemFpTEJHczdCSHBGTWFBclBQVkcyUm5qQzF0am5OOHhYVnRBTnhZYlFGRmRKOTJfX0RFOXd0bHZ0VXhNRmhoUWZfeVREdFQ3MWpOcGtIaHZMeHZB0gGcAUFVX3lxTE92WXJpR0xaYlIzNERkNzFvZHJnek1vLTIzNjhLUWRGb2RBTnhfQWMzQ2ttREhuZHowck9iY2hDM3VrRnUtd25EWVh1cWM2bG9VSWw3N0VSUWVLV3IwbG9tUWhXWnRjenZ1bFRTaDhtX2FJN0E1VzJnWkUwbU9DQk4tZXp5MVhXaExXQnRZc2xFdEc5QUFZVXVWQ0VSVA?oc=5
-· AVGO Broadcom: The Market Has Priced In An OpenAI Collapse, Not An Anthropic One (NASDAQ:AVGO) (Seeking Alpha) https://news.google.com/rss/articles/CBMitAFBVV95cUxQZHh1cDk2bmtuTXZqSlNyZWFvUXZRVDllMW1NeFc5bjFIdVFNMENabkhENktueGp0LXpKUE5hVUgzc3lfNk9qSXN4ckRvUHNjeDBXblQ5cGZVcHVoZ25mQmV2WkJFZUU2ZTdVUVFDMlBFTEsxVWRScTFoR2I5RDgxOWtMMnVxckJQWHhUUXVFWlIyU1VWMUNvU2xNZlhxMUhZZjhqdTVwdzE4ajFhMDExOTBpcXY?oc=5
-· BTC Now is the time to accumulate bitcoin, Galaxy says (CoinDesk) https://news.google.com/rss/articles/CBMimAFBVV95cUxOQkpGaHRTUmZXV1lZYmZfUWRzTi1ic2VpUXVpYVhWVW1qaUMyTlp2NnYxRkEzY29YWUk2bzhQYkx4RGlHMWRJcWFVakh6SGdWZEtyck8wU3MxVGhhQlJtWll2a29ieFdlNGlNTUV2SHU5WENaR2x6ZHhCQXo5VW1uWmZNMmotNlBPcXpyMmdpbVFCaHpUS3FkVg?oc=5
-· BAC Bank of America Corporation (BAC) stock price, news, quote and history (Yahoo Finance) https://news.google.com/rss/articles/CBMiYEFVX3lxTE5fWDBzT3NhN1d4Mk9salpGSmV4eTZWNXlITThXeXNpalBHQkFtb0hqWU9reFZ6aVQ4R0xSZmZmYVVqeVVhQm9EbkFQeDNydzVwRDRzd1BNaDdGSWt4MV9qOA?oc=5
-· BTC BTC Vs. TAO: Jason Calacanis Says Bitcoin Will Never Hit New Highs, Backs Bittensor Instead (TradingView (Reuters)) https://news.google.com/rss/articles/CBMi4wFBVV95cUxNOGFIcThKVE1JcXRWeFo0QU9GbTNsQ014RWZWV0VWT1ROUDBtRGNWN0FldlhGTXZjYnFEeFZGaTJIeUZyTUhXUXdxdlBnRXRJS254dGlTbnplTmxTaGdJVF9sS1ZvSXJvVG1wekcyUlo0b2pnVHJ2YjJEOW1ISjNkVC1ZUU5NaFdWZndMWl9UNGdOd3ZjS0JjbDdPZXRXX2tBSTkxRk9USHRodDhGVjNpSjhYaFdfSkV5S2piYUo4V3RyVzROOXZ0TVNJeF9XNHVIRVBoZnM3RkRwM3U3cFlRN3NQZw?oc=5
-· BTC Bitcoin ETFs Own Just 8.5% of BTC as IBIT Ends a Two-Day Outflow Run: Can BTC USD Hold $79,200? (Yahoo Finance) https://news.google.com/rss/articles/CBMikgFBVV95cUxPQVctOG1fYTVsNVpkTXJQbDFIWnBPMTJBUXJvR1lmbm9hcWVzZHA2LUcxMEVMVDd2M3g5VUJ2REdQTHVBaVZvSmdTTUdIY05yTERoNXhhcUxFNWZZXzBVNFN5VWJqX0tDTl85V2FreVJwazlVS2VxUlMwa0VWWWxLbUU2bm1SZjFZYkxZU1V1MG8wUQ?oc=5
-· KO Visa, Coca-Cola, Boeing earnings, and consumer confidence data: What to Watch (Yahoo Finance) https://finance.yahoo.com/video/visa-coca-cola-boeing-earnings-000000222.html
+· (+14 manchetes; lista completa em eventos/noticias.json)
