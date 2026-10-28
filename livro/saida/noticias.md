@@ -1,8 +1,45 @@
-NOTÍCIAS E FATOS · 28/10 14h10
+NOTÍCIAS E FATOS · 28/10 15h45
 
-Pernas: noticias ok 27 novas (18 consultas; descartadas: 361 veículo fora da lista, 33 sem ativo, 88 teto) · cvm ok 0 novos de 8 (8 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 17 novas (18 consultas; descartadas: 362 veículo fora da lista, 34 sem ativo, 27 teto) · cvm ok 0 novos de 8 (8 cias casadas) · sec ok 1 novos em 3 dias
 
-## NOTÍCIAS COM MATERIALIDADE (12)
+## SEC (8-K, 6-K, 10-Q, 10-K) (1)
+
+[INFO] E04 · KO · 10-Q: 10-Q
+SEC EDGAR · aceito 28/10 15h22 · 10-Q
+Link: https://www.sec.gov/Archives/edgar/data/21344/000162828026067844/ko-20261002.htm
+Por que importa: 10-Q e o balanco trimestral completo
+Ativos: KO
+Como falar: 'a KO protocolou 10-Q na SEC (10-Q)'
+Fonte: SEC EDGAR 2026-10-28
+id: E04-KO-26067844-2026-10-28 · status: linha
+
+
+## NOTÍCIAS COM MATERIALIDADE (14)
+
+[ATENÇÃO] E05 · BTC · Bitwise Raises Bitcoin Price Target to $1.6M by 2036, Publishes 2027 Bitcoin Long-Term Capital Market Assumptions
+PR Newswire · 28/10 12h00 · fonte única · licença: integral
+Do texto:
+  – Bitwise projects the price will rise to $1.6 million by 2036—a 34.3% compound annual growth rate.
+  – equities (6.7%) and three times the next-best asset class, private equity (10.8%).
+  – The World Bank estimates that institutional investors control roughly $147 trillion in assets, and Bitwise expects them to allocate 1% to 5% to bitcoin over the next decade.
+  – That implies $1.5 trillion to $7 trillion of demand, against only about $14 billion in new bitcoin per year.
+  – - Bitcoin showed signs of maturing in 2026 through its volatile year.
+  – Though the 50% drawdown from bitcoin's October 2025 high to its June 2026 low was painful, it was significantly shallower than past peak-to-trough cyclical drawdowns, which saw bitcoin fall 86%, 84%, and 77%.
+Link: https://www.prnewswire.com/news-releases/bitwise-raises-bitcoin-price-target-to-1-6m-by-2036--publishes-2027-bitcoin-long-term-capital-market-assumptions-302922156.html
+Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
+Ativos: BTC
+Como falar: 'saiu no PR Newswire: Bitwise Raises Bitcoin Price Target to $1.6M by 2036, Publishes 2027 Bitcoin Long-Term Ca…; confirmar o número no texto antes de repassar'
+Fonte: PR Newswire 28/10 12h00
+id: E05-BTC-6c53091403-2026-10-28 · status: pendente · íntegra disponível
+
+[ATENÇÃO] E05 · JPM · JPMorgan downgrades Xylem stock rating on guidance cut, slower orders By Investing.com
+Investing.com · 28/10 04h02 · fonte única · licença: manchete
+Link: https://ca.investing.com/news/stock-market-news/jpmorgan-downgrades-xylem-stock-rating-on-guidance-cut-slower-orders-93CH-4907771
+Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
+Ativos: JPM
+Como falar: 'saiu no Investing.com: JPMorgan downgrades Xylem stock rating on guidance cut, slower orders By Investing.com; confirmar o número no texto antes de repassar'
+Fonte: Investing.com 28/10 04h02
+id: E05-JPM-25642432c6-2026-10-28 · status: pendente
 
 [ATENÇÃO] E05 · BTC · Bitwise raises Bitcoin price target to $1.6 million by 2036
 TradingView (Reuters) · 28/10 12h09 · fonte única · licença: manchete
@@ -159,8 +196,23 @@ Fonte: g1 27/10 18h55
 id: E05-ITUB4-e5d805a382-2026-10-27 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (16)
+## OUTRAS NOTÍCIAS (só manchete) (31)
 
+· AMD Should You Buy AMD Stock Before Nov. 3? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/buy-amd-stock-nov-3-182000542.html
+· TESOURO Tesouro Direto: como investir agora, com taxas em vaivém após a eleição (InfoMoney) https://www.infomoney.com.br/onde-investir/tesouro-direto-como-investir-agora-com-taxas-em-vaivem-apos-a-eleicao/
+· ITUB4 Bradesco perde recomendação de compra do Itaú BBA; entenda o que preocupa os analistas (Estadao) https://www.estadao.com.br/einvestidor/onde-investir/bradesco-perde-recomendacao-de-compra-do-itau-bba-entenda-o-que-preocupa-os-analistas/
+· MU Micron Stock Advances as Rival SK Hynix Fuels AI Frenzy With Two Bombshells (Barron's) https://www.barrons.com/articles/micron-stock-price-sk-hynix-earnings-b93ad2b8
+· SAPR4 Sanepar: consórcio faz proposta única e vence leilão de sistema no norte do PR (UOL Economia) https://economia.uol.com.br/noticias/estadao-conteudo/2026/10/28/sanepar-consorcio-faz-proposta-unica-e-vence-leilao-de-sistema-no-norte-do-pr.htm
+· PLTR Palantir Stock Falls After RBC Delivers Fresh Warning Ahead of Earnings (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:ed4ee68fd094b:0-palantir-stock-falls-after-rbc-delivers-fresh-warning-ahead-of-earnings/
+· AMZN Amazon Stocks Edge Higher Ahead of AWS Earnings Concentration Test (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:fe407b4c0094b:0-amazon-stocks-edge-higher-ahead-of-aws-earnings-concentration-test/
+· GOOGL Alphabet Stocks Rise Ahead of Google Cloud's Profit Test (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:5dd287fa7094b:0-alphabet-stocks-rise-ahead-of-google-cloud-s-profit-test/
+· AMD Cathie Wood Dumps More AMD, Buys Joby and Archer (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:fb2cfe392094b:0-cathie-wood-dumps-more-amd-buys-joby-and-archer/
+· LITE Optical Stocks Climb as Analysts Flag AI Bottleneck: Lumentum Rises 4%, Applied Optoelectronics and Corning Gain 3%, Coherent Sits Out the Rally (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/optical-stocks-climb-analysts-flag-170601552.html
+· PLTR Palantir’s Revenue Growth Could Set the Stage for Its Next Big Stock Move (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/palantir-revenue-growth-could-set-170345847.html
+· GOOGL Google earnings up next: Can Cloud growth justify record AI spending? (Investing.com) https://www.investing.com/news/earnings/google-earnings-up-next-can-cloud-growth-justify-record-ai-spending-93CH-4980320
+· INTC Intel Stock Could Swing 9% After Tomorrow's Earnings (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:34ef80fd8094b:0-intel-stock-could-swing-9-after-tomorrow-s-earnings/
+· LITE Lumentum Shares Jump 135% YTD: Can AI Momentum Sustain the Rally? (Yahoo Finance) https://news.google.com/rss/articles/CBMilwFBVV95cUxONlhQZ2pDTlBmcC1xV0FwUzIyYmgzR1IteV9WeFlNd19VUzJhQ3lzQnFxWnNPVlhyUlVVVkpXSUhwWVgwU2luY2hYUnY5TEpUR3haUWs0ZE1wbEUweE1ac2RWTkIweURudXlNajk2VmVLeDhsazFfQzh6RE1rcExjSDJycHlGZFB6YUs3MXBfekJhUGZyUTRZ?oc=5
+· BTC Bitcoin price bounce rejected at 50-day trend line ahead of FOMC, earnings (TradingView (Reuters)) https://news.google.com/rss/articles/CBMi0wFBVV95cUxNUHpkRHlhOVdpMFhqaFRHakJudGZIT3UwcFJNNlVBNXBlaEhVRUtIZmNvaFJjdmVRN2dxeGhsWGpkY1UzWnpEMFdZUjh4ZG04X2UwRTllM0w2U2ZFNFMwVXVjZ0hwdWdBZzVqTWViREdzTTI0OFZyNlItZVV4UzBkUm9TVXVOQTVuTlN5RU9pTGI2dW5PbTd3bm9sVUc2NWRxclN0cHU0SWxzM09GRjE0THEwX1BkSHhpcW4tZ2VDLVA0amU5TzI5UUF3WUJBUTFQTThB?oc=5
 · TESOURO As maiores altas de juros da história do Tesouro Direto (InfoMoney) https://www.infomoney.com.br/web-stories/as-maiores-altas-de-juros-da-historia-do-tesouro-direto/
 · GOOGL Google earnings up next: Can Cloud growth justify record AI spending? (Investing.com) https://ng.investing.com/news/stock-market-news/google-earnings-up-next-can-cloud-growth-justify-record-ai-spending-93CH-2764518
 · KLBN4 Klabin cai 5% após balanço; custos e dívida preocupam analistas (UOL Economia) https://economia.uol.com.br/noticias/redacao/2026/10/28/klabin-cai-5-apos-balanco-custos-e-divida-preocupam-analistas.ghtm
