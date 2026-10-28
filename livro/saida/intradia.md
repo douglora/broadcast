@@ -1,148 +1,218 @@
 ALERTAS · intradia
 
-(pendente de slot anterior) [ATENÇÃO] E05 · AXIA3 · Axia negocia até R$ 680 milhões com IDB Invest para transmissão
-UOL Economia · 27/10 11h04 · fonte única · licença: manchete
-Link: https://megawhat.uol.com.br/economia-e-politica/empresas/axia-negocia-ate-r-680-milhoes-com-idb-invest-para-transmissao/
-Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
-Ativos: AXIA3
-Como falar: 'saiu no UOL Economia: Axia negocia até R$ 680 milhões com IDB Invest para transmissão; confirmar o número no texto antes de repassar'
-Fonte: UOL Economia 27/10 11h04
-ids: E05-AXIA3-d56332cd55-2026-10-27
+(pendente de slot anterior) [CRÍTICO] CURVA · C04 IPCA+ 2032 rompe 7,00% real: 7,78% (-32 bps), base 27/10 / C04 IPCA+ 2035 rompe 7,50% real: 8,02% (+126 bps), base 26/10 / C04 IPCA+ 2040 rompe 7,00% real: 7,53% (-18 bps), base 27/10
+PU R$ 3.098,02; cada 10 bps move ~0,5% do PU
+Desde 2010, 49% dos dias tiveram taxa maior neste título
+PU R$ 2.478,28; cada 10 bps move ~0,8% do PU
+Desde 2010, 0% dos dias tiveram taxa maior neste título
+PU R$ 1.762,11; cada 10 bps move ~1,3% do PU
+Desde 2010, 11% dos dias tiveram taxa maior neste título
+PU R$ 925,70; cada 10 bps move ~2,2% do PU
+Desde 2010, 25% dos dias tiveram taxa maior neste título
+PU R$ 925,70; cada 10 bps move ~2,2% do PU
+Desde 2010, 25% dos dias tiveram taxa maior neste título
+PU R$ 3.914,66; cada 10 bps move ~0,3% do PU
+Desde 2010, 4% dos dias tiveram taxa maior neste título
+TD Pre 2029 14,79 (-61) PU +1,2% · IPCA+ 2032 7,78 (-32) PU +1,8% · IPCA+ 2040 7,53 (-18) PU +2,4% · IPCA+ 2050 7,18 (-46) PU +11% · Pre 2032 15,06 (-72) PU +3,3%
+Pre 2031 cruzou 14,00% (agora 15,75%)
+Pre 2031 cruzou 14,50% (agora 15,75%)
+Pre 2031 cruzou 15,00% (agora 15,75%)
+Implícita 2029: 6,69% (+113 bps na semana) vs Focus IPCA 2029 3,50% (+319 bps)
+Implícita 2032: 6,75% (+103 bps na semana) vs Focus IPCA 2030 3,50% (+325 bps)
+Implícita 2031/32 (descasado): 7,08% (+143 bps na semana) vs Focus IPCA 2030 3,50% (+358 bps)
+Por que importa: juro real acima de 6-7% é o argumento central do assessor brasileiro para renda fixa; cada 0,50 pp muda o discurso
+Como falar: 'o Tesouro IPCA+ passou a pagar 7,78% acima da inflação; é nível raro, não rotina'
+Fonte: Tesouro Transparente base 27/10; BCB Focus · Tesouro Transparente, base 26/10 · Tesouro Transparente, base 27/10
+ids: C04-IPCA2032-cima_7.0-2026-10-27, C04-IPCA2035-cima_7.5-2026-10-26, C04-IPCA2040-cima_7.0-2026-10-27, C04-IPCA2050-cima_7.0-2026-10-27, C04-IPCA2050-baixo_7.5-2026-10-27, C04-IPCA2029-cima_7.5-2026-10-26, C05-TESOURO-fechou-2026-10-27, C03-TESOURO-td-2026-10-27, C06-TESOURO-implicita-2026-10-27
 
-(pendente de slot anterior) [ATENÇÃO] E05 · KO · Earnings call transcript: Coca-Cola beats Q3 2026 forecasts as sales rise
-Investing.com · 27/10 10h47 · fonte única · licença: manchete
-Link: https://www.investing.com/news/transcripts/earnings-call-transcript-cocacola-beats-q3-2026-forecasts-as-sales-rise-93CH-4975880
+(pendente de slot anterior) [ATENÇÃO] E03 · SBSP3 · Fato Relevante: A Companhia de Saneamento Básico do Estado de São Paulo – SABESP (“SABESP”) e a EMAE – Empresa Metropolitana de Águas e Energia S.A. (“EMAE” e, em co…
+CVM · entregue 27/10/2026 19:44
+Do documento:
+  – O produto da  alienação, líquido de taxas e despesas, será disponibilizado aos antigos acionistas da EMAE  titulares das respectivas frações, na proporção de sua participação em cada ação alienada.
+  – As Companhias manterão seus acionistas e o mercado informados sobre as atualizações  relevantes relativas aos assuntos tratados neste Fato Relevante.
+  – The proceeds from such sale, net of applicable fees and expenses, will be made  available to the former EMAE shareholders entitled to the corresponding fractions, pro rata to  their interest in each share sold.
+  – The Companies will keep their shareholders and the market informed of any relevant updates  regarding the matters addressed in this Material Fact.
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1580869
+Por que importa: fato relevante e o que a propria companhia julga capaz de mover o preco; ler o documento inteiro antes de comentar
+Ativos: SBSP3
+Como falar: 'a Sabesp publicou fato relevante sobre A Companhia de Saneamento Básico do Estado de São Paulo – SABESP (“SA…'
+Fonte: CVM 27/10
+ids: E03-SBSP3-1580869-2026-10-27
+
+(pendente de slot anterior) [ATENÇÃO] E05 · KO · Pepsi vs. Coca-Cola: Which Dividend King stock will outperform in 2027?
+Yahoo Finance · 27/10 14h47 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – PepsiCo has trailed Coca-Cola over the last 12 months.
+  – Since October 2025, shares of Coca-Cola (KO) have surged 36% after adjusting for dividends.
+  – Comparatively, Pepsi (PEP) stock is down 10%.
+  – They also hint at whether 2027 could flip the script.
+  – 8 third-quarter call, PepsiCo reported organic revenue growth of 3.1%.
+  – CEO Ramon Laguarta said that was the fastest pace since the fourth quarter of 2023.
+Link: https://sg.finance.yahoo.com/news/pepsi-vs-coca-cola-dividend-174700976.html
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: KO
+Como falar: 'saiu no Yahoo Finance: Pepsi vs. Coca-Cola: Which Dividend King stock will outperform in 2027?; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 27/10 14h47
+ids: E05-KO-09bd200c4d-2026-10-27
+
+(pendente de slot anterior) [ATENÇÃO] E05 · KO · Coca-Cola raises earnings outlook as North America business slows
+Yahoo Finance · 27/10 08h50 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – The company posted adjusted earnings of $0.91 per share, above the $0.88 expected by Wall Street analysts, alongside revenue of $13.4 billion, also higher than estimates of $12.9 billion.
+  – Overall unit case volume grew by 5%, more than the roughly 3% expected.
+  – The increase was once again led by Coke Zero, which grew roughly 16% year over year.
+  – Diet Coke and Coca-Cola Light grew by 6%.
+  – "In a nutshell, if you take it out, those two elements, we would be growing, and we see that was a solid result," he told Yahoo Finance, adding that Coke Zero grew by double digits.
+  – Coca-Cola now expects earnings growth of 11%, compared to a prior range of 9% to 10%.
+Link: https://sg.finance.yahoo.com/news/coca-cola-raises-earnings-outlook-as-north-america-business-slows-115001447.html
 Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
 Ativos: KO
-Como falar: 'saiu no Investing.com: Earnings call transcript: Coca-Cola beats Q3 2026 forecasts as sales rise; confirmar o número no texto antes de repassar'
-Fonte: Investing.com 27/10 10h47
-ids: E05-KO-d0e1c47ffd-2026-10-27
+Como falar: 'saiu no Yahoo Finance: Coca-Cola raises earnings outlook as North America business slows; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 27/10 08h50
+ids: E05-KO-5d6e343c0d-2026-10-27
 
-(pendente de slot anterior) [ATENÇÃO] E05 · BTC · Ark Invest Sells $15 Million Of Its Own Bitcoin ETF As Price Falls
-Yahoo Finance · 27/10 10h47 · fonte única · licença: resumo
+(pendente de slot anterior) [ATENÇÃO] E05 · KO · Coca-Cola Fiscal Q3 Comparable Earnings, Revenue Rise; 2026 Growth Outlook Raised
+Yahoo Finance · 27/10 08h14 · + TradingView (Reuters) · licença: resumo
 Trechos (licença resumo: reescrever, não colar):
-  – Asset manager Ark Invest has sold $15.9 million U.S.
-  – worth of its own Bitcoin (CRYPTO: $BTC) exchange-traded fund (ETF) as the price of the largest cryptocurrency declines.
-  – The firm led by investor Cathie Wood offloaded its ARK 21Shares Bitcoin ETF (NYSE: $ARKB) from its investment funds as the price of the crypto declines from its early October highs.
-  – To ensure diversification, Ark does not let any individual holding take up more than 10% of its fund portfolios.
-  – The fund currently has $2.5 billion U.S.
-  – Ark Invest's sale comes as the price of Bitcoin falls below the key support level of $80,000 U.S.
-Link: https://finance.yahoo.com/markets/crypto/articles/ark-invest-sells-15-million-134700893.html
-Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
-Ativos: BTC
-Como falar: 'saiu no Yahoo Finance: Ark Invest Sells $15 Million Of Its Own Bitcoin ETF As Price Falls; confirmar o número no texto antes de repassar'
-Fonte: Yahoo Finance 27/10 10h47
-ids: E05-BTC-343848630a-2026-10-27
-
-(pendente de slot anterior) [ATENÇÃO] E05 · KO · Midday Need to Know: Consumer confidence rebounds, Coca-Cola raises outlook & more (SPY:NYSEARCA)
-Seeking Alpha · 27/10 12h36 · fonte única · licença: manchete
-Link: https://seekingalpha.com/news/4658030-midday-need-to-know-consumer-confidence-rebounds-coca-cola-raises-outlook-more
-Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
-Ativos: KO
-Como falar: 'saiu no Seeking Alpha: Midday Need to Know: Consumer confidence rebounds, Coca-Cola raises outlook & more (SPY:N…; confirmar o número no texto antes de repassar'
-Fonte: Seeking Alpha 27/10 12h36
-ids: E05-KO-ea95aea8e4-2026-10-27
-
-(pendente de slot anterior) [ATENÇÃO] E05 · KO · Coca-Cola Raises 2026 Earnings Outlook After Q3 Revenue and Profit Exceed Estimates
-Yahoo Finance · 27/10 11h27 · fonte única · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – Adjusted earnings per share reached $0.91, exceeding the consensus forecast of $0.88, while quarterly revenue increased 7% year over year to $13.4 billion, ahead of estimates of $12.93 billion.
-  – The company also raised its full-year 2026 forecasts for organic revenue growth, comparable adjusted earnings per share and free cash flow.
-  – Despite the results, Coca-Cola shares declined approximately 0.4% shortly after the opening of U.S.
-  – Coca-Cola reported adjusted earnings of $0.91 per share, exceeding analysts' expectations of $0.88 by $0.03.
-  – Quarterly revenue reached $13.4 billion, representing a 7% increase compared with the corresponding period of the previous year.
-  – The result exceeded the Wall Street consensus estimate of $12.93 billion.
-Link: https://finance.yahoo.com/markets/stocks/articles/coca-cola-raises-2026-earnings-142720693.html
+  – Coca-Cola (KO) reported fiscal Q3 comparable earnings Tuesday of $0.91 per diluted share, up from $0  Upgrade to read this MT Newswires article and get so much more.
+Link: https://finance.yahoo.com/markets/stocks/articles/coca-cola-fiscal-q3-comparable-111420303.html
 Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
 Ativos: KO
-Como falar: 'saiu no Yahoo Finance: Coca-Cola Raises 2026 Earnings Outlook After Q3 Revenue and Profit Exceed Estimates; confirmar o número no texto antes de repassar'
-Fonte: Yahoo Finance 27/10 11h27
-ids: E05-KO-c15098abda-2026-10-27
+Como falar: 'saiu no Yahoo Finance: Coca-Cola Fiscal Q3 Comparable Earnings, Revenue Rise; 2026 Growth Outlook Raised; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 27/10 08h14
+ids: E05-KO-f935c18919-2026-10-27
 
-(pendente de slot anterior) [ATENÇÃO] E05 · AVGO · Why Broadcom Is the Big Anthropic IPO Winner. The Stock Jumps on Buy Upgrade.
-Barron's · 27/10 11h15 · fonte única · licença: manchete
-Link: https://www.barrons.com/articles/broadcom-stock-upgrade-anthropic-ipo-68e211ac
+[ATENÇÃO] E01 · AMZN: resultado sai na próxima sessão (29/10)
+qui 29/10 · após o fechamento de NY · estimado (config/calendario.yaml)
+Vol de 20 dias +33% a.a. ⇒ movimento típico de 1 dia ±2,1%
+Chega ao resultado com 1m +2,7% · 6m -3,9% · YTD +9,6%
+Consenso: não disponível (sem fonte licenciada); usar o release e o guidance anterior
+Nota: um agregador cita 22/10
+Por que importa: resultado é o evento que mais move o papel em um dia; a vol implícita e o posicionamento sobem antes e caem depois
+Como falar: 'o resultado sai amanhã; o movimento típico do papel num dia é o da vol acima, e o mercado costuma exagerar na abertura'
+Fonte: config/calendario.yaml
+Push: intradia: 8 alertas de atenção — E01 AMZN, E01 BBDC4, E01 INTC, M01 MACRO, E05 BTC, E05 VALE3, E05 KLBN4, S01 SISTEMA · detalhe na sessão
+ids: E01-AMZN-D-1-2026-10-28
+
+[ATENÇÃO] E01 · BBDC4: resultado sai na próxima sessão (29/10)
+qui 29/10 · após o fechamento da B3 · estimado (config/calendario.yaml)
+Vol de 20 dias +107% a.a. ⇒ movimento típico de 1 dia ±6,8%
+Chega ao resultado com 1m -14% · 6m -19% · YTD -13%
+Consenso: não disponível (sem fonte licenciada); usar o release e o guidance anterior
+Por que importa: resultado é o evento que mais move o papel em um dia; a vol implícita e o posicionamento sobem antes e caem depois
+Como falar: 'o resultado sai amanhã; o movimento típico do papel num dia é o da vol acima, e o mercado costuma exagerar na abertura'
+Fonte: config/calendario.yaml
+ids: E01-BBDC4-D-1-2026-10-28
+
+[ATENÇÃO] E01 · INTC: resultado sai na próxima sessão (29/10)
+qui 29/10 · horário não confirmado · estimado (Yahoo)
+Vol de 20 dias +53% a.a. ⇒ movimento típico de 1 dia ±3,3%
+Chega ao resultado com 1m -19% · 6m -0,7% · YTD +155%
+Consenso: não disponível (sem fonte licenciada); usar o release e o guidance anterior
+Por que importa: resultado é o evento que mais move o papel em um dia; a vol implícita e o posicionamento sobem antes e caem depois
+Como falar: 'o resultado sai amanhã; o movimento típico do papel num dia é o da vol acima, e o mercado costuma exagerar na abertura'
+Fonte: Yahoo
+ids: E01-INTC-D-1-2026-10-28
+
+[ATENÇÃO] M01 · Agenda: FOMC: decisao de juros (sem projecoes) hoje às 15:00 (28/10)
+O que está no preço: F28 14,38% · F35 14,91% · Focus IPCA 2027 4,34%
+Por que importa: evento macro de alta relevância reprecifica a curva inteira; o que importa é a surpresa contra o que está no preço
+Ativos: UST · DXY · UCITS
+Como falar: 'FOMC: decisao de juros sai hoje; o mercado já precifica o consenso, a reação vem da surpresa'
+Fonte: config/calendario.yaml
+ids: M01-MACRO-D0_2810-2026-10-28
+
+[ATENÇÃO] E05 · BTC · Bitwise raises Bitcoin price target to $1.6 million by 2036
+TradingView (Reuters) · 28/10 12h09 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/cryptobriefing:82ca93d79094b:0-bitwise-raises-bitcoin-price-target-to-1-6-million-by-2036/
 Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
-Ativos: AVGO
-Como falar: 'saiu no Barron's: Why Broadcom Is the Big Anthropic IPO Winner. The Stock Jumps on Buy Upgrade.; confirmar o número no texto antes de repassar'
-Fonte: Barron's 27/10 11h15
-ids: E05-AVGO-69e657f976-2026-10-27
+Ativos: BTC
+Como falar: 'saiu no TradingView (Reuters): Bitwise raises Bitcoin price target to $1.6 million by 2036; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 28/10 12h09
+ids: E05-BTC-bbf9097342-2026-10-28
 
-[ATENÇÃO] E05 · USDBRL · Resumão diário #2206: Xi Jinping, da China, parabeniza Lula por reeleição; Ibovespa opera em baixa após abrir em leve alta; dólar cai a R$ 5,30; Gase…
-g1 · 27/10 13h29 · fonte única · licença: resumo
+[ATENÇÃO] E05 · VALE3 · Preços baixos do minério devem afetar resultado da Vale no 3º tri, dizem analistas
+Valor Economico · 28/10 09h54 · fonte única · licença: resumo
 Trechos (licença resumo: reescrever, não colar):
-  – Ibovespa opera em baixa após abrir em leve alta; dólar cai a R$ 5,30 A uma semana da disputa pelo controle do Congresso nos EUA, Trump oferece US$ 1 milhão por denúncias que levem a condenações por fraude eleitoral.
-  – — Foto: Comunicação/Globo Produzido pelas equipes de vídeos e podcasts do g1, o Resumão é apresentado pela jornalista Daniela Scalabrini e tem edição de áudio de Kaique Mattos.
-Link: https://g1.globo.com/podcast/resumao-diario/noticia/2026/10/27/resumao-diario-2206-xi-jinping-da-china-parabeniza-lula-por-reeleicao-ibovespa-opera-em-baixa-apos-abrir-em-leve-alta-dolar-cai-a-r-530-gases-de-efeito-estufa-batem-recorde-e-agravam-aquecimento-global-diz-onu.ghtml
-Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
-Ativos: USDBRL
-Como falar: 'saiu no g1: Resumão diário #2206: Xi Jinping, da China, parabeniza Lula por reeleição; Ibovespa opera…; confirmar o número no texto antes de repassar'
-Fonte: g1 27/10 13h29
-Push: intradia: 3 alertas de atenção — E05 USDBRL, E05 NVDA, E05 KO · detalhe na sessão
-ids: E05-USDBRL-4aa2704ebb-2026-10-27
+  – Projeções compiladas pelo Valor junto a quatro bancos e corretoras mostram que o lucro líquido médio previsto é de US$ 1,607 bilhão, o que, caso se confirme, será 40,1% abaixo do terceiro trimestre do ano passado.
+  – A Vale divulga os resultados do terceiro trimestre na quinta-feira (29), depois do fechamento do mercado.
+  – Confira resultados e indicadores da Vale e das demais companhias de capital aberto no portal Valor Empresas 360  Neste trimestre, a Vale passará a divulgar os dados de produção juntamente com o balanço financeiro.
+  – A média para a receita líquida projetada inclui cinco bancos e corretoras e aponta para um montante de R$ 10,345 bilhões no terceiro trimestre, 0,72% a menos que em igual período do ano passado.
+  – Para o lucro antes de juros, impostos, depreciação e amortização (Ebitda, na sigla em inglês), a média das cinco casas de análise é de US$ 3,5 bilhões, 20,4% inferior ao terceiro trimestre de 2025.
+  – As estimativas de lucro variam de US$ 1,087 bilhão do Itaú BBA aos US$ 2,428 bilhões do BTG Pactual, enquanto as projeções para a receita líquida vão dos US$ 10,06 bilhões do Itaú BBA aos US$ 10,549 bilhões do BTG Pactu…
+Link: https://valor.globo.com/empresas/noticia/2026/10/28/precos-baixos-do-minerio-devem-afetar-resultado-da-vale-no-3o-tri-dizem-analistas.ghtml
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: VALE3
+Como falar: 'saiu no Valor Economico: Preços baixos do minério devem afetar resultado da Vale no 3º tri, dizem analistas; confirmar o número no texto antes de repassar'
+Fonte: Valor Economico 28/10 09h54
+ids: E05-VALE3-371ad405f4-2026-10-28
 
-[ATENÇÃO] E05 · NVDA · Nvidia Stocks Rise With $3 Billion Meta Bet Behind Broader Hardware Push
-TradingView (Reuters) · 27/10 12h18 · fonte única · licença: manchete
-Link: https://www.tradingview.com/news/gurufocus:9176fd56c094b:0-nvidia-stocks-rise-with-3-billion-meta-bet-behind-broader-hardware-push/
-Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
-Ativos: NVDA
-Como falar: 'saiu no TradingView (Reuters): Nvidia Stocks Rise With $3 Billion Meta Bet Behind Broader Hardware Push; confirmar o número no texto antes de repassar'
-Fonte: TradingView (Reuters) 27/10 12h18
-ids: E05-NVDA-7cc5d35846-2026-10-27
-
-[ATENÇÃO] E05 · KO · Coca-Cola Raises Outlook Again As North America Goes Flat
-Yahoo Finance · 27/10 11h32 · fonte única · licença: resumo
+[ATENÇÃO] E05 · KLBN4 · Klabin (KLBN11) tem queda de 18% no lucro líquido do 3T26
+Suno Noticias · 28/10 09h50 · fonte única · licença: resumo
 Trechos (licença resumo: reescrever, não colar):
-  – Tell us how you invest and we'll show you why it's our #1 pick.
-  – 30M+ investors trust Moby to find it first.
-  – Murphy told CNBC that he expects restaurants to stay under pressure through year-end, says shoppers at every income level are hunting for value, and sees no change in that behavior in 2027.
-Link: https://finance.yahoo.com/markets/stocks/articles/coca-cola-raises-outlook-again-143209302.html
-Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
-Ativos: KO
-Como falar: 'saiu no Yahoo Finance: Coca-Cola Raises Outlook Again As North America Goes Flat; confirmar o número no texto antes de repassar'
-Fonte: Yahoo Finance 27/10 11h32
-ids: E05-KO-e62736ef3f-2026-10-27
+  – A Klabin (KLBN11) registrou lucro líquido de R$ 393 milhões no terceiro trimestre de 2026, queda de 18% frente a igual período de 2025.
+  – O Ebitda ajustado somou R$ 1,856 bilhão entre julho e setembro, recuo de 12% em relação ao período correspondente do ano anterior.
+  – A receita líquida totalizou R$ 5,566 bilhões no terceiro trimestre de 2026, 3% maior ante o terceiro trimestre de 2025.
+  – O resultado financeiro da Klabin (KLBN11) foi negativo em R$ 337 milhões no período, frente a R$ 670 milhões negativos em igual trimestre de 2025.
+  – “O trimestre foi marcado pela parada programada de manutenção da unidade de Otacílio Costa.
+  – Endividamento da Klabin (KLBN11) recua e investimentos sobem O endividamento líquido somou R$ 23,977 bilhões ao fim do terceiro trimestre, diminuição de 8% frente a igual período de 2025 e estável na comparação trimestr…
+Link: https://www.suno.com.br/noticias/lucro-liquido-klabin-cai-atinge-393-milhoes-3o-trimestre-go/amp/
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: KLBN4
+Como falar: 'saiu no Suno Noticias: Klabin (KLBN11) tem queda de 18% no lucro líquido do 3T26; confirmar o número no texto antes de repassar'
+Fonte: Suno Noticias 28/10 09h50
+ids: E05-KLBN4-2070982819-2026-10-28
+
+[ATENÇÃO] S01 · coleta do slot intradia saiu incompleta: bcb: BCB devolveu 3 de 5 séries (faltaram ipca_mes, ipca_12m)
+O que fiz: entreguei as seções disponíveis; as pernas que falharam estão em LACUNAS.
+Por que importa: silêncio é lido como 'está tudo bem'; declarar a falha é o que permite confiar no restante
+Fonte: manifest do runner
+ids: S01-SISTEMA-intradia-2026-10-28
 
 Info (só linha no Fechamento):
-· E05 PETR4 · Petrobras, Prio ou Brava? BTG revisa ações de petróleo após queda da Bolsa e aponta oportunidades
-· E05 GOOGL · Alphabet Stocks Rise Before Cloud Profit Meets the Capital-Spending Test
-· E05 BTC · Bitcoin Outperforms Grayscale’s AI Compute ETF As AI Cloud Stocks Slide
-· E05 INTC · Intel faces test of recovery as Wedbush looks beyond Q3 results
-· E05 KO · Coca-Cola earnings analysis: questions answered and next catalysts
-· E05 ITUB4 · Sete ações para ficar de olho após queda da Bolsa, segundo o Itaú BBA
-· E05 NVDA · Musk's Neocloud Warning Makes SOXX A Better Buy Than Nvidia, And SMH (NASDAQ:SOXX)
-· E05 SBSP3 · Leonardo Sakamoto: Sabesp é autuada por demissões em massa após a privatização
-· E05 USDBRL · Suzano (SUZB3) sobe com dólar alto, mas o que esperar das ações daqui para frente?
-· E05 NVDA · 45,000 Nvidia Blackwell GPUs Cleared for Kazakhstan Data Center
-· E05 GOOGL · Options Action: Alphabet and Microsoft Ahead of Earnings
-· E05 GOOGL · Amazon and Alphabet Are Each Spending At Least $200 Billion on Data Centers This Year. Here's Which Stock Outperforms Through 2028.
-· E05 MRVL · Can Marvell Stock Jump 30%?
-· E05 BTC · QUICK SPARK: VanEck’s New ETF Blends Bitcoin, Gold and Global Stocks in One Fund
-· E05 BTC · 2 Fed Debates Could Move Bitcoin and Gold Now That a Hold Is Priced In
+· F01 Real cai: USD/BRL 5,3852 (+7,1% em 5 sessões) (parcial, intradia)
+· E01 GOOGL: resultado sai hoje (28/10)
+· E01 VALE3: resultado sai hoje (28/10)
+· E01 KLBN4: resultado sai hoje (28/10)
+· E01 UGPA3: resultado sai hoje (28/10)
+· E01 PLTR: resultado sai em 3 sessões (02/11)
+· M01 Agenda: PIB dos EUA 3T26, estimativa avancada (BEA) amanhã às 09:30 (29/10)
+· E05 TESOURO · As maiores altas de juros da história do Tesouro Direto
+· E05 GOOGL · Google earnings up next: Can Cloud growth justify record AI spending?
+· E05 KLBN4 · Klabin cai 5% após balanço; custos e dívida preocupam analistas
+· E05 INTC · Intel Stock Could Swing 9% After Tomorrow's Earnings
+· E05 CVX · Chevron Corporation (CVX) Gains on Strong Production, Hess Synergies, and Higher Cash Flow
+· E05 USDBRL · Ibovespa cai enquanto dólar e juros futuros sobem ainda na esteira da eleição
+· E05 AMZN · Amazon Q3 earnings on deck: All eyes on cloud growth, capex (AMZN:NASDAQ)
+· E05 USDBRL · Ibovespa cai mais de 2% e retorna aos 170 mil pontos; dólar sobe
+· E05 KLBN4 · Klabin (KLBN11) cai 6% apesar de lucro acima do esperado no 3T; o que desagradou?
+· E05 MU · Micron’s stock rises after SK Hynix earnings. Here’s its next major test.
+· E05 USDBRL · Dólar sobe ante o real com mercado atento ao exterior e ao noticiário político Por Reuters
+· E05 GOOGL · Alphabet set to report third-quarter earnings after the bell
+· E05 INTC · Robinhood misses on Q3 earnings, plus IBM, Intel, and Oracle object to tokenized plans
+· E05 AMZN · Amazon Q3 preview: AWS acceleration expected to lead the way
+· E05 PETR4 · Petrobras (PETR4) esclarece à CVM fala da presidente sobre ações
+· E05 KLBN4 · Klabin: resultado do 3T26 mostra lucro menor, mas receita cresce e supera expectativas
+· E05 AMD · Aletheia Capital raises AMD stock price target to $800 on AI demand
+· E05 KLBN4 · Lucro da Klabin (KLBN11) cai 18% no 3º trimestre, para R$ 393 milhões
+· E05 KLBN4 · Lucro da Klabin cai 31% no 3º trimestre com pressão de custos e câmbio
+· E05 USDBRL · Investidores aguardam decisão de juros do Fed e digerem fuga de Flávio Bolsonaro; Ibovespa em dólar sobe nesta quarta-feira (28)
+· E05 JPM · JPMorgan downgrades Xylem stock rating on guidance cut, slower orders
+· E05 JPM · Anthropic taps JPMorgan to lead IPO’s U.S. retail sales, Bloomberg reports
+· E05 PETR4 · Petrobras: CVM multa Cerveró em R$ 16 mi por desvios na compra de Pasadena
+· E05 ITUB4 · Itaú compra startup mineira de IA por quase R$ 3 bilhões
 
+Suprimidos pelo teto (viram linha do Fechamento): E05-KLBN4-0b524b4463-2026-10-28 (teto de noticias), E05-AMD-eb4b4b3428-2026-10-28 (teto de noticias), E05-KLBN4-e3d41ea6ff-2026-10-28 (teto de noticias), E05-KLBN4-68846902f7-2026-10-28 (teto de noticias), E05-USDBRL-3c21682c79-2026-10-28 (teto de noticias), E05-JPM-79be771645-2026-10-28 (teto de noticias), E05-JPM-69201783df-2026-10-28 (teto de noticias), E05-PETR4-2f6db13f23-2026-10-28 (teto de noticias), E05-ITUB4-e5d805a382-2026-10-27 (teto de noticias)
 
 Alertas do dia (todos, com status):
-· entregue  F01 USDBRL — Real sobe: USD/BRL 5,3392 (+6,4% em 5 sessões · 13 dias seguidos de movimento do
-· pendente  E05 USDBRL — USDBRL · Resumão diário #2206: Xi Jinping, da China, parabeniza Lula por reeleiç
-· pendente  E05 NVDA — NVDA · Nvidia Stocks Rise With $3 Billion Meta Bet Behind Broader Hardware Push
-· pendente  E05 KO — KO · Coca-Cola Raises Outlook Again As North America Goes Flat
-· pendente  E05 KO — KO · Midday Need to Know: Consumer confidence rebounds, Coca-Cola raises outlook
-· pendente  E05 KO — KO · Coca-Cola Raises 2026 Earnings Outlook After Q3 Revenue and Profit Exceed E
-· pendente  E05 AVGO — AVGO · Why Broadcom Is the Big Anthropic IPO Winner. The Stock Jumps on Buy Upgr
-· expirado  E05 AXIA3 — AXIA3 · Axia negocia até R$ 680 milhões com IDB Invest para transmissão
-· expirado  E05 KO — KO · Earnings call transcript: Coca-Cola beats Q3 2026 forecasts as sales rise
-· expirado  E05 BTC — BTC · Ark Invest Sells $15 Million Of Its Own Bitcoin ETF As Price Falls
-· entregue  E05 CVX — CVX · Chevron: Holding For The Dividend And Buybacks But Not Adding With Brent A
-· entregue  E05 KO — KO · Coca-Cola raises earnings outlook as North America business slows
-· entregue  E05 AXIA3 — AXIA3 · Axia Energia (AXIA3) assina carta-mandato com IDB Invest para potencial 
-· linha     S01 SISTEMA — coleta do slot intradia saiu incompleta: bcb: BCB devolveu 4 de 5 séries (faltar
-· entregue  E01 GOOGL — GOOGL: resultado sai na próxima sessão (28/10)
-· entregue  E01 VALE3 — VALE3: resultado sai na próxima sessão (28/10)
-· entregue  E01 KLBN4 — KLBN4: resultado sai na próxima sessão (28/10)
-· entregue  E01 UGPA3 — UGPA3: resultado sai na próxima sessão (28/10)
-· entregue  E05 KO — KO · Coca-Cola smashes organic sales expectations, hikes profit guidance (KO:NYS
-· entregue  E05 BTC — BTC · Jason Calacanis tells investors to sell Bitcoin, predicts a slide to $57,0
-· entregue  E05 KO — KO · BRIEF-Coca-Cola Outlook FY Organic Revenue Growth 5%
-· linha     F05 BHKP — Celulose (proxy SHFE, fibra longa) -3,0% na semana: 4.532 CNY/t (27/10)
-· (+98 notícias só manchete, em noticias.md)
+· pendente  E01 AMZN — AMZN: resultado sai na próxima sessão (29/10)
+· pendente  E01 BBDC4 — BBDC4: resultado sai na próxima sessão (29/10)
+· pendente  E01 INTC — INTC: resultado sai na próxima sessão (29/10)
+· pendente  M01 MACRO — Agenda: FOMC: decisao de juros (sem projecoes) hoje às 15:00 (28/10)
+· pendente  E05 BTC — BTC · Bitwise raises Bitcoin price target to $1.6 million by 2036
+· pendente  E05 VALE3 — VALE3 · Preços baixos do minério devem afetar resultado da Vale no 3º tri, dizem
+· pendente  E05 KLBN4 — KLBN4 · Klabin (KLBN11) tem queda de 18% no lucro líquido do 3T26
+· pendente  S01 SISTEMA — coleta do slot intradia saiu incompleta: bcb: BCB devolveu 3 de 5 séries (faltar
+· linha     F01 USDBRL — Real cai: USD/BRL 5,3852 (+7,1% em 5 sessões) (parcial, intradia)
+· (+31 notícias só manchete, em noticias.md)
 

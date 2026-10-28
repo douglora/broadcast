@@ -1,6 +1,6 @@
-ALERTAS · Fechamento 18h
+ALERTAS · intradia
 
-[CRÍTICO] CURVA · C04 IPCA+ 2032 rompe 7,00% real: 7,78% (-32 bps), base 27/10 / C04 IPCA+ 2035 rompe 7,50% real: 8,02% (+126 bps), base 26/10 / C04 IPCA+ 2040 rompe 7,00% real: 7,53% (-18 bps), base 27/10
+(pendente de slot anterior) [CRÍTICO] CURVA · C04 IPCA+ 2032 rompe 7,00% real: 7,78% (-32 bps), base 27/10 / C04 IPCA+ 2035 rompe 7,50% real: 8,02% (+126 bps), base 26/10 / C04 IPCA+ 2040 rompe 7,00% real: 7,53% (-18 bps), base 27/10
 PU R$ 3.098,02; cada 10 bps move ~0,5% do PU
 Desde 2010, 49% dos dias tiveram taxa maior neste título
 PU R$ 2.478,28; cada 10 bps move ~0,8% do PU
@@ -23,42 +23,7 @@ Implícita 2031/32 (descasado): 7,08% (+143 bps na semana) vs Focus IPCA 2030 3,
 Por que importa: juro real acima de 6-7% é o argumento central do assessor brasileiro para renda fixa; cada 0,50 pp muda o discurso
 Como falar: 'o Tesouro IPCA+ passou a pagar 7,78% acima da inflação; é nível raro, não rotina'
 Fonte: Tesouro Transparente base 27/10; BCB Focus · Tesouro Transparente, base 26/10 · Tesouro Transparente, base 27/10
-Push: [CRÍTICO] IPCA2032 IPCA+ 2032 rompe 7,00% real | IPCA2035 IPCA+ 2035 rompe 7,50% real | IPCA2040 IPCA+ 2040 rompe 7,00% real +6 · detalhe na sessão
 ids: C04-IPCA2032-cima_7.0-2026-10-27, C04-IPCA2035-cima_7.5-2026-10-26, C04-IPCA2040-cima_7.0-2026-10-27, C04-IPCA2050-cima_7.0-2026-10-27, C04-IPCA2050-baixo_7.5-2026-10-27, C04-IPCA2029-cima_7.5-2026-10-26, C05-TESOURO-fechou-2026-10-27, C03-TESOURO-td-2026-10-27, C06-TESOURO-implicita-2026-10-27
-
-(pendente de slot anterior) [ATENÇÃO] E05 · USDBRL · Resumão diário #2206: Xi Jinping, da China, parabeniza Lula por reeleição; Ibovespa opera em baixa após abrir em leve alta; dólar cai a R$ 5,30; Gase…
-g1 · 27/10 13h29 · fonte única · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – Ibovespa opera em baixa após abrir em leve alta; dólar cai a R$ 5,30 A uma semana da disputa pelo controle do Congresso nos EUA, Trump oferece US$ 1 milhão por denúncias que levem a condenações por fraude eleitoral.
-  – — Foto: Comunicação/Globo Produzido pelas equipes de vídeos e podcasts do g1, o Resumão é apresentado pela jornalista Daniela Scalabrini e tem edição de áudio de Kaique Mattos.
-Link: https://g1.globo.com/podcast/resumao-diario/noticia/2026/10/27/resumao-diario-2206-xi-jinping-da-china-parabeniza-lula-por-reeleicao-ibovespa-opera-em-baixa-apos-abrir-em-leve-alta-dolar-cai-a-r-530-gases-de-efeito-estufa-batem-recorde-e-agravam-aquecimento-global-diz-onu.ghtml
-Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
-Ativos: USDBRL
-Como falar: 'saiu no g1: Resumão diário #2206: Xi Jinping, da China, parabeniza Lula por reeleição; Ibovespa opera…; confirmar o número no texto antes de repassar'
-Fonte: g1 27/10 13h29
-ids: E05-USDBRL-4aa2704ebb-2026-10-27
-
-(pendente de slot anterior) [ATENÇÃO] E05 · NVDA · Nvidia Stocks Rise With $3 Billion Meta Bet Behind Broader Hardware Push
-TradingView (Reuters) · 27/10 12h18 · fonte única · licença: manchete
-Link: https://www.tradingview.com/news/gurufocus:9176fd56c094b:0-nvidia-stocks-rise-with-3-billion-meta-bet-behind-broader-hardware-push/
-Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
-Ativos: NVDA
-Como falar: 'saiu no TradingView (Reuters): Nvidia Stocks Rise With $3 Billion Meta Bet Behind Broader Hardware Push; confirmar o número no texto antes de repassar'
-Fonte: TradingView (Reuters) 27/10 12h18
-ids: E05-NVDA-7cc5d35846-2026-10-27
-
-(pendente de slot anterior) [ATENÇÃO] E05 · KO · Coca-Cola Raises Outlook Again As North America Goes Flat
-Yahoo Finance · 27/10 11h32 · fonte única · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – Tell us how you invest and we'll show you why it's our #1 pick.
-  – 30M+ investors trust Moby to find it first.
-  – Murphy told CNBC that he expects restaurants to stay under pressure through year-end, says shoppers at every income level are hunting for value, and sees no change in that behavior in 2027.
-Link: https://finance.yahoo.com/markets/stocks/articles/coca-cola-raises-outlook-again-143209302.html
-Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
-Ativos: KO
-Como falar: 'saiu no Yahoo Finance: Coca-Cola Raises Outlook Again As North America Goes Flat; confirmar o número no texto antes de repassar'
-Fonte: Yahoo Finance 27/10 11h32
-ids: E05-KO-e62736ef3f-2026-10-27
 
 (pendente de slot anterior) [ATENÇÃO] E03 · SBSP3 · Fato Relevante: A Companhia de Saneamento Básico do Estado de São Paulo – SABESP (“SABESP”) e a EMAE – Empresa Metropolitana de Águas e Energia S.A. (“EMAE” e, em co…
 CVM · entregue 27/10/2026 19:44
@@ -117,108 +82,136 @@ Como falar: 'saiu no Yahoo Finance: Coca-Cola Fiscal Q3 Comparable Earnings, Rev
 Fonte: Yahoo Finance 27/10 08h14
 ids: E05-KO-f935c18919-2026-10-27
 
-Info (só linha no Fechamento):
-· T01 KLBN4 retomou a média de 200 dias pela 2ª sessão: R$ 3,69 vs MM200 R$ 3,66 (+0,7%)
-· T02 SPY retomou a MM100 pela 2ª sessão: US$ 769,12, acima da MM200 (tendência longa preservada)
-· T02 EQTL3 perdeu a MM50 e perdeu a MM100 pela 2ª sessão: R$ 35,30, já abaixo da MM200 (confirma tendência de baixa)
-· T02 SAPR4 perdeu a MM50 e perdeu a MM100 pela 2ª sessão: R$ 6,65, já abaixo da MM200 (confirma tendência de baixa)
-· T02 ALUP4 perdeu a MM50 e perdeu a MM100 pela 2ª sessão: R$ 10,61, já abaixo da MM200 (confirma tendência de baixa)
-· T02 ITUB4 perdeu a MM50 e perdeu a MM100 pela 2ª sessão: R$ 41,19, já abaixo da MM200 (confirma tendência de baixa)
-· T02 BBDC4 perdeu a MM50 e perdeu a MM100 pela 2ª sessão: R$ 15,73, já abaixo da MM200 (confirma tendência de baixa)
-· T02 UGPA3 perdeu a MM50 pela 2ª sessão: R$ 34,23, ainda acima da MM200 (tendência longa preservada)
-· T02 AXIA3 perdeu a MM50 e perdeu a MM100 pela 2ª sessão: R$ 50,88, já abaixo da MM200 (confirma tendência de baixa)
-· T02 ITSA4 perdeu a MM50 e perdeu a MM100 pela 2ª sessão: R$ 13,33, já abaixo da MM200 (confirma tendência de baixa)
-· T02 BBAS3 perdeu a MM50 e perdeu a MM100 pela 2ª sessão: R$ 17,38, já abaixo da MM200 (confirma tendência de baixa)
-· T02 SBSP3 perdeu a MM50 e perdeu a MM100 pela 2ª sessão: R$ 25,53, já abaixo da MM200 (confirma tendência de baixa)
-· T02 SMAL11 perdeu a MM50 e perdeu a MM100 pela 2ª sessão: R$ 99,10, já abaixo da MM200 (confirma tendência de baixa)
-· T02 MRVE3 perdeu a MM50 e perdeu a MM100 pela 2ª sessão: R$ 4,46, já abaixo da MM200 (confirma tendência de baixa)
-· T02 CURY3 perdeu a MM50 e perdeu a MM100 pela 2ª sessão: R$ 28,04, já abaixo da MM200 (confirma tendência de baixa)
-· T02 USDBRL retomou a MM50 e retomou a MM100 pela 2ª sessão: R$ 5,3479, acima da MM200 (tendência longa preservada)
-· T11 ITUB4 descolou à frente de BBDC4: -1,2% vs -9,3% em 20 sessões (z 2,2 em 252 sessões, 2º dia)
-· T11 BBAS3 descolou atrás de ITUB4: -19% vs -1,2% em 20 sessões (z -2,9 em 252 sessões, 2º dia)
-· E03 PETR4 · Comunicado ao Mercado: Esclarecimentos sobre questionamentos da CVM/B3
-· E05 BTC · Willy Woo’s Simulation Puts Bitcoin at $413,000 in 2028. What Would It Take for BTC to 5x?
-· E05 ITUB4 · Itaú BBA: AgTechs brasileiras atraem R$ 94,7 milhões no 1º semestre
-· E05 PETR4 · Vinte anos depois, CVM condena Nestor Cerveró, ex-Petrobras, no caso Pasadena
-· E05 USDBRL · Ibovespa tem nova baixa após tombo da véspera; dólar perde 1%, a R$ 5,35
-· E05 AVGO · Fitch affirms Broadcom at ’A-’ with positive outlook despite AI backstop risks
-· E05 TSLA · SpaceX: The Tesla Anchor (NASDAQ:SPCX)
-· E05 MU · Micron Stocks Rise With Robot-Memory Forecast and a $61.5 Billion Hurdle
-· E05 PLTR · Veteran Bank Tweaks Palantir Stock Price Target for 2027
-· E05 TSM · TSMC Gets Fresh Pricing Power From AI Chip Boom
-· E05 COHR · Coherent Corp. (COHR) Stock Price, News, Quote & History
-· E05 META · Meta Platforms, Inc. (META) stock price, news, quote and history
-· E05 LITE · Lumentum Holdings Inc. (LITE) Stock Forecasts
-· E05 TSM · TSM vs. MU: Which Semiconductor Stock Is the Better Buy Post-Earnings?
-· T08 BBDC4 entrou em queda de -30% do pico: -31% do pico de 52s (R$ 22,80 em 06/10) a R$ 15,73
-· T08 PETR4 entrou em correção: -12% do pico de 52s (R$ 59,68 em 16/10) a R$ 52,79
-· T01 ALUP4 fechou abaixo da média de 200 dias pela 2ª sessão: R$ 10,61 vs MM200 R$ 10,72 (-1,0%)
-· T01 ITUB4 fechou abaixo da média de 200 dias pela 2ª sessão: R$ 41,19 vs MM200 R$ 42,56 (-3,2%)
-· T01 ITSA4 fechou abaixo da média de 200 dias pela 2ª sessão: R$ 13,33 vs MM200 R$ 13,56 (-1,7%)
-· T04 BBDC4 fechou na mínima de 52 semanas: R$ 15,73, -10% em 1m e -6,1% em 12m
-· T06 UGPA3 -14% em 5 sessões a R$ 34,23: movimento de 2,7 desvios para a vol de 20 dias
-· S01 coleta do slot fechamento saiu incompleta: bcb: BCB devolveu 3 de 5 séries (faltaram ptax_venda, selic_meta)
+[ATENÇÃO] E01 · AMZN: resultado sai na próxima sessão (29/10)
+qui 29/10 · após o fechamento de NY · estimado (config/calendario.yaml)
+Vol de 20 dias +33% a.a. ⇒ movimento típico de 1 dia ±2,1%
+Chega ao resultado com 1m +2,7% · 6m -3,9% · YTD +9,6%
+Consenso: não disponível (sem fonte licenciada); usar o release e o guidance anterior
+Nota: um agregador cita 22/10
+Por que importa: resultado é o evento que mais move o papel em um dia; a vol implícita e o posicionamento sobem antes e caem depois
+Como falar: 'o resultado sai amanhã; o movimento típico do papel num dia é o da vol acima, e o mercado costuma exagerar na abertura'
+Fonte: config/calendario.yaml
+Push: intradia: 8 alertas de atenção — E01 AMZN, E01 BBDC4, E01 INTC, M01 MACRO, E05 BTC, E05 VALE3, E05 KLBN4, S01 SISTEMA · detalhe na sessão
+ids: E01-AMZN-D-1-2026-10-28
 
-Suprimidos pelo teto (viram linha do Fechamento): T08-BBDC4--30-2026-10-27 (teto diário de críticos), T08-PETR4--10-2026-10-27 (teto diário de críticos), T01-ALUP4-perda-2026-10-27 (teto de atenção), T01-ITUB4-perda-2026-10-27 (teto de atenção), T01-ITSA4-perda-2026-10-27 (teto de atenção), T04-BBDC4-minima-2026-10-27 (teto de atenção), T06-UGPA3-queda-2026-10-27 (teto de atenção), S01-SISTEMA-fechamento-2026-10-27 (teto de atenção)
+[ATENÇÃO] E01 · BBDC4: resultado sai na próxima sessão (29/10)
+qui 29/10 · após o fechamento da B3 · estimado (config/calendario.yaml)
+Vol de 20 dias +107% a.a. ⇒ movimento típico de 1 dia ±6,8%
+Chega ao resultado com 1m -14% · 6m -19% · YTD -13%
+Consenso: não disponível (sem fonte licenciada); usar o release e o guidance anterior
+Por que importa: resultado é o evento que mais move o papel em um dia; a vol implícita e o posicionamento sobem antes e caem depois
+Como falar: 'o resultado sai amanhã; o movimento típico do papel num dia é o da vol acima, e o mercado costuma exagerar na abertura'
+Fonte: config/calendario.yaml
+ids: E01-BBDC4-D-1-2026-10-28
+
+[ATENÇÃO] E01 · INTC: resultado sai na próxima sessão (29/10)
+qui 29/10 · horário não confirmado · estimado (Yahoo)
+Vol de 20 dias +53% a.a. ⇒ movimento típico de 1 dia ±3,3%
+Chega ao resultado com 1m -19% · 6m -0,7% · YTD +155%
+Consenso: não disponível (sem fonte licenciada); usar o release e o guidance anterior
+Por que importa: resultado é o evento que mais move o papel em um dia; a vol implícita e o posicionamento sobem antes e caem depois
+Como falar: 'o resultado sai amanhã; o movimento típico do papel num dia é o da vol acima, e o mercado costuma exagerar na abertura'
+Fonte: Yahoo
+ids: E01-INTC-D-1-2026-10-28
+
+[ATENÇÃO] M01 · Agenda: FOMC: decisao de juros (sem projecoes) hoje às 15:00 (28/10)
+O que está no preço: F28 14,38% · F35 14,91% · Focus IPCA 2027 4,34%
+Por que importa: evento macro de alta relevância reprecifica a curva inteira; o que importa é a surpresa contra o que está no preço
+Ativos: UST · DXY · UCITS
+Como falar: 'FOMC: decisao de juros sai hoje; o mercado já precifica o consenso, a reação vem da surpresa'
+Fonte: config/calendario.yaml
+ids: M01-MACRO-D0_2810-2026-10-28
+
+[ATENÇÃO] E05 · BTC · Bitwise raises Bitcoin price target to $1.6 million by 2036
+TradingView (Reuters) · 28/10 12h09 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/cryptobriefing:82ca93d79094b:0-bitwise-raises-bitcoin-price-target-to-1-6-million-by-2036/
+Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
+Ativos: BTC
+Como falar: 'saiu no TradingView (Reuters): Bitwise raises Bitcoin price target to $1.6 million by 2036; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 28/10 12h09
+ids: E05-BTC-bbf9097342-2026-10-28
+
+[ATENÇÃO] E05 · VALE3 · Preços baixos do minério devem afetar resultado da Vale no 3º tri, dizem analistas
+Valor Economico · 28/10 09h54 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Projeções compiladas pelo Valor junto a quatro bancos e corretoras mostram que o lucro líquido médio previsto é de US$ 1,607 bilhão, o que, caso se confirme, será 40,1% abaixo do terceiro trimestre do ano passado.
+  – A Vale divulga os resultados do terceiro trimestre na quinta-feira (29), depois do fechamento do mercado.
+  – Confira resultados e indicadores da Vale e das demais companhias de capital aberto no portal Valor Empresas 360  Neste trimestre, a Vale passará a divulgar os dados de produção juntamente com o balanço financeiro.
+  – A média para a receita líquida projetada inclui cinco bancos e corretoras e aponta para um montante de R$ 10,345 bilhões no terceiro trimestre, 0,72% a menos que em igual período do ano passado.
+  – Para o lucro antes de juros, impostos, depreciação e amortização (Ebitda, na sigla em inglês), a média das cinco casas de análise é de US$ 3,5 bilhões, 20,4% inferior ao terceiro trimestre de 2025.
+  – As estimativas de lucro variam de US$ 1,087 bilhão do Itaú BBA aos US$ 2,428 bilhões do BTG Pactual, enquanto as projeções para a receita líquida vão dos US$ 10,06 bilhões do Itaú BBA aos US$ 10,549 bilhões do BTG Pactu…
+Link: https://valor.globo.com/empresas/noticia/2026/10/28/precos-baixos-do-minerio-devem-afetar-resultado-da-vale-no-3o-tri-dizem-analistas.ghtml
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: VALE3
+Como falar: 'saiu no Valor Economico: Preços baixos do minério devem afetar resultado da Vale no 3º tri, dizem analistas; confirmar o número no texto antes de repassar'
+Fonte: Valor Economico 28/10 09h54
+ids: E05-VALE3-371ad405f4-2026-10-28
+
+[ATENÇÃO] E05 · KLBN4 · Klabin (KLBN11) tem queda de 18% no lucro líquido do 3T26
+Suno Noticias · 28/10 09h50 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – A Klabin (KLBN11) registrou lucro líquido de R$ 393 milhões no terceiro trimestre de 2026, queda de 18% frente a igual período de 2025.
+  – O Ebitda ajustado somou R$ 1,856 bilhão entre julho e setembro, recuo de 12% em relação ao período correspondente do ano anterior.
+  – A receita líquida totalizou R$ 5,566 bilhões no terceiro trimestre de 2026, 3% maior ante o terceiro trimestre de 2025.
+  – O resultado financeiro da Klabin (KLBN11) foi negativo em R$ 337 milhões no período, frente a R$ 670 milhões negativos em igual trimestre de 2025.
+  – “O trimestre foi marcado pela parada programada de manutenção da unidade de Otacílio Costa.
+  – Endividamento da Klabin (KLBN11) recua e investimentos sobem O endividamento líquido somou R$ 23,977 bilhões ao fim do terceiro trimestre, diminuição de 8% frente a igual período de 2025 e estável na comparação trimestr…
+Link: https://www.suno.com.br/noticias/lucro-liquido-klabin-cai-atinge-393-milhoes-3o-trimestre-go/amp/
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: KLBN4
+Como falar: 'saiu no Suno Noticias: Klabin (KLBN11) tem queda de 18% no lucro líquido do 3T26; confirmar o número no texto antes de repassar'
+Fonte: Suno Noticias 28/10 09h50
+ids: E05-KLBN4-2070982819-2026-10-28
+
+[ATENÇÃO] S01 · coleta do slot intradia saiu incompleta: bcb: BCB devolveu 3 de 5 séries (faltaram ipca_mes, ipca_12m)
+O que fiz: entreguei as seções disponíveis; as pernas que falharam estão em LACUNAS.
+Por que importa: silêncio é lido como 'está tudo bem'; declarar a falha é o que permite confiar no restante
+Fonte: manifest do runner
+ids: S01-SISTEMA-intradia-2026-10-28
+
+Info (só linha no Fechamento):
+· F01 Real cai: USD/BRL 5,3852 (+7,1% em 5 sessões) (parcial, intradia)
+· E01 GOOGL: resultado sai hoje (28/10)
+· E01 VALE3: resultado sai hoje (28/10)
+· E01 KLBN4: resultado sai hoje (28/10)
+· E01 UGPA3: resultado sai hoje (28/10)
+· E01 PLTR: resultado sai em 3 sessões (02/11)
+· M01 Agenda: PIB dos EUA 3T26, estimativa avancada (BEA) amanhã às 09:30 (29/10)
+· E05 TESOURO · As maiores altas de juros da história do Tesouro Direto
+· E05 GOOGL · Google earnings up next: Can Cloud growth justify record AI spending?
+· E05 KLBN4 · Klabin cai 5% após balanço; custos e dívida preocupam analistas
+· E05 INTC · Intel Stock Could Swing 9% After Tomorrow's Earnings
+· E05 CVX · Chevron Corporation (CVX) Gains on Strong Production, Hess Synergies, and Higher Cash Flow
+· E05 USDBRL · Ibovespa cai enquanto dólar e juros futuros sobem ainda na esteira da eleição
+· E05 AMZN · Amazon Q3 earnings on deck: All eyes on cloud growth, capex (AMZN:NASDAQ)
+· E05 USDBRL · Ibovespa cai mais de 2% e retorna aos 170 mil pontos; dólar sobe
+· E05 KLBN4 · Klabin (KLBN11) cai 6% apesar de lucro acima do esperado no 3T; o que desagradou?
+· E05 MU · Micron’s stock rises after SK Hynix earnings. Here’s its next major test.
+· E05 USDBRL · Dólar sobe ante o real com mercado atento ao exterior e ao noticiário político Por Reuters
+· E05 GOOGL · Alphabet set to report third-quarter earnings after the bell
+· E05 INTC · Robinhood misses on Q3 earnings, plus IBM, Intel, and Oracle object to tokenized plans
+· E05 AMZN · Amazon Q3 preview: AWS acceleration expected to lead the way
+· E05 PETR4 · Petrobras (PETR4) esclarece à CVM fala da presidente sobre ações
+· E05 KLBN4 · Klabin: resultado do 3T26 mostra lucro menor, mas receita cresce e supera expectativas
+· E05 AMD · Aletheia Capital raises AMD stock price target to $800 on AI demand
+· E05 KLBN4 · Lucro da Klabin (KLBN11) cai 18% no 3º trimestre, para R$ 393 milhões
+· E05 KLBN4 · Lucro da Klabin cai 31% no 3º trimestre com pressão de custos e câmbio
+· E05 USDBRL · Investidores aguardam decisão de juros do Fed e digerem fuga de Flávio Bolsonaro; Ibovespa em dólar sobe nesta quarta-feira (28)
+· E05 JPM · JPMorgan downgrades Xylem stock rating on guidance cut, slower orders
+· E05 JPM · Anthropic taps JPMorgan to lead IPO’s U.S. retail sales, Bloomberg reports
+· E05 PETR4 · Petrobras: CVM multa Cerveró em R$ 16 mi por desvios na compra de Pasadena
+· E05 ITUB4 · Itaú compra startup mineira de IA por quase R$ 3 bilhões
+
+Suprimidos pelo teto (viram linha do Fechamento): E05-KLBN4-0b524b4463-2026-10-28 (teto de noticias), E05-AMD-eb4b4b3428-2026-10-28 (teto de noticias), E05-KLBN4-e3d41ea6ff-2026-10-28 (teto de noticias), E05-KLBN4-68846902f7-2026-10-28 (teto de noticias), E05-USDBRL-3c21682c79-2026-10-28 (teto de noticias), E05-JPM-79be771645-2026-10-28 (teto de noticias), E05-JPM-69201783df-2026-10-28 (teto de noticias), E05-PETR4-2f6db13f23-2026-10-28 (teto de noticias), E05-ITUB4-e5d805a382-2026-10-27 (teto de noticias)
 
 Alertas do dia (todos, com status):
-· pendente  C04 IPCA2032 — IPCA+ 2032 rompe 7,00% real: 7,78% (-32 bps), base 27/10
-· pendente  C04 IPCA2040 — IPCA+ 2040 rompe 7,00% real: 7,53% (-18 bps), base 27/10
-· pendente  C04 IPCA2050 — IPCA+ 2050 rompe 7,00% real: 7,18% (-46 bps), base 27/10
-· pendente  C05 TESOURO — Pre 2029 FECHA 61 bps (PU +1,2%) · Pre 2029 PU -3,9% em 5 datas-base · IPCA+ 203
-· linha     T08 BBDC4 — BBDC4 entrou em queda de -30% do pico: -31% do pico de 52s (R$ 22,80 em 06/10) a
-· entregue  F01 USDBRL — Real sobe: USD/BRL 5,3479 (+6,6% em 5 sessões)
-· pendente  C04 IPCA2050 — IPCA+ 2050 volta abaixo de 7,50% real: 7,18% (-46 bps), base 27/10
-· pendente  C03 TESOURO — Prefixado em nível: Pre 2029 cruzou 15,00% (agora 14,79%) · Pre 2031 cruzou 13,0
-· pendente  C06 TESOURO — Inflação implícita: implícita 2029 +113 bps na semana · implícita 2029 cruzou 6,
-· linha     T01 ALUP4 — ALUP4 fechou abaixo da média de 200 dias pela 2ª sessão: R$ 10,61 vs MM200 R$ 10
-· linha     T01 ITUB4 — ITUB4 fechou abaixo da média de 200 dias pela 2ª sessão: R$ 41,19 vs MM200 R$ 42
-· linha     T01 ITSA4 — ITSA4 fechou abaixo da média de 200 dias pela 2ª sessão: R$ 13,33 vs MM200 R$ 13
-· linha     T04 BBDC4 — BBDC4 fechou na mínima de 52 semanas: R$ 15,73, -10% em 1m e -6,1% em 12m
-· linha     T08 PETR4 — PETR4 entrou em correção: -12% do pico de 52s (R$ 59,68 em 16/10) a R$ 52,79
-· linha     T06 UGPA3 — UGPA3 -14% em 5 sessões a R$ 34,23: movimento de 2,7 desvios para a vol de 20 di
-· linha     S01 SISTEMA — coleta do slot fechamento saiu incompleta: bcb: BCB devolveu 3 de 5 séries (falt
-· pendente  E03 SBSP3 — SBSP3 · Fato Relevante: A Companhia de Saneamento Básico do Estado de São Paulo 
-· pendente  E05 KO — KO · Pepsi vs. Coca-Cola: Which Dividend King stock will outperform in 2027?
-· pendente  E05 KO — KO · Coca-Cola raises earnings outlook as North America business slows
-· pendente  E05 KO — KO · Coca-Cola Fiscal Q3 Comparable Earnings, Revenue Rise; 2026 Growth Outlook 
-· expirado  E05 USDBRL — USDBRL · Resumão diário #2206: Xi Jinping, da China, parabeniza Lula por reeleiç
-· expirado  E05 NVDA — NVDA · Nvidia Stocks Rise With $3 Billion Meta Bet Behind Broader Hardware Push
-· expirado  E05 KO — KO · Coca-Cola Raises Outlook Again As North America Goes Flat
-· expirado  E05 KO — KO · Midday Need to Know: Consumer confidence rebounds, Coca-Cola raises outlook
-· expirado  E05 KO — KO · Coca-Cola Raises 2026 Earnings Outlook After Q3 Revenue and Profit Exceed E
-· expirado  E05 AVGO — AVGO · Why Broadcom Is the Big Anthropic IPO Winner. The Stock Jumps on Buy Upgr
-· expirado  E05 AXIA3 — AXIA3 · Axia negocia até R$ 680 milhões com IDB Invest para transmissão
-· expirado  E05 KO — KO · Earnings call transcript: Coca-Cola beats Q3 2026 forecasts as sales rise
-· expirado  E05 BTC — BTC · Ark Invest Sells $15 Million Of Its Own Bitcoin ETF As Price Falls
-· entregue  E05 CVX — CVX · Chevron: Holding For The Dividend And Buybacks But Not Adding With Brent A
-· entregue  E05 KO — KO · Coca-Cola raises earnings outlook as North America business slows
-· entregue  E05 AXIA3 — AXIA3 · Axia Energia (AXIA3) assina carta-mandato com IDB Invest para potencial 
-· linha     S01 SISTEMA — coleta do slot intradia saiu incompleta: bcb: BCB devolveu 4 de 5 séries (faltar
-· entregue  E01 GOOGL — GOOGL: resultado sai na próxima sessão (28/10)
-· entregue  E01 VALE3 — VALE3: resultado sai na próxima sessão (28/10)
-· entregue  E01 KLBN4 — KLBN4: resultado sai na próxima sessão (28/10)
-· entregue  E01 UGPA3 — UGPA3: resultado sai na próxima sessão (28/10)
-· entregue  E05 KO — KO · Coca-Cola smashes organic sales expectations, hikes profit guidance (KO:NYS
-· entregue  E05 BTC — BTC · Jason Calacanis tells investors to sell Bitcoin, predicts a slide to $57,0
-· entregue  E05 KO — KO · BRIEF-Coca-Cola Outlook FY Organic Revenue Growth 5%
-· linha     T01 KLBN4 — KLBN4 retomou a média de 200 dias pela 2ª sessão: R$ 3,69 vs MM200 R$ 3,66 (+0,7
-· linha     T02 SPY — SPY retomou a MM100 pela 2ª sessão: US$ 769,12, acima da MM200 (tendência longa 
-· linha     T02 EQTL3 — EQTL3 perdeu a MM50 e perdeu a MM100 pela 2ª sessão: R$ 35,30, já abaixo da MM20
-· linha     T02 SAPR4 — SAPR4 perdeu a MM50 e perdeu a MM100 pela 2ª sessão: R$ 6,65, já abaixo da MM200
-· linha     T02 ALUP4 — ALUP4 perdeu a MM50 e perdeu a MM100 pela 2ª sessão: R$ 10,61, já abaixo da MM20
-· linha     T02 ITUB4 — ITUB4 perdeu a MM50 e perdeu a MM100 pela 2ª sessão: R$ 41,19, já abaixo da MM20
-· linha     T02 BBDC4 — BBDC4 perdeu a MM50 e perdeu a MM100 pela 2ª sessão: R$ 15,73, já abaixo da MM20
-· linha     T02 UGPA3 — UGPA3 perdeu a MM50 pela 2ª sessão: R$ 34,23, ainda acima da MM200 (tendência lo
-· linha     T02 AXIA3 — AXIA3 perdeu a MM50 e perdeu a MM100 pela 2ª sessão: R$ 50,88, já abaixo da MM20
-· linha     T02 ITSA4 — ITSA4 perdeu a MM50 e perdeu a MM100 pela 2ª sessão: R$ 13,33, já abaixo da MM20
-· linha     T02 BBAS3 — BBAS3 perdeu a MM50 e perdeu a MM100 pela 2ª sessão: R$ 17,38, já abaixo da MM20
-· linha     T02 SBSP3 — SBSP3 perdeu a MM50 e perdeu a MM100 pela 2ª sessão: R$ 25,53, já abaixo da MM20
-· linha     T02 SMAL11 — SMAL11 perdeu a MM50 e perdeu a MM100 pela 2ª sessão: R$ 99,10, já abaixo da MM2
-· linha     T02 MRVE3 — MRVE3 perdeu a MM50 e perdeu a MM100 pela 2ª sessão: R$ 4,46, já abaixo da MM200
-· linha     T02 CURY3 — CURY3 perdeu a MM50 e perdeu a MM100 pela 2ª sessão: R$ 28,04, já abaixo da MM20
-· linha     T02 USDBRL — USDBRL retomou a MM50 e retomou a MM100 pela 2ª sessão: R$ 5,3479, acima da MM20
-· linha     T11 ITUB4 — ITUB4 descolou à frente de BBDC4: -1,2% vs -9,3% em 20 sessões (z 2,2 em 252 ses
-· linha     T11 BBAS3 — BBAS3 descolou atrás de ITUB4: -19% vs -1,2% em 20 sessões (z -2,9 em 252 sessõe
-· linha     F05 BHKP — Celulose (proxy SHFE, fibra longa) -3,0% na semana: 4.532 CNY/t (27/10)
-· (+126 notícias só manchete, em noticias.md)
+· pendente  E01 AMZN — AMZN: resultado sai na próxima sessão (29/10)
+· pendente  E01 BBDC4 — BBDC4: resultado sai na próxima sessão (29/10)
+· pendente  E01 INTC — INTC: resultado sai na próxima sessão (29/10)
+· pendente  M01 MACRO — Agenda: FOMC: decisao de juros (sem projecoes) hoje às 15:00 (28/10)
+· pendente  E05 BTC — BTC · Bitwise raises Bitcoin price target to $1.6 million by 2036
+· pendente  E05 VALE3 — VALE3 · Preços baixos do minério devem afetar resultado da Vale no 3º tri, dizem
+· pendente  E05 KLBN4 — KLBN4 · Klabin (KLBN11) tem queda de 18% no lucro líquido do 3T26
+· pendente  S01 SISTEMA — coleta do slot intradia saiu incompleta: bcb: BCB devolveu 3 de 5 séries (faltar
+· linha     F01 USDBRL — Real cai: USD/BRL 5,3852 (+7,1% em 5 sessões) (parcial, intradia)
+· (+31 notícias só manchete, em noticias.md)
