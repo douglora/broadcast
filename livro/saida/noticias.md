@@ -1,8 +1,8 @@
-NOTÍCIAS E FATOS · 27/10 19h54
+NOTÍCIAS E FATOS · 27/10 21h25
 
-Pernas: noticias ok 16 novas (18 consultas; descartadas: 374 veículo fora da lista, 37 sem ativo, 39 teto) · cvm ok 2 novos de 7 (7 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 13 novas (18 consultas; descartadas: 370 veículo fora da lista, 34 sem ativo, 8 teto) · cvm ok 1 novos de 8 (8 cias casadas) · sec ok 0 novos em 3 dias
 
-## FATOS RELEVANTES E COMUNICADOS (CVM) (4)
+## FATOS RELEVANTES E COMUNICADOS (CVM) (5)
 
 [ATENÇÃO] E03 · SBSP3 · Fato Relevante: A Companhia de Saneamento Básico do Estado de São Paulo – SABESP (“SABESP”) e a EMAE – Empresa Metropolitana de Águas e Energia S.A. (“EMAE” e, em co…
 CVM · entregue 27/10/2026 19:44
@@ -17,6 +17,15 @@ Ativos: SBSP3
 Como falar: 'a Sabesp publicou fato relevante sobre A Companhia de Saneamento Básico do Estado de São Paulo – SABESP (“SA…'
 Fonte: CVM 27/10
 id: E03-SBSP3-1580869-2026-10-27 · status: pendente · íntegra disponível
+
+[INFO] E03 · PETR4 · Comunicado ao Mercado: Esclarecimentos sobre questionamentos da CVM/B3
+CVM · entregue 27/10/2026 20:42 · Esclarecimentos sobre questionamentos da CVM/B3
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1580878
+Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; confirma ou nega o que circula
+Ativos: PETR4
+Como falar: 'a Petrobras publicou comunicado ao mercado sobre Esclarecimentos sobre questionamentos da CVM/B3'
+Fonte: CVM 27/10
+id: E03-PETR4-1580878-2026-10-27 · status: linha
 
 [INFO] E03 · KLBN4 · Comunicado ao Mercado: Mudança de Auditor
 CVM · entregue 27/10/2026 19:09 · Mudança de Auditor
@@ -119,7 +128,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: USDBRL
 Como falar: 'saiu no g1: Resumão diário #2206: Xi Jinping, da China, parabeniza Lula por reeleição; Ibovespa opera…; confirmar o número no texto antes de repassar'
 Fonte: g1 27/10 13h29
-id: E05-USDBRL-4aa2704ebb-2026-10-27 · status: pendente
+id: E05-USDBRL-4aa2704ebb-2026-10-27 · status: expirado
 
 [ATENÇÃO] E05 · NVDA · Nvidia Stocks Rise With $3 Billion Meta Bet Behind Broader Hardware Push
 TradingView (Reuters) · 27/10 12h18 · fonte única · licença: manchete
@@ -128,7 +137,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: NVDA
 Como falar: 'saiu no TradingView (Reuters): Nvidia Stocks Rise With $3 Billion Meta Bet Behind Broader Hardware Push; confirmar o número no texto antes de repassar'
 Fonte: TradingView (Reuters) 27/10 12h18
-id: E05-NVDA-7cc5d35846-2026-10-27 · status: pendente
+id: E05-NVDA-7cc5d35846-2026-10-27 · status: expirado
 
 [ATENÇÃO] E05 · KO · Coca-Cola Raises Outlook Again As North America Goes Flat
 Yahoo Finance · 27/10 11h32 · fonte única · licença: resumo
@@ -141,7 +150,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: KO
 Como falar: 'saiu no Yahoo Finance: Coca-Cola Raises Outlook Again As North America Goes Flat; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 27/10 11h32
-id: E05-KO-e62736ef3f-2026-10-27 · status: pendente
+id: E05-KO-e62736ef3f-2026-10-27 · status: expirado
 
 [ATENÇÃO] E05 · KO · Midday Need to Know: Consumer confidence rebounds, Coca-Cola raises outlook & more (SPY:NYSEARCA)
 Seeking Alpha · 27/10 12h36 · fonte única · licença: manchete
@@ -495,8 +504,21 @@ Fonte: Yahoo Finance 26/10 17h53
 id: E05-TSLA-afffcb7976-2026-10-26 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (87)
+## OUTRAS NOTÍCIAS (só manchete) (100)
 
+· BTC Willy Woo’s Simulation Puts Bitcoin at $413,000 in 2028. What Would It Take for BTC to 5x? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/willy-woo-simulation-puts-bitcoin-000748081.html
+· ITUB4 Itaú BBA: AgTechs brasileiras atraem R$ 94,7 milhões no 1º semestre (CNN Brasil) https://www.cnnbrasil.com.br/agro/itau-bba-agtechs-brasileiras-atraem-r-947-milhoes-no-1o-semestre/
+· PETR4 Vinte anos depois, CVM condena Nestor Cerveró, ex-Petrobras, no caso Pasadena (Valor Economico) https://valor.globo.com/empresas/noticia/2026/10/27/vinte-anos-depois-cvm-condena-nestor-cerver-ex-petrobras-no-caso-pasadena.ghtml
+· USDBRL Ibovespa tem nova baixa após tombo da véspera; dólar perde 1%, a R$ 5,35 (InfoMoney) https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-27102026/
+· AVGO Fitch affirms Broadcom at ’A-’ with positive outlook despite AI backstop risks (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/fitch-affirms-broadcom-positive-outlook-201926882.html
+· TSLA SpaceX: The Tesla Anchor (NASDAQ:SPCX) (Seeking Alpha) https://seekingalpha.com/article/4958176-spacex-the-tesla-anchor
+· MU Micron Stocks Rise With Robot-Memory Forecast and a $61.5 Billion Hurdle (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:198bdcfa3094b:0-micron-stocks-rise-with-robot-memory-forecast-and-a-61-5-billion-hurdle/
+· PLTR Veteran Bank Tweaks Palantir Stock Price Target for 2027 (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:5432f94af094b:0-veteran-bank-tweaks-palantir-stock-price-target-for-2027/
+· TSM TSMC Gets Fresh Pricing Power From AI Chip Boom (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:012295074094b:0-tsmc-gets-fresh-pricing-power-from-ai-chip-boom/
+· COHR Coherent Corp. (COHR) Stock Price, News, Quote & History (Yahoo Finance) https://ca.finance.yahoo.com/quote/COHR/
+· META Meta Platforms, Inc. (META) stock price, news, quote and history (Yahoo Finance) https://uk.finance.yahoo.com/quote/META/
+· LITE Lumentum Holdings Inc. (LITE) Stock Forecasts (Yahoo Finance) https://ca.finance.yahoo.com/research/reports/ARGUS_4688_QuantitativeReport_1791331200000/
+· TSM TSM vs. MU: Which Semiconductor Stock Is the Better Buy Post-Earnings? (TradingView (Reuters)) https://news.google.com/rss/articles/CBMiwAFBVV95cUxPLU5vUjRudXNPOW93clJnXzR1RV9JM0N3dk9GWTJRRHpGTEJYa0dqZm9zVGdRR2p4aWxSR053cnVKQU9lNl9VNUEyOEk5Vk4wQ2dmSVNuX2luS3dwSzc4RHlWUE4zNk44NDJNVTB0Y3dJWnJtWjljRTZsNFRlLXl4RHRNcDFnNlpRS19HS2RYeHBKeGNXVlpHaWNCRnRUNEtwa0JhRWlhV3RyVWpmeTNVbDZwdG4wSFpDYzAwcmxfOGo?oc=5
 · BTC Is Bitcoin’s Bear Market Over? Galaxy Thinks It Might Be (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-bear-market-over-galaxy-222134137.html
 · NOK Nokia: Stronger Optical And IP Outlook Makes The Pullback Attractive (NYSE:NOK) (Seeking Alpha) https://seekingalpha.com/article/4958220-nokia-stronger-optical-and-ip-outlook-makes-the-pullback-attractive
 · BTC Hyperliquid’s Biggest Traders Are Shorting Bitcoin for the First Time Since March. Could BTC Drop Below $75,000? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/hyperliquid-biggest-traders-shorting-bitcoin-221947426.html
@@ -544,17 +566,4 @@ id: E05-TSLA-afffcb7976-2026-10-26 · status: linha
 · TESOURO Tesouro Direto atrasa abertura mais uma vez, em meio a expectativa de queda nas taxas (InfoMoney) https://www.infomoney.com.br/onde-investir/tesouro-direto-abertura-fechamento-27102026/
 · USDBRL Ibovespa opera na estabilidade após tombo com eleição; dólar cai mais de 1% (Exame) https://exame.com/invest/mercados/ibovespa-opera-na-estabilidade-apos-tombo-com-eleicao-dolar-cai-mais-de-1/
 · AXIA3 Axia Energia busca R$ 680 milhões com braço do BID para ampliar infraestrutura elétrica (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/axia-energia-busca-r-680-milhoes-com-braco-do-bid-para-ampliar-infraestrutura-eletrica/
-· AMD Advanced Micro Devices (AMD) Ties AI Deals To $95 Billion Infrastructure Push (Yahoo Finance) https://news.google.com/rss/articles/CBMimwFBVV95cUxNQ2NvRFJMOTVERnp2TEFXSjhyd0N2THZyMGtaNDg1VlJTMUt4OC1vd3F3Zll3SmJvSGFtMjYycHFILXNybHBzMHlPc19RR0trWDJybmxjeVB4TEkwT0ZrS1hsQnMyM1dlSlpWYWNDblJUZC1NYUtGM29PSVZZazIwV2g1NE1DR0ZBVEIyTmtNQzc1bUg5RzRmWWY1QQ?oc=5
-· NVDA Nvidia and AMD Take $4B Chunk of Meta’s Equity. They Are Fighting Custom Chips. (Barron's) https://news.google.com/rss/articles/CBMigAFBVV95cUxNMWRsM3hhTFdOVTR4S2dZWkdCM2lLdUNvajFzRTRIN0wyQXRKUkdYd3hJWlNPQzEtYl8xa0paU3VSNzJUbnI4eE5fdzRGMktOUWE2cFpYMVZ5MEtPaWxuWU9uMUVaMko5dklsM0RmYWM0TGRzejRyRkl5UWt5SHJxag?oc=5
-· USDBRL Dólar cai a R$ 5,35 e Bolsa abre em alta, após ajustes do mercado à eleição (UOL Economia) https://news.google.com/rss/articles/CBMiswFBVV95cUxOR2FOeWdUcWNsZ0pTWXlGZTZxb2oybV9tdFRDUDZmdk4zTk1mTjlwVC10b3FuLTNHaVpBc1hKVDVnMWJpZXNnaEpNTG1qQ0I5MmJ4RU1MQmRFLUNvNW8xSGg0aVU3RFJndnl3QWVRYkZWNU42Q3ZYVWtwTEk4cjEzTk9JSDBwYkZObXpZQXB1eUFmSFFudTNLZlJyQnhYZVRleVVKOGRjdWZkRGt1VjFqT1VxSQ?oc=5
-· INTC Can Higher Data Center Revenues Propel Intel's Q3 Earnings? (Yahoo Finance) https://news.google.com/rss/articles/CBMiiwFBVV95cUxNa0dmSjVDampmWXZkSHZVYkZlaWtETkxrOU9oTmNvVzBFTV9RcTl3NUNwN0I2dExyck5xSUduMDBYNl9uNlBJTmxQWU5IZllfNm4xdVVfcVhJWHo4UGRGSl81M0hnR3k1d2tOVUdHOFBzVGxfZjE4U3dOTVYzb3FTREdVQlh5bDdaRUNR?oc=5
-· GOOGL Prediction: Alphabet Could Be Sitting on More Upside Than Investors Realize (Yahoo Finance) https://news.google.com/rss/articles/CBMipgFBVV95cUxNUXoxZVVqZGpDQk9uMEVJUTVndWxqcUU0ZDBhU3ZKLWNNVldVenk4bERvOHlBM3ZyN3U1RXdILXE1MFhFTF9aRFJWRDZZREtES0dxZGRwQ3VQamxwVlRNdF9DRnpSanp1aGg0TmoycmFFQW1NTkZjNlQ0Y0VvRzgwV2hSREVtaHg1dTdQMjZ0eHBnUlp2QUMwSld3OFZPYWwwMmtDQ19n?oc=5
-· USDBRL Dólar cai 1,6% e devolve parte da disparada após reeleição de Lula (Suno Noticias) https://news.google.com/rss/articles/CBMiiAFBVV95cUxNNFFlYXRLYi1NMkRWRnpTYzhIdnFmY0ZnVU5WbDZDVU5GS09iS28xeXU0OTJpbDE1Y2gwYXRiLUxRM01zRWF3aTI1TjV6V2xUc0U4Mk1lVURySXpDaHZ6OElBVnVUUExDT1VxTVR3dkZtR1QtRnlUSS02aS02dTl3eVJFM1l5MVRW0gGOAUFVX3lxTE5rUk5ud3N4c0ktNHBqN2NmZnk5N2FoM19xalVxNUFiTmJPNk9mMmZUVkRQcXQwTmR1Rkd0RzdvaTJObFhiVjl2bGJKWEcxdU9DZVFVbnZUUlhkZGZhdlZyTDhMTnVMQzBsbkp3X2JBRS1JU0RtNEp1UWNLRzdMWkRGR1I2LXp3LWxtdDFCZGc?oc=5
-· ETH Current price of Ethereum for October 27, 2026 (Fortune) https://news.google.com/rss/articles/CBMiaEFVX3lxTE1sUjhfaWRUb1VzRGMxYjFFQktVU0ExOTZIV2x0UXdRRXNoS3l2bDFjR19wcVVGZkl4NjAyWGxWWVlsTVNPSTJLQ0NQTUE0cTBNYl9hak8wYk1YNkZUcENpd2VmejNMMUZK?oc=5
-· BTC Current price of Bitcoin for October 27, 2026 (Fortune) https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBVZVdoa0V4Y3ZqckhTYTN6TklOc2dXUkRhQTA1Yjk4emZIbkN0WHNEdVlfdmxDLTBVRUdMRmtUVFhKT3B1bVVrWnhydmI0cTgzRkd0azczQ1hrakV4OFF3R1ZPUjNqNWM?oc=5
-· AVGO Broadcom Helps Seal $63 Billion Anthropic AI Financing (Yahoo Finance) https://news.google.com/rss/articles/CBMimgFBVV95cUxNYXdBZ2hKU1VGeUlGR050V2t2RHdIbEVhOUpfRm5jLVFZeWstQWlEbkIwaWRjYzdjaXBBM0wzX1A3ckh6dURIbGp3eEE5ZXlTMnBZbk51cXIzV0ZjR1BERlhzQ1hVMkhOQWRrVUlLWlJFZ2RycVdRRWw2Y0hfNVFERFhhcjNsdUhfTFY2ZmFjTHlvcUNyYVRQMVFn?oc=5
-· USDBRL Ibovespa hoje sobe após tombo de quase 14% com reeleição de Lula; dólar recua a R$ 5,34 (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/ibovespa-hoje-apos-tombo-de-quase-14-com-vitoria-de-lula-o-que-esperar-da-bolsa-nesta-terca/
-· GOOGL Servicenow And Google Cloud Advance Agentic Ai For Industry Workflows (TradingView (Reuters)) https://www.tradingview.com/news/reuters.com,2026:newsml_TUA9FDXT8:0-servicenow-and-google-cloud-advance-agentic-ai-for-industry-workflows/
-· USDBRL Dólar abre em baixa, a R$ 5,39, acomodando após alta de 8% ontem (UOL Economia) https://economia.uol.com.br/cotacoes/noticias/redacao/2026/10/27/dolar-bolsa-abre-hoje-27-de-outubro-de-2026.ghtm
-· GOOGL ServiceNow expands partnership with Google Cloud for AI agents By Investing.com (Investing.com) https://uk.investing.com/news/stock-market-news/servicenow-expands-partnership-with-google-cloud-for-ai-agents-93CH-4934373
-· (+27 manchetes; lista completa em eventos/noticias.json)
+· (+40 manchetes; lista completa em eventos/noticias.json)
