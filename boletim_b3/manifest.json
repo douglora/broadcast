@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-10-27T16:51:14Z",
+ "gerado_em": "2026-10-28T06:14:53Z",
  "cliente_http": "curl_cffi",
  "livro": [
   "EQTL3",
@@ -23,41 +23,6 @@
   "CURY3"
  ],
  "pregoes": {
-  "2026-10-23": {
-   "completo": true,
-   "faltam": [],
-   "boletim": "publicado",
-   "sinais": 16,
-   "tabelas": 47,
-   "arquivos": [
-    "DerivativesOpenPosition",
-    "InstrumentsConsolidated",
-    "TradeInformationConsolidated",
-    "TradeInformationConsolidatedAfterHours"
-   ],
-   "rf_cadastro": {
-    "papeis_no_dia": 1646,
-    "consultados": 0,
-    "achados": 0,
-    "sem_cadastro": 0,
-    "erros": 0,
-    "ficaram_para_depois": 0,
-    "no_cache": 3616
-   },
-   "anbima": {
-    "situacao": "publicado",
-    "data": "2026-10-23",
-    "papeis": 1259,
-    "publicado_em": "2026-10-23T19:44:29",
-    "comparado_com": "2026-10-22",
-    "tentativas": {
-     "2026-10-23": "publicado",
-     "2026-10-22": "publicado"
-    }
-   },
-   "falhas": {},
-   "segundos": 36
-  },
   "2026-10-26": {
    "completo": true,
    "faltam": [],
@@ -91,10 +56,48 @@
     }
    },
    "falhas": {},
-   "segundos": 36
+   "segundos": 35
+  },
+  "2026-10-27": {
+   "completo": false,
+   "faltam": [
+    "BTBLoanBalance",
+    "AnalyticalFramework2"
+   ],
+   "boletim": "publicando",
+   "sinais": 36,
+   "tabelas": 47,
+   "arquivos": [
+    "DerivativesOpenPosition",
+    "InstrumentsConsolidated",
+    "TradeInformationConsolidated",
+    "TradeInformationConsolidatedAfterHours"
+   ],
+   "rf_cadastro": {
+    "papeis_no_dia": 1529,
+    "consultados": 21,
+    "achados": 21,
+    "sem_cadastro": 0,
+    "erros": 0,
+    "ficaram_para_depois": 0,
+    "no_cache": 3633
+   },
+   "anbima": {
+    "situacao": "publicado",
+    "data": "2026-10-27",
+    "papeis": 1277,
+    "publicado_em": "2026-10-27T20:04:35",
+    "comparado_com": "2026-10-26",
+    "tentativas": {
+     "2026-10-27": "publicado",
+     "2026-10-26": "publicado"
+    }
+   },
+   "falhas": {},
+   "segundos": 40
   }
  },
  "falhas": [],
  "versao": 2,
- "ultimo_pregao": "2026-10-26"
+ "ultimo_pregao": "2026-10-27"
 }

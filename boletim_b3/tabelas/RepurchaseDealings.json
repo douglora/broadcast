@@ -1,5 +1,5 @@
 {
- "pregao": "2026-10-26",
+ "pregao": "2026-10-27",
  "nome": "RepurchaseDealings",
  "titulo": "Negociações compromissadas",
  "sla": "8:00:00",
@@ -7,15 +7,17 @@
  "colunas": [{"nome": "RptDt", "titulo": "Data referência"}, {"nome": "TckrSymb", "titulo": "Instrumento financeiro"}, {"nome": "AverageTerm", "titulo": "Prazo médio"}, {"nome": "AverageFinancial", "titulo": "Financeiro médio"}, {"nome": "NumberOfDealings", "titulo": "Número de negociações"}, {"nome": "FinancialValue", "titulo": "Volume financeiro"}],
  "texto": ["Apresenta informações sobre negociações compromissadas registradas em uma plataforma ou sistema, como a B3. Os detalhes sobre as regras utilizadas, bem como a definição de cada um dos campos, estão disponíveis no <a href=\"https://www.b3.com.br/data/files/43/10/94/EB/8E2AB9109B5E99B9AC094EA8/Glossario_Negociacoes_Compromissadas_balcao.pdf\">Glossário</a>.", "Os dados anteriores a 11/12/2025 estarão disponíveis na aba Dados Globais, em <a href=\"https://www.b3.com.br/pt_br/market-data-e-indices/servicos-de-dados/market-data/historico/renda-fixa/\">Histórico</a>."],
  "situacao": "publicado",
- "atualizado_em": "2026-10-27T01:53:23.083",
+ "atualizado_em": "2026-10-28T01:53:12.167",
  "truncada": false,
  "linhas": [
-  ["2026-10-26", "CCB", 182, 20900000, 1, 20900000],
-  ["2026-10-26", "CRA", 68, 329414.21, 1167, 384426386.7],
-  ["2026-10-26", "CRI", 43, 513581.83, 1553, 797592576.81],
-  ["2026-10-26", "DEB", 32, 2645055.62, 13580, 35919855258.82],
-  ["2026-10-26", "LCA", 46, 67120, 299, 20068879.25],
-  ["2026-10-26", "LF", 13, 6379421.38, 83, 529491974.45],
-  ["2026-10-26", "NC", 71, 18105228.52, 6, 108631371.11]
+  ["2026-10-27", "CCB", 181, 18900000, 1, 18900000],
+  ["2026-10-27", "CPR", 62, 11502323.63, 2, 23004647.25],
+  ["2026-10-27", "CRA", 69, 252777.82, 987, 249491712.54],
+  ["2026-10-27", "CRI", 44, 525088.09, 942, 494632983.58],
+  ["2026-10-27", "DEB", 40, 3036120.94, 11609, 35246327982.84],
+  ["2026-10-27", "LCA", 4, 40205.97, 315, 12664882.08],
+  ["2026-10-27", "LCI", 80, 2701023.91, 6, 16206143.44],
+  ["2026-10-27", "LF", 12, 4834226.13, 82, 396406542.3],
+  ["2026-10-27", "NC", 15, 88586250, 4, 354345000]
  ]
 }

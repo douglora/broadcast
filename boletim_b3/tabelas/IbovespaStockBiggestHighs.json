@@ -1,5 +1,5 @@
 {
- "pregao": "2026-10-26",
+ "pregao": "2026-10-27",
  "nome": "IbovespaStockBiggestHighs",
  "titulo": "Ações do IBOVESPA - maiores altas",
  "sla": "8:00:00",
@@ -7,18 +7,18 @@
  "colunas": [{"nome": "TckrSymb", "titulo": "Ação"}, {"nome": "Cod", "titulo": "Código"}, {"nome": "Price", "titulo": "Preço (R$)"}, {"nome": "Oscillation", "titulo": "Oscilação (%)"}],
  "texto": ["Lista as ações do IBOVESPA com os maiores percentuais de valorização em um período."],
  "situacao": "publicado",
- "atualizado_em": "2026-10-26T23:31:02.93",
+ "atualizado_em": "2026-10-27T23:30:44.907",
  "truncada": false,
  "linhas": [
-  ["CXSE3", "ON      NM", 21.1, -1.44],
-  ["BBSE3", "ON      NM", 43.14, -1.23],
-  ["GGBR4", "PN      N1", 25.45, 0.91],
-  ["GOAU4", "PN      N1", 11.52, 1.05],
-  ["BRAP4", "PN      N1", 19.26, 1.31],
-  ["KLBN11", "UNT     N2", 18.81, 3.23],
-  ["VALE3", "ON      NM", 64.38, 4],
-  ["WEGE3", "ON      NM", 44.53, 4.21],
-  ["EMBJ3", "ON      NM", 96.2, 8.88],
-  ["SUZB3", "ON      NM", 47.4, 10.07]
+  ["CURY3", "ON      NM", 28.04, 3.54],
+  ["WEGE3", "ON      NM", 46.16, 3.66],
+  ["FLRY3", "ON      NM", 22.92, 3.71],
+  ["HYPE3", "ON      NM", 21.45, 4.32],
+  ["HAPV3", "ON      NM", 4.18, 5.02],
+  ["TIMS3", "ON      NM", 19.01, 5.02],
+  ["VAMO3", "ON      NM", 2.91, 5.05],
+  ["DIRR3", "ON      NM", 9.25, 5.35],
+  ["MGLU3", "ON      NM", 5.75, 8.49],
+  ["TEND3", "ON      NM", 23.01, 10.2]
  ]
 }
