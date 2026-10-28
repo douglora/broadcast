@@ -1,8 +1,19 @@
-NOTÍCIAS E FATOS · 28/10 15h45
+NOTÍCIAS E FATOS · 28/10 18h16
 
-Pernas: noticias ok 17 novas (18 consultas; descartadas: 362 veículo fora da lista, 34 sem ativo, 27 teto) · cvm ok 0 novos de 8 (8 cias casadas) · sec ok 1 novos em 3 dias
+Pernas: noticias ok 19 novas (18 consultas; descartadas: 416 veículo fora da lista, 36 sem ativo, 39 teto) · cvm ok 0 novos de 8 (8 cias casadas) · sec ok 1 novos em 3 dias
 
-## SEC (8-K, 6-K, 10-Q, 10-K) (1)
+## SEC (8-K, 6-K, 10-Q, 10-K) (2)
+
+[ATENÇÃO] E04 · GOOGL · 8-K: 2.02 resultado do trimestre
+SEC EDGAR · aceito 28/10 17h01 · 8-K
+Do documento:
+  – Emerging growth company ☐   If an emerging growth company, indicate by check mark if the registr
+Link: https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/goog-20261028.htm
+Por que importa: resultado do trimestre reprecifica lucro, guidance e multiplo; comparar com o consenso
+Ativos: GOOGL
+Como falar: 'a GOOGL protocolou 8-K na SEC (2.02 resultado do trimestre)'
+Fonte: SEC EDGAR 2026-10-28
+id: E04-GOOGL-26000080-2026-10-28 · status: pendente · íntegra disponível
 
 [INFO] E04 · KO · 10-Q: 10-Q
 SEC EDGAR · aceito 28/10 15h22 · 10-Q
@@ -14,7 +25,57 @@ Fonte: SEC EDGAR 2026-10-28
 id: E04-KO-26067844-2026-10-28 · status: linha
 
 
-## NOTÍCIAS COM MATERIALIDADE (14)
+## NOTÍCIAS COM MATERIALIDADE (18)
+
+[ATENÇÃO] E05 · BBDC4 · Bradesco (BBDC4): após frustração eleitoral, Itaú BBA corta ação; veja novo preço-alvo
+Money Times · 28/10 16h34 · fonte única · licença: integral
+Do texto:
+  – Bradesco (BBDC4): após frustração eleitoral, Itaú BBA corta ação; veja novo preço-alvo O Bradesco (BBDC4), que era, até pouco tempo atrás, o favorito do Itaú BBA entre os bancões, perdeu o brilho aos olhos dos analistas.
+  – Em relatório divulgado mais cedo, o BBA cortou a recomendação da ação de compra para neutra e reduziu o preço-alvo de R$ 22 para R$ 20, em meio a uma deterioração das perspectivas para a economia.
+  – Por volta das 16h33, a ação caia 6,10%, a R$ 14,77.
+  – No terceiro trimestre, o Bradesco (BBDC4) já deu sinais de fadiga.
+  – “Mas esperamos que os benefícios surjam gradualmente, limitando o potencial para uma melhoria nos custos de crédito no curto prazo”, afirma o banco.
+  – Receitas mais fracas No crédito automotivo, por exemplo, o Bradesco viu sua receita crescer 27% na comparação anual e 6% em relação ao trimestre anterior no terceiro trimestre.
+Link: https://www.moneytimes.com.br/bradesco-bbdc4-apos-frustracao-eleitoral-itau-bba-corta-acao-veja-novo-preco-alvo/
+Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
+Ativos: BBDC4
+Como falar: 'saiu no Money Times: Bradesco (BBDC4): após frustração eleitoral, Itaú BBA corta ação; veja novo preço-alvo; confirmar o número no texto antes de repassar'
+Fonte: Money Times 28/10 16h34
+id: E05-BBDC4-482996f60e-2026-10-28 · status: pendente · íntegra disponível
+
+[ATENÇÃO] E05 · BBDC4 · Itaú BBA corta recomendação do Bradesco e vê recuperação mais difícil
+UOL Economia · 28/10 16h20 · fonte única · licença: manchete
+Link: https://economia.uol.com.br/noticias/redacao/2026/10/28/itau-bba-corta-recomendacao-do-bradesco-e-ve-recuperacao-mais-dificil.htm
+Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
+Ativos: BBDC4
+Como falar: 'saiu no UOL Economia: Itaú BBA corta recomendação do Bradesco e vê recuperação mais difícil; confirmar o número no texto antes de repassar'
+Fonte: UOL Economia 28/10 16h20
+id: E05-BBDC4-2e9d4ffca4-2026-10-28 · status: pendente
+
+[ATENÇÃO] E05 · CVX · If You'd Invested $10,000 in Chevron (CVX) Stock 1 Year Ago, Here's How Much You'd Have Today
+Yahoo Finance · 28/10 09h04 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – What if you'd plunked $10,000 in shares of energy giant Chevron (NYSE: CVX) a year ago...
+  – Well, the answer is impressive: $15,204 (as of Oct.
+  – That's a whopping gain of 52%!
+  – To be even more impressed, note that the S&P 500 index of 500 of America's biggest companies would have turned your $10,000 into $11,629 over the same period.
+  – And before you look down on the S&P 500's performance, understand that it reflects a 16.3% gain, well above the long-term average annual S&P 500 gain of close to 10%.
+  – Most investors think they missed the AI boat because they didn't buy Nvidia in 2005.
+Link: https://finance.yahoo.com/markets/stocks/articles/youd-invested-10-000-chevron-120400804.html
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: CVX
+Como falar: 'saiu no Yahoo Finance: If You'd Invested $10,000 in Chevron (CVX) Stock 1 Year Ago, Here's How Much You'd Have T…; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 28/10 09h04
+id: E05-CVX-415a0ac565-2026-10-28 · status: pendente
+
+[ATENÇÃO] E05 · KLBN4 · Lucro da Klabin cai 18% no 3º tri Por Reuters
+Investing.com · 28/10 08h27 · fonte única · licença: manchete
+Link: https://br.investing.com/news/stock-market-news/lucro-da-klabin-cai-18-no-3o-tri-2105639
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: KLBN4
+Como falar: 'saiu no Investing.com: Lucro da Klabin cai 18% no 3º tri Por Reuters; confirmar o número no texto antes de repassar'
+Fonte: Investing.com 28/10 08h27
+id: E05-KLBN4-2c4e6312c8-2026-10-28 · status: linha
 
 [ATENÇÃO] E05 · BTC · Bitwise Raises Bitcoin Price Target to $1.6M by 2036, Publishes 2027 Bitcoin Long-Term Capital Market Assumptions
 PR Newswire · 28/10 12h00 · fonte única · licença: integral
@@ -48,7 +109,7 @@ Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais
 Ativos: BTC
 Como falar: 'saiu no TradingView (Reuters): Bitwise raises Bitcoin price target to $1.6 million by 2036; confirmar o número no texto antes de repassar'
 Fonte: TradingView (Reuters) 28/10 12h09
-id: E05-BTC-bbf9097342-2026-10-28 · status: pendente
+id: E05-BTC-bbf9097342-2026-10-28 · status: expirado
 
 [ATENÇÃO] E05 · VALE3 · Preços baixos do minério devem afetar resultado da Vale no 3º tri, dizem analistas
 Valor Economico · 28/10 09h54 · fonte única · licença: resumo
@@ -64,7 +125,7 @@ Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; 
 Ativos: VALE3
 Como falar: 'saiu no Valor Economico: Preços baixos do minério devem afetar resultado da Vale no 3º tri, dizem analistas; confirmar o número no texto antes de repassar'
 Fonte: Valor Economico 28/10 09h54
-id: E05-VALE3-371ad405f4-2026-10-28 · status: pendente
+id: E05-VALE3-371ad405f4-2026-10-28 · status: expirado
 
 [ATENÇÃO] E05 · KLBN4 · Klabin (KLBN11) tem queda de 18% no lucro líquido do 3T26
 Suno Noticias · 28/10 09h50 · fonte única · licença: resumo
@@ -80,7 +141,7 @@ Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; 
 Ativos: KLBN4
 Como falar: 'saiu no Suno Noticias: Klabin (KLBN11) tem queda de 18% no lucro líquido do 3T26; confirmar o número no texto antes de repassar'
 Fonte: Suno Noticias 28/10 09h50
-id: E05-KLBN4-2070982819-2026-10-28 · status: pendente
+id: E05-KLBN4-2070982819-2026-10-28 · status: expirado
 
 [ATENÇÃO] E05 · KLBN4 · Klabin: resultado do 3T26 mostra lucro menor, mas receita cresce e supera expectativas
 ADVFN · 28/10 09h00 · fonte única · licença: manchete
@@ -196,8 +257,23 @@ Fonte: g1 27/10 18h55
 id: E05-ITUB4-e5d805a382-2026-10-27 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (31)
+## OUTRAS NOTÍCIAS (só manchete) (46)
 
+· GOOGL Alphabet’s Google Cloud revenue doubles to $31 billion as cash flow stays deep red (Fortune) https://fortune.com/2026/10/28/alphabet-google-stock-drops-cloud-revenue-doubles-free-cash-flow-negative/
+· BTC Bitcoin-backed mortgages are coming to Canada, but borrowers are still unaware of the cost (CoinDesk) https://www.coindesk.com/markets/2026/10/28/bitcoin-backed-mortgages-are-coming-to-canada-but-borrowers-are-still-unaware-of-the-cost
+· MRVL Marvell Is Said to Near Deal for Lumentum In AI-Related Megadeal (Bloomberg) https://www.bloomberg.com/news/articles/2026-10-28/marvell-is-said-to-near-deal-for-lumentum-in-ai-related-megadeal
+· UST Update: US Equity Indexes Rise, Treasury Yields Fall After Fed Stays on Hold (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-rise-treasury-210352134.html
+· NVDA NVIDIA Sets Conference Call for Third-Quarter Financial Results (Yahoo Finance) https://uk.finance.yahoo.com/news/nvidia-sets-conference-call-third-210000331.html
+· USDBRL Ibovespa cai 2,71%; dólar recua 0,19%, a R$ 5,340 (Poder360) https://www.poder360.com.br/poder-economia/ibovespa-cai-271-dolar-recua-019-a-r-5340/
+· GOOGL Alphabet Third-Quarter Results Miss Estimates as Capital Spending More Than Doubles (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/alphabet-third-quarter-results-miss-205811216.html
+· USDBRL Ibovespa cai 2% com cautela fiscal e tributação em foco; dólar recua (Money Times) https://www.moneytimes.com.br/ibovespa-28-10-26-lils/
+· INTC Intel (INTC) reports earnings tomorrow: what to expect (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/intel-intc-reports-earnings-tomorrow-203034707.html
+· GOOGL Alphabet Reports Disappointing Revenue, Income; Shares Drop (Bloomberg) https://www.bloomberg.com/news/articles/2026-10-28/alphabet-reports-disappointing-revenue-income-shares-drop
+· GOOGL Google stock plunges as Q3 sales fall short of expectations (Yahoo Finance) https://finance.yahoo.com/technology/article/google-stock-plunges-as-q3-sales-fall-short-of-expectations-202657047.html
+· GOOGL Alphabet's heavy cloud spending drives bigger-than-expected cash burn (Reuters) https://news.google.com/rss/articles/CBMiwAFBVV95cUxNajBhM1htcElGckpqVEh4RzlEdTM3emlCNXFUUHhWd2JBSTROUEYzOUNrSkxSWm1wVHZNbEl0TDVCbEZ5WnBSMVRkY3ZQZTJOQTgxYXJXa1daRDZMRmUwc1c0bWExV29zcGhJM1Q3eWc0M2RCblVoTUxzX19qUG0wVUNlT1N3QU5uNE02aDhjNW13LVlaY0dib203U3J2Um9PUWsySlEzTFlLbkFRc25jbHA5TkFpbzlBX3pJUmhGX0E?oc=5
+· GOOGL Alphabet Stock Falls 8% Even as Cloud Sales Double: Is AI Spending the Problem? (Yahoo Finance) https://news.google.com/rss/articles/CBMilwFBVV95cUxPeklaRGZkZmU0VGEwX243bnRqdkwtUk5TaGQ2MHhCT2lrLS11Y0pOaFNLWkowQlFvNk5FTmFXSEszd1JjbkpaN2N3cjI5cG0ySFRzVU1rejBQaDUxejZ2UnFteHRpNFJ0Q3NGamU2UDNEc3lEWFE1V1BKblNMZVI2eTVYaXFZRTZ1R2t3cmh2OXhCWWhBUmhB?oc=5
+· UST U.S. Stocks Up, Treasury Yields Mixed After Fed Hold (The Wall Street Journal) https://news.google.com/rss/articles/CBMimgFBVV95cUxQLVpkc0tPSDBPVHptQ0w1dG1CTjVvTXpYZTAwbWlJOVpJUHc3UTN5R2pPeTA0QnoyVWpRVGpLS3JFd0xSeDdoWjJtRlJBNHZXVm5kcTBRaUdxQTNNeGdNQmFxYWE0MjBoZG80SVlscnJSaGRDdDBmUFRsT3BtWnd5TjlwZ3dqWDNDRnFVamJ4RlVqZThYTm5tVTJB?oc=5
+· PLTR Palantir Q3 Earnings Preview: What To Expect From Upcoming Report (TradingView (Reuters)) https://news.google.com/rss/articles/CBMiwgFBVV95cUxOTS0tQ21KWGZoM09SU3MyQW1LVlVrbmVFQ0xnSlJfUzRrS1NnS0pmaGtXQ25jQ2FCTDg1OUlyX21TRlQtRnZNbjUxVGlITkhpOHVZRUw0RlJPZmZQQU1LWlotLWpDYzZqYUJqRTRpdnk5cVdmTUZiRkVfLVl2SEVTRUpTeXA3aGpTNlk3bDBiVFcxbjVwVUZ4YlRoaExvbWF0YTlvbnZmZ0FtTHJXX2gxZHY1WjJQQUpLaWt1M0REUmk5dw?oc=5
 · AMD Should You Buy AMD Stock Before Nov. 3? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/buy-amd-stock-nov-3-182000542.html
 · TESOURO Tesouro Direto: como investir agora, com taxas em vaivém após a eleição (InfoMoney) https://www.infomoney.com.br/onde-investir/tesouro-direto-como-investir-agora-com-taxas-em-vaivem-apos-a-eleicao/
 · ITUB4 Bradesco perde recomendação de compra do Itaú BBA; entenda o que preocupa os analistas (Estadao) https://www.estadao.com.br/einvestidor/onde-investir/bradesco-perde-recomendacao-de-compra-do-itau-bba-entenda-o-que-preocupa-os-analistas/
