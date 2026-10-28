@@ -1,6 +1,46 @@
-NOTÍCIAS E FATOS · 28/10 18h16
+NOTÍCIAS E FATOS · 28/10 20h04
 
-Pernas: noticias ok 19 novas (18 consultas; descartadas: 416 veículo fora da lista, 36 sem ativo, 39 teto) · cvm ok 0 novos de 8 (8 cias casadas) · sec ok 1 novos em 3 dias
+Pernas: noticias ok 15 novas (18 consultas; descartadas: 371 veículo fora da lista, 28 sem ativo, 10 teto) · cvm ok 3 novos de 11 (8 cias casadas) · sec ok 0 novos em 3 dias
+
+## FATOS RELEVANTES E COMUNICADOS (CVM) (3)
+
+[ATENÇÃO] E03 · PETR4 · Fato Relevante: FPSO Almirante Tamandaré Recorde de produção de 263 mbpd em jul ho de 2026 Sumário Sumário Destaques 3T26 ...........................................…
+CVM · entregue 28/10/2026 19:37
+Do documento:
+  – Os valores informados para 4T26 em diante são estimativas ou metas.
+  – Neste trimestre, entraram em operação 12 novos poços produtores, sendo 6 na Bacia de Campos e 6 na  Bacia de Santos.
+  –  O FPSO Alexandre de Gusmão, o quinto instalado no campo de Mero, no pré -sal da Bacia de  Santos, atingiu, em 25 de agosto, sua capacidade de produção originalmente prevista em  projeto, de 180 m bpd.
+  – Posteriormente, após a implementação de aditivo para aumento de  capacidade, e em concordância com os órgãos reguladores e as entidades ambientais, a  plataforma alcançou, em 3 de setembro, um novo pico de produção de 1…
+  – Mero, cujas  plataformas registraram, conjuntamente, produção média de óleo de 760 mbpd no 3T26 é o  terceiro maior campo produtor de petróleo do Brasil, atrás apenas de Búzios e Tupi.
+  –  Ainda no campo de Mero, o FPSO Sepetiba, superou a capacidade de processamento de óleo  originalmente projetada, de 180 mbpd, chegando a alcançar pico diário de 212 mbpd em  setembro.
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1581329
+Por que importa: fato relevante e o que a propria companhia julga capaz de mover o preco; ler o documento inteiro antes de comentar
+Ativos: PETR4
+Como falar: 'a Petrobras publicou fato relevante sobre FPSO Almirante Tamandaré Recorde de produção de 263 mbpd em jul ho de…'
+Fonte: CVM 28/10
+id: E03-PETR4-1581329-2026-10-28 · status: pendente · íntegra disponível
+
+[ATENÇÃO] E03 · SAPR4 · Fato Relevante: A Companhia de Saneamento do Paraná – Sanepar, em cumprimento ao disposto na Resolução CVM nº 44/2021 , comunica a seus acionistas, investidores e ao…
+CVM · entregue 28/10/2026 18:39
+Do documento:
+  – Conforme o edital da referida Concorrência Internacional, o prazo de vigência do  contrato é de 2 0 anos e 6 meses, incluindo o período de atendimento às  condições de eficácia, de execução das obras, de pré-operação e…
+  – Curitiba, 28 de outubro de 2026.
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1581303
+Por que importa: fato relevante e o que a propria companhia julga capaz de mover o preco; ler o documento inteiro antes de comentar
+Ativos: SAPR4
+Como falar: 'a Sanepar publicou fato relevante sobre A Companhia de Saneamento do Paraná – Sanepar, em cumprimento ao disp…'
+Fonte: CVM 28/10
+id: E03-SAPR4-1581303-2026-10-28 · status: pendente · íntegra disponível
+
+[INFO] E03 · BBAS3 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
+CVM · entregue 28/10/2026 18:30 · Outros Comunicados Não Considerados Fatos Relevantes
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1581266
+Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; confirma ou nega o que circula
+Ativos: BBAS3
+Como falar: 'a Banco do Brasil publicou comunicado ao mercado sobre Outros Comunicados Não Considerados Fatos Relevantes'
+Fonte: CVM 28/10
+id: E03-BBAS3-1581266-2026-10-28 · status: linha
+
 
 ## SEC (8-K, 6-K, 10-Q, 10-K) (2)
 
@@ -25,7 +65,32 @@ Fonte: SEC EDGAR 2026-10-28
 id: E04-KO-26067844-2026-10-28 · status: linha
 
 
-## NOTÍCIAS COM MATERIALIDADE (18)
+## NOTÍCIAS COM MATERIALIDADE (20)
+
+[ATENÇÃO] E05 · PETR4 · Produção de petróleo da Petrobras (PETR4) sobe 12,4% e bate recorde no 3T26
+InfoMoney · 28/10 19h52 · + TradingView (Reuters) · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Publicidade A Petrobras (PETR3; PETR4) produziu 2,83 milhões de barris por dia (bpd) de petróleo no Brasil no terceiro trimestre, alta de 12,4% na comparação com o mesmo período do ano passado, segundo relatório da comp…
+  – A companhia teve produção total de petróleo, gás e LGN em 3,5 milhões de barris de óleo equivalente por dia (boed).
+  – A produção foi recorde para a companhia, com crescimento de 11,7% na comparação com o mesmo trimestre do ano anterior.
+  – “Estamos produzindo mais e aproveitando melhor o potencial dos nossos ativos, com excelência operacional, segurança e tecnologia.
+  – As exportações de petróleo da companhia, por sua vez, somaram 987 mil bpd entre julho e setembro, avanço de 21,3% ante o mesmo período de 2025.
+  – O dado recuou quando comparado ao segundo trimestre de 2026 e, de acordo com a petroleira, reflete o aumento de 114,1% nas importações entre os dois trimestres.
+Link: https://www.infomoney.com.br/mercados/producao-de-petroleo-da-petrobras-petr4-bate-recorde-novamente-no-3o-tri/
+Por que importa: evento operacional afeta producao e custo no trimestre corrente
+Ativos: PETR4
+Como falar: 'saiu no InfoMoney: Produção de petróleo da Petrobras (PETR4) sobe 12,4% e bate recorde no 3T26; confirmar o número no texto antes de repassar'
+Fonte: InfoMoney 28/10 19h52
+id: E05-PETR4-3a401240e8-2026-10-28 · status: pendente
+
+[ATENÇÃO] E05 · GOOGL · Earnings call transcript: Alphabet Q3 2026 profit miss sparks 10% after-hours drop
+Investing.com · 28/10 18h52 · fonte única · licença: manchete
+Link: https://www.investing.com/news/transcripts/earnings-call-transcript-alphabet-q3-2026-profit-miss-sparks-10-afterhours-drop-93CH-4981037
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: GOOGL
+Como falar: 'saiu no Investing.com: Earnings call transcript: Alphabet Q3 2026 profit miss sparks 10% after-hours drop; confirmar o número no texto antes de repassar'
+Fonte: Investing.com 28/10 18h52
+id: E05-GOOGL-6d459d62c6-2026-10-28 · status: pendente
 
 [ATENÇÃO] E05 · BBDC4 · Bradesco (BBDC4): após frustração eleitoral, Itaú BBA corta ação; veja novo preço-alvo
 Money Times · 28/10 16h34 · fonte única · licença: integral
@@ -91,7 +156,7 @@ Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais
 Ativos: BTC
 Como falar: 'saiu no PR Newswire: Bitwise Raises Bitcoin Price Target to $1.6M by 2036, Publishes 2027 Bitcoin Long-Term Ca…; confirmar o número no texto antes de repassar'
 Fonte: PR Newswire 28/10 12h00
-id: E05-BTC-6c53091403-2026-10-28 · status: pendente · íntegra disponível
+id: E05-BTC-6c53091403-2026-10-28 · status: expirado · íntegra disponível
 
 [ATENÇÃO] E05 · JPM · JPMorgan downgrades Xylem stock rating on guidance cut, slower orders By Investing.com
 Investing.com · 28/10 04h02 · fonte única · licença: manchete
@@ -100,7 +165,7 @@ Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais
 Ativos: JPM
 Como falar: 'saiu no Investing.com: JPMorgan downgrades Xylem stock rating on guidance cut, slower orders By Investing.com; confirmar o número no texto antes de repassar'
 Fonte: Investing.com 28/10 04h02
-id: E05-JPM-25642432c6-2026-10-28 · status: pendente
+id: E05-JPM-25642432c6-2026-10-28 · status: expirado
 
 [ATENÇÃO] E05 · BTC · Bitwise raises Bitcoin price target to $1.6 million by 2036
 TradingView (Reuters) · 28/10 12h09 · fonte única · licença: manchete
@@ -257,8 +322,21 @@ Fonte: g1 27/10 18h55
 id: E05-ITUB4-e5d805a382-2026-10-27 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (46)
+## OUTRAS NOTÍCIAS (só manchete) (59)
 
+· USDBRL Ibovespa cai 2,68%, e dólar fecha em leve baixa a R$ 5,34 (Agencia Brasil) https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/ibovespa-cai-268-e-dolar-fecha-em-leve-baixa-r-534
+· INTC Intel to report Q3 earnings as chip stocks continue to rebound (Yahoo Finance) https://finance.yahoo.com/technology/article/intel-to-report-q3-earnings-as-chip-stocks-continue-to-rebound-221713961.html
+· NVDA Google parent's revenue jumps 25% as homegrown AI chips take on Nvidia (Nikkei Asia) https://asia.nikkei.com/business/technology/google-parent-s-revenue-jumps-25-as-homegrown-ai-chips-take-on-nvidia
+· GOOGL Google Shares Fall 10% as Growth in Search Revenue Slows (The Wall Street Journal) https://www.wsj.com/tech/ai/alphabet-googl-q3-earnings-report-2026-stock-fa41392d
+· GOOGL Shares in Google owner Alphabet plummet on profit miss, ad slowdown (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/shares-google-owner-alphabet-sink-204437200.html
+· GOOGL Watch Alphabet's Disappointing Earnings Report: Behind the Numbers (Bloomberg) https://www.bloomberg.com/news/videos/2026-10-28/breaking-down-alphabet-s-disappointing-earnings-report-video
+· GOOGL Alphabet shares fall after revenue miss, cash burn worsens (Reuters) https://www.reuters.com/business/alphabets-google-cloud-unit-beats-quarterly-revenue-estimates-steady-ai-demand-2026-10-28/
+· KO Coca-Cola Co (KO) (Q3 2026) Earnings Call Highlights: Broad-Based Volume Growth and Raised ... (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/coca-cola-co-ko-q3-210143408.html
+· USDBRL Dólar hoje vai a R$ 5,34, com noticiário eleitoral e decisão do Fed que manteve juros (InfoMoney) https://www.infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-28102026/
+· AVGO Broadcom Inc. (AVGO) Laps the Stock Market: Here's Why (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/broadcom-inc-avgo-laps-stock-204503001.html
+· GOOGL Alphabet (GOOGL) Q3 Earnings: How Key Metrics Compare to Wall Street Estimates (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/alphabet-googl-q3-earnings-key-203002179.html
+· GOOGL Alphabet Earnings: Why Google Stock Is Falling (Barron's) https://news.google.com/rss/articles/CBMigAFBVV95cUxQc1cyWEw2N29xSWxneld4YlNXRFozMUVXMVVuR1ZBbXBDWno5Nzd4QklMQmFVZi1yTld5M2pfTk9TOXpYdGRBVm51WTNKQ2J4MVJPME1naEtCM3N2SXBNbVVlZzVBdS1nbnVnNy10WFFQanh4Y1VjUW12Y2dsYTVzTw?oc=5
+· BBDC4 Bradesco (BBDC4) lucra R$ 7,1 bi, mas outra conta preocupa os bancos (Suno Noticias) https://news.google.com/rss/articles/CBMiakFVX3lxTE96TjRWRmc1OXBLQ2E2RnhFM2tpZDNGVzNTQ1k3cnRvbS1PMUI1cjNYMHFmV2lZMV9sOG1JeUg2Vm03WVY5Z1E0aGZ0R1JKeGpVZURLRTdybzZ1TFBmMDMxT0NoaTJiTGdOM0HSAW9BVV95cUxQOGluR2hNQTBMMDI1d2syMXRDYVpCaEgtbEt6VnFWeXVucGhJXzNrRVlmV2ZjejBPU3dDTlAtaWdYbldMZ25OY0VYeXZnd2tVVFFDYkZpdDN2ak1DUWZ6Z3B4Q2IzU2xRWHBQb3NXcVU?oc=5
 · GOOGL Alphabet’s Google Cloud revenue doubles to $31 billion as cash flow stays deep red (Fortune) https://fortune.com/2026/10/28/alphabet-google-stock-drops-cloud-revenue-doubles-free-cash-flow-negative/
 · BTC Bitcoin-backed mortgages are coming to Canada, but borrowers are still unaware of the cost (CoinDesk) https://www.coindesk.com/markets/2026/10/28/bitcoin-backed-mortgages-are-coming-to-canada-but-borrowers-are-still-unaware-of-the-cost
 · MRVL Marvell Is Said to Near Deal for Lumentum In AI-Related Megadeal (Bloomberg) https://www.bloomberg.com/news/articles/2026-10-28/marvell-is-said-to-near-deal-for-lumentum-in-ai-related-megadeal
