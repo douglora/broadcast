@@ -184,10 +184,10 @@ resultados:
   - {ticker: KO, data: 2026-10-27, quando: antes_ny, confirmado: false}
   - {ticker: MMM, data: 2026-10-27, quando: antes_ny, confirmado: false}
   - {ticker: GOOGL, data: 2026-10-28, quando: apos_ny, confirmado: false}
-  - {ticker: VALE3, data: 2026-10-28, quando: apos_b3, confirmado: false, nota: "relatorio de producao 3T26 ~13-14/10"}
   - {ticker: KLBN4, data: 2026-10-28, quando: apos_b3, confirmado: false}
   - {ticker: UGPA3, data: 2026-10-28, quando: apos_b3, confirmado: false}
   - {ticker: AMZN, data: 2026-10-29, quando: apos_ny, confirmado: false, nota: "um agregador cita 22/10"}
+  - {ticker: VALE3, data: 2026-10-29, quando: apos_b3, confirmado: true, fonte: "Vale, comunicado de data (teleconferencia 30/10 11h BRT)", nota: "primeiro Relatorio de Desempenho unificado: producao, vendas e financeiro"}
   - {ticker: BBDC4, data: 2026-10-29, quando: apos_b3, confirmado: false}
   - {ticker: ITUB4, data: 2026-11-04, quando: apos_b3, confirmado: false}
   - {ticker: MELI34, data: 2026-11-04, quando: apos_ny, confirmado: false}
