@@ -1,5 +1,5 @@
 {
- "pregao": "2026-10-27",
+ "pregao": "2026-10-28",
  "nome": "InCashMarketBiggestHighs",
  "titulo": "Mercado à vista - maiores altas",
  "sla": "8:00:00",
@@ -7,18 +7,18 @@
  "colunas": [{"nome": "TckrSymb", "titulo": "Ação"}, {"nome": "Cod", "titulo": "Código"}, {"nome": "Price", "titulo": "Preço (R$)"}, {"nome": "Oscillation", "titulo": "Oscilação (%)"}],
  "texto": ["Mostra as maiores valorizações de ativos no mercado à vista, destacando as melhores performances."],
  "situacao": "publicado",
- "atualizado_em": "2026-10-27T19:00:17.927",
+ "atualizado_em": "2026-10-28T19:05:02.673",
  "truncada": false,
  "linhas": [
-  ["BALM4", "PN", 14.96, 15.52],
-  ["BRKM5", "PNA     N1", 3.7, 16.35],
-  ["S1NN34", "DRN", 32.25, 17.56],
-  ["F1AN34", "DRN", 68.18, 18.84],
-  ["VVCO11", "CI", 11.91, 24.97],
-  ["BOBR4", "PN", 1.5, 25],
-  ["MAPT4", "PN", 2.5, 38.88],
-  ["PRIF11", "CI  EA", 92, 45.52],
-  ["JFEN3", "ON", 3.4, 53.84],
-  ["VIVR3", "ON      NM", 4.08, 70]
+  ["BIAK39", "DRE", 51.5, 12.2],
+  ["C2EM34", "DRN", 56.58, 17.26],
+  ["V1RT34", "DRN", 130.56, 17.29],
+  ["MDTC34", "DRN", 75, 19.04],
+  ["BIHA39", "DRE", 136.08, 19.98],
+  ["MAPT3", "ON", 2.51, 21.84],
+  ["EVTC31", "DR1", 166.08, 29.31],
+  ["AZUL97", "UNT     N2", 0.91, 42.18],
+  ["ERPA11", "CI", 229.99, 75.84],
+  ["BFTC39", "DRE", 94.41, 98.67]
  ]
 }

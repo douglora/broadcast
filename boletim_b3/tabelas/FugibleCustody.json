@@ -1,5 +1,5 @@
 {
- "pregao": "2026-10-27",
+ "pregao": "2026-10-28",
  "nome": "FugibleCustody",
  "titulo": "Custódia fungível",
  "sla": "00:00:00",
@@ -7,10 +7,9 @@
  "colunas": [{"nome": "SbscrptnDeadline", "titulo": "Prazo final subscrição"}, {"nome": "DeadlineAssgnmnt", "titulo": "Prazo final cessão"}, {"nome": "TckrSymb", "titulo": "Emissor"}, {"nome": "IsinOrigin", "titulo": "Código ISIN origem"}, {"nome": "IsinRight", "titulo": "Código ISIN direito"}, {"nome": "IsinSbscrptn", "titulo": "Código ISIN subscrição"}],
  "texto": ["Informações sobre ativos que estão sob custódia, mas não são de propriedade do investidor. O objetivo é fornecer transparência sobre a gestão de ativos que pertencem a terceiros, garantindo controle e rastreabilidade. Os agentes de custódia que pretenderem exercer o direito de subscrição e/ou solicitar cessão de direitos da(s) empresa(s) abaixo relacionada(s) deverão manifestar-se nos prazos mencionados."],
  "situacao": "publicado",
- "atualizado_em": "2026-10-27T00:00:55.077",
+ "atualizado_em": "2026-10-28T00:00:46.32",
  "truncada": false,
  "linhas": [
-  ["2026-10-27", "2026-10-27", "BTG PACTUAL LOGISTICA FDO INV IMOB RESP LIM", "BRBTLGCTF000 193", "BRBTLGD12M10 193", "BRBTLGR35M17 194"],
   ["2026-10-29", "2026-10-29", "EXES FUNDO DE INVESTIMENTO IMOBILIÁRIO RESP LIM", "BREXESCTF006 154", "BREXESD03M17 154", "BREXESR18M14 155"],
   ["2026-11-11", "2026-11-11", "ALIANZA TRUST RENDA IMOBILIARIA FII RESP LIM", "BRALZRCTF006 212", "BRALZRD08M16 212", "BRALZRR35M17 213"],
   ["2026-11-17", "2026-11-17", "PRINER SERVIÇOS INDUSTRIAIS S.A.", "BRPRNRACNOR4 111", "BRPRNRD04OR3 111", "BRPRNRR04OR3 111"]

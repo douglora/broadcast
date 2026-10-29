@@ -1,5 +1,5 @@
 {
- "pregao": "2026-10-27",
+ "pregao": "2026-10-28",
  "nome": "InCashMarketBiggestLow",
  "titulo": "Mercado à vista - maiores baixas",
  "sla": "8:00:00",
@@ -7,18 +7,18 @@
  "colunas": [{"nome": "TckrSymb", "titulo": "Ação"}, {"nome": "Cod", "titulo": "Código"}, {"nome": "Price", "titulo": "Preço (R$)"}, {"nome": "OscillationDesc", "titulo": "Oscilação (%)"}],
  "texto": ["Mostra as maiores desvalorizações de ativos no mercado à vista num período."],
  "situacao": "publicado",
- "atualizado_em": "2026-10-27T19:00:18.137",
+ "atualizado_em": "2026-10-28T19:05:05.367",
  "truncada": false,
  "linhas": [
-  ["AZUL99", "UNT     N2", 0.89, -52.91],
-  ["AZUL97", "UNT     N2", 0.64, -36],
-  ["PPLA11", "UNT", 50, -33.13],
-  ["TOKY11", "BNS ORD NM", 0.29, -27.5],
-  ["TELB3", "ON", 12.09, -22],
-  ["EWBZ11", "CI", 119.69, -21.96],
-  ["AZUL3", "ON      N2", 9.66, -16.72],
-  ["AZTE11", "BNS ORD", 0.1, -16.66],
-  ["GLMP11", "CI", 93.35, -16.47],
-  ["ONCO3", "ON      NM", 0.71, -15.47]
+  ["TOKY3", "ON      NM", 4.53, -43.37],
+  ["AGXY3", "ON      NM", 0.32, -40.74],
+  ["TOKY11", "BNS ORD NM", 0.19, -34.48],
+  ["PRNR1", "DIR ORD NM", 0.02, -33.33],
+  ["AZEV3", "ON", 6.47, -33.16],
+  ["DAMT11", "CI", 11.32, -29.2],
+  ["PRIF11", "CI  EA", 67.01, -27.16],
+  ["BHIA3", "ON      NM", 0.73, -19.78],
+  ["RBFY11", "CI", 59.93, -19.01],
+  ["RCSL4", "PN", 0.57, -17.39]
  ]
 }

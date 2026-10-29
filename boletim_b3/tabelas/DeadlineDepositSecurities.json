@@ -1,5 +1,5 @@
 {
- "pregao": "2026-10-27",
+ "pregao": "2026-10-28",
  "nome": "DeadlineDepositSecurities",
  "titulo": "Prazo para depósito de títulos",
  "sla": "00:00:00",
@@ -7,22 +7,12 @@
  "colunas": [{"nome": "UpdateDate", "titulo": "Data"}, {"nome": "TckrSymb", "titulo": "Empresa"}, {"nome": "Code", "titulo": "Código IF"}, {"nome": "Earnings", "titulo": "Tipo de provento"}],
  "texto": ["Informações sobre prazos estabelecidos para depósito de títulos financeiros em uma instituição de custódia. Os detentores de títulos representativos de ações, com direito aos proventos envolvendo as empresas abaixo relacionadas, poderão efetuar o depósito junto à Custódia nos seguintes prazos."],
  "situacao": "publicado",
- "atualizado_em": "2026-10-27T00:00:55.123",
+ "atualizado_em": "2026-10-28T00:00:47.467",
  "truncada": false,
  "linhas": [
-  ["2026-10-28", "ALIANZA TRUST RENDA IMOBILIARIA FII RESP LIM", "BRALZRCTF006 212", "SUBSCRIÇÃO"],
-  ["2026-10-28", "AZZAS 2154 S.A.", "BRAZZAACNOR9 105", "ATUALIZACAO"],
-  ["2026-10-28", "CLOROX COMPANY", "BRCLXCBDR000 128", "DIVIDENDO"],
-  ["2026-10-28", "ENTEGRIS INC", "BRE2NTBDR000 119", "DIVIDENDO"],
-  ["2026-10-28", "FASTENAL CO", "BRFASLBDR007 133", "DIVIDENDO"],
-  ["2026-10-28", "FII ELDORADO FDO INV IMOB - RESP LIM", "BRELDOCTF002 474", "RENDIMENTO"],
-  ["2026-10-28", "ISHARES IBOVESPA FUNDO DE ÍNDICE", "BRBOVACTF003 120", "ATUALIZACAO"],
-  ["2026-10-28", "IT NOW IBOVESPA FUNDO DE ÍNDICE", "BRBOVVCTF009 105", "ATUALIZACAO"],
-  ["2026-10-28", "KT CORP", "BRK1TCBDR007 114", "DIVIDENDO"],
-  ["2026-10-28", "TELEFÔNICA BRASIL S.A", "BRVIVTACNOR0 208", "JUROS SOBRE CAPITAL PRÓPRIO"],
-  ["2026-10-28", "V2 PRIME PROPERTIES FII RESP LIM", "BRVPPRR03M18 101", "ATUALIZACAO"],
-  ["2026-10-28", "V2 PRIME PROPERTIES FII RESP LIM", "BRVPPRR04M17 101", "ATUALIZACAO"],
-  ["2026-10-28", "WISDOMTREE FLOATING RATE TREASURY FUND", "BRBUSFBDR006 138", "DIVIDENDO"],
-  ["2026-10-28", "WISDOMTREE YIELD ENHANCED US AGGREGATE BOND FUND", "BRBAGYBDR004 138", "DIVIDENDO"]
+  ["2026-10-29", "BUENA VISTA DEX VETTAFI NEOS MULTI HIGH INCOME", "BRTOPYCTF007 104", "RENDIMENTO"],
+  ["2026-10-29", "CARRIER GLOBAL CORPORATION", "BRC1RRBDR009 124", "DIVIDENDO"],
+  ["2026-10-29", "LITELA PARTICIPAÇÕES S.A.", "BRLTLAACNOR9 117", "RESTITUIÇÃO DE CAPITAL"],
+  ["2026-10-29", "SUNO LOG FII RESP LIM", "BRSNLGCTF007 113", "AMORTIZAÇÃO"]
  ]
 }

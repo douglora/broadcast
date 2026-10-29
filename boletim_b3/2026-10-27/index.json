@@ -1,6 +1,6 @@
 {
  "pregao": "2026-10-27",
- "coletado_em": "2026-10-28T17:21:04Z",
+ "coletado_em": "2026-10-29T00:51:25Z",
  "tabelas": {
   "SharesInvesVolum": {
    "titulo": "Participação dos investidores",
@@ -386,12 +386,6 @@
    "linhas": 79249,
    "estado": "Final"
   },
-  "TradeInformationConsolidatedAfterHours": {
-   "arquivo": "TradeInformationConsolidatedAfterHoursFile_20261027_1",
-   "bytes": 49495,
-   "linhas": 781,
-   "estado": "Final"
-  },
   "InstrumentsConsolidated": {
    "arquivo": "InstrumentsConsolidatedFile_20261027_1",
    "bytes": 19512132,
@@ -405,7 +399,9 @@
    "estado": null
   }
  },
- "falhas": {},
+ "falhas": {
+  "TradeInformationConsolidatedAfterHours": "arquivo TradeInformationConsolidatedAfterHours: download HTTP 401"
+ },
  "rf_cadastro": {
   "papeis_no_dia": 1523,
   "consultados": 0,

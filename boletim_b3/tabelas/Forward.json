@@ -1,19 +1,19 @@
 {
- "pregao": "2026-10-27",
+ "pregao": "2026-10-28",
  "nome": "Forward",
  "titulo": "Ações mais negociadas - a termo",
  "sla": "8:00:00",
  "paginas": 1,
  "colunas": [{"nome": "TckrSymb", "titulo": "Ação"}, {"nome": "Cod", "titulo": "Código"}, {"nome": "Term", "titulo": "Prazo"}, {"nome": "Closing", "titulo": ""}, {"nome": "TradQty", "titulo": ""}, {"nome": "VlmTradedDay", "titulo": "Volume (R$) mil"}, {"nome": "Part", "titulo": "Participação (%)"}],
  "texto": ["Lista ações com maior volume de negociação em contratos a termo, destacando as mais ativas."],
- "situacao": "publicado",
- "atualizado_em": "2026-10-27T19:00:58.027",
+ "situacao": "republicado",
+ "atualizado_em": "2026-10-28T22:03:01.823",
  "truncada": false,
  "linhas": [
-  ["IT NOW SP BRCI", "CI", 300, 86.62, 13064, 1131.6036800000002, 0.39548641741496476],
-  ["MARFRIG     ON      NM", "ON      NM", 30, 16.5, 100000, 1650, 3.0272995821721116],
-  ["SUZANO S.A. ON      NM", "ON      NM", 90, 49.01, 105500, 5170.555, 3.1938010591915775],
-  ["COSAN       ON      NM", "ON      NM", 360, 3.14, 307000, 963.98, 9.293809717268383],
-  ["AXIA ENERGIAPNC ATZ NM", "PNC ATZ NM", 16, 51.74, 1914700, 99066.578, 57.96370509984943]
+  ["AXIA ENERGIAON      NM", "ON      NM", 37, 49.02, 150000, 7353.000000000001, 0.9784719217045036],
+  ["SUZANO S.A. ON      NM", "ON      NM", 37, 49.34, 290000, 14308.600000000002, 1.89171238196204],
+  ["AXIA ENERGIAON      NM", "ON      NM", 61, 49.24, 413280, 20349.907199999998, 2.695885838680247],
+  ["AXIA ENERGIAPNC ATZ NM", "PNC ATZ NM", 16, 49.19, 2085300, 102575.907, 13.602716655536003],
+  ["VIBRA       ON      NM", "ON      NM", 30, 30.93, 3521900, 108932.367, 22.973868407007263]
  ]
 }
