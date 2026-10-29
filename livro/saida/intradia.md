@@ -1,45 +1,45 @@
 ALERTAS · intradia
 
-[ATENÇÃO] E05 · ETH · Amplify Ethereum 3% Monthly Option Income ETF declares $0.2508 dividend
-TradingView (Reuters) · 29/10 13h14 · fonte única · licença: manchete
-Link: https://www.tradingview.com/news/seekingalpha:b6877f593094b:0-amplify-ethereum-3-monthly-option-income-etf-declares-0-2508-dividend/
+[ATENÇÃO] E05 · BTC · Amplify Bitcoin 2% Monthly Option Income ETF declares $0.5352 dividend
+TradingView (Reuters) · 29/10 13h39 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/seekingalpha:f064afbe1094b:0-amplify-bitcoin-2-monthly-option-income-etf-declares-0-5352-dividend/
 Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
-Ativos: ETH
-Como falar: 'saiu no TradingView (Reuters): Amplify Ethereum 3% Monthly Option Income ETF declares $0.2508 dividend; confirmar o número no texto antes de repassar'
-Fonte: TradingView (Reuters) 29/10 13h14
-Push: intradia: 2 alertas de atenção — E05 ETH, E05 UST · detalhe na sessão
-ids: E05-ETH-8fb9430bf0-2026-10-29
+Ativos: BTC
+Como falar: 'saiu no TradingView (Reuters): Amplify Bitcoin 2% Monthly Option Income ETF declares $0.5352 dividend; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 29/10 13h39
+Push: intradia: 2 alertas de atenção — E05 BTC, E05 GOOGL · detalhe na sessão
+ids: E05-BTC-16b8fe8f27-2026-10-29
 
-[ATENÇÃO] E05 · UST · Fed Holds Rates, but 5% Treasury Yields Complicate the Outlook
-Investing.com · 29/10 12h32 · fonte única · licença: manchete
-Link: https://www.investing.com/analysis/fed-holds-rates-but-5-treasury-yields-complicate-the-outlook-200690514
-Por que importa: decisao de politica monetaria reprecifica toda a curva e o cambio
-Ativos: UST
-Como falar: 'saiu no Investing.com: Fed Holds Rates, but 5% Treasury Yields Complicate the Outlook; confirmar o número no texto antes de repassar'
-Fonte: Investing.com 29/10 12h32
-ids: E05-UST-20bfc3ad48-2026-10-29
+[ATENÇÃO] E05 · GOOGL · US files lawsuit claiming Google wouldn't give employee new job following military deployment
+Reuters · 29/10 12h49 · fonte única · licença: manchete
+Link: https://www.reuters.com/world/us-sues-google-failing-restore-former-employee-similar-job-following-military-2026-10-29/
+Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e prazo
+Ativos: GOOGL
+Como falar: 'saiu no Reuters: US files lawsuit claiming Google wouldn't give employee new job following military deploy…; confirmar o número no texto antes de repassar'
+Fonte: Reuters 29/10 12h49
+ids: E05-GOOGL-44e10adf43-2026-10-29
 
 Info (só linha no Fechamento):
-· E05 GOOGL · Amazon Slides 3% as Alphabet’s 12% Plunge Raises Stakes for AWS Report; Meta Rises 3%, Microsoft Pulls Back
-· E05 UST · U.S. Treasury, European Bond Yields Fall After Fed, ECB Hold
-· E05 VALE3 · Vale: balanço do 3T26 deve mostrar queda no Ebitda e pressão sobre margens
-· E05 AMZN · Amazon to report Q3 earnings after the bell with AI spend under scrutiny
-· E05 KLBN4 · Klabin vê El Niño pressionando operações até 1º tri de 2027
-· E05 GOOGL · Alphabet heads for a $500 billion drop in market value, the biggest in its history
-· E05 VALE3 · De temor fiscal à espera por Vale: os fatores que fazem o Ibovespa cair 1% nesta 5ª
-· E05 BTC · Bitcoin price jumps to $81.5K as US GDP data beats expectations
-· E05 GOOGL · Is Alphabet a Stock to Avoid or a Once-in-a-Decade Buy on the Dip?
-· E05 PETR4 · Petrobras tem recordes de produção de óleo, gás e diesel no 3º tri
-· E05 CVX · Exxon Mobil and Chevron head into Q3 earnings boosted by crude rally, Iran conflict
-· E05 AMZN · What to watch in Amazon's earnings results
-· E05 USDBRL · Ibovespa hoje recua com incertezas fiscais no Brasil e inflação americana; dólar sobe a R$ 5,38
-· E05 INTC · Intel's 158% Rally Faces Fresh Earnings Test
-· E05 JPM · JPMorgan says Palantir to rally more than 30%, names it a favorite stock
+· E05 KLBN4 · Klabin vê chuvas no Paraná pressionarem operações até o 1T27
+· E05 AXIA3 · MERCADO APOSTA NA AXIA COMO DESTAQUE PARA O NOVO LEILÃO DE TRANSMISSÃO DE ENERGIA MARCADO PARA A PRÓXIMA SEXTA-FEIRA
+· E05 GOOGL · Alphabet’s AI Risk Extends Beyond $1 Trillion, Filing Shows
+· E05 DI · Selic vai parar de cair? Probabilidade de pausa nos cortes pelo Copom chega a 63% na B3
+· E05 PLTR · Palantir Seen Beating Revenue Estimates, Raising Guidance, Oppenheimer Says
+· E05 GOOGL · Alphabet Crushed Cloud Expectations, But the AI Bills Are Coming Due
+· E05 KLBN4 · Klabin vê tendência neutra para mercados em que opera
+· E05 BAC · Bank of America plants its flag in Wisconsin
+· E05 UST · The US Treasuries’ Path to 6% Yields Is Intact
+· E05 MU · Micron: Priced For A Peak That Keeps Moving Higher (NASDAQ:MU)
+· E05 USDBRL · Ibovespa hoje perde os 170 mil pontos com risco fiscal e inflação dos EUA; dólar sobe mais de 1%
+· E05 GOOGL · Alphabet's Cloud Surge Comes With a Massive Catch
+· E05 TSLA · Tesla vs. Ford: Which Stock Has an Edge After Q3 Earnings?
 
 
 Alertas do dia (todos, com status):
-· pendente  E05 ETH — ETH · Amplify Ethereum 3% Monthly Option Income ETF declares $0.2508 dividend
-· pendente  E05 UST — UST · Fed Holds Rates, but 5% Treasury Yields Complicate the Outlook
+· pendente  E05 BTC — BTC · Amplify Bitcoin 2% Monthly Option Income ETF declares $0.5352 dividend
+· pendente  E05 GOOGL — GOOGL · US files lawsuit claiming Google wouldn't give employee new job followin
+· entregue  E05 ETH — ETH · Amplify Ethereum 3% Monthly Option Income ETF declares $0.2508 dividend
+· entregue  E05 UST — UST · Fed Holds Rates, but 5% Treasury Yields Complicate the Outlook
 · entregue  E05 PETR4 — PETR4 · Petrobras (PETR4) bate recorde de produção total no 3T26
 · entregue  E05 PETR4 — PETR4 · Petrobras: produção recorde reforça visão para 3T; mercado vê dividendo 
 · entregue  E05 VALE3 — VALE3 · Lucro da Vale pode cair mais de 40% no 3T26, mas ação pode surpreender a
@@ -50,6 +50,6 @@ Alertas do dia (todos, com status):
 · entregue  E05 GOOGL — GOOGL · Samsung and Google ruin the party: Earnings misses drive tech futures lo
 · entregue  E05 BTC — BTC · How to Get Offered $3 Million in Bitcoin Bets: Call It a ‘Dead Network’ on
 · entregue  E05 VALE3 — VALE3 · Lucro líquido da Vale (VALE3) deve cair quase 50% no 3T26: veja os motiv
-· linha     F01 USDBRL — Real cai: USD/BRL 5,4146 (+7,5% em 5 sessões) (parcial, intradia)
-· (+94 notícias só manchete, em noticias.md)
+· linha     F01 USDBRL — Real cai: USD/BRL 5,4197 (+7,6% em 5 sessões) (parcial, intradia)
+· (+107 notícias só manchete, em noticias.md)
 

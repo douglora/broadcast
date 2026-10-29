@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 29/10 13h35
+NOTÍCIAS E FATOS · 29/10 14h22
 
-Pernas: noticias ok 17 novas (18 consultas; descartadas: 374 veículo fora da lista, 27 sem ativo, 10 teto) · cvm ok 0 novos de 13 (8 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 15 novas (18 consultas; descartadas: 400 veículo fora da lista, 32 sem ativo, 10 teto) · cvm ok 0 novos de 13 (8 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (1)
 
@@ -26,7 +26,25 @@ Fonte: SEC EDGAR 2026-10-29
 id: E04-GOOGL-26000084-2026-10-29 · status: linha
 
 
-## NOTÍCIAS COM MATERIALIDADE (14)
+## NOTÍCIAS COM MATERIALIDADE (16)
+
+[ATENÇÃO] E05 · BTC · Amplify Bitcoin 2% Monthly Option Income ETF declares $0.5352 dividend
+TradingView (Reuters) · 29/10 13h39 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/seekingalpha:f064afbe1094b:0-amplify-bitcoin-2-monthly-option-income-etf-declares-0-5352-dividend/
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: BTC
+Como falar: 'saiu no TradingView (Reuters): Amplify Bitcoin 2% Monthly Option Income ETF declares $0.5352 dividend; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 29/10 13h39
+id: E05-BTC-16b8fe8f27-2026-10-29 · status: pendente
+
+[ATENÇÃO] E05 · GOOGL · US files lawsuit claiming Google wouldn't give employee new job following military deployment
+Reuters · 29/10 12h49 · fonte única · licença: manchete
+Link: https://www.reuters.com/world/us-sues-google-failing-restore-former-employee-similar-job-following-military-2026-10-29/
+Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e prazo
+Ativos: GOOGL
+Como falar: 'saiu no Reuters: US files lawsuit claiming Google wouldn't give employee new job following military deploy…; confirmar o número no texto antes de repassar'
+Fonte: Reuters 29/10 12h49
+id: E05-GOOGL-44e10adf43-2026-10-29 · status: pendente
 
 [ATENÇÃO] E05 · ETH · Amplify Ethereum 3% Monthly Option Income ETF declares $0.2508 dividend
 TradingView (Reuters) · 29/10 13h14 · fonte única · licença: manchete
@@ -35,7 +53,7 @@ Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir
 Ativos: ETH
 Como falar: 'saiu no TradingView (Reuters): Amplify Ethereum 3% Monthly Option Income ETF declares $0.2508 dividend; confirmar o número no texto antes de repassar'
 Fonte: TradingView (Reuters) 29/10 13h14
-id: E05-ETH-8fb9430bf0-2026-10-29 · status: pendente
+id: E05-ETH-8fb9430bf0-2026-10-29 · status: entregue
 
 [ATENÇÃO] E05 · UST · Fed Holds Rates, but 5% Treasury Yields Complicate the Outlook
 Investing.com · 29/10 12h32 · fonte única · licença: manchete
@@ -44,7 +62,7 @@ Por que importa: decisao de politica monetaria reprecifica toda a curva e o camb
 Ativos: UST
 Como falar: 'saiu no Investing.com: Fed Holds Rates, but 5% Treasury Yields Complicate the Outlook; confirmar o número no texto antes de repassar'
 Fonte: Investing.com 29/10 12h32
-id: E05-UST-20bfc3ad48-2026-10-29 · status: pendente
+id: E05-UST-20bfc3ad48-2026-10-29 · status: entregue
 
 [ATENÇÃO] E05 · PETR4 · Petrobras (PETR4) bate recorde de produção total no 3T26
 Suno Noticias · 29/10 11h00 · fonte única · licença: resumo
@@ -211,8 +229,21 @@ Fonte: Bloomberg 29/10 01h13
 id: E05-TSLA-626a3a5b3f-2026-10-29 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (80)
+## OUTRAS NOTÍCIAS (só manchete) (93)
 
+· KLBN4 Klabin vê chuvas no Paraná pressionarem operações até o 1T27 (ADVFN) https://br.advfn.com/jornal/2026/10/klabin-ve-chuvas-no-parana-pressionarem-operacoes-ate-o-1t27
+· AXIA3 MERCADO APOSTA NA AXIA COMO DESTAQUE PARA O NOVO LEILÃO DE TRANSMISSÃO DE ENERGIA MARCADO PARA A PRÓXIMA SEXTA-FEIRA (Petronoticias) https://petronoticias.com.br/mercado-aposta-na-axia-como-destaque-para-o-novo-leilao-de-transmissao-de-energia-marcado-para-a-proxima-sexta-feira/
+· GOOGL Alphabet’s AI Risk Extends Beyond $1 Trillion, Filing Shows (Bloomberg) https://www.bloomberg.com/news/articles/2026-10-29/alphabet-s-ai-risk-extends-beyond-1-trillion-filing-shows
+· DI Selic vai parar de cair? Probabilidade de pausa nos cortes pelo Copom chega a 63% na B3 (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/selic-vai-parar-de-cair-probabilidade-de-pausa-nos-cortes-pelo-copom-chega-a-63-na-b3/
+· PLTR Palantir Seen Beating Revenue Estimates, Raising Guidance, Oppenheimer Says (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/palantir-seen-beating-revenue-estimates-164852851.html
+· GOOGL Alphabet Crushed Cloud Expectations, But the AI Bills Are Coming Due (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/alphabet-crushed-cloud-expectations-ai-164702603.html
+· KLBN4 Klabin vê tendência neutra para mercados em que opera (Valor Economico) https://valor.globo.com/empresas/noticia/2026/10/29/klabin-ve-tendencia-neutra-para-mercados-em-que-opera.ghtml
+· BAC Bank of America plants its flag in Wisconsin (Yahoo Finance) https://finance.yahoo.com/small-business/articles/bank-america-plants-flag-wisconsin-161230673.html
+· UST The US Treasuries’ Path to 6% Yields Is Intact (Bloomberg) https://www.bloomberg.com/news/newsletters/2026-10-29/us-treasuries-remain-on-path-to-6-yields-as-inflationary-expectations-rise
+· MU Micron: Priced For A Peak That Keeps Moving Higher (NASDAQ:MU) (Seeking Alpha) https://news.google.com/rss/articles/CBMilAFBVV95cUxQbk1FYjZrZWdKS1RSLWxLQVdSYVR2VEFKMWpZUlpmMDlkMEZDUVRYMDQ3SmRmbGZ2TWdvUFN3RnI0TEdGMlVVR2FfbTZleXhwZThOZHdmd3N5QnlQWVAyc3paLWEta3dKd3VtTk5CY256dG9taV9IV2xobl8xUHZWQ05ya1RjQktnYkl2eXZIOFljRkJC?oc=5
+· USDBRL Ibovespa hoje perde os 170 mil pontos com risco fiscal e inflação dos EUA; dólar sobe mais de 1% (Estadao) https://news.google.com/rss/articles/CBMi7AFBVV95cUxPUzhQcnZGYUl3X2xNTzl0bnBvNkpRTFNVUm1LZkNIRE5XUVd5Tmd6ZkFVZE8xcDN3MDdwNGlxMGk0azJzOGQtMnl3OFBJNXE3QmVXdkpoZW4xbVF4VmYwNm0yQ3FabWpYQm5NRUp4b0ZST3BqNTFTd2k5R1JSMWJBN1lCSmZ1OFdNVnh4enFPdy1TcWtlSmttR1dWNnlETHVBNS0zdDBleWNyVXN0ZXZkTmk5MktiNkV0VThiZGdSR2V4YW1pMHZnbHRRXzdqR0I5SGlCc2ZxVzdaYlR1YmZhRWttdlBDWFdielFaY9IB8gFBVV95cUxOeXFmNWxGc2FzRkxzbVRTaFpfdGtodXZ1dzY0ZTUxYXFldHhKQUJlX1BxNnpERVlrYmltbXo4Zmc3RkRlbHg3emR1eWlVbmRlWWVKQ25xSXFieHJzUTR2b0JUUU0wQ3BJdWVuWHU4ZURoRDlJempTTkV2c243LU1MOFVyaEMxZXZ4STdBTWZqeElpLWZoM1h4VFpHRnBNLXFFVExZZkgtMV9hVWdmaHlUZlQ2bER0YlhnUWRZNnhVc3pRQ1pLbWF1VHNJOGpUNnFGQnFLOVV1TFcwUmxGdm5JaWxQNUVFcXBaZldEOEhvczlzQQ?oc=5
+· GOOGL Alphabet's Cloud Surge Comes With a Massive Catch (Yahoo Finance) https://news.google.com/rss/articles/CBMioAFBVV95cUxObGRQZDA4UlFpVUFHVjFUME9sa1VKaXc1OGVGbmV2cklWd0hnM0JfWURkQ2l4Q0NwQnpiRS1kZDB5aW0wN3VoUzBEMUhZMzFuNlUyQnpBX01ieFpTOWZtMTZNN2tjelBMaU5weFBfZXQ5d25UaHlkeTFaRk43blRYMTU1UHZWb25EbnpNd3lmRnVXU1pQRF9qS0ZhMUMzMGZ4?oc=5
+· TSLA Tesla vs. Ford: Which Stock Has an Edge After Q3 Earnings? (TradingView (Reuters)) https://news.google.com/rss/articles/CBMisAFBVV95cUxNV01ONGQ5U1prODJlSThna3oybGRDbDBsNG9XTXlBUTVTb3hmM24wWFVXQWNqUTd0QlZCOW1BYjBsangtaFhpeE5iWVNORUs3Q3pfZjhKQWxxWjdqNDRCMy12dWpua05nOTRKOGloN2RYVTh5VDZtQUtJQVkzdjNGYUMtZEhOclhpT1pMem4zVEFfRUtXY1pkOG1FZXpxN1c3NS02Yk81WVdRUFhfdjZyUw?oc=5
 · GOOGL Amazon Slides 3% as Alphabet’s 12% Plunge Raises Stakes for AWS Report; Meta Rises 3%, Microsoft Pulls Back (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/amazon-slides-3-alphabet-12-162243527.html
 · UST U.S. Treasury, European Bond Yields Fall After Fed, ECB Hold (The Wall Street Journal) https://www.wsj.com/finance/commodities-futures/u-s-treasury-yields-fall-as-investors-digest-fed-meet-focus-shifts-to-ecb-d29ffbec
 · VALE3 Vale: balanço do 3T26 deve mostrar queda no Ebitda e pressão sobre margens (ADVFN) https://br.advfn.com/jornal/2026/10/vale-balanco-do-3t26-deve-mostrar-queda-no-ebitda-e-pressao-sobre-margens
@@ -260,17 +291,4 @@ id: E05-TSLA-626a3a5b3f-2026-10-29 · status: linha
 · ETH Current price of Ethereum for October 29, 2026 (Fortune) https://news.google.com/rss/articles/CBMiaEFVX3lxTE9PSEczdTJ1NGNlYVA0SlR4MDhQaTY0akdDNjlRZXk2bGFwa3pabHFkTzVHRW41a09iVGZEbUh0ckU4NTZ6NWNOUHdxdnRhOWVmbWdlWlNrWTgzQmVpbF9RSDE4bFUwbXIy?oc=5
 · NVDA Google's Nvidia chip challenge boosts cloud sales, crimps cash flow (Reuters) https://www.reuters.com/business/googles-nvidia-chip-challenge-boosts-cloud-sales-crimps-cash-flow-2026-10-29/
 · ETH Current price of Ethereum for Oct. 29, 2026 (Fortune) https://fortune.com/article/price-of-ethereum-10-29-2026/
-· GOOGL Google stock plunges 11% on Q3 earnings miss (Yahoo Finance) https://finance.yahoo.com/technology/article/google-stock-plunges-11-on-q3-earnings-miss-130617052.html
-· UST US 10-Year Treasury Yield Little Changed At 5% (TradingView (Reuters)) https://www.tradingview.com/news/te_news:596331:0-us-10-year-treasury-yield-little-changed-at-5/
-· USDBRL Dólar abre em alta com EUA e política fiscal brasileira em foco (CNN Brasil) https://www.cnnbrasil.com.br/economia/money/mercado/mercado-financeiro-ibovespa-dolar-29-outubro-2026/
-· USDBRL Tempo real: Ibovespa cai com incerteza fiscal; dólar sobe (Money Times) https://www.moneytimes.com.br/tempo-real-29-10-26-lils/
-· USDBRL Café pode ficar mais caro após alta do dólar? Economista explica impactos (InfoMoney) https://www.infomoney.com.br/mercados/cafe-pode-ficar-mais-caro-apos-alta-do-dolar-economista-explica-impactos/
-· NVDA Pick-and-Shovel vs. Edge Gatekeeper: Why Investors Are Splitting Between Nvidia and Apple (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/pick-shovel-vs-edge-gatekeeper-124531248.html
-· MU Micron Dips as Samsung Earnings Show the High Bar for Memory Stocks. (Barron's) https://www.barrons.com/articles/micron-stock-samsung-earnings-memory-ed814f52
-· USDBRL Dólar hoje avança em linha com o exterior (InfoMoney) https://www.infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-29102026/
-· BRENT Dólar sobe com petróleo em queda e incertezas fiscais (UOL Economia) https://economia.uol.com.br/noticias/estadao-conteudo/2026/10/29/dolar-sobe-com-petroleo-em-queda-e-incertezas-fiscais.htm
-· USDBRL Ibovespa futuro cai com fiscal em foco e tom negativo de Wall Street; dólar tem leve alta (Money Times) https://news.google.com/rss/articles/CBMibEFVX3lxTE9jU1kzbEtvMzR6YUx3WlNHUXhmRF9yOUJlbHhMUmpiNHpaUXhzS25DNGlmU1c0NU5FTk1IV3ZaMHVEb25JU2ZqQjhBRjJ1MlIzd0VmaGpyVE1XNzQxS3FhQ3J4bnZicVhjTGZHRw?oc=5
-· USDBRL Dólar sobe ante real em sintonia com o exterior Por Reuters (Investing.com) https://news.google.com/rss/articles/CBMinAFBVV95cUxPWDJaSF9UOGd3UDlERFdCNmVsbHFNTVYtTVV3cWZ1ZGRTeGNxakFJV3JCZ3U5Zkg4THVvcER2R2pEWmItMmFvRFMzZklWRExFNk1odG0yUEh4cnVDV2dvZTdBNURzWXpFbnJ4NzJmeEctR0YzNVVyZHlRV0lRNWJNSHdRakJSc3p1ZlZWS1NmczZrMXhyU2VFdjRJcHY?oc=5
-· AMD Advanced Micro (AMD) Q3 Earnings on the Horizon: Analysts' Insights on Key Performance Measures (Yahoo Finance) https://news.google.com/rss/articles/CBMimwFBVV95cUxPZHdjNVhEWXoxWDNKbVJEbFd3eEVkekVLWDV2WC1ZcHo0bWhDLThMN0FqWXdUSTdxTlhMbHB5aGVNdWxLV0NiYnNmQlRMd0tRTHVuamJ0WGZzcmM2TDJMNDZBT0dsam8xeUMwaGlOQzZsZHdJblEyVnVjbWFTR2NLZG11LXdBRGRlMXBQUUl3cENrcm53X2pOeE91cw?oc=5
-· NVDA Here are Thursday's biggest analyst calls: Nvidia, Anthropic, Apple, Tesla, Chevron, Microsoft, Alphabet & more (CNBC) https://news.google.com/rss/articles/CBMiigFBVV95cUxNcVA5WXFSbjhHemhHc0pudjZKVlU3X1JOMzVMLUdGMUI1Y3JOYXBRZHNBOUg1bEYxOWJJT042czBjSW5CWnc3Mi1vSjc4M3lkZ0ZkZ09sRkZYSlVDaHJRVkNGVFhBNzcwTXBrUHduZXh3VjZPNU93SkYzaWRTeVlORTRDS3hsVlJuLWc?oc=5
-· (+20 manchetes; lista completa em eventos/noticias.json)
+· (+33 manchetes; lista completa em eventos/noticias.json)
