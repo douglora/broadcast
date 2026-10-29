@@ -7,7 +7,7 @@
  "colunas": [{"nome": "TckrSymb", "titulo": "Ação"}, {"nome": "Cod", "titulo": "Código"}, {"nome": "Term", "titulo": "Prazo"}, {"nome": "Closing", "titulo": ""}, {"nome": "TradQty", "titulo": ""}, {"nome": "VlmTradedDay", "titulo": "Volume (R$) mil"}, {"nome": "Part", "titulo": "Participação (%)"}],
  "texto": ["Lista ações com maior volume de negociação em contratos a termo, destacando as mais ativas."],
  "situacao": "republicado",
- "atualizado_em": "2026-10-29T03:24:07.843",
+ "atualizado_em": "2026-10-29T03:34:08.533",
  "truncada": false,
  "linhas": [
   ["AXIA ENERGIAON      NM", "ON      NM", 37, 49.02, 150000, 7353.000000000001, 0.9784719217045036],
