@@ -3968,6 +3968,24 @@ def trimestre_da_agenda(tk, hoje=None, caminho=None):
     return max(vistos, key=ordem_periodo) if vistos else None
 
 
+def _release_da_agenda_pela_sec(tk, agenda, mais_novo, fontes, conhecidos, descartados):
+    """Noite do resultado sem o release no site de RI (pagina montada por JavaScript, como a da Vale
+    em 29/10/2026): o 6-K do ADR traz o mesmo documento, em ingles, na mesma noite. So os filings mais
+    recentes e so trimestres mais novos que a cabeca do historico."""
+    adr = ADR_DE_B3.get(tk)
+    if not adr:
+        return []
+    rascunho = {}
+    achados = coletar_releases_sec(_cik_por_ticker(adr), rascunho, conhecidos, descartados,
+                                   max_releases=1, max_filings=12, faltantes=[agenda])
+    novos = [r for r in achados if ordem_periodo(r.get("periodo")) > ordem_periodo(mais_novo)]
+    fontes["release_ri_sec"] = (f"6-K do ADR {adr}: {', '.join(r['periodo'] for r in novos)}" if novos else
+                                f"6-K do ADR {adr}: nada mais novo que {mais_novo} "
+                                f"({rascunho.get('release_ri', 'sem detalhe')})")[:200]
+    app.log(f"{tk}: agenda pede {agenda}; {fontes['release_ri_sec']}")
+    return novos
+
+
 def _completar_pelo_site_ri(tk, dados, fontes, historico, conhecidos, descartados, saida=None):
     """Quando o release mais novo esta atras da referencia (ITR mais novo ou trimestre vencido no
     calendario, o que for mais novo), busca no site de RI os trimestres que faltam e mescla com o que
@@ -4006,6 +4024,8 @@ def _completar_pelo_site_ri(tk, dados, fontes, historico, conhecidos, descartado
         app.log(f"{tk}: fonte de RI veio da {origem}: {mapa.get('central')}")
     do_site = coletar_releases_ri(tk, fontes, conhecidos, descartados, ate_periodo=mais_novo,
                                   preferencias=preferencias, faltantes=faltantes, mapa=mapa)
+    if pela_agenda and not any(ordem_periodo(r.get("periodo")) > ordem_periodo(mais_novo) for r in do_site):
+        do_site = do_site + _release_da_agenda_pela_sec(tk, agenda, mais_novo, fontes, conhecidos, descartados)
     if not do_site:
         return historico
     lista = _mesclar_historico(historico, do_site)
