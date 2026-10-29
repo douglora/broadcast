@@ -1,10 +1,10 @@
 BLOCO A
 ```
-FECHAMENTO DO LIVRO · qua 28/10 · 18h16 BRT
-Relógios: Yahoo 18h16 · DI ajuste D0 · Tesouro base
+FECHAMENTO DO LIVRO · qua 28/10 · 21h47 BRT
+Relógios: Yahoo 21h47 · DI ajuste D0 · Tesouro base
   28/10 · UST CMT D0 · PTAX 28/10
 
-ALERTAS DO DIA (40 · 8 críticos)
+ALERTAS DO DIA (47 · 8 críticos)
 [CRÍTICO] C04 IPCA+ 2032 volta abaixo de 8,00% real:
           7,93% (+9 bps), base 28/10
 [CRÍTICO] C05 Pre 2029 PU -4,1% em 5 datas-base ·
@@ -24,31 +24,34 @@ ALERTAS DO DIA (40 · 8 críticos)
 [CRÍTICO] T08 SMAL11 entrou em queda de -30% do
           pico: -32% do pico de 52s (R$ 139,80 em
           09/10) a R$ 95,06
-(+32 em alertas.md)
+(+39 em alertas.md)
 
 ALTAS  MU +5,9% · LITE +5,5% · EWY +5,4% · NOK +3,7%
        · MRVL +3,3%
 BAIXAS BBDC4 -6,7% · ALUP4 -5,5% · KLBN4 -5,4% ·
        AXIA3 -5,2% · DIRR3 -5,2%
 
-NOTÍCIAS E FATOS (13 com materialidade ·
+NOTÍCIAS E FATOS (20 com materialidade ·
   noticias.md)
-· GOOGL 8-K: 2.02 resultado do trimestre (SEC)
-· BBDC4 Bradesco (BBDC4): após frustração eleitoral,
-  Itaú BBA corta ação; veja novo preço-alvo (Money
-  Times)
-· BBDC4 Itaú BBA corta recomendação do Bradesco e vê
-  recuperação mais difícil (UOL Economia)
-· CVX If You'd Invested $10,000 in Chevron (CVX)
-  Stock 1 Year Ago, Here's How Much You'd Have Today
-  (Yahoo Finance)
-· BTC Bitwise Raises Bitcoin Price Target to $1.6M
-  by 2036, Publishes 2027 Bitcoin Long-Term Capital
-  Market Assumptions (PR Newswire)
-· JPM JPMorgan downgrades Xylem stock rating on
-  guidance cut, slower orders By Investing.com
-  (Investing.com)
-  (+7)
+· PETR4 Produção da Petrobras bate novo recorde no
+  3º tri e supera pico previsto para 2028 Por
+  Reuters (Investing.com)
+· PETR4 Petrobras (PETR4) bate recorde de produção
+  de petróleo e gás no 3T26, com alta de 11,7% em um
+  ano (Money Times)
+· PETR4 Petrobras amplia produção em quase 12% e
+  quebra recorde com força do pré-sal (Estadao)
+· PETR4 Fato Relevante: FPSO Almirante Tamandaré
+  Recorde de produção de 263 mbpd em jul ho de 2026
+  Sumário Sumário Destaques 3T26
+  ...........................................… (CVM)
+· SAPR4 Fato Relevante: A Companhia de Saneamento do
+  Paraná – Sanepar, em cumprimento ao disposto na
+  Resolução CVM nº 44/2021 , comunica a seus
+  acionistas, investidores e ao… (CVM)
+· PETR4 Produção de petróleo da Petrobras (PETR4)
+  sobe 12,4% e bate recorde no 3T26 (InfoMoney)
+  (+14)
 
 CURVAS · taxa (Δ bps)
 DI (D0, Δ dia·sem bps) F28 14,40 (+2·+163) F29 14,82
@@ -64,7 +67,7 @@ TD (base 28/10, site do TD 18h00, Δ desde 27/10) Pre
     (descasado) 6,55% vs Focus IPCA 2027 4,34%
 UST (D0) 2y 4,67 (-3) · 10y 5,05 (+6) · 30y 5,37
     (+7) · 2s10s +38 (+9)
-Regime: VIX 16,9 (-3,5%) · score risco 1 de 6 ·
+Regime: VIX 16,9 (-3,5%) · score risco 1 de 5 ·
     regime de vol LIGADO
 
 LEITURA DA MESA
@@ -93,7 +96,14 @@ ter 03/11 ex-dividendo ITUB4 R$ 0,02 (último
     provento, Yahoo)
 qua 04/11 resultado GFS (Yahoo, estimado)
 
-LACUNAS: nenhuma perna falhou.
+LACUNAS: DXY sem barra de 28/10 (última 27/10);
+  BRENT sem barra de 28/10 (última 27/10); DXY:
+  barra de 28/10 é o início da sessão seguinte
+  (última cotação 20:37 de Nova York); barra
+  descartada, fica a de 27/10; BRENT: barra de 28/10
+  é o início da sessão seguinte (última cotação
+  20:31 de Nova York); barra descartada, fica a de
+  27/10.
 Fontes: Yahoo Finance · B3 Boletim Diário · site do
   Tesouro Direto · Treasury.gov CMT · BCB
 ```
@@ -177,10 +187,10 @@ MRVE3  MRV        4,33 -2,9  -47  -17  -36  -38  -44
 CURY3  Cury      26,95 -3,9  -17 -2,3 -4,6 -9,5  -12
 Macro
 USDBRL USD/BRL  5,3457  0,0 +6,4 +2,3 +7,0 -0,5 -2,4
-DXY    DXY      102,12 -0,2 +0,3 +0,9 +3,2 +3,5 +3,9
-BRENT  Brent    114,10 +0,2 +4,9  +17 -3,3  +77  +88
-BTC*   BTC      81.354 +0,7 -3,2 -2,6 +7,4  -28 -7,0
-ETH*   ETH       2.363 +0,6 -4,4  -12 +4,9  -41  -20
+DXY*   DXY      102,32 +0,4 +0,6 +1,3 +3,8 +3,6 +4,1
+BRENT* Brent    113,88 -1,7 +4,7  +17 +2,4  +74  +87
+BTC    BTC      81.354 +0,7 -3,2 -2,6 +7,4  -28 -7,0
+ETH    ETH       2.363 +0,6 -4,4  -12 +4,9  -41  -20
 MINER* Minerio   90,70 -0,1 -0,2 -6,6  -15  -14  -15
 ```
 UCITS por extenso: VWRA Vanguard FTSE All-World

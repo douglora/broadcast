@@ -1,4 +1,4 @@
-## Fechamento do livro · qua 28/10 · 18h16 BRT
+## Fechamento do livro · qua 28/10 · 21h47 BRT
 
 ---
 
@@ -39,7 +39,7 @@
 ### Destaques do dia
 
 **Altas** MU +5,9% · LITE +5,5% (fechou na máxima) · EWY +5,4% (vol 1,4x · fechou na máxima) · NOK +3,7% (fechou na máxima) · MRVL +3,3%
-**Baixas** BBDC4 -6,7% (vol 1,6x · fechou na mínima · mínima de 52 semanas) · ALUP4 -5,5% (vol 1,7x · fechou na mínima) · KLBN4 -5,4% (vol 1,4x) · AXIA3 -5,2% (fechou na mínima · mínima de 52 semanas) · DIRR3 -5,2% (vol 1,6x · mínima de 52 semanas)
+**Baixas** BBDC4 -6,7% (mínima de 52 semanas) · ALUP4 -5,5% · KLBN4 -5,4% · AXIA3 -5,2% (mínima de 52 semanas) · DIRR3 -5,2% (mínima de 52 semanas)
 
 ---
 
@@ -208,13 +208,13 @@ Nomes completos: **QNTM** VanEck Quantum Computing UCITS ETF USD (Acc) · **QANT
 | Ativo | últ | dia | 1 sem | 1 mês | 3 m | 6 m | 1 ano | YTD | 5 anos |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | **USDBRL** Dolar/Real | 5,3457 | **0,0** | +6,4 | +2,3 | +4,1 | +7,0 | -0,5 | -2,4 | -5,1 |
-| **DXY** Indice Dolar DXY | 102,12 | **-0,2** | +0,3 | +0,9 | +1,3 | +3,2 | +3,5 | +3,9 | +8,5 |
-| **BRENT** Petroleo Brent | 114,10 | **+0,2** | +4,9 | +17 | +26 | -3,3 | +77 | +88 | +35 |
-| **BTC** Bitcoin _(parcial)_ | 81.354 | **+0,7** | -3,2 | -2,6 | +27 | +7,4 | -28 | -7,0 | +33 |
-| **ETH** Ethereum _(parcial)_ | 2.363 | **+0,6** | -4,4 | -12 | +24 | +4,9 | -41 | -20 | -45 |
+| **DXY** Indice Dolar DXY _(dia 27/10)_ | 102,32 | **+0,4** | +0,6 | +1,3 | +0,9 | +3,8 | +3,6 | +4,1 | +8,7 |
+| **BRENT** Petroleo Brent _(dia 27/10)_ | 113,88 | **-1,7** | +4,7 | +17 | +35 | +2,4 | +74 | +87 | +35 |
+| **BTC** Bitcoin | 81.354 | **+0,7** | -3,2 | -2,6 | +27 | +7,4 | -28 | -7,0 | +33 |
+| **ETH** Ethereum | 2.363 | **+0,6** | -4,4 | -12 | +24 | +4,9 | -41 | -20 | -45 |
 | **MINERIO** Minerio de ferro 62% Fe CFR China _(D-1, 27/10)_ | 90,70 | **-0,1** | -0,2 | -6,6 | -7,7 | -15 | -14 | -15 | -25 |
 
-**Brent em reais:** R$ 609,94 por barril (28/10) · dia +0,2% · 1 mês +19% · no ano +83% (Brent do 1º vencimento × dólar).
+**Brent em reais:** a confirmar (Brent sem fechamento confirmado).
 
 ---
 
@@ -263,12 +263,26 @@ Inflação implícita 2029 6,72% · 2032 6,85% · 2031/32 (descasado) 6,55% · F
 
 2s10s +38 bps (+9 no dia)
 
-**Regime** VIX 16,9 (-3,5%) · score de risco 1 de 6 · **regime de vol LIGADO**
+**Regime** VIX 16,9 (-3,5%) · score de risco 1 de 5 · **regime de vol LIGADO**
 
 ---
 
-### Notícias e fatos · 13
+### Notícias e fatos · 20
 
+- **PETR4** Produção da Petrobras bate novo recorde no 3º tri e supera pico previsto para 2028 Por Reuters (Investing.com · 28/10) [abrir a fonte](https://br.investing.com/news/stock-market-news/producao-de-petroleo-da-petrobras-no-brasil-avanca-124-no-3o-tri-exportacao-sobe-213-2106962)
+  *Por que importa:* evento operacional afeta producao e custo no trimestre corrente
+- **PETR4** Petrobras (PETR4) bate recorde de produção de petróleo e gás no 3T26, com alta de 11,7% em um ano (Money Times · 28/10) [abrir a fonte](https://www.moneytimes.com.br/com-petroleo-ainda-nas-alturas-petrobras-petr4bate-recorde-de-producao-de-petroleo-e-gas-com-alta-de-117-em-um-ano-bdap/)
+  *Por que importa:* evento operacional afeta producao e custo no trimestre corrente
+- **PETR4** Petrobras amplia produção em quase 12% e quebra recorde com força do pré-sal (Estadao · 28/10) [abrir a fonte](https://www.estadao.com.br/em-alta/einvestidor/cenarios-e-mercado/petrobras-amplia-producao-em-quase-12-e-quebra-recorde-com-forca-do-pre-sal/)
+  *Por que importa:* evento operacional afeta producao e custo no trimestre corrente
+- **PETR4** Fato Relevante: FPSO Almirante Tamandaré Recorde de produção de 263 mbpd em jul ho de 2026 Sumário Sumário Destaques 3T26 ...........................................… (CVM · 28/10) [abrir a fonte](https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1581329)
+  *Por que importa:* fato relevante e o que a propria companhia julga capaz de mover o preco; ler o documento inteiro antes de comentar
+- **SAPR4** Fato Relevante: A Companhia de Saneamento do Paraná – Sanepar, em cumprimento ao disposto na Resolução CVM nº 44/2021 , comunica a seus acionistas, investidores e ao… (CVM · 28/10) [abrir a fonte](https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1581303)
+  *Por que importa:* fato relevante e o que a propria companhia julga capaz de mover o preco; ler o documento inteiro antes de comentar
+- **PETR4** Produção de petróleo da Petrobras (PETR4) sobe 12,4% e bate recorde no 3T26 (InfoMoney · 28/10) [abrir a fonte](https://www.infomoney.com.br/mercados/producao-de-petroleo-da-petrobras-petr4-bate-recorde-novamente-no-3o-tri/)
+  *Por que importa:* evento operacional afeta producao e custo no trimestre corrente
+- **GOOGL** Earnings call transcript: Alphabet Q3 2026 profit miss sparks 10% after-hours drop (Investing.com · 28/10) [abrir a fonte](https://www.investing.com/news/transcripts/earnings-call-transcript-alphabet-q3-2026-profit-miss-sparks-10-afterhours-drop-93CH-4981037)
+  *Por que importa:* resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
 - **GOOGL** 8-K: 2.02 resultado do trimestre (SEC · 28/10) [abrir a fonte](https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/goog-20261028.htm)
   *Por que importa:* resultado do trimestre reprecifica lucro, guidance e multiplo; comparar com o consenso
 - **BBDC4** Bradesco (BBDC4): após frustração eleitoral, Itaú BBA corta ação; veja novo preço-alvo (Money Times · 28/10) [abrir a fonte](https://www.moneytimes.com.br/bradesco-bbdc4-apos-frustracao-eleitoral-itau-bba-corta-acao-veja-novo-preco-alvo/)
@@ -323,8 +337,8 @@ Inflação implícita 2029 6,72% · 2032 6,85% · 2031/32 (descasado) 6,55% · F
 
 ### Como ler
 
-**Relógios:** Yahoo 18h16 · DI ajuste D0 · Tesouro base 28/10 · UST CMT D0 · PTAX 28/10
-**Lacunas:** nenhuma perna falhou.
+**Relógios:** Yahoo 21h47 · DI ajuste D0 · Tesouro base 28/10 · UST CMT D0 · PTAX 28/10
+**Lacunas:** DXY sem barra de 28/10 (última 27/10); BRENT sem barra de 28/10 (última 27/10); DXY: barra de 28/10 é o início da sessão seguinte (última cotação 20:37 de Nova York); barra descartada, fica a de 27/10; BRENT: barra de 28/10 é o início da sessão seguinte (última cotação 20:31 de Nova York); barra descartada, fica a de 27/10.
 **IUAA:** NAO e renda fixa ultracurta: cai ~6% a cada +100 bps na curva. Ler junto com UST 10y/30y. Caixa em dolar e o IB01.
 **Hipótese:** **EWY** iShares MSCI South Korea ETF · **MCHI** iShares MSCI China ETF — ETFs dos EUA, a confirmar.
 Minério: proxy Dalian 678 CNY/t (2026-10-28).

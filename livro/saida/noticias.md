@@ -1,8 +1,8 @@
-NOTÍCIAS E FATOS · 28/10 20h04
+NOTÍCIAS E FATOS · 28/10 21h47
 
-Pernas: noticias ok 15 novas (18 consultas; descartadas: 371 veículo fora da lista, 28 sem ativo, 10 teto) · cvm ok 3 novos de 11 (8 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 18 novas (18 consultas; descartadas: 401 veículo fora da lista, 23 sem ativo, 12 teto) · cvm ok 1 novos de 12 (8 cias casadas) · sec ok 0 novos em 3 dias
 
-## FATOS RELEVANTES E COMUNICADOS (CVM) (3)
+## FATOS RELEVANTES E COMUNICADOS (CVM) (4)
 
 [ATENÇÃO] E03 · PETR4 · Fato Relevante: FPSO Almirante Tamandaré Recorde de produção de 263 mbpd em jul ho de 2026 Sumário Sumário Destaques 3T26 ...........................................…
 CVM · entregue 28/10/2026 19:37
@@ -32,6 +32,15 @@ Como falar: 'a Sanepar publicou fato relevante sobre A Companhia de Saneamento d
 Fonte: CVM 28/10
 id: E03-SAPR4-1581303-2026-10-28 · status: pendente · íntegra disponível
 
+[INFO] E03 · SAPR4 · Comunicado ao Mercado: Esclarecimentos sobre questionamentos da CVM/B3
+CVM · entregue 28/10/2026 20:19 · Esclarecimentos sobre questionamentos da CVM/B3
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1581334
+Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; confirma ou nega o que circula
+Ativos: SAPR4
+Como falar: 'a Sanepar publicou comunicado ao mercado sobre Esclarecimentos sobre questionamentos da CVM/B3'
+Fonte: CVM 28/10
+id: E03-SAPR4-1581334-2026-10-28 · status: linha
+
 [INFO] E03 · BBAS3 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
 CVM · entregue 28/10/2026 18:30 · Outros Comunicados Não Considerados Fatos Relevantes
 Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1581266
@@ -53,7 +62,7 @@ Por que importa: resultado do trimestre reprecifica lucro, guidance e multiplo; 
 Ativos: GOOGL
 Como falar: 'a GOOGL protocolou 8-K na SEC (2.02 resultado do trimestre)'
 Fonte: SEC EDGAR 2026-10-28
-id: E04-GOOGL-26000080-2026-10-28 · status: pendente · íntegra disponível
+id: E04-GOOGL-26000080-2026-10-28 · status: expirado · íntegra disponível
 
 [INFO] E04 · KO · 10-Q: 10-Q
 SEC EDGAR · aceito 28/10 15h22 · 10-Q
@@ -65,7 +74,57 @@ Fonte: SEC EDGAR 2026-10-28
 id: E04-KO-26067844-2026-10-28 · status: linha
 
 
-## NOTÍCIAS COM MATERIALIDADE (20)
+## NOTÍCIAS COM MATERIALIDADE (24)
+
+[ATENÇÃO] E05 · PETR4 · Produção da Petrobras bate novo recorde no 3º tri e supera pico previsto para 2028 Por Reuters
+Investing.com · 28/10 20h32 · + TradingView (Reuters) · licença: manchete
+Link: https://br.investing.com/news/stock-market-news/producao-de-petroleo-da-petrobras-no-brasil-avanca-124-no-3o-tri-exportacao-sobe-213-2106962
+Por que importa: evento operacional afeta producao e custo no trimestre corrente
+Ativos: PETR4
+Como falar: 'saiu no Investing.com: Produção da Petrobras bate novo recorde no 3º tri e supera pico previsto para 2028 Por Re…; confirmar o número no texto antes de repassar'
+Fonte: Investing.com 28/10 20h32
+id: E05-PETR4-03ea82e6c1-2026-10-28 · status: pendente
+
+[ATENÇÃO] E05 · PETR4 · Petrobras (PETR4) bate recorde de produção de petróleo e gás no 3T26, com alta de 11,7% em um ano
+Money Times · 28/10 20h26 · + O Globo · licença: integral
+Do texto:
+  – No período, a produção própria de petróleo, líquidos de gás natural (LGN) e gás natural alcançou 3,512 milhões de barris de óleo equivalente por dia (boed), superando o recorde anterior de 3,336 milhões de boed, registr…
+  – O volume representa alta de 5,3% ante o 2T26 e de 11,7% em relação ao mesmo período de 2025.
+  – A companhia atribuiu o avanço à maior eficiência operacional — que atingiu o melhor nível desde o quarto trimestre de 2018 —, ao aumento gradual da produção das plataformas P-78 e P-79, em Búzios, e ao avanço do FPSO Al…
+  – Pré-sal puxa avanço da produção A produção de óleo e LGN no Brasil alcançou 2,832 milhões de barris por dia, crescimento de 5,3% na comparação trimestral e de 12,4% em um ano.
+  – O pré-sal respondeu por boa parte do resultado: foram 2,454 milhões de barris por dia, alta de 6,7% ante o 2T26 e de 15,9% frente ao 3T25.
+  – No campo de Mero, o FPSO Alexandre de Gusmão chegou a um novo pico de produção de 190 mil barris por dia, após alcançar a capacidade originalmente prevista em projeto, de 180 mil barris diários.
+Link: https://www.moneytimes.com.br/com-petroleo-ainda-nas-alturas-petrobras-petr4bate-recorde-de-producao-de-petroleo-e-gas-com-alta-de-117-em-um-ano-bdap/
+Por que importa: evento operacional afeta producao e custo no trimestre corrente
+Ativos: PETR4 · BRENT
+Como falar: 'saiu no Money Times: Petrobras (PETR4) bate recorde de produção de petróleo e gás no 3T26, com alta de 11,7% e…; confirmar o número no texto antes de repassar'
+Fonte: Money Times 28/10 20h26
+id: E05-PETR4-12d0ea1495-2026-10-28 · status: pendente · íntegra disponível
+
+[ATENÇÃO] E05 · PETR4 · Petrobras amplia produção em quase 12% e quebra recorde com força do pré-sal
+Estadao · 28/10 20h25 · fonte única · licença: manchete
+Link: https://www.estadao.com.br/em-alta/einvestidor/cenarios-e-mercado/petrobras-amplia-producao-em-quase-12-e-quebra-recorde-com-forca-do-pre-sal/
+Por que importa: evento operacional afeta producao e custo no trimestre corrente
+Ativos: PETR4
+Como falar: 'saiu no Estadao: Petrobras amplia produção em quase 12% e quebra recorde com força do pré-sal; confirmar o número no texto antes de repassar'
+Fonte: Estadao 28/10 20h25
+id: E05-PETR4-bcfaf6f22d-2026-10-28 · status: pendente
+
+[ATENÇÃO] E05 · PETR4 · Petrobras registra produção recorde de 3,51 milhões de barris no 3º tri
+CNN Brasil · 28/10 20h01 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – A Petrobras bateu recorde de produção de petróleo e gás no terceiro trimestre de 2026, ao alcançar média de 3,51 milhões de barris de óleo equivalente por dia.
+  – O volume representa uma alta de 11,7% em relação ao mesmo período de 2025 e 5,3% na comparação com o segundo trimestre, segundo o relatório de produção e vendas da companhia.
+  – O avanço foi puxado pelo aumento gradual da produção das plataformas P-78 e P-79, no campo de Búzios, e pelo desempenho da plataforma Alexandre de Gusmão, em Mero.
+  – A Petrobras também atribuiu o resultado à maior eficiência operacional desde o quarto trimestre de 2018 e à redução das perdas com paradas para manutenção.
+  – A produção de óleo e líquidos de gás natural no Brasil somou 2,832 milhões de barris por dia, alta de 12,4% em um ano.
+  – No acumulado de janeiro a setembro, a produção própria total atingiu média de 3,359 milhões de barris de óleo equivalente por dia, crescimento de 13,9% sobre igual período de 2025.
+Link: https://www.cnnbrasil.com.br/infra/petrobras-registra-producao-recorde-de-351-milhoes-de-barris-no-3o-tri/
+Por que importa: evento operacional afeta producao e custo no trimestre corrente
+Ativos: PETR4
+Como falar: 'saiu no CNN Brasil: Petrobras registra produção recorde de 3,51 milhões de barris no 3º tri; confirmar o número no texto antes de repassar'
+Fonte: CNN Brasil 28/10 20h01
+id: E05-PETR4-89ad7c0a14-2026-10-28 · status: linha
 
 [ATENÇÃO] E05 · PETR4 · Produção de petróleo da Petrobras (PETR4) sobe 12,4% e bate recorde no 3T26
 InfoMoney · 28/10 19h52 · + TradingView (Reuters) · licença: resumo
@@ -106,7 +165,7 @@ Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais
 Ativos: BBDC4
 Como falar: 'saiu no Money Times: Bradesco (BBDC4): após frustração eleitoral, Itaú BBA corta ação; veja novo preço-alvo; confirmar o número no texto antes de repassar'
 Fonte: Money Times 28/10 16h34
-id: E05-BBDC4-482996f60e-2026-10-28 · status: pendente · íntegra disponível
+id: E05-BBDC4-482996f60e-2026-10-28 · status: expirado · íntegra disponível
 
 [ATENÇÃO] E05 · BBDC4 · Itaú BBA corta recomendação do Bradesco e vê recuperação mais difícil
 UOL Economia · 28/10 16h20 · fonte única · licença: manchete
@@ -115,7 +174,7 @@ Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais
 Ativos: BBDC4
 Como falar: 'saiu no UOL Economia: Itaú BBA corta recomendação do Bradesco e vê recuperação mais difícil; confirmar o número no texto antes de repassar'
 Fonte: UOL Economia 28/10 16h20
-id: E05-BBDC4-2e9d4ffca4-2026-10-28 · status: pendente
+id: E05-BBDC4-2e9d4ffca4-2026-10-28 · status: expirado
 
 [ATENÇÃO] E05 · CVX · If You'd Invested $10,000 in Chevron (CVX) Stock 1 Year Ago, Here's How Much You'd Have Today
 Yahoo Finance · 28/10 09h04 · fonte única · licença: resumo
@@ -131,7 +190,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: CVX
 Como falar: 'saiu no Yahoo Finance: If You'd Invested $10,000 in Chevron (CVX) Stock 1 Year Ago, Here's How Much You'd Have T…; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 28/10 09h04
-id: E05-CVX-415a0ac565-2026-10-28 · status: pendente
+id: E05-CVX-415a0ac565-2026-10-28 · status: expirado
 
 [ATENÇÃO] E05 · KLBN4 · Lucro da Klabin cai 18% no 3º tri Por Reuters
 Investing.com · 28/10 08h27 · fonte única · licença: manchete
@@ -322,8 +381,22 @@ Fonte: g1 27/10 18h55
 id: E05-ITUB4-e5d805a382-2026-10-27 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (59)
+## OUTRAS NOTÍCIAS (só manchete) (73)
 
+· GOOGL What investors need to know about Alphabet's stock-busting earnings report (CNBC) https://www.cnbc.com/2026/10/28/alphabet-q3-earnings-search-ai.html
+· GOOGL Microsoft and Alphabet Just Reported Earnings, Putting the AI Boom to the Test (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/microsoft-alphabet-just-reported-earnings-001901247.html
+· NVDA S&P 500, Nasdaq Futures Dip As Weaker-Than-Expected Alphabet Earnings Reignite AI Spending Worries — GOOGL, MSFT, ORCL, NVDA, MRVL In Focus (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/p-500-nasdaq-futures-dip-001028850.html
+· PETR4 Petrobras tem recorde na produção média de óleo, LGN e gás no terceiro trimestre (Valor Economico) https://valor.globo.com/empresas/noticia/2026/10/28/petrobras-tem-producao-media-de-oleo-lgn-e-gas-recorde-no-terceiro-trimestre.ghtml
+· DI Juros de 10 anos sobem a 15,04% e mercado vê Selic mantida (Poder360) https://www.poder360.com.br/poder-economia/juros-de-10-anos-sobem-a-1504-e-mercado-ve-selic-mantida/
+· USDBRL Ibovespa tem forte queda e dólar fecha estável em novo ajuste pós-eleição (TradingView (Reuters)) https://br.tradingview.com/news/reuters.com,2026:newsml_L2N46E1PT:0/
+· GOOGL Google Cloud surges as Search slows (CNBC) https://www.cnbc.com/video/2026/10/28/google-cloud-surges-as-search-slows.html
+· GOOGL Investors weigh Alphabet's cloud growth against its AI capex spend (CNBC) https://www.cnbc.com/video/2026/10/28/investors-weigh-alphabets-cloud-growth-against-its-ai-capex-spend.html
+· GOOGL Google Cloud Revenue Just Grew 103%, so Why Is the Stock Falling? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/google-cloud-revenue-just-grew-232306863.html
+· MRVL Marvell’s Potential Lumentum Deal Sends LITE Surging, MRVL Sliding After-Hours (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/marvell-potential-lumentum-deal-sends-232041510.html
+· MRVL Marvell Is Said to Near Deal for Lumentum In AI-Related Megadeal (Bloomberg) https://news.google.com/rss/articles/CBMitgFBVV95cUxNTGdUMkpHa2JOcFhCMTFQU0tLaTJkTU54TmQ2aGJnVVVMR2VzeGdzLS1ONXd0U3hqQ0xPZUlEeTgyOWVXMHRQQ0hIeW5aX21JRkpNY3FlRUdNM1ZJMS1ZX3JwMWUteGVLdFFaVlNZMjZXUWtSSXNVRlEwdnRvbU9iQVBnNS1ycUgxMU5LTGtQQ0hSTWNOTkhBZ3FNRC1HaEZXZG9UMUd1QlBfeG1qZ044cTQtTk9Ydw?oc=5
+· PETR4 Produção de petróleo da Petrobras (PETR4) sobe 12,4% no 3º trimestre de 2026 (InfoMoney) https://news.google.com/rss/articles/CBMisAFBVV95cUxQRzI3V1kwZF8xTWRBclZ4LTlmdGxPU3Y3bnNobVZPb0xnUEpGbEd1Z3VBc2oyd3psLXF1bmEwOUI1a3ZLREFkd2QwU205Ni1RdWVoeEJROHJGQWxXTTF1bExiZFlUTmVGeTdrWnJxNk1KZXBjSWRlV1lMNXZXOG5ETERJNnp3STYxcXFhNFhDbWljcnpuX1lKWFk2UzNfbkV2WkZlUmhFemNaXzlhYUVaMNIBtgFBVV95cUxPaUVHblBFYm02TllONDJmeFlvb3BCTk9NbThEckhadW9LZ0VaNTFhd1J3VGotUG9nQ094SjQ2ellreFJaVlJCUmFicnFkSGF6REhvYWdzTE1UQ0l3elNqaUdxMWMtV3hteUVtUXFoYW51dDlLYTJ3RHVCVnAwU3l0RVRiUWhoSjRDQ21wX3FuVXg1VVY3dy1RZ2daOUpTMmhHaFItWGp0Ni1ubC14a00xNjc0bUV5QQ?oc=5
+· BTC Bitcoin Fell Five Days in a Row While Nearly 15,000 BTC Left Exchanges. Is a Bounce Coming? (Yahoo Finance) https://news.google.com/rss/articles/CBMilgFBVV95cUxOV2RtUWNxVGlYam45MEktVWpCWGoyQlNUVEhzaUVtM2ttTVVWV1Z3RVJUN2FLam5hLVBENmFsVEhWRFFEdzRFZGNsV1VBQlhzN1V5YVJaZmNzU0pySFhvYm1vTnhMV3FsN1FFejJ2UzFUcnhXeFFpTXdmdnZQTzEwOWxSckRqUXhGMm00Vk81a2JYank4cEE?oc=5
+· MRVL Marvell nears deal for optical supplier Lumentum to bolster hardware, report says (Yahoo Finance) https://news.google.com/rss/articles/CBMijAFBVV95cUxQbHh0M19VQ2FxTVNWYmRWSnA3TWRQZk5TUDNDOEUyMHA2UVZBTlFXYmlUN01jLXZETlFMWHVKUkN4VGZsWFJzU0hYLVNqblI3NUd1SU9jbG1OYUlMdGt3ZEFKMXdrZElhc0ZvbFNLV2tzQW9FWWY4T2dtbjQyb004LVZZTmcwT19SalZ0Ng?oc=5
 · USDBRL Ibovespa cai 2,68%, e dólar fecha em leve baixa a R$ 5,34 (Agencia Brasil) https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/ibovespa-cai-268-e-dolar-fecha-em-leve-baixa-r-534
 · INTC Intel to report Q3 earnings as chip stocks continue to rebound (Yahoo Finance) https://finance.yahoo.com/technology/article/intel-to-report-q3-earnings-as-chip-stocks-continue-to-rebound-221713961.html
 · NVDA Google parent's revenue jumps 25% as homegrown AI chips take on Nvidia (Nikkei Asia) https://asia.nikkei.com/business/technology/google-parent-s-revenue-jumps-25-as-homegrown-ai-chips-take-on-nvidia
@@ -370,16 +443,4 @@ id: E05-ITUB4-e5d805a382-2026-10-27 · status: linha
 · TESOURO As maiores altas de juros da história do Tesouro Direto (InfoMoney) https://www.infomoney.com.br/web-stories/as-maiores-altas-de-juros-da-historia-do-tesouro-direto/
 · GOOGL Google earnings up next: Can Cloud growth justify record AI spending? (Investing.com) https://ng.investing.com/news/stock-market-news/google-earnings-up-next-can-cloud-growth-justify-record-ai-spending-93CH-2764518
 · KLBN4 Klabin cai 5% após balanço; custos e dívida preocupam analistas (UOL Economia) https://economia.uol.com.br/noticias/redacao/2026/10/28/klabin-cai-5-apos-balanco-custos-e-divida-preocupam-analistas.ghtm
-· INTC Intel Stock Could Swing 9% After Tomorrow's Earnings (Yahoo Finance) https://news.google.com/rss/articles/CBMilAFBVV95cUxPSmhfYTN1U28wWm1YbDVhRkZiNDE3b2V1Nkh5Z0VDY2FJNlFqQlVLWjZaY3hNS3ZIS0hleC1OVzBjdjA4RG5IQ1hFNndwUTFmQ2pTMVBjRXFzZ2xDd2lpWUwxRkc2RXVYYklmVDhCcnVqNHJacllxOF9zOXhJTEdaSEZmY251Y2gxZ18waFNnbFNIT05u?oc=5
-· CVX Chevron Corporation (CVX) Gains on Strong Production, Hess Synergies, and Higher Cash Flow (Yahoo Finance) https://news.google.com/rss/articles/CBMimAFBVV95cUxObW85Y2hSNVVUeVI1SlhnMGU0a0ZCcERjM2FYTFlOTk9BTXI4dkZrdUdZMzJ6U3piNVF1LXRITmRhTGU2cXlxM3VMaXpraGx3cGR0cmF3NUNDd3Z6WVZFVGRucHUyUmw3cGhNNDFfV2NSS3ZFRzhpVHpBU2Y2UGl1NjRKUWotS1hQbXZ2YmswNTc2SGNvdlM2UA?oc=5
-· USDBRL Ibovespa cai enquanto dólar e juros futuros sobem ainda na esteira da eleição (TradingView (Reuters)) https://news.google.com/rss/articles/CBMid0FVX3lxTE02Xy1vb3NJTWZyVFRoTGFReFRsSmFuTUMxOWx0eUw1OTZHbGJQRnRPOW9yN2QzZ1dwYzEwQmJxY0pWTHF4Ml9MY2xBQzlDWFczR2pNTVkxUC1nV3FUYjdVR1BPb0tWVGkzeFNfSUFvbFA0SnpBNWpR?oc=5
-· AMZN Amazon Q3 earnings on deck: All eyes on cloud growth, capex (AMZN:NASDAQ) (Seeking Alpha) https://news.google.com/rss/articles/CBMimwFBVV95cUxPN2JmR0M3VE1qQ3RjcWxUdjVYZ1RyaHZjQVlaNmtyUzFOUTBLVi12bXpXZE1WaVc0MHZ6dWpySU9lUGp0YTcxTHBaejBtSFVMRDAzcUhLellVM28xdERPOFktUll6WHUzSXg5WGR5djlhY19MMmhZekpmV3czblNCMDhScHNFWGdWWlR1NXB6Nm1TcS1nYlV6cVd6UQ?oc=5
-· USDBRL Ibovespa cai mais de 2% e retorna aos 170 mil pontos; dólar sobe (Suno Noticias) https://news.google.com/rss/articles/CBMid0FVX3lxTFBQSE9rVTNaSHoweFVqdnB5XzZKc1VjZFhadm90TmhpZ0V5Vk10LXhWTE9INmVQb1l2c1pqbmRQNVdWcGxGZ2hwYm9jNzdka3FNNEF0SXBxWUNQWEJQRGpIbEpPd0R1X0FJTkxLTU9yelg4cTJTS0Iw0gF8QVVfeXFMUE1CQ0Uzd0pud1YzbFBvREsxZ2VUSENUeWhLMEFnVkNVN01FYWRZdXhsTEgzaUpIX0l3cHd2S1plUk5ybHpYdTE5bVAwN1MzaE8xSWFWc0Jmb29SUEdoZHdaUFIzdV9KejREdHpNZVN6WXowamhhSlA3RzRWLQ?oc=5
-· KLBN4 Klabin (KLBN11) cai 6% apesar de lucro acima do esperado no 3T; o que desagradou? (InfoMoney) https://news.google.com/rss/articles/CBMisgFBVV95cUxNUnFCNFg0cDBFWmtJaHFPdFlRTGkxUURVeEVQSUd2c2pJbXBnV1J2NWU5eFZXRG1pdWhOaEQzSUhrT2E3OFRneFptWTNTRlRYME9rS3B4YXlEUm81dGJMNHVBdUJoczFRLUVhcWpzYXQ4djBMS0N0dlo0dVZiRXZkclZnWDZyZW1vQWp1d0hmbG9vTDZ6Z2d1UFdFVkp4SGwxQlRpQVBlYmFGMnBxZ0UtOE5R0gG3AUFVX3lxTE53bXdXVGhsNFc4WlNnelJnTDMxcHlhQVB6RVNOdXJPb2QyNVdyaW9tNjNQSmZBNWkxREJFSy1saF9EZ0pOOWw2dWZpQURBa0E3dnI4NFFLa2hHbVNKSFZIcEF6WXJxYUVyMlJwZl9LUWJKaDVfa1hOUzhVYmpFMzQ4MjBXOU5teTdWU2IzeHJSMWV0V3AtYUdtSW56QVk1VEY2UXAxMWZpZ01hTjZqR25kOUNIZDFaZw?oc=5
-· MU Micron’s stock rises after SK Hynix earnings. Here’s its next major test. (MarketWatch) https://news.google.com/rss/articles/CBMisgFBVV95cUxPRGJmRUdxYS1sS0lsX3JvX1FCZ1NRUmV6NmJzWXQ1dkRhamRSY0JhcEhzQ0k5WnczdmNzZXVPNjV4YXZ2U1Zpc1JMMDZ3RmluNnJfbnFBekR3S2RjWXBtZ09qMVpqR191aGY5eG81U0pvYWx6Qlc0ZG5GdVpDM2VjSkt0bEJIMTdnNXlNY0hDYW5sNEEzYTl5Ml9RT1FLaUJIdS1XdUc0OElILUdWRGZ3MWx3?oc=5
-· USDBRL Dólar sobe ante o real com mercado atento ao exterior e ao noticiário político Por Reuters (Investing.com) https://news.google.com/rss/articles/CBMixgFBVV95cUxQMnpCbjJuT2tsZFVNNUw4ZDUwZ0pEZk9falJSUW1Ybjk0UnU2LTF2NkpJaTVnU1E3Q0R3dUJQYmFfbXhucXpMWmRPTEdEbFhpZUlRSjY1MEp5U19zMm5TZWFfdGsxWnlBNHBJZEpNa0JkUmJKQnRNTnJkYm1tQ19lbTRYWWstOXVVZUl6Smw4RlhRYVl3WHJUM1Y4OWRQWVRjTDRlQWZUSmx2ajJmVmpnOHhUMmNWZzNMZUVoTkpTb25XUnlBTVE?oc=5
-· GOOGL Alphabet set to report third-quarter earnings after the bell (CNBC) https://news.google.com/rss/articles/CBMid0FVX3lxTE9mMXgyTllzVlZsWFR1UGY5bTVRWWNYRnFoX3pCdDVjNU41Q3VQUTJyb2lTSUs3ZTdBakY3M0RVaERvZUZRMXA2RlhlYTNyeUJnb1MyX0ZjVHJWODNxd0pWbWRHRjNqb0FWVC1xdzdzZ29qQW8wMl9Z0gF8QVVfeXFMTU5rc0Fla1l1QVdxV2I0d3Znd2JCWm1tY1EtdFR6NTNuV0FaYmhWbEVsZUhFYWdNcXZ0ZGlrdWVaZUxnbThKMVR4V290N0hyb3VmSmtRVDFuUC03Yks5b3poak1UNFJoNkE3RHkzWWZMeUFqajFCc0Yzc1BwSw?oc=5
-· INTC Robinhood misses on Q3 earnings, plus IBM, Intel, and Oracle object to tokenized plans (Yahoo Finance) https://news.google.com/rss/articles/CBMiygFBVV95cUxNOWlXaDd4LVRCaDRQd2lrajNWeVZSX25wSXNDdFRDRWl5SVU3MHNsOHNJMmo3X0pEVWNtcDJLcWgwZUpEWTBzT0FEalVKMWlOeG5Ud0hBUzNRZVE3MldiNHF5VXdFRXYzQ3d0SHNyaXU0U0o3dkIwMG94ZkREcUhNeUVFX25LVEVRdEtlaldxOXpRSkxwZTN0dFBBWUxXeWlzLWRIWlpHQ0c1NDZZX1U3QzFOSjVjYmRScmJHV3ZHeUxqM2VJXzlXT3VB?oc=5
-· AMZN Amazon Q3 preview: AWS acceleration expected to lead the way (Yahoo Finance) https://news.google.com/rss/articles/CBMiiwFBVV95cUxQeE1XUEVDajhkVXJvTWpsWnJtTGI4dng4anA0WlFKTWZLRjZlTkdTeDZINjZLd1BNZHFPR2FBQ3NGMzJNUjZOb2RkUzlEOFk2ZkdVY0Nvc19UX1dRX0VZWGxBcG5lbGhUbDBQTVduWTgyTGMyRFNXOGZuN1JDdThhSjRTeEdadTRtTktZ?oc=5
-· PETR4 Petrobras (PETR4) esclarece à CVM fala da presidente sobre ações (Suno Noticias) https://news.google.com/rss/articles/CBMihgFBVV95cUxPbFo0QXYwMGNhMUZfb3VsNXVfci05YTJYblZKYXJfS2tvTlFTQWRJMFM1cEFsQkk1VERoSmMzMzdac2pDSndVeFZtOEprRWRpQnhKb25LSG1OdENpZU41RTBJNUtCcmZBTlN2SFJha0pza0tNdDhMNDhOdDV0emxtMVc4dlVpQdIBhgFBVV95cUxPbFo0QXYwMGNhMUZfb3VsNXVfci05YTJYblZKYXJfS2tvTlFTQWRJMFM1cEFsQkk1VERoSmMzMzdac2pDSndVeFZtOEprRWRpQnhKb25LSG1OdENpZU41RTBJNUtCcmZBTlN2SFJha0pza0tNdDhMNDhOdDV0emxtMVc4dlVpQQ?oc=5
-· BTC Willy Woo’s Simulation Puts Bitcoin at $413,000 in 2028. What Would It Take for BTC to 5x? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/willy-woo-simulation-puts-bitcoin-000748081.html
+· (+13 manchetes; lista completa em eventos/noticias.json)

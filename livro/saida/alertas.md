@@ -1,4 +1,4 @@
-ALERTAS · eventos
+ALERTAS · Fechamento 18h
 
 (pendente de slot anterior) [CRÍTICO] CURVA · C01 A curva ABRIU: F28 +163 bps em 5 pregões · F29 +226 bps em 5 pregões · F30 +242 bps em 5 pregões (ajuste B3 28/10) / C04 IPCA+ 2032 volta abaixo de 8,00% real: 7,93% (+9 bps), base 28/10 / C04 IPCA+ 2035 rompe 7,00% real: 7,90% (-12 bps), base 27/10
 DI F28 14,40 (+2) · F29 14,82 (+6) · F30 15,00 (+12) · F32 15,13 (+18) · F35 15,13 (+22)
@@ -28,31 +28,6 @@ Por que importa: acima de 3 desvios o movimento sai do ruído e costuma vir de f
 Como falar: 'o movimento de hoje é atípico para este papel; antes de mexer, saber o motivo'
 Fonte: Yahoo Finance fech. 28/10
 ids: T05-KLBN4-queda-2026-10-28
-
-(pendente de slot anterior) [ATENÇÃO] E05 · BTC · Bitwise Raises Bitcoin Price Target to $1.6M by 2036, Publishes 2027 Bitcoin Long-Term Capital Market Assumptions
-PR Newswire · 28/10 12h00 · fonte única · licença: integral
-Do texto:
-  – Bitwise projects the price will rise to $1.6 million by 2036—a 34.3% compound annual growth rate.
-  – equities (6.7%) and three times the next-best asset class, private equity (10.8%).
-  – The World Bank estimates that institutional investors control roughly $147 trillion in assets, and Bitwise expects them to allocate 1% to 5% to bitcoin over the next decade.
-  – That implies $1.5 trillion to $7 trillion of demand, against only about $14 billion in new bitcoin per year.
-  – - Bitcoin showed signs of maturing in 2026 through its volatile year.
-  – Though the 50% drawdown from bitcoin's October 2025 high to its June 2026 low was painful, it was significantly shallower than past peak-to-trough cyclical drawdowns, which saw bitcoin fall 86%, 84%, and 77%.
-Link: https://www.prnewswire.com/news-releases/bitwise-raises-bitcoin-price-target-to-1-6m-by-2036--publishes-2027-bitcoin-long-term-capital-market-assumptions-302922156.html
-Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
-Ativos: BTC
-Como falar: 'saiu no PR Newswire: Bitwise Raises Bitcoin Price Target to $1.6M by 2036, Publishes 2027 Bitcoin Long-Term Ca…; confirmar o número no texto antes de repassar'
-Fonte: PR Newswire 28/10 12h00
-ids: E05-BTC-6c53091403-2026-10-28
-
-(pendente de slot anterior) [ATENÇÃO] E05 · JPM · JPMorgan downgrades Xylem stock rating on guidance cut, slower orders By Investing.com
-Investing.com · 28/10 04h02 · fonte única · licença: manchete
-Link: https://ca.investing.com/news/stock-market-news/jpmorgan-downgrades-xylem-stock-rating-on-guidance-cut-slower-orders-93CH-4907771
-Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
-Ativos: JPM
-Como falar: 'saiu no Investing.com: JPMorgan downgrades Xylem stock rating on guidance cut, slower orders By Investing.com; confirmar o número no texto antes de repassar'
-Fonte: Investing.com 28/10 04h02
-ids: E05-JPM-25642432c6-2026-10-28
 
 (pendente de slot anterior) [ATENÇÃO] E04 · GOOGL · 8-K: 2.02 resultado do trimestre
 SEC EDGAR · aceito 28/10 17h01 · 8-K
@@ -106,7 +81,7 @@ Como falar: 'saiu no Yahoo Finance: If You'd Invested $10,000 in Chevron (CVX) S
 Fonte: Yahoo Finance 28/10 09h04
 ids: E05-CVX-415a0ac565-2026-10-28
 
-[ATENÇÃO] E03 · PETR4 · Fato Relevante: FPSO Almirante Tamandaré Recorde de produção de 263 mbpd em jul ho de 2026 Sumário Sumário Destaques 3T26 ...........................................…
+(pendente de slot anterior) [ATENÇÃO] E03 · PETR4 · Fato Relevante: FPSO Almirante Tamandaré Recorde de produção de 263 mbpd em jul ho de 2026 Sumário Sumário Destaques 3T26 ...........................................…
 CVM · entregue 28/10/2026 19:37
 Do documento:
   – Os valores informados para 4T26 em diante são estimativas ou metas.
@@ -120,10 +95,9 @@ Por que importa: fato relevante e o que a propria companhia julga capaz de mover
 Ativos: PETR4
 Como falar: 'a Petrobras publicou fato relevante sobre FPSO Almirante Tamandaré Recorde de produção de 263 mbpd em jul ho de…'
 Fonte: CVM 28/10
-Push: eventos: 4 alertas de atenção — E03 PETR4, E03 SAPR4, E05 PETR4, E05 GOOGL · detalhe na sessão
 ids: E03-PETR4-1581329-2026-10-28
 
-[ATENÇÃO] E03 · SAPR4 · Fato Relevante: A Companhia de Saneamento do Paraná – Sanepar, em cumprimento ao disposto na Resolução CVM nº 44/2021 , comunica a seus acionistas, investidores e ao…
+(pendente de slot anterior) [ATENÇÃO] E03 · SAPR4 · Fato Relevante: A Companhia de Saneamento do Paraná – Sanepar, em cumprimento ao disposto na Resolução CVM nº 44/2021 , comunica a seus acionistas, investidores e ao…
 CVM · entregue 28/10/2026 18:39
 Do documento:
   – Conforme o edital da referida Concorrência Internacional, o prazo de vigência do  contrato é de 2 0 anos e 6 meses, incluindo o período de atendimento às  condições de eficácia, de execução das obras, de pré-operação e…
@@ -135,7 +109,7 @@ Como falar: 'a Sanepar publicou fato relevante sobre A Companhia de Saneamento d
 Fonte: CVM 28/10
 ids: E03-SAPR4-1581303-2026-10-28
 
-[ATENÇÃO] E05 · PETR4 · Produção de petróleo da Petrobras (PETR4) sobe 12,4% e bate recorde no 3T26
+(pendente de slot anterior) [ATENÇÃO] E05 · PETR4 · Produção de petróleo da Petrobras (PETR4) sobe 12,4% e bate recorde no 3T26
 InfoMoney · 28/10 19h52 · + TradingView (Reuters) · licença: resumo
 Trechos (licença resumo: reescrever, não colar):
   – Publicidade A Petrobras (PETR3; PETR4) produziu 2,83 milhões de barris por dia (bpd) de petróleo no Brasil no terceiro trimestre, alta de 12,4% na comparação com o mesmo período do ano passado, segundo relatório da comp…
@@ -151,7 +125,7 @@ Como falar: 'saiu no InfoMoney: Produção de petróleo da Petrobras (PETR4) sob
 Fonte: InfoMoney 28/10 19h52
 ids: E05-PETR4-3a401240e8-2026-10-28
 
-[ATENÇÃO] E05 · GOOGL · Earnings call transcript: Alphabet Q3 2026 profit miss sparks 10% after-hours drop
+(pendente de slot anterior) [ATENÇÃO] E05 · GOOGL · Earnings call transcript: Alphabet Q3 2026 profit miss sparks 10% after-hours drop
 Investing.com · 28/10 18h52 · fonte única · licença: manchete
 Link: https://www.investing.com/news/transcripts/earnings-call-transcript-alphabet-q3-2026-profit-miss-sparks-10-afterhours-drop-93CH-4981037
 Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
@@ -160,25 +134,62 @@ Como falar: 'saiu no Investing.com: Earnings call transcript: Alphabet Q3 2026 p
 Fonte: Investing.com 28/10 18h52
 ids: E05-GOOGL-6d459d62c6-2026-10-28
 
+[ATENÇÃO] E05 · PETR4 · Produção da Petrobras bate novo recorde no 3º tri e supera pico previsto para 2028 Por Reuters
+Investing.com · 28/10 20h32 · + TradingView (Reuters) · licença: manchete
+Link: https://br.investing.com/news/stock-market-news/producao-de-petroleo-da-petrobras-no-brasil-avanca-124-no-3o-tri-exportacao-sobe-213-2106962
+Por que importa: evento operacional afeta producao e custo no trimestre corrente
+Ativos: PETR4
+Como falar: 'saiu no Investing.com: Produção da Petrobras bate novo recorde no 3º tri e supera pico previsto para 2028 Por Re…; confirmar o número no texto antes de repassar'
+Fonte: Investing.com 28/10 20h32
+Push: Fechamento 18h: 3 alertas de atenção — E05 PETR4, E05 PETR4, E05 PETR4 · detalhe na sessão
+ids: E05-PETR4-03ea82e6c1-2026-10-28
+
+[ATENÇÃO] E05 · PETR4 · Petrobras (PETR4) bate recorde de produção de petróleo e gás no 3T26, com alta de 11,7% em um ano
+Money Times · 28/10 20h26 · + O Globo · licença: integral
+Do texto:
+  – No período, a produção própria de petróleo, líquidos de gás natural (LGN) e gás natural alcançou 3,512 milhões de barris de óleo equivalente por dia (boed), superando o recorde anterior de 3,336 milhões de boed, registr…
+  – O volume representa alta de 5,3% ante o 2T26 e de 11,7% em relação ao mesmo período de 2025.
+  – A companhia atribuiu o avanço à maior eficiência operacional — que atingiu o melhor nível desde o quarto trimestre de 2018 —, ao aumento gradual da produção das plataformas P-78 e P-79, em Búzios, e ao avanço do FPSO Al…
+  – Pré-sal puxa avanço da produção A produção de óleo e LGN no Brasil alcançou 2,832 milhões de barris por dia, crescimento de 5,3% na comparação trimestral e de 12,4% em um ano.
+  – O pré-sal respondeu por boa parte do resultado: foram 2,454 milhões de barris por dia, alta de 6,7% ante o 2T26 e de 15,9% frente ao 3T25.
+  – No campo de Mero, o FPSO Alexandre de Gusmão chegou a um novo pico de produção de 190 mil barris por dia, após alcançar a capacidade originalmente prevista em projeto, de 180 mil barris diários.
+Link: https://www.moneytimes.com.br/com-petroleo-ainda-nas-alturas-petrobras-petr4bate-recorde-de-producao-de-petroleo-e-gas-com-alta-de-117-em-um-ano-bdap/
+Por que importa: evento operacional afeta producao e custo no trimestre corrente
+Ativos: PETR4 · BRENT
+Como falar: 'saiu no Money Times: Petrobras (PETR4) bate recorde de produção de petróleo e gás no 3T26, com alta de 11,7% e…; confirmar o número no texto antes de repassar'
+Fonte: Money Times 28/10 20h26
+ids: E05-PETR4-12d0ea1495-2026-10-28
+
+[ATENÇÃO] E05 · PETR4 · Petrobras amplia produção em quase 12% e quebra recorde com força do pré-sal
+Estadao · 28/10 20h25 · fonte única · licença: manchete
+Link: https://www.estadao.com.br/em-alta/einvestidor/cenarios-e-mercado/petrobras-amplia-producao-em-quase-12-e-quebra-recorde-com-forca-do-pre-sal/
+Por que importa: evento operacional afeta producao e custo no trimestre corrente
+Ativos: PETR4
+Como falar: 'saiu no Estadao: Petrobras amplia produção em quase 12% e quebra recorde com força do pré-sal; confirmar o número no texto antes de repassar'
+Fonte: Estadao 28/10 20h25
+ids: E05-PETR4-bcfaf6f22d-2026-10-28
+
 Info (só linha no Fechamento):
-· E03 BBAS3 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
-· E05 USDBRL · Ibovespa cai 2,68%, e dólar fecha em leve baixa a R$ 5,34
-· E05 INTC · Intel to report Q3 earnings as chip stocks continue to rebound
-· E05 NVDA · Google parent's revenue jumps 25% as homegrown AI chips take on Nvidia
-· E05 GOOGL · Google Shares Fall 10% as Growth in Search Revenue Slows
-· E05 GOOGL · Shares in Google owner Alphabet plummet on profit miss, ad slowdown
-· E05 GOOGL · Watch Alphabet's Disappointing Earnings Report: Behind the Numbers
-· E05 GOOGL · Alphabet shares fall after revenue miss, cash burn worsens
-· E05 KO · Coca-Cola Co (KO) (Q3 2026) Earnings Call Highlights: Broad-Based Volume Growth and Raised ...
-· E05 USDBRL · Dólar hoje vai a R$ 5,34, com noticiário eleitoral e decisão do Fed que manteve juros
-· E05 AVGO · Broadcom Inc. (AVGO) Laps the Stock Market: Here's Why
-· E05 GOOGL · Alphabet (GOOGL) Q3 Earnings: How Key Metrics Compare to Wall Street Estimates
-· E05 GOOGL · Alphabet Earnings: Why Google Stock Is Falling
-· E05 BBDC4 · Bradesco (BBDC4) lucra R$ 7,1 bi, mas outra conta preocupa os bancos
+· E03 SAPR4 · Comunicado ao Mercado: Esclarecimentos sobre questionamentos da CVM/B3
+· E05 GOOGL · What investors need to know about Alphabet's stock-busting earnings report
+· E05 GOOGL · Microsoft and Alphabet Just Reported Earnings, Putting the AI Boom to the Test
+· E05 NVDA · S&P 500, Nasdaq Futures Dip As Weaker-Than-Expected Alphabet Earnings Reignite AI Spending Worries — GOOGL, MSFT, ORCL, NVDA, MRVL In Focus
+· E05 PETR4 · Petrobras tem recorde na produção média de óleo, LGN e gás no terceiro trimestre
+· E05 DI · Juros de 10 anos sobem a 15,04% e mercado vê Selic mantida
+· E05 USDBRL · Ibovespa tem forte queda e dólar fecha estável em novo ajuste pós-eleição
+· E05 GOOGL · Google Cloud surges as Search slows
+· E05 GOOGL · Investors weigh Alphabet's cloud growth against its AI capex spend
+· E05 GOOGL · Google Cloud Revenue Just Grew 103%, so Why Is the Stock Falling?
+· E05 MRVL · Marvell’s Potential Lumentum Deal Sends LITE Surging, MRVL Sliding After-Hours
+· E05 MRVL · Marvell Is Said to Near Deal for Lumentum In AI-Related Megadeal
+· E05 PETR4 · Produção de petróleo da Petrobras (PETR4) sobe 12,4% no 3º trimestre de 2026
+· E05 BTC · Bitcoin Fell Five Days in a Row While Nearly 15,000 BTC Left Exchanges. Is a Bounce Coming?
+· E05 MRVL · Marvell nears deal for optical supplier Lumentum to bolster hardware, report says
 · T08 ALUP4 entrou em bear técnico: -22% do pico de 52s (R$ 12,84 em 14/10) a R$ 10,03
 · T08 ITUB4 entrou em bear técnico: -21% do pico de 52s (R$ 50,47 em 09/10) a R$ 39,78
 · T08 ITSA4 entrou em bear técnico: -22% do pico de 52s (R$ 16,54 em 06/10) a R$ 12,91
 · T08 SMAL11 entrou em queda de -30% do pico: -32% do pico de 52s (R$ 139,80 em 09/10) a R$ 95,06
+· E05 PETR4 · Petrobras registra produção recorde de 3,51 milhões de barris no 3º tri
 · T01 META fechou abaixo da média de 200 dias pela 2ª sessão: US$ 612,49 vs MM200 US$ 631,29 (-3,0%)
 · T04 EQTL3 fechou na mínima de 52 semanas: R$ 34,06, -13% em 1m e -1,6% em 12m
 · T04 BBDC4 fechou na mínima de 52 semanas: R$ 14,68, -15% em 1m e -12% em 12m
@@ -188,26 +199,29 @@ Info (só linha no Fechamento):
 · T04 SMAL11 fechou na mínima de 52 semanas: R$ 95,06, -13% em 1m e -12% em 12m
 · F01 Real sobe: USD/BRL 5,3457 (+6,4% em 5 sessões)
 
-Suprimidos pelo teto (viram linha do Fechamento): T08-ALUP4--20-2026-10-28 (teto diário de críticos), T08-ITUB4--20-2026-10-28 (teto diário de críticos), T08-ITSA4--20-2026-10-28 (teto diário de críticos), T08-SMAL11--30-2026-10-28 (teto diário de críticos), T01-META-perda-2026-10-28 (teto de atenção), T04-EQTL3-minima-2026-10-28 (teto de atenção), T04-BBDC4-minima-2026-10-28 (teto de atenção), T04-VALE3-minima-2026-10-28 (teto de atenção), T04-AXIA3-minima-2026-10-28 (teto de atenção), T04-BBAS3-minima-2026-10-28 (teto de atenção), T04-SMAL11-minima-2026-10-28 (teto de atenção), F01-USDBRL-queda-2026-10-28 (teto de atenção)
+Suprimidos pelo teto (viram linha do Fechamento): T08-ALUP4--20-2026-10-28 (teto diário de críticos), T08-ITUB4--20-2026-10-28 (teto diário de críticos), T08-ITSA4--20-2026-10-28 (teto diário de críticos), T08-SMAL11--30-2026-10-28 (teto diário de críticos), E05-PETR4-89ad7c0a14-2026-10-28 (teto de noticias), T01-META-perda-2026-10-28 (teto de atenção), T04-EQTL3-minima-2026-10-28 (teto de atenção), T04-BBDC4-minima-2026-10-28 (teto de atenção), T04-VALE3-minima-2026-10-28 (teto de atenção), T04-AXIA3-minima-2026-10-28 (teto de atenção), T04-BBAS3-minima-2026-10-28 (teto de atenção), T04-SMAL11-minima-2026-10-28 (teto de atenção), F01-USDBRL-queda-2026-10-28 (teto de atenção)
 
 Alertas do dia (todos, com status):
-· pendente  C04 IPCA2032 — IPCA+ 2032 volta abaixo de 8,00% real: 7,93% (+9 bps), base 28/10
-· pendente  C05 TESOURO — Pre 2029 PU -4,1% em 5 datas-base · IPCA+ 2032 PU -6,0% em 5 datas-base · IPCA+ 
-· pendente  C07 UST — UST ABRIU: 10y cruzou 5,00% (28/10)
-· pendente  T05 KLBN4 — KLBN4 -5,4% no dia a R$ 3,49: movimento de 5,1 desvios para uma vol de 20 dias d
+· expirado  C04 IPCA2032 — IPCA+ 2032 volta abaixo de 8,00% real: 7,93% (+9 bps), base 28/10
+· expirado  C05 TESOURO — Pre 2029 PU -4,1% em 5 datas-base · IPCA+ 2032 PU -6,0% em 5 datas-base · IPCA+ 
+· expirado  C07 UST — UST ABRIU: 10y cruzou 5,00% (28/10)
+· expirado  T05 KLBN4 — KLBN4 -5,4% no dia a R$ 3,49: movimento de 5,1 desvios para uma vol de 20 dias d
 · linha     T08 ALUP4 — ALUP4 entrou em bear técnico: -22% do pico de 52s (R$ 12,84 em 14/10) a R$ 10,03
 · linha     T08 ITUB4 — ITUB4 entrou em bear técnico: -21% do pico de 52s (R$ 50,47 em 09/10) a R$ 39,78
 · linha     T08 ITSA4 — ITSA4 entrou em bear técnico: -22% do pico de 52s (R$ 16,54 em 06/10) a R$ 12,91
 · linha     T08 SMAL11 — SMAL11 entrou em queda de -30% do pico: -32% do pico de 52s (R$ 139,80 em 09/10)
+· pendente  E05 PETR4 — PETR4 · Produção da Petrobras bate novo recorde no 3º tri e supera pico previsto
+· pendente  E05 PETR4 — PETR4 · Petrobras (PETR4) bate recorde de produção de petróleo e gás no 3T26, co
+· pendente  E05 PETR4 — PETR4 · Petrobras amplia produção em quase 12% e quebra recorde com força do pré
 · pendente  E03 PETR4 — PETR4 · Fato Relevante: FPSO Almirante Tamandaré Recorde de produção de 263 mbpd
 · pendente  E03 SAPR4 — SAPR4 · Fato Relevante: A Companhia de Saneamento do Paraná – Sanepar, em cumpri
 · pendente  E05 PETR4 — PETR4 · Produção de petróleo da Petrobras (PETR4) sobe 12,4% e bate recorde no 3
 · pendente  E05 GOOGL — GOOGL · Earnings call transcript: Alphabet Q3 2026 profit miss sparks 10% after-
-· pendente  C01 DI — A curva ABRIU: F28 +163 bps em 5 pregões · F29 +226 bps em 5 pregões · F30 +242 
-· pendente  C02 DI — Inclinação da curva DI: F35-F28 +20 bps no dia: bear steepening (longo abriu mai
-· pendente  C03 DI — DI em nível: F32 cruzou 15,00% (para cima, agora 15,13%) · F35 cruzou 15,00% (pa
-· pendente  C03 TESOURO — Prefixado em nível: Pre 2031 cruzou 15,50% (agora 15,00%)
-· pendente  C06 TESOURO — Inflação implícita: implícita 2029 +112 bps na semana · implícita 2032 +117 bps 
+· expirado  C01 DI — A curva ABRIU: F28 +163 bps em 5 pregões · F29 +226 bps em 5 pregões · F30 +242 
+· expirado  C02 DI — Inclinação da curva DI: F35-F28 +20 bps no dia: bear steepening (longo abriu mai
+· expirado  C03 DI — DI em nível: F32 cruzou 15,00% (para cima, agora 15,13%) · F35 cruzou 15,00% (pa
+· expirado  C03 TESOURO — Prefixado em nível: Pre 2031 cruzou 15,50% (agora 15,00%)
+· expirado  C06 TESOURO — Inflação implícita: implícita 2029 +112 bps na semana · implícita 2032 +117 bps 
 · linha     T01 META — META fechou abaixo da média de 200 dias pela 2ª sessão: US$ 612,49 vs MM200 US$ 
 · linha     T04 EQTL3 — EQTL3 fechou na mínima de 52 semanas: R$ 34,06, -13% em 1m e -1,6% em 12m
 · linha     T04 BBDC4 — BBDC4 fechou na mínima de 52 semanas: R$ 14,68, -15% em 1m e -12% em 12m
@@ -216,10 +230,10 @@ Alertas do dia (todos, com status):
 · linha     T04 BBAS3 — BBAS3 fechou na mínima de 52 semanas: R$ 16,79, -22% em 1m e -18% em 12m
 · linha     T04 SMAL11 — SMAL11 fechou na mínima de 52 semanas: R$ 95,06, -13% em 1m e -12% em 12m
 · linha     F01 USDBRL — Real sobe: USD/BRL 5,3457 (+6,4% em 5 sessões)
-· pendente  E04 GOOGL — GOOGL · 8-K: 2.02 resultado do trimestre
-· pendente  E05 BBDC4 — BBDC4 · Bradesco (BBDC4): após frustração eleitoral, Itaú BBA corta ação; veja n
-· pendente  E05 BBDC4 — BBDC4 · Itaú BBA corta recomendação do Bradesco e vê recuperação mais difícil
-· pendente  E05 CVX — CVX · If You'd Invested $10,000 in Chevron (CVX) Stock 1 Year Ago, Here's How Mu
+· expirado  E04 GOOGL — GOOGL · 8-K: 2.02 resultado do trimestre
+· expirado  E05 BBDC4 — BBDC4 · Bradesco (BBDC4): após frustração eleitoral, Itaú BBA corta ação; veja n
+· expirado  E05 BBDC4 — BBDC4 · Itaú BBA corta recomendação do Bradesco e vê recuperação mais difícil
+· expirado  E05 CVX — CVX · If You'd Invested $10,000 in Chevron (CVX) Stock 1 Year Ago, Here's How Mu
 · expirado  E05 BTC — BTC · Bitwise Raises Bitcoin Price Target to $1.6M by 2036, Publishes 2027 Bitco
 · expirado  E05 JPM — JPM · JPMorgan downgrades Xylem stock rating on guidance cut, slower orders By I
 · expirado  E01 AMZN — AMZN: resultado sai na próxima sessão (29/10)
@@ -235,4 +249,4 @@ Alertas do dia (todos, com status):
 · linha     T12 WUTI — WUTI (State Street SPDR MSCI World Utilities UCITS ETF (USD)): 6 altas seguidas 
 · linha     F05 BHKP — Celulose (proxy SHFE, fibra longa) -3,3% na semana: 4.522 CNY/t (28/10)
 · linha     F01 USDBRL — Real cai: USD/BRL 5,3633 (+6,7% em 5 sessões) (parcial, intradia)
-· (+77 notícias só manchete, em noticias.md)
+· (+93 notícias só manchete, em noticias.md)
