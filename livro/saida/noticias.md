@@ -1,8 +1,17 @@
-NOTÍCIAS E FATOS · 29/10 16h23
+NOTÍCIAS E FATOS · 29/10 17h23
 
-Pernas: noticias ok 11 novas (18 consultas; descartadas: 392 veículo fora da lista, 32 sem ativo, 0 teto) · cvm ok 0 novos de 13 (8 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 21 novas (18 consultas; descartadas: 386 veículo fora da lista, 32 sem ativo, 10 teto) · cvm ok 1 novos de 14 (8 cias casadas) · sec ok 1 novos em 3 dias
 
-## FATOS RELEVANTES E COMUNICADOS (CVM) (1)
+## FATOS RELEVANTES E COMUNICADOS (CVM) (2)
+
+[INFO] E03 · AXIA3 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
+CVM · entregue 29/10/2026 17:10 · Outros Comunicados Não Considerados Fatos Relevantes
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1581659
+Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; confirma ou nega o que circula
+Ativos: AXIA3
+Como falar: 'a Axia Energia publicou comunicado ao mercado sobre Outros Comunicados Não Considerados Fatos Relevantes'
+Fonte: CVM 29/10
+id: E03-AXIA3-1581659-2026-10-29 · status: linha
 
 [INFO] E03 · KLBN4 · Comunicado ao Mercado: Apresentações a analistas/agentes do mercado
 CVM · entregue 29/10/2026 10:05 · Apresentações a analistas/agentes do mercado
@@ -14,7 +23,23 @@ Fonte: CVM 29/10
 id: E03-KLBN4-1581460-2026-10-29 · status: linha
 
 
-## SEC (8-K, 6-K, 10-Q, 10-K) (1)
+## SEC (8-K, 6-K, 10-Q, 10-K) (2)
+
+[ATENÇÃO] E04 · AMZN · 8-K: 2.02 resultado do trimestre
+SEC EDGAR · aceito 29/10 17h05 · 8-K
+Do documento:
+  – ☐   Table of Contents   TABLE OF CONTENTS   ITEM 2.02.
+  – 3   SIGNATURES   4   EXHIBIT 99.1   EXHIBIT 99.2   Table of Contents   ITEM 2.02.
+  – On October 29, 2026, Amazon.com, Inc. announced its third quarter 2026 financial results.
+  – Exhibit Number Description   99.1 Press Release dated October 29, 2026 announcing Amazon.com, Inc.’s Third Quarter 2026 Financial Results .
+  – 99.2 Information Regarding Non-GAAP Financial Measures.
+  – 104 The cover page from this Current Report on Form 8-K, formatted in Inline XBRL (included as Exhibit 101).
+Link: https://www.sec.gov/Archives/edgar/data/1018724/000101872426000038/amzn-20261029.htm
+Por que importa: resultado do trimestre reprecifica lucro, guidance e multiplo; comparar com o consenso
+Ativos: AMZN
+Como falar: 'a AMZN protocolou 8-K na SEC (2.02 resultado do trimestre)'
+Fonte: SEC EDGAR 2026-10-29
+id: E04-AMZN-26000038-2026-10-29 · status: pendente · íntegra disponível
 
 [INFO] E04 · GOOGL · 10-Q: 10-Q
 SEC EDGAR · aceito 28/10 21h29 · 10-Q
@@ -26,7 +51,79 @@ Fonte: SEC EDGAR 2026-10-29
 id: E04-GOOGL-26000084-2026-10-29 · status: linha
 
 
-## NOTÍCIAS COM MATERIALIDADE (17)
+## NOTÍCIAS COM MATERIALIDADE (23)
+
+[ATENÇÃO] E05 · INTC · Intel crashes as Q3 results, guidance miss Wall Street's forecasts (INTC:NASDAQ)
+Seeking Alpha · 29/10 17h08 · fonte única · licença: manchete
+Link: https://seekingalpha.com/news/4660336-intel-slides-as-q3-results-guidance-miss-wall-streets-forecasts
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: INTC
+Como falar: 'saiu no Seeking Alpha: Intel crashes as Q3 results, guidance miss Wall Street's forecasts (INTC:NASDAQ); confirmar o número no texto antes de repassar'
+Fonte: Seeking Alpha 29/10 17h08
+id: E05-INTC-dda324489d-2026-10-29 · status: pendente
+
+[ATENÇÃO] E05 · INTC · Intel Plunges After PC Slump and Supply Snags Hurt Its Outlook
+Bloomberg · 29/10 17h07 · fonte única · licença: manchete
+Link: https://www.bloomberg.com/news/articles/2026-10-29/intel-outlook-hurt-by-weak-market-for-personal-computer-chips
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: INTC
+Como falar: 'saiu no Bloomberg: Intel Plunges After PC Slump and Supply Snags Hurt Its Outlook; confirmar o número no texto antes de repassar'
+Fonte: Bloomberg 29/10 17h07
+id: E05-INTC-e7f0b14445-2026-10-29 · status: pendente
+
+[ATENÇÃO] E05 · INTC · Intel stock plunges after posting disappointing Q4 outlook
+Yahoo Finance · 29/10 17h07 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Intel (INTC) topped third quarter earnings estimates while the tech giant's fourth quarter forecasts fell shy of expectations.
+  – The stock is plunging in Thursday's extended hours.
+  – Market Domination Overtime Host Jake Conley and Yahoo Finance Markets and Data Editor Jared Blikre dive into Intel's latest earnings results.
+Link: https://finance.yahoo.com/video/intel-stock-plunges-after-posting-disappointing-q4-outlook-200731652.html
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: INTC
+Como falar: 'saiu no Yahoo Finance: Intel stock plunges after posting disappointing Q4 outlook; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 29/10 17h07
+id: E05-INTC-3dd623e64e-2026-10-29 · status: pendente
+
+[ATENÇÃO] E05 · INTC · Intel stock plunges 20% as chipmaker blames PC slowdown for weak guidance
+CNBC · 29/10 17h04 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – However, revenue in Intel's client computing and physical AI group fell 5% from the same quarter a year ago to $8.1 billion, missing estimates, even as data center and AI revenue jumped 78% to $7.3 billion.
+  – Global PC shipments declined 4% in the second quarter from a year earlier due to soaring costs for memory and other components, according to Counterpoint Research.
+  – For the current quarter, Intel said it expects adjusted earnings per share of 25 cents on revenue between $15 billion and $16 billion.
+  – Analysts were expecting revenue of $17.1 billion and EPS of 43 cents, according to LSEG.
+  – "We see the PC slowdown continuing at least through the first half of next year, but we remain optimistic about the opportunities across our broader portfolio," said Intel finance chief David Zinsner, in the release.
+  – "Despite near term headwinds affecting the broader PC industry, we continue to see robust demand for CPUs and more broadly, for all our computing platforms in the long term," CEO Lip-Bu Tan said in the press release.
+Link: https://www.cnbc.com/2026/10/29/intel-intc-q3-earnings-report-2026-.html
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: INTC
+Como falar: 'saiu no CNBC: Intel stock plunges 20% as chipmaker blames PC slowdown for weak guidance; confirmar o número no texto antes de repassar'
+Fonte: CNBC 29/10 17h04
+id: E05-INTC-8ded5fc882-2026-10-29 · status: linha
+
+[ATENÇÃO] E05 · INTC · Intel tops Q3 earnings expectations, but falls short of Q4 outlook on sluggish PC sales
+Yahoo Finance · 29/10 17h01 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Intel (INTC) reported better-than-anticipated third-quarter earnings after the bell Thursday, but Q4 revenue outlook fell short of Wall Street's expectations on declining PC sales.
+  – Intel stock fell more than 20% on the news.
+  – In the fourth quarter, Intel is projecting revenue of $15 billion to $16 billion, well below the $17 billion analysts expected.
+  – The incident is expected to account for roughly $300 million of the Q4 revenue miss.
+  – For Q3, Intel saw adjusted earnings (EPS) of $0.52, ahead of EPS projections of $0.41.
+  – Revenue was in line with estimates of $16.5 billion and up 21% year over year.
+Link: https://finance.yahoo.com/technology/article/intel-tops-q3-earnings-expectations-but-falls-short-of-q4-outlook-on-sluggish-pc-sales-200114917.html
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: INTC
+Como falar: 'saiu no Yahoo Finance: Intel tops Q3 earnings expectations, but falls short of Q4 outlook on sluggish PC sales; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 29/10 17h01
+id: E05-INTC-834f3d726b-2026-10-29 · status: linha
+
+[ATENÇÃO] E05 · BAC · Bank of America Signals Shift to Dividend And Quality ETFs As Stock Selling Intensifies: 3 ETFs to Watch
+TradingView (Reuters) · 29/10 14h35 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/benzinga:54e6ae82e094b:0-bank-of-america-signals-shift-to-dividend-and-quality-etfs-as-stock-selling-intensifies-3-etfs-to-watch/
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: BAC
+Como falar: 'saiu no TradingView (Reuters): Bank of America Signals Shift to Dividend And Quality ETFs As Stock Selling Intensifies:…; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 29/10 14h35
+id: E05-BAC-03ab31361b-2026-10-29 · status: linha
 
 [ATENÇÃO] E05 · PETR4 · Dividendos de até US$ 4,2 bilhões: com operacional tinindo, Petrobras (PETR4) deve 'blindar' os proventos da queda do petróleo
 Seu Dinheiro · 29/10 14h49 · fonte única · licença: resumo
@@ -245,8 +342,23 @@ Fonte: Bloomberg 29/10 01h13
 id: E05-TSLA-626a3a5b3f-2026-10-29 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (129)
+## OUTRAS NOTÍCIAS (só manchete) (144)
 
+· INTC Intel forecast disappoints as Israel fab blast, PC weakness weigh (Reuters) https://www.reuters.com/business/intel-signals-slower-growth-pc-market-remains-under-pressure-2026-10-29/
+· AMZN Amazon Cloud Growth Is Highest in Five Years (The Wall Street Journal) https://www.wsj.com/tech/amazon-amzn-q3-earnings-report-2026-stock-a0b92f17
+· USDBRL Dólar vai a R$ 5,39, com risco fiscal; Ibov perde os 170 mil pontos (UOL Economia) https://economia.uol.com.br/cotacoes/noticias/redacao/2026/10/29/dolar-vai-a-r-539-com-risco-fiscal-ibov-perde-os-170-mil-pontos.htm
+· USDBRL Dólar à vista fecha em alta de 0,76%, a R$5,3875 na venda Por Reuters (Investing.com) https://br.investing.com/news/forex-news/dolar-a-vista-fecha-em-alta-de-076-a-r53875-na-venda-2108679
+· GOOGL Reddit shares sink on weak sales guidance and plans login requirement test as Google search traffic shrinks (CNBC) https://www.cnbc.com/2026/10/29/reddit-rddt-q3-2026.html
+· INTC Intel: Q3 Earnings Snapshot (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/intel-q3-earnings-snapshot-200746164.html
+· USDBRL Dólar sobe e fecha a R$ 5,38 com incertezas fiscais em foco (Money Times) https://www.moneytimes.com.br/dolar-29-10-26-lils/
+· INTC Intel stock falls 17% as it forecasts weaker chip sales (Financial Times) https://news.google.com/rss/articles/CBMihAFBVV95cUxPVGRfMnBXX1pCRzhXbHgyb2lDeXU4bUlqaEQzUElMTVgwUG05SGx0a1JoaDBBT0FUUWo0U1pRUFhGQWgtWlRZYVJqNTNSYW45OTRrY1FLTzR6UGtPckFxZlZoemVic0g0V1lHVklwNzItTGV3WXBmUllkYUZ6c0w0OWtDRGo?oc=5
+· CVX Chevron’s Earnings Will Show How It’s Spending Its Windfall (Barron's) https://news.google.com/rss/articles/CBMiekFVX3lxTE5rR2FEa3FnVFZJVWVtTTdEcnZxYjNsdDJnak9ISER3azR3enJNNmNvQ0RGYXZtWE1Lb0llanBoMFM5QmZ3QnkxUk9ZWHdEYVhBaW11SlFLcjlTRWJQZHV5UlpZXzNrSDQzV1JSbHdlTmZ3ZHJ0cGMyTUdR?oc=5
+· AMZN Amazon earnings watch: AWS growth, capex and margins in focus (Investing.com) https://news.google.com/rss/articles/CBMivgFBVV95cUxPYmRQR25oTEhRQTl0WXpxa1lfZlNaZERZam5UYjcySXFQbnMtbER0RkV6cnNweUw5ZThxVHhKeF9vX2lvSHBLUnZlQzdUSzNqWFJtTTNzTkRFNzlsYjVjNzcxTmtpY2tqby1Udko2UWxIOFpUbkJQZEhJNjVGVl9LTFVTVW5adGZ0eGRkY0c5YnlEdkxKQTcyYlFjSUhQU05JLUNzVFdYdVFRTjlWRHdpZ3hCY1Mxdklyb05IeXNB?oc=5
+· AMD AMD faces high expectations as Jefferies sees limited near-term upside (Yahoo Finance) https://news.google.com/rss/articles/CBMinwFBVV95cUxNeVZua2ZMYVg3cHJ5QllUcWNDbm5MVUFXRERWaF9Pd0lGaF9qbE5mYkJiMmh5dF9yUWg3T0NyLVV2dWRTTmZMcG5UUjUyNl9XcXR4anlfZGNwQ2NmQlE2c2dtclRVQlBBOWdUV0lmUHBkYWdzTWRrLU51alg4cTFRTXNtR3ptOGNwOWEyNV9OQnNKNE9HbklwdUFvMzdDMWM?oc=5
+· DI Selic vai cair? Mercado vê 63,1% de chance de pausa nos juros (Suno Noticias) https://news.google.com/rss/articles/CBMifkFVX3lxTFA4TE5XUWNVblJxcVJiMnpadnZIUFJiT1lRSnNNNnNCSzBveXpQOVRNUkQzZ3JQZEJhSVNyNVhmNmszYzJvazlEMUg0T2pfT1p3NF81dGViN1E3ZnFFNHEyTmRVaDN2anpzVjdFTS03QlBJZUxscjdPc3dNUS1pQdIBgwFBVV95cUxQRU1IajNOYmZTY1g3dENrRE1fMk80QWp3d1VpOWl2YkFVejFQWnc3TTVJaHJ6WGhrNDRxNUsxam5ySWs3NGhSa1BseWpvQTVkd2Q0T2ZPRWdRQVVUSXM4a0doTFNUa1NwUkZVTFpRUWxZZjhnRHZJM2FpMm1aaVg4Ukthaw?oc=5
+· GOOGL Gene Munster Flags Google Earnings As A Warning Sign To Amazon Investors (Yahoo Finance) https://news.google.com/rss/articles/CBMioAFBVV95cUxOby1QZ1JPcVQ1dlNTMDZrQXl4YjNMTVV1V053Q0pNdjZxdmdtWjB4eFdMbU5lbTZOMzFXcXdNV3lsMjZlWlRQMkY4ZUNGbUNIaUlJYy1XQWo1NnYzX2VyN2VuRkNSV3J1cUJHckVjNXRNNEE2dWJyeTA0TDV2TFJrdGtzM3NPb0JCS3FZRDJ2RUVKRXFIRU9EbzZxUFNpVFkw?oc=5
+· AVGO Prediction: This Will Be Broadcom's Stock Price by the End of 2027 (Yahoo Finance) https://news.google.com/rss/articles/CBMiowFBVV95cUxQb2VJbThWN01WZTZsdUFURXpNUE1nRVh5TEE1MEt1OEJiVnYxZ1VnandDTEpJaFdld25XNkNEQkZTMGhnLWJ2c3cyU2hyVlZUWTZCM0llcmpDdkhTQ0VZYmtiUTJEcG5fSkxkRTU1MTJ0SndTSGNwdUVyZnNUT05XNEhwTjlxbmhZdVlYR0FSUkVmeGF2bkkyVEtVbWp4bndJVzl3?oc=5
+· GOOGL Why Alphabet’s stock is on track for its worst day ever after the latest results (MarketWatch) https://news.google.com/rss/articles/CBMivgFBVV95cUxOWlBxRDZhQ1NwcDZLUzFsX1FMNU0tLXRIMmctT3I0cVNQRU9SMzhqN2RwSkhaclJ5dVQ3c3lFUTN2ZmpLbVc0X0QyalZTT0U4ZGNfN2ZyaVkzWFFQUWIwS1lxcGFuYW94SmJyWDZHSDRQOTdhWHE3RU8yWDJOZEtkOEl2UXBGN3FzRi1xVWZHOFVuZEM3U1Q2OFVVdm8xbTkwbnJJZ21TcDh0dlBUWERmMmQtZXJqN0lOSWM1aUtR?oc=5
 · DI Após cinco quedas seguidas, Selic pode ficar parada em novembro; chance já passa de 60% (Money Times) https://www.moneytimes.com.br/apos-cinco-quedas-seguidas-selic-pode-ficar-parada-em-novembro-mlim/
 · PETR4 Com LRCap, Petrobras aumenta em 197% potência térmica contratada (UOL Economia) https://megawhat.uol.com.br/economia-e-politica/empresas/com-lrcap-petrobras-aumenta-em-197-potencia-termica-contratada/
 · GOOGL Market Brief: Google Cloud Doubled - Why Did Alphabet Stock Fall 10%? (Seeking Alpha) https://seekingalpha.com/article/4959536-market-brief-google-cloud-doubled-why-alphabet-fall-10-percent
@@ -292,19 +404,4 @@ id: E05-TSLA-626a3a5b3f-2026-10-29 · status: linha
 · KLBN4 Klabin vê tendência neutra para mercados em que opera (Valor Economico) https://valor.globo.com/empresas/noticia/2026/10/29/klabin-ve-tendencia-neutra-para-mercados-em-que-opera.ghtml
 · BAC Bank of America plants its flag in Wisconsin (Yahoo Finance) https://finance.yahoo.com/small-business/articles/bank-america-plants-flag-wisconsin-161230673.html
 · UST The US Treasuries’ Path to 6% Yields Is Intact (Bloomberg) https://www.bloomberg.com/news/newsletters/2026-10-29/us-treasuries-remain-on-path-to-6-yields-as-inflationary-expectations-rise
-· MU Micron: Priced For A Peak That Keeps Moving Higher (NASDAQ:MU) (Seeking Alpha) https://news.google.com/rss/articles/CBMilAFBVV95cUxQbk1FYjZrZWdKS1RSLWxLQVdSYVR2VEFKMWpZUlpmMDlkMEZDUVRYMDQ3SmRmbGZ2TWdvUFN3RnI0TEdGMlVVR2FfbTZleXhwZThOZHdmd3N5QnlQWVAyc3paLWEta3dKd3VtTk5CY256dG9taV9IV2xobl8xUHZWQ05ya1RjQktnYkl2eXZIOFljRkJC?oc=5
-· USDBRL Ibovespa hoje perde os 170 mil pontos com risco fiscal e inflação dos EUA; dólar sobe mais de 1% (Estadao) https://news.google.com/rss/articles/CBMi7AFBVV95cUxPUzhQcnZGYUl3X2xNTzl0bnBvNkpRTFNVUm1LZkNIRE5XUVd5Tmd6ZkFVZE8xcDN3MDdwNGlxMGk0azJzOGQtMnl3OFBJNXE3QmVXdkpoZW4xbVF4VmYwNm0yQ3FabWpYQm5NRUp4b0ZST3BqNTFTd2k5R1JSMWJBN1lCSmZ1OFdNVnh4enFPdy1TcWtlSmttR1dWNnlETHVBNS0zdDBleWNyVXN0ZXZkTmk5MktiNkV0VThiZGdSR2V4YW1pMHZnbHRRXzdqR0I5SGlCc2ZxVzdaYlR1YmZhRWttdlBDWFdielFaY9IB8gFBVV95cUxOeXFmNWxGc2FzRkxzbVRTaFpfdGtodXZ1dzY0ZTUxYXFldHhKQUJlX1BxNnpERVlrYmltbXo4Zmc3RkRlbHg3emR1eWlVbmRlWWVKQ25xSXFieHJzUTR2b0JUUU0wQ3BJdWVuWHU4ZURoRDlJempTTkV2c243LU1MOFVyaEMxZXZ4STdBTWZqeElpLWZoM1h4VFpHRnBNLXFFVExZZkgtMV9hVWdmaHlUZlQ2bER0YlhnUWRZNnhVc3pRQ1pLbWF1VHNJOGpUNnFGQnFLOVV1TFcwUmxGdm5JaWxQNUVFcXBaZldEOEhvczlzQQ?oc=5
-· GOOGL Alphabet's Cloud Surge Comes With a Massive Catch (Yahoo Finance) https://news.google.com/rss/articles/CBMioAFBVV95cUxObGRQZDA4UlFpVUFHVjFUME9sa1VKaXc1OGVGbmV2cklWd0hnM0JfWURkQ2l4Q0NwQnpiRS1kZDB5aW0wN3VoUzBEMUhZMzFuNlUyQnpBX01ieFpTOWZtMTZNN2tjelBMaU5weFBfZXQ5d25UaHlkeTFaRk43blRYMTU1UHZWb25EbnpNd3lmRnVXU1pQRF9qS0ZhMUMzMGZ4?oc=5
-· TSLA Tesla vs. Ford: Which Stock Has an Edge After Q3 Earnings? (TradingView (Reuters)) https://news.google.com/rss/articles/CBMisAFBVV95cUxNV01ONGQ5U1prODJlSThna3oybGRDbDBsNG9XTXlBUTVTb3hmM24wWFVXQWNqUTd0QlZCOW1BYjBsangtaFhpeE5iWVNORUs3Q3pfZjhKQWxxWjdqNDRCMy12dWpua05nOTRKOGloN2RYVTh5VDZtQUtJQVkzdjNGYUMtZEhOclhpT1pMem4zVEFfRUtXY1pkOG1FZXpxN1c3NS02Yk81WVdRUFhfdjZyUw?oc=5
-· GOOGL Amazon Slides 3% as Alphabet’s 12% Plunge Raises Stakes for AWS Report; Meta Rises 3%, Microsoft Pulls Back (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/amazon-slides-3-alphabet-12-162243527.html
-· UST U.S. Treasury, European Bond Yields Fall After Fed, ECB Hold (The Wall Street Journal) https://www.wsj.com/finance/commodities-futures/u-s-treasury-yields-fall-as-investors-digest-fed-meet-focus-shifts-to-ecb-d29ffbec
-· VALE3 Vale: balanço do 3T26 deve mostrar queda no Ebitda e pressão sobre margens (ADVFN) https://br.advfn.com/jornal/2026/10/vale-balanco-do-3t26-deve-mostrar-queda-no-ebitda-e-pressao-sobre-margens
-· AMZN Amazon to report Q3 earnings after the bell with AI spend under scrutiny (CNBC) https://www.cnbc.com/2026/10/29/amazon-amzn-q3-earnings-report-2026.html
-· KLBN4 Klabin vê El Niño pressionando operações até 1º tri de 2027 (InfoMoney) https://www.infomoney.com.br/mercados/klabin-ve-el-nino-pressionando-operacoes-ate-1o-tri-de-2027/
-· GOOGL Alphabet heads for a $500 billion drop in market value, the biggest in its history (Yahoo Finance) https://finance.yahoo.com/markets/article/alphabet-heads-for-a-500-billion-drop-in-market-value-the-biggest-in-its-history-134824763.html
-· VALE3 De temor fiscal à espera por Vale: os fatores que fazem o Ibovespa cair 1% nesta 5ª (InfoMoney) https://www.infomoney.com.br/mercados/de-temor-fiscal-a-espera-por-vale-os-fatores-que-fazem-ibovespa-cair-1-nesta-5a/
-· BTC Bitcoin price jumps to $81.5K as US GDP data beats expectations (TradingView (Reuters)) https://www.tradingview.com/news/cointelegraph:2bf6e7a8a094b:0-bitcoin-price-jumps-to-81-5k-as-us-gdp-data-beats-expectations/
-· GOOGL Is Alphabet a Stock to Avoid or a Once-in-a-Decade Buy on the Dip? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/alphabet-stock-avoid-once-decade-152503340.html
-· PETR4 Petrobras tem recordes de produção de óleo, gás e diesel no 3º tri (Poder360) https://www.poder360.com.br/poder-economia/petrobras-tem-recordes-de-producao-de-oleo-gas-e-diesel-no-3o-tri/
-· CVX Exxon Mobil and Chevron head into Q3 earnings boosted by crude rally, Iran conflict (TradingView (Reuters)) https://www.tradingview.com/news/seekingalpha:662df173e094b:0-exxon-mobil-and-chevron-head-into-q3-earnings-boosted-by-crude-rally-iran-conflict/
-· (+69 manchetes; lista completa em eventos/noticias.json)
+· (+84 manchetes; lista completa em eventos/noticias.json)
