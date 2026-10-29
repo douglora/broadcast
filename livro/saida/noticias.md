@@ -1,8 +1,8 @@
-NOTÍCIAS E FATOS · 29/10 18h14
+NOTÍCIAS E FATOS · 29/10 20h12
 
-Pernas: noticias ok 16 novas (18 consultas; descartadas: 418 veículo fora da lista, 33 sem ativo, 14 teto) · cvm ok 1 novos de 15 (9 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 23 novas (18 consultas; descartadas: 373 veículo fora da lista, 26 sem ativo, 15 teto) · cvm ok 1 novos de 16 (9 cias casadas) · sec ok 0 novos em 3 dias
 
-## FATOS RELEVANTES E COMUNICADOS (CVM) (3)
+## FATOS RELEVANTES E COMUNICADOS (CVM) (4)
 
 [ATENÇÃO] E03 · MRVE3 · Comunicado ao Mercado: MRVE3) Companhia disponibiliza ao mercado comunicado recebido pela M&G Investments para os fins do disposto no art. 12 da Instrução CVM nº 44/21, inf…
 CVM · entregue 29/10/2026 17:57 · Aquisição/Alienação de Participação Acionária Relevante / Declaração de Aquisição de Participação Acionária Relevante
@@ -19,6 +19,15 @@ Ativos: MRVE3
 Como falar: 'a MRV publicou comunicado ao mercado sobre MRVE3) Companhia disponibiliza ao mercado comunicado recebido pela M&…'
 Fonte: CVM 29/10
 id: E03-MRVE3-1581810-2026-10-29 · status: pendente · íntegra disponível
+
+[INFO] E03 · PETR4 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
+CVM · entregue 29/10/2026 18:19 · Outros Comunicados Não Considerados Fatos Relevantes
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1581827
+Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; confirma ou nega o que circula
+Ativos: PETR4
+Como falar: 'a Petrobras publicou comunicado ao mercado sobre Outros Comunicados Não Considerados Fatos Relevantes'
+Fonte: CVM 29/10
+id: E03-PETR4-1581827-2026-10-29 · status: linha
 
 [INFO] E03 · AXIA3 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
 CVM · entregue 29/10/2026 17:10 · Outros Comunicados Não Considerados Fatos Relevantes
@@ -67,7 +76,114 @@ Fonte: SEC EDGAR 2026-10-29
 id: E04-GOOGL-26000084-2026-10-29 · status: linha
 
 
-## NOTÍCIAS COM MATERIALIDADE (26)
+## NOTÍCIAS COM MATERIALIDADE (34)
+
+[ATENÇÃO] E05 · VALE3 · Vale vê lucro despencar 53% no 3T26, apesar de receita bilionária em alta; veja balanço
+Estadao · 29/10 19h40 · fonte única · licença: manchete
+Link: https://www.estadao.com.br/einvestidor/cenarios-e-mercado/vale-ve-lucro-despencar-53-no-3t26-apesar-de-receita-bilionaria-em-alta-veja-balanco/
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: VALE3
+Como falar: 'saiu no Estadao: Vale vê lucro despencar 53% no 3T26, apesar de receita bilionária em alta; veja balanço; confirmar o número no texto antes de repassar'
+Fonte: Estadao 29/10 19h40
+id: E05-VALE3-c041b6b454-2026-10-29 · status: pendente
+
+[ATENÇÃO] E05 · VALE3 · Vale registra queda de 53% no lucro líquido no terceiro trimestre
+O Globo · 29/10 19h38 · fonte única · licença: manchete
+Link: https://oglobo.globo.com/economia/negocios/noticia/2026/10/29/vale-registra-queda-de-53percent-no-lucro-liquido-no-terceiro-trimestre.ghtml
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: VALE3
+Como falar: 'saiu no O Globo: Vale registra queda de 53% no lucro líquido no terceiro trimestre; confirmar o número no texto antes de repassar'
+Fonte: O Globo 29/10 19h38
+id: E05-VALE3-1958f5d73d-2026-10-29 · status: pendente
+
+[ATENÇÃO] E05 · VALE3 · Lucro líquido da Vale (VALE3) cai 54% no 3T26, para US$ 1,25 bilhão, abaixo das expectativas do mercado
+Money Times · 29/10 19h24 · fonte única · licença: integral
+Do texto:
+  – Lucro líquido da Vale (VALE3) cai 54% no 3T26, para US$ 1,25 bilhão, abaixo das expectativas do mercado A Vale (VALE3) sentiu os efeitos da queda nos preços do minério de ferro e da alta do petróleo no terceiro trimestr…
+  – A mineradora divulgou nesta quinta-feira (29) o balanço do período, que mostrou um lucro líquido de US$ 1,255 bilhão, queda de 54% em relação ao mesmo intervalo do ano passado.
+  – O número veio abaixo das expectativas de mercado, que apontavam para US$ 1,508 bilhão, de acordo com o consenso de mercado compilado pela Bloomberg.
+  – O Ebitda (lucro antes de juros, impostos, depreciação e amortização) proforma caiu 20% menor em relação ao ano passado, para US$ 3,508 bilhões — um pouco acima do esperado, de US$ 3,324 bilhões, segundo o mesmo compilad…
+  – A receita líquida em vendas entre junho e setembro ficou em US$ 10,599 bilhões, avanço de 2% ano a ano.
+  – Segundo a mineradora, o desempenho pode ser explicado pela redução dos preços realizados de minério de ferro — que caíram 10% em base anual e trimestral, para US$ 85,1 por tonelada.
+Link: https://www.moneytimes.com.br/lucro-liquido-da-vale-vale3-cai-54-no-3t26-para-us-125-bilhao-abaixo-das-expectativas-do-mercado-bdap/
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: VALE3
+Como falar: 'saiu no Money Times: Lucro líquido da Vale (VALE3) cai 54% no 3T26, para US$ 1,25 bilhão, abaixo das expectati…; confirmar o número no texto antes de repassar'
+Fonte: Money Times 29/10 19h24
+id: E05-VALE3-b98d9a1a26-2026-10-29 · status: pendente · íntegra disponível
+
+[ATENÇÃO] E05 · INTC · Intel: Guidance Disaster Causes 20%+ Price Slump (NASDAQ:INTC)
+Seeking Alpha · 29/10 19h10 · fonte única · licença: manchete
+Link: https://seekingalpha.com/article/4959752-intel-guidance-disaster-causes-20-percent-plus-price-slump
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: INTC
+Como falar: 'saiu no Seeking Alpha: Intel: Guidance Disaster Causes 20%+ Price Slump (NASDAQ:INTC); confirmar o número no texto antes de repassar'
+Fonte: Seeking Alpha 29/10 19h10
+id: E05-INTC-754a90d880-2026-10-29 · status: linha
+
+[ATENÇÃO] E05 · INTC · Intel Server Sales Jump 78%, Q4 Outlook Dims: Rapid Earnings Reaction
+Yahoo Finance · 29/10 18h09 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Intel (NASDAQ: INTC) posted its strongest data center revenue growth in 15 years, then forecast lower revenue, gross margin, and earnings for the fourth quarter.
+  – Shares fell about 18% in early after-hours trading.
+  – Key numbers - Revenue: $16.5 billion, up 21% from a year ago.
+  – Most investors think they missed the AI boat because they didn't buy Nvidia in 2005.
+  – But according to our analysts, we're only at the end of "Act 1"—the R&D phase.
+  – "Act 2" is the global rollout.
+Link: https://finance.yahoo.com/markets/stocks/articles/intel-server-sales-jump-78-210915850.html
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: INTC
+Como falar: 'saiu no Yahoo Finance: Intel Server Sales Jump 78%, Q4 Outlook Dims: Rapid Earnings Reaction; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 29/10 18h09
+id: E05-INTC-98e045f7c6-2026-10-29 · status: linha
+
+[ATENÇÃO] E05 · KO · Jim Cramer Says Buy Coca-Cola. Is Its Dividend Still Worth It After a 35% Rally?
+Yahoo Finance · 29/10 18h07 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Quick Read - Coca-Cola beat Q3 estimates with $0.91 adjusted EPS and raised full-year free cash flow guidance to at least $13 billion, its 6th consecutive EPS beat.
+  – - KO trades at roughly 30 times trailing earnings with a ~2.3% yield, as shares have surged 35% year to date, leaving new buyers at a premium.
+  – Cramer answered: "Broadcom has been one of the greatest performers of all time, but so is Coca-Cola.
+  – I wouldn't shoot Broadcom, and I would buy Coca-Cola." The call came one day after a strong earnings report.
+  – Coca-Cola shares have also risen 34.76% year to date, so retirees face a real question.
+  – Does the dividend still justify buying at $92.41?
+Link: https://finance.yahoo.com/markets/stocks/articles/jim-cramer-says-buy-coca-210737432.html
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: KO
+Como falar: 'saiu no Yahoo Finance: Jim Cramer Says Buy Coca-Cola. Is Its Dividend Still Worth It After a 35% Rally?; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 29/10 18h07
+id: E05-KO-19e9286cef-2026-10-29 · status: linha
+
+[ATENÇÃO] E05 · AMZN · Amazon shares fall as weaker Q4 outlook offsets 39% AWS growth
+Yahoo Finance · 29/10 17h33 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Amazon.com Inc (NASDAQ:AMZN) shares fell around 6% on Thursday evening after the e-commerce and cloud computing giant issued fourth-quarter guidance that fell short of expectations, overshadowing strong growth at Amazon…
+  – The company reported third-quarter revenue of $201.9 billion, up 12% year over year but slightly below analyst expectations of $202.3 billion.
+  – Earnings per share of $1.89 also missed the $1.96 consensus estimate, despite operating income of $28.1 billion beating forecasts of $26.2 billion.
+  – AWS was a bright spot, with sales rising 39% to $46 billion, its fastest growth rate in nearly five years and ahead of estimates of $45.4 billion.
+  – AWS operating income reached $17.8 billion, while the cloud division's annualized revenue run rate exceeded $184 billion.
+  – However, Amazon's fourth-quarter revenue forecast of $240 billion to $247 billion came in below the $244.5 billion consensus estimate at the midpoint.
+Link: https://finance.yahoo.com/markets/stocks/articles/amazon-shares-fall-weaker-q4-203300795.html
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: AMZN
+Como falar: 'saiu no Yahoo Finance: Amazon shares fall as weaker Q4 outlook offsets 39% AWS growth; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 29/10 17h33
+id: E05-AMZN-135f8a545c-2026-10-29 · status: linha
+
+[ATENÇÃO] E05 · INTC · Intel tops Q3 earnings estimates, but falls short of Q4 outlook on sluggish PC sales as stock plunges 20%
+Yahoo Finance · 29/10 17h01 · + Financial Times · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Intel stock fell more than 20% on the news.
+  – In the fourth quarter, Intel is projecting revenue of $15 billion to $16 billion, well below the $17 billion analysts expected.
+  – The incident is expected to account for roughly $300 million of the Q4 revenue miss.
+  – For Q3, Intel saw adjusted earnings (EPS) of $0.52, ahead of EPS projections of $0.41.
+  – Revenue was in line with estimates of $16.5 billion and up 21% year over year.
+  – Intel's Intel Product segment, which includes sales of its data center and PC processors, came in at $15.4 billion versus an estimate of $15.5 billion.
+Link: https://finance.yahoo.com/technology/article/intel-tops-q3-earnings-estimates-but-falls-short-of-q4-outlook-on-sluggish-pc-sales-as-stock-plunges-20-200949548.html
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: INTC
+Como falar: 'saiu no Yahoo Finance: Intel tops Q3 earnings estimates, but falls short of Q4 outlook on sluggish PC sales as s…; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 29/10 17h01
+id: E05-INTC-5044891a51-2026-10-29 · status: linha
 
 [ATENÇÃO] E05 · INTC · INTC Stock Tumbles After-Hours After Q3 PC Slump And Supply Bottlenecks Cloud Fourth-Quarter Guidance
 Yahoo Finance · 29/10 17h54 · fonte única · licença: resumo
@@ -392,8 +508,23 @@ Fonte: Bloomberg 29/10 01h13
 id: E05-TSLA-626a3a5b3f-2026-10-29 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (157)
+## OUTRAS NOTÍCIAS (só manchete) (172)
 
+· VALE3 Lucro da Vale encolhe 53% com minério mais barato; cobre evita 'estrago' maior (Exame) https://exame.com/invest/mercados/lucro-da-vale-encolhe-53-com-minerio-mais-barato-cobre-evita-estrago-maior/
+· VALE3 Vale (VALE3) produz 88,4 mi de toneladas de minério de ferro no 3T, queda anual de 6% (InfoMoney) https://www.infomoney.com.br/mercados/vale-vale3-produz-884-mi-de-toneladas-de-minerio-de-ferro-no-3o-tri-queda-de-6/
+· JPM JPMorgan Is Bullish on Palantir, Predicts Over 30% Rally on Strong AI Demand (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:fd50d8c03094b:0-jpmorgan-is-bullish-on-palantir-predicts-over-30-rally-on-strong-ai-demand/
+· USDBRL Dólar sobe 0,76% e fecha a R$ 5,39 em dia de cautela (Agencia Brasil) https://news.google.com/rss/articles/CBMipwFBVV95cUxPR1dLVktoUEpNb280U0RESGFmUjVtNXZ0RkF6c2FaNU5NYUE4dEpFWkRaZkduamtXRFVhNlpaM1laRWJFeDdZc0NKNk9LRVVSQXhRczM4SmhoQTFVVHp6aHdlc1RjdVhpOU9QVkhPY2xfSWE4ZjIxbWRYVUVBTmJyS2hLcEl5Z2dZN2tuczNKWlVNNGtGeFdqQnZtSHpNNDA2WTlGczh1SQ?oc=5
+· VALE3 Vale Iron Ore Output Trails Forecast on Serra Norte Challenges (Bloomberg) https://news.google.com/rss/articles/CBMirwFBVV95cUxOdm5SdGg1SXB6a1NNM2VQUTNXSWJ2RmdBMjV3R2dpRDdEcUlpWkVNMmNVN05kaXBsR0pMQjY5azItcEdOSklrcU1ZTHh5V0lnSHl3Z1VweHlfUFI3X0lMQzQ4Si1wV096aXhYQWJWUGJnWi1KeGNUVVQ3YXNNY0RZREdoTjNUTWVic0dMN1JYUzBoOUtKUFFuQkdQZHNzbnNJM25QZ3ZxODF0WDA1Z19V?oc=5
+· PETR4 Petrobras termina perfuração do Morpho e encontra petróleo em 3 camadas (Poder360) https://news.google.com/rss/articles/CBMisgFBVV95cUxPQ25RSVhJUW5fVlFvYkRiTU5GbDdlUDR0NkdPcmZsSlNkdEFpRk9sN2Q5RDZLalk0VzBheVd5bmVMaTdtT01VdDE5WGxvdmZScmVsSjJoU0l0UllVcVJ0TjNfb3VOdFAxRkdOdmZRaTdpR21LWGJGdVEwNEV0V3JUOEdmWjBOTFZDcEZqV1c2ZkxDanVlTlMxYUY3WVJ0VmZhLWFPa3Y0cU03X0k4X1VXWXV3?oc=5
+· AMZN Amazon cloud business accelerates but shares drop on profit miss (Yahoo Finance) https://news.google.com/rss/articles/CBMiqAFBVV95cUxPa2JfU2pfZDlNWjViWE9fb0x5cmlYZTNNTFlrcjZoeGltRWwyM1I0eDVZUVlwYW53dDNTOHNKQUNlUHR2QTZfMU9vd2FBc25VcmVGc2ctZHluZmFQVHJVUGRRSkJoalVRSUh3UndxZV9JMmM1RFNlSl8wcE1RQ0hBd21VZ2Y0cFhDWDViOTUtMnZvVm5MZEg4cjZVVWxCRUVKaXI2REhIYXQ?oc=5
+· DI A Selic não vai mais cair? Pausa nos cortes dos juros já lidera apostas para o próximo Copom e muda cenário da renda fixa (Seu Dinheiro) https://news.google.com/rss/articles/CBMi3AFBVV95cUxNZ3RuTk94VWFEUmFTRlUzMmlfSmVVLVhiSHVOVkdYMEQyc1k4Q3d4dW8zZzRxNWVVbTNMc0FXUkVPVTdoVHgzeENXMkVfV09SWkxfYTFvY3pvNGlxQkx5M2RYZmFNZHNpUUtsYWRZVXdSaFFkM1JZbUtQUG0wZFhQVGRIRS1ZbFcyY2NiMHVyNGVwZWhlUDN4ZU11LW83M2hSNmxueGxHT21lM2NacUFYY0JYV0FYcHN6Q0tBMkh4Q0tfOER2cl90SGFBZ0xocFFxVWFvUEtSbGNoRjg5?oc=5
+· INTC Intel CEO: Clearwater Forest, Our First Intel 18A Server Product, Is Shipping For Revenue - Conf Call (TradingView (Reuters)) https://news.google.com/rss/articles/CBMi-gFBVV95cUxPLVhjMVlfdy1SQm1JUkw2OHJYX2tucU5GbXlIUGJBckQ5R2xNXy1sbWl4djZOLU81ajJRYnBMTUhkTzdsTzRnUzJrV2REbVlXNHJ2S3BLN0laUE9ON2EzS1VsaXJzd2VXdzVoX0xaWkFhMkxXVDFoVkZMVk5DTklib3R6T095VmcwbmdVMXZVcVhrUm9hajhSTWlnVEczbUk2WmZtSGpnQmVjbzhSckhDZUw3TlY1WHhpZVNuSHlXZkNFZjEyYjN4Zi1MN25oSHByeUpYOVU0cnJnSDRERnY5UHRPZGhjT1hRQ21iNkZlQmRiemJsTjNUT2ZR?oc=5
+· PETR4 Petrobras anuncia terceira descoberta de petróleo na Margem Equatorial (CNN Brasil) https://news.google.com/rss/articles/CBMiqgFBVV95cUxQMjJnQng3QTAwa0wzUGw5eVMzdlQ1NkFTc0xrRkNRcVdmMzBVRTR6NnJkc01ROE1jbGphTVpnRHJQUzVaUWdsdDRFQWhmSEtYdlpFRkJNdjNjQ25tUmxHVi1XcHdXdDV2RHlsNEl5UWRrVUZxa2JRUERRblV0OEpUOGJGaWFfc1BMQ01rRHFVZ2NFZTVmTmxsYUg2ZTRQQVBnUms4M2xyWGtIUQ?oc=5
+· INTC Intel Earnings: 2 Reasons the Stock Is Down So Much (Barron's) https://news.google.com/rss/articles/CBMid0FVX3lxTE9yZXdLdExYS3hHN19GX0xPbTJSa0h4MTUyUm9oejU5UGEyaVl0RmhnaGMzdXBjbmJtbnNhMGdEYXpPaHdTMzk1d1hZM3BXLVhOdEJ0QzVzTExWNzFZbzZRSmd3dkZfTkdsOC10eXN4UkhpTjAwTVZn?oc=5
+· AMZN Amazon Earnings: Why the Stock Is Tanking (Barron's) https://news.google.com/rss/articles/CBMieEFVX3lxTE96R2RxbG5rWHFDbXBTWWIxck52WUluUHBJeWZvUEhvRHJyVzNWTkhwckYwRmxIT2doaGt3ZFpwLXRHSzdKT0pNd3Nub1pYendOYllfbXA5R3FzdmtNeEJYdW1OWHpOQV94d2JYQW1PY0dBbjZlUDJEeg?oc=5
+· AMZN Amazon Stock Drops on Wall Street Miss, Despite Biggest Cloud Growth in Years (The Wall Street Journal) https://news.google.com/rss/articles/CBMigAFBVV95cUxNVHZWSE5vTFZGTUM4YWNYVnpyc0hKUC1jbzN3c1g5c1BLTlRzcU9VdHlLOWI2eFdxWTJOVmc3YnNqUmhQeDM3V1dVdl9Pb190OThLWVRwLWJuUUpBVlRvQXZjcFV0YV9wTUhvZ2U2MDg5d0pNRlZ6bGowd2MtaVhGRQ?oc=5
+· USDBRL Dólar sobe a R$ 5,39 e Ibovespa tem quarta queda consecutiva (UOL Economia) https://news.google.com/rss/articles/CBMizAFBVV95cUxON1phNnZsLVlTbXhfRGN3c0JEWmFzbFRpZFlwdnpIQWxJYncwQkFGMHQ4QTlZVGtWZU1pV1FvWUJIakF3YnpOaVl3T1N0RVdKUkgyajNLekQ4NEUzNzI2MEp3Q2pEaTJuQnhiTXdoSEtVQklUNG1CMVk5V19uWDF3Q2FmeWhMMHlRNk54RU5aMGQtM1pRbnBVdnBOa1hiSXdBUUtqbFFfWGk0QnU2cTgyN2JjVHZQQW05c3hxS0MxRjFNbVBZMTRPOVRzQjE?oc=5
+· AMZN Amazon slides on light fourth-quarter sales estimates, high cash burn (Reuters) https://news.google.com/rss/articles/CBMiswFBVV95cUxNQXhDSjU4RmlrZmUyT0E5dzJNbmJNaXBBdGhndktXeGUtZVItTWlpNDBZcXR5LTZDMjFOdzdXenRpTnhNd01pZXBXX0V0OTVlYkMtVlJnN2l4YS1QeENxeWlzUUN6bDZkeThpc1VBMUZDQjFYcGxrQWFrVzBVOXdueV9Tb0drZjZ4T3JYWmRXS2MwWnMwMGpoT05FU1lUVWhRbXlPZEpYUjZQbnlrQWh3SGdsTQ?oc=5
 · USDBRL Ibovespa cai 1,06%; dólar sobe 0,89% e vai a R$ 5,387 (Poder360) https://www.poder360.com.br/poder-economia/ibovespa-cai-106-dolar-sobe-089-e-vai-a-r-5387/
 · INTC Weak quarter for Intel sends shivers through cooling chip stocks (Reuters) https://www.reuters.com/business/weak-quarter-intel-sends-shivers-through-cooling-chip-stocks-2026-10-29/
 · AMZN Amazon shares sink as spending on AI overshadows growth in cloud unit (Fortune) https://fortune.com/2026/10/29/amazon-shares-sink-as-spending-on-ai-overshadows-growth-in-cloud-unit/
@@ -439,19 +570,4 @@ id: E05-TSLA-626a3a5b3f-2026-10-29 · status: linha
 · USDBRL Dólar vai a R$ 5,41 e Bolsa a menos de 170 mil pontos com pressão de juros (UOL Economia) https://economia.uol.com.br/cotacoes/noticias/redacao/2026/10/29/dolar-e-bolsa-29-de-outubro-de-2026.ghtm
 · MU Micron and SanDisk Fall as Samsung Selloff Hits Memory Stocks (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:5add7fd29094b:0-micron-and-sandisk-fall-as-samsung-selloff-hits-memory-stocks/
 · MRVL Marvell Sinks 12% as Investors Balk at Reported Lumentum Megadeal Talks (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/marvell-sinks-12-investors-balk-140241515.html
-· KLBN4 Klabin vê tendência de neutralidade em todos os mercados, com exceção de kraftliner Por Reuters (Investing.com) https://br.investing.com/news/stock-market-news/klabin-ve-tendencia-de-neutralidade-em-todos-os-mercados-com-excecao-de-kraftliner-2108199
-· USDBRL Dólar dispara: 6 ações podem sair ganhando com a alta da moeda (Suno Noticias) https://www.suno.com.br/noticias/dolar-alto-acoes-beneficiadas/
-· INTC Intel Stocks Decline 2.8% Before Its Margin and Earnings Check (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/intel-stocks-decline-2-8-181718281.html
-· AMZN Amazon earnings live: AI growth takes center stage (Yahoo Finance) https://finance.yahoo.com/markets/stocks/live/amazon-earnings-live-ai-growth-takes-center-stage-173000277.html
-· UST Did the Fed make a mistake with its October rate pause? The Treasury could help save the day. (MarketWatch) https://www.marketwatch.com/story/did-the-fed-make-a-mistake-with-its-october-rate-pause-the-treasury-could-help-save-the-day-77d84993
-· USDBRL Euro sobe em relação ao dólar após BCE manter taxas de juros (CNN Brasil) https://www.cnnbrasil.com.br/economia/money/mercado/euro-sobe-em-relacao-ao-dolar-apos-bce-manter-taxas-de-juros/
-· BTC Bitcoin CPI falls 19.30% in September but rises 43.75% year over year (TradingView (Reuters)) https://www.tradingview.com/news/cryptobriefing:dcbd90bb6094b:0-bitcoin-cpi-falls-19-30-in-september-but-rises-43-75-year-over-year/
-· MMM 3M vs. Illinois Tool: Which Industrial Conglomerate Stock is a Stronger Pick? (TradingView (Reuters)) https://www.tradingview.com/news/zacks:ed4d45d53094b:0-3m-vs-illinois-tool-which-industrial-conglomerate-stock-is-a-stronger-pick/
-· USDBRL Dólar hoje avança mais de 1% e real é a moeda mais fraca do dia (Valor Economico) https://valor.globo.com/financas/noticia/2026/10/29/dolar-sobe-ante-o-real-em-linha-com-pares-emergentes-apos-dados-dos-eua.ghtml
-· GOOGL Alphabet falls 12%, putting it on course for its biggest ever post-earnings drop (CNBC) https://www.cnbc.com/2026/10/29/alphabet-google-microsoft-msft-shares-today-earnings.html
-· ETH Ethereum ETH (ETH-CAD) Live Price, News, Chart & Price History (Yahoo Finance) https://ca.finance.yahoo.com/quote/ETH-CAD/
-· GOOGL Asia stocks mixed as Alphabet, Samsung results disappoint; more tech earnings loom (Investing.com) https://uk.investing.com/news/stock-market-news/asia-stocks-fall-as-alphabet-samsung-results-disappoint-more-tech-earnings-loom-4939766
-· BRENT UBS’s new Brent price forecasts as Middle East supply risk supports oil prices By Investing.com (Investing.com) https://news.google.com/rss/articles/CBMizAFBVV95cUxNMUtVRkRCdTFnVzFxR2FjTnJLVmtPVjY0T3FZcEJmRHFQMnNneGFQMkxIMmllRHVKT195VjRsVmFMdGlGbFhwYWtHcXptSmxRaS0zajBrTWFaTjNXZVlSVXhHNUJ4RTllYTVYYlBoV1NPX19qUDBUZ1lpY3FCT2lhSmYwS2tLeDhCV0ozTTQ0SktNLTdjanBBT1g4RWppX0tUTlNEM1JCbk84Q3EzNnA1dS0wSVFLWEQ5OHYzTDZpQW5WSmFkTnFTcFA1bDk?oc=5
-· USDBRL Reeleição de Lula: Ibovespa derrete quase 14% e dólar tem maior oscilação desde janeiro de 1999 (Estadao) https://www.estadao.com.br/em-alta/einvestidor/cenarios-e-mercado/ibovespa-hoje-fim-das-eleicoes-abre-nova-disputa-no-mercado-o-que-esta-em-jogo/
-· ETH XRP, Ethereum, Solana Are 3 of the Top 5 Altcoins, Expert Says: And the Other 2? (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:d67a8f07e094b:0-xrp-ethereum-solana-are-3-of-the-top-5-altcoins-expert-says-and-the-other-2/
-· (+97 manchetes; lista completa em eventos/noticias.json)
+· (+112 manchetes; lista completa em eventos/noticias.json)
