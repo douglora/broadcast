@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 28/10 21h47
+NOTÍCIAS E FATOS · 29/10 08h33
 
-Pernas: noticias ok 18 novas (18 consultas; descartadas: 401 veículo fora da lista, 23 sem ativo, 12 teto) · cvm ok 1 novos de 12 (8 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 22 novas (18 consultas; descartadas: 413 veículo fora da lista, 18 sem ativo, 52 teto) · cvm ok 0 novos de 12 (8 cias casadas) · sec ok 1 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (4)
 
@@ -18,7 +18,7 @@ Por que importa: fato relevante e o que a propria companhia julga capaz de mover
 Ativos: PETR4
 Como falar: 'a Petrobras publicou fato relevante sobre FPSO Almirante Tamandaré Recorde de produção de 263 mbpd em jul ho de…'
 Fonte: CVM 28/10
-id: E03-PETR4-1581329-2026-10-28 · status: pendente · íntegra disponível
+id: E03-PETR4-1581329-2026-10-28 · status: expirado · íntegra disponível
 
 [ATENÇÃO] E03 · SAPR4 · Fato Relevante: A Companhia de Saneamento do Paraná – Sanepar, em cumprimento ao disposto na Resolução CVM nº 44/2021 , comunica a seus acionistas, investidores e ao…
 CVM · entregue 28/10/2026 18:39
@@ -30,7 +30,7 @@ Por que importa: fato relevante e o que a propria companhia julga capaz de mover
 Ativos: SAPR4
 Como falar: 'a Sanepar publicou fato relevante sobre A Companhia de Saneamento do Paraná – Sanepar, em cumprimento ao disp…'
 Fonte: CVM 28/10
-id: E03-SAPR4-1581303-2026-10-28 · status: pendente · íntegra disponível
+id: E03-SAPR4-1581303-2026-10-28 · status: expirado · íntegra disponível
 
 [INFO] E03 · SAPR4 · Comunicado ao Mercado: Esclarecimentos sobre questionamentos da CVM/B3
 CVM · entregue 28/10/2026 20:19 · Esclarecimentos sobre questionamentos da CVM/B3
@@ -51,7 +51,7 @@ Fonte: CVM 28/10
 id: E03-BBAS3-1581266-2026-10-28 · status: linha
 
 
-## SEC (8-K, 6-K, 10-Q, 10-K) (2)
+## SEC (8-K, 6-K, 10-Q, 10-K) (3)
 
 [ATENÇÃO] E04 · GOOGL · 8-K: 2.02 resultado do trimestre
 SEC EDGAR · aceito 28/10 17h01 · 8-K
@@ -62,7 +62,16 @@ Por que importa: resultado do trimestre reprecifica lucro, guidance e multiplo; 
 Ativos: GOOGL
 Como falar: 'a GOOGL protocolou 8-K na SEC (2.02 resultado do trimestre)'
 Fonte: SEC EDGAR 2026-10-28
-id: E04-GOOGL-26000080-2026-10-28 · status: expirado · íntegra disponível
+id: E04-GOOGL-26000080-2026-10-28 · status: entregue · íntegra disponível
+
+[INFO] E04 · GOOGL · 10-Q: 10-Q
+SEC EDGAR · aceito 28/10 21h29 · 10-Q
+Link: https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm
+Por que importa: 10-Q e o balanco trimestral completo
+Ativos: GOOGL
+Como falar: 'a GOOGL protocolou 10-Q na SEC (10-Q)'
+Fonte: SEC EDGAR 2026-10-29
+id: E04-GOOGL-26000084-2026-10-29 · status: linha
 
 [INFO] E04 · KO · 10-Q: 10-Q
 SEC EDGAR · aceito 28/10 15h22 · 10-Q
@@ -74,7 +83,98 @@ Fonte: SEC EDGAR 2026-10-28
 id: E04-KO-26067844-2026-10-28 · status: linha
 
 
-## NOTÍCIAS COM MATERIALIDADE (24)
+## NOTÍCIAS COM MATERIALIDADE (31)
+
+[ATENÇÃO] E05 · GOOGL · Samsung and Google ruin the party: Earnings misses drive tech futures lower as the Fed signals rate hikes ahead
+Fortune · 29/10 08h04 · fonte única · licença: manchete
+Link: https://fortune.com/2026/10/29/samsung-google-earnings-tech-futures-the-fed-rate/
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: GOOGL
+Como falar: 'saiu no Fortune: Samsung and Google ruin the party: Earnings misses drive tech futures lower as the Fed si…; confirmar o número no texto antes de repassar'
+Fonte: Fortune 29/10 08h04
+id: E05-GOOGL-db185f4b40-2026-10-29 · status: pendente
+
+[ATENÇÃO] E05 · BTC · How to Get Offered $3 Million in Bitcoin Bets: Call It a ‘Dead Network’ on X
+Yahoo Finance · 29/10 07h45 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Three investors have each offered Jason Calacanis a $1 million Bitcoin bet.
+  – The clash comes as Bitcoin still trades well below its October 2025 peak.
+  – Why Calacanis Wants Holders to Sell Now The post that triggered the Bitcoin bet offers came on October 27.
+  – He cited outflows from spot Bitcoin ETFs and expects a retest of $57,000 within 12 months.
+  – The angel investor also called Bitcoin a "dead network" that offers little beyond a store of value.
+  – The world needs both." Bitcoin Bet Offers Test How Long "Never" Lasts All four challengers bet on the same outcome.
+Link: https://finance.yahoo.com/markets/crypto/articles/offered-3-million-bitcoin-bets-104553362.html
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: BTC
+Como falar: 'saiu no Yahoo Finance: How to Get Offered $3 Million in Bitcoin Bets: Call It a ‘Dead Network’ on X; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 29/10 07h45
+id: E05-BTC-0c5672782d-2026-10-29 · status: pendente
+
+[ATENÇÃO] E05 · VALE3 · Lucro líquido da Vale (VALE3) deve cair quase 50% no 3T26: veja os motivos e o que mais esperar do balanço
+Money Times · 29/10 07h00 · + Seu Dinheiro · licença: integral
+Do texto:
+  – Lucro líquido da Vale (VALE3) deve cair quase 50% no 3T26: veja os motivos e o que mais esperar do balanço Quando o assunto é Vale (VALE3), o minério de ferro costuma ser a primeira commodity de que nos lembramos.
+  – A companhia divulga os resultados do terceiro trimestre (3T26) após o fechamento do mercado nesta quinta-feira (29).
+  – De acordo com o consenso de mercado compilado pela Bloomberg, o lucro líquido atribuível aos acionistas deve cair mais de 48% na base anual, para R$ 7,598 bilhões.
+  – Já para o Ebitda (lucro antes de juros, impostos, depreciação e amortização), o mercado espera um tombo de 24,13%, para R$ 18,03 bilhões.
+  – No trimestre, o óleo teve preço médio de US$ 91,29, queda de 5,6% na comparação trimestral, mas alta de 34% em relação ao mesmo período de 2025.
+  – O C1 abrange os gastos da mina ao porto, mas não inclui o frete marítimo até a China nem outras despesas, como royalties.
+Link: https://www.moneytimes.com.br/lucro-liquido-da-vale-vale3-deve-cair-quase-50-no-3t26-veja-os-motivos-e-o-que-mais-esperar-do-balanco-bdap/
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: VALE3
+Como falar: 'saiu no Money Times: Lucro líquido da Vale (VALE3) deve cair quase 50% no 3T26: veja os motivos e o que mais e…; confirmar o número no texto antes de repassar'
+Fonte: Money Times 29/10 07h00
+id: E05-VALE3-1bf6ee3305-2026-10-29 · status: pendente · íntegra disponível
+
+[ATENÇÃO] E05 · GOOGL · Google stock gets shredded after earnings—here's 2 reasons why investors hated the quarter
+Yahoo Finance · 29/10 06h01 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Sizzling Google Cloud growth of 103% isn't going to cut it for Alphabet (GOOGL) bulls the day after earnings.
+  – Alphabet shares tanked 10% in pre-market trading on Thursday after a third quarter that could best be characterized as a letdown.
+  – First, Google's search business notched sales of $63.4 billion, below the $64.9 billion expected.
+  – Second, Google posted negative free cash flow of $9.1 billion versus a Wall Street estimate for negative $3.5 billion.
+  – "The bears will argue this is the first quarter that AI is starting to seriously hurt their search business and perhaps YouTube is facing some content monetization issues.
+  – Overall, Alphabet delivered a rare double-miss in its third-quarter earnings report, posting $127.57 billion in revenue against Wall Street's $128.2 billion consensus estimate.
+Link: https://finance.yahoo.com/markets/stocks/article/google-stock-gets-shredded-after-earningsheres-2-reasons-why-investors-hated-the-quarter-090019155.html
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: GOOGL
+Como falar: 'saiu no Yahoo Finance: Google stock gets shredded after earnings—here's 2 reasons why investors hated the quarter; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 29/10 06h01
+id: E05-GOOGL-c53124c544-2026-10-29 · status: linha
+
+[ATENÇÃO] E05 · AMZN · Amazon Earnings Preview: Q3 2026
+Seeking Alpha · 29/10 05h25 · fonte única · licença: manchete
+Link: https://seekingalpha.com/article/4959129-amazon-earnings-preview-q3-2026
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: AMZN
+Como falar: 'saiu no Seeking Alpha: Amazon Earnings Preview: Q3 2026; confirmar o número no texto antes de repassar'
+Fonte: Seeking Alpha 29/10 05h25
+id: E05-AMZN-45f015b36f-2026-10-29 · status: linha
+
+[ATENÇÃO] E05 · PETR4 · Petrobras tem recorde de produção no 3º trimestre
+Valor Economico · 29/10 05h00 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – A Petrobras fechou o terceiro trimestre com recorde de produção média de 3,512 milhões de barris de óleo equivalente por dia (boe/d), alta de 11,7% na comparação com o mesmo período do ano passado.
+  – Os dados constam do relatório de produção e vendas entre julho e setembro, divulgado nesta quarta-feira (28) pela estatal.
+  – No período, 12 novos poços produtores entraram em operação, sendo seis na Bacia de Campos e seis na Bacia de Santos.
+  – A produção de gás natural da Petrobras no Brasil no terceiro trimestre foi de 651 mil boe/d, 9,6% acima de igual período do ano passado.
+  – Na área de refino, o fator de utilização das refinarias da companhia entre julho e setembro foi de 99%, crescimento de 5 pontos percentuais frente ao terceiro trimestre do ano passado.
+  – A companhia informou que a produção de diesel, de 769 mil barris por dia, foi a maior para um trimestre na história.
+Link: https://valor.globo.com/google/amp/empresas/noticia/2026/10/29/petrobras-tem-recorde-de-producao-no-3o-trimestre.ghtml
+Por que importa: evento operacional afeta producao e custo no trimestre corrente
+Ativos: PETR4
+Como falar: 'saiu no Valor Economico: Petrobras tem recorde de produção no 3º trimestre; confirmar o número no texto antes de repassar'
+Fonte: Valor Economico 29/10 05h00
+id: E05-PETR4-254f5a2b3b-2026-10-29 · status: linha
+
+[ATENÇÃO] E05 · TSLA · Tesla Wins Lawsuit in South Korea Over FSD Feature Delays
+Bloomberg · 29/10 01h13 · fonte única · licença: manchete
+Link: https://www.bloomberg.com/news/articles/2026-10-29/tesla-wins-lawsuit-in-south-korea-over-fsd-feature-delays
+Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e prazo
+Ativos: TSLA
+Como falar: 'saiu no Bloomberg: Tesla Wins Lawsuit in South Korea Over FSD Feature Delays; confirmar o número no texto antes de repassar'
+Fonte: Bloomberg 29/10 01h13
+id: E05-TSLA-626a3a5b3f-2026-10-29 · status: linha
 
 [ATENÇÃO] E05 · PETR4 · Produção da Petrobras bate novo recorde no 3º tri e supera pico previsto para 2028 Por Reuters
 Investing.com · 28/10 20h32 · + TradingView (Reuters) · licença: manchete
@@ -140,7 +240,7 @@ Por que importa: evento operacional afeta producao e custo no trimestre corrente
 Ativos: PETR4
 Como falar: 'saiu no InfoMoney: Produção de petróleo da Petrobras (PETR4) sobe 12,4% e bate recorde no 3T26; confirmar o número no texto antes de repassar'
 Fonte: InfoMoney 28/10 19h52
-id: E05-PETR4-3a401240e8-2026-10-28 · status: pendente
+id: E05-PETR4-3a401240e8-2026-10-28 · status: expirado
 
 [ATENÇÃO] E05 · GOOGL · Earnings call transcript: Alphabet Q3 2026 profit miss sparks 10% after-hours drop
 Investing.com · 28/10 18h52 · fonte única · licença: manchete
@@ -149,7 +249,7 @@ Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; 
 Ativos: GOOGL
 Como falar: 'saiu no Investing.com: Earnings call transcript: Alphabet Q3 2026 profit miss sparks 10% after-hours drop; confirmar o número no texto antes de repassar'
 Fonte: Investing.com 28/10 18h52
-id: E05-GOOGL-6d459d62c6-2026-10-28 · status: pendente
+id: E05-GOOGL-6d459d62c6-2026-10-28 · status: expirado
 
 [ATENÇÃO] E05 · BBDC4 · Bradesco (BBDC4): após frustração eleitoral, Itaú BBA corta ação; veja novo preço-alvo
 Money Times · 28/10 16h34 · fonte única · licença: integral
@@ -165,7 +265,7 @@ Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais
 Ativos: BBDC4
 Como falar: 'saiu no Money Times: Bradesco (BBDC4): após frustração eleitoral, Itaú BBA corta ação; veja novo preço-alvo; confirmar o número no texto antes de repassar'
 Fonte: Money Times 28/10 16h34
-id: E05-BBDC4-482996f60e-2026-10-28 · status: expirado · íntegra disponível
+id: E05-BBDC4-482996f60e-2026-10-28 · status: entregue · íntegra disponível
 
 [ATENÇÃO] E05 · BBDC4 · Itaú BBA corta recomendação do Bradesco e vê recuperação mais difícil
 UOL Economia · 28/10 16h20 · fonte única · licença: manchete
@@ -174,7 +274,7 @@ Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais
 Ativos: BBDC4
 Como falar: 'saiu no UOL Economia: Itaú BBA corta recomendação do Bradesco e vê recuperação mais difícil; confirmar o número no texto antes de repassar'
 Fonte: UOL Economia 28/10 16h20
-id: E05-BBDC4-2e9d4ffca4-2026-10-28 · status: expirado
+id: E05-BBDC4-2e9d4ffca4-2026-10-28 · status: entregue
 
 [ATENÇÃO] E05 · CVX · If You'd Invested $10,000 in Chevron (CVX) Stock 1 Year Ago, Here's How Much You'd Have Today
 Yahoo Finance · 28/10 09h04 · fonte única · licença: resumo
@@ -190,7 +290,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: CVX
 Como falar: 'saiu no Yahoo Finance: If You'd Invested $10,000 in Chevron (CVX) Stock 1 Year Ago, Here's How Much You'd Have T…; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 28/10 09h04
-id: E05-CVX-415a0ac565-2026-10-28 · status: expirado
+id: E05-CVX-415a0ac565-2026-10-28 · status: entregue
 
 [ATENÇÃO] E05 · KLBN4 · Lucro da Klabin cai 18% no 3º tri Por Reuters
 Investing.com · 28/10 08h27 · fonte única · licença: manchete
@@ -215,7 +315,7 @@ Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais
 Ativos: BTC
 Como falar: 'saiu no PR Newswire: Bitwise Raises Bitcoin Price Target to $1.6M by 2036, Publishes 2027 Bitcoin Long-Term Ca…; confirmar o número no texto antes de repassar'
 Fonte: PR Newswire 28/10 12h00
-id: E05-BTC-6c53091403-2026-10-28 · status: expirado · íntegra disponível
+id: E05-BTC-6c53091403-2026-10-28 · status: entregue · íntegra disponível
 
 [ATENÇÃO] E05 · JPM · JPMorgan downgrades Xylem stock rating on guidance cut, slower orders By Investing.com
 Investing.com · 28/10 04h02 · fonte única · licença: manchete
@@ -224,7 +324,7 @@ Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais
 Ativos: JPM
 Como falar: 'saiu no Investing.com: JPMorgan downgrades Xylem stock rating on guidance cut, slower orders By Investing.com; confirmar o número no texto antes de repassar'
 Fonte: Investing.com 28/10 04h02
-id: E05-JPM-25642432c6-2026-10-28 · status: expirado
+id: E05-JPM-25642432c6-2026-10-28 · status: entregue
 
 [ATENÇÃO] E05 · BTC · Bitwise raises Bitcoin price target to $1.6 million by 2036
 TradingView (Reuters) · 28/10 12h09 · fonte única · licença: manchete
@@ -233,7 +333,7 @@ Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais
 Ativos: BTC
 Como falar: 'saiu no TradingView (Reuters): Bitwise raises Bitcoin price target to $1.6 million by 2036; confirmar o número no texto antes de repassar'
 Fonte: TradingView (Reuters) 28/10 12h09
-id: E05-BTC-bbf9097342-2026-10-28 · status: expirado
+id: E05-BTC-bbf9097342-2026-10-28 · status: entregue
 
 [ATENÇÃO] E05 · VALE3 · Preços baixos do minério devem afetar resultado da Vale no 3º tri, dizem analistas
 Valor Economico · 28/10 09h54 · fonte única · licença: resumo
@@ -249,7 +349,7 @@ Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; 
 Ativos: VALE3
 Como falar: 'saiu no Valor Economico: Preços baixos do minério devem afetar resultado da Vale no 3º tri, dizem analistas; confirmar o número no texto antes de repassar'
 Fonte: Valor Economico 28/10 09h54
-id: E05-VALE3-371ad405f4-2026-10-28 · status: expirado
+id: E05-VALE3-371ad405f4-2026-10-28 · status: entregue
 
 [ATENÇÃO] E05 · KLBN4 · Klabin (KLBN11) tem queda de 18% no lucro líquido do 3T26
 Suno Noticias · 28/10 09h50 · fonte única · licença: resumo
@@ -265,7 +365,7 @@ Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; 
 Ativos: KLBN4
 Como falar: 'saiu no Suno Noticias: Klabin (KLBN11) tem queda de 18% no lucro líquido do 3T26; confirmar o número no texto antes de repassar'
 Fonte: Suno Noticias 28/10 09h50
-id: E05-KLBN4-2070982819-2026-10-28 · status: expirado
+id: E05-KLBN4-2070982819-2026-10-28 · status: entregue
 
 [ATENÇÃO] E05 · KLBN4 · Klabin: resultado do 3T26 mostra lucro menor, mas receita cresce e supera expectativas
 ADVFN · 28/10 09h00 · fonte única · licença: manchete
@@ -381,8 +481,23 @@ Fonte: g1 27/10 18h55
 id: E05-ITUB4-e5d805a382-2026-10-27 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (73)
+## OUTRAS NOTÍCIAS (só manchete) (88)
 
+· GOOGL Alphabet Earnings: Google Parent's Wobbly Quarter Is No Sign of a Crisis (Bloomberg) https://www.bloomberg.com/opinion/articles/2026-10-29/alphabet-earnings-google-parent-s-wobbly-quarter-is-no-sign-of-a-crisis
+· PETR4 Petrobras, Vale, Ambev, Oncoclínicas, Casas Bahia e mais ações para acompanhar hoje (InfoMoney) https://www.infomoney.com.br/mercados/petrobras-vale-ambev-oncoclinicas-casas-bahia-e-mais-acoes-para-acompanhar-hoje/
+· GOOGL Alphabet’s SpaceX Bet Wiped 55 Cents Off Its Earnings (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/alphabet-spacex-bet-wiped-55-111610461.html
+· AMZN The Cloud Titans: Microsoft’s Copilot Backlog Challenges Amazon’s Data Center Re-Acceleration (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/cloud-titans-microsoft-copilot-backlog-111510522.html
+· VALE3 Contas públicas, PIB dos EUA, Vale e Amazon são destaques da quinta (UOL Economia) https://economia.uol.com.br/colunas/por-dentro-da-bolsa/2026/10/29/contas-publicas-estimativa-do-pib-dos-eua-balancos-de-vale-e-amazon-sao-destaques-da-quinta.htm
+· GOOGL Crypto declines as Samsung and Alphabet earnings rattle tech and Fed holds with two dissenters seeking hike (CoinDesk) https://www.coindesk.com/markets/2026/10/29/bitcoin-drops-to-usd80-000-on-fed-dissent-samsung-alphabet-earnings-ai-tokens-slump
+· GOOGL Google’s Kurian Pushes Cloud Unit Into Greater Prominence (Bloomberg) https://www.bloomberg.com/news/newsletters/2026-10-29/alphabet-s-google-cloud-rises-in-prominence-in-ai-era
+· GOOGL Alphabet earnings miss reflects first real sign that AI is taking a bite out of search (CNBC) https://www.cnbc.com/2026/10/29/alphabet-google-search-ai-earnings.html
+· VALE3 Balanços no Brasil e no exterior devem concentrar atenções, Vale divulga resultado após fechamento (TradingView (Reuters)) https://news.google.com/rss/articles/CBMid0FVX3lxTE5CbHpIcDFQTVNvZzFWcERwT2dXV1h4WkNJRTBVUC1RNWhEcjUzV2ZuY1F6Sy1SV3B1d0JxZUVHdmRkUUJiTnd1US1aQmFzWVZiOHFrdi1RZmlpWEgtRVduZk90Z2pERGRXOUkyUWJ2MXI2TnBCQVdn?oc=5
+· UST Treasury yields ease after Federal Reserve rate hold (CNBC) https://news.google.com/rss/articles/CBMif0FVX3lxTE9tUkpYWmlUR3kwRzB5cTZuejFRaTloS09XeThKc3hXUnVVem12eHNkN0ZnV2VpemJ2N09sZWNkenlUNGhHVUo4RmdxaDFIUFhSU0JmMHlKckhSbXhxWXpMUGNsZ0dWOVVmd25nNnRpTE1lbEpTbWhkNk9VTnRpeGPSAYQBQVVfeXFMUE1seWVoTlViUzNtNmZyRk1NekFwcWN2ZkZSMUhWOUY2UHJQWnVZcTB2d1NPRXNzcmhzWlFGWlNNYUd2RTlEbUR1WEZlLWVCQzhjclZPdjlVX29STXVDVW1GOFVaeVUxeUoxSk9GRkhEeGg4RmlXclBlb1ZGZFgydFl0SjJN?oc=5
+· BTC Bitcoin long-term resistance in focus as analysis sees selling risk above $85K (TradingView (Reuters)) https://news.google.com/rss/articles/CBMi2AFBVV95cUxOTWNEWHIwUl8ySHEwakRDaVB2emdFNDJfMTV0WnlXN0FMS0ZnckdMRWt6SlN6b1AwUG9kNl9odk1yUXZULW05NlVvNmFzdDIyb2ZyTm9PVmZHUjFSM29wWUE3ZUowUWhJUGVfRXpvR2ZPZ1BvaG5FeGR1WlJjbzVsU001N3dQNUVEWE5FMnlFMXVBYTVqMEFyejVPSkdEQUl0TThzVGhMSUd4SEtzdUhKb1plSWZXMXV6S3dnbUNrcEhZVG5IY0E1ZzNvdDg0VHhMWmM0VzRTeUQ?oc=5
+· BTC iShares Bitcoin ETF (IBIT.NE) Stock Price, News, Quote & History (Yahoo Finance) https://news.google.com/rss/articles/CBMiVkFVX3lxTE1LLVI3LXJ5bTh1SzRGMkxHLUdVWXVPd1hHdFBXTUJlc1RObl9Jdnkxck81M3FqUDk1TGZ3RG83alpBREYwM09EQU9feWZzLU9HWkhjNU1B?oc=5
+· USDBRL Agenda cheia com dados fiscais, balanços e inflação nos EUA mexe com mercados; Ibovespa em dólar cai nesta quinta-feira (29) (Money Times) https://news.google.com/rss/articles/CBMi7AFBVV95cUxNU1dEUWZNSHcxRjN1cUYyQUE1Ykk5R3RLNEFSNU1INXl0MnR0M1VrbEZiSzBuNjBVVTZpZzJYX3JtRnpra2RucWc2X04tUUw3R1hHSjlvbnBPZE1OMjJBcEFZcDIzOFUwQ0IyT19xaFJFaVFLbUU2Z3gxd1ZwUnJYWW1hMzM1eXp1TVB6TWZSX0pkTWF4eGx4U2IzNVJoYTkyX3YwVW1Tdjd3MGRiTTZYRGVMYnROLVNBRlBhU1pSQ190ZENicHBoUzh2U1JVZ0hmNG05Q0p6dlF5T0Y3dzFTUS1QQ01WSHdmTl94ZA?oc=5
+· AMZN Amazon Earnings Are All About Its Cloud Business (Barron's) https://news.google.com/rss/articles/CBMilAFBVV95cUxPY2xLS1prSUVKSnBma3J4YV9FOWMzWlVkMENTdUl6UTZqUDVKOXVNcGt6WDhFbEVsRW9yN19FVHlnc1JkSndYeXRpbmk2VGF1ZU1IYnhXUjdTeGFmS3VocTJVUDVrRDdvY0RTaF9KdHRDTVdaSGY2RkkyOTJHeXRHbkg1Q3cxcTFWS3FRR0JlWU1KRVdR?oc=5
+· GOOGL Alphabet and Microsoft are on both sides of the AI boom's biggest bills: Chart of the Day (Yahoo Finance) https://news.google.com/rss/articles/CBMi3AFBVV95cUxPMDJfTnVRV0VJMlpNX3doOWNYWHZ4bmRjald1T1VXaGdXTFd5T29ObVZhSXlXRUdnYURmZ0tPLVd1N293SDcxM1YyVGlEb2pBdWxMWGVQbEN1TEh3OVBOYVdOMHpZTU83UGsxRkxKZnVqbWFvOTNjQWJVbTJxREw5cWtoTEtpalVzWkpkTjB6SEZla2trVkQ1cUVoQUVVVVA0RUdTenczdlR4MFJndTJmZ2ZleS1uSDBDTktWSFB6WFFpU0FUT3hyVlQyYktiM3FXMFhkZkVWb1RxUUpB?oc=5
 · GOOGL What investors need to know about Alphabet's stock-busting earnings report (CNBC) https://www.cnbc.com/2026/10/28/alphabet-q3-earnings-search-ai.html
 · GOOGL Microsoft and Alphabet Just Reported Earnings, Putting the AI Boom to the Test (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/microsoft-alphabet-just-reported-earnings-001901247.html
 · NVDA S&P 500, Nasdaq Futures Dip As Weaker-Than-Expected Alphabet Earnings Reignite AI Spending Worries — GOOGL, MSFT, ORCL, NVDA, MRVL In Focus (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/p-500-nasdaq-futures-dip-001028850.html
@@ -428,19 +543,4 @@ id: E05-ITUB4-e5d805a382-2026-10-27 · status: linha
 · AMD Should You Buy AMD Stock Before Nov. 3? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/buy-amd-stock-nov-3-182000542.html
 · TESOURO Tesouro Direto: como investir agora, com taxas em vaivém após a eleição (InfoMoney) https://www.infomoney.com.br/onde-investir/tesouro-direto-como-investir-agora-com-taxas-em-vaivem-apos-a-eleicao/
 · ITUB4 Bradesco perde recomendação de compra do Itaú BBA; entenda o que preocupa os analistas (Estadao) https://www.estadao.com.br/einvestidor/onde-investir/bradesco-perde-recomendacao-de-compra-do-itau-bba-entenda-o-que-preocupa-os-analistas/
-· MU Micron Stock Advances as Rival SK Hynix Fuels AI Frenzy With Two Bombshells (Barron's) https://www.barrons.com/articles/micron-stock-price-sk-hynix-earnings-b93ad2b8
-· SAPR4 Sanepar: consórcio faz proposta única e vence leilão de sistema no norte do PR (UOL Economia) https://economia.uol.com.br/noticias/estadao-conteudo/2026/10/28/sanepar-consorcio-faz-proposta-unica-e-vence-leilao-de-sistema-no-norte-do-pr.htm
-· PLTR Palantir Stock Falls After RBC Delivers Fresh Warning Ahead of Earnings (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:ed4ee68fd094b:0-palantir-stock-falls-after-rbc-delivers-fresh-warning-ahead-of-earnings/
-· AMZN Amazon Stocks Edge Higher Ahead of AWS Earnings Concentration Test (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:fe407b4c0094b:0-amazon-stocks-edge-higher-ahead-of-aws-earnings-concentration-test/
-· GOOGL Alphabet Stocks Rise Ahead of Google Cloud's Profit Test (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:5dd287fa7094b:0-alphabet-stocks-rise-ahead-of-google-cloud-s-profit-test/
-· AMD Cathie Wood Dumps More AMD, Buys Joby and Archer (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:fb2cfe392094b:0-cathie-wood-dumps-more-amd-buys-joby-and-archer/
-· LITE Optical Stocks Climb as Analysts Flag AI Bottleneck: Lumentum Rises 4%, Applied Optoelectronics and Corning Gain 3%, Coherent Sits Out the Rally (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/optical-stocks-climb-analysts-flag-170601552.html
-· PLTR Palantir’s Revenue Growth Could Set the Stage for Its Next Big Stock Move (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/palantir-revenue-growth-could-set-170345847.html
-· GOOGL Google earnings up next: Can Cloud growth justify record AI spending? (Investing.com) https://www.investing.com/news/earnings/google-earnings-up-next-can-cloud-growth-justify-record-ai-spending-93CH-4980320
-· INTC Intel Stock Could Swing 9% After Tomorrow's Earnings (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:34ef80fd8094b:0-intel-stock-could-swing-9-after-tomorrow-s-earnings/
-· LITE Lumentum Shares Jump 135% YTD: Can AI Momentum Sustain the Rally? (Yahoo Finance) https://news.google.com/rss/articles/CBMilwFBVV95cUxONlhQZ2pDTlBmcC1xV0FwUzIyYmgzR1IteV9WeFlNd19VUzJhQ3lzQnFxWnNPVlhyUlVVVkpXSUhwWVgwU2luY2hYUnY5TEpUR3haUWs0ZE1wbEUweE1ac2RWTkIweURudXlNajk2VmVLeDhsazFfQzh6RE1rcExjSDJycHlGZFB6YUs3MXBfekJhUGZyUTRZ?oc=5
-· BTC Bitcoin price bounce rejected at 50-day trend line ahead of FOMC, earnings (TradingView (Reuters)) https://news.google.com/rss/articles/CBMi0wFBVV95cUxNUHpkRHlhOVdpMFhqaFRHakJudGZIT3UwcFJNNlVBNXBlaEhVRUtIZmNvaFJjdmVRN2dxeGhsWGpkY1UzWnpEMFdZUjh4ZG04X2UwRTllM0w2U2ZFNFMwVXVjZ0hwdWdBZzVqTWViREdzTTI0OFZyNlItZVV4UzBkUm9TVXVOQTVuTlN5RU9pTGI2dW5PbTd3bm9sVUc2NWRxclN0cHU0SWxzM09GRjE0THEwX1BkSHhpcW4tZ2VDLVA0amU5TzI5UUF3WUJBUTFQTThB?oc=5
-· TESOURO As maiores altas de juros da história do Tesouro Direto (InfoMoney) https://www.infomoney.com.br/web-stories/as-maiores-altas-de-juros-da-historia-do-tesouro-direto/
-· GOOGL Google earnings up next: Can Cloud growth justify record AI spending? (Investing.com) https://ng.investing.com/news/stock-market-news/google-earnings-up-next-can-cloud-growth-justify-record-ai-spending-93CH-2764518
-· KLBN4 Klabin cai 5% após balanço; custos e dívida preocupam analistas (UOL Economia) https://economia.uol.com.br/noticias/redacao/2026/10/28/klabin-cai-5-apos-balanco-custos-e-divida-preocupam-analistas.ghtm
-· (+13 manchetes; lista completa em eventos/noticias.json)
+· (+28 manchetes; lista completa em eventos/noticias.json)
