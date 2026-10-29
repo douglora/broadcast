@@ -1,68 +1,20 @@
-NOTÍCIAS E FATOS · 29/10 08h33
+NOTÍCIAS E FATOS · 29/10 10h44
 
-Pernas: noticias ok 22 novas (18 consultas; descartadas: 413 veículo fora da lista, 18 sem ativo, 52 teto) · cvm ok 0 novos de 12 (8 cias casadas) · sec ok 1 novos em 3 dias
+Pernas: noticias ok 18 novas (18 consultas; descartadas: 392 veículo fora da lista, 24 sem ativo, 26 teto) · cvm ok 1 novos de 13 (8 cias casadas) · sec ok 0 novos em 3 dias
 
-## FATOS RELEVANTES E COMUNICADOS (CVM) (4)
+## FATOS RELEVANTES E COMUNICADOS (CVM) (1)
 
-[ATENÇÃO] E03 · PETR4 · Fato Relevante: FPSO Almirante Tamandaré Recorde de produção de 263 mbpd em jul ho de 2026 Sumário Sumário Destaques 3T26 ...........................................…
-CVM · entregue 28/10/2026 19:37
-Do documento:
-  – Os valores informados para 4T26 em diante são estimativas ou metas.
-  – Neste trimestre, entraram em operação 12 novos poços produtores, sendo 6 na Bacia de Campos e 6 na  Bacia de Santos.
-  –  O FPSO Alexandre de Gusmão, o quinto instalado no campo de Mero, no pré -sal da Bacia de  Santos, atingiu, em 25 de agosto, sua capacidade de produção originalmente prevista em  projeto, de 180 m bpd.
-  – Posteriormente, após a implementação de aditivo para aumento de  capacidade, e em concordância com os órgãos reguladores e as entidades ambientais, a  plataforma alcançou, em 3 de setembro, um novo pico de produção de 1…
-  – Mero, cujas  plataformas registraram, conjuntamente, produção média de óleo de 760 mbpd no 3T26 é o  terceiro maior campo produtor de petróleo do Brasil, atrás apenas de Búzios e Tupi.
-  –  Ainda no campo de Mero, o FPSO Sepetiba, superou a capacidade de processamento de óleo  originalmente projetada, de 180 mbpd, chegando a alcançar pico diário de 212 mbpd em  setembro.
-Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1581329
-Por que importa: fato relevante e o que a propria companhia julga capaz de mover o preco; ler o documento inteiro antes de comentar
-Ativos: PETR4
-Como falar: 'a Petrobras publicou fato relevante sobre FPSO Almirante Tamandaré Recorde de produção de 263 mbpd em jul ho de…'
-Fonte: CVM 28/10
-id: E03-PETR4-1581329-2026-10-28 · status: expirado · íntegra disponível
-
-[ATENÇÃO] E03 · SAPR4 · Fato Relevante: A Companhia de Saneamento do Paraná – Sanepar, em cumprimento ao disposto na Resolução CVM nº 44/2021 , comunica a seus acionistas, investidores e ao…
-CVM · entregue 28/10/2026 18:39
-Do documento:
-  – Conforme o edital da referida Concorrência Internacional, o prazo de vigência do  contrato é de 2 0 anos e 6 meses, incluindo o período de atendimento às  condições de eficácia, de execução das obras, de pré-operação e…
-  – Curitiba, 28 de outubro de 2026.
-Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1581303
-Por que importa: fato relevante e o que a propria companhia julga capaz de mover o preco; ler o documento inteiro antes de comentar
-Ativos: SAPR4
-Como falar: 'a Sanepar publicou fato relevante sobre A Companhia de Saneamento do Paraná – Sanepar, em cumprimento ao disp…'
-Fonte: CVM 28/10
-id: E03-SAPR4-1581303-2026-10-28 · status: expirado · íntegra disponível
-
-[INFO] E03 · SAPR4 · Comunicado ao Mercado: Esclarecimentos sobre questionamentos da CVM/B3
-CVM · entregue 28/10/2026 20:19 · Esclarecimentos sobre questionamentos da CVM/B3
-Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1581334
+[INFO] E03 · KLBN4 · Comunicado ao Mercado: Apresentações a analistas/agentes do mercado
+CVM · entregue 29/10/2026 10:05 · Apresentações a analistas/agentes do mercado
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1581460
 Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; confirma ou nega o que circula
-Ativos: SAPR4
-Como falar: 'a Sanepar publicou comunicado ao mercado sobre Esclarecimentos sobre questionamentos da CVM/B3'
-Fonte: CVM 28/10
-id: E03-SAPR4-1581334-2026-10-28 · status: linha
-
-[INFO] E03 · BBAS3 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
-CVM · entregue 28/10/2026 18:30 · Outros Comunicados Não Considerados Fatos Relevantes
-Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1581266
-Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; confirma ou nega o que circula
-Ativos: BBAS3
-Como falar: 'a Banco do Brasil publicou comunicado ao mercado sobre Outros Comunicados Não Considerados Fatos Relevantes'
-Fonte: CVM 28/10
-id: E03-BBAS3-1581266-2026-10-28 · status: linha
+Ativos: KLBN4
+Como falar: 'a Klabin publicou comunicado ao mercado sobre Apresentações a analistas/agentes do mercado'
+Fonte: CVM 29/10
+id: E03-KLBN4-1581460-2026-10-29 · status: linha
 
 
-## SEC (8-K, 6-K, 10-Q, 10-K) (3)
-
-[ATENÇÃO] E04 · GOOGL · 8-K: 2.02 resultado do trimestre
-SEC EDGAR · aceito 28/10 17h01 · 8-K
-Do documento:
-  – Emerging growth company ☐   If an emerging growth company, indicate by check mark if the registr
-Link: https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/goog-20261028.htm
-Por que importa: resultado do trimestre reprecifica lucro, guidance e multiplo; comparar com o consenso
-Ativos: GOOGL
-Como falar: 'a GOOGL protocolou 8-K na SEC (2.02 resultado do trimestre)'
-Fonte: SEC EDGAR 2026-10-28
-id: E04-GOOGL-26000080-2026-10-28 · status: entregue · íntegra disponível
+## SEC (8-K, 6-K, 10-Q, 10-K) (1)
 
 [INFO] E04 · GOOGL · 10-Q: 10-Q
 SEC EDGAR · aceito 28/10 21h29 · 10-Q
@@ -73,17 +25,49 @@ Como falar: 'a GOOGL protocolou 10-Q na SEC (10-Q)'
 Fonte: SEC EDGAR 2026-10-29
 id: E04-GOOGL-26000084-2026-10-29 · status: linha
 
-[INFO] E04 · KO · 10-Q: 10-Q
-SEC EDGAR · aceito 28/10 15h22 · 10-Q
-Link: https://www.sec.gov/Archives/edgar/data/21344/000162828026067844/ko-20261002.htm
-Por que importa: 10-Q e o balanco trimestral completo
-Ativos: KO
-Como falar: 'a KO protocolou 10-Q na SEC (10-Q)'
-Fonte: SEC EDGAR 2026-10-28
-id: E04-KO-26067844-2026-10-28 · status: linha
 
+## NOTÍCIAS COM MATERIALIDADE (10)
 
-## NOTÍCIAS COM MATERIALIDADE (31)
+[ATENÇÃO] E05 · VALE3 · Lucro da Vale pode cair mais de 40% no 3T26, mas ação pode surpreender após balanço desta quinta
+Estadao · 29/10 09h27 · fonte única · licença: manchete
+Link: https://www.estadao.com.br/einvestidor/cenarios-e-mercado/lucro-da-vale-pode-cair-mais-de-40-no-3t26-mas-acao-pode-surpreender-apos-balanco-desta-quinta/
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: VALE3
+Como falar: 'saiu no Estadao: Lucro da Vale pode cair mais de 40% no 3T26, mas ação pode surpreender após balanço desta…; confirmar o número no texto antes de repassar'
+Fonte: Estadao 29/10 09h27
+id: E05-VALE3-59fb997183-2026-10-29 · status: pendente
+
+[ATENÇÃO] E05 · BBDC4 · Bradesco (BBDC4) sofre segundo rebaixamento e JPMorgan corta preço-alvo em quase 30%
+InfoMoney · 29/10 08h56 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Além disso, reduziu o preço-alvo para dezembro de 2027 de R$ 26 para R$ 18, um corte de quase 31%.
+  – Na véspera, o Itaú BBA havia alertado que “a combinação de atividade econômica mais fraca, juros mais elevados e aumento das provisões para perdas com crédito deve limitar os avanços de rentabilidade observados nos últi…
+  – Na ocasião, o banco também rebaixou BBDC4 para market perform (equivalente à neutra) e reduziu seu preço-alvo para R$ 20.
+  – O banco estima que o retorno sobre patrimônio (ROE) recue de cerca de 15% em 2026 para 14% em 2027, enquanto o crescimento do lucro líquido seria de apenas 2% no período, para aproximadamente R$ 27,9 bilhões.
+  – Como resultado, a projeção é que o crescimento da carteira recue para cerca de 6% nos próximos trimestres.
+  – O relatório incorpora uma redução de 10 pontos-base na margem financeira dos clientes.
+Link: https://www.infomoney.com.br/mercados/bradesco-bbdc4-sofre-segundo-rebaixamento-e-jpmorgan-corta-preco-alvo-em-quase-30/
+Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
+Ativos: BBDC4 · JPM
+Como falar: 'saiu no InfoMoney: Bradesco (BBDC4) sofre segundo rebaixamento e JPMorgan corta preço-alvo em quase 30%; confirmar o número no texto antes de repassar'
+Fonte: InfoMoney 29/10 08h56
+id: E05-BBDC4-7b3dad1772-2026-10-29 · status: pendente
+
+[ATENÇÃO] E05 · PETR4 · Produção da Petrobras bate recorde no 3º tri e importação de diesel dispara
+Exame · 28/10 20h38 · + UOL Economia, ADVFN · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Petrobras: dados de produção do 3º tri bateram recorde (MAURO PIMENTEL/AFP/Getty Images) A Petrobras (PETR4) nunca extraiu tanto petróleo e gás quanto no terceiro trimestre de 2026.
+  – Segundo o relatório de produção e vendas divulgado nesta quarta-feira, 28, a produção própria média chegou a 3,51 milhões de barris de óleo equivalente por dia (boed), unidade que soma o petróleo e o gás natural convert…
+  – O volume é 11,7% maior que o de um ano antes e 5,3% superior ao do segundo trimestre, que já tinha sido recorde.
+  – O pré-sal sustentou o avanço, com produção própria de 2,96 milhões de boed.
+  – Somando a parte dos sócios nos campos operados pela estatal, a produção total passou pela primeira vez de 5 milhões de boed.
+  – "Superamos as nossas metas!", afirmou Sylvia Anjos, diretora de Exploração e Produção, no relatório.
+Link: https://exame.com/invest/mercados/producao-da-petrobras-bate-recorde-no-3o-tri-e-importacao-de-diesel-dispara/
+Por que importa: evento operacional afeta producao e custo no trimestre corrente
+Ativos: PETR4 · BRENT
+Como falar: 'saiu no Exame: Produção da Petrobras bate recorde no 3º tri e importação de diesel dispara; confirmar o número no texto antes de repassar'
+Fonte: Exame 28/10 20h38
+id: E05-PETR4-36c78b3310-2026-10-28 · status: pendente
 
 [ATENÇÃO] E05 · GOOGL · Samsung and Google ruin the party: Earnings misses drive tech futures lower as the Fed signals rate hikes ahead
 Fortune · 29/10 08h04 · fonte única · licença: manchete
@@ -92,7 +76,7 @@ Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; 
 Ativos: GOOGL
 Como falar: 'saiu no Fortune: Samsung and Google ruin the party: Earnings misses drive tech futures lower as the Fed si…; confirmar o número no texto antes de repassar'
 Fonte: Fortune 29/10 08h04
-id: E05-GOOGL-db185f4b40-2026-10-29 · status: pendente
+id: E05-GOOGL-db185f4b40-2026-10-29 · status: entregue
 
 [ATENÇÃO] E05 · BTC · How to Get Offered $3 Million in Bitcoin Bets: Call It a ‘Dead Network’ on X
 Yahoo Finance · 29/10 07h45 · fonte única · licença: resumo
@@ -108,7 +92,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: BTC
 Como falar: 'saiu no Yahoo Finance: How to Get Offered $3 Million in Bitcoin Bets: Call It a ‘Dead Network’ on X; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 29/10 07h45
-id: E05-BTC-0c5672782d-2026-10-29 · status: pendente
+id: E05-BTC-0c5672782d-2026-10-29 · status: entregue
 
 [ATENÇÃO] E05 · VALE3 · Lucro líquido da Vale (VALE3) deve cair quase 50% no 3T26: veja os motivos e o que mais esperar do balanço
 Money Times · 29/10 07h00 · + Seu Dinheiro · licença: integral
@@ -124,7 +108,7 @@ Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; 
 Ativos: VALE3
 Como falar: 'saiu no Money Times: Lucro líquido da Vale (VALE3) deve cair quase 50% no 3T26: veja os motivos e o que mais e…; confirmar o número no texto antes de repassar'
 Fonte: Money Times 29/10 07h00
-id: E05-VALE3-1bf6ee3305-2026-10-29 · status: pendente · íntegra disponível
+id: E05-VALE3-1bf6ee3305-2026-10-29 · status: entregue · íntegra disponível
 
 [ATENÇÃO] E05 · GOOGL · Google stock gets shredded after earnings—here's 2 reasons why investors hated the quarter
 Yahoo Finance · 29/10 06h01 · fonte única · licença: resumo
@@ -176,313 +160,24 @@ Como falar: 'saiu no Bloomberg: Tesla Wins Lawsuit in South Korea Over FSD Featu
 Fonte: Bloomberg 29/10 01h13
 id: E05-TSLA-626a3a5b3f-2026-10-29 · status: linha
 
-[ATENÇÃO] E05 · PETR4 · Produção da Petrobras bate novo recorde no 3º tri e supera pico previsto para 2028 Por Reuters
-Investing.com · 28/10 20h32 · + TradingView (Reuters) · licença: manchete
-Link: https://br.investing.com/news/stock-market-news/producao-de-petroleo-da-petrobras-no-brasil-avanca-124-no-3o-tri-exportacao-sobe-213-2106962
-Por que importa: evento operacional afeta producao e custo no trimestre corrente
-Ativos: PETR4
-Como falar: 'saiu no Investing.com: Produção da Petrobras bate novo recorde no 3º tri e supera pico previsto para 2028 Por Re…; confirmar o número no texto antes de repassar'
-Fonte: Investing.com 28/10 20h32
-id: E05-PETR4-03ea82e6c1-2026-10-28 · status: pendente
 
-[ATENÇÃO] E05 · PETR4 · Petrobras (PETR4) bate recorde de produção de petróleo e gás no 3T26, com alta de 11,7% em um ano
-Money Times · 28/10 20h26 · + O Globo · licença: integral
-Do texto:
-  – No período, a produção própria de petróleo, líquidos de gás natural (LGN) e gás natural alcançou 3,512 milhões de barris de óleo equivalente por dia (boed), superando o recorde anterior de 3,336 milhões de boed, registr…
-  – O volume representa alta de 5,3% ante o 2T26 e de 11,7% em relação ao mesmo período de 2025.
-  – A companhia atribuiu o avanço à maior eficiência operacional — que atingiu o melhor nível desde o quarto trimestre de 2018 —, ao aumento gradual da produção das plataformas P-78 e P-79, em Búzios, e ao avanço do FPSO Al…
-  – Pré-sal puxa avanço da produção A produção de óleo e LGN no Brasil alcançou 2,832 milhões de barris por dia, crescimento de 5,3% na comparação trimestral e de 12,4% em um ano.
-  – O pré-sal respondeu por boa parte do resultado: foram 2,454 milhões de barris por dia, alta de 6,7% ante o 2T26 e de 15,9% frente ao 3T25.
-  – No campo de Mero, o FPSO Alexandre de Gusmão chegou a um novo pico de produção de 190 mil barris por dia, após alcançar a capacidade originalmente prevista em projeto, de 180 mil barris diários.
-Link: https://www.moneytimes.com.br/com-petroleo-ainda-nas-alturas-petrobras-petr4bate-recorde-de-producao-de-petroleo-e-gas-com-alta-de-117-em-um-ano-bdap/
-Por que importa: evento operacional afeta producao e custo no trimestre corrente
-Ativos: PETR4 · BRENT
-Como falar: 'saiu no Money Times: Petrobras (PETR4) bate recorde de produção de petróleo e gás no 3T26, com alta de 11,7% e…; confirmar o número no texto antes de repassar'
-Fonte: Money Times 28/10 20h26
-id: E05-PETR4-12d0ea1495-2026-10-28 · status: pendente · íntegra disponível
+## OUTRAS NOTÍCIAS (só manchete) (35)
 
-[ATENÇÃO] E05 · PETR4 · Petrobras amplia produção em quase 12% e quebra recorde com força do pré-sal
-Estadao · 28/10 20h25 · fonte única · licença: manchete
-Link: https://www.estadao.com.br/em-alta/einvestidor/cenarios-e-mercado/petrobras-amplia-producao-em-quase-12-e-quebra-recorde-com-forca-do-pre-sal/
-Por que importa: evento operacional afeta producao e custo no trimestre corrente
-Ativos: PETR4
-Como falar: 'saiu no Estadao: Petrobras amplia produção em quase 12% e quebra recorde com força do pré-sal; confirmar o número no texto antes de repassar'
-Fonte: Estadao 28/10 20h25
-id: E05-PETR4-bcfaf6f22d-2026-10-28 · status: pendente
-
-[ATENÇÃO] E05 · PETR4 · Petrobras registra produção recorde de 3,51 milhões de barris no 3º tri
-CNN Brasil · 28/10 20h01 · fonte única · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – A Petrobras bateu recorde de produção de petróleo e gás no terceiro trimestre de 2026, ao alcançar média de 3,51 milhões de barris de óleo equivalente por dia.
-  – O volume representa uma alta de 11,7% em relação ao mesmo período de 2025 e 5,3% na comparação com o segundo trimestre, segundo o relatório de produção e vendas da companhia.
-  – O avanço foi puxado pelo aumento gradual da produção das plataformas P-78 e P-79, no campo de Búzios, e pelo desempenho da plataforma Alexandre de Gusmão, em Mero.
-  – A Petrobras também atribuiu o resultado à maior eficiência operacional desde o quarto trimestre de 2018 e à redução das perdas com paradas para manutenção.
-  – A produção de óleo e líquidos de gás natural no Brasil somou 2,832 milhões de barris por dia, alta de 12,4% em um ano.
-  – No acumulado de janeiro a setembro, a produção própria total atingiu média de 3,359 milhões de barris de óleo equivalente por dia, crescimento de 13,9% sobre igual período de 2025.
-Link: https://www.cnnbrasil.com.br/infra/petrobras-registra-producao-recorde-de-351-milhoes-de-barris-no-3o-tri/
-Por que importa: evento operacional afeta producao e custo no trimestre corrente
-Ativos: PETR4
-Como falar: 'saiu no CNN Brasil: Petrobras registra produção recorde de 3,51 milhões de barris no 3º tri; confirmar o número no texto antes de repassar'
-Fonte: CNN Brasil 28/10 20h01
-id: E05-PETR4-89ad7c0a14-2026-10-28 · status: linha
-
-[ATENÇÃO] E05 · PETR4 · Produção de petróleo da Petrobras (PETR4) sobe 12,4% e bate recorde no 3T26
-InfoMoney · 28/10 19h52 · + TradingView (Reuters) · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – Publicidade A Petrobras (PETR3; PETR4) produziu 2,83 milhões de barris por dia (bpd) de petróleo no Brasil no terceiro trimestre, alta de 12,4% na comparação com o mesmo período do ano passado, segundo relatório da comp…
-  – A companhia teve produção total de petróleo, gás e LGN em 3,5 milhões de barris de óleo equivalente por dia (boed).
-  – A produção foi recorde para a companhia, com crescimento de 11,7% na comparação com o mesmo trimestre do ano anterior.
-  – “Estamos produzindo mais e aproveitando melhor o potencial dos nossos ativos, com excelência operacional, segurança e tecnologia.
-  – As exportações de petróleo da companhia, por sua vez, somaram 987 mil bpd entre julho e setembro, avanço de 21,3% ante o mesmo período de 2025.
-  – O dado recuou quando comparado ao segundo trimestre de 2026 e, de acordo com a petroleira, reflete o aumento de 114,1% nas importações entre os dois trimestres.
-Link: https://www.infomoney.com.br/mercados/producao-de-petroleo-da-petrobras-petr4-bate-recorde-novamente-no-3o-tri/
-Por que importa: evento operacional afeta producao e custo no trimestre corrente
-Ativos: PETR4
-Como falar: 'saiu no InfoMoney: Produção de petróleo da Petrobras (PETR4) sobe 12,4% e bate recorde no 3T26; confirmar o número no texto antes de repassar'
-Fonte: InfoMoney 28/10 19h52
-id: E05-PETR4-3a401240e8-2026-10-28 · status: expirado
-
-[ATENÇÃO] E05 · GOOGL · Earnings call transcript: Alphabet Q3 2026 profit miss sparks 10% after-hours drop
-Investing.com · 28/10 18h52 · fonte única · licença: manchete
-Link: https://www.investing.com/news/transcripts/earnings-call-transcript-alphabet-q3-2026-profit-miss-sparks-10-afterhours-drop-93CH-4981037
-Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
-Ativos: GOOGL
-Como falar: 'saiu no Investing.com: Earnings call transcript: Alphabet Q3 2026 profit miss sparks 10% after-hours drop; confirmar o número no texto antes de repassar'
-Fonte: Investing.com 28/10 18h52
-id: E05-GOOGL-6d459d62c6-2026-10-28 · status: expirado
-
-[ATENÇÃO] E05 · BBDC4 · Bradesco (BBDC4): após frustração eleitoral, Itaú BBA corta ação; veja novo preço-alvo
-Money Times · 28/10 16h34 · fonte única · licença: integral
-Do texto:
-  – Bradesco (BBDC4): após frustração eleitoral, Itaú BBA corta ação; veja novo preço-alvo O Bradesco (BBDC4), que era, até pouco tempo atrás, o favorito do Itaú BBA entre os bancões, perdeu o brilho aos olhos dos analistas.
-  – Em relatório divulgado mais cedo, o BBA cortou a recomendação da ação de compra para neutra e reduziu o preço-alvo de R$ 22 para R$ 20, em meio a uma deterioração das perspectivas para a economia.
-  – Por volta das 16h33, a ação caia 6,10%, a R$ 14,77.
-  – No terceiro trimestre, o Bradesco (BBDC4) já deu sinais de fadiga.
-  – “Mas esperamos que os benefícios surjam gradualmente, limitando o potencial para uma melhoria nos custos de crédito no curto prazo”, afirma o banco.
-  – Receitas mais fracas No crédito automotivo, por exemplo, o Bradesco viu sua receita crescer 27% na comparação anual e 6% em relação ao trimestre anterior no terceiro trimestre.
-Link: https://www.moneytimes.com.br/bradesco-bbdc4-apos-frustracao-eleitoral-itau-bba-corta-acao-veja-novo-preco-alvo/
-Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
-Ativos: BBDC4
-Como falar: 'saiu no Money Times: Bradesco (BBDC4): após frustração eleitoral, Itaú BBA corta ação; veja novo preço-alvo; confirmar o número no texto antes de repassar'
-Fonte: Money Times 28/10 16h34
-id: E05-BBDC4-482996f60e-2026-10-28 · status: entregue · íntegra disponível
-
-[ATENÇÃO] E05 · BBDC4 · Itaú BBA corta recomendação do Bradesco e vê recuperação mais difícil
-UOL Economia · 28/10 16h20 · fonte única · licença: manchete
-Link: https://economia.uol.com.br/noticias/redacao/2026/10/28/itau-bba-corta-recomendacao-do-bradesco-e-ve-recuperacao-mais-dificil.htm
-Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
-Ativos: BBDC4
-Como falar: 'saiu no UOL Economia: Itaú BBA corta recomendação do Bradesco e vê recuperação mais difícil; confirmar o número no texto antes de repassar'
-Fonte: UOL Economia 28/10 16h20
-id: E05-BBDC4-2e9d4ffca4-2026-10-28 · status: entregue
-
-[ATENÇÃO] E05 · CVX · If You'd Invested $10,000 in Chevron (CVX) Stock 1 Year Ago, Here's How Much You'd Have Today
-Yahoo Finance · 28/10 09h04 · fonte única · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – What if you'd plunked $10,000 in shares of energy giant Chevron (NYSE: CVX) a year ago...
-  – Well, the answer is impressive: $15,204 (as of Oct.
-  – That's a whopping gain of 52%!
-  – To be even more impressed, note that the S&P 500 index of 500 of America's biggest companies would have turned your $10,000 into $11,629 over the same period.
-  – And before you look down on the S&P 500's performance, understand that it reflects a 16.3% gain, well above the long-term average annual S&P 500 gain of close to 10%.
-  – Most investors think they missed the AI boat because they didn't buy Nvidia in 2005.
-Link: https://finance.yahoo.com/markets/stocks/articles/youd-invested-10-000-chevron-120400804.html
-Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
-Ativos: CVX
-Como falar: 'saiu no Yahoo Finance: If You'd Invested $10,000 in Chevron (CVX) Stock 1 Year Ago, Here's How Much You'd Have T…; confirmar o número no texto antes de repassar'
-Fonte: Yahoo Finance 28/10 09h04
-id: E05-CVX-415a0ac565-2026-10-28 · status: entregue
-
-[ATENÇÃO] E05 · KLBN4 · Lucro da Klabin cai 18% no 3º tri Por Reuters
-Investing.com · 28/10 08h27 · fonte única · licença: manchete
-Link: https://br.investing.com/news/stock-market-news/lucro-da-klabin-cai-18-no-3o-tri-2105639
-Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
-Ativos: KLBN4
-Como falar: 'saiu no Investing.com: Lucro da Klabin cai 18% no 3º tri Por Reuters; confirmar o número no texto antes de repassar'
-Fonte: Investing.com 28/10 08h27
-id: E05-KLBN4-2c4e6312c8-2026-10-28 · status: linha
-
-[ATENÇÃO] E05 · BTC · Bitwise Raises Bitcoin Price Target to $1.6M by 2036, Publishes 2027 Bitcoin Long-Term Capital Market Assumptions
-PR Newswire · 28/10 12h00 · fonte única · licença: integral
-Do texto:
-  – Bitwise projects the price will rise to $1.6 million by 2036—a 34.3% compound annual growth rate.
-  – equities (6.7%) and three times the next-best asset class, private equity (10.8%).
-  – The World Bank estimates that institutional investors control roughly $147 trillion in assets, and Bitwise expects them to allocate 1% to 5% to bitcoin over the next decade.
-  – That implies $1.5 trillion to $7 trillion of demand, against only about $14 billion in new bitcoin per year.
-  – - Bitcoin showed signs of maturing in 2026 through its volatile year.
-  – Though the 50% drawdown from bitcoin's October 2025 high to its June 2026 low was painful, it was significantly shallower than past peak-to-trough cyclical drawdowns, which saw bitcoin fall 86%, 84%, and 77%.
-Link: https://www.prnewswire.com/news-releases/bitwise-raises-bitcoin-price-target-to-1-6m-by-2036--publishes-2027-bitcoin-long-term-capital-market-assumptions-302922156.html
-Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
-Ativos: BTC
-Como falar: 'saiu no PR Newswire: Bitwise Raises Bitcoin Price Target to $1.6M by 2036, Publishes 2027 Bitcoin Long-Term Ca…; confirmar o número no texto antes de repassar'
-Fonte: PR Newswire 28/10 12h00
-id: E05-BTC-6c53091403-2026-10-28 · status: entregue · íntegra disponível
-
-[ATENÇÃO] E05 · JPM · JPMorgan downgrades Xylem stock rating on guidance cut, slower orders By Investing.com
-Investing.com · 28/10 04h02 · fonte única · licença: manchete
-Link: https://ca.investing.com/news/stock-market-news/jpmorgan-downgrades-xylem-stock-rating-on-guidance-cut-slower-orders-93CH-4907771
-Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
-Ativos: JPM
-Como falar: 'saiu no Investing.com: JPMorgan downgrades Xylem stock rating on guidance cut, slower orders By Investing.com; confirmar o número no texto antes de repassar'
-Fonte: Investing.com 28/10 04h02
-id: E05-JPM-25642432c6-2026-10-28 · status: entregue
-
-[ATENÇÃO] E05 · BTC · Bitwise raises Bitcoin price target to $1.6 million by 2036
-TradingView (Reuters) · 28/10 12h09 · fonte única · licença: manchete
-Link: https://www.tradingview.com/news/cryptobriefing:82ca93d79094b:0-bitwise-raises-bitcoin-price-target-to-1-6-million-by-2036/
-Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
-Ativos: BTC
-Como falar: 'saiu no TradingView (Reuters): Bitwise raises Bitcoin price target to $1.6 million by 2036; confirmar o número no texto antes de repassar'
-Fonte: TradingView (Reuters) 28/10 12h09
-id: E05-BTC-bbf9097342-2026-10-28 · status: entregue
-
-[ATENÇÃO] E05 · VALE3 · Preços baixos do minério devem afetar resultado da Vale no 3º tri, dizem analistas
-Valor Economico · 28/10 09h54 · fonte única · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – Projeções compiladas pelo Valor junto a quatro bancos e corretoras mostram que o lucro líquido médio previsto é de US$ 1,607 bilhão, o que, caso se confirme, será 40,1% abaixo do terceiro trimestre do ano passado.
-  – A Vale divulga os resultados do terceiro trimestre na quinta-feira (29), depois do fechamento do mercado.
-  – Confira resultados e indicadores da Vale e das demais companhias de capital aberto no portal Valor Empresas 360  Neste trimestre, a Vale passará a divulgar os dados de produção juntamente com o balanço financeiro.
-  – A média para a receita líquida projetada inclui cinco bancos e corretoras e aponta para um montante de R$ 10,345 bilhões no terceiro trimestre, 0,72% a menos que em igual período do ano passado.
-  – Para o lucro antes de juros, impostos, depreciação e amortização (Ebitda, na sigla em inglês), a média das cinco casas de análise é de US$ 3,5 bilhões, 20,4% inferior ao terceiro trimestre de 2025.
-  – As estimativas de lucro variam de US$ 1,087 bilhão do Itaú BBA aos US$ 2,428 bilhões do BTG Pactual, enquanto as projeções para a receita líquida vão dos US$ 10,06 bilhões do Itaú BBA aos US$ 10,549 bilhões do BTG Pactu…
-Link: https://valor.globo.com/empresas/noticia/2026/10/28/precos-baixos-do-minerio-devem-afetar-resultado-da-vale-no-3o-tri-dizem-analistas.ghtml
-Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
-Ativos: VALE3
-Como falar: 'saiu no Valor Economico: Preços baixos do minério devem afetar resultado da Vale no 3º tri, dizem analistas; confirmar o número no texto antes de repassar'
-Fonte: Valor Economico 28/10 09h54
-id: E05-VALE3-371ad405f4-2026-10-28 · status: entregue
-
-[ATENÇÃO] E05 · KLBN4 · Klabin (KLBN11) tem queda de 18% no lucro líquido do 3T26
-Suno Noticias · 28/10 09h50 · fonte única · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – A Klabin (KLBN11) registrou lucro líquido de R$ 393 milhões no terceiro trimestre de 2026, queda de 18% frente a igual período de 2025.
-  – O Ebitda ajustado somou R$ 1,856 bilhão entre julho e setembro, recuo de 12% em relação ao período correspondente do ano anterior.
-  – A receita líquida totalizou R$ 5,566 bilhões no terceiro trimestre de 2026, 3% maior ante o terceiro trimestre de 2025.
-  – O resultado financeiro da Klabin (KLBN11) foi negativo em R$ 337 milhões no período, frente a R$ 670 milhões negativos em igual trimestre de 2025.
-  – “O trimestre foi marcado pela parada programada de manutenção da unidade de Otacílio Costa.
-  – Endividamento da Klabin (KLBN11) recua e investimentos sobem O endividamento líquido somou R$ 23,977 bilhões ao fim do terceiro trimestre, diminuição de 8% frente a igual período de 2025 e estável na comparação trimestr…
-Link: https://www.suno.com.br/noticias/lucro-liquido-klabin-cai-atinge-393-milhoes-3o-trimestre-go/amp/
-Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
-Ativos: KLBN4
-Como falar: 'saiu no Suno Noticias: Klabin (KLBN11) tem queda de 18% no lucro líquido do 3T26; confirmar o número no texto antes de repassar'
-Fonte: Suno Noticias 28/10 09h50
-id: E05-KLBN4-2070982819-2026-10-28 · status: entregue
-
-[ATENÇÃO] E05 · KLBN4 · Klabin: resultado do 3T26 mostra lucro menor, mas receita cresce e supera expectativas
-ADVFN · 28/10 09h00 · fonte única · licença: manchete
-Link: https://br.advfn.com/jornal/2026/10/klabin-resultado-do-3t26-mostra-lucro-menor-mas-receita-cresce-e-supera-expectativas
-Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
-Ativos: KLBN4
-Como falar: 'saiu no ADVFN: Klabin: resultado do 3T26 mostra lucro menor, mas receita cresce e supera expectativas; confirmar o número no texto antes de repassar'
-Fonte: ADVFN 28/10 09h00
-id: E05-KLBN4-0b524b4463-2026-10-28 · status: linha
-
-[ATENÇÃO] E05 · AMD · Aletheia Capital raises AMD stock price target to $800 on AI demand
-Investing.com · 28/10 08h45 · fonte única · licença: manchete
-Link: https://www.investing.com/news/analyst-ratings/aletheia-capital-raises-amd-stock-price-target-to-800-on-ai-demand-93CH-4978727
-Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
-Ativos: AMD
-Como falar: 'saiu no Investing.com: Aletheia Capital raises AMD stock price target to $800 on AI demand; confirmar o número no texto antes de repassar'
-Fonte: Investing.com 28/10 08h45
-id: E05-AMD-eb4b4b3428-2026-10-28 · status: linha
-
-[ATENÇÃO] E05 · KLBN4 · Lucro da Klabin (KLBN11) cai 18% no 3º trimestre, para R$ 393 milhões
-Money Times · 28/10 08h44 · + InfoMoney, CNN Brasil · licença: integral
-Do texto:
-  – A companhia teve resultado operacional medido pelo lucro antes de juros, impostos, depreciação e amortização (Ebitda) ajustado de R$ 1,86 bilhão, recuo de 12% em relação ao resultado de um ano antes.
-  – Analistas, em média, esperavam que a Klabin divulgasse Ebitda ajustado de R$ 1,85 bilhão, de acordo com dados da LSEG.
-  – A receita líquida somou R$ 5,57 bilhões, crescimento de 3% na mesma comparação e também em linha com as expectativas dos analistas de R$ 5,47 bilhões, enquanto o volume de vendas permaneceu estável.
-Link: https://www.moneytimes.com.br/lucro-da-klabin-klbn11-cai-18-no-3o-trimestre-para-r-393-milhoes-lmrs/
-Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
-Ativos: KLBN4
-Como falar: 'saiu no Money Times: Lucro da Klabin (KLBN11) cai 18% no 3º trimestre, para R$ 393 milhões; confirmar o número no texto antes de repassar'
-Fonte: Money Times 28/10 08h44
-id: E05-KLBN4-e3d41ea6ff-2026-10-28 · status: linha · íntegra disponível
-
-[ATENÇÃO] E05 · KLBN4 · Lucro da Klabin cai 31% no 3º trimestre com pressão de custos e câmbio
-Valor Economico · 28/10 08h37 · fonte única · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – O lucro líquido consolidado foi de R$ 393,12 milhões no período, queda de 18% na comparação anual.
-  – As receitas líquidas da companhia do setor de papel e celulose chegaram a R$ 5,56 bilhões entre julho e setembro, alta de 3% sobre o mesmo período de 2025.
-  – “Além disso, o trimestre também foi pressionado por maiores despesas portuárias diante do aumento de volume exportado”, disse comunicado que acompanha o balanço.
-  – O volume total de produção de celulose e papéis foi de 1.120 mil toneladas de julho a setembro, queda de 11 mil toneladas em relação ao mesmo trimestre do ano anterior.
-  – O resultado financeiro foi negativo em R$ 337 milhões, queda de 50% ante o mesmo período de 2025, reflexo do menor nível de despesas financeiras.
-  – O fluxo de caixa livre da empresa encerrou o trimestre com geração de R$ 73 milhões no período, inferior aos R$ 699 milhões quando comparado com o mesmo período do ano anterior.
-Link: https://valor.globo.com/empresas/noticia/2026/10/28/lucro-da-klabin-cai-31percent-no-3o-trimestre-com-pressao-de-custos-e-cambio.ghtml
-Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
-Ativos: KLBN4 · USDBRL
-Como falar: 'saiu no Valor Economico: Lucro da Klabin cai 31% no 3º trimestre com pressão de custos e câmbio; confirmar o número no texto antes de repassar'
-Fonte: Valor Economico 28/10 08h37
-id: E05-KLBN4-68846902f7-2026-10-28 · status: linha
-
-[ATENÇÃO] E05 · USDBRL · Investidores aguardam decisão de juros do Fed e digerem fuga de Flávio Bolsonaro; Ibovespa em dólar sobe nesta quarta-feira (28)
-Money Times · 28/10 07h39 · fonte única · licença: integral
-Do texto:
-  – A expectativa dos investidores é da manutenção dos juros nos atuais patamares de 3,75% a 4,00% ao ano.
-  – No cenário doméstico, as repercussões políticas da fuga do senador Flávio Bolsonaro (PL) do Brasil na noite de segunda-feira (26) para terça-feira (27) ainda ecoam por aqui.
-  – Nesta terça-feira (27), o principal índice da bolsa brasileira terminou as negociações com queda de 0,51%, aos 175.710,05 pontos.
-  – Já o dólar à vista encerrou o dia a R$ 5,3506, com queda de 0,97%.
-  – O iShares MSCI Brazil (EWZ) — principal ETF brasileiro negociado em Nova York — sobe 0,26%, cotado a US$ 34,39.
-Link: https://www.moneytimes.com.br/investidores-aguardam-decisao-de-juros-do-fed-e-digerem-fuga-de-flavio-bolsonaro-ibovespa-em-dolar-sobe-nesta-quarta-feira-28-rens/
-Por que importa: decisao de politica monetaria reprecifica toda a curva e o cambio
-Ativos: USDBRL
-Como falar: 'saiu no Money Times: Investidores aguardam decisão de juros do Fed e digerem fuga de Flávio Bolsonaro; Ibovesp…; confirmar o número no texto antes de repassar'
-Fonte: Money Times 28/10 07h39
-id: E05-USDBRL-3c21682c79-2026-10-28 · status: linha · íntegra disponível
-
-[ATENÇÃO] E05 · JPM · JPMorgan downgrades Xylem stock rating on guidance cut, slower orders
-Investing.com · 28/10 03h50 · fonte única · licença: manchete
-Link: https://www.investing.com/news/analyst-ratings/jpmorgan-downgrades-xylem-stock-rating-on-guidance-cut-slower-orders-93CH-4977546
-Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
-Ativos: JPM
-Como falar: 'saiu no Investing.com: JPMorgan downgrades Xylem stock rating on guidance cut, slower orders; confirmar o número no texto antes de repassar'
-Fonte: Investing.com 28/10 03h50
-id: E05-JPM-79be771645-2026-10-28 · status: linha
-
-[ATENÇÃO] E05 · JPM · Anthropic taps JPMorgan to lead IPO’s U.S. retail sales, Bloomberg reports
-Yahoo Finance · 27/10 22h39 · fonte única · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – The artificial intelligence company behind Claude has considered allocating about 15% to 20% of the IPO's total shares to retail investors, although discussions remain ongoing and the proportion could change, the report…
-  – JPMorgan is also leading retail investor outreach for SpaceX's (NASDAQ:SPCX) $86.2 billion IPO, which attracted more than $100 billion in individual investor demand, Bloomberg reported.
-  – Investors have indicated a potential valuation of $1.4 trillion to $1.5 trillion, with $1.75 trillion possible, Bloomberg previously reported.
-Link: https://finance.yahoo.com/markets/stocks/articles/anthropic-taps-jpmorgan-lead-ipo-013931112.html
-Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
-Ativos: JPM
-Como falar: 'saiu no Yahoo Finance: Anthropic taps JPMorgan to lead IPO’s U.S. retail sales, Bloomberg reports; confirmar o número no texto antes de repassar'
-Fonte: Yahoo Finance 27/10 22h39
-id: E05-JPM-69201783df-2026-10-28 · status: linha
-
-[ATENÇÃO] E05 · PETR4 · Petrobras: CVM multa Cerveró em R$ 16 mi por desvios na compra de Pasadena
-CNN Brasil · 27/10 22h03 · + g1 · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – A CVM (Comissão de Valores Mobiliários) decidiu, nesta terça-feira (27), pela condenação do ex-diretor da área internacional da Petrobras, Nestor Cuñat Cerveró, no caso da compra da refinaria de Pasadena.
-  – Em fevereiro de 2006, a estatal adquiriu a refinaria localizada no estado norte-americano do Texas, um projeto de responsabilidade de Cerveró.
-  – Cerveró foi condenado a multa de R$ 16.122.750,00 e foi inabilitado por 15 anos de assumir cargos como administrador ou conselheiro fiscal em companhais de capital aberto.
-  – A CVM ainda decidiu por extinguir a punição contra o ex-diretor da Petrobras Paulo Roberto Costa, que morreu em agosto de 2022.
-  – Investigado e condenado Em 2014, Nestor Cerveró reconheceu ser o responsável pela elaboração do projeto em que havia as cláusulas Marlim e Put option, criticadas pela ex-presidente Dilma Rousseff (PT).
-  – A cláusula Marlim garantia à empresa belga Astra Oil, sócia da Petrobras America Inc, rentabilidade mínima de 6,9% ao ano.
-Link: https://www.cnnbrasil.com.br/economia/money/negocios/petrobras-cvm-multa-cervero-em-r-16-mi-por-desvios-na-compra-de-pasadena/
-Por que importa: aquisicao ou venda muda alavancagem, mix de receita e o multiplo; olhar preco pago e financiamento
-Ativos: PETR4
-Como falar: 'saiu no CNN Brasil: Petrobras: CVM multa Cerveró em R$ 16 mi por desvios na compra de Pasadena; confirmar o número no texto antes de repassar'
-Fonte: CNN Brasil 27/10 22h03
-id: E05-PETR4-2f6db13f23-2026-10-28 · status: linha
-
-[ATENÇÃO] E05 · ITUB4 · Itaú compra startup mineira de IA por quase R$ 3 bilhões
-g1 · 27/10 18h55 · fonte única · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – "Isso abre espaço para soluções mais personalizadas, que levam em conta o contexto e o momento de cada cliente na hora de apoiar suas decisões financeiras, com o mesmo cuidado com segurança, privacidade e uso responsáve…
-  – Segundo levantamento do UberHub, comunidade de startups de Uberlândia, as empresas de tecnologia do município movimentaram cerca de R$ 13 bilhões em investimentos, aquisições e geração de valor nos últimos oito anos.
-  – Com a compra da NeoSpace AI, esse montante se aproxima de R$ 16 bilhões.
-Link: https://g1.globo.com/mg/triangulo-mineiro/noticia/2026/10/27/itau-compra-startup-mineira-de-ia-por-quase-r-3-bilhoes.ghtml
-Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
-Ativos: ITUB4
-Como falar: 'saiu no g1: Itaú compra startup mineira de IA por quase R$ 3 bilhões; confirmar o número no texto antes de repassar'
-Fonte: g1 27/10 18h55
-id: E05-ITUB4-e5d805a382-2026-10-27 · status: linha
-
-
-## OUTRAS NOTÍCIAS (só manchete) (88)
-
+· NVDA Google's Nvidia chip challenge boosts cloud sales, crimps cash flow (Reuters) https://www.reuters.com/business/googles-nvidia-chip-challenge-boosts-cloud-sales-crimps-cash-flow-2026-10-29/
+· ETH Current price of Ethereum for Oct. 29, 2026 (Fortune) https://fortune.com/article/price-of-ethereum-10-29-2026/
+· GOOGL Google stock plunges 11% on Q3 earnings miss (Yahoo Finance) https://finance.yahoo.com/technology/article/google-stock-plunges-11-on-q3-earnings-miss-130617052.html
+· UST US 10-Year Treasury Yield Little Changed At 5% (TradingView (Reuters)) https://www.tradingview.com/news/te_news:596331:0-us-10-year-treasury-yield-little-changed-at-5/
+· USDBRL Dólar abre em alta com EUA e política fiscal brasileira em foco (CNN Brasil) https://www.cnnbrasil.com.br/economia/money/mercado/mercado-financeiro-ibovespa-dolar-29-outubro-2026/
+· USDBRL Tempo real: Ibovespa cai com incerteza fiscal; dólar sobe (Money Times) https://www.moneytimes.com.br/tempo-real-29-10-26-lils/
+· USDBRL Café pode ficar mais caro após alta do dólar? Economista explica impactos (InfoMoney) https://www.infomoney.com.br/mercados/cafe-pode-ficar-mais-caro-apos-alta-do-dolar-economista-explica-impactos/
+· NVDA Pick-and-Shovel vs. Edge Gatekeeper: Why Investors Are Splitting Between Nvidia and Apple (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/pick-shovel-vs-edge-gatekeeper-124531248.html
+· MU Micron Dips as Samsung Earnings Show the High Bar for Memory Stocks. (Barron's) https://www.barrons.com/articles/micron-stock-samsung-earnings-memory-ed814f52
+· USDBRL Dólar hoje avança em linha com o exterior (InfoMoney) https://www.infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-29102026/
+· BRENT Dólar sobe com petróleo em queda e incertezas fiscais (UOL Economia) https://economia.uol.com.br/noticias/estadao-conteudo/2026/10/29/dolar-sobe-com-petroleo-em-queda-e-incertezas-fiscais.htm
+· USDBRL Ibovespa futuro cai com fiscal em foco e tom negativo de Wall Street; dólar tem leve alta (Money Times) https://news.google.com/rss/articles/CBMibEFVX3lxTE9jU1kzbEtvMzR6YUx3WlNHUXhmRF9yOUJlbHhMUmpiNHpaUXhzS25DNGlmU1c0NU5FTk1IV3ZaMHVEb25JU2ZqQjhBRjJ1MlIzd0VmaGpyVE1XNzQxS3FhQ3J4bnZicVhjTGZHRw?oc=5
+· USDBRL Dólar sobe ante real em sintonia com o exterior Por Reuters (Investing.com) https://news.google.com/rss/articles/CBMinAFBVV95cUxPWDJaSF9UOGd3UDlERFdCNmVsbHFNTVYtTVV3cWZ1ZGRTeGNxakFJV3JCZ3U5Zkg4THVvcER2R2pEWmItMmFvRFMzZklWRExFNk1odG0yUEh4cnVDV2dvZTdBNURzWXpFbnJ4NzJmeEctR0YzNVVyZHlRV0lRNWJNSHdRakJSc3p1ZlZWS1NmczZrMXhyU2VFdjRJcHY?oc=5
+· AMD Advanced Micro (AMD) Q3 Earnings on the Horizon: Analysts' Insights on Key Performance Measures (Yahoo Finance) https://news.google.com/rss/articles/CBMimwFBVV95cUxPZHdjNVhEWXoxWDNKbVJEbFd3eEVkekVLWDV2WC1ZcHo0bWhDLThMN0FqWXdUSTdxTlhMbHB5aGVNdWxLV0NiYnNmQlRMd0tRTHVuamJ0WGZzcmM2TDJMNDZBT0dsam8xeUMwaGlOQzZsZHdJblEyVnVjbWFTR2NLZG11LXdBRGRlMXBQUUl3cENrcm53X2pOeE91cw?oc=5
+· NVDA Here are Thursday's biggest analyst calls: Nvidia, Anthropic, Apple, Tesla, Chevron, Microsoft, Alphabet & more (CNBC) https://news.google.com/rss/articles/CBMiigFBVV95cUxNcVA5WXFSbjhHemhHc0pudjZKVlU3X1JOMzVMLUdGMUI1Y3JOYXBRZHNBOUg1bEYxOWJJT042czBjSW5CWnc3Mi1vSjc4M3lkZ0ZkZ09sRkZYSlVDaHJRVkNGVFhBNzcwTXBrUHduZXh3VjZPNU93SkYzaWRTeVlORTRDS3hsVlJuLWc?oc=5
 · GOOGL Alphabet Earnings: Google Parent's Wobbly Quarter Is No Sign of a Crisis (Bloomberg) https://www.bloomberg.com/opinion/articles/2026-10-29/alphabet-earnings-google-parent-s-wobbly-quarter-is-no-sign-of-a-crisis
 · PETR4 Petrobras, Vale, Ambev, Oncoclínicas, Casas Bahia e mais ações para acompanhar hoje (InfoMoney) https://www.infomoney.com.br/mercados/petrobras-vale-ambev-oncoclinicas-casas-bahia-e-mais-acoes-para-acompanhar-hoje/
 · GOOGL Alphabet’s SpaceX Bet Wiped 55 Cents Off Its Earnings (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/alphabet-spacex-bet-wiped-55-111610461.html
@@ -503,44 +198,3 @@ id: E05-ITUB4-e5d805a382-2026-10-27 · status: linha
 · NVDA S&P 500, Nasdaq Futures Dip As Weaker-Than-Expected Alphabet Earnings Reignite AI Spending Worries — GOOGL, MSFT, ORCL, NVDA, MRVL In Focus (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/p-500-nasdaq-futures-dip-001028850.html
 · PETR4 Petrobras tem recorde na produção média de óleo, LGN e gás no terceiro trimestre (Valor Economico) https://valor.globo.com/empresas/noticia/2026/10/28/petrobras-tem-producao-media-de-oleo-lgn-e-gas-recorde-no-terceiro-trimestre.ghtml
 · DI Juros de 10 anos sobem a 15,04% e mercado vê Selic mantida (Poder360) https://www.poder360.com.br/poder-economia/juros-de-10-anos-sobem-a-1504-e-mercado-ve-selic-mantida/
-· USDBRL Ibovespa tem forte queda e dólar fecha estável em novo ajuste pós-eleição (TradingView (Reuters)) https://br.tradingview.com/news/reuters.com,2026:newsml_L2N46E1PT:0/
-· GOOGL Google Cloud surges as Search slows (CNBC) https://www.cnbc.com/video/2026/10/28/google-cloud-surges-as-search-slows.html
-· GOOGL Investors weigh Alphabet's cloud growth against its AI capex spend (CNBC) https://www.cnbc.com/video/2026/10/28/investors-weigh-alphabets-cloud-growth-against-its-ai-capex-spend.html
-· GOOGL Google Cloud Revenue Just Grew 103%, so Why Is the Stock Falling? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/google-cloud-revenue-just-grew-232306863.html
-· MRVL Marvell’s Potential Lumentum Deal Sends LITE Surging, MRVL Sliding After-Hours (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/marvell-potential-lumentum-deal-sends-232041510.html
-· MRVL Marvell Is Said to Near Deal for Lumentum In AI-Related Megadeal (Bloomberg) https://news.google.com/rss/articles/CBMitgFBVV95cUxNTGdUMkpHa2JOcFhCMTFQU0tLaTJkTU54TmQ2aGJnVVVMR2VzeGdzLS1ONXd0U3hqQ0xPZUlEeTgyOWVXMHRQQ0hIeW5aX21JRkpNY3FlRUdNM1ZJMS1ZX3JwMWUteGVLdFFaVlNZMjZXUWtSSXNVRlEwdnRvbU9iQVBnNS1ycUgxMU5LTGtQQ0hSTWNOTkhBZ3FNRC1HaEZXZG9UMUd1QlBfeG1qZ044cTQtTk9Ydw?oc=5
-· PETR4 Produção de petróleo da Petrobras (PETR4) sobe 12,4% no 3º trimestre de 2026 (InfoMoney) https://news.google.com/rss/articles/CBMisAFBVV95cUxQRzI3V1kwZF8xTWRBclZ4LTlmdGxPU3Y3bnNobVZPb0xnUEpGbEd1Z3VBc2oyd3psLXF1bmEwOUI1a3ZLREFkd2QwU205Ni1RdWVoeEJROHJGQWxXTTF1bExiZFlUTmVGeTdrWnJxNk1KZXBjSWRlV1lMNXZXOG5ETERJNnp3STYxcXFhNFhDbWljcnpuX1lKWFk2UzNfbkV2WkZlUmhFemNaXzlhYUVaMNIBtgFBVV95cUxPaUVHblBFYm02TllONDJmeFlvb3BCTk9NbThEckhadW9LZ0VaNTFhd1J3VGotUG9nQ094SjQ2ellreFJaVlJCUmFicnFkSGF6REhvYWdzTE1UQ0l3elNqaUdxMWMtV3hteUVtUXFoYW51dDlLYTJ3RHVCVnAwU3l0RVRiUWhoSjRDQ21wX3FuVXg1VVY3dy1RZ2daOUpTMmhHaFItWGp0Ni1ubC14a00xNjc0bUV5QQ?oc=5
-· BTC Bitcoin Fell Five Days in a Row While Nearly 15,000 BTC Left Exchanges. Is a Bounce Coming? (Yahoo Finance) https://news.google.com/rss/articles/CBMilgFBVV95cUxOV2RtUWNxVGlYam45MEktVWpCWGoyQlNUVEhzaUVtM2ttTVVWV1Z3RVJUN2FLam5hLVBENmFsVEhWRFFEdzRFZGNsV1VBQlhzN1V5YVJaZmNzU0pySFhvYm1vTnhMV3FsN1FFejJ2UzFUcnhXeFFpTXdmdnZQTzEwOWxSckRqUXhGMm00Vk81a2JYank4cEE?oc=5
-· MRVL Marvell nears deal for optical supplier Lumentum to bolster hardware, report says (Yahoo Finance) https://news.google.com/rss/articles/CBMijAFBVV95cUxQbHh0M19VQ2FxTVNWYmRWSnA3TWRQZk5TUDNDOEUyMHA2UVZBTlFXYmlUN01jLXZETlFMWHVKUkN4VGZsWFJzU0hYLVNqblI3NUd1SU9jbG1OYUlMdGt3ZEFKMXdrZElhc0ZvbFNLV2tzQW9FWWY4T2dtbjQyb004LVZZTmcwT19SalZ0Ng?oc=5
-· USDBRL Ibovespa cai 2,68%, e dólar fecha em leve baixa a R$ 5,34 (Agencia Brasil) https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/ibovespa-cai-268-e-dolar-fecha-em-leve-baixa-r-534
-· INTC Intel to report Q3 earnings as chip stocks continue to rebound (Yahoo Finance) https://finance.yahoo.com/technology/article/intel-to-report-q3-earnings-as-chip-stocks-continue-to-rebound-221713961.html
-· NVDA Google parent's revenue jumps 25% as homegrown AI chips take on Nvidia (Nikkei Asia) https://asia.nikkei.com/business/technology/google-parent-s-revenue-jumps-25-as-homegrown-ai-chips-take-on-nvidia
-· GOOGL Google Shares Fall 10% as Growth in Search Revenue Slows (The Wall Street Journal) https://www.wsj.com/tech/ai/alphabet-googl-q3-earnings-report-2026-stock-fa41392d
-· GOOGL Shares in Google owner Alphabet plummet on profit miss, ad slowdown (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/shares-google-owner-alphabet-sink-204437200.html
-· GOOGL Watch Alphabet's Disappointing Earnings Report: Behind the Numbers (Bloomberg) https://www.bloomberg.com/news/videos/2026-10-28/breaking-down-alphabet-s-disappointing-earnings-report-video
-· GOOGL Alphabet shares fall after revenue miss, cash burn worsens (Reuters) https://www.reuters.com/business/alphabets-google-cloud-unit-beats-quarterly-revenue-estimates-steady-ai-demand-2026-10-28/
-· KO Coca-Cola Co (KO) (Q3 2026) Earnings Call Highlights: Broad-Based Volume Growth and Raised ... (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/coca-cola-co-ko-q3-210143408.html
-· USDBRL Dólar hoje vai a R$ 5,34, com noticiário eleitoral e decisão do Fed que manteve juros (InfoMoney) https://www.infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-28102026/
-· AVGO Broadcom Inc. (AVGO) Laps the Stock Market: Here's Why (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/broadcom-inc-avgo-laps-stock-204503001.html
-· GOOGL Alphabet (GOOGL) Q3 Earnings: How Key Metrics Compare to Wall Street Estimates (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/alphabet-googl-q3-earnings-key-203002179.html
-· GOOGL Alphabet Earnings: Why Google Stock Is Falling (Barron's) https://news.google.com/rss/articles/CBMigAFBVV95cUxQc1cyWEw2N29xSWxneld4YlNXRFozMUVXMVVuR1ZBbXBDWno5Nzd4QklMQmFVZi1yTld5M2pfTk9TOXpYdGRBVm51WTNKQ2J4MVJPME1naEtCM3N2SXBNbVVlZzVBdS1nbnVnNy10WFFQanh4Y1VjUW12Y2dsYTVzTw?oc=5
-· BBDC4 Bradesco (BBDC4) lucra R$ 7,1 bi, mas outra conta preocupa os bancos (Suno Noticias) https://news.google.com/rss/articles/CBMiakFVX3lxTE96TjRWRmc1OXBLQ2E2RnhFM2tpZDNGVzNTQ1k3cnRvbS1PMUI1cjNYMHFmV2lZMV9sOG1JeUg2Vm03WVY5Z1E0aGZ0R1JKeGpVZURLRTdybzZ1TFBmMDMxT0NoaTJiTGdOM0HSAW9BVV95cUxQOGluR2hNQTBMMDI1d2syMXRDYVpCaEgtbEt6VnFWeXVucGhJXzNrRVlmV2ZjejBPU3dDTlAtaWdYbldMZ25OY0VYeXZnd2tVVFFDYkZpdDN2ak1DUWZ6Z3B4Q2IzU2xRWHBQb3NXcVU?oc=5
-· GOOGL Alphabet’s Google Cloud revenue doubles to $31 billion as cash flow stays deep red (Fortune) https://fortune.com/2026/10/28/alphabet-google-stock-drops-cloud-revenue-doubles-free-cash-flow-negative/
-· BTC Bitcoin-backed mortgages are coming to Canada, but borrowers are still unaware of the cost (CoinDesk) https://www.coindesk.com/markets/2026/10/28/bitcoin-backed-mortgages-are-coming-to-canada-but-borrowers-are-still-unaware-of-the-cost
-· MRVL Marvell Is Said to Near Deal for Lumentum In AI-Related Megadeal (Bloomberg) https://www.bloomberg.com/news/articles/2026-10-28/marvell-is-said-to-near-deal-for-lumentum-in-ai-related-megadeal
-· UST Update: US Equity Indexes Rise, Treasury Yields Fall After Fed Stays on Hold (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-rise-treasury-210352134.html
-· NVDA NVIDIA Sets Conference Call for Third-Quarter Financial Results (Yahoo Finance) https://uk.finance.yahoo.com/news/nvidia-sets-conference-call-third-210000331.html
-· USDBRL Ibovespa cai 2,71%; dólar recua 0,19%, a R$ 5,340 (Poder360) https://www.poder360.com.br/poder-economia/ibovespa-cai-271-dolar-recua-019-a-r-5340/
-· GOOGL Alphabet Third-Quarter Results Miss Estimates as Capital Spending More Than Doubles (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/alphabet-third-quarter-results-miss-205811216.html
-· USDBRL Ibovespa cai 2% com cautela fiscal e tributação em foco; dólar recua (Money Times) https://www.moneytimes.com.br/ibovespa-28-10-26-lils/
-· INTC Intel (INTC) reports earnings tomorrow: what to expect (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/intel-intc-reports-earnings-tomorrow-203034707.html
-· GOOGL Alphabet Reports Disappointing Revenue, Income; Shares Drop (Bloomberg) https://www.bloomberg.com/news/articles/2026-10-28/alphabet-reports-disappointing-revenue-income-shares-drop
-· GOOGL Google stock plunges as Q3 sales fall short of expectations (Yahoo Finance) https://finance.yahoo.com/technology/article/google-stock-plunges-as-q3-sales-fall-short-of-expectations-202657047.html
-· GOOGL Alphabet's heavy cloud spending drives bigger-than-expected cash burn (Reuters) https://news.google.com/rss/articles/CBMiwAFBVV95cUxNajBhM1htcElGckpqVEh4RzlEdTM3emlCNXFUUHhWd2JBSTROUEYzOUNrSkxSWm1wVHZNbEl0TDVCbEZ5WnBSMVRkY3ZQZTJOQTgxYXJXa1daRDZMRmUwc1c0bWExV29zcGhJM1Q3eWc0M2RCblVoTUxzX19qUG0wVUNlT1N3QU5uNE02aDhjNW13LVlaY0dib203U3J2Um9PUWsySlEzTFlLbkFRc25jbHA5TkFpbzlBX3pJUmhGX0E?oc=5
-· GOOGL Alphabet Stock Falls 8% Even as Cloud Sales Double: Is AI Spending the Problem? (Yahoo Finance) https://news.google.com/rss/articles/CBMilwFBVV95cUxPeklaRGZkZmU0VGEwX243bnRqdkwtUk5TaGQ2MHhCT2lrLS11Y0pOaFNLWkowQlFvNk5FTmFXSEszd1JjbkpaN2N3cjI5cG0ySFRzVU1rejBQaDUxejZ2UnFteHRpNFJ0Q3NGamU2UDNEc3lEWFE1V1BKblNMZVI2eTVYaXFZRTZ1R2t3cmh2OXhCWWhBUmhB?oc=5
-· UST U.S. Stocks Up, Treasury Yields Mixed After Fed Hold (The Wall Street Journal) https://news.google.com/rss/articles/CBMimgFBVV95cUxQLVpkc0tPSDBPVHptQ0w1dG1CTjVvTXpYZTAwbWlJOVpJUHc3UTN5R2pPeTA0QnoyVWpRVGpLS3JFd0xSeDdoWjJtRlJBNHZXVm5kcTBRaUdxQTNNeGdNQmFxYWE0MjBoZG80SVlscnJSaGRDdDBmUFRsT3BtWnd5TjlwZ3dqWDNDRnFVamJ4RlVqZThYTm5tVTJB?oc=5
-· PLTR Palantir Q3 Earnings Preview: What To Expect From Upcoming Report (TradingView (Reuters)) https://news.google.com/rss/articles/CBMiwgFBVV95cUxOTS0tQ21KWGZoM09SU3MyQW1LVlVrbmVFQ0xnSlJfUzRrS1NnS0pmaGtXQ25jQ2FCTDg1OUlyX21TRlQtRnZNbjUxVGlITkhpOHVZRUw0RlJPZmZQQU1LWlotLWpDYzZqYUJqRTRpdnk5cVdmTUZiRkVfLVl2SEVTRUpTeXA3aGpTNlk3bDBiVFcxbjVwVUZ4YlRoaExvbWF0YTlvbnZmZ0FtTHJXX2gxZHY1WjJQQUpLaWt1M0REUmk5dw?oc=5
-· AMD Should You Buy AMD Stock Before Nov. 3? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/buy-amd-stock-nov-3-182000542.html
-· TESOURO Tesouro Direto: como investir agora, com taxas em vaivém após a eleição (InfoMoney) https://www.infomoney.com.br/onde-investir/tesouro-direto-como-investir-agora-com-taxas-em-vaivem-apos-a-eleicao/
-· ITUB4 Bradesco perde recomendação de compra do Itaú BBA; entenda o que preocupa os analistas (Estadao) https://www.estadao.com.br/einvestidor/onde-investir/bradesco-perde-recomendacao-de-compra-do-itau-bba-entenda-o-que-preocupa-os-analistas/
-· (+28 manchetes; lista completa em eventos/noticias.json)

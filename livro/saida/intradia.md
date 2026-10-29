@@ -1,165 +1,76 @@
 ALERTAS · intradia
 
-(pendente de slot anterior) [CRÍTICO] CURVA · C04 IPCA+ 2032 rompe 7,00% real: 7,78% (-32 bps), base 27/10 / C04 IPCA+ 2035 rompe 7,50% real: 8,02% (+126 bps), base 26/10 / C04 IPCA+ 2040 rompe 7,00% real: 7,53% (-18 bps), base 27/10
-PU R$ 3.098,02; cada 10 bps move ~0,5% do PU
-Desde 2010, 49% dos dias tiveram taxa maior neste título
-PU R$ 2.478,28; cada 10 bps move ~0,8% do PU
-Desde 2010, 0% dos dias tiveram taxa maior neste título
-PU R$ 1.762,11; cada 10 bps move ~1,3% do PU
-Desde 2010, 11% dos dias tiveram taxa maior neste título
-PU R$ 925,70; cada 10 bps move ~2,2% do PU
-Desde 2010, 25% dos dias tiveram taxa maior neste título
-PU R$ 925,70; cada 10 bps move ~2,2% do PU
-Desde 2010, 25% dos dias tiveram taxa maior neste título
-PU R$ 3.914,66; cada 10 bps move ~0,3% do PU
-Desde 2010, 4% dos dias tiveram taxa maior neste título
-TD Pre 2029 14,79 (-61) PU +1,2% · IPCA+ 2032 7,78 (-32) PU +1,8% · IPCA+ 2040 7,53 (-18) PU +2,4% · IPCA+ 2050 7,18 (-46) PU +11% · Pre 2032 15,06 (-72) PU +3,3%
-Pre 2031 cruzou 14,00% (agora 15,75%)
-Pre 2031 cruzou 14,50% (agora 15,75%)
-Pre 2031 cruzou 15,00% (agora 15,75%)
-Implícita 2029: 6,69% (+113 bps na semana) vs Focus IPCA 2029 3,50% (+319 bps)
-Implícita 2032: 6,75% (+103 bps na semana) vs Focus IPCA 2030 3,50% (+325 bps)
-Implícita 2031/32 (descasado): 7,08% (+143 bps na semana) vs Focus IPCA 2030 3,50% (+358 bps)
-Por que importa: juro real acima de 6-7% é o argumento central do assessor brasileiro para renda fixa; cada 0,50 pp muda o discurso
-Como falar: 'o Tesouro IPCA+ passou a pagar 7,78% acima da inflação; é nível raro, não rotina'
-Fonte: Tesouro Transparente base 27/10; BCB Focus · Tesouro Transparente, base 26/10 · Tesouro Transparente, base 27/10
-ids: C04-IPCA2032-cima_7.0-2026-10-27, C04-IPCA2035-cima_7.5-2026-10-26, C04-IPCA2040-cima_7.0-2026-10-27, C04-IPCA2050-cima_7.0-2026-10-27, C04-IPCA2050-baixo_7.5-2026-10-27, C04-IPCA2029-cima_7.5-2026-10-26, C05-TESOURO-fechou-2026-10-27, C03-TESOURO-td-2026-10-27, C06-TESOURO-implicita-2026-10-27
-
-(pendente de slot anterior) [ATENÇÃO] E01 · AMZN: resultado sai na próxima sessão (29/10)
-qui 29/10 · após o fechamento de NY · estimado (config/calendario.yaml)
-Vol de 20 dias +33% a.a. ⇒ movimento típico de 1 dia ±2,1%
-Chega ao resultado com 1m +2,9% · 6m -3,7% · YTD +9,8%
-Consenso: não disponível (sem fonte licenciada); usar o release e o guidance anterior
-Nota: um agregador cita 22/10
-Por que importa: resultado é o evento que mais move o papel em um dia; a vol implícita e o posicionamento sobem antes e caem depois
-Como falar: 'o resultado sai amanhã; o movimento típico do papel num dia é o da vol acima, e o mercado costuma exagerar na abertura'
-Fonte: config/calendario.yaml
-ids: E01-AMZN-D-1-2026-10-28
-
-(pendente de slot anterior) [ATENÇÃO] E01 · BBDC4: resultado sai na próxima sessão (29/10)
-qui 29/10 · após o fechamento da B3 · estimado (config/calendario.yaml)
-Vol de 20 dias +108% a.a. ⇒ movimento típico de 1 dia ±6,8%
-Chega ao resultado com 1m -15% · 6m -19% · YTD -14%
-Consenso: não disponível (sem fonte licenciada); usar o release e o guidance anterior
-Por que importa: resultado é o evento que mais move o papel em um dia; a vol implícita e o posicionamento sobem antes e caem depois
-Como falar: 'o resultado sai amanhã; o movimento típico do papel num dia é o da vol acima, e o mercado costuma exagerar na abertura'
-Fonte: config/calendario.yaml
-ids: E01-BBDC4-D-1-2026-10-28
-
-(pendente de slot anterior) [ATENÇÃO] E01 · INTC: resultado sai na próxima sessão (29/10)
-qui 29/10 · horário não confirmado · estimado (Yahoo)
-Vol de 20 dias +53% a.a. ⇒ movimento típico de 1 dia ±3,4%
-Chega ao resultado com 1m -18% · 6m +0,3% · YTD +158%
-Consenso: não disponível (sem fonte licenciada); usar o release e o guidance anterior
-Por que importa: resultado é o evento que mais move o papel em um dia; a vol implícita e o posicionamento sobem antes e caem depois
-Como falar: 'o resultado sai amanhã; o movimento típico do papel num dia é o da vol acima, e o mercado costuma exagerar na abertura'
-Fonte: Yahoo
-ids: E01-INTC-D-1-2026-10-28
-
-(pendente de slot anterior) [ATENÇÃO] M01 · Agenda: FOMC: decisao de juros (sem projecoes) hoje às 15:00 (28/10)
-O que está no preço: F28 14,38% · F35 14,91% · Focus IPCA 2027 4,34%
-Por que importa: evento macro de alta relevância reprecifica a curva inteira; o que importa é a surpresa contra o que está no preço
-Ativos: UST · DXY · UCITS
-Como falar: 'FOMC: decisao de juros sai hoje; o mercado já precifica o consenso, a reação vem da surpresa'
-Fonte: config/calendario.yaml
-ids: M01-MACRO-D0_2810-2026-10-28
-
-(pendente de slot anterior) [ATENÇÃO] E05 · BTC · Bitwise raises Bitcoin price target to $1.6 million by 2036
-TradingView (Reuters) · 28/10 12h09 · fonte única · licença: manchete
-Link: https://www.tradingview.com/news/cryptobriefing:82ca93d79094b:0-bitwise-raises-bitcoin-price-target-to-1-6-million-by-2036/
-Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
-Ativos: BTC
-Como falar: 'saiu no TradingView (Reuters): Bitwise raises Bitcoin price target to $1.6 million by 2036; confirmar o número no texto antes de repassar'
-Fonte: TradingView (Reuters) 28/10 12h09
-ids: E05-BTC-bbf9097342-2026-10-28
-
-(pendente de slot anterior) [ATENÇÃO] E05 · VALE3 · Preços baixos do minério devem afetar resultado da Vale no 3º tri, dizem analistas
-Valor Economico · 28/10 09h54 · fonte única · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – Projeções compiladas pelo Valor junto a quatro bancos e corretoras mostram que o lucro líquido médio previsto é de US$ 1,607 bilhão, o que, caso se confirme, será 40,1% abaixo do terceiro trimestre do ano passado.
-  – A Vale divulga os resultados do terceiro trimestre na quinta-feira (29), depois do fechamento do mercado.
-  – Confira resultados e indicadores da Vale e das demais companhias de capital aberto no portal Valor Empresas 360  Neste trimestre, a Vale passará a divulgar os dados de produção juntamente com o balanço financeiro.
-  – A média para a receita líquida projetada inclui cinco bancos e corretoras e aponta para um montante de R$ 10,345 bilhões no terceiro trimestre, 0,72% a menos que em igual período do ano passado.
-  – Para o lucro antes de juros, impostos, depreciação e amortização (Ebitda, na sigla em inglês), a média das cinco casas de análise é de US$ 3,5 bilhões, 20,4% inferior ao terceiro trimestre de 2025.
-  – As estimativas de lucro variam de US$ 1,087 bilhão do Itaú BBA aos US$ 2,428 bilhões do BTG Pactual, enquanto as projeções para a receita líquida vão dos US$ 10,06 bilhões do Itaú BBA aos US$ 10,549 bilhões do BTG Pactu…
-Link: https://valor.globo.com/empresas/noticia/2026/10/28/precos-baixos-do-minerio-devem-afetar-resultado-da-vale-no-3o-tri-dizem-analistas.ghtml
+[ATENÇÃO] E05 · VALE3 · Lucro da Vale pode cair mais de 40% no 3T26, mas ação pode surpreender após balanço desta quinta
+Estadao · 29/10 09h27 · fonte única · licença: manchete
+Link: https://www.estadao.com.br/einvestidor/cenarios-e-mercado/lucro-da-vale-pode-cair-mais-de-40-no-3t26-mas-acao-pode-surpreender-apos-balanco-desta-quinta/
 Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
 Ativos: VALE3
-Como falar: 'saiu no Valor Economico: Preços baixos do minério devem afetar resultado da Vale no 3º tri, dizem analistas; confirmar o número no texto antes de repassar'
-Fonte: Valor Economico 28/10 09h54
-ids: E05-VALE3-371ad405f4-2026-10-28
+Como falar: 'saiu no Estadao: Lucro da Vale pode cair mais de 40% no 3T26, mas ação pode surpreender após balanço desta…; confirmar o número no texto antes de repassar'
+Fonte: Estadao 29/10 09h27
+Push: intradia: 3 alertas de atenção — E05 VALE3, E05 BBDC4, E05 PETR4 · detalhe na sessão
+ids: E05-VALE3-59fb997183-2026-10-29
 
-(pendente de slot anterior) [ATENÇÃO] E05 · KLBN4 · Klabin (KLBN11) tem queda de 18% no lucro líquido do 3T26
-Suno Noticias · 28/10 09h50 · fonte única · licença: resumo
+[ATENÇÃO] E05 · BBDC4 · Bradesco (BBDC4) sofre segundo rebaixamento e JPMorgan corta preço-alvo em quase 30%
+InfoMoney · 29/10 08h56 · fonte única · licença: resumo
 Trechos (licença resumo: reescrever, não colar):
-  – A Klabin (KLBN11) registrou lucro líquido de R$ 393 milhões no terceiro trimestre de 2026, queda de 18% frente a igual período de 2025.
-  – O Ebitda ajustado somou R$ 1,856 bilhão entre julho e setembro, recuo de 12% em relação ao período correspondente do ano anterior.
-  – A receita líquida totalizou R$ 5,566 bilhões no terceiro trimestre de 2026, 3% maior ante o terceiro trimestre de 2025.
-  – O resultado financeiro da Klabin (KLBN11) foi negativo em R$ 337 milhões no período, frente a R$ 670 milhões negativos em igual trimestre de 2025.
-  – “O trimestre foi marcado pela parada programada de manutenção da unidade de Otacílio Costa.
-  – Endividamento da Klabin (KLBN11) recua e investimentos sobem O endividamento líquido somou R$ 23,977 bilhões ao fim do terceiro trimestre, diminuição de 8% frente a igual período de 2025 e estável na comparação trimestr…
-Link: https://www.suno.com.br/noticias/lucro-liquido-klabin-cai-atinge-393-milhoes-3o-trimestre-go/amp/
-Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
-Ativos: KLBN4
-Como falar: 'saiu no Suno Noticias: Klabin (KLBN11) tem queda de 18% no lucro líquido do 3T26; confirmar o número no texto antes de repassar'
-Fonte: Suno Noticias 28/10 09h50
-ids: E05-KLBN4-2070982819-2026-10-28
-
-[ATENÇÃO] E05 · BTC · Bitwise Raises Bitcoin Price Target to $1.6M by 2036, Publishes 2027 Bitcoin Long-Term Capital Market Assumptions
-PR Newswire · 28/10 12h00 · fonte única · licença: integral
-Do texto:
-  – Bitwise projects the price will rise to $1.6 million by 2036—a 34.3% compound annual growth rate.
-  – equities (6.7%) and three times the next-best asset class, private equity (10.8%).
-  – The World Bank estimates that institutional investors control roughly $147 trillion in assets, and Bitwise expects them to allocate 1% to 5% to bitcoin over the next decade.
-  – That implies $1.5 trillion to $7 trillion of demand, against only about $14 billion in new bitcoin per year.
-  – - Bitcoin showed signs of maturing in 2026 through its volatile year.
-  – Though the 50% drawdown from bitcoin's October 2025 high to its June 2026 low was painful, it was significantly shallower than past peak-to-trough cyclical drawdowns, which saw bitcoin fall 86%, 84%, and 77%.
-Link: https://www.prnewswire.com/news-releases/bitwise-raises-bitcoin-price-target-to-1-6m-by-2036--publishes-2027-bitcoin-long-term-capital-market-assumptions-302922156.html
+  – Além disso, reduziu o preço-alvo para dezembro de 2027 de R$ 26 para R$ 18, um corte de quase 31%.
+  – Na véspera, o Itaú BBA havia alertado que “a combinação de atividade econômica mais fraca, juros mais elevados e aumento das provisões para perdas com crédito deve limitar os avanços de rentabilidade observados nos últi…
+  – Na ocasião, o banco também rebaixou BBDC4 para market perform (equivalente à neutra) e reduziu seu preço-alvo para R$ 20.
+  – O banco estima que o retorno sobre patrimônio (ROE) recue de cerca de 15% em 2026 para 14% em 2027, enquanto o crescimento do lucro líquido seria de apenas 2% no período, para aproximadamente R$ 27,9 bilhões.
+  – Como resultado, a projeção é que o crescimento da carteira recue para cerca de 6% nos próximos trimestres.
+  – O relatório incorpora uma redução de 10 pontos-base na margem financeira dos clientes.
+Link: https://www.infomoney.com.br/mercados/bradesco-bbdc4-sofre-segundo-rebaixamento-e-jpmorgan-corta-preco-alvo-em-quase-30/
 Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
-Ativos: BTC
-Como falar: 'saiu no PR Newswire: Bitwise Raises Bitcoin Price Target to $1.6M by 2036, Publishes 2027 Bitcoin Long-Term Ca…; confirmar o número no texto antes de repassar'
-Fonte: PR Newswire 28/10 12h00
-Push: intradia: 2 alertas de atenção — E05 BTC, E05 JPM · detalhe na sessão
-ids: E05-BTC-6c53091403-2026-10-28
+Ativos: BBDC4 · JPM
+Como falar: 'saiu no InfoMoney: Bradesco (BBDC4) sofre segundo rebaixamento e JPMorgan corta preço-alvo em quase 30%; confirmar o número no texto antes de repassar'
+Fonte: InfoMoney 29/10 08h56
+ids: E05-BBDC4-7b3dad1772-2026-10-29
 
-[ATENÇÃO] E05 · JPM · JPMorgan downgrades Xylem stock rating on guidance cut, slower orders By Investing.com
-Investing.com · 28/10 04h02 · fonte única · licença: manchete
-Link: https://ca.investing.com/news/stock-market-news/jpmorgan-downgrades-xylem-stock-rating-on-guidance-cut-slower-orders-93CH-4907771
-Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
-Ativos: JPM
-Como falar: 'saiu no Investing.com: JPMorgan downgrades Xylem stock rating on guidance cut, slower orders By Investing.com; confirmar o número no texto antes de repassar'
-Fonte: Investing.com 28/10 04h02
-ids: E05-JPM-25642432c6-2026-10-28
+[ATENÇÃO] E05 · PETR4 · Produção da Petrobras bate recorde no 3º tri e importação de diesel dispara
+Exame · 28/10 20h38 · + UOL Economia, ADVFN · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Petrobras: dados de produção do 3º tri bateram recorde (MAURO PIMENTEL/AFP/Getty Images) A Petrobras (PETR4) nunca extraiu tanto petróleo e gás quanto no terceiro trimestre de 2026.
+  – Segundo o relatório de produção e vendas divulgado nesta quarta-feira, 28, a produção própria média chegou a 3,51 milhões de barris de óleo equivalente por dia (boed), unidade que soma o petróleo e o gás natural convert…
+  – O volume é 11,7% maior que o de um ano antes e 5,3% superior ao do segundo trimestre, que já tinha sido recorde.
+  – O pré-sal sustentou o avanço, com produção própria de 2,96 milhões de boed.
+  – Somando a parte dos sócios nos campos operados pela estatal, a produção total passou pela primeira vez de 5 milhões de boed.
+  – "Superamos as nossas metas!", afirmou Sylvia Anjos, diretora de Exploração e Produção, no relatório.
+Link: https://exame.com/invest/mercados/producao-da-petrobras-bate-recorde-no-3o-tri-e-importacao-de-diesel-dispara/
+Por que importa: evento operacional afeta producao e custo no trimestre corrente
+Ativos: PETR4 · BRENT
+Como falar: 'saiu no Exame: Produção da Petrobras bate recorde no 3º tri e importação de diesel dispara; confirmar o número no texto antes de repassar'
+Fonte: Exame 28/10 20h38
+ids: E05-PETR4-36c78b3310-2026-10-28
 
 Info (só linha no Fechamento):
-· E04 KO · 10-Q: 10-Q
-· E05 AMD · Should You Buy AMD Stock Before Nov. 3?
-· E05 TESOURO · Tesouro Direto: como investir agora, com taxas em vaivém após a eleição
-· E05 ITUB4 · Bradesco perde recomendação de compra do Itaú BBA; entenda o que preocupa os analistas
-· E05 MU · Micron Stock Advances as Rival SK Hynix Fuels AI Frenzy With Two Bombshells
-· E05 SAPR4 · Sanepar: consórcio faz proposta única e vence leilão de sistema no norte do PR
-· E05 PLTR · Palantir Stock Falls After RBC Delivers Fresh Warning Ahead of Earnings
-· E05 AMZN · Amazon Stocks Edge Higher Ahead of AWS Earnings Concentration Test
-· E05 GOOGL · Alphabet Stocks Rise Ahead of Google Cloud's Profit Test
-· E05 AMD · Cathie Wood Dumps More AMD, Buys Joby and Archer
-· E05 LITE · Optical Stocks Climb as Analysts Flag AI Bottleneck: Lumentum Rises 4%, Applied Optoelectronics and Corning Gain 3%, Coherent Sits Out the Rally
-· E05 PLTR · Palantir’s Revenue Growth Could Set the Stage for Its Next Big Stock Move
-· E05 GOOGL · Google earnings up next: Can Cloud growth justify record AI spending?
-· E05 INTC · Intel Stock Could Swing 9% After Tomorrow's Earnings
-· E05 LITE · Lumentum Shares Jump 135% YTD: Can AI Momentum Sustain the Rally?
-· E05 BTC · Bitcoin price bounce rejected at 50-day trend line ahead of FOMC, earnings
+· F01 Real cai: USD/BRL 5,3588 (+6,4% em 5 sessões) (parcial, intradia)
+· E03 KLBN4 · Comunicado ao Mercado: Apresentações a analistas/agentes do mercado
+· E05 NVDA · Google's Nvidia chip challenge boosts cloud sales, crimps cash flow
+· E05 ETH · Current price of Ethereum for Oct. 29, 2026
+· E05 GOOGL · Google stock plunges 11% on Q3 earnings miss
+· E05 UST · US 10-Year Treasury Yield Little Changed At 5%
+· E05 USDBRL · Dólar abre em alta com EUA e política fiscal brasileira em foco
+· E05 USDBRL · Tempo real: Ibovespa cai com incerteza fiscal; dólar sobe
+· E05 USDBRL · Café pode ficar mais caro após alta do dólar? Economista explica impactos
+· E05 NVDA · Pick-and-Shovel vs. Edge Gatekeeper: Why Investors Are Splitting Between Nvidia and Apple
+· E05 MU · Micron Dips as Samsung Earnings Show the High Bar for Memory Stocks.
+· E05 USDBRL · Dólar hoje avança em linha com o exterior
+· E05 BRENT · Dólar sobe com petróleo em queda e incertezas fiscais
+· E05 USDBRL · Ibovespa futuro cai com fiscal em foco e tom negativo de Wall Street; dólar tem leve alta
+· E05 USDBRL · Dólar sobe ante real em sintonia com o exterior Por Reuters
+· E05 AMD · Advanced Micro (AMD) Q3 Earnings on the Horizon: Analysts' Insights on Key Performance Measures
+· E05 NVDA · Here are Thursday's biggest analyst calls: Nvidia, Anthropic, Apple, Tesla, Chevron, Microsoft, Alphabet & more
 
 
 Alertas do dia (todos, com status):
-· pendente  E05 BTC — BTC · Bitwise Raises Bitcoin Price Target to $1.6M by 2036, Publishes 2027 Bitco
-· pendente  E05 JPM — JPM · JPMorgan downgrades Xylem stock rating on guidance cut, slower orders By I
-· pendente  E01 AMZN — AMZN: resultado sai na próxima sessão (29/10)
-· pendente  E01 BBDC4 — BBDC4: resultado sai na próxima sessão (29/10)
-· pendente  E01 INTC — INTC: resultado sai na próxima sessão (29/10)
-· pendente  M01 MACRO — Agenda: FOMC: decisao de juros (sem projecoes) hoje às 15:00 (28/10)
-· pendente  E05 BTC — BTC · Bitwise raises Bitcoin price target to $1.6 million by 2036
-· pendente  E05 VALE3 — VALE3 · Preços baixos do minério devem afetar resultado da Vale no 3º tri, dizem
-· pendente  E05 KLBN4 — KLBN4 · Klabin (KLBN11) tem queda de 18% no lucro líquido do 3T26
-· linha     F01 USDBRL — Real cai: USD/BRL 5,3633 (+6,7% em 5 sessões) (parcial, intradia)
-· (+47 notícias só manchete, em noticias.md)
+· pendente  E05 VALE3 — VALE3 · Lucro da Vale pode cair mais de 40% no 3T26, mas ação pode surpreender a
+· pendente  E05 BBDC4 — BBDC4 · Bradesco (BBDC4) sofre segundo rebaixamento e JPMorgan corta preço-alvo 
+· pendente  E05 PETR4 — PETR4 · Produção da Petrobras bate recorde no 3º tri e importação de diesel disp
+· entregue  E01 CVX — CVX: resultado sai na próxima sessão (30/10)
+· entregue  M01 MACRO — Agenda: BCE: decisao de politica monetaria hoje às 10:15 (29/10)
+· entregue  E05 GOOGL — GOOGL · Samsung and Google ruin the party: Earnings misses drive tech futures lo
+· entregue  E05 BTC — BTC · How to Get Offered $3 Million in Bitcoin Bets: Call It a ‘Dead Network’ on
+· entregue  E05 VALE3 — VALE3 · Lucro líquido da Vale (VALE3) deve cair quase 50% no 3T26: veja os motiv
+· linha     F01 USDBRL — Real cai: USD/BRL 5,3588 (+6,4% em 5 sessões) (parcial, intradia)
+· (+49 notícias só manchete, em noticias.md)
 
