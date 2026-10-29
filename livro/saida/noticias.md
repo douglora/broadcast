@@ -1,8 +1,24 @@
-NOTÍCIAS E FATOS · 29/10 17h23
+NOTÍCIAS E FATOS · 29/10 18h14
 
-Pernas: noticias ok 21 novas (18 consultas; descartadas: 386 veículo fora da lista, 32 sem ativo, 10 teto) · cvm ok 1 novos de 14 (8 cias casadas) · sec ok 1 novos em 3 dias
+Pernas: noticias ok 16 novas (18 consultas; descartadas: 418 veículo fora da lista, 33 sem ativo, 14 teto) · cvm ok 1 novos de 15 (9 cias casadas) · sec ok 0 novos em 3 dias
 
-## FATOS RELEVANTES E COMUNICADOS (CVM) (2)
+## FATOS RELEVANTES E COMUNICADOS (CVM) (3)
+
+[ATENÇÃO] E03 · MRVE3 · Comunicado ao Mercado: MRVE3) Companhia disponibiliza ao mercado comunicado recebido pela M&G Investments para os fins do disposto no art. 12 da Instrução CVM nº 44/21, inf…
+CVM · entregue 29/10/2026 17:57 · Aquisição/Alienação de Participação Acionária Relevante / Declaração de Aquisição de Participação Acionária Relevante
+Do documento:
+  – A   M&G   informou que o conjunto de fundos de investimento e carteira sob gestão passou a deter  32.292.085  ações  , equivalente a   5, 74 %   da base acionária.
+  – ISIN: BRMRVEACNOR2  Number of Shares Held: 32,292,085  Percentage of Share Capital: 5.74%  Date Threshold Crossed: 28/10/2026    Please treat this correspondence as our formal notification of the relevant shareholding p…
+  – M&G   informed that the group of investment funds and managed portfolios  has  c o me to hold   32 ,292  ,085  shares,   representing   5.
+  – 74 %  of the share   capital  .
+  – ISIN: BRMRVEACNOR2  Number of Shares Held: 32,292,085  Percentage of Share Capital: 5.74%  Date Threshold Crossed: 28/10/2026    Please treat this correspondence as our formal notification of the relevant shareholding p…
+  – Kind regards,    George Rose    for and on behalf of M&G Investment Management Limited  Direct Line +44 20 8162 3276  Email shareholder.disclosures@mandg.co.uk
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1581810
+Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; confirma ou nega o que circula
+Ativos: MRVE3
+Como falar: 'a MRV publicou comunicado ao mercado sobre MRVE3) Companhia disponibiliza ao mercado comunicado recebido pela M&…'
+Fonte: CVM 29/10
+id: E03-MRVE3-1581810-2026-10-29 · status: pendente · íntegra disponível
 
 [INFO] E03 · AXIA3 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
 CVM · entregue 29/10/2026 17:10 · Outros Comunicados Não Considerados Fatos Relevantes
@@ -39,7 +55,7 @@ Por que importa: resultado do trimestre reprecifica lucro, guidance e multiplo; 
 Ativos: AMZN
 Como falar: 'a AMZN protocolou 8-K na SEC (2.02 resultado do trimestre)'
 Fonte: SEC EDGAR 2026-10-29
-id: E04-AMZN-26000038-2026-10-29 · status: pendente · íntegra disponível
+id: E04-AMZN-26000038-2026-10-29 · status: entregue · íntegra disponível
 
 [INFO] E04 · GOOGL · 10-Q: 10-Q
 SEC EDGAR · aceito 28/10 21h29 · 10-Q
@@ -51,7 +67,41 @@ Fonte: SEC EDGAR 2026-10-29
 id: E04-GOOGL-26000084-2026-10-29 · status: linha
 
 
-## NOTÍCIAS COM MATERIALIDADE (23)
+## NOTÍCIAS COM MATERIALIDADE (26)
+
+[ATENÇÃO] E05 · INTC · INTC Stock Tumbles After-Hours After Q3 PC Slump And Supply Bottlenecks Cloud Fourth-Quarter Guidance
+Yahoo Finance · 29/10 17h54 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – INTC Stock Tumbles After-Hours After Q3 PC Slump And Supply Bottlenecks Cloud Fourth-Quarter Guidance - Intel reported third-quarter revenue of $16.5 billion, up 21% year-over-year, and earnings of $0.52 per share, beat…
+  – - Intel expects Q4 revenue to come in between $ 15 and $16 billion, below what analysts expect.
+  – Intel Inc. (INTC) share price tumbled about 17% after-hours on Thursday after the company forecast weaker-than-expected fourth-quarter revenue and earnings amid a slump in persona; computer (PC) sales amid supply bottle…
+  – For the third quarter ended September 26, Intel posted total sales of $16.5 billion, marking a 21% increase from the same period last year and matching analysts' average predictions.
+  – Adjusted earnings reached $0.52 per share, surpassing Wall Street's consensus estimate of $0.41 per share.
+  – "Our immediate priority is to unlock additional supply to meet extraordinary demand for our Xeon family," CEO Lip-Bu Tan said.
+Link: https://finance.yahoo.com/markets/stocks/articles/intc-stock-tumbles-hours-q3-205401483.html
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: INTC
+Como falar: 'saiu no Yahoo Finance: INTC Stock Tumbles After-Hours After Q3 PC Slump And Supply Bottlenecks Cloud Fourth-Quar…; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 29/10 17h54
+id: E05-INTC-7b6bb1157a-2026-10-29 · status: pendente
+
+[ATENÇÃO] E05 · INTC · Intel shares plummet on lighter-than-expected Q4 guidance
+CNBC · 29/10 17h23 · fonte única · licença: resumo
+Link: https://www.cnbc.com/video/2026/10/29/intel-shares-plummet-on-lighter-than-expected-q4-guidance.html
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: INTC
+Como falar: 'saiu no CNBC: Intel shares plummet on lighter-than-expected Q4 guidance; confirmar o número no texto antes de repassar'
+Fonte: CNBC 29/10 17h23
+id: E05-INTC-56cfc524b4-2026-10-29 · status: pendente
+
+[ATENÇÃO] E05 · INTC · Intel slides as Q3 results, guidance miss Wall Street's forecasts
+TradingView (Reuters) · 29/10 17h08 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/seekingalpha:6b120d5e0094b:0-intel-crashes-as-q3-results-guidance-miss-wall-street-s-forecasts/
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: INTC
+Como falar: 'saiu no TradingView (Reuters): Intel slides as Q3 results, guidance miss Wall Street's forecasts; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 29/10 17h08
+id: E05-INTC-479410382a-2026-10-29 · status: pendente
 
 [ATENÇÃO] E05 · INTC · Intel crashes as Q3 results, guidance miss Wall Street's forecasts (INTC:NASDAQ)
 Seeking Alpha · 29/10 17h08 · fonte única · licença: manchete
@@ -60,7 +110,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: INTC
 Como falar: 'saiu no Seeking Alpha: Intel crashes as Q3 results, guidance miss Wall Street's forecasts (INTC:NASDAQ); confirmar o número no texto antes de repassar'
 Fonte: Seeking Alpha 29/10 17h08
-id: E05-INTC-dda324489d-2026-10-29 · status: pendente
+id: E05-INTC-dda324489d-2026-10-29 · status: entregue
 
 [ATENÇÃO] E05 · INTC · Intel Plunges After PC Slump and Supply Snags Hurt Its Outlook
 Bloomberg · 29/10 17h07 · fonte única · licença: manchete
@@ -69,7 +119,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: INTC
 Como falar: 'saiu no Bloomberg: Intel Plunges After PC Slump and Supply Snags Hurt Its Outlook; confirmar o número no texto antes de repassar'
 Fonte: Bloomberg 29/10 17h07
-id: E05-INTC-e7f0b14445-2026-10-29 · status: pendente
+id: E05-INTC-e7f0b14445-2026-10-29 · status: entregue
 
 [ATENÇÃO] E05 · INTC · Intel stock plunges after posting disappointing Q4 outlook
 Yahoo Finance · 29/10 17h07 · fonte única · licença: resumo
@@ -82,7 +132,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: INTC
 Como falar: 'saiu no Yahoo Finance: Intel stock plunges after posting disappointing Q4 outlook; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 29/10 17h07
-id: E05-INTC-3dd623e64e-2026-10-29 · status: pendente
+id: E05-INTC-3dd623e64e-2026-10-29 · status: entregue
 
 [ATENÇÃO] E05 · INTC · Intel stock plunges 20% as chipmaker blames PC slowdown for weak guidance
 CNBC · 29/10 17h04 · fonte única · licença: resumo
@@ -98,7 +148,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: INTC
 Como falar: 'saiu no CNBC: Intel stock plunges 20% as chipmaker blames PC slowdown for weak guidance; confirmar o número no texto antes de repassar'
 Fonte: CNBC 29/10 17h04
-id: E05-INTC-8ded5fc882-2026-10-29 · status: linha
+id: E05-INTC-8ded5fc882-2026-10-29 · status: entregue
 
 [ATENÇÃO] E05 · INTC · Intel tops Q3 earnings expectations, but falls short of Q4 outlook on sluggish PC sales
 Yahoo Finance · 29/10 17h01 · fonte única · licença: resumo
@@ -342,8 +392,21 @@ Fonte: Bloomberg 29/10 01h13
 id: E05-TSLA-626a3a5b3f-2026-10-29 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (144)
+## OUTRAS NOTÍCIAS (só manchete) (157)
 
+· USDBRL Ibovespa cai 1,06%; dólar sobe 0,89% e vai a R$ 5,387 (Poder360) https://www.poder360.com.br/poder-economia/ibovespa-cai-106-dolar-sobe-089-e-vai-a-r-5387/
+· INTC Weak quarter for Intel sends shivers through cooling chip stocks (Reuters) https://www.reuters.com/business/weak-quarter-intel-sends-shivers-through-cooling-chip-stocks-2026-10-29/
+· AMZN Amazon shares sink as spending on AI overshadows growth in cloud unit (Fortune) https://fortune.com/2026/10/29/amazon-shares-sink-as-spending-on-ai-overshadows-growth-in-cloud-unit/
+· USDBRL Ibovespa cai pela 4ª sessão e acumula perda de 17,5% desde a eleição; dólar vai a R$ 5,38 (Exame) https://exame.com/invest/mercados/ibovespa-cai-pela-4a-sessao-e-acumula-perda-de-175-desde-a-eleicao-dolar-vai-a-r-538/
+· AMZN Amazon AWS posts 39% revenue growth as cloud rivals also accelerate (CNBC) https://www.cnbc.com/2026/10/29/aws-q3-earnings-report-2026.html
+· INTC Intel Shares Tumble on Lower Profit, Weak Guidance (The Wall Street Journal) https://www.wsj.com/business/earnings/intel-shares-tumble-on-lower-profit-weak-guidance-a2bdcdd8
+· INTC Intel earnings show the company is 'still PC dependent', says Benchmark's Cody Acree (CNBC) https://www.cnbc.com/video/2026/10/29/intel-earnings-show-the-company-is-still-pc-dependent-says-benchmarks-cody-acree.html
+· GOOGL Wall Street ends lower as Alphabet revenue miss revives AI capex jitters (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/wall-street-slides-alphabet-revenue-184007636.html
+· AMZN Amazon's 3Q results miss analysts' estimates, but posts solid sales gains in cloud computing unit (Yahoo Finance) https://news.google.com/rss/articles/CBMingFBVV95cUxNMlBBNWlGTkQzUF9NVUpIXzcweWFDQndDMHRyQURDZVNoT1Q5QUFpOTlaWDhLbmJjY0NlYy1EUjR5TjgxR013MGdjRURpbUZQZ3VWN1pEUnRCbV9jdlVBRXc0WnZtcFB6VXhSd2gzcUhkMmJteU5fbkgwcmxQeUgzZTh1bEU2bW1mWEVIRE9BZFNwZExXMERURkxiUjZPUQ?oc=5
+· USDBRL Ibovespa tem 4ª queda seguida com incerteza fiscal e mau humor externo; dólar sobe e encosta em R$ 5,40 (Money Times) https://news.google.com/rss/articles/CBMiY0FVX3lxTE5vRW95YlI0aE9sbWR4SEFDWTZuLUp4ek9WLWRSdldELUdfaHRWTW14X1ptcGxSa3V3dnlTMGU0U1lYTTEzOGpoM0RQa0t5UlVJVVRfZURJUGJWcUNzTm1INUhvTQ?oc=5
+· INTC Intel (NASDAQ:INTC) posts better-than-expected sales in Q3 but stock drops 18.2% (Yahoo Finance) https://news.google.com/rss/articles/CBMimwFBVV95cUxQbVRwUnc4eHpPbWhyaEQwM2hkQ0JuTG43RHpTNkJ4S2ZmWXBuSUZaM1EzcklhbElWLVhhSmFOQkFQekNxb0ZNWDdwbjdDRnhDQVZpMktiYmc0NkFGRHZQc0xoVzcyUFlockwwMTl3cW9QaUxCa3RuLTRkakxsM2tlbDNnUXFodXo4VVhuWTlnQnphRWZiU21ZZnNFcw?oc=5
+· AMZN Amazon: Q3 Earnings Snapshot (Yahoo Finance) https://news.google.com/rss/articles/CBMilwFBVV95cUxQRXJ4dmZsdmxSWVl3UDdMU05CbjhPdmg3VjlieUdGbzRGbG9aOHVnTzZzZnhnLTBpa2RYRENxY2MtcTVDN3hjYmhlU0otVkxKejRtVnJ4anlvUC1ScVJMeWRYTmptZVZaXzFTbU14eWtobWN2Y1ZBVFVhLVVGdE1YNUduc1o5XzFuME8zMGpzZzV4cmgyUWtB?oc=5
+· INTC Intel plunges 20% as weak Q4 forecast overshadows earnings beat (Investing.com) https://news.google.com/rss/articles/CBMiuwFBVV95cUxNRkxnWVV0LVdRSUZhOENoUXUxMkxjTi1VbFRDUHZsUGhKRm1JZXQ1cjd4RHFuOGwtRGZmQ1hQSzNnTDFOMmVtMnhTMDYyNThZcEpzeGhKXzZLX0dLU0hmMV9xYkhNTGlHX0RxWUNaVFJRcUFwcXFrRDBVWFY0bVpTMVd3M2VxZlpNTVNnMTV6akwyRGxlbTlzcWszQTZlclNQVU9UaThYN3JMaVViYllqQXNxVGxlWHVDY3pz?oc=5
 · INTC Intel forecast disappoints as Israel fab blast, PC weakness weigh (Reuters) https://www.reuters.com/business/intel-signals-slower-growth-pc-market-remains-under-pressure-2026-10-29/
 · AMZN Amazon Cloud Growth Is Highest in Five Years (The Wall Street Journal) https://www.wsj.com/tech/amazon-amzn-q3-earnings-report-2026-stock-a0b92f17
 · USDBRL Dólar vai a R$ 5,39, com risco fiscal; Ibov perde os 170 mil pontos (UOL Economia) https://economia.uol.com.br/cotacoes/noticias/redacao/2026/10/29/dolar-vai-a-r-539-com-risco-fiscal-ibov-perde-os-170-mil-pontos.htm
@@ -391,17 +454,4 @@ id: E05-TSLA-626a3a5b3f-2026-10-29 · status: linha
 · BRENT UBS’s new Brent price forecasts as Middle East supply risk supports oil prices By Investing.com (Investing.com) https://news.google.com/rss/articles/CBMizAFBVV95cUxNMUtVRkRCdTFnVzFxR2FjTnJLVmtPVjY0T3FZcEJmRHFQMnNneGFQMkxIMmllRHVKT195VjRsVmFMdGlGbFhwYWtHcXptSmxRaS0zajBrTWFaTjNXZVlSVXhHNUJ4RTllYTVYYlBoV1NPX19qUDBUZ1lpY3FCT2lhSmYwS2tLeDhCV0ozTTQ0SktNLTdjanBBT1g4RWppX0tUTlNEM1JCbk84Q3EzNnA1dS0wSVFLWEQ5OHYzTDZpQW5WSmFkTnFTcFA1bDk?oc=5
 · USDBRL Reeleição de Lula: Ibovespa derrete quase 14% e dólar tem maior oscilação desde janeiro de 1999 (Estadao) https://www.estadao.com.br/em-alta/einvestidor/cenarios-e-mercado/ibovespa-hoje-fim-das-eleicoes-abre-nova-disputa-no-mercado-o-que-esta-em-jogo/
 · ETH XRP, Ethereum, Solana Are 3 of the Top 5 Altcoins, Expert Says: And the Other 2? (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:d67a8f07e094b:0-xrp-ethereum-solana-are-3-of-the-top-5-altcoins-expert-says-and-the-other-2/
-· LITE Lumentum (LITE) Earnings Expected to Grow: Should You Buy? (Yahoo Finance) https://au.finance.yahoo.com/news/lumentum-lite-earnings-expected-grow-130033474.html
-· MRVL Marvell’s Lumentum Bid Is a Bet That Light, Not Copper, Wins the AI Data Center (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/marvell-lumentum-bid-bet-light-110255319.html
-· BTC Franklin US Equity Bitcoin Drip Index ETF (FBEQ) stock price, news, quote and history (Yahoo Finance) https://uk.finance.yahoo.com/quote/FBEQ/
-· MRVL Marvell nears deal for optical supplier Lumentum to bolster hardware, report says (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/marvell-nears-deal-optical-supplier-222616085.html
-· KLBN4 Klabin vê chuvas no Paraná pressionarem operações até o 1T27 (ADVFN) https://br.advfn.com/jornal/2026/10/klabin-ve-chuvas-no-parana-pressionarem-operacoes-ate-o-1t27
-· AXIA3 MERCADO APOSTA NA AXIA COMO DESTAQUE PARA O NOVO LEILÃO DE TRANSMISSÃO DE ENERGIA MARCADO PARA A PRÓXIMA SEXTA-FEIRA (Petronoticias) https://petronoticias.com.br/mercado-aposta-na-axia-como-destaque-para-o-novo-leilao-de-transmissao-de-energia-marcado-para-a-proxima-sexta-feira/
-· GOOGL Alphabet’s AI Risk Extends Beyond $1 Trillion, Filing Shows (Bloomberg) https://www.bloomberg.com/news/articles/2026-10-29/alphabet-s-ai-risk-extends-beyond-1-trillion-filing-shows
-· DI Selic vai parar de cair? Probabilidade de pausa nos cortes pelo Copom chega a 63% na B3 (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/selic-vai-parar-de-cair-probabilidade-de-pausa-nos-cortes-pelo-copom-chega-a-63-na-b3/
-· PLTR Palantir Seen Beating Revenue Estimates, Raising Guidance, Oppenheimer Says (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/palantir-seen-beating-revenue-estimates-164852851.html
-· GOOGL Alphabet Crushed Cloud Expectations, But the AI Bills Are Coming Due (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/alphabet-crushed-cloud-expectations-ai-164702603.html
-· KLBN4 Klabin vê tendência neutra para mercados em que opera (Valor Economico) https://valor.globo.com/empresas/noticia/2026/10/29/klabin-ve-tendencia-neutra-para-mercados-em-que-opera.ghtml
-· BAC Bank of America plants its flag in Wisconsin (Yahoo Finance) https://finance.yahoo.com/small-business/articles/bank-america-plants-flag-wisconsin-161230673.html
-· UST The US Treasuries’ Path to 6% Yields Is Intact (Bloomberg) https://www.bloomberg.com/news/newsletters/2026-10-29/us-treasuries-remain-on-path-to-6-yields-as-inflationary-expectations-rise
-· (+84 manchetes; lista completa em eventos/noticias.json)
+· (+97 manchetes; lista completa em eventos/noticias.json)
