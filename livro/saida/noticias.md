@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 29/10 15h54
+NOTÍCIAS E FATOS · 29/10 16h23
 
-Pernas: noticias ok 8 novas (18 consultas; descartadas: 392 veículo fora da lista, 29 sem ativo, 0 teto) · cvm ok 0 novos de 13 (8 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 11 novas (18 consultas; descartadas: 392 veículo fora da lista, 32 sem ativo, 0 teto) · cvm ok 0 novos de 13 (8 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (1)
 
@@ -42,7 +42,7 @@ Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir
 Ativos: PETR4 · BRENT
 Como falar: 'saiu no Seu Dinheiro: Dividendos de até US$ 4,2 bilhões: com operacional tinindo, Petrobras (PETR4) deve 'blind…; confirmar o número no texto antes de repassar'
 Fonte: Seu Dinheiro 29/10 14h49
-id: E05-PETR4-0b5d4e2bc2-2026-10-29 · status: pendente
+id: E05-PETR4-0b5d4e2bc2-2026-10-29 · status: entregue
 
 [ATENÇÃO] E05 · BTC · Amplify Bitcoin 2% Monthly Option Income ETF declares $0.5352 dividend
 TradingView (Reuters) · 29/10 13h39 · fonte única · licença: manchete
@@ -245,8 +245,19 @@ Fonte: Bloomberg 29/10 01h13
 id: E05-TSLA-626a3a5b3f-2026-10-29 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (118)
+## OUTRAS NOTÍCIAS (só manchete) (129)
 
+· DI Após cinco quedas seguidas, Selic pode ficar parada em novembro; chance já passa de 60% (Money Times) https://www.moneytimes.com.br/apos-cinco-quedas-seguidas-selic-pode-ficar-parada-em-novembro-mlim/
+· PETR4 Com LRCap, Petrobras aumenta em 197% potência térmica contratada (UOL Economia) https://megawhat.uol.com.br/economia-e-politica/empresas/com-lrcap-petrobras-aumenta-em-197-potencia-termica-contratada/
+· GOOGL Market Brief: Google Cloud Doubled - Why Did Alphabet Stock Fall 10%? (Seeking Alpha) https://seekingalpha.com/article/4959536-market-brief-google-cloud-doubled-why-alphabet-fall-10-percent
+· BAC Bank of America Names Top Stock Pick in Memory Sector (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/bank-america-names-top-stock-172808901.html
+· PLTR Palantir Stock Drops: What's Going On? (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:899ea4a5f094b:0-palantir-stock-drops-what-s-going-on/
+· BTC Theoretical 30,000-qubit quantum machine threatens 6 million exposed bitcoin, researchers warn (CoinDesk) https://www.coindesk.com/tech/2026/10/29/new-quantum-model-slashes-hardware-needed-to-break-bitcoin-keys-by-17-times
+· USDBRL Dólar avança mais de 1% com cenário político brasileiro e dados dos EUA no radar; Bolsa recua (Folha de S.Paulo) https://www1.folha.uol.com.br/mercado/2026/10/dolar-abre-em-alta-com-cenario-politico-brasileiro-e-dados-dos-eua-no-radar.shtml
+· MU Micron shares dip as Samsung’s post-earnings selloff spreads to memory peers By Investing.com (Investing.com) https://in.investing.com/news/stock-market-news/micron-shares-dip-as-samsungs-postearnings-selloff-spreads-to-memory-peers-5663960
+· ETH Ethereum Heads for Worst October Since 2018 as Early Whales Wake Up (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/ethereum-heads-worst-october-since-080741050.html
+· TSLA Tesla owners in South Korea lose legal battle over full self-driving promises (South China Morning Post) https://news.google.com/rss/articles/CBMiywFBVV95cUxNNlJ3YlVqeGZxazRLczlzcDU4TUlxRVhBNEFyWHVjVDF0dGt4clNHVHhvNnJnYVd0S2xleHVOeW0wTmwyaEJQOURZcGstNC1KMXVlSzM2TlNneWp1N2g4VTJnTUhUN3UzLVdpVVdxeXZkUWhIVDZ2dlQyMC1CM2doZEdLYnpqb2VaeFFVcHVZVDl1TkhPdGU4UUM2NVlicmZpRFMyWHlMQVA4Qlkxdm8yODZfbWZBNHpBSFVlVDdrYkJBamdWSWNMY1B3a9IBywFBVV95cUxOUkpEaXJCSmRzMExFTnpZYngzMG9VbEZFc3RMdkZEQ3Bfai1DNkoxUDcwTVlqcU5rZWpUY1ZYTmgyVExRZWttRWJENHA1UjRRdkJFQVhlRGE5eFFwU3VlZ2pqMUF3VXU5M2dqYTN0eVlCa0xDcVZFdGhuNklCTURRR0hMekZITUtjX3hsVzJ0UEFoSTBNVHNTQzVtd3d1aHRJMFBiRTN2TTdOcW9DTjZJRWt6QkZsWUVuQVhZU1ZIcDFNMmpMcVlydkJJNA?oc=5
+· BTC Could Bitcoin Price Crash Like Silver? Warning Signs Are Showing (Yahoo Finance) https://news.google.com/rss/articles/CBMingFBVV95cUxPVVBsck5fdG1udFZqMVF5c25NODZabVV1dWxzeF9KaFd1dTB6Tkc2RGdDdWpsUWJoQnBHS3gxR2FtS0ZZdHA0c1lTb2tEdXFBQi1QR09WZl9MTV9XeGR6V1Zta3NTTkVBem9OaUtmU0YtNi0wRUNXMW1sWUdBX2JzQmp3TlhhcDRSVENGS2h0a0hkanB3cm5JQ0lwUUVHZw?oc=5
 · AMD AMD Stocks Decline With Oracle Rollout Details Still to Come (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:6faa2c101094b:0-amd-stocks-decline-with-oracle-rollout-details-still-to-come/
 · VALE3 Vale divulga balanço do 3º trimestre de 2026; acompanhe ao vivo (InfoMoney) https://www.infomoney.com.br/mercados/vale-vale3-balanco-3t26/
 · AVGO Marvell Stock Dropped 11% on a Deal That Could Make It More Like Broadcom (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:a21e5af74094b:0-marvell-stock-dropped-11-on-a-deal-that-could-make-it-more-like-broadcom/
@@ -296,15 +307,4 @@ id: E05-TSLA-626a3a5b3f-2026-10-29 · status: linha
 · GOOGL Is Alphabet a Stock to Avoid or a Once-in-a-Decade Buy on the Dip? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/alphabet-stock-avoid-once-decade-152503340.html
 · PETR4 Petrobras tem recordes de produção de óleo, gás e diesel no 3º tri (Poder360) https://www.poder360.com.br/poder-economia/petrobras-tem-recordes-de-producao-de-oleo-gas-e-diesel-no-3o-tri/
 · CVX Exxon Mobil and Chevron head into Q3 earnings boosted by crude rally, Iran conflict (TradingView (Reuters)) https://www.tradingview.com/news/seekingalpha:662df173e094b:0-exxon-mobil-and-chevron-head-into-q3-earnings-boosted-by-crude-rally-iran-conflict/
-· AMZN What to watch in Amazon's earnings results (CNBC) https://news.google.com/rss/articles/CBMijAFBVV95cUxObmRNaDhWUGs5N0ZyQnlSRWhza2xORlZaRjJIUFRNVDl6RzFoREFOSUVIN05qZ2IxUWxaV2wzNnY1UEtvS2RaOXNSVEkyTW96Tm1lYnJFY3VrSEg1a2xnYVV6RHRsc3lURWRFRGlKQk5ITGZlSGlsNVpCUWN4QlBlaV9TRVI1cnRMYkpTMw?oc=5
-· USDBRL Ibovespa hoje recua com incertezas fiscais no Brasil e inflação americana; dólar sobe a R$ 5,38 (Estadao) https://news.google.com/rss/articles/CBMi7AFBVV95cUxPUzhQcnZGYUl3X2xNTzl0bnBvNkpRTFNVUm1LZkNIRE5XUVd5Tmd6ZkFVZE8xcDN3MDdwNGlxMGk0azJzOGQtMnl3OFBJNXE3QmVXdkpoZW4xbVF4VmYwNm0yQ3FabWpYQm5NRUp4b0ZST3BqNTFTd2k5R1JSMWJBN1lCSmZ1OFdNVnh4enFPdy1TcWtlSmttR1dWNnlETHVBNS0zdDBleWNyVXN0ZXZkTmk5MktiNkV0VThiZGdSR2V4YW1pMHZnbHRRXzdqR0I5SGlCc2ZxVzdaYlR1YmZhRWttdlBDWFdielFaY9IB8gFBVV95cUxOeXFmNWxGc2FzRkxzbVRTaFpfdGtodXZ1dzY0ZTUxYXFldHhKQUJlX1BxNnpERVlrYmltbXo4Zmc3RkRlbHg3emR1eWlVbmRlWWVKQ25xSXFieHJzUTR2b0JUUU0wQ3BJdWVuWHU4ZURoRDlJempTTkV2c243LU1MOFVyaEMxZXZ4STdBTWZqeElpLWZoM1h4VFpHRnBNLXFFVExZZkgtMV9hVWdmaHlUZlQ2bER0YlhnUWRZNnhVc3pRQ1pLbWF1VHNJOGpUNnFGQnFLOVV1TFcwUmxGdm5JaWxQNUVFcXBaZldEOEhvczlzQQ?oc=5
-· INTC Intel's 158% Rally Faces Fresh Earnings Test (TradingView (Reuters)) https://news.google.com/rss/articles/CBMipgFBVV95cUxPR0dmUHdCTFVncU1HNUJMMmJVVkFtRDJaS05KcXBvTWdsQjFLNlo0ZDVPMmdXcXByZjhwZWNFM09iWWlJTm5NMzdBM2tNM2h0OVZTbW50STBGWllraFpWVGxnTFlEUXNVNWJyd25KT2x6d3VJMDNSdVFoY2ZqRnNGRkFlRXgwYl9OVTd2ZHd6Zk1pX29YejFSVjR3dE1LSXBLMmtvaFZB?oc=5
-· JPM JPMorgan says Palantir to rally more than 30%, names it a favorite stock (CNBC) https://news.google.com/rss/articles/CBMipwFBVV95cUxNQmktT2NHMS1zNmFaa01uZW5Nd2UwcXpoUU1xSzVCcUVLUjZ5di1aNjZRMGpuTHZMNF84ZEZCSm92cmh1eEtLX3dDUjBSc0g1ZnZzMURzQWJuS0dfdFRfRjVUUUY3RWlmMjZWamktcnZJdlZaZFI3SVVZX1RYYldzTVBSNXdxVFh0V2ZHRUFpMHZjSUJGSm9VSDVoQksxWk9fb0NkTmxrNA?oc=5
-· CVX Exxon Mobil and Chevron head into Q3 earnings boosted by crude rally, Iran conflict (XOM:NYSE) (Seeking Alpha) https://seekingalpha.com/news/4660351-exxon-mobil-and-chevron-head-into-q3-earnings-boosted-by-crude-rally-iran-conflict
-· AMZN Amazon Earnings Prediction Market Preview: What Will Andy Jassy Say? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/amazon-earnings-prediction-market-preview-145957867.html
-· USDBRL Pós-eleição: Ibovespa já achou um piso? Dólar ainda tem espaço para subir? (InfoMoney) https://www.infomoney.com.br/mercados/pos-eleicao-ibovespa-ja-achou-um-piso-dolar-ainda-tem-espaco-para-subir/
-· VALE3 Ibovespa cai com temor fiscal e expectativa por balanço da Vale, além de queda em NY (UOL Economia) https://economia.uol.com.br/noticias/estadao-conteudo/2026/10/29/ibovespa-cai-com-temor-fiscal-e-expectativa-por-balanco-da-vale-alem-de-queda-em-ny.htm
-· INTC Intel's 158% Rally Faces Fresh Earnings Test (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/intels-158-rally-faces-fresh-145118958.html
-· GOOGL Alphabet Is Having Its Worst Earnings Day Ever. Here’s What It Means for Your ETFs (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/alphabet-having-worst-earnings-day-144817524.html
-· BTC Standard Asset Company unveils $1.5 billion Bitcoin and UAE real estate strategy (TradingView (Reuters)) https://www.tradingview.com/news/cryptobriefing:d480a2f91094b:0-standard-asset-company-unveils-1-5-billion-bitcoin-and-uae-real-estate-strategy/
-· (+58 manchetes; lista completa em eventos/noticias.json)
+· (+69 manchetes; lista completa em eventos/noticias.json)

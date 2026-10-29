@@ -1,41 +1,28 @@
 ALERTAS · intradia
 
-(pendente de slot anterior) [ATENÇÃO] E05 · PETR4 · Dividendos de até US$ 4,2 bilhões: com operacional tinindo, Petrobras (PETR4) deve 'blindar' os proventos da queda do petróleo
-Seu Dinheiro · 29/10 14h49 · fonte única · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – No terceiro trimestre de 2026 (3T26), não foi diferente: a petroleira divulgou, na noite de ontem (28), mais uma leva de dados operacionais fortes — o que fez o mercado já começar a sonhar com dividendos gordos da petro…
-  – A estatal divulgará o balanço no dia 11 de novembro, após o fechamento dos mercados.
-  – Na visão de analistas, a Petrobras os números do trimestre devem vir fortes, apesar de uma queda nos preços do petróleo em relação ao 2T26.
-  – Segundo a XP, o preço do barril do Brent, referência internacional e padrão da companhia, caiu para uma média de US$96,8 entre julho e setembro, desvalorização de 8% em relação aos três meses imediatamente anteriores.
-  – O BTG Pactual e XP esperam US$ 3,6 bilhões aos acionistas no 3T36, o equivalente a um dividend yield de 2,5%.
-  – O Safra, por sua vez, projeta pagamento de US$ 3,1 bilhões, com retorno também na casa dos 2,5%.
-Link: https://www.seudinheiro.com/2026/empresas/dividendos-de-ate-us-42-bilhoes-com-operacional-tinindo-petrobras-petr4-deve-blindar-os-proventos-da-queda-do-petroleo-bdap/
-Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
-Ativos: PETR4 · BRENT
-Como falar: 'saiu no Seu Dinheiro: Dividendos de até US$ 4,2 bilhões: com operacional tinindo, Petrobras (PETR4) deve 'blind…; confirmar o número no texto antes de repassar'
-Fonte: Seu Dinheiro 29/10 14h49
-ids: E05-PETR4-0b5d4e2bc2-2026-10-29
-
+Nenhum alerta novo neste slot.
 Info (só linha no Fechamento):
-· E05 AMD · AMD Stocks Decline With Oracle Rollout Details Still to Come
-· E05 VALE3 · Vale divulga balanço do 3º trimestre de 2026; acompanhe ao vivo
-· E05 AVGO · Marvell Stock Dropped 11% on a Deal That Could Make It More Like Broadcom
-· E05 USDBRL · Dólar vai a R$ 5,41 e Bolsa a menos de 170 mil pontos com pressão de juros
-· E05 MU · Micron and SanDisk Fall as Samsung Selloff Hits Memory Stocks
-· E05 MRVL · Marvell Sinks 12% as Investors Balk at Reported Lumentum Megadeal Talks
-· E05 KLBN4 · Klabin vê tendência de neutralidade em todos os mercados, com exceção de kraftliner Por Reuters
-· E05 USDBRL · Dólar dispara: 6 ações podem sair ganhando com a alta da moeda
+· E05 DI · Após cinco quedas seguidas, Selic pode ficar parada em novembro; chance já passa de 60%
+· E05 PETR4 · Com LRCap, Petrobras aumenta em 197% potência térmica contratada
+· E05 GOOGL · Market Brief: Google Cloud Doubled - Why Did Alphabet Stock Fall 10%?
+· E05 BAC · Bank of America Names Top Stock Pick in Memory Sector
+· E05 PLTR · Palantir Stock Drops: What's Going On?
+· E05 BTC · Theoretical 30,000-qubit quantum machine threatens 6 million exposed bitcoin, researchers warn
+· E05 USDBRL · Dólar avança mais de 1% com cenário político brasileiro e dados dos EUA no radar; Bolsa recua
+· E05 MU · Micron shares dip as Samsung’s post-earnings selloff spreads to memory peers By Investing.com
+· E05 ETH · Ethereum Heads for Worst October Since 2018 as Early Whales Wake Up
+· E05 TSLA · Tesla owners in South Korea lose legal battle over full self-driving promises
+· E05 BTC · Could Bitcoin Price Crash Like Silver? Warning Signs Are Showing
 
 
 Alertas do dia (todos, com status):
-· pendente  E05 PETR4 — PETR4 · Dividendos de até US$ 4,2 bilhões: com operacional tinindo, Petrobras (P
+· entregue  E05 PETR4 — PETR4 · Dividendos de até US$ 4,2 bilhões: com operacional tinindo, Petrobras (P
 · entregue  E05 BTC — BTC · Amplify Bitcoin 2% Monthly Option Income ETF declares $0.5352 dividend
 · entregue  E05 GOOGL — GOOGL · US files lawsuit claiming Google wouldn't give employee new job followin
 · entregue  E05 ETH — ETH · Amplify Ethereum 3% Monthly Option Income ETF declares $0.2508 dividend
 · entregue  E05 UST — UST · Fed Holds Rates, but 5% Treasury Yields Complicate the Outlook
 · entregue  E05 PETR4 — PETR4 · Petrobras (PETR4) bate recorde de produção total no 3T26
 · entregue  E05 PETR4 — PETR4 · Petrobras: produção recorde reforça visão para 3T; mercado vê dividendo 
-· linha     S01 SISTEMA — coleta do slot intradia saiu incompleta: bcb: BCB devolveu 4 de 5 séries (faltar
 · entregue  E05 VALE3 — VALE3 · Lucro da Vale pode cair mais de 40% no 3T26, mas ação pode surpreender a
 · entregue  E05 BBDC4 — BBDC4 · Bradesco (BBDC4) sofre segundo rebaixamento e JPMorgan corta preço-alvo 
 · entregue  E05 PETR4 — PETR4 · Produção da Petrobras bate recorde no 3º tri e importação de diesel disp
@@ -44,5 +31,5 @@ Alertas do dia (todos, com status):
 · entregue  E05 GOOGL — GOOGL · Samsung and Google ruin the party: Earnings misses drive tech futures lo
 · entregue  E05 BTC — BTC · How to Get Offered $3 Million in Bitcoin Bets: Call It a ‘Dead Network’ on
 · entregue  E05 VALE3 — VALE3 · Lucro líquido da Vale (VALE3) deve cair quase 50% no 3T26: veja os motiv
-· linha     F01 USDBRL — Real cai: USD/BRL 5,3892 (+7,0% em 5 sessões) (parcial, intradia)
-· (+132 notícias só manchete, em noticias.md)
+· linha     F01 USDBRL — Real cai: USD/BRL 5,3975 (+7,2% em 5 sessões) (parcial, intradia)
+· (+143 notícias só manchete, em noticias.md)
