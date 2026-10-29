@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 29/10 12h27
+NOTÍCIAS E FATOS · 29/10 13h35
 
-Pernas: noticias ok 15 novas (18 consultas; descartadas: 363 veículo fora da lista, 21 sem ativo, 2 teto) · cvm ok 0 novos de 13 (8 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 17 novas (18 consultas; descartadas: 374 veículo fora da lista, 27 sem ativo, 10 teto) · cvm ok 0 novos de 13 (8 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (1)
 
@@ -26,7 +26,25 @@ Fonte: SEC EDGAR 2026-10-29
 id: E04-GOOGL-26000084-2026-10-29 · status: linha
 
 
-## NOTÍCIAS COM MATERIALIDADE (12)
+## NOTÍCIAS COM MATERIALIDADE (14)
+
+[ATENÇÃO] E05 · ETH · Amplify Ethereum 3% Monthly Option Income ETF declares $0.2508 dividend
+TradingView (Reuters) · 29/10 13h14 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/seekingalpha:b6877f593094b:0-amplify-ethereum-3-monthly-option-income-etf-declares-0-2508-dividend/
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: ETH
+Como falar: 'saiu no TradingView (Reuters): Amplify Ethereum 3% Monthly Option Income ETF declares $0.2508 dividend; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 29/10 13h14
+id: E05-ETH-8fb9430bf0-2026-10-29 · status: pendente
+
+[ATENÇÃO] E05 · UST · Fed Holds Rates, but 5% Treasury Yields Complicate the Outlook
+Investing.com · 29/10 12h32 · fonte única · licença: manchete
+Link: https://www.investing.com/analysis/fed-holds-rates-but-5-treasury-yields-complicate-the-outlook-200690514
+Por que importa: decisao de politica monetaria reprecifica toda a curva e o cambio
+Ativos: UST
+Como falar: 'saiu no Investing.com: Fed Holds Rates, but 5% Treasury Yields Complicate the Outlook; confirmar o número no texto antes de repassar'
+Fonte: Investing.com 29/10 12h32
+id: E05-UST-20bfc3ad48-2026-10-29 · status: pendente
 
 [ATENÇÃO] E05 · PETR4 · Petrobras (PETR4) bate recorde de produção total no 3T26
 Suno Noticias · 29/10 11h00 · fonte única · licença: resumo
@@ -193,8 +211,23 @@ Fonte: Bloomberg 29/10 01h13
 id: E05-TSLA-626a3a5b3f-2026-10-29 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (65)
+## OUTRAS NOTÍCIAS (só manchete) (80)
 
+· GOOGL Amazon Slides 3% as Alphabet’s 12% Plunge Raises Stakes for AWS Report; Meta Rises 3%, Microsoft Pulls Back (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/amazon-slides-3-alphabet-12-162243527.html
+· UST U.S. Treasury, European Bond Yields Fall After Fed, ECB Hold (The Wall Street Journal) https://www.wsj.com/finance/commodities-futures/u-s-treasury-yields-fall-as-investors-digest-fed-meet-focus-shifts-to-ecb-d29ffbec
+· VALE3 Vale: balanço do 3T26 deve mostrar queda no Ebitda e pressão sobre margens (ADVFN) https://br.advfn.com/jornal/2026/10/vale-balanco-do-3t26-deve-mostrar-queda-no-ebitda-e-pressao-sobre-margens
+· AMZN Amazon to report Q3 earnings after the bell with AI spend under scrutiny (CNBC) https://www.cnbc.com/2026/10/29/amazon-amzn-q3-earnings-report-2026.html
+· KLBN4 Klabin vê El Niño pressionando operações até 1º tri de 2027 (InfoMoney) https://www.infomoney.com.br/mercados/klabin-ve-el-nino-pressionando-operacoes-ate-1o-tri-de-2027/
+· GOOGL Alphabet heads for a $500 billion drop in market value, the biggest in its history (Yahoo Finance) https://finance.yahoo.com/markets/article/alphabet-heads-for-a-500-billion-drop-in-market-value-the-biggest-in-its-history-134824763.html
+· VALE3 De temor fiscal à espera por Vale: os fatores que fazem o Ibovespa cair 1% nesta 5ª (InfoMoney) https://www.infomoney.com.br/mercados/de-temor-fiscal-a-espera-por-vale-os-fatores-que-fazem-ibovespa-cair-1-nesta-5a/
+· BTC Bitcoin price jumps to $81.5K as US GDP data beats expectations (TradingView (Reuters)) https://www.tradingview.com/news/cointelegraph:2bf6e7a8a094b:0-bitcoin-price-jumps-to-81-5k-as-us-gdp-data-beats-expectations/
+· GOOGL Is Alphabet a Stock to Avoid or a Once-in-a-Decade Buy on the Dip? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/alphabet-stock-avoid-once-decade-152503340.html
+· PETR4 Petrobras tem recordes de produção de óleo, gás e diesel no 3º tri (Poder360) https://www.poder360.com.br/poder-economia/petrobras-tem-recordes-de-producao-de-oleo-gas-e-diesel-no-3o-tri/
+· CVX Exxon Mobil and Chevron head into Q3 earnings boosted by crude rally, Iran conflict (TradingView (Reuters)) https://www.tradingview.com/news/seekingalpha:662df173e094b:0-exxon-mobil-and-chevron-head-into-q3-earnings-boosted-by-crude-rally-iran-conflict/
+· AMZN What to watch in Amazon's earnings results (CNBC) https://news.google.com/rss/articles/CBMijAFBVV95cUxObmRNaDhWUGs5N0ZyQnlSRWhza2xORlZaRjJIUFRNVDl6RzFoREFOSUVIN05qZ2IxUWxaV2wzNnY1UEtvS2RaOXNSVEkyTW96Tm1lYnJFY3VrSEg1a2xnYVV6RHRsc3lURWRFRGlKQk5ITGZlSGlsNVpCUWN4QlBlaV9TRVI1cnRMYkpTMw?oc=5
+· USDBRL Ibovespa hoje recua com incertezas fiscais no Brasil e inflação americana; dólar sobe a R$ 5,38 (Estadao) https://news.google.com/rss/articles/CBMi7AFBVV95cUxPUzhQcnZGYUl3X2xNTzl0bnBvNkpRTFNVUm1LZkNIRE5XUVd5Tmd6ZkFVZE8xcDN3MDdwNGlxMGk0azJzOGQtMnl3OFBJNXE3QmVXdkpoZW4xbVF4VmYwNm0yQ3FabWpYQm5NRUp4b0ZST3BqNTFTd2k5R1JSMWJBN1lCSmZ1OFdNVnh4enFPdy1TcWtlSmttR1dWNnlETHVBNS0zdDBleWNyVXN0ZXZkTmk5MktiNkV0VThiZGdSR2V4YW1pMHZnbHRRXzdqR0I5SGlCc2ZxVzdaYlR1YmZhRWttdlBDWFdielFaY9IB8gFBVV95cUxOeXFmNWxGc2FzRkxzbVRTaFpfdGtodXZ1dzY0ZTUxYXFldHhKQUJlX1BxNnpERVlrYmltbXo4Zmc3RkRlbHg3emR1eWlVbmRlWWVKQ25xSXFieHJzUTR2b0JUUU0wQ3BJdWVuWHU4ZURoRDlJempTTkV2c243LU1MOFVyaEMxZXZ4STdBTWZqeElpLWZoM1h4VFpHRnBNLXFFVExZZkgtMV9hVWdmaHlUZlQ2bER0YlhnUWRZNnhVc3pRQ1pLbWF1VHNJOGpUNnFGQnFLOVV1TFcwUmxGdm5JaWxQNUVFcXBaZldEOEhvczlzQQ?oc=5
+· INTC Intel's 158% Rally Faces Fresh Earnings Test (TradingView (Reuters)) https://news.google.com/rss/articles/CBMipgFBVV95cUxPR0dmUHdCTFVncU1HNUJMMmJVVkFtRDJaS05KcXBvTWdsQjFLNlo0ZDVPMmdXcXByZjhwZWNFM09iWWlJTm5NMzdBM2tNM2h0OVZTbW50STBGWllraFpWVGxnTFlEUXNVNWJyd25KT2x6d3VJMDNSdVFoY2ZqRnNGRkFlRXgwYl9OVTd2ZHd6Zk1pX29YejFSVjR3dE1LSXBLMmtvaFZB?oc=5
+· JPM JPMorgan says Palantir to rally more than 30%, names it a favorite stock (CNBC) https://news.google.com/rss/articles/CBMipwFBVV95cUxNQmktT2NHMS1zNmFaa01uZW5Nd2UwcXpoUU1xSzVCcUVLUjZ5di1aNjZRMGpuTHZMNF84ZEZCSm92cmh1eEtLX3dDUjBSc0g1ZnZzMURzQWJuS0dfdFRfRjVUUUY3RWlmMjZWamktcnZJdlZaZFI3SVVZX1RYYldzTVBSNXdxVFh0V2ZHRUFpMHZjSUJGSm9VSDVoQksxWk9fb0NkTmxrNA?oc=5
 · CVX Exxon Mobil and Chevron head into Q3 earnings boosted by crude rally, Iran conflict (XOM:NYSE) (Seeking Alpha) https://seekingalpha.com/news/4660351-exxon-mobil-and-chevron-head-into-q3-earnings-boosted-by-crude-rally-iran-conflict
 · AMZN Amazon Earnings Prediction Market Preview: What Will Andy Jassy Say? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/amazon-earnings-prediction-market-preview-145957867.html
 · USDBRL Pós-eleição: Ibovespa já achou um piso? Dólar ainda tem espaço para subir? (InfoMoney) https://www.infomoney.com.br/mercados/pos-eleicao-ibovespa-ja-achou-um-piso-dolar-ainda-tem-espaco-para-subir/
@@ -240,19 +273,4 @@ id: E05-TSLA-626a3a5b3f-2026-10-29 · status: linha
 · USDBRL Dólar sobe ante real em sintonia com o exterior Por Reuters (Investing.com) https://news.google.com/rss/articles/CBMinAFBVV95cUxPWDJaSF9UOGd3UDlERFdCNmVsbHFNTVYtTVV3cWZ1ZGRTeGNxakFJV3JCZ3U5Zkg4THVvcER2R2pEWmItMmFvRFMzZklWRExFNk1odG0yUEh4cnVDV2dvZTdBNURzWXpFbnJ4NzJmeEctR0YzNVVyZHlRV0lRNWJNSHdRakJSc3p1ZlZWS1NmczZrMXhyU2VFdjRJcHY?oc=5
 · AMD Advanced Micro (AMD) Q3 Earnings on the Horizon: Analysts' Insights on Key Performance Measures (Yahoo Finance) https://news.google.com/rss/articles/CBMimwFBVV95cUxPZHdjNVhEWXoxWDNKbVJEbFd3eEVkekVLWDV2WC1ZcHo0bWhDLThMN0FqWXdUSTdxTlhMbHB5aGVNdWxLV0NiYnNmQlRMd0tRTHVuamJ0WGZzcmM2TDJMNDZBT0dsam8xeUMwaGlOQzZsZHdJblEyVnVjbWFTR2NLZG11LXdBRGRlMXBQUUl3cENrcm53X2pOeE91cw?oc=5
 · NVDA Here are Thursday's biggest analyst calls: Nvidia, Anthropic, Apple, Tesla, Chevron, Microsoft, Alphabet & more (CNBC) https://news.google.com/rss/articles/CBMiigFBVV95cUxNcVA5WXFSbjhHemhHc0pudjZKVlU3X1JOMzVMLUdGMUI1Y3JOYXBRZHNBOUg1bEYxOWJJT042czBjSW5CWnc3Mi1vSjc4M3lkZ0ZkZ09sRkZYSlVDaHJRVkNGVFhBNzcwTXBrUHduZXh3VjZPNU93SkYzaWRTeVlORTRDS3hsVlJuLWc?oc=5
-· GOOGL Alphabet Earnings: Google Parent's Wobbly Quarter Is No Sign of a Crisis (Bloomberg) https://www.bloomberg.com/opinion/articles/2026-10-29/alphabet-earnings-google-parent-s-wobbly-quarter-is-no-sign-of-a-crisis
-· PETR4 Petrobras, Vale, Ambev, Oncoclínicas, Casas Bahia e mais ações para acompanhar hoje (InfoMoney) https://www.infomoney.com.br/mercados/petrobras-vale-ambev-oncoclinicas-casas-bahia-e-mais-acoes-para-acompanhar-hoje/
-· GOOGL Alphabet’s SpaceX Bet Wiped 55 Cents Off Its Earnings (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/alphabet-spacex-bet-wiped-55-111610461.html
-· AMZN The Cloud Titans: Microsoft’s Copilot Backlog Challenges Amazon’s Data Center Re-Acceleration (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/cloud-titans-microsoft-copilot-backlog-111510522.html
-· VALE3 Contas públicas, PIB dos EUA, Vale e Amazon são destaques da quinta (UOL Economia) https://economia.uol.com.br/colunas/por-dentro-da-bolsa/2026/10/29/contas-publicas-estimativa-do-pib-dos-eua-balancos-de-vale-e-amazon-sao-destaques-da-quinta.htm
-· GOOGL Crypto declines as Samsung and Alphabet earnings rattle tech and Fed holds with two dissenters seeking hike (CoinDesk) https://www.coindesk.com/markets/2026/10/29/bitcoin-drops-to-usd80-000-on-fed-dissent-samsung-alphabet-earnings-ai-tokens-slump
-· GOOGL Google’s Kurian Pushes Cloud Unit Into Greater Prominence (Bloomberg) https://www.bloomberg.com/news/newsletters/2026-10-29/alphabet-s-google-cloud-rises-in-prominence-in-ai-era
-· GOOGL Alphabet earnings miss reflects first real sign that AI is taking a bite out of search (CNBC) https://www.cnbc.com/2026/10/29/alphabet-google-search-ai-earnings.html
-· VALE3 Balanços no Brasil e no exterior devem concentrar atenções, Vale divulga resultado após fechamento (TradingView (Reuters)) https://news.google.com/rss/articles/CBMid0FVX3lxTE5CbHpIcDFQTVNvZzFWcERwT2dXV1h4WkNJRTBVUC1RNWhEcjUzV2ZuY1F6Sy1SV3B1d0JxZUVHdmRkUUJiTnd1US1aQmFzWVZiOHFrdi1RZmlpWEgtRVduZk90Z2pERGRXOUkyUWJ2MXI2TnBCQVdn?oc=5
-· UST Treasury yields ease after Federal Reserve rate hold (CNBC) https://news.google.com/rss/articles/CBMif0FVX3lxTE9tUkpYWmlUR3kwRzB5cTZuejFRaTloS09XeThKc3hXUnVVem12eHNkN0ZnV2VpemJ2N09sZWNkenlUNGhHVUo4RmdxaDFIUFhSU0JmMHlKckhSbXhxWXpMUGNsZ0dWOVVmd25nNnRpTE1lbEpTbWhkNk9VTnRpeGPSAYQBQVVfeXFMUE1seWVoTlViUzNtNmZyRk1NekFwcWN2ZkZSMUhWOUY2UHJQWnVZcTB2d1NPRXNzcmhzWlFGWlNNYUd2RTlEbUR1WEZlLWVCQzhjclZPdjlVX29STXVDVW1GOFVaeVUxeUoxSk9GRkhEeGg4RmlXclBlb1ZGZFgydFl0SjJN?oc=5
-· BTC Bitcoin long-term resistance in focus as analysis sees selling risk above $85K (TradingView (Reuters)) https://news.google.com/rss/articles/CBMi2AFBVV95cUxOTWNEWHIwUl8ySHEwakRDaVB2emdFNDJfMTV0WnlXN0FMS0ZnckdMRWt6SlN6b1AwUG9kNl9odk1yUXZULW05NlVvNmFzdDIyb2ZyTm9PVmZHUjFSM29wWUE3ZUowUWhJUGVfRXpvR2ZPZ1BvaG5FeGR1WlJjbzVsU001N3dQNUVEWE5FMnlFMXVBYTVqMEFyejVPSkdEQUl0TThzVGhMSUd4SEtzdUhKb1plSWZXMXV6S3dnbUNrcEhZVG5IY0E1ZzNvdDg0VHhMWmM0VzRTeUQ?oc=5
-· BTC iShares Bitcoin ETF (IBIT.NE) Stock Price, News, Quote & History (Yahoo Finance) https://news.google.com/rss/articles/CBMiVkFVX3lxTE1LLVI3LXJ5bTh1SzRGMkxHLUdVWXVPd1hHdFBXTUJlc1RObl9Jdnkxck81M3FqUDk1TGZ3RG83alpBREYwM09EQU9feWZzLU9HWkhjNU1B?oc=5
-· USDBRL Agenda cheia com dados fiscais, balanços e inflação nos EUA mexe com mercados; Ibovespa em dólar cai nesta quinta-feira (29) (Money Times) https://news.google.com/rss/articles/CBMi7AFBVV95cUxNU1dEUWZNSHcxRjN1cUYyQUE1Ykk5R3RLNEFSNU1INXl0MnR0M1VrbEZiSzBuNjBVVTZpZzJYX3JtRnpra2RucWc2X04tUUw3R1hHSjlvbnBPZE1OMjJBcEFZcDIzOFUwQ0IyT19xaFJFaVFLbUU2Z3gxd1ZwUnJYWW1hMzM1eXp1TVB6TWZSX0pkTWF4eGx4U2IzNVJoYTkyX3YwVW1Tdjd3MGRiTTZYRGVMYnROLVNBRlBhU1pSQ190ZENicHBoUzh2U1JVZ0hmNG05Q0p6dlF5T0Y3dzFTUS1QQ01WSHdmTl94ZA?oc=5
-· AMZN Amazon Earnings Are All About Its Cloud Business (Barron's) https://news.google.com/rss/articles/CBMilAFBVV95cUxPY2xLS1prSUVKSnBma3J4YV9FOWMzWlVkMENTdUl6UTZqUDVKOXVNcGt6WDhFbEVsRW9yN19FVHlnc1JkSndYeXRpbmk2VGF1ZU1IYnhXUjdTeGFmS3VocTJVUDVrRDdvY0RTaF9KdHRDTVdaSGY2RkkyOTJHeXRHbkg1Q3cxcTFWS3FRR0JlWU1KRVdR?oc=5
-· GOOGL Alphabet and Microsoft are on both sides of the AI boom's biggest bills: Chart of the Day (Yahoo Finance) https://news.google.com/rss/articles/CBMi3AFBVV95cUxPMDJfTnVRV0VJMlpNX3doOWNYWHZ4bmRjald1T1VXaGdXTFd5T29ObVZhSXlXRUdnYURmZ0tPLVd1N293SDcxM1YyVGlEb2pBdWxMWGVQbEN1TEh3OVBOYVdOMHpZTU83UGsxRkxKZnVqbWFvOTNjQWJVbTJxREw5cWtoTEtpalVzWkpkTjB6SEZla2trVkQ1cUVoQUVVVVA0RUdTenczdlR4MFJndTJmZ2ZleS1uSDBDTktWSFB6WFFpU0FUT3hyVlQyYktiM3FXMFhkZkVWb1RxUUpB?oc=5
-· (+5 manchetes; lista completa em eventos/noticias.json)
+· (+20 manchetes; lista completa em eventos/noticias.json)
