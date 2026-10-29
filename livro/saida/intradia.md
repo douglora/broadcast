@@ -1,76 +1,70 @@
 ALERTAS · intradia
 
-[ATENÇÃO] E05 · VALE3 · Lucro da Vale pode cair mais de 40% no 3T26, mas ação pode surpreender após balanço desta quinta
-Estadao · 29/10 09h27 · fonte única · licença: manchete
-Link: https://www.estadao.com.br/einvestidor/cenarios-e-mercado/lucro-da-vale-pode-cair-mais-de-40-no-3t26-mas-acao-pode-surpreender-apos-balanco-desta-quinta/
-Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
-Ativos: VALE3
-Como falar: 'saiu no Estadao: Lucro da Vale pode cair mais de 40% no 3T26, mas ação pode surpreender após balanço desta…; confirmar o número no texto antes de repassar'
-Fonte: Estadao 29/10 09h27
-Push: intradia: 3 alertas de atenção — E05 VALE3, E05 BBDC4, E05 PETR4 · detalhe na sessão
-ids: E05-VALE3-59fb997183-2026-10-29
-
-[ATENÇÃO] E05 · BBDC4 · Bradesco (BBDC4) sofre segundo rebaixamento e JPMorgan corta preço-alvo em quase 30%
-InfoMoney · 29/10 08h56 · fonte única · licença: resumo
+[ATENÇÃO] E05 · PETR4 · Petrobras (PETR4) bate recorde de produção total no 3T26
+Suno Noticias · 29/10 11h00 · fonte única · licença: resumo
 Trechos (licença resumo: reescrever, não colar):
-  – Além disso, reduziu o preço-alvo para dezembro de 2027 de R$ 26 para R$ 18, um corte de quase 31%.
-  – Na véspera, o Itaú BBA havia alertado que “a combinação de atividade econômica mais fraca, juros mais elevados e aumento das provisões para perdas com crédito deve limitar os avanços de rentabilidade observados nos últi…
-  – Na ocasião, o banco também rebaixou BBDC4 para market perform (equivalente à neutra) e reduziu seu preço-alvo para R$ 20.
-  – O banco estima que o retorno sobre patrimônio (ROE) recue de cerca de 15% em 2026 para 14% em 2027, enquanto o crescimento do lucro líquido seria de apenas 2% no período, para aproximadamente R$ 27,9 bilhões.
-  – Como resultado, a projeção é que o crescimento da carteira recue para cerca de 6% nos próximos trimestres.
-  – O relatório incorpora uma redução de 10 pontos-base na margem financeira dos clientes.
-Link: https://www.infomoney.com.br/mercados/bradesco-bbdc4-sofre-segundo-rebaixamento-e-jpmorgan-corta-preco-alvo-em-quase-30/
-Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
-Ativos: BBDC4 · JPM
-Como falar: 'saiu no InfoMoney: Bradesco (BBDC4) sofre segundo rebaixamento e JPMorgan corta preço-alvo em quase 30%; confirmar o número no texto antes de repassar'
-Fonte: InfoMoney 29/10 08h56
-ids: E05-BBDC4-7b3dad1772-2026-10-29
-
-[ATENÇÃO] E05 · PETR4 · Produção da Petrobras bate recorde no 3º tri e importação de diesel dispara
-Exame · 28/10 20h38 · + UOL Economia, ADVFN · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – Petrobras: dados de produção do 3º tri bateram recorde (MAURO PIMENTEL/AFP/Getty Images) A Petrobras (PETR4) nunca extraiu tanto petróleo e gás quanto no terceiro trimestre de 2026.
-  – Segundo o relatório de produção e vendas divulgado nesta quarta-feira, 28, a produção própria média chegou a 3,51 milhões de barris de óleo equivalente por dia (boed), unidade que soma o petróleo e o gás natural convert…
-  – O volume é 11,7% maior que o de um ano antes e 5,3% superior ao do segundo trimestre, que já tinha sido recorde.
-  – O pré-sal sustentou o avanço, com produção própria de 2,96 milhões de boed.
-  – Somando a parte dos sócios nos campos operados pela estatal, a produção total passou pela primeira vez de 5 milhões de boed.
-  – "Superamos as nossas metas!", afirmou Sylvia Anjos, diretora de Exploração e Produção, no relatório.
-Link: https://exame.com/invest/mercados/producao-da-petrobras-bate-recorde-no-3o-tri-e-importacao-de-diesel-dispara/
+  – Negócios Petrobras (PETR4) bate recorde de produção total no 3T26 A Petrobras (PETR4) atingiu um novo recorde de produção no terceiro trimestre de 2026.
+  – A companhia produziu, em média, 3,512 milhões de barris de óleo equivalente por dia (MMboed) entre julho e setembro.
+  – O dado faz parte do relatório de produção e vendas do terceiro trimestre de 2026, divulgado na noite de ontem (28).
+  – O volume apresentado pela Petrobras, que reúne óleo, LGN e gás natural, representa alta de 11,7% na comparação com o mesmo período de 2025 e de 5,3% frente ao segundo trimestre deste ano.
+  – Também pesaram a favor o ramp-up dos FPSOs P-78 e P-79, no campo de Búzios, a chegada do FPSO Alexandre de Gusmão ao topo de produção, no campo de Mero, e a redução das perdas com paradas para manutenção.
+  – Ao longo do trimestre, 12 novos poços produtores começaram a operar: seis na Bacia de Campos e seis na Bacia de Santos.
+Link: https://www.suno.com.br/noticias/petr4-recorde-producao-3t26-go/
 Por que importa: evento operacional afeta producao e custo no trimestre corrente
-Ativos: PETR4 · BRENT
-Como falar: 'saiu no Exame: Produção da Petrobras bate recorde no 3º tri e importação de diesel dispara; confirmar o número no texto antes de repassar'
-Fonte: Exame 28/10 20h38
-ids: E05-PETR4-36c78b3310-2026-10-28
+Ativos: PETR4
+Como falar: 'saiu no Suno Noticias: Petrobras (PETR4) bate recorde de produção total no 3T26; confirmar o número no texto antes de repassar'
+Fonte: Suno Noticias 29/10 11h00
+Push: intradia: 2 alertas de atenção — E05 PETR4, E05 PETR4 · detalhe na sessão
+ids: E05-PETR4-67ef82f151-2026-10-29
+
+[ATENÇÃO] E05 · PETR4 · Petrobras: produção recorde reforça visão para 3T; mercado vê dividendo de US$ 3,6 bi
+InfoMoney · 29/10 09h58 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – A produção de petróleo atingiu 2,83 milhões de barris por dia, também com crescimento de 5% na base trimestral e de 12% em um ano.
+  – O desempenho foi sustentado principalmente pelo ramp-up das plataformas P-78 e P-79, em Búzios, e pela plataforma Alexandre de Gusmão, no campo de Mero, que atingiu seu pico de produção.
+  – A produção do pré-sal alcançou 2,45 milhões de barris por dia, um crescimento de 7% frente ao trimestre anterior e de 16% em relação ao mesmo período de 2025.
+  – “O crescimento da produção continua acima do esperado e abre espaço para novas revisões para cima das estimativas do mercado”, destacaram os analistas do Bradesco BBI.
+  – Segundo a XP Investimentos, o Brent teve preço médio de US$ 96,8 por barril entre julho e setembro, queda de 8% em relação ao trimestre anterior.
+  – Como consequência, a casa projeta EBITDA (lucro antes de juros, impostos, depreciações e amortizações) de cerca de US$ 17,3 bilhões, abaixo dos US$ 19 bilhões registrados no segundo trimestre.
+Link: https://www.infomoney.com.br/mercados/petrobras-producao-recorde-reforca-visao-para-3t-mercado-ve-dividendo-de-us-36-bi/
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: PETR4
+Como falar: 'saiu no InfoMoney: Petrobras: produção recorde reforça visão para 3T; mercado vê dividendo de US$ 3,6 bi; confirmar o número no texto antes de repassar'
+Fonte: InfoMoney 29/10 09h58
+ids: E05-PETR4-5ec5fae808-2026-10-29
 
 Info (só linha no Fechamento):
-· F01 Real cai: USD/BRL 5,3588 (+6,4% em 5 sessões) (parcial, intradia)
-· E03 KLBN4 · Comunicado ao Mercado: Apresentações a analistas/agentes do mercado
-· E05 NVDA · Google's Nvidia chip challenge boosts cloud sales, crimps cash flow
-· E05 ETH · Current price of Ethereum for Oct. 29, 2026
-· E05 GOOGL · Google stock plunges 11% on Q3 earnings miss
-· E05 UST · US 10-Year Treasury Yield Little Changed At 5%
-· E05 USDBRL · Dólar abre em alta com EUA e política fiscal brasileira em foco
-· E05 USDBRL · Tempo real: Ibovespa cai com incerteza fiscal; dólar sobe
-· E05 USDBRL · Café pode ficar mais caro após alta do dólar? Economista explica impactos
-· E05 NVDA · Pick-and-Shovel vs. Edge Gatekeeper: Why Investors Are Splitting Between Nvidia and Apple
-· E05 MU · Micron Dips as Samsung Earnings Show the High Bar for Memory Stocks.
-· E05 USDBRL · Dólar hoje avança em linha com o exterior
-· E05 BRENT · Dólar sobe com petróleo em queda e incertezas fiscais
-· E05 USDBRL · Ibovespa futuro cai com fiscal em foco e tom negativo de Wall Street; dólar tem leve alta
-· E05 USDBRL · Dólar sobe ante real em sintonia com o exterior Por Reuters
-· E05 AMD · Advanced Micro (AMD) Q3 Earnings on the Horizon: Analysts' Insights on Key Performance Measures
-· E05 NVDA · Here are Thursday's biggest analyst calls: Nvidia, Anthropic, Apple, Tesla, Chevron, Microsoft, Alphabet & more
+· E05 UST · The 10-Year Treasury Yield Just Jumped Back Above 5%
+· E05 GOOGL · AMD, CoreWeave Stocks Drop. Why Microsoft and Google Results Hit the AI Trade.
+· E05 LITE · Lumentum Holdings options signal 9% move on earnings release
+· E05 USDBRL · Quatro pregões após a eleição, Ibovespa ainda não encontra força; dólar volta a subir
+· E05 GOOGL · Google despenca 13% após balanço; lucro cai e buscas desaceleram
+· E05 GOOGL · Alphabet tumbles, software and cybersecurity stocks sink as earnings disappoint: AlphaCheck
+· E05 GOOGL · Nasdaq Slumps After Google Earnings Disappoint
+· E05 JPM · JPMorgan starts Palantir at Overweight, calls it a disruptive AI leader
+· E05 KLBN4 · Klabin vê tendência de neutralidade em todos os mercados, com exceção de kraftliner
+· E05 GOOGL · Why Alphabet’s stock could see its worst day ever after the latest results
+· E05 GOOGL · Stock Market Today (Oct. 29, 2026): S&P 500 falls on Alphabet earnings miss
+· E05 BTC · Bitwise Raises Bitcoin Price Forecast To $1.6 Million By 2036
+· E05 USDBRL · Dólar sobe ante o real, em linha com pares emergentes, após dados dos EUA
+· E05 AVGO · Broadcom Inc. Revenue Breakdown – BSESOF:1YD
+· E05 ETH · Current price of Ethereum for October 29, 2026
+· S01 coleta do slot intradia saiu incompleta: bcb: BCB devolveu 4 de 5 séries (faltaram ptax_venda)
 
+Suprimidos pelo teto (viram linha do Fechamento): S01-SISTEMA-intradia-2026-10-29 (teto de atenção)
 
 Alertas do dia (todos, com status):
-· pendente  E05 VALE3 — VALE3 · Lucro da Vale pode cair mais de 40% no 3T26, mas ação pode surpreender a
-· pendente  E05 BBDC4 — BBDC4 · Bradesco (BBDC4) sofre segundo rebaixamento e JPMorgan corta preço-alvo 
-· pendente  E05 PETR4 — PETR4 · Produção da Petrobras bate recorde no 3º tri e importação de diesel disp
+· pendente  E05 PETR4 — PETR4 · Petrobras (PETR4) bate recorde de produção total no 3T26
+· pendente  E05 PETR4 — PETR4 · Petrobras: produção recorde reforça visão para 3T; mercado vê dividendo 
+· linha     S01 SISTEMA — coleta do slot intradia saiu incompleta: bcb: BCB devolveu 4 de 5 séries (faltar
+· entregue  E05 VALE3 — VALE3 · Lucro da Vale pode cair mais de 40% no 3T26, mas ação pode surpreender a
+· entregue  E05 BBDC4 — BBDC4 · Bradesco (BBDC4) sofre segundo rebaixamento e JPMorgan corta preço-alvo 
+· entregue  E05 PETR4 — PETR4 · Produção da Petrobras bate recorde no 3º tri e importação de diesel disp
 · entregue  E01 CVX — CVX: resultado sai na próxima sessão (30/10)
 · entregue  M01 MACRO — Agenda: BCE: decisao de politica monetaria hoje às 10:15 (29/10)
 · entregue  E05 GOOGL — GOOGL · Samsung and Google ruin the party: Earnings misses drive tech futures lo
 · entregue  E05 BTC — BTC · How to Get Offered $3 Million in Bitcoin Bets: Call It a ‘Dead Network’ on
 · entregue  E05 VALE3 — VALE3 · Lucro líquido da Vale (VALE3) deve cair quase 50% no 3T26: veja os motiv
-· linha     F01 USDBRL — Real cai: USD/BRL 5,3588 (+6,4% em 5 sessões) (parcial, intradia)
-· (+49 notícias só manchete, em noticias.md)
+· linha     F01 USDBRL — Real cai: USD/BRL 5,3948 (+7,1% em 5 sessões) (parcial, intradia)
+· (+64 notícias só manchete, em noticias.md)
 

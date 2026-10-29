@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 29/10 10h44
+NOTÍCIAS E FATOS · 29/10 11h54
 
-Pernas: noticias ok 18 novas (18 consultas; descartadas: 392 veículo fora da lista, 24 sem ativo, 26 teto) · cvm ok 1 novos de 13 (8 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 17 novas (18 consultas; descartadas: 423 veículo fora da lista, 35 sem ativo, 13 teto) · cvm ok 0 novos de 13 (8 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (1)
 
@@ -26,7 +26,39 @@ Fonte: SEC EDGAR 2026-10-29
 id: E04-GOOGL-26000084-2026-10-29 · status: linha
 
 
-## NOTÍCIAS COM MATERIALIDADE (10)
+## NOTÍCIAS COM MATERIALIDADE (12)
+
+[ATENÇÃO] E05 · PETR4 · Petrobras (PETR4) bate recorde de produção total no 3T26
+Suno Noticias · 29/10 11h00 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Negócios Petrobras (PETR4) bate recorde de produção total no 3T26 A Petrobras (PETR4) atingiu um novo recorde de produção no terceiro trimestre de 2026.
+  – A companhia produziu, em média, 3,512 milhões de barris de óleo equivalente por dia (MMboed) entre julho e setembro.
+  – O dado faz parte do relatório de produção e vendas do terceiro trimestre de 2026, divulgado na noite de ontem (28).
+  – O volume apresentado pela Petrobras, que reúne óleo, LGN e gás natural, representa alta de 11,7% na comparação com o mesmo período de 2025 e de 5,3% frente ao segundo trimestre deste ano.
+  – Também pesaram a favor o ramp-up dos FPSOs P-78 e P-79, no campo de Búzios, a chegada do FPSO Alexandre de Gusmão ao topo de produção, no campo de Mero, e a redução das perdas com paradas para manutenção.
+  – Ao longo do trimestre, 12 novos poços produtores começaram a operar: seis na Bacia de Campos e seis na Bacia de Santos.
+Link: https://www.suno.com.br/noticias/petr4-recorde-producao-3t26-go/
+Por que importa: evento operacional afeta producao e custo no trimestre corrente
+Ativos: PETR4
+Como falar: 'saiu no Suno Noticias: Petrobras (PETR4) bate recorde de produção total no 3T26; confirmar o número no texto antes de repassar'
+Fonte: Suno Noticias 29/10 11h00
+id: E05-PETR4-67ef82f151-2026-10-29 · status: pendente
+
+[ATENÇÃO] E05 · PETR4 · Petrobras: produção recorde reforça visão para 3T; mercado vê dividendo de US$ 3,6 bi
+InfoMoney · 29/10 09h58 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – A produção de petróleo atingiu 2,83 milhões de barris por dia, também com crescimento de 5% na base trimestral e de 12% em um ano.
+  – O desempenho foi sustentado principalmente pelo ramp-up das plataformas P-78 e P-79, em Búzios, e pela plataforma Alexandre de Gusmão, no campo de Mero, que atingiu seu pico de produção.
+  – A produção do pré-sal alcançou 2,45 milhões de barris por dia, um crescimento de 7% frente ao trimestre anterior e de 16% em relação ao mesmo período de 2025.
+  – “O crescimento da produção continua acima do esperado e abre espaço para novas revisões para cima das estimativas do mercado”, destacaram os analistas do Bradesco BBI.
+  – Segundo a XP Investimentos, o Brent teve preço médio de US$ 96,8 por barril entre julho e setembro, queda de 8% em relação ao trimestre anterior.
+  – Como consequência, a casa projeta EBITDA (lucro antes de juros, impostos, depreciações e amortizações) de cerca de US$ 17,3 bilhões, abaixo dos US$ 19 bilhões registrados no segundo trimestre.
+Link: https://www.infomoney.com.br/mercados/petrobras-producao-recorde-reforca-visao-para-3t-mercado-ve-dividendo-de-us-36-bi/
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: PETR4
+Como falar: 'saiu no InfoMoney: Petrobras: produção recorde reforça visão para 3T; mercado vê dividendo de US$ 3,6 bi; confirmar o número no texto antes de repassar'
+Fonte: InfoMoney 29/10 09h58
+id: E05-PETR4-5ec5fae808-2026-10-29 · status: pendente
 
 [ATENÇÃO] E05 · VALE3 · Lucro da Vale pode cair mais de 40% no 3T26, mas ação pode surpreender após balanço desta quinta
 Estadao · 29/10 09h27 · fonte única · licença: manchete
@@ -35,7 +67,7 @@ Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; 
 Ativos: VALE3
 Como falar: 'saiu no Estadao: Lucro da Vale pode cair mais de 40% no 3T26, mas ação pode surpreender após balanço desta…; confirmar o número no texto antes de repassar'
 Fonte: Estadao 29/10 09h27
-id: E05-VALE3-59fb997183-2026-10-29 · status: pendente
+id: E05-VALE3-59fb997183-2026-10-29 · status: entregue
 
 [ATENÇÃO] E05 · BBDC4 · Bradesco (BBDC4) sofre segundo rebaixamento e JPMorgan corta preço-alvo em quase 30%
 InfoMoney · 29/10 08h56 · fonte única · licença: resumo
@@ -51,7 +83,7 @@ Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais
 Ativos: BBDC4 · JPM
 Como falar: 'saiu no InfoMoney: Bradesco (BBDC4) sofre segundo rebaixamento e JPMorgan corta preço-alvo em quase 30%; confirmar o número no texto antes de repassar'
 Fonte: InfoMoney 29/10 08h56
-id: E05-BBDC4-7b3dad1772-2026-10-29 · status: pendente
+id: E05-BBDC4-7b3dad1772-2026-10-29 · status: entregue
 
 [ATENÇÃO] E05 · PETR4 · Produção da Petrobras bate recorde no 3º tri e importação de diesel dispara
 Exame · 28/10 20h38 · + UOL Economia, ADVFN · licença: resumo
@@ -67,7 +99,7 @@ Por que importa: evento operacional afeta producao e custo no trimestre corrente
 Ativos: PETR4 · BRENT
 Como falar: 'saiu no Exame: Produção da Petrobras bate recorde no 3º tri e importação de diesel dispara; confirmar o número no texto antes de repassar'
 Fonte: Exame 28/10 20h38
-id: E05-PETR4-36c78b3310-2026-10-28 · status: pendente
+id: E05-PETR4-36c78b3310-2026-10-28 · status: entregue
 
 [ATENÇÃO] E05 · GOOGL · Samsung and Google ruin the party: Earnings misses drive tech futures lower as the Fed signals rate hikes ahead
 Fortune · 29/10 08h04 · fonte única · licença: manchete
@@ -161,8 +193,23 @@ Fonte: Bloomberg 29/10 01h13
 id: E05-TSLA-626a3a5b3f-2026-10-29 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (35)
+## OUTRAS NOTÍCIAS (só manchete) (50)
 
+· UST The 10-Year Treasury Yield Just Jumped Back Above 5% (Yahoo Finance) https://finance.yahoo.com/markets/currencies/articles/10-treasury-yield-just-jumped-143353160.html
+· GOOGL AMD, CoreWeave Stocks Drop. Why Microsoft and Google Results Hit the AI Trade. (Barron's) https://www.barrons.com/articles/microsoft-alphabet-earnings-ai-amd-coreweave-98a4ad58
+· LITE Lumentum Holdings options signal 9% move on earnings release (Investing.com) https://www.investing.com/news/stock-market-news/lumentum-holdings-options-signal-9-move-on-earnings-release-93CH-4984256
+· USDBRL Quatro pregões após a eleição, Ibovespa ainda não encontra força; dólar volta a subir (Exame) https://exame.com/invest/mercados/quatro-pregoes-apos-a-eleicao-ibovespa-ainda-nao-encontra-forca-dolar-volta-a-subir/
+· GOOGL Google despenca 13% após balanço; lucro cai e buscas desaceleram (UOL Economia) https://economia.uol.com.br/cotacoes/noticias/redacao/2026/10/29/google-despenca-13-apos-balanco-lucro-cai-e-buscas-desaceleram.htm
+· GOOGL Alphabet tumbles, software and cybersecurity stocks sink as earnings disappoint: AlphaCheck (Yahoo Finance) https://finance.yahoo.com/markets/article/software-stocks-sink-as-forecasts-disappoint-alphacheck-135300619.html
+· GOOGL Nasdaq Slumps After Google Earnings Disappoint (The Wall Street Journal) https://www.wsj.com/finance/stocks/ai-stocks-fall-after-alphabet-earnings-disappoint-61d526ed
+· JPM JPMorgan starts Palantir at Overweight, calls it a disruptive AI leader (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/jpmorgan-starts-palantir-overweight-calls-135016462.html
+· KLBN4 Klabin vê tendência de neutralidade em todos os mercados, com exceção de kraftliner (UOL Economia) https://economia.uol.com.br/noticias/reuters/2026/10/29/klabin-ve-tendencia-de-neutralidade-em-todos-os-mercados-com-excecao-de-kraftliner.htm
+· GOOGL Why Alphabet’s stock could see its worst day ever after the latest results (MarketWatch) https://www.marketwatch.com/story/why-alphabets-stock-could-see-its-worst-drop-in-years-after-the-latest-results-6b64cf98
+· GOOGL Stock Market Today (Oct. 29, 2026): S&P 500 falls on Alphabet earnings miss (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/stock-market-today-oct-29-134623155.html
+· BTC Bitwise Raises Bitcoin Price Forecast To $1.6 Million By 2036 (Yahoo Finance) https://news.google.com/rss/articles/CBMipAFBVV95cUxONENMd3BHUk5RdzNzTXJLUkR6dW44bnBYNk9kZHlva3VmQ1E5Sk9WbmMtMVNTM0dTTUMzdWRiWnhjSnRNNk5POHlnMklMYXdKUWdKZy1sWkhmNDV2TG00VG5Cd0ZJSVVMbGQ2SDJGMlJfVThhNDNpNlhsMUFpOVFHdEtST2d3TVRQQUdaX2RzLTA4c1BNNVZma3ByNlI0LURBVFcyNA?oc=5
+· USDBRL Dólar sobe ante o real, em linha com pares emergentes, após dados dos EUA (Valor Economico) https://news.google.com/rss/articles/CBMiyAFBVV95cUxQUF9FUlR3OHBCZ1BDTDBZZkJqSHVhTy13ZHRCdndscXhtZVZjbG1mY3pmclZ3aHVSV0R0MGFkd3VLaEhGb2I4Yy1VTnhORENsTTBWN3loalM2YUZUS0pSQThLNVpXSm1qUlc4SjViajVWdTVoaXQxSzBUU1pRd1hkZnBVc1RuV20yamx5UlVDMlRiWnB6YkVIX3AzbTVBZTBpOU9GYVJaVDJBNnRtY1N3ZXFlT1RPeGtyLWZ2ZXAxWmVtd0g5T0FfV9IB1wFBVV95cUxQWEpmZEtWaDJRb29lRG9xbjdRNTh5UkJyeXNPMjZySDh4cE5kTXctM3M4VUdQdVFvTV81MHU0UXpQcVdOVnlheGkyNERFVE04bDIzT05zN25jSlJhMEE2bTRZek5lMVJmbFRHTU1wa09uN1BsRDhCajM0bTNfV25KaTZYLUs1ODlENXdyTlUtRXYycHhyLUwybHNhSWNkRFZYaUNsVHBNMHpXZUVEdllXYm9UWVlqQzJ0eVpMbEg4WGhCMjhpQ1BxWUtJZlFLZHBUYnlrcl9rYw?oc=5
+· AVGO Broadcom Inc. Revenue Breakdown – BSESOF:1YD (TradingView (Reuters)) https://news.google.com/rss/articles/CBMidEFVX3lxTE9sMGVGVFFIeEJYNVBDdTRCSVo0dmJ2eEphdDc0TG1QcnM0VF92NURPeXVKYkdFcjE2TnB0akxvSWhWQVVYaXY0VHJsYU9aZ0lFeUNueVZGYVJTcU9zMDN3WXk2d1dSTk13NjdidXJWQkhCX1dX?oc=5
+· ETH Current price of Ethereum for October 29, 2026 (Fortune) https://news.google.com/rss/articles/CBMiaEFVX3lxTE9PSEczdTJ1NGNlYVA0SlR4MDhQaTY0akdDNjlRZXk2bGFwa3pabHFkTzVHRW41a09iVGZEbUh0ckU4NTZ6NWNOUHdxdnRhOWVmbWdlWlNrWTgzQmVpbF9RSDE4bFUwbXIy?oc=5
 · NVDA Google's Nvidia chip challenge boosts cloud sales, crimps cash flow (Reuters) https://www.reuters.com/business/googles-nvidia-chip-challenge-boosts-cloud-sales-crimps-cash-flow-2026-10-29/
 · ETH Current price of Ethereum for Oct. 29, 2026 (Fortune) https://fortune.com/article/price-of-ethereum-10-29-2026/
 · GOOGL Google stock plunges 11% on Q3 earnings miss (Yahoo Finance) https://finance.yahoo.com/technology/article/google-stock-plunges-11-on-q3-earnings-miss-130617052.html
