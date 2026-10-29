@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 29/10 14h33
+NOTÍCIAS E FATOS · 29/10 15h22
 
-Pernas: noticias ok 6 novas (18 consultas; descartadas: 395 veículo fora da lista, 29 sem ativo, 0 teto) · cvm ok 0 novos de 13 (8 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 12 novas (18 consultas; descartadas: 384 veículo fora da lista, 29 sem ativo, 0 teto) · cvm ok 0 novos de 13 (8 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (1)
 
@@ -26,7 +26,23 @@ Fonte: SEC EDGAR 2026-10-29
 id: E04-GOOGL-26000084-2026-10-29 · status: linha
 
 
-## NOTÍCIAS COM MATERIALIDADE (16)
+## NOTÍCIAS COM MATERIALIDADE (17)
+
+[ATENÇÃO] E05 · PETR4 · Dividendos de até US$ 4,2 bilhões: com operacional tinindo, Petrobras (PETR4) deve 'blindar' os proventos da queda do petróleo
+Seu Dinheiro · 29/10 14h49 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – No terceiro trimestre de 2026 (3T26), não foi diferente: a petroleira divulgou, na noite de ontem (28), mais uma leva de dados operacionais fortes — o que fez o mercado já começar a sonhar com dividendos gordos da petro…
+  – A estatal divulgará o balanço no dia 11 de novembro, após o fechamento dos mercados.
+  – Na visão de analistas, a Petrobras os números do trimestre devem vir fortes, apesar de uma queda nos preços do petróleo em relação ao 2T26.
+  – Segundo a XP, o preço do barril do Brent, referência internacional e padrão da companhia, caiu para uma média de US$96,8 entre julho e setembro, desvalorização de 8% em relação aos três meses imediatamente anteriores.
+  – O BTG Pactual e XP esperam US$ 3,6 bilhões aos acionistas no 3T36, o equivalente a um dividend yield de 2,5%.
+  – O Safra, por sua vez, projeta pagamento de US$ 3,1 bilhões, com retorno também na casa dos 2,5%.
+Link: https://www.seudinheiro.com/2026/empresas/dividendos-de-ate-us-42-bilhoes-com-operacional-tinindo-petrobras-petr4-deve-blindar-os-proventos-da-queda-do-petroleo-bdap/
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: PETR4 · BRENT
+Como falar: 'saiu no Seu Dinheiro: Dividendos de até US$ 4,2 bilhões: com operacional tinindo, Petrobras (PETR4) deve 'blind…; confirmar o número no texto antes de repassar'
+Fonte: Seu Dinheiro 29/10 14h49
+id: E05-PETR4-0b5d4e2bc2-2026-10-29 · status: pendente
 
 [ATENÇÃO] E05 · BTC · Amplify Bitcoin 2% Monthly Option Income ETF declares $0.5352 dividend
 TradingView (Reuters) · 29/10 13h39 · fonte única · licença: manchete
@@ -35,7 +51,7 @@ Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir
 Ativos: BTC
 Como falar: 'saiu no TradingView (Reuters): Amplify Bitcoin 2% Monthly Option Income ETF declares $0.5352 dividend; confirmar o número no texto antes de repassar'
 Fonte: TradingView (Reuters) 29/10 13h39
-id: E05-BTC-16b8fe8f27-2026-10-29 · status: pendente
+id: E05-BTC-16b8fe8f27-2026-10-29 · status: entregue
 
 [ATENÇÃO] E05 · GOOGL · US files lawsuit claiming Google wouldn't give employee new job following military deployment
 Reuters · 29/10 12h49 · fonte única · licença: manchete
@@ -44,7 +60,7 @@ Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e 
 Ativos: GOOGL
 Como falar: 'saiu no Reuters: US files lawsuit claiming Google wouldn't give employee new job following military deploy…; confirmar o número no texto antes de repassar'
 Fonte: Reuters 29/10 12h49
-id: E05-GOOGL-44e10adf43-2026-10-29 · status: pendente
+id: E05-GOOGL-44e10adf43-2026-10-29 · status: entregue
 
 [ATENÇÃO] E05 · ETH · Amplify Ethereum 3% Monthly Option Income ETF declares $0.2508 dividend
 TradingView (Reuters) · 29/10 13h14 · fonte única · licença: manchete
@@ -229,8 +245,19 @@ Fonte: Bloomberg 29/10 01h13
 id: E05-TSLA-626a3a5b3f-2026-10-29 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (99)
+## OUTRAS NOTÍCIAS (só manchete) (110)
 
+· INTC Intel Stocks Decline 2.8% Before Its Margin and Earnings Check (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/intel-stocks-decline-2-8-181718281.html
+· AMZN Amazon earnings live: AI growth takes center stage (Yahoo Finance) https://finance.yahoo.com/markets/stocks/live/amazon-earnings-live-ai-growth-takes-center-stage-173000277.html
+· UST Did the Fed make a mistake with its October rate pause? The Treasury could help save the day. (MarketWatch) https://www.marketwatch.com/story/did-the-fed-make-a-mistake-with-its-october-rate-pause-the-treasury-could-help-save-the-day-77d84993
+· USDBRL Euro sobe em relação ao dólar após BCE manter taxas de juros (CNN Brasil) https://www.cnnbrasil.com.br/economia/money/mercado/euro-sobe-em-relacao-ao-dolar-apos-bce-manter-taxas-de-juros/
+· BTC Bitcoin CPI falls 19.30% in September but rises 43.75% year over year (TradingView (Reuters)) https://www.tradingview.com/news/cryptobriefing:dcbd90bb6094b:0-bitcoin-cpi-falls-19-30-in-september-but-rises-43-75-year-over-year/
+· MMM 3M vs. Illinois Tool: Which Industrial Conglomerate Stock is a Stronger Pick? (TradingView (Reuters)) https://www.tradingview.com/news/zacks:ed4d45d53094b:0-3m-vs-illinois-tool-which-industrial-conglomerate-stock-is-a-stronger-pick/
+· USDBRL Dólar hoje avança mais de 1% e real é a moeda mais fraca do dia (Valor Economico) https://valor.globo.com/financas/noticia/2026/10/29/dolar-sobe-ante-o-real-em-linha-com-pares-emergentes-apos-dados-dos-eua.ghtml
+· GOOGL Alphabet falls 12%, putting it on course for its biggest ever post-earnings drop (CNBC) https://www.cnbc.com/2026/10/29/alphabet-google-microsoft-msft-shares-today-earnings.html
+· ETH Ethereum ETH (ETH-CAD) Live Price, News, Chart & Price History (Yahoo Finance) https://ca.finance.yahoo.com/quote/ETH-CAD/
+· GOOGL Asia stocks mixed as Alphabet, Samsung results disappoint; more tech earnings loom (Investing.com) https://uk.investing.com/news/stock-market-news/asia-stocks-fall-as-alphabet-samsung-results-disappoint-more-tech-earnings-loom-4939766
+· BRENT UBS’s new Brent price forecasts as Middle East supply risk supports oil prices By Investing.com (Investing.com) https://news.google.com/rss/articles/CBMizAFBVV95cUxNMUtVRkRCdTFnVzFxR2FjTnJLVmtPVjY0T3FZcEJmRHFQMnNneGFQMkxIMmllRHVKT195VjRsVmFMdGlGbFhwYWtHcXptSmxRaS0zajBrTWFaTjNXZVlSVXhHNUJ4RTllYTVYYlBoV1NPX19qUDBUZ1lpY3FCT2lhSmYwS2tLeDhCV0ozTTQ0SktNLTdjanBBT1g4RWppX0tUTlNEM1JCbk84Q3EzNnA1dS0wSVFLWEQ5OHYzTDZpQW5WSmFkTnFTcFA1bDk?oc=5
 · USDBRL Reeleição de Lula: Ibovespa derrete quase 14% e dólar tem maior oscilação desde janeiro de 1999 (Estadao) https://www.estadao.com.br/em-alta/einvestidor/cenarios-e-mercado/ibovespa-hoje-fim-das-eleicoes-abre-nova-disputa-no-mercado-o-que-esta-em-jogo/
 · ETH XRP, Ethereum, Solana Are 3 of the Top 5 Altcoins, Expert Says: And the Other 2? (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:d67a8f07e094b:0-xrp-ethereum-solana-are-3-of-the-top-5-altcoins-expert-says-and-the-other-2/
 · LITE Lumentum (LITE) Earnings Expected to Grow: Should You Buy? (Yahoo Finance) https://au.finance.yahoo.com/news/lumentum-lite-earnings-expected-grow-130033474.html
@@ -280,15 +307,4 @@ id: E05-TSLA-626a3a5b3f-2026-10-29 · status: linha
 · USDBRL Dólar opera em alta, de olho em dados de inflação e atividade nos EUA; Ibovespa cai a 169 mil pontos (g1) https://g1.globo.com/economia/noticia/2026/10/29/dolar-ibovespa.ghtml
 · NVDA Nvidia: The AI King Still A 'Buy' Near Its Highs (TradingView (Reuters)) https://news.google.com/rss/articles/CBMiqAFBVV95cUxNYW5qc25QVlV3WjViaVlUOWgxaFBKVG1ZY0w1Q0UtMkFMTmRNaVhWOThvbTJ4cTNOSklKZC1vRWhhUHRCTXNjZ1FBTmlPanNVWVFKUVFUUnlPUXBLaGVxRjJXcWNJTVVnVjZaaGlaUjVMaDVSQlNkTE14RnJjdGI5ckp4WXJiSnZMb1ZPTDJaaUZJU3hKNHRmM3BTMXBsYUstcmRMUExvNlE?oc=5
 · TSM TSMC Stock: Spending Its Lead To Keep It (NYSE:TSM) (Seeking Alpha) https://news.google.com/rss/articles/CBMif0FVX3lxTE5OekdFcWp1Y0luR3BJdkZlR0JlMGdycy0waWZOYzdIR2IzTTlDVzZzbGFldTRaaHkyS0dKZmMtWXFVamFqaXFsWkVIQ0ZyZ2EwMlpjX2owYUh3R2w0SVZVckdOazRzSHpvLWNoakc3UGFsNHRqTzZ0TnJRODhla1E?oc=5
-· UST The 10-Year Treasury Yield Just Jumped Back Above 5% (Yahoo Finance) https://finance.yahoo.com/markets/currencies/articles/10-treasury-yield-just-jumped-143353160.html
-· GOOGL AMD, CoreWeave Stocks Drop. Why Microsoft and Google Results Hit the AI Trade. (Barron's) https://www.barrons.com/articles/microsoft-alphabet-earnings-ai-amd-coreweave-98a4ad58
-· LITE Lumentum Holdings options signal 9% move on earnings release (Investing.com) https://www.investing.com/news/stock-market-news/lumentum-holdings-options-signal-9-move-on-earnings-release-93CH-4984256
-· USDBRL Quatro pregões após a eleição, Ibovespa ainda não encontra força; dólar volta a subir (Exame) https://exame.com/invest/mercados/quatro-pregoes-apos-a-eleicao-ibovespa-ainda-nao-encontra-forca-dolar-volta-a-subir/
-· GOOGL Google despenca 13% após balanço; lucro cai e buscas desaceleram (UOL Economia) https://economia.uol.com.br/cotacoes/noticias/redacao/2026/10/29/google-despenca-13-apos-balanco-lucro-cai-e-buscas-desaceleram.htm
-· GOOGL Alphabet tumbles, software and cybersecurity stocks sink as earnings disappoint: AlphaCheck (Yahoo Finance) https://finance.yahoo.com/markets/article/software-stocks-sink-as-forecasts-disappoint-alphacheck-135300619.html
-· GOOGL Nasdaq Slumps After Google Earnings Disappoint (The Wall Street Journal) https://www.wsj.com/finance/stocks/ai-stocks-fall-after-alphabet-earnings-disappoint-61d526ed
-· JPM JPMorgan starts Palantir at Overweight, calls it a disruptive AI leader (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/jpmorgan-starts-palantir-overweight-calls-135016462.html
-· KLBN4 Klabin vê tendência de neutralidade em todos os mercados, com exceção de kraftliner (UOL Economia) https://economia.uol.com.br/noticias/reuters/2026/10/29/klabin-ve-tendencia-de-neutralidade-em-todos-os-mercados-com-excecao-de-kraftliner.htm
-· GOOGL Why Alphabet’s stock could see its worst day ever after the latest results (MarketWatch) https://www.marketwatch.com/story/why-alphabets-stock-could-see-its-worst-drop-in-years-after-the-latest-results-6b64cf98
-· GOOGL Stock Market Today (Oct. 29, 2026): S&P 500 falls on Alphabet earnings miss (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/stock-market-today-oct-29-134623155.html
-· (+39 manchetes; lista completa em eventos/noticias.json)
+· (+50 manchetes; lista completa em eventos/noticias.json)
