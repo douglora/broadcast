@@ -1,11 +1,11 @@
 # Boletim da B3: pregão de 27/10/2026 (terça)
 
 **Situação: COMPLETO.** Boletim publicado pela B3 em 2026-10-28 08:09 (hora de Brasília).
-Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10-29T01:15:19Z (UTC).
+Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10-29T06:25:46Z (UTC).
 
 [[LEITURA_DA_MESA]]
 
-## Sinais do dia (36)
+## Sinais do dia (37)
 
 **Novos hoje**
 
@@ -29,6 +29,7 @@ Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10
 - **Crédito: prêmio alto.** RISP12 (Aguas do Rio 1 Spe, debênture incentivada): taxa indicativa da ANBIMA de 27/10 a IPCA+ 14,37%, 650 pb acima do juro real de mercado na duration de 3,7 anos; na B3, negócios de 27/10 a IPCA+ 14,28% em R$ 24,2 mi. _(ANBIMA e B3, taxa indicativa de debêntures (ANBIMA) e DAP (B3), 27/10)_
 - **Fluxo estrangeiro.** Estrangeiro vendeu R$ 2.945 mi líquidos em 23/10; no mês, até 23/10, saldo de +R$ 16.182 mi. _(B3, SharesInvesVolum, 23/10)_
 - **Juros.** A curva de juros fechou: DI1F28 −44 pb, para 14,38%, DI1F29 −46 pb, para 14,76%, DI1F30 −41 pb, para 14,88%, DI1F32 −35 pb, para 14,94%, DI1F35 −32 pb, para 14,91%. _(B3, TradeInformationConsolidated, 27/10)_
+- **After market.** SAPR4: preço médio do after market a +1,05% do fechamento (R$ 6,72 contra R$ 6,65), em R$ 102 mil. _(B3, TradeInformationConsolidatedAfterHours, 27/10)_
 - **Listas do dia.** Do livro nas listas do boletim: maiores altas do Ibovespa: CURY3 (1º), DIRR3 (8º); maiores baixas do Ibovespa: MRVE3 (3º); mais negociadas à vista: PETR4 (1º), VALE3 (2º), SMAL11 (3º); puts mais negociadas: SMALW129 (1º), SMALW122 (2º). _(B3, tabelas de maiores oscilacoes, 27/10)_
 
 **Já vinham de pregões anteriores**
@@ -340,7 +341,6 @@ Por classe, mediana das taxas de referência dos papéis. Taxa de referência: n
 ## Lacunas e pendências
 
 - aluguel por corretora: ignorado
-- negócios do after market: falhou: arquivo TradeInformationConsolidatedAfterHours: download HTTP 401
 - Publicadas pela B3 depois do prazo, mas com dado: AnalyticalFramework2.
 - Posição em aberto de derivativos por tipo de investidor (estrangeiro, institucional, pessoa física): não existe no Boletim Diário do Mercado; procurado nas 69 tabelas e no texto dos 11 cadernos em 30/09/2026.
 - Fluxo por tipo de investidor sai acumulado no mês e com dois pregões de atraso; o saldo de um dia é a diferença entre dois acumulados seguidos.

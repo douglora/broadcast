@@ -2,7 +2,7 @@
  "pregao": "2026-10-28",
  "situacao": "publicando",
  "errata": false,
- "atualizado_em": "2026-10-28T22:03:01.823",
+ "atualizado_em": "2026-10-29T03:24:07.843",
  "completo": {
   "arquivo": "",
   "pdf": ""
@@ -14,7 +14,7 @@
    "pai": null,
    "situacao": "publicando",
    "errata": false,
-   "atualizado_em": "2026-10-28T21:01:49.853",
+   "atualizado_em": "2026-10-29T01:53:01.513",
    "arquivo": "",
    "pdf": ""
   },
@@ -42,9 +42,9 @@
    "id": 2,
    "nome": "Indicadores e informativos",
    "pai": 20,
-   "situacao": "publicado",
+   "situacao": "republicado",
    "errata": false,
-   "atualizado_em": "2026-10-28T22:10:38.01",
+   "atualizado_em": "2026-10-29T03:22:58.853",
    "arquivo": "BDI_02_20261028.pdf",
    "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-10-28/BDI_02_20261028.pdf"
   },
@@ -52,19 +52,19 @@
    "id": 23,
    "nome": "Maiores oscilações",
    "pai": 20,
-   "situacao": "atrasado",
+   "situacao": "republicado",
    "errata": false,
-   "atualizado_em": "2026-10-28T22:03:01.823",
-   "arquivo": "",
-   "pdf": ""
+   "atualizado_em": "2026-10-29T03:24:07.843",
+   "arquivo": "BDI_02-3_20261028.pdf",
+   "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-10-28/BDI_02-3_20261028.pdf"
   },
   {
    "id": 31,
    "nome": "Resumo",
    "pai": 3,
-   "situacao": "publicado",
+   "situacao": "republicado",
    "errata": false,
-   "atualizado_em": "2026-10-28T20:00:38.017",
+   "atualizado_em": "2026-10-29T00:00:47.447",
    "arquivo": "BDI_03-1_20261028.pdf",
    "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-10-28/BDI_03-1_20261028.pdf"
   },
@@ -72,11 +72,11 @@
    "id": 33,
    "nome": "Derivativos de balcão",
    "pai": 3,
-   "situacao": "publicando",
+   "situacao": "publicado",
    "errata": false,
-   "atualizado_em": "2026-10-28T22:01:06.093",
-   "arquivo": "",
-   "pdf": ""
+   "atualizado_em": "2026-10-29T01:15:38.083",
+   "arquivo": "BDI_03-3_20261028.pdf",
+   "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-10-28/BDI_03-3_20261028.pdf"
   },
   {
    "id": 34,
@@ -84,7 +84,7 @@
    "pai": 3,
    "situacao": "publicando",
    "errata": false,
-   "atualizado_em": "2026-10-28T22:02:13.98",
+   "atualizado_em": "2026-10-29T01:33:53.343",
    "arquivo": "",
    "pdf": ""
   },
@@ -92,19 +92,19 @@
    "id": 41,
    "nome": "Clearing e depositária",
    "pai": 4,
-   "situacao": "publicando",
+   "situacao": "publicado",
    "errata": false,
-   "atualizado_em": "2026-10-28T21:32:12.603",
-   "arquivo": "",
-   "pdf": ""
+   "atualizado_em": "2026-10-29T01:05:38.173",
+   "arquivo": "BDI_04-1_20261028.pdf",
+   "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-10-28/BDI_04-1_20261028.pdf"
   },
   {
    "id": 42,
    "nome": "Empréstimos de ativos",
    "pai": 4,
-   "situacao": "publicado",
+   "situacao": "republicado",
    "errata": false,
-   "atualizado_em": "2026-10-28T00:00:38.01",
+   "atualizado_em": "2026-10-29T01:45:38.1",
    "arquivo": "BDI_04-2_20261028.pdf",
    "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-10-28/BDI_04-2_20261028.pdf"
   },
@@ -112,11 +112,11 @@
    "id": 43,
    "nome": "COE",
    "pai": 4,
-   "situacao": "publicando",
+   "situacao": "publicado",
    "errata": false,
-   "atualizado_em": "2026-10-28T00:00:38.01",
-   "arquivo": "",
-   "pdf": ""
+   "atualizado_em": "2026-10-29T01:15:38.083",
+   "arquivo": "BDI_04-3_20261028.pdf",
+   "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-10-28/BDI_04-3_20261028.pdf"
   }
  ]
 }
