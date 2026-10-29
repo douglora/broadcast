@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 29/10 11h54
+NOTÍCIAS E FATOS · 29/10 12h27
 
-Pernas: noticias ok 17 novas (18 consultas; descartadas: 423 veículo fora da lista, 35 sem ativo, 13 teto) · cvm ok 0 novos de 13 (8 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 15 novas (18 consultas; descartadas: 363 veículo fora da lista, 21 sem ativo, 2 teto) · cvm ok 0 novos de 13 (8 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (1)
 
@@ -42,7 +42,7 @@ Por que importa: evento operacional afeta producao e custo no trimestre corrente
 Ativos: PETR4
 Como falar: 'saiu no Suno Noticias: Petrobras (PETR4) bate recorde de produção total no 3T26; confirmar o número no texto antes de repassar'
 Fonte: Suno Noticias 29/10 11h00
-id: E05-PETR4-67ef82f151-2026-10-29 · status: pendente
+id: E05-PETR4-67ef82f151-2026-10-29 · status: entregue
 
 [ATENÇÃO] E05 · PETR4 · Petrobras: produção recorde reforça visão para 3T; mercado vê dividendo de US$ 3,6 bi
 InfoMoney · 29/10 09h58 · fonte única · licença: resumo
@@ -58,7 +58,7 @@ Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir
 Ativos: PETR4
 Como falar: 'saiu no InfoMoney: Petrobras: produção recorde reforça visão para 3T; mercado vê dividendo de US$ 3,6 bi; confirmar o número no texto antes de repassar'
 Fonte: InfoMoney 29/10 09h58
-id: E05-PETR4-5ec5fae808-2026-10-29 · status: pendente
+id: E05-PETR4-5ec5fae808-2026-10-29 · status: entregue
 
 [ATENÇÃO] E05 · VALE3 · Lucro da Vale pode cair mais de 40% no 3T26, mas ação pode surpreender após balanço desta quinta
 Estadao · 29/10 09h27 · fonte única · licença: manchete
@@ -193,8 +193,23 @@ Fonte: Bloomberg 29/10 01h13
 id: E05-TSLA-626a3a5b3f-2026-10-29 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (50)
+## OUTRAS NOTÍCIAS (só manchete) (65)
 
+· CVX Exxon Mobil and Chevron head into Q3 earnings boosted by crude rally, Iran conflict (XOM:NYSE) (Seeking Alpha) https://seekingalpha.com/news/4660351-exxon-mobil-and-chevron-head-into-q3-earnings-boosted-by-crude-rally-iran-conflict
+· AMZN Amazon Earnings Prediction Market Preview: What Will Andy Jassy Say? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/amazon-earnings-prediction-market-preview-145957867.html
+· USDBRL Pós-eleição: Ibovespa já achou um piso? Dólar ainda tem espaço para subir? (InfoMoney) https://www.infomoney.com.br/mercados/pos-eleicao-ibovespa-ja-achou-um-piso-dolar-ainda-tem-espaco-para-subir/
+· VALE3 Ibovespa cai com temor fiscal e expectativa por balanço da Vale, além de queda em NY (UOL Economia) https://economia.uol.com.br/noticias/estadao-conteudo/2026/10/29/ibovespa-cai-com-temor-fiscal-e-expectativa-por-balanco-da-vale-alem-de-queda-em-ny.htm
+· INTC Intel's 158% Rally Faces Fresh Earnings Test (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/intels-158-rally-faces-fresh-145118958.html
+· GOOGL Alphabet Is Having Its Worst Earnings Day Ever. Here’s What It Means for Your ETFs (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/alphabet-having-worst-earnings-day-144817524.html
+· BTC Standard Asset Company unveils $1.5 billion Bitcoin and UAE real estate strategy (TradingView (Reuters)) https://www.tradingview.com/news/cryptobriefing:d480a2f91094b:0-standard-asset-company-unveils-1-5-billion-bitcoin-and-uae-real-estate-strategy/
+· GOOGL Google stock plunges more than 12% on Q3 earnings miss (Yahoo Finance) https://finance.yahoo.com/technology/article/google-stock-plunges-more-than-12-on-q3-earnings-miss-135322453.html
+· PLTR Price to earnings forward of Palantir Technologies Inc. Class A – TURQUOISE:PTXD (TradingView (Reuters)) https://www.tradingview.com/symbols/TURQUOISE-PTXD/financials-statistics-and-ratios/price-earnings-fwd/
+· LITE Coherent stock may benefit from a Lumentum buyout, but there’s a catch (TradingView (Reuters)) https://www.tradingview.com/news/invezz:116acf4fd094b:0-coherent-stock-may-benefit-from-a-lumentum-buyout-but-there-s-a-catch/
+· LITE Lumentum (LITE) Earnings Expected to Grow: Should You Buy? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/lumentum-lite-earnings-expected-grow-130033474.html
+· NVDA What I'm Watching In November: Midterm Madness, Nvidia, And Walmart (NYSEARCA:SPY) (Seeking Alpha) https://seekingalpha.com/article/4959231-what-im-watching-in-november-midterm-madness-nvidia-and-walmart
+· USDBRL Dólar opera em alta, de olho em dados de inflação e atividade nos EUA; Ibovespa cai a 169 mil pontos (g1) https://g1.globo.com/economia/noticia/2026/10/29/dolar-ibovespa.ghtml
+· NVDA Nvidia: The AI King Still A 'Buy' Near Its Highs (TradingView (Reuters)) https://news.google.com/rss/articles/CBMiqAFBVV95cUxNYW5qc25QVlV3WjViaVlUOWgxaFBKVG1ZY0w1Q0UtMkFMTmRNaVhWOThvbTJ4cTNOSklKZC1vRWhhUHRCTXNjZ1FBTmlPanNVWVFKUVFUUnlPUXBLaGVxRjJXcWNJTVVnVjZaaGlaUjVMaDVSQlNkTE14RnJjdGI5ckp4WXJiSnZMb1ZPTDJaaUZJU3hKNHRmM3BTMXBsYUstcmRMUExvNlE?oc=5
+· TSM TSMC Stock: Spending Its Lead To Keep It (NYSE:TSM) (Seeking Alpha) https://news.google.com/rss/articles/CBMif0FVX3lxTE5OekdFcWp1Y0luR3BJdkZlR0JlMGdycy0waWZOYzdIR2IzTTlDVzZzbGFldTRaaHkyS0dKZmMtWXFVamFqaXFsWkVIQ0ZyZ2EwMlpjX2owYUh3R2w0SVZVckdOazRzSHpvLWNoakc3UGFsNHRqTzZ0TnJRODhla1E?oc=5
 · UST The 10-Year Treasury Yield Just Jumped Back Above 5% (Yahoo Finance) https://finance.yahoo.com/markets/currencies/articles/10-treasury-yield-just-jumped-143353160.html
 · GOOGL AMD, CoreWeave Stocks Drop. Why Microsoft and Google Results Hit the AI Trade. (Barron's) https://www.barrons.com/articles/microsoft-alphabet-earnings-ai-amd-coreweave-98a4ad58
 · LITE Lumentum Holdings options signal 9% move on earnings release (Investing.com) https://www.investing.com/news/stock-market-news/lumentum-holdings-options-signal-9-move-on-earnings-release-93CH-4984256
@@ -240,8 +255,4 @@ id: E05-TSLA-626a3a5b3f-2026-10-29 · status: linha
 · USDBRL Agenda cheia com dados fiscais, balanços e inflação nos EUA mexe com mercados; Ibovespa em dólar cai nesta quinta-feira (29) (Money Times) https://news.google.com/rss/articles/CBMi7AFBVV95cUxNU1dEUWZNSHcxRjN1cUYyQUE1Ykk5R3RLNEFSNU1INXl0MnR0M1VrbEZiSzBuNjBVVTZpZzJYX3JtRnpra2RucWc2X04tUUw3R1hHSjlvbnBPZE1OMjJBcEFZcDIzOFUwQ0IyT19xaFJFaVFLbUU2Z3gxd1ZwUnJYWW1hMzM1eXp1TVB6TWZSX0pkTWF4eGx4U2IzNVJoYTkyX3YwVW1Tdjd3MGRiTTZYRGVMYnROLVNBRlBhU1pSQ190ZENicHBoUzh2U1JVZ0hmNG05Q0p6dlF5T0Y3dzFTUS1QQ01WSHdmTl94ZA?oc=5
 · AMZN Amazon Earnings Are All About Its Cloud Business (Barron's) https://news.google.com/rss/articles/CBMilAFBVV95cUxPY2xLS1prSUVKSnBma3J4YV9FOWMzWlVkMENTdUl6UTZqUDVKOXVNcGt6WDhFbEVsRW9yN19FVHlnc1JkSndYeXRpbmk2VGF1ZU1IYnhXUjdTeGFmS3VocTJVUDVrRDdvY0RTaF9KdHRDTVdaSGY2RkkyOTJHeXRHbkg1Q3cxcTFWS3FRR0JlWU1KRVdR?oc=5
 · GOOGL Alphabet and Microsoft are on both sides of the AI boom's biggest bills: Chart of the Day (Yahoo Finance) https://news.google.com/rss/articles/CBMi3AFBVV95cUxPMDJfTnVRV0VJMlpNX3doOWNYWHZ4bmRjald1T1VXaGdXTFd5T29ObVZhSXlXRUdnYURmZ0tPLVd1N293SDcxM1YyVGlEb2pBdWxMWGVQbEN1TEh3OVBOYVdOMHpZTU83UGsxRkxKZnVqbWFvOTNjQWJVbTJxREw5cWtoTEtpalVzWkpkTjB6SEZla2trVkQ1cUVoQUVVVVA0RUdTenczdlR4MFJndTJmZ2ZleS1uSDBDTktWSFB6WFFpU0FUT3hyVlQyYktiM3FXMFhkZkVWb1RxUUpB?oc=5
-· GOOGL What investors need to know about Alphabet's stock-busting earnings report (CNBC) https://www.cnbc.com/2026/10/28/alphabet-q3-earnings-search-ai.html
-· GOOGL Microsoft and Alphabet Just Reported Earnings, Putting the AI Boom to the Test (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/microsoft-alphabet-just-reported-earnings-001901247.html
-· NVDA S&P 500, Nasdaq Futures Dip As Weaker-Than-Expected Alphabet Earnings Reignite AI Spending Worries — GOOGL, MSFT, ORCL, NVDA, MRVL In Focus (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/p-500-nasdaq-futures-dip-001028850.html
-· PETR4 Petrobras tem recorde na produção média de óleo, LGN e gás no terceiro trimestre (Valor Economico) https://valor.globo.com/empresas/noticia/2026/10/28/petrobras-tem-producao-media-de-oleo-lgn-e-gas-recorde-no-terceiro-trimestre.ghtml
-· DI Juros de 10 anos sobem a 15,04% e mercado vê Selic mantida (Poder360) https://www.poder360.com.br/poder-economia/juros-de-10-anos-sobem-a-1504-e-mercado-ve-selic-mantida/
+· (+5 manchetes; lista completa em eventos/noticias.json)
