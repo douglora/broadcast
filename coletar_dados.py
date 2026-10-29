@@ -3935,6 +3935,39 @@ def _referencia_frescor(dados):
     return max(candidatos, key=lambda ro: _ano_trimestre(ro[0]))
 
 
+# Dia de resultado: o release sai no site de RI na mesma noite, mas o IPE da CVM (dados abertos) so o
+# lista no dia seguinte e o prazo legal do trimestre vence semanas depois. Sem olhar a agenda, a coleta
+# da noite do resultado achava a cabeca "em dia" e nem abria o site de RI (Vale, 29/10/2026).
+AGENDA_JANELA_DIAS = 20
+
+
+def trimestre_da_agenda(tk, hoje=None, caminho=None):
+    """Trimestre cujo resultado a agenda (config/calendario.yaml, bloco `resultados`) da como ja
+    divulgado: data <= hoje e ha no maximo AGENDA_JANELA_DIAS. '3T26' para VALE3 em 29/10/2026.
+    None sem entrada, fora da janela ou com o arquivo ilegivel."""
+    caminho = caminho or os.path.join(BASE_DIR, "config", "calendario.yaml")
+    try:
+        with open(caminho, encoding="utf-8") as f:
+            texto = f.read()
+    except OSError:
+        return None
+    # Linhas no estilo de fluxo do arquivo: {ticker: VALE3, data: 2026-10-29, ...}. Regex em vez de
+    # yaml: o runner da coleta nao instala PyYAML.
+    datas = re.findall(r"\{\s*ticker:\s*" + re.escape(tk) + r"\s*,\s*data:\s*(\d{4}-\d{2}-\d{2})", texto)
+    try:
+        # Data de Brasilia: o resultado sai depois do pregao e a coleta da noite ja e outro dia em UTC
+        h = datetime.strptime(str(hoje)[:10], "%Y-%m-%d") if hoje else \
+            (datetime.now(timezone.utc) - timedelta(hours=3)).replace(tzinfo=None)
+    except ValueError:
+        return None
+    vistos = []
+    for d in datas:
+        dt = datetime.strptime(d, "%Y-%m-%d")
+        if 0 <= (h - dt).days <= AGENDA_JANELA_DIAS:
+            vistos.append(trimestre_anterior(d))
+    return max(vistos, key=ordem_periodo) if vistos else None
+
+
 def _completar_pelo_site_ri(tk, dados, fontes, historico, conhecidos, descartados, saida=None):
     """Quando o release mais novo esta atras da referencia (ITR mais novo ou trimestre vencido no
     calendario, o que for mais novo), busca no site de RI os trimestres que faltam e mescla com o que
@@ -3950,11 +3983,16 @@ def _completar_pelo_site_ri(tk, dados, fontes, historico, conhecidos, descartado
     fraco = bool(historico) and historico[0].get("preferencia", 1) > 1
     faltantes = periodos_a_buscar(historico, oficiais=periodos_oficiais(dados),
                                   referencia=_referencia_frescor(dados)[0])
-    if historico and atraso <= 0 and not fraco and not faltantes:
+    agenda = trimestre_da_agenda(tk)
+    pela_agenda = bool(agenda) and (not mais_novo or ordem_periodo(agenda) > ordem_periodo(mais_novo))
+    if historico and atraso <= 0 and not fraco and not faltantes and not pela_agenda:
         app.log(f"{tk}: release {mais_novo} em dia com o ITR {referencia} e janela completa; "
                 f"site de RI nao consultado")
         return historico
-    if faltantes and atraso <= 0 and not fraco:
+    if pela_agenda and atraso <= 0 and not fraco and not faltantes:
+        app.log(f"{tk}: agenda da o resultado do {agenda} como divulgado e o release mais novo e "
+                f"{mais_novo}; consultando o site de RI")
+    elif faltantes and atraso <= 0 and not fraco:
         app.log(f"{tk}: cabeca em dia ({mais_novo}), mas faltam {', '.join(faltantes)} na janela "
                 f"obrigatoria; consultando o site de RI")
     elif historico and atraso <= 0:
