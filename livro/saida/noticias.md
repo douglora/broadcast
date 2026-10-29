@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 29/10 15h22
+NOTÍCIAS E FATOS · 29/10 15h54
 
-Pernas: noticias ok 12 novas (18 consultas; descartadas: 384 veículo fora da lista, 29 sem ativo, 0 teto) · cvm ok 0 novos de 13 (8 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 8 novas (18 consultas; descartadas: 392 veículo fora da lista, 29 sem ativo, 0 teto) · cvm ok 0 novos de 13 (8 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (1)
 
@@ -245,8 +245,16 @@ Fonte: Bloomberg 29/10 01h13
 id: E05-TSLA-626a3a5b3f-2026-10-29 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (110)
+## OUTRAS NOTÍCIAS (só manchete) (118)
 
+· AMD AMD Stocks Decline With Oracle Rollout Details Still to Come (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:6faa2c101094b:0-amd-stocks-decline-with-oracle-rollout-details-still-to-come/
+· VALE3 Vale divulga balanço do 3º trimestre de 2026; acompanhe ao vivo (InfoMoney) https://www.infomoney.com.br/mercados/vale-vale3-balanco-3t26/
+· AVGO Marvell Stock Dropped 11% on a Deal That Could Make It More Like Broadcom (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:a21e5af74094b:0-marvell-stock-dropped-11-on-a-deal-that-could-make-it-more-like-broadcom/
+· USDBRL Dólar vai a R$ 5,41 e Bolsa a menos de 170 mil pontos com pressão de juros (UOL Economia) https://economia.uol.com.br/cotacoes/noticias/redacao/2026/10/29/dolar-e-bolsa-29-de-outubro-de-2026.ghtm
+· MU Micron and SanDisk Fall as Samsung Selloff Hits Memory Stocks (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:5add7fd29094b:0-micron-and-sandisk-fall-as-samsung-selloff-hits-memory-stocks/
+· MRVL Marvell Sinks 12% as Investors Balk at Reported Lumentum Megadeal Talks (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/marvell-sinks-12-investors-balk-140241515.html
+· KLBN4 Klabin vê tendência de neutralidade em todos os mercados, com exceção de kraftliner Por Reuters (Investing.com) https://br.investing.com/news/stock-market-news/klabin-ve-tendencia-de-neutralidade-em-todos-os-mercados-com-excecao-de-kraftliner-2108199
+· USDBRL Dólar dispara: 6 ações podem sair ganhando com a alta da moeda (Suno Noticias) https://www.suno.com.br/noticias/dolar-alto-acoes-beneficiadas/
 · INTC Intel Stocks Decline 2.8% Before Its Margin and Earnings Check (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/intel-stocks-decline-2-8-181718281.html
 · AMZN Amazon earnings live: AI growth takes center stage (Yahoo Finance) https://finance.yahoo.com/markets/stocks/live/amazon-earnings-live-ai-growth-takes-center-stage-173000277.html
 · UST Did the Fed make a mistake with its October rate pause? The Treasury could help save the day. (MarketWatch) https://www.marketwatch.com/story/did-the-fed-make-a-mistake-with-its-october-rate-pause-the-treasury-could-help-save-the-day-77d84993
@@ -299,12 +307,4 @@ id: E05-TSLA-626a3a5b3f-2026-10-29 · status: linha
 · INTC Intel's 158% Rally Faces Fresh Earnings Test (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/intels-158-rally-faces-fresh-145118958.html
 · GOOGL Alphabet Is Having Its Worst Earnings Day Ever. Here’s What It Means for Your ETFs (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/alphabet-having-worst-earnings-day-144817524.html
 · BTC Standard Asset Company unveils $1.5 billion Bitcoin and UAE real estate strategy (TradingView (Reuters)) https://www.tradingview.com/news/cryptobriefing:d480a2f91094b:0-standard-asset-company-unveils-1-5-billion-bitcoin-and-uae-real-estate-strategy/
-· GOOGL Google stock plunges more than 12% on Q3 earnings miss (Yahoo Finance) https://finance.yahoo.com/technology/article/google-stock-plunges-more-than-12-on-q3-earnings-miss-135322453.html
-· PLTR Price to earnings forward of Palantir Technologies Inc. Class A – TURQUOISE:PTXD (TradingView (Reuters)) https://www.tradingview.com/symbols/TURQUOISE-PTXD/financials-statistics-and-ratios/price-earnings-fwd/
-· LITE Coherent stock may benefit from a Lumentum buyout, but there’s a catch (TradingView (Reuters)) https://www.tradingview.com/news/invezz:116acf4fd094b:0-coherent-stock-may-benefit-from-a-lumentum-buyout-but-there-s-a-catch/
-· LITE Lumentum (LITE) Earnings Expected to Grow: Should You Buy? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/lumentum-lite-earnings-expected-grow-130033474.html
-· NVDA What I'm Watching In November: Midterm Madness, Nvidia, And Walmart (NYSEARCA:SPY) (Seeking Alpha) https://seekingalpha.com/article/4959231-what-im-watching-in-november-midterm-madness-nvidia-and-walmart
-· USDBRL Dólar opera em alta, de olho em dados de inflação e atividade nos EUA; Ibovespa cai a 169 mil pontos (g1) https://g1.globo.com/economia/noticia/2026/10/29/dolar-ibovespa.ghtml
-· NVDA Nvidia: The AI King Still A 'Buy' Near Its Highs (TradingView (Reuters)) https://news.google.com/rss/articles/CBMiqAFBVV95cUxNYW5qc25QVlV3WjViaVlUOWgxaFBKVG1ZY0w1Q0UtMkFMTmRNaVhWOThvbTJ4cTNOSklKZC1vRWhhUHRCTXNjZ1FBTmlPanNVWVFKUVFUUnlPUXBLaGVxRjJXcWNJTVVnVjZaaGlaUjVMaDVSQlNkTE14RnJjdGI5ckp4WXJiSnZMb1ZPTDJaaUZJU3hKNHRmM3BTMXBsYUstcmRMUExvNlE?oc=5
-· TSM TSMC Stock: Spending Its Lead To Keep It (NYSE:TSM) (Seeking Alpha) https://news.google.com/rss/articles/CBMif0FVX3lxTE5OekdFcWp1Y0luR3BJdkZlR0JlMGdycy0waWZOYzdIR2IzTTlDVzZzbGFldTRaaHkyS0dKZmMtWXFVamFqaXFsWkVIQ0ZyZ2EwMlpjX2owYUh3R2w0SVZVckdOazRzSHpvLWNoakc3UGFsNHRqTzZ0TnJRODhla1E?oc=5
-· (+50 manchetes; lista completa em eventos/noticias.json)
+· (+58 manchetes; lista completa em eventos/noticias.json)
