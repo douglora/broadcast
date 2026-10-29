@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-10-29T11:56:10Z",
+ "gerado_em": "2026-10-29T17:31:28Z",
  "cliente_http": "curl_cffi",
  "livro": [
   "EQTL3",
@@ -56,13 +56,13 @@
     }
    },
    "falhas": {},
-   "segundos": 41
+   "segundos": 120
   },
   "2026-10-28": {
    "completo": true,
    "faltam": [],
    "boletim": "publicado",
-   "sinais": 32,
+   "sinais": 31,
    "tabelas": 47,
    "arquivos": [
     "DerivativesOpenPosition",
@@ -71,7 +71,7 @@
     "TradeInformationConsolidatedAfterHours"
    ],
    "rf_cadastro": {
-    "papeis_no_dia": 1670,
+    "papeis_no_dia": 1657,
     "consultados": 0,
     "achados": 0,
     "sem_cadastro": 0,
@@ -91,7 +91,7 @@
     }
    },
    "falhas": {},
-   "segundos": 35
+   "segundos": 122
   }
  },
  "falhas": [],

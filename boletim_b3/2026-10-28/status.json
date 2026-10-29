@@ -14,9 +14,9 @@
    "pai": null,
    "situacao": "publicado",
    "errata": false,
-   "atualizado_em": "2026-10-29T08:05:11.23",
-   "arquivo": "",
-   "pdf": ""
+   "atualizado_em": "2026-10-29T11:10:25.543",
+   "arquivo": "BDI_01_20261028.pdf",
+   "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-10-28/BDI_01_20261028.pdf"
   },
   {
    "id": 20,
@@ -44,9 +44,9 @@
    "pai": 20,
    "situacao": "publicado",
    "errata": false,
-   "atualizado_em": "2026-10-29T08:43:19.393",
-   "arquivo": "",
-   "pdf": ""
+   "atualizado_em": "2026-10-29T11:04:41.07",
+   "arquivo": "BDI_02_20261028.pdf",
+   "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-10-28/BDI_02_20261028.pdf"
   },
   {
    "id": 23,
