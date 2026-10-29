@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 29/10 14h22
+NOTÍCIAS E FATOS · 29/10 14h33
 
-Pernas: noticias ok 15 novas (18 consultas; descartadas: 400 veículo fora da lista, 32 sem ativo, 10 teto) · cvm ok 0 novos de 13 (8 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 6 novas (18 consultas; descartadas: 395 veículo fora da lista, 29 sem ativo, 0 teto) · cvm ok 0 novos de 13 (8 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (1)
 
@@ -229,8 +229,14 @@ Fonte: Bloomberg 29/10 01h13
 id: E05-TSLA-626a3a5b3f-2026-10-29 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (93)
+## OUTRAS NOTÍCIAS (só manchete) (99)
 
+· USDBRL Reeleição de Lula: Ibovespa derrete quase 14% e dólar tem maior oscilação desde janeiro de 1999 (Estadao) https://www.estadao.com.br/em-alta/einvestidor/cenarios-e-mercado/ibovespa-hoje-fim-das-eleicoes-abre-nova-disputa-no-mercado-o-que-esta-em-jogo/
+· ETH XRP, Ethereum, Solana Are 3 of the Top 5 Altcoins, Expert Says: And the Other 2? (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:d67a8f07e094b:0-xrp-ethereum-solana-are-3-of-the-top-5-altcoins-expert-says-and-the-other-2/
+· LITE Lumentum (LITE) Earnings Expected to Grow: Should You Buy? (Yahoo Finance) https://au.finance.yahoo.com/news/lumentum-lite-earnings-expected-grow-130033474.html
+· MRVL Marvell’s Lumentum Bid Is a Bet That Light, Not Copper, Wins the AI Data Center (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/marvell-lumentum-bid-bet-light-110255319.html
+· BTC Franklin US Equity Bitcoin Drip Index ETF (FBEQ) stock price, news, quote and history (Yahoo Finance) https://uk.finance.yahoo.com/quote/FBEQ/
+· MRVL Marvell nears deal for optical supplier Lumentum to bolster hardware, report says (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/marvell-nears-deal-optical-supplier-222616085.html
 · KLBN4 Klabin vê chuvas no Paraná pressionarem operações até o 1T27 (ADVFN) https://br.advfn.com/jornal/2026/10/klabin-ve-chuvas-no-parana-pressionarem-operacoes-ate-o-1t27
 · AXIA3 MERCADO APOSTA NA AXIA COMO DESTAQUE PARA O NOVO LEILÃO DE TRANSMISSÃO DE ENERGIA MARCADO PARA A PRÓXIMA SEXTA-FEIRA (Petronoticias) https://petronoticias.com.br/mercado-aposta-na-axia-como-destaque-para-o-novo-leilao-de-transmissao-de-energia-marcado-para-a-proxima-sexta-feira/
 · GOOGL Alphabet’s AI Risk Extends Beyond $1 Trillion, Filing Shows (Bloomberg) https://www.bloomberg.com/news/articles/2026-10-29/alphabet-s-ai-risk-extends-beyond-1-trillion-filing-shows
@@ -285,10 +291,4 @@ id: E05-TSLA-626a3a5b3f-2026-10-29 · status: linha
 · KLBN4 Klabin vê tendência de neutralidade em todos os mercados, com exceção de kraftliner (UOL Economia) https://economia.uol.com.br/noticias/reuters/2026/10/29/klabin-ve-tendencia-de-neutralidade-em-todos-os-mercados-com-excecao-de-kraftliner.htm
 · GOOGL Why Alphabet’s stock could see its worst day ever after the latest results (MarketWatch) https://www.marketwatch.com/story/why-alphabets-stock-could-see-its-worst-drop-in-years-after-the-latest-results-6b64cf98
 · GOOGL Stock Market Today (Oct. 29, 2026): S&P 500 falls on Alphabet earnings miss (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/stock-market-today-oct-29-134623155.html
-· BTC Bitwise Raises Bitcoin Price Forecast To $1.6 Million By 2036 (Yahoo Finance) https://news.google.com/rss/articles/CBMipAFBVV95cUxONENMd3BHUk5RdzNzTXJLUkR6dW44bnBYNk9kZHlva3VmQ1E5Sk9WbmMtMVNTM0dTTUMzdWRiWnhjSnRNNk5POHlnMklMYXdKUWdKZy1sWkhmNDV2TG00VG5Cd0ZJSVVMbGQ2SDJGMlJfVThhNDNpNlhsMUFpOVFHdEtST2d3TVRQQUdaX2RzLTA4c1BNNVZma3ByNlI0LURBVFcyNA?oc=5
-· USDBRL Dólar sobe ante o real, em linha com pares emergentes, após dados dos EUA (Valor Economico) https://news.google.com/rss/articles/CBMiyAFBVV95cUxQUF9FUlR3OHBCZ1BDTDBZZkJqSHVhTy13ZHRCdndscXhtZVZjbG1mY3pmclZ3aHVSV0R0MGFkd3VLaEhGb2I4Yy1VTnhORENsTTBWN3loalM2YUZUS0pSQThLNVpXSm1qUlc4SjViajVWdTVoaXQxSzBUU1pRd1hkZnBVc1RuV20yamx5UlVDMlRiWnB6YkVIX3AzbTVBZTBpOU9GYVJaVDJBNnRtY1N3ZXFlT1RPeGtyLWZ2ZXAxWmVtd0g5T0FfV9IB1wFBVV95cUxQWEpmZEtWaDJRb29lRG9xbjdRNTh5UkJyeXNPMjZySDh4cE5kTXctM3M4VUdQdVFvTV81MHU0UXpQcVdOVnlheGkyNERFVE04bDIzT05zN25jSlJhMEE2bTRZek5lMVJmbFRHTU1wa09uN1BsRDhCajM0bTNfV25KaTZYLUs1ODlENXdyTlUtRXYycHhyLUwybHNhSWNkRFZYaUNsVHBNMHpXZUVEdllXYm9UWVlqQzJ0eVpMbEg4WGhCMjhpQ1BxWUtJZlFLZHBUYnlrcl9rYw?oc=5
-· AVGO Broadcom Inc. Revenue Breakdown – BSESOF:1YD (TradingView (Reuters)) https://news.google.com/rss/articles/CBMidEFVX3lxTE9sMGVGVFFIeEJYNVBDdTRCSVo0dmJ2eEphdDc0TG1QcnM0VF92NURPeXVKYkdFcjE2TnB0akxvSWhWQVVYaXY0VHJsYU9aZ0lFeUNueVZGYVJTcU9zMDN3WXk2d1dSTk13NjdidXJWQkhCX1dX?oc=5
-· ETH Current price of Ethereum for October 29, 2026 (Fortune) https://news.google.com/rss/articles/CBMiaEFVX3lxTE9PSEczdTJ1NGNlYVA0SlR4MDhQaTY0akdDNjlRZXk2bGFwa3pabHFkTzVHRW41a09iVGZEbUh0ckU4NTZ6NWNOUHdxdnRhOWVmbWdlWlNrWTgzQmVpbF9RSDE4bFUwbXIy?oc=5
-· NVDA Google's Nvidia chip challenge boosts cloud sales, crimps cash flow (Reuters) https://www.reuters.com/business/googles-nvidia-chip-challenge-boosts-cloud-sales-crimps-cash-flow-2026-10-29/
-· ETH Current price of Ethereum for Oct. 29, 2026 (Fortune) https://fortune.com/article/price-of-ethereum-10-29-2026/
-· (+33 manchetes; lista completa em eventos/noticias.json)
+· (+39 manchetes; lista completa em eventos/noticias.json)
