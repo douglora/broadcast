@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-10-30T00:51:45Z",
+ "gerado_em": "2026-10-30T06:24:22Z",
  "cliente_http": "curl_cffi",
  "livro": [
   "EQTL3",
@@ -24,13 +24,11 @@
  ],
  "pregoes": {
   "2026-10-28": {
-   "completo": false,
-   "faltam": [
-    "SharesInvesVolum"
-   ],
+   "completo": true,
+   "faltam": [],
    "boletim": "publicado",
-   "sinais": 30,
-   "tabelas": 42,
+   "sinais": 31,
+   "tabelas": 47,
    "arquivos": [
     "DerivativesOpenPosition",
     "InstrumentsConsolidated",
@@ -44,7 +42,7 @@
     "sem_cadastro": 0,
     "erros": 0,
     "ficaram_para_depois": 0,
-    "no_cache": 3658
+    "no_cache": 3676
    },
    "anbima": {
     "situacao": "publicado",
@@ -57,36 +55,29 @@
      "2026-10-27": "publicado"
     }
    },
-   "falhas": {
-    "SharesInvesVolum": "HTTP 0 em https://arquivos.b3.com.br/bdi/table/SharesInvesVolum/2026-10-28/2026-10-28/1/10",
-    "OptionsSelling": "tabela OptionsSelling: HTTP 502",
-    "DailyAverageDerivatives2": "tabela DailyAverageDerivatives2: HTTP 502",
-    "COERegistration": "HTTP 0 em https://arquivos.b3.com.br/bdi/table/COERegistration/2026-10-28/2026-10-28/1/100",
-    "SaleOff": "HTTP 0 em https://arquivos.b3.com.br/bdi/table/SaleOff/2026-10-28/2026-10-28/1/1000"
-   },
-   "segundos": 2266
+   "falhas": {},
+   "segundos": 28
   },
   "2026-10-29": {
    "completo": false,
    "faltam": [
-    "DerivativesOpenPosition",
-    "BTBLendingOpenPosition",
     "BTBLoanBalance",
     "AnalyticalFramework2"
    ],
    "boletim": "publicando",
-   "sinais": 11,
+   "sinais": 29,
    "tabelas": 47,
    "arquivos": [
+    "DerivativesOpenPosition",
     "InstrumentsConsolidated",
     "TradeInformationConsolidated",
     "TradeInformationConsolidatedAfterHours"
    ],
    "rf_cadastro": {
     "papeis_no_dia": 1578,
-    "consultados": 19,
+    "consultados": 0,
     "achados": 0,
-    "sem_cadastro": 19,
+    "sem_cadastro": 0,
     "erros": 0,
     "ficaram_para_depois": 0,
     "no_cache": 3676
@@ -102,10 +93,8 @@
      "2026-10-28": "publicado"
     }
    },
-   "falhas": {
-    "DerivativesOpenPosition": "arquivo DerivativesOpenPosition: token HTTP 400"
-   },
-   "segundos": 29
+   "falhas": {},
+   "segundos": 27
   }
  },
  "falhas": [],

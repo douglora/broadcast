@@ -6,14 +6,14 @@
  "paginas": 1,
  "colunas": [{"nome": "TckrSymb", "titulo": "Ação"}, {"nome": "Cod", "titulo": "Código"}, {"nome": "Term", "titulo": "Prazo"}, {"nome": "Closing", "titulo": ""}, {"nome": "TradQty", "titulo": ""}, {"nome": "VlmTradedDay", "titulo": "Volume (R$) mil"}, {"nome": "Part", "titulo": "Participação (%)"}],
  "texto": ["Lista ações com maior volume de negociação em contratos a termo, destacando as mais ativas."],
- "situacao": "publicado",
- "atualizado_em": "2026-10-29T19:04:39.417",
+ "situacao": "republicado",
+ "atualizado_em": "2026-10-30T02:02:24.073",
  "truncada": false,
  "linhas": [
-  ["ALLIED      ON      NM", "ON      NM", 21, 5.04, 257000, 1295.28, 5.047658141951146],
-  ["TRD SPX USD CI", "CI", 60, 18.23, 578090, 10538.5807, 11.354088308484585],
-  ["ITAUUNIBANCOPN      N1", "PN      N1", 180, 42.15, 643200, 27110.88, 12.632893840089407],
-  ["ASSAI       ON      NM", "ON      NM", 90, 8.24, 1000000, 8240, 19.64069315934298],
-  ["ENERGISA    UNT     N2", "UNT     N2", 32, 44.67, 1537800, 68693.526, 30.203457940437637]
+  ["ALLIED      ON      NM", "ON      NM", 21, 5.04, 257000, 1295.28, 5.047612538190983],
+  ["TRD SPX USD CI", "CI", 60, 18.23, 578090, 10538.5807, 11.353985728415665],
+  ["ITAUUNIBANCOPN      N1", "PN      N1", 180, 42.15, 643200, 27110.88, 12.632779706476422],
+  ["ASSAI       ON      NM", "ON      NM", 90, 8.24, 1000000, 8240, 19.64051571280538],
+  ["ENERGISA    UNT     N2", "UNT     N2", 32, 44.67, 1537800, 68693.526, 30.203185063152116]
  ]
 }

@@ -1,11 +1,11 @@
 # Boletim da B3: pregão de 28/10/2026 (quarta)
 
-**Situação: PARCIAL.** Ainda sem: fluxo por tipo de investidor. A B3 publica esses blocos na madrugada seguinte ao pregão; a rodada da manhã completa.
-Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10-30T01:29:31Z (UTC).
+**Situação: COMPLETO.** Boletim publicado pela B3 em 2026-10-29 00:00 (hora de Brasília).
+Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10-30T06:24:50Z (UTC).
 
 [[LEITURA_DA_MESA]]
 
-## Sinais do dia (30)
+## Sinais do dia (31)
 
 **Novos hoje**
 
@@ -20,6 +20,7 @@ Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10
 - **Crédito: taxa abriu.** GDSS11 (Gds Subholding, debênture incentivada): taxa média dos negócios da B3 abriu 188 pb contra 15/10, para IPCA+ 10,31%, em R$ 79,6 mi. _(B3, Trade + InstrumentRegistration, 28/10)_
 - **Crédito: taxa abriu.** BRKU11 (Brk Ambiental - Uruguaiana, debênture incentivada): taxa média dos negócios da B3 abriu 148 pb contra 30/09, para IPCA+ 11,36%, em R$ 14,4 mi. _(B3, Trade + InstrumentRegistration, 28/10)_
 - **Crédito: prêmio alto.** TEPA12 (Brasil Tecnologia e Participacao, debênture incentivada): negociada a IPCA+ 28,13%, 2.022 pb acima do juro real de mercado de prazo equivalente, em R$ 6,0 mi. _(B3, Trade + InstrumentRegistration, 28/10)_
+- **Fluxo estrangeiro.** Estrangeiro vendeu R$ 2.846 mi líquidos em 26/10; no mês, até 26/10, saldo de +R$ 13.336 mi. _(B3, SharesInvesVolum, 26/10)_
 - **Posição em aberto.** Ibovespa - futuro: contratos em aberto caíram 6,3% em um pregão, para 192.424. _(B3, AnalyticalFramework2, 28/10)_
 - **Juros.** A curva de juros abriu: DI1F30 +12 pb, para 15,00%, DI1F32 +18 pb, para 15,13%, DI1F35 +22 pb, para 15,13%. _(B3, TradeInformationConsolidated, 28/10)_
 - **Listas do dia.** Do livro nas listas do boletim: maiores altas do Ibovespa: PETR4 (1º); mais negociadas à vista: PETR4 (2º), VALE3 (3º), BBDC4 (5º). _(B3, tabelas de maiores oscilacoes, 28/10)_
@@ -66,6 +67,18 @@ Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10
 | Negócios (mil) | 7.504 | 6.420 | - |
 
 Mercado de ações = à vista, opções e termo (médias diárias da B3). No dia: à vista R$ 58.775 mi, opções R$ 2.576 mi, termo R$ 312 mi, after market R$ 195 mi.
+
+## Fluxo por tipo de investidor (acumulado no mês até 26/10)
+
+| Investidor | Saldo no mês (R$ mi) | Saldo em 26/10 (R$ mi) | Fatia das compras |
+|---|---:|---:|---:|
+| Institucional (fundos) | -12.635 | -3.341 | 12,6% |
+| Bancos e corretoras | -955 | -440 | 1,0% |
+| Estrangeiro | +13.336 | -2.846 | 31,2% |
+| Pessoa física | +3.637 | +6.189 | 4,9% |
+| Outros | -3.382 | +438 | 0,2% |
+
+Saldo = compras menos vendas, somando todos os mercados da B3. A B3 divulga com dois pregões de atraso.
 
 ## Futuros: juros, dólar e índice
 
@@ -322,9 +335,6 @@ Por classe, mediana das taxas de referência dos papéis. Taxa de referência: n
 ## Lacunas e pendências
 
 - aluguel por corretora: ignorado
-- DailyAverageDerivatives2: falhou: tabela DailyAverageDerivatives2: HTTP 502
-- OptionsSelling: falhou: tabela OptionsSelling: HTTP 502
-- fluxo por tipo de investidor: falhou: HTTP 0 em https://arquivos.b3.com.br/bdi/table/SharesInvesVolum/2026-10-28/2026-10-28/1/10
 - Publicadas pela B3 depois do prazo, mas com dado: AnalyticalFramework2.
 - Posição em aberto de derivativos por tipo de investidor (estrangeiro, institucional, pessoa física): não existe no Boletim Diário do Mercado; procurado nas 69 tabelas e no texto dos 11 cadernos em 30/09/2026.
 - Fluxo por tipo de investidor sai acumulado no mês e com dois pregões de atraso; o saldo de um dia é a diferença entre dois acumulados seguidos.
