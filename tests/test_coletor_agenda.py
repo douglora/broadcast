@@ -58,3 +58,13 @@ def test_sem_release_no_site_a_agenda_tenta_o_6k_do_adr(monkeypatch):
     assert "3T26" in fontes["release_ri_sec"]
     # sem ADR mapeado nao ha para onde ir
     assert cd._release_da_agenda_pela_sec("XXXX3", "3T26", "2T26", {}, {}, []) == []
+
+
+def test_release_adiantado_entra_com_a_janela_cheia():
+    # Em 30/10/2026 a janela vai de 3T24 a 2T26 (8 trimestres); o 3T26 saiu antes do prazo legal
+    janela = cd.janela_obrigatoria(8, "2026-10-30")
+    assert janela[0] == "2T26" and len(janela) == 8
+    anterior = [{"periodo": p, "data": "2026-01-01", "preferencia": 0.7} for p in janela]
+    novo = [{"periodo": "3T26", "data": "2026-10-29", "preferencia": 1}]
+    lista = cd._mesclar_historico(anterior, novo, hoje="2026-10-30")
+    assert [r["periodo"] for r in lista] == ["3T26"] + janela

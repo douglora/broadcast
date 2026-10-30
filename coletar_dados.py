@@ -848,15 +848,22 @@ def _mesclar_historico(anterior, novo, n=RELEASES_POR_ATIVO, hoje=None):
             achados[periodo] = item
     todos = sorted(achados.values(), key=lambda r: (ordem_periodo(r.get("periodo")), r.get("data") or ""),
                    reverse=True)
-    dentro = set(janela_obrigatoria(n, hoje))
+    janela = janela_obrigatoria(n, hoje)
+    dentro = set(janela)
+    # Release mais novo que a ponta da janela (saiu antes do prazo legal: a noite do resultado) entra
+    # sempre e por fora da conta de n. Antes ele era cortado justo por ser o mais novo: com a janela
+    # cheia, o 3T26 da Vale baixado na manha de 30/10 nao chegava ao branch.
+    ponta = ordem_periodo(janela[0]) if janela else None
+    adiantados = [r for r in todos if ponta and ordem_periodo(r.get("periodo")) > ponta]
     escolhidos = [r for r in todos if r.get("periodo") in dentro]
     for r in todos:
         if len(escolhidos) >= n:
             break
-        if r.get("periodo") not in dentro:
+        if r.get("periodo") not in dentro and r not in adiantados:
             escolhidos.append(r)
-    return sorted(escolhidos, key=lambda r: (ordem_periodo(r.get("periodo")), r.get("data") or ""),
-                  reverse=True)[:n]
+    escolhidos = sorted(escolhidos, key=lambda r: (ordem_periodo(r.get("periodo")), r.get("data") or ""),
+                        reverse=True)[:n]
+    return adiantados + escolhidos
 
 
 def _melhor_release(novo, atual):
