@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 30/10 17h22
+NOTÍCIAS E FATOS · 30/10 18h14
 
-Pernas: noticias ok 15 novas (18 consultas; descartadas: 362 veículo fora da lista, 32 sem ativo, 1 teto) · cvm ok 1 novos de 17 (9 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 17 novas (18 consultas; descartadas: 356 veículo fora da lista, 41 sem ativo, 7 teto) · cvm ok 0 novos de 17 (9 cias casadas) · sec ok 1 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (3)
 
@@ -15,7 +15,7 @@ Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; 
 Ativos: AXIA3
 Como falar: 'a Axia Energia publicou comunicado ao mercado sobre Recebeu comunicado do Banco Clássico S.A. informando que, em decorrên…'
 Fonte: CVM 30/10
-id: E03-AXIA3-1582311-2026-10-30 · status: pendente · íntegra disponível
+id: E03-AXIA3-1582311-2026-10-30 · status: entregue · íntegra disponível
 
 [INFO] E03 · VALE3 · Comunicado ao Mercado: Apresentações a analistas/agentes do mercado
 CVM · entregue 30/10/2026 10:56 · Apresentações a analistas/agentes do mercado
@@ -40,7 +40,7 @@ Fonte: CVM 30/10
 id: E03-ALUP4-1581977-2026-10-30 · status: entregue · íntegra disponível
 
 
-## SEC (8-K, 6-K, 10-Q, 10-K) (2)
+## SEC (8-K, 6-K, 10-Q, 10-K) (3)
 
 [ATENÇÃO] E04 · CVX · 8-K: 2.02 resultado do trimestre
 SEC EDGAR · aceito 30/10 07h16 · 8-K
@@ -58,6 +58,15 @@ Como falar: 'a CVX protocolou 8-K na SEC (2.02 resultado do trimestre)'
 Fonte: SEC EDGAR 2026-10-30
 id: E04-CVX-26000196-2026-10-30 · status: entregue · íntegra disponível
 
+[INFO] E04 · BAC · 10-Q: 10-Q
+SEC EDGAR · aceito 30/10 18h04 · 10-Q
+Link: https://www.sec.gov/Archives/edgar/data/70858/000007085826000548/bac-20260930.htm
+Por que importa: 10-Q e o balanco trimestral completo
+Ativos: BAC
+Como falar: 'a BAC protocolou 10-Q na SEC (10-Q)'
+Fonte: SEC EDGAR 2026-10-30
+id: E04-BAC-26000548-2026-10-30 · status: linha
+
 [INFO] E04 · AMZN · 10-Q: 10-Q
 SEC EDGAR · aceito 29/10 19h20 · 10-Q
 Link: https://www.sec.gov/Archives/edgar/data/1018724/000101872426000040/amzn-20260930.htm
@@ -68,7 +77,25 @@ Fonte: SEC EDGAR 2026-10-30
 id: E04-AMZN-26000040-2026-10-30 · status: entregue
 
 
-## NOTÍCIAS COM MATERIALIDADE (18)
+## NOTÍCIAS COM MATERIALIDADE (20)
+
+[ATENÇÃO] E05 · INTC · Intel plunges 29% on weak Q4 guidance (INTC:NASDAQ)
+Seeking Alpha · 30/10 17h35 · fonte única · licença: manchete
+Link: https://seekingalpha.com/news/4661731-intel-plunges-29-on-weak-q4-guidance
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: INTC
+Como falar: 'saiu no Seeking Alpha: Intel plunges 29% on weak Q4 guidance (INTC:NASDAQ); confirmar o número no texto antes de repassar'
+Fonte: Seeking Alpha 30/10 17h35
+id: E05-INTC-47c4e43e39-2026-10-30 · status: pendente
+
+[ATENÇÃO] E05 · INTC · Watch Intel Plunges 29% on Weak Outlook as Tech Selloff Deepens | Closing Bell
+Bloomberg · 30/10 17h27 · fonte única · licença: manchete
+Link: https://www.bloomberg.com/news/videos/2026-10-30/intel-plunges-on-weak-outlook-closing-bell-video
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: INTC
+Como falar: 'saiu no Bloomberg: Watch Intel Plunges 29% on Weak Outlook as Tech Selloff Deepens | Closing Bell; confirmar o número no texto antes de repassar'
+Fonte: Bloomberg 30/10 17h27
+id: E05-INTC-6f5bfb6502-2026-10-30 · status: pendente
 
 [ATENÇÃO] E05 · BTC · Is your crypto safe? What Binance’s $6.3 billion hack means for bitcoin investors.
 MarketWatch · 30/10 15h50 · fonte única · licença: manchete
@@ -303,8 +330,23 @@ Fonte: Yahoo Finance 29/10 16h47
 id: E05-KO-57cc816b05-2026-10-29 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (152)
+## OUTRAS NOTÍCIAS (só manchete) (167)
 
+· USDBRL Ibovespa tem pior mês desde junho de 2022; dólar sobe 5,22% em outubro (UOL Economia) https://economia.uol.com.br/cotacoes/noticias/redacao/2026/10/30/ibovespa-tem-pior-mes-desde-junho-de-2022-dolar-sobe-522-em-outubro.amp.htm
+· BTC Crypto Market Today, Oct. 30: Bitcoin Tests Key Support as Binance Hack and Tech Sell-Off Rattle Markets (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/crypto-market-today-oct-30-211002892.html
+· INTC Jim Cramer Admits He Was Wrong About Intel as Stock Plunges 29% (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/jim-cramer-admits-wrong-intel-210958237.html
+· USDBRL Dólar sobe 1,05%, a R$ 5,444; Ibovespa cai 0,75% (Poder360) https://www.poder360.com.br/poder-economia/dolar-sobe-105-a-r-5444-ibovespa-cai-075/
+· INTC Intel stock plunges nearly 29%, its worst day since 1974 (Yahoo Finance) https://finance.yahoo.com/markets/article/intel-stock-plunges-nearly-29-its-worst-day-since-1974-205955309.html
+· CVX Chevron Corporation Q3 2026 Earnings Call Summary (Yahoo Finance) https://finance.yahoo.com/energy/articles/chevron-corporation-q3-2026-earnings-205039802.html
+· INTC Why Intel’s stock saw its worst day in decades — and a $140 billion wipeout (MarketWatch) https://www.marketwatch.com/story/why-intels-stock-is-sinking-toward-its-worst-drop-in-two-years-492d71a7
+· DI Tesouro Selic e CDI: só sobreviveram à sangria pós-eleição os investimentos que nunca perdem; veja o ranking de outubro (Seu Dinheiro) https://www.seudinheiro.com/2026/financas-pessoais/tesouro-selic-e-cdi-so-sobreviveram-a-sangria-pos-eleicao-os-investimentos-que-nunca-perdem-mlim/
+· UST Silver Is Falling Despite Lower Treasury Yields and a Persistent Supply Deficit (Investing.com) https://www.investing.com/analysis/silver-is-falling-despite-lower-treasury-yields-and-a-persistent-supply-deficit-200690614
+· AMZN U.S. Stocks Slide as Amazon, Intel Earnings Spark More AI Selling (The Wall Street Journal) https://www.wsj.com/finance/stocks/u-s-stocks-slide-as-amazon-intel-earnings-spark-more-ai-selling-5670f50d
+· PETR4 Petrobras (PETR4) fecha outubro com nível elevado de utilização das refinarias, de 98%, diz diretor (Money Times) https://www.moneytimes.com.br/petrobras-petr4-fecha-outubro-com-nivel-elevado-de-utilizacao-das-refinarias-de-98-diz-diretor/
+· USDBRL Ibovespa tem 5ª queda seguida com incerteza fiscal e registra pior semana em seis anos; dólar sobe a R$ 5,44 (Money Times) https://www.moneytimes.com.br/ibovespa-30-10-26-lils/
+· USDBRL Dólar dispara 9,04% na semana com incertezas fiscais e expectativas sobre a Selic (ADVFN) https://news.google.com/rss/articles/CBMitwFBVV95cUxPeUt3OG50clhuQmtmTXA4NFVBRGU0Y1FYNVVBejR0NVc4X19rNmtUTkxvOFR4Y3hvekxfRVZTUW16M3p1ZlVHMGdOSnZPRUFWQWF6ekY1SlFUVjBIYk9aTml1a09RY3N5SEhBdmdKUHN2ZnlObkpRdnJ5eFB0aVEyX3J3Q0x0QmZKbnpiTlRnSy1lUEMwYUQyeGRuRUxfenlLVi01ampKRUFZMjZnSTZmLWhSNXRuQm8?oc=5
+· USDBRL Dólar tem maior alta semanal desde 2008; Ibovespa despenca 18,12% (UOL Economia) https://news.google.com/rss/articles/CBMizAFBVV95cUxOV0N3MkVGTFVvUEtYZWQyTEdFa3dqTm16cFAwNjVZcXgxMzJSdUlrcmpmaFhXcXotS0t2Z1ZrdHIxSlNIMkZMOWQ0S2cxbjNSVkM1dTN4a0djclVzajQwamFwS2ZEclNJN3BibkhoTWZQNzhEWnhiVElLYUdHSFFlLWFJREwxLWVscjJmRjVZVGFPT09lbEJONVVxaWFBaEVkYzhMcWo3ZkhsR3pFdGJjM01Yb0pPM3Q1MWJab2xUNDBKV2NMa2NOb01tQVg?oc=5
+· GOOGL Alphabet Stocks Move Higher With Cloud Backlog Above $560 Billion (Yahoo Finance) https://news.google.com/rss/articles/CBMinwFBVV95cUxPVnFBNEFrN0ZfRGdSOW1uallKcmRPX1QxQ29nT054RTJLQ0FmSmZqbERJd05ZODIwY0wzb0FxQ1JRUGo0MGlNQ1NZelk5aURJQXBQTjFyMG83WnFWS044dENfNFJQcWt1UXlUWkdwT0JYVXFZaE9ERnFQNjhSbk9ob2RGcXEzemlQcGdTRU9WYV8zQ1dhRHp1X1VPbEY2VG8?oc=5
 · DI Uma reunião muito difícil para o Copom (Estadao) https://www.estadao.com.br/economia/fernando-dantas/uma-reuniao-muito-dificil-para-o-copom/
 · DI Itaú vê fim do ciclo de cortes da Selic diante de cenário mais adverso (NeoFeed) https://neofeed.com.br/economia/itau-ve-fim-do-ciclo-de-cortes-da-selic-diante-de-cenario-mais-adverso/
 · BTC Worried About Crypto Hacks? Buy Bitcoin Proxies in Stock Market Instead, Say Wall Street Firms (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/worried-crypto-hacks-buy-bitcoin-200603005.html
@@ -350,19 +392,4 @@ id: E05-KO-57cc816b05-2026-10-29 · status: linha
 · BTC Why Bitcoin Is Down Today (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/why-bitcoin-down-today-173704991.html
 · AMZN Wall Street analysts like Amazon's AWS outlook (Yahoo Finance) https://finance.yahoo.com/technology/article/wall-street-analysts-like-amazons-aws-outlook-172030532.html
 · AMZN Amazon Web Services Set for Strong Performance Ahead Despite 'Disappointing' Third-Quarter Growth, Morgan Stanley Says (Yahoo Finance) https://finance.yahoo.com/technology/articles/amazon-services-set-strong-performance-171757942.html
-· INTC Why Intel Is Down Today (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/why-intel-down-today-170902245.html
-· MRVL Applied Optoelectronics Plunges 15%, Coherent Tumbles 13% as Hyperscaler Spending Fears Hit AI Optics Stocks; Lumentum and Marvell Sink 10% (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/applied-optoelectronics-plunges-15-coherent-165726137.html
-· AMZN Amazon and Intel Tank the AI Trade. The 1 Factor Linking Big Tech’s Underwhelming Earnings. (Barron's) https://news.google.com/rss/articles/CBMijwFBVV95cUxPVlJuS21nLVkwOXpfVnl2ZkJ3NjRpUVB0U25ZRXBnUWstQzVlN1hfa3ZLd0tNOUtwUTJYbkRWUUxIajZsY052NlI2Q21tY2tVSVFTS2ZiT25tcnRrMUsxOV9RQXNXU1h6UTdaMjlhTjYyZDhZclpKazJUcjdHekVWTTJkR2h1cmlKVWxTTUVrYw?oc=5
-· CVX Chevron (CVX) Reports Q3 Earnings: What Key Metrics Have to Say (Yahoo Finance) https://news.google.com/rss/articles/CBMihwFBVV95cUxQTnFsNDJmaGpYeUtvaHVwN0xxRmtHVThGNnZqSl94Q0VfSURtRFFWNXpPQU9Yd1RzMTg3dkFTaF9oU1NUSC1keUEzMS1TVWdtdFdMWml2Ukg5Z3o3Mnhuc3M1OEs5cXd6aXZtaGtWdWdOem5aQTdUanJ2LWZGRnZUYTJHNklDZHc?oc=5
-· AVGO Marvell Rumored to Buy Lumentum in Major Challenge to Broadcom: Counterpoint (TradingView (Reuters)) https://news.google.com/rss/articles/CBMizwFBVV95cUxNdEtnZFhvbENqWGpfb0NZQWpONl9EaFQwQ3JfTlhJRHcyWnJsRHlWMkZacXlSTkZMcjU1ck5fbE1MSkFCWGgtWWRicHRKZmtqaFZFd25FMkcySEtIQ29OUkZScnl2amxpelV5R3VHZTVKbHRKYzdhNElSQ0hlSXY5dXR4U2NSTnk3UnJrVVZlZnptZFVKMFRHMzZ4NDFkYmlKcTNfOFFORHAwbWUtS29seWRGMGZobk1qYTBHeVktZjIwTFlWampOd1VxNHl6YzQ?oc=5
-· MRVL Marvell deal for Lumentum won't be at a big premium - CNBC (TradingView (Reuters)) https://news.google.com/rss/articles/CBMiuwFBVV95cUxOR08yMWtUNkx4azM2eDhVQ1RWeE8zWjE1NGxhbHJjelRJV2Vpc1lGazJmUkVvT2V2bGFuUWstQ096b2c5UXlBTUR0ZHlWRHNVdXVBOV9MZjBlY1lWTzFkZ01oaUloYWxvaUlxQXF5UnBkRDVCbWVvMEN2a295Vk5GcGpvOS00eFdpRXFGZEJfZ3o1TUtRdXE5NGJHcVZLbF9BbWVtMUZ3RmRHNTBDaThnT05wZG9UTVFtdWFV?oc=5
-· VALE3 Os dois trunfos regulatórios que a Vale espera tirar do papel com o fim das Eleições (NeoFeed) https://neofeed.com.br/negocios/os-dois-trunfos-regulatorios-que-a-vale-espera-tirar-do-papel-com-o-fim-das-eleicoes/
-· AMZN Amazon, Intel Earnings Add Fuel to Tech Selloff (The Wall Street Journal) https://www.wsj.com/finance/stocks/ai-selloff-deepens-oil-jumps-and-crypto-falls-4703d21b
-· VALE3 Vale (VALE3): CFO prevê trégua nos custos no 4T26 e revela estratégia que já 'poupou' US$ 3 bilhões (Money Times) https://www.moneytimes.com.br/vale-vale3-cfo-preve-tregua-nos-custos-no-4t26-e-revela-estrategia-que-ja-poupou-us-3-bilhoes-bdap/
-· TSLA Tesla Could Be About to Unlock a Brand-New Revenue Stream. Time to Buy the Stock? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/tesla-could-unlock-brand-revenue-170901424.html
-· INTC Intel earnings analysis: questions answered and next catalysts (Investing.com) https://www.investing.com/news/stock-market-news/intel-earnings-analysis-questions-answered-and-next-catalysts-93CH-4988387
-· VALE3 Vale prevê recompra de ações e afasta pagamento de dividendos extraordinários (O Globo) https://oglobo.globo.com/economia/negocios/post/2026/10/vale-preve-recompra-de-acoes-e-afasta-pagamento-de-dividendos-extraordinarios.ghtml
-· PETR4 Após eleição, o que mudou na tese de petroleiras? Petrobras e PRIO são as preferidas (InfoMoney) https://www.infomoney.com.br/mercados/apos-eleicao-o-que-mudou-na-tese-de-petroleiras-petrobras-e-prio-sao-as-preferidas/
-· USDBRL Dólar atinge R$5,43 e Ibovespa cai com preocupações sobre novo governo Lula (TradingView (Reuters)) https://br.tradingview.com/news/reuters.com,2026:newsml_L2N46G0WJ:0/
-· INTC Stocks making the biggest moves midday: Intel, Lumentum, Sandisk, Twilio, Coinbase & more (CNBC) https://www.cnbc.com/2026/10/30/stocks-making-the-biggest-moves-midday-intc-lite-sndk-twlo-coin.html
-· (+92 manchetes; lista completa em eventos/noticias.json)
+· (+107 manchetes; lista completa em eventos/noticias.json)
