@@ -1,6 +1,6 @@
-ALERTAS · Fechamento 18h
+ALERTAS · eventos
 
-[CRÍTICO] CURVA · C01 A curva ABRIU: F28 +162 bps em 5 pregões · F29 +16 bps no dia · F29 +232 bps em 5 pregões (ajuste B3 30/10) / C05 Pre 2029 ABRE 16 bps (PU -0,2%) · Pre 2029 PU -3,8% em 5 datas-base · IPCA+ 2032 PU -5,7% em 5 datas-base (base 30/10) / C02 Inclinação da curva DI: F35-F28 +97 bps em 5 pregões · F30-F28 +93 bps em 5 pregões · F30-F28 na máxima de 252 pregões
+(pendente de slot anterior) [CRÍTICO] CURVA · C01 A curva ABRIU: F28 +162 bps em 5 pregões · F29 +16 bps no dia · F29 +232 bps em 5 pregões (ajuste B3 30/10) / C05 Pre 2029 ABRE 16 bps (PU -0,2%) · Pre 2029 PU -3,8% em 5 datas-base · IPCA+ 2032 PU -5,7% em 5 datas-base (base 30/10) / C02 Inclinação da curva DI: F35-F28 +97 bps em 5 pregões · F30-F28 +93 bps em 5 pregões · F30-F28 na máxima de 252 pregões
 DI F28 14,48 (+11) · F29 14,96 (+16) · F30 15,19 (+14) · F32 15,32 (+9) · F35 15,33 (+10)
 Inclinação F35-F28 +85 bps (-2)
 TD Pre 2029 14,96 (+16) · IPCA+ 2032 7,89 (+5) · IPCA+ 2040 7,54 (+9) PU -1,1% · IPCA+ 2050 7,28 (+15) PU -3,2% · Pre 2032 15,36 (+19) PU -0,8%
@@ -12,10 +12,9 @@ Implícita 2031/32 (descasado): 6,74% (+109 bps na semana) vs Focus IPCA 2030 3,
 Por que importa: delta em bps e inclinação são o que toda mesa de renda fixa reporta e o que explica a marcação do Tesouro ao cliente
 Como falar: 'o prefixado longo marcou a mercado para baixo; quem carrega até o vencimento não mudou de taxa'
 Fonte: B3 ajuste 30/10 · Tesouro Transparente base 30/10; BCB Focus · Tesouro Transparente, base 30/10 · ajuste B3 30/10
-Push: [CRÍTICO] DI A curva ABRIU | TESOURO Pre 2029 ABRE 16 bps (PU -0,2%) · Pre 2029 PU -3,8% em 5 dat | DI Inclinação da curva DI +1 · detalhe na sessão
 ids: C01-DI-abriu-2026-10-30, C05-TESOURO-abriu-2026-10-30, C02-DI-inclinacao-2026-10-30, C06-TESOURO-implicita-2026-10-30
 
-[CRÍTICO] T05 · 9 ativos: CNDX, RBOT, SMH, SOXX, XLK, QANT, WQTM, AMD, INTC
+(pendente de slot anterior) [CRÍTICO] T05 · 9 ativos: CNDX, RBOT, SMH, SOXX, XLK, QANT, WQTM, AMD, INTC
 · CNDX (iShares NASDAQ 100 UCITS ETF USD (Acc)) -3,1% no dia a US$ 1.636: movimento de 3,1 desvios para uma vol de 20 dias de 16% a.a.
   1m -6,9% · 6m +2,8% · YTD +11%
 · RBOT (iShares Automation & Robotics UCITS ETF USD (Acc)) -4,6% no dia a US$ 20,44: movimento de 3,2 desvios para uma vol de 20 dias de 24% a.a.
@@ -37,20 +36,18 @@ ids: C01-DI-abriu-2026-10-30, C05-TESOURO-abriu-2026-10-30, C02-DI-inclinacao-20
 Por que importa: acima de 3 desvios o movimento sai do ruído e costuma vir de fato novo ou fluxo forçado
 Como falar: 'o movimento de hoje é atípico para este papel; antes de mexer, saber o motivo'
 Fonte: Yahoo Finance fech. 30/10
-Push: [CRÍTICO] CNDX (iShares NASDAQ 100 UCITS ETF USD (Acc)) -3,1% no dia a | RBOT (iShares Automation & Robotics UCITS ETF USD (Acc)) -4, | SMH -7,0% no dia a US$ 522,49 +6 · detalhe na sessão
 ids: T05-CNDX-queda-2026-10-30, T05-RBOT-queda-2026-10-30, T05-SMH-queda-2026-10-30, T05-SOXX-queda-2026-10-30, T05-XLK-queda-2026-10-30, T05-QANT-queda-2026-10-30, T05-WQTM-queda-2026-10-30, T05-AMD-queda-2026-10-30, T05-INTC-queda-2026-10-30
 
-[ATENÇÃO] E05 · INTC · Intel plunges 29% on weak Q4 guidance (INTC:NASDAQ)
+(pendente de slot anterior) [ATENÇÃO] E05 · INTC · Intel plunges 29% on weak Q4 guidance (INTC:NASDAQ)
 Seeking Alpha · 30/10 17h35 · fonte única · licença: manchete
 Link: https://seekingalpha.com/news/4661731-intel-plunges-29-on-weak-q4-guidance
 Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
 Ativos: INTC
 Como falar: 'saiu no Seeking Alpha: Intel plunges 29% on weak Q4 guidance (INTC:NASDAQ); confirmar o número no texto antes de repassar'
 Fonte: Seeking Alpha 30/10 17h35
-Push: Fechamento 18h: 2 alertas de atenção — E05 INTC, E05 INTC · detalhe na sessão
 ids: E05-INTC-47c4e43e39-2026-10-30
 
-[ATENÇÃO] E05 · INTC · Watch Intel Plunges 29% on Weak Outlook as Tech Selloff Deepens | Closing Bell
+(pendente de slot anterior) [ATENÇÃO] E05 · INTC · Watch Intel Plunges 29% on Weak Outlook as Tech Selloff Deepens | Closing Bell
 Bloomberg · 30/10 17h27 · fonte única · licença: manchete
 Link: https://www.bloomberg.com/news/videos/2026-10-30/intel-plunges-on-weak-outlook-closing-bell-video
 Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
@@ -59,34 +56,36 @@ Como falar: 'saiu no Bloomberg: Watch Intel Plunges 29% on Weak Outlook as Tech 
 Fonte: Bloomberg 30/10 17h27
 ids: E05-INTC-6f5bfb6502-2026-10-30
 
+[ATENÇÃO] E05 · INTC · Stock Market Today, Oct. 30: Intel Plunges Nearly 29% as Weak Outlook Rattles Wall Street
+Yahoo Finance · 30/10 18h20 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Intel (NASDAQ:INTC), one of the world's largest semiconductor manufacturers, saw its shares plunge 28.58% Friday, closing at $65.76 in one of the company's steepest single-day declines in decades.
+  – Trading activity surged alongside the decline, with 447.8 million shares changing hands, approximately 314% above the stock's three-month average of 108.1 million shares.
+  – How the markets moved today The S&P 500 (SNPINDEX:^GSPC) closed at 7,561, down 2.07%, while the Nasdaq Composite (NASDAQINDEX:^IXIC) finished at 25,437, down 2.86%.
+  – Among semiconductor designers and foundry services for PCs, data center, and edge computing, Advanced Micro Devices (NASDAQ:AMD) closed at $504.80, down 10.88%, and Nvidia (NASDAQ:NVDA) closed at $204.64, down 4.22%, as…
+  – Revenue in its Data Center and AI division surged 78% year over year to $7.3 billion, supported by higher server shipments and stronger pricing.
+  – Before you buy stock in Intel, consider this: The Motley Fool Stock Advisor analyst team just identified what they believe are the 10 best stocks for investors to buy now… and Intel wasn't one of them.
+Link: https://finance.yahoo.com/markets/stocks/articles/stock-market-today-oct-30-212002526.html
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: INTC
+Como falar: 'saiu no Yahoo Finance: Stock Market Today, Oct. 30: Intel Plunges Nearly 29% as Weak Outlook Rattles Wall Street; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 30/10 18h20
+Push: [ATENÇÃO] INTC · Stock Market Today, Oct. 30 · detalhe na sessão
+ids: E05-INTC-3b671c6b1c-2026-10-30
+
 Info (só linha no Fechamento):
-· C03 DI em nível: F32 na máxima de 252 pregões: 15,32% · F35 na máxima de 252 pregões: 15,33%
-· T02 RBOT (iShares Automation & Robotics UCITS ETF USD (Acc)) perdeu a MM50 pela 2ª sessão: US$ 20,44, ainda acima da MM200 (tendência longa preservada)
-· T02 IUAA (iShares US Aggregate Bond UCITS ETF USD (Acc)) retomou a MM50 pela 2ª sessão: US$ 5,69, ainda abaixo da MM200 (repique dentro da baixa)
-· T02 SMH perdeu a MM50 pela 2ª sessão: US$ 522,49, ainda acima da MM200 (tendência longa preservada)
-· T02 AVGO perdeu a MM50 pela 2ª sessão: US$ 326,08, já abaixo da MM200 (confirma tendência de baixa)
-· T02 TSM perdeu a MM50 pela 2ª sessão: US$ 406,13, ainda acima da MM200 (tendência longa preservada)
-· T02 AMZN perdeu a MM50 e perdeu a MM100 pela 2ª sessão: US$ 240,35, já abaixo da MM200 (confirma tendência de baixa)
-· T02 ETH perdeu a MM100 pela 2ª sessão: US$ 2.236, ainda acima da MM200 (tendência longa preservada)
-· T07 REMX entrou em sobrevendido: RSI14 24 a US$ 49,99
-· T09 AMZN -1,4% com volume 3,0x a mediana de 20 sessões, a US$ 240,35
-· T10 WUTI (State Street SPDR MSCI World Utilities UCITS ETF (USD)) no máximo de força relativa em 63 sessões contra VWRA: +7,5% vs -2,2% em 20 sessões (+9,9% relativo)
-· E04 BAC · 10-Q: 10-Q
-· E05 USDBRL · Ibovespa tem pior mês desde junho de 2022; dólar sobe 5,22% em outubro
-· E05 BTC · Crypto Market Today, Oct. 30: Bitcoin Tests Key Support as Binance Hack and Tech Sell-Off Rattle Markets
-· E05 INTC · Jim Cramer Admits He Was Wrong About Intel as Stock Plunges 29%
-· E05 USDBRL · Dólar sobe 1,05%, a R$ 5,444; Ibovespa cai 0,75%
-· E05 INTC · Intel stock plunges nearly 29%, its worst day since 1974
-· E05 CVX · Chevron Corporation Q3 2026 Earnings Call Summary
-· E05 INTC · Why Intel’s stock saw its worst day in decades — and a $140 billion wipeout
-· E05 DI · Tesouro Selic e CDI: só sobreviveram à sangria pós-eleição os investimentos que nunca perdem; veja o ranking de outubro
-· E05 UST · Silver Is Falling Despite Lower Treasury Yields and a Persistent Supply Deficit
-· E05 AMZN · U.S. Stocks Slide as Amazon, Intel Earnings Spark More AI Selling
-· E05 PETR4 · Petrobras (PETR4) fecha outubro com nível elevado de utilização das refinarias, de 98%, diz diretor
-· E05 USDBRL · Ibovespa tem 5ª queda seguida com incerteza fiscal e registra pior semana em seis anos; dólar sobe a R$ 5,44
-· E05 USDBRL · Dólar dispara 9,04% na semana com incertezas fiscais e expectativas sobre a Selic
-· E05 USDBRL · Dólar tem maior alta semanal desde 2008; Ibovespa despenca 18,12%
-· E05 GOOGL · Alphabet Stocks Move Higher With Cloud Backlog Above $560 Billion
+· E05 SMAL11 · Small Caps caem 32,79% e registram maior queda semanal da história
+· E05 USDBRL · Dólar fecha a R$ 5,44 e registra maior alta semanal desde 2008
+· E05 BTC · Bitwise's Matt Hougan: $6.3 billion Binance hack won't hurt Bitcoin long-term
+· E05 DI · Reeleição de Lula sacode apostas sobre juros, e BC decide a Selic com mercado dividido
+· E05 INTC · Intel’s stock crashes, knocking $12B from government’s stake
+· E05 DI · Taxas de juros sobem com maior risco fiscal e cenário de manutenção da Selic - TNOnline
+· E05 BAC · Bank of America 3Q 2026: Revenue $30B, Net income $6.5B, EPS $0.91— 10-Q Summary
+· E05 USDBRL · Bolsa cai 17,5% na semana da vitória de Lula e tem pior resultado desde 2020; dólar sobe 9%
+· E05 JPM · Bank of America vs. JPMorgan Chase: Diverging Quarterly Revenue Trends for These Financial Giants
+· E05 BTC · Analysts clash over whether Binance hack is Bitcoin’s FTX moment
+· E05 VALE3 · Vale considera improvável dividendo extraordinário neste ano, diz CFO
+· E05 NVDA · NVIDIA Stock: Analyst Estimates & Ratings
 · T08 XLK entrou em correção: -11% do pico de 52s (US$ 202,00 em 06/10) a US$ 179,51
 · T08 QTUM entrou em bear técnico: -21% do pico de 52s (US$ 168,76 em 02/06) a US$ 133,83
 · T08 INTC entrou em queda de -40% do pico: -53% do pico de 52s (US$ 140,94 em 22/06) a US$ 65,76
@@ -95,6 +94,7 @@ Info (só linha no Fechamento):
 · T08 LITE entrou em bear técnico: -26% do pico de 52s (US$ 1.133 em 06/10) a US$ 840,70
 · T08 UGPA3 entrou em bear técnico: -21% do pico de 52s (R$ 40,03 em 21/10) a R$ 31,76
 · T06 INTC -24% em 5 sessões a US$ 65,76: movimento de 3,7 desvios para a vol de 20 dias
+· T13 VIX cruzou 20: 20,2 (+17% no dia)
 · T01 QTUM fechou abaixo da média de 200 dias pela 1ª sessão: US$ 133,83 vs MM200 US$ 137,29 (-2,5%)
 · T01 INTC fechou abaixo da média de 200 dias pela 1ª sessão: US$ 65,76 vs MM200 US$ 86,86 (-24%)
 · T01 EWY fechou abaixo da média de 200 dias pela 1ª sessão: US$ 152,89 vs MM200 US$ 162,67 (-6,0%)
@@ -110,9 +110,8 @@ Info (só linha no Fechamento):
 · T10 INTC no mínimo de força relativa em 63 sessões contra SOX: -45% vs -19% em 20 sessões (-32% relativo)
 · T10 PETR4 no máximo de força relativa em 63 sessões contra IBOV: +5,6% vs -10% em 20 sessões (+18% relativo)
 · T12 WUTI (State Street SPDR MSCI World Utilities UCITS ETF (USD)): 8 altas seguidas (+4,4% acumulado) a US$ 69,97
-· T13 VIX cruzou 20: 20,2 (+17% no dia)
 
-Suprimidos pelo teto (viram linha do Fechamento): T08-XLK--10-2026-10-30 (teto diário de críticos), T08-QTUM--20-2026-10-30 (teto diário de críticos), T08-INTC--40-2026-10-30 (teto diário de críticos), T08-MU--25-2026-10-30 (teto diário de críticos), T08-TSM--15-2026-10-30 (teto diário de críticos), T08-LITE--20-2026-10-30 (teto diário de críticos), T08-UGPA3--20-2026-10-30 (teto diário de críticos), T06-INTC-queda-2026-10-30 (teto diário de críticos), T01-QTUM-perda-2026-10-30 (teto de atenção), T01-INTC-perda-2026-10-30 (teto de atenção), T01-EWY-perda-2026-10-30 (teto de atenção), T03-GOOGL-death-2026-10-30 (teto de atenção), T04-REMX-minima-2026-10-30 (teto de atenção), T04-SAPR4-minima-2026-10-30 (teto de atenção), T04-SMAL11-minima-2026-10-30 (teto de atenção), T02-MU-perdeu_perdeu-2026-10-30 (teto de atenção), T09-QQQ-queda-2026-10-30 (teto de atenção), T09-INTC-queda-2026-10-30 (teto de atenção), T10-WQTM-mínimo-2026-10-30 (teto de atenção), T10-WQTMUS-mínimo-2026-10-30 (teto de atenção), T10-INTC-mínimo-2026-10-30 (teto de atenção), T10-PETR4-máximo-2026-10-30 (teto de atenção), T12-WUTI-altas_8-2026-10-30 (teto de atenção), T13-VIX-vix20-2026-10-30 (teto de atenção)
+Suprimidos pelo teto (viram linha do Fechamento): T08-XLK--10-2026-10-30 (teto diário de críticos), T08-QTUM--20-2026-10-30 (teto diário de críticos), T08-INTC--40-2026-10-30 (teto diário de críticos), T08-MU--25-2026-10-30 (teto diário de críticos), T08-TSM--15-2026-10-30 (teto diário de críticos), T08-LITE--20-2026-10-30 (teto diário de críticos), T08-UGPA3--20-2026-10-30 (teto diário de críticos), T06-INTC-queda-2026-10-30 (teto diário de críticos), T13-VIX-vix20-2026-10-30 (teto de atenção), T01-QTUM-perda-2026-10-30 (teto de atenção), T01-INTC-perda-2026-10-30 (teto de atenção), T01-EWY-perda-2026-10-30 (teto de atenção), T03-GOOGL-death-2026-10-30 (teto de atenção), T04-REMX-minima-2026-10-30 (teto de atenção), T04-SAPR4-minima-2026-10-30 (teto de atenção), T04-SMAL11-minima-2026-10-30 (teto de atenção), T02-MU-perdeu_perdeu-2026-10-30 (teto de atenção), T09-QQQ-queda-2026-10-30 (teto de atenção), T09-INTC-queda-2026-10-30 (teto de atenção), T10-WQTM-mínimo-2026-10-30 (teto de atenção), T10-WQTMUS-mínimo-2026-10-30 (teto de atenção), T10-INTC-mínimo-2026-10-30 (teto de atenção), T10-PETR4-máximo-2026-10-30 (teto de atenção), T12-WUTI-altas_8-2026-10-30 (teto de atenção)
 
 Alertas do dia (todos, com status):
 · pendente  C05 TESOURO — Pre 2029 ABRE 16 bps (PU -0,2%) · Pre 2029 PU -3,8% em 5 datas-base · IPCA+ 2032
@@ -126,6 +125,7 @@ Alertas do dia (todos, com status):
 · linha     T08 LITE — LITE entrou em bear técnico: -26% do pico de 52s (US$ 1.133 em 06/10) a US$ 840,
 · linha     T08 UGPA3 — UGPA3 entrou em bear técnico: -21% do pico de 52s (R$ 40,03 em 21/10) a R$ 31,76
 · linha     T06 INTC — INTC -24% em 5 sessões a US$ 65,76: movimento de 3,7 desvios para a vol de 20 di
+· pendente  E05 INTC — INTC · Stock Market Today, Oct. 30: Intel Plunges Nearly 29% as Weak Outlook Rat
 · pendente  C01 DI — A curva ABRIU: F28 +162 bps em 5 pregões · F29 +16 bps no dia · F29 +232 bps em 
 · pendente  C02 DI — Inclinação da curva DI: F35-F28 +97 bps em 5 pregões · F30-F28 +93 bps em 5 preg
 · pendente  C06 TESOURO — Inflação implícita: implícita 2029 +93 bps na semana · implícita 2032 +117 bps n
@@ -186,4 +186,4 @@ Alertas do dia (todos, com status):
 · linha     T09 AMZN — AMZN -1,4% com volume 3,0x a mediana de 20 sessões, a US$ 240,35
 · linha     T10 WUTI — WUTI (State Street SPDR MSCI World Utilities UCITS ETF (USD)) no máximo de força
 · linha     F01 USDBRL — Real cai: USD/BRL 5,4425 (+9,1% em 5 sessões · 8 dias seguidos de movimento domé
-· (+178 notícias só manchete, em noticias.md)
+· (+190 notícias só manchete, em noticias.md)

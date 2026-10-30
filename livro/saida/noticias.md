@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 30/10 18h14
+NOTÍCIAS E FATOS · 30/10 19h54
 
-Pernas: noticias ok 17 novas (18 consultas; descartadas: 356 veículo fora da lista, 41 sem ativo, 7 teto) · cvm ok 0 novos de 17 (9 cias casadas) · sec ok 1 novos em 3 dias
+Pernas: noticias ok 13 novas (18 consultas; descartadas: 380 veículo fora da lista, 36 sem ativo, 6 teto) · cvm ok 0 novos de 17 (9 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (3)
 
@@ -77,7 +77,23 @@ Fonte: SEC EDGAR 2026-10-30
 id: E04-AMZN-26000040-2026-10-30 · status: entregue
 
 
-## NOTÍCIAS COM MATERIALIDADE (20)
+## NOTÍCIAS COM MATERIALIDADE (21)
+
+[ATENÇÃO] E05 · INTC · Stock Market Today, Oct. 30: Intel Plunges Nearly 29% as Weak Outlook Rattles Wall Street
+Yahoo Finance · 30/10 18h20 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Intel (NASDAQ:INTC), one of the world's largest semiconductor manufacturers, saw its shares plunge 28.58% Friday, closing at $65.76 in one of the company's steepest single-day declines in decades.
+  – Trading activity surged alongside the decline, with 447.8 million shares changing hands, approximately 314% above the stock's three-month average of 108.1 million shares.
+  – How the markets moved today The S&P 500 (SNPINDEX:^GSPC) closed at 7,561, down 2.07%, while the Nasdaq Composite (NASDAQINDEX:^IXIC) finished at 25,437, down 2.86%.
+  – Among semiconductor designers and foundry services for PCs, data center, and edge computing, Advanced Micro Devices (NASDAQ:AMD) closed at $504.80, down 10.88%, and Nvidia (NASDAQ:NVDA) closed at $204.64, down 4.22%, as…
+  – Revenue in its Data Center and AI division surged 78% year over year to $7.3 billion, supported by higher server shipments and stronger pricing.
+  – Before you buy stock in Intel, consider this: The Motley Fool Stock Advisor analyst team just identified what they believe are the 10 best stocks for investors to buy now… and Intel wasn't one of them.
+Link: https://finance.yahoo.com/markets/stocks/articles/stock-market-today-oct-30-212002526.html
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: INTC
+Como falar: 'saiu no Yahoo Finance: Stock Market Today, Oct. 30: Intel Plunges Nearly 29% as Weak Outlook Rattles Wall Street; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 30/10 18h20
+id: E05-INTC-3b671c6b1c-2026-10-30 · status: pendente
 
 [ATENÇÃO] E05 · INTC · Intel plunges 29% on weak Q4 guidance (INTC:NASDAQ)
 Seeking Alpha · 30/10 17h35 · fonte única · licença: manchete
@@ -330,8 +346,20 @@ Fonte: Yahoo Finance 29/10 16h47
 id: E05-KO-57cc816b05-2026-10-29 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (167)
+## OUTRAS NOTÍCIAS (só manchete) (179)
 
+· SMAL11 Small Caps caem 32,79% e registram maior queda semanal da história (CNN Brasil) https://www.cnnbrasil.com.br/economia/money/mercado/elos-ayta-small-caps-cai-3279-e-registra-maior-queda-semanal-da-historia/
+· USDBRL Dólar fecha a R$ 5,44 e registra maior alta semanal desde 2008 (Agencia Brasil) https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/dolar-fecha-r-544-e-registra-maior-alta-semanal-desde-2008
+· BTC Bitwise's Matt Hougan: $6.3 billion Binance hack won't hurt Bitcoin long-term (CNBC) https://www.cnbc.com/video/2026/10/30/bitwises-matt-hogan-6-point-3b-binance-hack-wont-hurt-bitcoin-long-term.html
+· DI Reeleição de Lula sacode apostas sobre juros, e BC decide a Selic com mercado dividido (Bloomberg Linea) https://www.bloomberglinea.com.br/brasil/reeleicao-de-lula-sacode-apostas-sobre-juros-e-bc-decide-a-selic-com-mercado-dividido/
+· INTC Intel’s stock crashes, knocking $12B from government’s stake (TechCrunch) https://techcrunch.com/2026/10/30/intels-stock-crashes-knocking-12b-from-governments-stake/
+· DI Taxas de juros sobem com maior risco fiscal e cenário de manutenção da Selic - TNOnline (UOL Economia) https://tnonline.uol.com.br/noticias/economia/taxas-de-juros-sobem-com-maior-risco-fiscal-e-cenario-de-manutencao-da-selic-1169925
+· BAC Bank of America 3Q 2026: Revenue $30B, Net income $6.5B, EPS $0.91— 10-Q Summary (TradingView (Reuters)) https://www.tradingview.com/news/tradingview:b49719cabead8:0-bank-of-america-3q-2026-revenue-30b-net-income-6-5b-eps-0-91-10-q-summary/
+· USDBRL Bolsa cai 17,5% na semana da vitória de Lula e tem pior resultado desde 2020; dólar sobe 9% (Folha de S.Paulo) https://www1.folha.uol.com.br/mercado/2026/10/bolsa-cai-175-na-semana-da-vitoria-de-lula-e-tem-pior-resultado-desde-2020.shtml
+· JPM Bank of America vs. JPMorgan Chase: Diverging Quarterly Revenue Trends for These Financial Giants (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/bank-america-vs-jpmorgan-chase-202002761.html
+· BTC Analysts clash over whether Binance hack is Bitcoin’s FTX moment (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/analysts-clash-over-whether-binance-193132437.html
+· VALE3 Vale considera improvável dividendo extraordinário neste ano, diz CFO (UOL Economia) https://economia.uol.com.br/noticias/reuters/2026/10/30/vale-considera-improvavel-dividendo-extraordinario-neste-ano-diz-cfo.htm
+· NVDA NVIDIA Stock: Analyst Estimates & Ratings (Yahoo Finance) https://news.google.com/rss/articles/CBMipgFBVV95cUxNS3F4WldNbXdBemQ2d2I5OUZkQmJrYTdFcUZGRHpCSlV3TDlQSjZVbzRsMUFXWmh4M2RIYjRKUERieUhBUkN2Ym9ENElqZ19JWEtLWHkyaEZBTTRYemR1MVR0WHltSlNpN0tZcy1vTE0yRTJUVGdlckNxX0JNeVRZdlpqbEFTUHcwci1FZEhCOUtQM19FRG9WNERqa0Uxd293a1lKSHpR?oc=5
 · USDBRL Ibovespa tem pior mês desde junho de 2022; dólar sobe 5,22% em outubro (UOL Economia) https://economia.uol.com.br/cotacoes/noticias/redacao/2026/10/30/ibovespa-tem-pior-mes-desde-junho-de-2022-dolar-sobe-522-em-outubro.amp.htm
 · BTC Crypto Market Today, Oct. 30: Bitcoin Tests Key Support as Binance Hack and Tech Sell-Off Rattle Markets (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/crypto-market-today-oct-30-211002892.html
 · INTC Jim Cramer Admits He Was Wrong About Intel as Stock Plunges 29% (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/jim-cramer-admits-wrong-intel-210958237.html
@@ -380,16 +408,4 @@ id: E05-KO-57cc816b05-2026-10-29 · status: linha
 · AVGO Broadcom Stock Outlook Hinges On AI Chip Growth And Anthropic Partnership (Yahoo Finance) https://uk.finance.yahoo.com/news/broadcom-stock-outlook-hinges-ai-181030148.html
 · AMZN Amazon earnings analysis: questions answered and next catalysts (Investing.com) https://www.investing.com/news/stock-market-news/amazon-earnings-analysis-questions-answered-and-next-catalysts-93CH-4988412
 · PLTR Should Palantir Stock Be in Your Portfolio Before Q3 Earnings? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/palantir-stock-portfolio-q3-earnings-165300648.html
-· CVX Chevron Q3 Earnings Beat Estimates on Strong Refining Margins (Yahoo Finance) https://finance.yahoo.com/energy/articles/chevron-q3-earnings-beat-estimates-135700408.html
-· CVX Chevron Stock Hits 52-Week High As Refining Windfall Nearly Triples Profit (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:006cfa775094b:0-chevron-stock-hits-52-week-high-as-refining-windfall-nearly-triples-profit/
-· INTC Intel Dropped 20% Over The Last Month: This Pro Analyst Says It’s Going to Gain 70% Soon (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/intel-dropped-20-over-last-124559573.html
-· NVDA Update: Market Chatter: Nvidia in Talks to Back $30 Billion Nscale Data Center Project for Anthropic (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/market-chatter-nvidia-talks-back-115745201.html
-· ITUB4 Nem as eleições tiram o Itaú do radar: Genial vê potencial de alta de quase 30% (Estadao) https://www.estadao.com.br/einvestidor/onde-investir/nem-as-eleicoes-tiram-o-itau-do-radar-genial-ve-potencial-de-alta-de-quase-30/
-· AMZN Update: Equities Tumble Intraday Amid Tech Sell-Off Following Amazon, Intel Earnings (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/equities-tumble-intraday-amid-tech-180055421.html
-· BTC Why bitcoin held up better after the record Binance hack (CNBC) https://www.cnbc.com/2026/10/30/binance-hack-bitcoin-price.html
-· CVX Exxon, Chevron report massive profits as Trump brags energy companies are ‘making a freakin fortune’ (Fortune) https://fortune.com/2026/10/30/exxon-chevron-massive-profits-trump-brags-energy-companies-making-freaking-fortune-midterms/
-· AMZN Amazon earnings fall short amid tech sell-off, and Anthropic becomes SpaceX's top partner (Yahoo Finance) https://finance.yahoo.com/video/amazon-earnings-fall-short-amid-tech-sell-off-and-anthropic-becomes-spacexs-top-partner-174024326.html
-· BTC Why Bitcoin Is Down Today (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/why-bitcoin-down-today-173704991.html
-· AMZN Wall Street analysts like Amazon's AWS outlook (Yahoo Finance) https://finance.yahoo.com/technology/article/wall-street-analysts-like-amazons-aws-outlook-172030532.html
-· AMZN Amazon Web Services Set for Strong Performance Ahead Despite 'Disappointing' Third-Quarter Growth, Morgan Stanley Says (Yahoo Finance) https://finance.yahoo.com/technology/articles/amazon-services-set-strong-performance-171757942.html
-· (+107 manchetes; lista completa em eventos/noticias.json)
+· (+119 manchetes; lista completa em eventos/noticias.json)
