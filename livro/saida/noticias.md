@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 30/10 14h22
+NOTÍCIAS E FATOS · 30/10 15h21
 
-Pernas: noticias ok 15 novas (18 consultas; descartadas: 376 veículo fora da lista, 28 sem ativo, 4 teto) · cvm ok 0 novos de 16 (9 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 16 novas (18 consultas; descartadas: 361 veículo fora da lista, 28 sem ativo, 4 teto) · cvm ok 0 novos de 16 (9 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (2)
 
@@ -55,7 +55,32 @@ Fonte: SEC EDGAR 2026-10-30
 id: E04-AMZN-26000040-2026-10-30 · status: entregue
 
 
-## NOTÍCIAS COM MATERIALIDADE (14)
+## NOTÍCIAS COM MATERIALIDADE (16)
+
+[ATENÇÃO] E05 · AMZN · Watch Intel Tumbles on PC Outlook, AWS CEO on AI Spending and Growth
+Bloomberg · 30/10 14h45 · fonte única · licença: manchete
+Link: https://www.bloomberg.com/news/videos/2026-10-30/bloomberg-tech-10-30-2026-video
+Por que importa: troca no comando reabre a discussao de estrategia e de alocacao de capital
+Ativos: AMZN · INTC
+Como falar: 'saiu no Bloomberg: Watch Intel Tumbles on PC Outlook, AWS CEO on AI Spending and Growth; confirmar o número no texto antes de repassar'
+Fonte: Bloomberg 30/10 14h45
+id: E05-AMZN-4a0ba4eb3e-2026-10-30 · status: pendente
+
+[ATENÇÃO] E05 · VALE3 · O balanço da Vale foi bom ou ruim? Ação sobe mesmo com queda no lucro do 3º tri
+Exame · 30/10 14h31 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Vale: ação de maior peso do Ibovespa sobe após balanço do 3º tri (Photo Illustration by Piotr Swat/SOPA Images/LightRocket via Getty Images) Publicado em 30 de outubro de 2026 às 14h30.
+  – Última atualização em 30 de outubro de 2026 às 14h38.
+  – A Vale (VALE3) sobe na B3 nesta sexta-feira, 30, em mais um pregão negativo para o Ibovespa, que caminha para a quinta sessão seguida de queda.
+  – A alta vem um dia depois de a mineradora informar que lucrou US$ 1,26 bilhão no terceiro trimestre, 53% menos do que um ano antes.
+  – Por volta das 14h30 (horário de Brasília), os papéis VALE3 subiam 3,2%, a R$ 61,97, chegando a R$ 62,98 na máxima do dia.
+  – O BTG Pactual resumiu o resultado como "um trimestre fraco no geral", que atendeu às expectativas baixas do banco e do consenso.
+Link: https://exame.com/invest/mercados/o-balanco-da-vale-foi-bom-ou-ruim-acao-sobe-mesmo-com-queda-no-lucro-do-3o-tri/
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: VALE3
+Como falar: 'saiu no Exame: O balanço da Vale foi bom ou ruim? Ação sobe mesmo com queda no lucro do 3º tri; confirmar o número no texto antes de repassar'
+Fonte: Exame 30/10 14h31
+id: E05-VALE3-4ea78ab59a-2026-10-30 · status: pendente
 
 [ATENÇÃO] E05 · VALE3 · Vale não prevê dividendos extraordinários em 2026, diz CFO
 CNN Brasil · 30/10 13h24 · fonte única · licença: resumo
@@ -240,8 +265,22 @@ Fonte: Yahoo Finance 29/10 16h47
 id: E05-KO-57cc816b05-2026-10-29 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (101)
+## OUTRAS NOTÍCIAS (só manchete) (115)
 
+· ITUB4 Nem as eleições tiram o Itaú do radar: Genial vê potencial de alta de quase 30% (Estadao) https://www.estadao.com.br/einvestidor/onde-investir/nem-as-eleicoes-tiram-o-itau-do-radar-genial-ve-potencial-de-alta-de-quase-30/
+· AMZN Update: Equities Tumble Intraday Amid Tech Sell-Off Following Amazon, Intel Earnings (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/equities-tumble-intraday-amid-tech-180055421.html
+· BTC Why bitcoin held up better after the record Binance hack (CNBC) https://www.cnbc.com/2026/10/30/binance-hack-bitcoin-price.html
+· CVX Exxon, Chevron report massive profits as Trump brags energy companies are ‘making a freakin fortune’ (Fortune) https://fortune.com/2026/10/30/exxon-chevron-massive-profits-trump-brags-energy-companies-making-freaking-fortune-midterms/
+· AMZN Amazon earnings fall short amid tech sell-off, and Anthropic becomes SpaceX's top partner (Yahoo Finance) https://finance.yahoo.com/video/amazon-earnings-fall-short-amid-tech-sell-off-and-anthropic-becomes-spacexs-top-partner-174024326.html
+· BTC Why Bitcoin Is Down Today (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/why-bitcoin-down-today-173704991.html
+· AMZN Wall Street analysts like Amazon's AWS outlook (Yahoo Finance) https://finance.yahoo.com/technology/article/wall-street-analysts-like-amazons-aws-outlook-172030532.html
+· AMZN Amazon Web Services Set for Strong Performance Ahead Despite 'Disappointing' Third-Quarter Growth, Morgan Stanley Says (Yahoo Finance) https://finance.yahoo.com/technology/articles/amazon-services-set-strong-performance-171757942.html
+· INTC Why Intel Is Down Today (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/why-intel-down-today-170902245.html
+· MRVL Applied Optoelectronics Plunges 15%, Coherent Tumbles 13% as Hyperscaler Spending Fears Hit AI Optics Stocks; Lumentum and Marvell Sink 10% (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/applied-optoelectronics-plunges-15-coherent-165726137.html
+· AMZN Amazon and Intel Tank the AI Trade. The 1 Factor Linking Big Tech’s Underwhelming Earnings. (Barron's) https://news.google.com/rss/articles/CBMijwFBVV95cUxPVlJuS21nLVkwOXpfVnl2ZkJ3NjRpUVB0U25ZRXBnUWstQzVlN1hfa3ZLd0tNOUtwUTJYbkRWUUxIajZsY052NlI2Q21tY2tVSVFTS2ZiT25tcnRrMUsxOV9RQXNXU1h6UTdaMjlhTjYyZDhZclpKazJUcjdHekVWTTJkR2h1cmlKVWxTTUVrYw?oc=5
+· CVX Chevron (CVX) Reports Q3 Earnings: What Key Metrics Have to Say (Yahoo Finance) https://news.google.com/rss/articles/CBMihwFBVV95cUxQTnFsNDJmaGpYeUtvaHVwN0xxRmtHVThGNnZqSl94Q0VfSURtRFFWNXpPQU9Yd1RzMTg3dkFTaF9oU1NUSC1keUEzMS1TVWdtdFdMWml2Ukg5Z3o3Mnhuc3M1OEs5cXd6aXZtaGtWdWdOem5aQTdUanJ2LWZGRnZUYTJHNklDZHc?oc=5
+· AVGO Marvell Rumored to Buy Lumentum in Major Challenge to Broadcom: Counterpoint (TradingView (Reuters)) https://news.google.com/rss/articles/CBMizwFBVV95cUxNdEtnZFhvbENqWGpfb0NZQWpONl9EaFQwQ3JfTlhJRHcyWnJsRHlWMkZacXlSTkZMcjU1ck5fbE1MSkFCWGgtWWRicHRKZmtqaFZFd25FMkcySEtIQ29OUkZScnl2amxpelV5R3VHZTVKbHRKYzdhNElSQ0hlSXY5dXR4U2NSTnk3UnJrVVZlZnptZFVKMFRHMzZ4NDFkYmlKcTNfOFFORHAwbWUtS29seWRGMGZobk1qYTBHeVktZjIwTFlWampOd1VxNHl6YzQ?oc=5
+· MRVL Marvell deal for Lumentum won't be at a big premium - CNBC (TradingView (Reuters)) https://news.google.com/rss/articles/CBMiuwFBVV95cUxOR08yMWtUNkx4azM2eDhVQ1RWeE8zWjE1NGxhbHJjelRJV2Vpc1lGazJmUkVvT2V2bGFuUWstQ096b2c5UXlBTUR0ZHlWRHNVdXVBOV9MZjBlY1lWTzFkZ01oaUloYWxvaUlxQXF5UnBkRDVCbWVvMEN2a295Vk5GcGpvOS00eFdpRXFGZEJfZ3o1TUtRdXE5NGJHcVZLbF9BbWVtMUZ3RmRHNTBDaThnT05wZG9UTVFtdWFV?oc=5
 · VALE3 Os dois trunfos regulatórios que a Vale espera tirar do papel com o fim das Eleições (NeoFeed) https://neofeed.com.br/negocios/os-dois-trunfos-regulatorios-que-a-vale-espera-tirar-do-papel-com-o-fim-das-eleicoes/
 · AMZN Amazon, Intel Earnings Add Fuel to Tech Selloff (The Wall Street Journal) https://www.wsj.com/finance/stocks/ai-selloff-deepens-oil-jumps-and-crypto-falls-4703d21b
 · VALE3 Vale (VALE3): CFO prevê trégua nos custos no 4T26 e revela estratégia que já 'poupou' US$ 3 bilhões (Money Times) https://www.moneytimes.com.br/vale-vale3-cfo-preve-tregua-nos-custos-no-4t26-e-revela-estrategia-que-ja-poupou-us-3-bilhoes-bdap/
@@ -288,18 +327,4 @@ id: E05-KO-57cc816b05-2026-10-29 · status: linha
 · VALE3 Cerca de 10% da produção do mercado de minério de ferro está perdendo dinheiro, diz CEO da Vale (Valor Economico) https://valor.globo.com/empresas/noticia/2026/10/30/cerca-de-10percent-da-producao-do-mercado-de-minerio-de-ferro-esta-perdendo-dinheiro-diz-ceo-da-vale.ghtml
 · BTC Binance Hack: The Real Test For Bitcoin Comes Tonight And On November 1st (Cryptocurrency:BTC-USD) (Seeking Alpha) https://seekingalpha.com/article/4960216-binance-hack-the-real-test-for-bitcoin-and-ibit-comes-tonight-and-on-november-1st
 · VALE3 Vale considera improvável dividendos extraordinários neste ano, diz CFO (TradingView (Reuters)) https://br.tradingview.com/news/reuters.com,2026:newsml_S0N43N00P:0/
-· AMZN Microsoft and Amazon ‘Won’ With Cloud But Other Hyperscalers Should Celebrate (Yahoo Finance) https://news.google.com/rss/articles/CBMimAFBVV95cUxONjBUa3B5MzFxU0l0OFFvRXVhak1IUnVLZFNQLXNsM05LeGJBOVVjamJ0YVR5ZGgzVkoxMDlOM3AyZ0EtckhSRjhHM0dicHAzdDVjODBvR3UwakFMdmpVNjNWdzVzZERTcmpxTFk4dmFJSkc1VDQ5R0RfMzVtR2lFbDhuWk1fWWxycDVpS1I0MjFjbWlraXNNbw?oc=5
-· GOOGL Alphabet’s Post-Earnings Selloff Is The Best Buying Opportunity In Years (NASDAQ:GOOG) (Seeking Alpha) https://news.google.com/rss/articles/CBMisAFBVV95cUxNR09udjgtZkJ4UzdQbjZvWUg5ZUNIbVZONzJrODFwYUFnbGlVSTk3Y0FVRXluZU8yMWZ6T0Y5RW51OHdnNzU4Sk1uSUxrT2wxVVN2emo2ZE00eEYyemVKdWlZWDAwUDQxaE9EREV6QW1WYnNWOTVnMmZybmcyQllVbW1WdEJzbVdrckQzdnBKdjNmTktnYWdCWjBJMHdRVWVESnlKR3ltVUI1VHBEMm5LWA?oc=5
-· CVX Chevron Profit Nearly Triples as Refining Hits Record (TradingView (Reuters)) https://news.google.com/rss/articles/CBMiswFBVV95cUxOZHZXc2lNbGpmVDNWVXRqWk1TYXd5QmxkVk5ESFNHQVRoMmVBWTlDbVFKU1kwem53c2dRR0dvdzNVWmtJREVxUXc4a0p2YTI4VVVaQW91UklHYlI2eTZzNGI1dUpXVmVvcTlDR0RhcFZGaVlkMWRkNUdGX1JqMGw2TjdWVzRIMTZxY0Z4NWt6NHRhOEx5ZUZrY3dVY0tJOTBRNWlQY0lneVpZZWR2cHdDR2NEUQ?oc=5
-· BAC Bank of America Delivers Stark Warning on Apple Stock Ahead of Earnings (TradingView (Reuters)) https://news.google.com/rss/articles/CBMiywFBVV95cUxPaG1ZVnZiVXJzQk5leGk5cFZULUItR09qVHBfY0RrcnIzN0Nadkhic3NtQ3dTbDR3WE9yb2E3cDAyOEl5eVJJcWJNZ3ozM2NrVXM0TzFoQnMxRFhnMWVlR2RkcjlmUW9LenlrLXdMaDItaGZpQVMwd1VlTXZNeW9HVjNqQ1JDaEJpTDdrZUdtX2d3bm81ekgyQXpIYTZCZUVvZmJqUmRBYTZoMmthV25mdU5CUlFBMnhNMWVsQ3k1WE5HRElXQU0xX1plRQ?oc=5
-· AMZN Nasdaq hits near three-month low as Amazon, Intel deepen AI capex concerns (Reuters) https://news.google.com/rss/articles/CBMisAFBVV95cUxPblVtZktXRjdPbHJBWDM4WWJsV2RyMlhnOVFYRTZPc01udjZNZTVjeHdIN1dVY0w1M1NHbHpxNjV6Vm9jQ3FOUjBIaElyZEdSWWxycmNZdnJwNnBfdTJDc1FBMWVJZ19vR0s3Y1h2Uml2LThWc2NzQ2sxN3NnVzFEeGhvNnpPSElHSFRIQnJreHpCR2c3dnRQbEVYTDlJVjhzVVk3b1gxaFczMFhkb2NDSw?oc=5
-· MRVL Is Marvell Technology (MRVL) Cheap After Its Lumentum Deal Talks Sent Shares Lower? (Yahoo Finance) https://news.google.com/rss/articles/CBMipgFBVV95cUxQMXJJcXFOVHBHMDFPc3l1TkdSNE90ODRhSmZnY09lVDMyMXk3YV9NNzBGNm5tTTVXQUJZMncyU0VOM2pHRWlCbGUzNkhXaWk4YVhFS3RzUVl4QkZvbWlBdzA0ay1VR0MxVjhEc3N0LWNUdlk3X0VLemd1TkozelNLRXU4NVdidVF2MUcwc1V3X2NyRHpQV2lxaVNJak95MGpQY2hNb21R?oc=5
-· UST Treasury Yields Lower On the Month (TradingView (Reuters)) https://news.google.com/rss/articles/CBMijgFBVV95cUxOdUN4cmVHRUFnb0VwY3c4ZE1IcS1PYU9TWDJCNUtPTnd0aFh3OUdua0JxYzRxSWt5eVNwUDFGVW5VQXo3aEc2eGgwUEZ1RTVLN2JHLUN4dzZzWnVYX2RySnBtdWNVUWJURmJmUUJnVGVnNzlpQVk4MWNrX1NUSC1pSmhWQlN2ZjBqcXpGOEh3?oc=5
-· VALE3 Estamos bem posicionados para entregar projeção do ano, diz CEO Vale (Valor Economico) https://valor.globo.com/empresas/noticia/2026/10/30/estamos-bem-posicionados-para-entregar-projecao-do-ano-diz-ceo-vale.ghtml
-· VALE3 Vale registra alta de 66% no resultado do cobre e mantém produção dentro das metas para 2026 (Estadao) https://bluestudio.estadao.com.br/agencia-de-comunicacao/agencia-minera-brasil/vale-registra-alta-de-66-no-resultado-do-cobre-e-mantem-producao-dentro-das-metas-para-2026/
-· BAC Bank of America Delivers Stark Warning on Apple Stock Ahead of Earnings (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/bank-america-delivers-stark-warning-143709551.html
-· BTC Disappointing Tech Earnings Drag Down Stocks as Bitcoin Falls on Binance Hack (Bloomberg) https://www.bloomberg.com/news/newsletters/2026-10-30/stocks-and-bitcoin-drop-on-tech-earnings-crypto-s-biggest-ever-heist
-· DI Análise: Sem rumo fiscal claro no Lula 4, Copom enfrenta teste como única âncora da economia (Valor Economico) https://valor.globo.com/financas/noticia/2026/10/30/analise-sem-rumo-fiscal-claro-no-lula-4-copom-enfrenta-teste-como-unica-ancora-da-economia.ghtml
-· USDBRL Ibovespa tem 5º dia seguido de queda e dólar oscila acima de R$ 5,40 (Exame) https://exame.com/invest/mercados/ibovespa-tem-5o-dia-seguido-de-queda-e-dolar-oscila-acima-de-r-540/
-· INTC Intel CEO Warning Sends Dell Stock Sinking (Yahoo Finance) https://news.google.com/rss/articles/CBMimAFBVV95cUxOQkFJRmFuYzNwTUZ5Y0llclNuSkpiYXpDaVV1YjRlZkthOWgwOThYNk5JOUE1RzU5VlY0YTdMRWJxZTlKVnYzTm16UklIRlB6WnJQQ08tcDQxaWZuZEo2QklmZ0h2dS15UndGYm95OHIwZl9lU2FIMmZYN0h4WVptUlVnYjJpUmhaSVVlZmNleE15M2hFSG1sUQ?oc=5
-· (+41 manchetes; lista completa em eventos/noticias.json)
+· (+55 manchetes; lista completa em eventos/noticias.json)
