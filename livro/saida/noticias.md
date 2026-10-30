@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 30/10 13h47
+NOTÍCIAS E FATOS · 30/10 14h01
 
-Pernas: noticias ok 16 novas (18 consultas; descartadas: 354 veículo fora da lista, 30 sem ativo, 5 teto) · cvm ok 0 novos de 16 (9 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 9 novas (18 consultas; descartadas: 391 veículo fora da lista, 33 sem ativo, 0 teto) · cvm ok 0 novos de 16 (9 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (2)
 
@@ -240,8 +240,17 @@ Fonte: Yahoo Finance 29/10 16h47
 id: E05-KO-57cc816b05-2026-10-29 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (77)
+## OUTRAS NOTÍCIAS (só manchete) (86)
 
+· VALE3 Minas da Vale em Carajás encolhem 43% e decreto das cavernas espera Lula (Exame) https://exame.com/invest/mercados/minas-da-vale-em-carajas-encolhem-43-e-decreto-das-cavernas-espera-lula/
+· NVDA It’s Time to Revisit The Nvidia Vs. AMD Debate (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/time-revisit-nvidia-vs-amd-164533739.html
+· EQTL3 Equatorial (EQTL3) eleva energia injetada em 9,7% no 3T26; veja detalhes (Suno Noticias) https://www.suno.com.br/noticias/eqtl3-energia-injetada-3t26-go/
+· VALE3 Volumes e custos do minério de ferro e da VBM estão dentro do esperado, afirma Vale (Valor Economico) https://valor.globo.com/empresas/noticia/2026/10/30/volumes-e-custos-do-minerio-de-ferro-e-da-vbm-estao-dentro-do-esperado-afirma-vale.ghtml
+· AMZN Amazon’s Earnings Dip: One Furlong in a Long Race (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/amazon-earnings-dip-one-furlong-164401220.html
+· AMZN Nasdaq hits near three-month low as Amazon, Intel rattle AI trade (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/nasdaq-futures-sink-amazon-intel-114737736.html
+· CVX Chevron Stock Rises as Oil Price Surge Fuels Earnings Beat (Barron's) https://www.barrons.com/articles/chevron-earnings-stock-price-caffbb66
+· INTC Intel Just Warned It Probably Won’t Generate Free Cash Flow Next Year (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/intel-just-warned-probably-won-111810536.html
+· BBDC4 Ibovespa fecha abaixo de 170 mi pontos com Bradesco entre pressões (UOL Economia) https://economia.uol.com.br/noticias/reuters/2026/10/29/ibovespa-fecha-abaixo-de-170-mi-pontos-com-bradesco-entre-pressoes.htm
 · GOOGL Google lost nearly half a trillion this week. Here's how Mike Khouw is trading it (CNBC) https://www.cnbc.com/2026/10/30/google-lost-about-half-a-trillion-this-week-how-mike-khouw-trades-it-.html
 · EQTL3 Equatorial tem alta de 6% no mercado de distribuição no 3T26 (CanalEnergia) https://www.canalenergia.com.br/noticias/53359211/equatorial-tem-alta-de-6-no-mercado-de-distribuicao-no-3t26
 · BTC Bitcoin Dips Below $80,000. Here Are the 5 Factors That Are Impacting the Price of Bitcoin Right Now. (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-dips-below-80-000-161500549.html
@@ -293,13 +302,4 @@ id: E05-KO-57cc816b05-2026-10-29 · status: linha
 · INTC Intel issued weaker-than-expected guidance. Analysts are losing confidence in the stock (CNBC) https://www.cnbc.com/2026/10/30/intel-guidance-analyst-price-targets.html
 · GOOGL Alphabet Shares Plunge. Why Now Is a Great Time to Buy the Dip. (Yahoo Finance) https://news.google.com/rss/articles/CBMimwFBVV95cUxOLXZLRVNkdjktbHYzSkdIeWJDOXYzNnVzUnVDRFNOZHhkcXVtaWtUWHRzdk9hU0JZdHhsSExCUWxfdVY3c0Q1NWhhT0gtaUtVOGZ1elhIUGVOZUtIY2g3T1YyZk5iamx4LUxua3ZFQVVla1FLdVpxT1p1T29LZjZESEVoSGtfNjRfdl9TbThaZU5HOFBJZWNscXRmaw?oc=5
 · AMD AMD’s stock slides after Intel earnings reveal two big issues (MarketWatch) https://news.google.com/rss/articles/CBMipgFBVV95cUxQSG1ER3NBSmVWMHJlelZ0akVNa1FTVDFlM1J3b2ZMOWZXanV1cVdDblB6dDlHRmJYZDRVZ2JKWTRfRDIyTkZaNENTZVQ2MGFJUjk2X0ZfU2ZTVjZEcm02VlJZXzQyYmlVdHY2Mm5BaEVvUmN0Tm1rQUF2NWlIQTdLMFpWNVl3QUNvX05MRlg0cmw5d1JQWjAxeUtDeHpVandzY2tDZGxn?oc=5
-· VALE3 Vale no 3T26: analistas veem até 56% de alta mesmo após forte queda do lucro; o que fazer agora (Estadao) https://news.google.com/rss/articles/CBMi5gFBVV95cUxOWVFlTnFuVFRkNlltMlM3MnZMMXNGSGFfbFo3eXdVZVlQTkVrOExrZ1Z0MkVkYWVmdGhpdEQ1REdMaUFIaXYwLTJ4RVdZR1BLaEZtbTRNM0pQMEZhWWZqQ0hQWXU0b3ZLQ1FiZUlNa29XbnZoRENTNWM5ODIyQTFjc0lSSkRPNmF0N29ObllodVQ3Mmd0OWNzU0Y5ajdzZFdqSzJNNEtuRDNPQVVGN29xaEpvNG0yclhZMUN0d3pRcXp4WkhSVnBfOXZ3VlRtM21MdVhlZmZXVDhMOWl1M3MxUDgzUVBfd9IB6wFBVV95cUxOdkJERGZ1Y0M1WmxGWEs2dFNvUW14bnhEZG1hTjBqTHRlRURGazRqUFhNNHlkczU4ZjRnN0ppandEMll6bDNOUkZ3TEo1V0ZnU2pMOFJrVDBDdWdWUi1mOG5yMFoxN3pyYnVDMXcxZDNZZmZfdWoxd2x2OGU1ak9MdndERFJYcm1RdC04WGZrd1JvR3Z5UVZyMHhJOEROYVlMaEpPUUQydkQtQUQ3Y0h1cU9ISW16SVo2Ny1ySWhCZldRSzJJOHh1ZUFjX2VzV3doMlU4OXVHMC1HVExsVzRHTFFjR3BUa3JieEtr?oc=5
-· BTC Binance Hack Sparks Bitcoin Sell-Off, $1.6B In Liquidations: Exchange Uncovers ‘Additional Points Of Breach’ (Yahoo Finance) https://news.google.com/rss/articles/CBMingFBVV95cUxOenVLQkoyY3R3bzNXMlNMQ29yYnZpeW91VUl6cnpPR1JtSDMybVdiVE1qY2txdzU5ZXVrUEQ3NUFqaldEZlBjcXBORnlTR3BnMmhZQW40TU5GZ01DSEVaT0M0ZWg2dldzcENVSkhEU1RjVURrZWhsYmVpdmRraXRLZFNmTlJEVjRaYkxCUHZibzdyRkFpN3RBM1hLeko0UQ?oc=5
-· GOOGL Amazon Slides 7% as Earnings Miss and AI Spending Turn Free Cash Flow Negative; Meta Falls 2%, Alphabet Dips, Walmart Gains 2% (Yahoo Finance) https://news.google.com/rss/articles/CBMimgFBVV95cUxQOU9LUXBsMUFQb3VrTDB4NEYzMGZRRm5fZjRfZEc5YVRVNWRXNDl5T0x2UURmWXpic254TjlCSFVXejFSNUFjTDR6SElDbVlwdkk4dHVvYm9YMzhhM0xRMUlfZW1EZ3BJSXJ0MGVTZzZCWm5vMVVoSjZ3cDRSN1JsN3pOUTJvTXdhazJpNVo1SnVYMVczNTFqUzRB?oc=5
-· AMD AMD Earnings Preview: The Bull Case Is Largely Priced In (NASDAQ:AMD) (Seeking Alpha) https://news.google.com/rss/articles/CBMinAFBVV95cUxON3lGMDBoeWdCeklWb0RtZGxfSHZMb29uUTUxM1Q5dHgxOWxiaWpOak42R0Q2NzVWMXozbmFKWG5UMmlsOTNQai1aT3l6a1o3UzhXeFZKRFpMTWJwbDg3WnZaUS1DbTNDdHR4ZlRxMi1pVE51QktWQ0Vvay0zZW1HUDE5eFZJVlBPS1dhLVV4Ym1jXzdySDB6ZlJmOFk?oc=5
-· USDBRL Dólar abre em alta em dia de disputa pela Ptax e após dados do mercado de trabalho no Brasil (Folha de S.Paulo) https://news.google.com/rss/articles/CBMi3AFBVV95cUxQN1pGcTZTdkFWVV9tZDd3eUwycGdIZVpiOG9MMGgwVUI3TU1ZNlVwaHBFb1cyS01WbTlidmwwZnhDTkI1R2hiOHlleTlwd1Bmblo5OWl0WEFIbEZOV0MxeWZNakIzTk9nMGg1MUhKTHRvZWhuS3pKY1AwUXFOcXF4Q2d2cXlzNEw1Y29LdGppazRwYTFiMUtjeWk1ZGJXcXZBOVlWTEJMYlp4ZjdWeVpjeDFpa0FicmxxeWYxVURrYmZQamNPN2RRYUdxTDU1S1J0VU9ybEJVYVlmOThx?oc=5
-· BTC Bitcoin Price Plummets: Why a Binance Hack Is Shaking Crypto Today (Barron's) https://news.google.com/rss/articles/CBMigAFBVV95cUxPRHEtek1QR0VDQnZJV2NES0hQdDlrZlF6ZlI2WDhUS3pRd3lRWXA5T1g0NmVxOG9rN3BFUXhhYjJxeXBHV1NRRGRUTS0wVG1xSUpZVTdFOVByT0RDaHp4U3JRYm9YTzV1X1Jtc0JVV1dESjJ6b0ZRaEhpaktqOWNzTA?oc=5
-· USDBRL Ibovespa cai junto com exterior e dados de desemprego no radar; dólar sobe (CNN Brasil) https://news.google.com/rss/articles/CBMipAFBVV95cUxQZnZDTFYzTGxiNnhXcTFxR1RHNnNKRFUzWVFEMjhSZDhSVzUwMGxMdzk0allUb3NUMWY1N2I3R1lUSDZMNmxYQ2h4c2NESXdueWtpSTJMa3c1QXpDa05IQUt0R05UTmZiVkhUV1IxQjItbjVkVXVweUF2TG1WbFVRTm91d1Y5S1BUNHQydUhlN2VmdjVNSV9menRWYVl1aEs0d2Jobw?oc=5
-· AMZN Nasdaq set for sharp drop as Amazon, Intel amplify AI spending worries (Yahoo Finance) https://news.google.com/rss/articles/CBMingFBVV95cUxPUTZNOWZiRzFmQUxta25VWEhIT0dYTFVnZ2VLUWlNTDlleE9hTmF6ODNaeXRCSnRXMEdOVENiTVQtNndFUUNWZDdmY0M0UUVaUVR6c0tMdktWcmxJMDItT3dPbl8tcGhSSm0wZ2lRa0RjLW81Ri1RTUlRX0tOUDRHakNwUDdIVFZIc1hMUVBrVi1CY0RRNU9xZmZVU202QQ?oc=5
-· INTC Intel faces a 'multi-quarter' issue balancing PC weakness with AI data-center gains: Vivek Arya (CNBC) https://www.cnbc.com/video/2026/10/30/intel-faces-a-multi-quarter-issue-balancing-pc-weakness-with-ai-data-center-gains-vivek-arya.html
-· (+17 manchetes; lista completa em eventos/noticias.json)
+· (+26 manchetes; lista completa em eventos/noticias.json)

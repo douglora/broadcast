@@ -1,6 +1,6 @@
 ALERTAS · intradia
 
-[ATENÇÃO] E05 · VALE3 · Vale não prevê dividendos extraordinários em 2026, diz CFO
+(pendente de slot anterior) [ATENÇÃO] E05 · VALE3 · Vale não prevê dividendos extraordinários em 2026, diz CFO
 CNN Brasil · 30/10 13h24 · fonte única · licença: resumo
 Trechos (licença resumo: reescrever, não colar):
   – A Vale não prevê o pagamento de dividendos extraordinários em 2026, diante das incertezas geopolíticas esperadas para o próximo ano.
@@ -14,10 +14,9 @@ Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir
 Ativos: VALE3
 Como falar: 'saiu no CNN Brasil: Vale não prevê dividendos extraordinários em 2026, diz CFO; confirmar o número no texto antes de repassar'
 Fonte: CNN Brasil 30/10 13h24
-Push: intradia: 2 alertas de atenção — E05 VALE3, E05 LITE · detalhe na sessão
 ids: E05-VALE3-753d8f3506-2026-10-30
 
-[ATENÇÃO] E05 · LITE · Rosenblatt raises Lumentum stock price target on acquisition prospects
+(pendente de slot anterior) [ATENÇÃO] E05 · LITE · Rosenblatt raises Lumentum stock price target on acquisition prospects
 Investing.com · 30/10 06h22 · fonte única · licença: manchete
 Link: https://www.investing.com/news/analyst-ratings/rosenblatt-raises-lumentum-stock-price-target-on-acquisition-prospects-93CH-4986234
 Por que importa: aquisicao ou venda muda alavancagem, mix de receita e o multiplo; olhar preco pago e financiamento
@@ -27,20 +26,15 @@ Fonte: Investing.com 30/10 06h22
 ids: E05-LITE-3417c23ff1-2026-10-30
 
 Info (só linha no Fechamento):
-· E05 GOOGL · Google lost nearly half a trillion this week. Here's how Mike Khouw is trading it
-· E05 EQTL3 · Equatorial tem alta de 6% no mercado de distribuição no 3T26
-· E05 BTC · Bitcoin Dips Below $80,000. Here Are the 5 Factors That Are Impacting the Price of Bitcoin Right Now.
-· E05 BTC · Bitcoin short-term holders sell at loss for first time in 72 days
-· E05 VALE3 · Vale estuda reduzir volumes de minério em 2027 para preservar margens
-· E05 INTC · Intel: 3 Key Takeaways for Long-Term Investors
-· E05 NVDA · Nvidia’s AI Dominance Could Have Further to Run
-· E05 VALE3 · Vale: Strong cash generation and hedges cushioned weaker iron ore earnings as growth projects advanced
-· E05 BTC · COIN Stock Sinks To Over 2-Year Low As Bitcoin Sinks Below $77K, Wall Street Cuts Price Targets
-· E05 BAC · Intel's Turnaround Delayed by PC Weakness, Foundry Challenges, BofA Says
-· E05 ALUP4 · Axia negocia venda de participação em transmissora para Alupar
-· E05 BTC · MSTR Q3 Earnings Beat Estimates on Bitcoin Gains Despite Revenue Miss
-· E05 USDBRL · Ibovespa recua e perde os 170 mil pontos com incertezas das contas públicas; dólar sobe a R$ 5,42
-· E05 GOOGL · Alphabet’s Post Earnings Drop Looks Increasingly Mispriced (NASDAQ:GOOG)
+· E05 VALE3 · Minas da Vale em Carajás encolhem 43% e decreto das cavernas espera Lula
+· E05 NVDA · It’s Time to Revisit The Nvidia Vs. AMD Debate
+· E05 EQTL3 · Equatorial (EQTL3) eleva energia injetada em 9,7% no 3T26; veja detalhes
+· E05 VALE3 · Volumes e custos do minério de ferro e da VBM estão dentro do esperado, afirma Vale
+· E05 AMZN · Amazon’s Earnings Dip: One Furlong in a Long Race
+· E05 AMZN · Nasdaq hits near three-month low as Amazon, Intel rattle AI trade
+· E05 CVX · Chevron Stock Rises as Oil Price Surge Fuels Earnings Beat
+· E05 INTC · Intel Just Warned It Probably Won’t Generate Free Cash Flow Next Year
+· E05 BBDC4 · Ibovespa fecha abaixo de 170 mi pontos com Bradesco entre pressões
 · T13 VIX cruzou 20: 20,2 (+17% no dia)
 
 Suprimidos pelo teto (viram linha do Fechamento): T13-VIX-vix20-2026-10-30 (teto de atenção)
@@ -62,6 +56,6 @@ Alertas do dia (todos, com status):
 · entregue  E05 CVX — CVX · Earnings Snapshot: Chevron beats Q3 EPS and revenue estimates; declares $1
 · entregue  E05 INTC — INTC · Intel Shares Plunge 25% as Weak Fourth-Quarter Outlook Overshadows Strong
 · entregue  E05 INTC — INTC · Intel plunges on a major guidance miss. What went wrong — and how to proc
-· linha     F01 USDBRL — Real cai: USD/BRL 5,4252 (+8,7% em 5 sessões) (parcial, intradia)
-· (+87 notícias só manchete, em noticias.md)
+· linha     F01 USDBRL — Real cai: USD/BRL 5,4327 (+8,9% em 5 sessões) (parcial, intradia)
+· (+96 notícias só manchete, em noticias.md)
 
