@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 30/10 13h00
+NOTÍCIAS E FATOS · 30/10 13h47
 
-Pernas: noticias ok 17 novas (18 consultas; descartadas: 365 veículo fora da lista, 26 sem ativo, 21 teto) · cvm ok 0 novos de 16 (9 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 16 novas (18 consultas; descartadas: 354 veículo fora da lista, 30 sem ativo, 5 teto) · cvm ok 0 novos de 16 (9 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (2)
 
@@ -55,7 +55,32 @@ Fonte: SEC EDGAR 2026-10-30
 id: E04-AMZN-26000040-2026-10-30 · status: entregue
 
 
-## NOTÍCIAS COM MATERIALIDADE (12)
+## NOTÍCIAS COM MATERIALIDADE (14)
+
+[ATENÇÃO] E05 · VALE3 · Vale não prevê dividendos extraordinários em 2026, diz CFO
+CNN Brasil · 30/10 13h24 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – A Vale não prevê o pagamento de dividendos extraordinários em 2026, diante das incertezas geopolíticas esperadas para o próximo ano.
+  – A informação foi dada nesta sexta-feira (30) pelo vice-presidente executivo de Finanças e Relações com Investidores da companhia, Marcelo Bacci, durante teleconferência sobre os resultados do terceiro trimestre.
+  – "Preferimos ficar do lado conservador para lidarmos com as medidas incertas", afirmou Bacci.
+  – A Vale mantém em aberto um programa de recompra de até 100 milhões de ações, aprovado pelo Conselho de Administração em julho deste ano.
+  – "Temos um programa de recompra em aberto, para recomprar até 100 milhões de ações.
+  – Isso dá oportunidade para recomprar", disse.
+Link: https://www.cnnbrasil.com.br/infra/vale-nao-preve-dividendos-extraordinarios-em-2026-diz-cfo/
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: VALE3
+Como falar: 'saiu no CNN Brasil: Vale não prevê dividendos extraordinários em 2026, diz CFO; confirmar o número no texto antes de repassar'
+Fonte: CNN Brasil 30/10 13h24
+id: E05-VALE3-753d8f3506-2026-10-30 · status: pendente
+
+[ATENÇÃO] E05 · LITE · Rosenblatt raises Lumentum stock price target on acquisition prospects
+Investing.com · 30/10 06h22 · fonte única · licença: manchete
+Link: https://www.investing.com/news/analyst-ratings/rosenblatt-raises-lumentum-stock-price-target-on-acquisition-prospects-93CH-4986234
+Por que importa: aquisicao ou venda muda alavancagem, mix de receita e o multiplo; olhar preco pago e financiamento
+Ativos: LITE
+Como falar: 'saiu no Investing.com: Rosenblatt raises Lumentum stock price target on acquisition prospects; confirmar o número no texto antes de repassar'
+Fonte: Investing.com 30/10 06h22
+id: E05-LITE-3417c23ff1-2026-10-30 · status: pendente
 
 [ATENÇÃO] E05 · AMZN · Top Midday Stories: Intel Shares Plummet After Q3 Revenue Miss, Weak Guidance; Amazon Q3 EPS, Revenue Miss Expectations, Shares Fall
 Yahoo Finance · 30/10 12h47 · fonte única · licença: resumo
@@ -64,7 +89,7 @@ Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; 
 Ativos: AMZN · INTC
 Como falar: 'saiu no Yahoo Finance: Top Midday Stories: Intel Shares Plummet After Q3 Revenue Miss, Weak Guidance; Amazon Q3…; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 30/10 12h47
-id: E05-AMZN-4c25685f0e-2026-10-30 · status: pendente
+id: E05-AMZN-4c25685f0e-2026-10-30 · status: entregue
 
 [ATENÇÃO] E05 · JPM · JPMorgan Raises NII Outlook: Is JPM Stock Too Expensive?
 TradingView (Reuters) · 30/10 09h30 · fonte única · licença: manchete
@@ -73,7 +98,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: JPM
 Como falar: 'saiu no TradingView (Reuters): JPMorgan Raises NII Outlook: Is JPM Stock Too Expensive?; confirmar o número no texto antes de repassar'
 Fonte: TradingView (Reuters) 30/10 09h30
-id: E05-JPM-f6efb4c891-2026-10-30 · status: pendente
+id: E05-JPM-f6efb4c891-2026-10-30 · status: entregue
 
 [ATENÇÃO] E05 · TSLA · Rivian Gains 5% as R2 Ramp Drives Raised Delivery Outlook; Tesla Falls 3%, Lucid Slides 2%, Ford Eases
 Yahoo Finance · 30/10 10h57 · fonte única · licença: resumo
@@ -215,8 +240,22 @@ Fonte: Yahoo Finance 29/10 16h47
 id: E05-KO-57cc816b05-2026-10-29 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (63)
+## OUTRAS NOTÍCIAS (só manchete) (77)
 
+· GOOGL Google lost nearly half a trillion this week. Here's how Mike Khouw is trading it (CNBC) https://www.cnbc.com/2026/10/30/google-lost-about-half-a-trillion-this-week-how-mike-khouw-trades-it-.html
+· EQTL3 Equatorial tem alta de 6% no mercado de distribuição no 3T26 (CanalEnergia) https://www.canalenergia.com.br/noticias/53359211/equatorial-tem-alta-de-6-no-mercado-de-distribuicao-no-3t26
+· BTC Bitcoin Dips Below $80,000. Here Are the 5 Factors That Are Impacting the Price of Bitcoin Right Now. (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-dips-below-80-000-161500549.html
+· BTC Bitcoin short-term holders sell at loss for first time in 72 days (TradingView (Reuters)) https://www.tradingview.com/news/cryptobriefing:63a3d5ff8094b:0-bitcoin-short-term-holders-sell-at-loss-for-first-time-in-72-days/
+· VALE3 Vale estuda reduzir volumes de minério em 2027 para preservar margens (UOL Economia) https://economia.uol.com.br/noticias/redacao/2026/10/30/vale-avalia-reduzir-volumes-de-minerio-em-2027-para-preservar-margens.ghtm
+· INTC Intel: 3 Key Takeaways for Long-Term Investors (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/intel-3-key-takeaways-long-160701862.html
+· NVDA Nvidia’s AI Dominance Could Have Further to Run (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/nvidia-ai-dominance-could-further-160328604.html
+· VALE3 Vale: Strong cash generation and hedges cushioned weaker iron ore earnings as growth projects advanced (TradingView (Reuters)) https://www.tradingview.com/news/urn:summary_document_transcript:quartr.com:4392569:0-vale-strong-cash-generation-and-hedges-cushioned-weaker-iron-ore-earnings-as-growth-projects-advanced/
+· BTC COIN Stock Sinks To Over 2-Year Low As Bitcoin Sinks Below $77K, Wall Street Cuts Price Targets (Yahoo Finance) https://news.google.com/rss/articles/CBMikgFBVV95cUxOTnJOWWo2MnhST09xTUJMSExCZVZxREdnd2ZMSE1ERHNJVVpxSTRybEpodmNZaXgtY0U5SV8yaS13Zm9rbDJZWThLTjJYeWNZRmQyNVFUcm1mZ3BrTUJnYzBMUldjeU9tUTFVT0lVcWU2WDFVTlFRR3J4N1lTMUtxbnhOQ1JHTmZBMEpJMzU5VGs3UQ?oc=5
+· BAC Intel's Turnaround Delayed by PC Weakness, Foundry Challenges, BofA Says (Yahoo Finance) https://news.google.com/rss/articles/CBMingFBVV95cUxPQmhya1o4c3U2anZiQUVoUnYtLVljWVhzRzh4UXZGN1ZXUTNoVGdrbnQ0bUJWVWdjRW9WMFItQVVMcUlfWjE1VWd2dzBMOE13TlR5MTBVdXN3dnFZdFN3U1dBRGxTU25yd05JM2lCM0p0QWdBUW5sX296ampYSGh2NjM4M2swZksxTnF1aXVOTFZ2SlUxb2pFOGdEbWJYQQ?oc=5
+· ALUP4 Axia negocia venda de participação em transmissora para Alupar (UOL Economia) https://news.google.com/rss/articles/CBMivAFBVV95cUxPQjl6TVY1OHV6NHphZGd3Z3hxRUV6X0lHRTVhNkltWXd1VWRnV3R3QUxHSEJGMlY1dE5pWk9QYUZ2cnFYZV82anRkblRnamoySDhSMlJkNk1vVWNxcWlLUHc3WVJRNjBsVExpYnUtTWdBZGhlMmUxM0JwYjZScFNKak5MTHl4bTF1RmY0blh2SVFYbFRTUGJ2RXVzc0xhOEdfZ0RxU25IeVZLZS1yV1NpdWhEdGZLVDZrMU9qSA?oc=5
+· BTC MSTR Q3 Earnings Beat Estimates on Bitcoin Gains Despite Revenue Miss (TradingView (Reuters)) https://news.google.com/rss/articles/CBMiwwFBVV95cUxOQ21oeU1yamRVd0EyLW10MW8zUURabmVJS1RtemhjaDJid0Qzek1ONmMxZXRXTk5CbVZ6S2tuSEpQWW9HQ2Yzc2MzT042QWdtazZkdHhlRGV4cXhMdWtyQVpuWkZxVElROWU4RmF5YmRxTkJFdUd0ZE9DOVl1MzdDbkE0UDNoSkw1dXhnNndFdDJrb3l0ODVnTEZJS2xZWXFQdUtTQndZdmxiYy1BbDBFRTBLVi1mUWFUdGNXMlR6RUVwQTg?oc=5
+· USDBRL Ibovespa recua e perde os 170 mil pontos com incertezas das contas públicas; dólar sobe a R$ 5,42 (Estadao) https://news.google.com/rss/articles/CBMi5wFBVV95cUxNU1NaalVPVVl3NkoxSF92LTB2czlNUE5lejZ4SGpDZUFjTzhRQWRlQ2lxWmxFamRUcVFONUY5em41Mm5XZlFVaEVTY2xjcW9remtCdkc4UzdqRTlXNlJYN3VuVWdSbEtwbTBSdjNneGx3S0cxdmh5N0k5d2xvN2cwUnJPdGJCajduemFzUHZjODJrZVYtVlpab2UwYXlHT3JrOVFIa3ZwWXpkbnZndWt4SkFfcmZDNkRXNFFVTU1YV25uaWxNMGZtZWE5TGN3Uk52bnV6OENZNDZvZnRISmE3RHItd1dFSmfSAewBQVVfeXFMTmlNTmxGYVc4X0M3T3lieENqTWI5c2ZYYWRuX3ZXZEZHU2V1dF9SRnktd05WdkZaOWtHNHhhOC04bThmcHdHclpTYkhCVmJGWmVVaXNXSE9MUG1MQmpxc1VQRG81QmxyQ3J2RzRoN3YtQTNmYUZyWFgzYXNkRjFsS1J3OS11Y0gzeHBEdnlFRU1RZjBaV09LVUFIUW1KNEVtLWxjRWJqSGRtRFI4RkQxZzk0aVpNNzVhS25rWFdmWE1POVc3UndBWnllbXEyX3hGZTl1amVqYTc5YklPckd5RGNMVU5tWWZVMFA0Y1g?oc=5
+· GOOGL Alphabet’s Post Earnings Drop Looks Increasingly Mispriced (NASDAQ:GOOG) (Seeking Alpha) https://news.google.com/rss/articles/CBMingFBVV95cUxPQmVxR0lQWW4xdzREYU5nZGpLWVhoZGdUTUxZcjRRemdlM1lhZzZkODZMM2E5dkNabWlvU0M3aXh2LUN0Zjh3djFXRjhuTV9JQ21hZ1BHc0VBMTBYbTRiNFFKTVFnUFpGQ3pFbV9Nam5DbVk1ajlMcWhrYWgxVnlNRWFBalFibHh0UWVDMlhXQWNpX1lTSHk0ejh3NXZmUQ?oc=5
 · VALE3 VALE3: Queda expressiva das ações dá oportunidade de recomprar, diz CFO (InfoMoney) https://www.infomoney.com.br/mercados/vale3-vale-balanco-3t26-teleconferencia-coletiva/
 · VALE3 Ações da Vale (VALE3) sobem forte após 'call' com perspectiva mais positiva sobre câmbio e metais (Valor Economico) https://valor.globo.com/financas/noticia/2026/10/30/acoes-da-vale-vale3-sobem-forte-apos-call-com-perspectiva-mais-positiva-sobre-cambio-e-metais.ghtml
 · GOOGL For Google, the Economics of AI Mode Look Shaky (Bloomberg) https://www.bloomberg.com/news/articles/2026-10-30/google-stock-hammered-after-earnings-raise-ai-revenue-concerns
@@ -263,18 +302,4 @@ id: E05-KO-57cc816b05-2026-10-29 · status: linha
 · USDBRL Ibovespa cai junto com exterior e dados de desemprego no radar; dólar sobe (CNN Brasil) https://news.google.com/rss/articles/CBMipAFBVV95cUxQZnZDTFYzTGxiNnhXcTFxR1RHNnNKRFUzWVFEMjhSZDhSVzUwMGxMdzk0allUb3NUMWY1N2I3R1lUSDZMNmxYQ2h4c2NESXdueWtpSTJMa3c1QXpDa05IQUt0R05UTmZiVkhUV1IxQjItbjVkVXVweUF2TG1WbFVRTm91d1Y5S1BUNHQydUhlN2VmdjVNSV9menRWYVl1aEs0d2Jobw?oc=5
 · AMZN Nasdaq set for sharp drop as Amazon, Intel amplify AI spending worries (Yahoo Finance) https://news.google.com/rss/articles/CBMingFBVV95cUxPUTZNOWZiRzFmQUxta25VWEhIT0dYTFVnZ2VLUWlNTDlleE9hTmF6ODNaeXRCSnRXMEdOVENiTVQtNndFUUNWZDdmY0M0UUVaUVR6c0tMdktWcmxJMDItT3dPbl8tcGhSSm0wZ2lRa0RjLW81Ri1RTUlRX0tOUDRHakNwUDdIVFZIc1hMUVBrVi1CY0RRNU9xZmZVU202QQ?oc=5
 · INTC Intel faces a 'multi-quarter' issue balancing PC weakness with AI data-center gains: Vivek Arya (CNBC) https://www.cnbc.com/video/2026/10/30/intel-faces-a-multi-quarter-issue-balancing-pc-weakness-with-ai-data-center-gains-vivek-arya.html
-· INTC Intel warning sparks chip rout as PC weakness clouds turnaround (Reuters) https://www.reuters.com/business/intel-warning-sparks-chip-rout-pc-weakness-clouds-turnaround-2026-10-30/
-· AMZN Amazon shares are tumbling after third-quarter earnings miss. Analysts say buy the dip (CNBC) https://www.cnbc.com/2026/10/30/amazon-earnings-analysts-stock.html
-· PETR4 Petrobras anuncia nova descoberta de petróleo na Foz do Amazonas (Agencia Brasil) https://agenciabrasil.ebc.com.br/radioagencia-nacional/geral/audio/2026-10/petrobras-anuncia-nova-descoberta-de-petroleo-na-foz-do-amazonas
-· PETR4 Vale, Usiminas, CSN, Braskem, Petrobras e mais ações para acompanhar hoje (InfoMoney) https://news.google.com/rss/articles/CBMirAFBVV95cUxQbTRtZ1Vjc1NCWEZ6Y1JOd3piekFHM193TFZpSTU0b0FBNW1EUWxCNVJ0ZllKTnZ4eS1VODZHT3R6ZVRmRTFnbThDeFE3RzluMzBXLW8wN1dCTV83MjdOTzR3bFRXMlQzd3ZLSkx1T2hCQjhPWjJZTVJldkZ2S1Bqakxtb010dFlGNDhHZURjeWo3WDBhY3FSTUFEd3VmTW1ydm5CbThKdjh0NW9t0gGyAUFVX3lxTFBsYUhCSDItY202Q25iOHJUdndTVWFPb1ktX1BvMTBacWtRbk5JZVVYaUw2VHY5dDZ4b3hZT2tfQjFSVVFXWDVsWUJfcFE0NnlGX1lhVmt1ZnpPaHMxdHctSGNTUVRWclQ1aks4STBPXzQ5Q2hSV3VfaUpCQXBwYkR6UHk2cVRORGhxQmZDV1BaeUZqTnFVTG80U181UVZTTXU2S1k4SXVmX3pndnktdTE2WHc?oc=5
-· CVX WRAPUP Exxon, Chevron earnings propelled by war-driven refining surge (Reuters) https://news.google.com/rss/articles/CBMivAFBVV95cUxON2JIcGhXLURlX1ZHUDVac0IwV1BuN1puU1ljMVFoMUJPNWtZQ2FFdEVMY1ZoZ3pENFUtZEpXZ0ZRU2ZLTFVobHd2XzRiaUxuRFRESXVYNm9zNUUxLWliR1A0RHpTUlNjSUxOazBFSzFvUS1HVWVJX1VGeU41WkxDSjlLTHlQX0dEd1NqUzNna0dkMEZBYmZEd1JZaHhuVElEZFBLZFR0YVQ4V3BxVkhLbGxOMzlRWjU1RmZzRA?oc=5
-· INTC Intel Sees PC Market Slowdown, $300 Million Revenue Hit From Israel Plant Shutdown (Yahoo Finance) https://news.google.com/rss/articles/CBMimgFBVV95cUxNUC01c3M1VkJnNXhoYWc5Q29NQl9fdTBLaEI0UHU2WkZIQmZ3SmN6Q1dZRk82UHl1Vk5lVW50RHN2Q2VZNnRkeVVRSTlTLWg3OXA3bDhCckQwVlJBQ1g2Y2JUZTlHQ2h6RkZQOFh0LVIxVDQxZXJDUWZBTkNyY2hsWDZBQXl0SlRjanhLb05oQ2ZHS1VTNjBPY1R3?oc=5
-· MELI34 A disputa no balcão da farmácia: CEO da Pague Menos abre o jogo sobre o Mercado Livre (NeoFeed) https://news.google.com/rss/articles/CBMiuAFBVV95cUxPSHpMbVRLSkJYZ2JiWlJYTW9uMXdUSUtzV3Yyc1ZMNy14WVI3RHJ6RzNoZkFYUndSc3NBa0x6WWdfTDBCNEZRb1JlMnlxeTlVNld0Tmd5QXZNZU5VTmxBV2hfZzdpOGgtekxmUEppa2IyZjFrUWFVUjIwRTRsYWF0eEpLRjhxUG5UbHAwdEZpeTR2V3VNckwtX2pGZFlmQXVUaHpRVEdsVUd1dG1MWWxmM2pjREZjbzJR?oc=5
-· AMZN Amazon’s eye-watering spending is overshadowing growth (Fortune) https://news.google.com/rss/articles/CBMijgFBVV95cUxNbTR6QWEwM2w5VVdaY0Y5WVEwZFM0SGhiSWZuWVc2YUgzSzhfNklHM19XdHRHMGRRV001QmFNbW1ySGVYakJWdUFJbEtsN1VqdTd1cW9zNlgxVnFDVlVBLTRvMXRiTjNaSnptS3RGZnMtNzNkQ1FWLUZUZHVnWVdGOWJQRl9fNHE0RmNmeGNB?oc=5
-· BTC Bitcoin Drops on Binance Hack as Stock Selloff Also Weighs (Bloomberg) https://news.google.com/rss/articles/CBMirgFBVV95cUxPb0NVZVAyRjB3SE5wZEVtS0dCaWcwdDJrcGczSElDR2l0QXpMV0N2UkN5MFkyMFUySzFUTTBwekx5UEY1d3V4NnZsZy1vTGwtNjhWUnVhMWxpYTBSVVIyeHp5RExWY3Fick9OZS14RWZYUkxPYkdtSFZkNHM5eWctOHFjOTVfaG1CdVlXX0pNdl9JMHcyRTNOTUdnTmdtd2VJbEZWcWJSSmhGeG5Zemc?oc=5
-· BTC Binance’s $6.3 Billion Crypto Hack Strikes at Heart of Bitcoin’s Trillion Dollar Industry (Barron's) https://news.google.com/rss/articles/CBMigAFBVV95cUxNUHl4aXQ1ZTVfbFVTVUQ1czlCMXhEVHlLUU9ibS1xeFpaN3RSR0FDQ003cENZbmFVVFNJZC0zYkdiVm5nY245eWdHV0hSMXJ6aXd4TVJNYXVjamNuNGt2b2VVTHNuUkY3dTVqUUNGZFVpYnY1eVV0aDlYNkhoSUhKUQ?oc=5
-· UST U.S. Treasury Yields Fall; Eurozone Bond Yields Mixed After GDP Data (The Wall Street Journal) https://news.google.com/rss/articles/CBMiowFBVV95cUxOS1p6ZkxEeDY0SlhyTDJKSXkyR1NkOUZVa1Z4NWJHU2cxdjFfVlI0TVBGZUZRR1dkLWpEY2RtNC1wSjZKb3ZKaTloVHlvVlF3cFZvdFI2Y3R4c3RIeFd3NU1NMWRpVDBlc3M3STVwa2ZxNVpTLTBIN0t5VTF5alltRGxFQWM3QUpibUF1LWN1Ykhmb3FvVkVmR1pDczZEa2YxTXZz?oc=5
-· CVX Chevron earnings beat by $0.40, revenue topped estimates (Investing.com) https://news.google.com/rss/articles/CBMiogFBVV95cUxQd1o3RGpvWlhDYnBBazBPMl93MkdzNHplcGhMNk1FTXBFRU14R1FRRExrUWdhaXlsNXBFTWg1a1RIeXhTdFFYS0hXdkVTWXV1VllQRlpZODNGZm1KUHpMcTV0Z09lQ0dQV2tNbm1KWWkwOUlYZU05Z1c0MDlNYmx6QlZDOXpxZHJKRnFOakhfekJUUFo0d29xVFNTTWp0enJxcWc?oc=5
-· AMD AMD Shares Fall 6.5% as Intel’s Weak PC Market Forecast Raises Semiconductor Demand Concerns (Yahoo Finance) https://news.google.com/rss/articles/CBMijAFBVV95cUxQeUoycS1rbkxSeHhVdV9DR3ZpQkhGem5HUGJNQ3pqM0ctRkE4a0tHdjl4Zi1mZG51dGpQTEdvN0RSTmFVUDJwZ0hYbkpGS2pRVnJIYzBRWWx2S29VajhNeEhZRmJuZmhWeVhzWXdjRFliQ0lybnpVbkd4UFBsUm1NWEFTV1ExbUxBZ0ZNNw?oc=5
-· CVX Chevron tops Q3 expectations on higher downstream profit (Reuters) https://news.google.com/rss/articles/CBMiqAFBVV95cUxPcEliUm9zdHRocDhkd3BGMjNFaThOM2hJTjBCQUVWSlFwb2hzd0pvSTNyVTRZeGFaU1NhYW1tVHdYZ3lzTlFHa3dvaURGOTE1SWxNb2plNDdvVGFlTFBEQWdyajNEdm1XYnJ3Ykoxc2FaVGJXSW15NTNXVm9mUEFfSkpXVWdwUWNGM2VYc0pXbDlRTm5XMDZoQkR1NGx2SEhHN0ROSWpSSjg?oc=5
-· (+3 manchetes; lista completa em eventos/noticias.json)
+· (+17 manchetes; lista completa em eventos/noticias.json)
