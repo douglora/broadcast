@@ -1,47 +1,29 @@
 ALERTAS · intradia
 
-(pendente de slot anterior) [ATENÇÃO] E05 · VALE3 · Vale não prevê dividendos extraordinários em 2026, diz CFO
-CNN Brasil · 30/10 13h24 · fonte única · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – A Vale não prevê o pagamento de dividendos extraordinários em 2026, diante das incertezas geopolíticas esperadas para o próximo ano.
-  – A informação foi dada nesta sexta-feira (30) pelo vice-presidente executivo de Finanças e Relações com Investidores da companhia, Marcelo Bacci, durante teleconferência sobre os resultados do terceiro trimestre.
-  – "Preferimos ficar do lado conservador para lidarmos com as medidas incertas", afirmou Bacci.
-  – A Vale mantém em aberto um programa de recompra de até 100 milhões de ações, aprovado pelo Conselho de Administração em julho deste ano.
-  – "Temos um programa de recompra em aberto, para recomprar até 100 milhões de ações.
-  – Isso dá oportunidade para recomprar", disse.
-Link: https://www.cnnbrasil.com.br/infra/vale-nao-preve-dividendos-extraordinarios-em-2026-diz-cfo/
-Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
-Ativos: VALE3
-Como falar: 'saiu no CNN Brasil: Vale não prevê dividendos extraordinários em 2026, diz CFO; confirmar o número no texto antes de repassar'
-Fonte: CNN Brasil 30/10 13h24
-ids: E05-VALE3-753d8f3506-2026-10-30
-
-(pendente de slot anterior) [ATENÇÃO] E05 · LITE · Rosenblatt raises Lumentum stock price target on acquisition prospects
-Investing.com · 30/10 06h22 · fonte única · licença: manchete
-Link: https://www.investing.com/news/analyst-ratings/rosenblatt-raises-lumentum-stock-price-target-on-acquisition-prospects-93CH-4986234
-Por que importa: aquisicao ou venda muda alavancagem, mix de receita e o multiplo; olhar preco pago e financiamento
-Ativos: LITE
-Como falar: 'saiu no Investing.com: Rosenblatt raises Lumentum stock price target on acquisition prospects; confirmar o número no texto antes de repassar'
-Fonte: Investing.com 30/10 06h22
-ids: E05-LITE-3417c23ff1-2026-10-30
-
+Nenhum alerta novo neste slot.
 Info (só linha no Fechamento):
-· E05 VALE3 · Minas da Vale em Carajás encolhem 43% e decreto das cavernas espera Lula
-· E05 NVDA · It’s Time to Revisit The Nvidia Vs. AMD Debate
-· E05 EQTL3 · Equatorial (EQTL3) eleva energia injetada em 9,7% no 3T26; veja detalhes
-· E05 VALE3 · Volumes e custos do minério de ferro e da VBM estão dentro do esperado, afirma Vale
-· E05 AMZN · Amazon’s Earnings Dip: One Furlong in a Long Race
-· E05 AMZN · Nasdaq hits near three-month low as Amazon, Intel rattle AI trade
-· E05 CVX · Chevron Stock Rises as Oil Price Surge Fuels Earnings Beat
-· E05 INTC · Intel Just Warned It Probably Won’t Generate Free Cash Flow Next Year
-· E05 BBDC4 · Ibovespa fecha abaixo de 170 mi pontos com Bradesco entre pressões
+· E05 VALE3 · Os dois trunfos regulatórios que a Vale espera tirar do papel com o fim das Eleições
+· E05 AMZN · Amazon, Intel Earnings Add Fuel to Tech Selloff
+· E05 VALE3 · Vale (VALE3): CFO prevê trégua nos custos no 4T26 e revela estratégia que já 'poupou' US$ 3 bilhões
+· E05 TSLA · Tesla Could Be About to Unlock a Brand-New Revenue Stream. Time to Buy the Stock?
+· E05 INTC · Intel earnings analysis: questions answered and next catalysts
+· E05 VALE3 · Vale prevê recompra de ações e afasta pagamento de dividendos extraordinários
+· E05 PETR4 · Após eleição, o que mudou na tese de petroleiras? Petrobras e PRIO são as preferidas
+· E05 USDBRL · Dólar atinge R$5,43 e Ibovespa cai com preocupações sobre novo governo Lula
+· E05 INTC · Stocks making the biggest moves midday: Intel, Lumentum, Sandisk, Twilio, Coinbase & more
+· E05 INTC · After Intel’s historic stock drop, analysts say there’s no reason to buy the dip
+· E05 INTC · Update: US Equity Indexes Slide as Mega-Cap Chipmakers Sink Following Intel's Results
+· E05 INTC · Intel’s Earnings Fallout Is Hitting Your Index Funds Too
+· E05 GOOGL · Alphabet loses $475 billion in market value, the biggest drop in its history
+· E05 VALE3 · VALE3: Queda expressiva das ações dá oportunidade de recompras, diz CFO
+· E05 ITUB4 · BTG (BPAC11) sofre corte de recomendação e preço-alvo pelo Itaú BBA, e ação sente
 · T13 VIX cruzou 20: 20,2 (+17% no dia)
 
 Suprimidos pelo teto (viram linha do Fechamento): T13-VIX-vix20-2026-10-30 (teto de atenção)
 
 Alertas do dia (todos, com status):
-· pendente  E05 VALE3 — VALE3 · Vale não prevê dividendos extraordinários em 2026, diz CFO
-· pendente  E05 LITE — LITE · Rosenblatt raises Lumentum stock price target on acquisition prospects
+· entregue  E05 VALE3 — VALE3 · Vale não prevê dividendos extraordinários em 2026, diz CFO
+· entregue  E05 LITE — LITE · Rosenblatt raises Lumentum stock price target on acquisition prospects
 · linha     T13 VIX — VIX cruzou 20: 20,2 (+17% no dia)
 · entregue  E05 AMZN — AMZN · Top Midday Stories: Intel Shares Plummet After Q3 Revenue Miss, Weak Guid
 · entregue  E05 JPM — JPM · JPMorgan Raises NII Outlook: Is JPM Stock Too Expensive?
@@ -56,5 +38,5 @@ Alertas do dia (todos, com status):
 · entregue  E05 CVX — CVX · Earnings Snapshot: Chevron beats Q3 EPS and revenue estimates; declares $1
 · entregue  E05 INTC — INTC · Intel Shares Plunge 25% as Weak Fourth-Quarter Outlook Overshadows Strong
 · entregue  E05 INTC — INTC · Intel plunges on a major guidance miss. What went wrong — and how to proc
-· linha     F01 USDBRL — Real cai: USD/BRL 5,4327 (+8,9% em 5 sessões) (parcial, intradia)
-· (+96 notícias só manchete, em noticias.md)
+· linha     F01 USDBRL — Real cai: USD/BRL 5,4392 (+9,0% em 5 sessões) (parcial, intradia)
+· (+111 notícias só manchete, em noticias.md)

@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 30/10 14h01
+NOTÍCIAS E FATOS · 30/10 14h22
 
-Pernas: noticias ok 9 novas (18 consultas; descartadas: 391 veículo fora da lista, 33 sem ativo, 0 teto) · cvm ok 0 novos de 16 (9 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 15 novas (18 consultas; descartadas: 376 veículo fora da lista, 28 sem ativo, 4 teto) · cvm ok 0 novos de 16 (9 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (2)
 
@@ -71,7 +71,7 @@ Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir
 Ativos: VALE3
 Como falar: 'saiu no CNN Brasil: Vale não prevê dividendos extraordinários em 2026, diz CFO; confirmar o número no texto antes de repassar'
 Fonte: CNN Brasil 30/10 13h24
-id: E05-VALE3-753d8f3506-2026-10-30 · status: pendente
+id: E05-VALE3-753d8f3506-2026-10-30 · status: entregue
 
 [ATENÇÃO] E05 · LITE · Rosenblatt raises Lumentum stock price target on acquisition prospects
 Investing.com · 30/10 06h22 · fonte única · licença: manchete
@@ -80,7 +80,7 @@ Por que importa: aquisicao ou venda muda alavancagem, mix de receita e o multipl
 Ativos: LITE
 Como falar: 'saiu no Investing.com: Rosenblatt raises Lumentum stock price target on acquisition prospects; confirmar o número no texto antes de repassar'
 Fonte: Investing.com 30/10 06h22
-id: E05-LITE-3417c23ff1-2026-10-30 · status: pendente
+id: E05-LITE-3417c23ff1-2026-10-30 · status: entregue
 
 [ATENÇÃO] E05 · AMZN · Top Midday Stories: Intel Shares Plummet After Q3 Revenue Miss, Weak Guidance; Amazon Q3 EPS, Revenue Miss Expectations, Shares Fall
 Yahoo Finance · 30/10 12h47 · fonte única · licença: resumo
@@ -240,8 +240,23 @@ Fonte: Yahoo Finance 29/10 16h47
 id: E05-KO-57cc816b05-2026-10-29 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (86)
+## OUTRAS NOTÍCIAS (só manchete) (101)
 
+· VALE3 Os dois trunfos regulatórios que a Vale espera tirar do papel com o fim das Eleições (NeoFeed) https://neofeed.com.br/negocios/os-dois-trunfos-regulatorios-que-a-vale-espera-tirar-do-papel-com-o-fim-das-eleicoes/
+· AMZN Amazon, Intel Earnings Add Fuel to Tech Selloff (The Wall Street Journal) https://www.wsj.com/finance/stocks/ai-selloff-deepens-oil-jumps-and-crypto-falls-4703d21b
+· VALE3 Vale (VALE3): CFO prevê trégua nos custos no 4T26 e revela estratégia que já 'poupou' US$ 3 bilhões (Money Times) https://www.moneytimes.com.br/vale-vale3-cfo-preve-tregua-nos-custos-no-4t26-e-revela-estrategia-que-ja-poupou-us-3-bilhoes-bdap/
+· TSLA Tesla Could Be About to Unlock a Brand-New Revenue Stream. Time to Buy the Stock? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/tesla-could-unlock-brand-revenue-170901424.html
+· INTC Intel earnings analysis: questions answered and next catalysts (Investing.com) https://www.investing.com/news/stock-market-news/intel-earnings-analysis-questions-answered-and-next-catalysts-93CH-4988387
+· VALE3 Vale prevê recompra de ações e afasta pagamento de dividendos extraordinários (O Globo) https://oglobo.globo.com/economia/negocios/post/2026/10/vale-preve-recompra-de-acoes-e-afasta-pagamento-de-dividendos-extraordinarios.ghtml
+· PETR4 Após eleição, o que mudou na tese de petroleiras? Petrobras e PRIO são as preferidas (InfoMoney) https://www.infomoney.com.br/mercados/apos-eleicao-o-que-mudou-na-tese-de-petroleiras-petrobras-e-prio-sao-as-preferidas/
+· USDBRL Dólar atinge R$5,43 e Ibovespa cai com preocupações sobre novo governo Lula (TradingView (Reuters)) https://br.tradingview.com/news/reuters.com,2026:newsml_L2N46G0WJ:0/
+· INTC Stocks making the biggest moves midday: Intel, Lumentum, Sandisk, Twilio, Coinbase & more (CNBC) https://www.cnbc.com/2026/10/30/stocks-making-the-biggest-moves-midday-intc-lite-sndk-twlo-coin.html
+· INTC After Intel’s historic stock drop, analysts say there’s no reason to buy the dip (MarketWatch) https://www.marketwatch.com/story/after-intels-historic-stock-drop-analysts-say-theres-no-reason-to-buy-the-dip-068446af
+· INTC Update: US Equity Indexes Slide as Mega-Cap Chipmakers Sink Following Intel's Results (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-slide-mega-163842952.html
+· INTC Intel’s Earnings Fallout Is Hitting Your Index Funds Too (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/intel-earnings-fallout-hitting-index-162111051.html
+· GOOGL Alphabet loses $475 billion in market value, the biggest drop in its history (Yahoo Finance) https://news.google.com/rss/articles/CBMi0wFBVV95cUxOb0pfRGxYakdFTWU5eXlYYTd5cGVuVmpzMDFiMDBuX2ZOQVB5aFV1Qmk1dEhXQWwtSVNtU2ZOSTNfVDMxS2NoMUpTbmJ3a0hYOGtvOGJldXlkU3k2N3djaVhDMUNGN0g5Q1J2SzRXMkhXbzI3MUxqd2t5SEszX0JEZWZPUmRSd3VZQmYyZzZZeDNvY0hKaExMcnNTbHhzeTItckpZaEJmbWxodHVla2FKTTN4cmdFY2VjWk96cjdwLUtjX3FMRmZwLVp3SHJiX2xNajBR?oc=5
+· VALE3 VALE3: Queda expressiva das ações dá oportunidade de recompras, diz CFO (InfoMoney) https://news.google.com/rss/articles/CBMikAFBVV95cUxNRWxpaTJybXdGX3JzdTVJRndjSF9uSUdNblNhVENUbzRnOEZQUDJlc3NSLUE2cUs1ZWdzUjBhdUFPZU05TGd3aWZfTjl4NkdIbXNHbUpaOHhQeURkeG1sWlhxNEo0ak5BRFI3SEQzTm5ycFVyZTU4STk3RGdmRHc2Y1FGLUdBR1l4WHN1Rmo4MHnSAZYBQVVfeXFMUENzUlcxZ1R0OWtBVXprRVh3dE1YTHg0cTYxNEl6eEp3N2dxMDlWRnlpQnU5ZkZNdDRHY2FEblRJS0Z0eXJiSnpFLUVUcGNMNkdZTUhicVliNm9TRjlKVVI1cFZMTlpkLXEzN3h4aVRpeHpjQWZRQ00yOXR3WlFNTTIyaXZUT3JjTFBXenpISDJrTXRaSGVB?oc=5
+· ITUB4 BTG (BPAC11) sofre corte de recomendação e preço-alvo pelo Itaú BBA, e ação sente (Money Times) https://news.google.com/rss/articles/CBMirgFBVV95cUxOWENocTdrM2JISS1JVW9HcWFhRk5hZVZ3X3dPNGVrSTdNZ2JBZEk3cnZhc2pjX0JlX2RkejlJVVFjd01GUERUcGczUU4zd091U2NNTXFTYkFDdUszRWw5dTZ3NW56a25XbmhpR3VZd3prU3lBQ3hJN0JiaGRFQllFV1hPSjcwcDJybHZYVjk4WlNLNGFIMmlsSFh2ZEpBTG9JX2NoTmpMdllLS3ZrbEE?oc=5
 · VALE3 Minas da Vale em Carajás encolhem 43% e decreto das cavernas espera Lula (Exame) https://exame.com/invest/mercados/minas-da-vale-em-carajas-encolhem-43-e-decreto-das-cavernas-espera-lula/
 · NVDA It’s Time to Revisit The Nvidia Vs. AMD Debate (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/time-revisit-nvidia-vs-amd-164533739.html
 · EQTL3 Equatorial (EQTL3) eleva energia injetada em 9,7% no 3T26; veja detalhes (Suno Noticias) https://www.suno.com.br/noticias/eqtl3-energia-injetada-3t26-go/
@@ -287,19 +302,4 @@ id: E05-KO-57cc816b05-2026-10-29 · status: linha
 · DI Análise: Sem rumo fiscal claro no Lula 4, Copom enfrenta teste como única âncora da economia (Valor Economico) https://valor.globo.com/financas/noticia/2026/10/30/analise-sem-rumo-fiscal-claro-no-lula-4-copom-enfrenta-teste-como-unica-ancora-da-economia.ghtml
 · USDBRL Ibovespa tem 5º dia seguido de queda e dólar oscila acima de R$ 5,40 (Exame) https://exame.com/invest/mercados/ibovespa-tem-5o-dia-seguido-de-queda-e-dolar-oscila-acima-de-r-540/
 · INTC Intel CEO Warning Sends Dell Stock Sinking (Yahoo Finance) https://news.google.com/rss/articles/CBMimAFBVV95cUxOQkFJRmFuYzNwTUZ5Y0llclNuSkpiYXpDaVV1YjRlZkthOWgwOThYNk5JOUE1RzU5VlY0YTdMRWJxZTlKVnYzTm16UklIRlB6WnJQQ08tcDQxaWZuZEo2QklmZ0h2dS15UndGYm95OHIwZl9lU2FIMmZYN0h4WVptUlVnYjJpUmhaSVVlZmNleE15M2hFSG1sUQ?oc=5
-· VALE3 Vale sobe quase 3% após balanço, mas bancos veem desafios no minério (UOL Economia) https://news.google.com/rss/articles/CBMixgFBVV95cUxOQ3lLU3FGcUl6U0VLcDVUcEt6NncyMUxoMzh1S0NDNkpLVUZob0tHdU4xLUw5bk1QV3pwcVhxbC1EUW1laF9GM3c4a0dBeVZfaWVXOVdzWkVYVGhLVGRqdkoydWVFbk1nbHJudV9aTkNlcTR5aVNuQU45SHl3aGZaaVRlV3hMaXVVcWtZbzhPaWpVUHo2cUItelVGU2IteWhDSnpsNV9UM3pCWlR3d1RVd3F2dmJWZXVmRmRGU2xyS3Nxbmo2Q1E?oc=5
-· INTC Why Intel’s stock is sinking toward its worst day in decades — and a $140 billion wipeout (MarketWatch) https://news.google.com/rss/articles/CBMiqAFBVV95cUxPaHQ0c3hjdWIwT0JpY0drUldfYW95NTNkakFrSXNLc3JJdW4zUDV2bVBzNDNxYmJEdEpfUk95TmQ0NzBwTE5temM2ZFRLVEE3R19XYVlyRE5hcUlMczZKUEFhOTU4MHlnbWt2T0o5azZ5SGdORk81RDFjUV9WdGJ4a3dsSkNlZm9aLW1XR1RpQ1hXaGNzS0pBdnpmTUZJTHdMeGNzX1RXVXg?oc=5
-· CVX Chevron Shares Rise 2.2% as Q3 Earnings Beat Forecasts on Strong Refining Margins (Yahoo Finance) https://news.google.com/rss/articles/CBMihwFBVV95cUxPVGV1M21Day05eEhQdDAyR0VELS1qVUN4bzM2anZRbjRSbktkVDd2bHNlTjZwcTBMRFJqUVlodVpLRjRkcUZIOFZhd3dJT1hhZG96VzYyaHdHbmJfQ3pRSUlfOWhfRTI2V1lDbTd0UllYUllCYVlMTm9JOVdVaXVFNW9rSGd4cTQ?oc=5
-· GOOGL Google Stock Plunges 12% on AI Fears, but Joseph Carlson Isn't Selling, Says Shares Look Cheap (Yahoo Finance) https://news.google.com/rss/articles/CBMilgFBVV95cUxQalZiV091eF9VdjNNU1J1bVFrWjFybHNTUjBBYndaTHRTaW9ZWnA5cHEweDBra0FwYnJtY0pGSzdZd0gtSk5aNERtSVRtckU3aGdjUXc1ajFZcXFzS0ZzUjlYZ0paM2o5U1BCbl8wUjdIWElNM29Pb2Zfdl9xM0x6djg2Q2lwR2F1QzRJTzkwYlljcHBSSlE?oc=5
-· CVX Chevron’s Profit Nearly Tripled From a Year Ago. Is CVX Stock a Buy After Its Blowout Earnings Report? (Yahoo Finance) https://news.google.com/rss/articles/CBMinwFBVV95cUxOUWJuMFdHYTdaX2s1V0pKQ09sRUNRbjJxdU1JNjZMRGpLaTBkYWpIRFdWV0N1U192eVlJcjJmQng3d3pjZnVNTzR5a3NLelVyT0h5dndUckdZdHdQMDFROWFhYjdYemJ4aXZIcHcwVzh1c2J5MlVRNXQ2aC11dFIzdkUzQ0o1X0hXRVhsUEg0Mk00azhBZTVISEtjTXZGcDA?oc=5
-· PETR4 Petrobras confirma terceira descoberta de petróleo na costa do Amapá e reforça exploração na Margem Equatorial (ADVFN) https://news.google.com/rss/articles/CBMi3wFBVV95cUxOMTAxaWpuZUMyVkhBc2w4Ukt6OVZyME1qNWNWVzJaOEl4dHVQMFRDVjdRTENYdWM3LVBINFlwWWFkUHVpOUZ0cDBSWkRfMHlaZ09ValdneE5CeWFxOTI3ay1yVktIZ1JxTmdVMXlnam0ta2lBT1dWVjBEUGpLcHJsbUxLYU90S2d0M05aV0FPR3dVRk1sUGdab242NWZGUHYwRGppNkhNLXhwNVRCSnoxNHRKdlJIdG1TUU96TWRRdENOTERVeTRtWEM5c25Ud2lYRXBKYks5My1EeGJxTTkw?oc=5
-· VALE3 Vale third-quarter profit tumbles, iron ore output misses forecasts (Mining.com) https://news.google.com/rss/articles/CBMimgFBVV95cUxPOElZVEFYWVFvMXI2YU1GNXNVQjhZcHZqcXgyUDhJQThGQWpiWEp5LVlfRm1EemNUS3VBMS1wYk8zTDdhR2dMbW9wekowSGdmSmZVZ0Q5UjkxZDBHck91NW1SZkx5QTF6NE5Td0dOaGpYU3VpWjEyRGVySWl1NXZNTmR6UHJXbHdYYV9ickpyRlVlRFY1Rk0xWmZn?oc=5
-· PLTR A prominent law firm is unraveling—but Palantir has an intriguing offer (Fortune) https://news.google.com/rss/articles/CBMiowFBVV95cUxNTHY0WUY1c2dCYmQxWk1yMW5ZcjQwSHlyNHVOU2Z1Wmt6Z1N5cFlSR1VTSUJOYmxKWjZVX2N5MGpRZkNsVDRBT3RMaXgteVVUdDNtYUFsT0tQWDFIMUJraXkteUg4OUtxaGJ6aTRneFdLSE9XWFc4UXBzLWVEVDAxQjdvZUVGOURMYlkzUmM0eTJWUHlvdm5CVWgzX19YdVRwZDY0?oc=5
-· CVX Chevron Corporation (CVX) Stock Forecasts (Yahoo Finance) https://ca.finance.yahoo.com/research/reports/MS_0P00000185_AnalystReport_1793361255000
-· USDBRL Dólar hoje sobe quase 1% e ultrapassa R$ 5,40 em dia de formação da Ptax (InfoMoney) https://www.infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-30102026/
-· PLTR Palantir heads into Q3 earnings with strong demand signals, but valuation concerns persist (PLTR:NASDAQ) (Seeking Alpha) https://seekingalpha.com/news/4661214-palantir-heads-into-q3-earnings-with-strong-demand-signals-but-valuation-concerns-persist
-· BTC 'Bad time to troll': Binance cofounder Changpeng Zhao asks Elon Musk for 'respect' after post about bitcoin hack (CNBC) https://www.cnbc.com/2026/10/30/binance-hack-elon-musk-tesla-spacex.html
-· INTC Intel issued weaker-than-expected guidance. Analysts are losing confidence in the stock (CNBC) https://www.cnbc.com/2026/10/30/intel-guidance-analyst-price-targets.html
-· GOOGL Alphabet Shares Plunge. Why Now Is a Great Time to Buy the Dip. (Yahoo Finance) https://news.google.com/rss/articles/CBMimwFBVV95cUxOLXZLRVNkdjktbHYzSkdIeWJDOXYzNnVzUnVDRFNOZHhkcXVtaWtUWHRzdk9hU0JZdHhsSExCUWxfdVY3c0Q1NWhhT0gtaUtVOGZ1elhIUGVOZUtIY2g3T1YyZk5iamx4LUxua3ZFQVVla1FLdVpxT1p1T29LZjZESEVoSGtfNjRfdl9TbThaZU5HOFBJZWNscXRmaw?oc=5
-· AMD AMD’s stock slides after Intel earnings reveal two big issues (MarketWatch) https://news.google.com/rss/articles/CBMipgFBVV95cUxQSG1ER3NBSmVWMHJlelZ0akVNa1FTVDFlM1J3b2ZMOWZXanV1cVdDblB6dDlHRmJYZDRVZ2JKWTRfRDIyTkZaNENTZVQ2MGFJUjk2X0ZfU2ZTVjZEcm02VlJZXzQyYmlVdHY2Mm5BaEVvUmN0Tm1rQUF2NWlIQTdLMFpWNVl3QUNvX05MRlg0cmw5d1JQWjAxeUtDeHpVandzY2tDZGxn?oc=5
-· (+26 manchetes; lista completa em eventos/noticias.json)
+· (+41 manchetes; lista completa em eventos/noticias.json)
