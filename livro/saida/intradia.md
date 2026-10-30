@@ -1,70 +1,69 @@
 ALERTAS · intradia
 
-[ATENÇÃO] E05 · JPM · JPMorgan Raises NII Outlook: Is JPM Stock Too Expensive?
-Yahoo Finance · 30/10 09h30 · fonte única · licença: resumo
+[ATENÇÃO] E05 · TSLA · Rivian Gains 5% as R2 Ramp Drives Raised Delivery Outlook; Tesla Falls 3%, Lucid Slides 2%, Ford Eases
+Yahoo Finance · 30/10 10h57 · fonte única · licença: resumo
 Trechos (licença resumo: reescrever, não colar):
-  – JPMorgan JPM has raised its net interest income (NII) outlook for 2026, supported by steady loan growth, higher deposit balances and resilient customer activity.
-  – The banking giant also provided an encouraging preliminary NII outlook for 2027, suggesting that spread income momentum could continue into next year.
-  – In the third quarter of 2026, JPMorgan's NII increased 13% year over year to $27.1 billion.
-  – Following its third-quarter results, management raised its full-year 2026 total NII projection to approximately $106.2 billion from the previously expected $105.5 billion.
-  – Similarly, NII excluding Markets is now anticipated to reach approximately $97.2 billion, up from the earlier projection of $96.5 billion.
-  – For the fourth quarter, management expects total NII of roughly $28 billion and NII excluding Markets of $25.5 billion.
-Link: https://finance.yahoo.com/markets/stocks/articles/jpmorgan-raises-nii-outlook-jpm-123000221.html
+  – Quick Read - Rivian beat Q3 revenue estimates with $2.16 billion and narrowed its loss to $0.48 per share, as CEO Scaringe confirmed R2 is already its best-selling vehicle by volume.
+  – - Tesla dropped 3% and Lucid slid 2% as broad EV sector weakness weighed on peers, leaving Rivian as a rare gainer in the space.
+  – - Rivian raised its 2026 delivery floor to 67,000 vehicles but faces risks including ongoing cash burn and R2 potentially cannibalizing R1 sales.
+  – Stronger-than-expected Q3 2026 results are lifting Rivian Automotive (NASDAQ:RIVN) despite weakness in electric vehicle (EV) stocks, and its cheaper R2 SUV drove a raised outlook.
+  – Rivian stock is at $12.06, up 5% in early trading.
+  – For a sector-level check, the iShares Self-Driving EV and Tech ETF (NASDAQ:IDRV) is down 1.3%.
+Link: https://finance.yahoo.com/markets/stocks/articles/rivian-gains-5-r2-ramp-135705539.html
 Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
-Ativos: JPM
-Como falar: 'saiu no Yahoo Finance: JPMorgan Raises NII Outlook: Is JPM Stock Too Expensive?; confirmar o número no texto antes de repassar'
-Fonte: Yahoo Finance 30/10 09h30
-Push: intradia: 3 alertas de atenção — E05 JPM, E05 AMZN, E05 NVDA · detalhe na sessão
-ids: E05-JPM-ab4f09faeb-2026-10-30
+Ativos: TSLA
+Como falar: 'saiu no Yahoo Finance: Rivian Gains 5% as R2 Ramp Drives Raised Delivery Outlook; Tesla Falls 3%, Lucid Slides 2…; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 30/10 10h57
+Push: intradia: 2 alertas de atenção — E05 TSLA, E05 INTC · detalhe na sessão
+ids: E05-TSLA-7249765cd2-2026-10-30
 
-[ATENÇÃO] E05 · AMZN · Amazon Has Just Shared A Game-Changing Guidance For Its Cloud Business (Upgrade) (AMZN)
-Seeking Alpha · 30/10 09h05 · fonte única · licença: manchete
-Link: https://seekingalpha.com/article/4960126-amazon-has-just-shared-a-game-changing-guidance-for-its-cloud-business-upgrade
-Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
-Ativos: AMZN
-Como falar: 'saiu no Seeking Alpha: Amazon Has Just Shared A Game-Changing Guidance For Its Cloud Business (Upgrade) (AMZN); confirmar o número no texto antes de repassar'
-Fonte: Seeking Alpha 30/10 09h05
-ids: E05-AMZN-bd87791b9e-2026-10-30
-
-[ATENÇÃO] E05 · NVDA · Key facts: NVDA rec rev; $235B buyback; Nscale-$45B; Megaspeed cleared
-TradingView (Reuters) · 30/10 04h00 · fonte única · licença: manchete
-Link: https://www.tradingview.com/news/tradingview:96b5fb98a0a7e:0-key-facts-nvda-rec-rev-235b-buyback-nscale-45b-megaspeed-cleared/
-Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
-Ativos: NVDA
-Como falar: 'saiu no TradingView (Reuters): Key facts: NVDA rec rev; $235B buyback; Nscale-$45B; Megaspeed cleared; confirmar o número no texto antes de repassar'
-Fonte: TradingView (Reuters) 30/10 04h00
-ids: E05-NVDA-c925361061-2026-10-30
+[ATENÇÃO] E05 · INTC · Intel Sinks 29% as Weak Outlook Shows It’s “Still PC Dependent”
+Yahoo Finance · 30/10 10h39 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Key Takeaways - Intel shares fell 29% after it guided fourth-quarter revenue to $15.0 billion to $16.0 billion on a faster PC slump.
+  – - Data center revenue grew 78% in the third quarter, but Intel can't make enough server chips to offset weaker PC sales.
+  – - Intel's case now rests on adding server supply in 2027.
+  – Rival Advanced Micro Devices (AMD:NASDAQ) fell [9%], and Micron Technology (MU:NASDAQ), whose memory chips sit at the root of the slump, lost [6%].
+  – Servers can't carry it yet Intel's third quarter beat its own guidance, with data center revenue up 78% to $7.3 billion while PC chip revenue fell 5%.
+  – But it guided fourth-quarter revenue to $15.0 billion to $16.0 billion and its non-GAAP gross margin to 38%, from 44.1%.
+Link: https://finance.yahoo.com/markets/stocks/articles/intel-sinks-29-weak-outlook-133944045.html
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: INTC
+Como falar: 'saiu no Yahoo Finance: Intel Sinks 29% as Weak Outlook Shows It’s “Still PC Dependent”; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 30/10 10h39
+ids: E05-INTC-6c577073ca-2026-10-30
 
 Info (só linha no Fechamento):
-· F01 Real cai: USD/BRL 5,4290 (+8,8% em 5 sessões) (parcial, intradia)
-· E03 ALUP4 · Participação relevante: gestor reduziu para 5,68% em 29/10
-· E05 CVX · Chevron Corporation (CVX) Stock Forecasts
-· E05 USDBRL · Dólar hoje sobe quase 1% e ultrapassa R$ 5,40 em dia de formação da Ptax
-· E05 PLTR · Palantir heads into Q3 earnings with strong demand signals, but valuation concerns persist (PLTR:NASDAQ)
-· E05 BTC · 'Bad time to troll': Binance cofounder Changpeng Zhao asks Elon Musk for 'respect' after post about bitcoin hack
-· E05 INTC · Intel issued weaker-than-expected guidance. Analysts are losing confidence in the stock
-· E05 GOOGL · Alphabet Shares Plunge. Why Now Is a Great Time to Buy the Dip.
-· E05 AMD · AMD’s stock slides after Intel earnings reveal two big issues
-· E05 VALE3 · Vale no 3T26: analistas veem até 56% de alta mesmo após forte queda do lucro; o que fazer agora
-· E05 BTC · Binance Hack Sparks Bitcoin Sell-Off, $1.6B In Liquidations: Exchange Uncovers ‘Additional Points Of Breach’
-· E05 GOOGL · Amazon Slides 7% as Earnings Miss and AI Spending Turn Free Cash Flow Negative; Meta Falls 2%, Alphabet Dips, Walmart Gains 2%
-· E05 AMD · AMD Earnings Preview: The Bull Case Is Largely Priced In (NASDAQ:AMD)
-· E05 USDBRL · Dólar abre em alta em dia de disputa pela Ptax e após dados do mercado de trabalho no Brasil
-· E05 BTC · Bitcoin Price Plummets: Why a Binance Hack Is Shaking Crypto Today
-· E05 USDBRL · Ibovespa cai junto com exterior e dados de desemprego no radar; dólar sobe
-· E05 AMZN · Nasdaq set for sharp drop as Amazon, Intel amplify AI spending worries
+· E03 VALE3 · Comunicado ao Mercado: Apresentações a analistas/agentes do mercado
+· E05 VALE3 · Estamos bem posicionados para entregar projeção do ano, diz CEO Vale
+· E05 VALE3 · Vale registra alta de 66% no resultado do cobre e mantém produção dentro das metas para 2026
+· E05 BAC · Bank of America Delivers Stark Warning on Apple Stock Ahead of Earnings
+· E05 BTC · Disappointing Tech Earnings Drag Down Stocks as Bitcoin Falls on Binance Hack
+· E05 DI · Análise: Sem rumo fiscal claro no Lula 4, Copom enfrenta teste como única âncora da economia
+· E05 USDBRL · Ibovespa tem 5º dia seguido de queda e dólar oscila acima de R$ 5,40
+· E05 INTC · Intel CEO Warning Sends Dell Stock Sinking
+· E05 VALE3 · Vale sobe quase 3% após balanço, mas bancos veem desafios no minério
+· E05 INTC · Why Intel’s stock is sinking toward its worst day in decades — and a $140 billion wipeout
+· E05 CVX · Chevron Shares Rise 2.2% as Q3 Earnings Beat Forecasts on Strong Refining Margins
+· E05 GOOGL · Google Stock Plunges 12% on AI Fears, but Joseph Carlson Isn't Selling, Says Shares Look Cheap
+· E05 CVX · Chevron’s Profit Nearly Tripled From a Year Ago. Is CVX Stock a Buy After Its Blowout Earnings Report?
+· E05 PETR4 · Petrobras confirma terceira descoberta de petróleo na costa do Amapá e reforça exploração na Margem Equatorial
+· E05 VALE3 · Vale third-quarter profit tumbles, iron ore output misses forecasts
+· E05 PLTR · A prominent law firm is unraveling—but Palantir has an intriguing offer
 
 
 Alertas do dia (todos, com status):
-· pendente  E05 JPM — JPM · JPMorgan Raises NII Outlook: Is JPM Stock Too Expensive?
-· pendente  E05 AMZN — AMZN · Amazon Has Just Shared A Game-Changing Guidance For Its Cloud Business (U
-· pendente  E05 NVDA — NVDA · Key facts: NVDA rec rev; $235B buyback; Nscale-$45B; Megaspeed cleared
+· pendente  E05 TSLA — TSLA · Rivian Gains 5% as R2 Ramp Drives Raised Delivery Outlook; Tesla Falls 3%
+· pendente  E05 INTC — INTC · Intel Sinks 29% as Weak Outlook Shows It’s “Still PC Dependent”
+· entregue  E05 JPM — JPM · JPMorgan Raises NII Outlook: Is JPM Stock Too Expensive?
+· entregue  E05 AMZN — AMZN · Amazon Has Just Shared A Game-Changing Guidance For Its Cloud Business (U
+· entregue  E05 NVDA — NVDA · Key facts: NVDA rec rev; $235B buyback; Nscale-$45B; Megaspeed cleared
 · entregue  E01 PLTR — PLTR: resultado sai na próxima sessão (02/11)
 · entregue  M01 MACRO — Agenda: Banco do Japao: decisao e Outlook Report hoje (30/10)
 · entregue  E04 CVX — CVX · 8-K: 2.02 resultado do trimestre
 · entregue  E05 CVX — CVX · Earnings Snapshot: Chevron beats Q3 EPS and revenue estimates; declares $1
 · entregue  E05 INTC — INTC · Intel Shares Plunge 25% as Weak Fourth-Quarter Outlook Overshadows Strong
 · entregue  E05 INTC — INTC · Intel plunges on a major guidance miss. What went wrong — and how to proc
-· linha     F01 USDBRL — Real cai: USD/BRL 5,4290 (+8,8% em 5 sessões) (parcial, intradia)
-· (+42 notícias só manchete, em noticias.md)
+· linha     F01 USDBRL — Real cai: USD/BRL 5,4097 (+8,4% em 5 sessões) (parcial, intradia)
+· (+58 notícias só manchete, em noticias.md)
 

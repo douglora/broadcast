@@ -1,8 +1,17 @@
-NOTÍCIAS E FATOS · 30/10 10h48
+NOTÍCIAS E FATOS · 30/10 11h54
 
-Pernas: noticias ok 18 novas (18 consultas; descartadas: 363 veículo fora da lista, 25 sem ativo, 55 teto) · cvm ok 1 novos de 15 (8 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 17 novas (18 consultas; descartadas: 371 veículo fora da lista, 23 sem ativo, 13 teto) · cvm ok 1 novos de 16 (9 cias casadas) · sec ok 0 novos em 3 dias
 
-## FATOS RELEVANTES E COMUNICADOS (CVM) (1)
+## FATOS RELEVANTES E COMUNICADOS (CVM) (2)
+
+[INFO] E03 · VALE3 · Comunicado ao Mercado: Apresentações a analistas/agentes do mercado
+CVM · entregue 30/10/2026 10:56 · Apresentações a analistas/agentes do mercado
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1582008
+Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; confirma ou nega o que circula
+Ativos: VALE3
+Como falar: 'a Vale publicou comunicado ao mercado sobre Apresentações a analistas/agentes do mercado'
+Fonte: CVM 30/10
+id: E03-VALE3-1582008-2026-10-30 · status: linha
 
 [INFO] E03 · ALUP4 · Participação relevante: gestor reduziu para 5,68% em 29/10
 CVM · entregue 30/10/2026 09:10 · Aquisição/Alienação de Participação Acionária Relevante / Declaração de Aquisição de Participação Acionária Relevante
@@ -15,7 +24,7 @@ Por que importa: quem cruza 5% de uma companhia tem de avisar (Resolução CVM 4
 Ativos: ALUP4
 Como falar: 'gestor reduziu para 5,68% em 29/10 na Alupar; é aviso de participação, não fato relevante'
 Fonte: CVM 30/10
-id: E03-ALUP4-1581977-2026-10-30 · status: linha · íntegra disponível
+id: E03-ALUP4-1581977-2026-10-30 · status: entregue · íntegra disponível
 
 
 ## SEC (8-K, 6-K, 10-Q, 10-K) (2)
@@ -46,7 +55,39 @@ Fonte: SEC EDGAR 2026-10-30
 id: E04-AMZN-26000040-2026-10-30 · status: entregue
 
 
-## NOTÍCIAS COM MATERIALIDADE (8)
+## NOTÍCIAS COM MATERIALIDADE (10)
+
+[ATENÇÃO] E05 · TSLA · Rivian Gains 5% as R2 Ramp Drives Raised Delivery Outlook; Tesla Falls 3%, Lucid Slides 2%, Ford Eases
+Yahoo Finance · 30/10 10h57 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Quick Read - Rivian beat Q3 revenue estimates with $2.16 billion and narrowed its loss to $0.48 per share, as CEO Scaringe confirmed R2 is already its best-selling vehicle by volume.
+  – - Tesla dropped 3% and Lucid slid 2% as broad EV sector weakness weighed on peers, leaving Rivian as a rare gainer in the space.
+  – - Rivian raised its 2026 delivery floor to 67,000 vehicles but faces risks including ongoing cash burn and R2 potentially cannibalizing R1 sales.
+  – Stronger-than-expected Q3 2026 results are lifting Rivian Automotive (NASDAQ:RIVN) despite weakness in electric vehicle (EV) stocks, and its cheaper R2 SUV drove a raised outlook.
+  – Rivian stock is at $12.06, up 5% in early trading.
+  – For a sector-level check, the iShares Self-Driving EV and Tech ETF (NASDAQ:IDRV) is down 1.3%.
+Link: https://finance.yahoo.com/markets/stocks/articles/rivian-gains-5-r2-ramp-135705539.html
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: TSLA
+Como falar: 'saiu no Yahoo Finance: Rivian Gains 5% as R2 Ramp Drives Raised Delivery Outlook; Tesla Falls 3%, Lucid Slides 2…; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 30/10 10h57
+id: E05-TSLA-7249765cd2-2026-10-30 · status: pendente
+
+[ATENÇÃO] E05 · INTC · Intel Sinks 29% as Weak Outlook Shows It’s “Still PC Dependent”
+Yahoo Finance · 30/10 10h39 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Key Takeaways - Intel shares fell 29% after it guided fourth-quarter revenue to $15.0 billion to $16.0 billion on a faster PC slump.
+  – - Data center revenue grew 78% in the third quarter, but Intel can't make enough server chips to offset weaker PC sales.
+  – - Intel's case now rests on adding server supply in 2027.
+  – Rival Advanced Micro Devices (AMD:NASDAQ) fell [9%], and Micron Technology (MU:NASDAQ), whose memory chips sit at the root of the slump, lost [6%].
+  – Servers can't carry it yet Intel's third quarter beat its own guidance, with data center revenue up 78% to $7.3 billion while PC chip revenue fell 5%.
+  – But it guided fourth-quarter revenue to $15.0 billion to $16.0 billion and its non-GAAP gross margin to 38%, from 44.1%.
+Link: https://finance.yahoo.com/markets/stocks/articles/intel-sinks-29-weak-outlook-133944045.html
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: INTC
+Como falar: 'saiu no Yahoo Finance: Intel Sinks 29% as Weak Outlook Shows It’s “Still PC Dependent”; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 30/10 10h39
+id: E05-INTC-6c577073ca-2026-10-30 · status: pendente
 
 [ATENÇÃO] E05 · JPM · JPMorgan Raises NII Outlook: Is JPM Stock Too Expensive?
 Yahoo Finance · 30/10 09h30 · fonte única · licença: resumo
@@ -62,7 +103,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: JPM
 Como falar: 'saiu no Yahoo Finance: JPMorgan Raises NII Outlook: Is JPM Stock Too Expensive?; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 30/10 09h30
-id: E05-JPM-ab4f09faeb-2026-10-30 · status: pendente
+id: E05-JPM-ab4f09faeb-2026-10-30 · status: entregue
 
 [ATENÇÃO] E05 · AMZN · Amazon Has Just Shared A Game-Changing Guidance For Its Cloud Business (Upgrade) (AMZN)
 Seeking Alpha · 30/10 09h05 · fonte única · licença: manchete
@@ -71,7 +112,7 @@ Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais
 Ativos: AMZN
 Como falar: 'saiu no Seeking Alpha: Amazon Has Just Shared A Game-Changing Guidance For Its Cloud Business (Upgrade) (AMZN); confirmar o número no texto antes de repassar'
 Fonte: Seeking Alpha 30/10 09h05
-id: E05-AMZN-bd87791b9e-2026-10-30 · status: pendente
+id: E05-AMZN-bd87791b9e-2026-10-30 · status: entregue
 
 [ATENÇÃO] E05 · NVDA · Key facts: NVDA rec rev; $235B buyback; Nscale-$45B; Megaspeed cleared
 TradingView (Reuters) · 30/10 04h00 · fonte única · licença: manchete
@@ -80,7 +121,7 @@ Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir
 Ativos: NVDA
 Como falar: 'saiu no TradingView (Reuters): Key facts: NVDA rec rev; $235B buyback; Nscale-$45B; Megaspeed cleared; confirmar o número no texto antes de repassar'
 Fonte: TradingView (Reuters) 30/10 04h00
-id: E05-NVDA-c925361061-2026-10-30 · status: pendente
+id: E05-NVDA-c925361061-2026-10-30 · status: entregue
 
 [ATENÇÃO] E05 · CVX · Earnings Snapshot: Chevron beats Q3 EPS and revenue estimates; declares $1.78 dividend and production hits 3.98M boe/day
 TradingView (Reuters) · 30/10 07h28 · fonte única · licença: manchete
@@ -156,8 +197,23 @@ Fonte: Yahoo Finance 29/10 16h47
 id: E05-KO-57cc816b05-2026-10-29 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (33)
+## OUTRAS NOTÍCIAS (só manchete) (48)
 
+· VALE3 Estamos bem posicionados para entregar projeção do ano, diz CEO Vale (Valor Economico) https://valor.globo.com/empresas/noticia/2026/10/30/estamos-bem-posicionados-para-entregar-projecao-do-ano-diz-ceo-vale.ghtml
+· VALE3 Vale registra alta de 66% no resultado do cobre e mantém produção dentro das metas para 2026 (Estadao) https://bluestudio.estadao.com.br/agencia-de-comunicacao/agencia-minera-brasil/vale-registra-alta-de-66-no-resultado-do-cobre-e-mantem-producao-dentro-das-metas-para-2026/
+· BAC Bank of America Delivers Stark Warning on Apple Stock Ahead of Earnings (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/bank-america-delivers-stark-warning-143709551.html
+· BTC Disappointing Tech Earnings Drag Down Stocks as Bitcoin Falls on Binance Hack (Bloomberg) https://www.bloomberg.com/news/newsletters/2026-10-30/stocks-and-bitcoin-drop-on-tech-earnings-crypto-s-biggest-ever-heist
+· DI Análise: Sem rumo fiscal claro no Lula 4, Copom enfrenta teste como única âncora da economia (Valor Economico) https://valor.globo.com/financas/noticia/2026/10/30/analise-sem-rumo-fiscal-claro-no-lula-4-copom-enfrenta-teste-como-unica-ancora-da-economia.ghtml
+· USDBRL Ibovespa tem 5º dia seguido de queda e dólar oscila acima de R$ 5,40 (Exame) https://exame.com/invest/mercados/ibovespa-tem-5o-dia-seguido-de-queda-e-dolar-oscila-acima-de-r-540/
+· INTC Intel CEO Warning Sends Dell Stock Sinking (Yahoo Finance) https://news.google.com/rss/articles/CBMimAFBVV95cUxOQkFJRmFuYzNwTUZ5Y0llclNuSkpiYXpDaVV1YjRlZkthOWgwOThYNk5JOUE1RzU5VlY0YTdMRWJxZTlKVnYzTm16UklIRlB6WnJQQ08tcDQxaWZuZEo2QklmZ0h2dS15UndGYm95OHIwZl9lU2FIMmZYN0h4WVptUlVnYjJpUmhaSVVlZmNleE15M2hFSG1sUQ?oc=5
+· VALE3 Vale sobe quase 3% após balanço, mas bancos veem desafios no minério (UOL Economia) https://news.google.com/rss/articles/CBMixgFBVV95cUxOQ3lLU3FGcUl6U0VLcDVUcEt6NncyMUxoMzh1S0NDNkpLVUZob0tHdU4xLUw5bk1QV3pwcVhxbC1EUW1laF9GM3c4a0dBeVZfaWVXOVdzWkVYVGhLVGRqdkoydWVFbk1nbHJudV9aTkNlcTR5aVNuQU45SHl3aGZaaVRlV3hMaXVVcWtZbzhPaWpVUHo2cUItelVGU2IteWhDSnpsNV9UM3pCWlR3d1RVd3F2dmJWZXVmRmRGU2xyS3Nxbmo2Q1E?oc=5
+· INTC Why Intel’s stock is sinking toward its worst day in decades — and a $140 billion wipeout (MarketWatch) https://news.google.com/rss/articles/CBMiqAFBVV95cUxPaHQ0c3hjdWIwT0JpY0drUldfYW95NTNkakFrSXNLc3JJdW4zUDV2bVBzNDNxYmJEdEpfUk95TmQ0NzBwTE5temM2ZFRLVEE3R19XYVlyRE5hcUlMczZKUEFhOTU4MHlnbWt2T0o5azZ5SGdORk81RDFjUV9WdGJ4a3dsSkNlZm9aLW1XR1RpQ1hXaGNzS0pBdnpmTUZJTHdMeGNzX1RXVXg?oc=5
+· CVX Chevron Shares Rise 2.2% as Q3 Earnings Beat Forecasts on Strong Refining Margins (Yahoo Finance) https://news.google.com/rss/articles/CBMihwFBVV95cUxPVGV1M21Day05eEhQdDAyR0VELS1qVUN4bzM2anZRbjRSbktkVDd2bHNlTjZwcTBMRFJqUVlodVpLRjRkcUZIOFZhd3dJT1hhZG96VzYyaHdHbmJfQ3pRSUlfOWhfRTI2V1lDbTd0UllYUllCYVlMTm9JOVdVaXVFNW9rSGd4cTQ?oc=5
+· GOOGL Google Stock Plunges 12% on AI Fears, but Joseph Carlson Isn't Selling, Says Shares Look Cheap (Yahoo Finance) https://news.google.com/rss/articles/CBMilgFBVV95cUxQalZiV091eF9VdjNNU1J1bVFrWjFybHNTUjBBYndaTHRTaW9ZWnA5cHEweDBra0FwYnJtY0pGSzdZd0gtSk5aNERtSVRtckU3aGdjUXc1ajFZcXFzS0ZzUjlYZ0paM2o5U1BCbl8wUjdIWElNM29Pb2Zfdl9xM0x6djg2Q2lwR2F1QzRJTzkwYlljcHBSSlE?oc=5
+· CVX Chevron’s Profit Nearly Tripled From a Year Ago. Is CVX Stock a Buy After Its Blowout Earnings Report? (Yahoo Finance) https://news.google.com/rss/articles/CBMinwFBVV95cUxOUWJuMFdHYTdaX2s1V0pKQ09sRUNRbjJxdU1JNjZMRGpLaTBkYWpIRFdWV0N1U192eVlJcjJmQng3d3pjZnVNTzR5a3NLelVyT0h5dndUckdZdHdQMDFROWFhYjdYemJ4aXZIcHcwVzh1c2J5MlVRNXQ2aC11dFIzdkUzQ0o1X0hXRVhsUEg0Mk00azhBZTVISEtjTXZGcDA?oc=5
+· PETR4 Petrobras confirma terceira descoberta de petróleo na costa do Amapá e reforça exploração na Margem Equatorial (ADVFN) https://news.google.com/rss/articles/CBMi3wFBVV95cUxOMTAxaWpuZUMyVkhBc2w4Ukt6OVZyME1qNWNWVzJaOEl4dHVQMFRDVjdRTENYdWM3LVBINFlwWWFkUHVpOUZ0cDBSWkRfMHlaZ09ValdneE5CeWFxOTI3ay1yVktIZ1JxTmdVMXlnam0ta2lBT1dWVjBEUGpLcHJsbUxLYU90S2d0M05aV0FPR3dVRk1sUGdab242NWZGUHYwRGppNkhNLXhwNVRCSnoxNHRKdlJIdG1TUU96TWRRdENOTERVeTRtWEM5c25Ud2lYRXBKYks5My1EeGJxTTkw?oc=5
+· VALE3 Vale third-quarter profit tumbles, iron ore output misses forecasts (Mining.com) https://news.google.com/rss/articles/CBMimgFBVV95cUxPOElZVEFYWVFvMXI2YU1GNXNVQjhZcHZqcXgyUDhJQThGQWpiWEp5LVlfRm1EemNUS3VBMS1wYk8zTDdhR2dMbW9wekowSGdmSmZVZ0Q5UjkxZDBHck91NW1SZkx5QTF6NE5Td0dOaGpYU3VpWjEyRGVySWl1NXZNTmR6UHJXbHdYYV9ickpyRlVlRFY1Rk0xWmZn?oc=5
+· PLTR A prominent law firm is unraveling—but Palantir has an intriguing offer (Fortune) https://news.google.com/rss/articles/CBMiowFBVV95cUxNTHY0WUY1c2dCYmQxWk1yMW5ZcjQwSHlyNHVOU2Z1Wmt6Z1N5cFlSR1VTSUJOYmxKWjZVX2N5MGpRZkNsVDRBT3RMaXgteVVUdDNtYUFsT0tQWDFIMUJraXkteUg4OUtxaGJ6aTRneFdLSE9XWFc4UXBzLWVEVDAxQjdvZUVGOURMYlkzUmM0eTJWUHlvdm5CVWgzX19YdVRwZDY0?oc=5
 · CVX Chevron Corporation (CVX) Stock Forecasts (Yahoo Finance) https://ca.finance.yahoo.com/research/reports/MS_0P00000185_AnalystReport_1793361255000
 · USDBRL Dólar hoje sobe quase 1% e ultrapassa R$ 5,40 em dia de formação da Ptax (InfoMoney) https://www.infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-30102026/
 · PLTR Palantir heads into Q3 earnings with strong demand signals, but valuation concerns persist (PLTR:NASDAQ) (Seeking Alpha) https://seekingalpha.com/news/4661214-palantir-heads-into-q3-earnings-with-strong-demand-signals-but-valuation-concerns-persist
