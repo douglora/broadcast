@@ -1,8 +1,21 @@
-NOTÍCIAS E FATOS · 30/10 16h22
+NOTÍCIAS E FATOS · 30/10 17h22
 
-Pernas: noticias ok 16 novas (18 consultas; descartadas: 381 veículo fora da lista, 34 sem ativo, 1 teto) · cvm ok 0 novos de 16 (9 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 15 novas (18 consultas; descartadas: 362 veículo fora da lista, 32 sem ativo, 1 teto) · cvm ok 1 novos de 17 (9 cias casadas) · sec ok 0 novos em 3 dias
 
-## FATOS RELEVANTES E COMUNICADOS (CVM) (2)
+## FATOS RELEVANTES E COMUNICADOS (CVM) (3)
+
+[ATENÇÃO] E03 · AXIA3 · Comunicado ao Mercado: Recebeu comunicado do Banco Clássico S.A. informando que, em decorrência exclusivamente da conversão de ações preferenciais classe “C” (“PNC”) em açõ…
+CVM · entregue 30/10/2026 17:02 · Aquisição/Alienação de Participação Acionária Relevante / Declaração de Aquisição de Participação Acionária Relevante
+Do documento:
+  – O Banco Clássico S.A. declara que não participa de qualquer contrato ou acordo que regule o exercício  de direitos de voto sobre valores mobiliários da AXIA Energia.
+  – Informa ainda que sua participação  societária tem caráter exclusivamente de investimento, sem intenção de alterar o controle acionário ou a  estrutura da Companhia.
+  – Eduardo Haiama  Vice-Presidente Financeiro e de Relações com Investidores
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1582311
+Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; confirma ou nega o que circula
+Ativos: AXIA3
+Como falar: 'a Axia Energia publicou comunicado ao mercado sobre Recebeu comunicado do Banco Clássico S.A. informando que, em decorrên…'
+Fonte: CVM 30/10
+id: E03-AXIA3-1582311-2026-10-30 · status: pendente · íntegra disponível
 
 [INFO] E03 · VALE3 · Comunicado ao Mercado: Apresentações a analistas/agentes do mercado
 CVM · entregue 30/10/2026 10:56 · Apresentações a analistas/agentes do mercado
@@ -64,7 +77,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: BTC
 Como falar: 'saiu no MarketWatch: Is your crypto safe? What Binance’s $6.3 billion hack means for bitcoin investors.; confirmar o número no texto antes de repassar'
 Fonte: MarketWatch 30/10 15h50
-id: E05-BTC-12e5f8920b-2026-10-30 · status: pendente
+id: E05-BTC-12e5f8920b-2026-10-30 · status: entregue
 
 [ATENÇÃO] E05 · VALE3 · Vale (VALE3) tem lucro de US$ 1,25 bi no 3T26, queda de 53% em um ano
 Suno Noticias · 30/10 10h51 · fonte única · licença: resumo
@@ -80,7 +93,7 @@ Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; 
 Ativos: VALE3
 Como falar: 'saiu no Suno Noticias: Vale (VALE3) tem lucro de US$ 1,25 bi no 3T26, queda de 53% em um ano; confirmar o número no texto antes de repassar'
 Fonte: Suno Noticias 30/10 10h51
-id: E05-VALE3-91b2d52f0a-2026-10-30 · status: pendente
+id: E05-VALE3-91b2d52f0a-2026-10-30 · status: entregue
 
 [ATENÇÃO] E05 · AMZN · Watch Intel Tumbles on PC Outlook, AWS CEO on AI Spending and Growth
 Bloomberg · 30/10 14h45 · fonte única · licença: manchete
@@ -290,8 +303,23 @@ Fonte: Yahoo Finance 29/10 16h47
 id: E05-KO-57cc816b05-2026-10-29 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (137)
+## OUTRAS NOTÍCIAS (só manchete) (152)
 
+· DI Uma reunião muito difícil para o Copom (Estadao) https://www.estadao.com.br/economia/fernando-dantas/uma-reuniao-muito-dificil-para-o-copom/
+· DI Itaú vê fim do ciclo de cortes da Selic diante de cenário mais adverso (NeoFeed) https://neofeed.com.br/economia/itau-ve-fim-do-ciclo-de-cortes-da-selic-diante-de-cenario-mais-adverso/
+· BTC Worried About Crypto Hacks? Buy Bitcoin Proxies in Stock Market Instead, Say Wall Street Firms (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/worried-crypto-hacks-buy-bitcoin-200603005.html
+· USDBRL Dólar tem nova alta e fecha a R$ 5,44; moeda dispara 9% na semana pós-eleições (Money Times) https://www.moneytimes.com.br/dolar-30-10-26-lils/
+· INTC Nasdaq cai quase 4% com tombo da Intel e temor sobre gastos com IA (UOL Economia) https://economia.uol.com.br/cotacoes/noticias/redacao/2026/10/30/nasdaq-cai-quase-4-com-tombo-da-intel-e-temor-sobre-gastos-com-ia.htm
+· ITUB4 Copom vai manter taxa de juros em 1ª reunião após eleições, projeta Itaú (Estadao) https://www.estadao.com.br/cultura/alice-ferraz/copom-vai-manter-taxa-de-juros-em-1-reuniao-apos-eleicoes-projeta-itau/
+· PLTR Palantir Stocks Decline 4.94% Before an 11.7% Sequential Revenue Growth Test (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:4e7795c31094b:0-palantir-stocks-decline-4-94-before-an-11-7-sequential-revenue-growth-test/
+· USDBRL Bolsa caminha para 5ª queda consecutiva enquanto dólar vai a R$ 5,45 (CNN Brasil) https://www.cnnbrasil.com.br/economia/money/mercado/mercado-financeiro-ibovespa-dolar-30-outubro-2026/
+· MU Micron Stock: Why I'm Buying, Not Panicking (NASDAQ:MU) (Seeking Alpha) https://seekingalpha.com/article/4960407-micron-stock-why-im-buying-not-panicking
+· BTC Bitcoin Drops as Markets Digest Multbillion-Dollar Binance Hack (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-drops-markets-digest-multbillion-184920368.html
+· AVGO Broadcom Stock Outlook Hinges On AI Chip Growth And Anthropic Partnership (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/broadcom-stock-outlook-hinges-ai-181030148.html
+· MRVL Marvell may buy its own laser supplier as investors pull back (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/marvell-may-buy-own-laser-173300570.html
+· PLTR Will Top-Line Improvement Benefit Palantir in Q3 Earnings? (TradingView (Reuters)) https://www.tradingview.com/news/zacks:22abe701f094b:0-will-top-line-improvement-benefit-palantir-in-q3-earnings/
+· INTC Intel Suffers Worst Stock Thrashing in Decades on Weak Forecast (Bloomberg) https://news.google.com/rss/articles/CBMisgFBVV95cUxPaURpSDFJSVlDdjY1d0wtcmQxOVpjYmowVTBSaEZCelVCWGNoVGI2VVR2UWNVcVZDVHVyUjFIMWdvQ0FfQ1dDdkpXWmdKUXRuNG9wVnlJRjNPTzFvcTB1TFV0QjdIVHhUZEZhOHFrdGJfSGNHbF9La09hYVhrempMWm5mTHZWMlJKUElqXzNYbjJKa3ZpZ0dZTE5Kb3JHb212eEtyNUQzNkltOUhnTlVNNWlR?oc=5
+· CVX Chevron Corp. R (CHV.F) Q3 FY2026 earnings call transcript (Yahoo Finance) https://news.google.com/rss/articles/CBMijwFBVV95cUxOUnF5bFZIaVN5WlR2LXJxR0dLalQzeVJGR0p1Yl80UjluaTRTTHFhby1XS0JUSmd6NmpReE5hZjhYcEtQMks1ZUxtLVc5cEgyYlhCc2pjdTZGQzhEbHZrb0VGV0ZFYlhxQXFLX0lEWFNIdDFfXzRwOTFIQXNDNVhNZmlhMGRCczBFZHV5VHJldw?oc=5
 · BTC 'Sentiment will take a hit': Binance $6.3 billion hack rattles bitcoin, crypto market (Yahoo Finance) https://finance.yahoo.com/markets/article/copy-intel-amazon-lead-tech-lower-bitcoin-falls-on-suspected-biggest-crypto-hack-in-history-alphacheck-190920999.html
 · INTC Update: Nasdaq Plummets 975 Points as Intel's Results Help Trigger Sell-Off in Mega-Cap Chipmakers (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/nasdaq-plummets-975-points-intel-185707804.html
 · BBDC4 Magalu tem ventos favoráveis, mas macro desafiador; Bradesco BBI mantém visão neutra (InfoMoney) https://www.infomoney.com.br/mercados/magalu-mglu3-tem-ventos-favoraveis-mas-macro-desafiador-bbi-mantem-visao-neutra/
@@ -337,19 +365,4 @@ id: E05-KO-57cc816b05-2026-10-29 · status: linha
 · PETR4 Após eleição, o que mudou na tese de petroleiras? Petrobras e PRIO são as preferidas (InfoMoney) https://www.infomoney.com.br/mercados/apos-eleicao-o-que-mudou-na-tese-de-petroleiras-petrobras-e-prio-sao-as-preferidas/
 · USDBRL Dólar atinge R$5,43 e Ibovespa cai com preocupações sobre novo governo Lula (TradingView (Reuters)) https://br.tradingview.com/news/reuters.com,2026:newsml_L2N46G0WJ:0/
 · INTC Stocks making the biggest moves midday: Intel, Lumentum, Sandisk, Twilio, Coinbase & more (CNBC) https://www.cnbc.com/2026/10/30/stocks-making-the-biggest-moves-midday-intc-lite-sndk-twlo-coin.html
-· INTC After Intel’s historic stock drop, analysts say there’s no reason to buy the dip (MarketWatch) https://www.marketwatch.com/story/after-intels-historic-stock-drop-analysts-say-theres-no-reason-to-buy-the-dip-068446af
-· INTC Update: US Equity Indexes Slide as Mega-Cap Chipmakers Sink Following Intel's Results (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-slide-mega-163842952.html
-· INTC Intel’s Earnings Fallout Is Hitting Your Index Funds Too (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/intel-earnings-fallout-hitting-index-162111051.html
-· GOOGL Alphabet loses $475 billion in market value, the biggest drop in its history (Yahoo Finance) https://news.google.com/rss/articles/CBMi0wFBVV95cUxOb0pfRGxYakdFTWU5eXlYYTd5cGVuVmpzMDFiMDBuX2ZOQVB5aFV1Qmk1dEhXQWwtSVNtU2ZOSTNfVDMxS2NoMUpTbmJ3a0hYOGtvOGJldXlkU3k2N3djaVhDMUNGN0g5Q1J2SzRXMkhXbzI3MUxqd2t5SEszX0JEZWZPUmRSd3VZQmYyZzZZeDNvY0hKaExMcnNTbHhzeTItckpZaEJmbWxodHVla2FKTTN4cmdFY2VjWk96cjdwLUtjX3FMRmZwLVp3SHJiX2xNajBR?oc=5
-· VALE3 VALE3: Queda expressiva das ações dá oportunidade de recompras, diz CFO (InfoMoney) https://news.google.com/rss/articles/CBMikAFBVV95cUxNRWxpaTJybXdGX3JzdTVJRndjSF9uSUdNblNhVENUbzRnOEZQUDJlc3NSLUE2cUs1ZWdzUjBhdUFPZU05TGd3aWZfTjl4NkdIbXNHbUpaOHhQeURkeG1sWlhxNEo0ak5BRFI3SEQzTm5ycFVyZTU4STk3RGdmRHc2Y1FGLUdBR1l4WHN1Rmo4MHnSAZYBQVVfeXFMUENzUlcxZ1R0OWtBVXprRVh3dE1YTHg0cTYxNEl6eEp3N2dxMDlWRnlpQnU5ZkZNdDRHY2FEblRJS0Z0eXJiSnpFLUVUcGNMNkdZTUhicVliNm9TRjlKVVI1cFZMTlpkLXEzN3h4aVRpeHpjQWZRQ00yOXR3WlFNTTIyaXZUT3JjTFBXenpISDJrTXRaSGVB?oc=5
-· ITUB4 BTG (BPAC11) sofre corte de recomendação e preço-alvo pelo Itaú BBA, e ação sente (Money Times) https://news.google.com/rss/articles/CBMirgFBVV95cUxOWENocTdrM2JISS1JVW9HcWFhRk5hZVZ3X3dPNGVrSTdNZ2JBZEk3cnZhc2pjX0JlX2RkejlJVVFjd01GUERUcGczUU4zd091U2NNTXFTYkFDdUszRWw5dTZ3NW56a25XbmhpR3VZd3prU3lBQ3hJN0JiaGRFQllFV1hPSjcwcDJybHZYVjk4WlNLNGFIMmlsSFh2ZEpBTG9JX2NoTmpMdllLS3ZrbEE?oc=5
-· VALE3 Minas da Vale em Carajás encolhem 43% e decreto das cavernas espera Lula (Exame) https://exame.com/invest/mercados/minas-da-vale-em-carajas-encolhem-43-e-decreto-das-cavernas-espera-lula/
-· NVDA It’s Time to Revisit The Nvidia Vs. AMD Debate (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/time-revisit-nvidia-vs-amd-164533739.html
-· EQTL3 Equatorial (EQTL3) eleva energia injetada em 9,7% no 3T26; veja detalhes (Suno Noticias) https://www.suno.com.br/noticias/eqtl3-energia-injetada-3t26-go/
-· VALE3 Volumes e custos do minério de ferro e da VBM estão dentro do esperado, afirma Vale (Valor Economico) https://valor.globo.com/empresas/noticia/2026/10/30/volumes-e-custos-do-minerio-de-ferro-e-da-vbm-estao-dentro-do-esperado-afirma-vale.ghtml
-· AMZN Amazon’s Earnings Dip: One Furlong in a Long Race (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/amazon-earnings-dip-one-furlong-164401220.html
-· AMZN Nasdaq hits near three-month low as Amazon, Intel rattle AI trade (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/nasdaq-futures-sink-amazon-intel-114737736.html
-· CVX Chevron Stock Rises as Oil Price Surge Fuels Earnings Beat (Barron's) https://www.barrons.com/articles/chevron-earnings-stock-price-caffbb66
-· INTC Intel Just Warned It Probably Won’t Generate Free Cash Flow Next Year (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/intel-just-warned-probably-won-111810536.html
-· BBDC4 Ibovespa fecha abaixo de 170 mi pontos com Bradesco entre pressões (UOL Economia) https://economia.uol.com.br/noticias/reuters/2026/10/29/ibovespa-fecha-abaixo-de-170-mi-pontos-com-bradesco-entre-pressoes.htm
-· (+77 manchetes; lista completa em eventos/noticias.json)
+· (+92 manchetes; lista completa em eventos/noticias.json)
