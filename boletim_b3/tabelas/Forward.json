@@ -1,19 +1,19 @@
 {
- "pregao": "2026-10-28",
+ "pregao": "2026-10-29",
  "nome": "Forward",
  "titulo": "Ações mais negociadas - a termo",
  "sla": "8:00:00",
  "paginas": 1,
  "colunas": [{"nome": "TckrSymb", "titulo": "Ação"}, {"nome": "Cod", "titulo": "Código"}, {"nome": "Term", "titulo": "Prazo"}, {"nome": "Closing", "titulo": ""}, {"nome": "TradQty", "titulo": ""}, {"nome": "VlmTradedDay", "titulo": "Volume (R$) mil"}, {"nome": "Part", "titulo": "Participação (%)"}],
  "texto": ["Lista ações com maior volume de negociação em contratos a termo, destacando as mais ativas."],
- "situacao": "republicado",
- "atualizado_em": "2026-10-29T03:34:08.533",
+ "situacao": "publicado",
+ "atualizado_em": "2026-10-29T19:04:39.417",
  "truncada": false,
  "linhas": [
-  ["AXIA ENERGIAON      NM", "ON      NM", 37, 49.02, 150000, 7353.000000000001, 0.9784719217045036],
-  ["SUZANO S.A. ON      NM", "ON      NM", 37, 49.34, 290000, 14308.600000000002, 1.89171238196204],
-  ["AXIA ENERGIAON      NM", "ON      NM", 61, 49.24, 413280, 20349.907199999998, 2.695885838680247],
-  ["AXIA ENERGIAPNC ATZ NM", "PNC ATZ NM", 16, 49.19, 2085300, 102575.907, 13.602716655536003],
-  ["VIBRA       ON      NM", "ON      NM", 30, 30.93, 3521900, 108932.367, 22.973868407007263]
+  ["ALLIED      ON      NM", "ON      NM", 21, 5.04, 257000, 1295.28, 5.047658141951146],
+  ["TRD SPX USD CI", "CI", 60, 18.23, 578090, 10538.5807, 11.354088308484585],
+  ["ITAUUNIBANCOPN      N1", "PN      N1", 180, 42.15, 643200, 27110.88, 12.632893840089407],
+  ["ASSAI       ON      NM", "ON      NM", 90, 8.24, 1000000, 8240, 19.64069315934298],
+  ["ENERGISA    UNT     N2", "UNT     N2", 32, 44.67, 1537800, 68693.526, 30.203457940437637]
  ]
 }

@@ -1,5 +1,5 @@
 {
- "pregao": "2026-10-28",
+ "pregao": "2026-10-29",
  "nome": "ProventionCreditVariable",
  "titulo": "Crédito de proventos",
  "sla": "00:00:00",
@@ -7,15 +7,27 @@
  "colunas": [{"nome": "TckrSymb", "titulo": "Emissor"}, {"nome": "Code", "titulo": "Código ISIN"}, {"nome": "EarningsType", "titulo": "Tipo de provento"}, {"nome": "DateAge", "titulo": "Data de aprovação"}, {"nome": "Value", "titulo": "Valor (R$)"}, {"nome": "CreditDate", "titulo": "Data de crédito"}],
  "texto": ["Crédito de proventos é o montante recebido por investidores como retorno sobre investimentos em ações ou outros ativos de renda variável. Nesta tabela, estão informações sobre esses rendimentos."],
  "situacao": "publicado",
- "atualizado_em": "2026-10-28T21:32:12.603",
+ "atualizado_em": "2026-10-29T21:11:05.927",
  "truncada": false,
  "linhas": [
-  ["SCHULZ S.A.", "BRSHULACNOR7 163", "JUROS SOBRE CAPITAL PRÓPRIO", null, 0.070302839, "2026-10-28"],
-  ["SCHULZ S.A.", "BRSHULACNPR4 164", "JUROS SOBRE CAPITAL PRÓPRIO", null, 0.077333123, "2026-10-28"],
-  ["GLOBAL X NASDAQ 100 COVERED CALL ETF", "BRBQYLBDR000 153", "DIVIDENDO", null, 0.20738459, "2026-10-28"],
-  ["RBR DESENVOLVIMENTO LOGÍSTICO I - FII RESP LIMITAD", "BRRDLICTF006 106", "AMORTIZAÇÃO", null, 15.38307228, "2026-10-28"],
-  ["LENNAR CORP", "BRL1ENBDR005 129", "DIVIDENDO", null, 0.212949798, "2026-10-28"],
-  ["PRUDENTIAL PLC", "BRP1UKBDR003 112", "DIVIDENDO", null, 0.203923077, "2026-10-28"],
-  ["JOHN WILEY & SONS INC", "BRJ2WABDR006 117", "DIVIDENDO", null, 0.243643836, "2026-10-28"]
+  ["ADVANCE AUTO PARTS INC", "BRA1APBDR001 127", "DIVIDENDO", null, 0.058129484, "2026-10-29"],
+  ["BCO PINE S.A.", "BRPINEACNOR1 162", "JUROS SOBRE CAPITAL PRÓPRIO", null, 0.178953, "2026-10-29"],
+  ["BCO PINE S.A.", "BRPINEACNPR8 162", "JUROS SOBRE CAPITAL PRÓPRIO", null, 0.178953, "2026-10-29"],
+  ["BRADESCO CARTEIRA IMOBILIÁRIA ATIVA - FII", "BRBCIACTF005 237", "RENDIMENTO", null, 0.86, "2026-10-29"],
+  ["BTG PACTUAL IE DIV. FDO INV. PART. IE", "BRBDIVCTF009 126", "RENDIMENTO", null, 1.6, "2026-10-29"],
+  ["COCA-COLA FEMSA SAB DE CV", "BRC2CABDR005 114", "DIVIDENDO", null, 0.99805913, "2026-10-29"],
+  ["ELECTRO ACO ALTONA S.A.                           ", "BREALTACNOR4 134", "DIVIDENDO", null, 0.006275, "2026-10-29"],
+  ["ELECTRO ACO ALTONA S.A.", "BREALTACNOR4 139", "JUROS SOBRE CAPITAL PRÓPRIO", "2025-12-11", 0.216606, "2026-10-29"],
+  ["ELECTRO ACO ALTONA S.A.", "BREALTACNOR4 140", "DIVIDENDO", null, 0.05640378549, "2026-10-29"],
+  ["ELECTRO ACO ALTONA S.A.                           ", "BREALTACNPR1 134", "DIVIDENDO", null, 0.006903, "2026-10-29"],
+  ["ELECTRO ACO ALTONA S.A.", "BREALTACNPR1 139", "JUROS SOBRE CAPITAL PRÓPRIO", "2025-12-11", 0.238266, "2026-10-29"],
+  ["ELECTRO ACO ALTONA S.A.", "BREALTACNPR1 140", "DIVIDENDO", null, 0.06204416404, "2026-10-29"],
+  ["FIDC BB VOTORANTIM HIGHLAND INFRA - RESP. LTDA.", "BRBBVHCTF013 108", "RESGATE RENDA VARIÁVEL", null, 272.73, "2026-10-29"],
+  ["IGUATEMI S.A.", "BRIGTIACNOR8 111", "DIVIDENDO", null, 0.02412606561, "2026-10-29"],
+  ["IGUATEMI S.A.", "BRIGTIACNPR5 111", "DIVIDENDO", null, 0.07237819684, "2026-10-29"],
+  ["IGUATEMI S.A.", "BRIGTICDAM16 111", "DIVIDENDO", null, 0.16888245929, "2026-10-29"],
+  ["ITAÚ TEMPUS FUNDO DE INVESTIMENTO IMOBILIÁRIO RESP", "BRTMPSCTF003 143", "AMORTIZAÇÃO", null, 6.5, "2026-10-29"],
+  ["SYSCO CORP", "BRS1YYBDR003 128", "DIVIDENDO", null, 0.341033929, "2026-10-29"],
+  ["VIVMARK RESIDENTIAL", "BRVMRKBDR003 100", "DIVIDENDO", null, 0.43752516, "2026-10-29"]
  ]
 }

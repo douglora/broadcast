@@ -1,5 +1,5 @@
 {
- "pregao": "2026-10-28",
+ "pregao": "2026-10-29",
  "nome": "InCashMarketBiggestHighs",
  "titulo": "Mercado à vista - maiores altas",
  "sla": "8:00:00",
@@ -7,18 +7,18 @@
  "colunas": [{"nome": "TckrSymb", "titulo": "Ação"}, {"nome": "Cod", "titulo": "Código"}, {"nome": "Price", "titulo": "Preço (R$)"}, {"nome": "Oscillation", "titulo": "Oscilação (%)"}],
  "texto": ["Mostra as maiores valorizações de ativos no mercado à vista, destacando as melhores performances."],
  "situacao": "publicado",
- "atualizado_em": "2026-10-28T19:05:02.673",
+ "atualizado_em": "2026-10-29T19:00:39.017",
  "truncada": false,
  "linhas": [
-  ["BIAK39", "DRE", 51.5, 12.2],
-  ["C2EM34", "DRN", 56.58, 17.26],
-  ["V1RT34", "DRN", 130.56, 17.29],
-  ["MDTC34", "DRN", 75, 19.04],
-  ["BIHA39", "DRE", 136.08, 19.98],
-  ["MAPT3", "ON", 2.51, 21.84],
-  ["EVTC31", "DR1", 166.08, 29.31],
-  ["AZUL97", "UNT     N2", 0.91, 42.18],
-  ["ERPA11", "CI", 229.99, 75.84],
-  ["BFTC39", "DRE", 94.41, 98.67]
+  ["B2AH34", "DRN", 45.28, 20.39],
+  ["I2ND34", "DRN", 9.5, 21.01],
+  ["AZUL97", "UNT     N2", 1.15, 26.37],
+  ["L1HX34", "DRN", 379.4, 28.52],
+  ["T2DH34", "DRN", 47.56, 33.07],
+  ["AZEV3", "ON", 8.89, 37.4],
+  ["ICLR34", "DRN", 59.16, 38.22],
+  ["I1FO34", "DRN", 48.04, 50.69],
+  ["BLOG11", "CI", 9.69, 59.9],
+  ["TOKY11", "BNS ORD NM", 0.34, 78.94]
  ]
 }

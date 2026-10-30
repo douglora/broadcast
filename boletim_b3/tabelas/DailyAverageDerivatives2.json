@@ -1,5 +1,5 @@
 {
- "pregao": "2026-10-28",
+ "pregao": "2026-10-29",
  "nome": "DailyAverageDerivatives2",
  "titulo": "Derivativos",
  "sla": "6:00:00",
@@ -7,17 +7,17 @@
  "colunas": [{"nome": "TckrSymb", "titulo": "Período"}, {"nome": "TotalWithMinis", "titulo": "Total com minis"}, {"nome": "TotalNoMinis", "titulo": "Total sem minis"}, {"nome": "ColOrder", "titulo": "Ordem"}],
  "texto": ["Médias diárias de contratos negociados."],
  "situacao": "republicado",
- "atualizado_em": "2026-10-29T05:51:54.767",
+ "atualizado_em": "2026-10-29T19:40:28.883",
  "truncada": false,
  "linhas": [
-  ["Dia", 74730972, 44950395, 1],
-  ["Mês", 56928711.94736842, 33085188.57894737, 2],
+  ["Dia", 39957798, 13920234, 1],
+  ["Mês", 56080166.25, 32126940.85, 2],
   ["Mês anterior", 50441097.28571428, 29593978.19047619, 3],
-  ["Trimestre", 56928711.94736842, 33085188.57894737, 4],
+  ["Trimestre", 56080166.25, 32126940.85, 4],
   ["Trimestre anterior", 45510770.24615385, 26562911.353846155, 5],
-  ["Semestre", 48093399.916666664, 28038188.345238097, 6],
+  ["Semestre", 47997686.95294118, 27872094.76470588, 6],
   ["Semestre anterior", 59458480.24590164, 38409709.13934426, 7],
-  ["Ano", 54824175.64563107, 34180545.32038835, 8],
+  ["Ano", 54752357.39613526, 34082669.42028985, 8],
   ["Ano anterior", 49163413.67460317, 31961295.785714287, 9]
  ]
 }

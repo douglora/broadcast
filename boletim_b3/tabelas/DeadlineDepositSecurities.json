@@ -1,5 +1,5 @@
 {
- "pregao": "2026-10-28",
+ "pregao": "2026-10-29",
  "nome": "DeadlineDepositSecurities",
  "titulo": "Prazo para depósito de títulos",
  "sla": "00:00:00",
@@ -7,12 +7,31 @@
  "colunas": [{"nome": "UpdateDate", "titulo": "Data"}, {"nome": "TckrSymb", "titulo": "Empresa"}, {"nome": "Code", "titulo": "Código IF"}, {"nome": "Earnings", "titulo": "Tipo de provento"}],
  "texto": ["Informações sobre prazos estabelecidos para depósito de títulos financeiros em uma instituição de custódia. Os detentores de títulos representativos de ações, com direito aos proventos envolvendo as empresas abaixo relacionadas, poderão efetuar o depósito junto à Custódia nos seguintes prazos."],
  "situacao": "publicado",
- "atualizado_em": "2026-10-28T00:00:47.467",
+ "atualizado_em": "2026-10-29T00:00:36.177",
  "truncada": false,
  "linhas": [
-  ["2026-10-29", "BUENA VISTA DEX VETTAFI NEOS MULTI HIGH INCOME", "BRTOPYCTF007 104", "RENDIMENTO"],
-  ["2026-10-29", "CARRIER GLOBAL CORPORATION", "BRC1RRBDR009 124", "DIVIDENDO"],
-  ["2026-10-29", "LITELA PARTICIPAÇÕES S.A.", "BRLTLAACNOR9 117", "RESTITUIÇÃO DE CAPITAL"],
-  ["2026-10-29", "SUNO LOG FII RESP LIM", "BRSNLGCTF007 113", "AMORTIZAÇÃO"]
+  ["2026-10-30", "AES CORP", "BRA1ESBDR007 127", "DIVIDENDO"],
+  ["2026-10-30", "AGREE REALTY CORP", "BRA1DCBDR003 121", "DIVIDENDO"],
+  ["2026-10-30", "ALLIANT ENERGY CORP", "BRA1ENBDR008 127", "DIVIDENDO"],
+  ["2026-10-30", "AO SMITH CORP", "BRA1OSBDR006 127", "DIVIDENDO"],
+  ["2026-10-30", "AON PLC", "BRA1ONBDR007 128", "DIVIDENDO"],
+  ["2026-10-30", "BANCO SANTANDER SA", "BRBCSABDR005 113", "DIVIDENDO"],
+  ["2026-10-30", "CITIGROUP INC.", "BRCTGPBDR000 163", "DIVIDENDO"],
+  ["2026-10-30", "CITIZENS FINANCIAL GROUP INC", "BRC1FGBDR007 126", "DIVIDENDO"],
+  ["2026-10-30", "CONSTELLATION BRANDS INC", "BRSTZBBDR006 130", "DIVIDENDO"],
+  ["2026-10-30", "COSTCO WHOLESALE CORPORATION", "BRCOWCBDR006 146", "DIVIDENDO"],
+  ["2026-10-30", "HUMANA INC", "BRH1UMBDR009 127", "DIVIDENDO"],
+  ["2026-10-30", "JHSF PARTICIPACOES S.A.", "BRJHSFACNOR2 164", "DIVIDENDO"],
+  ["2026-10-30", "KINDER MORGAN INC", "BRKMICBDR002 130", "DIVIDENDO"],
+  ["2026-10-30", "LAS VEGAS SANDS CORPORATION", "BRL1VSBDR008 113", "DIVIDENDO"],
+  ["2026-10-30", "NISOURCE INC", "BRN1ISBDR003 127", "DIVIDENDO"],
+  ["2026-10-30", "NRG ENERGY INC", "BRN1RGBDR009 128", "DIVIDENDO"],
+  ["2026-10-30", "ONEOK INC", "BRO1KEBDR008 126", "DIVIDENDO"],
+  ["2026-10-30", "PERFIN APOLLO ENERGIA FND DE INVEST EM PART.", "BRPFINCTF001 126", "RENDIMENTO"],
+  ["2026-10-30", "PINNACLE WEST CAPITAL CORP", "BRP1NWBDR003 127", "DIVIDENDO"],
+  ["2026-10-30", "REALTY INCOME CORP", "BRR1INBDR000 183", "DIVIDENDO"],
+  ["2026-10-30", "TANGER INC", "BRS1KTBDR002 107", "DIVIDENDO"],
+  ["2026-10-30", "UNUM GROUP", "BRU1NMBDR007 128", "DIVIDENDO"],
+  ["2026-10-30", "ZOETIS INC", "BRZ1TSBDR006 127", "DIVIDENDO"]
  ]
 }
