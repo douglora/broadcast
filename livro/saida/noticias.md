@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 30/10 11h54
+NOTÍCIAS E FATOS · 30/10 13h00
 
-Pernas: noticias ok 17 novas (18 consultas; descartadas: 371 veículo fora da lista, 23 sem ativo, 13 teto) · cvm ok 1 novos de 16 (9 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 17 novas (18 consultas; descartadas: 365 veículo fora da lista, 26 sem ativo, 21 teto) · cvm ok 0 novos de 16 (9 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (2)
 
@@ -55,7 +55,25 @@ Fonte: SEC EDGAR 2026-10-30
 id: E04-AMZN-26000040-2026-10-30 · status: entregue
 
 
-## NOTÍCIAS COM MATERIALIDADE (10)
+## NOTÍCIAS COM MATERIALIDADE (12)
+
+[ATENÇÃO] E05 · AMZN · Top Midday Stories: Intel Shares Plummet After Q3 Revenue Miss, Weak Guidance; Amazon Q3 EPS, Revenue Miss Expectations, Shares Fall
+Yahoo Finance · 30/10 12h47 · fonte única · licença: resumo
+Link: https://finance.yahoo.com/news/top-midday-stories-intel-shares-154739859.html
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: AMZN · INTC
+Como falar: 'saiu no Yahoo Finance: Top Midday Stories: Intel Shares Plummet After Q3 Revenue Miss, Weak Guidance; Amazon Q3…; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 30/10 12h47
+id: E05-AMZN-4c25685f0e-2026-10-30 · status: pendente
+
+[ATENÇÃO] E05 · JPM · JPMorgan Raises NII Outlook: Is JPM Stock Too Expensive?
+TradingView (Reuters) · 30/10 09h30 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/zacks:6795fb197094b:0-jpmorgan-raises-nii-outlook-is-jpm-stock-too-expensive/
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: JPM
+Como falar: 'saiu no TradingView (Reuters): JPMorgan Raises NII Outlook: Is JPM Stock Too Expensive?; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 30/10 09h30
+id: E05-JPM-f6efb4c891-2026-10-30 · status: pendente
 
 [ATENÇÃO] E05 · TSLA · Rivian Gains 5% as R2 Ramp Drives Raised Delivery Outlook; Tesla Falls 3%, Lucid Slides 2%, Ford Eases
 Yahoo Finance · 30/10 10h57 · fonte única · licença: resumo
@@ -71,7 +89,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: TSLA
 Como falar: 'saiu no Yahoo Finance: Rivian Gains 5% as R2 Ramp Drives Raised Delivery Outlook; Tesla Falls 3%, Lucid Slides 2…; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 30/10 10h57
-id: E05-TSLA-7249765cd2-2026-10-30 · status: pendente
+id: E05-TSLA-7249765cd2-2026-10-30 · status: entregue
 
 [ATENÇÃO] E05 · INTC · Intel Sinks 29% as Weak Outlook Shows It’s “Still PC Dependent”
 Yahoo Finance · 30/10 10h39 · fonte única · licença: resumo
@@ -87,7 +105,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: INTC
 Como falar: 'saiu no Yahoo Finance: Intel Sinks 29% as Weak Outlook Shows It’s “Still PC Dependent”; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 30/10 10h39
-id: E05-INTC-6c577073ca-2026-10-30 · status: pendente
+id: E05-INTC-6c577073ca-2026-10-30 · status: entregue
 
 [ATENÇÃO] E05 · JPM · JPMorgan Raises NII Outlook: Is JPM Stock Too Expensive?
 Yahoo Finance · 30/10 09h30 · fonte única · licença: resumo
@@ -197,8 +215,23 @@ Fonte: Yahoo Finance 29/10 16h47
 id: E05-KO-57cc816b05-2026-10-29 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (48)
+## OUTRAS NOTÍCIAS (só manchete) (63)
 
+· VALE3 VALE3: Queda expressiva das ações dá oportunidade de recomprar, diz CFO (InfoMoney) https://www.infomoney.com.br/mercados/vale3-vale-balanco-3t26-teleconferencia-coletiva/
+· VALE3 Ações da Vale (VALE3) sobem forte após 'call' com perspectiva mais positiva sobre câmbio e metais (Valor Economico) https://valor.globo.com/financas/noticia/2026/10/30/acoes-da-vale-vale3-sobem-forte-apos-call-com-perspectiva-mais-positiva-sobre-cambio-e-metais.ghtml
+· GOOGL For Google, the Economics of AI Mode Look Shaky (Bloomberg) https://www.bloomberg.com/news/articles/2026-10-30/google-stock-hammered-after-earnings-raise-ai-revenue-concerns
+· ITUB4 Usiminas (USIM5) cai após balanço e frustra Itaú BBA (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/lucro-volta-ao-azul-mas-acao-despenca-o-que-derruba-a-usiminas-apos-o-balanco/
+· AMZN Amazon falls on concerns over cloud growth and AI spending (CNBC) https://www.cnbc.com/video/2026/10/30/amazon-falls-on-concerns-over-cloud-growth-and-ai-spending.html
+· VALE3 Cerca de 10% da produção do mercado de minério de ferro está perdendo dinheiro, diz CEO da Vale (Valor Economico) https://valor.globo.com/empresas/noticia/2026/10/30/cerca-de-10percent-da-producao-do-mercado-de-minerio-de-ferro-esta-perdendo-dinheiro-diz-ceo-da-vale.ghtml
+· BTC Binance Hack: The Real Test For Bitcoin Comes Tonight And On November 1st (Cryptocurrency:BTC-USD) (Seeking Alpha) https://seekingalpha.com/article/4960216-binance-hack-the-real-test-for-bitcoin-and-ibit-comes-tonight-and-on-november-1st
+· VALE3 Vale considera improvável dividendos extraordinários neste ano, diz CFO (TradingView (Reuters)) https://br.tradingview.com/news/reuters.com,2026:newsml_S0N43N00P:0/
+· AMZN Microsoft and Amazon ‘Won’ With Cloud But Other Hyperscalers Should Celebrate (Yahoo Finance) https://news.google.com/rss/articles/CBMimAFBVV95cUxONjBUa3B5MzFxU0l0OFFvRXVhak1IUnVLZFNQLXNsM05LeGJBOVVjamJ0YVR5ZGgzVkoxMDlOM3AyZ0EtckhSRjhHM0dicHAzdDVjODBvR3UwakFMdmpVNjNWdzVzZERTcmpxTFk4dmFJSkc1VDQ5R0RfMzVtR2lFbDhuWk1fWWxycDVpS1I0MjFjbWlraXNNbw?oc=5
+· GOOGL Alphabet’s Post-Earnings Selloff Is The Best Buying Opportunity In Years (NASDAQ:GOOG) (Seeking Alpha) https://news.google.com/rss/articles/CBMisAFBVV95cUxNR09udjgtZkJ4UzdQbjZvWUg5ZUNIbVZONzJrODFwYUFnbGlVSTk3Y0FVRXluZU8yMWZ6T0Y5RW51OHdnNzU4Sk1uSUxrT2wxVVN2emo2ZE00eEYyemVKdWlZWDAwUDQxaE9EREV6QW1WYnNWOTVnMmZybmcyQllVbW1WdEJzbVdrckQzdnBKdjNmTktnYWdCWjBJMHdRVWVESnlKR3ltVUI1VHBEMm5LWA?oc=5
+· CVX Chevron Profit Nearly Triples as Refining Hits Record (TradingView (Reuters)) https://news.google.com/rss/articles/CBMiswFBVV95cUxOZHZXc2lNbGpmVDNWVXRqWk1TYXd5QmxkVk5ESFNHQVRoMmVBWTlDbVFKU1kwem53c2dRR0dvdzNVWmtJREVxUXc4a0p2YTI4VVVaQW91UklHYlI2eTZzNGI1dUpXVmVvcTlDR0RhcFZGaVlkMWRkNUdGX1JqMGw2TjdWVzRIMTZxY0Z4NWt6NHRhOEx5ZUZrY3dVY0tJOTBRNWlQY0lneVpZZWR2cHdDR2NEUQ?oc=5
+· BAC Bank of America Delivers Stark Warning on Apple Stock Ahead of Earnings (TradingView (Reuters)) https://news.google.com/rss/articles/CBMiywFBVV95cUxPaG1ZVnZiVXJzQk5leGk5cFZULUItR09qVHBfY0RrcnIzN0Nadkhic3NtQ3dTbDR3WE9yb2E3cDAyOEl5eVJJcWJNZ3ozM2NrVXM0TzFoQnMxRFhnMWVlR2RkcjlmUW9LenlrLXdMaDItaGZpQVMwd1VlTXZNeW9HVjNqQ1JDaEJpTDdrZUdtX2d3bm81ekgyQXpIYTZCZUVvZmJqUmRBYTZoMmthV25mdU5CUlFBMnhNMWVsQ3k1WE5HRElXQU0xX1plRQ?oc=5
+· AMZN Nasdaq hits near three-month low as Amazon, Intel deepen AI capex concerns (Reuters) https://news.google.com/rss/articles/CBMisAFBVV95cUxPblVtZktXRjdPbHJBWDM4WWJsV2RyMlhnOVFYRTZPc01udjZNZTVjeHdIN1dVY0w1M1NHbHpxNjV6Vm9jQ3FOUjBIaElyZEdSWWxycmNZdnJwNnBfdTJDc1FBMWVJZ19vR0s3Y1h2Uml2LThWc2NzQ2sxN3NnVzFEeGhvNnpPSElHSFRIQnJreHpCR2c3dnRQbEVYTDlJVjhzVVk3b1gxaFczMFhkb2NDSw?oc=5
+· MRVL Is Marvell Technology (MRVL) Cheap After Its Lumentum Deal Talks Sent Shares Lower? (Yahoo Finance) https://news.google.com/rss/articles/CBMipgFBVV95cUxQMXJJcXFOVHBHMDFPc3l1TkdSNE90ODRhSmZnY09lVDMyMXk3YV9NNzBGNm5tTTVXQUJZMncyU0VOM2pHRWlCbGUzNkhXaWk4YVhFS3RzUVl4QkZvbWlBdzA0ay1VR0MxVjhEc3N0LWNUdlk3X0VLemd1TkozelNLRXU4NVdidVF2MUcwc1V3X2NyRHpQV2lxaVNJak95MGpQY2hNb21R?oc=5
+· UST Treasury Yields Lower On the Month (TradingView (Reuters)) https://news.google.com/rss/articles/CBMijgFBVV95cUxOdUN4cmVHRUFnb0VwY3c4ZE1IcS1PYU9TWDJCNUtPTnd0aFh3OUdua0JxYzRxSWt5eVNwUDFGVW5VQXo3aEc2eGgwUEZ1RTVLN2JHLUN4dzZzWnVYX2RySnBtdWNVUWJURmJmUUJnVGVnNzlpQVk4MWNrX1NUSC1pSmhWQlN2ZjBqcXpGOEh3?oc=5
 · VALE3 Estamos bem posicionados para entregar projeção do ano, diz CEO Vale (Valor Economico) https://valor.globo.com/empresas/noticia/2026/10/30/estamos-bem-posicionados-para-entregar-projecao-do-ano-diz-ceo-vale.ghtml
 · VALE3 Vale registra alta de 66% no resultado do cobre e mantém produção dentro das metas para 2026 (Estadao) https://bluestudio.estadao.com.br/agencia-de-comunicacao/agencia-minera-brasil/vale-registra-alta-de-66-no-resultado-do-cobre-e-mantem-producao-dentro-das-metas-para-2026/
 · BAC Bank of America Delivers Stark Warning on Apple Stock Ahead of Earnings (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/bank-america-delivers-stark-warning-143709551.html
@@ -244,6 +277,4 @@ id: E05-KO-57cc816b05-2026-10-29 · status: linha
 · CVX Chevron earnings beat by $0.40, revenue topped estimates (Investing.com) https://news.google.com/rss/articles/CBMiogFBVV95cUxQd1o3RGpvWlhDYnBBazBPMl93MkdzNHplcGhMNk1FTXBFRU14R1FRRExrUWdhaXlsNXBFTWg1a1RIeXhTdFFYS0hXdkVTWXV1VllQRlpZODNGZm1KUHpMcTV0Z09lQ0dQV2tNbm1KWWkwOUlYZU05Z1c0MDlNYmx6QlZDOXpxZHJKRnFOakhfekJUUFo0d29xVFNTTWp0enJxcWc?oc=5
 · AMD AMD Shares Fall 6.5% as Intel’s Weak PC Market Forecast Raises Semiconductor Demand Concerns (Yahoo Finance) https://news.google.com/rss/articles/CBMijAFBVV95cUxQeUoycS1rbkxSeHhVdV9DR3ZpQkhGem5HUGJNQ3pqM0ctRkE4a0tHdjl4Zi1mZG51dGpQTEdvN0RSTmFVUDJwZ0hYbkpGS2pRVnJIYzBRWWx2S29VajhNeEhZRmJuZmhWeVhzWXdjRFliQ0lybnpVbkd4UFBsUm1NWEFTV1ExbUxBZ0ZNNw?oc=5
 · CVX Chevron tops Q3 expectations on higher downstream profit (Reuters) https://news.google.com/rss/articles/CBMiqAFBVV95cUxPcEliUm9zdHRocDhkd3BGMjNFaThOM2hJTjBCQUVWSlFwb2hzd0pvSTNyVTRZeGFaU1NhYW1tVHdYZ3lzTlFHa3dvaURGOTE1SWxNb2plNDdvVGFlTFBEQWdyajNEdm1XYnJ3Ykoxc2FaVGJXSW15NTNXVm9mUEFfSkpXVWdwUWNGM2VYc0pXbDlRTm5XMDZoQkR1NGx2SEhHN0ROSWpSSjg?oc=5
-· GOOGL Alphabet’s worst day ever leaves Google search valued below fossil fuel stocks, BofA says (Fortune) https://fortune.com/2026/10/29/alphabet-worst-day-google-search-valuation-energy-sector-bofa/
-· BTC Bitcoin tumbles below $78,000, extending losses as Binance security scare rattles crypto markets (CNBC) https://www.cnbc.com/2026/10/30/bitcoin-ether-price-binance-security-scare-rattles-crypto-markets.html
-· AMZN Amazon CEO says shopping agents like Meta’s Muse ‘not great’ (Fortune) https://fortune.com/2026/10/29/amazon-ceo-says-shopping-agents-like-metas-muse-not-great/
+· (+3 manchetes; lista completa em eventos/noticias.json)

@@ -1,60 +1,50 @@
 ALERTAS · intradia
 
-[ATENÇÃO] E05 · TSLA · Rivian Gains 5% as R2 Ramp Drives Raised Delivery Outlook; Tesla Falls 3%, Lucid Slides 2%, Ford Eases
-Yahoo Finance · 30/10 10h57 · fonte única · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – Quick Read - Rivian beat Q3 revenue estimates with $2.16 billion and narrowed its loss to $0.48 per share, as CEO Scaringe confirmed R2 is already its best-selling vehicle by volume.
-  – - Tesla dropped 3% and Lucid slid 2% as broad EV sector weakness weighed on peers, leaving Rivian as a rare gainer in the space.
-  – - Rivian raised its 2026 delivery floor to 67,000 vehicles but faces risks including ongoing cash burn and R2 potentially cannibalizing R1 sales.
-  – Stronger-than-expected Q3 2026 results are lifting Rivian Automotive (NASDAQ:RIVN) despite weakness in electric vehicle (EV) stocks, and its cheaper R2 SUV drove a raised outlook.
-  – Rivian stock is at $12.06, up 5% in early trading.
-  – For a sector-level check, the iShares Self-Driving EV and Tech ETF (NASDAQ:IDRV) is down 1.3%.
-Link: https://finance.yahoo.com/markets/stocks/articles/rivian-gains-5-r2-ramp-135705539.html
-Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
-Ativos: TSLA
-Como falar: 'saiu no Yahoo Finance: Rivian Gains 5% as R2 Ramp Drives Raised Delivery Outlook; Tesla Falls 3%, Lucid Slides 2…; confirmar o número no texto antes de repassar'
-Fonte: Yahoo Finance 30/10 10h57
-Push: intradia: 2 alertas de atenção — E05 TSLA, E05 INTC · detalhe na sessão
-ids: E05-TSLA-7249765cd2-2026-10-30
+[ATENÇÃO] E05 · AMZN · Top Midday Stories: Intel Shares Plummet After Q3 Revenue Miss, Weak Guidance; Amazon Q3 EPS, Revenue Miss Expectations, Shares Fall
+Yahoo Finance · 30/10 12h47 · fonte única · licença: resumo
+Link: https://finance.yahoo.com/news/top-midday-stories-intel-shares-154739859.html
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: AMZN · INTC
+Como falar: 'saiu no Yahoo Finance: Top Midday Stories: Intel Shares Plummet After Q3 Revenue Miss, Weak Guidance; Amazon Q3…; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 30/10 12h47
+Push: intradia: 2 alertas de atenção — E05 AMZN, E05 JPM · detalhe na sessão
+ids: E05-AMZN-4c25685f0e-2026-10-30
 
-[ATENÇÃO] E05 · INTC · Intel Sinks 29% as Weak Outlook Shows It’s “Still PC Dependent”
-Yahoo Finance · 30/10 10h39 · fonte única · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – Key Takeaways - Intel shares fell 29% after it guided fourth-quarter revenue to $15.0 billion to $16.0 billion on a faster PC slump.
-  – - Data center revenue grew 78% in the third quarter, but Intel can't make enough server chips to offset weaker PC sales.
-  – - Intel's case now rests on adding server supply in 2027.
-  – Rival Advanced Micro Devices (AMD:NASDAQ) fell [9%], and Micron Technology (MU:NASDAQ), whose memory chips sit at the root of the slump, lost [6%].
-  – Servers can't carry it yet Intel's third quarter beat its own guidance, with data center revenue up 78% to $7.3 billion while PC chip revenue fell 5%.
-  – But it guided fourth-quarter revenue to $15.0 billion to $16.0 billion and its non-GAAP gross margin to 38%, from 44.1%.
-Link: https://finance.yahoo.com/markets/stocks/articles/intel-sinks-29-weak-outlook-133944045.html
+[ATENÇÃO] E05 · JPM · JPMorgan Raises NII Outlook: Is JPM Stock Too Expensive?
+TradingView (Reuters) · 30/10 09h30 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/zacks:6795fb197094b:0-jpmorgan-raises-nii-outlook-is-jpm-stock-too-expensive/
 Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
-Ativos: INTC
-Como falar: 'saiu no Yahoo Finance: Intel Sinks 29% as Weak Outlook Shows It’s “Still PC Dependent”; confirmar o número no texto antes de repassar'
-Fonte: Yahoo Finance 30/10 10h39
-ids: E05-INTC-6c577073ca-2026-10-30
+Ativos: JPM
+Como falar: 'saiu no TradingView (Reuters): JPMorgan Raises NII Outlook: Is JPM Stock Too Expensive?; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 30/10 09h30
+ids: E05-JPM-f6efb4c891-2026-10-30
 
 Info (só linha no Fechamento):
-· E03 VALE3 · Comunicado ao Mercado: Apresentações a analistas/agentes do mercado
-· E05 VALE3 · Estamos bem posicionados para entregar projeção do ano, diz CEO Vale
-· E05 VALE3 · Vale registra alta de 66% no resultado do cobre e mantém produção dentro das metas para 2026
+· E05 VALE3 · VALE3: Queda expressiva das ações dá oportunidade de recomprar, diz CFO
+· E05 VALE3 · Ações da Vale (VALE3) sobem forte após 'call' com perspectiva mais positiva sobre câmbio e metais
+· E05 GOOGL · For Google, the Economics of AI Mode Look Shaky
+· E05 ITUB4 · Usiminas (USIM5) cai após balanço e frustra Itaú BBA
+· E05 AMZN · Amazon falls on concerns over cloud growth and AI spending
+· E05 VALE3 · Cerca de 10% da produção do mercado de minério de ferro está perdendo dinheiro, diz CEO da Vale
+· E05 BTC · Binance Hack: The Real Test For Bitcoin Comes Tonight And On November 1st (Cryptocurrency:BTC-USD)
+· E05 VALE3 · Vale considera improvável dividendos extraordinários neste ano, diz CFO
+· E05 AMZN · Microsoft and Amazon ‘Won’ With Cloud But Other Hyperscalers Should Celebrate
+· E05 GOOGL · Alphabet’s Post-Earnings Selloff Is The Best Buying Opportunity In Years (NASDAQ:GOOG)
+· E05 CVX · Chevron Profit Nearly Triples as Refining Hits Record
 · E05 BAC · Bank of America Delivers Stark Warning on Apple Stock Ahead of Earnings
-· E05 BTC · Disappointing Tech Earnings Drag Down Stocks as Bitcoin Falls on Binance Hack
-· E05 DI · Análise: Sem rumo fiscal claro no Lula 4, Copom enfrenta teste como única âncora da economia
-· E05 USDBRL · Ibovespa tem 5º dia seguido de queda e dólar oscila acima de R$ 5,40
-· E05 INTC · Intel CEO Warning Sends Dell Stock Sinking
-· E05 VALE3 · Vale sobe quase 3% após balanço, mas bancos veem desafios no minério
-· E05 INTC · Why Intel’s stock is sinking toward its worst day in decades — and a $140 billion wipeout
-· E05 CVX · Chevron Shares Rise 2.2% as Q3 Earnings Beat Forecasts on Strong Refining Margins
-· E05 GOOGL · Google Stock Plunges 12% on AI Fears, but Joseph Carlson Isn't Selling, Says Shares Look Cheap
-· E05 CVX · Chevron’s Profit Nearly Tripled From a Year Ago. Is CVX Stock a Buy After Its Blowout Earnings Report?
-· E05 PETR4 · Petrobras confirma terceira descoberta de petróleo na costa do Amapá e reforça exploração na Margem Equatorial
-· E05 VALE3 · Vale third-quarter profit tumbles, iron ore output misses forecasts
-· E05 PLTR · A prominent law firm is unraveling—but Palantir has an intriguing offer
+· E05 AMZN · Nasdaq hits near three-month low as Amazon, Intel deepen AI capex concerns
+· E05 MRVL · Is Marvell Technology (MRVL) Cheap After Its Lumentum Deal Talks Sent Shares Lower?
+· E05 UST · Treasury Yields Lower On the Month
+· T13 VIX cruzou 20: 20,2 (+17% no dia)
 
+Suprimidos pelo teto (viram linha do Fechamento): T13-VIX-vix20-2026-10-30 (teto de atenção)
 
 Alertas do dia (todos, com status):
-· pendente  E05 TSLA — TSLA · Rivian Gains 5% as R2 Ramp Drives Raised Delivery Outlook; Tesla Falls 3%
-· pendente  E05 INTC — INTC · Intel Sinks 29% as Weak Outlook Shows It’s “Still PC Dependent”
+· linha     T13 VIX — VIX cruzou 20: 20,2 (+17% no dia)
+· pendente  E05 AMZN — AMZN · Top Midday Stories: Intel Shares Plummet After Q3 Revenue Miss, Weak Guid
+· pendente  E05 JPM — JPM · JPMorgan Raises NII Outlook: Is JPM Stock Too Expensive?
+· entregue  E05 TSLA — TSLA · Rivian Gains 5% as R2 Ramp Drives Raised Delivery Outlook; Tesla Falls 3%
+· entregue  E05 INTC — INTC · Intel Sinks 29% as Weak Outlook Shows It’s “Still PC Dependent”
 · entregue  E05 JPM — JPM · JPMorgan Raises NII Outlook: Is JPM Stock Too Expensive?
 · entregue  E05 AMZN — AMZN · Amazon Has Just Shared A Game-Changing Guidance For Its Cloud Business (U
 · entregue  E05 NVDA — NVDA · Key facts: NVDA rec rev; $235B buyback; Nscale-$45B; Megaspeed cleared
@@ -64,6 +54,6 @@ Alertas do dia (todos, com status):
 · entregue  E05 CVX — CVX · Earnings Snapshot: Chevron beats Q3 EPS and revenue estimates; declares $1
 · entregue  E05 INTC — INTC · Intel Shares Plunge 25% as Weak Fourth-Quarter Outlook Overshadows Strong
 · entregue  E05 INTC — INTC · Intel plunges on a major guidance miss. What went wrong — and how to proc
-· linha     F01 USDBRL — Real cai: USD/BRL 5,4097 (+8,4% em 5 sessões) (parcial, intradia)
-· (+58 notícias só manchete, em noticias.md)
+· linha     F01 USDBRL — Real cai: USD/BRL 5,4243 (+8,7% em 5 sessões) (parcial, intradia)
+· (+73 notícias só manchete, em noticias.md)
 
