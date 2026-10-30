@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 30/10 15h31
+NOTÍCIAS E FATOS · 30/10 16h22
 
-Pernas: noticias ok 8 novas (18 consultas; descartadas: 362 veículo fora da lista, 27 sem ativo, 0 teto) · cvm ok 0 novos de 16 (9 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 16 novas (18 consultas; descartadas: 381 veículo fora da lista, 34 sem ativo, 1 teto) · cvm ok 0 novos de 16 (9 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (2)
 
@@ -55,7 +55,32 @@ Fonte: SEC EDGAR 2026-10-30
 id: E04-AMZN-26000040-2026-10-30 · status: entregue
 
 
-## NOTÍCIAS COM MATERIALIDADE (16)
+## NOTÍCIAS COM MATERIALIDADE (18)
+
+[ATENÇÃO] E05 · BTC · Is your crypto safe? What Binance’s $6.3 billion hack means for bitcoin investors.
+MarketWatch · 30/10 15h50 · fonte única · licença: manchete
+Link: https://www.marketwatch.com/story/heres-when-binance-plans-to-reopen-after-whats-believed-to-be-the-largest-ever-6-3-billion-hack-d3cb8154
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: BTC
+Como falar: 'saiu no MarketWatch: Is your crypto safe? What Binance’s $6.3 billion hack means for bitcoin investors.; confirmar o número no texto antes de repassar'
+Fonte: MarketWatch 30/10 15h50
+id: E05-BTC-12e5f8920b-2026-10-30 · status: pendente
+
+[ATENÇÃO] E05 · VALE3 · Vale (VALE3) tem lucro de US$ 1,25 bi no 3T26, queda de 53% em um ano
+Suno Noticias · 30/10 10h51 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Negócios Vale (VALE3) tem lucro de US$ 1,25 bi no 3T26, queda de 53% em um ano A Vale (VALE3) registrou um lucro líquido atribuível aos acionistas de US$ 1,255 bilhão no terceiro trimestre de 2026.
+  – O valor representa uma retração de 53% em relação ao mesmo intervalo de 2025.
+  – Frente ao segundo trimestre deste ano, o recuo foi de 9%.
+  – O balanço foi publicado pela Vale na quinta-feira (29), depois do encerramento do pregão.
+  – O consenso compilado pela LSEG projetava lucro de US$ 1,38 bilhão para o período.
+  – A receita líquida de vendas alcançou US$ 10,6 bilhões entre julho e setembro, avanço de 2% sobre o 3T25.
+Link: https://www.suno.com.br/noticias/vale-vale3-lucro3t26-queda-go/
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: VALE3
+Como falar: 'saiu no Suno Noticias: Vale (VALE3) tem lucro de US$ 1,25 bi no 3T26, queda de 53% em um ano; confirmar o número no texto antes de repassar'
+Fonte: Suno Noticias 30/10 10h51
+id: E05-VALE3-91b2d52f0a-2026-10-30 · status: pendente
 
 [ATENÇÃO] E05 · AMZN · Watch Intel Tumbles on PC Outlook, AWS CEO on AI Spending and Growth
 Bloomberg · 30/10 14h45 · fonte única · licença: manchete
@@ -64,7 +89,7 @@ Por que importa: troca no comando reabre a discussao de estrategia e de alocacao
 Ativos: AMZN · INTC
 Como falar: 'saiu no Bloomberg: Watch Intel Tumbles on PC Outlook, AWS CEO on AI Spending and Growth; confirmar o número no texto antes de repassar'
 Fonte: Bloomberg 30/10 14h45
-id: E05-AMZN-4a0ba4eb3e-2026-10-30 · status: pendente
+id: E05-AMZN-4a0ba4eb3e-2026-10-30 · status: entregue
 
 [ATENÇÃO] E05 · VALE3 · O balanço da Vale foi bom ou ruim? Ação sobe mesmo com queda no lucro do 3º tri
 Exame · 30/10 14h31 · fonte única · licença: resumo
@@ -80,7 +105,7 @@ Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; 
 Ativos: VALE3
 Como falar: 'saiu no Exame: O balanço da Vale foi bom ou ruim? Ação sobe mesmo com queda no lucro do 3º tri; confirmar o número no texto antes de repassar'
 Fonte: Exame 30/10 14h31
-id: E05-VALE3-4ea78ab59a-2026-10-30 · status: pendente
+id: E05-VALE3-4ea78ab59a-2026-10-30 · status: entregue
 
 [ATENÇÃO] E05 · VALE3 · Vale não prevê dividendos extraordinários em 2026, diz CFO
 CNN Brasil · 30/10 13h24 · fonte única · licença: resumo
@@ -265,8 +290,22 @@ Fonte: Yahoo Finance 29/10 16h47
 id: E05-KO-57cc816b05-2026-10-29 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (123)
+## OUTRAS NOTÍCIAS (só manchete) (137)
 
+· BTC 'Sentiment will take a hit': Binance $6.3 billion hack rattles bitcoin, crypto market (Yahoo Finance) https://finance.yahoo.com/markets/article/copy-intel-amazon-lead-tech-lower-bitcoin-falls-on-suspected-biggest-crypto-hack-in-history-alphacheck-190920999.html
+· INTC Update: Nasdaq Plummets 975 Points as Intel's Results Help Trigger Sell-Off in Mega-Cap Chipmakers (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/nasdaq-plummets-975-points-intel-185707804.html
+· BBDC4 Magalu tem ventos favoráveis, mas macro desafiador; Bradesco BBI mantém visão neutra (InfoMoney) https://www.infomoney.com.br/mercados/magalu-mglu3-tem-ventos-favoraveis-mas-macro-desafiador-bbi-mantem-visao-neutra/
+· VALE3 Vale (VALE3) está entre as maiores altas do Ibovespa mesmo após balanço fraco no 3T26. O que explica? (Money Times) https://www.moneytimes.com.br/vale-vale3-lidera-ganhos-do-ibovespa-mesmo-apos-balanco-fraco-o-que-explica-bdap/
+· BTC Binance Hack: Why Bitcoin Didn't Crash Like It Did in 2018 (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/binance-hack-why-bitcoin-didnt-184503731.html
+· CVX Chevron Stocks Rise 1.53% With Strong Cash Flow Despite Sequential Earnings Decline (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/chevron-stocks-rise-1-53-182817138.html
+· BTC Bitcoin Price Could Fall as Dollar Debasement Trade Unravels, Connection Capital Founder Warns (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-price-could-fall-dollar-181541468.html
+· CVX Exxon, Chevron profits beat forecasts, refining margins surge during wars (Reuters) https://www.reuters.com/business/energy/wrapup-exxon-chevron-earnings-propelled-by-war-driven-refining-surge-2026-10-30/
+· MU Micron Peer Enthusiasm Entices Me To Buy Again (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/micron-peer-enthusiasm-entices-buy-164543655.html
+· BTC Bitcoin dips below $80,000 as rising rates and stablecoin caution weigh on demand (TradingView (Reuters)) https://www.tradingview.com/news/cryptobriefing:599797877094b:0-bitcoin-dips-below-80-000-as-rising-rates-and-stablecoin-caution-weigh-on-demand/
+· MU Why Is Micron (MU) Down 14.9% Since Last Earnings Report? (Yahoo Finance) https://sg.finance.yahoo.com/news/why-micron-mu-down-14-143002989.html
+· CVX Chevron earnings beat estimates as revenue jumps 36% to $67.8 billion (Yahoo Finance) https://news.google.com/rss/articles/CBMinAFBVV95cUxOR2s2RGd2eV84R2FMRmRWWlJiV0x6NENpZEkwa21McEpzUWV6VWZrNi1lWlVsYzZpN2ptYTVYenVyVC1OY1RDRWRRUkVGZVlVOUE0cnlBc1pwS1BmUzRaclBIR3dXeDNjWHh2amJILUM2VDdLaDZoVTkxLXhfNUxBY2d1ZHFqYTJnMUlQSVc1SmwxbmZHN3g1aGtPc0M?oc=5
+· INTC INTC Stock Heads For Worst Day In Over 2 Years: Jefferies Calls Q4 A ‘Substantial’ Reset Amid Slew Of Wall Street Price Cuts, Downgrades (TradingView (Reuters)) https://news.google.com/rss/articles/CBMingJBVV95cUxOdWtJUXR1VlRLRFZQYnhzUHh3TmNlVXNMeWF0MHVGM2dWTHV1dEZTWkZ1OWdLZWxRZTFDdE9OdUpGM2lFcENkc3BVdm5Qdll3YTBhbXdMYXpLbElTWlF1SUxxbmJGRld6dGJxcVprYTVTV3JZRkpzVGJhcTZnblVFRlc3aG1xMWNRcjRzUWVNSDg0Y1hBZmUtdDI0V2xkaXVlT3A1cm5iS1M0SlNtTmU1aVZYVVpKMldjb2hXeGlCM3EwNUZmcWxBUGV4dXNhNTdjNi0zR0NHLVNjS2U4cnpEODVsWk1zYm5qZWRJQTB4eUdoRk5IMUFnWVUtUXFYelJfZ09LejNjYUdfYk8yQVhtaTczTHByV09uckk1akdB?oc=5
+· USDBRL Dólar supera R$ 5,40; Ibovespa cai mais de 1%, na quinta baixa consecutiva (UOL Economia) https://news.google.com/rss/articles/CBMiqAFBVV95cUxQNlJjTkoxajJVZEdDcVdBYlc4TlgtZDhTVm5SdlQ1REJ2Q2lBakJJME8yUzd5SzFLb0ZuYnktRS1IQ3ZYdXFOUXlaSE1kTklkTk5hQ18xN29td1Y1UHNSb0JkNm1ULXNlTUxrQnRiVng0UzNBWWhoempEWmUtNzZ0V0ptR0l5dzBlZVNMbFFRcXJhVkxqUUJiNk82aDVlS1UwdGQyVmE1TUM?oc=5
 · VALE3 Vale não deve pagar dividendos extraordinários neste ano, diz CFO (TradingView (Reuters)) https://br.tradingview.com/news/reuters.com,2026:newsml_L6N46G14D:0/
 · AVGO Broadcom Stock Outlook Hinges On AI Chip Growth And Anthropic Partnership (Yahoo Finance) https://uk.finance.yahoo.com/news/broadcom-stock-outlook-hinges-ai-181030148.html
 · AMZN Amazon earnings analysis: questions answered and next catalysts (Investing.com) https://www.investing.com/news/stock-market-news/amazon-earnings-analysis-questions-answered-and-next-catalysts-93CH-4988412
@@ -313,18 +352,4 @@ id: E05-KO-57cc816b05-2026-10-29 · status: linha
 · CVX Chevron Stock Rises as Oil Price Surge Fuels Earnings Beat (Barron's) https://www.barrons.com/articles/chevron-earnings-stock-price-caffbb66
 · INTC Intel Just Warned It Probably Won’t Generate Free Cash Flow Next Year (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/intel-just-warned-probably-won-111810536.html
 · BBDC4 Ibovespa fecha abaixo de 170 mi pontos com Bradesco entre pressões (UOL Economia) https://economia.uol.com.br/noticias/reuters/2026/10/29/ibovespa-fecha-abaixo-de-170-mi-pontos-com-bradesco-entre-pressoes.htm
-· GOOGL Google lost nearly half a trillion this week. Here's how Mike Khouw is trading it (CNBC) https://www.cnbc.com/2026/10/30/google-lost-about-half-a-trillion-this-week-how-mike-khouw-trades-it-.html
-· EQTL3 Equatorial tem alta de 6% no mercado de distribuição no 3T26 (CanalEnergia) https://www.canalenergia.com.br/noticias/53359211/equatorial-tem-alta-de-6-no-mercado-de-distribuicao-no-3t26
-· BTC Bitcoin Dips Below $80,000. Here Are the 5 Factors That Are Impacting the Price of Bitcoin Right Now. (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-dips-below-80-000-161500549.html
-· BTC Bitcoin short-term holders sell at loss for first time in 72 days (TradingView (Reuters)) https://www.tradingview.com/news/cryptobriefing:63a3d5ff8094b:0-bitcoin-short-term-holders-sell-at-loss-for-first-time-in-72-days/
-· VALE3 Vale estuda reduzir volumes de minério em 2027 para preservar margens (UOL Economia) https://economia.uol.com.br/noticias/redacao/2026/10/30/vale-avalia-reduzir-volumes-de-minerio-em-2027-para-preservar-margens.ghtm
-· INTC Intel: 3 Key Takeaways for Long-Term Investors (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/intel-3-key-takeaways-long-160701862.html
-· NVDA Nvidia’s AI Dominance Could Have Further to Run (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/nvidia-ai-dominance-could-further-160328604.html
-· VALE3 Vale: Strong cash generation and hedges cushioned weaker iron ore earnings as growth projects advanced (TradingView (Reuters)) https://www.tradingview.com/news/urn:summary_document_transcript:quartr.com:4392569:0-vale-strong-cash-generation-and-hedges-cushioned-weaker-iron-ore-earnings-as-growth-projects-advanced/
-· BTC COIN Stock Sinks To Over 2-Year Low As Bitcoin Sinks Below $77K, Wall Street Cuts Price Targets (Yahoo Finance) https://news.google.com/rss/articles/CBMikgFBVV95cUxOTnJOWWo2MnhST09xTUJMSExCZVZxREdnd2ZMSE1ERHNJVVpxSTRybEpodmNZaXgtY0U5SV8yaS13Zm9rbDJZWThLTjJYeWNZRmQyNVFUcm1mZ3BrTUJnYzBMUldjeU9tUTFVT0lVcWU2WDFVTlFRR3J4N1lTMUtxbnhOQ1JHTmZBMEpJMzU5VGs3UQ?oc=5
-· BAC Intel's Turnaround Delayed by PC Weakness, Foundry Challenges, BofA Says (Yahoo Finance) https://news.google.com/rss/articles/CBMingFBVV95cUxPQmhya1o4c3U2anZiQUVoUnYtLVljWVhzRzh4UXZGN1ZXUTNoVGdrbnQ0bUJWVWdjRW9WMFItQVVMcUlfWjE1VWd2dzBMOE13TlR5MTBVdXN3dnFZdFN3U1dBRGxTU25yd05JM2lCM0p0QWdBUW5sX296ampYSGh2NjM4M2swZksxTnF1aXVOTFZ2SlUxb2pFOGdEbWJYQQ?oc=5
-· ALUP4 Axia negocia venda de participação em transmissora para Alupar (UOL Economia) https://news.google.com/rss/articles/CBMivAFBVV95cUxPQjl6TVY1OHV6NHphZGd3Z3hxRUV6X0lHRTVhNkltWXd1VWRnV3R3QUxHSEJGMlY1dE5pWk9QYUZ2cnFYZV82anRkblRnamoySDhSMlJkNk1vVWNxcWlLUHc3WVJRNjBsVExpYnUtTWdBZGhlMmUxM0JwYjZScFNKak5MTHl4bTF1RmY0blh2SVFYbFRTUGJ2RXVzc0xhOEdfZ0RxU25IeVZLZS1yV1NpdWhEdGZLVDZrMU9qSA?oc=5
-· BTC MSTR Q3 Earnings Beat Estimates on Bitcoin Gains Despite Revenue Miss (TradingView (Reuters)) https://news.google.com/rss/articles/CBMiwwFBVV95cUxOQ21oeU1yamRVd0EyLW10MW8zUURabmVJS1RtemhjaDJid0Qzek1ONmMxZXRXTk5CbVZ6S2tuSEpQWW9HQ2Yzc2MzT042QWdtazZkdHhlRGV4cXhMdWtyQVpuWkZxVElROWU4RmF5YmRxTkJFdUd0ZE9DOVl1MzdDbkE0UDNoSkw1dXhnNndFdDJrb3l0ODVnTEZJS2xZWXFQdUtTQndZdmxiYy1BbDBFRTBLVi1mUWFUdGNXMlR6RUVwQTg?oc=5
-· USDBRL Ibovespa recua e perde os 170 mil pontos com incertezas das contas públicas; dólar sobe a R$ 5,42 (Estadao) https://news.google.com/rss/articles/CBMi5wFBVV95cUxNU1NaalVPVVl3NkoxSF92LTB2czlNUE5lejZ4SGpDZUFjTzhRQWRlQ2lxWmxFamRUcVFONUY5em41Mm5XZlFVaEVTY2xjcW9remtCdkc4UzdqRTlXNlJYN3VuVWdSbEtwbTBSdjNneGx3S0cxdmh5N0k5d2xvN2cwUnJPdGJCajduemFzUHZjODJrZVYtVlpab2UwYXlHT3JrOVFIa3ZwWXpkbnZndWt4SkFfcmZDNkRXNFFVTU1YV25uaWxNMGZtZWE5TGN3Uk52bnV6OENZNDZvZnRISmE3RHItd1dFSmfSAewBQVVfeXFMTmlNTmxGYVc4X0M3T3lieENqTWI5c2ZYYWRuX3ZXZEZHU2V1dF9SRnktd05WdkZaOWtHNHhhOC04bThmcHdHclpTYkhCVmJGWmVVaXNXSE9MUG1MQmpxc1VQRG81QmxyQ3J2RzRoN3YtQTNmYUZyWFgzYXNkRjFsS1J3OS11Y0gzeHBEdnlFRU1RZjBaV09LVUFIUW1KNEVtLWxjRWJqSGRtRFI4RkQxZzk0aVpNNzVhS25rWFdmWE1POVc3UndBWnllbXEyX3hGZTl1amVqYTc5YklPckd5RGNMVU5tWWZVMFA0Y1g?oc=5
-· GOOGL Alphabet’s Post Earnings Drop Looks Increasingly Mispriced (NASDAQ:GOOG) (Seeking Alpha) https://news.google.com/rss/articles/CBMingFBVV95cUxPQmVxR0lQWW4xdzREYU5nZGpLWVhoZGdUTUxZcjRRemdlM1lhZzZkODZMM2E5dkNabWlvU0M3aXh2LUN0Zjh3djFXRjhuTV9JQ21hZ1BHc0VBMTBYbTRiNFFKTVFnUFpGQ3pFbV9Nam5DbVk1ajlMcWhrYWgxVnlNRWFBalFibHh0UWVDMlhXQWNpX1lTSHk0ejh3NXZmUQ?oc=5
-· (+63 manchetes; lista completa em eventos/noticias.json)
+· (+77 manchetes; lista completa em eventos/noticias.json)
