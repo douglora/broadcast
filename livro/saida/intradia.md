@@ -1,16 +1,15 @@
 ALERTAS · intradia
 
-[ATENÇÃO] E05 · AMZN · Watch Intel Tumbles on PC Outlook, AWS CEO on AI Spending and Growth
+(pendente de slot anterior) [ATENÇÃO] E05 · AMZN · Watch Intel Tumbles on PC Outlook, AWS CEO on AI Spending and Growth
 Bloomberg · 30/10 14h45 · fonte única · licença: manchete
 Link: https://www.bloomberg.com/news/videos/2026-10-30/bloomberg-tech-10-30-2026-video
 Por que importa: troca no comando reabre a discussao de estrategia e de alocacao de capital
 Ativos: AMZN · INTC
 Como falar: 'saiu no Bloomberg: Watch Intel Tumbles on PC Outlook, AWS CEO on AI Spending and Growth; confirmar o número no texto antes de repassar'
 Fonte: Bloomberg 30/10 14h45
-Push: intradia: 2 alertas de atenção — E05 AMZN, E05 VALE3 · detalhe na sessão
 ids: E05-AMZN-4a0ba4eb3e-2026-10-30
 
-[ATENÇÃO] E05 · VALE3 · O balanço da Vale foi bom ou ruim? Ação sobe mesmo com queda no lucro do 3º tri
+(pendente de slot anterior) [ATENÇÃO] E05 · VALE3 · O balanço da Vale foi bom ou ruim? Ação sobe mesmo com queda no lucro do 3º tri
 Exame · 30/10 14h31 · fonte única · licença: resumo
 Trechos (licença resumo: reescrever, não colar):
   – Vale: ação de maior peso do Ibovespa sobe após balanço do 3º tri (Photo Illustration by Piotr Swat/SOPA Images/LightRocket via Getty Images) Publicado em 30 de outubro de 2026 às 14h30.
@@ -27,20 +26,14 @@ Fonte: Exame 30/10 14h31
 ids: E05-VALE3-4ea78ab59a-2026-10-30
 
 Info (só linha no Fechamento):
-· E05 ITUB4 · Nem as eleições tiram o Itaú do radar: Genial vê potencial de alta de quase 30%
-· E05 AMZN · Update: Equities Tumble Intraday Amid Tech Sell-Off Following Amazon, Intel Earnings
-· E05 BTC · Why bitcoin held up better after the record Binance hack
-· E05 CVX · Exxon, Chevron report massive profits as Trump brags energy companies are ‘making a freakin fortune’
-· E05 AMZN · Amazon earnings fall short amid tech sell-off, and Anthropic becomes SpaceX's top partner
-· E05 BTC · Why Bitcoin Is Down Today
-· E05 AMZN · Wall Street analysts like Amazon's AWS outlook
-· E05 AMZN · Amazon Web Services Set for Strong Performance Ahead Despite 'Disappointing' Third-Quarter Growth, Morgan Stanley Says
-· E05 INTC · Why Intel Is Down Today
-· E05 MRVL · Applied Optoelectronics Plunges 15%, Coherent Tumbles 13% as Hyperscaler Spending Fears Hit AI Optics Stocks; Lumentum and Marvell Sink 10%
-· E05 AMZN · Amazon and Intel Tank the AI Trade. The 1 Factor Linking Big Tech’s Underwhelming Earnings.
-· E05 CVX · Chevron (CVX) Reports Q3 Earnings: What Key Metrics Have to Say
-· E05 AVGO · Marvell Rumored to Buy Lumentum in Major Challenge to Broadcom: Counterpoint
-· E05 MRVL · Marvell deal for Lumentum won't be at a big premium - CNBC
+· E05 VALE3 · Vale não deve pagar dividendos extraordinários neste ano, diz CFO
+· E05 AVGO · Broadcom Stock Outlook Hinges On AI Chip Growth And Anthropic Partnership
+· E05 AMZN · Amazon earnings analysis: questions answered and next catalysts
+· E05 PLTR · Should Palantir Stock Be in Your Portfolio Before Q3 Earnings?
+· E05 CVX · Chevron Q3 Earnings Beat Estimates on Strong Refining Margins
+· E05 CVX · Chevron Stock Hits 52-Week High As Refining Windfall Nearly Triples Profit
+· E05 INTC · Intel Dropped 20% Over The Last Month: This Pro Analyst Says It’s Going to Gain 70% Soon
+· E05 NVDA · Update: Market Chatter: Nvidia in Talks to Back $30 Billion Nscale Data Center Project for Anthropic
 · T13 VIX cruzou 20: 20,2 (+17% no dia)
 
 Suprimidos pelo teto (viram linha do Fechamento): T13-VIX-vix20-2026-10-30 (teto de atenção)
@@ -64,6 +57,6 @@ Alertas do dia (todos, com status):
 · entregue  E05 CVX — CVX · Earnings Snapshot: Chevron beats Q3 EPS and revenue estimates; declares $1
 · entregue  E05 INTC — INTC · Intel Shares Plunge 25% as Weak Fourth-Quarter Outlook Overshadows Strong
 · entregue  E05 INTC — INTC · Intel plunges on a major guidance miss. What went wrong — and how to proc
-· linha     F01 USDBRL — Real cai: USD/BRL 5,4487 (+9,2% em 5 sessões · 5 dias seguidos de movimento domé
-· (+125 notícias só manchete, em noticias.md)
+· linha     F01 USDBRL — Real cai: USD/BRL 5,4500 (+9,2% em 5 sessões · 6 dias seguidos de movimento domé
+· (+133 notícias só manchete, em noticias.md)
 

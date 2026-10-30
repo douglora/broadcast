@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 30/10 15h21
+NOTÍCIAS E FATOS · 30/10 15h31
 
-Pernas: noticias ok 16 novas (18 consultas; descartadas: 361 veículo fora da lista, 28 sem ativo, 4 teto) · cvm ok 0 novos de 16 (9 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 8 novas (18 consultas; descartadas: 362 veículo fora da lista, 27 sem ativo, 0 teto) · cvm ok 0 novos de 16 (9 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (2)
 
@@ -265,8 +265,16 @@ Fonte: Yahoo Finance 29/10 16h47
 id: E05-KO-57cc816b05-2026-10-29 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (115)
+## OUTRAS NOTÍCIAS (só manchete) (123)
 
+· VALE3 Vale não deve pagar dividendos extraordinários neste ano, diz CFO (TradingView (Reuters)) https://br.tradingview.com/news/reuters.com,2026:newsml_L6N46G14D:0/
+· AVGO Broadcom Stock Outlook Hinges On AI Chip Growth And Anthropic Partnership (Yahoo Finance) https://uk.finance.yahoo.com/news/broadcom-stock-outlook-hinges-ai-181030148.html
+· AMZN Amazon earnings analysis: questions answered and next catalysts (Investing.com) https://www.investing.com/news/stock-market-news/amazon-earnings-analysis-questions-answered-and-next-catalysts-93CH-4988412
+· PLTR Should Palantir Stock Be in Your Portfolio Before Q3 Earnings? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/palantir-stock-portfolio-q3-earnings-165300648.html
+· CVX Chevron Q3 Earnings Beat Estimates on Strong Refining Margins (Yahoo Finance) https://finance.yahoo.com/energy/articles/chevron-q3-earnings-beat-estimates-135700408.html
+· CVX Chevron Stock Hits 52-Week High As Refining Windfall Nearly Triples Profit (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:006cfa775094b:0-chevron-stock-hits-52-week-high-as-refining-windfall-nearly-triples-profit/
+· INTC Intel Dropped 20% Over The Last Month: This Pro Analyst Says It’s Going to Gain 70% Soon (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/intel-dropped-20-over-last-124559573.html
+· NVDA Update: Market Chatter: Nvidia in Talks to Back $30 Billion Nscale Data Center Project for Anthropic (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/market-chatter-nvidia-talks-back-115745201.html
 · ITUB4 Nem as eleições tiram o Itaú do radar: Genial vê potencial de alta de quase 30% (Estadao) https://www.estadao.com.br/einvestidor/onde-investir/nem-as-eleicoes-tiram-o-itau-do-radar-genial-ve-potencial-de-alta-de-quase-30/
 · AMZN Update: Equities Tumble Intraday Amid Tech Sell-Off Following Amazon, Intel Earnings (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/equities-tumble-intraday-amid-tech-180055421.html
 · BTC Why bitcoin held up better after the record Binance hack (CNBC) https://www.cnbc.com/2026/10/30/binance-hack-bitcoin-price.html
@@ -319,12 +327,4 @@ id: E05-KO-57cc816b05-2026-10-29 · status: linha
 · BTC MSTR Q3 Earnings Beat Estimates on Bitcoin Gains Despite Revenue Miss (TradingView (Reuters)) https://news.google.com/rss/articles/CBMiwwFBVV95cUxOQ21oeU1yamRVd0EyLW10MW8zUURabmVJS1RtemhjaDJid0Qzek1ONmMxZXRXTk5CbVZ6S2tuSEpQWW9HQ2Yzc2MzT042QWdtazZkdHhlRGV4cXhMdWtyQVpuWkZxVElROWU4RmF5YmRxTkJFdUd0ZE9DOVl1MzdDbkE0UDNoSkw1dXhnNndFdDJrb3l0ODVnTEZJS2xZWXFQdUtTQndZdmxiYy1BbDBFRTBLVi1mUWFUdGNXMlR6RUVwQTg?oc=5
 · USDBRL Ibovespa recua e perde os 170 mil pontos com incertezas das contas públicas; dólar sobe a R$ 5,42 (Estadao) https://news.google.com/rss/articles/CBMi5wFBVV95cUxNU1NaalVPVVl3NkoxSF92LTB2czlNUE5lejZ4SGpDZUFjTzhRQWRlQ2lxWmxFamRUcVFONUY5em41Mm5XZlFVaEVTY2xjcW9remtCdkc4UzdqRTlXNlJYN3VuVWdSbEtwbTBSdjNneGx3S0cxdmh5N0k5d2xvN2cwUnJPdGJCajduemFzUHZjODJrZVYtVlpab2UwYXlHT3JrOVFIa3ZwWXpkbnZndWt4SkFfcmZDNkRXNFFVTU1YV25uaWxNMGZtZWE5TGN3Uk52bnV6OENZNDZvZnRISmE3RHItd1dFSmfSAewBQVVfeXFMTmlNTmxGYVc4X0M3T3lieENqTWI5c2ZYYWRuX3ZXZEZHU2V1dF9SRnktd05WdkZaOWtHNHhhOC04bThmcHdHclpTYkhCVmJGWmVVaXNXSE9MUG1MQmpxc1VQRG81QmxyQ3J2RzRoN3YtQTNmYUZyWFgzYXNkRjFsS1J3OS11Y0gzeHBEdnlFRU1RZjBaV09LVUFIUW1KNEVtLWxjRWJqSGRtRFI4RkQxZzk0aVpNNzVhS25rWFdmWE1POVc3UndBWnllbXEyX3hGZTl1amVqYTc5YklPckd5RGNMVU5tWWZVMFA0Y1g?oc=5
 · GOOGL Alphabet’s Post Earnings Drop Looks Increasingly Mispriced (NASDAQ:GOOG) (Seeking Alpha) https://news.google.com/rss/articles/CBMingFBVV95cUxPQmVxR0lQWW4xdzREYU5nZGpLWVhoZGdUTUxZcjRRemdlM1lhZzZkODZMM2E5dkNabWlvU0M3aXh2LUN0Zjh3djFXRjhuTV9JQ21hZ1BHc0VBMTBYbTRiNFFKTVFnUFpGQ3pFbV9Nam5DbVk1ajlMcWhrYWgxVnlNRWFBalFibHh0UWVDMlhXQWNpX1lTSHk0ejh3NXZmUQ?oc=5
-· VALE3 VALE3: Queda expressiva das ações dá oportunidade de recomprar, diz CFO (InfoMoney) https://www.infomoney.com.br/mercados/vale3-vale-balanco-3t26-teleconferencia-coletiva/
-· VALE3 Ações da Vale (VALE3) sobem forte após 'call' com perspectiva mais positiva sobre câmbio e metais (Valor Economico) https://valor.globo.com/financas/noticia/2026/10/30/acoes-da-vale-vale3-sobem-forte-apos-call-com-perspectiva-mais-positiva-sobre-cambio-e-metais.ghtml
-· GOOGL For Google, the Economics of AI Mode Look Shaky (Bloomberg) https://www.bloomberg.com/news/articles/2026-10-30/google-stock-hammered-after-earnings-raise-ai-revenue-concerns
-· ITUB4 Usiminas (USIM5) cai após balanço e frustra Itaú BBA (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/lucro-volta-ao-azul-mas-acao-despenca-o-que-derruba-a-usiminas-apos-o-balanco/
-· AMZN Amazon falls on concerns over cloud growth and AI spending (CNBC) https://www.cnbc.com/video/2026/10/30/amazon-falls-on-concerns-over-cloud-growth-and-ai-spending.html
-· VALE3 Cerca de 10% da produção do mercado de minério de ferro está perdendo dinheiro, diz CEO da Vale (Valor Economico) https://valor.globo.com/empresas/noticia/2026/10/30/cerca-de-10percent-da-producao-do-mercado-de-minerio-de-ferro-esta-perdendo-dinheiro-diz-ceo-da-vale.ghtml
-· BTC Binance Hack: The Real Test For Bitcoin Comes Tonight And On November 1st (Cryptocurrency:BTC-USD) (Seeking Alpha) https://seekingalpha.com/article/4960216-binance-hack-the-real-test-for-bitcoin-and-ibit-comes-tonight-and-on-november-1st
-· VALE3 Vale considera improvável dividendos extraordinários neste ano, diz CFO (TradingView (Reuters)) https://br.tradingview.com/news/reuters.com,2026:newsml_S0N43N00P:0/
-· (+55 manchetes; lista completa em eventos/noticias.json)
+· (+63 manchetes; lista completa em eventos/noticias.json)
