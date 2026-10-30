@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 29/10 21h48
+NOTÍCIAS E FATOS · 30/10 08h34
 
-Pernas: noticias ok 18 novas (18 consultas; descartadas: 382 veículo fora da lista, 29 sem ativo, 12 teto) · cvm ok 1 novos de 17 (9 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 20 novas (18 consultas; descartadas: 356 veículo fora da lista, 30 sem ativo, 61 teto) · cvm ok 0 novos de 14 (7 cias casadas) · sec ok 2 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (5)
 
@@ -18,7 +18,7 @@ Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; 
 Ativos: MRVE3
 Como falar: 'a MRV publicou comunicado ao mercado sobre MRVE3) Companhia disponibiliza ao mercado comunicado recebido pela M&…'
 Fonte: CVM 29/10
-id: E03-MRVE3-1581810-2026-10-29 · status: expirado · íntegra disponível
+id: E03-MRVE3-1581810-2026-10-29 · status: entregue · íntegra disponível
 
 [INFO] E03 · PETR4 · Comunicado ao Mercado: Esclarecimentos sobre questionamentos da CVM/B3
 CVM · entregue 29/10/2026 21:16 · Esclarecimentos sobre questionamentos da CVM/B3
@@ -57,7 +57,23 @@ Fonte: CVM 29/10
 id: E03-KLBN4-1581460-2026-10-29 · status: linha
 
 
-## SEC (8-K, 6-K, 10-Q, 10-K) (2)
+## SEC (8-K, 6-K, 10-Q, 10-K) (4)
+
+[ATENÇÃO] E04 · CVX · 8-K: 2.02 resultado do trimestre
+SEC EDGAR · aceito 30/10 07h16 · 8-K
+Do documento:
+  – 0000093410 false 0000093410 FALSE 0000093410 2026-10-30 2026-10-30   UNITED STATES   SECURITIES AND EXCHANGE COMMISSION   Washington, D.C.
+  – ☐   Item 2.02 Results of Operations and Financial Condition   On October 30, 2026, Chevron Corporation (the “Company”) issued a news release announcing unaudited third quarter 2026 earnings of $9.9 billion.
+  – The news release is attached hereto as Exhibit 99.1 and incorporated herein by reference.
+  – The information included herein and in Exhibit 99.1 shall not be deemed “filed” for purposes of Section 18 of the Securities Exchange Act of 1934, nor shall it be deemed incorporated by reference in any filing under the…
+  – Item 9.01 Financial Statements and Exhibits.
+  – Exhibit Number Description   99.1 News release issued by Chevron Corporation, dated O ctober 3 0 , 2026.
+Link: https://www.sec.gov/Archives/edgar/data/93410/000009341026000196/cvx-20261030.htm
+Por que importa: resultado do trimestre reprecifica lucro, guidance e multiplo; comparar com o consenso
+Ativos: CVX
+Como falar: 'a CVX protocolou 8-K na SEC (2.02 resultado do trimestre)'
+Fonte: SEC EDGAR 2026-10-30
+id: E04-CVX-26000196-2026-10-30 · status: pendente · íntegra disponível
 
 [ATENÇÃO] E04 · AMZN · 8-K: 2.02 resultado do trimestre
 SEC EDGAR · aceito 29/10 17h05 · 8-K
@@ -75,6 +91,15 @@ Como falar: 'a AMZN protocolou 8-K na SEC (2.02 resultado do trimestre)'
 Fonte: SEC EDGAR 2026-10-29
 id: E04-AMZN-26000038-2026-10-29 · status: entregue · íntegra disponível
 
+[INFO] E04 · AMZN · 10-Q: 10-Q
+SEC EDGAR · aceito 29/10 19h20 · 10-Q
+Link: https://www.sec.gov/Archives/edgar/data/1018724/000101872426000040/amzn-20260930.htm
+Por que importa: 10-Q e o balanco trimestral completo
+Ativos: AMZN
+Como falar: 'a AMZN protocolou 10-Q na SEC (10-Q)'
+Fonte: SEC EDGAR 2026-10-30
+id: E04-AMZN-26000040-2026-10-30 · status: linha
+
 [INFO] E04 · GOOGL · 10-Q: 10-Q
 SEC EDGAR · aceito 28/10 21h29 · 10-Q
 Link: https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm
@@ -85,7 +110,80 @@ Fonte: SEC EDGAR 2026-10-29
 id: E04-GOOGL-26000084-2026-10-29 · status: linha
 
 
-## NOTÍCIAS COM MATERIALIDADE (37)
+## NOTÍCIAS COM MATERIALIDADE (42)
+
+[ATENÇÃO] E05 · CVX · Earnings Snapshot: Chevron beats Q3 EPS and revenue estimates; declares $1.78 dividend and production hits 3.98M boe/day
+TradingView (Reuters) · 30/10 07h28 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/seekingalpha:1ce239cb2094b:0-earnings-snapshot-chevron-beats-q3-eps-and-revenue-estimates-declares-1-78-dividend-and-production-hits-3-98m-boe-day/
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: CVX
+Como falar: 'saiu no TradingView (Reuters): Earnings Snapshot: Chevron beats Q3 EPS and revenue estimates; declares $1.78 dividend an…; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 30/10 07h28
+id: E05-CVX-bf5b1df9bb-2026-10-30 · status: pendente
+
+[ATENÇÃO] E05 · INTC · Intel Shares Plunge 25% as Weak Fourth-Quarter Outlook Overshadows Strong Q3 Earnings
+Yahoo Finance · 30/10 07h20 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Intel (NASDAQ:INTC) shares fell 25% in premarket trading after the semiconductor manufacturer issued fourth-quarter revenue and earnings forecasts significantly below Wall Street expectations, despite reporting stronger…
+  – The company reported third-quarter adjusted earnings of $0.52 per share, exceeding analysts' expectations of $0.40.
+  – Revenue increased 21% year over year to $16.5 billion, slightly ahead of the consensus estimate of $16.48 billion.
+  – Fourth-Quarter Revenue and Earnings Forecasts Miss Expectations Intel projected fourth-quarter revenue of between $15 billion and $16 billion, considerably below the $17.08 billion anticipated by analysts.
+  – The midpoint of the company's forecast, at $15.5 billion, represents a shortfall of approximately 9% compared with market expectations.
+  – Intel also expects adjusted earnings of $0.25 per share for the quarter, compared with the consensus forecast of $0.44.
+Link: https://finance.yahoo.com/markets/stocks/articles/intel-shares-plunge-25-weak-102052649.html
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: INTC
+Como falar: 'saiu no Yahoo Finance: Intel Shares Plunge 25% as Weak Fourth-Quarter Outlook Overshadows Strong Q3 Earnings; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 30/10 07h20
+id: E05-INTC-eebcd25826-2026-10-30 · status: pendente
+
+[ATENÇÃO] E05 · INTC · Intel plunges on a major guidance miss. What went wrong — and how to proceed
+CNBC · 29/10 22h06 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Revenue in the third quarter increased 21% year over year to $16.513 billion, edging out the LSEG-compiled consensus estimate of $16.496 billion.
+  – Non-GAAP earnings per share (EPS) more than doubled to 52 cents, beating the LSEG estimate of 40 cents.
+  – As a result, our rating is currently under review, and we are slashing our price target to $100.
+  – "The industry continues to navigate one of the most significant supply shortages in history driven by the unprecedented demand for superintelligence," CEO Lip-Bu Tan said on the conference call.
+  – Sales in the unit fell 5% year-over-year, but it still accounts for more than half of the revenue of Intel's products group (CCPG + DCAI) and about 43% of Intel Products' operating income (see chart below).
+  – That PC exposure is weighing on Intel's outlook for the rest of the year, even as it reported its strongest DCAI (data center and AI) segment growth in 15 years.
+Link: https://www.cnbc.com/investingclub/2026/10/29/intel-plunges-on-a-major-guidance-miss-what-went-wrong-how-to-proceed.html
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: INTC
+Como falar: 'saiu no CNBC: Intel plunges on a major guidance miss. What went wrong — and how to proceed; confirmar o número no texto antes de repassar'
+Fonte: CNBC 29/10 22h06
+id: E05-INTC-8a46f101b3-2026-10-30 · status: pendente
+
+[ATENÇÃO] E05 · PLTR · Could $1,000 Invested in Palantir Turn Into $100,000?
+Yahoo Finance · 29/10 17h50 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – A $1,000 investment at its earliest trading price of $10 would be worth about $19,400 today.
+  – That's an impressive six-year gain, but could it eventually turn that investment into $100,000?
+  – In 2009, a "Double Down" signal flashed for a little-known chipmaker called Nvidia.
+  – For the first time in years, that same "Total Conviction" signal is flashing for a company 1/100th the size of Nvidia.
+  – From 2021 to 2025, Palantir's revenue grew at a 31% CAGR.
+  – It also turned profitable in 2023 and grew its EPS at a 165% CAGR over the following two years.
+Link: https://finance.yahoo.com/markets/stocks/articles/could-1-000-invested-palantir-205000952.html
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: PLTR
+Como falar: 'saiu no Yahoo Finance: Could $1,000 Invested in Palantir Turn Into $100,000?; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 29/10 17h50
+id: E05-PLTR-ca4dc5d221-2026-10-29 · status: linha
+
+[ATENÇÃO] E05 · KO · Coca-Cola Raised Its 2026 Outlook. I'd Still Wait for a Lower Price to Buy the Stock.
+Yahoo Finance · 29/10 16h47 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Organic revenue, which excludes foreign exchange and the impact of acquisitions and divestitures, grew 7% year over year.
+  – And comparable earnings per share, the company's non-GAAP (adjusted) profit measure, gained 11% to $0.91.
+  – In 2009, a "Double Down" signal flashed for a little-known chipmaker called Nvidia.
+  – For the first time in years, that same "Total Conviction" signal is flashing for a company 1/100th the size of Nvidia.
+  – Continue » Shares fell about 2% that day anyway.
+  – As I write this, they're around $92 -- about 4% under the record close of $95.34 on Oct.
+Link: https://finance.yahoo.com/markets/stocks/articles/coca-cola-raised-2026-outlook-194702530.html
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: KO
+Como falar: 'saiu no Yahoo Finance: Coca-Cola Raised Its 2026 Outlook. I'd Still Wait for a Lower Price to Buy the Stock.; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 29/10 16h47
+id: E05-KO-57cc816b05-2026-10-29 · status: linha
 
 [ATENÇÃO] E05 · VALE3 · Lucro líquido da Vale no 3º trimestre cai pela metade com efeitos de câmbio e Samarco
 Bloomberg Linea · 29/10 20h57 · fonte única · licença: resumo
@@ -128,7 +226,7 @@ Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; 
 Ativos: VALE3
 Como falar: 'saiu no Estadao: Vale vê lucro despencar 53% no 3T26, apesar de receita bilionária em alta; veja balanço; confirmar o número no texto antes de repassar'
 Fonte: Estadao 29/10 19h40
-id: E05-VALE3-c041b6b454-2026-10-29 · status: pendente
+id: E05-VALE3-c041b6b454-2026-10-29 · status: expirado
 
 [ATENÇÃO] E05 · VALE3 · Vale registra queda de 53% no lucro líquido no terceiro trimestre
 O Globo · 29/10 19h38 · fonte única · licença: manchete
@@ -137,7 +235,7 @@ Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; 
 Ativos: VALE3
 Como falar: 'saiu no O Globo: Vale registra queda de 53% no lucro líquido no terceiro trimestre; confirmar o número no texto antes de repassar'
 Fonte: O Globo 29/10 19h38
-id: E05-VALE3-1958f5d73d-2026-10-29 · status: pendente
+id: E05-VALE3-1958f5d73d-2026-10-29 · status: expirado
 
 [ATENÇÃO] E05 · VALE3 · Lucro líquido da Vale (VALE3) cai 54% no 3T26, para US$ 1,25 bilhão, abaixo das expectativas do mercado
 Money Times · 29/10 19h24 · fonte única · licença: integral
@@ -153,7 +251,7 @@ Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; 
 Ativos: VALE3
 Como falar: 'saiu no Money Times: Lucro líquido da Vale (VALE3) cai 54% no 3T26, para US$ 1,25 bilhão, abaixo das expectati…; confirmar o número no texto antes de repassar'
 Fonte: Money Times 29/10 19h24
-id: E05-VALE3-b98d9a1a26-2026-10-29 · status: pendente · íntegra disponível
+id: E05-VALE3-b98d9a1a26-2026-10-29 · status: expirado · íntegra disponível
 
 [ATENÇÃO] E05 · INTC · Intel: Guidance Disaster Causes 20%+ Price Slump (NASDAQ:INTC)
 Seeking Alpha · 29/10 19h10 · fonte única · licença: manchete
@@ -242,7 +340,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: INTC
 Como falar: 'saiu no Yahoo Finance: INTC Stock Tumbles After-Hours After Q3 PC Slump And Supply Bottlenecks Cloud Fourth-Quar…; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 29/10 17h54
-id: E05-INTC-7b6bb1157a-2026-10-29 · status: expirado
+id: E05-INTC-7b6bb1157a-2026-10-29 · status: entregue
 
 [ATENÇÃO] E05 · INTC · Intel shares plummet on lighter-than-expected Q4 guidance
 CNBC · 29/10 17h23 · fonte única · licença: resumo
@@ -251,7 +349,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: INTC
 Como falar: 'saiu no CNBC: Intel shares plummet on lighter-than-expected Q4 guidance; confirmar o número no texto antes de repassar'
 Fonte: CNBC 29/10 17h23
-id: E05-INTC-56cfc524b4-2026-10-29 · status: expirado
+id: E05-INTC-56cfc524b4-2026-10-29 · status: entregue
 
 [ATENÇÃO] E05 · INTC · Intel slides as Q3 results, guidance miss Wall Street's forecasts
 TradingView (Reuters) · 29/10 17h08 · fonte única · licença: manchete
@@ -260,7 +358,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: INTC
 Como falar: 'saiu no TradingView (Reuters): Intel slides as Q3 results, guidance miss Wall Street's forecasts; confirmar o número no texto antes de repassar'
 Fonte: TradingView (Reuters) 29/10 17h08
-id: E05-INTC-479410382a-2026-10-29 · status: expirado
+id: E05-INTC-479410382a-2026-10-29 · status: entregue
 
 [ATENÇÃO] E05 · INTC · Intel crashes as Q3 results, guidance miss Wall Street's forecasts (INTC:NASDAQ)
 Seeking Alpha · 29/10 17h08 · fonte única · licença: manchete
@@ -551,8 +649,23 @@ Fonte: Bloomberg 29/10 01h13
 id: E05-TSLA-626a3a5b3f-2026-10-29 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (187)
+## OUTRAS NOTÍCIAS (só manchete) (202)
 
+· INTC Intel faces a 'multi-quarter' issue balancing PC weakness with AI data-center gains: Vivek Arya (CNBC) https://www.cnbc.com/video/2026/10/30/intel-faces-a-multi-quarter-issue-balancing-pc-weakness-with-ai-data-center-gains-vivek-arya.html
+· INTC Intel warning sparks chip rout as PC weakness clouds turnaround (Reuters) https://www.reuters.com/business/intel-warning-sparks-chip-rout-pc-weakness-clouds-turnaround-2026-10-30/
+· AMZN Amazon shares are tumbling after third-quarter earnings miss. Analysts say buy the dip (CNBC) https://www.cnbc.com/2026/10/30/amazon-earnings-analysts-stock.html
+· PETR4 Petrobras anuncia nova descoberta de petróleo na Foz do Amazonas (Agencia Brasil) https://agenciabrasil.ebc.com.br/radioagencia-nacional/geral/audio/2026-10/petrobras-anuncia-nova-descoberta-de-petroleo-na-foz-do-amazonas
+· PETR4 Vale, Usiminas, CSN, Braskem, Petrobras e mais ações para acompanhar hoje (InfoMoney) https://news.google.com/rss/articles/CBMirAFBVV95cUxQbTRtZ1Vjc1NCWEZ6Y1JOd3piekFHM193TFZpSTU0b0FBNW1EUWxCNVJ0ZllKTnZ4eS1VODZHT3R6ZVRmRTFnbThDeFE3RzluMzBXLW8wN1dCTV83MjdOTzR3bFRXMlQzd3ZLSkx1T2hCQjhPWjJZTVJldkZ2S1Bqakxtb010dFlGNDhHZURjeWo3WDBhY3FSTUFEd3VmTW1ydm5CbThKdjh0NW9t0gGyAUFVX3lxTFBsYUhCSDItY202Q25iOHJUdndTVWFPb1ktX1BvMTBacWtRbk5JZVVYaUw2VHY5dDZ4b3hZT2tfQjFSVVFXWDVsWUJfcFE0NnlGX1lhVmt1ZnpPaHMxdHctSGNTUVRWclQ1aks4STBPXzQ5Q2hSV3VfaUpCQXBwYkR6UHk2cVRORGhxQmZDV1BaeUZqTnFVTG80U181UVZTTXU2S1k4SXVmX3pndnktdTE2WHc?oc=5
+· CVX WRAPUP Exxon, Chevron earnings propelled by war-driven refining surge (Reuters) https://news.google.com/rss/articles/CBMivAFBVV95cUxON2JIcGhXLURlX1ZHUDVac0IwV1BuN1puU1ljMVFoMUJPNWtZQ2FFdEVMY1ZoZ3pENFUtZEpXZ0ZRU2ZLTFVobHd2XzRiaUxuRFRESXVYNm9zNUUxLWliR1A0RHpTUlNjSUxOazBFSzFvUS1HVWVJX1VGeU41WkxDSjlLTHlQX0dEd1NqUzNna0dkMEZBYmZEd1JZaHhuVElEZFBLZFR0YVQ4V3BxVkhLbGxOMzlRWjU1RmZzRA?oc=5
+· INTC Intel Sees PC Market Slowdown, $300 Million Revenue Hit From Israel Plant Shutdown (Yahoo Finance) https://news.google.com/rss/articles/CBMimgFBVV95cUxNUC01c3M1VkJnNXhoYWc5Q29NQl9fdTBLaEI0UHU2WkZIQmZ3SmN6Q1dZRk82UHl1Vk5lVW50RHN2Q2VZNnRkeVVRSTlTLWg3OXA3bDhCckQwVlJBQ1g2Y2JUZTlHQ2h6RkZQOFh0LVIxVDQxZXJDUWZBTkNyY2hsWDZBQXl0SlRjanhLb05oQ2ZHS1VTNjBPY1R3?oc=5
+· MELI34 A disputa no balcão da farmácia: CEO da Pague Menos abre o jogo sobre o Mercado Livre (NeoFeed) https://news.google.com/rss/articles/CBMiuAFBVV95cUxPSHpMbVRLSkJYZ2JiWlJYTW9uMXdUSUtzV3Yyc1ZMNy14WVI3RHJ6RzNoZkFYUndSc3NBa0x6WWdfTDBCNEZRb1JlMnlxeTlVNld0Tmd5QXZNZU5VTmxBV2hfZzdpOGgtekxmUEppa2IyZjFrUWFVUjIwRTRsYWF0eEpLRjhxUG5UbHAwdEZpeTR2V3VNckwtX2pGZFlmQXVUaHpRVEdsVUd1dG1MWWxmM2pjREZjbzJR?oc=5
+· AMZN Amazon’s eye-watering spending is overshadowing growth (Fortune) https://news.google.com/rss/articles/CBMijgFBVV95cUxNbTR6QWEwM2w5VVdaY0Y5WVEwZFM0SGhiSWZuWVc2YUgzSzhfNklHM19XdHRHMGRRV001QmFNbW1ySGVYakJWdUFJbEtsN1VqdTd1cW9zNlgxVnFDVlVBLTRvMXRiTjNaSnptS3RGZnMtNzNkQ1FWLUZUZHVnWVdGOWJQRl9fNHE0RmNmeGNB?oc=5
+· BTC Bitcoin Drops on Binance Hack as Stock Selloff Also Weighs (Bloomberg) https://news.google.com/rss/articles/CBMirgFBVV95cUxPb0NVZVAyRjB3SE5wZEVtS0dCaWcwdDJrcGczSElDR2l0QXpMV0N2UkN5MFkyMFUySzFUTTBwekx5UEY1d3V4NnZsZy1vTGwtNjhWUnVhMWxpYTBSVVIyeHp5RExWY3Fick9OZS14RWZYUkxPYkdtSFZkNHM5eWctOHFjOTVfaG1CdVlXX0pNdl9JMHcyRTNOTUdnTmdtd2VJbEZWcWJSSmhGeG5Zemc?oc=5
+· BTC Binance’s $6.3 Billion Crypto Hack Strikes at Heart of Bitcoin’s Trillion Dollar Industry (Barron's) https://news.google.com/rss/articles/CBMigAFBVV95cUxNUHl4aXQ1ZTVfbFVTVUQ1czlCMXhEVHlLUU9ibS1xeFpaN3RSR0FDQ003cENZbmFVVFNJZC0zYkdiVm5nY245eWdHV0hSMXJ6aXd4TVJNYXVjamNuNGt2b2VVTHNuUkY3dTVqUUNGZFVpYnY1eVV0aDlYNkhoSUhKUQ?oc=5
+· UST U.S. Treasury Yields Fall; Eurozone Bond Yields Mixed After GDP Data (The Wall Street Journal) https://news.google.com/rss/articles/CBMiowFBVV95cUxOS1p6ZkxEeDY0SlhyTDJKSXkyR1NkOUZVa1Z4NWJHU2cxdjFfVlI0TVBGZUZRR1dkLWpEY2RtNC1wSjZKb3ZKaTloVHlvVlF3cFZvdFI2Y3R4c3RIeFd3NU1NMWRpVDBlc3M3STVwa2ZxNVpTLTBIN0t5VTF5alltRGxFQWM3QUpibUF1LWN1Ykhmb3FvVkVmR1pDczZEa2YxTXZz?oc=5
+· CVX Chevron earnings beat by $0.40, revenue topped estimates (Investing.com) https://news.google.com/rss/articles/CBMiogFBVV95cUxQd1o3RGpvWlhDYnBBazBPMl93MkdzNHplcGhMNk1FTXBFRU14R1FRRExrUWdhaXlsNXBFTWg1a1RIeXhTdFFYS0hXdkVTWXV1VllQRlpZODNGZm1KUHpMcTV0Z09lQ0dQV2tNbm1KWWkwOUlYZU05Z1c0MDlNYmx6QlZDOXpxZHJKRnFOakhfekJUUFo0d29xVFNTTWp0enJxcWc?oc=5
+· AMD AMD Shares Fall 6.5% as Intel’s Weak PC Market Forecast Raises Semiconductor Demand Concerns (Yahoo Finance) https://news.google.com/rss/articles/CBMijAFBVV95cUxQeUoycS1rbkxSeHhVdV9DR3ZpQkhGem5HUGJNQ3pqM0ctRkE4a0tHdjl4Zi1mZG51dGpQTEdvN0RSTmFVUDJwZ0hYbkpGS2pRVnJIYzBRWWx2S29VajhNeEhZRmJuZmhWeVhzWXdjRFliQ0lybnpVbkd4UFBsUm1NWEFTV1ExbUxBZ0ZNNw?oc=5
+· CVX Chevron tops Q3 expectations on higher downstream profit (Reuters) https://news.google.com/rss/articles/CBMiqAFBVV95cUxPcEliUm9zdHRocDhkd3BGMjNFaThOM2hJTjBCQUVWSlFwb2hzd0pvSTNyVTRZeGFaU1NhYW1tVHdYZ3lzTlFHa3dvaURGOTE1SWxNb2plNDdvVGFlTFBEQWdyajNEdm1XYnJ3Ykoxc2FaVGJXSW15NTNXVm9mUEFfSkpXVWdwUWNGM2VYc0pXbDlRTm5XMDZoQkR1NGx2SEhHN0ROSWpSSjg?oc=5
 · GOOGL Alphabet’s worst day ever leaves Google search valued below fossil fuel stocks, BofA says (Fortune) https://fortune.com/2026/10/29/alphabet-worst-day-google-search-valuation-energy-sector-bofa/
 · BTC Bitcoin tumbles below $78,000, extending losses as Binance security scare rattles crypto markets (CNBC) https://www.cnbc.com/2026/10/30/bitcoin-ether-price-binance-security-scare-rattles-crypto-markets.html
 · AMZN Amazon CEO says shopping agents like Meta’s Muse ‘not great’ (Fortune) https://fortune.com/2026/10/29/amazon-ceo-says-shopping-agents-like-metas-muse-not-great/
@@ -598,19 +711,4 @@ id: E05-TSLA-626a3a5b3f-2026-10-29 · status: linha
 · INTC Intel plunges 20% as weak Q4 forecast overshadows earnings beat (Investing.com) https://news.google.com/rss/articles/CBMiuwFBVV95cUxNRkxnWVV0LVdRSUZhOENoUXUxMkxjTi1VbFRDUHZsUGhKRm1JZXQ1cjd4RHFuOGwtRGZmQ1hQSzNnTDFOMmVtMnhTMDYyNThZcEpzeGhKXzZLX0dLU0hmMV9xYkhNTGlHX0RxWUNaVFJRcUFwcXFrRDBVWFY0bVpTMVd3M2VxZlpNTVNnMTV6akwyRGxlbTlzcWszQTZlclNQVU9UaThYN3JMaVViYllqQXNxVGxlWHVDY3pz?oc=5
 · INTC Intel forecast disappoints as Israel fab blast, PC weakness weigh (Reuters) https://www.reuters.com/business/intel-signals-slower-growth-pc-market-remains-under-pressure-2026-10-29/
 · AMZN Amazon Cloud Growth Is Highest in Five Years (The Wall Street Journal) https://www.wsj.com/tech/amazon-amzn-q3-earnings-report-2026-stock-a0b92f17
-· USDBRL Dólar vai a R$ 5,39, com risco fiscal; Ibov perde os 170 mil pontos (UOL Economia) https://economia.uol.com.br/cotacoes/noticias/redacao/2026/10/29/dolar-vai-a-r-539-com-risco-fiscal-ibov-perde-os-170-mil-pontos.htm
-· USDBRL Dólar à vista fecha em alta de 0,76%, a R$5,3875 na venda Por Reuters (Investing.com) https://br.investing.com/news/forex-news/dolar-a-vista-fecha-em-alta-de-076-a-r53875-na-venda-2108679
-· GOOGL Reddit shares sink on weak sales guidance and plans login requirement test as Google search traffic shrinks (CNBC) https://www.cnbc.com/2026/10/29/reddit-rddt-q3-2026.html
-· INTC Intel: Q3 Earnings Snapshot (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/intel-q3-earnings-snapshot-200746164.html
-· USDBRL Dólar sobe e fecha a R$ 5,38 com incertezas fiscais em foco (Money Times) https://www.moneytimes.com.br/dolar-29-10-26-lils/
-· INTC Intel stock falls 17% as it forecasts weaker chip sales (Financial Times) https://news.google.com/rss/articles/CBMihAFBVV95cUxPVGRfMnBXX1pCRzhXbHgyb2lDeXU4bUlqaEQzUElMTVgwUG05SGx0a1JoaDBBT0FUUWo0U1pRUFhGQWgtWlRZYVJqNTNSYW45OTRrY1FLTzR6UGtPckFxZlZoemVic0g0V1lHVklwNzItTGV3WXBmUllkYUZ6c0w0OWtDRGo?oc=5
-· CVX Chevron’s Earnings Will Show How It’s Spending Its Windfall (Barron's) https://news.google.com/rss/articles/CBMiekFVX3lxTE5rR2FEa3FnVFZJVWVtTTdEcnZxYjNsdDJnak9ISER3azR3enJNNmNvQ0RGYXZtWE1Lb0llanBoMFM5QmZ3QnkxUk9ZWHdEYVhBaW11SlFLcjlTRWJQZHV5UlpZXzNrSDQzV1JSbHdlTmZ3ZHJ0cGMyTUdR?oc=5
-· AMZN Amazon earnings watch: AWS growth, capex and margins in focus (Investing.com) https://news.google.com/rss/articles/CBMivgFBVV95cUxPYmRQR25oTEhRQTl0WXpxa1lfZlNaZERZam5UYjcySXFQbnMtbER0RkV6cnNweUw5ZThxVHhKeF9vX2lvSHBLUnZlQzdUSzNqWFJtTTNzTkRFNzlsYjVjNzcxTmtpY2tqby1Udko2UWxIOFpUbkJQZEhJNjVGVl9LTFVTVW5adGZ0eGRkY0c5YnlEdkxKQTcyYlFjSUhQU05JLUNzVFdYdVFRTjlWRHdpZ3hCY1Mxdklyb05IeXNB?oc=5
-· AMD AMD faces high expectations as Jefferies sees limited near-term upside (Yahoo Finance) https://news.google.com/rss/articles/CBMinwFBVV95cUxNeVZua2ZMYVg3cHJ5QllUcWNDbm5MVUFXRERWaF9Pd0lGaF9qbE5mYkJiMmh5dF9yUWg3T0NyLVV2dWRTTmZMcG5UUjUyNl9XcXR4anlfZGNwQ2NmQlE2c2dtclRVQlBBOWdUV0lmUHBkYWdzTWRrLU51alg4cTFRTXNtR3ptOGNwOWEyNV9OQnNKNE9HbklwdUFvMzdDMWM?oc=5
-· DI Selic vai cair? Mercado vê 63,1% de chance de pausa nos juros (Suno Noticias) https://news.google.com/rss/articles/CBMifkFVX3lxTFA4TE5XUWNVblJxcVJiMnpadnZIUFJiT1lRSnNNNnNCSzBveXpQOVRNUkQzZ3JQZEJhSVNyNVhmNmszYzJvazlEMUg0T2pfT1p3NF81dGViN1E3ZnFFNHEyTmRVaDN2anpzVjdFTS03QlBJZUxscjdPc3dNUS1pQdIBgwFBVV95cUxQRU1IajNOYmZTY1g3dENrRE1fMk80QWp3d1VpOWl2YkFVejFQWnc3TTVJaHJ6WGhrNDRxNUsxam5ySWs3NGhSa1BseWpvQTVkd2Q0T2ZPRWdRQVVUSXM4a0doTFNUa1NwUkZVTFpRUWxZZjhnRHZJM2FpMm1aaVg4Ukthaw?oc=5
-· GOOGL Gene Munster Flags Google Earnings As A Warning Sign To Amazon Investors (Yahoo Finance) https://news.google.com/rss/articles/CBMioAFBVV95cUxOby1QZ1JPcVQ1dlNTMDZrQXl4YjNMTVV1V053Q0pNdjZxdmdtWjB4eFdMbU5lbTZOMzFXcXdNV3lsMjZlWlRQMkY4ZUNGbUNIaUlJYy1XQWo1NnYzX2VyN2VuRkNSV3J1cUJHckVjNXRNNEE2dWJyeTA0TDV2TFJrdGtzM3NPb0JCS3FZRDJ2RUVKRXFIRU9EbzZxUFNpVFkw?oc=5
-· AVGO Prediction: This Will Be Broadcom's Stock Price by the End of 2027 (Yahoo Finance) https://news.google.com/rss/articles/CBMiowFBVV95cUxQb2VJbThWN01WZTZsdUFURXpNUE1nRVh5TEE1MEt1OEJiVnYxZ1VnandDTEpJaFdld25XNkNEQkZTMGhnLWJ2c3cyU2hyVlZUWTZCM0llcmpDdkhTQ0VZYmtiUTJEcG5fSkxkRTU1MTJ0SndTSGNwdUVyZnNUT05XNEhwTjlxbmhZdVlYR0FSUkVmeGF2bkkyVEtVbWp4bndJVzl3?oc=5
-· GOOGL Why Alphabet’s stock is on track for its worst day ever after the latest results (MarketWatch) https://news.google.com/rss/articles/CBMivgFBVV95cUxOWlBxRDZhQ1NwcDZLUzFsX1FMNU0tLXRIMmctT3I0cVNQRU9SMzhqN2RwSkhaclJ5dVQ3c3lFUTN2ZmpLbVc0X0QyalZTT0U4ZGNfN2ZyaVkzWFFQUWIwS1lxcGFuYW94SmJyWDZHSDRQOTdhWHE3RU8yWDJOZEtkOEl2UXBGN3FzRi1xVWZHOFVuZEM3U1Q2OFVVdm8xbTkwbnJJZ21TcDh0dlBUWERmMmQtZXJqN0lOSWM1aUtR?oc=5
-· DI Após cinco quedas seguidas, Selic pode ficar parada em novembro; chance já passa de 60% (Money Times) https://www.moneytimes.com.br/apos-cinco-quedas-seguidas-selic-pode-ficar-parada-em-novembro-mlim/
-· PETR4 Com LRCap, Petrobras aumenta em 197% potência térmica contratada (UOL Economia) https://megawhat.uol.com.br/economia-e-politica/empresas/com-lrcap-petrobras-aumenta-em-197-potencia-termica-contratada/
-· (+127 manchetes; lista completa em eventos/noticias.json)
+· (+142 manchetes; lista completa em eventos/noticias.json)

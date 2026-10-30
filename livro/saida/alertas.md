@@ -1,78 +1,4 @@
-ALERTAS · Fechamento 18h
-
-(pendente de slot anterior) [CRÍTICO] CURVA · C01 A curva ABRIU: F28 +148 bps em 5 pregões · F29 +214 bps em 5 pregões · F30 +239 bps em 5 pregões (ajuste B3 29/10) / C05 Pre 2029 PU -3,8% em 5 datas-base · IPCA+ 2032 PU -6,2% em 5 datas-base · IPCA+ 2040 PU -12% em 5 datas-base (base 29/10) / C02 Inclinação da curva DI: F35-F28 +14 bps no dia: bear steepening (longo abriu mais) · F35-F28 na máxima de 252 pregões · F30-F28 +91 bps em 5 pregões
-DI F28 14,37 (-4) · F29 14,80 (-2) · F30 15,05 (+5) · F32 15,23 (+10) · F35 15,23 (+10)
-Inclinação F35-F28 +87 bps (+14)
-TD Pre 2029 14,95 (+7) · IPCA+ 2032 7,98 (+11) PU -0,5% · IPCA+ 2040 7,56 (+4) · IPCA+ 2050 7,26 (+10) PU -2,1% · Pre 2032 15,41 (+33) PU -1,4%
-F35-F28 +87 bps (+14 dia · +99 5 pregões)
-F30-F28 +69 bps (+9 dia · +91 5 pregões)
-Implícita 2029: 6,57% (+103 bps na semana) vs Focus IPCA 2029 3,50% (+307 bps)
-Implícita 2032: 6,88% (+114 bps na semana) vs Focus IPCA 2030 3,50% (+338 bps)
-Implícita 2031/32 (descasado): 6,65% (+105 bps na semana) vs Focus IPCA 2030 3,50% (+315 bps)
-Por que importa: a curva é o preço do dinheiro no Brasil; longo abrindo com curto parado é prêmio de risco, não Selic
-Como falar: 'o prefixado longo marcou a mercado para baixo; quem carrega até o vencimento não mudou de taxa'
-Fonte: B3 ajuste 29/10 · Tesouro Transparente base 29/10; BCB Focus · Tesouro Transparente, base 29/10 · ajuste B3 29/10
-ids: C01-DI-abriu-2026-10-29, C05-TESOURO-abriu-2026-10-29, C02-DI-inclinacao-2026-10-29, C06-TESOURO-implicita-2026-10-29
-
-(pendente de slot anterior) [CRÍTICO] T05 · 2 ativos: MRVL, GOOGL
-· MRVL -13% no dia a US$ 218,34: movimento de 3,4 desvios para uma vol de 20 dias de 65% a.a.
-  1m -17% · 6m +32% · YTD +157%
-· GOOGL -13% no dia a US$ 283,82: movimento de 9,6 desvios para uma vol de 20 dias de 22% a.a.
-  1m -17% · 6m -26% · YTD -9,1%
-Por que importa: acima de 3 desvios o movimento sai do ruído e costuma vir de fato novo ou fluxo forçado
-Como falar: 'o movimento de hoje é atípico para este papel; antes de mexer, saber o motivo'
-Fonte: Yahoo Finance fech. 29/10
-ids: T05-MRVL-queda-2026-10-29, T05-GOOGL-queda-2026-10-29
-
-(pendente de slot anterior) [ATENÇÃO] E03 · MRVE3 · Comunicado ao Mercado: MRVE3) Companhia disponibiliza ao mercado comunicado recebido pela M&G Investments para os fins do disposto no art. 12 da Instrução CVM nº 44/21, inf…
-CVM · entregue 29/10/2026 17:57 · Aquisição/Alienação de Participação Acionária Relevante / Declaração de Aquisição de Participação Acionária Relevante
-Do documento:
-  – A   M&G   informou que o conjunto de fundos de investimento e carteira sob gestão passou a deter  32.292.085  ações  , equivalente a   5, 74 %   da base acionária.
-  – ISIN: BRMRVEACNOR2  Number of Shares Held: 32,292,085  Percentage of Share Capital: 5.74%  Date Threshold Crossed: 28/10/2026    Please treat this correspondence as our formal notification of the relevant shareholding p…
-  – M&G   informed that the group of investment funds and managed portfolios  has  c o me to hold   32 ,292  ,085  shares,   representing   5.
-  – 74 %  of the share   capital  .
-  – ISIN: BRMRVEACNOR2  Number of Shares Held: 32,292,085  Percentage of Share Capital: 5.74%  Date Threshold Crossed: 28/10/2026    Please treat this correspondence as our formal notification of the relevant shareholding p…
-  – Kind regards,    George Rose    for and on behalf of M&G Investment Management Limited  Direct Line +44 20 8162 3276  Email shareholder.disclosures@mandg.co.uk
-Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1581810
-Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; confirma ou nega o que circula
-Ativos: MRVE3
-Como falar: 'a MRV publicou comunicado ao mercado sobre MRVE3) Companhia disponibiliza ao mercado comunicado recebido pela M&…'
-Fonte: CVM 29/10
-ids: E03-MRVE3-1581810-2026-10-29
-
-(pendente de slot anterior) [ATENÇÃO] E05 · INTC · INTC Stock Tumbles After-Hours After Q3 PC Slump And Supply Bottlenecks Cloud Fourth-Quarter Guidance
-Yahoo Finance · 29/10 17h54 · fonte única · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – INTC Stock Tumbles After-Hours After Q3 PC Slump And Supply Bottlenecks Cloud Fourth-Quarter Guidance - Intel reported third-quarter revenue of $16.5 billion, up 21% year-over-year, and earnings of $0.52 per share, beat…
-  – - Intel expects Q4 revenue to come in between $ 15 and $16 billion, below what analysts expect.
-  – Intel Inc. (INTC) share price tumbled about 17% after-hours on Thursday after the company forecast weaker-than-expected fourth-quarter revenue and earnings amid a slump in persona; computer (PC) sales amid supply bottle…
-  – For the third quarter ended September 26, Intel posted total sales of $16.5 billion, marking a 21% increase from the same period last year and matching analysts' average predictions.
-  – Adjusted earnings reached $0.52 per share, surpassing Wall Street's consensus estimate of $0.41 per share.
-  – "Our immediate priority is to unlock additional supply to meet extraordinary demand for our Xeon family," CEO Lip-Bu Tan said.
-Link: https://finance.yahoo.com/markets/stocks/articles/intc-stock-tumbles-hours-q3-205401483.html
-Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
-Ativos: INTC
-Como falar: 'saiu no Yahoo Finance: INTC Stock Tumbles After-Hours After Q3 PC Slump And Supply Bottlenecks Cloud Fourth-Quar…; confirmar o número no texto antes de repassar'
-Fonte: Yahoo Finance 29/10 17h54
-ids: E05-INTC-7b6bb1157a-2026-10-29
-
-(pendente de slot anterior) [ATENÇÃO] E05 · INTC · Intel shares plummet on lighter-than-expected Q4 guidance
-CNBC · 29/10 17h23 · fonte única · licença: resumo
-Link: https://www.cnbc.com/video/2026/10/29/intel-shares-plummet-on-lighter-than-expected-q4-guidance.html
-Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
-Ativos: INTC
-Como falar: 'saiu no CNBC: Intel shares plummet on lighter-than-expected Q4 guidance; confirmar o número no texto antes de repassar'
-Fonte: CNBC 29/10 17h23
-ids: E05-INTC-56cfc524b4-2026-10-29
-
-(pendente de slot anterior) [ATENÇÃO] E05 · INTC · Intel slides as Q3 results, guidance miss Wall Street's forecasts
-TradingView (Reuters) · 29/10 17h08 · fonte única · licença: manchete
-Link: https://www.tradingview.com/news/seekingalpha:6b120d5e0094b:0-intel-crashes-as-q3-results-guidance-miss-wall-street-s-forecasts/
-Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
-Ativos: INTC
-Como falar: 'saiu no TradingView (Reuters): Intel slides as Q3 results, guidance miss Wall Street's forecasts; confirmar o número no texto antes de repassar'
-Fonte: TradingView (Reuters) 29/10 17h08
-ids: E05-INTC-479410382a-2026-10-29
+ALERTAS · Manhã 08h30
 
 (pendente de slot anterior) [ATENÇÃO] E05 · VALE3 · Vale vê lucro despencar 53% no 3T26, apesar de receita bilionária em alta; veja balanço
 Estadao · 29/10 19h40 · fonte única · licença: manchete
@@ -108,7 +34,7 @@ Como falar: 'saiu no Money Times: Lucro líquido da Vale (VALE3) cai 54% no 3T26
 Fonte: Money Times 29/10 19h24
 ids: E05-VALE3-b98d9a1a26-2026-10-29
 
-[ATENÇÃO] E05 · VALE3 · Lucro líquido da Vale no 3º trimestre cai pela metade com efeitos de câmbio e Samarco
+(pendente de slot anterior) [ATENÇÃO] E05 · VALE3 · Lucro líquido da Vale no 3º trimestre cai pela metade com efeitos de câmbio e Samarco
 Bloomberg Linea · 29/10 20h57 · fonte única · licença: resumo
 Trechos (licença resumo: reescrever, não colar):
   – Bloomberg Línea — O lucro líquido da Vale (VALE3) no terceiro trimestre caiu pela metade, diante de efeitos cambiais e de provisão da Samarco.
@@ -122,10 +48,9 @@ Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; 
 Ativos: VALE3 · USDBRL
 Como falar: 'saiu no Bloomberg Linea: Lucro líquido da Vale no 3º trimestre cai pela metade com efeitos de câmbio e Samarco; confirmar o número no texto antes de repassar'
 Fonte: Bloomberg Linea 29/10 20h57
-Push: Fechamento 18h: 3 alertas de atenção — E05 VALE3, E05 INTC, E05 INTC · detalhe na sessão
 ids: E05-VALE3-fe90f8157c-2026-10-29
 
-[ATENÇÃO] E05 · INTC · Earnings call transcript: Intel beats Q3 2026 estimates, but stock sinks
+(pendente de slot anterior) [ATENÇÃO] E05 · INTC · Earnings call transcript: Intel beats Q3 2026 estimates, but stock sinks
 Investing.com · 29/10 19h23 · fonte única · licença: manchete
 Link: https://www.investing.com/news/transcripts/earnings-call-transcript-intel-beats-q3-2026-estimates-but-stock-sinks-93CH-4985498
 Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
@@ -134,7 +59,7 @@ Como falar: 'saiu no Investing.com: Earnings call transcript: Intel beats Q3 202
 Fonte: Investing.com 29/10 19h23
 ids: E05-INTC-3f36ca9abf-2026-10-29
 
-[ATENÇÃO] E05 · INTC · Intel shares fall 22% as weak sales outlook dents turnaround
+(pendente de slot anterior) [ATENÇÃO] E05 · INTC · Intel shares fall 22% as weak sales outlook dents turnaround
 Financial Times · 29/10 17h02 · fonte única · licença: manchete
 Link: https://www.ft.com/content/d7540e89-08db-43d3-92e0-3c15dd3a60cb?syn-25a6b1a6=1
 Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
@@ -143,53 +68,139 @@ Como falar: 'saiu no Financial Times: Intel shares fall 22% as weak sales outloo
 Fonte: Financial Times 29/10 17h02
 ids: E05-INTC-e56b105b09-2026-10-29
 
-Info (só linha no Fechamento):
-· E03 PETR4 · Comunicado ao Mercado: Esclarecimentos sobre questionamentos da CVM/B3
-· E05 GOOGL · Alphabet’s worst day ever leaves Google search valued below fossil fuel stocks, BofA says
-· E05 BTC · Bitcoin tumbles below $78,000, extending losses as Binance security scare rattles crypto markets
-· E05 AMZN · Amazon CEO says shopping agents like Meta’s Muse ‘not great’
-· E05 NVDA · Nvidia in Talks to Offer Credit Support for Nscale Project
-· E05 AMZN · Amazon’s bold cloud forecast isn’t enough to stave off a stock drop
-· E05 AMZN · Nasdaq 100 Futures Dip On Weak Intel, Amazon Earnings With Bloated Capex Worries Weighing On Sentiment — AMZN, INTC, SBUX, PLTR, ASTS In Focus
-· E05 GOOGL · Jim Cramer breaks down the difference between Microsoft and Alphabet earnings
-· E05 VALE3 · Vale Iron Ore Output Trails Forecast on Serra Norte Curbs
-· E05 BTC · Galaxy’s Alex Thorn Says Bitcoin Held Near $80,000 Because Hedge Funds Had Already Sold
-· E05 AMZN · Amazon sinks as AI spending eclipses fastest cloud growth in five years
-· E05 VALE3 · Com minério de ferro e petróleo jogando contra, Vale (VALE3) vê lucro cair 54%, para US$ 1,255 bilhão
-· E05 INTC · Why Intel’s stock is sinking toward its worst drop in two years
-· E05 BRENT · ANZ raises December 31 Brent price view to $105 a barrel
-· E05 PETR4 · Petrobras anuncia 3ª descoberta de petróleo em poço na Foz do Amazonas
-· E05 USDBRL · Ibovespa fecha abaixo de 170 mil pontos; dólar sobe com preocupações com Lula 4
-· T08 SAPR4 entrou em queda de -30% do pico: -31% do pico de 52s (R$ 9,08 em 28/01) a R$ 6,28
-· T06 GOOGL -12% em 5 sessões a US$ 283,82: movimento de 4,2 desvios para a vol de 20 dias
-· T03 WQTMUS formou death cross: MM50 US$ 31,03 cruzou abaixo da MM200 US$ 31,14 pela 2ª sessão; preço US$ 28,00, -10% da MM200, -5,2% em 12m
-· T04 EQTL3 fechou na mínima de 52 semanas: R$ 32,90, -17% em 1m e -6,5% em 12m
-· T04 BBDC4 fechou na mínima de 52 semanas: R$ 14,16, -19% em 1m e -18% em 12m
-· T04 DIRR3 fechou na mínima de 52 semanas: R$ 8,23, -19% em 1m e -45% em 12m
-· T04 MRVE3 fechou na mínima de 52 semanas: R$ 4,04, -25% em 1m e -43% em 12m
-· T04 CURY3 fechou na mínima de 52 semanas: R$ 26,16, -8,9% em 1m e -14% em 12m
-· T10 QNTM no mínimo de força relativa em 63 sessões contra SPX: -12% vs +0,7% em 20 sessões (-12% relativo)
-· T10 GOOGL no mínimo de força relativa em 63 sessões contra SPX: -16% vs +0,7% em 20 sessões (-17% relativo)
-· T10 MRVE3 no mínimo de força relativa em 63 sessões contra IBOV: -26% vs -9,2% em 20 sessões (-19% relativo)
-· T11 KLBN4 descolou atrás de SUZB3: -4,4% vs +12% em 20 sessões (z -3,5 em 252 sessões, 2º dia)
+[ATENÇÃO] C04 · IPCA+ 2040 volta abaixo de 7,50% real: 7,45% (-7 bps), base 29/10
+PU R$ 1.781,45; cada 10 bps move ~1,3% do PU
+Desde 2010, 15% dos dias tiveram taxa maior neste título
+Por que importa: juro real acima de 6-7% é o argumento central do assessor brasileiro para renda fixa; cada 0,50 pp muda o discurso
+Como falar: 'o juro real cedeu abaixo de 7,50%: quem comprou nos níveis maiores está marcando ganho'
+Fonte: Tesouro Transparente, base 29/10
+Push: Manhã 08h30: 7 alertas de atenção — curva IPCA2040, E01 PLTR, M01 MACRO, E04 CVX, E05 CVX, E05 INTC, E05 INTC · detalhe na sessão
+ids: C04-IPCA2040-baixo_7.5-2026-10-29
 
-Suprimidos pelo teto (viram linha do Fechamento): T08-SAPR4--30-2026-10-29 (teto diário de críticos), T06-GOOGL-queda-2026-10-29 (teto diário de críticos), T03-WQTMUS-death-2026-10-29 (teto de atenção), T04-EQTL3-minima-2026-10-29 (teto de atenção), T04-BBDC4-minima-2026-10-29 (teto de atenção), T04-DIRR3-minima-2026-10-29 (teto de atenção), T04-MRVE3-minima-2026-10-29 (teto de atenção), T04-CURY3-minima-2026-10-29 (teto de atenção), T10-QNTM-mínimo-2026-10-29 (teto de atenção), T10-GOOGL-mínimo-2026-10-29 (teto de atenção), T10-MRVE3-mínimo-2026-10-29 (teto de atenção), T11-KLBN4-SUZB3_abaixo-2026-10-29 (teto de atenção)
+[ATENÇÃO] E01 · PLTR: resultado sai na próxima sessão (02/11)
+seg 02/11 · horário não confirmado · estimado (Yahoo)
+Vol de 20 dias +45% a.a. ⇒ movimento típico de 1 dia ±2,9%
+Chega ao resultado com 1m +5,1% · 6m +41% · YTD +11%
+Consenso: não disponível (sem fonte licenciada); usar o release e o guidance anterior
+Por que importa: resultado é o evento que mais move o papel em um dia; a vol implícita e o posicionamento sobem antes e caem depois
+Como falar: 'o resultado sai amanhã; o movimento típico do papel num dia é o da vol acima, e o mercado costuma exagerar na abertura'
+Fonte: Yahoo
+ids: E01-PLTR-D-1-2026-10-30
+
+[ATENÇÃO] M01 · Agenda: PCE de setembro (BEA) e Employment Cost Index 3T26 (BLS) hoje às 09:30 (30/10)
+O que está no preço: F28 14,37% · F35 15,23% · implícita 2029 6,53% · Focus IPCA 2027 4,34%
+Por que importa: evento macro de alta relevância reprecifica a curva inteira; o que importa é a surpresa contra o que está no preço
+Ativos: UST · DXY · UCITS
+Como falar: 'PCE de setembro sai hoje; o mercado já precifica o consenso, a reação vem da surpresa'
+Fonte: config/calendario.yaml
+ids: M01-MACRO-D0_3010-2026-10-30
+
+[ATENÇÃO] E04 · CVX · 8-K: 2.02 resultado do trimestre
+SEC EDGAR · aceito 30/10 07h16 · 8-K
+Do documento:
+  – 0000093410 false 0000093410 FALSE 0000093410 2026-10-30 2026-10-30   UNITED STATES   SECURITIES AND EXCHANGE COMMISSION   Washington, D.C.
+  – ☐   Item 2.02 Results of Operations and Financial Condition   On October 30, 2026, Chevron Corporation (the “Company”) issued a news release announcing unaudited third quarter 2026 earnings of $9.9 billion.
+  – The news release is attached hereto as Exhibit 99.1 and incorporated herein by reference.
+  – The information included herein and in Exhibit 99.1 shall not be deemed “filed” for purposes of Section 18 of the Securities Exchange Act of 1934, nor shall it be deemed incorporated by reference in any filing under the…
+  – Item 9.01 Financial Statements and Exhibits.
+  – Exhibit Number Description   99.1 News release issued by Chevron Corporation, dated O ctober 3 0 , 2026.
+Link: https://www.sec.gov/Archives/edgar/data/93410/000009341026000196/cvx-20261030.htm
+Por que importa: resultado do trimestre reprecifica lucro, guidance e multiplo; comparar com o consenso
+Ativos: CVX
+Como falar: 'a CVX protocolou 8-K na SEC (2.02 resultado do trimestre)'
+Fonte: SEC EDGAR 2026-10-30
+ids: E04-CVX-26000196-2026-10-30
+
+[ATENÇÃO] E05 · CVX · Earnings Snapshot: Chevron beats Q3 EPS and revenue estimates; declares $1.78 dividend and production hits 3.98M boe/day
+TradingView (Reuters) · 30/10 07h28 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/seekingalpha:1ce239cb2094b:0-earnings-snapshot-chevron-beats-q3-eps-and-revenue-estimates-declares-1-78-dividend-and-production-hits-3-98m-boe-day/
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: CVX
+Como falar: 'saiu no TradingView (Reuters): Earnings Snapshot: Chevron beats Q3 EPS and revenue estimates; declares $1.78 dividend an…; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 30/10 07h28
+ids: E05-CVX-bf5b1df9bb-2026-10-30
+
+[ATENÇÃO] E05 · INTC · Intel Shares Plunge 25% as Weak Fourth-Quarter Outlook Overshadows Strong Q3 Earnings
+Yahoo Finance · 30/10 07h20 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Intel (NASDAQ:INTC) shares fell 25% in premarket trading after the semiconductor manufacturer issued fourth-quarter revenue and earnings forecasts significantly below Wall Street expectations, despite reporting stronger…
+  – The company reported third-quarter adjusted earnings of $0.52 per share, exceeding analysts' expectations of $0.40.
+  – Revenue increased 21% year over year to $16.5 billion, slightly ahead of the consensus estimate of $16.48 billion.
+  – Fourth-Quarter Revenue and Earnings Forecasts Miss Expectations Intel projected fourth-quarter revenue of between $15 billion and $16 billion, considerably below the $17.08 billion anticipated by analysts.
+  – The midpoint of the company's forecast, at $15.5 billion, represents a shortfall of approximately 9% compared with market expectations.
+  – Intel also expects adjusted earnings of $0.25 per share for the quarter, compared with the consensus forecast of $0.44.
+Link: https://finance.yahoo.com/markets/stocks/articles/intel-shares-plunge-25-weak-102052649.html
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: INTC
+Como falar: 'saiu no Yahoo Finance: Intel Shares Plunge 25% as Weak Fourth-Quarter Outlook Overshadows Strong Q3 Earnings; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 30/10 07h20
+ids: E05-INTC-eebcd25826-2026-10-30
+
+[ATENÇÃO] E05 · INTC · Intel plunges on a major guidance miss. What went wrong — and how to proceed
+CNBC · 29/10 22h06 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Revenue in the third quarter increased 21% year over year to $16.513 billion, edging out the LSEG-compiled consensus estimate of $16.496 billion.
+  – Non-GAAP earnings per share (EPS) more than doubled to 52 cents, beating the LSEG estimate of 40 cents.
+  – As a result, our rating is currently under review, and we are slashing our price target to $100.
+  – "The industry continues to navigate one of the most significant supply shortages in history driven by the unprecedented demand for superintelligence," CEO Lip-Bu Tan said on the conference call.
+  – Sales in the unit fell 5% year-over-year, but it still accounts for more than half of the revenue of Intel's products group (CCPG + DCAI) and about 43% of Intel Products' operating income (see chart below).
+  – That PC exposure is weighing on Intel's outlook for the rest of the year, even as it reported its strongest DCAI (data center and AI) segment growth in 15 years.
+Link: https://www.cnbc.com/investingclub/2026/10/29/intel-plunges-on-a-major-guidance-miss-what-went-wrong-how-to-proceed.html
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: INTC
+Como falar: 'saiu no CNBC: Intel plunges on a major guidance miss. What went wrong — and how to proceed; confirmar o número no texto antes de repassar'
+Fonte: CNBC 29/10 22h06
+ids: E05-INTC-8a46f101b3-2026-10-30
+
+Info (só linha no Fechamento):
+· E01 CVX: resultado sai hoje (30/10)
+· E01 GFS: resultado sai em 3 sessões (04/11)
+· E01 COHR: resultado sai em 3 sessões (04/11)
+· E01 SBSP3: resultado sai em 3 sessões (05/11)
+· E02 ITUB4 fica ex-dividendo em 03/11: R$ 0,02 (0,05% do preço)
+· E04 AMZN · 10-Q: 10-Q
+· E05 INTC · Intel faces a 'multi-quarter' issue balancing PC weakness with AI data-center gains: Vivek Arya
+· E05 INTC · Intel warning sparks chip rout as PC weakness clouds turnaround
+· E05 AMZN · Amazon shares are tumbling after third-quarter earnings miss. Analysts say buy the dip
+· E05 PETR4 · Petrobras anuncia nova descoberta de petróleo na Foz do Amazonas
+· E05 PETR4 · Vale, Usiminas, CSN, Braskem, Petrobras e mais ações para acompanhar hoje
+· E05 CVX · WRAPUP Exxon, Chevron earnings propelled by war-driven refining surge
+· E05 INTC · Intel Sees PC Market Slowdown, $300 Million Revenue Hit From Israel Plant Shutdown
+· E05 MELI34 · A disputa no balcão da farmácia: CEO da Pague Menos abre o jogo sobre o Mercado Livre
+· E05 AMZN · Amazon’s eye-watering spending is overshadowing growth
+· E05 BTC · Bitcoin Drops on Binance Hack as Stock Selloff Also Weighs
+· E05 BTC · Binance’s $6.3 Billion Crypto Hack Strikes at Heart of Bitcoin’s Trillion Dollar Industry
+· E05 UST · U.S. Treasury Yields Fall; Eurozone Bond Yields Mixed After GDP Data
+· E05 CVX · Chevron earnings beat by $0.40, revenue topped estimates
+· E05 AMD · AMD Shares Fall 6.5% as Intel’s Weak PC Market Forecast Raises Semiconductor Demand Concerns
+· E05 CVX · Chevron tops Q3 expectations on higher downstream profit
+· E05 PLTR · Could $1,000 Invested in Palantir Turn Into $100,000?
+· E05 KO · Coca-Cola Raised Its 2026 Outlook. I'd Still Wait for a Lower Price to Buy the Stock.
+
+Suprimidos pelo teto (viram linha do Fechamento): E05-PLTR-ca4dc5d221-2026-10-29 (teto de noticias), E05-KO-57cc816b05-2026-10-29 (teto de noticias)
 
 Alertas do dia (todos, com status):
-· expirado  C05 TESOURO — Pre 2029 PU -3,8% em 5 datas-base · IPCA+ 2032 PU -6,2% em 5 datas-base · IPCA+ 
-· expirado  T05 MRVL — MRVL -13% no dia a US$ 218,34: movimento de 3,4 desvios para uma vol de 20 dias 
-· expirado  T05 GOOGL — GOOGL -13% no dia a US$ 283,82: movimento de 9,6 desvios para uma vol de 20 dias
+· entregue  C05 TESOURO — Pre 2029 PU -3,8% em 5 datas-base · IPCA+ 2032 PU -6,2% em 5 datas-base · IPCA+ 
+· entregue  T05 MRVL — MRVL -13% no dia a US$ 218,34: movimento de 3,4 desvios para uma vol de 20 dias 
+· entregue  T05 GOOGL — GOOGL -13% no dia a US$ 283,82: movimento de 9,6 desvios para uma vol de 20 dias
 · linha     T08 SAPR4 — SAPR4 entrou em queda de -30% do pico: -31% do pico de 52s (R$ 9,08 em 28/01) a 
 · linha     T06 GOOGL — GOOGL -12% em 5 sessões a US$ 283,82: movimento de 4,2 desvios para a vol de 20 
+· pendente  C04 IPCA2040 — IPCA+ 2040 volta abaixo de 7,50% real: 7,45% (-7 bps), base 29/10
+· pendente  E01 PLTR — PLTR: resultado sai na próxima sessão (02/11)
+· pendente  M01 MACRO — Agenda: Banco do Japao: decisao e Outlook Report hoje (30/10)
+· pendente  E04 CVX — CVX · 8-K: 2.02 resultado do trimestre
+· pendente  E05 CVX — CVX · Earnings Snapshot: Chevron beats Q3 EPS and revenue estimates; declares $1
+· pendente  E05 INTC — INTC · Intel Shares Plunge 25% as Weak Fourth-Quarter Outlook Overshadows Strong
+· pendente  E05 INTC — INTC · Intel plunges on a major guidance miss. What went wrong — and how to proc
 · pendente  E05 VALE3 — VALE3 · Lucro líquido da Vale no 3º trimestre cai pela metade com efeitos de câm
 · pendente  E05 INTC — INTC · Earnings call transcript: Intel beats Q3 2026 estimates, but stock sinks
 · pendente  E05 INTC — INTC · Intel shares fall 22% as weak sales outlook dents turnaround
-· pendente  E05 VALE3 — VALE3 · Vale vê lucro despencar 53% no 3T26, apesar de receita bilionária em alt
-· pendente  E05 VALE3 — VALE3 · Vale registra queda de 53% no lucro líquido no terceiro trimestre
-· pendente  E05 VALE3 — VALE3 · Lucro líquido da Vale (VALE3) cai 54% no 3T26, para US$ 1,25 bilhão, aba
-· expirado  C01 DI — A curva ABRIU: F28 +148 bps em 5 pregões · F29 +214 bps em 5 pregões · F30 +239 
-· expirado  C02 DI — Inclinação da curva DI: F35-F28 +14 bps no dia: bear steepening (longo abriu mai
-· expirado  C06 TESOURO — Inflação implícita: implícita 2029 +103 bps na semana · implícita 2032 +114 bps 
+· expirado  E05 VALE3 — VALE3 · Vale vê lucro despencar 53% no 3T26, apesar de receita bilionária em alt
+· expirado  E05 VALE3 — VALE3 · Vale registra queda de 53% no lucro líquido no terceiro trimestre
+· expirado  E05 VALE3 — VALE3 · Lucro líquido da Vale (VALE3) cai 54% no 3T26, para US$ 1,25 bilhão, aba
+· entregue  C01 DI — A curva ABRIU: F28 +148 bps em 5 pregões · F29 +214 bps em 5 pregões · F30 +239 
+· entregue  C02 DI — Inclinação da curva DI: F35-F28 +14 bps no dia: bear steepening (longo abriu mai
+· entregue  C06 TESOURO — Inflação implícita: implícita 2029 +103 bps na semana · implícita 2032 +114 bps 
 · linha     T03 WQTMUS — WQTMUS formou death cross: MM50 US$ 31,03 cruzou abaixo da MM200 US$ 31,14 pela 
 · linha     T04 EQTL3 — EQTL3 fechou na mínima de 52 semanas: R$ 32,90, -17% em 1m e -6,5% em 12m
 · linha     T04 BBDC4 — BBDC4 fechou na mínima de 52 semanas: R$ 14,16, -19% em 1m e -18% em 12m
@@ -200,10 +211,10 @@ Alertas do dia (todos, com status):
 · linha     T10 GOOGL — GOOGL no mínimo de força relativa em 63 sessões contra SPX: -16% vs +0,7% em 20 
 · linha     T10 MRVE3 — MRVE3 no mínimo de força relativa em 63 sessões contra IBOV: -26% vs -9,2% em 20
 · linha     T11 KLBN4 — KLBN4 descolou atrás de SUZB3: -4,4% vs +12% em 20 sessões (z -3,5 em 252 sessõe
-· expirado  E03 MRVE3 — MRVE3 · Comunicado ao Mercado: MRVE3) Companhia disponibiliza ao mercado comunic
-· expirado  E05 INTC — INTC · INTC Stock Tumbles After-Hours After Q3 PC Slump And Supply Bottlenecks C
-· expirado  E05 INTC — INTC · Intel shares plummet on lighter-than-expected Q4 guidance
-· expirado  E05 INTC — INTC · Intel slides as Q3 results, guidance miss Wall Street's forecasts
+· entregue  E03 MRVE3 — MRVE3 · Comunicado ao Mercado: MRVE3) Companhia disponibiliza ao mercado comunic
+· entregue  E05 INTC — INTC · INTC Stock Tumbles After-Hours After Q3 PC Slump And Supply Bottlenecks C
+· entregue  E05 INTC — INTC · Intel shares plummet on lighter-than-expected Q4 guidance
+· entregue  E05 INTC — INTC · Intel slides as Q3 results, guidance miss Wall Street's forecasts
 · entregue  E04 AMZN — AMZN · 8-K: 2.02 resultado do trimestre
 · entregue  E05 INTC — INTC · Intel crashes as Q3 results, guidance miss Wall Street's forecasts (INTC:
 · entregue  E05 INTC — INTC · Intel Plunges After PC Slump and Supply Snags Hurt Its Outlook
@@ -237,6 +248,6 @@ Alertas do dia (todos, com status):
 · linha     T10 DIRR3 — DIRR3 no mínimo de força relativa em 63 sessões contra IBOV: -19% vs -9,2% em 20
 · linha     T11 UGPA3 — UGPA3 descolou atrás de BRENT: -15% vs +13% em 20 sessões (z -2,0 em 252 sessões
 · linha     T12 UGPA3 — UGPA3: 6 quedas seguidas (-20% acumulado) a R$ 32,01
-· linha     F06 BTC — BTC cai a US$ 79.098 (cruzou US$ 80.000)
+· linha     F06 BTC — BTC cai a US$ 77.775 (cruzou US$ 80.000)
 · linha     F01 USDBRL — Real cai: USD/BRL 5,3864 (+6,9% em 5 sessões) (parcial, intradia)
-· (+212 notícias só manchete, em noticias.md)
+· (+235 notícias só manchete, em noticias.md)
