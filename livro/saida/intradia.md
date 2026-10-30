@@ -1,96 +1,70 @@
 ALERTAS · intradia
 
-[ATENÇÃO] E04 · AMZN · 8-K: 2.02 resultado do trimestre
-SEC EDGAR · aceito 29/10 17h05 · 8-K
-Do documento:
-  – ☐   Table of Contents   TABLE OF CONTENTS   ITEM 2.02.
-  – 3   SIGNATURES   4   EXHIBIT 99.1   EXHIBIT 99.2   Table of Contents   ITEM 2.02.
-  – On October 29, 2026, Amazon.com, Inc. announced its third quarter 2026 financial results.
-  – Exhibit Number Description   99.1 Press Release dated October 29, 2026 announcing Amazon.com, Inc.’s Third Quarter 2026 Financial Results .
-  – 99.2 Information Regarding Non-GAAP Financial Measures.
-  – 104 The cover page from this Current Report on Form 8-K, formatted in Inline XBRL (included as Exhibit 101).
-Link: https://www.sec.gov/Archives/edgar/data/1018724/000101872426000038/amzn-20261029.htm
-Por que importa: resultado do trimestre reprecifica lucro, guidance e multiplo; comparar com o consenso
-Ativos: AMZN
-Como falar: 'a AMZN protocolou 8-K na SEC (2.02 resultado do trimestre)'
-Fonte: SEC EDGAR 2026-10-29
-Push: intradia: 4 alertas de atenção — E04 AMZN, E05 INTC, E05 INTC, E05 INTC · detalhe na sessão
-ids: E04-AMZN-26000038-2026-10-29
-
-[ATENÇÃO] E05 · INTC · Intel crashes as Q3 results, guidance miss Wall Street's forecasts (INTC:NASDAQ)
-Seeking Alpha · 29/10 17h08 · fonte única · licença: manchete
-Link: https://seekingalpha.com/news/4660336-intel-slides-as-q3-results-guidance-miss-wall-streets-forecasts
-Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
-Ativos: INTC
-Como falar: 'saiu no Seeking Alpha: Intel crashes as Q3 results, guidance miss Wall Street's forecasts (INTC:NASDAQ); confirmar o número no texto antes de repassar'
-Fonte: Seeking Alpha 29/10 17h08
-ids: E05-INTC-dda324489d-2026-10-29
-
-[ATENÇÃO] E05 · INTC · Intel Plunges After PC Slump and Supply Snags Hurt Its Outlook
-Bloomberg · 29/10 17h07 · fonte única · licença: manchete
-Link: https://www.bloomberg.com/news/articles/2026-10-29/intel-outlook-hurt-by-weak-market-for-personal-computer-chips
-Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
-Ativos: INTC
-Como falar: 'saiu no Bloomberg: Intel Plunges After PC Slump and Supply Snags Hurt Its Outlook; confirmar o número no texto antes de repassar'
-Fonte: Bloomberg 29/10 17h07
-ids: E05-INTC-e7f0b14445-2026-10-29
-
-[ATENÇÃO] E05 · INTC · Intel stock plunges after posting disappointing Q4 outlook
-Yahoo Finance · 29/10 17h07 · fonte única · licença: resumo
+[ATENÇÃO] E05 · JPM · JPMorgan Raises NII Outlook: Is JPM Stock Too Expensive?
+Yahoo Finance · 30/10 09h30 · fonte única · licença: resumo
 Trechos (licença resumo: reescrever, não colar):
-  – Intel (INTC) topped third quarter earnings estimates while the tech giant's fourth quarter forecasts fell shy of expectations.
-  – The stock is plunging in Thursday's extended hours.
-  – Market Domination Overtime Host Jake Conley and Yahoo Finance Markets and Data Editor Jared Blikre dive into Intel's latest earnings results.
-Link: https://finance.yahoo.com/video/intel-stock-plunges-after-posting-disappointing-q4-outlook-200731652.html
+  – JPMorgan JPM has raised its net interest income (NII) outlook for 2026, supported by steady loan growth, higher deposit balances and resilient customer activity.
+  – The banking giant also provided an encouraging preliminary NII outlook for 2027, suggesting that spread income momentum could continue into next year.
+  – In the third quarter of 2026, JPMorgan's NII increased 13% year over year to $27.1 billion.
+  – Following its third-quarter results, management raised its full-year 2026 total NII projection to approximately $106.2 billion from the previously expected $105.5 billion.
+  – Similarly, NII excluding Markets is now anticipated to reach approximately $97.2 billion, up from the earlier projection of $96.5 billion.
+  – For the fourth quarter, management expects total NII of roughly $28 billion and NII excluding Markets of $25.5 billion.
+Link: https://finance.yahoo.com/markets/stocks/articles/jpmorgan-raises-nii-outlook-jpm-123000221.html
 Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
-Ativos: INTC
-Como falar: 'saiu no Yahoo Finance: Intel stock plunges after posting disappointing Q4 outlook; confirmar o número no texto antes de repassar'
-Fonte: Yahoo Finance 29/10 17h07
-ids: E05-INTC-3dd623e64e-2026-10-29
+Ativos: JPM
+Como falar: 'saiu no Yahoo Finance: JPMorgan Raises NII Outlook: Is JPM Stock Too Expensive?; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 30/10 09h30
+Push: intradia: 3 alertas de atenção — E05 JPM, E05 AMZN, E05 NVDA · detalhe na sessão
+ids: E05-JPM-ab4f09faeb-2026-10-30
+
+[ATENÇÃO] E05 · AMZN · Amazon Has Just Shared A Game-Changing Guidance For Its Cloud Business (Upgrade) (AMZN)
+Seeking Alpha · 30/10 09h05 · fonte única · licença: manchete
+Link: https://seekingalpha.com/article/4960126-amazon-has-just-shared-a-game-changing-guidance-for-its-cloud-business-upgrade
+Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
+Ativos: AMZN
+Como falar: 'saiu no Seeking Alpha: Amazon Has Just Shared A Game-Changing Guidance For Its Cloud Business (Upgrade) (AMZN); confirmar o número no texto antes de repassar'
+Fonte: Seeking Alpha 30/10 09h05
+ids: E05-AMZN-bd87791b9e-2026-10-30
+
+[ATENÇÃO] E05 · NVDA · Key facts: NVDA rec rev; $235B buyback; Nscale-$45B; Megaspeed cleared
+TradingView (Reuters) · 30/10 04h00 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/tradingview:96b5fb98a0a7e:0-key-facts-nvda-rec-rev-235b-buyback-nscale-45b-megaspeed-cleared/
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: NVDA
+Como falar: 'saiu no TradingView (Reuters): Key facts: NVDA rec rev; $235B buyback; Nscale-$45B; Megaspeed cleared; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 30/10 04h00
+ids: E05-NVDA-c925361061-2026-10-30
 
 Info (só linha no Fechamento):
-· E03 AXIA3 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
-· E05 INTC · Intel forecast disappoints as Israel fab blast, PC weakness weigh
-· E05 AMZN · Amazon Cloud Growth Is Highest in Five Years
-· E05 USDBRL · Dólar vai a R$ 5,39, com risco fiscal; Ibov perde os 170 mil pontos
-· E05 USDBRL · Dólar à vista fecha em alta de 0,76%, a R$5,3875 na venda Por Reuters
-· E05 GOOGL · Reddit shares sink on weak sales guidance and plans login requirement test as Google search traffic shrinks
-· E05 INTC · Intel: Q3 Earnings Snapshot
-· E05 USDBRL · Dólar sobe e fecha a R$ 5,38 com incertezas fiscais em foco
-· E05 INTC · Intel stock falls 17% as it forecasts weaker chip sales
-· E05 CVX · Chevron’s Earnings Will Show How It’s Spending Its Windfall
-· E05 AMZN · Amazon earnings watch: AWS growth, capex and margins in focus
-· E05 AMD · AMD faces high expectations as Jefferies sees limited near-term upside
-· E05 DI · Selic vai cair? Mercado vê 63,1% de chance de pausa nos juros
-· E05 GOOGL · Gene Munster Flags Google Earnings As A Warning Sign To Amazon Investors
-· E05 AVGO · Prediction: This Will Be Broadcom's Stock Price by the End of 2027
-· E05 GOOGL · Why Alphabet’s stock is on track for its worst day ever after the latest results
-· E05 INTC · Intel stock plunges 20% as chipmaker blames PC slowdown for weak guidance
-· E05 INTC · Intel tops Q3 earnings expectations, but falls short of Q4 outlook on sluggish PC sales
-· E05 BAC · Bank of America Signals Shift to Dividend And Quality ETFs As Stock Selling Intensifies: 3 ETFs to Watch
+· F01 Real cai: USD/BRL 5,4290 (+8,8% em 5 sessões) (parcial, intradia)
+· E03 ALUP4 · Participação relevante: gestor reduziu para 5,68% em 29/10
+· E05 CVX · Chevron Corporation (CVX) Stock Forecasts
+· E05 USDBRL · Dólar hoje sobe quase 1% e ultrapassa R$ 5,40 em dia de formação da Ptax
+· E05 PLTR · Palantir heads into Q3 earnings with strong demand signals, but valuation concerns persist (PLTR:NASDAQ)
+· E05 BTC · 'Bad time to troll': Binance cofounder Changpeng Zhao asks Elon Musk for 'respect' after post about bitcoin hack
+· E05 INTC · Intel issued weaker-than-expected guidance. Analysts are losing confidence in the stock
+· E05 GOOGL · Alphabet Shares Plunge. Why Now Is a Great Time to Buy the Dip.
+· E05 AMD · AMD’s stock slides after Intel earnings reveal two big issues
+· E05 VALE3 · Vale no 3T26: analistas veem até 56% de alta mesmo após forte queda do lucro; o que fazer agora
+· E05 BTC · Binance Hack Sparks Bitcoin Sell-Off, $1.6B In Liquidations: Exchange Uncovers ‘Additional Points Of Breach’
+· E05 GOOGL · Amazon Slides 7% as Earnings Miss and AI Spending Turn Free Cash Flow Negative; Meta Falls 2%, Alphabet Dips, Walmart Gains 2%
+· E05 AMD · AMD Earnings Preview: The Bull Case Is Largely Priced In (NASDAQ:AMD)
+· E05 USDBRL · Dólar abre em alta em dia de disputa pela Ptax e após dados do mercado de trabalho no Brasil
+· E05 BTC · Bitcoin Price Plummets: Why a Binance Hack Is Shaking Crypto Today
+· E05 USDBRL · Ibovespa cai junto com exterior e dados de desemprego no radar; dólar sobe
+· E05 AMZN · Nasdaq set for sharp drop as Amazon, Intel amplify AI spending worries
 
-Suprimidos pelo teto (viram linha do Fechamento): E05-INTC-8ded5fc882-2026-10-29 (teto de noticias), E05-INTC-834f3d726b-2026-10-29 (teto de noticias), E05-BAC-03ab31361b-2026-10-29 (teto de noticias)
 
 Alertas do dia (todos, com status):
-· pendente  E04 AMZN — AMZN · 8-K: 2.02 resultado do trimestre
-· pendente  E05 INTC — INTC · Intel crashes as Q3 results, guidance miss Wall Street's forecasts (INTC:
-· pendente  E05 INTC — INTC · Intel Plunges After PC Slump and Supply Snags Hurt Its Outlook
-· pendente  E05 INTC — INTC · Intel stock plunges after posting disappointing Q4 outlook
-· entregue  E05 PETR4 — PETR4 · Dividendos de até US$ 4,2 bilhões: com operacional tinindo, Petrobras (P
-· entregue  E05 BTC — BTC · Amplify Bitcoin 2% Monthly Option Income ETF declares $0.5352 dividend
-· entregue  E05 GOOGL — GOOGL · US files lawsuit claiming Google wouldn't give employee new job followin
-· entregue  E05 ETH — ETH · Amplify Ethereum 3% Monthly Option Income ETF declares $0.2508 dividend
-· entregue  E05 UST — UST · Fed Holds Rates, but 5% Treasury Yields Complicate the Outlook
-· entregue  E05 PETR4 — PETR4 · Petrobras (PETR4) bate recorde de produção total no 3T26
-· entregue  E05 PETR4 — PETR4 · Petrobras: produção recorde reforça visão para 3T; mercado vê dividendo 
-· entregue  E05 VALE3 — VALE3 · Lucro da Vale pode cair mais de 40% no 3T26, mas ação pode surpreender a
-· entregue  E05 BBDC4 — BBDC4 · Bradesco (BBDC4) sofre segundo rebaixamento e JPMorgan corta preço-alvo 
-· entregue  E05 PETR4 — PETR4 · Produção da Petrobras bate recorde no 3º tri e importação de diesel disp
-· entregue  E01 CVX — CVX: resultado sai na próxima sessão (30/10)
-· entregue  M01 MACRO — Agenda: BCE: decisao de politica monetaria hoje às 10:15 (29/10)
-· entregue  E05 GOOGL — GOOGL · Samsung and Google ruin the party: Earnings misses drive tech futures lo
-· entregue  E05 BTC — BTC · How to Get Offered $3 Million in Bitcoin Bets: Call It a ‘Dead Network’ on
-· entregue  E05 VALE3 — VALE3 · Lucro líquido da Vale (VALE3) deve cair quase 50% no 3T26: veja os motiv
-· linha     F01 USDBRL — Real cai: USD/BRL 5,3864 (+6,9% em 5 sessões) (parcial, intradia)
-· (+162 notícias só manchete, em noticias.md)
+· pendente  E05 JPM — JPM · JPMorgan Raises NII Outlook: Is JPM Stock Too Expensive?
+· pendente  E05 AMZN — AMZN · Amazon Has Just Shared A Game-Changing Guidance For Its Cloud Business (U
+· pendente  E05 NVDA — NVDA · Key facts: NVDA rec rev; $235B buyback; Nscale-$45B; Megaspeed cleared
+· entregue  E01 PLTR — PLTR: resultado sai na próxima sessão (02/11)
+· entregue  M01 MACRO — Agenda: Banco do Japao: decisao e Outlook Report hoje (30/10)
+· entregue  E04 CVX — CVX · 8-K: 2.02 resultado do trimestre
+· entregue  E05 CVX — CVX · Earnings Snapshot: Chevron beats Q3 EPS and revenue estimates; declares $1
+· entregue  E05 INTC — INTC · Intel Shares Plunge 25% as Weak Fourth-Quarter Outlook Overshadows Strong
+· entregue  E05 INTC — INTC · Intel plunges on a major guidance miss. What went wrong — and how to proc
+· linha     F01 USDBRL — Real cai: USD/BRL 5,4290 (+8,8% em 5 sessões) (parcial, intradia)
+· (+42 notícias só manchete, em noticias.md)
 
