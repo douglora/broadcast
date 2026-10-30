@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-10-30T11:53:52Z",
+ "gerado_em": "2026-10-30T17:08:00Z",
  "cliente_http": "curl_cffi",
  "livro": [
   "EQTL3",
@@ -28,7 +28,7 @@
    "faltam": [],
    "boletim": "publicado",
    "sinais": 31,
-   "tabelas": 46,
+   "tabelas": 47,
    "arquivos": [
     "DerivativesOpenPosition",
     "InstrumentsConsolidated",
@@ -55,10 +55,8 @@
      "2026-10-27": "publicado"
     }
    },
-   "falhas": {
-    "BTBTrade": "tabela BTBTrade: HTTP 500"
-   },
-   "segundos": 200
+   "falhas": {},
+   "segundos": 243
   },
   "2026-10-29": {
    "completo": true,
@@ -73,7 +71,7 @@
     "TradeInformationConsolidatedAfterHours"
    ],
    "rf_cadastro": {
-    "papeis_no_dia": 1578,
+    "papeis_no_dia": 1572,
     "consultados": 0,
     "achados": 0,
     "sem_cadastro": 0,
@@ -93,7 +91,7 @@
     }
    },
    "falhas": {},
-   "segundos": 68
+   "segundos": 45
   }
  },
  "falhas": [],

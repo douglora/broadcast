@@ -14,7 +14,7 @@
    "pai": null,
    "situacao": "publicado",
    "errata": false,
-   "atualizado_em": "2026-10-30T08:02:29.19",
+   "atualizado_em": "2026-10-30T10:14:32.343",
    "arquivo": "",
    "pdf": ""
   },
@@ -44,9 +44,9 @@
    "pai": 20,
    "situacao": "publicado",
    "errata": false,
-   "atualizado_em": "2026-10-30T08:52:53.44",
-   "arquivo": "BDI_02_20261029.pdf",
-   "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-10-29/BDI_02_20261029.pdf"
+   "atualizado_em": "2026-10-30T10:53:45.943",
+   "arquivo": "",
+   "pdf": ""
   },
   {
    "id": 23,
@@ -62,11 +62,11 @@
    "id": 31,
    "nome": "Resumo",
    "pai": 3,
-   "situacao": "republicado",
-   "errata": false,
-   "atualizado_em": "2026-10-30T00:00:47.633",
-   "arquivo": "BDI_03-1_20261029.pdf",
-   "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-10-29/BDI_03-1_20261029.pdf"
+   "situacao": "publicado",
+   "errata": true,
+   "atualizado_em": "2026-10-30T10:53:44.963",
+   "arquivo": "",
+   "pdf": ""
   },
   {
    "id": 33,
@@ -84,7 +84,7 @@
    "pai": 3,
    "situacao": "",
    "errata": false,
-   "atualizado_em": "2026-10-30T08:44:50.057",
+   "atualizado_em": "2026-10-30T14:05:38.223",
    "arquivo": "",
    "pdf": ""
   },
