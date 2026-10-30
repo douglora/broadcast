@@ -1,4 +1,4 @@
-## Fechamento do livro · qui 29/10 · 18h14 BRT
+## Fechamento do livro · qui 29/10 · 21h48 BRT
 
 ---
 
@@ -31,7 +31,7 @@
 ### Destaques do dia
 
 **Altas** ALUP4 +2,8% · MMM +2,6% (fechou na máxima) · META +2,0% (vol 1,4x) · JPM +1,3% · KO +1,2%
-**Baixas** MRVL -13% (vol 2,0x) · GOOGL -13% (vol 5,4x) · MRVE3 -6,7% (fechou na mínima · mínima de 52 semanas) · DIRR3 -6,2% (fechou na mínima · mínima de 52 semanas) · MU -5,0%
+**Baixas** MRVL -13% (vol 2,0x) · GOOGL -13% (vol 5,4x) · MRVE3 -6,7% (mínima de 52 semanas) · DIRR3 -6,2% (mínima de 52 semanas) · MU -5,0%
 
 ---
 
@@ -44,8 +44,8 @@
 | **MRVE3** | -6,7% | andou com o setor: construtoras de baixa renda -5,8% (mediana), DI F30 +5 bps; Comunicado ao Mercado na CVM: MRVE3) Companhia disponibiliza ao mercado comunicado recebido pela M&G | setorial |
 | **DIRR3** | -6,2% | andou com o setor: construtoras de baixa renda -5,8% (mediana), DI F30 +5 bps | setorial |
 | **MU** | -5,0% | descolou do setor (semicondutores (eua) -2,0% (mediana), SOX -1,4%; -3,0 p.p. da mediana); notícia a conferir (Investing.com): Micron shares dip as Samsung’s post-earnings selloff spreads to memory peers By Investing. | notícia (conferir) |
-| **AMZN** | -4,2% | 8-K na SEC: AMZN · 8-K: 2.02 resultado do trimestre; notícia a conferir (Seeking Alpha): Amazon Earnings Preview: Q3 2026 | documento |
-| **INTC** | -3,6% | descolou do setor (semicondutores (eua) -2,0% (mediana), SOX -1,4%; -1,6 p.p. da mediana); notícia a conferir (Yahoo Finance): INTC Stock Tumbles After-Hours After Q3 PC Slump And Supply Bottlenecks Cloud Fourth-Quart | notícia (conferir) |
+| **AMZN** | -4,2% | 8-K na SEC: AMZN · 8-K: 2.02 resultado do trimestre; notícia a conferir (Yahoo Finance): Amazon shares fall as weaker Q4 outlook offsets 39% AWS growth | documento |
+| **INTC** | -3,6% | descolou do setor (semicondutores (eua) -2,0% (mediana), SOX -1,4%; -1,6 p.p. da mediana); notícia a conferir (Investing.com): Earnings call transcript: Intel beats Q3 2026 estimates, but stock sinks | notícia (conferir) |
 | **BBDC4** | -3,5% | descolou do setor (bancos -1,3% (mediana), DI F28 -4 bps; -2,3 p.p. da mediana); notícia a conferir (InfoMoney): Bradesco (BBDC4) sofre segundo rebaixamento e JPMorgan corta preço-alvo em quase 30% | notícia (conferir) |
 
 *Grau: setorial = andou com a cesta; driver = acompanhou a commodity do par; documento = fato relevante ou 8-K do dia; sem causa no dado = investigar antes de comentar.*
@@ -200,13 +200,13 @@ Nomes completos: **QNTM** VanEck Quantum Computing UCITS ETF USD (Acc) · **QANT
 | Ativo | últ | dia | 1 sem | 1 mês | 3 m | 6 m | 1 ano | YTD | 5 anos |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | **USDBRL** Dolar/Real | 5,3864 | **+0,8** | +6,9 | +3,3 | +5,1 | +7,4 | +0,5 | -1,6 | -4,4 |
-| **DXY** Indice Dolar DXY | 101,89 | **-0,3** | +0,3 | +0,5 | +1,9 | +3,9 | +2,7 | +3,7 | +8,3 |
-| **BRENT** Petroleo Brent | 115,64 | **+0,3** | +2,2 | +20 | +30 | +1,4 | +78 | +90 | +37 |
-| **BTC** Bitcoin _(parcial)_ | 79.098 | **-2,7** | -2,7 | -5,4 | +22 | +3,7 | -28 | -9,6 | +29 |
-| **ETH** Ethereum _(parcial)_ | 2.268 | **-3,8** | -5,0 | -15 | +18 | +0,5 | -42 | -24 | -47 |
+| **DXY** Indice Dolar DXY _(dia 28/10)_ | 102,19 | **-0,1** | +0,4 | +1,0 | +1,4 | +3,3 | +3,5 | +4,0 | +8,6 |
+| **BRENT** Petroleo Brent _(dia 28/10)_ | 115,32 | **+1,3** | +6,0 | +18 | +27 | -2,3 | +79 | +90 | +37 |
+| **BTC** Bitcoin | 79.098 | **-2,7** | -2,7 | -5,4 | +22 | +3,7 | -28 | -9,6 | +29 |
+| **ETH** Ethereum | 2.268 | **-3,8** | -5,0 | -15 | +18 | +0,5 | -42 | -24 | -47 |
 | **MINERIO** Minerio de ferro 62% Fe CFR China _(D-1, 28/10)_ | 90,70 | **0,0** | -0,2 | -6,4 | -7,7 | -15 | -14 | -15 | -25 |
 
-**Brent em reais:** R$ 622,88 por barril (29/10) · dia +1,0% · 1 mês +24% · no ano +87% (Brent do 1º vencimento × dólar).
+**Brent em reais:** a confirmar (Brent sem fechamento confirmado).
 
 ---
 
@@ -214,11 +214,11 @@ Nomes completos: **QNTM** VanEck Quantum Computing UCITS ETF USD (Acc) · **QANT
 
 | Referência | US$/t | dia | 1 sem | 1 mês | leitura |
 |---|---:|---:|---:|---:|---|
-| **Celulose fibra longa** | 612 | +2,0 | -0,2 | -6,0 | 29/10 |
-| **Minerio de ferro Dalian** | 89 | -0,5 | +0,7 | -3,9 | 29/10 |
+| **Celulose fibra longa** | 612 | +1,9 | -0,3 | -6,1 | 29/10 |
+| **Minerio de ferro Dalian** | 89 | -0,6 | +0,6 | -4,0 | 29/10 |
 
-- **Celulose fibra longa**: futuro SP da SHFE (fibra longa) em CNY/t, sem o IVA de 13%; nao e preco de lista NBSK · CNY/t 4.608 a USD/CNY 6,66 = US$ 692/t com IVA
-- **Minerio de ferro Dalian**: futuro da DCE em CNY/t, sem o IVA de 13%; o CFR 62% em US$ e a linha MINERIO · CNY/t 674 a USD/CNY 6,66 = US$ 101/t com IVA
+- **Celulose fibra longa**: futuro SP da SHFE (fibra longa) em CNY/t, sem o IVA de 13%; nao e preco de lista NBSK · CNY/t 4.608 a USD/CNY 6,67 = US$ 691/t com IVA
+- **Minerio de ferro Dalian**: futuro da DCE em CNY/t, sem o IVA de 13%; o CFR 62% em US$ e a linha MINERIO · CNY/t 674 a USD/CNY 6,67 = US$ 101/t com IVA
 
 ---
 
@@ -255,12 +255,24 @@ Inflação implícita 2029 6,63% · 2032 6,88% · 2031/32 (descasado) 6,54% · F
 
 2s10s +37 bps (-1 no dia)
 
-**Regime** VIX 17,2 (+1,7%) · score de risco 1 de 6 · **regime de vol LIGADO**
+**Regime** VIX 17,2 (+1,7%) · score de risco 1 de 5 · **regime de vol LIGADO**
 
 ---
 
-### Notícias e fatos · 23
+### Notícias e fatos · 29
 
+- **VALE3** Lucro líquido da Vale no 3º trimestre cai pela metade com efeitos de câmbio e Samarco (Bloomberg Linea · 29/10) [abrir a fonte](https://www.bloomberglinea.com.br/negocios/lucro-liquido-da-vale-no-3-trimestre-cai-pela-metade-com-efeitos-de-cambio-e-samarco/)
+  *Por que importa:* resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+- **INTC** Earnings call transcript: Intel beats Q3 2026 estimates, but stock sinks (Investing.com · 29/10) [abrir a fonte](https://www.investing.com/news/transcripts/earnings-call-transcript-intel-beats-q3-2026-estimates-but-stock-sinks-93CH-4985498)
+  *Por que importa:* resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+- **INTC** Intel shares fall 22% as weak sales outlook dents turnaround (Financial Times · 29/10) [abrir a fonte](https://www.ft.com/content/d7540e89-08db-43d3-92e0-3c15dd3a60cb?syn-25a6b1a6=1)
+  *Por que importa:* noticia material sobre um ativo do livro; ler o texto antes de comentar
+- **VALE3** Vale vê lucro despencar 53% no 3T26, apesar de receita bilionária em alta; veja balanço (Estadao · 29/10) [abrir a fonte](https://www.estadao.com.br/einvestidor/cenarios-e-mercado/vale-ve-lucro-despencar-53-no-3t26-apesar-de-receita-bilionaria-em-alta-veja-balanco/)
+  *Por que importa:* resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+- **VALE3** Vale registra queda de 53% no lucro líquido no terceiro trimestre (O Globo · 29/10) [abrir a fonte](https://oglobo.globo.com/economia/negocios/noticia/2026/10/29/vale-registra-queda-de-53percent-no-lucro-liquido-no-terceiro-trimestre.ghtml)
+  *Por que importa:* resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+- **VALE3** Lucro líquido da Vale (VALE3) cai 54% no 3T26, para US$ 1,25 bilhão, abaixo das expectativas do mercado (Money Times · 29/10) [abrir a fonte](https://www.moneytimes.com.br/lucro-liquido-da-vale-vale3-cai-54-no-3t26-para-us-125-bilhao-abaixo-das-expectativas-do-mercado-bdap/)
+  *Por que importa:* resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
 - **MRVE3** Comunicado ao Mercado: MRVE3) Companhia disponibiliza ao mercado comunicado recebido pela M&G Investments para os fins do disposto no art. 12 da Instrução CVM nº 44/21, inf… (CVM · 29/10) [abrir a fonte](https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1581810)
   *Por que importa:* comunicado ao mercado costuma responder a noticia ou a oficio; confirma ou nega o que circula
 - **INTC** INTC Stock Tumbles After-Hours After Q3 PC Slump And Supply Bottlenecks Cloud Fourth-Quarter Guidance (Yahoo Finance · 29/10) [abrir a fonte](https://finance.yahoo.com/markets/stocks/articles/intc-stock-tumbles-hours-q3-205401483.html)
@@ -334,8 +346,8 @@ Inflação implícita 2029 6,63% · 2032 6,88% · 2031/32 (descasado) 6,54% · F
 
 ### Como ler
 
-**Relógios:** Yahoo 18h14 · DI ajuste D0 · Tesouro base 29/10 · UST CMT D0 · PTAX 29/10
-**Lacunas:** nenhuma perna falhou.
+**Relógios:** Yahoo 21h48 · DI ajuste D0 · Tesouro base 29/10 · UST CMT D0 · PTAX 29/10
+**Lacunas:** DXY sem barra de 29/10 (última 28/10); BRENT sem barra de 29/10 (última 28/10); DXY: barra de 29/10 é o início da sessão seguinte (última cotação 20:39 de Nova York); barra descartada, fica a de 28/10; BRENT: barra de 29/10 é o início da sessão seguinte (última cotação 20:04 de Nova York); barra descartada, fica a de 28/10.
 **IUAA:** NAO e renda fixa ultracurta: cai ~6% a cada +100 bps na curva. Ler junto com UST 10y/30y. Caixa em dolar e o IB01.
 **Hipótese:** **EWY** iShares MSCI South Korea ETF · **MCHI** iShares MSCI China ETF — ETFs dos EUA, a confirmar.
 Minério: proxy Dalian 674 CNY/t (2026-10-29).

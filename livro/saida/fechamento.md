@@ -1,10 +1,10 @@
 BLOCO A
 ```
-FECHAMENTO DO LIVRO · qui 29/10 · 18h14 BRT
-Relógios: Yahoo 18h14 · DI ajuste D0 · Tesouro base
+FECHAMENTO DO LIVRO · qui 29/10 · 21h48 BRT
+Relógios: Yahoo 21h48 · DI ajuste D0 · Tesouro base
   29/10 · UST CMT D0 · PTAX 29/10
 
-ALERTAS DO DIA (57 · 5 críticos)
+ALERTAS DO DIA (63 · 5 críticos)
 [CRÍTICO] C05 Pre 2029 PU -3,8% em 5 datas-base ·
           IPCA+ 2032 PU -6,2% em 5 datas-base ·
           IPCA+ 2040 PU -12% em 5 datas-base (base
@@ -21,42 +21,38 @@ ALERTAS DO DIA (57 · 5 críticos)
 [CRÍTICO] T06 GOOGL -12% em 5 sessões a US$ 283,82:
           movimento de 4,2 desvios para a vol de 20
           dias
-[ATENÇÃO] C01 A curva ABRIU: F28 +148 bps em 5
-          pregões · F29 +214 bps em 5 pregões · F30
-          +239 bps em 5 pregões (ajuste B3 29/10)
-[ATENÇÃO] C02 Inclinação da curva DI: F35-F28 +14
-          bps no dia: bear steepening (longo abriu
-          mais) · F35-F28 na máxima de 252 pregões ·
-          F30-F28 +91 bps em 5 pregões
-[ATENÇÃO] C06 Inflação implícita: implícita 2029
-          +103 bps na semana · implícita 2032 +114
-          bps na semana · implícita 2031/32
-          (descasado) +105 bps na semana
-(+49 em alertas.md)
+[ATENÇÃO] E05 VALE3 · Lucro líquido da Vale no 3º
+          trimestre cai pela metade com efeitos de
+          câmbio e Samarco
+[ATENÇÃO] E05 INTC · Earnings call transcript: Intel
+          beats Q3 2026 estimates, but stock sinks
+[ATENÇÃO] E05 INTC · Intel shares fall 22% as weak
+          sales outlook dents turnaround
+(+55 em alertas.md)
 
 ALTAS  ALUP4 +2,8% · MMM +2,6% · META +2,0% · JPM
        +1,3% · KO +1,2%
 BAIXAS MRVL -13% · GOOGL -13% · MRVE3 -6,7% · DIRR3
        -6,2% · MU -5,0%
 
-NOTÍCIAS E FATOS (23 com materialidade ·
+NOTÍCIAS E FATOS (29 com materialidade ·
   noticias.md)
-· MRVE3 Comunicado ao Mercado: MRVE3) Companhia
-  disponibiliza ao mercado comunicado recebido pela
-  M&G Investments para os fins do disposto no art.
-  12 da Instrução CVM nº 44/21, inf… (CVM)
-· INTC INTC Stock Tumbles After-Hours After Q3 PC
-  Slump And Supply Bottlenecks Cloud Fourth-Quarter
-  Guidance (Yahoo Finance)
-· INTC Intel shares plummet on lighter-than-expected
-  Q4 guidance (CNBC)
-· INTC Intel slides as Q3 results, guidance miss
-  Wall Street's forecasts (TradingView (Reuters))
-· AMZN 8-K: 2.02 resultado do trimestre (SEC)
-· INTC Intel crashes as Q3 results, guidance miss
-  Wall Street's forecasts (INTC:NASDAQ) (Seeking
-  Alpha)
-  (+17)
+· VALE3 Lucro líquido da Vale no 3º trimestre cai
+  pela metade com efeitos de câmbio e Samarco
+  (Bloomberg Linea)
+· INTC Earnings call transcript: Intel beats Q3 2026
+  estimates, but stock sinks (Investing.com)
+· INTC Intel shares fall 22% as weak sales outlook
+  dents turnaround (Financial Times)
+· VALE3 Vale vê lucro despencar 53% no 3T26, apesar
+  de receita bilionária em alta; veja balanço
+  (Estadao)
+· VALE3 Vale registra queda de 53% no lucro líquido
+  no terceiro trimestre (O Globo)
+· VALE3 Lucro líquido da Vale (VALE3) cai 54% no
+  3T26, para US$ 1,25 bilhão, abaixo das
+  expectativas do mercado (Money Times)
+  (+23)
 
 CURVAS · taxa (Δ bps)
 DI (D0, Δ dia·sem bps) F28 14,37 (-4·+148) F29 14,80
@@ -72,7 +68,7 @@ TD (base 29/10, site do TD 18h00, Δ desde 28/10) Pre
     (descasado) 6,54% vs Focus IPCA 2027 4,34%
 UST (D0) 2y 4,61 (-6) · 10y 4,98 (-7) · 30y 5,32
     (-5) · 2s10s +37 (-1)
-Regime: VIX 17,2 (+1,7%) · score risco 1 de 6 ·
+Regime: VIX 17,2 (+1,7%) · score risco 1 de 5 ·
     regime de vol LIGADO
 
 LEITURA DA MESA
@@ -100,7 +96,14 @@ qua 04/11 ex-dividendo BBDC4 R$ 0,02 (último
     provento, Yahoo)
 qua 04/11 resultado ITUB4 (após B3, estimado)
 
-LACUNAS: nenhuma perna falhou.
+LACUNAS: DXY sem barra de 29/10 (última 28/10);
+  BRENT sem barra de 29/10 (última 28/10); DXY:
+  barra de 29/10 é o início da sessão seguinte
+  (última cotação 20:39 de Nova York); barra
+  descartada, fica a de 28/10; BRENT: barra de 29/10
+  é o início da sessão seguinte (última cotação
+  20:04 de Nova York); barra descartada, fica a de
+  28/10.
 Fontes: Yahoo Finance · B3 Boletim Diário · site do
   Tesouro Direto · Treasury.gov CMT · BCB
 ```
@@ -184,10 +187,10 @@ MRVE3  MRV        4,04 -6,7  -51  -25  -42  -43  -48
 CURY3  Cury      26,16 -2,9  -18 -8,9 -9,7  -14  -15
 Macro
 USDBRL USD/BRL  5,3864 +0,8 +6,9 +3,3 +7,4 +0,5 -1,6
-DXY    DXY      101,89 -0,3 +0,3 +0,5 +3,9 +2,7 +3,7
-BRENT  Brent    115,64 +0,3 +2,2  +20 +1,4  +78  +90
-BTC*   BTC      79.098 -2,7 -2,7 -5,4 +3,7  -28 -9,6
-ETH*   ETH       2.268 -3,8 -5,0  -15 +0,5  -42  -24
+DXY*   DXY      102,19 -0,1 +0,4 +1,0 +3,3 +3,5 +4,0
+BRENT* Brent    115,32 +1,3 +6,0  +18 -2,3  +79  +90
+BTC    BTC      79.098 -2,7 -2,7 -5,4 +3,7  -28 -9,6
+ETH    ETH       2.268 -3,8 -5,0  -15 +0,5  -42  -24
 MINER* Minerio   90,70  0,0 -0,2 -6,4  -15  -14  -15
 ```
 UCITS por extenso: VWRA Vanguard FTSE All-World

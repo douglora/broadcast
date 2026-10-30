@@ -1,4 +1,4 @@
-ALERTAS · eventos
+ALERTAS · Fechamento 18h
 
 (pendente de slot anterior) [CRÍTICO] CURVA · C01 A curva ABRIU: F28 +148 bps em 5 pregões · F29 +214 bps em 5 pregões · F30 +239 bps em 5 pregões (ajuste B3 29/10) / C05 Pre 2029 PU -3,8% em 5 datas-base · IPCA+ 2032 PU -6,2% em 5 datas-base · IPCA+ 2040 PU -12% em 5 datas-base (base 29/10) / C02 Inclinação da curva DI: F35-F28 +14 bps no dia: bear steepening (longo abriu mais) · F35-F28 na máxima de 252 pregões · F30-F28 +91 bps em 5 pregões
 DI F28 14,37 (-4) · F29 14,80 (-2) · F30 15,05 (+5) · F32 15,23 (+10) · F35 15,23 (+10)
@@ -74,17 +74,16 @@ Como falar: 'saiu no TradingView (Reuters): Intel slides as Q3 results, guidance
 Fonte: TradingView (Reuters) 29/10 17h08
 ids: E05-INTC-479410382a-2026-10-29
 
-[ATENÇÃO] E05 · VALE3 · Vale vê lucro despencar 53% no 3T26, apesar de receita bilionária em alta; veja balanço
+(pendente de slot anterior) [ATENÇÃO] E05 · VALE3 · Vale vê lucro despencar 53% no 3T26, apesar de receita bilionária em alta; veja balanço
 Estadao · 29/10 19h40 · fonte única · licença: manchete
 Link: https://www.estadao.com.br/einvestidor/cenarios-e-mercado/vale-ve-lucro-despencar-53-no-3t26-apesar-de-receita-bilionaria-em-alta-veja-balanco/
 Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
 Ativos: VALE3
 Como falar: 'saiu no Estadao: Vale vê lucro despencar 53% no 3T26, apesar de receita bilionária em alta; veja balanço; confirmar o número no texto antes de repassar'
 Fonte: Estadao 29/10 19h40
-Push: eventos: 3 alertas de atenção — E05 VALE3, E05 VALE3, E05 VALE3 · detalhe na sessão
 ids: E05-VALE3-c041b6b454-2026-10-29
 
-[ATENÇÃO] E05 · VALE3 · Vale registra queda de 53% no lucro líquido no terceiro trimestre
+(pendente de slot anterior) [ATENÇÃO] E05 · VALE3 · Vale registra queda de 53% no lucro líquido no terceiro trimestre
 O Globo · 29/10 19h38 · fonte única · licença: manchete
 Link: https://oglobo.globo.com/economia/negocios/noticia/2026/10/29/vale-registra-queda-de-53percent-no-lucro-liquido-no-terceiro-trimestre.ghtml
 Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
@@ -93,7 +92,7 @@ Como falar: 'saiu no O Globo: Vale registra queda de 53% no lucro líquido no te
 Fonte: O Globo 29/10 19h38
 ids: E05-VALE3-1958f5d73d-2026-10-29
 
-[ATENÇÃO] E05 · VALE3 · Lucro líquido da Vale (VALE3) cai 54% no 3T26, para US$ 1,25 bilhão, abaixo das expectativas do mercado
+(pendente de slot anterior) [ATENÇÃO] E05 · VALE3 · Lucro líquido da Vale (VALE3) cai 54% no 3T26, para US$ 1,25 bilhão, abaixo das expectativas do mercado
 Money Times · 29/10 19h24 · fonte única · licença: integral
 Do texto:
   – Lucro líquido da Vale (VALE3) cai 54% no 3T26, para US$ 1,25 bilhão, abaixo das expectativas do mercado A Vale (VALE3) sentiu os efeitos da queda nos preços do minério de ferro e da alta do petróleo no terceiro trimestr…
@@ -109,30 +108,60 @@ Como falar: 'saiu no Money Times: Lucro líquido da Vale (VALE3) cai 54% no 3T26
 Fonte: Money Times 29/10 19h24
 ids: E05-VALE3-b98d9a1a26-2026-10-29
 
+[ATENÇÃO] E05 · VALE3 · Lucro líquido da Vale no 3º trimestre cai pela metade com efeitos de câmbio e Samarco
+Bloomberg Linea · 29/10 20h57 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Bloomberg Línea — O lucro líquido da Vale (VALE3) no terceiro trimestre caiu pela metade, diante de efeitos cambiais e de provisão da Samarco.
+  – De julho a setembro, o indicador marcou R$ 6,43 bilhões, queda de 56% na comparação anual, informou a companhia em balanço enviado à Comissão de Valores Mobiliários na noite desta quinta-feira (29).
+  – Em moeda americana, o lucro líquido recuou 53% no período, para US$ 1,25 bilhão.
+  – Segundo a companhia, os efeitos foram parcialmente compensados por um aumento de US$ 610 milhões na marcação a mercado e liquidação de derivativos.
+  – Já o lucro antes de juros, impostos, depreciação e amortização (Ebitda) ajustado alcançou R$ 17 bilhões no terceiro trimestre, queda de 28% sobre o mesmo período de 2025.
+  – A receita líquida total no período atingiu R$ 54 bilhões, queda de 4% sobre o igual intervalo do ano passado.
+Link: https://www.bloomberglinea.com.br/negocios/lucro-liquido-da-vale-no-3-trimestre-cai-pela-metade-com-efeitos-de-cambio-e-samarco/
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: VALE3 · USDBRL
+Como falar: 'saiu no Bloomberg Linea: Lucro líquido da Vale no 3º trimestre cai pela metade com efeitos de câmbio e Samarco; confirmar o número no texto antes de repassar'
+Fonte: Bloomberg Linea 29/10 20h57
+Push: Fechamento 18h: 3 alertas de atenção — E05 VALE3, E05 INTC, E05 INTC · detalhe na sessão
+ids: E05-VALE3-fe90f8157c-2026-10-29
+
+[ATENÇÃO] E05 · INTC · Earnings call transcript: Intel beats Q3 2026 estimates, but stock sinks
+Investing.com · 29/10 19h23 · fonte única · licença: manchete
+Link: https://www.investing.com/news/transcripts/earnings-call-transcript-intel-beats-q3-2026-estimates-but-stock-sinks-93CH-4985498
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: INTC
+Como falar: 'saiu no Investing.com: Earnings call transcript: Intel beats Q3 2026 estimates, but stock sinks; confirmar o número no texto antes de repassar'
+Fonte: Investing.com 29/10 19h23
+ids: E05-INTC-3f36ca9abf-2026-10-29
+
+[ATENÇÃO] E05 · INTC · Intel shares fall 22% as weak sales outlook dents turnaround
+Financial Times · 29/10 17h02 · fonte única · licença: manchete
+Link: https://www.ft.com/content/d7540e89-08db-43d3-92e0-3c15dd3a60cb?syn-25a6b1a6=1
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: INTC
+Como falar: 'saiu no Financial Times: Intel shares fall 22% as weak sales outlook dents turnaround; confirmar o número no texto antes de repassar'
+Fonte: Financial Times 29/10 17h02
+ids: E05-INTC-e56b105b09-2026-10-29
+
 Info (só linha no Fechamento):
-· E03 PETR4 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
-· E05 VALE3 · Lucro da Vale encolhe 53% com minério mais barato; cobre evita 'estrago' maior
-· E05 VALE3 · Vale (VALE3) produz 88,4 mi de toneladas de minério de ferro no 3T, queda anual de 6%
-· E05 JPM · JPMorgan Is Bullish on Palantir, Predicts Over 30% Rally on Strong AI Demand
-· E05 USDBRL · Dólar sobe 0,76% e fecha a R$ 5,39 em dia de cautela
-· E05 VALE3 · Vale Iron Ore Output Trails Forecast on Serra Norte Challenges
-· E05 PETR4 · Petrobras termina perfuração do Morpho e encontra petróleo em 3 camadas
-· E05 AMZN · Amazon cloud business accelerates but shares drop on profit miss
-· E05 DI · A Selic não vai mais cair? Pausa nos cortes dos juros já lidera apostas para o próximo Copom e muda cenário da renda fixa
-· E05 INTC · Intel CEO: Clearwater Forest, Our First Intel 18A Server Product, Is Shipping For Revenue - Conf Call
-· E05 PETR4 · Petrobras anuncia terceira descoberta de petróleo na Margem Equatorial
-· E05 INTC · Intel Earnings: 2 Reasons the Stock Is Down So Much
-· E05 AMZN · Amazon Earnings: Why the Stock Is Tanking
-· E05 AMZN · Amazon Stock Drops on Wall Street Miss, Despite Biggest Cloud Growth in Years
-· E05 USDBRL · Dólar sobe a R$ 5,39 e Ibovespa tem quarta queda consecutiva
-· E05 AMZN · Amazon slides on light fourth-quarter sales estimates, high cash burn
+· E03 PETR4 · Comunicado ao Mercado: Esclarecimentos sobre questionamentos da CVM/B3
+· E05 GOOGL · Alphabet’s worst day ever leaves Google search valued below fossil fuel stocks, BofA says
+· E05 BTC · Bitcoin tumbles below $78,000, extending losses as Binance security scare rattles crypto markets
+· E05 AMZN · Amazon CEO says shopping agents like Meta’s Muse ‘not great’
+· E05 NVDA · Nvidia in Talks to Offer Credit Support for Nscale Project
+· E05 AMZN · Amazon’s bold cloud forecast isn’t enough to stave off a stock drop
+· E05 AMZN · Nasdaq 100 Futures Dip On Weak Intel, Amazon Earnings With Bloated Capex Worries Weighing On Sentiment — AMZN, INTC, SBUX, PLTR, ASTS In Focus
+· E05 GOOGL · Jim Cramer breaks down the difference between Microsoft and Alphabet earnings
+· E05 VALE3 · Vale Iron Ore Output Trails Forecast on Serra Norte Curbs
+· E05 BTC · Galaxy’s Alex Thorn Says Bitcoin Held Near $80,000 Because Hedge Funds Had Already Sold
+· E05 AMZN · Amazon sinks as AI spending eclipses fastest cloud growth in five years
+· E05 VALE3 · Com minério de ferro e petróleo jogando contra, Vale (VALE3) vê lucro cair 54%, para US$ 1,255 bilhão
+· E05 INTC · Why Intel’s stock is sinking toward its worst drop in two years
+· E05 BRENT · ANZ raises December 31 Brent price view to $105 a barrel
+· E05 PETR4 · Petrobras anuncia 3ª descoberta de petróleo em poço na Foz do Amazonas
+· E05 USDBRL · Ibovespa fecha abaixo de 170 mil pontos; dólar sobe com preocupações com Lula 4
 · T08 SAPR4 entrou em queda de -30% do pico: -31% do pico de 52s (R$ 9,08 em 28/01) a R$ 6,28
 · T06 GOOGL -12% em 5 sessões a US$ 283,82: movimento de 4,2 desvios para a vol de 20 dias
-· E05 INTC · Intel: Guidance Disaster Causes 20%+ Price Slump (NASDAQ:INTC)
-· E05 INTC · Intel Server Sales Jump 78%, Q4 Outlook Dims: Rapid Earnings Reaction
-· E05 KO · Jim Cramer Says Buy Coca-Cola. Is Its Dividend Still Worth It After a 35% Rally?
-· E05 AMZN · Amazon shares fall as weaker Q4 outlook offsets 39% AWS growth
-· E05 INTC · Intel tops Q3 earnings estimates, but falls short of Q4 outlook on sluggish PC sales as stock plunges 20%
 · T03 WQTMUS formou death cross: MM50 US$ 31,03 cruzou abaixo da MM200 US$ 31,14 pela 2ª sessão; preço US$ 28,00, -10% da MM200, -5,2% em 12m
 · T04 EQTL3 fechou na mínima de 52 semanas: R$ 32,90, -17% em 1m e -6,5% em 12m
 · T04 BBDC4 fechou na mínima de 52 semanas: R$ 14,16, -19% em 1m e -18% em 12m
@@ -144,20 +173,23 @@ Info (só linha no Fechamento):
 · T10 MRVE3 no mínimo de força relativa em 63 sessões contra IBOV: -26% vs -9,2% em 20 sessões (-19% relativo)
 · T11 KLBN4 descolou atrás de SUZB3: -4,4% vs +12% em 20 sessões (z -3,5 em 252 sessões, 2º dia)
 
-Suprimidos pelo teto (viram linha do Fechamento): T08-SAPR4--30-2026-10-29 (teto diário de críticos), T06-GOOGL-queda-2026-10-29 (teto diário de críticos), E05-INTC-754a90d880-2026-10-29 (teto de noticias), E05-INTC-98e045f7c6-2026-10-29 (teto de noticias), E05-KO-19e9286cef-2026-10-29 (teto de noticias), E05-AMZN-135f8a545c-2026-10-29 (teto de noticias), E05-INTC-5044891a51-2026-10-29 (teto de noticias), T03-WQTMUS-death-2026-10-29 (teto de atenção), T04-EQTL3-minima-2026-10-29 (teto de atenção), T04-BBDC4-minima-2026-10-29 (teto de atenção), T04-DIRR3-minima-2026-10-29 (teto de atenção), T04-MRVE3-minima-2026-10-29 (teto de atenção), T04-CURY3-minima-2026-10-29 (teto de atenção), T10-QNTM-mínimo-2026-10-29 (teto de atenção), T10-GOOGL-mínimo-2026-10-29 (teto de atenção), T10-MRVE3-mínimo-2026-10-29 (teto de atenção), T11-KLBN4-SUZB3_abaixo-2026-10-29 (teto de atenção)
+Suprimidos pelo teto (viram linha do Fechamento): T08-SAPR4--30-2026-10-29 (teto diário de críticos), T06-GOOGL-queda-2026-10-29 (teto diário de críticos), T03-WQTMUS-death-2026-10-29 (teto de atenção), T04-EQTL3-minima-2026-10-29 (teto de atenção), T04-BBDC4-minima-2026-10-29 (teto de atenção), T04-DIRR3-minima-2026-10-29 (teto de atenção), T04-MRVE3-minima-2026-10-29 (teto de atenção), T04-CURY3-minima-2026-10-29 (teto de atenção), T10-QNTM-mínimo-2026-10-29 (teto de atenção), T10-GOOGL-mínimo-2026-10-29 (teto de atenção), T10-MRVE3-mínimo-2026-10-29 (teto de atenção), T11-KLBN4-SUZB3_abaixo-2026-10-29 (teto de atenção)
 
 Alertas do dia (todos, com status):
-· pendente  C05 TESOURO — Pre 2029 PU -3,8% em 5 datas-base · IPCA+ 2032 PU -6,2% em 5 datas-base · IPCA+ 
-· pendente  T05 MRVL — MRVL -13% no dia a US$ 218,34: movimento de 3,4 desvios para uma vol de 20 dias 
-· pendente  T05 GOOGL — GOOGL -13% no dia a US$ 283,82: movimento de 9,6 desvios para uma vol de 20 dias
+· expirado  C05 TESOURO — Pre 2029 PU -3,8% em 5 datas-base · IPCA+ 2032 PU -6,2% em 5 datas-base · IPCA+ 
+· expirado  T05 MRVL — MRVL -13% no dia a US$ 218,34: movimento de 3,4 desvios para uma vol de 20 dias 
+· expirado  T05 GOOGL — GOOGL -13% no dia a US$ 283,82: movimento de 9,6 desvios para uma vol de 20 dias
 · linha     T08 SAPR4 — SAPR4 entrou em queda de -30% do pico: -31% do pico de 52s (R$ 9,08 em 28/01) a 
 · linha     T06 GOOGL — GOOGL -12% em 5 sessões a US$ 283,82: movimento de 4,2 desvios para a vol de 20 
+· pendente  E05 VALE3 — VALE3 · Lucro líquido da Vale no 3º trimestre cai pela metade com efeitos de câm
+· pendente  E05 INTC — INTC · Earnings call transcript: Intel beats Q3 2026 estimates, but stock sinks
+· pendente  E05 INTC — INTC · Intel shares fall 22% as weak sales outlook dents turnaround
 · pendente  E05 VALE3 — VALE3 · Vale vê lucro despencar 53% no 3T26, apesar de receita bilionária em alt
 · pendente  E05 VALE3 — VALE3 · Vale registra queda de 53% no lucro líquido no terceiro trimestre
 · pendente  E05 VALE3 — VALE3 · Lucro líquido da Vale (VALE3) cai 54% no 3T26, para US$ 1,25 bilhão, aba
-· pendente  C01 DI — A curva ABRIU: F28 +148 bps em 5 pregões · F29 +214 bps em 5 pregões · F30 +239 
-· pendente  C02 DI — Inclinação da curva DI: F35-F28 +14 bps no dia: bear steepening (longo abriu mai
-· pendente  C06 TESOURO — Inflação implícita: implícita 2029 +103 bps na semana · implícita 2032 +114 bps 
+· expirado  C01 DI — A curva ABRIU: F28 +148 bps em 5 pregões · F29 +214 bps em 5 pregões · F30 +239 
+· expirado  C02 DI — Inclinação da curva DI: F35-F28 +14 bps no dia: bear steepening (longo abriu mai
+· expirado  C06 TESOURO — Inflação implícita: implícita 2029 +103 bps na semana · implícita 2032 +114 bps 
 · linha     T03 WQTMUS — WQTMUS formou death cross: MM50 US$ 31,03 cruzou abaixo da MM200 US$ 31,14 pela 
 · linha     T04 EQTL3 — EQTL3 fechou na mínima de 52 semanas: R$ 32,90, -17% em 1m e -6,5% em 12m
 · linha     T04 BBDC4 — BBDC4 fechou na mínima de 52 semanas: R$ 14,16, -19% em 1m e -18% em 12m
@@ -168,10 +200,10 @@ Alertas do dia (todos, com status):
 · linha     T10 GOOGL — GOOGL no mínimo de força relativa em 63 sessões contra SPX: -16% vs +0,7% em 20 
 · linha     T10 MRVE3 — MRVE3 no mínimo de força relativa em 63 sessões contra IBOV: -26% vs -9,2% em 20
 · linha     T11 KLBN4 — KLBN4 descolou atrás de SUZB3: -4,4% vs +12% em 20 sessões (z -3,5 em 252 sessõe
-· pendente  E03 MRVE3 — MRVE3 · Comunicado ao Mercado: MRVE3) Companhia disponibiliza ao mercado comunic
-· pendente  E05 INTC — INTC · INTC Stock Tumbles After-Hours After Q3 PC Slump And Supply Bottlenecks C
-· pendente  E05 INTC — INTC · Intel shares plummet on lighter-than-expected Q4 guidance
-· pendente  E05 INTC — INTC · Intel slides as Q3 results, guidance miss Wall Street's forecasts
+· expirado  E03 MRVE3 — MRVE3 · Comunicado ao Mercado: MRVE3) Companhia disponibiliza ao mercado comunic
+· expirado  E05 INTC — INTC · INTC Stock Tumbles After-Hours After Q3 PC Slump And Supply Bottlenecks C
+· expirado  E05 INTC — INTC · Intel shares plummet on lighter-than-expected Q4 guidance
+· expirado  E05 INTC — INTC · Intel slides as Q3 results, guidance miss Wall Street's forecasts
 · entregue  E04 AMZN — AMZN · 8-K: 2.02 resultado do trimestre
 · entregue  E05 INTC — INTC · Intel crashes as Q3 results, guidance miss Wall Street's forecasts (INTC:
 · entregue  E05 INTC — INTC · Intel Plunges After PC Slump and Supply Snags Hurt Its Outlook
@@ -207,4 +239,4 @@ Alertas do dia (todos, com status):
 · linha     T12 UGPA3 — UGPA3: 6 quedas seguidas (-20% acumulado) a R$ 32,01
 · linha     F06 BTC — BTC cai a US$ 79.098 (cruzou US$ 80.000)
 · linha     F01 USDBRL — Real cai: USD/BRL 5,3864 (+6,9% em 5 sessões) (parcial, intradia)
-· (+196 notícias só manchete, em noticias.md)
+· (+212 notícias só manchete, em noticias.md)
