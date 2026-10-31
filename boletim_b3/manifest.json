@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-10-30T17:08:00Z",
+ "gerado_em": "2026-10-31T00:51:20Z",
  "cliente_http": "curl_cffi",
  "livro": [
   "EQTL3",
@@ -23,47 +23,12 @@
   "CURY3"
  ],
  "pregoes": {
-  "2026-10-28": {
-   "completo": true,
-   "faltam": [],
-   "boletim": "publicado",
-   "sinais": 31,
-   "tabelas": 47,
-   "arquivos": [
-    "DerivativesOpenPosition",
-    "InstrumentsConsolidated",
-    "TradeInformationConsolidated",
-    "TradeInformationConsolidatedAfterHours"
-   ],
-   "rf_cadastro": {
-    "papeis_no_dia": 1657,
-    "consultados": 0,
-    "achados": 0,
-    "sem_cadastro": 0,
-    "erros": 0,
-    "ficaram_para_depois": 0,
-    "no_cache": 3676
-   },
-   "anbima": {
-    "situacao": "publicado",
-    "data": "2026-10-28",
-    "papeis": 1277,
-    "publicado_em": "2026-10-28T20:03:02",
-    "comparado_com": "2026-10-27",
-    "tentativas": {
-     "2026-10-28": "publicado",
-     "2026-10-27": "publicado"
-    }
-   },
-   "falhas": {},
-   "segundos": 243
-  },
   "2026-10-29": {
    "completo": true,
    "faltam": [],
    "boletim": "publicado",
-   "sinais": 31,
-   "tabelas": 47,
+   "sinais": 30,
+   "tabelas": 44,
    "arquivos": [
     "DerivativesOpenPosition",
     "InstrumentsConsolidated",
@@ -90,11 +55,56 @@
      "2026-10-28": "publicado"
     }
    },
-   "falhas": {},
-   "segundos": 45
+   "falhas": {
+    "HistoricalExchange": "HTTP 0 em https://arquivos.b3.com.br/bdi/table/HistoricalExchange/2026-10-29/2026-10-29/1/",
+    "IOPV": "HTTP 0 em https://arquivos.b3.com.br/bdi/table/IOPV/2026-10-29/2026-10-29/1/1000",
+    "SwapFlex": "tabela SwapFlex: HTTP 503"
+   },
+   "segundos": 1372
+  },
+  "2026-10-30": {
+   "completo": false,
+   "faltam": [
+    "DerivativesOpenPosition",
+    "BTBLendingOpenPosition",
+    "BTBLoanBalance",
+    "AnalyticalFramework2"
+   ],
+   "boletim": "publicando",
+   "sinais": 10,
+   "tabelas": 47,
+   "arquivos": [
+    "InstrumentsConsolidated",
+    "TradeInformationConsolidated",
+    "TradeInformationConsolidatedAfterHours"
+   ],
+   "rf_cadastro": {
+    "papeis_no_dia": 1480,
+    "consultados": 17,
+    "achados": 16,
+    "sem_cadastro": 1,
+    "erros": 0,
+    "ficaram_para_depois": 0,
+    "no_cache": 3692
+   },
+   "anbima": {
+    "situacao": "publicado",
+    "data": "2026-10-30",
+    "papeis": 1272,
+    "publicado_em": "2026-10-30T20:10:19",
+    "comparado_com": "2026-10-29",
+    "tentativas": {
+     "2026-10-30": "publicado",
+     "2026-10-29": "publicado"
+    }
+   },
+   "falhas": {
+    "DerivativesOpenPosition": "arquivo DerivativesOpenPosition: token HTTP 400"
+   },
+   "segundos": 93
   }
  },
  "falhas": [],
  "versao": 2,
- "ultimo_pregao": "2026-10-29"
+ "ultimo_pregao": "2026-10-30"
 }

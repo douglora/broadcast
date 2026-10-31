@@ -1,5 +1,5 @@
 {
- "pregao": "2026-10-29",
+ "pregao": "2026-10-30",
  "nome": "DailyAverageStocks",
  "titulo": "Ações",
  "sla": "20:00:00",
@@ -7,17 +7,17 @@
  "colunas": [{"nome": "TckrSymb", "titulo": "TckrSymb"}, {"nome": "NmbrTradesDay", "titulo": "Número de negócios"}, {"nome": "VlmTradedDay", "titulo": "Volume (R$) milhões"}, {"nome": "ColOrder", "titulo": "Ordem"}],
  "texto": ["Médias diárias de negociação."],
  "situacao": "publicado",
- "atualizado_em": "2026-10-29T21:10:28.15",
+ "atualizado_em": "2026-10-30T21:00:20.133",
  "truncada": false,
  "linhas": [
-  ["Dia", 5813567, 42317.28, 1],
-  ["Mês", 6390344, 61368.22, 2],
+  ["Dia", 5545889, 51381.41, 1],
+  ["Mês", 6351078, 60897.5, 2],
   ["Mês anterior", 3752644, 33266.01, 3],
-  ["Trimestre", 6390344, 61368.22, 4],
+  ["Trimestre", 6351078, 60897.5, 4],
   ["Trimestre anterior", 3514189, 28482.85, 5],
-  ["Semestre", 4190932, 36220.59, 6],
+  ["Semestre", 4206918, 36398.06, 6],
   ["Semestre anterior", 3918678, 34011.76, 7],
-  ["Ano", 4030473, 34918.77, 8],
+  ["Ano", 4037854, 34998.4, 8],
   ["Ano anterior", 3632277, 24082.08, 9]
  ]
 }

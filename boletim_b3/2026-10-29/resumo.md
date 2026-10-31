@@ -1,11 +1,11 @@
 # Boletim da B3: pregão de 29/10/2026 (quinta)
 
 **Situação: COMPLETO.** Boletim publicado pela B3 em 2026-10-30 00:00 (hora de Brasília).
-Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10-30T17:13:52Z (UTC).
+Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10-31T01:15:17Z (UTC).
 
 [[LEITURA_DA_MESA]]
 
-## Sinais do dia (31)
+## Sinais do dia (30)
 
 **Novos hoje**
 
@@ -42,7 +42,6 @@ Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10
 - **Pressão vendida.** SAPR4: em 5 pregões o saldo alugado subiu 195,3% e o preço caiu 20,8%: posição vendida crescendo junto com a queda. _(B3, BTBLendingOpenPosition, 29/10 · 3º pregão seguido)_
 - **Pressão vendida.** SMAL11: em 5 pregões o saldo alugado subiu 119,8% e o preço caiu 31,3%: posição vendida crescendo junto com a queda. _(B3, BTBLendingOpenPosition, 29/10 · 4º pregão seguido)_
 - **Aluguel caro.** SMAL11: taxa média do tomador no aluguel em 7,15% ao ano: papel disputado por vendidos. _(B3, BTBLoanBalance, 29/10 · 4º pregão seguido)_
-- **ETF fora do valor da cota.** SMAL11 fechou a R$ 92,50, desconto de 0,86% sobre o valor de referência da cota (R$ 93,30). _(B3, IOPV, 29/10 · 4º pregão seguido)_
 
 ## Índices
 
@@ -200,7 +199,7 @@ Parede = strike (preço de exercício) com a maior posição em aberto fora do d
 
 | ETF | Valor de referência da cota (IOPV) | Prêmio ou desconto | Cotas criadas no dia |
 |---|---:|---:|---:|
-| SMAL11 | 93,30 | -0,86% | 0 |
+| SMAL11 | - | - | 0 |
 | RARA11 | - | - | 0 |
 
 - Paridade: RARA11 -0,07% contra REMX em reais -3,13% (lá fora -3,05%, câmbio -0,08%); desvio de +3,06%. Fechamentos em horários diferentes: é aproximação.
@@ -335,10 +334,10 @@ Por classe, mediana das taxas de referência dos papéis. Taxa de referência: n
 ## Lacunas e pendências
 
 - aluguel por corretora: ignorado
+- IOPV: falhou: HTTP 0 em https://arquivos.b3.com.br/bdi/table/IOPV/2026-10-29/2026-10-29/1/1000
 - Publicadas pela B3 depois do prazo, mas com dado: AnalyticalFramework2.
 - Posição em aberto de derivativos por tipo de investidor (estrangeiro, institucional, pessoa física): não existe no Boletim Diário do Mercado; procurado nas 69 tabelas e no texto dos 11 cadernos em 30/09/2026.
 - Fluxo por tipo de investidor sai acumulado no mês e com dois pregões de atraso; o saldo de um dia é a diferença entre dois acumulados seguidos.
-- RARA11: a B3 não publica valor de referência da cota (IOPV) para este ETF no boletim.
 - Paridade de MELI34: sem a barra de 29/10 de MELI nas séries do livro.
 
 Boletim completo em PDF (B3): https://arquivos.b3.com.br/bdi/download/bdi/2026-10-29/BDI_00_20261029.pdf

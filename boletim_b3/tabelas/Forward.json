@@ -1,19 +1,19 @@
 {
- "pregao": "2026-10-29",
+ "pregao": "2026-10-30",
  "nome": "Forward",
  "titulo": "Ações mais negociadas - a termo",
  "sla": "8:00:00",
  "paginas": 1,
  "colunas": [{"nome": "TckrSymb", "titulo": "Ação"}, {"nome": "Cod", "titulo": "Código"}, {"nome": "Term", "titulo": "Prazo"}, {"nome": "Closing", "titulo": ""}, {"nome": "TradQty", "titulo": ""}, {"nome": "VlmTradedDay", "titulo": "Volume (R$) mil"}, {"nome": "Part", "titulo": "Participação (%)"}],
  "texto": ["Lista ações com maior volume de negociação em contratos a termo, destacando as mais ativas."],
- "situacao": "republicado",
- "atualizado_em": "2026-10-30T02:02:24.073",
+ "situacao": "publicado",
+ "atualizado_em": "2026-10-30T19:02:11.16",
  "truncada": false,
  "linhas": [
-  ["ALLIED      ON      NM", "ON      NM", 21, 5.04, 257000, 1295.28, 5.047612538190983],
-  ["TRD SPX USD CI", "CI", 60, 18.23, 578090, 10538.5807, 11.353985728415665],
-  ["ITAUUNIBANCOPN      N1", "PN      N1", 180, 42.15, 643200, 27110.88, 12.632779706476422],
-  ["ASSAI       ON      NM", "ON      NM", 90, 8.24, 1000000, 8240, 19.64051571280538],
-  ["ENERGISA    UNT     N2", "UNT     N2", 32, 44.67, 1537800, 68693.526, 30.203185063152116]
+  ["PRIO        ON      NM", "ON      NM", 60, 72.44, 42300, 3064.212, 0.6464917430166284],
+  ["ASSAI       ON      NM", "ON      NM", 122, 8.04, 216000, 1736.6399999999999, 3.301234432425336],
+  ["ASSAI       ON      NM", "ON      NM", 60, 7.87, 216200, 1701.494, 3.3042911309738776],
+  ["VIBRA       ON      NM", "ON      NM", 31, 29.87, 701400, 20950.818, 10.719841809736717],
+  ["ASSAI       ON      NM", "ON      NM", 90, 8.24, 3441000, 28353.84, 52.59049852766472]
  ]
 }

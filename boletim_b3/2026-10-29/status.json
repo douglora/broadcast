@@ -82,11 +82,11 @@
    "id": 34,
    "nome": "Derivativos de bolsa",
    "pai": 3,
-   "situacao": "",
+   "situacao": "publicado",
    "errata": false,
-   "atualizado_em": "2026-10-30T14:05:38.223",
-   "arquivo": "",
-   "pdf": ""
+   "atualizado_em": "2026-10-30T00:00:00",
+   "arquivo": "BDI_03-4_20261029.pdf",
+   "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-10-29/BDI_03-4_20261029.pdf"
   },
   {
    "id": 41,

@@ -1,5 +1,5 @@
 {
- "pregao": "2026-10-29",
+ "pregao": "2026-10-30",
  "nome": "InCashMarketBiggestLow",
  "titulo": "Mercado à vista - maiores baixas",
  "sla": "8:00:00",
@@ -7,18 +7,18 @@
  "colunas": [{"nome": "TckrSymb", "titulo": "Ação"}, {"nome": "Cod", "titulo": "Código"}, {"nome": "Price", "titulo": "Preço (R$)"}, {"nome": "OscillationDesc", "titulo": "Oscilação (%)"}],
  "texto": ["Mostra as maiores desvalorizações de ativos no mercado à vista num período."],
  "situacao": "publicado",
- "atualizado_em": "2026-10-29T19:00:37.49",
+ "atualizado_em": "2026-10-30T19:01:26.337",
  "truncada": false,
  "linhas": [
-  ["XRXB34", "DRN", 8.96, -34.88],
-  ["N1OW34", "DRN", 11.86, -26.05],
-  ["CARE11", "CI", 3, -22.27],
-  ["F1TN34", "DRN", 61.55, -21.29],
-  ["S2FM34", "DRN", 86, -21.1],
-  ["A1LN34", "DRN", 48.78, -20.16],
-  ["LPLP11", "CI", 227.4, -19.98],
-  ["ITLC34", "DRN", 69.5, -18.42],
-  ["PDGR3", "ON      NM", 0.17, -15],
-  ["M2RV34", "DRN", 115.5, -14.4]
+  ["ESUD11", "CI", 60.81, -49.97],
+  ["ORVR11", "BNS ORD NM", 17.17, -47.16],
+  ["TOKY11", "BNS ORD NM", 0.26, -23.52],
+  ["C2OU34", "DRN", 9.86, -22.54],
+  ["MWET4", "PN", 24.78, -20.01],
+  ["SEQL3", "ON      NM", 0.04, -20],
+  ["ERPA11", "CI", 184, -19.99],
+  ["I1LM34", "DRN", 255.15, -18.18],
+  ["PLAS3", "ON", 3.9, -17.02],
+  ["ITLC34", "DRN", 58.87, -15.29]
  ]
 }
