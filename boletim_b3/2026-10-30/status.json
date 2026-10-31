@@ -2,7 +2,7 @@
  "pregao": "2026-10-30",
  "situacao": "publicando",
  "errata": false,
- "atualizado_em": "2026-10-30T22:11:46.123",
+ "atualizado_em": "2026-10-31T03:05:38.007",
  "completo": {
   "arquivo": "",
   "pdf": ""
@@ -34,37 +34,37 @@
    "pai": 20,
    "situacao": "publicado",
    "errata": false,
-   "atualizado_em": "2026-10-30T21:54:55.463",
-   "arquivo": "",
-   "pdf": ""
+   "atualizado_em": "2026-10-30T22:21:51.023",
+   "arquivo": "BDI_02-1_20261030.pdf",
+   "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-10-30/BDI_02-1_20261030.pdf"
   },
   {
    "id": 2,
    "nome": "Indicadores e informativos",
    "pai": 20,
-   "situacao": "publicado",
+   "situacao": "republicado",
    "errata": false,
-   "atualizado_em": "2026-10-30T22:13:11.573",
-   "arquivo": "",
-   "pdf": ""
+   "atualizado_em": "2026-10-31T03:05:38.007",
+   "arquivo": "BDI_02_20261030.pdf",
+   "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-10-30/BDI_02_20261030.pdf"
   },
   {
    "id": 23,
    "nome": "Maiores oscilações",
    "pai": 20,
-   "situacao": "atrasado",
+   "situacao": "publicado",
    "errata": false,
-   "atualizado_em": "2026-10-30T21:50:46.28",
-   "arquivo": "",
-   "pdf": ""
+   "atualizado_em": "2026-10-30T23:30:38.01",
+   "arquivo": "BDI_02-3_20261030.pdf",
+   "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-10-30/BDI_02-3_20261030.pdf"
   },
   {
    "id": 31,
    "nome": "Resumo",
    "pai": 3,
-   "situacao": "publicado",
+   "situacao": "republicado",
    "errata": false,
-   "atualizado_em": "2026-10-30T19:45:38.017",
+   "atualizado_em": "2026-10-31T00:00:38.013",
    "arquivo": "BDI_03-1_20261030.pdf",
    "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-10-30/BDI_03-1_20261030.pdf"
   },
@@ -74,7 +74,7 @@
    "pai": 3,
    "situacao": "publicando",
    "errata": false,
-   "atualizado_em": "2026-10-30T00:00:38.01",
+   "atualizado_em": "2026-10-30T22:20:41.457",
    "arquivo": "",
    "pdf": ""
   },
@@ -84,7 +84,7 @@
    "pai": 3,
    "situacao": "publicando",
    "errata": false,
-   "atualizado_em": "2026-10-30T22:02:23.75",
+   "atualizado_em": "2026-10-31T02:03:23.237",
    "arquivo": "",
    "pdf": ""
   },
@@ -92,11 +92,11 @@
    "id": 41,
    "nome": "Clearing e depositária",
    "pai": 4,
-   "situacao": "publicando",
+   "situacao": "republicado",
    "errata": false,
-   "atualizado_em": "2026-10-30T22:10:56.3",
-   "arquivo": "",
-   "pdf": ""
+   "atualizado_em": "2026-10-31T03:05:38.007",
+   "arquivo": "BDI_04-1_20261030.pdf",
+   "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-10-30/BDI_04-1_20261030.pdf"
   },
   {
    "id": 42,

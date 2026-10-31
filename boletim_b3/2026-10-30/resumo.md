@@ -1,7 +1,7 @@
 # Boletim da B3: pregão de 30/10/2026 (sexta)
 
 **Situação: PARCIAL.** Ainda sem: posições em aberto (opções e futuros), saldo de aluguel, empréstimos do dia, quadro de posições em aberto. A B3 publica esses blocos na madrugada seguinte ao pregão; a rodada da manhã completa.
-Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10-31T01:16:50Z (UTC).
+Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10-31T06:15:37Z (UTC).
 
 [[LEITURA_DA_MESA]]
 
@@ -17,11 +17,11 @@ Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10
 - **Crédito: prêmio alto.** RIS414 (Aguas do Rio 4 Spe, debênture incentivada): taxa indicativa da ANBIMA de 30/10 a IPCA+ 14,17%, 618 pb acima do juro real de mercado na duration de 4,2 anos; na B3, negócios de 30/10 a IPCA+ 13,90% em R$ 8,3 mi. _(ANBIMA e B3, taxa indicativa de debêntures (ANBIMA) e DAP (B3), 30/10)_
 - **Fluxo estrangeiro.** Estrangeiro vendeu R$ 2.712 mi líquidos em 28/10; no mês, até 28/10, saldo de +R$ 8.585 mi. _(B3, SharesInvesVolum, 28/10)_
 - **Juros.** A curva de juros abriu: DI1F28 +11 pb, para 14,48%, DI1F29 +16 pb, para 14,96%, DI1F30 +14 pb, para 15,19%. _(B3, TradeInformationConsolidated, 30/10)_
-- **Listas do dia.** Do livro nas listas do boletim: mais negociadas à vista: PETR4 (1º), VALE3 (2º), ITUB4 (3º); calls mais negociadas: PETRK546 (1º), PETRL474 (3º). _(B3, tabelas de maiores oscilacoes, 30/10)_
+- **Listas do dia.** Do livro nas listas do boletim: maiores altas do Ibovespa: VALE3 (7º); mais negociadas à vista: PETR4 (1º), VALE3 (2º), ITUB4 (3º); calls mais negociadas: PETRK546 (1º), PETRL474 (3º). _(B3, tabelas de maiores oscilacoes, 30/10)_
 
 **Já vinham de pregões anteriores**
 
-- **Paridade.** RARA11 fez -6,01% contra -3,43% de REMX em reais (-5,12% lá fora, câmbio +1,78%): descolamento de -2,58 ponto no dia. _(B3, TradeInformationConsolidated + series do livro, 30/10 · 2º pregão seguido)_
+- **Paridade.** RARA11 fez -6,01% contra -4,43% de REMX em reais (-5,12% lá fora, câmbio +0,73%): descolamento de -1,58 ponto no dia. _(B3, TradeInformationConsolidated + series do livro, 30/10 · 2º pregão seguido)_
 
 ## Índices
 
@@ -122,7 +122,19 @@ x média = volume do dia dividido pela média dos pregões anteriores no histór
 | SMAL11 | 92,43 | -0,30% | 0 |
 | RARA11 | - | - | 0 |
 
-- Paridade: RARA11 -6,01% contra REMX em reais -3,43% (lá fora -5,12%, câmbio +1,78%); desvio de -2,58%. Fechamentos em horários diferentes: é aproximação.
+- Paridade: RARA11 -6,01% contra REMX em reais -4,43% (lá fora -5,12%, câmbio +0,73%); desvio de -1,58%. Fechamentos em horários diferentes: é aproximação.
+
+## Ações do livro em programa de ADR
+
+| Ativo | Ações em ADR (mi) | % da classe | Variação no pregão (mi) |
+|---|---:|---:|---:|
+| ITUB4 | 1.265,0 | 23,4% | +0,00 |
+| PETR4 | 767,7 | 14,1% | +0,00 |
+| VALE3 | 1.261,8 | 28,4% | +0,00 |
+| UGPA3 | 79,3 | 7,1% | +0,00 |
+| AXIA3 | 47,5 | 1,9% | -0,00 |
+
+ADR = recibo da ação negociado em Nova York. Ações entrando no programa indicam compra lá fora; saindo, venda.
 
 **Volume fora do padrão no mercado:** MILS3 2,1x (+1,49%).
 
@@ -207,17 +219,13 @@ Por classe, mediana das taxas de referência dos papéis. Taxa de referência: n
 - quadro de posições em aberto: aguardando
 - saldo de aluguel: aguardando
 - empréstimos do dia: aguardando
-- aluguel por corretora: aguardando
-- Custody: aguardando
+- aluguel por corretora: ignorado
 - DIover: aguardando
 - posições em aberto (opções e futuros): aguardando
-- IbovespaStockBiggestHighs: aguardando
-- IbovespaStockBiggestLow: aguardando
 - Register: aguardando
 - RepurchaseDealings: aguardando
 - Stock: aguardando
 - Posição em aberto de derivativos por tipo de investidor (estrangeiro, institucional, pessoa física): não existe no Boletim Diário do Mercado; procurado nas 69 tabelas e no texto dos 11 cadernos em 30/09/2026.
 - Fluxo por tipo de investidor sai acumulado no mês e com dois pregões de atraso; o saldo de um dia é a diferença entre dois acumulados seguidos.
-- Carteira de índice: a B3 não publicou a tabela neste pregão; valem os pesos de 29/10.
 - RARA11: a B3 não publica valor de referência da cota (IOPV) para este ETF no boletim.
 - Paridade de MELI34: sem a barra de 30/10 de MELI nas séries do livro.

@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-10-31T00:51:20Z",
+ "gerado_em": "2026-10-31T06:14:40Z",
  "cliente_http": "curl_cffi",
  "livro": [
   "EQTL3",
@@ -27,8 +27,8 @@
    "completo": true,
    "faltam": [],
    "boletim": "publicado",
-   "sinais": 30,
-   "tabelas": 44,
+   "sinais": 31,
+   "tabelas": 47,
    "arquivos": [
     "DerivativesOpenPosition",
     "InstrumentsConsolidated",
@@ -42,7 +42,7 @@
     "sem_cadastro": 0,
     "erros": 0,
     "ficaram_para_depois": 0,
-    "no_cache": 3676
+    "no_cache": 3692
    },
    "anbima": {
     "situacao": "publicado",
@@ -55,12 +55,8 @@
      "2026-10-28": "publicado"
     }
    },
-   "falhas": {
-    "HistoricalExchange": "HTTP 0 em https://arquivos.b3.com.br/bdi/table/HistoricalExchange/2026-10-29/2026-10-29/1/",
-    "IOPV": "HTTP 0 em https://arquivos.b3.com.br/bdi/table/IOPV/2026-10-29/2026-10-29/1/1000",
-    "SwapFlex": "tabela SwapFlex: HTTP 503"
-   },
-   "segundos": 1372
+   "falhas": {},
+   "segundos": 33
   },
   "2026-10-30": {
    "completo": false,
@@ -80,9 +76,9 @@
    ],
    "rf_cadastro": {
     "papeis_no_dia": 1480,
-    "consultados": 17,
-    "achados": 16,
-    "sem_cadastro": 1,
+    "consultados": 0,
+    "achados": 0,
+    "sem_cadastro": 0,
     "erros": 0,
     "ficaram_para_depois": 0,
     "no_cache": 3692
@@ -101,7 +97,7 @@
    "falhas": {
     "DerivativesOpenPosition": "arquivo DerivativesOpenPosition: token HTTP 400"
    },
-   "segundos": 93
+   "segundos": 24
   }
  },
  "falhas": [],

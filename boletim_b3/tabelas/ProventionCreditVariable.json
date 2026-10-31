@@ -7,7 +7,7 @@
  "colunas": [{"nome": "TckrSymb", "titulo": "Emissor"}, {"nome": "Code", "titulo": "Código ISIN"}, {"nome": "EarningsType", "titulo": "Tipo de provento"}, {"nome": "DateAge", "titulo": "Data de aprovação"}, {"nome": "Value", "titulo": "Valor (R$)"}, {"nome": "CreditDate", "titulo": "Data de crédito"}],
  "texto": ["Crédito de proventos é o montante recebido por investidores como retorno sobre investimentos em ações ou outros ativos de renda variável. Nesta tabela, estão informações sobre esses rendimentos."],
  "situacao": "republicado",
- "atualizado_em": "2026-10-30T22:10:56.3",
+ "atualizado_em": "2026-10-31T03:02:22.727",
  "truncada": false,
  "linhas": [
   ["AD SHOPPING FUNDO DE INVESTIMENTO IMOB RESP LIM", "BRADSHCTF009 105", "RENDIMENTO", null, 0.02, "2026-10-30"],
@@ -31,8 +31,8 @@
   ["MITRE REALTY EMPREENDIMENTOS E PARTICIPAÇÕES S.A.", "BRMTREACNOR6 137", "DIVIDENDO", "2026-10-15", 0.03781618347, "2026-10-30"],
   ["ORACLE CORPORATION", "BRORCLBDR007 159", "DIVIDENDO", null, 0.27790742585, "2026-10-30"],
   ["PÁTRIA CRÉDITO INFRA RENDA FUN DE INV FIN EM COTAS", "BRPRIFCTF002 121", "AMORTIZAÇÃO", null, 25, "2026-10-30"],
-  ["PHILIP MORRIS INTERNATIONAL INC", "BRPHMOBDR008 138", "DIVIDENDO", null, 0.036080613, "2026-10-30"],
   ["PHILIP MORRIS INTERNATIONAL INC", "BRPHMOBDR008 138", "DIVIDENDO", null, 0.46388864, "2026-10-30"],
+  ["PHILIP MORRIS INTERNATIONAL INC", "BRPHMOBDR008 138", "DIVIDENDO", null, 0.036080613, "2026-10-30"],
   ["PRISMA PROTON ENERGIA FDO. INVEST. PART.", "BRPPEICTF009 118", "RENDIMENTO", null, 1, "2026-10-30"],
   ["RB MULTIESTRATÉGIA IMOBILIRIA FII - RESP LIM", "BRREMECTF001 108", "AMORTIZAÇÃO", null, 15.27, "2026-10-30"],
   ["SER EDUCACIONAL S.A.", "BRSEERACNOR5 121", "DIVIDENDO", null, 0.202762572, "2026-10-30"],

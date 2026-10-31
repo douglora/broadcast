@@ -1,6 +1,6 @@
 {
  "pregao": "2026-10-29",
- "coletado_em": "2026-10-31T00:52:25Z",
+ "coletado_em": "2026-10-31T06:14:41Z",
  "tabelas": {
   "SharesInvesVolum": {
    "titulo": "Participação dos investidores",
@@ -24,6 +24,14 @@
    "atualizado_em": "2026-10-30T10:53:45.943",
    "sla": "8:00:00",
    "linhas": 433,
+   "truncada": false
+  },
+  "HistoricalExchange": {
+   "titulo": "Histórico de taxas de câmbio (Resolução BCB nº 120)",
+   "situacao": "publicado",
+   "atualizado_em": "2026-10-29T16:21:24.763",
+   "sla": "21:00:00",
+   "linhas": 3,
    "truncada": false
   },
   "INDEXES": {
@@ -56,6 +64,14 @@
    "atualizado_em": "2026-10-29T21:02:57.17",
    "sla": "20:00:00",
    "linhas": 13,
+   "truncada": false
+  },
+  "IOPV": {
+   "titulo": "Comportamento dos valores de referência das cotas dos ETFs (IOPV)",
+   "situacao": "publicado",
+   "atualizado_em": "2026-10-29T17:47:56.477",
+   "sla": "20:00:00",
+   "linhas": 70,
    "truncada": false
   },
   "ForwardMarket": {
@@ -168,6 +184,14 @@
    "atualizado_em": "2026-10-30T08:02:29.19",
    "sla": "8:00:00",
    "linhas": 71,
+   "truncada": false
+  },
+  "SwapFlex": {
+   "titulo": "Swap",
+   "situacao": "publicado",
+   "atualizado_em": "2026-10-29T22:01:08.353",
+   "sla": "3:00:00",
+   "linhas": 19,
    "truncada": false
   },
   "EletronicTerm": {
@@ -381,11 +405,7 @@
    "estado": null
   }
  },
- "falhas": {
-  "HistoricalExchange": "HTTP 0 em https://arquivos.b3.com.br/bdi/table/HistoricalExchange/2026-10-29/2026-10-29/1/",
-  "IOPV": "HTTP 0 em https://arquivos.b3.com.br/bdi/table/IOPV/2026-10-29/2026-10-29/1/1000",
-  "SwapFlex": "tabela SwapFlex: HTTP 503"
- },
+ "falhas": {},
  "rf_cadastro": {
   "papeis_no_dia": 1572,
   "consultados": 0,
@@ -393,7 +413,7 @@
   "sem_cadastro": 0,
   "erros": 0,
   "ficaram_para_depois": 0,
-  "no_cache": 3676
+  "no_cache": 3692
  },
  "anbima": {
   "situacao": "publicado",
