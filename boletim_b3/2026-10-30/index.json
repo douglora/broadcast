@@ -1,6 +1,6 @@
 {
  "pregao": "2026-10-30",
- "coletado_em": "2026-10-31T11:52:40Z",
+ "coletado_em": "2026-10-31T16:18:23Z",
  "tabelas": {
   "SharesInvesVolum": {
    "titulo": "Participação dos investidores",
@@ -21,7 +21,7 @@
   "EconomicIndicators": {
    "titulo": "Indicadores econômicos",
    "situacao": "republicado",
-   "atualizado_em": "2026-10-31T08:43:26.283",
+   "atualizado_em": "2026-10-31T10:52:45.72",
    "sla": "8:00:00",
    "linhas": 434,
    "truncada": false
@@ -237,7 +237,7 @@
   "ProventionCreditVariable": {
    "titulo": "Crédito de proventos",
    "situacao": "republicado",
-   "atualizado_em": "2026-10-31T08:42:49.163",
+   "atualizado_em": "2026-10-31T10:52:08.74",
    "sla": "00:00:00",
    "linhas": 28,
    "truncada": false

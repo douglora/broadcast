@@ -7,7 +7,7 @@
  "colunas": [{"nome": "TckrSymb", "titulo": "Emissor"}, {"nome": "Code", "titulo": "Código ISIN"}, {"nome": "EarningsType", "titulo": "Tipo de provento"}, {"nome": "DateAge", "titulo": "Data de aprovação"}, {"nome": "Value", "titulo": "Valor (R$)"}, {"nome": "CreditDate", "titulo": "Data de crédito"}],
  "texto": ["Crédito de proventos é o montante recebido por investidores como retorno sobre investimentos em ações ou outros ativos de renda variável. Nesta tabela, estão informações sobre esses rendimentos."],
  "situacao": "republicado",
- "atualizado_em": "2026-10-31T08:42:49.163",
+ "atualizado_em": "2026-10-31T10:52:08.74",
  "truncada": false,
  "linhas": [
   ["AD SHOPPING FUNDO DE INVESTIMENTO IMOB RESP LIM", "BRADSHCTF009 105", "RENDIMENTO", null, 0.02, "2026-10-30"],
