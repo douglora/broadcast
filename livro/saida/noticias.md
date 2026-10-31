@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 30/10 19h54
+NOTÍCIAS E FATOS · 30/10 21h41
 
-Pernas: noticias ok 13 novas (18 consultas; descartadas: 380 veículo fora da lista, 36 sem ativo, 6 teto) · cvm ok 0 novos de 17 (9 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 10 novas (18 consultas; descartadas: 351 veículo fora da lista, 36 sem ativo, 0 teto) · cvm ok 0 novos de 17 (9 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (3)
 
@@ -77,7 +77,16 @@ Fonte: SEC EDGAR 2026-10-30
 id: E04-AMZN-26000040-2026-10-30 · status: entregue
 
 
-## NOTÍCIAS COM MATERIALIDADE (21)
+## NOTÍCIAS COM MATERIALIDADE (22)
+
+[ATENÇÃO] E05 · TSLA · Stocktwits Zero To Sixty: Rivian Raises Delivery Guidance On R2 Demand, Tesla Expands Robotaxi Fleet, And Ford Advances Low-Cost EV Plans
+TradingView (Reuters) · 30/10 21h10 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/stocktwits:883d4014b094b:0-stocktwits-zero-to-sixty-rivian-raises-delivery-guidance-on-r2-demand-tesla-expands-robotaxi-fleet-and-ford-advances-low-cost-ev-plans/
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: TSLA
+Como falar: 'saiu no TradingView (Reuters): Stocktwits Zero To Sixty: Rivian Raises Delivery Guidance On R2 Demand, Tesla Expands Rob…; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 30/10 21h10
+id: E05-TSLA-1d48dc4bf4-2026-10-31 · status: pendente
 
 [ATENÇÃO] E05 · INTC · Stock Market Today, Oct. 30: Intel Plunges Nearly 29% as Weak Outlook Rattles Wall Street
 Yahoo Finance · 30/10 18h20 · fonte única · licença: resumo
@@ -102,7 +111,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: INTC
 Como falar: 'saiu no Seeking Alpha: Intel plunges 29% on weak Q4 guidance (INTC:NASDAQ); confirmar o número no texto antes de repassar'
 Fonte: Seeking Alpha 30/10 17h35
-id: E05-INTC-47c4e43e39-2026-10-30 · status: pendente
+id: E05-INTC-47c4e43e39-2026-10-30 · status: expirado
 
 [ATENÇÃO] E05 · INTC · Watch Intel Plunges 29% on Weak Outlook as Tech Selloff Deepens | Closing Bell
 Bloomberg · 30/10 17h27 · fonte única · licença: manchete
@@ -111,7 +120,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: INTC
 Como falar: 'saiu no Bloomberg: Watch Intel Plunges 29% on Weak Outlook as Tech Selloff Deepens | Closing Bell; confirmar o número no texto antes de repassar'
 Fonte: Bloomberg 30/10 17h27
-id: E05-INTC-6f5bfb6502-2026-10-30 · status: pendente
+id: E05-INTC-6f5bfb6502-2026-10-30 · status: expirado
 
 [ATENÇÃO] E05 · BTC · Is your crypto safe? What Binance’s $6.3 billion hack means for bitcoin investors.
 MarketWatch · 30/10 15h50 · fonte única · licença: manchete
@@ -346,8 +355,17 @@ Fonte: Yahoo Finance 29/10 16h47
 id: E05-KO-57cc816b05-2026-10-29 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (179)
+## OUTRAS NOTÍCIAS (só manchete) (188)
 
+· INTC Is Intel Stock a Buy After Its Post-Earnings Plunge? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/intel-stock-buy-post-earnings-233402630.html
+· BBAS3 Banco do Brasil tenta recuperar bilhões no agro, mas plano decepciona e ameaça reação dos lucros (Estadao) https://www.estadao.com.br/einvestidor/onde-investir/banco-do-brasil-tenta-recuperar-bilhoes-no-agro-mas-plano-decepciona-e-ameaca-reacao-dos-lucros/
+· BTC How Much Bitcoin Would You Need to Be a Millionaire if It Gets Back to Its Record High? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/much-bitcoin-millionaire-gets-back-224940394.html
+· BTC Why Bitcoin’s Next All-Time High Looks Distant After the Binance Hack (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/why-bitcoin-next-time-high-224254184.html
+· BTC Bitcoin’s Q4 Selloff Could End Quickly, Analyst Says: ‘This Is the Bottoming Window’ (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:4f8deab3e094b:0-bitcoin-s-q4-selloff-could-end-quickly-analyst-says-this-is-the-bottoming-window/
+· DI Taxas de juros sobem com maior risco fiscal e cenário de manutenção da Selic (UOL Economia) https://economia.uol.com.br/noticias/estadao-conteudo/2026/10/30/taxas-de-juros-sobem-com-maior-risco-fiscal-e-cenario-de-manutencao-da-selic.htm
+· MU Why Micron Stock Dove Today (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/why-micron-stock-dove-today-155648098.html
+· AXIA3 Axia (ex-Eletrobras) tem decisão favorável em disputa de quase R$ 5 bilhões no STJ (O Globo) https://oglobo.globo.com/blogs/capital/post/2026/10/axia-ex-eletrobras-tem-decisao-favoravel-em-disputa-de-quase-r-5-bilhoes-no-stj.ghtml
+· CVX Exxon, Chevron earnings propelled by war-driven refining surge (TradingView (Reuters)) https://www.tradingview.com/news/reuters.com,2026:newsml_L6N46E1FQ:0-exxon-chevron-earnings-propelled-by-war-driven-refining-surge/
 · SMAL11 Small Caps caem 32,79% e registram maior queda semanal da história (CNN Brasil) https://www.cnnbrasil.com.br/economia/money/mercado/elos-ayta-small-caps-cai-3279-e-registra-maior-queda-semanal-da-historia/
 · USDBRL Dólar fecha a R$ 5,44 e registra maior alta semanal desde 2008 (Agencia Brasil) https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/dolar-fecha-r-544-e-registra-maior-alta-semanal-desde-2008
 · BTC Bitwise's Matt Hougan: $6.3 billion Binance hack won't hurt Bitcoin long-term (CNBC) https://www.cnbc.com/video/2026/10/30/bitwises-matt-hogan-6-point-3b-binance-hack-wont-hurt-bitcoin-long-term.html
@@ -399,13 +417,4 @@ id: E05-KO-57cc816b05-2026-10-29 · status: linha
 · BTC Bitcoin Price Could Fall as Dollar Debasement Trade Unravels, Connection Capital Founder Warns (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-price-could-fall-dollar-181541468.html
 · CVX Exxon, Chevron profits beat forecasts, refining margins surge during wars (Reuters) https://www.reuters.com/business/energy/wrapup-exxon-chevron-earnings-propelled-by-war-driven-refining-surge-2026-10-30/
 · MU Micron Peer Enthusiasm Entices Me To Buy Again (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/micron-peer-enthusiasm-entices-buy-164543655.html
-· BTC Bitcoin dips below $80,000 as rising rates and stablecoin caution weigh on demand (TradingView (Reuters)) https://www.tradingview.com/news/cryptobriefing:599797877094b:0-bitcoin-dips-below-80-000-as-rising-rates-and-stablecoin-caution-weigh-on-demand/
-· MU Why Is Micron (MU) Down 14.9% Since Last Earnings Report? (Yahoo Finance) https://sg.finance.yahoo.com/news/why-micron-mu-down-14-143002989.html
-· CVX Chevron earnings beat estimates as revenue jumps 36% to $67.8 billion (Yahoo Finance) https://news.google.com/rss/articles/CBMinAFBVV95cUxOR2s2RGd2eV84R2FMRmRWWlJiV0x6NENpZEkwa21McEpzUWV6VWZrNi1lWlVsYzZpN2ptYTVYenVyVC1OY1RDRWRRUkVGZVlVOUE0cnlBc1pwS1BmUzRaclBIR3dXeDNjWHh2amJILUM2VDdLaDZoVTkxLXhfNUxBY2d1ZHFqYTJnMUlQSVc1SmwxbmZHN3g1aGtPc0M?oc=5
-· INTC INTC Stock Heads For Worst Day In Over 2 Years: Jefferies Calls Q4 A ‘Substantial’ Reset Amid Slew Of Wall Street Price Cuts, Downgrades (TradingView (Reuters)) https://news.google.com/rss/articles/CBMingJBVV95cUxOdWtJUXR1VlRLRFZQYnhzUHh3TmNlVXNMeWF0MHVGM2dWTHV1dEZTWkZ1OWdLZWxRZTFDdE9OdUpGM2lFcENkc3BVdm5Qdll3YTBhbXdMYXpLbElTWlF1SUxxbmJGRld6dGJxcVprYTVTV3JZRkpzVGJhcTZnblVFRlc3aG1xMWNRcjRzUWVNSDg0Y1hBZmUtdDI0V2xkaXVlT3A1cm5iS1M0SlNtTmU1aVZYVVpKMldjb2hXeGlCM3EwNUZmcWxBUGV4dXNhNTdjNi0zR0NHLVNjS2U4cnpEODVsWk1zYm5qZWRJQTB4eUdoRk5IMUFnWVUtUXFYelJfZ09LejNjYUdfYk8yQVhtaTczTHByV09uckk1akdB?oc=5
-· USDBRL Dólar supera R$ 5,40; Ibovespa cai mais de 1%, na quinta baixa consecutiva (UOL Economia) https://news.google.com/rss/articles/CBMiqAFBVV95cUxQNlJjTkoxajJVZEdDcVdBYlc4TlgtZDhTVm5SdlQ1REJ2Q2lBakJJME8yUzd5SzFLb0ZuYnktRS1IQ3ZYdXFOUXlaSE1kTklkTk5hQ18xN29td1Y1UHNSb0JkNm1ULXNlTUxrQnRiVng0UzNBWWhoempEWmUtNzZ0V0ptR0l5dzBlZVNMbFFRcXJhVkxqUUJiNk82aDVlS1UwdGQyVmE1TUM?oc=5
-· VALE3 Vale não deve pagar dividendos extraordinários neste ano, diz CFO (TradingView (Reuters)) https://br.tradingview.com/news/reuters.com,2026:newsml_L6N46G14D:0/
-· AVGO Broadcom Stock Outlook Hinges On AI Chip Growth And Anthropic Partnership (Yahoo Finance) https://uk.finance.yahoo.com/news/broadcom-stock-outlook-hinges-ai-181030148.html
-· AMZN Amazon earnings analysis: questions answered and next catalysts (Investing.com) https://www.investing.com/news/stock-market-news/amazon-earnings-analysis-questions-answered-and-next-catalysts-93CH-4988412
-· PLTR Should Palantir Stock Be in Your Portfolio Before Q3 Earnings? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/palantir-stock-portfolio-q3-earnings-165300648.html
-· (+119 manchetes; lista completa em eventos/noticias.json)
+· (+128 manchetes; lista completa em eventos/noticias.json)

@@ -1,10 +1,10 @@
 BLOCO A
 ```
-FECHAMENTO DO LIVRO · sex 30/10 · 18h14 BRT
-Relógios: Yahoo 18h14 · DI ajuste D0 · Tesouro base
+FECHAMENTO DO LIVRO · sex 30/10 · 21h41 BRT
+Relógios: Yahoo 21h41 · DI ajuste D0 · Tesouro base
   30/10 · UST CMT D0 · PTAX 30/10
 
-ALERTAS DO DIA (71 · 11 críticos)
+ALERTAS DO DIA (73 · 11 críticos)
 [CRÍTICO] C05 Pre 2029 ABRE 16 bps (PU -0,2%) · Pre
           2029 PU -3,8% em 5 datas-base · IPCA+ 2032
           PU -5,7% em 5 datas-base (base 30/10)
@@ -29,15 +29,22 @@ ALERTAS DO DIA (71 · 11 críticos)
 [CRÍTICO] T08 MU entrou em queda de -25% do pico:
           -27% do pico de 52s (US$ 1.214 em 25/06) a
           US$ 884,74
-(+63 em alertas.md)
+(+65 em alertas.md)
 
 ALTAS  VALE3 +3,3% · BRENT +2,5% · CVX +1,8% · KO
        +1,4% · USDBRL +1,0%
 BAIXAS INTC -29% · COHR -11% · AMD -11% · MRVL -10%
        · GFS -8,6%
 
-NOTÍCIAS E FATOS (22 com materialidade ·
+NOTÍCIAS E FATOS (24 com materialidade ·
   noticias.md)
+· TSLA Stocktwits Zero To Sixty: Rivian Raises
+  Delivery Guidance On R2 Demand, Tesla Expands
+  Robotaxi Fleet, And Ford Advances Low-Cost EV
+  Plans (TradingView (Reuters))
+· INTC Stock Market Today, Oct. 30: Intel Plunges
+  Nearly 29% as Weak Outlook Rattles Wall Street
+  (Yahoo Finance)
 · INTC Intel plunges 29% on weak Q4 guidance
   (INTC:NASDAQ) (Seeking Alpha)
 · INTC Watch Intel Plunges 29% on Weak Outlook as
@@ -49,11 +56,7 @@ NOTÍCIAS E FATOS (22 com materialidade ·
 · BTC Is your crypto safe? What Binance’s $6.3
   billion hack means for bitcoin investors.
   (MarketWatch)
-· VALE3 Vale (VALE3) tem lucro de US$ 1,25 bi no
-  3T26, queda de 53% em um ano (Suno Noticias)
-· AMZN Watch Intel Tumbles on PC Outlook, AWS CEO on
-  AI Spending and Growth (Bloomberg)
-  (+16)
+  (+18)
 
 CURVAS · taxa (Δ bps)
 DI (D0, Δ dia·sem bps) F28 14,48 (+11·+162) F29
@@ -69,7 +72,7 @@ TD (base 30/10, site do TD 18h00, Δ desde 29/10) Pre
     (descasado) 6,69% vs Focus IPCA 2027 4,34%
 UST (D0) 2y 4,56 (-5) · 10y 4,94 (-4) · 30y 5,31
     (-1) · 2s10s +38 (+1)
-Regime: VIX 19,4 (+13%) · score risco 2 de 6 ·
+Regime: VIX 19,4 (+13%) · score risco 1 de 6 ·
     regime de vol LIGADO
 
 LEITURA DA MESA
@@ -181,8 +184,8 @@ Macro
 USDBRL USD/BRL  5,4425 +1,0 +9,1 +5,2 +9,5 +1,6 -0,6
 DXY    DXY      101,96 -0,1 +0,2 +0,5 +3,8 +2,4 +3,7
 BRENT  Brent    117,70 +2,5 +0,8  +20 +8,8  +81  +93
-BTC*   BTC      76.540 -1,6 -5,6 -8,4 -2,1  -29  -13
-ETH*   ETH       2.236 -0,6 -6,2  -17 -2,6  -41  -25
+BTC    BTC      76.540 -1,6 -5,6 -8,4 -2,1  -29  -13
+ETH    ETH       2.236 -0,6 -6,2  -17 -2,6  -41  -25
 MINER* Minerio   90,71  0,0  0,0 -6,2  -15  -14  -15
 ```
 UCITS por extenso: VWRA Vanguard FTSE All-World

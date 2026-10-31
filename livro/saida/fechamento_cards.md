@@ -1,4 +1,4 @@
-## Fechamento do livro · sex 30/10 · 18h14 BRT
+## Fechamento do livro · sex 30/10 · 21h41 BRT
 
 ---
 
@@ -52,7 +52,7 @@
 
 | Ativo | dia | explicação | grau |
 |---|---:|---|---|
-| **INTC** | -29% | descolou do setor (semicondutores (eua) -7,3% (mediana), SOX -7,2%; -21,3 p.p. da mediana); notícia a conferir (Seeking Alpha): Intel plunges 29% on weak Q4 guidance (INTC:NASDAQ) | notícia (conferir) |
+| **INTC** | -29% | descolou do setor (semicondutores (eua) -7,3% (mediana), SOX -7,2%; -21,3 p.p. da mediana); notícia a conferir (Yahoo Finance): Stock Market Today, Oct. 30: Intel Plunges Nearly 29% as Weak Outlook Rattles Wall Street | notícia (conferir) |
 | **COHR** | -11% | investigar antes de comentar | sem causa no dado |
 | **AMD** | -11% | descolou do setor (semicondutores (eua) -7,3% (mediana), SOX -7,2%; -3,6 p.p. da mediana); notícia a conferir (MarketWatch): AMD’s stock slides after Intel earnings reveal two big issues | notícia (conferir) |
 | **MRVL** | -10% | descolou do setor (semicondutores (eua) -7,3% (mediana), SOX -7,2%; -2,8 p.p. da mediana); notícia a conferir (Yahoo Finance): Marvell may buy its own laser supplier as investors pull back | notícia (conferir) |
@@ -215,8 +215,8 @@ Nomes completos: **QNTM** VanEck Quantum Computing UCITS ETF USD (Acc) · **QANT
 | **USDBRL** Dolar/Real | 5,4425 | **+1,0** | +9,1 | +5,2 | +7,2 | +9,5 | +1,6 | -0,6 | -3,4 |
 | **DXY** Indice Dolar DXY | 101,96 | **-0,1** | +0,2 | +0,5 | +2,2 | +3,8 | +2,4 | +3,7 | +8,3 |
 | **BRENT** Petroleo Brent | 117,70 | **+2,5** | +0,8 | +20 | +31 | +8,8 | +81 | +93 | +39 |
-| **BTC** Bitcoin _(parcial)_ | 76.540 | **-1,6** | -5,6 | -8,4 | +22 | -2,1 | -29 | -13 | +25 |
-| **ETH** Ethereum _(parcial)_ | 2.236 | **-0,6** | -6,2 | -17 | +20 | -2,6 | -41 | -25 | -48 |
+| **BTC** Bitcoin | 76.540 | **-1,6** | -5,6 | -8,4 | +22 | -2,1 | -29 | -13 | +25 |
+| **ETH** Ethereum | 2.236 | **-0,6** | -6,2 | -17 | +20 | -2,6 | -41 | -25 | -48 |
 | **MINERIO** Minerio de ferro 62% Fe CFR China _(D-1, 29/10)_ | 90,71 | **0,0** | 0,0 | -6,2 | -7,7 | -15 | -14 | -15 | -25 |
 
 **Brent em reais:** R$ 640,58 por barril (30/10) · dia +3,5% · 1 mês +26% · no ano +92% (Brent do 1º vencimento × dólar).
@@ -227,11 +227,11 @@ Nomes completos: **QNTM** VanEck Quantum Computing UCITS ETF USD (Acc) · **QANT
 
 | Referência | US$/t | dia | 1 sem | 1 mês | leitura |
 |---|---:|---:|---:|---:|---|
-| **Celulose fibra longa** | 612 | +0,1 | -0,2 | -5,6 | 30/10 |
-| **Minerio de ferro Dalian** | 90 | +0,3 | +0,9 | -3,3 | 30/10 |
+| **Celulose fibra longa** | 611 | -0,2 | -0,5 | -5,8 | 30/10 |
+| **Minerio de ferro Dalian** | 89 | +0,1 | +0,7 | -3,5 | 30/10 |
 
-- **Celulose fibra longa**: futuro SP da SHFE (fibra longa) em CNY/t, sem o IVA de 13%; nao e preco de lista NBSK · CNY/t 4.596 a USD/CNY 6,64 = US$ 692/t com IVA
-- **Minerio de ferro Dalian**: futuro da DCE em CNY/t, sem o IVA de 13%; o CFR 62% em US$ e a linha MINERIO · CNY/t 674 a USD/CNY 6,64 = US$ 101/t com IVA
+- **Celulose fibra longa**: futuro SP da SHFE (fibra longa) em CNY/t, sem o IVA de 13%; nao e preco de lista NBSK · CNY/t 4.596 a USD/CNY 6,66 = US$ 690/t com IVA
+- **Minerio de ferro Dalian**: futuro da DCE em CNY/t, sem o IVA de 13%; o CFR 62% em US$ e a linha MINERIO · CNY/t 674 a USD/CNY 6,66 = US$ 101/t com IVA
 
 ---
 
@@ -268,12 +268,16 @@ Inflação implícita 2029 6,68% · 2032 6,92% · 2031/32 (descasado) 6,69% · F
 
 2s10s +38 bps (+1 no dia)
 
-**Regime** VIX 19,4 (+13%) · score de risco 2 de 6 · **regime de vol LIGADO**
+**Regime** VIX 19,4 (+13%) · score de risco 1 de 6 · **regime de vol LIGADO**
 
 ---
 
-### Notícias e fatos · 22
+### Notícias e fatos · 24
 
+- **TSLA** Stocktwits Zero To Sixty: Rivian Raises Delivery Guidance On R2 Demand, Tesla Expands Robotaxi Fleet, And Ford Advances Low-Cost EV Plans (TradingView (Reuters) · 31/10) [abrir a fonte](https://www.tradingview.com/news/stocktwits:883d4014b094b:0-stocktwits-zero-to-sixty-rivian-raises-delivery-guidance-on-r2-demand-tesla-expands-robotaxi-fleet-and-ford-advances-low-cost-ev-plans/)
+  *Por que importa:* noticia material sobre um ativo do livro; ler o texto antes de comentar
+- **INTC** Stock Market Today, Oct. 30: Intel Plunges Nearly 29% as Weak Outlook Rattles Wall Street (Yahoo Finance · 30/10) [abrir a fonte](https://finance.yahoo.com/markets/stocks/articles/stock-market-today-oct-30-212002526.html)
+  *Por que importa:* noticia material sobre um ativo do livro; ler o texto antes de comentar
 - **INTC** Intel plunges 29% on weak Q4 guidance (INTC:NASDAQ) (Seeking Alpha · 30/10) [abrir a fonte](https://seekingalpha.com/news/4661731-intel-plunges-29-on-weak-q4-guidance)
   *Por que importa:* noticia material sobre um ativo do livro; ler o texto antes de comentar
 - **INTC** Watch Intel Plunges 29% on Weak Outlook as Tech Selloff Deepens \| Closing Bell (Bloomberg · 30/10) [abrir a fonte](https://www.bloomberg.com/news/videos/2026-10-30/intel-plunges-on-weak-outlook-closing-bell-video)
@@ -344,7 +348,7 @@ Inflação implícita 2029 6,68% · 2032 6,92% · 2031/32 (descasado) 6,69% · F
 
 ### Como ler
 
-**Relógios:** Yahoo 18h14 · DI ajuste D0 · Tesouro base 30/10 · UST CMT D0 · PTAX 30/10
+**Relógios:** Yahoo 21h41 · DI ajuste D0 · Tesouro base 30/10 · UST CMT D0 · PTAX 30/10
 **Lacunas:** nenhuma perna falhou.
 **IUAA:** NAO e renda fixa ultracurta: cai ~6% a cada +100 bps na curva. Ler junto com UST 10y/30y. Caixa em dolar e o IB01.
 **Hipótese:** **EWY** iShares MSCI South Korea ETF · **MCHI** iShares MSCI China ETF — ETFs dos EUA, a confirmar.
