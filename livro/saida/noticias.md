@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 02/11 17h47
+NOTÍCIAS E FATOS · 02/11 18h12
 
-Pernas: noticias ok 8 novas (18 consultas; descartadas: 391 veículo fora da lista, 23 sem ativo, 0 teto) · cvm ok 0 novos de 3 (3 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 6 novas (18 consultas; descartadas: 419 veículo fora da lista, 20 sem ativo, 0 teto) · cvm ok 0 novos de 3 (3 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (1)
 
@@ -37,7 +37,23 @@ Fonte: SEC EDGAR 2026-10-30
 id: E04-CVX-26000196-2026-10-30 · status: entregue · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (41)
+## NOTÍCIAS COM MATERIALIDADE (42)
+
+[ATENÇÃO] E05 · PLTR · Palantir raises full-year revenue outlook as US commercial sales accelerate
+Yahoo Finance · 02/11 18h09 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Palantir reported Q3 revenue of $2.313 billion, a 96% increase from the previous year.
+  – Wall Street had expected revenue of $2.17 billion, according to Bloomberg data.
+  – Palantir now sees full-year revenue between $8.530 billion and $8.534 billion, topping analyst estimates of $8.2 billion.
+  – The company also raised its US commercial sales target to more than $3.559 billion.
+  – Adjusted earnings per share of $0.44 also beat consensus estimates of $0.40.
+  – What else you need to know: Palantir stock is up roughly 2% year-to-date, even as the company has been caught in the recent tech sell-off.
+Link: https://sg.finance.yahoo.com/news/palantir-raises-full-year-revenue-outlook-as-us-commercial-sales-accelerate-210816930.html
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: PLTR
+Como falar: 'saiu no Yahoo Finance: Palantir raises full-year revenue outlook as US commercial sales accelerate; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 02/11 18h09
+id: E05-PLTR-f59efa4ade-2026-11-02 · status: pendente
 
 [ATENÇÃO] E05 · KO · Coca-Cola Is the Most Boring Stock I Own. After 64 Years of Dividend Raises, I'll Never Sell.
 Yahoo Finance · 02/11 17h05 · fonte única · licença: resumo
@@ -53,7 +69,7 @@ Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir
 Ativos: KO
 Como falar: 'saiu no Yahoo Finance: Coca-Cola Is the Most Boring Stock I Own. After 64 Years of Dividend Raises, I'll Never S…; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 02/11 17h05
-id: E05-KO-4815d18ec1-2026-11-02 · status: pendente
+id: E05-KO-4815d18ec1-2026-11-02 · status: entregue
 
 [ATENÇÃO] E05 · DI · Até um dos mais otimistas pisou no freio: Inter eleva projeção da Selic e vê pausa nos cortes
 Money Times · 02/11 17h02 · fonte única · licença: integral
@@ -69,7 +85,7 @@ Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais
 Ativos: DI
 Como falar: 'saiu no Money Times: Até um dos mais otimistas pisou no freio: Inter eleva projeção da Selic e vê pausa nos co…; confirmar o número no texto antes de repassar'
 Fonte: Money Times 02/11 17h02
-id: E05-DI-f04e147d8f-2026-11-02 · status: pendente · íntegra disponível
+id: E05-DI-f04e147d8f-2026-11-02 · status: entregue · íntegra disponível
 
 [ATENÇÃO] E05 · MU · Micron Falls 4% as Kioxia’s Cautious Outlook Hits Memory Stocks; Western Digital Drops 5%, SanDisk Slides 3%
 Yahoo Finance · 02/11 15h53 · fonte única · licença: resumo
@@ -85,7 +101,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: MU
 Como falar: 'saiu no Yahoo Finance: Micron Falls 4% as Kioxia’s Cautious Outlook Hits Memory Stocks; Western Digital Drops 5%…; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 02/11 15h53
-id: E05-MU-4868bb6273-2026-11-02 · status: pendente
+id: E05-MU-4868bb6273-2026-11-02 · status: entregue
 
 [ATENÇÃO] E05 · MRVL · Marvell to Acquire Lumentum in $115 Billion All-Stock Deal
 Yahoo Finance · 02/11 12h58 · fonte única · licença: resumo
@@ -528,8 +544,13 @@ Fonte: CNBC 29/10 22h06
 id: E05-INTC-8a46f101b3-2026-10-30 · status: entregue
 
 
-## OUTRAS NOTÍCIAS (só manchete) (141)
+## OUTRAS NOTÍCIAS (só manchete) (146)
 
+· PLTR Palantir reports booming U.S. commercial revenue growth, topping government for first time (CNBC) https://www.cnbc.com/2026/11/02/palantir-pltr-earnings-q3-2026.html
+· PLTR Palantir earnings reveal a major AI turning point (MarketWatch) https://www.marketwatch.com/story/palantir-earnings-reveal-a-major-ai-turning-point-db766110
+· BTC Mercado Bitcoin, Brazil’s largest crypto exchange, hit by $46 million security breach (The Block) https://www.theblock.co/news/defi/2026-11-02-mercado-bitcoin-hack-46-million-brazil-exchange-432333
+· UST Update: US Equity Indexes Rise Amid Sinking Crude Oil, Treasury Yields (Yahoo Finance) https://ca.finance.yahoo.com/news/us-equity-indexes-rise-amid-191826781.html
+· JPM JPMorgan Chase & Co. (JPM.NE) Stock Price, News, Quote & History (Yahoo Finance) https://ca.finance.yahoo.com/quote/JPM.NE/
 · NVDA Nvidia, Microsoft, and JPMorgan object to OKXICE tokenized stocks (Yahoo Finance) https://finance.yahoo.com/video/nvidia-microsoft-jpmorgan-object-okxice-203000548.html
 · GOOGL Alphabet: Wall Street Fixates On AI Spending, But Cloud Profits Tell Another Story (GOOGL) (Seeking Alpha) https://seekingalpha.com/article/4961098-alphabet-wall-street-fixates-on-ai-spending-but-cloud-profits-tell-another-story
 · LITE Lumentum Goes From $1 Billion Spinoff to $115 Billion Takeover (Bloomberg) https://www.bloomberg.com/news/articles/2026-11-02/lumentum-goes-from-1-billion-spinoff-to-115-billion-takeover
@@ -585,9 +606,4 @@ id: E05-INTC-8a46f101b3-2026-10-30 · status: entregue
 · AMD Buy, Sell or Hold AMD Stock? Key Tips Ahead of Q3 Earnings (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/buy-sell-hold-amd-stock-161400261.html
 · BTC Brazil’s Mercado Bitcoin halts withdrawals after $40 million drained across 10 chains (CoinDesk) https://www.coindesk.com/business/2026/11/02/brazil-s-mercado-bitcoin-halts-withdrawals-after-usd40-million-drained-across-10-chains
 · AMD AMD Just Dropped 16% in a Month. Is It Time to Sell, or Load Up? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/amd-just-dropped-16-month-152828456.html
-· MRVL Marvell Could Be Making a $115 Billion Mistake With Lumentum Purchase (Barron's) https://www.barrons.com/articles/marvell-stock-lumentum-acquisition-ai-data-centers-c5708ddf
-· GOOGL Google Shareholder Alert: Alphabet Inc. Securities Class (GlobeNewswire) https://www.globenewswire.com/news-release/2026/11/02/3393359/3080/en/google-shareholder-alert-alphabet-inc-securities-class-action-lawsuit-investors-with-losses-may-contact-levi-korsinsky.html
-· CVX Chevron Corporation (CVX) Hit a 52 Week High, Can the Run Continue? (Yahoo Finance) https://news.google.com/rss/articles/CBMimwFBVV95cUxQd0pLd1ZvRS1jbkxFdFkwVWtJcGpyS0FpRXRoVGxlYXgtejA0SGdJeDJwazhZUk5hN2pvWm5yMzRYQ3hhcXdRd1Y4WUhfWUZ6WjZNM3RZbkU4eDFoZF9lb3ZZX3UyYzJqN0Y3ak9OMUdia1U3YVQ4MEtlcWxOV0JLS01kdURFaHNCSU1jVGV5bXB6WjhubW50aDVHZw?oc=5
-· GOOGL What's Going on with Alphabet Stock? 3 Things Investors Should Know (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/whats-going-alphabet-stock-3-170500565.html
-· AMZN Why Wall Street Is Coming Back Around on Amazon Stock (Barron's) https://www.barrons.com/articles/amazon-web-services-stock-earnings-c4f9ea8a
-· (+81 manchetes; lista completa em eventos/noticias.json)
+· (+86 manchetes; lista completa em eventos/noticias.json)

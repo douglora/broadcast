@@ -1,62 +1,55 @@
-ALERTAS · intradia
+ALERTAS · Fechamento 18h
 
-(pendente de slot anterior) [ATENÇÃO] E05 · KO · Coca-Cola Is the Most Boring Stock I Own. After 64 Years of Dividend Raises, I'll Never Sell.
-Yahoo Finance · 02/11 17h05 · fonte única · licença: resumo
+[ATENÇÃO] E01 · LITE: resultado sai na próxima sessão (02/11)
+seg 02/11 · horário não confirmado · estimado (Yahoo)
+Vol de 20 dias +115% a.a. ⇒ movimento típico de 1 dia ±7,3%
+Chega ao resultado com 1m -37% · 6m -30% · YTD +86%
+Consenso: não disponível (sem fonte licenciada); usar o release e o guidance anterior
+Por que importa: resultado é o evento que mais move o papel em um dia; a vol implícita e o posicionamento sobem antes e caem depois
+Como falar: 'o resultado sai amanhã; o movimento típico do papel num dia é o da vol acima, e o mercado costuma exagerar na abertura'
+Fonte: Yahoo
+Push: Fechamento 18h: 2 alertas de atenção — E01 LITE, E05 PLTR · detalhe na sessão
+ids: E01-LITE-D-1-2026-10-30
+
+[ATENÇÃO] E05 · PLTR · Palantir raises full-year revenue outlook as US commercial sales accelerate
+Yahoo Finance · 02/11 18h09 · fonte única · licença: resumo
 Trechos (licença resumo: reescrever, não colar):
-  – Yet Coca-Cola still accounts for nearly 5% of my portfolio; it's my fourth-largest holding, and I don't plan to sell it for three simple reasons.
-  – It's a Dividend King If a company raises its dividend annually for 50 consecutive years, it becomes a Dividend King.
-  – Coca-Cola, with 64 consecutive years of dividend hikes, belongs to that exclusive club.
-  – In 2009, a "Double Down" signal flashed for a little-known chipmaker called Nvidia.
-  – For the first time in years, that same "Total Conviction" signal is flashing for a company 1/100th the size of Nvidia.
-  – has experienced six official recessions, and the S&P 500 (SNPINDEX: ^GSPC) has experienced five bear markets (a decline of at least 20% from its previous peak).
-Link: https://finance.yahoo.com/markets/stocks/articles/coca-cola-most-boring-stock-200500293.html
-Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
-Ativos: KO
-Como falar: 'saiu no Yahoo Finance: Coca-Cola Is the Most Boring Stock I Own. After 64 Years of Dividend Raises, I'll Never S…; confirmar o número no texto antes de repassar'
-Fonte: Yahoo Finance 02/11 17h05
-ids: E05-KO-4815d18ec1-2026-11-02
-
-(pendente de slot anterior) [ATENÇÃO] E05 · DI · Até um dos mais otimistas pisou no freio: Inter eleva projeção da Selic e vê pausa nos cortes
-Money Times · 02/11 17h02 · fonte única · licença: integral
-Do texto:
-  – O banco agora estima que a Selic encerre 2026 em 13,50%, ante os 13,25% projetados anteriormente, diante da piora das perspectivas para a inflação e das incertezas fiscais.
-  – O cenário principal ainda contempla uma redução de 0,25 ponto percentual na reunião de novembro do Comitê de Política Monetária (Copom).
-  – Mas esse seria o último corte antes de uma pausa que, na avaliação do banco, deve durar até o fim de 2027.
-  – A projeção de Selic em 13,25% já aparecia nos relatórios do Inter pelo menos desde maio.
-  – No levantamento do Money Times anterior à reunião de setembro, o banco estava entre as quatro casas que esperavam esse patamar para dezembro, enquanto dez projetavam juros de 13,75%.
-  – No relatório assinado pela economista-chefe Rafaela Vitória, o Inter reconhece que o Banco Central pode antecipar a pausa e manter a taxa nos atuais 13,75%.
-Link: https://www.moneytimes.com.br/ate-um-dos-mais-otimistas-pisou-no-freio-inter-eleva-projecao-da-selic-e-ve-pausa-nos-cortes-jcav/
-Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
-Ativos: DI
-Como falar: 'saiu no Money Times: Até um dos mais otimistas pisou no freio: Inter eleva projeção da Selic e vê pausa nos co…; confirmar o número no texto antes de repassar'
-Fonte: Money Times 02/11 17h02
-ids: E05-DI-f04e147d8f-2026-11-02
-
-(pendente de slot anterior) [ATENÇÃO] E05 · MU · Micron Falls 4% as Kioxia’s Cautious Outlook Hits Memory Stocks; Western Digital Drops 5%, SanDisk Slides 3%
-Yahoo Finance · 02/11 15h53 · fonte única · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – Micron stock is at $853.34, down 4% this afternoon.
-  – Over the past month, Micron stock is down 20%.
-  – That slide comes despite record results: on September 30, the company reported Q4 FY2026 revenue of $54.23 billion, up 379.3% year over year, with an adjusted gross margin of 87%.
-  – For Q1 FY2027, Micron forecast its revenue to $61.5 billion, plus or minus $1.5 billion.
-  – Kioxia's Soft Guidance Drags Memory Stocks Lower Kioxia Holdings guided its December-quarter operating profit to 2 trillion yen, the company said on November 2.
-  – That forecast stands only slightly above the 1.99 trillion yen Kioxia earned in the September quarter, and it came in below analyst estimates.
-Link: https://finance.yahoo.com/markets/stocks/articles/micron-falls-4-kioxia-cautious-185355108.html
-Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
-Ativos: MU
-Como falar: 'saiu no Yahoo Finance: Micron Falls 4% as Kioxia’s Cautious Outlook Hits Memory Stocks; Western Digital Drops 5%…; confirmar o número no texto antes de repassar'
-Fonte: Yahoo Finance 02/11 15h53
-ids: E05-MU-4868bb6273-2026-11-02
+  – Palantir reported Q3 revenue of $2.313 billion, a 96% increase from the previous year.
+  – Wall Street had expected revenue of $2.17 billion, according to Bloomberg data.
+  – Palantir now sees full-year revenue between $8.530 billion and $8.534 billion, topping analyst estimates of $8.2 billion.
+  – The company also raised its US commercial sales target to more than $3.559 billion.
+  – Adjusted earnings per share of $0.44 also beat consensus estimates of $0.40.
+  – What else you need to know: Palantir stock is up roughly 2% year-to-date, even as the company has been caught in the recent tech sell-off.
+Link: https://sg.finance.yahoo.com/news/palantir-raises-full-year-revenue-outlook-as-us-commercial-sales-accelerate-210816930.html
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: PLTR
+Como falar: 'saiu no Yahoo Finance: Palantir raises full-year revenue outlook as US commercial sales accelerate; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 02/11 18h09
+ids: E05-PLTR-f59efa4ade-2026-11-02
 
 Info (só linha no Fechamento):
-· E05 NVDA · Nvidia, Microsoft, and JPMorgan object to OKXICE tokenized stocks
-· E05 GOOGL · Alphabet: Wall Street Fixates On AI Spending, But Cloud Profits Tell Another Story (GOOGL)
-· E05 LITE · Lumentum Goes From $1 Billion Spinoff to $115 Billion Takeover
-· E05 BTC · Bitcoin ETFs hit by $643M selloff as Binance hack shakes crypto
-· E05 BTC · Bitcoin risks drop below $76K as 7% oil slide fails to spark BTC price rally
-· E05 BTC · Prediction: Anthropic Will Be Worth More Than Bitcoin by the End of the Year. On Polymarket, the Current Odds Are 79%.
-· E05 AMZN · Amazon: AWS, AI Chips, & Retail Expansion Spur Growth
-· E05 AMZN · Amazon Stocks Jump 4.3% With Upgrade Putting AWS Cash Conversion in Focus
+· T02 QQQ perdeu a MM100 pela 2ª sessão: US$ 681,09, ainda acima da MM200 (tendência longa preservada)
+· T02 NVDA perdeu a MM100 pela 2ª sessão: US$ 202,06, já abaixo da MM200 (confirma tendência de baixa)
+· T07 INTC entrou em sobrevendido: RSI14 23 a US$ 59,97
+· T10 XLK no mínimo de força relativa em 63 sessões contra SPX: -13% vs -3,0% em 20 sessões (-11% relativo)
+· T10 VGT no mínimo de força relativa em 63 sessões contra SPX: -12% vs -3,0% em 20 sessões (-9,2% relativo)
+· T11 CNDX (iShares NASDAQ 100 UCITS ETF USD (Acc)) descolou atrás de CSPX (iShares Core S&P 500 UCITS ETF USD (Acc)): -7,8% vs -1,6% em 20 sessões (z -2,4 em 252 sessões, 2º dia)
+· T11 QQQ descolou atrás de SPY: -9,9% vs -2,9% em 20 sessões (z -2,8 em 252 sessões, 2º dia)
+· E05 PLTR · Palantir reports booming U.S. commercial revenue growth, topping government for first time
+· E05 PLTR · Palantir earnings reveal a major AI turning point
+· E05 BTC · Mercado Bitcoin, Brazil’s largest crypto exchange, hit by $46 million security breach
+· E05 UST · Update: US Equity Indexes Rise Amid Sinking Crude Oil, Treasury Yields
+· E05 JPM · JPMorgan Chase & Co. (JPM.NE) Stock Price, News, Quote & History
+· T05 LITE -19% no dia a US$ 684,40: movimento de 3,5 desvios para uma vol de 20 dias de 93% a.a.
+· T05 BRENT -8,3% no dia a US$ 104,04: movimento de 4,8 desvios para uma vol de 20 dias de 29% a.a.
+· T08 VGT entrou em correção: -12% do pico de 52s (US$ 129,80 em 06/10) a US$ 113,83
+· T08 IGV entrou em correção: -12% do pico de 52s (US$ 115,70 em 03/11) a US$ 101,94
+· T08 NVDA entrou em queda de -15% do pico: -16% do pico de 52s (US$ 239,24 em 06/10) a US$ 202,06
+· T08 AMD entrou em queda de -25% do pico: -28% do pico de 52s (US$ 649,42 em 06/10) a US$ 466,84
+· T08 MRVL entrou em queda de -40% do pico: -46% do pico de 52s (US$ 316,43 em 04/06) a US$ 171,41
+· T08 LITE entrou em queda de -30% do pico: -40% do pico de 52s (US$ 1.133 em 06/10) a US$ 684,40
+· T08 GOOGL entrou em queda de -30% do pico: -31% do pico de 52s (US$ 402,62 em 13/05) a US$ 278,99
+· T08 BRENT entrou em correção: -12% do pico de 52s (US$ 118,35 em 31/03) a US$ 104,04
 · T08 XLK entrou em correção: -11% do pico de 52s (US$ 202,00 em 06/10) a US$ 179,51
 · T08 QTUM entrou em bear técnico: -21% do pico de 52s (US$ 168,76 em 02/06) a US$ 133,83
 · T08 INTC entrou em queda de -40% do pico: -53% do pico de 52s (US$ 140,94 em 22/06) a US$ 65,76
@@ -64,27 +57,45 @@ Info (só linha no Fechamento):
 · T08 TSM entrou em queda de -15% do pico: -16% do pico de 52s (US$ 485,80 em 05/10) a US$ 406,13
 · T08 LITE entrou em bear técnico: -26% do pico de 52s (US$ 1.133 em 06/10) a US$ 840,70
 · T08 UGPA3 entrou em bear técnico: -21% do pico de 52s (R$ 40,03 em 21/10) a R$ 31,76
+· T06 MRVL -27% em 5 sessões a US$ 171,41: movimento de 2,5 desvios para a vol de 20 dias
 · T06 INTC -24% em 5 sessões a US$ 65,76: movimento de 3,7 desvios para a vol de 20 dias
-· T13 VIX cruzou 20: 20,2 (+17% no dia)
+· T01 SMH fechou abaixo da média de 200 dias pela 1ª sessão: US$ 508,31 vs MM200 US$ 520,06 (-2,3%)
+· T01 SOXX fechou abaixo da média de 200 dias pela 1ª sessão: US$ 453,65 vs MM200 US$ 476,56 (-4,8%)
+· T01 MRVL fechou abaixo da média de 200 dias pela 1ª sessão: US$ 171,41 vs MM200 US$ 183,58 (-6,6%)
 · T01 QTUM fechou abaixo da média de 200 dias pela 1ª sessão: US$ 133,83 vs MM200 US$ 137,29 (-2,5%)
 · T01 INTC fechou abaixo da média de 200 dias pela 1ª sessão: US$ 65,76 vs MM200 US$ 86,86 (-24%)
 · T01 EWY fechou abaixo da média de 200 dias pela 1ª sessão: US$ 152,89 vs MM200 US$ 162,67 (-6,0%)
-· T03 GOOGL formou death cross: MM50 US$ 339,03 cruzou abaixo da MM200 US$ 340,34 pela 2ª sessão; preço US$ 279,84, -18% da MM200, -0,3% em 12m
-· T04 REMX fechou na mínima de 52 semanas: US$ 49,99, -22% em 1m e -29% em 12m
-· T04 SAPR4 fechou na mínima de 52 semanas: R$ 6,03, -7,5% em 1m e -9,4% em 12m
-· T04 SMAL11 fechou na mínima de 52 semanas: R$ 92,15, -18% em 1m e -16% em 12m
+· T02 XLK perdeu a MM50 e perdeu a MM100 pela 2ª sessão: US$ 174,24, ainda acima da MM200 (tendência longa preservada)
+· T02 VGT perdeu a MM50 e perdeu a MM100 pela 2ª sessão: US$ 113,83, ainda acima da MM200 (tendência longa preservada)
 · T02 MU perdeu a MM50 e perdeu a MM100 pela 2ª sessão: US$ 884,74, ainda acima da MM200 (tendência longa preservada)
+· T09 MRVL -13% com volume 3,2x a mediana de 20 sessões, a US$ 171,41
+· T09 LITE -19% com volume 2,9x a mediana de 20 sessões, a US$ 684,40
 · T09 QQQ -3,5% com volume 2,7x a mediana de 20 sessões, a US$ 690,49
 · T09 INTC -29% com volume 4,9x a mediana de 20 sessões, a US$ 65,76
+· T10 MRVL no mínimo de força relativa em 63 sessões contra SOX: -37% vs -22% em 20 sessões (-19% relativo)
+· T10 LITE no mínimo de força relativa em 63 sessões contra SOX: -37% vs -22% em 20 sessões (-20% relativo)
+· T10 COHR no mínimo de força relativa em 63 sessões contra SOX: -40% vs -22% em 20 sessões (-24% relativo)
+· T10 MMM no máximo de força relativa em 63 sessões contra SPX: +9,3% vs -3,0% em 20 sessões (+13% relativo)
 · T10 WQTM no mínimo de força relativa em 63 sessões contra SPX: -20% vs -1,8% em 20 sessões (-18% relativo)
 · T10 WQTMUS no mínimo de força relativa em 63 sessões contra SPX: -19% vs -1,8% em 20 sessões (-17% relativo)
 · T10 INTC no mínimo de força relativa em 63 sessões contra SOX: -45% vs -19% em 20 sessões (-32% relativo)
 · T10 PETR4 no máximo de força relativa em 63 sessões contra IBOV: +5,6% vs -10% em 20 sessões (+18% relativo)
+· T13 VIX cruzou 20: 20,2 (+17% no dia)
+· T03 GOOGL formou death cross: MM50 US$ 339,03 cruzou abaixo da MM200 US$ 340,34 pela 2ª sessão; preço US$ 279,84, -18% da MM200, -0,3% em 12m
+· T04 REMX fechou na mínima de 52 semanas: US$ 49,99, -22% em 1m e -29% em 12m
+· T04 SAPR4 fechou na mínima de 52 semanas: R$ 6,03, -7,5% em 1m e -9,4% em 12m
+· T04 SMAL11 fechou na mínima de 52 semanas: R$ 92,15, -18% em 1m e -16% em 12m
 · T12 WUTI (State Street SPDR MSCI World Utilities UCITS ETF (USD)): 8 altas seguidas (+4,4% acumulado) a US$ 69,97
 
-Suprimidos pelo teto (viram linha do Fechamento): T08-XLK--10-2026-10-30 (teto diário de críticos), T08-QTUM--20-2026-10-30 (teto diário de críticos), T08-INTC--40-2026-10-30 (teto diário de críticos), T08-MU--25-2026-10-30 (teto diário de críticos), T08-TSM--15-2026-10-30 (teto diário de críticos), T08-LITE--20-2026-10-30 (teto diário de críticos), T08-UGPA3--20-2026-10-30 (teto diário de críticos), T06-INTC-queda-2026-10-30 (teto diário de críticos), T13-VIX-vix20-2026-10-30 (teto de atenção), T01-QTUM-perda-2026-10-30 (teto de atenção), T01-INTC-perda-2026-10-30 (teto de atenção), T01-EWY-perda-2026-10-30 (teto de atenção), T03-GOOGL-death-2026-10-30 (teto de atenção), T04-REMX-minima-2026-10-30 (teto de atenção), T04-SAPR4-minima-2026-10-30 (teto de atenção), T04-SMAL11-minima-2026-10-30 (teto de atenção), T02-MU-perdeu_perdeu-2026-10-30 (teto de atenção), T09-QQQ-queda-2026-10-30 (teto de atenção), T09-INTC-queda-2026-10-30 (teto de atenção), T10-WQTM-mínimo-2026-10-30 (teto de atenção), T10-WQTMUS-mínimo-2026-10-30 (teto de atenção), T10-INTC-mínimo-2026-10-30 (teto de atenção), T10-PETR4-máximo-2026-10-30 (teto de atenção), T12-WUTI-altas_8-2026-10-30 (teto de atenção)
+Suprimidos pelo teto (viram linha do Fechamento): T05-LITE-queda-2026-11-02 (teto diário de críticos), T05-BRENT-queda-2026-11-02 (teto diário de críticos), T08-VGT--10-2026-11-02 (teto diário de críticos), T08-IGV--10-2026-11-02 (teto diário de críticos), T08-NVDA--15-2026-11-02 (teto diário de críticos), T08-AMD--25-2026-11-02 (teto diário de críticos), T08-MRVL--40-2026-11-02 (teto diário de críticos), T08-LITE--30-2026-11-02 (teto diário de críticos), T08-GOOGL--30-2026-11-02 (teto diário de críticos), T08-BRENT--10-2026-11-02 (teto diário de críticos), T08-XLK--10-2026-10-30 (teto diário de críticos), T08-QTUM--20-2026-10-30 (teto diário de críticos), T08-INTC--40-2026-10-30 (teto diário de críticos), T08-MU--25-2026-10-30 (teto diário de críticos), T08-TSM--15-2026-10-30 (teto diário de críticos), T08-LITE--20-2026-10-30 (teto diário de críticos), T08-UGPA3--20-2026-10-30 (teto diário de críticos), T06-MRVL-queda-2026-11-02 (teto diário de críticos), T06-INTC-queda-2026-10-30 (teto diário de críticos), T01-SMH-perda-2026-11-02 (teto de atenção), T01-SOXX-perda-2026-11-02 (teto de atenção), T01-MRVL-perda-2026-11-02 (teto de atenção), T01-QTUM-perda-2026-10-30 (teto de atenção), T01-INTC-perda-2026-10-30 (teto de atenção), T01-EWY-perda-2026-10-30 (teto de atenção), T02-XLK-perdeu_perdeu-2026-11-02 (teto de atenção), T02-VGT-perdeu_perdeu-2026-11-02 (teto de atenção), T02-MU-perdeu_perdeu-2026-10-30 (teto de atenção), T09-MRVL-queda-2026-11-02 (teto de atenção), T09-LITE-queda-2026-11-02 (teto de atenção), T09-QQQ-queda-2026-10-30 (teto de atenção), T09-INTC-queda-2026-10-30 (teto de atenção), T10-MRVL-mínimo-2026-11-02 (teto de atenção), T10-LITE-mínimo-2026-11-02 (teto de atenção), T10-COHR-mínimo-2026-11-02 (teto de atenção), T10-MMM-máximo-2026-11-02 (teto de atenção), T10-WQTM-mínimo-2026-10-30 (teto de atenção), T10-WQTMUS-mínimo-2026-10-30 (teto de atenção), T10-INTC-mínimo-2026-10-30 (teto de atenção), T10-PETR4-máximo-2026-10-30 (teto de atenção), T13-VIX-vix20-2026-10-30 (teto de atenção), T03-GOOGL-death-2026-10-30 (teto de atenção), T04-REMX-minima-2026-10-30 (teto de atenção), T04-SAPR4-minima-2026-10-30 (teto de atenção), T04-SMAL11-minima-2026-10-30 (teto de atenção), T12-WUTI-altas_8-2026-10-30 (teto de atenção)
 
 Alertas do dia (todos, com status):
+· linha     T05 LITE — LITE -19% no dia a US$ 684,40: movimento de 3,5 desvios para uma vol de 20 dias 
+· linha     T05 BRENT — BRENT -8,3% no dia a US$ 104,04: movimento de 4,8 desvios para uma vol de 20 dia
+· linha     T08 AMD — AMD entrou em queda de -25% do pico: -28% do pico de 52s (US$ 649,42 em 06/10) a
+· linha     T08 MRVL — MRVL entrou em queda de -40% do pico: -46% do pico de 52s (US$ 316,43 em 04/06) 
+· linha     T08 LITE — LITE entrou em queda de -30% do pico: -40% do pico de 52s (US$ 1.133 em 06/10) a
+· linha     T08 GOOGL — GOOGL entrou em queda de -30% do pico: -31% do pico de 52s (US$ 402,62 em 13/05)
 · entregue  C05 TESOURO — Pre 2029 ABRE 16 bps (PU -0,2%) · Pre 2029 PU -3,8% em 5 datas-base · IPCA+ 2032
 · entregue  T05 SOXX — SOXX -8,2% no dia a US$ 471,51: movimento de 3,1 desvios para uma vol de 20 dias
 · entregue  T05 WQTM — WQTM -7,4% no dia a US$ 30,85: movimento de 4,2 desvios para uma vol de 20 dias 
@@ -96,9 +107,27 @@ Alertas do dia (todos, com status):
 · linha     T08 LITE — LITE entrou em bear técnico: -26% do pico de 52s (US$ 1.133 em 06/10) a US$ 840,
 · linha     T08 UGPA3 — UGPA3 entrou em bear técnico: -21% do pico de 52s (R$ 40,03 em 21/10) a R$ 31,76
 · linha     T06 INTC — INTC -24% em 5 sessões a US$ 65,76: movimento de 3,7 desvios para a vol de 20 di
-· pendente  E05 KO — KO · Coca-Cola Is the Most Boring Stock I Own. After 64 Years of Dividend Raises
-· pendente  E05 DI — DI · Até um dos mais otimistas pisou no freio: Inter eleva projeção da Selic e v
-· pendente  E05 MU — MU · Micron Falls 4% as Kioxia’s Cautious Outlook Hits Memory Stocks; Western Di
+· linha     T01 SMH — SMH fechou abaixo da média de 200 dias pela 1ª sessão: US$ 508,31 vs MM200 US$ 5
+· linha     T01 SOXX — SOXX fechou abaixo da média de 200 dias pela 1ª sessão: US$ 453,65 vs MM200 US$ 
+· linha     T01 MRVL — MRVL fechou abaixo da média de 200 dias pela 1ª sessão: US$ 171,41 vs MM200 US$ 
+· linha     T08 VGT — VGT entrou em correção: -12% do pico de 52s (US$ 129,80 em 06/10) a US$ 113,83
+· linha     T08 IGV — IGV entrou em correção: -12% do pico de 52s (US$ 115,70 em 03/11) a US$ 101,94
+· linha     T08 NVDA — NVDA entrou em queda de -15% do pico: -16% do pico de 52s (US$ 239,24 em 06/10) 
+· linha     T08 BRENT — BRENT entrou em correção: -12% do pico de 52s (US$ 118,35 em 31/03) a US$ 104,04
+· linha     T02 XLK — XLK perdeu a MM50 e perdeu a MM100 pela 2ª sessão: US$ 174,24, ainda acima da MM
+· linha     T02 VGT — VGT perdeu a MM50 e perdeu a MM100 pela 2ª sessão: US$ 113,83, ainda acima da MM
+· linha     T06 MRVL — MRVL -27% em 5 sessões a US$ 171,41: movimento de 2,5 desvios para a vol de 20 d
+· linha     T09 MRVL — MRVL -13% com volume 3,2x a mediana de 20 sessões, a US$ 171,41
+· linha     T09 LITE — LITE -19% com volume 2,9x a mediana de 20 sessões, a US$ 684,40
+· linha     T10 MRVL — MRVL no mínimo de força relativa em 63 sessões contra SOX: -37% vs -22% em 20 se
+· linha     T10 LITE — LITE no mínimo de força relativa em 63 sessões contra SOX: -37% vs -22% em 20 se
+· linha     T10 COHR — COHR no mínimo de força relativa em 63 sessões contra SOX: -40% vs -22% em 20 se
+· linha     T10 MMM — MMM no máximo de força relativa em 63 sessões contra SPX: +9,3% vs -3,0% em 20 s
+· pendente  E01 LITE — LITE: resultado sai na próxima sessão (02/11)
+· pendente  E05 PLTR — PLTR · Palantir raises full-year revenue outlook as US commercial sales accelera
+· entregue  E05 KO — KO · Coca-Cola Is the Most Boring Stock I Own. After 64 Years of Dividend Raises
+· entregue  E05 DI — DI · Até um dos mais otimistas pisou no freio: Inter eleva projeção da Selic e v
+· entregue  E05 MU — MU · Micron Falls 4% as Kioxia’s Cautious Outlook Hits Memory Stocks; Western Di
 · entregue  E05 LITE — LITE · Lumentum Stocks Drop 11% With Merger Risk Overshadowing Its $1.6 Billion 
 · entregue  E05 MRVL — MRVL · Marvell to Acquire Lumentum in Historic $115 Billion Tech Deal
 · entregue  E05 CVX — CVX · Chevron's Q3 Results Support Higher Free Cash Flow Outlook, Morgan Stanley
@@ -165,7 +194,14 @@ Alertas do dia (todos, com status):
 · entregue  E05 CVX — CVX · Earnings Snapshot: Chevron beats Q3 EPS and revenue estimates; declares $1
 · entregue  E05 INTC — INTC · Intel Shares Plunge 25% as Weak Fourth-Quarter Outlook Overshadows Strong
 · entregue  E05 INTC — INTC · Intel plunges on a major guidance miss. What went wrong — and how to proc
-· linha     F03 BRENT — Brent cai a US$ 104,14 (-8,2% no dia · cruzou US$ 110) (parcial, intradia)
+· linha     T02 QQQ — QQQ perdeu a MM100 pela 2ª sessão: US$ 681,09, ainda acima da MM200 (tendência l
+· linha     T02 NVDA — NVDA perdeu a MM100 pela 2ª sessão: US$ 202,06, já abaixo da MM200 (confirma ten
+· linha     T07 INTC — INTC entrou em sobrevendido: RSI14 23 a US$ 59,97
+· linha     T10 XLK — XLK no mínimo de força relativa em 63 sessões contra SPX: -13% vs -3,0% em 20 se
+· linha     T10 VGT — VGT no mínimo de força relativa em 63 sessões contra SPX: -12% vs -3,0% em 20 se
+· linha     T11 CNDX — CNDX (iShares NASDAQ 100 UCITS ETF USD (Acc)) descolou atrás de CSPX (iShares Co
+· linha     T11 QQQ — QQQ descolou atrás de SPY: -9,9% vs -2,9% em 20 sessões (z -2,8 em 252 sessões, 
+· linha     F03 BRENT — Brent cai a US$ 104,04 (-8,3% no dia · cruzou US$ 110)
 · linha     C03 DI — DI em nível: F32 na máxima de 252 pregões: 15,32% · F35 na máxima de 252 pregões
 · linha     T02 RBOT — RBOT (iShares Automation & Robotics UCITS ETF USD (Acc)) perdeu a MM50 pela 2ª s
 · linha     T02 IUAA — IUAA (iShares US Aggregate Bond UCITS ETF USD (Acc)) retomou a MM50 pela 2ª sess
@@ -178,4 +214,4 @@ Alertas do dia (todos, com status):
 · linha     T09 AMZN — AMZN -1,4% com volume 3,0x a mediana de 20 sessões, a US$ 240,35
 · linha     T10 WUTI — WUTI (State Street SPDR MSCI World Utilities UCITS ETF (USD)) no máximo de força
 · linha     F01 USDBRL — Real cai: USD/BRL 5,4425 (+9,1% em 5 sessões · 8 dias seguidos de movimento domé
-· (+147 notícias só manchete, em noticias.md)
+· (+152 notícias só manchete, em noticias.md)
