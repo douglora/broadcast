@@ -57,6 +57,9 @@ metodo em quant/saida/pesquisa5/BRIEF.md) e move a linha para "Testadas" com os 
 - 30/10/2026, noite: nenhuma hipotese testavel; 7, 8, 9, 10, 12, 14, 15 e 16 seguem esperando dado novo ou sao prova viva. Nao ha item "[revisao: ...]"
   aberto. Nenhuma tentativa nova (METODO: parar em vez de forcar).
 
+- 02/11/2026, tarde: nenhuma hipotese testavel; 7, 8, 9, 10, 12, 14, 15 e 16 seguem esperando dado novo ou sao prova viva. Nao ha item "[revisao: ...]"
+  aberto. Prova viva nao rodou (MetaTrader fechado). Nenhuma tentativa nova (METODO: parar em vez de forcar).
+
 (08/10/2026) Sete frentes, mais de 12 mil medicoes: ver quant/estudos/LEIA.md. Passou so a reversao do dado americano.
 
 (09/10/2026) Segunda rodada, com os dados da B3 e do Banco Central (quant/saida/pesquisa5/BRIEF_B3.md; notas em
