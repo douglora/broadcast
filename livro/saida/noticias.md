@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 02/11 12h58
+NOTÍCIAS E FATOS · 02/11 14h16
 
-Pernas: noticias ok 15 novas (18 consultas; descartadas: 379 veículo fora da lista, 21 sem ativo, 16 teto) · cvm ok 0 novos de 3 (3 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 18 novas (18 consultas; descartadas: 402 veículo fora da lista, 28 sem ativo, 14 teto) · cvm ok 0 novos de 3 (3 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (1)
 
@@ -37,7 +37,34 @@ Fonte: SEC EDGAR 2026-10-30
 id: E04-CVX-26000196-2026-10-30 · status: entregue · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (30)
+## NOTÍCIAS COM MATERIALIDADE (33)
+
+[ATENÇÃO] E05 · CVX · Chevron's Q3 Results Support Higher Free Cash Flow Outlook, Morgan Stanley Says
+Yahoo Finance · 02/11 13h25 · fonte única · licença: resumo
+Link: https://ca.finance.yahoo.com/news/chevron-apos-q3-results-support-162504867.html
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: CVX
+Como falar: 'saiu no Yahoo Finance: Chevron's Q3 Results Support Higher Free Cash Flow Outlook, Morgan Stanley Says; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 02/11 13h25
+id: E05-CVX-beba829152-2026-11-02 · status: pendente
+
+[ATENÇÃO] E05 · MRVL · Marvell to Acquire Lumentum in $115 Billion All-Stock Deal
+Yahoo Finance · 02/11 12h58 · fonte única · licença: resumo
+Link: https://ca.finance.yahoo.com/news/marvell-acquire-lumentum-115-billion-155843331.html
+Por que importa: aquisicao ou venda muda alavancagem, mix de receita e o multiplo; olhar preco pago e financiamento
+Ativos: MRVL · LITE
+Como falar: 'saiu no Yahoo Finance: Marvell to Acquire Lumentum in $115 Billion All-Stock Deal; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 02/11 12h58
+id: E05-MRVL-86131c3507-2026-11-02 · status: pendente
+
+[ATENÇÃO] E05 · BAC · Weekly Recap: Debt offering for buyback and Bank of America upgrade
+TradingView (Reuters) · 02/11 08h00 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/tradingview:8ee60eda413fe:0-weekly-recap-debt-offering-for-buyback-and-bank-of-america-upgrade/
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: BAC
+Como falar: 'saiu no TradingView (Reuters): Weekly Recap: Debt offering for buyback and Bank of America upgrade; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 02/11 08h00
+id: E05-BAC-12f03eb905-2026-11-02 · status: pendente
 
 [ATENÇÃO] E05 · MRVL · Marvell Just Bet $115 Billion On AI's 'Once In A Generation' Opportunity. Should You Buy The Stock?
 Yahoo Finance · 02/11 11h06 · fonte única · licença: resumo
@@ -53,7 +80,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: MRVL
 Como falar: 'saiu no Yahoo Finance: Marvell Just Bet $115 Billion On AI's 'Once In A Generation' Opportunity. Should You Buy…; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 02/11 11h06
-id: E05-MRVL-57ca5bfdfd-2026-11-02 · status: pendente
+id: E05-MRVL-57ca5bfdfd-2026-11-02 · status: entregue
 
 [ATENÇÃO] E05 · AMD · AMD's guidance in focus during Q3 results (AMD:NASDAQ)
 Seeking Alpha · 02/11 11h32 · fonte única · licença: manchete
@@ -401,8 +428,23 @@ Fonte: CNBC 29/10 22h06
 id: E05-INTC-8a46f101b3-2026-10-30 · status: entregue
 
 
-## OUTRAS NOTÍCIAS (só manchete) (68)
+## OUTRAS NOTÍCIAS (só manchete) (83)
 
+· GOOGL What's Going on with Alphabet Stock? 3 Things Investors Should Know (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/whats-going-alphabet-stock-3-170500565.html
+· AMZN Why Wall Street Is Coming Back Around on Amazon Stock (Barron's) https://www.barrons.com/articles/amazon-web-services-stock-earnings-c4f9ea8a
+· BTC Binance reopens post-hack, and Strategy buys more bitcoin (Yahoo Finance) https://sg.finance.yahoo.com/video/binance-reopens-post-hack-strategy-170000923.html
+· GOOGL Amazon Climbs 5% as Upgrade Fuels Post-Earnings Rebound on AWS Strength; Walmart Rises 2%, Alphabet Edges Higher (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/amazon-climbs-5-upgrade-fuels-165737997.html
+· BTC Strategy Makes Its Largest Bitcoin Purchase Since September, Keeps Buying Back More STRC (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:d0afbfbcd094b:0-strategy-makes-its-largest-bitcoin-purchase-since-september-keeps-buying-back-more-strc/
+· AMZN Amazon is on a course to spend half a trillion dollars in a single year: JPMorgan (Yahoo Finance) https://finance.yahoo.com/markets/stocks/article/amazon-is-on-a-course-to-spend-half-a-trillion-dollars-in-a-single-year-jpmorgan-163113505.html
+· ETH Bitmine Buys Another 8,573 ETH, Pushes Ethereum Holdings Past $13.7B (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitmine-buys-another-8-573-162300687.html
+· BTC Bitcoin giant Strategy, unfazed by Binance hack, adds over $65 million BTC to its holdings (Fortune) https://fortune.com/2026/11/02/bitcoin-giant-strategy-binance-hack-65-million-holdings/
+· BTC Strive Buys 124 Bitcoin, Moves Closer to Overtaking Metaplanet (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/strive-buys-124-bitcoin-moves-161600581.html
+· INTC Intel Gets Price Target Revamp but Keeps One Major Catalyst (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:2ce5ef5c9094b:0-intel-gets-price-target-revamp-but-keeps-one-major-catalyst/
+· MRVL Marvell Technology Targets $550B AI Optics Market With Lumentum Deal (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/marvell-technology-targets-550b-ai-161403324.html
+· DI BC deve manter Selic em 13,75% em uma pausa após a reeleição de Lula (InfoMoney) https://www.infomoney.com.br/economia/bc-deve-manter-selic-em-1375-em-uma-pausa-apos-a-reeleicao-de-lula/
+· MRVL COHR Stock Draws Upgrade As Marvell’s $115B Lumentum Deal Highlights ‘Value Of Scarce AI Optics’ (Yahoo Finance) https://news.google.com/rss/articles/CBMingFBVV95cUxOVTMwQVM4UXlGRGRrREtaLVZidmdob2N2SlYtSzhSNlJDeTA4TUxqakpaOVFYUWZUaXMxdkhnckpMWGxpel8teWxKWEFfVVQ2SlNpTTI5YjRHei1FT3dXMEl3U0tfcmt2OWg4SmhTUWVIWDRfN0RIS3l3c24zMlMxclF0aHZwT09UbkgxOUVBd3JDYUgxYS1rVG9vcS1WUQ?oc=5
+· LITE Lumentum (LITE) Beats Q1 Earnings and Revenue Estimates (Yahoo Finance) https://news.google.com/rss/articles/CBMinAFBVV95cUxNOXlvb1drOTNPNmxDbFFwZEtoWXpVd2dRRUcwcFhFUk1ZcmtsMXUzSjFqQ1pqOG0zbUtnMEZoYllxREE2X0NZVm1GWjFNYVEtSWtIQlVFeXNOTGNkU0xGNkFXb3IzUkFJa3ozNDZNMmpwV3RCT2liamtSdG8yMkN6LTdwRTdSaG5YUFYxZEtLSlBXaE1nSmMtTGs0Y1Q?oc=5
+· AMZN JPMorgan's shocking capital expenditures estimates for Amazon, and worries for McDonald's ahead (Yahoo Finance) https://news.google.com/rss/articles/CBMi1gFBVV95cUxPTV9KYWxiQ3ZUSnk1NkRHMjY0VU5kMHNIeWJ5Qld1VlQwd0NBTWlzTGQtUm8wRzgyT2J2QXVPazJIVXY2V3ZRbmNuRWNBQWpXRmItZHlZZWNPNVJoSGxadDZiMXhSS281bUxGeFdDYlNoSnRRVHVWV2pHNjlicUg5V3ZKZnJ0cTJmU3RYeElWYVUtb3A2dldYdXR2Q2ZRNXpzYnZ2ZFZkSUl0ajJMc19oVGEtVGdUVDJwYVdmYlNISXhIeC1KQ1dpSEI2aXpDb1VXY0dtWDdn?oc=5
 · MRVL COHR Stock Draws Upgrade As Marvell’s $115B Lumentum Deal Highlights ‘Value Of Scarce AI Optics’ (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:9f9c1a148094b:0-cohr-stock-draws-upgrade-as-marvell-s-115b-lumentum-deal-highlights-value-of-scarce-ai-optics/
 · BTC Mercado Bitcoin Says It Will Absorb $40 Million Loss From Hack (Bloomberg) https://www.bloomberg.com/news/articles/2026-11-02/mercado-bitcoin-says-it-will-absorb-40-million-loss-from-hack
 · AMZN JPMorgan has some explosive capex estimates for Amazon — and investors are uncomfortable (Yahoo Finance) https://finance.yahoo.com/video/jpmorgan-has-some-explosive-capex-estimates-for-amazon--and-investors-are-uncomfortable-150514815.html
@@ -448,19 +490,4 @@ id: E05-INTC-8a46f101b3-2026-10-30 · status: entregue
 · AMD AMD (AMD) Q3 earnings: what to expect (Yahoo Finance) https://news.google.com/rss/articles/CBMilgFBVV95cUxOWkxjc3FEazRqZlNFVEdITkpZeDhQRUxjNjMzN25oZ280ZUpKTkxlcXAySEVVUERPU3ZqOGtpSDZBYW5TR2gtczdiajZYUW5mam1JTWprVG1raW52X0tITmN4dUpJZUNPNmR6SUlBQnloa3h4RUEtdUxrWWxycE16OFFLb2pWdFNCQ01oNWFnbmR5Tzd4Q1E?oc=5
 · GOOGL Google Search And Agentic AI: Slower Growth, Not Instant Death (NASDAQ:GOOG) (Seeking Alpha) https://news.google.com/rss/articles/CBMivAFBVV95cUxPcVloRE5BYmVlcGNtd2pxZlI5dWoxbnZVRjVVNTBiQm9HOFFmRlhKYkdIYkpPTkNNajBsT3Q4NXEtRFFReWxzcHB3SEpPNjVIM3MwdEJFc1FqaTMzQnIzdG9malBQMTZBSWQzbkxFU3h3Y3dCdWViVTBrbE1JOHVNTk43WWJVenpfdnJkWUthMkNaMWdnM09WZ1FoRzIzOWt5Um5uYkt1eFhYeWNCdkt6bmJBQ1JjT2pZMGtnNw?oc=5
 · JPM JPMorgan Global Select Equity ETF (JGLO) Adds Microsoft and NXP on Oct. 29 (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/jpmorgan-global-select-equity-etf-110611845.html
-· BAC ETFs Bought $24.4 Million of Bank of America (BAC) on Oct. 29 (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/etfs-bought-24-4-million-110157410.html
-· GOOGL Alphabet Plummets After Earnings. I Think the Stock Looks Like a Genius Buy Now. (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/alphabet-plummets-earnings-think-stock-110100353.html
-· CVX Chevron reports net income of $9.9bn in Q3 2026 (Yahoo Finance) https://finance.yahoo.com/news/chevron-reports-net-income-9-103642671.html
-· NVDA Microsoft, Nvidia, JPMorgan Among 50 US Giants Blocking Tokenized Shares on OKXICE (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/microsoft-nvidia-jpmorgan-among-50-102536994.html
-· PLTR Palantir Earnings: Can the Stock’s Run Keep Going? (Barron's) https://www.barrons.com/articles/palantir-earnings-stock-price-d18e9a00
-· BTC Bitcoin holds above $77K ahead of US midterm elections (TradingView (Reuters)) https://www.tradingview.com/news/cryptobriefing:69c8c90e0094b:0-bitcoin-holds-above-77k-ahead-of-us-midterm-elections/
-· LITE Lumentum stock named top AI optics pick by B. Riley on capacity (Investing.com) https://www.investing.com/news/analyst-ratings/lumentum-stock-named-top-ai-optics-pick-by-b-riley-on-capacity-93CH-4990489
-· ITUB4 3T26: Itaú (ITUB4), Axia (AXIA3), Prio (PRIO3) e mais; veja quais empresas divulgam balanços nesta semana (Money Times) https://www.moneytimes.com.br/3t26-itau-itub4-axia-axia3-prio-prio3-balancos-nesta-semana-mlem/
-· JPM LANXESS Aktiengesellschaft (LXS) Receives JPMorgan Voting Rights Notice (TradingView (Reuters)) https://www.tradingview.com/news/tradingview:b370957aa54d5:0-lanxess-aktiengesellschaft-lxs-receives-jpmorgan-voting-rights-notice/
-· BTC BTC heads into US midterm showdown: Three things to know in Bitcoin this week (TradingView (Reuters)) https://www.tradingview.com/news/cointelegraph:05fe1e445094b:0-btc-heads-into-us-midterm-showdown-three-things-to-know-in-bitcoin-this-week/
-· BABA Alibaba Group Holding Limited (9988.HK) stock price, news, quote and history (Yahoo Finance) https://news.google.com/rss/articles/CBMiVkFVX3lxTE01a0tmMGlyLUw3Q2pLd0hNX1dvOWFOMURrNjJwSnZ4dEJLMm5HUDlxMjUxM2JQVmFTVWVHNThIaEprVVVxQkRsNHVjYzVzdVNvWDZUeEN3?oc=5
-· BRENT Treasury yields mixed as oil prices tumble ahead of the midterms (CNBC) https://news.google.com/rss/articles/CBMibkFVX3lxTE9zeUV1S0FMQzdjaTU2S0djZmVVMjNSZ0hKMGdGdHpjU1p3NEs0ckRaNjJlemVySWtTeWZGMkNraWVmR1F5Y3RjUHhxZkxiRlpRXy1UY1VTYm9fWm5WTzhjRDlWOENzazhrWGhkZW130gFzQVVfeXFMUDNESWlyVGRXTEFHaHJxSFp1YXNkeWlQNkk2cXU4eG9maHROb3lZdzhMRzRJOWptcGF4bjZNZzlkTTE0cERiQ25vMGh1MUpvRGFHd3pMaE94N2dCcENocHJ3QlhVLWVlM1dpemVmV2QtWWhidw?oc=5
-· PLTR The Zacks Analyst Blog Highlights Palantir, Microsoft and Oracle (Yahoo Finance) https://news.google.com/rss/articles/CBMipgFBVV95cUxOVjlLVTd3NWZ0amJTUU5UdXhyT0hGMDV1eGFsT3pITDdYR3U2MVRFaE1PRFNSdW9GbVExd0lpbUM4Ny1oUnRsUi1FclJUREJRLTRESTMwWXVYanp6QW9iSklhUU1pVFJkR3BEcnE0QkM3N2N6T1VJZTY0RVg4eE1wNHlEa0dVVGVCUnJHUUtrMC12S1pfWkJtUFktSUNVZEE3NENoZ19R?oc=5
-· MINERIO Iron ore stabilises on slower-than-expected China demand fall (TradingView (Reuters)) https://news.google.com/rss/articles/CBMiywFBVV95cUxNRktWRlJCRWlsTDJaZFJORDVtbzNYbjJQb3lGLTlKTng3QlAzUV9RRFZUR3E2S2M2ZUZRZk5CbzZtSDRqYV9TR1A2eXdCQkIzVXVsSFktcmREUE5hc3gwRldWSWd4RktvYTRtaFJfdXBhV0pYT1FJY1BraHNjZXU4bFBzRFRKWWNEWnFFaXJKS0ZDNW1pM0xKa2JKelNrNWtjeEhuYmVRNUdpc3N1aTVEWllBMU1wZ3RvcDNLZWpEU2V4YnpDcHUzUDhIbw?oc=5
-· INTC Is Intel Stock a Buy After Its Post-Earnings Plunge? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/intel-stock-buy-post-earnings-233402630.html
-· (+8 manchetes; lista completa em eventos/noticias.json)
+· (+23 manchetes; lista completa em eventos/noticias.json)
