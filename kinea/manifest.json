@@ -1,18 +1,17 @@
 {
- "gerado_em": "2026-10-26T19:14:31Z",
+ "gerado_em": "2026-11-02T21:54:34Z",
  "partes": {
   "cartas": {
-   "em": "2026-10-26T19:19:21Z",
+   "em": "2026-11-02T21:59:34Z",
    "resultado": {
-    "cartas": 48,
+    "cartas": 43,
     "metodos": {
      "wp-json": 999,
      "categoria": 0,
-     "padrao": 54,
+     "padrao": 45,
      "informadas": 0
     },
     "meses": [
-     "2026-01",
      "2026-02",
      "2026-03",
      "2026-04",
@@ -25,19 +24,19 @@
    }
   },
   "documentos": {
-   "em": "2026-10-26T19:19:41Z",
+   "em": "2026-11-02T21:59:57Z",
    "resultado": {
-    "pdfs": 17,
+    "pdfs": 18,
     "posts": 0,
-    "imagens": 21
+    "imagens": 22
    }
   },
   "videos": {
-   "em": "2026-10-26T19:20:47Z",
+   "em": "2026-11-02T22:01:04Z",
    "resultado": {
-    "videos": 38,
+    "videos": 39,
     "com_legenda": 0,
-    "erros": 38,
+    "erros": 39,
     "fora_do_tema": 0,
     "listagem": "yt-dlp"
    }
@@ -64,7 +63,7 @@
   }
  },
  "falhas": [
-  "videos: nenhuma legenda baixada; ultimo erro: painel: painel: get_transcript HTTP 400, 0 trechos | yt-dlp: nenhuma legenda listada | audio: padrao: DownloadError: ERROR: [youtube] 1d1-ccTJ4dw: Faça login para confirmar que você não é um bot. Isso"
+  "videos: nenhuma legenda baixada; ultimo erro: painel: painel: get_transcript HTTP 400, 0 trechos | yt-dlp: android_vr: legenda listada mas nao entregue (o YouTube pede PO token) | audio: padrao: DownloadError: ERROR: [youtube] 5vkhf-BhJlg: Faça l"
  ],
  "rodou": [
   "cartas",

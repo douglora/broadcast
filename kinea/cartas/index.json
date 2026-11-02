@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-10-26T19:19:21Z",
+ "gerado_em": "2026-11-02T21:59:34Z",
  "fonte": "https://www.kinea.com.br (PDF da Carta do Gestor, texto extraido com pypdf)",
  "desde": "2025-07",
  "cartas": [
@@ -632,93 +632,12 @@
    "titulo": "[p. 1] Fevereiro de 2026 | Carta do Gestor",
    "descoberta": "padrao",
    "baixado_em": "2026-09-24T00:27:56Z"
-  },
-  {
-   "arquivo": "kinea/cartas/Carta-do-Gestor-Sigma-2026-01.txt",
-   "url": "https://www.kinea.com.br/wp-content/uploads/2026/02/Carta-do-Gestor-Sigma-2026-01.pdf",
-   "fundo": "Sigma",
-   "familia": "multimercado",
-   "mes_ref": "2026-01",
-   "paginas": 23,
-   "chars": 43056,
-   "sha1_texto": "7cf520458a6795ff",
-   "titulo": "[p. 1] Janeiro de 2026 | Carta do Gestor",
-   "descoberta": "padrao",
-   "baixado_em": "2026-09-24T00:27:58Z"
-  },
-  {
-   "arquivo": "kinea/cartas/Carta-do-Gestor-Prev-Sigma-2026-01.txt",
-   "url": "https://www.kinea.com.br/wp-content/uploads/2026/02/Carta-do-Gestor-Prev-Sigma-2026-01.pdf",
-   "fundo": "Prev Sigma",
-   "familia": "multimercado",
-   "mes_ref": "2026-01",
-   "paginas": 23,
-   "chars": 43129,
-   "sha1_texto": "f6f17b8c8eef41f0",
-   "titulo": "[p. 1] Janeiro de 2026 | Carta do Gestor",
-   "descoberta": "padrao",
-   "baixado_em": "2026-09-24T00:28:01Z",
-   "imagens": [
-    {
-     "pagina": 17,
-     "arquivo": "kinea/imagens/cartas/Carta-do-Gestor-Prev-Sigma-2026-01-p17.jpg"
-    },
-    {
-     "pagina": 20,
-     "arquivo": "kinea/imagens/cartas/Carta-do-Gestor-Prev-Sigma-2026-01-p20.jpg"
-    }
-   ]
-  },
-  {
-   "arquivo": "kinea/cartas/Carta-do-Gestor-Prev-Acoes-2026-01.txt",
-   "url": "https://www.kinea.com.br/wp-content/uploads/2026/02/Carta-do-Gestor-Prev-Acoes-2026-01.pdf",
-   "fundo": "Prev Acoes",
-   "familia": "acoes",
-   "mes_ref": "2026-01",
-   "paginas": 2,
-   "chars": 12347,
-   "sha1_texto": "bf25077cc3e00ac5",
-   "titulo": "[p. 1] Não Corporativo",
-   "descoberta": "padrao",
-   "baixado_em": "2026-09-24T00:28:02Z",
-   "imagens": [
-    {
-     "pagina": 2,
-     "arquivo": "kinea/imagens/cartas/Carta-do-Gestor-Prev-Acoes-2026-01-p02.jpg"
-    }
-   ]
-  },
-  {
-   "arquivo": "kinea/cartas/Carta-do-Gestor-Atlas-II-Itau-Sub-III-2026-01.txt",
-   "url": "https://www.kinea.com.br/wp-content/uploads/2026/02/Carta-do-Gestor-Atlas-II-Itau-Sub-III-2026-01.pdf",
-   "fundo": "Atlas II Itau Sub III",
-   "familia": "multimercado",
-   "mes_ref": "2026-01",
-   "paginas": 23,
-   "chars": 43308,
-   "sha1_texto": "c496ffde956f4fd2",
-   "titulo": "[p. 1] Janeiro de 2026 | Carta do Gestor",
-   "descoberta": "padrao",
-   "baixado_em": "2026-09-24T00:28:05Z"
-  },
-  {
-   "arquivo": "kinea/cartas/Carta-do-Gestor-Apolo-Itau-Sub-II-2026-01.txt",
-   "url": "https://www.kinea.com.br/wp-content/uploads/2026/02/Carta-do-Gestor-Apolo-Itau-Sub-II-2026-01.pdf",
-   "fundo": "Apolo Itau Sub II",
-   "familia": "multimercado",
-   "mes_ref": "2026-01",
-   "paginas": 23,
-   "chars": 43962,
-   "sha1_texto": "55093ee0cafd9283",
-   "titulo": "[p. 1] Janeiro de 2026 | Carta do Gestor",
-   "descoberta": "padrao",
-   "baixado_em": "2026-09-24T00:28:07Z"
   }
  ],
  "metodos": {
   "wp-json": 999,
   "categoria": 0,
-  "padrao": 54,
+  "padrao": 45,
   "informadas": 0
  },
  "log": []
