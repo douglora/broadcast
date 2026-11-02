@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 02/11 17h22
+NOTÍCIAS E FATOS · 02/11 17h47
 
-Pernas: noticias ok 19 novas (18 consultas; descartadas: 393 veículo fora da lista, 20 sem ativo, 3 teto) · cvm ok 0 novos de 3 (3 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 8 novas (18 consultas; descartadas: 391 veículo fora da lista, 23 sem ativo, 0 teto) · cvm ok 0 novos de 3 (3 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (1)
 
@@ -528,8 +528,16 @@ Fonte: CNBC 29/10 22h06
 id: E05-INTC-8a46f101b3-2026-10-30 · status: entregue
 
 
-## OUTRAS NOTÍCIAS (só manchete) (133)
+## OUTRAS NOTÍCIAS (só manchete) (141)
 
+· NVDA Nvidia, Microsoft, and JPMorgan object to OKXICE tokenized stocks (Yahoo Finance) https://finance.yahoo.com/video/nvidia-microsoft-jpmorgan-object-okxice-203000548.html
+· GOOGL Alphabet: Wall Street Fixates On AI Spending, But Cloud Profits Tell Another Story (GOOGL) (Seeking Alpha) https://seekingalpha.com/article/4961098-alphabet-wall-street-fixates-on-ai-spending-but-cloud-profits-tell-another-story
+· LITE Lumentum Goes From $1 Billion Spinoff to $115 Billion Takeover (Bloomberg) https://www.bloomberg.com/news/articles/2026-11-02/lumentum-goes-from-1-billion-spinoff-to-115-billion-takeover
+· BTC Bitcoin ETFs hit by $643M selloff as Binance hack shakes crypto (CoinDesk) https://www.coindesk.com/video/bitcoin-etfs-hit-by-643m-selloff-as-binance-hack-shakes-crypto
+· BTC Bitcoin risks drop below $76K as 7% oil slide fails to spark BTC price rally (TradingView (Reuters)) https://www.tradingview.com/news/cointelegraph:c1243cebb094b:0-bitcoin-risks-drop-below-76k-as-7-oil-slide-fails-to-spark-btc-price-rally/
+· BTC Prediction: Anthropic Will Be Worth More Than Bitcoin by the End of the Year. On Polymarket, the Current Odds Are 79%. (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/prediction-anthropic-worth-more-bitcoin-182000123.html
+· AMZN Amazon: AWS, AI Chips, & Retail Expansion Spur Growth (Yahoo Finance) https://au.finance.yahoo.com/news/amazon-aws-ai-chips-retail-170700361.html
+· AMZN Amazon Stocks Jump 4.3% With Upgrade Putting AWS Cash Conversion in Focus (Yahoo Finance) https://au.finance.yahoo.com/news/amazon-stocks-jump-4-3-162414985.html
 · INTC Intel foundry push faces critical test after stock's 45% plunge in October (CNBC) https://www.cnbc.com/2026/11/02/intel-foundry-faces-critical-test-after-stocks-45percent-plunge-in-october.html
 · USDBRL Câmbio deve pressionar expectativa de inflação no Copom, diz Pinheiro (CNN Brasil) https://www.cnnbrasil.com.br/economia/money/macroeconomia/cambio-deve-pressionar-expectativa-de-inflacao-no-copom-diz-pinheiro/
 · MMM 3M: AI/Aerospace-Driven Growth Renewal - Multi-Year Monetization Tailwinds (NYSE:MMM) (Seeking Alpha) https://seekingalpha.com/article/4961081-3m-aiaerospace-driven-growth-renewal-multi-year-monetization-tailwinds
@@ -582,12 +590,4 @@ id: E05-INTC-8a46f101b3-2026-10-30 · status: entregue
 · CVX Chevron Corporation (CVX) Hit a 52 Week High, Can the Run Continue? (Yahoo Finance) https://news.google.com/rss/articles/CBMimwFBVV95cUxQd0pLd1ZvRS1jbkxFdFkwVWtJcGpyS0FpRXRoVGxlYXgtejA0SGdJeDJwazhZUk5hN2pvWm5yMzRYQ3hhcXdRd1Y4WUhfWUZ6WjZNM3RZbkU4eDFoZF9lb3ZZX3UyYzJqN0Y3ak9OMUdia1U3YVQ4MEtlcWxOV0JLS01kdURFaHNCSU1jVGV5bXB6WjhubW50aDVHZw?oc=5
 · GOOGL What's Going on with Alphabet Stock? 3 Things Investors Should Know (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/whats-going-alphabet-stock-3-170500565.html
 · AMZN Why Wall Street Is Coming Back Around on Amazon Stock (Barron's) https://www.barrons.com/articles/amazon-web-services-stock-earnings-c4f9ea8a
-· BTC Binance reopens post-hack, and Strategy buys more bitcoin (Yahoo Finance) https://sg.finance.yahoo.com/video/binance-reopens-post-hack-strategy-170000923.html
-· GOOGL Amazon Climbs 5% as Upgrade Fuels Post-Earnings Rebound on AWS Strength; Walmart Rises 2%, Alphabet Edges Higher (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/amazon-climbs-5-upgrade-fuels-165737997.html
-· BTC Strategy Makes Its Largest Bitcoin Purchase Since September, Keeps Buying Back More STRC (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:d0afbfbcd094b:0-strategy-makes-its-largest-bitcoin-purchase-since-september-keeps-buying-back-more-strc/
-· AMZN Amazon is on a course to spend half a trillion dollars in a single year: JPMorgan (Yahoo Finance) https://finance.yahoo.com/markets/stocks/article/amazon-is-on-a-course-to-spend-half-a-trillion-dollars-in-a-single-year-jpmorgan-163113505.html
-· ETH Bitmine Buys Another 8,573 ETH, Pushes Ethereum Holdings Past $13.7B (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitmine-buys-another-8-573-162300687.html
-· BTC Bitcoin giant Strategy, unfazed by Binance hack, adds over $65 million BTC to its holdings (Fortune) https://fortune.com/2026/11/02/bitcoin-giant-strategy-binance-hack-65-million-holdings/
-· BTC Strive Buys 124 Bitcoin, Moves Closer to Overtaking Metaplanet (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/strive-buys-124-bitcoin-moves-161600581.html
-· INTC Intel Gets Price Target Revamp but Keeps One Major Catalyst (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:2ce5ef5c9094b:0-intel-gets-price-target-revamp-but-keeps-one-major-catalyst/
-· (+73 manchetes; lista completa em eventos/noticias.json)
+· (+81 manchetes; lista completa em eventos/noticias.json)
