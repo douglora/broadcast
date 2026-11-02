@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 02/11 11h34
+NOTÍCIAS E FATOS · 02/11 12h58
 
-Pernas: noticias ok 17 novas (18 consultas; descartadas: 402 veículo fora da lista, 26 sem ativo, 8 teto) · cvm ok 0 novos de 3 (3 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 15 novas (18 consultas; descartadas: 379 veículo fora da lista, 21 sem ativo, 16 teto) · cvm ok 0 novos de 3 (3 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (1)
 
@@ -37,7 +37,23 @@ Fonte: SEC EDGAR 2026-10-30
 id: E04-CVX-26000196-2026-10-30 · status: entregue · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (29)
+## NOTÍCIAS COM MATERIALIDADE (30)
+
+[ATENÇÃO] E05 · MRVL · Marvell Just Bet $115 Billion On AI's 'Once In A Generation' Opportunity. Should You Buy The Stock?
+Yahoo Finance · 02/11 11h06 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Marvell (NASDAQ:MRVL) stock fell 13% on Thursday when word of a Lumentum (NASDAQ:LITE) takeover leaked, and the official terms, announced Monday, show what holders are paying.
+  – Marvell, which designs chips for data infrastructure, agreed to buy the optical-parts maker for about $115 billion in an all-stock deal, handing Lumentum's owners about a third of the combined company.
+  – What Marvell Holders Give Up Lumentum shareholders will receive 4.5 Marvell shares for each Lumentum share, or about $1,132 a share, a premium of about 23.9% to the October 28 closing prices, the last trading day before…
+  – After closing, current Marvell holders will own about 67% of the combined company on a fully diluted basis, and Lumentum holders about 33%.
+  – In the meantime, the deal is not expected to close until the first half of 2028, and it needs approval from both companies' shareholders and from regulators.
+  – In 2009, a "Double Down" signal flashed for a little-known chipmaker called Nvidia.
+Link: https://finance.yahoo.com/technology/ai/articles/marvell-just-bet-115-billion-140652012.html
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: MRVL
+Como falar: 'saiu no Yahoo Finance: Marvell Just Bet $115 Billion On AI's 'Once In A Generation' Opportunity. Should You Buy…; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 02/11 11h06
+id: E05-MRVL-57ca5bfdfd-2026-11-02 · status: pendente
 
 [ATENÇÃO] E05 · AMD · AMD's guidance in focus during Q3 results (AMD:NASDAQ)
 Seeking Alpha · 02/11 11h32 · fonte única · licença: manchete
@@ -46,7 +62,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: AMD
 Como falar: 'saiu no Seeking Alpha: AMD's guidance in focus during Q3 results (AMD:NASDAQ); confirmar o número no texto antes de repassar'
 Fonte: Seeking Alpha 02/11 11h32
-id: E05-AMD-dc8badbef8-2026-11-02 · status: pendente
+id: E05-AMD-dc8badbef8-2026-11-02 · status: entregue
 
 [ATENÇÃO] E05 · NVDA · XMax signs Nvidia GPU deal, sees $100M+ revenue
 TradingView (Reuters) · 02/11 10h20 · fonte única · licença: manchete
@@ -55,7 +71,7 @@ Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; 
 Ativos: NVDA
 Como falar: 'saiu no TradingView (Reuters): XMax signs Nvidia GPU deal, sees $100M+ revenue; confirmar o número no texto antes de repassar'
 Fonte: TradingView (Reuters) 02/11 10h20
-id: E05-NVDA-db7a490ef5-2026-11-02 · status: pendente
+id: E05-NVDA-db7a490ef5-2026-11-02 · status: entregue
 
 [ATENÇÃO] E05 · MRVL · Marvell to buy Lumentum in $115 billion deal in AI data-center bet
 CNBC · 02/11 09h11 · + Bloomberg, TradingView (Reuters) · licença: resumo
@@ -385,8 +401,22 @@ Fonte: CNBC 29/10 22h06
 id: E05-INTC-8a46f101b3-2026-10-30 · status: entregue
 
 
-## OUTRAS NOTÍCIAS (só manchete) (54)
+## OUTRAS NOTÍCIAS (só manchete) (68)
 
+· MRVL COHR Stock Draws Upgrade As Marvell’s $115B Lumentum Deal Highlights ‘Value Of Scarce AI Optics’ (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:9f9c1a148094b:0-cohr-stock-draws-upgrade-as-marvell-s-115b-lumentum-deal-highlights-value-of-scarce-ai-optics/
+· BTC Mercado Bitcoin Says It Will Absorb $40 Million Loss From Hack (Bloomberg) https://www.bloomberg.com/news/articles/2026-11-02/mercado-bitcoin-says-it-will-absorb-40-million-loss-from-hack
+· AMZN JPMorgan has some explosive capex estimates for Amazon — and investors are uncomfortable (Yahoo Finance) https://finance.yahoo.com/video/jpmorgan-has-some-explosive-capex-estimates-for-amazon--and-investors-are-uncomfortable-150514815.html
+· DI PESQUISA-BC deve manter Selic em 13,75% em uma pausa após a reeleição de Lula (UOL Economia) https://noticias.uol.com.br/ultimas-noticias/reuters/2026/11/02/pesquisa-bc-deve-manter-selic-em-1375-em-uma-pausa-apos-a-reeleicao-de-lula.htm
+· MRVL Marvell CEO Matt Murphy on Lumentum deal: We're creating the 'category leader in AI connectivity' (CNBC) https://www.cnbc.com/video/2026/11/02/marvell-ceo-matt-murphy-on-lumentum-deal-were-creating-the-category-leader-in-ai-connectivity.html
+· MRVL Watch CNBC's full interview with Marvell CEO Matt Murphy and Lumentum CEO Michael Hurlston (CNBC) https://www.cnbc.com/video/2026/11/02/watch-cnbcs-full-interview-with-marvell-ceo-matt-murphy-and-lumentum-ceo-michael-hurlston.html
+· MINERIO Iron ore prices stabilise on slower-than-expected China demand fall (Mining.com) https://www.mining.com/web/iron-ore-prices-stabilise-on-slower-than-expected-china-demand-fall/
+· UST US 10-Year Treasury Yield Lowest in 8 Weeks (TradingView (Reuters)) https://www.tradingview.com/news/te_news:597332:0-us-10-year-treasury-yield-lowest-in-8-weeks/
+· GOOGL Alphabet Is Paying Up for Euro Bonds in Test of AI Appetite (Bloomberg) https://www.bloomberg.com/news/articles/2026-11-02/alphabet-kicks-off-sale-of-its-second-euro-bond-this-year
+· INTC INTC Q3 Earnings Call Highlights AI Demand and PC Weakness (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/intc-q3-earnings-call-highlights-140000192.html
+· BTC Strategy spends triple its weekly Bitcoin outlay on STRC buybacks (TradingView (Reuters)) https://www.tradingview.com/news/cointelegraph:cd935c167094b:0-strategy-spends-triple-its-weekly-bitcoin-outlay-on-strc-buybacks/
+· BTC MicroStrategy and Strive Buy More Bitcoin, but Shareholders Could Feel the Pain (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/microstrategy-strive-buy-more-bitcoin-134609040.html
+· BTC Bitcoin Midterm Election Pattern: Will BTC Repeat Its Post-Election Rally? (TradingView (Reuters)) https://www.tradingview.com/news/cryptonews:6d6a372f2094b:0-bitcoin-midterm-election-pattern-will-btc-repeat-its-post-election-rally/
+· BTC Binance founder warns users of scams as Bitcoin steadies after record hack (TradingView (Reuters)) https://news.google.com/rss/articles/CBMi1gFBVV95cUxNTVlmWnVSUlJNVV9KWVF3d1Y1SmpGcG11RDdUVG50TjZGTzUwNzRlcm5xanJuQ0d1NTBtWjh0dkFEQTNjMWIxaXJFYzNoVlBKSHNYNWJzWGgtTnlPRjBGMWVYYkJMM3JFOUFEb3E1ZnJ1VWU0cVE5c3NCMkRFTzFrM09OTmJILU4tZ0RxeE5LblNwbXEzMG8xbHFNbmctbGdfRjVoMkZZdGh2WE81dElBek1kNm9xWFMxdVoySEJWMzRIZlJRUjA3UEpMT3FQVXl1ZVZiZzN3?oc=5
 · BTC Strategy Resumes Bitcoin Buying, Adding 811 Tokens To Its Holdings (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/strategy-resumes-bitcoin-buying-adding-135900043.html
 · AVGO Broadcom: Riding The XPU Wave (NASDAQ:AVGO) (Seeking Alpha) https://seekingalpha.com/article/4960952-broadcom-riding-the-xpu-wave
 · MRVL Marvell Slides 3%, Lumentum Drops 6% on $115 Billion All-Stock Merger Deal; Coherent Climbs 2% (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/marvell-slides-3-lumentum-drops-135326041.html
@@ -433,11 +463,4 @@ id: E05-INTC-8a46f101b3-2026-10-30 · status: entregue
 · PLTR The Zacks Analyst Blog Highlights Palantir, Microsoft and Oracle (Yahoo Finance) https://news.google.com/rss/articles/CBMipgFBVV95cUxOVjlLVTd3NWZ0amJTUU5UdXhyT0hGMDV1eGFsT3pITDdYR3U2MVRFaE1PRFNSdW9GbVExd0lpbUM4Ny1oUnRsUi1FclJUREJRLTRESTMwWXVYanp6QW9iSklhUU1pVFJkR3BEcnE0QkM3N2N6T1VJZTY0RVg4eE1wNHlEa0dVVGVCUnJHUUtrMC12S1pfWkJtUFktSUNVZEE3NENoZ19R?oc=5
 · MINERIO Iron ore stabilises on slower-than-expected China demand fall (TradingView (Reuters)) https://news.google.com/rss/articles/CBMiywFBVV95cUxNRktWRlJCRWlsTDJaZFJORDVtbzNYbjJQb3lGLTlKTng3QlAzUV9RRFZUR3E2S2M2ZUZRZk5CbzZtSDRqYV9TR1A2eXdCQkIzVXVsSFktcmREUE5hc3gwRldWSWd4RktvYTRtaFJfdXBhV0pYT1FJY1BraHNjZXU4bFBzRFRKWWNEWnFFaXJKS0ZDNW1pM0xKa2JKelNrNWtjeEhuYmVRNUdpc3N1aTVEWllBMU1wZ3RvcDNLZWpEU2V4YnpDcHUzUDhIbw?oc=5
 · INTC Is Intel Stock a Buy After Its Post-Earnings Plunge? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/intel-stock-buy-post-earnings-233402630.html
-· BBAS3 Banco do Brasil tenta recuperar bilhões no agro, mas plano decepciona e ameaça reação dos lucros (Estadao) https://www.estadao.com.br/einvestidor/onde-investir/banco-do-brasil-tenta-recuperar-bilhoes-no-agro-mas-plano-decepciona-e-ameaca-reacao-dos-lucros/
-· BTC How Much Bitcoin Would You Need to Be a Millionaire if It Gets Back to Its Record High? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/much-bitcoin-millionaire-gets-back-224940394.html
-· BTC Why Bitcoin’s Next All-Time High Looks Distant After the Binance Hack (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/why-bitcoin-next-time-high-224254184.html
-· BTC Bitcoin’s Q4 Selloff Could End Quickly, Analyst Says: ‘This Is the Bottoming Window’ (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:4f8deab3e094b:0-bitcoin-s-q4-selloff-could-end-quickly-analyst-says-this-is-the-bottoming-window/
-· DI Taxas de juros sobem com maior risco fiscal e cenário de manutenção da Selic (UOL Economia) https://economia.uol.com.br/noticias/estadao-conteudo/2026/10/30/taxas-de-juros-sobem-com-maior-risco-fiscal-e-cenario-de-manutencao-da-selic.htm
-· MU Why Micron Stock Dove Today (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/why-micron-stock-dove-today-155648098.html
-· AXIA3 Axia (ex-Eletrobras) tem decisão favorável em disputa de quase R$ 5 bilhões no STJ (O Globo) https://oglobo.globo.com/blogs/capital/post/2026/10/axia-ex-eletrobras-tem-decisao-favoravel-em-disputa-de-quase-r-5-bilhoes-no-stj.ghtml
-· CVX Exxon, Chevron earnings propelled by war-driven refining surge (TradingView (Reuters)) https://www.tradingview.com/news/reuters.com,2026:newsml_L6N46E1FQ:0-exxon-chevron-earnings-propelled-by-war-driven-refining-surge/
+· (+8 manchetes; lista completa em eventos/noticias.json)

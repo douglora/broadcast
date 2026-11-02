@@ -1,40 +1,37 @@
 ALERTAS · intradia
 
-[ATENÇÃO] E05 · AMD · AMD's guidance in focus during Q3 results (AMD:NASDAQ)
-Seeking Alpha · 02/11 11h32 · fonte única · licença: manchete
-Link: https://seekingalpha.com/news/4662271-amds-guidance-in-focus-during-q3-results
+[ATENÇÃO] E05 · MRVL · Marvell Just Bet $115 Billion On AI's 'Once In A Generation' Opportunity. Should You Buy The Stock?
+Yahoo Finance · 02/11 11h06 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Marvell (NASDAQ:MRVL) stock fell 13% on Thursday when word of a Lumentum (NASDAQ:LITE) takeover leaked, and the official terms, announced Monday, show what holders are paying.
+  – Marvell, which designs chips for data infrastructure, agreed to buy the optical-parts maker for about $115 billion in an all-stock deal, handing Lumentum's owners about a third of the combined company.
+  – What Marvell Holders Give Up Lumentum shareholders will receive 4.5 Marvell shares for each Lumentum share, or about $1,132 a share, a premium of about 23.9% to the October 28 closing prices, the last trading day before…
+  – After closing, current Marvell holders will own about 67% of the combined company on a fully diluted basis, and Lumentum holders about 33%.
+  – In the meantime, the deal is not expected to close until the first half of 2028, and it needs approval from both companies' shareholders and from regulators.
+  – In 2009, a "Double Down" signal flashed for a little-known chipmaker called Nvidia.
+Link: https://finance.yahoo.com/technology/ai/articles/marvell-just-bet-115-billion-140652012.html
 Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
-Ativos: AMD
-Como falar: 'saiu no Seeking Alpha: AMD's guidance in focus during Q3 results (AMD:NASDAQ); confirmar o número no texto antes de repassar'
-Fonte: Seeking Alpha 02/11 11h32
-Push: intradia: 2 alertas de atenção — E05 AMD, E05 NVDA · detalhe na sessão
-ids: E05-AMD-dc8badbef8-2026-11-02
-
-[ATENÇÃO] E05 · NVDA · XMax signs Nvidia GPU deal, sees $100M+ revenue
-TradingView (Reuters) · 02/11 10h20 · fonte única · licença: manchete
-Link: https://www.tradingview.com/news/seekingalpha:4f9c10c46094b:0-xmax-signs-nvidia-gpu-deal-sees-100m-revenue/
-Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
-Ativos: NVDA
-Como falar: 'saiu no TradingView (Reuters): XMax signs Nvidia GPU deal, sees $100M+ revenue; confirmar o número no texto antes de repassar'
-Fonte: TradingView (Reuters) 02/11 10h20
-ids: E05-NVDA-db7a490ef5-2026-11-02
+Ativos: MRVL
+Como falar: 'saiu no Yahoo Finance: Marvell Just Bet $115 Billion On AI's 'Once In A Generation' Opportunity. Should You Buy…; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 02/11 11h06
+Push: [ATENÇÃO] MRVL · Marvell Just Bet $115 Billion On AI's 'Once In A Gene · detalhe na sessão
+ids: E05-MRVL-57ca5bfdfd-2026-11-02
 
 Info (só linha no Fechamento):
-· E05 BTC · Strategy Resumes Bitcoin Buying, Adding 811 Tokens To Its Holdings
-· E05 AVGO · Broadcom: Riding The XPU Wave (NASDAQ:AVGO)
-· E05 MRVL · Marvell Slides 3%, Lumentum Drops 6% on $115 Billion All-Stock Merger Deal; Coherent Climbs 2%
-· E05 COHR · Coherent: A Great Opportunity To Accumulate At Last Year’s Prices (Q1 Preview) (COHR)
-· E05 MRVL · Chip Maker Marvell Agrees to Buy Lumentum in $80 Billion Deal
-· E05 NVDA · Nvidia’s Fiscal 2028 Revenue Estimate Is Up 25% Since June. Here’s What November 17 Has to Prove
-· E05 UST · Treasury Polled Its Dealers on Auction Sizes and Bigger Long-End Buybacks Ahead of Wednesday's Refunding
-· E05 GOOGL · Alphabet At The Crossroads: Q3 FY26 Earnings Review (NASDAQ:GOOG) (NASDAQ:GOOGL)
-· E05 BTC · Crypto Hack Losses Hit $8.74 in 2026, More Than Triple 2025, Yet Without Binance the Year Ran Quieter: How Did Bitcoin and Ethereum React After Major…
-· E05 NVDA · Nvidia Stock Rebounding but Its Stock Chart Is Really Ugly
-· E05 BTC · 'We found room for even more orange': Michael Saylor's Strategy scoops up another 811 bitcoin for $65.5 million
-· E05 AMD · AMD Threatens False Breakout Ahead of Earnings
-· E05 INTC · Intel Logs Worst Daily Drop Since 1970s: Buy the Dip With ETFs?
-· E05 CVX · CVX Q3 Earnings Call Highlights Venezuela Growth and Refining Gains
-· E05 LITE · Lumentum Holdings Inc earnings beat by $0.36, revenue topped estimates
+· E05 MRVL · COHR Stock Draws Upgrade As Marvell’s $115B Lumentum Deal Highlights ‘Value Of Scarce AI Optics’
+· E05 BTC · Mercado Bitcoin Says It Will Absorb $40 Million Loss From Hack
+· E05 AMZN · JPMorgan has some explosive capex estimates for Amazon — and investors are uncomfortable
+· E05 DI · PESQUISA-BC deve manter Selic em 13,75% em uma pausa após a reeleição de Lula
+· E05 MRVL · Marvell CEO Matt Murphy on Lumentum deal: We're creating the 'category leader in AI connectivity'
+· E05 MRVL · Watch CNBC's full interview with Marvell CEO Matt Murphy and Lumentum CEO Michael Hurlston
+· E05 MINERIO · Iron ore prices stabilise on slower-than-expected China demand fall
+· E05 UST · US 10-Year Treasury Yield Lowest in 8 Weeks
+· E05 GOOGL · Alphabet Is Paying Up for Euro Bonds in Test of AI Appetite
+· E05 INTC · INTC Q3 Earnings Call Highlights AI Demand and PC Weakness
+· E05 BTC · Strategy spends triple its weekly Bitcoin outlay on STRC buybacks
+· E05 BTC · MicroStrategy and Strive Buy More Bitcoin, but Shareholders Could Feel the Pain
+· E05 BTC · Bitcoin Midterm Election Pattern: Will BTC Repeat Its Post-Election Rally?
+· E05 BTC · Binance founder warns users of scams as Bitcoin steadies after record hack
 · T08 XLK entrou em correção: -11% do pico de 52s (US$ 202,00 em 06/10) a US$ 179,51
 · T08 QTUM entrou em bear técnico: -21% do pico de 52s (US$ 168,76 em 02/06) a US$ 133,83
 · T08 INTC entrou em queda de -40% do pico: -53% do pico de 52s (US$ 140,94 em 22/06) a US$ 65,76
@@ -74,8 +71,9 @@ Alertas do dia (todos, com status):
 · linha     T08 LITE — LITE entrou em bear técnico: -26% do pico de 52s (US$ 1.133 em 06/10) a US$ 840,
 · linha     T08 UGPA3 — UGPA3 entrou em bear técnico: -21% do pico de 52s (R$ 40,03 em 21/10) a R$ 31,76
 · linha     T06 INTC — INTC -24% em 5 sessões a US$ 65,76: movimento de 3,7 desvios para a vol de 20 di
-· pendente  E05 AMD — AMD · AMD's guidance in focus during Q3 results (AMD:NASDAQ)
-· pendente  E05 NVDA — NVDA · XMax signs Nvidia GPU deal, sees $100M+ revenue
+· pendente  E05 MRVL — MRVL · Marvell Just Bet $115 Billion On AI's 'Once In A Generation' Opportunity.
+· entregue  E05 AMD — AMD · AMD's guidance in focus during Q3 results (AMD:NASDAQ)
+· entregue  E05 NVDA — NVDA · XMax signs Nvidia GPU deal, sees $100M+ revenue
 · entregue  E05 MRVL — MRVL · Marvell to buy Lumentum in $115 billion deal in AI data-center bet
 · entregue  E05 INTC — INTC · Intel's Quant Rating plunges to 3.26 as weak Q4 outlook weighs on sentime
 · entregue  E05 META — META · S&P cuts Meta outlook to negative over elevated capex and cash flow risks
@@ -132,7 +130,7 @@ Alertas do dia (todos, com status):
 · entregue  E05 CVX — CVX · Earnings Snapshot: Chevron beats Q3 EPS and revenue estimates; declares $1
 · entregue  E05 INTC — INTC · Intel Shares Plunge 25% as Weak Fourth-Quarter Outlook Overshadows Strong
 · entregue  E05 INTC — INTC · Intel plunges on a major guidance miss. What went wrong — and how to proc
-· linha     F03 BRENT — Brent cai a US$ 106,86 (-5,8% no dia · cruzou US$ 110) (parcial, intradia)
+· linha     F03 BRENT — Brent cai a US$ 106,05 (-6,5% no dia · cruzou US$ 110) (parcial, intradia)
 · linha     C03 DI — DI em nível: F32 na máxima de 252 pregões: 15,32% · F35 na máxima de 252 pregões
 · linha     T02 RBOT — RBOT (iShares Automation & Robotics UCITS ETF USD (Acc)) perdeu a MM50 pela 2ª s
 · linha     T02 IUAA — IUAA (iShares US Aggregate Bond UCITS ETF USD (Acc)) retomou a MM50 pela 2ª sess
@@ -145,5 +143,5 @@ Alertas do dia (todos, com status):
 · linha     T09 AMZN — AMZN -1,4% com volume 3,0x a mediana de 20 sessões, a US$ 240,35
 · linha     T10 WUTI — WUTI (State Street SPDR MSCI World Utilities UCITS ETF (USD)) no máximo de força
 · linha     F01 USDBRL — Real cai: USD/BRL 5,4425 (+9,1% em 5 sessões · 8 dias seguidos de movimento domé
-· (+59 notícias só manchete, em noticias.md)
+· (+73 notícias só manchete, em noticias.md)
 
