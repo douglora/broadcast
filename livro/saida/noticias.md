@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 02/11 14h54
+NOTÍCIAS E FATOS · 02/11 15h22
 
-Pernas: noticias ok 16 novas (18 consultas; descartadas: 404 veículo fora da lista, 28 sem ativo, 8 teto) · cvm ok 0 novos de 3 (3 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 8 novas (18 consultas; descartadas: 396 veículo fora da lista, 20 sem ativo, 0 teto) · cvm ok 0 novos de 3 (3 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (1)
 
@@ -37,7 +37,25 @@ Fonte: SEC EDGAR 2026-10-30
 id: E04-CVX-26000196-2026-10-30 · status: entregue · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (34)
+## NOTÍCIAS COM MATERIALIDADE (36)
+
+[ATENÇÃO] E05 · MRVL · Marvell to Acquire Lumentum in Historic $115 Billion Tech Deal
+Bloomberg · 02/11 14h01 · fonte única · licença: manchete
+Link: https://www.bloomberg.com/news/articles/2026-11-02/marvell-reaches-115-billion-deal-for-lumentum-holdings
+Por que importa: aquisicao ou venda muda alavancagem, mix de receita e o multiplo; olhar preco pago e financiamento
+Ativos: MRVL · LITE
+Como falar: 'saiu no Bloomberg: Marvell to Acquire Lumentum in Historic $115 Billion Tech Deal; confirmar o número no texto antes de repassar'
+Fonte: Bloomberg 02/11 14h01
+id: E05-MRVL-338cfdb497-2026-11-02 · status: pendente
+
+[ATENÇÃO] E05 · CVX · Chevron's Q3 Results Support Higher Free Cash Flow Outlook, Morgan Stanley Says
+Yahoo Finance · 02/11 13h25 · fonte única · licença: resumo
+Link: https://finance.yahoo.com/markets/stocks/articles/chevron-apos-q3-results-support-162504867.html
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: CVX
+Como falar: 'saiu no Yahoo Finance: Chevron's Q3 Results Support Higher Free Cash Flow Outlook, Morgan Stanley Says; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 02/11 13h25
+id: E05-CVX-a95f1f0c0b-2026-11-02 · status: pendente
 
 [ATENÇÃO] E05 · AMZN · Lawsuit Claims Amazon Ignored Trucking Safety Warning Signs
 GlobeNewswire · 02/11 11h27 · fonte única · licença: integral
@@ -46,7 +64,7 @@ Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e 
 Ativos: AMZN
 Como falar: 'saiu no GlobeNewswire: Lawsuit Claims Amazon Ignored Trucking Safety Warning Signs; confirmar o número no texto antes de repassar'
 Fonte: GlobeNewswire 02/11 11h27
-id: E05-AMZN-605c9799ff-2026-11-02 · status: pendente
+id: E05-AMZN-605c9799ff-2026-11-02 · status: entregue
 
 [ATENÇÃO] E05 · CVX · Chevron's Q3 Results Support Higher Free Cash Flow Outlook, Morgan Stanley Says
 Yahoo Finance · 02/11 13h25 · fonte única · licença: resumo
@@ -437,8 +455,14 @@ Fonte: CNBC 29/10 22h06
 id: E05-INTC-8a46f101b3-2026-10-30 · status: entregue
 
 
-## OUTRAS NOTÍCIAS (só manchete) (98)
+## OUTRAS NOTÍCIAS (só manchete) (104)
 
+· BTC Bitcoin ETF outflows hit $643M, led by BlackRock and Fidelity (Yahoo Finance) https://finance.yahoo.com/video/bitcoin-etf-outflows-hit-643m-180000253.html
+· NVDA AMD Slides 3% Ahead of Earnings as PC Worries Linger; Intel Drops 5%, NVIDIA Edges Higher (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/amd-slides-3-ahead-earnings-174921972.html
+· ETH BMNR Buys Nearly $20M Worth Of ETH: Tom Lee Calls Market’s Binance Hack Reaction ‘Very Constructive’ (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:a95d402bc094b:0-bmnr-buys-nearly-20m-worth-of-eth-tom-lee-calls-market-s-binance-hack-reaction-very-constructive/
+· MRVL Midday Need to Know: Marvell - Lumentum deal, oil price falls & more (TradingView (Reuters)) https://www.tradingview.com/news/seekingalpha:1efcbc566094b:0-midday-need-to-know-marvell-lumentum-deal-oil-price-falls-more/
+· UST US Treasury auction changes loom in 2027; dealers eye long-end cuts (Reuters) https://www.reuters.com/business/finance/us-treasury-auction-changes-loom-2027-dealers-eye-long-end-cuts-2026-11-02/
+· BTC Bitcoin pinned at $78k after October losses; Binance resumes withdrawals (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-steadies-78k-october-losses-071526374.html
 · GOOGL Meta and Alphabet Face Serious Market Pressure Over Capex in Q4 (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/meta-alphabet-face-serious-market-174514276.html
 · BRENT Treasury Yields Extend Past Month’s Slide as Oil Prices Tumble (Bloomberg) https://www.bloomberg.com/news/articles/2026-11-02/treasury-yields-extend-past-month-s-slide-as-oil-prices-tumble
 · GOOGL Alphabet Lost a Record $500 Billion in a Day. Is This the Buying Opportunity? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/alphabet-lost-record-500-billion-173351852.html
@@ -493,10 +517,4 @@ id: E05-INTC-8a46f101b3-2026-10-30 · status: entregue
 · GOOGL Alphabet At The Crossroads: Q3 FY26 Earnings Review (NASDAQ:GOOG) (NASDAQ:GOOGL) (Seeking Alpha) https://seekingalpha.com/article/4960940-alphabet-at-crossroads-q3-fy26-earnings-review
 · BTC Crypto Hack Losses Hit $8.74 in 2026, More Than Triple 2025, Yet Without Binance the Year Ran Quieter: How Did Bitcoin and Ethereum React After Major… (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/crypto-hack-losses-hit-8-131017031.html
 · NVDA Nvidia Stock Rebounding but Its Stock Chart Is Really Ugly (Barron's) https://www.barrons.com/articles/nvidia-stock-rebound-chart-technical-572ccaac
-· BTC 'We found room for even more orange': Michael Saylor's Strategy scoops up another 811 bitcoin for $65.5 million (The Block) https://www.theblock.co/news/business/2026-11-02-we-found-room-for-even-more-orange-michael-saylor-strategy-bitcoin-btc-432275
-· AMD AMD Threatens False Breakout Ahead of Earnings (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/amd-threatens-false-breakout-ahead-130400928.html
-· INTC Intel Logs Worst Daily Drop Since 1970s: Buy the Dip With ETFs? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/intel-logs-worst-daily-drop-130000569.html
-· CVX CVX Q3 Earnings Call Highlights Venezuela Growth and Refining Gains (Yahoo Finance) https://news.google.com/rss/articles/CBMikgFBVV95cUxNbEktUENOWTFULUZtWEtjWUJpUzh0R080UTZ3UEJYTHFhNjRTX0NKd1B6VTFobmg4ZFpoelBGX0pyR3JuTExtWVNxbHdHaldEdHJkZXZZRzlHWHhmWHlLQy1UbmZtMVNQbk1FNUx1cVFjd2hTX3BnU011ak5UalpZT1V4My16VERDZVJxNGVaaXRoQQ?oc=5
-· LITE Lumentum Holdings Inc earnings beat by $0.36, revenue topped estimates (Investing.com) https://news.google.com/rss/articles/CBMitAFBVV95cUxPYUdFZ0FQdk9yWjVJV3ZFWFB4eEZzcEpNNXJQcmtqb2Ezcy1ZRC1LU0ktbVdxRndsQlJkRXB5bEFmQ0ViNHRmZTVQQVZLM2k3UWJ2Zkl1SlhSb2gzSHFIMHdTX181REU3dF90ZlhLcGpXYXlzQVZSeVFnOXBrUXpjUXF0V1V3VkVISTJ1VnFCZFBMS3N0ai1QME9NVzhxWWxPcVFVbnZxeU9IYVI1dDFyZ0YxYXg?oc=5
-· CVX 5 revealing analyst questions from Chevron’s Q3 earnings call (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/5-revealing-analyst-questions-chevron-130136794.html
-· (+38 manchetes; lista completa em eventos/noticias.json)
+· (+44 manchetes; lista completa em eventos/noticias.json)

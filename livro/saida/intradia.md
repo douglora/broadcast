@@ -1,31 +1,31 @@
 ALERTAS · intradia
 
-[ATENÇÃO] E05 · AMZN · Lawsuit Claims Amazon Ignored Trucking Safety Warning Signs
-GlobeNewswire · 02/11 11h27 · fonte única · licença: integral
-Link: https://www.globenewswire.com/news-release/2026/11/02/3393286/0/en/lawsuit-claims-amazon-ignored-trucking-safety-warning-signs-before-fatal-crash-that-killed-u-s-air-force-airman-and-seriously-injured-his-wife.html
-Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e prazo
-Ativos: AMZN
-Como falar: 'saiu no GlobeNewswire: Lawsuit Claims Amazon Ignored Trucking Safety Warning Signs; confirmar o número no texto antes de repassar'
-Fonte: GlobeNewswire 02/11 11h27
-Push: [ATENÇÃO] AMZN · Lawsuit Claims Amazon Ignored Trucking Safety Warning · detalhe na sessão
-ids: E05-AMZN-605c9799ff-2026-11-02
+[ATENÇÃO] E05 · MRVL · Marvell to Acquire Lumentum in Historic $115 Billion Tech Deal
+Bloomberg · 02/11 14h01 · fonte única · licença: manchete
+Link: https://www.bloomberg.com/news/articles/2026-11-02/marvell-reaches-115-billion-deal-for-lumentum-holdings
+Por que importa: aquisicao ou venda muda alavancagem, mix de receita e o multiplo; olhar preco pago e financiamento
+Ativos: MRVL · LITE
+Como falar: 'saiu no Bloomberg: Marvell to Acquire Lumentum in Historic $115 Billion Tech Deal; confirmar o número no texto antes de repassar'
+Fonte: Bloomberg 02/11 14h01
+Push: intradia: 2 alertas de atenção — E05 MRVL, E05 CVX · detalhe na sessão
+ids: E05-MRVL-338cfdb497-2026-11-02
+
+[ATENÇÃO] E05 · CVX · Chevron's Q3 Results Support Higher Free Cash Flow Outlook, Morgan Stanley Says
+Yahoo Finance · 02/11 13h25 · fonte única · licença: resumo
+Link: https://finance.yahoo.com/markets/stocks/articles/chevron-apos-q3-results-support-162504867.html
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: CVX
+Como falar: 'saiu no Yahoo Finance: Chevron's Q3 Results Support Higher Free Cash Flow Outlook, Morgan Stanley Says; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 02/11 13h25
+ids: E05-CVX-a95f1f0c0b-2026-11-02
 
 Info (só linha no Fechamento):
-· E05 GOOGL · Meta and Alphabet Face Serious Market Pressure Over Capex in Q4
-· E05 BRENT · Treasury Yields Extend Past Month’s Slide as Oil Prices Tumble
-· E05 GOOGL · Alphabet Lost a Record $500 Billion in a Day. Is This the Buying Opportunity?
-· E05 NVDA · Polymarket Traders Missed Nvidia’s October Drop. Here’s What They Predict for November.
-· E05 MRVL · Lumentum to Join Marvell in AI Optical Connectivity Push
-· E05 BTC · Binance reopens post-hack, and Strategy buys more bitcoin
+· E05 BTC · Bitcoin ETF outflows hit $643M, led by BlackRock and Fidelity
+· E05 NVDA · AMD Slides 3% Ahead of Earnings as PC Worries Linger; Intel Drops 5%, NVIDIA Edges Higher
+· E05 ETH · BMNR Buys Nearly $20M Worth Of ETH: Tom Lee Calls Market’s Binance Hack Reaction ‘Very Constructive’
+· E05 MRVL · Midday Need to Know: Marvell - Lumentum deal, oil price falls & more
 · E05 UST · US Treasury auction changes loom in 2027; dealers eye long-end cuts
-· E05 ETH · Bitmine Buys More Ethereum as Tom Lee Calls the Binance Hack Bullish
-· E05 INTC · Intel Gets Price Target Revamp but Keeps One Major Catalyst
-· E05 AMD · Buy, Sell or Hold AMD Stock? Key Tips Ahead of Q3 Earnings
-· E05 BTC · Brazil’s Mercado Bitcoin halts withdrawals after $40 million drained across 10 chains
-· E05 AMD · AMD Just Dropped 16% in a Month. Is It Time to Sell, or Load Up?
-· E05 MRVL · Marvell Could Be Making a $115 Billion Mistake With Lumentum Purchase
-· E05 GOOGL · Google Shareholder Alert: Alphabet Inc. Securities Class
-· E05 CVX · Chevron Corporation (CVX) Hit a 52 Week High, Can the Run Continue?
+· E05 BTC · Bitcoin pinned at $78k after October losses; Binance resumes withdrawals
 · T08 XLK entrou em correção: -11% do pico de 52s (US$ 202,00 em 06/10) a US$ 179,51
 · T08 QTUM entrou em bear técnico: -21% do pico de 52s (US$ 168,76 em 02/06) a US$ 133,83
 · T08 INTC entrou em queda de -40% do pico: -53% do pico de 52s (US$ 140,94 em 22/06) a US$ 65,76
@@ -65,7 +65,9 @@ Alertas do dia (todos, com status):
 · linha     T08 LITE — LITE entrou em bear técnico: -26% do pico de 52s (US$ 1.133 em 06/10) a US$ 840,
 · linha     T08 UGPA3 — UGPA3 entrou em bear técnico: -21% do pico de 52s (R$ 40,03 em 21/10) a R$ 31,76
 · linha     T06 INTC — INTC -24% em 5 sessões a US$ 65,76: movimento de 3,7 desvios para a vol de 20 di
-· pendente  E05 AMZN — AMZN · Lawsuit Claims Amazon Ignored Trucking Safety Warning Signs
+· pendente  E05 MRVL — MRVL · Marvell to Acquire Lumentum in Historic $115 Billion Tech Deal
+· pendente  E05 CVX — CVX · Chevron's Q3 Results Support Higher Free Cash Flow Outlook, Morgan Stanley
+· entregue  E05 AMZN — AMZN · Lawsuit Claims Amazon Ignored Trucking Safety Warning Signs
 · entregue  E05 CVX — CVX · Chevron's Q3 Results Support Higher Free Cash Flow Outlook, Morgan Stanley
 · entregue  E05 MRVL — MRVL · Marvell to Acquire Lumentum in $115 Billion All-Stock Deal
 · entregue  E05 BAC — BAC · Weekly Recap: Debt offering for buyback and Bank of America upgrade
@@ -128,7 +130,7 @@ Alertas do dia (todos, com status):
 · entregue  E05 CVX — CVX · Earnings Snapshot: Chevron beats Q3 EPS and revenue estimates; declares $1
 · entregue  E05 INTC — INTC · Intel Shares Plunge 25% as Weak Fourth-Quarter Outlook Overshadows Strong
 · entregue  E05 INTC — INTC · Intel plunges on a major guidance miss. What went wrong — and how to proc
-· linha     F03 BRENT — Brent cai a US$ 104,86 (-7,6% no dia · cruzou US$ 110) (parcial, intradia)
+· linha     F03 BRENT — Brent cai a US$ 103,57 (-8,7% no dia · cruzou US$ 110) (parcial, intradia)
 · linha     C03 DI — DI em nível: F32 na máxima de 252 pregões: 15,32% · F35 na máxima de 252 pregões
 · linha     T02 RBOT — RBOT (iShares Automation & Robotics UCITS ETF USD (Acc)) perdeu a MM50 pela 2ª s
 · linha     T02 IUAA — IUAA (iShares US Aggregate Bond UCITS ETF USD (Acc)) retomou a MM50 pela 2ª sess
@@ -141,5 +143,5 @@ Alertas do dia (todos, com status):
 · linha     T09 AMZN — AMZN -1,4% com volume 3,0x a mediana de 20 sessões, a US$ 240,35
 · linha     T10 WUTI — WUTI (State Street SPDR MSCI World Utilities UCITS ETF (USD)) no máximo de força
 · linha     F01 USDBRL — Real cai: USD/BRL 5,4425 (+9,1% em 5 sessões · 8 dias seguidos de movimento domé
-· (+103 notícias só manchete, em noticias.md)
+· (+109 notícias só manchete, em noticias.md)
 
