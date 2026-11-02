@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 02/11 16h22
+NOTÍCIAS E FATOS · 02/11 17h22
 
-Pernas: noticias ok 15 novas (18 consultas; descartadas: 395 veículo fora da lista, 23 sem ativo, 7 teto) · cvm ok 0 novos de 3 (3 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 19 novas (18 consultas; descartadas: 393 veículo fora da lista, 20 sem ativo, 3 teto) · cvm ok 0 novos de 3 (3 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (1)
 
@@ -37,7 +37,64 @@ Fonte: SEC EDGAR 2026-10-30
 id: E04-CVX-26000196-2026-10-30 · status: entregue · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (37)
+## NOTÍCIAS COM MATERIALIDADE (41)
+
+[ATENÇÃO] E05 · KO · Coca-Cola Is the Most Boring Stock I Own. After 64 Years of Dividend Raises, I'll Never Sell.
+Yahoo Finance · 02/11 17h05 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Yet Coca-Cola still accounts for nearly 5% of my portfolio; it's my fourth-largest holding, and I don't plan to sell it for three simple reasons.
+  – It's a Dividend King If a company raises its dividend annually for 50 consecutive years, it becomes a Dividend King.
+  – Coca-Cola, with 64 consecutive years of dividend hikes, belongs to that exclusive club.
+  – In 2009, a "Double Down" signal flashed for a little-known chipmaker called Nvidia.
+  – For the first time in years, that same "Total Conviction" signal is flashing for a company 1/100th the size of Nvidia.
+  – has experienced six official recessions, and the S&P 500 (SNPINDEX: ^GSPC) has experienced five bear markets (a decline of at least 20% from its previous peak).
+Link: https://finance.yahoo.com/markets/stocks/articles/coca-cola-most-boring-stock-200500293.html
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: KO
+Como falar: 'saiu no Yahoo Finance: Coca-Cola Is the Most Boring Stock I Own. After 64 Years of Dividend Raises, I'll Never S…; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 02/11 17h05
+id: E05-KO-4815d18ec1-2026-11-02 · status: pendente
+
+[ATENÇÃO] E05 · DI · Até um dos mais otimistas pisou no freio: Inter eleva projeção da Selic e vê pausa nos cortes
+Money Times · 02/11 17h02 · fonte única · licença: integral
+Do texto:
+  – O banco agora estima que a Selic encerre 2026 em 13,50%, ante os 13,25% projetados anteriormente, diante da piora das perspectivas para a inflação e das incertezas fiscais.
+  – O cenário principal ainda contempla uma redução de 0,25 ponto percentual na reunião de novembro do Comitê de Política Monetária (Copom).
+  – Mas esse seria o último corte antes de uma pausa que, na avaliação do banco, deve durar até o fim de 2027.
+  – A projeção de Selic em 13,25% já aparecia nos relatórios do Inter pelo menos desde maio.
+  – No levantamento do Money Times anterior à reunião de setembro, o banco estava entre as quatro casas que esperavam esse patamar para dezembro, enquanto dez projetavam juros de 13,75%.
+  – No relatório assinado pela economista-chefe Rafaela Vitória, o Inter reconhece que o Banco Central pode antecipar a pausa e manter a taxa nos atuais 13,75%.
+Link: https://www.moneytimes.com.br/ate-um-dos-mais-otimistas-pisou-no-freio-inter-eleva-projecao-da-selic-e-ve-pausa-nos-cortes-jcav/
+Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
+Ativos: DI
+Como falar: 'saiu no Money Times: Até um dos mais otimistas pisou no freio: Inter eleva projeção da Selic e vê pausa nos co…; confirmar o número no texto antes de repassar'
+Fonte: Money Times 02/11 17h02
+id: E05-DI-f04e147d8f-2026-11-02 · status: pendente · íntegra disponível
+
+[ATENÇÃO] E05 · MU · Micron Falls 4% as Kioxia’s Cautious Outlook Hits Memory Stocks; Western Digital Drops 5%, SanDisk Slides 3%
+Yahoo Finance · 02/11 15h53 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Micron stock is at $853.34, down 4% this afternoon.
+  – Over the past month, Micron stock is down 20%.
+  – That slide comes despite record results: on September 30, the company reported Q4 FY2026 revenue of $54.23 billion, up 379.3% year over year, with an adjusted gross margin of 87%.
+  – For Q1 FY2027, Micron forecast its revenue to $61.5 billion, plus or minus $1.5 billion.
+  – Kioxia's Soft Guidance Drags Memory Stocks Lower Kioxia Holdings guided its December-quarter operating profit to 2 trillion yen, the company said on November 2.
+  – That forecast stands only slightly above the 1.99 trillion yen Kioxia earned in the September quarter, and it came in below analyst estimates.
+Link: https://finance.yahoo.com/markets/stocks/articles/micron-falls-4-kioxia-cautious-185355108.html
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: MU
+Como falar: 'saiu no Yahoo Finance: Micron Falls 4% as Kioxia’s Cautious Outlook Hits Memory Stocks; Western Digital Drops 5%…; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 02/11 15h53
+id: E05-MU-4868bb6273-2026-11-02 · status: pendente
+
+[ATENÇÃO] E05 · MRVL · Marvell to Acquire Lumentum in $115 Billion All-Stock Deal
+Yahoo Finance · 02/11 12h58 · fonte única · licença: resumo
+Link: https://finance.yahoo.com/technology/ai/articles/marvell-acquire-lumentum-115-billion-155843331.html
+Por que importa: aquisicao ou venda muda alavancagem, mix de receita e o multiplo; olhar preco pago e financiamento
+Ativos: MRVL · LITE
+Como falar: 'saiu no Yahoo Finance: Marvell to Acquire Lumentum in $115 Billion All-Stock Deal; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 02/11 12h58
+id: E05-MRVL-bdc0903f1e-2026-11-02 · status: linha
 
 [ATENÇÃO] E05 · LITE · Lumentum Stocks Drop 11% With Merger Risk Overshadowing Its $1.6 Billion Revenue Outlook
 Yahoo Finance · 02/11 15h16 · fonte única · licença: resumo
@@ -53,7 +110,7 @@ Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; 
 Ativos: LITE
 Como falar: 'saiu no Yahoo Finance: Lumentum Stocks Drop 11% With Merger Risk Overshadowing Its $1.6 Billion Revenue Outlook; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 02/11 15h16
-id: E05-LITE-ffffae9fef-2026-11-02 · status: pendente
+id: E05-LITE-ffffae9fef-2026-11-02 · status: entregue
 
 [ATENÇÃO] E05 · MRVL · Marvell to Acquire Lumentum in Historic $115 Billion Tech Deal
 Bloomberg · 02/11 14h01 · fonte única · licença: manchete
@@ -471,8 +528,23 @@ Fonte: CNBC 29/10 22h06
 id: E05-INTC-8a46f101b3-2026-10-30 · status: entregue
 
 
-## OUTRAS NOTÍCIAS (só manchete) (118)
+## OUTRAS NOTÍCIAS (só manchete) (133)
 
+· INTC Intel foundry push faces critical test after stock's 45% plunge in October (CNBC) https://www.cnbc.com/2026/11/02/intel-foundry-faces-critical-test-after-stocks-45percent-plunge-in-october.html
+· USDBRL Câmbio deve pressionar expectativa de inflação no Copom, diz Pinheiro (CNN Brasil) https://www.cnnbrasil.com.br/economia/money/macroeconomia/cambio-deve-pressionar-expectativa-de-inflacao-no-copom-diz-pinheiro/
+· MMM 3M: AI/Aerospace-Driven Growth Renewal - Multi-Year Monetization Tailwinds (NYSE:MMM) (Seeking Alpha) https://seekingalpha.com/article/4961081-3m-aiaerospace-driven-growth-renewal-multi-year-monetization-tailwinds
+· GOOGL Netflix Taps Google’s Darshan Kantak as Ads Platform VP (Yahoo Finance) https://sg.finance.yahoo.com/news/netflix-taps-google-darshan-kantak-194008742.html
+· BTC Mercado Bitcoin wallets keep moving funds after $46M hack (TradingView (Reuters)) https://www.tradingview.com/news/cointelegraph:67fe83c5c094b:0-mercado-bitcoin-wallets-keep-moving-funds-after-46m-hack/
+· MRVL Marvell Stocks Decline 6.8% With Lumentum Deal Putting Dilution Ahead of Synergies (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:419f06afd094b:0-marvell-stocks-decline-6-8-with-lumentum-deal-putting-dilution-ahead-of-synergies/
+· CVX Chevron Stocks Move Lower With Higher UBS Target Facing Cash-Return Tests (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:2c14af985094b:0-chevron-stocks-move-lower-with-higher-ubs-target-facing-cash-return-tests/
+· MRVL Breakingviews - COMMENTARY: China adds latency to Marvell's optical mega-deal (Reuters) https://www.reuters.com/commentary/breakingviews/china-adds-latency-marvells-optical-mega-deal-2026-11-02/
+· AMD AMD Heads Into Earnings With AI Guidance in the Spotlight (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:e4c4e0536094b:0-amd-heads-into-earnings-with-ai-guidance-in-the-spotlight/
+· AMD AMD Stocks Edge Higher With Earnings Testing a $74 Billion Data-Center Forecast (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/amd-stocks-edge-higher-earnings-182548316.html
+· ITUB4 Itaú, BB Seguridade, PRIO e mais balanços desta semana: veja a agenda completa (InfoMoney) https://www.infomoney.com.br/mercados/itau-bb-seguridade-prio-e-mais-balancos-desta-semana-veja-a-agenda-completa/amp/
+· NVDA Nvidia Stock Is Rebounding but Stock Chart Is Really Ugly (Barron's) https://news.google.com/rss/articles/CBMihAFBVV95cUxNTVM2cFd2cHpQRW5qUmlXUGhLMlBHTUc5aVgtSTNGZFNDcGZXM3N6aUR6ZVVCZ3ZUSkdwRi15d2lhOHJTWXAxc2N0RXJ6M0x3U3hBVk5yTktPcS12Rl85b3d0aUN5cVpSUEJaTFlWM2ItUloxcEExTHN1cU9ienBTak5DeDQ?oc=5
+· DI André Lara Resende quer conselho para levar Selic a 7,5% (Poder360) https://news.google.com/rss/articles/CBMinwFBVV95cUxPYXlwdE9hZWU4X2pOVFhydG5sSmlHUVlHOVhnYVI1OEtHMERLSmxrVXh1S29mdDVQWk9tOG1DeEpzMjdqSUpVY2ZTbDhtMXplUlZZdGlUaWtKOGkxT1h3RmhJWC1ReGJzcVRHbjBtUjd4Z3JLcVN6TjZYNnBja2N5b1lJdGxEd3N1OTdGdWd2aXcyRlVxdEVOX2RRN2lOV2s?oc=5
+· NVDA Will Nvidia (NVDA) Beat Estimates Again in Its Next Earnings Report? (Yahoo Finance) https://news.google.com/rss/articles/CBMingFBVV95cUxOc3VmeHppQi02TlA4OWN6aC1MWEZXT2lwNDRURTI1djkwVWVDRjZsR3lxWGhmNjNtX01LenE2bDQzdWNha1dIQ1A5ODVrNnpyQVllVjBWQ0dSYVJtVXBfU3B6U19DOFI0NjVwTHc0eUZ2QmZIR0I2RERqbkxxbmlUVTd2eVJidXp4NndQUi12SUFMMk10dGRCaElpaE1WQQ?oc=5
+· NVDA Nvidia (NVDA), Costco (COST), Nike (NKE) join OKX–ICE tokenized stock objections, bringing total to 50 (CoinDesk) https://news.google.com/rss/articles/CBMiuwFBVV95cUxNT2JRbThULWtaaVVVeGEyVlZPSTQ0alVKSk1Qc2VKRGppaHVtSFoyM3Uzam1jWE1iVXFsT0dTNmFuTWJhQ3d1ZXZ6dWc3X0RvaVBSeGV5MTNvNm9MdmtyYWVNcmlkRWNMbWttQ2JQTzdEVlZ2SW5UZDRQZnJpOWtsN0V3dmtXaVdTOEZWZm5MeGpoRXZ3NjFHOGZkWEZSc2FObEZFT2hWSk1iYmZJSWxDamlQbWxFN0ppTzRv?oc=5
 · AMD AMD to report Q3 results following disappointing showing from Intel (Yahoo Finance) https://finance.yahoo.com/technology/article/amd-to-report-q3-results-following-disappointing-showing-from-intel-190327545.html
 · GOOGL Amazon Vs. Alphabet: The $420B AI Capex Squeeze Leaves Both At Hold (NASDAQ:AMZN) (Seeking Alpha) https://seekingalpha.com/article/4961060-amazon-vs-alphabet-the-420b-ai-capex-squeeze-leaves-both-at-hold
 · MRVL Marvell-Lumentum Merger: Implications Of A Major AI Photonics Deal (NASDAQ:MRVL) (Seeking Alpha) https://seekingalpha.com/article/4961054-marvell-lumentum-merger-implications-of-a-major-ai-photonics-deal
@@ -518,19 +590,4 @@ id: E05-INTC-8a46f101b3-2026-10-30 · status: entregue
 · BTC Bitcoin giant Strategy, unfazed by Binance hack, adds over $65 million BTC to its holdings (Fortune) https://fortune.com/2026/11/02/bitcoin-giant-strategy-binance-hack-65-million-holdings/
 · BTC Strive Buys 124 Bitcoin, Moves Closer to Overtaking Metaplanet (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/strive-buys-124-bitcoin-moves-161600581.html
 · INTC Intel Gets Price Target Revamp but Keeps One Major Catalyst (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:2ce5ef5c9094b:0-intel-gets-price-target-revamp-but-keeps-one-major-catalyst/
-· MRVL Marvell Technology Targets $550B AI Optics Market With Lumentum Deal (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/marvell-technology-targets-550b-ai-161403324.html
-· DI BC deve manter Selic em 13,75% em uma pausa após a reeleição de Lula (InfoMoney) https://www.infomoney.com.br/economia/bc-deve-manter-selic-em-1375-em-uma-pausa-apos-a-reeleicao-de-lula/
-· MRVL COHR Stock Draws Upgrade As Marvell’s $115B Lumentum Deal Highlights ‘Value Of Scarce AI Optics’ (Yahoo Finance) https://news.google.com/rss/articles/CBMingFBVV95cUxOVTMwQVM4UXlGRGRrREtaLVZidmdob2N2SlYtSzhSNlJDeTA4TUxqakpaOVFYUWZUaXMxdkhnckpMWGxpel8teWxKWEFfVVQ2SlNpTTI5YjRHei1FT3dXMEl3U0tfcmt2OWg4SmhTUWVIWDRfN0RIS3l3c24zMlMxclF0aHZwT09UbkgxOUVBd3JDYUgxYS1rVG9vcS1WUQ?oc=5
-· LITE Lumentum (LITE) Beats Q1 Earnings and Revenue Estimates (Yahoo Finance) https://news.google.com/rss/articles/CBMinAFBVV95cUxNOXlvb1drOTNPNmxDbFFwZEtoWXpVd2dRRUcwcFhFUk1ZcmtsMXUzSjFqQ1pqOG0zbUtnMEZoYllxREE2X0NZVm1GWjFNYVEtSWtIQlVFeXNOTGNkU0xGNkFXb3IzUkFJa3ozNDZNMmpwV3RCT2liamtSdG8yMkN6LTdwRTdSaG5YUFYxZEtLSlBXaE1nSmMtTGs0Y1Q?oc=5
-· AMZN JPMorgan's shocking capital expenditures estimates for Amazon, and worries for McDonald's ahead (Yahoo Finance) https://news.google.com/rss/articles/CBMi1gFBVV95cUxPTV9KYWxiQ3ZUSnk1NkRHMjY0VU5kMHNIeWJ5Qld1VlQwd0NBTWlzTGQtUm8wRzgyT2J2QXVPazJIVXY2V3ZRbmNuRWNBQWpXRmItZHlZZWNPNVJoSGxadDZiMXhSS281bUxGeFdDYlNoSnRRVHVWV2pHNjlicUg5V3ZKZnJ0cTJmU3RYeElWYVUtb3A2dldYdXR2Q2ZRNXpzYnZ2ZFZkSUl0ajJMc19oVGEtVGdUVDJwYVdmYlNISXhIeC1KQ1dpSEI2aXpDb1VXY0dtWDdn?oc=5
-· MRVL COHR Stock Draws Upgrade As Marvell’s $115B Lumentum Deal Highlights ‘Value Of Scarce AI Optics’ (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:9f9c1a148094b:0-cohr-stock-draws-upgrade-as-marvell-s-115b-lumentum-deal-highlights-value-of-scarce-ai-optics/
-· BTC Mercado Bitcoin Says It Will Absorb $40 Million Loss From Hack (Bloomberg) https://www.bloomberg.com/news/articles/2026-11-02/mercado-bitcoin-says-it-will-absorb-40-million-loss-from-hack
-· AMZN JPMorgan has some explosive capex estimates for Amazon — and investors are uncomfortable (Yahoo Finance) https://finance.yahoo.com/video/jpmorgan-has-some-explosive-capex-estimates-for-amazon--and-investors-are-uncomfortable-150514815.html
-· DI PESQUISA-BC deve manter Selic em 13,75% em uma pausa após a reeleição de Lula (UOL Economia) https://noticias.uol.com.br/ultimas-noticias/reuters/2026/11/02/pesquisa-bc-deve-manter-selic-em-1375-em-uma-pausa-apos-a-reeleicao-de-lula.htm
-· MRVL Marvell CEO Matt Murphy on Lumentum deal: We're creating the 'category leader in AI connectivity' (CNBC) https://www.cnbc.com/video/2026/11/02/marvell-ceo-matt-murphy-on-lumentum-deal-were-creating-the-category-leader-in-ai-connectivity.html
-· MRVL Watch CNBC's full interview with Marvell CEO Matt Murphy and Lumentum CEO Michael Hurlston (CNBC) https://www.cnbc.com/video/2026/11/02/watch-cnbcs-full-interview-with-marvell-ceo-matt-murphy-and-lumentum-ceo-michael-hurlston.html
-· MINERIO Iron ore prices stabilise on slower-than-expected China demand fall (Mining.com) https://www.mining.com/web/iron-ore-prices-stabilise-on-slower-than-expected-china-demand-fall/
-· UST US 10-Year Treasury Yield Lowest in 8 Weeks (TradingView (Reuters)) https://www.tradingview.com/news/te_news:597332:0-us-10-year-treasury-yield-lowest-in-8-weeks/
-· GOOGL Alphabet Is Paying Up for Euro Bonds in Test of AI Appetite (Bloomberg) https://www.bloomberg.com/news/articles/2026-11-02/alphabet-kicks-off-sale-of-its-second-euro-bond-this-year
-· INTC INTC Q3 Earnings Call Highlights AI Demand and PC Weakness (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/intc-q3-earnings-call-highlights-140000192.html
-· (+58 manchetes; lista completa em eventos/noticias.json)
+· (+73 manchetes; lista completa em eventos/noticias.json)
