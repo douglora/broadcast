@@ -1,8 +1,8 @@
-NOTÍCIAS E FATOS · 30/10 21h41
+NOTÍCIAS E FATOS · 02/11 08h35
 
-Pernas: noticias ok 10 novas (18 consultas; descartadas: 351 veículo fora da lista, 36 sem ativo, 0 teto) · cvm ok 0 novos de 17 (9 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 19 novas (18 consultas; descartadas: 421 veículo fora da lista, 26 sem ativo, 65 teto) · cvm ok 0 novos de 3 (3 cias casadas) · sec ok 0 novos em 3 dias
 
-## FATOS RELEVANTES E COMUNICADOS (CVM) (3)
+## FATOS RELEVANTES E COMUNICADOS (CVM) (2)
 
 [ATENÇÃO] E03 · AXIA3 · Comunicado ao Mercado: Recebeu comunicado do Banco Clássico S.A. informando que, em decorrência exclusivamente da conversão de ações preferenciais classe “C” (“PNC”) em açõ…
 CVM · entregue 30/10/2026 17:02 · Aquisição/Alienação de Participação Acionária Relevante / Declaração de Aquisição de Participação Acionária Relevante
@@ -17,30 +17,24 @@ Como falar: 'a Axia Energia publicou comunicado ao mercado sobre Recebeu comunic
 Fonte: CVM 30/10
 id: E03-AXIA3-1582311-2026-10-30 · status: entregue · íntegra disponível
 
-[INFO] E03 · VALE3 · Comunicado ao Mercado: Apresentações a analistas/agentes do mercado
-CVM · entregue 30/10/2026 10:56 · Apresentações a analistas/agentes do mercado
-Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1582008
-Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; confirma ou nega o que circula
-Ativos: VALE3
-Como falar: 'a Vale publicou comunicado ao mercado sobre Apresentações a analistas/agentes do mercado'
-Fonte: CVM 30/10
-id: E03-VALE3-1582008-2026-10-30 · status: linha
-
-[INFO] E03 · ALUP4 · Participação relevante: gestor reduziu para 5,68% em 29/10
-CVM · entregue 30/10/2026 09:10 · Aquisição/Alienação de Participação Acionária Relevante / Declaração de Aquisição de Participação Acionária Relevante
+[ATENÇÃO] E03 · MRVE3 · Comunicado ao Mercado: MRVE3) Companhia disponibiliza ao mercado comunicado recebido pela M&G Investments para os fins do disposto no art. 12 da Instrução CVM nº 44/21, inf…
+CVM · entregue 29/10/2026 17:57 · Aquisição/Alienação de Participação Acionária Relevante / Declaração de Aquisição de Participação Acionária Relevante
 Do documento:
-  – São Paulo, 30 de outubro de 2026 Luiz Eduardo Muniz Coimbra Diretor de Relações com Investidores ANEXO — Correspondência recebida da Phronesis Investimentos Ltda.
-  – O Capital Social total informado pela Companhia³ é de 988.880.601 ações, sendo 317.386.323 ações  Preferenciais e 671.494.278 ações Ordinárias.
-  – Curitiba, 29 de outubro de 2026.
-Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1581977
-Por que importa: quem cruza 5% de uma companhia tem de avisar (Resolução CVM 44, art. 12); o fluxo de compra ou venda já aconteceu até 29/10, não no dia do aviso
-Ativos: ALUP4
-Como falar: 'gestor reduziu para 5,68% em 29/10 na Alupar; é aviso de participação, não fato relevante'
-Fonte: CVM 30/10
-id: E03-ALUP4-1581977-2026-10-30 · status: entregue · íntegra disponível
+  – A   M&G   informou que o conjunto de fundos de investimento e carteira sob gestão passou a deter  32.292.085  ações  , equivalente a   5, 74 %   da base acionária.
+  – ISIN: BRMRVEACNOR2  Number of Shares Held: 32,292,085  Percentage of Share Capital: 5.74%  Date Threshold Crossed: 28/10/2026    Please treat this correspondence as our formal notification of the relevant shareholding p…
+  – M&G   informed that the group of investment funds and managed portfolios  has  c o me to hold   32 ,292  ,085  shares,   representing   5.
+  – 74 %  of the share   capital  .
+  – ISIN: BRMRVEACNOR2  Number of Shares Held: 32,292,085  Percentage of Share Capital: 5.74%  Date Threshold Crossed: 28/10/2026    Please treat this correspondence as our formal notification of the relevant shareholding p…
+  – Kind regards,    George Rose    for and on behalf of M&G Investment Management Limited  Direct Line +44 20 8162 3276  Email shareholder.disclosures@mandg.co.uk
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1581810
+Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; confirma ou nega o que circula
+Ativos: MRVE3
+Como falar: 'a MRV publicou comunicado ao mercado sobre MRVE3) Companhia disponibiliza ao mercado comunicado recebido pela M&…'
+Fonte: CVM 29/10
+id: E03-MRVE3-1581810-2026-10-29 · status: entregue · íntegra disponível
 
 
-## SEC (8-K, 6-K, 10-Q, 10-K) (3)
+## SEC (8-K, 6-K, 10-Q, 10-K) (2)
 
 [ATENÇÃO] E04 · CVX · 8-K: 2.02 resultado do trimestre
 SEC EDGAR · aceito 30/10 07h16 · 8-K
@@ -58,26 +52,74 @@ Como falar: 'a CVX protocolou 8-K na SEC (2.02 resultado do trimestre)'
 Fonte: SEC EDGAR 2026-10-30
 id: E04-CVX-26000196-2026-10-30 · status: entregue · íntegra disponível
 
-[INFO] E04 · BAC · 10-Q: 10-Q
-SEC EDGAR · aceito 30/10 18h04 · 10-Q
-Link: https://www.sec.gov/Archives/edgar/data/70858/000007085826000548/bac-20260930.htm
-Por que importa: 10-Q e o balanco trimestral completo
-Ativos: BAC
-Como falar: 'a BAC protocolou 10-Q na SEC (10-Q)'
-Fonte: SEC EDGAR 2026-10-30
-id: E04-BAC-26000548-2026-10-30 · status: linha
-
-[INFO] E04 · AMZN · 10-Q: 10-Q
-SEC EDGAR · aceito 29/10 19h20 · 10-Q
-Link: https://www.sec.gov/Archives/edgar/data/1018724/000101872426000040/amzn-20260930.htm
-Por que importa: 10-Q e o balanco trimestral completo
+[ATENÇÃO] E04 · AMZN · 8-K: 2.02 resultado do trimestre
+SEC EDGAR · aceito 29/10 17h05 · 8-K
+Do documento:
+  – ☐   Table of Contents   TABLE OF CONTENTS   ITEM 2.02.
+  – 3   SIGNATURES   4   EXHIBIT 99.1   EXHIBIT 99.2   Table of Contents   ITEM 2.02.
+  – On October 29, 2026, Amazon.com, Inc. announced its third quarter 2026 financial results.
+  – Exhibit Number Description   99.1 Press Release dated October 29, 2026 announcing Amazon.com, Inc.’s Third Quarter 2026 Financial Results .
+  – 99.2 Information Regarding Non-GAAP Financial Measures.
+  – 104 The cover page from this Current Report on Form 8-K, formatted in Inline XBRL (included as Exhibit 101).
+Link: https://www.sec.gov/Archives/edgar/data/1018724/000101872426000038/amzn-20261029.htm
+Por que importa: resultado do trimestre reprecifica lucro, guidance e multiplo; comparar com o consenso
 Ativos: AMZN
-Como falar: 'a AMZN protocolou 10-Q na SEC (10-Q)'
-Fonte: SEC EDGAR 2026-10-30
-id: E04-AMZN-26000040-2026-10-30 · status: entregue
+Como falar: 'a AMZN protocolou 8-K na SEC (2.02 resultado do trimestre)'
+Fonte: SEC EDGAR 2026-10-29
+id: E04-AMZN-26000038-2026-10-29 · status: entregue · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (22)
+## NOTÍCIAS COM MATERIALIDADE (49)
+
+[ATENÇÃO] E05 · INTC · Intel's Quant Rating plunges to 3.26 as weak Q4 outlook weighs on sentiment (INTC:NASDAQ)
+Seeking Alpha · 02/11 08h30 · fonte única · licença: manchete
+Link: https://seekingalpha.com/news/4662015-intels-quant-rating-plunges-to-326-as-weak-q4-outlook-weighs-on-sentiment
+Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
+Ativos: INTC
+Como falar: 'saiu no Seeking Alpha: Intel's Quant Rating plunges to 3.26 as weak Q4 outlook weighs on sentiment (INTC:NASDAQ); confirmar o número no texto antes de repassar'
+Fonte: Seeking Alpha 02/11 08h30
+id: E05-INTC-48bc42b36d-2026-11-02 · status: pendente
+
+[ATENÇÃO] E05 · CVX · What Invesco S&P Ultra Dividend Revenue ETF (RDIV) Bought: Chevron Leads on Oct. 29
+Yahoo Finance · 02/11 08h05 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – RDIV added $239.2 million of stock and sold nothing, increasing all 60 of its positions and decreasing none, against $1.73 billion in assets under management.
+  – Total ETF activity of $239.2 million was entirely net buying.
+  – - High Yield Dividend Stocks in Gurus' Portfolio - This Powerful Chart Made Peter Lynch 29% A Year For 13 Years - How to calculate the intrinsic value of a stock?
+  – Its largest buys by dollar value were CVX ($14.7 million), TGT ($13.5 million) and BMY ($12.4 million).
+  – Chevron Corp led the buys at $14.7 million, lifting its weight to 6.16%, followed by Target Corp at $13.5 million (5.65%) and Bristol-Myers Squibb Co at $12.4 million (5.18%).
+  – PepsiCo Inc drew $12.1 million (5.06%) and Prudential Financial Inc $12.0 million (5.04%).
+Link: https://finance.yahoo.com/markets/stocks/articles/invesco-p-ultra-dividend-revenue-110516271.html
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: CVX
+Como falar: 'saiu no Yahoo Finance: What Invesco S&P Ultra Dividend Revenue ETF (RDIV) Bought: Chevron Leads on Oct. 29; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 02/11 08h05
+id: E05-CVX-0d1d5a243a-2026-11-02 · status: pendente
+
+[ATENÇÃO] E05 · LITE · Lumentum president Yuen sells over $1.35 million in company stock By Investing.com
+Investing.com · 02/11 02h15 · fonte única · licença: manchete
+Link: https://za.investing.com/news/stock-market-news/lumentum-president-yuen-sells-over-135-million-in-company-stock-93CH-4541298
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: LITE
+Como falar: 'saiu no Investing.com: Lumentum president Yuen sells over $1.35 million in company stock By Investing.com; confirmar o número no texto antes de repassar'
+Fonte: Investing.com 02/11 02h15
+id: E05-LITE-f149522978-2026-11-02 · status: pendente
+
+[ATENÇÃO] E05 · BTC · $100 a Week Into Bitcoin Since Its $126,000 Record High: What Would It Be Worth Now?
+Yahoo Finance · 01/11 20h29 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Quick Read - Dollar-cost averaging kept a buyer who started at Bitcoin's $126,080 peak nearly break-even, averaging down to a $77,842 cost on $5,600 invested.
+  – - An investor who started buying at Bitcoin's 2021 peak turned $26,000 into $46,965, an 81% gain, by continuing purchases through the 2022 bear market.
+  – - Spot Bitcoin ETFs bled $643 million in net outflows on October 30, shrinking total assets to $98 billion from $111 billion on October 5.
+  – - It sounds nuts, but SoFi is giving new Active Invest users up to $1,000 in stock for a limited time, and all it takes is a $50 deposit to get started.
+  – See for yourself (Sponsor) A person who began investing $100 a week in Bitcoin (CRYPTO:BTC) from the date it hit its record high of $126,080 on October 6, 2025, has put in a total of $5,600.
+  – This investment is close to breaking even, with Bitcoin currently trading at $78,050—38% below the record high—and down 8% over the last 30 days.
+Link: https://finance.yahoo.com/markets/crypto/articles/100-week-bitcoin-since-126-232911788.html
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: BTC
+Como falar: 'saiu no Yahoo Finance: $100 a Week Into Bitcoin Since Its $126,000 Record High: What Would It Be Worth Now?; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 01/11 20h29
+id: E05-BTC-08cc94239a-2026-11-01 · status: linha
 
 [ATENÇÃO] E05 · TSLA · Stocktwits Zero To Sixty: Rivian Raises Delivery Guidance On R2 Demand, Tesla Expands Robotaxi Fleet, And Ford Advances Low-Cost EV Plans
 TradingView (Reuters) · 30/10 21h10 · fonte única · licença: manchete
@@ -102,7 +144,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: INTC
 Como falar: 'saiu no Yahoo Finance: Stock Market Today, Oct. 30: Intel Plunges Nearly 29% as Weak Outlook Rattles Wall Street; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 30/10 18h20
-id: E05-INTC-3b671c6b1c-2026-10-30 · status: pendente
+id: E05-INTC-3b671c6b1c-2026-10-30 · status: expirado
 
 [ATENÇÃO] E05 · INTC · Intel plunges 29% on weak Q4 guidance (INTC:NASDAQ)
 Seeking Alpha · 30/10 17h35 · fonte única · licença: manchete
@@ -111,7 +153,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: INTC
 Como falar: 'saiu no Seeking Alpha: Intel plunges 29% on weak Q4 guidance (INTC:NASDAQ); confirmar o número no texto antes de repassar'
 Fonte: Seeking Alpha 30/10 17h35
-id: E05-INTC-47c4e43e39-2026-10-30 · status: expirado
+id: E05-INTC-47c4e43e39-2026-10-30 · status: entregue
 
 [ATENÇÃO] E05 · INTC · Watch Intel Plunges 29% on Weak Outlook as Tech Selloff Deepens | Closing Bell
 Bloomberg · 30/10 17h27 · fonte única · licença: manchete
@@ -120,7 +162,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: INTC
 Como falar: 'saiu no Bloomberg: Watch Intel Plunges 29% on Weak Outlook as Tech Selloff Deepens | Closing Bell; confirmar o número no texto antes de repassar'
 Fonte: Bloomberg 30/10 17h27
-id: E05-INTC-6f5bfb6502-2026-10-30 · status: expirado
+id: E05-INTC-6f5bfb6502-2026-10-30 · status: entregue
 
 [ATENÇÃO] E05 · BTC · Is your crypto safe? What Binance’s $6.3 billion hack means for bitcoin investors.
 MarketWatch · 30/10 15h50 · fonte única · licença: manchete
@@ -322,41 +364,323 @@ Como falar: 'saiu no CNBC: Intel plunges on a major guidance miss. What went wro
 Fonte: CNBC 29/10 22h06
 id: E05-INTC-8a46f101b3-2026-10-30 · status: entregue
 
-[ATENÇÃO] E05 · PLTR · Could $1,000 Invested in Palantir Turn Into $100,000?
-Yahoo Finance · 29/10 17h50 · fonte única · licença: resumo
+[ATENÇÃO] E05 · VALE3 · Lucro líquido da Vale no 3º trimestre cai pela metade com efeitos de câmbio e Samarco
+Bloomberg Linea · 29/10 20h57 · fonte única · licença: resumo
 Trechos (licença resumo: reescrever, não colar):
-  – A $1,000 investment at its earliest trading price of $10 would be worth about $19,400 today.
-  – That's an impressive six-year gain, but could it eventually turn that investment into $100,000?
-  – In 2009, a "Double Down" signal flashed for a little-known chipmaker called Nvidia.
-  – For the first time in years, that same "Total Conviction" signal is flashing for a company 1/100th the size of Nvidia.
-  – From 2021 to 2025, Palantir's revenue grew at a 31% CAGR.
-  – It also turned profitable in 2023 and grew its EPS at a 165% CAGR over the following two years.
-Link: https://finance.yahoo.com/markets/stocks/articles/could-1-000-invested-palantir-205000952.html
-Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
-Ativos: PLTR
-Como falar: 'saiu no Yahoo Finance: Could $1,000 Invested in Palantir Turn Into $100,000?; confirmar o número no texto antes de repassar'
-Fonte: Yahoo Finance 29/10 17h50
-id: E05-PLTR-ca4dc5d221-2026-10-29 · status: linha
+  – Bloomberg Línea — O lucro líquido da Vale (VALE3) no terceiro trimestre caiu pela metade, diante de efeitos cambiais e de provisão da Samarco.
+  – De julho a setembro, o indicador marcou R$ 6,43 bilhões, queda de 56% na comparação anual, informou a companhia em balanço enviado à Comissão de Valores Mobiliários na noite desta quinta-feira (29).
+  – Em moeda americana, o lucro líquido recuou 53% no período, para US$ 1,25 bilhão.
+  – Segundo a companhia, os efeitos foram parcialmente compensados por um aumento de US$ 610 milhões na marcação a mercado e liquidação de derivativos.
+  – Já o lucro antes de juros, impostos, depreciação e amortização (Ebitda) ajustado alcançou R$ 17 bilhões no terceiro trimestre, queda de 28% sobre o mesmo período de 2025.
+  – A receita líquida total no período atingiu R$ 54 bilhões, queda de 4% sobre o igual intervalo do ano passado.
+Link: https://www.bloomberglinea.com.br/negocios/lucro-liquido-da-vale-no-3-trimestre-cai-pela-metade-com-efeitos-de-cambio-e-samarco/
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: VALE3 · USDBRL
+Como falar: 'saiu no Bloomberg Linea: Lucro líquido da Vale no 3º trimestre cai pela metade com efeitos de câmbio e Samarco; confirmar o número no texto antes de repassar'
+Fonte: Bloomberg Linea 29/10 20h57
+id: E05-VALE3-fe90f8157c-2026-10-29 · status: entregue
 
-[ATENÇÃO] E05 · KO · Coca-Cola Raised Its 2026 Outlook. I'd Still Wait for a Lower Price to Buy the Stock.
-Yahoo Finance · 29/10 16h47 · fonte única · licença: resumo
+[ATENÇÃO] E05 · INTC · Earnings call transcript: Intel beats Q3 2026 estimates, but stock sinks
+Investing.com · 29/10 19h23 · fonte única · licença: manchete
+Link: https://www.investing.com/news/transcripts/earnings-call-transcript-intel-beats-q3-2026-estimates-but-stock-sinks-93CH-4985498
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: INTC
+Como falar: 'saiu no Investing.com: Earnings call transcript: Intel beats Q3 2026 estimates, but stock sinks; confirmar o número no texto antes de repassar'
+Fonte: Investing.com 29/10 19h23
+id: E05-INTC-3f36ca9abf-2026-10-29 · status: entregue
+
+[ATENÇÃO] E05 · INTC · Intel shares fall 22% as weak sales outlook dents turnaround
+Financial Times · 29/10 17h02 · fonte única · licença: manchete
+Link: https://www.ft.com/content/d7540e89-08db-43d3-92e0-3c15dd3a60cb?syn-25a6b1a6=1
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: INTC
+Como falar: 'saiu no Financial Times: Intel shares fall 22% as weak sales outlook dents turnaround; confirmar o número no texto antes de repassar'
+Fonte: Financial Times 29/10 17h02
+id: E05-INTC-e56b105b09-2026-10-29 · status: entregue
+
+[ATENÇÃO] E05 · VALE3 · Vale vê lucro despencar 53% no 3T26, apesar de receita bilionária em alta; veja balanço
+Estadao · 29/10 19h40 · fonte única · licença: manchete
+Link: https://www.estadao.com.br/einvestidor/cenarios-e-mercado/vale-ve-lucro-despencar-53-no-3t26-apesar-de-receita-bilionaria-em-alta-veja-balanco/
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: VALE3
+Como falar: 'saiu no Estadao: Vale vê lucro despencar 53% no 3T26, apesar de receita bilionária em alta; veja balanço; confirmar o número no texto antes de repassar'
+Fonte: Estadao 29/10 19h40
+id: E05-VALE3-c041b6b454-2026-10-29 · status: entregue
+
+[ATENÇÃO] E05 · VALE3 · Vale registra queda de 53% no lucro líquido no terceiro trimestre
+O Globo · 29/10 19h38 · fonte única · licença: manchete
+Link: https://oglobo.globo.com/economia/negocios/noticia/2026/10/29/vale-registra-queda-de-53percent-no-lucro-liquido-no-terceiro-trimestre.ghtml
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: VALE3
+Como falar: 'saiu no O Globo: Vale registra queda de 53% no lucro líquido no terceiro trimestre; confirmar o número no texto antes de repassar'
+Fonte: O Globo 29/10 19h38
+id: E05-VALE3-1958f5d73d-2026-10-29 · status: entregue
+
+[ATENÇÃO] E05 · VALE3 · Lucro líquido da Vale (VALE3) cai 54% no 3T26, para US$ 1,25 bilhão, abaixo das expectativas do mercado
+Money Times · 29/10 19h24 · fonte única · licença: integral
+Do texto:
+  – Lucro líquido da Vale (VALE3) cai 54% no 3T26, para US$ 1,25 bilhão, abaixo das expectativas do mercado A Vale (VALE3) sentiu os efeitos da queda nos preços do minério de ferro e da alta do petróleo no terceiro trimestr…
+  – A mineradora divulgou nesta quinta-feira (29) o balanço do período, que mostrou um lucro líquido de US$ 1,255 bilhão, queda de 54% em relação ao mesmo intervalo do ano passado.
+  – O número veio abaixo das expectativas de mercado, que apontavam para US$ 1,508 bilhão, de acordo com o consenso de mercado compilado pela Bloomberg.
+  – O Ebitda (lucro antes de juros, impostos, depreciação e amortização) proforma caiu 20% menor em relação ao ano passado, para US$ 3,508 bilhões — um pouco acima do esperado, de US$ 3,324 bilhões, segundo o mesmo compilad…
+  – A receita líquida em vendas entre junho e setembro ficou em US$ 10,599 bilhões, avanço de 2% ano a ano.
+  – Segundo a mineradora, o desempenho pode ser explicado pela redução dos preços realizados de minério de ferro — que caíram 10% em base anual e trimestral, para US$ 85,1 por tonelada.
+Link: https://www.moneytimes.com.br/lucro-liquido-da-vale-vale3-cai-54-no-3t26-para-us-125-bilhao-abaixo-das-expectativas-do-mercado-bdap/
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: VALE3
+Como falar: 'saiu no Money Times: Lucro líquido da Vale (VALE3) cai 54% no 3T26, para US$ 1,25 bilhão, abaixo das expectati…; confirmar o número no texto antes de repassar'
+Fonte: Money Times 29/10 19h24
+id: E05-VALE3-b98d9a1a26-2026-10-29 · status: entregue · íntegra disponível
+
+[ATENÇÃO] E05 · INTC · INTC Stock Tumbles After-Hours After Q3 PC Slump And Supply Bottlenecks Cloud Fourth-Quarter Guidance
+Yahoo Finance · 29/10 17h54 · fonte única · licença: resumo
 Trechos (licença resumo: reescrever, não colar):
-  – Organic revenue, which excludes foreign exchange and the impact of acquisitions and divestitures, grew 7% year over year.
-  – And comparable earnings per share, the company's non-GAAP (adjusted) profit measure, gained 11% to $0.91.
-  – In 2009, a "Double Down" signal flashed for a little-known chipmaker called Nvidia.
-  – For the first time in years, that same "Total Conviction" signal is flashing for a company 1/100th the size of Nvidia.
-  – Continue » Shares fell about 2% that day anyway.
-  – As I write this, they're around $92 -- about 4% under the record close of $95.34 on Oct.
-Link: https://finance.yahoo.com/markets/stocks/articles/coca-cola-raised-2026-outlook-194702530.html
+  – INTC Stock Tumbles After-Hours After Q3 PC Slump And Supply Bottlenecks Cloud Fourth-Quarter Guidance - Intel reported third-quarter revenue of $16.5 billion, up 21% year-over-year, and earnings of $0.52 per share, beat…
+  – - Intel expects Q4 revenue to come in between $ 15 and $16 billion, below what analysts expect.
+  – Intel Inc. (INTC) share price tumbled about 17% after-hours on Thursday after the company forecast weaker-than-expected fourth-quarter revenue and earnings amid a slump in persona; computer (PC) sales amid supply bottle…
+  – For the third quarter ended September 26, Intel posted total sales of $16.5 billion, marking a 21% increase from the same period last year and matching analysts' average predictions.
+  – Adjusted earnings reached $0.52 per share, surpassing Wall Street's consensus estimate of $0.41 per share.
+  – "Our immediate priority is to unlock additional supply to meet extraordinary demand for our Xeon family," CEO Lip-Bu Tan said.
+Link: https://finance.yahoo.com/markets/stocks/articles/intc-stock-tumbles-hours-q3-205401483.html
 Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
-Ativos: KO
-Como falar: 'saiu no Yahoo Finance: Coca-Cola Raised Its 2026 Outlook. I'd Still Wait for a Lower Price to Buy the Stock.; confirmar o número no texto antes de repassar'
-Fonte: Yahoo Finance 29/10 16h47
-id: E05-KO-57cc816b05-2026-10-29 · status: linha
+Ativos: INTC
+Como falar: 'saiu no Yahoo Finance: INTC Stock Tumbles After-Hours After Q3 PC Slump And Supply Bottlenecks Cloud Fourth-Quar…; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 29/10 17h54
+id: E05-INTC-7b6bb1157a-2026-10-29 · status: entregue
+
+[ATENÇÃO] E05 · INTC · Intel shares plummet on lighter-than-expected Q4 guidance
+CNBC · 29/10 17h23 · fonte única · licença: resumo
+Link: https://www.cnbc.com/video/2026/10/29/intel-shares-plummet-on-lighter-than-expected-q4-guidance.html
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: INTC
+Como falar: 'saiu no CNBC: Intel shares plummet on lighter-than-expected Q4 guidance; confirmar o número no texto antes de repassar'
+Fonte: CNBC 29/10 17h23
+id: E05-INTC-56cfc524b4-2026-10-29 · status: entregue
+
+[ATENÇÃO] E05 · INTC · Intel slides as Q3 results, guidance miss Wall Street's forecasts
+TradingView (Reuters) · 29/10 17h08 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/seekingalpha:6b120d5e0094b:0-intel-crashes-as-q3-results-guidance-miss-wall-street-s-forecasts/
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: INTC
+Como falar: 'saiu no TradingView (Reuters): Intel slides as Q3 results, guidance miss Wall Street's forecasts; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 29/10 17h08
+id: E05-INTC-479410382a-2026-10-29 · status: entregue
+
+[ATENÇÃO] E05 · INTC · Intel crashes as Q3 results, guidance miss Wall Street's forecasts (INTC:NASDAQ)
+Seeking Alpha · 29/10 17h08 · fonte única · licença: manchete
+Link: https://seekingalpha.com/news/4660336-intel-slides-as-q3-results-guidance-miss-wall-streets-forecasts
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: INTC
+Como falar: 'saiu no Seeking Alpha: Intel crashes as Q3 results, guidance miss Wall Street's forecasts (INTC:NASDAQ); confirmar o número no texto antes de repassar'
+Fonte: Seeking Alpha 29/10 17h08
+id: E05-INTC-dda324489d-2026-10-29 · status: entregue
+
+[ATENÇÃO] E05 · INTC · Intel Plunges After PC Slump and Supply Snags Hurt Its Outlook
+Bloomberg · 29/10 17h07 · fonte única · licença: manchete
+Link: https://www.bloomberg.com/news/articles/2026-10-29/intel-outlook-hurt-by-weak-market-for-personal-computer-chips
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: INTC
+Como falar: 'saiu no Bloomberg: Intel Plunges After PC Slump and Supply Snags Hurt Its Outlook; confirmar o número no texto antes de repassar'
+Fonte: Bloomberg 29/10 17h07
+id: E05-INTC-e7f0b14445-2026-10-29 · status: entregue
+
+[ATENÇÃO] E05 · INTC · Intel stock plunges after posting disappointing Q4 outlook
+Yahoo Finance · 29/10 17h07 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Intel (INTC) topped third quarter earnings estimates while the tech giant's fourth quarter forecasts fell shy of expectations.
+  – The stock is plunging in Thursday's extended hours.
+  – Market Domination Overtime Host Jake Conley and Yahoo Finance Markets and Data Editor Jared Blikre dive into Intel's latest earnings results.
+Link: https://finance.yahoo.com/video/intel-stock-plunges-after-posting-disappointing-q4-outlook-200731652.html
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: INTC
+Como falar: 'saiu no Yahoo Finance: Intel stock plunges after posting disappointing Q4 outlook; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 29/10 17h07
+id: E05-INTC-3dd623e64e-2026-10-29 · status: entregue
+
+[ATENÇÃO] E05 · PETR4 · Dividendos de até US$ 4,2 bilhões: com operacional tinindo, Petrobras (PETR4) deve 'blindar' os proventos da queda do petróleo
+Seu Dinheiro · 29/10 14h49 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – No terceiro trimestre de 2026 (3T26), não foi diferente: a petroleira divulgou, na noite de ontem (28), mais uma leva de dados operacionais fortes — o que fez o mercado já começar a sonhar com dividendos gordos da petro…
+  – A estatal divulgará o balanço no dia 11 de novembro, após o fechamento dos mercados.
+  – Na visão de analistas, a Petrobras os números do trimestre devem vir fortes, apesar de uma queda nos preços do petróleo em relação ao 2T26.
+  – Segundo a XP, o preço do barril do Brent, referência internacional e padrão da companhia, caiu para uma média de US$96,8 entre julho e setembro, desvalorização de 8% em relação aos três meses imediatamente anteriores.
+  – O BTG Pactual e XP esperam US$ 3,6 bilhões aos acionistas no 3T36, o equivalente a um dividend yield de 2,5%.
+  – O Safra, por sua vez, projeta pagamento de US$ 3,1 bilhões, com retorno também na casa dos 2,5%.
+Link: https://www.seudinheiro.com/2026/empresas/dividendos-de-ate-us-42-bilhoes-com-operacional-tinindo-petrobras-petr4-deve-blindar-os-proventos-da-queda-do-petroleo-bdap/
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: PETR4 · BRENT
+Como falar: 'saiu no Seu Dinheiro: Dividendos de até US$ 4,2 bilhões: com operacional tinindo, Petrobras (PETR4) deve 'blind…; confirmar o número no texto antes de repassar'
+Fonte: Seu Dinheiro 29/10 14h49
+id: E05-PETR4-0b5d4e2bc2-2026-10-29 · status: entregue
+
+[ATENÇÃO] E05 · BTC · Amplify Bitcoin 2% Monthly Option Income ETF declares $0.5352 dividend
+TradingView (Reuters) · 29/10 13h39 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/seekingalpha:f064afbe1094b:0-amplify-bitcoin-2-monthly-option-income-etf-declares-0-5352-dividend/
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: BTC
+Como falar: 'saiu no TradingView (Reuters): Amplify Bitcoin 2% Monthly Option Income ETF declares $0.5352 dividend; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 29/10 13h39
+id: E05-BTC-16b8fe8f27-2026-10-29 · status: entregue
+
+[ATENÇÃO] E05 · GOOGL · US files lawsuit claiming Google wouldn't give employee new job following military deployment
+Reuters · 29/10 12h49 · fonte única · licença: manchete
+Link: https://www.reuters.com/world/us-sues-google-failing-restore-former-employee-similar-job-following-military-2026-10-29/
+Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e prazo
+Ativos: GOOGL
+Como falar: 'saiu no Reuters: US files lawsuit claiming Google wouldn't give employee new job following military deploy…; confirmar o número no texto antes de repassar'
+Fonte: Reuters 29/10 12h49
+id: E05-GOOGL-44e10adf43-2026-10-29 · status: entregue
+
+[ATENÇÃO] E05 · ETH · Amplify Ethereum 3% Monthly Option Income ETF declares $0.2508 dividend
+TradingView (Reuters) · 29/10 13h14 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/seekingalpha:b6877f593094b:0-amplify-ethereum-3-monthly-option-income-etf-declares-0-2508-dividend/
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: ETH
+Como falar: 'saiu no TradingView (Reuters): Amplify Ethereum 3% Monthly Option Income ETF declares $0.2508 dividend; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 29/10 13h14
+id: E05-ETH-8fb9430bf0-2026-10-29 · status: entregue
+
+[ATENÇÃO] E05 · UST · Fed Holds Rates, but 5% Treasury Yields Complicate the Outlook
+Investing.com · 29/10 12h32 · fonte única · licença: manchete
+Link: https://www.investing.com/analysis/fed-holds-rates-but-5-treasury-yields-complicate-the-outlook-200690514
+Por que importa: decisao de politica monetaria reprecifica toda a curva e o cambio
+Ativos: UST
+Como falar: 'saiu no Investing.com: Fed Holds Rates, but 5% Treasury Yields Complicate the Outlook; confirmar o número no texto antes de repassar'
+Fonte: Investing.com 29/10 12h32
+id: E05-UST-20bfc3ad48-2026-10-29 · status: entregue
+
+[ATENÇÃO] E05 · PETR4 · Petrobras (PETR4) bate recorde de produção total no 3T26
+Suno Noticias · 29/10 11h00 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Negócios Petrobras (PETR4) bate recorde de produção total no 3T26 A Petrobras (PETR4) atingiu um novo recorde de produção no terceiro trimestre de 2026.
+  – A companhia produziu, em média, 3,512 milhões de barris de óleo equivalente por dia (MMboed) entre julho e setembro.
+  – O dado faz parte do relatório de produção e vendas do terceiro trimestre de 2026, divulgado na noite de ontem (28).
+  – O volume apresentado pela Petrobras, que reúne óleo, LGN e gás natural, representa alta de 11,7% na comparação com o mesmo período de 2025 e de 5,3% frente ao segundo trimestre deste ano.
+  – Também pesaram a favor o ramp-up dos FPSOs P-78 e P-79, no campo de Búzios, a chegada do FPSO Alexandre de Gusmão ao topo de produção, no campo de Mero, e a redução das perdas com paradas para manutenção.
+  – Ao longo do trimestre, 12 novos poços produtores começaram a operar: seis na Bacia de Campos e seis na Bacia de Santos.
+Link: https://www.suno.com.br/noticias/petr4-recorde-producao-3t26-go/
+Por que importa: evento operacional afeta producao e custo no trimestre corrente
+Ativos: PETR4
+Como falar: 'saiu no Suno Noticias: Petrobras (PETR4) bate recorde de produção total no 3T26; confirmar o número no texto antes de repassar'
+Fonte: Suno Noticias 29/10 11h00
+id: E05-PETR4-67ef82f151-2026-10-29 · status: entregue
+
+[ATENÇÃO] E05 · PETR4 · Petrobras: produção recorde reforça visão para 3T; mercado vê dividendo de US$ 3,6 bi
+InfoMoney · 29/10 09h58 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – A produção de petróleo atingiu 2,83 milhões de barris por dia, também com crescimento de 5% na base trimestral e de 12% em um ano.
+  – O desempenho foi sustentado principalmente pelo ramp-up das plataformas P-78 e P-79, em Búzios, e pela plataforma Alexandre de Gusmão, no campo de Mero, que atingiu seu pico de produção.
+  – A produção do pré-sal alcançou 2,45 milhões de barris por dia, um crescimento de 7% frente ao trimestre anterior e de 16% em relação ao mesmo período de 2025.
+  – “O crescimento da produção continua acima do esperado e abre espaço para novas revisões para cima das estimativas do mercado”, destacaram os analistas do Bradesco BBI.
+  – Segundo a XP Investimentos, o Brent teve preço médio de US$ 96,8 por barril entre julho e setembro, queda de 8% em relação ao trimestre anterior.
+  – Como consequência, a casa projeta EBITDA (lucro antes de juros, impostos, depreciações e amortizações) de cerca de US$ 17,3 bilhões, abaixo dos US$ 19 bilhões registrados no segundo trimestre.
+Link: https://www.infomoney.com.br/mercados/petrobras-producao-recorde-reforca-visao-para-3t-mercado-ve-dividendo-de-us-36-bi/
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: PETR4
+Como falar: 'saiu no InfoMoney: Petrobras: produção recorde reforça visão para 3T; mercado vê dividendo de US$ 3,6 bi; confirmar o número no texto antes de repassar'
+Fonte: InfoMoney 29/10 09h58
+id: E05-PETR4-5ec5fae808-2026-10-29 · status: entregue
+
+[ATENÇÃO] E05 · VALE3 · Lucro da Vale pode cair mais de 40% no 3T26, mas ação pode surpreender após balanço desta quinta
+Estadao · 29/10 09h27 · fonte única · licença: manchete
+Link: https://www.estadao.com.br/einvestidor/cenarios-e-mercado/lucro-da-vale-pode-cair-mais-de-40-no-3t26-mas-acao-pode-surpreender-apos-balanco-desta-quinta/
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: VALE3
+Como falar: 'saiu no Estadao: Lucro da Vale pode cair mais de 40% no 3T26, mas ação pode surpreender após balanço desta…; confirmar o número no texto antes de repassar'
+Fonte: Estadao 29/10 09h27
+id: E05-VALE3-59fb997183-2026-10-29 · status: entregue
+
+[ATENÇÃO] E05 · BBDC4 · Bradesco (BBDC4) sofre segundo rebaixamento e JPMorgan corta preço-alvo em quase 30%
+InfoMoney · 29/10 08h56 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Além disso, reduziu o preço-alvo para dezembro de 2027 de R$ 26 para R$ 18, um corte de quase 31%.
+  – Na véspera, o Itaú BBA havia alertado que “a combinação de atividade econômica mais fraca, juros mais elevados e aumento das provisões para perdas com crédito deve limitar os avanços de rentabilidade observados nos últi…
+  – Na ocasião, o banco também rebaixou BBDC4 para market perform (equivalente à neutra) e reduziu seu preço-alvo para R$ 20.
+  – O banco estima que o retorno sobre patrimônio (ROE) recue de cerca de 15% em 2026 para 14% em 2027, enquanto o crescimento do lucro líquido seria de apenas 2% no período, para aproximadamente R$ 27,9 bilhões.
+  – Como resultado, a projeção é que o crescimento da carteira recue para cerca de 6% nos próximos trimestres.
+  – O relatório incorpora uma redução de 10 pontos-base na margem financeira dos clientes.
+Link: https://www.infomoney.com.br/mercados/bradesco-bbdc4-sofre-segundo-rebaixamento-e-jpmorgan-corta-preco-alvo-em-quase-30/
+Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
+Ativos: BBDC4 · JPM
+Como falar: 'saiu no InfoMoney: Bradesco (BBDC4) sofre segundo rebaixamento e JPMorgan corta preço-alvo em quase 30%; confirmar o número no texto antes de repassar'
+Fonte: InfoMoney 29/10 08h56
+id: E05-BBDC4-7b3dad1772-2026-10-29 · status: entregue
+
+[ATENÇÃO] E05 · PETR4 · Produção da Petrobras bate recorde no 3º tri e importação de diesel dispara
+Exame · 28/10 20h38 · + UOL Economia, ADVFN · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Petrobras: dados de produção do 3º tri bateram recorde (MAURO PIMENTEL/AFP/Getty Images) A Petrobras (PETR4) nunca extraiu tanto petróleo e gás quanto no terceiro trimestre de 2026.
+  – Segundo o relatório de produção e vendas divulgado nesta quarta-feira, 28, a produção própria média chegou a 3,51 milhões de barris de óleo equivalente por dia (boed), unidade que soma o petróleo e o gás natural convert…
+  – O volume é 11,7% maior que o de um ano antes e 5,3% superior ao do segundo trimestre, que já tinha sido recorde.
+  – O pré-sal sustentou o avanço, com produção própria de 2,96 milhões de boed.
+  – Somando a parte dos sócios nos campos operados pela estatal, a produção total passou pela primeira vez de 5 milhões de boed.
+  – "Superamos as nossas metas!", afirmou Sylvia Anjos, diretora de Exploração e Produção, no relatório.
+Link: https://exame.com/invest/mercados/producao-da-petrobras-bate-recorde-no-3o-tri-e-importacao-de-diesel-dispara/
+Por que importa: evento operacional afeta producao e custo no trimestre corrente
+Ativos: PETR4 · BRENT
+Como falar: 'saiu no Exame: Produção da Petrobras bate recorde no 3º tri e importação de diesel dispara; confirmar o número no texto antes de repassar'
+Fonte: Exame 28/10 20h38
+id: E05-PETR4-36c78b3310-2026-10-28 · status: entregue
+
+[ATENÇÃO] E05 · GOOGL · Samsung and Google ruin the party: Earnings misses drive tech futures lower as the Fed signals rate hikes ahead
+Fortune · 29/10 08h04 · fonte única · licença: manchete
+Link: https://fortune.com/2026/10/29/samsung-google-earnings-tech-futures-the-fed-rate/
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: GOOGL
+Como falar: 'saiu no Fortune: Samsung and Google ruin the party: Earnings misses drive tech futures lower as the Fed si…; confirmar o número no texto antes de repassar'
+Fonte: Fortune 29/10 08h04
+id: E05-GOOGL-db185f4b40-2026-10-29 · status: entregue
+
+[ATENÇÃO] E05 · BTC · How to Get Offered $3 Million in Bitcoin Bets: Call It a ‘Dead Network’ on X
+Yahoo Finance · 29/10 07h45 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Three investors have each offered Jason Calacanis a $1 million Bitcoin bet.
+  – The clash comes as Bitcoin still trades well below its October 2025 peak.
+  – Why Calacanis Wants Holders to Sell Now The post that triggered the Bitcoin bet offers came on October 27.
+  – He cited outflows from spot Bitcoin ETFs and expects a retest of $57,000 within 12 months.
+  – The angel investor also called Bitcoin a "dead network" that offers little beyond a store of value.
+  – The world needs both." Bitcoin Bet Offers Test How Long "Never" Lasts All four challengers bet on the same outcome.
+Link: https://finance.yahoo.com/markets/crypto/articles/offered-3-million-bitcoin-bets-104553362.html
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: BTC
+Como falar: 'saiu no Yahoo Finance: How to Get Offered $3 Million in Bitcoin Bets: Call It a ‘Dead Network’ on X; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 29/10 07h45
+id: E05-BTC-0c5672782d-2026-10-29 · status: entregue
+
+[ATENÇÃO] E05 · VALE3 · Lucro líquido da Vale (VALE3) deve cair quase 50% no 3T26: veja os motivos e o que mais esperar do balanço
+Money Times · 29/10 07h00 · + Seu Dinheiro · licença: integral
+Do texto:
+  – Lucro líquido da Vale (VALE3) deve cair quase 50% no 3T26: veja os motivos e o que mais esperar do balanço Quando o assunto é Vale (VALE3), o minério de ferro costuma ser a primeira commodity de que nos lembramos.
+  – A companhia divulga os resultados do terceiro trimestre (3T26) após o fechamento do mercado nesta quinta-feira (29).
+  – De acordo com o consenso de mercado compilado pela Bloomberg, o lucro líquido atribuível aos acionistas deve cair mais de 48% na base anual, para R$ 7,598 bilhões.
+  – Já para o Ebitda (lucro antes de juros, impostos, depreciação e amortização), o mercado espera um tombo de 24,13%, para R$ 18,03 bilhões.
+  – No trimestre, o óleo teve preço médio de US$ 91,29, queda de 5,6% na comparação trimestral, mas alta de 34% em relação ao mesmo período de 2025.
+  – O C1 abrange os gastos da mina ao porto, mas não inclui o frete marítimo até a China nem outras despesas, como royalties.
+Link: https://www.moneytimes.com.br/lucro-liquido-da-vale-vale3-deve-cair-quase-50-no-3t26-veja-os-motivos-e-o-que-mais-esperar-do-balanco-bdap/
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: VALE3
+Como falar: 'saiu no Money Times: Lucro líquido da Vale (VALE3) deve cair quase 50% no 3T26: veja os motivos e o que mais e…; confirmar o número no texto antes de repassar'
+Fonte: Money Times 29/10 07h00
+id: E05-VALE3-1bf6ee3305-2026-10-29 · status: entregue · íntegra disponível
 
 
-## OUTRAS NOTÍCIAS (só manchete) (188)
+## OUTRAS NOTÍCIAS (só manchete) (24)
 
+· JPM JPMorgan Global Select Equity ETF (JGLO) Adds Microsoft and NXP on Oct. 29 (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/jpmorgan-global-select-equity-etf-110611845.html
+· BAC ETFs Bought $24.4 Million of Bank of America (BAC) on Oct. 29 (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/etfs-bought-24-4-million-110157410.html
+· GOOGL Alphabet Plummets After Earnings. I Think the Stock Looks Like a Genius Buy Now. (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/alphabet-plummets-earnings-think-stock-110100353.html
+· CVX Chevron reports net income of $9.9bn in Q3 2026 (Yahoo Finance) https://finance.yahoo.com/news/chevron-reports-net-income-9-103642671.html
+· NVDA Microsoft, Nvidia, JPMorgan Among 50 US Giants Blocking Tokenized Shares on OKXICE (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/microsoft-nvidia-jpmorgan-among-50-102536994.html
+· PLTR Palantir Earnings: Can the Stock’s Run Keep Going? (Barron's) https://www.barrons.com/articles/palantir-earnings-stock-price-d18e9a00
+· BTC Bitcoin holds above $77K ahead of US midterm elections (TradingView (Reuters)) https://www.tradingview.com/news/cryptobriefing:69c8c90e0094b:0-bitcoin-holds-above-77k-ahead-of-us-midterm-elections/
+· LITE Lumentum stock named top AI optics pick by B. Riley on capacity (Investing.com) https://www.investing.com/news/analyst-ratings/lumentum-stock-named-top-ai-optics-pick-by-b-riley-on-capacity-93CH-4990489
+· ITUB4 3T26: Itaú (ITUB4), Axia (AXIA3), Prio (PRIO3) e mais; veja quais empresas divulgam balanços nesta semana (Money Times) https://www.moneytimes.com.br/3t26-itau-itub4-axia-axia3-prio-prio3-balancos-nesta-semana-mlem/
+· JPM LANXESS Aktiengesellschaft (LXS) Receives JPMorgan Voting Rights Notice (TradingView (Reuters)) https://www.tradingview.com/news/tradingview:b370957aa54d5:0-lanxess-aktiengesellschaft-lxs-receives-jpmorgan-voting-rights-notice/
+· BTC BTC heads into US midterm showdown: Three things to know in Bitcoin this week (TradingView (Reuters)) https://www.tradingview.com/news/cointelegraph:05fe1e445094b:0-btc-heads-into-us-midterm-showdown-three-things-to-know-in-bitcoin-this-week/
+· BABA Alibaba Group Holding Limited (9988.HK) stock price, news, quote and history (Yahoo Finance) https://news.google.com/rss/articles/CBMiVkFVX3lxTE01a0tmMGlyLUw3Q2pLd0hNX1dvOWFOMURrNjJwSnZ4dEJLMm5HUDlxMjUxM2JQVmFTVWVHNThIaEprVVVxQkRsNHVjYzVzdVNvWDZUeEN3?oc=5
+· BRENT Treasury yields mixed as oil prices tumble ahead of the midterms (CNBC) https://news.google.com/rss/articles/CBMibkFVX3lxTE9zeUV1S0FMQzdjaTU2S0djZmVVMjNSZ0hKMGdGdHpjU1p3NEs0ckRaNjJlemVySWtTeWZGMkNraWVmR1F5Y3RjUHhxZkxiRlpRXy1UY1VTYm9fWm5WTzhjRDlWOENzazhrWGhkZW130gFzQVVfeXFMUDNESWlyVGRXTEFHaHJxSFp1YXNkeWlQNkk2cXU4eG9maHROb3lZdzhMRzRJOWptcGF4bjZNZzlkTTE0cERiQ25vMGh1MUpvRGFHd3pMaE94N2dCcENocHJ3QlhVLWVlM1dpemVmV2QtWWhidw?oc=5
+· PLTR The Zacks Analyst Blog Highlights Palantir, Microsoft and Oracle (Yahoo Finance) https://news.google.com/rss/articles/CBMipgFBVV95cUxOVjlLVTd3NWZ0amJTUU5UdXhyT0hGMDV1eGFsT3pITDdYR3U2MVRFaE1PRFNSdW9GbVExd0lpbUM4Ny1oUnRsUi1FclJUREJRLTRESTMwWXVYanp6QW9iSklhUU1pVFJkR3BEcnE0QkM3N2N6T1VJZTY0RVg4eE1wNHlEa0dVVGVCUnJHUUtrMC12S1pfWkJtUFktSUNVZEE3NENoZ19R?oc=5
+· MINERIO Iron ore stabilises on slower-than-expected China demand fall (TradingView (Reuters)) https://news.google.com/rss/articles/CBMiywFBVV95cUxNRktWRlJCRWlsTDJaZFJORDVtbzNYbjJQb3lGLTlKTng3QlAzUV9RRFZUR3E2S2M2ZUZRZk5CbzZtSDRqYV9TR1A2eXdCQkIzVXVsSFktcmREUE5hc3gwRldWSWd4RktvYTRtaFJfdXBhV0pYT1FJY1BraHNjZXU4bFBzRFRKWWNEWnFFaXJKS0ZDNW1pM0xKa2JKelNrNWtjeEhuYmVRNUdpc3N1aTVEWllBMU1wZ3RvcDNLZWpEU2V4YnpDcHUzUDhIbw?oc=5
 · INTC Is Intel Stock a Buy After Its Post-Earnings Plunge? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/intel-stock-buy-post-earnings-233402630.html
 · BBAS3 Banco do Brasil tenta recuperar bilhões no agro, mas plano decepciona e ameaça reação dos lucros (Estadao) https://www.estadao.com.br/einvestidor/onde-investir/banco-do-brasil-tenta-recuperar-bilhoes-no-agro-mas-plano-decepciona-e-ameaca-reacao-dos-lucros/
 · BTC How Much Bitcoin Would You Need to Be a Millionaire if It Gets Back to Its Record High? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/much-bitcoin-millionaire-gets-back-224940394.html
@@ -366,55 +690,3 @@ id: E05-KO-57cc816b05-2026-10-29 · status: linha
 · MU Why Micron Stock Dove Today (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/why-micron-stock-dove-today-155648098.html
 · AXIA3 Axia (ex-Eletrobras) tem decisão favorável em disputa de quase R$ 5 bilhões no STJ (O Globo) https://oglobo.globo.com/blogs/capital/post/2026/10/axia-ex-eletrobras-tem-decisao-favoravel-em-disputa-de-quase-r-5-bilhoes-no-stj.ghtml
 · CVX Exxon, Chevron earnings propelled by war-driven refining surge (TradingView (Reuters)) https://www.tradingview.com/news/reuters.com,2026:newsml_L6N46E1FQ:0-exxon-chevron-earnings-propelled-by-war-driven-refining-surge/
-· SMAL11 Small Caps caem 32,79% e registram maior queda semanal da história (CNN Brasil) https://www.cnnbrasil.com.br/economia/money/mercado/elos-ayta-small-caps-cai-3279-e-registra-maior-queda-semanal-da-historia/
-· USDBRL Dólar fecha a R$ 5,44 e registra maior alta semanal desde 2008 (Agencia Brasil) https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/dolar-fecha-r-544-e-registra-maior-alta-semanal-desde-2008
-· BTC Bitwise's Matt Hougan: $6.3 billion Binance hack won't hurt Bitcoin long-term (CNBC) https://www.cnbc.com/video/2026/10/30/bitwises-matt-hogan-6-point-3b-binance-hack-wont-hurt-bitcoin-long-term.html
-· DI Reeleição de Lula sacode apostas sobre juros, e BC decide a Selic com mercado dividido (Bloomberg Linea) https://www.bloomberglinea.com.br/brasil/reeleicao-de-lula-sacode-apostas-sobre-juros-e-bc-decide-a-selic-com-mercado-dividido/
-· INTC Intel’s stock crashes, knocking $12B from government’s stake (TechCrunch) https://techcrunch.com/2026/10/30/intels-stock-crashes-knocking-12b-from-governments-stake/
-· DI Taxas de juros sobem com maior risco fiscal e cenário de manutenção da Selic - TNOnline (UOL Economia) https://tnonline.uol.com.br/noticias/economia/taxas-de-juros-sobem-com-maior-risco-fiscal-e-cenario-de-manutencao-da-selic-1169925
-· BAC Bank of America 3Q 2026: Revenue $30B, Net income $6.5B, EPS $0.91— 10-Q Summary (TradingView (Reuters)) https://www.tradingview.com/news/tradingview:b49719cabead8:0-bank-of-america-3q-2026-revenue-30b-net-income-6-5b-eps-0-91-10-q-summary/
-· USDBRL Bolsa cai 17,5% na semana da vitória de Lula e tem pior resultado desde 2020; dólar sobe 9% (Folha de S.Paulo) https://www1.folha.uol.com.br/mercado/2026/10/bolsa-cai-175-na-semana-da-vitoria-de-lula-e-tem-pior-resultado-desde-2020.shtml
-· JPM Bank of America vs. JPMorgan Chase: Diverging Quarterly Revenue Trends for These Financial Giants (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/bank-america-vs-jpmorgan-chase-202002761.html
-· BTC Analysts clash over whether Binance hack is Bitcoin’s FTX moment (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/analysts-clash-over-whether-binance-193132437.html
-· VALE3 Vale considera improvável dividendo extraordinário neste ano, diz CFO (UOL Economia) https://economia.uol.com.br/noticias/reuters/2026/10/30/vale-considera-improvavel-dividendo-extraordinario-neste-ano-diz-cfo.htm
-· NVDA NVIDIA Stock: Analyst Estimates & Ratings (Yahoo Finance) https://news.google.com/rss/articles/CBMipgFBVV95cUxNS3F4WldNbXdBemQ2d2I5OUZkQmJrYTdFcUZGRHpCSlV3TDlQSjZVbzRsMUFXWmh4M2RIYjRKUERieUhBUkN2Ym9ENElqZ19JWEtLWHkyaEZBTTRYemR1MVR0WHltSlNpN0tZcy1vTE0yRTJUVGdlckNxX0JNeVRZdlpqbEFTUHcwci1FZEhCOUtQM19FRG9WNERqa0Uxd293a1lKSHpR?oc=5
-· USDBRL Ibovespa tem pior mês desde junho de 2022; dólar sobe 5,22% em outubro (UOL Economia) https://economia.uol.com.br/cotacoes/noticias/redacao/2026/10/30/ibovespa-tem-pior-mes-desde-junho-de-2022-dolar-sobe-522-em-outubro.amp.htm
-· BTC Crypto Market Today, Oct. 30: Bitcoin Tests Key Support as Binance Hack and Tech Sell-Off Rattle Markets (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/crypto-market-today-oct-30-211002892.html
-· INTC Jim Cramer Admits He Was Wrong About Intel as Stock Plunges 29% (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/jim-cramer-admits-wrong-intel-210958237.html
-· USDBRL Dólar sobe 1,05%, a R$ 5,444; Ibovespa cai 0,75% (Poder360) https://www.poder360.com.br/poder-economia/dolar-sobe-105-a-r-5444-ibovespa-cai-075/
-· INTC Intel stock plunges nearly 29%, its worst day since 1974 (Yahoo Finance) https://finance.yahoo.com/markets/article/intel-stock-plunges-nearly-29-its-worst-day-since-1974-205955309.html
-· CVX Chevron Corporation Q3 2026 Earnings Call Summary (Yahoo Finance) https://finance.yahoo.com/energy/articles/chevron-corporation-q3-2026-earnings-205039802.html
-· INTC Why Intel’s stock saw its worst day in decades — and a $140 billion wipeout (MarketWatch) https://www.marketwatch.com/story/why-intels-stock-is-sinking-toward-its-worst-drop-in-two-years-492d71a7
-· DI Tesouro Selic e CDI: só sobreviveram à sangria pós-eleição os investimentos que nunca perdem; veja o ranking de outubro (Seu Dinheiro) https://www.seudinheiro.com/2026/financas-pessoais/tesouro-selic-e-cdi-so-sobreviveram-a-sangria-pos-eleicao-os-investimentos-que-nunca-perdem-mlim/
-· UST Silver Is Falling Despite Lower Treasury Yields and a Persistent Supply Deficit (Investing.com) https://www.investing.com/analysis/silver-is-falling-despite-lower-treasury-yields-and-a-persistent-supply-deficit-200690614
-· AMZN U.S. Stocks Slide as Amazon, Intel Earnings Spark More AI Selling (The Wall Street Journal) https://www.wsj.com/finance/stocks/u-s-stocks-slide-as-amazon-intel-earnings-spark-more-ai-selling-5670f50d
-· PETR4 Petrobras (PETR4) fecha outubro com nível elevado de utilização das refinarias, de 98%, diz diretor (Money Times) https://www.moneytimes.com.br/petrobras-petr4-fecha-outubro-com-nivel-elevado-de-utilizacao-das-refinarias-de-98-diz-diretor/
-· USDBRL Ibovespa tem 5ª queda seguida com incerteza fiscal e registra pior semana em seis anos; dólar sobe a R$ 5,44 (Money Times) https://www.moneytimes.com.br/ibovespa-30-10-26-lils/
-· USDBRL Dólar dispara 9,04% na semana com incertezas fiscais e expectativas sobre a Selic (ADVFN) https://news.google.com/rss/articles/CBMitwFBVV95cUxPeUt3OG50clhuQmtmTXA4NFVBRGU0Y1FYNVVBejR0NVc4X19rNmtUTkxvOFR4Y3hvekxfRVZTUW16M3p1ZlVHMGdOSnZPRUFWQWF6ekY1SlFUVjBIYk9aTml1a09RY3N5SEhBdmdKUHN2ZnlObkpRdnJ5eFB0aVEyX3J3Q0x0QmZKbnpiTlRnSy1lUEMwYUQyeGRuRUxfenlLVi01ampKRUFZMjZnSTZmLWhSNXRuQm8?oc=5
-· USDBRL Dólar tem maior alta semanal desde 2008; Ibovespa despenca 18,12% (UOL Economia) https://news.google.com/rss/articles/CBMizAFBVV95cUxOV0N3MkVGTFVvUEtYZWQyTEdFa3dqTm16cFAwNjVZcXgxMzJSdUlrcmpmaFhXcXotS0t2Z1ZrdHIxSlNIMkZMOWQ0S2cxbjNSVkM1dTN4a0djclVzajQwamFwS2ZEclNJN3BibkhoTWZQNzhEWnhiVElLYUdHSFFlLWFJREwxLWVscjJmRjVZVGFPT09lbEJONVVxaWFBaEVkYzhMcWo3ZkhsR3pFdGJjM01Yb0pPM3Q1MWJab2xUNDBKV2NMa2NOb01tQVg?oc=5
-· GOOGL Alphabet Stocks Move Higher With Cloud Backlog Above $560 Billion (Yahoo Finance) https://news.google.com/rss/articles/CBMinwFBVV95cUxPVnFBNEFrN0ZfRGdSOW1uallKcmRPX1QxQ29nT054RTJLQ0FmSmZqbERJd05ZODIwY0wzb0FxQ1JRUGo0MGlNQ1NZelk5aURJQXBQTjFyMG83WnFWS044dENfNFJQcWt1UXlUWkdwT0JYVXFZaE9ERnFQNjhSbk9ob2RGcXEzemlQcGdTRU9WYV8zQ1dhRHp1X1VPbEY2VG8?oc=5
-· DI Uma reunião muito difícil para o Copom (Estadao) https://www.estadao.com.br/economia/fernando-dantas/uma-reuniao-muito-dificil-para-o-copom/
-· DI Itaú vê fim do ciclo de cortes da Selic diante de cenário mais adverso (NeoFeed) https://neofeed.com.br/economia/itau-ve-fim-do-ciclo-de-cortes-da-selic-diante-de-cenario-mais-adverso/
-· BTC Worried About Crypto Hacks? Buy Bitcoin Proxies in Stock Market Instead, Say Wall Street Firms (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/worried-crypto-hacks-buy-bitcoin-200603005.html
-· USDBRL Dólar tem nova alta e fecha a R$ 5,44; moeda dispara 9% na semana pós-eleições (Money Times) https://www.moneytimes.com.br/dolar-30-10-26-lils/
-· INTC Nasdaq cai quase 4% com tombo da Intel e temor sobre gastos com IA (UOL Economia) https://economia.uol.com.br/cotacoes/noticias/redacao/2026/10/30/nasdaq-cai-quase-4-com-tombo-da-intel-e-temor-sobre-gastos-com-ia.htm
-· ITUB4 Copom vai manter taxa de juros em 1ª reunião após eleições, projeta Itaú (Estadao) https://www.estadao.com.br/cultura/alice-ferraz/copom-vai-manter-taxa-de-juros-em-1-reuniao-apos-eleicoes-projeta-itau/
-· PLTR Palantir Stocks Decline 4.94% Before an 11.7% Sequential Revenue Growth Test (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:4e7795c31094b:0-palantir-stocks-decline-4-94-before-an-11-7-sequential-revenue-growth-test/
-· USDBRL Bolsa caminha para 5ª queda consecutiva enquanto dólar vai a R$ 5,45 (CNN Brasil) https://www.cnnbrasil.com.br/economia/money/mercado/mercado-financeiro-ibovespa-dolar-30-outubro-2026/
-· MU Micron Stock: Why I'm Buying, Not Panicking (NASDAQ:MU) (Seeking Alpha) https://seekingalpha.com/article/4960407-micron-stock-why-im-buying-not-panicking
-· BTC Bitcoin Drops as Markets Digest Multbillion-Dollar Binance Hack (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-drops-markets-digest-multbillion-184920368.html
-· AVGO Broadcom Stock Outlook Hinges On AI Chip Growth And Anthropic Partnership (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/broadcom-stock-outlook-hinges-ai-181030148.html
-· MRVL Marvell may buy its own laser supplier as investors pull back (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/marvell-may-buy-own-laser-173300570.html
-· PLTR Will Top-Line Improvement Benefit Palantir in Q3 Earnings? (TradingView (Reuters)) https://www.tradingview.com/news/zacks:22abe701f094b:0-will-top-line-improvement-benefit-palantir-in-q3-earnings/
-· INTC Intel Suffers Worst Stock Thrashing in Decades on Weak Forecast (Bloomberg) https://news.google.com/rss/articles/CBMisgFBVV95cUxPaURpSDFJSVlDdjY1d0wtcmQxOVpjYmowVTBSaEZCelVCWGNoVGI2VVR2UWNVcVZDVHVyUjFIMWdvQ0FfQ1dDdkpXWmdKUXRuNG9wVnlJRjNPTzFvcTB1TFV0QjdIVHhUZEZhOHFrdGJfSGNHbF9La09hYVhrempMWm5mTHZWMlJKUElqXzNYbjJKa3ZpZ0dZTE5Kb3JHb212eEtyNUQzNkltOUhnTlVNNWlR?oc=5
-· CVX Chevron Corp. R (CHV.F) Q3 FY2026 earnings call transcript (Yahoo Finance) https://news.google.com/rss/articles/CBMijwFBVV95cUxOUnF5bFZIaVN5WlR2LXJxR0dLalQzeVJGR0p1Yl80UjluaTRTTHFhby1XS0JUSmd6NmpReE5hZjhYcEtQMks1ZUxtLVc5cEgyYlhCc2pjdTZGQzhEbHZrb0VGV0ZFYlhxQXFLX0lEWFNIdDFfXzRwOTFIQXNDNVhNZmlhMGRCczBFZHV5VHJldw?oc=5
-· BTC 'Sentiment will take a hit': Binance $6.3 billion hack rattles bitcoin, crypto market (Yahoo Finance) https://finance.yahoo.com/markets/article/copy-intel-amazon-lead-tech-lower-bitcoin-falls-on-suspected-biggest-crypto-hack-in-history-alphacheck-190920999.html
-· INTC Update: Nasdaq Plummets 975 Points as Intel's Results Help Trigger Sell-Off in Mega-Cap Chipmakers (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/nasdaq-plummets-975-points-intel-185707804.html
-· BBDC4 Magalu tem ventos favoráveis, mas macro desafiador; Bradesco BBI mantém visão neutra (InfoMoney) https://www.infomoney.com.br/mercados/magalu-mglu3-tem-ventos-favoraveis-mas-macro-desafiador-bbi-mantem-visao-neutra/
-· VALE3 Vale (VALE3) está entre as maiores altas do Ibovespa mesmo após balanço fraco no 3T26. O que explica? (Money Times) https://www.moneytimes.com.br/vale-vale3-lidera-ganhos-do-ibovespa-mesmo-apos-balanco-fraco-o-que-explica-bdap/
-· BTC Binance Hack: Why Bitcoin Didn't Crash Like It Did in 2018 (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/binance-hack-why-bitcoin-didnt-184503731.html
-· CVX Chevron Stocks Rise 1.53% With Strong Cash Flow Despite Sequential Earnings Decline (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/chevron-stocks-rise-1-53-182817138.html
-· BTC Bitcoin Price Could Fall as Dollar Debasement Trade Unravels, Connection Capital Founder Warns (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-price-could-fall-dollar-181541468.html
-· CVX Exxon, Chevron profits beat forecasts, refining margins surge during wars (Reuters) https://www.reuters.com/business/energy/wrapup-exxon-chevron-earnings-propelled-by-war-driven-refining-surge-2026-10-30/
-· MU Micron Peer Enthusiasm Entices Me To Buy Again (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/micron-peer-enthusiasm-entices-buy-164543655.html
-· (+128 manchetes; lista completa em eventos/noticias.json)
