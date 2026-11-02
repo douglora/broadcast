@@ -1,49 +1,31 @@
 ALERTAS · intradia
 
-[ATENÇÃO] E05 · CVX · Chevron's Q3 Results Support Higher Free Cash Flow Outlook, Morgan Stanley Says
-Yahoo Finance · 02/11 13h25 · fonte única · licença: resumo
-Link: https://ca.finance.yahoo.com/news/chevron-apos-q3-results-support-162504867.html
-Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
-Ativos: CVX
-Como falar: 'saiu no Yahoo Finance: Chevron's Q3 Results Support Higher Free Cash Flow Outlook, Morgan Stanley Says; confirmar o número no texto antes de repassar'
-Fonte: Yahoo Finance 02/11 13h25
-Push: intradia: 3 alertas de atenção — E05 CVX, E05 MRVL, E05 BAC · detalhe na sessão
-ids: E05-CVX-beba829152-2026-11-02
-
-[ATENÇÃO] E05 · MRVL · Marvell to Acquire Lumentum in $115 Billion All-Stock Deal
-Yahoo Finance · 02/11 12h58 · fonte única · licença: resumo
-Link: https://ca.finance.yahoo.com/news/marvell-acquire-lumentum-115-billion-155843331.html
-Por que importa: aquisicao ou venda muda alavancagem, mix de receita e o multiplo; olhar preco pago e financiamento
-Ativos: MRVL · LITE
-Como falar: 'saiu no Yahoo Finance: Marvell to Acquire Lumentum in $115 Billion All-Stock Deal; confirmar o número no texto antes de repassar'
-Fonte: Yahoo Finance 02/11 12h58
-ids: E05-MRVL-86131c3507-2026-11-02
-
-[ATENÇÃO] E05 · BAC · Weekly Recap: Debt offering for buyback and Bank of America upgrade
-TradingView (Reuters) · 02/11 08h00 · fonte única · licença: manchete
-Link: https://www.tradingview.com/news/tradingview:8ee60eda413fe:0-weekly-recap-debt-offering-for-buyback-and-bank-of-america-upgrade/
-Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
-Ativos: BAC
-Como falar: 'saiu no TradingView (Reuters): Weekly Recap: Debt offering for buyback and Bank of America upgrade; confirmar o número no texto antes de repassar'
-Fonte: TradingView (Reuters) 02/11 08h00
-ids: E05-BAC-12f03eb905-2026-11-02
+[ATENÇÃO] E05 · AMZN · Lawsuit Claims Amazon Ignored Trucking Safety Warning Signs
+GlobeNewswire · 02/11 11h27 · fonte única · licença: integral
+Link: https://www.globenewswire.com/news-release/2026/11/02/3393286/0/en/lawsuit-claims-amazon-ignored-trucking-safety-warning-signs-before-fatal-crash-that-killed-u-s-air-force-airman-and-seriously-injured-his-wife.html
+Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e prazo
+Ativos: AMZN
+Como falar: 'saiu no GlobeNewswire: Lawsuit Claims Amazon Ignored Trucking Safety Warning Signs; confirmar o número no texto antes de repassar'
+Fonte: GlobeNewswire 02/11 11h27
+Push: [ATENÇÃO] AMZN · Lawsuit Claims Amazon Ignored Trucking Safety Warning · detalhe na sessão
+ids: E05-AMZN-605c9799ff-2026-11-02
 
 Info (só linha no Fechamento):
-· E05 GOOGL · What's Going on with Alphabet Stock? 3 Things Investors Should Know
-· E05 AMZN · Why Wall Street Is Coming Back Around on Amazon Stock
+· E05 GOOGL · Meta and Alphabet Face Serious Market Pressure Over Capex in Q4
+· E05 BRENT · Treasury Yields Extend Past Month’s Slide as Oil Prices Tumble
+· E05 GOOGL · Alphabet Lost a Record $500 Billion in a Day. Is This the Buying Opportunity?
+· E05 NVDA · Polymarket Traders Missed Nvidia’s October Drop. Here’s What They Predict for November.
+· E05 MRVL · Lumentum to Join Marvell in AI Optical Connectivity Push
 · E05 BTC · Binance reopens post-hack, and Strategy buys more bitcoin
-· E05 GOOGL · Amazon Climbs 5% as Upgrade Fuels Post-Earnings Rebound on AWS Strength; Walmart Rises 2%, Alphabet Edges Higher
-· E05 BTC · Strategy Makes Its Largest Bitcoin Purchase Since September, Keeps Buying Back More STRC
-· E05 AMZN · Amazon is on a course to spend half a trillion dollars in a single year: JPMorgan
-· E05 ETH · Bitmine Buys Another 8,573 ETH, Pushes Ethereum Holdings Past $13.7B
-· E05 BTC · Bitcoin giant Strategy, unfazed by Binance hack, adds over $65 million BTC to its holdings
-· E05 BTC · Strive Buys 124 Bitcoin, Moves Closer to Overtaking Metaplanet
+· E05 UST · US Treasury auction changes loom in 2027; dealers eye long-end cuts
+· E05 ETH · Bitmine Buys More Ethereum as Tom Lee Calls the Binance Hack Bullish
 · E05 INTC · Intel Gets Price Target Revamp but Keeps One Major Catalyst
-· E05 MRVL · Marvell Technology Targets $550B AI Optics Market With Lumentum Deal
-· E05 DI · BC deve manter Selic em 13,75% em uma pausa após a reeleição de Lula
-· E05 MRVL · COHR Stock Draws Upgrade As Marvell’s $115B Lumentum Deal Highlights ‘Value Of Scarce AI Optics’
-· E05 LITE · Lumentum (LITE) Beats Q1 Earnings and Revenue Estimates
-· E05 AMZN · JPMorgan's shocking capital expenditures estimates for Amazon, and worries for McDonald's ahead
+· E05 AMD · Buy, Sell or Hold AMD Stock? Key Tips Ahead of Q3 Earnings
+· E05 BTC · Brazil’s Mercado Bitcoin halts withdrawals after $40 million drained across 10 chains
+· E05 AMD · AMD Just Dropped 16% in a Month. Is It Time to Sell, or Load Up?
+· E05 MRVL · Marvell Could Be Making a $115 Billion Mistake With Lumentum Purchase
+· E05 GOOGL · Google Shareholder Alert: Alphabet Inc. Securities Class
+· E05 CVX · Chevron Corporation (CVX) Hit a 52 Week High, Can the Run Continue?
 · T08 XLK entrou em correção: -11% do pico de 52s (US$ 202,00 em 06/10) a US$ 179,51
 · T08 QTUM entrou em bear técnico: -21% do pico de 52s (US$ 168,76 em 02/06) a US$ 133,83
 · T08 INTC entrou em queda de -40% do pico: -53% do pico de 52s (US$ 140,94 em 22/06) a US$ 65,76
@@ -83,9 +65,10 @@ Alertas do dia (todos, com status):
 · linha     T08 LITE — LITE entrou em bear técnico: -26% do pico de 52s (US$ 1.133 em 06/10) a US$ 840,
 · linha     T08 UGPA3 — UGPA3 entrou em bear técnico: -21% do pico de 52s (R$ 40,03 em 21/10) a R$ 31,76
 · linha     T06 INTC — INTC -24% em 5 sessões a US$ 65,76: movimento de 3,7 desvios para a vol de 20 di
-· pendente  E05 CVX — CVX · Chevron's Q3 Results Support Higher Free Cash Flow Outlook, Morgan Stanley
-· pendente  E05 MRVL — MRVL · Marvell to Acquire Lumentum in $115 Billion All-Stock Deal
-· pendente  E05 BAC — BAC · Weekly Recap: Debt offering for buyback and Bank of America upgrade
+· pendente  E05 AMZN — AMZN · Lawsuit Claims Amazon Ignored Trucking Safety Warning Signs
+· entregue  E05 CVX — CVX · Chevron's Q3 Results Support Higher Free Cash Flow Outlook, Morgan Stanley
+· entregue  E05 MRVL — MRVL · Marvell to Acquire Lumentum in $115 Billion All-Stock Deal
+· entregue  E05 BAC — BAC · Weekly Recap: Debt offering for buyback and Bank of America upgrade
 · entregue  E05 MRVL — MRVL · Marvell Just Bet $115 Billion On AI's 'Once In A Generation' Opportunity.
 · entregue  E05 AMD — AMD · AMD's guidance in focus during Q3 results (AMD:NASDAQ)
 · entregue  E05 NVDA — NVDA · XMax signs Nvidia GPU deal, sees $100M+ revenue
@@ -145,7 +128,7 @@ Alertas do dia (todos, com status):
 · entregue  E05 CVX — CVX · Earnings Snapshot: Chevron beats Q3 EPS and revenue estimates; declares $1
 · entregue  E05 INTC — INTC · Intel Shares Plunge 25% as Weak Fourth-Quarter Outlook Overshadows Strong
 · entregue  E05 INTC — INTC · Intel plunges on a major guidance miss. What went wrong — and how to proc
-· linha     F03 BRENT — Brent cai a US$ 104,58 (-7,8% no dia · cruzou US$ 110) (parcial, intradia)
+· linha     F03 BRENT — Brent cai a US$ 104,86 (-7,6% no dia · cruzou US$ 110) (parcial, intradia)
 · linha     C03 DI — DI em nível: F32 na máxima de 252 pregões: 15,32% · F35 na máxima de 252 pregões
 · linha     T02 RBOT — RBOT (iShares Automation & Robotics UCITS ETF USD (Acc)) perdeu a MM50 pela 2ª s
 · linha     T02 IUAA — IUAA (iShares US Aggregate Bond UCITS ETF USD (Acc)) retomou a MM50 pela 2ª sess
@@ -158,4 +141,4 @@ Alertas do dia (todos, com status):
 · linha     T09 AMZN — AMZN -1,4% com volume 3,0x a mediana de 20 sessões, a US$ 240,35
 · linha     T10 WUTI — WUTI (State Street SPDR MSCI World Utilities UCITS ETF (USD)) no máximo de força
 · linha     F01 USDBRL — Real cai: USD/BRL 5,4425 (+9,1% em 5 sessões · 8 dias seguidos de movimento domé
-· (+88 notícias só manchete, em noticias.md)
+· (+103 notícias só manchete, em noticias.md)

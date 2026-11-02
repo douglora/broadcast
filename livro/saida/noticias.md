@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 02/11 14h16
+NOTÍCIAS E FATOS · 02/11 14h54
 
-Pernas: noticias ok 18 novas (18 consultas; descartadas: 402 veículo fora da lista, 28 sem ativo, 14 teto) · cvm ok 0 novos de 3 (3 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 16 novas (18 consultas; descartadas: 404 veículo fora da lista, 28 sem ativo, 8 teto) · cvm ok 0 novos de 3 (3 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (1)
 
@@ -37,7 +37,16 @@ Fonte: SEC EDGAR 2026-10-30
 id: E04-CVX-26000196-2026-10-30 · status: entregue · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (33)
+## NOTÍCIAS COM MATERIALIDADE (34)
+
+[ATENÇÃO] E05 · AMZN · Lawsuit Claims Amazon Ignored Trucking Safety Warning Signs
+GlobeNewswire · 02/11 11h27 · fonte única · licença: integral
+Link: https://www.globenewswire.com/news-release/2026/11/02/3393286/0/en/lawsuit-claims-amazon-ignored-trucking-safety-warning-signs-before-fatal-crash-that-killed-u-s-air-force-airman-and-seriously-injured-his-wife.html
+Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e prazo
+Ativos: AMZN
+Como falar: 'saiu no GlobeNewswire: Lawsuit Claims Amazon Ignored Trucking Safety Warning Signs; confirmar o número no texto antes de repassar'
+Fonte: GlobeNewswire 02/11 11h27
+id: E05-AMZN-605c9799ff-2026-11-02 · status: pendente
 
 [ATENÇÃO] E05 · CVX · Chevron's Q3 Results Support Higher Free Cash Flow Outlook, Morgan Stanley Says
 Yahoo Finance · 02/11 13h25 · fonte única · licença: resumo
@@ -46,7 +55,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: CVX
 Como falar: 'saiu no Yahoo Finance: Chevron's Q3 Results Support Higher Free Cash Flow Outlook, Morgan Stanley Says; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 02/11 13h25
-id: E05-CVX-beba829152-2026-11-02 · status: pendente
+id: E05-CVX-beba829152-2026-11-02 · status: entregue
 
 [ATENÇÃO] E05 · MRVL · Marvell to Acquire Lumentum in $115 Billion All-Stock Deal
 Yahoo Finance · 02/11 12h58 · fonte única · licença: resumo
@@ -55,7 +64,7 @@ Por que importa: aquisicao ou venda muda alavancagem, mix de receita e o multipl
 Ativos: MRVL · LITE
 Como falar: 'saiu no Yahoo Finance: Marvell to Acquire Lumentum in $115 Billion All-Stock Deal; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 02/11 12h58
-id: E05-MRVL-86131c3507-2026-11-02 · status: pendente
+id: E05-MRVL-86131c3507-2026-11-02 · status: entregue
 
 [ATENÇÃO] E05 · BAC · Weekly Recap: Debt offering for buyback and Bank of America upgrade
 TradingView (Reuters) · 02/11 08h00 · fonte única · licença: manchete
@@ -64,7 +73,7 @@ Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir
 Ativos: BAC
 Como falar: 'saiu no TradingView (Reuters): Weekly Recap: Debt offering for buyback and Bank of America upgrade; confirmar o número no texto antes de repassar'
 Fonte: TradingView (Reuters) 02/11 08h00
-id: E05-BAC-12f03eb905-2026-11-02 · status: pendente
+id: E05-BAC-12f03eb905-2026-11-02 · status: entregue
 
 [ATENÇÃO] E05 · MRVL · Marvell Just Bet $115 Billion On AI's 'Once In A Generation' Opportunity. Should You Buy The Stock?
 Yahoo Finance · 02/11 11h06 · fonte única · licença: resumo
@@ -428,8 +437,23 @@ Fonte: CNBC 29/10 22h06
 id: E05-INTC-8a46f101b3-2026-10-30 · status: entregue
 
 
-## OUTRAS NOTÍCIAS (só manchete) (83)
+## OUTRAS NOTÍCIAS (só manchete) (98)
 
+· GOOGL Meta and Alphabet Face Serious Market Pressure Over Capex in Q4 (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/meta-alphabet-face-serious-market-174514276.html
+· BRENT Treasury Yields Extend Past Month’s Slide as Oil Prices Tumble (Bloomberg) https://www.bloomberg.com/news/articles/2026-11-02/treasury-yields-extend-past-month-s-slide-as-oil-prices-tumble
+· GOOGL Alphabet Lost a Record $500 Billion in a Day. Is This the Buying Opportunity? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/alphabet-lost-record-500-billion-173351852.html
+· NVDA Polymarket Traders Missed Nvidia’s October Drop. Here’s What They Predict for November. (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/polymarket-traders-missed-nvidia-october-172010691.html
+· MRVL Lumentum to Join Marvell in AI Optical Connectivity Push (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/lumentum-join-marvell-ai-optical-171214180.html
+· BTC Binance reopens post-hack, and Strategy buys more bitcoin (Yahoo Finance) https://finance.yahoo.com/video/binance-reopens-post-hack-strategy-170000923.html
+· UST US Treasury auction changes loom in 2027; dealers eye long-end cuts (Yahoo Finance) https://finance.yahoo.com/economy/policy/articles/us-treasury-auction-changes-loom-162929050.html
+· ETH Bitmine Buys More Ethereum as Tom Lee Calls the Binance Hack Bullish (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitmine-buys-more-ethereum-tom-162324144.html
+· INTC Intel Gets Price Target Revamp but Keeps One Major Catalyst (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/intel-gets-price-target-revamp-161550212.html
+· AMD Buy, Sell or Hold AMD Stock? Key Tips Ahead of Q3 Earnings (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/buy-sell-hold-amd-stock-161400261.html
+· BTC Brazil’s Mercado Bitcoin halts withdrawals after $40 million drained across 10 chains (CoinDesk) https://www.coindesk.com/business/2026/11/02/brazil-s-mercado-bitcoin-halts-withdrawals-after-usd40-million-drained-across-10-chains
+· AMD AMD Just Dropped 16% in a Month. Is It Time to Sell, or Load Up? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/amd-just-dropped-16-month-152828456.html
+· MRVL Marvell Could Be Making a $115 Billion Mistake With Lumentum Purchase (Barron's) https://www.barrons.com/articles/marvell-stock-lumentum-acquisition-ai-data-centers-c5708ddf
+· GOOGL Google Shareholder Alert: Alphabet Inc. Securities Class (GlobeNewswire) https://www.globenewswire.com/news-release/2026/11/02/3393359/3080/en/google-shareholder-alert-alphabet-inc-securities-class-action-lawsuit-investors-with-losses-may-contact-levi-korsinsky.html
+· CVX Chevron Corporation (CVX) Hit a 52 Week High, Can the Run Continue? (Yahoo Finance) https://news.google.com/rss/articles/CBMimwFBVV95cUxQd0pLd1ZvRS1jbkxFdFkwVWtJcGpyS0FpRXRoVGxlYXgtejA0SGdJeDJwazhZUk5hN2pvWm5yMzRYQ3hhcXdRd1Y4WUhfWUZ6WjZNM3RZbkU4eDFoZF9lb3ZZX3UyYzJqN0Y3ak9OMUdia1U3YVQ4MEtlcWxOV0JLS01kdURFaHNCSU1jVGV5bXB6WjhubW50aDVHZw?oc=5
 · GOOGL What's Going on with Alphabet Stock? 3 Things Investors Should Know (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/whats-going-alphabet-stock-3-170500565.html
 · AMZN Why Wall Street Is Coming Back Around on Amazon Stock (Barron's) https://www.barrons.com/articles/amazon-web-services-stock-earnings-c4f9ea8a
 · BTC Binance reopens post-hack, and Strategy buys more bitcoin (Yahoo Finance) https://sg.finance.yahoo.com/video/binance-reopens-post-hack-strategy-170000923.html
@@ -475,19 +499,4 @@ id: E05-INTC-8a46f101b3-2026-10-30 · status: entregue
 · CVX CVX Q3 Earnings Call Highlights Venezuela Growth and Refining Gains (Yahoo Finance) https://news.google.com/rss/articles/CBMikgFBVV95cUxNbEktUENOWTFULUZtWEtjWUJpUzh0R080UTZ3UEJYTHFhNjRTX0NKd1B6VTFobmg4ZFpoelBGX0pyR3JuTExtWVNxbHdHaldEdHJkZXZZRzlHWHhmWHlLQy1UbmZtMVNQbk1FNUx1cVFjd2hTX3BnU011ak5UalpZT1V4My16VERDZVJxNGVaaXRoQQ?oc=5
 · LITE Lumentum Holdings Inc earnings beat by $0.36, revenue topped estimates (Investing.com) https://news.google.com/rss/articles/CBMitAFBVV95cUxPYUdFZ0FQdk9yWjVJV3ZFWFB4eEZzcEpNNXJQcmtqb2Ezcy1ZRC1LU0ktbVdxRndsQlJkRXB5bEFmQ0ViNHRmZTVQQVZLM2k3UWJ2Zkl1SlhSb2gzSHFIMHdTX181REU3dF90ZlhLcGpXYXlzQVZSeVFnOXBrUXpjUXF0V1V3VkVISTJ1VnFCZFBMS3N0ai1QME9NVzhxWWxPcVFVbnZxeU9IYVI1dDFyZ0YxYXg?oc=5
 · CVX 5 revealing analyst questions from Chevron’s Q3 earnings call (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/5-revealing-analyst-questions-chevron-130136794.html
-· PLTR Earnings from Apple, Palantir, and jobs report data: What to Watch (Yahoo Finance) https://finance.yahoo.com/video/earnings-apple-palantir-jobs-report-130000506.html
-· INTC Intel: CPU Story Collapses Before Memory Bubble (NASDAQ:INTC) (Seeking Alpha) https://seekingalpha.com/article/4960934-intel-cpu-story-collapses-before-memory-bubble
-· MRVL Marvell Strikes $115B Deal To Acquire Lumentum: CEO Sees ‘Once In A Generation’ Opportunity In AI Optical Shift (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/marvell-strikes-115b-deal-acquire-124300132.html
-· BTC Bitcoin's 'volatility curve' has a midterm bump: Crypto Daily (CoinDesk) https://www.coindesk.com/daybook-us/2026/11/02/bitcoin-s-volatility-curve-has-a-midterm-bump
-· LITE Lumentum Holdings Inc earnings beat by $0.36, revenue topped estimates (Investing.com) https://www.investing.com/news/earnings/lumentum-holdings-inc-earnings-beat-by-036-revenue-topped-estimates-4991275
-· INTC Intel's 29% Plunge Sparks a Contrarian Buying Case (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:580de18c2094b:0-intel-s-29-plunge-sparks-a-contrarian-buying-case/
-· MRVL Marvell and Lumentum officially plan to combine. Here’s what to know. (MarketWatch) https://www.marketwatch.com/story/marvell-and-lumentum-officially-plan-to-combine-heres-what-to-know-5599b98a
-· AMD AMD's $2 Trillion AI Opportunity Comes With a Supply Risk (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:cc3fbb4dd094b:0-amd-s-2-trillion-ai-opportunity-comes-with-a-supply-risk/
-· PETR4 A Petrobras e a defasagem do preço do diesel (O Globo) https://oglobo.globo.com/blogs/lauro-jardim/post/2026/11/a-petrobras-e-a-defasagem-do-preco-do-diesel.ghtml
-· PLTR Palantir Faces Q3 Earnings Test as Wall Street Splits on Valuation (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:f3e16b5d1094b:0-palantir-faces-q3-earnings-test-as-wall-street-splits-on-valuation/
-· LITE Lumentum: Fiscal Q1 Earnings Snapshot (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/lumentum-fiscal-q1-earnings-snapshot-121254120.html
-· MRVL Marvell and Lumentum to Combine, Creating a Category Leader in AI Connectivity (Business Wire) https://news.google.com/rss/articles/CBMizwFBVV95cUxQbW1ZMXlqMVJvMm5hZlRtQ0FvRU9YOHJyWVhyQ3VnZWpRVUphVXMtWHMzVmQ0NWdHZ29tLWt5cVVDMXl1QkU2N244NmxQOUxlRE10OWY3M3duWGlTVXFiQ2ZwdUt5ckN3RG9ic0M1ZWZqRXVlTVpfYV9hcElieWFvbjFpSEcxdDlMNDh1V0VNcGpTVjBmRFJkTWVya2UtVEc5WE1NNmFjSkd5V0U5dkg5a21SekNjdnVIdzR6VjE4eTVTWmdWWGVwd3VwcnNWT1k?oc=5
-· AMD AMD (AMD) Q3 earnings: what to expect (Yahoo Finance) https://news.google.com/rss/articles/CBMilgFBVV95cUxOWkxjc3FEazRqZlNFVEdITkpZeDhQRUxjNjMzN25oZ280ZUpKTkxlcXAySEVVUERPU3ZqOGtpSDZBYW5TR2gtczdiajZYUW5mam1JTWprVG1raW52X0tITmN4dUpJZUNPNmR6SUlBQnloa3h4RUEtdUxrWWxycE16OFFLb2pWdFNCQ01oNWFnbmR5Tzd4Q1E?oc=5
-· GOOGL Google Search And Agentic AI: Slower Growth, Not Instant Death (NASDAQ:GOOG) (Seeking Alpha) https://news.google.com/rss/articles/CBMivAFBVV95cUxPcVloRE5BYmVlcGNtd2pxZlI5dWoxbnZVRjVVNTBiQm9HOFFmRlhKYkdIYkpPTkNNajBsT3Q4NXEtRFFReWxzcHB3SEpPNjVIM3MwdEJFc1FqaTMzQnIzdG9malBQMTZBSWQzbkxFU3h3Y3dCdWViVTBrbE1JOHVNTk43WWJVenpfdnJkWUthMkNaMWdnM09WZ1FoRzIzOWt5Um5uYkt1eFhYeWNCdkt6bmJBQ1JjT2pZMGtnNw?oc=5
-· JPM JPMorgan Global Select Equity ETF (JGLO) Adds Microsoft and NXP on Oct. 29 (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/jpmorgan-global-select-equity-etf-110611845.html
-· (+23 manchetes; lista completa em eventos/noticias.json)
+· (+38 manchetes; lista completa em eventos/noticias.json)
