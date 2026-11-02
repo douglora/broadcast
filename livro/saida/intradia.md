@@ -1,31 +1,37 @@
 ALERTAS · intradia
 
-[ATENÇÃO] E05 · MRVL · Marvell to Acquire Lumentum in Historic $115 Billion Tech Deal
-Bloomberg · 02/11 14h01 · fonte única · licença: manchete
-Link: https://www.bloomberg.com/news/articles/2026-11-02/marvell-reaches-115-billion-deal-for-lumentum-holdings
-Por que importa: aquisicao ou venda muda alavancagem, mix de receita e o multiplo; olhar preco pago e financiamento
-Ativos: MRVL · LITE
-Como falar: 'saiu no Bloomberg: Marvell to Acquire Lumentum in Historic $115 Billion Tech Deal; confirmar o número no texto antes de repassar'
-Fonte: Bloomberg 02/11 14h01
-Push: intradia: 2 alertas de atenção — E05 MRVL, E05 CVX · detalhe na sessão
-ids: E05-MRVL-338cfdb497-2026-11-02
-
-[ATENÇÃO] E05 · CVX · Chevron's Q3 Results Support Higher Free Cash Flow Outlook, Morgan Stanley Says
-Yahoo Finance · 02/11 13h25 · fonte única · licença: resumo
-Link: https://finance.yahoo.com/markets/stocks/articles/chevron-apos-q3-results-support-162504867.html
-Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
-Ativos: CVX
-Como falar: 'saiu no Yahoo Finance: Chevron's Q3 Results Support Higher Free Cash Flow Outlook, Morgan Stanley Says; confirmar o número no texto antes de repassar'
-Fonte: Yahoo Finance 02/11 13h25
-ids: E05-CVX-a95f1f0c0b-2026-11-02
+[ATENÇÃO] E05 · LITE · Lumentum Stocks Drop 11% With Merger Risk Overshadowing Its $1.6 Billion Revenue Outlook
+Yahoo Finance · 02/11 15h16 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Lumentum (NASDAQ:LITE), an optical-component supplier to AI data centers, fell 11.03% to $748.01 at 10:05 a.m.
+  – Marvell's proposed acquisition would give Lumentum investors 4.5 Marvell shares for each share they hold, tying the payout's dollar value to the buyer's market performance.
+  – GuruFocus has detected 5 Warning Signs with LITE.
+  – Lumentum's November 2 earnings release projects fiscal second-quarter revenue of $1.575 billion to $1.625 billion, following $1.26 billion in the first quarter.
+  – That puts the $1.6 billion midpoint roughly 27% higher sequentially.
+  – Adjusted operating margin is expected to reach 45%46%, up from 42.3%.
+Link: https://finance.yahoo.com/markets/stocks/articles/lumentum-stocks-drop-11-merger-181621853.html
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: LITE
+Como falar: 'saiu no Yahoo Finance: Lumentum Stocks Drop 11% With Merger Risk Overshadowing Its $1.6 Billion Revenue Outlook; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 02/11 15h16
+Push: [ATENÇÃO] LITE · Lumentum Stocks Drop 11% With Merger Risk Overshadowi · detalhe na sessão
+ids: E05-LITE-ffffae9fef-2026-11-02
 
 Info (só linha no Fechamento):
-· E05 BTC · Bitcoin ETF outflows hit $643M, led by BlackRock and Fidelity
-· E05 NVDA · AMD Slides 3% Ahead of Earnings as PC Worries Linger; Intel Drops 5%, NVIDIA Edges Higher
-· E05 ETH · BMNR Buys Nearly $20M Worth Of ETH: Tom Lee Calls Market’s Binance Hack Reaction ‘Very Constructive’
-· E05 MRVL · Midday Need to Know: Marvell - Lumentum deal, oil price falls & more
-· E05 UST · US Treasury auction changes loom in 2027; dealers eye long-end cuts
-· E05 BTC · Bitcoin pinned at $78k after October losses; Binance resumes withdrawals
+· E05 AMD · AMD to report Q3 results following disappointing showing from Intel
+· E05 GOOGL · Amazon Vs. Alphabet: The $420B AI Capex Squeeze Leaves Both At Hold (NASDAQ:AMZN)
+· E05 MRVL · Marvell-Lumentum Merger: Implications Of A Major AI Photonics Deal (NASDAQ:MRVL)
+· E05 AMD · Chip and AI stocks give up some gains ahead of AMD earnings (AMD:NASDAQ)
+· E05 MRVL · Marvell to purchase Lumentum for $115 billion in record-breaking AI tech deal, both stocks tank
+· E05 AMD · AMD Stocks Edge Higher With Earnings Testing a $74 Billion Data-Center Forecast
+· E05 PLTR · Palantir Stocks Edge Higher With Earnings Facing a Narrow Revenue Expectation Gap
+· E05 GOOGL · Alphabet Stocks Rise 1.85% With Search Monetization Behind Wells Fargo's Target Cut
+· E05 PLTR · Options traders are getting anxious on Palantir and Apple ahead of earnings
+· E05 MRVL · Marvell doubles down on AI boom with costly $115 billion Lumentum deal
+· E05 BTC · Bitcoin price analysis: BTC traders hopeful for post-election gains
+· E05 MRVL · Why Marvell Stock Is Tumbling Today
+· E05 AMZN · ETFs to Watch as Amazon Shares Slip Following Q3 Earnings Miss
+· E05 MU · Micron Stock Needs Markets to Clear These 3 Hurdles
 · T08 XLK entrou em correção: -11% do pico de 52s (US$ 202,00 em 06/10) a US$ 179,51
 · T08 QTUM entrou em bear técnico: -21% do pico de 52s (US$ 168,76 em 02/06) a US$ 133,83
 · T08 INTC entrou em queda de -40% do pico: -53% do pico de 52s (US$ 140,94 em 22/06) a US$ 65,76
@@ -65,8 +71,9 @@ Alertas do dia (todos, com status):
 · linha     T08 LITE — LITE entrou em bear técnico: -26% do pico de 52s (US$ 1.133 em 06/10) a US$ 840,
 · linha     T08 UGPA3 — UGPA3 entrou em bear técnico: -21% do pico de 52s (R$ 40,03 em 21/10) a R$ 31,76
 · linha     T06 INTC — INTC -24% em 5 sessões a US$ 65,76: movimento de 3,7 desvios para a vol de 20 di
-· pendente  E05 MRVL — MRVL · Marvell to Acquire Lumentum in Historic $115 Billion Tech Deal
-· pendente  E05 CVX — CVX · Chevron's Q3 Results Support Higher Free Cash Flow Outlook, Morgan Stanley
+· pendente  E05 LITE — LITE · Lumentum Stocks Drop 11% With Merger Risk Overshadowing Its $1.6 Billion 
+· entregue  E05 MRVL — MRVL · Marvell to Acquire Lumentum in Historic $115 Billion Tech Deal
+· entregue  E05 CVX — CVX · Chevron's Q3 Results Support Higher Free Cash Flow Outlook, Morgan Stanley
 · entregue  E05 AMZN — AMZN · Lawsuit Claims Amazon Ignored Trucking Safety Warning Signs
 · entregue  E05 CVX — CVX · Chevron's Q3 Results Support Higher Free Cash Flow Outlook, Morgan Stanley
 · entregue  E05 MRVL — MRVL · Marvell to Acquire Lumentum in $115 Billion All-Stock Deal
@@ -130,7 +137,7 @@ Alertas do dia (todos, com status):
 · entregue  E05 CVX — CVX · Earnings Snapshot: Chevron beats Q3 EPS and revenue estimates; declares $1
 · entregue  E05 INTC — INTC · Intel Shares Plunge 25% as Weak Fourth-Quarter Outlook Overshadows Strong
 · entregue  E05 INTC — INTC · Intel plunges on a major guidance miss. What went wrong — and how to proc
-· linha     F03 BRENT — Brent cai a US$ 103,57 (-8,7% no dia · cruzou US$ 110) (parcial, intradia)
+· linha     F03 BRENT — Brent cai a US$ 104,59 (-7,8% no dia · cruzou US$ 110) (parcial, intradia)
 · linha     C03 DI — DI em nível: F32 na máxima de 252 pregões: 15,32% · F35 na máxima de 252 pregões
 · linha     T02 RBOT — RBOT (iShares Automation & Robotics UCITS ETF USD (Acc)) perdeu a MM50 pela 2ª s
 · linha     T02 IUAA — IUAA (iShares US Aggregate Bond UCITS ETF USD (Acc)) retomou a MM50 pela 2ª sess
@@ -143,5 +150,5 @@ Alertas do dia (todos, com status):
 · linha     T09 AMZN — AMZN -1,4% com volume 3,0x a mediana de 20 sessões, a US$ 240,35
 · linha     T10 WUTI — WUTI (State Street SPDR MSCI World Utilities UCITS ETF (USD)) no máximo de força
 · linha     F01 USDBRL — Real cai: USD/BRL 5,4425 (+9,1% em 5 sessões · 8 dias seguidos de movimento domé
-· (+109 notícias só manchete, em noticias.md)
+· (+123 notícias só manchete, em noticias.md)
 

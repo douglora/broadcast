@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 02/11 15h22
+NOTÍCIAS E FATOS · 02/11 16h22
 
-Pernas: noticias ok 8 novas (18 consultas; descartadas: 396 veículo fora da lista, 20 sem ativo, 0 teto) · cvm ok 0 novos de 3 (3 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 15 novas (18 consultas; descartadas: 395 veículo fora da lista, 23 sem ativo, 7 teto) · cvm ok 0 novos de 3 (3 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (1)
 
@@ -37,7 +37,23 @@ Fonte: SEC EDGAR 2026-10-30
 id: E04-CVX-26000196-2026-10-30 · status: entregue · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (36)
+## NOTÍCIAS COM MATERIALIDADE (37)
+
+[ATENÇÃO] E05 · LITE · Lumentum Stocks Drop 11% With Merger Risk Overshadowing Its $1.6 Billion Revenue Outlook
+Yahoo Finance · 02/11 15h16 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Lumentum (NASDAQ:LITE), an optical-component supplier to AI data centers, fell 11.03% to $748.01 at 10:05 a.m.
+  – Marvell's proposed acquisition would give Lumentum investors 4.5 Marvell shares for each share they hold, tying the payout's dollar value to the buyer's market performance.
+  – GuruFocus has detected 5 Warning Signs with LITE.
+  – Lumentum's November 2 earnings release projects fiscal second-quarter revenue of $1.575 billion to $1.625 billion, following $1.26 billion in the first quarter.
+  – That puts the $1.6 billion midpoint roughly 27% higher sequentially.
+  – Adjusted operating margin is expected to reach 45%46%, up from 42.3%.
+Link: https://finance.yahoo.com/markets/stocks/articles/lumentum-stocks-drop-11-merger-181621853.html
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: LITE
+Como falar: 'saiu no Yahoo Finance: Lumentum Stocks Drop 11% With Merger Risk Overshadowing Its $1.6 Billion Revenue Outlook; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 02/11 15h16
+id: E05-LITE-ffffae9fef-2026-11-02 · status: pendente
 
 [ATENÇÃO] E05 · MRVL · Marvell to Acquire Lumentum in Historic $115 Billion Tech Deal
 Bloomberg · 02/11 14h01 · fonte única · licença: manchete
@@ -46,7 +62,7 @@ Por que importa: aquisicao ou venda muda alavancagem, mix de receita e o multipl
 Ativos: MRVL · LITE
 Como falar: 'saiu no Bloomberg: Marvell to Acquire Lumentum in Historic $115 Billion Tech Deal; confirmar o número no texto antes de repassar'
 Fonte: Bloomberg 02/11 14h01
-id: E05-MRVL-338cfdb497-2026-11-02 · status: pendente
+id: E05-MRVL-338cfdb497-2026-11-02 · status: entregue
 
 [ATENÇÃO] E05 · CVX · Chevron's Q3 Results Support Higher Free Cash Flow Outlook, Morgan Stanley Says
 Yahoo Finance · 02/11 13h25 · fonte única · licença: resumo
@@ -55,7 +71,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: CVX
 Como falar: 'saiu no Yahoo Finance: Chevron's Q3 Results Support Higher Free Cash Flow Outlook, Morgan Stanley Says; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 02/11 13h25
-id: E05-CVX-a95f1f0c0b-2026-11-02 · status: pendente
+id: E05-CVX-a95f1f0c0b-2026-11-02 · status: entregue
 
 [ATENÇÃO] E05 · AMZN · Lawsuit Claims Amazon Ignored Trucking Safety Warning Signs
 GlobeNewswire · 02/11 11h27 · fonte única · licença: integral
@@ -455,8 +471,22 @@ Fonte: CNBC 29/10 22h06
 id: E05-INTC-8a46f101b3-2026-10-30 · status: entregue
 
 
-## OUTRAS NOTÍCIAS (só manchete) (104)
+## OUTRAS NOTÍCIAS (só manchete) (118)
 
+· AMD AMD to report Q3 results following disappointing showing from Intel (Yahoo Finance) https://finance.yahoo.com/technology/article/amd-to-report-q3-results-following-disappointing-showing-from-intel-190327545.html
+· GOOGL Amazon Vs. Alphabet: The $420B AI Capex Squeeze Leaves Both At Hold (NASDAQ:AMZN) (Seeking Alpha) https://seekingalpha.com/article/4961060-amazon-vs-alphabet-the-420b-ai-capex-squeeze-leaves-both-at-hold
+· MRVL Marvell-Lumentum Merger: Implications Of A Major AI Photonics Deal (NASDAQ:MRVL) (Seeking Alpha) https://seekingalpha.com/article/4961054-marvell-lumentum-merger-implications-of-a-major-ai-photonics-deal
+· AMD Chip and AI stocks give up some gains ahead of AMD earnings (AMD:NASDAQ) (Seeking Alpha) https://seekingalpha.com/news/4662761-chip-and-ai-stocks-give-up-some-gains-ahead-of-amd-earnings
+· MRVL Marvell to purchase Lumentum for $115 billion in record-breaking AI tech deal, both stocks tank (Yahoo Finance) https://finance.yahoo.com/markets/stocks/article/marvell-to-purchase-lumentum-in-115-billion-deal-as-ai-124702761.html
+· AMD AMD Stocks Edge Higher With Earnings Testing a $74 Billion Data-Center Forecast (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:426adf1cb094b:0-amd-stocks-edge-higher-with-earnings-testing-a-74-billion-data-center-forecast/
+· PLTR Palantir Stocks Edge Higher With Earnings Facing a Narrow Revenue Expectation Gap (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:f7c46b9d3094b:0-palantir-stocks-edge-higher-with-earnings-facing-a-narrow-revenue-expectation-gap/
+· GOOGL Alphabet Stocks Rise 1.85% With Search Monetization Behind Wells Fargo's Target Cut (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/alphabet-stocks-rise-1-85-181934810.html
+· PLTR Options traders are getting anxious on Palantir and Apple ahead of earnings (CNBC) https://www.cnbc.com/2026/11/02/options-traders-are-getting-anxious-on-palantir-and-apple-ahead-of-earnings.html
+· MRVL Marvell doubles down on AI boom with costly $115 billion Lumentum deal (Reuters) https://www.reuters.com/legal/transactional/marvell-buy-lumentum-115-billion-deal-ai-data-center-bet-2026-11-02/
+· BTC Bitcoin price analysis: BTC traders hopeful for post-election gains (CoinDesk) https://www.coindesk.com/markets/2026/11/02/bitcoin-traders-eye-post-election-rally-as-exchange-outflows-point-to-supply-squeeze
+· MRVL Why Marvell Stock Is Tumbling Today (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:16f396404094b:0-why-marvell-stock-is-tumbling-today/
+· AMZN ETFs to Watch as Amazon Shares Slip Following Q3 Earnings Miss (Yahoo Finance) https://au.finance.yahoo.com/news/etfs-watch-amazon-shares-slip-180200938.html
+· MU Micron Stock Needs Markets to Clear These 3 Hurdles (Barron's) https://news.google.com/rss/articles/CBMiggFBVV95cUxOUWhELWk4QTd2akFpU0NnMlVqS2NIM0NIQVpkYXRBX3B4QV95Mjh4ZUg2WHdObFozc3hMLU9iVTZSeEFQX2ZJZVZ6RnhzR2RHZkNlSWpXUVlpMXgtY1YtQ05qYTZsVlFlUkVDc2l4cUg4LS1raWVRODBHQ2EzODBjZGlR?oc=5
 · BTC Bitcoin ETF outflows hit $643M, led by BlackRock and Fidelity (Yahoo Finance) https://finance.yahoo.com/video/bitcoin-etf-outflows-hit-643m-180000253.html
 · NVDA AMD Slides 3% Ahead of Earnings as PC Worries Linger; Intel Drops 5%, NVIDIA Edges Higher (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/amd-slides-3-ahead-earnings-174921972.html
 · ETH BMNR Buys Nearly $20M Worth Of ETH: Tom Lee Calls Market’s Binance Hack Reaction ‘Very Constructive’ (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:a95d402bc094b:0-bmnr-buys-nearly-20m-worth-of-eth-tom-lee-calls-market-s-binance-hack-reaction-very-constructive/
@@ -503,18 +533,4 @@ id: E05-INTC-8a46f101b3-2026-10-30 · status: entregue
 · UST US 10-Year Treasury Yield Lowest in 8 Weeks (TradingView (Reuters)) https://www.tradingview.com/news/te_news:597332:0-us-10-year-treasury-yield-lowest-in-8-weeks/
 · GOOGL Alphabet Is Paying Up for Euro Bonds in Test of AI Appetite (Bloomberg) https://www.bloomberg.com/news/articles/2026-11-02/alphabet-kicks-off-sale-of-its-second-euro-bond-this-year
 · INTC INTC Q3 Earnings Call Highlights AI Demand and PC Weakness (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/intc-q3-earnings-call-highlights-140000192.html
-· BTC Strategy spends triple its weekly Bitcoin outlay on STRC buybacks (TradingView (Reuters)) https://www.tradingview.com/news/cointelegraph:cd935c167094b:0-strategy-spends-triple-its-weekly-bitcoin-outlay-on-strc-buybacks/
-· BTC MicroStrategy and Strive Buy More Bitcoin, but Shareholders Could Feel the Pain (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/microstrategy-strive-buy-more-bitcoin-134609040.html
-· BTC Bitcoin Midterm Election Pattern: Will BTC Repeat Its Post-Election Rally? (TradingView (Reuters)) https://www.tradingview.com/news/cryptonews:6d6a372f2094b:0-bitcoin-midterm-election-pattern-will-btc-repeat-its-post-election-rally/
-· BTC Binance founder warns users of scams as Bitcoin steadies after record hack (TradingView (Reuters)) https://news.google.com/rss/articles/CBMi1gFBVV95cUxNTVlmWnVSUlJNVV9KWVF3d1Y1SmpGcG11RDdUVG50TjZGTzUwNzRlcm5xanJuQ0d1NTBtWjh0dkFEQTNjMWIxaXJFYzNoVlBKSHNYNWJzWGgtTnlPRjBGMWVYYkJMM3JFOUFEb3E1ZnJ1VWU0cVE5c3NCMkRFTzFrM09OTmJILU4tZ0RxeE5LblNwbXEzMG8xbHFNbmctbGdfRjVoMkZZdGh2WE81dElBek1kNm9xWFMxdVoySEJWMzRIZlJRUjA3UEpMT3FQVXl1ZVZiZzN3?oc=5
-· BTC Strategy Resumes Bitcoin Buying, Adding 811 Tokens To Its Holdings (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/strategy-resumes-bitcoin-buying-adding-135900043.html
-· AVGO Broadcom: Riding The XPU Wave (NASDAQ:AVGO) (Seeking Alpha) https://seekingalpha.com/article/4960952-broadcom-riding-the-xpu-wave
-· MRVL Marvell Slides 3%, Lumentum Drops 6% on $115 Billion All-Stock Merger Deal; Coherent Climbs 2% (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/marvell-slides-3-lumentum-drops-135326041.html
-· COHR Coherent: A Great Opportunity To Accumulate At Last Year’s Prices (Q1 Preview) (COHR) (Seeking Alpha) https://seekingalpha.com/article/4960946-coherent-corp-a-great-opportunity-to-accumulate-at-last-years-prices-q1-preview
-· MRVL Chip Maker Marvell Agrees to Buy Lumentum in $80 Billion Deal (The Wall Street Journal) https://www.wsj.com/business/deals/marvell-to-buy-lumentum-for-80-billion-in-all-stock-ai-deal-c9fd43a6
-· NVDA Nvidia’s Fiscal 2028 Revenue Estimate Is Up 25% Since June. Here’s What November 17 Has to Prove (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/nvidia-fiscal-2028-revenue-estimate-132028810.html
-· UST Treasury Polled Its Dealers on Auction Sizes and Bigger Long-End Buybacks Ahead of Wednesday's Refunding (TradingView (Reuters)) https://www.tradingview.com/news/prnewswire:3e8ea16e28a28:0-treasury-polled-its-dealers-on-auction-sizes-and-bigger-long-end-buybacks-ahead-of-wednesday-s-refunding/
-· GOOGL Alphabet At The Crossroads: Q3 FY26 Earnings Review (NASDAQ:GOOG) (NASDAQ:GOOGL) (Seeking Alpha) https://seekingalpha.com/article/4960940-alphabet-at-crossroads-q3-fy26-earnings-review
-· BTC Crypto Hack Losses Hit $8.74 in 2026, More Than Triple 2025, Yet Without Binance the Year Ran Quieter: How Did Bitcoin and Ethereum React After Major… (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/crypto-hack-losses-hit-8-131017031.html
-· NVDA Nvidia Stock Rebounding but Its Stock Chart Is Really Ugly (Barron's) https://www.barrons.com/articles/nvidia-stock-rebound-chart-technical-572ccaac
-· (+44 manchetes; lista completa em eventos/noticias.json)
+· (+58 manchetes; lista completa em eventos/noticias.json)
