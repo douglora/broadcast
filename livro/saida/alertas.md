@@ -1,6 +1,6 @@
-ALERTAS · Fechamento 18h
+ALERTAS · eventos
 
-[ATENÇÃO] E01 · LITE: resultado sai na próxima sessão (02/11)
+(pendente de slot anterior) [ATENÇÃO] E01 · LITE: resultado sai na próxima sessão (02/11)
 seg 02/11 · horário não confirmado · estimado (Yahoo)
 Vol de 20 dias +115% a.a. ⇒ movimento típico de 1 dia ±7,3%
 Chega ao resultado com 1m -37% · 6m -30% · YTD +86%
@@ -8,10 +8,9 @@ Consenso: não disponível (sem fonte licenciada); usar o release e o guidance a
 Por que importa: resultado é o evento que mais move o papel em um dia; a vol implícita e o posicionamento sobem antes e caem depois
 Como falar: 'o resultado sai amanhã; o movimento típico do papel num dia é o da vol acima, e o mercado costuma exagerar na abertura'
 Fonte: Yahoo
-Push: Fechamento 18h: 2 alertas de atenção — E01 LITE, E05 PLTR · detalhe na sessão
 ids: E01-LITE-D-1-2026-10-30
 
-[ATENÇÃO] E05 · PLTR · Palantir raises full-year revenue outlook as US commercial sales accelerate
+(pendente de slot anterior) [ATENÇÃO] E05 · PLTR · Palantir raises full-year revenue outlook as US commercial sales accelerate
 Yahoo Finance · 02/11 18h09 · fonte única · licença: resumo
 Trechos (licença resumo: reescrever, não colar):
   – Palantir reported Q3 revenue of $2.313 billion, a 96% increase from the previous year.
@@ -27,29 +26,47 @@ Como falar: 'saiu no Yahoo Finance: Palantir raises full-year revenue outlook as
 Fonte: Yahoo Finance 02/11 18h09
 ids: E05-PLTR-f59efa4ade-2026-11-02
 
+[ATENÇÃO] E05 · PLTR · Palantir’s revenue rises 96% to $2.3 billion as investors’ patience rests on a hair trigger
+Fortune · 02/11 18h47 · fonte única · licença: manchete
+Link: https://fortune.com/2026/11/02/palantir-q3-results-stock-ai-trade-selloff/
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: PLTR
+Como falar: 'saiu no Fortune: Palantir’s revenue rises 96% to $2.3 billion as investors’ patience rests on a hair trigg…; confirmar o número no texto antes de repassar'
+Fonte: Fortune 02/11 18h47
+Push: eventos: 3 alertas de atenção — E05 PLTR, E05 PLTR, E05 PLTR · detalhe na sessão
+ids: E05-PLTR-23525fa5ec-2026-11-02
+
+[ATENÇÃO] E05 · PLTR · Palantir beats on earnings and revenue, Q3 commercial revenue surpasses government revenue
+CNBC · 02/11 18h31 · fonte única · licença: resumo
+Link: https://www.cnbc.com/video/2026/11/02/palantir-beats-on-earnings-and-revenue-q3-commercial-revenue-surpasses-government-revenue.html
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: PLTR
+Como falar: 'saiu no CNBC: Palantir beats on earnings and revenue, Q3 commercial revenue surpasses government revenue; confirmar o número no texto antes de repassar'
+Fonte: CNBC 02/11 18h31
+ids: E05-PLTR-7d9889fb18-2026-11-02
+
+[ATENÇÃO] E05 · PLTR · Palantir raises 2026 revenue outlook after quarterly revenue nearly doubles on AI
+Investing.com · 02/11 18h18 · fonte única · licença: manchete
+Link: https://www.investing.com/news/earnings/palantir-raises-2026-revenue-outlook-after-quarterly-revenue-nearly-doubles-on-ai-4992779
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: PLTR
+Como falar: 'saiu no Investing.com: Palantir raises 2026 revenue outlook after quarterly revenue nearly doubles on AI; confirmar o número no texto antes de repassar'
+Fonte: Investing.com 02/11 18h18
+ids: E05-PLTR-19743636ac-2026-11-02
+
 Info (só linha no Fechamento):
-· T02 QQQ perdeu a MM100 pela 2ª sessão: US$ 681,09, ainda acima da MM200 (tendência longa preservada)
-· T02 NVDA perdeu a MM100 pela 2ª sessão: US$ 202,06, já abaixo da MM200 (confirma tendência de baixa)
-· T07 INTC entrou em sobrevendido: RSI14 23 a US$ 59,97
-· T10 XLK no mínimo de força relativa em 63 sessões contra SPX: -13% vs -3,0% em 20 sessões (-11% relativo)
-· T10 VGT no mínimo de força relativa em 63 sessões contra SPX: -12% vs -3,0% em 20 sessões (-9,2% relativo)
-· T11 CNDX (iShares NASDAQ 100 UCITS ETF USD (Acc)) descolou atrás de CSPX (iShares Core S&P 500 UCITS ETF USD (Acc)): -7,8% vs -1,6% em 20 sessões (z -2,4 em 252 sessões, 2º dia)
-· T11 QQQ descolou atrás de SPY: -9,9% vs -2,9% em 20 sessões (z -2,8 em 252 sessões, 2º dia)
-· E05 PLTR · Palantir reports booming U.S. commercial revenue growth, topping government for first time
-· E05 PLTR · Palantir earnings reveal a major AI turning point
-· E05 BTC · Mercado Bitcoin, Brazil’s largest crypto exchange, hit by $46 million security breach
-· E05 UST · Update: US Equity Indexes Rise Amid Sinking Crude Oil, Treasury Yields
-· E05 JPM · JPMorgan Chase & Co. (JPM.NE) Stock Price, News, Quote & History
-· T05 LITE -19% no dia a US$ 684,40: movimento de 3,5 desvios para uma vol de 20 dias de 93% a.a.
-· T05 BRENT -8,3% no dia a US$ 104,04: movimento de 4,8 desvios para uma vol de 20 dias de 29% a.a.
-· T08 VGT entrou em correção: -12% do pico de 52s (US$ 129,80 em 06/10) a US$ 113,83
-· T08 IGV entrou em correção: -12% do pico de 52s (US$ 115,70 em 03/11) a US$ 101,94
-· T08 NVDA entrou em queda de -15% do pico: -16% do pico de 52s (US$ 239,24 em 06/10) a US$ 202,06
-· T08 AMD entrou em queda de -25% do pico: -28% do pico de 52s (US$ 649,42 em 06/10) a US$ 466,84
-· T08 MRVL entrou em queda de -40% do pico: -46% do pico de 52s (US$ 316,43 em 04/06) a US$ 171,41
-· T08 LITE entrou em queda de -30% do pico: -40% do pico de 52s (US$ 1.133 em 06/10) a US$ 684,40
-· T08 GOOGL entrou em queda de -30% do pico: -31% do pico de 52s (US$ 402,62 em 13/05) a US$ 278,99
-· T08 BRENT entrou em correção: -12% do pico de 52s (US$ 118,35 em 31/03) a US$ 104,04
+· E05 PLTR · Palantir Lifts Outlook as U.S. Commercial Business Overtakes Government Business
+· E05 PLTR · Palantir tops Q3 earnings estimates, revenue grew 96% year-over-year
+· E05 PLTR · Palantir expects quarterly revenue above estimates on AI demand
+· E05 PLTR · Palantir perks up as it boosts its full-year forecast after stellar Q3 results (PLTR:NASDAQ)
+· E05 INTC · The Intel stock collapse is getting worse — and the $3.5 trillion chip rout is spreading
+· E05 MRVL · Marvell And Lumentum: Building An AI Powerhouse Isn't Cheap (NASDAQ:MRVL)
+· E05 INTC · Intel: Time For A Very Serious Watch (NASDAQ:INTC)
+· E05 BTC · Bitcoin ETFs hit by $643M selloff as Binance hack shakes crypto
+· E05 AMD · AMD Heads Into Earnings With AI Guidance in the Spotlight
+· E05 BRENT · Bolsas da Europa fecham majoritariamente em alta com tombo nos preços do petróleo e BCE no radar
+· E05 DI · Midterms e payroll na gringa, decisão do Copom! Tá bom?
+· E05 PLTR · Palantir’s Q3 Report To Test Stock Defensiveness Amid AI Panic — What Analysts Are Expecting
 · T08 XLK entrou em correção: -11% do pico de 52s (US$ 202,00 em 06/10) a US$ 179,51
 · T08 QTUM entrou em bear técnico: -21% do pico de 52s (US$ 168,76 em 02/06) a US$ 133,83
 · T08 INTC entrou em queda de -40% do pico: -53% do pico de 52s (US$ 140,94 em 22/06) a US$ 65,76
@@ -57,37 +74,26 @@ Info (só linha no Fechamento):
 · T08 TSM entrou em queda de -15% do pico: -16% do pico de 52s (US$ 485,80 em 05/10) a US$ 406,13
 · T08 LITE entrou em bear técnico: -26% do pico de 52s (US$ 1.133 em 06/10) a US$ 840,70
 · T08 UGPA3 entrou em bear técnico: -21% do pico de 52s (R$ 40,03 em 21/10) a R$ 31,76
-· T06 MRVL -27% em 5 sessões a US$ 171,41: movimento de 2,5 desvios para a vol de 20 dias
 · T06 INTC -24% em 5 sessões a US$ 65,76: movimento de 3,7 desvios para a vol de 20 dias
-· T01 SMH fechou abaixo da média de 200 dias pela 1ª sessão: US$ 508,31 vs MM200 US$ 520,06 (-2,3%)
-· T01 SOXX fechou abaixo da média de 200 dias pela 1ª sessão: US$ 453,65 vs MM200 US$ 476,56 (-4,8%)
-· T01 MRVL fechou abaixo da média de 200 dias pela 1ª sessão: US$ 171,41 vs MM200 US$ 183,58 (-6,6%)
+· E05 PLTR · Palantir raises full-year revenue outlook as US commercial sales top US government revenue for the first time
+· T13 VIX cruzou 20: 20,2 (+17% no dia)
 · T01 QTUM fechou abaixo da média de 200 dias pela 1ª sessão: US$ 133,83 vs MM200 US$ 137,29 (-2,5%)
 · T01 INTC fechou abaixo da média de 200 dias pela 1ª sessão: US$ 65,76 vs MM200 US$ 86,86 (-24%)
 · T01 EWY fechou abaixo da média de 200 dias pela 1ª sessão: US$ 152,89 vs MM200 US$ 162,67 (-6,0%)
-· T02 XLK perdeu a MM50 e perdeu a MM100 pela 2ª sessão: US$ 174,24, ainda acima da MM200 (tendência longa preservada)
-· T02 VGT perdeu a MM50 e perdeu a MM100 pela 2ª sessão: US$ 113,83, ainda acima da MM200 (tendência longa preservada)
-· T02 MU perdeu a MM50 e perdeu a MM100 pela 2ª sessão: US$ 884,74, ainda acima da MM200 (tendência longa preservada)
-· T09 MRVL -13% com volume 3,2x a mediana de 20 sessões, a US$ 171,41
-· T09 LITE -19% com volume 2,9x a mediana de 20 sessões, a US$ 684,40
-· T09 QQQ -3,5% com volume 2,7x a mediana de 20 sessões, a US$ 690,49
-· T09 INTC -29% com volume 4,9x a mediana de 20 sessões, a US$ 65,76
-· T10 MRVL no mínimo de força relativa em 63 sessões contra SOX: -37% vs -22% em 20 sessões (-19% relativo)
-· T10 LITE no mínimo de força relativa em 63 sessões contra SOX: -37% vs -22% em 20 sessões (-20% relativo)
-· T10 COHR no mínimo de força relativa em 63 sessões contra SOX: -40% vs -22% em 20 sessões (-24% relativo)
-· T10 MMM no máximo de força relativa em 63 sessões contra SPX: +9,3% vs -3,0% em 20 sessões (+13% relativo)
-· T10 WQTM no mínimo de força relativa em 63 sessões contra SPX: -20% vs -1,8% em 20 sessões (-18% relativo)
-· T10 WQTMUS no mínimo de força relativa em 63 sessões contra SPX: -19% vs -1,8% em 20 sessões (-17% relativo)
-· T10 INTC no mínimo de força relativa em 63 sessões contra SOX: -45% vs -19% em 20 sessões (-32% relativo)
-· T10 PETR4 no máximo de força relativa em 63 sessões contra IBOV: +5,6% vs -10% em 20 sessões (+18% relativo)
-· T13 VIX cruzou 20: 20,2 (+17% no dia)
 · T03 GOOGL formou death cross: MM50 US$ 339,03 cruzou abaixo da MM200 US$ 340,34 pela 2ª sessão; preço US$ 279,84, -18% da MM200, -0,3% em 12m
 · T04 REMX fechou na mínima de 52 semanas: US$ 49,99, -22% em 1m e -29% em 12m
 · T04 SAPR4 fechou na mínima de 52 semanas: R$ 6,03, -7,5% em 1m e -9,4% em 12m
 · T04 SMAL11 fechou na mínima de 52 semanas: R$ 92,15, -18% em 1m e -16% em 12m
+· T02 MU perdeu a MM50 e perdeu a MM100 pela 2ª sessão: US$ 884,74, ainda acima da MM200 (tendência longa preservada)
+· T09 QQQ -3,5% com volume 2,7x a mediana de 20 sessões, a US$ 690,49
+· T09 INTC -29% com volume 4,9x a mediana de 20 sessões, a US$ 65,76
+· T10 WQTM no mínimo de força relativa em 63 sessões contra SPX: -20% vs -1,8% em 20 sessões (-18% relativo)
+· T10 WQTMUS no mínimo de força relativa em 63 sessões contra SPX: -19% vs -1,8% em 20 sessões (-17% relativo)
+· T10 INTC no mínimo de força relativa em 63 sessões contra SOX: -45% vs -19% em 20 sessões (-32% relativo)
+· T10 PETR4 no máximo de força relativa em 63 sessões contra IBOV: +5,6% vs -10% em 20 sessões (+18% relativo)
 · T12 WUTI (State Street SPDR MSCI World Utilities UCITS ETF (USD)): 8 altas seguidas (+4,4% acumulado) a US$ 69,97
 
-Suprimidos pelo teto (viram linha do Fechamento): T05-LITE-queda-2026-11-02 (teto diário de críticos), T05-BRENT-queda-2026-11-02 (teto diário de críticos), T08-VGT--10-2026-11-02 (teto diário de críticos), T08-IGV--10-2026-11-02 (teto diário de críticos), T08-NVDA--15-2026-11-02 (teto diário de críticos), T08-AMD--25-2026-11-02 (teto diário de críticos), T08-MRVL--40-2026-11-02 (teto diário de críticos), T08-LITE--30-2026-11-02 (teto diário de críticos), T08-GOOGL--30-2026-11-02 (teto diário de críticos), T08-BRENT--10-2026-11-02 (teto diário de críticos), T08-XLK--10-2026-10-30 (teto diário de críticos), T08-QTUM--20-2026-10-30 (teto diário de críticos), T08-INTC--40-2026-10-30 (teto diário de críticos), T08-MU--25-2026-10-30 (teto diário de críticos), T08-TSM--15-2026-10-30 (teto diário de críticos), T08-LITE--20-2026-10-30 (teto diário de críticos), T08-UGPA3--20-2026-10-30 (teto diário de críticos), T06-MRVL-queda-2026-11-02 (teto diário de críticos), T06-INTC-queda-2026-10-30 (teto diário de críticos), T01-SMH-perda-2026-11-02 (teto de atenção), T01-SOXX-perda-2026-11-02 (teto de atenção), T01-MRVL-perda-2026-11-02 (teto de atenção), T01-QTUM-perda-2026-10-30 (teto de atenção), T01-INTC-perda-2026-10-30 (teto de atenção), T01-EWY-perda-2026-10-30 (teto de atenção), T02-XLK-perdeu_perdeu-2026-11-02 (teto de atenção), T02-VGT-perdeu_perdeu-2026-11-02 (teto de atenção), T02-MU-perdeu_perdeu-2026-10-30 (teto de atenção), T09-MRVL-queda-2026-11-02 (teto de atenção), T09-LITE-queda-2026-11-02 (teto de atenção), T09-QQQ-queda-2026-10-30 (teto de atenção), T09-INTC-queda-2026-10-30 (teto de atenção), T10-MRVL-mínimo-2026-11-02 (teto de atenção), T10-LITE-mínimo-2026-11-02 (teto de atenção), T10-COHR-mínimo-2026-11-02 (teto de atenção), T10-MMM-máximo-2026-11-02 (teto de atenção), T10-WQTM-mínimo-2026-10-30 (teto de atenção), T10-WQTMUS-mínimo-2026-10-30 (teto de atenção), T10-INTC-mínimo-2026-10-30 (teto de atenção), T10-PETR4-máximo-2026-10-30 (teto de atenção), T13-VIX-vix20-2026-10-30 (teto de atenção), T03-GOOGL-death-2026-10-30 (teto de atenção), T04-REMX-minima-2026-10-30 (teto de atenção), T04-SAPR4-minima-2026-10-30 (teto de atenção), T04-SMAL11-minima-2026-10-30 (teto de atenção), T12-WUTI-altas_8-2026-10-30 (teto de atenção)
+Suprimidos pelo teto (viram linha do Fechamento): T08-XLK--10-2026-10-30 (teto diário de críticos), T08-QTUM--20-2026-10-30 (teto diário de críticos), T08-INTC--40-2026-10-30 (teto diário de críticos), T08-MU--25-2026-10-30 (teto diário de críticos), T08-TSM--15-2026-10-30 (teto diário de críticos), T08-LITE--20-2026-10-30 (teto diário de críticos), T08-UGPA3--20-2026-10-30 (teto diário de críticos), T06-INTC-queda-2026-10-30 (teto diário de críticos), E05-PLTR-32844ad315-2026-11-02 (teto de noticias), T13-VIX-vix20-2026-10-30 (teto de atenção), T01-QTUM-perda-2026-10-30 (teto de atenção), T01-INTC-perda-2026-10-30 (teto de atenção), T01-EWY-perda-2026-10-30 (teto de atenção), T03-GOOGL-death-2026-10-30 (teto de atenção), T04-REMX-minima-2026-10-30 (teto de atenção), T04-SAPR4-minima-2026-10-30 (teto de atenção), T04-SMAL11-minima-2026-10-30 (teto de atenção), T02-MU-perdeu_perdeu-2026-10-30 (teto de atenção), T09-QQQ-queda-2026-10-30 (teto de atenção), T09-INTC-queda-2026-10-30 (teto de atenção), T10-WQTM-mínimo-2026-10-30 (teto de atenção), T10-WQTMUS-mínimo-2026-10-30 (teto de atenção), T10-INTC-mínimo-2026-10-30 (teto de atenção), T10-PETR4-máximo-2026-10-30 (teto de atenção), T12-WUTI-altas_8-2026-10-30 (teto de atenção)
 
 Alertas do dia (todos, com status):
 · linha     T05 LITE — LITE -19% no dia a US$ 684,40: movimento de 3,5 desvios para uma vol de 20 dias 
@@ -107,6 +113,9 @@ Alertas do dia (todos, com status):
 · linha     T08 LITE — LITE entrou em bear técnico: -26% do pico de 52s (US$ 1.133 em 06/10) a US$ 840,
 · linha     T08 UGPA3 — UGPA3 entrou em bear técnico: -21% do pico de 52s (R$ 40,03 em 21/10) a R$ 31,76
 · linha     T06 INTC — INTC -24% em 5 sessões a US$ 65,76: movimento de 3,7 desvios para a vol de 20 di
+· pendente  E05 PLTR — PLTR · Palantir’s revenue rises 96% to $2.3 billion as investors’ patience rests
+· pendente  E05 PLTR — PLTR · Palantir beats on earnings and revenue, Q3 commercial revenue surpasses g
+· pendente  E05 PLTR — PLTR · Palantir raises 2026 revenue outlook after quarterly revenue nearly doubl
 · linha     T01 SMH — SMH fechou abaixo da média de 200 dias pela 1ª sessão: US$ 508,31 vs MM200 US$ 5
 · linha     T01 SOXX — SOXX fechou abaixo da média de 200 dias pela 1ª sessão: US$ 453,65 vs MM200 US$ 
 · linha     T01 MRVL — MRVL fechou abaixo da média de 200 dias pela 1ª sessão: US$ 171,41 vs MM200 US$ 
@@ -214,4 +223,4 @@ Alertas do dia (todos, com status):
 · linha     T09 AMZN — AMZN -1,4% com volume 3,0x a mediana de 20 sessões, a US$ 240,35
 · linha     T10 WUTI — WUTI (State Street SPDR MSCI World Utilities UCITS ETF (USD)) no máximo de força
 · linha     F01 USDBRL — Real cai: USD/BRL 5,4425 (+9,1% em 5 sessões · 8 dias seguidos de movimento domé
-· (+152 notícias só manchete, em noticias.md)
+· (+165 notícias só manchete, em noticias.md)

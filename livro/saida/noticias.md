@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 02/11 18h12
+NOTÍCIAS E FATOS · 02/11 19h15
 
-Pernas: noticias ok 6 novas (18 consultas; descartadas: 419 veículo fora da lista, 20 sem ativo, 0 teto) · cvm ok 0 novos de 3 (3 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 16 novas (18 consultas; descartadas: 378 veículo fora da lista, 17 sem ativo, 0 teto) · cvm ok 0 novos de 0 (0 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (1)
 
@@ -37,7 +37,50 @@ Fonte: SEC EDGAR 2026-10-30
 id: E04-CVX-26000196-2026-10-30 · status: entregue · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (42)
+## NOTÍCIAS COM MATERIALIDADE (46)
+
+[ATENÇÃO] E05 · PLTR · Palantir’s revenue rises 96% to $2.3 billion as investors’ patience rests on a hair trigger
+Fortune · 02/11 18h47 · fonte única · licença: manchete
+Link: https://fortune.com/2026/11/02/palantir-q3-results-stock-ai-trade-selloff/
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: PLTR
+Como falar: 'saiu no Fortune: Palantir’s revenue rises 96% to $2.3 billion as investors’ patience rests on a hair trigg…; confirmar o número no texto antes de repassar'
+Fonte: Fortune 02/11 18h47
+id: E05-PLTR-23525fa5ec-2026-11-02 · status: pendente
+
+[ATENÇÃO] E05 · PLTR · Palantir beats on earnings and revenue, Q3 commercial revenue surpasses government revenue
+CNBC · 02/11 18h31 · fonte única · licença: resumo
+Link: https://www.cnbc.com/video/2026/11/02/palantir-beats-on-earnings-and-revenue-q3-commercial-revenue-surpasses-government-revenue.html
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: PLTR
+Como falar: 'saiu no CNBC: Palantir beats on earnings and revenue, Q3 commercial revenue surpasses government revenue; confirmar o número no texto antes de repassar'
+Fonte: CNBC 02/11 18h31
+id: E05-PLTR-7d9889fb18-2026-11-02 · status: pendente
+
+[ATENÇÃO] E05 · PLTR · Palantir raises 2026 revenue outlook after quarterly revenue nearly doubles on AI
+Investing.com · 02/11 18h18 · fonte única · licença: manchete
+Link: https://www.investing.com/news/earnings/palantir-raises-2026-revenue-outlook-after-quarterly-revenue-nearly-doubles-on-ai-4992779
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: PLTR
+Como falar: 'saiu no Investing.com: Palantir raises 2026 revenue outlook after quarterly revenue nearly doubles on AI; confirmar o número no texto antes de repassar'
+Fonte: Investing.com 02/11 18h18
+id: E05-PLTR-19743636ac-2026-11-02 · status: pendente
+
+[ATENÇÃO] E05 · PLTR · Palantir raises full-year revenue outlook as US commercial sales top US government revenue for the first time
+Yahoo Finance · 02/11 18h09 · + Bloomberg · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Palantir reported Q3 revenue of $2.313 billion, a 96% increase from the previous year.
+  – Wall Street had expected revenue of $2.17 billion, according to Bloomberg data.
+  – Palantir now sees full-year revenue between $8.530 billion and $8.534 billion, topping analyst estimates of $8.2 billion.
+  – The company also raised its US commercial sales target to more than $3.559 billion.
+  – Adjusted earnings per share of $0.44 also beat consensus estimates of $0.40.
+  – What else you need to know: Palantir stock is up roughly 2% year to date, even as the company has been caught in the recent tech sell-off.
+Link: https://finance.yahoo.com/markets/stocks/article/palantir-raises-full-year-revenue-outlook-as-us-commercial-sales-top-us-government-revenue-for-the-first-time-211408839.html
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: PLTR
+Como falar: 'saiu no Yahoo Finance: Palantir raises full-year revenue outlook as US commercial sales top US government revenu…; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 02/11 18h09
+id: E05-PLTR-32844ad315-2026-11-02 · status: linha
 
 [ATENÇÃO] E05 · PLTR · Palantir raises full-year revenue outlook as US commercial sales accelerate
 Yahoo Finance · 02/11 18h09 · fonte única · licença: resumo
@@ -544,8 +587,20 @@ Fonte: CNBC 29/10 22h06
 id: E05-INTC-8a46f101b3-2026-10-30 · status: entregue
 
 
-## OUTRAS NOTÍCIAS (só manchete) (146)
+## OUTRAS NOTÍCIAS (só manchete) (158)
 
+· PLTR Palantir Lifts Outlook as U.S. Commercial Business Overtakes Government Business (The Wall Street Journal) https://www.wsj.com/business/earnings/palantir-lifts-outlook-as-u-s-commercial-business-overtakes-government-business-16eb693f
+· PLTR Palantir tops Q3 earnings estimates, revenue grew 96% year-over-year (Yahoo Finance) https://finance.yahoo.com/video/palantir-tops-q3-earnings-estimates-revenue-grew-96-year-over-year-212332193.html
+· PLTR Palantir expects quarterly revenue above estimates on AI demand (Reuters) https://www.reuters.com/technology/palantir-tops-third-quarter-revenue-estimates-strong-ai-software-demand-2026-11-02/
+· PLTR Palantir perks up as it boosts its full-year forecast after stellar Q3 results (PLTR:NASDAQ) (Seeking Alpha) https://seekingalpha.com/news/4662192-palantir-perks-up-as-it-boosts-full-year-forecast-after-stellar-q3-results
+· INTC The Intel stock collapse is getting worse — and the $3.5 trillion chip rout is spreading (Yahoo Finance) https://finance.yahoo.com/markets/article/the-intel-stock-collapse-is-getting-worse--and-the-35-trillion-chip-rout-is-spreading-204139530.html
+· MRVL Marvell And Lumentum: Building An AI Powerhouse Isn't Cheap (NASDAQ:MRVL) (Seeking Alpha) https://seekingalpha.com/article/4961092-marvell-and-lumentum-building-an-ai-powerhouse-isnt-cheap
+· INTC Intel: Time For A Very Serious Watch (NASDAQ:INTC) (Seeking Alpha) https://seekingalpha.com/article/4961074-intel-time-for-a-very-serious-watch
+· BTC Bitcoin ETFs hit by $643M selloff as Binance hack shakes crypto (Yahoo Finance) https://au.finance.yahoo.com/video/bitcoin-etfs-hit-643m-selloff-191826100.html
+· AMD AMD Heads Into Earnings With AI Guidance in the Spotlight (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/amd-heads-earnings-ai-guidance-184427144.html
+· BRENT Bolsas da Europa fecham majoritariamente em alta com tombo nos preços do petróleo e BCE no radar (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/bolsas-da-europa-fecham-majoritariamente-em-alta-com-tombo-nos-precos-do-petroleo-e-bce-no-radar/
+· DI Midterms e payroll na gringa, decisão do Copom! Tá bom? (Investing.com) https://news.google.com/rss/articles/CBMinAFBVV95cUxNQXNIWVM1ZmdZRkZ2T0NEemRVM0JSc0RuSGpaVGhRbVFhMENia29CcVVFVWF1NHVqekp3QTZRSjJ4X0hHNUl3aFdhbldCZzRDMk1hMmV6Qkc0Xy1FMmo1Yk5ta3F3OG5aZUJWdDhVSzBqM0xyTHJCaWR4aUk4RklQRTJ4WjI5SUpNNHdLYjIwcm9ocWgyc1llSWRTS0g?oc=5
+· PLTR Palantir’s Q3 Report To Test Stock Defensiveness Amid AI Panic — What Analysts Are Expecting (Yahoo Finance) https://news.google.com/rss/articles/CBMimgFBVV95cUxPcjE2cW1NNzBKSjM2eFg3LUk1d2RkREhsTmNUTmdobnl4OGFyR1FfLXdVVjg1Q3M2SkZsOFZCY0dILUZUYk1zZE5hNVlHakF3R29jN1hiamFGSWZON2lNbC1oQU5KNjFYckYxRjQwV3RHOHhVYWRXektvOExaMEdhdlYtUkU5d3NZNWNJTnE3QkxOaVY2aXczeVZB?oc=5
 · PLTR Palantir reports booming U.S. commercial revenue growth, topping government for first time (CNBC) https://www.cnbc.com/2026/11/02/palantir-pltr-earnings-q3-2026.html
 · PLTR Palantir earnings reveal a major AI turning point (MarketWatch) https://www.marketwatch.com/story/palantir-earnings-reveal-a-major-ai-turning-point-db766110
 · BTC Mercado Bitcoin, Brazil’s largest crypto exchange, hit by $46 million security breach (The Block) https://www.theblock.co/news/defi/2026-11-02-mercado-bitcoin-hack-46-million-brazil-exchange-432333
@@ -594,16 +649,4 @@ id: E05-INTC-8a46f101b3-2026-10-30 · status: entregue
 · MRVL Midday Need to Know: Marvell - Lumentum deal, oil price falls & more (TradingView (Reuters)) https://www.tradingview.com/news/seekingalpha:1efcbc566094b:0-midday-need-to-know-marvell-lumentum-deal-oil-price-falls-more/
 · UST US Treasury auction changes loom in 2027; dealers eye long-end cuts (Reuters) https://www.reuters.com/business/finance/us-treasury-auction-changes-loom-2027-dealers-eye-long-end-cuts-2026-11-02/
 · BTC Bitcoin pinned at $78k after October losses; Binance resumes withdrawals (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-steadies-78k-october-losses-071526374.html
-· GOOGL Meta and Alphabet Face Serious Market Pressure Over Capex in Q4 (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/meta-alphabet-face-serious-market-174514276.html
-· BRENT Treasury Yields Extend Past Month’s Slide as Oil Prices Tumble (Bloomberg) https://www.bloomberg.com/news/articles/2026-11-02/treasury-yields-extend-past-month-s-slide-as-oil-prices-tumble
-· GOOGL Alphabet Lost a Record $500 Billion in a Day. Is This the Buying Opportunity? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/alphabet-lost-record-500-billion-173351852.html
-· NVDA Polymarket Traders Missed Nvidia’s October Drop. Here’s What They Predict for November. (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/polymarket-traders-missed-nvidia-october-172010691.html
-· MRVL Lumentum to Join Marvell in AI Optical Connectivity Push (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/lumentum-join-marvell-ai-optical-171214180.html
-· BTC Binance reopens post-hack, and Strategy buys more bitcoin (Yahoo Finance) https://finance.yahoo.com/video/binance-reopens-post-hack-strategy-170000923.html
-· UST US Treasury auction changes loom in 2027; dealers eye long-end cuts (Yahoo Finance) https://finance.yahoo.com/economy/policy/articles/us-treasury-auction-changes-loom-162929050.html
-· ETH Bitmine Buys More Ethereum as Tom Lee Calls the Binance Hack Bullish (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitmine-buys-more-ethereum-tom-162324144.html
-· INTC Intel Gets Price Target Revamp but Keeps One Major Catalyst (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/intel-gets-price-target-revamp-161550212.html
-· AMD Buy, Sell or Hold AMD Stock? Key Tips Ahead of Q3 Earnings (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/buy-sell-hold-amd-stock-161400261.html
-· BTC Brazil’s Mercado Bitcoin halts withdrawals after $40 million drained across 10 chains (CoinDesk) https://www.coindesk.com/business/2026/11/02/brazil-s-mercado-bitcoin-halts-withdrawals-after-usd40-million-drained-across-10-chains
-· AMD AMD Just Dropped 16% in a Month. Is It Time to Sell, or Load Up? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/amd-just-dropped-16-month-152828456.html
-· (+86 manchetes; lista completa em eventos/noticias.json)
+· (+98 manchetes; lista completa em eventos/noticias.json)
