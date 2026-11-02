@@ -1,61 +1,40 @@
 ALERTAS · intradia
 
-[ATENÇÃO] E05 · MRVL · Marvell to buy Lumentum in $115 billion deal in AI data-center bet
-CNBC · 02/11 09h11 · + Bloomberg, TradingView (Reuters) · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – Marvell Technology is buying optical-components maker Lumentum in a deal valued at $115 billion, as the custom chipmaker steps up its challenge to larger rival Broadcom amid an AI spending boom.
-  – The deal, announced on Monday, is one of the biggest in 2026 and among the boldest corporate bets yet on an AI boom that chip executives expect to underpin industry demand for years.
-  – AI chip giant Nvidia invested $2 billion each in Marvell and Lumentum earlier this year.
-  – But its market value has since surged to more than $170 billion, thanks to its role in helping tech giants such as Amazon develop custom AI chips and networking technology for data centers.
-  – Marvell notched one of its biggest wins in August, signing a deal to supply chips that sit alongside Google's AI processors worth up to $120 billion in sales through fiscal 2033, giving the search giant the right to buy…
-  – Lumentum could benefit from proposed Chinese ban Since the Marvell-Lumentum talks were first reported late last month, Lumentum's shares have fallen about 8% and Marvell about 22%, as a broad-based chip selloff accelera…
-Link: https://www.cnbc.com/2026/11/02/marvell-to-buy-lumentum-in-115-billion-deal-in-ai-data-center-bet-.html
-Por que importa: aquisicao ou venda muda alavancagem, mix de receita e o multiplo; olhar preco pago e financiamento
-Ativos: MRVL · LITE
-Como falar: 'saiu no CNBC: Marvell to buy Lumentum in $115 billion deal in AI data-center bet; confirmar o número no texto antes de repassar'
-Fonte: CNBC 02/11 09h11
-Push: intradia: 3 alertas de atenção — E05 MRVL, E05 INTC, E05 META · detalhe na sessão
-ids: E05-MRVL-754595e697-2026-11-02
-
-[ATENÇÃO] E05 · INTC · Intel's Quant Rating plunges to 3.26 as weak Q4 outlook weighs on sentiment
-TradingView (Reuters) · 02/11 08h30 · fonte única · licença: manchete
-Link: https://www.tradingview.com/news/seekingalpha:b2920c527094b:0-intel-s-quant-rating-plunges-to-3-26-as-weak-q4-outlook-weighs-on-sentiment/
-Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
-Ativos: INTC
-Como falar: 'saiu no TradingView (Reuters): Intel's Quant Rating plunges to 3.26 as weak Q4 outlook weighs on sentiment; confirmar o número no texto antes de repassar'
-Fonte: TradingView (Reuters) 02/11 08h30
-ids: E05-INTC-ba7794dfeb-2026-11-02
-
-[ATENÇÃO] E05 · META · S&P cuts Meta outlook to negative over elevated capex and cash flow risks (META:NASDAQ)
-Seeking Alpha · 02/11 02h31 · fonte única · licença: manchete
-Link: https://seekingalpha.com/news/4661912-sp-cuts-meta-outlook-to-negative-over-elevated-capex-and-cash-flow-risks
+[ATENÇÃO] E05 · AMD · AMD's guidance in focus during Q3 results (AMD:NASDAQ)
+Seeking Alpha · 02/11 11h32 · fonte única · licença: manchete
+Link: https://seekingalpha.com/news/4662271-amds-guidance-in-focus-during-q3-results
 Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
-Ativos: META
-Como falar: 'saiu no Seeking Alpha: S&P cuts Meta outlook to negative over elevated capex and cash flow risks (META:NASDAQ); confirmar o número no texto antes de repassar'
-Fonte: Seeking Alpha 02/11 02h31
-ids: E05-META-a2d0dc0d54-2026-11-02
+Ativos: AMD
+Como falar: 'saiu no Seeking Alpha: AMD's guidance in focus during Q3 results (AMD:NASDAQ); confirmar o número no texto antes de repassar'
+Fonte: Seeking Alpha 02/11 11h32
+Push: intradia: 2 alertas de atenção — E05 AMD, E05 NVDA · detalhe na sessão
+ids: E05-AMD-dc8badbef8-2026-11-02
+
+[ATENÇÃO] E05 · NVDA · XMax signs Nvidia GPU deal, sees $100M+ revenue
+TradingView (Reuters) · 02/11 10h20 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/seekingalpha:4f9c10c46094b:0-xmax-signs-nvidia-gpu-deal-sees-100m-revenue/
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: NVDA
+Como falar: 'saiu no TradingView (Reuters): XMax signs Nvidia GPU deal, sees $100M+ revenue; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 02/11 10h20
+ids: E05-NVDA-db7a490ef5-2026-11-02
 
 Info (só linha no Fechamento):
-· F03 Brent cai a US$ 108,54 (-4,3% no dia · cruzou US$ 110) (parcial, intradia)
-· E01 GFS: resultado sai em 3 sessões (04/11)
-· E01 COHR: resultado sai em 3 sessões (04/11)
-· E01 SBSP3: resultado sai em 3 sessões (05/11)
-· E02 ITUB4 fica ex-dividendo em 03/11: R$ 0,02 (0,05% do preço)
-· E05 CVX · 5 revealing analyst questions from Chevron’s Q3 earnings call
-· E05 PLTR · Earnings from Apple, Palantir, and jobs report data: What to Watch
-· E05 INTC · Intel: CPU Story Collapses Before Memory Bubble (NASDAQ:INTC)
-· E05 MRVL · Marvell Strikes $115B Deal To Acquire Lumentum: CEO Sees ‘Once In A Generation’ Opportunity In AI Optical Shift
-· E05 BTC · Bitcoin's 'volatility curve' has a midterm bump: Crypto Daily
+· E05 BTC · Strategy Resumes Bitcoin Buying, Adding 811 Tokens To Its Holdings
+· E05 AVGO · Broadcom: Riding The XPU Wave (NASDAQ:AVGO)
+· E05 MRVL · Marvell Slides 3%, Lumentum Drops 6% on $115 Billion All-Stock Merger Deal; Coherent Climbs 2%
+· E05 COHR · Coherent: A Great Opportunity To Accumulate At Last Year’s Prices (Q1 Preview) (COHR)
+· E05 MRVL · Chip Maker Marvell Agrees to Buy Lumentum in $80 Billion Deal
+· E05 NVDA · Nvidia’s Fiscal 2028 Revenue Estimate Is Up 25% Since June. Here’s What November 17 Has to Prove
+· E05 UST · Treasury Polled Its Dealers on Auction Sizes and Bigger Long-End Buybacks Ahead of Wednesday's Refunding
+· E05 GOOGL · Alphabet At The Crossroads: Q3 FY26 Earnings Review (NASDAQ:GOOG) (NASDAQ:GOOGL)
+· E05 BTC · Crypto Hack Losses Hit $8.74 in 2026, More Than Triple 2025, Yet Without Binance the Year Ran Quieter: How Did Bitcoin and Ethereum React After Major…
+· E05 NVDA · Nvidia Stock Rebounding but Its Stock Chart Is Really Ugly
+· E05 BTC · 'We found room for even more orange': Michael Saylor's Strategy scoops up another 811 bitcoin for $65.5 million
+· E05 AMD · AMD Threatens False Breakout Ahead of Earnings
+· E05 INTC · Intel Logs Worst Daily Drop Since 1970s: Buy the Dip With ETFs?
+· E05 CVX · CVX Q3 Earnings Call Highlights Venezuela Growth and Refining Gains
 · E05 LITE · Lumentum Holdings Inc earnings beat by $0.36, revenue topped estimates
-· E05 INTC · Intel's 29% Plunge Sparks a Contrarian Buying Case
-· E05 MRVL · Marvell and Lumentum officially plan to combine. Here’s what to know.
-· E05 AMD · AMD's $2 Trillion AI Opportunity Comes With a Supply Risk
-· E05 PETR4 · A Petrobras e a defasagem do preço do diesel
-· E05 PLTR · Palantir Faces Q3 Earnings Test as Wall Street Splits on Valuation
-· E05 LITE · Lumentum: Fiscal Q1 Earnings Snapshot
-· E05 MRVL · Marvell and Lumentum to Combine, Creating a Category Leader in AI Connectivity
-· E05 AMD · AMD (AMD) Q3 earnings: what to expect
-· E05 GOOGL · Google Search And Agentic AI: Slower Growth, Not Instant Death (NASDAQ:GOOG)
 · T08 XLK entrou em correção: -11% do pico de 52s (US$ 202,00 em 06/10) a US$ 179,51
 · T08 QTUM entrou em bear técnico: -21% do pico de 52s (US$ 168,76 em 02/06) a US$ 133,83
 · T08 INTC entrou em queda de -40% do pico: -53% do pico de 52s (US$ 140,94 em 22/06) a US$ 65,76
@@ -95,9 +74,11 @@ Alertas do dia (todos, com status):
 · linha     T08 LITE — LITE entrou em bear técnico: -26% do pico de 52s (US$ 1.133 em 06/10) a US$ 840,
 · linha     T08 UGPA3 — UGPA3 entrou em bear técnico: -21% do pico de 52s (R$ 40,03 em 21/10) a R$ 31,76
 · linha     T06 INTC — INTC -24% em 5 sessões a US$ 65,76: movimento de 3,7 desvios para a vol de 20 di
-· pendente  E05 MRVL — MRVL · Marvell to buy Lumentum in $115 billion deal in AI data-center bet
-· pendente  E05 INTC — INTC · Intel's Quant Rating plunges to 3.26 as weak Q4 outlook weighs on sentime
-· pendente  E05 META — META · S&P cuts Meta outlook to negative over elevated capex and cash flow risks
+· pendente  E05 AMD — AMD · AMD's guidance in focus during Q3 results (AMD:NASDAQ)
+· pendente  E05 NVDA — NVDA · XMax signs Nvidia GPU deal, sees $100M+ revenue
+· entregue  E05 MRVL — MRVL · Marvell to buy Lumentum in $115 billion deal in AI data-center bet
+· entregue  E05 INTC — INTC · Intel's Quant Rating plunges to 3.26 as weak Q4 outlook weighs on sentime
+· entregue  E05 META — META · S&P cuts Meta outlook to negative over elevated capex and cash flow risks
 · entregue  E05 INTC — INTC · Intel's Quant Rating plunges to 3.26 as weak Q4 outlook weighs on sentime
 · entregue  E05 CVX — CVX · What Invesco S&P Ultra Dividend Revenue ETF (RDIV) Bought: Chevron Leads o
 · entregue  E05 LITE — LITE · Lumentum president Yuen sells over $1.35 million in company stock By Inve
@@ -151,7 +132,7 @@ Alertas do dia (todos, com status):
 · entregue  E05 CVX — CVX · Earnings Snapshot: Chevron beats Q3 EPS and revenue estimates; declares $1
 · entregue  E05 INTC — INTC · Intel Shares Plunge 25% as Weak Fourth-Quarter Outlook Overshadows Strong
 · entregue  E05 INTC — INTC · Intel plunges on a major guidance miss. What went wrong — and how to proc
-· linha     F03 BRENT — Brent cai a US$ 108,54 (-4,3% no dia · cruzou US$ 110) (parcial, intradia)
+· linha     F03 BRENT — Brent cai a US$ 106,86 (-5,8% no dia · cruzou US$ 110) (parcial, intradia)
 · linha     C03 DI — DI em nível: F32 na máxima de 252 pregões: 15,32% · F35 na máxima de 252 pregões
 · linha     T02 RBOT — RBOT (iShares Automation & Robotics UCITS ETF USD (Acc)) perdeu a MM50 pela 2ª s
 · linha     T02 IUAA — IUAA (iShares US Aggregate Bond UCITS ETF USD (Acc)) retomou a MM50 pela 2ª sess
@@ -164,5 +145,5 @@ Alertas do dia (todos, com status):
 · linha     T09 AMZN — AMZN -1,4% com volume 3,0x a mediana de 20 sessões, a US$ 240,35
 · linha     T10 WUTI — WUTI (State Street SPDR MSCI World Utilities UCITS ETF (USD)) no máximo de força
 · linha     F01 USDBRL — Real cai: USD/BRL 5,4425 (+9,1% em 5 sessões · 8 dias seguidos de movimento domé
-· (+44 notícias só manchete, em noticias.md)
+· (+59 notícias só manchete, em noticias.md)
 

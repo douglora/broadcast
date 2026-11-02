@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 02/11 10h29
+NOTÍCIAS E FATOS · 02/11 11h34
 
-Pernas: noticias ok 18 novas (18 consultas; descartadas: 385 veículo fora da lista, 17 sem ativo, 20 teto) · cvm ok 0 novos de 3 (3 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 17 novas (18 consultas; descartadas: 402 veículo fora da lista, 26 sem ativo, 8 teto) · cvm ok 0 novos de 3 (3 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (1)
 
@@ -37,7 +37,25 @@ Fonte: SEC EDGAR 2026-10-30
 id: E04-CVX-26000196-2026-10-30 · status: entregue · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (27)
+## NOTÍCIAS COM MATERIALIDADE (29)
+
+[ATENÇÃO] E05 · AMD · AMD's guidance in focus during Q3 results (AMD:NASDAQ)
+Seeking Alpha · 02/11 11h32 · fonte única · licença: manchete
+Link: https://seekingalpha.com/news/4662271-amds-guidance-in-focus-during-q3-results
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: AMD
+Como falar: 'saiu no Seeking Alpha: AMD's guidance in focus during Q3 results (AMD:NASDAQ); confirmar o número no texto antes de repassar'
+Fonte: Seeking Alpha 02/11 11h32
+id: E05-AMD-dc8badbef8-2026-11-02 · status: pendente
+
+[ATENÇÃO] E05 · NVDA · XMax signs Nvidia GPU deal, sees $100M+ revenue
+TradingView (Reuters) · 02/11 10h20 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/seekingalpha:4f9c10c46094b:0-xmax-signs-nvidia-gpu-deal-sees-100m-revenue/
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: NVDA
+Como falar: 'saiu no TradingView (Reuters): XMax signs Nvidia GPU deal, sees $100M+ revenue; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 02/11 10h20
+id: E05-NVDA-db7a490ef5-2026-11-02 · status: pendente
 
 [ATENÇÃO] E05 · MRVL · Marvell to buy Lumentum in $115 billion deal in AI data-center bet
 CNBC · 02/11 09h11 · + Bloomberg, TradingView (Reuters) · licença: resumo
@@ -53,7 +71,7 @@ Por que importa: aquisicao ou venda muda alavancagem, mix de receita e o multipl
 Ativos: MRVL · LITE
 Como falar: 'saiu no CNBC: Marvell to buy Lumentum in $115 billion deal in AI data-center bet; confirmar o número no texto antes de repassar'
 Fonte: CNBC 02/11 09h11
-id: E05-MRVL-754595e697-2026-11-02 · status: pendente
+id: E05-MRVL-754595e697-2026-11-02 · status: entregue
 
 [ATENÇÃO] E05 · INTC · Intel's Quant Rating plunges to 3.26 as weak Q4 outlook weighs on sentiment
 TradingView (Reuters) · 02/11 08h30 · fonte única · licença: manchete
@@ -62,7 +80,7 @@ Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais
 Ativos: INTC
 Como falar: 'saiu no TradingView (Reuters): Intel's Quant Rating plunges to 3.26 as weak Q4 outlook weighs on sentiment; confirmar o número no texto antes de repassar'
 Fonte: TradingView (Reuters) 02/11 08h30
-id: E05-INTC-ba7794dfeb-2026-11-02 · status: pendente
+id: E05-INTC-ba7794dfeb-2026-11-02 · status: entregue
 
 [ATENÇÃO] E05 · META · S&P cuts Meta outlook to negative over elevated capex and cash flow risks (META:NASDAQ)
 Seeking Alpha · 02/11 02h31 · fonte única · licença: manchete
@@ -71,7 +89,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: META
 Como falar: 'saiu no Seeking Alpha: S&P cuts Meta outlook to negative over elevated capex and cash flow risks (META:NASDAQ); confirmar o número no texto antes de repassar'
 Fonte: Seeking Alpha 02/11 02h31
-id: E05-META-a2d0dc0d54-2026-11-02 · status: pendente
+id: E05-META-a2d0dc0d54-2026-11-02 · status: entregue
 
 [ATENÇÃO] E05 · INTC · Intel's Quant Rating plunges to 3.26 as weak Q4 outlook weighs on sentiment (INTC:NASDAQ)
 Seeking Alpha · 02/11 08h30 · fonte única · licença: manchete
@@ -367,8 +385,23 @@ Fonte: CNBC 29/10 22h06
 id: E05-INTC-8a46f101b3-2026-10-30 · status: entregue
 
 
-## OUTRAS NOTÍCIAS (só manchete) (39)
+## OUTRAS NOTÍCIAS (só manchete) (54)
 
+· BTC Strategy Resumes Bitcoin Buying, Adding 811 Tokens To Its Holdings (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/strategy-resumes-bitcoin-buying-adding-135900043.html
+· AVGO Broadcom: Riding The XPU Wave (NASDAQ:AVGO) (Seeking Alpha) https://seekingalpha.com/article/4960952-broadcom-riding-the-xpu-wave
+· MRVL Marvell Slides 3%, Lumentum Drops 6% on $115 Billion All-Stock Merger Deal; Coherent Climbs 2% (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/marvell-slides-3-lumentum-drops-135326041.html
+· COHR Coherent: A Great Opportunity To Accumulate At Last Year’s Prices (Q1 Preview) (COHR) (Seeking Alpha) https://seekingalpha.com/article/4960946-coherent-corp-a-great-opportunity-to-accumulate-at-last-years-prices-q1-preview
+· MRVL Chip Maker Marvell Agrees to Buy Lumentum in $80 Billion Deal (The Wall Street Journal) https://www.wsj.com/business/deals/marvell-to-buy-lumentum-for-80-billion-in-all-stock-ai-deal-c9fd43a6
+· NVDA Nvidia’s Fiscal 2028 Revenue Estimate Is Up 25% Since June. Here’s What November 17 Has to Prove (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/nvidia-fiscal-2028-revenue-estimate-132028810.html
+· UST Treasury Polled Its Dealers on Auction Sizes and Bigger Long-End Buybacks Ahead of Wednesday's Refunding (TradingView (Reuters)) https://www.tradingview.com/news/prnewswire:3e8ea16e28a28:0-treasury-polled-its-dealers-on-auction-sizes-and-bigger-long-end-buybacks-ahead-of-wednesday-s-refunding/
+· GOOGL Alphabet At The Crossroads: Q3 FY26 Earnings Review (NASDAQ:GOOG) (NASDAQ:GOOGL) (Seeking Alpha) https://seekingalpha.com/article/4960940-alphabet-at-crossroads-q3-fy26-earnings-review
+· BTC Crypto Hack Losses Hit $8.74 in 2026, More Than Triple 2025, Yet Without Binance the Year Ran Quieter: How Did Bitcoin and Ethereum React After Major… (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/crypto-hack-losses-hit-8-131017031.html
+· NVDA Nvidia Stock Rebounding but Its Stock Chart Is Really Ugly (Barron's) https://www.barrons.com/articles/nvidia-stock-rebound-chart-technical-572ccaac
+· BTC 'We found room for even more orange': Michael Saylor's Strategy scoops up another 811 bitcoin for $65.5 million (The Block) https://www.theblock.co/news/business/2026-11-02-we-found-room-for-even-more-orange-michael-saylor-strategy-bitcoin-btc-432275
+· AMD AMD Threatens False Breakout Ahead of Earnings (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/amd-threatens-false-breakout-ahead-130400928.html
+· INTC Intel Logs Worst Daily Drop Since 1970s: Buy the Dip With ETFs? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/intel-logs-worst-daily-drop-130000569.html
+· CVX CVX Q3 Earnings Call Highlights Venezuela Growth and Refining Gains (Yahoo Finance) https://news.google.com/rss/articles/CBMikgFBVV95cUxNbEktUENOWTFULUZtWEtjWUJpUzh0R080UTZ3UEJYTHFhNjRTX0NKd1B6VTFobmg4ZFpoelBGX0pyR3JuTExtWVNxbHdHaldEdHJkZXZZRzlHWHhmWHlLQy1UbmZtMVNQbk1FNUx1cVFjd2hTX3BnU011ak5UalpZT1V4My16VERDZVJxNGVaaXRoQQ?oc=5
+· LITE Lumentum Holdings Inc earnings beat by $0.36, revenue topped estimates (Investing.com) https://news.google.com/rss/articles/CBMitAFBVV95cUxPYUdFZ0FQdk9yWjVJV3ZFWFB4eEZzcEpNNXJQcmtqb2Ezcy1ZRC1LU0ktbVdxRndsQlJkRXB5bEFmQ0ViNHRmZTVQQVZLM2k3UWJ2Zkl1SlhSb2gzSHFIMHdTX181REU3dF90ZlhLcGpXYXlzQVZSeVFnOXBrUXpjUXF0V1V3VkVISTJ1VnFCZFBMS3N0ai1QME9NVzhxWWxPcVFVbnZxeU9IYVI1dDFyZ0YxYXg?oc=5
 · CVX 5 revealing analyst questions from Chevron’s Q3 earnings call (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/5-revealing-analyst-questions-chevron-130136794.html
 · PLTR Earnings from Apple, Palantir, and jobs report data: What to Watch (Yahoo Finance) https://finance.yahoo.com/video/earnings-apple-palantir-jobs-report-130000506.html
 · INTC Intel: CPU Story Collapses Before Memory Bubble (NASDAQ:INTC) (Seeking Alpha) https://seekingalpha.com/article/4960934-intel-cpu-story-collapses-before-memory-bubble
