@@ -1,182 +1,172 @@
 ALERTAS · intradia
 
-(pendente de slot anterior) [ATENÇÃO] E05 · KO · Coca-Cola Is the Most Boring Stock I Own. After 64 Years of Dividend Raises, I'll Never Sell.
-Yahoo Finance · 02/11 17h05 · fonte única · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – Yet Coca-Cola still accounts for nearly 5% of my portfolio; it's my fourth-largest holding, and I don't plan to sell it for three simple reasons.
-  – It's a Dividend King If a company raises its dividend annually for 50 consecutive years, it becomes a Dividend King.
-  – Coca-Cola, with 64 consecutive years of dividend hikes, belongs to that exclusive club.
-  – In 2009, a "Double Down" signal flashed for a little-known chipmaker called Nvidia.
-  – For the first time in years, that same "Total Conviction" signal is flashing for a company 1/100th the size of Nvidia.
-  – has experienced six official recessions, and the S&P 500 (SNPINDEX: ^GSPC) has experienced five bear markets (a decline of at least 20% from its previous peak).
-Link: https://finance.yahoo.com/markets/stocks/articles/coca-cola-most-boring-stock-200500293.html
-Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
-Ativos: KO
-Como falar: 'saiu no Yahoo Finance: Coca-Cola Is the Most Boring Stock I Own. After 64 Years of Dividend Raises, I'll Never S…; confirmar o número no texto antes de repassar'
-Fonte: Yahoo Finance 02/11 17h05
-ids: E05-KO-4815d18ec1-2026-11-02
+(pendente de slot anterior) [ATENÇÃO] E05 · PLTR · Palantir’s revenue rises 96% to $2.3 billion as investors’ patience rests on a hair trigger
+Fortune · 02/11 18h47 · fonte única · licença: manchete
+Link: https://fortune.com/2026/11/02/palantir-q3-results-stock-ai-trade-selloff/
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: PLTR
+Como falar: 'saiu no Fortune: Palantir’s revenue rises 96% to $2.3 billion as investors’ patience rests on a hair trigg…; confirmar o número no texto antes de repassar'
+Fonte: Fortune 02/11 18h47
+ids: E05-PLTR-23525fa5ec-2026-11-02
 
-(pendente de slot anterior) [ATENÇÃO] E05 · DI · Até um dos mais otimistas pisou no freio: Inter eleva projeção da Selic e vê pausa nos cortes
-Money Times · 02/11 17h02 · fonte única · licença: integral
-Do texto:
-  – O banco agora estima que a Selic encerre 2026 em 13,50%, ante os 13,25% projetados anteriormente, diante da piora das perspectivas para a inflação e das incertezas fiscais.
-  – O cenário principal ainda contempla uma redução de 0,25 ponto percentual na reunião de novembro do Comitê de Política Monetária (Copom).
-  – Mas esse seria o último corte antes de uma pausa que, na avaliação do banco, deve durar até o fim de 2027.
-  – A projeção de Selic em 13,25% já aparecia nos relatórios do Inter pelo menos desde maio.
-  – No levantamento do Money Times anterior à reunião de setembro, o banco estava entre as quatro casas que esperavam esse patamar para dezembro, enquanto dez projetavam juros de 13,75%.
-  – No relatório assinado pela economista-chefe Rafaela Vitória, o Inter reconhece que o Banco Central pode antecipar a pausa e manter a taxa nos atuais 13,75%.
-Link: https://www.moneytimes.com.br/ate-um-dos-mais-otimistas-pisou-no-freio-inter-eleva-projecao-da-selic-e-ve-pausa-nos-cortes-jcav/
-Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
-Ativos: DI
-Como falar: 'saiu no Money Times: Até um dos mais otimistas pisou no freio: Inter eleva projeção da Selic e vê pausa nos co…; confirmar o número no texto antes de repassar'
-Fonte: Money Times 02/11 17h02
-ids: E05-DI-f04e147d8f-2026-11-02
+(pendente de slot anterior) [ATENÇÃO] E05 · PLTR · Palantir beats on earnings and revenue, Q3 commercial revenue surpasses government revenue
+CNBC · 02/11 18h31 · fonte única · licença: resumo
+Link: https://www.cnbc.com/video/2026/11/02/palantir-beats-on-earnings-and-revenue-q3-commercial-revenue-surpasses-government-revenue.html
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: PLTR
+Como falar: 'saiu no CNBC: Palantir beats on earnings and revenue, Q3 commercial revenue surpasses government revenue; confirmar o número no texto antes de repassar'
+Fonte: CNBC 02/11 18h31
+ids: E05-PLTR-7d9889fb18-2026-11-02
 
-(pendente de slot anterior) [ATENÇÃO] E05 · MU · Micron Falls 4% as Kioxia’s Cautious Outlook Hits Memory Stocks; Western Digital Drops 5%, SanDisk Slides 3%
-Yahoo Finance · 02/11 15h53 · fonte única · licença: resumo
+(pendente de slot anterior) [ATENÇÃO] E05 · PLTR · Palantir raises 2026 revenue outlook after quarterly revenue nearly doubles on AI
+Investing.com · 02/11 18h18 · fonte única · licença: manchete
+Link: https://www.investing.com/news/earnings/palantir-raises-2026-revenue-outlook-after-quarterly-revenue-nearly-doubles-on-ai-4992779
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: PLTR
+Como falar: 'saiu no Investing.com: Palantir raises 2026 revenue outlook after quarterly revenue nearly doubles on AI; confirmar o número no texto antes de repassar'
+Fonte: Investing.com 02/11 18h18
+ids: E05-PLTR-19743636ac-2026-11-02
+
+(pendente de slot anterior) [ATENÇÃO] E05 · INTC · Why Intel Stock Is Down After Weak Q4 Guidance
+Yahoo Finance · 02/11 20h16 · fonte única · licença: resumo
 Trechos (licença resumo: reescrever, não colar):
-  – Micron stock is at $853.34, down 4% this afternoon.
-  – Over the past month, Micron stock is down 20%.
-  – That slide comes despite record results: on September 30, the company reported Q4 FY2026 revenue of $54.23 billion, up 379.3% year over year, with an adjusted gross margin of 87%.
-  – For Q1 FY2027, Micron forecast its revenue to $61.5 billion, plus or minus $1.5 billion.
-  – Kioxia's Soft Guidance Drags Memory Stocks Lower Kioxia Holdings guided its December-quarter operating profit to 2 trillion yen, the company said on November 2.
-  – That forecast stands only slightly above the 1.99 trillion yen Kioxia earned in the September quarter, and it came in below analyst estimates.
-Link: https://finance.yahoo.com/markets/stocks/articles/micron-falls-4-kioxia-cautious-185355108.html
+  – - Intel reported Q3 2026 sales of US$16,513 million with net income of US$3,320 million, and issued Q4 guidance calling for US$15.0 billion to US$16.0 billion in revenue and US$0.10 in diluted EPS attributable to Intel.
+  – - Management attributed the weaker Q4 outlook to soft PC demand, memory shortages, and production disruptions including a shutdown at its Israel facility, while demand for Xeon server and AI chips remained strong.
+  – - We will now examine how Intel's weaker Q4 outlook and PC headwinds could reshape the longer term investment narrative around AI.
+  – The big swing factor is still whether those US$20b plus annual capex levels convert into profitable Xeon and foundry volumes rather than just unused fabs that weigh on cash flow.
+  – The Q4 reset puts a bright spotlight on that question, because it shows how quickly demand can clash with supply bottlenecks and outages.
+  – The Oracle Cloud Infrastructure agreement around current and future Intel Xeon platforms, including the planned Diamond Rapids based X14 instances, ties directly into that catalyst and risk pair.
+Link: https://finance.yahoo.com/markets/stocks/articles/why-intel-stock-down-weak-231626988.html
 Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
-Ativos: MU
-Como falar: 'saiu no Yahoo Finance: Micron Falls 4% as Kioxia’s Cautious Outlook Hits Memory Stocks; Western Digital Drops 5%…; confirmar o número no texto antes de repassar'
-Fonte: Yahoo Finance 02/11 15h53
-ids: E05-MU-4868bb6273-2026-11-02
+Ativos: INTC
+Como falar: 'saiu no Yahoo Finance: Why Intel Stock Is Down After Weak Q4 Guidance; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 02/11 20h16
+ids: E05-INTC-4a7b6b632b-2026-11-02
+
+(pendente de slot anterior) [ATENÇÃO] E05 · PLTR · Earnings call transcript: Palantir tops Q3 2026 estimates but shares fall
+Investing.com · 02/11 20h06 · fonte única · licença: manchete
+Link: https://www.investing.com/news/transcripts/earnings-call-transcript-palantir-tops-q3-2026-estimates-but-shares-fall-93CH-4993152
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: PLTR
+Como falar: 'saiu no Investing.com: Earnings call transcript: Palantir tops Q3 2026 estimates but shares fall; confirmar o número no texto antes de repassar'
+Fonte: Investing.com 02/11 20h06
+ids: E05-PLTR-80f052a8a1-2026-11-02
+
+[ATENÇÃO] E01 · ITUB4: resultado sai na próxima sessão (04/11)
+qua 04/11 · após o fechamento da B3 · estimado (config/calendario.yaml)
+Vol de 20 dias +68% a.a. ⇒ movimento típico de 1 dia ±4,3%
+Chega ao resultado com 1m -14% · 6m -8,4% · YTD +0,2%
+Consenso: não disponível (sem fonte licenciada); usar o release e o guidance anterior
+Por que importa: resultado é o evento que mais move o papel em um dia; a vol implícita e o posicionamento sobem antes e caem depois
+Como falar: 'o resultado sai amanhã; o movimento típico do papel num dia é o da vol acima, e o mercado costuma exagerar na abertura'
+Fonte: config/calendario.yaml
+Push: intradia: 7 alertas de atenção — E01 ITUB4, E01 MELI34, E01 GFS, E01 COHR, E05 PETR4, E05 PLTR, E05 TSLA · detalhe na sessão
+ids: E01-ITUB4-D-1-2026-11-03
+
+[ATENÇÃO] E01 · MELI34: resultado sai na próxima sessão (04/11)
+qua 04/11 · após o fechamento de NY · estimado (config/calendario.yaml)
+Vol de 20 dias +30% a.a. ⇒ movimento típico de 1 dia ±1,9%
+Chega ao resultado com 1m +4,6% · 6m +3,2% · YTD -17%
+Consenso: não disponível (sem fonte licenciada); usar o release e o guidance anterior
+Por que importa: resultado é o evento que mais move o papel em um dia; a vol implícita e o posicionamento sobem antes e caem depois
+Como falar: 'o resultado sai amanhã; o movimento típico do papel num dia é o da vol acima, e o mercado costuma exagerar na abertura'
+Fonte: config/calendario.yaml
+ids: E01-MELI34-D-1-2026-11-03
+
+[ATENÇÃO] E01 · GFS: resultado sai na próxima sessão (04/11)
+qua 04/11 · horário não confirmado · estimado (Yahoo)
+Vol de 20 dias +61% a.a. ⇒ movimento típico de 1 dia ±3,8%
+Chega ao resultado com 1m -13% · 6m -41% · YTD +25%
+Consenso: não disponível (sem fonte licenciada); usar o release e o guidance anterior
+Por que importa: resultado é o evento que mais move o papel em um dia; a vol implícita e o posicionamento sobem antes e caem depois
+Como falar: 'o resultado sai amanhã; o movimento típico do papel num dia é o da vol acima, e o mercado costuma exagerar na abertura'
+Fonte: Yahoo
+ids: E01-GFS-D-1-2026-11-03
+
+[ATENÇÃO] E01 · COHR: resultado sai na próxima sessão (04/11)
+qua 04/11 · horário não confirmado · estimado (Yahoo)
+Vol de 20 dias +95% a.a. ⇒ movimento típico de 1 dia ±6,0%
+Chega ao resultado com 1m -38% · 6m -38% · YTD +13%
+Consenso: não disponível (sem fonte licenciada); usar o release e o guidance anterior
+Por que importa: resultado é o evento que mais move o papel em um dia; a vol implícita e o posicionamento sobem antes e caem depois
+Como falar: 'o resultado sai amanhã; o movimento típico do papel num dia é o da vol acima, e o mercado costuma exagerar na abertura'
+Fonte: Yahoo
+ids: E01-COHR-D-1-2026-11-03
+
+[ATENÇÃO] E05 · PETR4 · Dividendos de 14,8%: BB Investimentos escolhe Petrobras (PETR4), Axia (AXIA3) e outras oito ações para novembro
+Money Times · 03/11 13h59 · fonte única · licença: integral
+Do texto:
+  – Dividendos de 14,8%: BB Investimentos escolhe Petrobras (PETR4), Axia (AXIA3) e outras oito ações para novembro O BB Investimentos não realizou mudanças na sua carteira recomendada de dividendos para novembro de 2026.
+  – Deste modo, permanecem na carteira as ações de Banco ABC Brasil (ABCB4), Ambev (ABEV3), Allos (ALOS3), Axia (AXIA3), B3 (B3SA3), Direcional (DIRR3), Petrobras (PETR4), Marcopolo (POMO4), TIM (TIMS3) e Vibra Energia (VBB…
+  – Entre os nomes presentes na seleção, a Allos aparece com o maior dividend yield projetado, de 14,8%, seguida por Axia e Petrobras, com projeções de 11,8% e 11,5%, respectivamente.
+  – Já Ambev apresenta a menor estimativa de retorno via dividendos, de 6,5%.
+  – Em outubro, a carteira apresentou queda de 12%, desempenho inferior ao recuo de 9,9% registrado pelo Índice de Dividendos (IDIV).
+  – No acumulado de 2026, a estratégia registra perda de 4,77%, enquanto o benchmark avança 2,03%.
+Link: https://www.moneytimes.com.br/dividendos-148-bb-investimentos-escolhe-petrobras-petr4-axia-axia3-outras-oito-acoes-para-novembro-mlem/
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: PETR4 · AXIA3
+Como falar: 'saiu no Money Times: Dividendos de 14,8%: BB Investimentos escolhe Petrobras (PETR4), Axia (AXIA3) e outras oi…; confirmar o número no texto antes de repassar'
+Fonte: Money Times 03/11 13h59
+ids: E05-PETR4-3761d3a633-2026-11-03
+
+[ATENÇÃO] E05 · PLTR · Palantir Technologies Inc. (PLTR) Raises 2026 Revenue Guidance After Q3 Revenue Climbs 96%
+TradingView (Reuters) · 03/11 13h31 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/tradingview:2db0c5ea4779c:0-palantir-technologies-inc-pltr-raises-2026-revenue-guidance-after-q3-revenue-climbs-96/
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: PLTR
+Como falar: 'saiu no TradingView (Reuters): Palantir Technologies Inc. (PLTR) Raises 2026 Revenue Guidance After Q3 Revenue Climbs 96%; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 03/11 13h31
+ids: E05-PLTR-1e68624328-2026-11-03
+
+[ATENÇÃO] E05 · TSLA · Musk’s pay under a SpaceX-Tesla merger: voting control, but no $1 trillion payday​
+Reuters · 03/11 11h51 · fonte única · licença: manchete
+Link: https://www.reuters.com/business/media-telecom/musks-pay-under-spacex-tesla-merger-voting-control-no-1-trillion-payday-2026-11-03/
+Por que importa: aquisicao ou venda muda alavancagem, mix de receita e o multiplo; olhar preco pago e financiamento
+Ativos: TSLA
+Como falar: 'saiu no Reuters: Musk’s pay under a SpaceX-Tesla merger: voting control, but no $1 trillion payday​; confirmar o número no texto antes de repassar'
+Fonte: Reuters 03/11 11h51
+ids: E05-TSLA-4ecddeb83e-2026-11-03
 
 Info (só linha no Fechamento):
-· E05 NVDA · Nvidia, Microsoft, and JPMorgan object to OKXICE tokenized stocks
-· E05 GOOGL · Alphabet: Wall Street Fixates On AI Spending, But Cloud Profits Tell Another Story (GOOGL)
-· E05 LITE · Lumentum Goes From $1 Billion Spinoff to $115 Billion Takeover
-· E05 BTC · Bitcoin ETFs hit by $643M selloff as Binance hack shakes crypto
-· E05 BTC · Bitcoin risks drop below $76K as 7% oil slide fails to spark BTC price rally
-· E05 BTC · Prediction: Anthropic Will Be Worth More Than Bitcoin by the End of the Year. On Polymarket, the Current Odds Are 79%.
-· E05 AMZN · Amazon: AWS, AI Chips, & Retail Expansion Spur Growth
-· E05 AMZN · Amazon Stocks Jump 4.3% With Upgrade Putting AWS Cash Conversion in Focus
-· T08 XLK entrou em correção: -11% do pico de 52s (US$ 202,00 em 06/10) a US$ 179,51
-· T08 QTUM entrou em bear técnico: -21% do pico de 52s (US$ 168,76 em 02/06) a US$ 133,83
-· T08 INTC entrou em queda de -40% do pico: -53% do pico de 52s (US$ 140,94 em 22/06) a US$ 65,76
-· T08 MU entrou em queda de -25% do pico: -27% do pico de 52s (US$ 1.214 em 25/06) a US$ 884,74
-· T08 TSM entrou em queda de -15% do pico: -16% do pico de 52s (US$ 485,80 em 05/10) a US$ 406,13
-· T08 LITE entrou em bear técnico: -26% do pico de 52s (US$ 1.133 em 06/10) a US$ 840,70
-· T08 UGPA3 entrou em bear técnico: -21% do pico de 52s (R$ 40,03 em 21/10) a R$ 31,76
-· T06 INTC -24% em 5 sessões a US$ 65,76: movimento de 3,7 desvios para a vol de 20 dias
-· T13 VIX cruzou 20: 20,2 (+17% no dia)
-· T01 QTUM fechou abaixo da média de 200 dias pela 1ª sessão: US$ 133,83 vs MM200 US$ 137,29 (-2,5%)
-· T01 INTC fechou abaixo da média de 200 dias pela 1ª sessão: US$ 65,76 vs MM200 US$ 86,86 (-24%)
-· T01 EWY fechou abaixo da média de 200 dias pela 1ª sessão: US$ 152,89 vs MM200 US$ 162,67 (-6,0%)
-· T03 GOOGL formou death cross: MM50 US$ 339,03 cruzou abaixo da MM200 US$ 340,34 pela 2ª sessão; preço US$ 279,84, -18% da MM200, -0,3% em 12m
-· T04 REMX fechou na mínima de 52 semanas: US$ 49,99, -22% em 1m e -29% em 12m
-· T04 SAPR4 fechou na mínima de 52 semanas: R$ 6,03, -7,5% em 1m e -9,4% em 12m
-· T04 SMAL11 fechou na mínima de 52 semanas: R$ 92,15, -18% em 1m e -16% em 12m
-· T02 MU perdeu a MM50 e perdeu a MM100 pela 2ª sessão: US$ 884,74, ainda acima da MM200 (tendência longa preservada)
-· T09 QQQ -3,5% com volume 2,7x a mediana de 20 sessões, a US$ 690,49
-· T09 INTC -29% com volume 4,9x a mediana de 20 sessões, a US$ 65,76
-· T10 WQTM no mínimo de força relativa em 63 sessões contra SPX: -20% vs -1,8% em 20 sessões (-18% relativo)
-· T10 WQTMUS no mínimo de força relativa em 63 sessões contra SPX: -19% vs -1,8% em 20 sessões (-17% relativo)
-· T10 INTC no mínimo de força relativa em 63 sessões contra SOX: -45% vs -19% em 20 sessões (-32% relativo)
-· T10 PETR4 no máximo de força relativa em 63 sessões contra IBOV: +5,6% vs -10% em 20 sessões (+18% relativo)
-· T12 WUTI (State Street SPDR MSCI World Utilities UCITS ETF (USD)): 8 altas seguidas (+4,4% acumulado) a US$ 69,97
+· F06 ETH sobe a US$ 2.293 (cruzou US$ 2.250) (parcial, intradia)
+· E01 AMD: resultado sai hoje (03/11)
+· E02 BBDC4 fica ex-dividendo em 04/11: R$ 0,02 (0,14% do preço)
+· M01 Agenda: Copom: decisao da Selic amanhã às 18:30 (04/11)
+· E05 PETR4 · Petrobras aumenta em 7,2% preço do querosene de aviação
+· E05 AMZN · Amazon's Earnings Just Hit a Record. So Why Is the Stock Down 11% From Its Peak?
+· E05 AMD · Why Is Advanced Micro Devices (AMD) Backing A $6 Billion AI Assistant Startup?
+· E05 ETH · Ethereum Price Recovers Despite 6 Straight Days Of ETF Selling, With Holders Sitting On Billions In Losses
+· E05 ITUB4 · Painel S.A.: Warren anuncia ex-XP e Itaú como novo CEO
+· E05 ALUP4 · Banco Pine (PINE4) e Alupar (ALUP11) entram na carteira de small caps da Ágora para novembro
+· E05 PETR4 · Petrobras diz que plataforma P-78 atingiu topo de produção com 180 mil barris/dia
+· E05 AMD · Wall Street Lunch: Midterm Elections & Earnings (undefined:AMD)
+· E05 INTC · Intel Stock Jumps After Brutal Sell-Off as Wall Street Sees $125 Upside
+· E05 BTC · Tether Says It Holds 150,000 Bitcoin, 50,000 More Than Its Reserve Report Showed. What Does That Mean for BTC?
+· E05 DI · Selic pode cair para 13,50% nesta quarta; veja os dados que podem mexer com o mercado
+· E05 BBAS3 · JP Morgan alerta para alta da inadimplência no Banco do Brasil
+· E05 PLTR · Palantir CEO sees 'moral imperative' to become dominant player in industry
+· E05 NVDA · Nvidia Stocks Rebound 2.84% Before November 17 AI Earnings Check
+· E05 AMD · AMD earnings setup: why a beat may not be enough
+· E05 USDBRL · Mercado eleva projeção para inflação, juros e dólar em 2026
+· E05 ITUB4 · Dividendos de novembro: Petrobras (PETR4), Itaú (ITUB4) e Caixa Seguridade (CXSE3) são alguns dos destaques
+· E05 BBDC4 · Bradesco (BBDC4) e Banestes (BEES3) pagam dividendos hoje; veja detalhes
+· E05 CVX · State Street SPDR S&P Dividend ETF (SDY) Sells Accenture and Chevron on Oct. 30
+· E05 KO · Here's How Many Shares of Coca-Cola You'd Need for $1,000 in Monthly Dividend Income
+· E05 UST · Agree Realty: A Dividend Hike As Treasury Rates Surge (Rating Downgrade) (NYSE:ADC)
+· E05 DI · Corte de 0,25 ponto ou manutenção da Selic? Mercado se divide sobre projeção para decisão do Copom
+· E05 BTC · Bitcoin Price Outlook For November 2026: One Price Level Remains Critical
+· E05 ITUB4 · Dividendos na conta: Bradesco, Itaú e outras 3 empresas fazem pagamentos nesta semana
 
-Suprimidos pelo teto (viram linha do Fechamento): T08-XLK--10-2026-10-30 (teto diário de críticos), T08-QTUM--20-2026-10-30 (teto diário de críticos), T08-INTC--40-2026-10-30 (teto diário de críticos), T08-MU--25-2026-10-30 (teto diário de críticos), T08-TSM--15-2026-10-30 (teto diário de críticos), T08-LITE--20-2026-10-30 (teto diário de críticos), T08-UGPA3--20-2026-10-30 (teto diário de críticos), T06-INTC-queda-2026-10-30 (teto diário de críticos), T13-VIX-vix20-2026-10-30 (teto de atenção), T01-QTUM-perda-2026-10-30 (teto de atenção), T01-INTC-perda-2026-10-30 (teto de atenção), T01-EWY-perda-2026-10-30 (teto de atenção), T03-GOOGL-death-2026-10-30 (teto de atenção), T04-REMX-minima-2026-10-30 (teto de atenção), T04-SAPR4-minima-2026-10-30 (teto de atenção), T04-SMAL11-minima-2026-10-30 (teto de atenção), T02-MU-perdeu_perdeu-2026-10-30 (teto de atenção), T09-QQQ-queda-2026-10-30 (teto de atenção), T09-INTC-queda-2026-10-30 (teto de atenção), T10-WQTM-mínimo-2026-10-30 (teto de atenção), T10-WQTMUS-mínimo-2026-10-30 (teto de atenção), T10-INTC-mínimo-2026-10-30 (teto de atenção), T10-PETR4-máximo-2026-10-30 (teto de atenção), T12-WUTI-altas_8-2026-10-30 (teto de atenção)
+Suprimidos pelo teto (viram linha do Fechamento): E05-USDBRL-a058baba1c-2026-11-03 (teto de noticias), E05-ITUB4-165b39a7bb-2026-11-03 (teto de noticias), E05-BBDC4-217e055c7b-2026-11-03 (teto de noticias), E05-CVX-23785d0454-2026-11-03 (teto de noticias), E05-KO-73a96ca6b9-2026-11-03 (teto de noticias), E05-UST-61026b9511-2026-11-03 (teto de noticias), E05-DI-d84617ab16-2026-11-03 (teto de noticias), E05-BTC-476de55479-2026-11-03 (teto de noticias), E05-ITUB4-3c2f7af6ed-2026-11-03 (teto de noticias)
 
 Alertas do dia (todos, com status):
-· entregue  C05 TESOURO — Pre 2029 ABRE 16 bps (PU -0,2%) · Pre 2029 PU -3,8% em 5 datas-base · IPCA+ 2032
-· entregue  T05 SOXX — SOXX -8,2% no dia a US$ 471,51: movimento de 3,1 desvios para uma vol de 20 dias
-· entregue  T05 WQTM — WQTM -7,4% no dia a US$ 30,85: movimento de 4,2 desvios para uma vol de 20 dias 
-· entregue  T05 AMD — AMD -11% no dia a US$ 504,80: movimento de 3,1 desvios para uma vol de 20 dias d
-· entregue  T05 INTC — INTC -29% no dia a US$ 65,76: movimento de 9,8 desvios para uma vol de 20 dias d
-· linha     T08 QTUM — QTUM entrou em bear técnico: -21% do pico de 52s (US$ 168,76 em 02/06) a US$ 133
-· linha     T08 INTC — INTC entrou em queda de -40% do pico: -53% do pico de 52s (US$ 140,94 em 22/06) 
-· linha     T08 MU — MU entrou em queda de -25% do pico: -27% do pico de 52s (US$ 1.214 em 25/06) a U
-· linha     T08 LITE — LITE entrou em bear técnico: -26% do pico de 52s (US$ 1.133 em 06/10) a US$ 840,
-· linha     T08 UGPA3 — UGPA3 entrou em bear técnico: -21% do pico de 52s (R$ 40,03 em 21/10) a R$ 31,76
-· linha     T06 INTC — INTC -24% em 5 sessões a US$ 65,76: movimento de 3,7 desvios para a vol de 20 di
-· pendente  E05 KO — KO · Coca-Cola Is the Most Boring Stock I Own. After 64 Years of Dividend Raises
-· pendente  E05 DI — DI · Até um dos mais otimistas pisou no freio: Inter eleva projeção da Selic e v
-· pendente  E05 MU — MU · Micron Falls 4% as Kioxia’s Cautious Outlook Hits Memory Stocks; Western Di
-· entregue  E05 LITE — LITE · Lumentum Stocks Drop 11% With Merger Risk Overshadowing Its $1.6 Billion 
-· entregue  E05 MRVL — MRVL · Marvell to Acquire Lumentum in Historic $115 Billion Tech Deal
-· entregue  E05 CVX — CVX · Chevron's Q3 Results Support Higher Free Cash Flow Outlook, Morgan Stanley
-· entregue  E05 AMZN — AMZN · Lawsuit Claims Amazon Ignored Trucking Safety Warning Signs
-· entregue  E05 CVX — CVX · Chevron's Q3 Results Support Higher Free Cash Flow Outlook, Morgan Stanley
-· entregue  E05 MRVL — MRVL · Marvell to Acquire Lumentum in $115 Billion All-Stock Deal
-· entregue  E05 BAC — BAC · Weekly Recap: Debt offering for buyback and Bank of America upgrade
-· entregue  E05 MRVL — MRVL · Marvell Just Bet $115 Billion On AI's 'Once In A Generation' Opportunity.
-· entregue  E05 AMD — AMD · AMD's guidance in focus during Q3 results (AMD:NASDAQ)
-· entregue  E05 NVDA — NVDA · XMax signs Nvidia GPU deal, sees $100M+ revenue
-· entregue  E05 MRVL — MRVL · Marvell to buy Lumentum in $115 billion deal in AI data-center bet
-· entregue  E05 INTC — INTC · Intel's Quant Rating plunges to 3.26 as weak Q4 outlook weighs on sentime
-· entregue  E05 META — META · S&P cuts Meta outlook to negative over elevated capex and cash flow risks
-· entregue  E05 INTC — INTC · Intel's Quant Rating plunges to 3.26 as weak Q4 outlook weighs on sentime
-· entregue  E05 CVX — CVX · What Invesco S&P Ultra Dividend Revenue ETF (RDIV) Bought: Chevron Leads o
-· entregue  E05 LITE — LITE · Lumentum president Yuen sells over $1.35 million in company stock By Inve
-· entregue  E05 TSLA — TSLA · Stocktwits Zero To Sixty: Rivian Raises Delivery Guidance On R2 Demand, T
-· entregue  E05 INTC — INTC · Stock Market Today, Oct. 30: Intel Plunges Nearly 29% as Weak Outlook Rat
-· entregue  C01 DI — A curva ABRIU: F28 +162 bps em 5 pregões · F29 +16 bps no dia · F29 +232 bps em 
-· entregue  C02 DI — Inclinação da curva DI: F35-F28 +97 bps em 5 pregões · F30-F28 +93 bps em 5 preg
-· entregue  C06 TESOURO — Inflação implícita: implícita 2029 +93 bps na semana · implícita 2032 +117 bps n
-· linha     T01 QTUM — QTUM fechou abaixo da média de 200 dias pela 1ª sessão: US$ 133,83 vs MM200 US$ 
-· linha     T01 INTC — INTC fechou abaixo da média de 200 dias pela 1ª sessão: US$ 65,76 vs MM200 US$ 8
-· linha     T01 EWY — EWY fechou abaixo da média de 200 dias pela 1ª sessão: US$ 152,89 vs MM200 US$ 1
-· linha     T03 GOOGL — GOOGL formou death cross: MM50 US$ 339,03 cruzou abaixo da MM200 US$ 340,34 pela
-· linha     T04 REMX — REMX fechou na mínima de 52 semanas: US$ 49,99, -22% em 1m e -29% em 12m
-· linha     T04 SAPR4 — SAPR4 fechou na mínima de 52 semanas: R$ 6,03, -7,5% em 1m e -9,4% em 12m
-· linha     T04 SMAL11 — SMAL11 fechou na mínima de 52 semanas: R$ 92,15, -18% em 1m e -16% em 12m
-· entregue  T05 CNDX — CNDX (iShares NASDAQ 100 UCITS ETF USD (Acc)) -3,1% no dia a US$ 1.636: moviment
-· entregue  T05 RBOT — RBOT (iShares Automation & Robotics UCITS ETF USD (Acc)) -4,6% no dia a US$ 20,4
-· entregue  T05 SMH — SMH -7,0% no dia a US$ 522,49: movimento de 3,0 desvios para uma vol de 20 dias 
-· entregue  T05 XLK — XLK -4,9% no dia a US$ 179,51: movimento de 3,1 desvios para uma vol de 20 dias 
-· entregue  T05 QANT — QANT -4,0% no dia a US$ 5,36: movimento de 3,5 desvios para uma vol de 20 dias d
-· linha     T08 XLK — XLK entrou em correção: -11% do pico de 52s (US$ 202,00 em 06/10) a US$ 179,51
-· linha     T08 TSM — TSM entrou em queda de -15% do pico: -16% do pico de 52s (US$ 485,80 em 05/10) a
-· linha     T02 MU — MU perdeu a MM50 e perdeu a MM100 pela 2ª sessão: US$ 884,74, ainda acima da MM2
-· linha     T09 QQQ — QQQ -3,5% com volume 2,7x a mediana de 20 sessões, a US$ 690,49
-· linha     T09 INTC — INTC -29% com volume 4,9x a mediana de 20 sessões, a US$ 65,76
-· linha     T10 WQTM — WQTM no mínimo de força relativa em 63 sessões contra SPX: -20% vs -1,8% em 20 s
-· linha     T10 WQTMUS — WQTMUS no mínimo de força relativa em 63 sessões contra SPX: -19% vs -1,8% em 20
-· linha     T10 INTC — INTC no mínimo de força relativa em 63 sessões contra SOX: -45% vs -19% em 20 se
-· linha     T10 PETR4 — PETR4 no máximo de força relativa em 63 sessões contra IBOV: +5,6% vs -10% em 20
-· linha     T12 WUTI — WUTI (State Street SPDR MSCI World Utilities UCITS ETF (USD)): 8 altas seguidas 
-· entregue  E05 INTC — INTC · Intel plunges 29% on weak Q4 guidance (INTC:NASDAQ)
-· entregue  E05 INTC — INTC · Watch Intel Plunges 29% on Weak Outlook as Tech Selloff Deepens | Closing
-· entregue  E03 AXIA3 — AXIA3 · Comunicado ao Mercado: Recebeu comunicado do Banco Clássico S.A. informa
-· entregue  E05 BTC — BTC · Is your crypto safe? What Binance’s $6.3 billion hack means for bitcoin in
-· entregue  E05 VALE3 — VALE3 · Vale (VALE3) tem lucro de US$ 1,25 bi no 3T26, queda de 53% em um ano
-· entregue  E05 AMZN — AMZN · Watch Intel Tumbles on PC Outlook, AWS CEO on AI Spending and Growth
-· entregue  E05 VALE3 — VALE3 · O balanço da Vale foi bom ou ruim? Ação sobe mesmo com queda no lucro do
-· entregue  E05 VALE3 — VALE3 · Vale não prevê dividendos extraordinários em 2026, diz CFO
-· entregue  E05 LITE — LITE · Rosenblatt raises Lumentum stock price target on acquisition prospects
-· linha     T13 VIX — VIX cruzou 20: 20,2 (+17% no dia)
-· entregue  E05 AMZN — AMZN · Top Midday Stories: Intel Shares Plummet After Q3 Revenue Miss, Weak Guid
-· entregue  E05 JPM — JPM · JPMorgan Raises NII Outlook: Is JPM Stock Too Expensive?
-· entregue  E05 TSLA — TSLA · Rivian Gains 5% as R2 Ramp Drives Raised Delivery Outlook; Tesla Falls 3%
-· entregue  E05 INTC — INTC · Intel Sinks 29% as Weak Outlook Shows It’s “Still PC Dependent”
-· entregue  E05 JPM — JPM · JPMorgan Raises NII Outlook: Is JPM Stock Too Expensive?
-· entregue  E05 AMZN — AMZN · Amazon Has Just Shared A Game-Changing Guidance For Its Cloud Business (U
-· entregue  E05 NVDA — NVDA · Key facts: NVDA rec rev; $235B buyback; Nscale-$45B; Megaspeed cleared
-· entregue  E01 PLTR — PLTR: resultado sai na próxima sessão (02/11)
-· entregue  M01 MACRO — Agenda: Banco do Japao: decisao e Outlook Report hoje (30/10)
-· entregue  E04 CVX — CVX · 8-K: 2.02 resultado do trimestre
-· entregue  E05 CVX — CVX · Earnings Snapshot: Chevron beats Q3 EPS and revenue estimates; declares $1
-· entregue  E05 INTC — INTC · Intel Shares Plunge 25% as Weak Fourth-Quarter Outlook Overshadows Strong
-· entregue  E05 INTC — INTC · Intel plunges on a major guidance miss. What went wrong — and how to proc
-· linha     F03 BRENT — Brent cai a US$ 104,14 (-8,2% no dia · cruzou US$ 110) (parcial, intradia)
-· linha     C03 DI — DI em nível: F32 na máxima de 252 pregões: 15,32% · F35 na máxima de 252 pregões
-· linha     T02 RBOT — RBOT (iShares Automation & Robotics UCITS ETF USD (Acc)) perdeu a MM50 pela 2ª s
-· linha     T02 IUAA — IUAA (iShares US Aggregate Bond UCITS ETF USD (Acc)) retomou a MM50 pela 2ª sess
-· linha     T02 SMH — SMH perdeu a MM50 pela 2ª sessão: US$ 522,49, ainda acima da MM200 (tendência lo
-· linha     T02 AVGO — AVGO perdeu a MM50 pela 2ª sessão: US$ 326,08, já abaixo da MM200 (confirma tend
-· linha     T02 TSM — TSM perdeu a MM50 pela 2ª sessão: US$ 406,13, ainda acima da MM200 (tendência lo
-· linha     T02 AMZN — AMZN perdeu a MM50 e perdeu a MM100 pela 2ª sessão: US$ 240,35, já abaixo da MM2
-· linha     T02 ETH — ETH perdeu a MM100 pela 2ª sessão: US$ 2.236, ainda acima da MM200 (tendência lo
-· linha     T07 REMX — REMX entrou em sobrevendido: RSI14 24 a US$ 49,99
-· linha     T09 AMZN — AMZN -1,4% com volume 3,0x a mediana de 20 sessões, a US$ 240,35
-· linha     T10 WUTI — WUTI (State Street SPDR MSCI World Utilities UCITS ETF (USD)) no máximo de força
-· linha     F01 USDBRL — Real cai: USD/BRL 5,4425 (+9,1% em 5 sessões · 8 dias seguidos de movimento domé
-· (+147 notícias só manchete, em noticias.md)
+· pendente  E01 ITUB4 — ITUB4: resultado sai na próxima sessão (04/11)
+· pendente  E01 MELI34 — MELI34: resultado sai na próxima sessão (04/11)
+· pendente  E01 GFS — GFS: resultado sai na próxima sessão (04/11)
+· pendente  E01 COHR — COHR: resultado sai na próxima sessão (04/11)
+· pendente  E05 PETR4 — PETR4 · Dividendos de 14,8%: BB Investimentos escolhe Petrobras (PETR4), Axia (A
+· pendente  E05 PLTR — PLTR · Palantir Technologies Inc. (PLTR) Raises 2026 Revenue Guidance After Q3 R
+· pendente  E05 TSLA — TSLA · Musk’s pay under a SpaceX-Tesla merger: voting control, but no $1 trillio
+· linha     F06 ETH — ETH sobe a US$ 2.293 (cruzou US$ 2.250) (parcial, intradia)
+· (+33 notícias só manchete, em noticias.md)
 
