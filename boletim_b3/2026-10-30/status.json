@@ -1,20 +1,20 @@
 {
  "pregao": "2026-10-30",
- "situacao": "publicando",
+ "situacao": "publicado",
  "errata": false,
- "atualizado_em": "2026-11-03T04:05:38.113",
+ "atualizado_em": "2026-11-03T00:00:00",
  "completo": {
-  "arquivo": "",
-  "pdf": ""
+  "arquivo": "BDI_00_20261030.pdf",
+  "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-10-30/BDI_00_20261030.pdf"
  },
  "cadernos": [
   {
    "id": 1,
    "nome": "Renda fixa",
    "pai": null,
-   "situacao": "publicado",
-   "errata": false,
-   "atualizado_em": "2026-10-31T06:25:38.007",
+   "situacao": "republicado",
+   "errata": true,
+   "atualizado_em": "2026-11-03T08:05:52.96",
    "arquivo": "BDI_01_20261030.pdf",
    "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-10-30/BDI_01_20261030.pdf"
   },
@@ -24,9 +24,9 @@
    "pai": null,
    "situacao": "publicado",
    "errata": false,
-   "atualizado_em": "2026-10-30T00:00:38.01",
-   "arquivo": "BDI_02-0_20261030.pdf",
-   "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-10-30/BDI_02-0_20261030.pdf"
+   "atualizado_em": "2026-11-03T08:05:52.96",
+   "arquivo": "",
+   "pdf": ""
   },
   {
    "id": 21,
@@ -43,8 +43,8 @@
    "nome": "Indicadores e informativos",
    "pai": 20,
    "situacao": "republicado",
-   "errata": false,
-   "atualizado_em": "2026-11-03T04:05:38.113",
+   "errata": true,
+   "atualizado_em": "2026-11-03T10:55:38.297",
    "arquivo": "BDI_02_20261030.pdf",
    "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-10-30/BDI_02_20261030.pdf"
   },
@@ -82,19 +82,19 @@
    "id": 34,
    "nome": "Derivativos de bolsa",
    "pai": 3,
-   "situacao": "publicando",
+   "situacao": "publicado",
    "errata": false,
-   "atualizado_em": "2026-10-31T04:13:22.097",
-   "arquivo": "",
-   "pdf": ""
+   "atualizado_em": "2026-11-03T00:00:00",
+   "arquivo": "BDI_03-4_20261030.pdf",
+   "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-10-30/BDI_03-4_20261030.pdf"
   },
   {
    "id": 41,
    "nome": "Clearing e depositária",
    "pai": 4,
    "situacao": "republicado",
-   "errata": false,
-   "atualizado_em": "2026-11-03T04:05:38.113",
+   "errata": true,
+   "atualizado_em": "2026-11-03T10:55:38.297",
    "arquivo": "BDI_04-1_20261030.pdf",
    "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-10-30/BDI_04-1_20261030.pdf"
   },

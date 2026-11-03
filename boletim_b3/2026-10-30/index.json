@@ -1,6 +1,6 @@
 {
  "pregao": "2026-10-30",
- "coletado_em": "2026-11-03T07:13:50Z",
+ "coletado_em": "2026-11-03T18:41:20Z",
  "tabelas": {
   "SharesInvesVolum": {
    "titulo": "Participação dos investidores",
@@ -21,7 +21,7 @@
   "EconomicIndicators": {
    "titulo": "Indicadores econômicos",
    "situacao": "republicado",
-   "atualizado_em": "2026-11-03T04:03:07.18",
+   "atualizado_em": "2026-11-03T10:53:28.887",
    "sla": "8:00:00",
    "linhas": 434,
    "truncada": false
@@ -180,8 +180,8 @@
   },
   "AnalyticalFramework2": {
    "titulo": "Quadro analítico das posições em aberto",
-   "situacao": "aguardando",
-   "atualizado_em": "2026-10-30T00:00:38.01",
+   "situacao": "atrasado",
+   "atualizado_em": "2026-11-03T08:05:52.96",
    "sla": "8:00:00",
    "linhas": 70,
    "truncada": false
@@ -237,7 +237,7 @@
   "ProventionCreditVariable": {
    "titulo": "Crédito de proventos",
    "situacao": "republicado",
-   "atualizado_em": "2026-11-03T04:02:33.25",
+   "atualizado_em": "2026-11-03T10:52:53.553",
    "sla": "00:00:00",
    "linhas": 28,
    "truncada": false
@@ -365,9 +365,9 @@
   "Trade": {
    "titulo": "Negócio a negócio",
    "situacao": "republicado",
-   "atualizado_em": "2026-10-30T20:53:20.35",
+   "atualizado_em": "2026-11-03T12:27:20.283",
    "sla": "18:00:00",
-   "linhas": 40689,
+   "linhas": 40757,
    "truncada": false
   },
   "BTBTrade": {
@@ -400,14 +400,14 @@
   },
   "DerivativesOpenPosition": {
    "arquivo": "DerivativesOpenPositionFile_20261030_1",
-   "bytes": 3429064,
-   "linhas": 42864,
+   "bytes": 3429147,
+   "linhas": 42865,
    "estado": null
   }
  },
  "falhas": {},
  "rf_cadastro": {
-  "papeis_no_dia": 1480,
+  "papeis_no_dia": 1479,
   "consultados": 0,
   "achados": 0,
   "sem_cadastro": 0,

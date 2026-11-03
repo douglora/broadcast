@@ -6,8 +6,8 @@
  "paginas": 1,
  "colunas": [{"nome": "DateRef", "titulo": "Data de referência"}, {"nome": "TckrSymb", "titulo": "Mercado"}, {"nome": "Asst", "titulo": "Ativo"}, {"nome": "OpnIntrst", "titulo": "Contratos em aberto"}, {"nome": "RefValue", "titulo": "Valor referencial (mil R$)"}],
  "texto": [],
- "situacao": "aguardando",
- "atualizado_em": "2026-10-30T00:00:38.01",
+ "situacao": "atrasado",
+ "atualizado_em": "2026-11-03T08:05:52.96",
  "truncada": false,
  "linhas": [
   ["2026-10-30", "Opções sobre Futuro de D11 - opção sobre futuro - compra", "D11", 5, 0.07],
