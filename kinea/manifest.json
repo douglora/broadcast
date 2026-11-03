@@ -1,10 +1,10 @@
 {
- "gerado_em": "2026-11-02T22:17:55Z",
+ "gerado_em": "2026-11-03T19:46:10Z",
  "partes": {
   "cartas": {
-   "em": "2026-11-02T22:23:34Z",
+   "em": "2026-11-03T19:50:35Z",
    "resultado": {
-    "cartas": 43,
+    "cartas": 46,
     "metodos": {
      "wp-json": 999,
      "categoria": 0,
@@ -19,12 +19,13 @@
      "2026-06",
      "2026-07",
      "2026-08",
-     "2026-09"
+     "2026-09",
+     "2026-10"
     ]
    }
   },
   "documentos": {
-   "em": "2026-11-02T22:23:53Z",
+   "em": "2026-11-03T19:50:56Z",
    "resultado": {
     "pdfs": 18,
     "posts": 0,
@@ -32,11 +33,11 @@
    }
   },
   "videos": {
-   "em": "2026-11-02T22:24:51Z",
+   "em": "2026-11-03T19:51:55Z",
    "resultado": {
-    "videos": 39,
+    "videos": 37,
     "com_legenda": 0,
-    "erros": 39,
+    "erros": 37,
     "fora_do_tema": 0,
     "listagem": "yt-dlp"
    }

@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-11-02T22:24:51Z",
+ "gerado_em": "2026-11-03T19:51:55Z",
  "canal": "https://www.youtube.com/@KineaInvestimentos",
  "listagem": "yt-dlp",
  "fora_do_tema": 0,
@@ -111,6 +111,16 @@
    "erro": "painel: painel: get_transcript HTTP 400, 0 trechos | yt-dlp: android_vr: legenda listada mas nao entregue (o YouTube pede PO token) | audio: padrao: DownloadError: ERROR: [youtube] tpHBNW5ZLCc: Faça login para confirmar que você não é um bot. Isso ajuda a proteger nossa comunidade"
   },
   {
+   "id": "2kiNjyZxmq0",
+   "titulo": "Mudança de rumos nos juros, guerra e corrida de IA | Live Economia e Mercados ref. Junho/2026",
+   "aba": "streams",
+   "url": "https://www.youtube.com/watch?v=2kiNjyZxmq0",
+   "data": null,
+   "descricao": "",
+   "coleta": 2,
+   "erro": "painel: painel: get_transcript HTTP 400, 0 trechos | yt-dlp: android_vr: legenda listada mas nao entregue (o YouTube pede PO token) | audio: padrao: DownloadError: ERROR: [youtube] 2kiNjyZxmq0: Faça login para confirmar que você não é um bot. Isso ajuda a proteger nossa comunidade"
+  },
+  {
    "id": "9GehH8bvlE0",
    "titulo": "Fundos Multimercado - Lula 4: os desafios do novo governo | Ref. Out/26",
    "aba": "videos",
@@ -141,16 +151,6 @@
    "coleta": 2,
    "url": "https://www.youtube.com/watch?v=1K81qsL9ri4",
    "erro": "nao tentado nesta rodada: o YouTube recusou os anteriores"
-  },
-  {
-   "id": "2kiNjyZxmq0",
-   "titulo": "Mudança de rumos nos juros, guerra e corrida de IA | Live Economia e Mercados ref. Junho/2026",
-   "aba": "streams",
-   "url": "https://www.youtube.com/watch?v=2kiNjyZxmq0",
-   "data": null,
-   "descricao": "",
-   "coleta": 2,
-   "erro": "painel: painel: get_transcript HTTP 400, 0 trechos | yt-dlp: android_vr: legenda listada mas nao entregue (o YouTube pede PO token) | audio: padrao: DownloadError: ERROR: [youtube] 2kiNjyZxmq0: Faça login para confirmar que você não é um bot"
   },
   {
    "id": "kvh6MnqHKAY",
@@ -195,22 +195,6 @@
    "descricao": "",
    "coleta": 2,
    "erro": "painel: painel: get_transcript HTTP 400, 0 trechos | yt-dlp: android_vr: legenda listada mas nao entregue (o YouTube pede PO token) | audio: padrao: DownloadError: ERROR: [youtube] wAhbls4vkoo: Faça login para confirmar que você não é um bot"
-  },
-  {
-   "id": "yJdizfLirUg",
-   "titulo": "Fundos Multimercado - Eleições, Juros Globais e IA | Ref. Set/26",
-   "aba": "videos",
-   "coleta": 2,
-   "url": "https://www.youtube.com/watch?v=yJdizfLirUg",
-   "erro": "nao tentado nesta rodada: o YouTube recusou os anteriores"
-  },
-  {
-   "id": "h80EZ0qbPKs",
-   "titulo": "O que o próximo presidente precisa fazer para o Brasil não quebrar? | Corte do Kafé com Kinea #58",
-   "aba": "videos",
-   "coleta": 2,
-   "url": "https://www.youtube.com/watch?v=h80EZ0qbPKs",
-   "erro": "nao tentado nesta rodada: o YouTube recusou os anteriores"
   },
   {
    "id": "VhHDQtDG2S0",
@@ -360,6 +344,6 @@
   }
  ],
  "log": [
-  "parei em 4MsKbD06rtY: 6 videos seguidos sem legenda por erro do YouTube"
+  "parei em 1d1-ccTJ4dw: 6 videos seguidos sem legenda por erro do YouTube"
  ]
 }
