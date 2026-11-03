@@ -1,4 +1,4 @@
-ALERTAS · eventos
+ALERTAS · Fechamento 18h
 
 (pendente de slot anterior) [ATENÇÃO] E01 · LITE: resultado sai na próxima sessão (02/11)
 seg 02/11 · horário não confirmado · estimado (Yahoo)
@@ -26,17 +26,16 @@ Como falar: 'saiu no Yahoo Finance: Palantir raises full-year revenue outlook as
 Fonte: Yahoo Finance 02/11 18h09
 ids: E05-PLTR-f59efa4ade-2026-11-02
 
-[ATENÇÃO] E05 · PLTR · Palantir’s revenue rises 96% to $2.3 billion as investors’ patience rests on a hair trigger
+(pendente de slot anterior) [ATENÇÃO] E05 · PLTR · Palantir’s revenue rises 96% to $2.3 billion as investors’ patience rests on a hair trigger
 Fortune · 02/11 18h47 · fonte única · licença: manchete
 Link: https://fortune.com/2026/11/02/palantir-q3-results-stock-ai-trade-selloff/
 Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
 Ativos: PLTR
 Como falar: 'saiu no Fortune: Palantir’s revenue rises 96% to $2.3 billion as investors’ patience rests on a hair trigg…; confirmar o número no texto antes de repassar'
 Fonte: Fortune 02/11 18h47
-Push: eventos: 3 alertas de atenção — E05 PLTR, E05 PLTR, E05 PLTR · detalhe na sessão
 ids: E05-PLTR-23525fa5ec-2026-11-02
 
-[ATENÇÃO] E05 · PLTR · Palantir beats on earnings and revenue, Q3 commercial revenue surpasses government revenue
+(pendente de slot anterior) [ATENÇÃO] E05 · PLTR · Palantir beats on earnings and revenue, Q3 commercial revenue surpasses government revenue
 CNBC · 02/11 18h31 · fonte única · licença: resumo
 Link: https://www.cnbc.com/video/2026/11/02/palantir-beats-on-earnings-and-revenue-q3-commercial-revenue-surpasses-government-revenue.html
 Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
@@ -45,7 +44,7 @@ Como falar: 'saiu no CNBC: Palantir beats on earnings and revenue, Q3 commercial
 Fonte: CNBC 02/11 18h31
 ids: E05-PLTR-7d9889fb18-2026-11-02
 
-[ATENÇÃO] E05 · PLTR · Palantir raises 2026 revenue outlook after quarterly revenue nearly doubles on AI
+(pendente de slot anterior) [ATENÇÃO] E05 · PLTR · Palantir raises 2026 revenue outlook after quarterly revenue nearly doubles on AI
 Investing.com · 02/11 18h18 · fonte única · licença: manchete
 Link: https://www.investing.com/news/earnings/palantir-raises-2026-revenue-outlook-after-quarterly-revenue-nearly-doubles-on-ai-4992779
 Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
@@ -54,19 +53,46 @@ Como falar: 'saiu no Investing.com: Palantir raises 2026 revenue outlook after q
 Fonte: Investing.com 02/11 18h18
 ids: E05-PLTR-19743636ac-2026-11-02
 
+[ATENÇÃO] E05 · INTC · Why Intel Stock Is Down After Weak Q4 Guidance
+Yahoo Finance · 02/11 20h16 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – - Intel reported Q3 2026 sales of US$16,513 million with net income of US$3,320 million, and issued Q4 guidance calling for US$15.0 billion to US$16.0 billion in revenue and US$0.10 in diluted EPS attributable to Intel.
+  – - Management attributed the weaker Q4 outlook to soft PC demand, memory shortages, and production disruptions including a shutdown at its Israel facility, while demand for Xeon server and AI chips remained strong.
+  – - We will now examine how Intel's weaker Q4 outlook and PC headwinds could reshape the longer term investment narrative around AI.
+  – The big swing factor is still whether those US$20b plus annual capex levels convert into profitable Xeon and foundry volumes rather than just unused fabs that weigh on cash flow.
+  – The Q4 reset puts a bright spotlight on that question, because it shows how quickly demand can clash with supply bottlenecks and outages.
+  – The Oracle Cloud Infrastructure agreement around current and future Intel Xeon platforms, including the planned Diamond Rapids based X14 instances, ties directly into that catalyst and risk pair.
+Link: https://finance.yahoo.com/markets/stocks/articles/why-intel-stock-down-weak-231626988.html
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: INTC
+Como falar: 'saiu no Yahoo Finance: Why Intel Stock Is Down After Weak Q4 Guidance; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 02/11 20h16
+Push: Fechamento 18h: 2 alertas de atenção — E05 INTC, E05 PLTR · detalhe na sessão
+ids: E05-INTC-4a7b6b632b-2026-11-02
+
+[ATENÇÃO] E05 · PLTR · Earnings call transcript: Palantir tops Q3 2026 estimates but shares fall
+Investing.com · 02/11 20h06 · fonte única · licença: manchete
+Link: https://www.investing.com/news/transcripts/earnings-call-transcript-palantir-tops-q3-2026-estimates-but-shares-fall-93CH-4993152
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: PLTR
+Como falar: 'saiu no Investing.com: Earnings call transcript: Palantir tops Q3 2026 estimates but shares fall; confirmar o número no texto antes de repassar'
+Fonte: Investing.com 02/11 20h06
+ids: E05-PLTR-80f052a8a1-2026-11-02
+
 Info (só linha no Fechamento):
-· E05 PLTR · Palantir Lifts Outlook as U.S. Commercial Business Overtakes Government Business
-· E05 PLTR · Palantir tops Q3 earnings estimates, revenue grew 96% year-over-year
-· E05 PLTR · Palantir expects quarterly revenue above estimates on AI demand
-· E05 PLTR · Palantir perks up as it boosts its full-year forecast after stellar Q3 results (PLTR:NASDAQ)
-· E05 INTC · The Intel stock collapse is getting worse — and the $3.5 trillion chip rout is spreading
-· E05 MRVL · Marvell And Lumentum: Building An AI Powerhouse Isn't Cheap (NASDAQ:MRVL)
-· E05 INTC · Intel: Time For A Very Serious Watch (NASDAQ:INTC)
-· E05 BTC · Bitcoin ETFs hit by $643M selloff as Binance hack shakes crypto
-· E05 AMD · AMD Heads Into Earnings With AI Guidance in the Spotlight
-· E05 BRENT · Bolsas da Europa fecham majoritariamente em alta com tombo nos preços do petróleo e BCE no radar
-· E05 DI · Midterms e payroll na gringa, decisão do Copom! Tá bom?
-· E05 PLTR · Palantir’s Q3 Report To Test Stock Defensiveness Amid AI Panic — What Analysts Are Expecting
+· E05 AMD · Why AMD Stock Is In Focus Before Q3 Earnings And AI Partnership Updates
+· E05 LITE · Lumentum Holdings Inc. reports results for the quarter ended September 30 - Earnings Summary
+· E05 PLTR · Here’s why Palantir’s stock is down despite a ‘bombastic’ quarter
+· E05 INTC · Intel (INTC) Joined A $700 Million AI Startup Funding Round
+· E05 PLTR · Third-quarter revenue at Palantir Technologies surges 96%
+· E05 PLTR · Palantir: Impressive Numbers, But Something Is Missing (Rating Downgrade) (NASDAQ:PLTR)
+· E05 GOOGL · Alphabet Earnings Raised Serious Concerns For Google Search (NASDAQ:GOOGL)
+· E05 DI · Cortar a Selic pode fazer a inflação cair? Entenda a tese de Lara Resende
+· E05 PLTR · Palantir Blows Past Expectations In Q3 On Strong Commercial Sales, But Valuation Concerns Dampen Sentiment
+· E05 PLTR · Palantir's U.S. Revenue Soars 119% as Commercial Revenue Surpasses Government Revenue for the First Time. Here's Why Its Growth Is Still Surging, Eve…
+· E05 PLTR · Palantir: Likely Dead Money From Here (NASDAQ:PLTR)
+· E05 CVX · Chevron & Exxon Mobil Stocks Retreat From 52-Week Highs: Buy the Dip?
+· E05 PLTR · Palantir Stock Tumbles Even as Earnings Get Big Boost From U.S. Customers
 · T08 XLK entrou em correção: -11% do pico de 52s (US$ 202,00 em 06/10) a US$ 179,51
 · T08 QTUM entrou em bear técnico: -21% do pico de 52s (US$ 168,76 em 02/06) a US$ 133,83
 · T08 INTC entrou em queda de -40% do pico: -53% do pico de 52s (US$ 140,94 em 22/06) a US$ 65,76
@@ -75,7 +101,6 @@ Info (só linha no Fechamento):
 · T08 LITE entrou em bear técnico: -26% do pico de 52s (US$ 1.133 em 06/10) a US$ 840,70
 · T08 UGPA3 entrou em bear técnico: -21% do pico de 52s (R$ 40,03 em 21/10) a R$ 31,76
 · T06 INTC -24% em 5 sessões a US$ 65,76: movimento de 3,7 desvios para a vol de 20 dias
-· E05 PLTR · Palantir raises full-year revenue outlook as US commercial sales top US government revenue for the first time
 · T13 VIX cruzou 20: 20,2 (+17% no dia)
 · T01 QTUM fechou abaixo da média de 200 dias pela 1ª sessão: US$ 133,83 vs MM200 US$ 137,29 (-2,5%)
 · T01 INTC fechou abaixo da média de 200 dias pela 1ª sessão: US$ 65,76 vs MM200 US$ 86,86 (-24%)
@@ -93,11 +118,11 @@ Info (só linha no Fechamento):
 · T10 PETR4 no máximo de força relativa em 63 sessões contra IBOV: +5,6% vs -10% em 20 sessões (+18% relativo)
 · T12 WUTI (State Street SPDR MSCI World Utilities UCITS ETF (USD)): 8 altas seguidas (+4,4% acumulado) a US$ 69,97
 
-Suprimidos pelo teto (viram linha do Fechamento): T08-XLK--10-2026-10-30 (teto diário de críticos), T08-QTUM--20-2026-10-30 (teto diário de críticos), T08-INTC--40-2026-10-30 (teto diário de críticos), T08-MU--25-2026-10-30 (teto diário de críticos), T08-TSM--15-2026-10-30 (teto diário de críticos), T08-LITE--20-2026-10-30 (teto diário de críticos), T08-UGPA3--20-2026-10-30 (teto diário de críticos), T06-INTC-queda-2026-10-30 (teto diário de críticos), E05-PLTR-32844ad315-2026-11-02 (teto de noticias), T13-VIX-vix20-2026-10-30 (teto de atenção), T01-QTUM-perda-2026-10-30 (teto de atenção), T01-INTC-perda-2026-10-30 (teto de atenção), T01-EWY-perda-2026-10-30 (teto de atenção), T03-GOOGL-death-2026-10-30 (teto de atenção), T04-REMX-minima-2026-10-30 (teto de atenção), T04-SAPR4-minima-2026-10-30 (teto de atenção), T04-SMAL11-minima-2026-10-30 (teto de atenção), T02-MU-perdeu_perdeu-2026-10-30 (teto de atenção), T09-QQQ-queda-2026-10-30 (teto de atenção), T09-INTC-queda-2026-10-30 (teto de atenção), T10-WQTM-mínimo-2026-10-30 (teto de atenção), T10-WQTMUS-mínimo-2026-10-30 (teto de atenção), T10-INTC-mínimo-2026-10-30 (teto de atenção), T10-PETR4-máximo-2026-10-30 (teto de atenção), T12-WUTI-altas_8-2026-10-30 (teto de atenção)
+Suprimidos pelo teto (viram linha do Fechamento): T08-XLK--10-2026-10-30 (teto diário de críticos), T08-QTUM--20-2026-10-30 (teto diário de críticos), T08-INTC--40-2026-10-30 (teto diário de críticos), T08-MU--25-2026-10-30 (teto diário de críticos), T08-TSM--15-2026-10-30 (teto diário de críticos), T08-LITE--20-2026-10-30 (teto diário de críticos), T08-UGPA3--20-2026-10-30 (teto diário de críticos), T06-INTC-queda-2026-10-30 (teto diário de críticos), T13-VIX-vix20-2026-10-30 (teto de atenção), T01-QTUM-perda-2026-10-30 (teto de atenção), T01-INTC-perda-2026-10-30 (teto de atenção), T01-EWY-perda-2026-10-30 (teto de atenção), T03-GOOGL-death-2026-10-30 (teto de atenção), T04-REMX-minima-2026-10-30 (teto de atenção), T04-SAPR4-minima-2026-10-30 (teto de atenção), T04-SMAL11-minima-2026-10-30 (teto de atenção), T02-MU-perdeu_perdeu-2026-10-30 (teto de atenção), T09-QQQ-queda-2026-10-30 (teto de atenção), T09-INTC-queda-2026-10-30 (teto de atenção), T10-WQTM-mínimo-2026-10-30 (teto de atenção), T10-WQTMUS-mínimo-2026-10-30 (teto de atenção), T10-INTC-mínimo-2026-10-30 (teto de atenção), T10-PETR4-máximo-2026-10-30 (teto de atenção), T12-WUTI-altas_8-2026-10-30 (teto de atenção)
 
 Alertas do dia (todos, com status):
 · linha     T05 LITE — LITE -19% no dia a US$ 684,40: movimento de 3,5 desvios para uma vol de 20 dias 
-· linha     T05 BRENT — BRENT -8,3% no dia a US$ 104,04: movimento de 4,8 desvios para uma vol de 20 dia
+· linha     T05 BRENT — BRENT -7,6% no dia a US$ 104,77: movimento de 4,4 desvios para uma vol de 20 dia
 · linha     T08 AMD — AMD entrou em queda de -25% do pico: -28% do pico de 52s (US$ 649,42 em 06/10) a
 · linha     T08 MRVL — MRVL entrou em queda de -40% do pico: -46% do pico de 52s (US$ 316,43 em 04/06) 
 · linha     T08 LITE — LITE entrou em queda de -30% do pico: -40% do pico de 52s (US$ 1.133 em 06/10) a
@@ -113,6 +138,8 @@ Alertas do dia (todos, com status):
 · linha     T08 LITE — LITE entrou em bear técnico: -26% do pico de 52s (US$ 1.133 em 06/10) a US$ 840,
 · linha     T08 UGPA3 — UGPA3 entrou em bear técnico: -21% do pico de 52s (R$ 40,03 em 21/10) a R$ 31,76
 · linha     T06 INTC — INTC -24% em 5 sessões a US$ 65,76: movimento de 3,7 desvios para a vol de 20 di
+· pendente  E05 INTC — INTC · Why Intel Stock Is Down After Weak Q4 Guidance
+· pendente  E05 PLTR — PLTR · Earnings call transcript: Palantir tops Q3 2026 estimates but shares fall
 · pendente  E05 PLTR — PLTR · Palantir’s revenue rises 96% to $2.3 billion as investors’ patience rests
 · pendente  E05 PLTR — PLTR · Palantir beats on earnings and revenue, Q3 commercial revenue surpasses g
 · pendente  E05 PLTR — PLTR · Palantir raises 2026 revenue outlook after quarterly revenue nearly doubl
@@ -132,8 +159,8 @@ Alertas do dia (todos, com status):
 · linha     T10 LITE — LITE no mínimo de força relativa em 63 sessões contra SOX: -37% vs -22% em 20 se
 · linha     T10 COHR — COHR no mínimo de força relativa em 63 sessões contra SOX: -40% vs -22% em 20 se
 · linha     T10 MMM — MMM no máximo de força relativa em 63 sessões contra SPX: +9,3% vs -3,0% em 20 s
-· pendente  E01 LITE — LITE: resultado sai na próxima sessão (02/11)
-· pendente  E05 PLTR — PLTR · Palantir raises full-year revenue outlook as US commercial sales accelera
+· expirado  E01 LITE — LITE: resultado sai na próxima sessão (02/11)
+· expirado  E05 PLTR — PLTR · Palantir raises full-year revenue outlook as US commercial sales accelera
 · entregue  E05 KO — KO · Coca-Cola Is the Most Boring Stock I Own. After 64 Years of Dividend Raises
 · entregue  E05 DI — DI · Até um dos mais otimistas pisou no freio: Inter eleva projeção da Selic e v
 · entregue  E05 MU — MU · Micron Falls 4% as Kioxia’s Cautious Outlook Hits Memory Stocks; Western Di
@@ -210,7 +237,7 @@ Alertas do dia (todos, com status):
 · linha     T10 VGT — VGT no mínimo de força relativa em 63 sessões contra SPX: -12% vs -3,0% em 20 se
 · linha     T11 CNDX — CNDX (iShares NASDAQ 100 UCITS ETF USD (Acc)) descolou atrás de CSPX (iShares Co
 · linha     T11 QQQ — QQQ descolou atrás de SPY: -9,9% vs -2,9% em 20 sessões (z -2,8 em 252 sessões, 
-· linha     F03 BRENT — Brent cai a US$ 104,04 (-8,3% no dia · cruzou US$ 110)
+· linha     F03 BRENT — Brent cai a US$ 104,77 (-7,6% no dia · cruzou US$ 110)
 · linha     C03 DI — DI em nível: F32 na máxima de 252 pregões: 15,32% · F35 na máxima de 252 pregões
 · linha     T02 RBOT — RBOT (iShares Automation & Robotics UCITS ETF USD (Acc)) perdeu a MM50 pela 2ª s
 · linha     T02 IUAA — IUAA (iShares US Aggregate Bond UCITS ETF USD (Acc)) retomou a MM50 pela 2ª sess
@@ -223,4 +250,4 @@ Alertas do dia (todos, com status):
 · linha     T09 AMZN — AMZN -1,4% com volume 3,0x a mediana de 20 sessões, a US$ 240,35
 · linha     T10 WUTI — WUTI (State Street SPDR MSCI World Utilities UCITS ETF (USD)) no máximo de força
 · linha     F01 USDBRL — Real cai: USD/BRL 5,4425 (+9,1% em 5 sessões · 8 dias seguidos de movimento domé
-· (+165 notícias só manchete, em noticias.md)
+· (+169 notícias só manchete, em noticias.md)

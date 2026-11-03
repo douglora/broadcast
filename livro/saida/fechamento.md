@@ -1,15 +1,15 @@
 BLOCO A
 ```
-FECHAMENTO DO LIVRO · sex 30/10 · 18h12 de 02/11 BRT
-Relógios: Yahoo 18h12 · DI ajuste D0 · Tesouro base
+FECHAMENTO DO LIVRO · sex 30/10 · 23h52 de 02/11 BRT
+Relógios: Yahoo 23h52 · DI ajuste D0 · Tesouro base
   30/10 · UST CMT D0 · PTAX 30/10
 
-ALERTAS DO DIA (124 · 17 críticos)
+ALERTAS DO DIA (129 · 17 críticos)
 [CRÍTICO] T05 LITE -19% no dia a US$ 684,40:
           movimento de 3,5 desvios para uma vol de
           20 dias de 93% a.a.
-[CRÍTICO] T05 BRENT -8,3% no dia a US$ 104,04:
-          movimento de 4,8 desvios para uma vol de
+[CRÍTICO] T05 BRENT -7,6% no dia a US$ 104,77:
+          movimento de 4,4 desvios para uma vol de
           20 dias de 29% a.a.
 [CRÍTICO] T08 AMD entrou em queda de -25% do pico:
           -28% do pico de 52s (US$ 649,42 em 06/10)
@@ -29,32 +29,31 @@ ALERTAS DO DIA (124 · 17 críticos)
 [CRÍTICO] T05 SOXX -8,2% no dia a US$ 471,51:
           movimento de 3,1 desvios para uma vol de
           20 dias de 44% a.a.
-(+116 em alertas.md)
+(+121 em alertas.md)
 
 ALTAS  BABA +3,5% · VALE3 +3,3% · MMM +2,3% · AMZN
        +2,2% · KO +1,9%
 BAIXAS LITE -19% · MRVL -13% · INTC -8,8% · BRENT
-       -8,3% · AMD -7,5%
+       -7,6% · AMD -7,5%
 
-NOTÍCIAS E FATOS (45 com materialidade ·
+NOTÍCIAS E FATOS (50 com materialidade ·
   noticias.md)
+· INTC Why Intel Stock Is Down After Weak Q4
+  Guidance (Yahoo Finance)
+· PLTR Earnings call transcript: Palantir tops Q3
+  2026 estimates but shares fall (Investing.com)
+· PLTR Palantir’s revenue rises 96% to $2.3 billion
+  as investors’ patience rests on a hair trigger
+  (Fortune)
+· PLTR Palantir beats on earnings and revenue, Q3
+  commercial revenue surpasses government revenue
+  (CNBC)
+· PLTR Palantir raises 2026 revenue outlook after
+  quarterly revenue nearly doubles on AI
+  (Investing.com)
 · LITE LITE: resultado sai na próxima sessão (02/11)
   (agenda)
-· PLTR Palantir raises full-year revenue outlook as
-  US commercial sales accelerate (Yahoo Finance)
-· KO Coca-Cola Is the Most Boring Stock I Own. After
-  64 Years of Dividend Raises, I'll Never Sell.
-  (Yahoo Finance)
-· DI Até um dos mais otimistas pisou no freio: Inter
-  eleva projeção da Selic e vê pausa nos cortes
-  (Money Times)
-· MU Micron Falls 4% as Kioxia’s Cautious Outlook
-  Hits Memory Stocks; Western Digital Drops 5%,
-  SanDisk Slides 3% (Yahoo Finance)
-· LITE Lumentum Stocks Drop 11% With Merger Risk
-  Overshadowing Its $1.6 Billion Revenue Outlook
-  (Yahoo Finance)
-  (+39)
+  (+44)
 
 CURVAS · taxa (Δ bps)
 DI (D0, Δ dia·sem bps) F28 14,48 (+11·+162) F29
@@ -70,7 +69,7 @@ TD (base 30/10, Δ desde 29/10) Pre 2029 14,89 (+9) ·
     (descasado) 6,87% vs Focus IPCA 2027 4,34%
 UST (D0) 2y 4,56 (-5) · 10y 4,94 (-4) · 30y 5,31
     (-1) · 2s10s +38 (+1)
-Regime: VIX 21,6 (+11%) · score risco 1 de 5 ·
+Regime: VIX 21,1 (+8,9%) · score risco 1 de 5 ·
     regime de vol LIGADO
 
 LEITURA DA MESA
@@ -96,9 +95,9 @@ qua 04/11 ex-dividendo BBDC4 R$ 0,02 (último
 qua 04/11 resultado ITUB4 (após B3, estimado)
 qui 05/11 11:00 Leilao do Tesouro: NTN-B
 
-LACUNAS: USDBRL: fechamento das 17h de 02/11
-  indisponível; a barra diária do Yahoo não confirma
-  o dólar do dia; variação do dia a confirmar.
+LACUNAS: USDBRL: fechamento de 02/11 (5,4351) não
+  bate com a abertura seguinte (5,3837); variação do
+  dia a confirmar.
 Fontes: Yahoo Finance · B3 Boletim Diário · Tesouro
   Transparente · Treasury.gov CMT · BCB
 ```
@@ -116,13 +115,13 @@ RBOT   Robot     20,70 +1,3 -2,5 -8,6 +8,9  +21  +27
 IUAA   RF EUA     5,70 +0,2 +0,7 +2,1 -0,9 -0,2 -1,0
 IB01   T-bill   122,44  0,0 +0,1 +0,3 +1,8 +3,7 +3,0
 ETFs EUA (USD)
-SPY    S&P 500  752,15 -0,5 -1,7 -2,3 +5,3  +11  +11
+SPY    S&P 500  752,10 -0,5 -1,7 -2,3 +5,3  +11  +11
 QQQ    Nasdaq   681,09 -1,4 -4,4 -9,1 +1,4 +8,8  +11
 SMH    Semis    508,31 -2,7 -6,2  -19 +0,3  +40  +41
 SOXX   SOXX     453,65 -3,8 -7,8  -23 -1,7  +48  +51
-XLK    Tech SP  174,24 -2,9 -6,5  -13 +7,8  +16  +21
+XLK    Tech SP  174,22 -2,9 -6,5  -13 +7,8  +16  +21
 VGT    Tech VG  113,83 -2,7 -5,9  -11 +8,7  +15  +21
-IGV    Softwar  101,94 -2,3 -8,5 -6,0  +15  -12 -3,5
+IGV    Softwar  101,90 -2,3 -8,5 -6,0  +15  -12 -3,6
 BOTZ   Robotic   32,27 +0,2 -2,6  -10  -16  -14  -11
 Temáticos: quântica e metais (USD)
 QNTM   Quantum   24,99 +1,3 -3,8  -16  -11  -11 -0,4
@@ -130,7 +129,7 @@ QANT   Quantum    5,41 +1,0 -3,2  -12 -5,7    - +7,2
 WQTM   Quantum   31,15 +1,0 -4,5  -19  -15  -10 +4,0
 WQTMUS Quantum   25,57 -2,9 -7,1  -21  -20  -16 -1,2
 QTUM   Quantum  130,68 -2,4 -5,6  -16 -3,2  +15  +20
-REMX   TerrasR   50,27 +0,6 -2,8  -20  -51  -27  -32
+REMX   TerrasR   50,26 +0,5 -2,8  -20  -51  -27  -32
 EUA · Semicondutores e óptica
 NVDA   Nvidia   202,06 -1,3 -6,5  -14 +2,0  0,0 +8,6
 AMD    AMD      466,84 -7,5  -12  -26  +37  +82 +118
@@ -138,25 +137,25 @@ AVGO   Broadco  322,23 -1,2 -2,1 -9,3  -22  -12 -6,4
 MRVL   Marvell  171,41  -13  -27  -37 +4,8  +83 +102
 INTC   Intel     59,97 -8,8  -34  -50  -37  +50  +63
 MU     Micron   833,59 -5,8 -7,8  -22  +45 +273 +192
-TSM    TSMC     398,52 -1,9 -6,1  -16 -0,3  +34  +32
+TSM    TSMC     398,63 -1,8 -6,1  -16 -0,2  +34  +32
 GFS    GlobalF   41,82 -0,2 -7,1  -17  -38  +18  +20
 LITE   Lumentu  684,40  -19  -16  -37  -30 +240  +86
-COHR   Coheren  199,84 -5,0 -9,8  -41  -39  +51 +8,3
-NOK    Nokia      8,30 -3,1 -4,0  -22  -37  +20  +28
+COHR   Coheren  199,95 -4,9 -9,7  -41  -39  +52 +8,3
+NOK    Nokia      8,30 -3,0 -3,9  -22  -37  +20  +28
 EUA · Tecnologia e plataformas
 META   Meta     606,73 -1,3 -3,8  -17 -0,4 -6,1 -7,8
 GOOGL  Google   278,99 -0,3  -12  -19  -27 -0,5  -11
 AMZN   Amazon   245,63 +2,2 -1,4 -2,3 -9,7 +0,6 +6,4
 PLTR   Palanti  178,34 -3,1  -10 -5,5  +22  -11 +0,3
 TSLA   Tesla    403,82 +1,0 +3,1 +9,0 +2,9  -12  -10
-BABA   Alibaba  101,51 +3,5 +1,3 -4,1  -23  -40  -30
+BABA   Alibaba  101,50 +3,5 +1,2 -4,1  -23  -40  -30
 EUA · Bancos
-JPM    JPM      340,75 +1,1 +2,0 +3,0  +12  +12 +7,8
-BAC    BofA      49,56 -0,9 -1,9 -7,8 -4,0 -5,3 -8,4
+JPM    JPM      340,58 +1,1 +2,0 +3,0  +12  +12 +7,7
+BAC    BofA      49,57 -0,9 -1,9 -7,8 -4,0 -5,3 -8,4
 EUA · Consumo, energia e indústria
-KO     Coca      95,86 +1,9 +3,4  +12  +24  +43  +40
-CVX    Chevron  227,91 -3,2 -1,8  +10  +21  +50  +54
-MMM    3M       178,37 +2,3 +3,2  +10  +27 +9,1  +13
+KO     Coca      95,83 +1,9 +3,4  +12  +24  +43  +40
+CVX    Chevron  227,77 -3,3 -1,8  +10  +21  +50  +54
+MMM    3M       178,36 +2,3 +3,2  +10  +27 +9,1  +13
 Hipótese (ETF país, a confirmar)
 EWY    Coreia   151,62 -0,8 -0,7  -21 -7,3  +60  +56
 MCHI   China     49,59 +1,1 +1,0 -3,2  -13  -21  -17
@@ -182,10 +181,10 @@ MRVE3  MRV        4,05 +0,2  -51  -26  -41  -45  -48
 CURY3  Cury      25,90 -1,0  -20 -6,6  -11  -15  -16
 Macro
 USDBR* USD/BRL       -    -    -    -    -    -    -
-DXY    DXY      101,77 -0,1 -0,2 -0,2 +3,4 +2,0 +3,6
-BRENT  Brent    104,04 -8,3 -6,1 +1,8 -9,1  +60  +71
-BTC*   BTC      76.707 -2,0 -4,1 -9,5 -3,9  -31  -12
-ETH*   ETH       2.248 -1,1 -3,1  -16 -4,2  -43  -24
+DXY    DXY      101,75 -0,1 -0,2 -0,2 +3,3 +2,0 +3,5
+BRENT  Brent    104,77 -7,6 -5,4 +2,5 -8,4  +61  +72
+BTC    BTC      76.707 -2,0 -4,1 -9,5 -3,9  -31  -12
+ETH    ETH       2.248 -1,1 -3,1  -16 -4,2  -43  -24
 MINER* Minerio   90,71  0,0 -0,1 -6,1  -16  -14  -15
 ```
 UCITS por extenso: VWRA Vanguard FTSE All-World
@@ -202,6 +201,6 @@ Caixa em dolar e o IB01. · IB01 iShares $ Treasury
 Bond 0-1yr UCITS ETF USD (Acc). Hipótese: EWY
 iShares MSCI South Korea ETF · MCHI iShares MSCI
 China ETF (ETFs dos EUA, a confirmar).
-Minério: proxy Dalian 675 CNY/t (2026-11-02).
-Celulose: proxy SHFE SP (fibra longa) 4.566 CNY/t;
+Minério: proxy Dalian 672 CNY/t (2026-11-03).
+Celulose: proxy SHFE SP (fibra longa) 4.554 CNY/t;
 BHKP sem série diária.

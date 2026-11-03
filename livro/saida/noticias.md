@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 02/11 19h15
+NOTÍCIAS E FATOS · 02/11 23h52
 
-Pernas: noticias ok 16 novas (18 consultas; descartadas: 378 veículo fora da lista, 17 sem ativo, 0 teto) · cvm ok 0 novos de 0 (0 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 15 novas (18 consultas; descartadas: 382 veículo fora da lista, 20 sem ativo, 24 teto) · cvm ok 0 novos de 0 (0 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (1)
 
@@ -37,7 +37,32 @@ Fonte: SEC EDGAR 2026-10-30
 id: E04-CVX-26000196-2026-10-30 · status: entregue · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (46)
+## NOTÍCIAS COM MATERIALIDADE (48)
+
+[ATENÇÃO] E05 · INTC · Why Intel Stock Is Down After Weak Q4 Guidance
+Yahoo Finance · 02/11 20h16 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – - Intel reported Q3 2026 sales of US$16,513 million with net income of US$3,320 million, and issued Q4 guidance calling for US$15.0 billion to US$16.0 billion in revenue and US$0.10 in diluted EPS attributable to Intel.
+  – - Management attributed the weaker Q4 outlook to soft PC demand, memory shortages, and production disruptions including a shutdown at its Israel facility, while demand for Xeon server and AI chips remained strong.
+  – - We will now examine how Intel's weaker Q4 outlook and PC headwinds could reshape the longer term investment narrative around AI.
+  – The big swing factor is still whether those US$20b plus annual capex levels convert into profitable Xeon and foundry volumes rather than just unused fabs that weigh on cash flow.
+  – The Q4 reset puts a bright spotlight on that question, because it shows how quickly demand can clash with supply bottlenecks and outages.
+  – The Oracle Cloud Infrastructure agreement around current and future Intel Xeon platforms, including the planned Diamond Rapids based X14 instances, ties directly into that catalyst and risk pair.
+Link: https://finance.yahoo.com/markets/stocks/articles/why-intel-stock-down-weak-231626988.html
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: INTC
+Como falar: 'saiu no Yahoo Finance: Why Intel Stock Is Down After Weak Q4 Guidance; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 02/11 20h16
+id: E05-INTC-4a7b6b632b-2026-11-02 · status: pendente
+
+[ATENÇÃO] E05 · PLTR · Earnings call transcript: Palantir tops Q3 2026 estimates but shares fall
+Investing.com · 02/11 20h06 · fonte única · licença: manchete
+Link: https://www.investing.com/news/transcripts/earnings-call-transcript-palantir-tops-q3-2026-estimates-but-shares-fall-93CH-4993152
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: PLTR
+Como falar: 'saiu no Investing.com: Earnings call transcript: Palantir tops Q3 2026 estimates but shares fall; confirmar o número no texto antes de repassar'
+Fonte: Investing.com 02/11 20h06
+id: E05-PLTR-80f052a8a1-2026-11-02 · status: pendente
 
 [ATENÇÃO] E05 · PLTR · Palantir’s revenue rises 96% to $2.3 billion as investors’ patience rests on a hair trigger
 Fortune · 02/11 18h47 · fonte única · licença: manchete
@@ -96,7 +121,7 @@ Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; 
 Ativos: PLTR
 Como falar: 'saiu no Yahoo Finance: Palantir raises full-year revenue outlook as US commercial sales accelerate; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 02/11 18h09
-id: E05-PLTR-f59efa4ade-2026-11-02 · status: pendente
+id: E05-PLTR-f59efa4ade-2026-11-02 · status: expirado
 
 [ATENÇÃO] E05 · KO · Coca-Cola Is the Most Boring Stock I Own. After 64 Years of Dividend Raises, I'll Never Sell.
 Yahoo Finance · 02/11 17h05 · fonte única · licença: resumo
@@ -587,8 +612,21 @@ Fonte: CNBC 29/10 22h06
 id: E05-INTC-8a46f101b3-2026-10-30 · status: entregue
 
 
-## OUTRAS NOTÍCIAS (só manchete) (158)
+## OUTRAS NOTÍCIAS (só manchete) (162)
 
+· AMD Why AMD Stock Is In Focus Before Q3 Earnings And AI Partnership Updates (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/why-amd-stock-focus-q3-021510488.html
+· LITE Lumentum Holdings Inc. reports results for the quarter ended September 30 - Earnings Summary (TradingView (Reuters)) https://www.tradingview.com/news/reuters.com,2026:newsml_L5N46K03R:0-lumentum-holdings-inc-reports-results-for-the-quarter-ended-september-30-earnings-summary/
+· PLTR Here’s why Palantir’s stock is down despite a ‘bombastic’ quarter (MarketWatch) https://www.marketwatch.com/story/heres-why-palantirs-stock-is-down-despite-a-bombastic-quarter-42c9fdb8
+· INTC Intel (INTC) Joined A $700 Million AI Startup Funding Round (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/intel-intc-joined-700-million-001701528.html
+· PLTR Third-quarter revenue at Palantir Technologies surges 96% (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/third-quarter-revenue-palantir-technologies-003330863.html
+· PLTR Palantir: Impressive Numbers, But Something Is Missing (Rating Downgrade) (NASDAQ:PLTR) (Seeking Alpha) https://seekingalpha.com/article/4961221-palantir-impressive-numbers-but-something-is-missing-rating-downgrade
+· GOOGL Alphabet Earnings Raised Serious Concerns For Google Search (NASDAQ:GOOGL) (Seeking Alpha) https://seekingalpha.com/article/4961157-alphabet-earnings-raised-serious-concerns-for-google-search
+· DI Cortar a Selic pode fazer a inflação cair? Entenda a tese de Lara Resende (UOL Economia) https://economia.uol.com.br/noticias/redacao/2026/11/02/teoria-lara-resende.htm
+· PLTR Palantir Blows Past Expectations In Q3 On Strong Commercial Sales, But Valuation Concerns Dampen Sentiment (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/palantir-blows-past-expectations-q3-234657297.html
+· PLTR Palantir's U.S. Revenue Soars 119% as Commercial Revenue Surpasses Government Revenue for the First Time. Here's Why Its Growth Is Still Surging, Eve… (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/palantirs-u-revenue-soars-119-233415174.html
+· PLTR Palantir: Likely Dead Money From Here (NASDAQ:PLTR) (Seeking Alpha) https://seekingalpha.com/article/4961155-palantir-likely-dead-money-from-here
+· CVX Chevron & Exxon Mobil Stocks Retreat From 52-Week Highs: Buy the Dip? (TradingView (Reuters)) https://news.google.com/rss/articles/CBMivgFBVV95cUxPSVhBUHkyMGFuV0dhRXlKUDA2UjB4dURKQ2ZDM1c4SkZGTjRUZG5yYXFqSnJsa2thWTNwVXFZaEhDdzhIXzNGV2IyMlF0R3c3XzMwSHJNdTk4V2IwbFU1QXVkTHFJS1NkTEJhMmY3WW5sbWF6WTRuZGJOVExBT3Azc1JyRUJyY0ZXU1BCLTFEUk16djR3Y093c3pkYmNFLTdFQTliTVZQdnFKc3djNnlldjc1c2wtbGNuaXVQc0t3?oc=5
+· PLTR Palantir Stock Tumbles Even as Earnings Get Big Boost From U.S. Customers (Barron's) https://news.google.com/rss/articles/CBMie0FVX3lxTFBmaHVqdkxNZVdKWERyTmp6U1VTRHdub05tMHZSRHlrd0MwajF1aDdWeW5YT2JHMXpSeTR5a3RXcG1PeUQ4S244U2xLT1NYTlRaajVDb0RGN1FlTjJINk1QQmdrRzFRMVhpa2ZuNU1PbTR5cWVtcGVtVlIybw?oc=5
 · PLTR Palantir Lifts Outlook as U.S. Commercial Business Overtakes Government Business (The Wall Street Journal) https://www.wsj.com/business/earnings/palantir-lifts-outlook-as-u-s-commercial-business-overtakes-government-business-16eb693f
 · PLTR Palantir tops Q3 earnings estimates, revenue grew 96% year-over-year (Yahoo Finance) https://finance.yahoo.com/video/palantir-tops-q3-earnings-estimates-revenue-grew-96-year-over-year-212332193.html
 · PLTR Palantir expects quarterly revenue above estimates on AI demand (Reuters) https://www.reuters.com/technology/palantir-tops-third-quarter-revenue-estimates-strong-ai-software-demand-2026-11-02/
@@ -636,17 +674,4 @@ id: E05-INTC-8a46f101b3-2026-10-30 · status: entregue
 · MRVL Marvell to purchase Lumentum for $115 billion in record-breaking AI tech deal, both stocks tank (Yahoo Finance) https://finance.yahoo.com/markets/stocks/article/marvell-to-purchase-lumentum-in-115-billion-deal-as-ai-124702761.html
 · AMD AMD Stocks Edge Higher With Earnings Testing a $74 Billion Data-Center Forecast (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:426adf1cb094b:0-amd-stocks-edge-higher-with-earnings-testing-a-74-billion-data-center-forecast/
 · PLTR Palantir Stocks Edge Higher With Earnings Facing a Narrow Revenue Expectation Gap (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:f7c46b9d3094b:0-palantir-stocks-edge-higher-with-earnings-facing-a-narrow-revenue-expectation-gap/
-· GOOGL Alphabet Stocks Rise 1.85% With Search Monetization Behind Wells Fargo's Target Cut (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/alphabet-stocks-rise-1-85-181934810.html
-· PLTR Options traders are getting anxious on Palantir and Apple ahead of earnings (CNBC) https://www.cnbc.com/2026/11/02/options-traders-are-getting-anxious-on-palantir-and-apple-ahead-of-earnings.html
-· MRVL Marvell doubles down on AI boom with costly $115 billion Lumentum deal (Reuters) https://www.reuters.com/legal/transactional/marvell-buy-lumentum-115-billion-deal-ai-data-center-bet-2026-11-02/
-· BTC Bitcoin price analysis: BTC traders hopeful for post-election gains (CoinDesk) https://www.coindesk.com/markets/2026/11/02/bitcoin-traders-eye-post-election-rally-as-exchange-outflows-point-to-supply-squeeze
-· MRVL Why Marvell Stock Is Tumbling Today (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:16f396404094b:0-why-marvell-stock-is-tumbling-today/
-· AMZN ETFs to Watch as Amazon Shares Slip Following Q3 Earnings Miss (Yahoo Finance) https://au.finance.yahoo.com/news/etfs-watch-amazon-shares-slip-180200938.html
-· MU Micron Stock Needs Markets to Clear These 3 Hurdles (Barron's) https://news.google.com/rss/articles/CBMiggFBVV95cUxOUWhELWk4QTd2akFpU0NnMlVqS2NIM0NIQVpkYXRBX3B4QV95Mjh4ZUg2WHdObFozc3hMLU9iVTZSeEFQX2ZJZVZ6RnhzR2RHZkNlSWpXUVlpMXgtY1YtQ05qYTZsVlFlUkVDc2l4cUg4LS1raWVRODBHQ2EzODBjZGlR?oc=5
-· BTC Bitcoin ETF outflows hit $643M, led by BlackRock and Fidelity (Yahoo Finance) https://finance.yahoo.com/video/bitcoin-etf-outflows-hit-643m-180000253.html
-· NVDA AMD Slides 3% Ahead of Earnings as PC Worries Linger; Intel Drops 5%, NVIDIA Edges Higher (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/amd-slides-3-ahead-earnings-174921972.html
-· ETH BMNR Buys Nearly $20M Worth Of ETH: Tom Lee Calls Market’s Binance Hack Reaction ‘Very Constructive’ (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:a95d402bc094b:0-bmnr-buys-nearly-20m-worth-of-eth-tom-lee-calls-market-s-binance-hack-reaction-very-constructive/
-· MRVL Midday Need to Know: Marvell - Lumentum deal, oil price falls & more (TradingView (Reuters)) https://www.tradingview.com/news/seekingalpha:1efcbc566094b:0-midday-need-to-know-marvell-lumentum-deal-oil-price-falls-more/
-· UST US Treasury auction changes loom in 2027; dealers eye long-end cuts (Reuters) https://www.reuters.com/business/finance/us-treasury-auction-changes-loom-2027-dealers-eye-long-end-cuts-2026-11-02/
-· BTC Bitcoin pinned at $78k after October losses; Binance resumes withdrawals (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-steadies-78k-october-losses-071526374.html
-· (+98 manchetes; lista completa em eventos/noticias.json)
+· (+102 manchetes; lista completa em eventos/noticias.json)
