@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-10-31T16:17:52Z",
+ "gerado_em": "2026-11-03T07:12:51Z",
  "cliente_http": "curl_cffi",
  "livro": [
   "EQTL3",
@@ -56,18 +56,18 @@
     }
    },
    "falhas": {},
-   "segundos": 31
+   "segundos": 58
   },
   "2026-10-30": {
    "completo": false,
    "faltam": [
-    "DerivativesOpenPosition",
     "AnalyticalFramework2"
    ],
    "boletim": "publicando",
-   "sinais": 10,
+   "sinais": 13,
    "tabelas": 47,
    "arquivos": [
+    "DerivativesOpenPosition",
     "InstrumentsConsolidated",
     "TradeInformationConsolidated",
     "TradeInformationConsolidatedAfterHours"
@@ -92,10 +92,8 @@
      "2026-10-29": "publicado"
     }
    },
-   "falhas": {
-    "DerivativesOpenPosition": "arquivo DerivativesOpenPosition: token HTTP 400"
-   },
-   "segundos": 21
+   "falhas": {},
+   "segundos": 56
   }
  },
  "falhas": [],

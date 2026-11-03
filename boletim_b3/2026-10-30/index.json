@@ -1,6 +1,6 @@
 {
  "pregao": "2026-10-30",
- "coletado_em": "2026-10-31T16:18:23Z",
+ "coletado_em": "2026-11-03T07:13:50Z",
  "tabelas": {
   "SharesInvesVolum": {
    "titulo": "Participação dos investidores",
@@ -21,7 +21,7 @@
   "EconomicIndicators": {
    "titulo": "Indicadores econômicos",
    "situacao": "republicado",
-   "atualizado_em": "2026-10-31T10:52:45.72",
+   "atualizado_em": "2026-11-03T04:03:07.18",
    "sla": "8:00:00",
    "linhas": 434,
    "truncada": false
@@ -237,7 +237,7 @@
   "ProventionCreditVariable": {
    "titulo": "Crédito de proventos",
    "situacao": "republicado",
-   "atualizado_em": "2026-10-31T10:52:08.74",
+   "atualizado_em": "2026-11-03T04:02:33.25",
    "sla": "00:00:00",
    "linhas": 28,
    "truncada": false
@@ -397,11 +397,15 @@
    "bytes": 20066222,
    "linhas": 89057,
    "estado": "Final"
+  },
+  "DerivativesOpenPosition": {
+   "arquivo": "DerivativesOpenPositionFile_20261030_1",
+   "bytes": 3429064,
+   "linhas": 42864,
+   "estado": null
   }
  },
- "falhas": {
-  "DerivativesOpenPosition": "arquivo DerivativesOpenPosition: token HTTP 400"
- },
+ "falhas": {},
  "rf_cadastro": {
   "papeis_no_dia": 1480,
   "consultados": 0,
