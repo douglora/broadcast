@@ -1,0 +1,958 @@
+[p. 1]
+1 
+Resultados 
+3T26 
+ 
+ 
+ 
+São Paulo, 03 de novembro de 2026. A RD Saúde (Raia Drogasil S.A. – B3: RADL3) anuncia seus resultados referentes ao 3º trimestre de 2026 (3T26). As demonstrações 
+financeiras individuais e consolidadas da Companhia para os exercícios findos em 30 de setembro de 2026 e de 2025 foram preparadas de acordo com as práticas 
+contábeis adotadas no Brasil, que compreendem as normas da Comissão de Valores Mobiliários (CVM), as Normas Brasileiras de Co ntabilidade Técnica – Geral (NBC 
+TG) e os pronunciamentos do Comitê de Pronunciamentos C ontábeis (CPC) e estão em conformidade com as normas internacionais de contabilidade (International 
+Financial Reporting Standards - IFRS) emitidas pelo International Accounting Standards Board – IASB, e evidenciam todas as informações relevantes próprias d as 
+demonstrações financeiras, e somente elas, as quais estão consistentes com as utilizadas pela Administração na sua gestão. Es tes demonstrativos são apresentados 
+em Reais, e todas as taxas de crescimento, a menos que seja afirmado o contrário, referem -se ao mesmo período do ano anterior. 
+ 
+IFRS 16: Nossas demonstrações financeiras são preparadas em conformidade com o IFRS 16. Para melhor representar a realidade econômica do 
+negócio, os números deste relatório consideram o padrão pré-IFRS 16 com uma reconciliação em capítulo dedicado neste documento. 
+ 
+DESTAQUES: 
+› Expansão orgânica mantém ritmo acelerado 
+3.770 farmácias em operação, com 92 aberturas e 9 encerramentos no trimestre; 
+333 aberturas brutas LTM, reiterando o guidance de 330 a 350 aberturas brutas em 2026; 
+› Crescimento de vendas segue forte e acima da inflação 
+Receita bruta de R$ 13,2 bilhões, crescimento de +16,0% e incremento de R$ 1,8 bilhão; 
+Lojas maduras cresceram +8,4%, um crescimento real +5,6 pp acima do reajuste anual CMED; 
+› Ganhos de market share em todo o país 
+Participação nacional de 19,1%, +1,1 pp, com avanço em todas as regiões; 
+› Vendas digitais combinam escala e protagonismo omnicanal 
+Receita bruta de R$ 3,8 bilhões, +27,2%, representando 29,4% do varejo; 
+› Crescimento com margens preservadas 
+EBITDA ajustado de R$ 1,0 bilhão, +14,7%, com margem de 7,8% (-0,1 pp); 
+Lucro líquido ajustado de R$ 439 MM, +9,2% (incluindo 4Bio), com margem de 3,3% (-0,2 pp); 
+Excluindo impactos 4Bio, crescimento do lucro de +20,1% e expansão da margem em +0,1 pp; 
+› Baixa alavancagem com geração de caixa 
+Fluxo de caixa livre positivo de R$ 160 MM e geração total de R$ 57 MM; 
+Dívida líquida/EBITDA de 0,8x, redução de 0,3x. 
+ 
+ 
+RADL3 
+R$ 15,22/ação 
+Fechamento 30/out/26 
+ 
+VALOR DE MERCADO 
+R$ 26,7 bilhões 
+ 
+TOTAL DE AÇÕES 
+1.752.367.344 
+Todas ordinárias 
+ 
+CONTATOS RI: 
+Flávio Correia 
+André Stolfi 
+Victor Torres 
+Felipe Correa 
+ 
+ri.rdsaude.com.br 
+ri@rdsaude.com.br 
+ 
+ 
+ 
+Sumário novo consolidado (ex-4Bio)
+Em R$ mil 3T25 4T25 1T26 2T26 3T26
+# de farmácias 3.453 3.547 3.614 3.687 3.770
+Aberturas orgânicas 88 97 68 76 92
+Fechamentos (6) (3) (1) (3) (9)
+# de funcionários 69.860 73.388 75.190 75.594 77.428
+# de farmacêuticos 13.981 14.377 14.965 15.199 15.478
+# de atendimentos (mil) 111.543 114.731 111.849 119.305 119.277
+# de clientes ativos (MM) 51,0 51,7 52,3 52,8 53,3
+Receita bruta 11.347.942 12.186.767 11.979.521 12.777.743 13.163.282
+Crescimento (a/a) +15,5% +22,3% +20,4% +18,3% +16,0%
+Lucro bruto 3.257.291 3.508.601 3.392.636 3.696.071 3.795.614
+% da receita bruta 28,7% 28,8% 28,3% 28,9% 28,8%
+EBITDA ajustado 892.592 924.318 820.786 1.017.348 1.023.739
+% da receita bruta 7,9% 7,6% 6,9% 8,0% 7,8%
+Lucro líq. aj. (com 4Bio) 401.986 361.654 299.752 432.729 439.124
+% da receita bruta 3,5% 3,0% 2,5% 3,4% 3,3%
+Fluxo de caixa livre 615.609 (466.520) 284.869 549.989 160.161
+
+[p. 2]
+2 
+RESULTADOS 3T26 
+ 
+ 
+ 
+Encerramos o 3T26 com um total de 3. 770 farmácias em operação , inaugurando 92 novas unidades no trimestre e 333 nos 
+últimos 12 meses (LTM). Reafirmamos nosso guidance de 330 a 350 aberturas brutas para 2026. 
+Encerramos 9 farmácias no 3T26, acumulando 16 LTM com apenas 3 fechando durante o período de maturação. Isso equivale a 
+menos de 1% das aberturas LTM, atestando a assertividade do processo de expansão orgânica da rede. Os demais 
+13 encerramentos LTM foram de farmácias com média de 1 1 anos de operação, resultantes da otimização do portfólio. Esses 
+fechamentos transferem vendas para outras unidades próximas, liberam ativos para realocação e reduzem custos fixos, 
+beneficiando assim o EBITDA e o ROIC da Companhia. 
+Ao final do 3T26, um total de 25,2% das farmácias RD Saúde ainda se encontrava em fase de maturação, sem ter alcançado todo 
+o potencial de receita e rentabilidade. 
+ 
+Nossa expansão continua diversificando nossa rede de farmácias, tanto geograficamente quanto demograficamente. 
+Estendemos nossa presença para 697 cidades em todos os estados , +44 vs. o ano anterior , uma capilaridade única no varejo 
+brasileiro sob gestão direta. 
+Mantivemos um ritmo consistente de expansão em São Paulo, nosso principal mercado, acumulando 35% do nosso plano de 
+expansão do último ano. Mesmo com nossa ampla presença no estado, continuamos identificando oportunidades relevantes e 
+observando desempenho sólido nas lojas recém‑inauguradas, reforçando o potencial para avan çarmos de maneira rentável em 
+todo o País. 
+Por fim, a TIR da s novas lojas continua sustentando patamares recordes , reflexo da maior assertividade da expansão, com 
+destaque para os ganhos recentes de eficiência obtidos na operação, da omnicanalidade, do avanço dos medicamentos GLP-1, 
+entre outros. 
+74,4% 74,7% 74,8% 75,0% 74,8%
+7,7% 7,6% 7,6% 7,6% 7,7%
+8,4% 8,4% 8,6% 8,5% 8,7%
+9,5% 9,3% 8,9% 8,9% 8,8%
+3T25 4T25 1T26 2T26 3T26
+Madura Ano 3 Ano 2 Ano 1
+3.453
+3.547
+3.614
+3.687
+3.770
+3T25 4T25 1T26 2T26 3T26
+Número de farmácias Portfólio etário das farmácias
+3T25 4T25 1T26 2T26 3T26 LTM
+Aberturas brutas +88 +97 +68 +76 +92 +333
+Fechamentos -6 -3 -1 -3 -9 -16
+- Em maturação - -1 - - -2 -3
+- Maduras -6 -2 -1 -3 -7 -13
+Aberturas líquidas +82 +94 +67 +73 +83 +317
+41%
+17% 21% 19%
+37%
+44%
+67% 63% 68%
+48%
+15% 16% 16% 13% 15%
+3T23 3T24 3T25 3T26 3T26
+Nobre Híbrida Popular
+Aberturas nos últimos 12 meses Redeatual
+6% 4% 7% 2% 4%
+17% 17% 16% 16% 15%
+12% 14% 15% 13% 11%
+20% 15% 22% 23% 17%
+17% 18% 10% 11% 13%
+28% 32% 30% 35% 39%
+3T23 3T24 3T25 3T26 3T26
+Norte Nordeste Centro Oeste
+Sudeste Sul São Paulo
+Aberturas nos últimos 12 meses Redeatual
+Farmácias por perfilQtd. de municípios com farmácia Farmácias por região
+562
+610
+653
+697
+3T23 3T24 3T25 3T26
+ EXPANSÃO DA REDE
+
+[p. 3]
+3 
+RESULTADOS 3T26 
+ 
+Nossas 3,8 mil farmácias estão presentes em todos os estados do País e são suportadas diretamente por uma rede integrada de 
+16 centros de distribuição. Essa malha logística permite um atendimento diário de mais de 80% das unidades com lead time de 
+até 24h. Como resultado, elevamos o nível de serviço, otimizamos o capital de giro e fortalecemos a eficiência operacional, o 
+que se configura como uma importante vantagem competitiva. 
+No trimestre, nossa participação de mercado nacional atingiu 19,1%, um forte ganho de +1,1 pp vs. o ano anterior. Além disso, 
+registramos ganhos relevantes em todas as regiões, evidenciando nossa capacidade competitiva nos mais variados contextos e 
+praças. Registramos participações de 33,0% em São Paulo (+ 1,1 pp), de 14,3% no Sudeste (+ 1,1 pp), de 24,8% no Centro Oeste 
+(+1,9 pp), de 11,5% no Sul (+0,5 pp), de 14,2% no Nordeste (+1,3 pp) e de 12,1% no Norte (+1,0 pp). 
+O ganho de participação nacional de +1,1 pp no 3T26 embute a estabilização sequencial da participação dos medicamentos GLP-1 
+em torno de 12% sobre o total das vendas. Excluindo itens GLP-1, nosso ganho de participação de mercado nacional continuou 
+robusto, pouco abaixo de +1 pp, com avanços em todas as regiões. 
+ 
+Seguimos avançando em nossa estratégia digital, fortalecendo ainda mais a relação com o cliente. Nos últimos 12 meses, 
+registramos mais de 1 bilhão de acessos aos nossos canais digitais, uma audiência de impacto que potencializa nosso papel na 
+promoção de saúde. Além disso, a digitalização amplifica o gasto por cliente, com os clientes assíduos digitalizados gastando 30% 
+a mais do que a média dos assíduos. 
+ 
+Registramos R$ 3,8 bilhões de receita bruta nos canais digitais no 3T26, o que representa um crescimento de + 27% em 
+comparação ao ano anterior. A participação desses canais foi de 29,4% do varejo, um avanço de +2,7 pp vs. o ano anterior. 
+Participação de mercado
+Varejo, preço consumidor, sell-out + sell-in
+Presença geográfica
+Total: 3.770 farmácias
+Raia: 1.553
+Drogasil: 2.217
+CDs: 16
+PE: 122
+SC: 121
+DF: 129
+GO: 163
+PR: 217
+RS: 140
+MG: 269
+MT: 61
+SP: 1.485
+MS: 70
+BA: 147
+ES: 82
+RJ: 295
+AL: 28
+SE: 32
+PB: 31
+RN: 34
+CE: 116
+PI: 24
+MA: 45
+TO: 29
+PA: 63
+RO: 20
+AM: 31
+AC: 6
+RR: 5
+AP: 5
+Fonte: IQVIA. Sudeste exclui SP.
+18,0%
+31,9%
+13,2%
+22,9%
+11,0%
+12,9%
+11,1%
+19,1%
+33,0%
+14,3%
+24,8%
+11,5%
+14,2%
+12,1%
+Brasil SP Sudeste Centro
+Oeste
+Sul Nordeste Norte
+3T25 3T26
+Vendas digitais e penetração
+R$ milhões, % da receita bruta do varejo
+Canais de entrega
+% da receita digital do trimestre
+Receita canais digitais
+Participação app nas vendas
+Penetração no varejo
+80 de NPS
+Avaliação do app
+R$ 14,9 BI
+Vendas digitais LTM
+83 de NPS
+Avaliação das entregas
+>1 bilhão de Acessos
+Via apps e site LTM
+3.018
+3.554 3.597
+3.938 3.838
+81%
+82% 83%
+83% 83%
+26,7%
+29,3% 30,2% 31,0% 29,4%
+3T25 4T25 1T26 2T26 3T26
++27%
+vs. 3T25
+App
+83%
+Site
+9%
+Outros 3%
+Terceiros
+5%
+Canais de vendas
+% da receita digital do trimestre
+95%
+canais proprietários
+Coleta
+66%
+Até 60 min
+24%
+>60 min 4%
+Terceiros
+5%
+96%
+entregues/coletados 
+em até 60 min
+ DIGITALIZAÇÃO, SAÚDE E ENGAJAMENTO DO CLIENTE
+
+[p. 4]
+4 
+RESULTADOS 3T26 
+ 
+A participação dos canais digitais registrou uma redução sequencial de 1,6 pp, integralmente atribuída à nova política 
+comercial que passa a incorporar os mesmos descontos de preços nos produtos GLP-1, antes exclusivos aos canais digitais 
+e agora também nas farmácias físicas. Com isso, a participação de canais físicos nesses itens se elevou de 25% no 2T26 
+para 40% em outubro 2026, evidenciando mais uma vez a materialidade da rede física na jornada de saúde dos clientes de 
+farmácias. As demais categorias continuaram ganhando participação nos canais digitais. 
+Entre os nossos canais digitais, destacamos a elevada participação dos nossos apps, nos quais nossos clientes têm a melhor 
+experiência mobile especializada para jornadas omni canal em saúde e bem -estar. As vendas digitais através deles 
+cresceram +30% vs. o ano anterior, uma participação dominante de 83% nas vendas digitais do trimestre. 
+A evolução na digitalização dos clientes via nossos canais modernos e proprietários é reflexo da melhoria contínua da 
+experiência mobile e da jornada cada vez mais completa e omnicanal em saúde integral. Ela potencializa a capilaridade da 
+nossa rede de farmácias , com 95% da população classe A dentro de um r aio de 1,5 km, permitindo em última instância 
+que 96% das vendas digitais sejam entregues ou coletadas em menos de 60 minutos, com alta eficiência econômica. 
+A experiência omnicanal do cliente é ainda reforçada pela Stix, nosso ecossistema de fidelização que une mais de 9.000 
+pontos de venda das marcas Drogasil, Raia, Pão de Açúcar, Extra, Shell e Petlove, além dos parceiros financeiros Itaú e 
+Livelo. Em julho 2026, a RD Saúde adquiriu do GPA os 67% restantes do capital da Stix, passando a liderar a coalizão que 
+beneficiou 15,6 milhões de clientes ativos, um aumento de 26% vs. o ano anterior, dos quais 6,8 milhões navegaram entre 
+2 ou mais dos parceiros. 
+Por fim, seguimos fortalecendo o papel das nossas farmácias na jornada de saúde integral dos clientes, posicionando ‑as 
+como hubs de sa úde nas comunidades em que atuam e ampliando os v ínculos por meio dos servi ços farmacêuticos. Já 
+contamos com 3,2 mil unidades com salas Mais Saúde e seu portfólio expandido de serviços, além de 4 62 unidades com 
+salas de vacinação. No 3T26, foram realizados mais de 2,2 milhão de atendimentos farmacêuticos entre EACs (exames de 
+análises clínicas), aplicações de vacinas e outros serviços, registrando NPS superior à média de 91 das farmácias. 
+ 
+ 
+Encerramos o 3T26 com receita bruta de R$ 13.163 milhões, um crescimento de 16,0% vs. o ano anterior e um relevante 
+incremento de R$ 1,8 bilhão, em um trimestre com efeito calendário negativo de 0,3 pp. Esse ritmo de crescimento está 
+em linha com o esperado dada a estabilização dos itens GLP-1 no mix de vendas desde o 4T25. Além disso, a incorporação 
+de Stix no 3T26 contribuiu com +0,4 pp para o crescimento total. 
+Sustentamos um crescimento robusto em todas as categorias. Medicamentos de Marca cresceram +19,8% no trimestre, 
+que, mesmo excluindo itens GLP-1, apresentou crescimento de duplo-dígito. Destacamos que o recente lançamento de 
+novos medicamentos GLP-1 com semaglutida vêm ampliando a acessibilidade, com o volume adicional em unidades 
+compensando a forte redução dos preços médios, suficiente para preservar a receita. Vale salientar que ainda observamos 
+um abastecimento limitado da indústria para essas novas marcas. Já as demais categorias apresentaram desempenhos 
+positivos: Medicamentos Genéricos cresceram +11,7%, Perfumaria revigorada +13,4% e OTC +10,8%, em que pese um 
+inverno mais ameno e chuvoso no sul e sudeste e menor demanda por itens sazonais. 
+ 
+11.348
+12.187 11.980
+12.778 13.163
+3T25 4T25 1T26 2T26 3T26
++10,8%
++11,7%
++19,8%
+3T26 vs.
+3T25
+*
++13,4%
+* Serviços
+Receita bruta consolidada
+R$ milhões
+Mix de vendas do varejo
+Marca Gen. OTC Perf.
+44,1% 45,2% 45,5% 45,4% 45,8%
+12,6% 12,0% 12,2% 12,4% 12,2%
+19,8% 18,5% 18,8% 19,7% 18,9%
+23,3% 24,1% 23,4% 22,3% 22,9%
+0,2% 0,2% 0,2% 0,2% 0,2%
+3T25 4T25 1T26 2T26 3T26
+ RECEITA BRUTA
+
+[p. 5]
+5 
+RESULTADOS 3T26 
+ 
+ 
+Por fim, observamos um crescimento médio de +10,1% nas mesmas lojas no 3T26. Considerando as lojas maduras, que já 
+completaram o processo de maturação de 3 anos , registramos um crescimento médio de + 8,4%, um ritmo 5,6 pp acima do 
+reajuste de medicamentos CMED de 2,8% autorizado em 2026 e 3,8 pp acima do IPCA do s últimos 12 meses. Destacamos que, 
+em linha com os ganhos de market share, as lojas maduras apresentaram crescimento forte em todas as regiões, fruto da alta 
+competitividade das nossas marcas em todas as praças. 
+ 
+ 
+O lucro bruto totalizou R$ 3.795,6 milhões no 3T26, equivalente 
+a uma margem bruta de 28,8%, com uma expansão de 0,1 pp 
+vs. o ano anterior . A incorporação da Stix no 3T26 contribuiu 
+com 0,2 pp. 
+Registramos uma pressão pelo efeito AVP de 0,2 pp em 
+decorrência da menor taxa de juros Selic, além de pressões pela 
+maior participação dos produtos GLP -1 e d os canais digitais . 
+Essas pressões foram compensadas por menores perdas de 
+estoque e por ganhos comerciais. 
+ 
+ 
+ 
+As despesas com vendas totalizaram R$ 2.429,0 milhões no 
+3T26, equivalente a 1 8,5% da receita bruta, um a pressão de 
+0,3 pp vs. o ano anterior . Não houve impactos materiais pela 
+incorporação da Stix. 
+Esse trimestre ainda inclui a pressão dos investimentos na 
+proposta de valor dos nossos funcionários (EVP) de 0,5 pp 
+realizados no 4T25, além de pequenas pressões em despesas de 
+segurança e de entregas de última milha . Essas foram 
+parcialmente compensadas por ganhos em aluguéis e em 
+despesas de adquirência, além de uma importante alavancagem 
+operacional derivada do forte crescimento real de lojas maduras. 
+3,1% 3,1% 3,1% 2,8% 2,8%
+12,4%
+19,3% 17,3% 15,5% 13,2%
+15,5%
+22,3%
+20,4%
+18,3%
+16,0%
+3T25 4T25 1T26 2T26 3T26
+3,1% 3,1% 3,1% 2,8% 2,8%
+6,7%
+13,2% 11,2% 9,7% 7,3%
+9,7%
+16,3%
+14,3%
+12,5%
+10,1%
+3T25 4T25 1T26 2T26 3T26
+3,1% 3,1% 3,1% 2,8% 2,8%
+4,8%
+11,4% 9,7% 8,1% 5,6%7,8%
+14,5%
+12,8%
+10,9%
+8,4%
+3T25 4T25 1T26 2T26 3T26
+Cresc. das lojas maduras – VarejoCrescimento da venda consolidada Cresc. das mesmas lojas – Varejo
+Reajuste CMED Crescimento real
+ LUCRO BRUTO 
+ DESPESAS COM VENDAS 
+Lucro bruto
+R$ milhões, % da receita bruta
+3.257,3
+3.508,6 3.392,6
+3.696,1 3.795,6
+28,7% 28,8%
+28,3%
+28,9% 28,8%
+3T25 4T25 1T26 2T26 3T26
+Despesas com vendas
+R$ milhões, % da receita bruta
+2.064,8 2.258,9 2.275,2 2.370,4 2.429,0
+18,2%
+18,5%
+19,0%
+18,6% 18,5%
+3T25 4T25 1T26 2T26 3T26
+
+[p. 6]
+6 
+RESULTADOS 3T26 
+ 
+ 
+A estrutura corporativa da RD Saúde continuou apresentando 
+alavancagem operacional . Ao incorporar a Stix no 3T26, as 
+despesas gerais e administrativas totalizaram R$ 342,9 milhões, 
+correspondente a 2,6% da receita bruta, estável vs. o ano anterior. 
+Sem a Stix, as despesas G&A representaram 2,4% da receita bruta, 
+uma diluição de 0,2 pp. 
+Salientamos que o aumento sequencial nas despesas G&A do 
+segundo para o terceiro trimestre é esperado dada a provisão anual 
+para o reajuste salarial no estado de SP, onde fica nossa sede. 
+ 
+ 
+ 
+Registramos um EBITDA ajustado de R$ 1.023,7 milhões no 
+3T26, um crescimento de 14,7% vs. o mesmo período do ano 
+anterior. A margem EBITDA foi de 7,8%, uma contração de 
+0,1 pp, que ainda inclui nesse trimestre os efeitos d os 
+investimentos realizados na proposta de valor aos nossos 
+funcionários (EVP). 
+A incorporação da Stix no 3T26 contribuiu com 0,1 pp na 
+margem EBITDA do trimestre. 
+ 
+ 
+Despesas de depreciação ajustadas totalizaram R$ 300,0 milhões no 3T26, equivalentes a 2, 3% da receita bruta , estável vs. o 
+ano anterior. 
+Já as despesas financeiras líquidas ajustadas totalizaram R$ 174,9 milhões no 3T26, correspondendo a 1,3% da receita bruta, uma 
+forte diluição de 0, 6 pp vs. o ano anterior . Dessa diluição, 0,4 pp é decorrente da menor média de taxa Selic efetivamente 
+incorrida sobre o passivo financeiro, resultando em R$ 119,9 milhões em despesas líquidas (0,9% da receita bruta) . Além disso, 
+registramos uma receita financeira de R$ 22,7 milhões pela venda da 4Bio. 
+Registramos também uma diluição de 0,2 pp pelo efeito não-caixa do AVP, equivalente a R$ 54,9 milhões (0,4% da receita bruta). 
+Por fim, registramos um aumento de 31,0% no lucro antes do IRPJ/CSLL ajustado vs. o ano anterior, totalizando R$ 547,6 milhões 
+no 3T26. Isso equivaleu a 4,2% da receita bruta, uma expansão de 0,5 pp. 
+R$ milhões, % da receita bruta
+Depreciação e amortização aj. Lucro antes do imposto de renda aj.
+R$ milhões, % da receita bruta
+Despesas financeiras líquidas aj.
+R$ milhões, % da receita bruta
+264,8 274,7 272,5 277,1 300,0
+2,3% 2,3% 2,3% 2,2% 2,3%
+3T25 4T25 1T26 2T26 3T26
+210,9
+253,8
+215,3 197,3 174,9
+1,9%
+2,1%
+1,8%
+1,5%
+1,3%
+3T25 4T25 1T26 2T26 3T26
+417,9 398,6
+332,9
+542,7 547,6
+3,7%
+3,3%
+2,8%
+4,2% 4,2%
+3T25 4T25 1T26 2T26 3T26
+ DESPESAS GERAIS E ADMINISTRATIVAS 
+ EBITDA 
+ DEPRECIAÇÃO, DESPESAS FINANCEIRAS LÍQUIDAS E LAIR 
+Despesas gerais & administrativas
+R$ milhões, % da receita bruta
+299,9 325,4 296,6 308,3 342,9
+2,6% 2,7%
+2,5% 2,4%
+2,6%
+3T25 4T25 1T26 2T26 3T26
+EBITDA ajustado
+R$ milhões, % da receita bruta
+892,6 924,3 820,8
+1.017,3 1.023,7
+7,9% 7,6%
+6,9%
+8,0% 7,8%
+3T25 4T25 1T26 2T26 3T26
+
+[p. 7]
+7 
+RESULTADOS 3T26 
+ 
+ 
+Provisionamos um total de R$ 108,5 milhões em imposto de renda ajustado no 3T26, equivalente a 0, 8% da receita bruta, um 
+aumento de 0,2 pp vs. o ano anterior. A alíquota efetiva foi de 19,8% sobre o LAIR, um aumento de 2,8 pp, principalmente pela 
+proporção menor de JSCP provisionado nesse trimestre. No acumulado do ano, a alíquota efetiva recorrente foi de 19,4%. 
+O lucro líquido ajustado consolidado foi de R$ 439,1 milhões no 3T26, com uma margem líquida de 3,3% da receita bruta . Não 
+houve impacto material pela incorporação da Stix. 
+Quando excluímos os efeitos da 4Bio, tanto seus lucros operacionais no 3T25 (R$ 55,2 milhões, que incluía ganhos tributários não 
+recorrentes) como as receitas financeiras no 3T26 advindas de sua venda (R$ 22,7 milhões), registramos uma margem líquida de 
+3,2% nesse trimestre com uma expansão de 0,1 pp e crescimento de 20,1%. Essa expansão de lucro e margem ratifica a natureza 
+resiliente do negócio, com comprovada capacidade de navegar em diferentes cenários econômicos e políticos. Vale destacar 
+que se soma a esse resultado o recebimento das receitas financeiras oriundas da venda da 4Bio. 
+ 
+ 
+No EBITDA, registramos R$ 18,6 milhões em despesas não recorrentes no 3T26. Isso inclui despesas de R$ 1,5 milhão em baixas 
+de ativos , R$ 0,6 milhão em investimentos sociais e doações, R$ 13,0 milhões relativos a efeitos tributários extemporâneos e 
+R$ 3,4 milhões em outros efeitos . No lucro líquido, registramos uma redução de R$ 6,3 milhões em IR pelos resultados não 
+recorrentes do período. 
+ 
+346,8 350,2
+283,3
+424,4 439,1
+402,0 361,7
+299,8
+432,7 439,1
+3,5%
+3,0% 2,5% 3,4% 3,3%
+3T25 4T25 1T26 2T26 3T26
+71,1
+48,4 49,6
+118,3 108,5
+17,0% 12,1% 14,9% 21,8% 19,8%
+0,6%
+0,4% 0,4%
+0,9% 0,8%
+3T25 4T25 1T26 2T26 3T26
+* Alíquota efetiva.
+Imposto de renda aj. e alíquota efetiva
+R$ milhões, % da receita bruta
+Lucro líquido ajustado (com 4Bio)
+R$ milhões, % da receita bruta
+Operações continuadas
+Operações descontinuadas
+*
+Mg. líquida consolidada
+Reconciliação EBITDA/Lucro Líq. ajustados (R$ milhões) 3T25 3T26
+Lucro líquido 476,1 426,9
+Resultado de operações descontinuadas (4Bio) (92,1) 0,0
+Imposto de renda 90,2 102,2
+Equivalência patrimonial (1,0) 1,3
+Resultado financeiro 210,9 174,9
+EBIT (ex-4Bio) 684,0 705,2
+Depreciação e amortização 264,8 300,0
+EBITDA (ex-4Bio) 948,8 1.005,2
+Baixa de ativos 1,3 1,5
+Investimento social e doações 1,6 0,6
+Efeitos tributários extemporâneos (15,6) 13,0
+Outras não recorrentes (43,6) 3,4
+EBITDA ajustado (ex-4Bio) 892,6 1.023,7
+Lucro líquido 476,1 426,9
+Não rec. líq. de op. descontinuadas (4Bio) (37,0) -
+Efeitos não recorrentes no EBITDA (56,2) 18,6
+Efeitos IR de não rec. de op. continuadas (34%) 19,1 (6,3)
+Lucro líquido ajustado 402,0 439,1
+ IMPOSTO DE RENDA E LUCRO LÍQUIDO 
+ RECONCILIAÇÃO EBITDA, LUCRO LÍQUIDO E RESULTADO NÃO RECORRENTE
+
+[p. 8]
+8 
+RESULTADOS 3T26 
+ 
+ 
+Registramos uma melhora de 2,4 dias no ciclo de caixa vs. o 
+ano anterior, totalizando 54,2 dias no 3T26, já ajustado para 
+os descontos de recebíveis , as antecipações a 
+fornecedores e também os efeitos positivos derivados do 
+fim do regime de ICMS-ST em SP. 
+Registramos aumentos de 1,4 dias em estoques, em função 
+do menor giro de itens sazonais, e de 0,6 dia em recebíveis, 
+mais que compensados por um aumento de 4, 4 dias em 
+fornecedores. 
+ 
+ 
+Registramos uma geração de caixa total de R$ 56,8 milhões no 3T26. Isso inclui uma geração de R$ 771,1 milhões em recursos 
+das operações (5,9% da receita bruta) e um fluxo de caixa operacional de R$ 578,5 milhões. 
+Investimos R$ 192,7 milhões em capital de giro e R$ 418,3 milhões em CAPEX , dos quais R$ 175,4 milhões foram alocadas na 
+abertura de novas farmácias, R$ 90,5 milhões na manutenção e reforma de unidades existentes, R$ 86,8 milhões em tecnologia, 
+R$ 61,9 milhões em logística e R$ 3,8 milhões em outros projetos. 
+Despesas financeiras líquidas somaram R$ 119,9 milhões no 3T26, parcialmente compensadas pela dedução fiscal de 
+R$ 95,1 milhões relativa às despesas financeiras e JSCP. Por fim, a nunciamos juros sobre capital próprio (JSCP) de 
+R$ 159,8 milhões no 3T26. 
+ 
+Geração de Caixa e Reconciliação da Dívida Líquida (R$ milhões) 3T25 3T26
+Ex-4Bio
+EBIT ajustado 627,8 723,7
+Ajuste a valor presente (AVP) (71,1) (59,8)
+Efeitos não recorrentes 56,2 (18,6)
+Imposto de renda (34%) (208,4) (219,4)
+Depreciação 255,2 298,5
+Provisão para valor recuperável (4Bio) - 0,2
+Outros ajustes 125,2 46,5
+Recursos das operações 784,9 771,1
+Ciclo de caixa* 123,5 (394,8)
+Outros ativos (passivos)** 74,4 202,1
+Fluxo de caixa operacional 982,7 578,5
+Investimentos (367,1) (418,3)
+Fluxo de caixa livre 615,6 160,2
+Atividades de investimento em coligadas (31,5) (31,7)
+JSCP e dividendos (0,1) (0,1)
+IR pago sobre JSCP (18,4) (27,6)
+Resultado financeiro*** (145,1) (119,9)
+IR (Benef. fiscal s/ result. fin., JSCP e div.) 97,2 95,1
+Fluxo de caixa total (sem 4Bio) 517,7 75,9
+Efeitos operações descontinuadas (4Bio) 40,6 (19,0)
+Total (incluindo efeitos 4Bio) 558,3 56,8
+*Inclui ajustes para recebíveis descontados. **Inclui AVP. ***Exclui AVP.
+ CICLO DE CAIXA 
+ GERAÇÃO DE CAIXA 
+* Ajustado para recebíveis descontados e antecipações 
+a fornecedores.
+Ciclo de caixa*
+Dias de CMV, dias de receita bruta
+101,0 105,7 107,0 103,0 102,4
+71,4 74,4
+82,0 79,1 75,8
+27,0 27,1 28,8 27,8 27,6
+56,6 58,4 53,8 51,7 54,2
+3T25 4T25 1T26 2T26 3T26
+Estoques Fornecedores
+Recebíveis Ciclo de Caixa
+
+[p. 9]
+9 
+RESULTADOS 3T26 
+ 
+ 
+ 
+Encerramos o 3T26 com uma dívida líquida ajustada de R$ 2.942,7 milhões, correspondente a um índice de 
+alavancagem financeira de 0,8x o EBITDA ajustado dos últimos 12 meses , uma redução de 0, 3x vs. ano anterior. 
+Dessa redução, 0,1x é advinda da geração de caixa regular da Companhia e 0,2x da venda da 4Bio. 
+Nossa dívida líquida ajustada leva em consideração um saldo de R$ 621,1 milhões em recebíveis descontados , 
+R$ 697,4 milhões em recursos a receber decorrentes da venda 4Bio, além de R$ 17,1 milhões em obrigações 
+relacionadas a opções de compra/venda de participações remanescentes em empresas investidas. 
+O endividamento bruto totalizou R$ 3.505,9 milhões, 100% corresponde nte à emissão de Debêntures e 
+Certificados de Recebíveis Imobiliários (CRIs), todos com rating reiterado em AAA.br pela Moody’s. 88% é de longo 
+prazo e 12% de curto prazo. Encerramos o trimestre com posição de caixa e equivalentes de R$ 504,0 milhões. 
+Destacamos que, apesar da baixa alavancagem de 0,8x, ainda esperamos uma geração de caixa adicional ao longo 
+do tempo em função da recuperação do ICMS-ST em SP. 
+ 
+ 
+Nossa ação se valorizou em 10,0% no 3T26, enquanto o IBOVESPA se valorizou em 7,0%. No período, o volume 
+financeiro diário médio (ADTV) foi de R$ 192,2 milhões. 
+Desde o IPO da Drogasil em junho de 2007, registramos uma valorização acumulada de 2.220% em comparação à 
+valorização de apenas 238% registrada pelo IBOVESPA. Incluindo o pagamento de juros sobre o capital próprio e 
+de dividendos, isto equivaleu a um retorno médio anual ao acionista de 18,5%. 
+Considerando o IPO da Raia, em dezembro de 2010, a valorização acumulada foi de 566% em comparação a um 
+crescimento de 174% do IBOVESPA. Incluindo as distribuições aos acionistas, is so equivaleu a um retorno médio 
+anual de 13,7%. 
+Dívida líquida ex-4Bio (R$ milhões) 3T25 4T25 1T26 2T26 3T26
+Dívida de curto prazo 522,5 508,1 425,5 365,3 417,3
+Dívida de longo prazo 2.760,1 3.359,6 3.236,1 3.087,4 3.088,6
+Dívida bruta 3.282,6 3.867,8 3.661,5 3.452,6 3.505,9
+(-) Caixa e equivalentes 339,6 358,6 441,8 536,5 504,0
+Dívida líquida 2.943,0 3.509,1 3.219,7 2.916,1 3.001,9
+Recebíveis descontados 514,7 800,3 953,6 808,9 621,1
+Antecipações a fornecedores (3,7) - - (25,7) -
+Venda 4Bio - Recursos a receber - - - (716,4) (697,4)
+Opções compra/venda de investidas (est.) 22,8 15,5 15,9 16,6 17,1
+Dívida líquida ajustada 3.476,7 4.324,9 4.189,2 2.999,6 2.942,7
+EBITDA ajustado LTM 3.056,3 3.303,1 3.500,7 3.655,0 3.786,2
+Dívida líquida/EBITDA LTM 1,1x 1,3x 1,2x 0,8x 0,8x
+ ENDIVIDAMENTO 
+ RETORNO TOTAL AO ACIONISTA
+
+[p. 10]
+10 
+RESULTADOS 3T26 
+ 
+ 
+Desde 2019, as demonstrações financeiras são preparadas de acordo com o IFRS 16 . Para fins de comparabilidade histórica, 
+porém, os dados deste relatório são apresentados sem os efeitos dessa norma, por considerarmos que a abordagem anterior 
+retrata de forma mais fiel a realidade econômica do nosso negócio . No site de Relações com Investidores da RD Saúde 
+(ri.rdsaude.com.br), as Demonstrações Financeiras podem ser encontradas na seção de Planilhas de Resultados. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+3T26 Reclassificação
+Demonstração do Resultado (R$ milhões) Pré-IFRS 16 IFRS 16 ∆ 3T26
+Receita Bruta de Vendas 13.163,3 13.163,3 0,0
+Lucro Bruto 3.795,6 3.797,3 1,7
+Margem Bruta 28,8% 28,8% 0,0 pp
+Despesas de Venda (2.429,0) (2.061,2) 367,7
+Despesas Gerais & Administrativas (342,9) (342,0) 0,9
+Total Despesas (2.771,9) (2.403,2) 368,6
+% da Receita Bruta 21,1% 18,3% (2,8 pp)
+EBITDA Ajustado 1.023,7 1.394,1 370,3
+% da Receita Bruta 7,8% 10,6% 2,8 pp
+Despesas / (Rec.) Não Recorrentes (18,6) (16,5) 2,0
+Depreciação e Amortização (300,0) (561,5) (261,5)
+Resultado Financeiro (174,9) (314,0) (139,1)
+IR / CSL (102,2) (92,6) 9,6
+Lucro Líquido ex-4Bio 426,9 408,3 (18,6)
+% da Receita Bruta 3,2% 3,1% (0,1 pp)
+Lucro Líquido 426,9 408,2 (18,6)
+% da Receita Bruta 3,2% 3,1% (0,1 pp)
+3T26 Reclassificação
+Balanço Patrimonial (R$ milhões) Pré-IFRS 16 IFRS 16 ∆ 3T26
+Ativo 20.766,0 25.624,7 4.858,6
+Ativo Circulante 14.636,7 14.636,7 (0,0)
+Ativo Não Circulante 6.129,3 10.988,0 4.858,6
+Imposto de Renda e Contrib. Social Diferidos 53,3 291,0 237,7
+Outros Créditos 560,8 560,4 (0,5)
+Investimentos 0,2 0,0 (0,2)
+Direito de uso em arrendamento 0,0 4.621,5 4.621,5
+Passivo e Patrimônio Líquido 20.766,0 25.624,7 4.858,6
+Passivo Circulante 9.445,7 10.479,1 1.033,3
+Arrendamentos Financeiros a Pagar 0,0 1.039,8 1.039,8
+Outras Contas a Pagar 610,2 603,8 (6,4)
+Não Circulante 3.307,1 7.594,1 4.287,0
+Arrendamentos Financeiros a Pagar 0,0 4.287,0 4.287,0
+Patrimônio Líquido 8.013,2 7.551,5 (461,7)
+Reservas de Lucros 2.489,1 2.075,7 (413,4)
+Lucros Acumulados 528,2 479,8 (48,3)
+Ajustes de Avaliação Patrimonial 63,0 63,0 (0,1)
+ IFRS-16
+
+[p. 11]
+11 
+RESULTADOS 3T26 
+ 
+ 
+ 
+OTC – Over the Counter, ou Medicamentos Isentos de Prescrição e 
+produtos de saúde 
+MSSS/SSS – Mature Same-Store Sales/Same-Store Sales, ou Vendas 
+de Lojas Maduras/Vendas de Mesmas Lojas 
+Vendas digitais – Vendas realizadas por canais digitais, tais como 
+apps, e-commerce, televendas, parceiros digitais, entre outros LTM – Last Twelve Months, ou Últimos Doze Meses 
+CD – Centro de Distribuição AVP – Ajuste a Valor Presente 
+CMED - Órgão interministerial responsável pela regulação 
+econômica do mercado de medicamentos no Brasil 
+EVP – Employee Value Proposition, ou proposta de valor aos 
+funcionários 
+EBITDA – Earnings Before Interest, Taxes, Depreciation and 
+Amortization, ou LAJIDA – Lucro antes de Juros, Impostos, 
+Depreciação e Amortização 
+EBITDA Ajustado/Lucro Líquido Ajustado – EBITDA/Lucro Líquido 
+excluindo resultados não recorrentes 
+ 
+ 
+ 
+ 
+04 de novembro de 2026 - 10h00 (horário de Brasília), 
+com tradução simultânea para o inglês. 
+ 
+Link de acesso 
+https://www.resultadosrdsaude.com.br/ 
+Para mais informações, entre em contato com o departamento de Relações com Investidores: ri@rdsaude.com.br 
+ 
+3T26 Reclassificação
+Fluxo de Caixa (R$ milhões) Pré-IFRS 16 IFRS 16 ∆ 3T26
+EBIT Ajustado 723,7 832,6 108,9
+Efeitos não recorrentes (18,6) (16,5) 2,0
+Imposto de renda (34%) (219,4) (257,1) (37,7)
+Depreciação 298,5 561,5 263,0
+Despesas com Aluguel 0,0 (370,7) (370,7)
+Outros Ajustes 46,5 81,2 34,7
+Recursos das operações 771,1 771,4 0,2
+Fluxo de caixa operacional 578,5 578,5 0,0
+Investimentos (418,3) (418,3) 0,0
+Fluxo de caixa livre 160,2 160,2 0,0
+Fluxo de caixa total (sem 4Bio) 75,9 75,9 0,0
+Fluxo de caixa total (com 4Bio) 56,8 56,8 0,0
+ GLOSSÁRIO 
+ TELECONFERÊNCIA DE RESULTADOS
+
+[p. 12]
+12 
+RESULTADOS 3T26 
+ 
+ 
+ 
+ 
+DRE consolidado ajustado 3T25 3T26
+(R$ milhares) Reapresentado
+Receita bruta de vendas e serviços 11.347.942 13.163.282
+Deduções (767.440) (1.754.278)
+Receita líquida de vendas e serviços 10.580.502 11.409.004
+Custo das mercadorias vendidas (7.323.211) (7.613.390)
+Lucro bruto 3.257.291 3.795.614
+% da receita bruta 28,7% 28,8%
+Despesas com vendas (2.064.781) (2.428.957)
+Despesas gerais e administrativas (299.919) (342.917)
+Despesas operacionais (2.364.700) (2.771.875)
+% da receita bruta (20,8%) (21,1%)
+EBITDA ajustado 892.592 1.023.739
+% da receita bruta 7,9% 7,8%
+Depreciação e amortização (264.817) (300.007)
+EBIT ajustado 627.775 723.732
+Despesas financeiras (340.850) (337.366)
+Receitas financeiras 129.924 162.494
+Resultado financeiro ajustado (210.926) (174.873)
+Equivalência patrimonial 1.034 (1.253)
+LAIR ajustado 417.883 547.606
+Imposto de renda e contribuição social (71.071) (108.468)
+Lucro líquido ajustado ex-4Bio 346.812 439.139
+% da receita bruta 3,1% 3,3%
+Operações descontinuadas (4Bio) 55.174 (15)
+Lucro líquido ajustado 401.986 439.124
+% da receita bruta 3,5% 3,3%
+
+[p. 13]
+13 
+RESULTADOS 3T26 
+ 
+ 
+ 
+ 
+DRE consolidado 3T25 3T26
+(R$ milhares) Reapresentado
+Receita bruta de vendas e serviços 11.347.942 13.163.282
+Deduções (767.440) (1.754.278)
+Receita líquida de vendas e serviços 10.580.502 11.409.004
+Custo das mercadorias vendidas (7.323.211) (7.613.390)
+Lucro bruto 3.257.291 3.795.614
+Despesas com vendas (2.064.781) (2.428.957)
+Despesas gerais e administrativas (299.919) (342.917)
+Outras despesas operacionais, líquidas 56.244 (18.563)
+Despesas operacionais (2.308.456) (2.790.438)
+EBITDA 948.835 1.005.176
+Depreciação e amortização (264.817) (300.007)
+EBIT 684.018 705.169
+Despesas financeiras (340.850) (337.366)
+Receitas financeiras 129.924 162.494
+Resultado financeiro (210.926) (174.873)
+Equivalência patrimonial 1.034 (1.253)
+EBT 474.126 529.043
+Imposto de renda e contribuição social (90.194) (102.156)
+Lucro líquido ex-4Bio 383.933 426.887
+Operações descontinuadas (4Bio) 92.145 (15)
+Lucro líquido 476.078 426.872
+
+[p. 14]
+14 
+RESULTADOS 3T26 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Ativo (R$ milhares) 3T25 3T26
+Caixa e equivalentes de caixa 339.615 503.986
+Aplicações financeiras 102.050 123.210
+Clientes 2.848.274 3.372.755
+Estoques 8.125.437 8.568.312
+Tributos a recuperar 466.246 908.247
+Despesas antecipadas 115.993 170.426
+Depósitos judiciais 6.825 3.027
+Ativos de investimento à venda (4Bio) 1.504.998 -
+Outras contas a receber 608.926 986.743
+Ativo circulante 14.118.364 14.636.706
+Depósitos judiciais 58.853 65.317
+Tributos a recuperar 233.345 270.646
+Imposto de renda e contribuição social diferidos 46.164 53.301
+Outros créditos 9.951 560.844
+Investimentos 16.660 186
+Imobilizado 2.822.576 3.102.481
+Intangível 2.064.727 2.076.551
+Ativo não circulante 5.252.276 6.129.326
+TOTAL ATIVO 19.370.640 20.766.031
+Passivo e patrimônio líquido (R$ milhares) 3T25 3T26
+Fornecedores 5.739.195 6.340.844
+Empréstimos e financiamentos 522.497 417.271
+Salários e encargos sociais 895.260 1.044.588
+Impostos, taxas e contribuições 453.140 570.626
+Dividendos e juros sobre capital próprio 338.196 437.411
+Provisão para demandas judiciais 48.336 24.810
+Passivos de investimento à venda (4Bio) 551.325 -
+Outras contas a pagar 442.815 610.196
+Passivo circulante 8.990.764 9.445.746
+Empréstimos e financiamentos 2.760.116 3.088.611
+Provisão para demandas judiciais 143.283 167.493
+Imposto de renda e contribuição social diferidos 2.356 (49)
+Outras obrigações 64.948 51.024
+Passivo não circulante 2.970.703 3.307.078
+Capital social 4.000.000 4.750.000
+Reservas de capital 125.346 172.087
+Reserva de reavaliação 10.991 10.862
+Reservas de lucros 2.529.320 2.489.084
+Lucros acumulados 666.109 528.151
+Ajustes de avaliação patrimonial 62.969 63.023
+Participação de não controladores 14.437 -
+Patrimônio líquido 7.409.172 8.013.207
+TOTAL PASSIVO E PATRIMÔNIO LÍQUIDO 19.370.640 20.766.031
+
+[p. 15]
+15 
+RESULTADOS 3T26 
+ 
+Demonstrações dos Fluxos de Caixa 3T25 3T26
+(R$ milhares)
+Lucro antes do Imposto de Renda e da Contribuição Social 566.263 529.043
+Ajustes
+Depreciações e amortizações 256.356 298.522
+Plano de remuneração com ações restritas, líquido (5.761) 12.265
+Juros sobre opção de compra de ações adicionais 8.325 569
+Resultado na venda ou baixa do ativo imobilizado e intangível 7.717 7.556
+Provisão (reversão) para demandas judiciais 44.727 28.375
+Provisão (reversão) para perdas no estoque 8.939 (1.777)
+Provisão (reversão) para créditos de liquidação duvidosa 5.500 3.918
+Provisão (reversão) para encerramento de lojas (330) (3.810)
+Despesas de juros 155.720 124.905
+Amortizações do custo de transação de financiamentos 2.326 1.891
+Resultado de Equivalência Patrimonial (1.026) 1.235
+Provisão para realização do valor recuperável em investimento - 206
+1.048.756 1.002.898
+Variações nos ativos e passivos
+Clientes e outras contas a receber (387.034) (280.926)
+Estoques (183.482) (232.639)
+Outros ativos circulantes 18.108 (120.328)
+Fornecedores 465.443 (43.370)
+Salários e encargos sociais 118.243 119.033
+Impostos, taxas e contribuições 6.674 161.244
+Outras Obrigações (107.088) (34.661)
+Aluguéis a pagar 5.004 (15.613)
+Caixa proveniente das operações 984.624 555.638
+Juros pagos (122.531) (73.499)
+Imposto de renda e contribuição social pagos (81.744) (43.401)
+Demandas judiciais pagas (29.694) (23.370)
+Atividades operacionais descontinuadas (4Bio) - 2.252
+Caixa líq. proveniente das (aplicado nas) atividades operacionais 750.655 417.620
+Fluxos de caixa das atividades de investimentos
+Aquisições de imobilizado e intangível (378.062) (463.979)
+Recebimentos por vendas de imobilizados 573 -
+Aplicações financeiras restritas (23.772) (6.761)
+Aquisição e aporte de capital em investidas, líquido - (20.700)
+Recebimentos por vendas de investida - 41.411
+Caixa líquido aplicado nas atividades de investimentos (401.261) (450.029)
+Fluxos de caixa das atividades de financiamentos
+Pagamentos de empréstimos e financiamentos (440.000) -
+Juros sobre capital próprio e dividendo pagos (75) (105)
+Caixa líquido proveniente das atividades de financiamentos (440.075) (105)
+Caixa e eq. inicial de operações continuadas (com 4Bio) 527.020 536.500
+Aumento (redução) de operações continuadas (com 4Bio) (90.681) (32.514)
+Caixa e eq. final de operações continuadas (com 4Bio) 436.339 503.986
