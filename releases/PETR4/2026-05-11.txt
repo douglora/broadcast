@@ -121,8 +121,7 @@ Contribuições para sociedade
  
 FCO
 R$ bilhões
-49,3 54,9
-44,0
+49,3 54,9 44,0
 1T25 4T25 1T26
 -10,9%
 LUCRO LÍQUIDO 
@@ -156,10 +155,7 @@ Destaques
 Principais itens e indicadores 
 TABELA 1 – PRINCIPAIS INDICADORES 
  Variação (%) 
- R$ milhões 1T26 4T25 1T25 1T26 X 
-4T25 
-1T26 X 
-1T25 
+ R$ milhões 1T26 4T25 1T25 1T26 X 4T25 1T26 X 1T25 
 Receita de vendas 123.686 127.371 123.144 (2,9) 0,4 
 Lucro bruto 59.602 58.493 60.709 1,9 (1,8) 
 Despesas operacionais (18.385) (28.833) (18.164) (36,2) 1,2 
@@ -217,10 +213,7 @@ EDITAR
 Eventos exclusivos 
 TABELA 2 - EVENTOS EXCLUSIVOS 
 Variação (%) 
-R$ milhões 1T26 4T25 1T25 1T26 X 
-4T25 
-1T26 X 
-1T25 
+R$ milhões 1T26 4T25 1T25 1T26 X 4T25 1T26 X 1T25 
 Lucro líquido 32.761 15.653 35.331 109,3 (7,3) 
 Eventos exclusivos 13.433 (15.282) 17.604 − (23,7)
 Eventos exclusivos que não afetam o EBITDA Ajustado 15.460 (16.216) 18.801 − (17,8)
@@ -327,21 +320,7 @@ potencial de ampliar a oferta de gás no Brasil em até 3 milhões de m³ por di
 A tabela a seguir apresenta as principais informações dos novos sistemas de produção de óleo e gás já 
 contratados, e principais projetos do segmento de Refino, Transporte e Comercialização. 
 TABELA 4 – PRINCIPAIS PROJETOS 
-Projeto Início de 
-Operação 
-Capacidade da 
-Plataforma (barris 
-de óleo/dia) 
-Investimento 
-Petrobras 
-Realizado 
-(US$ bilhões) 
-Investimento 
-Petrobras 
-Total (1) 
-(US$ bilhões) 
-Parcela da 
-Petrobras Status 
+Projeto Início de Operação Capacidade da Plataforma (barris de óleo/dia) Investimento Petrobras Realizado (US$ bilhões) Investimento Petrobras Total (1) (US$ bilhões) Parcela da Petrobras Status 
 Búzios 7 
 FPSO Almirante 
 Tamandaré 
@@ -440,8 +419,7 @@ capacidade de
 processamento em 
 mais 130 mil barris 
 por dia. 
-0,3 (3) 2,0 (4) 100,0% Projeto em fase de 
-execução 
+0,3 (3) 2,0 (4) 100,0% Projeto em fase de execução 
 Sépia 2 
 P-85 2030 225.000 0,7 4,7 55,3% 
 Projeto em fase de 
@@ -532,19 +510,17 @@ receber do Governo Federal referentes à subvenção de óleo diesel (R$ 741 mil
 13 
 Indicadores de 
 endividamento 
- 
- 
 Indicadores de endividamento 
 Em 31/03/2026, a dívida bruta alcançou US$ 71,2 bilhões, representando um aumento de 2 % em 
-relação a 31/12/202 5, principalmente em função das captações realizadas ao longo do 1T26, que 
-somaram US$ 1,1 bilhão. 
+relação a 31/12/2025, principalm ente em função das captações realizadas ao longo do 1T26, que 
+somaram US$ 1,3 bilhão. 
 O prazo médio da dívida variou de 11,7 anos em 31/12/2025 para 11,33 anos em 31/03/2026, enquanto 
-o custo médio passou de 6,7 % a.a. para 6,8% a.a. no mesmo período. 
-A relação dívida bruta/EBITDA Ajustado foi de 1,64x em 31/03/2026, permanecendo estável em relação 
+o custo médio passou de 6,7 % a.a. para 6,8% a.a. no mesmo período.
+A
+ relação dívida bruta/EBITDA Ajustado foi de 1,64x em 31/03/2026, permanecendo estável em relação 
 a 31/12/2025. 
 A dívida líquida atingiu US$ 62,1 bilhões em 31/ 03/2026, um aumento de 2,5 % em comparação com 
 31/12/2025. 
- 
 TABELA 6 – INDICADORES DE ENDIVIDAMENTO 
 US$ milhões 31.03.2026 31.12.2025 Δ % 31.03.2025 
 Dívida Financeira 27.537 26.441 4,1 23.833 
@@ -562,7 +538,6 @@ Taxa média dos financiamentos (% a.a.) 6,8 6,7 1,5 6,9
 Prazo médio da dívida (anos) 11,33 11,70 (3,2) 12,19 
 Índice de Dívida Líquida/LTM EBITDA Ajustado 1,43 1,42 0,7 1,45 
 Índice de Dívida Bruta/LTM EBITDA Ajustado 1,64 1,64 (0,1) 1,67 
- 
 R$ milhões 
 Dívida Financeira 143.724 145.489 (1,2) 136.851 
 Arrendamentos 227.967 238.536 (4,4) 233.463 
@@ -579,10 +554,7 @@ Resultados por segmento de negócio
 Exploração e Produção 
 TABELA 7 - RESULTADO DA EXPLORAÇÃO E PRODUÇÃO 
  Variação (%) (*) 
-R$ milhões 1T26 4T25 1T25 1T26 X 
-4T25 
-1T26 X 
-1T25 
+R$ milhões 1T26 4T25 1T25 1T26 X 4T25 1T26 X 1T25 
 Receita de vendas 84.047 77.278 88.169 8,8 (4,7) 
 Lucro bruto 41.266 37.114 48.454 11,2 (14,8) 
 Despesas operacionais (2.834) (11.740) (4.286) (75,9) (33,9) 
@@ -644,10 +616,7 @@ de negócio
 Refino, Transporte e Comercialização 
 TABELA 8 – RESULTADOS DO RTC 
  Variação (%) (1) 
-R$ milhões 1T26 4T25 1T25 1T26 X 
-4T25 
-1T26 X 
-1T25 
+R$ milhões 1T26 4T25 1T25 1T26 X 4T25 1T26 X 1T25 
 Receita de vendas 117.178 120.312 116.819 (2,6) 0,3 
 Lucro bruto 23.750 12.993 7.053 82,8 236,7 
 Despesas operacionais (5.306) (6.548) (4.296) (19,0) 23,5 
@@ -686,10 +655,7 @@ de negócio
 Gás e Energias de Baixo Carbono 
 TABELA 9 – RESULTADOS DO GÁS E ENERGIAS DE BAIXO CARBONO 
  Variação (%) (1) 
-R$ milhões 1T26 4T25 1T25 1T26 X 
-4T25 
-1T26 X 
-1T25 
+R$ milhões 1T26 4T25 1T25 1T26 X 4T25 1T26 X 1T25 
 Receita de vendas 11.590 12.905 10.867 (10,2) 6,7 
 Lucro bruto 5.204 6.344 4.307 (18,0) 20,8 
 Despesas operacionais (4.327) (4.884) (4.551) (11,4) (4,9) 
@@ -746,10 +712,7 @@ indicadores para um melhor entendimento sobre o desempenho e condições finance
  
 TABELA 10 – RECONCILIAÇÃO DO EBITDA AJUSTADO 
  Variação (%) (*) 
-R$ milhões 1T26 4T25 1T25 1T26 X 
-4T25 
-1T26 X 
-1T25 
+R$ milhões 1T26 4T25 1T25 1T26 X 4T25 1T26 X 1T25 
 Lucro líquido do período 32.761 15.653 35.331 109,3 (7,3) 
 Resultado Financeiro Líquido (7.866) 12.512 (10.595) − (25,8) 
 Tributos sobre o lucro 16.375 320 18.304 5017,2 (10,5) 
@@ -941,10 +904,7 @@ Anexos
  
  TABELA 14 - RECEITA LÍQUIDA POR PRODUTOS 
  Variação (%) 
-R$ milhões 1T26 4T25 1T25 1T26 X 
-4T25 
-1T26 X 
-1T25 
+R$ milhões 1T26 4T25 1T25 1T26 X 4T25 1T26 X 1T25 
 Diesel 35.433 37.740 38.360 (6,1) (7,6) 
 Subvenção de óleo diesel de uso rodoviário 672 − − − − 
 Gasolina 15.373 17.285 17.340 (11,1) (11,3) 
@@ -976,10 +936,7 @@ Anexos
  
  TABELA 15 - CUSTO DOS PRODUTOS VENDIDOS (*) 
  Variação (%) 
-R$ milhões 1T26 4T25 1T25 1T26 X 
-4T25 
-1T26 X 
-1T25 
+R$ milhões 1T26 4T25 1T25 1T26 X 4T25 1T26 X 1T25 
 Matérias-primas, produtos para revenda, materiais e 
 serviços contratados(*) (27.640) (33.271) (29.777) (16,9) (7,2) 
 Compras e importações (18.017) (22.667) (20.899) (20,5) (13,8) 
@@ -996,10 +953,7 @@ Total (64.084) (68.878) (62.435) (7,0) 2,6
  
 TABELA 16 – DESPESAS OPERACIONAIS 
  Variação (%) 
-R$ milhões 1T26 4T25 1T25 1T26 X 
-4T25 
-1T26 X 
-1T25 
+R$ milhões 1T26 4T25 1T25 1T26 X 4T25 1T26 X 1T25 
 Despesas com vendas e gerais e administrativas (10.486) (10.744) (8.968) (2,4) 16,9 
 Vendas (7.969) (7.890) (6.376) 1,0 25,0 
 Materiais, serviços, fretes, aluguéis e outros (6.666) (6.709) (5.240) (0,6) 27,2 
@@ -1024,10 +978,7 @@ Anexos
  
  TABELA 17 – RESULTADO FINANCEIRO 
  Variação (%) 
-R$ milhões 1T26 4T25 1T25 1T26 X 
-4T25 
-1T26 X 
-1T25 
+R$ milhões 1T26 4T25 1T25 1T26 X 4T25 1T26 X 1T25 
 Receitas Financeiras 1.758 2.340 1.737 (24,9) 1,2 
 Receita com aplicações financeiras e títulos públicos 1.149 1.746 1.305 (34,2) (12,0) 
 Outros 609 594 432 2,5 41,0 
