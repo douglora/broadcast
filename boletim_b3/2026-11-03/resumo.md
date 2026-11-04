@@ -1,11 +1,11 @@
 # Boletim da B3: pregão de 03/11/2026 (terça)
 
-**Situação: PARCIAL.** Ainda sem: quadro de posições em aberto. A B3 publica esses blocos na madrugada seguinte ao pregão; a rodada da manhã completa.
-Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-11-04T06:58:07Z (UTC).
+**Situação: COMPLETO.** Boletim atrasado pela B3 em 2026-11-04 08:43 (hora de Brasília).
+Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-11-04T11:55:54Z (UTC).
 
 [[LEITURA_DA_MESA]]
 
-## Sinais do dia (23)
+## Sinais do dia (24)
 
 **Novos hoje**
 
@@ -34,6 +34,7 @@ Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-11
 - **Pressão vendida.** SAPR4: em 5 pregões o saldo alugado subiu 339,1% e o preço caiu 13,1%: posição vendida crescendo junto com a queda. _(B3, BTBLendingOpenPosition, 03/11 · 5º pregão seguido)_
 - **Pressão vendida.** SMAL11: em 5 pregões o saldo alugado subiu 48,2% e o preço caiu 7,6%: posição vendida crescendo junto com a queda. _(B3, BTBLendingOpenPosition, 03/11 · 6º pregão seguido)_
 - **Aluguel caro.** SMAL11: taxa média do tomador no aluguel em 8,67% ao ano: papel disputado por vendidos. _(B3, BTBLoanBalance, 03/11 · 6º pregão seguido)_
+- **Posição em aberto.** Dólar Comercial - futuro: contratos em aberto caíram 49,6% em um pregão, para 835.420. _(B3, AnalyticalFramework2, 03/11 · 3º pregão seguido)_
 - **Paridade.** RARA11 fez +0,24% contra -1,55% de REMX em reais (-1,57% lá fora, câmbio +0,02%): descolamento de +1,79 ponto no dia. _(B3, TradeInformationConsolidated + series do livro, 03/11 · 3º pregão seguido)_
 
 ## Índices
@@ -88,6 +89,18 @@ Saldo = compras menos vendas, somando todos os mercados da B3. A B3 divulga com 
 | INDZ26 | 167.551,00 | -1,54% | 181.591 |
 
 DI1 = DI futuro (taxa prefixada); DAP = cupom de IPCA (juro real); DOL = dólar futuro; IND = Ibovespa futuro. pb = ponto-base (0,01 ponto percentual).
+
+## Posições em aberto por mercado (futuros)
+
+| Mercado | Contratos | Variação no pregão | Referencial (R$ mi) |
+|---|---:|---:|---:|
+| IND | 190.366 | +0,51% | 31.942 |
+| WIN | 1.283.417 | +0,17% | 43.013 |
+| WDO | 790.589 | -68,45% | 43.672 |
+| DOL | 835.420 | -49,57% | 230.736 |
+| DAP | 3.361.707 | +0,36% | 462.887 |
+| DDI | 4.597.961 | -13,66% | 1.184.254 |
+| DI1 | 42.226.627 | -2,77% | 3.376.344 |
 
 ## O livro em blocos
 
@@ -315,10 +328,8 @@ Por classe, mediana das taxas de referência dos papéis. Taxa de referência: n
 
 ## Lacunas e pendências
 
-- quadro de posições em aberto: aguardando
 - aluguel por corretora: ignorado
-- Register: aguardando
-- Stock: aguardando
+- Publicadas pela B3 depois do prazo, mas com dado: AnalyticalFramework2.
 - Posição em aberto de derivativos por tipo de investidor (estrangeiro, institucional, pessoa física): não existe no Boletim Diário do Mercado; procurado nas 69 tabelas e no texto dos 11 cadernos em 30/09/2026.
 - Fluxo por tipo de investidor sai acumulado no mês e com dois pregões de atraso; o saldo de um dia é a diferença entre dois acumulados seguidos.
 - RARA11: a B3 não publica valor de referência da cota (IOPV) para este ETF no boletim.

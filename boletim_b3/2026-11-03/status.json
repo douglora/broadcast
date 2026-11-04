@@ -1,8 +1,8 @@
 {
  "pregao": "2026-11-03",
- "situacao": "publicando",
+ "situacao": "atrasado",
  "errata": false,
- "atualizado_em": "2026-11-04T03:43:19.647",
+ "atualizado_em": "2026-11-04T08:43:23.293",
  "completo": {
   "arquivo": "",
   "pdf": ""
@@ -12,9 +12,9 @@
    "id": 1,
    "nome": "Renda fixa",
    "pai": null,
-   "situacao": "publicando",
+   "situacao": "publicado",
    "errata": false,
-   "atualizado_em": "2026-11-04T01:53:05.523",
+   "atualizado_em": "2026-11-04T08:09:59.98",
    "arquivo": "",
    "pdf": ""
   },
@@ -44,7 +44,7 @@
    "pai": 20,
    "situacao": "",
    "errata": false,
-   "atualizado_em": "2026-11-04T03:51:39.527",
+   "atualizado_em": "2026-11-04T08:47:59.123",
    "arquivo": "",
    "pdf": ""
   },
@@ -82,11 +82,11 @@
    "id": 34,
    "nome": "Derivativos de bolsa",
    "pai": 3,
-   "situacao": "publicando",
+   "situacao": "publicado",
    "errata": false,
-   "atualizado_em": "2026-11-04T02:43:37.127",
-   "arquivo": "",
-   "pdf": ""
+   "atualizado_em": "2026-11-04T00:00:00",
+   "arquivo": "BDI_03-4_20261103.pdf",
+   "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-11-03/BDI_03-4_20261103.pdf"
   },
   {
    "id": 41,
