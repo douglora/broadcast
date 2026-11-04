@@ -1,10 +1,23 @@
 {
- "gerado_em": "2026-11-03T19:51:55Z",
+ "gerado_em": "2026-11-04T20:06:35Z",
  "canal": "https://www.youtube.com/@KineaInvestimentos",
  "listagem": "yt-dlp",
  "fora_do_tema": 0,
  "fonte": "YouTube (legenda publicada pelo proprio YouTube; a automatica e transcricao de maquina e pode errar nome proprio)",
  "videos": [
+  {
+   "id": "J_mOYXSO9MY",
+   "titulo": "Fundos de ações - Ibovespa após a Eleição: Como Reposicionamos a Carteira | Ref. Out/26",
+   "aba": "videos",
+   "url": "https://www.youtube.com/watch?v=J_mOYXSO9MY",
+   "data": "2026-11-03",
+   "descricao": "Ibovespa e eleição presidencial: analisamos como a bolsa brasileira reagiu ao ciclo eleitoral de outubro e como reposicionamos os fundos de ações da Kinea. Neste resumo mensal, mostramos os dois grandes movimentos do mercado acionário no mês, incluindo o dia em que o Ibovespa superou os 200 mil pontos pela primeira vez na história, além dos reflexos no dólar, na curva de juros e nas expectativas para a Selic. No cenário internacional, comentamos os balanços das big techs, o debate sobre os investimentos em inteligência artificial, a decisão do Fed e o petróleo Brent diante do conflito no Oriente Médio. Na gestão, explicamos a nova estratégia da carteira de ações, agora concentrada em papéis defensivos de baixo beta, exportadoras e empresas de commodities, com foco em companhias de histórico consistente de rentabilidade e que remuneram o acionista via dividendos e recompras. Para novembro, destacamos os pontos de atenção do mercado de renda variável: a definição da equipe econômica, os sinais da política fiscal, a reunião do Copom, as eleições legislativas nos Estados Unidos e a geopolítica. \n\n#KineaInvestimentos #Ibovespa #FundosDeAcoes #Bolsa #MercadoFinanceiro\n\nPor Rafael Oliveira, gestor dos fundos de ações da Kinea.\n\nAcesse a comunidade da Kinea no WhatsApp e fique por dentro de tudo: https://kinea.me/3KrOUkb \n\nConheça nosso novo canal de Cortes: https://www.youtube.com/channel/UCcnuMzbPtsJpwPoPtpZK0Mw \n\nCadastre-se em nossa newsletter e receba as informações da Kinea em primeira mão: https://www.kinea.com.br/newsletter/\n\nAcesse as redes da Kinea e fique por dentro das novidades, clicando aqui: https://linktr.ee/kineainvestimentos\n \nMais informações sobre os fundos Kinea em:\nhttps://www.kinea.com.br\n \nSiga a Kinea no LinkedIn:\nhttps://www.linkedin.com/company/kinea-investimentos\n \nMais informações sobre os fundos de ações da Kinea em:\nKinea Gama: https://www.kinea.com.br/fundos/fundo-acoes-gama/\nKinea Prev Ações: https://www.kinea.com.br/fundos/fundo-prev-acoes/\nKinea Prev Ações XP: https://www.kinea.com.br/fundos/fundo-prev-acoes-xp/\n \nFale com a equipe Kinea para tirar dúvidas e saber mais sobre oportunidades de investimento:\nhttps://www.kinea.com.br/fale-conosco\nrelacionamento@kinea.com.br\n\nBusque por @kineainvestiementos no Instagram: \nhttps://www.instagram.com/kineainvestimentos/",
+   "coleta": 2,
+   "duracao_min": null,
+   "capitulos": [],
+   "ao_vivo": false,
+   "erro": "painel: painel: get_transcript HTTP 400, 0 trechos | yt-dlp: nenhuma legenda listada | audio: padrao: DownloadError: ERROR: [youtube] J_mOYXSO9MY: Faça login para confirmar que você não é um bot. Isso ajuda a proteger nossa comunidade"
+  },
   {
    "id": "5vkhf-BhJlg",
    "titulo": "Lula 4: os desafios do novo governo | Live Economia e Mercados ref. Outubro/26",
@@ -344,6 +357,6 @@
   }
  ],
  "log": [
-  "parei em 1d1-ccTJ4dw: 6 videos seguidos sem legenda por erro do YouTube"
+  "parei em 2kiNjyZxmq0: 6 videos seguidos sem legenda por erro do YouTube"
  ]
 }

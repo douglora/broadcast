@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-11-03T19:50:35Z",
+ "gerado_em": "2026-11-04T20:05:15Z",
  "fonte": "https://www.kinea.com.br (PDF da Carta do Gestor, texto extraido com pypdf)",
  "desde": "2025-07",
  "cartas": [
@@ -42,6 +42,59 @@
    "titulo": "[p. 1] Fundo de ações, com perfil de risco agressivo, que tem como objetivo",
    "descoberta": "wp-json",
    "baixado_em": "2026-11-03T19:50:33Z"
+  },
+  {
+   "arquivo": "kinea/cartas/Carta-do-Gestor-Chronos-Geral-Sub-I-2026-10.txt",
+   "url": "https://www.kinea.com.br/wp-content/uploads/2026/11/Carta-do-Gestor-Chronos-Geral-Sub-I-2026-10.pdf",
+   "fundo": "Chronos Geral Sub I",
+   "familia": "multimercado",
+   "mes_ref": "2026-10",
+   "paginas": 26,
+   "chars": 51807,
+   "sha1_texto": "688ebf741c34a3dd",
+   "titulo": "[p. 1] O U T U B R O  2 0 2 6",
+   "descoberta": "wp-json",
+   "baixado_em": "2026-11-04T20:05:03Z"
+  },
+  {
+   "arquivo": "kinea/cartas/Carta-do-Gestor-Atlas-II-Geral-Sub-I-2026-10.txt",
+   "url": "https://www.kinea.com.br/wp-content/uploads/2026/11/Carta-do-Gestor-Atlas-II-Geral-Sub-I-2026-10.pdf",
+   "fundo": "Atlas II Geral Sub I",
+   "familia": "multimercado",
+   "mes_ref": "2026-10",
+   "paginas": 26,
+   "chars": 51908,
+   "sha1_texto": "6c221fb6b91c0221",
+   "titulo": "[p. 1] O U T U B R O  2 0 2 6",
+   "descoberta": "wp-json",
+   "baixado_em": "2026-11-04T20:05:07Z"
+  },
+  {
+   "arquivo": "kinea/cartas/Carta-do-Gestor-Atlas-Geral-Sub-I-2026-10.txt",
+   "url": "https://www.kinea.com.br/wp-content/uploads/2026/11/Carta-do-Gestor-Atlas-Geral-Sub-I-2026-10.pdf",
+   "fundo": "Atlas Geral Sub I",
+   "familia": "multimercado",
+   "mes_ref": "2026-10",
+   "paginas": 26,
+   "chars": 51902,
+   "sha1_texto": "f7546759db204f9b",
+   "titulo": "[p. 1] O U T U B R O  2 0 2 6",
+   "descoberta": "wp-json",
+   "baixado_em": "2026-11-04T20:05:11Z",
+   "imagens": []
+  },
+  {
+   "arquivo": "kinea/cartas/Carta-do-Gestor-Apolo-Geral-Sub-I-2026-10.txt",
+   "url": "https://www.kinea.com.br/wp-content/uploads/2026/11/Carta-do-Gestor-Apolo-Geral-Sub-I-2026-10.pdf",
+   "fundo": "Apolo Geral Sub I",
+   "familia": "multimercado",
+   "mes_ref": "2026-10",
+   "paginas": 26,
+   "chars": 52236,
+   "sha1_texto": "b7cc20fde3c0e7bb",
+   "titulo": "[p. 1] O U T U B R O  2 0 2 6",
+   "descoberta": "wp-json",
+   "baixado_em": "2026-11-04T20:05:15Z"
   },
   {
    "arquivo": "kinea/cartas/Carta-do-Gestor-Prev-Acoes-2026-09.txt",
@@ -675,7 +728,7 @@
   }
  ],
  "metodos": {
-  "wp-json": 999,
+  "wp-json": 1099,
   "categoria": 0,
   "padrao": 45,
   "informadas": 0

@@ -1,12 +1,12 @@
 {
- "gerado_em": "2026-11-03T19:46:10Z",
+ "gerado_em": "2026-11-04T19:59:59Z",
  "partes": {
   "cartas": {
-   "em": "2026-11-03T19:50:35Z",
+   "em": "2026-11-04T20:05:15Z",
    "resultado": {
-    "cartas": 46,
+    "cartas": 50,
     "metodos": {
-     "wp-json": 999,
+     "wp-json": 1099,
      "categoria": 0,
      "padrao": 45,
      "informadas": 0
@@ -25,7 +25,7 @@
    }
   },
   "documentos": {
-   "em": "2026-11-03T19:50:56Z",
+   "em": "2026-11-04T20:05:39Z",
    "resultado": {
     "pdfs": 18,
     "posts": 0,
@@ -33,11 +33,11 @@
    }
   },
   "videos": {
-   "em": "2026-11-03T19:51:55Z",
+   "em": "2026-11-04T20:06:35Z",
    "resultado": {
-    "videos": 37,
+    "videos": 38,
     "com_legenda": 0,
-    "erros": 37,
+    "erros": 38,
     "fora_do_tema": 0,
     "listagem": "yt-dlp"
    }
@@ -64,7 +64,7 @@
   }
  },
  "falhas": [
-  "videos: nenhuma legenda baixada; ultimo erro: painel: painel: get_transcript HTTP 400, 0 trechos | yt-dlp: android_vr: legenda listada mas nao entregue (o YouTube pede PO token) | audio: padrao: DownloadError: ERROR: [youtube] 5vkhf-BhJlg: Faça l"
+  "videos: nenhuma legenda baixada; ultimo erro: painel: painel: get_transcript HTTP 400, 0 trechos | yt-dlp: nenhuma legenda listada | audio: padrao: DownloadError: ERROR: [youtube] J_mOYXSO9MY: Faça login para confirmar que você não é um bot. Isso"
  ],
  "rodou": [
   "cartas",
