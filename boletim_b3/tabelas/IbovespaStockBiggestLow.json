@@ -1,5 +1,5 @@
 {
- "pregao": "2026-10-30",
+ "pregao": "2026-11-03",
  "nome": "IbovespaStockBiggestLow",
  "titulo": "Ações do IBOVESPA - maiores baixas",
  "sla": "8:00:00",
@@ -7,18 +7,18 @@
  "colunas": [{"nome": "TckrSymb", "titulo": "Ação"}, {"nome": "Cod", "titulo": "Código"}, {"nome": "Price", "titulo": "Preço (R$)"}, {"nome": "OscillationDesc", "titulo": "Oscilação (%)"}],
  "texto": ["Lista as ações do IBOVESPA que apresentaram as maiores quedas de preços em um período."],
  "situacao": "publicado",
- "atualizado_em": "2026-10-30T23:30:25.463",
+ "atualizado_em": "2026-11-03T23:30:47.383",
  "truncada": false,
  "linhas": [
-  ["USIM5", "PNA     N1", 5, -8.59],
-  ["CSNA3", "ON", 3.88, -8.49],
-  ["B3SA3", "ON      NM", 13.43, -5.42],
-  ["BEEF3", "ON      NM", 2.55, -5.2],
-  ["MBRF3", "ON      NM", 15.61, -5.04],
-  ["BPAC11", "UNT     N2", 51.52, -4.66],
-  ["LREN3", "ON      NM", 8.98, -4.26],
-  ["RENT3", "ON      NM", 27.85, -4.06],
-  ["TOTS3", "ON      NM", 32, -3.7],
-  ["VAMO3", "ON      NM", 2.38, -3.25]
+  ["COGN3", "ON      NM", 1.38, -12.65],
+  ["CMIN3", "ON      N2", 4.61, -5.14],
+  ["AZZA3", "ON  ATZ NM", 13.6, -5.09],
+  ["HAPV3", "ON      NM", 3.99, -5],
+  ["MGLU3", "ON      NM", 5.09, -4.85],
+  ["PRIO3", "ON      NM", 68.08, -4.76],
+  ["BRAV3", "ON      NM", 17.63, -4.28],
+  ["ASAI3", "ON      NM", 7.57, -3.93],
+  ["PETR4", "PN      N2", 50.71, -3.79],
+  ["PETR3", "ON      N2", 57.82, -3.64]
  ]
 }

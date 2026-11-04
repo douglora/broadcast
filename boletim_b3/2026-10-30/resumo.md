@@ -1,7 +1,7 @@
 # Boletim da B3: pregão de 30/10/2026 (sexta)
 
 **Situação: COMPLETO.** Boletim publicado pela B3 em 2026-11-03 00:00 (hora de Brasília).
-Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-11-04T00:52:41Z (UTC).
+Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-11-04T06:57:39Z (UTC).
 
 [[LEITURA_DA_MESA]]
 
@@ -257,7 +257,7 @@ Posição em aberto: 4,4 bi de calls e 3,8 bi de puts (put/call 0,86); no volume
 
 | Classe | Volume do dia | Taxa mediana | Sobre o juro real |
 |---|---:|---:|---:|
-| Debêntures incentivadas | R$ 3,2 bi | IPCA+ 8,17% | +26 pb |
+| Debêntures incentivadas | R$ 3,3 bi | IPCA+ 8,17% | +27 pb |
 | CRI | R$ 1,0 bi | IPCA+ 9,07% e CDI+ 1,41% | +115 pb |
 | CRA | R$ 280,5 mi | IPCA+ 11,11% e CDI+ 3,82% | +319 pb |
 
@@ -294,11 +294,11 @@ Nas incentivadas, a mediana pelos negócios do dia (B3 negócios de 30/10) foi I
 | RECV14 (Petroreconcavo S.A.) | IPCA+ 8,68% (ANBIMA indicativa de 30/10) | IPCA+ 8,79%, R$ 238,8 mi | +71 pb na duration |
 | ANHBB6 (Concessionaria Do Sistema An) | IPCA+ 8,05% (ANBIMA indicativa de 30/10) | IPCA+ 8,12%, R$ 206,3 mi | +11 pb na duration |
 | ROTY13 (Concessionaria Rota Sorocaba) | IPCA+ 8,09% (ANBIMA indicativa de 30/10) | IPCA+ 8,05%, R$ 201,9 mi | +9 pb na duration |
+| CESE11 (Eneva S.A.) | IPCA+ 8,45% (B3 negócios de 30/10) | R$ 122,3 mi | +63 pb no vencimento |
 | VLIM17 (Vli Multimodal S.A.) | IPCA+ 7,99% (ANBIMA indicativa de 30/10) | IPCA+ 7,99%, R$ 94,9 mi | -1 pb na duration |
 | VLIM27 (Vli Multimodal S.A.) | IPCA+ 8,12% (ANBIMA indicativa de 30/10) | IPCA+ 8,08%, R$ 94,4 mi | +20 pb na duration |
 | VBBRA0 (Vibra Energia S.A) | IPCA+ 8,14% (ANBIMA indicativa de 30/10) | IPCA+ 8,13%, R$ 93,1 mi | +14 pb na duration |
 | UNEG11 (Ute Gna I Geracao De Energia) | IPCA+ 9,61% (ANBIMA indicativa de 30/10) | IPCA+ 9,58%, R$ 91,6 mi | +166 pb na duration |
-| EGIEA6 (Engie Brasil Energia Sa) | IPCA+ 7,90% (ANBIMA indicativa de 30/10) | IPCA+ 7,82%, R$ 83,5 mi | -1 pb na duration |
 
 **Abriram taxa pela indicativa da ANBIMA:** BARU11 +18,2 pb contra 29/10, para IPCA+ 9,00% (R$ 3,8 mi); FSII14 +18,1 pb contra 29/10, para IPCA+ 11,34% (R$ 13,2 mi); CNRD12 +17,9 pb contra 29/10, para IPCA+ 9,76% (R$ 10,7 mi); CMTR29 +14 pb contra 29/10, para IPCA+ 7,67% (R$ 43,3 mi); EPRL12 +14 pb contra 29/10, para IPCA+ 9,36% (R$ 4,0 mi).
 **Fecharam taxa pela indicativa da ANBIMA:** RIS412 -26,4 pb contra 29/10, para IPCA+ 14,12% (R$ 6,1 mi); RIS414 -17,1 pb contra 29/10, para IPCA+ 14,17% (R$ 8,2 mi); RISP12 -15,8 pb contra 29/10, para IPCA+ 14,07% (R$ 3,5 mi); JALL13 -15,5 pb contra 29/10, para IPCA+ 9,31% (R$ 10,1 mi); PEJA22 -9,5 pb contra 29/10, para IPCA+ 8,53% (R$ 35,2 mi).

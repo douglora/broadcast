@@ -1,5 +1,5 @@
 {
- "pregao": "2026-10-30",
+ "pregao": "2026-11-03",
  "nome": "OTCRegistrationWCCP",
  "titulo": "Registro sem CCP",
  "sla": "8:00:00",
@@ -7,12 +7,12 @@
  "colunas": [{"nome": "TckrSymb", "titulo": "Instrumento financeiro"}, {"nome": "TradQty", "titulo": "Quantidade contratos"}, {"nome": "FinancialVol", "titulo": "Volume financeiro (R$)"}],
  "texto": ["Resume as operações de derivativos de renda fixa realizadas fora do registro da Câmara de Compensação Central (CCP). Os detalhes sobre as regras utilizadas, bem como a definição de cada um dos campos, estão disponíveis no <a href=\"https://www.b3.com.br/data/files/70/F3/F6/C4/73E609105FE89209AC094EA8/Glossario%20do%20BDI_v3.pdf\">Glossário</a>."],
  "situacao": "publicado",
- "atualizado_em": "2026-10-31T05:42:58.603",
+ "atualizado_em": "2026-11-04T00:52:32.637",
  "truncada": false,
  "linhas": [
-  ["BOX", 3, 1603834618],
-  ["Opção Flexível", 3121, 6349478636.129999],
-  ["Swap", 272, 41850688270.76],
-  ["Termo", 1827, 63126107864.59]
+  ["BOX", 1, 7000000],
+  ["Opção Flexível", 1969, 4093807813.71],
+  ["Swap", 172, 13698932656.06],
+  ["Termo", 1360, 18207522674.34]
  ]
 }
