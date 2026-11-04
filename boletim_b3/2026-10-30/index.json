@@ -1,6 +1,6 @@
 {
  "pregao": "2026-10-30",
- "coletado_em": "2026-11-03T18:41:20Z",
+ "coletado_em": "2026-11-04T00:51:31Z",
  "tabelas": {
   "SharesInvesVolum": {
    "titulo": "Participação dos investidores",
@@ -332,10 +332,10 @@
   },
   "BTBLendingOpenPosition": {
    "titulo": "Posições em aberto",
-   "situacao": "publicado",
-   "atualizado_em": "2026-10-31T03:42:41.063",
+   "situacao": "republicado",
+   "atualizado_em": "2026-11-03T18:29:05.047",
    "sla": "8:00:00",
-   "linhas": 1912,
+   "linhas": 2931,
    "truncada": false
   },
   "BTBLoanBalance": {

@@ -102,9 +102,9 @@
    "id": 42,
    "nome": "Empréstimos de ativos",
    "pai": 4,
-   "situacao": "republicado",
+   "situacao": "publicado",
    "errata": false,
-   "atualizado_em": "2026-10-31T03:45:38.013",
+   "atualizado_em": "2026-11-03T18:35:38.25",
    "arquivo": "BDI_04-2_20261030.pdf",
    "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-10-30/BDI_04-2_20261030.pdf"
   },

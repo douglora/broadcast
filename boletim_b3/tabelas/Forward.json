@@ -1,5 +1,5 @@
 {
- "pregao": "2026-10-30",
+ "pregao": "2026-11-03",
  "nome": "Forward",
  "titulo": "Ações mais negociadas - a termo",
  "sla": "8:00:00",
@@ -7,13 +7,13 @@
  "colunas": [{"nome": "TckrSymb", "titulo": "Ação"}, {"nome": "Cod", "titulo": "Código"}, {"nome": "Term", "titulo": "Prazo"}, {"nome": "Closing", "titulo": ""}, {"nome": "TradQty", "titulo": ""}, {"nome": "VlmTradedDay", "titulo": "Volume (R$) mil"}, {"nome": "Part", "titulo": "Participação (%)"}],
  "texto": ["Lista ações com maior volume de negociação em contratos a termo, destacando as mais ativas."],
  "situacao": "publicado",
- "atualizado_em": "2026-10-30T19:02:11.16",
+ "atualizado_em": "2026-11-03T19:02:13.06",
  "truncada": false,
  "linhas": [
-  ["PRIO        ON      NM", "ON      NM", 60, 72.44, 42300, 3064.212, 0.6464917430166284],
-  ["ASSAI       ON      NM", "ON      NM", 122, 8.04, 216000, 1736.6399999999999, 3.301234432425336],
-  ["ASSAI       ON      NM", "ON      NM", 60, 7.87, 216200, 1701.494, 3.3042911309738776],
-  ["VIBRA       ON      NM", "ON      NM", 31, 29.87, 701400, 20950.818, 10.719841809736717],
-  ["ASSAI       ON      NM", "ON      NM", 90, 8.24, 3441000, 28353.84, 52.59049852766472]
+  ["FII TRX REALCI  ER", "CI  ER", 49, 64.12, 80000, 5129.6, 1.4364877587002223],
+  ["IT NOW SP BRCI", "CI", 120, 78.46, 125301, 9831.11646, 2.249916908161206],
+  ["TRD SPX USD CI", "CI", 360, 20.65, 146211, 3019.25715, 2.6253788960914783],
+  ["IRANI       ON      NM", "ON      NM", 181, 8.95, 245700, 2199.015, 4.4118130289080595],
+  ["ASSAI       ON      NM", "ON      NM", 90, 8.09, 2925000, 23663.25, 52.52158367747687]
  ]
 }
