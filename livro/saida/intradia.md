@@ -26,68 +26,16 @@ Como falar: 'o cliente sente a queda no extrato; a conversa é sobre a tese, nã
 Fonte: Yahoo Finance fech. 03/11
 ids: T08-AXIA3--30-2026-11-03, T08-SBSP3--30-2026-11-03
 
-[CRÍTICO] F03 · Brent cai a US$ 95,72 (-7,6% no dia · -14% em 5 sessões · cruzou US$ 100) (parcial, intradia)
-Em reais: R$ 523/barril (-8,1%)
-PETR4 -6,4% no dia
-CVX -4,1% no dia
-UGPA3 -0,8% no dia
+(pendente de slot anterior) [CRÍTICO] F03 · Brent cai a US$ 95,35 (-8,0% no dia · -15% em 5 sessões · cruzou US$ 100) (parcial, intradia)
+Em reais: R$ 520/barril (-8,6%)
+PETR4 -7,8% no dia
+CVX -3,7% no dia
+UGPA3 -1,2% no dia
 Por que importa: barril mais barato reduz a receita em dólar das produtoras e alivia a inflação via combustíveis
 Ativos: PETR4 ↓ · CVX ↓ · UGPA3 ↑
 Como falar: 'o petróleo caiu forte; para a Petrobras o efeito é diluído pela política de preços'
 Fonte: ICE via Yahoo 04/11
-Push: [CRÍTICO] BRENT Brent cai a US$ 95,72 (-7,6% no dia · -14% em 5 sessões · cr · detalhe na sessão
 ids: F03-BRENT-queda-2026-11-04
-
-(pendente de slot anterior) [ATENÇÃO] E03 · AXIA3 · Comunicado ao Mercado: Recebeu comunicado da GQG Partners LLC (“GQG Partners”), informando que, em decorrência de operações realizadas no mercado acionário, passou a deter…
-CVM · entregue 03/11/2026 18:37 · Aquisição/Alienação de Participação Acionária Relevante / Declaração de Aquisição de Participação Acionária Relevante
-Do documento:
-  – A GQG Partners declara que esse é um investimento minoritário que não tem o objetivo de alterar a  composição do controle ou a estrutura administrativa da Companhia.
-  – Eduardo Haiama  Vice-Presidente Financeiro e de Relações com Investidores
-Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1583300
-Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; confirma ou nega o que circula
-Ativos: AXIA3
-Como falar: 'a Axia Energia publicou comunicado ao mercado sobre Recebeu comunicado da GQG Partners LLC (“GQG Partners”), informando q…'
-Fonte: CVM 03/11
-ids: E03-AXIA3-1583300-2026-11-03
-
-(pendente de slot anterior) [ATENÇÃO] E03 · ITUB4 · Fato Relevante: Nesta data divulgou sua projeção revisada para o ano de 2026, conforme disposto no item 3 (“Projeções”) do Formulário de Referência.
-CVM · entregue 03/11/2026 18:29
-Do documento:
-  – Importante mencionar que, a partir de novembro de 2026, a Companhia passou a considerar um custo de  capital em torno de 15,25% a.a.
-  – São Paulo - S P, 03 de novembro de 2026.
-Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1583271
-Por que importa: fato relevante e o que a propria companhia julga capaz de mover o preco; ler o documento inteiro antes de comentar
-Ativos: ITUB4
-Como falar: 'a Itau Unibanco publicou fato relevante sobre Nesta data divulgou sua projeção revisada para o ano de 2026, conform…'
-Fonte: CVM 03/11
-ids: E03-ITUB4-1583271-2026-11-03
-
-(pendente de slot anterior) [ATENÇÃO] E05 · MMM · 3M to take $5.8 billion hit under PFAS personal injury settlement By Reuters
-Investing.com · 03/11 21h16 · fonte única · licença: manchete
-Link: https://www.investing.com/news/stock-market-news/3m-to-take-58-billion-hit-under-pfas-personal-injury-settlement-4996985
-Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e prazo
-Ativos: MMM
-Como falar: 'saiu no Investing.com: 3M to take $5.8 billion hit under PFAS personal injury settlement By Reuters; confirmar o número no texto antes de repassar'
-Fonte: Investing.com 03/11 21h16
-ids: E05-MMM-83c3296f5c-2026-11-04
-
-(pendente de slot anterior) [ATENÇÃO] E05 · MMM · 3M Announces $7.4 Billion Settlement in ‘Forever Chemicals’ Injuries Case
-The Wall Street Journal · 03/11 20h59 · fonte única · licença: manchete
-Link: https://www.wsj.com/business/3m-announces-7-4-billion-settlement-in-forever-chemicals-injuries-case-17dd1e41
-Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e prazo
-Ativos: MMM
-Como falar: 'saiu no The Wall Street Journal: 3M Announces $7.4 Billion Settlement in ‘Forever Chemicals’ Injuries Case; confirmar o número no texto antes de repassar'
-Fonte: The Wall Street Journal 03/11 20h59
-ids: E05-MMM-05fe574753-2026-11-03
-
-(pendente de slot anterior) [ATENÇÃO] E05 · AMD · AMD Soars After Huge Guidance News (NASDAQ:AMD)
-Seeking Alpha · 03/11 20h30 · fonte única · licença: manchete
-Link: https://seekingalpha.com/article/4961807-amd-soars-after-huge-guidance-news
-Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
-Ativos: AMD
-Como falar: 'saiu no Seeking Alpha: AMD Soars After Huge Guidance News (NASDAQ:AMD); confirmar o número no texto antes de repassar'
-Fonte: Seeking Alpha 03/11 20h30
-ids: E05-AMD-601b04fabb-2026-11-03
 
 (pendente de slot anterior) [ATENÇÃO] M03 · Focus de 30/10: IPCA: 2026 5,22% (+2 bps) · 2027 4,76% (+33 bps)
 Selic fim de ano: 2026 13,50% (+25 bps) · 2027 12,50% (+50 bps)
@@ -144,7 +92,7 @@ Como falar: 'saiu no PR Newswire: 3M Board Approves New $6 Billion Share Repurch
 Fonte: PR Newswire 03/11 18h59
 ids: E05-MMM-0ecfe9dc26-2026-11-03
 
-[ATENÇÃO] E01 · SBSP3: resultado sai na próxima sessão (05/11)
+(pendente de slot anterior) [ATENÇÃO] E01 · SBSP3: resultado sai na próxima sessão (05/11)
 qui 05/11 · após o fechamento da B3 · estimado (config/calendario.yaml)
 Vol de 20 dias +89% a.a. ⇒ movimento típico de 1 dia ±5,6%
 Chega ao resultado com 1m -20% · 6m -23% · YTD -4,9%
@@ -152,18 +100,17 @@ Consenso: não disponível (sem fonte licenciada); usar o release e o guidance a
 Por que importa: resultado é o evento que mais move o papel em um dia; a vol implícita e o posicionamento sobem antes e caem depois
 Como falar: 'o resultado sai amanhã; o movimento típico do papel num dia é o da vol acima, e o mercado costuma exagerar na abertura'
 Fonte: config/calendario.yaml
-Push: intradia: 6 alertas de atenção — E01 SBSP3, M01 MACRO, E04 MMM, E05 ITUB4, E05 PLTR, E05 ITUB4 · detalhe na sessão
 ids: E01-SBSP3-D-1-2026-11-04
 
-[ATENÇÃO] M01 · Agenda: Copom: decisao da Selic hoje às 18:30 (04/11)
-O que está no preço: F28 14,63% · F35 15,48% · Focus IPCA 2027 4,76%
+(pendente de slot anterior) [ATENÇÃO] M01 · Agenda: Copom: decisao da Selic hoje às 18:30 (04/11)
+O que está no preço: F28 14,43% · F35 15,11% · Focus IPCA 2027 4,76%
 Por que importa: evento macro de alta relevância reprecifica a curva inteira; o que importa é a surpresa contra o que está no preço
 Ativos: DI · Tesouro · USD/BRL
 Como falar: 'Copom: decisao da Selic sai hoje; o mercado já precifica o consenso, a reação vem da surpresa'
 Fonte: config/calendario.yaml
 ids: M01-MACRO-D0_0411-2026-11-04
 
-[ATENÇÃO] E04 · MMM · 8-K: 1.01 acordo material assinado, 8.01 outros eventos
+(pendente de slot anterior) [ATENÇÃO] E04 · MMM · 8-K: 1.01 acordo material assinado, 8.01 outros eventos
 SEC EDGAR · aceito 03/11 20h03 · 8-K
 Do documento:
   – Pursuant to the Settlement, reached through the mediation process that the Company has previously disclosed, 3M will contribute a total nominal amount of $7.35 billion between 2026 and 2034.
@@ -179,7 +126,7 @@ Como falar: 'a MMM protocolou 8-K na SEC (1.01 acordo material assinado, 8.01 ou
 Fonte: SEC EDGAR 2026-11-04
 ids: E04-MMM-26000318-2026-11-04
 
-[ATENÇÃO] E05 · ITUB4 · Itaú vê crédito mais difícil em 2027, mas mantém perspectiva de dividendos
+(pendente de slot anterior) [ATENÇÃO] E05 · ITUB4 · Itaú vê crédito mais difícil em 2027, mas mantém perspectiva de dividendos
 UOL Economia · 04/11 14h01 · fonte única · licença: manchete
 Link: https://economia.uol.com.br/noticias/redacao/2026/11/04/itau-ve-credito-mais-dificil-em-2027-mas-mantem-perspectiva-de-dividendos.htm
 Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
@@ -188,7 +135,7 @@ Como falar: 'saiu no UOL Economia: Itaú vê crédito mais difícil em 2027, mas
 Fonte: UOL Economia 04/11 14h01
 ids: E05-ITUB4-8861a44210-2026-11-04
 
-[ATENÇÃO] E05 · PLTR · Palantir Stocks Decline 4.36% Guidance Requires Another 15% Sequential Revenue Step
+(pendente de slot anterior) [ATENÇÃO] E05 · PLTR · Palantir Stocks Decline 4.36% Guidance Requires Another 15% Sequential Revenue Step
 TradingView (Reuters) · 04/11 13h17 · fonte única · licença: manchete
 Link: https://www.tradingview.com/news/gurufocus:274335f5c094b:0-palantir-stocks-decline-4-36-guidance-requires-another-15-sequential-revenue-step/
 Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
@@ -197,7 +144,7 @@ Como falar: 'saiu no TradingView (Reuters): Palantir Stocks Decline 4.36% Guidan
 Fonte: TradingView (Reuters) 04/11 13h17
 ids: E05-PLTR-259d0908b3-2026-11-04
 
-[ATENÇÃO] E05 · ITUB4 · Dividendos: Daycoval mantém Itaú (ITUB4), Caixa Seguridade (CXSE3) e mais 8 ações em carteira
+(pendente de slot anterior) [ATENÇÃO] E05 · ITUB4 · Dividendos: Daycoval mantém Itaú (ITUB4), Caixa Seguridade (CXSE3) e mais 8 ações em carteira
 Money Times · 04/11 12h59 · fonte única · licença: integral
 Do texto:
   – Dividendos: Daycoval mantém Itaú (ITUB4), Caixa Seguridade (CXSE3) e mais 8 ações em carteira O Banco Daycoval manteve sua carteira recomendada de dividendos inalterada para novembro de 2026.
@@ -212,51 +159,81 @@ Como falar: 'saiu no Money Times: Dividendos: Daycoval mantém Itaú (ITUB4), Ca
 Fonte: Money Times 04/11 12h59
 ids: E05-ITUB4-e50476a7de-2026-11-04
 
-Info (só linha no Fechamento):
-· E01 ITUB4: resultado sai hoje (04/11)
-· E01 MELI34: resultado sai hoje (04/11)
-· E01 GFS: resultado sai hoje (04/11)
-· E01 COHR: resultado sai hoje (04/11)
-· E01 DIRR3: resultado sai em 3 sessões (09/11)
-· E03 PETR4 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
-· E03 PETR4 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
-· E05 ITUB4 · Lucro dos bancos: Itaú (ITUB4) lidera Bradesco (BBDC4) e Santander (SANB11)
-· E05 DI · Economia perde força, emprego resiste: os dados que vão pesar na decisão do Copom
-· E05 UST · These 12 stocks are good bets to beat the 10-year Treasury over the next decade
-· E05 AMD · AMD earnings analysis: questions answered and next catalysts
-· E05 PETR4 · Petrobras mantém estável preço do gás vendido a distribuidoras
-· E05 MMM · 3M’s “Forever Chemicals” Bill Just Grew by Billions
-· E05 INTC · Intel CEO buys 150,000 shares of company stock
-· E05 INTC · Intel CEO Lip Bu Tan acquires $9.7M in Intel stock
-· E05 NVDA · Nvidia is Far From The Only Threat to AMD
-· E05 BTC · Gold and bitcoin just gave Scott Bessent’s Treasury a post-midterm wake-up call
-· E05 BTC · Bitcoin Slips as Democratic Sweep Bets Threaten Crypto Agenda
-· E05 USDBRL · Dólar cai após democratas conquistarem Congresso dos EUA nas eleições de meio de mandato
-· E05 NVDA · Nvidia's China Customers Face a Stunning 99% Chip Shortfall
-· E05 DI · Impacto de juros na dívida deveria entrar em análises do Copom, diz economista da FGV
-· E05 BTC · Bitcoin Tops $81,000 After Midterm Dip, Squeezing Short Sellers
-· E05 ITUB4 · Itaú sobe com resultado 'forte' no 3T26, mas pressão segue no radar
-· E05 MMM · 3M Reaches $7.35B PFAS Personal Injury Settlement, Maintains 2026 Outlook
-· E05 MMM · Is 3M (MMM) Stock Still Cheap After Its $5.8B Settlement?
-· E05 MMM · UBS reiterates 3M stock rating on PFAS settlement, buyback plan
-· E05 DI · Queda das ações faz 8 papéis ultrapassarem a Selic de 13,75% em dividend yield teórico
-· E05 ALUP4 · Controlada da Alupar (ALUP11) vence leilão de transmissão no Chile e prevê investimento de US$ 85 milhões
-· E05 AMD · AMD Shares Surge Nearly 8% as Q3 Earnings Beat Forecasts and Revenue Outlook Exceeds Expectations
-· E05 ALUP4 · Alupar vence projeto no Chile com investimentos estimados em US$ 85 mi
-· E05 DI · Copom decide nesta quarta-feira se corta ou mantém a Taxa Selic
+[ATENÇÃO] E05 · GOOGL · Alphabet Stocks Rise 1.4% as Euro Borrowing Meets a $200 Billion Spending Plan
+Yahoo Finance · 04/11 16h36 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Google's parent priced 6 billion of notes in a November 2 term sheet, spread across seven tranches with maturities extending through 2045.
+  – Shares rose 1.40% to $283.96 at 9:20 a.m.
+  – ET in November 4 premarket trading.
+  – GuruFocus has detected 3 Warning Signs with NVDA.
+  – According to Reuters, the deal follows a 9 billion euro offering in May, bringing the two transactions to 15 billion.
+  – The November issuance represents 40% of that total.
+Link: https://sg.finance.yahoo.com/news/alphabet-stocks-rise-1-4-193607695.html
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: GOOGL
+Como falar: 'saiu no Yahoo Finance: Alphabet Stocks Rise 1.4% as Euro Borrowing Meets a $200 Billion Spending Plan; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 04/11 16h36
+Push: intradia: 3 alertas de atenção — E05 GOOGL, E05 ITUB4, E05 AMD · detalhe na sessão
+ids: E05-GOOGL-f2a793db31-2026-11-04
 
-Suprimidos pelo teto (viram linha do Fechamento): E05-ITUB4-29f1ef05aa-2026-11-04 (teto de noticias), E05-MMM-9be95a8b6f-2026-11-04 (teto de noticias), E05-MMM-b4437c6613-2026-11-04 (teto de noticias), E05-MMM-ddd112665d-2026-11-04 (teto de noticias), E05-DI-530ef6b8db-2026-11-04 (teto de noticias), E05-ALUP4-ee0663e5ec-2026-11-04 (teto de noticias), E05-AMD-dd47dabc69-2026-11-04 (teto de noticias), E05-ALUP4-ad9faed168-2026-11-04 (teto de noticias), E05-DI-b3adfbd244-2026-11-04 (teto de noticias)
+[ATENÇÃO] E05 · ITUB4 · BTG tira Itaú, Cury e Axia da carteira e aposta em dividendos
+UOL Economia · 04/11 16h17 · fonte única · licença: manchete
+Link: https://economia.uol.com.br/noticias/redacao/2026/11/04/btg-tira-itau-cury-e-axia-da-carteira-e-aposta-em-dividendos.ghtm
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: ITUB4 · AXIA3 · CURY3
+Como falar: 'saiu no UOL Economia: BTG tira Itaú, Cury e Axia da carteira e aposta em dividendos; confirmar o número no texto antes de repassar'
+Fonte: UOL Economia 04/11 16h17
+ids: E05-ITUB4-e66792b4cf-2026-11-04
+
+[ATENÇÃO] E05 · AMD · AMD Q3 Earnings Call Highlights AI Demand and 2027 Growth Outlook
+Yahoo Finance · 04/11 11h00 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Advanced Micro Devices, Inc. AMD outlined an accelerated growth trajectory during its third-quarter 2026 earnings call, supported by expanding AI infrastructure deployments, stronger server processor demand and increasi…
+  – Management raised its 2027 growth expectations while highlighting supply constraints, evolving product mix and weakness in the PC market.
+  – AMD reported adjusted earnings of $2.09 per share, exceeding the Zacks Consensus Estimate of $1.94.
+  – Revenues of $13.38 billion also surpassed the Zacks Consensus Estimate of $13.13 billion by 1.90%.
+  – Segment revenues surged 97% year over year to $8.5 billion, supported by record EPYC processor and Instinct accelerator sales.
+  – Data center revenues represented 64% of total sales, compared with 47% a year earlier.
+Link: https://finance.yahoo.com/technology/ai/articles/amd-q3-earnings-call-highlights-140000045.html
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: AMD
+Como falar: 'saiu no Yahoo Finance: AMD Q3 Earnings Call Highlights AI Demand and 2027 Growth Outlook; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 04/11 11h00
+ids: E05-AMD-6a5f0afc7f-2026-11-04
+
+Info (só linha no Fechamento):
+· E05 BTC · Bitcoin rebounds past $80,000 as markets shrug off midterms and Binance hack
+· E05 USDBRL · Dólar fecha em queda de 0,65%, a R$ 5,45, em reação às eleições nos EUA e expectativa por Copom
+· E05 BTC · Bernstein Cuts Price Targets on Seven Bitcoin Miners After Democrats’ Texas Win Threatens AI Data Center Boom
+· E05 USDBRL · Ouro sobe mais de 3% com queda do dólar após vitória democrata nos EUA
+· E05 NVDA · Nvidia Stocks Decline 1.35% as $108 Billion Guide Sets the Next Revenue Hurdle
+· E05 ITUB4 · Nem todo mundo quer comprar Itaú: por que ITUB4 ainda não convenceu todos os analistas após o 3T26
+· E05 GOOGL · Cathie Wood Picks a Side Between Palantir and Google
+· E05 DI · Tesouro Direto volta do apagão com tombo de até 38 pontos-base pouco antes do Copom
+· E05 PLTR · Palantir seen extending selloff to seventh straight session amid bookings, valuation concerns
+· E05 MU · Micron Vs. SK hynix: Close The Pair, Keep The Better Floor (NASDAQ:MU)
+· E05 COHR · Coherent earnings on deck: Can PhotonLink drive revenue ramp? By Investing.com
+· E05 CVX · Chevron Stocks Move Lower Refining Supplies Most of the Profit Increase
+· E05 AVGO · Is Broadcom Stock a Buy Now?
+· E05 UST · Treasuries Advance as Traders Eye US Votes, Refinancing Plans
+· E05 BTC · Bitwise CIO says Binance's $6.3B hack is unlikely to have lasting impact on Bitcoin
+· E05 AXIA3 · Lucro da Isa Energia dispara 246% no 3T26 após negócio com Axia; o que explica o resultado?
+
+Suprimidos pelo teto (viram linha do Fechamento): E05-AXIA3-149fc26514-2026-11-03 (teto de noticias)
 
 Alertas do dia (todos, com status):
-· pendente  F03 BRENT — Brent cai a US$ 95,72 (-7,6% no dia · -14% em 5 sessões · cruzou US$ 100) (parci
+· pendente  F03 BRENT — Brent cai a US$ 95,35 (-8,0% no dia · -15% em 5 sessões · cruzou US$ 100) (parci
+· pendente  E05 GOOGL — GOOGL · Alphabet Stocks Rise 1.4% as Euro Borrowing Meets a $200 Billion Spendin
+· pendente  E05 ITUB4 — ITUB4 · BTG tira Itaú, Cury e Axia da carteira e aposta em dividendos
+· pendente  E05 AMD — AMD · AMD Q3 Earnings Call Highlights AI Demand and 2027 Growth Outlook
 · pendente  E01 SBSP3 — SBSP3: resultado sai na próxima sessão (05/11)
 · pendente  M01 MACRO — Agenda: Copom: decisao da Selic hoje às 18:30 (04/11)
 · pendente  E04 MMM — MMM · 8-K: 1.01 acordo material assinado, 8.01 outros eventos
 · pendente  E05 ITUB4 — ITUB4 · Itaú vê crédito mais difícil em 2027, mas mantém perspectiva de dividend
 · pendente  E05 PLTR — PLTR · Palantir Stocks Decline 4.36% Guidance Requires Another 15% Sequential Re
 · pendente  E05 ITUB4 — ITUB4 · Dividendos: Daycoval mantém Itaú (ITUB4), Caixa Seguridade (CXSE3) e mai
-· pendente  E05 MMM — MMM · Baron & Budd and Douglas & London Obtain $7.350 Billion Settlement With 3M
-· pendente  E05 MMM — MMM · 3M to take $5.8 billion hit under PFAS personal injury settlement
+· expirado  E05 MMM — MMM · Baron & Budd and Douglas & London Obtain $7.350 Billion Settlement With 3M
+· expirado  E05 MMM — MMM · 3M to take $5.8 billion hit under PFAS personal injury settlement
 · expirado  E05 MMM — MMM · 3M to take $5.8 billion hit under PFAS personal injury settlement By Reute
-· (+36 notícias só manchete, em noticias.md)
+· (+52 notícias só manchete, em noticias.md)
 

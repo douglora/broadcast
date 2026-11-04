@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 04/11 15h39
+NOTÍCIAS E FATOS · 04/11 17h22
 
-Pernas: noticias ok 27 novas (18 consultas; descartadas: 349 veículo fora da lista, 28 sem ativo, 111 teto) · cvm ok 2 novos de 11 (4 cias casadas) · sec ok 1 novos em 3 dias
+Pernas: noticias ok 19 novas (18 consultas; descartadas: 360 veículo fora da lista, 21 sem ativo, 12 teto) · cvm ok 0 novos de 11 (4 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (2)
 
@@ -42,7 +42,57 @@ Fonte: SEC EDGAR 2026-11-04
 id: E04-MMM-26000318-2026-11-04 · status: pendente · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (15)
+## NOTÍCIAS COM MATERIALIDADE (19)
+
+[ATENÇÃO] E05 · GOOGL · Alphabet Stocks Rise 1.4% as Euro Borrowing Meets a $200 Billion Spending Plan
+Yahoo Finance · 04/11 16h36 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Google's parent priced 6 billion of notes in a November 2 term sheet, spread across seven tranches with maturities extending through 2045.
+  – Shares rose 1.40% to $283.96 at 9:20 a.m.
+  – ET in November 4 premarket trading.
+  – GuruFocus has detected 3 Warning Signs with NVDA.
+  – According to Reuters, the deal follows a 9 billion euro offering in May, bringing the two transactions to 15 billion.
+  – The November issuance represents 40% of that total.
+Link: https://sg.finance.yahoo.com/news/alphabet-stocks-rise-1-4-193607695.html
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: GOOGL
+Como falar: 'saiu no Yahoo Finance: Alphabet Stocks Rise 1.4% as Euro Borrowing Meets a $200 Billion Spending Plan; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 04/11 16h36
+id: E05-GOOGL-f2a793db31-2026-11-04 · status: pendente
+
+[ATENÇÃO] E05 · ITUB4 · BTG tira Itaú, Cury e Axia da carteira e aposta em dividendos
+UOL Economia · 04/11 16h17 · fonte única · licença: manchete
+Link: https://economia.uol.com.br/noticias/redacao/2026/11/04/btg-tira-itau-cury-e-axia-da-carteira-e-aposta-em-dividendos.ghtm
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: ITUB4 · AXIA3 · CURY3
+Como falar: 'saiu no UOL Economia: BTG tira Itaú, Cury e Axia da carteira e aposta em dividendos; confirmar o número no texto antes de repassar'
+Fonte: UOL Economia 04/11 16h17
+id: E05-ITUB4-e66792b4cf-2026-11-04 · status: pendente
+
+[ATENÇÃO] E05 · AMD · AMD Q3 Earnings Call Highlights AI Demand and 2027 Growth Outlook
+Yahoo Finance · 04/11 11h00 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Advanced Micro Devices, Inc. AMD outlined an accelerated growth trajectory during its third-quarter 2026 earnings call, supported by expanding AI infrastructure deployments, stronger server processor demand and increasi…
+  – Management raised its 2027 growth expectations while highlighting supply constraints, evolving product mix and weakness in the PC market.
+  – AMD reported adjusted earnings of $2.09 per share, exceeding the Zacks Consensus Estimate of $1.94.
+  – Revenues of $13.38 billion also surpassed the Zacks Consensus Estimate of $13.13 billion by 1.90%.
+  – Segment revenues surged 97% year over year to $8.5 billion, supported by record EPYC processor and Instinct accelerator sales.
+  – Data center revenues represented 64% of total sales, compared with 47% a year earlier.
+Link: https://finance.yahoo.com/technology/ai/articles/amd-q3-earnings-call-highlights-140000045.html
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: AMD
+Como falar: 'saiu no Yahoo Finance: AMD Q3 Earnings Call Highlights AI Demand and 2027 Growth Outlook; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 04/11 11h00
+id: E05-AMD-6a5f0afc7f-2026-11-04 · status: pendente
+
+[ATENÇÃO] E05 · AXIA3 · Lucro da Isa Energia dispara 246% no 3T26 após negócio com Axia; o que explica o resultado?
+Estadao · 03/11 20h40 · fonte única · licença: manchete
+Link: https://www.estadao.com.br/einvestidor/cenarios-e-mercado/isa-energia-dispara-246-no-3t26-apos-negocio-com-axia-energia-o-que-explica-o-resultado/
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: AXIA3
+Como falar: 'saiu no Estadao: Lucro da Isa Energia dispara 246% no 3T26 após negócio com Axia; o que explica o resultad…; confirmar o número no texto antes de repassar'
+Fonte: Estadao 03/11 20h40
+id: E05-AXIA3-149fc26514-2026-11-03 · status: linha
 
 [ATENÇÃO] E05 · ITUB4 · Itaú vê crédito mais difícil em 2027, mas mantém perspectiva de dividendos
 UOL Economia · 04/11 14h01 · fonte única · licença: manchete
@@ -207,7 +257,7 @@ Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e 
 Ativos: MMM
 Como falar: 'saiu no Business Wire: Baron & Budd and Douglas & London Obtain $7.350 Billion Settlement With 3M Company to Res…; confirmar o número no texto antes de repassar'
 Fonte: Business Wire 03/11 22h09
-id: E05-MMM-7ab3228cec-2026-11-04 · status: pendente
+id: E05-MMM-7ab3228cec-2026-11-04 · status: expirado
 
 [ATENÇÃO] E05 · MMM · 3M to take $5.8 billion hit under PFAS personal injury settlement
 TradingView (Reuters) · 03/11 21h01 · fonte única · licença: manchete
@@ -216,7 +266,7 @@ Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e 
 Ativos: MMM
 Como falar: 'saiu no TradingView (Reuters): 3M to take $5.8 billion hit under PFAS personal injury settlement; confirmar o número no texto antes de repassar'
 Fonte: TradingView (Reuters) 03/11 21h01
-id: E05-MMM-3be112df20-2026-11-04 · status: pendente
+id: E05-MMM-3be112df20-2026-11-04 · status: expirado
 
 [ATENÇÃO] E05 · MMM · 3M to take $5.8 billion hit under PFAS personal injury settlement By Reuters
 Investing.com · 03/11 21h16 · fonte única · licença: manchete
@@ -228,8 +278,23 @@ Fonte: Investing.com 03/11 21h16
 id: E05-MMM-83c3296f5c-2026-11-04 · status: expirado
 
 
-## OUTRAS NOTÍCIAS (só manchete) (20)
+## OUTRAS NOTÍCIAS (só manchete) (35)
 
+· BTC Bitcoin rebounds past $80,000 as markets shrug off midterms and Binance hack (The Block) https://www.theblock.co/news/markets/2026-11-04-bitcoin-price-midterm-elections-binance-hack-recovery-433030
+· USDBRL Dólar fecha em queda de 0,65%, a R$ 5,45, em reação às eleições nos EUA e expectativa por Copom (Money Times) https://www.moneytimes.com.br/dolar-04-11-2026-davs/
+· BTC Bernstein Cuts Price Targets on Seven Bitcoin Miners After Democrats’ Texas Win Threatens AI Data Center Boom (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bernstein-cuts-price-targets-seven-194100014.html
+· USDBRL Ouro sobe mais de 3% com queda do dólar após vitória democrata nos EUA (CNN Brasil) https://www.cnnbrasil.com.br/economia/money/mercado/ouro-sobe-mais-de-3-com-queda-do-dolar-apos-vitoria-democrata-nos-eua/
+· NVDA Nvidia Stocks Decline 1.35% as $108 Billion Guide Sets the Next Revenue Hurdle (Yahoo Finance) https://sg.finance.yahoo.com/news/nvidia-stocks-decline-1-35-193403778.html
+· ITUB4 Nem todo mundo quer comprar Itaú: por que ITUB4 ainda não convenceu todos os analistas após o 3T26 (Seu Dinheiro) https://www.seudinheiro.com/2026/bolsa-dolar/nem-todo-mundo-esta-comprando-itub4-por-que-os-analistas-divergem-sobre-as-acoes-do-itau-apos-o-balanco-do-3t26-miql/
+· GOOGL Cathie Wood Picks a Side Between Palantir and Google (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/cathie-wood-picks-side-between-192037247.html
+· DI Tesouro Direto volta do apagão com tombo de até 38 pontos-base pouco antes do Copom (InfoMoney) https://www.infomoney.com.br/onde-investir/tesouro-direto-abertura-fechamento-04112026/
+· PLTR Palantir seen extending selloff to seventh straight session amid bookings, valuation concerns (TradingView (Reuters)) https://www.tradingview.com/news/seekingalpha:eab0efd55094b:0-palantir-seen-extending-selloff-to-seventh-straight-session-amid-bookings-valuation-concerns/
+· MU Micron Vs. SK hynix: Close The Pair, Keep The Better Floor (NASDAQ:MU) (Seeking Alpha) https://seekingalpha.com/article/4962388-micron-vs-sk-hynix-close-the-pair-keep-the-better-floor
+· COHR Coherent earnings on deck: Can PhotonLink drive revenue ramp? By Investing.com (Investing.com) https://ng.investing.com/news/stock-market-news/coherent-earnings-on-deck-can-photonlink-drive-revenue-ramp-93CH-2783711
+· CVX Chevron Stocks Move Lower Refining Supplies Most of the Profit Increase (TradingView (Reuters)) https://news.google.com/rss/articles/CBMiywFBVV95cUxOYkRxOWpoOXViejBuTkloOUg2YmNJbmJlZDJjYVhoQ0lGOGxsTEgxQ0FfWHRlOFRwZ3d2SU1aUkc3QlNqQkFOeGtzWWU2N3F6T2U5MHhaaVAyOUFST0wzcm9rdGJJMk1Bdi1XZTZ6dldGVmhhbDVWdkRKM0wwdWlRXzYweU9BbUIwTkQyNGdPNDh3VjFKOVhkUmJkUEJ5LTZudkZRQUlHOXMzNDg5WVNTTDhZZEdXOFBQRC1RQkttU3ktN1RJSlptNmFVVQ?oc=5
+· AVGO Is Broadcom Stock a Buy Now? (Yahoo Finance) https://news.google.com/rss/articles/CBMikAFBVV95cUxNeEU5QXUyenM1UGhWLTlaWFk4T0xYV3M3U3N1TXBoS056dWZlUUtxWDY0a0hHaTRGaXJvNnpzNGFLdHpSMUFlSm9hVG16WkJjUDluYmZVWEMyYmdJNFV2d1NKNTNBZWozUkF2dnhoN1MyU1plY3NlUWpaMkFldXBxNjJEZzM4QVZsUUcwOHNwcFM?oc=5
+· UST Treasuries Advance as Traders Eye US Votes, Refinancing Plans (Bloomberg) https://news.google.com/rss/articles/CBMisAFBVV95cUxNZzN0NVZRRWVGTGRucWE0c2lMNmdFU3BGaS1kVlhzMDAyZUNRZjA1SWlORHJIWlotVXdWLVNqN3NMX3h3U2tISkRod0l5YXpDdzZLOWNhYmhPd2hPU3UzUE9wZmdEQ0VBWjRfZi15SmJsclVuS1lwZHcwakdPdk5pbW5ha1NhMm5SdUpBUmdDUzMxT3YxNWg3dlRHeUxjeGFPOV83bjUyNlY0ZktBSFF0Uw?oc=5
+· BTC Bitwise CIO says Binance's $6.3B hack is unlikely to have lasting impact on Bitcoin (TradingView (Reuters)) https://news.google.com/rss/articles/CBMicEFVX3lxTE5VWmN5aV9rbjVVUHVIa1NuM2Nic1dCdTBYRXc0S3N3c3p0VV9KSUZvblBscmJIcnd2QzJFbFg3ZVBDOUJOOVdGM3VqVm9tV20zTGZaXzZvS00zRE1wRGRVbXFvczZucU9SSGYzWGR6cjQ?oc=5
 · ITUB4 Lucro dos bancos: Itaú (ITUB4) lidera Bradesco (BBDC4) e Santander (SANB11) (Suno Noticias) https://www.suno.com.br/noticias/lucro-dos-bancos-itau-itub4-bradesco/
 · DI Economia perde força, emprego resiste: os dados que vão pesar na decisão do Copom (Money Times) https://www.moneytimes.com.br/economia-perde-forca-emprego-resiste-os-dados-que-vao-pesar-na-decisao-do-copom-nesta-quarta-feira-4-jcav/
 · UST These 12 stocks are good bets to beat the 10-year Treasury over the next decade (MarketWatch) https://www.marketwatch.com/story/these-12-stocks-are-good-bets-to-beat-the-10-year-treasury-over-the-next-decade-cc4f308b
