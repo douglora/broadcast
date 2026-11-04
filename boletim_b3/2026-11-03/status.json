@@ -1,11 +1,11 @@
 {
  "pregao": "2026-11-03",
- "situacao": "atrasado",
+ "situacao": "publicado",
  "errata": false,
- "atualizado_em": "2026-11-04T08:43:23.293",
+ "atualizado_em": "2026-11-04T00:00:00",
  "completo": {
-  "arquivo": "",
-  "pdf": ""
+  "arquivo": "BDI_00_20261103.pdf",
+  "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-11-03/BDI_00_20261103.pdf"
  },
  "cadernos": [
   {
@@ -14,7 +14,7 @@
    "pai": null,
    "situacao": "publicado",
    "errata": false,
-   "atualizado_em": "2026-11-04T08:09:59.98",
+   "atualizado_em": "2026-11-04T09:08:30.75",
    "arquivo": "",
    "pdf": ""
   },
@@ -42,9 +42,9 @@
    "id": 2,
    "nome": "Indicadores e informativos",
    "pai": 20,
-   "situacao": "",
+   "situacao": "republicado",
    "errata": false,
-   "atualizado_em": "2026-11-04T08:47:59.123",
+   "atualizado_em": "2026-11-04T10:54:33.843",
    "arquivo": "",
    "pdf": ""
   },

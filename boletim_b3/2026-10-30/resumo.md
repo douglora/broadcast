@@ -1,7 +1,7 @@
 # Boletim da B3: pregão de 30/10/2026 (sexta)
 
 **Situação: COMPLETO.** Boletim publicado pela B3 em 2026-11-03 00:00 (hora de Brasília).
-Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-11-04T11:54:08Z (UTC).
+Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-11-04T18:50:55Z (UTC).
 
 [[LEITURA_DA_MESA]]
 
@@ -12,8 +12,8 @@ Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-11
 - **Posição em opções.** PETR4: a call PETRK546 (strike 53,41, vencimento 19/11) ganhou 2.766.900 opções em aberto no dia, para 6.078.200. _(B3, DerivativesOpenPosition, 30/10)_
 - **Posição em opções.** BBDC4: a call BBDCK15 (strike 14,72, vencimento 19/11) ganhou 9.428.200 opções em aberto no dia, para 12.208.500. _(B3, DerivativesOpenPosition, 30/10)_
 - **Pressão vendida.** ITSA4: em 5 pregões o saldo alugado subiu 65,8% e o preço caiu 18,7%: posição vendida crescendo junto com a queda. _(B3, BTBLendingOpenPosition, 30/10)_
-- **Crédito: taxa abriu.** TEPA13 (Brasil Tecnologia e Participacao, debênture incentivada): taxa média dos negócios da B3 abriu 125 pb contra 06/10, para IPCA+ 23,11%, em R$ 7,1 mi. _(B3, Trade + InstrumentRegistration, 30/10)_
 - **Crédito: taxa abriu.** BION16 (Bioenergetica Vale do Paracatu, debênture incentivada): taxa média dos negócios da B3 abriu 125 pb contra 23/10, para IPCA+ 9,63%, em R$ 5,9 mi. _(B3, Trade + InstrumentRegistration, 30/10)_
+- **Crédito: taxa abriu.** TEPA13 (Brasil Tecnologia e Participacao, debênture incentivada): taxa média dos negócios da B3 abriu 125 pb contra 06/10, para IPCA+ 23,11%, em R$ 7,1 mi. _(B3, Trade + InstrumentRegistration, 30/10)_
 - **Crédito: taxa abriu.** CRA0240066E (Eco Securitizadora de Direitos Credit…, CRA): taxa média dos negócios da B3 abriu 88 pb contra 14/09, para IPCA+ 12,26%, em R$ 17,3 mi. _(B3, Trade + InstrumentRegistration, 30/10)_
 - **Crédito: prêmio alto.** TEPA13 (Brasil Tecnologia e Participacao, debênture incentivada): negociada a IPCA+ 23,11%, 1.511 pb acima do juro real de mercado de prazo equivalente, em R$ 7,1 mi. _(B3, Trade + InstrumentRegistration, 30/10)_
 - **Crédito: prêmio alto.** 26B5378803 (Vert Companhia Securitizadora, CRI): negociada a CDI+ 8,80%, em R$ 20,0 mi. _(B3, Trade + InstrumentRegistration, 30/10)_
@@ -302,7 +302,7 @@ Nas incentivadas, a mediana pelos negócios do dia (B3 negócios de 30/10) foi I
 
 **Abriram taxa pela indicativa da ANBIMA:** BARU11 +18,2 pb contra 29/10, para IPCA+ 9,00% (R$ 3,8 mi); FSII14 +18,1 pb contra 29/10, para IPCA+ 11,34% (R$ 13,2 mi); CNRD12 +17,9 pb contra 29/10, para IPCA+ 9,76% (R$ 10,7 mi); CMTR29 +14 pb contra 29/10, para IPCA+ 7,67% (R$ 43,3 mi); EPRL12 +14 pb contra 29/10, para IPCA+ 9,36% (R$ 4,0 mi).
 **Fecharam taxa pela indicativa da ANBIMA:** RIS412 -26,4 pb contra 29/10, para IPCA+ 14,12% (R$ 6,1 mi); RIS414 -17,1 pb contra 29/10, para IPCA+ 14,17% (R$ 8,2 mi); RISP12 -15,8 pb contra 29/10, para IPCA+ 14,07% (R$ 3,5 mi); JALL13 -15,5 pb contra 29/10, para IPCA+ 9,31% (R$ 10,1 mi); PEJA22 -9,5 pb contra 29/10, para IPCA+ 8,53% (R$ 35,2 mi).
-**Abriram taxa pelos negócios da B3:** CRA025008C1 +213 pb contra 22/10, para 16,69% pré (R$ 3,5 mi); TEPA13 +125 pb contra 06/10, para IPCA+ 23,11% (R$ 7,1 mi); BION16 +125 pb contra 23/10, para IPCA+ 9,63% (R$ 5,9 mi); CRA0240066E +88 pb contra 14/09, para IPCA+ 12,26% (R$ 17,3 mi); CRA02300HWK +22 pb contra 29/10, para 14,50% pré (R$ 5,1 mi).
+**Abriram taxa pelos negócios da B3:** CRA025008C1 +213 pb contra 22/10, para 16,69% pré (R$ 3,5 mi); BION16 +125 pb contra 23/10, para IPCA+ 9,63% (R$ 5,9 mi); TEPA13 +125 pb contra 06/10, para IPCA+ 23,11% (R$ 7,1 mi); CRA0240066E +88 pb contra 14/09, para IPCA+ 12,26% (R$ 17,3 mi); CRA02300HWK +22 pb contra 29/10, para 14,50% pré (R$ 5,1 mi).
 **Fecharam taxa pelos negócios da B3:** 23I1270600 -225 pb contra 29/10, para CDI+ 1,24% (R$ 9,4 mi); CRA021001PQ -148 pb contra 29/10, para IPCA+ 10,18% (R$ 13,2 mi); 25C3830805 -85 pb contra 21/10, para CDI+ 1,99% (R$ 4,4 mi); 21L0694148 -66 pb contra 23/10, para CDI+ 0,55% (R$ 41,9 mi); CEEBF3 -32 pb contra 29/10, para 14,91% pré (R$ 7,8 mi).
 **Prêmio alto:** TEPA13 a IPCA+ 23,11% (B3 negócios de 30/10), +1.511 pb no vencimento, R$ 7,1 mi; 26B5378803 a CDI+ 8,80% (B3 negócios de 30/10), R$ 20,0 mi; RIS414 a IPCA+ 14,17% (ANBIMA indicativa de 30/10), +618 pb na duration, R$ 8,2 mi; RIS412 a IPCA+ 14,12% (ANBIMA indicativa de 30/10), +613 pb na duration, R$ 6,1 mi; RISP12 a IPCA+ 14,07% (ANBIMA indicativa de 30/10), +608 pb na duration, R$ 3,5 mi.
 
