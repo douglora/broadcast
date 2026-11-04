@@ -1,8 +1,20 @@
-NOTÍCIAS E FATOS · 03/11 21h32
+NOTÍCIAS E FATOS · 03/11 22h13
 
-Pernas: noticias ok 27 novas (18 consultas; descartadas: 374 veículo fora da lista, 39 sem ativo, 53 teto) · cvm ok 8 novos de 8 (2 cias casadas) · sec ok 1 novos em 3 dias
+Pernas: noticias ok 16 novas (18 consultas; descartadas: 382 veículo fora da lista, 38 sem ativo, 0 teto) · cvm ok 1 novos de 9 (3 cias casadas) · sec ok 0 novos em 3 dias
 
-## FATOS RELEVANTES E COMUNICADOS (CVM) (8)
+## FATOS RELEVANTES E COMUNICADOS (CVM) (9)
+
+[ATENÇÃO] E03 · ALUP4 · Fato Relevante: O projeto totaliza investimentos estimados em US$ 85,0 milhões, com RAP de US$ 11,9 milhões.
+CVM · entregue 03/11/2026 21:50
+Do documento:
+  – O projeto totaliza investimentos estimados em US$ 85,0 milhões, com RAP de US$ 11,9 milhões.
+  – São Paulo, 03 de novembro de 2026    _________________________  Luiz Eduardo Muniz Coimbra  Diretor de Relações com Investidores
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1583597
+Por que importa: fato relevante e o que a propria companhia julga capaz de mover o preco; ler o documento inteiro antes de comentar
+Ativos: ALUP4
+Como falar: 'a Alupar publicou fato relevante sobre O projeto totaliza investimentos estimados em US$ 85,0 milhões, com R…'
+Fonte: CVM 03/11
+id: E03-ALUP4-1583597-2026-11-03 · status: pendente · íntegra disponível
 
 [ATENÇÃO] E03 · AXIA3 · Comunicado ao Mercado: Recebeu comunicado da GQG Partners LLC (“GQG Partners”), informando que, em decorrência de operações realizadas no mercado acionário, passou a deter…
 CVM · entregue 03/11/2026 18:37 · Aquisição/Alienação de Participação Acionária Relevante / Declaração de Aquisição de Participação Acionária Relevante
@@ -95,7 +107,41 @@ Fonte: SEC EDGAR 2026-11-03
 id: E04-JPM-26069523-2026-11-03 · status: linha
 
 
-## NOTÍCIAS COM MATERIALIDADE (29)
+## NOTÍCIAS COM MATERIALIDADE (32)
+
+[ATENÇÃO] E05 · MMM · Baron & Budd and Douglas & London Obtain $7.350 Billion Settlement With 3M Company to Resolve PFAS Personal Injury Lawsuits
+Business Wire · 03/11 22h09 · fonte única · licença: integral
+Link: https://www.businesswire.com/news/home/20261103960967/en/Baron-Budd-and-Douglas-London-Obtain-%247.350-Billion-Settlement-With-3M-Company-to-Resolve-PFAS-Personal-Injury-Lawsuits
+Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e prazo
+Ativos: MMM
+Como falar: 'saiu no Business Wire: Baron & Budd and Douglas & London Obtain $7.350 Billion Settlement With 3M Company to Res…; confirmar o número no texto antes de repassar'
+Fonte: Business Wire 03/11 22h09
+id: E05-MMM-7ab3228cec-2026-11-04 · status: pendente
+
+[ATENÇÃO] E05 · MMM · 3M to take $5.8 billion hit under PFAS personal injury settlement
+TradingView (Reuters) · 03/11 21h01 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/reuters.com,2026:newsml_L3N46K20Q:0-3m-to-take-5-8-billion-hit-under-pfas-personal-injury-settlement/
+Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e prazo
+Ativos: MMM
+Como falar: 'saiu no TradingView (Reuters): 3M to take $5.8 billion hit under PFAS personal injury settlement; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 03/11 21h01
+id: E05-MMM-3be112df20-2026-11-04 · status: pendente
+
+[ATENÇÃO] E05 · MMM · 3M Board Approves New $6 Billion Share Repurchase Authorization, Declares Quarterly Dividend
+PR Newswire · 03/11 18h59 · + TradingView (Reuters), Investing.com · licença: integral
+Do texto:
+  – The board also declared a dividend on the company's common stock of $0.78 per share for the fourth quarter of 2026.
+  – 11, 2026, to shareholders of record at the close of business on Nov.
+  – 3M has paid dividends to its shareholders without interruption for more than 100 years.
+  – About 3M 3M (NYSE: MMM) is focused on transforming industries around the world by applying science and creating innovative, customer-focused solutions.
+  – Discover how 3M is shaping the future at 3M.com/news.
+  – Investor Contact: Diane Farrow  612-202-2449  Media Contact: 3Mnews@mmm.com  SOURCE 3M Company
+Link: https://www.prnewswire.com/news-releases/3m-board-approves-new-6-billion-share-repurchase-authorization-declares-quarterly-dividend-302928490.html
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: MMM
+Como falar: 'saiu no PR Newswire: 3M Board Approves New $6 Billion Share Repurchase Authorization, Declares Quarterly Divid…; confirmar o número no texto antes de repassar'
+Fonte: PR Newswire 03/11 18h59
+id: E05-MMM-0ecfe9dc26-2026-11-03 · status: pendente · íntegra disponível
 
 [ATENÇÃO] E05 · MMM · 3M to take $5.8 billion hit under PFAS personal injury settlement By Reuters
 Investing.com · 03/11 21h16 · fonte única · licença: manchete
@@ -252,7 +298,7 @@ Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; 
 Ativos: PLTR
 Como falar: 'saiu no TradingView (Reuters): Palantir Q3 Earnings Call Highlights Sovereign AI Demand and Outlook; confirmar o número no texto antes de repassar'
 Fonte: TradingView (Reuters) 03/11 14h50
-id: E05-PLTR-2bfd82e709-2026-11-03 · status: pendente
+id: E05-PLTR-2bfd82e709-2026-11-03 · status: expirado
 
 [ATENÇÃO] E05 · INTC · Intel Stock Had Its Worst Day Since 1974 Despite 8th Straight Guidance Beat. Here’s What Investors Missed.
 Yahoo Finance · 03/11 09h55 · fonte única · licença: resumo
@@ -293,7 +339,7 @@ Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; 
 Ativos: INTC
 Como falar: 'saiu no Yahoo Finance: Intel Stocks Rebound 2.5% as Revenue Guidance Still Implies Sequential Decline; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 03/11 15h15
-id: E05-INTC-646b6ae40e-2026-11-03 · status: pendente
+id: E05-INTC-646b6ae40e-2026-11-03 · status: expirado
 
 [ATENÇÃO] E05 · BRENT · Produção de petróleo sobe 20% e bate 4º recorde seguido
 Poder360 · 03/11 15h11 · fonte única · licença: resumo
@@ -309,7 +355,7 @@ Por que importa: evento operacional afeta producao e custo no trimestre corrente
 Ativos: BRENT
 Como falar: 'saiu no Poder360: Produção de petróleo sobe 20% e bate 4º recorde seguido; confirmar o número no texto antes de repassar'
 Fonte: Poder360 03/11 15h11
-id: E05-BRENT-0757cdd6d1-2026-11-03 · status: pendente
+id: E05-BRENT-0757cdd6d1-2026-11-03 · status: expirado
 
 [ATENÇÃO] E05 · PETR4 · Dividendos de 14,8%: BB Investimentos escolhe Petrobras (PETR4), Axia (AXIA3) e outras oito ações para novembro
 Money Times · 03/11 13h59 · fonte única · licença: integral
@@ -468,8 +514,21 @@ Fonte: Estadao 02/11 22h33
 id: E05-ITUB4-3c2f7af6ed-2026-11-03 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (51)
+## OUTRAS NOTÍCIAS (só manchete) (64)
 
+· USDBRL Dólar fecha na maior cotação do ano (g1) https://g1.globo.com/jornal-nacional/video/dolar-fecha-na-maior-cotacao-do-ano-15156992.ghtml
+· AMD AMD stock jumps after hours as quarterly results, revenue guidance beat estimates (Investing.com) https://www.investing.com/news/earnings/amd-stock-jumps-after-hours-as-quarterly-results-revenue-guidance-beat-estimates-4996344
+· AMD Advanced Micro (AMD) Reports Q3 Earnings: What Key Metrics Have to Say (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/advanced-micro-amd-reports-q3-220002636.html
+· AMD AMD Earnings 'Met the Bar,' Wedbush's Bryson Says (Yahoo Finance) https://finance.yahoo.com/video/amd-earnings-met-bar-wedbushs-215307888.html
+· ITUB4 Itaú, BB Seguridade e mais: os balanços que podem mexer com o Ibovespa nesta semana (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/itau-bb-seguridade-e-mais-os-balancos-que-podem-mexer-com-o-ibovespa-nesta-semana/
+· AMD AMD has been crushed into earnings. Here’s one way to trade it (CNBC) https://www.cnbc.com/2026/11/03/amd-has-been-crushed-into-earnings-heres-one-way-to-trade-it.html
+· AMD Here's how options traders are playing AMD ahead of earnings (CNBC) https://www.cnbc.com/video/2026/11/03/heres-how-options-traders-are-playing-amd-ahead-of-earnings.html
+· PLTR Buy the Dip in Apple or Palantir Stock After Earnings? (TradingView (Reuters)) https://www.tradingview.com/news/zacks:90437eaee094b:0-buy-the-dip-in-apple-or-palantir-stock-after-earnings/
+· ITUB4 Ações recomendadas: Itaú (ITUB4), Vale (VALE3) e Petrobras (PETR4) entram no radar para novembro (Suno Noticias) https://www.suno.com.br/noticias/acoes-recomendadas-novembro-mt/amp/
+· PLTR Palantir Technology Shows Huge Unusual Call Options Activity - Is PLTR Stock Too Cheap? (Yahoo Finance) https://finance.yahoo.com/markets/options/articles/palantir-technology-shows-huge-unusual-183004841.html
+· CVX Chevron Corporation (CVX) is Attracting Investor Attention: Here is What You Should Know (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/chevron-corporation-cvx-attracting-investor-130004858.html
+· NVDA Nvidia’s Dismal Run Might Be Coming to an End. Grab NVDA Stock While It’s Still Around $200. (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/nvidia-dismal-run-might-coming-122425963.html
+· NVDA Nvidia tells data center partners to limit China sales- FT (Yahoo Finance) https://news.google.com/rss/articles/CBMimgFBVV95cUxQb0ZJT3NWbHA2dHpyMXM2TWFESHhfRGJRQkJxZWZUMW9aUnZlUHBOdlh4ZjNUVjlrUkVYdGtrRmNOUHA5RWNlb28zU2hzWi1kWXA4WWdTclptYm93ajg2OTNIWVdZcXpqX3FxVTF0eU8wWE96dXNRR3U1WWt4NmVkcWdyaW00OXhFNTJGVXY2ajJUUUNuaWZGSXVR?oc=5
 · AMD Advanced Micro Devices (AMD) Stock Fair Value Edges Higher On AI Optimism And Valuation Debate (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/advanced-micro-devices-amd-stock-001838344.html
 · AMD Here’s why AMD’s stock is rising — and sending a confident message about the AI trade (MarketWatch) https://www.marketwatch.com/story/heres-why-amds-stock-is-rising-and-sending-a-confident-message-about-the-ai-trade-11cb4d8a
 · ITUB4 Itaú se afasta de concorrentes com ROE de 23,6% e carteira saudável (Brazil Journal) https://braziljournal.com/itau-se-afasta-de-concorrentes-com-roe-de-23-6-e-carteira-saudavel
@@ -517,7 +576,4 @@ id: E05-ITUB4-3c2f7af6ed-2026-11-03 · status: linha
 · AMD AMD earnings setup: why a beat may not be enough (Investing.com) https://news.google.com/rss/articles/CBMirgFBVV95cUxPczA3WFZrZjF6Q3Y3bkw4NVpLMVdPQk9faEVSWE5lNWNXSUl5T1VoY21BcEozZlkyMVVNY0pwZ25oN1ZUVGRyNzlEckQ4Q1ZXRnNQOHdLTXlkQmpFcm8xQ1E4NHVXZndhcFV2NS1va2Q0NHdpR2tUbjlkd3NSLVJlSlVQa0F6N3ZsazUySk1ndWw3Q21SeDBoVEtodnV2VS1ScGlZWWI2Z0lVOEl2bnc?oc=5
 · AMD Why AMD Stock Is In Focus Before Q3 Earnings And AI Partnership Updates (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/why-amd-stock-focus-q3-021510488.html
 · LITE Lumentum Holdings Inc. reports results for the quarter ended September 30 - Earnings Summary (TradingView (Reuters)) https://www.tradingview.com/news/reuters.com,2026:newsml_L5N46K03R:0-lumentum-holdings-inc-reports-results-for-the-quarter-ended-september-30-earnings-summary/
-· PLTR Here’s why Palantir’s stock is down despite a ‘bombastic’ quarter (MarketWatch) https://www.marketwatch.com/story/heres-why-palantirs-stock-is-down-despite-a-bombastic-quarter-42c9fdb8
-· INTC Intel (INTC) Joined A $700 Million AI Startup Funding Round (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/intel-intc-joined-700-million-001701528.html
-· PLTR Third-quarter revenue at Palantir Technologies surges 96% (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/third-quarter-revenue-palantir-technologies-003330863.html
-· PLTR Palantir: Impressive Numbers, But Something Is Missing (Rating Downgrade) (NASDAQ:PLTR) (Seeking Alpha) https://seekingalpha.com/article/4961221-palantir-impressive-numbers-but-something-is-missing-rating-downgrade
+· (+4 manchetes; lista completa em eventos/noticias.json)

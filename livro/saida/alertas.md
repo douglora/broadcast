@@ -1,78 +1,32 @@
-ALERTAS · eventos
+ALERTAS · Fechamento 18h
 
-(pendente de slot anterior) [ATENÇÃO] E01 · ITUB4: resultado sai na próxima sessão (04/11)
-qua 04/11 · após o fechamento da B3 · estimado (config/calendario.yaml)
-Vol de 20 dias +68% a.a. ⇒ movimento típico de 1 dia ±4,3%
-Chega ao resultado com 1m -14% · 6m -8,3% · YTD +0,3%
-Consenso: não disponível (sem fonte licenciada); usar o release e o guidance anterior
-Por que importa: resultado é o evento que mais move o papel em um dia; a vol implícita e o posicionamento sobem antes e caem depois
-Como falar: 'o resultado sai amanhã; o movimento típico do papel num dia é o da vol acima, e o mercado costuma exagerar na abertura'
-Fonte: config/calendario.yaml
-ids: E01-ITUB4-D-1-2026-11-03
+[CRÍTICO] CURVA · C01 A curva ABRIU: F29 +17 bps no dia · F30 +17 bps no dia · F30 4 pregões seguidos (+48 bps) (ajuste B3 03/11) / C05 Pre 2029 ABRE 30 bps (PU -0,5%) · IPCA+ 2032 ABRE 15 bps (PU -0,8%) · IPCA+ 2050 PU -5,9% em 5 datas-base (base 03/11) / C02 Inclinação da curva DI: F35-F28 +45 bps em 5 pregões · F30-F28 +26 bps em 5 pregões · F30-F28 na máxima de 252 pregões
+DI F28 14,63 (+15) · F29 15,13 (+17) · F30 15,36 (+17) · F32 15,48 (+16) · F35 15,48 (+15)
+Inclinação F35-F28 +86 bps (+0)
+TD Pre 2029 15,19 (+30) PU -0,5% · IPCA+ 2032 8,04 (+15) PU -0,8% · IPCA+ 2040 7,66 (+10) PU -1,2% · IPCA+ 2050 7,41 (+14) PU -3,0% · Pre 2032 15,61 (+23) PU -1,0%
+F35-F28 +86 bps (+0 dia · +45 5 pregões)
+F30-F28 +73 bps (+2 dia · +26 5 pregões)
+F32 na máxima de 252 pregões: 15,48%
+F35 na máxima de 252 pregões: 15,48%
+Implícita 2029: 6,58% (+93 bps na semana) vs Focus IPCA 2029 3,98% (+260 bps)
+Implícita 2032: 7,01% (-10 bps na semana) vs Focus IPCA 2030 3,81% (+319 bps)
+Implícita 2031/32 (descasado): 6,87% (+119 bps na semana) vs Focus IPCA 2030 3,81% (+305 bps)
+Por que importa: a curva é o preço do dinheiro no Brasil; longo abrindo com curto parado é prêmio de risco, não Selic
+Como falar: 'o prefixado longo marcou a mercado para baixo; quem carrega até o vencimento não mudou de taxa'
+Fonte: B3 ajuste 03/11 · Tesouro Transparente base 03/11; BCB Focus · Tesouro Transparente, base 03/11 · ajuste B3 03/11
+Push: [CRÍTICO] DI A curva ABRIU | TESOURO Pre 2029 ABRE 30 bps (PU -0,5%) · IPCA+ 2032 ABRE 15 bps (PU | DI Inclinação da curva DI +3 · detalhe na sessão
+ids: C01-DI-abriu-2026-11-03, C05-TESOURO-abriu-2026-11-03, C02-DI-inclinacao-2026-11-03, C03-DI-di-2026-11-03, C03-TESOURO-td-2026-11-03, C06-TESOURO-implicita-2026-11-03
 
-(pendente de slot anterior) [ATENÇÃO] E01 · MELI34: resultado sai na próxima sessão (04/11)
-qua 04/11 · após o fechamento de NY · estimado (config/calendario.yaml)
-Vol de 20 dias +29% a.a. ⇒ movimento típico de 1 dia ±1,9%
-Chega ao resultado com 1m +4,3% · 6m +2,8% · YTD -17%
-Consenso: não disponível (sem fonte licenciada); usar o release e o guidance anterior
-Por que importa: resultado é o evento que mais move o papel em um dia; a vol implícita e o posicionamento sobem antes e caem depois
-Como falar: 'o resultado sai amanhã; o movimento típico do papel num dia é o da vol acima, e o mercado costuma exagerar na abertura'
-Fonte: config/calendario.yaml
-ids: E01-MELI34-D-1-2026-11-03
-
-(pendente de slot anterior) [ATENÇÃO] E01 · GFS: resultado sai na próxima sessão (04/11)
-qua 04/11 · horário não confirmado · estimado (Yahoo)
-Vol de 20 dias +60% a.a. ⇒ movimento típico de 1 dia ±3,8%
-Chega ao resultado com 1m -14% · 6m -42% · YTD +24%
-Consenso: não disponível (sem fonte licenciada); usar o release e o guidance anterior
-Por que importa: resultado é o evento que mais move o papel em um dia; a vol implícita e o posicionamento sobem antes e caem depois
-Como falar: 'o resultado sai amanhã; o movimento típico do papel num dia é o da vol acima, e o mercado costuma exagerar na abertura'
-Fonte: Yahoo
-ids: E01-GFS-D-1-2026-11-03
-
-(pendente de slot anterior) [ATENÇÃO] E01 · COHR: resultado sai na próxima sessão (04/11)
-qua 04/11 · horário não confirmado · estimado (Yahoo)
-Vol de 20 dias +94% a.a. ⇒ movimento típico de 1 dia ±5,9%
-Chega ao resultado com 1m -39% · 6m -39% · YTD +12%
-Consenso: não disponível (sem fonte licenciada); usar o release e o guidance anterior
-Por que importa: resultado é o evento que mais move o papel em um dia; a vol implícita e o posicionamento sobem antes e caem depois
-Como falar: 'o resultado sai amanhã; o movimento típico do papel num dia é o da vol acima, e o mercado costuma exagerar na abertura'
-Fonte: Yahoo
-ids: E01-COHR-D-1-2026-11-03
-
-(pendente de slot anterior) [ATENÇÃO] E05 · PETR4 · Dividendos de 14,8%: BB Investimentos escolhe Petrobras (PETR4), Axia (AXIA3) e outras oito ações para novembro
-Money Times · 03/11 13h59 · fonte única · licença: integral
-Do texto:
-  – Dividendos de 14,8%: BB Investimentos escolhe Petrobras (PETR4), Axia (AXIA3) e outras oito ações para novembro O BB Investimentos não realizou mudanças na sua carteira recomendada de dividendos para novembro de 2026.
-  – Deste modo, permanecem na carteira as ações de Banco ABC Brasil (ABCB4), Ambev (ABEV3), Allos (ALOS3), Axia (AXIA3), B3 (B3SA3), Direcional (DIRR3), Petrobras (PETR4), Marcopolo (POMO4), TIM (TIMS3) e Vibra Energia (VBB…
-  – Entre os nomes presentes na seleção, a Allos aparece com o maior dividend yield projetado, de 14,8%, seguida por Axia e Petrobras, com projeções de 11,8% e 11,5%, respectivamente.
-  – Já Ambev apresenta a menor estimativa de retorno via dividendos, de 6,5%.
-  – Em outubro, a carteira apresentou queda de 12%, desempenho inferior ao recuo de 9,9% registrado pelo Índice de Dividendos (IDIV).
-  – No acumulado de 2026, a estratégia registra perda de 4,77%, enquanto o benchmark avança 2,03%.
-Link: https://www.moneytimes.com.br/dividendos-148-bb-investimentos-escolhe-petrobras-petr4-axia-axia3-outras-oito-acoes-para-novembro-mlem/
-Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
-Ativos: PETR4 · AXIA3
-Como falar: 'saiu no Money Times: Dividendos de 14,8%: BB Investimentos escolhe Petrobras (PETR4), Axia (AXIA3) e outras oi…; confirmar o número no texto antes de repassar'
-Fonte: Money Times 03/11 13h59
-ids: E05-PETR4-3761d3a633-2026-11-03
-
-(pendente de slot anterior) [ATENÇÃO] E05 · PLTR · Palantir Technologies Inc. (PLTR) Raises 2026 Revenue Guidance After Q3 Revenue Climbs 96%
-TradingView (Reuters) · 03/11 13h31 · fonte única · licença: manchete
-Link: https://www.tradingview.com/news/tradingview:2db0c5ea4779c:0-palantir-technologies-inc-pltr-raises-2026-revenue-guidance-after-q3-revenue-climbs-96/
-Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
-Ativos: PLTR
-Como falar: 'saiu no TradingView (Reuters): Palantir Technologies Inc. (PLTR) Raises 2026 Revenue Guidance After Q3 Revenue Climbs 96%; confirmar o número no texto antes de repassar'
-Fonte: TradingView (Reuters) 03/11 13h31
-ids: E05-PLTR-1e68624328-2026-11-03
-
-(pendente de slot anterior) [ATENÇÃO] E05 · TSLA · Musk’s pay under a SpaceX-Tesla merger: voting control, but no $1 trillion payday​
-Reuters · 03/11 11h51 · fonte única · licença: manchete
-Link: https://www.reuters.com/business/media-telecom/musks-pay-under-spacex-tesla-merger-voting-control-no-1-trillion-payday-2026-11-03/
-Por que importa: aquisicao ou venda muda alavancagem, mix de receita e o multiplo; olhar preco pago e financiamento
-Ativos: TSLA
-Como falar: 'saiu no Reuters: Musk’s pay under a SpaceX-Tesla merger: voting control, but no $1 trillion payday​; confirmar o número no texto antes de repassar'
-Fonte: Reuters 03/11 11h51
-ids: E05-TSLA-4ecddeb83e-2026-11-03
+[CRÍTICO] T08 · 2 ativos: AXIA3, SBSP3
+· AXIA3 entrou em queda de -30% do pico: -31% do pico de 52s (R$ 67,15 em 14/04) a R$ 46,39
+  1m -18% · 6m -25% · 12m -15%
+· SBSP3 entrou em queda de -30% do pico: -31% do pico de 52s (R$ 35,21 em 20/04) a R$ 24,27
+  1m -14% · 6m -27% · 12m -3,7%
+Por que importa: -30% do pico é o limiar que a indústria chama de queda de -30% do pico; recuperar o pico exige +45%
+Como falar: 'o cliente sente a queda no extrato; a conversa é sobre a tese, não sobre o preço de hoje'
+Fonte: Yahoo Finance fech. 03/11
+Push: [CRÍTICO] AXIA3 entrou em queda de -30% do pico | SBSP3 entrou em queda de -30% do pico · detalhe na sessão
+ids: T08-AXIA3--30-2026-11-03, T08-SBSP3--30-2026-11-03
 
 (pendente de slot anterior) [ATENÇÃO] E05 · INTC · Intel Stocks Rebound 2.5% as Revenue Guidance Still Implies Sequential Decline
 Yahoo Finance · 03/11 15h15 · fonte única · licença: resumo
@@ -115,7 +69,7 @@ Como falar: 'saiu no TradingView (Reuters): Palantir Q3 Earnings Call Highlights
 Fonte: TradingView (Reuters) 03/11 14h50
 ids: E05-PLTR-2bfd82e709-2026-11-03
 
-[ATENÇÃO] E03 · AXIA3 · Comunicado ao Mercado: Recebeu comunicado da GQG Partners LLC (“GQG Partners”), informando que, em decorrência de operações realizadas no mercado acionário, passou a deter…
+(pendente de slot anterior) [ATENÇÃO] E03 · AXIA3 · Comunicado ao Mercado: Recebeu comunicado da GQG Partners LLC (“GQG Partners”), informando que, em decorrência de operações realizadas no mercado acionário, passou a deter…
 CVM · entregue 03/11/2026 18:37 · Aquisição/Alienação de Participação Acionária Relevante / Declaração de Aquisição de Participação Acionária Relevante
 Do documento:
   – A GQG Partners declara que esse é um investimento minoritário que não tem o objetivo de alterar a  composição do controle ou a estrutura administrativa da Companhia.
@@ -125,10 +79,9 @@ Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; 
 Ativos: AXIA3
 Como falar: 'a Axia Energia publicou comunicado ao mercado sobre Recebeu comunicado da GQG Partners LLC (“GQG Partners”), informando q…'
 Fonte: CVM 03/11
-Push: eventos: 5 alertas de atenção — E03 AXIA3, E03 ITUB4, E05 MMM, E05 MMM, E05 AMD · detalhe na sessão
 ids: E03-AXIA3-1583300-2026-11-03
 
-[ATENÇÃO] E03 · ITUB4 · Fato Relevante: Nesta data divulgou sua projeção revisada para o ano de 2026, conforme disposto no item 3 (“Projeções”) do Formulário de Referência.
+(pendente de slot anterior) [ATENÇÃO] E03 · ITUB4 · Fato Relevante: Nesta data divulgou sua projeção revisada para o ano de 2026, conforme disposto no item 3 (“Projeções”) do Formulário de Referência.
 CVM · entregue 03/11/2026 18:29
 Do documento:
   – Importante mencionar que, a partir de novembro de 2026, a Companhia passou a considerar um custo de  capital em torno de 15,25% a.a.
@@ -140,7 +93,7 @@ Como falar: 'a Itau Unibanco publicou fato relevante sobre Nesta data divulgou s
 Fonte: CVM 03/11
 ids: E03-ITUB4-1583271-2026-11-03
 
-[ATENÇÃO] E05 · MMM · 3M to take $5.8 billion hit under PFAS personal injury settlement By Reuters
+(pendente de slot anterior) [ATENÇÃO] E05 · MMM · 3M to take $5.8 billion hit under PFAS personal injury settlement By Reuters
 Investing.com · 03/11 21h16 · fonte única · licença: manchete
 Link: https://www.investing.com/news/stock-market-news/3m-to-take-58-billion-hit-under-pfas-personal-injury-settlement-4996985
 Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e prazo
@@ -149,7 +102,7 @@ Como falar: 'saiu no Investing.com: 3M to take $5.8 billion hit under PFAS perso
 Fonte: Investing.com 03/11 21h16
 ids: E05-MMM-83c3296f5c-2026-11-04
 
-[ATENÇÃO] E05 · MMM · 3M Announces $7.4 Billion Settlement in ‘Forever Chemicals’ Injuries Case
+(pendente de slot anterior) [ATENÇÃO] E05 · MMM · 3M Announces $7.4 Billion Settlement in ‘Forever Chemicals’ Injuries Case
 The Wall Street Journal · 03/11 20h59 · fonte única · licença: manchete
 Link: https://www.wsj.com/business/3m-announces-7-4-billion-settlement-in-forever-chemicals-injuries-case-17dd1e41
 Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e prazo
@@ -158,7 +111,7 @@ Como falar: 'saiu no The Wall Street Journal: 3M Announces $7.4 Billion Settleme
 Fonte: The Wall Street Journal 03/11 20h59
 ids: E05-MMM-05fe574753-2026-11-03
 
-[ATENÇÃO] E05 · AMD · AMD Soars After Huge Guidance News (NASDAQ:AMD)
+(pendente de slot anterior) [ATENÇÃO] E05 · AMD · AMD Soars After Huge Guidance News (NASDAQ:AMD)
 Seeking Alpha · 03/11 20h30 · fonte única · licença: manchete
 Link: https://seekingalpha.com/article/4961807-amd-soars-after-huge-guidance-news
 Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
@@ -167,50 +120,122 @@ Como falar: 'saiu no Seeking Alpha: AMD Soars After Huge Guidance News (NASDAQ:A
 Fonte: Seeking Alpha 03/11 20h30
 ids: E05-AMD-601b04fabb-2026-11-03
 
-Info (só linha no Fechamento):
-· E03 ITUB4 · Comunicado ao Mercado: Apresentações a analistas/agentes do mercado
-· E03 ITUB4 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
-· E03 ITUB4 · Comunicado ao Mercado: Apresentações a analistas/agentes do mercado
-· E03 ITUB4 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
-· E03 ITUB4 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
-· E03 AXIA3 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
-· E04 JPM · 10-Q: 10-Q
-· E05 AMD · Advanced Micro Devices (AMD) Stock Fair Value Edges Higher On AI Optimism And Valuation Debate
-· E05 AMD · Here’s why AMD’s stock is rising — and sending a confident message about the AI trade
-· E05 ITUB4 · Itaú se afasta de concorrentes com ROE de 23,6% e carteira saudável
-· E05 AMD · AMD: The Odds Are Getting Better, But The Bet Still Isn't Worth It (Upgrade) (NASDAQ:AMD)
-· E05 PETR4 · Fitch afirma rating BB da Petrobras e mantém perspectiva estável
-· E05 AXIA3 · Isa Energia dispara 246% no 3T26 após negócio com Axia Energia; o que explica o resultado?
-· E05 NVDA · What Is Nvidia (NVDA) Asking Cloud Clients To Change Under New China Rules?
-· E05 MMM · 3M Commits Nearly $7.4 Billion to Settle PFAS-Related Claims
-· E05 AMD · AMD EPS: Intel's Drag Makes No Sense
-· E05 DI · Um caminhão de riscos e incertezas leva o Copom ao impasse sobre os juros
-· E05 PLTR · Is Palantir Stock a Buy After its Latest Earnings Report?
-· E05 MRVL · Stock Market Today, Nov. 3: Marvell Shares Edge Higher After Premarket Drop on $115 Billion Lumentum Deal
-· E05 AMD · AMD Forecast Exceeds Estimates After AI Chip Demand Soars
-· E05 AMD · AMD Stock Surges After Hours As Q3 Sales Surge 45% On AI Boom, And Expectations For 80% Revenue Jump In 2027
-· E05 AMD · AMD Stock Jumps on Big Earnings Beat
-· E05 ITUB4 · Itaú tem lucro líquido recorrente de R$ 12,6 bi no 3º tri, alta de 6,2%
-· E05 AMD · Earnings call transcript: AMD tops Q3 2026 estimates as stock jumps after hours
-· E05 ITUB4 · Lucro do Itaú desacelera no 3º trimestre, com atrasos das pequenas empresas em alta
-· E05 MMM · 3M Company (MMM) Authorizes Up to $7.5B in Buybacks, Declares $0.78 Dividend
-· E05 MMM · 3M Board Approves New $6 Billion Share Repurchase Authorization, Declares Quarterly Dividend
-· E05 ITUB4 · Lucro do Itaú bate novo recorde e chega a R$ 12,6 bilhões no 3º trimestre
-· E05 ITUB4 · Itaú (ITUB4) tem lucro de R$ 12,6 bilhões e ROE de 23,6% no 3T26; veja os detalhes do balanço
-· E05 AMD · AMD pops as Q3 results, guidance top estimates on data center strength (AMD:NASDAQ)
-· E05 CVX · Trump Says Iran “Wants a Settlement.” CEO Predicts Peace Sends Oil 40% Lower for Exxon, Chevron
+[ATENÇÃO] M03 · Focus de 30/10: IPCA: 2026 5,22% (+2 bps) · 2027 4,76% (+33 bps)
+Selic fim de ano: 2026 13,50% (+25 bps) · 2027 12,50% (+50 bps)
+Câmbio fim de ano: 2026 R$ 5,34 (+0,28) · 2027 R$ 5,40 (+0,20)
+Por que importa: a mediana do Focus é a régua do Copom; mudança de 10 bps no IPCA ou 25 bps na Selic muda a leitura da curva
+Ativos: DI · Tesouro · USD/BRL
+Como falar: 'o mercado revisou as projeções; comparar com o que a curva de juros já precifica'
+Fonte: BCB Focus (Olinda) 30/10
+Push: Fechamento 18h: 5 alertas de atenção — M03 MACRO, E03 ALUP4, E05 MMM, E05 MMM, E05 MMM · detalhe na sessão
+ids: M03-MACRO-focus-2026-10-30
 
-Suprimidos pelo teto (viram linha do Fechamento): E05-ITUB4-124313c5ca-2026-11-03 (teto de noticias), E05-AMD-8c8d6c3ac2-2026-11-03 (teto de noticias), E05-ITUB4-fc5def046e-2026-11-03 (teto de noticias), E05-MMM-c4bd1fc137-2026-11-03 (teto de noticias), E05-MMM-5f391c68d0-2026-11-03 (teto de noticias), E05-ITUB4-2508d2bce0-2026-11-03 (teto de noticias), E05-ITUB4-4c7aa4ac52-2026-11-03 (teto de noticias), E05-AMD-6957e60392-2026-11-03 (teto de noticias), E05-CVX-b71585fca9-2026-11-03 (teto de noticias)
+[ATENÇÃO] E03 · ALUP4 · Fato Relevante: O projeto totaliza investimentos estimados em US$ 85,0 milhões, com RAP de US$ 11,9 milhões.
+CVM · entregue 03/11/2026 21:50
+Do documento:
+  – O projeto totaliza investimentos estimados em US$ 85,0 milhões, com RAP de US$ 11,9 milhões.
+  – São Paulo, 03 de novembro de 2026    _________________________  Luiz Eduardo Muniz Coimbra  Diretor de Relações com Investidores
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1583597
+Por que importa: fato relevante e o que a propria companhia julga capaz de mover o preco; ler o documento inteiro antes de comentar
+Ativos: ALUP4
+Como falar: 'a Alupar publicou fato relevante sobre O projeto totaliza investimentos estimados em US$ 85,0 milhões, com R…'
+Fonte: CVM 03/11
+ids: E03-ALUP4-1583597-2026-11-03
+
+[ATENÇÃO] E05 · MMM · Baron & Budd and Douglas & London Obtain $7.350 Billion Settlement With 3M Company to Resolve PFAS Personal Injury Lawsuits
+Business Wire · 03/11 22h09 · fonte única · licença: integral
+Link: https://www.businesswire.com/news/home/20261103960967/en/Baron-Budd-and-Douglas-London-Obtain-%247.350-Billion-Settlement-With-3M-Company-to-Resolve-PFAS-Personal-Injury-Lawsuits
+Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e prazo
+Ativos: MMM
+Como falar: 'saiu no Business Wire: Baron & Budd and Douglas & London Obtain $7.350 Billion Settlement With 3M Company to Res…; confirmar o número no texto antes de repassar'
+Fonte: Business Wire 03/11 22h09
+ids: E05-MMM-7ab3228cec-2026-11-04
+
+[ATENÇÃO] E05 · MMM · 3M to take $5.8 billion hit under PFAS personal injury settlement
+TradingView (Reuters) · 03/11 21h01 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/reuters.com,2026:newsml_L3N46K20Q:0-3m-to-take-5-8-billion-hit-under-pfas-personal-injury-settlement/
+Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e prazo
+Ativos: MMM
+Como falar: 'saiu no TradingView (Reuters): 3M to take $5.8 billion hit under PFAS personal injury settlement; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 03/11 21h01
+ids: E05-MMM-3be112df20-2026-11-04
+
+[ATENÇÃO] E05 · MMM · 3M Board Approves New $6 Billion Share Repurchase Authorization, Declares Quarterly Dividend
+PR Newswire · 03/11 18h59 · + TradingView (Reuters), Investing.com · licença: integral
+Do texto:
+  – The board also declared a dividend on the company's common stock of $0.78 per share for the fourth quarter of 2026.
+  – 11, 2026, to shareholders of record at the close of business on Nov.
+  – 3M has paid dividends to its shareholders without interruption for more than 100 years.
+  – About 3M 3M (NYSE: MMM) is focused on transforming industries around the world by applying science and creating innovative, customer-focused solutions.
+  – Discover how 3M is shaping the future at 3M.com/news.
+  – Investor Contact: Diane Farrow  612-202-2449  Media Contact: 3Mnews@mmm.com  SOURCE 3M Company
+Link: https://www.prnewswire.com/news-releases/3m-board-approves-new-6-billion-share-repurchase-authorization-declares-quarterly-dividend-302928490.html
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: MMM
+Como falar: 'saiu no PR Newswire: 3M Board Approves New $6 Billion Share Repurchase Authorization, Declares Quarterly Divid…; confirmar o número no texto antes de repassar'
+Fonte: PR Newswire 03/11 18h59
+ids: E05-MMM-0ecfe9dc26-2026-11-03
+
+Info (só linha no Fechamento):
+· T02 PLTR perdeu a MM50 pela 2ª sessão: US$ 175,77, ainda acima da MM200 (tendência longa preservada)
+· T07 AXIA3 entrou em sobrevendido: RSI14 24 a R$ 46,39
+· T09 QANT -1,8% com volume 41,3x a mediana de 20 sessões, a US$ 5,32
+· T09 ALUP4 -2,0% com volume 3,0x a mediana de 20 sessões, a R$ 10,05
+· T11 BOTZ descolou à frente de SOX: -11% vs -20% em 20 sessões (z 2,0 em 252 sessões, 2º dia)
+· T11 CURY3 descolou à frente de DIRR3: -11% vs -24% em 20 sessões (z 2,0 em 252 sessões, 2º dia)
+· T12 PLTR: 6 quedas seguidas (-12% acumulado) a US$ 175,77
+· T12 SAPR4: 6 quedas seguidas (-27% acumulado) a R$ 5,91
+· T12 ITUB4: 6 quedas seguidas (-20% acumulado) a R$ 38,49
+· T12 BBDC4: 6 quedas seguidas (-33% acumulado) a R$ 13,58
+· T12 ITSA4: 6 quedas seguidas (-19% acumulado) a R$ 12,42
+· E05 USDBRL · Dólar fecha na maior cotação do ano
+· E05 AMD · AMD stock jumps after hours as quarterly results, revenue guidance beat estimates
+· E05 AMD · Advanced Micro (AMD) Reports Q3 Earnings: What Key Metrics Have to Say
+· E05 AMD · AMD Earnings 'Met the Bar,' Wedbush's Bryson Says
+· E05 ITUB4 · Itaú, BB Seguridade e mais: os balanços que podem mexer com o Ibovespa nesta semana
+· E05 AMD · AMD has been crushed into earnings. Here’s one way to trade it
+· E05 AMD · Here's how options traders are playing AMD ahead of earnings
+· E05 PLTR · Buy the Dip in Apple or Palantir Stock After Earnings?
+· E05 ITUB4 · Ações recomendadas: Itaú (ITUB4), Vale (VALE3) e Petrobras (PETR4) entram no radar para novembro
+· E05 PLTR · Palantir Technology Shows Huge Unusual Call Options Activity - Is PLTR Stock Too Cheap?
+· E05 CVX · Chevron Corporation (CVX) is Attracting Investor Attention: Here is What You Should Know
+· E05 NVDA · Nvidia’s Dismal Run Might Be Coming to an End. Grab NVDA Stock While It’s Still Around $200.
+· E05 NVDA · Nvidia tells data center partners to limit China sales- FT
+· T04 BBDC4 fechou na mínima de 52 semanas: R$ 13,58, -28% em 1m e -20% em 12m
+· T04 AXIA3 fechou na mínima de 52 semanas: R$ 46,39, -18% em 1m e -15% em 12m
+· T04 BBAS3 fechou na mínima de 52 semanas: R$ 16,19, -32% em 1m e -25% em 12m
+· T04 CURY3 fechou na mínima de 52 semanas: R$ 25,13, -11% em 1m e -18% em 12m
+· T12 UGPA3: 8 quedas seguidas (-22% acumulado) a R$ 31,07
+
+Suprimidos pelo teto (viram linha do Fechamento): T04-BBDC4-minima-2026-11-03 (teto de atenção), T04-AXIA3-minima-2026-11-03 (teto de atenção), T04-BBAS3-minima-2026-11-03 (teto de atenção), T04-CURY3-minima-2026-11-03 (teto de atenção), T12-UGPA3-quedas_8-2026-11-03 (teto de atenção)
 
 Alertas do dia (todos, com status):
+· pendente  C05 TESOURO — Pre 2029 ABRE 30 bps (PU -0,5%) · IPCA+ 2032 ABRE 15 bps (PU -0,8%) · IPCA+ 2050
+· pendente  T08 AXIA3 — AXIA3 entrou em queda de -30% do pico: -31% do pico de 52s (R$ 67,15 em 14/04) a
+· pendente  T08 SBSP3 — SBSP3 entrou em queda de -30% do pico: -31% do pico de 52s (R$ 35,21 em 20/04) a
+· pendente  C01 DI — A curva ABRIU: F29 +17 bps no dia · F30 +17 bps no dia · F30 4 pregões seguidos 
+· pendente  C02 DI — Inclinação da curva DI: F35-F28 +45 bps em 5 pregões · F30-F28 +26 bps em 5 preg
+· pendente  C03 DI — DI em nível: F28 cruzou 14,50% (para cima, agora 14,63%) · F29 cruzou 15,00% (pa
+· pendente  C03 TESOURO — Prefixado em nível: Pre 2029 cruzou 15,00% (agora 15,19%) · Pre 2032 cruzou 15,5
+· pendente  C06 TESOURO — Inflação implícita: implícita 2029 +93 bps na semana · implícita 2032 +319 bps a
+· linha     T04 BBDC4 — BBDC4 fechou na mínima de 52 semanas: R$ 13,58, -28% em 1m e -20% em 12m
+· linha     T04 AXIA3 — AXIA3 fechou na mínima de 52 semanas: R$ 46,39, -18% em 1m e -15% em 12m
+· linha     T04 BBAS3 — BBAS3 fechou na mínima de 52 semanas: R$ 16,19, -32% em 1m e -25% em 12m
+· linha     T04 CURY3 — CURY3 fechou na mínima de 52 semanas: R$ 25,13, -11% em 1m e -18% em 12m
+· linha     T12 UGPA3 — UGPA3: 8 quedas seguidas (-22% acumulado) a R$ 31,07
+· pendente  M03 MACRO — Focus de 30/10: IPCA: 2026 5,22% (+2 bps) · 2027 4,76% (+33 bps)
+· pendente  E03 ALUP4 — ALUP4 · Fato Relevante: O projeto totaliza investimentos estimados em US$ 85,0 m
+· pendente  E05 MMM — MMM · Baron & Budd and Douglas & London Obtain $7.350 Billion Settlement With 3M
+· pendente  E05 MMM — MMM · 3M to take $5.8 billion hit under PFAS personal injury settlement
+· pendente  E05 MMM — MMM · 3M Board Approves New $6 Billion Share Repurchase Authorization, Declares 
 · pendente  E03 AXIA3 — AXIA3 · Comunicado ao Mercado: Recebeu comunicado da GQG Partners LLC (“GQG Part
 · pendente  E03 ITUB4 — ITUB4 · Fato Relevante: Nesta data divulgou sua projeção revisada para o ano de 
 · pendente  E05 MMM — MMM · 3M to take $5.8 billion hit under PFAS personal injury settlement By Reute
 · pendente  E05 MMM — MMM · 3M Announces $7.4 Billion Settlement in ‘Forever Chemicals’ Injuries Case
 · pendente  E05 AMD — AMD · AMD Soars After Huge Guidance News (NASDAQ:AMD)
-· pendente  E05 PLTR — PLTR · Palantir Q3 Earnings Call Highlights Sovereign AI Demand and Outlook
-· pendente  E05 INTC — INTC · Intel Stocks Rebound 2.5% as Revenue Guidance Still Implies Sequential De
-· pendente  E05 BRENT — BRENT · Produção de petróleo sobe 20% e bate 4º recorde seguido
+· expirado  E05 PLTR — PLTR · Palantir Q3 Earnings Call Highlights Sovereign AI Demand and Outlook
+· expirado  E05 INTC — INTC · Intel Stocks Rebound 2.5% as Revenue Guidance Still Implies Sequential De
+· expirado  E05 BRENT — BRENT · Produção de petróleo sobe 20% e bate 4º recorde seguido
 · expirado  E01 ITUB4 — ITUB4: resultado sai na próxima sessão (04/11)
 · expirado  E01 MELI34 — MELI34: resultado sai na próxima sessão (04/11)
 · expirado  E01 GFS — GFS: resultado sai na próxima sessão (04/11)
@@ -218,5 +243,16 @@ Alertas do dia (todos, com status):
 · expirado  E05 PETR4 — PETR4 · Dividendos de 14,8%: BB Investimentos escolhe Petrobras (PETR4), Axia (A
 · expirado  E05 PLTR — PLTR · Palantir Technologies Inc. (PLTR) Raises 2026 Revenue Guidance After Q3 R
 · expirado  E05 TSLA — TSLA · Musk’s pay under a SpaceX-Tesla merger: voting control, but no $1 trillio
+· linha     T02 PLTR — PLTR perdeu a MM50 pela 2ª sessão: US$ 175,77, ainda acima da MM200 (tendência l
+· linha     T07 AXIA3 — AXIA3 entrou em sobrevendido: RSI14 24 a R$ 46,39
+· linha     T09 QANT — QANT -1,8% com volume 41,3x a mediana de 20 sessões, a US$ 5,32
+· linha     T09 ALUP4 — ALUP4 -2,0% com volume 3,0x a mediana de 20 sessões, a R$ 10,05
+· linha     T11 BOTZ — BOTZ descolou à frente de SOX: -11% vs -20% em 20 sessões (z 2,0 em 252 sessões,
+· linha     T11 CURY3 — CURY3 descolou à frente de DIRR3: -11% vs -24% em 20 sessões (z 2,0 em 252 sessõ
+· linha     T12 PLTR — PLTR: 6 quedas seguidas (-12% acumulado) a US$ 175,77
+· linha     T12 SAPR4 — SAPR4: 6 quedas seguidas (-27% acumulado) a R$ 5,91
+· linha     T12 ITUB4 — ITUB4: 6 quedas seguidas (-20% acumulado) a R$ 38,49
+· linha     T12 BBDC4 — BBDC4: 6 quedas seguidas (-33% acumulado) a R$ 13,58
+· linha     T12 ITSA4 — ITSA4: 6 quedas seguidas (-19% acumulado) a R$ 12,42
 · linha     F06 ETH — ETH sobe a US$ 2.286 (cruzou US$ 2.250) (parcial, intradia)
-· (+81 notícias só manchete, em noticias.md)
+· (+94 notícias só manchete, em noticias.md)
