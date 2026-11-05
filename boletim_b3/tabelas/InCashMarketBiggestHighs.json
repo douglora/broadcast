@@ -1,5 +1,5 @@
 {
- "pregao": "2026-11-03",
+ "pregao": "2026-11-04",
  "nome": "InCashMarketBiggestHighs",
  "titulo": "Mercado à vista - maiores altas",
  "sla": "8:00:00",
@@ -7,18 +7,18 @@
  "colunas": [{"nome": "TckrSymb", "titulo": "Ação"}, {"nome": "Cod", "titulo": "Código"}, {"nome": "Price", "titulo": "Preço (R$)"}, {"nome": "Oscillation", "titulo": "Oscilação (%)"}],
  "texto": ["Mostra as maiores valorizações de ativos no mercado à vista, destacando as melhores performances."],
  "situacao": "publicado",
- "atualizado_em": "2026-11-03T19:00:51.047",
+ "atualizado_em": "2026-11-04T19:00:41.047",
  "truncada": false,
  "linhas": [
-  ["I1DX34", "DRN", 744.09, 19.99],
-  ["RBFY11", "CI", 72, 20.14],
-  ["C2HP34", "DRN", 20, 20.84],
-  ["XRAY34", "DRN", 53.4, 24.18],
-  ["FMOF11", "CI  ER", 19.81, 28.22],
-  ["O2LE34", "DRN", 27.33, 30.14],
-  ["E2NO34", "DRN", 28.71, 34.03],
-  ["RCSL4", "PN", 0.82, 36.66],
-  ["B1SX34", "DRN", 82.14, 43.5],
-  ["VFCO34", "DRN", 55.2, 52.65]
+  ["C1BR34", "DRN", 766.34, 16.84],
+  ["E1MN34", "DRN", 185.4, 16.92],
+  ["DASA3", "ON      NM", 2.92, 17.26],
+  ["PRIF11", "CI  EA", 77.91, 19.42],
+  ["PDGR3", "ON      NM", 0.22, 22.22],
+  ["BRKM6", "PNB     N1", 3.68, 22.66],
+  ["C1DN34", "DRN", 53.3, 23.89],
+  ["BIOM3", "ON      N2", 6.33, 25.34],
+  ["DUOL34", "DRN", 27.88, 26.03],
+  ["E2AG34", "DRN", 68.1, 29.71]
  ]
 }

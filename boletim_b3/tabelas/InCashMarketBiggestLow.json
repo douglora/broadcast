@@ -1,5 +1,5 @@
 {
- "pregao": "2026-11-03",
+ "pregao": "2026-11-04",
  "nome": "InCashMarketBiggestLow",
  "titulo": "Mercado à vista - maiores baixas",
  "sla": "8:00:00",
@@ -7,18 +7,18 @@
  "colunas": [{"nome": "TckrSymb", "titulo": "Ação"}, {"nome": "Cod", "titulo": "Código"}, {"nome": "Price", "titulo": "Preço (R$)"}, {"nome": "OscillationDesc", "titulo": "Oscilação (%)"}],
  "texto": ["Mostra as maiores desvalorizações de ativos no mercado à vista num período."],
  "situacao": "publicado",
- "atualizado_em": "2026-11-03T19:00:49.597",
+ "atualizado_em": "2026-11-04T19:00:41.02",
  "truncada": false,
  "linhas": [
-  ["PRNR1", "DIR ORD NM", 0.01, -50],
-  ["SEQL3", "ON  EG  NM", 4.09, -31.83],
-  ["I1FO34", "DRN ED", 33.11, -30.24],
-  ["VIVR12", "BNS ORD NM", 0.08, -27.27],
-  ["SPTW11", "CI", 24.9, -21.2],
-  ["C1DN34", "DRN", 43.02, -20.28],
-  ["OSXB3", "ON      NM", 1.6, -20],
-  ["HETA4", "PN", 4.81, -19.96],
-  ["RBDS11", "CI", 1.61, -19.5],
-  ["S2GM34", "DRN", 10.15, -19.05]
+  ["D2OX34", "DRN", 30.84, -27.99],
+  ["F1NI34", "DRN", 10.2, -24.27],
+  ["B1SX34", "DRN", 62.9, -23.42],
+  ["E1TN34", "DRN", 136.05, -19.97],
+  ["V1ST34", "DRN", 46.82, -17.67],
+  ["N1IC34", "DRN", 21.98, -16.45],
+  ["RCSL4", "PN", 0.69, -15.85],
+  ["ERPA11", "CI", 134, -15.76],
+  ["N1RG34", "DRN ED", 45.42, -15.35],
+  ["D1DG34", "DRN", 103.53, -15.13]
  ]
 }

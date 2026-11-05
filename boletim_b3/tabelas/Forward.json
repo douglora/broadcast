@@ -1,19 +1,19 @@
 {
- "pregao": "2026-11-03",
+ "pregao": "2026-11-04",
  "nome": "Forward",
  "titulo": "Ações mais negociadas - a termo",
  "sla": "8:00:00",
  "paginas": 1,
  "colunas": [{"nome": "TckrSymb", "titulo": "Ação"}, {"nome": "Cod", "titulo": "Código"}, {"nome": "Term", "titulo": "Prazo"}, {"nome": "Closing", "titulo": ""}, {"nome": "TradQty", "titulo": ""}, {"nome": "VlmTradedDay", "titulo": "Volume (R$) mil"}, {"nome": "Part", "titulo": "Participação (%)"}],
  "texto": ["Lista ações com maior volume de negociação em contratos a termo, destacando as mais ativas."],
- "situacao": "republicado",
- "atualizado_em": "2026-11-04T02:42:42.687",
+ "situacao": "publicado",
+ "atualizado_em": "2026-11-04T19:01:35.497",
  "truncada": false,
  "linhas": [
-  ["FII TRX REALCI  ER", "CI  ER", 49, 64.12, 80000, 5129.6, 1.4364758936900095],
-  ["IT NOW SP BRCI", "CI", 120, 78.46, 125301, 9831.11646, 2.2498983244406476],
-  ["TRD SPX USD CI", "CI", 360, 20.65, 146211, 3019.25715, 2.625357211153876],
-  ["IRANI       ON      NM", "ON      NM", 181, 8.95, 245700, 2199.015, 4.411776588495444],
-  ["ASSAI       ON      NM", "ON      NM", 90, 8.09, 2925000, 23663.25, 52.521149863040975]
+  ["PRIO        ON      NM", "ON      NM", 72, 64.92, 60000, 3895.2, 1.260816227209171],
+  ["AXIA ENERGIAON      NM", "ON      NM", 72, 48.44, 84600, 4098.024, 1.7777508803649305],
+  ["EQUATORIAL  ON      NM", "ON      NM", 72, 34.21, 120000, 4105.2, 2.521632454418342],
+  ["ITAUUNIBANCOPN  EJ  N1", "PN  EJ  N1", 20, 40.06, 150000, 6009, 3.152040568022927],
+  ["ASSAI       ON      NM", "ON      NM", 90, 8.08, 1001300, 8090.504, 21.040921471742376]
  ]
 }

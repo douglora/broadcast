@@ -1,7 +1,7 @@
 # Boletim da B3: pregão de 03/11/2026 (terça)
 
 **Situação: COMPLETO.** Boletim publicado pela B3 em 2026-11-04 00:00 (hora de Brasília).
-Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-11-04T18:51:20Z (UTC).
+Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-11-05T00:52:40Z (UTC).
 
 [[LEITURA_DA_MESA]]
 
@@ -299,7 +299,7 @@ Nas incentivadas, a mediana pelos negócios do dia (B3 negócios de 03/11) foi I
 **Fecharam taxa pela indicativa da ANBIMA:** RISP14 -18,4 pb contra 30/10, para IPCA+ 14,27% (R$ 44,0 mi); PALFB3 -7,9 pb contra 30/10, para IPCA+ 8,10% (R$ 3,4 mi); TIMS12 -7,3 pb contra 30/10, para IPCA+ 5,26% (R$ 10,0 mi); CJEN13 -5,9 pb contra 30/10, para IPCA+ 8,47% (R$ 9,8 mi); EGIEB2 -5,7 pb contra 30/10, para IPCA+ 7,79% (R$ 21,2 mi).
 **Abriram taxa pelos negócios da B3:** 23F2455004 +78 pb contra 30/10, para 17,48% pré (R$ 4,7 mi); CRA02300HWK +25 pb contra 30/10, para 14,74% pré (R$ 4,5 mi); CRA02300NX8 +20 pb contra 30/10, para 14,70% pré (R$ 3,8 mi); CRA0240066D +13 pb contra 30/10, para 19,67% pré (R$ 4,7 mi); CESE11 +9 pb contra 30/10, para IPCA+ 8,54% (R$ 10,0 mi).
 **Fecharam taxa pelos negócios da B3:** CRA022001E2 -228 pb contra 29/10, para IPCA+ 12,07% (R$ 5,9 mi); 26H4496803 -12 pb contra 29/10, para CDI+ 2,26% (R$ 139,5 mi); CRA02300CYS -3 pb contra 29/10, para IPCA+ 7,84% (R$ 5,4 mi).
-**Prêmio alto:** CONX12 a IPCA+ 14,34% (ANBIMA indicativa de 03/11), +664 pb na duration, R$ 6,9 mi; RISP14 a IPCA+ 14,27% (ANBIMA indicativa de 03/11), +625 pb na duration, R$ 44,0 mi; RISP12 a IPCA+ 14,21% (ANBIMA indicativa de 03/11), +620 pb na duration, R$ 52,3 mi; RIS412 a IPCA+ 14,17% (ANBIMA indicativa de 03/11), +616 pb na duration, R$ 17,8 mi; RIS414 a IPCA+ 14,17% (ANBIMA indicativa de 03/11), +616 pb na duration, R$ 20,6 mi.
+**Prêmio alto:** CONX12 a IPCA+ 14,34% (ANBIMA indicativa de 03/11), +664 pb na duration, R$ 6,9 mi; RISP14 a IPCA+ 14,27% (ANBIMA indicativa de 03/11), +625 pb na duration, R$ 44,0 mi; RISP12 a IPCA+ 14,21% (ANBIMA indicativa de 03/11), +620 pb na duration, R$ 52,3 mi; RIS414 a IPCA+ 14,17% (ANBIMA indicativa de 03/11), +616 pb na duration, R$ 20,6 mi; RIS412 a IPCA+ 14,17% (ANBIMA indicativa de 03/11), +616 pb na duration, R$ 17,8 mi.
 
 Por classe, mediana das taxas de referência dos papéis. Taxa de referência: nas debêntures, a indicativa da ANBIMA quando há; nos demais papéis, a média dos negócios da B3 ponderada pelo volume. Juro real = DAP (cupom de IPCA) da mesma data: na duration do papel quando a taxa é a indicativa, no vencimento quando é a dos negócios (aproximação). Em CRI e CRA a B3 informa a securitizadora.
 
