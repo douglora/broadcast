@@ -1,5 +1,5 @@
 {
- "pregao": "2026-11-03",
+ "pregao": "2026-11-04",
  "nome": "SwapFlex",
  "titulo": "Swap",
  "sla": "3:00:00",
@@ -7,23 +7,19 @@
  "colunas": [{"nome": "TckrSymb", "titulo": "Código IF"}, {"nome": "DueDate", "titulo": "Vencimento"}, {"nome": "NmbrBusinesses", "titulo": "Número de negócios"}, {"nome": "NationalVol", "titulo": "Volume (R$)"}, {"nome": "AvrgDailyRate", "titulo": "Taxa média diária"}],
  "texto": ["Informações sobre contratos de swap de renda fixa, incluindo volumes e tipos de operações realizadas. Os detalhes sobre as regras utilizadas, bem como a definição de cada um dos campos, estão disponíveis no <a href=\"https://www.b3.com.br/data/files/70/F3/F6/C4/73E609105FE89209AC094EA8/Glossario%20do%20BDI_v3.pdf\">Glossário</a>."],
  "situacao": "publicado",
- "atualizado_em": "2026-11-03T22:00:49.907",
+ "atualizado_em": "2026-11-04T22:20:57.963",
  "truncada": false,
  "linhas": [
-  ["DI1 x PRE", "2027-12-28", 1, 258820199, 14.598],
-  ["DI1 x PRE", "2028-01-14", 1, 258186348, 14.638],
-  ["DI1 x PRE", "2028-01-27", 1, 515405398, 14.666],
-  ["DI1 x PRE", "2029-07-16", 1, 60000, 18.01],
-  ["DI1 x PRE", "2030-07-29", 1, 52000, 15.8],
-  ["DI1 x PRE", "2032-07-26", 1, 52000, 16.81],
-  ["DI1 x PRE", "2033-01-03", 3, 380000, 15.2212],
-  ["DI1 x PRE", "2033-11-03", 9, 950000, 18.1268],
-  ["DI1 x PRE", "2035-01-02", 5, 1350000, 15.2533],
-  ["DI1 x PRE", "2036-10-10", 1, 130000, 20.3],
-  ["DI1 x PRE", "2036-10-15", 1, 50000, 16.32],
-  ["DI1 x PRE", "2036-10-30", 1, 100000, 18.73],
-  ["DI1 x PRE", "2036-11-03", 12, 1971000, 17.7306],
-  ["DI1 x PRE", "2041-10-25", 5, 870000, 15.098],
-  ["DI1 x PRE", "2041-11-01", 4, 450000, 15.2722]
+  ["DI1 x PRE", "2031-07-21", 1, 70000, 16.2],
+  ["DI1 x PRE", "2031-11-07", 1, 1000000, 18.25],
+  ["DI1 x PRE", "2032-01-29", 1, 400000, 18.27],
+  ["DI1 x PRE", "2032-11-04", 1, 125000, 14.12],
+  ["DI1 x PRE", "2033-05-04", 1, 100000, 14.25],
+  ["DI1 x PRE", "2033-11-04", 8, 660000, 15.7744],
+  ["DI1 x PRE", "2035-01-02", 2, 350000, 14.9871],
+  ["DI1 x PRE", "2036-10-10", 7, 770000, 19.85],
+  ["DI1 x PRE", "2036-11-04", 17, 1739000, 16.725],
+  ["DI1 x PRE", "2041-10-25", 4, 3650000, 14.8195],
+  ["DI1 x PRE", "2041-11-04", 6, 570000, 14.8358]
  ]
 }

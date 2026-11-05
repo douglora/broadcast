@@ -6,8 +6,8 @@
  "paginas": 1,
  "colunas": [{"nome": "TckrSymb", "titulo": "Série"}, {"nome": "XprtnDt", "titulo": "Data do vencimento"}, {"nome": "ClnrDays", "titulo": "Prazo em dias corridos"}, {"nome": "AdjstdQtTax", "titulo": "Taxa de mercado"}, {"nome": "SwpDscntFctr", "titulo": "Fator de desconto"}, {"nome": "MktVal", "titulo": "Valor de mercado"}],
  "texto": ["Mostra a avaliação atual das posições em derivativos, refletindo o valor de mercado das operações."],
- "situacao": "aguardando",
- "atualizado_em": "2026-11-04T00:00:38.013",
+ "situacao": "ignorado",
+ "atualizado_em": "2026-11-05T00:00:46.203",
  "truncada": false,
  "linhas": [
   ["SCSZ601", "2026-12-01", 27, 13.161, 1.00987075, 49511.286469],

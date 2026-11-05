@@ -1,5 +1,5 @@
 {
- "pregao": "2026-11-03",
+ "pregao": "2026-11-04",
  "nome": "ProventionCreditVariable",
  "titulo": "Crédito de proventos",
  "sla": "00:00:00",
@@ -7,15 +7,16 @@
  "colunas": [{"nome": "TckrSymb", "titulo": "Emissor"}, {"nome": "Code", "titulo": "Código ISIN"}, {"nome": "EarningsType", "titulo": "Tipo de provento"}, {"nome": "DateAge", "titulo": "Data de aprovação"}, {"nome": "Value", "titulo": "Valor (R$)"}, {"nome": "CreditDate", "titulo": "Data de crédito"}],
  "texto": ["Crédito de proventos é o montante recebido por investidores como retorno sobre investimentos em ações ou outros ativos de renda variável. Nesta tabela, estão informações sobre esses rendimentos."],
  "situacao": "publicado",
- "atualizado_em": "2026-11-03T20:56:37.037",
+ "atualizado_em": "2026-11-04T23:40:37.77",
  "truncada": false,
  "linhas": [
-  ["ITAU UNIBANCO HOLDING S.A.", "BRITUBACNPR1 374", "JUROS SOBRE CAPITAL PRÓPRIO", null, 0.018182, "2026-11-03"],
-  ["BANESTES S.A. - BCO EST ESPIRITO SANTO", "BRBEESACNOR9 424", "JUROS SOBRE CAPITAL PRÓPRIO", null, 0.02877663509, "2026-11-03"],
-  ["ITAU UNIBANCO HOLDING S.A.", "BRITUBACNOR4 374", "JUROS SOBRE CAPITAL PRÓPRIO", null, 0.018182, "2026-11-03"],
-  ["FII ELDORADO FDO INV IMOB - RESP LIM", "BRELDOCTF002 474", "RENDIMENTO", null, 1, "2026-11-03"],
-  ["BANESTES S.A. - BCO EST ESPIRITO SANTO", "BRBEESACNPR6 349", "JUROS SOBRE CAPITAL PRÓPRIO", null, 0.02877663509, "2026-11-03"],
-  ["BCO BRADESCO S.A.", "BRBBDCACNPR8 807", "JUROS SOBRE CAPITAL PRÓPRIO", null, 0.018974809, "2026-11-03"],
-  ["BCO BRADESCO S.A.", "BRBBDCACNOR1 807", "JUROS SOBRE CAPITAL PRÓPRIO", null, 0.017249826, "2026-11-03"]
+  ["THE GAP, INC.", "BRGPSIBDR009 135", "DIVIDENDO", null, 0.636108231, "2026-11-04"],
+  ["ALLOS S.A", "BRALOSACNOR5 126", "DIVIDENDO", null, 0.291918638, "2026-11-04"],
+  ["SUNO LOG FII RESP LIM", "BRSNLGCTF007 113", "AMORTIZAÇÃO", "2026-10-27", 2.72357619, "2026-11-04"],
+  ["NETAPP INC", "BRN1TABDR008 128", "DIVIDENDO", null, 0.13501222, "2026-11-04"],
+  ["AGILENT TECHNOLOGIES INC", "BRA1GIBDR003 127", "DIVIDENDO", null, 0.092691437, "2026-11-04"],
+  ["PERFIN APOLLO ENERGIA FND DE INVEST EM PART.", "BRPFINCTF001 126", "RENDIMENTO", "2026-10-28", 1.28, "2026-11-04"],
+  ["FOMENTO ECONOMICO MEXICANO SAB DE CV - FEMSA", "BRFMXBBDR003 122", "DIVIDENDO", null, 7.978835991, "2026-11-04"],
+  ["COMCAST CORPORATION", "BRCMCSBDR008 161", "DIVIDENDO", null, 0.239906394, "2026-11-04"]
  ]
 }

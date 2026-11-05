@@ -1,5 +1,5 @@
 {
- "pregao": "2026-11-03",
+ "pregao": "2026-11-04",
  "nome": "IbovespaStockBiggestLow",
  "titulo": "Ações do IBOVESPA - maiores baixas",
  "sla": "8:00:00",
@@ -7,18 +7,18 @@
  "colunas": [{"nome": "TckrSymb", "titulo": "Ação"}, {"nome": "Cod", "titulo": "Código"}, {"nome": "Price", "titulo": "Preço (R$)"}, {"nome": "OscillationDesc", "titulo": "Oscilação (%)"}],
  "texto": ["Lista as ações do IBOVESPA que apresentaram as maiores quedas de preços em um período."],
  "situacao": "publicado",
- "atualizado_em": "2026-11-03T23:30:47.383",
+ "atualizado_em": "2026-11-04T23:30:24.997",
  "truncada": false,
  "linhas": [
-  ["COGN3", "ON      NM", 1.38, -12.65],
-  ["CMIN3", "ON      N2", 4.61, -5.14],
-  ["AZZA3", "ON  ATZ NM", 13.6, -5.09],
-  ["HAPV3", "ON      NM", 3.99, -5],
-  ["MGLU3", "ON      NM", 5.09, -4.85],
-  ["PRIO3", "ON      NM", 68.08, -4.76],
-  ["BRAV3", "ON      NM", 17.63, -4.28],
-  ["ASAI3", "ON      NM", 7.57, -3.93],
-  ["PETR4", "PN      N2", 50.71, -3.79],
-  ["PETR3", "ON      N2", 57.82, -3.64]
+  ["BRAV3", "ON      NM", 16.01, -9.18],
+  ["PRIO3", "ON      NM", 62.14, -8.72],
+  ["PETR3", "ON      N2", 53.4, -7.64],
+  ["BBSE3", "ON      NM", 37.75, -7.45],
+  ["PETR4", "PN      N2", 47.12, -7.07],
+  ["USIM5", "PNA     N1", 4.85, -5.82],
+  ["GGBR4", "PN      N1", 24.88, -2.39],
+  ["GOAU4", "PN      N1", 11.03, -2.04],
+  ["UGPA3", "ON      NM", 30.68, -1.25],
+  ["POMO4", "PN      N2", 3.54, -0.84]
  ]
 }
