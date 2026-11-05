@@ -14,47 +14,6 @@ Como falar: 'a curva fechou: o prefixado valorizou na marcação; o cupom contra
 Fonte: B3 ajuste 04/11 · Tesouro Transparente base 04/11; BCB Focus · Tesouro Transparente, base 04/11 · ajuste B3 04/11
 ids: C01-DI-fechou-2026-11-04, C05-TESOURO-fechou-2026-11-04, C02-DI-inclinacao-2026-11-04, C03-DI-di-2026-11-04, C06-TESOURO-implicita-2026-11-04
 
-(pendente de slot anterior) [ATENÇÃO] E05 · GOOGL · Alphabet Stocks Rise 1.4% as Euro Borrowing Meets a $200 Billion Spending Plan
-Yahoo Finance · 04/11 16h36 · fonte única · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – Google's parent priced 6 billion of notes in a November 2 term sheet, spread across seven tranches with maturities extending through 2045.
-  – Shares rose 1.40% to $283.96 at 9:20 a.m.
-  – ET in November 4 premarket trading.
-  – GuruFocus has detected 3 Warning Signs with NVDA.
-  – According to Reuters, the deal follows a 9 billion euro offering in May, bringing the two transactions to 15 billion.
-  – The November issuance represents 40% of that total.
-Link: https://sg.finance.yahoo.com/news/alphabet-stocks-rise-1-4-193607695.html
-Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
-Ativos: GOOGL
-Como falar: 'saiu no Yahoo Finance: Alphabet Stocks Rise 1.4% as Euro Borrowing Meets a $200 Billion Spending Plan; confirmar o número no texto antes de repassar'
-Fonte: Yahoo Finance 04/11 16h36
-ids: E05-GOOGL-f2a793db31-2026-11-04
-
-(pendente de slot anterior) [ATENÇÃO] E05 · ITUB4 · BTG tira Itaú, Cury e Axia da carteira e aposta em dividendos
-UOL Economia · 04/11 16h17 · fonte única · licença: manchete
-Link: https://economia.uol.com.br/noticias/redacao/2026/11/04/btg-tira-itau-cury-e-axia-da-carteira-e-aposta-em-dividendos.ghtm
-Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
-Ativos: ITUB4 · AXIA3 · CURY3
-Como falar: 'saiu no UOL Economia: BTG tira Itaú, Cury e Axia da carteira e aposta em dividendos; confirmar o número no texto antes de repassar'
-Fonte: UOL Economia 04/11 16h17
-ids: E05-ITUB4-e66792b4cf-2026-11-04
-
-(pendente de slot anterior) [ATENÇÃO] E05 · AMD · AMD Q3 Earnings Call Highlights AI Demand and 2027 Growth Outlook
-Yahoo Finance · 04/11 11h00 · fonte única · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – Advanced Micro Devices, Inc. AMD outlined an accelerated growth trajectory during its third-quarter 2026 earnings call, supported by expanding AI infrastructure deployments, stronger server processor demand and increasi…
-  – Management raised its 2027 growth expectations while highlighting supply constraints, evolving product mix and weakness in the PC market.
-  – AMD reported adjusted earnings of $2.09 per share, exceeding the Zacks Consensus Estimate of $1.94.
-  – Revenues of $13.38 billion also surpassed the Zacks Consensus Estimate of $13.13 billion by 1.90%.
-  – Segment revenues surged 97% year over year to $8.5 billion, supported by record EPYC processor and Instinct accelerator sales.
-  – Data center revenues represented 64% of total sales, compared with 47% a year earlier.
-Link: https://finance.yahoo.com/technology/ai/articles/amd-q3-earnings-call-highlights-140000045.html
-Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
-Ativos: AMD
-Como falar: 'saiu no Yahoo Finance: AMD Q3 Earnings Call Highlights AI Demand and 2027 Growth Outlook; confirmar o número no texto antes de repassar'
-Fonte: Yahoo Finance 04/11 11h00
-ids: E05-AMD-6a5f0afc7f-2026-11-04
-
 (pendente de slot anterior) [ATENÇÃO] E04 · MELI34 · 8-K: 2.02 resultado do trimestre
 SEC EDGAR · aceito 04/11 18h01 · 8-K
 Do documento:
@@ -116,7 +75,7 @@ Como falar: 'saiu no CNN Brasil: Mercado Livre tem lucro de US$ 448 milhões no 
 Fonte: CNN Brasil 04/11 18h44
 ids: E05-MELI34-ef819d4802-2026-11-04
 
-[ATENÇÃO] T13 · 2 ativos: VIX, VIX
+(pendente de slot anterior) [ATENÇÃO] T13 · 2 ativos: VIX, VIX
 · VIX cruzou 20: 26,6 (+60% no dia)
   VIX 26,6 (+60%)
 · VIX cruzou 25: 26,6 (+60% no dia)
@@ -124,10 +83,9 @@ ids: E05-MELI34-ef819d4802-2026-11-04
 Por que importa: VIX acima de 20 é o mercado pagando por proteção; acima de 30 as correlações vão a 1 e o que manda é o tamanho da posição
 Como falar: 'dia de aversão a risco: não é hora de decidir pelo preço de tela'
 Fonte: Cboe via Yahoo, fech. 05/11
-Push: intradia: 5 alertas de atenção — regime VIX, E03 AXIA3, E05 UST, E05 AXIA3, E05 MU · detalhe na sessão
 ids: T13-VIX-vix20-2026-11-05, T13-VIX-vix25-2026-11-05
 
-[ATENÇÃO] E03 · AXIA3 · Fato Relevante: O cancelamento d e registro perante a U.S.
+(pendente de slot anterior) [ATENÇÃO] E03 · AXIA3 · Fato Relevante: O cancelamento d e registro perante a U.S.
 CVM · entregue 05/11/2026 08:08
 Do documento:
   – Nos termos da Rule 12g3-2(b) do Exchange Act, a Companhia continuará publicando, em seu site de Relações  com Investidores (https://ri.axia.com.br/en/), as traduções para o inglês das informações divulgadas no Brasil.
@@ -138,7 +96,7 @@ Como falar: 'a Axia Energia publicou fato relevante sobre O cancelamento d e reg
 Fonte: CVM 05/11
 ids: E03-AXIA3-1584324-2026-11-05
 
-[ATENÇÃO] E05 · UST · Multiliquid Treasury Launches 24/7 T-Bill Yield and Instant Settlement for Corporate Cash
+(pendente de slot anterior) [ATENÇÃO] E05 · UST · Multiliquid Treasury Launches 24/7 T-Bill Yield and Instant Settlement for Corporate Cash
 TradingView (Reuters) · 05/11 14h32 · fonte única · licença: manchete
 Link: https://www.tradingview.com/news/chainwire:d89f1f810094b:0-multiliquid-treasury-launches-24-7-t-bill-yield-and-instant-settlement-for-corporate-cash/
 Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e prazo
@@ -147,7 +105,7 @@ Como falar: 'saiu no TradingView (Reuters): Multiliquid Treasury Launches 24/7 T
 Fonte: TradingView (Reuters) 05/11 14h32
 ids: E05-UST-8954037432-2026-11-05
 
-[ATENÇÃO] E05 · AXIA3 · Axia não prevê pagamento de dividendos além do mínimo de 25% do lucro líquido
+(pendente de slot anterior) [ATENÇÃO] E05 · AXIA3 · Axia não prevê pagamento de dividendos além do mínimo de 25% do lucro líquido
 Valor Economico · 05/11 14h15 · fonte única · licença: resumo
 Trechos (licença resumo: reescrever, não colar):
   – O conselho de administração da companhia vem aprovando seguidas operações de resgate desse tipo de ação este ano e Haiama afirmou que, com o atual panorama de preços, a tendência para os dividendos é a manutenção do pag…
@@ -158,7 +116,7 @@ Como falar: 'saiu no Valor Economico: Axia não prevê pagamento de dividendos a
 Fonte: Valor Economico 05/11 14h15
 ids: E05-AXIA3-4c4fcde442-2026-11-05
 
-[ATENÇÃO] E05 · MU · Micron hits unexpected roadblock on $4.5 billion chip bet
+(pendente de slot anterior) [ATENÇÃO] E05 · MU · Micron hits unexpected roadblock on $4.5 billion chip bet
 Yahoo Finance · 05/11 13h58 · fonte única · licença: resumo
 Trechos (licença resumo: reescrever, não colar):
   – Micron Technology Inc. (MU, Financials) has allegedly scrapped plans for a $4.5 billion memory chip manufacturing plant in Taiwan amid a labor dispute that is currently ongoing.The move was disclosed by sources familiar…
@@ -169,49 +127,82 @@ Como falar: 'saiu no Yahoo Finance: Micron hits unexpected roadblock on $4.5 bil
 Fonte: Yahoo Finance 05/11 13h58
 ids: E05-MU-40db121d02-2026-11-05
 
-Info (só linha no Fechamento):
-· F03 Brent sobe a US$ 98,16 (+3,7% no dia · -11% em 5 sessões) (parcial, intradia)
-· F06 BTC cai a US$ 76.051 (cruzou US$ 80.000) (parcial, intradia)
-· F06 ETH cai a US$ 2.248 (-7,2% em 24h) (parcial, intradia)
-· E01 SBSP3: resultado sai hoje (05/11)
-· E01 PETR4: resultado sai em 3 sessões (10/11)
-· M01 Agenda: Payroll de outubro (BLS) amanhã às 10:30 (06/11)
-· E03 AXIA3 · Comunicado ao Mercado: Apresentações a analistas/agentes do mercado
-· E04 CVX · 10-Q: 10-Q
-· E04 BABA · 6-K: 6-K
-· E04 MELI34 · 10-Q: 10-Q
-· E05 PLTR · Palantir Tumbles 10%, CrowdStrike Sinks 9% as Wall Street Dumps Software’s AI Winners; Okta Drops 10%
-· E05 MU · Stocks making the biggest moves midday: Micron, Tesla, Tripadvisor, AppLovin, Nvidia & more
-· E05 MU · Micron and Sandisk valuation multiples are unbelievable as chip stocks get crushed
-· E05 CVX · Chevron Has Become Very Interesting Again Following the Midterms
-· E05 GOOGL · Buy Alphabet for The Limted Downside Floor if The Coiled Spring Asymmetry Doesn’t Pique Your Interest
-· E05 BTC · Keel Infrastructure Sells Entire $192M Bitcoin Treasury, Plans Daily BTC Sales
-· E05 DI · Selic parada: por que Alberto Ramos, do Goldman Sachs, só vê novos cortes de juros em 2028
-· E05 AMD · AMD CEO Lisa Su sees AI becoming 'essential to every aspect of our lives'
-· E05 AMD · AMD: Great Q3 Earnings, But 70% Downside Is Not Unrealistic (NASDAQ:AMD)
-· E05 PLTR · Palantir Made $2.3 Billion Last Quarter and Calls Itself Antiwar
-· E05 JPM · JPMorgan Chase & Co. Warns a Rapid Rate Rise Could Shake the Financial System
-· E05 BRENT · Dólar sobe com alta do petróleo e expectativa por dados de emprego dos EUA
-· E05 TSLA · Tesla Shares Tumble Again in Deepening Post-Election Slump
-· E05 JPM · REG - JPMorgan ETFs (Ire.) JPM (Ire) ICAV UST$ - Dividend Declaration
-· E05 NVDA · Nvidia has lost nearly $1.4 trillion since its October record
-· E05 AXIA3 · Axia Energia reverte prejuízo e registra lucro de R$ 1,11 bilhão no 3T26
-· E05 USDBRL · Copom pausa cortes e bolsa ainda surfa 'onda azul' nos EUA; Ibovespa em dólar sobe nesta quinta-feira (5)
-· E05 MMM · 3M stock soars following $7.35 billion 'forever chemicals' settlement
-· E05 MMM · 3M settlement removes major PFAS overhang, UBS says
+[ATENÇÃO] E05 · AMD · AMD Stocks Fall 12.68% Despite a $17 Billion Revenue Outlook
+TradingView (Reuters) · 05/11 16h32 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/gurufocus:85ab359ff094b:0-amd-stocks-fall-12-68-despite-a-17-billion-revenue-outlook/
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: AMD
+Como falar: 'saiu no TradingView (Reuters): AMD Stocks Fall 12.68% Despite a $17 Billion Revenue Outlook; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 05/11 16h32
+Push: intradia: 3 alertas de atenção — E05 AMD, E05 INTC, E05 ITUB4 · detalhe na sessão
+ids: E05-AMD-d6a8be3832-2026-11-05
 
-Suprimidos pelo teto (viram linha do Fechamento): E05-AXIA3-04a9ce066d-2026-11-05 (teto de noticias), E05-USDBRL-ac3bf5d3b1-2026-11-05 (teto de noticias), E05-MMM-5d9f073bd0-2026-11-04 (teto de noticias), E05-MMM-1acf4c9dc6-2026-11-04 (teto de noticias)
+[ATENÇÃO] E05 · INTC · Intel Stocks Fall 9.1% as Server Demand Meets a Softer Outlook
+Yahoo Finance · 05/11 16h32 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Intel (NASDAQ:INTC) sank 9.1% to $52.97 at 10:55 a.m.
+  – ET in November 5 regular trading, deepening the processor maker's slide.
+  – GuruFocus has detected 5 Warning Signs with INTC.
+  – Intel's October 29 earnings release reported third-quarter revenue of $16.5 billion, up 21% from a year earlier.
+  – But management projected December-quarter revenue of $15 billion to $16 billion, putting the $15.5 billion midpoint roughly 6% below the previous quarter.
+  – Strong Xeon processor demand offers support, while a PC slowdown that management expects could persist through at least the first half of 2027 adds pressure.
+Link: https://sg.finance.yahoo.com/news/intel-stocks-fall-9-1-193224928.html
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: INTC
+Como falar: 'saiu no Yahoo Finance: Intel Stocks Fall 9.1% as Server Demand Meets a Softer Outlook; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 05/11 16h32
+ids: E05-INTC-1f1fb60780-2026-11-05
+
+[ATENÇÃO] E05 · ITUB4 · Alerta para dividendos: Itaú BBA tira Vale (VALE3) e Copel (CPLE3) da carteira; veja quem entrou
+Money Times · 05/11 16h24 · fonte única · licença: integral
+Do texto:
+  – Alerta para dividendos: Itaú BBA tira Vale (VALE3) e Copel (CPLE3) da carteira; veja quem entrou Duas queridinhas dos investidores, Copel (CPLE6) e Vale (VALE3), deram adeus à carteira de dividendos do Itaú BBA para nov…
+  – Além da dupla, a B3 (B3SA3) também foi retirada da seleção.
+  – No lugar da estatal paranaense, o BBA optou por outra elétrica: a CPFL Energia (CPFE3).
+  – Outras trocas Para abrir espaço para a Gerdau (GGBR4), o Itaú BBA retirou a Vale da carteira.
+  – Além disso, a companhia apresenta baixa alavancagem, geração de caixa saudável e perspectiva de distribuição de dividendos robustos aos acionistas, com dividend yield estimado em cerca de 9% para 2027.
+  – Já a inclusão da TIM (TIMS3) se deve, segundo o BBA, à capacidade da companhia de agregar receitas recorrentes, menor volatilidade operacional e uma perspectiva relevante de distribuição de proventos.
+Link: https://www.moneytimes.com.br/alerta-para-dividendos-itau-bba-tira-vale-vale3-e-copel-cple3-da-carteira-veja-quem-entrou/
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: ITUB4 · VALE3
+Como falar: 'saiu no Money Times: Alerta para dividendos: Itaú BBA tira Vale (VALE3) e Copel (CPLE3) da carteira; veja quem…; confirmar o número no texto antes de repassar'
+Fonte: Money Times 05/11 16h24
+ids: E05-ITUB4-12eb47174a-2026-11-05
+
+Info (só linha no Fechamento):
+· E05 COHR · Coherent earnings analysis: questions answered and next catalysts
+· E05 USDBRL · Dólar à vista fecha em alta de 0,67%, a R$5,4876 na venda Por Reuters
+· E05 USDBRL · Dólar avança em dia de cautela global
+· E05 USDBRL · Dólar sobe, acompanhando aversão ao risco em NY; Ibovespa opera em queda
+· E05 BTC · Bitcoin erases post-election gains as Wall Street selloff triggers over $1 billion in crypto liquidations
+· E05 AMD · Why AMD Stock Is Down Today
+· E05 AXIA3 · Axia vê lucro saltar 76%, mas o otimismo do Citi vai além dos resultados
+· E05 BTC · Bitcoin’s $378 Million Short Squeeze Faded Under $80,000. Is It Already Over?
+· E05 TSLA · SpaceX, Tesla extend losses as midterm results cloud data center, merger outlook
+· E05 AMZN · Amazon Stocks Decline 3.52% With AWS Profitability in Focus
+· E05 GOOGL · Alphabet Stocks Decline 2% as AI Spending Outruns Cash Generation
+· E05 NVDA · As Nvidia’s stock heads for a bear market, bargain hunters see a golden buying opportunity
+· E05 TSM · TSMC Stocks Fall 7.46% Despite a $53.3 Billion Revenue Midpoint
+· E05 AVGO · Broadcom Stocks Fall 6.42% With $21.7 Billion AI Forecast in Focus
+· E05 PLTR · UK prepares to extend Palantir’s NHS contract as it draws up plans for potential replacement
+· E05 MU · Micron Stocks Fall 11.8% With $61.5 Billion Guidance Under Scrutiny
+· E05 MELI34 · Mercado Livre desaba 13% em NY após lucro abaixo do esperado no 3º tri
+
+Suprimidos pelo teto (viram linha do Fechamento): E05-MU-8488bf6e7a-2026-11-05 (teto de noticias), E05-MELI34-f64c667526-2026-11-05 (teto de noticias)
 
 Alertas do dia (todos, com status):
+· pendente  E05 AMD — AMD · AMD Stocks Fall 12.68% Despite a $17 Billion Revenue Outlook
+· pendente  E05 INTC — INTC · Intel Stocks Fall 9.1% as Server Demand Meets a Softer Outlook
+· pendente  E05 ITUB4 — ITUB4 · Alerta para dividendos: Itaú BBA tira Vale (VALE3) e Copel (CPLE3) da ca
 · pendente  T13 VIX — VIX cruzou 20: 26,6 (+60% no dia)
 · pendente  T13 VIX — VIX cruzou 25: 26,6 (+60% no dia)
 · pendente  E03 AXIA3 — AXIA3 · Fato Relevante: O cancelamento d e registro perante a U.S.
 · pendente  E05 UST — UST · Multiliquid Treasury Launches 24/7 T-Bill Yield and Instant Settlement for
 · pendente  E05 AXIA3 — AXIA3 · Axia não prevê pagamento de dividendos além do mínimo de 25% do lucro lí
 · pendente  E05 MU — MU · Micron hits unexpected roadblock on $4.5 billion chip bet
-· pendente  E05 AMD — AMD · The Deal With Meta & OpenAI Just Cost AMD $1.1 Billion
-· linha     F03 BRENT — Brent sobe a US$ 98,16 (+3,7% no dia · -11% em 5 sessões) (parcial, intradia)
-· linha     F06 BTC — BTC cai a US$ 76.051 (cruzou US$ 80.000) (parcial, intradia)
-· linha     F06 ETH — ETH cai a US$ 2.248 (-7,2% em 24h) (parcial, intradia)
-· (+26 notícias só manchete, em noticias.md)
+· expirado  E05 AMD — AMD · The Deal With Meta & OpenAI Just Cost AMD $1.1 Billion
+· linha     F03 BRENT — Brent sobe a US$ 98,42 (+4,0% no dia · -11% em 5 sessões) (parcial, intradia)
+· linha     F06 BTC — BTC cai a US$ 75.902 (cruzou US$ 80.000) (parcial, intradia)
+· linha     F06 ETH — ETH cai a US$ 2.245 (-7,3% em 24h) (parcial, intradia)
+· (+43 notícias só manchete, em noticias.md)
 

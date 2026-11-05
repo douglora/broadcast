@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 05/11 15h45
+NOTÍCIAS E FATOS · 05/11 17h32
 
-Pernas: noticias ok 22 novas (18 consultas; descartadas: 388 veículo fora da lista, 32 sem ativo, 92 teto) · cvm ok 2 novos de 16 (4 cias casadas) · sec ok 3 novos em 3 dias
+Pernas: noticias ok 20 novas (18 consultas; descartadas: 378 veículo fora da lista, 27 sem ativo, 16 teto) · cvm ok 0 novos de 16 (4 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (2)
 
@@ -59,7 +59,73 @@ Fonte: SEC EDGAR 2026-11-05
 id: E04-MELI34-26000029-2026-11-05 · status: linha
 
 
-## NOTÍCIAS COM MATERIALIDADE (8)
+## NOTÍCIAS COM MATERIALIDADE (13)
+
+[ATENÇÃO] E05 · AMD · AMD Stocks Fall 12.68% Despite a $17 Billion Revenue Outlook
+TradingView (Reuters) · 05/11 16h32 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/gurufocus:85ab359ff094b:0-amd-stocks-fall-12-68-despite-a-17-billion-revenue-outlook/
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: AMD
+Como falar: 'saiu no TradingView (Reuters): AMD Stocks Fall 12.68% Despite a $17 Billion Revenue Outlook; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 05/11 16h32
+id: E05-AMD-d6a8be3832-2026-11-05 · status: pendente
+
+[ATENÇÃO] E05 · INTC · Intel Stocks Fall 9.1% as Server Demand Meets a Softer Outlook
+Yahoo Finance · 05/11 16h32 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Intel (NASDAQ:INTC) sank 9.1% to $52.97 at 10:55 a.m.
+  – ET in November 5 regular trading, deepening the processor maker's slide.
+  – GuruFocus has detected 5 Warning Signs with INTC.
+  – Intel's October 29 earnings release reported third-quarter revenue of $16.5 billion, up 21% from a year earlier.
+  – But management projected December-quarter revenue of $15 billion to $16 billion, putting the $15.5 billion midpoint roughly 6% below the previous quarter.
+  – Strong Xeon processor demand offers support, while a PC slowdown that management expects could persist through at least the first half of 2027 adds pressure.
+Link: https://sg.finance.yahoo.com/news/intel-stocks-fall-9-1-193224928.html
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: INTC
+Como falar: 'saiu no Yahoo Finance: Intel Stocks Fall 9.1% as Server Demand Meets a Softer Outlook; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 05/11 16h32
+id: E05-INTC-1f1fb60780-2026-11-05 · status: pendente
+
+[ATENÇÃO] E05 · ITUB4 · Alerta para dividendos: Itaú BBA tira Vale (VALE3) e Copel (CPLE3) da carteira; veja quem entrou
+Money Times · 05/11 16h24 · fonte única · licença: integral
+Do texto:
+  – Alerta para dividendos: Itaú BBA tira Vale (VALE3) e Copel (CPLE3) da carteira; veja quem entrou Duas queridinhas dos investidores, Copel (CPLE6) e Vale (VALE3), deram adeus à carteira de dividendos do Itaú BBA para nov…
+  – Além da dupla, a B3 (B3SA3) também foi retirada da seleção.
+  – No lugar da estatal paranaense, o BBA optou por outra elétrica: a CPFL Energia (CPFE3).
+  – Outras trocas Para abrir espaço para a Gerdau (GGBR4), o Itaú BBA retirou a Vale da carteira.
+  – Além disso, a companhia apresenta baixa alavancagem, geração de caixa saudável e perspectiva de distribuição de dividendos robustos aos acionistas, com dividend yield estimado em cerca de 9% para 2027.
+  – Já a inclusão da TIM (TIMS3) se deve, segundo o BBA, à capacidade da companhia de agregar receitas recorrentes, menor volatilidade operacional e uma perspectiva relevante de distribuição de proventos.
+Link: https://www.moneytimes.com.br/alerta-para-dividendos-itau-bba-tira-vale-vale3-e-copel-cple3-da-carteira-veja-quem-entrou/
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: ITUB4 · VALE3
+Como falar: 'saiu no Money Times: Alerta para dividendos: Itaú BBA tira Vale (VALE3) e Copel (CPLE3) da carteira; veja quem…; confirmar o número no texto antes de repassar'
+Fonte: Money Times 05/11 16h24
+id: E05-ITUB4-12eb47174a-2026-11-05 · status: pendente · íntegra disponível
+
+[ATENÇÃO] E05 · MU · Micron Stocks Fall 11.8% With $61.5 Billion Guidance Under Scrutiny
+TradingView (Reuters) · 05/11 15h55 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/gurufocus:ba49b06d6094b:0-micron-stocks-fall-11-8-with-61-5-billion-guidance-under-scrutiny/
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: MU
+Como falar: 'saiu no TradingView (Reuters): Micron Stocks Fall 11.8% With $61.5 Billion Guidance Under Scrutiny; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 05/11 15h55
+id: E05-MU-8488bf6e7a-2026-11-05 · status: linha
+
+[ATENÇÃO] E05 · MELI34 · Mercado Livre desaba 13% em NY após lucro abaixo do esperado no 3º tri
+CNN Brasil · 05/11 13h42 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – As ações do Mercado Livre desabavam 13% nos primeiros negócios em Nova York nesta quinta-feira, após a companhia reportar na véspera um lucro abaixo das estimativas do mercado para o terceiro trimestre, em resultado tam…
+  – Às 11h48, os papéis da empresa, que são listados nos Estados Unidos, perdiam 13%, a US$ 1.512,25 trabalhando em mínimas desde meados de maio.
+  – A empresa de comércio eletrônico e serviços financeiros registrou lucro líquido de US$ 448 milhões de julho a setembro, alta de cerca de 6% em relação ao mesmo período do ano passado.
+  – Projeções compiladas pela LSEG apontavam expectativa de um lucro de US$ 476 milhões.
+  – A margem operacional caiu para 6,3%, de quase 10% um ano antes e abaixo dos 7% previstos no mercado.
+  – "No entanto, o resultado de Ebit abaixo do esperado (US$ 676 milhões, queda de 6% ano a ano) é claramente negativo, dado que o mercado projetava uma margem próxima de 7%.
+Link: https://www.cnnbrasil.com.br/economia/money/mercado/mercado-livre-desaba-13-em-ny-apos-lucro-abaixo-do-esperado-no-3o-tri/
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: MELI34
+Como falar: 'saiu no CNN Brasil: Mercado Livre desaba 13% em NY após lucro abaixo do esperado no 3º tri; confirmar o número no texto antes de repassar'
+Fonte: CNN Brasil 05/11 13h42
+id: E05-MELI34-f64c667526-2026-11-05 · status: linha
 
 [ATENÇÃO] E05 · UST · Multiliquid Treasury Launches 24/7 T-Bill Yield and Instant Settlement for Corporate Cash
 TradingView (Reuters) · 05/11 14h32 · fonte única · licença: manchete
@@ -163,11 +229,26 @@ Por que importa: aquisicao ou venda muda alavancagem, mix de receita e o multipl
 Ativos: AMD
 Como falar: 'saiu no Yahoo Finance: The Deal With Meta & OpenAI Just Cost AMD $1.1 Billion; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 04/11 21h26
-id: E05-AMD-2b9885786d-2026-11-05 · status: pendente
+id: E05-AMD-2b9885786d-2026-11-05 · status: expirado
 
 
-## OUTRAS NOTÍCIAS (só manchete) (15)
+## OUTRAS NOTÍCIAS (só manchete) (30)
 
+· COHR Coherent earnings analysis: questions answered and next catalysts (Investing.com) https://www.investing.com/news/stock-market-news/coherent-earnings-analysis-questions-answered-and-next-catalysts-93CH-5005500
+· USDBRL Dólar à vista fecha em alta de 0,67%, a R$5,4876 na venda Por Reuters (Investing.com) https://br.investing.com/news/forex-news/dolar-a-vista-fecha-em-alta-de-067-a-r54876-na-venda-2117995
+· USDBRL Dólar avança em dia de cautela global (Valor Economico) https://valor.globo.com/financas/noticia/2026/11/05/dolar-avanca-em-dia-de-cautela-global.ghtml
+· USDBRL Dólar sobe, acompanhando aversão ao risco em NY; Ibovespa opera em queda (UOL Economia) https://economia.uol.com.br/cotacoes/noticias/redacao/2026/11/05/dolar-sobe-acompanhando-aversao-ao-risco-em-ny-ibovespa-opera-em-queda.ghtm
+· BTC Bitcoin erases post-election gains as Wall Street selloff triggers over $1 billion in crypto liquidations (The Block) https://www.theblock.co/news/markets/2026-11-05-bitcoin-erases-post-election-gains-wall-street-selloff-liquidations-435434
+· AMD Why AMD Stock Is Down Today (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/why-amd-stock-down-today-200001787.html
+· AXIA3 Axia vê lucro saltar 76%, mas o otimismo do Citi vai além dos resultados (Estadao) https://www.estadao.com.br/einvestidor/onde-investir/axia-ve-lucro-saltar-76-mas-o-otimismo-do-citi-vai-alem-dos-resultados/
+· BTC Bitcoin’s $378 Million Short Squeeze Faded Under $80,000. Is It Already Over? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-378-million-short-squeeze-194331079.html
+· TSLA SpaceX, Tesla extend losses as midterm results cloud data center, merger outlook (TradingView (Reuters)) https://www.tradingview.com/news/reuters.com,2026:newsml_L6N46M1DS:0-spacex-tesla-extend-losses-as-midterm-results-cloud-data-center-merger-outlook/
+· AMZN Amazon Stocks Decline 3.52% With AWS Profitability in Focus (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/amazon-stocks-decline-3-52-185938413.html
+· GOOGL Alphabet Stocks Decline 2% as AI Spending Outruns Cash Generation (Yahoo Finance) https://news.google.com/rss/articles/CBMigwFBVV95cUxQTndJbWowcTN2ZWQ5R2pUOFhubjlwbWh4SHctZTE1Q2JXNXZGYm9BMDNpR3FMRWpxZGJremdxVmJWa1poTmZwQzRyVUxmcmo0dzhxTXJuREtWeThRcks4QXR5aU1ZbTl2SDVsQnNrVThxakhvQUtORFFMRjQtbHpTeC0xUQ?oc=5
+· NVDA As Nvidia’s stock heads for a bear market, bargain hunters see a golden buying opportunity (MarketWatch) https://news.google.com/rss/articles/CBMiywFBVV95cUxPYXZ1U0FxTEdtZUJON2Rzczd0WkFWU05vYUIxd1lqdUxILWFQOEFhV1BzaDVGd01MMERHSHIzMGRhTlJ1QW8tWV9tZElvUkFjN3dydVgzekU2Ymc5ZklLRzJaRTF3THZSU183RmlqMDVtNmk2X0h1M1ktZWM4T0pRVFBqcTFua2R5X0VHdG9aTExacW5nV0ZLR0w2VTJJVi0wUWZLS1RDQmtINklMYWFBYy16cWRyOXU3OERQbjlUQ0Z6WmR4d0l6MGVpdw?oc=5
+· TSM TSMC Stocks Fall 7.46% Despite a $53.3 Billion Revenue Midpoint (Yahoo Finance) https://news.google.com/rss/articles/CBMiekFVX3lxTE9vQ2RmOHJWdEJoc1I2ZWNmVGhaQ19WNzVncEhrX1hYX2lQMFZZNkpBemdWbUZMRDhSaXJ0LURXUnN2UWg0SnpibmU0Y2F4VVVDMUs2dEViTWl2T1RLODVlbXlmMF9sLVZqSEo0TG9uYXRhZmZ4UF9hbzB3?oc=5
+· AVGO Broadcom Stocks Fall 6.42% With $21.7 Billion AI Forecast in Focus (TradingView (Reuters)) https://news.google.com/rss/articles/CBMiwgFBVV95cUxPb0tKc1RJMm1wTTJBUUFCdW1VUHBWWnc1dEM5RTJzNnFVd1JxTmw0Ykl3bElyckVYLS1xQVdVT2txdVd3YTk0R0FHWU05SzkzRWJ3UUtTalRvblFzdVRxa1RqcXpMUGNuYmRZY1dmTzBualh1OE9EZzRhOVFCd0FyQWtnV0lvLTJvWWoyNVQydDBNcHNjV004WHRMNGpLSmdTNFYyT0VwMDUwVFNNOFRNQll0azRNdWVrXzZrOW5XTU14Zw?oc=5
+· PLTR UK prepares to extend Palantir’s NHS contract as it draws up plans for potential replacement (Financial Times) https://news.google.com/rss/articles/CBMihAFBVV95cUxPaENzX05YX1ZNZ0Z2WFpQa1NPMVBCc2ZkLV9HMFN6dW95N0t2YUc3M1JrTWp2clpnOU0tOFVIRldsUlZzckM0NWMyVkJtNGV1cFl1bjF4WFZvRmlVMUM2NXBXbFZqU1ZNTlpzd1VNLUJfdWhIdEhKVUtaOFNQRWJaN2xsZDE?oc=5
 · PLTR Palantir Tumbles 10%, CrowdStrike Sinks 9% as Wall Street Dumps Software’s AI Winners; Okta Drops 10% (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/palantir-tumbles-10-crowdstrike-sinks-181136741.html
 · MU Stocks making the biggest moves midday: Micron, Tesla, Tripadvisor, AppLovin, Nvidia & more (CNBC) https://www.cnbc.com/2026/11/05/stocks-making-the-biggest-moves-midday-mu-tsla-trip-app-nvda.html
 · MU Micron and Sandisk valuation multiples are unbelievable as chip stocks get crushed (Yahoo Finance) https://au.finance.yahoo.com/news/micron-and-sandisk-valuation-multiples-are-unbelievable-as-chip-stocks-get-crushed-180250881.html
