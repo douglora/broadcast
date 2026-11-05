@@ -1,17 +1,6 @@
-ALERTAS · Fechamento 18h
+ALERTAS · intradia
 
-(pendente de slot anterior) [CRÍTICO] F03 · Brent cai a US$ 94,62 (-8,7% no dia · -15% em 5 sessões · cruzou US$ 100)
-Em reais: R$ 516/barril (-9,3%)
-PETR4 -7,1% no dia
-CVX -3,7% no dia
-UGPA3 -1,3% no dia
-Por que importa: barril mais barato reduz a receita em dólar das produtoras e alivia a inflação via combustíveis
-Ativos: PETR4 ↓ · CVX ↓ · UGPA3 ↑
-Como falar: 'o petróleo caiu forte; para a Petrobras o efeito é diluído pela política de preços'
-Fonte: ICE via Yahoo 04/11
-ids: F03-BRENT-queda-2026-11-04
-
-[CRÍTICO] CURVA · C01 A curva FECHOU: F28 -20 bps no dia · F29 -30 bps no dia · F30 -35 bps no dia (ajuste B3 04/11) / C05 IPCA+ 2050 PU -5,9% em 5 datas-base · Pre 2032 FECHA 15 bps (PU +0,8%) (base 04/11) / C02 Inclinação da curva DI: F35-F28 -18 bps no dia: bull flattening (longo fechou mais) · F30-F28 -15 bps no dia: bull flattening (longo fechou mais)
+(pendente de slot anterior) [CRÍTICO] CURVA · C01 A curva FECHOU: F28 -20 bps no dia · F29 -30 bps no dia · F30 -35 bps no dia (ajuste B3 04/11) / C05 IPCA+ 2050 PU -5,9% em 5 datas-base · Pre 2032 FECHA 15 bps (PU +0,8%) (base 04/11) / C02 Inclinação da curva DI: F35-F28 -18 bps no dia: bull flattening (longo fechou mais) · F30-F28 -15 bps no dia: bull flattening (longo fechou mais)
 DI F28 14,43 (-20) · F29 14,83 (-30) · F30 15,01 (-35) · F32 15,11 (-37) · F35 15,11 (-38)
 Inclinação F35-F28 +68 bps (-18)
 TD Pre 2029 14,89 (0) · IPCA+ 2032 7,87 (-2) · IPCA+ 2040 7,58 (+2) · IPCA+ 2050 7,41 (+14) PU -3,0% · Pre 2032 15,23 (-15) PU +0,8%
@@ -23,75 +12,7 @@ Implícita 2031/32 (descasado): 6,87% (+119 bps na semana) vs Focus IPCA 2030 3,
 Por que importa: delta em bps e inclinação são o que toda mesa de renda fixa reporta e o que explica a marcação do Tesouro ao cliente
 Como falar: 'a curva fechou: o prefixado valorizou na marcação; o cupom contratado não muda'
 Fonte: B3 ajuste 04/11 · Tesouro Transparente base 04/11; BCB Focus · Tesouro Transparente, base 04/11 · ajuste B3 04/11
-Push: [CRÍTICO] DI A curva FECHOU | TESOURO IPCA+ 2050 PU -5,9% em 5 datas-base · Pre 2032 FECHA 15 bps  | DI Inclinação da curva DI +2 · detalhe na sessão
 ids: C01-DI-fechou-2026-11-04, C05-TESOURO-fechou-2026-11-04, C02-DI-inclinacao-2026-11-04, C03-DI-di-2026-11-04, C06-TESOURO-implicita-2026-11-04
-
-(pendente de slot anterior) [ATENÇÃO] E01 · SBSP3: resultado sai na próxima sessão (05/11)
-qui 05/11 · após o fechamento da B3 · estimado (config/calendario.yaml)
-Vol de 20 dias +89% a.a. ⇒ movimento típico de 1 dia ±5,6%
-Chega ao resultado com 1m -20% · 6m -23% · YTD -4,8%
-Consenso: não disponível (sem fonte licenciada); usar o release e o guidance anterior
-Por que importa: resultado é o evento que mais move o papel em um dia; a vol implícita e o posicionamento sobem antes e caem depois
-Como falar: 'o resultado sai amanhã; o movimento típico do papel num dia é o da vol acima, e o mercado costuma exagerar na abertura'
-Fonte: config/calendario.yaml
-ids: E01-SBSP3-D-1-2026-11-04
-
-(pendente de slot anterior) [ATENÇÃO] M01 · Agenda: Copom: decisao da Selic hoje às 18:30 (04/11)
-O que está no preço: F28 14,43% · F35 15,11% · Focus IPCA 2027 4,76%
-Por que importa: evento macro de alta relevância reprecifica a curva inteira; o que importa é a surpresa contra o que está no preço
-Ativos: DI · Tesouro · USD/BRL
-Como falar: 'Copom: decisao da Selic sai hoje; o mercado já precifica o consenso, a reação vem da surpresa'
-Fonte: config/calendario.yaml
-ids: M01-MACRO-D0_0411-2026-11-04
-
-(pendente de slot anterior) [ATENÇÃO] E04 · MMM · 8-K: 1.01 acordo material assinado, 8.01 outros eventos
-SEC EDGAR · aceito 03/11 20h03 · 8-K
-Do documento:
-  – Pursuant to the Settlement, reached through the mediation process that the Company has previously disclosed, 3M will contribute a total nominal amount of $7.35 billion between 2026 and 2034.
-  – The Settlement provides that 3M does not admit any liability or wrongdoing.
-  – The foregoing description of the Settlement is qualified in its entirety by reference to the full text of the settlement agreement, a copy of which is filed as Exhibit 10.1 hereto and incorporated by reference herein.
-  – Item 8.01 Other Events   On November 3, 2026, 3M issued a press release announcing the entry into the Settlement (filed as Exhibit 99.1 hereto and incorporated herein by reference).
-  – As a result of the Settlement, the Company will record a pre-tax charge of approximately $5.8 billion in the fourth quarter of 2026, representing the present value of contributions under the Settlement.
-  – This charge will be reflected as an adjustment in arriving at 3M’s results, adjusted for special items.
-Link: https://www.sec.gov/Archives/edgar/data/66740/000006674026000318/mmm-20261103.htm
-Por que importa: acordo material muda receita, alavancagem ou estrategia; olhar contraparte e valor
-Ativos: MMM
-Como falar: 'a MMM protocolou 8-K na SEC (1.01 acordo material assinado, 8.01 outros eventos)'
-Fonte: SEC EDGAR 2026-11-04
-ids: E04-MMM-26000318-2026-11-04
-
-(pendente de slot anterior) [ATENÇÃO] E05 · ITUB4 · Itaú vê crédito mais difícil em 2027, mas mantém perspectiva de dividendos
-UOL Economia · 04/11 14h01 · fonte única · licença: manchete
-Link: https://economia.uol.com.br/noticias/redacao/2026/11/04/itau-ve-credito-mais-dificil-em-2027-mas-mantem-perspectiva-de-dividendos.htm
-Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
-Ativos: ITUB4
-Como falar: 'saiu no UOL Economia: Itaú vê crédito mais difícil em 2027, mas mantém perspectiva de dividendos; confirmar o número no texto antes de repassar'
-Fonte: UOL Economia 04/11 14h01
-ids: E05-ITUB4-8861a44210-2026-11-04
-
-(pendente de slot anterior) [ATENÇÃO] E05 · PLTR · Palantir Stocks Decline 4.36% Guidance Requires Another 15% Sequential Revenue Step
-TradingView (Reuters) · 04/11 13h17 · fonte única · licença: manchete
-Link: https://www.tradingview.com/news/gurufocus:274335f5c094b:0-palantir-stocks-decline-4-36-guidance-requires-another-15-sequential-revenue-step/
-Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
-Ativos: PLTR
-Como falar: 'saiu no TradingView (Reuters): Palantir Stocks Decline 4.36% Guidance Requires Another 15% Sequential Revenue Step; confirmar o número no texto antes de repassar'
-Fonte: TradingView (Reuters) 04/11 13h17
-ids: E05-PLTR-259d0908b3-2026-11-04
-
-(pendente de slot anterior) [ATENÇÃO] E05 · ITUB4 · Dividendos: Daycoval mantém Itaú (ITUB4), Caixa Seguridade (CXSE3) e mais 8 ações em carteira
-Money Times · 04/11 12h59 · fonte única · licença: integral
-Do texto:
-  – Dividendos: Daycoval mantém Itaú (ITUB4), Caixa Seguridade (CXSE3) e mais 8 ações em carteira O Banco Daycoval manteve sua carteira recomendada de dividendos inalterada para novembro de 2026.
-  – Deste modo, permanecem no portfólio as ações da BB Seguridade (BBSE3), Caixa Seguridade (CXSE3), Taesa (TAEE11), Klabin (KLBN11), ABC Brasil (ABCB4), Cemig (CMIG4), Bradesco (BBDC4), Mahle Metal Leve (LEVE3), Itaúsa (IT…
-  – Em outubro, a carteira registrou queda de 8,39%, mas conseguiu superar o Índice de Dividendos (IDIV), que recuou 9,87% no mesmo período.
-  – Entre os destaques positivos do mês ficaram Caixa Seguridade, com valorização de 7,55%, e BB Seguridade, que avançou 5,46%.
-  – Já as maiores quedas vieram de Bradesco (-23,78%), Itaúsa (-14,73%) e ABC Brasil (-14,34%).
-Link: https://www.moneytimes.com.br/dividendos-daycoval-mantem-itau-itub4-caixa-seguridade-cxse3-e-mais-8-acoes-em-carteira-mlem/
-Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
-Ativos: ITUB4
-Como falar: 'saiu no Money Times: Dividendos: Daycoval mantém Itaú (ITUB4), Caixa Seguridade (CXSE3) e mais 8 ações em cart…; confirmar o número no texto antes de repassar'
-Fonte: Money Times 04/11 12h59
-ids: E05-ITUB4-e50476a7de-2026-11-04
 
 (pendente de slot anterior) [ATENÇÃO] E05 · GOOGL · Alphabet Stocks Rise 1.4% as Euro Borrowing Meets a $200 Billion Spending Plan
 Yahoo Finance · 04/11 16h36 · fonte única · licença: resumo
@@ -134,7 +55,7 @@ Como falar: 'saiu no Yahoo Finance: AMD Q3 Earnings Call Highlights AI Demand an
 Fonte: Yahoo Finance 04/11 11h00
 ids: E05-AMD-6a5f0afc7f-2026-11-04
 
-[ATENÇÃO] E04 · MELI34 · 8-K: 2.02 resultado do trimestre
+(pendente de slot anterior) [ATENÇÃO] E04 · MELI34 · 8-K: 2.02 resultado do trimestre
 SEC EDGAR · aceito 04/11 18h01 · 8-K
 Do documento:
   – Employer   Identification Number)   WTC Free Zone   Dr. Luis Bonavita 1294 , Of.
@@ -145,10 +66,9 @@ Por que importa: resultado do trimestre reprecifica lucro, guidance e multiplo; 
 Ativos: MELI34
 Como falar: 'a MELI protocolou 8-K na SEC (2.02 resultado do trimestre)'
 Fonte: SEC EDGAR 2026-11-04
-Push: Fechamento 18h: 4 alertas de atenção — E04 MELI34, E05 AMD, E05 AXIA3, E05 MELI34 · detalhe na sessão
 ids: E04-MELI34-26000027-2026-11-04
 
-[ATENÇÃO] E05 · AMD · The Deal With Meta & OpenAI Just Cost AMD $1.1 Billion
+(pendente de slot anterior) [ATENÇÃO] E05 · AMD · The Deal With Meta & OpenAI Just Cost AMD $1.1 Billion
 Yahoo Finance · 04/11 21h26 · fonte única · licença: resumo
 Trechos (licença resumo: reescrever, não colar):
   – Advanced Micro Devices booked a $1.1 billion noncash charge in the third quarter tied to its chip deals with OpenAI and Meta Platforms, marking the first time the two agreements have hit the chipmaker's reported earning…
@@ -164,7 +84,7 @@ Como falar: 'saiu no Yahoo Finance: The Deal With Meta & OpenAI Just Cost AMD $1
 Fonte: Yahoo Finance 04/11 21h26
 ids: E05-AMD-2b9885786d-2026-11-05
 
-[ATENÇÃO] E05 · AXIA3 · Lucro líquido da Axia (AXIA3) cai 19%, para R$ 1,759 bilhão no 3T26; veja os números
+(pendente de slot anterior) [ATENÇÃO] E05 · AXIA3 · Lucro líquido da Axia (AXIA3) cai 19%, para R$ 1,759 bilhão no 3T26; veja os números
 Money Times · 04/11 20h02 · fonte única · licença: integral
 Do texto:
   – Lucro líquido da Axia (AXIA3) cai 19%, para R$ 1,759 bilhão no 3T26; veja os números A Axia Energia (AXIA3) teve lucro líquido ajustado de R$ 1,759 bilhão no terceiro trimestre de 2026 (3T26), queda de 19,1% ante os R$…
@@ -180,7 +100,7 @@ Como falar: 'saiu no Money Times: Lucro líquido da Axia (AXIA3) cai 19%, para R
 Fonte: Money Times 04/11 20h02
 ids: E05-AXIA3-ef9e818139-2026-11-04
 
-[ATENÇÃO] E05 · MELI34 · Mercado Livre tem lucro de US$ 448 milhões no 3° tri, alta de 6%
+(pendente de slot anterior) [ATENÇÃO] E05 · MELI34 · Mercado Livre tem lucro de US$ 448 milhões no 3° tri, alta de 6%
 CNN Brasil · 04/11 18h44 · fonte única · licença: resumo
 Trechos (licença resumo: reescrever, não colar):
   – O Mercado Livre divulgou nesta quarta-feira (4) um lucro líquido abaixo das estimativas do mercado para o terceiro trimestre, à medida que maiores gastos em capacidade logística para o pico da temporada de compras press…
@@ -196,80 +116,101 @@ Como falar: 'saiu no CNN Brasil: Mercado Livre tem lucro de US$ 448 milhões no 
 Fonte: CNN Brasil 04/11 18h44
 ids: E05-MELI34-ef819d4802-2026-11-04
 
-Info (só linha no Fechamento):
-· T01 QQQ retomou a média de 200 dias pela 2ª sessão: US$ 693,28 vs MM200 US$ 679,45 (+2,0%)
-· T04 MMM fechou na máxima de 52 semanas: US$ 194,18, +19% em 1m e +23% em 12m
-· T07 MMM entrou em sobrecomprado: RSI14 75 a US$ 194,18
-· T10 USDBRL no máximo de força relativa em 63 sessões contra DXY: +8,6% vs 0,0% em 20 sessões (+10% relativo)
-· T11 VHYA (Vanguard FTSE All-World High Dividend Yield UCITS ETF USD Accumulating) descolou à frente de VWRA (Vanguard FTSE All-World UCITS ETF USD Accumulating): +4,0% vs -1,4% em 20 sessões (z 2,1 em 252 sessões, 2º dia)
-· E03 AXIA3 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
-· E03 AXIA3 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
-· E03 ALUP4 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
-· E05 COHR · Coherent Corp. reports results for the quarter ended September 30 - Earnings Summary
-· E05 AXIA3 · Ex-Eletrobras: chuva barateia energia, mas Axia quase dobra lucro em nove meses
-· E05 USDBRL · Dólar cai a R$ 5,45 após eleições nos EUA e antes do Copom
-· E05 AXIA3 · Axia Energia reverte prejuízo bilionário e volta a lucrar no terceiro trimestre
-· E05 DI · Selic a 13,75%: Sem ajuste fiscal, mercado vê juros travando a economia até 2027
-· E05 INTC · Intel: The Foundry Trap Is Getting Worse (NASDAQ:INTC)
-· E05 ITUB4 · Ibovespa finalmente reage após seis quedas; Itaú (ITUB4) sobe e Petrobras (PETR4) despenca 7%
-· E05 GFS · GLOBALFOUNDRIES Inc. Q3 2026 Earnings Call Summary
-· E05 DI · Desconfiança fiscal forçou BC a paralisar corte na Selic, dizem economistas
-· E05 DI · Setor produtivo critica manutenção da Selic em 13,75% ao ano
-· E05 PETR4 · A aprovação do Cade para um M&A no setor de óleo e gás que desagradou a Petrobras
-· E05 DI · Na primeira decisão pós-eleição, Banco Central ajusta a direção da taxa Selic
-· E05 DI · Projeções de inflação disparam em meio a combinação de choques e forçam Copom a manter juros altos
-· E05 COHR · Coherent Corp. 2027 Q1 - Results - Earnings Call Presentation (NYSE:COHR) 2026-11-04
-· E05 MELI34 · Mercado Livre (MELI34) tem lucro líquido abaixo do esperado e registra US$ 448 mi
-· T05 MMM +9,7% no dia a US$ 194,18: movimento de 5,1 desvios para uma vol de 20 dias de 29% a.a.
-· T05 MCHI +4,3% no dia a US$ 51,54: movimento de 4,3 desvios para uma vol de 20 dias de 16% a.a.
-· T05 BRENT -8,7% no dia a US$ 94,62: movimento de 3,5 desvios para uma vol de 20 dias de 41% a.a.
-· T08 PETR4 entrou em bear técnico: -21% do pico de 52s (R$ 59,68 em 16/10) a R$ 47,12
-· T03 WQTM formou death cross: MM50 US$ 35,71 cruzou abaixo da MM200 US$ 35,87 pela 2ª sessão; preço US$ 30,00, -16% da MM200, -8,3% em 12m
-· T06 MMM +12% em 5 sessões a US$ 194,18: movimento de 2,9 desvios para a vol de 20 dias
-· T06 BRENT -15% em 5 sessões a US$ 94,62: movimento de 2,9 desvios para a vol de 20 dias
-· T10 BOTZ no máximo de força relativa em 63 sessões contra SOX: -8,0% vs -21% em 20 sessões (+17% relativo)
-· T12 WUTI (State Street SPDR MSCI World Utilities UCITS ETF (USD)): 10 altas seguidas (+5,1% acumulado) a US$ 70,47
-· E05 DI · Copom mantém taxa básica de juros da economia em 13,75% ao ano
-· E05 COHR · Coherent (NYSE:COHR) beats Q3 CY2026 sales expectations, provides optimistic revenue guidance for next quarter
-· E05 MMM · 3M stock soars following $7.35 billion 'forever chemicals' settlement
+[ATENÇÃO] T13 · 2 ativos: VIX, VIX
+· VIX cruzou 20: 26,6 (+60% no dia)
+  VIX 26,6 (+60%)
+· VIX cruzou 25: 26,6 (+60% no dia)
+  VIX 26,6 (+60%)
+Por que importa: VIX acima de 20 é o mercado pagando por proteção; acima de 30 as correlações vão a 1 e o que manda é o tamanho da posição
+Como falar: 'dia de aversão a risco: não é hora de decidir pelo preço de tela'
+Fonte: Cboe via Yahoo, fech. 05/11
+Push: intradia: 5 alertas de atenção — regime VIX, E03 AXIA3, E05 UST, E05 AXIA3, E05 MU · detalhe na sessão
+ids: T13-VIX-vix20-2026-11-05, T13-VIX-vix25-2026-11-05
 
-Suprimidos pelo teto (viram linha do Fechamento): T05-MMM-alta-2026-11-04 (teto diário de críticos), T05-MCHI-alta-2026-11-04 (teto diário de críticos), T05-BRENT-queda-2026-11-04 (teto diário de críticos), T08-PETR4--20-2026-11-04 (teto diário de críticos), T03-WQTM-death-2026-11-04 (teto de atenção), T06-MMM-alta-2026-11-04 (teto de atenção), T06-BRENT-queda-2026-11-04 (teto de atenção), T10-BOTZ-máximo-2026-11-04 (teto de atenção), T12-WUTI-altas_10-2026-11-04 (teto de atenção), E05-DI-5d0831221e-2026-11-04 (teto de noticias), E05-COHR-5856bc2b7f-2026-11-04 (teto de noticias), E05-MMM-519b47d17c-2026-11-04 (teto de noticias)
+[ATENÇÃO] E03 · AXIA3 · Fato Relevante: O cancelamento d e registro perante a U.S.
+CVM · entregue 05/11/2026 08:08
+Do documento:
+  – Nos termos da Rule 12g3-2(b) do Exchange Act, a Companhia continuará publicando, em seu site de Relações  com Investidores (https://ri.axia.com.br/en/), as traduções para o inglês das informações divulgadas no Brasil.
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1584324
+Por que importa: fato relevante e o que a propria companhia julga capaz de mover o preco; ler o documento inteiro antes de comentar
+Ativos: AXIA3
+Como falar: 'a Axia Energia publicou fato relevante sobre O cancelamento d e registro perante a U.S.'
+Fonte: CVM 05/11
+ids: E03-AXIA3-1584324-2026-11-05
+
+[ATENÇÃO] E05 · UST · Multiliquid Treasury Launches 24/7 T-Bill Yield and Instant Settlement for Corporate Cash
+TradingView (Reuters) · 05/11 14h32 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/chainwire:d89f1f810094b:0-multiliquid-treasury-launches-24-7-t-bill-yield-and-instant-settlement-for-corporate-cash/
+Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e prazo
+Ativos: UST
+Como falar: 'saiu no TradingView (Reuters): Multiliquid Treasury Launches 24/7 T-Bill Yield and Instant Settlement for Corporate Cash; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 05/11 14h32
+ids: E05-UST-8954037432-2026-11-05
+
+[ATENÇÃO] E05 · AXIA3 · Axia não prevê pagamento de dividendos além do mínimo de 25% do lucro líquido
+Valor Economico · 05/11 14h15 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – O conselho de administração da companhia vem aprovando seguidas operações de resgate desse tipo de ação este ano e Haiama afirmou que, com o atual panorama de preços, a tendência para os dividendos é a manutenção do pag…
+Link: https://valor.globo.com/empresas/noticia/2026/11/05/axia-nao-preve-pagamento-de-dividendos-alem-do-minimo-de-25percent-do-lucro-liquido.ghtml
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: AXIA3
+Como falar: 'saiu no Valor Economico: Axia não prevê pagamento de dividendos além do mínimo de 25% do lucro líquido; confirmar o número no texto antes de repassar'
+Fonte: Valor Economico 05/11 14h15
+ids: E05-AXIA3-4c4fcde442-2026-11-05
+
+[ATENÇÃO] E05 · MU · Micron hits unexpected roadblock on $4.5 billion chip bet
+Yahoo Finance · 05/11 13h58 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Micron Technology Inc. (MU, Financials) has allegedly scrapped plans for a $4.5 billion memory chip manufacturing plant in Taiwan amid a labor dispute that is currently ongoing.The move was disclosed by sources familiar…
+Link: https://au.finance.yahoo.com/news/micron-hits-unexpected-roadblock-4-165840277.html
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: MU
+Como falar: 'saiu no Yahoo Finance: Micron hits unexpected roadblock on $4.5 billion chip bet; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 05/11 13h58
+ids: E05-MU-40db121d02-2026-11-05
+
+Info (só linha no Fechamento):
+· F03 Brent sobe a US$ 98,16 (+3,7% no dia · -11% em 5 sessões) (parcial, intradia)
+· F06 BTC cai a US$ 76.051 (cruzou US$ 80.000) (parcial, intradia)
+· F06 ETH cai a US$ 2.248 (-7,2% em 24h) (parcial, intradia)
+· E01 SBSP3: resultado sai hoje (05/11)
+· E01 PETR4: resultado sai em 3 sessões (10/11)
+· M01 Agenda: Payroll de outubro (BLS) amanhã às 10:30 (06/11)
+· E03 AXIA3 · Comunicado ao Mercado: Apresentações a analistas/agentes do mercado
+· E04 CVX · 10-Q: 10-Q
+· E04 BABA · 6-K: 6-K
+· E04 MELI34 · 10-Q: 10-Q
+· E05 PLTR · Palantir Tumbles 10%, CrowdStrike Sinks 9% as Wall Street Dumps Software’s AI Winners; Okta Drops 10%
+· E05 MU · Stocks making the biggest moves midday: Micron, Tesla, Tripadvisor, AppLovin, Nvidia & more
+· E05 MU · Micron and Sandisk valuation multiples are unbelievable as chip stocks get crushed
+· E05 CVX · Chevron Has Become Very Interesting Again Following the Midterms
+· E05 GOOGL · Buy Alphabet for The Limted Downside Floor if The Coiled Spring Asymmetry Doesn’t Pique Your Interest
+· E05 BTC · Keel Infrastructure Sells Entire $192M Bitcoin Treasury, Plans Daily BTC Sales
+· E05 DI · Selic parada: por que Alberto Ramos, do Goldman Sachs, só vê novos cortes de juros em 2028
+· E05 AMD · AMD CEO Lisa Su sees AI becoming 'essential to every aspect of our lives'
+· E05 AMD · AMD: Great Q3 Earnings, But 70% Downside Is Not Unrealistic (NASDAQ:AMD)
+· E05 PLTR · Palantir Made $2.3 Billion Last Quarter and Calls Itself Antiwar
+· E05 JPM · JPMorgan Chase & Co. Warns a Rapid Rate Rise Could Shake the Financial System
+· E05 BRENT · Dólar sobe com alta do petróleo e expectativa por dados de emprego dos EUA
+· E05 TSLA · Tesla Shares Tumble Again in Deepening Post-Election Slump
+· E05 JPM · REG - JPMorgan ETFs (Ire.) JPM (Ire) ICAV UST$ - Dividend Declaration
+· E05 NVDA · Nvidia has lost nearly $1.4 trillion since its October record
+· E05 AXIA3 · Axia Energia reverte prejuízo e registra lucro de R$ 1,11 bilhão no 3T26
+· E05 USDBRL · Copom pausa cortes e bolsa ainda surfa 'onda azul' nos EUA; Ibovespa em dólar sobe nesta quinta-feira (5)
+· E05 MMM · 3M stock soars following $7.35 billion 'forever chemicals' settlement
+· E05 MMM · 3M settlement removes major PFAS overhang, UBS says
+
+Suprimidos pelo teto (viram linha do Fechamento): E05-AXIA3-04a9ce066d-2026-11-05 (teto de noticias), E05-USDBRL-ac3bf5d3b1-2026-11-05 (teto de noticias), E05-MMM-5d9f073bd0-2026-11-04 (teto de noticias), E05-MMM-1acf4c9dc6-2026-11-04 (teto de noticias)
 
 Alertas do dia (todos, com status):
-· pendente  C01 DI — A curva FECHOU: F28 -20 bps no dia · F29 -30 bps no dia · F30 -35 bps no dia (aj
-· pendente  C05 TESOURO — IPCA+ 2050 PU -5,9% em 5 datas-base · Pre 2032 FECHA 15 bps (PU +0,8%) (base 04/
-· linha     T05 MMM — MMM +9,7% no dia a US$ 194,18: movimento de 5,1 desvios para uma vol de 20 dias 
-· linha     T05 MCHI — MCHI +4,3% no dia a US$ 51,54: movimento de 4,3 desvios para uma vol de 20 dias 
-· linha     T05 BRENT — BRENT -8,7% no dia a US$ 94,62: movimento de 3,5 desvios para uma vol de 20 dias
-· linha     T08 PETR4 — PETR4 entrou em bear técnico: -21% do pico de 52s (R$ 59,68 em 16/10) a R$ 47,12
-· expirado  F03 BRENT — Brent cai a US$ 94,62 (-8,7% no dia · -15% em 5 sessões · cruzou US$ 100)
-· pendente  C02 DI — Inclinação da curva DI: F35-F28 -18 bps no dia: bull flattening (longo fechou ma
-· pendente  C03 DI — DI em nível: F28 cruzou 14,50% (para baixo, agora 14,43%) · F29 cruzou 15,00% (p
-· pendente  C06 TESOURO — Inflação implícita: implícita 2029 +93 bps na semana · implícita 2032 -28 bps na
-· linha     T03 WQTM — WQTM formou death cross: MM50 US$ 35,71 cruzou abaixo da MM200 US$ 35,87 pela 2ª
-· linha     T06 MMM — MMM +12% em 5 sessões a US$ 194,18: movimento de 2,9 desvios para a vol de 20 di
-· linha     T06 BRENT — BRENT -15% em 5 sessões a US$ 94,62: movimento de 2,9 desvios para a vol de 20 d
-· linha     T10 BOTZ — BOTZ no máximo de força relativa em 63 sessões contra SOX: -8,0% vs -21% em 20 s
-· linha     T12 WUTI — WUTI (State Street SPDR MSCI World Utilities UCITS ETF (USD)): 10 altas seguidas
-· pendente  E04 MELI34 — MELI34 · 8-K: 2.02 resultado do trimestre
+· pendente  T13 VIX — VIX cruzou 20: 26,6 (+60% no dia)
+· pendente  T13 VIX — VIX cruzou 25: 26,6 (+60% no dia)
+· pendente  E03 AXIA3 — AXIA3 · Fato Relevante: O cancelamento d e registro perante a U.S.
+· pendente  E05 UST — UST · Multiliquid Treasury Launches 24/7 T-Bill Yield and Instant Settlement for
+· pendente  E05 AXIA3 — AXIA3 · Axia não prevê pagamento de dividendos além do mínimo de 25% do lucro lí
+· pendente  E05 MU — MU · Micron hits unexpected roadblock on $4.5 billion chip bet
 · pendente  E05 AMD — AMD · The Deal With Meta & OpenAI Just Cost AMD $1.1 Billion
-· pendente  E05 AXIA3 — AXIA3 · Lucro líquido da Axia (AXIA3) cai 19%, para R$ 1,759 bilhão no 3T26; vej
-· pendente  E05 MELI34 — MELI34 · Mercado Livre tem lucro de US$ 448 milhões no 3° tri, alta de 6%
-· pendente  E05 GOOGL — GOOGL · Alphabet Stocks Rise 1.4% as Euro Borrowing Meets a $200 Billion Spendin
-· pendente  E05 ITUB4 — ITUB4 · BTG tira Itaú, Cury e Axia da carteira e aposta em dividendos
-· pendente  E05 AMD — AMD · AMD Q3 Earnings Call Highlights AI Demand and 2027 Growth Outlook
-· expirado  E01 SBSP3 — SBSP3: resultado sai na próxima sessão (05/11)
-· expirado  M01 MACRO — Agenda: Copom: decisao da Selic hoje às 18:30 (04/11)
-· expirado  E04 MMM — MMM · 8-K: 1.01 acordo material assinado, 8.01 outros eventos
-· expirado  E05 ITUB4 — ITUB4 · Itaú vê crédito mais difícil em 2027, mas mantém perspectiva de dividend
-· expirado  E05 PLTR — PLTR · Palantir Stocks Decline 4.36% Guidance Requires Another 15% Sequential Re
-· expirado  E05 ITUB4 — ITUB4 · Dividendos: Daycoval mantém Itaú (ITUB4), Caixa Seguridade (CXSE3) e mai
-· expirado  E05 MMM — MMM · Baron & Budd and Douglas & London Obtain $7.350 Billion Settlement With 3M
-· expirado  E05 MMM — MMM · 3M to take $5.8 billion hit under PFAS personal injury settlement
-· expirado  E05 MMM — MMM · 3M to take $5.8 billion hit under PFAS personal injury settlement By Reute
-· linha     T01 QQQ — QQQ retomou a média de 200 dias pela 2ª sessão: US$ 693,28 vs MM200 US$ 679,45 (
-· linha     T04 MMM — MMM fechou na máxima de 52 semanas: US$ 194,18, +19% em 1m e +23% em 12m
-· linha     T07 MMM — MMM entrou em sobrecomprado: RSI14 75 a US$ 194,18
-· linha     T10 USDBRL — USDBRL no máximo de força relativa em 63 sessões contra DXY: +8,6% vs 0,0% em 20
-· linha     T11 VHYA — VHYA (Vanguard FTSE All-World High Dividend Yield UCITS ETF USD Accumulating) de
-· (+73 notícias só manchete, em noticias.md)
+· linha     F03 BRENT — Brent sobe a US$ 98,16 (+3,7% no dia · -11% em 5 sessões) (parcial, intradia)
+· linha     F06 BTC — BTC cai a US$ 76.051 (cruzou US$ 80.000) (parcial, intradia)
+· linha     F06 ETH — ETH cai a US$ 2.248 (-7,2% em 24h) (parcial, intradia)
+· (+26 notícias só manchete, em noticias.md)
