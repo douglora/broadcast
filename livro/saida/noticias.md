@@ -1,8 +1,35 @@
-NOTÍCIAS E FATOS · 04/11 17h22
+NOTÍCIAS E FATOS · 04/11 22h25
 
-Pernas: noticias ok 19 novas (18 consultas; descartadas: 360 veículo fora da lista, 21 sem ativo, 12 teto) · cvm ok 0 novos de 11 (4 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 21 novas (18 consultas; descartadas: 379 veículo fora da lista, 30 sem ativo, 34 teto) · cvm ok 3 novos de 14 (4 cias casadas) · sec ok 1 novos em 3 dias
 
-## FATOS RELEVANTES E COMUNICADOS (CVM) (2)
+## FATOS RELEVANTES E COMUNICADOS (CVM) (5)
+
+[INFO] E03 · AXIA3 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
+CVM · entregue 04/11/2026 19:53 · Outros Comunicados Não Considerados Fatos Relevantes
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1584228
+Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; confirma ou nega o que circula
+Ativos: AXIA3
+Como falar: 'a Axia Energia publicou comunicado ao mercado sobre Outros Comunicados Não Considerados Fatos Relevantes'
+Fonte: CVM 04/11
+id: E03-AXIA3-1584228-2026-11-04 · status: linha
+
+[INFO] E03 · AXIA3 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
+CVM · entregue 04/11/2026 19:50 · Outros Comunicados Não Considerados Fatos Relevantes
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1584226
+Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; confirma ou nega o que circula
+Ativos: AXIA3
+Como falar: 'a Axia Energia publicou comunicado ao mercado sobre Outros Comunicados Não Considerados Fatos Relevantes'
+Fonte: CVM 04/11
+id: E03-AXIA3-1584226-2026-11-04 · status: linha
+
+[INFO] E03 · ALUP4 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
+CVM · entregue 04/11/2026 19:36 · Outros Comunicados Não Considerados Fatos Relevantes
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1584183
+Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; confirma ou nega o que circula
+Ativos: ALUP4
+Como falar: 'a Alupar publicou comunicado ao mercado sobre Outros Comunicados Não Considerados Fatos Relevantes'
+Fonte: CVM 04/11
+id: E03-ALUP4-1584183-2026-11-04 · status: linha
 
 [INFO] E03 · PETR4 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
 CVM · entregue 04/11/2026 09:07 · Outros Comunicados Não Considerados Fatos Relevantes
@@ -23,7 +50,20 @@ Fonte: CVM 04/11
 id: E03-PETR4-1583667-2026-11-04 · status: linha
 
 
-## SEC (8-K, 6-K, 10-Q, 10-K) (1)
+## SEC (8-K, 6-K, 10-Q, 10-K) (2)
+
+[ATENÇÃO] E04 · MELI34 · 8-K: 2.02 resultado do trimestre
+SEC EDGAR · aceito 04/11 18h01 · 8-K
+Do documento:
+  – Employer   Identification Number)   WTC Free Zone   Dr. Luis Bonavita 1294 , Of.
+  – On November 4, 2026, the Registrant issued a press release, a copy of which is attached hereto as Exhibit 99.1 and is incorporated herein by reference.
+  – Registrant   Date: November 4, 2026   By:   /s/ Martín de los Santos   Martín de los Santos   Executive Vice President and Chief Financial Officer
+Link: https://www.sec.gov/Archives/edgar/data/1099590/000109959026000027/meli-20261104.htm
+Por que importa: resultado do trimestre reprecifica lucro, guidance e multiplo; comparar com o consenso
+Ativos: MELI34
+Como falar: 'a MELI protocolou 8-K na SEC (2.02 resultado do trimestre)'
+Fonte: SEC EDGAR 2026-11-04
+id: E04-MELI34-26000027-2026-11-04 · status: pendente · íntegra disponível
 
 [ATENÇÃO] E04 · MMM · 8-K: 1.01 acordo material assinado, 8.01 outros eventos
 SEC EDGAR · aceito 03/11 20h03 · 8-K
@@ -39,10 +79,92 @@ Por que importa: acordo material muda receita, alavancagem ou estrategia; olhar 
 Ativos: MMM
 Como falar: 'a MMM protocolou 8-K na SEC (1.01 acordo material assinado, 8.01 outros eventos)'
 Fonte: SEC EDGAR 2026-11-04
-id: E04-MMM-26000318-2026-11-04 · status: pendente · íntegra disponível
+id: E04-MMM-26000318-2026-11-04 · status: expirado · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (19)
+## NOTÍCIAS COM MATERIALIDADE (25)
+
+[ATENÇÃO] E05 · AMD · The Deal With Meta & OpenAI Just Cost AMD $1.1 Billion
+Yahoo Finance · 04/11 21h26 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Advanced Micro Devices booked a $1.1 billion noncash charge in the third quarter tied to its chip deals with OpenAI and Meta Platforms, marking the first time the two agreements have hit the chipmaker's reported earning…
+  – The deals give the companies the right to buy up to 320 million AMD shares for a penny apiece if they meet a series of milestones.
+  – The charge, equivalent to 66 cents per diluted share in AMD's earnings reconciliation, came as the chipmaker began shipping its new Instinct MI450 accelerators.
+  – AMD reported $13.4 billion in quarterly revenue and $1.46 in diluted earnings per share.
+  – Adjusted earnings were $2.09 per share, a figure that excludes the warrant revaluation and other items.
+  – AMD signed its agreement with OpenAI in October 2025 and its deal with Meta in February.
+Link: https://finance.yahoo.com/technology/articles/deal-meta-openai-just-cost-001401130.html
+Por que importa: aquisicao ou venda muda alavancagem, mix de receita e o multiplo; olhar preco pago e financiamento
+Ativos: AMD
+Como falar: 'saiu no Yahoo Finance: The Deal With Meta & OpenAI Just Cost AMD $1.1 Billion; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 04/11 21h26
+id: E05-AMD-2b9885786d-2026-11-05 · status: pendente
+
+[ATENÇÃO] E05 · AXIA3 · Lucro líquido da Axia (AXIA3) cai 19%, para R$ 1,759 bilhão no 3T26; veja os números
+Money Times · 04/11 20h02 · fonte única · licença: integral
+Do texto:
+  – Lucro líquido da Axia (AXIA3) cai 19%, para R$ 1,759 bilhão no 3T26; veja os números A Axia Energia (AXIA3) teve lucro líquido ajustado de R$ 1,759 bilhão no terceiro trimestre de 2026 (3T26), queda de 19,1% ante os R$…
+  – No acumulado dos nove primeiros meses, o lucro ajustado somou R$ 7,071 bilhões, alta de 98,3% frente a igual período de 2025.
+  – A retração ocorreu apesar do crescimento do Ebitda (lucro antes de juros, impostos, depreciação e amortização) regulatório ajustado, que chegou a R$ 6,915 bilhões, avanço de 8,4% na comparação anual.
+  – O lucro líquido sem ajustes, foi de R$ 1,113 bilhão no trimestre, ante prejuízo de R$ 5,448 bilhões no 3T25.
+  – Nos nove meses, a Axia registrou lucro líquido IFRS de R$ 4,934 bilhões, revertendo o prejuízo de R$ 7,127 bilhões apurado no mesmo intervalo do ano passado.
+  – A receita operacional líquida ajustada foi de R$ 10,037 bilhões, em linha com o número apresentado ano passado e queda de 10,3% em base trimestral.
+Link: https://www.moneytimes.com.br/lucro-liquido-da-axia-axia3-cai-19-para-r-1759-bilhao-no-3t26-veja-os-numeros-bdap/
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: AXIA3
+Como falar: 'saiu no Money Times: Lucro líquido da Axia (AXIA3) cai 19%, para R$ 1,759 bilhão no 3T26; veja os números; confirmar o número no texto antes de repassar'
+Fonte: Money Times 04/11 20h02
+id: E05-AXIA3-ef9e818139-2026-11-04 · status: pendente · íntegra disponível
+
+[ATENÇÃO] E05 · MELI34 · Mercado Livre tem lucro de US$ 448 milhões no 3° tri, alta de 6%
+CNN Brasil · 04/11 18h44 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – O Mercado Livre divulgou nesta quarta-feira (4) um lucro líquido abaixo das estimativas do mercado para o terceiro trimestre, à medida que maiores gastos em capacidade logística para o pico da temporada de compras press…
+  – A empresa de comércio eletrônico e serviços financeiros registrou lucro líquido de US$ 448 milhões de julho a setembro, inferior aos US$ 476 milhões esperados por analistas, segundo dados da LSEG.
+  – Ainda assim, o lucro subiu cerca de 6% em relação ao mesmo período do ano anterior, retomando o crescimento após três trimestres consecutivos de queda.
+  – “No trimestre em que você está ampliando a capacidade, ainda não há uma receita correspondente, mas você já arca com os custos”, disse o diretor financeiro do Mercado Livre, Martin de los Santos, em entrevista à Reuters.
+  – A maior expansão fez com que a margem operacional recuasse para 6,3%, ante quase 10% um ano antes, e ficando abaixo dos 7% previstos pelas estimativas de mercado compiladas pela LSEG.
+  – Receita Brasil impulsiona A receita, por outro lado, superou as expectativas e subiu 45%, atingindo US$ 10,75 bilhões, acima do consenso de mercado de US$ 10,66 bilhões, com o Brasil liderando esse crescimento para a em…
+Link: https://www.cnnbrasil.com.br/economia/money/negocios/mercado-livre-tem-lucro-de-us-448-milhoes-no-3-tri-alta-de-6/
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: MELI34
+Como falar: 'saiu no CNN Brasil: Mercado Livre tem lucro de US$ 448 milhões no 3° tri, alta de 6%; confirmar o número no texto antes de repassar'
+Fonte: CNN Brasil 04/11 18h44
+id: E05-MELI34-ef819d4802-2026-11-04 · status: pendente
+
+[ATENÇÃO] E05 · DI · Copom mantém taxa básica de juros da economia em 13,75% ao ano
+g1 · 04/11 18h31 · + Estadao, UOL Economia · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – O Copom afirmou que a alta das expectativas de inflação e a desaceleração mais acentuada da economia exigem "serenidade" na condução da política monetária.
+  – O Cômite entendeu que a decisão é, portanto, "compatível com a estratégia de convergência da inflação para o redor da meta ao longo do horizonte relevante".
+  – "Sem prejuízo de seu objetivo fundamental de assegurar a estabilidade de preços, essa decisão também implica suavização das flutuações do nível de atividade econômica e fomento do pleno emprego", diz a decisão.
+  – "O Comitê monitora com atenção a desancoragem das expectativas de inflação para prazos mais longos na medida em que esta contribui para a determinação dos preços e aumenta o custo de desinflação".
+  – Trajetória da Selic, a taxa básica de juros - novembro de 2026 — Foto: Arte/g1 Com a Selic em 13,75% ao ano, o Brasil lidera um ranking de 40 países elaborado pelos sites MoneYou e Lev Intelligence.
+  – Considerando os juros reais, que descontam a inflação estimada para os próximos 12 meses, a taxa brasileira é de 8,45% ao ano, seguida pela da Rússia, de 6,79% ao ano.
+Link: https://g1.globo.com/economia/noticia/2026/11/04/copom-mantem-taxa-basica-de-juros-da-economia-em-1375percent-ao-ano.ghtml
+Por que importa: decisao de politica monetaria reprecifica toda a curva e o cambio
+Ativos: DI
+Como falar: 'saiu no g1: Copom mantém taxa básica de juros da economia em 13,75% ao ano; confirmar o número no texto antes de repassar'
+Fonte: g1 04/11 18h31
+id: E05-DI-5d0831221e-2026-11-04 · status: linha
+
+[ATENÇÃO] E05 · COHR · Coherent (NYSE:COHR) beats Q3 CY2026 sales expectations, provides optimistic revenue guidance for next quarter
+TradingView (Reuters) · 04/11 18h23 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/stockstory:171de6109094b:0-coherent-nyse-cohr-beats-q3-cy2026-sales-expectations-provides-optimistic-revenue-guidance-for-next-quarter/
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: COHR
+Como falar: 'saiu no TradingView (Reuters): Coherent (NYSE:COHR) beats Q3 CY2026 sales expectations, provides optimistic revenue guid…; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 04/11 18h23
+id: E05-COHR-5856bc2b7f-2026-11-04 · status: linha
+
+[ATENÇÃO] E05 · MMM · 3M stock soars following $7.35 billion 'forever chemicals' settlement
+Reuters · 04/11 17h27 · fonte única · licença: manchete
+Link: https://www.reuters.com/legal/litigation/3m-stock-soars-following-735-billion-forever-chemicals-settlement-2026-11-04/
+Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e prazo
+Ativos: MMM
+Como falar: 'saiu no Reuters: 3M stock soars following $7.35 billion 'forever chemicals' settlement; confirmar o número no texto antes de repassar'
+Fonte: Reuters 04/11 17h27
+id: E05-MMM-519b47d17c-2026-11-04 · status: linha
 
 [ATENÇÃO] E05 · GOOGL · Alphabet Stocks Rise 1.4% as Euro Borrowing Meets a $200 Billion Spending Plan
 Yahoo Finance · 04/11 16h36 · fonte única · licença: resumo
@@ -101,7 +223,7 @@ Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir
 Ativos: ITUB4
 Como falar: 'saiu no UOL Economia: Itaú vê crédito mais difícil em 2027, mas mantém perspectiva de dividendos; confirmar o número no texto antes de repassar'
 Fonte: UOL Economia 04/11 14h01
-id: E05-ITUB4-8861a44210-2026-11-04 · status: pendente
+id: E05-ITUB4-8861a44210-2026-11-04 · status: expirado
 
 [ATENÇÃO] E05 · PLTR · Palantir Stocks Decline 4.36% Guidance Requires Another 15% Sequential Revenue Step
 TradingView (Reuters) · 04/11 13h17 · fonte única · licença: manchete
@@ -110,7 +232,7 @@ Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; 
 Ativos: PLTR
 Como falar: 'saiu no TradingView (Reuters): Palantir Stocks Decline 4.36% Guidance Requires Another 15% Sequential Revenue Step; confirmar o número no texto antes de repassar'
 Fonte: TradingView (Reuters) 04/11 13h17
-id: E05-PLTR-259d0908b3-2026-11-04 · status: pendente
+id: E05-PLTR-259d0908b3-2026-11-04 · status: expirado
 
 [ATENÇÃO] E05 · ITUB4 · Dividendos: Daycoval mantém Itaú (ITUB4), Caixa Seguridade (CXSE3) e mais 8 ações em carteira
 Money Times · 04/11 12h59 · fonte única · licença: integral
@@ -125,7 +247,7 @@ Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir
 Ativos: ITUB4
 Como falar: 'saiu no Money Times: Dividendos: Daycoval mantém Itaú (ITUB4), Caixa Seguridade (CXSE3) e mais 8 ações em cart…; confirmar o número no texto antes de repassar'
 Fonte: Money Times 04/11 12h59
-id: E05-ITUB4-e50476a7de-2026-11-04 · status: pendente · íntegra disponível
+id: E05-ITUB4-e50476a7de-2026-11-04 · status: expirado · íntegra disponível
 
 [ATENÇÃO] E05 · ITUB4 · Itaú sobe com resultado 'forte' no 3T26, mas pressão segue no radar
 UOL Economia · 04/11 12h35 · fonte única · licença: manchete
@@ -278,8 +400,23 @@ Fonte: Investing.com 03/11 21h16
 id: E05-MMM-83c3296f5c-2026-11-04 · status: expirado
 
 
-## OUTRAS NOTÍCIAS (só manchete) (35)
+## OUTRAS NOTÍCIAS (só manchete) (50)
 
+· COHR Coherent Corp. reports results for the quarter ended September 30 - Earnings Summary (TradingView (Reuters)) https://www.tradingview.com/news/reuters.com,2026:newsml_L5N46L3PH:0-coherent-corp-reports-results-for-the-quarter-ended-september-30-earnings-summary/
+· AXIA3 Ex-Eletrobras: chuva barateia energia, mas Axia quase dobra lucro em nove meses (Exame) https://exame.com/invest/mercados/ex-eletrobras-chuva-barateia-energia-mas-axia-quase-dobra-lucro-em-nove-meses/
+· USDBRL Dólar cai a R$ 5,45 após eleições nos EUA e antes do Copom (Agencia Brasil) https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/dolar-cai-r-545-apos-eleicoes-nos-eua-e-antes-do-copom
+· AXIA3 Axia Energia reverte prejuízo bilionário e volta a lucrar no terceiro trimestre (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/axia-energia-reverte-prejuizo-bilionario-e-volta-a-lucrar-no-terceiro-trimestre/
+· DI Selic a 13,75%: Sem ajuste fiscal, mercado vê juros travando a economia até 2027 (InfoMoney) https://www.infomoney.com.br/economia/copom-mantem-selic-13-75-risco-fiscal/
+· INTC Intel: The Foundry Trap Is Getting Worse (NASDAQ:INTC) (Seeking Alpha) https://seekingalpha.com/article/4962543-intel-the-foundry-trap-is-getting-worse
+· ITUB4 Ibovespa finalmente reage após seis quedas; Itaú (ITUB4) sobe e Petrobras (PETR4) despenca 7% (Suno Noticias) https://www.suno.com.br/noticias/ibovespa-itau-itub4-petrobras-petr4/
+· GFS GLOBALFOUNDRIES Inc. Q3 2026 Earnings Call Summary (Yahoo Finance) https://finance.yahoo.com/technology/articles/globalfoundries-inc-q3-2026-earnings-224020433.html
+· DI Desconfiança fiscal forçou BC a paralisar corte na Selic, dizem economistas (UOL Economia) https://economia.uol.com.br/noticias/redacao/2026/11/04/selic-analistas.ghtm
+· DI Setor produtivo critica manutenção da Selic em 13,75% ao ano (Agencia Brasil) https://news.google.com/rss/articles/CBMitwFBVV95cUxOZndIMks5Yml3cTYtZ3NKTVdTYjUwMHRQdTRFQkMzaElYY2t2cTZLVVUtY2N6SVNKTHRzN2VZQjBUOUFKZVhLX2lRaWJldkNmckZLd2l0cjlQUkNYTFYxMjNVZTlEeWR3MUpaVi1jT2lNdE1SQXlFZTNYSHJ6TS10ZlFjbDIwT1FtNDRWazdRWWVIWnFnWXAxM1ZUMmIwNkhPU2NvVkdnX1JnV1NyWmc0NU9xR1V3bFU?oc=5
+· PETR4 A aprovação do Cade para um M&A no setor de óleo e gás que desagradou a Petrobras (NeoFeed) https://news.google.com/rss/articles/CBMiswFBVV95cUxPc3dTN01CYUYxcHJqdHk1ZW9RblBNYjM4LVg0LWZtN1VCTm4tQnRNamVBbzVkNGM2OFM2NTlNX1M3ZUQ2MmtabnVIS2tHRUtzMmJTZFYwcWJYRTFWN2d5X1NvbjRCYXpDYW9FYjFZZk85RzJNSTdzZk1YamZaaDJVSDF6SE51VVRRdjlBanVuVnlHUE5HZTRTMnR1NE9sSmd5N2U3T1c0bFhaMDZpeEdXTldPMA?oc=5
+· DI Na primeira decisão pós-eleição, Banco Central ajusta a direção da taxa Selic (NeoFeed) https://news.google.com/rss/articles/CBMirgFBVV95cUxOSnM2NXpnbmlsa2drZEF4N1Y2amduQWtEdGgteVFPcW8wbVNPUFkxemo2TFp2MlEyWTJTWFlua1hBWFFQbzV2cEsyR0xiNjVkc0tkNDNiY09sai16cmFwUU1YbjNONldWQUZGOE8wSjdiczVHU0xBcXZXcjlVU1VkUzBodzhRTXI0eFRRUkt5QU5YMmUyeFY2X0g2T2htMnc3TkMxd3N5UGx1S3I3QXc?oc=5
+· DI Projeções de inflação disparam em meio a combinação de choques e forçam Copom a manter juros altos (O Globo) https://news.google.com/rss/articles/CBMi9wFBVV95cUxPbUhHR1NkQmdrcW53ejEwWXBhdHV4My1naVY4MmxhcWpYZkVoTkpyRGd4dVRjY19kdlp2ZEtRa1V2VmdWY0Z0SzZpdnBJSXRmejRoRy1RLVllaEZueWNlalRHeml1VEZCMzRYamlpaHY0cFo2U1FtbDhUWWI0VFROM3cxUVBYQ2RvbmViVnBPTDg2TjAyaVowUjlLWlotQ2FPTXA3QU1pOS1neWVqMXRTV3gzanVteTBIODdlVURNN2FtNmJfSXB0d24xXzhiSVNaMHBSQ19FU2dYdDZmay1oMjBrYnpkWF9Md0w5bWRCZHNhTk5ESjlZ0gGGAkFVX3lxTE53YlFhcFJGNVA3NEhmLWxpT0dkemowSDQ2TkdDMWhRWEd6d2JHN3gzbi1XaDBkajdXY0tBaUUxTHdKbFpHNC1BQnpVd05XdDNwSy1SQndqa2lLaEVGb19hSzhWdVROdUMySmlaelk5bEFPLVZtbktadk5PcmFYa3UwUzd3eFNYcjJTMVdJMlZkN0x6S1ZEcVdUMzZaRTRBWVp2dXpfWS1oeGd2VlJvczdvVHBkYTNuVzQzM0R3V0FOT0ZiaWJVZTZKUEF4VEFKNlhyaUc5X1A4eVpoc1NPaVZaYVpjckpPNGllSnlVb1l1NTIxbTRwZFRXWWVWMGJ4YTR0cjJlc3c?oc=5
+· COHR Coherent Corp. 2027 Q1 - Results - Earnings Call Presentation (NYSE:COHR) 2026-11-04 (Seeking Alpha) https://news.google.com/rss/articles/CBMingFBVV95cUxQNUtLTC05dGNJMUlGWndVRC1mcHJhZUVTd2hmZHVfWGJyWDJPREx1X1YwcnNhdF92SVdmWjlVZl9td1A5ZXJnOFlQU0hmUVdUVlYwV2JmZE9oWnVGbWxlbmlXSWtQaGwwSWltcVhNbDZHY2JUbXg1OG8wN29CMk1PbDJGVkk3cU9BNlFCRzlJTi1ibzc4d0VIUzRCYVQ5Zw?oc=5
+· MELI34 Mercado Livre (MELI34) tem lucro líquido abaixo do esperado e registra US$ 448 mi (InfoMoney) https://news.google.com/rss/articles/CBMimAFBVV95cUxNRlVqSzhjTnd0WHRrTmVseUgxTnVzaVNPUHZfLVVNX2xXSTBVakowX0oyRXV5T0E2ejZ1b0I0ZTVvcTlkNFp1Q2lwM0FzQWhNUmVhd1BFVUtjSUVGMjZSUWttUmFJdmx1VWN3a215ZldPcUZpeVZ0RUY1SjRQOHc0U0xEUm9nU2NIUWNBN3hER3Z4RTJWbDFwMdIBngFBVV95cUxOQ2hUZDVtUG9ISFUxN1FTeTdTdDFHRUhDRnAyd3NVZTZNWEItNzlHOHJ1aU9JRTlHZFkwSmh3M3pRMVlWZHI2RjhYZFpENkhkTXpBWTNxZDhwYXlsWWs2Z2xnTmN0cFFXcDhYclFnTDNpdkJyc2JKZFdWMXhQbGItTW1jWjdyODF4WS1MTDRySnk2N3RjTzJDQ1c2RkdwQQ?oc=5
 · BTC Bitcoin rebounds past $80,000 as markets shrug off midterms and Binance hack (The Block) https://www.theblock.co/news/markets/2026-11-04-bitcoin-price-midterm-elections-binance-hack-recovery-433030
 · USDBRL Dólar fecha em queda de 0,65%, a R$ 5,45, em reação às eleições nos EUA e expectativa por Copom (Money Times) https://www.moneytimes.com.br/dolar-04-11-2026-davs/
 · BTC Bernstein Cuts Price Targets on Seven Bitcoin Miners After Democrats’ Texas Win Threatens AI Data Center Boom (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bernstein-cuts-price-targets-seven-194100014.html
