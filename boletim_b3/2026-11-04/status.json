@@ -1,22 +1,22 @@
 {
  "pregao": "2026-11-04",
- "situacao": "publicando",
+ "situacao": "publicado",
  "errata": false,
- "atualizado_em": "2026-11-05T04:13:37.29",
+ "atualizado_em": "2026-11-05T00:00:00",
  "completo": {
-  "arquivo": "",
-  "pdf": ""
+  "arquivo": "BDI_00_20261104.pdf",
+  "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-11-04/BDI_00_20261104.pdf"
  },
  "cadernos": [
   {
    "id": 1,
    "nome": "Renda fixa",
    "pai": null,
-   "situacao": "publicando",
-   "errata": false,
-   "atualizado_em": "2026-11-05T02:23:09.84",
-   "arquivo": "",
-   "pdf": ""
+   "situacao": "republicado",
+   "errata": true,
+   "atualizado_em": "2026-11-05T08:05:39.377",
+   "arquivo": "BDI_01_20261104.pdf",
+   "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-11-04/BDI_01_20261104.pdf"
   },
   {
    "id": 20,
@@ -42,11 +42,11 @@
    "id": 2,
    "nome": "Indicadores e informativos",
    "pai": 20,
-   "situacao": "publicando",
+   "situacao": "publicado",
    "errata": false,
-   "atualizado_em": "2026-11-05T04:13:37.29",
-   "arquivo": "",
-   "pdf": ""
+   "atualizado_em": "2026-11-05T07:55:38.327",
+   "arquivo": "BDI_02_20261104.pdf",
+   "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-11-04/BDI_02_20261104.pdf"
   },
   {
    "id": 23,
@@ -82,11 +82,11 @@
    "id": 34,
    "nome": "Derivativos de bolsa",
    "pai": 3,
-   "situacao": "publicando",
+   "situacao": "publicado",
    "errata": false,
-   "atualizado_em": "2026-11-05T03:14:04.053",
-   "arquivo": "",
-   "pdf": ""
+   "atualizado_em": "2026-11-05T00:00:00",
+   "arquivo": "BDI_03-4_20261104.pdf",
+   "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-11-04/BDI_03-4_20261104.pdf"
   },
   {
    "id": 41,
@@ -104,7 +104,7 @@
    "pai": 4,
    "situacao": "republicado",
    "errata": false,
-   "atualizado_em": "2026-11-05T04:00:38.093",
+   "atualizado_em": "2026-11-05T05:25:38.14",
    "arquivo": "BDI_04-2_20261104.pdf",
    "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-11-04/BDI_04-2_20261104.pdf"
   },
