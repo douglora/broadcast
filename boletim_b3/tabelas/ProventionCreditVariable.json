@@ -1,5 +1,5 @@
 {
- "pregao": "2026-11-04",
+ "pregao": "2026-11-05",
  "nome": "ProventionCreditVariable",
  "titulo": "Crédito de proventos",
  "sla": "00:00:00",
@@ -7,16 +7,15 @@
  "colunas": [{"nome": "TckrSymb", "titulo": "Emissor"}, {"nome": "Code", "titulo": "Código ISIN"}, {"nome": "EarningsType", "titulo": "Tipo de provento"}, {"nome": "DateAge", "titulo": "Data de aprovação"}, {"nome": "Value", "titulo": "Valor (R$)"}, {"nome": "CreditDate", "titulo": "Data de crédito"}],
  "texto": ["Crédito de proventos é o montante recebido por investidores como retorno sobre investimentos em ações ou outros ativos de renda variável. Nesta tabela, estão informações sobre esses rendimentos."],
  "situacao": "publicado",
- "atualizado_em": "2026-11-04T23:40:37.77",
+ "atualizado_em": "2026-11-05T21:10:40.99",
  "truncada": false,
  "linhas": [
-  ["THE GAP, INC.", "BRGPSIBDR009 135", "DIVIDENDO", null, 0.636108231, "2026-11-04"],
-  ["ALLOS S.A", "BRALOSACNOR5 126", "DIVIDENDO", null, 0.291918638, "2026-11-04"],
-  ["SUNO LOG FII RESP LIM", "BRSNLGCTF007 113", "AMORTIZAÇÃO", "2026-10-27", 2.72357619, "2026-11-04"],
-  ["NETAPP INC", "BRN1TABDR008 128", "DIVIDENDO", null, 0.13501222, "2026-11-04"],
-  ["AGILENT TECHNOLOGIES INC", "BRA1GIBDR003 127", "DIVIDENDO", null, 0.092691437, "2026-11-04"],
-  ["PERFIN APOLLO ENERGIA FND DE INVEST EM PART.", "BRPFINCTF001 126", "RENDIMENTO", "2026-10-28", 1.28, "2026-11-04"],
-  ["FOMENTO ECONOMICO MEXICANO SAB DE CV - FEMSA", "BRFMXBBDR003 122", "DIVIDENDO", null, 7.978835991, "2026-11-04"],
-  ["COMCAST CORPORATION", "BRCMCSBDR008 161", "DIVIDENDO", null, 0.239906394, "2026-11-04"]
+  ["BANCO BILBAO VIZCAYA ARGENTARIA SA", "BRBILBBDR005 112", "DIVIDENDO", null, 1.777947443, "2026-11-05"],
+  ["WISDOMTREE YIELD ENHANCED US AGGREGATE BOND FUND", "BRBAGYBDR004 138", "DIVIDENDO", "2026-09-23", 0.165227273, "2026-11-05"],
+  ["MARVELL TECHNOLOGY INC", "BRM2RVBDR007 118", "DIVIDENDO", null, 0.021999584, "2026-11-05"],
+  ["WLM PART. E COMÉRCIO DE MÁQUINAS E VEÍCULOS S.A.", "BRWLMMACNOR6 127", "JUROS SOBRE CAPITAL PRÓPRIO", null, 0.2604234, "2026-11-05"],
+  ["MICRON TECHNOLOGY INC", "BRMUTCBDR008 121", "DIVIDENDO", null, 0.091665029, "2026-11-05"],
+  ["WLM PART. E COMÉRCIO DE MÁQUINAS E VEÍCULOS S.A.", "BRWLMMACNPR3 127", "JUROS SOBRE CAPITAL PRÓPRIO", null, 0.2864657, "2026-11-05"],
+  ["WISDOMTREE FLOATING RATE TREASURY FUND", "BRBUSFBDR006 138", "DIVIDENDO", "2026-09-23", 0.1258, "2026-11-05"]
  ]
 }

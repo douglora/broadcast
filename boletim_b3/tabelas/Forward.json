@@ -1,5 +1,5 @@
 {
- "pregao": "2026-11-04",
+ "pregao": "2026-11-05",
  "nome": "Forward",
  "titulo": "Ações mais negociadas - a termo",
  "sla": "8:00:00",
@@ -7,13 +7,13 @@
  "colunas": [{"nome": "TckrSymb", "titulo": "Ação"}, {"nome": "Cod", "titulo": "Código"}, {"nome": "Term", "titulo": "Prazo"}, {"nome": "Closing", "titulo": ""}, {"nome": "TradQty", "titulo": ""}, {"nome": "VlmTradedDay", "titulo": "Volume (R$) mil"}, {"nome": "Part", "titulo": "Participação (%)"}],
  "texto": ["Lista ações com maior volume de negociação em contratos a termo, destacando as mais ativas."],
  "situacao": "publicado",
- "atualizado_em": "2026-11-04T19:01:35.497",
+ "atualizado_em": "2026-11-05T19:11:03.253",
  "truncada": false,
  "linhas": [
-  ["PRIO        ON      NM", "ON      NM", 72, 64.92, 60000, 3895.2, 1.260816227209171],
-  ["AXIA ENERGIAON      NM", "ON      NM", 72, 48.44, 84600, 4098.024, 1.7777508803649305],
-  ["EQUATORIAL  ON      NM", "ON      NM", 72, 34.21, 120000, 4105.2, 2.521632454418342],
-  ["ITAUUNIBANCOPN  EJ  N1", "PN  EJ  N1", 20, 40.06, 150000, 6009, 3.152040568022927],
-  ["ASSAI       ON      NM", "ON      NM", 90, 8.08, 1001300, 8090.504, 21.040921471742376]
+  ["ISHARES BOVACI  ATZ", "CI  ATZ", 40, 166.2, 10260, 1705.2119999999998, 0.33411021012796804],
+  ["FII TIVIO RICI  ER", "CI  ER", 47, 83.9, 37000, 3104.3, 1.2048808747304895],
+  ["INVESTOUTIL CI", "CI", 32, 113.5, 64000, 7264, 2.0841182698040894],
+  ["FII HEDGEBS CI  ER", "CI  ER", 47, 17.47, 179500, 3135.865, 5.845300459841157],
+  ["MRV         ON      NM", "ON      NM", 90, 4.29, 1001000, 4294.29, 32.59691231365459]
  ]
 }
