@@ -40,6 +40,8 @@ metodo em quant/saida/pesquisa5/BRIEF.md) e move a linha para "Testadas" com os 
    papeis ficaram sem TIR, e por que.
 
 ## Testadas
+- 06/11/2026, tarde: nenhuma hipotese testavel; 7, 8, 9, 10, 12, 14, 15 e 16 seguem esperando dado novo ou sao prova viva. Nao ha item "[revisao: ...]"
+  aberto. Prova viva rodou: indice fim do dia original 16 negocios (+R$ 85, t 2,0), variante adaptativa 16 (-R$ 54), abaixo de 60. Nenhuma tentativa nova (METODO: parar em vez de forcar).
 - 05/11/2026, tarde: nenhuma hipotese testavel; 7, 8, 9, 10, 12, 14, 15 e 16 seguem esperando dado novo ou sao prova viva. Nao ha item "[revisao: ...]"
   aberto. Prova viva rodou: indice fim do dia original 15 negocios (+R$ 65, t 1,6), variante adaptativa 15 (-R$ 44), abaixo de 60. Nenhuma tentativa nova (METODO: parar em vez de forcar).
 
