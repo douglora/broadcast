@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-11-05T20:19:59Z",
+ "gerado_em": "2026-11-06T19:46:43Z",
  "canal": "https://www.youtube.com/@KineaInvestimentos",
  "listagem": "yt-dlp",
  "fora_do_tema": 0,
@@ -81,19 +81,6 @@
    "erro": "painel: painel: get_transcript HTTP 400, 0 trechos | yt-dlp: nenhuma legenda listada | audio: padrao: DownloadError: ERROR: [youtube] 9lasMCOB6Ic: Faça login para confirmar que você não é um bot. Isso ajuda a proteger nossa comunidade"
   },
   {
-   "id": "j-XlSMoLhQ8",
-   "titulo": "Fundos de ações - Ibovespa sobe 3,6% com eleição no radar | Ref. Set/26",
-   "aba": "videos",
-   "url": "https://www.youtube.com/watch?v=j-XlSMoLhQ8",
-   "data": "2026-10-01",
-   "descricao": "Setembro trouxe uma recuperação da bolsa brasileira, enquanto a eleição ganhou espaço nas decisões dos investidores. Neste vídeo, analisamos a alta do Ibovespa, o papel do capital estrangeiro e do investidor institucional local, além dos impactos do petróleo e do cenário internacional. Também comentamos a alta de juros nos Estados Unidos, o corte da Selic, os sinais de inflação e o desempenho dos nossos fundos de ações em relação ao Ibovespa. Para outubro, o foco estará nas eleições, nos desdobramentos da guerra e nos próximos sinais de inflação e juros, no Brasil e no exterior. Para saber mais, leia a carta do gestor no site da Kinea.\n\nPor Sauro Druda, do time de Ações da Kinea.\n\nAcesse a comunidade da Kinea no Whatsapp e fique por dentro de tudo: https://kinea.me/3KrOUkb \n\nConheça nosso novo canal de Cortes: https://www.youtube.com/channel/UCcnuMzbPtsJpwPoPtpZK0Mw \n\nCadastre-se em nossa newsletter e receba as informações da Kinea em primeira mão: https://www.kinea.com.br/newsletter/\n\nAcesse as redes da Kinea e fique por dentro das novidades, clicando aqui: https://linktr.ee/kineainvestimentos\n \nMais informações sobre os fundos Kinea em:\nhttps://www.kinea.com.br\n \nSiga a Kinea no Linkedin:\nhttps://www.linkedin.com/company/kinea-investimentos\n \nMais informações sobre os fundos de ações da Kinea em:\nKinea Gama: https://www.kinea.com.br/fundos/fundo-acoes-gama/\nKinea Prev Ações: https://www.kinea.com.br/fundos/fundo-prev-acoes/\nKinea Prev Ações XP: https://www.kinea.com.br/fundos/fundo-prev-acoes-xp/\n \nFale com a equipe Kinea para tirar dúvidas e saber mais sobre oportunidades de investimento:\nhttps://www.kinea.com.br/fale-conosco\nrelacionamento@kinea.com.br\n\nBusque por @kineainvestiementos no Instagram: \nhttps://www.instagram.com/kineainvestimentos/",
-   "coleta": 2,
-   "duracao_min": null,
-   "capitulos": [],
-   "ao_vivo": false,
-   "erro": "painel: painel: get_transcript HTTP 400, 0 trechos | yt-dlp: nenhuma legenda listada | audio: padrao: DownloadError: ERROR: [youtube] j-XlSMoLhQ8: Faça login para confirmar que você não é um bot"
-  },
-  {
    "id": "2Hkb9GcGwV8",
    "titulo": "Eleição brasileira, um novo Fed e os riscos de I.A. | Live Economia e Mercados ref. Setembro/26",
    "aba": "streams",
@@ -132,6 +119,14 @@
    "descricao": "",
    "coleta": 2,
    "erro": "painel: painel: get_transcript HTTP 400, 0 trechos | yt-dlp: android_vr: legenda listada mas nao entregue (o YouTube pede PO token) | audio: padrao: DownloadError: ERROR: [youtube] 2kiNjyZxmq0: Faça login para confirmar que você não é um bot. Isso ajuda a proteger nossa comunidade"
+  },
+  {
+   "id": "djJfaMHnVRE",
+   "titulo": null,
+   "aba": "site",
+   "coleta": 2,
+   "url": "https://www.youtube.com/watch?v=djJfaMHnVRE",
+   "erro": "nao tentado nesta rodada: o YouTube recusou os anteriores"
   },
   {
    "id": "9GehH8bvlE0",
@@ -189,14 +184,6 @@
    "aba": "videos",
    "coleta": 2,
    "url": "https://www.youtube.com/watch?v=TkrT6ipkau0",
-   "erro": "nao tentado nesta rodada: o YouTube recusou os anteriores"
-  },
-  {
-   "id": "PrjTy1UCQE4",
-   "titulo": "KFOF11 - Novas alocações e resultados do mês | Ref. Set/26",
-   "aba": "videos",
-   "coleta": 2,
-   "url": "https://www.youtube.com/watch?v=PrjTy1UCQE4",
    "erro": "nao tentado nesta rodada: o YouTube recusou os anteriores"
   },
   {
@@ -357,6 +344,6 @@
   }
  ],
  "log": [
-  "parei em 2kiNjyZxmq0: 6 videos seguidos sem legenda por erro do YouTube"
+  "parei em kvh6MnqHKAY: 6 videos seguidos sem legenda por erro do YouTube"
  ]
 }
