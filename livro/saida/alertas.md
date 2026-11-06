@@ -1,6 +1,6 @@
-ALERTAS · Fechamento 18h
+ALERTAS · intradia
 
-[CRÍTICO] CURVA · C05 IPCA+ 2050 PU -6,0% em 5 datas-base (base 05/11) / C07 UST FECHOU: 2y -12 bps · 2y cruzou 4,50% (05/11) / C03 DI em nível: F30 cruzou 15,00% (para baixo, agora 14,91%)
+(pendente de slot anterior) [CRÍTICO] CURVA · C05 IPCA+ 2050 PU -6,0% em 5 datas-base (base 05/11) / C07 UST FECHOU: 2y -12 bps · 2y cruzou 4,50% (05/11) / C03 DI em nível: F30 cruzou 15,00% (para baixo, agora 14,91%)
 TD Pre 2029 14,75 (-14) · IPCA+ 2032 7,85 (-2) · IPCA+ 2040 7,56 (-2) · IPCA+ 2050 7,42 (+1) · Pre 2032 15,14 (-9)
 2y 4,46 · 10y 4,84 · 30y 5,25 · 2s10s +38 bps
 Transmissão: IUAA (iShares US Aggregate Bond, duração ~6) ≈ +0,4%; alivia CNDX/RBOT e o real
@@ -10,10 +10,9 @@ Implícita 2031/32 (descasado): 6,87% (+119 bps na semana) vs Focus IPCA 2030 3,
 Por que importa: fechamento de taxa é ganho de marcação; quem carrega até o vencimento não mudou de rentabilidade
 Como falar: 'a marcação a mercado veio a favor; o rendimento contratado segue igual'
 Fonte: B3 ajuste 05/11 · Tesouro Transparente base 05/11; BCB Focus · Tesouro Transparente, base 05/11 · Treasury.gov CMT 05/11
-Push: [CRÍTICO] TESOURO IPCA+ 2050 PU -6,0% em 5 datas-base (base 05/11) | UST FECHOU | DI em nível +1 · detalhe na sessão
 ids: C05-TESOURO-fechou-2026-11-05, C07-UST-fechou-2026-11-05, C03-DI-di-2026-11-05, C06-TESOURO-implicita-2026-11-05
 
-[CRÍTICO] T05 · 14 ativos: VWRA, CSPX, CNDX, RBOT, SPY, BOTZ, QNTM, QANT, QTUM, PLTR, TSLA, JPM, MELI34, ETH
+(pendente de slot anterior) [CRÍTICO] T05 · 14 ativos: VWRA, CSPX, CNDX, RBOT, SPY, BOTZ, QNTM, QANT, QTUM, PLTR, TSLA, JPM, MELI34, ETH
 · VWRA (Vanguard FTSE All-World UCITS ETF USD Accumulating) -2,3% no dia a US$ 186,28: movimento de 3,4 desvios para uma vol de 20 dias de 11% a.a.
   1m -4,8% · 6m +0,1% · YTD +9,2%
 · CSPX (iShares Core S&P 500 UCITS ETF USD (Acc)) -2,6% no dia a US$ 807,58: movimento de 4,1 desvios para uma vol de 20 dias de 10% a.a.
@@ -45,60 +44,7 @@ ids: C05-TESOURO-fechou-2026-11-05, C07-UST-fechou-2026-11-05, C03-DI-di-2026-11
 Por que importa: acima de 3 desvios o movimento sai do ruído e costuma vir de fato novo ou fluxo forçado
 Como falar: 'o movimento de hoje é atípico para este papel; antes de mexer, saber o motivo'
 Fonte: Yahoo Finance fech. 05/11
-Push: [CRÍTICO] VWRA (Vanguard FTSE All-World UCITS ETF USD Accumulating) -2 | CSPX (iShares Core S&P 500 UCITS ETF USD (Acc)) -2,6% no dia | CNDX (iShares NASDAQ 100 UCITS ETF · detalhe na sessão
 ids: T05-VWRA-queda-2026-11-05, T05-CSPX-queda-2026-11-05, T05-CNDX-queda-2026-11-05, T05-RBOT-queda-2026-11-05, T05-SPY-queda-2026-11-05, T05-BOTZ-queda-2026-11-05, T05-QNTM-queda-2026-11-05, T05-QANT-queda-2026-11-05, T05-QTUM-queda-2026-11-05, T05-PLTR-queda-2026-11-05, T05-TSLA-queda-2026-11-05, T05-JPM-queda-2026-11-05, T05-MELI34-queda-2026-11-05, T05-ETH-queda-2026-11-05
-
-(pendente de slot anterior) [ATENÇÃO] T13 · 2 ativos: VIX, VIX
-· VIX cruzou 20: 26,6 (+60% no dia)
-  VIX 26,6 (+60%)
-· VIX cruzou 25: 26,6 (+60% no dia)
-  VIX 26,6 (+60%)
-Por que importa: VIX acima de 20 é o mercado pagando por proteção; acima de 30 as correlações vão a 1 e o que manda é o tamanho da posição
-Como falar: 'dia de aversão a risco: não é hora de decidir pelo preço de tela'
-Fonte: Cboe via Yahoo, fech. 05/11
-ids: T13-VIX-vix20-2026-11-05, T13-VIX-vix25-2026-11-05
-
-(pendente de slot anterior) [ATENÇÃO] E03 · AXIA3 · Fato Relevante: O cancelamento d e registro perante a U.S.
-CVM · entregue 05/11/2026 08:08
-Do documento:
-  – Nos termos da Rule 12g3-2(b) do Exchange Act, a Companhia continuará publicando, em seu site de Relações  com Investidores (https://ri.axia.com.br/en/), as traduções para o inglês das informações divulgadas no Brasil.
-Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1584324
-Por que importa: fato relevante e o que a propria companhia julga capaz de mover o preco; ler o documento inteiro antes de comentar
-Ativos: AXIA3
-Como falar: 'a Axia Energia publicou fato relevante sobre O cancelamento d e registro perante a U.S.'
-Fonte: CVM 05/11
-ids: E03-AXIA3-1584324-2026-11-05
-
-(pendente de slot anterior) [ATENÇÃO] E05 · UST · Multiliquid Treasury Launches 24/7 T-Bill Yield and Instant Settlement for Corporate Cash
-TradingView (Reuters) · 05/11 14h32 · fonte única · licença: manchete
-Link: https://www.tradingview.com/news/chainwire:d89f1f810094b:0-multiliquid-treasury-launches-24-7-t-bill-yield-and-instant-settlement-for-corporate-cash/
-Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e prazo
-Ativos: UST
-Como falar: 'saiu no TradingView (Reuters): Multiliquid Treasury Launches 24/7 T-Bill Yield and Instant Settlement for Corporate Cash; confirmar o número no texto antes de repassar'
-Fonte: TradingView (Reuters) 05/11 14h32
-ids: E05-UST-8954037432-2026-11-05
-
-(pendente de slot anterior) [ATENÇÃO] E05 · AXIA3 · Axia não prevê pagamento de dividendos além do mínimo de 25% do lucro líquido
-Valor Economico · 05/11 14h15 · fonte única · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – O conselho de administração da companhia vem aprovando seguidas operações de resgate desse tipo de ação este ano e Haiama afirmou que, com o atual panorama de preços, a tendência para os dividendos é a manutenção do pag…
-Link: https://valor.globo.com/empresas/noticia/2026/11/05/axia-nao-preve-pagamento-de-dividendos-alem-do-minimo-de-25percent-do-lucro-liquido.ghtml
-Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
-Ativos: AXIA3
-Como falar: 'saiu no Valor Economico: Axia não prevê pagamento de dividendos além do mínimo de 25% do lucro líquido; confirmar o número no texto antes de repassar'
-Fonte: Valor Economico 05/11 14h15
-ids: E05-AXIA3-4c4fcde442-2026-11-05
-
-(pendente de slot anterior) [ATENÇÃO] E05 · MU · Micron hits unexpected roadblock on $4.5 billion chip bet
-Yahoo Finance · 05/11 13h58 · fonte única · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – Micron Technology Inc. (MU, Financials) has allegedly scrapped plans for a $4.5 billion memory chip manufacturing plant in Taiwan amid a labor dispute that is currently ongoing.The move was disclosed by sources familiar…
-Link: https://au.finance.yahoo.com/news/micron-hits-unexpected-roadblock-4-165840277.html
-Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
-Ativos: MU
-Como falar: 'saiu no Yahoo Finance: Micron hits unexpected roadblock on $4.5 billion chip bet; confirmar o número no texto antes de repassar'
-Fonte: Yahoo Finance 05/11 13h58
-ids: E05-MU-40db121d02-2026-11-05
 
 (pendente de slot anterior) [ATENÇÃO] E05 · AMD · AMD Stocks Fall 12.68% Despite a $17 Billion Revenue Outlook
 TradingView (Reuters) · 05/11 16h32 · fonte única · licença: manchete
@@ -141,7 +87,7 @@ Como falar: 'saiu no Money Times: Alerta para dividendos: Itaú BBA tira Vale (V
 Fonte: Money Times 05/11 16h24
 ids: E05-ITUB4-12eb47174a-2026-11-05
 
-[ATENÇÃO] E03 · SBSP3 · Fato Relevante: A Companhia de Saneamento Básico do Estado de São Paulo – Sabesp (“Companhia” ou “Sabesp”) informa que, em reunião realizada nesta data , o Conselho…
+(pendente de slot anterior) [ATENÇÃO] E03 · SBSP3 · Fato Relevante: A Companhia de Saneamento Básico do Estado de São Paulo – Sabesp (“Companhia” ou “Sabesp”) informa que, em reunião realizada nesta data , o Conselho…
 CVM · entregue 05/11/2026 19:22
 Do documento:
   – Farão jus aos juros sobre o capital próprio ora creditados os acionistas que constarem da base acionária  da Companhia no final do pregão de 10 de novembro de 2026.
@@ -155,10 +101,9 @@ Por que importa: fato relevante e o que a propria companhia julga capaz de mover
 Ativos: SBSP3
 Como falar: 'a Sabesp publicou fato relevante sobre A Companhia de Saneamento Básico do Estado de São Paulo – Sabesp (“Co…'
 Fonte: CVM 05/11
-Push: Fechamento 18h: 7 alertas de atenção — E03 SBSP3, E03 SBSP3, E03 AXIA3, E04 MU, E05 SBSP3, E05 SBSP3, E05 ALUP4 · detalhe na sessão
 ids: E03-SBSP3-1585100-2026-11-05
 
-[ATENÇÃO] E03 · SBSP3 · Fato Relevante: A Companhia de Saneamento Básico do Estado de São Paulo – Sabesp (“Companhia” ou “Sabesp”) informa que, em reunião realizada nesta data , o Conselho…
+(pendente de slot anterior) [ATENÇÃO] E03 · SBSP3 · Fato Relevante: A Companhia de Saneamento Básico do Estado de São Paulo – Sabesp (“Companhia” ou “Sabesp”) informa que, em reunião realizada nesta data , o Conselho…
 CVM · entregue 05/11/2026 18:44
 Do documento:
   – Farão jus aos juros sobre o capital próprio ora creditados os acionistas que constarem da base acionária  da Companhia no final do pregão de 10 de novembro de 2026.
@@ -174,7 +119,7 @@ Como falar: 'a Sabesp publicou fato relevante sobre A Companhia de Saneamento B�
 Fonte: CVM 05/11
 ids: E03-SBSP3-1585041-2026-11-05
 
-[ATENÇÃO] E03 · AXIA3 · Fato Relevante: O cancelamento d e registro perante a U.S.
+(pendente de slot anterior) [ATENÇÃO] E03 · AXIA3 · Fato Relevante: O cancelamento d e registro perante a U.S.
 CVM · entregue 05/11/2026 18:02
 Do documento:
   – Nos termos da Rule 12g3-2(b) do Exchange Act, a Companhia continuará publicando, em seu site de Relações  com Investidores (https://ri.axia.com.br/en/), as traduções para o inglês das informações divulgadas no Brasil.
@@ -189,7 +134,7 @@ Como falar: 'a Axia Energia publicou fato relevante sobre O cancelamento d e reg
 Fonte: CVM 05/11
 ids: E03-AXIA3-1584807-2026-11-05
 
-[ATENÇÃO] E04 · MU · 8-K: 5.02 entrada ou saida de diretor ou conselheiro
+(pendente de slot anterior) [ATENÇÃO] E04 · MU · 8-K: 5.02 entrada ou saida de diretor ou conselheiro
 SEC EDGAR · aceito 05/11 18h33 · FORM 8-K
 Do documento:
   – On November 2, 2026, Linnie M.
@@ -203,7 +148,7 @@ Como falar: 'a MU protocolou 8-K na SEC (5.02 entrada ou saida de diretor ou con
 Fonte: SEC EDGAR 2026-11-05
 ids: E04-MU-26123389-2026-11-05
 
-[ATENÇÃO] E05 · SBSP3 · Dividendos e JCPs: Sabesp (SBSP3) vai depositar R$ 2,6 bilhões — e ainda dá para aproveitar
+(pendente de slot anterior) [ATENÇÃO] E05 · SBSP3 · Dividendos e JCPs: Sabesp (SBSP3) vai depositar R$ 2,6 bilhões — e ainda dá para aproveitar
 Seu Dinheiro · 05/11 19h58 · fonte única · licença: resumo
 Trechos (licença resumo: reescrever, não colar):
   – O valor corresponde a R$ 0,75 por ação.
@@ -219,7 +164,7 @@ Como falar: 'saiu no Seu Dinheiro: Dividendos e JCPs: Sabesp (SBSP3) vai deposit
 Fonte: Seu Dinheiro 05/11 19h58
 ids: E05-SBSP3-a1ef41c9a4-2026-11-05
 
-[ATENÇÃO] E05 · SBSP3 · Sabesp (SBSP3) pagará R$ 2,6 bilhões em juros sobre capital próprio; veja como aproveitar
+(pendente de slot anterior) [ATENÇÃO] E05 · SBSP3 · Sabesp (SBSP3) pagará R$ 2,6 bilhões em juros sobre capital próprio; veja como aproveitar
 Money Times · 05/11 19h46 · fonte única · licença: integral
 Do texto:
   – Sabesp (SBSP3) pagará R$ 2,6 bilhões em juros sobre capital próprio; veja como aproveitar A Sabesp (SBSP3) aprovou R$ 2,6 bilhões em juros sobre o capital próprio, mostra documento enviado ao mercado nesta quinta-feira…
@@ -235,7 +180,7 @@ Como falar: 'saiu no Money Times: Sabesp (SBSP3) pagará R$ 2,6 bilhões em juro
 Fonte: Money Times 05/11 19h46
 ids: E05-SBSP3-2a95af43b4-2026-11-05
 
-[ATENÇÃO] E05 · ALUP4 · Com R$ 10 bi para investir, Alupar não tem pressa por novos projetos
+(pendente de slot anterior) [ATENÇÃO] E05 · ALUP4 · Com R$ 10 bi para investir, Alupar não tem pressa por novos projetos
 UOL Economia · 05/11 19h45 · fonte única · licença: manchete
 Link: https://megawhat.uol.com.br/economia-e-politica/resultados/com-r-10-bi-para-investir-alupar-nao-tem-pressa-por-novos-projetos/
 Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
@@ -244,132 +189,101 @@ Como falar: 'saiu no UOL Economia: Com R$ 10 bi para investir, Alupar não tem p
 Fonte: UOL Economia 05/11 19h45
 ids: E05-ALUP4-2ab35d08bb-2026-11-05
 
-Info (só linha no Fechamento):
-· T01 TSLA fechou abaixo da média de 200 dias pela 1ª sessão: US$ 342,99 vs MM200 US$ 384,32 (-11%)
-· T02 PETR4 perdeu a MM50 pela 2ª sessão: R$ 45,95, ainda acima da MM200 (tendência longa preservada)
-· T02 BRENT perdeu a MM50 pela 2ª sessão: US$ 98,29, ainda acima da MM200 (tendência longa preservada)
-· T07 QNTM entrou em sobrevendido: RSI14 25 a US$ 23,08
-· T07 QANT entrou em sobrevendido: RSI14 24 a US$ 5,11
-· T07 WQTM entrou em sobrevendido: RSI14 23 a US$ 28,36
-· T09 RARA11 -1,7% com volume 2,5x a mediana de 20 sessões, a R$ 12,39
-· E03 SBSP3 · Comunicado ao Mercado: Apresentações a analistas/agentes do mercado
-· E03 KLBN4 · Comunicado ao Mercado: Apresentações a analistas/agentes do mercado
-· E04 GOOGL · 8-K: 8.01 outros eventos
-· E05 BAC · Form 4 Bank of America Corp: Brian T. Moynihan (Director, Chair and CEO) For: 3 November
-· E05 PETR4 · Equipe da Agência Brasil vence Seleção Petrobras de Jornalismo
-· E05 NVDA · Nvidia Stock Just Crashed 22%. Jim Cramer Says It’s the Cheapest in a Decade
-· E05 COHR · Coherent (COHR) Stock Price Falls Despite Strong Q1 Earnings
-· E05 BTC · How Much Will One Bitcoin Be Worth in 2030?
-· E05 GOOGL · Apple, Alphabet, and Meta: 3 Big Takeaways from Recent Earnings
-· E05 SBSP3 · Sabesp (SBPS3) aprova R$ 2,6 bilhões em proventos; veja quem tem direito
-· E05 NOK · Nokia (HLSE:NOKIA) Stock Looks Fully Valued After Its 129% Run
-· E05 MU · Micron Technology plunges 17% amid chip selloff, Taiwan plant halt (MU:NASDAQ)
-· E05 AVGO · Broadcom drops 10% amid broad chip selloff (AVGO:NASDAQ)
-· E05 INTC · Intel's stock crash shares an uncanny resemblance to its 2000 bust
-· E05 DI · Ibovespa fecha em queda pressionado pelo exterior, com balanços e Selic no radar
-· E05 NVDA · Update: Nasdaq Enters Correction Territory Amid Data Center Anxiety; Nvidia Tumbles Over 9%
-· E05 USDBRL · Tombo das Bolsas de NY pressiona Ibovespa hoje, que volta a cair; dólar subiu a R$ 5,48
-· E05 USDBRL · Dólar valoriza 0,67% e vai a R$ 5,489; Bovespa cai 0,82% e fecha com 166.191 pontos em 05/11/2026
-· T08 CNDX (iShares NASDAQ 100 UCITS ETF USD (Acc)) entrou em correção: -13% do pico de 52s (US$ 1.801 em 06/10) a US$ 1.563
-· T08 RBOT (iShares Automation & Robotics UCITS ETF USD (Acc)) entrou em queda de -15% do pico: -16% do pico de 52s (US$ 22,99 em 06/10) a US$ 19,33
-· T08 BOTZ entrou em queda de -25% do pico: -27% do pico de 52s (US$ 41,63 em 13/05) a US$ 30,59
-· T08 QNTM entrou em queda de -30% do pico: -33% do pico de 52s (US$ 34,65 em 02/06) a US$ 23,08
-· T08 PLTR entrou em bear técnico: -26% do pico de 52s (US$ 209,05 em 09/10) a US$ 154,82
-· T01 CNDX (iShares NASDAQ 100 UCITS ETF USD (Acc)) fechou abaixo da média de 200 dias pela 1ª sessão: US$ 1.563 vs MM200 US$ 1.609 (-2,9%)
-· T04 BOTZ fechou na mínima de 52 semanas: US$ 30,59, -15% em 1m e -17% em 12m
-· T06 CNDX (iShares NASDAQ 100 UCITS ETF USD (Acc)) -7,5% em 5 sessões a US$ 1.563: movimento de 3,0 desvios para a vol de 20 dias
-· T06 RBOT (iShares Automation & Robotics UCITS ETF USD (Acc)) -9,8% em 5 sessões a US$ 19,33: movimento de 2,9 desvios para a vol de 20 dias
-· T06 SPY -4,5% em 5 sessões a US$ 734,79: movimento de 2,5 desvios para a vol de 20 dias
-· T06 QNTM -11% em 5 sessões a US$ 23,08: movimento de 2,9 desvios para a vol de 20 dias
-· T06 QANT -8,4% em 5 sessões a US$ 5,11: movimento de 2,8 desvios para a vol de 20 dias
-· T06 WQTM -15% em 5 sessões a US$ 28,36: movimento de 3,2 desvios para a vol de 20 dias
-· T06 QTUM -15% em 5 sessões a US$ 119,55: movimento de 3,2 desvios para a vol de 20 dias
-· T06 PLTR -21% em 5 sessões a US$ 154,82: movimento de 3,3 desvios para a vol de 20 dias
-· T06 TSLA -15% em 5 sessões a US$ 342,99: movimento de 3,0 desvios para a vol de 20 dias
-· T09 WQTM -5,5% com volume 9,0x a mediana de 20 sessões, a US$ 28,36
-· T09 QTUM -8,4% com volume 3,9x a mediana de 20 sessões, a US$ 119,55
-· T09 MELI34 -6,1% com volume 3,7x a mediana de 20 sessões, a R$ 69,31
-· T10 QTUM no mínimo de força relativa em 63 sessões contra SPX: -21% vs -5,3% em 20 sessões (-16% relativo)
-· T10 PLTR no mínimo de força relativa em 63 sessões contra SPX: -22% vs -5,3% em 20 sessões (-18% relativo)
-· T10 KO no máximo de força relativa em 63 sessões contra SPX: +9,2% vs -5,3% em 20 sessões (+15% relativo)
-· T12 PLTR: 8 quedas seguidas (-22% acumulado) a US$ 154,82
-· T12 UGPA3: 10 quedas seguidas (-24% acumulado) a R$ 30,60
-· E05 INTC · Stock Market Today, Nov. 5: Intel Falls on Weak Fourth-Quarter Sales Outlook Amid Chip Selloff
-· E05 SBSP3 · Lucro líquido da Sabesp (SBSP3) cai 35,7% no terceiro trimestre, para R$ 1,39 bilhão
-· E05 SBSP3 · Sabesp (SBSP3) tem lucro líquido ajustado de R$ 1,107 bi no 3º tri, queda de 13,8%
-· E05 AMD · AMD Stocks Fall 12.68% Despite a $17 Billion Revenue Outlook
-· E05 NVDA · This Is the Number That Could Change Nvidia Stock’s Outlook for 2027
+[ATENÇÃO] E01 · DIRR3: resultado sai na próxima sessão (09/11)
+seg 09/11 · após o fechamento da B3 · estimado (config/calendario.yaml)
+Vol de 20 dias +119% a.a. ⇒ movimento típico de 1 dia ±7,5%
+Chega ao resultado com 1m -25% · 6m -33% · YTD -38%
+Consenso: não disponível (sem fonte licenciada); usar o release e o guidance anterior
+Por que importa: resultado é o evento que mais move o papel em um dia; a vol implícita e o posicionamento sobem antes e caem depois
+Como falar: 'o resultado sai amanhã; o movimento típico do papel num dia é o da vol acima, e o mercado costuma exagerar na abertura'
+Fonte: config/calendario.yaml
+Push: intradia: 5 alertas de atenção — E01 DIRR3, M01 MACRO, E05 USDBRL, E05 BTC, E05 MMM · detalhe na sessão
+ids: E01-DIRR3-D-1-2026-11-06
 
-Suprimidos pelo teto (viram linha do Fechamento): T08-CNDX--10-2026-11-05 (teto diário de críticos), T08-RBOT--15-2026-11-05 (teto diário de críticos), T08-BOTZ--25-2026-11-05 (teto diário de críticos), T08-QNTM--30-2026-11-05 (teto diário de críticos), T08-PLTR--20-2026-11-05 (teto diário de críticos), T01-CNDX-perda-2026-11-05 (teto de atenção), T04-BOTZ-minima-2026-11-05 (teto de atenção), T06-CNDX-queda-2026-11-05 (teto de atenção), T06-RBOT-queda-2026-11-05 (teto de atenção), T06-SPY-queda-2026-11-05 (teto de atenção), T06-QNTM-queda-2026-11-05 (teto de atenção), T06-QANT-queda-2026-11-05 (teto de atenção), T06-WQTM-queda-2026-11-05 (teto de atenção), T06-QTUM-queda-2026-11-05 (teto de atenção), T06-PLTR-queda-2026-11-05 (teto de atenção), T06-TSLA-queda-2026-11-05 (teto de atenção), T09-WQTM-queda-2026-11-05 (teto de atenção), T09-QTUM-queda-2026-11-05 (teto de atenção), T09-MELI34-queda-2026-11-05 (teto de atenção), T10-QTUM-mínimo-2026-11-05 (teto de atenção), T10-PLTR-mínimo-2026-11-05 (teto de atenção), T10-KO-máximo-2026-11-05 (teto de atenção), T12-PLTR-quedas_8-2026-11-05 (teto de atenção), T12-UGPA3-quedas_10-2026-11-05 (teto de atenção), E05-INTC-8e87a658b3-2026-11-05 (teto de noticias), E05-SBSP3-a33ad43087-2026-11-05 (teto de noticias), E05-SBSP3-09f50f20b7-2026-11-05 (teto de noticias), E05-AMD-817fe070e4-2026-11-05 (teto de noticias), E05-NVDA-9d533a1601-2026-11-05 (teto de noticias)
+[ATENÇÃO] M01 · Agenda: Payroll de outubro (BLS) hoje às 10:30 (06/11)
+O que está no preço: F28 14,32% · F35 15,07% · Focus IPCA 2027 4,76%
+Por que importa: evento macro de alta relevância reprecifica a curva inteira; o que importa é a surpresa contra o que está no preço
+Ativos: UST · DXY · UCITS
+Como falar: 'Payroll de outubro sai hoje; o mercado já precifica o consenso, a reação vem da surpresa'
+Fonte: config/calendario.yaml
+ids: M01-MACRO-D0_0611-2026-11-06
+
+[ATENÇÃO] E05 · USDBRL · XP reduz projeção do PIB a 0,3% em 2027; dólar vai a R$ 5,50 e Selic fica em 13,75%
+InfoMoney · 06/11 14h00 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Publicidade A XP Investimentos revisou os números do seu cenário-base em 2026 e 2027, reduzindo a taxa de crescimento do país.
+  – Para a XP, o Produto Interno Bruto (PIB) deve fechar 2027 com alta de apenas 0,3%, recuando em relação à projeção anterior, que era de 1,0%.
+  – Para 2026, a expectativa também foi revisada para baixo, passando de 1,7% para 1,5%.
+  – Inflação mais alta em 2027 As estimativas para a inflação, medidas pelo Índice Nacional de Preços ao Consumidor Amplo (IPCA), também sofreram ajuste nos cálculos da corretora.
+  – Para 2026, a projeção foi elevada de 5,1% para 5,2%, enquanto para 2027 a taxa esperada saltou de 4,4% para 5,5%.
+  – “A revisão incorpora parcialmente a materialização de riscos ligados à mudança na jornada de trabalho, persistência do petróleo em níveis altos, câmbio mais depreciado e implementação da reforma tributária”, aponta o re…
+Link: https://www.infomoney.com.br/economia/xp-projecao-pib-2027-selic-dolar/
+Por que importa: decisao de politica monetaria reprecifica toda a curva e o cambio
+Ativos: USDBRL · DI
+Como falar: 'saiu no InfoMoney: XP reduz projeção do PIB a 0,3% em 2027; dólar vai a R$ 5,50 e Selic fica em 13,75%; confirmar o número no texto antes de repassar'
+Fonte: InfoMoney 06/11 14h00
+ids: E05-USDBRL-8eae89e07c-2026-11-06
+
+[ATENÇÃO] E05 · BTC · Did Binance’s $6.3 Billion Crypto Hack Just Expose an Even Bigger Risk for Bitcoin Investors?
+Yahoo Finance · 06/11 13h52 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Quick Read - Bitcoin ETF outflows after the Binance hack look overblown: heavy selling started before the breach and totals just 3% of cumulative inflows.
+  – - Binance avoided a run, with withdrawals near 3% of assets, while untouched ETFs bled about $1 billion in two days.
+  – - Bitcoin needs ETF cumulative inflows back above $58 billion or a close above its 50-day average to signal a bottom.
+  – - It sounds nuts, but SoFi is giving new Active Invest users up to $1,000 in stock for a limited time, and all it takes is a $50 deposit to get started.
+  – See for yourself (Sponsor) Bitcoin (CRYPTO:BTC) traded at $75,616 late Friday morning.
+  – That is 1.5% lower over 24 hours and 9.2% lower over 30 days.
+Link: https://finance.yahoo.com/markets/crypto/articles/did-binance-6-3-billion-165208445.html
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: BTC
+Como falar: 'saiu no Yahoo Finance: Did Binance’s $6.3 Billion Crypto Hack Just Expose an Even Bigger Risk for Bitcoin Invest…; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 06/11 13h52
+ids: E05-BTC-c88669191d-2026-11-06
+
+[ATENÇÃO] E05 · MMM · 3M Eyes Data Center Future After Latest Forever Chemicals Settlement
+Bloomberg · 06/11 12h00 · fonte única · licença: manchete
+Link: https://www.bloomberg.com/news/newsletters/2026-11-06/3m-s-latest-forever-chemicals-settlement-helps-tee-up-its-data-center-future
+Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e prazo
+Ativos: MMM
+Como falar: 'saiu no Bloomberg: 3M Eyes Data Center Future After Latest Forever Chemicals Settlement; confirmar o número no texto antes de repassar'
+Fonte: Bloomberg 06/11 12h00
+ids: E05-MMM-88982a5873-2026-11-06
+
+Info (só linha no Fechamento):
+· F03 Brent cai a US$ 97,29 (-14% em 5 sessões) (parcial, intradia)
+· E01 EQTL3: resultado sai em 3 sessões (11/11)
+· E01 ALUP4: resultado sai em 3 sessões (11/11)
+· E01 AXIA3: resultado sai em 3 sessões (11/11)
+· E01 UGPA3: resultado sai em 3 sessões (11/11)
+· E03 ALUP4 · Comunicado ao Mercado: Apresentações a analistas/agentes do mercado
+· E04 BABA · 6-K: 6-K
+· E05 SBSP3 · Sabesp (SBSP3) aprova R$ 2,6 bilhões aos acionistas após resultado acima do esperado
+· E05 PLTR · Palantir’s Ex-Labour Hire Lobbied UK Weeks Before NHS Deal Win
+· E05 MMM · 3M Rises 13.9% in the Past Year: Should You Buy, Sell or Hold the Stock?
+· E05 DI · Sem cortes: XP abandona previsão de queda da Selic até o fim de 2027 – e não descarta altas
+· E05 USDBRL · Câmbio vira para queda apesar de payroll mais forte
+· E05 TSM · Taiwan Semiconductor Stocks Jump 7.45% as Taiwan Slashes Short Selling After Rout
+· E05 UST · US Treasuries Stumble as Strong Labor Market Lifts Fed-Hike Bets
+· E05 AMD · AMD Stocks Surge 11.01% as Chip Buyers Return After AI Rout
+· E05 USDBRL · Ibovespa sobe e dólar cai com emprego nos EUA, política econômica e balanço
+· E05 LITE · Coherent: Selling Volume While Lumentum Sells Scarcity (NYSE:COHR)
+· E05 AMD · AMD Has Just Shared Great News, I'm Buying The Selloff (Rating Upgrade) (NASDAQ:AMD)
+· E05 AMD · AMD’s Lisa Su Says the Market Is Being “Short-Sighted” About AI
+· E05 TSLA · How much TSLA stock does Tesla CEO Elon Musk actually own?
+· E05 TSM · TSMC considers making advanced memory chips, The Information reports
+· E05 MU · Micron, FormFactor, Amkor, Teradyne, and Nvidia shares skyrocket, what you need to know
+· E05 ALUP4 · Alupar tem queda de 72,7% no lucro do 3T26 e aprova R$ 69,2 milhões em dividendos
+· E05 MMM · Dividend Roundup: Apple, 3M, Cohen & Steers, ConocoPhillips, and more (VIG:NYSEARCA)
+· E05 KO · Coca-Cola Has Raised Its Dividend for 64 Straight Years. Here's What $10,000 Will Pay You in 2027.
+· E05 ALUP4 · Alupar tem lucro de R$ 214,2 milhões no terceiro trimestre, queda de 2,6%
+
+Suprimidos pelo teto (viram linha do Fechamento): E05-ALUP4-ee56a4446e-2026-11-06 (teto de noticias), E05-MMM-da6a97ad15-2026-11-06 (teto de noticias), E05-KO-050ad2f960-2026-11-06 (teto de noticias), E05-ALUP4-ff6c54242e-2026-11-06 (teto de noticias)
 
 Alertas do dia (todos, com status):
-· pendente  C05 TESOURO — IPCA+ 2050 PU -6,0% em 5 datas-base (base 05/11)
-· pendente  T05 CSPX — CSPX (iShares Core S&P 500 UCITS ETF USD (Acc)) -2,6% no dia a US$ 807,58: movim
-· pendente  T05 SPY — SPY -4,2% no dia a US$ 734,79: movimento de 5,3 desvios para uma vol de 20 dias 
-· pendente  T05 BOTZ — BOTZ -6,8% no dia a US$ 30,59: movimento de 4,2 desvios para uma vol de 20 dias 
-· pendente  T05 QNTM — QNTM -6,9% no dia a US$ 23,08: movimento de 4,0 desvios para uma vol de 20 dias 
-· pendente  T05 QTUM — QTUM -8,4% no dia a US$ 119,55: movimento de 3,8 desvios para uma vol de 20 dias
-· pendente  T05 PLTR — PLTR -9,8% no dia a US$ 154,82: movimento de 3,2 desvios para uma vol de 20 dias
-· pendente  T05 TSLA — TSLA -11% no dia a US$ 342,99: movimento de 4,8 desvios para uma vol de 20 dias 
-· pendente  T05 MELI34 — MELI34 -6,1% no dia a R$ 69,31: movimento de 4,3 desvios para uma vol de 20 dias
-· linha     T08 BOTZ — BOTZ entrou em queda de -25% do pico: -27% do pico de 52s (US$ 41,63 em 13/05) a
-· linha     T08 QNTM — QNTM entrou em queda de -30% do pico: -33% do pico de 52s (US$ 34,65 em 02/06) a
-· linha     T08 PLTR — PLTR entrou em bear técnico: -26% do pico de 52s (US$ 209,05 em 09/10) a US$ 154
-· pendente  C07 UST — UST FECHOU: 2y -12 bps · 2y cruzou 4,50% (05/11)
-· pendente  C03 DI — DI em nível: F30 cruzou 15,00% (para baixo, agora 14,91%)
-· pendente  C06 TESOURO — Inflação implícita: implícita 2029 +93 bps na semana · implícita 2032 +294 bps a
-· linha     T01 CNDX — CNDX (iShares NASDAQ 100 UCITS ETF USD (Acc)) fechou abaixo da média de 200 dias
-· linha     T04 BOTZ — BOTZ fechou na mínima de 52 semanas: US$ 30,59, -15% em 1m e -17% em 12m
-· pendente  T05 VWRA — VWRA (Vanguard FTSE All-World UCITS ETF USD Accumulating) -2,3% no dia a US$ 186
-· pendente  T05 CNDX — CNDX (iShares NASDAQ 100 UCITS ETF USD (Acc)) -4,5% no dia a US$ 1.563: moviment
-· pendente  T05 RBOT — RBOT (iShares Automation & Robotics UCITS ETF USD (Acc)) -5,4% no dia a US$ 19,3
-· pendente  T05 QANT — QANT -4,2% no dia a US$ 5,11: movimento de 3,1 desvios para uma vol de 20 dias d
-· pendente  T05 JPM — JPM -4,3% no dia a US$ 336,97: movimento de 3,3 desvios para uma vol de 20 dias 
-· pendente  T05 ETH — ETH -7,3% no dia a US$ 2.245: movimento de 3,5 desvios para uma vol de 20 dias d
-· linha     T08 CNDX — CNDX (iShares NASDAQ 100 UCITS ETF USD (Acc)) entrou em correção: -13% do pico d
-· linha     T08 RBOT — RBOT (iShares Automation & Robotics UCITS ETF USD (Acc)) entrou em queda de -15%
-· linha     T06 CNDX — CNDX (iShares NASDAQ 100 UCITS ETF USD (Acc)) -7,5% em 5 sessões a US$ 1.563: mo
-· linha     T06 RBOT — RBOT (iShares Automation & Robotics UCITS ETF USD (Acc)) -9,8% em 5 sessões a US
-· linha     T06 SPY — SPY -4,5% em 5 sessões a US$ 734,79: movimento de 2,5 desvios para a vol de 20 d
-· linha     T06 QNTM — QNTM -11% em 5 sessões a US$ 23,08: movimento de 2,9 desvios para a vol de 20 di
-· linha     T06 QANT — QANT -8,4% em 5 sessões a US$ 5,11: movimento de 2,8 desvios para a vol de 20 di
-· linha     T06 WQTM — WQTM -15% em 5 sessões a US$ 28,36: movimento de 3,2 desvios para a vol de 20 di
-· linha     T06 QTUM — QTUM -15% em 5 sessões a US$ 119,55: movimento de 3,2 desvios para a vol de 20 d
-· linha     T06 PLTR — PLTR -21% em 5 sessões a US$ 154,82: movimento de 3,3 desvios para a vol de 20 d
-· linha     T06 TSLA — TSLA -15% em 5 sessões a US$ 342,99: movimento de 3,0 desvios para a vol de 20 d
-· linha     T09 WQTM — WQTM -5,5% com volume 9,0x a mediana de 20 sessões, a US$ 28,36
-· linha     T09 QTUM — QTUM -8,4% com volume 3,9x a mediana de 20 sessões, a US$ 119,55
-· linha     T09 MELI34 — MELI34 -6,1% com volume 3,7x a mediana de 20 sessões, a R$ 69,31
-· linha     T10 QTUM — QTUM no mínimo de força relativa em 63 sessões contra SPX: -21% vs -5,3% em 20 s
-· linha     T10 PLTR — PLTR no mínimo de força relativa em 63 sessões contra SPX: -22% vs -5,3% em 20 s
-· linha     T10 KO — KO no máximo de força relativa em 63 sessões contra SPX: +9,2% vs -5,3% em 20 se
-· linha     T12 PLTR — PLTR: 8 quedas seguidas (-22% acumulado) a US$ 154,82
-· linha     T12 UGPA3 — UGPA3: 10 quedas seguidas (-24% acumulado) a R$ 30,60
-· pendente  E03 SBSP3 — SBSP3 · Fato Relevante: A Companhia de Saneamento Básico do Estado de São Paulo 
-· pendente  E03 SBSP3 — SBSP3 · Fato Relevante: A Companhia de Saneamento Básico do Estado de São Paulo 
-· pendente  E03 AXIA3 — AXIA3 · Fato Relevante: O cancelamento d e registro perante a U.S.
-· pendente  E04 MU — MU · 8-K: 5.02 entrada ou saida de diretor ou conselheiro
-· pendente  E05 SBSP3 — SBSP3 · Dividendos e JCPs: Sabesp (SBSP3) vai depositar R$ 2,6 bilhões — e ainda
-· pendente  E05 SBSP3 — SBSP3 · Sabesp (SBSP3) pagará R$ 2,6 bilhões em juros sobre capital próprio; vej
-· pendente  E05 ALUP4 — ALUP4 · Com R$ 10 bi para investir, Alupar não tem pressa por novos projetos
-· pendente  E05 AMD — AMD · AMD Stocks Fall 12.68% Despite a $17 Billion Revenue Outlook
-· pendente  E05 INTC — INTC · Intel Stocks Fall 9.1% as Server Demand Meets a Softer Outlook
-· pendente  E05 ITUB4 — ITUB4 · Alerta para dividendos: Itaú BBA tira Vale (VALE3) e Copel (CPLE3) da ca
-· expirado  T13 VIX — VIX cruzou 20: 26,6 (+60% no dia)
-· expirado  T13 VIX — VIX cruzou 25: 26,6 (+60% no dia)
-· expirado  E03 AXIA3 — AXIA3 · Fato Relevante: O cancelamento d e registro perante a U.S.
-· expirado  E05 UST — UST · Multiliquid Treasury Launches 24/7 T-Bill Yield and Instant Settlement for
-· expirado  E05 AXIA3 — AXIA3 · Axia não prevê pagamento de dividendos além do mínimo de 25% do lucro lí
-· expirado  E05 MU — MU · Micron hits unexpected roadblock on $4.5 billion chip bet
-· expirado  E05 AMD — AMD · The Deal With Meta & OpenAI Just Cost AMD $1.1 Billion
-· linha     T01 TSLA — TSLA fechou abaixo da média de 200 dias pela 1ª sessão: US$ 342,99 vs MM200 US$ 
-· linha     T02 PETR4 — PETR4 perdeu a MM50 pela 2ª sessão: R$ 45,95, ainda acima da MM200 (tendência lo
-· linha     T02 BRENT — BRENT perdeu a MM50 pela 2ª sessão: US$ 98,29, ainda acima da MM200 (tendência l
-· linha     T07 QNTM — QNTM entrou em sobrevendido: RSI14 25 a US$ 23,08
-· linha     T07 QANT — QANT entrou em sobrevendido: RSI14 24 a US$ 5,11
-· linha     T07 WQTM — WQTM entrou em sobrevendido: RSI14 23 a US$ 28,36
-· linha     T09 RARA11 — RARA11 -1,7% com volume 2,5x a mediana de 20 sessões, a R$ 12,39
-· linha     F03 BRENT — Brent sobe a US$ 98,29 (+3,9% no dia · -11% em 5 sessões)
-· linha     F06 BTC — BTC cai a US$ 75.902 (cruzou US$ 80.000) (parcial, intradia)
-· linha     F06 ETH — ETH cai a US$ 2.245 (-7,3% em 24h) (parcial, intradia)
-· (+66 notícias só manchete, em noticias.md)
+· pendente  E01 DIRR3 — DIRR3: resultado sai na próxima sessão (09/11)
+· pendente  M01 MACRO — Agenda: Payroll de outubro (BLS) hoje às 10:30 (06/11)
+· pendente  E05 USDBRL — USDBRL · XP reduz projeção do PIB a 0,3% em 2027; dólar vai a R$ 5,50 e Selic fi
+· pendente  E05 BTC — BTC · Did Binance’s $6.3 Billion Crypto Hack Just Expose an Even Bigger Risk for
+· pendente  E05 MMM — MMM · 3M Eyes Data Center Future After Latest Forever Chemicals Settlement
+· linha     F03 BRENT — Brent cai a US$ 97,29 (-14% em 5 sessões) (parcial, intradia)
+· (+28 notícias só manchete, em noticias.md)
