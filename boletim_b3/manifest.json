@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-11-06T11:51:23Z",
+ "gerado_em": "2026-11-06T18:21:50Z",
  "cliente_http": "curl_cffi",
  "livro": [
   "EQTL3",
@@ -28,7 +28,7 @@
    "faltam": [],
    "boletim": "publicado",
    "sinais": 25,
-   "tabelas": 46,
+   "tabelas": 47,
    "arquivos": [
     "DerivativesOpenPosition",
     "InstrumentsConsolidated",
@@ -55,17 +55,15 @@
      "2026-11-03": "publicado"
     }
    },
-   "falhas": {
-    "BTBTrade": "tabela BTBTrade: HTTP 500"
-   },
-   "segundos": 355
+   "falhas": {},
+   "segundos": 34
   },
   "2026-11-05": {
    "completo": true,
    "faltam": [],
    "boletim": "publicado",
    "sinais": 28,
-   "tabelas": 46,
+   "tabelas": 47,
    "arquivos": [
     "DerivativesOpenPosition",
     "InstrumentsConsolidated",
@@ -73,7 +71,7 @@
     "TradeInformationConsolidatedAfterHours"
    ],
    "rf_cadastro": {
-    "papeis_no_dia": 1840,
+    "papeis_no_dia": 1834,
     "consultados": 0,
     "achados": 0,
     "sem_cadastro": 0,
@@ -92,10 +90,8 @@
      "2026-11-04": "publicado"
     }
    },
-   "falhas": {
-    "BTBTrade": "tabela BTBTrade: HTTP 500"
-   },
-   "segundos": 328
+   "falhas": {},
+   "segundos": 22
   }
  },
  "falhas": [],

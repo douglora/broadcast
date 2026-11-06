@@ -1,6 +1,6 @@
 {
  "pregao": "2026-11-05",
- "coletado_em": "2026-11-06T11:57:18Z",
+ "coletado_em": "2026-11-06T18:22:24Z",
  "tabelas": {
   "SharesInvesVolum": {
    "titulo": "Participação dos investidores",
@@ -21,7 +21,7 @@
   "EconomicIndicators": {
    "titulo": "Indicadores econômicos",
    "situacao": "republicado",
-   "atualizado_em": "2026-11-06T08:53:35.567",
+   "atualizado_em": "2026-11-06T10:54:03.61",
    "sla": "8:00:00",
    "linhas": 433,
    "truncada": false
@@ -157,7 +157,7 @@
   "DailyAverageDerivatives2": {
    "titulo": "Derivativos",
    "situacao": "republicado",
-   "atualizado_em": "2026-11-05T22:40:24.283",
+   "atualizado_em": "2026-11-06T09:52:39.573",
    "sla": "6:00:00",
    "linhas": 9,
    "truncada": false
@@ -365,9 +365,17 @@
   "Trade": {
    "titulo": "Negócio a negócio",
    "situacao": "republicado",
-   "atualizado_em": "2026-11-05T19:53:32.22",
+   "atualizado_em": "2026-11-06T11:54:24.253",
    "sla": "18:00:00",
-   "linhas": 31782,
+   "linhas": 31801,
+   "truncada": false
+  },
+  "BTBTrade": {
+   "titulo": "Negócios",
+   "situacao": "ignorado",
+   "atualizado_em": "2026-11-06T00:00:48.38",
+   "sla": "21:00:00",
+   "linhas": 61730,
    "truncada": false
   }
  },
@@ -397,11 +405,9 @@
    "estado": null
   }
  },
- "falhas": {
-  "BTBTrade": "tabela BTBTrade: HTTP 500"
- },
+ "falhas": {},
  "rf_cadastro": {
-  "papeis_no_dia": 1840,
+  "papeis_no_dia": 1834,
   "consultados": 0,
   "achados": 0,
   "sem_cadastro": 0,

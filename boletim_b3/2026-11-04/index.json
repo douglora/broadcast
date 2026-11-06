@@ -1,6 +1,6 @@
 {
  "pregao": "2026-11-04",
- "coletado_em": "2026-11-06T11:51:31Z",
+ "coletado_em": "2026-11-06T18:21:52Z",
  "tabelas": {
   "SharesInvesVolum": {
    "titulo": "Participação dos investidores",
@@ -369,6 +369,14 @@
    "sla": "18:00:00",
    "linhas": 23865,
    "truncada": false
+  },
+  "BTBTrade": {
+   "titulo": "Negócios",
+   "situacao": "ignorado",
+   "atualizado_em": "2026-11-05T00:00:46.203",
+   "sla": "21:00:00",
+   "linhas": 88117,
+   "truncada": false
   }
  },
  "arquivos": {
@@ -397,9 +405,7 @@
    "estado": null
   }
  },
- "falhas": {
-  "BTBTrade": "tabela BTBTrade: HTTP 500"
- },
+ "falhas": {},
  "rf_cadastro": {
   "papeis_no_dia": 1449,
   "consultados": 0,
