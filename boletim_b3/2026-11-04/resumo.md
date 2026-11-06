@@ -1,7 +1,7 @@
 # Boletim da B3: pregão de 04/11/2026 (quarta)
 
 **Situação: COMPLETO.** Boletim publicado pela B3 em 2026-11-05 00:00 (hora de Brasília).
-Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-11-06T00:53:20Z (UTC).
+Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-11-06T07:22:53Z (UTC).
 
 [[LEITURA_DA_MESA]]
 
