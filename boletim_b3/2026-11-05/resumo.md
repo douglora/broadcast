@@ -1,7 +1,7 @@
 # Boletim da B3: pregão de 05/11/2026 (quinta)
 
-**Situação: PARCIAL.** Ainda sem: quadro de posições em aberto. A B3 publica esses blocos na madrugada seguinte ao pregão; a rodada da manhã completa.
-Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-11-06T07:23:28Z (UTC).
+**Situação: COMPLETO.** Boletim publicado pela B3 em 2026-11-06 00:00 (hora de Brasília).
+Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-11-06T12:02:46Z (UTC).
 
 [[LEITURA_DA_MESA]]
 
@@ -93,6 +93,18 @@ Saldo = compras menos vendas, somando todos os mercados da B3. A B3 divulga com 
 | INDZ26 | 167.848,00 | -1,06% | 184.688 |
 
 DI1 = DI futuro (taxa prefixada); DAP = cupom de IPCA (juro real); DOL = dólar futuro; IND = Ibovespa futuro. pb = ponto-base (0,01 ponto percentual).
+
+## Posições em aberto por mercado (futuros)
+
+| Mercado | Contratos | Variação no pregão | Referencial (R$ mi) |
+|---|---:|---:|---:|
+| IND | 193.463 | +0,85% | 32.518 |
+| WIN | 1.284.129 | -0,94% | 43.114 |
+| WDO | 860.283 | +6,41% | 47.483 |
+| DOL | 834.179 | +0,75% | 230.204 |
+| DAP | 3.380.805 | +0,06% | 468.528 |
+| DDI | 4.570.315 | -0,15% | 1.177.662 |
+| DI1 | 42.250.087 | -0,75% | 3.392.909 |
 
 ## O livro em blocos
 
@@ -320,11 +332,11 @@ Por classe, mediana das taxas de referência dos papéis. Taxa de referência: n
 
 ## Lacunas e pendências
 
-- quadro de posições em aberto: aguardando
-- aluguel por corretora: ignorado
-- Register: aguardando
-- Stock: aguardando
+- aluguel por corretora: falhou: tabela BTBTrade: HTTP 500
+- Publicadas pela B3 depois do prazo, mas com dado: AnalyticalFramework2.
 - Posição em aberto de derivativos por tipo de investidor (estrangeiro, institucional, pessoa física): não existe no Boletim Diário do Mercado; procurado nas 69 tabelas e no texto dos 11 cadernos em 30/09/2026.
 - Fluxo por tipo de investidor sai acumulado no mês e com dois pregões de atraso; o saldo de um dia é a diferença entre dois acumulados seguidos.
 - RARA11: a B3 não publica valor de referência da cota (IOPV) para este ETF no boletim.
 - Paridade de MELI34: sem a barra de 05/11 de MELI nas séries do livro.
+
+Boletim completo em PDF (B3): https://arquivos.b3.com.br/bdi/download/bdi/2026-11-05/BDI_00_20261105.pdf

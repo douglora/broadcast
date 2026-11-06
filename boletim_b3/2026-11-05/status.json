@@ -1,20 +1,20 @@
 {
  "pregao": "2026-11-05",
- "situacao": "publicando",
+ "situacao": "publicado",
  "errata": false,
- "atualizado_em": "2026-11-06T04:12:57.933",
+ "atualizado_em": "2026-11-06T00:00:00",
  "completo": {
-  "arquivo": "",
-  "pdf": ""
+  "arquivo": "BDI_00_20261105.pdf",
+  "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-11-05/BDI_00_20261105.pdf"
  },
  "cadernos": [
   {
    "id": 1,
    "nome": "Renda fixa",
    "pai": null,
-   "situacao": "publicando",
+   "situacao": "publicado",
    "errata": false,
-   "atualizado_em": "2026-11-06T02:33:01.837",
+   "atualizado_em": "2026-11-06T08:05:41.593",
    "arquivo": "",
    "pdf": ""
   },
@@ -42,9 +42,9 @@
    "id": 2,
    "nome": "Indicadores e informativos",
    "pai": 20,
-   "situacao": "publicando",
+   "situacao": "",
    "errata": false,
-   "atualizado_em": "2026-11-06T04:12:57.933",
+   "atualizado_em": "2026-11-06T08:53:44.3",
    "arquivo": "",
    "pdf": ""
   },
@@ -82,11 +82,11 @@
    "id": 34,
    "nome": "Derivativos de bolsa",
    "pai": 3,
-   "situacao": "publicando",
+   "situacao": "publicado",
    "errata": false,
-   "atualizado_em": "2026-11-06T02:14:11.953",
-   "arquivo": "",
-   "pdf": ""
+   "atualizado_em": "2026-11-06T00:00:00",
+   "arquivo": "BDI_03-4_20261105.pdf",
+   "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-11-05/BDI_03-4_20261105.pdf"
   },
   {
    "id": 41,
