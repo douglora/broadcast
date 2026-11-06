@@ -46,47 +46,6 @@ Como falar: 'o movimento de hoje é atípico para este papel; antes de mexer, sa
 Fonte: Yahoo Finance fech. 05/11
 ids: T05-VWRA-queda-2026-11-05, T05-CSPX-queda-2026-11-05, T05-CNDX-queda-2026-11-05, T05-RBOT-queda-2026-11-05, T05-SPY-queda-2026-11-05, T05-BOTZ-queda-2026-11-05, T05-QNTM-queda-2026-11-05, T05-QANT-queda-2026-11-05, T05-QTUM-queda-2026-11-05, T05-PLTR-queda-2026-11-05, T05-TSLA-queda-2026-11-05, T05-JPM-queda-2026-11-05, T05-MELI34-queda-2026-11-05, T05-ETH-queda-2026-11-05
 
-(pendente de slot anterior) [ATENÇÃO] E05 · AMD · AMD Stocks Fall 12.68% Despite a $17 Billion Revenue Outlook
-TradingView (Reuters) · 05/11 16h32 · fonte única · licença: manchete
-Link: https://www.tradingview.com/news/gurufocus:85ab359ff094b:0-amd-stocks-fall-12-68-despite-a-17-billion-revenue-outlook/
-Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
-Ativos: AMD
-Como falar: 'saiu no TradingView (Reuters): AMD Stocks Fall 12.68% Despite a $17 Billion Revenue Outlook; confirmar o número no texto antes de repassar'
-Fonte: TradingView (Reuters) 05/11 16h32
-ids: E05-AMD-d6a8be3832-2026-11-05
-
-(pendente de slot anterior) [ATENÇÃO] E05 · INTC · Intel Stocks Fall 9.1% as Server Demand Meets a Softer Outlook
-Yahoo Finance · 05/11 16h32 · fonte única · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – Intel (NASDAQ:INTC) sank 9.1% to $52.97 at 10:55 a.m.
-  – ET in November 5 regular trading, deepening the processor maker's slide.
-  – GuruFocus has detected 5 Warning Signs with INTC.
-  – Intel's October 29 earnings release reported third-quarter revenue of $16.5 billion, up 21% from a year earlier.
-  – But management projected December-quarter revenue of $15 billion to $16 billion, putting the $15.5 billion midpoint roughly 6% below the previous quarter.
-  – Strong Xeon processor demand offers support, while a PC slowdown that management expects could persist through at least the first half of 2027 adds pressure.
-Link: https://sg.finance.yahoo.com/news/intel-stocks-fall-9-1-193224928.html
-Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
-Ativos: INTC
-Como falar: 'saiu no Yahoo Finance: Intel Stocks Fall 9.1% as Server Demand Meets a Softer Outlook; confirmar o número no texto antes de repassar'
-Fonte: Yahoo Finance 05/11 16h32
-ids: E05-INTC-1f1fb60780-2026-11-05
-
-(pendente de slot anterior) [ATENÇÃO] E05 · ITUB4 · Alerta para dividendos: Itaú BBA tira Vale (VALE3) e Copel (CPLE3) da carteira; veja quem entrou
-Money Times · 05/11 16h24 · fonte única · licença: integral
-Do texto:
-  – Alerta para dividendos: Itaú BBA tira Vale (VALE3) e Copel (CPLE3) da carteira; veja quem entrou Duas queridinhas dos investidores, Copel (CPLE6) e Vale (VALE3), deram adeus à carteira de dividendos do Itaú BBA para nov…
-  – Além da dupla, a B3 (B3SA3) também foi retirada da seleção.
-  – No lugar da estatal paranaense, o BBA optou por outra elétrica: a CPFL Energia (CPFE3).
-  – Outras trocas Para abrir espaço para a Gerdau (GGBR4), o Itaú BBA retirou a Vale da carteira.
-  – Além disso, a companhia apresenta baixa alavancagem, geração de caixa saudável e perspectiva de distribuição de dividendos robustos aos acionistas, com dividend yield estimado em cerca de 9% para 2027.
-  – Já a inclusão da TIM (TIMS3) se deve, segundo o BBA, à capacidade da companhia de agregar receitas recorrentes, menor volatilidade operacional e uma perspectiva relevante de distribuição de proventos.
-Link: https://www.moneytimes.com.br/alerta-para-dividendos-itau-bba-tira-vale-vale3-e-copel-cple3-da-carteira-veja-quem-entrou/
-Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
-Ativos: ITUB4 · VALE3
-Como falar: 'saiu no Money Times: Alerta para dividendos: Itaú BBA tira Vale (VALE3) e Copel (CPLE3) da carteira; veja quem…; confirmar o número no texto antes de repassar'
-Fonte: Money Times 05/11 16h24
-ids: E05-ITUB4-12eb47174a-2026-11-05
-
 (pendente de slot anterior) [ATENÇÃO] E03 · SBSP3 · Fato Relevante: A Companhia de Saneamento Básico do Estado de São Paulo – Sabesp (“Companhia” ou “Sabesp”) informa que, em reunião realizada nesta data , o Conselho…
 CVM · entregue 05/11/2026 19:22
 Do documento:
@@ -189,18 +148,17 @@ Como falar: 'saiu no UOL Economia: Com R$ 10 bi para investir, Alupar não tem p
 Fonte: UOL Economia 05/11 19h45
 ids: E05-ALUP4-2ab35d08bb-2026-11-05
 
-[ATENÇÃO] E01 · DIRR3: resultado sai na próxima sessão (09/11)
+(pendente de slot anterior) [ATENÇÃO] E01 · DIRR3: resultado sai na próxima sessão (09/11)
 seg 09/11 · após o fechamento da B3 · estimado (config/calendario.yaml)
 Vol de 20 dias +119% a.a. ⇒ movimento típico de 1 dia ±7,5%
-Chega ao resultado com 1m -25% · 6m -33% · YTD -38%
+Chega ao resultado com 1m -25% · 6m -34% · YTD -38%
 Consenso: não disponível (sem fonte licenciada); usar o release e o guidance anterior
 Por que importa: resultado é o evento que mais move o papel em um dia; a vol implícita e o posicionamento sobem antes e caem depois
 Como falar: 'o resultado sai amanhã; o movimento típico do papel num dia é o da vol acima, e o mercado costuma exagerar na abertura'
 Fonte: config/calendario.yaml
-Push: intradia: 5 alertas de atenção — E01 DIRR3, M01 MACRO, E05 USDBRL, E05 BTC, E05 MMM · detalhe na sessão
 ids: E01-DIRR3-D-1-2026-11-06
 
-[ATENÇÃO] M01 · Agenda: Payroll de outubro (BLS) hoje às 10:30 (06/11)
+(pendente de slot anterior) [ATENÇÃO] M01 · Agenda: Payroll de outubro (BLS) hoje às 10:30 (06/11)
 O que está no preço: F28 14,32% · F35 15,07% · Focus IPCA 2027 4,76%
 Por que importa: evento macro de alta relevância reprecifica a curva inteira; o que importa é a surpresa contra o que está no preço
 Ativos: UST · DXY · UCITS
@@ -208,7 +166,7 @@ Como falar: 'Payroll de outubro sai hoje; o mercado já precifica o consenso, a 
 Fonte: config/calendario.yaml
 ids: M01-MACRO-D0_0611-2026-11-06
 
-[ATENÇÃO] E05 · USDBRL · XP reduz projeção do PIB a 0,3% em 2027; dólar vai a R$ 5,50 e Selic fica em 13,75%
+(pendente de slot anterior) [ATENÇÃO] E05 · USDBRL · XP reduz projeção do PIB a 0,3% em 2027; dólar vai a R$ 5,50 e Selic fica em 13,75%
 InfoMoney · 06/11 14h00 · fonte única · licença: resumo
 Trechos (licença resumo: reescrever, não colar):
   – Publicidade A XP Investimentos revisou os números do seu cenário-base em 2026 e 2027, reduzindo a taxa de crescimento do país.
@@ -224,7 +182,7 @@ Como falar: 'saiu no InfoMoney: XP reduz projeção do PIB a 0,3% em 2027; dóla
 Fonte: InfoMoney 06/11 14h00
 ids: E05-USDBRL-8eae89e07c-2026-11-06
 
-[ATENÇÃO] E05 · BTC · Did Binance’s $6.3 Billion Crypto Hack Just Expose an Even Bigger Risk for Bitcoin Investors?
+(pendente de slot anterior) [ATENÇÃO] E05 · BTC · Did Binance’s $6.3 Billion Crypto Hack Just Expose an Even Bigger Risk for Bitcoin Investors?
 Yahoo Finance · 06/11 13h52 · fonte única · licença: resumo
 Trechos (licença resumo: reescrever, não colar):
   – Quick Read - Bitcoin ETF outflows after the Binance hack look overblown: heavy selling started before the breach and totals just 3% of cumulative inflows.
@@ -240,7 +198,7 @@ Como falar: 'saiu no Yahoo Finance: Did Binance’s $6.3 Billion Crypto Hack Jus
 Fonte: Yahoo Finance 06/11 13h52
 ids: E05-BTC-c88669191d-2026-11-06
 
-[ATENÇÃO] E05 · MMM · 3M Eyes Data Center Future After Latest Forever Chemicals Settlement
+(pendente de slot anterior) [ATENÇÃO] E05 · MMM · 3M Eyes Data Center Future After Latest Forever Chemicals Settlement
 Bloomberg · 06/11 12h00 · fonte única · licença: manchete
 Link: https://www.bloomberg.com/news/newsletters/2026-11-06/3m-s-latest-forever-chemicals-settlement-helps-tee-up-its-data-center-future
 Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e prazo
@@ -249,41 +207,64 @@ Como falar: 'saiu no Bloomberg: 3M Eyes Data Center Future After Latest Forever 
 Fonte: Bloomberg 06/11 12h00
 ids: E05-MMM-88982a5873-2026-11-06
 
-Info (só linha no Fechamento):
-· F03 Brent cai a US$ 97,29 (-14% em 5 sessões) (parcial, intradia)
-· E01 EQTL3: resultado sai em 3 sessões (11/11)
-· E01 ALUP4: resultado sai em 3 sessões (11/11)
-· E01 AXIA3: resultado sai em 3 sessões (11/11)
-· E01 UGPA3: resultado sai em 3 sessões (11/11)
-· E03 ALUP4 · Comunicado ao Mercado: Apresentações a analistas/agentes do mercado
-· E04 BABA · 6-K: 6-K
-· E05 SBSP3 · Sabesp (SBSP3) aprova R$ 2,6 bilhões aos acionistas após resultado acima do esperado
-· E05 PLTR · Palantir’s Ex-Labour Hire Lobbied UK Weeks Before NHS Deal Win
-· E05 MMM · 3M Rises 13.9% in the Past Year: Should You Buy, Sell or Hold the Stock?
-· E05 DI · Sem cortes: XP abandona previsão de queda da Selic até o fim de 2027 – e não descarta altas
-· E05 USDBRL · Câmbio vira para queda apesar de payroll mais forte
-· E05 TSM · Taiwan Semiconductor Stocks Jump 7.45% as Taiwan Slashes Short Selling After Rout
-· E05 UST · US Treasuries Stumble as Strong Labor Market Lifts Fed-Hike Bets
-· E05 AMD · AMD Stocks Surge 11.01% as Chip Buyers Return After AI Rout
-· E05 USDBRL · Ibovespa sobe e dólar cai com emprego nos EUA, política econômica e balanço
-· E05 LITE · Coherent: Selling Volume While Lumentum Sells Scarcity (NYSE:COHR)
-· E05 AMD · AMD Has Just Shared Great News, I'm Buying The Selloff (Rating Upgrade) (NASDAQ:AMD)
-· E05 AMD · AMD’s Lisa Su Says the Market Is Being “Short-Sighted” About AI
-· E05 TSLA · How much TSLA stock does Tesla CEO Elon Musk actually own?
-· E05 TSM · TSMC considers making advanced memory chips, The Information reports
-· E05 MU · Micron, FormFactor, Amkor, Teradyne, and Nvidia shares skyrocket, what you need to know
-· E05 ALUP4 · Alupar tem queda de 72,7% no lucro do 3T26 e aprova R$ 69,2 milhões em dividendos
-· E05 MMM · Dividend Roundup: Apple, 3M, Cohen & Steers, ConocoPhillips, and more (VIG:NYSEARCA)
-· E05 KO · Coca-Cola Has Raised Its Dividend for 64 Straight Years. Here's What $10,000 Will Pay You in 2027.
-· E05 ALUP4 · Alupar tem lucro de R$ 214,2 milhões no terceiro trimestre, queda de 2,6%
+[ATENÇÃO] E05 · KLBN4 · Klabin (KLBN11): Safra corta preço-alvo e rebaixa recomendação diante de cenário mais desafiador
+Money Times · 06/11 16h12 · fonte única · licença: integral
+Do texto:
+  – O banco também reduziu o preço-alvo dos papéis de R$ 21,40 para R$ 20,60 até o final de 2027.
+  – Considerando a cotação de R$ 18,08 utilizada pelo Safra em seu relatório, o novo preço-alvo representa um potencial de valorização de 14%.
+  – Incluindo dividendos, o retorno total estimado (TSR) é de 21%.
+  – A projeção da Empapel de crescimento de 1,9% nos embarques em 2026 implica avanço de apenas 0,9% no segundo semestre, ante 3% na primeira metade do ano.
+  – Para o Safra, o cenário reduz a visibilidade de uma recuperação significativa dos volumes em 2027.
+  – O custo-caixa consolidado da Klabin chegou a R$ 3.483 por tonelada no terceiro trimestre de 2026, enquanto o indicador acumulado nos nove primeiros meses do ano permaneceu próximo do limite superior da faixa de projeçõe…
+Link: https://www.moneytimes.com.br/klabin-klbn11-safra-corta-preco-alvo-e-rebaixa-recomendacao-diante-de-cenario-mais-desafiador/
+Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
+Ativos: KLBN4
+Como falar: 'saiu no Money Times: Klabin (KLBN11): Safra corta preço-alvo e rebaixa recomendação diante de cenário mais des…; confirmar o número no texto antes de repassar'
+Fonte: Money Times 06/11 16h12
+Push: intradia: 2 alertas de atenção — E05 KLBN4, E05 KO · detalhe na sessão
+ids: E05-KLBN4-9d1e0db35a-2026-11-06
 
-Suprimidos pelo teto (viram linha do Fechamento): E05-ALUP4-ee56a4446e-2026-11-06 (teto de noticias), E05-MMM-da6a97ad15-2026-11-06 (teto de noticias), E05-KO-050ad2f960-2026-11-06 (teto de noticias), E05-ALUP4-ff6c54242e-2026-11-06 (teto de noticias)
+[ATENÇÃO] E05 · KO · If You Invested $300,000 in Coca-Cola, PepsiCo and Keurig Dr Pepper, Here’s What They’d Pay
+Yahoo Finance · 06/11 09h37 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Quick Read - A $300,000 split across PepsiCo and Coca-Cola throws off roughly $8,860 a year in dividends, with PepsiCo's 4% yield leading the group.
+  – - Keurig Dr Pepper has frozen its quarterly dividend since September 2024, and a planned 2027 breakup leaves the payout's future split unclear.
+  – - Read More: Learn 7 ways to generate income with a $1,000,000+ portfolio (sponsor) Retirees learn quickly that a portfolio's market value means little at the grocery checkout.
+  – A $300,000 beverage portfolio, split into $100,000 stakes in each of three household names, would generate the following.
+  – At current forward yields, the group produces more than $8,800 a year in dividends: $8,860.17, to be exact.
+  – The yield is low because the stock has risen 39.4% year to date and trades at 28 times trailing earnings, which compresses the payout relative to price.
+Link: https://finance.yahoo.com/markets/stocks/articles/invested-300-000-coca-cola-123728882.html
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: KO
+Como falar: 'saiu no Yahoo Finance: If You Invested $300,000 in Coca-Cola, PepsiCo and Keurig Dr Pepper, Here’s What They’d P…; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 06/11 09h37
+ids: E05-KO-423fc7b3fc-2026-11-06
+
+Info (só linha no Fechamento):
+· F03 Brent sobe a US$ 98,40 (-13% em 5 sessões) (parcial, intradia)
+· E05 PETR4 · Petrobras perde quase R$ 200 bilhões em valor de mercado e caminha para pior semana desde 2021
+· E05 AMD · Intel and AMD in Focus as Tech Stocks Seek Rebound
+· E05 USDBRL · Ibovespa sobe e dólar estabiliza com emprego nos EUA e política econômica
+· E05 LITE · Lumentum Stocks Rise 4.38% as AI Optics Rebound Builds on $5 Billion Design Win
+· E05 COHR · Coherent rebounds 14% after steep AI selloff (COHR:NYSE)
+· E05 BTC · Elliptic says Binance hackers swapped stolen tokens for $124M in bitcoin, exchange plans more withdrawal reopenings
+· E05 BTC · Bitcoin Under $76,000 After $430M ETF Outflows. Has It Bottomed?
+· E05 PETR4 · Petrobras cai mais de 20% em 2 semanas após eleições no Brasil e nos EUA: tese mudou?
+· E05 AMD · AMD: This Selloff Isn't Enough (Downgrade) (NASDAQ:AMD)
+· E05 BTC · Bitcoin price dips under $75K as crypto markets miss tech-stock rebound
+· E05 UST · Treasury Yields Rise on Strong Jobs Data
+· E05 NVDA · Nvidia, Intel, Tesla, AMD, Coherent, Lam Research, Moderna, and More Stocks That Explain Today’s Market
+· E05 NVDA · Forget Nvidia. Here’s the Company Behind the Chips
+
 
 Alertas do dia (todos, com status):
+· pendente  E05 KLBN4 — KLBN4 · Klabin (KLBN11): Safra corta preço-alvo e rebaixa recomendação diante de
+· pendente  E05 KO — KO · If You Invested $300,000 in Coca-Cola, PepsiCo and Keurig Dr Pepper, Here’s
 · pendente  E01 DIRR3 — DIRR3: resultado sai na próxima sessão (09/11)
 · pendente  M01 MACRO — Agenda: Payroll de outubro (BLS) hoje às 10:30 (06/11)
 · pendente  E05 USDBRL — USDBRL · XP reduz projeção do PIB a 0,3% em 2027; dólar vai a R$ 5,50 e Selic fi
 · pendente  E05 BTC — BTC · Did Binance’s $6.3 Billion Crypto Hack Just Expose an Even Bigger Risk for
 · pendente  E05 MMM — MMM · 3M Eyes Data Center Future After Latest Forever Chemicals Settlement
+· linha     F03 BRENT — Brent sobe a US$ 98,40 (-13% em 5 sessões) (parcial, intradia)
 · linha     F03 BRENT — Brent cai a US$ 97,29 (-14% em 5 sessões) (parcial, intradia)
-· (+28 notícias só manchete, em noticias.md)
+· (+41 notícias só manchete, em noticias.md)

@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 06/11 14h58
+NOTÍCIAS E FATOS · 06/11 16h54
 
-Pernas: noticias ok 22 novas (18 consultas; descartadas: 410 veículo fora da lista, 32 sem ativo, 63 teto) · cvm ok 1 novos de 22 (6 cias casadas) · sec ok 1 novos em 3 dias
+Pernas: noticias ok 15 novas (18 consultas; descartadas: 419 veículo fora da lista, 27 sem ativo, 12 teto) · cvm ok 0 novos de 22 (6 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (1)
 
@@ -29,7 +29,39 @@ Fonte: SEC EDGAR 2026-11-06
 id: E04-BABA-26123545-2026-11-06 · status: linha · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (7)
+## NOTÍCIAS COM MATERIALIDADE (9)
+
+[ATENÇÃO] E05 · KLBN4 · Klabin (KLBN11): Safra corta preço-alvo e rebaixa recomendação diante de cenário mais desafiador
+Money Times · 06/11 16h12 · fonte única · licença: integral
+Do texto:
+  – O banco também reduziu o preço-alvo dos papéis de R$ 21,40 para R$ 20,60 até o final de 2027.
+  – Considerando a cotação de R$ 18,08 utilizada pelo Safra em seu relatório, o novo preço-alvo representa um potencial de valorização de 14%.
+  – Incluindo dividendos, o retorno total estimado (TSR) é de 21%.
+  – A projeção da Empapel de crescimento de 1,9% nos embarques em 2026 implica avanço de apenas 0,9% no segundo semestre, ante 3% na primeira metade do ano.
+  – Para o Safra, o cenário reduz a visibilidade de uma recuperação significativa dos volumes em 2027.
+  – O custo-caixa consolidado da Klabin chegou a R$ 3.483 por tonelada no terceiro trimestre de 2026, enquanto o indicador acumulado nos nove primeiros meses do ano permaneceu próximo do limite superior da faixa de projeçõe…
+Link: https://www.moneytimes.com.br/klabin-klbn11-safra-corta-preco-alvo-e-rebaixa-recomendacao-diante-de-cenario-mais-desafiador/
+Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
+Ativos: KLBN4
+Como falar: 'saiu no Money Times: Klabin (KLBN11): Safra corta preço-alvo e rebaixa recomendação diante de cenário mais des…; confirmar o número no texto antes de repassar'
+Fonte: Money Times 06/11 16h12
+id: E05-KLBN4-9d1e0db35a-2026-11-06 · status: pendente · íntegra disponível
+
+[ATENÇÃO] E05 · KO · If You Invested $300,000 in Coca-Cola, PepsiCo and Keurig Dr Pepper, Here’s What They’d Pay
+Yahoo Finance · 06/11 09h37 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Quick Read - A $300,000 split across PepsiCo and Coca-Cola throws off roughly $8,860 a year in dividends, with PepsiCo's 4% yield leading the group.
+  – - Keurig Dr Pepper has frozen its quarterly dividend since September 2024, and a planned 2027 breakup leaves the payout's future split unclear.
+  – - Read More: Learn 7 ways to generate income with a $1,000,000+ portfolio (sponsor) Retirees learn quickly that a portfolio's market value means little at the grocery checkout.
+  – A $300,000 beverage portfolio, split into $100,000 stakes in each of three household names, would generate the following.
+  – At current forward yields, the group produces more than $8,800 a year in dividends: $8,860.17, to be exact.
+  – The yield is low because the stock has risen 39.4% year to date and trades at 28 times trailing earnings, which compresses the payout relative to price.
+Link: https://finance.yahoo.com/markets/stocks/articles/invested-300-000-coca-cola-123728882.html
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: KO
+Como falar: 'saiu no Yahoo Finance: If You Invested $300,000 in Coca-Cola, PepsiCo and Keurig Dr Pepper, Here’s What They’d P…; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 06/11 09h37
+id: E05-KO-423fc7b3fc-2026-11-06 · status: pendente
 
 [ATENÇÃO] E05 · USDBRL · XP reduz projeção do PIB a 0,3% em 2027; dólar vai a R$ 5,50 e Selic fica em 13,75%
 InfoMoney · 06/11 14h00 · fonte única · licença: resumo
@@ -123,8 +155,21 @@ Fonte: CNN Brasil 06/11 04h30
 id: E05-ALUP4-ff6c54242e-2026-11-06 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (18)
+## OUTRAS NOTÍCIAS (só manchete) (31)
 
+· PETR4 Petrobras perde quase R$ 200 bilhões em valor de mercado e caminha para pior semana desde 2021 (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/petrobras-perde-quase-r-200-bilhoes-em-valor-de-mercado-e-caminha-para-pior-semana-desde-2021/
+· AMD Intel and AMD in Focus as Tech Stocks Seek Rebound (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:3138fb66a094b:0-intel-and-amd-in-focus-as-tech-stocks-seek-rebound/
+· USDBRL Ibovespa sobe e dólar estabiliza com emprego nos EUA e política econômica (CNN Brasil) https://www.cnnbrasil.com.br/economia/money/mercado/mercado-financeiro-ibovespa-dolar-6-novembro-2026/
+· LITE Lumentum Stocks Rise 4.38% as AI Optics Rebound Builds on $5 Billion Design Win (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:eeed4af7f094b:0-lumentum-stocks-rise-4-38-as-ai-optics-rebound-builds-on-5-billion-design-win/
+· COHR Coherent rebounds 14% after steep AI selloff (COHR:NYSE) (Seeking Alpha) https://seekingalpha.com/news/4668437-coherent-rebounds-14-after-steep-ai-selloff
+· BTC Elliptic says Binance hackers swapped stolen tokens for $124M in bitcoin, exchange plans more withdrawal reopenings (The Block) https://www.theblock.co/news/markets/2026-11-06-binance-hackers-swap-stolen-tokens-124-million-bitcoin-exchange-plans-withdrawal-reopenings-435930
+· BTC Bitcoin Under $76,000 After $430M ETF Outflows. Has It Bottomed? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-under-76-000-430m-180124346.html
+· PETR4 Petrobras cai mais de 20% em 2 semanas após eleições no Brasil e nos EUA: tese mudou? (InfoMoney) https://www.infomoney.com.br/mercados/petrobras-petr3-petr4-cai-mais-de-20-em-2-semanas-apos-eleicoes-no-brasil-e-nos-eua-tese-mudou/
+· AMD AMD: This Selloff Isn't Enough (Downgrade) (NASDAQ:AMD) (Seeking Alpha) https://seekingalpha.com/article/4964194-amd-this-selloff-isnt-enough-downgrade
+· BTC Bitcoin price dips under $75K as crypto markets miss tech-stock rebound (TradingView (Reuters)) https://www.tradingview.com/news/cointelegraph:c69cd3e8a094b:0-bitcoin-price-dips-under-75k-as-crypto-markets-miss-tech-stock-rebound/
+· UST Treasury Yields Rise on Strong Jobs Data (The Wall Street Journal) https://www.wsj.com/finance/investing/u-s-treasurys-little-changed-markets-await-employment-data-88f3f2b6
+· NVDA Nvidia, Intel, Tesla, AMD, Coherent, Lam Research, Moderna, and More Stocks That Explain Today’s Market (Barron's) https://news.google.com/rss/articles/CBMiZEFVX3lxTE1fblhqTzg0eVNMSFpfMnVwVHktcFNzU2VnVUEtUk1xUUFGZWZVemk4Z3ZOeFRjMU5JZFF2Y1BOclh5UV9KNWRnOG5xb1Nmc2FDajZSa3BBRTByX0ZleUk5WGVVeDY?oc=5
+· NVDA Forget Nvidia. Here’s the Company Behind the Chips (Yahoo Finance) https://news.google.com/rss/articles/CBMimwFBVV95cUxNaVlXdTJLMGhFQ0c0YXBwNlRQSlFleGZ6TkdXd19rZUFaS3pfOUxyV1RDVlNPT2RobGtuWkk4VVByUnlFQS0wNjhFajFDRDh5UlRMRzdEeDBDVVczOWxDSzRDdGQzVGN0eUZpRGx0Y3FHTFMyYnBlSGxsTnNGcVBNenljTmVtdFhhZ0pYN1ZleW5nb1Yza0VyY09pQQ?oc=5
 · SBSP3 Sabesp (SBSP3) aprova R$ 2,6 bilhões aos acionistas após resultado acima do esperado (Suno Noticias) https://www.suno.com.br/noticias/sabesp-sbsp3-resultados-3t26/
 · PLTR Palantir’s Ex-Labour Hire Lobbied UK Weeks Before NHS Deal Win (Bloomberg) https://www.bloomberg.com/news/articles/2026-11-06/palantir-s-ex-labour-hire-lobbied-uk-weeks-before-nhs-deal-win
 · MMM 3M Rises 13.9% in the Past Year: Should You Buy, Sell or Hold the Stock? (TradingView (Reuters)) https://www.tradingview.com/news/zacks:f400b09e4094b:0-3m-rises-13-9-in-the-past-year-should-you-buy-sell-or-hold-the-stock/
