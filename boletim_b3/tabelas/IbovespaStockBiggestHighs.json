@@ -1,5 +1,5 @@
 {
- "pregao": "2026-11-05",
+ "pregao": "2026-11-06",
  "nome": "IbovespaStockBiggestHighs",
  "titulo": "Ações do IBOVESPA - maiores altas",
  "sla": "8:00:00",
@@ -7,18 +7,18 @@
  "colunas": [{"nome": "TckrSymb", "titulo": "Ação"}, {"nome": "Cod", "titulo": "Código"}, {"nome": "Price", "titulo": "Preço (R$)"}, {"nome": "Oscillation", "titulo": "Oscilação (%)"}],
  "texto": ["Lista as ações do IBOVESPA com os maiores percentuais de valorização em um período."],
  "situacao": "publicado",
- "atualizado_em": "2026-11-05T23:30:17.233",
+ "atualizado_em": "2026-11-06T23:30:24.567",
  "truncada": false,
  "linhas": [
-  ["MRVE3", "ON      NM", 4.1, 1.48],
-  ["LREN3", "ON      NM", 9.53, 1.49],
-  ["ABEV3", "ON", 15.48, 1.5],
-  ["AURE3", "ON      NM", 11.18, 1.72],
-  ["CYRE3", "ON      NM", 18.19, 2.13],
-  ["HAPV3", "ON      NM", 4.18, 2.7],
-  ["ASAI3", "ON      NM", 8.45, 4.32],
-  ["CSAN3", "ON      NM", 2.5, 4.6],
-  ["SMFT3", "ON      NM", 17.71, 5.47],
-  ["CEAB3", "ON      NM", 7.44, 9.25]
+  ["COGN3", "ON      NM", 1.46, 5.03],
+  ["DIRR3", "ON      NM", 8.79, 5.14],
+  ["ALOS3", "ON      NM", 26.46, 5.62],
+  ["CYRE3", "ON      NM", 19.3, 6.1],
+  ["HAPV3", "ON      NM", 4.45, 6.45],
+  ["SBSP3", "ON      NM", 26.78, 6.99],
+  ["MRVE3", "ON      NM", 4.45, 8.53],
+  ["CSNA3", "ON", 4.41, 8.88],
+  ["CEAB3", "ON      NM", 8.11, 9],
+  ["CSAN3", "ON      NM", 2.77, 10.8]
  ]
 }

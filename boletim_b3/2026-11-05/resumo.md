@@ -1,15 +1,23 @@
 # Boletim da B3: pregão de 05/11/2026 (quinta)
 
-**Situação: PARCIAL.** Ainda sem: cadastro de instrumentos, posições em aberto (opções e futuros). A B3 publica esses blocos na madrugada seguinte ao pregão; a rodada da manhã completa.
-Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-11-07T01:20:57Z (UTC).
+**Situação: COMPLETO.** Boletim publicado pela B3 em 2026-11-06 00:00 (hora de Brasília).
+Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-11-07T06:34:15Z (UTC).
 
 [[LEITURA_DA_MESA]]
 
-## Sinais do dia (17)
+## Sinais do dia (28)
 
 **Novos hoje**
 
 - **Volume fora do padrão.** MELI34 girou 2,5x a média de 20 pregões (R$ 437 mi contra R$ 172 mi), com o preço em -6,08% no dia. _(B3, TradeInformationConsolidated, 05/11)_
+- **Parede de opções.** BBAS3 fechou a 16,49 com o vencimento de 19/11 a 10 dias úteis e a maior posição em aberto de put em 16,04 (8.994.300 opções, -2,7% do preço). _(B3, DerivativesOpenPosition + InstrumentsConsolidated, 05/11)_
+- **Parede de opções.** BBDC4 fechou a 13,77 com o vencimento de 19/11 a 10 dias úteis e a maior posição em aberto de put em 13,45 (1.220.300 opções, -2,3% do preço). _(B3, DerivativesOpenPosition + InstrumentsConsolidated, 05/11)_
+- **Parede de opções.** DIRR3 fechou a 8,36 com o vencimento de 19/11 a 10 dias úteis e a maior posição em aberto de call em 8,48 (248.200 opções, +1,4% do preço). _(B3, DerivativesOpenPosition + InstrumentsConsolidated, 05/11)_
+- **Parede de opções.** ITSA4 fechou a 12,82 com o vencimento de 19/11 a 10 dias úteis e a maior posição em aberto de put em 12,74 (15.652.500 opções, -0,6% do preço). _(B3, DerivativesOpenPosition + InstrumentsConsolidated, 05/11)_
+- **Parede de opções.** SMAL11 fechou a 94,05 com o vencimento de 19/11 a 10 dias úteis e a maior posição em aberto de call em 96,00 (2.039.140 opções, +2,1% do preço). _(B3, DerivativesOpenPosition + InstrumentsConsolidated, 05/11)_
+- **Parede de opções.** UGPA3 fechou a 30,60 com o vencimento de 19/11 a 10 dias úteis e a maior posição em aberto de put em 30,00 (60.500 opções, -2,0% do preço). _(B3, DerivativesOpenPosition + InstrumentsConsolidated, 05/11)_
+- **Parede de opções.** VALE3 fechou a 62,67 com o vencimento de 19/11 a 10 dias úteis e a maior posição em aberto de put em 61,89 (1.453.700 opções, -1,2% do preço). _(B3, DerivativesOpenPosition + InstrumentsConsolidated, 05/11)_
+- **Posição em opções.** BBAS3: a put BBASX164 (strike 16,20, vencimento 18/12) ganhou 5.389.500 opções em aberto no dia, para 6.328.900. _(B3, DerivativesOpenPosition, 05/11)_
 - **Aluguel mudou.** ITSA4: saldo alugado subiu 12,0% em um pregão, para 69,2 mi de ações, com o preço em +0,00% no dia. _(B3, BTBLendingOpenPosition, 05/11)_
 - **Aluguel alto.** PETR4: saldo alugado de 220,6 mi de ações, 5,0% da quantidade teórica do índice e 3,8 pregões de giro; taxa média do tomador de 0,15% ao ano. _(B3, BTBLendingOpenPosition, 05/11)_
 - **Aluguel mudou.** SAPR4: saldo alugado caiu 35,8% em um pregão, para 3,2 mi de ações, com o preço em +0,00% no dia. _(B3, BTBLendingOpenPosition, 05/11)_
@@ -23,12 +31,15 @@ Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-11
 
 **Já vinham de pregões anteriores**
 
+- **Posição em opções.** PETR4: a put PETRX497 (strike 47,41, vencimento 18/12) ganhou 3.693.600 opções em aberto no dia, para 3.971.200. _(B3, DerivativesOpenPosition, 05/11 · 2º pregão seguido)_
+- **Posição em opções.** ITUB4: a call ITUBL433 (strike 39,20, vencimento 18/12) ganhou 2.011.747 opções em aberto no dia, para 5.786.327. _(B3, DerivativesOpenPosition, 05/11 · 6º pregão seguido)_
 - **Aluguel alto.** BBAS3: saldo alugado de 447,7 mi de ações, 15,8% da quantidade teórica do índice e 7,2 pregões de giro; taxa média do tomador de 0,09% ao ano. _(B3, BTBLendingOpenPosition, 05/11 · 45º pregão seguido)_
 - **Aluguel alto.** CURY3: saldo alugado de 20,5 mi de ações, 12,7% da quantidade teórica do índice e 3,0 pregões de giro; taxa média do tomador de 2,17% ao ano. _(B3, BTBLendingOpenPosition, 05/11 · 45º pregão seguido)_
 - **Aluguel alto.** DIRR3: saldo alugado de 36,2 mi de ações, 11,1% da quantidade teórica do índice e 2,0 pregões de giro; taxa média do tomador de 0,07% ao ano. _(B3, BTBLendingOpenPosition, 05/11 · 45º pregão seguido)_
 - **Aluguel alto.** MRVE3: saldo alugado de 81,6 mi de ações, 21,8% da quantidade teórica do índice e 3,3 pregões de giro; taxa média do tomador de 7,43% ao ano. _(B3, BTBLendingOpenPosition, 05/11 · 45º pregão seguido)_
 - **Pressão vendida.** SAPR4: em 5 pregões o saldo alugado subiu 25,2% e o preço caiu 4,8%: posição vendida crescendo junto com a queda. _(B3, BTBLendingOpenPosition, 05/11 · 7º pregão seguido)_
 - **Aluguel caro.** SMAL11: taxa média do tomador no aluguel em 8,72% ao ano: papel disputado por vendidos. _(B3, BTBLoanBalance, 05/11 · 8º pregão seguido)_
+- **Comunicado.** Comunicado no boletim cita ITUB4: Leilão de Venda de BDRs da Nike Inc.- Itaú. _(B3, informations, 05/11 · 2º pregão seguido)_
 
 ## Índices
 
@@ -70,16 +81,16 @@ Saldo = compras menos vendas, somando todos os mercados da B3. A B3 divulga com 
 
 | Contrato | Ajuste | Variação | Contratos em aberto |
 |---|---:|---:|---:|
-| DI1F27 | 13,660% | +3,5 pb | - |
-| DI1F28 | 14,325% | -10,5 pb | - |
-| DI1F29 | 14,727% | -10,5 pb | - |
-| DI1F30 | 14,907% | -10,3 pb | - |
-| DI1F32 | 15,044% | -6,5 pb | - |
-| DI1F35 | 15,075% | -3,2 pb | - |
-| DAPQ28 | 7,545% | -7,0 pb | - |
-| DAPK31 | 7,860% | -3,0 pb | - |
-| DOLZ26 | 5.519,23 | +0,54% | - |
-| INDZ26 | 167.848,00 | -1,06% | - |
+| DI1F27 | 13,660% | +3,5 pb | 8.219.135 |
+| DI1F28 | 14,325% | -10,5 pb | 5.039.478 |
+| DI1F29 | 14,727% | -10,5 pb | 3.765.729 |
+| DI1F30 | 14,907% | -10,3 pb | 1.762.391 |
+| DI1F32 | 15,044% | -6,5 pb | 1.431.972 |
+| DI1F35 | 15,075% | -3,2 pb | 795.503 |
+| DAPQ28 | 7,545% | -7,0 pb | 468.211 |
+| DAPK31 | 7,860% | -3,0 pb | 157.354 |
+| DOLZ26 | 5.519,23 | +0,54% | 833.299 |
+| INDZ26 | 167.848,00 | -1,06% | 184.688 |
 
 DI1 = DI futuro (taxa prefixada); DAP = cupom de IPCA (juro real); DOL = dólar futuro; IND = Ibovespa futuro. pb = ponto-base (0,01 ponto percentual).
 
@@ -160,14 +171,48 @@ x média = volume do dia dividido pela média dos pregões anteriores no histór
 
 Aluguel de ações (BTC, o banco de títulos da B3): quem aluga normalmente vende a descoberto, então o saldo mede a aposta vendida. Free float aqui é a quantidade teórica da carteira de índice.
 
+## Livro: opções (vencimento relevante mais próximo)
+
+| Ativo (vencimento) | Parede de call: strike (distância) | Parede de put: strike (distância) | Put/call |
+|---|---:|---:|---:|
+| EQTL3 (19/11) | 39,49 (+19,0%) | 31,99 (-3,6%) | 1,50 |
+| ITUB4 (19/11) | 45,07 (+12,8%) | 35,93 (-10,1%) | 0,79 |
+| BBDC4 (19/11) | 14,70 (+6,8%) | 13,45 (-2,3%) | 0,78 |
+| PETR4 (19/11) | 53,41 (+16,2%) | 38,16 (-16,9%) | 1,04 |
+| VALE3 (19/11) | 74,39 (+18,7%) | 61,89 (-1,2%) | 0,69 |
+| MELI34 (19/11) | 80,00 (+15,4%) | - | 0,70 |
+| UGPA3 (19/11) | 35,25 (+15,2%) | 30,00 (-2,0%) | 0,67 |
+| AXIA3 (19/11) | 49,75 (+4,3%) | 46,00 (-3,5%) | 1,01 |
+| ITSA4 (19/11) | 14,23 (+11,0%) | 12,74 (-0,6%) | 0,82 |
+| BBAS3 (19/11) | 18,29 (+10,9%) | 16,04 (-2,7%) | 0,87 |
+| SBSP3 (19/11) | 27,88 (+11,4%) | 20,88 (-16,6%) | 0,66 |
+| SMAL11 (19/11) | 96,00 (+2,1%) | 88,00 (-6,4%) | 0,38 |
+| DIRR3 (19/11) | 8,48 (+1,4%) | 7,48 (-10,5%) | 1,22 |
+| MRVE3 (19/11) | 4,50 (+9,8%) | 3,90 (-4,9%) | 0,67 |
+| CURY3 (19/11) | 28,62 (+7,4%) | 22,12 (-17,0%) | 2,27 |
+
+Parede = strike (preço de exercício) com a maior posição em aberto fora do dinheiro: call acima do preço (teto), put abaixo (piso); distância é contra o fechamento. Put/call = posição em aberto de puts dividida pela de calls, todos os vencimentos. Call = opção de compra; put = de venda.
+
 ## ETFs do livro
 
 | ETF | Valor de referência da cota (IOPV) | Prêmio ou desconto | Cotas criadas no dia |
 |---|---:|---:|---:|
-| SMAL11 | 94,53 | -0,51% | - |
-| RARA11 | - | - | - |
+| SMAL11 | 94,53 | -0,51% | 0 |
+| RARA11 | - | - | 0 |
 
 - Paridade: RARA11 -1,74% contra REMX em reais -2,82% (lá fora -2,32%, câmbio -0,52%); desvio de +1,08%. Fechamentos em horários diferentes: é aproximação.
+
+## Ações do livro em programa de ADR
+
+| Ativo | Ações em ADR (mi) | % da classe | Variação no pregão (mi) |
+|---|---:|---:|---:|
+| ITUB4 | 1.265,0 | 23,4% | +0,00 |
+| PETR4 | 767,7 | 14,1% | +0,00 |
+| VALE3 | 1.261,8 | 28,4% | +0,00 |
+| UGPA3 | 79,3 | 7,1% | +0,00 |
+| AXIA3 | 47,5 | 1,9% | +0,00 |
+
+ADR = recibo da ação negociado em Nova York. Ações entrando no programa indicam compra lá fora; saindo, venda.
 
 ## Radar do mercado: aluguel
 
@@ -187,6 +232,24 @@ Aluguel de ações (BTC, o banco de títulos da B3): quem aluga normalmente vend
 **Aposta vendida crescendo (aluguel subindo, preço caindo):** BBDC3 -5,2%.
 
 **Volume fora do padrão no mercado:** MELI34 2,5x (-6,08%), TEND3 2,1x (-17,72%).
+
+## Opções: o mercado inteiro
+
+Posição em aberto: 4,7 bi de calls e 4,0 bi de puts (put/call 0,84); no volume do dia, put/call 1,37.
+
+| Ativo | Calls | Puts | Put/call |
+|---|---:|---:|---:|
+| PETR4 | 381,9 mi | 396,0 mi | 1,04 |
+| BOVA11 | 366,2 mi | 369,7 mi | 1,01 |
+| BBAS3 | 382,3 mi | 330,8 mi | 0,87 |
+| BBDC4 | 343,9 mi | 268,8 mi | 0,78 |
+| ITUB4 | 230,0 mi | 180,6 mi | 0,79 |
+| VALE3 | 212,7 mi | 146,4 mi | 0,69 |
+| B3SA3 | 133,9 mi | 155,1 mi | 1,16 |
+| SMAL11 | 193,0 mi | 73,9 mi | 0,38 |
+
+**Séries que mais ganharam posição:** BBASX164 (BBAS3, put, strike 16,20) +5,39 mi; BBASX3 (BBAS3, put, strike 13,20) +5,02 mi; BOVAL13 (BOVA11, call, strike 130,00) +5,00 mi; BOVAX13 (BOVA11, put, strike 130,00) +4,93 mi.
+**Séries que mais perderam posição:** PETRK571 (PETR4, call, strike 55,91) -1,10 mi; RADLM129 (RADL3, put, strike 12,94) -0,90 mi; RADLA186 (RADL3, call, strike 18,44) -0,90 mi; RADLM154 (RADL3, put, strike 15,44) -0,89 mi.
 
 ## Renda fixa: debêntures incentivadas, CRI e CRA
 
@@ -245,6 +308,15 @@ Nas incentivadas, a mediana pelos negócios do dia (B3 negócios de 05/11) foi I
 
 Por classe, mediana das taxas de referência dos papéis. Taxa de referência: nas debêntures, a indicativa da ANBIMA quando há; nos demais papéis, a média dos negócios da B3 ponderada pelo volume. Juro real = DAP (cupom de IPCA) da mesma data: na duration do papel quando a taxa é a indicativa, no vencimento quando é a dos negócios (aproximação). Em CRI e CRA a B3 informa a securitizadora.
 
+## Eventos e comunicados
+
+- Comunicado (03/11): LEILÃO DE VENDA DE AÇÕES
+- Comunicado (04/11): LEILÃO DE VENDA DE AÇÕES
+- Comunicado (04/11): Leilão de Venda de BDRs da Nike Inc.- Itaú **[ITUB4]**
+- Comunicado (05/11): OPA Randoncorp S.A. - Resumo do Edital
+- Comunicado (05/11): LEILÃO DE VENDA DE AÇÕES
+- Comunicado (26/10): Edital da OPA Randoncorp S.A. - Versão final
+
 ## Renda fixa na plataforma eletrônica (75 papéis, R$ 329,4 mi)
 
 | Papel | Último | Negócios | Volume (R$ mil) |
@@ -259,10 +331,10 @@ Por classe, mediana das taxas de referência dos papéis. Taxa de referência: n
 ## Lacunas e pendências
 
 - aluguel por corretora: ignorado
-- posições em aberto (opções e futuros): falhou: arquivo DerivativesOpenPosition: download HTTP 401
-- cadastro de instrumentos: falhou: arquivo InstrumentsConsolidated: download HTTP 504
 - Publicadas pela B3 depois do prazo, mas com dado: AnalyticalFramework2.
 - Posição em aberto de derivativos por tipo de investidor (estrangeiro, institucional, pessoa física): não existe no Boletim Diário do Mercado; procurado nas 69 tabelas e no texto dos 11 cadernos em 30/09/2026.
 - Fluxo por tipo de investidor sai acumulado no mês e com dois pregões de atraso; o saldo de um dia é a diferença entre dois acumulados seguidos.
 - RARA11: a B3 não publica valor de referência da cota (IOPV) para este ETF no boletim.
 - Paridade de MELI34: sem a barra de 05/11 de MELI nas séries do livro.
+
+Boletim completo em PDF (B3): https://arquivos.b3.com.br/bdi/download/bdi/2026-11-05/BDI_00_20261105.pdf

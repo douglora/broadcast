@@ -1,6 +1,6 @@
 {
  "pregao": "2026-11-05",
- "coletado_em": "2026-11-07T00:52:32Z",
+ "coletado_em": "2026-11-07T06:33:49Z",
  "tabelas": {
   "SharesInvesVolum": {
    "titulo": "Participação dos investidores",
@@ -391,14 +391,21 @@
    "bytes": 3668,
    "linhas": 53,
    "estado": "Final"
+  },
+  "InstrumentsConsolidated": {
+   "arquivo": "InstrumentsConsolidatedFile_20261105_1",
+   "bytes": 20024870,
+   "linhas": 88870,
+   "estado": "Final"
+  },
+  "DerivativesOpenPosition": {
+   "arquivo": "DerivativesOpenPositionFile_20261105_1",
+   "bytes": 3584628,
+   "linhas": 44729,
+   "estado": null
   }
  },
- "falhas": {
-  "status": "HTTP 0 em https://arquivos.b3.com.br/bdi/download/status",
-  "InstrumentsConsolidated": "arquivo InstrumentsConsolidated: download HTTP 504",
-  "DerivativesOpenPosition": "arquivo DerivativesOpenPosition: download HTTP 401",
-  "informativos": "HTTP 0 em https://arquivos.b3.com.br/bdi/table/classification/1813cc19-7bcf-4576-aafb-b416"
- },
+ "falhas": {},
  "rf_cadastro": {
   "papeis_no_dia": 1834,
   "consultados": 0,
@@ -406,7 +413,7 @@
   "sem_cadastro": 0,
   "erros": 0,
   "ficaram_para_depois": 0,
-  "no_cache": 3722
+  "no_cache": 3740
  },
  "anbima": {
   "situacao": "publicado",
