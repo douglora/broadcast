@@ -1,17 +1,21 @@
 {
- "pregao": "2026-11-05",
+ "pregao": "2026-11-06",
  "nome": "FugibleCustody",
  "titulo": "Custódia fungível",
  "sla": "00:00:00",
  "paginas": 1,
  "colunas": [{"nome": "SbscrptnDeadline", "titulo": "Prazo final subscrição"}, {"nome": "DeadlineAssgnmnt", "titulo": "Prazo final cessão"}, {"nome": "TckrSymb", "titulo": "Emissor"}, {"nome": "IsinOrigin", "titulo": "Código ISIN origem"}, {"nome": "IsinRight", "titulo": "Código ISIN direito"}, {"nome": "IsinSbscrptn", "titulo": "Código ISIN subscrição"}],
  "texto": ["Informações sobre ativos que estão sob custódia, mas não são de propriedade do investidor. O objetivo é fornecer transparência sobre a gestão de ativos que pertencem a terceiros, garantindo controle e rastreabilidade. Os agentes de custódia que pretenderem exercer o direito de subscrição e/ou solicitar cessão de direitos da(s) empresa(s) abaixo relacionada(s) deverão manifestar-se nos prazos mencionados."],
- "situacao": "publicado",
- "atualizado_em": "2026-11-05T00:00:41.4",
+ "situacao": "republicado",
+ "atualizado_em": "2026-11-06T20:50:37.74",
  "truncada": false,
  "linhas": [
   ["2026-11-11", "2026-11-11", "ALIANZA TRUST RENDA IMOBILIARIA FII RESP LIM", "BRALZRCTF006 212", "BRALZRD08M16 212", "BRALZRR35M17 213"],
   ["2026-11-11", "2026-11-11", "BOCAINA INFRA CDI FIC FI INFRA RF", "BRBODICTF004 108", "BRBODID01M16 108", "BRBODIR01M10 109"],
-  ["2026-11-17", "2026-11-17", "PRINER SERVIÇOS INDUSTRIAIS S.A.", "BRPRNRACNOR4 111", "BRPRNRD04OR3 111", "BRPRNRR04OR3 111"]
+  ["2026-11-17", "2026-11-17", "PRINER SERVIÇOS INDUSTRIAIS S.A.", "BRPRNRACNOR4 111", "BRPRNRD04OR3 111", "BRPRNRR04OR3 111"],
+  ["2026-12-07", "2026-12-07", "AZEVEDO & TRAVASSOS ENERGIA S.A.", "BRAZTEACNOR4 102", "BRAZTED02OR7 102", "BRAZTER03OR5 102"],
+  ["2026-12-07", "2026-12-07", "RAIZEN S.A.", "BRRAIZA01PA3 100", "BRRAIZD01M18 100", "BRRAIZR01M12 100"],
+  ["2026-12-07", "2026-12-07", "RAIZEN S.A.", "BRRAIZA01PA3 100", "BRRAIZD01OR4 100", "BRRAIZR01OR4 100"],
+  ["2026-12-07", "2026-12-07", "RAIZEN S.A.", "BRRAIZA01PA3 100", "BRRAIZD01PB5 100", "BRRAIZR01PB5 100"]
  ]
 }
