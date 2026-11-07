@@ -2,7 +2,7 @@
  "pregao": "2026-11-06",
  "situacao": "publicando",
  "errata": false,
- "atualizado_em": "2026-11-07T03:22:56",
+ "atualizado_em": "2026-11-07T08:42:42.013",
  "completo": {
   "arquivo": "",
   "pdf": ""
@@ -12,9 +12,9 @@
    "id": 1,
    "nome": "Renda fixa",
    "pai": null,
-   "situacao": "publicando",
+   "situacao": "publicado",
    "errata": false,
-   "atualizado_em": "2026-11-07T03:03:14.967",
+   "atualizado_em": "2026-11-07T05:03:39.38",
    "arquivo": "",
    "pdf": ""
   },
@@ -44,7 +44,7 @@
    "pai": 20,
    "situacao": "publicando",
    "errata": false,
-   "atualizado_em": "2026-11-07T03:22:56",
+   "atualizado_em": "2026-11-07T08:42:42.013",
    "arquivo": "",
    "pdf": ""
   },
@@ -72,11 +72,11 @@
    "id": 33,
    "nome": "Derivativos de balcão",
    "pai": 3,
-   "situacao": "publicando",
+   "situacao": "publicado",
    "errata": false,
-   "atualizado_em": "2026-11-06T21:51:03.34",
-   "arquivo": "",
-   "pdf": ""
+   "atualizado_em": "2026-11-07T04:05:38.007",
+   "arquivo": "BDI_03-3_20261106.pdf",
+   "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-11-06/BDI_03-3_20261106.pdf"
   },
   {
    "id": 34,
@@ -104,7 +104,7 @@
    "pai": 4,
    "situacao": "republicado",
    "errata": false,
-   "atualizado_em": "2026-11-07T01:55:38.007",
+   "atualizado_em": "2026-11-07T03:55:38.007",
    "arquivo": "BDI_04-2_20261106.pdf",
    "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-11-06/BDI_04-2_20261106.pdf"
   },
@@ -112,11 +112,11 @@
    "id": 43,
    "nome": "COE",
    "pai": 4,
-   "situacao": "publicando",
+   "situacao": "publicado",
    "errata": false,
-   "atualizado_em": "2026-11-06T00:00:38.003",
-   "arquivo": "",
-   "pdf": ""
+   "atualizado_em": "2026-11-07T04:05:38.007",
+   "arquivo": "BDI_04-3_20261106.pdf",
+   "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-11-06/BDI_04-3_20261106.pdf"
   }
  ]
 }

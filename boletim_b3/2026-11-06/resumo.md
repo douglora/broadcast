@@ -1,11 +1,11 @@
 # Boletim da B3: pregão de 06/11/2026 (sexta)
 
-**Situação: PARCIAL.** Ainda sem: posições em aberto (opções e futuros), empréstimos do dia, quadro de posições em aberto. A B3 publica esses blocos na madrugada seguinte ao pregão; a rodada da manhã completa.
-Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-11-07T06:34:36Z (UTC).
+**Situação: PARCIAL.** Ainda sem: posições em aberto (opções e futuros), quadro de posições em aberto. A B3 publica esses blocos na madrugada seguinte ao pregão; a rodada da manhã completa.
+Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-11-07T11:52:01Z (UTC).
 
 [[LEITURA_DA_MESA]]
 
-## Sinais do dia (14)
+## Sinais do dia (15)
 
 **Novos hoje**
 
@@ -21,10 +21,11 @@ Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-11
 
 **Já vinham de pregões anteriores**
 
-- **Aluguel alto.** BBAS3: saldo alugado de 452,0 mi de ações, 15,9% da quantidade teórica do índice e 7,7 pregões de giro. _(B3, BTBLendingOpenPosition, 06/11 · 46º pregão seguido)_
-- **Aluguel alto.** CURY3: saldo alugado de 20,7 mi de ações, 12,9% da quantidade teórica do índice e 3,1 pregões de giro. _(B3, BTBLendingOpenPosition, 06/11 · 46º pregão seguido)_
-- **Aluguel alto.** DIRR3: saldo alugado de 37,2 mi de ações, 11,4% da quantidade teórica do índice e 2,0 pregões de giro. _(B3, BTBLendingOpenPosition, 06/11 · 46º pregão seguido)_
-- **Aluguel alto.** MRVE3: saldo alugado de 81,3 mi de ações, 21,7% da quantidade teórica do índice e 3,3 pregões de giro. _(B3, BTBLendingOpenPosition, 06/11 · 46º pregão seguido)_
+- **Aluguel alto.** BBAS3: saldo alugado de 452,0 mi de ações, 15,9% da quantidade teórica do índice e 7,7 pregões de giro; taxa média do tomador de 0,09% ao ano. _(B3, BTBLendingOpenPosition, 06/11 · 46º pregão seguido)_
+- **Aluguel alto.** CURY3: saldo alugado de 20,7 mi de ações, 12,9% da quantidade teórica do índice e 3,1 pregões de giro; taxa média do tomador de 2,14% ao ano. O preço subiu 3,6% em 5 pregões: aluguel alto e caro com preço subindo é o quadro em que o vendido costuma ser forçado a recomprar. _(B3, BTBLendingOpenPosition, 06/11 · 46º pregão seguido)_
+- **Aluguel alto.** DIRR3: saldo alugado de 37,2 mi de ações, 11,4% da quantidade teórica do índice e 2,0 pregões de giro; taxa média do tomador de 0,07% ao ano. _(B3, BTBLendingOpenPosition, 06/11 · 46º pregão seguido)_
+- **Aluguel alto.** MRVE3: saldo alugado de 81,3 mi de ações, 21,7% da quantidade teórica do índice e 3,3 pregões de giro; taxa média do tomador de 7,42% ao ano. O preço subiu 10,2% em 5 pregões: aluguel alto e caro com preço subindo é o quadro em que o vendido costuma ser forçado a recomprar. _(B3, BTBLendingOpenPosition, 06/11 · 46º pregão seguido)_
+- **Aluguel caro.** SMAL11: taxa média do tomador no aluguel em 8,72% ao ano: papel disputado por vendidos. _(B3, BTBLoanBalance, 06/11 · 9º pregão seguido)_
 - **Comunicado.** Comunicado no boletim cita ITUB4: Leilão de Venda de BDRs da Nike Inc.- Itaú. _(B3, informations, 06/11 · 3º pregão seguido)_
 
 ## Índices
@@ -123,25 +124,25 @@ x média = volume do dia dividido pela média dos pregões anteriores no histór
 
 | Ativo | Saldo alugado em mi de ações (% do free float) | Variação no pregão | Taxa do tomador (ao ano) |
 |---|---:|---:|---:|
-| EQTL3 | 39,4 (3,2%) | +0,04% | - |
-| SAPR4 | 3,3 | +5,65% | - |
-| KLBN4 | 7,6 | +1,00% | - |
-| ALUP4 | 0,04 | -45,76% | - |
-| ITUB4 | 170,6 (3,2%) | +0,97% | - |
-| BBDC4 | 218,6 (4,3%) | -1,43% | - |
-| PETR4 | 210,3 (4,8%) | -4,66% | - |
-| VALE3 | 156,8 (4,2%) | +2,42% | - |
-| MELI34 | 3,8 | +4,51% | - |
-| UGPA3 | 46,0 (4,3%) | -2,52% | - |
-| AXIA3 | 65,6 (2,9%) | +6,23% | - |
-| ITSA4 | 64,4 (1,1%) | -7,00% | - |
-| BBAS3 | 452,0 (15,9%) | +0,96% | - |
-| SBSP3 | 109,8 (3,1%) | +25,04% | - |
-| SMAL11 | 24,0 | -3,08% | - |
-| RARA11 | 0,00 | +4.125,45% | - |
-| DIRR3 | 37,2 (11,4%) | +2,72% | - |
-| MRVE3 | 81,3 (21,7%) | -0,43% | - |
-| CURY3 | 20,7 (12,9%) | +1,32% | - |
+| EQTL3 | 39,4 (3,2%) | +0,04% | 0,09% |
+| SAPR4 | 3,3 | +5,65% | 0,03% |
+| KLBN4 | 7,6 | +1,00% | 0,01% |
+| ALUP4 | 0,04 | -45,76% | 0,12% |
+| ITUB4 | 170,6 (3,2%) | +0,97% | 0,05% |
+| BBDC4 | 218,6 (4,3%) | -1,43% | 0,10% |
+| PETR4 | 210,3 (4,8%) | -4,66% | 0,15% |
+| VALE3 | 156,8 (4,2%) | +2,42% | 0,07% |
+| MELI34 | 3,8 | +4,51% | 0,15% |
+| UGPA3 | 46,0 (4,3%) | -2,52% | 0,43% |
+| AXIA3 | 65,6 (2,9%) | +6,23% | 0,05% |
+| ITSA4 | 64,4 (1,1%) | -7,00% | 0,06% |
+| BBAS3 | 452,0 (15,9%) | +0,96% | 0,09% |
+| SBSP3 | 109,8 (3,1%) | +25,04% | 0,29% |
+| SMAL11 | 24,0 | -3,08% | 8,72% |
+| RARA11 | 0,00 | +4.125,45% | 1,00% |
+| DIRR3 | 37,2 (11,4%) | +2,72% | 0,07% |
+| MRVE3 | 81,3 (21,7%) | -0,43% | 7,42% |
+| CURY3 | 20,7 (12,9%) | +1,32% | 2,14% |
 
 Aluguel de ações (BTC, o banco de títulos da B3): quem aluga normalmente vende a descoberto, então o saldo mede a aposta vendida. Free float aqui é a quantidade teórica da carteira de índice.
 
@@ -170,13 +171,14 @@ ADR = recibo da ação negociado em Nova York. Ações entrando no programa indi
 
 | Mais alugadas | % das ações | Taxa | Preço em 5 pregões |
 |---|---:|---:|---:|
-| TTEN3 | 26,0% | - | +0,97% |
-| PLPL3 | 25,9% | - | +2,88% |
-| TAEE11 | 24,6% | - | +2,58% |
-| BEEF3 | 23,2% | - | -2,97% |
-| MRVE3 | 21,7% | - | +10,15% |
-| JHSF3 | 19,7% | - | +14,94% |
+| TTEN3 | 26,0% | 0,48% | +0,97% |
+| PLPL3 | 25,9% | 10,21% | +2,88% |
+| TAEE11 | 24,6% | 0,68% | +2,58% |
+| BEEF3 | 23,2% | 3,09% | -2,97% |
+| MRVE3 | 21,7% | 7,42% | +10,15% |
+| JHSF3 | 19,7% | 0,40% | +14,94% |
 
+**Aluguel mais caro (taxa ao ano):** CMIN3 59,03%, CYRE3 39,35%, YDUQ3 24,28%, ORVR3 20,16%, MBRF3 20,13%, GGPS3 16,54%.
 **Saldo alugado que mais subiu no pregão:** BMGB4 +35,5%, SBSP3 +25,0%, TEND3 +17,2%, EMBJ3 +16,1%, GGBR4 +13,8%, ANIM3 +13,3%.
 **Saldo que mais caiu:** PRNR3 -19,9%, ENGI11 -14,0%, HYPE3 -10,7%, MULT3 -9,4%, LWSA3 -9,4%, ALPA4 -8,8%.
 **Vendidos sob pressão (muito alugadas, preço subindo):** CSAN3 +23,1%, CEAB3 +22,1%, SIMH3 +18,4%, SMFT3 +17,4%, MDNE3 +16,2%, JHSF3 +14,9%.
@@ -266,12 +268,8 @@ Por classe, mediana das taxas de referência dos papéis. Taxa de referência: n
 ## Lacunas e pendências
 
 - quadro de posições em aberto: aguardando
-- empréstimos do dia: aguardando
 - aluguel por corretora: ignorado
 - posições em aberto (opções e futuros): aguardando
-- Register: aguardando
-- RepurchaseDealings: aguardando
-- Stock: aguardando
 - Posição em aberto de derivativos por tipo de investidor (estrangeiro, institucional, pessoa física): não existe no Boletim Diário do Mercado; procurado nas 69 tabelas e no texto dos 11 cadernos em 30/09/2026.
 - Fluxo por tipo de investidor sai acumulado no mês e com dois pregões de atraso; o saldo de um dia é a diferença entre dois acumulados seguidos.
 - RARA11: a B3 não publica valor de referência da cota (IOPV) para este ETF no boletim.
