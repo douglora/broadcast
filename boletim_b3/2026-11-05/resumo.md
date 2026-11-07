@@ -1,7 +1,7 @@
 # Boletim da B3: pregão de 05/11/2026 (quinta)
 
 **Situação: COMPLETO.** Boletim publicado pela B3 em 2026-11-06 00:00 (hora de Brasília).
-Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-11-07T11:51:44Z (UTC).
+Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-11-07T16:59:26Z (UTC).
 
 [[LEITURA_DA_MESA]]
 
@@ -303,7 +303,7 @@ Nas incentivadas, a mediana pelos negócios do dia (B3 negócios de 05/11) foi I
 **Abriram taxa pela indicativa da ANBIMA:** HGLB23 +33 pb contra 04/11, para IPCA+ 12,99% (R$ 3,5 mi); QMCT14 +26,6 pb contra 04/11, para IPCA+ 9,10% (R$ 9,3 mi); AXIA18 +24,6 pb contra 04/11, para IPCA+ 7,96% (R$ 6,5 mi); FSII14 +21,3 pb contra 04/11, para IPCA+ 11,77% (R$ 44,7 mi); AXIA38 +17,3 pb contra 04/11, para IPCA+ 7,98% (R$ 5,0 mi).
 **Fecharam taxa pela indicativa da ANBIMA:** CGOSA2 -29,5 pb contra 04/11, para IPCA+ 8,11% (R$ 6,1 mi); BTEL13 -26,5 pb contra 04/11, para 17,65% pré (R$ 7,1 mi); CJEN13 -11,2 pb contra 04/11, para IPCA+ 8,19% (R$ 7,0 mi); CTEE18 -10 pb contra 04/11, para IPCA+ 7,55% (R$ 5,0 mi); OMGE41 -9,7 pb contra 04/11, para IPCA+ 6,14% (R$ 3,5 mi).
 **Abriram taxa pelos negócios da B3:** CODN12 +171 pb contra 09/10, para IPCA+ 9,33% (R$ 4,4 mi); 21H1078700 +132 pb contra 30/10, para IPCA+ 12,28% (R$ 3,0 mi); CRA024002S3 +108 pb contra 28/10, para 19,08% pré (R$ 4,0 mi); LINS12 +99 pb contra 22/10, para IPCA+ 7,92% (R$ 4,2 mi); AGLT12 +65 pb contra 03/09, para IPCA+ 7,89% (R$ 3,7 mi).
-**Fecharam taxa pelos negócios da B3:** BION16 -37 pb contra 30/10, para IPCA+ 9,26% (R$ 10,0 mi); CRA0220073P -23 pb contra 04/11, para IPCA+ 13,28% (R$ 3,8 mi); CRA021002NF -20 pb contra 03/11, para IPCA+ 9,27% (R$ 10,7 mi); SPTE11 -20 pb contra 29/10, para IPCA+ 8,73% (R$ 9,8 mi); OUSA12 -12 pb contra 27/10, para IPCA+ 12,25% (R$ 10,7 mi).
+**Fecharam taxa pelos negócios da B3:** BION16 -37 pb contra 30/10, para IPCA+ 9,26% (R$ 10,0 mi); CRA0220073P -23 pb contra 04/11, para IPCA+ 13,28% (R$ 3,8 mi); SPTE11 -20 pb contra 29/10, para IPCA+ 8,73% (R$ 9,8 mi); CRA021002NF -20 pb contra 03/11, para IPCA+ 9,27% (R$ 10,7 mi); OUSA12 -12 pb contra 27/10, para IPCA+ 12,25% (R$ 10,7 mi).
 **Prêmio alto:** CGEE23 a IPCA+ 16,28% (ANBIMA indicativa de 05/11), +841 pb na duration, R$ 5,3 mi; 22J0306937 a IPCA+ 13,52% (B3 negócios de 05/11), +578 pb no vencimento, R$ 7,3 mi; CRA0220073P a IPCA+ 13,28% (B3 negócios de 05/11), +559 pb no vencimento, R$ 3,8 mi; CRA020003PY a IPCA+ 13,04% (B3 negócios de 05/11), +518 pb no vencimento, R$ 17,4 mi; HGLB23 a IPCA+ 12,99% (ANBIMA indicativa de 05/11), +513 pb na duration, R$ 3,5 mi.
 
 Por classe, mediana das taxas de referência dos papéis. Taxa de referência: nas debêntures, a indicativa da ANBIMA quando há; nos demais papéis, a média dos negócios da B3 ponderada pelo volume. Juro real = DAP (cupom de IPCA) da mesma data: na duration do papel quando a taxa é a indicativa, no vencimento quando é a dos negócios (aproximação). Em CRI e CRA a B3 informa a securitizadora.
