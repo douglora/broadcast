@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 06/11 21h01
+NOTÍCIAS E FATOS · 06/11 21h51
 
-Pernas: noticias ok 17 novas (18 consultas; descartadas: 415 veículo fora da lista, 28 sem ativo, 35 teto) · cvm ok 5 novos de 27 (8 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 13 novas (18 consultas; descartadas: 413 veículo fora da lista, 28 sem ativo, 0 teto) · cvm ok 0 novos de 27 (8 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (6)
 
@@ -83,7 +83,16 @@ Fonte: SEC EDGAR 2026-11-06
 id: E04-BABA-26123545-2026-11-06 · status: linha · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (12)
+## NOTÍCIAS COM MATERIALIDADE (13)
+
+[ATENÇÃO] E05 · PETR4 · Petrobras pode distribuir até US$ 4,2 bilhões em dividendos apesar da queda do petróleo Brent
+Estadao · 06/11 21h29 · fonte única · licença: manchete
+Link: https://www.estadao.com.br/em-alta/einvestidor/cenarios-e-mercado/petrobras-pode-distribuir-ate-us-42-bilhoes-em-dividendos-apesar-da-queda-do-petroleo-brent/
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: PETR4 · BRENT
+Como falar: 'saiu no Estadao: Petrobras pode distribuir até US$ 4,2 bilhões em dividendos apesar da queda do petróleo B…; confirmar o número no texto antes de repassar'
+Fonte: Estadao 06/11 21h29
+id: E05-PETR4-ce232399f3-2026-11-07 · status: pendente
 
 [ATENÇÃO] E05 · ITUB4 · Até o Itaú (ITUB4): UBS BB corta preço-alvo com piora do cenário
 Money Times · 06/11 19h36 · fonte única · licença: integral
@@ -146,7 +155,7 @@ Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais
 Ativos: KLBN4
 Como falar: 'saiu no Money Times: Klabin (KLBN11): Safra corta preço-alvo e rebaixa recomendação diante de cenário mais des…; confirmar o número no texto antes de repassar'
 Fonte: Money Times 06/11 16h12
-id: E05-KLBN4-9d1e0db35a-2026-11-06 · status: pendente · íntegra disponível
+id: E05-KLBN4-9d1e0db35a-2026-11-06 · status: expirado · íntegra disponível
 
 [ATENÇÃO] E05 · KO · If You Invested $300,000 in Coca-Cola, PepsiCo and Keurig Dr Pepper, Here’s What They’d Pay
 Yahoo Finance · 06/11 09h37 · fonte única · licença: resumo
@@ -162,7 +171,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: KO
 Como falar: 'saiu no Yahoo Finance: If You Invested $300,000 in Coca-Cola, PepsiCo and Keurig Dr Pepper, Here’s What They’d P…; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 06/11 09h37
-id: E05-KO-423fc7b3fc-2026-11-06 · status: pendente
+id: E05-KO-423fc7b3fc-2026-11-06 · status: expirado
 
 [ATENÇÃO] E05 · USDBRL · XP reduz projeção do PIB a 0,3% em 2027; dólar vai a R$ 5,50 e Selic fica em 13,75%
 InfoMoney · 06/11 14h00 · fonte única · licença: resumo
@@ -256,8 +265,20 @@ Fonte: CNN Brasil 06/11 04h30
 id: E05-ALUP4-ff6c54242e-2026-11-06 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (45)
+## OUTRAS NOTÍCIAS (só manchete) (57)
 
+· CVX Chevron (CVX) Q3 Earnings Spotlight Strong Cash Flow And Flat Production (Yahoo Finance) https://finance.yahoo.com/energy/articles/chevron-cvx-q3-earnings-spotlight-001411385.html
+· VALE3 Vale: Iron ore scale underpins copper growth ambitions and disciplined investment (TradingView (Reuters)) https://www.tradingview.com/news/urn:summary_document_slides:quartr.com:4497944:0-vale-iron-ore-scale-underpins-copper-growth-ambitions-and-disciplined-investment/
+· USDBRL Bolsa sobe 1,39%; em alta, dólar fecha a R$ 5,508 (Poder360) https://www.poder360.com.br/poder-economia/bolsa-sobe-139-em-alta-dolar-fecha-a-r-5508/
+· CVX CHEVRON (CVX) BMO CDR (CAD HEDG (ZCVX.NE) Q1 FY2026 earnings call transcript (Yahoo Finance) https://finance.yahoo.com/quote/ZCVX.NE/earnings/ZCVX.NE-Q1-2026-earnings_call-549372.html
+· CVX Compared to Estimates, Chevron (CVX) Q3 Earnings: A Look at Key Metrics (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/compared-estimates-chevron-cvx-q3-223002474.html
+· INTC Intel Stock’s (INTC) Deep Sell-Off Shows Signs of an Overreaction (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/intel-stock-intc-deep-sell-213300842.html
+· SBSP3 Ações da Sabesp (SBSP3) sobem 7% após balanço: o que agradou no 3º tri? (InfoMoney) https://www.infomoney.com.br/mercados/acoes-da-sabesp-sbsp3-sobem-apos-balanco-o-que-agradou-no-3o-tri/
+· NVDA NVIDIA and AMD Sell-Off: Which AI Stock Is the Better Buy on the Dip? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/nvidia-amd-sell-off-ai-190000358.html
+· INTC Intel Corp. R (INL0.HA) Q1 FY2026 earnings call transcript (Yahoo Finance) https://finance.yahoo.com/quote/INL0.HA/earnings/INL0.HA-Q1-2026-earnings_call-544934.html
+· NVDA NVIDIA Corporation (NVDA) stock price, news, quote and history (Yahoo Finance) https://sg.finance.yahoo.com/quote/NVDA/
+· TSLA Elon Musk's Tesla to 'wind down' Cybertruck production next year (Yahoo Finance) https://uk.finance.yahoo.com/video/elon-musks-tesla-wind-down-164426014.html
+· UST The Weekly Spread: What Shaped US Treasury Yields And The Dollar This Week (Yahoo Finance) https://finance.yahoo.com/markets/currencies/articles/weekly-spread-shaped-us-treasury-043000500.html
 · MU Stock Market Today, Nov. 6: Micron Technology Jumps as Chip Stocks Rebound From Thursday's Rout (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/stock-market-today-nov-6-225615856.html
 · BTC Weekly Wrap: Bitcoin Falls as U.S. Market Crashes (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/weekly-wrap-bitcoin-falls-u-225000991.html
 · MELI34 11.11 no Mercado Livre: como conferir cupons, entrega e pagamento (Exame) https://exame.com/tecnologia/examelab/11-11-mercado-livre-cupons-entrega-pagamento/
