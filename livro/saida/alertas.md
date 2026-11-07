@@ -1,152 +1,4 @@
-ALERTAS · intradia
-
-(pendente de slot anterior) [CRÍTICO] CURVA · C05 IPCA+ 2050 PU -6,0% em 5 datas-base (base 05/11) / C07 UST FECHOU: 2y -12 bps · 2y cruzou 4,50% (05/11) / C03 DI em nível: F30 cruzou 15,00% (para baixo, agora 14,91%)
-TD Pre 2029 14,75 (-14) · IPCA+ 2032 7,85 (-2) · IPCA+ 2040 7,56 (-2) · IPCA+ 2050 7,42 (+1) · Pre 2032 15,14 (-9)
-2y 4,46 · 10y 4,84 · 30y 5,25 · 2s10s +38 bps
-Transmissão: IUAA (iShares US Aggregate Bond, duração ~6) ≈ +0,4%; alivia CNDX/RBOT e o real
-Implícita 2029: 6,58% (+93 bps na semana) vs Focus IPCA 2029 3,98% (+260 bps)
-Implícita 2032: 6,76% (+6 bps na semana) vs Focus IPCA 2030 3,81% (+294 bps)
-Implícita 2031/32 (descasado): 6,87% (+119 bps na semana) vs Focus IPCA 2030 3,81% (+305 bps)
-Por que importa: fechamento de taxa é ganho de marcação; quem carrega até o vencimento não mudou de rentabilidade
-Como falar: 'a marcação a mercado veio a favor; o rendimento contratado segue igual'
-Fonte: B3 ajuste 05/11 · Tesouro Transparente base 05/11; BCB Focus · Tesouro Transparente, base 05/11 · Treasury.gov CMT 05/11
-ids: C05-TESOURO-fechou-2026-11-05, C07-UST-fechou-2026-11-05, C03-DI-di-2026-11-05, C06-TESOURO-implicita-2026-11-05
-
-(pendente de slot anterior) [CRÍTICO] T05 · 14 ativos: VWRA, CSPX, CNDX, RBOT, SPY, BOTZ, QNTM, QANT, QTUM, PLTR, TSLA, JPM, MELI34, ETH
-· VWRA (Vanguard FTSE All-World UCITS ETF USD Accumulating) -2,3% no dia a US$ 186,28: movimento de 3,4 desvios para uma vol de 20 dias de 11% a.a.
-  1m -4,8% · 6m +0,1% · YTD +9,2%
-· CSPX (iShares Core S&P 500 UCITS ETF USD (Acc)) -2,6% no dia a US$ 807,58: movimento de 4,1 desvios para uma vol de 20 dias de 10% a.a.
-  1m -4,5% · 6m +1,8% · YTD +9,3%
-· CNDX (iShares NASDAQ 100 UCITS ETF USD (Acc)) -4,5% no dia a US$ 1.563: movimento de 4,0 desvios para uma vol de 20 dias de 18% a.a.
-  1m -13% · 6m -5,4% · YTD +6,5%
-· RBOT (iShares Automation & Robotics UCITS ETF USD (Acc)) -5,4% no dia a US$ 19,33: movimento de 3,5 desvios para uma vol de 20 dias de 25% a.a.
-  1m -16% · 6m -4,2% · YTD +18%
-· SPY -4,2% no dia a US$ 734,79: movimento de 5,3 desvios para uma vol de 20 dias de 13% a.a.
-  1m -5,7% · 6m +0,9% · YTD +8,6%
-· BOTZ -6,8% no dia a US$ 30,59: movimento de 4,2 desvios para uma vol de 20 dias de 27% a.a.
-  1m -15% · 6m -23% · YTD -16%
-· QNTM -6,9% no dia a US$ 23,08: movimento de 4,0 desvios para uma vol de 20 dias de 28% a.a.
-  1m -23% · 6m -21% · YTD -8,0%
-· QANT -4,2% no dia a US$ 5,11: movimento de 3,1 desvios para uma vol de 20 dias de 22% a.a.
-  1m -17% · 6m -16% · YTD +1,3%
-· QTUM -8,4% no dia a US$ 119,55: movimento de 3,8 desvios para uma vol de 20 dias de 37% a.a.
-  1m -24% · 6m -15% · YTD +9,8%
-· PLTR -9,8% no dia a US$ 154,82: movimento de 3,2 desvios para uma vol de 20 dias de 52% a.a.
-  1m -19% · 6m +13% · YTD -13%
-· TSLA -11% no dia a US$ 342,99: movimento de 4,8 desvios para uma vol de 20 dias de 39% a.a.
-  1m -9,9% · 6m -17% · YTD -24%
-· JPM -4,3% no dia a US$ 336,97: movimento de 3,3 desvios para uma vol de 20 dias de 21% a.a.
-  1m +1,7% · 6m +11% · YTD +6,6%
-· MELI34 -6,1% no dia a R$ 69,31: movimento de 4,3 desvios para uma vol de 20 dias de 23% a.a.
-  1m -10% · 6m -5,7% · YTD -25%
-· ETH -7,3% no dia a US$ 2.245: movimento de 3,5 desvios para uma vol de 20 dias de 34% a.a.
-  1m -17% · 6m -2,0% · YTD -24%
-Por que importa: acima de 3 desvios o movimento sai do ruído e costuma vir de fato novo ou fluxo forçado
-Como falar: 'o movimento de hoje é atípico para este papel; antes de mexer, saber o motivo'
-Fonte: Yahoo Finance fech. 05/11
-ids: T05-VWRA-queda-2026-11-05, T05-CSPX-queda-2026-11-05, T05-CNDX-queda-2026-11-05, T05-RBOT-queda-2026-11-05, T05-SPY-queda-2026-11-05, T05-BOTZ-queda-2026-11-05, T05-QNTM-queda-2026-11-05, T05-QANT-queda-2026-11-05, T05-QTUM-queda-2026-11-05, T05-PLTR-queda-2026-11-05, T05-TSLA-queda-2026-11-05, T05-JPM-queda-2026-11-05, T05-MELI34-queda-2026-11-05, T05-ETH-queda-2026-11-05
-
-(pendente de slot anterior) [ATENÇÃO] E03 · SBSP3 · Fato Relevante: A Companhia de Saneamento Básico do Estado de São Paulo – Sabesp (“Companhia” ou “Sabesp”) informa que, em reunião realizada nesta data , o Conselho…
-CVM · entregue 05/11/2026 19:22
-Do documento:
-  – Farão jus aos juros sobre o capital próprio ora creditados os acionistas que constarem da base acionária  da Companhia no final do pregão de 10 de novembro de 2026.
-  – As ações de emissão da Companhia  passarão a ser negociadas “ex -JCP” na B3 S.A. – Brasil, Bolsa, Balcão a partir de 11 de novembro de  2026 (inclusive).
-  – São Paulo, 05 de novembro de 2026.
-  – It will be paid until the date of  the Company's Ordinary General Meeting that approves the financial statements for the fiscal year  2026.
-  – Shareholders listed in the Company's shareholder base at the close of trading on November 10,  2026, will be entitled to the interest on shareholders' equity credited hereby.
-  – The Company's shares  will trade "ex -interest on equity" on B3 S.A. – Brasil, Bolsa, Balcão from November 11, 2026  (inclusive).
-Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1585100
-Por que importa: fato relevante e o que a propria companhia julga capaz de mover o preco; ler o documento inteiro antes de comentar
-Ativos: SBSP3
-Como falar: 'a Sabesp publicou fato relevante sobre A Companhia de Saneamento Básico do Estado de São Paulo – Sabesp (“Co…'
-Fonte: CVM 05/11
-ids: E03-SBSP3-1585100-2026-11-05
-
-(pendente de slot anterior) [ATENÇÃO] E03 · SBSP3 · Fato Relevante: A Companhia de Saneamento Básico do Estado de São Paulo – Sabesp (“Companhia” ou “Sabesp”) informa que, em reunião realizada nesta data , o Conselho…
-CVM · entregue 05/11/2026 18:44
-Do documento:
-  – Farão jus aos juros sobre o capital próprio ora creditados os acionistas que constarem da base acionária  da Companhia no final do pregão de 10 de novembro de 2026.
-  – As ações de emissão da Companhia  passarão a ser negociadas “ex -JCP” na B3 S.A. – Brasil, Bolsa, Balcão a partir de 11 de novembro de  2026 (inclusive).
-  – São Paulo, 05 de novembro de 2026.
-  – It will be paid until the date of the Company's Ordinary  General Meeting that approves the financial statements for the fiscal year 2026.
-  – Shareholders listed in the Company's shareholder base at the close of trading on November 10,  2026, will be entitled to the interest on shareholders' equity credited hereby.
-  – The Company's shares  will trade "ex -interest on equity" on B3 S.A. – Brasil, Bolsa, Balcão from November 11, 2026  (inclusive).
-Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1585041
-Por que importa: fato relevante e o que a propria companhia julga capaz de mover o preco; ler o documento inteiro antes de comentar
-Ativos: SBSP3
-Como falar: 'a Sabesp publicou fato relevante sobre A Companhia de Saneamento Básico do Estado de São Paulo – Sabesp (“Co…'
-Fonte: CVM 05/11
-ids: E03-SBSP3-1585041-2026-11-05
-
-(pendente de slot anterior) [ATENÇÃO] E03 · AXIA3 · Fato Relevante: O cancelamento d e registro perante a U.S.
-CVM · entregue 05/11/2026 18:02
-Do documento:
-  – Nos termos da Rule 12g3-2(b) do Exchange Act, a Companhia continuará publicando, em seu site de Relações  com Investidores (https://ri.axia.com.br/en/), as traduções para o inglês das informações divulgadas no Brasil.
-  – Securities and  Exchange Commission ("SEC") became effective as of this date.
-  – In addition,  its officers and directors are no longer subject to the beneficial ownership reporting requirements  under Section 16(a) of the Exchange Act.
-  – Pursuant to Rule 12g3-2(b) of the Exchange Act, the Company will continue to make available on its  Investor Relations website (https://ri.axia.com.br/en/ ) English translations of the information disclosed  in Brazil.
-  – The Company remains listed on B3's Novo Mercado segment, which represents the highest  corporate governance standards in the Brazilian capital market, and its American Depositary Receipts  ("ADRs") continue to be traded…
-Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1584807
-Por que importa: fato relevante e o que a propria companhia julga capaz de mover o preco; ler o documento inteiro antes de comentar
-Ativos: AXIA3
-Como falar: 'a Axia Energia publicou fato relevante sobre O cancelamento d e registro perante a U.S.'
-Fonte: CVM 05/11
-ids: E03-AXIA3-1584807-2026-11-05
-
-(pendente de slot anterior) [ATENÇÃO] E04 · MU · 8-K: 5.02 entrada ou saida de diretor ou conselheiro
-SEC EDGAR · aceito 05/11 18h33 · FORM 8-K
-Do documento:
-  – On November 2, 2026, Linnie M.
-  – Haynesworth notified the Governance and Sustainability Committee of the Board of Directors (the “Board”) of Micron Technology, Inc. (the “Company”) that she would retire from the Board and, accordingly, Ms.
-  – Haynesworth will not be nominated for re-election at the Company’s fiscal 2026 annual shareholders meeting (the “Annual Meeting”).
-  – Date: November 5, 2026   MICRON TECHNOLOGY, INC.
-Link: https://www.sec.gov/Archives/edgar/data/723125/000110465926123389/tm2629062d1_8k.htm
-Por que importa: troca de diretor ou conselheiro reabre a discussao de estrategia
-Ativos: MU
-Como falar: 'a MU protocolou 8-K na SEC (5.02 entrada ou saida de diretor ou conselheiro)'
-Fonte: SEC EDGAR 2026-11-05
-ids: E04-MU-26123389-2026-11-05
-
-(pendente de slot anterior) [ATENÇÃO] E05 · SBSP3 · Dividendos e JCPs: Sabesp (SBSP3) vai depositar R$ 2,6 bilhões — e ainda dá para aproveitar
-Seu Dinheiro · 05/11 19h58 · fonte única · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – O valor corresponde a R$ 0,75 por ação.
-  – Terão direito ao provento os investidores posicionados no papel até o fechamento do pregão de 10 de dezembro.
-  – A partir de 11 de dezembro, as ações passarão a ser negociadas na condição "ex-JCP", ou seja, sem direito ao pagamento.
-  – O pagamento será realizado até a data da Assembleia Geral Ordinária (AGO) que aprovar as demonstrações financeiras referentes ao exercício de 2026.
-  – A Sabesp registrou lucro líquido de R$ 1,388 bilhão, uma queda de 35,7% em relação ao mesmo período do ano anterior.
-  – Considerando os ajustes que excluem efeitos não recorrentes, o lucro foi de R$ 1,107 bilhão, recuo de 13,8%.
-Link: https://www.seudinheiro.com/2026/empresas/dividendos-e-jcps-sabesp-sbsp3-vai-depositar-r-26-bilhoes-e-ainda-da-para-aproveitar/
-Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
-Ativos: SBSP3
-Como falar: 'saiu no Seu Dinheiro: Dividendos e JCPs: Sabesp (SBSP3) vai depositar R$ 2,6 bilhões — e ainda dá para aproveit…; confirmar o número no texto antes de repassar'
-Fonte: Seu Dinheiro 05/11 19h58
-ids: E05-SBSP3-a1ef41c9a4-2026-11-05
-
-(pendente de slot anterior) [ATENÇÃO] E05 · SBSP3 · Sabesp (SBSP3) pagará R$ 2,6 bilhões em juros sobre capital próprio; veja como aproveitar
-Money Times · 05/11 19h46 · fonte única · licença: integral
-Do texto:
-  – Sabesp (SBSP3) pagará R$ 2,6 bilhões em juros sobre capital próprio; veja como aproveitar A Sabesp (SBSP3) aprovou R$ 2,6 bilhões em juros sobre o capital próprio, mostra documento enviado ao mercado nesta quinta-feira…
-  – Segundo o comunicado, o valor por ação será de R$ 0,75.
-  – Quem quiser aproveitar a bolada, terá até o dia 10 de dezembro para comprar o papel.
-  – A partir de 11 de dezembro a ação ficará ‘ex’.
-  – O pagamento ocorrerá até a data da realização da assembleia geral ordinária da companhia que aprovar as demonstrações financeiras do exercício social de 2026.
-  – Resultado da Sabesp Os dividendos ocorrem no dia que a empresa divulgou o seu resultado operacional do terceiro trimestre, com lucro líquido de R$ 1,388 bilhão, queda de 35,7%.
-Link: https://www.moneytimes.com.br/sabesp-sbsp3-pagara-r-26-bilhoes-em-juros-sobre-capital-proprio-veja-como-aproveitar-rnda/
-Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
-Ativos: SBSP3
-Como falar: 'saiu no Money Times: Sabesp (SBSP3) pagará R$ 2,6 bilhões em juros sobre capital próprio; veja como aproveitar; confirmar o número no texto antes de repassar'
-Fonte: Money Times 05/11 19h46
-ids: E05-SBSP3-2a95af43b4-2026-11-05
-
-(pendente de slot anterior) [ATENÇÃO] E05 · ALUP4 · Com R$ 10 bi para investir, Alupar não tem pressa por novos projetos
-UOL Economia · 05/11 19h45 · fonte única · licença: manchete
-Link: https://megawhat.uol.com.br/economia-e-politica/resultados/com-r-10-bi-para-investir-alupar-nao-tem-pressa-por-novos-projetos/
-Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
-Ativos: ALUP4
-Como falar: 'saiu no UOL Economia: Com R$ 10 bi para investir, Alupar não tem pressa por novos projetos; confirmar o número no texto antes de repassar'
-Fonte: UOL Economia 05/11 19h45
-ids: E05-ALUP4-2ab35d08bb-2026-11-05
+ALERTAS · eventos
 
 (pendente de slot anterior) [ATENÇÃO] E01 · DIRR3: resultado sai na próxima sessão (09/11)
 seg 09/11 · após o fechamento da B3 · estimado (config/calendario.yaml)
@@ -207,7 +59,7 @@ Como falar: 'saiu no Bloomberg: 3M Eyes Data Center Future After Latest Forever 
 Fonte: Bloomberg 06/11 12h00
 ids: E05-MMM-88982a5873-2026-11-06
 
-[ATENÇÃO] E05 · KLBN4 · Klabin (KLBN11): Safra corta preço-alvo e rebaixa recomendação diante de cenário mais desafiador
+(pendente de slot anterior) [ATENÇÃO] E05 · KLBN4 · Klabin (KLBN11): Safra corta preço-alvo e rebaixa recomendação diante de cenário mais desafiador
 Money Times · 06/11 16h12 · fonte única · licença: integral
 Do texto:
   – O banco também reduziu o preço-alvo dos papéis de R$ 21,40 para R$ 20,60 até o final de 2027.
@@ -221,10 +73,9 @@ Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais
 Ativos: KLBN4
 Como falar: 'saiu no Money Times: Klabin (KLBN11): Safra corta preço-alvo e rebaixa recomendação diante de cenário mais des…; confirmar o número no texto antes de repassar'
 Fonte: Money Times 06/11 16h12
-Push: intradia: 2 alertas de atenção — E05 KLBN4, E05 KO · detalhe na sessão
 ids: E05-KLBN4-9d1e0db35a-2026-11-06
 
-[ATENÇÃO] E05 · KO · If You Invested $300,000 in Coca-Cola, PepsiCo and Keurig Dr Pepper, Here’s What They’d Pay
+(pendente de slot anterior) [ATENÇÃO] E05 · KO · If You Invested $300,000 in Coca-Cola, PepsiCo and Keurig Dr Pepper, Here’s What They’d Pay
 Yahoo Finance · 06/11 09h37 · fonte única · licença: resumo
 Trechos (licença resumo: reescrever, não colar):
   – Quick Read - A $300,000 split across PepsiCo and Coca-Cola throws off roughly $8,860 a year in dividends, with PepsiCo's 4% yield leading the group.
@@ -240,31 +91,103 @@ Como falar: 'saiu no Yahoo Finance: If You Invested $300,000 in Coca-Cola, Pepsi
 Fonte: Yahoo Finance 06/11 09h37
 ids: E05-KO-423fc7b3fc-2026-11-06
 
+[ATENÇÃO] E03 · SBSP3 · Fato Relevante: A Companhia de Saneamento Básico do Estado de São Paulo – Sabesp (“Companhia” ou “Sabesp”) informa que, em reunião realizada nesta data , o Conselho…
+CVM · entregue 06/11/2026 18:00
+Do documento:
+  – Farão jus aos juros sobre o capital próprio ora creditados os acionistas que constarem da base acionária  da Companhia no final do pregão de 10 de novembro de 2026.
+  – As ações de emissão da Companhia  passarão a ser negociadas “ex -JCP” na B3 S.A. – Brasil, Bolsa, Balcão a partir de 11 de novembro de  2026 (inclusive).
+  – São Paulo, 05 de novembro de 2026.
+  – It will be paid until the date of  the Company's Ordinary General Meeting that approves the financial statements for the fiscal year  2026.
+  – Shareholders listed in the Company's shareholder base at the close of trading on November 10,  2026, will be entitled to the interest on shareholders' equity credited hereby.
+  – The Company's shares  will trade "ex -interest on equity" on B3 S.A. – Brasil, Bolsa, Balcão from November 11, 2026  (inclusive).
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1585623
+Por que importa: fato relevante e o que a propria companhia julga capaz de mover o preco; ler o documento inteiro antes de comentar
+Ativos: SBSP3
+Como falar: 'a Sabesp publicou fato relevante sobre A Companhia de Saneamento Básico do Estado de São Paulo – Sabesp (“Co…'
+Fonte: CVM 06/11
+Push: eventos: 4 alertas de atenção — E03 SBSP3, E05 ITUB4, E05 KLBN4, E05 AMZN · detalhe na sessão
+ids: E03-SBSP3-1585623-2026-11-06
+
+[ATENÇÃO] E05 · ITUB4 · Até o Itaú (ITUB4): UBS BB corta preço-alvo com piora do cenário
+Money Times · 06/11 19h36 · fonte única · licença: integral
+Do texto:
+  – Até o Itaú (ITUB4): UBS BB corta preço-alvo com piora do cenário O UBS BB reduziu o preço-alvo para as ações do Itaú Unibanco (ITUB4), mas manteve recomendação neutra para o papel após a divulgação dos resultados do ter…
+  – O índice de inadimplência acima de 90 dias subiu apenas 10 pontos-base no trimestre, para 2%, enquanto os indicadores de entrada em inadimplência e de créditos em estágio 3 apresentaram melhora.
+  – Além da qualidade dos ativos, a receita líquida de juros (NII) avançou 3% na comparação trimestral, beneficiada pela expansão das margens com clientes e com o mercado.
+  – Por isso, decidiu reduzir o preço-alvo, mantendo visão cautelosa para o papel em meio à piora das perspectivas macroeconômicas para 2027.
+  – Nos níveis atuais, o Itaú negocia a cerca de 2 vezes seu valor patrimonial estimado para 2027 e 7,5 vezes o lucro projetado para o período, múltiplos que, na avaliação dos analistas, já refletem boa parte da qualidade o…
+Link: https://www.moneytimes.com.br/ate-o-itau-itub4-ubs-bb-corta-preco-alvo-com-piora-do-cenario-rnda/
+Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
+Ativos: ITUB4
+Como falar: 'saiu no Money Times: Até o Itaú (ITUB4): UBS BB corta preço-alvo com piora do cenário; confirmar o número no texto antes de repassar'
+Fonte: Money Times 06/11 19h36
+ids: E05-ITUB4-2bf530f4d6-2026-11-06
+
+[ATENÇÃO] E05 · KLBN4 · Nem a celulose salva? Safra perde otimismo com Klabin (KLBN11) e rebaixa recomendação para neutra
+Seu Dinheiro · 06/11 18h00 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Mas, no caso da Klabin (KLBN11), ela pode não ser suficiente para garantir uma recuperação mais robusta dos resultados.
+  – O banco também cortou o preço-alvo de R$ 21,40 para R$ 20,60 até o fim de 2027.
+  – Considerando a cotação de R$ 18,08 utilizada no relatório, o novo alvo representa um potencial de valorização de 14%.
+  – Com os dividendos, o retorno total estimado chega a 21%.
+  – A projeção da Empapel de crescimento de 1,9% nos embarques de papelão ondulado em 2026 implica uma expansão de apenas 0,9% no segundo semestre, bem abaixo dos 3% registrados na primeira metade do ano.
+  – Leia Também Na avaliação do Safra, esse movimento indica um mercado interno menos aquecido e reduz a visibilidade de uma recuperação relevante dos volumes em 2027.
+Link: https://www.seudinheiro.com/2026/empresas/nem-a-celulose-salva-safra-perde-otimismo-com-klabin-klbn11-rebaixa-acao-e-corta-preco-alvo-pads/
+Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
+Ativos: KLBN4
+Como falar: 'saiu no Seu Dinheiro: Nem a celulose salva? Safra perde otimismo com Klabin (KLBN11) e rebaixa recomendação par…; confirmar o número no texto antes de repassar'
+Fonte: Seu Dinheiro 06/11 18h00
+ids: E05-KLBN4-3bb15f908f-2026-11-06
+
+[ATENÇÃO] E05 · AMZN · Did Amazon owe you a refund? You may qualify for part of a $300 million settlement.
+Yahoo Finance · 06/11 12h38 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Amazon customers who failed to receive refunds or were incorrectly charged for returned merchandise may be eligible for payments under a $309.5 million class-action settlement.
+  – The fund is part of a broader settlement that topped $1 billion.
+  – That total includes roughly $600 million in refunds that Amazon has already issued.
+  – What the Amazon returns settlement is about The settlement stems from a 2023 class action lawsuit that alleged Amazon failed to properly process refunds for returned products for nearly nine years.
+  – 12, 2026, and did not receive a refund, the refund was delayed or for an incorrect amount, or they received a refund and then were later incorrectly charged again for the returned product.
+  – A final settlement court hearing will be held on March 16, 2027.
+Link: https://finance.yahoo.com/personal-finance/banking/article/did-amazon-owe-you-a-refund-you-may-qualify-for-part-of-a-300-million-settlement-153810924.html
+Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e prazo
+Ativos: AMZN
+Como falar: 'saiu no Yahoo Finance: Did Amazon owe you a refund? You may qualify for part of a $300 million settlement.; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 06/11 12h38
+ids: E05-AMZN-0bc349f540-2026-11-06
+
 Info (só linha no Fechamento):
-· F03 Brent sobe a US$ 98,40 (-13% em 5 sessões) (parcial, intradia)
-· E05 PETR4 · Petrobras perde quase R$ 200 bilhões em valor de mercado e caminha para pior semana desde 2021
-· E05 AMD · Intel and AMD in Focus as Tech Stocks Seek Rebound
-· E05 USDBRL · Ibovespa sobe e dólar estabiliza com emprego nos EUA e política econômica
-· E05 LITE · Lumentum Stocks Rise 4.38% as AI Optics Rebound Builds on $5 Billion Design Win
-· E05 COHR · Coherent rebounds 14% after steep AI selloff (COHR:NYSE)
-· E05 BTC · Elliptic says Binance hackers swapped stolen tokens for $124M in bitcoin, exchange plans more withdrawal reopenings
-· E05 BTC · Bitcoin Under $76,000 After $430M ETF Outflows. Has It Bottomed?
-· E05 PETR4 · Petrobras cai mais de 20% em 2 semanas após eleições no Brasil e nos EUA: tese mudou?
-· E05 AMD · AMD: This Selloff Isn't Enough (Downgrade) (NASDAQ:AMD)
-· E05 BTC · Bitcoin price dips under $75K as crypto markets miss tech-stock rebound
-· E05 UST · Treasury Yields Rise on Strong Jobs Data
-· E05 NVDA · Nvidia, Intel, Tesla, AMD, Coherent, Lam Research, Moderna, and More Stocks That Explain Today’s Market
-· E05 NVDA · Forget Nvidia. Here’s the Company Behind the Chips
+· E03 KLBN4 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
+· E03 VALE3 · Comunicado ao Mercado: Apresentações a analistas/agentes do mercado
+· E03 VALE3 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
+· E03 DIRR3 · Participação relevante: Absolute Gestão de Investimentos LTDA. passou a ter participação relevante
+· E05 MU · Stock Market Today, Nov. 6: Micron Technology Jumps as Chip Stocks Rebound From Thursday's Rout
+· E05 BTC · Weekly Wrap: Bitcoin Falls as U.S. Market Crashes
+· E05 MELI34 · 11.11 no Mercado Livre: como conferir cupons, entrega e pagamento
+· E05 CVX · Compared to Estimates, Chevron (CVX) Q3 Earnings: A Look at Key Metrics
+· E05 USDBRL · Dólar sobe para R$ 5,51, com dados de emprego nos EUA
+· E05 USDBRL · Ibovespa fecha com ganhos e tem primeira semana positiva depois de três; dólar sobe
+· E05 BTC · Bitcoin Price Prediction: Where Will BTC Be by 2028?
+· E05 AMD · Advanced Micro Devices (AMD) Joined A Quantum Error Correction Platform Launch
+· E05 ITUB4 · Ibovespa avança mais de 1% com Vale e Itaú, enquanto dólar sobe a R$ 5,50
+· E05 AVGO · Broadcom's AI Revenue Is Exploding. Here's What Investors Should Watch Next.
+· E05 MU · Micron’s stock is dirt cheap — and that’s igniting a fierce online debate
+· E05 ETH · Bitwise Ethereum ETF 3Q 2026: Net income $115.2M — 10-Q Summary
+· E05 MU · Micron: The Story Is Far From Being Over (Rating Upgrade) (NASDAQ:MU)
+· E05 USDBRL · Dólar fecha no maior nível de 2026 com ajuda do payroll; na semana, alta foi de 1,18%
 
 
 Alertas do dia (todos, com status):
+· pendente  E03 SBSP3 — SBSP3 · Fato Relevante: A Companhia de Saneamento Básico do Estado de São Paulo 
+· pendente  E05 ITUB4 — ITUB4 · Até o Itaú (ITUB4): UBS BB corta preço-alvo com piora do cenário
+· pendente  E05 KLBN4 — KLBN4 · Nem a celulose salva? Safra perde otimismo com Klabin (KLBN11) e rebaixa
+· pendente  E05 AMZN — AMZN · Did Amazon owe you a refund? You may qualify for part of a $300 million s
 · pendente  E05 KLBN4 — KLBN4 · Klabin (KLBN11): Safra corta preço-alvo e rebaixa recomendação diante de
 · pendente  E05 KO — KO · If You Invested $300,000 in Coca-Cola, PepsiCo and Keurig Dr Pepper, Here’s
-· pendente  E01 DIRR3 — DIRR3: resultado sai na próxima sessão (09/11)
-· pendente  M01 MACRO — Agenda: Payroll de outubro (BLS) hoje às 10:30 (06/11)
-· pendente  E05 USDBRL — USDBRL · XP reduz projeção do PIB a 0,3% em 2027; dólar vai a R$ 5,50 e Selic fi
-· pendente  E05 BTC — BTC · Did Binance’s $6.3 Billion Crypto Hack Just Expose an Even Bigger Risk for
-· pendente  E05 MMM — MMM · 3M Eyes Data Center Future After Latest Forever Chemicals Settlement
+· expirado  E01 DIRR3 — DIRR3: resultado sai na próxima sessão (09/11)
+· expirado  M01 MACRO — Agenda: Payroll de outubro (BLS) hoje às 10:30 (06/11)
+· expirado  E05 USDBRL — USDBRL · XP reduz projeção do PIB a 0,3% em 2027; dólar vai a R$ 5,50 e Selic fi
+· expirado  E05 BTC — BTC · Did Binance’s $6.3 Billion Crypto Hack Just Expose an Even Bigger Risk for
+· expirado  E05 MMM — MMM · 3M Eyes Data Center Future After Latest Forever Chemicals Settlement
 · linha     F03 BRENT — Brent sobe a US$ 98,40 (-13% em 5 sessões) (parcial, intradia)
 · linha     F03 BRENT — Brent cai a US$ 97,29 (-14% em 5 sessões) (parcial, intradia)
-· (+41 notícias só manchete, em noticias.md)
+· (+59 notícias só manchete, em noticias.md)

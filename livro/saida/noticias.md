@@ -1,8 +1,62 @@
-NOTÍCIAS E FATOS · 06/11 16h54
+NOTÍCIAS E FATOS · 06/11 21h01
 
-Pernas: noticias ok 15 novas (18 consultas; descartadas: 419 veículo fora da lista, 27 sem ativo, 12 teto) · cvm ok 0 novos de 22 (6 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 17 novas (18 consultas; descartadas: 415 veículo fora da lista, 28 sem ativo, 35 teto) · cvm ok 5 novos de 27 (8 cias casadas) · sec ok 0 novos em 3 dias
 
-## FATOS RELEVANTES E COMUNICADOS (CVM) (1)
+## FATOS RELEVANTES E COMUNICADOS (CVM) (6)
+
+[ATENÇÃO] E03 · SBSP3 · Fato Relevante: A Companhia de Saneamento Básico do Estado de São Paulo – Sabesp (“Companhia” ou “Sabesp”) informa que, em reunião realizada nesta data , o Conselho…
+CVM · entregue 06/11/2026 18:00
+Do documento:
+  – Farão jus aos juros sobre o capital próprio ora creditados os acionistas que constarem da base acionária  da Companhia no final do pregão de 10 de novembro de 2026.
+  – As ações de emissão da Companhia  passarão a ser negociadas “ex -JCP” na B3 S.A. – Brasil, Bolsa, Balcão a partir de 11 de novembro de  2026 (inclusive).
+  – São Paulo, 05 de novembro de 2026.
+  – It will be paid until the date of  the Company's Ordinary General Meeting that approves the financial statements for the fiscal year  2026.
+  – Shareholders listed in the Company's shareholder base at the close of trading on November 10,  2026, will be entitled to the interest on shareholders' equity credited hereby.
+  – The Company's shares  will trade "ex -interest on equity" on B3 S.A. – Brasil, Bolsa, Balcão from November 11, 2026  (inclusive).
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1585623
+Por que importa: fato relevante e o que a propria companhia julga capaz de mover o preco; ler o documento inteiro antes de comentar
+Ativos: SBSP3
+Como falar: 'a Sabesp publicou fato relevante sobre A Companhia de Saneamento Básico do Estado de São Paulo – Sabesp (“Co…'
+Fonte: CVM 06/11
+id: E03-SBSP3-1585623-2026-11-06 · status: pendente · íntegra disponível
+
+[INFO] E03 · KLBN4 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
+CVM · entregue 06/11/2026 20:10 · Outros Comunicados Não Considerados Fatos Relevantes
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1585868
+Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; confirma ou nega o que circula
+Ativos: KLBN4
+Como falar: 'a Klabin publicou comunicado ao mercado sobre Outros Comunicados Não Considerados Fatos Relevantes'
+Fonte: CVM 06/11
+id: E03-KLBN4-1585868-2026-11-06 · status: linha
+
+[INFO] E03 · VALE3 · Comunicado ao Mercado: Apresentações a analistas/agentes do mercado
+CVM · entregue 06/11/2026 19:31 · Apresentações a analistas/agentes do mercado
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1585807
+Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; confirma ou nega o que circula
+Ativos: VALE3
+Como falar: 'a Vale publicou comunicado ao mercado sobre Apresentações a analistas/agentes do mercado'
+Fonte: CVM 06/11
+id: E03-VALE3-1585807-2026-11-06 · status: linha
+
+[INFO] E03 · VALE3 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
+CVM · entregue 06/11/2026 18:55 · Outros Comunicados Não Considerados Fatos Relevantes
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1585790
+Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; confirma ou nega o que circula
+Ativos: VALE3
+Como falar: 'a Vale publicou comunicado ao mercado sobre Outros Comunicados Não Considerados Fatos Relevantes'
+Fonte: CVM 06/11
+id: E03-VALE3-1585790-2026-11-06 · status: linha
+
+[INFO] E03 · DIRR3 · Participação relevante: Absolute Gestão de Investimentos LTDA. passou a ter participação relevante
+CVM · entregue 06/11/2026 18:01 · Aquisição/Alienação de Participação Acionária Relevante / Declaração de Aquisição de Participação Acionária Relevante
+Do documento:
+  – Belo Horizonte, November 6, 2026    Paulo Henrique Martins de Sousa  CFO and IR Officer                                                    TEXT - 52579528v1 6947.34
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1585628
+Por que importa: quem cruza 5% de uma companhia tem de avisar (Resolução CVM 44, art. 12); o fluxo de compra ou venda já aconteceu, não no dia do aviso
+Ativos: DIRR3
+Como falar: 'Absolute Gestão de Investimentos LTDA. passou a ter participação relevante na Direcional Engenharia; é aviso de participação, não fato relevante'
+Fonte: CVM 06/11
+id: E03-DIRR3-1585628-2026-11-06 · status: linha · íntegra disponível
 
 [INFO] E03 · ALUP4 · Comunicado ao Mercado: Apresentações a analistas/agentes do mercado
 CVM · entregue 06/11/2026 09:18 · Apresentações a analistas/agentes do mercado
@@ -29,7 +83,54 @@ Fonte: SEC EDGAR 2026-11-06
 id: E04-BABA-26123545-2026-11-06 · status: linha · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (9)
+## NOTÍCIAS COM MATERIALIDADE (12)
+
+[ATENÇÃO] E05 · ITUB4 · Até o Itaú (ITUB4): UBS BB corta preço-alvo com piora do cenário
+Money Times · 06/11 19h36 · fonte única · licença: integral
+Do texto:
+  – Até o Itaú (ITUB4): UBS BB corta preço-alvo com piora do cenário O UBS BB reduziu o preço-alvo para as ações do Itaú Unibanco (ITUB4), mas manteve recomendação neutra para o papel após a divulgação dos resultados do ter…
+  – O índice de inadimplência acima de 90 dias subiu apenas 10 pontos-base no trimestre, para 2%, enquanto os indicadores de entrada em inadimplência e de créditos em estágio 3 apresentaram melhora.
+  – Além da qualidade dos ativos, a receita líquida de juros (NII) avançou 3% na comparação trimestral, beneficiada pela expansão das margens com clientes e com o mercado.
+  – Por isso, decidiu reduzir o preço-alvo, mantendo visão cautelosa para o papel em meio à piora das perspectivas macroeconômicas para 2027.
+  – Nos níveis atuais, o Itaú negocia a cerca de 2 vezes seu valor patrimonial estimado para 2027 e 7,5 vezes o lucro projetado para o período, múltiplos que, na avaliação dos analistas, já refletem boa parte da qualidade o…
+Link: https://www.moneytimes.com.br/ate-o-itau-itub4-ubs-bb-corta-preco-alvo-com-piora-do-cenario-rnda/
+Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
+Ativos: ITUB4
+Como falar: 'saiu no Money Times: Até o Itaú (ITUB4): UBS BB corta preço-alvo com piora do cenário; confirmar o número no texto antes de repassar'
+Fonte: Money Times 06/11 19h36
+id: E05-ITUB4-2bf530f4d6-2026-11-06 · status: pendente · íntegra disponível
+
+[ATENÇÃO] E05 · KLBN4 · Nem a celulose salva? Safra perde otimismo com Klabin (KLBN11) e rebaixa recomendação para neutra
+Seu Dinheiro · 06/11 18h00 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Mas, no caso da Klabin (KLBN11), ela pode não ser suficiente para garantir uma recuperação mais robusta dos resultados.
+  – O banco também cortou o preço-alvo de R$ 21,40 para R$ 20,60 até o fim de 2027.
+  – Considerando a cotação de R$ 18,08 utilizada no relatório, o novo alvo representa um potencial de valorização de 14%.
+  – Com os dividendos, o retorno total estimado chega a 21%.
+  – A projeção da Empapel de crescimento de 1,9% nos embarques de papelão ondulado em 2026 implica uma expansão de apenas 0,9% no segundo semestre, bem abaixo dos 3% registrados na primeira metade do ano.
+  – Leia Também Na avaliação do Safra, esse movimento indica um mercado interno menos aquecido e reduz a visibilidade de uma recuperação relevante dos volumes em 2027.
+Link: https://www.seudinheiro.com/2026/empresas/nem-a-celulose-salva-safra-perde-otimismo-com-klabin-klbn11-rebaixa-acao-e-corta-preco-alvo-pads/
+Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
+Ativos: KLBN4
+Como falar: 'saiu no Seu Dinheiro: Nem a celulose salva? Safra perde otimismo com Klabin (KLBN11) e rebaixa recomendação par…; confirmar o número no texto antes de repassar'
+Fonte: Seu Dinheiro 06/11 18h00
+id: E05-KLBN4-3bb15f908f-2026-11-06 · status: pendente
+
+[ATENÇÃO] E05 · AMZN · Did Amazon owe you a refund? You may qualify for part of a $300 million settlement.
+Yahoo Finance · 06/11 12h38 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Amazon customers who failed to receive refunds or were incorrectly charged for returned merchandise may be eligible for payments under a $309.5 million class-action settlement.
+  – The fund is part of a broader settlement that topped $1 billion.
+  – That total includes roughly $600 million in refunds that Amazon has already issued.
+  – What the Amazon returns settlement is about The settlement stems from a 2023 class action lawsuit that alleged Amazon failed to properly process refunds for returned products for nearly nine years.
+  – 12, 2026, and did not receive a refund, the refund was delayed or for an incorrect amount, or they received a refund and then were later incorrectly charged again for the returned product.
+  – A final settlement court hearing will be held on March 16, 2027.
+Link: https://finance.yahoo.com/personal-finance/banking/article/did-amazon-owe-you-a-refund-you-may-qualify-for-part-of-a-300-million-settlement-153810924.html
+Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e prazo
+Ativos: AMZN
+Como falar: 'saiu no Yahoo Finance: Did Amazon owe you a refund? You may qualify for part of a $300 million settlement.; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 06/11 12h38
+id: E05-AMZN-0bc349f540-2026-11-06 · status: pendente
 
 [ATENÇÃO] E05 · KLBN4 · Klabin (KLBN11): Safra corta preço-alvo e rebaixa recomendação diante de cenário mais desafiador
 Money Times · 06/11 16h12 · fonte única · licença: integral
@@ -77,7 +178,7 @@ Por que importa: decisao de politica monetaria reprecifica toda a curva e o camb
 Ativos: USDBRL · DI
 Como falar: 'saiu no InfoMoney: XP reduz projeção do PIB a 0,3% em 2027; dólar vai a R$ 5,50 e Selic fica em 13,75%; confirmar o número no texto antes de repassar'
 Fonte: InfoMoney 06/11 14h00
-id: E05-USDBRL-8eae89e07c-2026-11-06 · status: pendente
+id: E05-USDBRL-8eae89e07c-2026-11-06 · status: expirado
 
 [ATENÇÃO] E05 · BTC · Did Binance’s $6.3 Billion Crypto Hack Just Expose an Even Bigger Risk for Bitcoin Investors?
 Yahoo Finance · 06/11 13h52 · fonte única · licença: resumo
@@ -93,7 +194,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: BTC
 Como falar: 'saiu no Yahoo Finance: Did Binance’s $6.3 Billion Crypto Hack Just Expose an Even Bigger Risk for Bitcoin Invest…; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 06/11 13h52
-id: E05-BTC-c88669191d-2026-11-06 · status: pendente
+id: E05-BTC-c88669191d-2026-11-06 · status: expirado
 
 [ATENÇÃO] E05 · MMM · 3M Eyes Data Center Future After Latest Forever Chemicals Settlement
 Bloomberg · 06/11 12h00 · fonte única · licença: manchete
@@ -102,7 +203,7 @@ Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e 
 Ativos: MMM
 Como falar: 'saiu no Bloomberg: 3M Eyes Data Center Future After Latest Forever Chemicals Settlement; confirmar o número no texto antes de repassar'
 Fonte: Bloomberg 06/11 12h00
-id: E05-MMM-88982a5873-2026-11-06 · status: pendente
+id: E05-MMM-88982a5873-2026-11-06 · status: expirado
 
 [ATENÇÃO] E05 · ALUP4 · Alupar tem queda de 72,7% no lucro do 3T26 e aprova R$ 69,2 milhões em dividendos
 ADVFN · 06/11 11h36 · fonte única · licença: manchete
@@ -155,8 +256,22 @@ Fonte: CNN Brasil 06/11 04h30
 id: E05-ALUP4-ff6c54242e-2026-11-06 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (31)
+## OUTRAS NOTÍCIAS (só manchete) (45)
 
+· MU Stock Market Today, Nov. 6: Micron Technology Jumps as Chip Stocks Rebound From Thursday's Rout (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/stock-market-today-nov-6-225615856.html
+· BTC Weekly Wrap: Bitcoin Falls as U.S. Market Crashes (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/weekly-wrap-bitcoin-falls-u-225000991.html
+· MELI34 11.11 no Mercado Livre: como conferir cupons, entrega e pagamento (Exame) https://exame.com/tecnologia/examelab/11-11-mercado-livre-cupons-entrega-pagamento/
+· CVX Compared to Estimates, Chevron (CVX) Q3 Earnings: A Look at Key Metrics (Yahoo Finance) https://sg.finance.yahoo.com/news/compared-estimates-chevron-cvx-q3-223002474.html
+· USDBRL Dólar sobe para R$ 5,51, com dados de emprego nos EUA (Agencia Brasil) https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/dolar-sobe-para-r-551-com-dados-de-emprego-nos-eua
+· USDBRL Ibovespa fecha com ganhos e tem primeira semana positiva depois de três; dólar sobe (InfoMoney) https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-06112026/
+· BTC Bitcoin Price Prediction: Where Will BTC Be by 2028? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-price-prediction-where-btc-212311087.html
+· AMD Advanced Micro Devices (AMD) Joined A Quantum Error Correction Platform Launch (Yahoo Finance) https://sg.finance.yahoo.com/news/advanced-micro-devices-amd-joined-211815190.html
+· ITUB4 Ibovespa avança mais de 1% com Vale e Itaú, enquanto dólar sobe a R$ 5,50 (UOL Economia) https://economia.uol.com.br/cotacoes/noticias/redacao/2026/11/06/ibovespa-avanca-mais-de-1-com-vale-e-itau-enquanto-dolar-sobe-a-r-550.ghtm
+· AVGO Broadcom's AI Revenue Is Exploding. Here's What Investors Should Watch Next. (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/broadcoms-ai-revenue-exploding-heres-210500897.html
+· MU Micron’s stock is dirt cheap — and that’s igniting a fierce online debate (MarketWatch) https://www.marketwatch.com/story/microns-stock-is-dirt-cheap-and-thats-igniting-a-fierce-online-debate-0626791d
+· ETH Bitwise Ethereum ETF 3Q 2026: Net income $115.2M — 10-Q Summary (TradingView (Reuters)) https://news.google.com/rss/articles/CBMi1wFBVV95cUxNYkxvRmJVYjB2aW1wQXVSSEI5RjkyVmFTZ3o2endrYjA5eklfcm5YVExGSm81UGNlWXlGWm5SX3g5SFFCc0FYXzcxZHlHSUxhTEplLVpua2Z2VmhmUm9XQk04QTlnWHpwVXlBelJKNU91d01uTGlRWm5wVUJQbHJ4VWcta3hPTlhuRzdyOE51TkcxdTF5VVVkeXhoMC1KNnpOcVJNZ0JOTWNWUFplOFBDOVFmUkZuV1N1NlBLalE0UTQ2bndobVh3al82QnN6cUd2TkZvV0lCOA?oc=5
+· MU Micron: The Story Is Far From Being Over (Rating Upgrade) (NASDAQ:MU) (Seeking Alpha) https://news.google.com/rss/articles/CBMimwFBVV95cUxNemJXRTFaTG9RSlN2NzZmcG1XQkNvd09oOU1LbXNSMi1IS0FvR2pGbHppdFc5TVlacUlGUDFYQm1hc09EZHdhZGdkQzNUQ2FMYlBuRTFuM0FtejZuSGxYaEdVc2tMa2xEdmhPb2s5UFJqQTE1eTFpZEF1eVg0d1psWUh5SUE4UEFXMFVmcnJfS3YtNUFwSFFUVFUtNA?oc=5
+· USDBRL Dólar fecha no maior nível de 2026 com ajuda do payroll; na semana, alta foi de 1,18% (Money Times) https://news.google.com/rss/articles/CBMiYkFVX3lxTE5CT1ljQllkYlIzUjhIZjFFTlZNNUdvRHJVV0VMZEFEUmIzN3lGM1BmLUI4Tk9ya2ZjcFljaUxEM01vYkxKcmZSN3NWaWJ4Q3NCa2dXYmJ0WnB0a1FWY2lCMWhR?oc=5
 · PETR4 Petrobras perde quase R$ 200 bilhões em valor de mercado e caminha para pior semana desde 2021 (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/petrobras-perde-quase-r-200-bilhoes-em-valor-de-mercado-e-caminha-para-pior-semana-desde-2021/
 · AMD Intel and AMD in Focus as Tech Stocks Seek Rebound (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:3138fb66a094b:0-intel-and-amd-in-focus-as-tech-stocks-seek-rebound/
 · USDBRL Ibovespa sobe e dólar estabiliza com emprego nos EUA e política econômica (CNN Brasil) https://www.cnnbrasil.com.br/economia/money/mercado/mercado-financeiro-ibovespa-dolar-6-novembro-2026/
