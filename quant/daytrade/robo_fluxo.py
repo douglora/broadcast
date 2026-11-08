@@ -118,6 +118,22 @@ def metatrader_aberto():
     return subprocess.run(["pgrep", "-f", r"MetaTrader 5\\terminal64\.exe"], capture_output=True).returncode == 0
 
 
+VIGIA_MT5_ESTADO = os.path.expanduser("~/.autopilot/mt5_vigia_estado")
+
+
+def vigia_mt5_cuidando():
+    """07/11/2026: o vigia do MetaTrader (agente br.autopilot.mt5-acordado) passou a religar a XP pela saude lida do motor do terminal
+    (/vivo/mt5_vigia). Quando ele esta vivo (estado gravado ha menos de 60 s) e enxerga a saude (motor com a rota), o robo NAO fecha o
+    MetaTrader por conta propria: dois programas religando o mesmo terminal foi a receita da orfa de 14/10. Sem o vigia, ou com o motor
+    antigo (saude=sem_saude), a regra do robo continua valendo como antes."""
+    try:
+        with open(VIGIA_MT5_ESTADO) as f:
+            v = dict(l.rstrip("\n").split("=", 1) for l in f if "=" in l)
+        return time.time() - float(v.get("hora", 0)) < 60 and v.get("saude", "sem_saude") not in ("sem_saude", "fora:sem_saude")
+    except (OSError, ValueError):
+        return False
+
+
 def reabrir_metatrader():
     from quant.daytrade.ligar_fita import _reabrir_metatrader
     try:
@@ -385,6 +401,7 @@ class RoboFluxo:
         self.ultima_fita = 0.0                                   # relogio da ultima linha de fita recebida
         self.cot, self.feed, self.feed_em, self.livro = {}, {}, 0.0, {}
         self.feed_visto, self.feed_ruim, self.reconectou_em, self.reconexoes = 0.0, 0, 0.0, 0
+        self.vigia_cuida_avisado = None                          # dia em que o robo anotou que o vigia do MetaTrader e quem religa
         self.vigia_em, self.acordou_em = time.time(), 0.0        # para saber quando o Mac dormiu (tampa fechada) e acabou de acordar
         self.vigia_mono, self.ultima_pausa = time.monotonic(), None  # relogio que nao anda com o Mac dormindo; "sono" ou "trava"
         self.sono = []                                           # (inicio, fim) em epoch de cada vez que o robo ficou parado com o Mac dormindo
@@ -819,6 +836,15 @@ class RoboFluxo:
         atraso_conta = not (FEED_RUIM["abertura_b3"][0] <= hm < FEED_RUIM["abertura_b3"][1]
                             or (self.reconectou_em and time.time() - self.reconectou_em < FEED_RUIM["carencia_reabrir_s"]))
         ruim = (f.get("sem_tique_s") or 0) >= FEED_RUIM["sem_tique_s"] or (atraso_conta and (f.get("atraso_ms") or 0) >= FEED_RUIM["atraso_ms"])
+        if ruim and vigia_mt5_cuidando():
+            # 07/11/2026: o vigia do MetaTrader esta vivo e ve a saude: e ele quem religa (espera crescente, protecao da abertura,
+            # wineserver quando precisa). O robo anota uma vez por dia e nao fecha o terminal.
+            self.feed_ruim = 0
+            if self.vigia_cuida_avisado != agora.date():
+                self.vigia_cuida_avisado = agora.date()
+                self.anotar("feed", f"Cotações do MetaTrader ruins (último tique há {f.get('sem_tique_s') or 0:.0f} s); o vigia do "
+                            "MetaTrader está cuidando da religada, o robô não fecha o terminal por conta própria.", agora)
+            return False
         self.feed_ruim = self.feed_ruim + 1 if ruim else 0
         if self.feed_ruim < FEED_RUIM["leituras"] or time.time() - self.reconectou_em < FEED_RUIM["espera_s"] \
                 or self.reconexoes >= FEED_RUIM["max_por_dia"] or not metatrader_aberto():
