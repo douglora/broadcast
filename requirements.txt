@@ -4,3 +4,4 @@ flask>=3.0
 flask-cors>=4.0
 requests>=2.31
 feedparser>=6.0
+pypdf>=4.0  # ferramentas/local/contador_bolsa (notas de corretagem e de aluguel em PDF)

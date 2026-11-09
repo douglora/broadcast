@@ -1834,19 +1834,35 @@ def skills():
     except Exception as e:
         print(f"  FALTA   ri_fontes.py: {e}")
         ok = False
-    # mesa de asset allocation (so no Mac do Douglas): skill global fixa + motor em ferramentas/local/alocacao/
+    # mesa de asset allocation, contador, planejamento e contador de bolsa (so no Mac do Douglas): skills globais
+    # fixas + motor em ferramentas/local/alocacao/ e ferramentas/local/irbolsa.py
     if os.path.exists(os.path.join(AQUI, "ferramentas", "local", "alocar.py")):
-        sk = os.path.expanduser("~/.claude/skills/asset-allocation/SKILL.md")
-        if not os.path.exists(sk):
-            print("  FALTA   asset-allocation/SKILL.md (skill global em ~/.claude/skills)")
-            ok = False
-        else:
-            texto = open(sk, encoding="utf-8").read()
-            if re.match(r"---\nname:\s*asset-allocation\n", texto) and re.search(r"^description:", texto, re.M):
-                print(f"  ok      asset-allocation/SKILL.md (global)  {len(texto.split(chr(10)))} linhas; motor alocar.py")
-            else:
-                print("  INVALIDA asset-allocation/SKILL.md: frontmatter sem name ou description")
+        for nome, motor in (("asset-allocation", "motor alocar.py"), ("contador", "motor alocar.py holding"),
+                            ("planejamentofinanceiro", "motor alocar.py relatorio --juros"),
+                            ("contador-bolsa", "motor irbolsa.py (DARF e relatorio mensal)")):
+            sk = os.path.expanduser(f"~/.claude/skills/{nome}/SKILL.md")
+            if not os.path.exists(sk):
+                print(f"  FALTA   {nome}/SKILL.md (skill global em ~/.claude/skills)")
                 ok = False
+                continue
+            texto = open(sk, encoding="utf-8").read()
+            if not (re.match(rf"---\nname:\s*{nome}\n", texto) and re.search(r"^description:", texto, re.M)):
+                print(f"  INVALIDA {nome}/SKILL.md: frontmatter sem name ou description")
+                ok = False
+            elif nome in ("contador", "contador-bolsa") and not os.path.exists(
+                    os.path.join(os.path.dirname(sk), "REGRAS.md")):
+                print(f"  FALTA   {nome}/REGRAS.md (regras lidas no texto oficial)")
+                ok = False
+            elif nome == "contador-bolsa" and not os.path.exists(
+                    os.path.join(AQUI, "ferramentas", "local", "irbolsa.py")):
+                print("  FALTA   ferramentas/local/irbolsa.py (motor do contador de bolsa)")
+                ok = False
+            elif nome == "planejamentofinanceiro" and not os.path.exists(
+                    os.path.join(os.path.dirname(sk), "scripts", "conferir_pdf.py")):
+                print("  FALTA   planejamentofinanceiro/scripts/conferir_pdf.py (conferencia do PDF)")
+                ok = False
+            else:
+                print(f"  ok      {nome}/SKILL.md (global)  {len(texto.split(chr(10)))} linhas; {motor}")
     print("\n" + ("TUDO OPERANDO" if ok else "HA PENDENCIA ACIMA"))
     return 0 if ok else 1
 
