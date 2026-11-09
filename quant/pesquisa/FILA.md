@@ -71,6 +71,9 @@ metodo em quant/saida/pesquisa5/BRIEF.md) e move a linha para "Testadas" com os 
 - 03/11/2026, tarde: nenhuma hipotese testavel; 7, 8, 9, 10, 12, 14, 15 e 16 seguem esperando dado novo ou sao prova viva. Nao ha item "[revisao: ...]"
   aberto. Prova viva rodou: indice fim do dia original 13 negocios (+R$ 84, t 2,0), variante adaptativa 13 (-R$ 59), abaixo de 60. Nenhuma tentativa nova (METODO: parar em vez de forcar).
 
+- 09/11/2026, tarde: nenhuma hipotese testavel; 7, 8, 9, 10, 12, 14, 15 e 16 seguem esperando dado novo ou sao prova viva. Nao ha item "[revisao: ...]"
+  aberto. Prova viva rodou: indice fim do dia original 17 negocios (+R$ 88, t 2,2), variante adaptativa 17 (-R$ 63), abaixo de 60. Nenhuma tentativa nova (METODO: parar em vez de forcar).
+
 (08/10/2026) Sete frentes, mais de 12 mil medicoes: ver quant/estudos/LEIA.md. Passou so a reversao do dado americano.
 
 (09/10/2026) Segunda rodada, com os dados da B3 e do Banco Central (quant/saida/pesquisa5/BRIEF_B3.md; notas em
