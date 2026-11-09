@@ -7,69 +7,6 @@ Como falar: 'a marcação a mercado veio a favor; o rendimento contratado segue 
 Fonte: Tesouro Transparente, base 06/11
 ids: C05-TESOURO-fechou-2026-11-06
 
-(pendente de slot anterior) [ATENÇÃO] E03 · SBSP3 · Fato Relevante: A Companhia de Saneamento Básico do Estado de São Paulo – Sabesp (“Companhia” ou “Sabesp”) informa que, em reunião realizada nesta data , o Conselho…
-CVM · entregue 06/11/2026 18:00
-Do documento:
-  – Farão jus aos juros sobre o capital próprio ora creditados os acionistas que constarem da base acionária  da Companhia no final do pregão de 10 de novembro de 2026.
-  – As ações de emissão da Companhia  passarão a ser negociadas “ex -JCP” na B3 S.A. – Brasil, Bolsa, Balcão a partir de 11 de novembro de  2026 (inclusive).
-  – São Paulo, 05 de novembro de 2026.
-  – It will be paid until the date of  the Company's Ordinary General Meeting that approves the financial statements for the fiscal year  2026.
-  – Shareholders listed in the Company's shareholder base at the close of trading on November 10,  2026, will be entitled to the interest on shareholders' equity credited hereby.
-  – The Company's shares  will trade "ex -interest on equity" on B3 S.A. – Brasil, Bolsa, Balcão from November 11, 2026  (inclusive).
-Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1585623
-Por que importa: fato relevante e o que a propria companhia julga capaz de mover o preco; ler o documento inteiro antes de comentar
-Ativos: SBSP3
-Como falar: 'a Sabesp publicou fato relevante sobre A Companhia de Saneamento Básico do Estado de São Paulo – Sabesp (“Co…'
-Fonte: CVM 06/11
-ids: E03-SBSP3-1585623-2026-11-06
-
-(pendente de slot anterior) [ATENÇÃO] E05 · ITUB4 · Até o Itaú (ITUB4): UBS BB corta preço-alvo com piora do cenário
-Money Times · 06/11 19h36 · fonte única · licença: integral
-Do texto:
-  – Até o Itaú (ITUB4): UBS BB corta preço-alvo com piora do cenário O UBS BB reduziu o preço-alvo para as ações do Itaú Unibanco (ITUB4), mas manteve recomendação neutra para o papel após a divulgação dos resultados do ter…
-  – O índice de inadimplência acima de 90 dias subiu apenas 10 pontos-base no trimestre, para 2%, enquanto os indicadores de entrada em inadimplência e de créditos em estágio 3 apresentaram melhora.
-  – Além da qualidade dos ativos, a receita líquida de juros (NII) avançou 3% na comparação trimestral, beneficiada pela expansão das margens com clientes e com o mercado.
-  – Por isso, decidiu reduzir o preço-alvo, mantendo visão cautelosa para o papel em meio à piora das perspectivas macroeconômicas para 2027.
-  – Nos níveis atuais, o Itaú negocia a cerca de 2 vezes seu valor patrimonial estimado para 2027 e 7,5 vezes o lucro projetado para o período, múltiplos que, na avaliação dos analistas, já refletem boa parte da qualidade o…
-Link: https://www.moneytimes.com.br/ate-o-itau-itub4-ubs-bb-corta-preco-alvo-com-piora-do-cenario-rnda/
-Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
-Ativos: ITUB4
-Como falar: 'saiu no Money Times: Até o Itaú (ITUB4): UBS BB corta preço-alvo com piora do cenário; confirmar o número no texto antes de repassar'
-Fonte: Money Times 06/11 19h36
-ids: E05-ITUB4-2bf530f4d6-2026-11-06
-
-(pendente de slot anterior) [ATENÇÃO] E05 · KLBN4 · Nem a celulose salva? Safra perde otimismo com Klabin (KLBN11) e rebaixa recomendação para neutra
-Seu Dinheiro · 06/11 18h00 · fonte única · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – Mas, no caso da Klabin (KLBN11), ela pode não ser suficiente para garantir uma recuperação mais robusta dos resultados.
-  – O banco também cortou o preço-alvo de R$ 21,40 para R$ 20,60 até o fim de 2027.
-  – Considerando a cotação de R$ 18,08 utilizada no relatório, o novo alvo representa um potencial de valorização de 14%.
-  – Com os dividendos, o retorno total estimado chega a 21%.
-  – A projeção da Empapel de crescimento de 1,9% nos embarques de papelão ondulado em 2026 implica uma expansão de apenas 0,9% no segundo semestre, bem abaixo dos 3% registrados na primeira metade do ano.
-  – Leia Também Na avaliação do Safra, esse movimento indica um mercado interno menos aquecido e reduz a visibilidade de uma recuperação relevante dos volumes em 2027.
-Link: https://www.seudinheiro.com/2026/empresas/nem-a-celulose-salva-safra-perde-otimismo-com-klabin-klbn11-rebaixa-acao-e-corta-preco-alvo-pads/
-Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
-Ativos: KLBN4
-Como falar: 'saiu no Seu Dinheiro: Nem a celulose salva? Safra perde otimismo com Klabin (KLBN11) e rebaixa recomendação par…; confirmar o número no texto antes de repassar'
-Fonte: Seu Dinheiro 06/11 18h00
-ids: E05-KLBN4-3bb15f908f-2026-11-06
-
-(pendente de slot anterior) [ATENÇÃO] E05 · AMZN · Did Amazon owe you a refund? You may qualify for part of a $300 million settlement.
-Yahoo Finance · 06/11 12h38 · fonte única · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – Amazon customers who failed to receive refunds or were incorrectly charged for returned merchandise may be eligible for payments under a $309.5 million class-action settlement.
-  – The fund is part of a broader settlement that topped $1 billion.
-  – That total includes roughly $600 million in refunds that Amazon has already issued.
-  – What the Amazon returns settlement is about The settlement stems from a 2023 class action lawsuit that alleged Amazon failed to properly process refunds for returned products for nearly nine years.
-  – 12, 2026, and did not receive a refund, the refund was delayed or for an incorrect amount, or they received a refund and then were later incorrectly charged again for the returned product.
-  – A final settlement court hearing will be held on March 16, 2027.
-Link: https://finance.yahoo.com/personal-finance/banking/article/did-amazon-owe-you-a-refund-you-may-qualify-for-part-of-a-300-million-settlement-153810924.html
-Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e prazo
-Ativos: AMZN
-Como falar: 'saiu no Yahoo Finance: Did Amazon owe you a refund? You may qualify for part of a $300 million settlement.; confirmar o número no texto antes de repassar'
-Fonte: Yahoo Finance 06/11 12h38
-ids: E05-AMZN-0bc349f540-2026-11-06
-
 (pendente de slot anterior) [ATENÇÃO] E05 · PETR4 · Petrobras pode distribuir até US$ 4,2 bilhões em dividendos apesar da queda do petróleo Brent
 Estadao · 06/11 21h29 · fonte única · licença: manchete
 Link: https://www.estadao.com.br/em-alta/einvestidor/cenarios-e-mercado/petrobras-pode-distribuir-ate-us-42-bilhoes-em-dividendos-apesar-da-queda-do-petroleo-brent/
@@ -79,7 +16,7 @@ Como falar: 'saiu no Estadao: Petrobras pode distribuir até US$ 4,2 bilhões em
 Fonte: Estadao 06/11 21h29
 ids: E05-PETR4-ce232399f3-2026-11-07
 
-[ATENÇÃO] E05 · PETR4 · Petrobras (PETR4) reina nas carteiras de dividendos; novo plano pode trazer mais dinheiro ao acionista
+(pendente de slot anterior) [ATENÇÃO] E05 · PETR4 · Petrobras (PETR4) reina nas carteiras de dividendos; novo plano pode trazer mais dinheiro ao acionista
 Money Times · 09/11 16h01 · fonte única · licença: integral
 Do texto:
   – Para os analistas, outro evento importante no radar é a divulgação do novo Plano Estratégico da Petrobras, prevista para 23 de novembro.
@@ -92,10 +29,9 @@ Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir
 Ativos: PETR4
 Como falar: 'saiu no Money Times: Petrobras (PETR4) reina nas carteiras de dividendos; novo plano pode trazer mais dinheiro…; confirmar o número no texto antes de repassar'
 Fonte: Money Times 09/11 16h01
-Push: eventos: 3 alertas de atenção — E05 PETR4, E05 AVGO, E05 DI · detalhe na sessão
 ids: E05-PETR4-4dff3e3498-2026-11-09
 
-[ATENÇÃO] E05 · AVGO · Broadcom Stocks Jump 8.21% as Investors Eye $21.7 Billion AI Revenue Guide
+(pendente de slot anterior) [ATENÇÃO] E05 · AVGO · Broadcom Stocks Jump 8.21% as Investors Eye $21.7 Billion AI Revenue Guide
 Yahoo Finance · 09/11 15h05 · fonte única · licença: resumo
 Trechos (licença resumo: reescrever, não colar):
   – Broadcom (NASDAQ:AVGO) shares rallied 8.21% to $317.81 as of 10:44 a.m.
@@ -111,7 +47,7 @@ Como falar: 'saiu no Yahoo Finance: Broadcom Stocks Jump 8.21% as Investors Eye 
 Fonte: Yahoo Finance 09/11 15h05
 ids: E05-AVGO-96e7808fa8-2026-11-09
 
-[ATENÇÃO] E05 · DI · Mercado eleva projeção da Selic para 13,75% em 2026
+(pendente de slot anterior) [ATENÇÃO] E05 · DI · Mercado eleva projeção da Selic para 13,75% em 2026
 Agencia Brasil · 09/11 10h26 · + InfoMoney, Exame · licença: integral
 Do texto:
   – Mercado eleva projeção da Selic para 13,75% em 2026 O mercado financeiro elevou de 13,5% para 13,75% ao ano a projeção para a taxa básica de juros (Selic) ao final de 2026, segundo o Boletim Focus divulgado nesta segund…
@@ -127,35 +63,75 @@ Como falar: 'saiu no Agencia Brasil: Mercado eleva projeção da Selic para 13,7
 Fonte: Agencia Brasil 09/11 10h26
 ids: E05-DI-3ddf9e0b5d-2026-11-09
 
-Info (só linha no Fechamento):
-· E04 NOK · 6-K: 6-K
-· E05 NVDA · Analyzing AMD as a near-term beneficiary of Nvidia’s leadership uncertainty
-· E05 NVDA · Wall St jumps as oil slide cools inflation worries; Nvidia slumps
-· E05 UST · Most Treasuries Fall as Investors Regain Risk Appetite
-· E05 COHR · Coherent continues rebound, rises 19% (COHR:NYSE)
-· E05 USDBRL · Dólar cai a R$ 5,5056 em meio a negociações entre EUA e Irã
-· E05 NVDA · Nvidia: o que a empresa produz e por que vale trilhões de dólares?
-· E05 TSLA · Musk says many buyers will get their deposits back as Tesla prepares to end Cybertruck's production
-· E05 USDBRL · Dólar à vista fecha em queda de 0,10%, a R$5,5058 na venda
-· E05 NVDA · Why Ousting Nvidia’s CEO May Be Worse Than the Scandal Itself
-· E05 VALE3 · Dólar fecha estável, a R$ 5,50; Ibovespa sobe com Vale e bancos
-· E05 NVDA · Nvidia's China revenue exposure: What New Street estimates
-· E05 BRENT · Brent Crashes 7% on Iran Peace Hopes Despite Fresh Saudi Pipeline Attack
-· E05 UST · U.S. 3-year Treasury auction draws weak demand amid yield decline
-· E05 NVDA · Before news of his spy-linked affair, Jensen Huang said Nvidia “could be of great service” to China
-· E05 NVDA · Nvidia (NVDA) cai quase 6%: vale a pena investir agora?
-· E05 BTC · Strategy’s $64 Billion Bitcoin Bet Just Went Underwater
-· E05 DI · Mercado eleva pela segunda semana a projeção de juros e já não prevê mais cortes na Selic para este ano
-· E05 LITE · Weekly Recap: Lumentum acquisition and Q3 revenue outlook maintained
-· E05 MRVL · Weekly Recap: All-stock Marvell buyout and Q1 revenue growth, Q2 outlook
-· E05 BRENT · Governo projetou recorde em petróleo 1 dia antes de aprovar mapa do caminho
-· E05 JPM · Weekly Recap: €0.60 dividend and JPMorgan Chase's 3.015% stake
+[ATENÇÃO] E05 · ITSA4 · Itaúsa tem lucro líquido recorrente de R$5,1 bi no 3º tri
+TradingView (Reuters) · 09/11 19h13 · fonte única · licença: manchete
+Link: https://br.tradingview.com/news/reuters.com,2026:newsml_S0N46E05B:0/
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: ITSA4
+Como falar: 'saiu no TradingView (Reuters): Itaúsa tem lucro líquido recorrente de R$5,1 bi no 3º tri; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 09/11 19h13
+Push: eventos: 3 alertas de atenção — E05 ITSA4, E05 MU, E05 USDBRL · detalhe na sessão
+ids: E05-ITSA4-aa123100d2-2026-11-09
 
-Suprimidos pelo teto (viram linha do Fechamento): E05-BTC-a571f9acd7-2026-11-09 (teto de noticias), E05-DI-3b565f8934-2026-11-09 (teto de noticias), E05-LITE-cc1b7de76b-2026-11-09 (teto de noticias), E05-MRVL-bdac54f59f-2026-11-09 (teto de noticias), E05-BRENT-b811719175-2026-11-09 (teto de noticias), E05-JPM-e1b52122a0-2026-11-09 (teto de noticias)
+[ATENÇÃO] E05 · MU · Micron Rises 6% as Bulls Tout Its Bargain Valuation and Buyback Firepower; Seagate and Western Digital Jump 11%
+Yahoo Finance · 09/11 14h52 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Quick Read - Micron trades at a 4x forward earnings multiple while a $35 billion buyback starts December 9, but cyclical-peak fears keep skeptics wary.
+  – - Seagate and Western Digital surged 11% on AI storage demand, outpacing Micron's bounce despite pricier forward multiples than the memory leader.
+  – - SanDisk sports the cheapest trailing multiple of the group at 7x, with an eight-for-one split arriving November 19.
+  – Micron stock is at $733.98, up 6% in afternoon trading.
+  – Against that background, Micron trades at a trailing 12-month price-to-earnings (P/E) ratio of 9x and a forward P/E of 4x.
+  – Micron's Buyback Math Has Value Investors Circling CNBC's Halftime Report gave the bull case a loud coverage on Friday, November 6, when a panelist argued that Micron will buy back $100 billion of stock at its depressed…
+Link: https://finance.yahoo.com/markets/stocks/articles/micron-rises-6-bulls-tout-175231901.html
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: MU
+Como falar: 'saiu no Yahoo Finance: Micron Rises 6% as Bulls Tout Its Bargain Valuation and Buyback Firepower; Seagate and We…; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 09/11 14h52
+ids: E05-MU-38571517a9-2026-11-09
+
+[ATENÇÃO] E05 · USDBRL · Dólar recua a R$ 5,50, com projeção de inflação e balança comercial no radar; Ibovespa avança
+g1 · 09/11 09h00 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – ▶️ O Banco Central divulgou nesta segunda-feira (9) o Boletim Focus, relatório que reúne as projeções de economistas para a economia brasileira.
+  – O mercado elevou de 4,76% para 4,90% a previsão de inflação para 2027, enquanto a estimativa para 2026 permaneceu em 5,22%.
+  – ▶️Já a balança comercial brasileira registrou superávit de US$ 1,4 bilhão na primeira semana de novembro.
+  – O resultado considera US$ 7,2 bilhões em exportações e US$ 5,8 bilhões em importações.
+  – Na comparação com novembro de 2025, a média diária das exportações cresceu 21,5%, enquanto a das importações avançou 23,6%.
+  – ▶️ O mercado também repercutiu o pronunciamento do presidente Luiz Inácio Lula da Silva, feito na noite de domingo (8).
+Link: https://g1.globo.com/economia/noticia/2026/11/09/dolar-ibovespa.ghtml
+Por que importa: decisao de politica monetaria reprecifica toda a curva e o cambio
+Ativos: USDBRL
+Como falar: 'saiu no g1: Dólar recua a R$ 5,50, com projeção de inflação e balança comercial no radar; Ibovespa av…; confirmar o número no texto antes de repassar'
+Fonte: g1 09/11 09h00
+ids: E05-USDBRL-49cdc12974-2026-11-09
+
+Info (só linha no Fechamento):
+· E03 KLBN4 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
+· E05 GOOGL · Advanced Micro Devices soars 13% on Google Cloud deal, tech rally (AMD:NASDAQ)
+· E05 KLBN4 · Klabin (KLBN11) capta US$ 150 milhões com agência canadense para gestão da dívida
+· E05 AMD · Advanced Micro Devices (AMD) Lands EPYC Role In New AI Security System
+· E05 NVDA · Nvidia spy allegations likely to spur laws to tighten China's access to AI chips
+· E05 BTC · Watch S&P 500 Erases Midterm Losses, Bitcoin Bounce
+· E05 NVDA · US Lawmakers Demand Details on Nvidia Amid Jensen Huang Scandal
+· E05 NVDA · Nvidia's China revenue 'not very significant,' says Melius' Ben Reitzes
+· E05 BTC · AI Price Prediction: Is Bitcoin a Buy at $74,000? We Asked ChatGPT, Claude and Grok
+· E05 USDBRL · Ibovespa ganha mais de 3 mil pontos em um dia, mas dólar não acompanha a festa
+· E05 BRENT · Dólar fecha praticamente estável com cautela fiscal e tombo do petróleo
+· E05 USDBRL · Dólar cai a R$ 5,505; Ibovespa sobe 2,22%
+· E05 NVDA · Nvidia Scandal Creates Risk for Entire AI Industry, Not Just CEO
+· E05 NVDA · Nvidia Stock’s (NVDA) Sell-Off Looks Overdone Ahead of Q3
+· E05 BTC · Anthony Scaramucci Says Bitcoin Should Already Be Trading at $200,000
+· E05 NVDA · Jensen Huang Might Be the Biggest Wild Card for Nvidia Stock. Here's What to Watch During Earnings on Nov. 17
+· E05 MMM · Weekly Recap: Higher 2026 EPS guidance and 3M deal removes cost headwind
+
+Suprimidos pelo teto (viram linha do Fechamento): E05-MMM-4b02ef0a17-2026-11-09 (teto de noticias)
 
 Alertas do dia (todos, com status):
+· pendente  E05 ITSA4 — ITSA4 · Itaúsa tem lucro líquido recorrente de R$5,1 bi no 3º tri
+· pendente  E05 MU — MU · Micron Rises 6% as Bulls Tout Its Bargain Valuation and Buyback Firepower; 
+· pendente  E05 USDBRL — USDBRL · Dólar recua a R$ 5,50, com projeção de inflação e balança comercial no 
 · pendente  E05 PETR4 — PETR4 · Petrobras (PETR4) reina nas carteiras de dividendos; novo plano pode tra
 · pendente  E05 AVGO — AVGO · Broadcom Stocks Jump 8.21% as Investors Eye $21.7 Billion AI Revenue Guid
 · pendente  E05 DI — DI · Mercado eleva projeção da Selic para 13,75% em 2026
-· (+22 notícias só manchete, em noticias.md)
+· (+39 notícias só manchete, em noticias.md)
 

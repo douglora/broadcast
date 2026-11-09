@@ -1,6 +1,18 @@
-NOTÍCIAS E FATOS · 09/11 18h27
+NOTÍCIAS E FATOS · 09/11 19h56
 
-Pernas: noticias ok 24 novas (18 consultas; descartadas: 374 veículo fora da lista, 25 sem ativo, 115 teto) · cvm ok 0 novos de 6 (5 cias casadas) · sec ok 1 novos em 3 dias
+Pernas: noticias ok 19 novas (18 consultas; descartadas: 366 veículo fora da lista, 26 sem ativo, 9 teto) · cvm ok 1 novos de 7 (5 cias casadas) · sec ok 0 novos em 3 dias
+
+## FATOS RELEVANTES E COMUNICADOS (CVM) (1)
+
+[INFO] E03 · KLBN4 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
+CVM · entregue 09/11/2026 19:11 · Outros Comunicados Não Considerados Fatos Relevantes
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1586538
+Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; confirma ou nega o que circula
+Ativos: KLBN4
+Como falar: 'a Klabin publicou comunicado ao mercado sobre Outros Comunicados Não Considerados Fatos Relevantes'
+Fonte: CVM 09/11
+id: E03-KLBN4-1586538-2026-11-09 · status: linha
+
 
 ## SEC (8-K, 6-K, 10-Q, 10-K) (1)
 
@@ -19,7 +31,57 @@ Fonte: SEC EDGAR 2026-11-09
 id: E04-NOK-26124366-2026-11-09 · status: linha · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (9)
+## NOTÍCIAS COM MATERIALIDADE (13)
+
+[ATENÇÃO] E05 · ITSA4 · Itaúsa tem lucro líquido recorrente de R$5,1 bi no 3º tri
+TradingView (Reuters) · 09/11 19h13 · fonte única · licença: manchete
+Link: https://br.tradingview.com/news/reuters.com,2026:newsml_S0N46E05B:0/
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: ITSA4
+Como falar: 'saiu no TradingView (Reuters): Itaúsa tem lucro líquido recorrente de R$5,1 bi no 3º tri; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 09/11 19h13
+id: E05-ITSA4-aa123100d2-2026-11-09 · status: pendente
+
+[ATENÇÃO] E05 · MU · Micron Rises 6% as Bulls Tout Its Bargain Valuation and Buyback Firepower; Seagate and Western Digital Jump 11%
+Yahoo Finance · 09/11 14h52 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Quick Read - Micron trades at a 4x forward earnings multiple while a $35 billion buyback starts December 9, but cyclical-peak fears keep skeptics wary.
+  – - Seagate and Western Digital surged 11% on AI storage demand, outpacing Micron's bounce despite pricier forward multiples than the memory leader.
+  – - SanDisk sports the cheapest trailing multiple of the group at 7x, with an eight-for-one split arriving November 19.
+  – Micron stock is at $733.98, up 6% in afternoon trading.
+  – Against that background, Micron trades at a trailing 12-month price-to-earnings (P/E) ratio of 9x and a forward P/E of 4x.
+  – Micron's Buyback Math Has Value Investors Circling CNBC's Halftime Report gave the bull case a loud coverage on Friday, November 6, when a panelist argued that Micron will buy back $100 billion of stock at its depressed…
+Link: https://finance.yahoo.com/markets/stocks/articles/micron-rises-6-bulls-tout-175231901.html
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: MU
+Como falar: 'saiu no Yahoo Finance: Micron Rises 6% as Bulls Tout Its Bargain Valuation and Buyback Firepower; Seagate and We…; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 09/11 14h52
+id: E05-MU-38571517a9-2026-11-09 · status: pendente
+
+[ATENÇÃO] E05 · USDBRL · Dólar recua a R$ 5,50, com projeção de inflação e balança comercial no radar; Ibovespa avança
+g1 · 09/11 09h00 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – ▶️ O Banco Central divulgou nesta segunda-feira (9) o Boletim Focus, relatório que reúne as projeções de economistas para a economia brasileira.
+  – O mercado elevou de 4,76% para 4,90% a previsão de inflação para 2027, enquanto a estimativa para 2026 permaneceu em 5,22%.
+  – ▶️Já a balança comercial brasileira registrou superávit de US$ 1,4 bilhão na primeira semana de novembro.
+  – O resultado considera US$ 7,2 bilhões em exportações e US$ 5,8 bilhões em importações.
+  – Na comparação com novembro de 2025, a média diária das exportações cresceu 21,5%, enquanto a das importações avançou 23,6%.
+  – ▶️ O mercado também repercutiu o pronunciamento do presidente Luiz Inácio Lula da Silva, feito na noite de domingo (8).
+Link: https://g1.globo.com/economia/noticia/2026/11/09/dolar-ibovespa.ghtml
+Por que importa: decisao de politica monetaria reprecifica toda a curva e o cambio
+Ativos: USDBRL
+Como falar: 'saiu no g1: Dólar recua a R$ 5,50, com projeção de inflação e balança comercial no radar; Ibovespa av…; confirmar o número no texto antes de repassar'
+Fonte: g1 09/11 09h00
+id: E05-USDBRL-49cdc12974-2026-11-09 · status: pendente
+
+[ATENÇÃO] E05 · MMM · Weekly Recap: Higher 2026 EPS guidance and 3M deal removes cost headwind
+TradingView (Reuters) · 09/11 08h00 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/tradingview:5a6a0b1f26236:0-weekly-recap-higher-2026-eps-guidance-and-3m-deal-removes-cost-headwind/
+Por que importa: aquisicao ou venda muda alavancagem, mix de receita e o multiplo; olhar preco pago e financiamento
+Ativos: MMM
+Como falar: 'saiu no TradingView (Reuters): Weekly Recap: Higher 2026 EPS guidance and 3M deal removes cost headwind; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 09/11 08h00
+id: E05-MMM-4b02ef0a17-2026-11-09 · status: linha
 
 [ATENÇÃO] E05 · PETR4 · Petrobras (PETR4) reina nas carteiras de dividendos; novo plano pode trazer mais dinheiro ao acionista
 Money Times · 09/11 16h01 · fonte única · licença: integral
@@ -137,8 +199,23 @@ Fonte: TradingView (Reuters) 09/11 02h00
 id: E05-JPM-e1b52122a0-2026-11-09 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (15)
+## OUTRAS NOTÍCIAS (só manchete) (30)
 
+· GOOGL Advanced Micro Devices soars 13% on Google Cloud deal, tech rally (AMD:NASDAQ) (Seeking Alpha) https://seekingalpha.com/news/4669384-advanced-micro-devices-soars-13-on-google-cloud-deal-tech-rally
+· KLBN4 Klabin (KLBN11) capta US$ 150 milhões com agência canadense para gestão da dívida (Money Times) https://www.moneytimes.com.br/klabin-klbn11-capta-us-150-milhoes-com-agencia-canadense-para-gestao-da-divida-pads/
+· AMD Advanced Micro Devices (AMD) Lands EPYC Role In New AI Security System (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/advanced-micro-devices-amd-lands-220845589.html
+· NVDA Nvidia spy allegations likely to spur laws to tighten China's access to AI chips (Reuters) https://www.reuters.com/legal/litigation/nvidia-spy-allegations-likely-spur-laws-to-tighten-chinas-access-ai-chips-2026-11-09/
+· BTC Watch S&P 500 Erases Midterm Losses, Bitcoin Bounce (Bloomberg) https://www.bloomberg.com/news/videos/2026-11-09/etf-iq-11-9-2026-video
+· NVDA US Lawmakers Demand Details on Nvidia Amid Jensen Huang Scandal (Bloomberg) https://www.bloomberg.com/news/articles/2026-11-09/us-lawmakers-demand-details-on-nvidia-amid-jensen-huang-scandal
+· NVDA Nvidia's China revenue 'not very significant,' says Melius' Ben Reitzes (CNBC) https://www.cnbc.com/video/2026/11/09/nvidias-china-revenue-not-very-significant-says-melius-ben-reitzes.html
+· BTC AI Price Prediction: Is Bitcoin a Buy at $74,000? We Asked ChatGPT, Claude and Grok (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/ai-price-prediction-bitcoin-buy-213927196.html
+· USDBRL Ibovespa ganha mais de 3 mil pontos em um dia, mas dólar não acompanha a festa (Suno Noticias) https://www.suno.com.br/noticias/ibovespa-vale-vale3-bancos-dolar/
+· BRENT Dólar fecha praticamente estável com cautela fiscal e tombo do petróleo (UOL Economia) https://economia.uol.com.br/noticias/estadao-conteudo/2026/11/09/dolar-fecha-praticamente-estavel-com-cautela-fiscal-e-tombo-do-petroleo.htm
+· USDBRL Dólar cai a R$ 5,505; Ibovespa sobe 2,22% (Poder360) https://www.poder360.com.br/poder-economia/dolar-cai-a-r-5505-ibovespa-sobe-222/
+· NVDA Nvidia Scandal Creates Risk for Entire AI Industry, Not Just CEO (Bloomberg) https://news.google.com/rss/articles/CBMiwwFBVV95cUxOeU5sZExFMm9PT0FDekcxMEVUWTFWVEJVNUNBcmx0bFlzNkI2SnZYLWVlanJfdEtxN0lMV1RMZ2lfRHlYVHMwMm05dU1lNlQzS21OQlJwY1J2VThCVUpxZU5hcmxRWE8yTUNaVzlnZzRCTUJUNFFfSERTZ0RQaU9QdmRTMUZ1dEwxVDR5MzFOOXNBVmt4eW0zbHlEaWVRWWdFQUYydXVXWFIxcE5scC05YlZ4ckw1VkNtUDd1UXBGa2I2cjg?oc=5
+· NVDA Nvidia Stock’s (NVDA) Sell-Off Looks Overdone Ahead of Q3 (Yahoo Finance) https://news.google.com/rss/articles/CBMilgFBVV95cUxPeWN5Z2x5X2JDbzByamwwRjJCM0pLMmJ3bTdLaVRCVTFPTEg2bWhSelJZRW5qcVk0eVY1QnB4RlFFbTJFNXZMOVB4cUhuelY4UlNDOHJlUjdSUlh1UWxHanZFSzFhTG9lTXZVNHZjVjVKR0k2eGVHcGNNdTNoOGJmcjY5UlI5R1VqdzhfSHlwbVVrZ18tQ3c?oc=5
+· BTC Anthony Scaramucci Says Bitcoin Should Already Be Trading at $200,000 (TradingView (Reuters)) https://news.google.com/rss/articles/CBMixgFBVV95cUxPVlRzamk1TV9qblJBSS02WU5zMmJNQXlPdzhIbDM5YzBleS0tY25BSGhXWGFtMVdXSndicWVuZDQ5MmZwakswcm5Wa0ZDcDdaS2pRNmVkZDZGWFlnb2RUUl84V1hHQ2JKOFR1VS01d3V1WVhlbS1lamNoMFRieGF2QTdkLWFLcGZvUEJQOVYzby04cFd5ZFVkNkZmTldCYWFVY0x6eFNmN0xGR1NPWk54V01jUDlEQkh3QlRUVDVEd2lrN1RsZ2c?oc=5
+· NVDA Jensen Huang Might Be the Biggest Wild Card for Nvidia Stock. Here's What to Watch During Earnings on Nov. 17 (Yahoo Finance) https://news.google.com/rss/articles/CBMinAFBVV95cUxNRHBmcnVJdEJEU3R2YUdWd3ZibWo2QjFPMlRJc2pmdzM5WFFCWmpzeHlnM3pKbXdTQWt1aXdFNVRFRnlZZ2lCSWI1enlHdFNWTjdJbTdkV2RKelhKZzhkZlc2TjRDNXFhMllLaVhNS0hzQXpCcV82UGRmNl9Yak93OFNVZFpYN3B1a1B3SnN1dTNnbmlLYWVBRTRxMFk?oc=5
 · NVDA Analyzing AMD as a near-term beneficiary of Nvidia’s leadership uncertainty (Yahoo Finance) https://sg.finance.yahoo.com/news/analyzing-amd-near-term-beneficiary-210952293.html
 · NVDA Wall St jumps as oil slide cools inflation worries; Nvidia slumps (Reuters) https://www.reuters.com/business/wall-st-futures-rise-after-rough-week-nvidia-unsettles-investors-2026-11-09/
 · UST Most Treasuries Fall as Investors Regain Risk Appetite (Bloomberg) https://www.bloomberg.com/news/articles/2026-11-09/treasuries-fall-before-auction-as-investors-regain-risk-appetite
