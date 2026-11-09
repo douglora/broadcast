@@ -1,12 +1,12 @@
 {
- "gerado_em": "2026-11-06T19:39:46Z",
+ "gerado_em": "2026-11-09T22:58:17Z",
  "partes": {
   "cartas": {
-   "em": "2026-11-06T19:45:21Z",
+   "em": "2026-11-09T23:02:47Z",
    "resultado": {
     "cartas": 50,
     "metodos": {
-     "wp-json": 1099,
+     "wp-json": 1299,
      "categoria": 0,
      "padrao": 45,
      "informadas": 0
@@ -25,7 +25,7 @@
    }
   },
   "documentos": {
-   "em": "2026-11-06T19:45:46Z",
+   "em": "2026-11-09T23:03:08Z",
    "resultado": {
     "pdfs": 18,
     "posts": 0,
@@ -33,11 +33,11 @@
    }
   },
   "videos": {
-   "em": "2026-11-06T19:46:43Z",
+   "em": "2026-11-09T23:04:46Z",
    "resultado": {
-    "videos": 37,
-    "com_legenda": 0,
-    "erros": 37,
+    "videos": 36,
+    "com_legenda": 1,
+    "erros": 35,
     "fora_do_tema": 0,
     "listagem": "yt-dlp"
    }
@@ -63,9 +63,7 @@
    }
   }
  },
- "falhas": [
-  "videos: nenhuma legenda baixada; ultimo erro: painel: painel: get_transcript HTTP 400, 0 trechos | yt-dlp: nenhuma legenda listada | audio: padrao: DownloadError: ERROR: [youtube] J_mOYXSO9MY: Faça login para confirmar que você não é um bot. Isso"
- ],
+ "falhas": [],
  "rodou": [
   "cartas",
   "midia"

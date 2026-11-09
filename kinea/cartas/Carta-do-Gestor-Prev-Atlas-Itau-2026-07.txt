@@ -157,7 +157,7 @@ de dividendos elevados e crescimento de lucros.
 DIVIDEND YIELD E CRESCIMENTO DE LUCROS DE 
 CONSTRUTORAS DE BAIXA RENDA E UTILITIES VS. IBOV | %
 Fonte: Kinea Research
-7% 14% 7% 11% 11% 6% 7%6%
+7% 14% 7% 11% 11% 6% 7% 6%
 20% 31% 23% 24%
 23% 17% 28%
 39% 42% 36%
@@ -459,7 +459,7 @@ IMPACTO EM 2026
 Fonte: Ministério da Fazenda, Tesouro Nacional e Kinea
 IMPULSO FISCAL E PARAFISCAL | 
 DELTA ANUAL, EM P.P. DO PIB
-Programa Status Δ 25-26(R$ bi) Δ 25-26% PIB
+Programa Status Δ 25-26 (R$ bi) Δ 25-26 % PIB
 TOTAL 141,5 1,0%
 Isenção IRPF Início: jan/26 31,0 0,2%
 Move Brasil 1 e 2 
@@ -856,23 +856,27 @@ relacionamento@kinea.com.br.
 RESULTADO DA GESTÃO*
 Rentabilidade 
 do fundo desde 
-seu início. 192,40%
-131,75%
--50%
+seu início. 81,53%
+81,82%
+-10%
 0%
+10%
+20%
+30%
+40%
 50%
-100%
-150%
-200%
-250%
-dez/16 dez/17 dez/18 dez/19 dez/20 dez/21 dez/22 dez/23 dez/24 dez/25
-Atlas - Espelhos CDI
+60%
+70%
+80%
+90%
+dez/20 jun/21 dez/21 jun/22 dez/22 jun/23 dez/23 jun/24 dez/24 jun/25 dez/25 jun/26
+Prev Atlas Itaú CDI
 RETORNO POR ESTRATÉGIAS
  12 MESES
 ANO 2022 2023 2024 2025 2026 jul/26 Início
-FUNDO 15,45% 13,32% 10,32% 15,57% 5,06% -0,16% 192,40%
-CDI 12,37% 13,05% 10,87% 14,31% 8,14% 1,22% 131,75%
-% CDI 124,88% 102,10% 94,90% 108,80% 62,12% --- 146,03%
+FUNDO 15,50% 13,09% 10,37% 14,46% 4,87% 0,25% 81,53%
+CDI 12,37% 13,05% 10,87% 14,31% 8,14% 1,22% 81,82%
+% CDI 125,26% 100,31% 95,37% 101,05% 59,81% 20,50% 99,65%
 HISTÓRICO DE RENTABILIDADE*
 K I N E A . C O M . B R
 INÍCIO DO FUNDO PL ATUAL PL MÉDIO (12 MESES): TAXA DE ADM¹ TAXA DE PERF.²
@@ -880,22 +884,20 @@ PÚBLICO ALVO OBJETIVO COTA RESGATE PAGAMENTO RESGATE TAXA DE SAÍDA
 Não possui
 APLICAÇÃO INICIAL
 Sujeito às regras do distribuidor.
-94
-22
+57
+11
 MESES POSITIVOS:              
-MESES NEGATIVOS:   29/Dez/2016 R$ 16.309.174 1,42% a.a. 20% do que exceder 100% do CDI+0,58%
+MESES NEGATIVOS:   28/Dez/2020 R$ 458.982.122 2,0% a.a. 17% do que exceder 100% do CDI
 Investidor Qualificado Superar o CDI com vol. de 
 5% a 7% a.a..
-D+10 dias úteis da 
+D+20 dias úteis da 
 solicitação
 D+1 dia útil da conversão de 
 cotas
-R$ 5.002.790
+R$ 487.682.950
 1. Trata-se da taxa de administração considerando as taxas dos fundos da estrutura.
 2. Trata-se da taxa de performance considerando todos os fundos da estrutura.
-* O fundo Kinea Atlas foi cindido em Kinea Atlas e Kinea Atlas II no dia 09/04/2018.
-Atlas - Alocadores (Sub III)
+Prev Atlas Itaú
 Julho 2026
-26.218.403/0001-03CNPJ:
-Cód. Subclasse: VVZHE1747061757
+37.730.471/0001-65CNPJ:
 MULTIMERCADO
