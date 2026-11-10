@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 10/11 15h41
+NOTÍCIAS E FATOS · 10/11 17h23
 
-Pernas: noticias ok 22 novas (18 consultas; descartadas: 373 veículo fora da lista, 21 sem ativo, 100 teto) · cvm ok 1 novos de 2 (2 cias casadas) · sec ok 3 novos em 3 dias
+Pernas: noticias ok 17 novas (18 consultas; descartadas: 349 veículo fora da lista, 20 sem ativo, 18 teto) · cvm ok 0 novos de 2 (2 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (1)
 
@@ -61,7 +61,25 @@ Fonte: SEC EDGAR 2026-11-10
 id: E04-TSM-26000796-2026-11-10 · status: linha · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (12)
+## NOTÍCIAS COM MATERIALIDADE (14)
+
+[ATENÇÃO] E05 · ITUB4 · Painel S.A.: Itaú investe R$ 1,2 bilhão e vira sócio da Klabin em mais um empreendimento florestal
+Folha de S.Paulo · 10/11 16h57 · fonte única · licença: manchete
+Link: https://www1.folha.uol.com.br/colunas/painelsa/2026/11/itau-investe-r-12-bilhao-e-vira-socio-da-klabin-em-mais-um-empreendimento-florestal.shtml
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: ITUB4 · KLBN4
+Como falar: 'saiu no Folha de S.Paulo: Painel S.A.: Itaú investe R$ 1,2 bilhão e vira sócio da Klabin em mais um empreendimento…; confirmar o número no texto antes de repassar'
+Fonte: Folha de S.Paulo 10/11 16h57
+id: E05-ITUB4-c7c5a3b5db-2026-11-10 · status: pendente
+
+[ATENÇÃO] E05 · JPM · JPMorgan Names Dividend Giant Its Top Stock Pick for a Rocky Market
+TradingView (Reuters) · 10/11 16h20 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/gurufocus:a259bdb77094b:0-jpmorgan-names-dividend-giant-its-top-stock-pick-for-a-rocky-market/
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: JPM
+Como falar: 'saiu no TradingView (Reuters): JPMorgan Names Dividend Giant Its Top Stock Pick for a Rocky Market; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 10/11 16h20
+id: E05-JPM-7910e351b4-2026-11-10 · status: pendente
 
 [ATENÇÃO] E05 · KLBN4 · Allied paga R$ 0,63 por ação; Santander, Klabin, Lavvi e outros completam dividendos da semana
 Estadao · 10/11 13h35 · fonte única · licença: manchete
@@ -175,7 +193,7 @@ Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; 
 Ativos: PETR4 · BRENT
 Como falar: 'saiu no Bloomberg Linea: Petrobras: produção e alta do Brent devem favorecer resultado do 3º tri, apontam bancos; confirmar o número no texto antes de repassar'
 Fonte: Bloomberg Linea 09/11 22h37
-id: E05-PETR4-efd0a14cc2-2026-11-10 · status: pendente
+id: E05-PETR4-efd0a14cc2-2026-11-10 · status: expirado
 
 [ATENÇÃO] E05 · BTC · Trump Media posts $409.7 million Q3 profit as Bitcoin gains carry the quarter
 TradingView (Reuters) · 09/11 22h19 · fonte única · licença: manchete
@@ -184,7 +202,7 @@ Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; 
 Ativos: BTC
 Como falar: 'saiu no TradingView (Reuters): Trump Media posts $409.7 million Q3 profit as Bitcoin gains carry the quarter; confirmar o número no texto antes de repassar'
 Fonte: TradingView (Reuters) 09/11 22h19
-id: E05-BTC-643b9bb02e-2026-11-10 · status: pendente
+id: E05-BTC-643b9bb02e-2026-11-10 · status: expirado
 
 [ATENÇÃO] E05 · ITSA4 · Itaúsa (ITSA4) tem alta de 25% no lucro recorrente para R$ 5,1 bi no 3º trimestre
 InfoMoney · 09/11 20h02 · + Valor Economico, Investing.com · licença: resumo
@@ -200,7 +218,7 @@ Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; 
 Ativos: ITSA4
 Como falar: 'saiu no InfoMoney: Itaúsa (ITSA4) tem alta de 25% no lucro recorrente para R$ 5,1 bi no 3º trimestre; confirmar o número no texto antes de repassar'
 Fonte: InfoMoney 09/11 20h02
-id: E05-ITSA4-1a6d5e5722-2026-11-09 · status: pendente
+id: E05-ITSA4-1a6d5e5722-2026-11-09 · status: expirado
 
 [ATENÇÃO] E05 · ITSA4 · Itaúsa tem salto de 25% no lucro do 3T26 e vê resultado de outras investidas mais que dobrar
 Estadao · 09/11 19h59 · fonte única · licença: manchete
@@ -221,8 +239,23 @@ Fonte: Estadao 09/11 19h46
 id: E05-DIRR3-8556109b03-2026-11-09 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (30)
+## OUTRAS NOTÍCIAS (só manchete) (45)
 
+· BRENT Petróleo fecha em queda com indicação de moderação dos EUA em relação ao Irã e dólar (UOL Economia) https://economia.uol.com.br/noticias/estadao-conteudo/2026/11/10/petroleo-fecha-em-queda-com-indicacao-de-moderacao-dos-eua-em-relacao-ao-ira-e-dolar.htm
+· DI Taxas do Tesouro Direto hoje sobem com ata mais dura do Copom; Prefixado 2032 vai a 15,15% (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/tesouro-direto-hoje-cai-mesmo-com-ata-mais-dura-do-copom-ipca-2032-vai-a-771/
+· USDBRL Dólar renova máxima do ano, aos R$ 5,58 (O Globo) https://oglobo.globo.com/economia/financas/noticia/2026/11/10/dolar-hoje-maior-valor-2026-rs-5-58.ghtml
+· DI Taxas dos DIs sobem após ata do Copom e exterior negativo (UOL Economia) https://economia.uol.com.br/noticias/reuters/2026/11/10/taxas-dos-dis-sobem-apos-ata-do-copom-e-exterior-negativo.htm
+· NVDA Nvidia’s 70% to 80% Margins Are “Like Throwing Chum in the Water,” Says Its Biographer (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/nvidia-70-80-margins-throwing-195526666.html
+· VALE3 Vale Stocks Fall 3.84% as China Pollution Curbs Weigh on Iron Ore (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:f75c3d97d094b:0-vale-stocks-fall-3-84-as-china-pollution-curbs-weigh-on-iron-ore/
+· AMD AMD Stock Just Got Massive Upgrade From Oppenheimer (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:0d8ba2893094b:0-amd-stock-just-got-massive-upgrade-from-oppenheimer/
+· BTC Bitcoin slides below $74,000 after hotter-than-expected CPI as analysts warn of drop to $70k (The Block) https://www.theblock.co/news/markets/2026-11-10-bitcoin-price-cpi-inflation-73000-support-437301
+· INTC Intel Stocks Fall 1.82% as Chip Rally Fades and PC Slump Clouds Q4 (Yahoo Finance) https://ca.finance.yahoo.com/news/intel-stocks-fall-1-82-193409911.html
+· BTC Why is Bitcoin down today? Check the double blow: inflation, liquidations (Seeking Alpha) https://seekingalpha.com/news/4670023-why-is-bitcoin-down-today-check-the-double-blow-inflation-liquidations
+· ITUB4 Itaú BBA rebaixa Vale (VALE3), mas Safra vê potencial; risco-retorno é oportunidade ou armadilha? (Seu Dinheiro) https://www.seudinheiro.com/2026/economia/itau-bba-rebaixa-e-safra-eleva-recomendacao-para-vale-vale3-risco-retorno-e-oportunidade-ou-armadilha-mlem/
+· BTC Capital B adds 12 Bitcoin, lifting its treasury to 3,550 BTC (TradingView (Reuters)) https://news.google.com/rss/articles/CBMiwgFBVV95cUxObzVRLVJ3Smxwcm9sUFRWN1pCdkRFaFMzeVBIVDZuZ19tMlZDOHB2aHdYOVhTeUtxcW1VeFlJbjBYVzM4VFdSbUxRV1p4ZXQ5NVhYNWM5QndmbEhSU3ZSS3ZRcFVNOWF5cml5S1FVZUF3aVNLcWdwc3RiRV9GeTRtcDJHQll5eHVoalprYW1GQVNmamNYRGtSQmZ1Mlp1Yk1xTmR6WUZOdzZGWktab0VsOFJ1NEpqbXNKaGNuWE5wdmY3UQ?oc=5
+· BAC Bank of America cuts Nike earnings forecast as recovery pushed back to 2028 (Yahoo Finance) https://news.google.com/rss/articles/CBMinAFBVV95cUxNRkNRUWpTQnRXX0RoR3ZoWVZleE9pZkR1MS1ZSjVkaU9mVVpRR1AwbTNwREdaZ2ZONlp6REtpTlJmLXhHbEtPQVJnc2FwYUVQVFp4dk1TQmRqZmJ2NDk4RzJRS0dHU2RsSXNXenZvam1TRF9ISzl6VUlvNnE1VTF2NXpVODhQU1JUczQySkdkSnoxNmVlOVpvUFVyNW8?oc=5
+· BTC US Bitcoin ETFs Lose $201M as BlackRock Withdrawals Extend the Slump (TradingView (Reuters)) https://news.google.com/rss/articles/CBMiwwFBVV95cUxOVXlLdWl4UGgxRTktbUM0TzB3Tzlpc3h3aXZiaVgyYkNtYkpjanE5MlFtQnBfN2ZHYXplRHVtUGRtQmNvTlEtT0FuMkw4UEhncGlFR2dFOC0tLUxoWFotSFNoRzV3U0lfVWZpbk5qajEydC1Hc2ZvdEUwUzA5b0tOWlQ1Z3p4Vm1vSVNpRHFsa0hVWHRSbkd3TDJ3cVg4bHo3WXdHNTd5YXd2bnZfSGVUM1pMS08weWR5Y25IQXF4WUVHNEU?oc=5
+· USDBRL Ibovespa Hoje Ao Vivo: Bolsa recua em linha com exterior; dólar dispara (InfoMoney) https://news.google.com/rss/articles/CBMijwFBVV95cUxPSG9wT3Q2NktUY0lNNUpXdDVucjJZMHoyYXdXeUVERW5fLVBTZ25XWnQtaUJRSm5xOU9sMFhLeElrR2RSMVVjMzFzU1lvc0RPd2ptRnNVRFNpMkdWYUluZFFlb0hWVFJzaUJ6X3V1amp0UnY2VHhhREpxeEliRDdSSm1EaEh5WERXbVpGRi1Taw?oc=5
 · GOOGL Alphabet shares appear to have bottomed. How to play it for a quick rebound (CNBC) https://www.cnbc.com/2026/11/10/alphabet-shares-appear-to-have-bottomed-how-to-play-it-for-a-quick-rebound.html
 · TSM What Does Taiwan Semiconductor Manufacturing (TSM) AI Revenue Surge Mean For Investors? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/does-taiwan-semiconductor-manufacturing-tsm-181308572.html
 · USDBRL Tesouro Selic, dólar ou ouro: onde proteger seu dinheiro quando a bolsa cai? (Suno Noticias) https://www.suno.com.br/noticias/investimentos-seguros-tesouro-selic/
