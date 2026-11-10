@@ -1,5 +1,5 @@
 {
- "pregao": "2026-11-06",
+ "pregao": "2026-11-09",
  "nome": "InCashMarketBiggestHighs",
  "titulo": "Mercado à vista - maiores altas",
  "sla": "8:00:00",
@@ -7,18 +7,18 @@
  "colunas": [{"nome": "TckrSymb", "titulo": "Ação"}, {"nome": "Cod", "titulo": "Código"}, {"nome": "Price", "titulo": "Preço (R$)"}, {"nome": "Oscillation", "titulo": "Oscilação (%)"}],
  "texto": ["Mostra as maiores valorizações de ativos no mercado à vista, destacando as melhores performances."],
  "situacao": "publicado",
- "atualizado_em": "2026-11-06T18:55:40.02",
+ "atualizado_em": "2026-11-09T18:51:41.177",
  "truncada": false,
  "linhas": [
-  ["ONCO3", "ON      NM", 0.98, 12.64],
-  ["EVEB31", "DR1", 9.96, 13.05],
-  ["RGTI34", "DRN", 65.46, 13.35],
-  ["ONCO11", "BNS ORD NM", 0.16, 14.28],
-  ["QUBT34", "DRN", 35.6, 14.69],
-  ["EMET11", "CI", 10.59, 16.37],
-  ["LSOI11", "CI", 18, 17.49],
-  ["AZEV4", "PN", 0.79, 19.69],
-  ["VIVR12", "BNS ORD NM", 0.11, 22.22],
-  ["BEEF11", "BNS ORD NM", 0.35, 25]
+  ["T2TD34", "DRN", 82.85, 18.3],
+  ["ORVR11", "BNS ORD NM", 20.5, 19.39],
+  ["HCST11", "CI", 38.39, 19.96],
+  ["HGAG11", "CI  ER", 19.99, 34.43],
+  ["SEQL3", "ON  EG  NM", 9.5, 52],
+  ["STYI11", "CI", 598.99, 99.66],
+  ["AZTE1", "DIR ORD", 0.02, 100],
+  ["RAIZ16", "DIR UNT N2", 0.18, 1700],
+  ["RAIZ14", "DIR PNB N2", 0.23, 2200],
+  ["RAIZ1", "DIR ORD N2", 0.29, 2800]
  ]
 }

@@ -1,6 +1,6 @@
 {
  "pregao": "2026-11-06",
- "coletado_em": "2026-11-07T16:59:26Z",
+ "coletado_em": "2026-11-10T00:51:22Z",
  "tabelas": {
   "SharesInvesVolum": {
    "titulo": "Participação dos investidores",
@@ -21,7 +21,7 @@
   "EconomicIndicators": {
    "titulo": "Indicadores econômicos",
    "situacao": "republicado",
-   "atualizado_em": "2026-11-07T10:52:30.13",
+   "atualizado_em": "2026-11-09T10:53:02.773",
    "sla": "8:00:00",
    "linhas": 211,
    "truncada": false
@@ -133,15 +133,15 @@
   "Forward": {
    "titulo": "Ações mais negociadas - a termo",
    "situacao": "republicado",
-   "atualizado_em": "2026-11-07T02:32:11.613",
+   "atualizado_em": "2026-11-09T00:42:03.283",
    "sla": "8:00:00",
-   "linhas": 6,
+   "linhas": 7,
    "truncada": false
   },
   "OptionsPurshase": {
    "titulo": "Ações mais negociadas - opções de compra",
    "situacao": "republicado",
-   "atualizado_em": "2026-11-06T23:00:24.623",
+   "atualizado_em": "2026-11-09T00:41:56.263",
    "sla": "8:00:00",
    "linhas": 10,
    "truncada": false
@@ -149,7 +149,7 @@
   "OptionsSelling": {
    "titulo": "Ações mais negociadas - opções de venda",
    "situacao": "republicado",
-   "atualizado_em": "2026-11-06T23:00:24.233",
+   "atualizado_em": "2026-11-09T00:41:56.313",
    "sla": "8:00:00",
    "linhas": 10,
    "truncada": false
@@ -180,8 +180,8 @@
   },
   "AnalyticalFramework2": {
    "titulo": "Quadro analítico das posições em aberto",
-   "situacao": "aguardando",
-   "atualizado_em": "2026-11-06T00:00:38.003",
+   "situacao": "atrasado",
+   "atualizado_em": "2026-11-09T08:08:24.79",
    "sla": "8:00:00",
    "linhas": 69,
    "truncada": false
@@ -365,9 +365,9 @@
   "Trade": {
    "titulo": "Negócio a negócio",
    "situacao": "republicado",
-   "atualizado_em": "2026-11-06T19:47:44.133",
+   "atualizado_em": "2026-11-09T11:49:53.933",
    "sla": "18:00:00",
-   "linhas": 25449,
+   "linhas": 25480,
    "truncada": false
   },
   "BTBTrade": {
@@ -397,13 +397,17 @@
    "bytes": 20091058,
    "linhas": 89144,
    "estado": "Final"
+  },
+  "DerivativesOpenPosition": {
+   "arquivo": "DerivativesOpenPositionFile_20261106_1",
+   "bytes": 3501753,
+   "linhas": 43693,
+   "estado": null
   }
  },
- "falhas": {
-  "DerivativesOpenPosition": "arquivo DerivativesOpenPosition: token HTTP 400"
- },
+ "falhas": {},
  "rf_cadastro": {
-  "papeis_no_dia": 1515,
+  "papeis_no_dia": 1512,
   "consultados": 0,
   "achados": 0,
   "sem_cadastro": 0,

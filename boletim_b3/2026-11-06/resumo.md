@@ -1,26 +1,34 @@
 # Boletim da B3: pregão de 06/11/2026 (sexta)
 
-**Situação: PARCIAL.** Ainda sem: posições em aberto (opções e futuros), quadro de posições em aberto. A B3 publica esses blocos na madrugada seguinte ao pregão; a rodada da manhã completa.
-Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-11-07T16:59:44Z (UTC).
+**Situação: COMPLETO.** Boletim publicado pela B3 em 2026-11-09 09:29 (hora de Brasília).
+Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-11-10T00:53:00Z (UTC).
 
 [[LEITURA_DA_MESA]]
 
-## Sinais do dia (15)
+## Sinais do dia (23)
 
 **Novos hoje**
 
+- **Parede de opções.** MRVE3 fechou a 4,45 com o vencimento de 19/11 a 9 dias úteis e a maior posição em aberto de call em 4,50 (1.468.000 opções, +1,1% do preço). _(B3, DerivativesOpenPosition + InstrumentsConsolidated, 06/11)_
+- **Posição em opções.** SBSP3: a call SBSPK241 (strike 24,13, vencimento 19/11) ganhou 2.851.000 opções em aberto no dia, para 2.882.800. _(B3, DerivativesOpenPosition, 06/11)_
 - **Aluguel mudou.** SBSP3: saldo alugado subiu 25,0% em um pregão, para 109,8 mi de ações, com o preço em +6,99% no dia. _(B3, BTBLendingOpenPosition, 06/11)_
 - **Crédito: taxa abriu.** FSII14 (Fs I Industria de Etanol, debênture incentivada): a taxa indicativa da ANBIMA abriu 32,1 pb de 05/11 para 06/11, para IPCA+ 12,09%; na B3, negócios de 06/11 a IPCA+ 12,65% em R$ 14,4 mi. _(ANBIMA, taxa indicativa de debêntures, 06/11)_
-- **Crédito: taxa abriu.** SCPT13 (Sul Concessoes e Participacoes, debênture incentivada): taxa média dos negócios da B3 abriu 93 pb contra 20/10, para IPCA+ 8,95%, em R$ 5,0 mi. _(B3, Trade + InstrumentRegistration (preliminar), 06/11)_
-- **Crédito: taxa abriu.** CEEBF3 (Cia. de Eletric. do Est. da Bahia-Coe…, debênture incentivada): taxa média dos negócios da B3 abriu 59 pb contra 05/11, para Pré 15,32%, em R$ 22,0 mi. _(B3, Trade + InstrumentRegistration (preliminar), 06/11)_
-- **Crédito: prêmio alto.** CRA0190066O (Eco Securitizadora de Direitos Credit…, CRA): negociada a IPCA+ 13,90%, 632 pb acima do juro real de mercado de prazo equivalente, em R$ 8,8 mi. _(B3, Trade + InstrumentRegistration (preliminar), 06/11)_
-- **Crédito: prêmio alto.** 25K3757811 (Opea Securitizadora, CRI): negociada a CDI+ 6,02%, em R$ 37,3 mi. _(B3, Trade + InstrumentRegistration (preliminar), 06/11)_
-- **Crédito: prêmio alto.** 24J4921075 (Riza Securitizadora, CRI): negociada a CDI+ 5,65%, em R$ 10,2 mi. _(B3, Trade + InstrumentRegistration (preliminar), 06/11)_
+- **Crédito: taxa abriu.** SCPT13 (Sul Concessoes e Participacoes, debênture incentivada): taxa média dos negócios da B3 abriu 93 pb contra 20/10, para IPCA+ 8,95%, em R$ 5,0 mi. _(B3, Trade + InstrumentRegistration, 06/11)_
+- **Crédito: taxa abriu.** CEEBF3 (Cia. de Eletric. do Est. da Bahia-Coe…, debênture incentivada): taxa média dos negócios da B3 abriu 59 pb contra 05/11, para Pré 15,32%, em R$ 22,0 mi. _(B3, Trade + InstrumentRegistration, 06/11)_
+- **Crédito: prêmio alto.** CRA0190066O (Eco Securitizadora de Direitos Credit…, CRA): negociada a IPCA+ 13,90%, 632 pb acima do juro real de mercado de prazo equivalente, em R$ 8,8 mi. _(B3, Trade + InstrumentRegistration, 06/11)_
+- **Crédito: prêmio alto.** 25K3757811 (Opea Securitizadora, CRI): negociada a CDI+ 6,02%, em R$ 37,3 mi. _(B3, Trade + InstrumentRegistration, 06/11)_
+- **Crédito: prêmio alto.** 24J4921075 (Riza Securitizadora, CRI): negociada a CDI+ 5,65%, em R$ 10,2 mi. _(B3, Trade + InstrumentRegistration, 06/11)_
 - **Fluxo estrangeiro.** Estrangeiro vendeu R$ 1.667 mi líquidos em 04/11; no mês, até 04/11, saldo de -R$ 2.058 mi. _(B3, SharesInvesVolum, 04/11)_
 - **Listas do dia.** Do livro nas listas do boletim: maiores altas do Ibovespa: DIRR3 (2º), SBSP3 (6º), MRVE3 (7º); maiores baixas do Ibovespa: UGPA3 (2º), PETR4 (7º); mais negociadas à vista: PETR4 (1º), SBSP3 (2º), VALE3 (3º), ITUB4 (4º); calls mais negociadas: ITUBL433 (1º), SBSPK241 (2º), PETRL464 (3º), PETRL474 (5º); puts mais negociadas: BBASM260 (2º), BBASW261 (3º). _(B3, tabelas de maiores oscilacoes, 06/11)_
 
 **Já vinham de pregões anteriores**
 
+- **Parede de opções.** BBAS3 fechou a 17,13 com o vencimento de 19/11 a 9 dias úteis e a maior posição em aberto de put em 17,04 (11.660.200 opções, -0,5% do preço). _(B3, DerivativesOpenPosition + InstrumentsConsolidated, 06/11 · 2º pregão seguido)_
+- **Parede de opções.** BBDC4 fechou a 14,20 com o vencimento de 19/11 a 9 dias úteis e a maior posição em aberto de put em 14,20 (1.350.300 opções, +0,0% do preço). _(B3, DerivativesOpenPosition + InstrumentsConsolidated, 06/11 · 2º pregão seguido)_
+- **Parede de opções.** ITSA4 fechou a 12,95 com o vencimento de 19/11 a 9 dias úteis e a maior posição em aberto de put em 12,74 (15.661.600 opções, -1,6% do preço). _(B3, DerivativesOpenPosition + InstrumentsConsolidated, 06/11 · 2º pregão seguido)_
+- **Parede de opções.** UGPA3 fechou a 29,77 com o vencimento de 19/11 a 9 dias úteis e a maior posição em aberto de put em 29,00 (24.200 opções, -2,6% do preço). _(B3, DerivativesOpenPosition + InstrumentsConsolidated, 06/11 · 2º pregão seguido)_
+- **Posição em opções.** ITUB4: a put ITUBX433 (strike 39,20, vencimento 18/12) ganhou 3.067.807 opções em aberto no dia, para 8.839.720. _(B3, DerivativesOpenPosition, 06/11 · 7º pregão seguido)_
+- **Posição em opções.** PETR4: a call PETRL464 (strike 44,16, vencimento 18/12) ganhou 1.820.100 opções em aberto no dia, para 2.918.300. _(B3, DerivativesOpenPosition, 06/11 · 3º pregão seguido)_
 - **Aluguel alto.** BBAS3: saldo alugado de 452,0 mi de ações, 15,9% da quantidade teórica do índice e 7,7 pregões de giro; taxa média do tomador de 0,09% ao ano. _(B3, BTBLendingOpenPosition, 06/11 · 46º pregão seguido)_
 - **Aluguel alto.** CURY3: saldo alugado de 20,7 mi de ações, 12,9% da quantidade teórica do índice e 3,1 pregões de giro; taxa média do tomador de 2,14% ao ano. O preço subiu 3,6% em 5 pregões: aluguel alto e caro com preço subindo é o quadro em que o vendido costuma ser forçado a recomprar. _(B3, BTBLendingOpenPosition, 06/11 · 46º pregão seguido)_
 - **Aluguel alto.** DIRR3: saldo alugado de 37,2 mi de ações, 11,4% da quantidade teórica do índice e 2,0 pregões de giro; taxa média do tomador de 0,07% ao ano. _(B3, BTBLendingOpenPosition, 06/11 · 46º pregão seguido)_
@@ -68,18 +76,30 @@ Saldo = compras menos vendas, somando todos os mercados da B3. A B3 divulga com 
 
 | Contrato | Ajuste | Variação | Contratos em aberto |
 |---|---:|---:|---:|
-| DI1F27 | 13,664% | +0,4 pb | - |
-| DI1F28 | 14,310% | -1,5 pb | - |
-| DI1F29 | 14,671% | -5,6 pb | - |
-| DI1F30 | 14,851% | -5,6 pb | - |
-| DI1F32 | 14,981% | -6,3 pb | - |
-| DI1F35 | 15,014% | -6,1 pb | - |
-| DAPQ28 | 7,460% | -8,5 pb | - |
-| DAPQ30 | 7,750% | -11,0 pb | - |
-| DOLZ26 | 5.523,96 | +0,09% | - |
-| INDZ26 | 170.484,00 | +1,57% | - |
+| DI1F27 | 13,664% | +0,4 pb | 8.269.881 |
+| DI1F28 | 14,310% | -1,5 pb | 5.057.908 |
+| DI1F29 | 14,671% | -5,6 pb | 3.746.946 |
+| DI1F30 | 14,851% | -5,6 pb | 1.778.630 |
+| DI1F32 | 14,981% | -6,3 pb | 1.438.216 |
+| DI1F35 | 15,014% | -6,1 pb | 792.340 |
+| DAPQ28 | 7,460% | -8,5 pb | 466.397 |
+| DAPQ30 | 7,750% | -11,0 pb | 444.157 |
+| DOLZ26 | 5.523,96 | +0,09% | 837.166 |
+| INDZ26 | 170.484,00 | +1,57% | 187.176 |
 
 DI1 = DI futuro (taxa prefixada); DAP = cupom de IPCA (juro real); DOL = dólar futuro; IND = Ibovespa futuro. pb = ponto-base (0,01 ponto percentual).
+
+## Posições em aberto por mercado (futuros)
+
+| Mercado | Contratos | Variação no pregão | Referencial (R$ mi) |
+|---|---:|---:|---:|
+| IND | 195.961 | +1,29% | 33.454 |
+| WIN | 1.282.657 | -0,11% | 43.741 |
+| WDO | 966.476 | +12,34% | 53.390 |
+| DOL | 839.056 | +0,58% | 231.749 |
+| DAP | 3.382.814 | +0,06% | 470.643 |
+| DDI | 4.561.524 | -0,19% | 1.176.446 |
+| DI1 | 42.340.700 | +0,21% | 3.403.437 |
 
 ## O livro em blocos
 
@@ -146,6 +166,28 @@ x média = volume do dia dividido pela média dos pregões anteriores no histór
 
 Aluguel de ações (BTC, o banco de títulos da B3): quem aluga normalmente vende a descoberto, então o saldo mede a aposta vendida. Free float aqui é a quantidade teórica da carteira de índice.
 
+## Livro: opções (vencimento relevante mais próximo)
+
+| Ativo (vencimento) | Parede de call: strike (distância) | Parede de put: strike (distância) | Put/call |
+|---|---:|---:|---:|
+| EQTL3 (19/11) | 39,49 (+15,9%) | 31,99 (-6,1%) | 1,49 |
+| ITUB4 (19/11) | 45,07 (+11,2%) | 35,93 (-11,3%) | 0,78 |
+| BBDC4 (19/11) | 14,70 (+3,5%) | 14,20 (+0,0%) | 0,78 |
+| PETR4 (19/11) | 53,41 (+17,8%) | 38,16 (-15,9%) | 1,02 |
+| VALE3 (19/11) | 75,39 (+17,7%) | 59,39 (-7,3%) | 0,70 |
+| MELI34 (19/11) | 80,00 (+15,5%) | - | 0,70 |
+| UGPA3 (19/11) | 35,25 (+18,4%) | 29,00 (-2,6%) | 0,66 |
+| AXIA3 (19/11) | 49,75 (+3,0%) | 46,00 (-4,7%) | 1,00 |
+| ITSA4 (19/11) | 14,23 (+9,9%) | 12,74 (-1,6%) | 0,82 |
+| BBAS3 (19/11) | 18,29 (+6,8%) | 17,04 (-0,5%) | 0,86 |
+| SBSP3 (19/11) | 27,88 (+4,1%) | 25,38 (-5,2%) | 0,66 |
+| SMAL11 (19/11) | 102,00 (+5,1%) | 88,00 (-9,3%) | 0,38 |
+| DIRR3 (19/11) | 10,23 (+16,4%) | 7,48 (-14,9%) | 1,22 |
+| MRVE3 (19/11) | 4,50 (+1,1%) | 3,90 (-12,4%) | 0,67 |
+| CURY3 (19/11) | 32,37 (+19,4%) | 22,12 (-18,4%) | 2,23 |
+
+Parede = strike (preço de exercício) com a maior posição em aberto fora do dinheiro: call acima do preço (teto), put abaixo (piso); distância é contra o fechamento. Put/call = posição em aberto de puts dividida pela de calls, todos os vencimentos. Call = opção de compra; put = de venda.
+
 ## ETFs do livro
 
 | ETF | Valor de referência da cota (IOPV) | Prêmio ou desconto | Cotas criadas no dia |
@@ -186,17 +228,33 @@ ADR = recibo da ação negociado em Nova York. Ações entrando no programa indi
 
 **Volume fora do padrão no mercado:** BMGB4 4,9x (-1,82%), TUPY3 4,1x (+11,26%).
 
-## Renda fixa: debêntures incentivadas, CRI e CRA
+## Opções: o mercado inteiro
 
-**Preliminar:** a B3 ajusta os negócios de balcão no dia seguinte; volumes e taxas dos negócios deste pregão ainda podem mudar.
+Posição em aberto: 4,8 bi de calls e 4,0 bi de puts (put/call 0,84); no volume do dia, put/call 1,68.
+
+| Ativo | Calls | Puts | Put/call |
+|---|---:|---:|---:|
+| PETR4 | 384,9 mi | 392,4 mi | 1,02 |
+| BOVA11 | 365,2 mi | 369,3 mi | 1,01 |
+| BBAS3 | 382,9 mi | 330,7 mi | 0,86 |
+| BBDC4 | 342,0 mi | 267,1 mi | 0,78 |
+| ITUB4 | 233,6 mi | 181,7 mi | 0,78 |
+| VALE3 | 212,4 mi | 147,7 mi | 0,70 |
+| B3SA3 | 132,8 mi | 153,4 mi | 1,15 |
+| SMAL11 | 194,1 mi | 74,2 mi | 0,38 |
+
+**Séries que mais ganharam posição:** BMGBL750 (BMGB4, call, strike 6,83) +7,00 mi; BMGBX750 (BMGB4, put, strike 6,83) +7,00 mi; GGBRK25 (GGBR4, call, strike 25,35) +4,70 mi; GGBRW25 (GGBR4, put, strike 25,35) +4,69 mi.
+**Séries que mais perderam posição:** BOVAW161W1 (BOVA11, put, strike 161,00) -2,07 mi; BBDCW142W1 (BBDC4, put, strike 13,91) -1,01 mi; PETRL474 (PETR4, call, strike 45,16) -0,95 mi; PETRK551 (PETR4, call, strike 53,91) -0,93 mi.
+
+## Renda fixa: debêntures incentivadas, CRI e CRA
 
 **De onde vem cada taxa:** debêntures pela taxa indicativa da ANBIMA de 06/11 (1.270 papéis), com os negócios da B3 de 06/11 ao lado; CRI e CRA só pelos negócios da B3.
 
 | Classe | Volume do dia | Taxa mediana | Sobre o juro real |
 |---|---:|---:|---:|
-| Debêntures incentivadas | R$ 3,6 bi | IPCA+ 8,09% | +42 pb |
-| CRI | R$ 523,1 mi | IPCA+ 8,94% e CDI+ 1,17% | +133 pb |
-| CRA | R$ 239,0 mi | IPCA+ 10,42% e CDI+ 4,44% | +304 pb |
+| Debêntures incentivadas | R$ 3,5 bi | IPCA+ 8,09% | +42 pb |
+| CRI | R$ 504,8 mi | IPCA+ 8,94% e CDI+ 1,17% | +133 pb |
+| CRA | R$ 235,6 mi | IPCA+ 10,29% e CDI+ 4,44% | +304 pb |
 
 Nas incentivadas, a mediana pelos negócios do dia (B3 negócios de 06/11) foi IPCA+ 8,07%.
 
@@ -207,11 +265,11 @@ Nas incentivadas, a mediana pelos negócios do dia (B3 negócios de 06/11) foi I
 | CGOS16 | IPCA+ 8,45% (ANBIMA indicativa de 06/11) | IPCA+ 8,48%, R$ 5,3 mi | +69 pb na duration |
 | CGOS28 | IPCA+ 8,46% (ANBIMA indicativa de 06/11) | IPCA+ 8,38%, R$ 3,5 mi | +73 pb na duration |
 | 22B0006022 (MRV (CRI em IPCA, única série)) | IPCA+ 18,34% (B3 negócios de 06/11) | R$ 2,1 mi | +1.080 pb no vencimento |
-| CRA025003UZ (Cooxupé (% do CDI, única série)) | 97,2% do CDI (B3 negócios de 06/11) | R$ 354,1 mil | - |
+| CRA025003UZ (Cooxupé (% do CDI, única série)) | 123,9% do CDI (B3 negócios de 06/11) | R$ 276,5 mil | - |
 | CRA024007K9 (Cooxupé (CDI+, única série)) | CDI+ 2,19% (B3 negócios de 06/11) | R$ 390,0 mil | - |
-| CRA0240099F (Vale do Tijuco (IPCA, única série)) | IPCA+ 12,36% (B3 negócios de 06/11) | R$ 495,7 mil | +466 pb no vencimento |
+| CRA0240099F (Vale do Tijuco (IPCA, única série)) | IPCA+ 12,44% (B3 negócios de 06/11) | R$ 353,8 mil | +474 pb no vencimento |
 | CRA025007KK (Eldorado Celulose (prefixado, única série)) | 16,70% pré (B3 negócios de 06/11) | R$ 533,5 mil | - |
-| CERT11 | IPCA+ 8,61% (ANBIMA indicativa de 06/11) | IPCA+ 8,72%, R$ 7,7 mi | +106 pb na duration |
+| CERT11 | IPCA+ 8,61% (ANBIMA indicativa de 06/11) | IPCA+ 8,71%, R$ 7,4 mi | +106 pb na duration |
 | CRA020002H1 (BRF (IPCA, série a confirmar)) | IPCA+ 14,05% (B3 negócios de 06/11) | R$ 1,6 mi | +631 pb no vencimento |
 | CRA0240005O (Cereal (IPCA, série a confirmar)) | IPCA+ 10,38% (B3 negócios de 06/11) | R$ 79,9 mil | +286 pb no vencimento |
 | CRA0220073P (Minerva (IPCA, série a confirmar)) | IPCA+ 14,13% (B3 negócios de 06/11) | R$ 2,0 mi | +653 pb no vencimento |
@@ -230,10 +288,10 @@ Nas incentivadas, a mediana pelos negócios do dia (B3 negócios de 06/11) foi I
 |---|---:|---:|---:|
 | AURP12 (Auren Operacoes S.A.) | IPCA+ 8,13% (ANBIMA indicativa de 06/11) | IPCA+ 8,12%, R$ 207,8 mi | +34 pb na duration |
 | AESLC2 (Rge Sul Distribuidora De Ene) | IPCA+ 7,97% (ANBIMA indicativa de 06/11) | IPCA+ 7,95%, R$ 171,0 mi | +21 pb na duration |
-| PALFB6 (Companhia Paulista De Forca ) | IPCA+ 7,98% (ANBIMA indicativa de 06/11) | IPCA+ 8,04%, R$ 168,3 mi | +20 pb na duration |
 | CPLDA1 (Copel  Distribuicao S/A) | IPCA+ 8,06% (ANBIMA indicativa de 06/11) | IPCA+ 8,07%, R$ 166,8 mi | +35 pb na duration |
 | ISAEA9 (Isa Energia Brasil S.A.) | IPCA+ 7,91% (ANBIMA indicativa de 06/11) | IPCA+ 7,99%, R$ 114,1 mi | +22 pb na duration |
 | CPGS16 (Companhia Paranaense De Gas ) | IPCA+ 7,92% (ANBIMA indicativa de 06/11) | IPCA+ 7,83%, R$ 107,5 mi | +23 pb na duration |
+| PALFB6 (Companhia Paulista De Forca ) | IPCA+ 7,98% (ANBIMA indicativa de 06/11) | IPCA+ 8,04%, R$ 103,8 mi | +20 pb na duration |
 | ENTV13 (Entrevias Concessionaria De ) | IPCA+ 9,17% (ANBIMA indicativa de 06/11) | sem taxa, R$ 94,9 mi | +139 pb na duration |
 | EGIEA6 (Engie Brasil Energia Sa) | IPCA+ 8,04% (ANBIMA indicativa de 06/11) | IPCA+ 8,18%, R$ 91,4 mi | +34 pb na duration |
 
@@ -267,10 +325,11 @@ Por classe, mediana das taxas de referência dos papéis. Taxa de referência: n
 
 ## Lacunas e pendências
 
-- quadro de posições em aberto: aguardando
 - aluguel por corretora: ignorado
-- posições em aberto (opções e futuros): aguardando
+- Publicadas pela B3 depois do prazo, mas com dado: AnalyticalFramework2.
 - Posição em aberto de derivativos por tipo de investidor (estrangeiro, institucional, pessoa física): não existe no Boletim Diário do Mercado; procurado nas 69 tabelas e no texto dos 11 cadernos em 30/09/2026.
 - Fluxo por tipo de investidor sai acumulado no mês e com dois pregões de atraso; o saldo de um dia é a diferença entre dois acumulados seguidos.
 - RARA11: a B3 não publica valor de referência da cota (IOPV) para este ETF no boletim.
 - Paridade de MELI34: sem a barra de 06/11 de MELI nas séries do livro.
+
+Boletim completo em PDF (B3): https://arquivos.b3.com.br/bdi/download/bdi/2026-11-06/BDI_00_20261106.pdf
