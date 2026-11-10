@@ -7,7 +7,7 @@
  "colunas": [{"nome": "TckrSymb", "titulo": "Período"}, {"nome": "TotalWithMinis", "titulo": "Total com minis"}, {"nome": "TotalNoMinis", "titulo": "Total sem minis"}, {"nome": "ColOrder", "titulo": "Ordem"}],
  "texto": ["Médias diárias de contratos negociados."],
  "situacao": "republicado",
- "atualizado_em": "2026-11-10T00:42:10.14",
+ "atualizado_em": "2026-11-10T10:52:28.42",
  "truncada": false,
  "linhas": [
   ["Dia", 64833941, 42425607, 1],

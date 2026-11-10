@@ -1,6 +1,6 @@
 {
  "pregao": "2026-11-09",
- "coletado_em": "2026-11-10T07:44:34Z",
+ "coletado_em": "2026-11-10T18:48:48Z",
  "tabelas": {
   "SharesInvesVolum": {
    "titulo": "Participação dos investidores",
@@ -21,7 +21,7 @@
   "EconomicIndicators": {
    "titulo": "Indicadores econômicos",
    "situacao": "republicado",
-   "atualizado_em": "2026-11-10T04:33:01.56",
+   "atualizado_em": "2026-11-10T10:53:30.763",
    "sla": "8:00:00",
    "linhas": 434,
    "truncada": false
@@ -157,7 +157,7 @@
   "DailyAverageDerivatives2": {
    "titulo": "Derivativos",
    "situacao": "republicado",
-   "atualizado_em": "2026-11-10T00:42:10.14",
+   "atualizado_em": "2026-11-10T10:52:28.42",
    "sla": "6:00:00",
    "linhas": 9,
    "truncada": false
@@ -180,10 +180,10 @@
   },
   "AnalyticalFramework2": {
    "titulo": "Quadro analítico das posições em aberto",
-   "situacao": "aguardando",
-   "atualizado_em": "2026-11-09T00:00:38.013",
+   "situacao": "atrasado",
+   "atualizado_em": "2026-11-10T08:05:35.473",
    "sla": "8:00:00",
-   "linhas": 0,
+   "linhas": 70,
    "truncada": false
   },
   "SwapFlex": {
@@ -300,18 +300,18 @@
   },
   "Stock": {
    "titulo": "Estoque",
-   "situacao": "aguardando",
-   "atualizado_em": "2026-11-09T00:00:38.013",
+   "situacao": "publicado",
+   "atualizado_em": "2026-11-10T05:33:05.01",
    "sla": "8:00:00",
-   "linhas": 0,
+   "linhas": 42,
    "truncada": false
   },
   "Register": {
    "titulo": "Registro",
-   "situacao": "aguardando",
-   "atualizado_em": "2026-11-09T00:00:38.013",
+   "situacao": "publicado",
+   "atualizado_em": "2026-11-10T05:23:27.217",
    "sla": "8:00:00",
-   "linhas": 0,
+   "linhas": 18,
    "truncada": false
   },
   "RepurchaseDealings": {
@@ -365,9 +365,9 @@
   "Trade": {
    "titulo": "Negócio a negócio",
    "situacao": "republicado",
-   "atualizado_em": "2026-11-09T20:17:51.493",
+   "atualizado_em": "2026-11-10T11:56:17.897",
    "sla": "18:00:00",
-   "linhas": 33019,
+   "linhas": 33067,
    "truncada": false
   },
   "BTBTrade": {
@@ -407,7 +407,7 @@
  },
  "falhas": {},
  "rf_cadastro": {
-  "papeis_no_dia": 1697,
+  "papeis_no_dia": 1668,
   "consultados": 0,
   "achados": 0,
   "sem_cadastro": 0,

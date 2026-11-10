@@ -1,11 +1,11 @@
 # Boletim da B3: pregão de 09/11/2026 (segunda)
 
-**Situação: PARCIAL.** Ainda sem: quadro de posições em aberto. A B3 publica esses blocos na madrugada seguinte ao pregão; a rodada da manhã completa.
-Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-11-10T07:45:12Z (UTC).
+**Situação: COMPLETO.** Boletim publicado pela B3 em 2026-11-10 11:04 (hora de Brasília).
+Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-11-10T18:49:09Z (UTC).
 
 [[LEITURA_DA_MESA]]
 
-## Sinais do dia (23)
+## Sinais do dia (22)
 
 **Novos hoje**
 
@@ -17,10 +17,9 @@ Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-11
 - **Posição em opções.** BBAS3: a put BBASW159 (strike 15,79, vencimento 19/11) ganhou 20.268.700 opções em aberto no dia, para 22.018.700. _(B3, DerivativesOpenPosition, 09/11)_
 - **Aluguel alto.** PETR4: saldo alugado de 223,8 mi de ações, 5,1% da quantidade teórica do índice e 3,9 pregões de giro; taxa média do tomador de 0,20% ao ano. _(B3, BTBLendingOpenPosition, 09/11)_
 - **Crédito: taxa abriu.** TEPA23 (Brasil Tecnologia e Participacao, debênture incentivada): a taxa indicativa da ANBIMA abriu 49,6 pb de 06/11 para 09/11, para Pré 27,26%; na B3, negócios de 09/11 a Pré 26,76% em R$ 6,4 mi. _(ANBIMA, taxa indicativa de debêntures, 09/11)_
-- **Crédito: taxa abriu.** AGVL13 (Agro Industrias do Vale do Sao Franci…, debênture incentivada): taxa média dos negócios da B3 abriu 145 pb contra 26/10, para IPCA+ 9,39%, em R$ 5,1 mi. _(B3, Trade + InstrumentRegistration (preliminar), 09/11)_
+- **Crédito: taxa abriu.** AGVL13 (Agro Industrias do Vale do Sao Franci…, debênture incentivada): taxa média dos negócios da B3 abriu 145 pb contra 26/10, para IPCA+ 9,39%, em R$ 5,1 mi. _(B3, Trade + InstrumentRegistration, 09/11)_
 - **Crédito: prêmio alto.** NTEN11 (Norte Energia, debênture incentivada): taxa indicativa da ANBIMA de 09/11 a IPCA+ 12,46%, 503 pb acima do juro real de mercado na duration de 1,6 anos; na B3, negócios de 09/11 a IPCA+ 12,57% em R$ 14,3 mi. _(ANBIMA e B3, taxa indicativa de debêntures (ANBIMA) e DAP (B3), 09/11)_
-- **Crédito: prêmio alto.** ELPLA5 (Eletropaulo Metropol. Eletr. de S.P., debênture incentivada): taxa indicativa da ANBIMA de 09/11 a IPCA+ 12,01%, 441 pb acima do juro real de mercado na duration de 3,1 anos; na B3, negócios de 09/11 a IPCA+ 12,05% em R$ 5,2 mi. _(ANBIMA e B3, taxa indicativa de debêntures (ANBIMA) e DAP (B3), 09/11)_
-- **Crédito: prêmio alto.** DIXE12 (Dix Empreendimentos, debênture incentivada): negociada a IPCA+ 11,18%, 382 pb acima do juro real de mercado de prazo equivalente, em R$ 8,0 mi. _(B3, Trade + InstrumentRegistration (preliminar), 09/11)_
+- **Crédito: prêmio alto.** RMSA12 (Brk Ambiental - Regiao Metropolitana…, debênture incentivada): taxa indicativa da ANBIMA de 09/11 a IPCA+ 10,75%, 311 pb acima do juro real de mercado na duration de 6,6 anos; R$ 14,1 mi negociados na B3 em 09/11, sem taxa. _(ANBIMA e B3, taxa indicativa de debêntures (ANBIMA) e DAP (B3), 09/11)_
 - **Fluxo estrangeiro.** Estrangeiro vendeu R$ 1.734 mi líquidos em 05/11; no mês, até 05/11, saldo de -R$ 3.793 mi. _(B3, SharesInvesVolum, 05/11)_
 - **Listas do dia.** Do livro nas listas do boletim: maiores baixas do Ibovespa: BBAS3 (5º), PETR4 (9º); mais negociadas à vista: PETR4 (1º), VALE3 (2º), SBSP3 (3º), ITUB4 (5º); calls mais negociadas: SBSPK241 (1º), VALEK641 (4º), SBSPL130 (5º). _(B3, tabelas de maiores oscilacoes, 09/11)_
 
@@ -88,6 +87,18 @@ Saldo = compras menos vendas, somando todos os mercados da B3. A B3 divulga com 
 | INDZ26 | 174.164,00 | +2,16% | 190.581 |
 
 DI1 = DI futuro (taxa prefixada); DAP = cupom de IPCA (juro real); DOL = dólar futuro; IND = Ibovespa futuro. pb = ponto-base (0,01 ponto percentual).
+
+## Posições em aberto por mercado (futuros)
+
+| Mercado | Contratos | Variação no pregão | Referencial (R$ mi) |
+|---|---:|---:|---:|
+| IND | 199.366 | +1,74% | 34.769 |
+| WIN | 1.370.365 | +6,84% | 47.742 |
+| WDO | 1.065.168 | +10,21% | 58.938 |
+| DOL | 827.639 | -1,36% | 228.974 |
+| DAP | 3.377.893 | -0,15% | 471.424 |
+| DDI | 4.563.318 | +0,04% | 1.178.862 |
+| DI1 | 42.412.706 | +0,17% | 3.414.171 |
 
 ## O livro em blocos
 
@@ -235,17 +246,15 @@ Posição em aberto: 4,9 bi de calls e 4,2 bi de puts (put/call 0,85); no volume
 
 ## Renda fixa: debêntures incentivadas, CRI e CRA
 
-**Preliminar:** a B3 ajusta os negócios de balcão no dia seguinte; volumes e taxas dos negócios deste pregão ainda podem mudar.
-
 **De onde vem cada taxa:** debêntures pela taxa indicativa da ANBIMA de 09/11 (1.270 papéis), com os negócios da B3 de 09/11 ao lado; CRI e CRA só pelos negócios da B3.
 
 | Classe | Volume do dia | Taxa mediana | Sobre o juro real |
 |---|---:|---:|---:|
-| Debêntures incentivadas | R$ 3,2 bi | IPCA+ 8,06% | +46 pb |
-| CRI | R$ 706,6 mi | IPCA+ 9,26% e CDI+ 2,00% | +168 pb |
-| CRA | R$ 211,5 mi | IPCA+ 10,87% e CDI+ 1,36% | +329 pb |
+| Debêntures incentivadas | R$ 3,0 bi | IPCA+ 8,05% | +45 pb |
+| CRI | R$ 699,0 mi | IPCA+ 9,26% e CDI+ 2,00% | +168 pb |
+| CRA | R$ 204,8 mi | IPCA+ 10,87% e CDI+ 1,36% | +329 pb |
 
-Nas incentivadas, a mediana pelos negócios do dia (B3 negócios de 09/11) foi IPCA+ 8,10%.
+Nas incentivadas, a mediana pelos negócios do dia (B3 negócios de 09/11) foi IPCA+ 8,08%.
 
 **Papéis acompanhados (config/boletim.yaml)**
 
@@ -285,11 +294,11 @@ Sem negócio neste pregão e sem taxa indicativa: CRA0240005O.
 | CEED17 (Companhia Estadual De Distri) | IPCA+ 8,47% (ANBIMA indicativa de 09/11) | IPCA+ 8,52%, R$ 55,5 mi | +81 pb na duration |
 | AESLA7 (Rge Sul Distribuidora De Ene) | IPCA+ 7,93% (ANBIMA indicativa de 09/11) | IPCA+ 8,03%, R$ 51,3 mi | +23 pb na duration |
 
-**Abriram taxa pela indicativa da ANBIMA:** TEPA23 +49,6 pb contra 06/11, para 27,26% pré (R$ 6,4 mi); RUMOA2 +13,8 pb contra 06/11, para IPCA+ 8,73% (R$ 4,0 mi); GASC19 +8,2 pb contra 06/11, para IPCA+ 8,83% (R$ 19,8 mi); SBSPB6 +4,7 pb contra 06/11, para IPCA+ 6,47% (R$ 4,2 mi); SBSPK8 +4,4 pb contra 06/11, para IPCA+ 8,00% (R$ 35,8 mi).
-**Fecharam taxa pela indicativa da ANBIMA:** GSTS14 -19,1 pb contra 06/11, para IPCA+ 11,42% (R$ 3,6 mi); BRST11 -16,3 pb contra 06/11, para IPCA+ 5,86% (R$ 4,8 mi); AESLA9 -14,6 pb contra 06/11, para IPCA+ 7,91% (R$ 19,5 mi); CGOSA0 -14,5 pb contra 06/11, para IPCA+ 8,48% (R$ 4,2 mi); ENGIB9 -13,6 pb contra 06/11, para IPCA+ 8,20% (R$ 16,7 mi).
+**Abriram taxa pela indicativa da ANBIMA:** TEPA23 +49,6 pb contra 06/11, para 27,26% pré (R$ 6,4 mi); RUMOA2 +13,8 pb contra 06/11, para IPCA+ 8,73% (R$ 4,0 mi); GASC19 +8,2 pb contra 06/11, para IPCA+ 8,83% (R$ 19,8 mi); SBSPB6 +4,7 pb contra 06/11, para IPCA+ 6,47% (R$ 4,2 mi); SBSPK8 +4,4 pb contra 06/11, para IPCA+ 8,00% (R$ 20,7 mi).
+**Fecharam taxa pela indicativa da ANBIMA:** GSTS14 -19,1 pb contra 06/11, para IPCA+ 11,42% (R$ 3,6 mi); BRST11 -16,3 pb contra 06/11, para IPCA+ 5,86% (R$ 4,8 mi); AESLA9 -14,6 pb contra 06/11, para IPCA+ 7,91% (R$ 19,2 mi); CGOSA0 -14,5 pb contra 06/11, para IPCA+ 8,48% (R$ 4,2 mi); ENGIB9 -13,6 pb contra 06/11, para IPCA+ 8,20% (R$ 16,7 mi).
 **Abriram taxa pelos negócios da B3:** 22K0934880 +1.821 pb contra 16/09, para IPCA+ 39,33% (R$ 3,9 mi); MEZ511 +248 pb contra 23/10, para IPCA+ 12,72% (R$ 3,2 mi); AGVL13 +145 pb contra 26/10, para IPCA+ 9,39% (R$ 5,1 mi); 21K0001812 +44 pb contra 06/11, para IPCA+ 27,02% (R$ 4,4 mi); PCHV11 +14 pb contra 21/09, para IPCA+ 10,40% (R$ 4,0 mi).
-**Fecharam taxa pelos negócios da B3:** ORIG22 -866 pb contra 30/10, para 16,48% pré (R$ 5,3 mi); 24A2715837 -206 pb contra 05/11, para 19,25% pré (R$ 3,2 mi); CRA0260060Q -61 pb contra 04/11, para 15,49% pré (R$ 17,5 mi); DIXE12 -49 pb contra 02/09, para IPCA+ 11,18% (R$ 8,0 mi); BION16 -19 pb contra 05/11, para IPCA+ 9,07% (R$ 5,0 mi).
-**Prêmio alto:** 22K0934880 a IPCA+ 39,33% (B3 negócios de 09/11), +3.173 pb no vencimento, R$ 3,9 mi; 21K0001812 a IPCA+ 27,02% (B3 negócios de 09/11), +1.932 pb no vencimento, R$ 4,4 mi; MEZ511 a IPCA+ 12,72% (B3 negócios de 09/11), +536 pb no vencimento, R$ 3,2 mi; NTEN11 a IPCA+ 12,46% (ANBIMA indicativa de 09/11), +503 pb na duration, R$ 14,3 mi; ELPLA5 a IPCA+ 12,01% (ANBIMA indicativa de 09/11), +441 pb na duration, R$ 5,2 mi.
+**Fecharam taxa pelos negócios da B3:** ORIG22 -866 pb contra 30/10, para 16,48% pré (R$ 5,3 mi); 24A2715837 -206 pb contra 05/11, para 19,25% pré (R$ 3,2 mi); CRA0260060Q -61 pb contra 04/11, para 15,49% pré (R$ 17,5 mi); BION16 -19 pb contra 05/11, para IPCA+ 9,07% (R$ 5,0 mi); 21H1078699 -17 pb contra 05/11, para IPCA+ 11,69% (R$ 3,3 mi).
+**Prêmio alto:** 22K0934880 a IPCA+ 39,33% (B3 negócios de 09/11), +3.173 pb no vencimento, R$ 3,9 mi; 21K0001812 a IPCA+ 27,02% (B3 negócios de 09/11), +1.932 pb no vencimento, R$ 4,4 mi; MEZ511 a IPCA+ 12,72% (B3 negócios de 09/11), +536 pb no vencimento, R$ 3,2 mi; NTEN11 a IPCA+ 12,46% (ANBIMA indicativa de 09/11), +503 pb na duration, R$ 14,3 mi; 21H1078699 a IPCA+ 11,69% (B3 negócios de 09/11), +426 pb no vencimento, R$ 3,3 mi.
 
 Por classe, mediana das taxas de referência dos papéis. Taxa de referência: nas debêntures, a indicativa da ANBIMA quando há; nos demais papéis, a média dos negócios da B3 ponderada pelo volume. Juro real = DAP (cupom de IPCA) da mesma data: na duration do papel quando a taxa é a indicativa, no vencimento quando é a dos negócios (aproximação). Em CRI e CRA a B3 informa a securitizadora.
 
@@ -316,11 +325,11 @@ Por classe, mediana das taxas de referência dos papéis. Taxa de referência: n
 
 ## Lacunas e pendências
 
-- quadro de posições em aberto: aguardando
 - aluguel por corretora: ignorado
-- Register: aguardando
-- Stock: aguardando
+- Publicadas pela B3 depois do prazo, mas com dado: AnalyticalFramework2.
 - Posição em aberto de derivativos por tipo de investidor (estrangeiro, institucional, pessoa física): não existe no Boletim Diário do Mercado; procurado nas 69 tabelas e no texto dos 11 cadernos em 30/09/2026.
 - Fluxo por tipo de investidor sai acumulado no mês e com dois pregões de atraso; o saldo de um dia é a diferença entre dois acumulados seguidos.
 - RARA11: a B3 não publica valor de referência da cota (IOPV) para este ETF no boletim.
 - Paridade de MELI34: sem a barra de 09/11 de MELI nas séries do livro.
+
+Boletim completo em PDF (B3): https://arquivos.b3.com.br/bdi/download/bdi/2026-11-09/BDI_00_20261109.pdf
