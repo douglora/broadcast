@@ -7,17 +7,17 @@
  "colunas": [{"nome": "TckrSymb", "titulo": "Período"}, {"nome": "TotalWithMinis", "titulo": "Total com minis"}, {"nome": "TotalNoMinis", "titulo": "Total sem minis"}, {"nome": "ColOrder", "titulo": "Ordem"}],
  "texto": ["Médias diárias de contratos negociados."],
  "situacao": "republicado",
- "atualizado_em": "2026-11-09T19:40:12",
+ "atualizado_em": "2026-11-10T00:42:10.14",
  "truncada": false,
  "linhas": [
-  ["Dia", 29035792, 6627458, 1],
-  ["Mês", 47655177.6, 23834810.4, 2],
+  ["Dia", 64833941, 42425607, 1],
+  ["Mês", 54814807.4, 30994440.2, 2],
   ["Mês anterior", 57243084.428571425, 33260516.476190478, 3],
-  ["Trimestre", 68589555.28571428, 38935471.333333336, 4],
+  ["Trimestre", 70294229.04761904, 40640145.0952381, 4],
   ["Trimestre anterior", 45510770.24615385, 26562911.353846155, 5],
-  ["Semestre", 48336051.94505495, 27958616.87912088, 6],
+  ["Semestre", 48729438.1978022, 28352003.13186813, 6],
   ["Semestre anterior", 59458480.24590164, 38409709.13934426, 7],
-  ["Ano", 54706644.680751175, 33944688.50234742, 8],
+  ["Ano", 54874711.10798122, 34112754.92957746, 8],
   ["Ano anterior", 49163413.67460317, 31961295.785714287, 9]
  ]
 }
