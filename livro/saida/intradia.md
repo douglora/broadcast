@@ -1,271 +1,228 @@
 ALERTAS · intradia
 
-(pendente de slot anterior) [CRÍTICO] CURVA · C05 IPCA+ 2050 PU -6,0% em 5 datas-base (base 05/11) / C07 UST FECHOU: 2y -12 bps · 2y cruzou 4,50% (05/11) / C03 DI em nível: F30 cruzou 15,00% (para baixo, agora 14,91%)
-TD Pre 2029 14,75 (-14) · IPCA+ 2032 7,85 (-2) · IPCA+ 2040 7,56 (-2) · IPCA+ 2050 7,42 (+1) · Pre 2032 15,14 (-9)
-2y 4,46 · 10y 4,84 · 30y 5,25 · 2s10s +38 bps
-Transmissão: IUAA (iShares US Aggregate Bond, duração ~6) ≈ +0,4%; alivia CNDX/RBOT e o real
-Implícita 2029: 6,58% (+93 bps na semana) vs Focus IPCA 2029 3,98% (+260 bps)
-Implícita 2032: 6,76% (+6 bps na semana) vs Focus IPCA 2030 3,81% (+294 bps)
-Implícita 2031/32 (descasado): 6,87% (+119 bps na semana) vs Focus IPCA 2030 3,81% (+305 bps)
-Por que importa: fechamento de taxa é ganho de marcação; quem carrega até o vencimento não mudou de rentabilidade
-Como falar: 'a marcação a mercado veio a favor; o rendimento contratado segue igual'
-Fonte: B3 ajuste 05/11 · Tesouro Transparente base 05/11; BCB Focus · Tesouro Transparente, base 05/11 · Treasury.gov CMT 05/11
-ids: C05-TESOURO-fechou-2026-11-05, C07-UST-fechou-2026-11-05, C03-DI-di-2026-11-05, C06-TESOURO-implicita-2026-11-05
+(pendente de slot anterior) [CRÍTICO] T08 · 2 ativos: CVX, BRENT
+· CVX entrou em correção: -11% do pico de 52s (US$ 235,52 em 30/10) a US$ 210,78
+  1m -0,6% · 6m +16% · 12m +41%
+· BRENT entrou em bear técnico: -22% do pico de 52s (US$ 118,35 em 31/03) a US$ 92,57
+  1m -12% · 6m -11% · 12m +45%
+Por que importa: -10% do pico é o limiar que a indústria chama de correção; recuperar o pico exige +12%
+Como falar: 'o cliente sente a queda no extrato; a conversa é sobre a tese, não sobre o preço de hoje'
+Fonte: Yahoo Finance fech. 09/11
+ids: T08-CVX--10-2026-11-09, T08-BRENT--20-2026-11-09
 
-(pendente de slot anterior) [CRÍTICO] T05 · 14 ativos: VWRA, CSPX, CNDX, RBOT, SPY, BOTZ, QNTM, QANT, QTUM, PLTR, TSLA, JPM, MELI34, ETH
-· VWRA (Vanguard FTSE All-World UCITS ETF USD Accumulating) -2,3% no dia a US$ 186,28: movimento de 3,4 desvios para uma vol de 20 dias de 11% a.a.
-  1m -4,8% · 6m +0,1% · YTD +9,2%
-· CSPX (iShares Core S&P 500 UCITS ETF USD (Acc)) -2,6% no dia a US$ 807,58: movimento de 4,1 desvios para uma vol de 20 dias de 10% a.a.
-  1m -4,5% · 6m +1,8% · YTD +9,3%
-· CNDX (iShares NASDAQ 100 UCITS ETF USD (Acc)) -4,5% no dia a US$ 1.563: movimento de 4,0 desvios para uma vol de 20 dias de 18% a.a.
-  1m -13% · 6m -5,4% · YTD +6,5%
-· RBOT (iShares Automation & Robotics UCITS ETF USD (Acc)) -5,4% no dia a US$ 19,33: movimento de 3,5 desvios para uma vol de 20 dias de 25% a.a.
-  1m -16% · 6m -4,2% · YTD +18%
-· SPY -4,2% no dia a US$ 734,79: movimento de 5,3 desvios para uma vol de 20 dias de 13% a.a.
-  1m -5,7% · 6m +0,9% · YTD +8,6%
-· BOTZ -6,8% no dia a US$ 30,59: movimento de 4,2 desvios para uma vol de 20 dias de 27% a.a.
-  1m -15% · 6m -23% · YTD -16%
-· QNTM -6,9% no dia a US$ 23,08: movimento de 4,0 desvios para uma vol de 20 dias de 28% a.a.
-  1m -23% · 6m -21% · YTD -8,0%
-· QANT -4,2% no dia a US$ 5,11: movimento de 3,1 desvios para uma vol de 20 dias de 22% a.a.
-  1m -17% · 6m -16% · YTD +1,3%
-· QTUM -8,4% no dia a US$ 119,55: movimento de 3,8 desvios para uma vol de 20 dias de 37% a.a.
-  1m -24% · 6m -15% · YTD +9,8%
-· PLTR -9,8% no dia a US$ 154,82: movimento de 3,2 desvios para uma vol de 20 dias de 52% a.a.
-  1m -19% · 6m +13% · YTD -13%
-· TSLA -11% no dia a US$ 342,99: movimento de 4,8 desvios para uma vol de 20 dias de 39% a.a.
-  1m -9,9% · 6m -17% · YTD -24%
-· JPM -4,3% no dia a US$ 336,97: movimento de 3,3 desvios para uma vol de 20 dias de 21% a.a.
-  1m +1,7% · 6m +11% · YTD +6,6%
-· MELI34 -6,1% no dia a R$ 69,31: movimento de 4,3 desvios para uma vol de 20 dias de 23% a.a.
-  1m -10% · 6m -5,7% · YTD -25%
-· ETH -7,3% no dia a US$ 2.245: movimento de 3,5 desvios para uma vol de 20 dias de 34% a.a.
-  1m -17% · 6m -2,0% · YTD -24%
-Por que importa: acima de 3 desvios o movimento sai do ruído e costuma vir de fato novo ou fluxo forçado
-Como falar: 'o movimento de hoje é atípico para este papel; antes de mexer, saber o motivo'
-Fonte: Yahoo Finance fech. 05/11
-ids: T05-VWRA-queda-2026-11-05, T05-CSPX-queda-2026-11-05, T05-CNDX-queda-2026-11-05, T05-RBOT-queda-2026-11-05, T05-SPY-queda-2026-11-05, T05-BOTZ-queda-2026-11-05, T05-QNTM-queda-2026-11-05, T05-QANT-queda-2026-11-05, T05-QTUM-queda-2026-11-05, T05-PLTR-queda-2026-11-05, T05-TSLA-queda-2026-11-05, T05-JPM-queda-2026-11-05, T05-MELI34-queda-2026-11-05, T05-ETH-queda-2026-11-05
+(pendente de slot anterior) [CRÍTICO] F03 · Brent cai a US$ 92,57 (-5,8% no dia · -12% em 5 sessões)
+Em reais: R$ 510/barril (-5,9%)
+CVX -0,9% no dia
+Por que importa: barril mais barato reduz a receita em dólar das produtoras e alivia a inflação via combustíveis
+Ativos: PETR4 ↓ · CVX ↓ · UGPA3 ↑
+Como falar: 'o petróleo caiu forte; para a Petrobras o efeito é diluído pela política de preços'
+Fonte: ICE via Yahoo 09/11
+ids: F03-BRENT-queda-2026-11-09
 
-(pendente de slot anterior) [ATENÇÃO] E03 · SBSP3 · Fato Relevante: A Companhia de Saneamento Básico do Estado de São Paulo – Sabesp (“Companhia” ou “Sabesp”) informa que, em reunião realizada nesta data , o Conselho…
-CVM · entregue 05/11/2026 19:22
-Do documento:
-  – Farão jus aos juros sobre o capital próprio ora creditados os acionistas que constarem da base acionária  da Companhia no final do pregão de 10 de novembro de 2026.
-  – As ações de emissão da Companhia  passarão a ser negociadas “ex -JCP” na B3 S.A. – Brasil, Bolsa, Balcão a partir de 11 de novembro de  2026 (inclusive).
-  – São Paulo, 05 de novembro de 2026.
-  – It will be paid until the date of  the Company's Ordinary General Meeting that approves the financial statements for the fiscal year  2026.
-  – Shareholders listed in the Company's shareholder base at the close of trading on November 10,  2026, will be entitled to the interest on shareholders' equity credited hereby.
-  – The Company's shares  will trade "ex -interest on equity" on B3 S.A. – Brasil, Bolsa, Balcão from November 11, 2026  (inclusive).
-Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1585100
-Por que importa: fato relevante e o que a propria companhia julga capaz de mover o preco; ler o documento inteiro antes de comentar
-Ativos: SBSP3
-Como falar: 'a Sabesp publicou fato relevante sobre A Companhia de Saneamento Básico do Estado de São Paulo – Sabesp (“Co…'
-Fonte: CVM 05/11
-ids: E03-SBSP3-1585100-2026-11-05
+(pendente de slot anterior) [ATENÇÃO] E05 · ITSA4 · Itaúsa tem lucro líquido recorrente de R$5,1 bi no 3º tri
+TradingView (Reuters) · 09/11 19h13 · fonte única · licença: manchete
+Link: https://br.tradingview.com/news/reuters.com,2026:newsml_S0N46E05B:0/
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: ITSA4
+Como falar: 'saiu no TradingView (Reuters): Itaúsa tem lucro líquido recorrente de R$5,1 bi no 3º tri; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 09/11 19h13
+ids: E05-ITSA4-aa123100d2-2026-11-09
 
-(pendente de slot anterior) [ATENÇÃO] E03 · SBSP3 · Fato Relevante: A Companhia de Saneamento Básico do Estado de São Paulo – Sabesp (“Companhia” ou “Sabesp”) informa que, em reunião realizada nesta data , o Conselho…
-CVM · entregue 05/11/2026 18:44
-Do documento:
-  – Farão jus aos juros sobre o capital próprio ora creditados os acionistas que constarem da base acionária  da Companhia no final do pregão de 10 de novembro de 2026.
-  – As ações de emissão da Companhia  passarão a ser negociadas “ex -JCP” na B3 S.A. – Brasil, Bolsa, Balcão a partir de 11 de novembro de  2026 (inclusive).
-  – São Paulo, 05 de novembro de 2026.
-  – It will be paid until the date of the Company's Ordinary  General Meeting that approves the financial statements for the fiscal year 2026.
-  – Shareholders listed in the Company's shareholder base at the close of trading on November 10,  2026, will be entitled to the interest on shareholders' equity credited hereby.
-  – The Company's shares  will trade "ex -interest on equity" on B3 S.A. – Brasil, Bolsa, Balcão from November 11, 2026  (inclusive).
-Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1585041
-Por que importa: fato relevante e o que a propria companhia julga capaz de mover o preco; ler o documento inteiro antes de comentar
-Ativos: SBSP3
-Como falar: 'a Sabesp publicou fato relevante sobre A Companhia de Saneamento Básico do Estado de São Paulo – Sabesp (“Co…'
-Fonte: CVM 05/11
-ids: E03-SBSP3-1585041-2026-11-05
-
-(pendente de slot anterior) [ATENÇÃO] E03 · AXIA3 · Fato Relevante: O cancelamento d e registro perante a U.S.
-CVM · entregue 05/11/2026 18:02
-Do documento:
-  – Nos termos da Rule 12g3-2(b) do Exchange Act, a Companhia continuará publicando, em seu site de Relações  com Investidores (https://ri.axia.com.br/en/), as traduções para o inglês das informações divulgadas no Brasil.
-  – Securities and  Exchange Commission ("SEC") became effective as of this date.
-  – In addition,  its officers and directors are no longer subject to the beneficial ownership reporting requirements  under Section 16(a) of the Exchange Act.
-  – Pursuant to Rule 12g3-2(b) of the Exchange Act, the Company will continue to make available on its  Investor Relations website (https://ri.axia.com.br/en/ ) English translations of the information disclosed  in Brazil.
-  – The Company remains listed on B3's Novo Mercado segment, which represents the highest  corporate governance standards in the Brazilian capital market, and its American Depositary Receipts  ("ADRs") continue to be traded…
-Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1584807
-Por que importa: fato relevante e o que a propria companhia julga capaz de mover o preco; ler o documento inteiro antes de comentar
-Ativos: AXIA3
-Como falar: 'a Axia Energia publicou fato relevante sobre O cancelamento d e registro perante a U.S.'
-Fonte: CVM 05/11
-ids: E03-AXIA3-1584807-2026-11-05
-
-(pendente de slot anterior) [ATENÇÃO] E04 · MU · 8-K: 5.02 entrada ou saida de diretor ou conselheiro
-SEC EDGAR · aceito 05/11 18h33 · FORM 8-K
-Do documento:
-  – On November 2, 2026, Linnie M.
-  – Haynesworth notified the Governance and Sustainability Committee of the Board of Directors (the “Board”) of Micron Technology, Inc. (the “Company”) that she would retire from the Board and, accordingly, Ms.
-  – Haynesworth will not be nominated for re-election at the Company’s fiscal 2026 annual shareholders meeting (the “Annual Meeting”).
-  – Date: November 5, 2026   MICRON TECHNOLOGY, INC.
-Link: https://www.sec.gov/Archives/edgar/data/723125/000110465926123389/tm2629062d1_8k.htm
-Por que importa: troca de diretor ou conselheiro reabre a discussao de estrategia
-Ativos: MU
-Como falar: 'a MU protocolou 8-K na SEC (5.02 entrada ou saida de diretor ou conselheiro)'
-Fonte: SEC EDGAR 2026-11-05
-ids: E04-MU-26123389-2026-11-05
-
-(pendente de slot anterior) [ATENÇÃO] E05 · SBSP3 · Dividendos e JCPs: Sabesp (SBSP3) vai depositar R$ 2,6 bilhões — e ainda dá para aproveitar
-Seu Dinheiro · 05/11 19h58 · fonte única · licença: resumo
+(pendente de slot anterior) [ATENÇÃO] E05 · MU · Micron Rises 6% as Bulls Tout Its Bargain Valuation and Buyback Firepower; Seagate and Western Digital Jump 11%
+Yahoo Finance · 09/11 14h52 · fonte única · licença: resumo
 Trechos (licença resumo: reescrever, não colar):
-  – O valor corresponde a R$ 0,75 por ação.
-  – Terão direito ao provento os investidores posicionados no papel até o fechamento do pregão de 10 de dezembro.
-  – A partir de 11 de dezembro, as ações passarão a ser negociadas na condição "ex-JCP", ou seja, sem direito ao pagamento.
-  – O pagamento será realizado até a data da Assembleia Geral Ordinária (AGO) que aprovar as demonstrações financeiras referentes ao exercício de 2026.
-  – A Sabesp registrou lucro líquido de R$ 1,388 bilhão, uma queda de 35,7% em relação ao mesmo período do ano anterior.
-  – Considerando os ajustes que excluem efeitos não recorrentes, o lucro foi de R$ 1,107 bilhão, recuo de 13,8%.
-Link: https://www.seudinheiro.com/2026/empresas/dividendos-e-jcps-sabesp-sbsp3-vai-depositar-r-26-bilhoes-e-ainda-da-para-aproveitar/
+  – Quick Read - Micron trades at a 4x forward earnings multiple while a $35 billion buyback starts December 9, but cyclical-peak fears keep skeptics wary.
+  – - Seagate and Western Digital surged 11% on AI storage demand, outpacing Micron's bounce despite pricier forward multiples than the memory leader.
+  – - SanDisk sports the cheapest trailing multiple of the group at 7x, with an eight-for-one split arriving November 19.
+  – Micron stock is at $733.98, up 6% in afternoon trading.
+  – Against that background, Micron trades at a trailing 12-month price-to-earnings (P/E) ratio of 9x and a forward P/E of 4x.
+  – Micron's Buyback Math Has Value Investors Circling CNBC's Halftime Report gave the bull case a loud coverage on Friday, November 6, when a panelist argued that Micron will buy back $100 billion of stock at its depressed…
+Link: https://finance.yahoo.com/markets/stocks/articles/micron-rises-6-bulls-tout-175231901.html
 Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
-Ativos: SBSP3
-Como falar: 'saiu no Seu Dinheiro: Dividendos e JCPs: Sabesp (SBSP3) vai depositar R$ 2,6 bilhões — e ainda dá para aproveit…; confirmar o número no texto antes de repassar'
-Fonte: Seu Dinheiro 05/11 19h58
-ids: E05-SBSP3-a1ef41c9a4-2026-11-05
+Ativos: MU
+Como falar: 'saiu no Yahoo Finance: Micron Rises 6% as Bulls Tout Its Bargain Valuation and Buyback Firepower; Seagate and We…; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 09/11 14h52
+ids: E05-MU-38571517a9-2026-11-09
 
-(pendente de slot anterior) [ATENÇÃO] E05 · SBSP3 · Sabesp (SBSP3) pagará R$ 2,6 bilhões em juros sobre capital próprio; veja como aproveitar
-Money Times · 05/11 19h46 · fonte única · licença: integral
-Do texto:
-  – Sabesp (SBSP3) pagará R$ 2,6 bilhões em juros sobre capital próprio; veja como aproveitar A Sabesp (SBSP3) aprovou R$ 2,6 bilhões em juros sobre o capital próprio, mostra documento enviado ao mercado nesta quinta-feira…
-  – Segundo o comunicado, o valor por ação será de R$ 0,75.
-  – Quem quiser aproveitar a bolada, terá até o dia 10 de dezembro para comprar o papel.
-  – A partir de 11 de dezembro a ação ficará ‘ex’.
-  – O pagamento ocorrerá até a data da realização da assembleia geral ordinária da companhia que aprovar as demonstrações financeiras do exercício social de 2026.
-  – Resultado da Sabesp Os dividendos ocorrem no dia que a empresa divulgou o seu resultado operacional do terceiro trimestre, com lucro líquido de R$ 1,388 bilhão, queda de 35,7%.
-Link: https://www.moneytimes.com.br/sabesp-sbsp3-pagara-r-26-bilhoes-em-juros-sobre-capital-proprio-veja-como-aproveitar-rnda/
-Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
-Ativos: SBSP3
-Como falar: 'saiu no Money Times: Sabesp (SBSP3) pagará R$ 2,6 bilhões em juros sobre capital próprio; veja como aproveitar; confirmar o número no texto antes de repassar'
-Fonte: Money Times 05/11 19h46
-ids: E05-SBSP3-2a95af43b4-2026-11-05
+(pendente de slot anterior) [ATENÇÃO] E05 · USDBRL · Dólar recua a R$ 5,50, com projeção de inflação e balança comercial no radar; Ibovespa avança
+g1 · 09/11 09h00 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – ▶️ O Banco Central divulgou nesta segunda-feira (9) o Boletim Focus, relatório que reúne as projeções de economistas para a economia brasileira.
+  – O mercado elevou de 4,76% para 4,90% a previsão de inflação para 2027, enquanto a estimativa para 2026 permaneceu em 5,22%.
+  – ▶️Já a balança comercial brasileira registrou superávit de US$ 1,4 bilhão na primeira semana de novembro.
+  – O resultado considera US$ 7,2 bilhões em exportações e US$ 5,8 bilhões em importações.
+  – Na comparação com novembro de 2025, a média diária das exportações cresceu 21,5%, enquanto a das importações avançou 23,6%.
+  – ▶️ O mercado também repercutiu o pronunciamento do presidente Luiz Inácio Lula da Silva, feito na noite de domingo (8).
+Link: https://g1.globo.com/economia/noticia/2026/11/09/dolar-ibovespa.ghtml
+Por que importa: decisao de politica monetaria reprecifica toda a curva e o cambio
+Ativos: USDBRL
+Como falar: 'saiu no g1: Dólar recua a R$ 5,50, com projeção de inflação e balança comercial no radar; Ibovespa av…; confirmar o número no texto antes de repassar'
+Fonte: g1 09/11 09h00
+ids: E05-USDBRL-49cdc12974-2026-11-09
 
-(pendente de slot anterior) [ATENÇÃO] E05 · ALUP4 · Com R$ 10 bi para investir, Alupar não tem pressa por novos projetos
-UOL Economia · 05/11 19h45 · fonte única · licença: manchete
-Link: https://megawhat.uol.com.br/economia-e-politica/resultados/com-r-10-bi-para-investir-alupar-nao-tem-pressa-por-novos-projetos/
-Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
-Ativos: ALUP4
-Como falar: 'saiu no UOL Economia: Com R$ 10 bi para investir, Alupar não tem pressa por novos projetos; confirmar o número no texto antes de repassar'
-Fonte: UOL Economia 05/11 19h45
-ids: E05-ALUP4-2ab35d08bb-2026-11-05
-
-(pendente de slot anterior) [ATENÇÃO] E01 · DIRR3: resultado sai na próxima sessão (09/11)
-seg 09/11 · após o fechamento da B3 · estimado (config/calendario.yaml)
-Vol de 20 dias +119% a.a. ⇒ movimento típico de 1 dia ±7,5%
-Chega ao resultado com 1m -25% · 6m -34% · YTD -38%
+(pendente de slot anterior) [ATENÇÃO] E01 · EQTL3: resultado sai na próxima sessão (11/11)
+qua 11/11 · após o fechamento da B3 · estimado (config/calendario.yaml)
+Vol de 20 dias +123% a.a. ⇒ movimento típico de 1 dia ±7,8%
+Chega ao resultado com 1m -33% · 6m -17% · YTD -12%
 Consenso: não disponível (sem fonte licenciada); usar o release e o guidance anterior
 Por que importa: resultado é o evento que mais move o papel em um dia; a vol implícita e o posicionamento sobem antes e caem depois
 Como falar: 'o resultado sai amanhã; o movimento típico do papel num dia é o da vol acima, e o mercado costuma exagerar na abertura'
 Fonte: config/calendario.yaml
-ids: E01-DIRR3-D-1-2026-11-06
+ids: E01-EQTL3-D-1-2026-11-10
 
-(pendente de slot anterior) [ATENÇÃO] M01 · Agenda: Payroll de outubro (BLS) hoje às 10:30 (06/11)
-O que está no preço: F28 14,32% · F35 15,07% · Focus IPCA 2027 4,76%
-Por que importa: evento macro de alta relevância reprecifica a curva inteira; o que importa é a surpresa contra o que está no preço
-Ativos: UST · DXY · UCITS
-Como falar: 'Payroll de outubro sai hoje; o mercado já precifica o consenso, a reação vem da surpresa'
+(pendente de slot anterior) [ATENÇÃO] E01 · ALUP4: resultado sai na próxima sessão (11/11)
+qua 11/11 · após o fechamento da B3 · estimado (config/calendario.yaml)
+Vol de 20 dias +72% a.a. ⇒ movimento típico de 1 dia ±4,5%
+Chega ao resultado com 1m -17% · 6m -0,9% · YTD +5,1%
+Consenso: não disponível (sem fonte licenciada); usar o release e o guidance anterior
+Por que importa: resultado é o evento que mais move o papel em um dia; a vol implícita e o posicionamento sobem antes e caem depois
+Como falar: 'o resultado sai amanhã; o movimento típico do papel num dia é o da vol acima, e o mercado costuma exagerar na abertura'
 Fonte: config/calendario.yaml
-ids: M01-MACRO-D0_0611-2026-11-06
+ids: E01-ALUP4-D-1-2026-11-10
 
-(pendente de slot anterior) [ATENÇÃO] E05 · USDBRL · XP reduz projeção do PIB a 0,3% em 2027; dólar vai a R$ 5,50 e Selic fica em 13,75%
-InfoMoney · 06/11 14h00 · fonte única · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – Publicidade A XP Investimentos revisou os números do seu cenário-base em 2026 e 2027, reduzindo a taxa de crescimento do país.
-  – Para a XP, o Produto Interno Bruto (PIB) deve fechar 2027 com alta de apenas 0,3%, recuando em relação à projeção anterior, que era de 1,0%.
-  – Para 2026, a expectativa também foi revisada para baixo, passando de 1,7% para 1,5%.
-  – Inflação mais alta em 2027 As estimativas para a inflação, medidas pelo Índice Nacional de Preços ao Consumidor Amplo (IPCA), também sofreram ajuste nos cálculos da corretora.
-  – Para 2026, a projeção foi elevada de 5,1% para 5,2%, enquanto para 2027 a taxa esperada saltou de 4,4% para 5,5%.
-  – “A revisão incorpora parcialmente a materialização de riscos ligados à mudança na jornada de trabalho, persistência do petróleo em níveis altos, câmbio mais depreciado e implementação da reforma tributária”, aponta o re…
-Link: https://www.infomoney.com.br/economia/xp-projecao-pib-2027-selic-dolar/
-Por que importa: decisao de politica monetaria reprecifica toda a curva e o cambio
-Ativos: USDBRL · DI
-Como falar: 'saiu no InfoMoney: XP reduz projeção do PIB a 0,3% em 2027; dólar vai a R$ 5,50 e Selic fica em 13,75%; confirmar o número no texto antes de repassar'
-Fonte: InfoMoney 06/11 14h00
-ids: E05-USDBRL-8eae89e07c-2026-11-06
+(pendente de slot anterior) [ATENÇÃO] E01 · AXIA3: resultado sai na próxima sessão (11/11)
+qua 11/11 · após o fechamento da B3 · estimado (config/calendario.yaml)
+Vol de 20 dias +54% a.a. ⇒ movimento típico de 1 dia ±3,4%
+Chega ao resultado com 1m -19% · 6m -16% · YTD -4,6%
+Consenso: não disponível (sem fonte licenciada); usar o release e o guidance anterior
+Por que importa: resultado é o evento que mais move o papel em um dia; a vol implícita e o posicionamento sobem antes e caem depois
+Como falar: 'o resultado sai amanhã; o movimento típico do papel num dia é o da vol acima, e o mercado costuma exagerar na abertura'
+Fonte: config/calendario.yaml
+ids: E01-AXIA3-D-1-2026-11-10
 
-(pendente de slot anterior) [ATENÇÃO] E05 · BTC · Did Binance’s $6.3 Billion Crypto Hack Just Expose an Even Bigger Risk for Bitcoin Investors?
-Yahoo Finance · 06/11 13h52 · fonte única · licença: resumo
+(pendente de slot anterior) [ATENÇÃO] E01 · UGPA3: resultado sai na próxima sessão (11/11)
+qua 11/11 · horário não confirmado · estimado (Yahoo)
+Vol de 20 dias +39% a.a. ⇒ movimento típico de 1 dia ±2,4%
+Chega ao resultado com 1m -24% · 6m +2,1% · YTD +47%
+Consenso: não disponível (sem fonte licenciada); usar o release e o guidance anterior
+Por que importa: resultado é o evento que mais move o papel em um dia; a vol implícita e o posicionamento sobem antes e caem depois
+Como falar: 'o resultado sai amanhã; o movimento típico do papel num dia é o da vol acima, e o mercado costuma exagerar na abertura'
+Fonte: Yahoo
+ids: E01-UGPA3-D-1-2026-11-10
+
+(pendente de slot anterior) [ATENÇÃO] E05 · PETR4 · Petrobras: produção e alta do Brent devem favorecer resultado do 3º tri, apontam bancos
+Bloomberg Linea · 09/11 22h37 · fonte única · licença: resumo
 Trechos (licença resumo: reescrever, não colar):
-  – Quick Read - Bitcoin ETF outflows after the Binance hack look overblown: heavy selling started before the breach and totals just 3% of cumulative inflows.
-  – - Binance avoided a run, with withdrawals near 3% of assets, while untouched ETFs bled about $1 billion in two days.
-  – - Bitcoin needs ETF cumulative inflows back above $58 billion or a close above its 50-day average to signal a bottom.
-  – - It sounds nuts, but SoFi is giving new Active Invest users up to $1,000 in stock for a limited time, and all it takes is a $50 deposit to get started.
-  – See for yourself (Sponsor) Bitcoin (CRYPTO:BTC) traded at $75,616 late Friday morning.
-  – That is 1.5% lower over 24 hours and 9.2% lower over 30 days.
-Link: https://finance.yahoo.com/markets/crypto/articles/did-binance-6-3-billion-165208445.html
-Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+  – Bloomberg Línea — O aumento da produção de petróleo e a alta do Brent devem favorecer o resultado da Petrobras (PETR3, PETR4) no terceiro trimestre, apontam bancos de investimentos em relatório.
+  – A divulgação do balanço da estatal está programado esta terça-feira (10), após o fechamento do mercado.
+  – O consenso Bloomberg indica uma geração de caixa medida pelo lucro antes de juros, impostos, depreciação e amortização (Ebitda) de US$ 17,4 bilhões de julho a setembro.
+  – No mesmo período do ano passado, a petroleira registrou um Ebitda ajustado de US$ 11,7 bilhões.
+  – Bancos de investimento projetam crescimento para o indicador no terceiro trimestre em relação ao mesmo intervalo de 2025: o BTG estima US$ 19,18 bilhões; Goldman Sachs (US$ 16,6 bilhões) e Itaú BBA (US$ 17,9 bilhões).
+  – As instituições projetam receita líquida de US$ 35,4 bilhões (BTG) e US$ 34 bilhões (Itaú BBA) para o trimestre.
+Link: https://www.bloomberglinea.com.br/negocios/petrobras-producao-e-alta-do-brent-devem-favorecer-resultado-do-3-tri-apontam-bancos/
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: PETR4 · BRENT
+Como falar: 'saiu no Bloomberg Linea: Petrobras: produção e alta do Brent devem favorecer resultado do 3º tri, apontam bancos; confirmar o número no texto antes de repassar'
+Fonte: Bloomberg Linea 09/11 22h37
+ids: E05-PETR4-efd0a14cc2-2026-11-10
+
+(pendente de slot anterior) [ATENÇÃO] E05 · BTC · Trump Media posts $409.7 million Q3 profit as Bitcoin gains carry the quarter
+TradingView (Reuters) · 09/11 22h19 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/cryptobriefing:620e96cd9094b:0-trump-media-posts-409-7-million-q3-profit-as-bitcoin-gains-carry-the-quarter/
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
 Ativos: BTC
-Como falar: 'saiu no Yahoo Finance: Did Binance’s $6.3 Billion Crypto Hack Just Expose an Even Bigger Risk for Bitcoin Invest…; confirmar o número no texto antes de repassar'
-Fonte: Yahoo Finance 06/11 13h52
-ids: E05-BTC-c88669191d-2026-11-06
+Como falar: 'saiu no TradingView (Reuters): Trump Media posts $409.7 million Q3 profit as Bitcoin gains carry the quarter; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 09/11 22h19
+ids: E05-BTC-643b9bb02e-2026-11-10
 
-(pendente de slot anterior) [ATENÇÃO] E05 · MMM · 3M Eyes Data Center Future After Latest Forever Chemicals Settlement
-Bloomberg · 06/11 12h00 · fonte única · licença: manchete
-Link: https://www.bloomberg.com/news/newsletters/2026-11-06/3m-s-latest-forever-chemicals-settlement-helps-tee-up-its-data-center-future
-Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e prazo
-Ativos: MMM
-Como falar: 'saiu no Bloomberg: 3M Eyes Data Center Future After Latest Forever Chemicals Settlement; confirmar o número no texto antes de repassar'
-Fonte: Bloomberg 06/11 12h00
-ids: E05-MMM-88982a5873-2026-11-06
-
-[ATENÇÃO] E05 · KLBN4 · Klabin (KLBN11): Safra corta preço-alvo e rebaixa recomendação diante de cenário mais desafiador
-Money Times · 06/11 16h12 · fonte única · licença: integral
-Do texto:
-  – O banco também reduziu o preço-alvo dos papéis de R$ 21,40 para R$ 20,60 até o final de 2027.
-  – Considerando a cotação de R$ 18,08 utilizada pelo Safra em seu relatório, o novo preço-alvo representa um potencial de valorização de 14%.
-  – Incluindo dividendos, o retorno total estimado (TSR) é de 21%.
-  – A projeção da Empapel de crescimento de 1,9% nos embarques em 2026 implica avanço de apenas 0,9% no segundo semestre, ante 3% na primeira metade do ano.
-  – Para o Safra, o cenário reduz a visibilidade de uma recuperação significativa dos volumes em 2027.
-  – O custo-caixa consolidado da Klabin chegou a R$ 3.483 por tonelada no terceiro trimestre de 2026, enquanto o indicador acumulado nos nove primeiros meses do ano permaneceu próximo do limite superior da faixa de projeçõe…
-Link: https://www.moneytimes.com.br/klabin-klbn11-safra-corta-preco-alvo-e-rebaixa-recomendacao-diante-de-cenario-mais-desafiador/
-Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
-Ativos: KLBN4
-Como falar: 'saiu no Money Times: Klabin (KLBN11): Safra corta preço-alvo e rebaixa recomendação diante de cenário mais des…; confirmar o número no texto antes de repassar'
-Fonte: Money Times 06/11 16h12
-Push: intradia: 2 alertas de atenção — E05 KLBN4, E05 KO · detalhe na sessão
-ids: E05-KLBN4-9d1e0db35a-2026-11-06
-
-[ATENÇÃO] E05 · KO · If You Invested $300,000 in Coca-Cola, PepsiCo and Keurig Dr Pepper, Here’s What They’d Pay
-Yahoo Finance · 06/11 09h37 · fonte única · licença: resumo
+(pendente de slot anterior) [ATENÇÃO] E05 · ITSA4 · Itaúsa (ITSA4) tem alta de 25% no lucro recorrente para R$ 5,1 bi no 3º trimestre
+InfoMoney · 09/11 20h02 · + Valor Economico, Investing.com · licença: resumo
 Trechos (licença resumo: reescrever, não colar):
-  – Quick Read - A $300,000 split across PepsiCo and Coca-Cola throws off roughly $8,860 a year in dividends, with PepsiCo's 4% yield leading the group.
-  – - Keurig Dr Pepper has frozen its quarterly dividend since September 2024, and a planned 2027 breakup leaves the payout's future split unclear.
-  – - Read More: Learn 7 ways to generate income with a $1,000,000+ portfolio (sponsor) Retirees learn quickly that a portfolio's market value means little at the grocery checkout.
-  – A $300,000 beverage portfolio, split into $100,000 stakes in each of three household names, would generate the following.
-  – At current forward yields, the group produces more than $8,800 a year in dividends: $8,860.17, to be exact.
-  – The yield is low because the stock has risen 39.4% year to date and trades at 28 times trailing earnings, which compresses the payout relative to price.
-Link: https://finance.yahoo.com/markets/stocks/articles/invested-300-000-coca-cola-123728882.html
-Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+  – Publicidade SÃO PAULO, 9 Nov (Reuters) – A holding Itaúsa teve lucro líquido recorrente de R$ 5,1 bilhões no terceiro trimestre, crescimento de 25% sobre o resultado do mesmo período do ano passado, segundo balanço apre…
+  – O resultado do setor não financeiro da controladora do Itaú Unibanco mais que dobrou, passando de R$ 267 milhões para R$ 593 milhões no terceiro trimestre, puxado pela empresa de gasodutos NTS.
+  – A NTS viu o resultado recorrente sair de R$ 84 milhões no terceiro trimestre do ano passado para R$ 213 milhões, segundo o balanço da holding.
+  – A Dexco, de louças e metais sanitários e painéis de madeira, foi a única empresa do grupo a mostrar prejuízo (R$10 milhões) no período, segundo o resultado da Itaúsa.
+  – A Itaúsa elevou a rentabilidade sobre patrimônio para 20,7% no terceiro trimestre, 2,4 pontos percentuais acima do apurado um ano antes.
+  – Em termos recorrentes, o resultado foi de 21,1%.
+Link: https://www.infomoney.com.br/mercados/resultados-itausa-itsa4-terceiro-trimestre-2026/
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: ITSA4
+Como falar: 'saiu no InfoMoney: Itaúsa (ITSA4) tem alta de 25% no lucro recorrente para R$ 5,1 bi no 3º trimestre; confirmar o número no texto antes de repassar'
+Fonte: InfoMoney 09/11 20h02
+ids: E05-ITSA4-1a6d5e5722-2026-11-09
+
+[ATENÇÃO] E05 · KLBN4 · Allied paga R$ 0,63 por ação; Santander, Klabin, Lavvi e outros completam dividendos da semana
+Estadao · 10/11 13h35 · fonte única · licença: manchete
+Link: https://www.estadao.com.br/em-alta/einvestidor/onde-investir/allied-paga-r-063-por-acao-santander-klabin-lavvi-e-outros-completam-dividendos-da-semana/
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: KLBN4
+Como falar: 'saiu no Estadao: Allied paga R$ 0,63 por ação; Santander, Klabin, Lavvi e outros completam dividendos da s…; confirmar o número no texto antes de repassar'
+Fonte: Estadao 10/11 13h35
+Push: intradia: 3 alertas de atenção — E05 KLBN4, E05 PETR4, E05 KO · detalhe na sessão
+ids: E05-KLBN4-d377a25dd8-2026-11-10
+
+[ATENÇÃO] E05 · PETR4 · Petrobras: dividendos podem chegar a US$ 4,2 bilhões no 3T26, mas mercado vê incertezas no fluxo de caixa
+ADVFN · 10/11 11h06 · fonte única · licença: manchete
+Link: https://br.advfn.com/jornal/2026/11/petrobras-dividendos-podem-chegar-a-us-4-2-bilhoes-no-3t26-mas-mercado-ve-incertezas-no-fluxo-de-caixa
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: PETR4
+Como falar: 'saiu no ADVFN: Petrobras: dividendos podem chegar a US$ 4,2 bilhões no 3T26, mas mercado vê incertezas n…; confirmar o número no texto antes de repassar'
+Fonte: ADVFN 10/11 11h06
+ids: E05-PETR4-d5ae734581-2026-11-10
+
+[ATENÇÃO] E05 · KO · Coca-Cola's Dividend Has Grown 64 Years in a Row. I'd Buy It in November and Never Sell.
+Yahoo Finance · 10/11 10h15 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – The global beverage giant has raised its dividend for 64 consecutive years.
+  – Most investors think they missed the AI boat because they didn't buy Nvidia in 2005.
+  – But according to our analysts, we're only at the end of "Act 1"—the R&D phase.
+  – "Act 2" is the global rollout.
+  – What makes Coca-Cola such a durable business model Coca-Cola's empire stretches well beyond its namesake soda, including 32 brands with at least $1 billion in annual sales.
+  – It sells 2.2 billion servings of its products each day across more than 200 countries.
+Link: https://finance.yahoo.com/markets/stocks/articles/coca-colas-dividend-grown-64-131500917.html
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
 Ativos: KO
-Como falar: 'saiu no Yahoo Finance: If You Invested $300,000 in Coca-Cola, PepsiCo and Keurig Dr Pepper, Here’s What They’d P…; confirmar o número no texto antes de repassar'
-Fonte: Yahoo Finance 06/11 09h37
-ids: E05-KO-423fc7b3fc-2026-11-06
+Como falar: 'saiu no Yahoo Finance: Coca-Cola's Dividend Has Grown 64 Years in a Row. I'd Buy It in November and Never Sell.; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 10/11 10h15
+ids: E05-KO-5f33fc4f02-2026-11-10
 
 Info (só linha no Fechamento):
-· F03 Brent sobe a US$ 98,40 (-13% em 5 sessões) (parcial, intradia)
-· E05 PETR4 · Petrobras perde quase R$ 200 bilhões em valor de mercado e caminha para pior semana desde 2021
-· E05 AMD · Intel and AMD in Focus as Tech Stocks Seek Rebound
-· E05 USDBRL · Ibovespa sobe e dólar estabiliza com emprego nos EUA e política econômica
-· E05 LITE · Lumentum Stocks Rise 4.38% as AI Optics Rebound Builds on $5 Billion Design Win
-· E05 COHR · Coherent rebounds 14% after steep AI selloff (COHR:NYSE)
-· E05 BTC · Elliptic says Binance hackers swapped stolen tokens for $124M in bitcoin, exchange plans more withdrawal reopenings
-· E05 BTC · Bitcoin Under $76,000 After $430M ETF Outflows. Has It Bottomed?
-· E05 PETR4 · Petrobras cai mais de 20% em 2 semanas após eleições no Brasil e nos EUA: tese mudou?
-· E05 AMD · AMD: This Selloff Isn't Enough (Downgrade) (NASDAQ:AMD)
-· E05 BTC · Bitcoin price dips under $75K as crypto markets miss tech-stock rebound
-· E05 UST · Treasury Yields Rise on Strong Jobs Data
-· E05 NVDA · Nvidia, Intel, Tesla, AMD, Coherent, Lam Research, Moderna, and More Stocks That Explain Today’s Market
-· E05 NVDA · Forget Nvidia. Here’s the Company Behind the Chips
+· F01 Real cai: USD/BRL 5,5847 (+1,5% contra o dólar global) (parcial, intradia)
+· F03 Brent cai a US$ 91,65 (-12% em 5 sessões) (parcial, intradia)
+· F06 BTC cai a US$ 73.492 (cruzou US$ 75.000) (parcial, intradia)
+· E03 DIRR3 · Comunicado ao Mercado: Apresentações a analistas/agentes do mercado
+· E04 BABA · 6-K: 6-K
+· E04 TSM · 6-K: 6-K
+· E04 TSM · 6-K: 6-K
+· E05 GOOGL · Alphabet shares appear to have bottomed. How to play it for a quick rebound
+· E05 TSM · What Does Taiwan Semiconductor Manufacturing (TSM) AI Revenue Surge Mean For Investors?
+· E05 USDBRL · Tesouro Selic, dólar ou ouro: onde proteger seu dinheiro quando a bolsa cai?
+· E05 UST · U.S. 10-Year Treasury Tops 5% on Expectations of Higher Interest Rates
+· E05 GOOGL · AMD: Alphabet Just Announced A $1 Trillion Game Changer (NASDAQ:AMD)
+· E05 AMD · Here’s The AMD Data Center Number Investors Need to Know
+· E05 UST · Stocks fall as the 10-year Treasury yield reclaims 5%
+· E05 TSM · TSMC Just Delivered the AI Growth Shock Wall Street Was Waiting For
+· E05 BTC · Bitcoin Drops to Almost Three-Month Low as US Inflation Dims Risk Appetite
+· E05 UST · Federal Reserve Research Reveals New Inflation Threat
+· E05 TSM · Taiwan Semiconductor Manufacturing (TSM) Stock Could Be 7% Undervalued Despite Fab Expansion Plans
+· E05 DI · A fala de Lula e a ata do Copom
+· E05 AMD · AMD Is Up 142% This Year After Another Beat. How Much Higher Can It Go?
+· E05 GOOGL · InterSystems Joins Google Cloud as Launch Partner for Gemini for Healthcare
+· E05 UST · Midday Need to Know: CPI tops estimates, Treasury yields jump & more (SPY:NYSEARCA)
+· T13 VIX cruzou 20: 20,8 (+4,4% no dia)
+· E05 PETR4 · Petrobras (PETR4): produção recorde deve compensar petróleo mais barato e sustentar dividendos no 3T26
+· E05 BTC · Bitcoin to $2M? Investment Firm Backs Huge Target but Warns of $30K Crash First
+· E05 USDBRL · Investidores aguardam ata do Copom em dia de inflação nos EUA; Ibovespa em dólar sobe nesta terça-feira (10)
+· E05 PETR4 · Petrobras pode pagar até US$ 4,2 bilhões em dividendos no 3º trimestre
+· S01 coleta do slot intradia saiu incompleta: bcb: BCB devolveu 4 de 5 séries (faltaram cdi_dia)
 
+Suprimidos pelo teto (viram linha do Fechamento): T13-VIX-vix20-2026-11-10 (teto de atenção), E05-PETR4-28e4d5193a-2026-11-10 (teto de noticias), E05-BTC-0a9918e49f-2026-11-10 (teto de noticias), E05-USDBRL-a20df7577a-2026-11-10 (teto de noticias), E05-PETR4-1f41ab2b62-2026-11-10 (teto de noticias), S01-SISTEMA-intradia-2026-11-10 (teto de atenção)
 
 Alertas do dia (todos, com status):
-· pendente  E05 KLBN4 — KLBN4 · Klabin (KLBN11): Safra corta preço-alvo e rebaixa recomendação diante de
-· pendente  E05 KO — KO · If You Invested $300,000 in Coca-Cola, PepsiCo and Keurig Dr Pepper, Here’s
-· pendente  E01 DIRR3 — DIRR3: resultado sai na próxima sessão (09/11)
-· pendente  M01 MACRO — Agenda: Payroll de outubro (BLS) hoje às 10:30 (06/11)
-· pendente  E05 USDBRL — USDBRL · XP reduz projeção do PIB a 0,3% em 2027; dólar vai a R$ 5,50 e Selic fi
-· pendente  E05 BTC — BTC · Did Binance’s $6.3 Billion Crypto Hack Just Expose an Even Bigger Risk for
-· pendente  E05 MMM — MMM · 3M Eyes Data Center Future After Latest Forever Chemicals Settlement
-· linha     F03 BRENT — Brent sobe a US$ 98,40 (-13% em 5 sessões) (parcial, intradia)
-· linha     F03 BRENT — Brent cai a US$ 97,29 (-14% em 5 sessões) (parcial, intradia)
-· (+41 notícias só manchete, em noticias.md)
+· linha     T13 VIX — VIX cruzou 20: 20,8 (+4,4% no dia)
+· pendente  E05 KLBN4 — KLBN4 · Allied paga R$ 0,63 por ação; Santander, Klabin, Lavvi e outros completa
+· pendente  E05 PETR4 — PETR4 · Petrobras: dividendos podem chegar a US$ 4,2 bilhões no 3T26, mas mercad
+· pendente  E05 KO — KO · Coca-Cola's Dividend Has Grown 64 Years in a Row. I'd Buy It in November an
+· linha     S01 SISTEMA — coleta do slot intradia saiu incompleta: bcb: BCB devolveu 4 de 5 séries (faltar
+· pendente  E01 EQTL3 — EQTL3: resultado sai na próxima sessão (11/11)
+· pendente  E01 ALUP4 — ALUP4: resultado sai na próxima sessão (11/11)
+· pendente  E01 AXIA3 — AXIA3: resultado sai na próxima sessão (11/11)
+· pendente  E01 UGPA3 — UGPA3: resultado sai na próxima sessão (11/11)
+· pendente  E05 PETR4 — PETR4 · Petrobras: produção e alta do Brent devem favorecer resultado do 3º tri,
+· pendente  E05 BTC — BTC · Trump Media posts $409.7 million Q3 profit as Bitcoin gains carry the quar
+· pendente  E05 ITSA4 — ITSA4 · Itaúsa (ITSA4) tem alta de 25% no lucro recorrente para R$ 5,1 bi no 3º 
+· linha     F01 USDBRL — Real cai: USD/BRL 5,5847 (+1,5% contra o dólar global) (parcial, intradia)
+· linha     F03 BRENT — Brent cai a US$ 91,65 (-12% em 5 sessões) (parcial, intradia)
+· linha     F06 BTC — BTC cai a US$ 73.492 (cruzou US$ 75.000) (parcial, intradia)
+· (+45 notícias só manchete, em noticias.md)
 
