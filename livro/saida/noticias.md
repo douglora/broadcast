@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 11/11 15h42
+NOTÍCIAS E FATOS · 11/11 17h06
 
-Pernas: noticias ok 26 novas (18 consultas; descartadas: 373 veículo fora da lista, 10 sem ativo, 88 teto) · cvm ok 1 novos de 11 (5 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 17 novas (18 consultas; descartadas: 379 veículo fora da lista, 12 sem ativo, 3 teto) · cvm ok 0 novos de 11 (5 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (1)
 
@@ -14,7 +14,32 @@ Fonte: CVM 11/11
 id: E03-CURY3-1587714-2026-11-11 · status: linha
 
 
-## NOTÍCIAS COM MATERIALIDADE (12)
+## NOTÍCIAS COM MATERIALIDADE (14)
+
+[ATENÇÃO] E05 · CURY3 · Cury anuncia distribuição de R$ 200 milhões em dividendos; confira valor por ação
+Estadao · 11/11 15h06 · fonte única · licença: manchete
+Link: https://www.estadao.com.br/einvestidor/cenarios-e-mercado/cury-anuncia-distribuicao-de-r-200-milhoes-em-dividendos-confira-valor-por-acao/
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: CURY3
+Como falar: 'saiu no Estadao: Cury anuncia distribuição de R$ 200 milhões em dividendos; confira valor por ação; confirmar o número no texto antes de repassar'
+Fonte: Estadao 11/11 15h06
+id: E05-CURY3-a593059d69-2026-11-11 · status: pendente
+
+[ATENÇÃO] E05 · PETR4 · Petrobras (PETR4) pode gastar US$ 7,5 bi até dezembro; e os dividendos?
+Suno Noticias · 11/11 14h00 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Os dividendos da Petrobras (PETR4) podem enfrentar uma nova pressão nos próximos meses.
+  – Depois de anunciar R$ 15,3 bilhões em remuneração aos acionistas, abaixo das expectativas do mercado, a estatal elevou sua previsão de investimentos para 2026, indicando que poderá desembolsar até US$ 7,5 bilhões soment…
+  – Em relatório divulgado na terça-feira (10), Regis Cardoso e Enzo Sozzi, da XP, destacaram que os proventos referentes ao terceiro trimestre ficaram aproximadamente 18% abaixo dos R$ 18,6 bilhões projetados pela institui…
+  – A diferença ocorreu principalmente porque os investimentos e a necessidade de capital de giro consumiram mais recursos do que o esperado, mesmo com a Petrobras registrando lucro líquido de US$ 7,7 bilhões.
+  – Aproveite a oportunidade de desbloquear mais de R$ 300 mil em bônus e conhecer um plano de investimentos para os próximos três anos.
+  – Investimentos maiores pressionam dividendos da Petrobras A Petrobras revisou sua previsão de investimentos em caixa para 2026 de US$ 16,9 bilhões para uma faixa entre US$ 21 bilhões e US$ 22 bilhões.
+Link: https://www.suno.com.br/noticias/dividendos-petrobras-petr4-investimentos/amp/
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: PETR4
+Como falar: 'saiu no Suno Noticias: Petrobras (PETR4) pode gastar US$ 7,5 bi até dezembro; e os dividendos?; confirmar o número no texto antes de repassar'
+Fonte: Suno Noticias 11/11 14h00
+id: E05-PETR4-77131e9e47-2026-11-11 · status: pendente
 
 [ATENÇÃO] E05 · PETR4 · Petrobras recua 3% no Ibovespa após frustrar mercado com dividendos
 UOL Economia · 11/11 15h06 · fonte única · licença: manchete
@@ -155,11 +180,26 @@ Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; 
 Ativos: PETR4
 Como falar: 'saiu no Agencia Brasil: Petrobras tem lucro de R$ 39,8 bilhões no 3º trimestre, alta de 21,5%; confirmar o número no texto antes de repassar'
 Fonte: Agencia Brasil 10/11 21h37
-id: E05-PETR4-cf22965341-2026-11-11 · status: pendente · íntegra disponível
+id: E05-PETR4-cf22965341-2026-11-11 · status: expirado · íntegra disponível
 
 
-## OUTRAS NOTÍCIAS (só manchete) (19)
+## OUTRAS NOTÍCIAS (só manchete) (34)
 
+· PETR4 Petrobras soma R$ 120 bilhões em perda de valor de mercado com nova queda de ações hoje (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/ewz-sobe-mais-de-1-apos-sinalizacoes-fiscais-do-governo-acoes-da-petrobras-recuam-2-em-ny/
+· DI Galípolo diz que BC foi até uma Selic alta e 'trincou os dentes' (Valor Economico) https://valor.globo.com/financas/noticia/2026/11/11/galipolo-diz-que-bc-foi-ate-uma-taxa-alta-trincou-os-dentes-e-permaneceu-com-ela-em-niveis-bastante-elevados.ghtml
+· USDBRL Ouro fecha em queda com valorização do dólar e expectativa de juros mais altos nos EUA (Money Times) https://www.moneytimes.com.br/ouro-fecha-em-queda-com-valorizacao-do-dolar-e-expectativa-de-juros-mais-altos-nos-eua-davs/
+· MMM Can 3M Sustain Operating Margin Momentum Amid Sales Growth? (TradingView (Reuters)) https://www.tradingview.com/news/zacks:fdb2cd054094b:0-can-3m-sustain-operating-margin-momentum-amid-sales-growth/
+· NVDA Prediction: Nvidia Stock Will Be Worth This Much by Year-End 2027 (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/prediction-nvidia-stock-worth-much-191500146.html
+· PETR4 Petrobras avalia ajustes pontuais nos preços diante de cenário geopolítico (UOL Economia) https://economia.uol.com.br/noticias/redacao/2026/11/11/petrobras-avalia-ajuste-nos-precos-da-gasolina-e-do-diesel.htm
+· USDBRL Dólar sobe mais de 10% frente ao real após eleições no Brasil, mas produtor segura vendas de soja à espera de novas altas (TradingView (Reuters)) https://br.tradingview.com/news/noticiasagricolas:f0325169dbc81:0/
+· PETR4 Petrobras está mudando trajetória de crescimento da produção, diz Magda (CNN Brasil) https://www.cnnbrasil.com.br/infra/petrobras-esta-mudando-trajetoria-de-crescimento-da-producao-diz-magda/
+· NVDA Congress Set to Subpoena Nvidia’s Jensen Huang, Republican Says (Bloomberg) https://www.bloomberg.com/news/articles/2026-11-11/congress-set-to-subpoena-nvidia-s-jensen-huang-republican-says
+· JPM JPMorgan Partners With OpenAI: What It Means for JPM's AI Strategy (TradingView (Reuters)) https://www.tradingview.com/news/zacks:1778aca73094b:0-jpmorgan-partners-with-openai-what-it-means-for-jpm-s-ai-strategy/
+· AMD Why Advanced Micro Devices Stock Popped Today (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/why-advanced-micro-devices-stock-175422041.html
+· TSM TSMC Stocks Climb 3.37% After Record NT$586.9 Billion October Revenue (Yahoo Finance) https://uk.finance.yahoo.com/news/tsmc-stocks-climb-3-37-165536443.html
+· BTC iShares Bitcoin Trust ETF (IBIT) stock price, news, quote and history (Yahoo Finance) https://sg.finance.yahoo.com/quote/IBIT/
+· NOK Nokia’s Rebound Faces One Big Test Before the End of 2026 (Yahoo Finance) https://news.google.com/rss/articles/CBMilwFBVV95cUxPMXdxMlhCbG1hX2JDeHBqSzVmcS1sOFZHRFpVVXdpYkpPUEc1bTM2NzJZcXhEMkN4MGlITmlQVGdNdm1pWmhUWm1laWFVVUMwcVg4UlRkZ1NhUkJZSlZ4bjN6VVBJclYzcVJoV3ZhX0JENXJVcW9fQ1dkalVYWjFxRy1tcjREQ2VYZ2pzQXZwWktSOWlVRmNJ?oc=5
+· AMD AMD Price Prediction: AI Boom and Record Revenue Set the Stage for Another Monster Rally (Yahoo Finance) https://news.google.com/rss/articles/CBMimAFBVV95cUxQeFhseWJoU2R4NEktS1c3SkF2U01zNlh6Zmk3X2ZsYV9FSE5aZkl2SVdFV3pNbGRFSHZubEVoYzZ1TXc5WVFkc1VGV2tKSl9tVkxLSUlTQWtxZUk3aFVtZ3VmOFk1VlVmOWtVRjZhd0pSSUNFYmxrdkNaRGZCSjZRaDhNbmFpU2N0ZVBlSGdveG81Z0NlRWpUOQ?oc=5
 · BBDC4 Há ferramentas para fazer um bom ajuste fiscal sem perder de vista aspectos sociais, diz CEO do Bradesco (Valor Economico) https://valor.globo.com/financas/noticia/2026/11/11/ha-ferramentas-para-fazer-um-bom-ajuste-fiscal-sem-perder-de-vista-aspectos-sociais-diz-ceo-do-bradesco.ghtml
 · PETR4 Estamos atuando com disciplina de capital e redução de custos, diz presidente da Petrobras (Valor Economico) https://valor.globo.com/empresas/noticia/2026/11/11/estamos-atuando-com-disciplina-de-capital-e-reducao-de-custos-diz-presidente-da-petrobras.ghtml
 · AMZN Meta head of infrastructure will leave and be succeeded by former AWS cloud exec (CNBC) https://www.cnbc.com/2026/11/11/meta-infrastructure-departure-aws-cloud.html

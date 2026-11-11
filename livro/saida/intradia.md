@@ -1,23 +1,5 @@
 ALERTAS · intradia
 
-(pendente de slot anterior) [ATENÇÃO] E05 · ITUB4 · Painel S.A.: Itaú investe R$ 1,2 bilhão e vira sócio da Klabin em mais um empreendimento florestal
-Folha de S.Paulo · 10/11 16h57 · fonte única · licença: manchete
-Link: https://www1.folha.uol.com.br/colunas/painelsa/2026/11/itau-investe-r-12-bilhao-e-vira-socio-da-klabin-em-mais-um-empreendimento-florestal.shtml
-Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
-Ativos: ITUB4 · KLBN4
-Como falar: 'saiu no Folha de S.Paulo: Painel S.A.: Itaú investe R$ 1,2 bilhão e vira sócio da Klabin em mais um empreendimento…; confirmar o número no texto antes de repassar'
-Fonte: Folha de S.Paulo 10/11 16h57
-ids: E05-ITUB4-c7c5a3b5db-2026-11-10
-
-(pendente de slot anterior) [ATENÇÃO] E05 · JPM · JPMorgan Names Dividend Giant Its Top Stock Pick for a Rocky Market
-TradingView (Reuters) · 10/11 16h20 · fonte única · licença: manchete
-Link: https://www.tradingview.com/news/gurufocus:a259bdb77094b:0-jpmorgan-names-dividend-giant-its-top-stock-pick-for-a-rocky-market/
-Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
-Ativos: JPM
-Como falar: 'saiu no TradingView (Reuters): JPMorgan Names Dividend Giant Its Top Stock Pick for a Rocky Market; confirmar o número no texto antes de repassar'
-Fonte: TradingView (Reuters) 10/11 16h20
-ids: E05-JPM-7910e351b4-2026-11-10
-
 (pendente de slot anterior) [ATENÇÃO] E03 · PETR4 · Fato Relevante: Elevou suas projeções de produção para 2026.
 CVM · entregue 10/11/2026 20:03
 Do documento:
@@ -96,7 +78,7 @@ Como falar: 'saiu no Exame: Petrobras vai pagar R$ 15,3 bilhões em dividendos; 
 Fonte: Exame 10/11 20h21
 ids: E05-PETR4-893dc7b964-2026-11-10
 
-[ATENÇÃO] E01 · BBAS3: resultado sai na próxima sessão (12/11)
+(pendente de slot anterior) [ATENÇÃO] E01 · BBAS3: resultado sai na próxima sessão (12/11)
 qui 12/11 · após o fechamento da B3 · estimado (config/calendario.yaml)
 Vol de 20 dias +126% a.a. ⇒ movimento típico de 1 dia ±7,9%
 Chega ao resultado com 1m -31% · 6m -17% · YTD -20%
@@ -104,30 +86,29 @@ Consenso: não disponível (sem fonte licenciada); usar o release e o guidance a
 Por que importa: resultado é o evento que mais move o papel em um dia; a vol implícita e o posicionamento sobem antes e caem depois
 Como falar: 'o resultado sai amanhã; o movimento típico do papel num dia é o da vol acima, e o mercado costuma exagerar na abertura'
 Fonte: config/calendario.yaml
-Push: intradia: 6 alertas de atenção — E01 BBAS3, E01 SAPR4, E01 MRVE3, E05 PETR4, E05 NVDA, E05 PETR4 · detalhe na sessão
 ids: E01-BBAS3-D-1-2026-11-11
 
-[ATENÇÃO] E01 · SAPR4: resultado sai na próxima sessão (12/11)
+(pendente de slot anterior) [ATENÇÃO] E01 · SAPR4: resultado sai na próxima sessão (12/11)
 qui 12/11 · após o fechamento da B3 · estimado (config/calendario.yaml)
 Vol de 20 dias +72% a.a. ⇒ movimento típico de 1 dia ±4,5%
-Chega ao resultado com 1m -24% · 6m -16% · YTD -15%
+Chega ao resultado com 1m -24% · 6m -15% · YTD -15%
 Consenso: não disponível (sem fonte licenciada); usar o release e o guidance anterior
 Por que importa: resultado é o evento que mais move o papel em um dia; a vol implícita e o posicionamento sobem antes e caem depois
 Como falar: 'o resultado sai amanhã; o movimento típico do papel num dia é o da vol acima, e o mercado costuma exagerar na abertura'
 Fonte: config/calendario.yaml
 ids: E01-SAPR4-D-1-2026-11-11
 
-[ATENÇÃO] E01 · MRVE3: resultado sai na próxima sessão (12/11)
+(pendente de slot anterior) [ATENÇÃO] E01 · MRVE3: resultado sai na próxima sessão (12/11)
 qui 12/11 · após o fechamento da B3 · estimado (config/calendario.yaml)
 Vol de 20 dias +209% a.a. ⇒ movimento típico de 1 dia ±13%
-Chega ao resultado com 1m -40% · 6m -24% · YTD -40%
+Chega ao resultado com 1m -41% · 6m -24% · YTD -40%
 Consenso: não disponível (sem fonte licenciada); usar o release e o guidance anterior
 Por que importa: resultado é o evento que mais move o papel em um dia; a vol implícita e o posicionamento sobem antes e caem depois
 Como falar: 'o resultado sai amanhã; o movimento típico do papel num dia é o da vol acima, e o mercado costuma exagerar na abertura'
 Fonte: config/calendario.yaml
 ids: E01-MRVE3-D-1-2026-11-11
 
-[ATENÇÃO] E05 · PETR4 · Petrobras recua 3% no Ibovespa após frustrar mercado com dividendos
+(pendente de slot anterior) [ATENÇÃO] E05 · PETR4 · Petrobras recua 3% no Ibovespa após frustrar mercado com dividendos
 UOL Economia · 11/11 15h06 · fonte única · licença: manchete
 Link: https://economia.uol.com.br/cotacoes/noticias/redacao/2026/11/11/petrobras-recua-mais-de-2-apos-frustrar-mercado-com-dividendos.ghtm
 Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
@@ -136,7 +117,7 @@ Como falar: 'saiu no UOL Economia: Petrobras recua 3% no Ibovespa após frustrar
 Fonte: UOL Economia 11/11 15h06
 ids: E05-PETR4-d44825acf1-2026-11-11
 
-[ATENÇÃO] E05 · NVDA · Watch Nvidia Gets Rare Downgrade as Jensen Huang Scandal Weighs on Outlook
+(pendente de slot anterior) [ATENÇÃO] E05 · NVDA · Watch Nvidia Gets Rare Downgrade as Jensen Huang Scandal Weighs on Outlook
 Bloomberg · 11/11 14h47 · fonte única · licença: manchete
 Link: https://www.bloomberg.com/news/videos/2026-11-11/bloomberg-surveillance-11-11-2026-video
 Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
@@ -145,7 +126,7 @@ Como falar: 'saiu no Bloomberg: Watch Nvidia Gets Rare Downgrade as Jensen Huang
 Fonte: Bloomberg 11/11 14h47
 ids: E05-NVDA-ff7b909be0-2026-11-11
 
-[ATENÇÃO] E05 · PETR4 · Dividendos da Petrobras encolheram: ainda vale ter PETR4 na carteira de renda?
+(pendente de slot anterior) [ATENÇÃO] E05 · PETR4 · Dividendos da Petrobras encolheram: ainda vale ter PETR4 na carteira de renda?
 InfoMoney · 11/11 14h15 · fonte única · licença: resumo
 Trechos (licença resumo: reescrever, não colar):
   – Publicidade A Petrobras (PETR3; PETR4) vai distribuir R$ 15,3 bilhões aos acionistas referentes ao terceiro trimestre de 2026, o equivalente a R$ 1,19 por ação.
@@ -161,46 +142,59 @@ Como falar: 'saiu no InfoMoney: Dividendos da Petrobras encolheram: ainda vale t
 Fonte: InfoMoney 11/11 14h15
 ids: E05-PETR4-e3737f55c1-2026-11-11
 
-Info (só linha no Fechamento):
-· E01 EQTL3: resultado sai hoje (11/11)
-· E01 ALUP4: resultado sai hoje (11/11)
-· E01 AXIA3: resultado sai hoje (11/11)
-· E01 UGPA3: resultado sai hoje (11/11)
-· M01 Agenda: IPCA de outubro (IBGE) amanhã às 09:00 (12/11)
-· E03 CURY3 · Comunicado ao Mercado: Apresentações a analistas/agentes do mercado
-· E05 BBDC4 · Há ferramentas para fazer um bom ajuste fiscal sem perder de vista aspectos sociais, diz CEO do Bradesco
-· E05 PETR4 · Estamos atuando com disciplina de capital e redução de custos, diz presidente da Petrobras
-· E05 AMZN · Meta head of infrastructure will leave and be succeeded by former AWS cloud exec
-· E05 PETR4 · Petrobras ampliou capacidade de produção de 11 plataformas sem investimento extra, diz Chambriard
-· E05 AMD · BofA Raised Its Earnings Estimates but Cut Its Target on AMD (AMD), Here’s Why
-· E05 PETR4 · Petrobras: ações caem após proventos abaixo e capex acima ofuscarem balanço
-· E05 BTC · Bitcoin Faces First Back-to-Back Annual Losses in History, But There's a Catch
-· E05 PETR4 · Petrobras: Preço do Brent em setembro pode impactar positivamente o 4º tri, diz CFO
-· E05 NVDA · Nvidia Vs. AMD: No, Neither is Getting Choked Out By Congress Come January
-· E05 PETR4 · Petrobras está mudando trajetória de crescimento da produção com diversos recordes, diz CEO
-· E05 PETR4 · Petrobras: ‘Recorde de produção já foi superado três vezes ao longo deste ano’, diz Magda
-· E05 BTC · What Will Bitcoin and Ethereum Be Worth in 5 Years?
-· E05 AMD · AMD: It’s Cheaper Than Before, But Not Cheap Enough (NASDAQ:AMD)
-· E05 INTC · Intel’s Turnaround Could Rewrite the Stock’s Story
-· E05 MMM · Can 3M Sustain Operating Margin Momentum Amid Sales Growth?
-· E05 BBAS3 · Ação do Banco do Brasil sobe antes de balanço; mercado espera lucro menor no 3º trimestre
-· E05 PETR4 · Petrobras (PETR4) acerta ao priorizar investimentos em vez de dividendos, diz entidade ligada a petroleiros
-· E05 NVDA · Nvidia faces Baird downgrade as AI spending outlook and China risks cloud growth
-· E05 AMZN · AWS To Launch First Cloud Infrastructure Region In Chile, Investing More Than $4 Billion
-· E05 PETR4 · Ações da Petrobras ainda valem a compra? Bradesco BBI reduz projeção após balanço
-· E05 PETR4 · Lucro da Petrobras aumenta 21,5% no 3º trimestre com produção recorde
-· E05 JPM · Key facts: British American Tobacco Forecasts 5%-8% EPS Growth; Plans $1.3 Billion Buyback; JPMorgan Reinstates Overweight Rating
-· E05 JPM · JPMorgan Names Dividend Giant Its Top Stock Pick for a Rocky Market
+[ATENÇÃO] E05 · CURY3 · Cury anuncia distribuição de R$ 200 milhões em dividendos; confira valor por ação
+Estadao · 11/11 15h06 · fonte única · licença: manchete
+Link: https://www.estadao.com.br/einvestidor/cenarios-e-mercado/cury-anuncia-distribuicao-de-r-200-milhoes-em-dividendos-confira-valor-por-acao/
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: CURY3
+Como falar: 'saiu no Estadao: Cury anuncia distribuição de R$ 200 milhões em dividendos; confira valor por ação; confirmar o número no texto antes de repassar'
+Fonte: Estadao 11/11 15h06
+Push: intradia: 2 alertas de atenção — E05 CURY3, E05 PETR4 · detalhe na sessão
+ids: E05-CURY3-a593059d69-2026-11-11
 
-Suprimidos pelo teto (viram linha do Fechamento): E05-BBAS3-26564d8422-2026-11-11 (teto de noticias), E05-PETR4-8484460de8-2026-11-11 (teto de noticias), E05-NVDA-1836f30871-2026-11-11 (teto de noticias), E05-AMZN-646f19e9b7-2026-11-11 (teto de noticias), E05-PETR4-568ad52066-2026-11-11 (teto de noticias), E05-PETR4-98464da1e0-2026-11-11 (teto de noticias), E05-JPM-77dc08a331-2026-11-11 (teto de noticias), E05-JPM-f3190a43e3-2026-11-10 (teto de noticias)
+[ATENÇÃO] E05 · PETR4 · Petrobras (PETR4) pode gastar US$ 7,5 bi até dezembro; e os dividendos?
+Suno Noticias · 11/11 14h00 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Os dividendos da Petrobras (PETR4) podem enfrentar uma nova pressão nos próximos meses.
+  – Depois de anunciar R$ 15,3 bilhões em remuneração aos acionistas, abaixo das expectativas do mercado, a estatal elevou sua previsão de investimentos para 2026, indicando que poderá desembolsar até US$ 7,5 bilhões soment…
+  – Em relatório divulgado na terça-feira (10), Regis Cardoso e Enzo Sozzi, da XP, destacaram que os proventos referentes ao terceiro trimestre ficaram aproximadamente 18% abaixo dos R$ 18,6 bilhões projetados pela institui…
+  – A diferença ocorreu principalmente porque os investimentos e a necessidade de capital de giro consumiram mais recursos do que o esperado, mesmo com a Petrobras registrando lucro líquido de US$ 7,7 bilhões.
+  – Aproveite a oportunidade de desbloquear mais de R$ 300 mil em bônus e conhecer um plano de investimentos para os próximos três anos.
+  – Investimentos maiores pressionam dividendos da Petrobras A Petrobras revisou sua previsão de investimentos em caixa para 2026 de US$ 16,9 bilhões para uma faixa entre US$ 21 bilhões e US$ 22 bilhões.
+Link: https://www.suno.com.br/noticias/dividendos-petrobras-petr4-investimentos/amp/
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: PETR4
+Como falar: 'saiu no Suno Noticias: Petrobras (PETR4) pode gastar US$ 7,5 bi até dezembro; e os dividendos?; confirmar o número no texto antes de repassar'
+Fonte: Suno Noticias 11/11 14h00
+ids: E05-PETR4-77131e9e47-2026-11-11
+
+Info (só linha no Fechamento):
+· E05 PETR4 · Petrobras soma R$ 120 bilhões em perda de valor de mercado com nova queda de ações hoje
+· E05 DI · Galípolo diz que BC foi até uma Selic alta e 'trincou os dentes'
+· E05 USDBRL · Ouro fecha em queda com valorização do dólar e expectativa de juros mais altos nos EUA
+· E05 MMM · Can 3M Sustain Operating Margin Momentum Amid Sales Growth?
+· E05 NVDA · Prediction: Nvidia Stock Will Be Worth This Much by Year-End 2027
+· E05 PETR4 · Petrobras avalia ajustes pontuais nos preços diante de cenário geopolítico
+· E05 USDBRL · Dólar sobe mais de 10% frente ao real após eleições no Brasil, mas produtor segura vendas de soja à espera de novas altas
+· E05 PETR4 · Petrobras está mudando trajetória de crescimento da produção, diz Magda
+· E05 NVDA · Congress Set to Subpoena Nvidia’s Jensen Huang, Republican Says
+· E05 JPM · JPMorgan Partners With OpenAI: What It Means for JPM's AI Strategy
+· E05 AMD · Why Advanced Micro Devices Stock Popped Today
+· E05 TSM · TSMC Stocks Climb 3.37% After Record NT$586.9 Billion October Revenue
+· E05 BTC · iShares Bitcoin Trust ETF (IBIT) stock price, news, quote and history
+· E05 NOK · Nokia’s Rebound Faces One Big Test Before the End of 2026
+· E05 AMD · AMD Price Prediction: AI Boom and Record Revenue Set the Stage for Another Monster Rally
+
 
 Alertas do dia (todos, com status):
+· pendente  E05 CURY3 — CURY3 · Cury anuncia distribuição de R$ 200 milhões em dividendos; confira valor
+· pendente  E05 PETR4 — PETR4 · Petrobras (PETR4) pode gastar US$ 7,5 bi até dezembro; e os dividendos?
 · pendente  E01 BBAS3 — BBAS3: resultado sai na próxima sessão (12/11)
 · pendente  E01 SAPR4 — SAPR4: resultado sai na próxima sessão (12/11)
 · pendente  E01 MRVE3 — MRVE3: resultado sai na próxima sessão (12/11)
 · pendente  E05 PETR4 — PETR4 · Petrobras recua 3% no Ibovespa após frustrar mercado com dividendos
 · pendente  E05 NVDA — NVDA · Watch Nvidia Gets Rare Downgrade as Jensen Huang Scandal Weighs on Outloo
 · pendente  E05 PETR4 — PETR4 · Dividendos da Petrobras encolheram: ainda vale ter PETR4 na carteira de 
-· pendente  E05 PETR4 — PETR4 · Petrobras tem lucro de R$ 39,8 bilhões no 3º trimestre, alta de 21,5%
-· (+33 notícias só manchete, em noticias.md)
+· expirado  E05 PETR4 — PETR4 · Petrobras tem lucro de R$ 39,8 bilhões no 3º trimestre, alta de 21,5%
+· (+48 notícias só manchete, em noticias.md)
 
