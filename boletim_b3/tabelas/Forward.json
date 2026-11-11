@@ -1,19 +1,19 @@
 {
- "pregao": "2026-11-09",
+ "pregao": "2026-11-10",
  "nome": "Forward",
  "titulo": "Ações mais negociadas - a termo",
  "sla": "8:00:00",
  "paginas": 1,
  "colunas": [{"nome": "TckrSymb", "titulo": "Ação"}, {"nome": "Cod", "titulo": "Código"}, {"nome": "Term", "titulo": "Prazo"}, {"nome": "Closing", "titulo": ""}, {"nome": "TradQty", "titulo": ""}, {"nome": "VlmTradedDay", "titulo": "Volume (R$) mil"}, {"nome": "Part", "titulo": "Participação (%)"}],
  "texto": ["Lista ações com maior volume de negociação em contratos a termo, destacando as mais ativas."],
- "situacao": "publicado",
- "atualizado_em": "2026-11-09T19:01:41.407",
+ "situacao": "republicado",
+ "atualizado_em": "2026-11-11T04:04:08.783",
  "truncada": false,
  "linhas": [
-  ["ISHARES BOVACI", "CI", 93, 172.68, 10000, 1726.8, 0.2984003948434025],
-  ["ULTRAPAR    ON      NM", "ON      NM", 93, 31.38, 66400, 2083.632, 1.9813786217601925],
-  ["MOURA DUBEUXON      NM", "ON      NM", 182, 19.3, 100000, 1930, 2.984003948434024],
-  ["EZTEC       ON      NM", "ON      NM", 93, 10.08, 200000, 2016, 5.968007896868049],
-  ["SID NACIONALON", "ON", 30, 4.55, 625000, 2843.75, 18.650024677712654]
+  ["TRD SPX USD CI", "CI", 42, 18.39, 204269, 3756.50691, 2.547447644999267],
+  ["TRD SPX USD CI", "CI", 360, 20.74, 357991, 7424.73334, 4.464521439283164],
+  ["DIRECIONAL  ON      NM", "ON      NM", 92, 9.4, 500000, 4700, 6.235521897594023],
+  ["USIMINAS    PNA     N1", "PNA     N1", 92, 5.13, 1010000, 5181.3, 12.59575423313993],
+  ["ASSAI       ON      NM", "ON      NM", 92, 9.35, 2000000, 18700, 24.942087590376094]
  ]
 }

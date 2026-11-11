@@ -1,5 +1,5 @@
 {
- "pregao": "2026-11-09",
+ "pregao": "2026-11-10",
  "nome": "InCashMarketBiggestHighs",
  "titulo": "Mercado à vista - maiores altas",
  "sla": "8:00:00",
@@ -7,18 +7,18 @@
  "colunas": [{"nome": "TckrSymb", "titulo": "Ação"}, {"nome": "Cod", "titulo": "Código"}, {"nome": "Price", "titulo": "Preço (R$)"}, {"nome": "Oscillation", "titulo": "Oscilação (%)"}],
  "texto": ["Mostra as maiores valorizações de ativos no mercado à vista, destacando as melhores performances."],
  "situacao": "publicado",
- "atualizado_em": "2026-11-09T18:51:41.177",
+ "atualizado_em": "2026-11-10T18:55:31.68",
  "truncada": false,
  "linhas": [
-  ["T2TD34", "DRN", 82.85, 18.3],
-  ["ORVR11", "BNS ORD NM", 20.5, 19.39],
-  ["HCST11", "CI", 38.39, 19.96],
-  ["HGAG11", "CI  ER", 19.99, 34.43],
-  ["SEQL3", "ON  EG  NM", 9.5, 52],
-  ["STYI11", "CI", 598.99, 99.66],
-  ["AZTE1", "DIR ORD", 0.02, 100],
-  ["RAIZ16", "DIR UNT N2", 0.18, 1700],
-  ["RAIZ14", "DIR PNB N2", 0.23, 2200],
-  ["RAIZ1", "DIR ORD N2", 0.29, 2800]
+  ["NMKS11", "CI", 1800, 19.99],
+  ["O2HI34", "DRN ED", 90.54, 20.3],
+  ["AZUL99", "UNT     N2", 1.15, 21.05],
+  ["I2ND34", "DRN", 12.25, 21.64],
+  ["STYI11", "CI", 735, 22.7],
+  ["M1LC34", "DRN", 12.43, 22.94],
+  ["AZUL97", "UNT     N2", 1.14, 26.66],
+  ["SEQL3", "ON  EG  NM", 12.3, 29.47],
+  ["RCFA11", "CI", 0.04, 33.33],
+  ["INDE11", "CI", 80, 33.33]
  ]
 }

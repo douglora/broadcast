@@ -42,9 +42,9 @@
    "id": 2,
    "nome": "Indicadores e informativos",
    "pai": 20,
-   "situacao": "publicado",
-   "errata": false,
-   "atualizado_em": "2026-11-10T07:55:38.19",
+   "situacao": "republicado",
+   "errata": true,
+   "atualizado_em": "2026-11-10T18:15:38.597",
    "arquivo": "BDI_02_20261109.pdf",
    "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-11-09/BDI_02_20261109.pdf"
   },
