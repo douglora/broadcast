@@ -41,6 +41,8 @@ metodo em quant/saida/pesquisa5/BRIEF.md) e move a linha para "Testadas" com os 
 
 
 ## Testadas
+- 11/11/2026, tarde: nenhuma hipotese testavel; 7, 8, 9, 10, 12, 14, 15 e 16 seguem esperando dado novo ou sao prova viva. Nao ha item "[revisao: ...]"
+  aberto. Prova viva rodou: indice fim do dia original 19 negocios (+R$ 86, t 2,4), variante adaptativa 17 (-R$ 63), abaixo de 60. Pregao de 11/11: robo sem negocio (Mac dormiu das 09h15 as 09h58). Nenhuma tentativa nova (METODO: parar em vez de forcar).
 - 10/11/2026, tarde: item 28 ([revisao: arrasto 15 na reversao do dado]) TESTADO e fechado. Descoberta (10/2021-12/2024, 338 negocios, regra e saida congelada): saida congelada +R$ 100,29 por negocio (t 3,27, 7 de 7 semestres); 'arrasto 15' +R$ 4,13 (t 0,23, 3 de 7 semestres). Nao e candidata (pede t >= 3 e 5 de 7); nao vai a validacao. O dia 10/11 (-R$ 605, percentil 12) esta dentro da distribuicao. Regra inalterada. Outros itens (7, 8, 9, 10, 12, 14, 15, 16) seguem esperando dado novo ou sao prova viva (indice fim do dia original 18 negocios, +R$ 91, t 2,4; variante adaptativa 17, -R$ 63; abaixo de 60). Nenhuma tentativa nova alem desta (METODO: parar em vez de forcar).
 - 06/11/2026, tarde: nenhuma hipotese testavel; 7, 8, 9, 10, 12, 14, 15 e 16 seguem esperando dado novo ou sao prova viva. Nao ha item "[revisao: ...]"
   aberto. Prova viva rodou: indice fim do dia original 16 negocios (+R$ 85, t 2,0), variante adaptativa 16 (-R$ 54), abaixo de 60. Nenhuma tentativa nova (METODO: parar em vez de forcar).
