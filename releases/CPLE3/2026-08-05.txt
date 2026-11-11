@@ -1,0 +1,1889 @@
+[p. 1]
+RESULTADOS
+2T26
+
+[p. 2]
+│ Destaques 2T26
+Desempenho operacional 
+e comercial
+Resultados 
+financeiros
+Remuneração 
+ao acionista
+RTP 2026
+Sucesso na revisão 
+tarifária do 6º ciclo 
+BRR atinge R$ 19,9 bilhões
+Estratégia comercial eficiente 
+Receita com modulação e preços 
+entre submercados (hídricas): 
+R$ 74,6 milhões
+Mercado faturado (Copel DIS) 
+Expansão de 7,2%
+Ebitda recorrente 
+R$ 1.612,6 milhões
++20,8% frente ao 2T25
+Lucro Líquido Recorrente 
+R$ 645,1 milhões
++42,6% vs 2T25
+Capex 
+R$ 957,2 milhões 
+no 2T26
+Alavancagem Financeira 
+2,9x (dívida líquida sobre 
+Ebitda) em 30.06.2026, alinhada 
+aos novos parâmetros da 
+estrutura ótima de capital
+Juros sobre Capital Próprio 
+R$ 706 milhões
+(R$ 0,2377/ação), a serem 
+pagos em 30.09.2026 
+Pagamento de dividendos
+R$ 1,35 bilhão, pagos em 
+30.06.2026, referentes aos 
+dividendos anunciados em 
+dez/25
+ 
+│ Indicadores Financeiros
+R$ milhões
+Destaques de Indicadores 2T26 2T25 ∆% 1S26 1S25 ∆%
+Ebitda (R$ milhões) 1.993,8 1.582,8 26,0 3.901,6 3.319,3 17,5
+Ebitda Recorrente (R$ milhões) 1.612,6 1.335,0 20,8 3.367,2 2.838,2 18,6
+Lucro Líquido (R$ milhões) 1.047,5 573,6 82,6 1.741,5 1.238,2 40,6
+Lucro Líquido Recorrente (R$ milhões) 645,1 452,4 42,6 1.284,0 1.029,3 24,7
+LPA - Lucro Líquido por ação (R$)1 0,33 0,22 50,0 0,57 0,42 35,7
+Rentabilidade do Patrimônio Líquido2 4,3% 2,5% 1,8 p.p. 7,2% 5,4% 1,8 p.p.
+Margem Ebitda 28,8% 25,4% 3,4 p.p. 27,9% 27,4% 0,5 p.p.
+Margem Ebitda Recorrente 27,1% 24,7% 2,4 p.p. 27,3% 26,7% 0,6 p.p.
+Margem Operacional Recorrente 9,3% 10,6% -1,3 p.p. 11,5% 12,0% -0,5 p.p.
+Valor Patrimonial por Ação (R$)3 8,13 7,78 4,5 8,13 7,78 4,5
+Endividamento do PL4 81,4% 77,1% 4,3 p.p. 81,4% 77,1% 4,3 p.p.
+Liquidez Corrente 1,3 1,0 30,0 1,3 1,0 30,0
+Alavancagem 2,9x 2,9x5 — 2,9x 2,9x5 —
+¹ Lucro Líquido atribuído aos acionistas da empresa controladora/ações em circulação. ² Considera o Patrimônio Líquido do final do período. ³ PL do final do período/
+ações em circulação. 4 Dívida Líquida/PL do final do período. 5 Exclui efeito da aquisição de 70% da UHE Baixo Iguaçu.
+Valores sujeitos a arredondamentos. 
+COPEL | 2T26
+
+[p. 3]
+Link de acesso
+COPEL | 2T26
+
+[p. 4]
+Sumário
+1 Resultado Consolidado 3
+1.1 Ebitda 3
+1.2 Receita Operacional 4
+1.3 Custos e Despesas Operacionais 5
+1.4 Resultado de Equivalência Patrimonial 8
+1.5 Resultado Financeiro 8
+1.6 Resultado Líquido Consolidado 9
+1.7 Endividamento e Alavancagem 10
+2 Investimentos 12
+3 Copel Geração e Transmissão 13
+3.1 Desempenho Econômico-Financeiro 13
+3.1.1 Ebitda 13
+3.1.2 Custos Gerenciáveis (PMSO) Recorrentes 14
+3.1.3 Lucro Líquido Recorrente 15
+3.1.4 Efeito IFRS no segmento Transmissão 16
+3.2 Desempenho Operacional 17
+3.2.1 Geração 17
+3.2.2 Transmissão 18
+4 Estratégia de Comercialização 20
+4.1 Contexto comercial 20
+4.2 Desempenho Comercial 20
+5 Copel Distribuição 23
+5.1 Desempenho Econômico-Financeiro 23
+5.1.1 Ebitda 23
+5.1.2 Custos Gerenciáveis (PMSO) Recorrentes: 24
+5.1.3 Lucro Líquido Recorrente 25
+5.2 Desempenho Operacional 26
+5.2.1 Mercado Fio (TUSD) 26
+5.2.2 Mercado Cativo 26
+5.2.3 Dados Operacionais 26
+5.2.4 Revisão Tarifária Periódica (destaques) 28
+6 Performance ESG 29
+6.1 ESG na estratégia da Copel 29
+6.2 Destaques recentes 30
+6.3 Indicadores 30
+6.4 Avaliações, Classificações e Índices 31
+7 Outros destaques do período 32
+8. Anexos 36
+COPEL | 2T26
+
+[p. 5]
+1 Resultado Consolidado
+O Resultado Consolidado é composto pela combinação dos negócios da Copel (Holding), Copel 
+Geração e Transmissão (Copel GeT), Copel Distribuição (Copel DIS), Copel Comercialização 
+(Copel COM) e outras participações societárias 1. As análises a seguir referem-se ao segundo 
+trimestre de 2026 (2T26) em comparação com o mesmo período de 2025 (2T25). Os valores 
+apresentados neste documento estão expressos em milhares de reais (R$), exceto quando 
+indicado o contrário. Eventuais divergências na soma de valores ou nas variações percentuais 
+decorrem de critérios de arredondamento.
+1.1 Ebitda
+A Copel registrou Ebitda Recorrente 2 de R$ 1.612,6 milhões no 2T26 , representando uma 
+expansão de 20,8% frente aos R$ 1.335,0 milhões reportados no 2T25.
+Este desempenho sólido reflete o avanço contínuo das sinergias operacionais, a rigorosa disciplina 
+na alocação de capital e o posicionamento comercial estratégico adotados pela Companhia. O 
+Ebitda Recorrente Consolidado do período foi impulsionado, principalmente, pelo crescimento do 
+Ebitda recorrente dos segmentos de distribuição (Copel DIS), que apresentou alta de 34,5% (+R$ 
+196,3 milhões), e de geração e transmissão (Copel GeT), com avanço de 10,1% (+R$ 76,8 
+milhões).
+Destaque de desempenho por segmento no 2T26:
+Copel DIS (Distribuição)
+O Ebitda Recorrente da Copel DIS apresentou aumento de 34,5% (+R$ 196,3 milhões) em relação 
+ao 2T25. Esse resultado foi impulsionado, principalmente: 
+• Mercado-fio faturado: Aumento de 7,2% entre os períodos analisados, em decorrência do 
+aquecimento da atividade econômica na área de concessão, temperaturas mais elevadas 
+no início do trimestre e expansão contínua da base de clientes;
+• Reajuste Tarifário Anual (RTA): Aplicação de efeito tarifário em junho de 2025, que gerou 
+impacto médio positivo de 1,3% na parcela B. (Mais detalhes disponíveis na seção 5.1.1).
+Copel GeT (Geração e Transmissão)
+O Ebitda Recorrente da Copel GeT atingiu R$ 838,2 milhões no 2T26, crescimento de 10,1% 
+(+R$ 76,8 milhões) comparado ao 2T25. O desempenho reflete principalmente a combinação dos 
+fatores listados a seguir:
+• Receita de Transmissão: Incremento de R$ 70,2 milhões na Receita de Disponibilidade de 
+Rede (ajustada pelo efeito do IFRS), decorrente da incorporação integral da Transmissora 
+Mata de Santa Genebra S.A. (MSG) e do aumento médio de 2,2% na Receita Anual 
+Permitida (RAP) das transmissoras para o ciclo 2025-2026 (ex-MSG);
+• Contratos Bilaterais: Acréscimo de R$ 83,7 milhões na Receita de Suprimento de 
+Contratos Bilaterais, impulsionado pela alta de 6,4% no preço médio de venda de energia 
+do portfólio da geradora, o que compensou a redução de 7,8% no volume físico 
+comercializado;
+COPEL | 2T26
+ 3
+Sumário Resultado Investimentos Copel GeT Estratégia COM Copel DIS ESG Outros Anexos
+1 Copel Serviços, Elejor e demais participações em ativos de geração.
+2 Excluídos itens não recorrentes, valor justo da compra e venda de energia (Marcação a Mercado - MTM) na Copel 
+Comercialização, valor novo de reposição pelo ajuste a valor presente do ativo indenizável (VNR) da Copel Distribuição, 
+equivalência patrimonial e efeitos do IFRS sobre ativos de contratos de transmissão.
+
+[p. 6]
+• Energia Comprada para Revenda: Redução de R$ 6,4 milhões nos custos com Energia 
+Comprada para Revenda, impulsionada pelas condições hídricas favoráveis no trimestre.
+Esse desempenho positivo do segmento de GeT foi parcialmente mitigado por:
+• Mercado de Curto Prazo (MCP): Redução de R$ 35,2 milhões na CCEE, afetada pelo 
+resultado de transações realizadas no MCP e pelo menor impacto da modulação do portfólio 
+hidrelétrico frente ao 2T25;
+• Desvio de Geração (Curtailment): Impacto negativo de R$ 34,8 milhões (+155,9%) devido 
+a restrições operacionais determinadas pelo Operador Nacional do Sistema Elétrico (ONS) 
+que elevaram o índice de corte de geração de 15,7% no 2T25 para 23,7% no 2T26. (Mais 
+detalhes disponíveis na seção 3.1.1).
+Centrais Elétricas Rio Jordão (Elejor)
+Aumento de R$ 12,1 milhões no Ebitda Recorrente da Elejor em relação ao 2T25, totalizando 
+R$ 29,1 milhões, estimulado pela expansão do volume de energia comercializada em contratos 
+bilaterais no período e pelo melhor preço médio de venda de energia praticado no trimestre.
+Os itens não recorrentes considerados para o cálculo do Ebitda Recorrente estão demonstrados na 
+tabela a seguir: 
+R$ milhões
+Ebitda Recorrente 2T26 2T25 Δ% 1S26 1S25 Δ%
+Ebitda 1.993,8 1.582,8 26,0 3.901,6 3.319,3 17,5
+(-/+) Valor justo na compra e venda de energia (MTM) (11,4) (61,2) (81,4) (59,3) (67,9) (12,7)
+(-/+) Provisão/Reversão indenização PDV — — — 18,9 21,0 (10,0)
+(-/+) Alienação ativos/descruzamento — (200,6) — — (310,4) —
+(-/+) Equivalência Patrimonial (55,9) (64,3) (13,1) (125,7) (164,7) (23,7)
+(-/+) Valor Novo de Reposição - VNR (288,7) (11,7) 2.367,5 (308,8) (35,7) 765,0
+(-/+) Efeito IFRS (Receita Transmissão Societária/Regulatória) (25,2) 90,0 — (59,5) 76,6 —
+Ebitda Recorrente 1.612,6 1.335,0 20,8 3.367,2 2.838,2 18,6
+| Ebitda Recorrente Consolidado (R$ milhões)
+'+R$277,6 milhões
++20,8% W
++1.335,0
++196,3 +76,8 +12,1
+-7,6
+1.612,6
+Ebitda 
+Recorrente 2T25
+Δ DIS Δ GeT Δ Elejor Δ Outros* Ebitda 
+Recorrente 2T26
+*Inclui Ebitda da Holding, Copel Comercialização, Copel Serviços e eliminações e reclassificações entre empresas do grupo.
+1.2 Receita Operacional
+A Receita Operacional Líquida recorrente totalizou R$ 5.960,7 milhões no 2T26, apresentando um 
+crescimento de 10,4% em comparação aos R$ 5.401,2 milhões registrados no 2T25. Esta métrica 
+desconsidera os efeitos do IFRS no segmento de transmissão de energia, o Valor Justo do Ativo 
+COPEL | 2T26
+ 4
+Sumário Resultado Investimentos Copel GeT Estratégia COM Copel DIS ESG Outros Anexos
+
+[p. 7]
+Indenizável/Valor Novo de Reposição (VNR), o ajuste ao valor justo dos contratos de compra e 
+venda de energia (MTM), a receita de construção da Copel DIS e eventuais efeitos não recorrentes.
+Este desempenho positivo foi impulsionado, principalmente, pelos aumentos detalhados abaixo:
+I. Receita com Disponibilidade da Rede Elétrica: R$ 262,7 milhões (+16,2%), influenciado 
+pelo crescimento do mercado fio da Copel DIS (+7,3%) e pela maior receita com 
+transmissão da Copel GeT, ajustado pelo efeito do IFRS, devido, principalmente, à 
+incorporação da MSG com adicional de R$ 73,1 milhões e aumento médio de 2,2% na RAP 
+das transmissoras com participação 100% da Copel GeT para o ciclo 2025-2026, ex-MSG;
+II. Receita de Suprimento de Energia Elétrica: R$ 147,0 milhões (+12,9%) , impulsionado 
+pelo crescimento de 13,5% na venda de energia em contratos bilaterais na Copel COM. 
+Este resultado foi parcialmente compensado pelo aumento de 155,9% (+R$ 34,8 milhões) 
+no desvio de geração nos complexos eólicos em função do Curtailment mais elevado no 
+2T26 e pela redução de 61,9% na liquidação de energia da Copel DIS na CCEE;
+III. Resultado de Ativos e Passivos Financeiros Setoriais (CVA): R$ 77,7 milhões 
+(+13,5%), consequência da aderência da cobertura tarifária em relação aos custos com a 
+Parcela A, em especial com energia comprada para revenda e devolução do PIS/COFINS 
+aos consumidores da Copel DIS no período; e 
+IV. Receita de Fornecimento de Energia: R$ 68,4 milhões (+3,6%) , reflexo do aumento de 
+2,3% do mercado cativo faturado na Copel DIS, parcialmente compensado pela redução de 
+19,5% na venda de energia para consumidores livres na Copel COM.
+O quadro a seguir apresenta a conciliação da Receita Operacional:
+R$ milhões
+Receita Operacional 2T26 2T25 ∆% 1S26 1S25 Δ%
+Receita Operacional Líquida 6.918,1 6.225,2 11,1 13.985,8 12.117,2 15,4
+(-) VNR 288,7 11,7 2.367,5 308,8 35,7 765,0
+(-) Receita com Construção da Copel DIS 567,1 786,7 (27,9) 1.089,8 1.371,3 (20,5)
+(-) Valor justo na compra e venda de energia 11,4 61,2 (81,4) 59,3 67,9 (12,7)
+(-/+) Receita Transmissão (Efeito IFRS) (90,2) 35,6 — (180,8) (28,3) 538,9
+Receita Operacional Líquida Recorrente 5.960,7 5.401,2 10,4 12.347,1 10.614,0 16,3
+| Receita operacional líquida
+Fornecimento de energia elétrica
+33,2%
+Suprimento de energia elétrica
+21,6%
+Disponibilidade da rede
+elétrica (TUSD/ TUST)
+31,6%
+Resultado de ativos e passivos
+financeiros setoriais
+11,0%
+Outras receitas operacionais
+2,5%
+R$5.960,7
+1.3 Custos e Despesas Operacionais
+No 2T26, os Custos e Despesas Operacionais Recorrentes, excluindo custo com construção, 
+totalizaram R$ 4.754,3 milhões, acréscimo de 7,4% em comparação aos R$ 4.427,5 milhões 
+COPEL | 2T26
+ 5
+Sumário Resultado Investimentos Copel GeT Estratégia COM Copel DIS ESG Outros Anexos
+
+[p. 8]
+registrados no 2T25. O principal vetor de custo no trimestre foi a energia comprada para revenda 
+(59,4% do total), seguida pelos encargos setoriais (15,1%), despesas com PMSO (14,8%) e outras 
+despesas operacionais (10,7%).
+| Breakdown dos Custos e Despesas 
+Energia elétrica 
+comprada para revenda 
+59,4%
+Encargos de uso da rede 
+elétrica 15,1%
+PMSO 14,8%
+Depreciação e amortização 8,5%
+Provisões e reversões 2,2%
+R$4.754,3 mi
+As principais variações nos custos e despesas operacionais no período são:
+I. Energia elétrica comprada para revenda: Aumento de R$ 259,8 milhões (+10,1%) , 
+decorrente, principalmente: i. do acréscimo de R$ 136,4 milhões na compra de energia pela 
+Copel DIS, com destaque para o maior volume proveniente do sistema de geração 
+distribuída (+R$ 150,5 milhões); e ii. da alta de R$ 184,1 milhões (+17,7%) na Copel COM, 
+essencialmente, pela aquisição de energia elétrica em contratos bilaterais. Este resultado foi 
+parcialmente compensado pelas eliminações e reclassificações entre empresas do grupo, 
+com aumento de R$ 49,5 milhões, principalmente relacionadas às aquisições de energia da 
+Copel COM do portfólio da Copel GeT;
+II. Depreciação e Amortização: Acréscimo de R$ 45,0 milhões (+12,5%), reflexo direto do 
+aumento na base de ativos imobilizados em serviço, fruto do avanço do programa de 
+investimentos do grupo, com maior concentração na Copel DIS;
+III. Provisões e Reversões: Aumento de R$ 22,6 milhões (+26,9%), devido, principalmente: i. 
+a maiores Perdas Esperadas com Crédito e Liquidação Duvidosa (PECLD) no montante de 
+R$ 17,0 milhões, concentradas na Copel DIS (+R$ 15,3 milhões); e ii. do incremento de 
+R$ 2,8 milhões nas provisões para litígios; e
+IV. Encargos de Uso da Rede Elétrica: Elevação de R$ 5,8 milhões (+0,8%), principalmente 
+pelo aumento dos encargos de Rede Básica na Copel DIS.
+Esses aumentos nos custos e despesas foram parcialmente compensados pela redução de 
+R$ 6,5 milhões (-0,9%) com Custos Gerenciáveis (PMSO). Esse desempenho positivo decorre da 
+redução de R$ 35,1 milhões (-32,7%) em Outros custos e despesas operacionais, essencialmente 
+nas Perdas com Desativação de Bens da Copel DIS e menor despesa com taxa de arrecadação de 
+faturas, efeito que compensou as seguintes pressões de alta no PMSO:
+I. Serviços de Terceiros: elevação de R$ 10,3 milhões (+3,7%) , concentrada na Copel DIS 
+e direcionada a atividades de manutenção do sistema de distribuição de energia com foco 
+no cumprimento das metas dos indicadores regulatórios de qualidade (DEC/FEC);
+COPEL | 2T26
+ 6
+Sumário Resultado Investimentos Copel GeT Estratégia COM Copel DIS ESG Outros Anexos
+
+[p. 9]
+II. Previdência e Assistência: aumento de R$ 6,6 milhões (+11,5%) em razão da atualização 
+dos índices de reajustes para benefícios e contribuições previdenciárias realizada em 
+dezembro de 2025;
+III. Pessoal: acréscimo de R$ 6,2 milhões (+2,6%), influenciado, principalmente, pelo reajuste 
+salarial de 5,1% do Índice Nacional de Preços ao Consumidor (INPC) conforme o Acordo 
+Coletivo de Trabalho (ACT) 2025, parcialmente compensado pela redução na provisão de 
+PLR em função da atualização metodológica dos critérios de elegibilidade; e
+IV. Materiais: crescimento de R$ 5,4 milhões (+24,7%), com incremento direcionado 
+sobretudo à aquisição de componentes elétricos na Copel GeT, essencialmente para ativos 
+eólicos.
+A Tabela abaixo apresenta os custos gerenciáveis com comparativo entre trimestres e acumulado 
+no ano:
+R$ milhões
+Custos Gerenciáveis Recorrentes* 2T26 2T25 ∆% 1S26 1S25 ∆%
+Pessoal e administradores 248,6 242,4 2,6 512,4 491,6 4,2
+Planos previdenciário e assistencial 64,7 58,0 11,6 130,8 119,0 9,9
+Material 27,3 21,9 24,7 53,2 44,9 18,5
+Serviços de terceiros 289,0 278,7 3,7 545,0 561,0 (2,9)
+Outros custos e despesas operacionais 72,3 107,4 (32,7) 192,3 217,0 (11,4)
+TOTAL 701,9 708,4 (0,9) 1.433,7 1.433,5 —
+*Desconsidera efeitos dos seguintes itens não recorrentes: Pessoal - Reversão/provisão Indenização PDV; e Outros - alienação de ativos/ 
+Descruzamento.
+Neutralizando os efeitos das provisões relacionadas ao Prêmio Por Desempenho (PPD), 
+Participação nos Lucros e Resultados (PLR) e Incentivos de Longo Prazo (ILP), verifica-se um 
+aumento de R$ 2,1 milhões (+1,1%) nos custos com pessoal e administradores no comparativo 
+trimestral. Essa variação decorre, essencialmente, do reajuste salarial de 5,1% decorrente do ACT 
+2025 (vigente a partir de outubro de 2025), que foi parcialmente compensado pelas sinergias de 
+pessoal e otimização de posições no período. Descontada a inflação acumulada de 4,3% medida 
+pelo INPC entre julho de 2025 e junho de 2026, a Companhia registrou uma redução real de 
+aproximadamente 3,1% nessa linha de custos.
+R$ milhões
+Custo Recorrente com Pessoal 2T26 2T25 ∆% 1S26 1S25 ∆%
+Pessoal e administradores 248,6 242,4 2,6 512,4 491,6 4,2
+(-/+) Participação nos lucros/resultados, PPD e ILP (52,9) (48,8) 8,4 (126,1) (94,2) 33,9
+TOTAL 195,7 193,6 1,1 386,3 397,4 (2,8)
+COPEL | 2T26
+ 7
+Sumário Resultado Investimentos Copel GeT Estratégia COM Copel DIS ESG Outros Anexos
+
+[p. 10]
+| Evolução do quadro de pessoal
+Observação: para fins de apuração, foram considerados os empregados efetivos e os participantes do 
+Programa de Menores Aprendizes.
+1.4 Resultado de Equivalência Patrimonial
+O resultado de Equivalência Patrimonial das coligadas e empreendimentos controlados em 
+conjunto totalizou R$ 55,9 milhões no 2T26 , apresentando redução de 13,1% em relação aos 
+R$ 64,3 milhões registrados no mesmo período do ano anterior. 
+Essa variação decorre, essencialmente, da mudança no método de consolidação da Transmissora 
+Mata de Santa Genebra S.A. (MSG). Com a assunção do controle acionário, os resultados da 
+MSG, que no 2T25 contribuíram com R$ 7,5 milhões nessa linha, passaram a ser consolidados 
+linha a linha nas demonstrações financeiras da Companhia a partir de junho de 2025, gerando 
+impacto positivo direto no Ebitda operacional e deixando de compor a equivalência patrimonial. 
+Excluindo o efeito da consolidação da MSG para fins de comparabilidade (visão pro forma ), o 
+resultado de equivalência patrimonial das demais participações apresentou um decréscimo de 
+1,6%, passando de R$ 56,8 milhões no 2T25 para R$ 55,9 milhões no 2T26.
+1.5 Resultado Financeiro
+O Resultado Financeiro Líquido Recorrente foi negativo em R$ 653,3 milhões no 2T26, comparado 
+ao resultado negativo de R$ 401,9 milhões reportado no 2T25. Este montante desconsidera o efeito 
+não recorrente de R$ 284,4 milhões na Receita Financeira, decorrente da repactuação do Uso do 
+Bem Público (UBP) da Elejor. A variação no Resultado Financeiro recorrente é explicada 
+principalmente por:
+I. Aumento de R$ 195,0 milhões (+32,0%) nas Despesas com Encargos da Dívida, decorrente 
+do maior saldo médio de endividamento no período, reflexo das captações recentes 
+destinadas ao financiamento do plano de investimentos da Companhia; e
+II. Acréscimo de R$ 63,2 milhões em Despesa Financeira relativo ao PIS/COFINS sobre Juros 
+sobre Capital Próprio (JCP), em função do repasse dos proventos das subsidiárias para a 
+Holding, no trimestre.
+COPEL | 2T26
+ 8
+Sumário Resultado Investimentos Copel GeT Estratégia COM Copel DIS ESG Outros Anexos
+
+[p. 11]
+R$ milhões
+Resultado Financeiro Recorrente 2T26 2T25 ∆% 1S26 1S25 ∆%
+Receitas Financeiras¹ 505,5 375,3 34,7 838,4 673,0 24,6
+Despesas Financeiras (1.158,8) (777,2) 49,1 (1.981,3) (1.521,4) 30,2
+Resultado Financeiro Total (653,3) (401,9) 62,5 (1.142,9) (848,4) 34,6
+¹Desconsidera efeitos da repactuação do UBP da Elejor no montante de R$ 284,4 milhões.
+1.6 Resultado Líquido Consolidado
+A Copel registrou Lucro Líquido Reportado de R$ 1.047,5 milhões no 2T26 , frente aos 
+R$ 573,6 milhões no 2T25, um aumento de 82,6% . Esse resultado é explicado, principalmente, 
+pelos seguintes fatores:
+I. melhor desempenho operacional com Ebitda Reportado de R$ 1.993,8 (+26,0%), ante o 
+Ebitda de R$ 1.582,8 milhões no 2T25;
+II. redução de R$ 74,9 milhões no pagamento de tributos como resultado, essencialmente, do 
+benefício fiscal decorrente da declaração de JCP realizada no 2T26, evento que não 
+ocorreu no mesmo trimestre do ano anterior; e
+III. aumento de R$ 33,0 milhões no Resultado Financeiro Reportado, em função do efeito 
+positivo de R$ 284,4 milhões nas Receitas Financeiras, decorrente da repactuação do Uso 
+de Bem Público (UBP) da Elejor. 
+Este resultado foi parcialmente compensado por maiores despesas com Depreciação e 
+Amortização (-R$ 45,0 milhões) como efeito da maior base de ativos, dado o crescimento do capital 
+investido entre os períodos, em especial, na Copel DIS.
+Os principais ajustes do lucro líquido no 2T26 foram: 
+| Reconciliação Lucro Líquido Recorrente do 2T26 (R$ milhões)
+645,1
+1.047,5
+-7,5 -16,6
+-190,5
+-187,7
+Lucro Líquido 
+Reportado
+MTM Efeito IFRS VNR Repactuação 
+UBP 
+(Resultado 
+Financeiro)
+Lucro Líquido 
+Recorrente
+Desconsiderando-se os efeitos não recorrentes e fatores sem impacto caixa — como VNR, MTM e 
+ajustes de IFRS nas transmissoras — o Lucro Líquido Recorrente apresentou crescimento de 
+42,6% em relação ao 2T25, alcançando R$ 645,1 milhões. Esse desempenho foi impulsionado 
+pelo aumento do Ebitda Recorrente com acréscimo de R$ 277,6 milhões e menor pagamento de 
+tributos com efeito positivo de R$ 219,8 milhões em virtude, essencialmente, da declaração de JCP 
+em 15 de abril de 2026, com data de pagamento em 30 de setembro de 2026. Estes efeitos foram 
+parcialmente compensados pelo menor Resultado Financeiro Líquido de R$ 251,4 milhões 
+(conforme detalhado no item 1.5), maiores despesas com depreciação e amortização de R$ 45,0 
+milhões, em função da maior base de ativos, e queda na Equivalência Patrimonial de 
+R$ 8,4 milhões (conforme detalhado no item 1.4).
+| Evolução do Lucro Líquido Recorrente (R$ milhões)
+COPEL | 2T26
+ 9
+Sumário Resultado Investimentos Copel GeT Estratégia COM Copel DIS ESG Outros Anexos
+
+[p. 12]
+645,1
+452,4
++277,6
++219,9
+-45,0
+-251,4 -8,4
+2T25 
+Recorrente
+Δ Ebitda
+Recorrente
+Δ Impostos Δ Depreciação Δ Resultado 
+Financeiro
+Δ Equivalência 2T26 
+Recorrente
+1.7 Endividamento e Alavancagem
+O total da Dívida Consolidada da Copel em 30 de junho de 2026 foi de R$ 23.484,2 milhões, 
+variação de +17,2% em relação ao montante registrado em 31 de dezembro de 2025, de 
+R$ 20.038,9 milhões. A tabela e os gráficos a seguir demonstram o endividamento da Copel e suas 
+subsidiárias em 30 de junho de 2026. 
+| Dívida por Subsidiária
+R$ milhões
+Gerenciamento
+de Capital Copel GeT2 Copel DIS Outras3 Total
+Dívida Total1 7.967,2 10.743,8 4.773,2 23.484,2
+Disponibilidade 819,1 808,9 2.205,0 3.833,0
+Dívida Líquida Ajustada 7.148,1 9.934,9 2.568,2 19.651,2
+Alavancagem 2,9x
+Duration (anos) 3,4 3,7 5,4 3,7
+1 Considera efeito de swap sobre debêntures. 
+2 Considerada Copel Geração e Transmissão S.A. (controladora).
+3 Inclui Copel Serviços, complexos eólicos (Brisa Potiguar, São Bento, Cutia, Jandaíra, Vilas, Aventura e SRMN) e transmissoras (Costa Oeste, Marumbi e Mata de Santa 
+Genebra).
+Em 30 de junho de 2026, a alavancagem consolidada da Companhia atingiu 2,9x, refletindo uma 
+Dívida Líquida de R$ 19.651,2 milhões. O indicador apresentou aumento de 0,2x em relação aos 
+2,7x registrados ao final de 2025. Na comparação com o encerramento do 2T25, quando a 
+alavancagem também era de 2,9x (desconsiderando os efeitos da aquisição de 70% da UHE Baixo 
+Iguaçu), o nível de alavancagem permaneceu estável. O indicador se mantém em nível confortável 
+e dentro dos parâmetros definidos pela estrutura ótima de capital da Companhia, que estabelece o 
+centro da meta em 2,9x e intervalo (banda) de flutuação entre 2,6x e 3,2x, com convergência para 
+2,9x em até 48 meses, conforme atualização dos parâmetros que orientam a estrutura ótima de 
+capital e a Política de Dividendos publicada em Fato Relevante de 15 de julho de 2026.
+COPEL | 2T26
+ 10
+Sumário Resultado Investimentos Copel GeT Estratégia COM Copel DIS ESG Outros Anexos
+
+[p. 13]
+| Dívida Líquida ajustada/Ebitda Ajustado
+13.157 16.300 17.457 19.651
+2,6 2,7 2,8 2,9
+Dívida Líquida
+Dívida Líquida/Ebitda Recorrente* LTM
+2024 2025 mar-26 jun-26
+*sem equivalência patrimonial, considera operações descontinuadas e exclui efeitos de Impairment, indenização PDV, MTM, repactuação 
+GSF, perdas na desativação de bens e ganhos na alienação de ativos/descruzamento.
+O custo médio da dívida em taxa nominal em 30.06.2026 atingiu 12,92% (vs. 13,07% em 
+31.12.2025), o que equivale a 91,33% do CDI (ou 87,74% do CDI em 31.12.2025). Em comparação 
+com a taxa nominal em 30.06.2025 de 13,54% (90,88% do CDI) , o custo médio da dívida reduziu 
+62 basis points (bps).
+| Composição e Indexadores da Dívida
+| Amortização (R$ milhões)
+Prazo Médio: 5,2 anos (vs. 4,9 anos em 2025)
+COPEL | 2T26
+ 11
+Sumário Resultado Investimentos Copel GeT Estratégia COM Copel DIS ESG Outros Anexos
+
+[p. 14]
+2 Investimentos
+No 2T26, o montante realizado do programa de investimentos totalizou R$ 957,2 milhões, sendo 
+50,1% pela Copel DIS e 49,9% pela Copel GeT, Copel COM e Copel Holding. Destacamos os 
+investimentos iniciais de R$ 317,9 milhões para ampliação da capacidade instalada das UHEs 
+Governador Bento Munhoz (Foz do Areia - FDA) e Governador Ney Braga (Segredo), no âmbito do 
+Leilão de Reserva de Capacidade (LRCAP) realizado em 18 de março de 2026.
+R$ milhões
+Subsidiária / SPE 2T26 2T25 ∆% 1S26 1S25 ∆%
+Copel Distribuição 479,1 881,1 (45,6) 917,7 1.477,7 (37,9)
+Copel Geração e Transmissão 476,4 92,5 415,0 617,7 173,2 256,6
+Geração 371,5 25,7 1.345,5 430,2 46,2 831,2
+Hidrelétricas 34,4 12,0 186,7 77,9 20,7 276,3
+Eólica 19,2 13,6 41,2 34,4 25,5 34,9
+LRCAP 317,9 — — 317,9 — —
+Transmissão 90,8 64,7 40,3 164,2 113,6 44,5
+Melhorias/Reforço 1 87,8 62,5 40,5 160,2 108,3 47,9
+Outros Investimentos 3,0 2,2 36,4 4,0 5,3 (24,5)
+Demais projetos GeT 2 14,1 2,1 571,4 23,3 13,4 73,9
+Holding 1,2 1,0 20,0 2,6 1,2 116,7
+Copel Comercialização 0,2 0,2 — 0,5 0,5 —
+Copel Serviços e outras participações 3 0,3 0,6 (50,0) 0,3 0,9 (66,7)
+Total 957,2 975,3 (1,9) 1.538,8 1.653,5 (6,9)
+1 Inclui Plano de Modernização de Instalações - PMI.
+2 Inclui modernização COGT (Centro de Operações da Geração e Transmissão), transformação digital e investimento na rede operativa da Copel GeT.
+3 Inclui plano de inovação no setor de energia e alinhado com a tese de investimento, programas de inovação da Copel e prática ESG.
+Os investimentos realizados na Distribuidora estão, essencialmente, alocados para modernização, 
+renovação da rede de distribuição, com tecnologias padronizadas para atendimento aos 
+equipamentos de automação. Entre os benefícios estão a resiliência de redes para reduzir 
+desligamentos e garantir a qualidade de prestação de serviço, redução dos custos com serviços de 
+O&M e comerciais e aprimoramento no controle dos indicadores de Duração Equivalente de 
+Interrupção por Unidade Consumidora - DEC e Frequência Equivalente de Interrupção por Unidade 
+Consumidora - FEC. Todo o montante aplicado na Copel DIS no trimestre foi destinado para 
+investimentos em ativos elétricos.
+No trimestre, além da ampliação da capacidade instalada das usinas hidrelétricas Foz do Areia e 
+Segredo, os investimentos realizados na Copel GeT foram direcionados, principalmente, para 
+reforço e melhoria das linhas de transmissão, manutenção e modernização das unidades geradoras 
+das usinas hidrelétricas e aprimoramento da performance dos ativos eólicos.
+COPEL | 2T26
+ 12
+Sumário Resultado Investimentos Copel GeT Estratégia COM Copel DIS ESG Outros Anexos
+
+[p. 15]
+3 Copel Geração e Transmissão (Resultado Consolidado)
+3.1 Desempenho Econômico-Financeiro
+3.1.1 Ebitda
+A Copel GeT apresentou um Ebitda recorrente 3 de R$ 838,2 milhões, montante 10,1% ou 
+R$ 76,8 milhões maior que os R$ 761,5 milhões registrados no 2T25. 
+Esse resultado reflete, principalmente, a combinação dos fatores a seguir: 
+I. Receita com Disponibilidade da Rede Elétrica: Crescimento de R$ 70,2 milhões 
+(ajustada pelo efeito do IFRS), decorrente da incorporação integral da Transmissora Mata 
+de Santa Genebra S.A. (MSG) e do aumento médio de 2,2% na Receita Anual Permitida 
+(RAP) das transmissoras para o ciclo 2025-2026 (ex-MSG).
+II. Receita de Suprimento com Contratos Bilaterais e Cotas: Aumento de R$ 85,2 milhões, 
+explicado principalmente pelo crescimento de 6,4% no preço médio de venda de energia do 
+portfólio da Copel GeT (R$ 198,99 MWh no 2T26 ante R$ 187,10/MWh no 2T25), apesar do 
+menor volume de energia vendida (-7,8%) entre os períodos;
+III. Custos Gerenciáveis (PMSO) Recorrentes: Queda de R$ 13,7 milhões, conforme 
+detalhado no item 3.1.2; 
+IV. Custo com Energia Elétrica Comprada para Revenda: Decréscimo de R$ 6,4 milhões, 
+consequência de um cenário hídrico mais favorável no trimestre (GSF médio de 99,6% no 
+2T26 ante 95,55% no 2T25); e
+V. Encargos de Uso da Rede Elétrica: Redução de R$ 4,9 milhões, decorrente do avanço da 
+participação do sinal locacional no cálculo da TUST e da otimização dos ativos de geração.
+Os efeitos positivos mencionados acima foram parcialmente atenuados pelos seguintes fatores 
+negativos:
+I. Receita de Suprimento da CCEE: redução de R$ 35,2 milhões no resultado com 
+transações no MCP. O desempenho é justificado, principalmente, pela estratégia de 
+otimização de portfólio do grupo, que direcionou para a Copel Comercialização parte das 
+transações com a modulação horária, impactando a alocação dessa receita da Copel GeT;
+II. Desvio de Geração: Aumento de R$ 34,8 milhões, decorrente da queda de 17,4% na 
+geração física dos parques eólicos (660 GWh no 2T26 vs. 799 GWh no 2T25). Esse 
+desempenho foi motivado, principalmente, pela maior incidência de Curtailment, que passou 
+de 15,7% no 2T25 para 23,7% no 2T26;
+III. Provisões e Reversões: Aumento de R$ 15,4 milhões, decorrente, principalmente, do 
+incremento nas provisões para litígios cíveis e trabalhistas, impulsionado pelo trânsito em 
+julgado de ações históricas;
+IV. Receita com Suprimentos para Leilões: Queda de R$ 6,6 milhões, consequência da 
+revisão do portfólio da Companhia, com alienação de ativos de pequeno porte e 
+descruzamento de ativos sinérgicos; e
+COPEL | 2T26
+ 13
+Sumário Resultado Investimentos Copel GeT Estratégia COM Copel DIS ESG Outros Anexos
+3 Excluídos itens não recorrentes e efeitos do IFRS sobre ativos de contratos de transmissão.
+
+[p. 16]
+V. Outras Receitas Operacionais: Redução de R$ 9,0 milhões, provenientes do menor 
+volume de serviços prestados de operação e manutenção, bem como na redução nas 
+receitas com multas.
+Os itens não recorrentes considerados para o cálculo do Ebitda Recorrente estão demonstrados na 
+tabela a seguir: 
+R$ milhões
+Ebitda Recorrente 2T26 2T25 Δ% 1S26 1S25 Δ%
+Ebitda 912,7 936,9 (2,6) 2.036,8 1.935,0 5,3
+(-/+) Alienação ativos/descruzamento — (200,6) — — (310,4) —
+(-/+) Provisão/Reversão indenização PDV — — — 5,5 8,6 (36,0)
+(-/+) Equivalência Patrimonial (49,3) (64,9) (24,0) (120,9) (165,3) (26,9)
+(-/+) Efeito IFRS (Receita Transmissão Societária/Regulatória) 
+- ver item 3.1.4 (25,2) 90,0 — (59,5) 76,6 —
+Ebitda Recorrente 838,2 761,5 10,1 1.861,9 1.544,5 20,6
+3.1.2 Custos Gerenciáveis (PMSO) Recorrentes
+O PMSO Recorrente (expurgados os efeitos de itens não recorrentes, provisões e reversões) 
+apresentou uma redução de R$ 13,7 milhões (-6,3%) no 2T26. Essa queda é explicada, 
+majoritariamente, pelos seguintes fatores favoráveis:
+I. Outros Custos e Despesas: queda de R$ 12,6 milhões, devido a ganhos com desativação 
+e alienação de bens; e
+II. Serviços de Terceiros: redução de R$ 7,0 milhões , reflexo do menor custo com 
+manutenção de instalações e serviços.
+Essa queda foi parcialmente amortecida pelo aumento em:
+III. Pessoal e Administradores: Acréscimo de R$ 2,6 milhões, decorrente da maior provisão 
+para remuneração variável, compreendendo a Participação nos Lucros e Resultados (PLR), 
+o Prêmio por Desempenho (PPD) e o Incentivo de Longo Prazo (ILP), motivado pelo melhor 
+desempenho operacional apresentado pela Companhia no período; e
+IV. Materiais: incremento de R$ 1,2 milhão, devido a maiores gastos direcionados, sobretudo, 
+à manutenção e operação dos ativos de geração eólica.
+R$ milhões
+Custos Gerenciáveis Recorrentes* 2T26 2T25 ∆% 1S26 1S25 ∆%
+Pessoal e administradores 75,2 72,6 3,6 155,6 148,3 4,9
+Planos previdenciário e assistencial 19,5 17,3 12,7 39,6 35,5 11,5
+Material 12,6 11,4 10,5 23,5 16,1 46,0
+Serviços de terceiros 58,4 65,4 (10,7) 106,3 133,3 (20,3)
+Outros custos e despesas operacionais 36,7 49,3 (25,6) 99,4 116,4 (14,6)
+TOTAL 202,4 216,0 (6,3) 424,4 449,6 (5,6)
+*Desconsidera efeitos dos seguintes itens não recorrentes: Pessoal - Reversão/provisão Indenização PDV; e Outros - alienação de ativos.
+Desconsiderando os efeitos do PLR, PPD e ILP, os custos com pessoal permaneceram 
+praticamente estáveis, com variação de 0,2%, refletindo a eficiência na gestão do quadro de 
+pessoal, parcialmente compensado pelo efeito do reajuste salarial de 5,1% (INPC acumulado 12 
+meses até setembro/2025).
+COPEL | 2T26
+ 14
+Sumário Resultado Investimentos Copel GeT Estratégia COM Copel DIS ESG Outros Anexos
+
+[p. 17]
+Isolando os efeitos da inflação acumulada medida pelo INPC, de 4,3% entre (julho de 2025 a junho 
+de 2026), houve uma redução de 3,9% em Pessoal.
+R$ milhões
+Custo Recorrente com Pessoal 2T26 2T25 Δ% 1S26 1S25 Δ%
+Pessoal e administradores 75,2 72,6 3,6 155,6 148,3 4,9
+(-/+) Participação nos lucros/resultados, PPD e ILP (12,9) (10,4) 24,0 (32,2) (23,3) 38,2
+TOTAL 62,3 62,2 0,2 123,4 125,0 (1,3)
+3.1.3 Lucro Líquido Recorrente
+O Lucro Líquido Recorrente atingiu R$ 392,0 milhões no 2T26, aumento de 34,0% 
+(+R$ 99,5 milhões) na comparação com o 2T25. 
+Esse desempenho é explicado, principalmente, pela combinação dos seguintes fatores 
+operacionais, financeiros e tributários:
+I. Ebitda Recorrente: incremento de R$ 76,8 milhões, impulsionado pelo sólido desempenho 
+operacional e pela consolidação da Transmissora Mata de Santa Genebra S.A. no portfólio 
+da Companhia; e
+II. Imposto de Renda e Contribuição Social: efeito tributário positivo de R$ 143,1 milhões, 
+passando de um dispêndio de R$ 119,4 milhões no 2T25 para um crédito fiscal de R$ 23,7 
+milhões no 2T26, explicado principalmente pelo aproveitamento de benefícios fiscais 
+relacionados ao pagamento de Juros sobre o Capital Próprio (JCP) para a Holding, evento 
+que não ocorreu no 2T25. 
+Em contrapartida, esses efeitos positivos foram parcialmente atenuados pelo:
+I. Depreciação e amortização: aumento de R$ 12,7 milhões, em linha com o maior volume 
+de investimentos realizados no período;
+II. Resultado financeiro: o resultado financeiro líquido registrou variação negativa de R$ 92,1 
+milhões, passando de uma despesa líquida de R$ 236,5 milhões no 2T25 para R$ 328,6 
+milhões no 2T26. Esse desempenho é explicado, principalmente, pelo aumento nas 
+despesas com encargos da dívida, reflexo do maior volume médio de endividamento no 
+período, sendo parcialmente atenuado pelo crescimento das receitas de aplicações 
+financeiras; e 
+III. Equivalência Patrimonial: decréscimo de R$ 15,6 milhões, reflexo direto da consolidação 
+de Mata de Santa Genebra (que reduziu a linha de equivalência em R$ 19,5 milhões e 
+passou a integrar os resultados operacionais do Ebitda), cujo impacto foi mitigado pela 
+expansão da RAP (Receita Anual Permitida) das demais participações.
+COPEL | 2T26
+ 15
+Sumário Resultado Investimentos Copel GeT Estratégia COM Copel DIS ESG Outros Anexos
+
+[p. 18]
+| Evolução do Lucro Líquido Recorrente (R$ milhões)
+392,0
+292,5
+76,8
+143,1
+-12,7
+-92,1 -15,6
+2T25 
+Recorrente
+Δ Ebitda Δ Impostos Δ D&A Δ Resultado 
+Financeiro
+Δ Equival. 
+Patrimonial
+2T26 
+Recorrente
+A seguir, são apresentados os principais indicadores, considerando os resultados recorrentes da 
+Copel Geração e Transmissão:
+R$ milhões
+ Principais Indicadores Recorrentes 2T26 2T25 Δ% 1S26 1S25 Δ%
+ Receita Operacional Líquida (R$ milhões) 1.264,4 1.197,1 5,6 2.753,0 2.372,6 16,0
+ Custos e Despesas Operacionais (R$ milhões) (616,7) (613,6) 0,5 -1.271,8 -1.182,9 7,5
+ Resultado Operacional (R$ milhões) 647,6 583,5 11,0 1.481,2 1.189,7 24,5
+ Lucro Líquido (R$ milhões) 392,0 292,5 34,0 847,4 632,9 33,9
+ Ebitda (R$ milhões) 838,2 761,5 10,1 1.861,9 1.544,4 20,6
+ Margem Operacional 51,2% 48,7% 2,5 p.p. 53,8% 50,1% 3,7 p.p.
+ Margem Líquida 31,0% 24,4% 6,6 p.p. 30,8% 26,7% 4,1 p.p.
+ Margem Ebitda 66,3% 63,6% 2,7 p.p. 67,6% 65,1% 2,5 p.p.
+ Programa de Investimento (R$ milhões) 476,4 92,5 415,0 617,7 173,2 256,6
+3.1.4 Efeito IFRS no segmento Transmissão
+Para o cálculo, foi realizado o ajuste considerando os efeitos da aplicação do ICPC 01/IFRIC 12 
+nas demonstrações societárias no segmento de transmissão. 
+R$ milhões
+Efeito IFRS no Segmento Transmissão 2T26 2T25 Δ% 1S26 1S25 Δ%
+(A) Receita societária1 381,7 196,2 94,5 776,3 476,5 62,9
+Receita O&M e Juros efetivos 369,1 194,5 89,8 765,9 470,3 62,9
+Receita e margem de construção 77,6 56,0 38,6 131,6 111,1 18,5
+Custo de construção (65,0) (54,3) 19,7 (121,2) (104,9) 15,5
+(B) Receita regulatória1 356,5 286,2 24,6 716,8 553,1 29,6
+(B-A) Efeito IFRS - Diferença Receita Transmissão 
+Regulatória/Societária (25,2) 90,0 — (59,5) 76,6 (177,7)
+(+/-) Efeitos na equivalência patrimonial das transmissoras2 (10,5) (30,9) (66,0) (31,5) (90,1) (65,0)
+Efeito IFRS no segmento Transmissão (35,7) 59,1 — (91,0) (13,5) —
+¹ Líquida de impostos e encargos.
+² Diferença entre lucro societário e regulatório das controladas em conjunto do segmento de transmissão, proporcional à participação da Copel GeT nos 
+empreendimentos.
+COPEL | 2T26
+ 16
+Sumário Resultado Investimentos Copel GeT Estratégia COM Copel DIS ESG Outros Anexos
+
+[p. 19]
+3.2 Desempenho Operacional
+Presente em 10 estados do Brasil, a Copel Geração e Transmissão opera um parque diversificado 
+de usinas hidrelétricas e eólicas, totalizando 6.226,1 MW de potência instalada e 2.696,4 MW 
+médios de garantia física. Já no segmento Transmissão, a Copel detém uma malha total de 9,7 mil 
+km de linhas de transmissão e 53 subestações de rede básica, considerando suas participações 
+societárias.
+3.2.1 Geração 
+O parque gerador da Copel é composto por 100% de fontes renováveis em operação.
+| Capacidade Instalada por Fonte
+Eólica 19,0%Hídrica 81,0% 6.226,1 MW
+A geração hídrica da Copel Geração e Transmissão S.A. foi 10,9% menor no 2T26 (2.430 GWh, 
+ante 2.726 GWh no 2T25), decorrente do desinvestimento em Pequenas Centrais Hidrelétricas e da 
+UHE Colíder. Nos parques eólicos, a geração foi 17,4% menor no 2T26 (660 GWh, ante 799 GWh 
+no 2T25), consequência essencialmente do aumento do Curtailment no 2T26 (23,7%, ante 15,7% 
+no 2T25).
+COPEL | 2T26
+ 17
+Sumário Resultado Investimentos Copel GeT Estratégia COM Copel DIS ESG Outros Anexos
+
+[p. 20]
+| GSF - Generation Scaling Factor (Sazonalizado)
+113,2% 111,0%
+98,8% 101,7% 97,1%
+87,7%
+69,3%
+62,6% 63,0% 62,8% 65,7%
+73,6%
+81,2%
+100,3%
+94,6%
+101,3% 101,2% 96,3%
+2025 2026
+Jan Fev Mar Abr Mai Jun Jul Ago Set Out Nov Dez
+Fonte: CCEE
+| PLD Médio Mensal - Submercado Sul (R$/MWh) 
+59,21
+93,83
+332,56
+202,98 233,39 236,10 211,67
+287,17 260,34 250,18 278,02 265,89
+249,95
+402,69 425,57
+254,03 244,33
+193,64
+2025 2026
+Jan Fev Mar Abr Mai Jun Jul Ago Set Out Nov Dez
+Fonte: CCEE
+3.2.2 Transmissão 
+A Copel conta com 9,7 mil km de linhas de transmissão em oito estados brasileiros, considerando 
+ativos próprios e em parceria com outras empresas. Além de construir, manter e operar uma ampla 
+rede de transmissão de energia própria, a Copel presta serviços para empreendimentos de outras 
+concessionárias. Os empreendimentos de Transmissão compreendem 12 contratos de linhas da 
+Copel Geração e Transmissão, SPEs Costa Oeste, Marumbi, Uirapuru Transmissora e MSG (100% 
+Copel GeT), bem como as 6 SPEs nas quais a Copel Geração e Transmissão possui participação.
+RBSE
+A seguir descrevemos o fluxo de recebimento da parcela da Receita referente à Rede Básica do 
+Sistema Existente - RBSE4 para os próximos ciclos. É importante ressaltar que os dados podem ser 
+alterados futuramente, em decorrência dos processos de revisão tarifária e/ou revisão de 
+parâmetros utilizados para composição destas receitas por parte do órgão regulador. Os valores 
+abaixo contemplam a revisão na metodologia de cálculo do componente financeiro, estabelecido 
+pela Resolução Homologatória nº 3.467/2025, com impacto negativo de R$ 115,1 milhões, e 
+passaram por reajuste anual pelo IPCA, conforme Despacho nº 2.268/2026.
+COPEL | 2T26
+ 18
+Sumário Resultado Investimentos Copel GeT Estratégia COM Copel DIS ESG Outros Anexos
+4 Refere-se ao contrato de concessão 060/2001, que representa 37,5% da receita anual permitida (RAP) de transmissão 
+da Copel Geração e Transmissão e proporcional das participações.
+
+[p. 21]
+717,3 771,1
+601,8 607,9
+185,0 185,0 185,0 185,0
+127,9 127,9 127,9 127,9
+184,6 184,6
+219,8 273,6
+288,9 295,0 RBSE - O&M
+RBSE - Componente Econômico PRT 120/2016
+RBSE - Componente Financeiro PRT 120/2016
+RBNI - novas obras
+Ciclo 2026-
+2027
+Ciclo 2027-
+2028
+Ciclo 2028-
+2029
+Ciclo 2029-
+2030
+—
+250,0
+500,0
+750,0
+1.000,0
+Componente econômico: valores futuros baseados no ciclo 2026-2027 (conforme Despacho nº 2.268/2026)
+Componente financeiro: valores publicados no Despacho nº 2.268/2026
+Valores de RAP até o ciclo 2027-2028 projetados com base nos valores do Despacho 2.268/2026, sem PIS/COFINS e Parcela de Ajuste.
+COPEL | 2T26
+ 19
+Sumário Resultado Investimentos Copel GeT Estratégia COM Copel DIS ESG Outros Anexos
+
+[p. 22]
+4 Estratégia de Comercialização
+4.1 Contexto comercial
+A estratégia de comercialização da Copel tem como foco o crescimento consistente e sustentável, 
+com disciplina na alocação de capital e gestão ativa de riscos, em um ambiente de transição e 
+modernização do Setor Elétrico Brasileiro.
+Por meio da Copel Comercialização, a Companhia consolida sua atuação no Ambiente de 
+Contratação Livre (ACL) como uma plataforma inteligente para construção de valor e diversificação 
+de receitas, atuando como um parceiro estratégico focado em garantir previsibilidade financeira aos 
+clientes frente à crescente volatilidade do Preço de Liquidação de Diferenças (PLD). Essa 
+abordagem é sustentada pela oferta de produtos customizados, posicionando a Companhia na 
+captura do crescimento de novas demandas estruturais de energia.
+Em 30 de junho de 2026, a Copel COM registrou:
+• 1.519 clientes ativos distribuídos em 23 estados.
+• 6.727 GWh de energia comercializada, um incremento de 0,6% em relação ao mesmo 
+período do ano anterior. O resultado reflete a seletividade comercial do portfólio, priorizando 
+a otimização de margens e o equilíbrio entre escala, risco e rentabilidade.
+4.2 Desempenho Comercial
+No segundo trimestre de 2026, o volume de energia vendido do portfólio GeT (hídrico e eólico) foi 
+de 4.686 GWh, representando um recuo de 4,1% comparado ao 2T25. Essa variação decorre da 
+combinação de dois fatores principais:
+• Redução estrutural da garantia física devido ao desinvestimento estratégico em pequenas 
+usinas realizado ao longo de 2025; e
+• Posição descontratada para aproveitar as oportunidades de ciclos de alta, além de manter a 
+liquidez necessária para atuar em caso de cenários adversos.
+Em contrapartida, a estratégia de contratação de longo prazo segue priorizando janelas favoráveis 
+de preço para os anos à frente. O foco principal foi em 2027, dada a configuração de cenário de El 
+Niño este ano, o que não deveria impactar preços de 2028 em diante.
+Apesar do menor volume físico vendido, a rentabilidade foi expressiva devido à gestão ativa do 
+portfólio e condições sazonais favoráveis:
+• Curvas Horárias: A modulação de geração hídrica trouxe ganhos de aproximadamente 
+R$ 51,8 milhões no trimestre;
+• Submercados: A valorização do submercado Sul adicionou um resultado de 
+R$ 22,8 milhões, enquanto operações de hedge neutralizaram com sucesso a volatilidade 
+de preços no submercado Nordeste;
+• Mesmo em um cenário de maior atenção setorial ao risco de crédito, a Copel manteve a 
+taxa de inadimplência em apenas 0,01% nas vendas de energia e expandiu capilaridade 
+junto aos clientes. Esse desempenho de excelência é sustentado por uma robusta estrutura 
+de mitigação de risco e forte presença comercial;
+• Política de crédito robusta que considera particularidades dos setores/atividades 
+econômicas de cada contraparte/cliente;
+COPEL | 2T26
+ 20
+Sumário Resultado Investimentos Copel GeT Estratégia COM Copel DIS ESG Outros Anexos
+
+[p. 23]
+• Monitoramento de Riscos de Mercado: Utilização de ferramentas avançadas como Value at 
+Risk (VaR 95%), Drawdown e indicadores específicos para proteger a carteira contra 
+exposições por falta de liquidez;
+• Gestão da Carteira: Avaliação sistemática de contrapartes conforme maturidade, nível de 
+concentração de mercado, volume do patrimônio líquido e indicadores de alavancagem 
+energética;
+• A força de vendas, aliada à solidez do grupo e à capacidade de oferecer diversas soluções 
+de compra e venda de energia, possibilitou aumento do market share da comercializadora 
+junto aos clientes do mercado livre de energia.
+| Venda Consolidada (GWh)
+4.885 4.686
+3.708 3.547
+1.177 1.139
+-4,1%
+ 
+Parques Eólicos
+Copel GeT + FDA + Bela Vista
+2T25 2T26
+| Balanço energético
+O balanço energético apresentado reflete a estratégia da Companhia de manter um 
+portfólio robusto e diversificado, combinando recursos próprios e contratos de compra e 
+venda vigentes em 30 de junho de 2026. O detalhamento do portfólio contratado e dos 
+preços médios de venda evidencia a forma como a Copel administra os riscos hidrológicos, 
+regulatórios e de mercado, equilibrando previsibilidade de caixa e flexibilidade comercial 
+para operar de forma eficiente ao longo dos ciclos do setor elétrico.
+COPEL | 2T26
+ 21
+Sumário Resultado Investimentos Copel GeT Estratégia COM Copel DIS ESG Outros Anexos
+
+[p. 24]
+(MW médio)
+Balanço de Energia - Copel GeT - jun/26 2026 2027 2028 2029/2030(5)
+Recursos próprios - Hídricas 1.890 1.901 1.920 1.928
+GeT (1) 1.291 1.291 1.291 1.291
+GPS (CCGF) (2) 73 73 73 73
+ Bela Vista + FDA 526 537 556 564
+Recursos próprios - Eólicas (3) 544 544 544 544
+Compras 120 177 35 8
+Total de recursos próprios + Compras 2.554 2.622 2.499 2.480
+Total de Vendas 2.166 2.095 1.743 1.155
+Venda (Regulado) 706 706 706 706
+Venda (Regulado) % 28% 27% 28% 28%
+Venda (Livre) 1.460 1.389 1.037 449
+Venda (Livre) % 57% 53% 41% 19%
+Disponibilidade Total 388 527 757 1.324
+Disponibilidade Total (%) 15% 20% 31% 53%
+Preços médios energia vendida (R$/MWh)(4) 198,99 204,88 207,96 224,70
+Referência: junho/26
+(1) Inclui GPS 30% (ex-CCGF). Não inclui Elejor e Foz do Chopim.
+(2) GPS 70% (regime de cotas).
+(3) Não inclui Complexo Eólico Voltália.
+(4) Preço médio de energia bruto (com PIS/COFINS e sem ICMS). Não está considerada a RAG do CCGF de GPS no cálculo do preço médio. 
+(5) Considera a média ponderada pelos recursos dos dois períodos.
+| Balanço energético (Hidro + Eólica)
+P-MIX 
+(R$/MWh) 198,99 204,88 207,96 224,70
+85% 80% 69%
+47%
+15% 20% 31%
+53%
+Disponibilidade Vendas
+2026 2027 2028 2029-2030
+Disponibilidade 2026 2027 2028 2029-2030
+Hídrica (%) (1) 20% 28% 44% 78%
+(1) Não inclui: (i) CCGF (Cotas) de GPS (73 MWmed); e (ii) 96% da UHE Mauá(ou 184 MWmed) e de seus contratos, valor segurado de variações do 
+GSF .
+Notas do Balanço Energético: 
+(i) descontadas as perdas e o consumo interno; 
+(ii) considerado as GFs das SPEs eólicas constante para todos os períodos;
+(iii) consideradas as compras de energia em cada período; 
+(iv) os preços foram atualizados conforme os índices de reajuste contratuais, desde as respectivas datas de referência até junho de 2026; 
+(v) desconsiderada a RAG do CCGF (quota) de GPS no cálculo dos preços médios; 
+(vi) os preços médios de energia são brutos, incluindo PIS/COFINS e sem ICMS; 
+(vii) foi considerada a garantia física das usinas vigente em 30.06.2026; (viii) UHE Mauá possui seguro GSF de 96%;
+(ix) não considera as operações de curto prazo de venda de lastro; e
+(X) para valores 2029-2030, refere-se a média ponderada pelo total de recursos próprio + compras dos respectivos anos.
+COPEL | 2T26
+ 22
+Sumário Resultado Investimentos Copel GeT Estratégia COM Copel DIS ESG Outros Anexos
+
+[p. 25]
+5 Copel Distribuição
+5.1 Desempenho Econômico-Financeiro
+5.1.1 Ebitda
+A Copel DIS apresentou Ebitda recorrente de R$ 765,6 milhões no 2T26, um crescimento de 34,5% 
+(R$ 196,3 milhões) em relação ao 2T25. Esse desempenho foi impulsionado, principalmente, i. pelo 
+crescimento de 7,2% do mercado fio faturado, que já considera a dedução da parcela de energia 
+compensada por Mini e Micro Geração Distribuída (MMGD), refletindo a maior atividade econômica 
+na área de concessão, o crescimento de 1,9% da base de clientes ao longo do período e 
+temperaturas mais elevadas no início do trimestre e ii. pelo Reajuste Tarifário Anual (RTA) de junho 
+de 2025, com efeito médio de +1,3% na parcela B.
+A tabela a seguir apresenta a variação do Ebitda recorrente e os ajustes não recorrentes:
+R$ milhões
+Ebitda Recorrente 2T26 2T25 ∆% 1S26 1S25 Δ%
+Ebitda 1.054,3 581,0 81,5 1.823,4 1.285,7 41,8
+(-/+) Provisão/Reversão indenização PDV — — — 13,2 12,2 8,2
+ (-/+) Valor Novo de Reposição - VNR (288,7) (11,7) 2367,5 (308,8) (35,7) 765,0
+Ebitda Recorrente 765,6 569,3 34,5 1.527,8 1.262,2 21,0
+Contribuíram para o resultado do Ebitda recorrente a combinação dos seguintes efeitos:
+I. o acréscimo de R$ 15,0 milhões em outras receitas decorrente principalmente do aumento 
+de compartilhamento de infraestrutura; e
+II. o aumento de R$ 184,3 milhões (+19,2%) na margem bruta de distribuição (tabela abaixo), 
+indicador que reflete o montante retido pela distribuidora para a remuneração de suas 
+atividades, após a dedução dos custos diretamente associados à compra de energia elétrica 
+e aos encargos setoriais.
+R$ milhões
+Margem Bruta de Distribuição 2T26 2T25 ∆% 1S26 1S25 Δ%
+Receita Operacional Líquida Recorrente (sem Construção) 4.113,8 3.757,7 9,5 8.495,7 7.453,9 14,0
+(-) Outras Receitas Operacionais 146,3 131,2 11,5 291,4 258,1 12,9
+(=) ROL recorrente (sem construção, outras receitas e VNR) 3.967,5 3.626,5 9,4 8.204,3 7.195,8 14,0
+(-) Energia Elétrica Comprada para Revenda 2.114,8 1.978,4 6,9 4.501,4 3.825,6 17,7
+(-) Encargos de Uso da Rede Elétrica 709,7 689,4 2,9 1.418,1 1.346,2 5,3
+Margem Bruta de Distribuição 1.143,0 958,7 19,2 2.284,8 2.024,0 12,9
+Os principais resultados da margem foram: 
+a. aumento de R$ 198,8 milhões na Receita de Disponibilidade, derivado 
+especialmente do reajuste de 6,4% na Tarifa de Uso do Sistema de Distribuição 
+(TUSD – RTA/2025) e do crescimento de 7,3% no consumo do mercado fio 
+( e x - G e r a ç ã o D i s t r i b u í d a ) , p a r c i a l m e n t e c o m p e n s a d o p e l o a u m e n t o d e 
+R$ 207,7 milhões na CDE Uso (quota CDE);
+b. aumento de R$ 130,8 milhões na Receita de Fornecimento, reflexo do crescimento 
+de 2,3% do consumo de energia no mercado cativo faturado, o qual já considera a 
+dedução da parcela de energia compensada pela Mini e Micro Geração Distribuída 
+(MMGD);
+COPEL | 2T26
+ 23
+Sumário Resultado Investimentos Copel GeT Estratégia COM Copel DIS ESG Outros Anexos
+
+[p. 26]
+c. aumento de R$ 136,4 milhões em Energia Comprada para Revenda, impulsionado, 
+principalmente, pelo maior impacto da MMGD;
+d. acréscimo de R$ 77,6 milhões na CVA (ativos e passivos financeiros setoriais) 
+consequência da aderência da cobertura tarifária em relação aos custos com a 
+Parcela A, em especial com energia comprada para revenda e devolução do PIS/
+COFINS aos consumidores da Copel DIS no período;
+e. redução de R$ 66,2 milhões na Receita de Suprimento, referente à queda no 
+resultado decorrente das liquidações na CCEE e nos contratos bilaterais;
+f. aumento de R$ 20,3 milhões em Encargos de Uso da Rede Elétrica , em função dos 
+maiores custos relacionados à utilização da infraestrutura de transmissão do 
+Sistema Interligado Nacional (SIN).
+III. a redução de R$ 1,8 milhão no PMSO recorrente (-0,4%) em relação ao 2T25, devido, 
+principalmente, a:
+a. redução de R$ 20,3 milhões em Outros Custos e Despesas , principalmente em 
+razão das menores perdas na desativação de bens e direitos, refletindo o menor 
+montante de baixas de ativos imobilizados da rede de distribuição;
+b. redução de R$ 5,8 milhões na linha de Pessoal ( excluindo PDV ) explicada pela 
+atualização metodológica e de elegibilidade na provisão de PLR - conforme o novo 
+ACT. A contabilização deixou de ser um percentual sobre o lucro líquido e passou a 
+ser atrelada a metas operacionais (Ebitda Global e PMSO). Adicionalmente, a nova 
+diretriz excluiu os cargos de gestão da base de elegíveis da PLR, o que reduziu o 
+montante provisionado, justificando o menor valor apurado. Esse efeito foi 
+parcialmente compensado pelo reajuste salarial de 5,1% do último ACT, pelo 
+aumento no quadro de colaboradores e pelo acréscimo nos Incentivos a Longo 
+Prazo (ILP), alinhados à nova política de atração e retenção de gestores;
+c. aumento de R$ 24,4 milhões nos custos com Serviços de Terceiros, Planos 
+Previdenciários e Materiais, que limitou o efeito das reduções obtidas nas linhas 
+anteriores (Pessoal e Outros Custos), sendo composto por: i. aumento de R$ 15,8 
+milhões com Serviços de Terceiros em função das atividades de manutenção do 
+sistema elétrico para conservação dos indicadores da qualidade do serviço; ii. 
+aumento de R$ 4,6 milhões com Planos Previdenciário e Assistencial; e iii. aumento 
+de R$ 4,0 milhões com Material , especialmente com materiais elétricos para 
+manutenção, parcialmente compensado pela redução de custos com combustíveis, 
+peças e equipamentos da frota da Companhia. 
+5.1.2 Custos Gerenciáveis (PMSO) Recorrentes:
+R$ milhões
+Custos Gerenciáveis Recorrentes* 2T26 2T25 ∆% 1S26 1S25 Δ%
+Pessoal e administradores 136,0 141,8 (4,1) 281,5 272,0 3,5
+Planos previdenciário e assistencial 42,3 37,7 12,2 85,3 77,5 10,1
+Material 14,2 10,2 39,2 28,5 28,0 1,8
+Serviços de terceiros 216,5 200,8 7,8 412,2 401,5 2,7
+Outros custos e despesas operacionais 31,5 51,8 (39,2) 77,1 92,9 (17,0)
+TOTAL 440,5 442,3 (0,4) 884,6 871,9 1,5
+*Desconsidera efeitos dos seguintes itens não recorrentes: Pessoal - Reversão/provisão Indenização PDV
+COPEL | 2T26
+ 24
+Sumário Resultado Investimentos Copel GeT Estratégia COM Copel DIS ESG Outros Anexos
+
+[p. 27]
+O custo com pessoal, desconsiderando os efeitos do PLR, PPD e ILP (tabela abaixo), apresentou 
+uma redução de 0,2%, refletindo principalmente o reajuste salarial de 5,1% (INPC acumulado 12 
+meses até setembro/2025). Isolando os efeitos da inflação acumulada medida pelo INPC, de 4,3% 
+entre julho/2025 e junho/2026, o custo com Pessoal teve uma queda real de 4,3%.
+R$ milhões
+Custo Recorrente com Pessoal 2T26 2T25 ∆% 1S26 1S25 Δ%
+Pessoal e administradores 136,0 141,8 (4,1) 281,5 272,0 3,5
+(-/+) Participação nos lucros/resultados, PPD e ILP (24,8) (30,4) (18,4) (63,7) (57,3) 11,2
+TOTAL 111,2 111,4 (0,2) 217,8 214,7 1,4
+Os efeitos positivos I e II, mencionados anteriormente, foram levemente reduzidos pelos aumentos 
+de R$ 4,8 milhões nas despesas com provisões e reversões, principalmente, pelo aumento de 
+R$ 15,3 milhões em Perdas Esperadas com Crédito e Liquidação Duvidosa (PECLD).
+5.1.3 Lucro Líquido Recorrente
+O Lucro Líquido Recorrente da Copel DIS atingiu R$ 288,5 milhões no 2T26, um crescimento de 
+98,7% em relação ao 2T25. 
+Esse avanço foi impulsionado pelo sólido desempenho operacional, que resultou no crescimento de 
+R$ 196,3 milhões no Ebitda Recorrente frente ao mesmo período do ano anterior. No âmbito não 
+operacional, o resultado foi favorecido pela redução de R$ 40,0 milhões na linha de Imposto de 
+Renda e Contribuição social, decorrente da declaração de Juros sobre Capital Próprio (JCP) no 
+trimestre. 
+Esses efeitos positivos foram parcialmente atenuados pela redução de R$ 60,0 milhões (-30,5%) do 
+resultado financeiro líquido, pressionado pelo aumento da variação monetária e encargos da dívida 
+decorrentes de novas captações, e pelo aumento de 19,1% (+R$ 32,9 milhões) nas despesas de 
+depreciação, decorrente da expansão da base de ativos em serviço.
+| Evolução do Lucro Líquido Recorrente (R$ milhões)
+288,5
+145,2
+196,3 39,9
+-32,9
+-60,0
+2T25 Recorrente Δ Ebitda 
+Recorrente
+Δ Imposto Δ D&A Δ Resultado 
+Financeiro
+2T26 Recorrente
+A seguir, são apresentados os principais indicadores, considerando os resultados recorrentes da 
+Copel Distribuição:
+COPEL | 2T26
+ 25
+Sumário Resultado Investimentos Copel GeT Estratégia COM Copel DIS ESG Outros Anexos
+
+[p. 28]
+Principais Indicadores Recorrentes 2T26 2T25 ∆% 1S26 1S25 ∆%
+ Receita Operacional Líquida¹ (R$ milhões) 4.113,8 3.757,7 9,5 8.495,7 7.453,9 14,0
+ Custos e Despesas Operacionais (R$ milhões) (3.554,0) (3.361,2) 5,7 (7.376,6) (6.532,1) 12,9
+ Resultado Operacional (R$ milhões) 303,2 199,8 51,8 621,4 532,6 16,7
+ Lucro Líquido (R$ milhões) 288,5 145,2 98,7 503,2 369,8 36,1
+ Ebitda (R$ milhões) 765,6 569,3 34,5 1.527,9 1.262,2 21,1
+ Margem Operacional 7,4% 5,3% 2,1 p.p. 7,3% 7,1% 0,2 p.p.
+ Margem Líquida 7,0% 3,9% 3,1 p.p. 5,9% 5,0% 0,9 p.p.
+ Margem Ebitda 18,6% 15,2% 3,4 p.p. 18,0% 16,9% 1,1 p.p.
+ Programa de Investimento (R$ milhões) 479,1 881,1 (45,6) 917,7 1.477,7 (37,9)
+¹ Exclui Receita de Construção, além dos efeitos não recorrentes
+5.2 Desempenho Operacional
+5.2.1 Mercado Fio (TUSD)
+No 2T26, o consumo de energia elétrica no mercado fio da Copel DIS cresceu 7,3% em relação ao 
+mesmo período do ano anterior. O mercado fio faturado, que deduz parte da energia compensada 
+de MMGD, registrou crescimento de 7,2% no 2T26 ante o 2T25. Esse desempenho foi 
+impulsionado, principalmente, pelo consumo nos segmentos residencial e comercial, refletindo, 
+essencialmente, o aumento da renda média no Estado da maior atividade econômica na área de 
+concessão, do crescimento da base de clientes ao longo do período e temperaturas no início do 
+2T26 superiores às observadas no 2T25. 
+5.2.2 Mercado Cativo
+O mercado cativo apresentou aumento de 8,0% no consumo de energia elétrica no 2T26 em 
+relação ao mesmo período do ano anterior. O mercado cativo faturado, que considera a energia 
+compensada de MMGD, apresentou aumento de 7,7% no 2T26, em linha com os fatores que 
+sustentaram a expansão do mercado-fio.
+5.2.3 Dados Operacionais
+A Copel DIS tem concessão vigente até 07.07.2045, cujos critérios de qualidade de prestação de 
+serviço (Duração Equivalente de Interrupção por Unidade Consumidora - DEC e Frequência 
+Equivalente de Interrupção por Unidade Consumidora - FEC) são definidos pela Aneel.
+A Companhia tem atuado tempestivamente no restabelecimento do fornecimento de energia e 
+prevenção de avanço de vegetação na rede, que contribuíram para a manutenção dos índices de 
+qualidade na prestação do serviço dentro dos limites regulatórios. 
+Para o DEC, o resultado dos últimos 12 meses apurado em junho de 2026 foi de 6,52 horas, 
+enquanto para o FEC, o resultado no mesmo período foi de 4,18 interrupções, ambos dentro do 
+limite regulatório estabelecido.
+COPEL | 2T26
+ 26
+Sumário Resultado Investimentos Copel GeT Estratégia COM Copel DIS ESG Outros Anexos
+
+[p. 29]
+DEC
+(Medido em horas e centesimal de horas)
+7,47
+7,96 7,97 7,92
+7,17
+6,52
+7,47 7,96 7,97 7,92 7,17 6,52
+9,29 9,19 8,69 8,35 8,14 7,88
+Realizado Limite Regulatório
+2021 2022 2023 2024 2025 LTM 
+2T26
+FEC
+(Medido em frequência de interrupções e 
+fração)
+5,09 5,1
+5,41 5,36
+4,65
+4,18
+5,09 5,1 5,41 5,36 4,65 4,18
+6,84 6,8 6,39 5,93 5,8 5,36
+Realizado Limite Regulatório
+2021 2022 2023 2024 2025 LTM 
+2T26
+Perdas - As perdas na Distribuição podem ser definidas como a diferença entre a energia elétrica 
+adquirida pelas distribuidoras e a faturada aos seus consumidores e são segmentadas como 
+Técnicas e Não Técnicas. As Perdas Técnicas são inerentes à atividade de distribuição de energia 
+elétrica e as Perdas Não Técnicas têm origem principalmente nos furtos (ligação clandestina, 
+desvio direto da rede), fraudes (adulterações no medidor ou desvios), erros de leitura, medição e 
+faturamento. Ao final de junho de 2026, as Perdas Técnicas dos últimos 12 meses foram de 2.521 
+GWh, ante 2.291 GWh do mesmo período do ano anterior, e as Perdas Não Técnicas foram de 586 
+GWh, ante 716 GWh do mesmo período do ano anterior. As perdas totais dos últimos 12 meses 
+totalizaram 3.106 GWh.
+GWh - 12 Meses jun-22 jun-23 jun-24 jun-25 jun-26
+Energia Injetada 35.063 35.459 38.545 39.591 40.591
+Perdas Distribuição 2.694 2.697 3.107 3.007 3.106
+Perdas Técnicas 2.029 2.052 2.230 2.291 2.521
+Perdas Não Técnicas 665 645 876 716 586
+*Conforme estabelecido pelo resultado da CP 09/2024 (DSP Nº 1.220/2025)
+As Perdas Não Técnicas, apuradas pela diferença entre as perdas totais e as perdas técnicas, 
+estão em grande medida associadas à gestão da concessionária e às características 
+socioeconômicas das áreas de concessão. Neste sentido, a Copel mantém um Programa de 
+Combate às Perdas não Técnicas, por meio, entre outras, das seguintes ações:
+- utilização dos alarmes dos medidores inteligentes para melhorar o desempenho dos alvos 
+selecionados;
+- aperfeiçoamento das ações de combate ao procedimento irregular, melhorando o desempenho 
+das inspeções direcionadas; 
+- investimentos destinados à disponibilização e/ou aquisição de equipamentos para inspeção;
+- elaboração e execução de treinamentos específicos e reciclagem relacionados a perdas 
+comerciais; 
+- realização de inspeções, tanto na Média como na Baixa Tensão;
+- notas educativas na imprensa e mensagens na fatura de energia elétrica; 
+- operações em conjunto com a Polícia Civil e Ministério Público; e
+- abertura de inquérito policial nas regiões onde constatados números expressivos de 
+procedimentos irregulares.
+O repasse tarifário de níveis eficientes de perdas está previsto nos contratos de concessão e essas 
+perdas são contempladas nos custos com compra de energia até o limite regulatório estipulado 
+COPEL | 2T26
+ 27
+Sumário Resultado Investimentos Copel GeT Estratégia COM Copel DIS ESG Outros Anexos
+
+[p. 30]
+pela Aneel. A Copel DIS manteve-se dentro dos limites regulatórios nos últimos processos tarifários 
+e, em junho de 2026, as perdas totais ficaram 0,91 ponto percentual abaixo do limite regulatório, 
+influenciadas pela revisão das metas em decorrência dos efeitos da CP nº 09/24 e da RTA 2026, 
+conforme estabelecido na Nota Técnica nº 24/2026-STD/ANEEL.
+Perdas
+7,7 7,6
+8,1
+7,6
+7,7
+7,7 7,6 7,6
+8,1 8,6
+Perdas Totais/Energia Injetada (%) Patamar Regulatório (%)
+jun-22 jun-23 jun-24 jun-25 jun-26
+5.2.4 Revisão Tarifária Periódica (destaques)
+Em 23 de junho de 2026, a Aneel homologou o resultado do 6º Ciclo de Revisão Tarifária Periódica 
+(RTP) da Copel Distribuição, com vigência a partir de 24 de junho de 2026. O processo tarifário 
+definiu a nova Base de Remuneração Regulatória (RAB) líquida em R$ 19,9 bilhões, um marco que 
+reflete o reconhecimento dos investimentos prudentes e da eficiência da Companhia na 
+modernização e expansão de seus ativos de distribuição nos últimos cinco anos.
+A nova estrutura tarifária reflete essencialmente a atualização da Parcela B (custos gerenciáveis da 
+distribuidora) e da Parcela A (custos não gerenciáveis, como energia, transmissão e encargos). 
+Com o objetivo de otimizar a transição para este novo ciclo, foi aplicado um diferimento tarifário de 
+R$ 1,3 bilhão, que mitigou o impacto financeiro imediato do processo regulatório.
+O reajuste dos Custos Operacionais (+52,9%) reconhece a nova estrutura de custos da 
+Companhia, alinhada à sua trajetória de eficiência. O Fator X, que mede os ganhos de 
+produtividade a serem compartilhados com os consumidores, foi estabelecido em 0,95%.
+O resultado desta revisão tarifária reforça a disciplina de alocação de capital da Copel e a 
+capacidade de gerar valor de forma sustentável para seus acionistas.
+Mais informações consultar o Fato Relevante 04/26.
+COPEL | 2T26
+ 28
+Sumário Resultado Investimentos Copel GeT Estratégia COM Copel DIS ESG Outros Anexos
+
+[p. 31]
+6 Performance ESG
+6.1 ESG na estratégia da Copel
+A Copel incorpora os princípios ESG (Ambiental, Social e Governança) à sua estratégia corporativa, 
+fundamentando sua atuação nos temas materiais identificados por meio de consulta às partes 
+interessadas, nas diretrizes estabelecidas pela Política de Sustentabilidade. A integridade é um 
+valor transversal que orienta todas as práticas da companhia, reforçando o compromisso com a 
+ética, a transparência e a conformidade. Essa abordagem é complementada por compromissos 
+voluntários alinhados aos Princípios do Pacto Global e aos Objetivos de Desenvolvimento 
+Sustentável da ONU (Agenda 2030). 
+ODS Prioritários para a Copel
+O ESG na estratégia da Copel visa promover uma cultura sistêmica e ampla de sustentabilidade, 
+com origem nas partes interessadas, e os temas materiais orientam programas e iniciativas que 
+geram valor compartilhado, minimizam riscos e potencializam oportunidades.
+No aspecto ambiental, a descarbonização, adaptação e resiliência climática, biodiversidade e 
+ecoeficiência são direcionadores para projetos e iniciativas, como o Plano de Neutralidade de 
+Carbono, pelo qual a Companhia adota medidas para neutralizar sua emissão direta de carbono até 
+2030. A Copel investe em energias 100% renováveis, pesquisa fontes alternativas e reduz 
+emissões de gases de efeito estufa, reforçando seu compromisso no combate às mudanças 
+climáticas.
+No campo social, o pilar Pessoas é central, com foco na saúde e segurança dos colaboradores, 
+direitos humanos e diversidade. A Copel valoriza a promoção de um ambiente de trabalho 
+saudável, com meta de zero acidentes fatais, atuando de forma justa e inclusiva com colaboradores 
+e partes interessadas, além de fortalecer o engajamento com as comunidades. 
+Na governança, a Copel adota uma abordagem estruturada e transparente, com destaque para o 
+Programa de Integridade, que é fundamentado no Código de Conduta e alinhado aos princípios do 
+Pacto Global. O programa desenvolve ações voltadas à prevenção de riscos, à promoção de uma 
+cultura ética e ao engajamento contínuo dos colaboradores. A Companhia também mantém uma 
+gestão robusta de riscos e controles internos, assegurando a conformidade com normas e 
+regulamentos e fortalecendo a governança em todos os níveis organizacionais.
+O desempenho ESG é monitorado continuamente por indicadores e avaliações externas, como o 
+ISE, da [B]³, o CSA, da S&P Global, e o CDP.
+Dessa forma, a Copel integra sua estratégia de forma transversal, comprometida com o 
+desenvolvimento sustentável, a geração de valor para a sociedade e o fortalecimento da 
+governança corporativa.
+COPEL | 2T26
+ 29
+Sumário Resultado Investimentos Copel GeT Estratégia COM Copel DIS ESG Outros Anexos
+
+[p. 32]
+Detalhes adicionais sobre a gestão da sustentabilidade e a integração dos aspectos ESG à 
+estratégia corporativa podem ser consultados no Relato Integrado da Copel, disponível no Portal de 
+Sustentabilidade do site de Relações com Investidores. 
+6.2 Destaques recentes 
+- Copel entre as empresas mais sustentáveis do mundo: A Copel passou a integrar o Índice 
+Dow Jones Best-in-Class (DJ BIC) e o Sustainability Yearbook 2026, ambos reconhecimentos 
+concedidos com base na avaliação de sustentabilidade corporativa da S&P Global. As 
+distinções posicionam a Companhia entre as empresas de melhor desempenho em práticas 
+ambientais, sociais e de governança (ESG) em seu setor, refletindo a consistência da gestão 
+sustentável, a adoção das melhores práticas internacionais e o compromisso com a geração de 
+valor de longo prazo.
+- Copel mantém presença nos principais índices ESG da B3: A Copel manteve sua presença 
+simultânea nos principais índices ESG da B3, incluindo o Índice de Sustentabilidade 
+Empresarial (ISE B3), índice Carbono Eficiente (ICO2 B3) e índice de Diversidade (IDIVERSA 
+B3). O reconhecimento consolida o compromisso da Companhia com a criação de valor 
+sustentável de longo prazo e demonstra a integração dos aspectos ambientais, sociais e de 
+governança à estratégia corporativa. 
+- Copel está entre as empresas mais íntegras do Brasil: A Companhia foi reconhecida no 
+Programa Pró-Ética 2025-2026, iniciativa promovida pela Controladoria-Geral da União (CGU) e 
+pelo Instituto Ethos. O reconhecimento evidencia a maturidade do Programa de Integridade da 
+Copel e reforça seu compromisso com ética, transparência, conformidade e governança 
+corporativa.
+- Publicação do Relato Integrado 2025 : A Copel publicou seu Relato Integrado 2025, 
+apresentando os principais resultados, avanços operacionais, indicadores ESG e 
+direcionadores estratégicos que sustentam a geração de valor sustentável da Companhia. O 
+documento reforça a integração da sustentabilidade à estratégia corporativa e à visão de longo 
+prazo do negócio.
+- Avanço ambiental e descarbonização: A Copel, em 2025, reduziu em 23% suas emissões de 
+gases de efeito estufa (GEE) em relação a 2024, resultado que demonstra a evolução de sua 
+agenda climática e a efetividade das iniciativas voltadas à descarbonização dos negócios. O 
+desempenho reforça o compromisso da Companhia com a geração de valor sustentável e com 
+uma transição energética responsável.
+6.3 Indicadores
+Em relação ao indicador de GEE escopo 1(tCO2), os dados se referem às emissões diretas de 
+gases de efeito estufa das operações da Copel (frota, mudança do solo e emissões fugitivas), 
+calculados semestralmente. Os dados de 2026 serão auditados posteriormente por terceira parte.
+Indicador Ambiental 2T26 2T25 Δ p.p. 1S26 1S25 Δ p.p.
+Fontes renováveis (% Capacidade Instalada) 100,0 100,0 — 100,0 100,0 —
+Fontes renováveis (% Energia Gerada) 100,0 100,0 — 100,0 100,0 —
+Emissão de GEE escopo 1 (tCO2)¹ (3) 4.937,7 — (3) 4.937,7 —
+Emissão de GEE escopo 2 (tCO2)² (3) 169.117,0 — (3) 169.117,0 —
+¹Escopo 1 refere-se às emissões diretas de gases de efeito estufa das operações da Copel (frota, mudança do solo e emissões fugitivas), calculados semestralmente. Os 
+dados de 2026 serão verificados posteriormente por terceira parte.
+²Escopo 2 refere-se às emissões indiretas de gases de efeito estufa das operações da Copel (consumo e perda de eletricidade) - as emissões de GEE são calculadas 
+semestralmente.
+3Dados ainda sendo apurados
+COPEL | 2T26
+ 30
+Sumário Resultado Investimentos Copel GeT Estratégia COM Copel DIS ESG Outros Anexos
+
+[p. 33]
+Indicador Social 2T26 2T25 Δ p.p. 1S26 1S25 Δ p.p.
+Mulheres na Copel (% Empregados Próprios) 21,4 22,1 (0,7) 21,4 22,1 (0,7)
+Mulheres na Copel (% Empregados Terceiros) 11,1 16,6 (5,5) 11,1 16,6 (5,5)
+Taxa de frequência de acidentes - TFIFR (% 
+Empregados Próprios) 1,0 1,3 (0,3) 1,0 1,3 (0,3)
+Taxa de frequência de acidentes - TFIFR (% 
+Empregados Terceiros)
+1,4 3,0 (1,6) 1,4 3,0 (1,6)
+TFIFR: Taxa de frequência de acidentes com afastamento. Esta taxa representa, em relação a um milhão de horas-homem de exposição ao risco, o número de 
+contratados envolvidos em acidentes com afastamento ou casos fatais, no período considerado.
+ABNT – NBR 14280: 2001
+Indicador de Governança 2T26 2T25 Δ p.p. 1S26 1S25 Δ p.p.
+Mulheres em cargos de liderança (%) 21,0 20,3 0,7 21,0 20,3 0,7
+Mulheres no Conselho de Administração (%) 11,1 11,1 — 11,1 11,1 —
+Conselheiros independentes (%) 88,8 88,8 — 88,8 88,8 —
+Denúncias Resolvidas pelo Canal de Denúncias (%)* 62,0 66,0 (4,0) 89,0 79,0 10,0
+*O indicador considera a finalização das investigações no período analisado/ano, a Companhia analisa 100% das denúncias recebidas.
+6.4 Avaliações, Classificações e Índices
+Índice
+Ranking
+88.21%
+Posição 10º
+CSA Score 
+84 A Sim Sim Medium Risk AA
+Ano de 
+Referência 2025 2026 2025 2025 2025 2025 2025
+COPEL | 2T26
+ 31
+Sumário Resultado Investimentos Copel GeT Estratégia COM Copel DIS ESG Outros Anexos
+
+[p. 34]
+7 Outros destaques do período
+7.1 Remuneração aos acionistas
+Em 15 de abril, o Conselho de Administração aprovou a distribuição de R$ 706,0 milhões a título de 
+Juros sobre Capital Próprio (JCP), a serem pagos em 30 de setembro de 2026.
+7.2 Fitch Reafirma Rating 'AAA(bra)' da Copel e suas subsidiárias
+Em 15 de maio a agência de classificação de risco Fitch Ratings reafirmou o rating ‘AAA (bra)’ de 
+Longo Prazo da Copel e de suas subsidiárias integrais Copel Geração e Transmissão, Copel 
+Distribuição e Copel Serviços, o mais alto possível na escala da Fitch. Ao mesmo tempo, a 
+perspectiva dos ratings corporativos foi mantida como estável. O sólido perfil de negócios da 
+Companhia, com importantes e rentáveis ativos de geração, transmissão e distribuição de energia, 
+que contribuem para diluir riscos operacionais e regulatórios, destacam-se como pontos relevantes 
+da classificação.
+7.3 Aditamento e Renovação do Programa de Recompra de Ações
+Em 21 de maio o Conselho de Administração aprovou o aditamento e a renovação do programa de 
+recompra de ações da Companhia, com o objetivo de adquirir ações da Copel para manutenção em 
+tesouraria, cancelamento ou alienação e atender a planos de incentivo baseados em ações, sem 
+redução da cifra do capital social. O programa possui vigência de 18 meses com limitação de 
+aquisição de até 10% do total de ações em circulação no mercado. Mais informações consultar o 
+Fato Relevante 02/26.
+7.4 Elejor repactua Uso do Bem Público (UBP)
+A Centrais Elétricas do Rio Jordão S.A. - Elejor, sociedade de propósito específico com participação 
+majoritária da Copel, formalizou em 25 de maio a repactuação das parcelas devidas a título de 
+UBP, nos termos da Lei nº 15.235, de 8 de outubro de 2025, e do Despacho nº 668/2026-ANEEL, 
+de 24 de fevereiro de 2026, referente às UHEs Santa Clara e Fundão, conforme valor oficialmente 
+apurado e publicado pela Aneel, no montante de R$ 420,6 milhões. A repactuação evidencia a 
+criação de valor para as concessões dos ativos operados pela Elejor e está plenamente alinhada à 
+estratégia de geração de valor da Companhia.
+7.5 Alienação de Participação na UHE Dona Francisca
+Em 15 de junho, a Companhia celebrou o Contrato de Compra e Venda de Ações com a Gerdau 
+S.A., para a alienação de sua participação de 23,03% no capital social da Dona Francisca 
+Energética S.A., acionista do consórcio responsável pela operação da UHE Dona Francisca. O 
+valor total da transação foi de R$ 150,0 milhões, com pagamento integral no fechamento, 
+condicionado às aprovações necessárias. 
+A operação reforça a estratégia da Copel de concentrar seu portfólio em ativos estratégicos e gerar 
+valor aos acionistas.
+7.6 Reajuste das Receitas Anuais Permitidas para o Ciclo 2026-2027
+COPEL | 2T26
+ 32
+Sumário Resultado Investimentos Copel GeT Estratégia COM Copel DIS ESG Outros Anexos
+
+[p. 35]
+Por meio da Resolução Homologatória nº 2.268/2026, a Aneel estabeleceu as Receitas Anuais 
+Permitidas - RAPs para os ativos de transmissão de energia elétrica para o ciclo 2026-2027, com 
+vigência a partir de 1º de julho de 2026. De acordo com o Despacho Aneel nº 2.268 e a Nota 
+Técnica nº 102/2026, as RAPs da Copel Geração e Transmissão S.A. e das suas participações 
+passam a ser de R$ 1.912,5 milhões, aumento de 5,6% em relação ao ciclo anterior.
+7.7 Copel é premiada pela Aneel por excelência na Ouvidoria
+Em 17 de junho a Companhia conquistou, pela sexta vez, o Prêmio Aneel de Ouvidoria na categoria 
+de distribuidoras com mais de um milhão de clientes. A premiação, realizada durante o 23º 
+Encontro Nacional de Ouvidores do Setor Elétrico, reconhece empresas com os melhores índices 
+de solução de reclamações, agilidade nas respostas e estrutura de atendimento. Desde o início do 
+prêmio, em 2017, a Copel figurou no pódio em todas as edições na categoria Grande Porte. O 
+reconhecimento reforça o compromisso da Copel com a experiência e satisfação dos clientes.
+7.8 Novo Diretor-Geral da Copel DIS
+A Copel Distribuição iniciou um novo ciclo de liderança com a posse de Denis Mollica como Diretor-
+Geral, sucedendo a Marco Antônio Villela. Com mais de 20 anos de trajetória no setor elétrico e 
+passagens executivas por Cemig e EDP, Mollica assume a posição com o compromisso de dar 
+continuidade à agenda de eficiência operacional e à execução do plano de investimentos da 
+distribuidora.
+A Companhia expressa seu agradecimento a Marco Antônio Villela pelo importante 
+reposicionamento estratégico conduzido ao longo de sua gestão, marcado pelo fortalecimento da 
+segurança operacional, otimização de processos e estruturação de equipes de alta performance.
+7.9 Semana da Inovação Copel
+De 30 de junho a 03 de julho ocorreu a Semana da Inovação Copel, evento que promove a cultura 
+da inovação como motor de transformação da Companhia. A iniciativa contou com painéis e 
+palestras de especialistas do mercado em inovação e transformação digital e aposta na inovação 
+colaborativa, conectando colaboradores, startups, empresas e universidades na cocriação de 
+soluções voltadas a temas estratégicos, como digitalização, inteligência artificial e automação de 
+processos. Durante o evento foi lançado o Desafio Copel de Inovação que busca soluções voltadas 
+à eficiência e redução de custos, como uso de inteligência artificial e novas tecnologias. O desafio 
+integra o Copel Beyond, nosso maior programa de transformação digital, com foco em eficiência, 
+digitalização e produtividade. 
+7.10 Presidente da Copel é homenageado por excelência em gestão
+Em 01 de julho, Daniel Slaviero, Presidente da Companhia, recebeu o prêmio EVEx (Energy Virtual 
+Experience) na categoria “Excelência em Gestão e Modernização Setorial”, em reconhecimento à 
+sua atuação à frente da Copel. O EVEx é um dos maiores encontros e plataformas de negócios 
+focados no futuro da energia que reúne autoridades, CEOs, reguladores e especialistas. Seu 
+objetivo é acelerar a transição energética e a cooperação entre a América Latina e a Península 
+Ibérica.
+7.11 Atualização dos parâmetros que orientam a estrutura ótima de capital e a 
+Política de Dividendos
+COPEL | 2T26
+ 33
+Sumário Resultado Investimentos Copel GeT Estratégia COM Copel DIS ESG Outros Anexos
+
+[p. 36]
+Em 15 de julho, a Companhia aprovou a atualização dos parâmetros que orientam sua estrutura 
+ótima de capital e sua Política de Dividendos, reforçando a alocação de capital equilibrada e 
+sustentável, a preservação da solidez financeira, o retorno aos acionistas, as oportunidades de 
+investimento e melhoria contínua do serviço aos clientes.
+A Estrutura Ótima de Capital passa a considerar que a alavancagem financeira é de 2,9x, 
+mensurada pela dívida líquida/Ebitda, com tolerância de 0,3x para mais (3,2x) ou para menos 
+(2,6x), desde que haja convergência em até 48 meses para o centro da faixa (2,9x). 
+A distribuição anual de proventos segue pautada pelos seguintes parâmetros financeiros definidos 
+ao final de cada exercício social, em linha com as diretrizes da estrutura de capital, com no mínimo 
+75% do lucro líquido e frequência mínima de pagamento 2 vezes ao ano.
+Mais informações consultar o Fato Relevante 05/26.
+COPEL | 2T26
+ 34
+Sumário Resultado Investimentos Copel GeT Estratégia COM Copel DIS ESG Outros Anexos
+
+[p. 37]
+Disclaimer
+Informações contidas neste documento podem incluir considerações futuras e refletem a percepção 
+atual e perspectivas da diretoria sobre a evolução do ambiente macroeconômico, condições da 
+indústria, desempenho da Companhia e resultados financeiros. Quaisquer declarações, 
+expectativas, capacidades, planos e conjecturas contidos neste documento, que não descrevam 
+fatos históricos, tais como informações a respeito da declaração de pagamento de dividendos, a 
+direção futura das operações, a implementação de estratégias operacionais e financeiras 
+relevantes, o programa de investimento, os fatores ou tendências que afetem a condição financeira, 
+liquidez ou resultados das operações são considerações futuras de significado previsto no U.S. 
+Private Securities Litigation Reform Act de 1995 e contemplam diversos riscos e incertezas. Não há 
+garantias de que tais resultados venham a ocorrer. As declarações são baseadas em diversos 
+fatores e expectativas, incluindo condições econômicas e mercadológicas, competitividade da 
+indústria e fatores operacionais. Quaisquer mudanças em tais expectativas e fatores podem 
+implicar que o resultado real seja materialmente diferente das expectativas correntes. 
+Relações com Investidores
+ri@copel.com
+Telefone: (41) 3331-4011
+COPEL | 2T26
+ 35
+Sumário Resultado Investimentos Copel GeT Estratégia COM Copel DIS ESG Outros Anexos
+
+[p. 38]
+8. Anexos
+Resultado 
+Consolidado
+Resultado por 
+Subsidiária
+DRE DRE Copel GeT
+DRE DRE Copel DIS
+Fluxo de Caixa DRE Copel COM
+Ebitda e Resultado Financeiro
+Demais tabelas encontram-se no site de Relações com 
+Investidores. 
+Para acessar, clique aqui 
+ 36
+Sumário Resultado Investimentos Copel GeT Estratégia COM Copel DIS ESG Outros Anexos
+
+[p. 39]
+RESULTADO CONSOLIDADO - DRE
+R$ mil
+Demonstração do Resultado 2T26 2T25 Δ% 1H26 1H25 Δ%
+RECEITA OPERACIONAL LÍQUIDA 6.918.061 6.225.154 11,1 13.985.762 12.117.240 15,4 
+Fornecimento de energia elétrica 1.980.394 1.912.016 3,6 3.976.535 4.104.115 (3,1) 
+Suprimento de energia elétrica 1.287.703 1.140.733 12,9 2.801.175 2.115.673 32,4 
+Disponibilidade da rede elétrica 1.898.610 1.531.656 24,0 3.957.308 3.459.679 14,4 
+Receita de construção 644.723 842.770 (23,5) 1.221.491 1.482.460 (17,6) 
+Valor justo dos ativos da concessão 288.695 11.726 2.362,0 308.770 35.742 763,9 
+Resultado de ativos e passivos financeiros setoriais 654.834 577.183 13,5 1.354.434 562.727 140,7 
+Outras receitas operacionais 163.102 209.070 (22,0) 366.049 356.844 2,6 
+(-/+) Ajustes para recorrentes (957.341) (823.944) 16,2 (1.638.660) (1.503.242) 9,0 
+RECEITA OPERACIONAL LÍQUIDA RECORRENTE 5.960.720 5.401.210 10,4 12.347.102 10.613.998 16,3 
+CUSTOS E DESPESAS OPERACIONAIS (5.386.398) (5.067.863) 6,3 (11.019.082) (9.678.833) 13,8 
+Energia elétrica comprada para revenda (2.823.231) (2.563.409) 10,1 (5.925.420) (4.815.762) 23,0 
+Encargos de uso da rede elétrica (716.377) (710.578) 0,8 (1.428.682) (1.393.101) 2,6 
+Pessoal e administradores (248.628) (242.352) 2,6 (531.259) (491.574) 8,1 
+Planos previdenciário e assistencial (64.663) (58.015) 11,5 (130.783) (118.952) 9,9 
+Material (27.335) (21.913) 24,7 (53.226) (44.914) 18,5 
+Serviços de terceiros (289.037) (278.689) 3,7 (545.025) (561.010) (2,8) 
+Depreciação e amortização (406.223) (361.211) 12,5 (809.272) (716.231) 13,0 
+Provisões e reversões (106.494) (83.934) 26,9 (192.095) (154.445) 24,4 
+Custo de construção (632.096) (840.991) (24,8) (1.211.027) (1.476.182) (18,0) 
+Outros custos e despesas operacionais (72.314) 93.229 (177,6) (192.293) 93.338 (306,0) 
+(-/+) Ajustes para recorrentes 632.102 640.406 (1,3) 1.229.921 1.186.769 3,6 
+CUSTOS E DESPESAS OPERACIONAIS 
+RECORRENTES (4.754.296) (4.427.457) 7,4 (9.789.161) (8.492.064) 15,3 
+RESULTADO DA EQUIVALÊNCIA PATRIMONIAL 55.883 64.256 (13,0) 125.668 164.672 (23,7) 
+LUCRO ANTES DO RESULTADO FIN. E TRIBUTOS 1.587.546 1.221.547 30,0 3.092.348 2.603.079 18,8 
+LUCRO ANTES DO RESULTADO FIN. E TRIBUTOS 
+RECORRENTE 1.262.307 1.038.009 21,6 2.683.609 2.286.606 17,4 
+RESULTADO FINANCEIRO (368.883) (401.861) (8,2) (858.446) (848.386) 1,2 
+Receitas financeiras 789.896 375.312 110,5 1.122.842 672.952 66,9 
+Despesas financeiras (1.158.779) (777.173) 49,1 (1.981.288) (1.521.338) 30,2 
+(-/+) Ajustes para recorrentes (284.424) — — (284.424) — — 
+RESULTADO FINANCEIRO RECORRENTE (653.307) (401.861) 62,6 (1.142.870) (848.386) 34,7 
+LUCRO OPERACIONAL 1.218.663 819.686 48,7 2.233.902 1.754.693 27,3 
+LUCRO OPERACIONAL RECORRENTE 609.000 636.148 (4,3) 1.540.739 1.438.220 7,1 
+IMPOSTO DE RENDA E CONTRIBUIÇÃO SOCIAL (171.204) (246.122) (30,4) (492.399) (516.462) (4,7) 
+Imposto de renda e contribuição social (92.747) 76.677 (221,0) (255.603) (152.305) 67,8 
+Imposto de renda e contribuição social diferidos (78.457) (322.799) (75,7) (236.796) (364.157) (35,0) 
+(-/+) Ajustes para recorrentes 207.283 62.404 232,2 235.676 107.601 119,0 
+IMPOSTO DE RENDA E CONTRIBUIÇÃO SOCIAL 
+RECORRENTE 36.079 (183.718) (119,6) (256.723) (408.861) (37,2) 
+LUCRO LÍQUIDO COM OPERAÇÕES EM 
+CONTINUIDADE 1.047.459 573.564 82,6 1.741.503 1.238.231 40,6 
+LUCRO LÍQUIDO COM OPERAÇÕES EM 
+CONTINUIDADE RECORRENTE 645.079 452.430 42,6 1.284.016 1.029.359 24,7 
+LUCRO LÍQUIDO COM OPERAÇÕES 
+DESCONTINUADAS — — — — — — 
+LUCRO LÍQUIDO DO PERÍODO 1.047.459 573.564 82,6 1.741.503 1.238.231 40,6 
+LUCRO LÍQUIDO RECORRENTE 645.079 452.430 42,6 1.284.016 1.029.359 24,7 
+EBITDA DAS OP. EM CONTINUIDADE 1.993.769 1.582.758 26,0 3.901.620 3.319.310 17,5 
+EBITDA RECORRENTE 1.612.647 1.334.964 20,8 3.367.213 2.838.165 18,6 
+COPEL | 2T26
+ 37
+Sumário Resultado Investimentos Copel GeT Estratégia COM Copel DIS ESG Outros Anexos
+
+[p. 40]
+RESULTADO CONSOLIDADO - Balanço Patrimonial
+R$ mil
+Ativo jun.-26 dez.-25 Δ%
+CIRCULANTE 10.943.746 10.881.654 0,6 
+ Caixa e equivalentes de caixa 3.272.606 3.130.363 4,5 
+ Títulos e Valores Mobiliários 161 895 (82,0) 
+ Cauções e depósitos vinculados 9 9 — 
+ Clientes — 4.300.957 (100,0) 
+ Dividendos a receber 3.999.644 141.297 2.730,7 
+ Ativos Financeiros Setoriais 142.021,0 400.463 (64,5) 
+ Contas a receber vinculadas à concessão 717.522 12.867 5.476,5 
+ Ativos de contrato 14.672 392.594 (96,3) 
+ Valor justo na compra e venda de energia 424.364 263.645 61,0 
+ Outros créditos 286.038 1.050.086 (72,8) 
+ Estoques 1.064.699 173.398 514,0 
+ Imposto de Renda e Contribuição Social 150.066 502.825 (70,2) 
+ Outros tributos a recuperar 351.890 426.106 (17,4) 
+ Despesas antecipadas 425.632 60.972 598,1 
+ Partes Relacionadas 56.542 — — 
+ Ativos classificados como mantidos para venda 37.880 25.177 50,5 
+NÃO CIRCULANTE 50.702.481 49.532.802 2,4 
+Realizável a Longo Prazo 20.159.711 19.065.339 5,7 
+ Títulos e Valores Mobiliários 652.304 690.886 (5,6) 
+ Outros investimentos temporários 45.134 30.627 47,4 
+ Clientes 161.633 162.189 (0,3) 
+ Depósitos judiciais 378.911 373.949 1,3 
+ Ativos Financeiros Setoriais 642.995 400.463 60,6 
+ Contas a receber vinculadas à concessão 5.023.245 4.590.579 9,4 
+ Ativos de contrato 9.740.393 9.202.412 5,8 
+ Valor justo na compra e venda de energia 721.180 597.856 20,6 
+ Outros créditos 838.553 794.296 5,6 
+ Imposto de renda e contribuição social 106.849 102.589 4,2 
+ Imposto de Renda e Contribuição Social diferidos 851.402 991.404 (14,1) 
+ Outros tributos a recuperar 997.112 1.127.582 (11,6) 
+ Despesas antecipadas — 507 (100,0) 
+Investimentos 2.884.909 2.849.002 1,3 
+Imobilizado 8.348.827 8.145.552 2,5 
+Intangível 19.053.574 19.206.609 (0,8) 
+Direito de uso de ativos 255.460 266.300 (4,1) 
+TOTAL DO ATIVO 61.646.227 60.414.456 2,0 
+COPEL | 2T26
+ 38
+Sumário Resultado Investimentos Copel GeT Estratégia COM Copel DIS ESG Outros Anexos
+
+[p. 41]
+R$ mil
+Passivo jun.-26 dez.-25 Δ%
+CIRCULANTE 8.406.486 11.062.317 (24,0) 
+ Obrigações sociais e trabalhistas 236.531 310.773 (23,9) 
+ Partes relacionadas — — — 
+ Fornecedores 3.061.787 3.059.667 0,1 
+ Fornecedores - risco sacado 20.029 — — 
+ Imposto de renda e contribuição social 151.562 81.875 85,1 
+ Outras obrigações fiscais 378.911 677.273 (44,1) 
+ Empréstimos e financiamentos 224.040 217.827 2,9 
+ Debêntures 1.976.945 1.850.538 6,8 
+ Instrumentos financeiros derivativos 4.278 3.657 17,0 
+ Dividendos a pagar 631.686 2.325.889 (72,8) 
+ Benefícios pós-emprego 120.729 118.854 1,6 
+ Encargos setoriais a recolher 26.879 60.108 (55,3) 
+ Pesquisa e desenvolvimento e eficiência energética 92.623 99.244 (6,7) 
+ Contas a pagar vinculadas à concessão 42.013 147.205 (71,5) 
+ Passivos financeiros setoriais — 883.990 (100,0) 
+ Passivo de arrendamentos 60.043 58.741 2,2 
+ Valor justo na compra e venda de energia 259.994 262.821 (1,1) 
+ Outras contas a pagar 882.059 784.575 12,4 
+ Provisão para destinação de crédito de PIS e Cofins 236.377 119.280 98,2 
+NÃO CIRCULANTE 29.091.391 26.260.161 10,8 
+ Obrigações sociais e trabalhistas 6.233 4.764 30,8 
+ Partes relacionadas — — — 
+ Fornecedores 135.979 133.544 — 
+ Imposto de renda e contribuição social diferidos 2.079.176 1.982.596 4,9 
+ Outras Obrigações fiscais 205.728 239.448 (14,1) 
+ Empréstimos e financiamentos 3.065.775 3.150.592 (2,7) 
+ Debêntures 18.017.940 14.796.386 21,8 
+ Empréstimos financeiros derivativos 195.180 19.878 881,9 
+ Benefícios pós-emprego 1.369.957 1.359.303 0,8 
+ Pesquisa e desenvolvimento e eficiência energética 376.747 311.856 20,8 
+ Contas a pagar vinculadas à concessão 339.813 959.122 (64,6) 
+ Passivo de arrendamentos 224.927 234.221 (4,0) 
+ Valor justo na compra e venda de energia 357.846 268.621 33,2 
+ Outras contas a pagar 191.156 204.537 (6,5) 
+ Provisão para destinação de créditos de PIS e Cofins 563.995 661.273 (14,7) 
+ Provisões para litígios 1.960.939 1.934.020 1,4 
+PATRIMÔNIO LÍQUIDO 24.148.350 23.091.978 4,6 
+Atribuível aos acionistas da empresa controladora 24.128.112 23.130.019 4,3 
+ Capital social 12.821.758 12.821.758 — 
+ Reservas de capital 39.068 18.638 109,6 
+ Ajustes de avaliação patrimonial 272.856 287.992 (5,3) 
+ Ações em tesouraria (113.067) (113.389) (0,3) 
+ Reserva legal 1.900.541 1.900.541 — 
+ Reserva de retenção de lucros 7.508.855 8.214.479 (8,6) 
+ Lucros acumulados 1.698.101 — — 
+Atribuível aos acionistas não controladores 20.238 (38.041) (153,2) 
+TOTAL DO PASSIVO 61.646.227 60.414.456 2,0 
+COPEL | 2T26
+ 39
+Sumário Resultado Investimentos Copel GeT Estratégia COM Copel DIS ESG Outros Anexos
+
+[p. 42]
+RESULTADO CONSOLIDADO - Fluxo de Caixa
+R$ mil
+30.06.2026 30.06.2025
+FLUXO DE CAIXA DAS ATIVIDADES OPERACIONAIS
+ Lucro líquido do período proveniente de operações em continuidade 1.741.503 1.238.231 
+Ajustes para a reconciliação do lucro líquido do exercício com a geração de caixa das 
+atividades operacionais: 2.226.851 2.635.914 
+ Encargos e variações monetárias não realizadas – líquidas 1.696.672 1.343.542 
+ Juros efetivos - bonificação pela outorga de contrato de concessão em regime de cotas (71.265) (66.137) 
+ Resultado dos contratos de concessão de transmissão (627.244) (329.669) 
+ Imposto de renda e contribuição social 255.603 152.305 
+ Imposto de renda e contribuição social diferidos 236.796 364.157 
+ Resultado da equivalência patrimonial (125.668) (164.672) 
+ Apropriação de obrigações de benefícios pós emprego 126.872 116.829 
+ Apropriação de programas de pesquisa e desenvolvimento e eficiência energética 111.499 95.448 
+ Reconhecimento do valor justo do ativo indenizável da concessão (308.770) (35.742) 
+ Resultado de ativos e passivos financeiros setoriais (1.492.489) (620.085) 
+ Depreciação e amortização 809.272 716.231 
+ Provisão decorrente do programa de demissão voluntária 18.894 20.979 
+ Incentivos de longo prazo 21.393 3.864 
+ Perdas estimadas, provisões e reversões operacionais líquidas 192.095 154.445 
+ Realização de mais/menos valia em combinações de negócios (1.571) (361) 
+ Valor justo nas operações de compra e venda de energia no mercado ativo (59.319) (67.899) 
+ Ajuste a valor justo de instrumentos da dívida e Hedge (swap) (30.634) — 
+ Baixas de contas a receber vinculadas à concessão 923 1.854 
+ Baixas de ativos de contrato 4.725 4.516 
+ Resultado das baixas de imobilizado 425 1.074 
+ Resultado das baixas de intangíveis 33.721 42.894 
+ Resultado das baixas de direito de uso de ativos e passivo de arrendamentos – líquido 234 — 
+ Resultado de pactuação do uso do bem público (298.295) — 
+ Resultado da alienação de ativos (1.221) (320.927) 
+ Outros (7.300) (14.963) 
+Redução (aumento) dos ativos 534.126 564.551 
+ Clientes 791.071 601.922 
+ Dividendos e juros sobre o capital próprio recebidos 50.847 143.243 
+ Depósitos judiciais 10.971 25.037 
+ Ativos financeiros setoriais 97.513 141.256 
+ Outros créditos (154.436) (80.361) 
+ Estoques 23.332 (28.213) 
+ Imposto de renda e contribuição social a recuperar (332.140) (203.841) 
+ Outros tributos a recuperar 42.031 (40.222) 
+ Despesas antecipadas 4.937 5.109 
+ Partes relacionadas — 621 
+Aumento (redução) dos passivos (740.418) (332.046) 
+ Obrigações sociais e trabalhistas (87.399) (88.006) 
+ Partes relacionadas — — 
+ Fornecedores (158.561) 149.882 
+ Outras obrigações fiscais 225.439 475.590 
+ Benefícios pós-emprego (114.343) (100.616) 
+ Encargos setoriais a recolher (33.229) 53.130 
+ Pesquisa e desenvolvimento e eficiência energética (64.406) (136.662) 
+ Contas a pagar vinculadas à concessão (485.671) (56.796) 
+ Outras contas a pagar 105.066 (511.043) 
+ Provisões para litigios quitadas (127.314) (117.525) 
+COPEL | 2T26
+ 40
+Sumário Resultado Investimentos Copel GeT Estratégia COM Copel DIS ESG Outros Anexos
+
+[p. 43]
+CAIXA GERADO (UTILIZADO) PELAS ATIVIDADES OPERACIONAIS 2.020.559 2.868.419 
+ Imposto de renda e contribuição social pagos (185.916) (179.761) 
+ Encargos de empréstimos e financiamentos pagos (160.985) (244.568) 
+ Encargos de debêntures pagos (989.339) (688.758) 
+ Encargos de passivo de arrendamentos pagos (15.234) (16.786) 
+CAIXA LÍQUIDO GERADO (UTILIZADO) PELAS ATIVIDADES OPERACIONAIS 669.085 1.738.546 
+FLUXO DE CAIXA DAS ATIVIDADES DE INVESTIMENTO
+ Aplicações financeiras 24.744 (5.867) 
+ Aquisições de ativos de contrato -899.991 -1.374.321
+ Aquisição de controladas, líquida do caixa adquirido -396.493 -190.433
+ Aquisição de investimentos (22.165) (1.060.804) 
+ Alienação de investimentos — 434.502 
+ Aquisições de imobilizado — (53.820) 
+ Aquisições de intangível 174.892 (17.508) 
+CAIXA LÍQUIDO UTILIZADO PELAS ATIVIDADES DE INVESTIMENTO (1.119.013) (2.268.251) 
+FLUXO DE CAIXA DAS ATIVIDADES DE FINANCIAMENTO
+ Ingressos de empréstimos e financiamentos 550.000 — 
+ Custos de transação na captação de empréstimos e financiamentos (213) — 
+ Ingressos de debêntures emitidas 3.700.000 2.000.000 
+ Custos de transação na emissão de debêntures (104.635) (22.632) 
+ Amortizações de principal de empréstimos e financiamentos (653.970) (630.854) 
+ Amortizações de principal de debêntures (525.166) (781.958) 
+ Amortizações de principal de passivo de arrendamentos (35.925) (32.558) 
+ Recompra de ações próprias — (70.040) 
+ Dividendos e juros sobre o capital próprio pagos (2.337.920) (1.249.032) 
+CAIXA LÍQUIDO GERADO (UTILIZADO) PELAS ATIVIDADES DE FINANCIAMENTO 592.171 (787.074) 
+TOTAL DOS EFEITOS NO CAIXA E EQUIVALENTES DE CAIXA 142.243 (1.316.779) 
+ Saldo inicial de caixa e equivalentes de caixa 3.130.363 4.161.939 
+ Saldo final de caixa e equivalentes de caixa 3.272.606 2.835.585 
+ Caixa e equivalentes de caixa proveniente de ativos classificados como mantidos para venda — 9.575 
+VARIAÇÃO NO CAIXA E EQUIVALENTES DE CAIXA 142.243 (1.316.779) 
+COPEL | 2T26
+ 41
+Sumário Resultado Investimentos Copel GeT Estratégia COM Copel DIS ESG Outros Anexos
+
+[p. 44]
+RESULTADO CONSOLIDADO - Ebitda Ajustado e 
+Resultado Financeiro
+R$ mil
+EBITDA Ajustado 2T26 2T25 Δ% 1S26 1S25 Δ%
+EBITDA 1.993,8 1.582,8 26,0 3.901,6 3.319,3 17,5
+(-/+) Valor justo na compra e venda de energia (11,4) (61,2) (81,4) (59,3) (67,9) (12,7) 
+(-/+) Provisão/Reversão indenização PDV — — — 18,9 21,0 (10,0) 
+(-/+) Alienação ativos/descruzamento — (200,6) (100,0) — (310,4) (100,0) 
+(-/+) Equivalência Patrimonial (55,9) (64,3) (13,1) (125,7) (164,7) (23,7) 
+(-/+) Valor Novo de Reposição - VNR (288,7) (11,7) 2.367,5 (308,8) (35,7) 765,0 
+(-/+) Efeito IFRS (Receita Transmissão Societária/
+Regulatória (25,2) 90,0 (128,0) (59,5) 76,6 (177,7) 
+EBITDA RECORRENTE 1.612,6 1.335,0 20,8 3.367,2 2.838,2 18,6 
+2T26 2T25 Δ% 1S26 1S25 Δ%
+Receitas Financeiras 789.896 375.312 110,5 1.122.842 672.952 66,9
+Renda de aplicações financeiras 177.487 189.453 (6,3) 337.580 344.066 (1,9) 
+Repactuação do uso do bem público (NE nº 23) 298.295 — — 298.295 — — 
+Juros e acréscimos moratórios sobre faturas 98.062 84.809 15,6 174.786 163.559 6,9 
+Juros sobre impostos a compensar 27.186 39.894 (31,9) 61.325 83.307 (26,4) 
+Variação monetária e ajuste a valor presente sobre 
+contas a pagar vinculadas à concessão (9.593) 26.588 (136,1) 228 34.352 (99,3) 
+Rendimentos e atualização monetária de depósitos 
+judiciais 11.657 10.393 12,2 19.755 21.827 (9,5) 
+Remuneração de ativos e passivos setoriais (NE nº 8) 28.759 13.578 111,8 50.788 15.942 218,6 
+Ajuste a valor justo das debêntures (NE nº 20) 190.014 — — 192.116 — — 
+Efeito de swap sobre debêntures (NE nº 20) (12.990) — — — — — 
+(-) PIS/Pasep e Cofins sobre receitas financeiras (27.038) (14.989) 80,4 (39.720) (28.793) 38,0 
+Outras receitas financeiras 8.057 25.586 (68,5) 27.689 38.692 (28,4) 
+Despesas Financeiras (1.158.779) (777.173) 49,1 (1.981.288) (1.521.338) 30,2 
+Variação monetária e encargos da dívida (804.222) (609.220) 32,0 (1.537.917) (1.213.710) 26,7 
+Variação monetária e ajuste a valor presente sobre 
+contas a pagar vinculadas à concessão (17.196) (39.346) (56,3) (59.693) (87.745) (32,0) 
+Remuneração de ativos e passivos setoriais (NE nº 8) — (63.416) (100,0) — (77.774) (100,0) 
+Atualização monetária de litígios (NE nº 26.1) (79.604) (16.313) — (74.229) (32.296) — 
+Atualização de provisão para destinação de créditos 
+de PIS e Cofins (NE nº 12.3) (10.373) (20.996) (50,6) (22.002) (45.865) (52,0) 
+Ajuste a valor justo das debêntures (NE nº 20) 10.640 — — 15.978 — — 
+Efeito de swap sobre debêntures (NE nº 20) (160.968) — — (177.460) — — 
+Juros sobre passivo de arrendamentos (NE nº 24.2) (7.174) (8.474) (15,3) (15.406) (16.954) (9,1) 
+Juros sobre parcelamento de tributos (12.223) (4.493) — (12.223) (13.172) — 
+Juros sobre P&D e PEE (NE nº 22) (6.775) (6.037) 12,2 (12.225) (11.609) 5,3 
+PIS/Pasep e Cofins sobre juros sobre capital próprio (63.290) (56) — (63.290) (56) — 
+Variação cambial sobre compra de energia elétrica de 
+Itaipu — — — — — — 
+Outras despesas financeiras (7.594) (8.822) (13,9) (22.821) (22.157) 3,0 
+Resultado Financeiro 1.948.675 1.152.485 69,1 3.104.130 2.194.290 41,5 
+COPEL | 2T26
+ 42
+Sumário Resultado Investimentos Copel GeT Estratégia COM Copel DIS ESG Outros Anexos
+
+[p. 45]
+RESULTADO POR SUBSIDIÁRIA - DRE GET
+R$ mil
+Demonstração do Resultado 2T26 2T25 Δ% 1S26 1S25 Δ%
+RECEITA OPERACIONAL LÍQUIDA 1.354.558 1.161.383 16,6 2.933.746 2.400.930 22,2 
+Suprimento de energia elétrica 905.712 899.666 0,7 2.027.545 1.800.118 12,6 
+Disponibilidade da rede elétrica 366.590 192.102 90,8 761.191 465.773 63,4 
+Receita de construção 77.641 56.034 38,6 131.648 111.141 18,5 
+Outras receitas operacionais 4.615 13.581 (66,0) 13.362 23.898 (44,1) 
+CUSTOS E DESPESAS OPERACIONAIS (681.736) (467.248) 45,9 (1.398.565) (985.937) 41,9 
+Energia elétrica comprada para revenda (80.157) (86.583) (7,4) (200.371) (110.670) 81,1 
+Encargos de uso da rede elétrica (123.464) (128.349) (3,8) (244.464) (261.115) (6,4) 
+Pessoal e administradores (75.203) (72.593) 3,6 (161.102) (156.899) 2,7 
+Planos previdenciário e assistencial (19.492) (17.302) 12,7 (39.581) (35.482) 11,6 
+Material (12.569) (11.419) 10,1 (23.454) (16.078) 45,9 
+Serviços de terceiros (58.359) (65.410) (10,8) (106.276) (133.337) (20,3) 
+Depreciação e amortização (190.540) (177.828) 7,1 (380.695) (354.701) 7,3 
+Provisões e reversões (20.255) (4.807) 321,4 (22.033) (6.769) 225,5 
+Custo de construção (65.014) (54.256) 19,8 (121.184) (104.863) 15,6 
+Outros custos e despesas operacionais (36.683) 151.299 (124,2) (99.405) 193.977 (151,2) 
+RESULTADO DA EQUIVALÊNCIA PATRIMONIAL 49.288 64.900 (24,1) 120.927 165.337 (26,9) 
+LUCRO ANTES DO RESULTADO FIN. E 
+TRIBUTOS 722.110 759.035 (4,9) 1.656.108 1.580.330 4,8 
+RESULTADO FINANCEIRO (328.576) (236.488) 38,9 (574.793) (493.591) 16,5 
+Receitas financeiras 209.304 133.626 56,6 334.410 225.520 48,3 
+Despesas financeiras (537.880) (370.114) 45,3 (909.203) (719.111) 26,4 
+LUCRO OPERACIONAL 393.534 522.547 (24,7) 1.081.315 1.086.739 (0,5) 
+IMPOSTO DE RENDA E CONTRIBUIÇÃO 
+SOCIAL 15.134 (157.033) (109,6) (198.277) (305.181) (35,0) 
+Imposto de renda e contribuição social (8.316) (8.514) (2,3) (120.489) (130.690) (7,8) 
+Imposto de renda e contribuição social diferidos 23.450 (148.519) (115,8) (77.788) (174.491) (55,4) 
+LUCRO LÍQUIDO operações continuadas 408.668 365.514 11,8 883.038 781.558 13,0 
+LUCRO LÍQUIDO operações descontinuadas — — - — — -
+LUCRO LÍQUIDO DO PERÍODO 408.668 365.514 11,8 883.038 781.558 13,0 
+Atribuído aos acionistas da empresa controladora 
+decorrente de operações em continuidade 408.668 365.514 11,8 883.038 781.558 13,0 
+Atribuído aos acionistas não controladores — — - -
+EBITDA 912.650 936.863 (2,6) 2.036.803 1.935.031 5,3 
+COPEL | 2T26
+ 43
+Sumário Resultado Investimentos Copel GeT Estratégia COM Copel DIS ESG Outros Anexos
+
+[p. 46]
+RESULTADO POR SUBSIDIÁRIA - DRE DIS
+R$ mil
+Demonstração do Resultado 2T26 2T25 Δ% 1S26 1S25 Δ%
+RECEITA OPERACIONAL LÍQUIDA 4.969.593 4.556.168 9,1 9.894.357 8.860.934 11,7 
+Fornecimento de energia elétrica 1.653.419 1.522.602 8,6 3.378.525 3.306.270 2,2 
+Suprimento de energia elétrica 4.185 70.344 (94,1) 28.185 101.347 (72,2) 
+Disponibilidade da rede elétrica (TUSD) 1.655.120 1.456.332 13,6 3.443.189 3.225.479 6,7 
+Receita de construção 567.082 786.735 (27,9) 1.089.843 1.371.319 (20,5) 
+Valor justo dos ativos da concessão 288.695 11.726 2362,0 308.770 35.742 763,9 
+Resultado de ativos e passivos financeiros setoriais 654.834 577.183 13,5 1.354.434 562.727 140,7 
+Outras receitas operacionais 146.258 131.246 11,4 291.411 258.050 12,9 
+CUSTOS E DESPESAS OPERACIONAIS (4.121.038) (4.147.934) (0,6) (8.479.601) (7.915.621) 7,1 
+Energia elétrica comprada para revenda (2.114.778) (1.978.386) 6,9 (4.501.417) (3.825.567) 17,7 
+Encargos de uso da rede elétrica (709.714) (689.408) 2,9 (1.418.139) (1.346.210) 5,3 
+Pessoal e administradores (136.000) (141.781) (4,1) (294.656) (284.160) 3,7 
+Planos previdenciário e assistencial (42.273) (37.692) 12,2 (85.332) (77.465) 10,2 
+Material (14.225) (10.214) 39,3 (28.468) (28.021) 1,6 
+Serviços de terceiros (216.523) (200.750) 7,9 (412.197) (401.456) 2,7 
+Depreciação e amortização (205.700) (172.760) 19,1 (408.672) (340.418) 20,1 
+Provisões e reversões (83.216) (78.403) 6,1 (163.752) (148.108) 10,6 
+Custo de construção (567.082) (786.735) (27,9) (1.089.843) (1.371.319) (20,5) 
+Outros custos e despesas operacionais (31.527) (51.805) (39,1) (77.125) (92.897) (17,0) 
+LUCRO ANTES DO RESULTADO FIN. E 
+TRIBUTOS 848.555 408.234 107,9 1.414.756 945.313 49,7 
+RESULTADO FINANCEIRO (256.701) (196.714) 30,5 (497.746) (389.094) 27,9 
+Receitas financeiras 281.257 172.005 63,5 450.203 324.933 38,6 
+Despesas financeiras (537.958) (368.719) 45,9 (947.949) (714.027) 32,8 
+LUCRO OPERACIONAL 591.854 211.520 179,8 917.010 556.219 64,9 
+IMPOSTO DE RENDA E CONTRIBUIÇÃO 
+SOCIAL (112.794) (58.555) 92,6 (218.733) (170.832) 28,0 
+Imposto de renda e contribuição social (10.790) 95.565 (111,3) (59.470) — — 
+Imposto de renda e contribuição social diferidos (102.004) (154.120) (33,8) (159.263) (170.832) (6,8) 
+LUCRO LÍQUIDO DO PERÍODO 479.060 152.965 213,2 698.277 385.387 81,2 
+EBITDA 1.054.255 580.994 81,5 1.823.428 1.285.731 41,8 
+COPEL | 2T26
+ 44
+Sumário Resultado Investimentos Copel GeT Estratégia COM Copel DIS ESG Outros Anexos
+
+[p. 47]
+RESULTADO POR SUBSIDIÁRIA - DRE COM
+R$ mil
+Demonstração do Resultado 2T26 2T25 Δ% 1S26 1S25 Δ%
+RECEITA OPERACIONAL LÍQUIDA 1.270.076 1.131.213 12,3 2.539.110 2.087.455 21,6 
+Fornecimento de energia elétrica 327.100 389.635 (16,0) 598.230 798.251 (25,1) 
+Suprimento de energia elétrica 931.187 679.905 37,0 1.880.009 1.219.750 54,1 
+Outras receitas operacionais 11.789 61.673 (80,9) 60.871 69.454 (12,4) 
+CUSTOS E DESPESAS OPERACIONAIS (1.237.779) (1.052.153) 17,6 (2.480.149) (1.980.962) 25,2 
+Energia elétrica comprada para revenda (1.226.668) (1.042.565) 17,7 (2.458.215) (1.963.222) 25,2 
+Pessoal e administradores (6.856) (5.183) 32,3 (13.980) (8.836) 58,2 
+Planos previdenciário e assistencial (471) (435) 8,3 (935) (873) 7,1 
+Material (23) 51 (145,1) (35) (109) (67,9) 
+Serviços de terceiros (1.157) (959) 20,6 (2.093) (2.007) 4,3 
+Depreciação e amortização (500) (458) 9,2 (1.006) (887) 13,4 
+Provisões e reversões (264) (140) 88,6 (193) (1.237) (84,4) 
+Outros custos e despesas operacionais (1.840) (2.464) (25,3) (3.692) (3.791) (2,6) 
+LUCRO ANTES DO RESULTADO FIN. E 
+TRIBUTOS 32.297 79.060 (59,1) 58.961 106.493 (44,6) 
+RESULTADO FINANCEIRO 3.142 194.192 (98,4) 8.564 19.610 (56,3) 
+Receitas financeiras 3.353 185.174 (98,2) 8.889 19.892 (55,3) 
+Despesas financeiras (211) 9.018 (102,3) (325) (282) 15,2 
+LUCRO OPERACIONAL 35.439 273.252 (87,0) 67.525 126.103 (46,5) 
+IMPOSTO DE RENDA E CONTRIBUIÇÃO 
+SOCIAL (13.601) (39.055) (65,2) (24.644) (43.091) (42,8) 
+Imposto de renda e contribuição social — (30.082) (100,0) — (20.106) (100,0) 
+Imposto de renda e contribuição social diferidos (13.601) (8.973) 51,6 (24.644) (22.985) 7,2 
+LUCRO LÍQUIDO DO PERÍODO 21.838 234.197 (90,7) 42.881 83.012 (48,3) 
+EBITDA 32.797 79.518 (58,8) % 59.967 107.380 (44,2) %
+ 45
+Sumário Resultado Investimentos Copel GeT Estratégia COM Copel DIS ESG Outros Anexos

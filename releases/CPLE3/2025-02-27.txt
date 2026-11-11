@@ -1,0 +1,2395 @@
+[p. 1]
+RESULTADOS
+4T
+24
+
+[p. 2]
+Destaques 4T24
+▪ Desinvestimento na UHE Baixo Iguaçu com equity value de R$ 570 
+milhões relativos à 30% do ativo.
+▪ Descruzamento de ativos com consolidação de Mata de Santa Genebra 
+e UHE Mauá
+▪ Desinvestimentos dos ativos de pequeno porte, pelo valor a ser 
+recebido de R$450,5 milhões.
+▪ Eficiência Ebitda Ajustado da Copel Distribuição de 45,7% em relação 
+à regulatória 
+28 de fevereiro de 2025 | 10h BRT
+Link de acesso
+RESULTADOS | 4T24
+▪ Dividendos adicionais de R$ 1,3 bilhão para deliberação na AGO de 24 
+de abril de 2025 – R$ 2,3 bi em 2024 e Payout de 86%1
+▪ EBITDA ajustado de R$ 1,3 bilhão no 4T24 e R$ 5,1 bilhões em 2024
+▪ Lucro Líquido2 de R$ 575 milhões no 4T24 e R$ 2,8 bilhões em 2024 
+(+20,3% vs 2023)
+▪ Alavancagem de 2,6x EBITDA
+▪ Geração de caixa operacional de R$ 1,2 bilhão no 4T24 e R$ 5,2 bilhões 
+em 2024 
+1 Payout considerando a base de cálculo contábil para dividendos de R$ 2,7 bilhões
+2 Inclui operações descontinuadas
+Indicadores Financeiros Webcast de Resultados
+R$ milhões
+EBITDA (R$ milhões) 1.298,9 1.540,5 (15,7) 5.529,7 5.076,8 8,9 
+EBITDA Ajustado (R$ milhões) 1.256,1 1.442,4 (12,9) 5.106,0 5.464,2 (6,6) 
+Lucro Líquido (R$ milhões) 575,2 942,8 (39,0) 2.799,4 2.327,2 20,3 
+LPA - Lucro Líquido por ação (R$)¹ 0,19 0,32 (39,0) 0,94 0,78 20,3 
+Rentabilidade do Patrimônio Líquido 2 2,4% 4,5% (46,7) 11,6% 11,0% 5,1 
+Margem EBITDA 21,6% 27,7% (22,0) 24,4% 23,6% 3,3 
+Margem EBITDA Ajustado 20,9% 25,9% (19,4) 22,5% 25,4% (11,4) 
+Margem Operacional 9,1% 15,8% (42,6) 12,8% 11,6% 10,7 
+Valor Patrimonial por Ação (R$) 8,59 8,11 6,0 8,59 8,11 6,0 
+Endividamento do PL 51,3% 36,9% 39,2 51,3% 36,9% 39,2 
+Liquidez Corrente 1,3 1,5 (14,4) 1,3 1,5 (14,4) 
+Alavancagem 2,6 1,9 36,8 2,6 1,9 36,8 
+∆%
+¹ Considera o Lucro Líquido atribuído aos acionistas da empresa controladora.
+2 Considera o Patrimônio Líquido inicial do exercício.
+Valores sujeitos a arredondamentos.
+2023 ∆%2024Destaques de Indicadores 4T24 4T23
+
+[p. 3]
+Mensagem do CEO
+RESULTADOS | 4T24
+O ano de 2024 foi o primeiro em que a Copel operou inteiramente como uma corporação. 
+Em um período marcado por forte ritmo de trabalho, foram notáveis os avanços a partir da 
+demonstração da nossa capacidade de execução e consistência nas entregas. 
+Como um marco em nossa cultura organizacional e excelência em todos os níveis, 
+aprovamos no início do ano o Plano de Incentivo de Longo Prazo. Acreditamos que esse 
+passa a ser um mecanismo essencial para a atração e a retenção de talentos. E reafirma o 
+nosso compromisso com a criação de valor sustentável para os nossos stakeholders. 
+Outros passos fundamentais marcaram o ano de 2024. Reafirmamos o nosso compromisso 
+com a perenidade e a sustentabilidade do negócio de geração de energia ao renovarmos as 
+concessões das três maiores usinas da Companhia por 30 anos: UHE Governador Bento 
+Munhoz da Rocha Netto (Foz do Areia), UHE Governador Ney Aminthas de Barros Braga 
+(Segredo) e UHE Governador José Richa (Salto Caxias). Esse feito assegura a operação de 
+64% da nossa atual capacidade instalada até 2054.
+ Em linha com a nossa diretriz estratégica de foco no nosso core business e na 
+descarbonização do portfólio, efetivamos desinvestimentos estratégicos. Além de gerar valor 
+aos nossos acionistas, essa ação consolida a nossa matriz operacional como 100% renovável. 
+Destacam-se as alienações da Compagas, com Equity Value de R$ 906,0 milhões, e da UEGA, 
+com R$ 290,7 milhões, às quais veio se somar a venda de ativos inservíveis às concessões da 
+Copel GeT, totalizando R$ 286,0 milhões. 
+Mas não paramos por aí. Otimizamos e reciclamos parte do nosso portfólio de ativos e 
+participações, por intermédio de mais uma eficiente alocação de capital e da eficiência 
+operacional da Companhia. Realizamos um swap de ativos que envolveu a consolidação da
+transmissora Mata de Santa Genebra e a UHE Mauá, que passaram a ser 100% da Copel 
+Geração e Transmissão. De outro lado, ocorreu a cessão da UHE Colíder à Eletrobrás. A 
+operação em questão traz sinergia pela simplificação da estrutura operacional e 
+administrativa, até então compartilhada, bem como permitirá à Copel compensar, 
+imediatamente após o closing, aproximadamente R$ 170 milhões de prejuízos fiscais 
+contabilizados referentes ao impairment de Colíder. 
+Adicionalmente, desinvestimos em 13 ativos de pequeno porte, totalizando R$ 450,5 
+milhões. E, já no início de 2025, nessa linha de reavaliação de ativos e participações 
+minoritárias, exploramos mais uma oportunidade que agrega valor e simplifica a estrutura 
+operacional e administrativa, e desinvestimos os 30% de participação na UHE Baixo Iguaçu 
+por um equity value de R$ 570 milhões.
+Na permanente busca pela otimização da alocação de capital e da geração de valor aos 
+acionistas, lançamos o 1º Programa de Recompra de Ações da Copel, vigente até 2026, 
+aproveitando um momento estratégico do mercado.
+Realizamos em 2024 investimentos históricos na Copel Distribuição, totalizando R$ 2,2 
+bilhões para modernização, ampliação e automação da infraestrutura elétrica em nossa área 
+de concessão, no estado do Paraná, e alcançamos uma eficiência EBITDA superior em 40% 
+ao previsto em termos regulatórios, o que resultou em um valor ajustado histórico de R$ 2,5 
+bilhões. 
+Mesmo em um cenário desafiador, a Copel GeT manteve um sólido desempenho financeiro e 
+performou um EBITDA recorrente de R$ 2,6 bilhões. A Copel Mercado Livre permaneceu 
+entre as maiores comercializadoras do país pelo quarto ano consecutivo e, de maneira ágil e
+
+[p. 4]
+RESULTADOS | 4T24
+Daniel Slaviero
+Presidente da Copel
+dinâmica, capturou os bons momentos de mercado causados pela volatilidade de preços para elevar 
+o nível de energia contratada do nosso portfólio.
+Em 2024, a Copel reafirmou sua solidez financeira, que se refletiu na distribuição de 
+dividendos, com R$ 1,0 bilhão declarado e já pago aos acionistas, além da proposta de um 
+pagamento adicional de mais R$ 1,3 bilhão, totalizando R$ 2,3 bilhões de dividendos 
+referentes ao exercício de 2024.
+Pela primeira vez, adotamos a metodologia OBZ no processo orçamentário da Companhia, 
+mais um passo importante no nosso compromisso com a eficiência e a disciplina financeira. 
+Com isso, a Copel está finalizando a fase de eficiência estruturante. Essa é a primeira de três 
+fases previstas no período pós Corporação. Já iniciamos a segunda fase, focada na excelência 
+operacional.
+Ao completar 70 anos de história, a Copel reafirma sua posição como referência em 
+eficiência, inovação e disciplina na alocação de capital. Com uma equipe altamente 
+qualificada e uma gestão comprometida, seguimos firmes no propósito de oferecer serviços 
+de excelência, mantendo um olhar estratégico para o futuro e consolidando nosso 
+protagonismo no setor elétrico brasileiro.
+
+[p. 5]
+RESULTADOS | 4T24 1 
+ 
+Sumário 
+1.Resultado Consolidado ....................................................................................................................................................... 2 
+1.1 EBITDA .............................................................................................................................................................................. 2 
+1.2 Receita Operacional ..................................................................................................................................................... 3 
+1.3 Custos e Despesas Operacionais ............................................................................................................................. 4 
+1.4 Resultado de Equivalência Patrimonial ................................................................................................................. 5 
+1.5 Resultado Financeiro ................................................................................................................................................... 6 
+1.6 Resultado Líquido Consolidado ............................................................................................................................... 6 
+1.7 Dívida................................................................................................................................................................................. 7 
+2. Investimentos ........................................................................................................................................................................ 8 
+3. Copel Geração e Transmissão ......................................................................................................................................... 9 
+3.1 Desempenho Econômico-Financeiro ..................................................................................................................... 9 
+3.1.1 Efeito IFRS no segmento Transmissão ....................................................................................................... 10 
+3.2 Desempenho Operacional ...................................................................................................................................... 11 
+3.2.1 Geração ................................................................................................................................................................. 11 
+3.2.2 Energia vendida .................................................................................................................................................. 11 
+3.2.3 Transmissão ......................................................................................................................................................... 12 
+RBSE .................................................................................................................................................................................. 12 
+4. Copel Distribuição ............................................................................................................................................................ 13 
+4.1 Desempenho Econômico-Financeiro .................................................................................................................. 13 
+4.1.1 Eficiência Regulatória ....................................................................................................................................... 14 
+4.2 Desempenho Operacional ....................................................................................................................................... 14 
+4.2.1 Mercado-Fio (TUSD) .......................................................................................................................................... 14 
+4.2.2 Mercado Cativo ................................................................................................................................................... 15 
+4.2.3 Dados Operacionais .......................................................................................................................................... 15 
+5. Copel Comercialização .................................................................................................................................................... 17 
+5.1 Desempenho Econômico-Financeiro .................................................................................................................. 17 
+5.2 Desempenho Operacional ....................................................................................................................................... 17 
+6. Performance ESG ............................................................................................................................................................... 19 
+6.1 Copel pioneira no setor em ESG ........................................................................................................................... 19 
+6.2 Destaques recentes .................................................................................................................................................... 20 
+6.3 Indicadores .................................................................................................................................................................... 20 
+6.4 Avaliações, Classificações e Índices...................................................................................................................... 20 
+7. Outros destaques do Período ....................................................................................................................................... 21 
+ANEXO..........................................................................................................................................................................................24
+
+[p. 6]
+RESULTADOS | 4T24 2 
+ 
+1.Resultado Consolidado 
+As análises a seguir referem-se ao quarto trimestre de 2024 e ao acumulado do ano, em comparação 
+com o mesmo período de 2023. 
+1.1 EBITDA 
+O EBITDA ajustado 1 da Copel foi de R$ 1 .256,1 milhões no 4T24, refletindo mais um trimestre de 
+consistência nas entregas e disciplina na alocação de capital. A Copel Geração e Transmissão (Copel 
+GeT) e a Copel Comercialização (Copel Com) representaram aproximadamente 47,6% desse resultado, 
+enquanto a Copel Distribuição (Copel Dis) representou 56,9%.2 
+Destacam-se nesse trimestre, 
+(i) o EBITDA da Copel Distribuição cresceu 23,6% em relação ao 4T23, totalizando R$ 715,2 
+milhões, reflexo principalmente do crescimento de 2,5% no mercado faturado e do reajuste 
+médio de 2,7% nas Tarifas do Uso do Sistema de Distribuição – TUSD; e 
+(ii) a redução de 29,2% (-R$ 92,5 milhões) com custo de pessoal e administradores, influenciado 
+pelo decréscimo de 1.415 empregados, majoritariamente explicado pel o Programa de 
+Desligamento Voluntário (PDV) concluído em 2024. 
+No comparativo ano contra ano, o EBITDA consolidado no 4T24 foi 12,9% inferior aos R$ 1. 442,4 
+milhões do 4T23 reflexo, sobretudo: (i) do menor preço médio d a energia vendida do portfólio da 
+Copel GeT (R$ 178,72 ante R$ 206,63 de 2023, redução de 13,5%); (ii) do desvio de geração de R$ 93,4 
+milhões (+49%), ocasionado pela menor performance dos complexos eólicos , essencialmente, pelo 
+volume de vento abaixo da certificação, curtailment de 13,1% no 4T24 (ante 8,3% no 4T23) e 
+indisponibilidade do parque gerador decorrentes de manutenções e instalações; (iii) do maior volume 
+proveniente do sistema de com pensação de micro e minigeração distribuída ( MMGD) em R$ 180,1 
+ 
+1 Excluídos itens não recorrentes, valor novo de reposição (VNR) pelo ajuste a valor presente do ativo indenizável da Copel Distribuição, e efeitos do IFRS 
+sobre ativos de contratos de transmissão. 
+milhões e (iv) do acréscimo em provisões de litígios no valor de R$ 63,6 milhões, especialmente em 
+ações cíveis. 
+Esses valores foram parcialmente compensados , além dos destaques, pelo: (i) aumento de R$ 195,8 
+milhões em disponibilidade da rede elétrica ; e ( ii) pela redução em perdas de créditos esperadas no 
+montante de R$ 35,8 milhões devido às melhorias nas ações de cobrança. 
+EBITDA Consolidado Ajustado 
+ 
+Obs. Considera operações descontinuadas 
+Os itens não recorrentes considerados para o cálculo do E BTIDA ajustado estão demonstrados na 
+tabela a seguir: 
+ 
+2 Holding, Copel Serviços e Elejor representaram -4,5% do EBITDA ajustado. 
+1.442 
+1.256 136 -257 -25 -33 -7 
+EBITDA
+Ajustado 4T23
+GeT DIS Comercialização Outros Operações
+em
+descontinuidade
+ EBITDA
+Ajustado 4T24
+-R$ 186 milhões
+(-12,9%)
+R$ milhões
+EBITDA 1.298,9 1.540,5 (15,7) 5.529,7 5.076,8 8,9 
+(-/+) Valor justo na compra e venda de energia 10,6 (11,4) - 36,6 (5,0) - 
+(-/+) Provisão/reversão de impairment de ativos 86,6 (123,7) - 84,2 (177,7) - 
+(-/+) Provisão/reversão Indenização PDV (0,1) - - 18,4 610,1 (97,0) 
+(-/+) Alienação de ativos - - - (264,4) - - 
+(-/+) Indenização abono terço adicional de férias - - - - 138,2 - 
+(-/+) Repactuação Risco Hidrológico (GSF) - UHE Mauá - 26,4 - - - - 
+(-/+) Provisões para Litígios - 51,1 - - 51,1 - 
+(-/+) Ebitda Ajustado Op. Descontinuadas Compagas e UEGA - 10,6 - 58,6 137,0 (57,2) 
+Ajustes de efeitos não recorrentes 97,1 (46,9) - (66,7) 753,6 - 
+(-/+) Equivalência Patrimonial (55,8) (63,1) (11,6) (281,2) (307,8) (8,6) 
+(-/+) VNR (33,0) (20,3) 62,9 (82,4) (62,2) 32,6 
+(-/+) Diferença Receita Transmissão Societária/Regulatória (ver item 3.1.1) (51,1) 32,1 - 6,5 3,8 71,1 
+EBITDA AJUSTADO1 1.256,1 1.442,4 (12,9) 5.106,0 5.464,2 (6,6) 
+EBITDA Ajustado 4T24 4T23 Δ% 2024 2023 Δ%
+
+[p. 7]
+RESULTADOS | 4T24 3 
+ 
+No acumulado do ano, o EBITDA ajustado atingiu R$ 5.106,0 milhões, montante 6,6% inferior aos 
+R$ 5.464,2 milhões registrados em 2023, justificado, principalmente, (i) pelo menor preço médio de 
+energia vendida do portfólio da Copel GeT; (ii) maior volume de energia proveniente de MMGD em R$ 
+600,7 milhões na Copel Dis ; (iii) desvio de geração de R$ 251,6 milhões , ocasionado pela menor 
+performance dos complexos eólicos, refletindo volume de vento abaixo da certificação, curtailment e 
+indisponibilidade do parqu e gerador decorrentes de manutenções e instalações em 2024 ; (iv) 
+parcialmente compensados pelo aumento de receita de disponibilidade da rede elétrica da Copel Dis, 
+decorrente. 
+1.2 Receita Operacional 
+A receita operacional líquida totalizou R$ 6.019,2 milhões no 4T24, crescimento de 8,1% em relação 
+aos R$ 5.567,7 milhões registrados no 4T23. Esse resultado é reflexo, principalmente, do aumento: 
+(i) de R$ 260,5 milhões (+15,7%) na receita de disponibilidade da rede elétrica, em razão, 
+principalmente, do crescimento de 2,5% do mercado fio faturado da Copel Dis e do reajuste 
+tarifário de junho/2024, com efeito médio de 2,7% na TUSD; 
+(ii) de R$ 180,6 milhões (+197,4%) no resultado de ativos e passivos financeiros setoriais (CVA), 
+consequência, sobretudo, do crescimento do mercado faturado e nos maiores custos de 
+energia; 
+(iii) de R$ 54,2 milhões (+9,2%) na receita de construção, em virtude, do aumento do volume de 
+obras relacionadas ao programa de investimentos da Copel Dis (ver tópico 2), que engloba 
+investimentos orientados ao aprimoramento e modernização de infraestrutura e melhorias 
+no atendimento a consumidores. 
+Esses aumentos foram parcialmente compensados pela: 
+(iv) redução de R$ 44,9 milhões (-5,2%) na receita de suprimento de energia elétrica, 
+consequência, basicamente, do menor preço médio na venda de energia (R$ 178,72 ante 
+R$ 206,63 em 2023) na Copel GeT e da provisão de desvio de geração nas eólicas , efeito 
+principalmente, do volume de vento abaixo da certificação, curtailment de 13,1% no 4T24 
+(ante 8,3% no 4T23) e indisponibilidade do parque gerador decorrentes de manutenções e 
+instalações; 
+(v) redução de R$ 18,8 milhões ( -11,9%) em outras receitas operacionais de corrente 
+principalmente do montante de R$ 29,8 milhões referente aos valores de multa de 
+compartilhamento emitidas para empresas de comunicação ocorridas no 4T23, o que não se 
+repetiu no 4T24 devido a regularização da infraestrutura. 
+ 
+ 
+Em 2024, a receita operacional líquida totalizou R$ 22.651,0 milhões, aumento de 5,5% em relação aos 
+R$ 21.479,5 milhões registrados em 2023, com destaque para as seguintes variações: (i) aumento de 
+R$ 1.045,8 milhões (+17,4%) na receita de disponibilidade de rede elétrica em razão, principalmente, 
+dos reajustes tarifários periódicos em junho/2023 e junho/2024, bem como do aumento de 5,2% no 
+mercado fio faturado, parcialmente compensado pelos impactos da revisão tarifária dos contratos de 
+concessão de transmissão da Copel GeT; (ii) acréscimo de R$ 508,8 milhões (+6,4%) em fornecimento 
+de energia elétrica em função, especialmente, dos reajustes tarifários periódicos 17,4% em junho/2023 
+e redução de 4,0% a partir de junho/2024 e pelo aumento no mercado cativo faturado em 5,5 %; 
+(iii) acréscimo de R$ 217,0 milhões (+9,3%) na receita de construção em função do volume de obras do 
+programa de investimentos da Copel Dis; parcialmente compensados pelo (iv) decréscimo de R$ 482,2 
+6.019,2R$ mi
+Fornecimento de 
+energia elétrica
+36%
+Suprimento de energia 
+elétrica
+14%
+Disponibilidade da rede 
+elétrica (TUSD/ TUST)
+32%
+Receita de construção
+11%
+Valor justo do ativo
+0,5%
+Resultado de ativos e passivos 
+financeiros setoriais
+4%
+Outras receitas 
+operacionais
+2%
+Receita Operacional 
+Líquida
+
+[p. 8]
+RESULTADOS | 4T24 4 
+ 
+milhões (-13,4%) na receita de suprimento de energia elétrica dado o encerramento do contrato CCEAR 
+da UHE Salto Caxias com suprimento de maio a setembro de 2023 ao preço de R$ 252,99/MWh e pelo 
+aumento do desvio de geração, ocasionado pela menor performance dos complexos eólicos, conforme 
+já mencionado anteriormente; e (v) redução de R$ 132,9 milhões (-13,7%) na rubrica resultado de ativos 
+e passivos financeiros setoriais devido principalmente ao crescimento do mercado faturado e à melhor 
+aderência da cobertura tarifária em relação aos custos realizados da Parcela A (custos não gerenciáveis). 
+1.3 Custos e Despesas Operacionais 
+ 
+No 4T24, os custos e despesas operacionais totalizaram R$ 5.152,3 milhões, acréscimo de 15,9% em 
+comparação aos R$ 4.445,1 milhões registrados no 4T23. Destacam-se: 
+(i) o acréscimo de R$ 588,4 milhões em energia elétrica comprada para revenda (+29,1%) em 
+decorrência essencialmente: (a) do aumento com aquisições de energia no mercado de curto 
+prazo (MCP) da Câmara de Comercialização de Energia – CCEE, dado um Preço de Liquidação 
+das Diferenças , no montante de R$ 302,6 milhões ; (b) do maior volume proveniente do 
+sistema de geração distribuída no valor de R$ 180,1 milhões; (c) da incorporação, a partir de 
+janeiro de 2024, de Leilões de Energia Nova, impactando CCEAR; e (d) do aumento em 
+contratos bilaterais de R$ 34,7 milhões; 
+(ii) o aumento de R$ 229,7 milhões em provisões e reversões, em razão da provisão de 
+impairment dos ativos de geração de R$ 27,8 milhões ante a reversão no 4T23 de R$ 123,1 
+milhões, em função do valor justo sobre os ativos desinvestidos da Copel GeT; e da provisão 
+de R$ 63,8 milhões em litígios, especialmente em ações regulatórias, trabalhistas e cíveis da 
+Copel Dis ante a reversão no 4T23 de R$ 50,9 milhões referente principalmente ao litígio 
+regulatório que tratou da metodologia de cálculo do Mecanismo de Compensação de Sobras 
+e Déficits - MCSD); e 
+(iii) o decréscimo de R$ 135,1 milhões (-17,4%) em encargos do uso da rede elétrica decorrente 
+da redução em Encargo de Energia de Reserva – EER, consequência da menor necessidade 
+de aportes dos agentes do perfil de consumo para manutenção do equilíbrio da Conta de 
+Energia de Reserva - CONER no 4T24. 
+Em relação aos custos gerenciáveis, o PMSO reduziu R$ 66,5 milhões (-8,4%), excetuando-se provisões 
+e reversões, em razão , sobretudo, do decréscimo de R$ 92,5 milhões (-29,2%) na rubrica pessoal e 
+administradores, decorrente da redução de 1.415 colaboradores até dezembro de 2024 no quadro de 
+pessoal, principalmente pelo Programa de Demissão Voluntária. 
+Essa redução foi parcialmente compensada pelo acréscimo de R$ 33,7 milhões (+12,6%) em serviço de 
+terceiros, devido ao aumento de despesas com manutenção do sistema elétrico e atendimento ao 
+consumidor, e ao aumento de R$ 11,1 milhões (+10,9%) em outros custos e despesas operacionais, em 
+função de maiores perdas na desativação e alienação de bens no trimestre (R$ 12,3 milhões). 
+ 
+Neutralizando os e feitos das provisões relacionadas ao prêmio por desempenho (PPD), participação 
+nos lucros e resultados (PLR), incentivos de longo prazo e PDV, verifica -se uma redução de R$ 72,5 
+milhões (-26,2%) nos custos com pessoal e administradores no comparativo trimestral, efeito da 
+redução de 1. 415 no total de empregados na comparação entre os períodos , parcialmente 
+compensado pela provisão pro rata entre outubro e dezembro do acordo coletivo de trabalho - ACT 
+2024, com reajuste salarial do Índice Nacional de Preços ao Consumidor – INPC, de 4,09% considerando 
+12 meses até setembro/2024. 
+Isolando os efeitos d a inflação acumulada medida pelo INPC de 4,77% (janeiro a dezembro/2024 ), 
+verifica-se uma redução de 29,5% (ou R$ 85,7 milhões) em pessoal em comparação com o 4T23. 
+ R$ mil 
+Pessoal e administradores 224.172 316.642 (29,2) 1.081.797 1.878.332 (42,4) 
+Planos previdenciário e assistencial 60.364 65.950 (8,5) 259.352 260.159 (0,3) 
+Material 24.646 37.916 (35,0) 86.882 102.667 (15,4) 
+Serviços de terceiros 301.629 267.960 12,6 1.074.308 996.312 7,8 
+Outros custos e despesas operacionais 113.581 102.435 10,9 180.772 430.544 (58,0) 
+TOTAL 724.392 790.903 (8,4) 2.683.111 3.668.014 (26,9) 
+∆%
+*Desconsidera efeito: (i) Perdas não recorrentes na desativação alienação de bens (R$ 60,1 milhões) no 4T24; (ii) da repactuação GSF no 3T23 (R$ 26,4 milhões) e seu 
+estorno no 4T23.
+Custos Gerenciáveis 4T24 4T23 ∆% 2024 2023
+
+[p. 9]
+RESULTADOS | 4T24 5 
+ 
+ 
+ 
+Evolução do quadro de pessoal 
+ 
+ 
+ 
+Breakdown dos Custos e Despesas 
+ 
+ 
+No acumulado de 2024, o total de custos e despesas operacionais atingiu R$ 18.868,0 milhões, valor 
+4,3% superior aos R$ 18.092,6 milhões registrados em 2023. As principais variações foram: (i) o aumento 
+de R$ 1.208,7 milhões com energia elétrica comprada para revenda decorrente , principalmente, do 
+aumento de 53,4% (+R$ 600,7 milhões) na compensação financeira de energia proveniente de MMGD; 
+(ii) o acréscimo em provisões e reversões no valor de R$ 252,9 milhões decorrente da reversão parcial 
+de impairment registrado em 2023 em função principalmente do valor justo sobre os ativos 
+desinvestidos da Copel GeT, e do aumento de R$ 64,6 milhões na provisão para litígios, principalmente 
+litígios cíveis e trabalhistas; (iii) a variação no custo de construção, refletindo maiores investimentos na 
+infraestrutura do segmento de distribuição de energia , no montante de R$ 203,2 milhões; e (iv) o 
+aumento de R$ 78,0 milhões em serviços de terceiros, consequência dos maiores valores com 
+manutenção do sistema elétrico e manutenção de instalações. 
+Esses eventos foram parcialmente compensados pela : (i) redução de R$ 796,5 milhões com pessoal e 
+administradores, em função do efeito não recorrente da provisão do PDV e da indenização do segundo 
+terço adicional de férias, ambos em 2023 e da redução no quadro de empregados; e (ii) da redução em 
+outros custos e despesas operacionais decorrente, principalmente, do resultado da alienação de ativos 
+inservíveis à concessão da Copel GeT, no valor de R$ 264,4 milhões. 
+1.4 Resultado de Equivalência Patrimonial 
+O resultado de equivalência patrimonial dos empreendimentos controlados em conjunto e demais 
+coligadas da Copel no 4T24 reduziu 11,6% em relação ao registrado no mesmo período do ano anterior 
+(R$ 55,8 milhões, ante R$ 63,1 milhões registrados no 4T23). O decréscimo decorre principalmente da 
+equivalência patrimonial nas controladas em conjunto de transmissão de energia elétrica, tendo em 
+vista, entre outros eventos, os efeitos da revisão tarifária registrados em 2023 e não recorrentes em 
+2024. Detalhes dos resultados podem ser visualizados no Anexo I. 
+ 
+ 
+ 
+ R$ mil 
+Pessoal e administradores 224.172 316.642 (29,2) 1.081.797 1.878.332 (42,4) 
+(-/+) Participação nos lucros/resultados, PPD e Incentivos de LP (19.599) (39.470) (50,3) (183.347) (173.662) 5,6 
+(-/+) Indenização abono terço adicional de férias - - - - (138.173) - 
+(-/+) Provisão/Reversão indenização PDV 82 - - (18.306) (610.057) (97,0) 
+TOTAL 204.655 277.172 (26,2) 880.144 956.440 (8,0) 
+4T24 4T23 ∆% 2024 2023 ∆%Custo com Pessoal 
+7.611 7.095 6.667 6.383 5.875 5.804 
+4.389 
+2018 2019 2020 2021 2022 2023 2024
+-42,3%
+5.152,3R$ mi
+Energia elétrica 
+comprada para 
+revenda
+50,7%
+Encargos de uso da 
+rede elétrica
+12,5%PMSO
+15,2%
+Depreciação e 
+amortização
+7,3%
+Provisões e 
+reversões
+2,3%
+Custo de 
+construção
+12,1%
+Custos e Despesas 
+Operacionais
+
+[p. 10]
+RESULTADOS | 4T24 6 
+ 
+1.5 Resultado Financeiro 
+O resultado financeiro foi negativo em R$ 376,8 milhões no 4T24 ante R$ 305,7 milhões negativos 
+registrados no 4T23, um incremento de R$ 71,1 milhões, reflexo, sobretudo: (i) do aumento da despesa 
+com variação monetária, cambia l e encargos da dívida em R$ 84,8 milhões (+20,7%) em razão do 
+aumento da dívida e CDI (principal indexador d as dívidas da Copel ; (ii) do acréscimo de PIS/Pasep e 
+Cofins sobre juros sobre capital próprio de R$ 28,3 milhões (+92,8%) decorrente do maior valor de JCP 
+pago das subsidiárias para holding no 4T23 ; (iii) do aumento em variação monetária e ajuste a valor 
+presente sobre conta a pagar vinculadas à concessão (UBP) no valor de R$ 20,4 milhões (52,3%); e (iv) 
+do aumento em variação cambial sobre compra de energia elétrica de Itaipu no montante de R$ 20,6 
+milhões em virtude da valorização do dólar. 
+Esses efeitos foram parcialmente compensad os pelo: ( i) decréscimo em atualização monetária de 
+litígios, no valor de R$ 5 1,7 milhões (-66,6%) decorrente da reclassificação contábil desse custo, no 
+4T23, para a rubrica de despesas financeiras , contendo todos os efeitos do exercício de 2023 3; 
+(ii) aumento da renda de aplicações financeiras de R$ 27,5 milhões (+15,9%), em virtude de maiores 
+valores aplicados e da maior taxa de juros; e (iii) do acréscimo moratório sobre fatura com aumento de 
+R$ 21,3 milhões (+48,4%). 
+ 
+ 
+Em 2024, o resultado financeiro melhorou R$ 48,0 milhões, perfazendo R$ 1.157,0 milhões negativos 
+ante R$ 1.205,0 milhões negativos em 2023. O resultado deve -se, principalmente, ao (i) aumento de 
+rendimento de aplicações financeiras, de R$ 1 97,6 milhões decorrente do maior volume dos valores 
+aplicados; parcialmente compensado pela (ii) redução em despesa com variação monetária e ajuste a 
+ 
+3 Mais informações na Nota Explicativa 28.1 das nossas Demonstrações Financeiras de 2023. 
+valor presente sobre contas a pagar vinculadas à concessão (UBP), no valor de R$ 78,3 milhões; e (iii) da 
+menor remuneração de ativos e passivos financeiros setoriais no montante de R$ 49,4 milhões. 
+1.6 Resultado Líquido Consolidado 
+A Copel registrou lucro líquido de R$ 575,2 milhões ante R$ 942,8 milhões no 4T23, redução de 39%. 
+Além dos itens já citados, esse decréscimo também é explicado pelo resultado da Compagas e UEGA 
+(operações descontinuadas) de R$ 323,8 milhões no 4T23. 
+No ano, o lucro líquido foi de R$ 2.799,4 milhões ante R$ 2.327,2 milhões registrados em 2023, um 
+acréscimo de 20,3%. 
+ 
+ 
+ 
+Ajustando pel os efeitos não recorrentes, no 4T24 o lucro líquido ajustado aumentou 7,3% em 
+comparação com o 4T23. Além dos itens já citados, influenciaram também no decréscimo o efeito do 
+aumento de R$ 21,5 milhões em depreciação e amortização no período , em função dos maiores 
+investimentos realizados, principalmente na Copel Distribuição . A redução foi parcialmente 
+compensada pelo maior benefício tributário gerado no 4T24 em função da distribuição de Juros sobre 
+Capital Próprio. 
+Os principais ajustes do lucro líquido no 4T24 foram: 
+ R$ mil 
+Receitas Financeiras 327.550 272.666 20,1 1.184.779 1.069.116 10,8 
+Despesas Financeiras (704.327) (578.367) 21,8 (2.341.793) (2.274.106) 3,0 
+Resultado Financeiro Total (376.777) (305.701) 23,3 (1.157.014) (1.204.990) (4,0) 
+Resultado Financeiro ∆%4T24 4T23 ∆% 2024 2023
+943 
+575 
+451 
+290 
+- 707 
+- 71 
+- 7 ​ - 324 
+Resultado 4T23 Receita
+Operacional
+Despesas
+Operacionais
+Resultado
+Financeiro
+Impostos Equivalência
+Patrimonial
+Lucro Operações
+descontinuadas
+Resultado 4T24
+
+[p. 11]
+RESULTADOS | 4T24 7 
+ 
+ 
+1.7 Dívida 
+O total da dívida consolidada da Copel em 2024 foi de R$ 17.753,8 milhões, variação de 18,7% em 
+relação ao montante registrado em 31 de dezembro de 2023, de R$ 14.962,3 milhões. A tabela e o s 
+gráficos a seguir demonstram o endividamento da Copel e suas subsidiárias ao final de 2024. 
+Dívida por Subsidiária 
+ 
+1 A dívida de Colider e Cavernoso foram reclassificados para passivo mantido para venda. 
+2 Considerada Copel Geração e Transmissão S.A. (controladora). 
+3 Inclui Copel Serviços, c omplexos eólicos (Brisa Potiguar, Cutia, Jandaíra, Vilas, Aventura e SRMN) e tra nsmissoras (Costa Oeste e 
+Marumbi). 
+Dívida Líquida Ajustada/EBITDA Ajustado 
+ 
+ 
+Indexadores da Dívida 
+ 
+ 
+ 
+ 
+Amortização - R$ milhões 
+Prazo Médio: 4,2 anos 
+ 
+ 
+ 
+575
+639
+7 57 
+ Lucro Líquido Reportado Valor justo na
+compra e venda
+de energia
+Provisão/reversão
+de impairment
+de ativos
+Lucro Líquido
+ Ajustado
+R$ mil GeT 2 DIS Outras 3 Total
+Dívida Total 1 6.613.261 7.867.907 3.272.667 17.753.835 
+Disponibilidade 591.595 1.734.522 2.270.296 4.596.413 
+Dívida Líquida Ajustada 6.021.666 6.133.385 1.002.371 13.157.422 
+Duration (anos) 2,8 3,0 3,7 3,1 
+R$ mil
+6.412 7.957 9.485 8.922
+13.157
+1,3 1,3
+2,0 1,9
+2,6
+2020 2021 2022 2023 2024
+R$ milhões
+Dívida Líquida Ajustada Dívida Líquida Ajustada/Ebitda Ajustado*
+* sem equivalência patrimonial, considera operações descontinuadas e exclui efeitos de Impairment, 
+repactuação GSF e provisão PIS/Cofins.
+4,596
+3,334
+2,461
+2,038
+1,359
+1,738 1,979
+4,845
+Caixa 2025 2026 2027 2028 2029 2030 >2030
+
+[p. 12]
+RESULTADOS | 4T24 8 
+ 
+2. Investimentos 
+ 
+No 4T24, o montante realizado do programa de investimentos foi de R$ 679,8 milhões, sendo 79,9% 
+realizados pela Copel Distribuição e 19,9% pela Copel Geração e Transmissão. 
+Em 2024 foram investidos R$ 2.503,8 milhões, sendo 87,7% aplicados na Copel Distribuição , com 
+destinação de 98,9% para ativos elétricos e 1,1% para investimentos em ativos não elétricos e outros 
+investimentos. 
+ 
+1Inclui Programa Transformação composto pelos projetos Paraná Trifásico, Rede Elétrica Inteligente e Confiabilidade Total. 
+2 Inclui Plano de Modernização de Instalações - PMI. 
+3Inclui modernização COGT (Centro de Operações da Geração e Transmissão), modernização UHE GPS Parigot de Souza, SPEs Marumbi 
+e Uirapuru, Complexo Eólico Jandaíra e Projetos de Modernização. 
+4Inclui plano de inovação no setor de energia e alinhado com a tese de investimento, programas de inovação da Copel e prática de 
+ESG. 
+ 
+Os investimentos realizados na distribuidora estão, essencialmente, alocados no âmbito dos projetos 
+Paraná Trifásico, Rede Elétrica Inteligente e Confiabilidade Total , com o objetivo de modernizar, 
+automatizar e renovar a rede de distribu ição com tecnologias padronizadas para atendimento aos 
+equipamentos de automação. Entre os benefícios dos projetos estão o reforço das redes rurais para 
+reduzir desligamentos e garantir o suporte ao crescimento do agronegócio no Estado do Paraná, 
+redução dos custos com serv iços de O&M e comerciais e aprimoramento no controle dos 
+indicadores de Duração Equivalente de Interrupção por Unidade Consumidora - DEC e Frequência 
+Equivalente de Interrupção por Unidade Consumidora - FEC. O programa é composto por 3 projetos 
+pilares: 
+o Paraná Trifásico: abrange a construção de, aproximadamente, 25 mil km de novas redes 
+até 2025 e representa a melhoria e renovação das redes de distribuição rurais na área de 
+concessão da Companhia, com implantação de rede trifásica e criação de redundância 
+nos principais ramais rurais. Até o final de 2024, foram concluídos 20.540 km de rede. 
+o Rede Elétrica Inteligente: visa implantar uma rede de comunicação privada com 
+tecnologia padronizada para atendimento de todos os equipamentos de automação da 
+rede de distribuição e infraestrutura avançada de medição. Até o final de 2024, já estavam 
+instalados 1.042.224 medidores inteligentes. Nas fases 1, 2 e 3 do programa, identificou-
+se avanços para nossa operação, com a redução de homens -hora e km rodados, menos 
+perdas não -técnicas, melhoria na qualidade e redução de compensações pelas 
+transgressões aos limites de desempenho da qualidade. 
+o Confiabilidade Total: visa assegurar a modernidade nas operações da rede de energia 
+a partir das seguintes premissas: manter a comunicação plena entre as equipes e a 
+disponibilidade de equipamentos na rede, implementar automação nos equipamentos 
+especiais, manter a totalidade de município da concessão com subestação ou chave 
+especial e ampliar os circuitos de rede e equipamento Self Healing. Até o final de 2024, o 
+projeto concluiu 89,74% do cronograma previsto. 
+Os investimentos realizados na Copel GeT estão, principalmente, destinados a operação e 
+manutenção dos ativos de geração, correspondendo a 30% do total investido em 2024, e reforços e 
+melhorias nas linhas de transmissão no montante de 47%. 
+ 
+ 
+ 
+ 
+R$ milhões
+Previsto
+4T24 2024 4T23 2023 2024
+Copel Distribuição 1 543,1 2.196,9 541,7 1.966,5 2.091,7
+Copel Geração e Transmissão 135,3 263,0 62,7 240,1 265,1
+Geração 31,4 79,6 26,0 70,7 101,7
+Eólicas 19,7 39,6 1,7 52,7 55,5
+Usinas Hidrelétricas 6,2 29,1 20,7 4,1 34,0
+Pequenas Centrais Hidrelétricas 5,5 10,9 3,6 13,9 12,2
+Transmissão 70,7 124,6 22,3 134,5 91,3
+Melhorias/Reforço 2 70,5 123,6 22,2 133,9 90,1
+LT Curitiba Leste-Blumenau 0,2 1,0 0,1 0,6 1,2
+Demais projetos GeT 3 33,2 58,8 14,4 34,9 72,1
+Holding 0,5 2,0 1,7 3,2 3,4
+Copel Comercialização 0,9 1,3 0,4 1,6 1,5
+Copel Serviços e outras participações 4 0,0 40,6 7,8 40,7 70,5
+Total 4 679,8 2.503,8 614,3 2.252,1 2.432,2
+RealizadoSubsidiária / SPE Realizado
+
+[p. 13]
+RESULTADOS | 4T24 9 
+ 
+3. Copel Geração e 
+Transmissão 
+(Resultado Consolidado) 
+3.1 Desempenho Econômico-Financeiro 
+A Copel GeT apresentou um EBITDA ajustado 4 de R$ 613,2 milhões, montante 26,9% menor que os 
+R$ 838,3 milhões registrados no 4T23. Esse resultado reflete, principalmente, 
+(i) o menor preço de energia do portfólio da Copel GeT (R$ 178,72 ante R$ 206,63 de 2023, redução 
+de 13,5%) e (ii) o desvio de geração de R$ 93,4 milhões (+49,1%), ocasionado pela menor performance 
+dos complexos eólicos, efeito, principalmente, do volume de vento abaixo da certificação, curtailment 
+de 13,1% no 4T24 (ante 8, 3% no 4T23) e indisponibilidade do parque gerador decorrentes de 
+manutenções e instalações ; (iii) o maior v olume de energia compra da para revenda em contratos 
+bilaterais (273 GWh 4T24 ante 151GWh no 4T23) ; e (iv) o maior montante de provisões no 4T24 de 
+R$ 30,8 milhões, em função de aumento em litígios cíveis e trabalhistas, enquanto no 4T23 houve a 
+reversão de R$ 90,8 milhões, essencialmente, decorrente da decisão sobre a metodologia de cálculo 
+do MCSD. 
+O item 3.1.1 apresenta a contabilização regulatória do resultado para fins de análise sem o efeito IFRS 
+(International Financial Reporting Standards) nos ativos de transmissão. 
+ 
+ 
+4 Excluídos itens não recorrentes e efeitos do IFRS sobre ativos de contratos de transmissão. 
+As despesas com PMSO (custos gerenciáveis), excetuando -se provisões e reversões, diminuíram em 
+3,5%, explicado , principalmente : (i) pela redução dos custos com “ Pessoal e administradores” em 
+(-R$ 30,3 milhões) influenciado pelo decréscimo de 386 funcionários, majoritariamente explicado pelo 
+Programa de Desligamento Voluntário (PDV) concluído em 2024.; (ii) dos menores custos com 
+aquisição de “Materiais” em (-R$ 5,4 milhões); compensado parcialmente pelo (iii) aumento em 
+“Serviços de terceiros” (+R$ 15,3 milhões), principalmente, pelos maiores custos com manutenção do 
+sistema e elétrico e serviços especializados (inspeção, segurança cibernética, topografia, plano de ações 
+emergenciais de barragem (PAE) e mapeamento de vegetação ) ; e (iv) pelo incremento em “Outros 
+custos e despesas operacionais” em R$ 14,3 milhões, pelo ressarcimento de R$ 11,8 milhões da conta 
+de desenvolvimento energético (CDE) registrado no 4T23. 
+ 
+Neutralizando os efeitos das provisões referentes ao PDV, PPD e PLR verifica-se uma redução de 30,3% 
+nos custos com pessoal e administradores em relação ao 4T23 , reflexo da citada redução no quadro 
+de empregados entre os períodos, parcialmente compensado pela provisão pro rata entre outubro e 
+dezembro do Acordo Coletivo 2024, com reajuste salarial de 4,09% (INPC acumulado 12 meses até 
+setembro/2024). 
+Isolando os efeitos da inflação acumulada medida pelo INPC, de 4,77% entre (janeiro a dezembro de 
+2024), houve uma redução de 33,5% em Pessoal. 
+R$ milhões
+EBITDA 632.0 991.6 (36.3) 3,098.2 3,466.6 (10.6) 
+(-/+) Alienação de ativos - - - (264.4) - - 
+(-/+) Reversão/provisão Indenização PDV 0.1 - - 4.1 190.3 (97.8) 
+(-/+) Provisão (reversão) de impairment de ativos 86.6 (123.7) - 84.2 (177.7) - 
+(-/+) Indenização abono terço adicional de férias - - - - 42.4 - 
+(-/+) Repactuação risco hidrológico (GSF) - UHE Mauá - 26.4 - - - - 
+(-/+) EBITDA Ajustado op. Descontinuada UEGA - (28.3) - (27.4) (68.2) (59.9) 
+(-/+) Equivalência Patrimonial (54.4) (59.8) (9.0) (276.9) (300.6) (7.9) 
+(-/+) Diferença Receita Tra Societária/Regulatória (51.1) 32.1 - 6.5 3.8 71.0 
+EBITDA AJUSTADO sem Eq. Patrimonial e efeito IFRS 613.2 838.3 (26.9) 2,624.3 3,156.6 (16.9) 
+Δ%EBITDA Ajustado 4T24 4T23 Δ% 2024 2023
+Pessoal e administradores 72.455 102.810 (29,5) 350.899 604.808 (42,0)
+Planos previdenciário e assistencial 17.668 20.605 (14,3) 78.271 81.704 (4,2)
+Material 6.078 11.454 (46,9) 20.635 26.246 (21,4)
+Serviços de terceiros 83.963 68.661 22,3 285.977 269.711 6,0 
+Outros custos e despesas operacionais* 73.635 59.374 24,0 (29.889) 219.673 (113,6)
+TOTAL Ajustado 253.799 262.904 (3,5) 705.893 1.202.142 (41,3)
+R$ mil
+*Desconsidera efeito: (i) Perdas não recorrentes na desativação alienação de bens (R$ 60,1 milhões) no 4T24; (ii) da repactuação GSF no 3T23 
+(R$ 26,4 milhões) e seu estorno no 4T23.
+Custos Gerenciáveis 4T24 4T23 Δ% 2024 2023 Δ%
+
+[p. 14]
+RESULTADOS | 4T24 10 
+ 
+ 
+No acumulado do ano, a Copel GeT registrou EBITDA ajustado de R$ 2.624,4 milhões, decréscimo de 
+16,9% em relação ao mesmo período do ano anterior em função, principalmente, (i) do menor preço 
+médio de energia do portfólio da Copel GeT no ano, reflexo, sobretudo, do encerramento do contrato 
+CCEAR UHE Salto Caxias em setembro de 2023, cujo preço médio era de R$ 252,99/MWh; (ii) do maior 
+desvio de geração nos complexos eólicos em R$ 138,8 milhões; compensado parcialmente pelo 
+(iii) menor dispêndio com energia elétrica comprada para revenda em R$ 31,8 milhões; e (iv) pela 
+redução dos custos com pessoal, em decorrência da decréscimo de 386 colaboradores no ,quadro de 
+empregados. 
+O lucro líquido das operações continuadas ficou em R$ 1.325,3 milhões em 2024, redução de 18,9% na 
+comparação com 202 3. Esse resultado reflete, principalmente, (i) menor EBITDA, pelos pontos 
+apresentados anteriormente; (ii) maior dispêndio com Imposto de Renda e Contribuição Social, em 
+função da redução do pagamento de Juros sobre Capital Próprio (JCP) face a redução do resultado em 
+2024; compensado pelo (ii) melhor resultado financeiro ( - R$ 606,5 milhões em 2024, ante -R$ 747,4 
+milhões em 2023 ), explicado pelo maior rendimento de aplicações financeiras e menor valor de 
+despesas financeiras com encargos da dívida. 
+ 
+3.1.1 Efeito IFRS no segmento Transmissão 
+Para o cálculo, foi realizado o ajuste considerando os efeitos da aplicação do ICPC 01 / IFRIC 12 nas 
+demonstrações societárias no segmento de transmissão. 
+ 
+ 
+ 
+ 
+ 
+Pessoal e administradores 72.455 102.810 (29,5) 350.899 604.808 (42,0)
+(-/+) Participação nos lucros/resultados e PPD (8.177) (10.420) (21,5) (53.532) (49.060) 9,1 
+(-/+) Reversão/provisão Indenização PDV 82 - - (4.129) (190.305) (97,8)
+(-/+) Indenização abono terço adicional de férias - - - - (42.358) - 
+TOTAL 64.360 92.390 (30,3) 293.238 323.085 (9,2)
+4T24 4T23 Δ% 2024 2023 Δ%Custo com Pessoal
+R$ mil
+R$ milhões
+Receita Operacional Líquida (R$ milhões) 1.210,2 1.215,7 (0,5) 4.521,5 5.117,7 (11,6) 
+Custos e Despesas Operacionais (R$ milhões) (840,2) (493,1) 70,4 (2.533,3) (2.771,9) (8,6) 
+Resultado Operacional (R$ milhões) 265,2 618,7 (57,1) 1.658,6 1.899,0 (12,7) 
+Lucro Líquido (R$ milhões) 249,3 516,8 (51,7) 1.325,3 1.634,3 (18,9) 
+Lucro Líquido (R$ milhões) - Com Op. Descontinuada 249,3 799,0 (68,8) 1.307,0 1.700,5 (23,1) 
+EBITDA (R$ milhões) 632,0 991,6 (36,3) 3.098,2 3.466,6 (10,6) 
+EBITDA Ajustado (R$ milhões) 613,2 838,3 (26,9) 2.624,3 3.156,6 (16,9) 
+Margem Operacional 21,9% 50,9% (56,9) 36,7% 37,1% (1,1) 
+Margem Líquida 20,6% 42,5% (51,5) 29,3% 31,9% (8,2) 
+Margem EBITDA 52,2% 81,6% (36,0) 68,5% 67,7% 1,2 
+Margem EBITDA Ajustado 50,7% 69,0% (26,5) 58,0% 61,7% (5,9) 
+Programa de Investimento (R$ milhões) 135,3 62,7 115,8 263,0 240,1 9,5 
+4T24 4T23 2024 2023Principais Indicadores Δ% Δ%
+R$ milhões
+(A) Receita societária1 303,5 225,1 34,8 1.018,6 980,9 3,8 
+Receita O&M e Juros efetivos 282,5 222,7 26,9 990,7 966,8 2,5 
+Receita e margem de construção 74,6 19,1 291,1 123,5 99,2 24,4 
+Custo de construção (53,7) (16,6) 222,4 (95,6) (85,2) 12,2 
+(B) Receita regulatória1 252,3 257,2 (1,9) 1.025,1 984,7 4,1 
+(B-A) Diferença Receita Tra Regulatória/Societária (51,1) 32,1 - 6,5 3,8 71,0 
+(+/-) Efeitos na equivalência patrimonial das transmissoras 2 (32,9) (30,2) 9,0 (139,8) (143,0) (2,2) 
+Efeito IFRS no segmento Transmissão (84,1) 1,9 - (133,3) (139,2) (4,2) 
+1líquida de impostos e encargos.
+2 diferença entre lucro societário e regulatório das controladas em conjunto do segmento de transmissão, proporcional à participação da Copel GeT nos 
+empreendimentos.
+2023 Δ%Efeito IFRS no segmento Transmissão 4T24 4T23 Δ% 2024
+
+[p. 15]
+RESULTADOS | 4T24 11 
+ 
+3.2 Desempenho Operacional 
+Presente em 10 estados, a Copel Geração e Transmissão opera um parque diversificado de usinas 
+hidrelétricas e eólicas, totalizando 6.553,9 MW de potência instalada e 
+2.886,8 MW médios de garantia física . Já no segmento Transmissão , a Copel detém uma malha total 
+de 9.684 Km de linha de transmissão e 53 subestações de rede básica, considerando as participações. 
+Mais informações sobre dados operacionais de geração e transmissão, consultar o Anexo IV. 
+3.2.1 Geração 
+O parque gerador da Copel é composto por 100% de fontes em operação renováveis. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+7 
+A geração de energia da Copel Geração e Transmissão S.A. e seus parques eólicos no trimestre foi 
+menor que no mesmo período do ano passado, chegando a 6.864 GWh ante 8.087 GWh no 4T23. No 
+acumulado de 2024, a geração foi de 27.363 GWh ante a 25.698 GWh 2023. 
+3.2.2 Energia vendida 
+No 4° trimestre de 2024, a Copel Geração e Transmissão registrou 3. 761 GWh de energia elétrica 
+vendida pelas fontes hídricas, uma redução de 8 ,1%, principalmente, devido as menores vendas no 
+curto prazo (MCP). A energia vendida não considera a geração alocada no Mecanismo de Realocação 
+de Energia (MRE), a qual apresentou redução no trimestre (2.289 GWh ante 3.054 GWh no 4T23). 
+Para os parques eólicos, o total de energia elétrica vendida foi 1. 241 GWh, uma redução de 7,0%, 
+devido, principalmente, a redução da venda em contratos bilaterais, parcialmente compensado pela 
+energia vendida no ambiente regulado (CCEARs) em função do início do suprimento do Complexo 
+Eólico Vilas5. 
+ 
+ 
+5 Parques Eólicos Vila Ceará I, Vila Maranhão I, Vila Maranhão II e Vila Maranhão III (28°LEN - CCEAR 2024 - 2053). 
+6.553,9 MW 
+Hídrica
+81.9% Eólica 18.1%
+Capacidade Instalada por Fonte
+
+[p. 16]
+RESULTADOS | 4T24 12 
+ 
+GSF e PLD 
+ 
+ 
+ 
+ 
+ 
+ 
+6 Refere-se ao contrato de concessão 060/2001, que representa 41,6% da receita anual permitida (RAP) de transmissão da 
+Copel Geração e Transmissão e proporcional das participações. 
+3.2.3 Transmissão 
+A Copel conta com mais de 9,6 mil km de linhas de transmissão em oito estados brasileiros, 
+considerando ativos próprios e em parceria com outras empresas. Além de construir, manter e operar 
+uma ampla rede de transmissão de energia própria, a Copel presta serviços para empreendimentos de 
+outras concessionárias . Os empreendimentos de Transmissão estão relacionados no Anexo IV, 
+incluindo os empreendimentos da Copel Geração e Transmissão, SPEs Costa Oeste, Marumbi e 
+Uirapuru Transmissora (100% Copel GeT), bem como as 7 SPEs nas quais a Copel Geração e 
+Transmissão possui participação. 
+RBSE 
+A seguir descrevemos o fluxo de recebimento da parcela da Receita referente a Rede Básica do Sistema 
+Existente – RBSE6 para os próximos ciclos. Importante ressaltar que podem ser alterados futuramente , 
+em decorrência dos processos de revisão tarifária e/ou revisão de parâmetros utilizados para 
+composição destas receitas por parte do órgão regulador . Os valores abaixo passaram por revisão 
+tarifária periódica, conforme resolução homologatória n° 3.344/2024, e por reajuste anual pelo IPCA 
+conforme resolução homologatória 3.348/2024. 
+ 
+Nota: 
+Componente econômico: valores futuros baseados no ciclo 2024-2025 (conforme REH 3.348/2024 de 16/07/2024) 
+Componente financeiro: valores publicados na REH 2.847/21. Passível de revisão tendo em vista haver controvérsia 
+na metodologia empregada para apuração destes valores por parte da agência reguladora. 
+Valores de RAP até o ciclo 2027-2028 projetados com base nos valores da REH 3348/2024. 
+ 
+ 
+166.09 166.09 166.09 166.09
+115.92 115.92 115.92 115.92
+209.06 209.06 209.06 209.06
+Ciclo
+2024-2025
+Ciclo
+2025-2026
+Ciclo
+2026-2027
+Ciclo
+2027-2028
+RBSE - O&M RBSE - Componente Econômico PRT 120/2016 RBSE - Componente Financeiro PRT 120/2016
+
+[p. 17]
+RESULTADOS | 4T24 13 
+ 
+4. Copel Distribuição 
+4.1 Desempenho Econômico-Financeiro 
+A Copel Distribuição apresentou EBITDA ajustado de R$ 715,2 milhões no 4T24, um crescimento de 
+23,6%, em virtude, basicamente, i) do crescimento de 2,5% do mercado fio faturado , ii) do reajuste 
+tarifário de junho de 2024, com aumento médio de 2,7% nas Tarifas de Uso do Sistema de Distribuição 
+(TUSD), iii) do decréscimo de 36,0% das despesas com pessoal e administradores como resultado , 
+principalmente, da redução de 1.004 empregados, majoritariamente relacionados ao PDV concluído 
+em 2024. Esses efeitos foram parcialmente compensados pelos custos com energia comprada para 
+revenda devido ao maior volume proveniente do sistema de compensação de MMGD. 
+No acumulado do ano, o EBITDA ajustado alcançou R$ 2.505,4 milhões, um crescimento de 22,2% em 
+relação a 2023, com destaque para i) o aumento de 5,2% no mercado fio faturado , ii) o efeito 
+acumulado dos reajustes tarifários de junho/23 de 6,3% e junho/24 de 2,7% na TUSD, iii) redução de 
+9,2% do custo com pessoal e administradores majoritariamente relacionada com a conclusão do PDV 
+em agosto de 2024, já desconsiderando os efeitos das provisões PDV e indenização do terço de férias 
+realizada em 2023 . O resultad o foi parcialmente compensado pelo aumento de R$ 180,1 milhões 
+(+52,0%) provenientes do maior volume do sistema de compensação de MMGD. 
+ 
+As despesas com PMSO, exceto provisões e reversões, reduziram R$ 63,1 milhões (-13,6%) em relação 
+ao 4T23, devido ao efeito da redução , principalmente , i) de R$ 68,9 milhões 
+(-36,0%) no custo com pessoal e administradores em função do PDV concluído em agosto de 2024, ii) 
+de R$ 8, 1 milhões ( -31,6%) das despesas com materiais , basicamente, de sistemas elétricos, 
+equipamento de segurança, e transporte e iii) de R$ 7,2 milhões (-24,2%) em outros custos e despesas, 
+como resultado, essencialmente, da redução de R$ 11,6 milhões em perdas na desativação e aumento 
+em ganhos na alienação de bens e direitos, com variação total em R$ 22,6 milhões, e da redução de R$ 
+9,2 milhões nos custos com arrecadação de faturas . Esses efeitos foram parcialmente compensados 
+pelo aumento de R$ 23,7 milhões (+13,4%) dos custos com serviço de terceiro para manutenção do 
+sistema elétrico, principalmente com limpeza de faixa de servidão e podas de árvores, atendimento ao 
+consumidor e processamento e transmissão de dados. 
+ 
+Excluindo os efeitos das provisões do PDV, PPD e PLR, a linha de custos com pessoal reduziu 29,3%, 
+reflexo da citada redução no quadro de empregados entre os períodos, parcialmente compensado pela 
+provisão pro rata entre outubro e dezembro do Acordo Coletivo 2024, homologado em 2025 com 
+reajuste salarial de 4,09% (INPC acumulado 12 meses até setembro/2024) . Isolando os efeitos da 
+inflação acumulada medida pelo INPC, de 4,77% entre (janeiro a dezembro de 2024) , houve uma 
+redução de 32,5% com pessoal e administradores. 
+ 
+O lucro líquido reportado da Copel Distribuição no 4T24 foi de R$ 440,4 milhões (ante R$ 263,3 milhões 
+no 4T23), impactado positivamente pelo desempenho destacado anteriormente , pelo acréscimo de 
+R$ 32,9 milhões (+28,5%) em receitas financeiras , em função , principalmente, do maior volume dos 
+valores aplicados, e do menor dispêndio com Imposto de Renda e Contribuição Social, em função do 
+aumento de R$ 307,8 milhões de pagamento de Juros sobre Capital Próprio (JCP) para a Holding . 
+Parcialmente compensado pelo aumento de R$ 33,1 milhões (12,8%) nas despesas financeiras e 
+EBITDA 748,2 599,1 24,9 2.574,5 1.623,9 58,5 
+(-/+) Indenização abono terço adicional de férias - - - - 90,7 - 
+(-/+) Reversão/Provisão indenização PDV - - - 13,3 397,3 - 
+(-/+) VNR (33,0) (20,3) 62,6 (82,4) (62,2) 32,5 
+EBITDA Ajustado 715,2 578,8 23,6 2.505,4 2.049,7 22,2 
+R$ milhões
+EBITDA Ajustado 4T24 4T23 ∆% 2024 2023 ∆%
+R$ mil
+Pessoal e administradores 122.301 191.156 (36,0) 636.853 1.174.906 (45,8) 
+Planos previdenciário e assistencial 39.761 42.400 (6,2) 168.977 167.533 0,9 
+Material 17.466 25.544 (31,6) 63.492 74.501 (14,8) 
+Serviços de terceiros 200.020 176.368 13,4 719.122 643.999 11,7 
+Outros custos e despesas operacionais 22.540 29.730 (24,2) 158.775 175.230 (9,4) 
+TOTAL 402.088 465.198 (13,6) 1.747.219 2.236.169 (21,9) 
+Custos Gerenciáveis ∆%4T24 4T23 2024 2023 ∆%
+R$ mil
+Pessoal e administradores 122.301 191.156 (36,0) 636.853 1.174.906 (45,8) 
+(-/+) Indenização abono terço adicional de férias - - - - (90.692) -
+(-/+) Participação nos lucros/resultados e PPD (4.572) (24.634) (81,4) (110.956) (114.815) (3,4) 
+(-/+) Provisão/Reversão Indenização PDV - - - (13.342) (397.253) -
+TOTAL 117.729 166.522 (29,3) 512.555 572.146 (10,4) 
+2024 2023 ∆%Custo com Pessoal 4T24 4T23 ∆%
+
+[p. 18]
+RESULTADOS | 4T24 14 
+ 
+acréscimo de R$ 22,5 milhões (+16,6%) na depreciação e amortização, como efeito dos investimentos 
+realizados. 
+No acumulado do ano, o lucro líquido foi de R$ 1.134,0 milhões, ante a R$ 569,1 milhões de 2023 , 
+reflexo da provisão PDV e terço adicional de férias em 2023 e da melhoria do desempenho operacional 
+em 2024. 
+A seguir, os principais indicadores da Copel Distribuição: 
+ 
+No 4T24, destacam-se também: 
+• a redução de R$ 13,4 milhões (-54,9%) na receita de suprimento de energia elétrica em função 
+do menor volume comercializado na CCEE (MCP); 
+• a variação de -13,6% ( -R$ 20,0 milhões) em outras receitas operacionais decorrente 
+principalmente dos valores de multa de compartilhamento emitidas para empresas de 
+comunicação ocorridas no 4T23 , o que não se repetiu no 4T24 devido a regularização da 
+infraestrutura; 
+• o aumento de R$ 22,5 milhões (+16,6%) na despesa com depreciação e amortização como efeito 
+dos investimentos realizados; 
+• a menor constituição de Perdas Estimadas com Crédito de Liquidação de Duvidosa – PECLD de 
+R$ 46,1 milhões (-79,1%) em função do aumento de recuperação de faturas pela intensificação 
+das ações de cobrança, compensado pelo aumento de R$ 48,4 milhões nas provisões de litígios, 
+principalmente, cíveis relacionados com o setor de fumicultura. Com isso, as provisões e 
+reversões obtiveram adição de 1,3%; 
+4.1.1 Eficiência Regulatória 
+A Copel Distribuição registrou EBITDA ajustado de R$ 2.587,8 milhões nos últimos 12 meses, acrescido 
+de VNR, equivalente a uma eficiência de R$ 812,2 milhões, 45,7% acima do EBITDA regulatório. 
+ 
+Nota: O EBITDA Regulatório é apurado a partir dos valores de WACC sobre Base de Remuneração 
++ Obrigações Especiais + PLPT/RGR, e QRR publicados nas Notas Técnicas da ANEEL nos eventos 
+de Revisão ou de Reajuste Tarifário. 
+ 
+4.2 Desempenho Operacional 
+4.2.1 Mercado-Fio (TUSD) 
+O mercado fio da Copel Distribuição, composto pelo mercado cativo, pelo suprimento a 
+concessionárias e permissionárias dentro do Estado do Paraná e pela totalidade dos consumidores 
+livres existentes na sua área de concessão, teve um acréscimo de 4,7% no consumo de energia elétrica 
+Receita Operacional Líquida (R$ milhões) 4.474,4 4.016,2 11,4 17.030,5 15.085,7 12,9 
+Custos e Despesas Operacionais (R$ milhões) (3.884,5) (3.552,8) 9,3 (15.048,2) (13.983,1) 7,6 
+Resultado Operacional (R$ milhões) 445,6 319,2 39,6 1.456,4 627,5 - 
+Lucro Líquido (R$ milhões) 440,4 263,3 67,3 1.134,0 569,1 99,3 
+EBITDA (R$ milhões) 748,2 599,1 24,9 2.574,5 1.623,9 58,5 
+EBITDA ajustado sem VNR (R$ milhões) 715,2 578,8 23,6 2.505,4 2.049,7 22,2 
+Margem Operacional 10,0% 7,9% 25,3 8,6% 4,2% -
+Margem Líquida 9,8% 6,6% 50,1 6,7% 3,8% 76,5 
+Margem EBITDA 16,7% 14,9% 12,1 15,1% 10,8% 40,4 
+Margem EBITDA ajustado sem VNR 16,0% 14,4% 10,9 14,7% 13,6% 8,3 
+Programa de Investimento (R$ milhões) 543,1 541,7 0,3 2.196,9 1.966,5 11,7 
+4T24 4T23 ∆%Principais Indicadores 2024 2023 ∆%
+R$ milhões
+1,696.4
+2,111.9
+2,587.8
+1,520.9
+1,650.4
+1,775.6
+2022 2023 2024
+Eficiência do EBITDA Ajustado nos últimos 12 meses
+R$ mm
+EBITDA Ajustado Realizado EBITDA Regulatório (Tarifa)
+11,5%
+28,0%
+Eficiência
+45,7%
+Eficiência % > 0
+R$ milhões
+2022 2023 2024
+EBITDA Reportado (LTM) 938,8 1.623,9 2.574,5 
+(-/+) Provisão/Reversão indenização PDV (4,2) 397,3 13,3 
+(-/+) PLR/PPD s/ Açao PIS/Cofins (38,7) - - 
+(-/+) Provisão cred. PIS/Cofins 810,6 - - 
+(-/+) Sobrecontratação - - - 
+(-/+) Venda Imóveis - - - 
+(-/+) Indenização 1/3 férias - 90,7 - 
+(-/+) Conta bandeira tarifária sobre GD (43,4) - - 
+(-/+) Adesão ao Programa de Parcelamento - REFIS/PR 33,3 - - 
+EBITDA LTM Ajustado 1.696,4 2.111,9 2.587,8
+
+[p. 19]
+RESULTADOS | 4T24 15 
+ 
+no 4T24 em relação ao mesmo período do ano anterior e 7,3% no acumulado do ano , em razão, 
+principalmente, pelo aumento da atividade econômica e do padrão de consumo mais elevado da base 
+de clientes em 2024. O mercado fio faturado, que considera a energia compensada de Mini e Micro 
+Geração Distribuída – MMGD, aumentou 2,5% no 4T24 e 5,2% no acumulado do ano. 
+4.2.2 Mercado Cativo 
+O mercado cativo apresentou decréscimo de 0,9% no consumo de energia elétrica no 4T24 em relação 
+ao mesmo período do ano anterior e aumento de 5,5% no acumulado do ano. O mercado cativo 
+faturado, que considera a energia compensada de MMGD, apresentou redução de 5,3% no 4T24 e 
+aumento de 1,8% no acumulado do ano. 
+4.2.3 Dados Operacionais 
+A Copel Distribuição tem concessão vigente até 07 de julho de 2045 , cujos critérios de qualidade de 
+prestação de serviço (Duração Equivalente de Interrupção por Unidade Consumidora – DEC e 
+Frequência Equivalente de Interrupção por Unidade Consumidora – FEC) são definidos pela ANEEL. 
+Apesar dos eventos climáticos severos no Estado do Paraná ocorridos nos últimos meses, a Companhia 
+tem atuado tempestivamente no reestabelecimento do fornecimento de energia e preve nção de 
+vegetação na re de, que contribuíram para manutenção dos índices de qualidade na prestação do 
+serviço dentro dos limites regulatório. 
+Para o DEC, o resultado dos últimos 12 meses apurado em dezembro de 2024 foi de 7,92 horas, 
+enquanto para o FEC, o resultado no mesmo período foi de 5,36 interrupções, ambos dentro do limite 
+regulatório estabelecido. 
+ 
+Perdas - As perdas na Distribuição podem ser definidas como a diferença entre a energia elétrica 
+adquirida pelas distribuidoras e a faturada aos seus consumidores, sendo segmentadas como Técnicas 
+e Não Técnicas. As Perdas Técnicas são inerentes à atividade de distribuição de energia elétrica e as 
+Perdas Não Técnicas têm origem principalmente nos furtos (ligação clandestina, desvio direto da rede), 
+fraudes (adulterações no medidor ou desvios), erros de leitura, medição e faturamento. 
+Ao final de 2024, as Perdas Técnicas dos últimos 12 meses foram de 2.282 GWh, ante 2.120 GWh do 
+mesmo período do ano anterior e as Perdas Não Técnicas foram de 862 GWh, ante 742 GWh do mesmo 
+período do ano anterior. As perdas totais dos últimos 12 meses totalizaram 3.144 GWh. 
+GWh - 12 Meses 2020 2021 2022 2023 2024 
+Energia Injetada 32.754 34.403 35.253 36.639 39.436 
+Perdas Distribuição 2.553 2.660 2.701 2.862 3.144 
+Perdas Técnicas 1.981 1.991 2.040 2.120 2.282 
+Perdas Não Técnicas 573 669 661 742 862 
+* As perdas refletem a diferença entre a carga medida e o mercado faturado. Em 2020, com o início da pandemia da Covid-
+19, a carga sofreu rápida retração e o mercado não respondeu na mesma velocidade, devido ao descompasso entre o 
+calendário de medição e o calendário de faturamento dos consumidores, reduzindo o volume de perdas neste período. 
+As perdas não técnicas, apuradas pela diferença entre as perdas totais e as perdas técnicas, estão em 
+grande medida associadas à gestão da concessionária e às características socioeconômicas das áreas 
+de concessão. Neste sentido, a Copel mantém um Programa de Combate às Perdas não Técnicas 
+através das seguintes ações: 
+✓ Aperfeiçoamento das ações de combate ao procedimento irregular, melhorando o desempenho 
+das inspeções direcionadas; 
+7.47 7.96 7.97 7.92 
+9.29 9.19 8.69 8.35 8.14 7.68 
+2021 2022 2023 2024 2025 2026
+DEC
+(Medido em horas e centesimal de horas)
+Realizado Limite Regulatório
+5.09 5.10 5.41 5.36 
+6.84 6.80 6.39 5.93 5.80 5.36 
+2021 2022 2023 2024 2025 2026
+FEC
+(Medido em frequência de interrupções e 
+fração)
+Realizado Limite Regulatório
+
+[p. 20]
+RESULTADOS | 4T24 16 
+ 
+✓ Investimentos destinados à disponibilização e ou aquisição de equipamentos para inspeção; 
+✓ Elaboração e execução de treinamentos específicos e reciclagem relacionados a perdas 
+comerciais; 
+✓ Realização de inspeções, tanto na Média como na Baixa Tensão; 
+✓ Notas educativas na imprensa e mensagens na fatura de energia elétrica. 
+✓ Operações conjuntas com a Polícia Civil e Ministério Público; 
+✓ Abertura de inquérito policial nas regiões onde constatados números expressivos de 
+procedimentos irregulares. 
+O repasse tarifário d e níveis eficientes d e perdas está previsto nos contratos de concessão e essas 
+perdas são contempladas nos custos com compra de energia até o limite regulatório estipulado pela 
+ANEEL. A Copel Distribuição manteve-se dentro dos limites regulatórios nos últimos processos 
+tarifários e em 2024, as perdas totais ficaram 0, 5 pp acima do limite regulatório influenciada pelo 
+expressivo aumento da energia injetada, notadamente, no consumo de baixa tensão. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+7.8% 7.7% 7.7% 7.8%
+8.0%
+8.1% 7.7% 7.6% 7.6%
+7.5%
+2020 2021 2022 2023 2024
+Perdas 
+Perdas Totais/Energia Injetada (%) Patamar Regulatório (%)
+
+[p. 21]
+RESULTADOS | 4T24 17 
+ 
+5. Copel Comercialização 
+5.1 Desempenho Econômico-Financeiro 
+A Copel Comercialização apresentou EBITDA ajustado negativo de R$ 15,3 milhões no 4T24 ante ao 
+valor positivo de R$ 9,7 milhões no 4T23, reflexo, principalmente, da menor margem de comercialização 
+em função da volatilidade do PLD horário, principalmente no início do período, e da variação do preço 
+entre submercados , causadas especialmente pela geração a partir de fontes intermitentes , com 
+impacto de, aproximadamente, R$ 18,0 milhões. 
+O principal ajuste no trimestre foi o valor justo dos contratos de compra e venda de energia (marcação 
+a mercado) - montante apurado pela diferença entre o preço contratado e o preço de mercado futuro 
+estimado pela Companhia – o qual foi negativo em R$ 10,6 milhões no 4T24 ante ao valor positivo de 
+R$ 11,4 milhões no 4T23, influenciado, principalmente, pelo cálculo do valor justo que sofreu impacto 
+do aumento da taxa de desconto NTN-B. 
+ 
+Os custos gerenciáveis, exceto provisões e reversões, tiveram redução de 23,3% no 4T24, influenciadas, 
+essencialmente, i) pela redução de R$ 1,3 milhão (-41,3%) em outros custos e despesas em virtude de 
+menor custo com arrendamento, aluguéis e seguro, ii) pelo decréscimo em serviços de terceiro s, 
+principalmente, com processamento e transmissão de dados e iii) pela redução em pessoal devido à 
+provisão do PDV no 4T23. 
+ 
+ 
+A conta pessoal e administradores, excluindo os efeitos do PDV, PLR e PPD, registrou acréscimo de 
+17,9% no 4T24 , principalmente pelo processo de reestruturação da comercializadora. 
+ 
+A Copel Comercialização apresentou prejuízo líquido no 4T24 de R$ 3,1 milhões, em função 
+basicamente dos itens já citados . No acumulado do ano, o lucro líquido foi de R$ 44,1 milhões, 
+montante 58,2% menor que em 2023, em função da menor margem de comercialização, e pela variação 
+negativa de R$ 41,6 milhões no registro de marcação a mercado. 
+ 
+ 
+5.2 Desempenho Operacional 
+Em 2024, a Copel Comercialização concentrou as negociações de novos contratos de venda de energia 
+norealizou mais vendas para o período de 2025 a 2029 no segundo semestre, buscando capturar 
+melhores preços ao aproveitar as maiores oportunidades do ano. 
+ 
+EBITDA (25,9) 21,1 - 16,7 110,6 (84,9) 
+(-/+) Provisão/Reversão indenização PDV - - - 0,2 5,4 (96,3) 
+(-/+) Valor justo na compra e venda de energia 10,6 (11,4) - 36,6 (5,0) - 
+(-/+) Indenização abono terço adicional de férias - - - - 1,6 - 
+EBITDA Ajustado (15,3) 9,7 - 53,5 112,6 (52,5) 
+∆%EBITDA Ajustado 2024 2023
+R$ milhões
+4T24 4T23 ∆%
+Pessoal e administradores 3.310 3.670 (9,8) 14.462 21.133 (31,6)
+Planos previdenciário e assistencial 416 453 (8,5) 1.737 1.877 (7,7)
+Material 66 17 - 114 77 47,8 
+Serviços de terceiros 350 502 (30,3) 4.603 3.389 35,8 
+Outros custos e despesas operacionais 1.911 3.250 (41,3) 5.427 7.396 (26,7)
+TOTAL 6.053 7.893 (23,3) 26.343 33.873 (22,2)
+R$ mil
+Custos Gerenciáveis 2024 ∆%20234T24 4T23 ∆%
+Pessoal e administradores 3.310 3.670 (9,8) 14.462 21.133 (31,6)
+ (-/+) Participação nos lucros/resultados e PPD 228 (501) - (1.846) (1.862) (0,9)
+ (-/+) Provisão/Reversão indenização PDV - (169) - - (5.397) - 
+ (-/+) Indenização abono terço adicional de férias - - - - (1.592) - 
+TOTAL 3.538 3.000 17,9 12.616 12.282 2,7 
+R$ mil
+2024 2023 ∆%Custo com Pessoal 4T24 4T23 ∆%
+Principais Indicadores 4T24 4T23 ∆% 2024 2023 ∆%
+Receita Operacional Líquida (R$ milhões) 978,1 1.037,2 (5,7) 3.568,5 4.056,9 (12,0) 
+Custos e Despesas Operacionais (R$ milhões) (1.004,5) (1.016,5) (1,2) (3.553,6) (3.948,3) (10,0) 
+Resultado Operacional (R$ milhões) (15,8) 30,8 - 55,4 146,5 (62,2) 
+Lucro Líquido (R$ milhões) (3,1) 24,7 - 44,1 105,6 (58,2) 
+EBITDA (R$ milhões) (25,9) 21,1 - 16,7 110,6 (84,9) 
+Margem Operacional - 3,0% - 1,6% 3,6% (57,0) 
+Margem Líquida - 2,4% - 1,2% 2,6% (52,5) 
+Margem EBITDA - 2,0% - 0,5% 2,7% (82,9) 
+Programa de Investimento (R$ milhões) 0,9 0,4 - 1,3 1,6 (18,8) 
+R$ milhões
+286.7 238.0
+537.5 500.2
+1T24 2T24 3T24 4T24
+MWm VENDIDO
+(2025-2029)
+
+[p. 22]
+RESULTADOS | 4T24 18 
+ 
+A energia vendida aumentou 0,1% em 2024, pelo efeito do aumento das vendas para comercializadoras 
+em contratos bilaterais (+13,8%). O gráfico apresenta a evolução da Copel Comercialização em 
+quantidade de GWh vendido, onde apresenta um crescimento de 80,5% nos últimos 4 anos. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+12,450
+23,192 24,817 22,450 22,478
+2020 2021 2022 2023 2024
+GWh vendido
+∆ 0,1%
+
+[p. 23]
+RESULTADOS | 4T24 19 
+ 
+6. Performance ESG 
+6.1 Copel pioneira no setor em ESG 
+A Copel foi a 1ª empresa do setor a produzir um Relatório de Impacto ambiental para uma obra de 
+geração, e a 1ª empresa do setor de energia no Brasil a tornar -se signatária do Pacto Global da ONU 
+em 2000. A Companhia promove ações para a disseminação da Ag enda 2030 da ONU e a 
+implementação dos ODS do setor elétrico. A Copel aderiu ao Compromisso Pacto pela Resiliência 
+Hídrica e Energética e recebeu o Selo Pró -Equidade de Gênero e Raça do Governo Federal. A 
+Companhia recebeu o Selo Pró-Ética, edições 2018-2019 e 2020-2021, concedido pela CGU e Instituto 
+ETHOS, pela adoção voluntária de medidas de integridade, com reconhecimento público pelo 
+compromisso em implementar medidas voltadas para a prevenção, detecção e remediação de atos de 
+corrupção e fraude. A Cop el participa do Movimento Transparência 100% do Pacto Global da ONU, 
+primeira e a maior iniciativa de fomento a transparência corporativa do Brasil. 
+Ambiental 
+▪ Movimento Ambição Net Zero – a Copel participa do Movimento Ambição Net Zero. O 
+movimento é parte das estratégias desenvolvidas pelo Pacto Global para que grandes empresas 
+juntas possam promover ações que resultem na redução de gases de efeito estufa até 2030; 
+▪ Possui Plano de Neutralidade Copel 2030, aprovado pelo Conselho de Administração: com o 
+propósito de neutralizar a Emissão de Gases de Efeito Estufa (GEE) do Escopo 1, para os ativos 
+que a Copel detém controle operacional (conforme conceito estabelecido na metodologia GHG 
+Protocol) até 2030; 
+▪ Integra o Compromisso Empresarial Brasileiro para a Biodiversidade com o Conselho 
+Empresarial Brasileiro para o Desenvolvimento Sustentável (CEBDS). 
+Social 
+▪ Ações e Programas – Coleta Seletiva Solidária; Programa Cultivar Energia; EletriCidadania; 
+Programa Boa Vizinhança; Comissão de Diversidade; Programa de Direitos Humanos; EducaODS; 
+Iluminando Gerações; Mais que Energia, entre outros. 
+▪ Possui Política de Sustentabilidade, de Gestão de Pessoas, de Saúde e Segurança do Trabalho, 
+entre outras. 
+▪ O programa Cultivar Energia – que implanta hortas comunitárias embaixo das linhas de energia 
+da Copel – completou 10 anos de existência, conta com a parceria de 10 municípios do Paraná, 
+nos quais se distribuem 2 4 hortas da Copel que beneficiam atualmente em torno de 4 mil 
+pessoas com alimentos saudáveis e geração de renda. As hortas também protegem os imóveis 
+da Copel de ocupações irregulares, reforça a presença e marca da empresa nas comunidades e 
+embeleza bairros empobrecidos transformando o meio ambiente e o planejamento urbano das 
+cidades. 
+Governança 
+▪ A Copel é uma empresa de capital disperso e sem acionista controlador; 
+▪ O Conselho de Administração é formado em sua maioria por membros independentes e possui 
+comitês estatutários de assessoramento: Comitê de Auditoria Estatutário - CAE; Comitê de 
+Desenvolvimento Sustentável - CDS, Comitê de Investimento e Inovação - CII e Comitê de Gente 
+- CDG; 
+▪ O CAE é formado por membros independentes, sendo um deles membro externo; 
+▪ Estabelecimento de Remuneração variável com metas ESG – 2023: 30% do PPD; 
+▪ Listada no Nível 2 de Governança da B3; 
+▪ Aderente ao Movimento Transparência 100% do Pacto Global da ONU. 
+ 
+ODS Prioritários do Setor Elétrico Brasileiro
+
+[p. 24]
+RESULTADOS | 4T24 20 
+ 
+6.2 Destaques recentes 
+A Copel dedicou o mês de novembro à promoção da sustentabilidade e disseminação de boas práticas 
+ambientais, sociais e de governança (ESG), não apenas no ambiente corporativo, mas também nas 
+condutas individuais. A extensa programação começou com o lançamento da primeira edição do Curso 
+de Sustentabilidade da Copel em 29 de outubro. De 11 a 14 de novembro, aconteceu a primeira edição 
+da Semana Integrada ESG, que trouxe uma agenda repleta de eventos que fomentaram a cultura do 
+desenvolvimento sustentável. A programação contou com a “Sala do Desapego”, um espaço 
+temporário para a troca de itens que promoveu o consumo consciente. Outra iniciativa lançada foi o 
+Desafio Trajeto Sustentável, que desafia os participantes a repensar a forma de deslocamento, trocando 
+seu meio de transporte ou combustível usual por opções mais sustentáveis. No dia 12, aconteceu o 
+lançamento da Trilha de Sustentabilidade, que oferece conteúdos que reforçam o compromisso com 
+práticas éticas e sustentáveis, além da palestra "Cultura para a Diversidade" ministrada por Álvaro 
+Mello, especialista da Gartner. O último dia da Semana Integrada ESG foi marcado pelo evento Palco 
+Propósito, que contou com a palestra “ESG e Propósito”, apresentada por Yazmín Trejos, e um debate 
+sobre transição ener gética, com a participação do Coordenador do Comitê de Desenvolvimento 
+Sustentável (CDS) e de especialistas dos negócios da Copel. Por fim, foi lançado o Curso de Direitos 
+Humanos – edição 2024, voltado ao aprofundamento de temas cruciais para a promoção d e uma 
+cultura de respeito, inclusão e responsabilidade social. 
+6.3 Indicadores 
+Em relação ao indicador de GEE escopo 1(tCO2), os dados se referem às emissões diretas de gases de 
+efeito estufa das operações da Copel (usina térmica, frota, mudança do solo e emissões fugitivas) - 
+dados de 2024 serão verificados posteriormente por terceira parte. As emissões de GEE são 
+calculadas semestralmente.
+ 
+ 
+ 
+6.4 Avaliações, Classificações e Índices 
+ 
+Índice Ranking 
+Ano de 
+Referência 
+ 
+Posição 15º 
+4º no SEB 
+2023 
+S&P Global CSA Score 70 2024 
+CDP A- 2023 
+ICO2 B3 Sim 2024 
+Sustainalytics Medium Risk 2023 
+MSCI A 2024 
+2022 2023 Δ% 1T24 2T24 3T24 4T24 Δ%
+Fontes renováveis (% Capacidade Instalada) 93,80 94,06 0,3 94,07 94,07 94,07 99,72 6,0 
+Fontes renováveis (% Energia Gerada) 99,20 99,86 0,7 99,97 100,00 100,00 100,00 - 
+Emissão de GEE escopo 1 (tCO2)¹ 50.834,4 81.690,3 60,7 - 10.409,90 - 5.362,0 (48,5) 
+Emissão de GEE escopo 2 (tCO2)² 163.700,8 148.798,7 (9,1) - 64.029,0 - 95.679,0 49,4 
+²Escopo 2 refere-se às emissões indiretas de gases de efeito estufa das operações da Copel (consumo e perda de eletricidade) - As emissões de GEE são 
+calculadas semestralmente.
+Indicador Ambiental Realizado
+¹Escopo 1 refere-se às emissões diretas de gases de efeito estufa das operações da Copel (usina térmica, frota, mudança do solo e emissões fugitivas) - dados 
+de 2024 serão verificados posteriormente por terceira parte. As emissões de GEE são calculadas semestralmente. 
+2022 2023 2024 Δ%
+Mulheres na Copel (% Empregados Próprios) 21,6 21,7 21,9 1,1 
+Mulheres na Copel (% Empregados Terceiros) 12,6 11,7 14,0 19,4 
+Taxa de frequência de acidentes - TFIFR (% Empregados Próprios) 1,8 1,4 2,0 40,7 
+Taxa de frequência de acidentes - TFIFR (% Empregados Terceiros) 6,6 4,9 3,9 (20,4) 
+TFIFR: Taxa de frequência de acidentes com afastamento. Esta taxa representa, em relação a um milhão de horas-homem de exposição 
+ao risco, o número de contratados envolvidos em acidentes com afastamento ou casos fatais, no período considerado.
+Realizado
+ABNT – NBR 14280: 2001
+Indicador Social
+2022 2023 2024 Δ%
+Mulheres em cargos de liderança (%) 23,0 21,8 22,1 1,4 
+Mulheres no Conselho de Administração (%) 11,1 11,1 11,1 - 
+Conselheiros independentes (%) 88,8 88,8 88,8 - 
+Denúncias Resolvidas pelo Canal de Denúncias (%)* 81,8 82,7 82,0 (0,8) 
+*O indicador considera a finalização das investigações no período analisado/ano, a Companhia analisa 100% das denúncias recebidas. 
+Indicador de Governança Realizado
+
+[p. 25]
+RESULTADOS | 4T24 21 
+ 
+7. Outros destaques do 
+Período 
+Fluxo de Caixa Disponível e Dividendos 
+O Fluxo de Caixa Disponível é definido na Política de Dividendos como: FCD = Caixa gerado pelas 
+atividades Operacionais, deduzido do caixa líquido utilizado pelas atividades de investimento, sendo: 
+(a) Caixa Gerado pelas Atividades Operacionais: caixa gerado pelas atividades operacionais no exercício 
+social, antes de impostos, contribuições (IRCS) e encargos financeiros; (b) Caixa líquido utilizado pelas 
+atividades de Investimento: valor investido no exercício social em ativos não circulantes. A Tabela 
+abaixo demonstra o cálculo do FCD em 31 de dezembro de 2024: 
+R$ mil 
+31.12.2024 
+FLUXO DE CAIXA DAS ATIVIDADES OPERACIONAIS 
+CAIXA GERADO PELAS ATIVIDADES OPERACIONAIS 5.202.716 
+FLUXO DE CAIXA DAS ATIVIDADES DE INVESTIMENTO 
+PROVENIENTES DE OPERAÇÕES EM CONTINUIDADE (6.348.127) 
+PROVENIENTES DE OPERAÇÕES EM DESCONTINUIDADE 608.713 
+CAIXA LÍQUIDO UTILIZADO PELAS ATIVIDADES DE INVESTIMENTO (5.739.414) 
+FLUXO DE CAIXA DISPONÍVEL FCD (536.698) 
+ 
+A Companhia declarou e pagou R$ 1.085,1 milhões relativos ao exercício de 2024 . Em linha com a 
+Política de Dividendos, o Conselho de Administração pro põe proventos extraordinários no montante 
+de R$ 1.250,0 milhões para deliberação da Assembleia Geral Ordinária – AGO de 24/04/2025, com 
+previsão de pagamento até junho de 2025. 
+Renovação das Concessões Foz do Areia (FDA), Segredo e Salto Caxias 
+Em 18 de novembro de 2024, a Copel GeT renovou por mais 30 (trinta) anos as concessões de geração 
+de energia elétrica das Usinas Hidrelétricas Governador Bento Munhoz da Rocha Netto (“Foz do Areia”), 
+Governador Ney Aminthas de Barros Braga (“Segredo”) e Governador José Richa (“Salto Caxias”), cuja 
+outorga conjunta de, aproximadamente, R$ 4,1 bilhões foi quitada no mesmo mês. As usinas somam 
+4.176,0 MW de capacidade instalada e 1.673,7 MWm de garantia física. 
+Para mais informações, consulte o Comunicado ao Mercado 32/24. 
+1º Programa de Recompra de Ações 
+A Companhia lançou o primeiro programa de recompra de ações em 25 de novembro de 2024 com 
+objetivo de aquisição de ações ordinárias e preferenciais Classe B da Copel para manutenção em 
+tesouraria, cancelamento ou alienação e atendimento ao plano de Outorga de Ações Restritas e de 
+Ações Restritas por Desempenho ( Performance Shares ), sem redução da cifra do capital social . O 
+programa possui vigência de 18 meses com limitação de aquisição de até 10% do total de ONs e de 
+PNBs em circulação no mercado. Até o momento, a Companhia realizou aquisição de R$ 120,0 milhões 
+de ações, dos quais R$ 50,0 milhões executados em dez embro de 2024 e R$ 70,0 milhões em janeiro 
+de 2025. Esta iniciativa, junto das demais entregas realizadas no ano, demonstra o compromisso da 
+companhia com a disciplina de alocação de capital e geração de valor no longo prazo. 
+Para mais informações, consulte Fato Relevante 09/24. 
+Desinvestimento nos Ativos de Pequeno Porte 
+Em 25 de novembro de 2024, a Copel Geração e Transmissão celebrou o desinvestimento da totalidade 
+de sua participação referente ao desinvestimento da Copel em 13 ativos de geração de pequeno porte, 
+totalizando 118,7 MW de capacidade instalada. O valor total a ser recebido pelo desinvestimento será 
+de R$ 450,5 milhões, a ser corrigido pela variação do IPCA a partir de 31 de março de 2025 até a data 
+do closing. O desinvestimento trará melhoria da eficiência operacional para o portfólio da Copel GeT 
+e otimizaç ão da alocação de capital da Companhia, considerando que a estratégia da Copel se 
+concentra em ativos de maior porte. Adicionalmente, possibilitará o reaproveitamento de profissionais 
+em ativos mais relevantes, os quais já estão devidamente treinados e qualificados. Em janeiro de 2025, 
+o Conselho Administrativo de Defesa Econômico (CADE) aprovou a transação, restando a anuência da 
+ANEEL para realização do closing. 
+Para mais informações, consulte o Fato Relevante 10/24. 
+Copel Day 2024 
+A Companhia realizou o Investor Day na sede em Curitiba-PR, no dia 26 de novembro de 2024, e contou 
+com a participação presencial de mais de 70 analistas, investidores e partes interessadas e mais de 400 
+expectadores que assistiram a transmissão ao vivo. Os participantes presenciais tiveram a oportunidade 
+de explorar o Expo Room, onde foram apresentadas as principais tecnologias utilizadas nas operações 
+de geração hídrica e eólica, transmissão e distribuição , consolidando o caminho da energia até o
+
+[p. 26]
+RESULTADOS | 4T24 22 
+ 
+cliente. A experiência destacou a excelência operacional impulsionada pelos investimentos realizados. 
+No evento foram abordados, entre outros temas, o s pilares estratégicos, o plano de eficiência 
+estruturante e o planejamento d o PMSO, o caminho para excelência operacional e o futuro de 
+expansão da Companhia, sempre em busca de se tornar referência no setor elétrico em criação de 
+valor, eficiência, qualidade e disciplina na alocação de capital . Para mais informações acesse a 
+transmissão do evento e a apresentação disponíveis em nosso site. 
+Descruzamento de Ativos com Consolidação de Mata de Santa Genebra e UHE Mauá 
+A Companhia realizou, em 12 de dezembro de 2024, a operação de descruzamento de ativos as 
+Centrais Elétricas Brasileiras S.A. – Eletrobras, na qual a Copel GeT receberá (i) a totalidade dos 49% da 
+participação da Eletrobras na Usina Hidrelétrica Mauá (“Mau á”) e (ii) a totalidade dos 49,9% da 
+Eletrobras na transmissora Mata de Santa Genebra S.A. (“MSG”), passando a Copel GeT a deter 100% 
+dos respectivos ativos e consolidá-los integralmente em seu balanço, e (iii) transferirá para a Eletrobras 
+a Usina Hidrelé trica Colíder (“Colíder”) (100% Copel GeT), com pagamento de R$ 365,0 milhões à 
+Eletrobras em caixa no fechamento da Operação, sujeita a mecanismos de ajustes de preço usuais de 
+mercado. Em janeiro de 2025 , o Conselho Administrativo de Defesa Econômico (CADE) aprovou a 
+transação, restando a anuência da ANEEL para realização do closing. 
+A operação em questão trará benefícios imediatos à Copel, gerando ganhos de sinergia pela 
+simplificação da estrutura operacional e administrativa, até então compartilhada. 
+Para mais informações, consulte o Fato Relevante 12/24. 
+Novo Diretor Geral para a Copel Geração e Transmissão 
+O engenheiro mecânico Sr. Fernando Mano foi empossado como Diretor Geral da Copel Geração e 
+Transmissão em 06 de janeiro de 2025. Formado pelo Instituto Tecnológico de Aeronáutica - ITA, com 
+especialização em Finanças Avançadas pela Fundação Getúlio Vargas - FGV e MBA em Inovação 
+Estratégica pela HSM Educação, possui profunda experiência em estratégia, inovação e planejamento 
+energético, tendo atuado em diversas empresas do setor elétrico. Sob a liderança do Sr. Fernando 
+Mano, a Copel GeT fortalecerá a eficiência dos negócios de geração e transmissão de energia, prezando 
+pela sustentabilidade e excelência operacional. 
+Para mais informações, consulte Comunicado ao Mercado 01/25. 
+ 
+Copel Lança o Programa de Demissão Voluntária 2024/2025 - PDV 
+A Companhia lançou, em 19 de fevereiro de 2025, conforme previsto no Acordo Coletivo de Trabalho 
+(ACT), o Programa de Demissão Voluntária 2024/2025. Os desligamentos resultantes estão limitados 
+ao total aprovado de 100 colaboradores e o processo de classificação ocorrerá em ordem decrescente 
+da soma de idade e tempo de serviço. O empregado com adesão efetivada no PDV receberá o 
+equivalente a 12 remunerações mensais como compensação indenizatória pela extinção do contrato 
+de trabalho, bem como os benefícios definidos no ACT. 
+Desinvestimento na UHE Baixo Iguaçu 
+Em 21 de fevereiro de 2025, a Companhia anunciou o desinvestimento na UHE Baixo Iguaçu com equity 
+value de R$ 570,0 milhões relativos à participação de 30% do ativo . A operação constitui u 1º) no 
+exercício do direito de preferência para aquisição da totalidade das ações da Geração Céu Azul S.A. 
+(“Céu Azul”), pertencentes à Neoenergia S.A. (“Neoenergia”), detentora de 70% do Consórcio 
+Empreendedor Baixo Iguaçu (“CEBI”), pelo equity value de R$ 984 milhões , cujo compromisso de 
+aquisição foi contratado por adesão ao Contrato de Compra e Venda de Ações e Outras Avenças que 
+já havia sido negociado entre Neoenergia e o potencial comprador original desta participação; 2º) após 
+o exercício do Direito de Preferência, a Copel GeT celebrou Contrato de Compra e Venda de Ações e 
+Outras Avenças junto à DK Holding Investments, S.R.O., por meio do qual a Copel GeT se comprometeu 
+a alienar à Compradora: (i) a totalidade da referida participação acionária na Céu Azul, que será titular 
+quando do fechamento da operação prevista n o CCVA entre Copel GeT e Geração Céu Azul S.A. e (ii) 
+sua participação minoritária de 30% no CEBI, pelo equity value de R$ 570 milhões, de forma que a 
+Compradora se tornará proprietária indireta de 100% da UHE Baixo Iguaçu. A operação totaliza, em 
+equity value, o montante de R$ 1.554 milhões. A Copel GeT recebeu à vista um sinal equivalente a 10% 
+do valor total deste equity value, devendo o saldo remanescente ser quitado pela compradora até a 
+data do fechamento, com ajustes usuais para esse tipo de operação. A transação está condicionada ao 
+cumprimento de determinadas condições precedentes usuais a esse tipo de operação. 
+A Companhia busca continuamente potencializar o seu portfólio e faz avaliações periódicas de 
+oportunidades de reciclar ativos e participações minoritárias. A operação em questão explora uma 
+oportunidade de negócio que gera valor para a Copel e otimiza sua estrutura operacional e 
+administrativa. 
+Para mais informações, consulte Fato Relevante 01/25.
+
+[p. 27]
+RESULTADOS | 4T24 23 
+ 
+Disclaimer 
+Informações contidas neste documento podem incluir considerações futuras e 
+refletem a percepção atual e perspectivas da diretoria sobre a evolução do ambiente 
+macroeconômico, condições da indústria, desempenho da Companhia e resultados 
+financeiros. Quaisqu er declarações, expectativas, capacidades, planos e conjecturas 
+contidos neste documento, que não descrevam fatos históricos, tais como informações 
+a respeito da declaração de pagamento de dividendos, a direção futura das operações, 
+a implementação de estratégias operacionais e financeiras relevantes, o programa de 
+investimento, os fatores ou tendências que afetem a condição financeira, liquidez ou 
+resultados das operações são considerações futuras de significado previsto no U.S. 
+Private Securities Litigati on Reform Act de 1995 e contemplam diversos riscos e 
+incertezas. Não há garantias de que tais resultados venham a ocorrer. As declarações 
+são baseadas em diversos fatores e expectativas, incluindo condições econômicas e 
+mercadológicas, competitividade da i ndústria e fatores operacionais. Quaisquer 
+mudanças em tais expectativas e fatores podem implicar que o resultado real seja 
+materialmente diferente das expectativas correntes. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Relações com Investidores 
+ri@copel.com 
+Telefone: (41) 3331-4011
+
+[p. 28]
+DRE
+BALANÇO 
+PATRIMONIAL
+FLUXO DE CAIXA
+MERCADO TOTAL 
+E DIS
+FLUXO DE 
+ENERGIA
+ATIVO POR 
+EMPRESA
+DRE COPEL GET
+DRE COPEL DIS
+DRE COPEL COM
+GERAÇÃO
+TRANSMISSÃO
+DISTRIBUIÇÃO
+PASSIVO POR 
+EMPRESA
+TARIFAS
+RESUMO DE 
+INDICADORES
+EBITDA E RESULTADO 
+FINANCEIRO
+EQV PATRIMONIAL E 
+INDICADORES
+ENERGIA COMPRADA E 
+ENCARGOS
+II 
+RESULTADO POR 
+SUBSIDIÁRIA
+III
+MERCADO DE 
+ENERGIA
+IV
+DADOS 
+OPERACIONAIS
+I 
+RESULTADO 
+CONSOLIDADO
+GERAÇÃO -
+PARTICIPAÇÕES
+Lista de Anexos
+DRE POR EMPRESA 
+TRIMESTRE
+BALANÇO DE ENERGIA 
+COPEL GET
+FLUXO DE 
+ENERGIA (2)
+PREÇOS EÓLICAS
+CAPITAL SOCIAL
+R E S U LTA D O
+RECEITA
+COPEL DIS
+DRE ACUMULADA
+
+[p. 29]
+R$ mil
+RECEITA OPERACIONAL LÍQUIDA 6,019,164 5,567,698 8.1 22,651,036 21,479,468 5.5 
+Fornecimento de energia elétrica 2,199,722 2,192,491 0.3 8,454,990 7,946,168 6.4 
+Suprimento de energia elétrica 819,135 864,078 (5.2) 3,120,628 3,602,788 (13.4) 
+Disponibilidade da rede elétrica (TUSD/ TUST) 1,914,732 1,654,202 15.7 7,048,036 6,002,192 17.4 
+Receita de construção 641,824 587,660 9.2 2,550,809 2,333,787 9.3 
+Valor justo do ativo indenizável da concessão 32,957 20,269 62.6 82,424 62,167 32.6 
+Resultado de ativos e passivos financeiros setoriais 272,095 91,494 197.4 838,280 971,203 (13.7) 
+Outras receitas operacionais 138,699 157,504 (11.9) 555,869 561,163 (0.9) 
+CUSTOS E DESPESAS OPERACIONAIS (5,152,337) (4,445,091) 15.9 (18,867,990) (18,092,563) 4.3 
+Energia elétrica comprada para revenda (2,610,512) (2,022,064) 29.1 (8,924,895) (7,716,190) 15.7 
+Encargos de uso da rede elétrica (643,068) (778,222) (17.4) (2,865,490) (2,896,710) (1.1) 
+Pessoal e administradores (224,172) (316,642) (29.2) (1,081,797) (1,878,332) (42.4) 
+Planos previdenciário e assistencial (60,364) (65,950) (8.5) (259,352) (260,159) (0.3) 
+Material (24,646) (37,916) (35.0) (86,882) (102,667) (15.4) 
+Matéria-prima e insumos para produção de energia - - - (936) (17,654) (94.7) 
+Serviços de terceiros (301,629) (267,960) 12.6 (1,074,308) (996,312) 7.8 
+Depreciação e amortização (376,281) (354,808) 6.1 (1,465,478) (1,382,040) 6.0 
+Provisões e reversões (117,147) 112,537 (204.1) (345,102) (92,235) 274.2 
+Custo de construção (620,867) (585,226) 6.1 (2,522,908) (2,319,720) 8.8 
+Outros custos e despesas operacionais (173,651) (128,840) 34.8 (240,842) (430,544) (44.1) 
+RESULTADO DE EQUIVALÊNCIA PATRIMONIAL 55,804 63,134 (11.6) 281,202 307,809 (8.6) 
+LUCRO ANTES DO RESULTADO FIN. E TRIBUTOS 922,631 1,185,741 (22.2) 4,064,248 3,694,714 10.0 
+RESULTADO FINANCEIRO (376,777) (305,701) 23.3 (1,157,014) (1,204,990) (4.0) 
+Receitas financeiras 327,550 272,666 20.1 1,184,779 1,069,116 10.8 
+Despesas financeiras (704,327) (578,367) 21.8 (2,341,793) (2,274,106) 3.0 
+LUCRO OPERACIONAL 545,854 880,040 (38.0) 2,907,234 2,489,724 16.8 
+IMPOSTO DE RENDA E CONTRIBUIÇÃO SOCIAL 29,310 (260,998) (111.2) (599,435) (354,057) 69.3 
+Imposto de Renda e Contribuição Social 30,151 (73,700) (140.9) (177,999) (371,104) (52.0) 
+Imposto de Renda e Contribuição Social diferidos (841) (187,298) (99.6) (421,436) 17,047 (2,572.2) 
+LUCRO LÍQUIDO COM OPERAÇÕES EM CONTINUIDADE 575,164 619,042 (7.1) 2,307,799 2,135,667 8.1 
+LUCRO LÍQUIDO COM OPERAÇÕES DESCONTINUADAS - 323,767 - 491,571 191,501 - 
+LUCRO LÍQUIDO DO PERÍODO 575,164 942,809 (39.0) 2,799,370 2,327,168 20.3 
+Atribuído aos acionistas da controladora - Op. Continuada 586,506 637,261 (8.0) 2,345,941 2,158,077 8.7 
+Atribuído aos acionistas da controladora - Op. Descontinuadas - 241,761 (100.0) 463,690 100,733 360.3 
+Atribuído aos acionistas não controladores - Op. Continuidade (11,342) (5,240) - (26,800) 873 (3,169.9) 
+Atribuído aos acionistas não controladores - Op. Descontinuadas 69,027 - 16,539 67,485 (75.5) 
+EBITDA DAS OP. EM CONTINUIDADE 1,298,912 1,540,549 (15.7) 5,529,726 5,076,754 8.9 
+Δ%20232024Demonstração do Resultado 4T24 4T23 Δ%
+ANEXO I - RESULTADO CONSOLIDADO > DRE
+XX
+
+[p. 30]
+Ativo dez/24 dez/23 Δ% Passivo dez/24 dez/23 Δ%
+CIRCULANTE 13,041,808 13,715,730 (4.9) CIRCULANTE 10,342,380 9,309,433 11.1 
+Caixa e equivalentes de caixa 4,161,939 5,634,623 (26.1) Obrigações sociais e trabalhistas 411,102 927,538 (55.7) 
+Títulos e Valores Mobiliários 623 4,763 (86.9) Fornecedores 2,324,423 2,154,430 7.9 
+Cauções e depósitos vinculados 9 9 - Imposto de renda e contribuição social 83,482 132,979 (37.2) 
+ Clientes 3,962,702 3,761,170 5.4 Outras obrigações fiscais 302,345 346,083 (12.6) 
+Dividendos a receber 82,278 95,569 (13.9) Empréstimos e financiamentos 1,231,205 675,980 82.1 
+ Ativos Financeiros Setoriais - 15,473 - Debêntures 2,025,110 1,225,649 65.2 
+ Contas a receber vinculadas à concessão 10,609 9,354 13.4 Dividendo a pagar 3,878 464,147 (99.2) 
+ Ativos de contrato 283,896 284,616 (0.3) Benefícios pós-emprego 95,383 85,833 11.1 
+ Valor justo na compra e venda de energia 217,350 379,261 (42.7) Encargos setoriais a recolher 44,825 61,466 (27.1) 
+Outros créditos 949,674 570,471 66.5 Pesquisa e desenvolvimento e eficiência energética 179,149 320,196 (44.1) 
+Estoques 136,324 174,726 (22.0) Contas a pagar vinculadas à concessão 113,092 101,976 10.9 
+ Imposto de Renda e Contribuição Social 296,128 315,218 (6.1) Passivos financeiros setoriais 935,322 476,103 96.5 
+ Outros tributos a recuperar 994,618 943,343 5.4 Passivo de arrendamentos 57,502 49,742 15.6 
+ Despesas antecipadas 63,211 62,869 0.5 Valor justo na compra e venda de energia 214,955 321,646 (33.2) 
+ Partes Relacionadas 621 1,336 (53.5) Outras contas a pagar 1,199,195 537,810 123.0 
+ Ativos classificados como mantidos para venda 1,881,826 1,462,929 28.6 PIS e Cofins a restituir para consumidores - 558,591 - 
+NÃO CIRCULANTE 44,342,348 42,103,344 5.3 Provisão para destinação de crédito de PIS e Cofins 580,000 - - 
+Realizável a Longo Prazo 15,315,121 16,343,437 (6.3) Provisões para litígios - 336,000 - 
+Títulos e Valores Mobiliários 529,085 490,732 7.8 Passivos associados a ativos classificados como mantidos para venda 541,412 533,264 1.5 
+Outros investimentos temporários 30,603 31,728 (3.5) NÃO CIRCULANTE 21,404,841 22,317,974 (4.1) 
+ Clientes 116,180 105,259 10.4 Obrigações sociais e trabalhistas 457 - - 
+ Depósitos judiciais 394,364 634,712 (37.9) Fornecedores 142,380 131,143 8.6 
+ Ativos Financeiros Setoriais - 15,473 (100.0) Imposto de renda e contribuição social diferidos 1,895,459 1,686,793 12.4 
+ Contas a receber vinculadas à concessão 3,497,351 2,809,901 24.5 Outras Obrigações fiscais 291,195 612,093 (52.4)
+ Ativos de contrato 6,927,010 7,320,445 (5.4) Empréstimos e financiamentos 3,387,589 4,667,237 (27.4)
+ Valor justo na compra e venda de energia 479,938 722,423 (33.6) Debêntures 10,602,255 8,393,457 26.3 
+ Outros créditos 681,846 130,917 420.8 Benefícios pós-emprego 1,063,326 1,398,410 (24.0)
+ Imposto de renda e contribuição social 164,043 68,003 141.2 Pesquisa e desenvolvimento e eficiência energética 241,294 233,478 3.3 
+ Imposto de Renda e Contribuição Social diferidos 1,174,175 1,757,688 (33.2) Contas a pagar vinculadas à concessão 992,252 791,879 25.3 
+ Outros tributos a recuperar 1,320,526 2,256,156 (41.5) Passivos financeiros setoriais 142,488 27,888 - 
+Investimentos 3,577,937 3,511,797 1.9 Passivo de arrendamentos 271,004 220,700 22.8 
+Imobilizado 8,516,697 10,825,421 (21.3) Valor justo na compra e venda de energia 170,837 431,938 (60.4)
+Intangível 16,623,610 11,170,089 48.8 Outras contas a pagar 247,021 147,132 67.9 
+Direito de uso de ativos 308,983 252,600 22.3 PIS e Cofins a restituir para consumidores - 173,135 - 
+TOTAL DO ATIVO 57,384,156 55,819,074 2.8 Provisão para destinação de créditos de PIS e Cofins 1,000,588 1,909,775 (47.6)
+ Provisões para litígios 956,696 1,492,916 (35.9)
+PATRIMÔNIO LÍQUIDO 25,636,935 24,191,667 6.0 
+Atribuível aos acionistas da empresa controladora 25,674,718 23,886,153 7.5 
+Capital social 12,821,758 12,821,758 - 
+Reservas de capital 5,595 - - 
+Ajustes de avaliação patrimonial 517,408 307,050 68.5 
+Ações em tesouraria (50,044) - - 
+Reserva legal 1,766,110 1,625,628 8.6 
+Reserva de retenção de lucros 9,363,866 9,000,506 4.0 
+Dividendo adicional proposto 1,250,025 131,211 - 
+Atribuível aos acionistas não controladores (37,783) 305,514 (112.4) 
+TOTAL DO PASSIVO 57,384,156 55,819,074 2.8 
+R$ mil R$ mil
+ANEXO I - RESULTADO CONSOLIDADO > BALANÇO PATRIMONIAL
+XX
+
+[p. 31]
+R$ mil
+31.12.2024 31.12.2023
+ Lucro líquido do período proveniente de operações em continuidade 2,307,799 2,135,667 
+ Ajustes para a reconciliação do lucro líquido do período com a geração de caixa das atividades operacionais: 4,903,214 4,775,315 
+Encargos, variações monetárias e cambiais não realizadas - líquidas 2,071,041 1,951,552 
+Juros efetivos - bonificação pela outorga de contrato de concessão em regime de cotas (120,800) (114,370) 
+Remuneração de contratos de concessão de transmissão (833,630) (730,094) 
+Imposto de renda e contribuição social 177,999 371,104 
+Imposto de renda e contribuição social diferidos 421,436 (17,047) 
+Resultado da equivalência patrimonial (281,202) (307,809) 
+Apropriação de obrigações de benefícios pós emprego 257,711 267,741 
+Constituição para programas de pesquisa e desenvolvimento e eficiência energética 181,675 165,459 
+Reconhecimento do valor justo do ativo indenizável da concessão (82,424) (62,167) 
+Resultado de ativos e passivos financeiros setoriais (923,724) (1,070,196) 
+Depreciação e amortização 1,465,478 1,382,040 
+Provisão decorrente do programa de demissão voluntária 18,306 610,057 
+Incentivos de longo prazo 5,595 - 
+Perdas estimadas, provisões e reversões operacionais líquidas 345,102 92,235 
+Realização de mais/menos valia em combinações de negócios (722) (722) 
+Valor justo nas operações de compra e venda de energia no mercado ativo 36,604 (5,045) 
+Baixas de contas a receber vinculadas à concessão 3,265 270 
+Baixas de ativos de contrato 14,496 16,728 
+Resultado das baixas de imobilizado 32,234 10,458 
+Resultado das baixas de intangíveis 76,183 78,728 
+Resultado das baixas de direito de uso de ativos e passivo de arrendamentos - líquido (4,774) 726 
+Resultado na alienação de imóveis (264,434) - 
+Redução (aumento) dos ativos 817,908 98,706 
+Clientes 602,196 188,437 
+Dividendos e juros sobre o capital próprio recebidos 223,985 174,826 
+Depósitos judiciais 18,427 33,298 
+Ativos financeiros setoriais 354,421 36,964 
+Outros créditos (73,515) (11,555) 
+Estoques 38,402 18,741 
+Imposto de renda e contribuição social a recuperar (295,650) (201,003) 
+Outros tributos a recuperar (50,731) (138,520) 
+Despesas antecipadas (342) (2,281) 
+Partes relacionadas 715 (201) 
+Aumento (redução) dos passivos (518,406) 486,682 
+Obrigações sociais e trabalhistas (313,552) 297,343 
+Partes relacionadas - - 
+Fornecedores 72,730 19,506 
+Outras obrigações fiscais 882,575 974,083 
+Benefícios pós-emprego (219,780) (224,809) 
+Encargos setoriais a recolher (16,641) 14,978 
+Pesquisa e desenvolvimento e eficiência energética (336,956) (255,295) 
+Contas a pagar vinculadas à concessão (110,385) (115,736) 
+Outras contas a pagar (131,259) 149,450 
+Provisões para lítígios quitadas (345,138) (372,838) 
+CAIXA GERADO PELAS ATIVIDADES OPERACIONAIS 5,202,716 5,360,703 
+Imposto de renda e contribuição social pagos (219,219) (294,676) 
+Encargos de empréstimos e financiamentos pagos (471,276) (521,134) 
+Encargos de debêntures pagos (1,089,013) (1,127,607) 
+Encargos de passivo de arrendamentos pagos (33,292) (24,284) 
+CAIXA LÍQUIDO GERADO PELAS ATIVIDADES OPERACIONAIS PROVENIENTES DE OPERAÇÕES EM CONTINUIDADE 3,389,916 3,393,002 
+CAIXA LÍQUIDO GERADO PELAS ATIVIDADES OPERACIONAIS PROVENIENTES DE OPERAÇÕES DESCONTINUADAS 3,620 125,474 
+CAIXA LÍQUIDO GERADO PELAS ATIVIDADES OPERACIONAIS 3,393,536 3,518,476 
+Aplicações financeiras (32,939) (44,061) 
+Aquisições de ativos de contrato (2,174,902) (1,973,215) 
+Aquisições de controladas - efeito no caixa - (911,450) 
+Alienação de investimentos 47,066 58,132 
+Aportes em investimentos - (10,780) 
+Redução de capital em investidas 37,129 - 
+Aquisições de imobilizado (137,635) (204,805) 
+Alienações de imobilizado 11,440 - 
+Aquisições de intangível (4,098,286) (13,388) 
+CAIXA LÍQUIDO UTILIZADO PELAS ATIVIDADES DE INVESTIMENTO PROVENIENTES DE OPERAÇÕES EM CONTINUIDADE (6,348,127) (3,099,567) 
+CAIXA LÍQUIDO UTILIZADO PELAS ATIVIDADES DE INVESTIMENTO PROVENIENTES DE OPERAÇÕES DESCONTINUADAS 608,713 (35,524) 
+CAIXA LÍQUIDO UTILIZADO PELAS ATIVIDADES DE INVESTIMENTO (5,739,414) (3,135,091) 
+Ingressos de empréstimos e financiamentos 5,051 45,325 
+Custos de transação na captação de empréstimos e financiamentos (1,693) (6,886) 
+Ingressos de debêntures emitidas 3,920,000 2,900,000 
+Custos de transação na emissão de debêntures (60,623) (60,677) 
+Amortizações de principal de empréstimos e financiamentos (261,753) (260,971) 
+Amortizações de principal de debêntures (1,079,912) (1,193,910) 
+Amortizações de principal de passivo de arrendamentos (70,949) (69,293) 
+Aumento de capital - 2,031,619 
+Custos de transação no aumento de capital - (14,941) 
+Recompra de ações próprias (50,044) 
+Dividendos e juros sobre o capital próprio pagos (1,586,565) (750,371) 
+CAIXA LÍQUIDO GERADO (UTILIZADO) PELAS ATIVIDADES DE FINANCIAMENTO PROVENIENTES DE OPERAÇÕES EM CONTINUIDADE 813,512 2,619,895 
+CAIXA LÍQUIDO GERADO (UTILIZADO) PELAS ATIVIDADES DE FINANCIAMENTO PROVENIENTES DE OPERAÇÕES DESCONTINUADAS (9,656) 76,677 
+CAIXA LÍQUIDO GERADO (UTILIZADO) PELAS ATIVIDADES DE FINANCIAMENTO 803,856 2,696,572 
+TOTAL DOS EFEITOS NO CAIXA E EQUIVALENTES DE CAIXA (1,542,022) 3,079,957 
+Saldo inicial de caixa e equivalentes de caixa 5,634,623 2,678,457 
+Saldo final de caixa e equivalentes de caixa 4,161,939 5,634,623 
+Saldo final de caixa e equivalentes de caixa proveniente de operações descontinuadas (69,338) 123,791 
+VARIAÇÃO NO CAIXA E EQUIVALENTES DE CAIXA (1,542,022) 3,079,957 
+FLUXO DE CAIXA DAS ATIVIDADES OPERACIONAIS
+FLUXO DE CAIXA DAS ATIVIDADES DE INVESTIMENTO
+FLUXO DE CAIXA DAS ATIVIDADES DE FINANCIAMENTO
+ANEXO I - RESULTADO CONSOLIDADO > FLUXO DE CAIXA CONSOLIDADO
+
+[p. 32]
+R$ milhões
+EBITDA Ajustado 4T24 4T23 Δ% 2024 2023 Δ%
+EBITDA 1,298,912 1,540,547 (15.7) 5,529,726 5,076,756 8.9 
+(-/+) Valor justo na compra e venda de energia 10,596 (11,393) (193.0) 36,605 (5,046) (825.4) 
+(-/+) Provisão/reversão de impairment de ativos 86,629 (123,694) (170.0) 84,232 (177,693) (147.4) 
+(-/+) Provisão/reversão Indenização PDV (82) - - 18,388 610,057 (97.0) 
+(-/+) Alienação de ativos - - - (264,434) - - 
+(-/+) Indenização abono terço adicional de férias - - - - 138,173 - 
+(-/+) Repactuação Risco Hidrológico (GSF) - UHE Mauá - 26,405 - - - - 
+(-/+) Provisões para Litígios - 51,119 - - 51,119 
+(-/+) Ebitda Ajustado Op. Descontinuadas Compagas e UEGA - 10,646 - 58,559 136,976 (57.2) 
+Ajustes não recorrentes 97,143 (46,917) (307.1) (66,650) 753,586 - 
+(-/+) Equivalência Patrimonial (55,804) (63,134) (11.6) (281,202) (307,809) (8.6) 
+(-/+) VNR (32,957) (20,269) 62.6 (82,424) (62,167) 32.6 
+(-/+) Diferença Receita Transmissão Societária/Regulatória (51,145) 32,076 (259.4) 6,486 3,794 71.0 
+EBITDA AJUSTADO COM OP. DESCONTINUADAS sem Equivalência Patrimonial 1,256,149 1,442,303 (531.2) 5,105,936 5,464,160 (6.6) 
+R$ mil R$ mil
+4T24 4T23 Δ% 2024 2023 Δ%
+Receitas Financeiras 327,550 272,666 20.1 1,184,779 1,069,116 10.8 
+Renda de aplicações financeiras 200,776 173,232 15.9 738,229 540,672 36.5 
+Acréscimos moratórios sobre faturas 65,317 44,007 48.4 231,333 200,341 15.5 
+Variação monetária e ajuste a valor presente sobre contas a pagar vinculadas à concessão - - - 17,838 69,059 (74.2)
+Remuneração de ativos e passivos setoriais 3,238 7,040 (54.0) 44,033 62,795 (29.9)
+Variação cambial sobre compra de energia elétrica de Itaipu 4 3,047 (99.9) 2,629 17,073 (84.6)
+Juros sobre impostos a compensar 34,099 38,964 (12.5) 92,794 89,938 3.2 
+Rendimentos e atualização monetária de depósitos judiciais 6,135 13,700 (55.2) 32,859 55,092 (40.4)
+Outras receitas 32,206 4,325 644.6 74,252 75,660 (1.9)
+(-) Pis/Pasep e Cofins sobre receitas (14,225) (11,649) 22.1 (49,188) (41,514) 18.5 
+Despesas Financeiras (704,327) (578,367) 21.8 (2,341,793) (2,274,106) 3.0 
+Variação monetária, cambial e encargos da dívida (493,276) (408,512) 20.7 (1,745,166) (1,763,555) (1.0)
+Variação monetária e reversão de juros sobre contas a pagar vinculadas à concessão - UBP (59,389) (38,990) 52.3 (167,296) (140,214) 19.3 
+Variação cambial sobre compra de energia elétrica de Itaipu (20,616) (2,820) 631.1 (40,616) (10,605) 283.0 
+PIS/Pasep e Cofins sobre juros sobre capital próprio (58,797) (30,497) 92.8 (86,609) (101,251) (14.5)
+Remuneração de ativos e passivos setoriais (2,159) (768) 181.1 (35,186) (4,542) 674.7 
+Juros sobre P&D e PEE (5,327) (5,854) (9.0) (22,050) (26,009) (15.2)
+Juros sobre parcelamento de tributos (4,681) (8,563) (45.3) (25,791) (39,569) (34.8)
+Juros sobre passivo de arrendamento (8,683) (7,033) 23.5 (28,560) (24,292) 17.6 
+Atualização Monetária de Litígios (25,976) (77,715) (66.6) (96,964) (77,715) 24.8 
+Outras despesas financeiras (8,481) 1,865 (554.7) (50,228) (27,836) 80.4 
+Atualização de provisão para destinação de créditos de PIS e Cofins (16,942) 520 (3,358.1) (43,327) (58,518) (26.0)
+Resultado Financeiro (376,777) (305,701) 23.3 (1,157,014) (1,204,990) (4.0)
+ANEXO I - RESULTADO CONSOLIDADO > EBITDA AJUSTADO E RESULTADO FINANCEIRO
+XX
+
+[p. 33]
+R$ mil
+4T24 4T23 Δ% 2024 2023 Δ%
+50,054 57,819 (13.4) 261,419 285,808 (8.5) 
+Voltalia São Miguel do Gostoso I Participações S.A. (70) 2,112 (103.3) (1,259) 1,508 (183.5) 
+3,528 2,854 23.6 12,641 12,263 3.1 
+Integração Maranhense Transmissora de Energia S.A. 4,259 4,873 (12.6) 18,623 24,218 (23.1) 
+13,763 12,728 8.1 79,117 77,493 2.1 
+(4,006) 4,933 (181.2) 31,193 30,871 1.0 
+8,418 6,617 27.2 29,908 36,269 (17.5) 
+11,769 12,861 (8.5) 48,533 58,262 (16.7) 
+ 12,310 10,799 14.0 42,448 44,563 (4.7) 
+83 42 97.6 215 361 (40.4) 
+Coligadas 5,750 5,315 8.2 19,783 22,001 (10.1) 
+1,352 1,162 16.4 5,354 5,353 0.0 
+4,398 4,155 5.8 14,431 16,651 (13.3) 
+- (2) - (2) (3) (33.3) 
+TOTAL 55,804 63,134 (11.6) 281,202 307,809 (8.6) 
+R$ mil
+Ativo Total 171,926 44,234 
+Patrimônio Líquido¹ 150,801 42,346 
+Rec. Oper. Líquida 66,349 53,431 
+Lucro Líquido 23,247 40,346 
+Participação no empreendimento - % 23.03 35.77 
+Valor contábil do investimento 34,725 15,146 
+R$ mil
+Principais Indicadores das Controladas 
+em Conjunto 
+dez-24
+Voltalia Caiuá Integração Maranhense Matrinchã Guaraciaba Paranaíba Mata de Santa Genebra Cantareira
+Ativo Total 237,464 347,626 598,513 3,017,103 1,622,959 2,097,314 3,747,356 1,831,108 
+Patrimônio Líquido¹ 237,191 283,055 437,699 2,100,405 1,056,969 1,280,022 1,387,326 993,714 
+Rec. Oper. Líquida - 37,505 61,094 333,128 167,286 238,796 391,009 178,483 
+Lucro Líquido (2,669) 25,797 38,005 161,464 63,661 122,075 96,872 86,630 
+Participação no empreendimento - % 49.0 49.0 49.0 49.0 49.0 24.5 50.1 49.0 
+Valor contábil do investimento 116,225 138,698 214,474 1,029,198 517,914 313,606 695,051 486,919 
+Variação na Equivalência Patrimonial
+Foz do Chopim Energética Ltda.
+Carbocampel S.A.
+Dona Francisca Foz do Chopim
+Empreendimentos controlados em conjunto
+Paranaíba Transmissora de Energia S.A.
+Mata de Santa Genebra Transmissão S.A.
+Cantareira Transmissora de Energia S.A.
+Solar Paraná
+Principais Indicadores das Coligadas 
+dez-24
+Nota: Resultado das Transmissoras conforme ajustes de aplicação do CPC 47 / IFRS 15 nas Demonstrações Societárias.
+Caiuá Transmissora de Energia S.A.
+Matrinchã Transmissora de Energia (TP NORTE) S.A.
+Guaraciaba Transmissora de Energia (TP SUL) S.A.
+Dona Francisca Energética S.A.
+ANEXO I - RESULTADO CONSOLIDADO > EQUIVALÊNCIA PATRIMONIAL E INDICADORES 
+XX
+
+[p. 34]
+mil ações
+Acionistas ON % PNA % PNB % Especial* TOTAL %
+Estado do Paraná 358,563 27.6% - - 116,081 6.9% <1 474,644 15.9%
+BNDESPAR 131,162 10.1% - - 524,646 31.2% - 655,808 22.0%
+Custódia da Bolsa 804,887 61.9% 707 22.6% 1,034,583 61.5% - 1,840,177 61.6%
+B3 790,177 60.8% 707 22.6% 945,052 56.2% - 1,735,937 58.1%
+NYSE 14,501 1.1% - - 87,883 5.2% - 102,384 3.4%
+LATIBEX 208 0.0% - - 1,648 0.1% - 1,856 0.1%
+Outros 3,113 0.2% 4,025 9,558 0.3%
+Tesouraria 2,624 0.2% 2,421 77.4% 3,075 0.2% - 5,698 0.2%
+TOTAL 1,300,347 100% 3,128 100% 1,682,410 100% <1 2,985,885 100%
+* Estado do Paraná possui uma ação preferencial de classe especial com poder de veto conforme estabelecido no Estatuto. 
+Capital Social - Posição em 31/12/2024
+ANEXO I - RESULTADO CONSOLIDADO > CAPITAL SOCIAL
+27.6%
+Estado do Paraná
+10.1%
+BNDESPAR
+61.9%
+Custódia da Bolsa
+0.2%
+Outros 
+0.2%
+Tesouraria
+ON
+XX
+Estado do Paraná
+15.9%
+BNDESPAR
+22.0%
+Custódia da Bolsa
+61.6%
+Outros 
+0.3%
+Tesouraria
+0.2%
+TOTAL
+
+[p. 35]
+R$ mil
+Demonstração do Resultado 4T24 4T23 Δ% 2024 2023 Δ%
+RECEITA OPERACIONAL LÍQUIDA 1,210,182 1,215,688 (0.5) 4,521,519 5,117,723 (11.6) 
+ Suprimento de energia elétrica 845,108 967,210 (12.6) 3,373,846 4,022,079 (16.1) 
+Disponibilidade da rede elétrica (TUST) 282,505 222,696 26.9 990,677 966,844 2.5 
+Receita de construção 74,625 19,079 - 123,512 99,248 24.4 
+Outras receitas operacionais 7,944 6,703 18.5 33,484 29,552 13.3 
+CUSTOS E DESPESAS OPERACIONAIS (840,151) (493,088) 70.4 (2,533,315) (2,771,944) (8.6) 
+ Energia elétrica comprada para revenda (72,997) (45,326) 61.0 (184,712) (216,565) (14.7) 
+ Encargos de uso da rede elétrica (134,691) (147,082) (8.4) (572,982) (589,428) (2.8) 
+Pessoal e administradores (72,455) (102,810) (29.5) (350,899) (604,808) (42.0) 
+Planos previdenciário e assistencial (17,668) (20,605) (14.3) (78,271) (81,704) (4.2) 
+Material (6,078) (11,454) (46.9) (20,635) (26,246) (21.4) 
+ Matéria-prima e insumos para produção de energia - - - (936) (17,654) (94.7) 
+ Serviços de terceiros (83,963) (68,661) 22.3 (285,977) (269,711) 6.0 
+ Depreciação e amortização (207,574) (209,179) (0.8) (833,140) (820,188) 1.6 
+ Provisões e reversões (57,354) 214,454 - (79,972) 159,214 - 
+ Custo de construção (53,666) (16,646) - (95,610) (85,181) 12.2 
+ Outros custos e despesas operacionais (133,705) (85,779) 55.9 (30,181) (219,673) (86.3) 
+RESULTADO DE EQUIVALÊNCIA PATRIMONIAL 54,441 59,820 (9.0) 276,895 300,589 (7.9) 
+LUCRO ANTES DO RESULTADO FINANCEIRO E TRIBUTOS 424,472 782,420 (45.7) 2,265,099 2,646,368 (14.4) 
+RESULTADO FINANCEIRO (159,262) (163,680) (2.7) (606,512) (747,409) (18.9) 
+ Receitas financeiras 110,842 78,511 41.2 386,612 334,020 15.7 
+ Despesas financeiras (270,104) (242,191) 11.5 (993,124) (1,081,429) (8.2) 
+LUCRO OPERACIONAL 265,210 618,740 (57.1) 1,658,587 1,898,959 (12.7) 
+IMPOSTO DE RENDA E CONTRIBUIÇÃO SOCIAL (15,865) (101,978) (84.4) (333,246) (264,614) 25.9 
+Imposto de Renda e Contribuição Social 10,337 (58,592) - (164,455) (247,136) (33.5) 
+Imposto de Renda e Contribuição Social diferidos (26,202) (43,386) (39.6) (168,791) (17,478) - 
+LUCRO LÍQUIDO operações continuadas 249,344 516,762 (51.7) 1,325,341 1,634,345 (18.9) 
+LUCRO LÍQUIDO operações descontinuadas 282,281 - (18,377) 66,176 - 
+LUCRO LÍQUIDO 249,344 799,043 (68.8) 1,306,964 1,700,521 (23.1) 
+Atribuído aos acionistas da empresa controladora - operações continuadas 249,345 523,341 (52.4) 1,333,697 1,651,036 (19.2) 
+Atribuído aos acionistas da empresa controladora - operações descontinuadas 15,147 167,900 (91.0) (11,586) 30,134 - 
+Atribuído aos acionistas não controladores (15,147) 107,802 - (15,147) 19,351 - 
+EBITDA DAS OP. EM CONTINUIDADE 632,046 991,599 (36.3) 3,098,239 3,466,556 (10.6) 
+ANEXO II - RESULTADO POR SUBSIDIÁRIA > COPEL GET (CONSOLIDADO)
+XX
+
+[p. 36]
+R$ mil
+Demonstração do Resultado 4T24 4T23 Δ% 2024 2023 Δ%
+RECEITA OPERACIONAL LÍQUIDA 4,474,387 4,016,174 11.4 17,030,454 15,085,707 12.9 
+ Fornecimento de energia elétrica 1,718,368 1,613,874 6.5 6,554,157 5,663,429 15.7 
+ Suprimento de energia elétrica 10,988 24,369 (54.9) 94,923 164,825 (42.4) 
+Disponibilidade da rede elétrica (TUSD) 1,745,700 1,550,506 12.6 6,520,003 5,468,715 19.2 
+Receita de construção 567,201 568,580 (0.2) 2,427,298 2,234,539 8.6 
+Valor justo do ativo indenizável da concessão 32,957 20,269 62.6 82,424 62,166 32.6 
+Resultado de ativos e passivos financeiros setoriais 272,095 91,494 197.4 838,280 971,203 (13.7) 
+Outras receitas operacionais 127,078 147,082 (13.6) 513,369 520,830 (1.4) 
+CUSTOS E DESPESAS OPERACIONAIS (3,884,468) (3,552,826) 9.3 (15,048,163) (13,983,116) 7.6 
+ Energia elétrica comprada para revenda (2,086,300) (1,585,200) 31.6 (7,308,796) (6,074,752) 20.3 
+ Encargos de uso da rede elétrica (615,211) (743,458) (17.3) (2,729,154) (2,715,273) 0.5 
+Pessoal e administradores (122,301) (191,156) (36.0) (636,853) (1,174,906) (45.8) 
+Planos previdenciário e assistencial (39,761) (42,400) (6.2) (168,977) (167,533) 0.9 
+Material (17,466) (25,544) (31.6) (63,492) (74,501) (14.8) 
+ Serviços de terceiros (200,020) (176,368) 13.4 (719,122) (643,999) 11.7 
+ Depreciação e amortização (158,288) (135,744) 16.6 (592,226) (521,301) 13.6 
+ Provisões e reversões (55,380) (54,646) 1.3 (243,470) (201,084) 21.1 
+ Custo de construção (567,201) (568,580) (0.2) (2,427,298) (2,234,539) 8.6 
+ Outros custos e despesas operacionais (22,540) (29,730) (24.2) (158,775) (175,228) (9.4) 
+LUCRO ANTES DO RESULTADO FINANCEIRO E TRIBUTOS 589,919 463,348 27.3 1,982,291 1,102,591 79.8 
+RESULTADO FINANCEIRO (144,303) (144,134) 0.1 (525,920) (475,102) 10.7 
+ Receitas financeiras 148,220 115,304 28.5 516,031 479,944 7.5 
+ Despesas financeiras (292,523) (259,438) 12.8 (1,041,951) (955,046) 9.1 
+LUCRO OPERACIONAL 445,616 319,214 39.6 1,456,371 627,489 132.1 
+IMPOSTO DE RENDA E CONTRIBUIÇÃO SOCIAL (5,184) (55,924) (90.7) (322,349) (58,368) 452.3 
+Imposto de Renda e Contribuição Social - (12,255) (100.0) - (87,394) - 
+Imposto de Renda e Contribuição Social diferidos (5,184) (43,669) (88.1) (322,349) 29,026 (1,210.6) 
+LUCRO LÍQUIDO 440,432 263,290 67.3 1,134,022 569,121 99.3 
+EBITDA 748,207 599,092 24.9 2,574,517 1,623,892 58.5 
+ANEXO II - RESULTADO POR SUBSIDIÁRIA > COPEL DIS
+XX
+
+[p. 37]
+R$ mil
+RECEITA OPERACIONAL 4T24 4T23 Δ% 2024 2023 Δ%
+Fornecimento de energia elétrica 2,151,103 1,964,152 9.5 7,982,401 6,781,115 17.7 
+ Residencial 1,041,811 900,809 15.7 3,778,272 3,034,459 24.5 
+ Industrial 178,120 189,156 (5.8) 705,332 722,341 (2.4) 
+Comercial, serviços e outras atividades 513,745 468,939 9.6 1,885,119 1,612,899 16.9 
+Rural 218,159 198,810 9.7 833,499 691,173 20.6 
+Poder Público 91,492 75,915 20.5 303,941 241,298 26.0 
+Iluminação Pública 53,556 48,641 10.1 195,188 181,555 7.5 
+Serviço Público 54,220 81,882 (33.8) 281,050 297,390 (5.5) 
+Doações e Subvenções 329,217 228,648 44.0 1,156,197 881,629 31.1 
+Suprimento de energia elétrica 11,614 25,624 (54.7) 99,686 172,283 (42.1) 
+ Contratos bilaterais 3,614 5,716 (36.8) 20,085 20,888 (3.8) 
+Câmara de Comercialização de Energia Elétrica - CCEE 8,000 19,908 (59.8) 79,601 151,395 (47.4) 
+Disponibilidade de rede elétrica 3,121,688 2,854,833 9.3 11,996,486 10,200,538 17.6 
+ Residencial 1,068,224 963,648 10.9 4,031,222 3,305,194 22.0 
+ Industrial 331,856 305,732 8.5 1,296,880 1,069,331 21.3 
+Comercial, serviços e outras atividades 582,636 544,146 7.1 2,227,426 1,883,780 18.2 
+Rural 227,214 214,242 6.1 906,835 779,668 16.3 
+Poder Público 96,833 85,568 13.2 338,066 277,885 21.7 
+Iluminação Pública 52,101 52,394 (0.6) 204,238 202,439 0.9 
+Serviço Público 48,103 66,944 (28.1) 242,492 246,560 (1.6) 
+Consumidores livres 673,695 582,231 15.7 2,585,784 2,295,051 12.7 
+Concessionárias e geradoras 41,026 39,928 2.7 163,543 140,630 16.3 
+Receita de construção 567,201 568,580 (0.2) 2,427,298 2,234,539 8.6 
+Valor justo do ativo indenizável da concessão 32,957 20,268 62.6 82,424 62,166 32.6 
+Resultado de ativos e passivos financeiros setoriais 299,830 100,820 197.4 923,725 1,070,196 (13.7) 
+Outras receitas operacionais 140,031 162,714 (13.9) 565,696 575,524 (1.7) 
+Arrendamentos e aluguéis 129,714 118,345 9.6 533,760 456,918 16.8 
+Renda da prestação de serviços 1,721 2,500 - 5,417 7,119 (23.9) 
+Outras receitas 8,596 41,869 - 26,519 111,487 (76.2) 
+RECEITA OPERACIONAL BRUTA 6,653,641 5,925,639 12.3 25,233,913 21,977,990 14.8 
+(-) Tributos e deduções (2,179,254) (1,909,465) 14.1 (8,203,459) (6,892,283) 19.0 
+(-) PIS/PASEP e COFINS (478,430) (423,381) 13.0 (1,793,824) (1,584,509) 13.2 
+(-) ICMS (886,945) (766,153) 15.8 (3,323,382) (2,510,296) 32.4 
+(-) Encargos Setoriais (813,879) (719,931) 13.0 (3,086,253) (2,797,465) 10.3 
+(-) ISS - - - - (13) - 
+RECEITA OPERACIONAL LÍQUIDA 4,474,387 4,016,174 11.4 17,030,454 15,085,707 12.9 
+ANEXO II - RESULTADO POR SUBSIDIÁRIA > COPEL DIS
+XX
+
+[p. 38]
+R$ mil
+Demonstração do Resultado 4T24 4T23 Δ% 2024 2023 Δ%
+ RECEITA OPERACIONAL LÍQUIDA 978,083 1,279,343 (23.5) 3,568,463 4,056,904 (12.0) 
+ Fornecimento de energia elétrica 481,613 555,071 (13.2) 1,902,157 2,284,271 (16.7) 
+ Suprimento de energia elétrica 495,853 688,188 (27.9) 1,663,023 1,761,200 (5.6) 
+Outras receitas operacionais 617 36,084 (98.3) 3,283 11,433 (71.3) 
+ CUSTOS E DESPESAS OPERACIONAIS (1,004,464) (1,217,362) (17.5) (3,553,557) (3,948,286) (10.0) 
+ Energia elétrica comprada para revenda (1,001,634) (1,211,291) (17.3) (3,524,688) (3,908,484) (9.8) 
+Pessoal e administradores (3,310) (3,472) (4.7) (14,462) (21,133) (31.6) 
+Planos previdenciário e assistencial (416) (458) (9.2) (1,737) (1,877) (7.5) 
+Material (66) (16) 312.5 (114) (77) 48.1 
+ Serviços de terceiros (350) (479) (26.9) (4,603) (3,389) 35.8 
+ Depreciação e amortização (433) (98) 341.8 (1,746) (2,003) (12.8) 
+ Provisões e reversões 3,656 (220) (1,761.8) (780) (3,927) (80.1) 
+ Outros custos e despesas operacionais (1,911) (1,328) 43.9 (5,427) (7,396) (26.6) 
+ LUCRO ANTES DO RESULTADO FINANCEIRO E TRIBUTOS (26,381) 61,981 (142.6) 14,906 108,618 (86.3) 
+RESULTADO FINANCEIRO 10,564 9,120 15.8 40,488 37,860 6.9 
+ Receitas financeiras 10,647 9,175 16.0 40,813 38,577 5.8 
+ Despesas financeiras (83) (55) 50.9 (325) (717) (54.7) 
+LUCRO OPERACIONAL (15,817) 71,101 (122.2) 55,394 146,478 (62.2) 
+ IMPOSTO DE RENDA E CONTRIBUIÇÃO SOCIAL 12,670 (21,229) (159.7) (11,310) (40,928) (72.4) 
+Imposto de Renda e Contribuição Social 13,580 (6,214) (318.5) (19,143) (30,418) (37.1) 
+Imposto de Renda e Contribuição Social diferidos (910) (15,015) (93.9) 7,833 (10,510) (174.5) 
+ LUCRO LÍQUIDO (3,147) 49,872 (106.3) 44,084 105,550 (58.2) 
+EBITDA (25,948) 62,079 (141.8) 16,652 110,621 (84.9) 
+ANEXO II - RESULTADO POR SUBSIDIÁRIA > COPEL COM (COMERCIALIZAÇÃO)
+XX
+
+[p. 39]
+R$ mil
+ Geração Transmissão 
+RECEITA OPERACIONAL LÍQUIDA 551,788 334,044 4,474,387 - 24,206 - 3,240 151,844 143,158 9,240 31,682 978,083 - (682,509) 6,019,164 
+Fornecimento de energia elétrica - - 1,718,368 - - - - - - - - 481,613 - (259) 2,199,722 
+Suprimento de energia elétrica 542,528 - 10,988 - 24,110 - - 150,184 143,156 9,240 - 495,853 - (556,925) 819,135 
+Disponibilidade da rede elétrica (TUSD/ TUST) - 259,658 1,745,700 - - - - - - - 24,948 - - (115,574) 1,914,732 
+Receita de construção - 67,896 567,201 - - - - - - - 6,727 - - (1) 641,824 
+Valor justo do ativo indenizável da concessão - - 32,957 - - - - - - - - - - - 32,957 
+Distribuição de gás canalizado - - - - - - - - - - - - - - - 
+Resultado de ativos e passivos financeiros setoriais - - 272,095 - - - - - - - - - - - 272,095 
+Outras receitas operacionais 9,260 6,490 127,078 - 96 - 3,240 1,660 1 - 7 617 - (9,750) 138,699 
+CUSTOS E DESPESAS OPERACIONAIS (467,793) (114,888) (3,884,468) - (30,922) - (2,789) (149,997) (93,763) (7,187) (11,112) (1,004,464) (86,792) 701,773 (5,152,337) 
+Energia elétrica comprada para revenda (61,948) - (2,086,300) - (7,770) - - (8,178) (507) (2,363) - (1,001,634) - 558,189 (2,610,512)
+Encargos de uso da rede elétrica (80,197) - (615,211) - (6,107) - - (17,265) (39,193) (346) - - - 115,253 (643,068)
+Pessoal e administradores (40,098) (28,359) (122,301) - (1,225) - (136) (3,276) (455) (124) (142) (3,310) (24,746) - (224,172)
+Planos previdenciário e assistencial (9,824) (7,274) (39,761) - (49) - (24) (465) (65) (17) (21) (416) (2,447) - (60,364)
+Material (3,414) (1,820) (17,466) - (442) - - (363) (371) (117) - (66) (596) 16 (24,646)
+Matéria-prima e insumos para produção de energia - - - - - - - - - - - - - - - 
+Gás natural e insumos para operação de gás - - - - - - - - - - - - - - - 
+Serviços de terceiros (27,175) (15,848) (200,020) - (4,247) - (1,418) (37,503) (8,447) (1,183) (3,062) (350) (12,460) 10,300 (301,629)
+Depreciação e amortização (99,815) (4,575) (158,288) - (8,101) - (1,059) (69,506) (23,461) (2,853) (11) (433) (825) (7,350) (376,281)
+Provisões e reversões (43,688) (11,886) (55,380) - - - (147) (508) - - (1,461) 3,656 (34,239) 26,425 (117,147)
+Custos de construção - (47,488) (567,201) - - - - - - - (6,177) - - - (620,867)
+Outros custos e despesas operacionais (101,634) 2,362 (22,540) - (2,980) - (5) (12,933) (21,265) (184) (238) (1,911) (11,478) (1,060) (173,651)
+RESULTADO DA EQUIVALÊNCIA PATRIMONIAL (480) 70,579 - - - - - (13,050) - - - - 686,337 (687,581) 55,804 
+RESULTADO ANTES DO RESULTADO FINANCEIRO E TRIBUTOS 83,515 289,735 589,919 - (6,715) - 451 (11,219) 49,393 2,053 20,569 (26,381) 599,546 (668,317) 922,631 
+RESULTADO FINANCEIRO (85,010) (56,158) (144,303) - (50,590) - (1,134) (25,651) 4,727 1,317 1,509 10,564 (32,048) (5) (376,777) 
+Receitas financeiras 42,936 26,865 148,220 - 2,829 - 1,222 31,236 6,467 1,317 2,019 10,647 53,954 (164) 327,550 
+Despesas financeiras (127,946) (83,023) (292,523) - (53,419) - (2,356) (56,887) (1,740) - (509) (83) (86,002) 159 (704,327)
+LUCRO OPERACIONAL (1,495) 233,577 445,616 - (57,305) - (683) (36,866) 54,120 3,370 22,079 (15,817) 567,498 (668,322) 545,854 
+IMPOSTO DE RENDA E CONTRIBUIÇÃO SOCIAL 26,708 (9,524) (5,184) - 19,497 - (818) (16,822) (16,220) (738) (1,663) 12,670 19,008 2,399 29,310 
+LUCRO LÍQUIDO COM OPERAÇÕES EM CONTINUIDADE 25,213 224,133 440,432 - (37,808) - (1,501) (53,691) 37,899 2,632 20,417 (3,147) 586,506 (665,923) 575,164 
+LUCRO LÍQUIDO COM OPERAÇÕES DESCONTINUADAS - - - - - - - - - - - - - - - 
+LUCRO LÍQUIDO DO PERÍODO 25,213 224,133 440,432 - (37,808) - (1,501) (53,691) 37,899 2,632 20,417 (3,147) 586,506 (665,923) 575,164 
+Atribuído aos acionistas da controladora - Op. Continuada 25,213 224,133 440,432 - (26,844) - (1,501) (53,691) 37,899 2,632 20,417 (3,147) 586,506 (79,037) 586,506 
+Atribuído aos acionistas da controladora - Op. Descontinuada - - - - - - - - - - - - - - - 
+Atribuído aos acionistas não controladores - Op. Continuidade - - - - (10,964) - - - - - - - - (378) (11,342)
+Atribuído aos acionistas não controladores - Op. Descontinuadas - - - - - - - - - - - - - - - 
+EBITDA operações continuadas 183,330 294,310 748,207 - 1,386 - 1,510 58,291 72,854 4,906 20,580 (25,948) 600,371 (660,967) 1,298,912 
+Consolidado Parques Eólicos FDA Bela Vista
+ C. Oeste, 
+Marumbi, 
+Uirapuru 
+ Mercado Livre Holding Elimin. e Reclassif. Demonstração do Resultado 4T24 GET Distribuição Compagas Elejor UEG Araucária Serviços 
+ANEXO II - RESULTADO POR SUBSIDIÁRIA > DRE POR EMPRESA TRIMESTRAL
+XX
+
+[p. 40]
+Geração Transmissão 
+ RECEITA OPERACIONAL LÍQUIDA 630,506 230,996 4,016,174 212,824 34,465 - - 172,135 172,465 6,804 19,547 1,037,173 - (965,391) 5,567,698 
+ Fornecimento de energia elétrica 6 (6) 1,613,874 - - - - - - - - 579,008 - (391) 2,192,491 
+ Suprimento de energia elétrica 615,810 - 24,369 - 34,377 - - 172,135 172,459 6,804 - 454,267 - (616,143) 864,078 
+ Disponibilidade da rede elétrica (TUSD/ TUST) - 205,764 1,550,506 - - - - - - - 19,503 - - (121,571) 1,654,202 
+ Receita de construção - 19,043 568,580 6,822 - - - - - - 37 - - (6,822) 587,660 
+ Valor justo do ativo indenizável da concessão - - 20,269 - - - - - - - - - - - 20,269 
+ Distribuição de gás canalizado - - - 206,002 - - - - - - - - - (206,002) - 
+ Resultado de ativos e passivos financeiros setoriais - - 91,494 - - - - - - - - - - - 91,494 
+ Outras receitas operacionais 14,690 6,195 147,082 - 88 - - - 6 - 7 3,898 - (14,462) 157,504 
+ CUSTOS E DESPESAS OPERACIONAIS (178,298) (71,020) (3,552,826) (184,753) (23,776) 221,574 (1,779) (141,265) (96,852) (9,211) (2,595) (1,016,477) (105,281) 717,468 (4,445,091) 
+ Energia elétrica comprada para revenda (26,952) (14,741) (1,585,200) - (25) (3,282) - (3,633) - - - (1,007,473) - 619,242 (2,022,064) 
+ Encargos de uso da rede elétrica (92,034) - (743,458) - (6,236) (8,962) - (16,861) (40,211) (347) - - - 129,887 (778,222) 
+ Pessoal e administradores (54,172) (41,749) (191,156) (10,421) (1,176) (1,770) (47) (5,555) (773) (305) (256) (3,670) (17,783) 12,191 (316,642) 
+ Planos previdenciário e assistencial (11,458) (8,347) (42,400) (1,716) (56) (214) (8) (652) (92) (25) (31) (453) (2,428) 1,930 (65,950) 
+ Material (2,518) (1,331) (25,544) (503) (58) (8) (212) (3,614) (572) (3,324) (93) (17) (636) 514 (37,916) 
+ Matéria-prima e insumos para produção de energia - - - - - (428) - - - - - - - 428 - 
+ Gás natural e insumos para operação de gás - - - (145,206) - - - - - - - - - 145,206 - 
+ Serviços de terceiros (27,216) (13,199) (176,368) (3,764) (3,913) (5,010) (1,212) (30,613) (4,718) (2,253) (1,760) (502) (18,326) 20,894 (267,960) 
+ Depreciação e amortização (94,000) (4,182) (135,744) (10,781) (8,467) (5,156) (211) (68,883) (32,037) (2,718) (10) (440) (767) 8,588 (354,808) 
+ Provisões e reversões 185,768 24,771 (54,646) (1,150) - 248,283 - 3,933 (48) (1) (82) (672) (58,999) (234,620) 112,537 
+ Custos de construção - (16,609) (568,580) (6,822) - - - - - - (37) - - 6,822 (585,226) 
+ Repactuação do Risco Hidrológico (GSF) - UHE Mauá (26,405) - - - - - - - - - - - - - (26,405) 
+ Outros custos e despesas operacionais (29,311) 4,367 (29,730) (4,390) (3,845) (1,879) (89) (15,387) (18,401) (238) (326) (3,250) (6,342) 6,386 (102,435) 
+ RESULTADO DA EQUIVALÊNCIA PATRIMONIAL 45,912 72,987 - - - - - 15,070 - - - - 812,988 (883,823) 63,134 
+ RESULTADO ANTES DO RESULTADO FINANCEIRO E TRIBUTOS 498,120 232,963 463,348 28,071 10,689 221,574 (1,779) 45,940 75,613 (2,407) 16,952 20,696 707,707 (1,131,746) 1,185,740 
+ RESULTADO FINANCEIRO (94,652) (53,124) (144,134) (2,586) (33,348) (1,442) (23) (24,249) 8,865 869 1,642 10,126 31,683 (5,328) (305,701) 
+ Receitas financeiras 25,590 12,903 115,304 11,687 4,647 602 138 30,901 9,039 876 2,233 10,579 69,812 (21,645) 272,666 
+ Despesas financeiras (120,242) (66,027) (259,438) (14,273) (37,995) (2,044) (161) (55,150) (174) (7) (591) (453) (38,129) 16,317 (578,367) 
+ LUCRO OPERACIONAL 403,468 179,839 319,214 25,485 (22,659) 220,132 (1,802) 21,691 84,478 (1,538) 18,594 30,822 739,390 (1,137,074) 880,039 
+ IMPOSTO DE RENDA E CONTRIBUIÇÃO SOCIAL (45,171) (14,794) (55,924) 2,489 5,186 50,409 - (16,367) (26,152) (510) (1,388) (6,148) (102,129) (50,499) (260,998) 
+ LUCRO LÍQUIDO COM OPERAÇÕES EM CONTINUIDADE 358,297 165,045 263,290 27,974 (17,473) 270,541 (1,802) 5,324 58,326 (2,048) 17,206 24,674 637,261 (1,187,573) 619,041 
+ LUCRO LÍQUIDO COM OPERAÇÕES DESCONTINUADAS 167,900 - - - - - - - - - - - 241,762 (85,895) 323,767 
+ LUCRO LÍQUIDO DO PERÍODO 526,197 165,045 263,290 27,974 (17,473) 270,541 (1,802) 5,324 58,326 (2,048) 17,206 24,674 879,023 (1,273,468) 942,808 
+ Atribuído aos acionistas da controladora - Op. Continuada 358,298 165,045 263,290 - (12,231) - (1,802) 5,324 58,326 (2,048) 17,206 24,674 805,160 (1,043,981) 637,260 
+ Atribuído aos acionistas da controladora - Op. Descontinuada 167,899 - - 14,267 - 219,679 - - - - - - 73,863 (233,942) 241,762 
+ Atribuído aos acionistas não controladores - Op. Continuidade - - - - (5,241) - - - - - - - - - (5,241) 
+ Atribuído aos acionistas não controladores - Op. Descontinuadas - - - 13,707 - 50,862 - - - - - - - 4,455 69,027 
+EBITDA operações continuadas 592,120 237,145 599,092 38,852 19,156 226,730 (1,568) 114,823 107,650 311 16,962 21,136 708,474 (1,140,334) 1,540,548 
+Demonstração do Resultado 4T23
+ GET 
+Distribuição Compagas Elejor UEG Araucária Serviços Parques Eólicos FDA ConsolidadoBela Vista
+ C. Oeste, 
+Marumbi, 
+Uirapuru 
+ Mercado Livre Holding Elimin. e Reclassif.
+
+[p. 41]
+R$ mil
+ Geração Transmissão 
+RECEITA OPERACIONAL LÍQUIDA 2,140,091 1,058,810 17,030,454 562,129 91,418 - 6,333 694,437 560,074 35,834 91,424 3,568,463 - (3,188,432) 22,651,036 
+Fornecimento de energia elétrica - - 6,554,157 - - - - - - - - 1,902,157 - (1,324) 8,454,990 
+Suprimento de energia elétrica 2,089,599 - 94,923 - 90,944 - - 688,627 560,064 35,834 - 1,663,023 - (2,102,387) 3,120,628 
+Disponibilidade da rede elétrica (TUSD/ TUST) - 916,243 6,520,003 - - - - - - - 83,776 - - (471,986) 7,048,036 
+Receita de construção - 115,891 2,427,298 13,618 - - - - - - 7,620 - - (13,619) 2,550,809 
+Valor justo do ativo indenizável da concessão - - 82,424 - - - - - - - - - - - 82,424 
+Distribuição de gás canalizado - - - 548,511 - - - - - - - - - (548,511) - 
+Resultado de ativos e passivos financeiros setoriais - - 838,280 - - - - - - - - - - - 838,280 
+Outras receitas operacionais 50,492 26,676 513,369 - 474 - 6,333 5,810 9 - 28 3,283 - (50,605) 555,869 
+CUSTOS E DESPESAS OPERACIONAIS (1,274,046) (288,076) (15,048,162) (503,515) (102,299) (44,679) (7,129) (605,320) (354,251) (22,151) (18,454) (3,553,557) (253,352) 3,206,939 (18,867,990)
+Energia elétrica comprada para revenda (115,304) - (7,308,796) - (10,698) - - (55,266) (10,066) (4,354) - (3,524,688) - 2,104,278 (8,924,895)
+Encargos de uso da rede elétrica (355,610) - (2,729,154) - (24,833) (18,392) - (66,944) (158,426) (1,379) - - - 489,250 (2,865,490)
+Pessoal e administradores (192,129) (140,359) (636,853) (33,621) (5,480) (3,124) (264) (15,041) (2,116) (571) (682) (14,462) (73,838) 36,744 (1,081,797)
+Planos previdenciário e assistencial (43,577) (31,938) (168,977) (4,083) (173) (364) (45) (2,248) (318) (85) (104) (1,737) (10,149) 4,447 (259,352)
+Material (10,208) (5,638) (63,492) (416) (681) (18) (16) (2,959) (1,553) (204) (72) (114) (1,946) 442 (86,882)
+Matéria-prima e insumos para produção de energia (936) - - - - (944) - - - - - - - 944 (936)
+Gás natural e insumos para operação de gás - - - (397,554) - - - - - - - - - 397,554 - 
+Serviços de terceiros (94,349) (53,830) (719,122) (10,650) (16,845) (9,842) (3,951) (134,210) (35,633) (3,446) (7,650) (4,603) (47,658) 67,697 (1,074,308)
+Depreciação e amortização (379,870) (17,025) (592,226) (27,146) (32,333) (10,316) (2,788) (276,172) (119,234) (11,393) (44) (1,746) (3,245) 8,064 (1,465,478)
+Provisões e reversões (60,626) (22,088) (243,470) (7,541) - (176) (147) (953) (7) (38) (1,754) (780) (83,596) 75,994 (345,102)
+Custos de construção - (88,565) (2,427,298) (13,618) - - - - - - (7,044) - - 13,618 (2,522,908)
+Outros custos e despesas operacionais (21,437) 71,367 (158,775) (8,887) (11,256) (1,503) 82 (51,527) (26,899) (681) (1,104) (5,427) (32,919) 7,907 (240,842)
+RESULTADO DA EQUIVALÊNCIA PATRIMONIAL 82,766 340,016 - - - - - (23,053) - - - - 2,512,087 (2,630,613) 281,202 
+RESULTADO ANTES DO RESULTADO FINANCEIRO E TRIBUTOS 948,811 1,110,750 1,982,291 58,613 (10,881) (44,679) (796) 66,048 205,821 13,683 72,969 14,906 2,258,736 (2,612,106) 4,064,248 
+RESULTADO FINANCEIRO (316,747) (217,679) (525,920) (10,608) (124,476) (4,372) (1,621) (108,525) 26,763 4,473 6,570 40,488 63,828 10,806 (1,157,014)
+Receitas financeiras 131,051 81,741 516,031 29,114 32,223 1,068 3,285 133,184 28,941 4,428 8,636 40,813 211,411 (37,149) 1,184,779 
+Despesas financeiras (447,798) (299,420) (1,041,951) (39,721) (156,699) (5,440) (4,906) (241,709) (2,178) 45 (2,065) (325) (147,583) 47,955 (2,341,793)
+LUCRO OPERACIONAL 632,064 893,071 1,456,371 48,006 (135,357) (49,051) (2,417) (42,473) 232,584 18,156 79,540 55,394 2,322,564 (2,601,300) 2,907,234 
+IMPOSTO DE RENDA E CONTRIBUIÇÃO SOCIAL (95,426) (96,092) (322,349) (17,301) 46,029 - (1,935) (64,387) (76,873) (2,628) (5,742) (11,310) 23,377 25,205 (599,435)
+LUCRO LÍQUIDO COM OPERAÇÕES EM CONTINUIDADE 536,638 797,059 1,134,022 30,705 (89,328) (49,051) (4,352) (106,863) 155,710 15,528 73,799 44,084 2,345,941 (2,576,095) 2,307,799 
+LUCRO LÍQUIDO COM OPERAÇÕES DESCONTINUADAS (11,586) - - - - - - - - - - - 463,690 39,467 491,571 
+LUCRO LÍQUIDO DO PERÍODO 525,052 797,059 1,134,022 30,705 (89,328) (49,051) (4,352) (106,863) 155,710 15,528 73,799 44,084 2,809,631 (2,536,628) 2,799,370 
+Atribuído aos acionistas da controladora Op. Continuada 536,638 797,059 1,134,022 - (62,528) - (4,352) (106,863) 155,710 15,528 73,799 44,084 2,334,356 (2,571,512) 2,345,941 
+Atribuído aos acionistas da controladora Op. Descontinuada (11,586) - 15,660 - (39,829) - - - - - - 475,275 24,171 463,690 
+Atribuído aos acionistas não controladores Op. Continuidade - - - - (26,800) - - - - - - - - - (26,800)
+Atribuído aos acionistas não controladores Op. Descontinuadas - - - 15,045 - (9,222) - - - - - - - 10,715 16,539 
+EBITDA operações continuadas 1,328,681 1,127,775 2,574,517 85,759 21,452 (34,363) 1,992 342,224 325,055 25,076 73,013 16,652 2,261,981 (2,620,170) 5,529,726 
+Holding Elimin. e Reclassif. Consolidado Serviços Parques Eólicos FDA Bela Vista C. Oeste, Marumbi, Uirapuru Mercado Livre UEG Araucária Demonstração do Resultado 2024 GET Distribuição Compagas Elejor
+ANEXO II - RESULTADO POR SUBSIDIÁRIA > DRE POR EMPRESA ACUMULADO
+XX
+
+[p. 42]
+Geração Transmissão 
+ RECEITA OPERACIONAL LÍQUIDA 2,523,737 1,034,167 15,085,707 978,581 140,757 - - 782,111 755,449 29,754 67,695 4,056,904 - (3,975,394) 21,479,468 
+ Fornecimento de energia elétrica 6 (6) 5,663,429 - - - - - - - - 2,284,271 - (1,532) 7,946,168 
+ Suprimento de energia elétrica 2,463,377 - 164,825 - 139,968 - - 781,534 755,433 29,754 - 1,761,200 - (2,493,303) 3,602,788 
+ Disponibilidade da rede elétrica (TUSD/ TUST) - 908,902 5,468,715 - - - - - - - 67,969 - - (443,394) 6,002,192 
+ Receita de construção - 99,549 2,234,539 17,010 - - - - - - (301) - - (17,010) 2,333,787 
+ Valor justo do ativo indenizável da concessão - - 62,167 - - - - - - - - - - - 62,167 
+ Distribuição de gás canalizado - - - 961,567 - - - - - - - - - (961,567) - 
+ Resultado de ativos e passivos financeiros setoriais - - 971,203 - - - - - - - - - - - 971,203 
+ Outras receitas operacionais 60,354 25,722 520,829 4 789 - - 577 16 - 27 11,433 - (58,588) 561,163 
+ CUSTOS E DESPESAS OPERACIONAIS (1,336,235) (477,353) (13,983,117) (814,455) (92,793) 4,674 (2,606) (532,931) (432,953) (23,618) (9,417) (3,948,286) (216,087) 3,772,614 (18,092,563) 
+ Energia elétrica comprada para revenda (123,926) (14,741) (6,074,752) - (1,073) (3,282) - (23,261) (61,983) (673) - (3,908,484) - 2,495,985 (7,716,190) 
+ Encargos de uso da rede elétrica (373,875) - (2,715,273) - (24,149) (35,362) - (64,281) (159,227) (1,335) - - - 476,792 (2,896,710) 
+ Pessoal e administradores (334,294) (246,379) (1,174,906) (43,201) (4,991) (6,381) (62) (18,779) (3,036) (1,306) (1,014) (21,133) (72,432) 49,582 (1,878,332) 
+ Planos previdenciário e assistencial (46,035) (32,882) (167,533) (6,222) (196) (733) (10) (2,214) (356) (96) (121) (1,877) (8,839) 6,955 (260,159) 
+ Material (10,932) (5,374) (74,501) (1,574) (248) (40) (212) (4,725) (1,644) (3,363) (209) (77) (1,384) 1,616 (102,667) 
+ Matéria-prima e insumos para produção de energia (17,654) - - - - (1,459) - - - - - - - 1,459 (17,654) 
+ Gás natural e insumos para operação de gás - - - (678,885) - - - - - - - - - 678,885 - 
+ Serviços de terceiros (104,178) (49,586) (643,999) (13,861) (16,355) (21,096) (1,594) (117,604) (32,052) (4,589) (6,671) (3,389) (65,775) 84,437 (996,312) 
+ Depreciação e amortização (378,112) (16,167) (521,301) (41,148) (33,863) (21,588) (1,668) (259,228) (127,732) (11,201) (40) (2,003) (3,017) 35,028 (1,382,040) 
+ Provisões e reversões 168,260 (20,712) (201,083) (548) - 97,811 - 6,116 (50) (1) (425) (3,927) (47,348) (90,328) (92,235) 
+ Custos de construção - (85,482) (2,234,539) (17,010) - - - - - - 301 - - 17,010 (2,319,720) 
+ Outros custos e despesas operacionais (115,489) (6,030) (175,230) (12,006) (11,918) (3,196) 940 (48,955) (46,873) (1,054) (1,238) (7,396) (17,292) 15,193 (430,544) 
+ RESULTADO DA EQUIVALÊNCIA PATRIMONIAL 305,369 347,703 - - - - - 86,058 - - - - 2,332,609 (2,763,930) 307,809 
+ RESULTADO ANTES DO RESULTADO FINANCEIRO E TRIBUTOS 1,492,871 904,517 1,102,590 164,126 47,964 4,674 (2,606) 335,238 322,496 6,136 58,278 108,618 2,116,522 (2,966,710) 3,694,714 
+ RESULTADO FINANCEIRO (381,271) (284,257) (475,102) (11,757) (43,569) 2,856 (656) (115,435) 26,634 3,296 6,655 37,860 30,212 (456) (1,204,990) 
+ Receitas financeiras 106,496 57,636 479,944 36,559 90,509 9,803 497 133,035 27,294 3,304 9,286 38,577 145,881 (69,705) 1,069,116 
+ Despesas financeiras (487,767) (341,893) (955,046) (48,316) (134,078) (6,947) (1,153) (248,470) (660) (8) (2,631) (717) (115,669) 69,249 (2,274,106) 
+ LUCRO OPERACIONAL 1,111,600 620,260 627,488 152,369 4,395 7,530 (3,262) 219,803 349,130 9,432 64,933 146,478 2,146,734 (2,967,166) 2,489,724 
+ IMPOSTO DE RENDA E CONTRIBUIÇÃO SOCIAL (60,404) (20,420) (58,368) (40,750) (1,487) 36,795 - (67,057) (115,615) (2,900) (5,347) (40,928) 11,343 11,081 (354,057) 
+ LUCRO LÍQUIDO COM OPERAÇÕES EM CONTINUIDADE 1,051,196 599,840 569,120 111,619 2,908 44,325 (3,262) 152,746 233,515 6,532 59,586 105,550 2,158,077 (2,956,085) 2,135,667 
+ LUCRO LÍQUIDO COM OPERAÇÕES DESCONTINUADAS 30,134 - - - - - - - - - - - 100,733 60,634 191,501 
+ LUCRO LÍQUIDO DO PERÍODO 1,081,330 599,840 569,120 111,619 2,908 44,325 (3,262) 152,746 233,515 6,532 59,586 105,550 2,258,810 (2,895,451) 2,327,168 
+ Atribuído aos acionistas da controladora Op. Continuada 1,051,196 599,840 569,120 - 2,036 - (3,262) 152,746 233,515 6,532 59,586 105,550 2,188,210 (2,806,993) 2,158,077 
+ Atribuído aos acionistas da controladora Op. Descontinuada 30,134 - - 56,926 - 35,992 - - - - - - 70,600 (92,913) 100,733 
+ Atribuído aos acionistas não controladores Op. Continuidade - - - - 873 - - - - - - - - - 873 
+ Atribuído aos acionistas não controladores Op. Descontinuadas - - - 54,693 - 8,333 - - - - - - - 4,455 67,485 
+EBITDA operações continuadas 1,870,983 920,684 1,623,891 205,274 81,827 26,262 (938) 594,466 450,228 17,337 58,318 110,621 2,119,539 (3,001,738) 5,076,754 
+ Elimin. e 
+Reclassif. Consolidado Parques Eólicos FDA Bela Vista C. Oeste, Marumbi, Uirapuru Mercado Livre Holding Demonstração do Resultado 2023 GET Distribuição Compagas Elejor UEG Araucária Serviços
+
+[p. 43]
+R$ mil
+ Ativo-Dez/24 Geração e Transmissão Distribuição Compagas Elejor UEG Araucária Serviços Parques Eólicos FDA Bela Vista Costa Oeste, Marumbi, Uirapuru Mercado Livre Holding Elimin. e Reclassif. Consolidado
+CIRCULANTE 3,478,566 6,769,769 - 124,996 - 48,889 1,119,406 146,365 60,415 106,590 916,049 3,264,843 (2,994,084) 13,041,808 
+ Caixa e equivalentes de caixa 511,790 1,734,522 - 97,082 - 42,389 976,988 61,545 55,027 77,510 324,750 280,340 (13) 4,161,939 
+ Títulos e valores mobiliários - - - - - 528 0 - - - - 95 - 624 
+ Cauções e depósitos vinculados - 9 - - - - - - - - - - - 9 
+ Clientes 379,135 3,267,284 - 10,752 - 3,795 94,192 76,636 4,118 8,750 348,795 - (230,755) 3,962,702 
+ Dividendos a receber 153,322 - - - - - 8,393 - - - 0 2,644,431 (2,723,868) 82,278 
+ Ativos financeiros setoriais 10,609 - - - - - - - - - - - - 10,609 
+ Contas a receber vinculadas à concessão 265,846 - - - - - - - - 18,050 - - - 283,896 
+ Ativos de contrato - - - - - - - - - - 217,350 - - 217,350 
+ Outros créditos 90,679 541,676 - 3,210 - 74 4,084 6,595 - 549 8,561 301,929 (7,680) 949,674 
+ Estoques 39,204 95,620 - 1,299 - - - - - 201 - - - 136,324 
+ Imposto de renda e contribuição social 108,582 101,406 - 10,831 - 2,035 25,086 134 907 1,409 13,387 32,349 - 296,128 
+ Outros tributos a recuperar 10,626 979,880 - - - - 80 1,035 8 - 2,990 - - 994,618 
+ Despesas antecipadas 9,288 42,066 - 1,822 - 68 7,913 420 355 122 216 944 - 63,211 
+ Partes relacionadas 17,664 7,306 - - - - 2,670 - - - - 4,754 (31,773) 621 
+Ativos classificados como mantidos para venda 1,881,821 - - - - - - - - - - - 5 1,881,826 
+NÃO CIRCULANTE 22,800,216 16,797,534 - 623,724 - 100,266 7,961,804 2,279,634 184,758 508,080 531,035 23,164,333 (30,609,036) 44,342,348 
+Realizável a Longo Prazo 6,186,586 6,847,655 - 132,366 - 15,084 747,629 54,415 - 507,812 520,497 708,857 (405,709) 15,315,121 
+ Títulos e valores mobiliários 149,368 3,159 - - - - 353,799 17,941 - 4,815 - - - 529,085 
+ Outros investimentos temporários - - - - - 14,709 - - - - - 15,894 - 30,603 
+ Clientes - 116,180 - - - - - - - - - - - 116,180 
+ Depósitos judiciais 49,775 190,181 - - - 72 484 - - 242 16,933 136,677 - 394,364 
+ Ativos financeiros setoriais - - - - - - - - - - - - - - 
+ Contas a receber vinculadas à concessão 886,620 2,610,731 - - - - - - - - - - - 3,497,351 
+ Ativos de contrato 4,729,547 1,701,448 - - - - - - - 502,754 - - (6,739) 6,927,010 
+ Outros créditos - - - - - - - - - - 479,938 - - 479,938 
+ Imposto de renda e contribuição social 276,590 65,322 - 6,954 - - - 34,860 - - - 298,120 - 681,846 
+ Imposto de renda e contribuição social diferidos 1,819 59,940 - - - - - - - - 22,780 79,504 - 164,043 
+ Outros tributos a recuperar - 918,078 - 119,561 - - - - - - - 136,536 - 1,174,175 
+ Despesas antecipadas 92,867 1,182,616 - - - 303 224 1,614 - - 776 42,126 - 1,320,526 
+ Partes relacionadas - - - 5,851 - - 393,122 - - - - - (398,970) - 
+ Investimentos 10,104,390 442 - - - - 2,698,723 - - - - 22,431,868 (31,657,485) 3,577,937 
+ Imobilizado 3,160,968 - - 317,388 - 80,590 4,462,642 306,000 180,931 229 702 7,248 - 8,516,697 
+ Intangível 3,260,920 9,788,358 - 173,337 - 901 8,809 1,918,982 3,827 39 5,731 8,546 1,454,158 16,623,610 
+ Direito de uso de ativos 87,352 161,079 - 633 - 3,691 44,001 237 - - 4,174 7,815 - 308,983 
+TOTAL 26,278,782 23,567,303 - 748,720 - 149,155 9,081,210 2,425,999 245,173 614,670 1,447,083 26,429,176 (33,603,120) 57,384,156 
+ANEXO II - RESULTADO POR SUBSIDIÁRIA > ATIVO POR EMPRESA
+XX
+
+[p. 44]
+R$ mil
+ Ativo-Dez/23 Geração e Transmissão Distribuição Compagas Elejor UEG Araucária Serviços Parques Eólicos FDA Bela Vista Costa Oeste, Marumbi, Uirapuru Mercado Livre Holding Elimin. e Reclassif. Consolidado
+CIRCULANTE 2,483,103 5,153,666 240,017 209,323 36,580 13,598 1,008,543 442,162 38,993 110,409 1,074,359 4,820,021 (1,915,044) 13,715,730 
+ Caixa e equivalentes de caixa 1,008,767 626,708 101,437 166,544 22,354 3,290 831,553 353,241 34,999 83,343 294,762 2,231,413 (123,788) 5,634,623 
+ Títulos e valores mobiliários - - - - - 4,670 - - - - - 93 - 4,763 
+ Cauções e depósitos vinculados - 9 211 - - - - - - - - - (211) 9 
+ Clientes 425,448 2,973,010 83,153 21,157 - - 115,672 84,309 3,074 7,976 382,264 - (334,893) 3,761,170 
+ Dividendos a receber 212,944 - - - - - 19,883 - - - - 1,942,406 (2,079,664) 95,569 
+ Ativos financeiros setoriais - 15,473 - - - - - - - - - - - 15,473 
+ Contas a receber vinculadas à concessão 9,354 - - - - - - - - - - - - 9,354 
+ Ativos de contrato 268,260 - - - - - - - - 16,356 - - - 284,616 
+ Outros créditos 118,627 435,619 43,950 9,398 1 3,120 5,968 252 - 653 383,243 2,431 (53,530) 949,732 
+ Estoques 37,923 131,927 5,383 264 - 16 4,375 16 - 205 - - (5,383) 174,726 
+ Imposto de renda e contribuição social 150,720 1,259 5,326 10,217 13,909 1,937 19,316 2,586 491 1,644 13,516 113,532 (19,235) 315,218 
+ Outros tributos a recuperar 18,688 922,450 8 - - 565 102 1,180 23 - 333 - (6) 943,343 
+ Despesas antecipadas 11,334 37,807 549 1,743 316 - 8,631 578 406 232 241 1,897 (865) 62,869 
+ Partes relacionadas 24,474 9,404 - - - - 3,043 - - - - 54 (35,639) 1,336 
+ Ativos classificados como mantidos para venda 196,564 - - - - - - - - - - 528,195 738,170 1,462,929 
+NÃO CIRCULANTE 20,868,273 16,677,461 783,607 594,827 386,787 49,078 8,125,742 452,885 196,589 491,174 750,631 20,538,876 (27,812,586) 42,103,344 
+Realizável a Longo Prazo 5,886,631 8,229,821 73,274 83,192 98,157 593 609,417 18,922 224 490,861 740,114 611,187 (498,956) 16,343,437 
+ Títulos e valores mobiliários 136,591 1,005 - - - - 330,401 16,388 - 4,410 1,937 - - 490,732 
+ Outros investimentos temporários - - - - - - - - - - - 31,728 - 31,728 
+ Clientes - 105,259 - - - - - - - - - - - 105,259 
+ Depósitos judiciais 94,368 380,433 61 - 41 593 81 - 218 - 15,647 143,371 (101) 634,712 
+ Ativos financeiros setoriais - 15,473 - - - - - - - - - - - 15,473 
+ Contas a receber vinculadas à concessão 855,222 1,954,679 - - - - - - - - - - - 2,809,901 
+ Ativos de contrato 4,639,497 2,201,958 44,039 - - - - - - 486,451 - - (51,500) 7,320,445 
+ Outros créditos 81,646 44,839 29,174 2,507 - - 44 1,859 - - 722,423 18 (29,170) 853,340 
+ Imposto de renda e contribuição social 508 66,123 - 1,301 - - - - - - 71 - - 68,003 
+ Imposto de renda e contribuição social diferidos - 1,324,670 - 73,533 73,066 - - - - - - 359,485 (73,066) 1,757,688 
+ Outros tributos a recuperar 78,799 2,135,382 - - 25,050 - 178 675 6 - 36 41,078 (25,048) 2,256,156 
+ Partes relacionadas - - - 5,851 - - 278,713 - - - - 35,507 (320,071) - 
+ Investimentos 8,629,485 443 - - - - 2,788,839 - - - - 19,906,237 (27,813,207) 3,511,797 
+ Imobilizado 5,259,216 - - 326,291 288,602 43,881 4,676,981 318,527 191,085 247 770 8,424 (288,603) 10,825,421 
+ Intangível 1,028,600 8,317,327 699,697 184,539 28 911 7,267 115,436 5,280 66 5,784 6,336 798,818 11,170,089 
+ Direito de uso de ativos 64,341 129,870 10,636 805 - 3,693 43,238 - - - 3,963 6,692 (10,638) 252,600 
+TOTAL 23,351,376 21,831,127 1,023,624 804,150 423,367 62,676 9,134,285 895,047 235,582 601,583 1,824,990 25,358,897 (29,727,630) 55,819,074
+
+[p. 45]
+Passivo-Dez/24 Geração e Transmissão Distribuição Compagas Elejor UEG Araucária Serviços Parques Eólicos FDA Bela Vista Costa Oeste, Marumbi, Uirapuru Mercado Livre Holding Elimin. e Reclassif. Consolidado
+CIRCULANTE 5,107,929 5,979,105 - 114,110 - 11,151 655,490 153,431 5,495 29,976 878,302 404,699 (2,997,302) 10,342,381 
+ Obrigações sociais e trabalhistas 119,712 265,757 - 381 - - - - - - 4,447 20,805 - 411,102 
+ Partes relacionadas 10,810 11,482 - - - 160 9,617 520 141 162 368 1,690 (34,954) - 
+ Fornecedores 319,382 1,792,275 - 3,857 - 9,345 56,148 21,547 718 5,323 350,946 3,362 (238,481) 2,324,423 
+ Imposto de renda e contribuição social - - - - - 457 9,548 72,506 368 602 - - - 83,482 
+ Outras obrigações fiscais 24,925 252,462 - 736 - (24) 7,382 5,255 177 362 10,462 614 - 302,346 
+ Empréstimos e financiamentos 1,097,232 2,971 - - - - 126,082 - - 4,921 - - - 1,231,205 
+ Debêntures 1,056,707 908,720 - - - 1,192 58,491 - - - - - - 2,025,110 
+ Dividendos a pagar 1,699,433 663,654 - - - - 21,710 36,982 3,688 17,527 280,873 3,881 (2,723,868) 3,878 
+ Benefícios pós-emprego 24,557 66,352 - - - - - - - - 126 4,348 - 95,383 
+ Encargos do consumidor a recolher 19,940 23,598 - - - - - 855 - 432 - - - 44,825 
+ Pesquisa e desenvolvimento e eficiência energética 13,567 161,074 - 104 - - - 3,827 - 577 - - - 179,149 
+ Contas a pagar vinculadas à concessão 4,686 - - 106,333 - - - 2,073 - - - - - 113,092 
+ Passivos financeiros setoriais - 935,322 - - - - - - - - - - - 935,322 
+ Passivo de arrendamento 13,697 41,959 - 284 - 21 571 186 - - 180 604 - 57,502 
+ Valor justo na compra e venda de energia - - - - - - - - - - 214,955 - - 214,955 
+ Outras contas a pagar 161,869 273,479 - 2,415 - - 365,940 9,682 403 69 15,945 369,395 - 1,199,195 
+ PIS e Cofins a restituir para consumidores - - - - - - - - - - - - - - 
+ Provisão para destinação de crédito de PIS e Cofins - 580,000 - - - - - - - - - - - 580,000 
+ Provisões para litígios - - - - - - - - - - - - - - 
+ Passivos associados a ativos classificados como mantidos para venda 541,412 - - - - - - - - - - - - 541,412 
+NÃO CIRCULANTE 6,931,439 9,922,614 - 760,550 - 74,736 3,145,692 86,163 3,221 38,654 280,154 349,758 (188,137) 21,404,840 
+ Obrigações sociais - 30 - - - - - - - - - 427 - 457 
+ Partes relacionadas - - - - - - 389,891 - - - - 5,851 (395,742) - 
+ Fornecedores 142,376 - - - - - - - - - - - - 142,380 
+ Imposto de renda e contribuição social diferidos 1,445,182 - - 1,222 - 802 33,343 10,513 1,679 18,752 102,398 - 281,567 1,895,459 
+ Outras obrigações fiscais - 291,195 - - - - - - - - - - - 291,195 
+ Empréstimos e financiamentos 566,724 750,733 - - - - 2,054,424 - - 15,708 - - - 3,387,589 
+ Debêntures 3,892,598 6,205,483 - - - 69,701 434,474 - - - - - - 10,602,255 
+ Benefícios pós-emprego 304,420 718,933 - - - - - - - - 2,342 37,631 - 1,063,326 
+ Pesquisa e desenvolvimento e eficiência energética - 234,277 - - - - - 6,488 - 529 - - - 241,294 
+ Contas a pagar vinculadas à concessão 167,478 - - 755,649 - - - 69,125 - - - - - 992,252 
+ Passivos financeiros setoriais - 142,488 - - - - - - - - - - - 142,488 
+ Passivo de arrendamento 80,058 127,277 - 393 - 3,861 47,308 36 - - 4,311 7,761 - 271,004 
+ Outras contas a pagar - - - - - - - - - - 170,837 - - 170,837 
+ Valor justo na compra e venda de energia 53,364 6,275 - - - 369 184,203 - - - - 90,966 (88,156) 247,021 
+ PIS e Cofins a restituir para consumidores - - - - - - - - - - - - - - 
+ Provisão para destinação de crédito de PIS e Cofins - 1,000,588 - - - - - - - - - - - 1,000,588 
+ Provisões para litígios 279,240 445,335 - 3,285 - - 2,049 - 1,542 3,664 265 207,123 14,194 956,696 
+PATRIMÔNIO LÍQUIDO 14,239,413 7,665,584 - (125,940) - 63,269 5,280,029 2,186,403 236,457 546,040 288,629 25,674,718 (30,417,679) 25,636,934 
+Atribuível aos acionistas da empresa controladora 14,239,413 7,665,584 - (125,940) - 63,269 5,280,029 2,186,403 236,457 546,040 288,629 25,674,718 (30,379,896) 25,674,717 
+ Capital social 6,242,757 5,372,206 - 35,503 - 78,785 5,186,230 2,009,509 223,913 275,161 237,210 12,821,758 (19,661,293) 12,821,758 
+ AFAC 600,000 - - - - - 3,000 - - - - - (603,000) - 
+ Reservas de capital - 166 - - - - - - - - - 5,595 (166) 5,595 
+ Ajustes de avaliação patrimonial 537,346 (420) - 2,372 - 148 - - - - (137) 517,408 (539,309) 517,408 
+ Ações em tesouraria - - - - - - - - - - - (50,044) - (50,044) 
+ Reserva legal 1,027,643 391,901 - - - - 53,090 65,950 1,479 31,639 30,275 1,766,110 (1,601,979) 1,766,110 
+ Reserva de retenção de lucros 5,239,801 1,778,071 - - - - 343,425 - - 186,658 - 9,363,866 (7,547,951) 9,363,866 
+ Dividendo adicional proposto 591,866 123,660 - - - - 41,574 110,945 11,064 52,581 21,279 1,250,025 (952,968) 1,250,025 
+ Lucros acumulados - - - (163,815) - (15,664) (347,290) - - - - - 526,769 - 
+Atribuível aos acionistas não controladores - - - - - - - - - - - - (37,783) (37,783) 
+TOTAL 26,278,782 23,567,303 - 748,720 - 149,155 9,081,210 2,425,999 245,173 614,670 1,447,083 26,429,176 (33,603,120) 57,384,156 
+ANEXO II - RESULTADO POR SUBSIDIÁRIA > PASSIVO POR EMPRESA
+
+[p. 46]
+R$ mil
+Passivo-Dez/23 Geração e Transmissão Distribuição Compagas Elejor UEG Araucária Serviços Parques Eólicos FDA Bela Vista Costa Oeste, Marumbi, Uirapuru Mercado Livre Holding Elimin. e Reclassif. Consolidado
+CIRCULANTE 2,929,672 5,490,743 206,137 109,350 49,797 4,033 549,114 218,002 3,601 22,804 932,237 857,164 (2,063,223) 9,309,433 
+Obrigações sociais e trabalhistas 290,601 597,160 9,452 369 702 - 64 - - - 8,736 30,608 (10,154) 927,538 
+Partes relacionadas 5,967 11,950 - - - 54 30,356 865 238 286 379 1,841 (51,933) - 
+Fornecedores 318,600 1,605,111 58,010 3,984 5,684 3,754 68,712 23,045 586 976 381,520 4,529 (320,085) 2,154,430 
+Imposto de renda e contribuição social - - 12,876 294 - - 8,721 122,906 278 596 - 183 (12,876) 132,979 
+Outras obrigações fiscais 57,245 253,336 13,463 1,057 277 208 8,611 4,871 501 264 19,508 474 (13,734) 346,083 
+Empréstimos e financiamentos 174,260 375,135 - - - - 120,930 - - 5,656 - - - 675,980 
+Debêntures 607,981 569,700 81,797 - - - 47,968 - - - - - (81,797) 1,225,649 
+Dividendos a pagar 1,274,433 460,904 24,314 - 43,134 - 40,397 55,460 1,552 14,151 185,341 464,147 (2,099,687) 464,147 
+Benefícios pós-emprego 22,124 59,742 - - - - - - - - 125 3,842 - 85,833 
+Encargos do consumidor a recolher 15,248 44,789 - - - - - 1,177 - 252 - - - 61,466 
+Pesquisa e desenvolvimento e eficiência energética 55,130 262,444 - 1,672 - - - 369 - 582 - - - 320,196 
+Contas a pagar vinculadas à concessão 2,170 - - 99,806 - - - - - - - - - 101,976 
+Passivos financeiros setoriais - 476,103 - - - - - - - - - - - 476,103 
+Passivo de arrendamento 8,364 40,083 2,601 249 - 17 487 - - - 137 405 (2,601) 49,742 
+Outras contas a pagar 97,549 175,695 3,624 1,919 - - 222,868 9,309 446 41 336,491 15,135 (3,620) 859,456 
+PIS e Cofins a restituir para consumidores - 558,591 - - - - - - - - - - - 558,591 
+Provisões para litígios - - - - - - - - - - - 336,000 - 336,000 
+Passivos associados a ativos classificados como mantidos para venda - - - - - - - - - - - - 533,264 533,264 
+NÃO CIRCULANTE 7,673,539 9,557,520 302,821 730,939 55,959 4,321 3,080,497 42,991 2,710 46,555 550,547 615,579 (346,004) 22,317,974 
+Partes relacionadas - - - - 35,616 - 265,157 - - - - 5,851 (306,624) - 
+Fornecedores 131,143 - - - - - - - - - - - - 131,143 
+Imposto de renda e contribuição social diferidos 1,207,009 - 21,319 1,465 - - 24,244 35,267 865 18,733 109,736 - 268,156 1,686,793 
+Outras obrigações fiscais 60,756 546,184 - - - 589 - - - - 534 4,030 - 612,093 
+Empréstimos e financiamentos 2,106,275 375,585 - - - - 2,164,987 - - 20,390 - - - 4,667,237 
+Debêntures 3,160,977 4,750,476 202,405 - - - 482,004 - - - - - (202,405) 8,393,457 
+Benefícios pós-emprego 398,594 948,724 8,608 - 718 - - - - - 3,555 47,537 (9,326) 1,398,410 
+Pesquisa e desenvolvimento e efic
