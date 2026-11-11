@@ -1,0 +1,145 @@
+/* Estilo padrao dos relatorios do agente de FIIs (aprovado pelo Douglas em 11/11/2026).
+   Referencia visual: pagina de research de banco que ele mandou no print (titulo de secao em
+   azul-marinho com fio embaixo, "Figura N." em negrito, "Fonte:" em italico, caixa azul-clara
+   com o numero, Montserrat). Sem logotipo nem nome de casa nenhuma.
+   So claro: nunca criar versao escura. %%FONTES%% e %%RODAPE%% sao trocados pelo relatorio.py. */
+%%FONTES%%
+:root { --navy:#101a5c; --azul:#0070c0; --ink:#12183f; --mut:#5d6577; --line:#dfe4ec;
+        --caixa:#d3e4f1; --suave:#eef4fa; --zebra:#f6f9fc; --pos:#0a7d4f; --neg:#b3372f;
+        --bg:#ffffff; color-scheme:light; }
+* { box-sizing:border-box; }
+html { -webkit-text-size-adjust:100%; }
+body { margin:0; background:var(--bg); color:var(--ink);
+       font:400 14.5px/1.6 Montserrat,'Helvetica Neue',Arial,sans-serif;
+       padding-block:20px;
+       padding-left:max(16px, env(safe-area-inset-left, 0px));
+       padding-right:max(16px, env(safe-area-inset-right, 0px));
+       -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+.folha { max-width:880px; margin:0 auto; }
+b, strong { font-weight:700; }
+p { margin:8px 0; }
+ul { margin:8px 0; padding-left:20px; } li { margin:4px 0; }
+a { color:var(--azul); }
+
+/* Cabecalho */
+.topo { display:flex; justify-content:space-between; gap:12px; flex-wrap:wrap; font-size:12px;
+        color:var(--mut); margin-bottom:10px; }
+.capa { background:linear-gradient(105deg,#0b1245 0%,#101a5c 40%,#0b4a9a 74%,#0070c0 100%);
+        color:#fff; padding:22px 24px 20px; margin-bottom:18px; }
+.capa h1 { font-size:24px; line-height:1.25; font-weight:700; margin:0 0 6px; text-wrap:balance; }
+.capa p { margin:0; font-size:13px; line-height:1.5; color:#dbe6f5; }
+
+/* Titulos */
+h2 { font-size:18px; line-height:1.3; font-weight:700; color:var(--ink); margin:28px 0 12px;
+     padding-bottom:5px; border-bottom:1.5px solid var(--ink); text-wrap:balance; }
+h3 { font-size:15px; line-height:1.35; font-weight:700; color:var(--navy); margin:18px 0 6px; }
+h4 { font-size:14px; line-height:1.35; font-weight:700; color:var(--ink); margin:14px 0 4px; }
+h2.fundo { font-size:20px; color:var(--navy); border-bottom:3px solid var(--navy); margin-top:34px; }
+.selo { display:inline-block; font-size:10.5px; font-weight:700; letter-spacing:.05em;
+        text-transform:uppercase; color:#fff; background:var(--azul); padding:2px 8px;
+        margin-right:8px; vertical-align:middle; }
+
+/* Caixas */
+.frase { background:var(--suave); border-left:4px solid var(--navy); padding:11px 14px;
+         margin:12px 0; font-size:15px; }
+.caixa { background:var(--caixa); padding:10px 16px; margin:8px 0 6px; font-size:14px;
+         line-height:1.6; }
+.caixa div { margin:1px 0; }
+.explica { border:1px solid var(--line); background:#fff; padding:10px 14px; margin:12px 0;
+           font-size:13.5px; }
+.explica ul { margin:4px 0; }
+.risco { border-left:4px solid var(--neg); background:#fbeeed; padding:10px 14px; margin:12px 0;
+         color:#5c1f1b; font-weight:600; }
+.recomendacao { border:2px solid var(--navy); padding:12px 16px; margin:12px 0; }
+.recomendacao .nota { font-size:22px; font-weight:800; color:var(--navy); letter-spacing:.02em; }
+.aviso { font-style:italic; font-size:12px; line-height:1.55; color:var(--mut);
+         border-top:1px solid var(--line); margin-top:26px; padding-top:10px; }
+.falta { color:var(--neg); font-size:13px; }
+.pendente { background:#fff3c4; outline:1px dashed #b8860b; }
+
+/* Indicadores */
+.kpis { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:10px; margin:14px 0; }
+.kpi { border-top:2px solid var(--navy); background:var(--suave); padding:9px 12px 10px;
+       min-width:0; }
+.kpi .r { font-size:10.5px; font-weight:600; letter-spacing:.05em; text-transform:uppercase;
+          color:var(--mut); }
+.kpi .v { font-size:21px; font-weight:700; color:var(--navy); line-height:1.3; }
+.kpi .v.txt { font-size:15px; line-height:1.85; color:var(--mut); font-weight:600; }
+.kpi .n { font-size:12px; color:var(--mut); line-height:1.4; }
+
+/* Tabelas */
+.tab { overflow-x:auto; margin:10px 0; }
+table { border-collapse:collapse; width:100%; font-size:13.5px; line-height:1.45; }
+th { background:var(--navy); color:#fff; font-weight:600; font-size:12px; text-align:left;
+     padding:7px 9px; border:1px solid var(--navy); vertical-align:bottom; }
+td { padding:6px 9px; border:1px solid var(--line); vertical-align:top; }
+tbody tr:nth-child(even) td { background:var(--zebra); }
+td.num, th.num { text-align:right; white-space:nowrap; }
+td.num { font-variant-numeric:tabular-nums; }
+td small, th small { display:block; font-size:11.5px; font-weight:400; color:var(--mut); }
+th small { color:#c9d6ee; }
+tr.eu td { font-weight:700; background:var(--suave) !important; }
+.pos { color:var(--pos); } .neg { color:var(--neg); }
+.code { font-weight:700; color:var(--navy); }
+.nota-tab { font-size:12px; color:var(--mut); margin:2px 0 10px; }
+
+/* Figuras */
+figure { margin:18px 0 8px; }
+figcaption { font-weight:700; font-size:14.5px; line-height:1.35; margin-bottom:6px;
+             text-wrap:balance; }
+figure svg { width:100%; height:auto; display:block; }
+.fonte { font-style:italic; font-size:11.5px; color:var(--mut); margin:4px 0 8px; }
+.leitura { margin:6px 0 14px; }
+.duas { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:22px; align-items:start; }
+
+/* Termos e rodape */
+.termos { margin:8px 0; font-size:13.5px; display:grid; grid-template-columns:repeat(2,minmax(0,1fr));
+          gap:8px 28px; }
+.termos div { min-width:0; break-inside:avoid; }
+.termos dt { font-weight:700; } .termos dd { margin:0; color:var(--mut); }
+.rodape { display:flex; justify-content:space-between; gap:12px; font-size:11.5px;
+          color:var(--mut); border-top:1px solid var(--line); margin-top:18px; padding-top:8px; }
+
+@media (max-width:600px) {
+  body { font-size:14px; }
+  .capa { padding:18px 16px 16px; } .capa h1 { font-size:20px; }
+  .kpis { grid-template-columns:repeat(2,minmax(0,1fr)); gap:8px; }
+  .kpi .v { font-size:18px; }
+  .duas, .termos { grid-template-columns:minmax(0,1fr); }
+  table { font-size:12.5px; } th, td { padding:5px 6px; }
+  h2 { font-size:17px; }
+}
+
+@page { size:A4; margin:13mm 12mm 16mm;
+  @bottom-left { content:"%%RODAPE%%"; font:500 8.5px Montserrat,Arial,sans-serif; color:#5d6577; }
+  @bottom-right { content:counter(page); font:600 9px Montserrat,Arial,sans-serif; color:#12183f; } }
+@media print {
+  body { padding:0; font-size:11.6px; }
+  .folha { max-width:none; }
+  .capa { padding:15px 18px 14px; margin-bottom:12px; } .capa h1 { font-size:20px; }
+  h2 { font-size:15px; margin:18px 0 8px; } h3 { font-size:12.8px; margin:12px 0 4px; }
+  h4 { font-size:12px; margin:10px 0 3px; }
+  h2.fundo { font-size:17px; margin-top:20px; }
+  h2, h3, h4, figcaption { break-after:avoid; }
+  .nota-tab, .leitura { break-before:avoid; }
+  figure, .kpis, .caixa, .frase, .explica, .risco, .recomendacao, .junto, .curta, tr, li, .aviso, dt, dd
+    { break-inside:avoid; }
+  figure { margin:12px 0 6px; } figcaption { font-size:12.2px; }
+  .kpi .v { font-size:17px; } .kpi .r { font-size:8.8px; } .kpi .n { font-size:10px; }
+  .kpis { gap:8px; margin:10px 0; }
+  table { font-size:10.8px; } th { font-size:9.8px; } td small, th small { font-size:9.4px; }
+  .frase { font-size:12.4px; } .caixa { font-size:11.6px; } .explica { font-size:11px; }
+  .fonte { font-size:9.4px; } .aviso { font-size:9.8px; } .termos { font-size:11px; }
+  .rodape, .baixar { display:none !important; }
+  /* resumido que passaria da meta de paginas: mesma pagina, letra e respiro um pouco menores */
+  .compacta { font-size:11px; line-height:1.5; }
+  .compacta h2 { margin:13px 0 6px; } .compacta h3 { margin:9px 0 3px; }
+  .compacta p { margin:5px 0; } .compacta li { margin:2px 0; } .compacta ul { margin:5px 0; }
+  .compacta table { font-size:10.3px; line-height:1.4; } .compacta th { padding:5px 8px; }
+  .compacta td { padding:4px 8px; } .compacta .tab { margin:7px 0; }
+  .compacta figure { margin:8px 0 4px; } .compacta .kpis { margin:8px 0; }
+  .compacta .risco { margin:7px 0; padding:7px 12px; } .compacta .caixa { margin:6px 0 4px; }
+  .compacta .termos { font-size:10.3px; gap:5px 26px; } .compacta .aviso { margin-top:14px; }
+  .quebra { break-before:page; }
+  p, li { orphans:3; widows:3; }
+}

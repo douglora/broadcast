@@ -72,7 +72,7 @@ PARES = {
     },
     "eletricas": {
         "nome": "Energia eletrica", "tipo": "operacional",
-        "tickers": ["ELET3", "CPLE6", "CMIG4", "EGIE3", "EQTL3", "ENGI11", "TAEE11", "CPFE3", "AURE3"],
+        "tickers": ["AXIA3", "CPLE3", "CMIG4", "EGIE3", "EQTL3", "ENGI11", "TAEE11", "ISAE4", "CPFE3", "AURE3"],
     },
     "saneamento": {
         "nome": "Saneamento", "tipo": "operacional",

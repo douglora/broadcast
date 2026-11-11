@@ -1810,6 +1810,17 @@ def skills():
                 ok = False
                 continue
             print(f"  ok      {nome}/{arq}  {len(texto.split(chr(10)))} linhas, {len(fm)} chars de gatilho")
+    # motor do analista (TIR real, Damodaran, ponte com o Safra, momento economico, relatorio)
+    motor = os.path.join(AQUI, "ferramentas", "local")
+    pecas = ["analista.py"] + [os.path.join("analista", p) for p in (
+        "base.py", "cvm_integral.py", "macro.py", "setores.py", "tir_real.py", "damodaran.py", "safra.py",
+        "graficos.py", "relatorio.py", os.path.join("estilo", "estilo.css"))]
+    sem = [p for p in pecas if not os.path.exists(os.path.join(motor, p))]
+    if sem:
+        print(f"  FALTA   analista.py (motor do analista): {sem}")
+        ok = False
+    else:
+        print(f"  ok      analista.py: motor do analista, {len(pecas)} pecas (macro, setor, balanco, tir, damodaran, safra, relatorio)")
     faltando = [c for c in COMANDOS if f'cmd == "{c}"' not in open(os.path.join(AQUI, "mesa.py"), encoding="utf-8").read()]
     print(f"  ok      mesa.py: {len(COMANDOS)} comandos" if not faltando else f"  FALTA   mesa.py: {faltando}")
     ok = ok and not faltando

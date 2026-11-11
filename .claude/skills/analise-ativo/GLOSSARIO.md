@@ -94,3 +94,69 @@ reconhecer quando ler no release.
 - **ADR**: o inverso do BDR, uma acao brasileira negociada nos EUA.
 - **Fato relevante**: comunicado obrigatorio de algo que pode mexer no preco (aquisicao, troca de presidente, recuperacao judicial).
 - **Trimestre derivado**: no coletor, o 4T calculado como o ano inteiro menos os nove primeiros meses, porque a empresa nao publica o 4T separado.
+
+## TIR real e preco justo (o motor do analista)
+
+- **TIR real** (taxa interna de retorno acima da inflacao): quanto o preco de hoje entrega por ano, alem da inflacao, a quem compra a acao e fica com o caixa que sobra para o dono. "IPCA + 6%" = inflacao mais 6% ao ano.
+- **TIR implicita**: a TIR que sai do preco de tela. Preco sobe, a TIR cai; preco cai, a TIR sobe. E a pergunta "o que eu levo pagando o que a bolsa pede hoje".
+- **Premio sobre a NTN-B**: a TIR real da acao menos a taxa real da NTN-B 2035. E o que a acao paga a mais que o titulo do Tesouro para compensar o risco. Negativo = a acao rende menos que o titulo, a nao ser que o caixa cresca.
+- **Premio exigido**: o minimo de premio sobre a NTN-B que a mesa pede para o momento economico: 5,0 pontos no terreno hostil, 4,5 no desfavoravel, 4,0 no neutro, 3,5 no favoravel.
+- **Regime** (terreno para a bolsa): a foto do momento economico, por regra escrita, a partir do Focus, da NTN-B e do premio da bolsa: hostil, desfavoravel, neutro ou favoravel.
+- **Boletim Focus**: pesquisa semanal do Banco Central com a mediana das projecoes dos bancos e consultorias para inflacao, Selic, PIB e cambio. A revisao de uma semana para outra e o sinal.
+- **Juro real**: o juro descontada a inflacao esperada. Selic de 14% com inflacao de 5% e juro real perto de 8,6%, nao 9%: divide-se, nao se subtrai.
+- **Inflacao implicita**: a inflacao que o mercado embute na diferenca entre o titulo prefixado e a NTN-B de mesmo prazo.
+- **Caixa do dono** (fluxo de caixa para o acionista, FCFE): o que sobra da operacao depois do imposto, do investimento e do juro da divida. E o que pode virar dividendo, recompra ou crescimento.
+- **Conversao de caixa**: quanto do EBITDA vira caixa de verdade depois do imposto pago e do capital de giro. 0,85x = de cada R$ 100 de EBITDA, R$ 85 entram no caixa.
+- **Investimento de reposicao x de crescimento**: reposicao e o que se gasta so para manter o que ja existe (perto da depreciacao); crescimento e o que passa disso e tem de virar EBITDA novo.
+- **Custo real da divida**: o juro que a empresa paga acima da inflacao. A correcao monetaria da divida e rolada; o que sai do bolso do dono e so o juro real.
+- **Perpetuidade** (valor terminal): o valor de todo o caixa depois do ano 10, trazido a hoje. A mesa usa sem crescimento real, para nao pagar por futuro que ninguem ve.
+- **Valor residual** (indenizacao da concessao): o que o poder concedente paga pelos ativos nao amortizados quando a concessao acaba. Pode ser zero.
+- **Conta reversa** (o que o preco exige): em vez de projetar e achar o preco, parte-se do preco e pergunta-se que crescimento ou que lucro ele precisa para pagar o retorno pedido.
+- **Preco-teto**: o preco em que a acao entrega exatamente a NTN-B mais o premio exigido, com o caixa de hoje. Acima dele, o comprador depende de crescimento.
+- **Caso da mesa**: o cenario com as premissas que tem documento (release, meta divulgada, contrato de concessao), ao lado do caixa parado e do ritmo atual.
+- **Livro de premissas**: a lista de todo numero que entrou na conta, com fonte, data e tipo (oficial, meta da empresa, mercado, consenso ou escolha da mesa).
+- **Preco justo** (valor intrinseco): quanto a acao valeria se o caixa projetado fosse descontado pelo custo do capital. E uma faixa, nunca um numero so.
+- **WACC** (custo medio de capital): a media do retorno pedido pelo acionista e do custo da divida, pesada pelo quanto cada um financia a empresa. E a taxa que desconta o caixa da firma.
+- **FCFF** (fluxo de caixa livre da firma): o caixa da operacao depois do imposto e do investimento, antes de pagar juros. Pertence a credores e acionistas juntos.
+- **NOPAT** (lucro operacional depois do imposto): o lucro da operacao como se a empresa nao tivesse divida.
+- **Taxa de reinvestimento**: a parte do lucro operacional que volta para o negocio em investimento novo. Crescimento = taxa de reinvestimento vezes o retorno sobre o capital.
+- **Retorno em excesso** (excess return): o que a empresa rende acima do custo do capital. Em banco, o valor e o patrimonio mais o valor presente desse excesso (ROE menos Ke).
+- **Premio de risco de mercado** (ERP): o retorno a mais que o investidor pede para ter acoes em vez do titulo sem risco. **Premio de risco do Brasil**: o adicional por ser Brasil, calculado por Damodaran a partir do rating do pais.
+- **Beta realavancado**: o beta do setor ajustado para a divida da propria empresa. Mais divida, mais o lucro do acionista balanca.
+- **Ancora do Safra**: a TIR real e o preco-alvo que o banco publicou, com a data e o preco do dia. A mesa traz a TIR ao preco de hoje antes de comparar.
+
+## Setores regulados e de contrato
+
+- **Concessao**: o direito de operar um servico publico por prazo certo. Quando acaba, o ativo volta ao poder concedente, com ou sem indenizacao. O prazo que falta manda no valor.
+- **RAP** (receita anual permitida): a receita que a transmissora recebe por manter a linha disponivel, corrigida por inflacao, sem depender de quanto de energia passa.
+- **Base de remuneracao** (BRL, base de remuneracao liquida; no saneamento BAR ou RAB): o valor dos investimentos que o regulador reconhece e sobre o qual a tarifa remunera a empresa.
+- **WACC regulatorio**: a taxa de retorno real que o regulador permite sobre a base de remuneracao. EBITDA acima do regulatorio = a empresa e mais eficiente que a regra.
+- **Revisao tarifaria**: a cada 4 ou 5 anos o regulador recalcula a tarifa, a base de remuneracao e os custos aceitos. **Reajuste tarifario**: a correcao anual pela inflacao entre as revisoes.
+- **Parcela A x Parcela B**: na conta de luz, a Parcela A e custo repassado (compra de energia, transmissao, encargos); a Parcela B e o que remunera a distribuidora. So a B vira lucro.
+- **PMSO** (pessoal, material, servicos e outros): os custos gerenciaveis de uma eletrica. E onde a gestao consegue cortar.
+- **PDV** (programa de demissao voluntaria): corte de pessoal com custo na largada e economia nos anos seguintes.
+- **Perdas nao tecnicas**: energia furtada ou nao faturada. O regulador aceita um limite na tarifa; o que passa disso sai do lucro.
+- **DEC e FEC**: duracao e frequencia das interrupcoes de energia por consumidor. Fora do limite, ha multa e risco na renovacao da concessao.
+- **CVA** (conta de variacao da Parcela A): custo que a distribuidora ja pagou e so recebe no reajuste seguinte. Vira caixa depois; ate la pesa na divida.
+- **Ativo de contrato** (ativo financeiro da concessao): em transmissao, a receita futura ja reconhecida no balanco. Infla o EBITDA contabil sem entrar no caixa: por isso se olha o EBITDA regulatorio.
+- **EBITDA regulatorio**: o EBITDA medido pela receita que entra de fato (RAP recebida), sem os ajustes contabeis do ativo de contrato.
+- **Energia contratada x descontratada**: a parte da geracao ja vendida em contrato de longo prazo, com preco certo, contra a parte exposta ao preco do mercado.
+- **PLD** (preco de liquidacao das diferencas): o preco da energia no mercado de curto prazo. **GSF** (risco hidrologico): quanto as hidreletricas geraram em relacao ao que tinham garantido; abaixo de 100%, compram a diferenca.
+- **Curtailment** (corte de geracao): quando o operador manda a usina eolica ou solar parar de gerar por falta de linha ou de demanda. Energia que nao vira receita.
+- **Universalizacao** (marco do saneamento): a meta legal de 99% de agua e 90% de esgoto ate 2033. Define o investimento obrigatorio das empresas de saneamento.
+- **IPDT** (indice de perdas na distribuicao): quanto da agua tratada se perde antes de chegar ao hidrometro.
+- **Veiculos equivalentes**: a medida de trafego das rodovias, que converte caminhoes em numero de eixos pagantes.
+- **Reequilibrio**: a compensacao que o poder concedente da a concessionaria quando muda a regra do contrato (prazo maior, tarifa ou dinheiro).
+
+## Outros setores
+
+- **Vendas mesmas lojas** (SSS): crescimento das vendas so das lojas abertas ha mais de um ano. Tira o efeito de inaugurar loja.
+- **VGV** (valor geral de vendas): o valor de todos os imoveis de um lancamento. **VSO** (velocidade de vendas): quanto do estoque foi vendido no trimestre.
+- **Margem REF** (resultado a apropriar): a margem dos imoveis ja vendidos e ainda nao reconhecidos no resultado. Antecipa a margem bruta dos proximos trimestres.
+- **Distrato**: o cancelamento da compra do imovel pelo cliente. **Landbank**: o banco de terrenos da construtora.
+- **Custo caixa** (C1, lifting cost): o custo de produzir uma unidade (tonelada, barril) sem depreciacao nem juros. Diz ate que preco a empresa aguenta.
+- **Preco realizado**: o preco que a empresa de fato recebeu, depois de premios, descontos e frete, contra o preco de referencia da tela.
+- **NOI** (resultado operacional do shopping): aluguel e estacionamento menos os custos do empreendimento. **FFO**: o lucro mais a depreciacao, o caixa recorrente do setor.
+- **ABL** (area bruta locavel): os metros quadrados que o shopping aluga. **Custo de ocupacao**: quanto o lojista gasta com aluguel e condominio em relacao as vendas.
+- **ARPU** (receita media por usuario): quanto cada cliente paga por mes. **Churn**: a parcela de clientes que cancela no periodo.
+- **Sinistralidade**: o que a seguradora paga de sinistro em relacao ao premio ganho. **Indice combinado**: sinistros mais despesas sobre o premio; abaixo de 100% a operacao de seguro da lucro antes do resultado financeiro.
