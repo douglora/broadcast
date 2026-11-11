@@ -1,8 +1,92 @@
-NOTÍCIAS E FATOS · 10/11 17h23
+NOTÍCIAS E FATOS · 10/11 22h11
 
-Pernas: noticias ok 17 novas (18 consultas; descartadas: 349 veículo fora da lista, 20 sem ativo, 18 teto) · cvm ok 0 novos de 2 (2 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 22 novas (18 consultas; descartadas: 376 veículo fora da lista, 17 sem ativo, 32 teto) · cvm ok 8 novos de 10 (5 cias casadas) · sec ok 0 novos em 3 dias
 
-## FATOS RELEVANTES E COMUNICADOS (CVM) (1)
+## FATOS RELEVANTES E COMUNICADOS (CVM) (9)
+
+[ATENÇÃO] E03 · PETR4 · Fato Relevante: Elevou suas projeções de produção para 2026.
+CVM · entregue 10/11/2026 20:03
+Do documento:
+  – PÚBLICA    Petrobras atualiza projeções operacionais e financeiras para 2026  —  Rio de Janeiro, 10 de novembro de 2026 – A Petróleo Brasileiro S.A. – Petrobras informa que elevou suas  projeções de produção para 2026.
+  – A estimativa para a produção própria total de óleo e gás passou de 3,1  milhões de boed para uma faixa de 3,3 a 3,4 milhões de boed.
+  – A projeção para a produção de óleo e LGN  passou de 2,5 milhões de bpd para uma faixa entre 2,7 e 2,8 milhões de bpd.
+  – A projeção dos gastos operacionais gerenciáveis (GOG) para 2026 passou de US$ 20,2 bilhões para uma  faixa entre US$ 24,2 bilhões e US$ 25,5 bilhões.
+  – Mesmo com essa revisão, os  gastos operacionais gerenciáveis por barril produzido permanecerão competitivos, com redução  projetada de 2% em relação ao valor realizado em 2025.
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1587552
+Por que importa: fato relevante e o que a propria companhia julga capaz de mover o preco; ler o documento inteiro antes de comentar
+Ativos: PETR4
+Como falar: 'a Petrobras publicou fato relevante sobre Elevou suas projeções de produção para 2026.'
+Fonte: CVM 10/11
+id: E03-PETR4-1587552-2026-11-10 · status: pendente · íntegra disponível
+
+[ATENÇÃO] E03 · PETR4 · Fato Relevante: Seu Conselho de Administração (CA), em reunião realizada hoje, aprovou o pagamento de remuneração aos acionistas no valor de R$ 15 ,3 bilhões, equiva…
+CVM · entregue 10/11/2026 19:53
+Do documento:
+  – Data base: Para os detentores de ações de emissão da Petrobras negociadas na B3, a data base será em  21 de dezembro de 2026.
+  – As ações da Petrobras serão negociadas ex-direitos a partir de 22 de dezembro  de 2026.
+  – (ii) a segunda parcela, no valor de R$ 0,59366387 por ação ordinária e preferencial em circulação,  será paga em 22 de março de 2027.
+  – Além disso , tem-se que esses proventos serão descontados da remuneração aos acionistas a ser  aprovada na Assembleia Geral Ordinária de 2027 relativa ao exercício social de 2026.
+  – PÚBLICA    Forma de distribuição: A definição da forma de distribuição (se sob a forma de dividendos e/ou juros  sobre capital próprio) dos proventos ocorrerá até 1 0 de dezembro de 202 6 e será tempestivamente  comunic…
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1587545
+Por que importa: fato relevante e o que a propria companhia julga capaz de mover o preco; ler o documento inteiro antes de comentar
+Ativos: PETR4
+Como falar: 'a Petrobras publicou fato relevante sobre Seu Conselho de Administração (CA), em reunião realizada hoje, aprovo…'
+Fonte: CVM 10/11
+id: E03-PETR4-1587545-2026-11-10 · status: pendente · íntegra disponível
+
+[INFO] E03 · PETR4 · Comunicado ao Mercado: Apresentações a analistas/agentes do mercado
+CVM · entregue 10/11/2026 20:27 · Apresentações a analistas/agentes do mercado
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1587572
+Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; confirma ou nega o que circula
+Ativos: PETR4
+Como falar: 'a Petrobras publicou comunicado ao mercado sobre Apresentações a analistas/agentes do mercado'
+Fonte: CVM 10/11
+id: E03-PETR4-1587572-2026-11-10 · status: linha
+
+[INFO] E03 · DIRR3 · Comunicado ao Mercado: Apresentações a analistas/agentes do mercado
+CVM · entregue 10/11/2026 20:11 · Apresentações a analistas/agentes do mercado
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1587564
+Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; confirma ou nega o que circula
+Ativos: DIRR3
+Como falar: 'a Direcional Engenharia publicou comunicado ao mercado sobre Apresentações a analistas/agentes do mercado'
+Fonte: CVM 10/11
+id: E03-DIRR3-1587564-2026-11-10 · status: linha
+
+[INFO] E03 · CURY3 · Comunicado ao Mercado: Apresentações a analistas/agentes do mercado
+CVM · entregue 10/11/2026 18:52 · Apresentações a analistas/agentes do mercado
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1587420
+Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; confirma ou nega o que circula
+Ativos: CURY3
+Como falar: 'a Cury Construtora e Incorporadora publicou comunicado ao mercado sobre Apresentações a analistas/agentes do mercado'
+Fonte: CVM 10/11
+id: E03-CURY3-1587420-2026-11-10 · status: linha
+
+[INFO] E03 · CURY3 · Aviso aos Acionistas: Outros avisos
+CVM · entregue 10/11/2026 18:23 · Outros avisos
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1587255
+Por que importa: aviso aos acionistas traz provento, data-com ou evento societario que muda o fluxo ao acionista
+Ativos: CURY3
+Como falar: 'a Cury Construtora e Incorporadora publicou aviso aos acionistas sobre Outros avisos'
+Fonte: CVM 10/11
+id: E03-CURY3-1587255-2026-11-10 · status: linha
+
+[INFO] E03 · VALE3 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
+CVM · entregue 10/11/2026 18:16 · Outros Comunicados Não Considerados Fatos Relevantes
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1587226
+Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; confirma ou nega o que circula
+Ativos: VALE3
+Como falar: 'a Vale publicou comunicado ao mercado sobre Outros Comunicados Não Considerados Fatos Relevantes'
+Fonte: CVM 10/11
+id: E03-VALE3-1587226-2026-11-10 · status: linha
+
+[INFO] E03 · VALE3 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
+CVM · entregue 10/11/2026 18:07 · Outros Comunicados Não Considerados Fatos Relevantes
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1587172
+Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; confirma ou nega o que circula
+Ativos: VALE3
+Como falar: 'a Vale publicou comunicado ao mercado sobre Outros Comunicados Não Considerados Fatos Relevantes'
+Fonte: CVM 10/11
+id: E03-VALE3-1587172-2026-11-10 · status: linha
 
 [INFO] E03 · DIRR3 · Comunicado ao Mercado: Apresentações a analistas/agentes do mercado
 CVM · entregue 10/11/2026 08:45 · Apresentações a analistas/agentes do mercado
@@ -61,7 +145,105 @@ Fonte: SEC EDGAR 2026-11-10
 id: E04-TSM-26000796-2026-11-10 · status: linha · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (14)
+## NOTÍCIAS COM MATERIALIDADE (21)
+
+[ATENÇÃO] E05 · PETR4 · Petrobras tem lucro de R$ 39,8 bilhões no 3º trimestre, alta de 21,5%
+Agencia Brasil · 10/11 21h37 · + InfoMoney, g1 · licença: integral
+Do texto:
+  – Petrobras tem lucro de R$ 39,8 bilhões no 3º trimestre, alta de 21,5% A Petrobras atingiu lucro líquido de R$ 39,8 bilhões no 3º trimestre de 2026, que corresponde a alta de 21,5% na comparação com o mesmo período do an…
+  – O balanço divulgado pela companhia nesta terça-feira (10) informa que o fluxo de caixa operacional (FCO) alcançou R$ 61,8 bilhões (US$ 12 bilhões), um crescimento de 15% em doze meses.
+  – "Nossa projeção era encerrar o ano com produção média de 3,1 milhões de barris de óleo equivalente por dia, mas nossas estimativas agora apontam para uma média entre 3,3 e 3,4 milhões de barris por dia”, afirmou a presi…
+  – Em 2026, a Petrobras bateu recorde trimestral na produção de óleo por três vezes, de forma sequencial.
+  – Além disso,11 plataformas foram autorizadas a produzir, com segurança, acima da capacidade original sem investimento extra nas unidades de produção.
+  – As vendas de derivados no mercado interno alcançaram 1.854 milhões de barris de petróleo por dia (mbpd) no trimestre, o maior volume desde o terceiro trimestre de 2021 e o melhor resultado com o atual parque de refino.
+Link: https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/petrobras-tem-lucro-de-r-398-bilhoes-alta-de-215
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: PETR4
+Como falar: 'saiu no Agencia Brasil: Petrobras tem lucro de R$ 39,8 bilhões no 3º trimestre, alta de 21,5%; confirmar o número no texto antes de repassar'
+Fonte: Agencia Brasil 10/11 21h37
+id: E05-PETR4-cf22965341-2026-11-11 · status: pendente · íntegra disponível
+
+[ATENÇÃO] E05 · PETR4 · Petrobras (PETR4) vê lucro cair 24% no trimestre e anuncia R$ 15,3 bilhões em dividendos; veja detalhes do resultado
+Money Times · 10/11 20h51 · + CNN Brasil, O Globo · licença: integral
+Do texto:
+  – Entre julho e setembro deste no, a companhia teve lucro líquido de R$ 39,750 bilhões, alta de 21,5% em base anual, mas queda de 24,2% trimestre a trimestre.
+  – Segundo as estimativas de mercado compiladas pela Bloomberg, o esperado era lucro de R$ 40,7 bilhões.
+  – O Ebitda (lucro antes de juros, impostos, depreciação e amortização) ajustado da Petrobras somou R$ 85,822 bilhões no terceiro trimestre de 2026, alta de 34,3% em relação ao mesmo período do ano passado.
+  – Na comparação com o 2T26, porém, houve recuo de 8,5%.
+  – O resultado também ficou abaixo das expectativas do mercado: segundo estimativas compiladas pela Bloomberg, os analistas projetavam Ebitda de R$ 93,17 bilhões.
+  – De acordo com a companhia, o desempenho foi pressionado pela queda de 7% no preço do petróleo Brent e pelo menor volume de petróleo reconhecido no período, uma vez que parte das exportações ainda estava em andamento no…
+Link: https://www.moneytimes.com.br/petrobras-petr4-ve-lucro-cair-24-no-trimestre-e-anuncia-r-153-bilhoes-em-dividendos-bdap/
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: PETR4
+Como falar: 'saiu no Money Times: Petrobras (PETR4) vê lucro cair 24% no trimestre e anuncia R$ 15,3 bilhões em dividendos;…; confirmar o número no texto antes de repassar'
+Fonte: Money Times 10/11 20h51
+id: E05-PETR4-24cdd7ca4c-2026-11-10 · status: pendente · íntegra disponível
+
+[ATENÇÃO] E05 · PETR4 · Petrobras vai pagar R$ 15,3 bilhões em dividendos; veja quem tem direito e quando
+Exame · 10/11 20h21 · + Poder360 · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Operação da Petrobras: lucro líquido do setor subiu 89%, para 114,9 bilhões de reais (Juarez Cavalcanti/Divulgação) A Petrobras (PETR3; PETR4) vai distribuir R$ 15,3 bilhões aos acionistas como antecipação da remuneraçã…
+  – O pagamento, aprovado nesta terça-feira, 10, pelo Conselho de Administração, equivale a R$ 1,18732774 por ação ordinária e preferencial em circulação e foi declarado com base no balanço de 30 de setembro.
+  – Segundo a companhia, a distribuição segue a política de remuneração vigente, que prevê o repasse de 45% do fluxo de caixa livre aos acionistas quando o endividamento bruto está igual ou abaixo do teto definido no plano…
+  – Recebe o provento quem tiver ações da Petrobras na B3 na data base, 21 de dezembro de 2026.
+  – A partir de 22 de dezembro, os papéis passam a ser negociados ex-direitos.
+  – Para os detentores de ADRs na Bolsa de Nova York, a record date é 23 de dezembro.
+Link: https://exame.com/invest/mercados/petrobras-vai-pagar-r-153-bilhoes-em-dividendos-veja-quem-tem-direito-e-quando/
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: PETR4
+Como falar: 'saiu no Exame: Petrobras vai pagar R$ 15,3 bilhões em dividendos; veja quem tem direito e quando; confirmar o número no texto antes de repassar'
+Fonte: Exame 10/11 20h21
+id: E05-PETR4-893dc7b964-2026-11-10 · status: pendente
+
+[ATENÇÃO] E05 · CURY3 · Cury tem lucro recorde de R$ 370 milhões e anuncia mais R$ 200 milhões em dividendos
+Exame · 10/11 19h28 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Cury: lucro e receita da construtora bateram recorde no terceiro trimestre (Leandro Fonseca/Exame) A Cury (CURY3) teve lucro líquido de R$ 369,6 milhões no terceiro trimestre de 2026, o maior da sua história, segundo ba…
+  – O valor é 30,5% maior que os R$ 283,2 milhões de um ano antes.
+  – A construtora, focada em imóveis de baixa renda em São Paulo e no Rio de Janeiro, também bateu recorde de receita líquida, que cresceu 29,7%, para R$ 1,84 bilhão.
+  – O lucro de R$ 369,6 milhões inclui a parte que fica com sócios da Cury em alguns empreendimentos.
+  – Considerando apenas o que cabe aos acionistas da companhia, o lucro foi de R$ 313,9 milhões, alta de 23%.
+  – Nos nove primeiros meses do ano, esse resultado soma R$ 887,2 milhões, 25,8% acima do mesmo período de 2025.
+Link: https://exame.com/mercado-imobiliario/cury-tem-lucro-recorde-de-r-370-milhoes-e-anuncia-mais-r-200-milhoes-em-dividendos/
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: CURY3
+Como falar: 'saiu no Exame: Cury tem lucro recorde de R$ 370 milhões e anuncia mais R$ 200 milhões em dividendos; confirmar o número no texto antes de repassar'
+Fonte: Exame 10/11 19h28
+id: E05-CURY3-3537bbbf35-2026-11-10 · status: linha
+
+[ATENÇÃO] E05 · BAC · Graco, Bank of America strike $600M accelerated stock buyback deal
+TradingView (Reuters) · 10/11 19h14 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/seekingalpha:e930436b8094b:0-graco-bank-of-america-strike-600m-accelerated-stock-buyback-deal/
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: BAC
+Como falar: 'saiu no TradingView (Reuters): Graco, Bank of America strike $600M accelerated stock buyback deal; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 10/11 19h14
+id: E05-BAC-cab63ab290-2026-11-10 · status: linha
+
+[ATENÇÃO] E05 · CURY3 · Cury (CURY3) aprova distribuição de R$ 200 milhões em dividendos; veja quem tem direito
+Money Times · 10/11 18h40 · fonte única · licença: integral
+Do texto:
+  – Cury (CURY3) aprova distribuição de R$ 200 milhões em dividendos; veja quem tem direito A Cury (CURY3) aprovou a distribuição de R$ 200 milhões em dividendos intercalares, conforme aviso aos acionistas divulgado nesta t…
+  – O valor corresponde a R$ 0,64925032331 por ação ordinária da companhia.
+  – A aprovação ocorreu em reunião do Conselho de Administração realizada na segunda-feira (9).
+  – Terão direito aos proventos os acionistas posicionados na empresa até o fechamento do pregão de 13 de novembro de 2026.
+  – A partir de 16 de novembro, os papéis serão negociados na condição de ex-dividendos, ou seja, sem direito ao pagamento.
+  – O pagamento será realizado em parcela única no dia 30 de novembro, em moeda corrente nacional.
+Link: https://www.moneytimes.com.br/cury-cury3-aprova-distribuicao-de-r-200-milhoes-em-dividendos-veja-quem-tem-direito/
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: CURY3
+Como falar: 'saiu no Money Times: Cury (CURY3) aprova distribuição de R$ 200 milhões em dividendos; veja quem tem direito; confirmar o número no texto antes de repassar'
+Fonte: Money Times 10/11 18h40
+id: E05-CURY3-8111de1122-2026-11-10 · status: linha · íntegra disponível
+
+[ATENÇÃO] E05 · ITSA4 · Itaúsa registra lucro recorrente de R$ 5,1 bilhões no 3T26, alta de 25% em um ano
+ADVFN · 10/11 09h32 · fonte única · licença: manchete
+Link: https://br.advfn.com/noticias/PAPERBR/2026/artigo/99673017
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: ITSA4
+Como falar: 'saiu no ADVFN: Itaúsa registra lucro recorrente de R$ 5,1 bilhões no 3T26, alta de 25% em um ano; confirmar o número no texto antes de repassar'
+Fonte: ADVFN 10/11 09h32
+id: E05-ITSA4-a4c16b5636-2026-11-10 · status: linha
 
 [ATENÇÃO] E05 · ITUB4 · Painel S.A.: Itaú investe R$ 1,2 bilhão e vira sócio da Klabin em mais um empreendimento florestal
 Folha de S.Paulo · 10/11 16h57 · fonte única · licença: manchete
@@ -88,7 +270,7 @@ Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir
 Ativos: KLBN4
 Como falar: 'saiu no Estadao: Allied paga R$ 0,63 por ação; Santander, Klabin, Lavvi e outros completam dividendos da s…; confirmar o número no texto antes de repassar'
 Fonte: Estadao 10/11 13h35
-id: E05-KLBN4-d377a25dd8-2026-11-10 · status: pendente
+id: E05-KLBN4-d377a25dd8-2026-11-10 · status: expirado
 
 [ATENÇÃO] E05 · PETR4 · Petrobras: dividendos podem chegar a US$ 4,2 bilhões no 3T26, mas mercado vê incertezas no fluxo de caixa
 ADVFN · 10/11 11h06 · fonte única · licença: manchete
@@ -97,7 +279,7 @@ Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir
 Ativos: PETR4
 Como falar: 'saiu no ADVFN: Petrobras: dividendos podem chegar a US$ 4,2 bilhões no 3T26, mas mercado vê incertezas n…; confirmar o número no texto antes de repassar'
 Fonte: ADVFN 10/11 11h06
-id: E05-PETR4-d5ae734581-2026-11-10 · status: pendente
+id: E05-PETR4-d5ae734581-2026-11-10 · status: expirado
 
 [ATENÇÃO] E05 · KO · Coca-Cola's Dividend Has Grown 64 Years in a Row. I'd Buy It in November and Never Sell.
 Yahoo Finance · 10/11 10h15 · fonte única · licença: resumo
@@ -113,7 +295,7 @@ Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir
 Ativos: KO
 Como falar: 'saiu no Yahoo Finance: Coca-Cola's Dividend Has Grown 64 Years in a Row. I'd Buy It in November and Never Sell.; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 10/11 10h15
-id: E05-KO-5f33fc4f02-2026-11-10 · status: pendente
+id: E05-KO-5f33fc4f02-2026-11-10 · status: expirado
 
 [ATENÇÃO] E05 · PETR4 · Petrobras (PETR4): produção recorde deve compensar petróleo mais barato e sustentar dividendos no 3T26
 Money Times · 10/11 08h00 · fonte única · licença: integral
@@ -239,8 +421,23 @@ Fonte: Estadao 09/11 19h46
 id: E05-DIRR3-8556109b03-2026-11-09 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (45)
+## OUTRAS NOTÍCIAS (só manchete) (60)
 
+· USDBRL Dólar sobe e atinge o nível mais alto desde dezembro de 2025 após ata do Copom (Bloomberg Linea) https://www.bloomberglinea.com.br/mercados/dolar-sobe-e-atinge-o-nivel-mais-alto-desde-dezembro-de-2025-apos-ata-do-copom/
+· AMZN Amazon’s Cloud Computing Business Already Brings in More Revenue Than 476 Companies in the S&P 500. Here’s What It Would Take to Reach $1 Trillion. (Yahoo Finance) https://finance.yahoo.com/technology/articles/amazon-cloud-computing-business-already-005102076.html
+· DI Copom indica que vai ser preciso manter juros altos por mais tempo para segurar inflação (g1) https://g1.globo.com/jornal-nacional/noticia/2026/11/10/copom-indica-que-vai-ser-preciso-manter-juros-altos-por-mais-tempo-para-segurar-inflacao.ghtml
+· PETR4 Petrobras eleva estimativa de produção de petróleo e gás natural (Poder360) https://www.poder360.com.br/poder-energia/petrobras-eleva-estimativa-de-producao-de-petroleo-e-gas-natural/
+· PETR4 Petrobras bate recordes de produção, mas vê lucro despencar quase R$ 13 bilhões em três meses (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/petrobras-bate-recordes-de-producao-mas-ve-lucro-despencar-quase-r-13-bilhoes-em-tres-meses/
+· USDBRL Ibovespa fecha em queda e dólar sobe a R$5,58 com exterior e ata do Copom (TradingView (Reuters)) https://br.tradingview.com/news/reuters.com,2026:newsml_L2N46R1EP:0/
+· UST What Lifted the 10-Year Yield to 5%? And What’s Next. (Barron's) https://www.barrons.com/articles/treasuries-bonds-prices-inflation-07ce4ef8
+· AMD 2 Reasons AMD Can Still Outperform by 2030 (Yahoo Finance) https://news.google.com/rss/articles/CBMimwFBVV95cUxPeDBRMW5CZ1I2RDExWWZVUTJRWGViRWdrNmFUeDlzcWtZYTlMenp2anpBdzEzYTE1aXdiVHJ1aXFWZGNGS3FjbmRtaHVPUW9DcF9CaEhBSG9fTU9USWI4Qk5acGtGcEk4LWctTFpsTWdsdXF0OTZHMDRLQUZLZGpjdk5LX3hlU0ZrVW5fdk5kOEo1LVJPcTIxVWZLMA?oc=5
+· PETR4 Petrobras (PETR4) lucra R$ 39,8 bi no 3º tri; veja destaques (InfoMoney) https://news.google.com/rss/articles/CBMidkFVX3lxTFBjSGxHcXJtLVhGZ2ZmdEN6WGZ5YzJfRGRPR3NCYnE5MWFNd2FuQ1U0dXFhMkVhSFM0NnRUZUFjMTEtcGxaV1VmQTdzZG1JS2tfQjJUYUt6OGJySDMxZnpRc3FBYWpFTkc5d1ZGUU5YN2d5andWdEE?oc=5
+· USDBRL Dólar sobe 1,46% e fecha no maior valor em 15 meses (Agencia Brasil) https://news.google.com/rss/articles/CBMiqwFBVV95cUxNWWNIcmJWMXAzSGtmUHByQmc1bWxON0ZaQVJvY2RzLWItbXFNaFRZbmhCbnVrSktWNktvTlJZMGlfa254MXEtOC1fR01fcVU2R01LNnJXQTd1bHNxOVZvWHktaThxUjJFVktQMVc3V01LYXRHOVlIQURYRUNzNllBdGJwQjE1QWtMOUZwenVoN3oyV0Z4VTZvM1ZvdUlwclFpel9LN3lJS0tnWlU?oc=5
+· PETR4 Petrobras (PETR4) eleva projeções de produção, geração de caixa e capex para 2026 (InfoMoney) https://news.google.com/rss/articles/CBMiwAFBVV95cUxNakpMN3EtOVJCQS1VR1J5SzBodENOS3RzYjJuWE50c2tabklNbXFKN1U1YUpRcG9xZ1J4NXE5cVdVUmY1QUd6b2Jpak9UX1ZPc3lUckdNTjg2OHV6S3dqRTZSUm9kR2RsZWZHNHU0NHFGamxqZVRyVUlYcTIxUjdNd01kSTJraUJveXlFV0NzX3poUGl2TFV1VmdMb1M3ek5ad3dtTndaWkt2cXV5RlpONlVtMi05dEV5UjRnV2xvMEfSAcYBQVVfeXFMTTg1MnlKZ2RjT1FwV0dRanU5VXNoQWx5V1NIVXFoME1vS3N1OUFNQlNLdjgtMVVGTnRmdGQ1NjB1UnVmdFpwQXlxRkhOWnA5SXI2Qi10LTVPR2EtWjVWemJmWFlHU0cxdkIxZlBuVVZPNXRjNlBNOXJoU2VIa09aLW54M3dEelJWZVdlcE1aZzQ1ZjFCaGRXYzZwRlBwcHJZYU9QdzdxSFJPZjlLQnBkRmFTcTczdUFZbXlOMFZMeGM3MEwwb2JB?oc=5
+· PETR4 Petrobras vai pagar R$15,3 bi em remuneração aos acionistas (UOL Economia) https://news.google.com/rss/articles/CBMiuAFBVV95cUxNYjBYVFlydjVVTFFwMHRwdkVCX3puVTRkZ2NxU1RnaHhHYmtMVEtzSy1sQ3MzRUxubEtxcDNzenNFTWhHMm1uRHQ2LXJTYzc4OUF2Q1M4dGFaNVNVYnpSLU0yeFFWSFRlYjF2dnF5d2lqZmNLTjVKZHl6OGdUek5hZ2NPMVNacExVUXZHbEZfWnNUYWloS1FPU3QtbGFFNWpZLWRrM2xzN3lyS0pZWnUyTnpBNkExNGU0?oc=5
+· PETR4 Petrobras pagará R$ 15,3 bilhões em proventos, equivalentes a R$ 1,19 por ação (InfoMoney) https://news.google.com/rss/articles/CBMikwFBVV95cUxQaDNvb1FGZXdpN2lPb2tDWHFXbDFTV0sxci05TWRsS2lJZGlvMjN4N01jM2hmQjh1aE1NMjVpNlJKSEJoaF9nYkNBeXhEVXBYVkNCYlpfaTZOTDY0dkVqdGFEbHRpNGdJOEJVcWdseXYxY3R1cGlTSVJyd3ZWc2xoYjIxQUhFdm1YS0RBZkNWRUt2RFHSAZgBQVVfeXFMT21LTjF0UFphblhFaC1TREVDS0dkSVVzaTNrSnkxa1R5SnJ3MTU0TkRNdHp2cE80aXdLbDdUcWlyZ29sYjNVamE0aUFIeldocjVxbXZJOVVveEJZcFRGOVFKQk9GQWd4VG5PN0oxZkhrY0R5ZUVJMGVfdHZiNV9NaTVsREFuY3FOc1E3cGJiQnNFSER1Zk9iVmE?oc=5
+· AVGO Broadcom Has Some Hidden Risks (NASDAQ:AVGO) (Seeking Alpha) https://news.google.com/rss/articles/CBMie0FVX3lxTE0wd2I0X0JScko5WmxZOFVHSXlSN0VpbHZqZUpQV2FZejF1REVMTUZiTTdKNG9vSlBPRnNDam1mYUJGQjNIRWNjelFRUjhhbXVzcDZfdm9LWGE0Q1h5SnBVVlBJSkVuX1pVelVUMTRGdjBFMktCcDFtYUNpNA?oc=5
+· NVDA AMD’s stock fades as investors weigh whether Nvidia’s turmoil will mean lasting wins (MarketWatch) https://news.google.com/rss/articles/CBMiwwFBVV95cUxQRjNQX1Ntbk1OMGFrQnRHTDh1S291MHRKa2ZIR3RrQUJHT2U1QVZQMC1kSUdOVmgwNVBwNlVlS0x3dUs2SHYyRzltRThVVTltNmVCcm1fTnNob1BTbEkzWWRjeDJCbi1BbDV0ZWoyUFA1Z1ZWSW5CN3VVSU5tX3o1cWYzSi14T2lVQ0FOWnRUejhvNm04aU8wV2VwZ3lnUVV4aUNCM2oxOWFJTExEM1BlWXZhSTQ5X3RqMlVYMHF0ZjhoYW8?oc=5
 · BRENT Petróleo fecha em queda com indicação de moderação dos EUA em relação ao Irã e dólar (UOL Economia) https://economia.uol.com.br/noticias/estadao-conteudo/2026/11/10/petroleo-fecha-em-queda-com-indicacao-de-moderacao-dos-eua-em-relacao-ao-ira-e-dolar.htm
 · DI Taxas do Tesouro Direto hoje sobem com ata mais dura do Copom; Prefixado 2032 vai a 15,15% (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/tesouro-direto-hoje-cai-mesmo-com-ata-mais-dura-do-copom-ipca-2032-vai-a-771/
 · USDBRL Dólar renova máxima do ano, aos R$ 5,58 (O Globo) https://oglobo.globo.com/economia/financas/noticia/2026/11/10/dolar-hoje-maior-valor-2026-rs-5-58.ghtml
