@@ -1,8 +1,44 @@
-NOTÍCIAS E FATOS · 11/11 17h06
+NOTÍCIAS E FATOS · 11/11 23h12
 
-Pernas: noticias ok 17 novas (18 consultas; descartadas: 379 veículo fora da lista, 12 sem ativo, 3 teto) · cvm ok 0 novos de 11 (5 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 27 novas (18 consultas; descartadas: 361 veículo fora da lista, 25 sem ativo, 51 teto) · cvm ok 4 novos de 15 (7 cias casadas) · sec ok 0 novos em 3 dias
 
-## FATOS RELEVANTES E COMUNICADOS (CVM) (1)
+## FATOS RELEVANTES E COMUNICADOS (CVM) (5)
+
+[ATENÇÃO] E03 · BBAS3 · Fato Relevante: Fato Relevante
+CVM · entregue 11/11/2026 19:35
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1587982
+Por que importa: fato relevante e o que a propria companhia julga capaz de mover o preco; ler o documento inteiro antes de comentar
+Ativos: BBAS3
+Como falar: 'a Banco do Brasil publicou fato relevante sobre Fato Relevante'
+Fonte: CVM 11/11
+id: E03-BBAS3-1587982-2026-11-11 · status: pendente
+
+[ATENÇÃO] E03 · BBAS3 · Fato Relevante: Fato Relevante
+CVM · entregue 11/11/2026 19:35
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1587981
+Por que importa: fato relevante e o que a propria companhia julga capaz de mover o preco; ler o documento inteiro antes de comentar
+Ativos: BBAS3
+Como falar: 'a Banco do Brasil publicou fato relevante sobre Fato Relevante'
+Fonte: CVM 11/11
+id: E03-BBAS3-1587981-2026-11-11 · status: pendente
+
+[INFO] E03 · BBAS3 · Comunicado ao Mercado: Apresentações a analistas/agentes do mercado
+CVM · entregue 11/11/2026 19:38 · Apresentações a analistas/agentes do mercado
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1587989
+Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; confirma ou nega o que circula
+Ativos: BBAS3
+Como falar: 'a Banco do Brasil publicou comunicado ao mercado sobre Apresentações a analistas/agentes do mercado'
+Fonte: CVM 11/11
+id: E03-BBAS3-1587989-2026-11-11 · status: linha
+
+[INFO] E03 · UGPA3 · Aviso aos Acionistas: Outros avisos
+CVM · entregue 11/11/2026 19:03 · Outros avisos
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1587941
+Por que importa: aviso aos acionistas traz provento, data-com ou evento societario que muda o fluxo ao acionista
+Ativos: UGPA3
+Como falar: 'a Ultrapar publicou aviso aos acionistas sobre Outros avisos'
+Fonte: CVM 11/11
+id: E03-UGPA3-1587941-2026-11-11 · status: linha
 
 [INFO] E03 · CURY3 · Comunicado ao Mercado: Apresentações a analistas/agentes do mercado
 CVM · entregue 11/11/2026 09:24 · Apresentações a analistas/agentes do mercado
@@ -14,7 +50,169 @@ Fonte: CVM 11/11
 id: E03-CURY3-1587714-2026-11-11 · status: linha
 
 
-## NOTÍCIAS COM MATERIALIDADE (14)
+## NOTÍCIAS COM MATERIALIDADE (26)
+
+[ATENÇÃO] E05 · BBAS3 · Banco do Brasil revê projeções e reduz dividendos em meio à alta da inadimplência no agro
+O Globo · 11/11 21h28 · fonte única · licença: manchete
+Link: https://oglobo.globo.com/blogs/miriam-leitao/post/2026/11/banco-do-brasil-reve-projecoes-e-reduz-dividendos-em-meio-a-alta-da-inadimplencia-no-agro.ghtml
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: BBAS3
+Como falar: 'saiu no O Globo: Banco do Brasil revê projeções e reduz dividendos em meio à alta da inadimplência no agro; confirmar o número no texto antes de repassar'
+Fonte: O Globo 11/11 21h28
+id: E05-BBAS3-317ab13fca-2026-11-12 · status: pendente
+
+[ATENÇÃO] E05 · UGPA3 · Ultrapar anuncia pagamento de R$ 1,08 bilhão em dividendos; confira valor por ação
+Estadao · 11/11 21h26 · fonte única · licença: manchete
+Link: https://www.estadao.com.br/em-alta/einvestidor/cenarios-e-mercado/ultrapar-anuncia-pagamento-de-r-108-bilhao-em-dividendos-confira-valor-por-acao/
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: UGPA3
+Como falar: 'saiu no Estadao: Ultrapar anuncia pagamento de R$ 1,08 bilhão em dividendos; confira valor por ação; confirmar o número no texto antes de repassar'
+Fonte: Estadao 11/11 21h26
+id: E05-UGPA3-5a9e82e58f-2026-11-12 · status: pendente
+
+[ATENÇÃO] E05 · UGPA3 · Ultrapar (UGPA3) aprova R$ 1,085 bilhão em dividendos; veja datas
+Estadao · 11/11 21h19 · fonte única · licença: manchete
+Link: https://www.estadao.com.br/einvestidor/cenarios-e-mercado/ultrapar-anuncia-pagamento-de-r-108-bilhao-em-dividendos-confira-valor-por-acao/
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: UGPA3
+Como falar: 'saiu no Estadao: Ultrapar (UGPA3) aprova R$ 1,085 bilhão em dividendos; veja datas; confirmar o número no texto antes de repassar'
+Fonte: Estadao 11/11 21h19
+id: E05-UGPA3-b92b8444c8-2026-11-12 · status: pendente
+
+[ATENÇÃO] E05 · BBAS3 · Agronegócio cobra o preço no Banco do Brasil: inadimplência dispara, lucro desaba e dividendos entram na linha de corte
+Seu Dinheiro · 11/11 21h10 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – É o que ele classifica como um problema de “risco moral”.
+  – “Estamos tendo que tomar medidas, eu diria, até drásticas para fazer frente a essa situação”, afirmou Tobias, durante videocast sobre os resultados do terceiro trimestre de 2026 (3T26).
+  – A inadimplência acima de 90 dias chegou a 6,08% no terceiro trimestre, enquanto o custo do crédito atingiu R$ 21,2 bilhões no período, consumindo o equivalente a 81% da margem financeira bruta.
+  – Leia Também Para dimensionar a piora, basta olhar a trajetória desse indicador: desde 2023, a relação entre custo do crédito e margem financeira bruta costumava ficar entre 30% e 34%.
+  – Em 2025, já havia alcançado cerca de 65%.
+  – “Isso está consumindo a musculatura e a capacidade do Banco do Brasil de gerar resultados recorrentes, e isso traz impacto no nosso capital”, disse o CFO.
+Link: https://www.seudinheiro.com/2026/empresas/agronegocio-esta-cobrando-o-preco-no-banco-do-brasil-inadimplencia-dispara-lucro-encolhe-e-acionistas-ficam-sem-uma-parte-dos-dividendos-miql/
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: BBAS3
+Como falar: 'saiu no Seu Dinheiro: Agronegócio cobra o preço no Banco do Brasil: inadimplência dispara, lucro desaba e divid…; confirmar o número no texto antes de repassar'
+Fonte: Seu Dinheiro 11/11 21h10
+id: E05-BBAS3-5cbb3e88ef-2026-11-12 · status: linha
+
+[ATENÇÃO] E05 · BBAS3 · Banco do Brasil (BBAS3) deixa acionistas sem dividendos no trimestre e derruba lucro distribuído para mínimo obrigatório
+Money Times · 11/11 20h53 · fonte única · licença: integral
+Do texto:
+  – Banco do Brasil (BBAS3) deixa acionistas sem dividendos no trimestre e derruba lucro distribuído para mínimo obrigatório O investidor do Banco do Brasil (BBAS3) terá de se acostumar a uma remuneração mais magra em 2027.
+  – Em meio à deterioração dos resultados e à pressão sobre o capital, o banco decidiu reduzir seu payout, percentual do lucro distribuído aos investidores, de 30% para 25%, passando a pagar apenas o dividendo mínimo obriga…
+  – A tesourada ocorre após o BB reportar um lucro de apenas R$ 1,3 bilhão no terceiro trimestre, queda de 66% em relação ao mesmo período do ano anterior e bem abaixo dos cerca de R$ 3 bilhões esperados pelo mercado.
+  – Sem dividendos intermediários Com a mudança, não haverá anúncios de dividendos intermediários nas datas previstas para esta quarta-feira (11) e para 19 de novembro de 2026.
+  – Já o complemento necessário para o cumprimento do dividendo mínimo obrigatório, calculado com base no resultado de 2026, será anunciado em 17 de fevereiro de 2027, com pagamento previsto para 10 de março de 2027.
+  – Junto com isso, outra notícia negativa: o banco reduziu novamente suas projeções (guidance) para 2026.
+Link: https://www.moneytimes.com.br/banco-do-brasil-bbas3-deixa-acionistas-sem-dividendos-no-trimestre-e-derruba-lucro-distribuido-para-minimo-obrigatorio/
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: BBAS3
+Como falar: 'saiu no Money Times: Banco do Brasil (BBAS3) deixa acionistas sem dividendos no trimestre e derruba lucro dist…; confirmar o número no texto antes de repassar'
+Fonte: Money Times 11/11 20h53
+id: E05-BBAS3-5f1c4cf3a5-2026-11-11 · status: linha · íntegra disponível
+
+[ATENÇÃO] E05 · BBAS3 · “Uma parte do agro não quer pagar o Banco do Brasil”: CFO explica crise que derrubou o lucro do 3T26
+Money Times · 11/11 20h44 · + InfoMoney · licença: integral
+Do texto:
+  – “Uma parte desse agro efetivamente não quer pagar o Banco do Brasil”, afirmou o executivo, em videocast sobre o resultado do terceiro trimestre de 2026.
+  – - Confira aqui: Banco do Brasil (BBAS3): lucro tomba 66,5% e vai a R$ 1,3 bilhão no 3T26, bem abaixo das expectativas Guidance de 2026 revisado A avaliação levou o banco a revisar novamente suas projeções para o ano.
+  – O custo do crédito, que antes era estimado entre R$ 65 bilhões e R$ 70 bilhões, passou para uma faixa de R$ 80 bilhões a R$ 83 bilhões.
+  – Já a previsão de lucro líquido ajustado caiu de R$ 18 bilhões a R$ 22 bilhões para R$ 9 bilhões a R$ 11 bilhões.
+  – Segundo o executivo, entre 85% e 86% dos clientes e das operações do segmento, em média, continuam sendo pagos.
+  – A deterioração, porém, ganhou força em determinadas regiões e culturas, especialmente soja, pecuária e milho, e entre médios e grandes produtores.
+Link: https://www.moneytimes.com.br/uma-parte-do-agro-nao-quer-pagar-o-banco-do-brasil-cfo-explica-crise-que-derrubou-o-lucro-do-3t26-miql/
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: BBAS3
+Como falar: 'saiu no Money Times: “Uma parte do agro não quer pagar o Banco do Brasil”: CFO explica crise que derrubou o lu…; confirmar o número no texto antes de repassar'
+Fonte: Money Times 11/11 20h44
+id: E05-BBAS3-64906c447e-2026-11-11 · status: linha · íntegra disponível
+
+[ATENÇÃO] E05 · UGPA3 · Ultrapar apresentou lucro líquido de R$ 2,697 bilhões no terceiro trimestre
+CNN Brasil · 11/11 20h40 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – A Ultrapar apresentou lucro líquido de R$ 2,697 bilhões no terceiro trimestre de 2026, uma alta de 249% em relação ao visto no período correspondente de 2025.
+  – O Ebitda ajustado foi de R$ 4,632 bilhões, com alta de 138% ante igual período do ano anterior.
+  – O mesmo indicador sob a rubrica "recorrente" foi de R$ 3.103 milhões, com alta anual de 74%.
+  – Em relação ao segundo trimestre de 2026, houve redução de 15% no Ebitda recorrente, também refletindo principalmente o menor resultado da Ipiranga na comparação trimestral.
+  – O efeito foi parcialmente compensado pela atualização monetária de R$ 134 milhões de créditos fiscais extraordinários reconhecido entre julho e setembro de 2025.
+  – A Ultrapar registrou geração de caixa operacional de R$ 140 milhões, ante R$ 2,129 bilhões um ano antes.
+Link: https://www.cnnbrasil.com.br/economia/money/negocios/ultrapar-apresentou-lucro-liquido-de-r-2697-bilhoes-no-terceiro-trimestre-de-2026-2/
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: UGPA3
+Como falar: 'saiu no CNN Brasil: Ultrapar apresentou lucro líquido de R$ 2,697 bilhões no terceiro trimestre; confirmar o número no texto antes de repassar'
+Fonte: CNN Brasil 11/11 20h40
+id: E05-UGPA3-3b40cd8eec-2026-11-11 · status: linha
+
+[ATENÇÃO] E05 · BBAS3 · Banco do Brasil (BBAS3) corta guidance de lucro pela metade — e avisa: a conta do agronegócio ainda não terminou de chegar
+Seu Dinheiro · 11/11 20h16 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Após frustrar o resultado do terceiro trimestre, o banco decidiu reduzir novamente suas projeções (guidance) para 2026.
+  – Agora, o BB estima um lucro líquido ajustado entre R$ 9 bilhões e R$ 11 bilhões, menos da metade do intervalo anterior, de R$ 18 bilhões a R$ 22 bilhões.
+  – Do outro lado da equação, a previsão de custo do crédito subiu para até R$ 83 bilhões.
+  – E o problema ainda não ficou todo para trás: despesas de provisão relacionadas a vencimentos concentrados no terceiro trimestre devem pesar também sobre o balanço do quarto trimestre de 2026 (4T26).
+  – A conta do agronegócio ainda não fechou para o Banco do Brasil (BBAS3) A nova revisão mostra que o alívio esperado com a reestruturação dos empréstimos não foi suficiente para compensar a deterioração da carteira.
+  – Em comunicado, o Banco do Brasil afirma que o desempenho das renegociações com clientes inadimplentes no âmbito da Medida Provisória nº 1.376/2026 ficou "abaixo do inicialmente esperado".
+Link: https://www.seudinheiro.com/2026/empresas/banco-do-brasil-bbas3-corta-guidance-de-lucro-pela-metade-e-avisa-a-conta-do-agronegocio-ainda-nao-terminou-de-chegar-miql/
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: BBAS3
+Como falar: 'saiu no Seu Dinheiro: Banco do Brasil (BBAS3) corta guidance de lucro pela metade — e avisa: a conta do agroneg…; confirmar o número no texto antes de repassar'
+Fonte: Seu Dinheiro 11/11 20h16
+id: E05-BBAS3-2d0b1e9384-2026-11-11 · status: linha
+
+[ATENÇÃO] E05 · BBAS3 · Banco do Brasil (BBAS3) fecha torneira de dividendos e passará a pagar mínimo obrigatório após resultados fracos
+Seu Dinheiro · 11/11 20h14 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Em meio à deterioração dos resultados e à pressão sobre o capital, o banco decidiu reduzir seu payout, percentual do lucro distribuído aos investidores, de 30% para 25%, passando a pagar apenas o dividendo mínimo obriga…
+  – O BB reportou lucro líquido ajustado de apenas R$ 1,3 bilhão, cifra 66% menor do que a registrada um ano antes e distante dos cerca de R$ 3 bilhões esperados pelos analistas.
+  – Com a mudança, o Banco do Brasil informou que não haverá anúncios de dividendos intermediários nas datas que estavam previstas para esta quarta-feira (11) e para 19 de novembro de 2026.
+  – Já o complemento necessário para cumprir o dividendo mínimo obrigatório, calculado com base no resultado do exercício de 2026, será divulgado em 17 de fevereiro de 2027, com pagamento previsto para 10 de março de 2027.
+Link: https://www.seudinheiro.com/2026/empresas/banco-do-brasil-bbas3-abandona-payout-de-30-e-aperta-distribuicao-de-dividendos-rnda/
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: BBAS3
+Como falar: 'saiu no Seu Dinheiro: Banco do Brasil (BBAS3) fecha torneira de dividendos e passará a pagar mínimo obrigatório…; confirmar o número no texto antes de repassar'
+Fonte: Seu Dinheiro 11/11 20h14
+id: E05-BBAS3-172787424d-2026-11-11 · status: linha
+
+[ATENÇÃO] E05 · BBAS3 · Com atrasos de pagamentos do agro, lucro do Banco do Brasil cai 66,5% no 3º trimestre
+O Globo · 11/11 19h59 · fonte única · licença: manchete
+Link: https://oglobo.globo.com/economia/negocios/noticia/2026/11/11/com-atrasos-do-agronegocio-lucro-do-banco-do-brasil-cai-a-r-13-bilhao-no-3o-trimestre.ghtml
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: BBAS3
+Como falar: 'saiu no O Globo: Com atrasos de pagamentos do agro, lucro do Banco do Brasil cai 66,5% no 3º trimestre; confirmar o número no texto antes de repassar'
+Fonte: O Globo 11/11 19h59
+id: E05-BBAS3-92cd42c94e-2026-11-11 · status: linha
+
+[ATENÇÃO] E05 · BBAS3 · Banco do Brasil (BBAS3): lucro tomba 66,5% e vai a R$ 1,3 bilhão no 3T26, bem abaixo das expectativas
+Money Times · 11/11 19h50 · + InfoMoney, Seu Dinheiro · licença: integral
+Do texto:
+  – O resultado veio muito abaixo das expectativas do mercado, que projetava lucro de cerca de R$ 3 bilhões, segundo estimativas compiladas pela Bloomberg.
+  – A pressão também aparece no retorno sobre o patrimônio líquido médio (ROAE), que ficou em 2,8% no trimestre, com queda de 5,6 pontos percentuais (p.p.) em relação ao mesmo período do ano passado e frente ao trimestre an…
+  – Para efeito de comparação, o Itaú Unibanco (ITUB4) encerrou o trimestre com ROE de 23,6%, enquanto Bradesco e Santander Brasil também operam em patamares superiores.
+  – No terceiro trimestre, a inadimplência acima de 90 dias avançou 1,57 ponto percentual (p.p.) na comparação anual e 0,47 p.p. frente ao trimestre anterior, para 6,08%.
+  – No período, as despesas com provisões subiram 23,1% em relação ao ano anterior, totalizando R$ 22,1 bilhões.
+  – Esse cenário também se reflete no custo do crédito, que avançou 18,4% na comparação anual, para R$ 21,2 bilhões no trimestre.
+Link: https://www.moneytimes.com.br/banco-do-brasil-bbas3-lucro-no-3t26-expectativas-rentabilidade-inadimplencia-ainda-preocupa-miql/
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: BBAS3
+Como falar: 'saiu no Money Times: Banco do Brasil (BBAS3): lucro tomba 66,5% e vai a R$ 1,3 bilhão no 3T26, bem abaixo das…; confirmar o número no texto antes de repassar'
+Fonte: Money Times 11/11 19h50
+id: E05-BBAS3-726ececa2f-2026-11-11 · status: linha · íntegra disponível
+
+[ATENÇÃO] E05 · BBAS3 · Banco do Brasil vê lucro cair 66% no 3º tri e corta pela metade a previsão para 2026
+Exame · 11/11 19h48 · + CNN Brasil, TradingView (Reuters) · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – O lucro contábil, que inclui efeitos extraordinários, foi de R$ 1,22 bilhão, recuo de 59,9%.
+  – Os números foram divulgados nesta quarta-feira, 11, após o fechamento do mercado.
+  – Junto com o balanço, o banco revisou suas projeções para o ano e passou a estimar lucro ajustado entre R$ 9 bilhões e R$ 11 bilhões em 2026, metade da faixa anterior, de R$ 18 bilhões a R$ 22 bilhões.
+  – Como o banco acumulou R$ 8,6 bilhões de lucro entre janeiro e setembro, a nova faixa indica um quarto trimestre entre R$ 0,4 bilhão e R$ 2,4 bilhões.
+  – O principal fator foi o custo do crédito, que somou R$ 21,2 bilhões no trimestre, alta de 18,4% em um ano.
+  – No relatório da administração, o BB detalha que o calote no campo está concentrado em produtores de médio e grande porte, principalmente nas culturas de soja e milho e na pecuária, sobretudo no Centro-Oeste.
+Link: https://exame.com/invest/mercados/banco-do-brasil-ve-lucro-cair-66-no-3o-tri-e-corta-pela-metade-a-previsao-para-2026/
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: BBAS3
+Como falar: 'saiu no Exame: Banco do Brasil vê lucro cair 66% no 3º tri e corta pela metade a previsão para 2026; confirmar o número no texto antes de repassar'
+Fonte: Exame 11/11 19h48
+id: E05-BBAS3-1c76f66490-2026-11-11 · status: linha
 
 [ATENÇÃO] E05 · CURY3 · Cury anuncia distribuição de R$ 200 milhões em dividendos; confira valor por ação
 Estadao · 11/11 15h06 · fonte única · licença: manchete
@@ -48,7 +246,7 @@ Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir
 Ativos: PETR4
 Como falar: 'saiu no UOL Economia: Petrobras recua 3% no Ibovespa após frustrar mercado com dividendos; confirmar o número no texto antes de repassar'
 Fonte: UOL Economia 11/11 15h06
-id: E05-PETR4-d44825acf1-2026-11-11 · status: pendente
+id: E05-PETR4-d44825acf1-2026-11-11 · status: expirado
 
 [ATENÇÃO] E05 · NVDA · Watch Nvidia Gets Rare Downgrade as Jensen Huang Scandal Weighs on Outlook
 Bloomberg · 11/11 14h47 · fonte única · licença: manchete
@@ -57,7 +255,7 @@ Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais
 Ativos: NVDA
 Como falar: 'saiu no Bloomberg: Watch Nvidia Gets Rare Downgrade as Jensen Huang Scandal Weighs on Outlook; confirmar o número no texto antes de repassar'
 Fonte: Bloomberg 11/11 14h47
-id: E05-NVDA-ff7b909be0-2026-11-11 · status: pendente
+id: E05-NVDA-ff7b909be0-2026-11-11 · status: expirado
 
 [ATENÇÃO] E05 · PETR4 · Dividendos da Petrobras encolheram: ainda vale ter PETR4 na carteira de renda?
 InfoMoney · 11/11 14h15 · fonte única · licença: resumo
@@ -73,7 +271,7 @@ Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir
 Ativos: PETR4
 Como falar: 'saiu no InfoMoney: Dividendos da Petrobras encolheram: ainda vale ter PETR4 na carteira de renda?; confirmar o número no texto antes de repassar'
 Fonte: InfoMoney 11/11 14h15
-id: E05-PETR4-e3737f55c1-2026-11-11 · status: pendente
+id: E05-PETR4-e3737f55c1-2026-11-11 · status: expirado
 
 [ATENÇÃO] E05 · BBAS3 · Ação do Banco do Brasil sobe antes de balanço; mercado espera lucro menor no 3º trimestre
 Estadao · 11/11 14h15 · fonte única · licença: manchete
@@ -183,8 +381,23 @@ Fonte: Agencia Brasil 10/11 21h37
 id: E05-PETR4-cf22965341-2026-11-11 · status: expirado · íntegra disponível
 
 
-## OUTRAS NOTÍCIAS (só manchete) (34)
+## OUTRAS NOTÍCIAS (só manchete) (49)
 
+· NVDA Nvidia Stock Sinks as Jensen Huang Ouster Report Sends Investors Toward AMD, Broadcom (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/nvidia-stock-sinks-jensen-huang-002504447.html
+· NVDA Nvidia Tumbles as Investors Consider Future Without CEO Huang (Bloomberg) https://www.bloomberg.com/news/articles/2026-11-11/nvidia-tumbles-as-investors-consider-future-without-ceo-huang
+· BTC Cryptocurrencies: Bitcoin Down 5% This Week (Seeking Alpha) https://seekingalpha.com/article/4966730-cryptocurrencies-bitcoin-down-5-percent-this-week
+· NVDA Nvidia’s Disappearing Singapore Sales Deepen Mystery Around Megaspeed (The Wall Street Journal) https://news.google.com/rss/articles/CBMitgFBVV95cUxQTVMxMWYtSHpfTEN1dUVzcTRpZDBkRUR4ZVBENFJxODZHaEg5WHp0ekZFdENtZEZrNDl5eENKWW11LVJFSGd4T0Y0TVNEQU0wRUhoMW5HMVdsUmZmQThZVV9WdmVXc3ZGM0F5Wk1kRlM0TEFXbG51WUNyWGt3WXlRU1I2cmNoNmNocEtkdkktdU9NTVA1dUhiWHlYRG44aUxTM3VlVmdzOU41T3Z4aGxKbkw4VG5RZw?oc=5
+· NVDA Nvidia Export Curbs Could Shift AI Demand Toward These Data Center Stocks (Yahoo Finance) https://news.google.com/rss/articles/CBMimwFBVV95cUxPVTJUV2NtRlFXRDJLbmcwQmp2Zk1FTnJ2MDlNUGM5c0htWHFVZ3RBLXdvcWtVc3NFUFRpRzNmUGozY3pROG90U2c5cDFSQ09Xbm1jLWhRVGhyZFhjcFVwSkVZQnFTTVAtREFyU011VlJhUkV1eUtwQjZNdHNhZmRQWXlaVnhFZ2MwTHdKaWNGWDBtOGxrSlFXTHE5VQ?oc=5
+· NVDA CoreWeave Reportedly Plans $4B Investment-Grade Loan After Strong Earnings Beat — But Shares Fall After-Hours On Nvidia CEO Drama (Yahoo Finance) https://news.google.com/rss/articles/CBMiqAFBVV95cUxOWmdDMGtMT3hxb0duZVJVZG1RWWJzVjNKWTNGOTV2ZGwyVmFmWFFSOUU0OTRma3FqYlVnUG5KeFJ0RGk5VDZPc1RRX0p6bF9ENWU5VmIxa2RJNm9IaUNZckZWWXlwbjhRdkRTQkkzZk9uZ1RtVmFCTVRWbEo4aTJ3SlN4aGo3NnRITENILWwzMXRFM1VTdHRoMVZWN2xrLVBuZmUzVnk1LTQ?oc=5
+· PETR4 Petrobras avalia ajuste conjuntural na política de preços dos combustíveis (eixos) https://news.google.com/rss/articles/CBMivwFBVV95cUxPTmNQckRyR0VWWWZLWDFJZmRWT1psb242N1Z0cHcxbGUyeXNWbEhRSkFaMjVoVnZVSFNfZTBJQjd3SHpCSmo0cE1oNWtGSE1hZHFsN2tYWjZZVFNlZjhIWVpmNHF5WDBubG13Q0d6WHMwbzVjRmdvTEZkb0pQaGtEZzh4Sk4yLU82S0tMeDdFNncyMkFDUEhQc3BUcTNwT01Cc2FySC1kbEVWQTJwQS1JMUdrQVUySmk2dV9LUFZ6SQ?oc=5
+· BBAS3 Crise no agronegócio faz Banco do Brasil reduzir dividendos após tombo no lucro (Exame) https://news.google.com/rss/articles/CBMitAFBVV95cUxPbGFMY0otdG1CYjg1T1hCQm4zQlBiOVVBcnhSOV9fU044M3BiTEg2SUEtMU9waFJQVEw4cGw0RVk2MnF6aERuSm92cWFlWHNZcVFvVGNLdEVSb3lYY0U4cjdZOEhHRE1UVWVIY2VTbVR5RHdSY0JtbWpLSmRscjBtdHRoZVNrcU03b0dsVmdCYURJb2M2S3lDUnF5RnpVUDhNSGFRcHhHbHRnVkFKOFRVSkZKZGQ?oc=5
+· NVDA Nvidia’s Board Is Reportedly Preparing to Oust Jensen Huang. When Intel and McDonald’s Pushed Out CEOs Over Workplace Relationships, Shareholders Got… (Yahoo Finance) https://news.google.com/rss/articles/CBMipgFBVV95cUxOM2w3ckhfTVpKeVQxOFQ3bzh3TmZ1WUtacUpya2EwVzMtc19JLVAzRnNkS0NYVmtOak9EdzVva3d2QjVCWWd5Q0NnNWpSUzNtbFNUNzFYZTR6aDdRdkJxODd2TERReGFKX08zY2xuZHpqY0xQMWcxTFNLSFVkU2VyaW11WXZZZk8xZlZGVU54emJid3pUYUlFSWlTcFNJUHVuVW9BRE1B?oc=5
+· NVDA Nvidia Board Meets on Huang’s Fate After Affair With Alleged Spy (Bloomberg) https://news.google.com/rss/articles/CBMitgFBVV95cUxOcmJSZU1CcjRDallrenpZcTd5NW82RmdERExUaUF5TFdtWkpSOGNmLUpqX0ZLTjdKclg0REwxNzVNZkd6VUZKX3RWaTFLeVdrUnVwNlI2UmRGcktST3RpS0daUE9BQl9FU25oOURrV2dpOThRNFF4cWhUb2dqRGh6dzBmZk9qMHI2Mkl5Zlo5R2xfLWM1ekVFbjlLNHA3b2VpR2IzaVNheWxpSVRHeE02RlJXYkx6Zw?oc=5
+· PETR4 Petrobras amplia capacidade de 11 plataformas sem novos investimentos (Agencia Brasil) https://news.google.com/rss/articles/CBMixgFBVV95cUxNZllNc080ejc0UmJfOGZMellSenEtNXpCX1JpXzNwOXZfV005YzAzTG1oVW1ZOFR3b3BlN3JRcGJ3Q0FFbmczU0xaTUhsZmpZRjE5WU1NZS0tRHBBY3BIRmlsYnBFbloxWGNMd3ROS0FQTzlSU1lmaHA2blZsZDRSZEgyV09odThZcThBV2ZQdGRqSVpOdkRsV1dpUG02VzU1Nk4zd3VwYl83WGJadDJac0VvQXJzNWFPd0lUTVkwTXFFRTQ1Z0E?oc=5
+· USDBRL Dólar cai 0,42% e fecha a R$ 5,56 com foco em pacote fiscal (Agencia Brasil) https://news.google.com/rss/articles/CBMisAFBVV95cUxOZXBNR09SVkFSNHBoT1A0SENnSW9RNXZNdjJ2eE41RU1mTnB4LUJvV2x4YVIyVm1RdDZQMnpGWjdPVzl2RTdtbHk0QzhOZDc2OWtocURkdTVhcUw1ZHJJVkpZOEZZaTVpZkRSb3VKREhEdXpoc2VPSkVabGhlU3JlTkZCM0RRYzQ0UTBNWjZLNW92N1ZFX0FrdDh1SVpCSzVnZUlwNjVQQnBNYWdCMEVrdg?oc=5
+· BTC Prediction: What Will 1 Bitcoin Be Worth in 2027? (Yahoo Finance) https://news.google.com/rss/articles/CBMinAFBVV95cUxNUG5wbDhoVWdaM1lqNkRRdThpUlRRbUtmVFZ2YXJiN0NfX29DdUZGeDV5NE0zakQ2X1FScEVpdUhwSldCaE9yQTN2QTVZbDlVX1RxZ1Yza3dZZEJ4clNQRkRhUEVkVkFqTVRVeWV1V05DYzA5RGQwVWlMRlhkb0pmaWQyTk1WMHQwa2dvc2d1MFFDaWU0VWhhM24zLUs?oc=5
+· UGPA3 Impulsionada pela Ipiranga, Ultrapar lucra R$ 2,7 bilhões no 3º trimestre (Valor Economico) https://news.google.com/rss/articles/CBMixAFBVV95cUxQTjY5MUl4bEU1RjRBemVrdjRjYUxHZnA2OFcySTZmNHFEMXB6Wk95dkk5Sm9XNk10bWQ4MlJFcHhVTHdWc2ZkUmhCN21Pd1U0XzlWSmtfY3J1XzkwMlBueHlNWXJPVTRLbzFiaW1UdHZmbW5RM1ZZTWk3dzlndzVvazB4V3VzSHd2OXcxVmZLNHNXb1dmU3ZEVmtNeGlzeEpPbFpNdHctVkJ1OWdQOHV5dkwzdU1FODBRM0R3c0hreVI3Tm1a0gHTAUFVX3lxTE1haGVENnoxTTM0dVJnQmlxd2hxQmhfSDBOTDA5cjhSNFp5SV9pLU5aa1F1Z2UtVEJxVmVGeDRVanROVC1GMExaWVEzZWdnMWFpZlBROEt3VzBINnpFOEJuTG9TbG5RTjVaSXJNcDBWV0lCSDhpa0I1ZFFVYm5xZmpndlduUEFoMDNHNkFPWnNnNkJXdUpKTjJPTEFYQXh5NTRHcHA3cVAySGdTWENGZUpvQ0QwUWZMX1lYM0F3S1JOSkhEeUppdU9ZNlp0SFRkbEpSU0E?oc=5
+· NVDA 3 Stocks Tied To Export Control Compliance As Nvidia Questions Spread (Yahoo Finance) https://news.google.com/rss/articles/CBMigwFBVV95cUxON1ZncElsVUNYclpBRU9CakJHQ1NuZW9YeXVEa0F4bXA5T1duZy1nTzRFNVljQjJJODNCQXZoLTVRdUJRZUx4VDNyS2pGWGllSE8xLXNuQjJqeDZiaVpYalRmQ0pPYkhSa3IyOHJ1c2lMUmRtVjJfTThNMy1xeUdhS3ZCcw?oc=5
 · PETR4 Petrobras soma R$ 120 bilhões em perda de valor de mercado com nova queda de ações hoje (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/ewz-sobe-mais-de-1-apos-sinalizacoes-fiscais-do-governo-acoes-da-petrobras-recuam-2-em-ny/
 · DI Galípolo diz que BC foi até uma Selic alta e 'trincou os dentes' (Valor Economico) https://valor.globo.com/financas/noticia/2026/11/11/galipolo-diz-que-bc-foi-ate-uma-taxa-alta-trincou-os-dentes-e-permaneceu-com-ela-em-niveis-bastante-elevados.ghtml
 · USDBRL Ouro fecha em queda com valorização do dólar e expectativa de juros mais altos nos EUA (Money Times) https://www.moneytimes.com.br/ouro-fecha-em-queda-com-valorizacao-do-dolar-e-expectativa-de-juros-mais-altos-nos-eua-davs/
