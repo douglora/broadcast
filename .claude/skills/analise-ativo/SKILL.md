@@ -530,6 +530,13 @@ O padrao visual e o aprovado em 11/11/2026, o mesmo das skills `agentefiis` e
 com fio, caixa azul-clara com o numero, graficos limpos, "Figura N." com a fonte
 embaixo, so claro (nunca versao escura). Nunca a marca do Safra: assinatura da mesa.
 
+**Modelo APROVADO pelo Douglas em 11/11/2026** ("Aprovado"), nos dois modos, com a
+Copel (CPLE3) de referencia: resumido de 6 paginas e profundo de 13. Copia guardada em
+`dados_local/analista/referencia/aprovado-2026-11-11/` (PDF, HTML e o `texto.json`).
+Relatorio de outro ativo tem de sair com a mesma ordem de secoes, as mesmas figuras e o
+mesmo acabamento: na duvida, abra o PDF de referencia e compare. O padrao so muda com
+o OK dele; ajuste que ele pedir num ativo vira regra no motor, para todos.
+
 O relatorio e DINAMICO: cada secao so entra quando o dado existe e faz sentido para o
 setor (banco nao tem TIR por caixa e ganha ROE contra custo do capital; ciclica leva o
 aviso; sem numero do Safra a ponte encolhe para o consenso). Nao existe template
