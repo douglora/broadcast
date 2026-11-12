@@ -1,0 +1,1771 @@
+[p. 1]
+2T26 
+Teleconferência 
+Webcast 
+14 de agosto (sexta-feira) 
+11h (Horário de Brasília) 
+Link - CEMIG - WEBCAST 
+IBRX100 B3 IEE B3 ISE B3 ICO2 B3
+
+[p. 2]
+2 
+ 
+2T26 
+2T26 Destaques do Trimestre 
+RESULTADOS 2T26 
+• Geração robusta de caixa 
+o EBITDA: R$2,24 bilhões e EBITDA ajustado: R$2,47 bilhões 
+• Lucro líquido: R$945 milhões e Lucro líquido ajustado: R$1,12 bilhão 
+ 
+DISTRIBUIÇÃO 
+• Crescimento de 19,0% no EBITDA, influenciado pelo impacto positivo do reajuste tarifário em vigor desde 
+28/05/26, da menor despesa de pós -emprego e do bom desempenho em perdas de energia, em contrapartida à 
+redução do mercado faturado 
+o Energia distribuída excluindo GD: -1,6% (Cativo: -3,9% / Livre: +0,4%) 
+o Energia distribuída incluindo energia compensada de GD: +1,2% 
+• Revisão da metodologia de cálculo das perdas de crédito esperadas (PCE) com efeito positivo de R$232,2 milhões 
+no 2T26 
+• Opex e EBITDA melhor que o regulatório no 1S26 em R$416 milhões e R$666 milhões, respectivamente 
+• Perdas de energia: 11,40%, abaixo do limite regulatório de 11,48% 
+• DEC com melhoria contínua: 8,43 em jun/26 x 8,75 em mar/26 
+ 
+PÓS-EMPREGO 
+• Redução de R$80 ,3 milhões na des pesa ajustada de pós -emprego, em decorrência do fim da obrigação 
+relacionada ao plano de saúde, a partir do acordo homologado pelo TRT no final de 2025 
+ 
+COMERCIALIZAÇÃO 
+• Redução de R$383,4 milhões no EBITDA e de R$192,1 milhões no EBITDA ajustado da atividade de comercialização 
+o Exposição a preços mais elevados na compra de energia para o fechamento de posições do 2T26 
+o Provisão de R$190,6 milhões em decorrência de sentença em procedimento arbitral instaurado por cliente , 
+além de impacto de R$26,2 milhões da atualização financeira relacionado a essa provisão 
+ 
+ALOCAÇÃO DE CAPITAL 
+• Capex realizado de R$3,28 bilhões no 1S26 (aumento de 19,2% x 1S25), com destaque para os negócios regulados 
+o Distribuição: R$2,64 bilhões; 11 subestações novas e 3 ampliadas, adição de 1.886 km de redes de baixa e 
+média tensão 
+o Transmissão: R$275,2 milhões; com R$36,2 milhões de RAP adicionada 
+• Cemig Sim: aquisição de 11 UFVs no 2T6, totalizando 26,2 MWp de potência instalada, no valor de R$155 milhões 
+ 
+GESTÃO DA DÍVIDA 
+• Captação de recursos no montante de R$ 4,61 bilhões 
+o Cemig D: 15ª emissão de debêntures – R$ 1,15 bilhão e Empréstimo de US$ 280 milhões (ambos em abril/26) 
+o Cemig GT: 12ª emissão de debêntures – R$ 2,0 bilhões em junho/26 
+• Alavancagem de 2,58 vezes (dívida líquida / EBITDA ajustado) 
+• Alongamento dos vencimentos: 81% da dívida vencendo a partir de 2029, após a revisão tarifária da distribuidora 
+ 
+REMUNERAÇÃO AOS ACIONISTAS 
+• JCP declarado em junho: R$630,5 milhões 
+ 
+DOW JONES BEST IN CLASS INDEX 
+• A Cemig foi selecionada para compor a carteira do índice pel a 26ª vez consecutiva, desde a criação do mesmo
+
+[p. 3]
+3 
+ 
+2T26 
+Indicadores Financeiros e Operacionais 
+Destaques Operacionais 2T26 2T25 Var. A/A % 1T26 Var. T/T % 
+Energia distribuída (MWh) 13.487.648 13.331.108 1,2% 13.454.458 0,2% 
+ Total mercado cativo 5.328.565 5.542.849 -3,9% 5.324.493 0,1% 
+ Total transporte clientes livres 6.310.760 6.283.041 0,4% 6.284.468 0,4% 
+ GD 2 e 3 compensada 296.170 164.808 79,7% 280.999 5,4% 
+ GD1 compensada 1.552.154 1.340.410 15,8% 1.564.498 -0,8% 
+Energia vendida GT + Holding (MWh)* 10.916.837 11.243.037 -2,9% 10.653.535 2,5% 
+Volume total de gás distribuído (mil m³) 229.845 276.986 -17,0% 244.498 -6,0% 
+ 
+Destaques Financeiros (R$ milhões) 2T26 2T25 Var. A/A % 1T26 Var. T/T % 
+Receita operacional líquida 11.156,2 10.786,3 3,4% 10.462,5 6,6% 
+PMSO** 1.352,5 1.236,0 9,4% 1.221,1 10,8% 
+EBITDA 2.239,3 2.059,1 8,8% 1.788,7 25,2% 
+EBITDA Ajustado 2.472,4 2.261,5 9,3% 1.788,2 38,3% 
+Margem EBITDA 20,1% 19,1% 1,0 p.p. 17,1% 3,0 p. p. 
+Resultado financeiro (795,9) (312,6) 154,6% (338,4) 135,2% 
+Lucro Líquido 945,4 1.188,3 -20,4% 979,0 -3,4% 
+Lucro Líquido Ajustado 1.116,5 1.321,9 -15,5% 979,0 14,0% 
+Investimentos 1.805,3 1.544,0 16,9% 1.476,7 22,3% 
+ 
+Dívida Líquida 2T26 2T25 Var. A/A % 1T26 Var. T/T % 
+Dívida líquida 19.358,1 12.228,6 58,3% 17.844,0 8,5% 
+Dívida líquida/EBITDA ajustado 2,58x 1,59x 0,99x 2,45x 0,13x 
+*Excluindo energia liquidada na CCEE 
+** Incluindo despesa de pós-emprego 
+ 
+Demonstrações financeiras e planilhas do resultado podem ser encontradas no link a seguir: 
+Central de Resultados | Cemig RI
+
+[p. 4]
+4 
+ 
+2T26 
+Sumário 
+2T26 Destaques do Trimestre ......................................................................................................................... 2 
+Indicadores Financeiros e Operacionais ......................................................................................................... 3 
+EBITDA e Lucro por Empresa no Trimestre ....................................................................................................... 5 
+Demonstração de Resultados ........................................................................................................................ 6 
+Demonstração de Resultados por Segmento ................................................................................................... 7 
+Mercado de Energia Consolidado ................................................................................................................... 8 
+Desempenho por Empresa ............................................................................................................................. 9 
+Cemig D ..................................................................................................................................................... 9 
+Mercado de Energia Faturado ................................ ................................ ........................................................ 9 
+Desempenho por Setor ................................................................ ................................ ............................... 10 
+Balanço Físico de Energia – MWh ................................ ................................ ................................ ................. 11 
+Base de Clientes ................................ ................................ ................................ ................................ ......... 11 
+Reajuste Tarifário 2026 ................................................................ ................................ ................................ 12 
+Revisão Tarifária ................................ ................................ ................................ ................................ ......... 12 
+OPEX e EBITDA Realizado x Regulatório ................................ ................................ ................................ ........ 13 
+Indicadores de Qualidade – DEC/FEC ................................ ................................ ................................ .......... 13 
+Combate à Inadimplência ................................ ................................................................ ........................... 13 
+Perdas ................................ ................................ ................................ ....................................................... 14 
+Cemig GT/Holding .................................................................................................................................... 16 
+Mercado de Energia ................................ ................................ ................................ ................................ .... 16 
+Balanço de Energia ................................................................................................................................... 17 
+Gasmig .................................................................................................................................................... 18 
+Desempenho Financeiro Consolidado .......................................................................................................... 19 
+Receita Operacional ................................................................................................................................. 19 
+Custos e Despesas Operacionais.............................................................................................................. 21 
+Equivalência Patrimonial .......................................................................................................................... 24 
+EBITDA Consolidado .................................................................................................................................... 25 
+EBITDA Cemig D ....................................................................................................................................... 27 
+EBITDA Cemig GT ..................................................................................................................................... 28 
+Receitas e Despesas Financeiras .............................................................................................................. 29 
+Lucro Líquido ........................................................................................................................................... 29 
+Investimentos .............................................................................................................................................. 30 
+Endividamento............................................................................................................................................. 31 
+Evolução dos Ratings de Créditos da Cemig .................................................................................................. 32 
+ESG – Relatório de Desempenho ................................................................................................................... 33 
+Desempenho de nossas ações ..................................................................................................................... 37 
+Usinas ......................................................................................................................................................... 38 
+Expansão em Geração Fotovoltaica .......................................................................................................... 39 
+RAP – Ciclo de julho 2026 a junho 2027 .......................................................................................................... 39 
+Receita e EBITDA Regulatório de Transmissão ............................................................................................... 40 
+Informações complementares ..................................................................................................................... 40 
+Disclaimer ................................................................................................................................................... 41
+
+[p. 5]
+5 
+ 
+2T26 
+EBITDA e Lucro por Empresa no Trimestre 
+ EBITDA (IFRS) EBITDA Ajustado 
+EBITDA (IFRS) - (R$ 
+milhões) 2T26 2T25 Var. A/A % 1T26 Var. T/T % 2T26 2T25 Var. A/A % 1T26 Var. T/T % 
+Cemig D 1.476,8 1.241,0 19,0% 1.010,4 46,2% 1.508,3 1.245,6 21,1% 1.010,4 49,3% 
+Cemig GT 479,7 415,1 15,6% 575,6 -16,7% 678,6 613,2 10,7% 575,6 17,9% 
+Gasmig 205,9 243,5 -15,4% 192,7 6,8% 205,9 243,5 -15,4% 192,7 6,8% 
+Outras 76,9 159,5 -51,8% 9,9 677,7% 79,6 159,2 -50,0% 9,5 741,6% 
+Consolidado 2.239,3 2.059,1 8,8% 1.788,7 25,2% 2.472,4 2.261,5 9,3% 1.788,2 38,3% 
+VNR 79,7 26,6 199,4% 65,3 22,1% 79,7 26,6 199,4% 65,3 22,1% 
+Equivalência 91,4 77,4 18,0% 52,3 74,6% 91,4 77,4 18,0% 52,3 74,6% 
+Diferença EBITDA 
+regulatório e societário 
+da T 
+(23,8) 295,3 - 93,7 - (26,4) (96,7) -72,7% 93,7 - 
+Consolidado menos 
+VNR e equivalência, 
+mais diferença 
+societário/regulatório 
+de transmissão 
+2.044,4 2.250,3 -9,1% 1.765,7 15,8% 2.274,9 2.060,8 10,4% 1.764,7 28,9% 
+ 
+ Lucro (IFRS) Lucro Ajustado 
+R$ milhões 2T26 2T25 Var. A/A % 1T26 Var. T/T % 2T26 2T25 Var. A/A % 1T26 Var. T/T % 
+Cemig D 483,1 550,6 -12,2% 397,7 21,5% 
+ 
+504,0 553,6 -9,0% 397,7 26,7% 
+Cemig GT 269,6 342,1 -21,2% 392,7 -31,4% 418,1 472,9 -11,6% 392,7 6,5% 
+Gasmig 95,9 150,8 -36,4% 100,6 -4,7% 95,9 150,8 -36,4% 100,6 -4,7% 
+Demais 96,8 144,8 -33,1% 88,0 10,0% 98,9 145,0 -31,8% 88,0 12,3% 
+Consolidado 945,4 1.188,3 -20,4% 979,0 -3,4% 1.116,8 1.322,3 -15,5% 979,0 14,1% 
+ 
+*Mais detalhes do resultado regulatório de Transmissão, no tópico Receita e Ebitda Regulatório de Transmissão 
+ 
+“Robusta geração de caixa 
+operacional evidencia a 
+resiliência e solidez da 
+Companhia.”
+
+[p. 6]
+6 
+ 
+2T26 
+Demonstração de Resultados 
+ 
+R$ milhões 2T26 2T25 Reapresentado Var. A/A % 1T26 Var. T/T % 
+RECEITA LÍQUIDA 11.156 10.786 3,4% 10.463 6,6% 
+CUSTOS (9.204) (8.587) 7,2% (8.750) 5,2% 
+Custos com energia elétrica e gás (5.814) (5.809) 0,1% (5.847) -0,6% 
+Custos de construção de infraestrutura (1.753) (1.463) 19,8% (1.482) 18,3% 
+Custos de operação (1.637) (1.314) 24,6% (1.421) 15,2% 
+LUCRO BRUTO 1.952 2.200 -11,3% 1.712 14,0% 
+DESPESAS E OUTRAS RECEITAS (123) (509) -75,9% (325) -62,2% 
+Perdas de créditos esperadas 177 (3) - (83) - 
+Despesas gerais e administrativas (230) (178) 29,4% (202) 13,8% 
+Outras despesas (161) (406) -60,2% (118) 36,9% 
+Outras receitas - - - 26 - 
+Resultado de equivalência patrimonial 91 77 18,0% 52 75,7% 
+Lucro antes do resultado financeiro e dos tributos 
+sobre o lucro 1.829 1.691 8,2% 1.387 31,9% 
+Receitas financeiras 290 302 -4,1% 258 12,5% 
+Despesas financeiras (1.086) (615) 76,6% (596) 82,2% 
+Resultado financeiro líquido (796) (313) 154,6% (338) 135,5% 
+Lucro antes do imposto de renda e da contribuição 
+social 1.033 1.378 -25,0% 1.049 -1,5% 
+Imposto de renda e contribuição social corrente (84) (250) -66,5% (130) -35,6% 
+Imposto de renda e contribuição social diferidos (4) 60 - 60 - 
+LUCRO LÍQUIDO DO PERÍODO 945 1.188 -20,4% 979 -3,4%
+
+[p. 7]
+7 
+ 
+2T26 
+Demonstração de Resultados por Segmento 
+ 
+ Energia Elétrica 
+Gás Participações Holding Elimina- ções Consoli- dado (R$ milhões) Geração Trans- missão Comercia- lização Distri- buição 
+RECEITA LÍQUIDA 923 492 2.111 7.716 500 37 (623) 11.156 
+Intersegmentos 502 94 - 26 0 - (623) - 
+Terceiros 421 398 2.111 7.689 500 37 - 11.156 
+CUSTOS COM ENERGIA ELÉTRICA E GÁS (179) (0) (2.252) (3.799) (198) (0) 615 (5.814) 
+Intersegmentos (26) (0) (475) (114) - 0 615 - 
+Terceiros (152) (0) (1.777) (3.686) (198) (1) - (5.814) 
+CUSTOS, DESPESAS E OUTRAS RECEITAS (213) (246) (229) (2.722) (125) (78) 8 (3.604) 
+Pessoal (42) (43) (16) (286) (17) (17) - (421) 
+Participação dos empregados e 
+administradores no resultado (5) (5) (4) (27) (3) (10) - (53) 
+Obrigações pós-emprego (6) (2) (1) (29) - (13) - (50) 
+Materiais, serviços de terceiros e outras 
+despesas, líquidas (75) (23) (10) (659) (20) (49) 8 (828) 
+Intersegmentos (6) (1) - (1) (0) (0) 8 - 
+Terceiros (69) (22) (10) (658) (20) (49) - (828) 
+Depreciação e amortização (85) (5) (0) (282) (29) (10) - (410) 
+Provisões e ajustes para perdas operacionais (0) (3) (198) 96 (3) 20 - (88) 
+Custos de construção da infraestrutura - (166) - (1.534) (53) - - (1.753) 
+CUSTOS, DESPESAS E OUTRAS RECEITAS (391) (246) (2.482) (6.521) (323) (78) 623 (9.418) 
+Resultado de equivalência patrimonial - - - - - 91 - 91 
+RESULTADO ANTES DO RESULT. FIN. E 
+TRIBUTOS SOBRE O LUCRO 532 246 (371) 1.195 177 50 - 1.829 
+Resultado financeiro (42) (33) (0) (608) (32) (80) - (796) 
+RESULTADO ANTES DOS TRIBUTOS SOBRE O 
+LUCRO 490 213 (371) 587 145 (30) - 1.033 
+Imposto de renda e contribuição social (25) (24) 63 (104) (49) 50 - (88) 
+LUCRO LÍQUIDO DO PERÍODO 466 189 (308) 483 96 20 - 945
+
+[p. 8]
+8 
+ 
+2T26 
+Mercado de Energia Consolidado 
+Mercado de Energia Consolidado 
+O Grupo Cemig faturou cerca de, 9,6 milhões de clientes em junho de 2026, com crescimento de 131 mil clientes em relação a 
+junho de 2025, o que equivale a um aumento de 1,7% na base de consumidores. Deste total, 9.637.286 são consumidores finais e 
+de consumo próprio e 623 são outros agentes do setor elétrico brasileiro. 
+ 
+No gráfico abaixo é possível observar a participação das vendas aos consumidores finais do Grupo Cemig: 
+ 
+Participação nas vendas de energia por segmento 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+30%
+34%
+22%
+7%
+7%
+2T26
+Residencial
+Industrial
+Comércio e Serviços
+Rural
+Outras
+28%
+36%
+24%
+7% 5%
+2T25
+
+[p. 9]
+9 
+ 
+2T26 
+Desempenho por Empresa 
+Cemig D 
+Mercado de Energia Faturado 
+Cativo + Transporte - MWh 2T26 2T25 Var. A/A % 1T26 Var. T/T % 
+Residencial 3.256.834 3.170.399 2,7% 3.410.560 -4,5% 
+Industrial 5.315.913 5.483.215 -3,1% 5.281.913 0,6% 
+Mercado cativo 131.038 179.077 -26,8% 123.347 6,2% 
+Transporte 5.184.875 5.304.139 -2,2% 5.158.566 0,5% 
+Comércio, Serviços e Outros 1.506.841 1.521.024 -0,9% 1.544.105 -2,4% 
+Mercado cativo 776.963 855.645 -9,2% 784.115 -0,9% 
+Transporte 729.878 665.380 9,7% 759.990 -4,0% 
+Rural 692.531 778.749 -11,1% 519.590 33,3% 
+Mercado cativo 653.346 745.410 -12,4% 481.742 35,6% 
+Transporte 39.185 33.339 17,5% 37.848 3,5% 
+Serviços Públicos 781.396 792.114 -1,4% 773.784 1,0% 
+Mercado cativo 502.687 585.327 -14,1% 516.867 -2,7% 
+Transporte 278.709 206.788 34,8% 256.917 8,5% 
+Concessionárias 78.113 73.395 6,4% 71.147 9,8% 
+Transporte 78.113 73.395 6,4% 71.147 9,8% 
+Consumo Próprio 7.696 6.992 10,1% 7.862 -2,1% 
+Total mercado cativo 5.328.565 5.542.849 -3,9% 5.324.493 0,1% 
+Total transporte clientes livres 6.310.760 6.283.041 0,4% 6.284.468 0,4% 
+Total distribuído sem GD 11.639.325 11.825.890 -1,6% 11.608.961 0,3% 
+GD1 Compensada 1.552.154 1.340.410 15,8% 1.564.498 -0,8% 
+GD2 Compensada 294.463 163.221 80,4% 280.206 5,1% 
+GD3 Compensada 1.707 1.587 7,6% 793 115,2% 
+Total GD 1.848.324 1.505.218 22,8% 1.845.497 0,2% 
+Mercado Total com GD compensada 13.487.648 13.331.108 1,2% 13.454.458 0,2% 
+ 
+ 
+O fornecimento de energia para clientes cativos somado à energia transportada para clientes livres e distribuidoras, excluind o a 
+energia compensada de GD, totalizou 11.639 GWh no 2T26, com redução de 1,6% em relação ao mesmo período de 2025. Este 
+resultado foi decorrente, principalmente, do menor consumo das classes industrial ( -167,3 GWh ou -3,1%), rural (-86,2 GWh ou -
+11,1%) e comercial (-14,2 GWh ou -0,9%), em função, principalmente, da migração de clientes para GD e para a rede básica, bem 
+como do maior volume de chuvas no período, o que impactou na menor necessidade de irrigação. Em contrapartida, a classe 
+residencial registrou aumento de consumo de 86,4 GWh (+2,7%), refletindo o crescimento no número de clientes. 
+A redução de 1,6% na energia distribuída, excluindo GD, resulta da redução de 3,9% (-214,3 GWh) no consumo do mercado cativo 
+e do aumento de 0,4% (+27,7 GWh) no uso da rede pelos clientes livres. 
+Considerando a energia compensada de GD, a energia total distribuída teve crescimento de 1,2% em relação ao mesmo período 
+do ano anterior.
+
+[p. 10]
+10 
+ 
+2T26 
+Energia Distribuída 
+Por segmento (%) 
+ 
+ 
+ 
+ 
+Desempenho por Setor 
+Industrial: a energia distribuída para os clientes industriais diminuiu 3,1%* em relação ao 2T25, e representou 45,7%* do total da 
+Cemig D, sendo a maior parte referente a energia transportada para clientes livres industriais (44,5%), que teve redução de 2 ,2% 
+em relação ao mesmo período do ano anterior. Já a energia faturada dos clientes cativos, que foi 1,1% do total distribuído, teve 
+redução de 26,8% no consumo em relação ao 2T25, em decorrência, principalmente, da migração de clientes para o mercado livre. 
+A redução do consumo da classe industrial foi impactada pela migração de dois grandes clientes para rede básica. Se excluído 
+esse efeito, a redução da energia distribuída teria sido de 0, 9%. O menor consumo no 2T26 está relacionado, em especial, aos 
+setores de Siderurgia (-30,1%), de Produtos Químicos (-10,7%) e de Ferroligas (-5,9%), enquanto os setores de Metais Não Ferrosos 
+(+9,4%), Alimentos e Bebidas (+3,3%) e Indústria Extrativa (+1,6%) apresentaram crescimento no consumo de energia. 
+Residencial: o consumo residencial, que representou 28,0%* da energia distribuída pela Cemig D, teve aumento de 2,7% frente ao 
+2T25, explicado, principalmente, pelo crescimento de 2,6% no número de clientes da classe (+208,1 mil), além de um aumento de 
+0,1% no consumo médio por cliente, que atingiu de 131,1 KWh/mês. 
+Comercial e Serviços: a classe comercial respondeu por 12,9% do volume total de energia distribuída pela Cemig D no 2T26* e 
+apresentou redução de 0,9% no consumo frente ao 2T25. A variação do volume da classe reflete a redução de 9,2% no volume 
+faturado dos clientes cativos e o crescimento de 9,7% no volume transportado para os clientes livres, sendo o movimento 
+diretamente associada à migração de clientes para o mercado livre. A redução no consumo total da classe, por sua vez, está 
+relacionada à diminuição do número de clientes. 
+Rural: este setor representou 5,9%* da energia total distribuída e apresentou uma redução de 11,1% no consumo em relação ao 
+mesmo período do ano anterior, em razão, principalmente, do maior volume de chuvas no 2T26 em comparação ao mesmo período 
+de 2025, o que reduziu a necessidade de irrigação. 
+Serviços Públicos: representou 6,7%* da energia distribuída no 2T26, com redução de 1,4% no consumo frente ao 2T25. 
+ 
+ 
+*Excluindo energia compensada de GD 
+ 
+28%
+46%
+13%
+6%
+7%
+2T26
+Residencial
+Industrial
+Comércio e Serviços
+Rural
+Outras
+27%
+46%
+13%
+7%
+7%
+2T25
+
+[p. 11]
+11 
+ 
+2T26 
+Balanço Físico de Energia – MWh 
+Mercado Medido - MWh 2T26 2T25 Var. A/A % 1T26 Var. T/T % 
+Energia Transportada para Distribuidoras 78.113 73.395 6,4% 71.147 9,8% 
+Energia Transportada para Clientes Livres 6.427.521 6.207.535 3,5% 6.189.900 3,8% 
+Carga Própria + GD 8.867.873 8.792.162 0,9% 8.532.690 3,9% 
+Consumo Mercado Cativo 5.272.543 5.550.333 -5,0% 5.438.282 -3,0% 
+Mercado GD 1.848.324 1.505.218 22,8% 1.845.136 0,2% 
+Perdas na Rede de Distribuição 1.747.006 1.736.611 0,6% 1.249.272 39,8% 
+Total Carga Fio 15.373.507 15.073.092 2,0% 14.793.736 3,9% 
+ 
+Base de Clientes 
+Em junho de 2026, foram faturados 9,64 milhões de consumidores, aumento de 1,6% em relação a junho de 2025. Desse total, 6.488 
+são clientes livres que utilizam a rede de distribuição da Cemig D. 
+ 
+Número de clientes cativos jun/26 jun/25 Var. A/A % mar/26 Var. T/T % 
+Residencial 8.281.118 8.072.997 2,6% 8.247.521 0,4% 
+Industrial 22.098 23.754 -7,0% 22.455 -1,6% 
+Comércio, Serviços e Outros 866.601 900.319 -3,7% 875.867 -1,1% 
+Rural 360.400 388.636 -7,3% 373.448 -3,5% 
+Poder Público 76.110 74.503 2,2% 75.148 1,3% 
+Iluminação Pública 8.553 7.354 16,3% 8.186 4,5% 
+Serviço Público 13.001 13.268 -2,0% 13.163 -1,2% 
+Consumo Próprio 878 830 5,8% 872 0,7% 
+Total clientes cativos 9.628.759 9.481.661 1,6% 9.616.660 0,1% 
+ 
+Número de clientes livres jun/26 jun/25 Var. A/A % mar/26 Var. T/T % 
+Industrial 2.499 2.290 9,1% 2.520 -0,8% 
+Comercial 3.288 2.914 12,8% 3.322 -1,0% 
+Rural 158 134 17,9% 168 -6,0% 
+Poder Público 85 51 66,7% 81 4,9% 
+Serviço Público 451 146 208,9% 339 33,0% 
+Concessionária 7 8 -12,5% 8 -12,5% 
+Total clientes livres 6.488 5.543 17,0% 6.438 0,8% 
+Total Cativos + Livres 9.635.247 9.487.204 1,6% 9.623.098 0,1%
+
+[p. 12]
+12 
+ 
+2T26 
+ 
+Reajuste Tarifário 2026 
+O reajuste tarifário da Cemig D ocorre anualmente no mês de maio e, a cada cinco anos, ocorre no mesmo mês a revisão tarifári a. 
+O reajuste tem o objetivo de repassar integralmente os custos não gerenciáveis e corrigir monetariamente os custos gerenciáve is, 
+que foram estabelecidos na revisão tarifária. O índice de reajuste dos custos gerenciáveis é o IPCA, e deste valor é deduzido o Fator 
+X, para capturar a produtividade, conforme metodologia do modelo regulatório de price-cap. 
+Em 26 de maio de 2026, a Aneel homologou o resultado da Reajuste Tarifário da Companhia, para vigência de 28 de maio de 2026 
+até 27 de maio de 2027, com o efeito médio a ser percebido pelos consumidores de 6,50%. O efeito médio para os clientes de baixa 
+tensão foi de 5,21%, mesmo efeito aplicado para os consumidores residenciais. Do reajuste total de 6,50%, 1,40 ponto percentual 
+corresponde aos custos gerenciáveis pela Companhia (Parcela B). Os custos não gerenciáveis (Parcela A) — que incluem compra 
+de energia, transmissão, encargos setoriais e receitas irrecuperáveis — contribuíram com 0,68 ponto percentual, enquanto os itens 
+financeiros incorporados à tarifa representaram os 4,42 pontos percentuais restantes. 
+Efeito Médio do Reajuste 
+Alta Tensão média 9,4% 
+Baixa Tensão média 5,2% 
+Efeito Médio 6,5% 
+ 
+Mais detalhes no link a seguir: 
+Resolução Homologatória N° 3589/2026 - Leis.org 
+ 
+ 
+Revisão Tarifária 
+Destaques da Revisão Tarifária ocorrida em 2023 e a do ciclo anterior: 
+Revisão Tarifária 2018 2023 
+Base de remuneração bruta - R$ milhões 20.490 25.587 
+Base de remuneração líquida - R$ milhões 8.906 15.200 
+Taxa média de depreciação 3,84% 3,95% 
+WACC (após impostos) 8,09% 7,43% 
+Remuneração das Obrigações Especiais - R$ milhões 149 272 
+CAIMI - R$ milhões 333 484 
+QRR R$ - Depreciação (Base bruta x taxa depreciação) 787 1.007 
+ 
+Mais detalhes no link a seguir: 
+https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/NT%2012%202023%20RTP%20Cemig.pdf
+
+[p. 13]
+13 
+ 
+2T26 
+OPEX e EBITDA Realizado x Regulatório 
+Performance melhor que o OPEX e EBITDA regulatórios no 1S26, em R$416 milhões e R$666 milhões, respectivamente. 
+ 
+Obs.: O EBITDA regulatório é formado pelas parcelas de remuneração de capital, quota de reintegração regulatória e um percentual 
+do Custo Anual das Instalações Móveis e Imóveis, publicados nas Notas Técnicas da ANEEL nos eventos de Revisão ou de Reajuste 
+Tarifário. Foi considerado na cobertura regulatória: PMSO Regulatório + Receitas irrecuperáveis + 78,45% do CAIMI 
+Indicadores de Qualidade – DEC/FEC 
+O indicador DEC (Duração Equivalente de Interrupções por Consumidor) fechou o 2T26 em 8,43 horas, menor patamar da história e 
+abaixo do limite regulatório de 9,26 horas. O resultado representa uma redução de mais de 1 hora em relação à janela de 12 meses 
+encerrada em junho de 2025. O FEC (Frequência Equivalente de Interrupção por Unidade Consumidora) se manteve abaixo do 
+parâmetro regulatório de 5,37, registrando 4,86 ao final do 2T26 na janela de 12 meses. 
+ 
+ 
+Combate à Inadimplência 
+O índice de Contas Arrecadadas tem se mantido superior a 99% desde 2022, atingindo 99,14% em junho de 2026. Esse 
+desempenho reflete a sólida atuação das ferramentas de cobrança, bem com a conclusão de negociações relevantes, resultando 
+no recebimento dos valores junto aos clientes. 
+ 
+A arrecadação via canais digitais (PIX, débito automático, cartão, aplicativo, etc) atingiu 74,08% do total arrecadado contra 67,50% 
+em junho de 2025. Destaque para o PIX, que se consolidou como o principal meio de pagamento utilizado pelos clientes, refletindo 
+a conveniência da modalidade e a efetividade das campanhas promovidas pela companhia. Representando cerca de 40% da 
+arrecadação, o PIX gera ganhos expressivos de eficiência, reduzindo despesas operacionais, além de maior agilidade no fluxo d e 
+caixa da empresa. 
+10,08 9,98
+9,59 9,64 9,48
+9,26 9,26
+9,46 9,48 9,71 9,46
+8,97 8,75
+8,43
+2021 2022 2023 2024 2025 mar/26 jun/26
+Limite anual DEC
+6,56 6,43 6,00 5,98 5,83 5,39 5,37
+4,60 4,58 4,86 5,06 5,14 4,99 4,86
+2021 2022 2023 2024 2025 mar/26 jun/26
+Limite anual FEC
+
+[p. 14]
+14 
+ 
+2T26 
+Índice de Contas Arrecadadas - ARFA (%) 
+(Arrecadação/Faturamento) – Média Móveis 12 meses 
+ 
+Perdas 
+As perdas de energia ficaram abaixo da meta regulatória na janela de 12 meses, encerrada em junho de 2026, atingindo 11,40%, 
+enquanto a meta regulatória é de 11,48%. Desde o reajuste tarifário anterior, de 28 de maio de 2025 , passou -se a adotar o 
+aperfeiçoamento da metodologia d e cálculo da cobertura de perdas não técnicas, definido pela Aneel conforme nota técnica n° 
+53/2025. A alteração passou a considerar no cálculo a energia medida de GD e não mais a faturada. Essa alteração trouxe um 
+aumento da cobertura tarifária para perdas de energia. 
+Entre as medidas de combate às perdas executadas nos primeiros 6 meses do ano, destacam-se a realização de 169 mil inspeções, 
+a substituição de mais de 145 mil medidores obsoletos, a troca de 157 mil medidores convencionais por medidores inteligentes 
+(alcançando 760 mil medidores inteligentes instalados desde o início do projeto em set/21) e a regularização de ligações 
+clandestinas de famílias que vivem em ocupações e áreas de complexidade, com uso de rede blindada, que alcançou 28,5 mil 
+regularizações desde o início do projeto em fev/23. 
+Em 2026, está prevista a realização de 358 mil inspeções, a instalação de 400 mil medidores inteligentes, a substituição de 1 50 mil 
+medidores obsoletos e a regularização de 25 mil famílias em comunidades de baixa renda — por meio das tecnologias BT Zero e 
+Quadro de Medição Blindado. Também está planejada a ampliação do uso de bancos de capacitores para reforçar o controle das 
+perdas técnicas, entre outras iniciativas estruturantes. 
+Perdas Totais 
+ 
+ 
+96,78
+98,55
+99,68 99,79 99,44 99,51 99,18 99,14
+2020 2021 2022 2023 2024 2025 1T26 2T26
+6,55
+6,14 6,17 6,24 6,31
+6,92 6,87 6,87
+12,57
+11,23 11,11
+10,71
+10,36
+11,42 11,41 11,4011,43
+11,28 11,23
+10,84
+10,51
+11,46 11,48 11,48
+9,8
+10,3
+10,8
+11,3
+11,8
+12,3
+12,8
+0
+2020 2021 2022 2023 2024 2025 1T26 2T26
+Perdas Reais, TWh Perdas Reais Totais, % Perdas Regulatórias Totais, %
+
+[p. 15]
+15 
+ 
+2T26 
+Perdas Reais 
+ 
+ 
+Perdas Regulatórias 
+ 
+ 
+12,57
+11,23 11,11 10,71 10,36 11,42 11,41 11,40
+3,80
+3,8 2,34 2,40 2,35 3,41 3,40 3,39
+8,77 8,77 8,77 8,31 8,01 8,01 8,01 8,01
+-1
+1
+3
+5
+7
+9
+11
+13
+15
+0
+2
+4
+6
+8
+10
+12
+2020 2021 2022 2023 2024 2025 1T26 2T26
+% Perdas
+Totais
+% Perdas
+não técnicas
+% Perdas
+ técnicas
+11,43 11,28 11,23 10,84 10,51 11,46 11,48 11,48
+2,66 2,66 2,46 2,53 2,50 3,45 3,47 3,47
+8,77 8,77 8,77 8,31 8,01 8,01 8,01 8,01
+-1
+1
+3
+5
+7
+9
+11
+13
+15
+0
+2
+4
+6
+8
+10
+12
+2020 2021 2022 2023 2024 2025 1T26 2T26
+% Perdas
+Regulatórias
+% Perdas
+não técnicas
+% Perdas
+ técnicas
+
+[p. 16]
+16 
+ 
+2T26 
+Cemig GT/Holding 
+Mercado de Energia 
+A energia vendida pela Cemig GT e pela Cemig Holding, excluindo CCEE, diminuiu (-2,9%) na comparação com o 2T25, sendo que a 
+energia faturada pela Cemig GT totalizou 7.069 GWh, representando um aumento de 11,3% (+716,9 GWh) em comparação ao 2T25. 
+A Cemig Holding registrou vendas de 3.848 GWh, redução de 21,3% em relação ao mesmo período do ano anterior. Do total 
+comercializado pela Holding e Cemig GT no 2T26, 509,0 GWh foram vendidos no mercado varejista. 
+Cemig GT - MWh 2T26 2T25 Var. A/A % 1T26 Var. T/T % 
+Clientes Livres 3.916.242 3.625.816 8,0% 3.629.097 7,9% 
+Industrial 2.648.039 2.441.227 8,5% 2.342.687 13,0% 
+Comercial 1.167.139 1.152.685 1,3% 1.207.399 -3,3% 
+Rural 47.369 27.707 71,0% 39.352 20,4% 
+Poder Público 53.695 4.197 1179,3% 39.659 35,4% 
+ACL – Comercializadoras e Cooperativas 1.998.179 1.574.194 26,9% 1.737.699 15,0% 
+Suprimento Cotas 565.793 565.513 0,0% 567.622 -0,3% 
+ACR 555.750 554.118 0,3% 571.697 -2,8% 
+ACR – Cemig D 33.132 32.580 1,7% 33.437 -0,9% 
+Total GT 7.069.095 6.352.221 11,3% 6.539.552 8,1% 
+ 
+Cemig H - MWh 2T26 2T25 Var. A/A % 1T26 Var. T/T % 
+Clientes Livres 2.103.383 2.481.986 -15,3% 2.050.436 2,6% 
+Industrial 1.654.713 1.978.731 -16,4% 1.580.159 4,7% 
+Comercial 398.634 476.561 -16,4% 405.428 -1,7% 
+Rural 26.800 26.694 0,4% 41.859 -36,0% 
+Serviço Público 23.236 - 22.991 1,1% 
+ACL – Comercializadoras e Cooperativas 1.744.359 2.408.829 -27,6% 2.063.547 -15,5% 
+Total H 3.847.741 4.890.815 -21,3% 4.113.984 -6,5% 
+ 
+Cemig GT + H 10.916.837 11.243.037 -2,9% 10.653.535 2,5%
+
+[p. 17]
+17 
+ 
+2T26 
+Balanço de Energia 
+Balanço de Oferta e Demanda – Grupo Cemig* – Posição em Julho/2026 
+https://ri.cemig.com.br/informacoes-financeiras/balancos-de-energia-eletrica
+
+[p. 18]
+18 
+ 
+2T26 
+Gasmig 
+A Gasmig é a distribuidora exclusiva de gás natural canalizado em todo o estado de Minas Gerais, atendendo aos segmentos 
+industrial, comercial, residencial, gás natural comprimido, automotivo e termelétrico. O prazo de sua concessão vai até janei ro de 
+2053. A Cemig detém participação de 99,57% na empresa. 
+ 
+EBITDA - R$ mil 2T26 2T25 Var. A/A % 1T26 Var. T/T % 
+Lucro Líquido 95.899 150.821 -36,4% 100.598 -4,7% 
+Despesa de imposto de renda e contribuição social 50.765 73.467 -30,9% 47.083 7,8% 
+Resultado financeiro 32.048 (4.533) - 21.138 51,6% 
+Depreciação e amortização 27.193 23.735 14,6% 23.922 13,7% 
+EBITDA conforme “Resolução CVM 156” 205.905 243.490 -15,4% 192.741 6,8% 
+ 
+A redução do Ebitda da Gasmig (-15,4%) foi influenciada pela queda de 17,0% no volume total de gás distribuído e pela migração de 
+clientes para o mercado livre, o qual apresenta uma menor margem. 
+A diminuição no volume total de gás distribuído no 2T26 em comparação a o 2T25, foi resultado da diminuição no volume vendido 
+para o mercado cativo de 55,7% (-108,8 mil m³), parcialmente compensada pelo aumento do volume distribuído para os clientes 
+livres de 75,6% (+61,7 mil m³). O menor volume vendido teve impacto, principalmente, da migração de clientes industriais para o 
+mercado livre, com consequente aumento do volume distribuído nesse mercado. Considerando o volume total distribuído, a classe 
+industrial foi a principal responsável pela redução, com diminuição de 31,4 mil m³ na comparação com o 2T25, enquanto o segmento 
+térmico teve diminuição de 15,3 mil m³. 
+A Gasmig teve aumento de 5,9% no número de clientes em relação a jun/25, alcançando 113.057 consumidores. Esse crescimento 
+está vinculado à expansão de 6,3 mil clientes na classe residencial. 
+ 
+MERCADO 
+(Volume em mil m3) 2024 2025 2T25 2T26 Var. A/A % 1T26 Var. T/T % 
+Automotivo 22.511 19.216 4.768 3.939 -17,4% 3.923 0,4% 
+Gás Natural Comprimido Automotivo 630 417 110 56 -49,1% 97 -42,3% 
+Industrial 786.363 513.509 174.789 69.896 -60,0% 76.892 -9,1% 
+Gás Natural Comprimido Industrial 10.275 8.938 2.643 2.444 -7,5% 1.487 64,4% 
+Residencial 12.095 13.194 3.550 3.366 -5,2% 3.028 11,2% 
+Cogeração 12.164 10.108 3.371 100 -97,0% 123 -18,7% 
+Comercial 23.203 24.598 6.161 6.790 10,2% 6.281 8,1% 
+Subtotal - mercado cativo 867.241 589.980 195.392 86.591 -55,7% 91.831 -5,7% 
+Industrial - mercado livre 107.723 364.178 58.901 132.849 125,5% 134.841 -1,5% 
+Gás Natural Comprimido Industrial - 
+mercado livre 7.699 10.145 2.581 2.288 -11,4% 2.255 1,5% 
+Cogeração - mercado livre 0 3.763 3.272 - 3.786 -13,6% 
+Térmica - mercado livre 58.046 66.919 20.112 4.846 -75,9% 11.785 -58,9% 
+Subtotal - mercado livre 173.468 445.005 81.594 143.255 75,6% 152.667 -6,2% 
+Total (cativo + livre) 1.040.709 1.034.985 276.986 229.846 -17,0% 244.498 -6,0% 
+ 
+Vale ressaltar que último processo de revisão tarifária para a Gasmig ocorreu em abril de 2022, com os seguintes destaques: 
+• Taxa WACC (real após impostos) reduziu de 10,02% a.a. para 8,71% a.a. 
+• Incremento significativo da Base de Remuneração Líquida que atingiu de R$3,48 bilhões 
+• Custo de PMSO integralmente reconhecido pelo regulador
+
+[p. 19]
+19 
+ 
+2T26 
+Desempenho Financeiro Consolidado 
+Receita Operacional 
+R$ mil 2T26 2T25 Var. A/A % 1T26 Var. T/T % 
+Fornecimento bruto de energia elétrica 9.055.911 8.686.379 4,3% 8.995.136 0,7% 
+Receita de uso dos sistemas elétricos de distribuição – TUSD 1.633.700 1.414.496 15,5% 1.510.020 8,2% 
+CVA e outros componentes financeiros 213.753 70.394 203,7% 369.582 -42,2% 
+Receita de operação e manutenção de transmissão 103.282 114.197 -9,6% 49.336 109,3% 
+Receita de construção e melhoria de transmissão 223.329 179.130 24,7% 151.789 47,1% 
+Remuneração financeira do ativo de contrato da transmissão 180.024 30.416 491,9% 38.341 369,5% 
+Receita de indenização da geração 35.805 31.201 14,8% 35.146 1,9% 
+Receita de construção de distribuição 1.587.229 1.324.446 19,8% 1.376.970 15,3% 
+Ajuste de expectativa do fluxo de caixa do ativo financeiro 
+indenizável da concessão de distribuição (VNR) 79.686 26.618 199,4% 65.278 22,1% 
+Receita de atualização financeira da bonificação pela outorga 147.979 118.859 24,5% 120.632 22,7% 
+Liquidação na CCEE 65.442 39.585 65,3% 19.832 230,0% 
+Fornecimento de gás 563.336 965.491 -41,7% 556.413 1,2% 
+Compensação por violação de padrão indicador de 
+continuidade (39.694) (39.949) -0,6% (48.017) -17,3% 
+Outras receitas 1.109.677 1.315.539 -15,6% 1.030.792 7,7% 
+Tributos e encargos incidentes sobre a receita (3.803.221) (3.490.507) 9,0% (3.808.707) -0,1% 
+Receita líquida 11.156.238 10.786.295 3,4% 10.462.543 6,6% 
+ 
+ 
+Fornecimento Bruto de Energia Elétrica 
+ 
+(1) O preço médio não inclui a receita de fornecimento não faturado 
+ 
+MWh R$ mil
+P reço 
+M édio 
+(R $ / M Wh)
+ (1)
+MWh R$ mil
+P reço 
+M édio 
+(R $ / M Wh)
+ (1)
+MWh R$ mil MWh R$ mil
+P reço 
+M édio 
+(R $ / M Wh)
+ (1)
+MWh R$ mil
+Residencial 3.965.054 3.756.182 947,3 3.667.850 3.374.148 919,9 8,1% 11,3% 4.127.482 3.810.859 923,3 -3,9% -1,4%
+Industrial 4.521.551 1.219.393 269,7 4.676.668 1.278.269 273,3 -3,3% -4,6% 4.129.740 1.102.746 267,0 9,5% 10,6%
+Comércio, serviços e 
+outros 2.941.813 1.716.905 583,6 3.141.492 1.650.182 525,3 -6,4% 4,0% 3.026.994 1.716.199 567,0 -2,8% 0,0%
+Rural 940.057 662.337 704,6 984.250 643.413 653,7 -4,5% 2,9% 706.355 536.824 760,0 33,1% 23,4%
+Poder público 305.650 254.458 832,5 384.704 229.246 595,9 -20,5% 11,0% 286.640 241.090 841,1 6,6% 5,5%
+Iluminação pública 235.832 151.440 642,2 235.650 140.046 594,3 0,1% 8,1% 233.039 142.727 612,5 1,2% 6,1%
+Serviço público 278.977 111.613 400,1 58.262 146.260 2.510,4 378,8% -23,7% 266.561 122.887 461,0 4,7% -9,2%
+SUBTOTAL 13.188.934 7.872.328 596,9 13.148.876 7.461.564 567,5 0,3% 5,5% 12.776.811 7.673.332 600,6 3,2% 2,6%
+Consumo Próprio 7.696 - - 6.992 - - 10,1% - 7.862 - - -2,1% -
+Fornecimento não 
+faturado líquido - (104.461) - - 77.702 - - - - 75.814 - - -
+FORNECIMENTO 13.196.630 7.767.867 596,9 13.155.868 7.539.266 567,5 0,3% 3,0% 12.784.673 7.749.146 600,6 3,2% 0,2%
+Suprimento a outras 
+concessionárias 4.817.442 1.262.389 262,1 5.042.543 1.162.502 230,5 -4,5% 8,6% 4.894.581 1.242.619 253,9 -1,6% 1,6%
+Suprimento não 
+faturado líquido - 25.655 - - (15.389) - - - - 3.371 - - -
+TOTAL 18.014.072 9.055.911 507,3 18.198.411 8.686.379 474,1 -1,0% 4,3% 17.679.254 8.995.136 504,5 1,9% 0,7%
+2T26 2T25 Var. A/A % 1T26 Var. T/T %
+
+[p. 20]
+20 
+ 
+2T26 
+Evolução da Venda de Energia Consolidada*: -1,0% 
+GWh 
+ 
+ 
+*Incluindo energia compensada de GD 
+ 
+Receita de Fornecimento 
+A receita bruta de fornecimento de energia foi de R$ 9.055,9 milhões no 2T26, em comparação a R$ 8.686,4 milhões no 2T25, 
+representando um aumento de 4,3%. A variação foi influenciada, principalmente, pelo reajuste tarifário anual da Cemig D e pelo 
+maior volume de energia vendida para os clientes residenciais. 
+Receita de Transmissão 
+A receita de transmissão da Companhia é composta por receita de operação e manutenção, receita de construção e remuneração 
+financeira do ativo de contrato. No 2T26, a receita de transmissão totalizou R$506,6 milhões, com aumento de 56,5% em relação ao 
+2T25. A variação é explicada pelo aumento na receita de remuneração financeira do ativo de contrato, que apresentou crescimento 
+de R$149,6 milhões em decorrência do IPCA mais elevado no período (índice que corrige a maior parte da receita) e pelo aumento 
+de R$44,2 milhões na receita de construção, fruto do maior investimento realizado. 
+Gás 
+A receita bruta de fornecimento de gás totalizou R$ 563,4 milhões no 2T26, registrando uma redução de 41,7%. Essa variação foi 
+impactada pela migração de clientes industriais para o mercado livre, principal fator para a redução de 55,7% no volume vendido. 
+Uso dos Sistemas Elétricos de Distribuição - TUSD 
+No 2T26, a receita de TUSD, advinda dos encargos cobrados dos consumidores livres sobre a energia distribuída, cresceu R$ 219,2 
+milhões (+15,5%) em relação ao 2T25. Essa variação decorre dos reajustes tarifários anuais da distribuidora, aplicados em 28 de 
+maio de 2025, com efeito integral no 2T26, e em 28 de maio de 2026, com impacto a partir dessa data, bem como do aumento dos 
+encargos pagos pelos consumidores livres. 
+CVA (Conta de compensação de variação de valores de itens da “Parcela A”) e 
+outros componentes financeiros 
+No 2T26, foi reconhecida uma receita de R$213,7 milhões, representando um crescimento de 203,7% em relação ao 2T25. A variação 
+deve-se, principalmente, a os custos de compra de energia e d o custo de CDE terem sido realizados acima do valor definido no 
+reajuste tarifário. 
+A Cemig D reconhece em suas demonstrações financeiras as variações positivas ou negativas verificadas entre os custos não 
+gerenciáveis efetivos e os custos estimados utilizados como base para a definição das tarifas. Estes saldos representam os valores 
+que deverão ser ressarcidos ao consumidor ou repassados à Cemig D nos próximos reajustes tarifários. 
+ 
+18.198
+18.014
+297
+155
+200
+44 225
+143
+2T25 Residencial Industrial Comercial Rural Suprimento Outras 2T26
+
+[p. 21]
+21 
+ 
+2T26 
+Custos e Despesas Operacionais 
+CONSOLIDADO - R$ mil 2T26 2T25 Var. A/A % 1T26 Var. T/T % 
+Energia elétrica comprada para revenda 4.785.257 4.547.303 5,2% 4.915.028 -2,6% 
+Encargos de uso da rede básica 830.506 776.715 6,9% 718.658 15,6% 
+Gás comprado para revenda 198.475 485.097 -59,1% 213.270 -6,9% 
+Custo de Construção 1.753.090 1.463.371 19,8% 1.482.436 18,3% 
+Pessoal 420.807 388.389 8,3% 365.592 15,1% 
+Participação dos empregados e administradores 
+no resultado 53.380 46.024 16,0% 45.054 18,5% 
+Obrigações pós-emprego 50.233 109.324 -54,1% 50.233 0,0% 
+Materiais 24.341 26.654 -8,7% 32.348 -24,8% 
+Serviços de terceiros 640.052 527.007 21,5% 596.063 7,4% 
+Depreciação e amortização 410.069 368.393 11,3% 401.321 2,2% 
+Provisões (reversões) 215.149 63.999 236,2% 84.000 156,1% 
+Perdas de créditos esperadas (177.013) 3.098 - 83.363 - 
+Perda esperada com outros créditos 50.312 30.126 67,0% 34.534 45,7% 
+Remensuração RBSE - 198.895 - - - 
+Outros custos e despesas 163.717 138.641 18,1% 131.804 24,2% 
+Total Custos e Despesas 9.418.375 9.173.036 2,7% 9.153.704 2,9% 
+Ganho na alienação de intangíveis - - - (26.191) - 
+Total Outras Receitas (redutor da despesa) - - - (26.191) - 
+TOTAL GERAL 9.418.375 9.173.036 2,7% 9.127.513 3,2% 
+ 
+Os custos e despesas operacionais totalizaram R$9,42 bilhões no 2T26, com aumento de R$245,3 milhões (+2,7%) em relação ao 
+2T25. Essa variação decorre, principalmente, do aumento de R$ 238,0 milhões no custo com compra de energia e de R$28 9,7 no 
+custo de construção (maior investimento realizado), em contrapartida ao menor custo (-R$286,7 milhões) com gás comprado para 
+revenda. 
+Mais detalhes sobre custos e despesas a seguir: 
+ 
+Energia Elétrica Comprada para Revenda 
+CONSOLIDADO - R$ mil 2T26 2T25 Var. A/A % 1T26 Var. T/T % 
+Energia adquirida no ambiente livre 1.968.106 1.656.838 18,8% 1.781.732 10,5% 
+Energia adquirida através de leilão em ambiente regulado 1.064.799 1.046.488 1,7% 1.260.776 -15,5% 
+Geração distribuída 901.198 846.075 6,5% 1.018.078 -11,5% 
+Energia de curto prazo 585.257 489.394 19,6% 593.620 -1,4% 
+Energia de Itaipu Binacional 277.364 322.822 -14,1% 271.131 2,3% 
+Contratos por cotas de garantia física 176.360 200.845 -12,2% 187.244 -5,8% 
+Contratos bilaterais 26.620 132.433 -79,9% 26.328 1,1% 
+PROINFA 108.404 134.838 -19,6% 108.403 0,0% 
+Cotas das usinas de Angra I e II 62.643 83.446 -24,9% 54.984 13,9% 
+Créditos de PIS/PASEP e COFINS (385.494) (365.876) 5,4% (387.268) -0,5% 
+TOTAL 4.785.257 4.547.303 5,2% 4.915.028 -2,6%
+
+[p. 22]
+22 
+ 
+2T26 
+ 
+O custo consolidado com energia elétrica comprada para revenda foi de R$ 4,79 bilhões no 2T26, um aumento de R$238,0 milhões 
+em relação ao 2T25. Essa variação decorre, principalmente, dos seguintes fatores: 
+• Os custos com energia adquirida no ambiente livre, que representam o maior custo de compra de energia (R$1.968,1 milhões), 
+apresentaram aumento de R$ 311,3 milhões (+ 18,8%) em relação ao 2T25, em função , principalmente, da necessidade de 
+compra de energia para fechamento de posições, realizada a preços mais elevados ao longo de 2026. 
+• Aumento de R$96,9 milhões (19,6%) no custo com energia de curto prazo. Essa variação é explicada, principalmente, por déficit 
+de energia na Cemig D, gerando exposição no mercado de curto prazo. 
+• Redução de R$105,8 milhões no custo de energia de contratos bilaterais. 
+Obs: O custo de energia comprada na Cemig D , apresentado abaixo, é um custo não controlável, sendo que a diferença entre os 
+valores utilizados como referência para definição das tarifas e os custos efetivamente realizados é compensada no reajuste tarifário 
+subsequente. 
+Cemig D R$ mil 2T26 2T25 Var. A/A % 1T26 Var. T/T % 
+Energia adquirida em leilão em ambiente regulado 1.072.517 1.057.434 1,4% 1.276.628 -16,0% 
+Geração distribuída 901.198 846.075 6,5% 1.018.078 -11,5% 
+Energia de curto prazo - CCEE 499.636 333.854 49,7% 328.894 51,9% 
+Energia de Itaipu Binacional 277.364 322.822 -14,1% 271.131 2,3% 
+Contratos por cotas de garantia física 188.658 205.235 -8,1% 191.504 -1,5% 
+Contratos bilaterais 26.620 132.433 -79,9% 26.328 1,1% 
+PROINFA 108.404 134.838 -19,6% 108.403 0,0% 
+Cotas das usinas de Angra I e II 56.840 83.446 -31,9% 49.970 13,7% 
+Créditos de PIS/PASEP e COFINS (195.527) (198.698) -1,6% (197.993) -1,2% 
+TOTAL 2.935.710 2.917.439 0,6% 3.072.943 -4,5% 
+ 
+Gás comprado para revenda 
+No 2T26, o custo de aquisição de gás foi de R$198,5 milhões, representando uma redução de R$286,6 milhões em relação ao 2T25. 
+Esta variação decorre, principalmente, da redução no volume de gás adquirido para atender a demanda do mercado regulado, dado 
+a migração de importantes clientes industriais para o mercado livre de gás. 
+Serviços de terceiros 
+A despesa com serviços de terceiros cresceu 21,5% (+R$113,0 milhões) frente ao 2T25, tendo como principais fatores os seguintes 
+aumentos: R$54,8 milhões (+30,1%) com manutenção e conservação de equipamentos elétricos, em grande parte por aumento da 
+manutenção preventiva, R$13,5 milhões (+38,8%) com tecnologia da informação, R$11,1 milhões (+42,9%) em podas de árvores e 
+R$9,2 milhões (22,4%) em limpeza de faixa. O aumento na despesa está diretamente relacionado ao maior volume de intervenções 
+realizadas no período, com foco no fortalecimento da resiliência da rede, melhorando a qualidade e a confiabilidade do 
+fornecimento de energia. 
+Perdas de créditos esperadas (PCE) 
+A despesa com perdas de créditos esperadas representou uma reversão de R$177,0 milhões no 2T26, em comparação a perdas de 
+R$3,1 milhões no 2T25. A reversão no 2T26 se deu em razão da revisão da metodologia de cálculo das Perdas de Crédito Esperadas 
+(PCE) com o objetivo de aprimorar a aderência das estimativas à efetiva capacidade de recuperação dos créditos , tendo efeito de 
+R$232,2 milhões. As principais alterações implementadas foram: 
+• ampliação do horizonte de reconhecimento de default para 60 meses (antes: regular/36 meses e irregular/18 meses); 
+• aprimoramento da metodologia aplicada às carteiras de clientes regulares e irregulares, por meio da revisão da matriz de 
+provisão, permitindo uma mensuração mais precisa e aderente ao comportamento histórico de recuperação dos créditos. 
+A revisão foi fundamentada em três pilares principais: (i) a efetividade das ferramentas de cobrança, evidenciada pela evolução da 
+curva de envelhecimento dos débitos em aberto; (ii) a realização de benchmarking com empresas do setor elétrico; e (iii) a
+
+[p. 23]
+23 
+ 
+2T26 
+convergência com os conceitos utilizados pela ANEEL no cálculo das Receitas Irrecuperáveis (RI), promovendo maior alinhamento 
+entre as metodologias regulatória e contábil. 
+ 
+Provisões para contingências 
+As provisões para contingências totalizaram R$215,1 milhões no 2T26, com aumento de R$151,2 milhões em relação ao 2T25. A 
+variação é explicada, principalmente, por registro de provisão em decorrência de sentença em procedimento arbitral instaurado por 
+cliente livre. 
+Obrigações pós-emprego 
+A despesa com as obrigações pós-emprego teve redução de R$59,1 milhões em relação ao 2T25. Excluindo o efeito não recorrente 
+da remensuração da obrigação no 2T25, a despesa seria menor em R$80,2 milhões. A redução da despesa é resultado direto do fim 
+da obrigação relacionada ao plano de saúde, a partir de acordo com sindicatos e aposentados e que foi homologado pelo TRT ao 
+final de 2025. 
+Pessoal 
+A despesa com pessoal foi de R$420,8 milhões no 2T26, com aumento de R$32,4 milhões em relação ao 2T25. O crescimento teve 
+como principais fatores o reajuste coletivo anual e os PDVs realizados no 2T26 e 2T25, com despesa de R$42,8 milhões e de R$25,4 
+milhões respectivamente. 
+ 
+Evolução Custo de Pessoal 
+R$ milhões excluindo PDVP 
+ 
+ 
+Número de Empregados por Empresa 
+ 
+ 
+ 
+324 339 326 332 346 363 340 382 366 378
+1T24 2T24 3T24 4T24 1T25 2T25 3T25 4T25 1T26 2T26
+124 130 125 126 135 138 143 147 147 152
+1.064 1.090 1.072 1.062 1.080 1.096 1.082 1.090 1.102 1.085
+3.705 3.794 3.740 3.840 3.905 4.051 4.053 4.083 4.135 4.073
+4.893 5.014 4.937 5.028 5.120 5.285 5.278 5.320 5.384 5.310
+1T24 2T24 3T24 4T24 1T25 2T25 3T25 4T25 1T26 2T26
+H GT D Total
+
+[p. 24]
+24 
+ 
+2T26 
+ 
+Equivalência Patrimonial 
+R$ mil 2T26 2T25 Var. A/A R$ mil 1T26 Var. T/T R$ mil 
+TAESA 120.634 106.958 13.676 74.184 46.450 
+Paracambi 4.935 4.527 408 4.098 837 
+Guanhães Energia 2.387 2.182 205 2.517 (130) 
+Hidrelétrica Cachoeirão 548 1.677 (1.129) 2.277 (1.729) 
+Cemig Sim (Participações) 0 3.920 (3.920) 0 0 
+Hidrelétrica Pipoca 0 180 (180) 404 (404) 
+Belo Monte (Aliança Norte e Amazônia Energia) (37.121) (42.026) 4.905 (31.155) (5.966) 
+Total 91.383 77.418 13.965 52.325 39.058 
+ 
+O resultado de equivalência patrimonial cresceu R$14,0 milhões no 2T26 em comparação ao mesmo período do ano anterior. Esse 
+desempenho foi impulsionado principalmente pela melhora do resultado da TAESA, decorrente da energização de ativos, com a 
+consequente adição de novas RAPs, e dos maiores índices de inflação (IGP -M e IPCA), que impactaram positivamente a receita de 
+atualização do ativo de contrato. A Cemig Sim deixou de registrar equivalência patrimonial, em razão de não ter mais participação 
+em sociedades com o descruzamento de ativos ocorrido no final de 2025, sendo que agora todos os seus ativos são próprios.
+
+[p. 25]
+25 
+ 
+2T26 
+ 
+EBITDA Consolidado 
+(1) EBITDA é uma medição de natureza não contábil elaborada pela Companhia, conciliada com suas demonstrações financeiras consoli dadas observando as disposições do Ofício -
+Circular/CVM/SNC/SEP n° 01/2007 e da Resolução CVM nº 156, de 23 de junho de 2022, consis tindo no lucro líquido, ajustado pelos efeitos do resultado financeiro líquido, da depreciação e 
+amortização e do imposto de renda e contribuição social. O EBITDA não é uma medida reconhecida pelas Práticas Contábeis Adota das no Brasil ou pelas IFRS, não p ossui um significado padrão e 
+pode não ser comparável a medidas com títulos semelhantes fornecidos por outras companhias. A Companhia divulga EBITDA porque o utiliza para medir o seu desempenho. O EBITDA não deve ser 
+considerado isoladamente ou como um substituto de lucro líquido ou lucro operacional, como um indicador de desempenho operacional ou fluxo de caixa ou para medir a liquidez ou a capacidade 
+de pagamento da dívida. A Companhia ajusta o EBITDA calculado em conformidade à Resolução CVM 156/2022 excluindo os itens que, pela sua na tureza, não contribuem para a informação sobre 
+o potencial de geração bruta de caixa uma vez que são extraordinários. 
+EBITDA Consolidado 2T26 
+R$ mil Geração Transmissão Comercia- lização Distribuição Gás Holding / Participações Total 
+Resultado do período 465.514 189.072 (308.139) 483.134 95.897 19.966 945.444 
+Despesa de imposto de renda e 
+contribuição social 24.737 23.769 (63.283) 103.627 49.062 (50.015) 87.897 
+Resultado financeiro 42.030 33.322 269 608.194 32.050 80.040 795.905 
+Depreciação e amortização 84.847 4.941 3 281.795 28.896 9.587 410.069 
+EBITDA conforme “Resolução CVM 156” 617.128 251.104 (371.150) 1.476.750 205.905 59.578 2.239.315 
+Efeitos não recorrentes e não caixa 
+Lucro líquido atribuído a acionistas 
+não-controladores - - - - (412) - (412) 
+Programa de desligamento voluntário 4.188 2.588 593 31.546 - 3.882 42.797 
+Provisões - Relações de consumo - - 190.653 - - - 190.653 
+Ebitda ajustado 621.316 253.692 (179.904) 1.508.296 205.493 63.460 2.472.353 
+ 
+ 
+EBITDA Consolidado 2T25 
+R$ mil (Reapresentado) Geração Trans- missão Comercia- lização Distribuição Gás Holding / Participações Total 
+Resultado do período 449.724 (2.841) 6.481 550.550 150.820 33.547 1.188.281 
+Despesa de imposto de renda e 
+contribuição social 31.781 (36.693) (3.961) 147.391 71.765 (20.474) 189.809 
+Resultado financeiro (11.424) 5.137 9.711 288.644 (6.058) 26.577 312.587 
+Depreciação e amortização 78.044 4.652 3 254.372 25.438 5.884 368.393 
+EBITDA conforme “Resolução CVM 156” 548.125 (29.745) 12.234 1.240.957 241.965 45.534 2.059.070 
+Efeitos não recorrentes e não caixa 
+Lucro líquido atribuído a acionistas não 
+controladores - - - - (648) - (648) 
+Remensuração do passivo de pós-
+emprego (2.302) (1.422) (326) (16.163) - (948) (21.161) 
+Remensuração RBSE - 198.895 - - - - 198.895 
+Programa de desligamento voluntário 1.920 1.187 272 20.812 - 1.200 25.391 
+EBITDA ajustado 547.743 168.915 12.180 1.245.606 241.317 45.786 2.261.547 
+ 
+ 
+EBITDA Consolidado 1T26 
+R$ mil Geração Transmissão Comercia- lização Distribuição Gás Holding / Participações Total 
+Resultado do período 396.428 138.987 (125.152) 397.653 100.598 70.465 978.979 
+Despesa de imposto de renda e 
+contribuição social 33.065 20.581 (28.658) 54.435 38.568 (48.039) 69.952 
+Resultado financeiro 23.619 14.414 (7.243) 283.611 21.138 2.885 338.424 
+Depreciação e amortização 79.143 4.610 3 274.697 32.437 10.431 401.321 
+EBITDA conforme “Resolução CVM 156” 532.255 178.592 (161.050) 1.010.396 192.741 35.742 1.788.676 
+Efeitos não recorrentes e não caixa 
+Lucro líquido atribuído a acionistas 
+não-controladores - - - - (434) - (434) 
+EBITDA ajustado 532.255 178.592 (161.050) 1.010.396 192.307 35.742 1.788.242
+
+[p. 26]
+26 
+ 
+2T26 
+O EBITDA Consolidado do 2T26 cresceu 8,8% na comparação com o 2T25 e totalizou R$2,24 bilhões. Já o EBITDA ajustado foi de 
+R$2,47 bilhões, com alta de 9,3% em relação ao 2T25. Os principais efeitos na comparação dos trimestres são como segue: 
+ 
+• Aumento de 19,0% no EBITDA da Cemig Distribuição, em função, principalmente, do impacto positivo do reajuste tarifário, da 
+redução da despesa com pós emprego, da revisão da metodologia de cálculo das perdas de crédito esperadas (PCE), que teve 
+efeito positivo de R$232,2 milhões no 2T26 e do bom desempenho em perdas de energia 
+• Redução de R$80,3 milhões na despesa ajustada com obrigação pós -emprego, excluindo o efeito positivo de R$2 1,1 milhões 
+da remensuração ocorrida no 2T25. A redução é explicada pelo fim da obrigação pós-emprego relacionada ao plano de saúde, 
+a partir do acordo homologado pelo TRT no final de 2025 
+• Redução de R$383,4 milhões no EBITDA e de R$192,1 milhões no EBITDA ajustado da atividade de comercialização na 
+comparação com o 2T25, tendo como principais fatores: 
+o custo mais elevado para fechamento de posições em aberto em momento de preços mais elevados 
+o efeito negativo da provisão de R$190,6 milhões , em decorrência de sentença em procedimento arbitral instaurado por 
+cliente livre 
+• EBITDA ajustado de gás R$35,8 milhões inferior ao do 2T25, devido à redução de 17,0% no volume distribuído e a migração de 
+clientes para o mercado livre, o qual apresenta uma menor margem regulatória 
+• Alteração na forma de registro da atualização monetária de provisões, que passou a ser reconhecida como despesa financeira, 
+enquanto provisões e reversões permaneceram no resultado operacional. No 2T25 (reapresentado para fins de comparação), 
+a atualização monetária de provisões representou uma despesa financeira de R$49,6 milhões, enquanto no 2T26 foi de R$123,4 
+milhões, incluindo R$26,2 milhões de atualização financeira relacionada a provisão decorrente da decisão em processo arbitral 
+citado acima 
+• Reconhecimento de receita líquida de subsídios no valor de R$374,9 milhões no 2T25, referente tanto ao trimestre quanto aos 
+demais períodos do ciclo tarifário junho/24 a maio/25, decorrente de ajuste relacionado à diferença entre os valores previsto s 
+e realizados no ciclo tarifário 2024/2025 
+• Remensuração do ativo de contrato da RBSE com efeito negativo de R$198,9 milhões no EBITDA do 2T25
+
+[p. 27]
+27 
+ 
+2T26 
+EBITDA Cemig D 
+R$ mil 2T26 2T25 Reapresentado Var. A/A % 1T26 Var. T/T % 
+Lucro líquido do período 483.134 550.554 -12,2% 397.653 21,5% 
+Despesa com imposto de renda e contribuição social 103.627 147.390 -29,7% 54.436 90,4% 
+Resultado financeiro líquido 608.194 288.643 110,7% 283.611 114,4% 
+Amortização 281.795 254.373 10,8% 274.697 2,6% 
+EBITDA conforme “Resolução CVM 156” 1.476.750 1.240.960 19,0% 1.010.396 46,2% 
+Programa de desligamento voluntário programado 31.546 20.812 51,6% - - 
+Remensuração do passivo de pós-emprego - (16.163) - - - 
+EBITDA Ajustado 1.508.296 1.245.609 21,1% 1.010.396 49,3% 
+VNR 79.686 26.618 199,4% 65.278 22,1% 
+EBITDA Ajustado menos VNR 1.428.610 1.218.991 17,2% 945.118 51,2% 
+ 
+A Cemig D registrou EBITDA de R$1. 476,7 milhões, com aumento de 19,0% em comparação ao 2T25. O EBITDA ajustado, por sua 
+vez, cresceu 21,1% em relação ao mesmo período do ano anterior. Os principais efeitos no EBITDA na comparação dos trimestres 
+são como segue: 
+• Reajuste tarifário com efeito médio de 6,5% e correção da parcela B em 4,9% a partir de 28/05/26, em contrapartida à redução 
+no mercado faturado na comparação com o 2T25 
+o Energia distribuída excluindo GD: -1,6% (composta por -3,9% no mercado cativo e +0,4% no livre). A variação reflete, 
+principalmente, a migração para GD , o menor consumo industrial ( -3,1%), ainda influenciado pela migração de dois 
+clientes de grande porte para a rede básica ao longo do 2T25 e a redução no consumo rural (-11,1%), devido ao maior 
+volume de chuvas . Em contrapartida, o consumo residencial teve aumento de 2, 7% na comparação com o mesmo 
+período de 2025 
+o Energia distribuída total, considerando a energia compensada de GD, cresceu 1,2% frente ao 2T25 
+• Redução de R$58,2 milhões na despesa ajustada com obrigação pós-emprego, excluindo o efeito positivo de R$16,2 milhões da 
+remensuração ocorrida no 2T25. A redução é explicada pelo fim d a obrigação pós-emprego relacionada ao plano de saúde, a 
+partir do acordo homologado pelo TRT no final de 2025 
+• Efeito positivo de R$ 232,2 milhões decorrente d a revisão da metodologia de cálculo das perdas de crédito esperadas (PCE). 
+Como resultado, a PCE no 2T26 representou uma reversão de R$175,2 milhões, em comparação a uma despesa de R$2,2 
+milhões no 2T25 
+• Melhor performance em perdas de energia, que encerraram a janela móvel de 12 meses em 11,40% , desempenho superior ao 
+nível de cobertura regulatória de 11,48% 
+• Registro de despesa com programa de desligamento voluntário, realizados no 2T26 e 2T25, de R$31,5 milhões e R$20,8 milhões, 
+respectivamente 
+• VNR de R$79,7 milhões no 2T26 e de R$26,6 milhões no 2T25 
+• Alteração na forma de registro da atualização monetária de provisões, que passou a ser reconhecida como despesa financeira, 
+enquanto provisões e reversões permanece ram no resultado operacional. No 2T26 , a atualização monetária de provisões 
+representou uma despesa financeira de R$69,6 milhões e de R$31,2 milhões no 2T25 (reapresentado para fins de comparação) 
+• Reconhecimento de receita líquida de subsídios no valor de R$374,9 milhões no 2T25, referente tanto ao trimestre quanto aos 
+demais períodos do ciclo tarifário junho/24 a maio/25, decorrente de ajuste relacionado à diferença entre os valores previstos e 
+realizados no ciclo tarifário 2024/2025, especialmente nos descontos aplicados às fontes incentivadas e à GD
+
+[p. 28]
+28 
+ 
+2T26 
+EBITDA Cemig GT 
+2T26 
+R$ mil Geração Trans- missão Comercia- lização Partici- pações Total 
+Resultado do período 468.395 177.113 (297.631) (78.287) 269.590 
+Despesa de imposto de renda e contribuição social 24.736 22.227 (57.828) 3.254 (7.611) 
+Resultado financeiro 42.030 33.907 9.792 34.131 119.860 
+Depreciação e amortização 86.249 5.001 3 6.649 97.902 
+EBITDA conforme “Resolução CVM 156” 621.410 238.248 (345.664) (34.253) 479.741 
+Provisão - processo arbitral de cliente livre - - 190.653 - 190.653 
+Programa de desligamento voluntário 4.188 2.588 593 797 8.166 
+EBITDA ajustado 625.598 240.836 (154.418) (33.456) 678.560 
+ 
+2T25 (reapresentado) 
+R$ mil Geração Trans- missão Comercia- lização Partici- pações Total 
+Resultado do período 460.115 (6.031) (55.415) (56.549) 342.120 
+Despesa de imposto de renda e contribuição social 32.081 (37.895) (16.295) 3.971 (18.138) 
+Resultado financeiro (11.506) 5.549 587 14.204 8.834 
+Depreciação e amortização 76.419 5.852 3 - 82.274 
+EBITDA conforme “Resolução CVM 156” 557.109 (32.525) (71.120) (38.374) 415.090 
+Programa de desligamento voluntário 1.920 1.187 272 366 3.745 
+Remensuração RBSE - 198.895 - - 198.895 
+Remensuração do passivo de pós - emprego (2.302) (1.422) (326) (438) (4.488) 
+EBITDA ajustado 556.727 166.135 (71.174) (38.446) 613.242 
+ 
+1T26 
+R$ mil Geração Trans- missão Comercia- lização Partici- pações Total 
+Resultado do período 395.359 136.979 (104.746) (34.872) 392.720 
+Despesa de imposto de renda e contribuição social 33.066 19.478 (18.147) 2.504 36.901 
+Resultado financeiro 23.619 14.971 (7.243) 20.175 51.522 
+Depreciação e amortização 82.749 4.670 3 7.083 94.505 
+EBITDA conforme “Resolução CVM 156” 534.793 176.098 (130.133) (5.110) 575.648 
+EBITDA ajustado 534.793 176.098 (130.133) (5.110) 575.648 
+ 
+O EBITDA da Cemig GT totalizou R$479,7 milhões no 2T26, com aumento de 15,6% em relação ao 2T25, enquanto o EBITDA ajustado 
+cresceu de 10,7%. Os principais efeitos no EBITDA do 2T26 e 2T25 e a variação são como segue: 
+• Receita de fornecimento maior em R$307,8 milhões (+21,3%) na comparação com o 2T25, em razão do crescimento no volume 
+de energia vendida (+11,3%), bem como no preço médio (+6,0%) 
+• Crescimento na receita de transmissão de 28,4%, impulsionado pela execução de reforços e melhorias (adição de RAP), pelo 
+aumento da receita de remuneração financeira do ativo de contrato, em decorrência do IPCA mais elevado no 2T26 (1,42% no 
+2T6 e 0,93% no 2T25), e pela maior receita de construção, refletindo o aumento dos investimentos realizados no período 
+• Impacto positivo do GSF mais elevado na atividade de geração (0,996 no 2T26 vs 0,955 no 2T25) 
+• Efeito negativo da provisão de R$190,6 milhões no EBITDA do 2T26, em decorrência de sentença em procedimento arbitral 
+instaurado por cliente livre 
+• Impacto negativo na atividade de comercialização em razão da exposição à diferença de PLD entre submercados , sendo de 
+R$66,8 milhões no 2T26 e R$76,1 milhões no 2T25
+
+[p. 29]
+29 
+ 
+2T26 
+• Redução de R$17,0 milhões na despesa ajustada com obrigação pós -emprego, excluindo o efeito positivo de R$4,5 milhões da 
+remensuração ocorrida no 2T25. A redução é explicada pelo fim do obrigação pós -emprego relacionada ao plano de saúde, a 
+partir do acordo homologado pelo TRT no final de 2025 
+• Reconhecimento, no 2T25, de redução no ativo de contrato no montante de R$198,9 milhões, líquido de PIS/Pasep e Cofins, 
+decorrente da remensuração do componente financeiro da RBSE, em função das alterações promovidas pela Resolução 
+Homologatória nº 3.469/2025 
+ 
+Receitas e Despesas Financeiras 
+RESULTADO FINANCEIRO - R$ mil 2T26 2T25 Var. A/A % 1T26 Var. T/T % 
+Receitas financeiras 290.189 302.444 -4,1% 257.960 12,5% 
+Despesas financeiras (1.086.094) (615.031) 76,6% (596.384) 82,1% 
+Resultado financeiro (795.905) (312.587) 154,6% (338.424) 135,2% 
+ 
+O resultado financeiro consolidado no 2T26 representou uma despesa financeira líquida de R$ 795,9 milhões, com aumento de 
+R$483,3 milhões na comparação com o 2T25. Esse comportamento decorre, principalmente, dos seguintes fatores: 
+• Aumento de R$96,8 milhões na despesa financeira com encargos de debêntures, em razão do crescimento na dívida bruta, que 
+influenciou também no crescimento de R$175,4 milhões n a despesa de variação monetária vinculada as debêntures . Ess a 
+última foi impactada, ainda, pelo maior IPCA no período (1,42% no 2T6 e 0,93% no 2T25) 
+• Registro de despesa financeira referente a atualização de créditos de GD de consumidores no valor de R$168,3 milhões no 2T26, 
+considerando as novas tarifas aprovadas no reajuste tarifário ocorrido em maio. No 2T25, a despesa correspondeu a R$ 75,3 
+milhões 
+• Receita de aplicações financeiras menor em R$70,6 milhões no 2T26 na comparação com o 2T25, em decorrência do menor 
+saldo de caixa médio no período 
+ 
+Lucro Líquido 
+A Cemig apresentou lucro líquido de R$945,4 milhões no 2T26, em comparação a um lucro de R$1.188,3 milhões no 2T25. Já o lucro 
+ajustado foi 15,5% menor que o registrado no 2T25, totalizando R$1,17 bilhão. 
+Conforme apresentado nas seções anteriores , o lucro líquido foi impactado , principalmente, pela redução do EBITDA de 
+comercialização, compensado pelo melhor EBITDA de distribuição, transmissão e geração, mas impactado pela piora de R$483,3 
+milhões no resultado financeiro, em função da maior despesa financeira, decorrente, principalmente, do aumento da dívida líquida 
+e IPCA mais elevado no 2T26 , da maior despesa de varação monetária de provisões e da atualização de créditos de GD de 
+consumidores. 
+ 
+RECONCILIAÇÃO DO LUCRO RECORRENTE CONSOLIDADO - R$ mil 2T26 2T25 1T26 
+Lucro líquido do período (IFRS) 945.444 1.188.281 978.979 
+Remensuração do passivo de pós-emprego - (13.966) - 
+Remensuração RBSE - 131.271 - 
+Provisão - processo arbitral de cliente livre 143.130 - 
+Programa de desligamento voluntário 28.246 16.758 - 
+Lucro Recorrente 1.116.820 1.322.344 978.979
+
+[p. 30]
+30 
+ 
+2T26 
+Investimentos 
+No 1S26, o investimento totalizou R$3,28 bilhões, com crescimento de 19,2% em relação ao 1S25. Desse montante, R$1,80 bilhão 
+foi realizado no 2T26. 
+Os principais destaques no 2T26 foram: investimento de R$1,36 bilhão realizado pela Cemig Distribuição, ampliação de 91 MVA na 
+capacidade de transformação , 5 novas subestações e 2 ampliadas, construção de 1.121 km de redes de baixa e média tensão e 
+instalação de 66 mil medidores inteligentes; investimento de R$165,9 milhões em reforços e melhorias na transmissão , adição de 
+26 MWp de capacidade instalada em geração distribuída fotovoltaica e a construção de 23,8 km de gasodutos pela Gasmig. 
+A execução do programa de investimento garante a modernização e confiabilidade do sistema elétrico da CEMIG, estando em linha 
+com o planejamento estratégico de focar em Minas e nos negócios estratégicos da Companhia e fornecer um serviço ainda melhor 
+para o cliente. Entre 2026 e 2030 estão planejados investimentos de R$43,70 bilhões, sendo R$6,72 bilhões em 2026. 
+Capex 
+ 
+ 
+Execução do programa de investimento da companhia garante MODERNIZAÇÃO e CONFIABILIDADE do sistema elétrico CEMIG 
+ 
+ 
+Realizado em 1S26 
+(R$ milhões) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+5.269 
+197
+632
+227
+375 25
+Planejamento 2026:
+Investimento de R$6.725 milhões
+Distribuição
+Geração
+Transmissão
+Gás
+Geração
+Distribuída
+1.235 1.640
+2.123
+3.568
+4.829
+5.714
+6.628
+2.753 3.282
+2019 2020 2021 2022 2023 2024 2025 1S25 1S26
++19,2% 
+ DISTRIBUIÇÃO • 14 subestações entregues (novas e modernizadas) • + 1.886 km de redes de baixa e média tensão 
+ TRANSMISSÃO • R$ 268 milhões em reforços e melhorias • R$ 36,2 milhões de RAP adicionada 
+ GERAÇÃO • R$ 30 milhões em expansão e manutenção 
+ GASMIG • 55,3 km de gasodutos construídos no 1S26 • R$ 49,5 milhões investidos no Projeto Centro-Oeste 
+ Cemig SIM • 45 MWp de capacidade instalada adicionados 
+ 
+ 
+EndividamentoDISTRIBUIÇÃO 
+Entrega de 06 novas subestações 
+Investimentos realizados: 
+Em 2025 investimos 4,6x a QRR 
+(Quota de reintegração regulatória) 
+ 
+Investimos em 2025 4,6X a QRR* 
+ 
+Investimos em 2025 4,6X a QRR* 
+ 
+Investimos em 2025 4,6X a QRR* 
+Investimentos realizados de R$3,28 bilhões no 1S26 
+1.280 
+34
+
+[p. 31]
+31 
+ 
+2T26 
+ 
+Endividamento 
+CONSOLIDADO - R$ mil jun/26 2025 Var. % 
+Dívida Bruta 22.352.709 19.465.331 14,8% 
+Caixa e equivalentes + TVM 3.082.109 2.661.338 15,8% 
+Instrumentos financeiros derivativos 87.526 8.508 928,7% 
+Dívida Líquida 19.358.126 16.812.501 15,1% 
+CEMIG GT (R$ mil) jun/26 2025 Var. % 
+Dívida Bruta 5.224.301 3.155.368 65,6% 
+Caixa e equivalentes + TVM 1.712.398 463.891 269,1% 
+Instrumentos financeiros derivativos 32.312 8.508 279,8% 
+Dívida Líquida 3.544.215 2.699.985 31,3% 
+CEMIG D (R$ mil) jun/26 2025 Var. % 
+Dívida Bruta 15.665.471 14.892.088 5,2% 
+Caixa e equivalentes + TVM 942.049 1.268.007 -25,7% 
+Instrumentos financeiros derivativos 55.212 0 - 
+Dívida Líquida 14.778.634 13.624.081 8,5% 
+ 
+Perfil de Amortização da Dívida Consolidada 
+R$ milhões 
+ 
+ 
+A Companhia mantém sua disciplina na execução da estratégia financeira, priorizando a otimização do fluxo de caixa, a redução do 
+custo de capital e o alongamento do perfil de endividamento. 
+O prazo médio da dívida fechou o 2T26 em 6,7 anos. Adicionalmente, destaca-se que 81% do endividamento total possui vencimento 
+a partir de 2029, posicionando o cronograma de amortização majoritariamente após o processo de revisão tarifária da distribuidora 
+e da transmissora, o que confere maior previsibilidade e segurança financeira. 
+Resiliência e Flexibilidade Financeira 
+ 
+Diante de eventuais cenários de maior seletividade no mercado de capitais, a Companhia permanece bem-posicionada devido à 
+sua alta qualidade de crédito (ratings) e à natureza defensiva do setor elétrico. A estrutura de capital é reforçada por linhas de crédito 
+pré-aprovadas e de rápida mobilização para momentos de volatilidade. A administração monitora continuamente alternativas de 
+funding — incluindo agências multilaterais, bancos de fomento, antecipação de recebíveis e loan 4.131 — permitindo a escolha de 
+janelas de mercado mais favoráveis. Em cenários de abertura de spreads, o impacto no custo total da dívida seria apenas marginal, 
+dado que o estoque atual de passivos não sofre impacto direto de oscilações secundárias ou das NTN-Bs. 
+Estrutura de Covenants 
+ 
+A Companhia reitera que suas cláusulas de covenants atuais estão em níveis adequados à maturidade de seus projetos e estão 
+alinhados aos peers do setor, garantindo segurança tanto para investidores quanto para a sustentabilidade da operação. 
+ 
+1.019
+2.395
+748
+2.016 2.630 2.948 1.866
+776
+7.954
+2026 2027 2028 2029 2030 2031 2032 2033 2034 a 2041
+
+[p. 32]
+32 
+ 
+2T26 
+ 
+Composição da Dívida Participação na Dívida Bruta 
+ 
+ 
+ 
+ 
+Evolução dos Ratings de Créditos da Cemig 
+Os ratings de crédito da Cemig evoluíram de forma consistente nos últimos anos, atingindo atualmente o mais alto patamar de s ua 
+história. 
+Em 2025, a Companhia alcançou rating AAA por mais uma agência de classificação de risco, com a elevação promovida pela 
+Moody’s. Esse patamar, mantido atualmente, reforça o reconhecimento da solidez financeira da empresa, da consistência dos 
+resultados e da disciplina na alocação de capital. 
+A trajetória de evolução dos ratings está apresentada na figura a seguir: 
+ 
+ 
+ 
+53%40%
+7%
+IPCA
+CDI
+US$ Dólar
+AAA AA+ AA AA- A+ A A- BBB+ BBB BBB- BB+ BB BB- B+ B B- CCC+
+2009
+2018
+2025
+AAA AA+ AA AA- A+ A A- BBB+ BBB BBB- BB+ BB BB- B+ B B- CCC
+2009
+2018
+2024
+AAA AA+ AA AA- A+ A A- BBB+ BBB BBB- Ba1 Ba2 Ba3 B1 B2 B3 Caa1
+2009
+2018
+2025
+Grau de Investimento Grau Especulativo
+Grau de Investimento Grau Especulativo
+Grau de Investimento Grau Especulativo
+ 70%
+23%
+7%
+Cemig D
+Cemig GT
+Outras
+
+[p. 33]
+33 
+ 
+2T26 
+ESG – Relatório de Desempenho 
+A Cemig estabeleceu compromissos públicos relacionados à sustentabilidade e busca executar iniciativas estratégicas, 
+monitoradas por indicadores e metas corporativas. Esses compromissos se subdividem nos pilares (i) Transição energética, (ii) Meio 
+ambiente, (iii) Desenvolvimento local, (iv) Nossas pessoas e (v) Governança sólida. 
+ 
+TRANSIÇÃO 
+ENERGÉTICA 
+• Compensar 100% das emissões de escopo 1 até 2026 
+• Ser Net Zero até 2040 e reduzir em 60% as emissões totais de gás 
+de efeito estufa até 2030 
+• Ter geração 100% renovável 
+• Comercializar 37,4 milhões de certificados de energia renovável 
+até 2030 
+• 100% das sedes municipais com dupla alimentação 
+• Conectar 7 GW de Geração Distribuída até 2028 
+• Instalar 1.250.000 medidores inteligentes até 2027 
+ 
+MEIO AMBIENTE 
+• Reciclar e/ou reaproveitar pelo menos 98% dos resíduos 
+industriais gerados, até 2027 
+• Realizar o diagnóstico de impactos e dependências da Cemig de 
+serviços ecossistêmicos. 
+ 
+DESENVOLVIMENTO 
+LOCAL 
+• Digitalizar pelo menos 85% dos atendimentos aos clientes até 
+2026 
+• Converter rede monofásica para trifásica por meio do Projeto 
+Minas Trifásico até 2027 
+• Beneficiar 120 mil famílias com a regularização do fornecimento de 
+energia 
+• Beneficiar, pelo menos, 60.000 pessoas com projetos da infância, 
+idoso e esporte até 2027 
+ 
+NOSSAS PESSOAS 
+• Efetivar a cultura de saúde e comportamento seguro na companhia 
+e na cadeia de valor até 2030 
+• Estabelecer uma cultura de valorização da diversidade, equidade 
+e inclusão até 2030 
+ 
+GOVERNANÇA SÓLIDA 
+• Cumprir 100% dos requisitos no Movimento Transparência do 
+Pacto Global até 2026 
+• Manter, até 2030, o índice de zero afetados pelas violações 
+relacionadas à segurança cibernética com vazamento de 
+informações críticas de dados pessoais que possam causar danos 
+relevantes ao titular 
+• Implantar o Programa de Gestão Sustentável da cadeia de valor até 
+2027
+
+[p. 34]
+34 
+ 
+2T26 
+Destaques Corporativos 
+ 
+Transição Energética 
+A Cemig alcançou 100% da compensação das emissões de Escopo 1 referentes ao ciclo monitorado, atingiu cerca de 90% da meta 
+de cobertura de sedes municipais com dupla alimentação, conectou 5,3 GW de geração distribuída — equivalente a 76% da meta 
+estabelecida para 2028 — e contabilizou mais de 13 milhões de certificados de energia renovável comercializados, representando 
+36% da meta prevista para 2030. Esses resultados reforçam a capacidade da companhia de avançar simultaneamente na 
+descarbonização, segurança energética e expansão de soluções renováveis. 
+A companhia foi novamente selecionada para a Lista do CDP, obtendo pontuação máxima em 10 dos 16 critérios avaliados, com 
+destaque para: 
+• Compromisso público com emissões líquidas zero até 2040 
+• Desenvolvimento de produtos de baixo carbono 
+• Fortes iniciativas de mitigação de emissões e modernização da rede 
+ 
+Destaque Meio Ambiente 
+A Cemig finalizou o documento alinhado às recomendações da Taskforce on Nature -related Financial Disclosures (TNFD), 
+fortalecendo a integração dos temas relacionados à natureza na gestão de riscos e oportunidades do negócio. 
+Mantivemos desempenho expressivo nos compromissos ambientais operacionais. O índice de reciclagem e reaproveitamento de 
+resíduos industriais atingiu 95%, reforçando o compromisso da companhia com os princípios da economia circular. 
+Além disso, o programa de restauração ambiental alcançou mais de 600 mil mudas de espécies nativas plantadas desde o início do 
+ciclo de monitoramento, correspondendo a 60% da meta de 1 milhão de mudas prevista para 2028. Adicionalmente, a companhia 
+manteve o desenvolvimento do Programa de Educação Ambiental Corporativo EcoCiente, que amplia a conscientização 
+socioambiental de empregados e comunidades, fortalecendo a cultura de sustentabilidade e a conservação dos ecossistemas nos 
+territórios onde atua. 
+ 
+Reconhecimento internacional em sustentabilidade 
+A empresa foi selecionada para compor a carteira do índice Dow Jones Best in Class pela 26ª vez consecutiva, estando presente no 
+mesmo desde a sua criação. 
+ 
+Governança Corporativa e Gestão de Riscos 
+A Cemig consolidou sua posição como referência em governança corporativa ao alcançar, com quatro anos de antecedência, 100% 
+das metas do Movimento Transparência 100%, iniciativa do Pacto Global da ONU alinhada ao ODS 16. Entre as empresas 
+participantes do programa, a Cemig esteve entre as únicas organizações a cumprir integralmente todos os compromissos previstos 
+para 2030, reafirmando seu compromisso com ética, integridade, transparência e prestação de contas.
+
+[p. 35]
+35 
+ 
+2T26 
+Participação nos principais índices de sustentabilidade 
+ 
+26 anos consecutivos de índice 
+ 21 anos consecutivos no índice 
+ 
+“A-list” no índice: Pontuação máxima em 10 de 16 critérios 
+ 
+Avaliação: A 
+Os indicadores de sustentabilidade foram reorganizados com o objetivo de refletir com mais precisão a nova Matriz de Materialidade 
+da Cemig (p. 6-7 do Relatório de Sustentabilidade da Cemig ), que conta com oito temas classificados como materiais — sendo 
+três considerados duplamente materiais, quatro com materialidade financeira e um com materialidade de impacto. Essa 
+reorganização visa fortalecer a coerência entre os indicadores reportados e os temas prioritários para a companhia e seus 
+stakeholders. 
+Mudança do clima 
+Indicadores 1T26 2T26 
+Consumo de combustível renovável (GJ) – acumulado 1.410,8 4.875,4 
+Consumo de combustível não renovável (GJ) – acumulado 30.811,5 30.840,4 
+Índice de perdas da rede básica de transmissão (%) 1,9 3,0 
+Índice de perdas totais na distribuição* 11,4 11,4 
+% da geração proveniente de fontes renováveis 100,0 100,0 
+* A Aneel alterou a metodologia a partir do 2T25. A CP nº 09/2024 demanda a utilização do mercado medido e não o faturado. O valor foi obtido a 
+partir da média dos meses de cada trimestre. 
+Energias Renováveis 
+Indicadores 1T26 2T26 
+I-RECs comercializados de fontes renováveis 1.016.573 125.120 
+Cemig RECs comercializados de fontes renováveis 7.936.934 331.916 
+Número de medidores inteligentes instalados 86.575 86.206 
+ 
+Recursos Hídricos 
+Indicadores 1T26 2T26 
+Indicador de Gestão de Monitoramento de Águas Superficiais (IGMAS) (%) 100 100
+
+[p. 36]
+36 
+ 
+2T26 
+Saúde das Pessoas 
+Indicadores 1T26 2T26 
+Taxa de frequência de acidentes (empregados próprios e terceirizados) - acumulado 3,31 3,26 
+Número de acidentes fatais ou não fatais com a população - acumulado 15 30 
+ 
+Comunidades Locais 
+Indicadores 1T26 2T26 
+Destinação ao Fundo para Infância e Adolescência (FIA) (R$) 334.121 45.818 
+Destinação ao Fundo do Idoso (R$) 334.121 45.818 
+Destinação via Lei de Incentivo ao Esporte (R$) 668.242 2.957.779 
+Destinação à Cultura (R$) 94.675.653 46.017.207 
+ 
+Satisfação do Cliente e Transparência 
+Indicadores 1T26 2T26 
+DEC - Duração Equivalente de Interrupção por Consumidor (horas) 2,46 1,97 
+FEC – Frequência Equivalente de Interrupção por Consumidor (unidade) 2,46 1,16 
+ 
+Conduta Ética e Integridade 
+Indicadores 1T26 2T26 
+Total de denúncias recebidas 450 394 
+Total de denúncias procedentes ou parcialmente procedentes concluídas 40 38 
+Número de clientes, consumidores e colaboradores afetados com danos relevantes por 
+violações relacionadas à Privacidade e Proteção de Dados Pessoais 0 133.581 
+Número de conselheiros independentes 8 8 
+% de ações em poder dos membros dos conselhos e diretoria 0 0
+
+[p. 37]
+37 
+ 
+2T26 
+Desempenho de nossas ações 
+ jun/26 2025 Var. % 
+Cotação das ações (2) 
+CMIG4 (PN) no fechamento (R$/ação) 10,87 10,57 2,86% 
+CMIG3 (ON) no fechamento (R$/ação) 15,60 14,09 10,72% 
+CIG (ADR PN) no fechamento (US$/ação) 2,06 1,90 8,29% 
+CIG.C (ADR ON) no fechamento (US$/ação) 3,05 2,61 16,86% 
+Volume médio diário 
+CMIG4 (PN) (R$ milhões) 177,06 127,52 38,85% 
+CMIG3 (ON) (R$ milhões) 2,06 3,24 -36,53% 
+CIG (ADR PN) (US$ milhões) 14,17 5,49 157,97% 
+CIG.C (ADR ON) (US$ milhões) 0,01 0,01 30,68% 
+Índices 
+IEE 128.089 123.056 4,09% 
+IBOV 172.024 161.125 6,76% 
+CDI 10.966 10.258 6,90% 
+Indicadores 
+Valor de mercado no final do exercício (R$ milhões) 35.620 35.388 0,66% 
+Enterprise value (EV - R$ milhões) (1) 53.444 48.488 10,22% 
+Dividend Yield de CMIG4 (PN) (%) (3) 11,78 14,74 -2,95 p.p 
+Dividend Yield de CMIG3 (ON) (%) (3) 8,21 11,23 -3,02 p.p 
+(1) EV = Valor de mercado (R$/ação x quantidade de ações) + dívida líquida consolidada; 
+(2) Cotações ajustadas por proventos, inclusive dividendos 
+(3) Dividendos distribuídos nos últimos quatro trimestres / cotação de fechamento das ações 
+ 
+Considerando o volume negociado das ações ON e PN, a Cemig foi a quinta Companhia mais negociada dentre as empresas do 
+setor elétrico nacional e uma das mais negociadas no mercado de capitais brasileiro. Com relação à bolsa de Nova York, o volu me 
+total negociado das nossas ADRs preferenciais (CIG) alcançou US$1,74 bilhão no 1S26, o que reflete o reconhecimento do mercado 
+investidor e reforça a posição da Cemig como uma opção atrativa de investimento global. O Ibovespa, principal índice de referência 
+para o desempenho da bolsa de valores de São Paulo, registrou alta de 6,76% no período, enquanto as ações preferenciais e 
+ordinárias da Cemig apresentaram valorização de 2,86% e 10,72%, respectivamente. Já os ADRs da Companhia, negociados em 
+Nova York, fecharam o período com alta de 8,29% para os papéis preferenciais e 16,86% para as ordinárias. 
+ 
+ 
+ 
+2,86%
+10,72%
+6,76%
+4,09%
+jan-26 fev-26 mar-26 abr-26 mai-26 jun-26
+CMIG4
+CMIG3
+IBOV
+IEEX
+
+[p. 38]
+38 
+ 
+2T26 
+Usinas 
+Usinas Empresa Potência Cemig (MW) Garantia Física Cemig (MW) Fim da Concessão Tipo Participação Cemig 
+Emborcação CEMIG GT 1.192,00 474,80 mai-27 UHE 100,00% 
+Nova Ponte CEMIG GT 510,00 256,60 ago-27 UHE 100,00% 
+Três Marias CEMIG GT 396,00 227,10 jan-53 UHE 100,00% 
+Irapé CEMIG GT 399,00 197,90 out-40 UHE 100,00% 
+Salto Grande CEMIG GT 102,00 73,80 jan-53 UHE 100,00% 
+Sá Carvalho Sá Carvalho S.A 78,00 54,40 ago-26 UHE 100,00% 
+Rosal Rosal Energia S. A 55,00 27,70 dez-35 UHE 100,00% 
+Itutinga CEMIG G. ITUTINGA 52,00 26,60 jan-53 UHE 100,00% 
+Boa Esperança CEMIG GT 85,00 25,00 ago-57 UFV 100,00% 
+Camargos CEMIG G. CAMARGOS 46,00 21,60 jan-53 UHE 100,00% 
+Três Marias Jusante CEMIG GT 70,00 20,00 fev-58 UFV 100,00% 
+Volta do Rio CEMIG GT 42,00 18,41 dez-31 EOL 100,00% 
+Poço Fundo CEMIG GT 30,00 16,81 jun-52 PCH 100,00% 
+Pai Joaquim CEMIG PCH S.A 23,00 13,91 set-41 PCH 100,00% 
+Piau CEMIG G. SUL 18,01 13,53 jan-53 UHE 100,00% 
+Praias de Parajuru CEMIG GT 28,80 8,39 set-32 EOL 100,00% 
+Gafanhoto CEMIG G. OESTE 14,00 6,68 jan-53 UHE 100,00% 
+Peti CEMIG G. LESTE 9,40 6,18 jan-53 UHE 100,00% 
+ Joasal CEMIG G. SUL 8,40 5,20 jan-53 UHE 100,00% 
+Tronqueiras CEMIG G. LESTE 8,50 3,39 dez-46 UHE 100,00% 
+Pipoca Hidrelétrica Pipoca 20,00 11,90 dez-34 PCH 100,00% 
+Queimado CEMIG GT 86,63 53,30 jun-41 UHE 82,50% 
+Belo Monte Norte 1.313,00 534,29 jul-46 UHE 11,69% 
+Paracambi Lightger 12,25 9,57 jan-34 PCH 49,00% 
+Cachoeirão Hidrelétrica Cachoeirão 13,23 8,02 jan-46 PCH 49,00% 
+Outras 59,43 30,69 
+Subtotal 4.672 2.146 
+Geração Distribuída 
+Cemig GT Cemig GT 14,5 3,6 UFV 100,00% 
+Cemig Sim Cemig Sim 132,9 34,7 UFV 100,00% 
+Subtotal 147,4 38,3 
+Total 4.819 2.184 
+ 
+Obs: a garantia física das UFVs Boa Esperança e Jusante é o valor atestado por empresa certificadora, mas não foi homologado pela 
+Aneel. No caso das plantas da Cemig Sim, a capacidade instalada está em MWac e a geração estimada foi considerada como 
+garantia física na tabela. 
+A Cemig Sim comercializa, ainda, energia de plantas arrendadas com 266 MWp de capacidade. Mais detalhes dos projetos de 
+expansão da Cemig Sim e Cemig GT na página a seguir.
+
+[p. 39]
+39 
+ 
+2T26 
+Expansão em Geração Fotovoltaica 
+Empreendimento Empresa Capacidade Instalada (Mwac) Capacidade (MWp) Geração Esperada (MWm) Previsão de entrada em operação 
+Ouro Solar Cemig Sim 11,50 16,33 3,33 nov/26 a dez/26 
+Bloco Azul Cemig Sim 15,00 21,30 3,77 ago/26 a dez/26 
+Solar do Cerrado Cemig Sim 30,00 42,00 8,57 jul/26 a jan/27 
+Cemig GT - Sol Central Cemig GT 17,03 22,10 4,02 jul/26 a nov/27 
+Total 73,5 101,7 19,7 
+ 
+ 
+RAP – Ciclo de julho 2026 a junho 2027 
+A partir de julho, passou a vigorar a RAP para o ciclo 2026/2027, conforme definido pela Aneel no despacho 2.268. 
+ 
+Despacho 2.268/2026 (ciclo 2026/2027) 
+R$ mil RAP Parcela de Ajuste Total Contrato de Concessão Vencimento Índice de Reajuste 
+Cemig GT 1.264.353 92.311 1.356.664 006/97 dez-42 IPCA 
+Cemig Itajubá 51.494 (874) 50.620 079/00 out-30 IGPM 
+Centroeste 15.775 (453) 15.322 004/05 mar-35 IGPM 
+ETTM 6.316 (829) 5.486 002/12 jan-42 IPCA 
+Sete Lagoas (Holding) 12.478 (101) 12.376 006/11 jun-41 IPCA 
+Cemig 1.350.415 90.053 1.440.468 
+Taesa (21,68% participação Cemig) 987.707 (38.270) 949.437 
+TOTAL RAP 2.338.122 51.783 2.389.905 
+ 
+INDENIZAÇÃO RBSE* a preços de Jun2026. Valores sem encargo 
+R$ mil por Ciclo 2025-2026 2026-2027 2027-2028 2028-2029 2029 até 2033 
+Econômico 117.746 117.191 117.191 36.918 36.918 
+Financeiro 312.781 312.781 312.781 - - 
+TOTAL 430.527 429.972 429.972 36.918 36.918 
+**Os valores da indenização RBSE fazem parte da RAP Cemig (primeira tabela) 
+ 
+A Cemig já tem aprovação (REA) para Reforços e Melhorias de grande porte com CAPEX totalizando R$ 924,6 milhões, além de 
+investimentos de R$242,2 milhões referentes ao Lote 1 do leilão 02/2022 (com conclusão das obras prevista para 2028). 
+Previsão de entrada em operação Capex - R$ mil RAP - R$ mil 
+2026 263.610 42.880 
+2027 491.349 81.093 
+2028 403.429 46.876 
+2029 8.399 1.416 
+Total 1.166.787 172.265
+
+[p. 40]
+40 
+ 
+2T26 
+ 
+Receita e EBITDA Regulatório de Transmissão 
+Resultado Regulatório da Transmissão - 2T26 - R$ mil Cemig GT Centroeste Sete Lagoas Total 
+Receita de operações com transmissão de energia elétrica 450.066 3.918 3.582 457.566 
+Tributos sobre a receita (39.404) (143) (333) (39.880) 
+Encargos (76.711) (69) (207) (76.987) 
+Receita líquida 333.951 3.706 3.042 340.699 
+Lucro líquido regulatório 79.567 2.791 1.936 84.294 
+Imposto de renda e contribuição social 31.829 229 840 32.898 
+Resultado financeiro 67.672 (305) (586) 66.781 
+Depreciação e amortização 42.354 367 608 43.329 
+EBITDA regulatório 221.422 3.082 2.798 227.302 
+ 
+Resultado Regulatório da Transmissão - 2T25 - R$ mil Cemig GT Centroeste Sete Lagoas Total 
+Receita de operações com transmissão de energia elétrica 429.656 6.500 2.947 439.103 
+Tributos sobre a receita (37.962) (237) (273) (38.472) 
+Encargos (60.542) (271) (115) (60.928) 
+Receita líquida 331.152 5.992 2.559 339.703 
+Lucro líquido regulatório 266.338 4.744 1.312 272.394 
+Imposto de renda e contribuição social (62.794) 301 490 (62.003) 
+Resultado financeiro (876) (306) (370) (1.552) 
+Depreciação e amortização 55.769 373 609 56.751 
+EBITDA regulatório 258.437 5.112 2.041 265.590 
+ 
+ 
+ 
+ 
+Informações complementares 
+Mais detalhes, demonstrações financeiras e planilhas do resultado podem ser encontrados no link a seguir: 
+Central de Resultados | Cemig RI
+
+[p. 41]
+41 
+ 
+2T26 
+Disclaimer 
+Algumas declarações e estimativas contidas neste material podem representar expectativas sobre eventos ou resultados futuros 
+que estão sujeitas a riscos e incertezas ambos conhecidos e desconhecidos. Não há garantia que as expectativas sobre eventos ou 
+resultados se manifestarão. 
+Estas expectativas se baseiam nas suposições e análises atuais do ponto de vista da nossa administração, de acordo com a sua 
+experiência e outros fatores tais como o ambiente macroeconômico, das condições de mercado do setor elétrico e nos resultados 
+futuros esperados, muitos dos quais não estão sob nosso controle. 
+Fatores importantes que podem levar a diferenças significativas entre os resultados reais e as projeções a respeito de evento s ou 
+resultados futuros incluem a nossa estratégia de negócios, as condições econômicas brasileiras e internacionais, tecnologia, a 
+nossa estratégia financeira, alterações no setor elétrico, condições hidrológicas, condições dos mercados financeiro e de ene rgia, 
+incerteza a respeito dos nossos resultados de operações futuras, planos e objetivos bem como outros fatores. Em razão desses e 
+outros fatores os nossos resultados reais podem diferir significativamente daqueles indicados ou implícitos em tais declarações. 
+As informações e opiniões aqui contidas não devem ser entendidas como recomendação a potenciais investidores e nenhuma 
+decisão de investimento deve se basear na veracidade, atualidade ou completude dessas informações ou opiniões. Nenhum dos 
+nossos profissionais ou partes a eles relacionadas ou seus representantes terá qualquer responsabilidade por quaisquer perdas 
+que possam decorrer da utilização do conteúdo desta apresentação. 
+Para avaliação dos riscos e incertezas, tal como eles se relacionam com a Cemig, e obter informações adicionais sobre fatores que 
+possam originar resultados diversos daqueles estimados pela Cemig, favor consultar a seção de Fatores de Riscos incluída no 
+Formulário de Referência arquivado na Comissão de Valores Mobiliários – CVM e no Form 20 -F arquivado na U.S. Securities and 
+Exchange Commission – SEC. 
+Os Valores financeiros estão em R$ Milhões, a menos que indicado de outra forma. Dados financeiros refletem a adoção do IFRS.
+
+[p. 42]
+IBRX100 B3 IEE B3 ISE B3 ICO2 B3 
++55 31 3506 5024 
+ri@cemig.com.br 
+www.ri.cemig.com.br
