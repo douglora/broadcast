@@ -1,7 +1,7 @@
 # Boletim da B3: pregão de 10/11/2026 (terça)
 
 **Situação: COMPLETO.** Boletim publicado pela B3 em 2026-11-11 00:00 (hora de Brasília).
-Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-11-12T00:53:17Z (UTC).
+Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-11-12T07:42:07Z (UTC).
 
 [[LEITURA_DA_MESA]]
 
@@ -300,7 +300,7 @@ Sem negócio neste pregão e sem taxa indicativa: CRA0240005O.
 | VBBRA0 (Vibra Energia S.A) | IPCA+ 8,05% (ANBIMA indicativa de 10/11) | IPCA+ 8,19%, R$ 78,0 mi | +32 pb na duration |
 
 **Abriram taxa pela indicativa da ANBIMA:** SBSPI8 +17 pb contra 09/11, para IPCA+ 8,06% (R$ 46,8 mi); CMGTA1 +14,6 pb contra 09/11, para IPCA+ 8,29% (R$ 15,2 mi); TRGP13 +14,4 pb contra 09/11, para IPCA+ 8,17% (R$ 93,4 mi); CGOSA2 +13 pb contra 09/11, para IPCA+ 8,33% (R$ 29,9 mi); AXIA38 +12,6 pb contra 09/11, para IPCA+ 8,20% (R$ 57,6 mi).
-**Fecharam taxa pela indicativa da ANBIMA:** VRDN12 -13,6 pb contra 09/11, para IPCA+ 9,29% (R$ 45,4 mi); EBAS13 -8,1 pb contra 09/11, para IPCA+ 8,30% (R$ 4,0 mi); NTEN11 -7,9 pb contra 09/11, para IPCA+ 12,38% (R$ 14,9 mi); RSAN16 -7,9 pb contra 09/11, para IPCA+ 10,13% (R$ 26,8 mi); SBSPB6 -7,2 pb contra 09/11, para IPCA+ 6,39% (R$ 3,7 mi).
+**Fecharam taxa pela indicativa da ANBIMA:** VRDN12 -13,6 pb contra 09/11, para IPCA+ 9,29% (R$ 45,4 mi); EBAS13 -8,1 pb contra 09/11, para IPCA+ 8,30% (R$ 4,0 mi); RSAN16 -7,9 pb contra 09/11, para IPCA+ 10,13% (R$ 26,8 mi); NTEN11 -7,9 pb contra 09/11, para IPCA+ 12,38% (R$ 14,9 mi); SBSPB6 -7,2 pb contra 09/11, para IPCA+ 6,39% (R$ 3,7 mi).
 **Abriram taxa pelos negócios da B3:** FIQE14 +184 pb contra 19/10, para IPCA+ 9,19% (R$ 31,6 mi); CRA020002H1 +97 pb contra 09/11, para IPCA+ 14,60% (R$ 3,7 mi); UTEG22 +96 pb contra 23/10, para IPCA+ 9,68% (R$ 3,7 mi); 24A2715837 +22 pb contra 09/11, para 19,47% pré (R$ 3,9 mi); CSRNA3 +17 pb contra 06/11, para 15,01% pré (R$ 4,0 mi).
 **Fecharam taxa pelos negócios da B3:** CRA022004MS -133 pb contra 05/11, para IPCA+ 14,58% (R$ 4,5 mi); 22E1321749 -101 pb contra 05/11, para IPCA+ 9,57% (R$ 3,4 mi); CRA02300NAX -77 pb contra 09/11, para IPCA+ 8,29% (R$ 5,0 mi); CRA0240066J -77 pb contra 09/11, para IPCA+ 10,19% (R$ 3,1 mi); 21H1078699 -51 pb contra 09/11, para IPCA+ 11,18% (R$ 3,5 mi).
 **Prêmio alto:** CRA020002H1 a IPCA+ 14,60% (B3 negócios de 10/11), +695 pb no vencimento, R$ 3,7 mi; CRA022004MS a IPCA+ 14,58% (B3 negócios de 10/11), +685 pb no vencimento, R$ 4,5 mi; 24J4921075 a CDI+ 5,65% (B3 negócios de 10/11), R$ 8,4 mi; NTEN11 a IPCA+ 12,38% (ANBIMA indicativa de 10/11), +505 pb na duration, R$ 14,9 mi; IRJS15 a IPCA+ 12,59% (ANBIMA indicativa de 10/11), +491 pb na duration, R$ 9,3 mi.

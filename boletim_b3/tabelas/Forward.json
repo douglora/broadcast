@@ -6,14 +6,14 @@
  "paginas": 1,
  "colunas": [{"nome": "TckrSymb", "titulo": "Ação"}, {"nome": "Cod", "titulo": "Código"}, {"nome": "Term", "titulo": "Prazo"}, {"nome": "Closing", "titulo": ""}, {"nome": "TradQty", "titulo": ""}, {"nome": "VlmTradedDay", "titulo": "Volume (R$) mil"}, {"nome": "Part", "titulo": "Participação (%)"}],
  "texto": ["Lista ações com maior volume de negociação em contratos a termo, destacando as mais ativas."],
- "situacao": "publicado",
- "atualizado_em": "2026-11-11T19:01:24.463",
+ "situacao": "republicado",
+ "atualizado_em": "2026-11-12T02:22:51.323",
  "truncada": false,
  "linhas": [
-  ["MICRON TECHNDRN", "DRN", 30, 774.43, 2720, 2106.4496, 0.06342481897110952],
-  ["XP INC      DR1", "DR1", 16, 85.78, 28700, 2461.886, 0.66922511193781],
-  ["INVESTOUTIL CI", "CI", 30, 120.45, 50000, 6022.5, 1.1658974075571604],
-  ["NVIDIA CORP DRN", "DRN", 30, 20.84, 100000, 2084, 2.331794815114321],
-  ["TENDA       ON      NM", "ON      NM", 58, 18.45, 1223000, 22564.35, 28.517850588848148]
+  ["MICRON TECHNDRN", "DRN", 30, 774.43, 2720, 2106.4496, 0.06341003305247973],
+  ["XP INC      DR1", "DR1", 16, 85.78, 28700, 2461.886, 0.6690690987522676],
+  ["INVESTOUTIL CI", "CI", 30, 120.45, 50000, 6022.5, 1.165625607582348],
+  ["NVIDIA CORP DRN", "DRN", 30, 20.84, 100000, 2084, 2.331251215164696],
+  ["TENDA       ON      NM", "ON      NM", 58, 18.45, 1223000, 22564.35, 28.511202361464232]
  ]
 }
