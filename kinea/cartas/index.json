@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-11-09T23:02:47Z",
+ "gerado_em": "2026-11-12T19:12:45Z",
  "fonte": "https://www.kinea.com.br (PDF da Carta do Gestor, texto extraido com pypdf)",
  "desde": "2025-07",
  "cartas": [
@@ -292,23 +292,17 @@
    "baixado_em": "2026-09-24T00:13:05Z"
   },
   {
-   "arquivo": "kinea/cartas/Carta-do-Gestor-Sigma-2026-07.txt",
-   "url": "https://www.kinea.com.br/wp-content/uploads/2026/08/Carta-do-Gestor-Sigma-2026-07.pdf",
-   "fundo": "Sigma",
+   "arquivo": "kinea/cartas/Carta-do-Gestor-Prev-II-XTR-XP-2026-07.txt",
+   "url": "https://www.kinea.com.br/wp-content/uploads/2026/08/Carta-do-Gestor-Prev-II-XTR-XP-2026-07.pdf",
+   "fundo": "Prev II XTR XP",
    "familia": "multimercado",
    "mes_ref": "2026-07",
    "paginas": 19,
-   "chars": 34217,
-   "sha1_texto": "b97df5e5f15a62eb",
+   "chars": 34304,
+   "sha1_texto": "f0aabb3b3a265c74",
    "titulo": "[p. 1] D R .  S T R A N G E L O V E",
    "descoberta": "wp-json",
-   "baixado_em": "2026-11-03T19:50:35Z",
-   "imagens": [
-    {
-     "pagina": 6,
-     "arquivo": "kinea/imagens/cartas/Carta-do-Gestor-Sigma-2026-07-p06.jpg"
-    }
-   ]
+   "baixado_em": "2026-11-12T19:12:43Z"
   },
   {
    "arquivo": "kinea/cartas/Carta-do-Gestor-Prev-II-XTR-Red-2026-07.txt",
@@ -347,7 +341,13 @@
    "sha1_texto": "e88e094c56e1e825",
    "titulo": "[p. 1] D R .  S T R A N G E L O V E",
    "descoberta": "wp-json",
-   "baixado_em": "2026-11-09T23:02:47Z"
+   "baixado_em": "2026-11-09T23:02:47Z",
+   "imagens": [
+    {
+     "pagina": 6,
+     "arquivo": "kinea/imagens/cartas/Carta-do-Gestor-Chronos-Alocadores-Sub-II-2026-07-p06.jpg"
+    }
+   ]
   },
   {
    "arquivo": "kinea/cartas/Carta-do-Gestor-Sigma-2026-06.txt",

@@ -157,7 +157,7 @@ de dividendos elevados e crescimento de lucros.
 DIVIDEND YIELD E CRESCIMENTO DE LUCROS DE 
 CONSTRUTORAS DE BAIXA RENDA E UTILITIES VS. IBOV | %
 Fonte: Kinea Research
-7% 14% 7% 11% 11% 6% 7%6%
+7% 14% 7% 11% 11% 6% 7% 6%
 20% 31% 23% 24%
 23% 17% 28%
 39% 42% 36%
@@ -459,7 +459,7 @@ IMPACTO EM 2026
 Fonte: Ministério da Fazenda, Tesouro Nacional e Kinea
 IMPULSO FISCAL E PARAFISCAL | 
 DELTA ANUAL, EM P.P. DO PIB
-Programa Status Δ 25-26(R$ bi) Δ 25-26% PIB
+Programa Status Δ 25-26 (R$ bi) Δ 25-26 % PIB
 TOTAL 141,5 1,0%
 Isenção IRPF Início: jan/26 31,0 0,2%
 Move Brasil 1 e 2 
@@ -856,26 +856,24 @@ relacionamento@kinea.com.br.
 RESULTADO DA GESTÃO*
 Rentabilidade 
 do fundo desde 
-seu início. 34,01%
-35,87%
--5%
+seu início.
+93,31%
+88,15%
+-20%
 0%
-5%
-10%
-15%
 20%
-25%
-30%
-35%
 40%
-jan/24 abr/24 jul/24 out/24 jan/25 abr/25 jul/25 out/25 jan/26 abr/26 jul/26
-Sigma CDI
+60%
+80%
+100%
+nov/19 jul/20 mar/21 nov/21 jul/22 mar/23 nov/23 jul/24 mar/25 nov/25 jul/26
+Prev II XTR XP CDI
 RETORNO POR ESTRATÉGIAS
  12 MESES
-ANO 2024 2025 2026 jul/26 Início
-FUNDO 10,29% 15,12% 5,55% 0,13% 34,01%
-CDI 9,91% 14,31% 8,14% 1,22% 35,87%
-% CDI 103,87% 105,66% 68,09% 10,75% 94,82%
+ANO 2022 2023 2024 2025 2026 jul/26 Início
+FUNDO 14,95% 13,55% 11,23% 14,73% 6,58% 0,56% 93,31%
+CDI 12,37% 13,05% 10,87% 14,31% 8,14% 1,22% 88,15%
+% CDI 120,79% 103,85% 103,31% 102,94% 80,79% 46,00% 105,85%
 HISTÓRICO DE RENTABILIDADE*
 K I N E A . C O M . B R
 INÍCIO DO FUNDO PL ATUAL PL MÉDIO (12 MESES): TAXA DE ADM¹ TAXA DE PERF.²
@@ -883,20 +881,20 @@ PÚBLICO ALVO OBJETIVO COTA RESGATE PAGAMENTO RESGATE TAXA DE SAÍDA
 Não possui
 APLICAÇÃO INICIAL
 Sujeito às regras do distribuidor.
-27
-4
+66
+15
 MESES POSITIVOS:              
-MESES NEGATIVOS:   29/Jan/2024 R$ 78.554.945 2,0% a.a. 20% do que exceder 100% do CDI
+MESES NEGATIVOS:   04/Nov/2019 R$ 114.666.146 1,5% a.a. 17% do que exceder 100% do CDI
 Público em geral Superar o CDI com vol. de 
-4% a 6% a.a..
-D+5 dias úteis da solicitação D+1 dia útil da conversão de cotas
-R$ 86.429.778
+2% a 4% a.a..
+D+0 D+1 dia útil da conversão de cotas
+R$ 117.331.162
 1. Trata-se da taxa de administração considerando as taxas dos fundos da estrutura.
 2. Trata-se da taxa de performance considerando todos os fundos da estrutura.
-* As informações AQUI dispostas, incluindo rentabilidade, data de início, etc, dizem respeito ao fundo KINEA SIGMA FIF MULTI - RESPONSABILIDADE 
-LIMITADA CNPJ: 53.372.030/0001-95, que NÃO está disponível ao cliente final. Para consultar as informações referente ao seu fund o, acesse o site do 
-distribuidor.
-Sigma
+* As informações AQUI dispostas, incluindo rentabilidade, data de início, etc, dizem respeito ao fundo KINEA PREV II XTR XP F UNDO DE INVESTIMENTO EM 
+COTAS DE FUNDOS DE INVESTIMENTO MULTIMERCADO CNPJ: 32.320.644/0001 -53, que NÃO está disponível ao cliente final. Para consultar as 
+informações referente ao seu fundo, acesse o site do distribuidor.
+Prev II XTR XP
 Julho 2026
-53.372.030/0001-95CNPJ:
+32.320.644/0001-53CNPJ:
 MULTIMERCADO
