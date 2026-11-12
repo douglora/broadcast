@@ -1,5 +1,5 @@
 {
- "pregao": "2026-11-10",
+ "pregao": "2026-11-11",
  "nome": "InCashMarketBiggestLow",
  "titulo": "Mercado à vista - maiores baixas",
  "sla": "8:00:00",
@@ -7,18 +7,18 @@
  "colunas": [{"nome": "TckrSymb", "titulo": "Ação"}, {"nome": "Cod", "titulo": "Código"}, {"nome": "Price", "titulo": "Preço (R$)"}, {"nome": "OscillationDesc", "titulo": "Oscilação (%)"}],
  "texto": ["Mostra as maiores desvalorizações de ativos no mercado à vista num período."],
  "situacao": "publicado",
- "atualizado_em": "2026-11-10T18:55:31.887",
+ "atualizado_em": "2026-11-11T18:51:16.427",
  "truncada": false,
  "linhas": [
-  ["RAIZ1", "DIR ORD N2", 0.14, -51.72],
-  ["CTBA11B", "CPA     MB", 500, -50],
-  ["RAIZ16", "DIR UNT N2", 0.1, -44.44],
-  ["TXRX3", "ON", 5.46, -39.33],
-  ["RAIZ14", "DIR PNB N2", 0.14, -39.13],
-  ["AZTE11", "BNS ORD", 0.06, -25],
-  ["CTXT11", "CI", 3, -23.46],
-  ["A2RR34", "DRN", 33.9, -17.23],
-  ["USIM6", "PNB     N1", 5.51, -16.51],
-  ["EMET11", "CI  ER", 8.84, -15]
+  ["SEQL3", "ON  EG  NM", 9.42, -23.41],
+  ["CSED3", "ON      NM", 3.81, -22.87],
+  ["GPRO34", "DRN", 3.75, -20.21],
+  ["RAIZ16", "DIR UNT N2", 0.08, -20],
+  ["AZUL99", "UNT     N2", 0.95, -17.39],
+  ["PRIF11", "CI", 66.01, -15.2],
+  ["RZEO11", "CI", 95.92, -12.8],
+  ["T1OW34", "DRN", 44.27, -11.26],
+  ["GFSA12", "BNS ORD NM", 0.08, -11.11],
+  ["ONCO3", "ON      NM", 0.88, -10.2]
  ]
 }
