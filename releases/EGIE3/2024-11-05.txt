@@ -1,0 +1,3266 @@
+[p. 1]
+1E N G I E B R A S I L E N E R G I A 
+4T E 2022 
+Release de Resultados 3T2 4 
+ 
+ 
+ 
+Florianópolis (SC), 5 de novembro de 202 4. A ENGIE Brasil Energia S.A. (“ENGIE”, ou “Companhia”) — B3: EGIE3, ADR: EGIEY — anuncia os resultados 
+financeiros relativos ao Terceiro Trimestre e período de nove meses, encerrado em 3 0 de setembro de 2024 (3T24/9M24). As informações financeiras e 
+operacionais a seguir são apresentadas em base consolidada e estão de acordo com os princípios e as práticas contábeis adotadas no Brasil. Os valores estão 
+expressos em reais (R$), salvo quando indicado de modo diferente. Efeitos de arredondamentos podem causar diferenças nas variações percentuais, quando 
+comparados os comentários de Desempenho Econômico-Financeiro, apresentados em R$ milhões, com a Demonstração do Resultado (Anexo III), apresentada 
+em R$ mil. 
+Videoconferência 
+de resultados 
+Dia 06/11/2024 às 11:00h 
+(horário de Brasília): em português 
+com tradução simultânea para 
+inglês 
+Clique aqui para acessar a 
+transmissão. 
+Visite nosso Website 
+www.engie.com.br/investidores 
+Para Divulgação Imediata
+Mais informações: 
+Eduardo Sattamini 
+Diretor-Presidente 
+Eduardo Takamori 
+Diretor Financeiro e de Relações com 
+Investidores 
+Rafael Bósio 
+Gerente de Relações com Investidores 
+rafael.bosio@engie.com 
+T el.: (48) 3221-7246/7409 
+ri.BREnergia@engie.com 
+Release de 
+Resultados 
+3T24 
+ 
+E N G I E B R AS I L E N E R G I AS . A .
+
+[p. 2]
+Release de Resultados 3T2 4 
+2
+E N G I E B R A S I L E N E R G I A 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Destaques 
+O lucro líquido ajustado do 3T24 foi de R$ 666 
+milhões, valor 28,2% (R$ 262 milhões) abaixo do 
+alcançado no 3T23, basicamente em decorrência 
+da alienação parcial da participação na TAG. 
+O Ebitda ajustado2 no 3T24 alcançou R$ 1.665 
+milhões, redução de 5,8% (R$ 103 milhões) em 
+comparação ao 3T23. A margem Ebitda ajustada foi 
+de 65,6% no 3T24, decréscimo de 4,7 p.p. em 
+relação ao 3T23. 
+A receita operacional líquida da Companhia 
+atingiu R$ 2.537 milhões no 3T24, 0,9% (R$ 23 
+milhões) acima do montante apurado no 3T23. 
+O preço médio dos contratos de venda de 
+energia, líquido dos tributos sobre a receita e das 
+operações de trading, foi de R$ 215,96/MWh no 
+3T24, valor 3,6% inferior ao registrado no 3T23. 
+A quantidade de energia vendida no 3T24, sem 
+considerar as operações de trading, foi de 8.942 
+GWh (4.050 MW médios), volume 4,3% superior 
+ao comercializado no 3T23. 
+A Companhia arrematou o Lote 1 no Leilão de 
+Transmissão Aneel 02/2024 , com cerca de 780 
+quilômetros de extensão, a ser implantado nos 
+estados de Santa Catarina, Paraná, Minas Gerais, 
+São Paulo e Espírito Santo. 
+Durante o 3T24, entraram antecipadamente em 
+operação comercial 50 aerogeradores do 
+Conjunto Eólico Serra do Assuruá, na Bahia, o que 
+corresponde a 225 MW de capacidade . Ainda no 
+período, 53 do total de 188 aerogeradores do 
+projeto estavam operando em teste. 
+Companhia recebeu, pela 14ª vez, o Troféu 
+Transparência, organizado pela Anefac , que 
+reconhece as empresas com as melhores práticas 
+de governança e transparência nas 
+demonstrações financeiras publicadas ao 
+mercado. 
+ 
+ 
+ 
+E N G I E B R AS I L E N E R G I A
+ENGIE Brasil Energia 
+vence Lote 1 no leilão de 
+transmissão da Aneel.
+Capacidade instalada em 
+operação atinge 11 GW
+
+[p. 3]
+Release de Resultados 3T2 4 
+3
+E N G I E B R A S I L E N E R G I A 
+Resumo dos Indicadores 
+Financeiros e Operacionais 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Eventos Subsequentes 
+Mais 36 aerogeradores do Conjunto Eólico Serra do Assuruá foram 
+autorizados para operação comercial e 40 estão em teste , até 5 de 
+novembro de 2024. 
+Em 24 e 31 de outubro entraram em operação em teste as duas primeiras 
+usinas do Conjunto Fotovoltaico Assú Sol, somando 90,5 MW, de um 
+total de 752 MW, ao parque gerador da Companhia. 
+ 
+1 Ebitda: lucro líquido + imposto de renda e contribuição social + resultado financeiro + 
+depreciação e amortização. 
+2 Ebitda ajustado: lucro líquido + imposto de renda e contribuição social + resultado 
+ financeiro + depreciação e amortização + impairment + não recorrentes. 
+3 Ebitda ajustado, deduzidos os efeitos do IFRS do segmento de transmissão e usinas cotistas. 
+4 ROE: lucro líquido ajustado dos últimos 4 trimestres / patrimônio líquido. 
+ 
+5 ROIC: taxa efetiva x EBIT ajustado / capital investido (capital investido: 
+dívida - caixa e eq. caixa - depósitos vinculados ao serviço da dívida + PL). 
+6 Valor ajustado, líquido de ganhos de operações de hedge. 
+7 Produção total bruta das usinas operadas pela ENGIE Brasil Energia. 
+8 Desconsidera vendas por regime de cotas (UHEs Jaguara e Miranda). 
+9 Líquido de impostos sobre a venda e operações de trading. 
+Conjunto Eólico Santo Agostinho (RN) 
+Importante
+Este material inclui informações e opiniões acerca de eventos futuros sujeitas a riscos e 
+incertezas, as quais se baseiam nas atuais expectativas, projeções e tendências sobre os 
+negócios da Companhia. Inúmeros fatores podem afetar as estimativas e suposições nas quais 
+estas opiniões se baseiam, razões por que as estimativas e declarações futuras constantes 
+deste material podem não vir a se concretizar. Considerando estas limitações, os(as) 
+acionistas e investidores não devem tomar quaisquer decisões com ba se nas estimativas, 
+projeções e declarações futuras contidas neste material. 
+Consolidado (em R$ milhões) 3T24 3T23 Var. 9M24 9M23 Var.
+Receita Operacional Líquida (ROL) 2.537 2.514 0,9% 7.948 8.037 -1,1%
+Resultado do Serviço (EBIT) 1.382 1.475 -6,3% 5.997 4.790 25,2%
+Ebitda 1 1.654 1.707 -3,1% 6.780 5.480 23,7%
+Ebitda ajustado 2 1.665 1.768 -5,8% 5.432 5.629 -3,5%
+Ebitda ajustado por efeitos de transmissão e cotistas 3 1.596 1.719 -7,2% 5.141 5.439 -5,5%
+Ebitda / ROL - (%) 1 65,2 67,9 -2,7 p.p. 85,3 68,2 17,1 p.p.
+Ebitda / ROL - (%) ajustada 2 65,6 70,3 -4,7 p.p. 68,3 70,0 -1,7 p.p.
+Lucro Líquido 658 867 -24,1% 3.213 2.482 29,5%
+Lucro Líquido ajustado 666 928 -28,2% 2.314 2.615 -11,5%
+Retorno Sobre o Patrimônio (ROE) Ajustado 4 26,5 37,3 -10,9 p.p. 26,5 37,3 -10,9 p.p.
+Retorno Sobre o Capital Investido (ROIC) Ajustado 5 16,7 21,1 -4,4 p.p. 16,7 21,1 -4,4 p.p.
+Dívida Líquida 6 19.095 15.335 24,5% 19.095 15.335 24,5%
+Produção Bruta de Energia Elétrica (MW médios) 7 6.338 5.597 13,2% 6.194 4.408 40,5%
+Energia Vendida (MW médios) 8 4.050 3.883 4,3% 3.990 4.138 -3,6%
+Preço Líquido Médio de Venda (R$/MWh) 9 215,96 223,97 -3,6% 221,44 225,49 -1,8%
+Número de Empregados - Total 1.234 1.137 8,5% 1.234 1.137 8,5%
+ Empregados EBE 1.211 1.116 8,5% 1.211 1.116 8,5%
+ Empregados em Projetos em Construção 23 21 9,5% 23 21 9,5%
+
+[p. 4]
+Release de Resultados 3T2 4 
+4
+E N G I E B R A S I L E N E R G I A 
+Mensagem da Administração 
+Este ano tem nos proporcionado grandes oportunidades, mas também desafios imensos. Estamos com projetos importantes 
+de geração e transmissão de energia em implantação simult ânea, enfrentamos o crescente curtailment no País e, com a 
+evolução da abertura do Mercado Livre de Energia, continuamos fortalecendo nossa presença junto à empresas de 
+diferentes portes em todas as regiões do território nacional. Nossa solidez financeira, gestão equilibrada de risco, capacidade 
+de entrega e confiança do mercado se traduzem em importantes diferenciais competitivos neste momento. 
+Ao todo, a ENGIE Brasil Energia investiu R$ 1,9 bilhão no 3T24, somando R$ 7,5 bilhões aplicados nos nove primeiros meses 
+do ano. No terceiro trimestre, o investimento se destinou, majoritariamente, para a construção dos novos projetos. Em 
+agosto, o Conjunto Eólico Santo Agostinho foi finalizado, entrando 100% em operação comercial no Rio Grande do Norte, 
+com 70 aerogeradores e capacidade instalada de 434 MW. No mesmo mês, o início antecipado da operação comercial do 
+Conjunto Eólico Serra do Assuruá foi um marco na implantação de um dos maiores projetos de energia eólica já construídos 
+em fase única pelo Grupo ENGIE no Brasil e no mundo. Composto por 24 parques eólicos em Gentio do Ouro, na Bahia, o 
+empreendimento alcançou 80,4% do progresso da obra e tem conclusão prevista para o primeiro semestre de 2025, quando 
+adicionará mais 846 MW de capacidade ao parque gerador da Companhia. 
+Já a implantação do Conjunto Fotovoltaico Assú Sol , no Rio Grande do Norte, atingiu 58% do avanço das obras. O 
+empreendimento terá capacidade instalada de aproximadamente 752 MWac (895 MWp) e capacidade comercial estimada 
+em 228,7 MW médios. Ainda em geração solar, destacamos, como fato subsequente, a conclusão da revitalização da Usina 
+Fotovoltaica Paracatu. Atingida por uma forte tempestade em abril de 2023, a usina teve 65% das suas estruturas de 
+geração danificadas, sendo 20% irrecuperáveis. Após, passar por etapas de descomissionamento, destinação de resíduos, 
+reparo de danos, rearranjo e reconstrução, no dia 16 de outubro aconteceu a reenergização completa, reestabelecendo a 
+capacidade total de Paracatu de 132 MW e garantindo o atendimento aos contratos do mercado regulado. 
+Ainda no 3T24 , celebramos a conquista da concessão do principal lote do Leilão de Transmissão 02/2024 da Aneel, que 
+contempla a implantação e operação de cerca de 780 quilômetros de linhas de transmissão de energia elétrica e de 2 
+subestações novas. O Sistema de Transmissão Graúna , como foi nomeado, inclui ainda a continuidade na prestação de 
+serviços de 162,6 quilômetros de linhas de transmissão e duas subestações já existentes. O projeto está localizado nos 
+estados de Santa Catarina, Paraná, Minas Gerais, São Paulo e Espírito Santo, cruzando 47 municípios. 
+Este trimestre também foi marcado pelo início das obras do Sistema de Transmissão Asa Branca, que percorrerá os estados 
+da Bahia, Minas Gerais e Espírito Santo, com um total aproximado de 1.000 quilômetros de linhas de transmissão, e que 
+conta com a ampliação de cinco subestações associadas. Além de Asa Branca e Graúna, a Companhia possui mais de 2.700 
+km de linhas de transmissão energizadas no Paraná, Pará e Tocantins. Estes projetos fortalecem o Sistema Interligado 
+Nacional (SIN), evitando sobrecarga e subtensão nas linhas de transmissão existentes, e reforçando a interligação entre 
+Nordeste e Sudeste para escoamento da energia das fontes renováveis. 
+A segurança do SIN têm sido uma preocupação para o Operador Nacional do Sistema (ONS) e para as geradoras de energia, 
+como a ENGIE Brasil Energia. A necessidade de redução ou interrupção da geração de energia, o chamado curtailment, vem 
+sendo cada vez mais frequente para manter a estabilidade do sistema. Dentre as principais razões para esta realidade estão 
+os subsídios excessivos para as renováveis centralizadas e à geração distribuída. Defendemos a colaboração entre empresas 
+do se tor, Governo, Congresso e ONS para os esforços de construção de soluções eficazes, que garantam que o 
+aproveitamento da energia gerada seja otimizado e que a alocação de custos seja mais adequada, evitando o peso na conta 
+dos consumidores. 
+ 
+ 
+Gerando e comercializando energia 
+para o mercado livre há mais de 20 
+anos, trabalhamos na oferta de 
+produtos que simplificam o acesso 
+ao Mercado Livre de Energia e de 
+produtos sofisticados de energia e 
+descarbonização para clientes de 
+todos os portes. 
+Conjunto Eólico Serra do Assuruá (BA)
+
+[p. 5]
+Release de Resultados 3T2 4 
+5
+E N G I E B R A S I L E N E R G I A 
+Gerando e comercializando energia para o mercado livre há mais de 20 anos, quando o formato começou a ser 
+implementado no Brasil, a ENGIE Brasil Energia sustenta um market share de 7,5% no terceiro trimestre deste ano , em 
+relação ao total de energia livre. Trabalhamos na oferta de produtos que simplificam o acesso ao Mercado Livre de Energia 
+e de produtos sofisticados de energia e descarbonização para clientes de todos os portes. Essas ações permitiram um 
+aumento de 55,1% na quantidade de consumidores livres no 3T24 em relação ao mesmo período do ano anterior. Nossa 
+garantia de entrega traz confiança e segurança para contratos de longo prazo, o que tem nos proporcionado bons resultados 
+diante de uma concorrência acirrada. 
+Com relação aos nossos resultados financeiros, no 3T24, a ENGIE Brasil Energia registrou receita operacional líquida de R$ 
+2,5 bilhões, crescimento de 0,9% frente ao 3T23, motivad o, principalmente, pelo aumento do volume de vendas e das 
+receitas de transmissão , atenuado pela receita com transações no mercado de curto prazo (CCEE) e pela redução das 
+receitas de trading. 
+O Ebitda ajustado foi de R$ 1,7 bilhão, redução de 5,8% em comparação com o 3T23, essencialmente em razão da venda 
+parcial da participação na TAG e aumento em custos de material e serviços de terceiros, fatores atenuados pela redução 
+dos custos com compra de energia elétrica para portfólio e resultado positivo das transações na CCEE. 
+Já o lucro líquido ajustado do 3T24 foi de R$ 666 milhões, valor 28,2% abaixo do alcançado no mesmo período em 2023, 
+em razão do mencionado acima em conjunto com o aumento nas despesas financeiras líquidas e depreciação e amortização. 
+Não podemos encerrar esta mensagem sem compartilhar a satisfação de, mais uma vez, a ENGIE Brasil Energia ter sido 
+eleita o destaque do segmento de energia no ranking Melhores e Maiores da Exame, além de ser premiada, pela 14ª vez, 
+com o Troféu Transparência, que reconhece as melhores práticas de transparência e qualidade nas informações financeiras 
+das empresas. A Companhia também integra, pelo segundo ano consecutivo , o índice de diversidade da B3, o IDIVERSA, 
+que reúne um seleto grupo de empresas que promovem não só uma sociedade mais justa, mas também a diversidade como 
+tese de investimento, incentivando outras companhias a seguirem o mesmo caminho. Esses reconhecim entos à nossa 
+atuação pautada por diretrizes ESG – de respeito a aspectos ambientais, sociais e de governança – mostram que temos sido 
+capazes de navegar a volatilidade no ambiente de negócios, acelerar a transição energética e impactar positivamente a vida 
+das pessoas, fortalecendo a confiança e credibilidade junto à comunidade empresarial e à sociedade. 
+Neste terceiro trimestre também recebemos a notícia de que, pelo segundo ano consecutivo, estamos no Top 10 do Prêmio 
+Broadcast Empresas, que reconhece as companhias que mais trazem retorno aos investidores, o que nos motiva a seguir 
+trabalhando para gerar e compartilhar valor de forma sustentável para nossas diversas partes interessadas. 
+Acreditando no potencial de crescimento do país, permaneceremos atentos às oportunidades de contribuir para que o Brasil 
+alcance todo o seu potencial, promovendo o desenvolvimento econômico, assegurando nosso crescimento orgânico e 
+ampliando a diversificação do nosso portfólio. Além disso, estaremos engajados nas mudanças regulatórias esperadas para 
+a modernização do setor elétrico brasileiro, que trarão benefícios tanto para a economia quanto para a sociedade. 
+ 
+ 
+ 
+Boa leitura! 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Eduardo Takamori
+Guiyotoku
+Diretor Financeiro e de 
+Relações com Investidores 
+Eduardo Antonio 
+Gori Sattamini
+Diretor-Presidente
+
+[p. 6]
+Release de Resultados 3T2 4 
+6
+E N G I E B R A S I L E N E R G I A 
+Detalhamento dos Ativos da Companhia 
+Ativos de Geração de Energia 
+No final do 3T24, a ENGIE Brasil Energia contava com 9.290,2 MW de capacidade instalada, operando um parque gerador 
+de 11.000,0 MW, composto de 109 usinas, sendo 11 hidrelétricas e 98 complementares — centrais a biomassa, PCHs, eólicas 
+e solares —, das quais 105 pertencem integralmente à Companhia e quatro (as hidrelétricas Itá, Machadinho e Estreito e a 
+usina de cogeração a biomassa Ibitiúva Bioenergética) são comercialmente exploradas por meio de parcerias com outras 
+empresas. 
+Parque Gerador em 30 de setembro de 2024 
+ 
+ 
+ 
+Ativos de Transmissão de Energia 
+Ativos de transmissão em operação em 30 de setembro de 2024 
+* Valores na data-base de julho de 2024 (ciclo 2024-2025), líquidos de PIS e Cofins. 
+1 Para composição dos conjuntos eólicos e fotovoltaicos. 
+2 Conjunto composto por 24 centrais eólicas, das quais 14 em operação comercial integral em 30/09/2024. 
+3 A usina Lar do Sol não possui garantia física declarada, portanto sua capacidade comercial é baseada na geração prevista. 
+4 Para centrais geradoras com potência igual ou inferior a 5 MW o instrumento legal aplicável é o registro. 
+Linhas de Transmissão Localização Extensão km
+RAP anual 
+(R$ milhões) *
+Subestações Propriedade
+Vencimento 
+concessão
+Gralha Azul Paraná 909,0 323,9 5 100% mar/48
+Novo Estado Pará e Tocantins 1.800,0 439,6 1 nova e expansão de 3 existentes 100% mar/48
+Gavião Real Pará 1,0 7,4 1 100% set/52
+Total 2.710,0 770,9
+Total Participação da 
+Companhia
+Itá Hidrelétrica Rio Uruguai (SC e RS) 1.450,0 1.126,9 dez/32 528,7
+Salto Santiago Hidrelétrica Rio Iguaçú (PR) 1.420,0 1.420,0 nov/30 702,2
+Machadinho Hidrelétrica Rio Uruguai (SC e RS) 1.140,0 414,8 out/35 143,7
+Estreito Hidrelétrica Rio Tocantins (TO e MA) 1.087,0 435,6 fev/47 244,1
+Salto Osório Hidrelétrica Rio Iguaçu (PR) 1.090,8 1.090,8 abr/31 487,3
+Cana Brava Hidrelétrica Rio Tocantins (GO) 450,0 450,0 dez/35 247,8
+Jaguara Hidrelétrica Rio Grande (MG) 424,0 424,0 jun/48 324,0
+Miranda Hidrelétrica Rio Araguari (MG) 408,0 408,0 jun/48 188,3
+São Salvador Hidrelétrica Rio Tocantins (TO) 243,2 243,2 jun/40 140,8
+Passo Fundo Hidrelétrica Rio Passo Fundo (RS) 226,0 226,0 abr/31 107,5
+Ponte de Pedra Hidrelétrica Rio Correntes (MT) 176,1 176,1 mar/37 127,6
+Total - Hidrelétricas 8.115,1 6.415,4 3.242,0
+Total 
+Participação da 
+Companhia
+Conjunto Serra do Assuruá2 Eólica 5 Gentio do Ouro (BA) 225,0 225,0 nov/56 113,5
+Conjunto Santo Agostinho - Fase I Eólica 14 Lages e Pedro Avelino (RN) 434,0 434,0 mai/56 224,2
+Conjunto Campo Largo II Eólica 11 Umburanas (BA) 361,2 361,2 ago/54 192,5
+Conjunto Umburanas - Fase I Eólica 18 Umburanas (BA) 360,0 360,0 ago/49 213,3
+Conjunto Campo Largo I Eólica 11 Umburanas (BA) 326,7 326,7 mai/51 166,5
+Conjunto Trairi Eólica 8 Trairi (CE) 212,6 212,6 set/41 97,2
+Conjunto Lar do Sol 3 Solar 3 Pirapora (MG) 198,0 198,0 abr/54 53,0
+Conjunto Paracatu Solar 4 Paracatu (MG) 132,0 132,0 jun/51 34,0
+Conjunto Juazeiro Solar 4 Juazeiro (BA) 120,0 120,0 jun/51 34,8
+Conjunto Sertão Solar Solar 4 Barreiras (BA) 94,6 94,6 jul/53 26,1
+Conjunto Floresta Solar 3 Areia Branca (RN) 86,0 86,0 jun/51 25,1
+Conjunto Sol do Futuro Solar 3 Aquiraz (CE) 81,0 81,0 jun/51 16,2
+Ferrari Termoelétrica Biomassa Pirassununga (SP) 72,5 72,5 jun/42 25,6
+Conjunto São Pedro Solar 2 Bom Jesus da Lapa (BA) 54,0 54,0 mar/51 16,0
+Assú V Solar Assú (RN) 34,0 34,0 jun/51 9,2
+Ibitiúva Bioenergética Biomassa Pitangueiras (SP) 33,0 22,9 abr/30 9,7
+Rondonópolis PCH Ribeirão Ponte de Pedra (MT) 26,6 26,6 dez/37 14,0
+José Gelazio da Rocha PCH Ribeirão Ponte de Pedra (MT) 24,4 24,4 dez/37 11,9
+Nova Aurora Solar Tubarão (SC) 3,0 3,0 não aplicável 4 0,2
+Tubarão Eólica Tubarão (SC) 2,1 2,1 não aplicável 4 0,3
+Tubarão 2 Eólica Tubarão (SC) 4,2 4,2 não aplicável 4 0,0
+Total - Complementares 2.884,9 2.874,8 1.283,3
+Total 11.000,0 9.290,2 4.525,3
+Energia assegurada 
+(MWm) Participação 
+da Companhia
+Usina Tipo
+Centrais 
+geradoras1 Localização
+Vencimento da 
+Autorização
+Vencimento da 
+Concessão
+Energia assegurada 
+(MWm) Participação 
+da Companhia
+Capacidade Instalada (MW) 
+Usina Tipo Localização
+Capacidade Instalada (MW)
+
+[p. 7]
+Release de Resultados 3T2 4 
+7
+E N G I E B R A S I L E N E R G I A 
+Ativos de Transporte de Gás 
+Transportadora Associada de Gás S.A. – TAG. 
+Maior transportadora de gás natural do Brasil, a TAG possui uma infraestrutura de 4.500 km de gasodutos de alta pressão, 
+que se estende por todo o litoral do Sudeste e Nordeste e mais um trecho entre Urucu e Manaus, no Amazonas, atravessando 
+10 estados brasileiros e cerca de 200 municípios. 
+A rede de gasodutos possui diversos pontos de interconexão, com 15 pontos de recebimento de gás ativos (incluindo três 
+terminais de Gás Natural Liquefeito (GNL)) e 90 pontos de entrega de gás (há mais um em construção), conexão com 10 
+distribuidoras de gás, atendendo três refinarias, oito termelétricas e duas plantas de fertilizantes. A rede conta ainda com 11 
+estações de compressão ao longo da malha, todas próprias. A operação dos ativos é realizada da Central de Supervisão e 
+Controle (CSC), localizada na sede da empresa no Rio de Janeiro (RJ). 
+A TAG encontra-se 100% contratada, possuindo contratos legados de longo -prazo com a Petrobras , com prazo médio 
+ponderado de aproximadamente seis anos, regulados pela Agência Nacional do Petróleo, Gás Natural e Biocombustíveis 
+(ANP). Além destes, a TAG assinou 128 contratos firmes ao longo de 2024, que totalizaram um volume de 10 milhões de m3 
+de capacidade de transporte, em contratos de entrada e saída, com vencimento em 31 de dezembro de 202 4, e 
+representaram cerca de 11% da receita total da TAG no ano (15% considerando somente malha integrada). 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Em junho de 2024, a TAG fez uma emissão de 
+debêntures institucionais, do tipo simples e 
+quirografária, no valor de R$ 3,0 bilhões, com um prazo 
+de vencimento de 5 anos, a um custo de CDI + 0,98%. 
+A TAG possui diversos projetos no pipeline a serem 
+executados nos próximos cinco anos, que ultrapassam 
+R$ 5,2 bilhões em investimentos. Aproximadamente 
+55% deste valor está em projetos de expansão da 
+capacidade de transporte ou de extensão da sua malha, 
+em linha com as perspectivas positivas do Grupo ENGIE 
+para a indústria de gás natural no Brasil. 
+Projetos em construção: 
+• Gasfor II, no Ceará, um gasoduto para otimização da rede, com 84 km de extensão e investimento de R$ 430 milhões. 
+Em agosto de 2022, o projeto foi classificado como prioritário pelo Ministério de Minas e Energia. A obra foi concluída e 
+aguarda a emissão da Autorização de Operação. 
+• Interconexão entre o Gasoduto Catu-Pilar ao T erminal de Sergipe, conectando o terminal de armazenamento e 
+regaseificação de GNL à rede de transporte da TAG, com 25 km de extensão. O contrato de conexão de acesso com a 
+Centrais Elétricas de Sergipe S.A. (Celse), atual membro do grupo Eneva, foi assinado em 13 de junho de 2022, com 
+investimento de R$ 380 milhões. Em maio de 2023, o projeto foi classificado como prioritário pelo Ministério de Minas 
+e Energia. A obra foi concluída em setembro de 2024 e a operação iniciada em outubro. 
+• Ponto de entrega Itagibá, na Bahia, um novo ponto de entrega para atender a companhia de distribuição local, localizada 
+no trecho norte do Gasene . Esse projeto demandou investimento de R$ 23 milhões. A obra foi finalizada e está no 
+aguardo da emissão da Autorização de Operação, prevista para o quarto trimestre de 2024. 
+ 
+ 
+ 
+Localização dos Gasodutos da TAG 
+Bacia do 
+Solimões
+Bacia do 
+Recôncavo
+Bacia de 
+Santos
+Bacia de 
+Campos
+Bacia do 
+Espírito Santo
+Bacia 
+Sergipe 
+Alagoas
+PA MA
+PI
+TO
+MT
+RO
+AC
+RR AP
+CE RN
+BA
+MG
+GO
+MS
+SP
+PR
+SC
+RS
+ES
+RJ
+PB
+PE
+AL
+SE
+AM
+Terminal GNLEstrutura Societária a partir de 10/01/2024 
+ 
+ENGIE S.A.
+32,5%
+ENGIE Brasil Energia
+17,5%
+ 50,0%
+
+[p. 8]
+Release de Resultados 3T2 4 
+8
+E N G I E B R A S I L E N E R G I A 
+Projetos em desenvolvimento: 
+• Estação de compressão Itajuípe , localizada no trecho Norte do Gasene, para incrementar a capacidade de transporte 
+atual em 3 milhões de m3/dia. O projeto está listado no programa Novo Programa de Aceleração do Crescimento (PAC). 
+• Ponto de entrega de Buriti, localizado no gasoduto Urucu-Manaus, será um novo ponto de saída na cidade de Manaus, 
+projetado para atendimento à demanda termelétrica local. 
+• Conexão do T erminal de Regaseificação do Porto do Açú ao Gasoduto Cabiúnas-Vitória, com 45 km de extensão e 18 
+milhões de m3/dia de capacidade de transporte. O termo de compromisso para projeto conceitual foi aprovado no final 
+de 2022. 
+• Estocagem: a TAG e a Origem Energia assinaram acordo não vinculante para desenvolvimento do primeiro projeto de 
+estocagem de gás natural no Brasil. O investimento total , estimado para o projeto , quando viabilizado, será de 
+aproximadamente US$ 200 milhões, divididos em diferentes etapas. Na fase inicial, a capacidade de armazenamento 
+será de 51 milhões de m³/ano. No longo prazo, a capacidade pode chegar a 500 milhões de m³/ano. 
+Adicionalmente, outros projetos em distintas fases de estudos podem demandar cerca de R$ 20 bilhões em investimentos, 
+representando um potencial de crescimento relevante. 
+Detalhamento dos contratos com a Petrobras 
+1 Após o vencimento dos contratos, será iniciado um ciclo de revisão tarifária, estimado em 5 anos, que determinará a receita máxima permitida (RAP). 
+2 Variações na representatividade da receita entre os contratos podem ocorrer. 
+3 1/3 IGP-M, 1/3 IPA-DI; 1/3 IGP-DI. 
+4 O contrato de Lagoa-Parda foi renovado para 2024, porém como contrato extraordinário, com vencimento em 31/12/2024. 
+ 
+ 
+ 
+ 
+Contrato/Trecho Extensão (km) Vencimento do 
+Contrato 1
+Volumes 
+Contratados 
+(MM m³/dia)
+% da Receita 
+Operacional 
+Líquida 2
+Índice de reajuste
+Gasene 1.400 nov-33 30,3 39,5% 46% Cesta IGP3; 54% US PPI
+Malha Nordeste 2.000 dez-25 21,6 24,2% IGP-M
+Pilar-Ipojuca 200 nov-31 15,0 6,5% IGP-M
+Urucu-Manaus 800 nov-30 6,7 29,5% 50% IGP-M; 50% IPCA
+Lagoa Parda-Vitória 4 100 dez-24 0,3 0,3% IGP-M
+Total 4.500,0 73,9 100,0%
+Transportadora Associada de Gás - TAG
+
+[p. 9]
+Release de Resultados 3T2 4 
+9
+E N G I E B R A S I L E N E R G I A 
+Expansão 
+Jirau Energia - Rondônia. 
+A Energia Sustentável do Brasil S.A. (“ESBR” ou “Jirau Energia”) é responsável pela manutenção, operação e venda da energia 
+gerada pela Usina Hidrelétrica Jirau, localizada no Rio Madeira, em Porto Velho, estado de Rondônia. Desde novembro de 
+2016, a Usina Hidrelétrica Jirau conta com todas as suas 50 unidades geradoras em operação, totalizando 3.750 MW de 
+capacidade instalada. 
+Em 17 de junho de 2024, a Companhia Hidro Elétrica do São Francisco 
+– Eletrobras Chesf firmou contrato para a aquisição de até 100% da 
+participação da Companhia de Geração e Transmissão de Energia 
+Elétrica do Sul do Brasil – Eletrobras CGT Eletrosul na Jirau Energia (20% 
+do seu capital social), pelo valor de até R$ 1,9 bilhão, que está 
+condicionada ao cumprimento de condições precedentes de mercado. 
+ 
+ 
+ 
+ 
+ 
+ 
+A ENGIE Brasil Participações Ltda., controladora da Companhia, está 
+aguardando condições mais favoráveis para retomar o estudo 
+econômico-financeiro para elaboração de proposta de transferência 
+para a ENGIE Brasil Energia de sua participação de 40% na Energia 
+Sustentável do Brasil S.A., e sua participação de 100% na Geramamoré 
+Participações e Comercializadora de Energia Ltda. 
+No 3T24, a Jirau Energia gerou 387 MW médios, 35,9% abaixo dos 605 MW médios gerados no 3T23, atingindo Fator de 
+Disponibilidade do Operador Nacional do Sistema (FID) de 100% no período (dados sujeitos à contabilização final da Câmara 
+de Comercialização de Energia Elétrica (CCEE)). 
+Graúna Transmissora de Energia – Santa Catarina, Paraná, Minas Gerais, São Paulo e 
+Espírito Santo. 
+A Companhia arrematou o Lote 1 no Leilão de Transmissão 0 2/2024, 
+promovido pela Aneel, oferecendo um deságio de 48,14% sobre a R eceita 
+Anual Permitida (RAP) máxima. Nomeado como Graúna, contará com cerca 
+de 780 quilômetros de extensão, contemplando a implantação de seis linhas 
+de transmissão , duas subestações e um seccionamento novos, e 
+continuidade na prestação de serviços de quatro linhas (totalizando 162,6 
+quilômetros) e duas subestações existentes, nos estados de Santa Catarina, 
+Paraná, Minas Gerais, São Paulo e Espírito Santo, cruzando 47 municípios. 
+O prazo de concessão do serviço público de transmissão, incluindo o 
+licenciamento, a construção, a operação e a manutenção das instalações de 
+transmissão, será de 30 anos, contados a partir da data da assinatura do 
+contrato de concessão. O prazo máximo para construção é de 60 meses, com 
+possibilidade de antecipação. 
+1 Valor na data-base de setembro de 2024. 
+ 
+40%
+ 40% 20%
+Portfólio de Contratos da Jirau Energia 
+MW médios 
+* Contempla a revisão da Garantia Física, conforme Portaria 709 do 
+Ministério de Minas e Energia, de 30/11/2022. 
+209
+538 404 426
+97
+-112
+14
+1.565
+2024-2034
+97
+1422
+1.565
+2035
+97
+14
+1.565
+2036-2042
+97
+1.796
+2043
+97
+2.005
+2044-2045
+2.102*
+2.102 2.102 2.102 2.102
+Perdas
+Exposição de lastro
+Descontratado
+Bilaterais
+Sócios
+ACR
+Lote Localização
+RAP Contratada 
+(RS milhões)1
+Capex estimado 
+Aneel
+(R$ milhões)
+1
+Santa Catarina, Paraná, Minas 
+Gerais, São Paulo e Espírito Santo 252,2 2.933,6
+Total 252,2 2.933,6
+Gralha Azul
+Asa Branca
+LOTE 1 Graúna
+Graúna
+SC
+PR
+MG
+SP
+BA
+Ativos de transmissão 
+Trecho Greenfield – Leilão 02/2024 
+Trecho Brownfield – Leilão 02/2004 
+Usinas em operação
+
+[p. 10]
+Release de Resultados 3T2 4 
+10
+E N G I E B R A S I L E N E R G I A 
+Projeto de Transmissão em Implantação 
+Asa Branca Transmissora de Energia - Bahia, Minas Gerais e Espírito Santo. 
+Arrematado no Leilão de Transmissão 01/2023, promovido 
+pela Aneel, o Lote 5 foi nomeado como Asa Branca e contará 
+com cerca de 1.000 quilômetros de extensão . Localizado 
+nos estados da Bahia, Minas Gerais e Espírito Santo, o 
+empreendimento prevê a implantação de quatro linhas de 
+transmissão de 500 kV em circuito simples. O prazo de 
+concessão do serviço público de transmissão, incluindo o 
+licenciamento, a construção, a operação e a manutenção das 
+instalações de transmissão, será de 30 anos, contados a 
+partir da data da assinatura do contrato de concessão, que 
+ocorreu em 27 de setembro de 2023. 
+No 3T24, foi publicada pelo I nema a Licença de Instalação 
+do trecho Morro do Chapéu II – Poções III, permitindo o 
+início das obras. Estão em andamento atividades de 
+mobilização de canteiros de obra, supressão de vegetação 
+e terrapl enagem nas subestações, bem como topografia, 
+sondagem e supressão de vegetação na linha de 
+transmissão. No mês de setembro, também foi iniciada a 
+entrega de estruturas metálicas das torres em campo. 
+O prazo máximo para início de operação é março de 2029 , 
+com previsão de antecipação de pelo menos 24 meses. 
+Projetos Eólicos em Implantação 
+Conjunto Eólico Serra do Assuruá – Bahia. 
+Composto por 24 parques eólicos em implantação em fase única no município de Gentio do Ouro, na Bahia, o projeto possui 
+outorga emitida pela Aneel , capacidade instalada prevista de 846 MW e capacidade comercial estimada em 410,2 MW 
+médios. A energia produzida será totalmente direcionada para o Ambiente de Contratação Livre, podendo inclusive atender 
+clientes no mercado de autoprodução de energia. Com geração de cerca de 3.000 empregos diretos e indiretos na região, o 
+investimento estimado é da ordem de R$ 6 bilhões (base mai/2022). 
+No final do 3T24, o progresso da obra atingiu 80,4% . 
+As atividades de montagem e comissionamento de 
+aerogeradores estão sendo executadas com 
+antecipação ao cronograma previsto, contando com 
+mais de 60% dos aerogeradores montados e 45% 
+comissionados. A subestação, linha de transmissão e 
+bay de conexão estão completamente energizadas. As 
+atividades de obras civis e redes de média tensão estão 
+em fase final de execução, sendo previst a sua 
+conclusão até o fim de 2024. 
+Em 30 de setembro de 2024 , 50 aerogeradores 
+estavam em operação comercial e outros 53 em testes. 
+Até 5 de novembro, mais 36 unidades geradoras 
+entraram em operação comercial e 40 estavam em 
+testes. 
+A previsão de conclusão da implantação do projeto foi 
+antecipada para o primeiro semestre de 2025. 
+ 
+ 
+Lote Localização
+RAP Contratada 
+(RS milhões)1
+Capex estimado Aneel
+(R$ milhões)
+5
+Bahia, Minas Gerais e 
+Espírito Santo 268,4 2.667,0
+Total 268,4 2.667,0
+1 Valor na data-base de julho de 2024. 
+MG
+BA
+ES
+Lote 5
+Subestação Morro do Chapéu II 
+ 
+Comissionamento dos 
+aerogeradores 
+Montagem dos aerogeradores 
+50
+(27%)
+53
+(28%)
+85
+(45%)
+30/09/2024
+86
+(46%)
+40
+(21%)
+62
+(33%)
+05/11/2024
+188 188
+Op. comercial
+Em teste
+Em construção
+
+[p. 11]
+Release de Resultados 3T2 4 
+11
+E N G I E B R A S I L E N E R G I A 
+Projeto Fotovoltaico em Implantação 
+Conjunto Fotovoltaico Assú Sol – Rio Grande do Norte. 
+O projeto está localizado no município de Assú, no Rio Grande do Norte e terá capacidade instalada de aproximadamente 
+752 MWac (895 MWp) e capacidade comercial estimada em 228,7 MW médios. Com investimento previsto da ordem de 
+R$ 3,3 bilhões (base jan/23), a energia está sendo totalmente direcionada para o Ambiente de Contratação Livre. 
+As atividades de implantação atingiram 
+58% de avanço até o final do 3T24. Estão 
+sendo executadas atividades de engenharia, 
+supressão vegetal, terraplenagem, 
+drenagem, fundações e montagens dos 
+trackers, instalação dos painéis solares e 
+comissionamento. As atividades de conexão 
+ao sistema atingiram 99% de avanço físico , 
+com as atividades de construção e 
+comissionamento da linha de transmissão e 
+do bay de conexão já finalizadas, enquanto 
+na subestação coletora estão sendo 
+realizadas as atividades de comissionamento. 
+A entrada em operação comercial da primeira unidade fotovoltaica está prevista para ocorrer no quarto trimestre de 2024 
+e a operação comercial integral é esperada para o quarto trimestre de 2025. 
+Projetos em Desenvolvimento 
+Conjunto Eólico Santo Agostinho – Fase II – Rio Grande do Norte. 
+Localizada junto à primeira fase, contará com sinergias que auxiliarão no desenvolvimento e viabilidade, tais como: 
+alojamento, acesso externo, subestação, linha de transmissão e outros. Em dezembro de 2021, foi concedida pelo Instituto 
+de Desenvolvimento Sustentável e Meio Ambiente, órgão ambiental do estado do Rio Grande do Norte, a Licença Ambiental 
+de Instalação para o projeto totalizando 279 MW de capacidade instalada , otimizando os recursos eólicos e as novas 
+tecnologias disponíveis no mercado. 
+Conjunto Eólico Umburanas – Fase II – Bahia. 
+A Segunda Fase conta com licenciamento ambiental regularizado, o qual deverá ser atualizado durante o desenvolvimento 
+avançado (pré-construção) para refletir as novas tecnologias disponíveis no mercado e assegurar o melhor aproveitamento 
+dos recursos eólicos da região. O projeto será futuramente desenvolvido pela Companhia ao lado dos Conjuntos Eólicos 
+Campo Largo e Umburanas – Fase I, capturando sinergias durante a implantação e operação, como subestação de energia, 
+alojamento, acessos, equipes e outros. Também conta com toda documentação necessária para participar de leilões de 
+energia, o que não afasta a potencial viabilização do em preendimento por meio de venda de energia para clientes 
+corporativos no mercado livre. A capacidade instalada prevista atualmente para o projeto é de aproximadamente 250 MW, 
+aproveitando os melhores recursos eólicos da região. 
+Conjunto Eólico Campo Largo – Fase III – Bahia. 
+A Companhia pretende acrescentar aproximadamente 250 MW de capacidade instalada ao Conjunto Eólico Campo Largo 
+com o desenvolvimento da sua terceira fase. Também conta com toda documentação necessária para participar de leilões 
+de energia, o que não afasta a potencial viabilização do empreendimento por meio de venda de energia para cl ientes 
+corporativos no mercado livre. Em março de 2021, foi concedida, pelo Instituto do Meio Ambiente e Recursos Hídricos 
+(Inema), órgão ambiental do estado da Bahia, a licença Ambiental Prévia para o projeto, que está localizado ao lado das Fases 
+I e II do Conjunto Eólico Campo Largo e contará com sinergias importantes para a sua viabilização. 
+Total 
+Participação da 
+Companhia
+Conjunto Fotovoltaico Santo Agostinho Solar Lajes e Pedro Avelino (RN) 509,0 509,0
+Conjunto Fotovoltaico Campo Largo Solar Umburanas e Sento Sé (BA) 308,0 308,0
+Conjunto Eólico Santo Agostinho - Fase II Eólica Lajes e Pedro Avelino (RN) 279,0 279,0
+Conjunto Eólico Umburanas - Fase II Eólica Umburanas (BA) 250,0 250,0
+Conjunto Eólico Campo Largo III Eólica Umburanas e Sento Sé (BA) 250,0 250,0
+Conjunto Fotovoltaico Alvorada Solar Bom Jesus da Lapa (BA) 90,0 90,0
+Total 1.686,0 1.686,0
+Usina Tipo Localização
+Capacidade Instalada (MW) 
+Atividades de implantação 
+atingiram 58%. Em 
+andamento, atividades de 
+engenharia, fundações, 
+montagem dos trackers, 
+instalação dos painéis 
+solares e comissionamento. 
+Montagem dos trackers e instalação dos painéis
+
+[p. 12]
+Release de Resultados 3T2 4 
+12
+E N G I E B R A S I L E N E R G I A 
+Conjunto Fotovoltaico Santo Agostinho – Rio Grande do Norte. 
+Localizado na área do Conjunto Eólico Santo Agostinho (RN), o conjunto conta com 12 centrais fotovoltaicas, 
+totalizando um potencial de instalação de até 509 MW . Os projetos estão em fase de desenvolvimento para participar de 
+oportunidades nos mercados livre e regulado. 
+Conjunto Fotovoltaico Campo Largo – Bahia. 
+Localizado na área do Conjunto Eólico Campo Largo (BA), o conjunto conta com 9 centrais fotovoltaicas, totalizando um 
+potencial de instalação de até 308 MW. Os projetos estão em fase de desenvolvimento para participar de oportunidades 
+nos mercados livre e regulado. 
+Conjunto Fotovoltaico Alvorada – Bahia. 
+Adquiriu-se área no estado da Bahia, em região com potencial de geração de energia solar, onde serão desenvolvidos três 
+projetos que irão compor o Conjunto Fotovoltaico Alvorada, com capacidade instalada total estimada de até 90 MW . Os 
+projetos estão em fase de desenvolvimento para participar de oportunidades nos mercados livre e regulado. 
+Além dos projetos acima, a Companhia continua analisando oportunidades em regiões de alto potencial fotovoltaico, bem 
+como parcerias que venham acelerar o desenvolvimento dessa fonte de energia, em linha com a transição energética que se 
+configura em esfera mundial. 
+Desempenho Operacional 
+Disponibilidade do Parque Gerador de Energia 
+No 3T24, as usinas operadas pela ENGIE Brasil Energia atingiram índice de 
+disponibilidade interna global de 86,9%, (considerando -se as paradas 
+programadas e forçadas), sendo 88,1% nas usinas hidrelétricas e 82,7% nas 
+usinas de fontes complementares — PCHs, biomassas, eólicas e 
+fotovoltaicas. 
+A disponibilidade das usinas hidrelétricas no 3T24, foi 2,3 p.p. inferior ao 
+mesmo período do ano anterior , principalmente em razão da execução de 
+manutenção corretiva na unidade geradora 2 da U sina Hidrelétrica Salto 
+Santiago e execução do plano de inspeções preventivas nas unidades 
+geradoras da Usina Hidrelétrica Cana Brava. 
+As usinas complementares apresentaram redução de 4,8 p.p. na 
+disponibilidade do 3T24, comparando com o 3T23, principalmente em razão 
+de sinistro ocorrido no gerador da unidade geradora 4 da Usina T ermelétrica 
+Ferrari (biomassa) e substituição de peças em dois aerogeradores na Usina 
+Eólica Estrela (parte do Conjunto Eólico Trairi). 
+ 
+Disponibilidade das Linhas de Transmissão de Energia 
+A Engie Brasil Energia apresentou alto desempenho operacional dos seus ativos de transmissão Gralha Azul e Novo Estado, 
+com um índice de disponibilidade total de 99,97% no 3T24 e 99,99% no acumulado de 9M24. Os ativos de transmissão 
+tiveram sua implantação concluída em fevereiro de 2023, quando o restante das linhas de transmissão e subestações 
+entraram em operação. 
+Disponibilidade 
+Considerando as paradas programadas 
+90,4% 87,5% 89,9%88,1% 82,7% 86,9%
+Hidrelétricas Complementares Consolidado
+-2,3 p.p. -4,8 p.p. -3,0 p.p.
+3T23 3T24
+
+[p. 13]
+Release de Resultados 3T2 4 
+13
+E N G I E B R A S I L E N E R G I A 
+Produção de Energia 
+A produção de energia elétrica nas usinas operadas pela ENGIE Brasil 
+Energia, foi de 13.994 GWh (6.338 MW médios), no 3T24, resultado 13,2% 
+superior à produção do 3T23. 
+Do total gerado no 3T24, as usinas hidrelétricas foram responsáveis por 
+11.329 GWh ( 5.131 MW médios) e as complementares por 2.665 GWh 
+(1.207 MW médios) . Esses resultados representam aumentos de 7,9% na 
+geração das usinas hidrelétricas e de 43,1% na geração das complementares, 
+respectivamente, em comparação ao 3T23. 
+A elevação na geração total das usinas hidrelétricas no 3T24, em comparação 
+ao mesmo período de 2023, é reflexo, principalmente da maior disponibilidade 
+de geração nas U sinas Hidrelétricas Miranda e Jaguara , além da política de 
+operação do ONS adotada para as usinas da bacia do rio T ocantins durante o 
+período de veraneio nas praias. Essa política permitiu aumentar a geração das 
+Usinas Hidrelétricas Cana Brava, São Salvador e Estreito. 
+Entre junho e agosto de 2023, a Usina Hidrelétrica Miranda passou pela 
+modernização da Unidade Geradora 3, o que reduziu sua disponibilidade de 
+geração em um terço nesse período. Já no 3T24, não houve parada de unidade 
+geradora de longa duração, maximizando assim sua geração. 
+O mesmo ocorreu com a Usina Hidrelétrica Jaguara, que modernizou a 
+Unidade Geradora 1 entre maio e novembro de 2023, resultando em menor 
+geração nesse período. No 3T24, a disponibilidade foi maximizada na maior 
+parte do tempo, permitindo ao ONS realizar maior despacho de geração dessa usina. 
+Para a bacia do T ocantins, apesar do período úmido ter sido abaixo da média, houve um aumento na geração das usinas 
+hidrelétricas devido à política de operação definida pelo ONS durante a T emporada de Praias no rio T ocantins, de maio a 
+agosto, conforme a Resolução ANA nº 70/2021. A vazão defluente estabelecida para a U sina Hidrelétrica Serra da Mesa 
+para a T emporada de 2024 foi o dobro do praticado nos últimos anos. Como Serra da Mesa é a usina de cabeceira, isso 
+proporcionou um aumento da vazão para toda a cascata, consequentemente aumentando a geração. 
+Cumpre destacar que o aumento da geração hidrelétrica da Companhia não 
+resulta necessariamente em melhoria do seu desempenho econômico -
+financeiro. Da mesma maneira, uma redução desse tipo de geração não 
+implica obrigatoriamente em deterioração do desempenho econômico -
+financeiro. Isso se deve à aplicação do Mecanismo de Realocação de Energia 
+(MRE), que compartilha os riscos hidrológicos inerentes à geração hidrelétrica 
+entre seus participantes. 
+A maior geração das usinas complementares no 3T24, ocorreu principalmente 
+pelo aumento da geração eólica e solar . A primeira, motivada pela maior 
+incidência de ventos, quando comparada ao 3T23 , em especial nos parques 
+localizados na Bahia - Campo Largo I e II e Umburanas -, que juntos 
+produziram 11,5% a mais do que no mesmo período de 2023. Outro fator que 
+contribuiu com o crescimento da geração eólica foi a entrada em operação 
+comercial integral do Conjunto Eólico Santo Agostinho e parcial do Conjunto 
+Eólico Serra do Assuruá, que juntos geraram 517 GWh (234 MW médios) no 
+3T24. A geração eólica total atingiu 2.183 GWh (98 8 MW médios) no 3T24, 
+41,9% acima do gerado no 3T23. 
+A geração das usinas fotovoltaicas atingiu 334 GWh ( 151 MW médios), 
+impulsionada pela contribuição dos Conjuntos Fotovoltaicos Juazeiro, Sertão 
+Solar, Sol do Futuro, São Pedro e Lar do Sol, adquiridos em março de 2024, os 
+quais geraram 261 GWh (118 MW médios) , equivalente a 78,1% do total da 
+geração fotovoltaica do 3T24. 
+ 
+ 
+ 
+Geração 
+MW médios 
+ 
+Nota: 
+ A diferença entre os percentuais calculados em GWh e MW médios no 
+acumulado do ano ocorre em razão de 2024 ser ano bissexto. 
+843
+733
+880
+4.754
+3T23
+5.131
+3T24
+3.675
+9M23
+5.314
+9M24
+5.597
+6.338
+4.408
+6.194
+1.207
++13,2% +40,5%
+Hidrelétricas Complementares
+Geração por Fonte Complementar 
+MW médios 
+Nota: 
+ A diferença entre os percentuais calculados em GWh e MW 
+médios ocorre em razão de 2024 ser ano bissexto. 
+696 778 607 595
+210
+107
+6
+1388
+118
+81
+4143
+9M24
+9
+3T23
+3360
+3T24
+53
+843
+1.207
+733
+880
+5319
+9M23
+51
++43,1%
++20,1%
+Eólica
+Novas eólicas
+PCH
+Biomassa
+Solar
+Novas solares
+
+[p. 14]
+Release de Resultados 3T2 4 
+14
+E N G I E B R A S I L E N E R G I A 
+Constrained-off 3T24 (Curtailment) 
+Constrained-Off, também conhecida como Curtailment, de acordo com o Operador Nacional do Sistema Elétrico (ONS), pode 
+ser classificado em três principais categorias: Energética (quando há impossibilidade de alocar a geração na carga), 
+Confiabilidade Elétrica (devido a razões relacionadas à confiabilidade elétrica de equipamentos externos às usinas) e 
+Indisponibilidade Externa (causada por indisponibilidades de instalações externas às usinas). Destas, apenas a razão de 
+Indisponibilidade Externa permite que o agente seja potencialmente ressarcido pelas limitações de geração, desde que as 
+condições estejam em conformidade com as regras estabelecidas pela Aneel e pelo ONS. 
+Segundo análise dos dados divulgados pelo ONS, no 3T24, as usinas eólicas e solares operadas pela ENGIE Brasil Energia 
+registraram 14% de frustração de geração, frente 13% do registrado nas demais usinas integrantes do Sistema Interligado 
+Nacional (SIN). Desse total, as eólicas da Companhia atingiram 12% de redução de produção frente a 11% do SIN, e 19% 
+em solar versus 22% no SIN, conforme pode ser observado nos gráficos a seguir: 
+ 
+Constrained-off por ativo 
+Ativos eólicos Capacidade comercial (MWm) 3T24 (%) 9M24 (%) 
+Trairi (CE) 97,2 17% 12% 
+Santo Agostinho (RN) 224,2 30% 23% 
+Serra do Assuruá (BA) 113,5 1 1% 1% 
+Campo Largo II (BA) 192,5 9% 5% 
+Umburanas (BA) 213,3 7% 4% 
+Campo Largo I (BA) 166,5 8% 5% 
+ 
+Ativos solares 2 Capacidade comercial (MWm) 3T24 (%) 9M24 (%) 
+Sol do Futuro (CE) 16,2 17% 13% 
+Floresta (RN) 25,1 50% 35% 
+Assú V (RN) 9,2 27% 21% 
+Juazeiro (BA) 34,8 21% 15% 
+Sertão Solar (BA) 26,1 31% 21% 
+São Pedro (BA) 16,0 25% 20% 
+Lar do Sol (MG) 53,0 11% 8% 
+Paracatu (MG) 34,0 8% 7% 
+ 
+ 
+ 
+Notas: 
+1 Dados eólicos disponíveis a partir de janeiro/23. 
+2 Dados solares disponíveis a partir de abril/24. 
+Fonte: Estudo interno da ENGIE Brasil Energia com base em premissas divulgadas pelo ONS. 
+Curtailment total % (eólico + solar) 
+Eólico (%) 
+ Solar (%) 
+1T242 2T24 3T24 9M231 9M242
+2% 1%
+5% 5%
+14% 13%
+4% 4%
+9% 8%
+ENGIE SIN
+1T24 2T24 3T24 9M231 9M24
+2%
+1%
+4% 4%
+12%
+11%
+3% 3%
+8%
+7%
+ENGIE SIN
+2T24 3T24 9M242
+8%
+10%
+19%
+22%
+13%
+16%
+ENGIE SIN
+Nota: 
+1 Capacidade operacional em 30/09/2024. 
+2 Dados solares disponíveis a partir de abril/2024. 
+Fonte: Estudo interno da ENGIE Brasil Energia com base em premissas divulgadas pelo ONS.
+
+[p. 15]
+Release de Resultados 3T2 4 
+15
+E N G I E B R A S I L E N E R G I A 
+Transporte de Gás 
+No 3T24, a TAG transportou um volume médio de gás de 31,2 milhões de 
+m3/dia (28,3 milhões de m 3/dia no 3T23). O volume dos contratos 
+extraordinários foi de 9,9 milhões de m 3/dia, representando 
+aproximadamente 11% do volume total contratado pela TAG, e 15% 
+considerando somente a malha integrada (excluindo Gasoduto de Transporte 
+de Gás (G TA) Urucu-Manaus, onde a Petrobras se mantém como único 
+carregador). Em 2024, a TAG assinou 128 contratos firmes (41 ativos) com 23 
+carregadores. 
+ 
+ 
+ 
+ 
+ 
+Portfólio de Venda de Energia Elétrica 
+No 3T24, a participação de consumidores livres no portfólio da Companhia (com exceção de CCEE e outras receitas) 
+alcançou 40,4% do total das vendas físicas e 36,1% do total da Receita Operacional Líquida (ROL) do segmento de geração, 
+reduções de 5,4 p.p. e 4,7 p.p., respectivamente , em relação ao mesmo período do ano anterior. A variação se deve, 
+principalmente, pela mudança de classe de comercialização de clientes já existentes no portfólio da Companhia de 
+Consumidores Livres para Comercializadoras, em virtude das vantagens existentes para o seu grupo econômico. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Volume médio de gás movimentado 
+MM m3/dia 
+28,3 31,2 31,8 29,3
+3T23 3T24 9M23 9M24
++10,3% -7,8%
+Participação dos Clientes nas Vendas Contratadas 
+que Compõem a ROL do segmento de geração (%) 
+Participação dos Clientes 
+nas Vendas Físicas (%) 
+34,4 36,5 38,2 37,5
+45,8 40,4 41,5 40,3
+16,0
+7,7
+12,1
+3T23
+7,1
+3T24
+6,8
+13,5
+9M23
+5,7
+16,5
+9M24
+44,3 48,5 48,6 50,0
+40,8 36,1 37,1 35,5
+5,69,3
+3T23
+3,911,5
+3T24
+5,09,3
+9M23
+3,111,4
+9M24
+Distribuidoras Clientes Livres Comercializadoras Trading
+
+[p. 16]
+Release de Resultados 3T2 4 
+16
+E N G I E B R A S I L E N E R G I A 
+Estratégia de Comercialização de Energia Elétrica 
+A Companhia tem como estratégia de comercialização a venda gradativa da energia disponível para determinado ano, de 
+forma a mitigar o risco de ficar exposta ao preço spot (Preço de Liquidação das Diferenças — PLD) daquele ano. As vendas 
+são feitas dentro das “janelas” de oportunidade que se apresentam quando o mercado revela maior propensão de compra. 
+De acordo com os dados de capacidade comercial própria e contratos de co mpra e venda vigentes em 30 de setembro de 
+2024, apresenta-se a seguir, o balanço de energia da ENGIE Brasil Energia: 
+Balanço de Energia 
+ 
+ 
+1 XXXX-YY-WWWW-ZZ, onde: 
+ XXXX ➔ ano de realização do leilão 
+ YY ➔ EE = energia existente ou EN = energia nova 
+ WWWW ➔ ano de início de fornecimento 
+ ZZ ➔ duração do fornecimento (em anos) 
+2 Preço de venda, incluindo operações de trading, líquido de ICMS e impostos sobre a receita 
+(PIS/Cofins, P&D), ou seja, não considerando a inflação futura. 
+3 Desconsidera vendas por regime de cotas (UHEs Jaguara e Miranda). 
+4 Preço de aquisição líquido, considerando operações de trading e os benefícios de crédito do 
+PIS/Cofins, ou seja, não considerando a inflação futura. 
+ 
+Notas: 
+- O balanço está referenciado ao centro de gravidade (líquido de perdas e 
+consumo interno das usinas). 
+- Os preços médios são meramente estimativos, elaborados com base em 
+revisões do planejamento financeiro, não captando a variação das 
+quantidades contratadas, que são atualizadas trimestralmente. 
+ 
+(em MW médios) 2024 2025 2026 2027 2028 2029
+Recursos Próprios 4.302 4.778 4.877 4.877 4.877 4.877 Preço Bruto Data de Preço Bruto Preço Líquido de
++ Compras para Revenda 1.077 560 437 334 329 234 no Leilão Referência Corrigido PIS/COFINS/P&D
+= Recursos Totais (A) 5.379 5.338 5.314 5.211 5.206 5.111 (R$/MWh) (R$/MWh) (R$/MWh)
+Vendas Leilões do Governo1 1.830 1.832 1.822 1.813 1.803 1.803 
+ 2005-EN-2010-30 200 200 200 200 200 200 115,1 dez-05 312,9 281,1
+ 2006-EN-2009-30 493 493 493 493 493 493 128,4 jun-06 343,8 308,8
+ 2006-EN-2011-30 148 148 148 148 148 148 135,0 nov-06 358,5 322,1
+ 2007-EN-2012-30 256 256 256 256 256 256 126,6 out-07 322,3 289,6
+ Proinfa 19 19 19 10 - - 147,8 jun-04 441,0 424,9
+ 1º Leilão de Reserva 14 2 - - - - 158,1 ago-08 379,9 366,1
+ Mix de leilões (Energia Nova / Reserva) 9 8 - - - - - - 376,9 363,2
+ 2014-EN-2019-25 10 10 10 10 10 10 206,2 nov-14 357,2 344,2
+ 2014-EN-2019-20 82 82 82 82 82 82 139,3 nov-14 234,2 212,6
+ 2015-EN-2018-20 46 46 46 46 46 46 188,5 ago-15 293,7 266,5
+ 8º Leilão de Reserva (Assú V/Floresta/Paracatu/Juazeiro/Sol do Futuro) 111 119 119 119 119 119 298,2 nov-15 450,0 408,4
+ 7º Leilão de Reserva (São Pedro) 13 15 15 15 15 15 301,8 nov-15 489,8 444,5
+ 2017-EN-2019-20 48 48 48 48 48 48 136,4 nov-14 234,7 213,0
+ 2017-EN-2021-20 (Sertão Solar) 23 27 27 27 27 27 189,5 nov-14 199,6 181,1
+Vendas Reguladas - Cotas
+ 2018 - Cotas (UHJA) - 2018-30 227 227 227 227 227 227 - jul-17 206,3 196,8
+ 2018 - Cotas (UHMI) - 2018-30 132 132 132 132 132 132 - jul-17 239,6 228,6
++ Vendas Bilaterais 3.004 2.667 2.508 1.995 1.470 597 
+= Vendas Totais (B) 4.834 4.499 4.330 3.808 3.273 2.400 
+- Hedge GSF Estrutural (0,80) 521 521 521 521 521 521 
+Saldo (A - B) 24 318 463 882 1.412 2.190 
+Preço médio de venda (R$/MWh) (líquido) 2, 3: 218,2 220,9 211,6
+Preço médio de compra (R$/MWh) (líquido) 4: 159,5 140,6 145,3
+Conjunto Fotovoltaico Lar do Sol (MG)
+
+[p. 17]
+Release de Resultados 3T2 4 
+17
+E N G I E B R A S I L E N E R G I A 
+Desempenho Econômico-Financeiro 
+Resultado por segmento – 3T24 X 3T23 (em R$ milhões) 
+ Energia elétrica 
+ Geração¹ Transmissão Trading Transporte de Gás Consolidado 
+3T24 
+Receita operacional líquida 2.168 291 78 - 2.537 
+Custos operacionais (1.063) (92) (79) - (1.234) 
+Lucro (prejuízo) bruto 1.105 199 (1) - 1.303 
+Despesas com vendas, gerais e administrativas (122) (7) (1) - (130) 
+Outras receitas operacionais, líquidas 3 25 - - 28 
+Alienação de participação societária em controlada em conjunto - - - (1) (1) 
+Resultado de equivalência patrimonial - - - 182 182 
+Lucro (prejuízo) antes do resultado financeiro e tributos sobre 
+o lucro 986 217 (2) 181 1.382 
+3T23 
+Receita operacional líquida 2.161 239 114 - 2.514 
+Custos operacionais (1.048) (34) (113) - (1.195) 
+Lucro bruto 1.113 205 1 - 1.319 
+Despesas com vendas, gerais e administrativas (97) (4) (1) - (102) 
+Outras despesas operacionais, líquidas (1) - - - (1) 
+Impairment (61) - - - (61) 
+Resultado de equivalência patrimonial - - - 320 320 
+Lucro antes do resultado financeiro e tributos sobre o lucro 954 201 - 320 1.475 
+Variação 
+Receita operacional líquida 7 52 (36) - 23 
+Custos operacionais (15) (58) 34 - (39) 
+Lucro (prejuízo) bruto (8) (6) (2) - (16) 
+Despesas com vendas, gerais e administrativas (25) (3) - - (28) 
+Outras receitas operacionais, líquidas 4 25 - - 29 
+Impairment 61 - - - 61 
+Alienação de participação societária em controlada em conjunto - - - (1) (1) 
+Resultado de equivalência patrimonial - - - (138) (138) 
+Lucro (prejuízo) antes do resultado financeiro e tributos sobre 
+o lucro 32 16 (2) (139) (93) 
+ 
+¹ Geração e venda de energia elétrica do portfólio da Companhia (“Geração”). 
+O resultado financeiro da Companhia não é alocado por segmento, pois a Administração realiza a gestão do fluxo de caixa 
+de forma consolidada e corporativa.
+
+[p. 18]
+Release de Resultados 3T2 4 
+18
+E N G I E B R A S I L E N E R G I A 
+Receita Operacional Líquida 
+Receita por segmento – 3T24 X 3T23 (em R$ milhões) 
+ Energia elétrica 
+ Geração Transmissão Trading Consolidado 
+3T24 
+Distribuidoras de energia elétrica 974 - - 974 
+Consumidores livres 726 - - 726 
+Remuneração dos ativos de concessão 109 204 - 313 
+Comercializadoras de energia elétrica 232 - - 232 
+Operações de trading de energia - - 77 77 
+Transações no mercado de curto prazo 75 - 1 76 
+Receita de construção - 66 - 66 
+Receita de serviços prestados 39 21 - 60 
+Outras receitas 13 - - 13 
+Receita operacional líquida 2.168 291 78 2.537 
+3T23 
+Distribuidoras de energia elétrica 901 - - 901 
+Consumidores livres 831 - - 831 
+Remuneração dos ativos de concessão 105 213 - 318 
+Comercializadoras de energia elétrica 189 - - 189 
+Operações de trading de energia - - 114 114 
+Transações no mercado de curto prazo 86 - - 86 
+Receita de construção - 6 - 6 
+Receita de serviços prestados 37 20 - 57 
+Outras receitas 12 - - 12 
+Receita operacional líquida 2.161 239 114 2.514 
+Variação 
+Distribuidoras de energia elétrica 73 - - 73 
+Consumidores livres (105) - - (105) 
+Remuneração dos ativos de concessão 4 (9) - (5) 
+Comercializadoras de energia elétrica 43 - - 43 
+Operações de trading de energia - - (37) (37) 
+Transações no mercado de curto prazo (11) - 1 (10) 
+Receita de construção - 60 - 60 
+Receita de serviços prestados 2 1 - 3 
+Outras receitas 1 - - 1 
+Receita operacional líquida 7 52 (36) 23 
+No 3T24, a receita operacional líquida aumentou 0,9% (R$ 23 milhões) quando comparada ao 3T23, passando de R$ 2.514 
+milhões para R$ 2.537 milhões.
+
+[p. 19]
+Release de Resultados 3T2 4 
+19
+E N G I E B R A S I L E N E R G I A 
+ 
+Comentários sobre as Variações da Receita Operacional Líquida 
+Geração e Venda de Energia do Portfólio 
+• Preço Médio Líquido de Venda e Volume de Vendas 
+O preço médio de venda de energia , líquido dos encargos sobre a receita e operações de trading, foi de R$ 215,96/MWh 
+no 3T24 . Esse valor foi 3,6% inferior ao do 3T23, que foi de R$ 223,97/MWh. Desconsiderando o impacto dos 
+ressarcimentos nos trimestres, o preço médio líquido de venda de energia passou de R$ 228,84/MWh no 3T23 para R$ 
+226,92/MWh no 3T24, redução de 0,8%. O ressarcimento é causado pela entrega de energia eólica e solar em quantidades 
+inferiores às firmadas nos contratos no ambiente regulado com as distribuidoras. 
+A redução do preço entre os períodos em análise foi motivada, substancialmente, (i) pela melhora no cenário hidrológico 
+ocorrida nos últimos anos, combinada com o aumento de oferta de energias renováveis, a qual impacta no decréscimo dos 
+preços de energia do mercado livre, composto pelos Consumidores Livres e Comercializadoras. Adicionalmente, não foram 
+realizadas operações significativas após a piora do cenário hidrológico ocorrido desde o início de 2024, com reflexo no 3T24, 
+dada a alta contratação do portfólio; e (ii) pelo acréscimo dos ressarcimentos anteriormente citados; parcialmente atenuada 
+pela (iii) aquisição dos Conjuntos Fotovoltaicos Juazeiro, São Pedro, Sol do Futuro, Sertão Solar e Lar do Sol (“Conjuntos 
+Fotovoltaicos”), ativos com energia contratada a preços superiores à média do restante do portfólio da Compan hia; e (iv) 
+atualização monetária dos contratos de longo prazo vigentes. 
+A quantidade de energia vendida em contratos, líquida de operações de trading, passou de 8.574 GWh (3.883 MW médios) 
+no 3T23 para 8.942 GWh (4.050 MW médios) no 3T24, um acréscimo de 368 GWh (167 MW médios), ou 4,3%, entre os 
+períodos comparados. O aumento na quantidade de energia vendida, foi motivado , substancialmente, pelo acréscimo do 
+volume de venda às distribuidoras, em decorrência da aquisição dos Conjuntos Fotovoltaicos, e pelo aumento de venda no 
+ambiente livre, ocasionado pelo acréscimo da capacidade instalada própria entre os períodos analisados. 
+O aumento no volume de vendas e a redução nos preços médios de venda, ocasionaram, em conjunto, acréscimo de R$ 11 
+milhões, entre os trimestres, na receita operacional líquida da Companhia. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+2 Líquido de operações de trading. 
+1 Líquido de impostos sobre a venda e operações de trading. 
+Preço Médio Líquido de Vendas1 
+R$/MWh 
+Volume de Vendas2 
+MW médios 
+224,0 216,0 225,5 221,4
+3T23 3T24 9M23 9M24
+-3,6% -1,8%
+3.883 4.050 4.138 3.990
+3T23 3T24 9M23 9M24
++4,3% -3,6%
+Receita Operacional Líquida por Segmento 
+R$ milhões 
+ 
+Geração e comercialização Trading Transmissão
+7 11 52
+239
+10%
+ROL 3T23 Rem. ativos 
+financeiros 
+e outros
+Preço e 
+volume 
+de vendas
+(11)
+CCEE
+(36)
+Trading
+2.514 2.537
+Transmissão
+2.168
+85%
+78
+3%
+291
+11%
+2.161
+86%
+114
+5%
+ROL 3T24
++0,9%
+
+[p. 20]
+Release de Resultados 3T2 4 
+20
+E N G I E B R A S I L E N E R G I A 
+• Receita de Venda de Energia Elétrica 
+o Distribuidoras: 
+A receita de venda a distribuidoras alcançou R$ 974 milhões no 3T24, R$ 73 milhões (8,1%) superior aos R$ 901 milhões 
+auferidos no 3T23. A variação foi ocasionada pelos seguintes efeitos: (i) acréscimo de R$ 87 milhões em razão do aumento 
+de 312 GWh (142 MW médios) na quantidade vendida; e atenuado pela (ii) redução de R$ 14 milhões com o decréscimo de 
+1,6% no preço médio líquido de vendas. 
+O aumento no volume de vendas entre os trimestres comparados decorre, principalmente, da aquisição dos Conjuntos 
+Fotovoltaicos somada à sazonalização das vendas. 
+A redução do preço médio líquido de vendas, entre os trimestres em análise, foi motivada, principalmente, (i) pelo acréscimo 
+dos ressarcimentos anteriormente citados; atenuada pela (ii) aquisição dos Conjuntos Fotovoltaicos, ativos com energia 
+contratada a preços superiores às demais receitas no Ambiente Regulado; e (iii) atualização monetária dos preços de venda 
+nos períodos em comparação. 
+Desconsiderando o impacto dos ressarcimentos anteriormente citados, o preço médio líquido de vendas das distribuidoras 
+aumentou 3,5% entre os trimestres. 
+o Consumidores Livres: 
+A receita de venda a consumidores livres reduziu R$ 105 milhões (12,6%) entre os trimestres em análise, passando de R$ 
+831 milhões no 3T23 para R$ 726 milhões no 3T24 . A variação resulta da redução de 361 GWh (164 MW médios) no 
+volume de energia vendida (R$ 70 milhões) e pelo decréscimo de 4,5% no preço médio líquido de vendas para essa classe 
+de clientes (R$ 35 milhões). A variação na quantidade de energia vendida é consequência, substancialmente, dos seguintes 
+fatores: (i) do encerramento de contratos; (ii) do direcionamento de volumes para comercializadoras; e (iii) da mudança de 
+classe de comercialização de clientes já existentes no portfólio da Companhia de Consumidores Livres para 
+Comercializadoras, em virtude das vantagens existentes para o seu grupo econômico. Já a redução no preço médio líquido 
+de vendas, foi motivada principalmente, pelo decréscimo dos preços de energia do mercado livre, ocasionado pela melhora 
+no cenário hidrológico , conforme explicado anteriormente , combinada com o aumento de oferta de energias renováveis 
+ocorrido nos últimos anos, fatores atenuados pela atualização monetária dos contratos vigentes. 
+o Comercializadoras: 
+No 3T24, a receita de venda a comercializadoras foi de R$ 232 milhões, R$ 43 milhões (22,8%) superior à receita auferida 
+no 3T23, que foi de R$ 189 milhões. A variação é justificada pela combinação do aumento de 417 GWh (189 MW médios) 
+no volume de energia vendida (R$ 62 milhões) atenuada pelo decréscimo de 10,3% no preço médio líquido de vendas (R$ 
+19 milhões). 
+O aumento da quantidade entre os trimestres analisados decorre, principalmente, da entrada em vigor de novos contratos 
+firmados, pela aquisição do Conjunto Fotovoltaico Lar do Sol e da já mencionada mudança de classe de classificação de 
+Consumidores Livres para Comercializadoras . A redução no preço médio líquido de vendas observada no 3T24 se deve, 
+basicamente, pelo decréscimo dos preços de energia do mercado livre, tal 
+qual ocorrido nas transações com Consumidores Livres. Esta redução foi 
+ligeiramente atenuada pela atualização monetária dos contratos vigentes. 
+• Transações no Mercado de Energia de Curto Prazo 
+No 3T24 , a receita auferida no mercado de curto prazo foi de R$ 75 
+milhões, enquanto no 3T23 foi de R$ 86 milhões, o que representa um 
+decréscimo de R$ 11 milhões ( 12,8%) entre os trimestres comparados. 
+Mais explicações sobre tais operações e acerca da variação podem ser 
+obtidas em “Detalhamento das operações de curto prazo”. 
+• Remuneração dos Ativos Financeiros de Concessões 
+Os ativos financeiros de concessões representam o valor presente dos 
+fluxos de caixa futuros da parcela da energia destinada ao Ambiente de 
+Contratação Regulada (ACR) das Usinas Hidrelétricas Jaguara e Miranda, 
+equivalente a 70% da garantia física destas usinas. Esses ativos são 
+remunerados pela taxa interna de retorno e pela variação do Índice de 
+Preços ao Consumidor Amplo (IPCA). 
+A remuneração dos ativos financeiros de concessões passou de R$ 105 
+milhões, no 3T23, para R$ 109 milhões no 3T24, acréscimo de R$ 4 
+milhões (3,8%). A variação foi motivada, substancialmente, pela elevação 
+do saldo médio do ativo e pelo aumento do IPCA entre os períodos em 
+comparação. 
+ 
+ 
+Usina Hidrelétrica Ponte de Pedra (MT)
+
+[p. 21]
+Release de Resultados 3T2 4 
+21
+E N G I E B R A S I L E N E R G I A 
+Custos Operacionais 
+Custos por segmento – 3T24 x 3T23 (em R$ milhões) 
+ Energia elétrica 
+ Geração Transmissão Trading Consolidado 
+3T24 
+Compras de energia 315 - 83 398 
+Depreciação e amortização 260 3 - 263 
+Encargos de uso da rede elétrica e conexão 176 - - 176 
+Materiais e serviços de terceiros 109 12 - 121 
+Custos de construção - 71 - 71 
+Pessoal 62 3 - 65 
+Royalties 58 - - 58 
+Seguros 30 1 - 31 
+Transações no mercado de curto prazo 16 - - 16 
+Perdas não realizadas em operações de trading - - (4) (4) 
+Outros custos operacionais, líquidos 37 2 - 39 
+Custos operacionais 1.063 92 79 1.234 
+3T23 
+Compras de energia 384 - 109 493 
+Depreciação e amortização 219 3 - 222 
+Encargos de uso da rede elétrica e conexão 169 - - 169 
+Materiais e serviços de terceiros 86 13 - 99 
+Custos de construção - 6 - 6 
+Pessoal 54 3 - 57 
+Royalties 50 - - 50 
+Seguros 23 - - 23 
+Transações no mercado de curto prazo 47 - - 47 
+Perdas não realizadas em operações de trading - - 4 4 
+Outros custos operacionais, líquidos 16 9 - 25 
+Custos operacionais 1.048 34 113 1.195 
+Variação 
+Compras de energia (69) - (26) (95) 
+Depreciação e amortização 41 - - 41 
+Encargos de uso da rede elétrica e conexão 7 - - 7 
+Materiais e serviços de terceiros 23 (1) - 22 
+Custos de construção - 65 - 65 
+Pessoal 8 - - 8 
+Royalties 8 - - 8 
+Seguros 7 1 - 8 
+Transações no mercado de curto prazo (31) - - (31) 
+Perdas não realizadas em operações de trading - - (8) (8) 
+Outros custos operacionais, líquidos 21 (7) - 14 
+Custos operacionais 15 58 (34) 39 
+Os custos operacionais aumentaram em R$ 39 milhões (3,3%) entre os trimestres comparados, passando de R$ 1.195 
+milhões no 3T23 para R$ 1.234 milhões no 3T24. Esta variação foi reflexo da combinação dos seguintes fatores: (i) acréscimo 
+de R$ 58 milhões (170,6%) nos custos do segmento de transmissão, principalmente pelo aumento dos custos de construção 
+dos Sistemas de Transmissão Gavião Real e Asa Branca ; (ii) aumento de R$ 15 milhões (1,4%) nos custos do segmento de 
+geração e venda de energia do portfólio da Companhia; e (iii) queda de R$ 34 milhões (30,1%) nos custos de operações de 
+trading de energia.
+
+[p. 22]
+Release de Resultados 3T2 4 
+22
+E N G I E B R A S I L E N E R G I A 
+ 
+ 
+As variações do segmento de geração e venda de energia do portfólio decorreram, essencialmente, do comportamento dos 
+principais componentes a seguir: 
+Comentários sobre as Variações dos Custos Operacionais 
+Geração e Venda de Energia do Portfólio 
+• Compras de energia: entre o 3T23 e o 3T24 houve redução de R$ 69 milhões (18,0%) nas compras de energia, 
+substancialmente motivada pela combinação das reduções de 11,2% no preço médio líquido de compras de energia (R$ 39 
+milhões) e 169 GWh (77 MW médios) na quantidade de energia comprada (R$ 30 milhões). Os decréscimos dos volumes 
+decorrem da gestão de portfólio da Companhia, que contou com aumento da capacidade instalada própria nos últimos anos, 
+e por sua vez, reduziu a necessidad e de compras de energia de terceiros entre os períodos analisados. Já a variação dos 
+preços médios de compras reflete a melhoria no cenário hidrológico nos momentos de contratação, conforme anteriormente 
+mencionado, combinado com o aumento de oferta de energias renováveis ocorrido nos últimos anos, fatores que 
+pressionaram negativamente os preços de energia do mercado livre. 
+• Depreciação e amortização: aumento de R$ 41 milhões (18,7%) entre os trimestres em análise. A variação decorre, 
+principalmente, da aquisição dos Conjuntos Fotovoltaicos e pela entrada em operação comercial do Conjunto Eólico Santo 
+Agostinho a partir de março de 2023. 
+• Transações no mercado de energia de curto prazo: os custos com essas transações foram inferiores em R$ 31 
+milhões (66,0%) entre os trimestres em análise. Mais explicações sobre tais operações e acerca da variação podem ser 
+obtidas em “Detalhamento das operações de curto prazo”. 
+• Materiais e serviços de terceiros: incremento de R$ 23 milhões (26,7%) no 3T24 quando comparado ao 3T23, em 
+decorrência, principalmente, dos seguintes fatores: (i) reparos e manutenções nos parques eólicos da Companhia; (ii) 
+aquisição dos Conjuntos Fotovoltaicos; e (iii) entrada em operação comercial do Conjunto Eólico Santo Agostinho. 
+• Compensação financeira pela utilização de recursos hídricos ( Royalties): elevação de R$ 8 milhões (16,0%) entre 
+os trimestres comparados em decorrência, basicamente, da maior geração das usinas hidrelétricas durante o 3T24 quando 
+comparado com o 3T23 e pelo reajuste anual. 
+• Encargos de uso da rede elétrica e conexão: acréscimo de R$ 7 milhões (4,1%) entre os trimestres analisados, 
+resultante, substancialmente, (i) da aquisição dos Conjuntos Fotovoltaicos; (ii) pela entrada em operação comercial do 
+Conjunto Eólico Santo Agostinho; e (iii) do reajuste anual das tarifas de transmissão e distribuição. 
+• Outros custos operacionais, líquidos: o aumento de R$ 21 milhões decorre principalmente do reconhecimento no 
+3T24 de perdas estimadas em créditos de liquidação duvidosa. 
+Os demais custos deste segmento não apresentaram variações relevantes entre os trimestres em análise. 
+ 
+Evolução dos Custos Operacionais 
+R$ milhões 
+34
+65
+41
+8 7
+113
+23
+36
+Custo 3T23
+(69)
+(26)
+Compras 
+portfólio
+(31)
+CCEE Custos 
+construção
+Custo 3T24
+1.063
+(86%)
+(8)
+Outros
+(6)
+Enc. uso 
+de rede e 
+conexão
+1.195
+Royalties
+22
+22 1.234
+Mat. e 
+serviços 
+terceiros
+1.048
+(1)
+Depreciação 
+e amortização
+92
+(7%)
+79
+(6%)
+-95
++3,3%
+Geração e venda portfólio Transmissão Trading
+
+[p. 23]
+Release de Resultados 3T2 4 
+23
+E N G I E B R A S I L E N E R G I A 
+Resultado Operacional do Segmento de Transmissão de Energia 
+A Companhia é a responsável primária pela construção e instalação de 
+infraestrutura relacionada à concessão dos Sistemas de Transmissão Gralha 
+Azul, Novo Estado , Gavião Real e Asa Branca , e está exposta aos riscos e 
+benefícios dessas construções. Desta forma, com base nas práticas contábeis 
+vigentes, a Companhia reconhece receita de implementação de infraestrutura 
+de transmissão, ao longo da implantação, em montante correspondente aos 
+custos de construção adicionados de uma margem bruta na prestação de 
+serviços de construção. Os gastos incorridos na construção estão reconhecidos 
+no custo da infraestrutura de transmissão. A Receita Anual Permitida (RAP) é 
+recebida a partir da entrada em operação comercial do Sistema de 
+Transmissão. Dessa forma, só há entrada de recu rsos advindos da atividade 
+operacional a partir deste momento. Os Sistemas de Transmissão Gralha Azul 
+e Novo Estado entraram em operação comercial integral em 19 e 27 de 
+fevereiro de 2023, respectivamente . Adicionalmente, em 8 de julho de 2024, 
+a Companhia finalizou a implantação do projeto Gavião Real Transmissora de 
+Energia com a energização completa de sua subestação, conforme consta nos 
+T ermos de Liberação (TLD) emitidos pelo Operador Nacional do Sistema (ONS) 
+em 12 de julho de 2024. 
+O resultado bruto do segmento de transmissão de energia atingiu R$ 199 
+milhões no 3T24 , redução de R$ 6 milhões (2,9%), em relação ao mesmo 
+trimestre de 2023, cujo valor foi de R$ 205 milhões. As variações decorrem, 
+substancialmente, (i) do decréscimo de R$ 9 milhões (4,2%) na remuneração 
+dos ativos de concessão, ocasionado, especialmente, pela redução do saldo 
+nominal devido à realização via RAP , atenuado pelo aumento dos índices 
+inflacionários nos trimestres comparados; (ii) do efeito negativo de R$ 5 
+milhões (100,0%) na variação do resultado líquido das receitas e custos de 
+construção, decorrentes do registro de perdas por ineficiência no 3T24; atenuadas pela (iii) redução de R$ 7 milhões (77,8%) 
+nos demais custos entre os trimestres. 
+Adicionalmente, no 3T24, houve o reconhecimento no grupo de outras despesas operacionais do montante de R$ 25 
+milhões com efeito positivo no resultado em contrapartida do ativo de contrato. Este resultado tem como base, 
+principalmente, a expectativa de revisão da estrutura de investimentos realizados e a taxa de remuneração de capital, 
+resultando em modificações nos valores das RAP futuras. Em função da revisão, o saldo do ativo contratual foi ajustado para 
+considerar o novo fluxo financeiro. 
+O valor de RAP, líquida de PIS e Cofins, recebida no 3T24 foi de R$ 189 milhões, (R$ 194 milhões no 3T23), sendo R$ 168 
+milhões (R$ 174 milhões no 3T23) correspondentes à amortização do ativo de contrato, registrada em contrapartida do 
+ativo de contrato, e R$ 21 milhões (R$ 20 milhões no 3T23) relativos à receita de serviços prestados de O&M. Ressaltamos 
+que a redução da RAP entre os trimestres decorre, principalmente, da redução na RAP ocasionada pela Revisão Tarifária 
+Periódica (RTP) de 2023. 
+Abaixo a composição do Ebitda regulatório de transmissão: 
+(em R$ milhões) 3T24 3T23 Var. (R$) 
+RAP, líquida de PIS e Cofins 189 194 (5) 
+Custos operacionais (18) (25) 7 
+Despesas com vendas, gerais e administrativas (7) (4) (3) 
+Ebitda regulatório de transmissão 164 165 (1) 
+Resultado Operacional do Segmento de Trading de Energia 
+A Companhia atua no mercado de trading de energia, a fim de auferir resultados por meio da variação de preços de energia, 
+dentro de limites de risco pré -estabelecidos. As operações de trading de energia são transacionadas em mercado ativo e, 
+para fins de mensuração contábil, atendem à definição de instrumentos financeiros por valor justo, devido principalmente 
+ao fato de que não há compromisso de realizar o fechamento das operações de compra e de venda, havendo flexibilidade 
+para gerenciar os contratos para obtenção de resultados por variações de preços no mercado. 
+O lucro bruto entre os trimestres em análise reduziu R$ 2 milhões , passando de R$ 1 milhão de lucro no 3T23 para R$ 1 
+milhão de prejuízo no 3T24, motivado pelos seguintes eventos: (i) redução de R$ 10 milhões no resultado das transações de 
+compra e venda de energia; e (ii) variação com impacto positivo de R$ 8 milhões oriundo da marcação a mercado das 
+transações de fornecimento futuro, na comparação entre os períodos — diferença entre os preços contratados e os de 
+mercado. 
+ 
+Sistema de Transmissão Gralha Azul (PR)
+
+[p. 24]
+Release de Resultados 3T2 4 
+24
+E N G I E B R A S I L E N E R G I A 
+Detalhamento das Operações de Curto Prazo 
+Operações de curto prazo são definidas como compra e venda de energia cujo objetivo principal é a gestão da exposição da 
+Companhia na CCEE. O preço da energia nessas operações tem como característica o vínculo com o Preço de Liquidação 
+das Diferenças (PLD). O presente item engloba também as transações na CCEE, dado o caráter volátil e sazonal, portanto, 
+de curto prazo, dos resultados advindos da contabilização na CCEE. Adicionalmente, as exposições positivas ou negativas 
+são liquidadas ao PLD, à semelhança das operações de curto prazo descritas acima. 
+Sobre as transações na CCEE, os diversos lançamentos credores ou devedores realizados mensalmente na conta de um 
+agente da CCEE são sintetizados numa fatura única (a receber ou a pagar), exigindo, portanto, seu registro na rubrica de 
+receita ou de despesa. Cumpre ressaltar que, em razão de ajustes na estratégia de gerenciamento de portfólio da Companhia, 
+vem se verificando mudança no perfil das faturas mencionadas. Tal alternância dificulta a comparação direta dos elementos 
+que compõem cada fatura dos períodos em análise, sendo esse o motivo para a criação deste tópico. Assim, permite analisar 
+oscilações dos principais elementos, apesar de terem sido alocados ora na receita, ora na despesa, conforme a natureza 
+credora ou devedora da fatura à qual estão vinculados. 
+Genericamente, esses elementos são receitas ou despesas provenientes, por exemplo, (i) da aplicação do Mecanismo de 
+Realocação de Energia (MRE); (ii) do Fator de Ajuste da Energia Assegurada (GSF — Generation Scaling Factor), que ocorre 
+quando a geração das usinas que integram o MRE, em relação à energia alocada, é menor ou maior (Energia Secundária); (iii) 
+do chamado “risco de submercado”; (iv) do despacho motivado pela Curva de Aversão ao Risco (CAR); (v) da aplicação dos 
+Encargos de Serviço do Sistema (E SS), que resultam do despacho fora da ordem de mérito de usinas termelétricas; e (vi) 
+naturalmente, da exposição (posição vendida ou comprada de energia na contabilização mensal), que será liquidada ao valor 
+do PLD. 
+Resultado Líquido das Operações de Curto Prazo – (em R$ milhões) 
+ Geração Trading Consolidado 
+3T24 
+Receita operacional líquida 75 1 76 
+Custos operacionais (16) - (16) 
+Resultado líquido 59 1 60 
+3T23 
+Receita operacional líquida 86 - 86 
+Custos operacionais (47) - (47) 
+Resultado líquido 39 - 39 
+Variação 
+Receita operacional líquida (11) 1 (10) 
+Custos operacionais 31 - 31 
+Resultado líquido 20 1 21 
+No 3T24 e no 3T23, os resultados líquidos (diferença entre receitas e custos — deduzidos dos tributos) decorrentes de 
+transações de curto prazo — em especial as realizadas no âmbito da CCEE — foram positivos em R$ 60 milhões e R$ 39 
+milhões, respectivamente. O montante representa aumento de R$ 21 milhões entre os períodos comparados , sendo 
+acréscimo de R$ 20 milhões no resultado das transações no segmento de geração e venda de energia do portfólio e aumento 
+de R$ 1 milhão no resultado das transações de trading de energia. 
+Essas variações foram consequência, fundamentalmente, da combinação dos efeitos positivos: (i) apesar da redução da 
+geração hidrelétrica das usinas participantes do MRE, a Companhia apresentou aumento de geração hidrelétrica das usinas 
+de seu portfólio entre os períodos, ocasionando uma participação maior no MRE e consequente efeito positivo, por meio de 
+incremento de recebimento de receita de TEO (Tarifas de Energia de Otimização); e (ii) impacto positivo no resultado da 
+energia livre, principalmente, pelo aumento do PLD nos trimestres em questão . Os efeitos positivos foram atenuados pelo 
+impacto negativo em virtude da redução do Fator de Ajuste do MRE (GSF), tendo em vista a alocação de garantia física e a 
+geração das usinas participantes. 
+Em dezembro de 2023, a Aneel estabeleceu os limites máximo e mínimo do PLD para o ano de 2024 em R$ 716,80/MWh 
+e R$ 61,07/MWh, respectivamente. A tabela a seguir apresenta os valores médios do PLD para os submercados nos quais 
+a Companhia atua, por MWh. 
+PLD médio em R$/MWh 3T24 3T23 Var. (%) 
+Sul 171,21 72,82 135,1% 
+Sudeste/Centro-Oeste 171,15 72,82 135,0% 
+Nordeste 143,80 72,82 97,5%
+
+[p. 25]
+Release de Resultados 3T2 4 
+25
+E N G I E B R A S I L E N E R G I A 
+Despesas com vendas, gerais e administrativas 
+A Companhia apresentou acréscimo nas despesas com vendas, gerais e administrativas, no montante de R$ 28 milhões 
+(27,5%) entre o 3T24 e o 3T23. As variações nos trimestres analisados, decorrem, principalmente, do acréscimo no segmento 
+de geração, no montan te de R$ 25 milhões, o qual foi impactado, substancialmente: (i) pelos custos de aquisição dos 
+Conjuntos Fotovoltaicos, com a contratação de serviços de assessoria; (ii) pelo aumento nas despesas com pessoal, em 
+decorrência do reajuste anual da remuneração e benefícios dos colaboradores e das contratações entre os trimestres; e (iii) 
+pelo aumento dos serviços gerais de informática. 
+Alienação de participação societária em controlada em conjunto 
+Durante o 3T24, a Companhia reconheceu o montante de R$ 1 milhão referente aos custos de alienação de participação 
+societária em controlada em conjunto - TAG. 
+Provisão para Redução ao Valor Recuperável (Impairment) 
+Durante o 3T23, a Companhia reconheceu uma provisão adicional no montante de R$ 61 milhões, referente ao sinistro 
+ocorrido no Conjunto Fotovoltaico Paracatu em decorrência de vento forte na região do município de Paracatu (MG), no dia 
+02 de abril de 2023.
+Resultado de Equivalência Patrimonial – Transporte de Gás 
+Em 30 de setembro de 2024, a Companhia detinha 17,5% de participação societária direta na TAG, já em 30 de setembro de 
+2023 a Companhia detinha 32,5% das ações. 
+O resultado de equivalência patrimonial da TAG dos trimestres em análise é composto pelos seguintes itens: 
+ 3T24 3T23 
+Demonstração dos resultados (em R$ milhões) 100% Participação da Companhia 100% Participação da Companhia 
+Receita operacional líquida 2.209 387 2.372 771 
+Custos dos serviços prestados (425) (74) (637) (207) 
+Lucro bruto 1.784 313 1.735 564 
+Despesas gerais e administrativas (46) (8) (6) (2) 
+Lucro antes do resultado financeiro e impostos 1.738 305 1.729 562 
+Resultado financeiro (475) (83) (219) (71) 
+Lucro antes dos impostos 1.263 222 1.510 491 
+Imposto de renda e contribuição social (225) (40) (525) (171) 
+Lucro líquido da TAG 1.038 182 985 320 
+Até 9 de janeiro de 2024 a ENGIE Brasil Energia detinha 32,5% das ações de TAG e a partir do dia 10 de janeiro de 2024 passou a deter 17,5% das ações. 
+Com a finalidade de possibilitar a reconciliação do lucro líquido com o Ebitda da TAG, apresentamos a tabela abaixo: 
+ 3T24 3T23 
+Ebitda (em R$ milhões) 100% Participação da Companhia 100% Participação da Companhia 
+Lucro antes do resultado financeiro e impostos 1.738 305 1.729 562 
+Depreciação e amortização 167 29 170 55 
+Amortização da mais valia (10) (2) 148 48 
+Ebitda¹ 1.895 332 2.047 665 
+Margem Ebitda 85,8% 86,3% 
+¹ Conforme as orientações estabelecidas na Resolução CVM n° 156 (RCVM 156) e Ofício-Circular CVM/SNC/SEP nº 01/2023, de 23 de junho de 2022 e 13 
+de fevereiro de 2022, respectivamente. 
+Entre o 3T23 e o 3T24, o resultado de equivalência patrimonial reduziu R$ 138 milhões (43,1%), passando de R$ 320 
+milhões para R$ 182 milhões, respectivamente. 
+A variação foi consequência, substancialmente, do (i) decréscimo de R$ 333 milhões no Ebitda, principalmente pela 
+combinação dos seguintes efeitos: (i.i) redução do percentual de participação da Companhia na TAG; (i.ii) impacto negativo 
+de provisões regulatórias, previamente acordadas com a Agência Nacional do Petróleo (ANP), as quais serão devolvidas ao 
+mercado ao longo dos próximos anos; (i.iii) redução de penalidades cobradas dos clientes, em decorrência de utilização 
+indevida da malha de transportes; e (i.iv) impacto da variação negativa do IGPM e US PPI (United States Producer Price Index), 
+quando da atualização das tarifas de transporte ; e (ii) aumento da despesa financeira líquida, de R$ 12 milhões, oriundo, 
+substancialmente, (ii.i) de ganhos na renegociação das dívidas ocorridos no 3T23; (ii.ii) da emissão de debêntures ocorrida 
+em junho de 2024; (ii.iii) da valorização do dólar, da alta da SOFR (Secured Overnight Financing Rate) e do aumento do saldo
+
+[p. 26]
+26
+E N G I E B R A S I L E N E R G I A 
+Release de Resultados 3T2 4 
+da dívida em dólar; estes fatores foram atenuados pela redução de participação societária e do saldo principal das debêntures 
+originárias da TAG. 
+Estes efeitos negativos foram parcialmente atenuados pelos seguintes efeitos positivos: (i) decréscimo de R$ 131 milhões, 
+nas despesas de Imposto de Renda (IR) e Contribuição Social (CSLL), em razão, basicamente, da redução de participação 
+societária e da redução da alíquota efetiva no 3T24, oriunda dos benefícios fiscais p ara empreendimentos construídos em 
+regiões incentivadas pela SUDAM (Superintendência do Desenvolvimento da Amazônia) e SUDENE (Superintendência do 
+Desenvolvimento do Nordeste); e (ii) reduções de R$ 26 milhões e R$ 50 milhões, respectivamente, na depreciaç ão e na 
+amortização da mais valia decorrentes da redução de participação societária e da revisão da vida útil da mais valia. 
+Adicionalmente, a receita operacional líquida e os custos dos serviços prestados, foram impactados, ambos no montante de 
+R$ 2 milhões no 3T24 (R$ 17 milhões no 3T23), decorrentes do repasse de custos aos clientes, referentes aos encargos que 
+não devem gerar margem ao transportador, tais como encargos de congestionamento, balanceamento e gás para o uso no 
+sistema. Cabe destacar, que os repasses são previstos em resoluções da ANP. 
+Balanço Patrimonial 
+Os principais grupos do ativo e passivo da TAG em 30 de setembro de 2024 e 31 de dezembro de 2023 eram estes: 
+Balanço Patrimonial 30/09/2024 31/12/2023 
+ATIVO 
+Ativo circulante 4.399 3.439 
+Caixa e equivalentes de caixa 2.419 1.423 
+Contas a receber de clientes 1.605 1.541 
+Instrumentos financeiros derivativos - hedge 27 50 
+Outros ativos circulantes 348 425 
+Ativo não circulante 29.827 29.573 
+Depósitos vinculados 1.210 633 
+Outros ativos não circulantes 146 119 
+Imobilizado 25.724 26.074 
+Intangível 2.747 2.747 
+Total 34.226 33.012 
+ 
+PASSIVO E PATRIMÔNIO LÍQUIDO 
+Passivo circulante 4.182 4.693 
+Instrumentos de dívida 3.521 3.107 
+Outros passivos circulantes 661 1.586 
+Passivo não circulante 23.183 20.505 
+Instrumentos de dívida 16.641 13.969 
+Instrumentos financeiros derivativos - hedge 418 376 
+Imposto de renda e contribuição social diferidos 5.490 5.626 
+Outros passivos não circulantes 634 534 
+Patrimônio líquido 6.861 7.814 
+Total 34.226 33.012 
+ 
+Usina Hidrelétrica Passo Fundo (RS)
+
+[p. 27]
+27
+E N G I E B R A S I L E N E R G I A 
+Release de Resultados 3T2 4 
+Ebitda e Margem Ebitda 
+Ebitda por segmento – 3T24 x 3T23 (em R$ milhões) 
+ Energia elétrica 
+ Geração Transmissão Trading Transporte de Gás Consolidado 
+3T24 
+Lucro (prejuízo) antes do resultado financeiro e tributos sobre o lucro 986 217 (2) 181 1.382 
+Depreciação e amortização 269 3 - - 272 
+Ebitda1 1.255 220 (2) 181 1.654 
+Custos de aquisição de subsidiárias 10 - - - 10 
+Alienação de participação societária em controlada em conjunto - - - 1 1 
+Ebitda ajustado 1.265 220 (2) 182 1.665 
+Margem Ebitda ajustada 58,3% 75,6% (2,6%) - 65,6% 
+3T23 
+Lucro antes do resultado financeiro e tributos sobre o lucro 954 201 - 320 1.475 
+Depreciação e amortização 229 3 - - 232 
+Ebitda1 1.183 204 - 320 1.707 
+Impairment 61 - - - 61 
+Ebitda ajustado 1.244 204 - 320 1.768 
+Margem Ebitda ajustada 57,6% 85,4% - - 70,3% 
+Variação 
+Lucro (prejuízo) antes do resultado financeiro e tributos sobre o lucro 32 16 (2) (139) (93) 
+Depreciação e amortização 40 - - - 40 
+Ebitda 72 16 (2) (139) (53) 
+Custos de aquisição de subsidiárias 10 - - - 10 
+Impairment (61) - - - (61) 
+Alienação de participação societária em controlada em conjunto - - - 1 1 
+Ebitda ajustado 21 16 (2) (138) (103) 
+Margem Ebitda ajustada (0,7 p.p.) (9,8 p.p.) (2,6 p.p.) - (4,7 p.p.) 
+¹ Conforme as orientações estabelecidas na Resolução CVM n° 156 (RCVM 156) e Ofício-Circular CVM/SNC/SEP nº 01/2023, de 23 de junho de 2022 e 13 
+de fevereiro de 2022, respectivamente. 
+Entre o 3T24 e o 3T23, o Ebitda reduziu R$ 53 milhões (3,1%), 
+passando de R$ 1.707 milhões no 3T23 para R$ 1.654 milhões 
+no 3T24, considerando os custos na aquisição de subsidiárias, 
+as alienações de participação societária em controlada em 
+conjunto e o impairment. Já o Ebitda ajustado teve redução R$ 
+103 milhões (5,8%), passando de R$ 1.768 milhões no 3T23 
+para R$ 1.665 milhões no 3T24. 
+A principal variação no Ebitda ajustado ocorreu no segmento 
+de transporte de gás, que foi impactado negativamente em R$ 
+138 milhões decorrentes, principalmente, da redução de 
+participação societária, o que influenciou para um menor 
+resultado de equivalência patrimonial de controlada em 
+conjunto – TAG. 
+Adicionalmente, no 3T24, o Ebitda ajustado foi impactado 
+positivamente pelo segmento de geração e venda de energia 
+elétrica, cujos efeitos foram: (i) queda de R$ 69 milhões nas 
+compras de energia; (ii) R$ 20 milhões de impacto positivo nas 
+transações realizadas no mercado de curto prazo; e (iii) 
+contribuição de R$ 11 milhões da combinação das variações 
+de quantidade de energia vendida e do preço médio líquido de 
+venda. Esses efeitos foram a tenuados pelas seguintes 
+variações com efeitos negativos: (iv) aumento R$ 23 milhões de custos com materiais e serviços de terceiros; (v) acréscimo 
+de R$ 21 milhões nos outros custos operacionais líquidos, oriundo, substancilamente, do reconhecimento de perdas 
+estimadas em créditos de liquidação duvidosa; (vi) R$ 15 milhões de aumento nas despesas com vendas, gerais e 
+administrativas, desconsiderando os custos de aquisição de subsidiárias; (vii) R$ 8 milhões referentes a elevação de 
+pagamento de royalties; (viii) R$ 7 milhões de acréscimo nos encargos de uso da rede elétrica e conexão; e (ix) efeito negativo 
+de R$ 5 milhões relativos às demais receitas, custos operacionais e despesas administrativas. 
+Ebitda1 e Margem Ebitda Ajustados 
+R$ milhões 
+1 Ebitda ajustado: lucro líquido + imposto de renda e contribuição social + resultado 
+financeiro + depreciação e amortização + impairment + efeitos não recorrentes. 
+Não recorrentesEbitda ajustado
+Margem Ebitda ajustada
+(149)
+5,629
+9M23
+1,348
+5,432
+9M24
+5,480
+6,780
+-3,5%
+(61)
+1,768
+3T23
+(11)
+1,665
+3T24
+1,707 1,654 -5,8%
+70,3% 65,6% 70,0% 68,3%
+
+[p. 28]
+28
+E N G I E B R A S I L E N E R G I A 
+Release de Resultados 3T2 4 
+Já o segmento de transmissão , os principais efeitos positivos, foram: (i) reconhecimento de R$ 25 milhões com efeito 
+positivo decorrente da revisão do ativo de contrato; (ii) elevação de R$ 8 milhões na margem de O&M (RAP de O&M, líquida 
+dos custos), em decorrência, principalmente, da redução dos custos operacionais. Esses efeitos foram impactados 
+negativamente pelas seguintes variações: (iii) R$ 9 milhões de redução na receita de remuneração dos ativos de contrato; 
+(iv) R$ 5 milhões de decréscimo do resultado de construção; e (v) impacto negativo de R$ 3 milhões de despesas com vendas, 
+gerais, administrativas e outras despesas operacionais, líquidas. 
+Com a finalidade de possibilitar a reconciliação do lucro líquido com o Ebitda, bem como com os impactos de ajustes 
+regulatórios de transmissoras, apresentamos a tabela abaixo: 
+(em R$ milhões) 3T24 3T23 Var. (%) 9M24 9M23 Var. (%) 
+Lucro líquido recorrente 658 867 (24,1) 3.213 2.482 29,5 
+(+) Imposto de renda e contribuição social 237 282 (16,0) 1.255 770 63,0 
+(+) Resultado financeiro 487 326 49,4 1.529 1.538 (0,6) 
+(+) Depreciação e amortização 272 232 17,2 783 690 13,5 
+ Ebitda 1.654 1.707 (3,1) 6.780 5.480 23,7 
+Efeitos não recorrentes 
+(+) Custos de aquisição de subsidiárias 10 - 100,0 10 - 100,0 
+(+) Alienação de participação societária em controlada em conjunto 1 - 100,0 (1.336) - (100,0) 
+(+) Provisão (reversão) de Impairment, líquida - 61 (100,0) (31) (1.140) (97,3) 
+(+) Alienação de subsidiária - - 100,0 9 1.289 (99,3) 
+ Ebitda ajustado 1.665 1.768 (5,8) 5.432 5.629 (3,5) 
+Ebitda societário transmissão (IFRS) (220) (204) 7,8 (699) (542) 29,0 
+Ebitda regulatório transmissão (RAP) 164 165 (0,6) 491 442 11,1 
+Ebitda societário cotistas (IFRS) (182) (171) 6,4 (577) (564) 2,3 
+Ebitda regulatório cotistas 169 161 5,0 494 474 4,2 
+ Ebitda ajustado por efeitos de transmissão e cotas 1.596 1.719 (7,2) 5.141 5.439 (5,5) 
+ 
+ 
+ 
+* IFRS: International Financial Reporting Standards (Normas Internacionais de Contabilidade). 
+1 Contempla o resultado dos segmentos de geração e trading. 
+2 Outros: excluindo o efeito societário de cotistas. 
+ 
+Evolução do Ebitda 
+R$ milhões 
+Geração e trading1 Equivalência patrimonial (TAG) Transmissão
+61
+320 320
+69 20 11
+182 182
+204 165
+164
+56
+220 220
+(13%)
+Ebitda 
+3T24
+181
+(11%)
+1.253
+(76%)
+Não 
+recorrente
+(1)
+(10)
+1.263
+Ajuste 
+IFRS*
+13
+1.768
+Ebitda 
+3T24 
+ajustado 
+trans./cotas
+1.250
+Equiv. 
+patrimonial 
+(TAG)
+(138)
+Transmissão
+(1)
+Material, 
+serviços 
+de 
+terceiros 
+e outros
+1.183
+69%
+(54)
+SG&A
+(15)
+1.707
+Encargos 
+conexão e 
+royalties
+(49)
+1.719
+1.596
+69 1.665
+(11)
+1.654
+(15)
+Preço e 
+volume 
+de vendas
+CCEERedução 
+compra 
+portfólio
+Ebitda 
+3T23 
+ajustado 
+trans./cotas
+Ebitda 
+ajustado 
+3T24
+1.234
+Ajuste 
+IFRS*
+(39)(10)
+Ebitda 
+ajustado 
+3T23
+1.244
+Não 
+recorrente
+Ebitda 
+3T23
+204
+12%
+320
+19%
+-7,2%
+-5,8%
+-3,1%
+2
+
+[p. 29]
+29
+E N G I E B R A S I L E N E R G I A 
+Release de Resultados 3T2 4 
+Resultado Financeiro 
+(em R$ milhões) 3T24 3T23 Var. (R$) 9M24 9M23 Var. (R$) 
+Renda de aplicações financeiras 117 115 2 427 301 126 
+Outras receitas financeiras 16 9 7 62 52 10 
+Total receitas financeiras 133 124 9 489 353 136 
+Dívida: 
+ 
+ 
+ 
+ 
+ 
+ 
+ Juros (260) (217) (43) (1.276) (812) (464) 
+ Atualização monetária (137) (66) (71) (562) (536) (26) 
+Outras despesas financeiras, líquidas (48) (29) (19) 356 (117) 473 
+Total despesas financeiras (445) (312) (133) (1.482) (1.465) (17) 
+Concessões a pagar (Uso de Bem Público): 
+ 
+ 
+ 
+ 
+ 
+ 
+ Atualização monetária (51) (14) (37) (166) (60) (106) 
+ Atualização a valor presente (124) (124) - (370) (366) (4) 
+Total despesas de concessões a pagar (Uso de Bem Público) (175) (138) (37) (536) (426) (110) 
+ 
+Resultado financeiro (487) (326) (161) (1.529) (1.538) 9 
+Receitas financeiras: no 3T24, as receitas financeiras atingiram R$ 133 milhões, R$ 9 milhões ou 7,3% acima dos R$ 124 
+milhões auferidos no 3T23, substancialmente, pelo aumento de R$ 7 milhões nos juros e variações monetárias sobre 
+créditos e contas a receber. 
+Despesas financeiras: as despesas financeiras no 3T24 foram de R$ 445 milhões, isto é, R$ 133 milhões ou 42,6% acima 
+das registradas no 3T23, que foram de R$ 312 milhões. As principais variações observadas foram decorrentes do aumento 
+de R$ 114 milhões no resultado financeiro da dívida , devido aos acréscimos de (i) R$ 71 milhões relativos à atualização 
+monetária, em virtude do aumento dos índices inflacionários e do aumento do saldo da dívida entre os períodos analisados, 
+em decorrência, principalmente, das 11ª e 12ª emissões de debêntures da Companhia, ocorridas em dezembro de 2023 e 
+julho de 2024, respectivamente; e (ii) R$ 43 milhões de juros sobre a dívida, em virtude das emissões anteriormente citadas, 
+atenuado pela redução do CDI e da TJLP entre os períodos. 
+Despesas de concessões a pagar (Uso de Bem Público): as despesas de concessões a pagar aumentaram em R$ 37 milhões 
+(26,8%), atingindo R$ 175 milhões no 3T24 em contrapartida aos R$ 138 milhões no 3T23, em razão do acréscimo de R$ 
+37 milhões de atualização monetária, em decorrência, principalmente, do aumento do IGPM e do IPCA entre os trimestres. 
+Imposto de Renda (IR) e Contribuição Social (CSLL) 
+O valor apurado de IR e CSLL no 3T24 foi R$ 237 milhões, representando um decréscimo de R$ 45 milhões (16,0%) quando 
+comparado ao mesmo trimestre de 2023, o qual foi R$ 282 milhões. As variações foram motivadas, principalmente, pela 
+redução do lucro antes do IR e CSLL entre os períodos observados. Desconsiderando os efeitos não recorrentes, as despesas 
+com IR e CSLL, reduziram R$ 42 milhões, o que representa 14,9% de imposto de redução, entre os trimestres analisados. 
+Lucro Líquido 
+O lucro líquido do 3T24 foi de R$ 658 milhões, R$ 209 milhões ou 24,1% menor do que os R$ 867 milhões apresentados 
+no mesmo trimestre do ano anterior. Esse decréscimo é consequência da combinação dos seguintes efeitos: (i) efeito 
+negativo de R$ 161 milhões do resultado financeiro líquido; (ii) redução de R$ 103 milhões no Ebitda ajustado; (iii) impacto 
+líquido positivo no 3T24 dos efeitos não recorrentes no montante de R$ 53 milhões; (iv) redução de R$ 42 milhões do 
+imposto de renda e da contribuição social, considerando as transações recorrentes; e (v) aumento de R$ 40 milhões da 
+depreciação e amortização. Excluindo-se os efeitos não recorrentes, de custo de aquisição de subsidiárias, alienação de 
+participação societária em controlada em conjunto e impairment, o lucro líquido reduziu em R$ 262 milhões (28,2%) entre 
+os trimestres em comparação. 
+ 
+Conjunto Fotovoltaico Nova Aurora e Eólica Tubarão (SC)
+
+[p. 30]
+30
+E N G I E B R A S I L E N E R G I A 
+Release de Resultados 3T2 4 
+Endividamento 
+Em 3 0 de setembro de 202 4, a dívida bruta total consolidada , representada, principalmente, por empréstimos, 
+financiamentos, debêntures e ações preferenciais resgatáveis, líquidos dos efeitos de operações de hedge, totalizava R$ 
+23.528 milhões — aumento de 7,2% (R$ 1.587 milhões) comparativamente à posição de 3 0 de junho de 2024. O prazo 
+médio de vencimento da dívida no fim do 3T24 era de 7,4 anos. 
+A variação no endividamento da Companhia está 
+relacionada, principalmente, à combinação dos 
+seguintes fatores, ocorridos no 3T24: (i) R$ 1.460 
+milhões da 12ª emissão de debêntures da Companhia; 
+(ii) R$ 790 milhões de saques junto ao Banco Nacional 
+de Desenvolvimento Econômico e Social (BNDES) e 
+Banco do Nordeste do Brasil (BNB), para a construção 
+de novos projetos; (ii) geração de R$ 515 milhões em 
+encargos incorridos a serem pagos e variação 
+monetária; e (iii) R$ 1.178 milhões em amortizações de 
+empréstimos, financiamentos e debêntures. 
+O custo médio ponderado nominal da dívida ao fim do 
+3T24 foi 10,3% — equivalente a IPCA + 5,6% — 0,4 p.p. 
+abaixo do registrado no fim do 3T23 (10,7% — 
+equivalente a IPCA + 5,2%). 
+Em 3 0 de setembro de 202 4, a dívida líquida (dívida 
+total menos resultado de operações com derivativos, 
+depósitos vinculados à garantia do pagamento dos 
+serviços da dívida e caixa e equivalentes de caixa) da 
+Companhia era de R$ 19.095 milhões, aumento de 
+10,1% em relação ao registrado ao fim do 2T24. 
+ 
+ 
+ 
+Composição da Dívida 
+IPCA
+75%
+CDI
+21%
+TJLP
+4%
+Dívida Líquida
+(em R$ milhões) 30/09/2024 30/06/2024 Var. %
+Dívida bruta 23.445 21.857 7,3
+Resultado de operações de hedge 83 84 (1,6)
+Depósitos vinculados ao serviço da dívida (384) (386) (0,5)
+Caixa e equivalentes de caixa (4.049) (4.211) (3,8)
+ Dívida líquida total 19.095 17.344 10,1
+ Dívida líquida/Ebitda últimos 12 meses 2,7X 2,4X
+Evolução da Dívida Bruta 
+R$ milhões 
+19.704 20.755
+2.237
+2.250 515
+2.773
+Dívida bruta 
+30/06/2024
+Empréstimos, 
+financiamentos 
+e debêntures
+Encargos Amortização Dívida bruta 
+30/09/2024
+21.941 (1.178)
+23.528
++7,2%
+Longo Prazo Curto Prazo
+Evolução do Lucro Líquido 
+R$ milhões 
+867
+92861
+42
+(103)
+Ebitda 
+ajustado
+(40)
+Depreciação 
+e 
+amortização
+(161)
+Resultado 
+financeiro 
+líquido
+IR e CSLL Lucro líquido 
+ajustado 
+3T24
+(8)
+Não 
+recorrente
+Lucro 
+líquido 3T23
+Não 
+recorrente
+Lucro líquido 
+ajustado 
+3T23
+666 658
+Lucro 
+líquido 3T24
+-24,1%
+-28,2%
+
+[p. 31]
+31
+E N G I E B R A S I L E N E R G I A 
+Release de Resultados 3T2 4 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Investimentos 
+Os investimentos totais da ENGIE Brasil Energia no 3T24 foram 
+de R$ 1.865 milhões, dos quais: (i) R$ 1.790 milhões destinados 
+à construção dos novos projetos, sendo: (i.i) R$ 1.062 milhões no 
+Conjunto Eólico Serra do Assuruá; ( i.ii) R$ 593 milhões no 
+Conjunto Fotovoltaico Assú Sol; ( i.iii) R$ 55 milhões 
+concentrados na Asa Branca Transmissora de Energia; (i.iv) R$ 8 
+milhões na conclusão das demais linhas de transmissão; (i. v) R$ 
+2 milhões na conclusão d o Conjunto Eólico Santo Agostinho – 
+Fase I; e (i.vi) R$ 70 milhões na recuperação do Conjunto 
+Fotovoltaico Paracatu; (ii) R$ 47 milhões designados aos projetos 
+de manutenção e revitalização do parque gerador; e (iii) R$ 28 
+milhões para projetos de modernização das Usinas Hidrelétricas 
+Salto Osório, Jaguara e Miranda. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Usina Hidrelétrica Salto Osório (PR) 
+Cronograma de Vencimento da Dívida 
+R$ milhões 
+out a dez 
+2024
+jan a set 
+2025
+out a dez 
+2025
+2026 2027 2028 2029 2030 a 
+2034
+2035 a 
+2039
+2040 a 
+2044
+2045 a 
+2048
+951
+1.822
+559
+2.407
+1.750 1.906 1.988
+6.025
+3.502
+2.291
+327
+CDI IPCA TJLP
+Investimentos 
+R$ milhões 
+ 
+1.062
+Serra do
+Assuruá
+593
+Assú Sol
+55
+Asa Branca
+10
+Outros
+70
+Paracatu
+75
+Modernização, 
+manutenção e 
+revitalização
+
+[p. 32]
+32
+E N G I E B R A S I L E N E R G I A 
+Release de Resultados 3T2 4 
+Compromisso com o Desenvolvimento Sustentável 
+Gestão Sustentável 
+A ENGIE possui a ambição de liderar o processo de transição carbono neutro em todo o mundo, apoiando nossos clientes 
+em suas trajetórias de redução de emissões e associando às ofertas diferenciais socioambientais, induzindo o 
+desenvolvimento sustentável com impactos positivos locais e globais. Por meio de nossos Objetivos Estratégicos ESG de 
+médio prazo, procuramos endereçar o trinômio “Pessoas, Planeta e Performance”. 
+Todas as usinas sob responsabilidade da Companhia seguem a Política ENGIE Brasil Energia de Gestão Sustentável, que 
+abrange as dimensões Governança, Qualidade, Meio Ambiente, Mudanças Climáticas, Saúde e Segurança no Trabalho, 
+Responsabilidade Social e Engajamento de Partes Interessadas. Em 30 de setembro de 2024, das 109 usinas instaladas em 
+12 estados das cinco regiões do país, 11 são certificadas de acordo com as normas de gestão NBR ISO 9001 (da Qualidade), 
+NBR ISO 14001 (do Meio Ambiente) e NBR ISO 45001 (da Saúde e Segur ança no Trabalho), com potência somada que 
+corresponde a 73,8% da capacidade total operada pela Companhia. 
+Além da já mencionada Política de Gestão Sustentável, outros compromissos com o desenvolvimento sustentável estão 
+disponíveis em seu website, abordando temas como Direitos Humanos e Ética. Os Relatórios de Sustentabilidade são 
+publicados anualmente de acordo com as recomendações da Global Reporting Initiative (GRI), Sustainability Accounting 
+Standard Board (SASB) e o framework do International Integrated Reporting Council (IIRC). 
+Com vistas a ampliação do engajamento com o desenvolvimento sustentável, a Companhia é signatária do Pacto Global da 
+ONU, do Conselho Empresarial Brasileiro para o Desenvolvimento Sustentável (CEBDS ) e do movimento Coalizão Brasil 
+Clima, Florestas e Agricultura (Coalizão Brasil). Internacionalmente, fazemos parte do Action Declaration on Climate Policy 
+Engagement, que visa apoiar a ação climática alinhada ao Acordo de Paris. 
+Jornada pelo Clima 
+O Grupo ENGIE estabeleceu, globalmente, compromisso de i) redução das emissões de CO2 em 59% entre 2017 e 2030, o 
+que é uma Science Based Target (Metas Baseadas na Ciência); e ii) atingimento da neutralidade de emissões até 2045. 
+Alinhados a esses compromissos, a ENGIE Brasil Energia estabeleceu um programa específico para contribuição com esses 
+objetivos. Intitulado “Jornada pelo Clima”, é baseado em metas científicas que visa a descarbonização de todas as atividades 
+da Companhia, o que também envolve a cadeia de valor. Baseado em 3 pilares - Gestão, Mitigação e Adaptação -, dele 
+derivam as metas e compromissos da Companhia no Brasil, com destaque para: 
+• Reduzir a intensidade de emissões (escopo 1, 2 e 3) em 30% até 2025 e 56% até 2030; 
+• Ampliação da capacidade em energia renovável; 
+• Ter 100% dos ativos cobertos por planos de adaptação climática até 2030; 
+• Engajar 100% dos principais fornecedores ofensores do escopo 3 a definirem metas alinhadas à ciência até 2030. 
+Comitê de Sustentabilidade 
+Criado em 2007, o Comitê de Sustentabilidade é um órgão subordinado ao Conselho de Administração, coordenado pela 
+Diretora de Pessoas, Processos e Sustentabilidade, e composto por 14 membros de diferentes áreas, especialmente as que 
+se relacionam mais proximamente com stakeholders, como acionistas, clientes, fornecedores, empregados, mídia e 
+comunidades, e conta também com um representante do Conselho. Entre outros, o Comitê tem como objetivos: 
+• Contribuir para manter o equilíbrio dos interesses dos diferentes públicos em relação à Companhia; 
+• Desenvolver programas de sensibilização e conscientização para conceitos e práticas de sustentabilidade para públicos 
+internos e externos; 
+• Propor alterações e melhorias sobre a Política de Gestão Sustentável e demais políticas e diretrizes da ENGIE Brasil 
+Energia diretamente relacionadas à sustentabilidade; 
+• Propor à Diretoria Executiva objetivos, metas e ações de sustentabilidade empresarial, em alinhamento com os 
+compromissos da Companhia com o desenvolvimento sustentável, e monitorar o seu cumprimento pelas áreas 
+executivas; 
+• Articular junto às unidades organizacionais para atingir as metas do Comitê de Sustentabilidade; e 
+• Assessorar o Conselho de Administração e subsidiar sua tomada de decisão nos assuntos relacionados à 
+sustentabilidade.
+
+[p. 33]
+33
+E N G I E B R A S I L E N E R G I A 
+Release de Resultados 3T2 4 
+Destaques do Trimestre 
+• Criada com o objetivo de promover a conscientização no combate à violência doméstica contra a mulher , a campanha 
+Agosto Lilás , conduzida anualmente pela Companhia, teve um alcance ainda maior em 2024 . Com ações em três 
+diferentes estados e sete municípios, os eventos foram organizados em parceria com o Instituto Maria da Penha e 
+outros 23 parceiros via programa “Parcerias do Bem” – iniciativa que busca unir esforços de parceiros da ENGIE em 
+ações sociai s. Cerca de 2 mil pessoas foram mobilizadas , entre colaboradores da ENGIE, empresas parceiras e 
+comunidades em eventos sobre o tema. 
+• O processo de atualização do PACUERA (Plano Ambiental de Conservação e Uso do Entorno de Reservatórios 
+Artificiais) das Usinas Hidrelétricas Salto Osório e Salto Santiago está em consulta pública. O novo plano, cuja revisão 
+se iniciou em 2022 em consonância com os municípios lindeiros e órgão ambiental do estado do Paraná, tem a finalidade 
+de orientar a gestão do uso do reservatório e seu entorno, disciplinando sua conservação, recuperação e usos múltiplos, 
+respeitados os parâmetros estabelecidos nas normas aplicáveis. Os detalhes de cada encontro – serão quatro, entre 4 
+e 7 de novembro – estão disponíveis no website: www.pacueras.com.br. 
+• Com o objetivo de promover estudos sobre impactos das mudanças do clima e do uso da terra no Setor Elétrico 
+Brasileiro, a ENGIE Brasil Energia investiu R$ 4 milhões ao longo dos últimos dois anos no financiamento de oito 
+projetos de Pesquisa, Desenvolvimento e Inovação (PD&I), executados no âmbito do Programa de PD&I da Aneel. Os 
+resultados, que incluem o aprimoramento de previsões climáticas de longo prazo, foram apresentados oficialmente em 
+evento na sede da Companhia. A chamada pública visou identificar oscilações climáticas no passado e presente na 
+América do Sul, determinar a evolução do clima regional, quantificar fontes de umidade para macro bacias hidrográficas 
+brasileiras e aplicar essas informações no planejamento do setor energético. Além disso, buscou implementar 
+ferramentas operacionais para atualizar projeções climáticas até 2060. 
+• A quarta edição do Edital de Educação selecionou 36 iniciativas, contemplando escolas de 29 cidades de 12 estados 
+brasileiros. O edital deste ano, que recebeu o recorde de 272 inscrições, priorizou projetos de saúde mental e de 
+fomento mental às disciplinas instrumentais português e matemática. Cada projeto selecionado receberá R$ 10 mil. O 
+objetivo do Edital de Educação é incentivar e financiar projetos que beneficiem crianças e adolescentes do ensino 
+médio e fundamental das redes pública e privada. 
+• Foi realizado no dia 15 de agosto, em Natal (RN), o "Workshop Sobre os Programas Ambientais do Conjunto 
+Fotovoltaico Assú Sol" para o Instituto de Desenvolvimento Sustentável e Meio Ambiente (Idema/RN), no âmbito da 
+implantação do Conjunto Fotovoltaico Assú Sol. O evento 
+representou uma importante iniciativa de integração entre as equipes 
+responsáveis pela execução dos programas ambientais do projeto e o 
+Idema. O workshop não apenas cumpriu seu objetivo de promover a 
+troca de experiências e conhecimentos, m as também reforçou o 
+compromisso da Companhia com a transparência e a sustentabilidade 
+em todas as fases dos empreendimentos. 
+• Neste trimestre concluímos o importante processo de escuta ativa e 
+diálogo com stakeholders. Os Painéis de Sustentabilidade , iniciativa 
+coordenada pelo Comitê de Sustentabilidade, reuniram cerca de 800 
+pessoas do entorno de todos os ativos operacionais da Companhia , 
+com o objetivo de fortalecer o relacionamento, mapear o cenário das 
+comunidades e levantar oportunidades de contribuição para o 
+desenvolvimento sustentável das localidades das quais fazemos parte. 
+Mais detalhes sobre o processo e desdobramentos serão descritos no 
+Relatório de Sustentabilidade 2024. 
+ 
+ 
+Painel de diálogo com stakeholders em Itá (SC)
+
+[p. 34]
+34
+E N G I E B R A S I L E N E R G I A 
+Release de Resultados 3T2 4 
+Indicadores de Sustentabilidade 
+Desde 2012, a Companhia tem como prática divulgar, em suas apresentações de resultados trimestrais e anuais, os principais 
+indicadores de sustentabilidade. A tabela a seguir apresenta os dados relativos ao 3T24 e 3T23. 
+Indicadores de Sustentabilidade 
+ 
+ 
+Governança Corporativa 
+A Companhia procura regularmente 
+aprimorar seus mecanismos de gestão, 
+com otimização de procedimentos de 
+controle, compliance e transparência, com 
+papéis e responsabilidades definidos e 
+processos avaliados e auditados 
+anualmente, por estruturas internas e 
+independentes. É componente do Novo 
+Mercado, segmento de listagem das 
+empresas com mais alto nível de 
+governança corporativa da B3. Conta 
+com um Comitê de Auditoria, composto 
+por três membros, sendo dois deles 
+membros Independentes do Conselho de 
+Administração, cujo objetivo é assessorar 
+o Conselho na avaliação das demonstrações financeiras, em temas éticos, controles internos, auditoria interna e externa e 
+gestão de riscos. Em outra frente relacionada, foi aprimorada a gestão dos procedimentos de compliance corporativo e houve 
+implementação de três políticas que visam dar maior transparência às atividades e procedimentos da alta gestão: Política de 
+Indicação, de Remuneração e de Avaliação. 
+O sistema de controles internos é baseado nas melhores práticas de mercado e fundamenta-se na técnica de autoavaliação 
+(self-assessment), onde todas as áreas da Companhia possuem profissionais capacitados para avaliar, anualmente, os 
+processos e controles relevantes nas suas áreas de atuação. Atualmente, o Programa de Controles Internos é composto por 
+12 processos e 41 subprocessos com sua eficiência regularmente testados por auditoria independente e certificada pela 
+Administração. Qualquer desvio identificado em algum dos controles estabelecidos é prontamente tratado por meio de 
+planos de ação gerenciados pelas áreas da organização envolvidas e pela equipe de controles internos. 
+ 
+ 
+Notas: 
+1 - O Programa Conexão engloba visita às operações da Companhia em todo o país, diálogos com a comunidade e educação ambiental. 
+2 - Contém ajustes de períodos de competência. 
+Sede Administrativa Florianópolis (SC) 
+Tema Unid. de medida
+Desempenho 
+3T24
+Desempenho 
+3T23
+Variação
+Desempenho 
+9M24
+Desempenho 
+9M23
+Variação
+Intensidade de emissões por geração de energia tonCO2e/MWh 0,0012 0,0051 -76,3% 0,0036 0,0136 -73,4%
+Intensidade de emissões por Receita Líquida tCO2e/milhões R$ 6,2 24,7 -74,9% 18,0 47,9 -62,4%
+Emissões totais (Escopo 1, 2 e 3) Toneladas 15.661,8 62.115,7 -74,8% 142.684,1 384.696,1 -62,9%
+Intensidade de consumo de água m3/MWh 0,0519 0,0456 13,8% 0,045 0,051 -10,0%
+Pessoas engajadas - Programa de Relacionamento com a Comunidade "Conexão" 1 Pessoas 41.086 48.887 -16,0% 113.482 97.327 16,6%
+Taxa de Frequência - Empregados próprios + prestadores de serviços nº acid/milhão horas 0,210 0,660 -0,45 p.p. 0,217 1,060 -0,84 p.p.
+Taxa de Frequência - Empregados próprios nº acid/milhão horas 0,000 0,000 0,00 p.p. 0,000 0,000 0,00 p.p.
+Taxa de Frequência - Prestadores de serviços nº acid/milhão horas 0,238 0,800 -0,56 p.p. 0,246 1,370 -1,12 p.p.
+% de colaboradores treinados formalmente % 15,2% 13,7% 1,5 p.p. 85,7% 95,3% -9,6 p.p.
+Taxa de rotatividade de colaboradores (turnover) % 2,0% 1,6% 0,4 p.p. 5,4% 10,0% -4,6 p.p.
+Taxa de desligamento voluntário (turnover voluntário) % 1,4% 0,7% 0,7 p.p. 2,7% 3,0% -0,3 p.p.
+Investimentos em Responsabilidade Social - Recursos Incentivados R$ 11.476.423 3.154.843 263,8% 17.573.131 5.131.377 242,5%
+Investimentos em Responsabilidade Social - Recursos Próprios R$ 1.444.772 1.334.595 8,3% 4.581.531 3.078.768 48,8%
+Investimento em Inovação2 R$ 11.739.632 13.342.948 -12,0% 33.498.962 45.332.798 -26,1%
+Total de colaboradores Colaboradores 1.199 1.095 9,5% 1.199 1.095 9,5%
+% de colaboradores em operações certificadas (ISO 9.001, 14.001, 45.001) % 84,5% 87,7% -3,2 p.p. 84,5% 87,7% -3,2 p.p.
+% de mulheres na Companhia % 31,4% 28,8% 2,6 p.p. 31,4% 28,8% 2,6 p.p.
+% de mulheres em posições de liderança % 30,5% 26,6% 3,9 p.p. 30,5% 26,6% 3,9 p.p.
+% colaboradores com deficiência % 5,0% 4,8% 0,2 p.p. 5,0% 4,8% 0,2 p.p.
+Aspecto
+E
+S
+G
+
+[p. 35]
+35
+E N G I E B R A S I L E N E R G I A 
+Release de Resultados 3T2 4 
+Adicionalmente, a Companhia é integrante do Índice de Sustentabilidade Empresarial da B3 (ISE). O Conselho de 
+Administração da ENGIE Brasil Energia é composto por nove membros titulares, sendo um representante dos empregados 
+e quatro conselheiros independe ntes. Nenhum dos membros do Conselho ocupa cargo executivo na Companhia e, 
+consequentemente, o posto de Presidente do Conselho não é ocupado pelo Diretor -Presidente. Com exceção do membro 
+escolhido pelos empregados, todos são eleitos por acionistas, em Assembleia Geral de Acionistas. 
+Um Código de Ética pauta a conduta da Companhia: documento público, disponível em seu website. A Companhia também 
+dispõe de Comitê de Ética, subordinado ao Conselho de Administração, responsável pela constante atualização do Código e 
+pela avaliação de questões éticas. Em 2021, a ENGIE Brasil Energia ratificou sua adesão ao Pacto Empresarial pela 
+Integridade contra a Corrupção : iniciativa do Instituto Ethos, em desdobramento ao Pacto Global da Organização das 
+Nações Unidas (ONU), do qual a ENGIE Brasil Energia é signatária desde seu lançamento. A Companhia também é certificada 
+pela ISO 37001, que avalia os requisitos e fornece orientação para estabelecer, implementar, manter, revisar e melhorar o 
+sistema de gestão antissuborno corporativo. 
+O Estatuto Social da ENGIE Brasil Energia estabelece um dividendo mínimo obrigatório de 30% do lucro líquido do 
+exercício, ajustado nos termos da Lei 6.404/76 . Suplementarmente, o Conselho de Administração aprovou, em 
+14/11/2005 uma Política indicativa de dividendos , em que determina intenção de pagar , em cada ano calendário , 
+dividendos e/ou juros sobre o capital próprio em valor não inferior a 55% do lucro líquido ajustado , em distribuições 
+semestrais. 
+Em relação ao modelo de transferência de ativos e demais transações com partes relacionadas, a Companhia e sua 
+controladora entenderam ser necessário elevar os padrões de governança corporativa por elas adotados. Entre as iniciativas 
+aplicadas, destaca-se a criação, por meio da adaptação do Estatuto Social da Companhia, de um Comitê Independente para 
+Transações com Partes Relacionadas, de caráter não permanente e que, quando convocado, será composto, em sua maioria, 
+por membros independentes do Conselho de Administração da ENGIE Brasil Energia. 
+Mercado de Capitais 
+A ENGIE Brasil Energia integra mais de dez índices do mercado brasileiro. Desde sua adesão ao Novo Mercado da B3, passou 
+a integrar o Índice de Ações com Governança Corporativa Diferenciada (IGC) e o Índice de Ações com T ag Along Diferenciado 
+(ITAG), que reúnem as companhias que oferecem ao acionista minoritário proteção maior em caso de alienação do controle. 
+Suas ações integram o Índice de Sustentabilidade Empresarial da B3 (ISE), que reúne empresas com reconhecido 
+comprometimento com a responsabilidade c orporativa, além do Índice do Setor de Energia Elétrica (IEE), que é um índice 
+setorial constituído pelas empresas abertas mais significativas do setor elétrico. As ações da Companhia também fazem 
+parte do principal índice de ações da B3 – o Índice Bovespa e são negociadas sob o código EGIE3. No mercado de balcão 
+americano Over-The-Counter (OTC), os American Depositary Receipts (ADR) Nível I da Companhia são negociados com o 
+código EGIEY, sendo a relação de um ADR para cada ação ordinária. 
+Desempenho das Ações – EGIE3 
+O terceiro trimestre de 2024 foi finalmente marcado por uma recuperação do mercado financeiro interno, depois de dois 
+períodos seguidos de perdas. Entre os principais fatores que contribuíram com essa inversão estão a flexibilização da taxa 
+de juros nos Estados Unidos e o consequente retorno de recursos estrangeiros, a redução do dólar e o anúncio de novos 
+pacotes de estímulo à economia chinesa. As notícias não são ainda melhores porque a incerteza fiscal causada pelo déficit 
+das contas públicas gera alerta, e os ruídos em torno da política fiscal fazem com que o ambiente brasileiro seja mais arriscado 
+e afasta investidores. O Ibovespa (principal índice da bolsa de valores brasileira) chegou a reverter prejuízos acumulados no 
+ano em alguns momentos do trimestre, mas encerrou o período próximo de 132 mil pontos. 
+As ações da ENGIE Brasil Energia registraram desvalorização de 1,8% no 3T24, período no qual o Ibovespa e o Índice do 
+Setor de Energia Elétrica (IEEX) apresentaram desempenho positivo de 6,4% e 1,7%, respectivamente. No acumulado do 
+ano, as ações da Companhia desempenharam negativamente em 1,2% , enquanto IEEX e Ibovespa desvalorizaram 5,4% e 
+1,8%, respectivamente. 
+O volume médio diário da EGIE3 foi de R$ 44,5 milhões no 3T24, 23,6% abaixo do registrado no 3T23, quando atingiu R$ 
+58,3 milhões. 
+No último pregão de setembro de 2024, as ações da Companhia encerraram cotadas a R$ 42,45/ação, o que confere à 
+Companhia valor de mercado de R$ 34,6 bilhões.
+
+[p. 36]
+36
+E N G I E B R A S I L E N E R G I A 
+Release de Resultados 3T2 4 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+As ações da 
+Companhia 
+desvalorizaram
+1,2% nos 9M24, 
+frente a 
+desvalorização de 
+1,8% e 5,4% do 
+Ibovespa e IEEX, 
+respectivamente. 
+Assú V (foto do colaborador Valter Colombo) 
+EGIE3 vs. Ibovespa vs. IEEX 
+(Base 100 – 31/12/2023) 
+EGIE3 = R$ 42,45 
+Ibovespa = 131.816 
+IEEX = 89.817 
+85
+90
+95
+100
+105
+110
+dez-23 jan-24 fev-24 mar-24 abr-24 mai-24 jun-24 jul-24 ago-24 set-24
+EGIE3 IBOV IEEX
+
+[p. 37]
+37
+E N G I E B R A S I L E N E R G I A 
+Release de Resultados 3T2 4 
+ANEXO 1 
+ENGIE BRASIL ENERGIA S.A. 
+BALANÇO PATRIMONIAL CONSOLIDADO – ATIVO 
+ 
+ 
+ 
+(Valores em R$ mil) 30/09/2024 31/12/2023
+Ativo Circulante 7.286.130 8.913.451 
+ Caixa e equivalentes de caixa 4.049.171 5.255.767 
+ Contas a receber de clientes 1.068.737 1.132.836 
+ Crédito de imposto de renda e contribuição social 314.749 249.839 
+ Dividendos a receber - 325.000 
+ Instrumentos financeiros derivativos - hedge 19.011 - 
+ Instrumentos financeiros derivativos - trading 282.849 74.532 
+ Depósitos vinculados 31.903 36.177 
+ Ativo financeiro de concessão 391.723 377.543 
+ Ativo de contrato 621.288 615.096 
+ Outros ativos circulantes 502.122 842.084 
+ Ativo não circulante mantido para venda 4.577 4.577 
+Ativo Não Circulante 40.952.284 33.311.022 
+ Realizável a Longo Prazo 10.887.492 9.942.777 
+ Instrumentos financeiros derivativos - hedge 94 12.921 
+ Instrumentos financeiros derivativos - trading 25.066 30.110 
+ Depósitos vinculados 392.229 322.021 
+ Depósitos judiciais 65.685 59.005 
+ Prêmio de riscos a apropriar - Repactuação de risco hidrológico 46.257 55.328 
+ Ativo financeiro de concessão 3.033.584 2.955.998 
+ Ativo de contrato 6.553.658 6.214.341 
+ Outros ativos não circulantes 770.919 293.053 
+ Investimentos 1.294.167 2.713.065 
+ Imobilizado 23.267.614 16.317.245 
+ Intangível 5.253.264 4.091.783 
+ Direito de uso de arrendamentos 249.747 246.152 
+Total 48.238.414 42.224.473
+
+[p. 38]
+38
+E N G I E B R A S I L E N E R G I A 
+Release de Resultados 3T2 4 
+ANEXO 2 
+ENGIE BRASIL ENERGIA S.A. 
+BALANÇO PATRIMONIAL CONSOLIDADO – PASSIVO 
+ 
+ 
+ 
+(Valores em R$ mil) 30/09/2024 31/12/2023
+Passivo Circulante 7.156.227 6.113.665 
+ Fornecedores 1.184.974 798.963 
+ Dividendos e juros sobre o capital próprio 1.005.406 411.578 
+ Empréstimos e financiamentos 884.119 1.411.534 
+ Debêntures 1.842.113 1.043.498 
+ Ações preferênciais resgatáveis 20.223 94.831 
+ Arrendamentos a pagar 28.633 29.902 
+ Concessões a pagar (Uso de Bem Público) 794.587 762.588 
+ Imposto de renda e contribuição social a pagar 233.772 171.180 
+ Outras obrigações fiscais e regulatórias 128.446 148.736 
+ Obrigações trabalhistas 138.224 136.387 
+ Instrumentos financeiros derivativos - trading 276.241 64.008 
+ Provisões 5.823 951 
+ Obrigações com benefícios de aposentadoria 37.242 34.127 
+ Outros passivos circulantes 576.424 1.005.382 
+Passivo Não Circulante 29.300.081 26.294.598 
+ Empréstimos e financiamentos 13.067.618 11.008.698 
+ Debêntures 7.152.024 6.642.526 
+ Ações preferênciais resgatáveis 479.209 476.157 
+ Arrendamentos a pagar 227.394 209.918 
+ Concessões a pagar (Uso de Bem Público) 4.561.948 4.657.314 
+ Instrumentos financeiros derivativos - trading 23.287 23.004 
+ Provisões 589.954 507.607 
+ Obrigações com benefícios de aposentadoria 354.042 366.076 
+ Imposto de renda e contribuição social diferidos 2.325.563 2.087.298 
+ Outros passivos não circulantes 519.042 316.000 
+Patrimônio Líquido 11.782.106 9.816.210 
+ Capital social 4.902.648 4.902.648 
+ Reserva de capital (176.543) (176.543)
+ Reservas de lucros 3.953.237 3.950.408 
+ Dividendos adicionais propostos - 721.661 
+ Ajustes de avaliação patrimonial (197.022) (535.403)
+ Lucros acumulados 2.293.488 - 
+ Participação de acionista não controlador 1.006.298 953.439 
+Total 48.238.414 42.224.473
+
+[p. 39]
+39
+E N G I E B R A S I L E N E R G I A 
+Release de Resultados 3T2 4 
+ANEXO 3 
+ENGIE BRASIL ENERGIA S.A. 
+DEMONSTRAÇÃO DOS RESULTADOS CONSOLIDADOS 
+ 
+ 
+ 
+ 
+(Valores em R$ mil) 3T24 3T23 Var. % 9M24 9M23 Var. %
+Receita Operacional Líquida 2.536.849 2.513.512 0,9 7.947.729 8.036.793 -1,1
+Custos Operacionais (1.233.285) (1.194.657) 3,2 (3.437.101) (3.506.038) -2,0
+Compras de energia (393.916) (497.181) -20,8 (1.117.158) (1.474.290) -24,2
+Transações no mercado de energia de curto prazo (16.096) (46.821) -65,6 (53.808) (161.036) -66,6
+Encargos de uso da rede elétrica e conexão (175.811) (168.839) 4,1 (524.575) (500.696) 4,8
+Combustíveis para geração - (1) -100,0 - (66.032) -100,0
+Compensação financeira pela utilização de recursos hídricos (royalties ) (57.916) (49.815) 16,3 (171.256) (103.726) 65,1
+Pessoal (64.712) (57.298) 12,9 (189.912) (186.300) 1,9
+Materiais e serviços de terceiros (121.129) (98.298) 23,2 (319.074) (298.669) 6,8
+Depreciação e amortização (262.700) (221.731) 18,5 (752.552) (659.953) 14,0
+Seguros (30.737) (23.692) 29,7 (85.813) (62.336) 37,7
+Reversão de provisões operacionais líquidas (16.641) (1.656) 905,0 4.817 2.920 65,0
+Custo da implementação de infraestrutura de transmissão (71.480) (6.221) 1.049,0 (145.906) (196.062) -25,6
+Extensão do prazo de concessão - - 0,0 - 239.297 -100,0
+Outros (22.147) (23.104) -4,1 (81.864) (39.155) 109,1
+Lucro Bruto 1.303.564 1.318.855 -1,2 4.510.628 4.530.755 -0,4
+Receitas (Despesas) Operacionais (103.023) (164.080) -37,2 990.570 (516.351) -291,8
+Despesas com vendas, gerais e administrativas (130.363) (102.058) 27,7 (360.740) (302.566) 19,2
+Reversão de provisão para redução ao valor recuperável de ativos, líquida - (61.223) -100,0 30.957 1.139.892 -97,3
+Alienação de subsidiária e de participação societária em controlada em conjunto (597) - 100,0 1.326.953 (1.289.063) -202,9
+Outras receitas (despesas) operacionais, líquidas 27.937 (799) -3.596,5 (6.600) (64.614) -89,8
+Resultado de Participações Societárias 181.620 320.353 -43,3 495.583 775.707 -36,1
+Equivalência patrimonial 181.620 320.353 -43,3 495.583 775.707 -36,1
+Lucro Antes do Resultado Financeiro e Tributos Sobre o Lucro 1.382.161 1.475.128 -6,3 5.996.781 4.790.111 25,2
+Resultado Financeiro (487.207) (326.408) 49,3 (1.528.877) (1.538.682) -0,6
+Receitas financeiras 132.605 123.561 7,3 488.797 352.712 38,6
+Despesas financeiras (445.236) (311.853) 42,8 (1.481.407) (1.465.641) 1,1
+Despesas de concessões a pagar (Uso de Bem Público) (174.576) (138.116) 26,4 (536.267) (425.753) 26,0
+Lucro Antes dos Tributos sobre o Lucro 894.954 1.148.720 -22,1 4.467.904 3.251.429 37,4
+Imposto de renda (167.896) (200.628) -16,3 (900.584) (544.845) 65,3
+Contribuição social (69.260) (81.452) -15,0 (354.223) (225.077) 57,4
+Lucro Líquido do Exercício 657.798 866.640 -24,1 3.213.097 2.481.507 29,5
+Lucro atribuído aos:
+ Acionistas da ENGIE Brasil Energia 655.047 867.279 -24,5 3.210.436 2.481.689 29,4
+ Acionista não controlador da Ibitiúva Bionergética e Maracanã 2.751 (639) -530,5 2.661 (182) -1.562,1
+Número de Ações Ordinárias 815.927.740 815.927.740 815.927.740 815.927.740 
+Lucro Líquido por Ação 0,8028 1,0629 -24,5 3,9347 3,0416 29,4
+
+[p. 40]
+40
+E N G I E B R A S I L E N E R G I A 
+Release de Resultados 3T2 4 
+ANEXO 4 
+ENGIE BRASIL ENERGIA S.A. 
+DEMONSTRAÇÃO DO FLUXO DE CAIXA CONSOLIDADO 
+ 
+(Valores em R$ mil) 9M24 9M23
+Fluxo de Caixa das Atividades Operacionais 
+Lucro antes dos tributos sobre o lucro 4.467.904 3.251.429 
+Conciliação do lucro com o caixa gerado nas operações:
+Resultado de participações societárias (495.583) (775.707) 
+Depreciação e amortização 783.324 690.923 
+Reversão de provisão para redução ao valor recuperável de ativos, líquida (30.957) (1.139.892) 
+Juros e variação monetária 1.330.952 1.353.425 
+Despesas de concessões a pagar (Uso de Bem Público) 536.267 425.753 
+Alienação de participação societária em controlada em conjunto (1.336.133) - 
+Alienação de subsidiária 9.180 1.289.063 
+Extensão do prazo de concessão - (239.297) 
+Remuneração de ativo financeiro de concessão (364.952) (359.375) 
+Remuneração de ativo de contrato (679.251) (633.611) 
+Perdas não realizadas em operações de trading , líquidos 9.243 12.100 
+Receita de construção de infraestrutura de transmissão (147.962) (185.004) 
+Perdas por ineficiência na construção 9.159 16.457 
+Outros 46.740 67.379 
+Lucro Ajustado 4.137.931 3.773.643 
+ (Aumento) redução nos ativos
+Contas a receber de clientes 21.194 118.350 
+Crédito de imposto de renda e contribuição social (69.642) 23.129 
+Depósitos vinculados e judiciais 18.667 17.136 
+Ativo financeiro de concessão 273.186 264.225 
+Ativo de contrato 497.886 459.138 
+Outros ativos 21.648 (166.219) 
+ (Redução) aumento nos passivos
+Fornecedores (21.788) (669) 
+Obrigações fiscais e regulatórias (45.737) (17.047) 
+Obrigações trabalhistas 1.837 (22.113) 
+Obrigações com benefícios de aposentadoria (33.696) (37.209) 
+Outros passivos 368.519 84.231 
+Caixa Gerado pelas Operações 5.170.005 4.496.595 
+Pagamento de juros sobre dívidas, líquido de hedge (969.297) (830.147) 
+Pagamento de imposto de renda e contribuição social (906.721) (313.133) 
+Caixa Gerado pelas Atividades Operacionais 3.293.987 3.353.315 
+Atividades de Investimento (4.084.700) (1.682.648) 
+Dividendos recebidos de controladas em conjunto 815.000 211.250 
+Aquisição de subsidiárias (2.361.046) - 
+Caixa e equivalentes de caixa de subsidiária adquirida 271.494 - 
+Aplicação no imobilizado e no intangível (4.899.075) (1.601.003) 
+Recebimento pela alienação de participação societária em controlada em conjunto 2.766.468 - 
+Pagamento de obrigações vinculadas à aquisição de ativos (84.904) (2.075) 
+Recebimento pela alienação de subsidiária, líquido dos custos de venda 27.584 50.934 
+Caixa e equivalentes de caixa de subsidiária alienada (19.873) (107.999) 
+Pagamento de parcelas de concessões (Uso de Bem Público) (599.634) (233.049) 
+Outros (714) (706) 
+Atividades de Financiamento (415.883) (821.303) 
+Ingresso de instrumentos de dívida 2.503.760 1.003.676 
+Pagamento de instrumentos de dívida, líquido de hedge (1.788.706) (1.129.247) 
+Pagamento de dividendos e juros sobre o capital próprio (1.134.002) (1.617.159) 
+Depósitos vinculados ao serviço da dívida 3.065 (31.887) 
+Aporte de capital de acionistas minoritários, líquidos dos custos de emissão - 953.314 
+Aumento de Caixa e Equivalentes de Caixa (1.206.596) 849.364 
+Conciliação do Caixa e Equivalentes de Caixa
+Saldo inicial 5.255.767 2.235.887 
+Saldo final 4.049.171 3.085.251 
+Aumento de Caixa e Equivalentes de Caixa (1.206.596) 849.364 
+Transações que não Envolveram o Caixa e Equivalentes de Caixa
+Dividendos destinados por controladas e controladas em conjunto 490.000 211.250 
+Dividendos intercalares, intermediários, adicionais creditados, obrigatórios e JCP - 2.223.700 
+Dividendos e juros sobre capital próprio prescritos 12.013 6.295 
+Dividendos e juros sobre capital próprio não reclamados - 10.027 
+ICMS sobre venda de energia elétrica 10.858 - 
+Remensuração das obrigações com benefícios de aposentadoria - 31.397 
+Crédito de imposto de renda e contribuição social 13.667 81.378 
+Fornecedores de imobilizado e intangível 344.078 71.887 
+Constituição de reserva de capital - 19.800 
+Provisão de custo de alienação de subsidiária - 19.000 
+Pagamento de parcela não efetiva do hedge de obrigações (Fornec. de imobilizado e intangível) (83.135) - 
+Baixa de investimento pela alienação de participação societária em controlada em conjunto (1.430.335) - 
+Baixa de investimento pela alienação de subsidiária (34.975) 
+Ativos líquidos de controladas adquiridas 1.204.362 - 
+Passivo contingente na aquisição de subsidiária 6.587 
+Provisões para desapropriações na construção de transmissão - 213
+
+[p. 41]
+41
+E N G I E B R A S I L E N E R G I A 
+Release de Resultados 3T2 4 
+ANEXO 5 
+ENGIE BRASIL ENERGIA S.A. 
+FACT SHEET 3T24 
+ 
+ 
+ 
+A ENGIE Brasil Energia é uma plataforma de
+investimentos em infraestrutura em energia, atuante nas
+atividades de geração, comercialização, trading e
+transmissão, além de transporte de gás natural, por meio
+da Transportadora Associada de Gás S.A. — TAG, em
+conjunto com outros sócios. Como a maior produtora
+privada de energia 100% renovável do país, implanta e
+opera empreendimentos de fontes renováveis, como
+hidrelétricas, usinas eólicas, fotovoltaicas, biomassa e
+pequenas centrais hidrelétricas. Trabalha com
+transparência, disciplina financeira, respeito ao meio
+ambiente, apoio às comunidades e foco na eficiência
+operacional como possibilitadores do crescimento em
+longo prazo.
+Em 30.09.2024, seu valor de mercado era de R$ 34,6
+bilhões e sua capacidade instalada própria totalizava
+9.290 MW, composta por 109 usinas, das quais 11 são
+hidrelétricas e 98 complementares: duas a biomassa, 69
+eólicas, duas Pequenas Centrais Hidrelétricas (PCHs) e
+25 solares. No segmento de transmissão, os Sistemas de
+Transmissão Gralha Azul, Novo Estado e Gavião Real
+estão em operação integral.
+A ENGIE Brasil Energia é controlada pelo grupo francês
+ENGIE, líder global na produção independente de energia,
+com atividades em cerca de 30 países. Com forte atuação
+em eletricidade, gás natural, serviços de energia e
+capacidade instalada de cerca de 100 GW em energia
+elétrica, a ENGIE detém 68,7% da Companhia, por meio da
+ENGIE Brasil Participações Ltda.
+Portfólio equilibrado de negócios em 
+infraestrutura em energia
+FACT SHEET
+ENGIE Brasil Energia
+3T24
+Visão Geral
+Composição Acionária
+68,7%
+9,9%
+21,4%
+ENGIE Brasil Participações Ltda.
+Banco Clássico S.A.
+Outros
+ Balanço de Energia
+Balanço de Energia (% do total; em MWm) | em 30/09/2024
+Nota: 
+1 A transferência para a Cia da participação de 40,0% da ENGIE Brasil Part. na UHE Jirau deverá ser 
+avaliada oportunamente.
+Hidrelétrica
+Complementar
+Expansão
+Transmissão
+TAG
+Hidrelétricas
+69%
+Capacidade 
+Instalada Própria
+¹
+Complementares
+31%
+Capacidade instalada própria de geração de energia de 
+9.290 MW (4.525 MWm), 2.710 Km de linhas de 
+transmissão em operação e participação de 17,5% na TAG. 
+3.004
+56%
+521
+10%
+24
+0%
+2024
+1.832
+34%
+2.667
+50%
+521
+10%
+318
+6%
+2025
+1.822
+34%
+2.508
+47%
+521
+10%
+463
+9%
+2026
+1.813
+35%
+1.995
+38%
+1.830
+34%
+882
+17%
+2027
+1.803
+35%
+1.470
+28%
+521
+10%
+1.412
+27%
+2028
+1.803
+35%
+597
+12%
+521
+10%
+2.190
+43%
+2029
+5.379 5.338 5.314 5.211 5.206 5.111
+521
+10%
+Mercado Regulado
+Mercado Livre
+Hedge GSF Estrutural (0,80)
+Disponível
+
+[p. 42]
+42
+E N G I E B R A S I L E N E R G I A 
+Release de Resultados 3T2 4 
+ANEXO 5 
+ENGIE BRASIL ENERGIA S.A. 
+FACT SHEET 3T24 
+ 
+ 
+ 
+ 
+Lucro líquido ajustado
+(R$ milhões)
+Ebitda ajustado
+(R$ milhões)
+Receita líquida
+(R$ milhões)
+Dívida Líquida1 (R$ milhões)
+Dívida Líquida/ LTM Ebitda Ajustado2 (x)1,8x
+2021 2022 2023 3T23 3T24
+12.541
+8.805
+10.748
+2.514 2.537
+-7,4%
++0,9%
+2021 2022 2023 3T23 3T24
+7.217
+5.206
+7.270
+1.768 1.665
++0,4%
+-5,8%
+928
+666
+2021 2022 2023 3T23 3T24
+2.369
+2.764
+3.435
++20,4%
+-28,2%
+2021 2022 2023 3T24
+14.612 15.685 15.335
+19.095
+2,0x
+2,3x 2,1x
+2,7x
+Endividamento (R$ milhões)
+Relações com Investidores
+Rua Paschoal Apóstolo Pítsica, 5064 –
+CEP 88025-255 Florianópolis – SC 
+Fone: (48) 3221-7904 
+www.engie.com.br/investidores / 
+ri.BREnergia@engie.com 
+Notas:
+1 Dívida líquida de operações de hedge.
+2 Ebitda ajustado nos últimos 12 meses.
+• Dividendo mínimo estatutário: 30% do lucro líquido distribuível.
+• Compromisso da Administração: payout mínimo de 55% do lucro líquido distribuível.
+• Ao menos 2 proventos por ano.
+Política de Dividendos
+Notas: 
+1 Considerando payout equivalente a 100% 
+do lucro líquido ajustado distribuível ex-
+repactuação do risco hidrológico. 
+2 Para fins de comparabilidade entre os anos, 
+houve ajuste do dividendo por ação 
+decorrente da bonificação aprovada em 
+07/12/2018. 
+3 Considera o lucro líquido distribuível do 
+exercício.
+4 Baseado no preço de fechamento 
+ponderado por volume das ações ON no 
+período.
+5 Payout equivalente a 55% do lucro líquido 
+distribuível (excluindo ganhos com 
+alienação parcial dos investimentos na 
+TAG). 
+Notas:
+1 Ebitda ajustado: lucro líquido + imposto de renda e contribuição social + resultado financeiro + depreciação e amortização + impairment + não 
+recorrentes.
+2 Ebitda ajustado, deduzidos os efeitos do IFRS do segmento de transmissão e usinas cotistas. 
+3 ROE: lucro líquido ajustado dos últimos 4 trimestres / patrimônio líquido.
+4 ROIC: taxa efetiva x EBIT ajustado / capital investido (capital investido: dívida - caixa e eq. caixa - depósitos vinculados ao serviço da dívida + PL)
+5 Produção total bruta das usinas operadas pela ENGIE Brasil Energia.
+6 Desconsidera vendas por regime de cotas (UHEs Jaguara e Miranda).
+7 Líquido de impostos sobre a venda e operações de trading.
+Consolidado (Valores em R$ milhões) 3T24 3T23 Var. 9M24 9M23 Var.
+Receita Operacional Líquida (ROL) 2.537 2.514 0,9% 7.948 8.037 -1,1%
+Resultado do Serviço (EBIT) 1.382 1.475 -6,3% 5.997 4.790 25,2%
+Ebitda ajustado 1 1.665 1.768 -5,8% 5.432 5.629 -3,5%
+Ebitda ajustado por efeitos de transmissão e cotistas 2 1.596 1.719 -7,2% 5.141 5.439 -5,5%
+Ebitda / ROL - (%) ajustada 1 65,6 70,3 -4,7 p.p. 68,3 70,0 -1,7 p.p.
+Lucro Líquido ajustado 666 928 -28,2% 2.314 2.615 -11,5%
+Retorno Sobre o Patrimônio (ROE) Ajustado 3 26,5 37,3 -10,9 p.p. 26,5 37,3 -10,9 p.p.
+Retorno Sobre o Capital Investido (ROIC) Ajustado 4 16,7 21,1 -4,4 p.p. 16,7 21,1 -4,4 p.p.
+Produção Bruta de Energia Elétrica (MW médios) 5 6.338 5.597 13,2% 6.194 4.408 40,5%
+Energia Vendida (MW médios) 6 4.050 3.883 4,3% 3.990 4.138 -3,6%
+Preço Líquido Médio de Venda (R$/MWh) 7 215,96 223,97 -3,6% 221,44 225,49 -1,8%
+Número de Empregados - Total 1.234 1.137 8,5% 1.234 1.137 8,5%
+
+[p. 43]
+1E N G I E B R A S I L E N E R G I A 
+4T E 2022 
+Release de Resultados 1T24 
+ 
+ 
+ 
+Florianópolis, Brazil, November 5, 2024. ENGIE Brasil Energia S.A. (“ENGIE” or “Company”) – B3: EGIE3, ADR: EGIEY - announces earnings for the Third 
+Quarter and nine months period ending on September 30, 2024 ( 3Q24/9M24). The information in this release is shown on a consolidated basis and in 
+accordance with Brazilian accounting principles and practices. The values are expressed in Brazilian Reais (R$), except where otherwise indicated. Rounding 
+effects may cause differences in percentage changes, when comparing the comments on Economic-Financial Performance, presented in R$ million, with the 
+Income Statement (Appendix III), presented in R$ thousand. 
+Video conference 
+On Nov 6, 2024 at 11:00 a.m. 
+(BRT), 9:00 a.m. (EST) in 
+Portuguese with simultaneous 
+translation into English) 
+Click here to access the 
+transmission. 
+Visit our Website 
+www.engie.com.br/investidores 
+ 
+For Immediate Release
+Additional information: 
+Eduardo Sattamini 
+Chief Executive Officer 
+Eduardo Takamori 
+Chief Financial and Investor Relations 
+Officer 
+Rafael Bósio 
+IR Manager 
+rafael.bosio@engie.com 
+T el.: +55 (48) 3221-7246/7409 
+ri.BREnergia@engie.com 
+Earnings 
+Release 
+3Q24 
+ 
+E N G I E B R AS I L E N E R G I AS . A .
+
+[p. 44]
+2 
+Release de Resultados 1T24 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Highlights
+The adjusted net income was R$ 666 million in 
+3Q24, 28.2% (R$ 262 million) lower than posted 
+in 3Q23, basically as a result of the partial sale of 
+the stake in TAG. 
+Adjusted Ebitda2 in 3Q24 reached R$ 1,665 million, 
+a decrease of 5.8% (R$ 103 million) compared to 
+3Q23. The adjusted Ebitda margin was 65.6% in 
+3Q24, 4.7 p.p. lower than reported in 3Q23. 
+Net operating revenue reached R$ 2,537 million in 
+3Q24, 0.9% (R$ 23 million) higher than recorded in 
+3Q23. 
+The average price of the energy sales agreements, 
+net of taxes on revenues and trading operations, was 
+R$ 215.96/MWh in 3Q24, 3.6% lower than 
+registered in 3Q23. 
+Excluding trading operations, the energy sales 
+volume in 3Q24 was 8,942 GWh (4,050 average 
+MW), 4.3% higher than sold in 3Q23. 
+ 
+ 
+The Company successfully bid for Block 1 in the 
+Aneel Transmission Auction 02/2024, 
+approximately 780 kilometers in length, and 
+transecting the states of Santa Catarina, Paraná, 
+Minas Gerais, São Paulo and Espírito Santo. 
+During 3Q24, 50 wind turbines began commercial 
+operations at the Serra do Assuruá Wind 
+Complex in the state of Bahia, corresponding to 
+225 MW of capacity . In the quarter, 5 3 of the 
+project’s total of 188 wind turbines were also 
+operating on a test basis. 
+For the 14th time, the Company was awarded 
+Anefac’s Transparency Trophy, which recognizes 
+companies with the best governance and 
+transparency practices in financial statements 
+releases to the market. 
+ 
+ 
+ 
+ 
+ENGIE Brasil Energia 
+wins Block 1 in the Aneel
+transmission auction.
+Operational installed 
+capacity reaches 11 GW 
+E N G I E B R AS I L E N E R G I A
+
+[p. 45]
+3E N G I E B R A S I L E N E R G I A 
+4T E 2022 
+Earnings Release 3Q24 
+Summary of Financial 
+and Operational Indicators 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Subsequent Events 
+A further 36 wind turbines at the Serra do Assuruá Wind Complex were 
+authorized for commercial operation and 40 were operating on a test 
+basis by November 5, 2024. 
+On October 24 and 31, the first two plants of the Assú Sol Photovoltaic 
+Complex went into test operation, adding 90,5 MW out of a total of 752 
+MW to the Company's generating park. 
+ 
+1 Ebitda: net income + income tax and social contribution + financial result + depreciation 
+and amortization. 
+2 Adjusted Ebitda: net income + income tax and social contribution + financial result + 
+depreciation and amortization + impairment + non-recurrent. 
+3 Adjusted EBITDA, less the effects of IFRS in the transmission segment and quota plants. 
+4 ROE: adjusted net equity for the past 4 quarters /shareholders’ equity. 
+ 
+5 ROIC: effective tax rate x adjusted EBIT / invested capital (invested capital: 
+debt - cash and cash equivalents - deposits earmarked for debt servicing + SE). 
+6 Adjusted amount, net of gains from hedge operations. 
+7 Total gross electricity output from the plants operated by ENGIE Brasil Energia. 
+8 Disregarding sales for quota regime (Jaguara and Miranda HPPs). 
+9 Net of taxes and trading operations. 
+Important
+This release contains information and opinions on future events subject to risks and 
+uncertainties, which are based on current forecasts, projections, and tendencies in relation 
+to the Company´s businesses. Innumerous factors can affect the estimates and assumptions 
+on which these opinions are based. For this reason, the estimates and forward -looking 
+statements in this release may not become a reality. In th e light of these restrictions, 
+shareholders and investors should not adopt any decisions based on estimates, projections 
+and forward-looking statements contained in this release. 
+ Santo Agostinho Wind Complex (RN) 
+Consolidated (in R$ million) 3Q24 3Q23 Chg. 9M24 9M23 Chg.
+Net Operating Revenue (NOR) 2,537 2,514 0.9% 7,948 8,037 -1.1%
+Results from Operations (EBIT) 1,382 1,475 -6.3% 5,997 4,790 25.2%
+Ebitda 1 1,654 1,707 -3.1% 6,780 5,480 23.7%
+Adjusted Ebitda 2 1,665 1,768 -5.8% 5,432 5,629 -3.5%
+Adjusted Ebitda by transmission and quota effects 3 1,596 1,719 -7.2% 5,141 5,439 -5.5%
+Ebitda / NOR - (%) 1 65.2 67.9 -2.7 p.p. 85.3 68.2 17.1 p.p.
+Adjusted Ebitda / NOR - (%) 2 65.6 70.3 -4.7 p.p. 68.3 70.0 -1.7 p.p.
+Net Income 658 867 -24.1% 3,213 2,482 29.5%
+Adjusted Net Income 666 928 -28.2% 2,314 2,615 -11.5%
+Adjusted Return on Equity (ROE) 4 26.5 37.3 -10.9 p.p. 26.5 37.3 -10.9 p.p.
+Adjusted Return on Invested Capital (ROIC) 5 16.7 21.1 -4.4 p.p. 16.7 21.1 -4.4 p.p.
+Net Debt 6 19,095 15,335 24.5% 19,095 15,335 24.5%
+Gross Power Production (avg MW) 7 6,338 5,597 13.2% 6,194 4,408 40.5%
+Energy Sold (avg MW) 8 4,050 3,883 4.3% 3,990 4,138 -3.6%
+Average Net Sales Price (R$/MWh) 9 215.96 223.97 -3.6% 221.44 225.49 -1.8%
+Number of Employees - Total 1,234 1,137 8.5% 1,234 1,137 8.5%
+ EBE Employees 1,211 1,116 8.5% 1,211 1,116 8.5%
+ Employees on Under Construction Plants 23 21 9.5% 23 21 9.5%
+
+[p. 46]
+4E N G I E B R A S I L E N E R G I A 
+4T E 2022 
+Earnings Release 3Q24 
+Message from Management 
+This year has presented us with great opportunities as well as immense challenges. We have some important generation 
+and transmission projects under construction simultaneously, at the same time also confronting a growing degree of 
+curtailment nationwide while developing the Free Energy Market which continues to bolster our relationship with 
+companies of different sizes in all regions of Brazil. However, our financial robustness, balanced management of risk, delivery 
+capacity and confidence we enjoy in the market all translate into important competitive differentials. 
+Overall, ENGIE Brasil Energia invested R$ 1.9 billion in 3Q24 bringing the amount up to R$ 7. 5 billion applied in the first 
+nine months of the year. In the third quarter, investments were largely directed to construction work on new projects. In 
+August, work on the Santo Agostinho Wind Complex was finalized, becoming 100% operational at its location in the state 
+of Rio Grande do Norte , with 70 wind turbines and an installed capacity of 434 MW . In the same month, the start of 
+commercial operations at the Serra do Assuruá Wind Complex represented a milestone in the installation of one of the 
+largest wind energy projects ever to be built in a single phase by the ENGIE Group either in Brazil or worldwide. Comprising 
+24 wind farms located in the municipality of Gentio do Ouro, state of Ba hia, the progress of work on the project reached 
+80.4% completion in the quarter with work scheduled for conclusion by the first half of 2025, adding a further 846 MW to 
+the Company’s generator park. 
+Already in the process of implementation, work on the Assú Sol Photovoltaic Complex in Rio Grande do Norte, was already 
+58% complete by the end of the quarter. The Complex is to have an installed capacity of approximately 752 MWac (895 
+MWp) and an estimated commercial capacity of 228.7 average MW. Still in the field of solar generation, we would make a 
+special point of mentioning the conclusion to the revitalization of the Paracatu Photovoltaic Plant. A major storm in April 
+2023 damaged 65% of its generatio n structure, some 20% of it irrecuperable. Following the stages of decommissioning, 
+disposal of waste, repair of damage, rearrangement, and reconstruction, on October 16, 2024, the plant was completely 
+reenergized, reestablishing it’s total capacity of 132 MW and enabling it to honor its supply agreements in the regulated 
+market. 
+Still in 3Q24, we commemorated a successful bid for the concession of the principal lot in the Aneel 02/2024 Transmission 
+Auction. This includes the construction and operation of about 780 kilometers of electricity transmission line together with 
+two new s ubstations. The Graúna Transmission System, as it is denominated, also includes the provision of a servicing 
+function of 162.6 kilometers of existing transmission line and two substations. The project is located in the states of Santa 
+Catarina, Paraná, Minas Gerais, São Paulo and Espírito Santo, transecting 47 municipalities. 
+This quarter also saw the beginning of work on the Asa Branca Transmission System crossing the states of Bahia, Minas 
+Gerais, and Espírito Santo, with a total of approximately 1,000 kilometers of transmission line and incorporating the 
+expansion of five associated substations. In addition to Asa Branca and Graúna, the Company has more than 2,700 km of 
+already energized transmission line in Paraná, Pará and Tocantins. These projects serve to enhance the National 
+Interconnected System (SIN), avoiding overloading and undervoltage on existing transmission lines as well as reinforcing 
+the interconnection between the Northeast and the Southeast to absorb energy flows from renewable sources. 
+The security of the grid (SIN) has been a concern of the National System Operator (ONS) and energy generators such as 
+ENGIE Brasil Energia. The need to reduce or interrupt generation, known as curtailment, has become increasingly frequent 
+in order to maintain the system’s stability. Among the main reasons for this reality are excessive subsidies granted to 
+centralized renewables and distributed generation. We defend the collaboration between sector compani es, Government, 
+Congress and the ONS in efforts to build efficacious solutions which guarantee that the harnessing of generated energy is 
+optimized and the allocation of costs is more adequately distributed, avoiding the burden falling on the consumer. 
+ 
+Generating and selling energy to the 
+free market for more than 20 years, 
+we work to supply products which 
+simplify access to the Free Energy 
+Market and to sophisticated energy 
+and decarbonization products for 
+customers of all sizes. 
+Serra do Assuruá Wind Complex (BA)
+
+[p. 47]
+5E N G I E B R A S I L E N E R G I A 
+4T E 2022 
+Earnings Release 3Q24 
+Generating and selling energy to the free market for more than 20 years when this structure began to be implemented in 
+Brazil, ENGIE Brasil Energia enjoyed a market share of 7.5% in the third quarter of this year in relation to the total of the 
+free energy. We work to offer products which simplify access to the Free Energy Market as well as to sophisticated energy 
+and decarbonization products for customers of all sizes. These initiatives were instrumental in an increase of 55.1% in the 
+number of free consumers in 3Q24 in relation to the same period of 2023. Our guarantee of delivery engenders reliability 
+and security to long-term agreements, responsible for ensuring good results in an extremely competitive environment. 
+As to our financial results, in 3Q24, ENGIE Brasil Energia reported net operating revenue of R$ 2.5 billion, a 0.9% increase 
+in relation to 3Q23, a reflection more particularly by the increase in sales volume and transmission revenues, attenuated by 
+revenue from transactions conducted across the short term market (CCEE) as well as trading business. 
+Adjusted Ebitda was R$ 1.7 billion, a reduction of 5.8% compared with 3Q23, essentially due to the partial divestment of 
+the stake in TAG and an increase in the costs of material and third-party services, the effect of these factors attenuated by 
+the reduction in the costs of purchasing energy for the portfolio and a positive net result in CCEE transaction. 
+Adjusted net income for 3Q24 was R$ 666 million, 28.2% lower than the Company reported in the same period in 2023 in 
+the light of factors already mentioned together with the increase in net financial expenses and depreciation and 
+amortization. 
+We cannot fail to end this message without sharing our satisfaction that, once again, ENGIE Brasil Energia has been elected 
+the highlight of the energy segment in Exame magazine's Best and Biggest ranking, as well as being awarded, for the 14 th 
+time, the Transparency Trophy, which recognizes best practices of transparency and quality in the disclosure of financial 
+information. For the second year running, ENGIE Brasil Energia has also been included in B3's diversity index, IDIVERSA, 
+which brings together a select group of companies promoting not only a more just society, but also diversity as an 
+investment thesis, encouraging others to follow suit. These accolades, which recognize our performance based on ESG 
+guidelines - respecting environmental, social and governance aspects – demonstrate our success in navigating volatility in 
+the business climate, at the same time accelerating the energy transition and positively impacting people's lives, 
+strengthening trust and credibility with the business community and society. 
+In this third quarter, we have also learnt that for the second year running, we are ranked among the Broadcast Companies 
+Top 10 Award, which recognizes those companies providing the most return to investors. Such recognition motivates us to 
+continue working to generate and share value in a sustainable way among our various stakeholders. 
+Believing as we do in the country's growth potential, we remain attentive to opportunities for helping Brazil achieve its full 
+potential, promoting economic development, ensuring our organic growth, and expanding the diversification of our 
+portfolio. In ad dition, we will be participants in the discussion surrounding the regulatory changes expected for the 
+modernization of the Brazilian electricity sector, bringing benefits to both the economy and society. 
+ 
+ 
+Good reading! 
+ 
+ 
+ 
+ 
+ 
+ 
+ Eduardo Takamori 
+Guiyotoku
+Chief Financial and Investor 
+Relations Officer 
+Eduardo Antonio 
+Gori Sattamini
+Chief Executive Officer
+
+[p. 48]
+6E N G I E B R A S I L E N E R G I A 
+4T E 2022 
+Earnings Release 3Q24 
+Breakdown of Assets 
+Energy Generation Assets 
+At the end of the 3Q24, ENGIE Brasil Energia had 9,290.2 MW of installed capacity and operates a generating complex 
+with 11,000.0 MW, comprised of 109 plants (11 hydro and 98 complementary energy source plants — biomass, SHP, wind 
+powered and solar), 105 of which are wholly -owned by the Company and four (the Itá, Machadinho and Estreito Hydro 
+Power Plants and the biomass-fired Ibitiúva Bioenergética co-generation plant) jointly-owned through consortia with other 
+companies. 
+Generating Complex as of September 30, 2024 
+ 
+ 
+ 
+Energy Transmission Assets 
+Transmission assets under operation as of September 30, 2024 
+* Values on the base date of July 2024 (cycle 2024-2025), net of PIS and Cofins charges. 
+1 For the composition of wind and solar complexes. 
+2 Complex composed of 24 wind power plants, 14 of which in full commercial operation on 09/30/2024. 
+3 The Lar do Sol plant does not have a declared physical guarantee, therefore its commercial capacity is based on expected generation. 
+4 For generating plants with installed capacity lower than or equal to 5 MW the legal instrument applicable is the record. 
+Transmission line Location Extention km
+Annual RAP 
+(R$ million) *
+Substations Property
+Concession 
+expiration
+Gralha Azul State of Paraná 909.0 323.9 5 100% Mar/48
+Novo Estado States of Pará and Tocantins 1,800.0 439.6 1 new and expansion of 3 existing ones 100% Mar/48
+Gavião Real State of Pará 1.0 7.4 1 100% Sep/52
+Total 2,710.0 770.9
+Total 
+Company's 
+Share
+Itá Hydro Uruguai River (SC and RS) 1,450.0 1,126.9 Dec/32 528.7
+Salto Santiago Hydro Iguaçu River (PR) 1,420.0 1,420.0 Nov/30 702.2
+Machadinho Hydro Uruguai River (SC and RS) 1,140.0 414.8 Oct/35 143.7
+Estreito Hydro Tocantins River (TO and MA) 1,087.0 435.6 Feb/47 244.1
+Salto Osório Hydro Iguaçu River (PR) 1,090.8 1,090.8 Apr/31 487.3
+Cana Brava Hydro Tocantins River (GO) 450.0 450.0 Dec/35 247.8
+Jaguara Hydro Grande River (MG) 424.0 424.0 Jun/48 324.0
+Miranda Hydro Araguari River (MG) 408.0 408.0 Jun/48 188.3
+São Salvador Hydro Tocantins River (TO) 243.2 243.2 Jun/40 140.8
+Passo Fundo Hydro Passo Fundo River (RS) 226.0 226.0 Apr/31 107.5
+Ponte de Pedra Hydro Correntes River (MT) 176.1 176.1 Mar/37 127.6
+Total - 

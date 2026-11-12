@@ -1,0 +1,1977 @@
+[p. 2]
+Clique Aqui
+ ri@axia.com.br
+ ri.axia.com.br
+4
+
+[p. 3]
+SUMÁRIO
+1. RESULTADO CONSOLIDADO | IFRS E REGULATÓRIO ........................................................... 7
+2. RESULTADO CONSOLIDADO AJUSTADO | IFRS E REGULATÓRIO ......................................... 9
+3. COMERCIALIZAÇÃO DE ENERGIA .......................................................................................... 13
+4. INVESTIMENTOS E PROJETOS DE EXPANSÃO ....................................................................... 14
+5. ENDIVIDAMENTO ................................................................................................................... 16
+6. EMPRÉSTIMO COMPULSÓRIO ............................................................................................... 17
+7. FLUXO DE CAIXA .................................................................................................................... 18
+8. DESEMPENHO FINANCEIRO ................................................................................................... 19
+8.1. Resultado Operacional e Financeiro .................................................................................. 19
+8.2. Segmento de Geração ........................................................................................................ 21
+8.3. Segmento de Transmissão ................................................................................................. 24
+8.4. Custos e Despesas Operacionais - IFRS .............................................................................. 25
+8.5. Participações Societárias - IFRS .......................................................................................... 29
+8.6. Resultado Financeiro - IFRS ................................................................................................ 30
+8.7. Tributos Correntes e Diferidos - IFRS ................................................................................. 31
+9. DESEMPENHO OPERACIONAL ............................................................................................... 32
+9.1. Segmento de Geração ........................................................................................................ 32
+9.2. Segmento de Transmissão ................................................................................................. 34
+9.3. ESG ...................................................................................................................................... 35
+10. ANEXOS .................................................................................................................................. 36
+10.1. Anexo 1 - Receita Societária de Geração e de Transmissão .............................................. 36
+10.2. Anexo 2 - Detalhamento do PMSO .................................................................................... 37
+10.3. Anexo 3 - Financiamentos e empréstimos concedidos (Recebíveis) ................................. 38
+10.4. Anexo 4 - Demonstrações Contábeis ................................................................................. 39
+10.5. Anexo 5 - Conciliação Resultado Regulatório x IFRS .......................................................... 43
+3
+
+[p. 4]
+AXIA ENERGIA DIVULGA RESULTADOS DO 3º TRIMESTRE DE 2025
+Destaques:
+Remuneração aos acionistas: R$ 4,3 bilhões de dividendos, totalizando R$ 8,3 bilhões no exercício de 
+2025, atingindo aproximadamente R$ 4,01 por ação preferencial A e B e R$ 3,65 por ação ordinária e 
+golden share.
+Em setembro e outubro, a Administração realizou entregas relevantes e consistentes, destaque para a 
+assinatura da venda da Eletronuclear, da participação na EMAE e a aquisição da Tijoá Energia, acelerando 
+o processo de simplificação e eliminação de riscos da Companhia. Esses fatores aliados aos robustos 
+resultados alcançados no 3T25, a resiliência dos preços em 2026, os avanços na comercialização da 
+energia e o aperfeiçoamento do nosso modelo de energia de longo prazo, geraram capital alocável, 
+segundo nossa metodologia de alocação de capital, possibilitando a proposta de dividendos e a participação 
+no leilão de transmissão 04/2025. A metodologia de alocação de capital reforça o compromisso com a 
+disciplina financeira, a geração de valor aos acionistas e a capacidade de investimentos.
+Leilão de transmissão 04/2025: arremate dos lotes 6A, 6B, 7A e 7B, com RAP de R$ 138,74 milhões e 
+CAPEX projetado pela ANEEL de R$ 1,63 bilhão, reforçando a competitividade e eficiência da AXIA Energia.
+Receita líquida regulatória ajustada: R$ 9.969 milhões no 3T25, queda de 4,6% em relação ao 3T24, com 
+o crescimento da receita de transmissão parcialmente compensando a menor receita de geração em função 
+da alienação das térmicas do Amazonas e da venda adicional de energia da UHE Tucuruí, ocorrida apenas 
+no 3T24.
+Margem de contribuição da geração , ACL + MCP : a margem de contribuição da energia comercializada 
+no ACL e liquidada no MCP avançou de R$ 48/MWh no 3T24 para R$ 86/MWh no 3T25, considerando o 
+recurso disponível para alocação em ambos os ambientes.
+Comercialização de energia : atingimos 813 clientes no 3T25, um aumento de 16% em relação ao 3T24, 
+sendo 723 clientes no ambiente de comercialização livre (ACL) contra 614 no 3T24.
+EBITDA Regulatório Ajustado excluindo a variação do resultado das térmicas do Amazonas 
+vendidas em 2025 : o EBITDA atingiu R$ 6.419 milhões no 3T25, um aumento de 3,4% frente ao 3T24, 
+resultado marcado pelo crescimento de 9,8% da receita de transmissão e queda de 10,1% do PMSO, que 
+refletiu a busca contínua pela eficiência operacional. Esses avanços mais que compensaram as reduções 
+de 2,1% da receita de geração e de 21,9% do resultado das participações societárias, garantindo uma 
+evolução resiliente do EBITDA.
+Lucro Líquido IFRS Ajustado : atingiu R$ 2.176 milhões , redução de 68% vs. 3T24, em função do 
+reconhecimento de remensuração regulatória de R$ 303 milhões no 3T25, comparada a R$ 6.130 milhões 
+no 3T24, quando houve o impacto da Revisão Tarifária Periódica de 2023, sem contrapartida em 2025.
+Investimentos: R$ 2.701 milhões no 3T25, aumento de 32% e de 57% em relação ao 2T25 e 3T24, 
+respectivamente. Vale destacar o avanço de 28% em comparação ao 3T24 dos investimentos em reforços e 
+melhorias no segmento de transmissão, que atingiram R$ 1.061 milhões no 3T25.
+Ainda no segmento de transmissão, estamos implementando 230 empreendimentos de grande porte com 
+RAP adicional de R$ 1,7 bilhão entre 2025-2030 e CAPEX total estimado em R$ 12,5 bilhões.
+Portfólio 100% renovável: em outubro concluímos a alienação do último ativo termelétrico, a UTE Santa 
+Cruz. Com essa transação, a AXIA Energia passou a deter um portfólio 100% renovável, em linha com seu 
+compromisso Net Zero 2030.
+Gestão de portfólio out/25: acordo para venda da participação na Eletronuclear para a J&F, por R$ 535 
+milhões. O acordo prevê a liberação de garantias prestadas pela AXIA Energia e a assunção das 
+"debêntures ADI". A compradora assumirá a responsabilidade pela integralização das debêntures acordadas 
+no Termo de Conciliação firmado com a União, no valor de R$ 2,4 bilhões.
+Celebração do contrato de venda da participação na Empresa Metropolitana de Águas e Energia S.A. – 
+EMAE, para a Companhia de Saneamento Básico do Estado de São Paulo – SABESP, por R$ 476,5 
+milhões. A transação inclui a possibilidade de pagamentos de earnout no futuro.
+4
+
+[p. 5]
+Aquisição da participação remanescente de 50,1% das ações na Tijoá Energia, em out/25, pelo valor de R$ 
+247 milhões. A usina possui uma capacidade instalada de 808 MW e atingiu, em 2024, uma receita anual de 
+R$ 320 milhões e EBITDA de R$ 136 milhões. 
+Gestão financeira: a dívida líquida totalizou R$ 42.577 milhões no 3T25, aumento de R$ 2.451 milhões e 
+R$ 3.680 milhões em relação ao 2T25 e ao 3T24, respectivamente. A variação foi explicada pelo aumento 
+da dívida bruta e pela redução do caixa, refletindo o pagamento de R$ 4 bilhões em dividendos em agosto 
+de 2025, consumindo parcela dos R$ 5 bilhões de caixa livre gerados no período. O prazo médio da dívida 
+foi reduzido em 3,9 meses e o custo médio passou de CDI + 0,59% a.a. para CDI + 0,64% a.a. na 
+comparação com o 3T24.
+Destaque para a captação de R$ 2 bilhões em debêntures emitidas pela Eletronorte em julho/25 com um 
+custo equivalente de CDI - 0,56% a.a. após operação de swap. 
+Empréstimo Compulsório: o estoque de provisão foi reduzido em R$ 2,7 bilhões na comparação com o 
+3T24 e R$ 362 milhões em relação ao 2T25, totalizando R$ 11,7 bilhões no 3T25. Houve reversão líquida 
+de R$ 300 milhões devido aos acordos celebrados e às decisões favoráveis no 3T25.
+5
+
+[p. 6]
+PRINCIPAIS INDICADORES FINANCEIROS E OPERACIONAIS
+Tabela 1 - Destaques operacionais
+3T25 3T24 ∆% 2T25 ∆%
+Geração e Comercialização
+Capacidade Instalada Geração (MW) 44.368 44.191 0,4 44.368 0,0
+Garantia Física (MWm) (1) 21.655 21.912 -1,2 21.655 0,0
+Geração Líquida (TWh) 24,5 26,5 -7,6 38,7 -36,6
+Energia Vendida ACR (TWh) (2) 26,7 31,3 -14,7 18,8 42,5
+Energia Vendida ACL (TWh) (3) 52,5 45,4 15,8 36,1 45,4
+Energia Vendida Cotas (TWh) (4) 15,4 25,9 -40,7 10,4 48,6
+Preço Médio ACR (R$/MWh) (5) 268,70 298,96 -10,1 284,80 -5,7
+Preço Médio ACL (R$/MWh) 156,07 156,13 0,0 152,07 2,6
+Transmissão
+Linhas de transmissão (km) 74.769 73.958 1,1 73.774 1,3
+RAP (R$mm) (6) 16.644 17.015 -2,2 17.209 -3,3
+(1) A GF reflete: (a) a portaria GM/MME 544/21, que definiu a revisão dos valores de GF das usinas que tiveram renovação da concessão por conta da 
+capitalização (usinas sob regime de Cotas, Tucuruí, Itumbiara, Sobradinho, Mascarenhas de Moraes e Curuá-Una), com significativa redução na GF, 
+valendo a partir de 2023; (b) a portaria GM/MME 709/22, com Revisão Ordinária de GF de usinas hidrelétricas, valendo a partir de 2023, afetando várias 
+usinas de AXIA Energia; (c) saída da UTE Candiota III a partir de jan/24 e das UTEs Mauá III, Aparecida, Anamã, Anori, Codajás e Caapiranga a partir de 
+maio/25 ; (d) inclusão da UHE Colíder e saída da UHE Mauá a partir de jun/25, com o descruzamento de participações em ativos com a Copel; (e) inclusão 
+das SPEs que passaram a ser consolidadas: UHEs Teles Pires (out/23), Baguari (out/23), Retiro Baixo (nov/23) e Santo Antonio (nov/23); (f) ainda não 
+reflete a conclusão da venda da UTE Santa Cruz, ocorrida em out/25 e da consolidação da UHE Três Irmãos, operação cuja assinatura ocorreu em out/25 
+e ainda aguarda conclusão.
+(2) Não inclui cotas.
+(3) Inclui os contratos sob Lei 13.182/2015.
+(4) Os valores apresentados são de Garantia Física de cotas em GWh.
+(5) Exclui térmicas.
+(6) RAP Homologada para o ciclo regulatório em curso, associada aos módulos ativos ao final de cada período, incluindo os que eram ativos no começo 
+do ciclo mais os que entraram em operação comercial. Inclui contratos de transmissão das empresas AXIA Energia Holding, Chesf, CGT Eletrosul, 
+Eletronorte, TMT e VSB.
+Tabela 2 - Destaques financeiros
+3T25 3T24 % 2T25 %
+Indicadores Financeiros
+Receita Bruta 11.725 12.960 -9,5 12.082 -3,0
+Receita Bruta Ajustado 11.751 12.960 -9,3 12.191 -3,6
+Receita Operacional Líquida 10.003 11.043 -9,4 10.199 -1,9
+Receita Oper. Líquida Ajustado 10.029 11.043 -9,2 10.308 -2,7
+Receita Oper. Líquida Regulatória 9.943 10.449 -4,8 9.701 2,5
+EBITDA -1.495 12.159 -112,3 1.259 -218,8
+EBITDA Ajustado 5.890 11.964 -50,8 5.151 14,4
+EBITDA Regulatório -601 6.970 -108,6 5.820 -110,3
+EBITDA Regulatório Ajustado 6.382 6.775 -5,8 5.501 16,0
+Margem EBITDA (%) -14,9 110,1 -125,1pp 12,3 -27,3pp
+Margem EBITDA Ajustado (%) 58,7 108,3 -49,6pp 50,0 8,8pp
+Lucro Líquido -5.448 7.195 -175,7 -1.325 311,1
+Lucro Líquido Ajustado 2.176 6.805 -68,0 1.469 48,1
+Dívida Bruta Ajustada 72.005 68.774 4,7 71.042 1,4
+Dívida Líquida Ajustado 42.577 38.897 9,5 40.125 6,1
+Dív. Líq Aj./ EBITDA LTM Ajustado 2,1 1,6 33,9 1,5 38,1
+Investimentos 2.701 1.720 57,0 2.043 32,2
+6
+
+[p. 7]
+DESTAQUES DOS RESULTADOS CONSOLIDADOS
+1. RESULTADO CONSOLIDADO | IFRS E REGULATÓRIO
+Tabela 3 - DRE IFRS (R$ mm)
+3T25 3T24 2T25 9M25 9M24
+IFRS Ajuste Ajustado Ajustado % A/A Ajustado % T/T Ajustado Ajustado % A/A
+Geração 6.908 26 6.934 8.348 -16,9 6.960 -0,4 20.862 20.109 3,7
+Transmissão 4.646 0 4.646 4.566 1,7 5.079 -8,5 14.910 13.520 10,3
+Outros 171 0 171 46 n.m. 152 12,6 392 182 n.m.
+Receita Bruta 11.725 26 11.751 12.960 -9,3 12.191 -3,6 36.164 33.811 7,0
+(-) Deduções da Receita -1.723 0 -1.723 -1.918 -10,2 -1.883 -8,5 -5.413 -5.655 -4,3
+Receita Líquida 10.003 26 10.029 11.043 -9,2 10.308 -2,7 30.751 28.156 9,2
+Energia revenda, rede, 
+combustível e construção -4.179 0 -4.179 -4.014 4,1 -3.568 17,1 -11.609 -9.917 17,1
+Pessoal, Material, Serviços 
+e Outros -1.623 114 -1.509 -1.692 -10,8 -1.403 7,6 -4.379 -4.744 -7,7
+Provisões Operacionais -236 218 -18 -251 -92,7 -177 -89,7 -281 -834 -66,4
+Resultado da alienação de 
+ativos -7.071 7.071 0 0 0,0 0 0,0 0 0 0
+Remensurações 
+regulatórias - Contratos de 
+Transmissão
+303 0 303 6.130 -95,1 0 0,0 -648 6.130 n.m.
+Outras receitas e despesas 43 -43 0 0 0,0 0 0,0 0 0 0,0
+Resultado Operacional 
+antes de Part. Societárias -2.760 7.385 4.625 11.216 -58,8 5.160 -10,4 13.834 18.791 -26,4
+Participações Societárias 1.265 0 1.265 749 69,0 -10 n.m. 1.623 2.025 -19,8
+EBITDA -1.495 7.385 5.890 11.964 -50,8 5.151 14,4 15.457 20.816 -25,7
+D&A -1.156 0 -1.156 -990 16,7 -1.131 2,1 -3.399 -2.955 15,0
+EBIT -2.651 7.385 4.734 10.974 -56,9 4.019 17,8 12.058 17.861 -32,5
+Resultado Financeiro -2.571 186 -2.385 -2.225 7,2 -2.377 0,3 -8.081 -7.756 4,2
+EBT -5.222 7.571 2.349 8.749 -73,1 1.642 43,1 3.976 10.105 -60,6
+Imposto de Renda e 
+Contribuição Social (1) -226 53 -173 -1.944 -91,1 -173 0,1 -411 -1.828 -77,5
+Lucro Líquido -5.448 7.624 2.176 6.805 -68,0 1.469 48,1 3.565 8.277 -56,9
+(1) O valor ajustado originalmente publicado no 3T24 no dia 06/11/24 para a linha de Imposto de Renda e Contribuição Social foi de -R$ 1.186 milhões. 
+Posteriormente, parte do imposto diferido reconhecido no 4T24, no valor de R$ 758 milhões, teve seu fato gerador ocorrido no 3T24. Naquela ocasião, foi 
+realizado um ajuste não recorrente entre ambos os trimestres, realocando tal valor do 4T24 para o 3T24, sem efeito no ano de 2024. Desta forma, no 
+4T24, o valor ajustado referente ao 3T24 foi revisado, de - R$ 1.186 milhões para -R$ 1.944 milhões. Nesta divulgação, o valor apresentado para o 3T24 é 
+o revisado e mostrado no dia 13/03/25, na divulgação do 4T24.
+7
+
+[p. 8]
+Tabela 4 - DRE regulatória (R$ mm)
+ 3T25 3T24 2T25 9M25 9M24
+ Regulatória Ajuste Ajustado Ajustado % A/A Ajustado % T/T Ajustado Ajustado % A/A
+Geração 6.749 26 6.775 8.001 -15,3 6.945 -2,4 20.744 20.676 0,3
+Transmissão (1) 4.745 0 4.745 4.320 9,8 4.488 5,7 13.656 14.450 -5,5
+Outros 171 0 171 45 n.m. 152 12,6 392 179 n.m.
+Receita Bruta 11.665 26 11.691 12.366 -5,5 11.585 0,9 34.791 35.305 -1,5
+(-) Deduções da Receita -1.723 0 -1.723 -1.918 -10,2 -1.883 -8,5 -5.413 -5.655 -4,3
+Receita Líquida 9.943 26 9.969 10.449 -4,6 9.701 2,8 29.378 29.650 -0,9
+Energia revenda, rede, 
+combustível e construção 
+(1)
+-2.764 0 -2.764 -2.988 -7,5 -2.478 11,5 -8.395 -7.579 10,8
+Pessoal, Material, 
+Serviços e Outros -1.620 114 -1.505 -1.702 -11,5 -1.419 6,1 -4.398 -4.784 -8,1
+Provisões Operacionais 142 65 207 405 -49,0 -98 n.m. 31 -575 n.m.
+Resultado da alienação 
+de ativos -6.821 6.821 0 0 0,0 0 0,0 0 0 0
+Remensurações 
+regulatórias - Contratos 
+de Transmissão
+0 0 0 0 0,0 0 0,0 0 0 0
+Outras receitas e 
+despesas 43 -43 0 0 0,0 0 0,0 0 0 0,0
+Resultado Operacional 
+antes de Part. 
+Societárias
+-1.077 6.983 5.906 6.165 -4,2 5.706 3,5 16.617 16.712 -0,6
+Participações Societárias 476 0 476 610 -21,9 -205 n.m. 643 1.686 -61,9
+EBITDA -601 6.983 6.382 6.775 -5,8 5.501 16,0 17.260 18.398 -6,2
+D&A -1.589 0 -1.589 -1.490 6,6 -1.615 -1,6 -4.795 -4.419 8,5
+EBIT -2.190 6.983 4.793 5.285 -9,3 3.886 23,3 12.465 13.979 -10,8
+Resultado Financeiro -2.814 339 -2.475 -2.352 5,2 -2.398 3,2 -8.148 -8.167 -0,2
+EBT -5.003 7.322 2.318 2.934 -21,0 1.488 55,8 4.317 5.812 -25,7
+Imposto de Renda e 
+Contribuição Social (2) -462 53 -409 -1.168 -65,0 -244 67,9 -754 -1.454 -48,1
+Lucro Líquido -5.465 7.375 1.909 1.766 8,1 1.244 53,4 3.563 4.358 -18,2
+(1) Os valores em ambas as linhas referente ao 3T24 apresentados nesta divulgação trazem duas diferenças em relação ao originalmente divulgado em 
+06/11/2024. Enquanto a receita bruta de transmissão diminuiu em R$ 147 milhões, de R$ 4.467 milhões para R$ 4.320 milhões, o custo com encargo de 
+uso de rede, que compõe a linha de custos com energia para revenda, rede, combustível e construção, também diminuiu em R$ 147 milhões, de R$ 3.135 
+milhões para R$ 2.988 milhões. Desta forma, o efeito líquido no EBITDA e no lucro é nulo. A mudança em ambas as linhas tem como origem a revisão de 
+prática contábil em 2025 das eliminações de operações entre os segmentos de geração e transmissão da Companhia, dado que o encargo de uso de rede 
+pago por algumas usinas no segmento de geração tem como contrapartida o recebimento de receita das transmissoras do próprio grupo. Para manter a 
+comparabilidade entre 2024 e 2025, o valor das eliminações de 2024 foi revisado.
+(2) O valor ajustado originalmente publicado no 3T24 no dia 06-nov-2024 para a linha de Imposto de Renda e Contribuição Social foi de -R$ 410 milhões. 
+Posteriormente, parte do imposto diferido reconhecido no 4T24, no valor de R$ 758 milhões, teve seu fato gerador ocorrido no 3T24. Naquela ocasião, foi 
+realizado um ajuste não recorrente entre ambos os trimestres, realocando tal valor do 4T24 para o 3T24, sem efeito no ano de 2024. Desta forma, no 
+4T24, o valor ajustado referente ao 3T24 foi revisado, de - R$ 410 milhões para -R$ 1.168 milhões. Nesta divulgação, o valor apresentado para o 3T24 é o 
+revisado e mostrado no dia 13/03/2025, na divulgação do 4T24.
+8
+
+[p. 9]
+2. RESULTADO CONSOLIDADO AJUSTADO | IFRS E REGULATÓRIO
+DRE Regulatória Ajustada
+Esta seção apresenta a reconciliação entre a DRE Regulatória e a Societária, bem como os ajustes de 
+eventos não recorrentes na DRE Regulatória. 
+A reconciliação detalhada entre as Demonstrações de Resultado está disponível na planilha "Reconciliação 
+da DRE Regulatória e Societária", localizada em Informações Financeiras Históricas no site de RI da 
+Companhia.
+Tabela 5 - DRE regulatória x DRE IFRS (R$ mm)
+3T25 
+IFRS Diferença 3T25 Regulatório Ajuste de não recorrentes 3T25 Regulatório Ajustado 3T24 Regulatório Ajustado % A/A
+Geração 6.908 -159 6.749 26 6.775 8.001 -15,3
+Transmissão 4.646 99 4.745 0 4.745 4.320 9,8
+Outros 171 0 171 0 171 45 n.m.
+Receita Bruta 11.725 -60 11.665 26 11.691 12.366 -5,5
+(-) Deduções da Receita -1.723 0 -1.723 0 -1.723 -1.918 -10,2
+Receita Líquida 10.003 -60 9.943 26 9.969 10.449 -4,6
+Construção -1.262 1.262 0 0 0 0 0,0
+Energia comprada pra 
+revenda -1.714 0 -1.714 0 -1.714 -1.628 5,3
+Encargos sobre uso da rede -1.010 153 -857 0 -857 -869 -1,4
+Combustível para produção 
+de energia elétrica -193 0 -193 0 -193 -491 -60,6
+Energia revenda, rede, 
+combustível e construção -4.179 1.415 -2.764 0 -2.764 -2.988 -7,5
+Pessoal -832 -4 -836 82 -754 -915 -17,6
+Material -63 0 -63 0 -63 -64 -1,6
+Serviços -548 0 -548 15 -533 -568 -6,2
+Outros -180 8 -173 18 -155 -154 0,4
+Pessoal, Material, Serviços e 
+Outros -1.623 4 -1.620 114 -1.505 -1.702 -11,5
+Provisões Operacionais -236 378 142 65 207 405 -49,0
+Resultado da alienação de 
+ativos -7.071 249 -6.821 6.821 0 0 0,0
+Remensurações regulatórias - 
+Contratos de Transmissão 303 -303 0 0 0 0 0,0
+Outras receitas e despesas 43 0 43 -43 0 0 0,0
+Resultado, antes de Part. 
+Societárias -2.760 1.683 -1.077 6.983 5.906 6.165 -4,2
+Participações Societárias 1.265 -788 476 0 476 610 -21,9
+EBITDA -1.495 894 -601 6.983 6.382 6.775 -5,8
+D&A -1.156 -433 -1.589 0 -1.589 -1.490 6,6
+EBIT -2.651 461 -2.190 6.983 4.793 5.285 -9,3
+Resultado Financeiro -2.571 -242 -2.814 339 -2.475 -2.352 5,2
+EBT -5.222 219 -5.003 7.322 2.318 2.934 -21,0
+Imposto de Renda e 
+Contribuição Social -226 -236 -462 53 -409 -1.168 -65,0
+Lucro Líquido, continuadas -5.448 -17 -5.465 7.375 1.909 1.766 8,1
+9
+
+[p. 10]
+Ajustes de eventos não recorrentes
+Os valores a seguir referem-se a efeitos classificados como não recorrentes:
+▪ Receita de Geração: R$ 26 milhões, referente aos ajustes no valor das transações de venda das 
+térmicas.
+▪ PMSO (Pessoal): R$ 82 milhões, dos quais R$ 50 milhões relacionados às rescisões contratuais e R$ 
+32 milhões aos PDVs.
+▪ PMSO (Serviços): R$ 15 milhões, dos quais R$ 14 milhões referentes a consultorias jurídicas ligadas à 
+redução de contingências.
+▪ PMSO (Outros): R$ 18 milhões, associados aos compromissos assumidos com o plano de auto gestão, 
+que foi substituído por um plano de saúde administrado por operador especializado de mercado.
+▪ Provisão Operacional: R$ 65 milhões, composto por:
+▪ (a) R$ 266 milhões de provisões para litígios;
+▪ (b) -R$ 176 milhões de reversões de provisões relacionadas à perda estimada em financiamentos e 
+empréstimos;
+▪ (c) -R$ 29 milhões de apropriação de contratos onerosos;
+▪ (d) R$ 15 milhões de ajustes para implantação de ações preferenciais ligadas ao empréstimo 
+compulsório, e;
+▪ (e) -R$ 12 milhões de perdas estimadas em investimentos e por irrecuperabilidade de ativos.
+▪ Alienação de Ativos: R$ 6.821 milhões, referente aos impactos sem efeito caixa, mas reconhecidos no 
+resultado, que refletem transações de compra e venda de ativos, incluindo R$ 7.290 milhões da 
+assinatura para a venda de participação na Eletronuclear, -R$ 483 milhões do descruzamento de ativos 
+com a Copel, R$ 25 milhões da assinatura da venda de participação na EMAE e -R$ 11 milhões da 
+conclusão da venda das térmicas.
+▪ Outras Despesas e Receitas: -R$ 43 milhões, ajustado integralmente como não recorrente, dada a 
+natureza atípica dos itens que compõem esse item.
+▪ Resultado Financeiro: R$ 339 milhões , relacionados à atualização monetária de empréstimo 
+compulsório e de litígios.
+▪ Imposto de Renda e Contribuição Social: R$ 53 milhões, relacionado à despesa com imposto 
+corrente reconhecido sobre a conclusão da operação envolvendo a venda da UHE Mauá
+Resultado Regulatório: EBITDA Ajustado
+No 3T25, o EBITDA regulatório ajustado totalizou R$ 6.382 milhões , uma redução de R$ 393 milhões em 
+comparação ao 3T24, refletindo:
+(a) a queda da receita de geração, em função da alienação das térmicas do Amazonas e da venda 
+adicional de energia da UHE Tucuruí, que ocorreu apenas no 3T24; 
+(b) menores reversões de provisões; e 
+(c) menor contribuição de resultados de participações societárias. 
+Esses efeitos foram parcialmente compensados por:
+(a) aumento da receita de transmissão;
+(b) redução dos custos e despesas PMSO; e 
+(c) menores gastos com combustível para produção de energia elétrica devido à venda das térmicas do 
+Amazonas.
+O resultado das participações societárias foi de R$ 476 milhões no 3T25, e não inclui o resultado 
+proveniente da participação na Eletronuclear, devido a classificação para mantido para venda com a 
+assinatura do contrato de desinvestimento com a J&F.
+10
+
+[p. 11]
+Vale destacar que excluindo o resultado das térmicas do Amazonas, vendidas em maio de 2025, o EBITDA 
+aumentou R$ 214 milhões, de R$ 6.205 milhões no 3T24 para R$ 6.419 milhões no 3T25.
+Tabela 6 - EBITDA regulatório ajustado, sem térmicas (R$ mm)
+3T25 Térmicas 3T25 Excluindo Térmicas 3T24 Térmicas 3T24 Excluindo Térmicas
+Geração 6.775 200 6.575 8.001 1.281 6.720
+Transmissão 4.745 0 4.745 4.320 0 4.320
+Outros 171 0 171 45 0 45
+Receita Bruta 11.691 200 11.491 12.366 1.281 11.085
+(-) Deduções da Receita -1.723 -21 -1.702 -1.918 -219 -1.698
+Receita Líquida 9.969 179 9.790 10.449 1.062 9.387
+Energia revenda, rede, 
+combustível e construção -2.764 -210 -2.555 -2.988 -833 -2.154
+Pessoal, Material, Serviços e 
+Outros -1.505 -6 -1.499 -1.702 -35 -1.667
+Provisões Operacionais 207 0 207 405 376 29
+Resultado Operacional antes de 
+Part. Societárias 5.906 -37 5.942 6.165 570 5.595
+Participações Societárias 476 0 476 610 0 610
+EBITDA 6.382 -37 6.419 6.775 570 6.205
+A receita de geração foi de R$ 6.775 milhões no 3T25, com redução de R$ 1.225 milhões em relação ao 
+3T24. A receita recorrente caiu 15,3%, refletindo as quedas de 12,3% no volume e de 3,4% no preço médio. 
+A redução do volume e do preço pode ser explicada pela: 
+(a) venda das térmicas do Amazonas; e
+(b) venda adicional de energia da UHE Tucuruí no 3T24, devido à repactuação do risco hidrológico, 
+evento sem contrapartida no 3T25.
+Excluindo a receita faturada com energia vendida pelas térmicas, a receita de geração caiu R$ 144 milhões, 
+atingindo R$ 6.575 milhões no 3T25, refletindo a queda de 8,5% no volume, parcialmente compensada pelo 
+aumento de 6,9% no preço médio. No 3T25, a receita foi impactada positivamente pela maior liquidação de 
+energia no Mercado de Curto Prazo (MCP) no valor de R$ 1.755 milhões , frente aos R$ 695 milhões no 
+3T24. O avanço se deu em função do crescimento de 38% do preço médio e de 83% do volume.
+Os custos associados à geração atingiram R$ 2.555 milhões no 3T25, aumento de R$ 400 milhões vs. 
+3T24, dos quais R$ 380 milhões foram explicados por maior gasto com compra de energia para revenda.
+A receita de transmissão aumentou R$ 425 milhões em relação ao 3T24, atingindo R$ 4.745 milhões no 
+3T25, refletindo principalmente a redução do componente negativo de Parcela de Ajuste (PA).
+Os gastos com Pessoal, Material, Serviços e Outros (PMSO) caíram R$ 168 milhões , totalizando R$ 
+1.499 milhões no 3T25. A queda foi explicada pelas iniciativas adotadas pela Companhia visando o aumento 
+de eficiência.
+As provisões na visão regulatória foram uma reversão de R$ 207 milhões no 3T25, contra R$ 29 milhões 
+no 3T24. A variação reflete a reversão de R$ 170 milhões , no 3T25, relacionados a débitos da Amazonas 
+Energia com a AXIA Energia, após a Companhia ter obtido o desbloqueio de depósitos judiciais realizados 
+pela contraparte.
+O resultado do 3T25 foi marcado pelos efeitos positivos da maior receita de transmissão e menores 
+despesas de PMSO e provisões, que são fruto da contínua busca pela eficiência operacional e mitigação de 
+contingências. Tais avanços mais que compensaram a menor contribuição do segmento de geração e das 
+participações societárias, garantindo uma evolução resiliente do EBITDA.
+11
+
+[p. 12]
+Resultado IFRS: EBITDA e Lucro Ajustados
+O PMSO IFRS ajustado foi R$ 1.509 milhões , apresentando uma redução de 10,8% vs. 3T24, refletindo 
+economias ligadas aos ganhos de eficiência. No 3T25, o PMSO ajustado foi impactado pelos seguintes 
+efeitos: 
+(a) R$ 82 milhões relativos aos Programas de Demissão Voluntária (PDVs) e custos com rescisões; 
+(b) R$ 18 milhões associados aos compromissos assumidos com o plano de auto gestão, que foi 
+substituído por um plano de saúde administrado por uma operadora especializada de mercado;
+(c) R$ 15 milhões de custos com consultorias jurídicas relacionadas à estratég ia de redução de 
+contingências.
+O EBITDA IFRS ajustado atingiu R$ 5.890 milhões no 3T25, redução de 50,8% em relação ao 3T24. A 
+variação foi explicada principalmente pelo reconhecimento de Remensuração Regulatória de R$ 303 
+milhões no 3T25 vs. R$ 6.130 milhões no 3T24, quando foi refletido o impacto da Revisão Tarifária Periódica 
+de 2023, evento sem contrapartida em 2025.
+O Resultado Financeiro IFRS ajustado atingiu -R$ 2.385 milhões no 3T25, contra -R$ 2.225 milhões no 
+3T24.
+A despesa com Imposto de Renda e Contribuição Social IFRS ajustado alcançou R$ 173 milhões no 
+3T25 frente aos R$ 1.944 milhões no 3T24, devido ao menor reconhecimento de despesa com imposto 
+diferido.
+Desta forma, o Lucro Líquido IFRS ajustado atingiu R$ 2.176 milhões, redução de 68,0% vs. 3T24
+12
+
+[p. 13]
+3. COMERCIALIZAÇÃO DE ENERGIA
+As empresas AXIA Energia venderam 94,7 TWh de energia no 3T25, redução de 7,8% em relação aos 
+102,6 TWh negociados no 3T24. 
+Os volumes vendidos incluem a energia das usinas sob o regime de cotas, renovadas pela Lei 12.783/2013, 
+bem como das usinas sob regime de exploração ACL e ACR, e de Sociedades de Propósito Específico - 
+SPEs, consolidadas (UHEs Teles Pires e Baguari, a partir de out/23 e Retiro Baixo e Santo Antônio a partir 
+de nov/23).
+Tabela 7 - Balanço energético 3T25 (MWmed)
+2025 2026 2027
+Recursos (A) 16.905 16.984 17.833
+Recursos Próprios (1) (2) (3) (4) (5) 14.214 15.533 16.702
+ Hidráulico 13.938 15.251 16.420
+ Eólico 276 282 282
+Compra de Energia(6) 2.690 1.452 1.130
+Limite => Inferior Superior Inferior Superior Inferior Superior
+Vendas (B) 11.998 14.368 9.347 12.347 7.148 9.648
+ACR – Exceto cotas 3.498 3.597 3.148
+ACL – Contratos Bilaterais + Mercado de 
+Curto Prazo realizado (range)(6) 8.500 10.870 5.750 8.750 4.000 6.500
+Preços Médios Contratos realizados
+Limite => Inferior Superior Inferior Superior Inferior Superior
+Preço Médio de Contratos de Venda (ACR e 
+ACL - R$/MWh) 170 180 185 205 195 225
+ Saldo (A - B) 4.907 2.537 7.637 4.637 10.684 8.184
+ Saldo considerando estimativa de hedge 
+(9) 2.370 0 4.862 1.862 7.696 5.196
+Energia Descontratada considerando 
+estimativa de hedge (9) 14% 0% 29% 11% 43% 29%
+Contratos celebrados até 30/09/2025. 
+Cabe ressaltar que no balanço estão sendo consideradas as SPEs consolidadas pela AXIA Energia: UHE Santo Antônio (a partir do 3T22), UHEs Baguari 
+e Retiro Baixo (a partir do 4T23), seja nos recursos, nas vendas ou nos preços médios. Da mesma forma está sendo considerada a SPE consolidada pela 
+Eletronorte: UHE Teles Pires (a partir do 4T23).
+1. Não estão incluídos no balanço, seja nos recursos, requisitos (vendas) ou preços médios, os contratos dos Produtores Independentes de Energia (PIEs) 
+advindos do processo de desverticalização da Amazonas Distribuidora, os contratos das usinas térmicas por disponibilidade e as Cotas de Garantia Física.
+2. Nos Recursos Próprios estão incluídas as usinas da descotização (novos PIEs) e as Novas Outorgas (Sobradinho, Itumbiara, Tucuruí, Curuá-Una e 
+Mascarenhas de Moraes). Para os empreendimentos hidrelétricos, foi considerada uma estimativa de GFIS2, ou seja, a Garantia Física considerando os 
+Fatores de Ajustes em função das Perdas Internas, Perdas na Rede Básica e Disponibilidade e ajustes devido às particularidades do portfólio. 
+3. Estão considerados os valores revistos de Garantia Física conforme definido na Portaria Nº 709/GM/MME, de 30 de novembro de 2022 
+4. Com a descotização, as usinas atualmente em regime de cotas passam a ter uma nova concessão sob o regime de Produtor Independente de Energia 
+(PIE), ocorrendo de forma gradual em um período de 5 anos a partir de 2023. Os valores de Garantia Física foram definidos na Portaria GM/MME Nº 
+544/21. 
+5. Consideradas as novas outorgas de concessão a partir de 2023 para as usinas de Sobradinho, Itumbiara, Tucuruí, Curuá-Una e Mascarenhas de 
+Moraes, cujos valores de Garantia Física foram definidos na Portaria GM/MME Nº 544/21.
+6. Os saldos incluem transações intercompany, com efeitos nas linhas de compra de energia e vendas no ACL, nas seguintes quantidades: 
+aproximadamente 900 MWmed em 2025 e 200 MWmed em 2026 e 2027.
+Tabela 8 - Cotas de garantia física de usinas hidrelétricas (MWmed)
+2025 2026 2027
+Cotas de Garantia Física 2.626 1.313 0
+7. Não está incluída aqui a Garantia Física da UHE Jaguari, de 12,7 MWmed, cuja concessão está sob administração provisória da AXIA Energia.
+8. A descotização ocorre de forma gradual em um período de 5 anos a partir de 2023. Os valores de Garantia Física considerados a partir de 2023 foram 
+os definidos na Portaria GM/MME Nº 544/21.9. Os valores apresentam uma estimativa da energia descontratada. Para os anos de 2025, 2026 e 2027 
+considerou-se o valor estimado, de 81,8%. Cabe ressaltar que o valor médio histórico do GSF, de 2019 a 2024, é de 82,7%. Fonte: CCEE, obtido no site 
+da CCEE, no seguinte link: https://www.ccee.org.br/dados-e-analises/dados-geracao, na opção MRE no painel. Cabe ressaltar que trata-se apenas de uma 
+estimativa, baseada em fatos ocorridos no passado.
+13
+
+[p. 14]
+4. INVESTIMENTOS E PROJETOS DE EXPANSÃO
+Os investimentos totalizaram R$ 2.701 milhões no 3T25, sendo:
+(a) R$ 1.203 milhões em transmissão;
+(b) R$ 677 milhões no projeto HVDC de Itaipu;
+(c) R$ 289 milhões em geração;
+(d) R$ 282 milhões em participações;
+(e) R$ 181 milhões em infraestrutura; e
+(f) R$ 69 milhões na área ambiental
+Vale destacar o aumento dos investimento relativos à revitalização do Sistema de Corrente Contínua de Alta 
+Tensão de Itaipu (High Voltage Direct Current , HVDC), responsável pela transmissão de energia produzida 
+pela usina aos centros consumidores no Brasil. O projeto é resultado do convênio de cooperação técnica e 
+financeira entre a AXIA Energia, responsável pela execução, e Itaipu, que realiza o reembolso integral dos 
+valores. Os recursos são liberados antecipadamente ao desembolso de caixa
+Na área de infraestrutura, os investimentos foram distribuídos da seguinte forma:
+(a) 36% para tecnologia da informação; 
+(b) 28% para iniciativas socioambientais;
+(c) 19% para bens imóveis; e
+(d) 17% para bens móveis.
+Na área socioambiental destacam-se os investimentos relativos à manutenção de licenças de operação de 
+usinas e subestações, além de indenizações fundiárias.
+A abertura dos investimentos da holding e das principais subsidiárias pode ser consultada na planilha 
+operacional localizada na Central de Resultados do site de Relações com Investidores da Companhia.
+Tabela 9 - Investimentos realizados (R$ mm)
+3T25 3T24 % 2T25 % 9M25 9M24 %
+Geração Corporativo 289 534 -45,8 357 -19,1 813 1.768 -54,0
+Implantação /Ampliação 27 216 -87,7 45 -41,5 109 926 -88,3
+Manutenção 263 318 -17,3 312 -15,8 705 842 -16,3
+Transmissão 
+Corporativo 1.203 966 24,6 1.199 0,3 3.057 2.265 35,0
+Ampliação 135 93 44,3 85 58,1 274 119 n.m.
+Reforços e Melhorias 1.061 830 27,8 1.108 -4,3 2.765 2.039 35,6
+Manutenção 8 42 -81,8 5 44,7 19 107 -82,6
+Infraestrutura 181 104 73,7 117 54,5 341 173 97,7
+Ambiental 69 109 -36,4 67 3,4 184 242 -24,1
+SPEs 282 0 0,0 225 25,2 507 486 4,2
+Geração - Aportes 0 0 0,0 0 0,0 0 478 n.m.
+Geração - Aquisição 0 0 0,0 0 0,0 0 0 0,0
+Transmissão - Aportes 282 0 0,0 225 25,2 507 8 n.m.
+Transmissão - Aquisição 0 0 0,0 0 0,0 0 0 0,0
+Investimento para 
+Obrigação Especial - 
+HVDC Itaipu
+677 7 n.m. 77 n.m. 836 199 n.m.
+Total 2.701 1.720 57,0 2.043 32,2 5.739 5.132 11,8
+14
+
+[p. 15]
+Projetos de Expansão - Transmissão
+Empreendimentos de Grande Porte
+▪ Projetos: 2301, incluindo o projeto de Revitalização do Sistema HVDC de Itaipu. Ao longo do 3T25, a 
+amostra foi reduzida de 250 para 230 empreendimentos, em função de 21 energizações e da inclusão 
+de 1 nova autorização emitida pelo regulador.
+▪ Investimento estimado: R$ 6,21 bilhões (excluindo o projeto de Revitalização do Sistema HVDC de 
+Itaipu, dado que a AXIA Energia é responsável apenas por sua execução, não se beneficiando de 
+receita associada e sendo integralmente reembolsada pelo investimento).
+▪ Leilões: investimentos de R$ 6,24 bilhões, destacando-se as seguintes SPEs (Sociedades de Propósito 
+Específico): Nova Era Janapu, já considerada desde o 2T24; e Nova Era Catarina, Nova Era Ceará, 
+Nova Era Integração e Nova Era Teresina, incluídas no 3T24 2. No 3T25, deixou de incluir o lote 
+arrematado no leilão 01 de 2022, vencido pela Eletronorte, e concluído em agosto de 2025, com 13 
+meses de antecedência.
+▪ RAP adicional associada: R$ 1,7 bilhão entre 2025-2030.
+Empreendimentos de Pequeno Porte
+▪ Projetos: dados do Sistema de Gerenciamento dos Planos de Melhorias e Reforços da ONS (SGPMR).
+▪ Empreendimentos: 8.575 eventos de pequeno porte, em implantação ou a serem implantados, sendo 
+8.088 de melhoria e 487 de reforço.
+Tabela 10 - Portfolio de projetos de transmissão em implantação
+3T25 3T24 % 2T25 %
+Grande porte: reforço e melhoria
+Investimento estimado da carteira (R$ bi) (2) 6,2 6,8 -8,9 7,0 -10,6
+RAP adicional associada (R$ bi) 1,0 1,1 -8,9 1,1 -7,5
+# de projetos no começo do período (1) 244 245 -0,4 235 3,8
+(-) energizados -20 -5 n.m. -9 n.m.
+(+) novas autorizações 1 1 0,0 18 -94,4
+# de projetos no fim do período (1) 225 241 -6,6 244 -7,8
+Grande porte: ampliações (leilões em implantação) (3)
+Investimento estimado da carteira (R$ bi) 6,2 6,4 -1,8 6,4 -1,8
+RAP adicional associada (R$ bi) 0,7 0,7 6,5 0,7 3,2
+# de projetos no começo do período 6 1 n.m. 6 0,0
+(-) energizados -1 0 0,0 0 0,0
+(+) novas autorizações 0 5 n.m. 0 0,0
+# de projetos no fim do período 5 6 -16,7 6 -16,7
+Pequeno porte (4)
+# de projetos no fim do período 8.575 11.130 -23,0 9.194 -6,7
+melhoria 8.088 10.491 -22,9 8.668 -6,7
+reforço 487 639 -23,8 526 -7,4
+15
+1 Referentes a reforços, melhorias e empreendimentos de leilão. Considera os projetos cadastrados no Sistema de Gestão da Transmissão (SIGET) da 
+ANEEL. Os projetos são incluídos quando adicionados ao sistema, e excluídos quando são cancelados ou entram em operação comercial. Os 230 
+empreendimentos adicionarão 2.306 km de LT e 12.926 MVA em subestações.
+2 Cada uma das 5 SPEs constituídas detém os contratos assinados nos leilões de transmissão dos últimos anos. A SPE Nova Era Janapu detém o 
+contrato Nº 09/2023-ANEEL do 4º lote do leilão 01-2023; a SPE Nova Era Teresina detém o contrato Nº 04/2024-ANEEL do 1º lote do leilão 01-2024; a 
+SPE Nova Era Ceará detém o contrato Nº 06/2024-ANEEL do 3º lote do leilão 01-2024; a SPE Nova Era Integração detém o contrato Nº 08/2024-ANEEL 
+do 5º lote do leilão 01-2024; e a SPE Nova Era Catarina detém o contrato Nº 12/2024-ANEEL do 9o lote do leilão 01-2024.
+
+[p. 16]
+5. ENDIVIDAMENTO
+A dívida líquida totalizou R$ 42.577 milhões no 3T25, aumento de R$ 2.451 milhões e R$ 3.680 milhões , em 
+relação ao 2T25 e ao 3T24, respectivamente. 
+Como resultado da gestão de passivos e do aumento de 425 bps da taxa de juros básica (Selic), o prazo médio 
+da dívida consolidada da Companhia foi reduzido em 3,9 meses no 3T25, quando comparado ao 3T24. O custo 
+médio total passou de CDI + 0,59% a.a. para CDI + 0,64% a.a. no mesmo período.
+Tabela 11 - Dívida líquida (R$ mm)
+30/09/2025 30/06/2025 30/09/2024
+(+) Dívida Bruta, incluindo derivativos 72.005 71.042 68.774
+(+) Dívida Bruta 70.836 70.290 68.879
+(+) Derivativos (hedge cambial) Líquido 1.169 752 -105
+(-) (Caixa e Equivalente de caixa + Títulos e Valores Mobiliários 
+Circulante) 28.256 29.387 28.378
+(-) Caixa Restrito para Empréstimos e Financiamentos 987 899 875
+(-) Financiamentos a Receber 187 632 624
+Dívida Líquida 42.577 40.125 38.897
+Dívida Liquida/ EBITDA LTM Regulatório Ajustado 1,9x 1,8x 1,6x
+Prazo Médio da Dívida (meses) 55,5 56,5 59,4
+Abaixo estão apresentados o cronograma de amortização da dívida bruta e sua composição, de acordo com o 
+perfil de indexadores, bem como o spread sobre cada indexador, considerando a dívida bruta incluindo 
+derivativos. A abertura mais detalhada pode ser consultada na planilha operacional localizada na Central de 
+Resultados do site de Relações com Investidores da Companhia.
+Gráfico 1 - Cronograma de vencimento da dívida após o hedge (R$ bilhões)
+2,8
+9,7 7,5 6,1 7,8 7,3
+29,6
+1,1 0,0
+Taxa pré-fixada
+EUR
+CDI +
+CDI (%)
+IPCA
+TJLP
+2025 2026 2027 2028 2029 2030 De 
+2031 a 
+2035
+De 
+2036 a 
+2040
+De 
+2041 a 
+2045
+Tabela 12 - Composição da dívida protegida, incluindo hedge
+Indexador Custo Médio Saldo Total (R$ milhões) Participação no Total (%)
+CDI + CDI + 1,12% 38.353 53,3
+IPCA IPCA + 5,97% 24.304 33,8
+% do CDI 122% do CDI 4.546 6,3
+TJLP TJLP + 1,99% 3.031 4,2
+Taxa pré-fixada 5,72% ao ano 1.568 2,2
+Euro 2,65% ao ano 204 0,3
+Total 72.005 100,0
+16
+
+[p. 17]
+6. EMPRÉSTIMO COMPULSÓRIO
+A AXIA Energia tem implementado medidas para reduzir os riscos associados aos processos judiciais 
+relacionados ao empréstimo compulsório1 sobre energia elétrica. Nesse sentido, a Companhia tem fortalecido a 
+estratégia de defesa judicial, visando e buscando acordos com deságios e quitação plena das ações. Como 
+resultado das negociações:
+▪ O estoque de provisões atingiu R$ 11,7 bilhões no 3T25, redução de R$ 2,7 bilhões e R$ 362 milhões , 
+quando comparado ao 3T24 e ao 2T25, respectivamente, refletindo principalmente os acordos firmados. 
+▪ Reversão líquida de R$ 300 milhões devido aos acordos celebrados e às decisões favoráveis no 3T25. 
+▪ O valor registrado no 3T25 relativo à despesa financeira com atualização monetária foi de R$ 186 milhões;
+▪ No 3T25, os acordos celebrados propiciarão também, após as respectivas homologações, a liberação de 
+R$ 21 milhões em garantias e depósitos judiciais, totalizando R$ 2,6 bilhões desde o 3T22.
+Desde o 3T22, quando as negociações foram iniciadas, o estoque de provisões relacionadas ao empréstimo 
+compulsório caiu R$ 14,2 bilhões , atingindo R$ 11,7 bilhões no 3T25, mesmo considerando a atualização 
+monetária acumulada de R$ 2,9 bilhões no período. Além disso, os acordos celebrados permitiram a 
+eliminação de R$ 10,1 bilhões em riscos judiciais considerados " off balance": R$ 930 milhões em possíveis e 
+R$ 9,2 bilhões em remoto.
+Gráfico 2 - Estoque total provisão de empréstimo compulsório 3T25 x 3T24 (R$ bilhões)
+14,4
+-1,1
+-0,6
+-1,7
+0,7
+11,7
+Estoque 3T24
+Iniciativas p/ redução do risco 
+ex. deságio acordos
+Pagamentos em condenações 
+Reclassificação Acordo p/ 
+passivo
+Atualização monetária (Selic)
+Estoque 3T25
+Gráfico 3 - Estoque total provisão de empréstimo compulsório 3T25 x 2T25 (R$ bilhões)
+12,1
+-0,3
+-0,1
+-0,1
+0,2
+11,7
+Estoque 2T25
+Iniciativas p/ redução do risco
+ex. deságio acordos
+Pagamentos em condenações 
+Reclassificação Acordo p/ 
+passivo
+Atualização monetária (Selic)
+Estoque 3T25
+17
+1 A partir do 3T25, os valores apresentados nesta seção passaram a incluir integralmente todas às questões processuais relativas ao tema, e não apenas os 
+créditos escriturais, que representam cerca de 99% do saldo total e foram o foco desta seção nos trimestres anteriores. Dessa forma, os valores apresentados 
+nesta divulgação podem apresentar pequenas divergências em relação aos trimestres anteriores.
+
+[p. 18]
+7. FLUXO DE CAIXA
+No 3T25, merece destaque o pagamento de dividendos de R$ 4 bilhões em agosto de 2025.
+Tabela 13 - Fluxo de caixa (R$ mm) 
+3T25 3T24 ∆%
+Resultado Regulatório Ajustado, antes de Part. 
+Societária 5.906 6.165 -4,2
+Ajuste do EBITDA * -162 196 n.m.
+Imposto de Renda e Contribuição Social -154 -430 -64,1
+Capital de Giro 773 569 35,9
+Encargos da Privatização 0 0 n.m.
+Dividendos Recebidos 350 115 n.m.
+Fluxo de Caixa Operacional 6.713 6.614 1,5
+Investimentos ** -1.743 -1.911 -8,8
+Fluxo de Caixa Livre 4.970 4.704 5,7
+Serviço da Dívida -1.281 -1.379 -7,1
+Litígios -1.244 -1.141 9,1
+Cauções e Depósitos Vinculados 23 222 -89,8
+Pagamento de Previdência Complementar -116 -86 35,8
+Captação líquida de recursos *** -92 -1.878 -95,1
+Recebimento de empréstimos e encargos 
+financeiros 653 32 n.m.
+Alienação de Investimento em Participações 
+Societárias 18 2.281 -99,2
+Dividendos e Recompra de Ações -4.022 47 n.m.
+Caixa Líquido Livre -1.092 2.802 n.m.
+Variação de Caixa Restrito (curto e longo prazo) -205 -492 -58,3
+Variação de Aplicações Financeiras (longo prazo) -117 -16 n.m.
+Caixa Líquido -1.414 2.294 n.m.
+*Não considera o ajuste da linha de resultado de alienação de ativos.
+**Exclui aportes de geração.
+***Captação líquida de recursos: captação de dívida, líquida de despesas com emissão.
+18
+
+[p. 19]
+ANÁLISE DOS RESULTADOS FINANCEIROS E OPERACIONAIS 
+8. DESEMPENHO FINANCEIRO
+8.1. Resultado Operacional e Financeiro
+A tabela a seguir apresenta o resultado a partir da contribuição dos dois principais segmentos do Grupo AXIA 
+Energia, geração e transmissão, considerando receita e custos diretos. Os demais custos e despesas, o 
+resultado de participações societárias, resultado financeiro e tributos são analisados de forma consolidada.
+Tabela 14 - DRE 3T25 (R$ mm)
+DRE IFRS (a) Ajuste (b) Regulatório (c)=(a)+(b) Não Recorrente (d) Regulatório Ajustado (e)=(c)+(d) Geração (e.1) Transmissão (e.2) Outros (e.3) Eliminações (e.4) (1)
+Receita Bruta 11.725 -60 11.665 26 11.691 6.775 5.020 171 -276
+(-) Deduções -1.723 0 -1.723 0 -1.723 -889 -834 0 0
+Receita Líquida 10.003 -60 9.943 26 9.969 5.886 4.187 171 -276
+Energia Comprada para Revenda -1.714 0 -1.714 0 -1.714 -1.714 0 0 0
+Encargos de Uso de Rede -1.010 153 -857 0 -857 -1.132 0 0 276
+Custo com Combustíveis 
+(líquido de CCC) -193 0 -193 0 -193 -193 0 0 0
+Outros Custos de Geração (2) -31 0 -31 0 -31 -31 0 0 0
+Custo de Construção -1.262 1.262 0 0 0 0 0 0 0
+Remensuração Regulatória 303 -303 0 0 0 0 0 0 0
+Margem de Contribuição 6.095 1.052 7.147 26 7.173 2.815 4.187 171 0
+PMSO, excluídos os Outros Custos 
+de Geração (2) -1.592 4 -1.588 114 -1.474
+Provisões -236 378 142 65 207
+Resultado de Alienação de Ativos -7.071 249 -6.821 6.821 0
+Outras Receitas e Despesas 43 0 43 -43 0
+Resultado, antes de 
+Participações Societárias -2.760 1.683 -1.077 6.983 5.906
+Participações Societárias 1.265 -788 476 0 476
+EBITDA -1.495 894 -601 6.983 6.382
+D&A -1.156 -433 -1.589 0 -1.589
+EBIT -2.651 461 -2.190 6.983 4.793
+Resultado Financeiro -2.571 -242 -2.814 339 -2.475
+EBT -5.222 219 -5.003 7.322 2.318
+Imposto de Renda e 
+Contribuição Social -226 -236 -462 53 -409
+Lucro Líquido -5.448 -17 -5.465 7.375 1.909
+(1) Eliminações: referem-se à parcela de encargos de uso do sistema de transmissão pagos pelas geradoras da AXIA Energia às transmissoras da própria 
+Companhia, que as recebem na forma de RAP. Para fins de consolidação contábil (Tabelas 4 e 5), esses valores são eliminados da receita da transmissão e do 
+custo com encargos de uso da geração. Para fins gerenciais a receita bruta de transmissão no 3T25 é R$ 5.020 milhões, e incluindo a eliminação contábil de -
+R$ 276 milhões, se traduz em uma receita contábil de R$ 4.745 milhões. No caso do custo com encargos de conexão da geração, para fins gerenciais, o valor 
+no 3T25 é de -R$ 1.132 milhões, e incluindo a eliminação contábil de R$ 276 milhões, se traduz em um custo contábil de -R$ 857 milhões. 
+(2) As linhas de "Custo com Hedge do RRH" e "Outros Custos Operacionais", relacionadas a custos do segmento de geração, compõem a linha de "Outros 
+Custos do PMSO" na visão contábil. Para melhor compreensão da margem de contribuição por segmento, gerencialmente, ambas as linhas aqui estão 
+alocadas na composição da margem de contribuição de geração. No 3T25, o PMSO regulatório ajustado na visão contábil totalizou R$ 1.505 milhões , 
+composto por R$ 19 milhões de custos com hedge de RRH e R$ 13 milhões de outros custos operacionais de geração, ambos alocados na margem de 
+geração, e por R$ 1.474 milhões dos demais componentes de custos e despesas com pessoal, material, serviços e outros. Em paralelo, no 3T25, o PMSO 
+societário ajustado na visão contábil totalizou R$ 1.509 milhões, composto por R$ 19 milhões de custos com hedge de RRH e R$ 13 milhões de outros custos 
+operacionais de geração, ambos alocados na margem de geração, e por R$ 1.478 milhões das demais componentes de custos e despesas com pessoal, 
+material, serviços e outros.
+19
+
+[p. 20]
+Tabela 15 - DRE 3T24 (R$ mm)
+DRE IFRS (a) Ajuste (b) Regulatório (c)=(a)+(b) Não Recorrente (d) Regulatório Ajustado (e)=(c)+(d) Geração (e.1) Transmissão (e.2) Outros (e.3) Eliminações (e.4) (1)
+Receita Bruta 12.960 -594 12.366 0 12.366 8.001 4.575 45 -255
+(-) Deduções -1.918 0 -1.918 0 -1.918 -1.205 -715 2 0
+Receita Líquida 11.043 -594 10.449 0 10.449 6.796 3.860 47 -255
+Energia Comprada para Revenda -1.452 -176 -1.628 0 -1.628 -1.628 0 0 0
+Encargos de Uso de Rede -1.016 147 -869 0 -869 -1.123 0 0 255
+Custo com Combustíveis 
+(líquido de CCC) -491 0 -491 0 -491 -491 0 0 0
+Outros Custos de Geração (2) -100 0 -100 0 -100 -100 0 0 0
+Custo de Construção -1.055 1.055 0 0 0 0 0 0 0
+Remensuração Regulatória 6.130 -6.130 0 0 0 0 0 0 0
+Margem de Contribuição 13.059 -5.698 7.361 0 7.361 3.454 3.860 47 0
+PMSO, excluídos os Outros Custos de 
+Geração (2) -1.905 -10 -1.915 313 -1.602
+Provisões 229 656 885 -480 405
+Resultado de Alienação de Ativos 0 0 0 0 0
+Outras Receitas e Despesas 28 0 29 -29 0
+Resultado, antes de 
+Participações Societárias 11.411 -5.051 6.360 -195 6.165
+Participações Societárias 749 -138 610 0 610
+EBITDA 12.159 -5.189 6.970 -195 6.775
+D&A -990 -500 -1.490 0 -1.490
+EBIT 11.169 -5.689 5.480 -195 5.285
+Resultado Financeiro -2.788 -126 -2.915 563 -2.352
+EBT 8.381 -5.815 2.566 368 2.934
+Imposto de Renda e 
+Contribuição Social -1.186 776 -410 -758 -1.168
+Lucro Líquido 7.195 -5.039 2.156 -390 1.766
+(1) Eliminações: referem-se à parcela de encargos de uso do sistema de transmissão pagos pelas geradoras da AXIA Energia às transmissoras da própria 
+Companhia, que as recebem na forma de RAP. Para fins de consolidação contábil (Tabelas 4 e 5), esses valores são eliminados da receita da transmissão e do 
+custo com encargos de uso da geração. Para fins gerenciais a receita bruta de transmissão no 3T24 é R$ 4.575 milhões, e incluindo a eliminação contábil de -
+R$ 255 milhões, se traduz em uma receita bruta contábil de R$ 4.320 milhões. Já no caso do custo com enrgos de uso de geração, para fins gerenciais, o valor 
+no 3T24 é de -R$ 1.123 milhões, e incluindo a eliminação contábil de R$ 255 milhões, se traduz em um custo contábil de -R$ 869 milhões.
+(2) As linhas de "Custo com Hedge do RRH" e "Outros Custos Operacionais", relacionadas a custos do segmento de geração, compõem a linha de "Outros 
+Custos do PMSO" na visão contábil. Para melhor compreensão da margem de contribuição por segmento, gerencialmente, ambas as linhas aqui estão 
+alocadas na composição da margem de contribuição de geração. No 3T24, o PMSO regulatório ajustado na visão contábil totalizou R$ 1.702 milhões , 
+composto por R$ 91 milhões de custos com hedge de RRH e R$ 9 milhões de outros custos operacionais de geração, ambos alocados na margem de geração, 
+e por R$ 1.602 milhões das demais componentes de custos e despesas com pessoal, material, serviços e outros. Em paralelo, no 3T24, o PMSO societário 
+ajustado na visão contábil totalizou R$ 1.692 milhões , composto por R$ 91 milhões de custos com hedge de RRH e R$ 9 milhões de outros custos 
+operacionais de geração, ambos alocados na margem de geração, e por R$ 1.592 milhões das demais componentes de custos e despesas com pessoal, 
+material, serviços e outros.
+20
+
+[p. 21]
+8.2. Segmento de Geração
+Receita por Ambiente de Contratação
+A receita regulatória recorrente foi de R$ 6.775 milhões no 3T25, R$ 159 milhões inferior à receita de geração 
+ajustada IFRS. Essa diferença refletiu o tratamento da parte do faturamento com Amazonas Energia, 
+envolvendo valores anteriormente inadimplidos, após mudança na perspectiva de recebimento. Na visão IFRS, 
+tais valores foram reconhecidos na receita, enquanto no regulatório, onde isso já havia ocorrido, observou-se 
+também uma reversão de provisão reconhecida naquele momento. A diferença, que havia sido reconhecida nos 
+demais períodos de comparação, apresentou a mesma natureza à época.
+Vale destacar dois efeitos na venda de energia no mercado regulado: 
+(a) a extensão contratual e venda de energia adicional no 3T24, sem contrapartida no 3T25, relacionada à 
+repactuação do risco hidrológico da UHE Tucuruí; e 
+(b) a redução de 84% na receita com venda de energia térmica, que no 3T25 incluiu apenas a Usina Santa 
+Cruz, cuja venda foi concluída no dia 09 de outubro de 2025.
+Com relação ao efeito não recorrente no 3T25, foi registrado um reconhecimento negativo de R$ 26 milhões , 
+decorrente de ajustes no valor das vendas das térmicas. Esse impacto está ligado a obrigações e direitos com 
+prazos superiores aos das conclusões das transações. 
+Tabela 16 - Receita geração por ambiente de contratação (R$ mm)
+Receita Geração 
+Volume (MWmed) 
+(a) 
+Preço (R$/MWh) 
+(b)
+Receita Regulatória 
+(c) = (a) x (b)
+3T25 % A/A % T/T 3T25 % A/A % T/T 3T25 % A/A % T/T
+(+) Mercado Regulado 3.609 -40,1 -9,7 231 -24,5 -14,8 1.840 -54,7 -22,2
+Existentes 3.244 8,6 -1,0 220 4,0 0,7 1.576 13,0 0,7
+M&A's (1) 120 29,6 32,3 239 -19,9 -22,1 63 3,8 4,2
+Extensão UHE Tucuruí (2) 0 n.m. 0,0 0 0,0 0,0 0 n.m. 0,0
+Térmicas 246 -77,0 -61,0 369 -32,0 -31,3 200 -84,4 -72,9
+(+) Mercado Livre 7.435 3,9 -2,4 165 3,9 7,3 2.707 7,9 5,9
+Existentes 7.342 2,6 -3,6 165 3,7 7,1 2.669 6,4 4,4
+M&A's (1) 93 0,0 0,0 185 0,0 0,0 38 0,0 0,0
+(+) O&M (Quotas) 2.279 -42,2 1,4 94 11,7 -9,3 474 -35,4 -7,1
+(+) Mercado CP (CCEE)3 3.233 83,1 -19,2 246 37,9 41,9 1.755 152,4 15,9
+(=) Receita com Venda de 
+Energia 16.556 -12,3 -7,3 185 -3,4 4,1 6.775 -15,3 -2,5
+(+) Outros (4) — — — — — — -26 n.m. -76,7
+(=) Receita Total — — — — — — 6.749 -15,6 -1,3
+Recorrente — — — — — — 6.775 -15,3 -2,4
+Não recorrente — — — — — — -26 0,0 -76,1
+Receita Geração 
+Receita Regulatória
+(c)
+Ajuste Contábil 
+(d) (5)
+Receita Contábil
+(e) = (c) + (d)
+3T25 3T24 2T25 3T25 3T24 2T25 3T25 3T24 3T25x3T24 2T25 3T25x2T25
+Mercado Regulado 1.840 4.065 2.365 159 347 15 1.998 4.412 -54,7% 2.381 -16,1
+Mercado Livre 2.707 2.508 2.557 0 0 0 2.707 2.508 7,9% 2.557 5,9
+O&M (Quotas) 474 734 510 0 0 0 474 734 -35,4% 510 -7,1
+Mercado de curto 
+prazo (3) 1.755 695 1.514 0 0 0 1.755 695 152,4% 1.514 15,9
+Venda de energia 6.775 8.002 6.946 159 347 15 6.934 8.349 -16,9% 6.962 -0,4
+Outros (4) -26 -1 -111 0 0 0 -26 -1 n.m. -111 -76,7
+Receita Total 6.749 8.001 6.836 159 347 15 6.908 8.348 -17,2% 6.851 0,8
+Recorrente 6.775 8.001 6.945 159 347 15 6.934 8.348 -16,9% 6.960 -0,4
+Não recorrente -26 0 -109 0 0 0 -26 0 0,0% -109 -76,1
+21
+
+[p. 22]
+(1) M&A: envolve a receita de ativos nas quais a participação da AXIA Energia sofreu alteração ao longo dos últimos 12 meses.
+(2) Vendas de energia referentes ao 12º e ao 13º Leilões de Energia Existente pela UHE Tucuruí, como resultado da extensão do prazo de outorga pela 
+celebração de contrato de energia no Ambiente de Contratação Regulada, por conta da repactuação do risco hidrológico de geração de energia elétrica, 
+conforme Despacho ANEEL No 1.395, de 20 de maio de 2019. Receita no período de 12/07/24 e 30/08/24. Tal evento, que afetou apenas o 3T24 e sem 
+contrapartida, portanto, no 3T25, gerou um volume vendido de 1.872 MWm, receita reconhecida de R$ 1.327 milhões e preço médio de R$ 321/MWh.
+(3) Mercado de curto prazo: Câmara de Comercialização de Energia Elétrica (CCEE). 
+(4) Principal efeito: reconhecimento de um valor negativo, de R$ 26 milhões , referente a ajustes no valor das transações de venda das térmicas. Tal efeito 
+envolve obrigações e direitos com prazos superiores aos das conclusões das transações, e são tratados como valores não recorrentes ajustados na receita 
+bruta do período. 
+(5) As diferenças entre as receitas societária e regulatória no 2T25, 3T24 e 3T25 referem-se à energia vendida, porém inadimplida pela Amazonas Energia, que 
+não foi reconhecida como faturamento no resultado societário, mas sim no regulatório, onde foi integralmente provisionada.
+Margem Regulatória de Geração
+A margem de contribuição da geração captura o valor agregado do resultado desse segmento, com foco na 
+comercialização de energia e nos custos diretamente a ela associados, desconsiderando assim despesas com 
+Pessoal, Materiais, Serviços e Outros.
+A contribuição da geração para o resultado reduziu de R$ 3.454 milhões no 3T24 para R$ 2.815 milhões no 
+3T25, devido principalmente à alienação das térmicas do Amazonas em maio de 2025 e ao menor volume de 
+energia disponível devido ao GSF, que caiu de 79,1% para 64,9% no período. 
+Em termos unitários, a margem pelo volume de energia disponível (recurso energético) reduziu de R$ 96/MWh 
+no 3T24 para R$ 91/MWh no 3T25.
+É importante destacar que, excluindo o resultado de térmicas ( Tabela 18), a margem de contribuição unitária 
+avançou de R$ 86/MWh no 3T24 para R$ 93/MWh no 3T25, enquanto os recursos caíram de 15.368 MWm 
+para 13.819 MWm, reflexo da queda do GSF.
+Tabela 17 - Geração - margem de contribuição ajustada, regulatória (R$ mm)
+3T25 3T24 % 2T25 % 9M25 9M24 %
+Receita Bruta 6.775 8.001 -15,3 6.945 -2,4 20.744 20.676 0,3
+Tributos -616 -911 -32,4 -704 -12,5 -2.067 -2.407 -14,1
+Encargos -274 -294 -7,0 -380 -28,0 -968 -958 1,0
+Receita Líquida 5.886 6.796 -13,4 5.861 0,4 17.709 17.311 2,3
+Energia Comprada para Revenda -1.714 -1.628 5,3 -1.447 18,4 -4.905 -3.513 39,6
+Encargos de Uso de Rede (1) -1.132 -1.123 0,8 -1.082 4,7 -3.337 -3.257 2,4
+Custo com Combustíveis (líquido de CCC (2)) -193 -491 -60,6 -222 -13,0 -975 -1.461 -33,2
+Outros Custos de Geração -31 -100 -68,5 -38 -17,1 -106 -133 -20,4
+Custo com Hedge do RRH (3) -19 -91 -79,3 -17 11,7 -52 -112 -53,5
+Outros (4) -13 -9 40,1 -21 -40,1 -54 -21 n.m.
+Margem de Contribuição 2.815 3.454 -18,5 3.072 -8,4 8.386 8.947 -6,3
+Recursos (MWm) (5) 14.065 16.230 -13,3 15.786 -10,9 16.228 17.378 -6,6
+Margem Unitária (R$/MWh) 91 96 -6,0 89 1,7 79 78 0,7
+22
+
+[p. 23]
+Tabela 18 - Geração, excluindo térmicas - margem de contribuição ajustada, regulatória (R$ mm)
+3T25 3T24 % 2T25 % 9M25 9M24 %
+Receita Bruta 6.575 6.720 -2,1 6.205 6,0 18.512 16.943 9,3
+Tributos -594 -692 -14,0 -655 -9,2 -1.928 -1.807 6,7
+Encargos -274 -294 -7,0 -380 -28,0 -968 -933 3,7
+Receita Líquida 5.707 5.734 -0,5 5.170 10,4 15.616 14.203 10,0
+Energia Comprada para Revenda -1.703 -1.628 4,6 -1.300 31,0 -4.430 -3.064 44,6
+Encargos de Uso de Rede (1) -1.125 -1.075 4,7 -995 13,1 -3.112 -3.156 -1,4
+Custo com Combustíveis (líquido de CCC (2)) 0 0 0,0 0 0,0 0 0 0,0
+Outros Custos de Geração -31 -100 -68,5 -38 -17,1 -106 -133 -20,4
+Custo com Hedge do RRH (3) -19 -91 -79,3 -17 11,7 -52 -112 -53,5
+Outros (4) -13 -9 40,1 -21 -40,1 -54 -21 153,4
+Margem de Contribuição 2.847 2.931 -2,9 2.836 0,4 7.968 7.849 1,5
+Recursos (MWm) (5) 13.819 15.368 -10,1 15.310 -9,7 15.755 16.690 -5,6
+Margem Unitária (R$/MWh) 93 86 8,0 85 10,0 77 72 7,9
+(1) Não considera o efeito de eliminação contábil dos encargos pagos ao segmento de transmissão da própria Companhia.
+(2) CCC: Conta de Consumo de Combustíveis, responsável pela gestão dos pagamentos feitos por distribuidores e transmissores
+para subsidiar os custos de operação de geradores que atuam nos Sistemas Isolados.
+(3) RRH: Repactuação do Risco Hidrológico
+(4) Outros: contribuições associativas (CCEE e ONS) e outros custos.
+(5) Inclui recursos próprios e compras estruturais, que consideram contratos com mais de 12 meses de fornecimento.
+Tabela 19 - Geração - margem de contribuição ajustada, regulatória - por ambiente de contratação (R$ mm)
+3T25 3T24 2T25
+Total 
+(a)=(b)+(c)
++(d)+(e)
+Térmicas 
+(b)
+Cota 
+(c)
+ACR 
+(d)
+ACL + 
+MCP 
+(e)
+ACL + 
+MCP % A/A ACL + MCP % T/T
+Receita Bruta 6.749 174 474 1.640 4.462 3.202 39,3 4.051 10,1
+(-) Ajuste 26 26 0 0 0 0 0,0 0 0,0
+Receita Bruta Ajustada 6.775 200 474 1.640 4.462 3.202 39,3 4.051 10,1
+(-) Tributos -616 -21 -43 -148 -403 -330 22,4 -429 -5,9
+(-) Encargos Setoriais -274 0 -40 -71 -163 -125 30,6 -234 -30,5
+(-) Energia comprada para 
+revenda -1.714 -11 0 0 -1.703 -1.628 4,6 -1.300 31,0
+(-) Encargo de Uso do Sistema 
+(1) -1.132 -7 -201 -297 -628 -415 51,2 -595 5,4
+(-) Custo com Combustível (2) -193 -193 0 0 0 0 0,0 0 0,0
+(-) Outros Custos de Geração -31 0 -1 -22 -9 -4 99,5 -14 -37,9
+Custo com Hedge de GSF (3) -19 0 0 -19 0 0 0,0 0 0,0
+Outros (4) -13 0 -1 -3 -9 -4 99,5 -14 -37,9
+Margem de Contribuição (f) 2.815 -32 189 1.102 1.556 701 n.m. 1.478 5,3
+Recurso Próprio (MWm) 12.999 15.203 -14,5 14.820 -12,3
+(-) Cotas -2.279 -3.474 -34,4 -2.248 1,4
+(-) ACR (inclui térmica) -3.609 -6.194 -41,7 -3.993 -9,6
+(+) Compras Estruturais 1.066 1.028 3,8 966 10,4
+Recurso (MWm) (5) 8.177 6.562 24,6 9.545 -14,3
+Recurso (MWh mil) (4) (g) 18.055 14.490 24,6 20.845 -13,4
+R$/MWh (f)/(g) 86 48 78,3 71 21,5
+(1) Não considera o efeito de eliminação contábil dos encargos pagos ao segmento de transmissão da própria Companhia.
+(2) Líquido de CCC: Conta de Consumo de Combustíveis, responsável pela gestão dos pagamentos feitos por distribuidores e transmissores
+para subsidiar os custos de operação de geradores que atuam nos Sistemas Isolados.
+(3) RRH: Repactuação do Risco Hidrológico
+(4) Outros: contribuições associativas (CCEE e ONS) e outros custos.
+(5) Inclui recursos próprios e compras estruturais, que consideram contratos com mais de 12 meses de fornecimento.
+23
+
+[p. 24]
+A margem de contribuição da energia comercializada no ACL e liquidada no MCP avançou de R$ 48/MWh no 
+3T24 para R$ 86/MWh no 3T25, considerando o recurso disponível para alocação em ambos os ambientes.
+O aumento de recurso disponível foi resultado da combinação entre a liberação de volume decorrente da 
+descotização e a ausência, neste ano, da venda adicional da extensão contratual da UHE Tucuruí, fatores que 
+mais que compensaram o menor GSF, que caiu de 79,1% no 3T24 para 64,9% no 3T25. 
+A contribuição em volume financeiro avançou de R$ 701 milhões no 3T24 para R$ 1.556 milhões no 3T25, com 
+o incremento de receita mais que compensando os maiores gastos referentes à compra de energia, resultado 
+da estratégia de comercialização de energia no 3T25.
+8.3. Segmento de Transmissão
+Margem Regulatória de Transmissão
+A receita líquida de transmissão é formada pela receita bruta e por suas de duções e, para fins gerenciais, é 
+considerada como a margem de contribuição desse segmento.
+A receita bruta de transmissão considera como ponto de partida a Receita Anual Permitida (RAP) e Parcela de 
+Ajuste (PA) homologadas pela ANEEL para o atual ciclo tarifário, de 2025/26 (01/07/25 a 30/06/26). Vale 
+destacar que a PA do ciclo tarifário atual é um mecanismo previsto em contrato, utilizado pelo regulador para 
+compensar déficit ou superávit ocorrido entre a receita faturada e a RAP homologada no ciclo tarifário anterior. 
+Adicionalmente, a receita bruta é formada por: 
+(a) tributos e encargos que não compõem a RAP (gross up), 
+(b) descontos por indisponibilidade, 
+(c) adicional de RAP referente a novas instalações que entraram em operação após a homologação, 
+(d) itens de repasse, compensados no ciclo seguinte via PA. 
+Não são consideradas as eliminações contábeis, referentes à parcela de encargos de uso do sistema de 
+transmissão pagos por geradoras da AXIA Energia às transmissoras do próprio Grupo. As deduções incluem 
+despesas com tributos (PIS/COFINS, ICMS e ISS) e encargos setoriais (CDE, PROINFA, TFSEE, P&D e RGR).
+A receita líquida regulatória de transmissão foi de R$ 4.187 milhões , aumento de 8,5% em relação ao 3T24, 
+refletindo principalmente a redução da PA neste ciclo tarifário. 
+Vale destacar que a redução da RAP foi explicada: 
+(a) pelo reposicionamento do componente financeiro da RBSE;
+(b) pela análise de recursos sobre a RTP de 2023; e 
+(c) pela incorporação de adicional de RAP de projetos autorizados de reforço e melhoria.
+Leilão de transmissão 04/2025: arremate dos lotes 6A, 6B, 7A e 7B, com RAP de R$ 138,74 milhões e 
+CAPEX projetado pela ANEEL de R$ 1,63 bilhão, reforçando a competitividade e eficiência da AXIA Energia.
+Maiores detalhes e explicações estão disponíveis na planilha de "Suporte à Modelagem de Transmissão", 
+localizada na Central de Resultados do site de Relações com Investidores da Companhia, incluindo a análise 
+da receita de transmissão e o detalhamento da Parcela de Ajuste (PA).
+24
+
+[p. 25]
+Tabela 20 - Transmissão - margem de contribuição ajustada, regulatória (R$ mm)
+3T25 3T24 % 2T25 % 9M25 9M24 %
+RAP (1) 4.134 4.246 -2,6 4.246 -2,6 12.626 13.033 -3,1
+PA (1) -117 -382 -69,5 -382 -69,5 -881 -524 68,2
+RAP & PA Homologados 4.018 3.864 4,0 3.864 4,0 11.745 12.509 -6,1
+Tributos e Encargos (2) 685 551 24,3 585 17,0 1.858 1.739 6,8
+Desconto por indisponibilidade (3) -51 -60 -15,3 -64 -21,5 -181 -184 -1,5
+Adicional de RAP: novas instalações 9 4 n.m. 40 -77,1 80 57 41,1
+Itens de repasse (4) 176 71 n.m. 157 11,9 476 416 14,5
+Outros descasamentos (5) 184 146 25,9 179 2,8 499 565 -11,6
+Receita Bruta (6) 5.020 4.575 9,7 4.760 5,5 14.477 15.102 -4,1
+Tributos -479 -423 13,1 -457 4,8 -1.341 -1.373 -2,3
+Encargos Setoriais (7) -355 -292 21,8 -332 7,0 -1.025 -918 11,7
+Receita Líquida 4.187 3.860 8,5 3.972 5,4 12.111 12.810 -5,5
+(1) RAP e PA: considera 1/4 dos valores homologados para o ciclo tarifário vigente no trimestre, e proporcional no acumulado do ano.
+(2) Considera (a) PIS/COFINS e (b) CDE/Proinfa. Ambos são pass through e a AXIA Energia recolhe tais valores junto a consumidores.
+(3) Desconto associado a Parcela Variável (PV), a suspensão de Pagamento Base por indisponibilidade (PB) 
+e a pendências em Termos de Liberação (TL).
+(4) Itens nos quais as transmissoras têm apenas papel de arrecadador e que serão descontados em PA no ciclo tarifário seguinte.
+Envolve diferenças de apuração da RAP homologada para o faturamento pela ONS liga a rateio de antecipação, bem como
+ao recebimento, do Fundo CDE, via CCEE, de valores não arrecadados em função de descontos incidentes sobre as tarifas.
+(5) Outros descasamentos em relação à RAP homologada para o ciclo tarifário corrente, como por exemplo, (a) descasamento
+entre o Reajuste Anual da Transmissão e da Distribuição, (b) AVCs complementares associados à rescisão de Contratos de 
+Uso do Sistema de Transmissão (CUST) por geradores, etc.
+(6) Não considera o efeito de eliminação contábil dos encargos pagos ao segmento de transmissão da própria Companhia.
+Eliminações: operações que ocorrem entre as empresas do mesmo grupo, ou seja, empresas AXIA Energia.
+Referem-se à parcela de encargos de uso do sistema de transmissão pagos pelas geradoras da AXIA Energia às transmissoras 
+do próprio grupo, que as recebem na forma de RAP. Para fins de consolidação, esses valores são eliminados na receita 
+da transmissão e no custo com encargos de uso da geração.
+(7) Encargos Setoriais inclui: RGR, P&D, TFSEE, CDE e Proinfa.
+8.4. Custos e Despesas Operacionais - IFRS
+Tabela 21 - Custos e despesas operacionais (R$ mm)
+3T25 3T24 % 2T25 % 9M25 9M24 %
+Energia comprada para revenda 1.714 1.452 18,0 1.356 26,5 4.630 2.986 55,0
+Encargos sobre uso de rede 
+elétrica 1.010 1.016 -0,6 955 5,8 2.961 2.986 -0,9
+Combustível p/ prod. de energia 
+elétrica 193 491 -60,6 222 -13,0 975 1.461 -33,2
+Construção 1.262 1.055 19,7 1.036 21,9 3.043 2.483 22,6
+Pessoal, Material, Serviços e 
+Outros 1.623 2.005 -19,0 1.631 -0,5 4.912 5.261 -6,6
+Depreciação e Amortização 1.156 990 16,7 1.131 2,1 3.399 2.955 15,0
+Provisões Operacionais 236 -229 n.m. 133 77,1 495 -160 n.m.
+Resultado da alienação de ativos 7.071 0 n.m. 105 n.m. 7.176 115 n.m.
+Remensurações regulatórias -303 -6.130 -95,1 3.433 n.m. 4.082 -6.130 n.m.
+Custos e Despesas 13.961 650 n.m. 10.002 39,6 31.674 11.958 n.m.
+Eventos não recorrentes
+(-) Eventos PMSO não 
+recorrentes -114 -313 -63,6 -228 -50,0 -534 -516 3,3
+(-) Provisões não recorrentes -218 480 n.m. 43 n.m. -215 994 n.m.
+(-) Resultado de alienação de 
+ativos -7.071 0 n.m. -105 n.m. -7.176 -115 n.m.
+(-) Remensuração regulatória 0 0 0,0 -3.433 n.m. -3.433 0 0,0
+Custos e Despesas Ajustados 6.559 817 n.m. 6.279 4,5 20.316 12.320 64,9
+25
+
+[p. 26]
+As linhas de energia comprada para revenda, encargos de uso de rede elétrica, combustível para produção de 
+energia elétrica e construção compõem as margens de geração e de transmissão. Segue abaixo a explicação 
+das demais linhas, incluindo o PMSO (Pessoal, Material, Serviços e Outros).
+Pessoal, Material, Serviços e Outros
+▪ Pessoal: saldo ajustado de R$ 750 milhões no 3T25, queda de 17% em relação ao 3T24, destaque para: 
+▪ Economia de R$ 152 milhões impulsionados pelos Planos de Demissão Voluntária (PDVs), sendo: 
+▪ (a) R$ 118 milhões por redução do quadro de funcionários; 
+▪ (b) R$ 64 milhões refletindo a capitalização dos custos com pessoal, mais aderente ao crescente 
+nível de investimentos; e
+▪ (c) R$ 34 milhões em ganhos de eficiência com reestruturação de equipes, novos modelos de 
+contratação e maior centralização de processos . Esses efeitos foram parcialmente compensados 
+por novas admissões, que elevaram as despesas em R$ 37 milhões.
+▪ Efeitos não-recorrentes: R$ 82 milhões, sendo:
+▪ (a) R$ 32 milhões com PDVs; 
+▪ (b) R$ 29 milhões referentes à multa de FGTS ligada a rescisões; e
+▪ (c) R$ 21 milhões com custos de rescisão contratual.
+▪ Material: saldo ajustado de R$ 63 milhões no 3T25, em linha com os R$ 64 milhões do 3T24.
+▪ Não houve efeitos não-recorrentes no trimestre.
+▪ Serviços: saldo ajustado de R$ 533 milhões no 3T25, uma redução de R$ 36 milhões frente a o 3T24, 
+refletindo principalmente otimizações e economias nos serviços de viagens, seguros e consultorias.
+▪ Efeitos não-recorrentes: R$ 15 milhões, sendo R$ 14 milhões relacionados aos honorários de êxitos 
+pagos em decorrência de defesas jurídicas ligadas à estratégia de redução de contingências.
+▪ Outros: saldo ajustado de R$ 163 milhões no 3T25, aumento de R$ 6 milhões em relação ao 3T24. 
+▪ Efeitos não-recorrentes: R$ 18 milhões associados aos compromissos assumidos com o plano de 
+auto gestão, que foi substituído por um plano de saúde administrado por uma operadora 
+especializada de mercado.
+Para maiores detalhes sobre o PMSO, incluindo a quebra por empresa e por natureza de outros custos e 
+despesas, favor consultar o Anexo 2 - Detalhamento do PMSO.
+26
+
+[p. 27]
+Tabela 22 - PMSO IFRS detalhado (R$ mm)
+3T25 3T24 % 2T25 % 9M25 9M24 %
+Pessoal 800 902 -11,3 899 -11,0 2.555 2.771 -7,8
+PDV 32 2 n.m. 98 -67,5 226 45 n.m.
+Material 63 64 -1 41,9 51 157,2 147 7
+Serviços 548 569 -3,6 456 20,1 1.442 1.464 -1,6
+Outros 180 468 -61,5 136 32,4 533 833 -36,0
+outros custos de geração 31 100 -68,5 38 -17,1 106 133 -20,4
+outras despesas 149 368 -59,6 98 51,5 427 700 -39,0
+PMSO (a) 1.623 2.005 -19,0 1.631 -0,5 4.912 5.261 -6,6
+Pessoal -50 0 0,0 -115 -56,8 -218 0 0,0
+PDV -32 -2 n.m. -98 -67,5 -226 -45 n.m.
+Material 0 0 0,0 0 0,0 0 0 0,0
+Serviços -15 0 0 -15 -1,6 -72 -42,2 70
+Outros -18 -311 -94,4 0 0,0 -18 -429 -95,9
+outros custos de geração 0 0 0,0 0 0,0 0 0 0,0
+outras despesas -18 -311 -94,4 0 0,0 -18 -429 -95,9
+Não recorrente (b) -114 -313 -63,6 -228 -50,0 -534 -516 3,3
+Pessoal 750 902 -16,9 784 -4,3 2.336 2.771 -15,7
+PDV 0 0 0,0 0 0,0 0 0 0,0
+Material 63 64 -1,5 42 51,3 157 147 6,6
+Serviços 533 569 -6,3 441 20,9 1.370 1.422 -3,7
+Outros 163 157 3,9 136 19,5 516 404 27,6
+outros custos de geração 31 100 -68,5 38 -17,1 106 133 -20,4
+outras despesas 131 57 n.m. 98 33,6 410 271 51,2
+PMSO ajustado (c) = (a) + (b) 1.509 1.692 -10,8 1.403 7,6 4.379 4.744 -7,7
+PMSO excluindo Térmicas * (c.1) 1.503 1.657 -9,3 1.374 9,4 4.307 4.641 -7,2
+despesas 1.471 1.558 -5,5 1.336 10,2 4.201 4.508 -6,8
+custos de geração ** 31 100 -68,5 38 -17,1 106 133 -20,4
+Térmicas (c.2) 6 35 -81,6 29 -78,3 72 103 -29,8
+* Térmicas: PMSO das térmicas vendidas a Âmbar. No 2T25, considera valores para UTE Santa Cruz para todo o período. 
+Para as demais plantas, cuja venda foi concluída em 15 de maio de 2025, considera valores até essa data.
+** Outros custos operacionais: ligados a atividade de geração, incluindo seguro GSF, contribuição associativa e outros.
+Remensuração Regulatória e Resultado de Alienação de Ativos
+▪ Remensuração Regulatória - contratos de transmissão: receita de R$ 303 milhões no 3T25, refletindo 
+as mudanças do fluxo de recebimento de Receita Anual Permitida (RAP) dos contratos de concessão de 
+transmissão, após o processo de reajuste anual para o ciclo 2025/26, iniciado em julho de 2025.
+▪ Resultado de alienação de ativos: despesa de R$ 7.071 milhões no 3T25, devido principalmente aos 
+ajustes sem efeito caixa em função de negociações concluídas no período, com destaque para:
+▪ -R$ 7.290 milhões: venda da participação integral na Eletronuclear para a J&F; 
+▪ +R$ 234 milhões: descruzamento de ativos com a Copel, com a aquisição da UHE Colíder em troca 
+de participação na UHE Jayme Canet Junior (Mauá) e na transmissora Mata de Santa Genebra;
+▪ -R$ 25 milhões: venda da participação integral na EMAE para a Sabesp;
+▪ +R$ 11 milhões: conclusão da venda das térmicas do Amazonas para a Âmbar Energia.
+27
+
+[p. 28]
+Provisões Operacionais
+Tabela 23 - Provisões operacionais - IFRS (R$ mm)
+ 3T25 3T24 % 2T25 % 9M25 9M24 %
+Provisões / Reversões Operacionais 
+Provisão/Reversão para Litígios -419 418 n.m. 22 n.m. -505 646 n.m.
+Perdas estimadas em investimentos 12 11 1,3 21 -45,9 45 -18 n.m.
+Mensuração a valor justo de ativo disp. p/ venda 0 -30 n.m. 0 0,0 0 137 n.m.
+Provisão para Implantação de Ações - Empréstimo 
+Compulsório -15 3 n.m. -20 -23,5 -10 -47 -79,3
+PECLD - Financiamentos e empréstimos 176 -6 n.m. -10 n.m. 166 -10 n.m.
+PECLD - Consumidores e revendedores -35 -59 -40,3 -79 -55,1 -133 -235 -43,2
+PECLD - Outros créditos 175 -10 n.m. -26 n.m. 142 -125 n.m.
+Contratos onerosos 29 52 -44,1 30 -0,7 88 136 -35,3
+Resultado laudos atuariais -95 -128 -26,0 -92 3,4 -279 -384 -27,2
+Outras * -63 -23 n.m. 20 n.m. -10 60 n.m.
+Provisões / Reversões Operacionais -236 229 n.m. -133 77,1 -495 160 n.m.
+Itens não recorrentes / Ajustes 218 -480 n.m. -43 n.m. 215 -994 n.m.
+Provisão para Litígios 419 -418 n.m. -22 n.m. 505 -646 n.m.
+Mensuração a valor justo de ativo disp. p/ venda 0 0 0,0 0 0,0 0 -293 n.m.
+Perdas estimadas em investimentos -12 -11 1,3 -21 -45,9 -45 18 n.m.
+Provisão para Implantação de Ações - Empréstimo 
+Compulsório 15 -3 n.m. 20 -23,5 10 47 -79,3
+PECLD - Financiamentos e empréstimos -176 6 n.m. 10 n.m. -166 10 n.m.
+Contratos onerosos -29 -52 -44,1 -30 -0,7 -88 -136 -35,3
+Perda estimada por irrecuperabilidade de ativos 
+(Impairment) 0 0 n.m. 0 0,0 0 6 n.m.
+Restituição RGR 0 0 0,0 0 0,0 0 0 0,0
+Provisões/Reversões Ajustadas -18 -251 -92,7 -177 -89,7 -281 -834 -66,4
+Os valores positivos na tabela acima significam reversão de provisão.
+* Inclui principalmente impairment e restituição de RGR.
+▪ Provisão para litígios: provisão de R$ 419 milhões no 3T25 comparado à reversão de R$ 418 milhões no 
+3T24. A variação de R$ 837 milhões foi explicada por constituição de provisão em processos de natureza 
+cível, tributária, trabalhista, regulatória, ambiental, fundiária e outras, compensados em parte pela reversão 
+de provisão em processos de empréstimo compulsório.
+▪ Empréstimo Compulsório: no 3T25 contribuiu com uma reversão líquida de R$ 300 milhões, comparado 
+à reversão líquida de R$ 374 milhões no 3T24, refletindo acordos celebrados e decisões favoráveis. Vale 
+destacar que a atualização monetária relacionada à provisão de empréstimo compulsório, 
+diferentemente do que ocorre nas demais provisões, foi reconhecida no resultado financeiro.
+▪ Eventos de outras naturezas: no 3T25 contribuíram com uma provisão de R$ 566 milhões, comparado a 
+reversão de R$ 324 milhões no 3T24, uma variação de R$ 890 milhões, explicado principalmente: 
+▪ (a) por provisões constituídas no 3T25, relacionadas a causas de diversas naturezas, incluindo cível, 
+trabalhista e regulatória;
+▪ (b) pela atualização monetária que contribuiu com uma despesa de R$ 153 milhões no 3T25, frente a 
+R$ 270 milhões no 3T24. 
+▪ Mensuração a valor justo de ativo disponível para venda: sem reconhecimentos no 3T25, após 
+constituição de provisão de R$ 30 milhões no 3T24.
+▪ Implantação de Ações - Empréstimo Compulsório: provisão de R$ 15 milhões no 3T25, frente a 
+reversão de R$ 3 milhões no 3T24. O resultado refletiu o efeito da marcação a mercado sobre o valor da 
+cotação média dos últimos 12 meses das ações preferenciais classe B emitidas pela Companhia em 
+decorrência de montantes contabilizados no balanço e a elas atrelados.
+28
+
+[p. 29]
+▪ Perdas estimadas em créditos de liquidação duvidosa (PECLD) - Financiamentos e Empréstimos: a 
+reversão de R$ 176 milhões incluiu R$ 140 milhões relacionados aos valores provisionados relativos a 
+garantias dadas pela AXIA Energia ligados a empréstimos assumidos pela Amazonas Energia.
+▪ Perdas estimadas em créditos de liquidação duvidosa (PECLD) - Outros Créditos : reversão de R$ 
+175 milhões no 3T25 frente à provisão de R$ 10 milhões no 3T24. No 3T25, foram revertidos R$ 170 
+milhões, relacionados a débitos da Amazonas Energia com a AXIA Energia, após a Companhia ter obtido o 
+desbloqueio de depósitos judiciais realizados pela contraparte.
+▪ Contratos Onerosos: reversão de R$ 29 milhões no 3T25 frente à reversão de R$ 52 milhões no 3T24, 
+refletindo variação no valor dos contratos no período.
+▪ Resultado de laudos atuariais: provisão de R$ 95 milhões no 3T25 contra R$ 128 milhões no 3T24, 
+referente ao custo dos juros e custo do serviço corrente definidos nos laudos para o exercício de 2024, 
+devido à redução de base passiva.
+8.5. Participações Societárias - IFRS
+O resultado das participações societárias apresentou os seguintes destaques:
+▪ Eletronuclear: não reconhecimento de resultado referente ao 3T25 em função da assinatura de acordo 
+para a venda da participação.
+▪ Transnorte Energia (TNE): o incremento no resultado no 3T25 refletiu o efeito positivo da remensuração 
+regulatória, devido ao acordo entre ANEEL e a TNE para buscar o reequilíbrio econômico e financeiro à 
+concessão, que estabeleceu o valor teto da RAP em R$ 592 milhões, data-base jul/25, e prorrogou o prazo 
+da concessão de 17 para 27 anos. Na visão societária isso gerou uma revisão, aumentando o valor do 
+ativo contratual, e consequente, gerando resultado positivo em remensuração regulatória.
+▪ Equatorial Maranhão: reconhecimento dos resultados do 3T25 e do 2T25.
+Tabela 24 - Participações societárias (R$ mm)
+3T25 3T24 % 2T25 % 9M25 9M24 %
+Destaques Coligadas (a) 395 620 -36,3 -45 -972,7 626 1.620 -61,3
+Eletronuclear (1) 0 237 n.m. -147 n.m. -84 540 -115,5
+ISA Energia 191 231 -17,4 25 673,3 350 649 -46,1
+Equatorial Maranhão 149 71 109,7 0 n.m. 149 149 0,0
+Outras Equivalências 55 81 -32,2 78 -29,3 211 282 -25,2
+Destaques SPEs (b) 751 37 n.m. -148 -608,6 651 204 218,7
+IE Madeira 55 11 398,5 31 75,7 170 128 32,9
+Belo Monte Transmissora 
+de Energia S.A. - BMTE 95 50 90,6 27 253,9 178 157 13,5
+Transnorte Energia (TNE) 649 62 949,3 -128 -609,3 572 97 490,9
+Chapecoense 59 47 26,0 55 7,3 157 129 22,2
+ESBR Jirau 57 14 308,9 22 161,4 118 55 115,4
+IE Garanhuns 15 5 191,3 23 -37,9 53 45 17,2
+Norte Energia -179 -152 17,9 -179 0,2 -598 -406 47,3
+Outras Participações (c) 
+(2) 119 92 29,7 67 77,9 230 279 -17,5
+Total (a) + (b) + (c) 1.265 749 69,0 -126 n.m. 1.507 2.103 -28,4
+Eventos não recorrentes
+(-) Remensuração 
+Regulatória, ISA Energia 0 0 0,0 116 n.m. 116 0 0,0
+Participações Societárias 
+Ajustadas 1.265 749 69,0 -10 n.m. 1.623 2.103 -22,8
+(1) Não reconhecimento de resultado referente ao 3T25, em função da assinatura de acordo para a venda da participação.
+(2) Inclui movimentações do valor reconhecido no balanço patrimonial de coligadas mensuradas a valor justo / custo.
+29
+
+[p. 30]
+8.6. Resultado Financeiro - IFRS
+Tabela 25 - Resultado financeiro (R$ mm)
+3T25 3T24 % 2T25 % 9M25 9M24 %
+Receitas Financeiras 1.272 815 56,0 1.069 19,0 3.414 2.181 56,5
+Receitas de juros, multas, comissões e taxas 38 45 -16,1 -13 n.m. 61 117 -47,5
+Receita de aplicações financeiras 1.228 835 47,1 1.101 11,5 3.387 1.955 73,2
+Acréscimo moratório sobre energia elétrica 16 18 -9,0 36 -54,4 85 96 -12,3
+Outras receitas financeiras 68 -24 n.m. 24 n.m. 121 178 -32,0
+(-) Tributos sobre receitas financeiras -79 -59 32,9 -79 -1,0 -240 -165 45,4
+Despesas Financeiras -2.269 -2.583 -12,2 -2.380 -4,7 -7.112 -7.551 -5,8
+Encargos de dívidas -1.444 -1.437 0,5 -1.528 -5,5 -4.613 -4.561 1,1
+Empréstimos, financiamentos e fornecedores -1.439 -1.306 10,2 -1.459 -1,3 -4.402 -4.162 5,8
+Leasing -5 -131 -96,3 -70 -93,0 -211 -399 -47,2
+Encargos de obrigações com CDE (1) -665 -622 7,0 -661 0,6 -1.988 -1.844 7,8
+Encargos de revitalização de bacias hidrográficas (1) -80 -85 -5,6 -79 2,1 -237 -253 -6,1
+Desconto financeiro por antecipação - ENBpar 0 0 0,0 0 0,0 0 0 0,0
+Outras despesas financeiras -79 -440 -82,1 -111 -29,3 -274 -893 -69,3
+Itens Financeiros Líquidos -1.575 -1.020 54,4 -1.244 26,6 -4.921 -3.328 47,9
+Variações monetárias -196 0 n.m. -264 -25,8 -744 -536 38,7
+Empréstimo Compulsório -186 -214 -13,0 -178 4,9 -539 -593 -9,1
+Outros -9 215 n.m. -86 -89,0 -205 57 n.m.
+Variações cambiais 6 25 -77,3 -12 n.m. -1 27 n.m.
+Variação do valor justo de dívida protegida (hedge) 
+líquida do derivativo -1.056 -729 44,8 -587 79,8 -2.609 -1.292 n.m.
+Atualizações monetárias - CDE (1) -270 -236 14,5 -316 -14,5 -1.318 -1.096 20,2
+Atualizações monetárias - bacias hidrográficas (1) -42 -43 -2,0 -52 -19,6 -207 -196 5,5
+Variação de instrumento financeiro derivativo não 
+ligado a proteção de dívida -17 -38 -55,5 -14 22,0 -41 -234 -82,5
+Resultado Financeiro -2.571 -2.788 -7,8 -2.555 0,6 -8.620 -8.698 -0,9
+Ajustes
+Atualização monet. emp. compulsórios 186 214 -13,0 178 4,9 539 593 -9,1
+Baixa de depósitos judiciais em decorrência do 
+projeto de conciliação 0 100 n.m. 0 0,0 0 100 n.m.
+Ajuste da taxa de correção de depósitos judiciais 0 249 n.m. 0 0,0 0 249 n.m.
+Resultado Financeiro Ajustado -2.385 -2.225 7,2 -2.377 0,3 -8.081 -7.756 4,2
+(1) Essas obrigações foram estabelecidas pela Lei 14.182/21 ( Desestatização da Eletrobras, agora AXIA Energia), como uma das condições para a obtenção 
+das novas outorgas de concessão de geração de energia elétrica por mais 30 anos. Os encargos foram calculados a partir dos dados publicados na Resolução 
+CNPE 015/2021: (a) do valor presente da obrigação; (b) do fluxo futuro de pagamentos; e (c) do prazo de pagamentos.
+As principais variações no 3T25 foram:
+▪ Receitas Financeiras: aumento da receita financeira de R$ 815 milhões no 3T24 para R$ 1.272 milhões 
+no 3T25, explicado principalmente pela elevação do CDI médio no período, de 10,4% no 3T24 para 14,9% 
+no 3T25, além do aumento de 6% do caixa médio.
+▪ Encargos de dívida: despesa de R$ 1.444 milhões no 3T25, em linha com o 3T24. Com relação às 
+despesas com juros sobre empréstimos e financiamentos, houve um aumento devido principalmente à 
+elevação da taxa Selic, além do aumento de 3% no nível médio de dívida bruta. O crescimento dessa 
+despesa foi em parte compensado pela redução dos encargos de leasing, em razão do fim dos contratos 
+de compra de energia de usinas térmicas localizadas no estado do Amazonas em mai/25, tratados como 
+arrendamento.
+30
+
+[p. 31]
+▪ Variações monetárias: despesa de R$ 196 milhões no 3T25, frente a zero no 3T24. Essa linha é formada 
+pela atualização monetária de dois componentes principais:
+▪ Atualização de processos de empréstimo compulsório: despesa de R$ 186 milhões no 3T25 contra R$ 
+214 milhões no 3T24, refletindo a redução no estoque de provisão que compensou o aumento da taxa 
+Selic;
+▪ Demais linhas: despesa de R$ 9 milhões no 3T25 frente a uma receita de R$ 215 milhões no 3T24, 
+principalmente devido aos eventos ocorridos em 2024 e sem contrapartida em 2025, como a redução da 
+receita de juros sobre dividendos devidos causada por reclassificação para Outras Receitas, o 
+reconhecimento de receitas de atualização monetária e a baixa de depósitos judiciais.
+▪ Outras despesas financeiras: R$ 79 milhões no 3T25, frente a R$ 440 milhões no 3T24. A redução foi 
+explicada principalmente pela baixa de depósitos judiciais de R$ 371 milhões no 3T24, sem contrapartida 
+no 3T25.
+8.7. Tributos Correntes e Diferidos - IFRS
+No 3T25, não houve eventos que mereçam ser destacados na linha de tributos.
+▪ Efeitos não-recorrentes : R$ 53 milhões , relacionado à despesa com imposto corrente reconhecido 
+sobre a conclusão da operação envolvendo a venda da UHE Mauá.
+Tabela 26 - Imposto de renda e contribuição social (R$ mm)
+3T25 3T24 % 2T25 % 9M25 9M24 %
+Imposto de renda e contribuição social correntes -425 -229 85,7 -254 67,5 -757 -723 4,8
+Imposto de renda e contribuição social diferidos 198 (957) n.m. 1356 -85,4 1.569 435 n.m.
+Imposto de renda e contribuição social total -226 -1.186 -80,9 1102 n.m. 811 -288 n.m.
+Ajustes
+Constituição de IR diferidos s/ prejuízo fiscal - Holding 0 0 0,0 0 0 0 -1.074 n.m.
+Reversão de IR diferido s/ prejuízo fiscal c/ venda de 
+Candiota 0 0 0,0 0 0 0 292 n.m.
+Constituição/Reversão de IR Diferido s/ Prejuízo Fiscal (1) 0 0 0,0 0 0 0 -782 n.m.
+Ajuste IR Diferido s/ Remensuração Regul.: RBSE 
+Financeiro (2) 0 -758 n.m. -882 n.m. -882 -758 16,4
+Ajuste IR Diferido sobre diferença alíquota Eletronorte 0 0 0,00 -393 n.m. -393 0 0,0
+IR Corrente sobre venda de ativos 53 0 0,00 0 0,00 53 0 0,0
+Imposto de renda e contribuição social ajustada -173 -1.944 -91,1 -173 0,1 -411 -1.828 -77,5
+(1) AXIA Energia e CGT Eletrosul no 2T24. Na Holding, houve reconhecimento de R$ 1.074 milhões referentes a créditos tributários originados por prejuízos 
+fiscais acumulados pela AXIA Energia, após reestimação de lucros tributárias em função da incorporação de Furnas. Na CGT Eletrosul, houve a reversão de 
+R$ 292,4 milhões, com base em alteração de expectativa de conclusão de operações necessárias para o aproveitamento do crédito tributário gerado pela 
+alienação da UTE Candiota.
+(2) IR Diferido reconhecido no 2T25 sobre a Remensuração Regulatória, reflexo das mudanças do fluxo de pagamento do componente financeiro da RBSE dos 
+contratos prorrogados pela Lei nº 12.783/2013, para os ciclos 2025-26, 2026-27 e 2027-28, em face da decisão da diretoria da ANEEL na 20ª Reunião Pública 
+Ordinária em 10 de junho de 2025.
+31
+
+[p. 32]
+9. DESEMPENHO OPERACIONAL
+9.1. Segmento de Geração
+Ativos de Geração
+No 3T25 a Companhia possuía 82 usinas, sendo 47 hidrelétricas, 33 eólicas, 1 térmica e 1 solar, considerando 
+os empreendimentos corporativos, propriedade compartilhada e participações via SPEs. Em comparação com 
+o 2T25, a redução em 6 ativos ocorreu devido à transferência da participação das usinas térmicas na 
+Eletronorte. Além disso, houve a aquisição da usina UHE Colíder e transferência da UHE Gov. Jayme Canet da 
+CGT Eletrosul. 
+Já a capacidade instalada do portfólio atingiu 44.368 MW no 3T25, sendo 99% proveniente de fontes limpas 
+com baixa emissão de gases de efeito estufa e representando 17% do total instalado no Brasil.
+Tabela 27 - Ativos de geração
+Fonte Capacidade Instalada (MW) Garantia Física (MWmed) Energia Gerada Acc. (GWh)
+Hídrica (47 usinas) 43.073 21.028 106.338
+Térmica (1 usinas) 500 401 1.336
+Eólica (33 usinas) 794 226 1.415
+Solar (1 usina) 0,93 0,00 0,73
+Total (82 usinas) 44.368 21.655 109.090
+No 3T25, a quantidade de energia gerada total da AXIA Energia caiu 7,6% em relação ao 3T24.
+Gráfico 4 - Geração líquida de energia AXIA Energia (GWh)
+1.124 456
+24.942 26.522
+0 603
+23.901 24.504
+3T24 (GWh)
+3T25 (GWh)
+Térmica Eólica e Solar Hídrica Total
+Dados do Sistema – Capacidade Instalada e Geração 
+No 3T25, a capacidade instalada Brasil totalizou 258.111,84 MW. 
+Gráfico 5 - Capacidade instalada Brasil - por fonte
+ 
+43%
+19%
+13%
+7%
+1%
+17%
+Hidráulica
+Térmica
+Eólica
+Solar
+Nuclear
+Geração Distribuída
+Fonte: Sistema de Informações de Geração da ANEEL – SIGA
+32
+
+[p. 33]
+Gráfico 6 - Energia gerada SIN – Sistema Interligado Nacional (GWh)
+Eólica Hidrelétrica Nuclear Solar Térmica
+01/25 02/25 03/25 04/25 05/25 06/25 07/25 08/25 09/25
+0
+100
+200
+300
+400
+500
+600
+700
+0
+500
+1.000
+1.500
+2.000
+Fonte: Resultados da Operação 01/01 a 30/09/2025 – ONS
+Dados do Sistema – Mercado de Energia
+Tabela 28 - PLD
+ 3T25 3T24 ∆% 2T25 ∆%
+Mercado
+GSF (%) 64,92 79,10 -14,2 p.p. 95,64 -30,7 p.p.
+PLD SE (R$/MWh) 252,43 169,67 48,8 216,45 16,6
+PLD S (R$/MWh) 252,98 169,72 49,1 224,26 12,8
+PLD NE (R$/MWh) 239,96 142,72 68,1 154,07 55,8
+PLD N (R$/MWh) 250,98 172,55 45,5 154,59 62,4
+Gráfico 7 - GSF (%)
+Mês 2021 2022 2023 2024 2025
+Setembro 52% 71% 83% 73% 63%
+63%
+2021 2022 2023 2024 2025
+jan fev mar abr mai jun jul ago set out nov dez
+25%
+50%
+75%
+100%
+125%
+33
+
+[p. 34]
+Gráfico 8 - Média histórica da energia natural afluente (ENA) – SIN (%)
+Durante o período seco, o 3T25 apresentou ENAs abaixo da média histórica, com recuperação apenas no 
+submercado Sul em setembro.
+98
+166
+66
+85 95 90 74
+Mín e Máx (2020-2024) Realizado
+03/23 05/23 07/23 09/23 11/23 01/24 03/24 05/24 07/24 09/24 11/24 01/25 03/25 05/25 07/25 09/25
+0
+20
+40
+60
+80
+100
+120
+140
+160
+180
+Gráfico 9 - Energia armazenada no reservatórios (EAR) – SIN (%)
+O SIN encerrou o 3T25 com Energia Armazenada em 55%, mais que 6% acima do que o 3T24, com destaque 
+para o submercado Norte encerrando em 82,4%, 7% acima do maior nível dos últimos cinco anos.
+85 84
+66
+66
+45
+70
+55
+Mín e Máx (2020-2024) Realizado
+03/23 05/23 07/23 09/23 11/23 01/24 03/24 05/24 07/24 09/24 11/24 01/25 03/25 05/25 07/25 09/25
+0
+20
+40
+60
+80
+100
+9.2. Segmento de Transmissão
+A Companhia encerrou o 3T25 com 74,8 mil km de linhas de transmissão, em comparação com o 74 mil km do 
+3T24. 
+O número de subestações no 3T25 foi de 412, considerando 296 próprias e 116 de terceiros.
+Tabela 29 - Linhas de transmissão (km)
+Empresa Próprias (1) Em Parceria (2) Total
+Chesf 22.191 1.832 24.023
+Eletronorte 10.988 2.013 13.001
+CGT Eletrosul 12.182 5 12.187
+AXIA Energia 22.129 3.429 25.558
+Total 67.490 7.279 74.769
+(1) Inclui TMT (100%) e VSB (100%).
+(2) Parcerias consideram extensões proporcionais ao capital investido pelas Empresas AXIA Energia no empreendimento.
+34
+
+[p. 35]
+9.3. ESG
+Tabela 30 - Indicadores ESG 3T25
+Pilar Indicador 3T24 3T25 Variação
+Planeta
+Emissões de Gases de Efeito Estufa 
+acumulada no ano (1)
+2.605.049 1.252.389 -52%
+ (Escopos 1, 2 e 3) (tCO2e) 
+Pessoas
+Taxa de Frequência de Acidentes - 
+empregados próprios (com 
+afastamento)
+0,54 0,49 -9%
+Mulheres no quadro de pessoal (%) 21% 25% 4 p.p.
+Cargos de liderança ocupados por 
+mulheres (%) (2) 26% 25% -1 p.p.
+Governança Apuração de denúncias atendidas no prazo (%) 100,0% 98,0% -2 p.p.
+Os valores apresentados são preliminares e não assegurados, podendo ser ajustados conforme os processos de apuração, verificação e 
+atualização dos dados.
+(1) A redução das emissões está associada, principalmente, à retirada da geração termelétrica a carvão, da matriz elétrica da Companhia.
+(2) A redução foi devida às saídas no PDV. 
+(3) O percentual de tratamento de denúncia continua dentro do parâmetro estabelecido na meta.
+35
+
+[p. 36]
+10. ANEXOS
+10.1. Anexo 1 - Receita Societária de Geração e de Transmissão
+A Receita de Geração é formada por: 
+(a) receita com suprimento, obtida com clientes que não sejam consumidores finais (distribuidores, 
+comercializadores e geradores, via contratos no ACR e ACL); 
+(b) receita com fornecimento para consumidores finais (indústria e comércio, via apenas contratos no ACL); 
+(c) receita na CCEE, via liquidação no Mercado de Curto Prazo (MCP); e 
+(d) receita de operação e manutenção (remuneração de energia vendida no regime de cotas).
+Tabela 31 - Receita operacional de geração (R$ mm) 
+3T25 3T24 % 2T25 % 9M25 9M24 %
+Suprimento 4.235 6.224 -32,0 4.374 -3,2 13.951 13.632 2,3
+Fornecimento 422 695 -39,3 433 -2,6 1.349 2.248 -40,0
+CCEE 1.777 695 n.m. 1.534 15,8 3.923 1.911 n.m.
+Receita de operação e manutenção (O&M) 474 734 -35,4 509 -6,9 1.503 2.319 -35,2
+Receitas de Geração 6.908 8.348 -17,2 6.851 0,8 20.727 20.109 3,1
+Itens não recorrentes – ajustes 26 0 0,0 109 -76,1 135 0 0,0
+Receita Geração Ajustada 6.934 8.348 -16,9 6.960 -0,4 20.862 20.109 3,7
+A Receita de Transmissão é formada por:
+(a) receita de O&M, associada à operação e manutenção de ativos; 
+(b) receita de construção, associada aos investimentos realizados (apropriados e alocados) nos projetos em 
+andamento; e
+(c) receita contratual (financeira), ligada à aplicação dos índices inflacionários aos saldos dos ativos de 
+contrato de cada concessão.
+Tabela 32 - Receita operacional de transmissão (R$ mm) 
+3T25 3T24 % 2T25 % 9M25 9M24 %
+Receita de operação e manutenção (O&M) 2.096 1.906 10,0 2.065 1,5 6.177 5.863 5,4
+Receita de construção 1.182 1.044 13,2 1.063 11,2 2.991 2.351 27,2
+Receita contratual – transmissão 1.367 1.616 -15,4 1.951 -29,9 5.742 5.306 8,2
+Receitas de Transmissão 4.646 4.566 1,7 5.079 -8,5 14.910 13.520 10,3
+Itens não recorrentes – ajustes 0 0 0,0 0 0,0 0 0 0,0
+Receita Operacional de Transmissão 
+Ajustada 4.646 4.566 1,7 5.079 -8,5 14.910 13.520 10,3
+36
+
+[p. 37]
+10.2. Anexo 2 - Detalhamento do PMSO
+Tabela 33 - PMSO 3T25 (R$ mm)
+PMSO 3T25
+(R$ milhões)
+AXIA Energia 
+Holding
+Chesf
+Eletronorte
+CGT Eletrosul
+Total
+Eliminação
+Consolidado 
+IFRS
+Pessoal 357 199 165 78 800 0 800
+Plano de Demissão Consensual 
+(PDC) – Provisão 18 5 7 1 32 0 32
+Material 26 17 13 8 63 0 63
+Serviços 315 101 100 33 548 0 548
+Outros 97 11 50 26 184 -3 180
+PMSO 813 333 336 146 1.627 -3 1.623
+Eventos não recorrentes
+Pessoal: PDV,PDC -18 -5 -7 -1 -32 0 -32
+Pessoal: Custos com rescisão -20 -8 -17 -4 -50 0 -50
+Serviços: Consultorias jurídicas -13 -1 0 0 -14 0 -14
+Serviços: Outras despesas -1 0 0 0 -1 0 -1
+Outros: Subsídio Temporário de 
+Autogestão conforme ACT -7 -4 -5 -2 -18 0 -18
+Outros: Condenações Judiciais 0 0 0 0 0 0 0
+Outros: Baixa de depósitos 
+Judiciais 0 0 0 0 0 0 0
+PMSO Ajustado 754 314 306 138 1.513 -3 1.509
+Tabela 34 - PMSO 3T24 (R$ mm)
+PMSO 3T24
+(R$ milhões)
+AXIA Energia 
+Holding
+Chesf
+Eletronorte
+CGT Eletrosul
+Total
+Eliminação
+Consolidado 
+IFRS
+Pessoal 349 226 208 81 864 38 902
+Plano de Demissão 
+Voluntária (PDV) – 
+Provisão
+0 3 -2 0 2 0 2
+Material 13 13 27 5 59 6 64
+Serviços 242 112 121 39 514 54 569
+Outros 340 51 96 3 491 -22 468
+PMSO 945 405 451 129 1.929 76 2.005
+Eventos não recorrentes
+Pessoal: PDV,PDC 0 -3 2 0 -2 0 -2
+Pessoal: PLR Retroativo 0 0 0 0 0 0 0
+Serviços: Comissões 
+referentes ao empréstimo 
+compulsório
+0 0 0 0 0 0 0
+Outros: Condenações 
+Judiciais -90 0 0 0 -90 0 -90
+Outros: Baixas de 
+depósitos Judiciais -216 0 0 -5 -221 -221
+PMSO Ajustado 638 401 453 124 1.616 76 1.692
+37
+
+[p. 38]
+Tabela 35 - Outros custos e despesas (R$ mm)
+3T25 3T24 % 2T25 % 9M25 9M24 %
+Condenações, perdas e custas 
+judiciais 60 57 4,8 5 n.m. 136 218 -37,8
+GSF 19 92 -79,6 17 11,7 52 116 -55,1
+Seguros 24 39 -37,5 24 -0,1 71 86 -16,9
+Investidas 28 10 n.m. 18 56,0 55 43 29,0
+Doações e contribuições 16 17 -2,4 29 -43,4 66 81 -18,0
+Aluguel 23 21 8,7 19 25,5 65 43 50,1
+Recuperação de despesa -61 -24 n.m. -12 n.m. -85 -70 21,2
+Tributos 23 -1 n.m. 17 35,4 85 36 n.m.
+Outros 48 257 -81,4 20 n.m. 88 280 -68,6
+Total 180 468 -61,5 136 32,4 533 833 -36,0
+10.3. Anexo 3 - Financiamentos e empréstimos concedidos (Recebíveis)
+Gráfico 10 - Recebíveis (R$ bilhões)
+0,3 0,5 0,4 0,3 0,3
+3,4
+5,2
+0,3 0,3 0,3 0,3 0,3
+2,5
+4,2
+Controladora Consolidado
+2025 2026 2027 2028 2029 Após 2029 TOTAL
+Não inclui PECLD de R$ 3.989 milhões e encargo circulante.
+38
+
+[p. 39]
+10.4. Anexo 4 - Demonstrações Contábeis
+Tabela 36 - Balanço patrimonial (R$ mil)
+ ATIVO
+CIRCULANTE
+ Caixa e equivalentes de caixa 6.094.879 16.387.945 18.501.361 26.572.522
+ Caixa restrito 291.512 449.865 633.628 508.734
+ Títulos e valores mobiliários 2.659.286 6.421.621 9.754.362 8.951.838
+ Clientes 1.631.063 1.686.293 5.424.445 5.911.477
+ Ativo contratual transmissão 4.770.067 4.634.940 10.437.925 10.539.570
+ Financiamentos, empréstimos e debêntures 154.280 971.555 12.035 475.459
+ Remuneração de participações societárias 834.923 2.286.078 612.283 721.683
+ Impostos e Contribuições 1.475.741 1.734.020 2.252.359 2.831.414
+ Imposto de renda e contribuição social 0 0 0 0
+ Direito de ressarcimento 726.346 865.299 755.287 893.254
+ Almoxarifado 64.663 50.576 389.921 441.471
+ Instrumentos financeiros derivativos 0 500.998 14.521 692.660
+ Outros 1.160.175 729.718 1.871.101 1.408.919
+19.862.935 36.718.908 50.659.228 59.949.001
+ Ativos mantidos para venda 1.714.953 1.353.723 1.714.953 4.502.102
+21.577.888 38.072.631 52.374.181 64.451.103
+NÃO CIRCULANTE
+REALIZÁVEL A LONGO PRAZO
+Caixa restrito 1.571.968 1.430.650 3.154.083 3.170.749
+Remuneração de participações societárias 181.049 181.049 0 0
+Direito de ressarcimento 175.127 692.126 184.770 720.081
+Financiamentos, empréstimos e debêntures 1.091.319 1.894.322 174.489 163.140
+Clientes 142.506 171.017 533.852 602.411
+Títulos e valores mobiliários 440.401 421.933 556.422 433.341
+Impostos e Contribuições 2.357.835 2.356.369 2.743.790 2.715.445
+Imposto de renda e contribuição social diferido 0 0 5.819.907 5.673.011
+Cauções e depósitos vinculados 4.058.212 3.693.298 5.630.275 5.190.344
+Ativo contratual transmissão 18.751.225 21.223.812 53.241.622 56.848.086
+Instrumentos financeiros derivativos 336.887 1.269.677 675.939 1.544.095
+Outros 1.544.215 2.000.734 916.853 1.645.570
+30.650.744 35.334.987 73.632.002 78.706.273
+INVESTIMENTOS
+ Avaliados por equivalência patrimonial 106.916.968 112.300.525 23.316.774 30.727.405
+ Mantidos a valor justo 1.039.837 839.546 1.039.837 861.234
+Outros Investimentos 19.387 19.387 97.988 97.987
+107.976.192 113.159.458 24.454.599 31.686.626
+IMOBILIZADO 7.793.047 6.137.175 39.091.851 36.854.055
+INTANGÍVEL 20.487.718 20.779.526 76.949.814 78.173.273
+166.907.701 175.411.146 214.128.266 225.420.227
+TOTAL DO ATIVO 188.485.589 213.483.777 266.502.447 289.871.330
+CONTROLADORA CONSOLIDADO
+PASSIVO E PATRIMÔNIO LÍQUIDO 30/9/2025 31/12/2024 30/9/2025 31/12/2024
+CIRCULANTE
+ Empréstimos, financiamentos e debêntures 6.983.721 8.329.966 11.210.908 12.809.872
+ Empréstimo compulsório - Acordos 919.573 1.105.534 919.573 1.105.534
+ Empréstimo compulsório 1.223.269 1.326.925 1.223.269 1.326.925
+CONTROLADORA CONSOLIDADO
+30/09/2025 31/12/2024 30/09/2025 31/12/2024
+
+[p. 40]
+Fornecedores 1.347.599 1.145.660 2.785.590 2.756.329
+ Impostos e Contribuições 192.487 378.569 912.729 1.146.169
+ Imposto de renda e contribuição social 0 0 0 0
+ Contratos onerosos 0 0 122.446 62.711
+ Remuneração aos acionistas 40.975 2.486.778 43.889 2.490.668
+ Obrigações com pessoal 437.231 483.779 924.361 1.065.114
+ Obrigações de ressarcimento 0 0 61.141 55.517
+ Benefício pós-emprego 954 993 303.525 289.840
+ Provisões para litígios 719.478 1.719.453 802.073 1.791.088
+ Encargos setoriais 66.655 105.352 824.847 820.067
+ Obrigações da Lei 14.182/2021 1.021.349 814.819 3.660.074 2.916.199
+ Devoluções RGR 645.715 492.276 645.715 492.276
+ Arrendamentos 35.260 8.429 73.821 26.861
+ Instrumentos financeiros derivativos 955.644 824.125 1.615.340 1.175.652
+Outros 169.284 458.746 1.178.740 1.105.094
+14.759.194 19.681.404 27.308.041 31.435.916
+Passivos associados a ativos mantidos para venda 0 0 0 194.454
+14.759.194 19.681.404 27.308.041 31.630.370
+NÃO CIRCULANTE
+ Empréstimos, financiamentos e debêntures 36.111.757 40.926.187 59.625.045 62.810.702
+ Remuneração aos acionistas 0 0 585 0
+ Fornecedores 0 0 9.481 7.959
+ Provisões para litígios 14.448.899 15.658.437 20.714.103 21.583.395
+ Benefício pós-emprego 411.672 418.586 3.390.699 3.416.381
+ Obrigações da Lei 14.182/2021 11.131.450 11.111.765 39.103.575 39.105.924
+ Devoluções RGR 109.993 439.974 109.993 439.974
+ Contratos onerosos 0 0 474.039 621.725
+ Obrigações de ressarcimento 0 0 22.004 15.286
+ Arrendamentos 105.820 79.994 419.823 155.722
+ Concessões a pagar - Uso do bem Público 38.164 38.175 559.738 543.867
+ Adiantamentos para futuro aumento de capital 120.226 108.938 120.226 108.938
+ Instrumentos financeiros derivativos 230.088 2.283 230.088 2.283
+ Encargos setoriais 517.209 744.833 753.080 942.348
+ Impostos e Contribuições 91.486 103.682 244.381 372.488
+ Imposto de renda e contribuição social diferidos 793.701 1.566.835 2.973.385 4.287.021
+ Outros 326.043 739.459 1.103.759 1.827.171
+64.436.508 71.939.148 129.854.004 136.241.184
+PATRIMÔNIO LÍQUIDO
+ Capital social 70.135.201 70.099.826 70.135.201 70.099.826
+ Gastos com emissão de ações -108.186 -108.186 -108.186 -108.186
+ Reservas de capital e Instrumentos Patrimoniais Outorgados 13.920.382 13.910.768 13.920.382 13.910.768
+ Ações em tesouraria -2.252.578 -2.223.011 -2.252.578 -2.223.011
+ Reservas de lucros 39.905.041 43.905.041 39.905.041 43.905.041
+ Dividendo adicional proposto 0 1.535.196 0 1.535.196
+ Lucros acumulados -7.117.905 0 -7.117.905 0
+ Outros resultados abrangentes acumulados -5.192.068 -5.256.409 -5.192.068 -5.256.409
+ Valores reconhecidos em ORA classificados como mantidos 
+para venda 0 0 0 0
+Participação de acionistas controladores 109.289.887 121.863.225 109.289.887 121.863.225
+Participação de acionistas não controladores 0 0 50.515 136.551
+CONTROLADORA CONSOLIDADO
+30/09/2025 31/12/2024 30/09/2025 31/12/2024
+
+[p. 41]
+TOTAL DO PATRIMÔNIO LÍQUIDO 109.289.887 121.863.225 109.340.402 121.999.776
+TOTAL DO PASSIVO E DO PATRIMÔNIO LÍQUIDO 188.485.589 213.483.777 266.502.447 289.871.330
+CONTROLADORA CONSOLIDADO
+30/09/2025 31/12/2024 30/09/2025 31/12/2024
+Tabela 37 - Demonstração de resultados (R$ mil)
+OPERAÇÕES CONTINUADAS
+Receita operacional líquida 10.419.618 2.647.184 30.615.636 28.156.480
+Custos operacionais -6.704.223 -1.757.956 -16.843.658 -14.929.256
+RESULTADO BRUTO 3.715.395 889.228 13.771.978 13.227.224
+Despesas operacionais -8.198.186 -668.903 -10.748.491 -3.158.383
+Remensurações regulatórias - Contratos de transmissão -1.762.645 2.229.490 -4.081.630 6.129.771
+RESULTADO OPERACIONAL ANTES DO RESULTADO FINANCEIRO -6.245.436 2.449.815 -1.058.143 16.198.612
+RESULTADO FINANCEIRO -4.585.068 -3.200.964 -8.620.094 -8.697.910
+ Receitas de juros, multas, comissões e taxas 217.517 726.656 61.324 116.872
+ Receita de aplicações financeiras 1.697.593 872.896 3.386.869 1.955.055
+ Acréscimo moratório sobre energia elétrica 5.256 850 84.594 96.498
+ Outras receitas financeiras 111.254 117.498 121.026 177.927
+ (-) Tributos sobre receitas financeiras -129.056 -116.611 -240.038 -165.097
+ Receitas financeiras 1.902.564 1.601.289 3.413.775 2.181.255
+ Encargos de dívidas -2.825.256 -2.423.204 -4.612.608 -4.561.343
+ Encargos de obrigações com CDE -571.797 -178.795 -1.988.233 -1.844.288
+ Encargos de revitalização de bacias hidrográficas -62.878 -22.317 -237.431 -252.910
+ Outras despesas financeiras -166.494 -693.039 -274.208 -892.893
+ Despesas financeiras -3.626.425 -3.317.355 -7.112.480 -7.551.434
+ Atualizações monetárias – CDE -379.124 -67.801 -1.318.278 -1.096.405
+ Atualizações monetárias – bacias hidrográficas -54.010 -11.212 -207.268 -196.420
+ Atualizações monetárias -478.224 -458.765 -744.231 -536.390
+ Variações cambiais -9.580 61.018 -1.352 27.116
+ Variação do valor justo de dívida protegida (hedge) líquida do derivativo -1.940.269 -1.008.138 -2.609.482 -1.292.131
+ Variação de instrumento financeiro derivativo não ligado a proteção 
+de dívida 0 0 -40.778 -233.501
+ Itens financeiros, líquidos -2.861.207 -1.484.898 -4.921.389 -3.327.731
+RESULTADO ANTES DAS PARTICIPAÇÕES SOCIETÁRIAS -10.830.504 -751.149 -9.678.237 7.500.702
+Resultado das participações societárias 2.775.475 8.915.489 1.506.539 2.024.711
+Outras receitas e despesas 90.485 31.730 233.615 31.058
+RESULTADO OPERACIONAL ANTES DOS TRIBUTOS -7.964.544 8.196.070 -7.938.083 9.556.471
+Imposto de renda e contribuição social correntes 0 0 -757.481 -722.921
+Imposto de renda e contribuição social diferidos 837.428 1.074.204 1.568.725 434.937
+LUCRO LÍQUIDO DAS OPERAÇÕES CONTINUADAS -7.127.116 9.270.274 -7.126.839 9.268.487
+Parcela atribuída aos controladores -7.127.116 9.270.274 -7.127.116 9.270.274
+Parcela atribuída aos não controladores 0 0 277 -1.787
+LUCRO LÍQUIDO (PREJUÍZO) DA OPERAÇÃO DESCONTINUADA 0 0 0 0
+Parcela atribuída aos controladores 0 0 0 0
+Parcela atribuída aos não controladores 0 0 0 0
+LUCRO LÍQUIDO DO EXERCÍCIO -7.127.116 9.270.274 -7.126.839 9.268.487
+Parcela atribuída aos controladores -7.127.116 9.270.274 -7.127.116 9.270.274
+Parcela atribuída aos não controladores 0 0 277 -1.787
+RESULTADO POR AÇÃO
+Resultado por ação - básico (ON) -3,13 4,07 0,00 0,00
+Resultado por ação - básico (PN) -3,45 4,48 0,00 0,00
+Resultado por ação - diluído (ON) -3,11 4,02 0,00 0,00
+Resultado por ação - diluído (PN) -3,42 4,43 0,00 0,00
+CONTROLADORA CONSOLIDADO
+30/09/2025 30/09/2024 30/09/2025 30/09/2024
+
+[p. 42]
+Tabela 38 - Demonstração do fluxo de caixa (R$ mil)
+ATIVIDADES OPERACIONAIS
+Resultado do período antes do imposto de renda e da contribuição social -7.964.544 8.196.070 -7.938.083 9.556.471
+Ajustes para reconciliar o lucro com o caixa gerado pelas operações: 
+Depreciação e amortização 691.116 173.057 3.399.225 2.954.830
+Variações cambiais e monetárias líquidas 920.938 476.760 2.271.129 1.802.099
+Resultado de aquisições e desinvestimentos 7.250.655 115.483 7.176.177 115.483
+Encargos financeiros 3.037.738 1.024.763 5.985.230 4.586.614
+Resultado da equivalência patrimonial -2.775.475 -8.915.489 -1.506.539 -2.024.711
+Outras receitas e despesas -90.485 -42.069 -233.615 -41.397
+Receitas da transmissão -5.556.575 -1.661.502 -14.910.112 -13.519.941
+Custo de construção - transmissão 1.145.205 338.486 3.043.066 2.482.964
+Remensurações regulatórias - Contratos de transmissão 1.762.645 -2.229.490 4.081.630 -6.129.771
+Provisões (reversões) operacionais -490.624 -747.377 495.482 -159.797
+Baixas de imobilizado e intangível 7.959 0 -99.395 0
+Resultado da dívida protegida (hedge) e derivativos 1.940.269 1.008.138 2.650.260 1.525.632
+Outras 179.040 770.791 284.995 809.676
+8.022.406 -9.688.449 12.637.533 -7.598.319
+(Acréscimos)/decréscimos nos ativos operacionais
+Clientes 26.843 34.109 447.900 -150.160
+Direito de ressarcimento 766.112 707.625 783.438 738.843
+Outros 154.262 -170.940 -570.057 -349.681
+947.217 570.794 661.281 239.002
+Acréscimos/(decréscimos) nos passivos operacionais
+Fornecedores 158.799 143.356 -69.778 -962.956
+Adiantamentos 0 0 0 0
+Obrigações com pessoal -41.380 28.888 -135.585 -569.684
+Encargos setoriais -282.132 624.297 -217.924 548.650
+Outros -597.980 135.276 -402.791 -560.716
+-762.693 931.817 -826.078 -1.544.706
+Pagamento de encargos financeiros -2.889.934 -3.290.688 -4.534.868 -5.070.249
+Recebimento da receita anual permitida - RAP 6.131.390 1.779.777 14.536.591 14.828.290
+Recebimento de encargos financeiros de controladas 0 0 0 0
+Recebimento de remuneração de investimentos em participações societárias 2.211.921 2.985.443 877.130 1.059.198
+Pagamento de litígios -2.738.570 -2.240.605 -3.118.773 -2.544.691
+Cauções e depósitos vinculados -418.444 -103.399 -389.759 -183.164
+Pagamento de imposto de renda e contribuição social -21.156 -70.366 -328.098 -1.509.790
+Pagamento de previdência complementar -17.140 -16.583 -282.610 -313.365
+Caixa líquido proveniente das atividades operacionais das operações 
+descontinuadas 0 0 0 0
+Caixa líquido proveniente das (usado nas) atividades operacionais 2.500.453 -946.189 11.294.266 6.918.677
+ATIVIDADES DE FINANCIAMENTO
+Empréstimos e financiamentos obtidos e debêntures obtidas 0 13.237.820 3.330.000 21.152.463
+Pagamento de empréstimos e financiamentos e debêntures - principal -6.622.713 -9.920.297 -9.254.732 -12.851.588
+Pagamento de remuneração aos acionistas -7.981.613 -1.287.242 -7.982.004 -1.176.190
+Pagamento aos acionistas dissidentes - incorporação de ações 0 0 0 0
+Recompra de ações -36.728 -68.399 -36.728 -68.399
+Pagamento de obrigações com CDE e revitalização de bacias - principal -725.774 0 -2.575.565 -1.974.963
+Pagamento de arrendamentos - principal -25.444 -33.914 -39.360 -48.167
+Pagamento de derivativos -462.570 0 -546.001 0
+Outros -203.775 0 -203.777 0
+CONTROLADORA CONSOLIDADO
+30/09/2025 30/09/2024 30/09/2025 30/09/2024
+
+[p. 43]
+Caixa líquido proveniente das atividades de financiamento -16.058.617 1.927.968 -17.308.167 5.033.156
+ATIVIDADES DE INVESTIMENTO
+Concessão de adiantamento para futuro aumento de capital 0 -8.051 0 -8.051
+Recebimento de empréstimos e financiamentos 795.946 805.687 445.644 8.848
+Recebimento de encargos financeiros 359.454 752.803 209.590 56.359
+Aquisição de ativo imobilizado -335.909 -92.911 -1.281.112 -1.870.635
+Aquisição de ativo intangível -117.042 -67.912 -274.879 -202.874
+Caixa restrito 17.035 -149.912 -108.228 -708.150
+Resgates / (aplicações) financeiras (TVM) 3.919.935 862.776 -429.693 -786.853
+Recebimento de encargos (TVM) 301.813 183.697 413.724 402.521
+Aquisição de debêntures 0 0 0 0
+Infraestrutura da transmissão - ativo contratual -1.145.205 -338.486 -3.043.066 -2.482.964
+Aquisição/aporte de capital em participações societárias -720.752 -176.643 -873.311 -176.644
+Alienação de investimentos em participações societárias 189.823 2.449.160 2.884.072 2.449.160
+Caixa líquido na incorporação de controladas 0 1.018.193 0 0
+Caixa líquido na aquisição de controle de investidas 0 0 0 0
+Outros 0 0 0 -305
+Caixa líquido proveniente das atividades de investimento das operações 
+descontinuadas 0 0 0 0
+Caixa líquido proveniente das (usado nas) atividades de investimento 3.265.098 5.238.401 -2.057.259 -3.319.588
+Acréscimo no caixa e equivalentes de caixa -10.293.066 6.220.180 -8.071.160 8.632.245
+Caixa e equivalentes de caixa no início do período 16.387.945 5.698.457 26.572.522 13.046.371
+Caixa e equivalentes de caixa no fim do período 6.094.879 11.918.637 18.501.361 21.678.616
+-10.293.066 6.220.180 -8.071.161 8.632.245
+CONTROLADORA CONSOLIDADO
+30/09/2025 30/09/2024 30/09/2025 30/09/2024
+10.5. Anexo 5 - Conciliação Resultado Regulatório x IFRS
+Tabela 39 - Conciliação IFRS x regulatória (R$ mil)
+RECEITAS OPERACIONAIS
+Geração
+Suprimento 13.951.211 13.833.218 117.993 13.631.687 14.198.185 -566.498
+Fornecimento 1.349.467 1.349.467 0 2.247.830 2.247.830 0
+CCEE 3.923.394 3.923.394 0 1.910.559 1.910.559 0
+Receita de operação e manutenção 1.502.653 1.502.653 0 2.319.252 2.319.252 0
+Transmissão
+Receita de operação e manutenção 6.177.346 0 6.177.346 5.862.771 0 5.862.771
+Receita de construção 2.990.824 0 2.990.824 2.350.714 0 2.350.714
+Receita contratual - Transmissão 5.741.942 0 5.741.942 5.306.457 0 5.306.457
+Disponibilidade Do Sistema De 
+Transmissão (Rap) 0 13.655.618 -13.655.618 0 14.449.745 -14.449.745
+Outras receitas 391.871 391.872 0 182.057 179.332 2.725
+Deduções
+ (-) Encargos setoriais -1.994.085 -1.994.084 -1 -1.876.645 -1.876.994 349
+ (-) ICMS -224.986 -224.986 0 -701.758 -701.758 0
+ (-) PASEP e COFINS -3.190.461 -3.190.461 0 -3.073.862 -3.073.861 -1
+ (-) Outras Deduções -3.540 -3.540 0 -2.582 -2.233 -349
+Receita operacional líquida 30.615.636 29.243.150 1.372.486 28.156.480 29.650.057 -1.493.577
+CUSTOS OPERACIONAIS
+ Pessoal, Material e Serviços -1.954.915 -1.954.837 -78 -2.106.272 -2.105.285 -987
+Resultado CVM - 
+Societário
+Resultado 
+Regulatório ∆ Resultado CVM - Societário Resultado Regulatório ∆
+30/09/2025 30/09/2024
+
+[p. 44]
+Energia comprada para revenda -4.629.606 -4.904.602 274.996 -2.986.397 -3.513.004 526.607
+ Encargos sobre uso da rede 
+elétrica -2.960.926 -2.514.835 -446.092 -2.986.393 -2.605.112 -381.281
+ Combustível para produção de 
+energia elétrica -975.346 -975.346 0 -1.460.855 -1.460.855 0
+ Construção -3.043.066 0 -3.043.066 -2.482.964 0 -2.482.964
+ Depreciação -1.443.360 -2.836.739 1.393.379 -1.291.734 -2.738.039 1.446.305
+ Amortização -1.695.641 -1.701.363 5.722 -1.463.207 -1.477.292 14.085
+ Provisões operacionais 0 0 0 0 0 0
+ Outros Custos -140.798 -126.124 -14.674 -151.434 -151.624 190
+Custos operacionais -16.843.658 -15.013.844 -1.829.814 -14.929.256 -14.051.211 -878.045
+RESULTADO BRUTO 13.771.978 14.229.306 -457.328 13.227.224 15.598.846 -2.371.622
+DESPESAS OPERACIONAIS
+ Pessoal, Material e Serviços -2.198.635 -2.209.709 11.074 -2.276.163 -2.313.516 37.353
+ Programa de Demissão Voluntária -225.624 -225.624 0 -45.137 -45.137 0
+ Remuneração e ressarcimento 0 0 0 0 0 0
+ Depreciação -155.718 -150.481 -5.237 -145.106 -143.715 -1.391
+ Amortização -104.506 -106.589 2.083 -54.783 -59.729 4.946
+ Doações e contribuições -51.729 -51.729 0 -74.362 -74.365 3
+ Provisões/Reversões operacionais -495.482 227.776 -723.258 159.797 418.901 -259.104
+Resultado da alienação de ativos -7.176.177 -6.317.107 -859.070 -115.483 -115.483 0
+ Outras despesas -340.620 -363.256 22.636 -607.146 -610.221 3.075
+Despesas operacionais -10.748.491 -9.196.719 -1.551.772 -3.158.383 -2.943.265 -215.118
+Remensurações regulatórias - 
+Contratos de transmissão -4.081.630 0 -4.081.630 6.129.771 0 6.129.771
+RESULTADO OPERACIONAL 
+ANTES DO RESULTADO 
+FINANCEIRO
+-1.058.143 5.032.587 -6.090.730 16.198.612 12.655.581 3.543.031
+RESULTADO FINANCEIRO -8.620.094 -9.097.414 477.320 -8.697.910 -9.108.649 410.739
+RESULTADO ANTES DAS 
+PARTICIPAÇÕES SOCIETÁRIAS -9.678.237 -4.064.827 -5.613.410 7.500.702 3.546.932 3.953.770
+Resultado das participações 
+societárias 1.506.539 642.891 863.648 2.024.711 1.685.874 338.837
+Outras receitas e despesas 233.615 233.615 0 31.058 31.159 -101
+RESULTADO OPERACIONAL 
+ANTES DOS TRIBUTOS -7.938.083 -3.188.321 -4.749.762 9.556.471 5.263.965 4.292.506
+Imposto de renda e contribuição 
+social correntes -757.481 -757.481 0 -722.921 -722.921 0
+Imposto de renda e contribuição 
+social diferidos 1.568.725 -135.889 1.704.614 434.937 808.817 -373.880
+LUCRO LÍQUIDO DAS 
+OPERAÇÕES CONTINUADAS -7.126.839 -4.081.691 -3.045.148 9.268.487 5.349.861 3.918.626
+Parcela atribuída aos controladores -7.127.116 -4.081.968 -3.045.148 9.270.274 5.352.733 3.917.541
+Parcela atribuída aos não 
+controladores 277 277 0 -1.787 -2.872 1.085
+LUCRO LÍQUIDO (PREJUÍZO) DA 
+OPERAÇÃO DESCONTINUADA 0 0 0 0 0 0
+Parcela atribuída aos controladores 0 0 0 0 0 0
+Parcela atribuída aos não 
+controladores 0 0 0 0 0 0
+LUCRO LÍQUIDO DO PERÍODO -7.126.839 -4.081.691 -3.045.148 9.268.487 5.349.861 3.918.626
+Parcela atribuída aos controladores -7.127.116 -4.081.968 -3.045.148 9.270.274 5.352.733 3.917.541
+Parcela atribuída aos não 
+controladores 277 277 0 -1.787 -2.872 1.085
+Resultado CVM - 
+Societário
+Resultado 
+Regulatório ∆ Resultado CVM - Societário Resultado Regulatório ∆
+30/09/2025 30/09/2024
+
+[p. 45]
+Relações com Investidores
+ ri@axia.com.br
+ ri.axia.com.br

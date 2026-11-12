@@ -1,0 +1,3027 @@
+[p. 2]
+2 
+ 
+ri@brasil.isaenergia.com 
+São Paulo, 03 de novembro de 2026 – A ISA ENERGIA BRASIL S.A. (“ISA ENERGIA BRASIL”, “Companhia”, B3: ISAE3 e ISAE4) anuncia seus 
+resultados do terceiro trimestre de 2026 (3T26). Os Resultados Regulatórios estão apresentados de acordo com os procedimentos e diretrizes 
+emitidos pelo Órgão Regulador e conforme as políticas contábeis estabelecidas no Manual de Contabilidade do Setor Elétrico (“MCSE”) com o 
+objetivo de colaborar com o entendimento do negócio da Companhia. Os resultados regulatórios são auditado s anualmente pelo mesmo 
+auditor independente das demonstrações financeiras societárias e não são revisados trimestralmente. Adicionalmente, é possível encontrar 
+os resultados de acordo com as normas da Comissão de Valores Mobiliários (“CVM”) e os Pronunciamentos Técnicos do Comitê de 
+Pronunciamentos Contábeis (“CPC”) aplicáveis e em conformidade com as normas internacionais de contabilidade (“IFRS”) emitidas pelo 
+International Accounting Standards Board (“IASB”) na seção de “Anexos” deste documento. 
+ 
+ 
+ ¹ajustado pela participação do acionista não controlador. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Teleconferência 3T26 
+Teleconferência em português com tradução simultânea para o inglês 
+Data: 04 de novembro de 2026 Horário: 10h00 (BRT) / 08h00 (EST) 
+O evento será transmitido via Zoom, através do link a seguir: clique aqui 
+Todos os dados para conexão estão disponíveis no site de Relações com Investidores: 
+ ri.isaenergiabrasil.com.br 
+ 
+Indicadores 
+Regulatórios
+ (R$ Milhões) 3T26 3T25 Var (% ) 9M26 9M25 Var (% ) 
+Receita Líquida 1.510,7 1.072,3 40,9% 3.980,3 3.232,8 23,1%
+PMSO -235,3 -187,5 25,5% -625,2 -551,9 13,3%
+PMSO Gerenciável -217,0 -185,5 17,0% -604,3 -546,1 10,6%
+EBITDA 3.190,1 888,5 259,0% 5.178,2 2.601,3 99,1%
+Margem EBITDA 211,2% 82,9% 128,3 p.p 130,1% 80,5% 49,6 p.p
+Lucro Líquido¹ 1.904,8 550,0 246,3% 2.436,4 1.143,0 113,2%
+Margem Líquida 126,1% 51,3% 74,8 p.p 61,2% 35,4% 25,9 p.p
+ROE (12 meses) 21,7% 20,8% 0,9 p.p 21,7% 20,8% 0,9 p.p
+Dívida Líquida 17.018,3 12.887,2 32,1% 17.018,3 12.887,2 32,1%
+CapEx (ex-M&A) 1.103,3 1.205,4 -8,5% 3.379,2 3.415,5 -1,1%
+ Consolidado 
+EBITDA R$ 3.190,1 milhões (+259,0%) 
+ CAPEX R$ 1.103,3 milhões (-8,5%) 
+Receita líquida R$ 1.510,7 milhões (+40,9%) 
+Dívida líquida R$ 17.018,3 milhões (+32,1%) 
+PMSO R$ 235,3 milhões (+25,5%) 
+Destaques financeiros 3T26
+
+[p. 3]
+3 
+ 
+ri@brasil.isaenergia.com 
+EVENTOS DO PERÍODO 
+23ª emissão de debêntures 
+Em 16 de julho de 2026, a Companhia concluiu a captação de recursos por meio da 23ª emissão de debêntures simples, 
+não conversíveis em ações no montante total de R$ 1,5 bilhão, em série única, com prazo de 4 anos e custo de CDI 
++0,42% ao ano. Os recursos c aptados foram integralmente destinados para recomposição de caixa da Companhia. 
+Acesse o link para obter maiores informações. 
+Oferta Pública Primária de ações (ISAE4) 
+Em 15 de julho de 2026, a Companhia informou ao mercado sobre a oferta pública subsequente (“ Follow-on”) de 
+distribuição primária de, inicialmente, 22,2 milhões de novas ações preferenciais (“ISAE4”). A quantidade de ações 
+inicialmente ofertadas poderia ser acrescida, a critério do emissor e em comum acordo com os coordenadores da oferta, 
+em até 22,2 milhõ es de ações preferenciais. A oferta foi precificada no dia 23 de julho, quando foram emitidas 44,4 
+milhões de ações preferenciais ao preço unitário de R$ 27,00. A liquidação aconteceu no dia 28 de julho . Para acessar 
+os documentos da oferta, clique aqui e aqui. 
+24ª emissão de debêntures 
+Em 23 de julho de 2026, a Companhia encerrou a 24ª emissão de debêntures simples, não conversíveis em ações, para 
+captar R$ 1 bilhão em série única, com prazo de 4,5 anos e custo de CDI + 0,42% ao ano. Conforme previsto na 
+escritura da oferta, o prazo para liquidação se estende até fevereiro de 2027 e, até o presente momento, os recursos 
+não foram desembolsados. Após a liquidação, os recursos serão integralmente destinados a investimentos em Reforços 
+e Melhorias (“R&M”). Acesse o link para obter maiores informações. 
+Conclusão do descruzamento de participações societárias em IE Madeira e Garanhuns 
+Em 31 de julho de 2026, a ISA ENERGIA BRASIL concluiu o descruzamento de participações societárias na IE Madeira 
+e IE Garanhuns, operação que foi divulgada ao mercado em fato relevante publicado dia 19 de março de 2026. Com a 
+conclusão da operação, a Companhia passou a deter 100% da IE Madeira, concessionária responsável por 2.385 km de 
+linhas de transmissão em corrente contínua, que possui Receita Anual Permitida (“RAP”) ex -Parcela de Ajuste (“PA”) 
+líquida de PIS/COFINS de R$ 796,7 milhões no ciclo 2026/2027, e deixou de participar da IE Garanhuns, que possui 633 
+km de linhas de transmissão, cuja RAP (ex -PA) líquida de PIS/COFINS totaliza R$ 165,3 milhões no mesmo ciclo. Com 
+a conclusão da operação, após o cumprimento das condições precedentes e o pagamento de torna de R$ 1,2 bilhão à 
+AXIA, os resultados da IE Madeira passa ram a ser integralmente consolidados pela Companhia a partir de agosto de 
+2026. Para maiores informações, consulte o fato relevante. 
+Anúncio de Distribuição de Proventos 
+Em 29 de setembro de 2026, o Conselho de Administração da ISA ENERGIA BRASIL aprovou a distribuição de proventos 
+referentes ao resultado do 1º semestre de 2026, em forma de Juros sobre Capital Próprio (“JCP”) no valor total de R$ 
+398,7 milhões, correspondente a R$ 0,566877 por ação de ambas as espécies. A distribuição do valor do JCP líquido 
+do imposto de renda na fonte foi dividida em três pagamentos, sendo cada um deles com suas respectivas datas base 
+e “ex-direito”. Clique aqui para acessar o aviso aos acionistas na íntegra. 
+ 
+ 
+ 
+Base Ex-Direito Pagamento
+8-out-26 9-out-26 7-dez-26 132,9 0,188959
+9-nov-26 10-nov-26 7-dez-26 132,9 0,188959
+25-nov-26 26-nov-26 7-dez-26 132,9 0,188959
+398,7 0,566877
+Data R$ / AçãoTipo de Provento Data de Deliberação Volume (R$ milhões) Base de Distribuição
+Juros Sobre 
+Capital Próprio 
+("JCP")
+29-set-26
+ Resultado do 
+Exercício Social 
+de 2026
+
+[p. 4]
+4 
+ 
+ri@brasil.isaenergia.com 
+Considerações sobre as informações financeiras 
+As informações financeiras apresentadas neste documento referem -se ao período de três meses findo em 30 de 
+setembro de 2026 e foram preparadas de acordo com as normas, procedimentos e diretrizes emitidos pelo Órgão 
+Regulador e conforme as políticas contábeis estabelecidas no Manual de Contabilidade do Setor Elétrico, aprovado pela 
+ANEEL através da Resolução Normativa nº 933 em 28 de maio de 2021 e orientações do Despacho nº 2.904 de 17 de 
+setembro de 2021 da ANEEL. 
+A informação denominada EBITDA (Lucro Antes dos Juros, Impostos sobre a Renda e Contribuição Social, Depreciação 
+e Amortização – LAJIDA) está apresentada de acordo com a Resolução CVM 156/22. 
+Adicionalmente, as informações financeiras e operacionais incluídas nesta discussão de resultados são sujeitas a 
+arredondamentos e, como consequência, os valores totais apresentados nas tabelas e gráficos podem diferir da 
+agregação numérica direta dos valores que os precedem. 
+Segue o cálculo do EBITDA na contabilidade regulatória de acordo com a Resolução Normativa nº 933 e Despacho nº 
+2.904: 
+ 
+O cálculo do EBITDA de acordo com as práticas contábeis adotadas no Brasil e com as normas de contabilidade 
+internacionais, International Financial Reporting Standards (“IFRS”), emitidas pelo “International Accounting Standards 
+Board (“IASB”), a partir do EBITDA na contabilidade regulatória está disponível na seção “Comparativo de Resultados 
+(Regulatório vs. IFRS)” deste documento (clique aqui). 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(R$ milhões) 3T26 3T25 Var (% ) 9M26 9M25 Var (% )
+(=) Lucro Líquido Regulatório 1.904,8 550,0 246,3% 2.436,4 1.143,0 113,2%
+(+) Particip. do Acionista não controlador 7,8 18,0 -56,4% 32,7 46,5 -29,8%
+(+) IRPJ/CSLL 712,5 -39,9 n.a 793,8 91,1 771,4%
+(-) Equivalência Patrimonial -34,2 -100,4 -66,0% -197,2 -267,0 -26,1%
+(+) Resultado Financeiro 348,1 293,1 18,7% 1.469,9 996,3 47,5%
+(+) Depreciação/Amortização 251,0 167,6 49,8% 642,6 591,4 8,7%
+(=) EBITDA Regulatório 3.190,1 888,5 259,0% 5.178,2 2.601,3 99,1%
+(+) Equivalência Patrimonial 34,2 100,4 -66,0% 197,2 267,0 -26,1%
+(=) EBITDA Regulatório CVM 156/2022 3.224,2 988,9 226,1% 5.375,4 2.868,3 87,4%
+Consolidado
+
+[p. 5]
+5 
+ 
+ri@brasil.isaenergia.com 
+ÍNDICE 
+ 
+EVENTOS DO PERÍODO 3 
+DESEMPENHO FINANCEIRO (RESULTADOS REGULATÓRIOS) 7 
+RECEITA OPERACIONAL 7 
+CUSTOS E DESPESAS OPERACIONAIS (PMSO) 9 
+OUTRAS RECEITAS E DESPESAS OPERACIONAIS 11 
+EBITDA E MARGEM 12 
+RESULTADO FINANCEIRO 13 
+EQUIVALÊNCIA PATRIMONIAL 14 
+LUCRO LÍQUIDO¹ 16 
+COMPARATIVO DE RESULTADOS (REGULATÓRIO VS. IFRS) 17 
+ENDIVIDAMENTO 19 
+INVESTIMENTOS 21 
+INVESTIMENTOS EM REFORÇOS E MELHORIAS (“R&M”) 21 
+INVESTIMENTOS EM PROJETOS GREENFIELD 22 
+MERCADO DE CAPITAIS 23 
+COMPOSIÇÃO ACIONÁRIA 23 
+DESEMPENHO DAS AÇÕES 23 
+PROVENTOS 24 
+SUSTENTABILIDADE 25 
+DESTAQUES DO PERÍODO 25 
+INDICADORES DE SUSTENTABILIDADE 26 
+OUTRAS INFORMAÇÕES RELEVANTES 29 
+REVISÃO TARIFÁRIA PERIÓDICA (RTP) - CONTRATOS LICITADOS 29 
+RAP CICLO 2026/2027 30 
+RENOVAÇÃO CONCESSÃO PAULISTA - CONTRATO 059/2001 (RBNI/RBSE) 32 
+PLANO DE COMPLEMENTAÇÃO DE APOSENTADORIA – LEI 4.819/58 33 
+GLOSSÁRIO 35 
+ANEXOS 38
+
+[p. 6]
+6 
+ 
+ri@brasil.isaenergia.com 
+DESEMPENHO OPERACIONAL 
+Para os ativos de transmissão com tensão inferior a 230 kV, associados aos pontos de conexão com agentes de 
+distribuição, o principal indicador de desempenho operacional é o Índice de Energia Não Suprida (“IENS”). O IENS 
+corresponde à relação percentual entre o volume total de energia não suprida aos agentes de distribuição ao longo das 
+ocorrências registradas no período e a energia total que seria fornecida na ausência de interrupções. Esse indicador 
+reflete, portanto, a quantidade de energia que deixou de ser consumida pelos consumidores finais em decorrência de 
+falhas ou interrupções no sistema. 
+Segue abaixo a medição do IENS¹ da Companhia ao longo do terceiro trimestre de 2026: 
+ 
+1 São considerados ativos de conexão com os agentes de distribuição com tensão inferior a 230 kV. 
+2 Dado de setembro do SIN não disponibilizado pelo ONS. 
+Parcela Variável 
+A Parcela Variável (“PV”) é um mecanismo regulatório aplicado pela Agência Nacional de Energia Elétrica (“ANEEL”) 
+que reduz a Receita Anual Permitida (“RAP”) das concessionárias de transmissão quando são registradas falhas, 
+desligamentos ou restrições operativas. O desconto é proporcional à indisponibilidade verificada. O indicador considera 
+os ativos da Rede Básica com tensão igual ou superior a 230 kV e é apurado pela razão entre a PV bruta do período e 
+sua respectiva RAP. 
+ 
+ 
+* Os dados da PV são dinâmicos e podem ser alterados posteriormente em função da conclusão de contestações junto ao ONS. 
+Disponibilidade de ativos (%) 
+ 
+* São considerados apenas ativos da rede básica. 
+** O ONS calcula o indicador para famílias de equipamento, que é a junção do tipo e nível de tensão. 
+*** Dados acumulados em forma de janela móvel. 
+**** Fonte: ONS.
+
+[p. 7]
+7 
+ 
+ri@brasil.isaenergia.com 
+DESEMPENHO FINANCEIRO (Resultados Regulatórios) 
+Receita Operacional 
+ 
+¹ RAP referente à parcela de operação e manutenção dos ativos existentes considerados no processo de renovação do contrato 059/2001. 
+A receita bruta consolidada atingiu R$ 1.721,7 milhões no 3T26, aumento de R$ 471,1 milhões em relação ao 3T25 
+(+37,7%). No 9M26, a receita bruta consolidada apresentou crescimento de R$ 817,9 milhões (+22,0%) em relação 
+ao 9M25, totalizando R$ 4.536,6 milhões . Além do reajuste do ciclo tarifário para o ciclo 2026/2027 com atualização 
+da RAP pelo Índice Nacional de Preços ao Consumidor Amplo (“IPCA”) do período (4,72%), as principais variações da 
+receita no período foram: 
+ 
+Concessão Paulista (contrato 059/2001) 
+▲ Incorporação da RAP dos projetos de Reforços e Melhorias (“R&M”) de grande porte energizados nos últimos 
+12 meses; 
+Contratos Licitados 
+▲ Início do recebimento da RAP (ciclo 2026/2027) de R$ 478,9 milhões dos projetos Riacho Grande, Jacarandá e 
+Piraquê, cujas energizações aconteceram entre outubro de 2025 e junho de 2026; 
+▲ Consolidação, a partir de agosto de 2026, de 100% dos resultados da IE Madeira na receita consolidada (+R$ 
+144,5 milhões), após a conclusão do descruzamento de participações societárias com a AXIA Energia. 
+Anteriormente, a participação de 51% detida pela Companhia era reconhecida via equivalência patrimonial. 
+ 
+ 
+Receita Operacional 
+ (R$ Milhões) 3T26 3T25 Var (% ) 9M26 9M25 Var (% ) 
+Receita de Uso da Rede Elétrica 1.710,6 1.239,4 38,0% 4.503,7 3.684,8 22,2%
+RBSE 519,5 511,5 1,6% 1.542,6 1.648,7 -6,4%
+Concessão Paulista (contrato 059) 519,3 468,1 10,9% 1.484,7 1.340,2 10,8%
+Operação e Manutenção (O&M)¹ 249,2 238,3 4,6% 725,7 708,5 2,4%
+Reforços e Melhorias (R&M) 270,1 229,8 17,5% 759,0 631,7 20,2%
+Contratos Licitados 551,9 265,1 108,2% 1.274,5 773,7 64,7%
+Projeto Básico (CAEE + O&M) 533,4 247,4 115,6% 1.220,5 739,2 65,1%
+Reforços e Melhorias (R&M) 18,6 17,7 4,9% 54,0 34,4 56,8%
+Parcela de Ajuste (PA) e Antecipações 98,5 -52,2 n.a 142,2 -163,6 n.a
+Parcela Variável (PV) -16,0 -15,6 2,5% -49,6 -44,2 12,3%
+Encargos Regulatórios ex RAP (CDE e PROINFA) 37,2 62,5 -40,4% 109,4 130,0 -15,8%
+ Outras 11,1 11,2 -0,5% 32,9 33,9 -2,9%
+ Receita Bruta 1.721,7 1.250,6 37,7% 4.536,6 3.718,7 22,0%
+ Deduções -211,0 -178,2 18,4% -556,1 -485,9 14,4%
+Tributos e Contribuições (PIS e Cofins) -149,3 -105,6 41,3% -391,8 -319,5 22,6%
+Encargos Regulatórios ex RAP (CDE e PROINFA) -33,7 -57,8 -41,7% -98,7 -116,9 -15,6%
+Encargos Regulatórios in RAP (P&D, RGR e TFSEE) -28,1 -14,8 89,3% -65,6 -49,5 32,5%
+ Receita Líquida 1.510,7 1.072,3 40,9% 3.980,6 3.232,8 23,1%
+ Consolidado
+
+[p. 8]
+8 
+ 
+ri@brasil.isaenergia.com 
+Parcelas de Ajuste (“PA”) e Antecipações 
+ 
+ 
+▲ PA do reajuste de ciclo tarifário (2025/2026 vs. 2026/2027) positiva em R$ 150,1 milhões; 
+▲ Ressarcimento da Conta de Desenvolvimento Energético (“CDE”): a CDE é classificada como um repasse e não 
+constitui receita da Companhia que, por sua vez, alterou seu tratamento contábil para que a CDE deixasse de 
+transitar pelo resultado a partir de agosto de 2025 uma vez que a receita bruta registrada de CDE era integralmente 
+provisionada no mês subsequente; 
+▼ Menor volume de antecipações relacionadas ao superávit ou déficit de arrecadação do setor ( -R$ 37,2 milhões). 
+ 
+RECEITA LÍQUIDA 
+A receita líquida aumentou R$ 438,3 milhões (+40,9%) em relação ao registrado no 3T25, totalizando R$ 1.510,7 
+milhões. Já no 9M26, a receita líquida teve incremento de R$ 747,8 milhões (+23,1%) vs. 9M25. 
+ 
+ 
+ 
+¹ Considera atualização pelo IPCA e Energização de projetos | ² Encargos e tributos à receita 
+ 
+A receita líquida ex-RBSE do 3T26 atingiu R$ 1.039,2 milhões, incremento de R$ 431,1 milhões (+70,9% vs. 3T25). A 
+receita líquida ex-RBSE acumulada nos 9M26 cresceu R$ 844,1 milhões (+48,6%) vs. 9M25. 
+ 
+ 
+ 
+PA + Antecipação + Ressarcimento 
+ (R$ Milhões) 3T26 3T25 Var (% ) 
+PA Reajuste de ciclo 150,1 0,0 n.a.
+Anuidade Melhorias 11,5 11,0 4,7%
+Antecipação (Superávit | Déficit de Arrecadação) -63,1 -36,8 71,4%
+Ressarcimento CDE 0,0 -26,4 -100,0%
+TOTAL 98,5 -52,2 n.a.
+ Consolidado 
+Receita Líquida – 9M26 vs. 9M25 
+(R$ milhões) 
+ 
+ 
+ 
+ 
+Receita Líquida 
+(R$ milhões) 
+ 
+ 
+ 
+ 
+Receita Líquida – 3T26 vs. 3T25 
+(R$ milhões)
+
+[p. 9]
+9 
+ 
+ri@brasil.isaenergia.com 
+Custos e Despesas Operacionais (PMSO) 
+ 
+Seguem os principais eventos que causaram variações no PMSO gerenciável do período: 
+▲ Pessoal: (i) maiores custos com remunerações, encargos e benefícios, devido ao acordo coletivo 2025/2026; e (ii) 
+consolidação integral da IE Madeira a partir de agosto de 2026. Esses aumentos foram parcialmente compensados 
+por redução das indenizações trabalhistas. 
+▲ Serviços: maiores despesas com: (i) honorários de êxito advocatício; (ii) limpeza e roçada; e (i ii) viagens para 
+treinamentos e suporte às novas operações. O aumento das despesas foi parcialmente compensado por menores 
+gastos associados a treinamentos corporativos. 
+▲ Outros: aumento de gastos com: (i) IPTU, decorrente principalmente da atualização do valor venal dos imóveis e 
+do reajuste inflacionário; e (ii) renovação de seguros. Esses efeitos foram parcialmente compensados por menor 
+despesa com tributos associados à contratação de serviços estrangeiros. 
+Além das movimentações do PMSO gerenciável explicadas acima, a Companhia registrou despesas não recorrentes de 
+R$ 15,5 milhões relacionadas ao descruzamento das participações societárias concluído no 3T26. Nesse trimestre, a 
+provisão referente a previdência privada (passivo atuarial estimado em função de benefícios, conforme previsto no 
+CPC33) reduziu R$ 0,6 milhão no trimestre ( -29,6% vs. 3T25). Essa variação não possui efeito caixa e é explicada 
+principalmente pelo aumento da taxa de desconto utilizada para apuração do valor presente das obrigações futuras 
+devido ao aumento da NTN-B na reavaliação anual em dezembro de 2025. 
+O gráfico a seguir mostra a evolução da eficiência operacional da Companhia medida pela relação entre o PMSO e a 
+receita líquida ex-RBSE. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+CONTINGÊNCIAS 
+A Companhia registrou resultado positivo com contingências de R$ 23,6 milhões no 3T26, ante despesa de R$ 0,2 
+milhão no 3T25. A variação decorre, principalmente, do encerramento de discussão judicial relacionada à indenização 
+da RBNI na renovação do contrato da Concessão Paulista. O acordo celebrado com a AXIA Energia resultou no 
+Custos e Despesas de O&M 
+(R$ milhões) 3T26 3T25 Var (% ) 9M26 9M25 Var (% ) 
+Pessoal -115,7 -100,5 15,2% -331,1 -310,5 6,6%
+Materiais -6,3 -5,6 11,2% -17,2 -16,9 2,2%
+Serviços -66,6 -54,1 23,2% -174,5 -146,0 19,5%
+Outros -28,4 -25,4 12,1% -81,4 -72,7 12,0%
+PMSO (gerenciável) -217,0 -185,5 17,0% -604,3 -546,1 10,6%
+Não recorrentes -16,9 0,0 N.A. -16,9 0,0 N.A.
+Entidade de Previdência Privada -1,4 -1,9 -29,6% -4,1 -5,8 -29,6%
+PMSO -235,3 -187,5 25,5% -625,2 -551,9 13,3%
+Contingências 23,6 -0,2 n.a 19,2 -20,8 n.a
+Depreciação -251,0 -167,6 49,8% -642,6 -591,3 8,7%
+Demais custos e despesas -227,4 -167,8 35,5% -623,3 -612,2 1,8%
+Total -462,7 -355,2 30,2% -1.248,6 -1.164,0 7,3%
+Consolidado
+Indicador de Eficiência 
+(R$ milhões)
+
+[p. 10]
+10 
+ 
+ri@brasil.isaenergia.com 
+pagamento de R$ 32,1 milhões frente à provisão de R$ 63,4 milhões, permitindo a reversão de R$ 31,3 milhões no 
+trimestre. 
+ 
+DEPRECIAÇÃO 
+A Companhia registrou R$ 25 1,0 milhões em despesa com depreciação no 3T26, um aumento de 49,8% (R$ 83,4 
+milhões) sobre a depreciação registrada no 3T25 devido, principalmente, a: 
+▲ Reconhecimento de provisão de depreciação referente ao projeto Piraquê, que entrou em operação comercial no 
+2T26 (+R$ 29,8 milhões); 
+▲ Consolidação integral da IE Madeira (ago/26), com impacto de R$ 24,3 milhões na despesa de depreciação 
+contabilizada no 3T26; 
+▲ Avanço na unitização de projetos de R&M da Concessão Paulista nos últimos 12 meses (+R$ 18,9 milhões); 
+▲ Unitização de ativos de Riacho Grande junto à ANEEL (+R$ 5,3 milhões vs. 3T25). 
+Com isso, os Custos e Despesas Operacionais totalizaram R$ 462,7 milhões no 3T26 (+30,2% vs. 3T25). No acumulado 
+do 9M26, totalizaram R$ 1.248,6 milhões (+7,3% vs 9M25).
+
+[p. 11]
+11 
+ 
+ri@brasil.isaenergia.com 
+Outras Receitas e Despesas Operacionais 
+ * custos com serviço de desativação, alienação e baixa de ativos 
+Outras receitas e despesas operacionais totalizaram receita de R$ 1.891,2 milhões no 3T26, ante R$ 3,8 milhões no 
+3T25, refletindo principalmente a receita de R$ 1.938,3 milhões relacionada ao efeito contábil one off do descruzamento 
+de ativos (IE Madeira e IE Garanhuns), conforme tabela abaixo. Entre as demais variações, destacam-se: (i) a redução 
+de R$ 31,6 milhões nos ganhos e remuneração associados à SE Centro homologados pela ANEEL no 3T25; (ii) a redução 
+de R$ 9,0 milhões na atualização de precatórios ; (iii) o efeito negativo de R$ 2,2 milhões na alienação de bens 
+inservíveis, decorrente do descasamento temporal entre as baixas contábeis dos ativos e o reconhecimento das 
+respectivas alienações; e (iv) o aumento de R$ 3,7 milhões nos custos com desativa ção de bens, associado às 
+desmontagens realizadas em projetos de Reforços e Melhorias. 
+O descruzamento das participações societárias na IE Madeira e na IE Garanhun s gerou um efeito contábil positivo não 
+recorrente e sem impacto no caixa de R$ 1.938,3 milhões (“Efeito Contábil One Off (Descruzamento de Ativos)”). Esse 
+efeito é composto por: (i) ganho por compra vantajosa da participação adicional de 49% na IE Madeira (R$ 655,2 
+milhões); (ii) remensuração a valor justo da participação de 51% anteriormente detida na IE Madeira (R$ 1.211,0 
+milhões); e (iii) resultado de R$ 72,1 milhões na alienação da participação de 51% na IE Garanhuns , conforme tabela 
+a seguir: 
+ 
+ 
+Outras Receitas e Despesas Operacionais
+(R$ milhões) 3T26 3T25 Var (% ) 9M26 9M25 Var (% ) 
+Receitas 1.941,2 58,3 3231,8% 1.957,6 68,1 2775,3%
+Alienação de bens inservíveis à operação -2,2 7,9 n.a 2,9 12,9 -77,2%
+Atualização de valores de precatórios a receber (terreno SJC) 3,1 12,1 -74,4% 9,0 16,9 -47,0%
+Recebimento de indenização de seguros 0,0 4,8 -100,0% 1,9 4,8 -60,4%
+Ganho e Remuneração da SE Centro 1,9 33,5 -94,3% 5,5 33,5 -83,7%
+Operação de descruzamento de ativos (IE Madeira e IE Garanhuns) 1.938,3 0,0 N.A. 1.938,3 0,0 N.A.
+Despesas -49,4 -55,7 -11,4% -152,1 -129,6 17,3%
+Alienação de bens inservíveis à operação -0,8 -8,7 -90,8% -8,3 -14,3 -41,8%
+Amortização de mais valia (PBTE e SF Energia) -12,8 -15,0 -14,3% -39,2 -43,2 -9,3%
+Custo com desativação de bens* -35,7 -32,0 11,7% -104,5 -72,1 45,0%
+Outros -0,7 0,0 N.A. -1,7 1,4 N.A.
+Eliminações 0,0 1,3 -100,0% 0 1,3 -100,0%
+Total 1.891,2 3,8 n.a 1.803,9 -58,9 n.a
+Consolidado
+(R$ milhões) Regulatório
+Ganho por compra vantajosa 655,2
+Remensuração da participação anterior (CPC 15 - item 42) 1.211,0
+Resultado na alienação de Garanhuns 72,1
+Efeito contábil one off (descruzamento de ativos) 1.938,3
+Efeito contábil one off (descruzamento de ativos)
+
+[p. 12]
+12 
+ 
+ri@brasil.isaenergia.com 
+EBITDA e MARGEM 
+ 
+ Além da contabilização do Efeito Contábil One Off (Descruzamento de Ativos), a variação é explicada, principalmente, 
+por: 
+▲ Consolidação integral da IE Madeira a partir de agosto de 2026; 
+▲ Entrada em operação de projetos greenfield e de reforços e melhorias de grande porte nos últimos 12 meses; 
+▲ Reajuste tarifário para o ciclo 2026/2027; 
+▲ Melhora do indicador de eficiência, com redução da relação PMSO/receita líquida (9M26 vs 9M25), refletindo o 
+crescimento da receita acima das despesas operacionais. 
+ 
+O EBITDA da participação da ISA ENERGIA BRASIL nas empresas controladas em conjunto totalizou R$ 86,8 milhões 
+no 3T26, diminuição de R$ 104,6 milhões ( -54,6%) em relação ao 3T25. No acumulado (9M26), o EBITDA da 
+participação da ISA ENERGIA BRASIL nas empresas controladas em conjunto totalizou R$ 448,5 milhões, diminuição de 
+14,8% vs. 9M25. 
+Em agosto, após a conclusão do descruzamento de ativos, a IE Madeira passou a ser integralmente consolidada nos 
+resultados, enquanto a IE Garanhuns deixou de integrar os ativos da Companhia. Assim, o resultado da equivalência 
+patrimonial de IE Madeira e IE Garanhuns do 3T26 refere-se exclusivamente ao mês de julho de 2026. 
+O EBITDA total, considerando o consolidado da ISA ENERGIA BRASIL e sua participação nas controladas em conjunto, 
+foi de R$ 3. 276,9 milhões no 3T26 (+ 203,5% vs. 3T25). Mais detalhes estão disponíveis na seção “Equivalência 
+Patrimonial” deste documento (clique aqui). 
+¹ O resultado de equivalência patrimonial da IE Madeira e da IE Garanhuns considera os resultados reconhecidos até julho de 2026, em função da 
+conclusão do descruzamento das participações societárias em 31 de julho de 2026. 
+ 
+EBITDA 
+(R$ milhões) 3T26 3T25 Var (% ) 9M26 9M25 Var (% ) 
+Receita líquida 1.510,7 1.072,3 40,9% 3.980,3 3.232,8 23,1%
+Custos e despesas (ex-depreciação) -211,7 -187,7 12,8% -606,0 -572,7 5,8%
+Outras despesas e receitas (ex-amortização) 1.891,2 3,8 N.A. 1.803,9 -58,8 N.A.
+EBITDA 3.190,1 888,5 259,0% 5.178,2 2.601,3 99,1%
+(-) Efeito contábil one off (descruzamento de ativos) -1.938,3 0,0 N.A. -1.938,3 0,0 N.A.
+EBITDA Pró-Forma 1.251,7 888,5 40,9% 3.239,8 2.601,3 24,5%
+Consolidado
+EBITDA
+(R$ milhões) 3T26 3T25 Var (% ) 9M26 9M25 Var (% )
+Consolidado 3.190,1 888,5 259,0% 5.178,2 2.601,3 99,1%
+Controladas em Conjunto 86,8 191,2 -54,6% 448,5 526,7 -14,8%
+IE Madeira (51%)¹ 22,8 101,7 -77,6% 191,6 256,8 -25,4%
+IE Garanhuns (51%)¹ 4,9 14,0 -65,0% 40,1 46,5 -13,7%
+IE Aimorés (50%) 12,5 12,9 -3,2% 38,0 36,7 3,6%
+IE Paraguaçu (50%) 19,9 19,5 2,2% 57,8 54,6 5,8%
+IE Ivaí (50%) 26,8 43,1 -38,0% 121,0 132,1 -8,4%
+Total 3.276,9 1.079,7 203,5% 5.626,7 3.128,0 79,9%
+Consolidado + Controladas em Conjunto
+
+[p. 13]
+13 
+ 
+ri@brasil.isaenergia.com 
+Resultado Financeiro 
+ 
+A Companhia registrou despesa financeira líquida de R$ 348,1 milhões no 3T26, com aumento de R$ 55,0 milhões 
+(+18,7%) em comparação ao 3T25: 
+▲ Juros e encargos sobre empréstimos : refletem o maior saldo médio da dívida, que foi impulsionado (i) pelas 
+emissões realizadas para financiar o crescimento da Companhia (20ª, 22ª e 23ª emissões) totalizando R$ 4,5 
+bilhões; e (ii) pela consolidação das despesas financeiras da IE Madeira. Es ses efeitos foram parcialmente 
+compensados pela redução do CDI no período (3,38% no 3T26 vs. 3,65% no 3T25) e pela redução de cerca de 80 
+bps no spread médio das emissões institucionais envolvidas na operação de liability management com a 21ª 
+emissão de debêntures no 1T26; 
+▼ Variação monetária: A redução da variação monetária deve-se, principalmente, à menor variação do IPCA ( -
+0,09% no 3T26 vs. 0,39% no 3T25), parcialmente compensada pelo aumento da exposição da dívida bruta atrelada 
+ao IPCA (+R$ 3,0 bilhões) em relação ao saldo no 3T25. Para fins contábeis, o resultado do 3T considera a inflação 
+de junho a agosto; 
+▲ Outras Despesas Financeiras: O aumento deve-se, principalmente, às despesas financeiras com instrumentos 
+derivativos associados à marcação a mercado da operação de swap, na qual a Companhia possui posição ativa em 
+IPCA e passiva em CDI. No período, a elevação da curva futura de CDI aumentou o valor presente da posição 
+passiva, gerando um impacto negativo no valor justo do derivativo e, consequentemente, maior despesa financeira 
+no trimestre (-R$ 20,5 milhões). 
+A despesa financeira líquida acumulada nos 9M26 aumentou 47,5% (R$ 473,6 milhões), frente à despesa de R$ 996,3 
+milhões registrada no 9M25. 
+Resultado Financeiro
+(R$ milhões) 3T26 3T25 Var (% ) 9M26 9M25 Var (% ) 
+Receita Financeira 107,9 115,4 -6,5% 282,4 332,3 -15,0%
+Rendimento de aplicação financeira 92,5 90,0 2,7% 212,8 243,4 -12,6%
+Outras receitas financeiras 15,4 25,4 -39,3% 69,6 88,9 -21,7%
+Despesa Financeira -456,0 -408,6 11,6% -1.752,3 -1.328,5 31,9%
+Juros e encargos sobre empréstimos -428,5 -336,7 27,2% -1.207,4 -936,4 28,9%
+Variação Monetária 8,5 -54,6 -115,6% -436,8 -337,7 29,4%
+Outras despesas financeiras -36,1 -17,3 108,8% -108,1 -54,4 98,6%
+Total -348,1 -293,1 18,7% -1.469,9 -996,3 47,5%
+Consolidado
+
+[p. 14]
+14 
+ 
+ri@brasil.isaenergia.com 
+Equivalência Patrimonial 
+ 
+O resultado da equivalência patrimonial foi R$ 34,2 milhões no 3T26, redução de R$ 66,2 milhões (-66,0%) em relação 
+ao registrado no 3T25, devido, principalmente, ao resultado do descruzamento de ativos com a AXIA Energia. No 9M26, 
+a equivalência patrimonial totalizou R$ 197,2 milhões, redução de 26,1% vs. 9M25. Segue o detalhamento das demais 
+variações: 
+Aliança Interligação Elétrica (“AIE”) 
+Composta por três empreendimentos em sociedade com a TAESA (Aimorés, Paraguaçu e Ivaí), a AIE apresentou redução 
+de R$ 8,5 milhões no 3T26 (-29,0% vs. 3T25) explicada, principalmente, por: 
+• IE Aimorés e IE Paraguaçu: aumento das despesas financeiras sobre debêntures em função do desembolso das 
+dívidas ter ocorrido no final do 2T25, parcialmente compensado pelo reajuste do ciclo tarifário pelo IPCA. 
+• IE Ivaí: menor resultado operacional devido, principalmente, à constituição de provisão relacionada à PVA da 
+entrada em operação de 2022, após o indeferimento do recurso administrativo apresentado à ANEEL. O efeito foi 
+parcialmente compensado pela (i) menor variação monetária sobre a dívida em razão do IPCA² mais baixo no 3T26 
+e; (ii) pelo reajuste do ciclo tarifário pelo IPCA (ciclo 2026/2027). 
+Clique aqui para verificar a demonstração de resultado sintética das controladas em conjunto. 
+ 
+¹ O resultado de equivalência patrimonial da IE Madeira e da IE Garanhuns considera os resultados reconhecidos até julho de 2 026, em função da 
+conclusão do descruzamento das participações societárias em 31 de julho de 2026 | ² IPCA: 3T26 -0,09% vs. 3T25 +0,39%. 
+ 
+Equivalência Patrimonial
+(R$ milhões) 3T26 3T25 Var (% ) 9M26 9M25 Var (% )
+IE Madeira (51% )¹ 10,0 61,8 -83,9% 107,2 144,5 -25,8%
+IE Garanhuns (51% )¹ 3,4 9,3 -63,3% 29,6 33,2 -10,8%
+AIE (50% ) 20,8 29,2 -29,0% 60,3 89,2 -32,4%
+IE Aimorés 5,8 7,1 -18,5% 18,6 26,5 -29,9%
+IE Paraguaçu 8,3 9,0 -8,2% 25,9 38,4 -32,5%
+IE Ivaí 6,7 13,1 -48,9% 15,8 24,3 -35,0%
+Total 34,2 100,4 -66,0% 197,2 267,0 -26,1%
+Consolidado
+
+[p. 15]
+15 
+ 
+ri@brasil.isaenergia.com 
+IRPJ e CSLL 
+ 
+A Companhia registrou despesa de R$ 712,5 milhões com Imposto de Renda e Contribuição Social sobre o Lucro Líquido 
+(“IR/CSLL”) no 3T26, ante receita de R$ 39,9 milhões no 3T25. No 3T25, a distribuição de R$ 444,7 milhões em “JCP” 
+(Juros sobre Capital Própr io) reduziu a base de cálculo do IR PJ/CSLL. No 3T26, apesar da distribuição de R$ 398,7 
+milhões em JCP também ter gerado benefício fiscal, esse efeito foi mais do que compensado pelo impacto negativo de 
+R$ 659,0 milhões no imposto diferido sobre o Efeito Contábil One Off (Descruzamento de Ativos) , conforme tabela 
+abaixo: 
+ 
+O resultado acumulado do IRPJ/CSLL Corrente e Diferido foi despesa de R$ 793,8 milhões vs. Despesa de R$ 91,1 
+milhões no 9M25. 
+ 
+IRPJ | CSLL
+(R$ milhões) 3T26 3T25 Var (% ) 9M26 9M25 Var (% ) 
+Corrente 27,4 38,6 -29,1% -108,1 -45,0 140,1%
+Diferido -739,9 1,2 n.a -685,7 -46,1 1388,3%
+Total -712,5 39,9 n.a -793,8 -91,1 771,4%
+Taxa efetiva 27,1% -7,5% 34,7 p.p 24,3% 7,1% 17 p.p
+Consolidado
+(R$ milhões) Regulatório
+Efeito Contábil One off (descruzamento de ativos) 1.938,3
+IR/CSLL Corrente – IE Garanhuns -24,5
+IR/CSLL Diferido – IE Madeira (CPC 32) -634,5
+IR/CSLL s/ efeito contábil one off -659,0
+Total 1.279,3
+IRPJ/CSLL
+
+[p. 16]
+16 
+ 
+ri@brasil.isaenergia.com 
+Lucro Líquido¹ 
+Como resultado das explicações apresentadas, o lucro líquido do trimestre totalizou R$ 1.904,8 milhões, aumento de 
+R$ 1.354,8 milhões (+246,3%) em relação ao 3T25. No acumulado (9M26), o lucro líquido totalizou R$ 2.436,4 milhões. 
+Excluindo o Efeito Contábil One Off (Descruzamento de Ativos) líquido de IR/CSLL, o lucro líquido totalizou R$ 625,5 
+milhões no 3T26, incremento de R$ 75,5 milhões vs 3T25, enquanto no acumulado (9M26), o lucro líquido totalizou R$ 
+1.157,1 milhões incremento de 1,2%. 
+Por se tratar de efeito contábil não caixa, o Efeito Contábil One Off (Descruzamento de Ativos) será desconsiderado do 
+lucro líquido regulatório utilizado como referência para a prática de distribuição de proventos. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+¹ ajustado pela participação do acionista não controlador | ² Pessoal, material, serviços e outros. 
+ 
+Lucro Líquido¹ 3T26 vs. 3T25 
+(R$ milhões) 
+ Margem Líquida 
+51,3% 
+Lucro Líquido¹ 9M26 vs. 9M25 
+(R$ milhões) 
+ Margem Líquida 
+29,1% 
+Margem Líquida 
+41,4% 
+Margem Líquida 
+35,4%
+
+[p. 17]
+17 
+ 
+ri@brasil.isaenergia.com 
+Comparativo de Resultados (Regulatório vs. IFRS) 
+No 3T26, a Companhia registrou lucro líquido de R$ 913,8 milhões na contabilização IFRS, resultado R$ 129,2 milhões 
+maior (+ 16,4%) que o registrado no 3T25. A Demonstração de Resultados detalhada na contabilidade IFRS está 
+disponível no anexo IX deste documento. 
+ 
+Receita - IFRS 15: No IFRS, as receitas que se referem aos investimentos realizados ao longo da concessão são 
+registradas com o reconhecimento da margem de implementação de infraestrutura e determinação da taxa de desconto 
+do ativo contratual. Além disso, existe a receita de remuneração dos ativos de contrato que é a recomposição do valor 
+a receber pela taxa de desconto ao longo do tempo. No regulatório, a receita reflete a RAP registrada conforme o 
+faturamento no prazo da concessão. 
+Custos dos investimentos : No IFRS, os custos de implementação de infraestrutura referem -se ao investimento 
+realizado no período de obra, calculados a partir do investimento das aquisições de CAPEX (equipamentos, serviços e 
+mão de obra interna e externa). No regulatório, os investimentos são tratados como ativo imobilizado. 
+Depreciação: No IFRS, não há depreciação de ativos da concessão, uma vez que estes não são considerados ativo 
+imobilizado, e sim ativo contratual ou financeiro. O imobilizado do IFRS refere -se substancialmente a bens utilizados 
+pela Companhia e não vinculados ao cont rato de concessão. No regulatório, os ativos da concessão são considerados 
+ativo imobilizado e depreciados linearmente considerando sua vida útil. 
+Equivalência Patrimonial: Os principais efeitos da equivalência patrimonial são reflexo das explicações da receita, 
+custos e depreciação para as empresas controladas em conjunto. 
+IR/CSLL: No IFRS, o IR/CSLL são provisionados mensalmente, obedecendo ao regime de competência e apurados 
+conforme previsto na Lei 12.973/14, de forma que os valores efetivamente tributados consideram a realização do caixa. 
+A Companhia adota o regime de lucro real com estimativa mensal. 
+Combinação de negócios e alienação de investimentos : Na operação de descruzamento de ativos, os efeitos 
+contábeis diferem entre IFRS e Regulatório em função dos valores pelos quais os investimentos estavam registrados 
+em cada base. Na aquisição de 49% da IE Madeira, a contabilização considera o patrimônio líquido a valor justo da 
+Companhia, com base em laudo de avaliação. No Regulatório, o valor contábil do investimento referente a participação 
+acionária detida de 51% era inferior ao valor justo, resultando no reconhecimento de ganho, enquanto, no IFRS, o valor 
+contábil referente a participação acionária detida de 51% era superior ao valor justo, resultando no reconhecimento de 
+perda. 
+Na alienação de Garanhuns, a contraprestação recebida, de R$ 462 milhões, foi inferior ao valor do investimento 
+registrado no IFRS, resultando em perda de R$ 187 milhões. No Regulatório, por sua vez, o valor do investimento 
+registrado era inferior à contraprestação recebida, resultando em ganho de R$ 72 milhões. 
+ 
+Demonstração de Resultado (IFRS)
+(R$ milhões) 3T26 3T25 Var (% ) 9M26 9M25 Var (% ) 
+Receita Operacional Líquida 2.333,7 2.559,0 -8,8% 7.442,0 6.403,9 16,2%
+Custos dos Serviços de Implementação da infraestrutura, 
+operação e manutenção e de serviços prestados -1.272,6 -1.340,5 -5,1% -3.839,1 -3.831,3 0,2%
+Lucro Bruto 1.061,1 1.218,4 -12,9% 3.602,8 2.572,6 40,0%
+Receitas e Despesas Operacionais 325,3 61,2 431,3% 496,4 380,8 30,4%
+Lucro antes das receitas e despesas financeiras e dos 
+impostos sobre o lucro 1.386,4 1.279,7 8,3% 4.099,3 2.953,5 38,8%
+Resultado Financeiro -348,4 -293,3 18,8% -1.470,7 -996,8 47,5%
+Lucro antes do imposto de renda e da contribuição social 1.038,0 986,4 5,2% 2.628,6 1.956,7 34,3%
+Imposto de Renda e Contribuição Social sobre o Lucro -116,3 -183,6 -36,7% -384,4 -196,9 95,2%
+Lucro/Prejuízo Consolidado 921,7 802,8 14,8% 2.244,2 1.759,8 27,5%
+Participação do Acionista não Controlador -7,8 -18,0 -56,4% -32,7 -46,5 -29,8%
+Lucro/Prejuízo 913,8 784,8 16,4% 2.211,5 1.713,2 29,1%
+Consolidado
+
+[p. 18]
+18 
+ 
+ri@brasil.isaenergia.com 
+Segue o cálculo do EBITDA na contabilidade IFRS de acordo com a Resolução CVM 156/22: 
+ 
+ 
+Segue o cálculo do EBITDA na contabilidade Regulatória a partir do EBITDA CVM 156/22: 
+ 
+(R$ milhões) 3T26 3T25 Var (% ) 9M26 9M25 Var (% )
+(=) Lucro Líquido IFRS 913,8 784,8 16,4% 2.211,5 1.713,2 29,1%
+(+) Particip. do Acionista não controlador 7,8 18,0 -56,4% 32,7 46,5 -29,8%
+(+) IRPJ/CSLL 116,3 183,6 -36,7% 384,4 196,9 95,2%
+(-) Equivalência Patrimonial -59,9 -109,5 -45,3% -359,1 -403,7 -11,0%
+(+) Resultado Financeiro 348,4 293,3 18,8% 1.470,7 996,8 47,5%
+(+) Depreciação/Amortização 14,9 8,7 71,5% 33,1 25,6 29,0%
+(=) EBITDA IFRS 1.341,5 1.178,9 13,8% 3.773,2 2.575,4 46,5%
+(+) Equivalência Patrimonial 59,9 109,5 -45,3% 359,1 403,7 -11,0%
+(=) EBITDA IFRS CVM 156/2022 1.401,3 1.288,4 8,8% 4.132,4 2.979,1 38,7%
+Consolidado
+(R$ milhões) 3T26 3T25 Var (% ) 9M26 9M25 Var (% )
+EBITDA IFRS (CVM 156/22) 1.401,3 1.288,4 8,8% 4.132,4 2.979,1 38,7%
+(-) Receita de implementação da infraestrutura -1.408,0 -1.516,8 -7,2% -4.257,5 -4.228,9 0,7%
+(-) Remuneração dos ativos de concessão -726,6 -1.060,8 -31,5% -2.807,6 -2.003,4 40,1%
+(-) Ganho de eficiência na implementação da infraestrutura -20,8 0,1 n.a -69,4 10,7 n.a
+(-) Receita de O&M -464,0 -294,2 57,7% -1.170,1 -945,7 23,7%
+(+) Receita de uso da rede elétrica 1.710,6 1.239,4 38,0% 4.503,7 3.684,8 22,2%
+(+) Outras receitas 0,4 1,1 -59,7% 2,9 5,6 -47,6%
+(+) PIS e COFINS diferidos 85,4 144,7 -41,0% 336,3 305,9 10,0%
+(+) Custo de implementação da infraestrutura 1.103,9 1.194,7 -7,6% 3.376,5 3.404,8 -0,8%
+(-) Custo de O & M 10,6 6,2 70,5% 16,9 18,3 -7,7%
+(-) Despesas gerais e administrativas -1,2 -0,9 31,9% 8,1 6,8 18,5%
+(-) Equivalência patrimonial -25,7 -9,2 180,8% -161,9 -136,7 18,4%
+(-) Outras receitas (despesas) operacionais 1.607,4 -10,5 n.a 1.514,1 -73,5 n.a
+EBITDA REGULATÓRIO (CVM 156/22) 3.224,2 988,9 226,1% 5.375,4 2.868,3 87,4%
+(-) Equivalência Patrimonial -34,2 -100,4 -66,0% -197,2 -267,0 -26,1%
+EBITDA REGULATÓRIO 3.190,1 888,5 259,0% 5.178,2 2.601,3 99,1%
+Consolidado
+
+[p. 19]
+19 
+ 
+ri@brasil.isaenergia.com 
+ENDIVIDAMENTO 
+ 
+¹ Considera arrendamentos mercantis (leasing), segundo manual de contabilidade do setor elétrico (“MCSE”) vigente a partir de janeiro de 2022, que 
+considera adoção do CPC 6 pela ANEEL | ² Parte dos recursos da Companhia estão em fundos de investimentos exclusivos, que também são utilizados 
+de forma segregada pelas subsidiárias controladas 100% e controladas em conjunto (IE Aimorés, IE Paraguaçu e IE Ivaí) e refer em-se a quotas de 
+fundos de investimentos com alta liquidez, prontamente conversíveis em montante de caixa, independentemente do vencimento dos ativos neles 
+alocados | ³ Dívida líquida considera disponibilidades ISA ENERGIA BRASIL e subsidiárias controladas 100%. 
+A dívida bruta da Companhia atingiu R$ 19.805,4 milhões ao final do 3T26, aumento de R$ 3.798,0 milhões (+23,7%) 
+em relação ao saldo final do 4T25. A Companhia também encerrou o 3T26 com o total de R$ 2.968,1 milhões em 
+disponibilidades (+37,1% vs. 31 de dezembro de 2025). 
+A Companhia realizou as seguintes captações no 9M26: 
+• 21ª emissão de debêntures (R$ 3,9 bilhões): recursos integralmente utilizados para aquisição facultativa das 9ª, 
+13ª, 15ª (1ª, 2ª e 3ª série) e 16ª emissões de debêntures (liability management); 
+• 22ª emissão de debêntures (R$ 1,0 bilhão): emissão incentivada e verde em duas séries com vencimento em 
+2041 e custo de IPCA + 6,46% a.a. 
+• 23ª emissão de debêntures (R$ 1,5 bilhão): emissão comum em série única com vencimento em 2030 e custo de 
+CDI + 0,42% a.a. 
+• 24ª emissão de debêntures (R$ 1,0 bilhão): emissão comum em série única com vencimento em 2030 e custo de 
+CDI + 0,42% a.a. Cabe destacar, conforme previsto na escritura da oferta, o prazo para liquidação se estende 
+até fevereiro de 2027 e, até o presente momento, os recursos não foram desembolsados e, com isso, não compõe 
+o endividamento da Companhia. 
+A operação de liability management realizada com a 21ª emissão de debêntures no 1T26, aliada às reduções do CDI 
+anualizado (-125 bps vs 2025) e do IPCA acumulado em 12 meses ( -24 bps vs 2025), contribuiu para a redução do 
+custo médio nominal das dívidas da Companhia, que era 11,80% a.a. em 30 de setembro de 2026 (vs. 12,36% a.a. 
+em 31 de dezembro de 2025). Considerando o IPCA acumulado (últimos 12 meses), o custo médio real* da dívida era 
+7,27% em 30 de setembro de 2026, com diminuição de 29 bps (vs. 7,56% em 31 de dezembro de 2025). 
+O prazo médio da dívida consolidada era 8,0 anos em 30 de setembro de 2026 (vs. 8, 2 anos em 31 de dezembro de 
+2025), com perfil compatível com a natureza do negócio que combina baixo risco com alta previsibilidade de receitas e 
+geração de caixa operacional, características que são destacadas pela Fitch ao reafirmar, em julho de 2026, o rating 
+corporativo “triplo A” em escala local com perspectiva estável para a Companhia. Ao excluir as disponibilidades das 
+controladas em conjunto, a dívida líquida da Companhia atingiu R$ 17.018,3 milhões, em 30 de setembro de 2026, 
+aumento de R$ 2.890,4 milhões (+20,5% vs. 31 de dezembro de 2025). O aumento da dívida bruta deve-se 
+principalmente à (i) captação de R$ 2,5 bilhões por meio das 22ª e 23ª emissões de debêntures; (ii) consolidação das 
+dívidas da Interligação Elétrica do Madeira (“IE Madeira”) (R$ 0,6 bilhão); e (iii) variação monetária sobre as dívidas. O 
+aumento da dívida líquida foi parcialmente compensado pelos recursos captados na oferta pública primária de ações 
+(follow-on) (R$ 1,2 bilhão), dos quais R$ 600 milhões foram destinados ao pagamento da torna para AXIA na conclusão 
+da operação de descruzamento de participações societárias, sendo que os demais R$ 600 milhões serão destinados aos 
+investimentos em reforços e melhorias. 
+(*) Razão entre (i) Custo médio nominal; e (ii) IPCA últimos 12 meses 
+¹ CDI 3T25 3,65% - 3T26 3,38% 
+ 
+Empréstimos e Financiamentos
+R$ (milhões)
+Dívida Bruta¹ 19.805,4 16.007,3 23,7%
+Curto Prazo 647,7 604,8 7,1%
+Longo Prazo 19.157,7 15.402,6 24,4%
+Disponibilidades Consolidadas 2.968,1 2.165,0 37,1%
+ISA ENERGIA BRASIL e Controladas 2.787,1 1.879,4 48,3%
+Subsidiárias controladas em conjunto² 181,0 285,5 -36,6%
+Dívida Líquida³ 17.018,3 14.127,9 20,5%
+30/09/2026 31/12/2025 Var (% )
+
+[p. 20]
+20 
+ 
+ri@brasil.isaenergia.com 
+Cabe destacar que apenas os contratos de financiamento com o BNDES (R$ 649,9 milhões em 30 de setembro de 2026) 
+possuem covenants financeiros, que são medidos anualmente pelo índice Dívida Líquida/EBITDA registrado em 31 de 
+dezembro e que tem como limite 3,0x. O índice de alavancagem gerencial, seguindo a metodologia do BNDES, foi de 
+3,50x em 30 de setembro de 2026, comparado a 3,63x em 31 de dezembro de 2025. Mais detalhes sobre a alavancagem 
+estão no anexo VII deste documento e maiores informações sobre o endividamento estão disponíveis no website da 
+Companhia (clique aqui). 
+ 
+ 
+ 
+Indexação da Dívida 
+30/09/2026 
+Cronograma de Amortização da Dívida Bruta 
+(R$ milhões)
+
+[p. 21]
+21 
+ 
+ri@brasil.isaenergia.com 
+INVESTIMENTOS 
+Os investimentos da ISA ENERGIA BRASIL, suas empresas controladas e controladas em 
+conjunto totalizaram R$ 1.103,3 milhões no 3T26, redução de R$ 102,1 milhões ( -8,5%) em 
+relação ao 3T25, refletindo, principalmente, o menor número de projetos greenfield em 
+construção após a energização de Riacho Grande, Jacarandá e Piraquê, concluídas entre 
+outubro de 2025 e junho de 2026. 
+Em contrapartida, a Companhia ampliou os investimentos em Reforços e Melhorias (“R&M”), 
+que totalizaram R$ 578,5 milhões no 3T26, aumento de 32,1% em relação ao mesmo período 
+de 2025. 
+ 
+ 
+Investimentos em Reforços e Melhorias (“ R&M”) 
+Dos R$ 578,5 milhões investidos pela Companhia no 3T26, cerca de 57% foram destinados a projetos de Reforços 
+enquanto 43% aos projetos de Melhorias. 
+Os investimentos em R&M acumularam R$ 1.393,9 milhões nos 9M26, aumento de 24,1% em relação ao mesmo período 
+de 2025, refletindo a continuidade dos investimentos da Companhia na modernização dos ativos e na confiabilidade do 
+sistema de transmissão. Desse t otal, cerca de 60% foram destinados a projetos de grande porte e 40% a projetos de 
+pequeno porte. Além de contribuir para a qualidade da prestação do serviço, a renovação dos ativos favorece ganhos 
+de eficiência operacional e a otimização dos custos de Operação e Manutenção (“O&M”). 
+ 
+Em relação à energização dos projetos, nos primeiros nove meses de 2026, foram energizados cerca de R$ 947 milhões 
+em investimentos, dos quais 16% correspondem a projetos de grande porte e 84% a projetos de pequeno porte. 
+Para projetos de pequeno porte, a habilitação da receita ocorre na RTP subsequente à energização, com efeitos 
+retroativos à respectiva data de entrada em operação. Já para projetos de grande porte, a receita é previamente definida 
+por Resolução Autorizativa (ReA) e passa a ser recebida a partir da entrada em operação. 
+Quanto ao planejamento de investimentos, ao fim do 3T26, a carteira autorizada da Companhia totalizava R$ 7,6 bilhões, 
+5,1% superior ao registrado ao fim do 2T26 devido à (i) novas autorizações da ANEEL; (ii) atualizações dos custos dos 
+projetos; e (iii) c orreção monetária pelo IPCA, parcialmente compensadas pelos investimentos realizados ao longo do 
+trimestre.
+
+[p. 22]
+22 
+ 
+ri@brasil.isaenergia.com 
+Investimentos em Projetos Greenfield 
+A Companhia investiu R$ 524,9 milhões em projetos licitados no 3T26, redução de 31,6% em relação ao 3T25, refletindo 
+a menor quantidade de projetos greenfield em execução. Com a energização do projeto Jacarandá e do bloco 3 do 
+projeto Piraquê, em abril e junho de 2026, respectivamente, a Companhia segue com o planejamento e execução dos 
+projetos Serra Dourada e Itatiaia, que possuem RAP ciclo 2026/2027 total de R$ 596,9 milhões e cerca de R$ 4,1 bilhões 
+em CAPEX remanescente. 
+Do total investido no trimestre, R$ 466,4 milhões foram destinados ao projeto Serra Dourada, que atingiu 64% de 
+avanço físico (+15 p.p. vs. 2T26), e R$ 54,0 milhões ao projeto Itatiaia, que alcançou 35% (+2 p.p. vs. 2T26). 
+Dessa forma, os investimentos em projetos greenfield totalizaram R$ 1.985,3 milhões no 9M26, uma redução de R$ 
+307,1 milhões (-13,4%) em relação ao 9M25. 
+ 
+Segue tabela com informações dos projetos em construção: 
+ 
+ ¹Avanço do Projeto: evolução de todas as atividades relativas ao empreendimento até sua energização. 
+Mais informações sobre os projetos greenfield estão disponíveis no website da Companhia e você pode acessar clicando 
+aqui. 
+Total ANEEL
+Total Realizado 
+ISA ENERGIA 
+BRASIL
+Serra 
+Dourada
+(Lote 1)
+Em construção 006/2023 ISA ENERGIA BRASIL BA/MG 337,0 3T25 mar-29 64% 3.752,6 2.309,9
+Itatiaia
+ (Lote 7)
+Licenciamento 
+Ambiental 012/2023 ISA ENERGIA BRASIL RJ/MG 260 - mar-29 35% 2.734,8 603,4
+596,9 6.487,4 2.913,3
+UF
+Total (2)
+ 001/2023
+(jun/2023)
+RAP 
+ISA ENERGIA 
+BRASIL
+Ciclo 26/27
+(R$ milhões)
+Prazo
+ANEELLeilões Projetos Situação Atual
+CapEx Total do Projeto 
+(R$ milhões, em termos reais, 
+data-base set/26) Início das 
+Obras
+Avanço 
+Físico¹Contrato Empresa
+
+[p. 23]
+23 
+ 
+ri@brasil.isaenergia.com 
+MERCADO DE CAPITAIS 
+ 
+Composição Acionária 
+Controlada pela ISA, empresa multilatina que atua nos setores de energia elétrica, rodovias e telecomunicações, em 30 
+de setembro de 2026, 66,5% das ações de emissão da Companhia encontravam-se em circulação (free float). 
+ 
+Data base: 30/09/2026. 
+ 
+Desempenho das Ações 
+As ações ordinárias (“ISAE3”) e preferenciais (“ISAE4”) da ISA ENERGIA BRASIL encerraram o 3T26 cotadas, 
+respectivamente, a R$ 34,08 (+2,3% vs. preço de fechamento do 2T26) e R$ 27,59 ( -1,8% vs. preço de fechamento 
+do 2T26). Neste mesmo período, o Índice de Energia Elétrica (“IEE”) e o Ibovespa (“IBOV”) apresentaram valorizações 
+de 4,3% e 8,3%, respectivamente. A Companhia encerrou o 3T26 com valor de mercado de R$ 21,0 bilhões e, o volume 
+financeiro médio diário negociado (“ADTV”²) da ISAE4 no trimestre foi de R$ 104,2 milhões (+27,6% vs. 2T26). 
+ 
+ 
+Em 30 de setembro de 2026 , a Companhia integra va 21 índices com destaque para o Ibovespa, IEE, Índice de 
+Governança Corporativa (“IGC”), Índice de Dividendos (“IDIV”) e Índice de Sustentabilidade Empresarial (“ISE”). No 
+3T26 as ações ISAE4 também passaram a integrar o universo MSCI como Small Cap nos índices MSCI Emerging Markets 
+Small Cap, MSCI Emerging Markets IMI e MSCI ACWI IMI, ampliando sua presença em benchmarks globais e o universo 
+potencial de investidores passivos, quantitativos e ativos de mercados emergentes. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Qtd Ações % Qtd Ações % Qtd Ações %
+ISA Capital do Brasil S.A 230.856.832 96,93% 5.144.528 1,11% 236.001.360 33,55%
+Administração - - - - - -
+Ações em Circulação (Free Float) 7.313.172 3,07% 460.013.216 98,89% 467.326.388 66,45%
+AXIA Energia 5.340.330 2,24% 130.937.325 28,15% 136.277.655 19,38%
+Outros 1.972.842 0,83% 329.075.891 70,75% 331.048.733 47,07%
+Total 238.170.004 100,00% 465.157.744 100,00% 703.327.748 100,00%
+Acionistas ISAE3 (ON) ISAE4 (PN) Total (ON+PN)
+3T26 3T25 2T26 9M26 9M25
+703.327.748 658.882.604 658.882.604 703.327.748 658.882.604
+Valor de Mercado¹ (R$ bilhões) 21,0 18,0 20,3 21,0 18,0
+ISAE3
+Volume médio/dia (mil ações) 3,3 2,2 2,9 3,2 2,9
+Volume financeiro médio/dia - ADTV2 (R$ mil) 104 69 99 107 91
+Cotação Média (R$) 32,22 30,79 33,78 33,33 31,28
+Preço de fechamento (R$) 34,08 31,32 33,30 34,08 31,32
+ISAE4
+Volume médio/dia (mil ações) 3.834 1.855 2.794 3.032 2.238
+Volume financeiro médio/dia - ADTV2 (R$ mil) 104.194 42.450 81.681 85.329 51.709
+Cotação Média (R$) 27,20 22,76 28,76 28,01 23,02
+Preço de fechamento (R$) 27,59 24,67 28,11 27,59 24,67
+Mercado de Capitais
+100 
+¹ calculado a partir do preço de fechamento das ações no período | ² volume diário médio de negociações diárias (ADTV) 
+ 
+Evolução ISAE3 x ISAE4 x Ibovespa x IEE – 2026 
+ (base 100)
+
+[p. 24]
+24 
+ 
+ri@brasil.isaenergia.com 
+Proventos 
+Previsão estatutária: O Estatuto Social da Companhia prevê a distribuição de dividendo mínimo que seja o maior 
+valor entre R$ 359 milhões e 25% do lucro líquido do exercício (IFRS). 
+Prática de proventos: a ISA ENERGIA BRASIL adota como prática a distribuição de proventos de, no mínimo, 75% 
+do lucro líquido regulatório (utilizado como proxy da geração de caixa), sujeita à aprovação em Assembleia, com a 
+possibilidade de pagamento de dividendos intercalares, sempre garantindo que o provento seja igual ou superior ao 
+mínimo obrigatório. Cabe destacar que a base de cálculo para os proventos de 2 026 será o Lucro Líquido Regulatório 
+pró-forma, que desconsidera o Efeito Contábil One Off (Descruzamento de Ativos) e foi de R$ 625,5 milhões no 3T26 e 
+R$ 1.157,1 milhões no resultado acumulado do 9M26. 
+Em 29 de setembro de 2026, o Conselho de Administração aprovou a distribuição de JCP, referentes ao resultado do 1º 
+semestre de 2026, no valor total de R$ 398,7 milhões, correspondente a R$ 0,566877 por ação de ambas as espécies. 
+A distribuição do valor do JCP líquido do imposto de renda na fonte foi dividida em três pagamentos, sendo cada um 
+deles com suas respectivas datas base e “ex-direito”. 
+ 
+ 
+ 
+ 
+¹ Disposição de proventos regime competência, conforme exercício social base de distribuição | ² Prática de distribuir no mínimo 75% do lucro líquido 
+regulatório 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Histórico de distribuição de Proventos¹ 
+ (R$ Milhões) 
+Base Ex-Direito Pagamento
+8-out-26 9-out-26 7-dez-26 132,9 0,188959
+9-nov-26 10-nov-26 7-dez-26 132,9 0,188959
+25-nov-26 26-nov-26 7-dez-26 132,9 0,188959
+398,7 0,566877
+Data R$ / AçãoTipo de Provento Data de Deliberação Volume (R$ milhões) Base de Distribuição
+Juros Sobre 
+Capital Próprio 
+("JCP")
+29-set-26
+ Resultado do 
+Exercício Social 
+de 2026
+²
+
+[p. 25]
+25 
+ 
+ri@brasil.isaenergia.com 
+SUSTENTABILIDADE 
+Os dados e indicadores apresentados referem -se à ISA ENERGIA BRASIL e suas subsidiárias de participação integral, 
+salvo indicação em nota de rodapé. A gestão dessas informações é supervisionada e revisada pelo Conselho de 
+Administração, por meio do Comitê Ambiental, Social e Governança Corporativa (“ASG”). 
+Saiba mais sobre os compromissos de sustentabilidade no site da Companhia. 
+ 
+Destaques do Período 
+RECONHECIMENTO ENTRE AS MELHORES EMPRESAS DO BRASIL 
+A presença da ISA ENERGIA BRASIL no ranking Melhores & Maiores, da Revista Exame, reforça seu destaque em uma 
+das mais tradicionais avaliações do ambiente empresarial brasileiro. A classificação reúne indicadores financeiros e 
+operacionais, aspectos de governança e gestão, refletindo a solidez do negócio e a consistência de seus resultados. O 
+desempenho traduz a capacidade de combinar crescimento sustentável, eficiência operacional e geração de valor para 
+os stakeholders. 
+RECONHECIMENTO ETHOS 
+A ISA ENERGIA BRASIL está entre as 14 empresas mais engajadas do Instituto Ethos, sendo reconhecida por sua 
+atuação nas agendas de ética, integridade, transparência e sustentabilidade empresarial. A distinção sinaliza a 
+maturidade de sua governança e a condução responsável dos negócios, com efeitos positivos sobre a confiança dos 
+stakeholders, a gestão de riscos e a criação de valor no longo prazo. 
+USP DIVERSA: DESENVOLVIMENTO DE TALENTOS PARA O SETOR ELÉTRICO 
+No terceiro ano consecutivo de parceria com o USP Diversa, a ISA ENERGIA BRASIL ampliou de 20 para 25 as bolsas 
+destinadas a estudantes de engenharia em situação de vulnerabilidade socioeconômica. O apoio vai além do auxílio 
+financeiro: inclui mentoria, orientação de carreira e ações de desenvolvimento profissional. A iniciativa abre caminhos 
+para novos talentos, amplia a diversidade no setor elétrico e contribui para formar profissionais preparados para os 
+desafios da transição energética e da inovação. 
+GESTÃO CLIMÁTICA E DESCARBONIZAÇÃO 
+Pelo sétimo ano consecutivo, a ISA ENERGIA BRASIL recebeu o Selo Ouro do Programa Brasileiro GHG Protocol, principal 
+reconhecimento nacional pela gestão e pelo reporte de emissões de gases de efeito estufa. Em 2025, a Companhia 
+ampliou o monitoramento de sua cadeia de valor e acumulou redução de 27% nas emissões de SF₆ em quatro anos. 
+Esses avanços demonstram a evolução da estratégia climática e sustentam a trajetória assumida para alcançar o Net 
+Zero até 2050. 
+TROFÉU TRANSPARÊNCIA 2026 
+A ISA ENERGIA BRASIL conquistou o Troféu Transparência 2026, promovido pela ANEFAC, na categoria de empresas 
+com receita líquida entre R$ 5 bilhões e R$ 20 bilhões. O reconhecimento destaca a qualidade e a integridade das 
+demonstrações financeiras da Companhia, considerando o detalhamento das notas explicativas, a aderência às normas 
+contábeis e a divulgação voluntária de informações relevantes, reforçando seu compromisso com a transparência e a 
+governança corporativa.
+
+[p. 26]
+26 
+ 
+ri@brasil.isaenergia.com 
+Indicadores de Sustentabilidade 
+Desempenho das Fontes de Emissão de CO2 
+No 3T26, a ISA ENERGIA BRASIL manteve o foco na gestão de suas emissões operacionais e na eficiência dos ativos. 
+As perdas de SF₆ apresentaram redução de 16% em relação ao mesmo período do ano anterior, refletindo a efetividade 
+das ações de monitoramento, inspeção e manutenção. No acumulado do ano, o indicador ainda registra aumento de 
+17%, influenciado principalmente por vazamentos pontuais de gás SF₆ em alguns ativos no 2T26, para os quais foram 
+adotadas medidas corretivas e preventivas. 
+A Companhia também registrou redução de 11% no consumo de energia elétrica no trimestre e de 8% no acumulado 
+de nove meses, resultado de ajustes no perímetro operacional após a transferência da IE EVRECY, combinados com 
+esforços contínuos de gestão energét ica. O consumo de combustíveis apresentou redução de 1% tanto no trimestre 
+quanto no acumulado do ano, refletindo ações de otimização da frota e de equipamentos estacionários. 
+Esses resultados reforçam o compromisso da ISA ENERGIA BRASIL com a eficiência operacional, a mitigação dos 
+impactos ambientais e a execução de sua estratégia de descarbonização, alinhada à trajetória Net Zero. 
+1 considera o consumo de energia proveniente exclusivamente da concessionária. 
+ 
+Saúde e Segurança do Trabalho (“SST”) 
+No 3T26, a ISA ENERGIA BRASIL fortaleceu sua agenda SST por meio 
+da ampliação das ações de monitoramento, fiscalização e 
+engajamento das empresas contratadas. Ao longo do período, foram 
+reforçados os mecanismos de identificação e tratamento de desvios, 
+o acompanhamento de temas crítico s e o compartilhamento de 
+melhores práticas de segurança, com foco na prevenção de 
+ocorrências e no aprimoramento contínuo dos controles operacionais. 
+Adicionalmente, a Companhia promoveu iniciativas de 
+conscientização e engajamento voltadas à segurança, fortalecendo o 
+protagonismo das lideranças e a disseminação de comportamentos 
+seguros em toda a organização. 
+Essas iniciativas contribuem para o fortalecimento da governança em SST, a mitigação de riscos operacionais e a 
+consolidação de uma cultura de segurança alinhada à execução segura e sustentável das atividades da Companhia. 
+ 
+Diversidade 
+O Programa de Diversidade, Equidade, Inclusão e Pertencimento da ISA ENERGIA BRASIL manteve sua atuação 
+estratégica no 3T26 com foco no desenvolvimento de talentos diversos, no fortalecimento da liderança inclusiva e na 
+promoção de uma cultura de pertencimento, integrada à estratégia de gestão de pessoas da Companhia. 
+No período, destacaram -se a continuidade dos programas Empodera Talentos e Impulsiona Talentos, voltados ao 
+desenvolvimento e aceleração de carreira de mulheres, além da realização do workshop Diálogo Inclusivo, que 
+promoveu reflexões sobre vieses inconscientes e seus impactos nas relações e na tomada de decisão. A Companhia 
+também realizou ações de sensibilização com lideranças sobre inclusão de pessoas com deficiência, reforçando o 
+compromisso com ambientes cada vez mais acessíveis, diversos e acolhedores. 
+Os Grupos de Afinidade seguiram apoiando a governança do programa e o avanço das agendas prioritárias de 
+diversidade, equidade, inclusão e pertencimento, contribuindo para o engajamento das pessoas e para o fortalecimento 
+da cultura organizacional. 
+Acidentes sem afastamento
+Próprios 0 1 -1,0 1 3 -0,7
+Terceiros 10 5 1,0 23 16 0,4
+Total 10 6 0,7 24 19 0,3
+Acidentes com Afastamento
+Próprios 2 0 N.A. 2 0 N.A.
+Terceiros 2 5 -0,6 4 10 -0,6
+Total 4 5 -0 6 10 -0,4
+Acidentes com óbitos
+Próprios 0 0 N.A. 0 0 N.A.
+Terceiros 0 1 -1,0 0 1 -1,0
+Total 0 1 -1 0 1 -1,0
+Taxa de frequência de acidentes 
+Próprios 2,4 1,2 1,0 1,2 1,3 -0,0
+Terceiros 2,3 1,9 0,2 1,6 1,6 -0,0
+9M25 Var (% ) Categoria / Colaboradores 3T26 3T25 Var (% ) 9M26
+
+[p. 27]
+27 
+ 
+ri@brasil.isaenergia.com 
+Essas iniciativas contribuem para a atração, o desenvolvimento e a retenção de talentos, fortalecem a marca 
+empregadora e apoiam a geração de valor sustentável para o negócio. 
+ Os indicadores de diversidade consideram o total de colaboradores no último dia de cada período. 
+1 Diretores estatutários e Presidente. 
+2 Diretores empregados, Gerentes e Coordenadores. 
+3 Especialistas e demais cargos, exceto Conselheiros, Aprendizes e Estagiários. 
+4 As informações étnico-raciais são feitas de acordo com as classificações do IBGE. 
+Comportamento ético 
+No 3T26, a ISA ENERGIA BRASIL registrou 25 denúncias na Linha Ética, 
+representando redução de 39% em relação ao 3T25. O site permaneceu como 
+principal canal de recebimento, concentrando 72% dos registros, enquanto 56% 
+das denúncias foram realizadas de form a anônima, reforçando a confiança nos 
+canais disponíveis. 
+Das denúncias recebidas, 22 foram concluídas no período, sendo a maioria 
+classificada como fora do escopo ou não procedente, após análise e 
+direcionamento às áreas responsáveis. No trimestre, dois casos foram 
+confirmados, ambos relacionados ao descumprimen to de leis, normas e 
+procedimentos. 
+Todas as ocorrências confirmadas foram avaliadas pelo Comitê de Ética, reportadas ao Comitê de Auditoria e Riscos e 
+tratadas em conformidade com as políticas internas, resultando na adoção de medidas disciplinares e ações preventivas 
+voltadas ao fortalecimento dos controles e à prevenção de recorrências. 
+Não foram registradas denúncias relacionadas a corrupção, suborno ou lavagem de dinheiro, nem processos judiciais 
+associados a esses temas. Os resultados do período reforçam a importância da contínua promoção da cultura ética, da 
+conformidade e da utilizaç ão adequada dos canais de integridade como instrumentos de prevenção, detecção e 
+tratamento de potenciais desvios de conduta. 
+¹ São consideradas denúncias confirmadas aquelas analisadas e entendidas como verdadeiras. 
+ 
+Conformidade Ambiental 
+A Companhia não registrou multas significativas por não conformidade ambiental no período, tendo recebido autuações 
+relacionadas à suposta utilização de recursos hídricos em desacordo com a outorga e à emissão de níveis de pressão 
+sonora em desconformidade com a legislação. A empresa apresentou defesa e requereu o cancelamento das multas. 
+Não foram recebidas sanções não monetárias. 
+* Multa significativa: Sanções por não conformidade ambiental (valor superior a US$10 mil). 
+Étnico-racial (%)4 
+ 
+Diversidade de Gênero (%)
+
+[p. 28]
+28 
+ 
+ri@brasil.isaenergia.com 
+EVENTOS SUBSEQUENTES 
+Alienação de participação relevante 
+Em 9 de outubro de 2026, a Companhia recebeu correspondência da AXIA Energia S.A. (“AXIA Energia”) informando 
+que passou a deter o total de 5.340.330 ações ordinárias (“ISAE3”) e 115.202.535 ações preferenciais (“ISAE4”) de 
+emissão da ISA ENERGIA BRASIL , em decorrência de alienações de ações preferenciais (PN) . Esses montantes 
+representam, respectivamente, cerca de 2,24% e 24,77% do total de ações ordinárias e preferenciais de emissão da 
+Companhia e, juntos, correspondem a 17,14% do seu capital social. 
+A AXIA Energia declara que não participa de qualquer contrato ou acordo que regule o exercício de direitos de voto 
+sobre os valores mobiliários da ISA Energia. Informa, ainda, que sua participação societária tem caráter exclusivamente 
+de investimento, não objetivando alteração do controle acionário ou da estrutura administrativa da Companhia. Clique 
+aqui para acessar o comunicado ao mercado na íntegra.
+
+[p. 29]
+29 
+ 
+ri@brasil.isaenergia.com 
+ 
+OUTRAS INFORMAÇÕES RELEVANTES 
+ 
+Revisão Tarifária Periódica (RTP) - Contratos Licitados 
+RTP Licitadas 2026 
+Em junho de 2026, foi publicada a Nota Técnica 90/2026 STR -ANEEL (clique aqui), a qual reposicionou a RAP dos 
+contratos dos empreendimentos licitados com RTP prevista para o ciclo tarifário em julho de 2026, entre eles: 005/2021 
+(IE Riacho Grande). 
+O índice de reposicionamento econômico real foi de +5,27%, com impacto positivo de R$ 4,9 milhões em valor absoluto. 
+Considerando o IPCA do período de 4,72%, o índice de reposicionamento nominal foi de 10,25%: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Empresa Vigente (Jun/25) (A) Revisada (jun/26) Var (R$) Nominal Real (B)
+IE Riacho Grande 100% 005/2021 93,1 102,7 9,5 10,25% 5,27% 4,91 
+Total 93 103 10 10,25% 5,27% 4,91 
+ Total Particp. 
+ISA ENERGIA BRASIL 93,1 102,7 9,5 10,25% 5,27% 4,91 
+RTP 2026 Licitadas
+RAP (R$ milhões, sem PA) Índice Reposicionamento
+Impacto na 
+RAP (A x B)
+(R$ milhões)
+Particip. ISA 
+ENERGIA 
+BRASIL (%)
+Contrato
+
+[p. 30]
+30 
+ 
+ri@brasil.isaenergia.com 
+RAP Ciclo 2026 /2027 
+Em 22 de junho de 2026 foi publicado o Despacho nº 2.268 (clique aqui), que estabeleceu a RAP da ISA ENERGIA 
+BRASIL e suas empresas controladas e controladas em conjunto pela disponibilização das instalações de transmissão 
+integrantes da Rede Básica e das Demais Instalações de Transmissão, para o Ciclo Tarifário de 12 meses 
+compreendendo o período de 01 de julho de 2026 a 30 de junho de 2027 (ciclo 2026/2027). De acordo com o Despacho, 
+a RAP¹ e os valores correspondentes às PAs do Consolidado e empresas controladas em conjunto, líquida de PIS/COFINS 
+passou a ser de R$ 6.773 milhões, ponderado pela participação da ISA ENERGIA BRASIL nas empresas controladas em 
+conjunto (data base junho de 2026). Excluindo os valores correspondentes às PAs, a RAP consolidada do ciclo seria de 
+R$ 6.776 milhões, antes do descruzamento de ativos com a AXIA Energia. 
+Após o descruzamento de ativos, concluído em 31 de julho de 2026, a RAP ciclo desconsiderando a PA totalizou R$ 
+7.082,3 milhões. Deste montante, 53,7% representam a RAP do contrato renovado Concessão Paulista, incluindo R&M, 
+RBSE e a parcela de O&M do contrato. Além disso, 46,3% da RAP refere-se a contratos licitados provenientes de leilões 
+de transmissão ou aquisições realizadas pela Companhia, sendo (i) 37,8% de empreendimentos em operação, ou seja, 
+com RAP ativa e; (ii) 8,4% de empreendimentos em constru ção, que adicionarão remuneração à Companhia quando 
+concluídos. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+¹ Receita Anual Permitida (“RAP”) ciclo 2026/2027 | ² Operação e Manutenção + Reforços e Melhorias 
+ 
+ ¹ considera valores estabelecidos no momento da publicação das respectivas Resoluções Homologatórias da RAP dos ciclos tarifári os. 
+A RAP do ciclo 2026/2027 cresceu R$ 708,9 milhões (+11,1%) em relação ao ciclo tarifário anterior (25/26). Os principais 
+motivos dessa variação são: 
+▲ consolidação da RAP integral da IE Madeira (+R$ 390,4 milhões); 
+▲ atualização da RAP pela inflação para o ciclo 2026/2027 (+R$ 314,4 milhões); 
+▲ novos projetos de R&M que entraram em operação no último ciclo (+R$ 129,1 milhões); 
+▼ venda da participação na IE Garanhuns em julho de 2026 (-R$ 84,3 milhões). 
+Além disso, a resolução também definiu valores das PAs a serem compensadas no mesmo período para tratar eventuais 
+ajustes financeiros. O valor total da PA, considerando o total Consolidado e o montante proporcional à participação da 
+Companhia nas empresas controladas em conjunto, variou R$ 16,1 milhões para o ciclo 2026/2027. 
+Evolução da RAP Ciclo¹ 
+(milhões)
+
+[p. 31]
+31 
+ 
+ri@brasil.isaenergia.com 
+Segue abaixo quadro resumo da RAP ciclo 2026/2027. Os valores são líquidos de PIS e COFINS, incluem encargos 
+regulatórios P&D, TFSE e RGR e excluem os encargos CDE e PROINFA. 
+ 
+ 
+ 
+¹ IE Madeira: RAP Ciclo 2026/2027 reflete o descruzamento de ativos com a AXIA Energia com consolidação como subsidiaria 100%. Anteriormente, 
+a participação de 51% era contabilizada como empresa controlada em conjunto, via equivalência patrimonial | ² IE Garanhuns: RAP Ciclo 2026/2027 
+reflete o descruzamento de ativos com a AXIA Energia. Anteriormente, a participação de 51% era contabilizada como empresa controlada em conjunto, 
+via equivalência patrimonial, hoje deixa de integrar a base de ativos da Companhia. 
+ 
+Controladora
+RAP 
+Ciclo 
+25/26
+RAP 
+Ciclo 
+26/27
+PA
+RAP 
+Ciclo 
+26/27
+REH 3.348 DSP 2268 Total com PA
+O&M 835 40 63 0 -16 921 984 835 10,4%
+R&M 813 38 60 0 -15 897 897 813 10,2%
+RBSE 1.899 90 0 0 -0 1.989 1.989 1.899 4,7%
+012/2016 PBTE IPCA 235 11 0 0 0 246 -8 237 235 4,7%
+002/2022 Piraquê IPCA 343 16 0 0 0 359,3 -4 355 343 4,7%
+Total Controladora Operacional 4.125 195 123 0 -31 4.412 50 4.462 4.125 7%
+Subsidiárias Controladas
+RAP 
+Ciclo 
+25/26
+RAP 
+Ciclo 
+26/27
+PA
+RAP 
+Ciclo 
+26/27
+REH 3.348 DSP 2268 Total com PA
+Subsidiárias (100%) em operação 1.263 77 6 5 -1 1.723 -54 1.669 1.263 36%
+IE Aguapeí 046/2017 Aguapeí IPCA 83 4 0 0 0 87 -3 84 83 5%
+IE Itaúnas 018/2017 Itaúnas IPCA 72 3 3 0 0 79 2 81 72 10%
+IE Itaquerê 027/2017 Itaquerê IPCA 71 3 0 0 0 74 -2 72 71 5%
+004/2007 IEMG IPCA 15 1 0 0 0 16 -1 15 15 5%
+007/2020 Triângulo Mineiro³ IPCA 46 2 3 0 0 51 1 52 46 10%
+IENNE 001/2008 IENNE IPCA 71 3 0 0 0 75 -2 73 71 5%
+IE Japi 026/2009 Serra do Japi IPCA 62 3 0 0 0 65 -1 64 62 5%
+IE Jaguar 9 015/2008 Getulina IPCA 77 4 0 0 0 81 -2 79 77 5%
+IE Biguaçu 012/2018 Biguaçu IPCA 56 3 0 0 0 59 -2 57 56 5%
+143/2001 Botucatu-Xavantes IGP-M 21 0 0 0 -1 20 -1 20 21 -2%
+042/2017 Bauru IPCA 16 1 0 0 0 17 -1 16 16 5%
+026/2017 Tibagi IPCA 24 1 0 0 0 25 -1 24 24 5%
+006/2020 Três lagoas IPCA 7 0 0 0 0 8 -0 8 7 5%
+016/2008 Forquilinha IPCA 20 1 0 0 0 21 -1 21 20 5%
+013/2008 Scharlau IPCA 9 0 0 0 0 9 -0 9 9 5%
+Evrecy 001/2020 Minuano IPCA 53 3 0 0 0 55 -3 52 53 5%
+021/2018 Lorena IPCA 18 1 0 0 0 19 -1 19 18 5%
+021/2011 Itapeti IPCA 9 0 0 0 0 10 -0 9 9 5%
+012/2008 Piratininga IPCA 16 1 0 0 0 17 -0 16 16 5%
+011/2022 Jacarandá IPCA 16 1 0 0 0 16,9 1 18 16 5%
+IE Pinheiros 018/2008 Atibaia II IPCA 9 0 0 0 0 9 -0 9 9 5%
+IE Tibagi 014/2023 Água Vermelha IPCA 8 0 0 0 0 8,9 0 9 8 5%
+IE Riacho Grande 005/2021 Riacho Grande IPCA 93 4 0 5 0 102,7 -3 100 93 10%
+013/2009 Lote D 408 19 0 0 0 428 -18 410 408 5%
+015/2009 Lote F 352 17 0 0 0 369 -15 354 352 5%
+Consolidado ISA ENERGIA BRASIL em operação 5.388 272 129 5 -32 6.135 -4 6.131 5.388 14%
+Subsidiárias Controle Compartilhado
+RAP 
+Ciclo 
+25/26
+RAP 
+Ciclo 
+26/27
+PA
+RAP 
+Ciclo 
+26/27
+REH 3.348 DSP 2268 Total com PA
+Subsidiárias (não consolidadas) em operação 828 31,6 0 0 0 702 -24 677 828 -15%
+IE Paraguaçu (50%) 003/2017 Paraguaçu IPCA 162 7,7 0 0 0 170 -6 164 162 5%
+IE Aimorés (50%) 004/2017 Aimorés IPCA 109 5,1 0 0 0 114 -4 110 109 5%
+IE Ivaí (50%) 022/2017 Ivaí IPCA 399 18,8 0 0 0 418 -14 403 399 5%
+IE Garanhuns (51%)² 022/2011 Garanhuns IPCA 158 0,0 0 0 0 0 0 0 0 0%
+Participação ISA ENERGIA BRASIL 415 16 0 0 0 351 -12 339 415 -16%
+ISA ENERGIA BRASIL Total em operação 5.803 287 129 5 -32 6.485 -16 6.469 5.803 12%
+PROJETOS EM CONSTRUÇÃO
+RAP 
+Ciclo 
+25/26
+RAP 
+Ciclo 
+26/27
+PA
+RAP 
+Ciclo 
+26/27
+REH 3.348 DSP 2268 Total com PA
+Concessões Controladora em Contrução 570 27 0 0 0 597 0 597 570 5%
+006/2023 Serra Dourada IPCA 322 15 0 0 0 337 0 337 322 5%
+012/2023 Itatiaia IPCA 248 12 0 0 0 260 0 260 248 5%
+ISA ENERGIA BRASIL em construção 570 27 0 0 0 597 0 597 570 5%
+ISA ENERGIA BRASIL TOTAL (OPERAÇÃO + CONSTRUÇÃO) 6.373 314,4 129,1 5 -32 7.082 -16 7.066 6.373 11%
+RAP 
+Ciclo 
+25/26
+Var %
+ex-PAConcessionária Contrato Projeto índice Inflação
+ISA ENERGIA BRASIL 059/2001 IPCA 63
+R&M RTP Outros¹
+RTP Outros²
+RAP 
+Ciclo 
+25/26
+Var %
+ex-PA
+IEMG
+Concessionária Contrato Projeto índice Inflação R&M
+IE Jaguar 6
+IE Tigabi
+RTP
+RAP 
+Ciclo 
+25/26
+Outros
+IE SUL 
+IE Itapura
+Concessionária Contrato Projeto
+IE Jaguar 8
+IE Madeira¹ IPCA
+R&M RTP
+índice Inflação
+índice Inflação
+R&M
+Var %
+ex-PA
+RAP 
+Ciclo 
+25/26
+ISA ENERGIA BRASIL
+Var %
+ex-PA
+Concessionária Contrato Projeto
+Outros
+
+[p. 32]
+32 
+ 
+ri@brasil.isaenergia.com 
+Renovação C oncessão Paulista - Contrato 059/2001 (RBNI/RBSE) 
+Em Assembleia Geral Extraordinária (AGE) realizada em 3 de dezembro de 2012, os acionistas da Companhia aprovaram 
+por unanimidade a prorrogação do contrato de concessão nº 059/2001 nos termos da Lei 12.783/2013. Com isso o 
+prazo da concessão foi prorrogado até dezembro de 2042 e o direito ao recebimento dos valores relativos aos ativos do 
+NI (*) e do SE (**) foram garantidos à Companhia. 
+Os valores referentes aos ativos do NI, equivalente a R$2.891.291, conforme Portaria Interministerial nº 580, foram 
+recebidos entre os anos de 2013 e 2015 (nota 14.1.3 (ii) das demonstrações financeiras referentes ao 4T24). 
+Em 2016, a ANEEL emitiu a Nota Técnica nº 336/2016 que apresentou proposta de regulamentação quanto ao previsto 
+na Portaria nº 120/2016 do MME para a metodologia de cálculo do custo de capital (Ke) e do cálculo da RAP e determina 
+os valores do SE e prazos de pagamento para as concessionárias. Em 30 de maio de 2017, foi emitido Despacho ANEEL 
+nº 1.484/17, que reconheceu como valor destes ativos o total de R$4.094.440, na data base 31 de dezembro de 2012. 
+Na metodologia contábil pelo modelo IFRS, o impacto in icial dos valores da RBSE foi reconhecido contabilmente em 
+setembro de 2016 e o complemento do valor reconhecido pela ANEEL foi registrado contabilmente durante o segundo 
+trimestre de 2017, e estão apresentados como “Ativos da concessão” (nota 5.1 das demonstrações financeiras referentes 
+ao 4T24). 
+A Nota técnica nº 108/2020 – SGT/ANEEL, de 25 de junho de 2020, recalculou os valores da RAP a partir do ciclo 
+2020/2021, incluindo a parcela de remuneração do custo de capital (Ke) e operacionalizou os efeitos da revogação das 
+liminares que impediam o pagamento do Ke. Tais valores foram incluídos nos cálculos da RTP e aprovados pela Diretoria 
+da ANEEL pela Resolução Homologatória nº 2.714/2020. Atualmente, existem duas liminares vigentes. 
+Em 22 de abril de 2021, a ANEEL julgou favoravelmente o recurso administrativo interposto pela Companhia contra 
+Resolução Homologatória nº 2.714/2020, que pleiteava o direito à atualização retroativa dos valores do RBSE, e aplicou 
+o reperfilamento do componente financeiro do RBSE conforme Nota Técnica nº 068/2021 (nota 1.2a das demonstrações 
+financeiras referentes ao 4T24). As premissas válidas a partir do ciclo 2021/2022 são: (i) a conclusão do pagamento do 
+RBSE em 2028; (ii) a redução da amortização dos valores a receber do RBSE durante os ciclos 2021/2022 e 2022/2023; 
+e (iii) a remuneração pelo WACC regulatório definido na RTP de 2018. A partir do ciclo 2023/2024, os fluxos de 
+pagamentos previstos pela ANEEL retornaram aos patamares similares aos aprovado s na Resolução Homologatória nº 
+2.714/2020. 
+Após a homologação do resultado da RTP das Transmissoras (ReH 2.851/21), que incluiu o reperfilamento do 
+recebimento do componente financeiro do RBSE, a ABIAPE/ABRACE/ESBR apresentaram pedido de reconsideração, pós 
+trânsito em julgado, questionando o cálculo do componente financeiro do RBSE e o reperfilamento. Em junho de 2021, 
+a Superintendência Geral de Tarifas (“SGT”) da ANEEL publicou a NT 117/2021 e emitiu comunicado público explicando 
+não existirem erros de cálculo e tampouco erros metodológicos. Entretanto, em junho de 2022, a SGT da ANEEL emitiu 
+a Nota Técnica nº 85/2022, que trata da análise dos pedidos de reco nsideração interpostos no âmbito do pagamento 
+do componente financeiro e reperfilamento do RBSE e, neste mesmo mês, ocorreu decisão monocrática (Despacho nº 
+1.762/2022) deliberada por diretor da ANEEL sobre o referido tema. Após decisão colegiada da direto ria da ANEEL, a 
+decisão monocrática foi suspensa. Em abril de 2023, a SGT publicou a nova nota técnica (85/2023), que trata das 
+manifestações acerca NT 085/2022 e o Ofício-Circular nº 23/2022, de 16 de agosto de 2022. 
+Em reunião de Diretoria realizada no dia 10 de junho de 2025, a Agência Nacional de Energia Elétrica (“ANEEL”) decidiu 
+sobre o pedido interposto por agentes de mercado sobre Resolução Homologatória 2.851/21, que trata dos cálculos 
+apresentados no âmbito do pagamento do componente financeiro da RBSE – Rede Básica Sistema Existente e, com 
+isso, encerrou a discussão do tema em âmbito administrativo. A Diretoria votou pela aplicação parcial das indicações 
+propostas na Nota Técnica 85/2023 (“NT85”) e decidiu por: (i) manutenção da metodologia de cálculo postecipado; (ii) 
+criação de novo perfil de pagamento com a separação em dois fluxos; (iii) e atualização do WACC a cada Revisão 
+Tarifária Periódica. 
+Além da discussão em âmbito administrativo que se encerrou em junho de 2025, está em tramitação o Processo nº TC 
+012.715/2017-4 perante o Tribunal de Contas da União (“TCU”), cujo objeto é a avaliação da conformidade e 
+transparência da metodologia da defin ição dos valores dos ativos de transmissão existentes em 31/05/2000, mas não 
+amortizados, bem como à metodologia de atualização e repasse desses valores à tarifa de energia elétrica pendente de 
+análise. Em 05/07/2023, o Ministério Público do Tribunal de Co ntas da União – MPTCU manifestou-se favoravelmente 
+ao ingresso da ISA ENERGIA BRASIL como parte interessada e concluiu que a opção regulatória do MME deve ser 
+respeitada pelo TCU. O processo teve seu julgamento iniciado em 18 de novembro de 2025, ocasião em que o ministro 
+relator apresentou voto pela legalidade da metodologia do Ke. Posteriormente, na sessão de 06 de maio de 2026, o 
+TCU decidiu, por unanimidade, pelo arquivamento do referido processo.
+
+[p. 33]
+33 
+ 
+ri@brasil.isaenergia.com 
+Adicionalmente, a pauta encontra-se judicializada. Em 30 de setembro de 2026, existiam cerca de 40 (quarenta) ações 
+em andamento, interpostas por entidades do setor, as quais debatem a legalidade da Portaria MME 120/2016. As 
+decisões em 1ª instância reconheceram a legalidade da Portaria MME nº 120/2016 e a forma de pagamento ali 
+estabelecida. As decisões de 1ª instância foram favoráveis às concessionárias. Contudo, elas estão sujeitas a reversão 
+pelos tribunais superiores e, nesse sentido, no dia 26 de maio de 2026, a 7ª Turma do TRF1 julgou o recurso de 
+apelação em cinco dos quarenta processos judic iais acima mencionados e decidiu por reconhecer a legalidade da 
+incorporação dos ativos da RBSE à Base de Remuneração Regulatória e declarar a nulidade do §3º, do art. 1º, da 
+Portaria MME n. 120/2016. Tais decisões estão sujeitas a recursos para tribunais superiores. 
+Não se pode desconsiderar a possibilidade de novas decisões judiciais alterarem uma ou mais condições do pagamento 
+do RBSE. Eventuais novas decisões judiciais, dependendo do seu conteúdo e abrangência, se não revertidas a tempo e 
+modo, podem trazer ou não impactos significativos ao recebimento da Companhia exigindo, inclusive, conforme o caso, 
+a revisão de planos de investimentos, distribuição de proventos e estratégia corporativa, além dos regulares registros 
+contábeis de tais impactos. 
+Considerando-se decisão da ANEEL em reunião de diretoria realizada no dia 10 de junho de 2025 e com base no reajuste 
+tarifário para o ciclo 2026/2027, segue o fluxo de pagamentos dos valores devidos referente a renovação da Concessão 
+Paulista: 
+ 
+Fluxo de Recebimento da RBSE 1 2 3 4 
+ 
+1 Valores reais, data base junho de 2026, com base nas planilhas publicadas no encerramento da CP nº 12/2024. 
+2 Desconsidera a parcela de CAIMI e Outras Receitas da RAP do RBSE. 
+3 Movimentação da base de ativos que compõe o RBSE deverá reduzir gradualmente a parcela de RAP do componente econômico, e após o ciclo 
+33/34, permanecerá somente o valor referente a remuneração de capital de terrenos e almoxarifado até o fim da concessão, em 2042. 
+4 Fluxo previsto do ciclo 28/29 a 32/33 foi estimado com base no laudo e nas premissas definidas na RTP de 2023. Os valores ser ão reavaliados no 
+processo de revisão tarifária de 2028. 
+(*) NI – instalações energizadas a partir de 1º de junho de 2000 
+(**) SE – instalações de ativos não depreciados existentes em 31 de maio de 2000. 
+ 
+Plano de Complementação de Aposentadoria – Lei 4.819/58 
+O plano de complementação de aposentadoria, regido pela Lei Estadual 4.819/58, aplica -se aos empregados de 
+autarquias e de sociedades anônimas em que o Estado de São Paulo fosse detentor da maioria das ações com direito 
+de controle, admitidos até 13 de maio de 1974. 
+Os recursos necessários para fazer face aos encargos assumidos nesse plano são de responsabilidade do Governo do 
+Estado de São Paulo, cuja operacionalização ocorreu conforme convênio firmado entre a Secretaria da Fazenda do 
+Estado de São Paulo (“SEFAZ”) e a Companhia em 10 de dezembro de 1999. A forma de pagamento da complementação 
+da aposentadoria foi através de um fluxo mensal com origem na SEFAZ. Esta realizava uma transferência da quantia a 
+ser paga para a ISA ENERGIA BRASIL e a Companhia realizava a transferência deste mesmo valor para a Fundação 
+CESP, que então repassava aos aposentados. 
+A partir de janeiro de 2004, o pagamento aos aposentados passou a ser processado diretamente pela SEFAZ. Com essa 
+mudança de processo, glosas passaram a ser aplicadas, como por exemplo, benefícios acima do teto (equivalente ao 
+salário do governador do Esta do de São Paulo). Desta forma, a SEFAZ passou a excluir este excedente do valor do 
+benefício pago aos aposentados.
+
+[p. 34]
+34 
+ 
+ri@brasil.isaenergia.com 
+Ação Civil Pública e Ação Coletiva 
+Em junho de 2005, após decisão desfavorável na Justiça Comum, a Associação dos Aposentados da Funcesp (“ AAFC”) 
+obteve liminar na Justiça do Trabalho, determinando que a quantia integral paga anteriormente seja mantida. Desde 
+então, o processamento do pagamento dos benefícios voltou ao modelo original, em que a responsabilidade era da 
+Fundação CESP, porém a SEFAZ transfere a quantia ajustada e a ISA ENERGIA BRASIL faz a complementação para que 
+o pagamento aos aposentados seja feito de maneira integral, conforme estabelecido em liminar. 
+Ação de Cobrança 
+Desde 2005, a SEFAZ repassa à Companhia valor inferior ao necessário para o cumprimento do pagamento aos 
+aposentados (~70%), por força da decisão liminar da 49ª Vara do Trabalho. A ISA ENERGIA BRASIL tem feito então a 
+complementação para pagamento integral dos benefícios aos aposentados (~30%). Essa complementação realizada 
+pela Companhia está sendo cobrada por meio de uma ação contra a SEFAZ. 
+Esta ação de cobrança foi julgada favorável à Companhia em 2ª instância. Em agosto de 2017, a SEFAZ interpôs Recurso 
+Especial para o STJ, que aguarda análise de admissibilidade. Em 30 de setembro de 2026, o valor registrado no balanço 
+da Companhia se mante ve em cerca de R$ 2,9 bilhões, líquido da provisão para perdas sobre realização de créditos, 
+realizada em 2013. 
+Entre agosto de 2018 e março de 2019, a ISA ENERGIA BRASIL recebeu repasse integral da SEFAZ em razão de decisão 
+judicial liminar, posteriormente suspensa pelo STJ até julgamento do recurso da SEFAZ. 
+O recurso da SEFAZ foi julgado monocraticamente no Superior Tribunal de Justiça (“ STJ”) em março de 2024, 
+determinando o retorno do processo ao TJSP, que deverá delimitar na decisão a responsabilidade de cada uma das 
+partes entre si em relação às parcelas e rubricas que compõem as complementações de aposentadoria. Foi determinada 
+a manutenção do pagamento das glosas pela ISA ENERGIA BRASIL (como ocorre desde 2005) até o trânsito em julgado 
+da ação. 
+Em outubro de 2024, o STJ, por convenção das partes para tentativa de conciliação, suspendeu por 180 (cento e oitenta) 
+dias o trâmite processual da ação de cobrança. Em 22 de maio de 2025 foi realizada audiência de instalação da mediação 
+no Centro Judiciário de Solução de Conflitos do STJ (“CEJUSC/STJ”) com a presença da Procuradoria do Estado de São 
+Paulo, na qual renovou-se o prazo de suspensão do processo por mais 180 dias. Além da audiência de instalação, foram 
+realizadas 6 audiências entre os meses de agosto e novembro de 2025. 
+Em 2026, quatro audiências de mediação foram realizadas nos dias 03 de fevereiro, 04 de abril, 16 de junho e 26 de 
+agosto. A próxima audiência de mediação acontecerá em 2027, ainda sem data específica. 
+A tentativa de conciliação amigável não significa prejuízo aos direitos da Companhia e não altera qualquer decisão 
+judicial vigente ou o atual fluxo de pagamentos. Caso a tentativa de conciliação seja infrutífera, o processo voltará a 
+fluir como anteriormente. 
+A Companhia continua com os esforços direcionados para manter a decisão de mérito favorável conquistada no Tribunal 
+de Justiça/SP. 
+O valor contabilizado pela Companhia na rubrica “Valores a receber - Secretaria da Fazenda” totalizou R$ 2.874,9 
+milhões em 30 de setembro de 2026. Adicionalmente, a Companhia possui provisão de R$ 516,3 milhões realizada em 
+2013 devido ao alargamento de prazo da expectativa de realização de parte do contas a receber do Estado de São Paulo 
+e andamentos processuais, ocorridos naquele período. Cabe destacar que os valores acima mencionados são históricos 
+e sua contabilização não considera qualquer tipo de correção ou atualização.
+
+[p. 35]
+35 
+ 
+ri@brasil.isaenergia.com 
+GLOSSÁRIO 
+ADTV (Average Daily Traded Volume ) - Volume financeiro médio diário negociado de um ativo em determinado 
+período. 
+ANEEL (Agência Nacional de Energia Elétrica) - Autarquia responsável por regular e fiscalizar a geração, 
+transmissão, distribuição e comercialização de energia elétrica no Brasil. 
+CAAE (Custo Anual dos Ativos Elétricos) - Parcela da receita associada à remuneração dos investimentos em ativos 
+elétricos, composta pela remuneração do capital e pela Quota de Reintegração Regulatória (QRR). 
+CAGR (Compound Annual Growth Rate) - Taxa de crescimento anual composto. 
+CAOM (Custos de Administração, Operação e Manutenção) - Parcela da receita destinada à cobertura dos custos 
+de administração, operação e manutenção das instalações, incluindo os componentes definidos pela regulamentação 
+aplicável. Pode ser dividida em (i) receita de O&M, que tem como finalidade cobrir os cus tos e despesas (exemplo: 
+gastos com salários, despesas de manutenção e outros); e (ii) receita para cobrir os custos das instalações móveis e 
+imóveis (CAIMI). 
+CAPEX (Capital Expenditures) – Investimentos realizados na aquisição, implantação, expansão, modernização ou 
+melhoria de ativos. 
+CCEE (Câmara de Comercialização de Energia Elétrica) - Atua sob autorização do Poder Concedente e da 
+regulação e fiscalização da ANEEL, com a finalidade de viabilizar as operações de compra e venda de energia elétrica 
+entre os agentes da CCEE. 
+CDE (Conta de Desenvolvimento Energético) - Encargo setorial destinado ao custeio de políticas públicas do setor 
+elétrico, nos termos da regulamentação aplicável. 
+Crescimento orgânico - Crescimento decorrente de investimentos realizados nos ativos e concessões existentes, 
+incluindo reforços e melhorias. 
+CVM (Comissão de Valores Mobiliários) – autarquia vinculada ao ministério da Fazenda, que tem o objetivo de fiscalizar, 
+normatizar, disciplinar e desenvolver o mercado de valores mobiliários do Brasil. 
+EBITDA (Earnings Before Interest, Taxes, Depreciation & Amortization) - Resultado antes de juros, impostos, 
+depreciação e amortização. 
+Encargos regulatórios – Valores arrecadados no âmbito da prestação do serviço de transmissão e destinados às 
+finalidades previstas na regulamentação setorial, sem constituir receita operacional da transmissora quando aplicável. 
+Energização - Etapa caracterizada pela energização das instalações ou equipamentos de um empreendimento de 
+transmissão, conforme os procedimentos aplicáveis (reforço, melhoria ou greenfield). 
+EPE (Empresa de Pesquisa Energética) – Empresa pública responsável pelo desenvolvimento de estudos e 
+pesquisas destinados a subsidiar o planejamento do setor energético brasileiro. 
+DIT (Demais Instalações de Transmissão) - são instalações que não fazem parte da Rede Básica, geralmente por 
+operarem em tensões inferiores a 230 kV ou por atenderem a usos específicos. 
+Greenfield - projetos de crescimento arrematados por meio de leilões e construídos do zero. 
+IBBC (Índice Bovespa BR+ Cap 5% B3) – Índice que busca refletir o desempenho de ativos de elevada 
+negociabilidade e representatividade, limitando a participação individual de cada ativo a 5% na carteira. 
+IBBE (Índice Bovespa BR+ Equal Weight B3) – Índice da família Ibovespa BR+ estruturado com ponderação igual 
+dos ativos que compõem sua carteira. 
+IBBR (Índice Bovespa B3 BR+) – Índice destinado a refletir o desempenho de uma carteira composta por ativos 
+elegíveis de empresas brasileiras. 
+IBEP (Índice Bovespa B3 Empresas Privadas) – Índice destinado a refletir o desempenho de ativos elegíveis de 
+empresas com controle acionário privado. 
+IBEW (Índice Bovespa B3 Equal Weight) – Índice composto pelos ativos elegíveis do Ibovespa, com ponderação 
+igual entre os componentes da carteira.
+
+[p. 36]
+36 
+ 
+ri@brasil.isaenergia.com 
+IBOV B3 (Índice Bovespa B3) - Principal indicador de desempenho das ações negociadas na B3 e reúne as empresas 
+mais importantes do mercado de capitais brasileiro. É composto pelas ações que representem 85% em ordem 
+decrescente de Índice de Negociabilidade (IN) (buffer 90%); 95% de presença em pregão; 0,1% do volume financeiro 
+no mercado a vista (lote-padrão); e não ser penny stock. 
+IBRA (Índice Brasil amplo) - Indicador do desempenho médio das cotações de todos os ativos negociados no 
+mercado a vista (lote -padrão) da B3 que atendam a critérios mínimos de liquidez e presença em pregão, de forma a 
+oferecer uma visão ampla do mercado acionário. 
+IBRX100 (Índice Brasil 100) - Indicador do desempenho médio das cotações dos 100 ativos de maior 
+negociabilidade e representatividade do mercado de ações brasileiro. 
+IBSD (Índice Bovespa Smart Dividendos) - Indicador de desempenho médio dos ativos de empresas listadas que 
+se destacam em termos de remuneração dos investidores, sob a forma de distribuição de dividendos e juros sobre o 
+capital próprio. 
+IBST (Índice Bovespa Dividendos BESST) - Indicador de desempenho médio dos ativos de maior negociabilidade, 
+representatividade e que se destacam em termos de remuneração dos investidores dentro de setores específicos. 
+IBVL (Índice Bovespa Smart Low Volatility B3) - Indicador de desempenho médio dos ativos de maior 
+negociabilidade, representatividade e que possuem menor volatilidade nos retornos diários. 
+ICO2 (Índice Carbono Eficiente) - Índice que considera aspectos relacionados à eficiência das empresas na emissão 
+de gases de efeito estufa e às práticas adotadas para gestão dessas emissões. Adesão das companhias ao ICO2 B3 
+demonstra o comprometimento com sua eficiência na emissão de Gases de Efeito Estufa (GEE) e na adoção de práticas 
+de gestão que conduzam a uma maior eficiência nessas emissões, contribuindo para o avanço da transição para u ma 
+economia de baixo carbono. 
+IDIV (Índice Dividendos) - Índice destinado a refletir o desempenho de ativos que se destacam pela remuneração 
+aos investidores por meio da distribuição de dividendos e juros sobre capital próprio . 
+IDVR (Índice de Diversidade B3) - Índice destinado a refletir o desempenho de empresas selecionadas com base 
+em critérios relacionados à diversidade. 
+IE - Interligação Elétrica. 
+IEE (Índice de Energia Elétrica) - Índice setorial da Bolsa (B3) que tem como objetivo medir o desempenho do setor 
+de energia elétrica. 
+IENS (Índice de Energia Não Suprida) - Indicador associado à energia que deixou de ser suprida em decorrência 
+de interrupções no sistema. 
+IFES (Índice Infraestrutura ESG) - indicador de desempenho médio dos ativos de maior negociabilidade e 
+representatividade dos setores de Utilidade Pública e Bens Industriais. 
+IGC (Índice de Ações com Governança Corporativa Diferenciada) – indicador de desempenho médio das 
+cotações dos ativos de empresas listadas no Novo Mercado ou nos Níveis 1 ou 2 da B3. 
+IGCT (Índice de Governança Corporativa Trade) - indicador do desempenho médio das cotações dos ativos de 
+emissão de empresas integrantes do IGC. 
+IPCA (Índice Nacional de Preços ao Consumidor Amplo) - Índice oficial de inflação do Brasil, calculado pelo IBGE. 
+ISE B3 (Índice de Sustentabilidade Empresarial) - indicador do desempenho médio das cotações dos ativos de 
+empresas selecionadas pelo seu reconhecido comprometimento com a sustentabilidade empresarial. 
+JCP (Juros sobre Capital Próprio) Forma de remuneração aos acionistas, sujeita ao tratamento tributário previsto 
+na legislação aplicável. 
+Leilões de Transmissão de Energia - Processos licitatórios estabelecidos pelo MME e ANEEL a fim de outorgar 
+concessões para linhas de transmissão e subestações no Brasil. 
+M&A (Mergers and Acquisitions) - Fusões e aquisições. 
+Melhoria - Instalação, substituição ou reforma de equipamentos em instalações de transmissão existentes, ou 
+adequação dessas instalações, visando manter a prestação adequada do serviço público de transmissão de energia 
+elétrica.
+
+[p. 37]
+37 
+ 
+ri@brasil.isaenergia.com 
+MLCX (Índice MidLarge Cap) - desempenho médio dos ativos das empresas de maior capitalização da B3. 
+MME (Ministério de Minas e Energia) – Órgão da administração pública federal responsável pela formulação de 
+políticas públicas relacionadas aos setores de energia e mineração. 
+O&M (Operação e Manutenção) – Atividades relacionadas à operação e à manutenção dos ativos e instalações. 
+ONS (Operador Nacional do Sistema Elétrico) - Órgão responsável por executar as atividades de coordenação e 
+controle da operação da geração e transmissão de energia elétrica do SIN. 
+Outras Receitas - Receitas associadas a atividades adicionais à prestação principal do serviço público de transmissão, 
+sujeitas ao tratamento regulatório aplicável. 
+PA (Parcela de Ajuste) - Componente utilizado para compensar diferenças de arrecadação ou outros ajustes 
+referentes a períodos anteriores, conforme regulamentação aplicável. 
+PMSO (Pessoal, Materiais, Serviços e Outros) – Conjunto de custos e despesas relacionados a pessoal, materiais, 
+serviços de terceiros e outros itens operacionais. 
+PROINFA (Programa de Incentivo às Fontes Alternativas de Energia Elétrica) – Programa instituído para 
+incentivar a participação de fontes alternativas renováveis na geração de energia elétrica no Brasil. 
+PV (Parcela Variável) - Parcela associada à disponibilidade e à capacidade das instalações de transmissão, que pode 
+resultar em redução da receita em função de indisponibilidades e outros eventos previstos na regulamentação aplicável. 
+P&D (Pesquisa e Desenvolvimento) – Atividades e investimentos destinados à pesquisa e ao desenvolvimento, 
+conforme regulamentação aplicável. 
+QRR (Quota de Reintegração Regulatória) – Componente regulatório associado à recomposição do capital 
+investido nos ativos ao longo de sua vida útil regulatória. 
+RAP (Receita Anual Permitida) - Receita estabelecida para remunerar a prestação do serviço público de transmissão 
+de energia elétrica, nos termos dos contratos de concessão e da regulamentação aplicável. Pode incorporar receitas 
+adicionais associadas à entrada em operação de novos investimentos autorizados. 
+RB (Rede Básica) - Instalações de transmissão do SIN, de propriedade de concessionárias de serviço público de 
+transmissão, definida segundo critérios estabelecidos na regulamentação da ANEEL. 
+RBNI (Rede Básica Novos Investimentos) - Parcela da receita (RAP) correspondente às novas instalações 
+componentes da Rede Básica autorizadas e com receitas estabelecidas por resolução específica. 
+RBSE (Rede Básica do Sistema Existente) - Parcela da RAP correspondente às instalações componentes da Rede 
+Básica, definidas no Anexo da Resolução nº 166, de 31 de maio de 2000. 
+Reforço - Instalação, substituição ou reforma de equipamentos em instalações de transmissão existentes, ou 
+adequação dessas instalações, visando ao aumento da capacidade de transmissão, da confiabilidade do SIN ou da vida 
+útil, ou à conexão de usuários. 
+RGR (Reserva Global de Reversão) – Encargo setorial instituído para as finalidades estabelecidas na legislação do 
+setor elétrico. 
+RTP (Revisão Tarifária Periódica) – Processo periódico de revisão dos componentes de receita das concessões de 
+transmissão, conforme os contratos de concessão e a regulamentação aplicável. 
+SIN (Sistema Interligado Nacional) – Conjunto de instalações e de equipamentos que possibilitam o suprimento 
+de energia elétrica nas regiões do país interligadas eletricamente, conforme regulamentação aplicável. 
+TCU (Tribunal de Contas da União) – Órgão responsável pelo controle externo da administração pública federal, 
+nos termos da legislação aplicável. 
+TFSEE (Taxa de Fiscalização dos Serviços de Energia Elétrica) – Taxa destinada ao custeio das atividades de 
+fiscalização dos serviços de energia elétrica, conforme legislação aplicável. 
+TUST (Tarifa de Uso do Sistema de Transmissão de Energia Elétrica) – Tarifa paga por distribuidoras, geradoras 
+e consumidores livres e especiais pela utilização da Rede Básica e das DIT, e é reajustada anualmente de acordo com 
+(i) a inflação; e (ii) novas receitas, correspondentes aos empreendimentos energizados. 
+UTIL B3 (Índice Utilidade Pública) - indicador do desempenho médio das cotações dos ativos de maior 
+negociabilidade e representatividade do setor de utilidade pública (energia elétrica, água e saneamento e gás).
+
+[p. 38]
+38 
+ 
+ri@brasil.isaenergia.com 
+ANEXOS 
+ 
+Anexo I – Projetos Greenfield desde 2016| Crescimento 
+ 
+ 
+ 
+Clique aqui para acessar a planilha. 
+Paraguaçú
+(Lote 3) 003/2017 IE Paraguaçu 50% BA/MG 85 jan-19 fev-22 254,8 333,4 ✓ 2T19 100% 100% 3T22
+Aimorés 
+(Lote 4) 004/2017 IE Aimorés 50% MG 57,0 jan-19 fev-22 170,6 208,3 ✓ 2T19 100% 100% 2T22
+Itaúnas 
+(Lote 21) 018/2017 IE Itaúnas 100% ES 79,0 jul-18 jun-22 297,8 373,8 ✓ 3T18 100% 100% 4T23
+Ivaí
+(Lote 1) 022/2017 IE Ivaí 50% PR 208,8 fev-21 ago-22 968,2 1.063,9 ✓ 4T19 100% 100% 4T22
+Tibagi
+(Lote 5) 026/2017 IE Tibagi 100% SP / PR 24,8 jan-17 ago-21 134,6 117,5 ✓ 3T18 100% 100% 4T20
+Itaquerê
+(Lote 6) 027/2017 IE Itaquerê 100% SP / PR 74,1 jun-18 ago-21 397,7 255,9 ✓ 3T18 100% 100% 3T20
+Aguapeí
+(Lote 29) 046/2017 IE Aguapeí 100% SP / PR 87,2 dez-18 ago-21 601,9 363,4 ✓ 3T19 100% 100% 1T21
+Bauru 
+(Lote 25) 042/2017 IE Jaguar 6 100% SP 16,9 ago-19 fev-21 125,8 63,0 ✓ 2T18 100% 100% 3T19
+Lorena
+(Lote 10) 021/2018 IE Itapura 100% SP 19,2 jan-20 set-22 237,9 126,1 ✓ 3T19 100% 100% 4T21
+Biguaçu
+(Lote 1) 012/2018 IE Biguaçu 100% SC 58,9 set-21 set-23 641,4 458,8 ✓ 1T21 100% 100% 3T22
+Minuano 
+(Lote 1) 001/2020 Evrecy 100% RS 55,5 jan-20 mar-25 681,6 738,2 ✓ 3T22 100% 100% 4T24
+Três Lagoas
+(Lote 6) 006/2020 IE Tibagi 100% MS / SP 7,8 jan-20 set-23 98,8 87,1 ✓ 2T21 100% 100% 2T22
+Triângulo 
+Mineiro 007/2020 IEMG 100% MG 50,9 jan-20 mar-25 553,6 519,6 ✓ 1T22 100% 100% 3T23
+ 001/2020
+(dez/2020)
+Riacho Grande
+(Lote 7) 005/2021 IE Riacho Grande 100% SP 102,7 jan-26 mar-26 1.140,6 922,1 ✓ 3T23 100% 100% 4T25
+Piraquê 008/2022 ISA ENERGIA BRASIL 100% MG / ES 359,3 jan-26 set-27 3.653,6 3.867,7 ✓ 3T24 100% 100% 2T26
+Jacarandá
+(Lote 6) 011/2022 IE Jaguar 8 100% SP 16,9 mar-26 mar-26 232,3 189,3 ✓ 3T24 100% 100% 2T26
+Serra Dourada
+(Lote 1) 006/2023 ISA ENERGIA BRASIL 100% BA/MG 337,0 Imediata mar-29 3.156,8 2.256,9 ✓ 3T25 96% 64% -
+Itatiaia
+ (Lote 7) 012/2023 ISA ENERGIA BRASIL 100% RJ/MG 259,9 Imediata mar-29 2.300,6 587,4 4T26 1T27 89% 35% -
+Água Vermelha
+ (Lote 9) 014/2023 IE Tibagi 100% SP 8,9 Imediata set-26 94,2 87,1 ✓ 3T24 100% 100% 2T25
+1.909,7 15.742,9 12.619,3
+Avanço 
+Físico
+Entrada em 
+Operação 
+Comercial
+ 013/2015
+(out/2016)
+Início da 
+Construção
+Avanço 
+Fundiário
+Licenci. 
+Ambiental 
+(LI)
+Leilões
+CapEx ANEEL 
+Participação 
+ISA ENERGIA 
+BRASIL
+data base leilão
+(R$ milhões) 
+Empresa
+CapEx ISA 
+ENERGIA 
+BRASIL 
+realizado até 
+30/09/2026
+(R$ milhões)
+RAP ISA 
+ENERGIA 
+BRASIL
+Ciclo 
+2026/2027
+(R$ milhões)
+Prazo
+ANEEL
+Data de 
+Necessidade¹
+Total (19)
+ 002/2019
+(dez/2019)
+ 001/2022
+(jun/2022)
+Contrato
+ 002/2018
+(jun/2018)
+Projetos
+% ISA 
+ENERGIA 
+BRASIL
+UF
+ 001/2023
+(jun/2023)
+ 005/2016
+(abr/2017)
+
+[p. 39]
+39 
+ 
+ri@brasil.isaenergia.com 
+Anexo II – Investimentos em Projetos 
+ Nota: Considera a participação proporcional da ISA ENERGIA BRASIL nas empresas não consolidadas (controladas em conjunto). 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Investimentos
+(R$ milhões) 3T26 3T25 Var (% )
+Reforços & Melhorias 578,5 437,9 32,1%
+Projetos Greenfield 524,9 767,5 -31,6%
+100% ISA ENERGIA BRASIL 525,4 756,8 -30,6%
+Piraquê 1,6 503,6 -99,7%
+Riacho Grande 0,0 70,0 -100,0%
+Serra Dourada 466,4 124,0 276,0%
+Itatiaia 54,0 30,2 79,0%
+Jacarandá 0,0 30,3 -100,0%
+Minuano 0,6 -1,3 N.A
+Biguaçu 2,8 0,0 N.A
+Controladas em conjunto -0,5 10,8 -105,1%
+Ivaí -0,5 0,0 N.A
+Total 1.103,3 1.205,4 -8,5%
+Consolidado + Controladas em Conjunto
+
+[p. 40]
+40 
+ 
+ri@brasil.isaenergia.com 
+Anexo III - Balanço Patrimonial Regulatório 
+ 
+ 
+ 
+ 
+Ativo
+(R$ mil) 30/09/2026 30/09/2025
+CIRCULANTE
+Caixa e equivalentes de caixa 441.736 1.356.062
+Aplicações financeiras 2.526.363 808.924
+Contas a Receber - Concessionárias e Permissionárias 604.510 469.745
+Estoques 119.313 48.054
+Tributos e contribuições a compensar 295.197 229.311
+Instrumentos financeiros derivativos 0 37.384
+Créditos com partes relacionadas 3.587 126.061
+Despesas pagas antecipadamente 39.404 6.061
+Caixa restrito 0 0
+Outros 391.357 165.619
+4.421.467 3.247.221
+NÃO CIRCULANTE
+ Realizável a longo prazo
+Caixa restrito 79.403 18.888
+Contas a receber - Concessionárias e Permissionárias 147.036 205.383
+Valores a receber - Secretaria da Fazenda 2.874.979 2.760.806
+Imposto de Renda e Contribuição Social Diferidos 0 0
+Cauções e depósitos vinculados 46.551 46.049
+Instrumentos financeiros derivativos 60.469 20.406
+Outros 105.299 76.525
+3.313.737 3.128.057
+Investimentos 43.159 1.366.474
+Imobilizado 25.850.576 20.832.086
+Intangível 4.321.430 1.819.316
+30.215.165 24.017.876
+33.528.902 27.145.933
+Total do Ativo 37.950.369 30.393.154
+Consolidado
+
+[p. 41]
+41 
+ 
+ri@brasil.isaenergia.com 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Passivo e Patrimônio Líquido
+(R$ mil) 30/09/2026 30/09/2025
+CIRCULANTE
+Empréstimos e financiamentos 257.762 90.082
+Debêntures 373.220 496.001
+Arrendamento 16.721 18.677
+Instrumentos financeiros derivativos 9.212 2.916
+Fornecedores 252.088 254.342
+Tributos e encargos sociais a recolher 269.226 213.752
+Imposto de renda e contribuição social diferidos 0 0
+Encargos regulatórios a recolher 50.880 66.723
+Juros sobre capital próprio e dividendos a pagar 419.812 422.540
+Obrigações trabalhistas 93.802 79.962
+Valores a pagar – Vivest 834 1.335
+Provisões - Capex 303.879 210.460
+Outros 14.227 30.299
+2.061.663 1.887.089
+NÃO CIRCULANTE
+ Exigível a longo prazo
+Empréstimos e financiamentos 1.035.325 669.117
+Debêntures 18.096.273 14.696.513
+Arrendamento 26.086 36.959
+Instrumentos financeiros derivativos 15.163 17.312
+Fornecedores 3.868 3.456
+PIS e COFINS diferidos 20.717 25.773
+Imposto de renda e contribuição social diferidos 2.246.491 1.524.834
+Encargos Regulatórios a recolher 66.391 35.404
+Provisões judiciais 175.410 157.457
+Obrigações vinculadas à concessão do serviço 891.705 850.307
+Outros 396 334
+22.577.825 18.017.466
+PATRIMÔNIO LÍQUIDO
+Capital social 4.790.020 3.590.020
+Custo emissão ações -20.837 0
+Reservas de capital 666 666
+Reservas de lucro 5.618.242 3.742.461
+Reserva de Reavaliação 2.374.108 2.493.015
+Outros Resultados Abrangentes 88.362 97.571
+Dividendos adicionais propostos 279.322 279.322
+13.129.883 10.203.055
+Participação de não controladores nos 
+ fundos de investimentos 180.998 285.544
+13.310.881 10.488.599
+Total do Passivo e do Patrimônio Líquido 37.950.369 30.393.154
+Consolidado
+
+[p. 42]
+42 
+ 
+ri@brasil.isaenergia.com 
+Anexo IV - Demonstração de Resultado Regulatório 
+ 
+¹ Inclui custos e despesas com Entidade de Previdência Privada 
+ 
+Demonstração de Resultado
+(R$ mil) 3T26 3T25 Var (% ) 9M26 9M25 Var (% ) 
+Receita Operacional Bruta 1.721.709 1.250.582 37,7% 4.536.355 3.718.702 22,0%
+ Receita de Uso da Rede Elétrica 1.710.580 1.239.400 38,0% 4.503.747 3.684.824 22,2%
+ Outras 11.129 11.182 -0,5% 32.608 33.878 -3,7%
+(-) Deduções à Receita Operacional -211.046 -178.249 18,4% -556.054 -485.886 14,4%
+Tributos e Contribuições sobre a Receita -149.279 -105.611 41,3% -391.764 -319.498 22,6%
+Encargos Regulatórios -61.767 -72.638 -15,0% -164.290 -166.388 -1,3%
+(=) Receita Operacional Líquida 1.510.663 1.072.333 40,9% 3.980.301 3.232.816 23,1%
+(-) Custos e Despesas Operacionais -462.704 -355.245 30,2% -1.248.564 -1.164.048 7,3%
+Pessoal¹ -117.093 -102.391 14,4% -335.145 -316.306 6,0%
+Material -6.277 -5.647 11,2% -17.241 -16.870 2,2%
+Serviços -83.512 -54.050 54,5% -191.448 -146.005 31,1%
+Depreciação -250.970 -167.561 49,8% -642.551 -591.342 8,7%
+Outros -4.852 -25.596 -81,0% -62.178 -93.525 -33,5%
+(=) Resultado do Serviço 1.047.959 717.088 46,1% 2.731.737 2.068.768 32,0%
+(+/-) Resultado Financeiro -348.094 -293.134 18,7% -1.469.918 -996.252 47,5%
+Rendimento de Aplicações Financeiras 92.495 90.045 2,7% 212.820 243.406 -12,6%
+Resultado da Variação Monetária Líquida 11.475 -57.915 n.a -430.924 -345.670 24,7%
+Juros Ativo/Passivos 25 -152 n.a 191 -2.967 n.a
+Juros/Encargos sobre empréstimos -428.385 -336.504 27,3% -1.207.141 -933.258 29,3%
+Outras -23.704 11.392 n.a -44.864 42.237 n.a
+(=) Resultado Operacional 699.865 423.954 65,1% 1.261.819 1.072.516 17,7%
+(-) Equivalência Patrimonial 34.153 100.365 -66,0% 197.208 266.983 -26,1%
+(-) Outras Receitas/Despesas Operacionais 1.891.155 3.833 49238,8% 1.803.863 -58.835 n.a
+(=) Resultado Anterior aos Tributos 2.625.173 528.152 397,0% 3.262.890 1.280.664 154,8%
+(-) IR e CSLL -712.529 39.853 n.a -793.806 -91.093 771,4%
+Corrente 27.387 38.604 -29,1% -108.113 -45.021 140,1%
+Diferido -739.916 1.249 n.a -685.693 -46.072 1388,3%
+(=) Lucro/Prejuízo Consolidado 1.912.644 568.005 236,7% 2.469.084 1.189.571 107,6%
+(-) Partic. Acionista não Controlador -7.836 -17.976 -56,4% -32.677 -46.548 -29,8%
+(=) Lucro/Prejuízo 1.904.808 550.029 246,3% 2.436.407 1.143.023 113,2%
+Consolidado
+
+[p. 43]
+43 
+ 
+ri@brasil.isaenergia.com 
+Anexo V – Fluxo de Caixa Indireto – Regulatório¹ 
+ ¹O fluxo de caixa indireto contabilizado na metodologia regulatória considera as saídas de caixa relacionadas aos projetos greenfield, brownfield e 
+de Reforços e Melhorias como fluxos de investimentos. 
+Fluxo de Caixa das Atividades Operacionais 
+(R$ mil) 9M26 9M25
+Fluxo de caixa das atividades operacionais 3.218.830 2.661.340
+Lucro líquido do período 2.469.084 1.189.571
+Benefício a empregados – déficit atuarial 0 0
+PIS e COFINS diferidos -5.056 -13.159
+Depreciação e amortização 709.810 656.061
+Imposto de renda e contribuição social diferidos 684.466 46.070
+Provisão para Demandas judiciais -7.396 -47.676
+Custo residual de ativo imobilizado/intangível baixado 54.352 31.711
+Beneficio fiscal – ágio incorporado 28 27
+Resultado de equivalência patrimonial -256.469 -266.981
+Receita sobre aplicações financeiras -92.156 -104.762
+Juros e variações cambiais sobre empréstimos, financiamentos e debêntures 1.624.187 1.264.876
+Juros e variações monetárias e cambiais sobre ativos e passivos -22.825 -44.432
+Ganho por compra vantajosa na aquisição de Controlada -1.866.294 0
+Ganho na alienação de participação societária -72.055 0
+Instrumento Financeiro 31.831 -3.418
+Transações com acionistas não controladores -32.677 -46.548
+(Aumento) diminuição de ativos -362.135 648.097
+Caixa restrito 0 0
+Contas a receber – Concessionárias e Permissionárias -11.411 157.976
+Estoques -10.757 -9.242
+Valores a receber - Secretaria da Fazenda -114.173 -143.176
+Tributos e contribuições a compensar -43.438 124.171
+Despesas pagas antecipadamente -28.590 -6.016
+Cauções e depósitos vinculados 1.110 -188
+Crédito com controladas 0 0
+Outros -154.876 524.572
+Aumento (diminuição) de passivos -21.759 -92.477
+Fornecedores -13.969 26.776
+Tributos e encargos sociais a recolher 111.763 189.651
+Obrigações trabalhistas 10.223 11.456
+Pagamentos de impostos -173.758 -136.660
+Encargos regulatórios a recolher -29.471 13.784
+Provisões 258.221 -4.896
+Valores a pagar Vivest -501 435
+Reserva Global de Reversão -1.860 -1.861
+Obrigações vinculadas à concessão do serviço 41.400 -14.873
+Benefício pós emprego - passivo atuarial 0 0
+Outros -223.807 -176.289
+Caixa líquido gerado nas atividades operacionais 2.834.936 3.216.960
+Caixa gerado (utilizado) nas atividades de investimentos -5.780.374 -4.336.821
+Caixa restrito -676 874
+Aplicações financeiras -4.051.984 -5.093.394
+Resgates de Aplicações financeiras 2.476.483 4.115.325
+Imobilizado e Intangível -3.447.539 -3.359.626
+Aquisiçao de participação acionária -1.415.225 0
+Alienação de participação acionária 462.362 0
+Dividendos recebidos 196.205 0
+Caixa utilizado nas atividades de financiamentos 2.031.112 -1.075.710
+Adições Empréstimos e Debêntures 6.285.083 2.007.347
+Pagamentos Empréstimos e Debêntures (principal) -3.769.540 -1.030.172
+Pagamentos Empréstimos e Debêntures (juros) -926.199 -719.616
+Pagamentos Arrendamento Mercantil (principal e juros) -18.107 -11.094
+Instrumentos financeiros derivativos -55.498 13.660
+Integralização de capital 1.200.000 0
+Custo da emissão de ações -20.837 0
+Dividendos e juros sobre capital próprios pagos -663.790 -1.335.835
+ Aumento (redução) líquido em caixa e equivalentes de caixa -914.326 -2.195.571
+Caixa e equivalentes de caixa no início do exercício 1.356.062 2.914.747
+Caixa e equivalentes de caixa no final do exercício 441.736 719.176
+Variação em caixa e equivalentes de caixa -914.326 -2.195.571
+Consolidado
+
+[p. 44]
+44 
+ 
+ri@brasil.isaenergia.com 
+Anexo VI – Resultado Regulatório Empresas não consolidadas 
+ 
+ 
+ 
+ 
+ 
+ 
+Demonstração do Resultado
+(R$ mil)
+Receita Operacional Bruta 29.668 29.772 -0,3% 89.604 86.681 3,4%
+Deduções à receita operacional -3.085 -3.167 -2,6% -9.217 -9.121 1,1%
+Receita Operacional Líquida 26.583 26.605 -0,1% 80.387 77.560 3,6%
+Custos e Despesas -1.571 -765 105,4% -4.314 -4.119 4,7%
+Depreciação -2.722 -2.721 0,0% -8.165 -8.163 0,0%
+EBITDA 25.012 25.840 -3,2% 76.073 73.441 3,6%
+Resultado do Serviço 22.290 23.119 -3,6% 67.908 65.278 4,0%
+Resultado Financeiro -8.511 -7.179 18,6% -25.456 -5.850 335,1%
+Outras receitas/despesas líquidas 0 0 N.A. 0 0 N.A.
+Lucro antes do IR & CSLL 13.779 15.940 -13,6% 42.452 59.428 -28,6%
+IR & CSLL -2.253 -1.797 25,4% -5.297 -6.411 -17,4%
+Lucro líquido 11.526 14.143 -18,5% 37.155 53.017 -29,9%
+Part .ISA ENERGIA BRASIL (50% ) no EBITDA12.506 12.920 -3,2% 38.037 36.721 3,6%
+Part .ISA ENERGIA BRASIL (50% ) no Lucro 5.763 7.072 -18,5% 18.578 26.509 -29,9%
+Var (% ) 9M26 Var (% )
+IE AIMORÉS
+3T26 3T25 9M25
+Demonstração do Resultado
+(R$ mil)
+Receita Operacional Bruta 46.840 45.303 3,4% 135.904 129.348 5,1%
+Deduções à receita operacional -4.863 -4.757 2,2% -13.915 -14.122 -1,5%
+Receita Operacional Líquida 41.977 40.546 3,5% 121.989 115.226 5,9%
+Custos e Despesas -2.195 -1.626 35,0% -6.443 -5.994 7,5%
+Depreciação -4.657 -4.658 0,0% -13.972 -13.962 0,1%
+EBITDA 39.782 38.920 2,2% 115.546 109.232 5,8%
+Resultado do Serviço 35.125 34.262 2,5% 101.574 95.270 6,6%
+Resultado Financeiro -15.699 -13.663 14,9% -46.254 -9.957 364,5%
+Outras receitas/despesas líquidas 0 0 N.A. 0 0 N.A.
+Lucro antes do IR & CSLL 19.426 20.599 -5,7% 55.320 85.313 -35,2%
+IR & CSLL -2.851 -2.547 11,9% -3.508 -8.591 -59,2%
+Lucro líquido 16.575 18.052 -8,2% 51.812 76.722 -32,5%
+Part .ISA ENERGIA BRASIL (50% ) no EBITDA 19.891 19.460 2,2% 57.773 54.616 5,8%
+Part .ISA ENERGIA BRASIL (50% ) no Lucro 8.288 9.026 -8,2% 25.906 38.361 -32,5%
+Var (% ) 9M26 9M25 Var (% )3T26 3T25
+IE PARAGUAÇU
+
+[p. 45]
+45 
+ 
+ri@brasil.isaenergia.com 
+ 
+ 
+ 
+ 
+Demonstração do Resultado
+(R$ mil)
+Receita Operacional Bruta 71.517 103.409 -30,8% 294.346 313.371 -6,1%
+Deduções à receita operacional -11.918 -10.862 9,7% -35.289 -32.873 7,3%
+Receita Operacional Líquida 59.599 92.547 -35,6% 259.057 280.498 -7,6%
+Custos e Despesas -4.907 -6.278 -21,8% -15.714 -16.292 -3,5%
+Depreciação -12.534 -15.243 -17,8% -40.546 -42.329 -4,2%
+EBITDA 53.518 86.269 -38,0% 241.964 264.256 -8,4%
+Resultado do Serviço 42.158 71.026 -40,6% 202.798 221.878 -8,6%
+Resultado Financeiro -70.668 -31.264 126,0% -203.455 -148.136 37,3%
+Outras receitas/despesas líquidas -1.174 0 N.A. -1.380 49 n.a
+Lucro antes do IR & CSLL -29.683 39.762 n.a -2.036 73.791 n.a
+IR & CSLL 43.092 -13.523 n.a 33.692 -25.092 n.a
+Lucro líquido 13.409 26.240 -48,9% 31.656 48.699 -35,0%
+Part .ISA ENERGIA BRASIL (50% ) no EBITDA26.759 43.135 -38,0% 120.982 132.128 -8,4%
+Part .ISA ENERGIA BRASIL (50% ) no Lucro 6.704 13.120 -48,9% 15.828 24.349 -35,0%
+IE IVAÍ
+3T26 9M263T25 9M25 Var (% )Var (% )
+Demonstração do Resultado
+(R$ mil)
+Receita Operacional Bruta 148.025 178.484 -17,1% 519.854 529.400 -1,8%
+Deduções à receita operacional -19.866 -18.786 5,7% -58.421 -56.116 4,1%
+Receita Operacional Líquida 128.159 159.698 -19,7% 461.433 473.284 -2,5%
+Custos e Despesas -8.673 -8.669 0,0% -26.471 -26.405 0,3%
+Depreciação -19.913 -22.622 -12,0% -62.683 -64.454 -2,7%
+EBITDA 118.312 151.029 -21,7% 433.583 446.929 -3,0%
+Resultado do Serviço 99.573 128.407 -22,5% 372.280 382.426 -2,7%
+Resultado Financeiro -94.878 -52.106 82,1% -275.165 -163.943 67,8%
+Outras receitas/despesas líquidas -1.174 0 N.A. -1.380 49 n.a
+Lucro antes do IR & CSLL 3.522 76.301 -95,4% 95.736 218.532 -56,2%
+IR & CSLL 37.988 -17.867 n.a 24.887 -40.094 n.a
+Lucro líquido 41.510 58.435 -29,0% 120.623 178.438 -32,4%
+Part .ISA ENERGIA BRASIL (50% ) no EBITDA 59.156 75.515 -21,7% 216.791 223.464 -3,0%
+Part .ISA ENERGIA BRASIL (50% ) no Lucro 20.755 29.217 -29,0% 60.311 89.219 -32,4%
+AIE (IE IVAÍ + IE PARAGUAÇU + IE AIMORÉS)
+3T26 3T25 Var (% ) 9M26 9M25 Var (% )
+
+[p. 46]
+46 
+ 
+ri@brasil.isaenergia.com 
+Anexo VII – Covenants (R$ milhões) 
+ 
+ 
+Os principais compromissos financeiros dos contratos de financiamento ( covenants financeiros) que a ISA ENERGIA 
+BRASIL está sujeita são estabelecidos conforme abaixo: 
+Os Contratos de financiamento com BNDES (válidos até o vencimento do contrato em 2041) devem cumprir os 
+indicadores financeiros máximos de Dívida Líquida/EBITDA Ajustado BNDES ≤ 3,0 e Dívida Líquida/ (Dívida Líquida + 
+Patrimônio Líquido) ≤ 0,6. O saldo desses financiamentos junto ao BNDES na data de 30/09/2026, somam o montante 
+de R$ 649,9 milhões em que os contratos possibilitam pré-pagamento. 
+Os indicadores são apurados ao final de cada exercício social. Para fins de cálculo e comprovação dos referidos índices, 
+a Companhia deverá consolidar todas as controladas e controladas em conjunto (de forma proporcional à sua 
+participação), desde que detenha participação acionária igual ou superior a 10%. O EBITDA é calculado de acordo com 
+a metodologia definida nos contratos, cuja última apuração ocorreu com as informações de 31 de dezembro de 2025 e 
+a Companhia e suas controladas atenderam aos requisitos relacionados a cláusulas restritivas. A próxima apuração será 
+realizada com os dados de 31 de dezembro de 2026 . Em novembro de 2025, a Companhia recebeu carta do BNDES 
+formalizando a anuência prévia e a abstenção da declaração de vencimento antecipado de determinados contratos de 
+financiamento, no contexto do acompanhamento dos indicadores financeiros referentes ao exercício de 2025. 
+Para fins gerenciais o indicador de Dívida Líquida/EBITDA de acordo com essa metodologia é calculado trimestralmente 
+e foi de 3,50x no 3T26. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Dívida Líquida 
+30/09/26 18.311,6
+EBITDA
+ últimos 12 meses 5.239,1
+Dívida Líquida/EBITDA 
+30/09/26 3,50
+Patrimônio Líquido
+ 30/09/26 24.033,6
+Divida Liq./(Divida Liq. + PL)
+ 30/09/26 0,43
+(apuração anual) 
+BNDES
+
+[p. 47]
+47 
+ 
+ri@brasil.isaenergia.com 
+ 
+Anexo VIII – Balanço Patrimonial – IFRS 
+ 
+ 
+Ativo
+(R$ mil) 30/09/2026 30/09/2025
+CIRCULANTE
+Caixa e equivalentes de caixa 441.736 1.356.062 
+Aplicações Financeiras 2.526.363 808.924 
+Ativo de concessão 5.255.908 4.106.084 
+Estoques 121.914 72.704 
+Tributos e contribuições a compensar 295.197 229.311 
+Instrumentos financeiros derivativos 0 37.384 
+Créditos com partes relacionadas 2.559 126.579 
+Despesas pagas antecipadamente 39.404 6.061 
+Caixa restrito 0 0 
+Adiantamento a Fornecedores 0 0 
+Outros 768.706 344.330 
+9.451.787 7.087.439
+NÃO CIRCULANTE
+Realizável a longo prazo
+Caixa restrito 79.403 18.888 
+Ativo de concessão 41.790.962 32.325.214 
+Valores a receber - Secretaria da Fazenda 2.874.979 2.760.806 
+Cauções e depósitos vinculados 46.551 46.049 
+Estoques 137.129 94.871 
+Instrumentos financeiros derivativos 60.469 20.406 
+Outros 105.299 76.525 
+45.094.792 35.342.759
+Investimentos 1.335.629 4.154.815 
+Imobilizado 159.998 180.126 
+Intangível 96.724 436.233 
+1.592.351 4.771.174 
+46.687.143 40.113.933 
+Total do Ativo 56.138.930 47.201.372 
+Consolidado
+
+[p. 48]
+48 
+ 
+ri@brasil.isaenergia.com 
+ 
+ 
+Passivo e Patrimônio Líquido 
+(R$ mil) 30/09/2026 30/09/2025
+CIRCULANTE
+Empréstimos e financiamentos 257.762 90.082 
+Debêntures 373.220 496.001 
+Arrendamento 16.721 18.677 
+Instrumentos financeiros derivativos 9.212 2.916 
+Fornecedores 251.102 254.445 
+Tributos e encargos sociais a recolher 268.557 213.325 
+Encargos Regulatórios a recolher 50.880 66.723 
+Juros sobre capital próprio e dividendos a 419.812 422.540 
+Obrigações trabalhistas 93.802 79.962 
+Valores a pagar – Vivest 834 1.335 
+Outros 318.102 240.765 
+2.060.004 1.886.771 
+NÃO CIRCULANTE
+ Exigível a longo prazo
+Empréstimos e financiamentos 1.035.325 669.117 
+Debêntures 18.096.273 14.696.513 
+Arrendamento 26.086 36.959 
+Instrumentos financeiros derivativos 15.163 17.312 
+Fornecedores 3.868 3.456 
+Provisão para Contingências 194.532 163.035 
+PIS e COFINS Diferidos 3.933.329 2.966.130 
+Imposto de renda e contribuição social 6.672.253 5.287.595 
+Encargos Regulatórios a recolher 66.391 35.404 
+Outros 2.124 2.069 
+30.045.344 23.877.590 
+PATRIMÔNIO LÍQUIDO
+Capital Social 4.790.020 3.590.020 
+(-) Custo com emissão de ações - 20.837 - 
+Reservas de Capital 666 666 
+Reservas de Lucro 18.714.837 17.183.674 
+Outros Resultados Abrangentes 88.576 97.785 
+Dividendos adicionais propostos 279.322 279.322 
+23.852.584 21.151.467 
+Participação de não controladores nos 
+ fundos de investimentos 180.998 285.544 
+24.033.582 21.437.011 
+Total do Passivo e do Patrimônio Líquido 56.138.930 47.201.372 
+Consolidado
+
+[p. 49]
+49 
+ 
+ri@brasil.isaenergia.com 
+Anexo IX – Demonstração de Resultados – IFRS 
+ 
+ 
+ 
+ 
+ 
+Demonstração de Resultado
+(R$ milhões) 3T26 3T25 Var (% ) 9M26 9M25 Var (% ) 
+Receita Operacional Bruta 2.630,1 2.881,9 -8,7% 8.334,3 7.195,6 15,8%
+Receita de infraestrutura 1.428,8 1.516,7 -5,8% 4.326,9 4.218,2 2,6%
+Receita bruta de Operação e Manutenção 464,0 294,2 57,7% 1.170,1 945,7 23,7%
+Remuneração dos ativos de concessão 726,6 1.060,8 -31,5% 2.807,6 2.003,4 40,1%
+Outras Receitas 10,7 10,1 5,8% 29,7 28,3 4,9%
+Deduções à Receita Operacional -296,4 -322,9 -8,2% -892,4 -791,8 12,7%
+Receita Operacional Líquida 2.333,7 2.559,0 -8,8% 7.442,0 6.403,9 16,2%
+Custos e Despesas Operacionais -1.339,9 -1.396,3 -4,0% -4.040,6 -4.028,2 0,3%
+Pessoal -140,6 -126,1 11,5% -468,7 -379,1 23,6%
+Material -382,8 -453,5 -15,6% -1.421,1 -1.443,9 -1,6%
+Serviços -755,8 -744,7 1,5% -1.935,5 -1.969,3 -1,7%
+Depreciação -14,9 -8,7 71,5% -33,1 -25,6 29,0%
+Outros -45,8 -63,2 -27,6% -182,2 -210,3 -13,4%
+Receitas – Revisão Tarifaria Periódica (RTP) 49,0 -6,9 -812,9% 49,0 159,5 -69,3%
+Resultado do Serviço 1.042,8 1.155,8 -9,8% 3.450,4 2.535,1 36,1%
+Resultado Financeiro -348,4 -293,3 18,8% -1.470,7 -996,8 47,5%
+Rendimento de Aplicações Financeiras 92,5 90,0 2,7% 212,8 243,4 -12,6%
+Resultado da Variação Monetária Líquida 11,1 -50,5 -122,1% -431,7 -291,5 48,1%
+Juros Ativo/Passivos 0,0 -0,2 -116,4% 0,2 -3,0 -106,4%
+Juros/Encargos sobre empréstimos -428,4 -336,5 27,3% -1.207,1 -933,3 29,3%
+Outras -23,7 3,8 -722,6% -44,9 -12,5 260,3%
+Resultado Operacional 694,3 862,5 -19,5% 1.979,7 1.538,4 28,7%
+Equivalência Patrimonial 59,9 109,5 -45,3% 359,1 403,7 -11,0%
+Outras Receitas/Despesas Operacionais 283,8 14,4 1875,5% 289,8 14,7 1878,0%
+Resultado Anterior aos Tributos 1.038,0 986,4 5,2% 2.628,6 1.956,7 34,3%
+Imposto de Renda e Contribuição Social sobre o Lucro -116,3 -183,6 -36,7% -384,4 -196,9 95,2%
+Corrente 27,4 38,6 -29,1% -110,8 -45,0 146,1%
+Diferido -143,7 -222,2 -35,3% -273,6 -151,9 80,1%
+Lucro/Prejuízo Consolidado 921,7 802,8 14,8% 2.244,2 1.759,8 27,5%
+Participação do Acionista não Controlador -7,8 -18,0 -56,4% -32,7 -46,5 -29,8%
+Lucro/Prejuízo 913,8 784,8 16,4% 2.211,5 1.713,2 29,1%
+Consolidado
+
+[p. 50]
+50 
+ 
+ri@brasil.isaenergia.com 
+Anexo X – Fluxo de Caixa – IFRS (R$ mil) 
+ 
+Fluxo de Caixa das Atividades Operacionais
+(R$ mil) 9M26 9M25
+Fluxo de caixa das atividades operacionais -4.591.721 -4.457.990
+Lucro líquido do período 2.244.205 1.759.777
+Benefício a empregados – déficit atuarial 4.060 5.769
+Depreciação e amortização 33.072 25.631
+PIS e COFINS diferidos 331.728 292.773
+IR e CS diferidos 273.584 151.924
+Provisão para Demandas Judiciais -15.262 -46.226
+Valor residual de ativo permanente baixado 29.528 59
+Benefício fiscal – ágio incorporado 28 27
+Receita sobre aplicações financeiras -92.156 -104.762
+Juros e variações cambiais sobre empréstimos, financiamentos e debêntures 1.624.187 1.264.876
+Juros e variações cambiais sobre ativos e passivos -1.501 -45.101
+Resultado de equivalência patrimonial -359.145 -403.702
+Contas a receber - Ativo de Concessão -8.355.460 -7.323.530
+Instrumentos financeiros -8.349 -3.418
+Realização de ativo de Concessão na aquisição de Controlada 12.982 14.461
+Transações com acionistas não controladores -32.677 -46.548
+Ganho por compra vantajosa na aquisição de participação societária -468.353 0
+Perda na alienação de participação societária 187.808 0
+(Aumento) diminuição de ativos 4.065.174 3.923.533
+Caixa restrito 0 0
+Contas a receber - Ativo de concessão 4.706.652 3.909.080
+Estoques -45.038 48.404
+Valores a receber - Secretaria da Fazenda -114.173 -141.904
+Tributos e contribuições a compensar -43.438 125.961
+Cauções e depósitos vinculados 1.110 -188
+Despesas pagas antecipadamente -28.590 -6.016
+Crédito com controladas 0 0
+Outros -411.349 -11.804
+Aumento (diminuição) de passivos -71.011 -82.654
+Fornecedores -15.058 28.619
+Tributos e encargos sociais a recolher 111.521 188.717
+Pagamentos IR/CSLL -173.758 -136.660
+Obrigações trabalhistas 10.223 11.456
+Encargos regulatórios a recolher -29.471 13.784
+Provisões -36.396 -5.089
+Valores a pagar Vivest 0 0
+Reserva Global de Reversão -1.860 -1.861
+Outros 63.788 -181.620
+Caixa líquido gerado nas atividades operacionais -597.558 -617.111
+Caixa gerado (utilizado) nas atividades de investimentos -2.388.505 -502.749
+Caixa restrito -676 -399
+Aplicações financeiras -4.051.984 -5.093.394
+Resgates de Aplicações financeiras 2.476.483 4.115.325
+Aquisição de Imobilizado -32.901 -10.297
+Intangível -22.770 -10.717
+Aquisição de participação acionária -1.415.224 0
+Alienação de participação acionária 462.362 0
+Dividendos recebidos 196.205 496.733
+Caixa utilizado nas atividades de financiamentos 2.071.737 -1.075.710
+Adições de empréstimos e debêntures 6.285.083 2.007.347
+Pagamentos de Empréstimos e Debêntures (principal) -3.769.540 -1.030.172
+Pagamentos de Empréstimos e Debêntures (juros) -926.199 -719.616
+Pagamentos Arrendamento Mercantil (principal e juros) -18.107 -11.094
+Instrumentos financeiros derivativos -14.872 13.660
+Custo com emissão de ações -20.837 0
+Recurso para aumento de capital 1.200.000 0
+Dividendos e juros sobre capital próprios pagos -663.791 -1.335.835
+Aumento (redução) líquido em caixa e equivalentes de caixa -914.326 -2.195.571
+Caixa e equivalentes de caixa no início do exercício 1.356.062 2.914.747
+Caixa e equivalentes de caixa no final do exercício 441.736 719.176
+Variação em caixa e equivalentes de caixa -914.326 -2.195.571
+Consolidado
+
+[p. 52]
+2 
+ 
+ri@brasil.isaenergia.com 
+São Paulo, November 3, 2026 – ISA ENERGIA BRASIL S.A. (“ISA ENERGIA BRASIL” or the “Company”; B3: ISAE3 and ISAE4) announces its 
+results for the third quarter of 2026 (3Q26). The Regulatory Results are presented in accordance with the procedures and guidelines issued 
+by the Regulatory Authority and the accounting policies established in the Electricity Sector Accounting Manual (“MCSE”), wit h the aim of 
+facilitating an understanding of the Company’s business. The Regulatory Results are audited annually by th e same independent auditor 
+responsible for the statutory financial statements and are not reviewed quarterly. In addition, results prepared in accordanc e with the rules 
+of the Brazilian Securities and Exchange Commission (“CVM”), the applicable technical p ronouncements issued by the Accounting 
+Pronouncements Committee (“CPC”), and the International Financial Reporting Standards (“IFRS”) issued by the International Ac counting 
+Standards Board (“IASB”) are available in the “Appendices” section of this document.. 
+ 
+ 
+ ¹Adjusted by non-controlling interest. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Conference Call 3Q26 
+Conference call in Portuguese with simultaneous translation into English 
+Date: November 04th, 2026 Time: 10h00 (BRT) / 08h00 (EST) 
+The event will be streamed on Zoom: click here 
+All connection data is available on the Investor Relations website 
+ ri.isaenergiabrasil.com.br/en 
+ 
+Regulatory 
+Indicators
+ (R$ million) 3Q26 3Q25 Chg (% ) 9M26 9M25 Chg (% )
+Net Revenue 1,510.7 1,072.3 40.9% 3,980.3 3,232.8 23.1%
+PMSO -235.3 -187.5 25.5% -625.2 -551.9 13.3%
+Manageable PMSO -217.0 -185.5 17.0% -604.3 -546.1 10.6%
+EBITDA 3,190.1 888.5 259.0% 5,178.2 2,601.3 99.1%
+EBITDA Margin 211.2% 82.9% 128.3 p.p 130.1% 80.5% 49.6 p.p
+Net Income¹ 1,904.8 550.0 246.3% 2,436.4 1,143.0 113.2%
+Net Margin 126.1% 51.3% 74.8 p.p 61.2% 35.4% 25.9 p.p
+ROE (LTM) 21.7% 20.8% 0.9 p.p 21.7% 20.8% 0.9 p.p
+Net Debt 17,018.3 12,887.2 32.1% 17,018.3 12,887.2 32.1%
+CapEx (ex-M&A) 1,103.3 1,205.4 -8.5% 3,379.2 3,415.5 -1.1%
+ Consolidated
+EBITDA R$ 3,190.1 million (+259.0%) 
+ CAPEX R$ 1,103.3 million (-8.5%) 
+Net Revenue R$ 1,510.7 million (+40.9%) 
+Net Debt R$ 17.018,3 million (+32.1%) 
+PMSO R$ 235.3 million (+25.5%) 
+Financial Highlights 3Q26
+
+[p. 53]
+3 
+ 
+ri@brasil.isaenergia.com 
+EVENTS OF THE PERIOD 
+23rd Debenture Issuance 
+On July 16, 2026, the Company completed its 23rd issuance of simple, non -convertible debentures, totaling R$1.5 
+billion in a single series, with a four -year term and cost of CDI + 0.42% per year. The proceeds raised were fully 
+allocated to replenish the Company’s cash position. Click here for further information. 
+Primary Public Offering of Shares (ISAE4) 
+On July 15, 2026, the Company informed the market about the follow -on public offering ("Follow -on") of a primary 
+distribution of initially 22.2 million new preferred shares ("ISAE4") . The number of shares initially offered could be 
+increased, at the issuer’s discretion and in agreement with the offering coordinators, by up to 22.2 million preferred 
+shares. The offering was priced on July 23, when 44.4 million preferred shares were iss ued at a price of R$27.00 per 
+share. Settlement took place on July 28. To access the offering documents, click here. 
+24th Debenture Issuance 
+On July 23, 2026, the Company completed its 24th issuance of simple, non-convertible debentures, raising R$1.0 billion 
+in a single series with a 4.5 -year term and a cost of CDI + 0.42% per year. As provided for in the offering indenture, 
+the settlement period extends through February 2027 and, to date, the proceeds have not been disbursed. Upon 
+settlement, the proceeds will be fully allocated to investments in Retrofitting and Improvements (“R&I”). Click here for 
+further information. 
+Closing of the IE Madeira and IE Garanhuns Asset Unwinding 
+On July 31, 2026, ISA ENERGIA BRASIL completed the unwinding of cross -shareholdings involving its equity interests 
+in IE Madeira and IE Garanhuns, a transaction disclosed to the market through a material fact published on March 19, 
+2026. Upon completion of the transaction, the Company began to hold 100% of IE Madeira, the concessionaire 
+responsible for 2,385 km of direct current transmission lines, with Annual Allowed Revenue (“AAR”), excluding the 
+Adjustment Portion (“PA”) and net of PIS/COFINS, of R$796.7 million for the 2026/2027 cycle. The Company also ceased 
+to hold an interest in IE Garanhuns, which has 633 km of transmission lines and AAR, excluding PA and net of 
+PIS/COFINS, totaling R$165.3 million for the same cycle. 
+Following the fulfillment of the conditions precedent and the payment of a R$1.2 billion cash adjustment to AXIA, IE 
+Madeira’s results began to be fully consolidated by the Company as of August 2026. For further information, please 
+refer to the material fact. 
+Announcement of Shareholder Distribution 
+On September 29, 2026, ISA ENERGIA BRASIL’s Board of Directors approved the distribution of earnings related to the 
+results for the first half of 2026, in the form of Interest on Equity (“IoE”), in the total amount of R$398.7 million, 
+corresponding to R$0.566877 per share of both classes. The distribution of the IoE amount, net of withholding income 
+tax, was divided into three installments, each with its respective record date and ex -rights date. Click here to access 
+the full notice to shareholders. 
+ 
+ 
+ 
+ 
+Record Ex-right Payment
+8-Oct-26 9-Oct-26 7-Dec-26 132.9 0.188959
+9-Nov-26 10-Nov-26 7-Dec-26 132.9 0.188959
+25-Nov-26 26-Nov-26 7-Dec-26 132.9 0.188959
+398.7 0.566877
+Interest on 
+Equity 
+("IOE")
+29-Sep-26 Result of the fiscal year 2026
+R$ / shareEarning Type Deliberation Date Date Total¹ (R$ million) Distribution Base
+
+[p. 54]
+4 
+ 
+ri@brasil.isaenergia.com 
+Notes on financial information 
+The financial information presented in this document refers to the three-month period ended September 30, 2026, and 
+was prepared in accordance with the standards, procedures and guidelines issued by the Regulatory Agency, as well as 
+the accounting policies established in the Electricity Sector Accounting Manual, approved by ANEEL through Normative 
+Resolution No. 933, dated May 28, 2021, and the guidelines set forth in ANEEL’s Order No. 2,904, dated September 17, 
+2021. 
+The information referred to as EBITDA (Earnings Before Interest, Taxes, Depreciation and Amortization) is presented in 
+accordance with CVM Resolution 156/22. 
+Additionally, the financial and operating information included in this results discussion is subject to rounding and, as a 
+result, total amounts shown in tables and charts may differ from the direct numerical aggregation of the figures that 
+preceded them. 
+Below is the calculation of EBITDA under regulatory accounting in accordance with Normative Resolution No. 933 and 
+Order No. 2,904: 
+ 
+The calculation of EBITDA in accordance with accounting practices adopted in Brazil and International Financial 
+Reporting Standards (“IFRS”) issued by the International Accounting Standards Board (“IASB”) based on EBITDA as per 
+regulatory accounting is available in the section “Comparison of Results (Regulatory vs. IFRS)” (click here). 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(R$ million) 3Q26 3Q25 Chg (% ) 9M26 9M25 Chg (% )
+(=) Regulatory Net Income 1,904.8 550.0 246.3% 2,436.4 1,143.0 113.2%
+(+) Non-controlling shareholder particp. 7.8 18.0 -56.4% 32.7 46.5 -29.8%
+(+) IRPJ/CSLL 712.5 -39.9 n.a 793.8 91.1 771.4%
+(-) Equity Income -34.2 -100.4 -66.0% -197.2 -267.0 -26.1%
+(+) Financial Result 348.1 293.1 18.7% 1,469.9 996.3 47.5%
+(+) Depreciation/Amortization 251.0 167.6 49.8% 642.6 591.4 8.7%
+(=) Regulatory EBITDA 3,190.1 888.5 259.0% 5,178.2 2,601.3 99.1%
+(+) Equity Income 34.2 100.4 -66.0% 197.2 267.0 -26.1%
+(=) Regulatory EBITDA CVM 156/2022 3,224.2 988.9 226.1% 5,375.4 2,868.3 87.4%
+Consolidated
+
+[p. 55]
+5 
+ 
+ri@brasil.isaenergia.com 
+CONTENT 
+ 
+EVENTS OF THE PERIOD 3 
+OPERATING REVENUE 7 
+EBITDA AND MARGIN 12 
+FINANCIAL RESULT 13 
+EQUITY INCOME 14 
+NET INCOME¹ 16 
+COMPARISON OF RESULTS (REGULATORY VS. IFRS) 17 
+INDEBTEDNESS 19 
+INVESTMENTS 21 
+INVESTMENTS IN RETROFITTING AND IMPROVEMENTS PROJECTS (“R&I”) 21 
+INVESTMENTS IN GREENFIELD PROJECTS 22 
+CAPITAL MARKETS 23 
+EARNINGS 24 
+SUSTAINABILITY 25 
+HIGHLIGHTS OF THE PERIOD 25 
+SUSTAINABILITY KPI’S 26 
+OTHER RELEVANT INFORMATION 29 
+PERIODIC TARIFF REVIEW (PRT) – NEW CONCESSIONS 29 
+PAULISTA CONCESSION RENEWAL - CONTRACT 059/2001 (RBNI/RBSE) 32 
+SUPPLEMENTARY RETIREMENT PLAN – LAW 4,819/58 34 
+GLOSSARY 35 
+ATTACHMENTS 38
+
+[p. 56]
+6 
+ 
+ri@brasil.isaenergia.com 
+OPERATING PERFORMANCE 
+For transmission assets with voltage levels below 230 kV, associated with connection points to distribution companies, 
+the main operational performance indicator is the Non‑Supplied Energy Index (“IENS”). IENS corresponds to the 
+percentage ratio between the total volume of energy not supplied to distribution agents during the events recorded in 
+the period and the total energy that would have been supplied in the absence of interruptions. This indicator therefore 
+reflects the amount of energy that was not consumed by end customers as a result of failures or interruptions in the 
+system. 
+Below is the Company’s IENS¹ measurement for the third quarter of 2026: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+1 Connection assets associated with distribution companies with voltage levels below 230 kV are considered. 
+2 September data for the SIN were not made available by the National Electric System Operator (“ONS”). 
+ 
+Variable Portion 
+The Variable Portion ("PV") is a regulatory mechanism applied by the Brazilian Electricity Regulatory Agency ("ANEEL") 
+that reduces the Annual Allowed Revenue ("AAR") of transmission concessionaires when failures, outages or operating 
+restrictions are recorded. The deduction is proportional to the unavailability verified. The indicator considers Basic Grid 
+assets with voltage levels equal to or above 230 kV and is ca lculated as the ratio between the gross PV for the period 
+and the corresponding AAR. 
+ 
+ 
+ 
+* PV data are dynamic and may be subsequently revised as a result of the conclusion of proceedings and appeals filed with the ONS. 
+ 
+Asset Availability (%) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+*Only the basic network assets are considered 
+**The National Electricity System Operator (ONS) calculates the indicator for families of equipment, which is the combination of type and voltage. 
+***Data accumulated in the form of a moving window. 
+****Source: ONS.
+
+[p. 57]
+7 
+ 
+ri@brasil.isaenergia.com 
+ 
+FINANCIAL PERFORMANCE (Regulatory Results) 
+Operating Revenue 
+ 
+¹ AAR related to the operation and maintenance portion of existing assets considered in the renewal process of contract 059/2 001. 
+ 
+Consolidated gross revenue reached R$1,721.7 million in 3Q26, an increase of R$471.1 million (+37.7%) compared to 
+3Q25. In 9M26, consolidated gross revenue increased by R$817.9 million (+22.0%) compared to 9M25. In addition to 
+the tariff adjustment for the 2026/2027 cycle, including the 4.72% inflation adjustment to the AAR based on Brazil’s 
+Broad National Consumer Price Index (“IPCA”), the main revenue variations in the period were: 
+ 
+Paulista Concession (contract 059/2001) 
+▲ Incorporation of the AAR from large-scale Retrofitting and Improvement (“R&I”) projects energized over the 
+last 12 months; 
+ 
+Auctioned Contracts 
+▲ Beginning of the receipt of R$478.9 million in AAR (2026/2027 cycle) from the Riacho Grande, Jacarandá and 
+Piraquê projects, which started operations between October 2025 and June 2026; 
+▲ Consolidation of 100% of IE Madeira’s results in consolidated revenue as of August 2026 (+R$144.5 million), 
+following the completion of the unwinding of cross-shareholdings with AXIA Energia. Previously, the Company’s 
+51% interest was recognized as equity income. 
+ 
+ 
+Operating Revenue
+(R$ million) 3Q26 3Q25 Chg (% ) 9M26 9M25 Chg (% )
+Eletric Network Revenue 1,710.6 1,239.4 38.0% 4,503.7 3,684.8 22.2%
+RBSE 519.5 511.5 1.6% 1,542.6 1,648.7 -6.4%
+Paulista Concession (059/2001 contract) 519.3 468.1 10.9% 1,484.7 1,340.2 10.8%
+Operating & Maintenance (O&M)¹ 249.2 238.3 4.6% 725.7 708.5 2.4%
+Retrofitting & Improvements (R&I) 270.1 229.8 17.5% 759.0 631.7 20.2%
+New Concessions 551.9 265.1 108.2% 1,274.5 773.7 64.7%
+Basic Project (CAEE + O&M) 533.4 247.4 115.6% 1,220.5 739.2 65.1%
+Retrofitting & Improvements (R&I) 18.6 17.7 4.9% 54.0 34.4 56.8%
+Adjustment Portion (PA) and anticipation 98.5 -52.2 n.a 142.2 -163.6 n.a
+Variable Portion (PV) -16.0 -15.6 2.5% -49.6 -44.2 12.3%
+Regulatory charges ex RAP (CDE and PROINFA) 37.2 62.5 -40.4% 109.4 130.0 -15.8%
+Others 11.1 11.2 -0.5% 32.9 33.9 -2.9%
+Gross Revenue 1,721.7 1,250.6 37.7% 4,536.6 3,718.7 22.0%
+Deduction -211.0 -178.2 18.4% -556.1 -485.9 14.4%
+Taxes and Contributions (PIS & Cofins) -149.3 -105.6 41.3% -391.8 -319.5 22.6%
+Regulatory charges ex AAR (CDE and PROINFRA) -33.7 -57.8 -41.7% -98.7 -116.9 -15.6%
+Regulatory charges in AAR (P&D, RGR and TFSEE) -28.1 -14.8 89.3% -65.6 -49.5 32.5%
+Net Revenue 1,510.7 1,072.3 40.9% 3,980.6 3,232.8 23.1%
+Consolidated
+
+[p. 58]
+8 
+ 
+ri@brasil.isaenergia.com 
+Adjustment Portion (“PA”) and Anticipation 
+ 
+ 
+▲ Positive PA of R$150.1 million related to the tariff-cycle adjustment (2025/2026 vs. 2026/2027); 
+▲ Reimbursement from the Energy Development Account (“CDE”): CDE is classified as a pass-through item and does 
+not constitute Company revenue. Accordingly, the Company changed its accounting treatment so that CDE would 
+no longer be recognized in the income s tatement as of August 2025, since the gross CDE revenue recorded was 
+fully provisioned in the following month; 
+▼ Lower volume of advances related to the sector’s revenue surplus or deficit (-R$37.2 million). 
+ 
+NET REVENUE 
+Net revenue increased by R$438.3 million (+40.9%) compared to 3Q25, totaling R$1,510.7 million. In 9M26, net 
+revenue increased by R$747.8 million (+23.1%) compared to 9M25. 
+ 
+ 
+ 
+¹ Considers adjustment by the IPCA and project energization | ² Charges and taxes on revenue . 
+ 
+Net revenue excluding RBSE reached R$1,039.2 million in 3Q26, an increase of R$431.1 million (+70.9%) compared 
+to 3Q25. In 9M26, cumulative net revenue excluding RBSE increased by R$844.1 million (+48.6%) compared to 9M25. 
+ 
+ 
+PA + Anticipations + Reimbursements
+ (R$ Million) 3Q26 3Q25 Chg (% )
+PA Cycle Readjustment 150.1 0.0 n.a.
+Improvements annual payment 11.5 11.0 4.7%
+Anticipation (Sector Surplus | Deficit)) -63.1 -36.8 71.4%
+CDE Reimbursement 0.0 -26.4 -100.0%
+TOTAL 98.5 -52.2 n.a.
+ Consolidated
+Net Revenue – 9M26 vs. 9M25 
+(R$ million) 
+ 
+ 
+ 
+ 
+Net Revenue 
+(R$ million) 
+ 
+ 
+ 
+ 
+Net Revenue – 3Q26 vs. 3Q25 
+(R$ million)
+
+[p. 59]
+9 
+ 
+ri@brasil.isaenergia.com 
+O&M Costs and Expenses 
+ 
+The main events that caused variations in manageable PMSO during the period were as follows: 
+▲ Personnel: (i) higher costs related to salaries, payroll charges and benefits due to the 2025/2026 collective 
+bargaining agreement; and (ii) the full consolidation of IE Madeira as of August 2026. These increases were partially 
+offset by lower expenses associated with severance payments. 
+▲ Services: higher expenses associated with: (i) legal success fees; (ii) cleaning and mowing services; and (iii) travel 
+for training and support for new operations. The increase in expenses was partially offset by lower expenditure on 
+corporate training. 
+▲ Other: higher costs associated with: (i) property tax (“IPTU”), mainly due to the update of the market value of 
+properties and inflation adjustments; and (ii) insurance renewals. These effects were partially offset by lower 
+expenses related to taxes levied on foreign services. 
+In addition to the manageable PMSO variations explained above, the Company recorded R$15.5 million in non-recurring 
+expenses related to the unwinding of cross -shareholdings completed in 3Q26. During the quarter, the private pension 
+provision (an actuarial liability estimated based on benefits, as provided for under CPC 33 ) decreased by R$0.6 million 
+(-29.6% vs. 3Q25). This variation had no cash effect and was mainly explained by the higher discount rate used to 
+calculate the present value of future obligations, resulting from the increase in NTN -B yields considered in the an nual 
+actuarial reassessment conducted in December 2025. 
+The chart below shows the evolution of the Company’s operating efficiency, measured by the ratio between PMSO and 
+net revenue excluding RBSE. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+CONTINGENCIES 
+The Company recorded a R$23.6 million gain from contingencies in 3Q26, compared to an expense of R$0.2 million in 
+3Q25. The variation was mainly due to the conclusion of legal proceedings related to the RBNI indemnification upon 
+O&M Costs and Expenses 
+(R$ million) 3Q26 3Q25 Chg (% ) 9M26 9M25 Chg (% )
+Personnel -115.7 -100.5 15.2% -331.1 -310.5 6.6%
+Material -6.3 -5.6 11.2% -17.2 -16.9 2.2%
+Services -66.6 -54.1 23.2% -174.5 -146.0 19.5%
+Others -28.4 -25.4 12.1% -81.4 -72.7 12.0%
+Manageable PMSO -217.0 -185.5 17.0% -604.3 -546.1 10.6%
+Non-recurring -16.9 0.0 N.A. -16.9 0.0 N.A.
+Private Pension Entity -1.4 -1.9 -29.6% -4.1 -5.8 -29.6%
+PMSO -235.3 -187.5 25.5% -625.2 -551.9 13.3%
+Contingencies 23.6 -0.2 n.a 19.2 -20.8 n.a
+Depreciation -251.0 -167.6 49.8% -642.6 -591.3 8.7%
+Other costs and expenses -227.4 -167.8 35.5% -623.3 -612.2 1.8%
+Total -462.7 -355.2 30.2% -1,248.6 -1,164.0 7.3%
+Consolidated
+Efficiency Indicator 
+(R$ million)
+
+[p. 60]
+10 
+ 
+ri@brasil.isaenergia.com 
+the renewal of the Paulista Concession Agreement. The settlement entered into with AXIA Energia resulted in a payment 
+of R$32.1 million, compared to a provision of R$63.4 million, allowing the Company to reverse R$31.3 million during 
+the quarter. 
+ 
+DEPRECIATION 
+The Company recorded depreciation expense of R$250.9 million in 3Q26, an increase of 49.8% (R$83.4 million) 
+compared to 3Q25, mainly due to: 
+▲ Recognition of a depreciation provision related to the Piraquê project, which began commercial operations in 2Q26 
+(R$29.8 million); 
+▲ Full consolidation of IE Madeira as of August 2026, with an impact of R$24.3 million on depreciation expenses 
+recorded in 3Q26; 
+▲ Progress in the unitization of R&I projects under the Paulista Concession over the last 12 months (+R$18.9 million); 
+▲ Unitization of Riacho Grande’s assets with ANEEL (+R$5.3 million compared to 3Q25). 
+As a result, operating costs and expenses totaled R$462.7 million in 3Q26 (+30.2% compared to 3Q25). In 9M26, 
+they totaled R$1,248.6 million (+7.3% compared to 9M25).
+
+[p. 61]
+11 
+ 
+ri@brasil.isaenergia.com 
+Other Operating Income and Expenses 
+ 
+* Costs associated with the decommissioning, disposal and write-off of assets. 
+ 
+Other Operating Income and Expenses totaled R$1,891.2 million in income in 3Q26, compared to R$3.8 million in 3Q25, 
+mainly reflecting income of R$1,938.3 million related to the one -off accounting effect of the unwinding of the equity 
+interests in IE Madeira and IE Garanhuns, as shown in the table below. Other variations included: (i) a R$31.6 million 
+reduction in gains and compensation related to the Centro Substation, approved by ANEEL in 3Q25; (ii) a R$9.0 million 
+reduction in the monetary adjustment of c ourt-ordered payments; (iii) a negative impact of R$2.2 million from the 
+disposal of obsolete assets, resulting from the timing mismatch between the accounting write -offs of the assets and 
+the recognition of their respective disposals; and (iv) a R$3.7 mil lion increase in asset decommissioning costs related 
+to dismantling activities carried out as part of Retrofitting and Improvements projects. 
+The unwinding of the equity interests in IE Madeira and IE Garanhuns resulted in a positive, non -recurring, non-cash 
+accounting effect of R$1,938.3 million (“One -Off Accounting Effect (Assets’ Unwinding)”). This effect comprises: ( i) a 
+bargain purchase gain related to the additional 49% interest acquired in IE Madeira (R$655.2 million); (ii) the fair value 
+remeasurement of the previously held 51% interest in IE Madeira (R$1,211.0 million); and (iii) a gain of R$72.1 million 
+on the disposal of the 51% interest in IE Garanhuns, as shown in the table below: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Other Operating Income and Expenses
+(R$ million) 3Q26 3Q25 Chg (% ) 9M26 9M25 Chg (% )
+Income 1,941.2 58.3 3231.8% 1,957.6 68.1 2775.3%
+Disposal of Non‑Operational Assets -2.2 7.9 n.a 2.9 12.9 -77.2%
+Update of amounts of warrants receivable (SJC terrain) 3.1 12.1 -74.4% 9.0 16.9 -47.0%
+Insurance Indemnity Proceeds 0.0 4.8 -100.0% 1.9 4.8 -60%
+Gain and Remuneration From SE Centro 1.9 33.5 -94.3% 5.5 33.5 -84%
+One-off accounting effect (Asset unwinding) 1,938.3 0.0 N.A. 1,938.3 0.0 N.A.
+Expenses -49.4 -55.7 -11.4% -152.1 -129.6 17.3%
+Disposal of Non‑Operational Assets -0.8 -8.7 -90.8% -8.3 -14.3 -41.8%
+Amortization of capital gains (PBTE and SF Energia) -12.8 -15.0 -14.3% -39.2 -43.2 -9.3%
+Cost of decommissioning assets* -35.7 -32.0 11.7% -104.5 -72.1 45.0%
+Others -0.7 0.0 N.A. -1.7 1.4 N.A.
+Eliminations 0.0 1.3 -100.0% 0.0 1.3 -100.0%
+Total 1,891.2 3.8 n.a 1,803.9 -58.9 n.a
+Consolidated
+(R$ million) Regulatory
+Bargain purchase gain 655.2
+Remeasurement of previously held interest (CPC 15 - item 42) 1,211.0
+Gain on disposal of Garanhuns 72.1
+One-off Accounting Effect (Asset Unwinding) 1,938.3
+One-off Accounting Effect (Asset Unwinding)
+
+[p. 62]
+12 
+ 
+ri@brasil.isaenergia.com 
+EBITDA and MARG IN 
+ 
+In addition to the recognition of the One-Off Accounting Effect (Assets’ Unwinding), the variation was mainly explained 
+by: 
+▲ Full consolidation of IE Madeira’s operations as of August 2026; 
+▲ Start of operations of greenfield projects and large -scale Retrofitting and Improvements projects over the last 12 
+months; 
+▲ Tariff adjustment for the 2026/2027 cycle; 
+▲ Improvement in the efficiency indicator, with a reduction in the PMSO -to-net-revenue ratio in 9M26 compared to 
+9M25, reflecting revenue growth above the increase in operating expenses. 
+ 
+EBITDA from ISA ENERGIA BRASIL’s interest in jointly controlled companies totaled R$86.8 million in 3Q26, a decrease 
+of R$104.6 million ( -54.6%) compared to 3Q25. In 9M26, EBITDA from ISA ENERGIA BRASIL’s interest in jointly 
+controlled companies totaled R$448.5 million, down 14.8% compared to 9M25. 
+In August, following the completion of the unwinding of equity interests, IE Madeira began to be fully consolidated into 
+the Company’s results, while IE Garanhuns ceased to be part of the Company’s assets. Therefore, equity income from 
+IE Madeira and IE Garanhuns in 3Q26 refers exclusively to July 2026. 
+Total EBITDA, considering ISA ENERGIA BRASIL’s consolidated results and its interest in jointly controlled companies, 
+was R$3,276.9 million in 3Q26 (+203.5% vs. 3Q25). Further details are available in the “Equity Income” section of this 
+document (click here). 
+¹ Equity income from IE Madeira and IE Garanhuns includes results recognized through July 2026, due to the completion of the unwinding of the 
+equity interests on July 31, 2026. 
+ 
+ 
+EBITDA 
+(R$ million) 3Q26 3Q25 Chg (% ) 9M26 9M25 Chg (% ) 
+Net revenue 1,510.7 1,072.3 40.9% 3,980.3 3,232.8 23.1%
+Costs and expenses (ex-depreciation) -211.7 -187.7 12.8% -606.0 -572.7 5.8%
+Other expenses and revenues (ex-amortization) 1,891.2 3.8 N.A. 1,803.9 -58.8 N.A.
+EBITDA 3,190.1 888.5 259.0% 5,178.2 2,601.3 99.1%
+(-) One-Off Accounting Effect (Assets' Unwinding) -1,938.3 0.0 N.A. -1,938.3 0.0 N.A.
+EBITDA Pro forma 1,251.7 888.5 40.9% 3,239.8 2,601.3 24.5%
+Consolidated
+EBITDA
+(R$ million) 3Q26 3Q25 Chg (% ) 9M26 9M25 Chg (% )
+Consolidated 3,190.1 888.5 259.0% 5,178.2 2,601.3 99.1%
+Non-consolidated 86.8 191.2 -54.6% 448.5 526.7 -14.8%
+IE Madeira (51%)¹ 22.8 101.7 -77.6% 191.6 256.8 -25.4%
+IE Garanhuns (51%)¹ 4.9 14.0 -65.0% 40.1 46.5 -13.7%
+IE Aimorés (50%) 12.5 12.9 -3.2% 38.0 36.7 3.6%
+IE Paraguaçu (50%) 19.9 19.5 2.2% 57.8 54.6 5.8%
+IE Ivaí (50%) 26.8 43.1 -38.0% 121.0 132.1 -8.4%
+Total 3,276.9 1,079.7 203.5% 5,626.7 3,128.0 79.9%
+Consolidated + Non-consolidated
+
+[p. 63]
+13 
+ 
+ri@brasil.isaenergia.com 
+Financial Result 
+ 
+The Company recorded net financial expenses of R$348.1 million in 3Q26, an increase of R$55.0 million (+18.7%) 
+compared to 3Q25: 
+▲ Interest and charges on loans: reflected the higher average debt balance, driven by (i) the 20th, 22nd and 
+23rd debenture issuances, totaling R$4.5 billion, to finance the Company’s growth; and (ii) the consolidation of IE 
+Madeira’s financial expenses. These effects were partially offset by the lower CDI rate during the period (3.38% in 
+3Q26 vs. 3.65% in 3Q25) and an approximately 80-basis-point reduction in the average spread on the institutional 
+debenture issuances included in the liability -management transaction carried out through th e 21st debenture 
+issuance in 1Q26; 
+▼ Monetary variation: the decrease mainly reflected (i) the lower IPCA variation ( -0.09% in 3Q26 vs. 0.39% in 
+3Q25), partially offset by (ii) a R$3.0 billion increase in gross debt indexed to IPCA compared to 3Q25. For 
+accounting purposes, 3Q results reflect inflation from June through August. 
+▲ Other financial expenses: the increase in derivative-related financial expenses in 3Q26 compared to 3Q25 mainly 
+reflected the mark-to-market adjustment of a swap in which the Company holds a long IPCA position and a short 
+CDI position. The upward shift in the forward CDI curve increased the present value of the short position, negatively 
+affecting the derivative’s fair value and resulting in higher financial expenses in the quarter ( -R$20.5 million); 
+Net financial expenses increased by 47.5% in 9M26, or R$473.6 million, compared to R$996.3 million in 9M25. 
+Financial Result
+(R$ million) 3Q26 3Q25 Chg (% ) 9M26 9M25 Chg (% )
+Financial Income 107.9 115.4 -6.5% 282.4 332.3 -15.0%
+Financial investment income 92.5 90.0 2.7% 212.8 243.4 -12.6%
+Other financial income 15.4 25.4 -39.3% 69.6 88.9 -21.7%
+Financial Expenses -456.0 -408.6 11.6% -1,752.3 -1,328.5 31.9%
+Interest and charges on loans -428.5 -336.7 27.2% -1,207.4 -936.4 28.9%
+Monetary variation 8.5 -54.6 -115.6% -436.8 -337.7 29.4%
+Other financial expenses -36.1 -17.3 108.8% -108.1 -54.4 98.6%
+Total -348.1 -293.1 18.7% -1,469.9 -996.3 47.5%
+Consolidated
+
+[p. 64]
+14 
+ 
+ri@brasil.isaenergia.com 
+Equi ty Income 
+ 
+Equity income totaled R$34.2 million in 3Q26, a reduction of R$66.2 million (-66.0%) compared to 3Q25, mainly due to 
+the effects of the unwinding of the equity interests with AXIA Energia. In 9M26, equity income totaled R$197.2 million, 
+down 26.1% compared to 9M25. The other variations are detailed below: 
+ 
+Aliança Interligação Elétrica (“AIE”) 
+Comprising three projects in partnership with TAESA (Aimorés, Paraguaçu and Ivaí) AIE recorded a decrease of R$8.5 
+million in 3Q26 (-29.0% vs. 3Q25), mainly explained by: 
+• IE Aimorés and IE Paraguaçu: higher financial expenses on debentures, as the debt proceeds were disbursed 
+at the end of 2Q25, partially offset by the IPCA adjustment for the tariff cycle. 
+• IE Ivaí: lower operating results, mainly due to the recognition of a provision related to the Variable Portion for 
+Delayed Commercial Operation (“PVA”) associated with the project’s startup in 2022, following ANEEL’s denial of 
+the administrative appeal. This effec t was partially offset by: (i) lower monetary adjustment on debt due to the 
+lower IPCA² in 3Q26; and (ii) the IPCA adjustment for the 2026/2027 tariff cycle. 
+Click here to view the condensed income statement of the jointly controlled companies. 
+ 
+¹ Equity income from IE Madeira and IE Garanhuns includes results recognized through July 2026, due to the completion of the un winding of the 
+equity interests on July 31, 2026. | ² IPCA: -0.09% in 3Q26 vs. +0.39% in 3Q25 
+Equity Income
+(R$ million) 3Q26 3Q25 Chg (% ) 9M26 9M25 Chg (% )
+IE Madeira (51% )¹ 10.0 61.8 -83.9% 107.2 144.5 -25.8%
+IE Garanhuns (51% )¹ 3.4 9.3 -63.3% 29.6 33.2 -10.8%
+AIE (50% ) 20.8 29.2 -29.0% 60.3 89.2 -32.4%
+IE Aimorés 5.8 7.1 -18.5% 18.6 26.5 -29.9%
+IE Paraguaçu 8.3 9.0 -8.2% 25.9 38.4 -32.5%
+IE Ivaí 6.7 13.1 -48.9% 15.8 24.3 -35.0%
+Total 34.2 100.4 -66.0% 197.2 267.0 -26.1%
+Consolidated
+
+[p. 65]
+15 
+ 
+ri@brasil.isaenergia.com 
+IRPJ and CSLL 
+ 
+The Company recorded an Income Tax and Social Contribution on Net Income (“IR/CSLL”)

@@ -1,0 +1,3187 @@
+[p. 1]
+ENGIE Brasil Energia S.A. 
+RELEASE DE RESULTADOS 
+2
+T26 
+EGIE3 
+B3 LISTED NM 
+Florianópolis (SC), 05 de agosto de 2026. A ENGIE 
+Brasil Energia S.A. (“ENGIE”, ou “Companhia”) — B3: 
+EGIE3, ADR: EGIEY — anuncia os resultados 
+financeiros relativos ao Segundo Trimestre e 
+período de 6 meses, encerrado em 3 0 de junho de 
+2026 (2T26/6M26). As informações financeiras e 
+operacionais a seguir são apresentadas em base 
+consolidada e estão de acordo com os princípios e 
+as práticas contábeis adotadas no Brasil. Os valores 
+estão expressos em reais (R$), salvo quando 
+indicado de modo diferente. Ef eitos de 
+arredondamentos podem causar diferenças nas 
+variações percentuais, quando comparados os 
+comentários de Desempenho Econômico -
+Financeiro, apresentados em R$ milhões, com a 
+Demonstração do Resultado (Anexo III), 
+apresentada em R$ mil. 
+Videoconferência 
+de resultados 
+ 
+06/08/2026 às 11:00h 
+(horário de Brasília): 
+em português com tradução 
+simultânea para inglês 
+Clique aqui para acessar a transmissão 
+Visite nosso Website 
+www.engie.com.br/investidores 
+ 
+ 
+ 
+EGIEY 
+OTC MARKET 
+Para Divulgação Imediata 
+Mais informações: 
+ 
+Eduardo Sattamini 
+Diretor-Presidente 
+ 
+Pierre Leblanc 
+Diretor Financeiro 
+e de Relações com Investidores 
+ 
+Leonardo Depiné 
+Gerente de Relações com Investidores 
+Leonardo.Depine@engie.com 
+Tel.: (48) 3221-7904/7246 
+ 
+ri.brenergia@engie.com
+
+[p. 2]
+Release de Resultados 2T26 
+1 
+ 
+Asa Branca 
+ENGIE Brasil Energia 
+conclui follow-on de
+R$ 8,4 bilhões e 
+assume participação 
+na Jirau Energia. 
+Destaques 
+Receita operacional líquida 
+R$ 3.511 milhões 
+(+13,8% ante 2T25). 
+Ebitda ajustado2 
+R$ 2.179 milhões 
+(+16,8% ante 2T25). 
+Lucro líquido ajustado 
+R$ 694 milhões 
+(+23,0% ante 2T25). 
+A Companhia reconheceu a adesão ao 
+mecanismo legal de repactuação do 
+passivo de Uso de Bem Público (UBP), 
+referente às obrigações futuras associadas 
+às usinas hidrelétricas Cana Brava e Ponte 
+de Pedra. O pagamento de R$ 2,23 bilhões 
+finalizou em 20 de julho de 2026. 
+O Conselho de Administração aprovou a 
+proposta de incorporação, pela Companhia, 
+da sua controlada integral Companhia 
+Energética do Jari - CEJA. A operação foi 
+posteriormente aprovada pela AGE 
+realizada em 31 de julho. 
+Adicionalmente, aprovou a realização de 
+Oferta Pública de Distribuição Primária de 
+Ações e a convocação de AGE para 
+aprovação do Laudo de Avaliação e o valor 
+a ser atribuído às ações da Jirau Energia 
+detidas pela ENGIE Brasil Participações. 
+Preço médio dos contratos 
+de venda de energia 
+R$ 208,3/MWh 
+líquido dos tributos sobre a receita 
+e das operações de trading 
+(-4,0% ante 2T25). 
+Energia vendida 
+10.597 GWh 
+(4.852 MW médios) 
+sem considerar as operações de 
+trading (+14,1% ante 2T25). 
+Importante 
+Este material contém informações e opiniões sobre eventos futuros que estão sujeitas a riscos e incertezas, baseadas em expectativas, projeções 
+e tendências atuais. Diversos fatores podem influenciar essas estimativas e suposições, o que pode fazer com que as declarações futuras não 
+se concretizem. Portanto, acionistas e investidores não devem tomar decisões baseadas apenas nessas estimativas, projeções e declarações.
+
+[p. 3]
+Release de Resultados 2T26 
+2 
+Resumo dos Indica 
+dores Financeiros e Operacionais 
+ 
+ 
+ 
+Consolidado (em R$ milhões) 2T26 2T25 Var. 6M26 6M25 Var. 
+Receita Operacional Líquida (ROL) 3.511 3.086 13,8% 6.920 6.100 13,4% 
+Resultado do Serviço (EBIT) 1.761 1.541 14,3% 3.626 3.262 11,2% 
+Ebitda 1 2.179 1.871 16,5% 4.427 3.915 13,1% 
+Ebitda ajustado 2 2.179 1.866 16,8% 4.423 3.906 13,2% 
+Ebitda ajustado por efeitos de transmissão e cotistas 3 1.939 1.715 13,1% 4.027 3.523 14,3% 
+Ebitda / ROL - (%) 1 62,1 60,6 1,5 p.p. 64,0 64,2 -0,2 p.p. 
+Ebitda / ROL - (%) ajustada 2 62,1 60,5 1,6 p.p. 63,9 64,0 -0,1 p.p. 
+Lucro Líquido 1.962 567 246,0% 2.754 1.394 97,6% 
+Lucro Líquido ajustado 694 564 23,0% 1.483 1.387 6,9% 
+Retorno Sobre o Patrimônio (ROE) ajustado 4 18,3 23,1 -4,9 p.p. 18,3 23,1 -4,9 p.p. 
+Retorno Sobre o Capital Investido (ROIC) ajustado 5 13,9 15,4 -1,5 p.p. 13,9 15,4 -1,5 p.p. 
+Dívida Líquida 6 25.210 21.561 16,9% 25.210 21.561 16,9% 
+Produção Bruta de Energia Elétrica (MW médios) 7 4.355 4.088 6,5% 5.093 4.736 7,5% 
+Energia Vendida (MW médios) 8 4.852 4.254 14,1% 4.878 4.346 12,2% 
+Preço Líquido Médio de Venda (R$/MWh) 9 208,28 217,01 -4,0% 212,38 215,50 -1,4% 
+Número de Empregados - Total 1.402 1.265 10,8% 1.402 1.265 10,8% 
+ Empregados EBE 1.366 1.240 10,2% 1.366 1.240 10,2% 
+ Empregados em Projetos em Construção 36 25 44,0% 36 25 44,0% 
+Na Assembleia Geral Extraordinária de 02 de julho, foi aprovado o Laudo de Avaliação e a 
+proposta de valor das ações de emissão da Jirau Energia detidas pela ENGIE Brasil 
+Participações, para fins de sua contribuição na integralização de ações no âmbito da Oferta 
+Pública de Distribuição Primária de Ações, no valor de R$ 5,74 bilhões. 
+Em 17 de julho, ocorreu a liquidação das 274.082.684 novas ações, emitidas no âmbito da 
+Oferta Pública de Distribuição Primária de Ações da Companhia, que totalizou um aumento 
+de R$ 8,36 bilhões no capital social da Companhia. 
+O Conselho de Administração aprovou a distribuição de R$ 770,8 milhões (R$ 0,5442/ação) 
+sob forma de dividendos intercalares equivalente a 55% do lucro líquido distribuível do 
+primeiro semestre de 2026 , desconsiderando o reconhecimento do ganho financeiro com a 
+repactuação do UBP. As ações serão negociadas ex-dividendos intercalares a partir de 21 de 
+agosto de 202 6 e a data de pagamento será definida posteriormente pela Diretoria 
+Executiva. 
+ 
+Eventos Subsequentes 
+1 Ebitda: lucro líquido + imposto de renda e contribuição social + resultado financeiro 
++ depreciação e amortização. 
+2 Ebitda ajustado: lucro líquido + imposto de renda e contribuição social + resultado 
+ financeiro + depreciação e amortização + impairment + não recorrentes. 
+3 Ebitda ajustado, deduzidos os efeitos do IFRS do segmento de transmissão e usinas 
+cotistas. 
+4 ROE: lucro líquido ajustado dos últimos 4 trimestres / patrimônio líquido. 
+5 ROIC: taxa efetiva x EBIT ajustado / capital investido (capital investido: dívida 
+- caixa e eq. caixa - depósitos vinculados ao serviço da dívida + PL). 
+6 Valor ajustado, líquido de ganhos de operações de hedge. 
+7 Produção total bruta das usinas operadas pela ENGIE Brasil Energia. 
+8 Desconsidera vendas por regime de cotas (UHEs Jaguara e Miranda). 
+9 Líquido de impostos sobre a venda e operações de trading.
+
+[p. 4]
+Release de Resultados 2T26 
+3 
+Mensagem da Administração 
+O segundo trimestre de 2026 foi marcado por avanços estratégicos relevantes para a ENGIE Brasil Energia, 
+reforçando nossa posição de liderança na transição energética do país. Mesmo diante de um ambiente regulatório 
+e econômico desafiador, avançamos em pro jetos estruturantes e consolidamos operações que ampliam nossa 
+presença nos segmentos de geração e transmissão de energia. 
+Em transmissão, avançamos de forma consistente nos projetos em implantação. O sistema de transmissão Asa 
+Branca obteve a Licença de Instalação completa, permitindo o início das obras civis, enquanto o Graúna 
+apresentou progressos importantes nos processos de licenciamento ambiental e liberação fundiária. 
+Além disso, em 26 de junho, assinamos o contrato de concessão referente aos lotes arrematados no primeiro 
+leilão de transmissão de 2026 – nomeado como Colibri Transmissora de Energia. Os novos projetos reforçarão 
+nossa presença em ativos estratégicos e contribuirão para a geração de receitas de longo prazo. 
+No Mercado Livre de Energia (MLE), ampliamos em 42,3% o número de consumidores livres em relação ao mesmo 
+período do ano anterior. Esse crescimento demonstra a confiança dos clientes em nossas soluções e acompanha 
+o movimento de expansão do ambiente de contratação livre. 
+Outro destaque foi a adesão ao mecanismo de repactuação do passivo de Uso de Bem Público (UBP), referente 
+às usinas hidrelétricas Cana Brava (GO) e Ponte de Pedra (MT), com o reconhecimento de um efeito não 
+recorrente de R$ 1,3 bilhão no lucro líquido, cujo pagamento foi finalizado em 20 de julho de 2026. Essa medida 
+contribui para uma maior previsibilidade financeira e reforça nossa disciplina na gestão de obrigações futuras. 
+Em termos financeiros, no segundo trimestre de 2026, registramos receita operacional líquida de R$ 3,5 bilhões 
+(+13,8%), impulsionada pelo desempenho das operações de curto prazo e dos contratos nos mercados livre e 
+regulado. Adicionalmente, o segmento de transmissão contribuiu positivamente para a expansão da receita. O 
+Ebitda ajustado alcançou R$ 2,2 bilhões, representando um crescimento de 16,8% com relação ao 2T25 . Já o 
+lucro líquido ajustado totalizou R$ 694 milhões, alta de 23,0% na comparação com o mesmo trimestre do ano 
+anterior, refletindo a solidez e a consistência de nosso desempenho operacional e financeiro. 
+Entre os eventos subsequentes ao trimestre, destaca -se a conclusão da oferta pública primária de ações 
+ordinárias (follow on), aprovada em Assembleia Geral Extraordinária. A operação resultou na emissão de mais de 
+274 milhões de ações e movimentou R$ 8,36 bilhões, viabilizando a transferência da participação de 40% da 
+ENGIE Brasil Participações na Jirau Energia S.A. para a Comp anhia. Desse montante, R$ 2,6 2 bilhões foram 
+captados junto ao mercado e R$ 5,74 bilhões corresponderam à contribuição da participação em Jirau. O preço 
+por ação foi fixado em R$ 30,50, por meio de processo de bookbuilding, com direito de prioridade aos acionistas. 
+A liquidação ocorreu em 17 de julho de 2026, elevando o capital social da Companhia para R$ 15,22 bilhões. O 
+movimento marcou o retorno da ENGIE Brasil Energia ao mercado de capitais, 21 anos após sua última oferta de 
+UHE Cana Brava 
+A Companhia liquidou 
+financeiramente a obrigação 
+relacionada a repactuação 
+do UBP das usinas 
+hidrelétricas Cana Brava e 
+Ponte de Pedra, pelo valor 
+de R$ 2,23 bilhões.
+
+[p. 5]
+Release de Resultados 2T26 
+4 
+ações, e reforçou a confiança dos investidores na estratégia da Companhia, assim como seu compromisso de 
+longo prazo com o desenvolvimento do setor elétrico e com o Brasil. 
+Na dimensão socioambiental, permanecemos pelo 21º ano consecutivo no Índice de Sustentabilidade 
+Empresarial (ISE) da B3 e seguimos integrando o Dow Jones Best-in-Class Emerging Markets, reafirmando nosso 
+compromisso com práticas de governança e sustentabilidade reconhecidas internacionalmente. A publicação do 
+Relatório de Sustentabilidade 2025 também reforça nossa transparência e nossa atuação para acelerar a transição 
+para uma matriz energética de baixo carbono. 
+Seguiremos concentrados na expansão de nosso portfólio renovável, no fortalecimento dos ativos de transmissão 
+e na manutenção de elevados índices de disponibilidade operacional. Acreditamos que a combinação entre 
+solidez financeira, inovação e responsabilidade socioambiental continuará gerando valor para nossos acionistas, 
+clientes e para o Brasil. 
+ 
+ 
+ 
+Boa leitura! 
+ 
+Eduardo 
+Sattamini 
+Diretor-Presidente 
+Pierre 
+Leblanc 
+Diretor Financeiro 
+e de Relações com 
+Investidores
+
+[p. 6]
+Release de Resultados 2T26 
+5 
+Detalhamento dos Ativos da Companhia 
+Ativos de Geração de Energia 
+No fim do 2T26, a ENGIE Brasil Energia contava com 11.265,9 MW de capacidade instalada , operando um 
+parque gerador de 12. 965,6 MW, composto de 145 usinas, sendo 13 hidrelétricas e 132 de fontes renováveis 
+complementares — central a biomassa, PCHs, eólicas e solares —, das quais 142 pertencem integralmente à 
+Companhia e três (as hidrelétricas Itá, Machadinho e Estreito) são comercialmente exploradas por meio de 
+parcerias com outras empresas. 
+| Ativos de Geração de Energia em Operação em 30 de Junho de 2026 
+ 
+ 1 Para composição dos conjuntos eólicos e fotovoltaicos. 
+2 A usina Lar do Sol não possui garantia física declarada, portanto sua capacidade comercial é baseada na geração prevista. 
+3 Para centrais geradoras com potência igual ou inferior a 5 MW o instrumento legal aplicável é o registro. 
+Total 
+Participação da 
+Companhia
+Itá Hidrelétrica Rio Uruguai (SC e RS) 1.450,0 1.126,9 dez/32 528,7
+Salto Santiago Hidrelétrica Rio Iguaçú (PR) 1.420,0 1.420,0 nov/30 702,2
+Machadinho Hidrelétrica Rio Uruguai (SC e RS) 1.140,0 414,8 out/35 143,7
+Salto Osório Hidrelétrica Rio Iguaçu (PR) 1.103,7 1.103,7 abr/31 487,3
+Estreito Hidrelétrica Rio Tocantins (TO e MA) 1.087,0 435,6 fev/47 244,1
+Cana Brava Hidrelétrica Rio Tocantins (GO) 450,0 450,0 dez/35 247,8
+Jaguara Hidrelétrica Rio Grande (MG) 424,0 424,0 jun/48 324,0
+Miranda Hidrelétrica Rio Araguari (MG) 408,0 408,0 jun/48 188,3
+Santo Antônio do Jari Hidrelétrica Rio Jari (AP e PA) 393,0 393,0 out/45 211,3
+São Salvador Hidrelétrica Rio Tocantins (TO) 243,2 243,2 mai/42 140,8
+Passo Fundo Hidrelétrica Rio Passo Fundo (RS) 226,0 226,0 abr/31 107,5
+Cachoeira Caldeirão Hidrelétrica Rio Araguari (AP) 219,0 219,0 ago/48 123,3
+Ponte de Pedra Hidrelétrica Rio Correntes (MT) 176,1 176,1 ago/37 127,6
+Total - Hidrelétricas 8.739,9 7.040,2 3.576,5
+Total 
+Participação da 
+Companhia
+Conjunto Serra do Assuruá Eólica 24 Gentio do Ouro (BA) 846,0 846,0 nov/56 410,2
+Conjunto Assú Sol Solar 16 Assú (RN) 752,7 752,7 fev/57 229,6
+Conjunto Santo Agostinho - Fase I Eólica 14 Lages e Pedro Avelino (RN) 434,0 434,0 mai/56 224,2
+Conjunto Campo Largo II Eólica 11 Umburanas (BA) 361,2 361,2 ago/54 192,5
+Conjunto Umburanas - Fase I Eólica 18 Umburanas (BA) 360,0 360,0 ago/49 213,3
+Conjunto Campo Largo I Eólica 11 Umburanas (BA) 326,7 326,7 mai/51 166,5
+Conjunto Trairi Eólica 8 Trairi (CE) 212,6 212,6 set/41 97,2
+Conjunto Lar do Sol2 Solar 3 Pirapora (MG) 198,0 198,0 abr/54 49,0
+Conjunto Paracatu Solar 4 Paracatu (MG) 132,0 132,0 jun/51 34,0
+Conjunto Juazeiro Solar 4 Juazeiro (BA) 120,0 120,0 jun/51 34,8
+Conjunto Sertão Solar Solar 4 Barreiras (BA) 94,6 94,6 jul/53 26,1
+Conjunto Floresta Solar 3 Areia Branca (RN) 86,0 86,0 jun/51 25,1
+Conjunto Sol do Futuro Solar 3 Aquiraz (CE) 81,0 81,0 jun/51 16,2
+Ferrari Termoelétrica Biomassa Pirassununga (SP) 72,5 72,5 jun/42 12,4
+Conjunto São Pedro Solar 2 Bom Jesus da Lapa (BA) 54,0 54,0 mar/51 16,0
+Assú V Solar Assú (RN) 34,0 34,0 jun/51 9,2
+Rondonópolis PCH Ribeirão Ponte de Pedra (MT) 26,6 26,6 dez/37 14,0
+José Gelazio da Rocha PCH Ribeirão Ponte de Pedra (MT) 24,4 24,4 dez/37 9,2
+Nova Aurora Solar Tubarão (SC) 3,0 3,0 não aplicável3 0,2
+Tubarão Eólica Tubarão (SC) 2,1 2,1 não aplicável3 0,3
+Tubarão 2 Eólica Tubarão (SC) 4,2 4,2 não aplicável3 0,0
+Total - Complementares 4.225,6 4.225,6 1.780,1
+Total 12.965,6 11.265,9 5.356,6
+Capacidade Instalada (MW) 
+Usina Tipo Localização
+Capacidade Instalada (MW) 
+Vencimento da 
+Autorização
+Vencimento da 
+Concessão
+Garantia física 
+(MWm) Participação 
+da Companhia
+Garantia física 
+(MWm) Participação 
+da Companhia
+Usina Tipo
+Centrais 
+geradoras1 Localização
+
+[p. 7]
+Release de Resultados 2T26 
+6 
+Ativos de Transmissão de Energia 
+| Ativos de Transmissão em Operação em 30 de Junho de 2026 
+Linhas de Transmissão Localização Extensão km RAP anual (R$ milhões) * Subestações Propriedade Vencimento concessão 
+Gralha Azul Paraná 909,0 365,3 5 próprias e ampliação de 5 existentes 100% mar/48 
+Novo Estado Pará e Tocantins 1.800,0 484,9 1 própria e ampliação de 3 existentes 100% mar/48 
+Gavião Real Pará - 8,2 Novo pátio em 1 existente 100% set/52 
+Graúna - trecho brownfield Minas Gerais e Espírito Santo 162,0 14,5 2 subestações existentes 100% dez/54 
+Asa Branca - trecho Morro do Chapéu II - Poções III Bahia 334,0 96,4 Ampliação de 2 associadas 100% set/53 
+Total 3.205,0 969,3 
+* RAP: Receita Anual Permitida. / Valores na data-base de junho de 2026 (ciclo 2026-2027), líquidos de PIS e Cofins. 
+Ativos de Transporte de Gás 
+Transportadora Associada de Gás S.A. – TAG. 
+Maior transportadora de gás natural do Brasil, a TAG possui uma infraestrutura de aproximadamente 4.600 km 
+de gasodutos de alta pressão, que se estende por todo o litoral do Sudeste e Nordeste e mais um trecho entre 
+Urucu e Manaus, no Amazonas, atravessando 10 estados brasileiros e cerca de 200 municípios. 
+A rede de gasodutos possui diversos pontos de conexão, com 14 pontos de entrada de gás (incluindo 2 terminais 
+de Gás Natural Liquefeito (GNL)), 92 pontos de saída , 2 pontos de entrada e saída bidirecionais e 1 ponto de 
+interconexão, além de conexão com 10 distribuidoras de gás, 2 refinarias, 20 termelétricas e 2 plantas de 
+fertilizantes. A rede conta ainda com 11 estações de compressão próprias ao longo da malha. A operação dos 
+ativos é realizada da Central de Supervisão e Controle (CSC), localizada na sede da empresa no Rio de Janeiro. 
+Após o encerramento do contrato legado Malha -NE, em dezembro de 2025, a TAG permanece contratada em 
+76% por meio de contratos legados de longo prazo com a Petrobras e em 24% por novos contratos , que 
+contemplam os principais pontos de entrega da malha. Até o fim do segundo trimestre de 2026, foram firmados 
+1.005 contratos de Transporte, representando 53% do total de contratos do ano anterior e um incremento de 
+55% frente ao contratado até o fim do segundo trimestre de 2025. 
+A TAG está em processo de Revisão Tarifária junto ao regulador para o trecho da Malha Nordeste, para definição 
+da nova Receita Máxima Permitida (RMP), tendo como avanço principal a definição do WACC (Custo Médio 
+Ponderado de Capital) de 7,63%. Enquanto o ciclo segue em andamento, as contratações anuais firmes 
+mantiveram as tarifas de 2025 e os processos de ofertas para 2026 resultaram na assinatura de 73 contratos 
+(versus 47 no procedimento de 2025). 
+Atualmente, a TAG conta com 29 carregadores de capacidade firme, incluindo produtores, distribuidores e uma 
+crescente presença de comercializadores e consumidores livres, o que confirma o dinamismo do mercado de gás 
+natural. Excetuando-se a Petrobras, os demais carregadores com contratos anuais têm, em média, 11,5 milhões 
+de m³/dia contratados em 2026. 
+| Estrutura societária 
+ 
+ 
+ 
+ 
+32
+,
+5
+%
+ 17
+,
+5
+%
+ 50%
+ENGIE Brasil 
+Energia
+ENGIE S.A.
+Bacia do 
+Solimões
+Bacia do Recôncavo
+Bacia de Santos
+Bacia de Campos
+Bacia do Espírito 
+Santo
+Bacia Sergipe 
+Alagoas
+PA MA
+PI
+TO
+MT
+RO
+AC
+RR AP
+CE RN
+BA
+MG
+GO
+MS
+SP
+PR
+SC
+RS
+ES
+RJ
+PB
+PE
+AL
+SE
+AM
+Terminal GNL
+Terminal GNL 
+desconectado, desativado 
+ou não operacional
+
+[p. 8]
+Release de Resultados 2T26 
+7 
+| Destaques do semestre 
+• A TAG passou a realizar os Processos de Aquisição de Gás para Uso do Sistema (GUS) diariamente na Plataforma 
+de Balanceamento , além de ofertar simultaneamente, em todos os dias úteis, janelas de contratação dos 
+produtos de curto prazo (Flexível Anual, Trimestral, Mensal e Diário), aumentando a flexibilidade e simplificando 
+a operação dos carregadores. 
+• Com a realização d o Leilão de Reserva de Capacidade na forma de Potência (LRCAP) , em março de 2026 , 23 
+dos 59 projetos situados na região atendida pela TAG (2,2 GW) manifestaram interesse em conexão, reforçando 
+a integração das térmicas ao sistema e a modicidade tarifária. Ao fim do 2T26, encontravam-se em andamento 
+os processos de formalização dos Termos de Compromisso para contratação do serviço de transporte firme de 
+gás natural, requisito para comprovação junto à ANP e condição necessária à assinatura dos Contratos de 
+Reserva de Capacidade. 
+• Em maio, a ANP emitiu as Autorizações de Operação dos Projetos Itagibá e Buriti, dois novos pontos de saída 
+construídos pela TAG a fim de atender as demandas locais. 
+| Projetos: 
+A TAG possui diversos projetos no pipeline a serem executados nos próximos cinco anos, com previsão de R$ 4,1 
+bilhões em investimentos. Deste valor, a expectativa é que 55% sejam alocados em projetos de expansão, em 
+linha com as perspectivas positivas do Grupo ENGIE para a indústria de gás natural no Brasil. 
+Em desenvolvimento: 
+• Pontos de saída LRCAP (BA, AL, PE, PB): 5 novos pontos de saída para atendimento à demanda termelétrica 
+do LRCAP. Os pontos, em conjunto, terão capacidade máxima de transporte de ~9 milhões de m³/dia. 
+• Veredas (AL, PE): nova infraestrutura para atendimento às demandas térmicas adicionais do LRCAP , com a 
+construção de ~30km de gasoduto, além da construção e expansão de Estações de Compressão (ECOMPs). A 
+capacidade incremental do projeto é de 7,5 milhões de m³/dia. 
+• Ponto de entrada Suape (PE): novo ponto de entrada para conexão de Terminal de GNL ao Porto de Suape 
+(T ermopernambuco). O ponto terá capacidade máxima de transporte de 14,3 milhões de m³/dia e 2 km de 
+extensão, com potencial de expansão para 9 km. 
+• Conexão do Porto do Açú – GASOG (RJ): gasoduto dos Goytacazes para conexão do terminal de regaseificação 
+do Porto do Açú ao gasoduto Cabiúnas-Vitória, com 45 km de extensão e 10 milhões de m3/dia de capacidade 
+de transporte. O termo de compromisso para projeto conceitual foi aprovado no final de 2022. 
+| Detalhamento dos Contratos 
+Contrato/Trecho Extensão (km) Tipo Cliente Vencimento do Contrato Capacidade2 (MM m³/dia) Índice de reajuste 
+Gasene 1.400 Legado Petrobras nov/33 30,3 46% Cesta IGP4; 54% US PPI 
+Urucu-Coari-Manaus 800 Legado Petrobras nov/30 6,7 50% IGP-M; 50% IPCA 
+Pilar-Ipojuca 200 Legado Petrobras nov/31 15,0 IGP-M 
+Malha Nordeste1 2.100 Não-Legado Diversos - -3 - 
+Lagoa Parda-Vitória1 100 Não-Legado Diversos Anual 0,3 55% IGP-M; 45% IPCA 
+Conexão GNL Sergipe1 25 Conexão de acesso Eneva out/54 14,0 20% IGP-M; 80% IPCA 
+Total ~4.600 
+1 Capacidade contratada no regime de entradas e saídas por meio do Portal de Oferta de Capacidade (POC). 
+2 Volume de referência previsto em contrato para fins de ship or pay. O volume efetivamente contratado pode variar a cada período. 
+3 Volume a ser definido no processo de revisão tarifária promovido pela ANP. 
+4 1/3 IGP-M, 1/3 IPA-DI; 1/3 IGP-DI.
+
+[p. 9]
+Release de Resultados 2T26 
+8 
+Expansão 
+Jirau Energia - Rondônia 
+A Jirau Energia é responsável pela manutenção, operação e venda da energia gerada pela Usina Hidrelétrica Jirau, 
+localizada no Rio Madeira, em Porto Velho, estado de Rondônia. A Usina Hidrelétrica Jirau conta com suas 50 
+unidades geradoras em operação desde novembro de 2016, totalizando 3.750 MW de capacidade instalada. 
+Em 20 de maio de 2025, o Ministério de Minas e 
+Energia (MME) emitiu a Portaria nº 2.946, 
+estabelecendo os novos montantes de garantia 
+física para a Usina Hidrelétrica Jirau. Os valores 
+definidos são de 2.222,6 MW médios para operação 
+na cota 90 metros ampliada e de 2.335,1 MW 
+médios para operação na cota 90 metros constante. 
+Do total do incremento de garantia física, um terço 
+pertence ao governo da Bolívia. Com isso, a parcela 
+atribuída ao Brasil corresponde a 2.182,2 MW 
+médios na cota 90 metros ampliada e 2.257,2 MW 
+médios na 90 metros constante. 
+No 2T26, a Jirau Energia gerou 2.613 MW médios, 
+4,6% acima dos 2.497 MW médios gerados no 
+2T25, atingindo Fator de Disponibilidade do 
+Operador Nacional do Sistema (FID) de 100% no 
+período (dados sujeitos à contabilização final da 
+Câmara de Comercialização de Energia Elétrica 
+(CCEE)). Do total gerado no 2T26, 2.565 MW 
+médios formam a parcela atribuída ao Brasil , 
+descontada a cota pertencente ao governo da 
+Bolívia. 
+Em 02 de julho de 2026, a Assembleia Geral Extraordinária da ENGIE Brasil Energia aprovou o Laudo de Avaliação 
+e a proposta de valor das ações de emissão da Jirau Energia, detidas pela ENGIE Brasil Participações (EBP), para 
+fins de sua contribuição na integralização de ações no âmbito da Oferta Pública de Distribuição Primária de Ações 
+da Companhia, tendo sido o valor fixado em R$ 5,74 bilhões. 
+Em 14 de julho de 2026, o Conselho de Administração da Companhia aprovou o aumento de capital social 
+decorrente dessa operação. A liquidação foi concluída em 17 de julho de 2026, com a transferência da 
+participação de 40% detida pela EBP na Jirau Energia para a ENGIE Brasil Energia. 
+| Estrutura Acionária 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+40% 
+40% 
+20% 
+Brasil Energia 
+Axia Energia 
+Mitsui & CO. 
+A partir de 17/07/2026 
+| Portfólio de Contratos da Jirau Energia 
+| MW médios 
+ 
+* Extensão de concessão até 16/08/2047 aprovada pela Aneel, conforme 
+Resolução Homologatória nº 3.598 de 14/07/2026.
+
+[p. 10]
+Release de Resultados 2T26 
+9 
+PR
+Lote 2
+SC
+CE RN
+Lote 3
+Leilão de Energia de Reserva – Usina Hidrelétrica Jaguara 
+No Leilão de Reserva de Capacidade, na forma de 
+Potência nº 2/2026, a Companhia firmou compromisso 
+de venda de potência de 195,78 MW pelo prazo de 15 
+anos, para entrega a partir de 1 de agosto de 2030. A 
+receita fixa anual é de R$ 270,4 milhões (base 
+set/2025), reajustada anualmente pelo IPCA. 
+A expansão da capacidade instalada se dará por meio 
+da motorização de dois poços existentes na Usina 
+Hidrelétrica Jaguara, com instalação de duas turbinas 
+de 116 MW , totalizando 232 MW . O investimento 
+total estimado é de aproximadamente R$ 1,2 bilhão 
+(base mar/2026). 
+Localizada no Rio Grande, na divisa entre Minas Gerais e São Paulo, a Usina Hidrelétrica Jaguara possui 424 MW 
+de capacidade instalada (324 MW médios de capacidade comercial) e concessão vigente até junho de 2048 . 
+Atualmente, 70% da sua capacidade comercial está em regime de cotas e 30% é destinada ao Ambiente de 
+Contratação Livre (ACL). 
+Durante o segundo trimestre de 2026, foram deflagradas ações relacionadas ao início do projeto executivo e ao 
+planejamento integrado da expansão, visando o cumprimento do prazo. 
+ 
+Colibri Transmissora de Energia – Paraná, Santa Catarina, Ceará e Rio Grande do Norte 
+Arrematados no Leilão de Transmissão 01/202 6, promovido pela Aneel, o s Lotes 2 e 3 foram nomeados como 
+Colibri Sul e Colibri A, B, C e D, respectivamente, e contarão com as seguintes características: 
+• Lote 2 – Colibri Sul – construção de uma linha de transmissão de 230 kV, com cerca 
+de 143 quilômetros de extensão , nos estados do Paraná e Santa Catarina . O 
+projeto possui sinergias locais e operacionais com os Sistemas de Transmissão 
+Gralha Azul (já operacional) e Graúna (em fase de implantação). A RAP contratada 
+para esse trecho é de R$ 18,1 milhões e o investimento é da ordem de R$ 193,6 
+milhões. 
+• Lote 3 – Colibri A, B, C e D – dividido em sublotes 3A, 3B, 3C e 3D, 
+prevê a implantação de cinco compensadores síncronos nos 
+estados do Ceará e do Rio Grande do Norte, nos quais a Companhia 
+possui ativos de geração, o que garante eficiência operacional e 
+sinergia. Com investimento previsto de R$ 1,4 bilhão, a RAP 
+contratada para o lote é de R$ 104,7 milhões. 
+O prazo de concessão do serviço público de transmissão, 
+incluindo o licenciamento, a construção, a operação e a 
+manutenção das instalações de transmissão, será de 30 anos, 
+contados a partir da data da assinatura do contrato de 
+concessão, que ocorreu em 26 de junho de 2026. O prazo 
+máximo para entrada em operação é dezembro de 2029. 
+ 
+ 
+ 
+Lote Localização RAP contratada (R$ milhões) Capex estimado Aneel (R$ milhões) 
+2 Paraná e Santa Catarina 18,1 193,6 
+3 Ceará e Rio Grande do Norte 104,7 1.381,1 
+Total 122,8 1.574,7 
+UHE Jaguara
+
+[p. 11]
+Release de Resultados 2T26 
+10 
+Projetos em Implantação 
+Asa Branca Transmissora de Energia - Bahia, Minas Gerais e Espírito Santo 
+Arrematado no Leilão de Transmissão 01/2023, promovido pela Aneel, o Lote 5 foi nomeado como Asa Branca e 
+contará com cerca de 1.000 quilômetros de extensão. Localizado nos estados da Bahia, Minas Gerais e Espírito 
+Santo, o empreendimento prevê a implantação de quatro linhas de transmissão de 500kV em circuito simples. O 
+prazo de concessão do serviço público de transmissão, incluindo o licenciamento, a constr ução, a operação e a 
+manutenção das instalações de transmissão, será de 30 anos, contados a partir da data da assinatura do contrato 
+de concessão que ocorreu em 27 de setembro de 2023. 
+Em 26 de novembro de 2025, foi energizado o trecho LT 500kV Morro do Chapéu II – Poções III , de 334 
+quilômetros de extensão, representando 32,3% da RAP total. 
+Em 17 de abril de 2026, foi emitida pelo Instituto Brasileiro de Meio Ambiente e Recursos Naturais ( Ibama), a 
+Licença de Instalação completa do empreendimento, o que possibilitou o início imediato das atividades. No 
+momento, estão em execução atividades de obras civis nas linhas de transmissão e ampliação das subestações. 
+O prazo máximo para início da operação completa é março de 2029. 
+Lote Localização RAP contratada (R$ milhões)1 Capex estimado Aneel (R$ milhões) 
+5 Bahia, Minas Gerais e 
+Espírito Santo 
+296,0 2.667,0 
+Total 296,0 2.667,0 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+1 Valor na data-base de junho/2026. 
+Subestação Medeiros Neto II 
+Trecho em operação 
+MG
+BA
+ES
+
+[p. 12]
+Release de Resultados 2T26 
+11 
+Graúna Transmissora de Energia – Santa Catarina, Paraná, Minas Gerais, São Paulo e 
+Espírito Santo 
+Arrematado no Leilão de Transmissão nº 02/2024, 
+promovido pela Aneel, o Lote 1 foi denominado como 
+Graúna e contempla a implantação de seis novas linhas de 
+transmissão, sendo uma delas um seccionamento, 
+totalizando cerca de 738 quilômetros de extensão, além de 
+duas novas subestações e cinco ampliações de subestações 
+existentes, abrangendo os estados de Santa Catarina, 
+Paraná, Minas Gerais e São Paulo. O escopo do projeto 
+inclui ainda a operação de ativos existentes (brownfield), 
+com 162 quilômetros de linhas e duas subestações nos 
+estados de Minas Gerais e Espírito Santo. 
+O prazo de concessão é de 30 anos, contados a partir da 
+assinatura do contrato de concessão, que ocorreu em 9 de 
+dezembro de 2024. 
+Em 18 de julho de 2025, a Companhia assumiu a operação 
+do trecho brownfield, cuja Receita Anual Permitida (RAP) é 
+de R$ 14,5 milhões, equivalente a aproximadamente 5% do 
+total do projeto. 
+No 2T26, o projeto avançou de forma consistente nos 
+principais pilares de implantação . Destaca-se a obtenção 
+da Licen ça Prévia no trecho sob licenciamento do órgão 
+ambiental do Estado de Santa Catarina, além de progressos relevantes nas frentes de licenciamento ambiental e 
+liberação fundiária. Adicionalmente, foram emitidas as ordens de mobilização para início das atividades de 
+ampliação das subestações existentes SE 345kV Jaguara e SE 345kV Araxá III. Também houve continuidade das 
+atividades de engenharia e fornecimento, incluindo a realização de testes e inspeções em fábrica. O cronograma 
+do projeto permanece aderente ao prazo previsto no contrato de concessão. 
+O prazo máximo para conclusão das obras é de 60 meses (dezembro de 2029), com possibilidade de antecipação. 
+O projeto apresenta sinergias com outros ativos do portfólio da Companhia, contribuindo com ganhos 
+operacionais e estratégicos. 
+Lote Localização RAP Contratada (R$ milhões)1 Capex estimado Aneel (R$ milhões) 
+1 Santa Catarina, Paraná, Minas Gerais, São Paulo e Espírito Santo 281,0 2.933,6 
+Total 281,0 2.933,6 
+ 
+ 
+ 
+1 Valor na data-base de junho/2026. 
+SC
+PR
+MG
+SP
+BA
+GraúnaMS
+GO
+RJ
+ES
+Graúna
+Ativos de transmissão 
+(Gralha Azul e Asa Branca) 
+Graúna trecho greenfield – 
+em implantação 
+Graúna trecho brownfield – 
+operacional (5% da RAP) 
+Usinas em operação
+
+[p. 13]
+Release de Resultados 2T26 
+12 
+ 
+Projetos em 
+Desenvolvimento 
+Os projetos em desenvolvimento estão em carteira, em fase de estudos de viabilidade, e aguardam condições 
+comerciais adequadas e sinalização de preço futuro para investimento. 
+Usina Tipo Localização 
+Capacidade Instalada (MW) 
+Total Participação da Companhia 
+Conjunto Fotovoltaico Santo Agostinho Solar Lajes e Pedro Avelino (RN) 509,0 509,0 
+Conjunto Eólico Santo Agostinho - Fase II Eólica Lajes e Pedro Avelino (RN) 279,0 279,0 
+Conjunto Eólico Umburanas - Fase II Eólica Umburanas (BA) 250,0 250,0 
+Conjunto Eólico Campo Largo III Eólica Umburanas e Sento Sé (BA) 250,0 250,0 
+Conjunto Fotovoltaico Alvorada Solar Bom Jesus da Lapa (BA) 100,0 100,0 
+Total 1.388,0 1.388,0 
+Além dos projetos acima, a Companhia continua analisando oportunidades em regiões de alto potencial 
+energético, bem como parcerias que venham a acelerar o desenvolvimento, em linha com a estratégia de transição 
+energética do Grupo ENGIE. 
+Desempenho 
+Operacional 
+Disponibilidade do Parque Gerador e Linhas de Transmissão de Energia 
+No 2T26, as usinas hidrelétricas operadas pela 
+ENGIE Brasil Energia, atingiram índice de 
+disponibilidade interna de 98,9%, (considerando-se 
+as paradas programadas e forçadas) , um aumento 
+de 5,5 p.p. na comparação com o mesmo trimestre 
+do ano anterior, quando atingiram 93,4% . Essa 
+variação deve -se, principalmente, às inspeções e 
+ensaios contratuais de pré e pós modernização 
+executados nas usinas hidrelétricas Jaguara, 
+Miranda e Salto Osório ao longo do segundo 
+trimestre de 2025. 
+Com relação às usinas eólicas, o índice de 
+disponibilidade energética interna do 2T26 foi de 
+94,5%, aumento de 2,1 p.p. frente aos 92,4% 
+registrados no 2T25. A melhora foi impulsionada, 
+principalmente, pela evolução do desempenho no Conjunto Eólico Santo Agostinho e pela estabilização da 
+disponibilidade em patamar positivo no restante das usinas. 
+Quanto às usinas fotovoltaicas, o índice de disponibilidade energética foi de 96,7%, no 2T26, um aumento de 
+0,4 p.p. em relação aos 96,3% registrados no 2T25. Esse avanço refletiu a execução de ações voltadas à melhoria 
+do desempenho operacional e a inclusão do Conjunto Fotovoltaico Assú Sol na composição do indicador. 
+Para os ativos de transmissão Gralha Azul, Novo Estado, Gavião Real, Graúna e Asa Branca, a ENGIE Brasil 
+Energia manteve elevado desempenho operacional, registrando índice de disponibilidade total de 99, 96% no 
+2T26 e 99,97% nos 6M26, indicadores em linha com os registrados nos mesmos períodos de 2025. 
+ 
+| Disponibilidade | Considerando as Paradas Programadas 
+e Forçadas
+
+[p. 14]
+Release de Resultados 2T26 
+13 
+Geração de Energia 
+No segundo trimestre de 2026, a geração de energia elétrica nas usinas 
+operadas pela ENGIE Brasil Energia, foi de 9.511 GWh (4.355 MW 
+médios), resultado 6,5% superior à produção do 2T25. 
+Do total gerado, as usinas hidrelétricas contribuíram com 6.533 GWh 
+(2.991 MW médios), enquanto as usinas complementares geraram 
+2.978 GWh (1.364 MW médios). Esses números representam aumento 
+de 10,5% na geração das hidrelétricas e redução de 1,2% nas 
+complementares, em relação ao 2T25. 
+O aumento da geração hidrelétrica no segundo trimestre de 2026, em 
+comparação com o mesmo período do ano anterior, foi impulsionado, 
+principalmente, pela aquisição das usinas hidrelétricas Santo Antônio do 
+Jari e Cachoeira Caldeirão, que contribuíram conjuntamente com 838 
+GWh (384 MW médios) no 2T26. Adicionalmente, as bacias dos rios 
+Amazonas e Araguari, onde esses ativos estão localizados, registraram 
+vazões acima da média ao longo do trimestre, em razão da continuidade 
+do período úmido, proporcionando maior disponibilidade hídrica e 
+contribuindo com o desempenho das usinas. 
+Em contrapartida, a região Sul foi impactada por condições 
+hidrometeorológicas menos favoráveis, com vazões abaixo da média nas 
+usinas hidrelétricas , e consequente redução dos níveis de 
+armazenamento na maior parte dos reservatórios. No subsistema 
+Sudeste/Centro-Oeste, a transição entre os períodos úmido e sec o, 
+característica dessa época do ano, também resultou em menores 
+vazões, limitando a geração hidrelétrica das usinas localizadas na região. 
+A redução na geração das usinas complementares no 2T26 , em 
+comparação com o 2T25, foi influenciada pelo aumento do curtailment, 
+com maior impacto sobre as usinas eólicas. No trimestre, esses ativos 
+produziram 2.224 GWh (1 .019 MW médios), volume 6,0% inferior ao 
+registrado no mesmo período do ano anterior. 
+Por outro lado, as usinas solares apresentaram desempenho positivo, 
+com geração de 650 GWh (298 MW médios), um aumento de 26,0% em 
+relação ao 2T25. Esse crescimento foi impulsionado pela entrada em 
+operação comercial de todos os parques do Conjunto Fotovoltaico Assú 
+Sol, que contribuiu com 324 GWh (148 MW médios) no trimestre, 
+volume 51,0% superior ao apurado no mesmo período de 2025 . 
+Adicionalmente, a reconstrução da Usina Fotovoltaica Paracatu 4 
+também contribuiu para a expansão da geração solar no período. 
+Cumpre destacar que uma redução da geração hidrelétrica da Companhia não resulta necessariamente em 
+deterioração do seu desempenho econômico -financeiro. Da mesma maneira, o aumento desse tipo de geração 
+não implica obrigatoriamente em melhoria do desempenh o econômico-financeiro. Isso se deve à aplicação do 
+Mecanismo de Realocação de Energia (MRE), que compartilha os riscos hidrológicos inerentes à geração 
+hidrelétrica entre seus participantes. 
+| Geração | MW médios 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+| Geração por Fonte Complementar 
+| MW médios
+
+[p. 15]
+Release de Resultados 2T26 
+14 
+Curtailment 
+O Curtailment, de acordo com o Operador Nacional do Sistema Elétrico (ONS), pode ser classificado em três 
+principais categorias: Energética (quando há impossibilidade de alocar a geração na carga), Confiabilidade Elétrica 
+(devido a razões relacionadas à confiabilidade elétrica de equipamentos externos às usinas) e Indisponibilidade 
+Externa (causada por indisponibilidades de instalações externas às usinas). A Lei 15.269, sancionada em 
+novembro de 2025, estabelece compensação dos cortes de geração por Confiabilidade Elétrica e por 
+Indisponibilidade Externa, desde setembro de 2023 e até novembr o de 2025, de acordo com a regulamentação 
+da Lei. 
+Segundo análise dos dados divulgados pelo ONS, no 2T26, as usinas eólicas e solares operadas pela ENGIE Brasil 
+Energia registraram frustração de geração de 20%, levemente acima dos 19% observado para o conjunto de 
+usinas integrantes do Sistema Integrado Nacional (SIN) . As usinas eólicas da Companhia apresentaram redução 
+de geração de 17%, ligeiramente superior aos 15% verificados no SIN, enquanto as usinas solares registraram 
+frustação de 27%, um pouco inferior aos 29% apurados para o SIN, conforme pode ser observado na tabela a 
+seguir: 
+| % Curtailment por fonte 
+ 2T26 2T25 
+ Eólico Solar Total Eólico Solar Total 
+Curtailment ENGIE Brasil Energia 17% 27% 20% 12% 26% 16% 
+Curtailment SIN 15% 29% 19% 11% 26% 15% 
+ 
+| % Curtailment por ativo 
+Ativos eólicos Capacidade comercial (MWm) 2T26 (%) 2T25 (%) 
+Trairi (CE) 97,2 25% 27% 
+Santo Agostinho (RN) 224,2 32% 18% 
+Serra do Assuruá (BA) 846,0 16% 12% 
+Campo Largo I e II (BA) 359,0 9% 8% 
+Umburanas (BA) 213,3 20% 8% 
+ 
+Ativos solares Capacidade comercial (MWm) 2T26 (%) 2T25 (%) 
+Sol do Futuro (CE) 16,2 29% 20% 
+Assú Sol (RN) 229,6 29% 22% 
+Floresta (RN) 25,1 19% 40% 
+Assú V (RN) 9,2 29% 25% 
+Juazeiro (BA) 34,8 24% 16% 
+Sertão Solar (BA) 26,1 46% 34% 
+São Pedro (BA) 16,0 46% 39% 
+Lar do Sol (MG) 53,0 26% 32% 
+Paracatu (MG) 34,0 22% 21% 
+ 
+ 
+Fonte: Estudo interno da ENGIE Brasil Energia com base em premissas divulgadas pelo ONS e sujeitas a atualizações. 
+| % Curtailment sobre Geração 
+2T26 | MW médios
+
+[p. 16]
+Release de Resultados 2T26 
+15 
+Portfólio de Venda de Energia Elétrica 
+Apresentamos abaixo a participação dos clientes da Companhia (com exceção de CCEE e outras receitas) no total 
+das vendas físicas e no total da Receita Operacional Líquida (ROL) do segmento de geração. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+| Participação dos Clientes nas 
+Vendas Físicas (%) 
+| Participação dos Clientes nas Vendas 
+Contratadas que Compõem a ROL do 
+Segmento de Geração (%)
+
+[p. 17]
+Release de Resultados 2T26 
+16 
+Estratégia de Comercialização de Energia Elétrica 
+A Companhia tem como estratégia de comercialização a venda gradativa da energia disponível para determinado 
+ano, de forma a mitigar o risco de ficar exposta ao preço spot (Preço de Liquidação das Diferenças — PLD) daquele 
+ano. As vendas são feitas dentro das “janelas” de oportunidade que se apresentam quando o mercado revela 
+maior propensão de compra. De acordo com os dados de capacidade comercial própria e contratos de compra e 
+venda vigentes em 30 de junho de 2026, apresenta-se a seguir, o balanço de energia da ENGIE Brasil Energia: 
+| Balanço de Energia 
+ 
+ 
+1 XXXX-YY-WWWW-ZZ, onde: 
+ XXXX ➔ ano de realização do leilão 
+ YY ➔ EE = energia existente ou EN = energia nova 
+ WWWW ➔ ano de início de fornecimento 
+ ZZ ➔ duração do fornecimento (em anos) 
+2 Preço de venda, incluindo operações de trading, líquido de ICMS e impostos 
+sobre a receita (PIS/Cofins, P&D), ou seja, não considerando a inflação futura. 
+3 Desconsidera vendas por regime de cotas (UHEs Jaguara e Miranda). 
+4 Preço de aquisição líquido, considerando operações de trading e os benefícios 
+de crédito do PIS/Cofins, ou seja, não considerando a inflação futura. 
+ 
+Notas: 
+- O balanço está referenciado ao centro de gravidade (líquido de 
+perdas e consumo interno das usinas). 
+- Os preços médios são meramente estimativos, elaborados com 
+base em revisões do planejamento financeiro, não captando a 
+variação das quantidades contratadas, que são atualizadas 
+trimestralmente. 
+ 
+(em MW médios) 2026 2027 2028 2029 2030
+Recursos Próprios 5.169 5.202 5.202 5.202 5.161
++ Compras para Revenda 800 527 381 232 248
+= Recursos Totais (A) 5.969 5.729 5.583 5.434 5.409 
+Vendas Leilões do Governo1 2.178 2.347 2.433 2.249 2.163 
+ 2005-EN-2010-30 200 200 200 200 200 115,1 dez-05 337,4 303,1
+ 2006-EN-2009-30 493 493 493 493 493 128,4 jun-06 370,2 332,6
+ 2006-EN-2011-30 148 148 148 148 148 135,0 nov-06 386,4 347,2
+ 2007-EN-2012-30 256 256 256 256 256 126,6 out-07 348,5 313,1
+ Proinfa 19 19 19 19 19 147,8 jun-04 407,4 392,5
+ 2014-EN-2019-25 10 10 10 10 10 206,2 nov-14 391,5 377,2
+ 2014-EN-2019-20 82 82 82 82 82 139,3 nov-14 256,0 232,3
+ 2015-EN-2018-20 46 46 46 46 46 188,5 ago-15 321,0 291,3
+ 8º Leilão de Reserva (Assú V/Floresta/ 
+Paracatu/Juazeiro/Sol do Futuro)
+119 119 119 119 119 298,2 nov-15 493,5 447,9
+ 7º Leilão de Reserva (São Pedro) 15 15 15 15 15 301,8 nov-15 515,3 467,7
+ 2017-EN-2019-20 48 48 48 48 48 136,4 nov-14 256,5 232,8
+ 2017-EN-2021-20 (Sertão Solar) 27 27 27 27 27 189,5 nov-14 218,1 197,9
+ 2024-EE-2025-2 15 - - - - 162,6 - 162,6 147,6
+ 2012-EN-2017-30 151 151 151 151 151 95,3 dez-12 192,5 174,7
+ 2010-EN-2015-30 190 190 190 190 190 104,0 dez-10 243,5 220,9
+ 2025-EE-2027-3 - 184 270 86 - 207,7 nov-25 207,7 188,5
+Vendas Reguladas - Cotas
+ 2018 - Cotas (UHJA) - 2018-30 227 227 227 227 227 - jul-17 220,0 209,9
+ 2018 - Cotas (UHMI) - 2018-30 132 132 132 132 132 - jul-17 253,0 241,3
++ Vendas Bilaterais 3.160 2.539 1.959 1.208 1.050 
+= Vendas Totais (B) 5.338 4.886 4.392 3.457 3.213 
+- Hedge comercial 572 572 572 572 572 
+Saldo (A - B) 59 271 619 1.405 1.624 
+Preço médio de venda (R$/MWh) (líquido) 2, 3: 244,1 232,2 239,8
+Preço médio de compra (R$/MWh) (líquido) 4: 214,7 195,4 174,1
+Em R$/MWh
+Preço 
+Bruto no 
+Leilão
+Data de 
+Referência
+Preço 
+Bruto 
+Corrigido
+Preço 
+Líquido de 
+PIS/ 
+Cofins/P&D
+
+[p. 18]
+Release de Resultados 2T26 
+17 
+Desempenho Econômico
+-
+Financeiro 
+| Resultado por segmento – 2T26 X 2T25 | R$ milhões 
+¹ Geração e venda de energia elétrica do portfólio da Companhia (“Geração”). 
+O resultado financeiro da Companhia não é alocado por segmento, pois a Administração realiza a gestão do fluxo 
+de caixa de forma consolidada e corporativa. 
+ 
+ 
+ Energia elétrica 
+ Geração¹ Transmissão Trading Transporte de Gás Consolidado 
+2T26 
+Receita operacional líquida 2.707 689 115 - 3.511 
+Custos operacionais (1.348) (334) (109) - (1.791) 
+Lucro bruto 1.359 355 6 - 1.720 
+Despesas com vendas, gerais e administrativas (133) (2) (6) - (141) 
+Outras despesas operacionais, líquidas (1) 52 - - 51 
+Resultado de equivalência patrimonial - - - 130 130 
+Lucro (prejuízo) antes do resultado financeiro e 
+tributos sobre o lucro 1.225 405 - 130 1.760 
+2T25 
+Receita operacional líquida 2.280 740 66 - 3.086 
+Custos operacionais (1.110) (482) (66) - (1.658) 
+Lucro (prejuízo) bruto 1.170 258 - - 1.428 
+Despesas com vendas, gerais e administrativas (131) (6) (2) - (139) 
+Outras receitas operacionais, líquidas 8 40 - - 48 
+Alienação de subsidiária 5 - - - 5 
+Resultado de equivalência patrimonial - - - 199 199 
+Lucro (prejuízo) antes do resultado financeiro e 
+tributos sobre o lucro 1.052 292 (2) 199 1.541 
+Variação 
+Receita operacional líquida 427 (51) 49 - 425 
+Custos operacionais (238) 148 (43) - (133) 
+Lucro bruto 189 97 6 - 292 
+Despesas com vendas, gerais e administrativas (2) 4 (4) - (2) 
+Outras despesas operacionais, líquidas (9) 12 - - 3 
+Alienação de subsidiária (5) - - - (5) 
+Resultado de equivalência patrimonial - - - (69) (69) 
+Lucro (prejuízo) antes do resultado financeiro 
+e tributos sobre o lucro 173 113 2 (69) 219
+
+[p. 19]
+Release de Resultados 2T26 
+18 
+Receita Operacional Líquida 
+| Receita por segmento – 2T26 X 2T25 | R$ milhões 
+ Energia elétrica 
+ Geração Transmissão Trading Consolidado 
+2T26 
+Ambiente de contratação livre1 1.120 - - 1.120 
+Ambiente de contratação regulado2 1.087 - - 1.087 
+Remuneração dos ativos de concessão 164 399 - 563 
+Transações no mercado de energia de curto prazo 271 - - 271 
+Receita de construção - 239 - 239 
+Operações de trading de energia - - 110 110 
+Receita de serviços prestados 42 51 - 93 
+Indenizações 5 - - 5 
+Ganhos não realizados em operações de trading - - 5 5 
+Outras receitas 18 - - 18 
+Receita operacional líquida 2.707 689 115 3.511 
+2T25 
+Ambiente de contratação livre 994 - - 994 
+Ambiente de contratação regulado 1.022 - - 1.022 
+Remuneração dos ativos de concessão 122 255 - 377 
+Transações no mercado de energia de curto prazo 89 - - 89 
+Receita de construção - 455 - 455 
+Operações de trading de energia - - 66 66 
+Receita de serviços prestados 38 30 - 68 
+Indenizações 1 - - 1 
+Outras receitas 14 - - 14 
+Receita operacional líquida 2.280 740 66 3.086 
+Variação 
+Ambiente de contratação livre 126 - - 126 
+Ambiente de contratação regulado 65 - - 65 
+Remuneração dos ativos de concessão 42 144 - 186 
+Transações no mercado de energia de curto prazo 182 - - 182 
+Receita de construção - (216) - (216) 
+Operações de trading de energia - - 44 44 
+Receita de serviços prestados 4 21 - 25 
+Indenizações 4 - - 4 
+Ganhos não realizados em operações de trading - - 5 5 
+Outras receitas 4 - - 4 
+Receita operacional líquida 427 (51) 49 425 
+1 Consumidores livres e comercializadoras de energia elétrica. 
+2 Distribuidoras de energia elétrica. 
+No 2T26, a receita operacional líquida aumentou 13,8% (R$ 425 milhões) quando comparada ao 2T25, passando 
+de R$ 3.086 milhões para R$ 3.511 milhões. 
+Essa variação decorre, principalmente, dos seguintes efeitos: (i) acréscimo de R$ 427 milhões (18,7%) na receita 
+operacional líquida de geração e venda de energia do portfólio; (ii) elevação de R$ 49 milhões ( 74,2%) no 
+segmento de trading; e atenuada pela (iii) redução de R$ 51 milhões (6,9%), do segmento de transmissão. Mais 
+detalhes dos segmentos de transmissão e trading estão descritos a seguir em itens específicos.
+
+[p. 20]
+Release de Resultados 2T26 
+19 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Comentários sobre as Variações da Receita 
+Operacional Líquida 
+Geração e Venda de Energia do Portfólio 
+Preço Médio Líquido de Venda e Volume de Vendas 
+O preço médio de venda de energia , líquido dos encargos sobre a receita e 
+operações de trading, foi de R$ 208,28/MWh no 2T26. Esse valor foi 4,0% 
+inferior ao do 2T25, que foi de R$ 217,01/MWh. 
+Durante os anos de 2025 e 2026 ocorreram ressarcimentos causados pela 
+entrega de energia eólica e solar em quantidades inferiores às firmadas nos 
+contratos no ambiente regulado com as distribuidoras . Desconsiderando o 
+impacto dos ressarcimentos nos trimestres, o preço médio líquido de venda de 
+energia passou de R$ 225,14/MWh no 2T25, para R$ 214,19/MWh no 2T26, 
+inferior em 4,9%. 
+A redução do preço entre os períodos em análise foi motivada, substancialmente, 
+pelo (i) ingresso dos contratos vinculados à aquisição das usinas hidrelétricas 
+Santo Antônio do Jari e Cachoeira Caldeirão; (ii) vencimento de contrato 
+relevante de distribuiç ão com valor superior à média do preço de energia; e 
+parcialmente atenuado pela (iii) atualização monetária dos contratos de longo 
+prazo vigentes. 
+A quantidade de energia vendida em contratos, líquida de operações de trading, 
+passou de 9.290 GWh (4.254 MW médios) no 2T25, para 10.597 GWh (4.852 
+MW médios) no 2T26 , um acréscimo de 1.307 GWh (598 MW médios), ou 
+14,1%, entre os períodos comparados. 
+O aumento na quantidade de energia vendida observado no trimestre, foi 
+motivado, substancialmente, pelo volume adicional de venda às distribuidoras, 
+em decorrência da aquisição das usinas hidrelétricas Santo Antônio do Jari e 
+Cachoeira Caldeirão, e pelo au mento de venda no ambiente livre, ocasionado 
+pelo acréscimo da capacidade instalada própria entre os períodos analisados, 
+oriundo da finalização da entrada em operação comercial do Conjunto Eólico 
+Serra do Assuruá, ocorrida no segundo semestre de 2025, e d a entrada em 
+operação comercial completa do Conjunto Fotovoltaico Assú Sol, ocorrida no 
+primeiro semestre de 2026. 
+| Receita Operacional Líquida por Segmento | R$ milhões 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Geração e comercialização Trading Transmissão
+1 Líquido de impostos sobre a venda e 
+operações de trading. 
+2 Líquido de operações de trading. 
+| Preço Médio Líquido de 
+Vendas1 | R$/MWh 
+ 
+ 
+ 
+| Volume de Vendas2 
+| MW médios
+
+[p. 21]
+Release de Resultados 2T26 
+20 
+As variações nos volumes de vendas e nos preços médios de venda, ocasionaram, em conjunto, aumento de R$ 
+191 milhões na receita operacional líquida da Companhia, no trimestre. 
+Transações de Energia 
+Ambiente de Contratação 
+Livre
+: 
+A receita de venda a consumidores livres e comercializadoras aumentou R$ 126 milhões (12,7%) entre os 
+trimestres em análise, passando de R$ 994 milhões no 2T25 para R$ 1.120 milhões no 2T26. A variação resulta 
+do aumento de 866 GWh (396 MW médios) no volume de energia vendida (R$ 144 milhões) e do decréscimo de 
+1,9% no preço médio líquido de vendas (R$ 18 milhões). 
+A variação na quantidade de energia vendida, deve-se, principalmente, pelas entradas em operação do Conjunto 
+Eólico Serra do Assuruá e do Conjunto Fotovoltaico Assú Sol, ocasionando maior quantidade de energia 
+disponível no portfólio da Companhia. Já a redução no preço médio líquido de vendas, foi motivada, 
+principalmente, pela venda de contratos de longo prazo em um momento de preços mais baixos devido ao cenário 
+hidrológico e o aumento da oferta de renováveis ; e atenuada pela (ii) atualização monetária dos contratos de 
+longo prazo vigentes. 
+Ambiente de Contratação 
+Regulado
+: 
+A receita de venda a distribuidoras alcançou R$ 1.087 milhões no 2T26, R$ 65 milhões (6,4%) superior aos R$ 
+1.022 milhões auferidos no 2T25. A variação positiva foi ocasionada pelos seguintes efeitos somados: (i) R$ 123 
+milhões em função do acréscimo de 441 GWh (202 MW médios) na quantidade vendida; e (ii) atenuada em R$ 
+58 milhões com o decréscimo de 5,7% no preço médio líquido de vendas. 
+O aumento no volume de vendas entre os trimestres comparados decorre, principalmente, da energia 
+comercializada pelas usinas hidrelétricas adquiridas no 3T25, Santo Antônio do Jari e Cachoeira Caldeirão e pela 
+sazonalização das vendas. A redução do preço m édio líquido de vendas, entre os trimestres em análise, foi 
+motivada, principalmente, (i) pelo ingresso dos contratos vinculados à aquisição das usinas hidrelétricas Santo 
+Antônio do Jari e Cachoeira Caldeirão; e atenuada (ii) pela atualização monetária do s preços de venda nos 
+períodos em comparação. 
+Desconsiderando o impacto dos ressarcimentos anteriormente citados, o preço médio líquido de vendas das 
+distribuidoras reduziu 7,3% entre os trimestres em análise. 
+Remuneração dos Ativos de Concessão 
+Os ativos financeiros de concessões representam o valor presente dos fluxos de caixa futuros da parcela da 
+energia destinada ao Ambiente de Contratação Regulada (ACR) das Usinas Hidrelétricas Jaguara e Miranda, 
+equivalente a 70% da garantia física destas u sinas. Esses ativos são remunerados pela taxa interna de retorno e 
+pela variação do Índice de Preços ao Consumidor Amplo (IPCA). 
+A remuneração dos ativos financeiros de concessões passou de R$ 122 milhões, no 2T25, para R$ 164 milhões 
+no 2T26, aumento de R$ 42 milhões (34,4%). A variação foi motivada, substancialmente, pelo aumento do IPCA 
+entre os períodos em comparação. 
+Transações no Mercado de Energia de Curto Prazo 
+No 2T26, a receita auferida no mercado de curto prazo foi de R$ 271 milhões, enquanto no 2T25 foi de R$ 89 
+milhões, o que representa um acréscimo de R$ 182 milhões entre os trimestres comparados. Mais explicações 
+sobre tais operações e acerca da variação podem ser obtidas em “Detalhamento das operações de curto prazo”.
+
+[p. 22]
+Release de Resultados 2T26 
+21 
+Custos Operacionais 
+| Custos por segmento – 2T26 x 2T25 | R$ milhões 
+ Energia elétrica 
+ Geração Transmissão Trading Consolidado 
+2T26 
+Depreciação e amortização 404 4 - 408 
+Compras de energia 274 - 109 383 
+Custos de construção - 310 - 310 
+Transações no mercado de energia de curto prazo 256 - - 256 
+Encargos de uso da rede elétrica e conexão 217 - - 217 
+Materiais e serviços de terceiros 117 10 - 127 
+Pessoal 82 8 - 90 
+Seguros 49 - - 49 
+Royalties 48 - - 48 
+Outros custos operacionais, líquidos (99) 2 - (97) 
+Custos operacionais 1.348 334 109 1.791 
+2T25 
+Depreciação e amortização 315 4 - 319 
+Compras de energia 205 - 64 269 
+Custos de construção - 462 - 462 
+Transações no mercado de energia de curto prazo 117 - - 117 
+Encargos de uso da rede elétrica e conexão 194 - - 194 
+Materiais e serviços de terceiros 133 11 - 144 
+Pessoal 66 5 - 71 
+Seguros 36 1 - 37 
+Royalties 17 - - 17 
+Perdas não realizadas em operações de trading - - 2 2 
+Outros custos operacionais, líquidos 27 (1) - 26 
+Custos operacionais 1.110 482 66 1.658 
+Variação 
+Depreciação e amortização 89 - - 89 
+Compras de energia 69 - 45 114 
+Custos de construção - (152) - (152) 
+Transações no mercado de energia de curto prazo 139 - - 139 
+Encargos de uso da rede elétrica e conexão 23 - - 23 
+Materiais e serviços de terceiros (16) (1) - (17) 
+Pessoal 16 3 - 19 
+Seguros 13 (1) - 12 
+Royalties 31 - - 31 
+Perdas não realizadas em operações de trading - - (2) (2) 
+Outros custos operacionais, líquidos (126) 3 - (123) 
+Custos operacionais 238 (148) 43 133 
+Os custos operacionais aumentaram em R$ 133 milhões (8,0%) entre os trimestres comparados, passando de 
+R$ 1.658 milhões no 2T25 para R$ 1.791 milhões no 2T26 . Esta variação foi reflexo, principalmente, da 
+combinação dos seguintes fatores: (i) elevação de R$ 238 milhões (21,4%) nos custos do segmento de geração e 
+venda de energia do portfólio da Companhia; (ii) aumento de R$ 43 milhões (65,2%) nos custos de operações de 
+trading de energia; e (iii) decréscimo de R$ 148 milhões (30,7%) nos custos do segmento de transmissão.
+
+[p. 23]
+Release de Resultados 2T26 
+22 
+As variações do segmento de geração e venda de energia do portfólio decorreram, essencialmente, do 
+comportamento dos principais componentes a seguir: 
+Comentários sobre as Variações dos Custos Operacionais 
+Segmento de Geração e Venda de Energia do Portfólio 
+• Depreciação e amortização: aumento de R$ 89 milhões (28,3%), entre os trimestres em análise. A variação 
+decorre, principalmente, (i) pelas entradas em operação comercial do Conjunto Eólico Serra do Assuruá e do 
+Conjunto Fotovoltaico Assú Sol, concluídos ao longo de 2025 e 2026, resp ectivamente; e (ii) do acréscimo de 
+depreciação das subsidiárias adquiridas Santo Antônio do Jari e Cachoeira Caldeirão. 
+• Compras de energia: entre o 2T25 e o 2T26 houve aumento de R$ 69 milhões (33,7%) nas compras de energia, 
+substancialmente motivada pela combinação do aumento de 3,4% no preço médio líquido de compras de 
+energia (R$ 62 milhões) e do acréscimo de 50 GWh (23 MW médios) na quanti dade de energia comprada (R$ 
+7 milhões). O acréscimo do volume deve-se ao aumento das compras para gestão de portfólio da Companhia. 
+Já a variação do preço médio de compras reflete a elevação dos preços de fechamento de mês devido ao 
+aumento do PLD médio, entre os trimestres comparados; e a atualização monetária de contratos de longo 
+prazo. 
+• Transações no mercado de energia de curto prazo: os custos com essas transações foram superiores em R$ 
+139 milhões (118,8%) entre os trimestres em análise. Mais explicações sobre tais operações e acerca da 
+variação podem ser obtidas em “Detalhamento das operações de curto prazo”. 
+• Encargos de uso da rede elétrica e conexão: acréscimo de R$ 23 milhões (11,9%) entre os trimestres analisados, 
+resultante, substancialmente (i) da entrada em operação comercial integral do Conjunto Eólico Serra do Assuruá 
+e do Conjunto Fotovoltaico Assú Sol; (ii) da aquisição das subsidiárias Santo Antônio do Jari e Cachoeira 
+Caldeirão; e (iii) do reajuste anual das tarifas de transmissão e distribuição. 
+• Compensação financeira pela utilização de recursos hídricos ( Royalties): elevação de R$ 31 milhões (182,4%) 
+em decorrência (i) da maior geração das usinas hidrelétricas durante o 2T26, quando comparado com o 2T25 ; 
+(ii) da aquisição das subsidiárias Santo Antônio do Jari e Cachoeira Caldeirão; e (iii) pelo reajuste anual. 
+• Outros custos operacionais, líquidos: redução de R$ 126 milhões entre os trimestres analisados, devido, 
+principalmente, ao reconhecimento de R$ 125 milhões no 2T26 de créditos tributários de PIS e Cofins 
+decorrentes do aproveitamento de créditos sobre encargos de depreciação de bens do ativo i mobilizado, cujo 
+direito foi assegurado por decisão judicial transitada em julgado. O total registrado foi de R$ 218 milhões, sendo 
+R$ 125 milhões de principal e R$ 93 milhões de atualização monetária pela taxa Selic. 
+Os demais custos deste segmento não apresentaram variações relevantes entre os trimestres em análise. 
+| Evolução dos Custos Operacionais | R$ milhões
+
+[p. 24]
+Release de Resultados 2T26 
+23 
+Resultado Operacional do Segmento de Transmissão de Energia 
+A Companhia é a responsável primária pela construção e 
+instalação de infraestrutura relacionada à concessão dos 
+Sistemas de Transmissão Gralha Azul, Novo Estado, Gavião 
+Real, Asa Branca e Graúna, e está exposta aos riscos e 
+benefícios dessas construções. D esta forma, com base nas 
+práticas contábeis vigentes, a Companhia reconhece receita 
+de implementação de infraestrutura de transmissão, ao longo 
+da implantação, em montante correspondente aos custos de 
+construção adicionados de uma margem bruta na prestação 
+de serviços de construção. Os gastos incorridos na 
+construção estão reconhecidos no custo da infraestrutura de 
+transmissão. A Receita Anual Permitida (RAP) é recebida a 
+partir da entrada em operação comercial do Sistema de 
+Transmissão. Dessa forma, só há entrada de recursos 
+advindos da atividade operacional a partir deste momento. 
+Os Sistemas de Transmissão Gralha Azul e Novo Estado 
+entraram em operação comercial integral em 19 e 27 de 
+fevereiro de 2023, respectivamente. Em 8 de julho de 2024, a Companhia finalizou a implantação do projeto 
+Gavião Real Transmissora de Energia com sua energização completa, conforme consta nos Termos de Liberação 
+(TLD) emitidos pelo Operador Nacional do Sistema (ONS) em 12 de julho de 2024. Em 18 de julho de 2025, a 
+Companhia assumiu a operação do trecho brownfield do Sistema de Transmissão Graúna, correspondente a 
+aproximadamente 5% da RAP total do projeto. Adicionalmente, em 26 de novembro de 2025, a Companhia 
+obteve autorização do ONS para início da operação comercial do trecho Morro do Chapéu II – Poções III, do 
+Sistema de Transmissão Asa Branca, representando 33% da RAP do projeto. 
+O resultado bruto do segmento de transmissão de energia atingiu R$ 355 milhões positivos no 2T26 , aumento 
+de R$ 97 milhões (37,6%), em relação ao mesmo trimestre de 2025, cujo valor foi de R$ 258 milhões. As variações 
+decorrem, substancialmente, (i) do acréscimo de R$ 144 milhões (56,5%) na remuneração dos ativos de 
+concessão, ocasionado, especialmente, pelo maior saldo nominal e pelo aumento dos índices inflacionários entre 
+os trimestres comparados; (ii) pelo aumento de R$ 22 milhões na receita de O&M; e atenuado (ii) pelo efeito 
+negativo de R$ 64 milhões (25,1%) na variação do resultado líquido das receitas e custos de construção (redução 
+de R$ 216 milhões e R$ 152 milhões, respectivamente), oriundo, principalmente, do cronograma das obras do 
+Sistema de Transmissão Asa Branca. 
+O valor de RAP, líquida de PIS e Cofins, recebida no 2T26 foi de R$ 255 milhões , (R$ 190 milhões no 2T25), 
+sendo R$ 204 milhões (R$ 160 milhões no 2T25) correspondentes à amortização do ativo de contrato, registrada 
+em contrapartida do ativo de contrato, e R$ 51 milhões (R$ 30 milhões no 2T25) relativos à receita de serviços 
+prestados de O&M. 
+Abaixo a composição do Ebitda regulatório de transmissão: 
+(em R$ milhões) 2T26 2T25 Variação 
+RAP, líquida de PIS e Cofins 255 190 65 
+Custos operacionais (20) (16) (4) 
+Despesas com vendas, gerais e administrativas (2) (6) 4 
+Outras receitas operacionais, líquidas 1 1 - 
+Ebitda regulatório de transmissão 234 169 65 
+ 
+Asa Branca
+
+[p. 25]
+Release de Resultados 2T26 
+24 
+Resultado Operacional do Segmento de 
+Trading 
+de Energia 
+A Companhia atua no mercado de trading de energia, a fim de auferir resultados por meio da variação de preços 
+de energia, dentro de limites de risco pré -estabelecidos. As operações de trading de energia são transacionadas 
+em mercado ativo e, para fins de mensuração contábil, atendem à definição de instrumentos financeiros por valor 
+justo, devido principalmente ao fato de que não há compromisso de realizar o fechamento das operações de 
+compra e de venda, havendo flexibilidade para gerenciar os contratos para obtenção de resultados por variações 
+de preços no mercado. 
+O resultado bruto entre os trimestres em análise variou positivamente em R$ 6 milhões, motivado pelo aumento 
+de R$ 7 milhões oriundo da marcação a mercado das transações de fornecimento futuro, na comparação entre 
+os períodos — diferença entre os preços contratados e os de mercado, atenuado pelo impacto negativo de R$ 1 
+milhão nas operações de trading de energia. 
+Detalhamento das Operações de Curto Prazo 
+Operações de curto prazo são definidas como compra e venda de energia cujo objetivo principal é a gestão da 
+exposição da Companhia na CCEE. O preço da energia nessas operações tem como característica o vínculo com 
+o Preço de Liquidação das Diferenças (PLD) . O presente item engloba também as transações na CCEE, dado o 
+caráter volátil e sazonal, portanto, de curto prazo, dos resultados advindos da contabilização na CCEE. 
+Adicionalmente, as exposições positivas ou negativas são liquidadas ao PLD, à semelhança das operações de 
+curto prazo descritas acima. 
+Sobre as transações na CCEE, os diversos lançamentos credores ou devedores realizados mensalmente na conta 
+de um agente da CCEE são sintetizados numa fatura única (a receber ou a pagar), exigindo, portanto, seu registro 
+na rubrica de receita ou de despesa. Cumpre ressaltar que, em razão de ajustes na estratégia de gerenciamento 
+de portfólio da Companhia, vem se verificando mudança no perfil das faturas mencionadas. Tal alternância 
+dificulta a comparação direta dos elementos que compõem cada fatura dos perío dos em análise, sendo esse o 
+motivo para a criação deste tópico. Assim, permite analisar oscilações dos principais elementos, apesar de terem 
+sido alocados ora na receita, ora na despesa, conforme a natureza credora ou devedora da fatura à qual estão 
+vinculados. 
+Genericamente, esses elementos são receitas ou despesas provenientes, por exemplo, (i) da aplicação do 
+Mecanismo de Realocação de Energia (MRE); (ii) do Fator de Ajuste da Energia Assegurada (GSF — Generation 
+Scaling Factor), que ocorre quando a geração da s usinas que integram o MRE, em relação à energia alocada, é 
+menor ou maior (Energia Secundária); (iii) do chamado “risco de submercado”; (iv) do despacho motivado pela 
+Curva de Aversão ao Risco (CAR); (v) da aplicação dos Encargos de Serviço do Sistema (E SS), que resultam do 
+despacho fora da ordem de mérito de usinas termelétricas; e (vi) naturalmente, da exposição (posição vendida 
+ou comprada de energia na contabilização mensal), que será liquidada ao valor do PLD. 
+| Resultado Líquido das Operações de Curto Prazo | R$ milhões 
+ Geração 
+2T26 
+Receita operacional líquida 271 
+Custos operacionais (256) 
+Resultado líquido 15 
+2T25 
+Receita operacional líquida 89 
+Custos operacionais (117) 
+Resultado líquido (28) 
+Variação 
+Receita operacional líquida 182 
+Custos operacionais (139) 
+Resultado líquido 43
+
+[p. 26]
+Release de Resultados 2T26 
+25 
+No 2T26 e no 2T25, os resultados líquidos (diferença entre receitas e custos — deduzidos dos tributos) 
+decorrentes de transações de curto prazo — em especial as realizadas no âmbito da CCEE — foram positivos em 
+R$ 15 milhões e negativos R$ 28 milhões, respectivamente. O montante representa aumento de R$ 43 milhões 
+entre os períodos comparados, sendo proveniente do resultado das transações no segmento de geração e venda 
+de energia do portfólio. 
+Essas variações foram consequência, fundamentalmente, da combinação dos seguintes fatores: (i) pelo impacto 
+positivo em virtude do aumento do Fator de Ajuste do MRE (GSF), tendo em vista a alocação de garantia física e 
+a geração das usinas participantes (a média do GSF passou de 95,5% no 2T25 para 99,0% no 2T26); (ii) aumento 
+da energia livre devido à estratégia de alocação de energia sazonalizada no decorrer dos períodos; atenuado (iii) 
+pelos efeitos da variação negativa nas operações de fechamento de mês, recontabilizações e modulações entre 
+os trimestres analisados; e (iv) apesar do aumento da geração hidrelétrica das usinas participantes do MRE, a 
+Companhia gerou abaixo da energia sazonalizada, ocasionando uma participação menor no MRE e consequente 
+efeito negativo, por meio de incremento de pagamento de TEO (Tarifas de Energia de Otimização). 
+Em dezembro de 2025, a Aneel estabeleceu os limites máximo e mínimo do PLD para o ano de 2026 em R$ 
+785,27/MWh e R$ 57,31/MWh, respectivamente. A tabela a seguir apresenta os valores médios do PLD para os 
+submercados nos quais a Companhia atua, por MWh. 
+PLD médio em R$/MWh 2T26 2T25 Variação 
+Sul 230,67 224,16 2,9% 
+Sudeste/Centro-Oeste 206,42 216,49 (4,7%) 
+Nordeste 163,46 154,39 5,9% 
+Alienação de subsidiária 
+A Companhia registrou no 2T25, R$ 5 milhões, referente a recebimentos previstos no acordo de venda da 
+subsidiária Pampa Sul concluído em 2023. 
+Resultado de Equivalência Patrimonial 
+– 
+Transporte de Gás 
+A Companhia possui 17,5% de participação societária direta na TAG. O resultado de equivalência patrimonial da 
+TAG dos trimestres em análise é composto pelos seguintes itens: 
+ 2T26 2T25 
+Demonstração dos resultados (em R$ milhões) 100% Participação da Companhia 100% Participação da Companhia 
+ Receita operacional líquida 2.080 364 2.365 414 
+ Custos dos serviços prestados (610) (107) (593) (104) 
+ Lucro bruto 1.470 257 1.772 310 
+ Despesas gerais e administrativas (34) (6) (42) (7) 
+ Lucro antes do resultado financeiro e impostos 1.436 251 1.730 303 
+ Resultado financeiro (504) (88) (328) (58) 
+ Lucro antes dos impostos 932 163 1.402 245 
+ Imposto de renda e contribuição social (189) (33) (265) (46) 
+ Lucro líquido da TAG 743 130 1.137 199
+
+[p. 27]
+Release de Resultados 2T26 
+26 
+Com a finalidade de possibilitar a reconciliação do Ebitda da TAG, apresentamos a tabela abaixo: 
+ 2T26 2T25 
+Ebitda (em R$ milhões) 100% Participação da Companhia 100% Participação da Companhia 
+Lucro antes do resultado financeiro e impostos 1.436 251 1.730 303 
+Depreciação e amortização 180 32 187 33 
+Amortização da mais valia 150 26 150 26 
+Ebitda¹ 1.766 309 2.067 362 
+Margem Ebitda 84,9% 87,4% 
+¹ Conforme as orientações estabelecidas na Resolução CVM n° 156 (RCVM 156) e Ofício -Circular CVM/SNC/SEP nº 01/2023, de 23 de junho de 2022 e 13 de 
+fevereiro de 2022, respectivamente. 
+Entre o 2T25 e o 2T26, o resultado de equivalência patrimonial reduziu R$ 69 milhões (34,7%), passando de R$ 
+199 milhões para R$ 130 milhões, respectivamente. A variação foi consequência do menor lucro líquido da TAG. 
+Em relação à redução do resultado da TAG, a variação foi consequência, substancialmente, (i) da queda na receita 
+com a Malha Nordeste, decorrente da ausência de definição da receita máxima permitida (será recalculada após 
+a homologação da revisão tarifária ); (ii) do efeito negativo no resultado financeiro líquido: (ii.i) pelo ganho da 
+renegociação da dívida ocorrido em 2T25; e atenuado (ii.ii) pela retração de juros sobre dívida; e (iii) pela 
+diminuição de IR e CSLL devido ao menor lucro antes dos impostos. 
+| Balanço Patrimonial 
+Os principais grupos do ativo e passivo da TAG em 30 de junho de 2026 e 31 de dezembro de 2025 eram estes: 
+Balanço Patrimonial 30/06/2026 31/12/2025 
+ATIVO 
+Ativo circulante 2.447 2.530 
+Caixa e equivalentes de caixa 973 655 
+Contas a receber de clientes 1.323 1.706 
+Outros ativos circulantes 151 169 
+Ativo não circulante 27.779 28.269 
+Depósitos vinculados 459 460 
+Outros ativos não circulantes 157 162 
+Imobilizado 24.409 24.892 
+Intangível 2.754 2.755 
+Total 30.226 30.799 
+ 
+PASSIVO E PATRIMÔNIO LÍQUIDO 
+Passivo circulante 2.518 2.888 
+Instrumentos de dívida 1.447 2.004 
+Instrumentos financeiros derivativos - hedge 24 73 
+Outros passivos circulantes 1.047 811 
+Passivo não circulante 20.454 21.844 
+Instrumentos de dívida 13.423 14.936 
+Instrumentos financeiros derivativos - hedge 76 210 
+Imposto de renda e contribuição social diferidos 6.228 5.933 
+Outros passivos não circulantes 727 765 
+Patrimônio líquido 7.254 6.067 
+Total 30.226 30.799 
+ 
+ 
+ 
+Transportadora Associada de Gás - TAG
+
+[p. 28]
+Release de Resultados 2T26 
+27 
+Ebitda e Margem Ebitda 
+| Ebitda por segmento – 2T26 x 2T25 | R$ milhões 
+ Energia Elétrica 
+ Geração Transmissão Trading Transporte de gás Consolidado 
+2T26 
+Lucro (prejuízo) antes do resultado financeiro e 
+tributos sobre o lucro 1.225 405 - 130 1.760 
+Depreciação e amortização 415 4 - - 419 
+Ebitda1 1.640 409 - 130 2.179 
+Ebitda ajustado 1.640 409 - 130 2.179 
+Margem Ebitda ajustada 60,6% 59,4% - - 62,1% 
+2T25 
+Lucro (prejuízo) antes do resultado financeiro e 
+tributos sobre o lucro 1.052 292 (2) 199 1.541 
+Depreciação e amortização 326 4 - - 330 
+Ebitda 1.378 296 (2) 199 1.871 
+Alienação de subsidiária (5) - - - (5) 
+Ebitda ajustado 1.373 296 (2) 199 1.866 
+Margem Ebitda ajustada 60,2% 40,0% 3,0% - 60,5% 
+Variação 
+Lucro (prejuízo) antes do resultado financeiro e 
+tributos sobre o lucro 173 113 2 (69) 219 
+Depreciação e amortização 89 - - - 89 
+Ebitda 262 113 2 (69) 308 
+Alienação de subsidiária 5 - - - 5 
+Ebitda ajustado 267 113 2 (69) 313 
+Margem Ebitda ajustada 0,4 p.p. 19,4 p.p. (3,0 p.p.) - 1,6 p.p. 
+¹ Conforme as orientações estabelecidas na Resolução CVM n° 156 (RCVM 156) e Ofício -Circular CVM/SNC/SEP nº 01/2023, de 23 de junho de 2022 e 13 de 
+fevereiro de 2022, respectivamente. 
+Entre o 2T26 e o 2T25, o Ebitda ajustado aumentou R$ 
+313 milhões (16,8%), passando de R$ 1.866 milhões no 
+2T25 para R$ 2.179 milhões no 2T26 . A variação foi 
+consequência dos efeitos positivos de (i) R$ 267 milhões 
+(19,4%) no segmento de geração e venda de energia 
+elétrica do portfólio da Companhia; (ii) R$ 113 milhões 
+(38,2%) de aumento no resultado do segmento de 
+transmissão de energia; e (iii) R$ 2 milhões de variação 
+positiva no segmento de trading. Esses efeitos foram 
+atenuados pelo efeito negativo de R$ 69 milhões (34,7%) 
+decorrentes de menor resultado de participação societária 
+em controlada em conjunto – TAG. 
+As principais variações no Ebitda ajustado estão no 
+segmento de geração e venda de energia elétrica, indicada 
+no item (i) acima, cujos efeitos positivos, foram: (i) R$ 191 
+milhões da combinação das variações de quantidade de 
+energia vendida e preço médio líquido de venda; (ii) R$ 125 
+milhões de créditos tributários de PIS e Cofins decorrentes 
+do aproveitamento de créditos sobre encargos de 
+depreciação de bens do ativo imobilizado; (iii) R$ 43 
+milhões de impacto positivo nas transações realizadas no 
+mercado de curto prazo; e (iv) aumento de R$ 42 milhões 
+na remuneração dos ativos financeiros de concessões. 
+Esses efeitos foram atenuados pelas seguintes variações com efeitos negativos: (v) aumento de R$ 69 milhões 
+nas compras de energia; (vi) aumento de R$ 31 milhões com royalties; (vii) aumento de R$ 23 milhões com 
+|Ebitda Ajustado1 | R$ milhões 
+1 Ebitda ajustado: lucro líquido + imposto de renda e contribuição 
+social + resultado financeiro + depreciação e amortização + 
+impairment + efeitos não recorrentes.
+
+[p. 29]
+Release de Resultados 2T26 
+28 
+encargos de uso da rede elétrica e conexão; (viii) efeito negativo de R$ 10 milhões decorrente de receitas 
+registradas no ano anterior, sendo R$ 5 milhões referentes ao acordo entre acionistas da Ibitiúva Bioenergétiva 
+e R$ 5 milhões referentes aos recebimentos previstos no acordo de venda da subsidiária Pampa Sul; e (ix) R$ 1 
+milhão relativo aos demais custos operacionais e despesas administrativas. 
+Adicionalmente, no 2T26, o Ebitda ajustado foi impactado positivamente pelo segmento de transmissão, cujos 
+efeitos foram a combinação dos seguintes fatores: (i) acréscimo de R$ 144 milhões pelo aumento na remuneração 
+dos ativos de concessão; (ii) elevação de R$ 17 milhões na margem de O&M (RAP de O&M, líquida dos custos); 
+(iii) aumento de 12 milhões com o registro da expectativa de revisão da estrutura de investimentos realizados e 
+a taxa de remuneração de capital; (iv) decréscimo de R$ 4 milhões nas despesas com vendas, gerais e 
+administrativas e outras receitas e despesas operacionais; e atenuado pela (v) redução de R$ 64 milhões na 
+variação do resultado líquido das receitas e custos de construção. 
+Com a finalidade de possibilitar a reconciliação do lucro líquido com o Ebitda, bem como com os impactos de 
+ajustes regulatórios de transmissoras e cotistas, apresentamos a tabela abaixo: 
+(em R$ milhões) 2T26 2T25 Var. (%) 6M26 6M25 Var. (%) 
+Lucro líquido recorrente 1.962 567 246,0 2,754 1,394 97.6 
+ Efeito não recorrente líquido de IR e CSLL: 
+ (-) Ganho financeiro com repactuação do UBP (1.268) - 100,0 (1.268) - 100,0 
+ (+) Alienação de subsidiária - (3) (100,0) (3) (7) (57,1) 
+Lucro líquido ajustado 694 564 23,0 1.483 1.387 6,9 
+(+) Imposto de renda e contribuição social ajustado 191 166 15,1 436 436 - 
+(+) Resultado financeiro ajustado 875 806 8,6 1.702 1.430 19,1 
+(+) Depreciação e amortização 419 330 27,0 802 653 22,8 
+ Ebitda ajustado 2.179 1.866 16,8 4.423 3.906 13,2 
+Ebitda societário transmissão (IFRS) (409) (296) 38,2 (731) (644) 13,5 
+Ebitda regulatório transmissão (RAP) 234 169 38,5 434 340 27,6 
+Ebitda societário cotistas (IFRS) (246) (190) 29,5 (470) (420) 11,9 
+Ebitda regulatório cotistas 181 166 9,0 371 341 8,8 
+ Ebitda ajustado por efeitos de transmissão e cotas 1.939 1.715 13,1 4.027 3.523 14,3 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+* IFRS: International Financial Reporting Standards (Normas Internacionais de Contabilidade). 
+1 Contempla o resultado dos segmentos de geração e trading. 
+| Evolução do Ebitda | R$ milhões 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Geração e trading1 Equivalência patrimonial (TAG) Transmissão
+
+[p. 30]
+Release de Resultados 2T26 
+29 
+Resultado Financeiro 
+(em R$ milhões) 2T26 2T25 Var. (R$) 6M26 6M25 Var. (R$) 
+Ganho financeiro com repactuação do UBP¹ 1.921 - 1.921 1.921 - 1.921 
+Renda de aplicações financeiras 205 182 23 352 297 55 
+Outras receitas financeiras 114 31 83 152 59 93 
+Total receitas financeiras 2.240 213 2.027 2.425 356 2.069 
+Dívida: 
+ Juros (587) (383) (204) (1.135) (671) (464) 
+ Atualização monetária (460) (284) (176) (726) (575) (151) 
+Outras receitas (despesas) financeiras, líquidas (60) (214) 154 (101) (190) 89 
+Total despesas financeiras (1.107) (881) (226) (1.962) (1.436) (526) 
+Concessões a pagar (Uso de Bem Público): 
+ Atualização monetária (170) (16) (154) (211) (107) (104) 
+ Atualização a valor presente 83 (122) 205 (33) (243) 210 
+Total despesas de concessões a pagar (Uso de Bem 
+Público) (87) (138) 51 (244) (350) 106 
+Resultado financeiro 1.046 (806) 1.852 219 (1.430) 1.649 
+ Efeito não recorrente 
+ (-) Ganho financeiro com repactuação do UBP (1.921) - (1.921) (1.921) - (1.921) 
+Resultado financeiro ajustado (875) (806) (69) (1.702) (1.430) (272) 
+¹Líquido de PIS e Cofins 
+Receitas financeiras: no 2T26, as receitas financeiras atingiram R$ 2.240 milhões, R$ 2.027 milhões ou 951,6% 
+acima dos R$ 213 milhões auferidos no 2T25, substancialmente, pelo reconhecimento do efeito não recorrente 
+do ganho financeiro com a repactuação do UBP de R$ 1.921 milhões e pelo aumento de R$ 23 milhões na receita 
+com aplicações financeiras. O acréscimo foi motivado, principalmente, pelo aumento da média dos saldos de 
+aplicações financeiras nos períodos em questão e pelo crescimento do CDI . Já a variação de outras receitas 
+financeiras foi motivada, principalmente, pelo reconhecimento da atualização monetária de créditos fiscais a 
+recuperar decorrentes de decisão judicial. 
+Despesas financeiras: as despesas financeiras no 2T26 foram de R$ 1.107 milhões, isto é, R$ 226 milhões ou 
+25,7% acima das registradas no 2T25, que foram de R$ 881 milhões. As principais variações observadas foram 
+decorrentes do aumento de R$ 380 milhões sobre a dívida, entre o s trimestres analisados, em virtude do (i) 
+acréscimo de R$ 204 milhões de juros sobre a dívida, em virtude das 15ª e 16ª emissões de debêntures da 
+Companhia, ocorridas em julho de 2025 e fevereiro de 2026 respectivamente; e (ii) aumento de R$ 176 milhões 
+relativos à atualização monetária pelo aumento do IPCA entre os períodos. 
+Ressalta-se que, além do aumento de juros sobre a dívida registrados no resultado, houve uma redução de R$ 
+134 milhões na capitalização no ativo imobilizado, quando comparado ao 2T25, decorrente da entrada em 
+operação do Conjunto Eólico Serra do Assuruá e do Conjunto Fotovoltaico Assú Sol, não havendo capitalização 
+de juros no 2T26. 
+Despesas de concessões a pagar (Uso de Bem Público): as despesas de concessões a pagar reduziram em R$ 51 
+milhões (37,0%), atingindo R$ 87 milhões no 2T26 em contrapartida aos R$ 138 milhões no 2T25, em virtude, 
+principalmente, (i) da redução de R$ 205 milhões do cálculo do valor presente do UBP motivado pela repactuação 
+do saldo; atenuado pelo (ii) acréscimo de R$ 154 milhões de atualização monetária, em decorrência, 
+principalmente, do aumento do IPCA e do IGPM.
+
+[p. 31]
+Release de Resultados 2T26 
+30 
+Imposto de Renda (IR) e Contribuição Social (CSLL) 
+O valor apurado de IR e CSLL no 2T26 foi R$ 844 milhões, variação negativa de R$ 676 milhões (15,1%) quando 
+comparado ao mesmo trimestre de 2025, o qual foi R$ 16 8 milhões. A variação foi motivada, principalmente, 
+pelo efeito não recorrente do reconhecimento do ganho financeiro com a repactuação do UBP de R$ 1.921 
+milhões e pelo aumento do resultado antes dos tributos sobre o lucro líquido ajustado. Desconsiderando os 
+efeitos não recorrentes, decorrentes do reconhecimento do ganho financeiro com a repactuação do UBP e da 
+alienação de subsidiária, as despesas com IR e CSLL, aumentaram R$ 25 milhões (15,1%), entre os trimestres 
+analisados. 
+Lucro Líquido 
+O lucro líquido ajustado do 2T26 foi de R$ 694 milhões, R$ 130 milhões ou 23,0% acima dos R$ 564 milhões 
+apresentados no mesmo trimestre do ano anterior. A variação é consequência dos seguintes fatores: (i) aumento 
+de R$ 313 milhões no Ebitda ajustado; atenuado pelo (ii) efeito negativo de R$ 69 milhões do resultado financeiro 
+líquido ajustado; (iii) o aumento de R$ 89 milhões da depreciação e amortização; e pelo (iv) aumento de R$ 25 
+milhões do imposto de renda e da contribuição social. Considerando os efeitos não recorrentes da repactuação 
+do UBP, o lucro líquido aumentou R$ 1.395 milhões, comparado aos R$ 567 milhões do 2T25. 
+Endividamento 
+Em 3 0 de junho de 202 6, a dívida bruta total consolidada , representada, principalmente, por empréstimos, 
+financiamentos, debêntures e ações preferenciais resgatáveis, líquidos dos efeitos de operações de hedge, 
+totalizava R$ 32.152 milhões — aumento de 0,8% (R$ 241 milhões) comparativamente à posição de 31 de março 
+de 2026. O prazo médio de vencimento da dívida no fim do 2T26 era de 7,1 anos. 
+A variação no endividamento da Companhia está relacionada, principalmente, à combinação dos seguintes 
+fatores, ocorridos no 2T26: (i) R$ 110 milhões de ingresso de empréstimos e financiamentos; (ii) geração de R$ 
+1.044 milhões em encargos incorridos a serem pagos e variação monetária; e ( iii) R$ 913 milhões em 
+amortizações de empréstimos, financiamentos, debêntures e ações preferenciais. 
+| Evolução do Lucro Líquido | R$ milhões
+
+[p. 32]
+Release de Resultados 2T26 
+31 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+O custo médio ponderado nominal da dívida ao fim do 2T26 foi 11,3% — equivalente a IPCA + 6,4% — 0,5 p.p. 
+abaixo do registrado no fim do 2T25 (11,8% — equivalente a IPCA + 6,1%). 
+Em 30 de junho de 2026, a dívida líquida (dívida total menos resultado de operações com derivativos, depósitos 
+vinculados à garantia do pagamento dos serviços da dívida e caixa e equivalentes de caixa) da Companhia era de 
+R$ 25.210 milhões, aumento de 0,9% em relação ao registrado no 1T26. 
+| Dívida Líquida 
+(em R$ milhões) 30/06/2026 31/03/2026 Var. % 
+Dívida bruta 31.777 31.690 0,3 
+Resultado de operações de hedge 374 221 69,2 
+Depósitos vinculados ao serviço da dívida (492) (461) 6,7 
+Caixa e equivalentes de caixa (6.449) (6.465) (0,3) 
+Dívida líquida total 25.210 24.984 0,9 
+Dívida líquida/Ebitda ajustado últimos 12 meses 3,1X 3,2X 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+| Composição da Dívida 
+IPCA........
+53,
+9
+%
+CDI
+..........
+39,
+9
+%
+TJLP..........6,2%
+| Cronograma de Vencimento da Dívida | R$ milhões 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+| Evolução da Dívida Bruta | R$ milhões
+
+[p. 33]
+Release de Resultados 2T26 
+32 
+Investimentos 
+Os investimentos totais da ENGIE Brasil Energia no 2T26 alcançaram R$ 329 milhões, dos quais: (i) R$ 261 
+milhões na construção de novos projetos, sendo: R$ 111 milhões na Asa Branca Transmissora de Energia, R$ 
+104 milhões na Graúna Transmissora de Energia, R$ 24 milhões na implantação do Conjunto Eólico Serra do 
+Assuruá, R$ 13 milhões no Conjunto Fotovoltaico Assú Sol, R$ 6 milhões na execução do reforço da Subestação 
+de Ponta Grossa, parte da Gralha Azul Transmissora de Energia , e R$ 3 milhões na expansão da Usina 
+Fotovoltaica Paracatu IV; (ii) R$ 54 milhões foram destinados à manutenção e revitalização do parque gerador, 
+principalmente em usinas hidrelétricas e solares; e (i ii) R$ 14 milhões em projetos de modernização: R$ 12 
+milhões na Usina Hidrelétrica Jaguara, R$ 3 milhão na Usina Hidrelétrica Ponte de Pedra e -R$ 1 milhão na Usina 
+Hidrelétrica Salto Osório. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Dividendos Intercalares 
+O Conselho de Administração da ENGIE Brasil Energia aprovou, em reunião realizada em 5 de agosto de 2026, 
+o crédito de dividendos intercalares com base nas demonstrações financeiras levantadas em 30 de junho de 
+2026, no valor de R$ 770,8 milhões (R$ 0,54420747574 por ação), representando um payout de 55% do lucro 
+líquido distribuível, desconsiderando o reconhecimento do ganho financeiro com a repactuação do UBP. 
+As ações da Companhia serão negociadas ex-dividendos intercalares a partir de 2 1 de agosto de 202 6. Esses 
+proventos serão pagos em data a ser posteriormente definida pela Diretoria-Executiva e a comunicação se dará 
+por meio de Aviso aos Acionistas. 
+Modernização da UHE Jaguara 
+Os investimentos totais da 
+ENGIE Brasil Energia no 
+2T26 alcançaram R$ 329
+milhões.
+| Investimentos 2T26 | R$ milhões
+
+[p. 34]
+Release de Resultados 2T26 
+33 
+Compromisso com o Desenvolvimento Sustentável 
+Gestão Sustentável 
+A ENGIE possui a ambição de liderar o processo de transição carbono neutro em todo o mundo, apoiando nossos 
+clientes em suas trajetórias de redução de emissões e associando às ofertas diferenciais socioambientais, 
+induzindo o desenvolvimento sustentável com impactos positivos locais e globais. Por meio de nossos Objetivos 
+Estratégicos de Sustentabilidade de médio prazo, procuramos endereçar o trinômio “Pessoas, Planeta e 
+Performance”. 
+Todas as usinas sob responsabilidade da Companhia seguem a Política de Gestão Sustentável, que abrange as 
+dimensões Governança, Qualidade, Meio Ambiente, Mudanças Climáticas, Saúde e Segurança no Trabalho, 
+Responsabilidade Social e Engajamento de Partes In teressadas. Em 3 0 de junho de 202 6, das 145 usinas 
+instaladas em 14 estados das cinco regiões do país, 11 são certificadas de acordo com as normas de gestão NBR 
+ISO 9001 (da Qualidade), NBR ISO 14001 (do Meio Ambiente) e NBR ISO 45001 (da Saúde e Segurança no 
+Trabalho), com potência somada que corresponde a 62,7% da capacidade total operada pela Companhia. 
+Jornada pelo Clima 
+O Grupo ENGIE estabeleceu, globalmente, compromisso de i) redução das emissões de CO2 em 59% entre 2017 
+e 2030, o que é uma Science Based Target (Metas Baseadas na Ciência); e ii) atingimento da neutralidade de 
+emissões até 2045. 
+Alinhados a esses compromissos, a ENGIE Brasil Energia estabeleceu um programa específico para contribuição 
+com esses objetivos. Intitulado “Jornada pelo Clima”, é baseado em metas científicas que visa a descarbonização 
+de todas as atividades da Companhia, o que também envolve a cadeia de valor. Baseado em três pilares - Gestão, 
+Mitigação e Adaptação -, dele derivam as metas e compromissos da Companhia no Brasil, com destaque para: 
+• Reduzir a intensidade de emissões (escopo 1, 2 e 3) em 30% até 2025 e 56% até 2030; 
+• Ampliação da capacidade em energia renovável; 
+• Ter 100% dos ativos cobertos por planos de adaptação climática até 2030; 
+• Engajar 100% dos principais fornecedores ofensores do escopo 3 a definirem metas alinhadas à ciência até 
+2030. 
+Destaques do Trimestre 
+• Em um momento em que o planeta exige ação, e não apenas intenção, a ENGIE Brasil Energia dá mais um passo 
+concreto em sua jornada de transformação ao anunciar Tamara Klink como sua nova embaixadora ESG. Com o mote 
+“ENGIE e Tamara Klink: a mesma energia”, a iniciativa conecta duas trajetórias guiadas por pioneirismo, coragem, 
+inovação e impacto positivo, valores que marcam tanto a história da navegadora quanto a da ENGIE. 
+• Conforme Resolução CITSB nº 13, de 2 de junho de 2026, a ENGIE Brasil Energia passou a integrar o grupo de 
+testagem da Taxonomia Sustentável Brasileira (TSB) – a única Companhia do setor elétrico. A TSB é um sistema 
+oficial de classificação de atividades econômicas, ativos e projetos que contribuem para objetivos ambientais e 
+climáticos. Criada pelo Ministério da Fazenda, ela funciona como um catálogo padronizado para atrair investimentos 
+verdes e combater o greenwashing no mercado. 
+• A Companhia realizou, em Florianópolis, o 1º Supplier Day, um encontro presencial dedicado ao fortalecimento do 
+relacionamento com seus principais fornecedores. O evento reuniu parceiros estratégicos em um momento de 
+troca, alinhamento cultural e conexão com os valores e direcionadores da Companhia, como segurança, ética e meio 
+ambiente, com ênfase no tema descarbonização. A agenda foi encerrada com a cerimônia de premiação de 
+fornecedores, reconhecendo desempenhos e parcerias.
+
+[p. 35]
+Release de Resultados 2T26 
+34 
+• A Companhia também promoveu o evento anual “Encontro de Gestão 
+Sustentável”, reunindo, presencialmente em Florianópolis, profissionais 
+de ativos de todo o Brasil, e virtualmente, aberto a todos os 
+colaboradores. O evento foi pautado por discussões e apresentações 
+sobre a operação de ativos, inovação e transparência, onde foram 
+compartilhados conhecimento, experiência e a promoção da cultura de 
+sustentabilidade e da melhoria contínua. 
+• A ENGIE Brasil Energia está entre as três empresas de destaque na 
+categoria “Transição Energética” no ranking “Melhores do ESG 2026”, 
+divulgado pela EXAME, em parceria com o IBMEC. O reconhecimento 
+reforça a atuação consistente da Companhia nas agendas ambiental, 
+social e de governança. Criado há mais de duas décadas, o ranking é uma 
+das principais referências em sustentabilidade corporativa no país, e a 
+ENGIE já vem construindo uma trajetória sólida, com destaque também 
+na edição de 2024, quando liderou a categoria. 
+• A ENGIE Brasil foi um dos grandes destaques do Energy Summit 
+Awards, realizado no Rio de Janeiro, em parceria com o MIT. A 
+Companhia conquistou quatro reconhecimentos: ouro em Deal 
+(Negócio), prata em Investor (Investidor) e Impact Corporation, e bronze 
+em Corporate Research (Pesquisa Corporativa). 
+• A Companhia lançou a 6ª edição do Edital de Educação, iniciativa que apoia projetos educacionais em todo o país. 
+Neste ano, serão contempladas pelo menos 50 iniciativas, com incentivo de R$ 10 mil cada, totalizando R$ 500 mil 
+em investimentos voltados ao fortalecimento da educação básica. Criado em 2021, o edital incentiva projetos para 
+estudantes do Ensino Fundamental e Médio, das redes pública e privada, com prioridade para temas como saúde 
+mental, inteligência emocional, educação ambiental, educação antissexista e reforço em língua portu guesa e 
+matemática. 
+• Em Gentio do Ouro (BA), no entorno do recém-inaugurado Conjunto Eólico Serra do Assuruá, 26 jovens concluíram 
+o curso técnico em Eletrotécnica oferecido pelo SENAI, em uma iniciativa da ENGIE Brasil Energia e da Vestas Brasil. 
+Com carga horária de 1.200 horas ao longo de dois anos, a formação capacitou os participantes para atuar em 
+atividades de projeto, instalação e manutenção de sistemas elétricos, com foco em automação e eficiência 
+energética para parques eólicos. A turma contou com 12 mulheres entre os formandos, ampliando a participação 
+feminina em uma área tradicionalmente masculina. O programa busca contribuir para o desenvolvimento 
+socioeconômico local por meio da qualificação profissional, preparando mão de obra para atender às demandas do 
+setor elétrico e do mercado de energias renováveis. 
+ 
+Encontro de Gestão Sustentável, promovido em Florianópolis, contou 
+com a participação do professor Aron Belinky (ABC Associados).
+
+[p. 36]
+Release de Resultados 2T26 
+35 
+Indicadores de Sustentabilidade 
+Desde 2012, a Companhia tem como prática divulgar, em suas apresentações de resultados trimestrais e anuais, 
+os principais indicadores de sustentabilidade. A tabela a seguir apresenta os dados relativos ao 2T26 e 2T25. 
+| Indicadores de Sustentabilidade 
+ 
+ 
+ 
+Mercado de Capitais 
+A ENGIE Brasil Energia integra mais de dez índices do mercado brasileiro. Desde sua adesão ao Novo Mercado 
+da B3, passou a integrar o Índice de Ações com Governança Corporativa Diferenciada (IGC) e o Índice de Ações 
+com Tag Along Diferenciado (ITAG), que reúnem as companhias que oferecem ao acionista minoritário proteção 
+maior em caso de alienação do controle. Suas ações integram o Índice de Sustentabilidade Empresarial da B3 
+(ISE), que reúne empresas com reconhecido comprometimen to com a responsabilidade corporativa, além do 
+Índice do Setor de Energia Elétrica (IEE), que é um índice setorial constituído pelas empresas abertas mais 
+significativas do setor elétrico. As ações da Companhia também fazem parte do principal índice de açõ es da B3 
+– o Índice Bovespa e são negociadas sob o código EGIE3. No mercado de balcão americano Over-The-Counter 
+(OTC), os American Depositary Receipts (ADR) Nível I da Companhia são negociados com o código EGIEY, sendo 
+a relação de um ADR para cada ação ordinária. 
+Em 12 de dezembro de 2025, o Conselho de Administração da ENGIE Brasil Energia autorizou a adoção de 
+providências necessárias à análise e estudos de viabilidade, a fim de iniciar as discussões para transferência da 
+participação da ENGIE Brasil Participaçõe s, de 40% na Jirau Energia, para a Companhia. Foi instalado o Comitê 
+Especial Independente para Transações com Partes Relacionadas , para assessorar nas análises e emitir 
+recomendações sobre possíveis estruturas para a implementação da operação. 
+ 
+1 O Programa Conexão engloba visita às operações da Companhia em todo o país, diálogos com a comunidade e educação ambiental. 
+2 Investimentos em 2026 passaram a ser divulgados por valor realizado, ante montante provisionado adotado anteriormente. 
+Tema Unid. de medida Desempenho 2T26 Desempenho 2T25 Variação Desempenho 6M26 Desempenho 6M25 Variação
+Intensidade de emissões por geração de energia (Escopos 1, 2 e 3) tonCO2e/MWh 0,0022 0,0027 -17,6% 0,0015 0,0022 -33,5%
+Intensidade de emissões por Receita Líquida tCO2e/milhões R$ 6,0 7,5 -20,0% 4,7 7,3 -35,6%
+Emissões totais (Escopo 1, 2 e 3) Toneladas 20.913,3 23.231,5 -10,0% 32.506,7 44.596,8 -27,1%
+Intensidade de consumo de água m3/MWh 0,030 0,058 -47,9% 0,019 0,034 -43,0%
+Pessoas engajadas - Programa de Relacionamento com a Comunidade "Conexão" 1 Pessoas 25.171 29.622 -15,0% 42.846 43.311 -1,1%
+Taxa de Frequência - Empregados próprios + prestadores de serviços nº acid/milhão horas 0,976 0,212 0,76 p.p. 1,041 0,324 0,72 p.p.
+Taxa de Frequência - Empregados próprios nº acid/milhão horas 0,000 0,000 0,00 p.p. 0,787 0,000 0,79 p.p.
+Taxa de Frequência - Prestadores de serviços nº acid/milhão horas 1,412 0,243 1,17 p.p. 1,167 0,369 0,80 p.p.
+% de colaboradores treinados formalmente % 70,6% 19,2% 51,4 p.p. 85,4% 99,4% -14,0 p.p.
+Taxa de rotatividade de colaboradores (turnover) % 2,0% 2,1% -0,2 p.p. 4,4% 3,2% 1,2 p.p.
+Taxa de desligamento voluntário (turnover voluntário) % 0,9% 1,3% -0,4 p.p. 2,0% 1,7% 0,3 p.p.
+Investimentos em Responsabilidade Social - Recursos Incentivados R$ 713.000 3.976.751 -82,1% 3.063.290 5.000.751 -38,7%
+Investimentos em Responsabilidade Social - Recursos Próprios R$ 878.694 1.183.310 -25,7% 2.152.798 2.687.139 -19,9%
+Investimento em Inovação2 R$ 14.601.018 16.106.338 -9,3% 27.875.979 29.790.316 -6,4%
+Total de colaboradores Colaboradores 1.366 1.215 12,4% 1.366 1.215 12,4%
+% de colaboradores em operações certificadas (ISO 9.001, 14.001, 45.001) % 78,8% 84,4% -5,7 p.p. 78,8% 84,4% -5,7 p.p.
+% de mulheres na Companhia % 31,8% 32,0% -0,2 p.p. 31,8% 32,0% -0,2 p.p.
+% de homens na Companhia % 68,2% 68,0% 0,2 p.p. 68,2% 68,0% 0,2 p.p.
+% de mulheres em posições de liderança % 31,6% 30,6% 1,0 p.p. 31,6% 30,6% 1,0 p.p.
+% de homens em posições de liderança % 68,4% 69,4% -1,0 p.p. 68,4% 69,4% -1,0 p.p.
+% colaboradores com deficiência % 4,3% 5,1% -0,8 p.p. 4,3% 5,1% -0,8 p.p.
+Aspecto
+E
+S
+G
+
+[p. 37]
+Release de Resultados 2T26 
+36 
+Em 10 de junho de 2026, o Conselho de Administração da Companhia aprovou a realização de uma Oferta 
+Pública primária de ações ordinárias e convocou a Assembleia Geral Extraordinária para 02 de julho de 2026, na 
+qual os acionistas minoritários aprovaram o Laudo de Avaliação e a proposta de valor das ações de emissão da 
+Jirau Energia, detidas pela ENGIE Brasil Participações, cujo valor foi fixado em R$ 5,74 bilhões. 
+Além da transferência da participação de 40% na Jirau Energia S.A., a operação teve como objetivo fortalecer e 
+otimizar a estrutura de capital da Companhia. O resultado da oferta pública foi a emissão de 274.082.684 ações 
+ordinárias, todas nominativas, escriturais e sem valor nominal. O preço por ação foi definido em R$ 30,50 por 
+meio de procedimento de bookbuilding junto a investidores profissionais, e a oferta movimentou R$ 8,36 bilhões, 
+considerando a emissão das ações adicionais, dos quais R$ 2, 62 bilhões foram captados junto ao mercado e R$ 
+5,74 bilhões correspondem à contribuição da participação em Jirau. 
+A Companhia assegurou o Direito de prioridade para todos os acionistas existentes, permitindo que 
+participassem da oferta proporcionalmente à sua participação acionária. Os acionistas que possuíam ações em 
+02 de julho de 2026 puderam exercer esse direito entre 06 e 10 de julho de 2026, mediante pedido junto a um 
+agente de custódia habilitado. As ações não subscritas pelos acionistas na Oferta Prioritária foram destinadas aos 
+investidores profissionais. A liquidação da oferta ocorreu em 17 de julho de 2026, assim como a transferência da 
+participação da Jirau Energia para a ENGIE Brasil Energia. 
+Os recursos líquidos captados pela Oferta foram integralmente destinados à conta de capital social da 
+Companhia. Em razão do aumento do capital social no âmbito da Oferta, o novo capital social da Companhia 
+passou a ser de R$ 15 ,22 bilhões, dividido em 1.416.381.520 ações ordinárias, todas nominativas, escriturais, 
+sem valor nominal, livres e desembaraçadas de quaisquer ônus ou gravames. 
+Desempenho das Ações 
+– 
+EGIE3 
+No segundo trimestre de 2026, o mercado financeiro brasileiro apresentou desempenho mais fraco após o forte 
+avanço observado no início do ano. O Ibovespa , principal índice da B3 , atingiu recordes históricos em abril, 
+impulsionado pela entrada de capital estrangeiro, valorização do real e maior interesse por mercados emergentes, 
+mas perdeu força ao longo de maio e junho devido à migração de recursos para ações de tecnologia nos mercados 
+desenvolvidos, especialmente nos Estados Unidos. Como resultado, o Ibovespa encerrou junho aos 172 mil 
+pontos, acumulando queda de 8,2% no trimestre, pressionado também por preocupações fiscais, incertezas sobre 
+a trajetória da dívida pública e desempenho mais fraco de empresas de grande peso. Apesar da correção no 
+trimestre, o Ibovespa manteve valorização de cerca de 6,8% no acumulado do primeiro semestre de 2026. 
+As principais bolsas globais registraram forte valorização, lideradas pelos mercados dos Estados Unidos, 
+impulsionados pelo desempenho das empresas de tecnologia e inteligência artificial. As bolsas europeias também 
+avançaram, apoiadas pela melhora do ambiente econômico, enquanto o Japão, atingiu novos recordes históricos 
+com suporte dos setores de tecnologia e semicondutores. Apesar das tensões geopolíticas e das incertezas sobre 
+inflação e juros, o apetite dos investidores por ativos de risco permaneceu elevado ao longo do período. 
+No 2T26, as ações da ENGIE Brasil Energia valorizaram 7,6%, elevando o ganho acumulado do ano para 12,6%. 
+No mesmo período, o Índice de Energia Elétrica (IEEX) recuou 3,5%, embora registre alta de 4,1% nos 6M26. Já 
+o Ibovespa apresentou queda de 8,2% no trimestre , mantendo a valorização de 6,8% no acumulado do ano , 
+encerrando junho de 2026 com 172.024 pontos. 
+O volume médio diário da EGIE3 foi de R$ 83,4 milhões no 2T26, 31,3% acima do registrado no 2T25, quando 
+atingiu R$ 63,5 milhões. 
+No último pregão de junho de 2026, as ações da Companhia encerraram cotadas a R$ 34,83/ação, o que confere 
+à Companhia valor de mercado de R$ 39,8 bilhões.
+
+[p. 38]
+Release de Resultados 2T26 
+37 
+ 
+| EGIE3 vs. Ibovespa vs. IEEX (Base 100 – 31/12/2025) 
+EGIE3 = 112,6 
+IBOV = 106,8 
+IEEX = 104,1 
+95
+100
+105
+110
+115
+120
+125
+dez-25 jan-26 fev-26 mar-26 abr-26 mai-26 jun-26
+EGIE3 IBOV IEEX
+
+[p. 39]
+Release de Resultados 2T26 
+38 
+ANEXO 1 
+ENGIE BRASIL ENERGIA S.A. 
+BALANÇO PATRIMONIAL CONSOLIDADO – ATIVO 
+ 
+ 
+(Valores em R$ mil) 30/06/2026 31/12/2025
+Ativo Circulante 9.857.758 6.911.102 
+ Caixa e equivalentes de caixa 6.448.868 3.358.552 
+ Contas a receber de clientes 1.309.777 1.322.661 
+ Crédito de imposto de renda e contribuição social 409.812 517.755 
+ Dividendos a receber 12 12 
+ Instrumentos financeiros derivativos - trading 81.814 87.914 
+ Depósitos vinculados 36.769 46.723 
+ Ativo financeiro de concessão 429.415 414.211 
+ Ativo de contrato 787.180 783.178 
+ Outros ativos circulantes 349.534 375.519 
+ Ativo não circulante mantido para venda 4.577 4.577 
+Ativo Não Circulante 49.148.133 48.401.807 
+ Realizável a Longo Prazo 14.334.356 13.309.044 
+ Instrumentos financeiros derivativos - hedge 15.868 44.323 
+ Instrumentos financeiros derivativos - trading 62.274 28.497 
+ Depósitos vinculados 507.239 486.458 
+ Depósitos judiciais 98.542 92.677 
+ Prêmio de riscos a apropriar - Repactuação de risco hidrológico 30.005 36.899 
+ Ativo financeiro de concessão 3.245.878 3.160.294 
+ Ativo de contrato 9.411.131 8.710.991 
+ Outros ativos não circulantes 963.419 748.905 
+ Investimentos 1.362.912 1.155.320 
+ Imobilizado 27.719.058 28.182.030 
+ Intangível 5.231.730 5.369.554 
+ Direito de uso de arrendamentos 500.077 385.859 
+Total 59.005.891 55.312.909
+
+[p. 40]
+Release de Resultados 2T26 
+39 
+ANEXO 
+2 
+ENGIE BRASIL ENERGIA S.A. 
+BALANÇO PATRIMONIAL CONSOLIDADO – PASSIVO 
+ 
+ 
+(Valores em R$ mil) 30/06/2026 31/12/2025
+Passivo Circulante 9.039.518 6.158.138 
+ Fornecedores 995.137 916.391 
+ Dividendos e juros sobre o capital próprio 8.474 121.521 
+ Empréstimos e financiamentos 1.456.668 1.419.136 
+ Debêntures 2.130.807 1.522.823 
+ Ações preferênciais resgatáveis 21.621 22.873 
+ Arrendamentos a pagar 67.777 49.492 
+ Concessões a pagar (Uso de Bem Público) 2.333.615 835.932 
+ Imposto de renda e contribuição social a pagar 673.246 204.438 
+ Outras obrigações fiscais e regulatórias 224.963 165.011 
+ Obrigações trabalhistas 131.900 161.375 
+ Instrumentos financeiros derivativos - trading 77.577 87.336 
+ Provisões 5.839 5.838 
+ Obrigações com benefícios de aposentadoria 41.128 39.746 
+ Outros passivos circulantes 870.766 606.226 
+Passivo Não Circulante 33.872.056 35.240.278 
+ Empréstimos e financiamentos 14.157.674 13.753.916 
+ Debêntures 13.543.299 11.963.481 
+ Ações preferênciais resgatáveis 467.246 466.375 
+ Arrendamentos a pagar 486.194 380.960 
+ Concessões a pagar (Uso de Bem Público) 654.626 4.356.835 
+ Instrumentos financeiros derivativos - trading 56.960 26.674 
+ Provisões 808.534 702.793 
+ Obrigações com benefícios de aposentadoria 204.197 215.828 
+ Imposto de renda e contribuição social diferidos 2.945.213 2.762.822 
+ Outros passivos não circulantes 548.113 610.594 
+Patrimônio Líquido 16.094.317 13.914.493 
+ Capital social 6.863.707 6.863.707 
+ Reserva de capital (156.743) (176.543)
+ Reservas de lucros 5.689.792 5.682.218 
+ Dividendos adicionais propostos - 525.890 
+ Ajustes de avaliação patrimonial (53.597) (137.544)
+ Lucros acumulados 2.669.651 - 
+ Participação de acionista não controlador 1.081.507 1.156.765 
+Total 59.005.891 55.312.909
+
+[p. 41]
+Release de Resultados 2T26 
+40 
+ANEXO 
+3 
+ENGIE BRASIL ENERGIA S.A. 
+DEMONSTRAÇÃO DOS RESULTADOS CONSOLIDADOS 
+ 
+ 
+(Valores em R$ mil) 2T26 2T25 Var. % 6M26 6M25 Var. %
+Receita Operacional Líquida 3.511.433 3.086.121 13,8 6.920.090 6.099.190 13,5
+Custos Operacionais (1.791.352) (1.657.946) 8,0 (3.366.505) (3.030.267) 11,1
+Compras de energia (383.072) (272.212) 40,7 (731.328) (457.070) 60,0
+Transações no mercado de energia de curto prazo (255.812) (116.547) 119,5 (363.148) (165.961) 118,8
+Encargos de uso da rede elétrica e conexão (217.082) (193.476) 12,2 (433.584) (383.763) 13,0
+Compensação financeira pela utilização de recursos hídricos (royalties ) (48.328) (17.137) 182,0 (106.218) (69.913) 51,9
+Pessoal (90.041) (70.701) 27,4 (173.035) (134.075) 29,1
+Materiais e serviços de terceiros (126.769) (144.058) -12,0 (258.788) (262.761) -1,5
+Depreciação e amortização (407.914) (319.019) 27,9 (782.487) (630.670) 24,1
+Seguros (49.481) (36.965) 33,9 (99.162) (71.334) 39,0
+Constituição de provisões operacionais, líquida (142) (1.672) -91,5 (14.604) (3.405) 328,9
+Custo da implementação de infraestrutura de transmissão (309.759) (461.941) -32,9 (503.619) (787.359) -36,0
+Outros 97.048 (24.218) -500,7 99.468 (63.956) -255,5
+Lucro Bruto 1.720.081 1.428.175 20,4 3.553.585 3.068.923 15,8
+Receitas (Despesas) Operacionais (89.265) (86.738) 2,9 (190.740) (171.989) 10,9
+Despesas com vendas, gerais e administrativas (140.118) (139.514) 0,4 (243.990) (239.210) 2,0
+Alienação de subsidiária e de participação societária em controlada em conjunto - 5.256 -100,0 3.919 9.569 -59,0
+Outras receitas (despesas) operacionais, líquidas 50.853 47.520 7,0 49.331 57.652 -14,4
+Resultado de Participações Societárias 130.018 199.032 -34,7 263.436 365.811 -28,0
+Equivalência patrimonial 130.018 199.032 -34,7 263.436 365.811 -28,0
+Lucro Antes do Resultado Financeiro e Tributos Sobre o Lucro 1.760.834 1.540.469 14,3 3.626.281 3.262.745 11,1
+Resultado Financeiro 1.045.696 (806.475) -229,7 218.432 (1.429.870) -115,3
+Receitas financeiras 2.240.000 212.703 953,1 2.425.216 355.987 581,3
+Despesas financeiras (1.107.116) (881.072) 25,7 (1.962.296) (1.435.012) 36,7
+Despesas de concessões a pagar (Uso de Bem Público) (87.188) (138.106) -36,9 (244.488) (350.845) -30,3
+Lucro Antes dos Tributos sobre o Lucro 2.806.530 733.994 282,4 3.844.713 1.832.875 109,8
+Imposto de renda (614.313) (115.612) 431,4 (787.909) (311.510) 152,9
+Contribuição social (230.310) (50.926) 352,2 (302.839) (127.560) 137,4
+Lucro Líquido do Exercício 1.961.907 567.456 245,7 2.753.965 1.393.805 97,6
+Lucro atribuído aos:
+ Acionistas da ENGIE Brasil Energia 1.910.006 516.281 270,0 2.661.488 1.284.984 107,1
+ Acionista não controlador da Ibitiúva Bionergética, Maracanã e Lar do Sol 51.901 51.175 1,4 92.477 108.821 -15,0
+Número de Ações Ordinárias 1.142.298.836 1.142.298.836 1.142.298.836 1.142.298.836 
+Lucro Líquido por Ação 1,6721 0,4520 270,0 2,3299 1,1249 107,1
+
+[p. 42]
+Release de Resultados 2T26 
+41 
+ANEXO 
+4 
+ENGIE BRASIL ENERGIA S.A. 
+DEMONSTRAÇÃO DO FLUXO DE CAIXA CONSOLIDADOS 
+ 
+ 
+ 
+(Valores em R$ mil) 6M26 6M25
+Fluxo de Caixa das Atividades Operacionais 
+Lucro antes dos tributos sobre o lucro 3.844.713 1.832.875 
+Conciliação do lucro com o caixa gerado nas operações:
+Resultado de participações societárias (263.436) (365.811) 
+Depreciação e amortização 802.284 652.294 
+Juros e variação monetária 1.866.154 1.256.330 
+Atualização monetária de créditos fiscais a recuperar (92.563) - 
+Despesas de concessões a pagar (Uso de Bem Público) 244.488 350.845 
+Alienação de subsidiária - (9.569) 
+Ajuste a valor justo de instrumentos de dívida 96 104.736 
+Ganho financeiro com repactuação do UBP (2.010.973) - 
+Remuneração de ativo financeiro de concessão (297.774) (271.201) 
+Remuneração de ativo de contrato (711.206) (564.293) 
+Receita de construção de infraestrutura de transmissão (445.586) (810.477) 
+Perdas por ineficiência na construção 95.284 44.554 
+Perdas não realizadas em operações de trading, líquidos (7.150) 2.709 
+Outros (35.398) 18.087 
+Lucro Ajustado 2.988.933 2.241.079 
+ (Aumento) redução nos ativos
+Contas a receber de clientes 14.414 134.632 
+Crédito de imposto de renda e contribuição social 115.298 (17.313) 
+Depósitos vinculados e judiciais 21.804 (15.663) 
+Ativo financeiro de concessão 196.986 186.636 
+Ativo de contrato 408.097 320.509 
+Outros ativos (108.269) 92.503 
+ (Redução) aumento nos passivos
+Fornecedores 6.851 (94.654) 
+Obrigações fiscais e regulatórias 55.642 (38.352) 
+Obrigações trabalhistas (29.477) (27.571) 
+Obrigações com benefícios de aposentadoria (24.379) (23.403) 
+Outros passivos 70.947 888 
+Caixa Gerado pelas Operações 3.716.847 2.759.291 
+Pagamento de juros sobre dívidas, líquido de hedge (855.036) (705.462) 
+Pagamento de imposto de renda e contribuição social (333.756) (423.641) 
+Caixa Gerado pelas Atividades Operacionais 2.528.055 1.630.188 
+Atividades de Investimento (369.569) (964.590) 
+Dividendos e JCP recebidos, líquidos de imposto de renda 155.750 360.687 
+Aquisição de subsidiárias - 16.320 
+Aplicação no imobilizado e no intangível (88.866) (1.167.741) 
+Redução de capital em controladas - 234.313 
+Pagamento de obrigações vinculadas à aquisição de ativos (1.810) (489) 
+Recebimento pela alienação de subsidiária, líquido dos custos de venda - 4.313 
+Pagamento de parcelas de concessões (Uso de Bem Público) (438.041) (416.848) 
+Outros 3.398 4.855 
+Atividades de Financiamento 931.830 1.036.057 
+Ingresso de instrumentos de dívida 2.396.705 2.765.119 
+Pagamento de instrumentos de dívida, líquido de hedge (602.362) (468.489) 
+Pagamento de dividendos e imposto de renda de juros sobre o capital próprio (858.444) (1.203.092) 
+Depósitos vinculados ao serviço da dívida (4.932) (57.481) 
+Aporte de capital de acionistas minoritários, líquidos dos custos de emissão 863 - 
+Aumento de Caixa e Equivalentes de Caixa 3.090.316 1.701.655 
+Conciliação do Caixa e Equivalentes de Caixa
+Saldo inicial 3.358.552 3.958.758 
+Saldo final 6.448.868 5.660.413 
+Aumento de Caixa e Equivalentes de Caixa 3.090.316 1.701.655 
+Transações que não Envolveram o Caixa e Equivalentes de Caixa
+Dividendos destinados por controladas e controladas em conjunto 155.750 360.687 
+Dividendos intercalares, intermediários, adicionais creditados, obrigatórios e JCP 694.488 365.071 
+Dividendos e juros sobre capital próprio prescritos - 4.290 
+ICMS sobre venda de energia elétrica (97) 2.319 
+Crédito de imposto de renda e contribuição social (61.229) 12.577 
+Fornecedores de imobilizado e intangível 29.852 (260.771) 
+Renúncia de dividendos de subsidiárias adquiridas - (48.971)
+
+[p. 43]
+Release de Resultados 2T26 
+42 
+ANEXO 
+5 
+ENGIE BRASIL ENERGIA S.A. 
+FACT SHEET 2T26 
+ 
+Hidrelétricas
+62%
+Capacidade Instalada Própria
+Complementares
+38%
+1
+A ENGIE Brasil Energia é uma plataforma de
+investimentos em infraestrutura em energia, atuante nas
+atividades de geração, comercialização, trading e
+transmissão, além de transporte de gás natural, por meio
+da Transportadora Associada de Gás S.A. — TAG, em
+conjunto com outros sócios. Como produtora privada de
+energia 100% renovável, implanta e opera
+empreendimentos de fontes renováveis, como
+hidrelétricas, usinas eólicas, fotovoltaicas, biomassa e
+pequenas centrais hidrelétricas. Trabalha com
+transparência, disciplina financeira, respeito ao meio
+ambiente, apoio às comunidades e foco na eficiência
+operacional como possibilitadores do crescimento em
+longo prazo.
+Em 30.06.2026, seu valor de mercado era de R$ 39,8
+bilhões e sua capacidade instalada própria totalizava
+11.266 MW, composta por 145 usinas, das quais 13 são
+hidrelétricas e 132 complementares: uma a biomassa, 88
+eólicas, 2 Pequenas Centrais Hidrelétricas (PCHs) e 41
+solares. No segmento de transmissão, os Sistemas de
+Transmissão Gralha Azul, Novo Estado e Gavião Real
+estão em operação integral e Graúna e Asa Branca em
+operação parcial.
+A ENGIE Brasil Energia é controlada pelo grupo francês
+ENGIE, líder global na produção independente de energia,
+com atividades em cerca de 30 países. Com forte atuação
+em eletricidade, gás natural e serviços de energia com
+capacidade instalada de cerca de 100 GW em energia
+elétrica, a ENGIE detém 68,7% da Companhia, por meio
+da ENGIE Brasil Participações Ltda.
+Portfólio equilibrado de negócios em 
+infraestrutura em energia
+Composição Acionária
+Balanço de Energia (% do total; em MWm) | em 30/06/2026
+Visão Geral
+Capacidade instalada própria de geração de energia de 11.266 
+MW (5.357 MWm), 3.205 Km de linhas de transmissão em 
+operação e participação de 17,5% na TAG. 
+Hidrelétrica
+Complementar
+Expansão
+Transmissão
+TAG
+68,7
+%
+ 9,9
+%
+ 21,4
+%
+Banco Clássico 
+S.A.
+ENGIE Brasil 
+Participações Ltda.
+Outros
+ENGIE Brasil Energia S.A.
+Balanço de Energia
+
+[p. 44]
+Release de Resultados 2T26 
+43 
+ANEXO 5 
+ENGIE BRASIL ENERGIA S.A. 
+FACT SHEET 2T26 
+ 
+Lucro líquido ajustado
+(R$ milhões)
+Ebitda ajustado
+(R$ milhões)
+Receita líquida
+(R$ milhões)
+Dívida Líquida1 (R$ milhões)
+Dívida Líquida/ LTM Ebitda Ajustado2 (x)1,8x
+Endividamento (R$ milhões)
+Relações com Investidores
+Rua Paschoal Apóstolo Pítsica, 5064 –
+CEP 88025-255 Florianópolis – SC 
+Fone: (48) 3221-7904 
+www.engie.com.br/investidores / 
+ri.BREnergia@engie.com 
+Notas:
+1 Dívida líquida de operações de hedge.
+2 Ebitda ajustado nos últimos 12 meses.
+• Dividendo mínimo estatutário: 30% do lucro líquido distribuível.
+• Compromisso da Administração: payout mínimo de 55% do lucro líquido distribuível.
+• Ao menos 2 proventos por ano.
+Política de Dividendos
+Notas: 
+1 Considerando payout equivalente a 100% 
+do lucro líquido ajustado distribuível ex-
+repactuação do risco hidrológico. 
+2 Para fins de comparabilidade entre os 
+anos, houve ajuste do dividendo por ação 
+decorrente da bonificação aprovada em 
+07/12/2018 e em 05/11/2025. 
+3 Considera o lucro líquido distribuível do 
+exercício.
+4 Baseado no preço de fechamento 
+ponderado por volume das ações ON no 
+período.
+5 Payout equivalente a 55% do lucro líquido 
+distribuível (excluindo ganhos com 
+alienação parcial dos investimentos na 
+TAG). 
+6 Payout equivalente a 55% do lucro líquido 
+distribuível (excluindo ganho financeiro 
+com a repactuação do UBP). 
+Notas:
+1 Ebitda ajustado: lucro líquido + imposto de renda e contribuição social + resultado financeiro + depreciação e amortização + impairment + não 
+recorrentes.
+2 Ebitda ajustado, deduzidos os efeitos do IFRS do segmento de transmissão e usinas cotistas. 
+3 ROE: lucro líquido ajustado dos últimos 4 trimestres / patrimônio líquido.
+4 ROIC: taxa efetiva x EBIT ajustado / capital investido (capital investido: dívida - caixa e eq. caixa - depósitos vinculados ao serviço da dívida + PL)
+5 Produção total bruta das usinas operadas pela ENGIE Brasil Energia.
+6 Desconsidera vendas por regime de cotas (UHEs Jaguara e Miranda).
+7 Líquido de impostos sobre a venda e operações de trading.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+1
+2 3 4
+5
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 6
+Consolidado (em R$ milhões) 2T26 2T25 Var. 6M26 6M25 Var.
+Receita Operacional Líquida (ROL) 3.511 3.086 13,8% 6.920 6.100 13,4%
+Resultado do Serviço (EBIT) 1.761 1.541 14,3% 3.626 3.262 11,2%
+Ebitda ajustado 1 2.179 1.866 16,8% 4.423 3.906 13,2%
+Ebitda ajustado por efeitos de transmissão e cotistas 2 1.939 1.715 13,1% 4.027 3.523 14,3%
+Ebitda / ROL - (%) ajustada 1 62,1 60,5 1,6 p.p. 63,9 64,0 -0,1 p.p.
+Lucro Líquido ajustado 694 564 23,0% 1.483 1.387 6,9%
+Retorno Sobre o Patrimônio (ROE) Ajustado 3 18,3 23,1 -4,9 p.p. 18,3 23,1 -4,9 p.p.
+Retorno Sobre o Capital Investido (ROIC) Ajustado 4 13,9 15,4 -1,5 p.p. 13,9 15,4 -1,5 p.p.
+Produção Bruta de Energia Elétrica (MW médios) 5 4.355 4.088 6,5% 5.093 4.736 7,5%
+Energia Vendida (MW médios) 6 4.852 4.254 14,1% 4.878 4.346 12,2%
+Preço Líquido Médio de Venda (R$/MWh) 7 208,28 217,01 -4,0% 212,38 215,50 -1,4%
+Número de Empregados - Total 1.402 1.265 10,8% 1.402 1.265 10,8%
+
+[p. 45]
+ENGIE Brasil Energia S.A. 
+EARNINGS 
+RELEASE 
+2Q26 
+Florianópolis, Brazil, August 5, 2026. ENGIE Brasil 
+Energia S.A. (“ENGIE” or “Company”) – B3: EGIE3, 
+ADR: EGIEY - announces earnings for the Second 
+Quarter and 6 months period ending on June 30, 
+2026 (2Q26/6M26). The information in this release 
+is shown on a consolidated basis and in accordance 
+with Brazilian accounting principles and practices. 
+The values are expressed in Brazilian Reais (R$), 
+except where otherwise indicated. Rounding 
+effects may cause diff erences in percentage 
+changes, when comparing the comments on 
+Economic-Financial Performance, presented in R$ 
+million, with the Income Statement (Appendix III), 
+presented in R$ thousand. 
+Video 
+confer
+ence 
+ 
+August 06, 2026 at 11:00 a.m. 
+(BRT), 10:00 a.m. (EDT) in 
+Portuguese with simultaneous 
+translation into English) 
+ 
+Click here to access the transmission 
+Visit our Website 
+www.engie.com.br/investidores 
+For Immediate Release 
+Additional information: 
+ 
+Eduardo Sattamini 
+Chief Executive Officer 
+ 
+Pierre Leblanc 
+Chief Financial and Investor Relations 
+Officer 
+ 
+Leonardo Depiné 
+IR Manager 
+Leonardo.Depine@engie.com 
+Tel.: +55 (48) 3221-7904/7246 
+ 
+ri.brenergia@engie.com 
+ 
+ 
+ 
+EGIEY 
+OTC MARKET 
+EGIE3 
+B3 LISTED NM
+
+[p. 46]
+Earnings Release 2Q26 
+1 
+Important 
+This material contains information and opinions on future events subject to risks and uncertainties, based on current expectations, projections and 
+tendencies. Several factors may affect the estimates and assumptions which may cause the forward -looking sta tements not to be realized. 
+Therefore, shareholders and investors should not make decisions based solely on these estimates, projections and statements. 
+Asa Branca 
+ENGIE Brasil Energia 
+completes the R$ 8.4 
+billion follow-on and 
+assumes stake in 
+Jirau Energia. 
+Highlig
+h
+t
+s 
+Net Operating Revenue 
+R$ 3,511 million 
+(+13.8% vs 2Q25). 
+Adjusted Ebitda2 
+R$ 2,179 million 
+(+16.8% vs 2Q25). 
+Adjusted Net Income 
+R$ 694 million 
+(+23.0% vs 2Q25). 
+Average price of the energy sales 
+agreements 
+R$ 208.3/MWh 
+net of taxes on revenues and 
+trading operations 
+(-4.0% vs 2Q25). 
+Energy sales 
+10,597 GWh 
+(4,852 average MW) 
+excluding trading operations 
+(+14.1% vs 2Q25). 
+The Company confirmed its participation in 
+the mechanism for renegotiating liabilities 
+due under the Use of Public Assets (UBP) 
+with respect to future obligations associated 
+to the Cana Brava and Ponte de Pedra 
+hydropower plants. The payment of R$ 2.23 
+billion was finalized on July 20, 2026. 
+The Board of Directors approved the 
+proposal for the merger, by the Company, 
+of its wholly owned subsidiary Companhia 
+Energética do Jari - CEJA. The operation 
+was subsequently approved by the EGM 
+held on July 31. 
+In addition, approval was given to the 
+distribution of a Primary Public Offering of 
+Shares and the calling of an EGM for 
+approving the Valuation Report and the 
+value to be attributed to the shares of Jirau 
+Energia held by ENGIE Brasil Participações.
+
+[p. 47]
+Earnings Release 2Q26 
+2 
+Summary of Financial and Operational Indicators 
+ 
+ 
+ 
+ 
+ 
+ 
+Consolidated (in R$ million) 2Q26 2Q25 Chg. 6M26 6M25 Chg. 
+Net Operating Revenue (NOR) 3,511 3,086 13.8% 6,920 6,100 13.4% 
+Results from Operations (EBIT) 1,761 1,541 14.3% 3,626 3,262 11.2% 
+Ebitda 1 2,179 1,871 16.5% 4,427 3,915 13.1% 
+Adjusted Ebitda 2 2,179 1,866 16.8% 4,423 3,906 13.2% 
+Adjusted Ebitda by transmission and quota effects 3 1,939 1,715 13.1% 4,027 3,523 14.3% 
+Ebitda / NOR - (%) 1 62.1 60.6 1.5 p.p. 64.0 64.2 -0.2 p.p. 
+Adjusted Ebitda / NOR - (%) 2 62.1 60.5 1.6 p.p. 63.9 64.0 -0.1 p.p. 
+Net Income 1,962 567 246.0% 2,754 1,394 97.6% 
+Adjusted Net Income 694 564 23.0% 1,483 1,387 6.9% 
+Adjusted Return on Equity (ROE) 4 18.3 23.1 -4.9 p.p. 18.3 23.1 -4.9 p.p. 
+Adjusted Return on Invested Capital (ROIC) 5 13.9 15.4 -1.5 p.p. 13.9 15.4 -1.5 p.p. 
+Net Debt 6 25,210 21,561 16.9% 25,210 21,561 16.9% 
+Gross Power Production (avg MW) 7 4,355 4,088 6.5% 5,093 4,736 7.5% 
+Energy Sold (avg MW) 8 4,852 4,254 14.1% 4,878 4,346 12.2% 
+Average Net Sales Price (R$/MWh) 9 208.28 217.01 -4.0% 212.38 215.50 -1.4% 
+Number of Employees - Total 1,402 1,265 10.8% 1,402 1,265 10.8% 
+ EBE Employees 1,366 1,240 10.2% 1,366 1,240 10.2% 
+ Employees on Under Construction Plants 36 25 44.0% 36 25 44.0% 
+1 Ebitda: net income + income tax and social contribution + financial result + 
+depreciation and amortization. 
+2 Adjusted Ebitda: net income + income tax and social contribution + financial result + 
+depreciation and amortization + impairment + non-recurrent. 
+3 Adjusted Ebitda, less the effects of IFRS in the transmission segment and quota 
+plants. 
+4 ROE: adjusted net equity for the past 4 quarters /shareholders’ equity. 
+5 ROIC: effective tax rate x adjusted EBIT / invested capital (invested capital: 
+debt - cash and cash equivalents - deposits earmarked for debt servicing + SE). 
+6 Adjusted amount, net of gains from hedge operations. 
+7 Total gross electricity output from the plants operated by ENGIE Brasil 
+Energia. 
+8 Disregarding sales for quota regime (Jaguara and Miranda HPPs). 
+9 Net of taxes and trading operations. 
+ 
+Subsequent 
+Events 
+On July 2, the Extraordinary General Meeting approved the Valuation Report and the 
+proposed value of the shares, the issuance of Jirau Energia, held by ENGIE Brasil 
+Participações for the purposes of their contribution for the paying of shares in the context 
+of the Primary Public Offering of Shares in the amount of R$ 5.74 billion. 
+On July 17, the settlement of the 274,082,684 new shares issued within the context of the 
+Primary Public Shares Offering of the Company took place, representing an increase of R$ 
+8.36 billion in the capital stock of the Company. 
+The Board of Directors approved the distribution of R$ 770.8 million as interim dividends 
+(R$ 0.5442/share) representing 55% of the distributable net income reported in the first 
+half of 2026, excluding the financial gain from the renegotiation of the UBP. Shares will become 
+ex-interim dividends as from August 21, 2026 and will be paid on a date to be determined 
+later by the Executive Board.
+
+[p. 48]
+Earnings Release 2Q26 
+3 
+Message from Management 
+The second quarter 2026 saw some significant strategic advances at ENGIE Brasil Energia, underscoring our 
+leadership position in the energy transition in Brazil. Despite a challenging regulatory and economic environment, 
+we were able to report progress in structural projects and consolidation of operations which expand our presence 
+in the segments of energy generation and transmission. 
+In transmission, there were some consistent advances in projects with work in progress. For example, the Asa 
+Branca transmission system received its full Installation License, allowing a start to be made on civil works, while 
+in the case of Graúna, important progress was made in environmental licensing processes and land usage 
+agreements. 
+In addition, on June 26, we signed a concession agreement with respect to the lots, a result of successful bidding 
+by the Company at the first transmission auction of 2026 – denominated Colibri Transmission System. The new 
+projects are to reinforce our presence in strategic assets and will contribute to the generation of long -term 
+revenue flows. 
+As to the Free Energy Market (MLE), we expanded free consumer numbers by 42.3% compared with the same 
+period last year, a reflection of customer trust in our solutions and in line with the expansion in the free 
+contracting environment as a whole. 
+Another highlight of the period was the Company’s adherence to the mechanism for renegotiating the liabilities 
+under the Use of Public Assets (UBP) of the Cana Brava (GO) and Ponte de Pedra (MT) hydropower plants, with 
+the recognition of a non-recurring effect of R$ 1.3 billion on net income, payment of which was finalized on July 
+20, 2026. This initiative will contribute to greater financial predictability and further support our discipline in the 
+management of future obligations. 
+In the financial context, we reported net operating revenue for the second quarter of 2026 of R$ 3 .5 billion 
+(+13.8%), driven by the performance of short -term operations and free and regulated market contracts. In 
+addition, the transmission segment contributed positively to revenue growth. Adjusted Ebitda posted R$ 2 .2 
+billion, representing an increase of 16.8% in relation to 2Q25. Adjusted net income amounted to R$ 694 million, 
+23.0% higher year -on-year, reflecting the robustness and consistency of our operational and financial 
+performance. 
+Among the events subsequent to the quarter in review, particular mention should be made of the primary public 
+offering of common shares (follow-on), approved at an Extraordinary General Meeting. The operation resulted in 
+the issuance of more than 274 million shares and equivalent to R$ 8.36 billion, permitting the transfer of ENGIE 
+Brasil Participações’ stake in Jirau Energia S.A. to the Company. Of this amount, R$ 2.62 billion were raised in the 
+market and a further R$ 5.74 billion corresponded to the stake in Jirau. The price per share was set at R$ 30.50, 
+through a process of bookbuilding, with priority rights to the shareholders. Settlement occurred on July 17, 2026, 
+thereby increasing the Company’s capital stock to R$ 15.22 billion. This transaction marked the return of ENGIE 
+Cana Brava HPP 
+The Company financially 
+settled the agreement relating 
+to the renegotiation of 
+liabilities under the UBP for 
+the Cana Brava and Ponte de 
+Pedra hydropower plants in 
+the amount of R$ 2.23 billion.
+
+[p. 49]
+Earnings Release 2Q26 
+4 
+Brasil Energia to the capital markets, 21 years after the last share offering, reinforcing investor confidence in the 
+Company’s strategy, as well as its long-term commitment to electric energy sector development and to Brazil. 
+On the socio -environmental front, for the 21 st consecutive year, we maintained our listing in B3’s Corporate 
+Sustainability Index (ISE) while remaining a component of the Dow Jones Best-in-Class Emerging Markets. In both 
+cases, these rankings are reaffirmation of our commitment to recognized international practices of good 
+governance and sustainability. The publication of the Sustainability Report 2025 also further reinforces our 
+transparency and performance in accelerating the transition to a low carbon energy matrix. 
+We remain focused on the expansion of our renewable portfolio, the strengthening of the transmission assets 
+and the maintenance of a high degree of operational uptime. We believe that the combination between financial 
+robustness, innovation and socio-environmental responsibility will continue creating value for our shareholders, 
+our customers and for Brazil. 
+ 
+ 
+Good reading! 
+ 
+Eduardo 
+Sattamini 
+Chief Executive 
+Officer 
+Pierre 
+Leblanc 
+Chief Financial and 
+Investor Relations 
+Officer
+
+[p. 50]
+Earnings Release 2Q26 
+5 
+Breakdown of Assets 
+ 
+Energ
+y Generation Assets 
+At the end of the 2Q26, ENGIE Brasil Energia had 11,265.9 MW of installed capacity and operates a generating 
+complex with 12,965.6 MW, comprised of 145 plants (13 hydro and 132 complementary energy source plants — 
+biomass, SHP, wind powered and solar), 1 42 of which are wholly -owned by the Company and three (the Itá, 
+Machadinho and Estreito Hydropower Plants) jointly-owned through consortia with other companies. 
+| Generating Complex as of June 30, 2026 
+ 
+1 For the composition of wind and solar complexes. 
+2 The Lar do Sol plant does not have a declared physical guarantee, therefore its commercial capacity is based on expected generation. 
+3 For generating plants with installed capacity lower than or equal to 5 MW the legal instrument applicable is the record. 
+Total 
+Company's 
+Share
+Itá Hydro Uruguai River (SC and RS) 1,450.0 1,126.9 Dec/32 528.7
+Salto Santiago Hydro Iguaçu River (PR) 1,420.0 1,420.0 Nov/30 702.2
+Machadinho Hydro Uruguai River (SC and RS) 1,140.0 414.8 Oct/35 143.7
+Salto Osório Hydro Iguaçu River (PR) 1,103.7 1,103.7 Apr/31 487.3
+Estreito Hydro Tocantins River (TO and MA) 1,087.0 435.6 Feb/47 244.1
+Cana Brava Hydro Tocantins River (GO) 450.0 450.0 Dec/35 247.8
+Jaguara Hydro Grande River (MG) 424.0 424.0 Jun/48 324.0
+Miranda Hydro Araguari River (MG) 408.0 408.0 Jun/48 188.3
+Santo Antônio do Jari Hydro Jari River (AP and PA) 393.0 393.0 Oct/45 211.3
+São Salvador Hydro Tocantins River (TO) 243.2 243.2 May/42 140.8
+Passo Fundo Hydro Passo Fundo River (RS) 226.0 226.0 Apr/31 107.5
+Cachoeira Caldeirão Hydro Araguari River (AP) 219.0 219.0 Aug/48 123.3
+Ponte de Pedra Hydro Correntes River (MT) 176.1 176.1 Aug/37 127.6
+Total - Hydro 8,739.9 7,040.2 3,576.5
+Total 
+Company's 
+Share
+Serra do Assuruá Complex Wind Farm 24 Gentio do Ouro (BA) 846.0 846.0 Nov/56 410.2
+Assu Sol Complex Solar 16 Assú (RN) 752.7 752.7 Feb/57 229.6
+Santo Agostinho Complex - Phase I Wind Farm 14 Lages and Pedro Avelino (RN) 434.0 434.0 May/56 224.2
+Campo Largo II Complex Wind Farm 11 Umburanas (BA) 361.2 361.2 Aug/54 192.5
+Umburanas Complex - Phase I Wind Farm 18 Umburanas (BA) 360.0 360.0 Aug/49 213.3
+Campo Largo I Complex Wind Farm 11 Umburanas (BA) 326.7 326.7 May/51 166.5
+Trairi Complex Wind Farm 8 Trairi (CE) 212.6 212.6 Sep/41 97.2
+Lar do Sol Complex2 Solar 3 Pirapora (MG) 198.0 198.0 Apr/54 49.0
+Paracatu Complex Solar 4 Paracatu (MG) 132.0 132.0 Jun/51 34.0
+Juazeiro Complex Solar 4 Juazeiro (BA) 120.0 120.0 Jun/51 34.8
+Sertão Solar Complex Solar 4 Barreiras (BA) 94.6 94.6 Jul/53 26.1
+Floresta Complex Solar 3 Areia Branca (RN) 86.0 86.0 Jun/51 25.1
+Sol do Futuro Complex Solar 3 Aquiraz (CE) 81.0 81.0 Jun/51 16.2
+Ferrari Termoelétrica Biomass Pirassununga (SP) 72.5 72.5 Jun/42 12.4
+São Pedro Complex Solar 2 Bom Jesus da Lapa (BA) 54.0 54.0 Mar/51 16.0
+Assú V Solar Assú (RN) 34.0 34.0 Jun/51 9.2
+Rondonópolis SHP Ribeirão Ponte de Pedra (MT) 26.6 26.6 Dec/37 14.0
+José Gelazio da Rocha SHP Ribeirão Ponte de Pedra (MT) 24.4 24.4 Dec/37 9.2
+Nova Aurora Solar Tubarão (SC) 3.0 3.0 not applicable3 0.2
+Tubarão Wind Farm Tubarão (SC) 2.1 2.1 not applicable3 0.3
+Tubarão 2 Wind Farm Tubarão (SC) 4.2 4.2 not applicable3 0.0
+Total - Complementary 4,225.6 4,225.6 1,780.1
+Total 12,965.6 11,265.9 5,356.6
+Power Plants Source Location
+Source Location
+Installed Capacity (MW)
+Installed Capacity (MW)
+Commercial capacity 
+(aMW) Company's 
+Share
+Generating 
+Units1
+Commercial capacity 
+(aMW) Company's 
+Share
+Concession 
+expiration date
+Power Plants
+Authorization 
+expiration date
+
+[p. 51]
+Earnings Release 2Q26 
+6 
+Energy 
+Transmiss
+ion Assets 
+| Transmission Assets under Operation as of June 30, 2026 
+Transmission Line Location Extension km Annual RAP (R$ million) * Substations Property Concession expiration 
+Gralha Azul Paraná 909.0 365.3 5 own and expansion of 5 existing ones 100% Mar/48 
+Novo Estado Pará and Tocantins 1,800.0 484.9 1 own and expansion of 3 existing ones 100% Mar/48 
+Gavião Real Pará - 8.2 New patio in 1 existing 100% Sep/52 
+Graúna – brownfield section 
+Minas Gerais and Espírito 
+Santo 162.0 14.5 2 existing ones 100% Dec/54 
+Asa Branca - Morro do Chapéu II - Poções III section Bahia 334.0 96.4 Expansion of 2 related ones 100% Sep/53 
+Total 3,205.0 969.3 
+* RAP: Annual Allowed Revenue. / Values on the base date of June 2026 (cycle 2026-2027), net of PIS and Cofins charges. 
+Gas 
+Transport
+ation Assets 
+Transportadora Associada de Gás S.A. – TAG. 
+The largest natural gas transportation operation in Brazil, TAG has an infrastructure of approximately 4,600 km 
+of high-pressure gas pipelines extending along the southeastern and northeastern seaboards as well as a further 
+section of line between Urucu an d Manaus, in the state of Amazonas, crossing 10 Brazilian states and around 
+200 municipalities. 
+The gas pipeline network has several connection points, among them, 14 gas entry points (including 2 Liquified 
+Natural Gas (LNG)), 92 gas outlet points, 2 bidirectional entry and outlet points and 1 interconnection point, plus 
+connection with 10 gas distributors, 2 refineries, 20 thermoelectric power plants and 2 fertilizer plants. The 
+network includes also 11 own compressor stations along its length. The operation of the assets is executed from 
+the Control and Supervision Center (CSC) in the company’s headquarters in the city of Rio de Janeiro. 
+Following the expiry of the legacy Malha -NE contract in December 2025, TAG remains contracted for 76% of 
+its capacity on the basis of long -term legacy agreements with Petrobras and for 24% through new contracts , 
+covering the network’s main delivery points. By the end of the second quarter of 2026, 1,005 gas transportation 
+contracts had been signed, representing 53% of the total from the previous year and a 55% increase compared 
+to the number contracted by the end of the second quarter of 2025. 
+The regulator is currently undertaking a Tariff Review of TAG’s Northeast Network (Malha -NE) se ction to 
+determine the new Maximum Allowable Revenue (MAR). The key decision taken so far was the setting up of the 
+WACC (Weighted Average Cost of Capital) at 7.63%. While the review process remains ongoing, firm annual 
+agreements continue at unadjusted 2025 tariffs. However, the bidding processes for 2026 have already resulted 
+in the signing of 73 contracts (versus 47 in the 2025 process). 
+Currently, TAG has 29 firm capacity shippers, including producers, distributors, and a growing presence of traders 
+and eligible consumers, confirming the dynamism of the natural gas market. Excluding Petrobras, the other 
+shippers with annual contracts have an average of 11.5 million m³/day contracted in 2026. 
+| Corporate Structure 
+ 
+32.5%
+ 17.5%
+ 50%
+ENGIE Brasil 
+Energia
+ENGIE S.A.
+Solimões 
+Basin
+Recôncavo Basin
+Santos Basin
+Campos Basin
+Espírito Santo 
+Basin
+Sergipe 
+Alagoas Basin
+PA MA
+PI
+TO
+MT
+RO
+AC
+RR AP
+CE RN
+BA
+MG
+GO
+MS
+SP
+PR
+SC
+RS
+ES
+RJ
+PB
+PE
+AL
+SE
+AM
+LNG Terminal
+LNG terminal 
+disconnected, deactivated, 
+or non-operational
+
+[p. 52]
+Earnings Release 2Q26 
+7 
+| Highlights of the semester 
+• TAG began the daily execution of the Gas for System Use (GUS) Acquisition Processes across the Balancing 
+Platform, while simultaneously offering—on every business day—contracting windows for short-term products 
+(Annual Flexible, Quarterly, Monthly, and Daily), thereby increasing flexibility and simplifying operations for 
+shippers. 
+• Following the Capacity Reserve Auction in the form of Power (LRCAP) held in March 2026, 23 of the 59 projects 
+located in the region served by TAG (2.2 GW) expressed interest in connection up to the grid, reinforcing the 
+integration of thermal power plants in the system and at affordable tariffs. By the end of the 2Q26, the process 
+of formalizing Letters of Commitment for firm natural gas transportation services was underway; this step is 
+required for verification with the ANP and is a necessary condition for signing the Capacity Reserve Contracts. 
+• In May, the ANP issued the Operating Permits for the Itagibá and Buriti projects—two new delivery points built 
+by TAG to meet local demand. 
+| Projects: 
+TAG has a series of projects in hand to be executed over the next five years with planned investments of R$ 4.1 
+billion. 55% of this amount will be allocated in expansion projects, in line with the positive outlook of ENGIE 
+Group for the natural gas industry in Brazil. 
+Under development: 
+• LRCAP delivery points (BA , AL, PE, PB): 5 new delivery points to meet LRCAP thermoelectric demand. 
+Collectively, these points will have a maximum transport capacity of ~9 million m³/day. 
+• Veredas (AL, PE): new infrastructure to meet additional LRCAP thermal demand, involving the construction of 
+~30 km of pipeline, as well as the construction and expansion of Compressor Stations (ECOMPs). The project's 
+incremental capacity is 7.5 million m³/day. 
+• Suape entry point (PE): a new entry point to connect the LNG Terminal to the Port of Suape 
+(T ermopernambuco). The point will have a maximum transport capacity of 14.3 million m³/day and a length of 
+2 km, with the potential for expansion to 9 km. 
+• Connection of the Porto do Açú - GASOG (RJ): Goytacazes gas pipeline to connect the Porto do Açú 
+regasification terminal to the Cabiúnas-Vitória gas pipeline, with 45 km of extension and 10 million m 3/day of 
+transportation capacity. The preliminary agreement for the design was approved at the end of 2022. 
+| Contracts Breakdown 
+Contract/Section Extension (km) Type Customer Contract Maturity Capacity2 (MM m³/day) Readjustment index 
+Gasene 1,400 Legacy Petrobras Nov-33 30.3 46% Basket IGP4; 54% US PPI 
+Urucu-Coari-Manaus 800 Legacy Petrobras Nov-30 6.7 50% IGP-M; 50% IPCA 
+Pilar-Ipojuca 200 Legacy Petrobras Nov-31 15.0 IGP-M 
+Malha Nordeste1 2,100 Not-Legacy Varius - -3 - 
+Lagoa Parda-Vitória1 100 Not-Legacy Varius Annual 0.3 55% IGP-M; 45% IPCA 
+Conexão GNL Sergipe1 25 Access connection Eneva Oct-54 14.0 20% IGP-M; 80% IPCA 
+T otal ~4,600 
+1 Capacity contracted under the entry and exit regime through the Capacity Offer Portal (POC). 
+2 Reference volume stipulated in the contract for ship-or-pay purposes. The actual contracted volume may vary in each period. 
+3 Volume to be defined in the tariff review process promoted by the ANP. 
+4 1/3 IGP-M, 1/3 IPA-DI; 1/3 IGP-DI.
+
+[p. 53]
+Earnings Release 2Q26 
+8 
+Expans
+ion 
+Jirau Energia - Rondônia 
+Jirau Energia is responsible for the maintenance, operation and sale of energy generated by the Jirau 
+Hydroelectric Power Plant, located on the Madeira River, in the city of Porto Velho, state of Rondônia. The Jirau 
+Hydro Power Plant has had 50 generating units in operation since November 2016, representing a total installed 
+capacity of 3,750 MW. 
+On May 20, 2025, the Ministry of Mines and Energy 
+(MME) issued Order N° 2,946, establishing the new 
+physical guarantee amounts for Jirau HPP. The 
+defined values are 2,222.6 average MW for 
+operation at the 90 -meter extended level and 
+2,335.1 average MW for operation at the 90-meter 
+constant level. 
+Of the total increase in firm energy, one -third 
+belongs to the Bolivian government. As a result, the 
+portion allocated to Brazil corresponds to 2,182.2 
+average MW at the 90 -meter extended level and 
+2,257.2 average MW at the 90 -meter constant 
+level. 
+In 2Q26, Jirau Energia generated 2,613 average 
+MW, 4.6% higher than the 2,497 average MW for 
+2Q25, while the National Electrical System 
+Operator Uptime Ratio (FID) was 100% (data 
+subject to final Electric Energy Trade Board (CCEE) 
+booking). Out of the total generated in 2Q26, the 
+quota attributed to Brazil was 2,565 average MW, 
+discounting the quota pertaining to the Bolivian government. 
+On July 02, 2026, the Extraordinary General Meeting of ENGIE Brasil Energia approved the Valuation Report and 
+the proposed value of the shares, the issuance of Jirau Energia, and held by ENGIE Brasil Participações (EBP), for 
+their contribution to the paying in of shares within the context of the Distribution of the Primary Public Offering 
+of Shares of the Company for which value was set at R$ 5.74 billion. 
+On July 14, 2026, the Company’s Board of Directors approved the increase in capital stock reflecting this 
+operation. Settlement was concluded on July 17, 2026, with the transfer of EBP’s 40% stake in Jirau Energia to 
+ENGIE Brasil Energia. 
+| Ownership Structure 
+ 
+ 
+ 
+ 
+ 
+ 
+40% 
+40% 
+20% 
+Brasil Energia 
+Axia Energia 
+Mitsui & CO. 
+As of July 17, 2026 
+| Jirau Energia PPA’s Portfolio | Average MW 
+ 
+* Concession extension until August 16, 2047, approved by Aneel, pursuant 
+to Homologatory Resolution No. 3,598, dated July 14, 2026.
+
+[p. 54]
+Earnings Release 2Q26 
+9 
+PR
+Lot 2
+SC
+CE RN
+Lot 3
+Reserve Energy Auction – Jaguara Hydropower Plant 
+In the Capacity Reserve Auction Number 2/2026 in 
+the form of Power, the Company committed to sell 
+195.78 MW for a term of 15 years, delivery beginning 
+on August 1, 2030. Fixed annual revenue is R$ 270.4 
+million (baseline September 2025), restated annually 
+at the IPCA. 
+The expansion of installed capacity will be achieved by 
+motorizing two existing turbine bays at the Jaguara 
+Hydropower Plant , with the installation of two 116 
+MW turbines, totaling 232 MW. The estimated total 
+investment is approximately R$ 1.2 billion (baseline 
+March 2026). 
+Located on the Rio Grande River, on the Minas Gerais and São Paulo state divide, the Jaguara Hydropower Plant 
+has 424 MW of installed capacity (324 average MW of commercial capacity), the current concession expiring 
+June 2048. Currently, 70% of its commercial capacity is under a quota system while 30% is allocated to the Free 
+Contracting Environment (ACL). 
+During the second quarter of 2026, a start was made on the executive project and integrated planning of the 
+expansion with the aim of meeting the established time frame. 
+ 
+Colibri Transmission System – Paraná, Santa Catarina, Ceará and Rio Grande do Norte 
+Following a successful bid in Aneel’s Transmission Auction 01/2026, Lots 2 and 3 were nominated Colibri Sul and 
+Colibri A, B, C and D, respectively, and have the following characteristics: 
+• Lot 2 – Colibri Sul – construction of a transmission line of 230 kV of approximately 
+143 kilometers in the states of Paraná and Santa Catarina. The project enjoys local 
+and operational synergies with both Gralha Azul (already operating) and Graúna (in 
+the process of implementation) systems. The contracted RAP for this stretch is R$ 
+18.1 million and an investment of the order of R$ 193.6 million. 
+• Lot 3 - Colibri A, B, C and D – divided in sublots 3A, 3B, 3C and 3D, 
+involves the installation of five synchronous compensators in the states of 
+Ceará and Rio Grande do Norte, where the Company already has 
+generation assets, so enhancing operational efficiency and synergy. At an 
+estimated investment of R$ 1.4 billion, the contracted RAP for the lot is 
+R$ 104.7 million. 
+The term of the public transmission service concession, including 
+licensing, construction, operation, and maintenance of transmission 
+facilities, is 30 years, effective from the date the concession 
+agreement is signed, which took place on June 26, 2026. The deadline 
+for commencing operations is December 2029. 
+Block Location Contracted RAP (R$ million) Estimated Aneel Capex (R$ million) 
+2 Paraná and Santa Catarina 18.1 193.6 
+3 Ceará and Rio Grande do Norte 104.7 1,381.1 
+Total 122.8 1,574.7 
+ Jaguara HPP
+
+[p. 55]
+Earnings Release 2Q26 
+10 
+Proje
+c
+ts 
+under 
+I
+mpl
+ementation 
+Asa Branca Transmission System - Bahia, Minas Gerais and Espírito Santo 
+Acquired in the Transmission Auction 01/2023, promoted by Aneel, Block 5 was named Asa Branca and will have 
+around 1,000 kilometers of extension. Located in the states of Bahia, Minas Gerais and Espírito Santo the project 
+provides for the implementation of four 500kV single -circuit transmission lines. The concession period for the 
+public transmission service, including licensing, construction, ope ration and maintenance of the transmission 
+facilities will be 30 years from the start of the concession agreement, as of September 27, 2023. 
+On November 26, 2025, the 334 -kilometer 500kV Morro do Chapéu II - Poções III section was energized , 
+representing 32.3% of total RAP. 
+On April 17, 2026, the Federal Environmental Protection Agency (Instituto Brasileiro de Meio Ambiente e 
+Recursos Naturais) - Ibama, issued the full Installation License for the project, thus triggering a start on the 
+execution of activities with immediate effect. These currently consist of civil work on the transmission lines and 
+expansion of the substations. 
+The maximum deadline for starting operations is March 2029. 
+Block Location Contracted RAP (R$ million)1 Estimated Aneel Capex (R$ million) 
+5 Bahia, Minas Gerais 
+and Espírito Santo 
+296.0 2,667.0 
+Total 296.0 2,667.0 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+1 Value as of June 2026. 
+Medeiros Neto II Substation 
+Under operation 
+MG
+BA
+ES
+
+[p. 56]
+Earnings Release 2Q26 
+11 
+Graúna Transmission System – Santa Catarina, Paraná, Minas Gerais, São Paulo and Espírito 
+Santo 
+Winner of the Aneel Transmission Auction 02/2024, Block 1 
+was denominated Graúna and contemplates the 
+implantation of six new transmission lines, one of which is a 
+sectioning, totaling around 738 kilometers in length , in 
+addition to two new substations and five expansions of 
+existing substations, in the states of Santa Catarina, Paraná, 
+Minas Gerais and São Paulo. The scope of the project also 
+includes the operation of existing assets (brownfield), 
+totaling 162 kilometers of transmission lines and two 
+substations in the states of Minas Gerais and Espírito Santo. 
+The transmission line concession will be 30 years from the 
+signature date of the concession agreement, which occurred 
+on December 9, 2024. 
+On July 18, 2025, the Company assumed the operation of 
+the brownfield section , whose Annual Permitted Revenue 
+(RAP) is R$ 14. 5 million, equivalent to approximately 5% of 
+the project total. 
+In 2Q26, steady progress was made on the project within 
+the coordinates of its key implementation pillars, of 
+particular note being the issuance of the Preliminary License 
+for the stretch under the responsibility of the environmental agency for the state of Santa Catarina. Significant 
+progress was also made with environmental licensing and land usage/acquisition agreements. In addition, 
+mobilization orders were issued to beg in expansion work on the existing 345 -kV Jaguara and 345-kV Araxá III 
+substations. Engineering and procurement activities also continued a pace, including factory testing and 
+inspections. The project schedule remains on track according to the timeline set forth in the concession 
+agreement. 
+The maximum permitted term for construction is 60 months (December 2029), albeit with the possibility of 
+abbreviating the period. The project enjoys synergies with other assets in the Company’s portfolio, favoring 
+operational and strategic gains. 
+Block Location Contracted RAP (R$ million)1 Estimated Aneel Capex (R$ million) 
+1 Santa Catarina, Paraná, Minas Gerais, São Paulo and Espírito Santo 281.0 2,933.6 
+Total 281.0 2,933.6 
+ 
+ 
+ 
+ 
+ 
+ 
+1 Value as of June 2026. 
+SC
+PR
+MG
+SP
+BA
+GraúnaMS
+GO
+RJ
+ES
+Graúna
+Transmission assets 
+(Gralha Azul and Asa Branca) 
+Graúna greenfield lot – 
+under implementation 
+Graúna brownfield lot – 
+operational (5% of RAP) 
+Generation assets under operation
+
+[p. 57]
+Earnings Release 2Q26 
+12 
+Proje
+c
+ts 
+under Development 
+Projects under development are in the pipeline and at a feasibility studies stage, and awaiting adequate 
+commercial conditions and evidence of future pricing for investments. 
+Plants Source Location 
+Installed Capacity (MW) 
+Total Company’s Share 
+Santo Agostinho Solar Complex Solar Lajes and Pedro Avelino (RN) 509.0 509.0 
+Santo Agostinho Wind Complex - Phase II Wind Lajes and Pedro Avelino (RN) 279.0 279.0 
+Umburanas Wind Complex – Phase II Wind Umburanas (BA) 250.0 250.0 
+Campo Largo III Wind Complex Wind Umburanas and Sento Sé (BA) 250.0 250.0 
+Alvorada Solar Complex Solar Bom Jesus da Lapa (BA) 100.0 100.0 
+Total 1,388.0 1,388.0 
+Besides the abovementioned projects, the Company is also examining opportunities in areas with high energy 
+potential, as well as partnerships which could accelerate the development in line with the process of energy 
+transition of ENGIE Group. 
+Opera
+ting Development 
+Energy Generating Park and Transmission Lines Uptime 
+In 2Q26, the hydropower plants operated by ENGIE 
+Brasil Energia, recorded an internal uptime rate of 
+98.9%, (taking into account forced and programmed 
+stoppages), an increase of 5.5 p.p. compared to the 
+same quarter of the previous year, when it reached 
+93.4%. This variation is primarily due to the pre- and 
+post-modernization contractual inspections and tests 
+carried out at the Jaguara, Miranda, and Salto Osório 
+hydroelectric power plants during the second quarter 
+of 2025. 
+As to the wind plants, the 2Q26 internal energy 
+uptime rate was 94.5%, 2.1 p.p. greater than the 
+92.4% in 2Q25. The improvement was driven 
+primarily by the performance evolution of the Santo 
+Agostinho Wind Complex and the stabilization of availability at a positive level across the remaining plants. 
+Regarding the photovoltaic plants the uptime rate was 96.7% in 2Q26, an increase of 0.4 p.p. compared to 96.3% 
+recorded in 2Q25. This improvement reflected the implementation of measures aimed at enhancing operational 
+performance and the inclusion of the Assú Sol Photovoltaic Complex in the indicator's composition. 
+In the case of the transmission assets Gralha Azul, Novo Estado, Gavião Real, Graúna and Asa Branca, ENGIE 
+Brasil Energia continues to register high operational performance with a total uptime rate of 99. 96% in 2Q26 
+and 99.97% in the 6M26, indicators in line with those recorded in the same periods of 2025. 
+ 
+| Uptime Operating | Considering Scheduled and 
+Forced Shutdowns
+
+[p. 58]
+Earnings Release 2Q26 
+13 
+Energy 
+Ge
+neration 
+In the second quarter of 2026, electricity generation at plants operated 
+by ENGIE Brasil Energia totaled 9,511 GWh (4,355 average MW), a 
+result 6.5% higher than production in the 2Q25. 
+Out of the total generated, the hydropower plants accounted for 6,533 
+GWh (2,991 average MW) while complementary power plants 
+responded for 2,978 GWh (1,364 average MW). These results represent 
+an increase of 10.5% in generation from hydro power plants and a 
+reduction of 1.2% in complementary power plants, compared to 2Q25. 
+The year-on-year increase in hydroelectric generation in the second 
+quarter 2026 was largely driven by the acquisition of the Santo Antônio 
+do Jari and Cachoeira Caldeirão hydropower plants, the two 
+contributing with an output of 838 GWh (384 average MW) in 2Q26. 
+Also worth pointing out is that both the Amazonas and Araguari river 
+basins where these assets are located, reported above average flows 
+during the period in the light of a prolonged rainy season, this in turn 
+providing greater water availability and so driving plant performance. 
+By contrast, the Southern region of Brazil suffered from less favorable 
+hydrometeorological conditions with corresponding below -average 
+river flows at the hydropower plants with a consequent reduction in 
+water storage levels in the majority of reservoirs. In the case of the 
+Southeast/Central-West subsystem, the transition between rainy and 
+dry seasons, characteristic of the second quarter, also saw reduced 
+flows, limiting hydroelectric generation from the plants located in the 
+region. 
+The decrease in generation from the complementary plants in 2Q26 
+compared to 2Q25 was impacted by the increase in curtailment, more 
+especially in the case of wind power plants. In the quarter, these assets 
+generated 2,224 GWh (1,019 average MW), volume 6.0% lower than 
+recorded in the same period of 2025. 
+On the other hand, the Company’s solar plants recorded a positive 
+performance with generation of 650 GWh (298 average MW), an 
+increase of 26.0% compared with 2Q25. The growth was largely driven 
+by the entry into commercial operations of all the solar farms in the Assú 
+Sol Photovoltaic Complex, contrib uting with 324 GWh (148 average 
+MW) in the quarter, a volume 51.0% greater than posted in the same 
+period in 2025. In addition, the reconstructed Paracatu 4 Photovoltaic 
+Plant also boosted solar energy generation during the period. 
+Also worth remembering that the decrease in the Company’s hydropower generation does not necessarily cause 
+deterioration in economic -financial performance. Similarly, an increase in this type of generation does not 
+necessarily imply a growth in economic -financial pe rformance. This is due to the application of the Energy 
+Reallocation Mechanism (MRE), where the inherent hydrological risks of hydropower generation are shared 
+proportionally among MRE participants. 
+ 
+| Generation | Avg MW 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+| Generation by Complementary 
+Source | Avg MW
+
+[p. 59]
+Earnings Release 2Q26 
+14 
+Curtailment 
+According to the National Electric 

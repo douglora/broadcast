@@ -1,0 +1,2163 @@
+[p. 2]
+Dados de acesso para
+ plataforma Zoom:
+ Clique aqui
+
+[p. 3]
+SUMÁRIO
+1. RESULTADO CONSOLIDADO | IFRS E REGULATÓRIO ........................................................... 7
+2. EBITDA .................................................................................................................................... 9
+3. COMERCIALIZAÇÃO DE ENERGIA .......................................................................................... 12
+4. INVESTIMENTOS E PROJETOS DE EXPANSÃO ....................................................................... 13
+5. ENDIVIDAMENTO ................................................................................................................... 18
+6. EMPRÉSTIMO COMPULSÓRIO ............................................................................................... 20
+7. FLUXO DE CAIXA .................................................................................................................... 21
+8. DESEMPENHO FINANCEIRO ................................................................................................... 22
+8.1. Receitas Operacionais ........................................................................................................ 22
+8.2. Custos e Despesas Operacionais ........................................................................................ 26
+8.3. Participações Societárias .................................................................................................... 33
+8.4. Resultado Financeiro .......................................................................................................... 34
+8.5. Tributos Correntes e Diferidos ........................................................................................... 36
+9. DESEMPENHO OPERACIONAL ............................................................................................... 38
+9.1. Segmento de Geração ........................................................................................................ 38
+9.2. Segmento de Transmissão ................................................................................................. 41
+9.3. ESG ...................................................................................................................................... 42
+10. ANEXOS .................................................................................................................................. 43
+10.1. Anexo 1 - Demonstrações Contábeis ................................................................................. 43
+10.2. Anexo 2 - Nota sobre venda das Térmicas ......................................................................... 50
+10.3. Anexo 3 - Nota sobre a Incorporação de Furnas ................................................................ 50
+10.4. Anexo 4 - EBITDA IFRS ........................................................................................................ 51
+10.5. Anexo 5 - Receita Regulatória de Transmissão - Parcela de Ajuste (PA) ........................... 52
+10.6. Anexo 6 - Receita Societária de Geração ........................................................................... 53
+10.7. Anexo 7 - Receita Societária de Transmissão ..................................................................... 54
+10.8. Anexo 8 - Financiamentos e empréstimos concedidos (Recebíveis) ................................. 54
+10.9. Anexo 9 - Conciliação IFRS X Regulatório ........................................................................... 55
+ 
+Relatório de Resultados 4T24 3
+
+[p. 4]
+ELETROBRAS DIVULGA RESULTADOS DO 4º TRIMESTRE DE 2024
+Destaques 4T24
+▪ ROL regulatória: aumento de 4,2% atingindo R$ 10.704 milhões em relação ao 4T23: (+) crescimento da 
+receita de geração, refletindo aumentos de 6,6% no preço médio e de 6,0% no volume . O aumento do 
+volume foi explicado por maiores venda no ACL e no mercado de curto prazo. (-) redução da RAP de R$ 
+483 milhões em relação ao 4T23 em função da RTP 2024, sendo R$ 328 milhões referentes à PA 
+Postergação.
+▪ PMSO ajustado: R$ 2.040 milhões (aumento de 6,8% vs. 4T23), impactado pelos seguintes ajustes em 
+Pessoal:
+(a) R$ 182 milhões de ajuste em PDV;
+(b) R$ 69 milhões de custos de rescisão; 
+(c) R$ 42 milhões de comissões referentes ao empréstimo compulsório.
+▪ Provisões ajustadas: provisão líquida de R$ 406 milhões, impactada por:
+(a) menores perdas estimadas com crédito de liquidação duvidosa (PECLD), resultado da redução de 
+R$ 226 milhões com PECLD de consumidores e revendedores somado ao aumento de R$ 66 milhões 
+com perdas estimadas para eventos de outras naturezas;
+(b) a melhora de R$ 161 milhões em resultados de laudos atuariais. Do lado negativo, destaque para 
+algumas reversões que impactaram o resultado no 4T23 e não foram observadas neste trimestre.
+▪ EBITDA regulatório ajustado : R$ 5.089 milhões (redução de 6,4% vs 4T23), apesar do aumento da 
+receita de geração, o resultado foi impactado negativamente por: 
+(a) maiores custos com energia comprada para revenda;
+(b) menor receita de transmissão; 
+(c) maiores custos e despesas com pessoal, material, serviços e outros (PMSO).
+Por outro lado, os resultados positivos nas linhas de provisões e equivalência patrimonial ajudaram a 
+mitigar esses impactos.
+ 
+Relatório de Resultados 4T24 4
+
+[p. 5]
+Tabela 1 - Ajustes no EBITDA Regulatório (R$ mm)
+4T24
+EBITDA Regulatório 5.444
+PMSO 292
+PDV 182
+Custos com Rescisão 69
+Taxa de sucesso de ações ligadas ao empréstimo compulsório 42
+Provisão -552
+Provisão para Litígios 427
+PECLD - Financiamentos e empréstimos 4
+Contratos onerosos -251
+Perdas estimadas em investimentos -217
+Perda estimada por irrecuperabilidade de ativos (Impairment) -540
+Provisão para Implantação de Ações - Empréstimo Compulsório 23
+Outras receitas e despesas -95
+Total de Ajustes no EBITDA -355
+EBITDA Regulatório Ajustado 5.089
+▪ Lucro Líquido societário ajustado : R$ 517 milhões 1 (queda de 92,4% vs 3T24), refletindo o impacto 
+ocorrido no 3T24 do reconhecimento da remensuração dos ativos de transmissão após a RTP 2024 no 
+montante líquido de R$ 5.417 milhões.
+▪ Investimentos: R$ 2.775 milhões no 4T24 (-40,1% A/A), a redução foi principalmente devido aos 
+aportes de R$ 1.728 milhões que ocorreram no 4T23 sem contrapartida no 4T24 e aos menores 
+investimentos em implantação e ampliação com a conclusão do projeto de Coxilha Negra. Em 2024, os 
+investimentos totalizaram R$ 7.709 milhões (-14,5% A/A), refletindo a redução da necessidade de 
+aportes nas SPEs devido a melhora da gestão.
+▪ Remuneração aos acionistas: R$ 4.000 milhões de proposta de distribuição de dividendos referente 
+aos resultados de 2024, sendo que R$ 2.202 milhões foram pagos como dividendos intercalares em 
+janeiro de 2025. Os dividendos equivalem a 41% do lucro líquido do exercício da controladora reduzido 
+da reserva legal de 5% de 2024 e a 60% do lucro líquido regulatório, sendo assim a maior distribuição 
+de remuneração ao acionista da história. O total da remuneração aos acionistas, incluindo a recompra 
+de ações, é de R$ 4.115 milhões em 2024
+ 
+Relatório de Resultados 4T24 5
+1 A diferença para o número reportado no 3T24 se refere ao ajuste de remensuração regulatória da holding no montante de R$ 758 milhões. Embora a remensuração 
+tenha sido reconhecida naquele período, a correspondente despesa de imposto diferido foi considerada no 4T24.
+
+[p. 6]
+PRINCIPAIS INDICADORES FINANCEIROS E OPERACIONAIS 
+Tabela 2 - Destaques Operacionais
+4T24 4T23 ∆% 3T24 ∆%
+Geração e Comercialização
+Capacidade Instalada Geração (MW) 44.246 44.654 -0,9 44.191 0,1
+Garantia Física (MWm) (1) 21.915 22.294 -1,7 21.915 0,0
+Geração Líquida (TWh) 143,5 146,9 -2,4 113,2 26,8
+Energia Vendida ACR (TWh) (2)(5) 9,9 10,8 -8,3 13,7 -27,7
+Energia Vendida ACL (TWh) (3) 18,5 14,3 29,4 16,4 12,8
+Energia Vendida Cotas (TWh) (4) 8,7 11,6 -25,0 8,7 0,0
+Preço Médio ACR (R$/MWh) 216,07 220,23 -1,9 255,88 -15,6
+Preço Médio ACL (R$/MWh) 170,48 193,72 -12,0 154,15 10,6
+Transmissão
+Linhas de transmissão (km) 74.013 73.789 0,3 73.958 0,1
+RAP (R$mm) (6) 17.095 17.765 -3,8 17.015 0,5
+(1) A GF reflete: (a) a portaria GM/MME 544/21, que definiu a revisão dos valores de GF das usinas que tiveram renovação da concessão por conta da capitalização 
+(usinas sob regime de Cotas, Tucuruí, Itumbiara, Sobradinho, Mascarenhas de Moraes e Curuá-Una), com significativa redução na GF, valendo a partir de 2023; (b) a 
+portaria GM/MME 709/22, com Revisão Ordinária de GF de usinas hidrelétricas, valendo a partir de 2023, afetando várias usinas de Eletrobras; (c) o aumento da GF da 
+UTE Santa Cruz pelo fechamento do Ciclo Combinado, a partir do despacho ANEEL 481, de 23/fev/23, autorizando o início de operação comercial de nova unidade 
+geradora na usina; (d) saída da UTE Candiota III a partir de jan/24; (e) Inclusão das SPEs que passaram a ser consolidadas: UHEs Teles Pires (out/23), Baguari (out/23), 
+Retiro Baixo (nov/23) e Santo Antonio (nov/23); (f) inclusão das eólicas em expansão Casa Nova B e Coxilha Negra com a totalidade da GF em 2024.(2) Não inclui cotas. 
+(3) Inclui os contratos sob Lei 13.182/2015. (4) Os valores apresentados são de Garantia Física de cotas em GWh. (5) O aumento significativo do 3T24 em relação ao 2T24 
+deu-se por contratos ACR oriundos da Repactuação do Risco Hidrológico de Tucuruí, em montantes elevados apenas em julho e agosto. (6) RAP Homologada para o ciclo 
+regulatório em curso, associada aos módulos ativos ao final de cada período, incluindo os que eram ativos no começo do ciclo mais os que entraram em operação 
+comercial. Inclui contratos de transmissão das empresas Eletrobras Holding, Chesf, CGT Eletrosul, Eletronorte, TMT e VSB.
+Tabela 3 - Destaques Financeiros
+4T24 4T23 % 3T24 % 12M24 12M23 %
+Indicadores Financeiros
+Receita Bruta 13.914 11.858 17,3 12.960 7,4 47.725 44.475 7,3
+Receita Bruta Ajustado 13.914 11.858 17,3 12.960 7,4 47.725 44.495 7,3
+Receita Operacional Líquida 12.025 9.922 21,2 11.043 8,9 40.182 37.159 8,1
+Receita Oper. Líquida Ajustado 12.025 9.922 21,2 11.043 8,9 40.182 37.146 8,2
+Receita Oper. Líquida Regulatória 10.704 10.275 4,2 10.596 1,0 40.735 37.977 7,3
+EBITDA 5.027 1.055 376,7 12.159 -58,7 26.237 17.352 51,2
+EBITDA Ajustado 4.672 3.805 22,8 11.964 -60,9 25.488 19.262 32,3
+EBITDA Regulatório 5.444 2.856 90,6 6.970 -21,9 24.235 20.458 18,5
+EBITDA Regulatório Ajustado 5.089 5.434 -6,4 6.775 -24,9 23.487 22.195 5,8
+Margem EBITDA 41,8 10,6 31,2pp 110,1 -68,3pp 65,3 46,7 18,6
+Margem EBITDA Ajustado 38,9 38,4 0,5pp 108,3 -69,5pp 63,4 51,9 11,6
+Retorno sobre o Patrimônio (ROE) 8,5 3,9 4,6pp 8,4 0,1pp 8,5 3,9 4,6
+Dívida Bruta Ajustada 74.646 60.118 24,2 68.774 8,5 74.646 60.118 24,2
+Dívida Líquida Ajustado 37.671 40.130 -6,1 38.897 -3,2 37.671 40.130 -6,1
+Dív. Líq Aj./ EBITDA LTM Ajustado 1,5 2,1 -29,1 1,6 -6,4 1,5 2,1 -29,1
+Lucro Líquido 1.112 893 24,5 7.195 -84,5 10.381 4.395 136,2
+Lucro Líquido Ajustado 517 1.141 -54,7 6.805 -92,4 8.796 4.715 86,6
+Investimentos 2.775 4.632 -40,1 1.713 62,0 7.709 9.018 -14,5
+ 
+Relatório de Resultados 4T24 6
+
+[p. 7]
+DESTAQUES DOS RESULTADOS CONSOLIDADOS
+1. RESULTADO CONSOLIDADO | IFRS E REGULATÓRIO
+Tabela 4 - DRE IFRS (R$ mm)
+4T24 4T23 3T24 12M24 12M23
+IFRS Ajuste Ajustado Ajustado % A/A Ajustado % T/T Ajustado Ajustado % A/A
+Geração 7.986 0 7.986 7.221 10,6 8.348 -4,3 28.096 26.636 5,5
+Transmissão 5.773 0 5.773 4.558 26,6 4.566 26,4 19.293 17.432 10,7
+Outros 155 0 155 79 97,3 46 236,7 337 426 -20,9
+Receita Bruta 13.914 0 13.914 11.858 17,3 12.960 7,4 47.725 44.495 7,3
+(-) Deduções da Receita -1.889 0 -1.889 -1.936 -2,4 -1.918 -1,5 -7.544 -7.348 2,7
+Receita Líquida 12.025 0 12.025 9.922 21,2 11.043 8,9 40.182 37.146 8,2
+Energia revenda, rede, 
+combustível e construção -5.385 0 -5.385 -3.899 38,1 -4.014 34,2 -15.302 -11.810 29,6
+Pessoal, Material, Serviços e 
+Outros -2.332 292 -2.040 -1.911 6,8 -1.692 20,6 -6.784 -7.354 -7,7
+Provisões Operacionais 146 -552 -406 -571 -28,8 -251 61,7 -1.241 -770 61,1
+Remensurações regulatórias - 
+Contratos de Transmissão 0 0 0 0 0,0 6.130 -100,0 6.130 -12 -50.576
+Outras receitas e despesas 95 -95 0 0 0,0 0 0,0 0 0 0,0
+EBITDA, antes de Part. 
+Societárias 4.549 -355 4.194 3.542 18,4 11.216 -62,6 22.985 17.200 33,6
+Participações Societárias 478 0 478 264 81,5 749 -36,1 2.503 2.062 21,4
+EBITDA 5.027 -355 4.672 3.805 22,8 11.964 -60,9 25.488 19.262 32,3
+D&A -1.033 0 -1.033 -899 14,9 -990 4,3 -3.988 -3.621 10,1
+EBIT 3.995 -355 3.639 2.906 25,2 10.974 -66,8 21.500 15.641 37,5
+Resultado Financeiro -2.930 175 -2.755 -2.123 29,8 -2.225 23,8 -10.510 -9.827 6,9
+EBT 1.064 -180 884 784 12,9 8.749 -89,9 10.990 5.813 89,0
+Imposto de Renda e 
+Contribuição Social 48 -415 -367 358 -202,6 -1.944 -81,1 -2.195 -1.099 99,8
+Lucro Líquido1 1.112 -595 517 1.141 -54,7 6.805 -92,4 8.796 4.715 86,6
+ 
+Relatório de Resultados 4T24 7
+1 A diferença para o número reportado no 3T24 se refere ao ajuste de remensuração regulatória da holding no montante de R$ 758 milhões. Embora a remensuração 
+tenha sido reconhecida naquele período, a correspondente despesa de imposto diferido foi considerada no 4T24.
+
+[p. 8]
+Tabela 5 - DRE Regulatória (R$ mm)
+ 4T24 4T23 3T24 12M24 12M23
+ Regulatória Ajuste Ajustado Ajustado % A/A Ajustado % T/T Ajustado Ajustado % A/A
+Geração 8.018 0 8.018 7.221 11,0 8.001 0,2 28.694 26.636 7,7
+Transmissão 4.419 0 4.419 4.911 -10,0 4.467 -1,1 19.250 18.250 5,5
+Outros 156 0 156 79 98,5 45 245,4 335 426 -21,4
+Receita Bruta 12.593 0 12.593 12.211 3,1 12.513 0,6 48.279 45.312 6,5
+(-) Deduções da Receita -1.889 0 -1.889 -1.936 -2,4 -1.918 -1,5 -7.544 -7.348 2,7
+Receita Líquida 10.704 0 10.704 10.275 4,2 10.596 1,0 40.735 37.964 7,3
+Energia revenda, rede, 
+combustível e construção -3.757 0 -3.757 -2.714 38,4 -3.135 19,8 -11.717 -9.243 26,8
+Pessoal, Material, Serviços e 
+Outros -2.366 292 -2.074 -1.913 8,4 -1.702 21,9 -6.857 -7.346 -6,6
+Provisões Operacionais 402 -552 -150 -463 -67,6 405 -137,0 -725 -746 -2,8
+Remensurações regulatórias - 
+Contratos de Transmissão 0 0 0 0 0,0 0 0,0 0 0 0,0
+Outras receitas e despesas 95 -95 0 0 0,0 0 0,0 0 0 0,0
+EBITDA, antes de Part. 
+Societárias 5.079 -355 4.724 5.185 -8,9 6.165 -23,4 21.436 20.630 3,9
+Participações Societárias 365 0 365 249 46,5 610 -40,2 2.051 1.565 31,0
+EBITDA 5.444 -355 5.089 5.434 -6,4 6.775 -24,9 23.487 22.195 5,8
+D&A -1.620 0 -1.620 -1.581 2,5 -1.490 8,7 -6.038 -5.569 8,4
+EBIT 3.824 -355 3.469 3.853 -10,0 5.285 -34,4 17.448 16.626 4,9
+Resultado Financeiro -3.210 175 -3.035 -2.122 43,0 -2.351 29,1 -11.201 -9.409 19,0
+EBT 614 -180 434 1.731 -74,9 2.934 -85,2 6.247 7.218 -13,4
+Imposto de Renda e 
+Contribuição Social 1.078 -415 663 205 223,3 -1.168 -156,8 -791 -1.272 -37,8
+Lucro Líquido, continuadas 1.692 -595 1.097 1.936 -43,3 1.766 -37,9 5.456 5.946 -8,2
+ 
+Relatório de Resultados 4T24 8
+
+[p. 9]
+2. EBITDA
+No 4T24, o EBITDA regulatório ajustado totalizou R$ 5.089 milhões, redução de R$ 345 milhões em relação 
+ao 4T23. Apesar do aumento da receita de geração, o resultado foi impactado negativamente por: 
+(a) maiores custos com energia comprada para revenda;
+(b) menor receita de transmissão;
+(c) maiores custos e despesas com pessoal, material, serviços. 
+Por outro lado, os resultados positivos nas linhas de provisões e equivalência patrimonial ajudaram a 
+mitigar esses impactos.
+Tabela 6 - EBITDA Regulatório Ajustado (R$ mm)
+4T24 4T23 % 3T24 % 12M24 12M23 %
+Receita Líquida (1) 10.704 10.275 4,2 10.596 1,0 40.735 37.964 7,3
+- Energia revenda, encargos de 
+rede, combustível -3.757 -2.714 38,4 -3.135 19,8 -11.717 -9.243 26,8
+- Pessoal, Material, Serviços e 
+Outros (2) -2.074 -1.913 8,4 -1.702 21,9 -6.857 -7.346 -6,6
+- Provisões Operacionais (1) -150 -463 -67,6 405 -137,0 -725 -746 -2,8
+- Outras receitas e despesas 0 0 0,0 0 0,0 0 0 0,0
++ Participações Societárias 365 249 46,5 610 -40,2 2.051 1.565 31,0
+EBITDA Regulatório Ajustado 5.089 5.434 -6,4 6.775 -24,9 23.487 22.195 5,8
+(1) Reconhece os valores de R$ 482 milhões no 2T24 e R$ 432 milhões no 1T24 referentes à receita proveniente da Amazonas Energia. Em função da inadimplência, esses 
+saldos são inteiramente reconhecidos, também, nas provisões operacionais. No que diz respeito ao 3T24, o faturamento referente à Amazonas Energia continuou sendo 
+reconhecido na receita. Como parte do faturamento de Balbina continuou e continua inadimplente, foi provisionado o valor de R$ 29 milhões no 3T24 e R$ 32 milhões 
+no 4T24. Já o faturamento das térmicas referente ao 3T24 não foi provisionado, enquanto parte do valor inadimplido anterior ao 3T24, de R$ 376 milhões, foi revertido 
+da provisão. No 4T24, o faturamento das térmicas foi reconhecido, sem nenhum provisionamento correspondente.
+(2) No 3T24, foram ajustados no EBITDA os gastos não recorrentes de R$ 89 milhões, reconhecidos em outras despesas operacionais referentes a condenações judiciais 
+em causas anteriores a 2022. Com a elaboração das demonstrações contábeis do exercício de 2024, foi identificado que parte das despesas com condenações judiciais 
+reconhecidas no 2T24, no valor de R$ 118 milhões, também estão relacionadas a causas anteriores a 2022. O ajuste deste valor como não recorrente foi feito 
+retroativamente neste trimestre. Com essa reclassificação o valor para os 9M24 desta divulgação apresenta diferença de R$118 milhões para o reportado 
+anteriormente. 
+A receita de transmissão foi de R$ 4.419 milhões no 4T24, redução de R$ 492 milhões frente ao 4T23, 
+explicada, principalmente, pelas reduções da Receita Anual Permitida (RAP) e da parcela de ajustes (PA), 
+reposicionadas após os processos de Reajuste Tarifário Periódico (RTP) e Reajuste Anual (RA) para o ciclo 
+regulatório de 2024-2025, iniciado em julho de 2024.
+A receita de geração foi de R$ 8.018 milhões no 4T24, aumento de R$ R$ 796 milhões milhões frente ao 
+4T23, devido principalmente às maiores receitas no ambiente de comercialização livre (ACL) de R$ 450 
+milhões e no mercado de curto prazo de R$ 981 milhões , que foram parcialmente compensadas pelas 
+menores receitas no ambiente de comercialização regulado (ACR) de R$ 190 milhões e das usinas cotistas 
+de R$ 296 milhões. 
+Esse aumento de receita, contudo, foi mais que compensado pelos custos associados à geração, que 
+subiram R$ 1.042 milhões , atingindo R$ 3.757 milhões no 4T24. Destacam-se os gastos com energia 
+comprada para revenda, que aumentaram R$ 1.136 milhões, enquanto os outros dois componentes desses 
+custos, gastos com encargos de uso de rede e com combustível para produção de energia, cairam em R$ 23 
+milhões e R$ 71 milhões, respectivamente.
+Ainda no segmento de geração, destaca-se a evolução dos recebimentos ligados à energia vendida pelas 
+térmicas do Grupo Eletrobras à Amazonas Energia (AmE), após a retomada de seu reconhecimento no 
+3T24. No 4T24, a receita bruta regulatória com a energia vendida por térmicas e Balbina foi de R$ 1,4 
+bilhão. Cerca de 60% desse valor foi faturado como Contrato de Energia de Reserva (CER) e recebido por 
+meio de Encargo de Energia de Reserva. Os 40% restantes faturados contra a AmE estão distribuídos em 3 
+categorias: 
+ 
+Relatório de Resultados 4T24 9
+
+[p. 10]
+(a) contratos em processo de conversão para CER (15% do total);
+(b) contratos de venda de térmicas classificadas como produtores independentes (PIEs) e que 
+foram pagos pela AmE (15% do total);
+(c) energia vendida pela UHE Balbina (10% do total).
+A única parcela inadimplida, de R$ 32 milhões, refere-se a cerca de 25% da energia vendida pela UHE 
+Balbina, o que explica a diferença entre a receita bruta regulatória e societária. No ambiente societário esse 
+faturamento não foi reconhecido como receita, enquanto no regulatório foi contabilizado e integralmente 
+provisionado.
+Tabela 7 - Amazonas Energia (R$ mm)
+Regulatório Societário
+Receita Bruta, UHE Balbina 129 97
+Adimplido 97 97
+Inadimplido 32 0
+Provisão, UHE Balbina -32 0
+Os gastos com Pessoal, Material, Serviços e Outros (PMSO) aumentaram R$ 161 milhões, atingindo 
+R$ 2.074 milhões no 4T24, principalmente devido às maiores despesas com a contratação de serviços 
+jurídicos relacionadas à estratégia da companhia de redução de contingências, que contribui para mitigação 
+estrutural de passivos, e ao aumento em tributos e encargos, reflexo de contribuições feitas ao Centro de 
+Pesquisas de Energia Elétrica (CEPEL).
+Já as provisões caíram de R$ 463 milhões no 4T23 para R$ 150 milhões no 4T24, queda de R$ 313 milhões, 
+com destaque para:
+(a) a melhora de R$ 161 milhões em perdas estimadas com crédito de liquidação duvidosa (PECLD), 
+resultado da redução de R$ 266 milhões com PECLD de consumidores e revendedores somado ao 
+aumento de R$ 66 milhões com eventos de outras naturezas; 
+(b) a melhora de R$ 161 milhões em resultados de laudos atuariais. Do lado negativo, destaque 
+para algumas reversões que impactaram o resultado no 4T23 e não foram observadas neste 
+trimestre.
+Por fim, o resultado de equivalência patrimonial referente a participações detidas mostrou melhora de R$ 
+116 milhões, atingindo R$ 365 milhões no 4T24.
+ 
+Relatório de Resultados 4T24 10
+
+[p. 11]
+EBITDA IFRS Ajustado
+O EBITDA IFRS Ajustado atingiu R$ 4.672 milhões no 4T24, aumento de 22,8% em relação ao 4T23. Ao 
+contrário do resultado regulatório, o incremento da receita de transmissão e da geração , a redução das 
+provisões e a melhora na contribuição das participações societárias mais do que compensaram o aumento 
+dos gastos com energia comprada para revenda e o aumento das despesas de PMSO.
+Tabela 8 - EBITDA IFRS Ajustado (R$ mm)
+4T24 4T23 % 3T24 % 12M24 12M23 %
+Receita Líquida 12.025 9.922 21,2 11.043 8,9 40.182 37.146 8,2
+- Energia revenda, encargos de rede, 
+combustível -5.385 -3.899 38,1 -4.014 34,2 -15.302 -11.810 29,6
+- Remensuração Regulatória - Contratos 
+de Transmissão 0 0 0,0 6.130 -100,0 6.130 -12 N/A
+- Pessoal, Material, Serviços e Outros -2.040 -1.911 6,8 -1.692 20,6 -6.784 -7.354 -7,7
+- Provisões Operacionais -406 -571 -28,8 -251 61,7 -1.241 -770 61,1
+- Outras receitas e despesas 0 0 0,0 0 0,0 0 0 0,0
++ Participações Societárias 478 264 81,5 749 -36,1 2.503 2.062 21,4
+EBITDA IFRS Ajustado 4.672 3.805 22,8 11.964 -60,9 25.488 19.262 32,3
+A tabela com a construção do EBITDA de acordo com a Resolução CVM 156 de 2022 encontra-se no Anexo 4 deste documento. 
+ 
+Relatório de Resultados 4T24 11
+
+[p. 12]
+3. COMERCIALIZAÇÃO DE ENERGIA
+As empresas Eletrobras venderam 37,1 TWh de energia no 4T24, aumento de 1,1% em relação aos 36,7 
+TWh negociados no 4T23. Os volumes vendidos incluem a energia das usinas sob o regime de cotas, 
+renovadas pela Lei 12.783/2013, bem como das usinas sob regime de exploração ACL e ACR, e de 
+Sociedades de Propósito Específico, SPEs, consolidadas (UHEs Teles Pires, a partir de out/23; Baguari, a 
+partir de out/23; Retiro Baixo, a partir de nov/23; e Santo Antônio a partir de nov/23). 
+Tabela 9 - Balanço Energético 4T24 (MWmed)
+2024 2025 2026 2027
+Recursos sem impacto no balanço (1) 1.192 0 0 0
+Recursos (A) 14.523 15.750 16.540 17.624
+Recursos Próprios (2) (3) (4) (5) 12.894 14.159 15.406 16.572
+ Hidráulico 12.704 13.911 15.158 16.324
+ Eólico 189 248 248 248
+Compra de Energia(6) 1.629 1.591 1.134 1.052
+Limite => Inferior Superior Inferior Superior Inferior Superior
+Vendas (B) 12.882 10.438 12.938 8.519 10.519 6.570 8.070
+ACR – Exceto cotas 3.635 3.438 3.519 3.070
+ACL – Contratos Bilaterais + Mercado de Curto 
+Prazo realizado (range)(6) 9.247 7.000 9.500 5.000 7.000 3.500 5.000
+Preços Médios Contratos realizados
+Limite => Inferior Superior Inferior Superior Inferior Superior
+Preço Médio de Contratos de Venda (ACR e ACL 
+- R$/MWh) 180 170 180 180 200 185 215
+ Saldo (A - B) 1.641 5.312 2.812 8.021 6.021 11.054 9.554
+ Saldo considerando estimativa de hedge (9) 0 2.780 280 5.262 3.262 8.083 6.583
+Energia Descontratada considerando estimativa 
+de hedge (9) 0% 18% 2% 32% 20% 46% 37%
+Contratos celebrados até 30/12/2024. 
+Cabe ressaltar que no balanço estão sendo consideradas as SPEs consolidadas por Eletrobras: UHE Santo Antônio (a partir do 3T22), UHEs Baguari e Retiro Baixo (a partir 
+do 4T23), seja nos recursos, nas vendas ou nos preços médios. Da mesma forma está sendo considerada a SPE consolidada pela Eletronorte: UHE Teles Pires (a partir do 
+4T23).
+1. Não estão incluídos no balanço, seja nos recursos, requisitos (vendas) ou preços médios, os contratos dos Produtores Independentes de Energia (PIEs) advindos do 
+processo de desverticalização da Amazonas Distribuidora, os contratos das usinas térmicas por disponibilidade e as Cotas de Garantia Física. Esses recursos estão 
+apresentados apenas em 2024, e desconsiderados, por conta de desinvestimentos, para os anos seguintes.
+2. Nos Recursos Próprios estão incluídas as usinas da descotização (novos PIEs) e as Novas Outorgas (Sobradinho, Itumbiara, Tucuruí, Curuá-Una e Mascarenhas de 
+Moraes). Para os empreendimentos hidrelétricos, foi considerada uma estimativa de GFIS2, ou seja, a Garantia Física considerando os Fatores de Ajustes em função das 
+Perdas Internas, Perdas na Rede Básica e Disponibilidade e ajustes devido às particularidades do portfólio. 
+3. Estão considerados os valores revistos de Garantia Física conforme definido na Portaria Nº 709/GM/MME, de 30 de novembro de 2022 
+4. Com a descotização, as usinas atualmente em regime de cotas passam a ter uma nova concessão sob o regime de Produtor Independente de Energia (PIE), ocorrendo 
+de forma gradual em um período de 5 anos a partir de 2023. Os valores de Garantia Física foram definidos na Portaria GM/MME Nº 544/21. 
+5. Consideradas as novas outorgas de concessão a partir de 2023 para as usinas de Sobradinho, Itumbiara, Tucuruí, Curuá-Una e Mascarenhas de Moraes, cujos valores 
+de Garantia Física foram definidos na Portaria GM/MME Nº 544/21.
+6. Os saldos de 2025 a 2027 consideram em torno de 200 MWmed de transações intercompany, com efeito nas linhas de compra de energia e vendas no ACL.
+Tabela 10 - Cotas de Garantia Física de Usinas Hidrelétricas (MWmed)
+2024 2025 2026 2027
+Cotas de Garantia Física 3.939 2.626 1.313 0
+7. Não está incluída aqui a Garantia Física da UHE Jaguari, de 12,7 MWmed, cuja concessão está sob administração provisória da Eletrobras. 
+8. A descotização ocorre de forma gradual em um período de 5 anos a partir de 2023. Os valores de Garantia Física considerados a partir de 2023 foram os definidos na 
+Portaria GM/MME Nº 544/21.
+9. Os valores apresentam uma estimativa da energia descontratada. Para 2024 considerou-se o valor estimado de 87,1%. Para os demais anos considerou-se um valor 
+médio histórico de GSF, de 2018 a 2023, de 81,8%. Fonte: CCEE, obtido no site da CCEE, no seguinte link: https://www.ccee.org.br/dados-e-analises/dados-geracao, na 
+opção MRE no painel. Cabe ressaltar que trata-se apenas de uma estimativa, baseada em fatos ocorridos no passado. 
+ 
+Relatório de Resultados 4T24 12
+
+[p. 13]
+4. INVESTIMENTOS E PROJETOS DE EXPANSÃO
+Tabela 11 - Investimentos Realizados (R$ mm)
+4T24 4T23 % 3T24 % 12M24 12M23 %
+Geração Corporativo 827 1.238 -33,2 534 54,8 2.595 2.727 -4,9
+Implantação /Ampliação 283 492 -42,4 216 31,0 1.210 1.183 2,3
+Manutenção 543 746 -27,1 318 70,9 1.385 1.545 -10,3
+Transmissão Corporativo 1.442 1.372 5,0 966 49,3 3.706 3.528 5,0
+Ampliação 136 80 70,1 93 46,1 255 214 19,1
+Reforços e Melhorias 1.266 1.194 6,0 830 52,5 3.304 3.062 7,9
+Manutenção 40 98 -59,5 42 -5,8 147 252 -41,6
+Infraestrutura e Outros 507 295 72,1 213 137,5 922 552 67,0
+SPEs1 0 1.728 -100,0 0 0,0 486 2.211 -78,0
+Geração - Aportes 0 53 -100,0 0 0,0 478 109 339,2
+Geração - Aquisição 0 1.098 -100,0 0 0,0 0 1.496 -100,0
+Transmissão - Aportes 0 0 0,0 0 0,0 8 29 -72,1
+Transmissão - Aquisição 0 577 -100,0 0 0,0 0 577 -100,0
+Total 2.775 4.632 -40,1 1.713 62,0 7.709 9.018 -14,5
+1 No 2T24 e no 12M24, o aporte de capital de R$ 478 milhões em Geração teve como destino a empresa Teles Pires para fins de equacionamento da estrutura de capital.
+ 
+Relatório de Resultados 4T24 13
+
+[p. 14]
+Transmissão
+Os investimentos em transmissão totalizaram R$ 1.442 milhões no 4T24, com destaque para os 
+investimentos em reforços e melhorias (R&M) que atingiram R$ 1.266 milhões, e estão distribuídos da 
+seguinte forma:
+Tabela 12 - Investimentos em Transmissão 1
+Transmissão (R$ mm) 4T24
+Reforços e Melhorias 1.266
+Eletrobras Holding 507
+Eletronorte 173
+Chesf 415
+CGT Eletrosul 170
+Manutenção 40
+Eletrobras Holding 11
+Eletronorte 25
+Chesf 0
+CGT Eletrosul 4
+Ampliação 136
+Eletrobras Holding 88
+Eletronorte 48
+Chesf 0
+CGT Eletrosul 0
+Total 1.442
+▪ Eletrobras Holding - R$ 507 milhões , sendo 
+R$ 398 milhões de grande porte e R$ 109 
+milhões de pequeno porte, com destaque 
+para as Subestações (SEs) Ivaiporã, Itaberá, 
+Grajaú, Vitória, Poços de Caldas, 
+Adrianópolis, Araraquara, Brasília, Viana e 
+Campinas.
+▪ Eletronorte - R$ 173 milhões , sendo R$ 114 
+milhões de grande porte e R$ 59 milhões de 
+pequeno porte, com destaque para as SEs 
+Porto Velho, Imperatriz, Marabá, Vila do 
+Conde e Colinas.
+▪ Chesf – R$ 415 milhões , dos quais R$ 207 
+milhões de grande porte e R$ 208 milhões de 
+pequeno porte, com ênfase nas SEs Delmiro 
+Gouveia, Messias, Jardim e Teresina, Bongi, 
+Poções, Piauí, Jacareacanga e Jardim. 
+▪ CGT Eletrosul - R$ 170 milhões, sendo R$ 136 
+milhões de grande porte e R$ 34 milhões de 
+pequeno porte, com destaque para as SEs 
+Gravataí, Curitiba, Areia, Assis e Blumenau. 
+ 
+Relatório de Resultados 4T24 14
+1 Para mais informações sobre a Composição de Eletrobras Holding, consulte o Anexo 3
+
+[p. 15]
+Geração
+Os investimentos em geração totalizaram R$ 827 milhões no 4T24 sendo os principais valores despendidos 
+em:
+ Tabela 13 - Investimentos em Geração 1
+Geração (R$ mm) 4T24
+Manutenção 543
+Eletrobras Holding 160
+Eletronorte 218
+Chesf 155
+CGT Eletrosul 11
+Ampliação 283
+Eletrobras Holding 9
+Eletronorte 0
+Chesf 42
+CGT Eletrosul 233
+Total 827
+▪ Ampliação: R$ 232 milhões pela CGT 
+Eletrosul na ampliação do Parque Eólico de 
+Coxilha Negra, com a operação comercial dos 
+aerogeradores no 3T24, e R$ 41 milhões pela 
+Chesf para a usina eólica de Casa Nova B.
+▪ Manutenção: R$ 218 milhões pela 
+Eletronorte, com destaque para a UHE 
+Tucuruí e as UTEs Aparecida e Mauá 3; R$ 
+155 milhões pela Chesf na substituição de 
+equipamentos nas usinas Paulo Afonso IV e 
+Sobradinho, e R$ 126 milhões por Furnas, 
+destacando-se as UHEs de Itumbiara, 
+Corumbá, Mascarenhas de Moraes, Santa 
+Cruz e Manso.
+ 
+Relatório de Resultados 4T24 15
+1 Para mais informações sobre a Composição de Eletrobras Holding, consulte o Anexo 3
+
+[p. 16]
+Projetos de Expansão - Transmissão
+Empreendimentos de Grande Porte
+▪ Amostragem: 241 projetos1, incluindo o projeto de Revitalização do Sistema HVDC de Itaipu. Ao longo 
+do 4T24, houve redução de 21 projetos, sendo 20 energizados e 1 revogado, e a adição de 17 novas 
+autorizações emitidas pelo regulador.
+▪ Investimento estimado: R$ 13,2 bilhões ( excluindo o projeto de Revitalização do Sistema HVDC de 
+Itaipu, dado que a Eletrobras é responsável apenas por sua execução, não se beneficiando de receita 
+associada e sendo integralmente reembolsada pelo valor desembolsado).
+▪ RAP adicional associada: R$ 1,8 bilhão entre 2025-2030.
+▪ Leilões: destacam-se as seguintes SPEs (Sociedades de Propósito Específico): Nova Era Janapu, que já 
+fazia parte da amostra desde o 2T24; Nova Era Catarina, Nova Era Ceará, Nova Era Integração e Nova 
+Era Teresina, incluídas no 3T242.
+Empreendimentos de Pequeno Porte
+▪ Amostragem: base de dados do Sistema de Gerenciamento dos Planos de Melhorias e Reforços 
+(SGPMR).
+▪ Empreendimentos: 10.003 eventos de pequeno porte, em implantação ou a serem implementados, 
+sendo 9.446 de melhoria e 584 de reforço.
+Projetos de Expansão - Geração
+Dois projetos encontram-se em obras e quando concluídos, adicionarão cerca de 330 MW à capacidade 
+instalada da Eletrobras.
+Parque Eólico Coxilha Negra (302 MW de capacidade, localizado no Rio Grande do Sul)
+▪ Investimento estimado: R$ 2,4 bilhões
+▪ Conclusão da montagem de 71 dos 72 aerogeradores; 36 estavam operando comercialmente e 
+outros 26 operando em teste.
+▪ Início de operação em teste em fevereiro de 2024, e início de forma escalonada da operação 
+comercial, a partir de julho de 2024.
+▪ Avanço físico de implantação: 97%.
+▪ Previsão de início da operação: 2T25.
+Usina Eólica Casa Nova B (27 MW de capacidade, localizado na Bahia)
+▪ Investimento estimado: R$ 151 milhões
+▪ Obras físicas: conclusão da construção civil da Rede de Média Tensão (RMT) e da Entrada de Linha 
+(EL).
+▪ RMT: as conexões da RMT serão concluídas após finalização da montagem dos aerogeradores, 
+prevista para o 4T25. Ao final do 4T24, 18 dos 35 aerogeradores estavam concluídos.
+ 
+Relatório de Resultados 4T24 16
+1 Referentes a reforços, melhorias e empreendimentos de leilão. Considera os projetos cadastrados no Sistema de Gestão da Transmissão (SIGET) da ANEEL. Os projetos 
+são incluídos quando adicionados ao sistema, e excluídos quando são cancelados ou entram em operação comercial. Os 241 empreendimentos adicionarão cerca de 
+2.400 km de LT e 11.500 MVA em subestações.
+2 Cada uma das 5 SPEs constituídas detém os contratos assinados nos leilões de transmissão dos últimos anos. A SPE Nova Era Janapu detém o contrato Nº 09/2023-
+ANEEL do 4º lote do leilão 01-2023; a SPE Nova Era Teresina detém o contrato Nº 04/2024-ANEEL do 1º lote do leilão 01-2024; a SPE Nova Era Ceará detém o contrato Nº 
+06/2024-ANEEL do 3º lote do leilão 01-2024; a SPE Nova Era Integração detém o contrato Nº 08/2024-ANEEL do 5º lote do leilão 01-2024; e a SPE Nova Era Catarina 
+detém o contrato Nº 12/2024-ANEEL do 9o lote do leilão 01-2024.
+
+[p. 17]
+▪ Outros avanços: no 4T24 foram entregues equipamentos como hubs, geradores, além de outros 
+itens de menor porte como cabos e conectores.
+▪ Avanço físico de implantação: 86%, considerando as duas fases do projeto; Casa Nova A - que 
+representa 60% do projeto - está 100% concluída, enquanto Casa Nova B - que representa os outros 
+40% - encontra-se 66% concluída.
+▪ Previsão de início da operação: 1T26
+ 
+Relatório de Resultados 4T24 17
+
+[p. 18]
+5. ENDIVIDAMENTO
+A dívida líquida totalizou R$ 37,7 bilhões no 4T24, redução de R$ 1.226 milhões em relação ao 3T24 e redução 
+de R$ 2,5 bilhões comparada ao 4T23. A relação Dívida líquida/EBITDA regulatório ajustado alcançou 1,6x no 
+4T24, 1,6x no 3T24 e de 1,8x no 4T23. 
+Como resultado da gestão de passivos e do aumento de 50 bps da taxa de juros básica (Selic), o prazo médio 
+da dívida da Companhia foi alongado em 10,7 meses e o custo médio total passou de CDI + 1,5% a.a. para CDI 
++ 0,1% a.a. em relação ao 4T23.
+Tabela 14 - Dívida Líquida (R$ mm)
+31/12/2024 30/09/2024 31/12/2023
+(+) Dívida Bruta 75.621 68.879 59.460
+(+) Derivativos (hedge cambial) Líquido -974 -105 658
+(-) (Caixa e Equivalente de caixa + Títulos e Valores Mobiliários Circulante) 35.524 28.378 18.967
+(-) Caixa Restrito para Empréstimos e Financiamentos 813 875 314
+(-) Financiamentos a Receber 639 624 628
+(-) Saldo líquido do Ativo Financeiro de Itaipu 0 0 80
+Dívida Líquida 37.671 38.897 40.130
+Captações em 2024
+Ao longo de 2024, foram realizadas diversas captações pelas empresas do Grupo Eletrobras, que totalizaram 
+R$ 31,9 bilhões:
+▪ Em abril, houve a primeira emissão conjunta e coordenada da Eletrobras, marcando o início da utilização 
+de instrumentos padronizados, resultando em menores prazos para emissão e redução de custos para a 
+Companhia. No total, foram emitidos, aproximadamente, R$ 5,5 bilhões em debêntures, dos quais cerca 
+de R$ 3,4 bilhões foram destinados à amortização de dívidas em 2024. Além disso, ainda em abril, a SPE 
+Transnorte Energia1, por meio de sua 3ª emissão de debêntures, captou R$ 450 milhões, com taxa CDI + 
+0,94% e vencimento em 2 anos.
+▪ Em junho, foi concluída a segunda emissão conjunta, composta por: a) R$ 4,9 bilhões em debêntures na 
+Chesf, com custo IPCA + 6,77% a.a. e prazo de 7 anos; e b) R$ 2,0 bilhões em Notas Comerciais e R$ 4,0 
+bilhões em dívidas bancárias na Holding, com custos de, respectivamente, CDI + 0,75% a.a. e variando de 
+CDI + 0,69% a 1,84% a.a., ambas com vencimento em 2 anos.
+▪ Em setembro, os bonds foram emitidos ao custo de 6,50% a.a. e com vencimento em 10 anos. Além disso, 
+a SPE Transnorte Energia 1, por meio de sua 4ª emissão de debêntures, captou R$ 450 milhões, com taxa 
+CDI + 0,49% e vencimento em 24 meses, e firmou uma cédula de crédito bancário com o Banco da 
+Amazônia, no valor de R$ 800 milhões, com taxa IPCA + 4,4477% a.a. e vencimento em dezembro de 2041.
+▪ Paralelamente, foram realizadas, também em setembro, as seguintes captações: a) 4ª emissão de 
+debêntures da Chesf e a 6ª emissão de debêntures da Eletronorte, ambas no valor de R$ 1,9 bilhão, com 
+custo variando de CDI + 0,85% a 1,05% a.a. e prazo de 7 e 10 anos; e b) a 6ª emissão de debêntures da 
+ 
+Relatório de Resultados 4T24 18
+1 A SPE Transnorte Energia é responsável pela construção da linha de transmissão de 500 kV entre Manaus e Boa Vista que interligará o estado de Roraima ao Sistema 
+Interligado Nacional (SIN). Atualmente a Eletronorte possui 50,4% de participação na SPE, sendo que em abr/23, foi firmado um acordo de acionistas, prevendo o aumento 
+progressivo da participação da Eletronorte na SPE nos próximos anos, observadas as anuências que se fizerem necessárias, com uma opção de compra do empreendimento 
+após sua entrada em operação.Vale destacar que a dívida dessa SPE não é consolidada na dívida da Eletrobras.
+
+[p. 19]
+Eletrobras, no valor de R$ 1,6 bilhão, custo IPCA + 6,88% a.a. e prazo de 10 ano; As debêntures foram 
+liquidadas no início de outubro. 
+▪ Em dezembro, a CGT Eletrosul captou R$ 1,0 bilhão por meio de duas dívidas bancárias ao custo, de CDI + 
+0,19% e CDI + 0,30% a.a., ambas com vencimento em 1 ano. Neste mesmo mês, a Holding realizou a 
+contratação de financiamento de US$ 400 milhões, com garantia da Agência de Crédito à Exportação da 
+Itália – Servizi Assicurativi Del Commercio Estero SPA (SACE), ao custo de SOFR + 1,40% a.a., com swap 
+cambial CDI + 1,30%, e prazo de 10 anos.
+Gráfico 1 - Empréstimos e Financiamentos a Pagar (R$ bilhões)
+8,3 5,4 5,1 4,4 5,5 6,5
+14,012,8
+7,2 7,0 6,0 6,7 7,2
+28,6
+Controladora Consolidado
+2025 2026 2027 2028 2029 2030 Após 2031
+Tabela 15 - Composição da Dívida Bruta
+Credor Indexador Custo Médio (ao ano) Saldo Total (R$ milhões) Participação sobre Total (%)
+Debêntures e Nota comercial CDI CDI + 0,09% a 2,20% 23.919 31,6
+Debêntures e Nota comercial IPCA IPCA + 3,75% a 7,029 15.985 21,1
+BNDES TJLP, IPCA IPCA + 5,38% a 6,41%; TJLP a TJLP + 3,28% 6.741 8,9
+Banco do Brasil CDI, IPCA, TJLP TJLP + 1,89% a 2,13%, CDI + 2% até 2,25%, IPCA + 6,56% 2.099 2,8
+Caixa Econômica Federal IPCA IPCA + 6,56% 1.519 2,0
+Bradesco IPCA, CDI IPCA + 6,56%; CDI + 2,09% a 2,17% 1.369 1,8
+Banco do Nordeste do Brasil IPCA IPCA + 2,33% a 6,56%, 2,94% a 9,5% 1.506 2,0
+Petrobras / Vibra Energia Selic Selic 115 0,2
+Itaú IPCA, CDI IPCA + 6,56%; CDI + 0,30% a 2,28% 609 0,8
+Demais credores
+CDI, IPCA, 
+TJLP, Taxa pré-
+fixada
+CDI + 0,19% a 2,20%, IPCA + 
+6,56%; 2,94% a 10%; TJLP + 5% 5.213 6,9
+Moeda Estrangeira - Bônus e 
+demais dívidas USD 1,40% a 4,63% 15.815 20,9
+Moeda Estrangeira - demais 
+dívidas EUR 2,00% a 4,4212% 729 1,0
+TOTAL 75.621 100,0
+*Destaca-se que a Companhia realizou operações de hedge cambial para algumas das dívidas em moeda estrangeira, as quais com suas respectivas taxas equivalentes (pós 
+hedge) atreladas ao CDI encontram-se a seguir:
+Bonds 2025 - 97,41% do CDI; Bonds 2030 - CDI + 1,70% a.a.; Bonds 2035 - 122,59% do CDI; Citibank - CDI + 0,19% a 1,70% a.a.; Itaú - CDI + 0,30% a.a.
+** Exposição ao BNDES considera apenas contratos da linha BNDES direto.
+ 
+Relatório de Resultados 4T24 19
+
+[p. 20]
+6. EMPRÉSTIMO COMPULSÓRIO
+A Eletrobras tem implementado medidas para reduzir os riscos associados aos processos judiciais relacionados 
+ao empréstimo compulsório sobre energia elétrica (ECE), que envolvem a correção monetária de créditos 
+escriturais. Para isso, a empresa tem fortalecido sua estratégia de defesa judicial e buscado acordos com 
+deságios e quitação plena das ações.
+Como resultado das negociações:
+▪ o estoque de provisões foi reduzido em R$ 779 milhões na comparação com o 3T24 e R$ 3,6 bilhões 
+comparado com o 4T23, totalizando R$ 13,6 bilhões no 4T24, devido principalmente aos acordos firmados;
+▪ reversão líquida de R$ 369 milhões devido aos acordos celebrados e às decisões favoráveis no 4T24;
+▪ como resultado da redução de estoque de provisão, foi registrada uma queda na despesa financeira 
+relativa à atualização monetária, de R$ 236 milhões no 4T23 e R$ 214 milhões no 3T24, para R$ 175 
+milhões no 4T24;
+Desta forma, considerando desde o 3T22, quando as negociações foram iniciadas, o estoque de provisões 
+relacionadas a esse conjunto de ações caiu de R$ 25,8 bilhões para os R$ 13,6 bilhões, uma redução de R$ 12,2 
+bilhões, mesmo considerando a atualização monetária acumulada de R$ 2,3 bilhões no período. Além disso, os 
+acordos celebrados também permitiram a eliminação de R$ 8,2 bilhões em riscos judiciais considerados "off 
+balance", sendo R$ 779 milhões classificados como possíveis e R$ 7,4 bilhões como remoto. Essas reduções 
+estão alinhadas à estratégia da Companhia de reduzir seus passivos judiciais legados.
+Gráfico 2 - Estoque total provisão de empréstimo compulsório (R$ bilhões)
+17,16
+-1,45
+-0,66
+-2,24
+0,77
+13,58
+Estoque 4T23
+Iniciativas p/redução do risco
+(ex. deságios acordos) 
+Pagamentos em 
+Condenações
+Reclassificação de Acordos p/ 
+passivo
+ (aguardando homologação)
+Atualização monetária (Selic)
+Estoque 4T24
+ 
+Relatório de Resultados 4T24 20
+
+[p. 21]
+7. FLUXO DE CAIXA
+No 4T24, os recursos gerados pelas atividades operacionais alcançaram R$ 6,2 bilhões , aumento de R$ 2,3 
+bilhão em relação aos R$ 3,9 bilhões registrados no 4T23.
+A geração operacional de caixa no 4T24 foi utilizada para:
+▪ realização de investimentos (R$ 2,0 bilhão),
+▪ pagamento do serviço da dívida (R$ 1,6 bilhão),
+▪ pagamento de litígios (R$ 1,2 bilhão),
+▪ dividendos e recompra (R$ 0,2 bilhão).
+Tabela 16 - Fluxo de Caixa (R$ bilhões) 
+4T24 4T23 ∆%
+EBITDA Regulatório Ajustado, antes de Part. Societária 4,72 5,36 -11,8
+Ajuste do EBITDA 0,36 -2,75 -112,9
+Imposto de Renda e Contribuição Social -0,14 -1,08 -86,6
+Capital de Giro 0,87 1,89 -54,2
+Encargos da Privatização 0,00 0,00 -97,5
+Dividendos Recebidos 0,45 0,48 -7,5
+Fluxo de Caixa Operacional 6,25 3,90 60,1
+Investimentos * -2,00 -3,63 -44,9
+Fluxo de Caixa Livre 4,25 0,28 1.444,3
+Serviço da Dívida -1,58 -1,69 -6,7
+Litígios -1,23 -0,95 30,2
+Captação líquida de recursos ** 5,66 -9,66 -158,5
+Recebimento de empréstimos e encargos financeiros 0,01 0,06 -91,1
+Alienação de Investimento em Participações Societárias 0,00 0,00 -100,0
+Dividendos e Recompra de Ações -0,18 -0,24 -25,4
+Caixa Líquido Livre 6,92 -12,21 -156,7
+Variação de Caixa Restrito (curto e longo prazo) 0,22 0,31 -28,8
+Variação de Aplicações Financeiras (longo prazo) 0,01 -0,41 -101,8
+Caixa Líquido 7,15 -12,31 -158,1
+*Exclui aportes de geração.
+**Captação líquida de recursos: captação de dívida, líquida de despesas com emissão.
+ 
+Relatório de Resultados 4T24 21
+
+[p. 22]
+ANÁLISE DOS RESULTADOS FINANCEIROS E OPERACIONAIS 
+8. DESEMPENHO FINANCEIRO
+8.1. Receitas Operacionais
+Receita Regulatória de Geração 
+A receita regulatória ajustada foi de R$ 8.018 milhões no 4T24, R$ 32 milhões inferior à receita de geração 
+IFRS ajustada. Essa diferença reflete o tratamento diferente em relação à parte do faturamento com Amazonas 
+Energia, relacionado a valores inadimplidos pela energia vendida pela UHE Balbina.
+Receita de Geração por Ambiente de Contratação
+Ao excluir da receita regulatória ajustada a parcela com construção e, principalmente, o efeito de eliminações, 
+a receita com venda de energia em todos os ambientes de contratação totalizou R$ 8.236 milhões no 
+4T24,representando aumento de R$ 945 milhões na comparação anual. 
+Esse crescimento ocorreu apesar da contribuição negativa de R$ 209 milhões com venda ou compra de 
+participações (M&A), integrais ou parciais, em usinas geradoras, incluindo:
+▪ venda da UTE Candiota, que contribuiu com R$ 159 milhões no 4T23; e
+▪ redução de R$ 50 milhões na contribuição da receita das usinas Baguari e Retiro Baixo. Embora essas 
+usinas tenham sido consolidadas apenas a partir de outubro e novembro de 2023, respectivamente, 
+apresentaram uma redução de receita no ambiente de contratação regulado para o 4T24.
+Excluindo o efeito de M&As, os destaques positivos foram os respectivos aumentos de R$ 450 milhões e R$ 
+981 milhões nos ambientes de contratação livre e no mercado de curto prazo, com maiores volumes vendidos 
+em ambos os ambientes e a melhora de preço no mercado livre. Do lado negativo, observou-se a redução já 
+esperada de R$ 296 milhões na receita com vendas de energia de O&M de usinas cotistas. Por fim, a receita no 
+ambiente regulado apresentou uma leve queda, de R$ 19 milhões.
+Esse resultado do 4T24 representou um crescimento de 13% na receita em relação ao 4T23, impulsionado por 
+aumentos de 6,6% no preço médio e de 6,0% no volume. Vale destacar que, no 4T24, não houve incremento 
+de receita por extensões contratuais, como ocorreu com Tucuruí, válida apenas durante um período de 50 dias 
+no 3T24, de 12 de julho a 30 de agosto de 2024.
+O aumento de volume de 1.104 MWm é principalmente explicado por acréscimos de 2.027 MWm no mercado 
+livre e 863 MWm no mercado de curto prazo, mais que compensando as reduções de 1.360 MWm de energia 
+vendida na forma de cotas e de 427 MWm com energia contratada no mercado regulado.
+A maior exposição ao mercado de curto prazo gerou um benefício adicional atribuído a performance melhor 
+de preço praticado nesse ambiente vis-à-vis o resto do portfólio. O Preço de Liquidação das Diferenças (PLD), 
+aplicado sobre os volumes faturados nesse ambiente de contração, subiu quase 2,8x do 4T23 para o 4T24, de 
+R$ 77,7 /MWh para R$ 215,0 /MWh, considerando a média praticada nos 4 sub-mercados do país, 
+performance superior à queda de 2% no preço médio nos outros 3 ambientes de contratação (de R$ 189,9 /
+Mwh no 4T23 para R$ 186,2 /MWh no 4T24).
+ 
+Relatório de Resultados 4T24 22
+
+[p. 23]
+Tabela 17 - Receita Geração por Ambiente de Contratação (R$ mm)
+Receita Geração Volume (MWmed) (a) Preço (R$/MWh) (b) Receita Regulatória (c) = (a) x (b) 4T24 % A/A % T/T 4T24 % A/A % T/T 4T24 % A/A % T/T
+(+) Mercado Regulado 4.320 -9,0 -31,1 309 3,2 4,3 2.946 -6,1 -28,1
+Existentes 3.101 -7,1 -2,9 215 0,9 7,8 1.474 -6,2 4,7
+M&A's (4) 155 -67,4 15,6 301 1,3 10,4 103 -67,0 27,6
+Extensão Tucuruí 0 0,0 -100,0 0 0,0 0,0 0 0,0 -100,0
+Térmicas 1.065 13,8 -0,4 582 -4,0 7,3 1.369 9,3 6,8
+(+) Mercado Livre 8.485 31,4 14,7 170 -11,3 8,2 3.178 16,5 24,1
+Existentes 8.485 31,4 14,7 170 -11,3 8,2 3.178 16,5 24,1
+M&A's (4) 0 0,0 0,0 0 0,0 0,0 0 0,0 0,0
+(+) O&M (Quotas) 3.901 -25,8 -1,0 86 -3,5 2,5 745 -28,4 1,5
+(+) Mercado CP (CCEE)1 2.840 43,7 60,8 218 145,9 22,3 1.368 253,4 96,7
+(=) Ex outros 19.547 6,0 0,9 191 6,6 0,9 8.236 13,0 1,8
+(+) Outros (2) 0 0,0 0,0 0 0,0 0,0 -218 215,5 153,4
+(=) Total 0 0,0 0,0 0 0,0 0,0 8.018 11,0 0,2
+Recorrente 0 0,0 0,0 0 0,0 0,0 8.018 11,0 0,2
+Não recorrente 0 0,0 0,0 0 0,0 0,0 0 0,0 -100,0
+Receita Geração Receita Regulatória (c) Ajuste Contábil (d) (3) Receita Contábil (e) = (c) + (d) 4T24 4T23 3T24 4T24 4T23 3T24 4T24 4T23 4T24x4T23 3T24 4T24x3T24
+Mercado Regulado 2.946 3.136 4.097 -32 0 347 2.914 3.136 -7,1% 4.444 -34,4
+Mercado Livre 3.178 2.727 2.560 0 0 0 3.178 2.727 16,5% 2.560 24,1
+O&M (Quotas) 745 1.040 734 0 0 0 745 1.040 -28,4% 734 1,5
+Mercado de curto 
+prazo (1) 1.368 387 696 0 0 0 1.368 387 253,4% 696 96,7
+Venda de energia 8.236 7.291 8.087 -32 0 347 8.204 7.291 12,5% 8.434 -2,7
+Outros (2) -218 -69 -86 0 0 0 -218 -69 215,5% -86 153,4
+Total 8.018 7.221 8.001 -32 0 347 7.986 7.221 10,6% 8.348 -4,3
+Recorrente 8.018 7.221 8.001 -32 0 347 7.986 7.221 10,6% 8.348 -4,3
+Não recorrente 0 0 0 0 0 0 0 0 0,0% 0 -100,0
+(1) Mercado de curto prazo: Câmara de Comercialização de Energia Elétrica (CCEE) 
+(2) Receitas de Construção, Efeito Financeiro de Itaipu e Eliminação (ajustes contábeis - vendas internas). No 4T23, foi explicado por eliminação de venda intragrupo: R$ 67 
+milhões de receita da Eletronorte com venda de energia no mercado livre para Candiota, em volume equivalente a 48% da energia comercializada por Candiota no mercado 
+ACR. Do 4T23 para 4T24, enquanto Candiota saiu da amostra por ter sido vendida, a energia comercializada pela Eletronorte, desconsiderando a consolidação de Teles Pires, 
+apresentou queda de 69 MWm. No 4T24, foi explicado por eliminação de venda intragrupo: venda de energia incentivada de SAESA para Eletrobras, buscando otimização do 
+portfolio.
+(3) No 3T24, a diferença de R$ 347 milhões entre a receita regulatória e a societária é explicada pela diferença de tratamento do faturamento de energia vendida para 
+Amazonas Energia, e representa: (a) o reconhecimento na receita regulatória de R$ 58 milhões referente ao faturamento da UHE Balbina do 3T24, sendo que na receita 
+societária foram reconhecidos apenas R$ 29 milhões adimplidos; e (b) R$ 376 milhões reconhecidos na receita societária, referente a faturamento anterior a 3T24 antes não 
+reconhecidos. Já no 4T24, os R$ 32 milhões referem-se à energia vendida pela UHE Balbina, porém, inadimplida pela Amazonas Energia. Desta forma, não é reconhecida como 
+receita no resultado societário, mas sim no regulatório, onde é integralmente provisionada.
+(4) M&A: envolve a receita de ativos nas quais a participação da Eletrobras sofreu alteração ao longo dos últimos 12 meses.
+▪ Ambiente de Contratação Regulado (ACR) : receita regulatória de geração totalizou R$ 2.946 milhões no 
+4T24, redução de R$ 190 milhões em relação ao 4T23. Excluindo o efeito da venda da UTE Candiota, que 
+contribuiu com R$ 159 milhões de receita no 4T23, a receita caiu R$ 31 milhões, sendo que o aumento de 
+3,6% do preço médio foi mais que compensado pela redução de 4,4% no volume. 
+▪ Ambiente de Contratação Livre (ACL): receita regulatória de geração totalizou R$ 3.178 milhões no 4T24, 
+aumento de R$ 450 milhões em relação ao 4T23, devido ao aumento de 31,4% do volume, que foi 
+parcialmente compensada pela queda de 11,3% do preço médio. 
+ 
+Relatório de Resultados 4T24 23
+
+[p. 24]
+▪ O&M: as receitas de operação e manutenção somaram R$ 745 milhões, redução de R$ 296 milhões em 
+relação ao 4T23, refletindo principalmente o processo de descotização, atenuado pelos efeitos do reajuste 
+anual da Receita Anual de Geração - RAG1.
+▪ Mercado de Curto Prazo ( CCEE): receita de R$ 1.368 milhões no 4T24, aumento de R$ 981 milhões em 
+relação ao 4T23, explicada tanto pelo crescimento de 145,9% da receita média (R$/MWh) , quanto pelo 
+aumento do volume liquidado em 43,7%.
+Receita Regulatória de Transmissão 
+A receita regulatória de transmissão foi de R$ 4.419 milhões, redução de 10,0% em relação ao 4T23. A queda 
+reflete a homologação, em julho de 2024, dos processos de revisão tarifária periódica (RTP) de 2023 que foram 
+postergados para 2024, com destaque para a revisão da receita dos contratos de concessão prorrogados por 
+meio da Lei nº 12.783/2013.
+Tabela 18 - Receita IFRS X Regulatório Trimestral (R$ mm)2
+4T24 4T23 Variação Regulatório
+IFRS Ajustes Regulatório IFRS Ajustes Regulatório (%)
+Eletrobras 
+Holding 2.366 -600 1.766 1.802 216 2.018 -12
+Chesf 1.677 -221 1.456 1.265 257 1.523 -4
+CGT Eletrosul 665 -183 482 527 -18 509 -5
+Eletronorte 1.209 -350 859 1.030 -102 928 -7
+Eliminações -144 0 -144 -66 0 -66 118
+TOTAL 5.773 -1.354 4.419 4.558 353 4.911 -10
+Gráfico 3 - Conciliação RAP e Receita de Transmissão 4T24 (R$ mm)
+4.246
+-382 -47 -132
+233 238 12 43 39 25 312 -168 4.419
+RAP 
+Homologada 
+4T24
+PA 
+Homologada 
+4T24
+Desconto 
+Parcela 
+Variável
+Rateio de 
+Antecipação
+CDE/Proinfa Fundo CDE Novos 
+Investimentos
+Diferença 
+na Rede de 
+Fronteira
+Descasamento 
+Reasjuste T e 
+D
+Diferença 
+DIT de uso 
+exclusivo 
+Itaipu
+PIS/Cofins Outros Total
+Definições RAP Homologada x Receita Bruta
+▪ Receita Anual Permitida (RAP) e Parcela de Ajuste (PA) Homologada 4T24: corresponde a ¼ da RAP e da 
+PA, respectivamente, de R$ 16.983 milhões e R$ 1.529 milhões, homologadas para o ciclo 2024/2025 pela 
+ReH 3.348/2024 dos contratos de concessão de transmissão das empresas Eletrobras (pós-incorporação de 
+ 
+Relatório de Resultados 4T24 24
+1 Conforme as Resoluções Homologatórias nº 3.068/2022 (ciclo 2022-2023) e nº 3.225/2023 (ciclo 2023-2024), impactando Eletronorte, Chesf e Furnas.
+2 Para mais informações sobre a Composição de Eletrobras Holding, consulte o Anexo 3
+
+[p. 25]
+Furnas), Chesf, CGT Eletrosul, Eletronorte, TMT e VSB;
+Mais detalhes sobre a PA no Anexo 5.
+▪ Desconto da Parcela Variável (PV): associado à indisponibilidade das instalações de transmissão, 
+conforme regulamentação pelo Módulo 4 das Regras dos Serviços de Transmissão (disponível no site da 
+ANEEL:https://www.gov.br/aneel/pt-br/centrais-de-conteudos/procedimentos-regulatorios/regras-de-
+transmissao);
+▪ Rateio de Antecipação: relativo à diferença oriunda do déficit ou superávit de arrecadação que ocorre na 
+apuração realizada pelo ONS, considerado no Aviso de Crédito (AVC) emitido pelo ONS, sendo 
+compensado por meio da Parcela de Ajuste (PA);
+▪ CDE/Proinfa: correspondem a arrecadações de encargos setoriais ( pass through), junto a consumidores 
+conectados diretamente nas instalações de transmissão da Eletrobras, referentes à conta de 
+desenvolvimento energético e ao programa de incentivo às fontes alternativas de energia elétrica, 
+considerados nos AVCs emitidos pelo ONS;
+▪ Fundo CDE: corresponde a recebimento via CCEE de valores não arrecadados em função dos descontos 
+incidentes sobre as tarifas, os quais são compensados anualmente por meio de Parcela de Ajuste. Esses 
+valores já contemplam parcela de PIS/COFINS;
+▪ Novos Investimentos: adicional de RAP das novas instalações (reforços e melhorias de grande porte) na 
+rede básica, autorizados com receitas definidas previamente, que entraram em operação comercial ao 
+longo do trimestre;
+▪ Descasamento entre Reajuste Anual da Transmissão e da Distribuição: associado ao descasamento entre 
+os valores homologados para Demais Instalações de Transmissão (DIT) de uso exclusivo no Reajuste Anual 
+da RAP das transmissoras (ReH 3.348/2024) com os valores da receita homologados nos Reajustes Anuais 
+das distribuidoras;
+▪ Diferença da Rede de Fronteira: relativo à diferença entre os valores homologados para RAP associada à 
+Rede Básica de Fronteira e DIT de uso compartilhado no Reajuste Anual da RAP das transmissoras do ciclo 
+2024/2025 e os valores de faturamento considerados nos Avisos de Crédito (AVC) emitidos pelo ONS. Os 
+ajustes serão considerados na Parcela de Ajuste do ciclo seguinte;
+▪ Diferença das Demais Instalações de Transmissão (DIT) de uso exclusivo Itaipu: referente à diferença 
+entre a RAP homologada associada à DIT de uso exclusivo de Itaipu e o valor mensal arrecadado conforme 
+potência e tarifa homologadas pela ANEEL. Para cada ano civil subsequente, a ANEEL publica em resolução 
+homologatória específica os montantes de potência contratada referentes à Itaipu, enquanto a tarifa 
+mensal de transporte de energia elétrica proveniente de Itaipu Binacional é publicada para o ciclo tarifário. 
+Com isso, há um ajuste referente às variações de potência contratada decorrentes do descasamento entre 
+ano civil e ciclo tarifário, que é considerado na Parcela de Ajuste do ciclo seguinte;
+▪ PIS/COFINS: relativos ao faturamento da receita da Rede Básica, Rede Básica de Fronteira e DIT 
+Compartilhada, conforme AVCs emitidos pelo ONS.
+ 
+Relatório de Resultados 4T24 25
+
+[p. 26]
+8.2. Custos e Despesas Operacionais
+Tabela 19 - Custos e Despesas Operacionais (R$ mm)
+4T24 4T23 % 3T24 % 12M24 12M23 %
+Energia comprada para revenda 2.082 942 121,1 1.452 43,3 5.068 3.028 67,4
+Encargos sobre uso de rede 
+elétrica 968 984 -1,6 1.016 -4,7 3.955 3.482 13,6
+Combustível p/ prod. de energia 
+elétrica 531 602 -11,8 491 8,1 1.992 2.043 -2,5
+Construção 1.804 1.371 31,5 1.055 71,0 4.287 3.291 30,3
+Pessoal, Material, Serviços e 
+Outros 2.332 1.426 63,6 2.005 16,3 7.593 8.183 -7,2
+Depreciação e Amortização 1.033 899 14,9 990 4,3 3.988 3.621 10,1
+Provisões Operacionais -146 3.597 -104,1 -229 -36,2 -180 2.481 -107,3
+Remensurações regulatórias - 
+Contratos de Transmissão 0 0 0,0 -6.130 -100,0 -6.130 12 N/A
+Custos e Despesas 8.604 9.822 -12,4 650 1.223,3 20.572 26.142 -21,3
+Eventos não recorrentes
+(-) Eventos PMSO não recorrentes -292 485 -160,3 -313 -6,6 -809 -829 -2,4
+(-) Provisões não recorrentes 552 -3.027 -118,2 480 15,1 1.421 -1.711 -183,0
+(-) Acréscimo de ICMS Cal 
+retroativo 0 0 0,0 0 0,0 0 -34 -100,0
+(-) Remensurações regulatórias - 
+Contratos de Transmissão 0 0 0,0 0 0,0 0 0 0,0
+Custos e Despesas Ajustados 8.864 7.280 21,8 817 984,8 21.184 23.568 -10,1
+▪ Energia comprada para revenda: A energia comprada para revenda totalizou R$ 2.082 milhões no 4T24, 
+representando aumento de R$ 1.140 milhões em relação ao 4T23. As principais contribuições para esse 
+incremento são: (a) R$ 713 milhões, resultado da liquidação de energia no Mercado de Curto Prazo (MCP) 
+por usinas que apresentaram menor geração, sendo totalmente compensado pelo aumento da receita 
+bruta neste ambiente de contratação no valor de R$ 981 milhões; (b) R$ 278 milhões, pelo aumento de 
+volume de compra de energia para atender vendas no mercado livre (ACL) e como forma de proteção 
+contra exposições negativas no MCP oriundas de um desempenho abaixo do esperado da geração de 
+energia, combinada a um eventual preço mais elevado, que se materializou pontualmente no trimestre; e 
+(c) R$ 97 milhões, explicado por um PPA (Power Purchase Agreement) de compra de energia incentivada 
+obtido via leilão em 2020 com entrega e venda no ACL a partir de 2024.
+▪ Encargos de uso da rede: Os encargos de uso da rede somaram R$ 968 milhões no 4T24, redução de R$ 16 
+milhões em comparação ao 4T23, refletindo principalmente o menor valor dos encargos de uso do sistema 
+de transmissão (EUST) vigentes após a definição da Resolução Homologatória Aneel 3.349/2024, em 
+substituição aos valores até então válidos que haviam sido estabelecidos pela ReH anterior, a Resolução 
+Homologatória Aneel 3.216/2023.
+▪ Combustível para produção de energia elétrica: Os custos associados ao uso de combustível para 
+produção de energia elétrica atingiram R$ 531 milhões no 4T24, apresentando uma redução de R$ 71 
+milhões em relação ao 4T23. A queda reflete principalmente o efeito da venda da UTE Candiota, que 
+contribuiu com gastos de R$ 168 milhões no 4T23, sendo parcialmente compensada pelo aumento de R$ 
+78 milhões na Eletrobras Holding devido ao maior consumo de combustível pela UTE Santa Cruz. Na 
+ 
+Relatório de Resultados 4T24 26
+
+[p. 27]
+Eletronorte, o aumento de R$ 55 milhões em função do crescimento do consumo e do reajuste anual do 
+preço de gás, que foi parcialmente compensado pela recuperação de despesa via Conta de Consumo de 
+Combustíveis (CCC), no valor de R$ 49 milhões.
+▪ Construção: Os custos relacionados à construção totalizaram R$ 1.804 milhões no 4T24, representando 
+crescimento de R$ 433 milhões em relação ao 4T23, com destaque para o aumento de R$ 249 milhões 
+referente ao convênio para revitalização do sistema HVDC, associado à usina de Itaipu e aumento de R$ 
+118 milhões com a construção civil referente aos contratos de concessão conquistados em leilões de 
+transmissão nos últimos anos.
+ 
+Relatório de Resultados 4T24 27
+
+[p. 28]
+PMSO - Pessoal, Material, Serviços e Outros
+Pessoal: saldo ajustado de R$ 915 milhões no 4T24, redução de 13% em relação aos R$ 1.051 milhões do 4T23, 
+sendo os principais efeitos: 
+▪ Economia de R$ 176 milhões com despesas de remuneração e encargos em função principalmente da 
+redução do quadro de funcionários devido aos Planos de Demissão Voluntária (PDVs), sendo parcialmente 
+compensada por novas admissões que adicionaram R$ 70 milhões;
+▪ Aumento de R$ 54 milhões, devido ao reconhecimento de um volume menor de horas trabalhadas como 
+investimentos no 4T24;
+▪ Redução de R$ 21 milhões relacionada a despesas com Participação nos Lucros e Resultados (PLR) e 
+Incentivo de Curto Prazo (ICP); 
+▪ Saída de 192 colaboradores com a venda de Candiota, trazendo economias de R$ 10 milhões no 4T24.
+Efeitos não-recorrentes: PDV totalizando R$ 182 milhões no período.
+Material: saldo ajustado de R$ 73 milhões no 4T24, registrando uma redução de R$ 27 milhões em relação aos 
+R$ 99 milhões do 4T23. Essa queda ocorreu em diversas linhas, como resultado principalmente de otimização 
+do gerenciamento de estoques e uso de materiais. 
+Não houve efeitos não-recorrentes no trimestre. 
+Serviços: saldo ajustado de R$ 731 milhões no 4T24, representando um aumento de 27% frente aos R$ 576 
+milhões do 4T23. Os principais destaques do trimestre foram: 
+▪ Aumento de R$ 94 milhões em despesas com consultoria, serviços legais e financeiros, sendo que parte 
+dessa variação é explicada por contratações relacionadas à estratégia da companhia de redução de 
+contingências;
+▪ Aumento de R$ 51 milhões relacionado a duas reclassificações: (a) no 4T23 houve R$ 38 milhões 
+reclassificados de serviços para investimentos; e (b) no 4T24 houve R$ 13 milhões reclassificados de outros 
+custos e despesas, para serviços.
+Efeitos não-recorrentes: R$ 42 milhões relacionados à taxa de sucesso de ações referentes à Empréstimo 
+Compulsório.
+Outros: saldo ajustado de R$ 321 milhões no 4T24, aumento de 75% frente aos R$ 184 milhões no 4T23 
+devido, principalmente, aos seguintes efeitos:
+▪ Aumento de R$ 148 milhões em tributos e encargos, devido, principalmente, à uma reclassificação do 
+Centro de Pesquisas de Energia Elétrica (CEPEL) para P&D de R$ 74 milhões no 4T23;
+▪ Aumento de R$ 24 milhões em marketing relacionados às anuidades, contribuições e projetos 
+institucionais;
+▪ Redução de R$ 57 milhões com multas, condenações, custos judiciais e demais perdas;
+Não houve efeitos não-recorrentes no trimestre.
+ 
+Relatório de Resultados 4T24 28
+
+[p. 29]
+Tabela 20 - PMSO 4T24 (R$ mm)1
+PMSO 4T24
+(R$ milhões)
+Eletrobras 
+Holding
+Chesf
+Eletronorte
+CGT 
+Eletrosul
+Eletropar
+Total
+Eliminação
+Consolidado 
+IFRS
+Pessoal 330 293 256 104 0 984 0 984
+Plano de Demissão Consensual 
+(PDC) – Provisão 9 88 60 25 0 182 0 182
+Material 25 11 31 6 0 73 0 73
+Serviços 428 155 135 54 1 773 0 773
+Outros 163 23 104 -9 -2 279 42 321
+PMSO 954 571 587 180 -1 2.290 42 2.332
+Eventos não recorrentes
+Pessoal: PDV,PDC -9 -88 -60 -25 0 -182 0 -182
+Pessoal: Custos com rescisão -5 -22 -31 -11 0 -69 0 -69
+Serviços: Comissões referentes 
+ao empréstimo compulsório -42 0 0 0 0 -42 0 -42
+Outros: Condenações Judiciais 0 0 0 0 0 0 0 0
+Outros: Baixa de depósitos 
+Judiciais 0 0 0 0 0 0 0 0
+PMSO Ajustado 898 461 496 144 -1 1.998 42 2.040
+Tabela 21 - PMSO 4T23 (R$ mm)
+PMSO 4T23
+(R$ milhões)
+Eletrobras + 
+Furnas
+Chesf
+Eletronorte
+CGT Eletrosul
+Eletropar
+Total
+Eliminação
+Consolidado 
+IFRS
+Pessoal 544 314 274 106 0 1.239 0 1.239
+Plano de Demissão Voluntária (PDV) 
+– Provisão 20 -3 5 4 0 25 0 25
+Material 22 17 46 14 0 99 0 99
+Serviços 384 105 116 50 1 656 0 656
+Outros 80 -144 -567 28 2 -602 8 -594
+PMSO 1.050 288 -126 202 3 1.417 8 1.426
+Eventos não recorrentes
+Pessoal: PDV,PDC -20 3 -5 -4 0 -25 0 -25
+Pessoal: PLR Retroativo 0 0 0 0 0 -208 0 -208
+Pessoal: Alocação em atividades de 
+investimento 21 0 0 0 0 21 0 21
+Serviços: consultorias associadas ao 
+Plano de Transformação -80 0 0 0 0 -80 0 -80
+Outros: Combinação de negócios¹ 0 0 777 0 0 777 777
+PMSO Ajustado 971 292 646 198 3 1.902 8 1.910
+Resultado da reclassificação referente à cessão da participação de 49% da Eletronorte na EAPSA (UHE Dardanelos).
+ 
+Relatório de Resultados 4T24 29
+1 Para mais informações sobre a Composição de Eletrobras Holding, consulte o Anexo 3
+
+[p. 30]
+Tabela 22 - PMSO IFRS (R$ mm)
+4T24 4T23 3T24 12M24 12M23
+Total 
+(a)
+Não 
+recorrente 
+(b)
+Ajustado
+(c) = (a) + 
+(b)
+Ajustado % Var. Ajustado % Var. Total (a) Não recorrente (b) Ajustado (c) = (a) + (b) Ajustado % Var.
+Pessoal 984 -69 915 1.051 -13,0 902 1,4 3.754 -69 3.685 4.240 -13,1
+PDV 182 -182 0 0 0,0 0 0,0 227 -227 0 0 0,0
+Material 73 0 73 99 -27,0 64 12,8 220 0 220 251 -12,4
+Serviços 773 -42 731 576 26,9 569 28,6 2.238 -84 2.153 2.173 -0,9
+Outros ¹ ² 321 0 321 184 75,1 157 105,0 1.154 -429 725 691 5,0
+Total 2.332 -292 2.040 1.911 6,8 1.692 20,6 7.593 -809 6.784 7.354 -7,7
+¹ Inclui, no 3T24 e 12M24, tanto no saldo total quanto no ajustado, o valor de R$ 75 milhões de prêmio pago pelo seguro de GSF referente às extensões aos contratos dos 12º 
+e 13º Leilões de Energia Existente, como resultado da extensão de prazo de outorga celebrado no Ambiente de Contratação Regulada, no âmbito da repactuação do risco 
+hidrológico de geração de energia elétrica, conforme Despacho ANEEL No 1.395, de 20 de maio de 2019. Receita no período de 12/07/24 e 30/08/24.
+² No 3T24, foram ajustados no EBITDA os gastos não recorrentes de R$ 89 milhões, reconhecidos em outras despesas operacionais referentes a condenações judiciais em 
+causas anteriores a 2022. Com a elaboração das demonstrações contábeis do exercício de 2024, foi identificado que parte das despesas com condenações judiciais 
+reconhecidas no 2T24, no valor de R$ 118 milhões, também estão relacionadas a causas anteriores a 2022. O ajuste deste valor como não recorrente foi feito retroativamente 
+neste trimestre. Com essa reclassificação o valor para os 9M24 desta divulgação apresenta diferença de R$118 milhões para o reportado anteriormente. 
+Tabela 23 - Outros Custos e Despesas (R$ mm)
+4T24 4T23 % 3T24 % 12M24 12M23 %
+Baixa depósitos judiciais 0 0 0 221 -100 221 866 -74
+Ganho na alienação de participações societárias 0 -777 -100 0 0 0 -777 -100
+Condenações, perdas e custas judiciais 86 114 -25 57 51 306 401 -24
+GSF 20 5 318 92 -78 120 19 540
+Seguros 27 22 24 76 -65 102 88 16
+Investidas 40 31 30 10 290 72 44 62
+Doações e contribuições 66 34 92 17 294 147 118 24
+Aluguel 35 22 60 17 105 78 86 -8
+Recuperação de despesa -3 -86 -96 -24 -86 -74 -208 -64
+Tributos 29 20 46 -1 0 64 116 -45
+Outros 22 22 -2 3 631 116 33 248
+Total 321 -594 -154 468 -31 1.154 786 47
+ 
+Relatório de Resultados 4T24 30
+
+[p. 31]
+Provisões Operacionais
+Tabela 24 - Provisões Operacionais (R$ mm)
+ 4T24 4T23 % 3T24 % 12M24 12M23 %
+Provisões / Reversões Operacionais 
+Provisão/Reversão para Litígios -486 -380 27,9 418 -216,1 160 1.246 -87,1
+Perdas estimadas em investimentos 217 -31 -805,2 11 1.801,9 199 107 86,4
+Mensuração a valor justo de ativo disp. p/ venda -57 -797 -92,8 -30 87,9 -47 -704 -93,4
+Provisão para Implantação de Ações - Empréstimo Compulsório -23 22 -204,7 3 -774,9 -70 39 -280,1
+PECLD - Financiamentos e empréstimos -4 -9 -50,1 -6 -26,7 -15 -22 -32,7
+PECLD - Consumidores e revendedores -157 -383 -59,1 -59 163,6 -391 -467 -16,1
+PECLD - Outros créditos -44 22 -303,5 -10 350,6 -169 40 -523,3
+Contratos onerosos 251 -862 -129,1 52 378,1 387 -862 -144,9
+Resultado laudos atuariais -106 -268 -60,3 -128 -17,0 -490 -560 -12,5
+Outras * 556 -912 -160,9 -23 -2.476,6 616 -1.298 -147,4
+Provisões / Reversões Operacionais 146 -3.597 -104,1 229 -36,2 180 -2.481 -107,3
+Itens não recorrentes / Ajustes -552 3.027 -118,2 -480 15,1 -1.421 1.711 -183,0
+Provisão para Litígios 427 380 12,5 -418 -202,2 -219 -1.246 -82,4
+Mensuração a valor justo de ativo disp. p/ venda 0 742 -100,0 0 0,0 -167 704 -123,7
+Perdas estimadas em investimentos -217 31 -805,2 -11 1.801,9 -199 -107 86,4
+Provisão para Implantacão de Ações - Empréstimo Compulsório 23 -22 -204,7 -3 -774,9 70 -39 -280,1
+PECLD - Financiamentos e empréstimos 4 9 -50,1 6 -26,7 15 22 -32,7
+Contratos onerosos -251 862 -129,1 -52 378,1 -387 862 -144,9
+Perda estimada por irrecuparabilidade de ativos (Impairment) -540 956 -156,4 0 634.654,1 -534 956 -155,8
+Restituição RGR 0 69 -100,0 0 0,0 0 558 -100,0
+Provisões/Reversões Ajustadas -406 -571 -28,8 -251 61,7 -1.241 -770 61,1
+Os valores positivos na tabela acima significam reversão de provisão.
+* Inclui principalmente impairment e restituição de RGR.
+▪ Contratos onerosos: reversão de R$ 251 milhões no 4T24, explicada pelas reversões de R$ 113 milhões na 
+CGT Eletrosul e R$ 109 milhões na Chesf, enquanto a provisão de R$ 862 milhões no 4T23 foi explicada por 
+constituições nessas duas empresas, de R$ 357 milhões e R$ 389 milhões, respectivamente, em função, 
+principalmente, de contrato oneroso com UHE Jirau.
+▪ Provisão para litígios: provisão de R$ 486 milhões no 4T24 comparado à de R$ 380 milhões no 4T23. Sua 
+constituição no 4T24 foi explicada pelos seguintes movimentos: 
+▪ reversão de R$ 200 milhões em decorrência de acordos firmados, e consequente baixa parcial em ações 
+judiciais;
+▪ reversão de R$ 369 milhões por acordos firmados referente ao empréstimo compulsório;
+▪ reclassificação de R$ 58,5 milhões no 4T24 referente ao pagamento de causas judiciais anteriores a 
+2022, reconhecidos originalmente na linha de outras despesas no 4T23 e tratados na ocasião como não 
+recorrentes.
+▪ Resultado de laudos atuarias: provisão de R$ 106 milhões referentes ao custo dos juros e custo do serviço 
+corrente definido nos laudos para o exercício de 2024 que passaram a ser lançados mensalmente, em 
+comparação aos lançamentos anteriormente feitos ao final do ano.
+ 
+Relatório de Resultados 4T24 31
+
+[p. 32]
+▪ Mensuração a valor justo de ativo mantido para venda: constituição de provisão de R$ 57 milhões na 
+Holding, devido à desvalorização da participação societária na SPE Mata de Santa Genebra. A alta variação 
+deveu-se ao aumento de R$ 632 milhões no 4T23, na antiga Furnas, decorrente da diferença entre o valor 
+contábil e o valor avaliado da UTE Santa Cruz, que foi reclassificada como "Ativo mantido para venda".
+▪ Perdas estimadas em investimento: destaque para a constituição de provisão de R$ 68 milhões no 4T24, 
+referente à alienação de participação na ISA Energia Brasil e às perdas em impairment de SPEs, além de 
+reversões de R$ 153 milhões na Eletronorte devido à reversão de impairment da Nova Energia, e de R$ 88 
+milhões na Chesf.
+▪ Perdas estimadas em créditos de liquidação duvidosa (PECLD) - consumidores e revendedores: destaque 
+para R$ 66 milhões relacionados ao não recebimento de EUST (Encargo de Uso do Sistema de 
+Transmissão). 
+▪ Perda estimada por irrecuperabilidade de ativos (Impairment): o valor de R$ 540 milhões reconhecido no 
+4T24 como impairment é explicado principalmente pela reversão de R$ 675 milhões, com destaques para 
+as reversões de R$ 396 milhões na CGT Eletrosul e R$ 262 milhões na Eletronorte reconhecidos após a 
+realização do teste de impairment. A tabela 25 reflete o resultado do teste para o exercício de 2024.
+ Tabela 25 - Resultado do Teste de Impairment (R$ mm)
+Saldo em 31/12/2023 Movimentações Saldo 31/12/2024
+Braço hidráulico - Eletrobras 75 -75 0
+Braço hidráulico - Eletronorte 262 -262 0
+Braço hidráulico - Chesf 23 -23 0
+Braço hidráulico - CGT Eletrosul 106 -106 0
+Casa Nova 87 141 228
+Casa Nova B a G 179 0 179
+Coxilha Negra 592 -116 476
+Ibirapuitã 68 -37 31
+Entorno 2 56 -56 0
+Outros 262 0 262
+Total 1.709 -534 1.176
+ 
+Relatório de Resultados 4T24 32
+
+[p. 33]
+8.3. Participações Societárias
+O resultado das participações societárias tem como destaque as contribuições da ISA Energia Brasil de R$ 252 
+milhões.
+Tabela 26 - Participações Societárias (R$ mm)
+4T24 4T23 % 3T24 % 12M24 12M23 %
+Destaques Coligadas (a) -44 108 -140,5 619 -107,1 1.471 1.456 1,1
+Eletrobras Termonuclear S.A. 23 -386 -106,0 236 -90,2 562 27 1.982,2
+ISA Energia Brasil 252 345 -27,1 231 8,9 875 947 -7,7
+Outras Equivalências -318 149 -313,7 152 -309,5 35 482 -92,8
+Destaques SPEs (b) 726 21 3.333,8 13 5.486,5 873 238 266,7
+IE Madeira 68 42 63,3 49 39,3 234 202 16,1
+BMTE 135 51 165,4 50 169,8 292 209 39,8
+Chapecoense 65 39 66,1 47 38,6 194 183 6,0
+ESBR Jirau -12 13 -196,7 14 -187,6 44 18 147,3
+IE Garanhuns 19 14 43,1 5 289,5 65 58 13,6
+Norte Energia 451 -137 -429,0 -152 -396,5 44 -431 -110,1
+Outras Participações * (c) -204 135 -251,7 117 -275,1 159 368 -56,9
+Total (a) + (b) + (c) 331 47 610,2 762 -56,5 2.503 2.062 21,4
+* Inclui movimentações do valor reconhecido no balanço patrimonial de coligadas mensuradas a valor justo / custo.
+ 
+Relatório de Resultados 4T24 33
+
+[p. 34]
+8.4. Resultado Financeiro
+Tabela 27 - Resultado Financeiro (R$ mm)
+4T24 4T23 % 3T24 % 12M24 12M23 %
+Receitas Financeiras 971 844 15,0 815 19,1 3.152 3.083 2,2
+Receitas de juros, multas, comissões e taxas 22 -15 -243,3 45 -51,8 139 153 -9,6
+Receita de aplicações financeiras 982 755 30,1 835 17,7 2.938 2.862 2,6
+Acréscimo moratório sobre energia elétrica 23 51 -55,2 18 27,8 120 166 -28,0
+Outras receitas financeiras 46 111 -58,7 -24 -292,1 224 479 -53,3
+(-) Tributos sobre receitas financeiras -103 -58 75,6 -59 73,8 -268 -578 -53,7
+Despesas Financeiras -2.589 -2.449 5,7 -2.583 0,2 -10.140 -10.221 -0,8
+Encargos de dívidas -1.556 -1.269 22,6 -1.437 8,3 -6.117 -6.464 -5,4
+Encargos de obrigações com CDE -640 -593 7,9 -622 2,9 -2.484 -2.292 8,4
+Encargos de revitalização de bacias hidrográficas -87 -91 -4,3 -85 2,4 -340 -355 -4,4
+Desconto financeiro por antecipação - ENBpar 0 0 0,0 0 0,0 0 0 0,0
+Outras despesas financeiras -306 -496 -38,4 -440 -30,5 -1.199 -1.110 8,0
+Itens Financeiros Líquidos -1.312 -922 42,3 -1.020 28,6 -4.640 -4.864 -4,6
+Variações monetárias -242 -313 -22,7 0 -64.571, 2 -778 -1.796 -56,7
+Variações cambiais -56 -25 126,6 25 -326,1 -29 170 -117,0
+Variação do valor justo de dívida protegida (hedge) 
+líquida do derivativo -274 -181 51,6 -729 -62,4 -1.566 -908 72,4
+Atualizações monetárias - CDE -508 -217 133,8 -236 115,6 -1.605 -1.384 15,9
+Atualizações monetárias - bacias hidrográficas -92 -89 3,1 -43 114,9 -288 -332 -13,2
+Variação de instrumento financeiro derivativo não ligado 
+a proteção de dívida -140 -98 43,7 -38 273,0 -374 -613 -39,1
+Resultado Financeiro -2.930 -2.527 16,0 -2.788 5,1 -11.628 -12.002 -3,1
+Ajustes
+Receita de Emp. Distribuidoras + AIC 0 20 -100,0 0 0,0 0 -40 -100,0
+Regularização dos créditos tributário/ Multa e Autos de 
+Infração 0 0 0,0 0 0,0 0 29 -100,0
+Atualização monet. emp. compulsórios 175 238 -26,5 214 -18,3 769 1.265 -39,2
+Baixa de depósitos judiciais em decorrência do projeto de 
+conciliação 0 0 0,0 100 -100,0 100 451 -77,7
+Ajuste da taxa de correção de depósitos judiciais 0 0 0,0 249 -100,0 249 0 0,0
+Pis/Cofins (JCP) 0 146 -100,0 0 0,0 0 470 -100,0
+Resultado Financeiro Ajustado -2.755 -2.123 29,8 -2.225 23,8 -10.510 -9.827 6,9
+¹ Essas obrigações foram estabelecidas pela Lei 14.182/21 (Desestatização da Eletrobras), como uma das condições para a obtenção das novas outorgas de concessão de 
+geração de energia elétrica por mais 30 anos. Os encargos foram calculados a partir dos dados publicados na Resolução CNPE 015/2021: (a) do valor presente da obrigação; 
+(b) do fluxo futuro de pagamentos; e (c) do prazo de pagamentos. Ver mais detalhes na Tabela 28.
+No 4T24, o resultado financeiro ajustado foi negativo em R$ 2.755 milhões, ante um resultado negativo de R$ 
+2.123 milhões no 4T23. As principais variações no 4T24 foram:
+▪ Encargos de dívida: aumento da despesa de R$ 1.269 milhões no 4T23 para R$ 1.556 milhões no 4T24, 
+devido principalmente ao estorno de R$ 226 milhões das despesas de emissão de debêntures em 
+dezembro de 2023 e à variação das taxas Selic/CDI entre os períodos comparados. O aumento do saldo 
+devedor pelas captações no período e a maior participação de dívidas atreladas ao IPCA em 2024 também 
+impactaram essa variação.
+ 
+Relatório de Resultados 4T24 34
+
+[p. 35]
+▪ Variação da atualização monetária (Selic) : redução da despesa de R$ 313 milhões no 4T23 para R$ 242 
+milhões no 4T24, impactada pela menor atualização do estoque do contencioso do empréstimo 
+compulsório, devido ao menor saldo em dezembro de 2024. A atualização do empréstimo compulsório da 
+Eletrobras passou de uma despesa de R$ 238 milhões no 4T23 para R$ 175 milhões no 4T24, refletindo a 
+redução do estoque de R$ 17,2 bilhões em dezembro de 2023 para R$ 13,6 bilhões em dezembro de 2024.
+▪ Encargos de obrigação com CDE (Conta de Desenvolvimento Energético) e atualizações monetárias CDE 
+(despesas financeiras de IPCA + encargos sobre o saldo devedor de obrigações junto à CDE, sendo o 
+encargo de 7,6% ao ano): as despesas somaram R$ 1.148 milhões no 4T24, R$ 338 milhões maior que o 
+valor do 4T23, principalmente devido à variação monetária do IPCA apropriada entre os períodos 
+comparados, com encargos de R$ 593 milhões no 4T23 e R$ 640 milhões no 4T24, e à variação monetária 
+de R$ 217 milhões no 4T23 e R$ 508 milhões no 4T24. Essas obrigações foram estabelecidas pela Lei 
+14.182/21 (Desestatização da Eletrobras), como uma das condições para a obtenção das novas outorgas 
+de concessão de geração de energia elétrica por mais 30 anos. Os encargos foram calculados a partir dos 
+dados publicados na Resolução CNPE 015/2021: (a) do valor presente da obrigação; (b) do fluxo futuro de 
+pagamentos; e (c) do prazo de pagamentos. 
+▪ Encargos de revitalização de bacias hidrográficas (encargo de 5,67% ), com despesa de R$ 87 milhões no 
+4T24, e atualizações monetárias - bacias hidrográficas , com despesa de R$ 92 milhões. Essas obrigações 
+foram estabelecidas pela Lei 14.182/21 (Desestatização da Eletrobras), como uma das condições para a 
+obtenção das novas outorgas de concessão de geração de energia elétrica, por mais 30 anos. Os encargos 
+foram calculados a partir dos dados publicados na Resolução CNPE 015/2021: (a) do valor presente da 
+obrigação; (b) do fluxo futuro de pagamentos; e (c) do prazo de pagamentos.
+Tabela 28 - Encargos com CDE e Projetos – Lei 14.182/2021 (R$ mm)
+4T24
+Holding Chesf Eletronorte Total
+Encargos de dívidas - Obrigações com a CDE -184 -268 -188 -640
+Encargos de dívidas - Revitalização das bacias hidrográficas -23 -35 -29 -87
+Atualização monetária passiva - Obrigações com a CDE -146 -213 -150 -508
+Atualização monetária passiva - Revitalização das bacias hidrográficas -24 -37 -31 -92
+Total de encargos com a CDE e Projetos - Lei 14.182/2021 -377 -552 -398 -1.327
+▪ Variação do valor justo de dívida protegida ( hedge) líquida do derivativo: despesa de R$ 274 milhões no 
+4T24, superior à despesa de R$ 181 milhões no 4T23. Durante o 4T24 a companhia contratou novos 
+derivativos sendo o principal deles um SWAP cross currency FLOAT-FLOAT com curvas em dólar SOFR x CDI 
+para proteção da captação, de R$ 2,34 bilhões, via SACE, impactado negativamente no trimestre, sendo 
+um efeito de -R$ 131 milhões na Chesf e -R$ 125 milhões na Eletrobras. Houve ainda um efeito positivo de 
+R$ 32 milhões, ligado à variação dos Bonds (2025/2030/2035).
+▪ Variação de instrumento financeiro derivativo não ligado a proteção de dívida: despesa de R$ 140 
+milhões no 4T24, superior à despesa de R$ 98 milhões no 4T23, refletindo a atualização das variáveis 
+consideradas na modelagem de um derivativo embutido no contrato entre a Eletronorte a Albras, 
+ 
+Relatório de Resultados 4T24 35
+
+[p. 36]
+incluindo dólar, taxa Selic e preços de alumínio na London Metal Exchange (LME) referentes aos meses de 
+outubro e novembro de 2024. Tal contrato foi encerrado em dezembro de 2024.
+▪ Outras despesas financeiras: despesas de R$ 306 milhões no 4T24, comparadas a despesas de R$ 496 
+milhões no 4T23. O movimento foi explicado tanto por fatores presentes apenas no 4T23 e no 4T24. No 
+primeiro grupo os destaques foram a despesa de R$ 212 milhões com IOF ligado a operação financeira de 
+assunção da dívida da SAESA, e a despesa de R$ 125 milhões com pagamento de fees e variações ligadas à 
+correção de saldo de Pesquisa e Desenvolvimento. No segundo grupo, os destaques foram R$ 106 milhões 
+de PIS/COFINS sobre JCP da Eletronorte e venda de participação na ISA Energia Brasil, R$ 34 milhões 
+ligados à baixa de atualização monetária de depósitos judiciais, R$ 33 milhões com reclassificação de 
+seguro de garantia ligada a processos judiciais, e R$ 26 milhões ligados a encerramento de convênio de 
+adesão ao Plano Fachesf-Saúde. Além desses fatores, a despesa com fiança bancária caiu de R$ 87 milhões 
+no 4T23 para R$ 7 milhões no 4T24.
+▪ Outras receitas financeiras: redução de R$ 65 milhões, de R$ 111 milhões no 4T23 para R$ 46 milhões no 
+4T24, devido, essencialmente, à reclassificação do saldo total da conta "Juros sobre Dívidas de 
+Controladas, Coligadas e Outras" para o grupo de Atualização Monetária, que no 4T23 possuía um valor de 
+R$ 61 milhões.
+8.5. Tributos Correntes e Diferidos
+O imposto de renda e contribuição social ajustado apresentou valor de -R$ 367 milhões no 4T24, frente a um 
+valor de +R$ 358 milhões no 4T23.
+Vale destacar as despesas relacionadas à constituição ou reversão de imposto diferido ajustadas no resultado 
+do 4T24:
+▪ Imposto diferido sobre prejuízo fiscal: constituição líquida de R$ 1.425 milhões no 4T24, resultado de uma 
+constituição de R$ 1.594 milhões na Holding, após estudo de recuperabilidade de base fiscal negativa e 
+diferenças temporárias (respectivamente, constituição de R$ 2.092 milhões e reversão de R$ 498 milhões), 
+combinada à reversão de R$ 169 milhões na CGT Eletrosul, após análise da recuperabilidade de imposto 
+diferido resultado da venda da UTE Candiota;
+▪ Imposto diferido, reconhecido no 4T24, sobre remensuração regulatória que foi reconhecida na Holding 
+no 3T24: despesa de R$ 758 milhões no 4T24, referente à remensuração regulatória dos ativos contratuais 
+da Holding realizada no 3T24. Embora a remensuração tenha sido reconhecida naquele período, a 
+correspondente despesa de imposto diferido foi considerada no 4T24. Neste momento, a despesa foi 
+realocada no 3T24, respeitando sua natureza recorrente no exercício de 2024, consistente com o 
+tratamento dado ao fato gerador e às despesas das demais subsidiárias reconhecidas no 3T24
+▪ Imposto diferido sobre provisão de contrato oneroso e impairment, considerados não recorrentes no 
+4T24: despesa de R$ 252 milhões.
+ 
+Relatório de Resultados 4T24 36
+
+[p. 37]
+Tabela 29 - Imposto de Renda e Contribuição Social (R$ mm)
+4T24 4T23 % 3T24 % 12M24 12M23 %
+Imposto de renda e contribuição social 
+correntes 5 -45 -111,2 -229 -102,2 -718 -513 40,1
+Imposto de renda e contribuição social 
+diferidos 43 3310 -99 -957 -104,5 478 3.511 -86,4
+Imposto de renda e contribuição social total 48 3.265 -98,5 -1.186 -104,0 -240 2.998 -108,0
+Ajustes
+Constituição/Reversão de IR Diferido s/ 
+Prejuizo Fiscal ¹ -1.425 0 0 0 0 -2.207 0 0
+Ajuste IR Diferido sobre Remensuração Regul. 
+Holding 3T24 ² 758 0 0 -758 -200 0 0 0
+JCP / Economia Fiscal – Furnas e Eletronorte ³ 0 -453 -100 0 0 0 -1.643 -100
+IR Diferido s/ Provisão de Contrato Oneroso e 
+Impairment 252 0 0 0 0 252 0 0
+Constituição de base fiscal negativa - SAESA 0 -2.454 -100 0 0 0 -2.454 -100
+Imposto de renda e contribuição social 
+ajustada -367 358 -202,6 -1.944 -81,1 -2.195 -1.099 99,8
+¹ Holding e CGT Eletrosul
+² IR Diferido reconhecido no 4T24 sobre a Remensuração Regulatória na Holding de contratos de transmissão da empresa incorporada Furnas.
+³ O PIS/Cofins relacionado ao JCP emitido por Furnas e Eletronorte se encontra no Resultado Financeiro.
+ 
+Relatório de Resultados 4T24 37
+
+[p. 38]
+9. DESEMPENHO OPERACIONAL
+9.1. Segmento de Geração
+Ativos de Geração
+No 4T24, possuíamos 87 usinas, sendo 47 hidrelétricas, 7 térmicas, 32 eólicas e 1 solar, considerando os 
+empreendimentos corporativos, propriedade compartilhada e participações via SPEs. Em comparação com o 
+3T24, o aumento em 1 ativo deu-se pela entrada em operação comercial do parque eólico Coxilha Negra 3 da 
+CGT Eletrosul.
+Já a capacidade instalada do portfolio atingiu 44.245,72 MW no 4T24, sendo 97% proveniente de fontes limpas 
+com baixa emissão de gases de efeito estufa, e representando 21% do total instalado no Brasil.
+Tabela 30 - Ativos de Geração
+Fonte Capacidade Instalada (MW) Garantia Física (MWmed) Energia Gerada Acc. (GWh)
+Hídrica (47 usinas) 42.293,49 20.629,79 137.450,96
+Térmica (7 usinas) 1.270,23 1.058,60 4.323,05
+Eólica (32 usinas) 681,07 226,39 1.712,29
+Solar (1 usina) 0,93 0,00 0,93
+Total (87 usinas) 44.245,72 21.914,77 143.487,24
+No 4T24, a quantidade de energia gerada total da Eletrobras reduziu 5% em relação ao 4T23.
+Gráfico 4 - Geração Líquida de Energia Eletrobras (GWh)
+1.379 570
+29.860
+31.809
+1.079 484
+25.936 27.498
+4T23 (GWh) 4T24 (GWh)
+Térmica Eólica e Solar Hídrica Total
+ 
+Relatório de Resultados 4T24 38
+
+[p. 39]
+Dados do Sistema – Capacidade Instalada e Geração 
+No 4T24, a capacidade instalada Brasil somou 208.407,01 MW. 
+Gráfico 5 - Capacidade instalada Brasil - por fonte
+ 
+53%
+22%
+16%
+8% 1%
+Hidráulica Térmica Eólica Solar Nuclear
+Fonte: Sistema de Informações de Geração da ANEEL – SIGA
+Gráfico 6 - Energia Gerada SIN – Sistema Interligado Nacional (GWh)
+Eólica Hidrelétrica (eixo secundário) Nuclear Solar Térmica
+jan.-24 fev.-24 mar.-24 abr.-24 mai.-24 jun.-24 jul.-24 ago.-24 set.-24 nov.-24 dez.-24
+0
+100
+200
+300
+400
+500
+600
+700
+0
+500
+1.000
+1.500
+2.000
+Fonte: Resultados da Operação 01/01 a 31/12/2024 – ONS
+ 
+Relatório de Resultados 4T24 39
+
+[p. 40]
+Dados do Sistema – Mercado de Energia
+Tabela 31 - PLD
+ 4T24 4T23 ∆% 3T24 ∆%
+Mercado
+GSF (%) 79,91 83,79 -4,6 79,10 1,0
+PLD SE (R$/MWh) 217,59 77,70 180,0 169,67 28,2
+PLD S (R$/MWh) 217,58 77,70 180,0 169,72 28,2
+PLD NE (R$/MWh) 206,71 77,70 166,0 142,72 44,8
+PLD N (R$/MWh) 218,23 77,70 180,8 172,55 26,5
+Gráfico 7 - GSF (%)
+86,8%
+85,3%
+86,0%104,1% 73,4% 86,1%
+2021 2022 2023 2024
+jan fev mar abr mai jun jul ago set out nov dez
+25,0%
+50,0%
+75,0%
+100,0%
+125,0%
+Gráfico 8 - Média Histórica da Energia Natural Afluente (ENA) – SIN (%)
+O ano de 2024 apresentou baixa hidraulicidade, com exceção dos meses de abril e maio, devido 
+principalmente às chuvas na região Sul do país. Em novembro e dezembro, houve uma retomada da ENA, com 
+valores próximos a 100% da Média de Longo Termo (MLT) de cada mês. 
+117
+166
+65
+94
+99
+Mín e Máx (2020-2024) Realizado
+jan.-23 mar.-23 mai.-23 jul.-23 set.-23 nov.-23 jan.-24 mar.-24 mai.-24 jul.-24 set.-24 nov.-24
+0
+20
+40
+60
+80
+100
+120
+140
+160
+180
+ 
+Relatório de Resultados 4T24 40
+
+[p. 41]
+Gráfico 9 - Energia Armazenada no Reservatórios – SIN (%)
+Durante o 4T24, o indicador mostrou um aumento, terminando o trimestre em 48%, patamar pouco superior 
+ao centro da banda que considera o histórico entre os anos de 2020 e 2024.
+73
+87
+60
+75
+49
+48
+Mín e Máx (2020-2024) Realizado
+jan.-23 mar.-23 mai.-23 jul.-23 set.-23 nov.-23 jan.-24 mar.-24 mai.-24 jul.-24 set.-24 nov.-24
+0
+20
+40
+60
+80
+100
+9.2. Segmento de Transmissão
+A Companhia encerrou o 4T24 com 74,0 mil km de linhas, sendo 67,2 mil km de linhas próprias e 6,8 mil km 
+em parceria, e 406 subestações, considerando 293 próprias e 113 de terceiros.
+Tabela 32 - Linhas de Transmissão (Km)1
+Empresa Próprias (1) Em Parceria (2) Total
+Chesf 22.055 1.831 23.886
+Eletronorte 10.982 1.073 12.055
+CGT Eletrosul 12.072 5 12.076
+Eletrobras Holding 22.095 3.902 25.996
+Total 67.203 6.810 74.013
+(1) Inclui TMT (100%) e VSB (90%).
+(2) Parcerias consideram extensões proporcionais ao capital investido pelas Empresas Eletrobras no empreendimento.
+ 
+Relatório de Resultados 4T24 41
+1 Para mais informações sobre a Composição de Eletrobras Holding, consulte o Anexo 3
+
+[p. 42]
+9.3. ESG
+Tabela 33 - Indicadores ESG 4T24
+Pilar Indicador 4T24 4T23 Variação
+Prosperidade
+Investimento em Tecnologia e Inovação 
+R$ 561,2 milhões R$ 533,9 milhões 5%
+valores acumulados no ano (R$ milhões)
+Planeta
+Emissões de Gases de Efeito Estufa 
+acumulada no ano
+4.456.065 5.665.409 -21%
+ (Escopos 1, 2 e 3) (tCO2e) 
+Pessoas
+Taxa de Frequência de Acidentes - 
+empregados próprios (com afastamento) 0,75 2,15 -65%
+Mulheres no quadro de pessoal (%) 20% 18% 2,0 p.p.
+Cargos de liderança ocupados por mulheres 
+(%) 26% 23% 3,0 p.p.
+Governança Apuração de denúncias atendidas no prazo (%) 100% 98% 2,3 p.p.
+Os valores apresentados são preliminares e não assegurados, podendo ser ajustados conforme os processos de apuração, verificação e atualização dos 
+dados.
+1 A redução das emissões está associada, principalmente, à retirada da geração termelétrica a carvão, da matriz elétrica da companhia
+ 
+Relatório de Resultados 4T24 42
+
+[p. 43]
+10. ANEXOS
+10.1. Anexo 1 - Demonstrações Contábeis
+Tabela 33 - Balanço Patrimonial (R$ Mil)
+ATIVO CIRCULANTE
+ Caixa e equivalentes de caixa 16.387.945 5.698.457 26.572.522 13.046.371
+ Caixa restrito 449.865 250.060 508.734 572.869
+ Títulos e valores mobiliários 6.421.621 2.477.747 8.951.838 5.920.171
+ Clientes 1.686.293 0 5.911.477 5.210.482
+ Ativo contratual transmissão 4.634.940 0 10.539.570 11.159.426
+ Financiamentos, empréstimos e debêntures 971.555 1.099.798 475.459 367.741
+ Remuneração de participações societárias 2.286.078 2.358.819 721.683 871.558
+ Impostos e Contribuições 1.734.020 1.448.286 2.831.414 4.207.227
+ Imposto de renda e contribuição social 0 0 0 0
+ Direito de ressarcimento 865.299 940.268 893.254 980.206
+ Almoxarifado 50.576 204 441.471 426.690
+ Instrumentos financeiros derivativos 500.998 0 692.660 373.606
+ Outros 729.718 414.679 1.408.919 1.698.824
+36.718.908 14.688.318 59.949.001 44.835.171
+ Ativos mantidos para venda 1.353.723 221.972 4.502.102 3.187.141
+38.072.631 14.910.290 64.451.103 48.022.312
+ATIVO NÃO CIRCULANTE
+REALIZÁVEL A LONGO PRAZO
+ Caixa restrito 1.430.650 0 3.170.749 2.200.078
+ Direito de ressarcimento 692.126 1.332.167 720.081 1.385.479
+ Financiamentos, empréstimos e debêntures 1.894.322 6.852.841 163.140 260.409
+ Clientes 171.017 0 602.411 649.446
+ Títulos e valores mobiliários 421.933 432.355 433.341 432.724
+ Impostos e Contribuições 2.356.369 804.582 2.715.445 1.153.616
+ Imposto de renda e contribuição social diferido 0 0 5.673.011 6.725.087
+ Cauções e depósitos vinculados 3.693.298 3.337.816 5.190.344 6.246.082
+ Ativo contratual transmissão 21.223.812 0 56.848.086 50.052.912
+Instrumentos financeiros derivativos 1.269.677 0 1.544.095 0
+ Remuneração de participações societárias 181.049 0 0 0
+ Outros 2.000.734 1.495.993 1.645.570 1.053.164
+35.334.987 14.255.754 78.706.273 70.158.997
+ 
+INVESTIMENTOS
+ Avaliados por equivalência patrimonial 112.300.525 141.814.345 30.727.405 32.100.302
+ Mantidos a valor justo 839.546 1.046.762 861.234 1.072.093
+Outros Investimentos 19.387 0 97.987 32.288
+113.159.458 142.861.107 31.686.626 33.204.683
+C O N T R O L A D O R A C O N S O L I D A D O 
+31/12/2024 31/12/2023 31/12/2024 31/12/2023
+ 
+Relatório de Resultados 4T24 43
+
+[p. 44]
+IMOBILIZADO 6.137.175 201.942 36.854.056 35.805.421
+INTANGÍVEL 20.779.526 129.890 78.173.273 79.866.241
+175.411.146 157.448.693 225.420.228 219.035.342
+TOTAL DO ATIVO 213.483.777 172.358.983 289.871.330 267.057.654
+C O N T R O L A D O R A CONSOLIDADO
+31/12/2024 31/12/2023 31/12/2024 31/12/2023
+PASSIVO CIRCULANTE
+ Empréstimos, financiamentos e debêntures 8.329.966 7.342.448 12.809.872 10.890.873
+ Empréstimo compulsório - Acordos 1.105.534 896.746 1.105.534 896.746
+ Empréstimo compulsório 1.326.925 1.257.291 1.326.925 1.257.291
+ Fornecedores 1.145.660 155.989 2.756.329 2.963.867
+ Impostos e Contribuições 378.569 241.541 1.146.169 1.022.562
+ Imposto de renda e contribuição social 0 0 0 0
+ Contratos onerosos 0 0 62.711 120.660
+ Remuneração aos acionistas 2.486.778 1.110.416 2.490.668 1.154.836
+ Obrigações com pessoal 483.779 213.767 1.065.114 1.634.933
+ Obrigações de ressarcimento 0 0 55.517 0
+ Benefício pós-emprego 993 0 289.840 292.990
+ Provisões para litígios 1.719.453 1.993.061 1.791.088 2.290.873
+ Encargos setoriais 105.352 0 820.067 765.619
+ Obrigações da Lei 14.182/2021 814.819 0 2.916.199 2.161.176
+ Devoluções RGR 492.276 439.974 492.276 439.974
+ Arrendamentos 8.429 10.959 26.861 44.020
+ Instrumentos financeiros derivativos 824.125 0 1.175.652 0
+Outros 458.746 89.312 1.105.095 948.907
+19.681.404 13.751.504 31.435.915 26.885.327
+Passivos associados a ativos mantidos para venda 0 0 194.454 274.464
+19.681.404 13.751.504 31.630.369 27.159.791
+PASSIVO NÃO CIRCULANTE
+ Empréstimos, financiamentos e debêntures 40.926.187 27.474.928 62.810.702 48.569.496
+ Fornecedores 0 0 7.959 0
+ Provisões para litígios 15.658.437 15.598.552 21.583.395 24.250.819
+ Benefício pós-emprego 418.586 859.753 3.416.381 5.293.808
+ Obrigações da Lei 14.182/2021 11.111.765 0 39.105.924 37.358.230
+ Devoluções RGR 439.974 879.947 439.974 879.947
+ Contratos onerosos 0 0 621.725 950.468
+ Obrigações de ressarcimento 0 0 15.286 0
+ Arrendamentos 79.994 24.972 155.722 172.727
+C O N T R O L A D O R A C O N S O L I D A D O 
+31/12/2024 31/12/2023 31/12/2024 31/12/2023
+ 
+Relatório de Resultados 4T24 44
+
+[p. 45]
+Concessões a pagar - Uso do bem Público 38.175 0 543.867 566.172
+ Adiantamentos para futuro aumento de capital 108.938 98.252 108.938 98.252
+ Instrumentos financeiros derivativos 2.283 645.302 2.283 657.514
+ Encargos setoriais 744.833 0 942.348 432.341
+ Impostos e Contribuições 103.682 0 372.488 574.781
+ Imposto de renda e contribuição social diferidos 1.566.835 440.834 4.287.021 5.721.830
+ Outros 739.459 251.567 1.827.171 1.906.834
+71.939.148 46.274.107 136.241.184 127.433.219
+PATRIMÔNIO LÍQUIDO
+ Capital social 70.099.826 70.099.826 70.099.826 70.099.826
+ Gastos com emissão de ações -108.186 -108.186 -108.186 -108.186
+ Reservas de capital e Instrumentos Patrimoniais Outorgados 13.910.768 13.889.339 13.910.768 13.889.339
+ Ações em tesouraria -2.223.011 -2.114.256 -2.223.011 -2.114.256
+ Reservas de lucros 43.905.041 37.536.595 43.905.041 37.536.595
+ Dividendo adicional proposto 1.535.196 216.114 1.535.196 216.114
+ Lucros acumulados 0 0 0 0
+ Outros resultados abrangentes acumulados -5.256.409 -7.186.060 -5.256.409 -7.186.060
+ Valores reconhecidos em ORA classificados como mantidos para venda 0 0 0 0
+Participação de acionistas controladores 121.863.225 112.333.372 121.863.225 112.333.372
+Participação de acionistas não controladores 0 0 136.551 131.272
+TOTAL DO PATRIMÔNIO LÍQUIDO 121.863.225 112.333.372 121.999.776 112.464.644
+TOTAL DO PASSIVO E DO PATRIMÔNIO LÍQUIDO 213.483.777 172.358.983 289.871.330 267.057.654
+C O N T R O L A D O R A C O N S O L I D A D O 
+31/12/2024 31/12/2023 31/12/2024 31/12/2023
+ 
+Relatório de Resultados 4T24 45
+
+[p. 46]
+Tabela 34 - Demonstração de Resultados (R$ Mil)
+OPERAÇÕES CONTINUADAS
+Receita operacional líquida 6.328.755 109.424 40.181.552 37.158.908
+Custos operacionais -4.583.697 -99 -22.143.030 -18.673.499
+RESULTADO BRUTO 1.745.058 109.325 18.038.522 18.485.409
+Despesas operacionais -1.822.037 -912.679 -4.559.135 -7.456.137
+Remensurações regulatórias - Contratos de 
+transmissão 2.229.490 0 6.129.771 -12.144
+RESULTADO OPERACIONAL ANTES DO RESULTADO 
+FINANCEIRO 2.152.511 -803.354 19.609.158 11.017.128
+RESULTADO FINANCEIRO -4.386.422 -3.507.163 -11.628.120 -12.002.121
+ Receitas de juros, multas, comissões e taxas 832.164 832.301 138.666 153.458
+ Receita de aplicações financeiras 1.438.836 911.903 2.937.517 2.862.488
+ Acréscimo moratório sobre energia elétrica 2.532 1.139 119.500 165.978
+ Outras receitas financeiras 151.194 421.533 223.898 479.159
+ (-) Tributos sobre receitas financeiras -152.820 -472.511 -267.782 -578.163
+ Receitas financeiras 2.271.906 1.694.365 3.151.799 3.082.920
+ Encargos de dívidas -3.342.854 -2.323.089 -6.117.463 -6.463.585
+ Encargos de obrigações com CDE -362.827 0 -2.484.198 -2.292.321
+ Encargos de revitalização de bacias hidrográficas -45.170 0 -339.854 -355.430
+ Outras despesas financeiras -903.474 -474.439 -1.198.578 -1.109.907
+ Despesas financeiras -4.654.325 -2.797.528 -10.140.093 -10.221.243
+ Atualizações monetárias – CDE -213.976 0 -1.604.680 -1.384.392
+ Atualizações monetárias – bacias hidrográficas -35.306 0 -288.081 -331.760
+ Atualizações monetárias -662.794 -1.639.859 -778.157 -1.795.913
+ Variações cambiais 28.022 104.065 -28.821 169.904
+ Variação do valor justo de dívida protegida 
+(hedge) líquida do derivativo -1.119.949 -868.206 -1.566.482 -908.381
+ Variação de instrumento financeiro derivativo 
+não ligado a proteção de dívida 0 0 -373.605 -613.256
+ Itens financeiros, líquidos -2.004.003 -2.404.000 -4.639.826 -4.863.798
+-4.386.422 -3.507.163 -11.628.120 -12.002.121
+TRUE TRUE TRUE TRUE
+RESULTADO ANTES DAS PARTICIPAÇÕES 
+SOCIETÁRIAS -2.233.911 -4.310.517 7.981.038 -984.993
+Resultado das participações societárias 10.762.871 9.172.949 2.503.205 2.062.090
+Outras receitas e despesas 138.690 18.748 136.540 651.280
+C O N T R O L A D O R A C O N S O L I D A D O
+31/12/2024 31/12/2023 31/12/2024 31/12/2023
+ 
+Relatório de Resultados 4T24 46
+
+[p. 47]
+RESULTADO OPERACIONAL ANTES DOS TRIBUTOS 8.667.650 4.881.180 10.620.783 1.728.377
+Imposto de renda e contribuição social correntes 0 608 -717.909 -512.503
+Imposto de renda e contribuição social diferidos 1.710.472 0 477.879 3.511.001
+LUCRO LÍQUIDO DAS OPERAÇÕES CONTINUADAS 10.378.122 4.881.788 10.380.754 4.726.875
+Parcela atribuida aos controladores 10.378.122 4.881.788 10.378.122 4.881.788
+Parcela atribuida aos não controladores 0 0 2.632 -154.913
+LUCRO LÍQUIDO (PREJUÍZO) DA OPERAÇÃO 
+DESCONTINUADA 0 -332.014 0 -332.014
+Parcela Atribuida aos Controladores 0 -332.014 0 -332.014
+Parcela Atribuida aos Não Controladores 0 0 0 0
+LUCRO LÍQUIDO DO EXERCÍCIO 10.378.122 4.549.774 10.380.753 4.394.861
+Parcela Atribuida aos Controladores 10.378.122 4.549.774 10.378.122 4.549.774
+Parcela Atribuida aos Não Controladores 0 0 2.632 -154.913
+RESULTADO POR AÇÃO
+Resultado por ação - básico (ON) 4,56 2,12 4,56 2,12
+Resultado por ação - básico (PN) 5,02 2,34 5,02 2,34
+Resultado por ação - diluído (ON) 4,50 2,10 4,50 2,10
+Resultado por ação - diluído (PN) 4,95 2,31 4,95 2,31
+C O N T R O L A D O R A C O N S O L I D A D O
+31/12/2024 31/12/2023 31/12/2024 31/12/2023
+ 
+Relatório de Resultados 4T24 47
+
+[p. 48]
+Tabela 35 - Demonstração do Fluxo de Caixa (R$ Mil)
+ATIVIDADES OPERACIONAIS
+Resultado do período antes do imposto de renda e da 
+contribuição social 8.667.650 4.549.166 10.620.784 1.396.363
+Ajustes para reconciliar o lucro com o caixa gerado pelas operações:
+Depreciação e amortização 365.691 37.213 3.987.775 3.621.342
+Variações cambiais e monetárias líquidas 884.054 1.535.795 2.699.739 3.342.161
+Encargos financeiros 1.479.851 578.885 5.865.332 6.095.390
+Resultado da equivalência patrimonial -10.762.871 -9.172.949 -2.503.207 -2.062.090
+Outras receitas e despesas -138.690 -18.748 -136.540 -651.280
+Receitas da transmissão -3.927.138 0 -19.292.579 -17.432.037
+Custo de construção - transmissão 1.145.373 0 4.286.914 3.291.132
+Remensurações regulatórias - Contratos de transmissão -2.229.490 0 -6.129.771 12.144
+Provisões (reversões) operacionais -15.097 -1.148.011 -180.019 2.481.054
+Baixas de imobilizado e intangível 95.193 0 157.248 632.441
+Resultado da dívida protegida (hedge) e derivativos 1.119.949 868.206 1.940.087 1.521.637
+Outras 1.356.943 559.889 1.557.887 637.869
+-10.626.232 -6.759.720 -7.747.134 1.489.763
+(Acréscimos)/decréscimos nos ativos operacionais
+Clientes -91.676 1.340 1.111.674 -927.096
+Direito de ressarcimento 715.010 459.642 752.350 473.496
+Outros -656.660 -53.392 673.834 109.683
+-33.326 407.590 2.537.858 -343.917
+Acréscimos/(decréscimos) nos passivos operacionais
+Fornecedores 575.010 -821.070 -614.240 -526.425
+Adiantamentos 0 -3.243 0 -162.275
+Obrigações com pessoal 63.932 47.430 -775.899 -813.498
+Encargos setoriais 651.238 0 365.508 -280.680
+Outros 423.719 -151.856 -605.675 217.985
+1.713.899 -928.739 -1.630.306 -1.564.893
+Pagamento de encargos financeiros -4.113.742 -2.430.785 -6.650.869 -5.512.449
+Recebimento da receita anual permitida - RAP 3.531.148 0 19.248.186 18.287.910
+Recebimento de encargos financeiros de controladas 784.913 869.712 0 0
+Recebimento de remuneração de investimentos em 
+participações societárias 4.412.838 6.792.347 1.506.336 1.329.703
+Pagamento de litígios -2.932.649 -1.351.125 -3.776.063 -2.672.962
+Cauções e depósitos vinculados 164.738 -231.059 195.871 -733.354
+Pagamento de imposto de renda e contribuição social -73.214 -164.735 -1.488.382 -2.930.778
+Pagamento de previdência complementar -49.120 -14.909 -430.698 -510.048
+Caixa líquido proveniente das atividades operacionais 
+das operações descontinuadas 0 0 0 0
+Caixa líquido proveniente das (usado nas) atividades 
+operacionais 1.446.903 737.743 12.385.583 8.235.338
+C O N T R O L A D O R A C O N S O L I D A D O
+31/12/2024 31/12/2023 31/12/2024 31/12/2023
+ 
+Relatório de Resultados 4T24 48
+
+[p. 49]
+ATIVIDADES DE FINANCIAMENTO
+Empréstimos e financiamentos obtidos e debêntures 
+obtidas 17.246.220 7.000.000 29.965.839 11.821.045
+Pagamento de empréstimos e financiamentos e 
+debêntures - principal -12.412.729 -8.235.969 -16.009.832 -13.763.329
+Pagamento de remuneração aos acionistas -1.296.222 -864.192 -1.307.858 -864.192
+Pagamento aos acionistas dissidentes - incorporação de 
+ações 0 -212 0 -226.057
+Recompra de ações -115.099 -1.967.218 -115.099 -1.967.218
+Pagamento de obrigações com CDE e revitalização de 
+bacias - principal 0 0 -1.974.965 -1.433.816
+Pagamento de arrendamentos - principal -31.101 -7.916 -757.196 -765.525
+Caixa Restrito 0 0 0 0
+Outros 0 0 0 443.961
+Caixa líquido proveniente das atividades de 
+financiamento 3.391.069 -4.075.507 9.800.889 -6.755.131
+ATIVIDADES DE INVESTIMENTO
+Concessão de adiantamento para futuro aumento de 
+capital 0 0 0 0
+Recebimento de empréstimos e financiamentos 5.128.284 2.014.687 12.675 982.425
+Recebimento de encargos financeiros 57.665 172.457 57.665 172.457
+Aquisição de ativo imobilizado -461.441 -6.776 -3.099.474 -3.862.770
+Aquisição de ativo intangível -230.905 -62.044 -425.891 -258.371
+Caixa restrito 129.707 0 -691.526 0
+Resgates / (aplicações) financeiras (TVM) -1.162.785 442.060 -3.064.434 3.143.232
+Recebimento de encargos (TVM) 245.654 692.097 529.802 4.066.478
+Aquisição de debêntures 0 -450.000 0 -450.000
+Infraestrutura da transmissão - ativo contratual -1.145.373 0 -4.286.914 -3.269.358
+Aquisição/aporte de capital em participações societárias -176.643 -2.108 -176.643 -1.439.478
+Alienação de investimentos em participações societárias 2.449.160 355.941 2.449.160 907.004
+Caixa líquido na incorporação de controladas 1.018.193 0 0 0
+Caixa líquido na aquisição de controle de investidas 0 0 0 0
+Outros 0 0 35.259 -116.617
+Caixa líquido proveniente das atividades de 
+investimento das operações descontinuadas 0 952.036 0 952.036
+Caixa líquido proveniente das (usado nas) atividades 
+de investimento 5.851.516 4.108.350 -8.660.321 827.038
+Acréscimo no caixa e equivalentes de caixa 10.689.488 770.586 13.526.151 2.307.245
+Caixa e equivalentes de caixa no início do período 5.698.457 4.927.871 13.046.371 10.739.126
+Caixa e equivalentes de caixa no fim do período 16.387.945 5.698.457 26.572.522 13.046.371
+10.689.488 770.586 13.526.151 2.307.245
+C O N T R O L A D O R A C O N S O L I D A D O
+31/12/2024 31/12/2023 31/12/2024 31/12/2023
+ 
+Relatório de Resultados 4T24 49
+
+[p. 50]
+10.2. Anexo 2 - Nota sobre venda das Térmicas
+No dia 10 de junho de 2024, a Eletrobras assinou um contrato com a Âmbar Energia/Grupo J&F para vender 
+seu portfólio termoelétrico por R$4,7 bilhões, incluindo R$1,2 bilhão em earn-out. A J&F também assumiu 
+imediatamente e integralmente o risco de crédito dos contratos de energia desse portfólio. A transação já teve 
+boa parte de suas condições precedentes atendidas e aguarda a conclusão das condições remanescentes para 
+fechamento.
+Em 12 de junho de 2024, foi publicada a Medida Provisória nº 1.232, que altera as regras dos sistemas 
+isolados. O texto permite que, se a ANEEL reconhecer a perda das condições de serviço, um plano de 
+transferência societário poderá ser aprovado como alternativa à extinção da concessão. A MP também muda 
+as regras dos contratos de compra e venda de energia (CCVEEs) reembolsáveis pela Conta Consumo de 
+Combustível (CCC).
+Como consequência, a Eletronorte firmou Contratos de Energia de Reserva (CERs) com a Câmara de 
+Comercialização de Energia Elétrica (CCEE), vinculados às certas usinas da Companhia 1. Além disso, foram 
+assinados com a Amazonas Distribuidora de Energia S/A os Distratos dos CCVEEs dessas usinas e o Termo de 
+Desistência e Renúncia a direitos contra a União sobre compras de energia antes da troca dos contratos por 
+CERs.
+Os documentos foram aprovados sub judice conforme o Despacho ANEEL nº 3.025, de 07 de outubro de 2024. 
+A Eletrobras já vem recebendo os pagamentos dos novos CERs diretamente da CCEE, incluindo os 
+recebimentos retroativos até o dia 13 de Junho de 2024, data de início de suprimento da energia prevista nos 
+CERs.
+10.3. Anexo 3 - Nota sobre a Incorporação de Furnas
+Nas tabelas contendo informações sobre as principais subsidiárias operacionais do Grupo Eletrobras, os 
+comentários sobre o resultado referentes à “holding Eletrobras” consideram, a partir do 3T24: 
+a) os ativos de Furnas recém incorporados; 
+b) as entidades geradoras Baguari Energia, Retiro Baixo Energética, Brasil Ventos e Madeira Energia 
+(MESA); e 
+c) as entidades transmissoras Triângulo Mineiro Transmissora, Vale do São Bartolomeu Transmissora e 
+Nova Era Janapú. 
+Estas sete entidades antes eram incluídas consolidadas em Furnas.
+Para as comparações entre o 4T24 e o 4T23, considerou-se para o 4T23, por simplificação, a soma da holding 
+Eletrobras e Furnas consolidada, incluindo as 7 SPEs, visto que as eliminações são irrelevantes tanto no 
+resultado operacional (receita e EBITDA) como no resultado financeiro.
+ 
+Relatório de Resultados 4T24 50
+1 Aparecida, Jaraqui, Tambaqui, Cristiano Rocha, Manauara e Ponta Negra.
+
+[p. 51]
+10.4. Anexo 4 - EBITDA IFRS
+Tabela 37 - EBITDA IFRS Ajustado (R$ Mil)
+4T24 4T23 % 3T24 % 12M24 12M23 %
+Resultado do Exercício 1.112 893 24,5 7.195 -84,5 10.381 4.395 136,2
++ Resultado da Operação Descontinuada 0 0 0,0 0 0,0 0 332 -100,0
+Resultado do Exercício, operação Continuada 1.112 893 24,5 7.195 -84,5 10.381 4.727 119,6
++ Provisão Imposto de Renda e Contribuição Social -48 -3.265 -98,5 1.186 -104,0 240 -2.998 -108,0
++ Resultado Financeiro 2.930 2.527 16,0 2.788 5,1 11.628 12.002 -3,1
++ Amortização e Depreciação 1.033 899 14,9 990 4,3 3.988 3.621 10,1
+EBITDA 5.027 1.055 376,7 12.159 -58,7 26.237 17.352 51,2
+Ajustes Receitas 0 0 0,0 0 0,0 0 -12 -100,0
+Ajustes Custos e Despesas 292 -485 -160,3 313 -6,6 809 863 -6,3
+Ajustes Provisões -552 3.027 -118,2 -480 15,1 -1.421 1.711 -183,0
+Ajustes Outras Receitas e Despesas -95 209 -145,6 -28 237,2 -137 -651 -79,0
+EBITDA IFRS Ajustado 4.672 3.805 22,8 11.964 -60,9 25.488 19.262 32,3
+ 
+Relatório de Resultados 4T24 51
+
+[p. 52]
+10.5. Anexo 5 - Receita Regulatória de Transmissão - Parcela de Ajuste (PA)
+A Parcela de Ajuste (PA) do ciclo tarifário atual é o mecanismo utilizado pelo regulador, previsto em contrato, 
+para compensar o déficit ou superávit de receita ocorrido no ciclo tarifário anterior, ou seja, corresponde ao 
+ajuste entre os valores recebidos e os permitidos no ciclo tarifário anterior, compensado em 12 parcelas 
+mensais iguais no ciclo atual. Pode ser positivo ou negativo, conforme tenha sido o saldo de cada agente.
+A tabela a seguir apresenta a abertura da PA definida pela ANEEL para o ciclo 2024/2025 na Resolução 
+Homologatória 3.348/2024, no âmbito do Reajuste Anual da RAP do ciclo 2024/2025. Adicionalmente, é 
+apresentado para os ciclos tarifários seguintes (2025/2026 a 2027/2028), as PAs Revisão estabelecidas pela 
+ANEEL no âmbito dos processos de revisão periódica da RAP dos contratos de concessão renovados e licitados 
+já homologadas pela ANEEL até o ciclo 2024/2025.
+Tabela 38 - Parcela de Ajuste (PA) - Resolução Homologatória 3.348/2024 (R$ mm)
+Contratos de Concessão Prorrogados por meio da 
+Lei 12.783/2012 
+Data base jun/24
+PA
+Ciclo 
+24/25
+PA
+Ciclo 
+25/26
+PA
+Ciclo 
+26/27
+PA
+Ciclo 
+27/28
+TOTAL
+PA Revisão Periódica da RAP - 2023 (I) (1) -811 480 480 480 628
+PA Postergação RTP 2023 (2) -1.316 -1.316
+RBSE - Componente Econômico -1.655 -1.655
+RBSE - O&M - PRT 579/2012 18 18
+Reforços e Melhorias com RAP Prévia -176 -176
+Reforços e Melhorias sem RAP Prévia (3) 496 496
+PA Retroatividade da Receita Revisada de Reforços e 
+Melhorias (4) 349 349 349 349 1.395
+Reforços e Melhorias com RAP Prévia 50 50 50 50 201
+Reforços e Melhorias sem RAP Prévia 299 299 299 299 1.194
+PA Outros Ajustes - RTP 2023 (5) 26 26
+PA Anuidade Melhorias (6) 131 131 131 131 524
+PA Reajuste Anual da RAP ciclo 2024/2025 (II) -627 0 0 0 -627
+PA Apuração (7) -623 -623
+PA Autorizações de Reforços de Pequeno Porte sem RAP 
+(8) 5 5
+PA Outros Ajustes -9 -9
+PA TOTAL - Contratos de Concessão Prorrogados (I + II) -1.438 480 480 480 1
+Contratos de Concessão Licitados
+PA Revisão Periódica da RAP (III) (9) 19 15 10 6 49
+PA Reajuste Anual da RAP ciclo 2024/2025 (IV) -110 0 0 0 -110
+PA Apuração (7) -112 -112
+PA Autorizações de Reforços de Pequeno Porte sem RAP 
+prévia (8) 2 2
+PA Outros Ajustes 0 0
+PA TOTAL - Contratos de Concessão Licitados (III + IV) -91 15 10 6 -61
+(1) Parcela de Ajuste estabelecida na Resolução Homologatória 3.344/2024, que define o resultado da Revisão Periódica da RAP dos Contratos de Concessão 057/2001, 
+058/2001, 061/2001 e 062/2001 prorrogados por meio da Lei 12.783/2013, resultado da Consulta Pública (CP) ANEEL 12/2024.
+(2) PA Postergação: relativa às diferenças financeiras decorrentes da postergação da revisão periódica da RAP dos contratos de concessão prorrogados de 01/07/2023 para 
+01/07/2024, conforme Despacho nº 402/2023. PA a ser compensada em parcela única.
+(3) Inclui anuidades (adiantamentos financeiros) para execução de Melhorias de Pequeno Porte referente ao ciclo 2023-2024.
+ 
+Relatório de Resultados 4T24 52
+
+[p. 53]
+(4) PA Retroatividade: relativa à retroatividade das parcelas adicionais de RAP dos reforços e melhorias que estão passando pela primeira revisão periódica (base 
+incremental), no período compreendido entre a sua data de entrada em operação comercial até 30.06.2023, conforme previsto no Submódulo 9.7 dos PRORET, já 
+descontadas das anuidades para adiantamento de parte dos valores de receita associados à execução das melhorias de pequeno porte sem receita previa. PA a ser 
+compensada em parcelas iguais até a revisão subsequente em julho/2028.
+(5) PA Outros Ajustes - RTP 2023: refere-se aos demais ajustes conforme Notas Técnicas nº 58/2024 e nº 103/2024-STR/ANEEL, que subsidiaram a CP 12/2024. PA a ser 
+compensada em parcela única.
+(6) PA Anuidade Melhorias: Financeiro anual para execução de melhorias de pequeno porte a ser considerado a partir do ciclo 2024-2025 até o ciclo 2027-2028
+(7) PA Apuração: compensa as diferenças oriundas do déficit ou superávit de arrecadação que ocorre na contabilização realizada pelo ONS.
+(8) PA Autorizações de Reforços de Pequeno Porte sem RAP: considera a parcela da RAP relativa ao período que abrange a data da entrada em operação comercial da obra 
+conforme Termo de Liberação emitido pelo ONS, até 30 junho do ano i (junho do ciclo i-1), para os casos de reforços de pequeno porte autorizados com RAP estabelecida no 
+âmbito do Reajuste Anual da RAP.
+(9) Considera apenas a PA da Revisão homologada pela ANEEL para os contratos de concessão Licitados que passaram por revisão até o ano de 2024. 
+10.6. Anexo 6 - Receita Societária de Geração
+A tabela a seguir mostra a abertura de Receita de Geração Societária em linha com as demonstrações 
+contábeis. A receita com suprimento é obtida com clientes que não sejam consumidores finais, como por 
+exemplo distribuidores, comercializadores e geradores - contratos no ACR e ACL. Já a receita com 
+fornecimento é obtida diretamente com consumidores finais, como por exemplo indústria e comércio, apenas 
+contratos no ACL.
+Tabela 39 - Receita Bruta 4T24 (R$ mm)
+ 
+4T24
+Eletrobras 
+Holding Chesf Eletronort e CGT Eletrosul Total Eliminação Consolida do IFRS
+Suprimento 2.933 163 2.012 258 5.367 -187 5.180
+Fornecimento 204 79 395 15 693 0 693
+CCEE 156 351 847 15 1.368 0 1.368
+Receita de operação e manutenção 259 480 6 0 745 0 745
+Receitas de Geração 3.552 1.073 3.260 288 8.173 -187 7.986
+Itens não recorrentes – Ajustes 0 0 0 0 0 0 0
+Receita Geração Ajustada 3.552 1.073 3.260 288 8.173 -187 7.986
+Tabela 40 - Receita Bruta 4T23 (R$ mm)
+4T23
+Eletrobras 
++ Furnas e 
+Outros
+Chesf Eletronorte CGT Eletrosul Total Eliminação Consolidad o IFRS
+Suprimento 2.271 155 2.102 400 4.929 -69 4.860
+Fornecimento 340 225 369 0 934 0 934
+CCEE 113 92 172 11 387 0 387
+Receita de operação e manutenção 355 677 8 0 1.040 0 1.040
+Receitas de Geração 3.079 1.149 2.652 411 7.291 -69 7.221
+Itens não recorrentes – Ajustes 0 0 0 0 0 0 0
+Receita Geração Ajustada 3.079 1.149 2.652 411 7.291 -69 7.221
+ 
+Relatório de Resultados 4T24 53
+
+[p. 54]
+10.7. Anexo 7 - Receita Societária de Transmissão
+A receita societária de transmissão foi de R$ 5.773 milhões no 4T24, aumento de 27% em relação ao 4T23, 
+com destaque para os aumentos de R$ 539 milhões na receita de Construção, R$ 537 milhões na receita 
+Contratual e R$ 139 milhões na receita de O&M. A receita de O&M está associada à operação e manutenção 
+dos ativos em operação; a de construção, aos investimentos realizados (apropriados e alocados) nos projetos 
+em andamento; e a contratual (financeira), à aplicação dos índices inflacionários aos saldos dos ativos de 
+contrato de cada concessão.
+Tabela 41 - Receita Operacional de Transmissão (R$ mm) 
+4T24 4T23 % 3T24 % 12M24 12M23 %
+Receitas de Transmissão 5.773 4.558 27 4.566 26 19.293 17.432 11
+Receita de operação e manutenção 1.863 1.723 8 1.906 -2 7.725 7.335 5
+Receita de Construção 1.811 1.272 42 1.044 73 4.162 2.961 41
+Receita Contratual – Transmissão 2.099 1.562 34 1.616 30 7.405 7.136 4
+Itens não recorrentes – Ajustes 0 0 0 0 0 0 0 0
+Receita Operacional de Transmissão 
+Ajustada 5.773 4.558 27 4.566 26 19.293 17.432 11
+10.8. Anexo 8 - Financiamentos e empréstimos concedidos (Recebíveis)
+Gráfico 10 - Recebíveis (R$ bilhões)
+1,4
+0,7 0,5 0,4 0,4
+3,4
+6,8
+1,0
+0,3 0,3 0,3 0,3
+2,3
+4,6
+Controladora Consolidado
+2025 2026 2027 2028 2029 Após 2029 TOTAL
+Não inclui PECLD de R$ 3.989 milhões e encargo circulante.
+ 
+Relatório de Resultados 4T24 54
+
+[p. 55]
+10.9. Anexo 9 - Conciliação IFRS X Regulatório
+31/12/2024 31/12/2024 31/12/2023 31/12/2023
+RECEITAS OPERACIONAIS
+Geração
+Suprimento 18.811.949 19.410.072 -598.123 17.030.455 17.030.455 0
+Fornecimento 2.941.312 2.941.312 0 3.853.830 3.853.830 0
+CCEE 3.278.465 3.278.465 0 1.680.285 1.680.285 0
+Receita de operação e 
+manutenção 3.063.896 3.063.896 0 4.052.072 4.052.072 0
+Receita de construção de 
+Usinas 0 0 0 0 0 0
+Atualizações da taxa de 
+retorno - Geração 0 0 0 0 0 0
+Repasse Itaipu 0 0 0 0 0 0
+Transmissão
+Receita de operação e 
+manutenção - Linhas 
+Renovadas
+0 0 0 0 0 0
+Receita de operação e 
+manutenção 7.725.358 7.725.358 0 7.335.165 7.335.165 0
+Financeira - Retorno do 
+Investimento - RBSE 0 0 0 0 0 0
+Receita de construção 4.161.735 0 4.161.735 2.960.792 0 2.960.792
+Receita contratual - 
+Transmissão 7.405.486 0 7.405.486 7.136.080 0 7.136.080
+Disponibilidade Do 
+Sistema De Transmissão 
+(Rap)
+0 11.524.659 -11.524.659 0 10.914.552 -10.914.552
+Outras receitas 337.166 335.343 1.823 426.427 426.427 0
+Deduções
+ (-) Encargos setoriais -2.484.234 -2.484.234 0 -2.348.976 -2.348.976 0
+ (-) ICMS -761.342 -761.342 0 -1.053.742 -1.053.742 0
+ (-) PASEP e COFINS -4.295.000 -4.295.000 0 -3.906.818 -3.906.818 0
+ (-) Outras Deduções -3.239 -3.239 0 -6.662 -6.662 0
+Receita operacional 
+líquida 40.181.552 40.735.290 -553.738 37.158.908 37.976.588 -817.680
+CUSTOS OPERACIONAIS
+ Pessoal, Material e 
+Serviços -2.879.221 -2.878.195 -1.026 -3.356.356 -3.356.356 0
+ Energia comprada para 
+revenda -5.068.123 -5.770.265 702.142 -3.028.226 -3.745.460 717.234
+ Encargos sobre uso da 
+rede elétrica -3.954.730 -3.954.730 0 -3.482.126 -3.488.981 6.855
+Tabela 40 - Conciliação IFRS X Regulatório (R$ Mil)
+Resultado CVM - 
+Societário
+Resultado 
+Regulatório Diferenças
+Resultado 
+CVM - 
+Societário
+Resultado 
+Regulatório Diferenças
+ 
+Relatório de Resultados 4T24 55
+
+[p. 56]
+Combustível para 
+produção de energia 
+elétrica
+-1.991.855 -1.991.855 0 -2.042.867 -2.042.867 0
+ Construção -4.286.914 0 -4.286.914 -3.291.132 0 -3.291.132
+ Depreciação -1.770.624 -3.211.221 1.440.597 -1.776.909 -3.724.920 1.948.011
+ Amortização -1.946.844 -1.961.457 14.613 -1.610.698 -1.615.868 5.170
+ Provisões operacionais 0 0 0 0 0 0
+ Outros Custos -244.719 -244.719 0 -85.185 -92.810 7.625
+Custos operacionais -22.143.030 -20.012.442 -2.130.588 -18.673.499 -18.067.262 -606.237
+RESULTADO BRUTO 18.038.522 20.722.848 -2.684.326 18.485.409 19.909.326 -1.423.917
+DESPESAS OPERACIONAIS
+ Pessoal, Material e 
+Serviços -3.332.559 -3.397.251 64.692 -3.496.049 -3.496.050 1
+ Programa de Demissão 
+Voluntária -226.815 -226.815 0 -544.609 -544.609 0
+ Remuneração e 
+ressarcimento 0 0 0 0 0 0
+ Depreciação -189.801 -557.024 367.223 -204.932 -199.159 -5.773
+ Amortização -80.506 -308.793 228.287 -28.803 -28.803 0
+ Doações e contribuições -145.085 -145.085 0 -111.101 -111.101 0
+ Provisões/Reversões 
+operacionais 180.019 695.418 -515.399 -2.481.054 -2.456.664 -24.390
+ Outras despesas -764.388 -773.919 9.531 -589.589 -573.516 -16.073
+Despesas operacionais -4.559.135 -4.713.469 154.334 -7.456.137 -7.409.902 -46.235
+Remensurações 
+regulatórias - Contratos de 
+transmissão
+0 0 0 0 0 0
+RESULTADO 
+OPERACIONAL ANTES DO 
+RESULTADO FINANCEIRO
+13.479.387 16.009.379 -2.529.992 11.029.272 12.499.424 -1.470.152
+RESULTADO FINANCEIRO -11.628.121 -12.318.591 690.470 -12.002.121 -11.583.590 -418.531
+RESULTADO ANTES DAS 
+PARTICIPAÇÕES 
+SOCIETÁRIAS
+1.851.266 3.690.788 -1.839.522 -972.849 915.834 -1.888.683
+Resultado das 
+participações societárias 2.503.207 2.050.730 452.477 2.062.090 1.565.475 496.615
+Outras receitas e despesas 136.540 136.540 0 651.280 823.864 -172.584
+RESULTADO 
+OPERACIONAL ANTES DOS 
+TRIBUTOS
+4.491.013 5.878.058 -1.387.045 1.740.521 3.305.174 -1.564.653
+Tabela 40 - Conciliação IFRS X Regulatório (R$ Mil)
+Resultado CVM - 
+Societário
+Resultado 
+Regulatório Diferenças
+Resultado 
+CVM - 
+Societário
+Resultado 
+Regulatório Diferenças
+ 
+Relatório de Resultados 4T24 56
+
+[p. 57]
+Imposto de renda e 
+contribuição social 
+correntes
+-717.909 -717.909 0 -512.503 -512.504 1
+Imposto de renda e 
+contribuição social 
+diferidos
+477.879 1.881.521 -1.403.642 3.511.001 3.337.515 173.486
+LUCRO LÍQUIDO DAS 
+OPERAÇÕES 
+CONTINUADAS
+4.250.983 7.041.670 -2.790.687 4.739.019 6.130.185 -1.391.166
+0 0
+Parcela atribuida aos 
+controladores 10.378.122 7.040.475 3.337.647 4.881.788 6.285.044 -1.403.256
+Parcela atribuida aos não 
+controladores 2.632 1.195 1.437 -154.913 -154.859 -54
+LUCRO LÍQUIDO 
+(PREJUÍZO) DA OPERAÇÃO 
+DESCONTINUADA
+0 0 0 0 0 0
+Parcela Atribuida aos 
+Controladores 0 0 0 -332.014 0 -332.014
+Parcela Atribuida aos Não 
+Controladores 0 0 0 0 986.785 -986.785
+LUCRO LÍQUIDO DO 
+PERÍODO 4.250.983 7.041.670 -2.790.687 4.739.019 6.130.185 -1.391.166
+Parcela Atribuida aos 
+Controladores 10.378.122 7.040.475 3.337.647 4.549.774 5.953.030 -1.403.256
+Parcela Atribuida aos Não 
+Controladores 2.632 1.195 1.437 -154.913 -154.859 -54
+Tabela 40 - Conciliação IFRS X Regulatório (R$ Mil)
+Resultado CVM - 
+Societário
+Resultado 
+Regulatório Diferenças
+Resultado 
+CVM - 
+Societário
+Resultado 
+Regulatório Diferenças
+ 
+Relatório de Resultados 4T24 57

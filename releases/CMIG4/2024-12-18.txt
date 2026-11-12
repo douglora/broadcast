@@ -1,0 +1,7116 @@
+6-K
+1
+cig20241218_6k.htm
+6-K
+
+United States
+
+Securities and
+exchange commission
+
+washington, d.c. 20549
+
+FORM 6-K
+
+report of foreign
+private issuer
+
+pursuant to rule 13 a -16 or 15 d -16 of
+
+the securities exchange act of 1934
+
+For the month of December 2024
+
+Commission File Number 1-15224
+
+Energy Company of Minas Gerais
+
+(Translation of Registrant’s Name into English)
+
+Avenida Barbacena, 1200
+
+30190-131 Belo Horizonte, Minas Gerais, Brazil
+
+(Address of Principal Executive Offices)
+
+Indicate by check mark whether the registrant files or will file annual
+reports under cover of Form 20-F or Form 40-F.
+
+Form 20-F a
+Form 40-F ___
+
+|
+
+|
+
+Index
+
+Item Description
+of Items
+
+| 1. | Notice to the Market dated October 11, 2024 – Fitch upgrades CEMIG ratings to “AAA” |
+
+| 2. | Earnings Release – 3Q2024 |
+
+| 3. | Notice to the Market dated November 13, 2024 – Cemig announces Vice President of Finances and Investor Relations |
+
+| 4. | Notice to the Market dated December 5, 2024 – CEMIG holds auction for the sale of four power plants |
+
+| 5. | Notice to the Market dated December 5, 2024 – Payment of Bonds |
+
+| 6. | Material Fact dated December 12, 2024 – Cemig discloses investment plan for the 2025-2029 period |
+
+| 7. | Notice to the Market dated December 5, 2024 – Cemig listed in the Dow Jones Sustainability Index for 25 years |
+
+| 8. | Notice to Shareholders dated December 17, 2024 – Declaration of Interest on Equity |
+
+|
+
+|
+
+Forward-Looking Statements
+
+This report contains statements about expected future events and financial
+results that are forward-looking and subject to risks and uncertainties. Actual results could differ materially from those predicted in
+such forward-looking statements. Factors which may cause actual results to differ materially from those discussed herein include those
+risk factors set forth in our most recent Annual Report on Form 20-F filed with the Securities and Exchange Commission. CEMIG undertakes
+no obligation to revise these forward-looking statements to reflect events or circumstances after the date hereof, and claims the protection
+of the safe harbor for forward-looking statements contained in the Private Securities Litigation Reform Act of 1995.
+
+|
+
+|
+
+SIGNATURES
+
+Pursuant to the requirements of the Securities Exchange
+Act of 1934, the registrant has duly caused this report to be signed on its behalf by the undersigned, thereunto duly authorized.
+
+COMPANHIA ENERGÉTICA DE MINAS GERAIS – CEMIG
+
+By: /s/ Andrea Marques de Almeida .
+
+Name: Andrea Marques de Almeida
+
+Title: Vice President of Finance and Investor
+Relations
+
+Date: December 18, 2024
+
+|
+
+|
+
+| 1. | Notice to the Market dated October 11, 2024 – Fitch upgrades CEMIG ratings to “AAA” |
+
+|
+
+|
+
+COMPANHIA ENERGÉTICA DE MINAS GERAIS - CEMIG
+
+PUBLICLY-HELD COMPANY
+
+Corporate Taxpayer’s ID (CNPJ): 17.155.730/0001-64
+
+Company Registry (NIRE): 31300040127
+
+NOTICE TO THE MARKET
+
+Fitch upgrades CEMIG ratings to “AAA”
+
+COMPANHIA ENERGÉTICA DE MINAS GERAIS –
+CEMIG (“CEMIG” or “Company”), a publicly-held company with shares traded on the stock exchanges of São
+Paulo, New York and Madrid, hereby informs the Brazilian Securities and Exchange Commission – CVM, B3 S.A. – Brasil, Bolsa,
+Balcão (“B3”), and the market in general that the credit rating agency Fitch Ratings (“Fitch”) has upgraded
+the corporate credit ratings of the Company and its wholly-owned subsidiaries Cemig Distribuição S.A. and Cemig Geração
+e Transmissão S.A. on a national scale, from “AA+” to “AAA,” with a stable outlook.
+
+As a result, the Company now holds the highest credit
+rating on a national scale , “AAA”.
+
+The rating upgrade reflects Fitch’s view that
+CEMIG has strengthened its credit profile, with a solid and diversified asset base, positive operational performance, and robust cash
+generation.
+
+The Company reaffirms its commitment to increase liquidity
+and improve its capital structure by extending its debt profile, strategically managing its liabilities, and reducing its cost of capital.
+
+Belo Horizonte, October 11, 2024.
+
+Leonardo George de Magalhães
+
+Vice President of Finance and Investor Relations
+
+|
+
+|
+
+| 2. | Earnings Release – 3Q2024 |
+
+|
+
+|
+
+|
+
+|
+
+|
+
+|
+
+|
+|
+
+CONTENTS |
+|
+
+|
+|
+
+3Q24 HIGHLIGHTS |
+|
+
+CONSOLIDATED RESULTS |
+5 |
+
+Profit and loss accounts |
+6 |
+
+Results by business segment |
+7 |
+
+THE MARKET |
+8 |
+
+PERFORMANCE BY COMPANY |
+9 |
+
+Cemig D |
+9 |
+
+Billed electricity market |
+9 |
+
+Sources and uses of electricity – MWh |
+10 |
+
+Client base |
+10 |
+
+Performance by sector |
+10 |
+
+The Annual Tariff Adjustment |
+11 |
+
+Five-year Tariff Reviews compared |
+12 |
+
+Supply quality indicators – DEC and FEC |
+13 |
+
+Combating default |
+13 |
+
+Energy losses |
+14 |
+
+Cemig GT and Cemig Holding Company |
+15 |
+
+Electricity market |
+15 |
+
+Sources and uses of electricity |
+16 |
+
+Gasmig |
+17 |
+
+Consolidated results |
+18 |
+
+Net profit |
+18 |
+
+Operational revenue |
+19 |
+
+Operational costs, expenses and other revenues |
+22 |
+
+Finance income and expenses |
+25 |
+
+Equity income (gain/loss in non-consolidated investees) |
+26 |
+
+Consolidated Ebitda (IFRS, and Adjusted) |
+27 |
+
+Ebitda of Cemig D |
+28 |
+
+Cemig GT – Ebitda |
+29 |
+
+Investments |
+30 |
+
+Debt |
+31 |
+
+Covenants – Eurobonds |
+33 |
+
+Cemig’s long-term ratings |
+34 |
+
+ESG – Report on performance |
+34 |
+
+Performance of Cemig’s shares |
+37 |
+
+Cemig generation plants |
+38 |
+
+RAP: July 2024–June 2025 cycle |
+39 |
+
+Regulatory Transmission revenue |
+40 |
+
+Complementary information |
+40 |
+
+Cemig D |
+40 |
+
+Cemig GT |
+42 |
+
+Cemig, Consolidated |
+43 |
+
+Disclaimer |
+49 |
+
+COMPANHIA ENERGÉTICA DE MINAS GERAIS S.A.
+| 4 | |
+
+|
+|
+
+CONSOLIDATED RESULTS
+
+Ebitda – 3Q24
+
+|
+3Q24 |
+3Q23 |
+Change, % |
+
+Ebitda, by company (IFRS) |
+|
+|
+|
+
+(R$ ’000) |
+|
+
+Cemig D (IFRS) |
+773,388 |
+835,588 |
+–7.4% |
+
+Cemig GT (IFRS) |
+3,797,877 |
+790,747 |
+380.3% |
+
+Gasmig (IFRS) |
+227,194 |
+231,173 |
+–1.7% |
+
+Consolidated (IFRS) |
+4,957,907 |
+2,011,189 |
+146.5% |
+
+|
+3Q24 |
+3Q23 |
+Change, % |
+
+Adjusted Ebitda, by company |
+|
+|
+|
+
+(R$ ’000) |
+|
+|
+|
+
+Cemig D |
+773,388 |
+835,588 |
+–7.4% |
+
+Cemig GT |
+602,500 |
+744,956 |
+–19.1% |
+
+Consolidated |
+1,761,967 |
+1,964,799 |
+–10.3% |
+
+COMPANHIA ENERGÉTICA DE MINAS GERAIS S.A.
+| 5 | |
+
+|
+|
+
+Profit and loss accounts
+
+|
+3Q24 |
+3Q23 |
+Change, % |
+
+R$ ’000 |
+|
+|
+|
+
+NET REVENUE |
+10,148,885 |
+9,426,629 |
+7.7% |
+
+|
+|
+|
+|
+
+COSTS |
+-7,252,186 |
+-6,268,746 |
+15.7% |
+
+Cost of electricity |
+-4,567,101 |
+-3,778,480 |
+20.9% |
+
+Gas purchased for resale |
+-543,988 |
+-527,146 |
+3.2% |
+
+Charges for use of national grid |
+-804,946 |
+-769,491 |
+4.6% |
+
+Infrastructure construction costs |
+-1,336,151 |
+-1,193,629 |
+11.9% |
+
+|
+|
+|
+|
+
+OTHER COSTS, EXPENSES AND OTHER REVENUES |
+1,653,809 |
+-1,534,303 |
+-207.8% |
+
+People |
+-326,125 |
+-302,927 |
+7.7% |
+
+Employees’ and managers’ profit shares |
+-40,965 |
+-43,603 |
+–6.1% |
+
+Post-employment liabilities |
+-122,028 |
+-168,786 |
+–27.7% |
+
+Materials |
+-34,676 |
+-28,478 |
+21.8% |
+
+Outsourced services |
+-497,493 |
+-466,584 |
+6.6% |
+
+Depreciation and amortization |
+-345,742 |
+-316,693 |
+9.2% |
+
+Provisions |
+-92,837 |
+-99,522 |
+–6.7% |
+
+Impairment |
+-1,491 |
+45,791 |
+–103.3% |
+
+Provisions (reversals) for client default |
+50,556 |
+-43,160 |
+–217.1% |
+
+Reversal of provision with related party |
+57,835 |
+- |
+– |
+
+Other operating costs and expenses, net |
+-144,903 |
+-110,341 |
+31.3% |
+
+Total other costs and expenses |
+-1,497,869 |
+-1,534,303 |
+-2.4% |
+
+Gain on disposal of investments |
+1,616,911 |
+- |
+– |
+
+Revenue – Periodic Tariff Review, net |
+14,136 |
+- |
+|
+
+Gain on asset purchase |
+1,520,631 |
+- |
+– |
+
+Total other revenues |
+3,151,678 |
+- |
+- |
+
+|
+|
+|
+|
+
+Share of profit (loss) in non–consolidated investees |
+61,657 |
+70,916 |
+–13.1% |
+
+Net finance income (expense) |
+|
+|
+–71.4% |
+
+|
+-61,545 |
+-214,852 |
+|
+
+Profit before income and Social Contribution taxes |
+4,550,620 |
+1,479,644 |
+207.5% |
+
+Income tax and Social Contribution tax |
+-1,270,423 |
+-242,337 |
+424.2% |
+
+|
+|
+|
+|
+
+NET PROFIT FOR THE PERIOD |
+3,280,197 |
+1,237,307 |
+165.1% |
+
+COMPANHIA ENERGÉTICA DE MINAS GERAIS S.A.
+| 6 | |
+
+|
+|
+
+Results by business
+segment
+
+|
+INFORMATION BY SEGMENT, 3Q24 |
+|
+|
+
+|
+|
+Electricity |
+Gas |
+Equity interests |
+Elimin-ations |
+TOTAL |
+|
+|
+
+|
+Generation |
+Transmission |
+Trading |
+Distribution |
+|
+|
+
+|
+|
+|
+
+|
+NET REVENUE |
+721,825 |
+318,668 |
+1,876,418 |
+6,758,463 |
+920,426 |
+26,726 |
+–473,641 |
+10,148,885 |
+|
+|
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+|
+
+COST OF
+
+ELECTRICITY AND GAS
+|
+–114,660 |
+–96 |
+–1,761,871 |
+–3,947,320 |
+–543,988 |
+–12,809 |
+464,709 |
+–5,916,035 |
+|
+|
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+|
+OTHER COSTS, EXPENSES AND OTHER REVENUES |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+|
+People |
+–35,037 |
+–34,623 |
+2,462 |
+–222,612 |
+–17,599 |
+–18,716 |
+– |
+–326,125 |
+|
+|
+
+|
+Employees’ and managers’ profit shares |
+–3,885 |
+–4,134 |
+–221 |
+–24,336 |
+– |
+–8,389 |
+– |
+–40,965 |
+|
+|
+
+|
+Post-employment liabilities |
+–12,932 |
+–7,992 |
+–1,831 |
+–81,391 |
+– |
+–17,882 |
+– |
+–122,028 |
+|
+|
+
+|
+Materials, Outsourced services and Other expenses |
+–99,500 |
+–41,965 |
+–6,605 |
+–535,850 |
+–21,737 |
+–23,336 |
+8,932 |
+–720,061 |
+|
+|
+
+|
+Depreciation and amortization |
+–78,654 |
+–6,357 |
+–2 |
+–230,097 |
+–24,744 |
+–5,888 |
+– |
+–345,742 |
+|
+|
+
+|
+Provisions |
+–4,035 |
+–926 |
+–7,276 |
+–22,484 |
+1,151 |
+47,633 |
+– |
+14,063 |
+|
+|
+
+|
+Infrastructure construction costs |
+– |
+(74,005) |
+– |
+(1,151,083) |
+(111,063) |
+– |
+– |
+(1,336,151) |
+|
+|
+
+|
+Other revenues |
+42,989 |
+1.520.631 |
+– |
+– |
+– |
+1,631,047 |
+– |
+3,194,667 |
+|
+|
+
+|
+TOTAL |
+–191,054 |
+1.350.629 |
+–13,473 |
+–2,267,853 |
+–173,992 |
+1,604,469 |
+8,932 |
+317,658 |
+|
+|
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+|
+TOTAL COSTS, EXPENSES AND OTHER REVENUES |
+–305,714 |
+1,350,533 |
+–1,775,344 |
+–6,215,173 |
+–717,980 |
+1,591,660 |
+473,641 |
+-5,598,377 |
+|
+|
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+|
+
+Share of profit (loss) in
+
+non-consolidated investees
+|
+– |
+– |
+– |
+– |
+– |
+61,657 |
+– |
+61,657 |
+|
+|
+
+|
+Net finance income (expenses) |
+3,220 |
+18,255 |
+3,098 |
+–75,596 |
+–8,167 |
+–2,355 |
+– |
+–61,545 |
+|
+|
+
+|
+PROFIT (LOSS) BEFORE TAXES ON PROFIT |
+419,331 |
+1,687,456 |
+104,172 |
+467,694 |
+194,279 |
+1,677,688 |
+– |
+4,550,620 |
+|
+|
+
+|
+
+Income tax and
+
+Social Contribution tax
+|
+–152,570 |
+–487,206 |
+–9,103 |
+–95,973 |
+–63,304 |
+–462,267 |
+– |
+–1,270,423 |
+|
+|
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+|
+NET PROFIT FOR THE PERIOD |
+266,761 |
+1,200,250 |
+95,069 |
+371,721 |
+130,975 |
+1,215,421 |
+– |
+3,280,197 |
+|
+|
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+COMPANHIA ENERGÉTICA DE MINAS GERAIS S.A.
+| 7 | |
+
+|
+|
+
+THE MARKET
+
+Cemig’s consolidated
+electricity market
+
+In September 2024 the
+Cemig Group invoiced 9.35 million clients – an addition of approximately 179,000 clients, or a 1.95% increase in its consumer
+base since the end of September 2023.
+
+Of this total number
+of consumers, 9,344,674 are final consumers (and/or Cemig’s own consumption); and 723 are other agents in the Brazilian power
+sector.
+
+These charts break down
+the Group’s sales to final consumers:
+
+COMPANHIA ENERGÉTICA DE MINAS GERAIS S.A.
+| 8 | |
+
+|
+|
+
+PERFORMANCE BY COMPANY
+
+Cemig
+D
+
+Billed electricity market
+
+|
+3Q24 |
+3Q23 |
+Change % |
+
+Captive clients + Transported energy (MWh)* |
+|
+|
+|
+
+Residential |
+3,051,336 |
+2,874,159 |
+6.2% |
+
+Industrial |
+5,967,158 |
+5,652,811 |
+5.6% |
+
+Captive market |
+270,836 |
+320,470 |
+–15.5% |
+
+Transport |
+5,696,321 |
+5,332,341 |
+6.8% |
+
+Commercial, services and Others |
+1,511,590 |
+1,500,991 |
+0.7% |
+
+Captive market |
+930,862 |
+1,008,973 |
+–7.7% |
+
+Transport |
+580,728 |
+492,018 |
+18.0% |
+
+Rural |
+935,395 |
+879,384 |
+6.4% |
+
+Captive market |
+914,360 |
+867,641 |
+5.4% |
+
+Transport |
+21,035 |
+11,743 |
+79.1% |
+
+Public services |
+814,299 |
+844,521 |
+–3.6% |
+
+Captive market |
+646,371 |
+733,652 |
+–11.9% |
+
+Transport |
+167,928 |
+110,869 |
+51.5% |
+
+Concession holders |
+91,045 |
+88,198 |
+3.2% |
+
+Transport |
+91,045 |
+88,198 |
+3.2% |
+
+Own consumption |
+6,763 |
+6,783 |
+–0.3% |
+
+Total |
+12,377,586 |
+11,846,846 |
+4.5% |
+
+Total, captive market |
+5,820,529 |
+5,811,677 |
+0.2% |
+
+Total, energy transported for Free Clients |
+6,557,057 |
+6,035,169 |
+8.6% |
+
+*Excluding
+compensated energy from DG
+
+Energy
+supplied to captive clients plus energy transported for Free Clients and distributors in 3Q24 totaled 12,378 GWh, or 4.5% more than in
+3Q23 (excluding compensated energy from DG), mainly reflecting higher consumption by: residential clients ( – up 177.2 GWh or +6.2%);
+industrial clients ( – up 314.3 GWh or +5.6%); and rural clients ( – up 56.0 GWh or +6.4%). These increases were mainly due
+to: higher temperatures; higher economic activity; and higher demand for irrigation, in the period.
+
+The growth of
+4.5% in total energy distributed comprises: an increase of 8.6% ( +521.9 GWh) in use of the network by Free Clients, and an increase of
+0.2% (+8.9 GWh) in consumption by the captive market.
+
+COMPANHIA ENERGÉTICA DE MINAS GERAIS S.A.
+| 9 | |
+
+|
+|
+
+Sources and uses of electricity –
+MWh
+
+|
+3Q24 |
+3Q23 |
+Change % |
+
+Metered market – MWh |
+|
+|
+|
+
+Transported for distributors |
+91,045 |
+87,590 |
+3.9% |
+
+Transported for Free Clients |
+6,537,504 |
+5,956,175 |
+9.8% |
+
+Own load + Distributed generation |
+8,790,421 |
+8,427,677 |
+4.3% |
+
+Consumption by captive market |
+5,836,505 |
+5,806,773 |
+0.5% |
+
+Distributed Generation market |
+1,269,813 |
+960,662 |
+32.2% |
+
+Losses in distribution network |
+1,684,103 |
+1,660,242 |
+1.4% |
+
+Total volume carried |
+15,418,971 |
+14,471,442 |
+6.5% |
+
+Client base
+
+In September 2024 Cemig
+billed 9.34 million consumers , or 1.9% more than in September 2023.
+
+Of these, 3,903 were Free
+Clients using the distribution network of Cemig D.
+
+|
+Sep. 2024 |
+Sep. 2023 |
+Change % |
+
+NUMBER OF CAPTIVE CLIENTS |
+|
+|
+|
+
+Residential |
+7,897,895 |
+7,673,463 |
+2.9% |
+
+Industrial |
+28,734 |
+28,653 |
+0.3% |
+
+Commercial, services and others |
+918,607 |
+940,938 |
+–2.4% |
+
+Rural |
+399,211 |
+428,177 |
+–6.8% |
+
+Public authorities |
+72,545 |
+69,458 |
+4.4% |
+
+Public lighting |
+6,995 |
+6,554 |
+6.7% |
+
+Public services |
+13,710 |
+13,679 |
+0.2% |
+
+Own consumption |
+757 |
+759 |
+–0.3% |
+
+Total, captive clients |
+9,338,454 |
+9,161,681 |
+1.9% |
+
+NUMBER OF FREE CLIENTS |
+|
+|
+|
+
+Industrial |
+1,639 |
+1,179 |
+39.0% |
+
+Commercial |
+2,146 |
+1,656 |
+29.6% |
+
+Rural |
+46 |
+18 |
+155.6% |
+
+Concession holders |
+8 |
+8 |
+0.0% |
+
+Others |
+64 |
+23 |
+178.3% |
+
+Total, Free Clients |
+3,903 |
+2,884 |
+35.3% |
+
+Total, Captive market + Free Clients |
+9,342,357 |
+9,164,565 |
+1.9% |
+
+Performance by sector
+
+Industrial :
+Energy distributed to Industrial clients was 5.6% higher YoY in 3Q24, on higher physical production by industry, and was 48.2% of Cemig
+D’s total distribution. The greater part was energy transported for industrial Free Clients (46.0%), which was 6.8% higher by volume
+than in 3Q23. Energy billed to captive industrial clients was 2.2% of the total distributed, and 15.5% less by volume than in 3Q23 –
+mainly due to migration of clients to the Free Market. Highlights in industry by sector were: Increased consumption in Metallic production
+(+9.7), Ferroalloys (+13.4%), Foods and beverages (+4.8%) and Chemicals (+7.1%). The only sector with significantly lower power consumption,
+YoY, was Non-ferrous metals (–7.0%).
+
+Residential :
+Residential consumption was 24.7% of total energy distributed by Cemig D, and 6.2% higher than
+in 3Q23. Average monthly consumption per consumer in the quarter, at 128.8 kWh/month, was 3.1% higher than in 3Q23, reflecting temperatures
+higher than the historic averages, and higher family consumption. Also contributing to higher consumption was the +2.9% growth –
+an increase of 224,400 – in the number of clients in this category.
+
+COMPANHIA ENERGÉTICA DE MINAS GERAIS S.A.
+| 10 | |
+
+|
+|
+
+Commercial
+and services : Energy distributed to these consumers
+was 12.2% of the total distributed by Cemig D in 3Q24, and by volume 0.7% more than in 3Q23. The increase is the result of a 7.7% reduction
+in the volume of energy billed to captive clients, and an 18.0% increase in the volume of energy transported for Free Clients. The higher
+consumption reflects: (i) expansion of the services sector, (ii) growth of retail sales, and (iii) temperatures above historical
+averages. It is worth noting that the increase in this user category happened in spite of the migration of consumers to Distributed Generation,
+which, along with migration to the Free Market, was reducing captive consumption.
+
+Rural
+consumers used 7.6% of the total energy distributed by Cemig – and 6.4% more than in 3Q23 – this
+increase being partly due to lower than average rainfall in the quarter.
+
+Public services
+consumed 6.6% of the energy distributed in 3Q24, a total 3.6% lower by volume than in 3Q23.
+
+The Annual Tariff Adjustment
+
+The tariffs of Cemig
+D are adjusted in May each year; and every five years are subjected to a Periodic Tariff Review, also in May. The aim of the Annual
+Tariff Adjustment is to pass on in full to the client any changes in costs defined as “non-manageable”, and provide inflation
+adjustment for the costs defined as “manageable”, as specified in the Tariff Review. Manageable costs are adjusted by the
+IPCA inflation index, less a factor known as the ‘X Factor’, to capture productivity, under a system using the price-cap regulatory
+model.
+
+On May 14, 2024 Aneel ratified
+Cemig D’s Tariff Adjustment, to be effective from May 28, 2024 to May 27, 2025, with an average increase, for consumers, of 7.32%.
+The average effect was, for low-voltage consumers, an increase of 6.72%, and for residential consumers, an increase of 6.70%. The percentage
+component corresponding to manageable costs (referred to as ‘Portion B’) was 1.27%. The increase relating to non-manageable
+costs (‘Portion A’ – comprising purchase of energy, transmission, sector charges and non-recoverable revenues) was 0.81%.
+The increase in the financial components of the tariff contributed 5.23%. The effect in financial components in 2024 comes mainly from
+removal of the component included in the 2023 adjustment process relating to the repayment to consumers of PIS, Pasep and Cofins taxes
+(totaling R$ 1.27 billion).
+
+Average effects of the Tariff Adjustment |
+
+High voltage – average |
+8.63% |
+
+Low voltage – average |
+6.72% |
+
+Average effect |
+7.32% |
+
+See more details at this link:
+
+https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/Nota%20T%C3%A9cnica%20RTA%202024_CEMIG.pdf
+
+COMPANHIA ENERGÉTICA DE MINAS GERAIS S.A.
+| 11 | |
+
+|
+|
+
+Five-year Tariff Reviews compared
+
+This table compares the Tariff Reviews made in
+2023 and in the previous cycle (2018):
+
+Five-year Tariff Reviews |
+2018 |
+2023 |
+
+Gross remuneration base – R$ million |
+20,490 |
+25,587 |
+
+Net Remuneration Base – R$ million |
+8,906 |
+15,200 |
+
+Average depreciation rate |
+3.84% |
+3.95% |
+
+WACC (after taxes) |
+8.09% |
+7.43% |
+
+Remuneration of ‘Special Obligations’ – R$ mn |
+149 |
+272 |
+
+CAIMI* (Annual support for facilities) – R$ mn |
+333 |
+484 |
+
+QRR** (Depreciation quota) – R$ mn |
+787 |
+1,007 |
+
+* CAIMI: ( Cobertura Anual de Instalações
+Móveis e Imóveis ) – Annual support for facilities.
+
+** QRR: ‘ Regulatory Reintegration Quota ’:
+Gross base x annual depreciation rate.
+
+See more details at this link:
+
+https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/NT%2012%202023%20RTP%20Cemig.pdf
+
+COMPANHIA ENERGÉTICA DE MINAS GERAIS S.A.
+| 12 | |
+
+|
+|
+
+Supply quality indicators – DEC and
+FEC
+
+In 2023, Minas Gerais experienced
+an increase in extreme atmospheric events, causing a slight increase in electricity outages. In the context of this challenging scenario,
+Cemig has been implementing several initiatives to reduce the number and duration of outages. It is also making major investments in its
+distribution business to provide a quality service to clients, and intensifying measures to prevent outages in the rainy period of 2024–2025.
+
+These actions are already
+producing positive results. The DEC indicator (average outage Duration per Consumer) returned to a level within the regulatory limit:
+in the 12-month window to end-September 2024 Cemig's DEC was 9.43 hours, within the regulatory limit of 9.64 hours.
+
+Combating default
+
+The Company has maintained
+a high level of collection actions, and this has helped keep the Receivables Recovery Index high: in September 2024 it was 98.67%, an
+increase of 0.46 percentage points from June 2024.
+
+New payment channels, and
+online negotiation, have helped to increase the proportion of collection via digital channels (e.g. PIX instant payments, automatic debits,
+payments by card and app, etc.). This percentage reached 68.0% of the total collected in 3Q24, compared to 61.3% in 3Q23. The PIX system
+is a highlight: it was used for 27.2% of all collections – now a higher percentage than collection through the traditional channel
+of lottery shops. This system has saved R$ 26.4 million since it was implemented.
+
+The change in the collection
+mix has reduced collection costs by 21% in the last year alone – since 3Q23.
+
+COMPANHIA ENERGÉTICA DE MINAS GERAIS S.A.
+| 13 | |
+
+|
+|
+
+Energy losses
+
+Energy losses in the 12
+months to the end of September 2024, at 10.76%, were higher than the regulatory target (10.57%). In relation to June 2024, losses decreased
+by 0.25 pp. The result above the regulatory level is partly due to: higher temperatures in September, and the corresponding supply not
+being invoiced by the end of that month.
+
+Highlights of our combat
+of energy losses up to September 2024 include: approximately 301,000 inspections; replacement of more than 467,000 obsolete meters; replacement
+of 57,000 conventional meters by smart meters (bringing the total of smart meters installed since the project began in September 2021
+to 400,000); and regularization of 9,500 clandestine connections made by families living in ‘invaded’ and low-income areas,
+through our Energia Legal program, which uses ‘bulletproofed’ networks (bringing the total of connections regularized
+since the start of the project in February 2023 to 18,000).
+
+Total losses
+
+Actual losses
+
+Regulatory losses
+
+COMPANHIA ENERGÉTICA DE MINAS GERAIS S.A.
+| 14 | |
+
+|
+|
+
+Cemig
+GT and Cemig Holding Company
+
+Electricity market
+
+The total volume of electricity
+sold by Cemig GT and by the holding company ( ‘Cemig H’ ), excluding sales on the wholesale power exchange (CCEE),
+was 1.5% lower than in 3Q23.
+
+Cemig GT billed 5,125
+GWh (including quota sales) in 3Q24, 11.6% less than in 3Q23. The lower figure is the result of transfer of sales contracts to Cemig
+H (the holding company) – which reported sales of 4,774 GWh in 3Q24, 12.3% more than in 3Q23.
+
+The migration of purchase
+contracts from Cemig GT to the holding company was begun in 3Q21, and has been gradually increasing since then. It is now around 56%.
+
+|
+3Q24 |
+3Q23 |
+Change % |
+
+Cemig GT – MWh |
+
+Free Clients |
+3,070,400 |
+3,298,721 |
+–6.9% |
+
+Industrial |
+2,080,315 |
+2,325,940 |
+–10.6% |
+
+Commercial |
+856,301 |
+967,754 |
+–11.5% |
+
+Rural |
+5,197 |
+5,027 |
+3.4% |
+
+‘Energy retailer’ Free Clients |
+128,587 |
+– |
+– |
+
+Free Market – Traders and cooperatives |
+950,646 |
+1,429,907 |
+–33.5% |
+
+Quota supply |
+543,712 |
+530,439 |
+2.5% |
+
+Regulated Market |
+527,676 |
+507,655 |
+3.9% |
+
+Regulated Market – Cemig D |
+32,594 |
+31,999 |
+1.9% |
+
+Total, Cemig GT |
+5,125,028 |
+5,798,721 |
+–11.6% |
+
+Cemig H – MWh |
+|
+|
+|
+
+Free Clients |
+2,551,187 |
+2,265,520 |
+12.6% |
+
+Industrial |
+2,082,965 |
+1,970,109 |
+5.7% |
+
+Commercial |
+439,244 |
+283,585 |
+54.9% |
+
+Rural |
+28,978 |
+11,826 |
+145.0% |
+
+Free Market – Traders and cooperatives |
+2,223,641 |
+1,987,902 |
+11.9% |
+
+Total Cemig H |
+4,774,828 |
+4,253,422 |
+12.3% |
+
+Cemig GT + H |
+9,899,856 |
+10,052,143 |
+–1.5% |
+
+COMPANHIA ENERGÉTICA DE MINAS GERAIS S.A.
+| 15 | |
+
+|
+|
+
+Sources and uses of electricity
+
+COMPANHIA ENERGÉTICA DE MINAS GERAIS S.A.
+| 16 | |
+
+|
+|
+
+Gasmig
+
+Gasmig is the exclusive
+distributor of piped natural gas for the whole of the state of Minas Gerais. It supplies industrial, commercial and residential users,
+compressed natural gas and vehicle natural gas, and gas as fuel for thermoelectric generation plants. Its concession expires in January
+2053. Cemig owns 99.57% of Gasmig .
+
+Gasmig ’s last
+Tariff Review was completed in April 2022. Highlights:
+
+|
+§ |
+The WACC used (real, after taxes) was reduced from 10.02% p.a. to 8.71% p.a. |
+
+|
+§ |
+The Net Remuneration Base was increased significantly, to R$ 3.48 billion. |
+
+|
+§ |
+The regulator recognized the cost of PMSO (Personnel, Materials, outsourced Services, & Other services) in full. |
+
+Market (Volume in ’000m 3 ) |
+2022 |
+2023 |
+9M23 |
+9M24 |
+9M23–9M24 |
+
+|
+|
+|
+|
+|
+|
+
+Automotive |
+40,950 |
+31,907 |
+24,598 |
+17,076 |
+–30.6% |
+
+Compressed vehicle natural gas |
+364 |
+541 |
+417 |
+469 |
+12.5% |
+
+Industrial |
+870,667 |
+830,943 |
+628,159 |
+591,501 |
+–5.8% |
+
+Industrial compressed natural gas |
+13,616 |
+12,473 |
+10,374 |
+7,625 |
+–26.5% |
+
+Residential |
+11,392 |
+11,912 |
+9,434 |
+9,022 |
+–4.4% |
+
+Co-generation |
+13,137 |
+12,075 |
+8,864 |
+9,589 |
+8.2% |
+
+Commercial |
+23,114 |
+21,964 |
+16,461 |
+17,130 |
+4.1% |
+
+Subtotal – conventional gas |
+973,240 |
+921,815 |
+698,307 |
+652,412 |
+–6.6% |
+
+Thermal plants |
+37,991 |
+– |
+– |
+– |
+– |
+
+Subtotal – gas sold |
+1,011,231 |
+921,815 |
+698,307 |
+652,412 |
+–6.6% |
+
+Industrial – Free Market |
+87,133 |
+92,362 |
+70,190 |
+71,954 |
+2.5% |
+
+Industrial compressed natural gas – Free Market |
+– |
+– |
+– |
+7,328 |
+0.0% |
+
+Thermal – Free Market |
+7,119 |
+19,050 |
+913 |
+41,369 |
+4,431% |
+
+Total (sales + Free Clients) |
+1,105,483 |
+1,033,227 |
+769,410 |
+773,063 |
+0.5% |
+
+Ebitda (R$ ’000) |
+3Q24 |
+3Q23 |
+
+Profit (loss) for the period |
+130,977 |
+139,343 |
+
+Income tax and Social Contribution tax |
+65,007 |
+70,968 |
+
+Net finance income (expenses) |
+8,168 |
+–1,205 |
+
+Depreciation and amortization |
+23,042 |
+22,067 |
+
+Ebitda per CVM Resolution 156 |
+227,194 |
+231,173 |
+
+The volume of gas sold in
+3Q24 was 3.7% lower than in 3Q23, while the volume distributed to industrial Free Clients was 102% higher, due to thermal dispatch.
+In the first nine months of the year, volume sold was 6.6% lower.
+
+Gasmig’s 3Q24 Ebitda
+was 1.7% lower than in 3Q23, reflecting: (i) lower volume of gas sold, and (ii) the reduction of R$ 6.9 million received in
+the compensatory component included in the tariff (for differences between actual costs and cost included in the tariff award calculation).
+
+The number of Gasmig’s
+clients increased by 9.7% from 3Q23, to a total of 101,273 consumers in 3Q24. This reflects expansion of both the commercial and the residential
+client bases (addition of 8,900 clients).
+
+COMPANHIA ENERGÉTICA DE MINAS GERAIS S.A.
+| 17 | |
+
+|
+|
+
+Consolidated
+results
+
+Net profit
+
+For 3Q24 , Cemig reports:
+net profit of R$ 3.28 billion ; and adjusted net profit of R$ 1.12 billion.
+
+For comparison, in 3Q23: reported
+net profit was R$ 1.24 billion, and adjusted net profit R$ 1.23 billion.
+
+Main factors in this result were:
+
+|
+· |
+Profit of Cemig GT, at R$ 2.63 billion, 436.6% higher than in 3Q24 – due to: |
+
+|
+· |
+Completion of the sale of Aliança , with effect on net profit of R$ 1,120.8 million – comprising a capital gain of R$ 1,082.7 million, and R$ 38.2 million in reversal of provisions. |
+
+|
+· |
+Positive effects of the transmission tariff review : R$ 1,033.6 million, mainly due to the investments made in the cycle, and revaluations in the Aneel price bank. |
+
+|
+· |
+Cemig D distributed 4.5% more energy in 3Q24 than in 3Q23. |
+
+|
+· |
+In Cemig D, change of the time limit for 100% recognition of client credit default losses, from 24 to 36 months – to better reflect the profile of losses in practice. This produced a positive effect of R$ 59.4 million. |
+
+|
+· |
+Negative impact on profit of Cemig D from energy losses exceeding the regulatory level in this quarter. |
+
+|
+· |
+Higher effective tax rate: 27.9% in 3Q24, compared to 16.4% in 3Q23, mainly due to the sale of Cemig’s stake in Aliança and to transmission tariff review taxed at higher rates. |
+
+|
+· |
+Lower profit from power trading in 3Q: R$ 82.4 million, due to (i) a negative effect from price differences in submarkets in 3Q24, and (ii) a higher than normal profit in 3Q23, the result of a differentiated strategy that resulted in a higher margin in 2023. |
+
+More details of these variations
+are given below.
+
+COMPANHIA ENERGÉTICA DE MINAS GERAIS S.A.
+| 18 | |
+
+|
+|
+
+Operational revenue
+
+|
+3Q24 |
+3Q23 |
+Change % |
+
+R$ ’000 |
+|
+|
+|
+
+Revenue from supply of electricity |
+8,556,096 |
+8,130,020 |
+5.2% |
+
+Revenue from use of distribution systems (TUSD charge) |
+1,337,614 |
+1,125,693 |
+18.8% |
+
+CVA and Other financial components in tariff adjustments |
+357,377 |
+80,237 |
+345.4% |
+
+Reimbursement (to consumers)
+of credits of
+
+PIS, Pasep and Cofins taxes
+– Amounts realized
+|
+– |
+311,748 |
+–100.0% |
+
+Transmission – Operation and Maintenance revenue |
+144,576 |
+95,828 |
+50.9% |
+
+Transmission – Construction revenue |
+112,500 |
+39,394 |
+185.6% |
+
+Financial remuneration of transmission contractual assets |
+40,422 |
+115,693 |
+–65.1% |
+
+Generation capital assets reimbursement |
+21,218 |
+23,867 |
+–11.1% |
+
+Distribution construction revenue |
+1,262,146 |
+1,165,087 |
+8.3% |
+
+Adjustment to expectation of cash flow from indemnifiable financial assets of the distribution concession |
+16,454 |
+49,577 |
+–66.8% |
+
+Gain on financial updating of Concession Grant Fee |
+93,691 |
+85,073 |
+10.1% |
+
+Settlements on CCEE |
+26,651 |
+36195 |
+–26.4% |
+
+Retail supply of gas |
+1,038,057 |
+989,284 |
+4.9% |
+
+Fine for continuity indicator shortfall |
+–29,163 |
+–21,480 |
+35.8% |
+
+Other operational revenues |
+662,540 |
+590,628 |
+12.2% |
+
+Taxes and charges reported as deductions from revenue |
+–3,491,294 |
+–3,390,215 |
+3.0% |
+
+Net operational revenue |
+10,148,885 |
+9,426,629 |
+7.7% |
+
+Revenue from supply of electricity
+
+|
+3Q24 |
+3Q23 |
+Change, % |
+
+|
+MWh |
+R$ ’000 |
+Average price billed – R$/MWh (1) |
+MWh |
+R$ ’000 |
+Average price billed – R$/MWh (1) |
+MWh |
+R$ ’000 |
+
+Residential |
+3,449,635 |
+3,123,509 |
+905.46 |
+3,163,575 |
+2,698,430 |
+852.97 |
+9.0% |
+15.8% |
+
+Industrial |
+4,581,216 |
+1,378,843 |
+300.98 |
+4,680,243 |
+1,517,529 |
+324.24 |
+–2.1% |
+–9.1% |
+
+Commercial, services and others |
+2,847,501 |
+1,577,181 |
+553.88 |
+2,735,654 |
+1,507,626 |
+551.1 |
+4.1% |
+4.6% |
+
+Rural |
+1,116,959 |
+735,049 |
+658.08 |
+1,009,847 |
+664,428 |
+657.95 |
+10.6% |
+10.6% |
+
+Public authorities |
+236,535 |
+219,664 |
+928.67 |
+218,980 |
+190,624 |
+870.51 |
+8.0% |
+15.2% |
+
+Public lighting |
+242,334 |
+141,116 |
+582.32 |
+263,650 |
+120,576 |
+457.33 |
+–8.1% |
+17.0% |
+
+Public services |
+230,985 |
+183,657 |
+795.1 |
+257,850 |
+203,362 |
+788.68 |
+–10.4% |
+–9.7% |
+
+Subtotal |
+12,705,165 |
+7,359,019 |
+579.21 |
+12,329,799 |
+6,902,575 |
+559.83 |
+3.0% |
+6.6% |
+
+Own consumption |
+6,763 |
+– |
+– |
+6,783 |
+– |
+– |
+–0.3% |
+– |
+
+Retail supply not yet invoiced, net |
+– |
+–46,050 |
+– |
+– |
+91,649 |
+– |
+– |
+– |
+
+|
+12,711,928 |
+7,312,969 |
+579.21 |
+12,336,582 |
+6,994,224 |
+559.83 |
+3.0% |
+4.6% |
+
+Wholesale supply to
+
+other concession holders (2)
+|
+4,200,330 |
+1,143,909 |
+272.34 |
+4,410,689 |
+1,042,287 |
+236.31 |
+–4.8% |
+9.7% |
+
+Wholesale supply not yet invoiced, net |
+– |
+99,218 |
+– |
+– |
+93,509 |
+– |
+– |
+6.1% |
+
+Total |
+16,912,258 |
+8,556,096 |
+502.97 |
+16,747,271 |
+8,130,020 |
+474.59 |
+1.0% |
+5.2% |
+
+|
+(1) |
+The calculation of average price does not include revenue from supply not yet billed. |
+
+|
+(2) |
+Includes Regulated Market Electricity Sale Contracts (CCEARs) and ‘bilateral’ contracts with other agents. |
+
+COMPANHIA ENERGÉTICA DE MINAS GERAIS S.A.
+| 19 | |
+
+|
+|
+
+Consolidated volume of energy sold (GWh): +1.0%
+
+GWh
+
+Energy sold to final consumers
+
+Gross
+revenue from energy sold to final consumers, at R$ 7,313.0 million in 3Q24, was 4.6% higher than in 3Q23 (R$ 6,994.2
+million), mainly reflecting total energy sold 3.0% higher, led by 9.0% higher residential volume (when considering compensated energy
+from DG).
+
+Wholesale supply
+
+Revenue
+from wholesale supply in 3Q24 was R$ 1,231 million , compared to R$ 1,135.8 million in 3Q23. The higher figure reflects
+higher volume settled by Cemig D in the Surpluses/Deficits Compensation Mechanism (MCSD) in 3Q24.
+
+Transmission
+
+|
+3Q24 |
+3Q23 |
+Change % |
+
+TRANSMISSION REVENUE (R$ ’000) |
+|
+|
+|
+
+Operation and Maintenance |
+144,576 |
+95,828 |
+50.9% |
+
+Infrastructure Construction / updating / enhancement |
+112,500 |
+39,394 |
+185.6% |
+
+Financial remuneration of transmission contractual assets |
+40,422 |
+115,693 |
+–65.1% |
+
+ Total |
+297,498 |
+250,915 |
+18.6% |
+
+Transmission
+revenue was R$ 46.6 million higher than in 3Q23, mainly on Construction revenue R$ 73.1 million higher, reflecting projects in progress
+for construction, strengthening and enhancement of the transmission network.
+
+Gas
+
+Gross revenue from supply
+of gas in 3Q24 totaled R$ 1,038.1 million, compared to R$ 989.3 million in 3Q23. The increase mainly reflects the upward adjustment
+of gas sale prices made in 3Q24.
+
+COMPANHIA ENERGÉTICA DE MINAS GERAIS S.A.
+| 20 | |
+
+|
+|
+
+Revenue from Use of Distribution Systems –
+The TUSD charge
+
+|
+3Q24 |
+3Q23 |
+Change % |
+
+TUSD (R$ ’000) |
+
+Use of the Electricity Distribution System |
+1,337,614 |
+1,125,693 |
+18.8% |
+
+In 3Q24 revenue from the
+TUSD – charged to Free Consumers on the distribution of energy to them – was R$ 211.9 million higher than in 3Q23, mainly
+on 8.6% higher volume of energy transported for Free Clients (the main contributors being the industrial and commercial client categories).
+
+|
+3Q24 |
+3Q23 |
+Change % |
+
+POWER TRANSPORTED – MWh |
+
+Industrial |
+5,696,321 |
+5,332,341 |
+6.8% |
+
+Commercial |
+580,728 |
+492,018 |
+18.0% |
+
+Rural |
+21,035 |
+11,743 |
+79.1% |
+
+Public services |
+167,928 |
+110,869 |
+51.5% |
+
+Concession holders |
+91,045 |
+88,198 |
+3.2% |
+
+Total energy transported |
+6,557,057 |
+6,035,169 |
+8.6% |
+
+COMPANHIA ENERGÉTICA DE MINAS GERAIS S.A.
+| 21 | |
+
+|
+|
+
+Operational costs, expenses and other revenues
+
+|
+3Q24 |
+3Q23 |
+Change % |
+
+CONSOLIDATED (R$ ’000) |
+|
+|
+|
+
+Electricity bought for resale |
+4,567,101 |
+3,778,480 |
+20.9% |
+
+Charges for use of national grid |
+804,946 |
+769,491 |
+4.6% |
+
+Gas purchased for resale |
+543,988 |
+527,146 |
+3.2% |
+
+Construction cost |
+1,336,151 |
+1,193,629 |
+11.9% |
+
+People |
+326,125 |
+302,927 |
+7.7% |
+
+Employees’ and managers’ profit shares |
+40,965 |
+43,603 |
+-6.1% |
+
+Post-employment liabilities |
+122,028 |
+168,786 |
+-27.7% |
+
+Materials |
+34,676 |
+28,478 |
+21.8% |
+
+Outsourced services |
+497,493 |
+466,584 |
+6.6% |
+
+Depreciation and amortization |
+345,742 |
+316,693 |
+9.2% |
+
+Provisions |
+92,837 |
+99,522 |
+-6.7% |
+
+Impairments (reversal) |
+1,491 |
+-45,791 |
+-103.3% |
+
+Provisions (reversals) for client default |
+-50,556 |
+43,160 |
+-217.1% |
+
+Reversal of provision with related party |
+-57,835 |
+- |
+- |
+
+Other operating costs and expenses, net |
+144,903 |
+110,341 |
+31.3% |
+
+Total costs and expenses |
+8,750,055 |
+7,803,049 |
+12.1% |
+
+Gain on disposal of investments |
+-1,616,911 |
+- |
+- |
+
+Gain on purchase |
+-14,136 |
+- |
+- |
+
+Result of the Transmission Periodic Tariff Review |
+-1,520,631 |
+- |
+- |
+
+Total other revenues |
+-3,151,678 |
+- |
+- |
+
+Total |
+5,598,377 |
+7,803,049 |
+-28.3% |
+
+Operational costs and
+expenses in 3Q24 totaled R$ 5.60 billion , considering the effect of other revenues recorded in 3Q24 (items that reduce
+expenditure), compared to R$ 7.80 billion in 3Q23. Excluding the effect of other revenues, costs and expenses totaled
+R$8.75 billion , representing an increase of 12.1%.
+
+The difference reflects:
+positive items –
+
+|
+(i) |
+the capital gain of R$ 1.62 billion on the sale of Cemig’ s stake in Aliança Geração , plus reversal of the provision of R$ 57.8 million associated with that sale; |
+
+|
+(ii) |
+effect of R$ 1.52 billion from the Transmission Tariff Review |
+
+–
+and higher costs:
+
+(iii) cost
+of electricity purchased for resale R$ 788.6 million higher,
+
+(iiii) construction
+cost R$ 142.5 million higher, and
+
+(iiii) expenditure
+on charges for use of the national grid R$ 35.5 million higher.
+
+See more details on costs
+and expenses in the pages below.
+
+COMPANHIA ENERGÉTICA DE MINAS GERAIS S.A.
+| 22 | |
+
+|
+|
+
+Electricity purchased for resale
+
+|
+3Q24 |
+3Q23 |
+Change % |
+
+CONSOLIDATED (R$ ’000) |
+|
+|
+|
+
+Electricity acquired in Free Market |
+1,571,941 |
+1,569,959 |
+0.1% |
+
+Electricity acquired in Regulated Market auctions |
+1,225,278 |
+979,149 |
+25.1% |
+
+Distributed generation |
+838,210 |
+551,037 |
+52.1% |
+
+Supply from Itaipu Binacional |
+318,459 |
+323,440 |
+–1.5% |
+
+Physical guarantee quota contracts |
+213,402 |
+219,039 |
+–2.6% |
+
+Individual (‘bilateral’) contracts |
+124,309 |
+128,695 |
+–3.4% |
+
+Proinfa |
+116,080 |
+127,894 |
+–9.2% |
+
+Spot market |
+434,033 |
+107,621 |
+303.3% |
+
+Quotas for Angra I and II nuclear plants |
+92,407 |
+92,000 |
+0.4% |
+
+Credits of PIS, Pasep and Cofins taxes |
+–367,018 |
+–320,354 |
+14.6% |
+
+|
+4,567,101 |
+3,778,480 |
+20.9% |
+
+The consolidated expense
+on electricity bought for resale in 3Q24 was R$ 4.57 billion , an increase of R$ 788.6 million (20.9%) from 3Q23. This
+reflects, mainly:
+
+|
+§ |
+Costs of spot market energy R$ 326.4 million higher, mainly due (i) the higher cost associated with hydrological risk, caused by low hydrology in 2024; and (ii) 37% lower revenue from energy sold, mainly in response to the hour-to-hour spot price variations. |
+
+|
+§ |
+Expenses on energy acquired in the Regulated Market R$ 246.1 million (+25.1%) higher than in 3Q23 – reflecting (i) the annual adjustments to contracts, by the IPCA inflation index, and (ii) entry of new contracts. |
+
+|
+§ |
+The expense on distributed generation was R$ 287.3 million (+52.1%) higher, reflecting (i) the addition of 46,000 distributed generation units – increasing the total number of units to 286,000 in September 2024 (from 240,000 in September 2023), and (ii) a 32.9% YoY increase in the volume of energy injected, from 1,163 GWh in 3Q23 to 1,535 GWh in 3Q24. |
+
+|
+§ |
+The cost of energy acquired in the Free Market (the Company’s highest cost of purchased energy) totaled R$ 1,571.9 million, or R$ 1.9 million (+0.1%) more than in 3Q23. |
+
+Note that for Cemig D, purchased
+energy is a non-manageable cost: the difference between the amounts used as a reference for calculation of tariffs and the costs actually
+incurred is compensated for in the next tariff adjustment.
+
+|
+3Q24 |
+3Q23 |
+Change % |
+
+Cemig D (R$ ’000) |
+|
+|
+|
+
+Supply acquired in auctions on the Regulated Market |
+1,236,203 |
+1,010,691 |
+22.3% |
+
+Distributed generation |
+838,211 |
+551,036 |
+52.1% |
+
+Supply from Itaipu Binacional |
+318,459 |
+323,440 |
+–1.5% |
+
+Physical guarantee quota contracts |
+217,697 |
+219,654 |
+–0.9% |
+
+Individual (‘bilateral’) contracts |
+124,309 |
+128,695 |
+–3.4% |
+
+Proinfa |
+116,080 |
+127,894 |
+–9.2% |
+
+Quotas for Angra I and II nuclear plants |
+92,407 |
+92,000 |
+0.4% |
+
+Spot market – CCEE |
+350,492 |
+80,826 |
+333.6% |
+
+Credits of PIS, Pasep and Cofins taxes |
+–215,613 |
+–173,189 |
+24.5% |
+
+|
+3,078,245 |
+2,361,047 |
+30.4% |
+
+COMPANHIA ENERGÉTICA DE MINAS GERAIS S.A.
+| 23 | |
+
+|
+|
+
+Charges for use of the transmission
+network and other system charges
+
+Charges for use of the transmission
+network in 3Q24 were R$ 804.9 million , 4.6% higher than in 3Q23. The higher figure reflects higher contracting of Transmission
+System Volume (MUST – Montantes de Uso do Sistema de Transmissão ) in 3Q24, reflecting the increase in Cemig D ’s
+load; and also an increase in the Tariff for Use of the Transmission System (TUST) in the annual tariff adjustment that came into effect
+in July.
+
+These are non-manageable
+costs in the distribution business: the difference between the amounts used as a reference for calculation of tariffs and the costs actually
+incurred is compensated for in the next tariff adjustment.
+
+Gas purchased for resale
+
+The expense on acquisition
+of gas in 3Q24 was R$ 544.0 million , or 3.2% higher than in 3Q23. This variation reflects the higher price of gas purchased
+for resale in 3Q24, but with lower volume.
+
+Outsourced services
+
+Expenditure on outsourced
+services was R$ 30.9 million higher (+6.6%) than in 3Q23, including higher expenditure on:
+
+|
+· |
+maintenance of electrical installations and equipment (up R$ 12 million, or +7.6%, YoY); |
+
+|
+· |
+cleaning of power line pathways (up R$ 11.4 million, or +36.2%); and |
+
+|
+· |
+tree pruning (up R$ 6.5 million, or +40.7%) |
+
+– higher execution of
+all of these services was contracted to avoid and/or diminish the duration of outages.
+
+Another service on which the
+expense was increased is inspection of consumer units – up R$ 6.0 million YoY, or +80.0%, on a higher volume of inspections
+in the period.
+
+Provisions for client default
+
+In 3Q24 a reversal
+of R$ 50.6 million was made in provisions for expected client default – compared to new provisions of R$ 43.2 million
+made in 3Q23. This resulted from the alteration, in August 2024, of the time limit for 100% recognition of past due receivables from 24
+to 36 months, to give a more precise reflection of the profile of client default losses in practice. The effect of the change was R$ 90.0
+million.
+
+Provisions
+
+Contingency provisions of
+R$ 92.8 million were posted in 3Q24, compared to R$ 99.5 million in 3Q23.
+
+In 3Q24 there was also a reversal
+of provisions in the amount of R$ 57.8 million , relating to contingencies under contractual obligations with Aliança
+Geração entered into before Cemig and Vale S.A. subscribed assets into that company. That contingency ceased to exist
+with the sale of Cemig’s stake in Aliança .
+
+Post-employment liabilities
+
+The impact of the Company’s
+post-retirement obligations on operational profit in 3Q24 was an expense of R$ 122.0 million , compared to an expense of R$ 168.8
+million in 3Q23. The difference is mainly due to reduction in the number of participants in the Integrated Health Plan ( Plano de Saúde
+Integrado – PSI) due to active employees voluntarily subscribing to the new health plan (the Premium Plan), offered by the Company.
+
+Gain on disposal of investments
+
+A capital gain of R$ 1,616.9
+million was recognized, reducing the Other expenses line, on completion of the sale of Cemig’s interest in Aliança
+Geração, in August 2024.
+
+COMPANHIA ENERGÉTICA DE MINAS GERAIS S.A.
+| 24 | |
+
+|
+|
+
+People
+
+Personnel expenses in 3Q24
+totaled R$ 326.1 million , compared to R$ 302.9 million in 3Q23. The main factor in the higher figure was the collective
+salary increase of 4.14%, in effect from November 2023.
+
+Cost of personnel
+
+R$ million, excluding PDVP (voluntary severance program).
+
+Number of employees – by company
+
+Finance income and expenses
+
+|
+3Q24 |
+3Q23 |
+Change % |
+
+(R$ ’000) |
+|
+|
+|
+
+Finance income |
+262,565 |
+345,678 |
+–24.0% |
+
+Finance expenses |
+–324,110 |
+–560,530 |
+–42.2% |
+
+Net finance income (expenses) |
+–61,545 |
+–214,852 |
+–71.4% |
+
+For 3Q24 the Company posted
+consolidated net financial expenses of R$ 61.5 million , compared to net financial expenses of R$ 214.8 million
+in 3Q23. Main factors:
+
+|
+§ |
+R$ 31.7 million difference in inflation correction on credits of PIS, Pasep and Cofins taxes arising from the Court ruling on ICMS tax. (A financial revenue (gain) of R$ 5.3 million was recognized in 3Q24, and a net financial expense of R$ 26.4 million in 3Q23.) |
+
+|
+§ |
+In 3Q24 the US dollar appreciated by 2.0% against the Real, compared to a depreciation of 3.9% in 3Q23, generating a gain of R$ 42.2 million in 3Q24, compared to an expense of R$ 142.5 million in 3Q23. |
+
+|
+§ |
+The fair value of the financial instrument contracted to hedge the Company’s Eurobonds gained R$ 13.3 million in value in 3Q24; and R$ 102 million in 3Q23. This reflects (i) the lower volume of hedge, following partial redemption of the bonds at the end of 2023, and (ii) the proximity of their maturity date. |
+
+COMPANHIA ENERGÉTICA DE MINAS GERAIS S.A.
+| 25 | |
+
+|
+|
+
+|
+§ |
+Monetary updating on the balances of CVA, and Other financial components , in tariff increases: a gain (financial revenue item) of R$ 5.3 million in 3Q24, compared to an expense of R$ 11.0 million in 3Q23. This variation is basically due to the constitution of CVA revenue for the sectoral ESS (System Services Charge), and Reserve Energy Charges (ERR), approved in the tariff adjustment of 2024, while these items were an expense in the tariff adjustment of 2023. |
+
+Eurobonds: Effects in the quarter
+(R$ mil)
+
+|
+3Q24 |
+3Q23 |
+
+Effect of FX variation on the debt |
+42,227 |
+–142,451 |
+
+Effect on the hedge |
+13,285 |
+102,428 |
+
+Net effect in Finance income (expenses) |
+55,512 |
+–40,023 |
+
+Equity income (gain/loss in non-consolidated
+investees)
+
+|
+3Q24 |
+3Q23 |
+Change R$ ’000 |
+
+Gain/loss on equity in non-consolidated investees |
+|
+|
+|
+
+Taesa |
+87,359 |
+58,196 |
+29,163 |
+
+Aliança Geração |
+– |
+33,621 |
+–33,621 |
+
+Paracambi |
+3,787 |
+3,942 |
+–155 |
+
+Hidrelétrica Pipoca |
+1,123 |
+3,006 |
+–1,883 |
+
+Hidrelétrica Cachoeirão |
+1,924 |
+2,906 |
+–982 |
+
+Guanhães Energia |
+–1,413 |
+2,291 |
+–3,704 |
+
+Cemig Sim (Equity holdings) |
+5,354 |
+993 |
+4,361 |
+
+Belo Monte (Aliança Norte and Amazônia Energia) |
+–36,477 |
+–34,039 |
+–2,438 |
+
+Total |
+61,657 |
+70,916 |
+–9,259 |
+
+The total gain in equity
+value of non-consolidated investees in 3Q24 was R$ 9.3 million lower than in 3Q23.
+
+No equity gain is recognized
+in Aliança Geração, since it was classified, in April 2024, as a non-current asset held for sale. The equity
+income gain in Aliança Geração in 3Q23 was R$ 33.6 million.
+
+The equity gain in Taesa
+in 3Q24 was R$ 87.4 million, or R$ 29.2 million more than in 3Q23.
+
+COMPANHIA ENERGÉTICA DE MINAS GERAIS S.A.
+| 26 | |
+
+|
+|
+
+Consolidated
+Ebitda (IFRS, and Adjusted)
+
+Ebitda is a non-accounting
+metric, prepared by the Company, reconciled with its consolidated financial statements in accordance with the specifications in CVM Circular
+SNC/SEP 01/2007 and CVM Resolution 156 of June 23, 2022. It comprises: Net profit adjusted for the effects of: (i) Net financial
+revenue (expenses), (ii) Depreciation and amortization, and (iii) Income tax and the Social Contribution tax. Ebitda is not
+a metric recognized by Brazilian GAAP nor by IFRS; it does not have a standard meaning; and it may be non-comparable with metrics with
+similar titles provided by other companies. Cemig publishes Ebitda because it uses it to measure its own performance. Ebitda should not
+be considered in isolation or as a substitute for net profit or operational profit, nor as an indicator of operational performance or
+cash flow, nor to measure liquidity nor the capacity for payment of debt. In accordance with CVM Instruction 156/2022, the Company adjusts
+Ebitda to exclude extraordinary items which, by their nature, do not contribute to information on the potential for gross cash flow generation.
+
+Consolidated 3Q24 Ebitda |
+
+R$ ’000 |
+Generation |
+Transmission |
+Trading |
+Distribution |
+Gas |
+Holding co. and equity interests |
+Total |
+
+Profit (loss) for the period |
+266,761 |
+1,200,250 |
+95,069 |
+371,721 |
+130,975 |
+1,215,421 |
+3,280,197 |
+
+Income tax and
+
+Social Contribution tax
+|
+152,570 |
+487,206 |
+9,103 |
+95,973 |
+63,304 |
+462,267 |
+1,270,423 |
+
+Net finance income (expenses) |
+–3,220 |
+–18,255 |
+–3,098 |
+75,596 |
+8,167 |
+2,355 |
+61,545 |
+
+Depreciation and amortization |
+78,654 |
+6,357 |
+2 |
+230,097 |
+24,744 |
+5,888 |
+345,742 |
+
+Ebitda per CVM Resolution 156 |
+494,765 |
+1,675,558 |
+101,076 |
+773,387 |
+227,190 |
+1,685,931 |
+4,957,907 |
+
+Net profit attributed
+to
+
+non–controlling stockholders
+|
+– |
+– |
+– |
+– |
+–563 |
+– |
+–563 |
+
+Gain on disposal of investments |
+– |
+– |
+– |
+– |
+– |
+–1,616,911 |
+–1,616,911 |
+
+Reversal of provision with related party |
+– |
+– |
+– |
+– |
+– |
+–57,835 |
+–57,835 |
+
+Result of the Transmission Periodic Tariff Review |
+– |
+–1,520,631 |
+– |
+– |
+– |
+– |
+–1,520,631 |
+
+Adjusted Ebitda |
+494,765 |
+154,927 |
+101,076 |
+773,387 |
+226,627 |
+11,185 |
+1,761,967 |
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+Consolidated 3Q23 Ebitda |
+
+R$ ’000 |
+Generation |
+Transmission |
+Trading |
+Distribution |
+Gas |
+Holding co. and equity interests |
+Total |
+
+Profit (loss) for the period |
+338,718 |
+87,658 |
+177,506 |
+475,927 |
+139,339 |
+18,159 |
+1,237,307 |
+|
+
+Income tax and
+
+Social Contribution tax
+|
+93,507 |
+15,687 |
+78,275 |
+54,973 |
+69,265 |
+–69,370 |
+242,337 |
+|
+
+Net finance income (expenses) |
+28,977 |
+36,236 |
+–9,523 |
+99,428 |
+–1,205 |
+60,939 |
+214,852 |
+|
+
+Depreciation and amortization |
+80,826 |
+–60 |
+4 |
+205,258 |
+23,769 |
+6,896 |
+316,693 |
+|
+
+Ebitda per CVM Resolution 156 |
+542,028 |
+139,521 |
+246,262 |
+835,586 |
+231,168 |
+16,624 |
+2,011,189 |
+|
+
+Non-recurring and
+
+non-cash effects
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+Net profit attributed
+to
+
+non-controlling stockholders
+|
+– |
+– |
+– |
+– |
+–599 |
+– |
+–599 |
+|
+
+Reversal of impairment of assets – Small Hydro plants held for sale |
+–45,791 |
+– |
+– |
+– |
+– |
+– |
+–45,791 |
+|
+
+Adjusted Ebitda |
+496,237 |
+139,521 |
+246,262 |
+835,586 |
+230,569 |
+16,624 |
+1,964,799 |
+|
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+COMPANHIA ENERGÉTICA DE MINAS GERAIS S.A.
+| 27 | |
+
+|
+|
+
+Ebitda of Cemig D
+
+|
+3Q24 |
+3Q23 |
+Change % |
+
+Cemig D Ebitda – R$ ’000 |
+|
+|
+|
+
+Net profit for the period |
+371,723 |
+475,927 |
+–21.9% |
+
+Income tax and Social Contribution tax |
+95,972 |
+54,973 |
+74.6% |
+
+Net finance income (expenses) |
+75,596 |
+99,429 |
+–24.0% |
+
+Amortization |
+230,097 |
+205,259 |
+12.1% |
+
+Ebitda |
+773,388 |
+835,588 |
+–7.4% |
+
+Cemig D reports 3Q24
+Ebitda of R$ 773.4 million , 7.4% lower than in 3Q23.
+
+Main effects in the quarter:
+
+|
+§ |
+Total energy distributed (excluding distributed generation) was 4.5% higher than in 3Q23 – comprising increases of 0.2% in the captive market and 8.6% in the Free Market. Highlights of growth in the consumer categories were: 6.2% in residential consumption, 5.6% in industrial consumption, and 6.4% in rural consumption – reflecting: (i) high temperatures, (ii) growth in industrial production, and (iii) higher demand for irrigation. |
+
+|
+§ |
+The total cost of outsourced services was R$ 19.4 million higher, in particular (i) cleaning of power line pathways, and tree pruning, to prevent/reduce outages, and (ii) increased inspections of consumer units, to reduce the indicator of energy losses. |
+
+|
+§ |
+Negative effect from total energy losses, which at 10.76% exceeded than the regulatory requirement of 10.57% for the 12-month period. |
+
+|
+§ |
+Lower New Replacement Value (‘VNR’) revenue, of R$ 16.5 million, in 3Q24, vs. R$ 49.6 million in 3Q23. |
+
+|
+§ |
+Reversal of R$ 47.7 million in customer default provisions, compared to new provisions of R$ 41.1 million in 3Q23. This reflects the alteration, in August 2022, of the time limit for 100% recognition of unpaid receivables from 24 to 36 months, to better reflect the profile of losses in practice. The effect of the change was R$ 90.0 million. |
+
+|
+We remain focused on the commitment to reduce energy losses to within the regulatory parameters for the full year. |
+
+COMPANHIA ENERGÉTICA DE MINAS GERAIS S.A.
+| 28 | |
+
+|
+|
+
+Cemig GT – Ebitda
+
+Cemig GT: 3Q24 Ebitda |
+|
+|
+|
+|
+|
+
+R$ ’000 |
+Generation |
+Transmission |
+Trading |
+Equity interests |
+Total |
+
+Profit (loss) for the period |
+260,501 |
+1,205,338 |
+–5,005 |
+1,168,543 |
+2,629,377 |
+
+Income tax and Social Contribution tax |
+152,571 |
+486,563 |
+9,005 |
+472,950 |
+1,121,089 |
+
+Net finance income (expenses) |
+–3,220 |
+–18,090 |
+–3,098 |
+–11,968 |
+–36,376 |
+
+Depreciation and amortization |
+83,784 |
+1 |
+2 |
+– |
+83,787 |
+
+Ebitda per CVM Resolution 156 |
+493,636 |
+1,673,812 |
+904 |
+1,629,525 |
+3,797,877 |
+
+Gain on disposal of investments |
+– |
+– |
+– |
+–1,616,911 |
+–1,616,911 |
+
+Reversal of provision with related parties |
+– |
+– |
+– |
+–57,835 |
+–57,835 |
+
+Result of the Transmission
+
+Periodic Tariff Review
+|
+– |
+–1,520,631 |
+– |
+– |
+–1,520,631 |
+
+Adjusted EBITDA |
+493,636 |
+153,181 |
+904 |
+–45,221 |
+602,500 |
+
+Cemig GT: 3Q23 Ebitda |
+|
+|
+|
+|
+|
+
+R$ ’000 |
+Generation |
+Transmission |
+Trading |
+Equity interests |
+Total |
+
+Profit (loss) for the period |
+340,291 |
+85,786 |
+86,237 |
+–22,300 |
+490,014 |
+
+Income tax and Social Contribution tax |
+93,508 |
+15,023 |
+31,259 |
+–27,154 |
+112,636 |
+
+Net finance income (expenses) |
+28,977 |
+36,518 |
+–9,524 |
+51,296 |
+107,267 |
+
+Depreciation and amortization |
+80,825 |
+– |
+5 |
+– |
+80,830 |
+
+Ebitda per CVM Resolution 156 |
+543,601 |
+137,327 |
+107,977 |
+1,842 |
+790,747 |
+
+Reversal of impairment of assets
+
+– Small Hydro plants held for sale
+|
+–45,791 |
+– |
+– |
+– |
+–45,791 |
+
+Adjusted Ebitda |
+497,810 |
+137,327 |
+107,977 |
+1,842 |
+744,956 |
+
+Cemig GT reports 3Q24
+Ebitda of R$ 3.8 billion; adjusted Ebitda for the quarter is R$ 602.5 million , compared to R$ 745.0 million
+in 3Q23. Effects on Ebitda in this YoY comparison:
+
+|
+§ |
+Sale of the stake in Aliança Geração generated a gain of R$ 1,674.7 million (capital gain of R$ 1,616.9 million, plus reversal of a R$ 57.8 million provision related to a prior contractual obligation to Aliança). |
+
+|
+§ |
+Positive effect of R$ 1,520.6 million from the Transmission Tariff Review , on updating of contractual assets. |
+
+|
+§ |
+Negative effect of differences in the spot price between submarkets: a significant part of the energy bought is in the Northeast and a large proportion of it is traded in other submarkets, generating a surplus in the Northeast, with exposure in other submarkets that had higher spot prices in the quarter. |
+
+|
+§ |
+The volume of energy sold by Cemig GT , excluding settlements on the CCEE, was 11.6% lower , due to transfer of some of the contracts to the Cemig holding company. |
+
+|
+§ |
+Lower equity income (share of gain/loss in non-consolidated investees): R$ 30.4 million in 3Q24, compared to R$ 12.4 million in 3Q23, mainly reflecting that no equity gain is recognized from Aliança Geração in 3Q24, due to its sale. The gain in value of Cemig’s stake in Aliança in 3Q23 was R$ 33.6 million. The negative result in 3Q24 was influenced by a R$ 36.4 million negative value in Belo Monte (which also produced negative equity income, of R$ 34.0 million, in 3Q23).. |
+
+|
+§ |
+In 3Q23 there was reversal of a provision of R$ 45.8 million for potential loss on sale of a group of Small Hydro plants held for sale – following their successful sale at auction. |
+
+COMPANHIA ENERGÉTICA DE MINAS GERAIS S.A.
+| 29 | |
+
+|
+|
+
+Investments
+
+Cemig
+has invested a total of R$ 4.04 billion in 9M24 , 21.4% more than in 9M23. Of this total, the distribution company,
+Cemig D , has invested R$ 3.14 billion in these nine months, 33.9% more than in 9M23.
+
+Execution
+of the largest investment program in Cemig’s history will modernize and improve the reliability of its electricity system,
+in line with its strategic plan of focusing on Minas Gerais and its core businesses, providing ever-improving service to clients. Investment
+totaling R$ 35.6 billion is planned for 2024–2028 , of which R$ 6.2 billion is to be invested in 2024.
+Energizing of the photovoltaic solar plants began in June 2024. At the Eduardo Soares ( Boa Esperança ) solar
+plant, 100% of the generation units are now in commercial operation. At the Jusante solar plant, 5 of the 7 are in operational
+testing. The two plants together are expected to be in 100% commercial operation by December 2024 – making a further forceful
+contribution to our growth in renewable generation sources . They will add 188 MWp to our total generation capacity.
+
+Gasmig
+has begun works on its Center-West Project, with allocated capex of R$ 780 million, for construction of 300 kilometers of pipeline
+network .
+
+COMPANHIA ENERGÉTICA DE MINAS GERAIS S.A.
+| 30 | |
+
+|
+|
+
+Debt
+
+CONSOLIDATED (R$ ’000) |
+Sep. 2024 |
+2023 |
+Change, % |
+
+Gross debt |
+14,134,273 |
+9,831,139 |
+43.8% |
+
+Cash and equivalents + Securities |
+6,752,090 |
+2,311,464 |
+192.1% |
+
+Net debt |
+7,382,183 |
+7,519,675 |
+–1.8% |
+
+Debt in foreign currency |
+2,147,796 |
+1,854,093 |
+15.8% |
+
+CEMIG GT – R$ ’000 |
+Sep. 2024 |
+2023 |
+Change, % |
+
+Gross debt |
+3,200,809 |
+2,868,093 |
+11.6% |
+
+Cash and equivalents + Securities |
+3,504,691 |
+937,518 |
+273.8% |
+
+Net debt (Net cash) |
+–303,882 |
+1,930,575 |
+– |
+
+Debt in foreign currency |
+2,147,796 |
+1,854,093 |
+15.8% |
+
+CEMIG D (R$ ’000) |
+Sep. 2024 |
+2023 |
+Change, % |
+
+Gross debt |
+9,951,674 |
+5,887,622 |
+69.0% |
+
+Cash and equivalents + Securities |
+2,631,974 |
+450,748 |
+483.9% |
+
+Net debt |
+7,319,700 |
+5,436,874 |
+34.6% |
+
+Debt in foreign currency |
+– |
+– |
+– |
+
+Debt amortization timetable
+
+R$ million
+
+In 3Q24, Gasmig amortized
+debt of R$ 90 million.
+
+In September 2024 Cemig
+D (Distribution) concluded its 11 th debenture issue, for R$ 2.5 billion , characterized as ‘ ESG bonds’
+– i.e. proceeds to be used for sustainable projects. Offered to the public of qualified investors, it was oversubscribed
+by a factor of 1.53x.
+
+|
+· |
+The first series, of R$ 1 billion, is remunerated at the CDI rate + 0.55%, with maturity at seven years. |
+
+|
+· |
+The second, of R$ 1.5 billion, pays IPCA inflation plus 6.5769%, with maturity at 12 years. |
+
+This increased the average
+tenor of Cemig’s consolidated debt by approximately 1 year, to 4.3 years in September 2024.
+
+Leverage (Net
+debt / Adjusted Ebitda) remains low, at 0.88x.
+
+COMPANHIA ENERGÉTICA DE MINAS GERAIS S.A.
+| 31 | |
+
+|
+|
+
+|
+3Q24 |
+
+DEBT AMORTIZED – R$ ’000 |
+|
+
+Gasmig |
+89,999 |
+
+Total |
+89,999 |
+
+* Debt in USD is protected by a hedge instrument, within
+an FX band and with interest converted to a percentage of the Brazilian CDI rate.
+
+COMPANHIA ENERGÉTICA DE MINAS GERAIS S.A.
+| 32 | |
+
+|
+|
+
+Covenants
+– Eurobonds
+
+Last 12 months |
+Sep. 2024 |
+|
+2023 |
+
+R$ mn |
+GT |
+H |
+|
+GT |
+H |
+
+Net profit (loss) |
+4,295 |
+8,008 |
+|
+2,403 |
+5,767 |
+
+Net financial revenue (expenses) |
+232 |
+222 |
+|
+96 |
+379 |
+
+Income tax and Social Contribution tax |
+1,549 |
+2,198 |
+|
+584 |
+1,084 |
+
+Depreciation and amortization |
+338 |
+1,364 |
+|
+329 |
+1,274 |
+
+Profit (loss) in minority holdings |
+5 |
+52 |
+|
+–141 |
+–432 |
+
+Provisions for change in obligations under the put option |
+58 |
+58 |
+|
+58 |
+58 |
+
+Non-operational profit (loss) – includes any gains on sales of assets and any writeoffs of value in, or impairment of, assets |
+–1,901 |
+–1,901 |
+|
+–289 |
+–289 |
+
+Non-recurring non-monetary expenses and/or charges |
+–22 |
+–509 |
+|
+–21 |
+–57 |
+
+Any non-recurring non-monetary credits/gains increasing profit |
+–1,521 |
+–1,512 |
+|
+– |
+23 |
+
+Non-monetary gains related
+to
+
+transmission and/or generation
+reimbursements
+|
+–580 |
+–400 |
+|
+–515 |
+–524 |
+
+Dividends received in cash
+from minority investments
+
+(as measured in the Cash flow
+statement)
+|
+377 |
+604 |
+|
+363 |
+592 |
+
+Inflation correction on concession charges |
+–426 |
+–426 |
+|
+–412 |
+–412 |
+
+Cash inflows related to concession charges |
+340 |
+–172 |
+|
+331 |
+331 |
+
+Cash inflows related to
+transmission revenue
+
+for coverage of cost of capital
+|
+875 |
+693 |
+|
+738 |
+747 |
+
+Adjusted Ebitda |
+3,619 |
+8,279 |
+|
+3,524 |
+8,541 |
+
+12 months |
+Sep. 2024 |
+|
+2023 |
+
+R$ mn |
+GT |
+H |
+|
+GT |
+H |
+
+Consolidated debt |
+3,201 |
+14,134 |
+|
+2,868 |
+9,831 |
+
+Derivative hedge instrument |
+–500 |
+–500 |
+|
+–368 |
+–368 |
+
+Debt contracts with Forluz |
+113 |
+500 |
+|
+138 |
+611 |
+
+Consolidated cash and cash equivalents and consolidated securities posted as current assets |
+–3,505 |
+–6,752 |
+|
+–938 |
+–2,311 |
+
+Adjusted net debt (net cash) |
+–691 |
+7,382 |
+|
+1,700 |
+7,763 |
+
+|
+Sep. 2024 |
+|
+2023 |
+
+Net debt covenant / Ebitda covenant (1) |
+– |
+0.89 |
+|
+0.48 |
+0.91 |
+
+Limit for: Net debt covenant / Ebitda covenant |
+2.50 |
+3.00 |
+|
+2.50 |
+3.00 |
+
+Consolidated debt with asset guarantees |
+– |
+– |
+|
+– |
+– |
+
+(Consolidated debt with guarantees) / (Ebitda covenant) |
+– |
+– |
+|
+– |
+– |
+
+Limit for: (Consolidated debt with guarantees) / (Ebitda covenant) |
+– |
+1.75 |
+|
+– |
+1.75 |
+
+|
+|
+|
+|
+|
+|
+|
+|
+
+(1)
+In September 2024, Cemig GT’s holding in cash exceeded
+its debt.
+
+COMPANHIA ENERGÉTICA DE MINAS GERAIS S.A.
+| 33 | |
+
+|
+|
+
+Cemig’s
+long-term ratings
+
+Cemig’s ratings have
+improved significantly in recent years, and are currently at their highest ever.
+
+In 2021 the three principal
+rating agencies upgraded their ratings for Cemig.
+
+In April 2022, Moody’s
+again upgraded its rating for Cemig, this time by one notch.
+
+In May 2024, Moody’s
+raised its rating to AA+, and in October Fitch raised its rating to AAA, Cemig’s highest-ever rating – recognizing:
+
+|
+· |
+consistent results and cash generation, |
+
+|
+· |
+a diversified asset base, and |
+
+|
+· |
+discipline in capital allocation. |
+
+This table shows the current
+ratings:
+
+COMPANHIA ENERGÉTICA DE MINAS GERAIS S.A.
+| 34 | |
+
+|
+|
+
+ESG – Report on performance
+
+Highlights
+
+|
+§ |
+Cemig D (Distribution) concluded its 11 th debenture issue, comprising ESG debentures , for a total of R$ 2.5 billion , with R$ 1 billion maturing in seven years and R$ 1.5 billion in 12 years. This is the largest value of this type of debenture issued by Cemig, and one of the largest in the country to date. It was offered to qualified investors, and demand totaled R$ 3.067 billion, or 1.53 times the volume offered. The initial offer was of R$ 2 billion, so an additional tranche of R$ 0.5 billion was added. |
+
+|
+§ |
+Cemig has developed a process that expands the use of smart meters by connecting models from several different manufacturers and technologies with a Field Area Network (FAN) structure, now operating. |
+
+By
+2027, about 1.25 million smart meters will have been installed throughout the state.
+
+Social
+
+|
+§ |
+Cemig published the 17 proposals approved in the 2024 public call for proposed energy efficiency projects. In the coming months, the Company will allocate R$ 19 million for consumer units to perform the improvements proposed in these projects, with the aim of reducing energy waste. With the conclusion of all the proposals, the company expects a saving of 6 GWh/year. |
+
+|
+§ |
+Cemig has now opened applications for projects to benefit sport, the elderly, and children and adolescents. Cemig has allocated more than R$ 40 million to sports projects since 2019. Around 12% of these funds were allocated to projects that work exclusively with people with disabilities in various types of sport and regions of the state. |
+
+|
+§ |
+Cemig runs a range of programs with the communities living or working around its operations: One is the Vamos Project, which aims to raise awareness about dam safety, and integrate Dam Emergency Action Plans (‘PAEs’) with the Population Mobilization Contingency Plans (‘PlanCons’) of Municipalities, to be used in the event of emergencies. |
+
+Governance
+
+|
+§ |
+Cemig approved its new Top Risks Matrix for 2024-2025: this strategic corporate risk management tool enables accurate assessments of the probabilities of adverse events and their impacts on the business. |
+
+Cemig in the main sustainability indices
+
+COMPANHIA ENERGÉTICA DE MINAS GERAIS S.A.
+| 35 | |
+
+|
+|
+
+Indicators
+
+Climate change and renewable energy |
+1Q24 |
+2Q24 |
+3Q24 |
+
+|
+|
+Indicators |
+|
+|
+
+|
+|
+% of generation from renewable sources |
+100% |
+100% |
+100% |
+
+|
+Consumption of electricity per employee (MWh) |
+2.26 |
+2.11 |
+1.89 |
+
+|
+Consumption of renewable fuels (GJ) |
+35,620 |
+153,415 |
+268,577 |
+
+|
+Consumption of non-renewable fuels (GJ) |
+851,121 |
+768,881 |
+760,135 |
+
+|
+Index of energy losses in the national grid (Cemig GT)(%) |
+2.51 |
+2.44 |
+2.05 |
+
+|
+I–REC (renewable-source) certificates sold |
+1,627,823 |
+333,159 |
+46,371 |
+
+|
+Cemig renewable-source RECs sold |
+1,667,149 |
+322,211 |
+123,265 |
+
+|
+Number of smart meters installed |
+30,179 |
+25,574 |
+1,719 |
+
+|
+|
+|
+|
+|
+
+|
+|
+Environmental impact and protection |
+|
+|
+|
+
+|
+|
+|
+|
+|
+
+|
+Number of transformers refurbished |
+233 |
+– |
+– |
+
+|
+Percentage of waste sent for reuse |
+98.00% |
+98.99 |
+99.78 |
+
+|
+|
+|
+|
+|
+
+|
+|
+Water resources |
+|
+|
+|
+
+|
+Water consumption (m³) |
+46,609.12 |
+47,688.95 |
+41,638.84 |
+
+|
+Surface Water Monitoring Management Indicator (%) |
+100 |
+100 |
+100 |
+
+|
+|
+|
+|
+|
+
+|
+|
+Sustainable social development |
+|
+|
+|
+
+|
+|
+|
+|
+|
+
+|
+Allocations to the Children’s and Adolescents’ Fund (FIA) (R$) |
+814,970 |
+874,932 |
+– |
+
+|
+Allocated to the Fund for the Aged (R$) |
+814,970 |
+874,932 |
+– |
+
+|
+Allocated via the Sports Incentive Law (R$) |
+1,629,939.79 |
+1,749,865 |
+6,627,030 |
+
+|
+Allocated to culture (R$) |
+19,997,993 |
+24,040,837 |
+61,447,720 |
+
+|
+Number of homes connected via the Energia Legal Program |
+3,714 |
+4,138 |
+5,845 |
+
+|
+|
+|
+|
+|
+
+|
+|
+Health and safety |
+|
+|
+|
+
+|
+Accident frequency rate (employees + outsourced) |
+3.46 |
+3.78 |
+3.2 |
+
+|
+Number of fatal or non-fatal accidents involving the public |
+20 |
+42 |
+53 |
+
+|
+|
+|
+|
+|
+
+|
+|
+Transparency |
+|
+|
+|
+
+|
+% of shares held by members of Boards |
+0.01 |
+– |
+– |
+
+|
+Number of independent members of the Board of Directors |
+10 |
+8 |
+10 |
+
+|
+|
+|
+|
+|
+
+|
+|
+Ethics and Integrity |
+|
+|
+|
+
+|
+Total accusations received |
+136 |
+182 |
+305 |
+
+|
+Total completed cases ruled valid or partially valid |
+47 |
+19 |
+21 |
+
+|
+|
+|
+|
+|
+
+|
+|
+Diversity and equity |
+|
+|
+|
+
+|
+Number of registered employees |
+4,893 |
+5,013 |
+4,937 |
+
+|
+‘White’ employees, % |
+57.1% |
+56.1% |
+55.3% |
+
+|
+African-Brazilian employees, % |
+38.3% |
+39.4% |
+40.2% |
+
+|
+Mixed-race employees, % |
+0.5% |
+0.4% |
+0.5% |
+
+|
+Indigenous-origin employees, % |
+0.1% |
+0.1% |
+0.1% |
+
+|
+Employees not declaring race, % |
+4.1% |
+3.9% |
+3.9% |
+
+|
+Women in Cemig workforce, % |
+14.1% |
+14.2% |
+14.0% |
+
+|
+Women in leadership positions: % |
+19.7% |
+19.5% |
+19.8% |
+
+|
+African-Brazilians in leadership positions, % |
+17.2% |
+18.0% |
+17.8% |
+
+|
+Employees below age 30, % |
+5.7% |
+7.5% |
+7.4% |
+
+|
+Employees aged 30 to 50, % |
+60.6% |
+60.7% |
+61.8% |
+
+|
+Employees aged over 50, % |
+33.6% |
+31.7% |
+30.8% |
+
+COMPANHIA ENERGÉTICA DE MINAS GERAIS S.A.
+| 36 | |
+
+|
+|
+
+Performance
+of Cemig’s shares
+
+Security |
+Sep. 2024 |
+2023 |
+Change, % |
+
+Prices (2) |
+
+CMIG4 (PN) at the close (R$/share) |
+11.40 |
+7.95 |
+43.31% |
+
+CMIG3 (ON) at the close (R$/share) |
+14.58 |
+10.67 |
+36.68% |
+
+CIG (ADR for PN shares), at close (US$/share) |
+2.06 |
+1.60 |
+28.95% |
+
+CIG.C (ADR for ON shares) at close (US$/share) |
+2.63 |
+3.12 |
+–15.75% |
+
+XCMIG (Cemig PN shares on Latibex), close (€/share) |
+1.89 |
+1.88 |
+0.53% |
+
+Average daily trading |
+
+CMIG4 (PN) (R$ mn) |
+140.00 |
+131.35 |
+6.59% |
+
+CMIG3 (ON) (R$ mn) |
+4.07 |
+7.82 |
+–47.95% |
+
+CIG (ADR for PN shares) (US$ mn) |
+4.47 |
+8.98 |
+–50.22% |
+
+CIG.C (ADR for ON shares) (US$ mn) |
+0.41 |
+0.17 |
+141.18% |
+
+Indices |
+
+IEE |
+89,817 |
+94,957 |
+–5.41% |
+
+IBOV |
+131,816 |
+134,185 |
+–1.77% |
+
+DJIA |
+42,157 |
+37,689 |
+11.85% |
+
+Indicators |
+
+Market valuation at end of period, R$ mn |
+35,652 |
+27,948 |
+27.57% |
+
+Enterprise value (EV), R$ mn (1) |
+44,383 |
+35,892 |
+23.66% |
+
+Dividend yield of CMIG4 (PN) (%) (3) |
+14.00 |
+11.24 |
+2.76 pp |
+
+Dividend yield of CMIG3 (ON) (%) (3) |
+10.94 |
+8.53 |
+2.41 pp |
+
+(1) EV = Market valuation [= R$/share x number of shares] + consolidated Net debt. |
+
+(2) Share prices adjusted for corporate action payments, including dividends. |
+|
+
+(3) (Dividends distributed in last 4 quarters) / (Share price at end of the period). |
+
+Cemig’s shares, by
+volume (aggregate of common (ON) and preferred (PN) shares), were the fourth most liquid in Brazil’s electricity sector, and among
+the most traded in the Brazilian equity market.
+
+On the NYSE, trading volume
+in the ADRs for Cemig’s preferred shares (CIG) in 9M24 was US$837.6 million – reflecting investors’ continued recognition
+of Cemig as a global investment option.
+
+In São Paulo, the
+benchmark Ibovespa index of the B3 Stock Exchange fell 1.77%, while Cemig’s PN (preferred) shares rose 43.31% and its ON shares
+rose 36.68%. These were the highest rises of any Brazilian power sector stock in the period.
+
+In New York the ADRs for
+Cemig’s preferred shares rose 28.95% in the period, and the ADRs for the common shares fell 15.75%.
+
+COMPANHIA ENERGÉTICA DE MINAS GERAIS S.A.
+| 37 | |
+
+|
+|
+
+Cemig
+generation plants
+
+Plant |
+Company |
+Cemig power (MW) |
+Cemig physical guarantee (MW) |
+End of concession |
+Type |
+Cemig interest |
+|
+|
+
+|
+|
+
+Emborcação |
+Cemig GT |
+1,192 |
+475 |
+May 2027 |
+Hydroelectric |
+100.00% |
+|
+|
+|
+
+Nova Ponte |
+Cemig GT |
+510 |
+257 |
+Aug. 2027 |
+Hydroelectric |
+100.00% |
+|
+|
+|
+
+Três Marias |
+Cemig GT |
+396 |
+227 |
+Jan. 2053 |
+Hydroelectric |
+100.00% |
+|
+|
+|
+
+Irapé |
+Cemig GT |
+399 |
+198 |
+Sep. 2037 |
+Hydroelectric |
+100.00% |
+|
+|
+|
+
+Salto Grande |
+Cemig GT |
+102 |
+74 |
+Jan. 2053 |
+Hydroelectric |
+100.00% |
+|
+|
+|
+
+Sá Carvalho |
+Sá Carvalho |
+78 |
+54 |
+Aug. 2026 |
+Hydroelectric |
+100.00% |
+|
+|
+|
+
+Rosal |
+Rosal Energia |
+55 |
+28 |
+Dec. 2035 |
+Hydroelectric |
+100.00% |
+|
+|
+|
+
+Itutinga |
+Cemig Geração Itutinga |
+52 |
+27 |
+Jan. 2053 |
+Hydroelectric |
+100.00% |
+|
+|
+|
+
+Camargos |
+Cemig Ger. Camargos |
+46 |
+22 |
+Jan. 2053 |
+Hydroelectric |
+100.00% |
+|
+|
+|
+
+Volta do Rio |
+Cemig GT |
+42 |
+18 |
+Dec. 2031 |
+Wind |
+100.00% |
+|
+|
+|
+
+Poço Fundo |
+Cemig GT |
+30 |
+17 |
+May 2052 |
+Small Hydro |
+100.00% |
+|
+|
+|
+
+Pai Joaquim |
+Cemig PCH |
+23 |
+14 |
+Oct. 2033 |
+Small Hydro |
+100.00% |
+|
+|
+|
+
+Piau |
+Cemig Ger. Sul |
+18 |
+14 |
+Jan. 2053 |
+Hydroelectric |
+100.00% |
+|
+|
+|
+
+Praias do Parajuru |
+Cemig GT |
+29 |
+8 |
+Sep. 2032 |
+Wind plant |
+100.00% |
+|
+|
+|
+
+Gafanhoto |
+Cemig Ger. Oeste |
+14 |
+7 |
+Jan. 2053 |
+Hydroelectric |
+100.00% |
+|
+|
+|
+
+Peti |
+Cemig Ger. Leste |
+9 |
+6 |
+Jan. 2053 |
+Hydroelectric |
+100.00% |
+|
+|
+|
+
+Joasal |
+Cemig Ger. Sul |
+8 |
+5 |
+Jan. 2053 |
+Hydroelectric |
+100.00% |
+|
+|
+|
+
+Queimado |
+Cemig GT |
+87 |
+53 |
+July 2034 |
+Hydroelectric |
+82.50% |
+|
+|
+|
+
+Belo Monte |
+Norte |
+1,313 |
+534 |
+Jul. 2046 |
+Hydroelectric |
+11.69% |
+|
+|
+|
+
+Paracambi |
+Paracambi Energética |
+12 |
+10 |
+Jan. 2034 |
+Small Hydro |
+49.00% |
+|
+|
+|
+
+Cachoeirão |
+Hidrelétrica Cachoeirão |
+13 |
+8 |
+Sep. 2033 |
+Small Hydro |
+49.00% |
+|
+|
+|
+
+Pipoca |
+Hidrelétrica Pipoca |
+10 |
+6 |
+Dec. 2034 |
+Small Hydro |
+49.00% |
+|
+|
+|
+
+(Eduardo Soares)
+
+– Boa Esperança
+|
+UFV Boa Esperança |
+85 |
+– |
+Aug. 2057 |
+Solar |
+100.00% |
+|
+|
+|
+
+Others |
+|
+84 |
+41 |
+|
+|
+|
+|
+|
+|
+
+Subtotal |
+|
+4,607 |
+2,103 |
+|
+|
+|
+|
+|
+|
+
+Cemig Sim (MWp) |
+Via equity interests |
+29 |
+– |
+|
+Solar |
+49.00% |
+|
+|
+|
+
+Cemig Sim (MWp) |
+Owned |
+36 |
+– |
+|
+Solar |
+100.00% |
+|
+|
+|
+
+Total |
+|
+4,672 |
+2,103 |
+|
+|
+|
+|
+|
+|
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+Expansion
+of solar generation
+
+Project |
+Company |
+Installed capacity (MWac) |
+
+Capacity
+
+(MWp)
+|
+Planned operational startup date |
+
+Três Marias Jusante Solar plant |
+Cemig GT |
+70.0 |
+88.0 |
+Dec. 2024 |
+
+Ouro Solar Project |
+Cemig SIM |
+40.5 |
+57.5 |
+Oct. 2024 – Jan. 2025 |
+
+Bloco Azul project |
+Cemig SIM |
+23.0 |
+32.6 |
+Oct. 2024 – Jun. 2025 |
+
+Solar do Cerrado Project |
+Cemig SIM |
+50.0 |
+70.0 |
+Jun.–Nov. 2025 |
+
+Total |
+|
+183.5 |
+248.1 |
+|
+
+|
+|
+|
+|
+|
+
+COMPANHIA ENERGÉTICA DE MINAS GERAIS S.A.
+| 38 | |
+
+|
+|
+
+RAP:
+July 2024–June 2025 cycle
+
+The RAP of Cemig GT, including
+the Adjustment Component, received an increase of 18.8% as from July 2024, reflecting:
+
+(i) inflation
+in the period;
+
+(ii) strengthening
+and enhancements of the network; and
+
+(iii) flow
+from reprofiling of the National Grid Financial Component.
+
+ANEEL RATIFYING RESOLUTION (ReH) 3348/2024 (2024–2025 cycle) |
+
+R$ ’000 |
+RAP |
+Adjustment component |
+Total |
+Expiration |
+
+Cemig |
+1,243,011 |
+115,284 |
+1,358,295 |
+|
+
+Cemig GT |
+1,161,990 |
+117,855 |
+1,279,845 |
+Dec. 2042 |
+
+Cemig Itajubá |
+43,096 |
+–1,524 |
+41,572 |
+Oct. 2030 |
+
+Centroeste |
+26,008 |
+–1,284 |
+24,724 |
+Mar. 2035 |
+
+Sete Lagoas |
+11,917 |
+237 |
+12,154 |
+Jun. 2041 |
+
+Taesa (Cemig stake: 21.68%) |
+625,278 |
+–32,793 |
+592,485 |
+|
+
+TOTAL RAP |
+|
+|
+1,950,780 |
+|
+
+REIMBURSEMENT FOR NATIONAL GRID ASSETS* |
+
+R$ ’000
+
+– by cycle
+|
+
+2020
+
+–2021
+|
+
+2021
+
+–2022
+|
+
+2022
+
+–2023
+|
+
+2023
+
+–2024
+|
+
+2024
+
+–2025 (1)
+|
+
+From
+
+2025–2026
+
+to
+
+2027–2028
+|
+
+From
+
+2028–2029
+
+to
+
+2032–2033
+|
+
+Economic |
+144,547 |
+144,547 |
+144,547 |
+144,375 |
+21,662 |
+83,019 |
+26,039 |
+
+Financial |
+332,489 |
+88,662 |
+129,953 |
+275,556 |
+275,556 |
+275,556 |
+– |
+
+TOTAL |
+477,036 |
+233,209 |
+274,500 |
+419,931 |
+297,218 |
+358,575 |
+26,039 |
+
+* The figures for indemnity
+of National Grid components are included in the RAP of Cemig (first table).
+
+(1) 2024–2025
+includes the Adjustment Component for postponement of the 2023 Review.
+
+Cemig currently has state
+environmental (REA) approval for additional large-scale strengthening and enhancement works, with total capex of R$ 885 million,
+and for investments of R$ 220 million related to Lot 1 of Auction 02/2022 (with completion of works planned for 2028).
+
+Planned operational startup date |
+Capex (R$ ’000) |
+RAP (R$ ’000) |
+
+2024 |
+233,722 |
+35,176 |
+
+2025 |
+301,424 |
+49,239 |
+
+2026 |
+257,702 |
+41,480 |
+
+2027 |
+91,850 |
+15,221 |
+
+2028 |
+219,615 |
+3,721 |
+
+Total |
+1,104,313 |
+144,837 |
+
+COMPANHIA ENERGÉTICA DE MINAS GERAIS S.A.
+| 39 | |
+
+|
+|
+
+Regulatory
+Transmission revenue
+
+Regulatory Transmission revenue – 3Q24 |
+
+R$ ’000 |
+GT |
+Centroeste |
+Sete Lagoas |
+
+REVENUE |
+441,332 |
+6,320 |
+2,757 |
+
+Transmission operations revenue |
+441,332 |
+6,320 |
+2,757 |
+
+Taxes on revenue |
+–39,208 |
+–220 |
+–254 |
+
+PIS and Pasep taxes |
+–6,993 |
+–39 |
+–45 |
+
+Cofins tax |
+–32,214 |
+–181 |
+–209 |
+
+ISS tax |
+-1 |
+– |
+– |
+
+Sector charges |
+–87,471 |
+–240 |
+–100 |
+
+Research and Development (R&D) |
+–3,141 |
+–59 |
+–24 |
+
+Global Reversion Reserve (RGR) |
+– |
+–158 |
+–65 |
+
+Energy Development Account (CDE) |
+–67,630 |
+– |
+– |
+
+Electricity Services Inspection Charge (TFSEE) |
+–1,320 |
+–23 |
+–11 |
+
+Other charges |
+–15,380 |
+– |
+– |
+
+Net revenue |
+314,653 |
+5,860 |
+2,403 |
+
+Complementary
+information
+
+Cemig D
+
+MARKET OF CEMIG D (GWh) |
+
+QUARTER |
+CAPTIVE |
+TUSD – ENERGY (1) |
+E.T.D (2) |
+TUSD – DEMAND (3) |
+
+1Q22 |
+5,738 |
+5,397 |
+11,136 |
+36.2 |
+
+2Q22 |
+6,050 |
+5,853 |
+11,904 |
+36.7 |
+
+3Q22 |
+5,942 |
+5,790 |
+11,733 |
+34.7 |
+
+4Q22 |
+6,047 |
+5,755 |
+11,802 |
+40.5 |
+
+1Q23 |
+5,723 |
+5,566 |
+11,289 |
+38 |
+
+2Q23 |
+5,949 |
+6,058 |
+12,007 |
+38.5 |
+
+3Q23 |
+5,812 |
+6,028 |
+11,840 |
+39.2 |
+
+4Q23 |
+6,376 |
+6,068 |
+12,445 |
+39.9 |
+
+1Q24 |
+5,930 |
+6,097 |
+12,027 |
+40.4 |
+
+2Q24 |
+5,924 |
+6,301 |
+12,225 |
+42.4 |
+
+3Q24 |
+5,821 |
+6,557 |
+12,378 |
+43.6 |
+
+(1) This refers to the ‘energy’ portion for calculation
+of the regulatory charges to Free Clients (‘Portion A’).
+
+(2) Total energy distributed.
+
+(3) Sum of TUSD billed, according to demand contracted (‘Portion
+B’)
+
+COMPANHIA ENERGÉTICA DE MINAS GERAIS S.A.
+| 40 | |
+
+|
+|
+
+Cemig D |
+3Q24 |
+2Q24 |
+3Q23 |
+Change % |
+Change % |
+
+Operational revenue (R$ mn) |
+|
+|
+|
+3Q – 2Q |
+3Q – 3Q |
+
+Supply of electricity |
+6,021 |
+5,882 |
+5,490 |
+2.4% |
+9.7% |
+
+Reimbursement (to consumers)
+of
+
+PIS/Pasep/Cofins tax credits
+|
+0 |
+190 |
+312 |
+–100.0% |
+–100.0% |
+
+TUSD |
+1,344 |
+1,261 |
+1,134 |
+6.6% |
+18.5% |
+
+CVA and Other
+financial components
+
+in tariff adjustments
+|
+357 |
+–57 |
+80 |
+– |
+346.3% |
+
+Construction revenue |
+1,151 |
+1,079 |
+1,030 |
+6.7% |
+11.7% |
+
+Adjustment to expectation
+of cash flow from reimbursable concession financial assets
+
+(New Replacement Value (VNR))
+|
+16 |
+22 |
+50 |
+–27.3% |
+–68.0% |
+
+Others |
+609 |
+673 |
+532 |
+–9.5% |
+14.5% |
+
+Subtotal |
+9,498 |
+9,050 |
+8,628 |
+5.0% |
+10.1% |
+
+Deductions |
+2,740 |
+2,723 |
+2,633 |
+0.6% |
+4.1% |
+
+Net revenue |
+6,758 |
+6,327 |
+5,995 |
+6.8% |
+12.7% |
+
+Cemig D |
+3Q24 |
+2Q24 |
+3Q23 |
+Change % |
+Change % |
+
+Operational expenses (R$ mn) |
+|
+|
+|
+3Q – 2Q |
+3Q – 3Q |
+
+People |
+223 |
+283 |
+204 |
+–21.2% |
+9.3% |
+
+Employee profit shares |
+24 |
+29 |
+27 |
+–17.2% |
+–11.1% |
+
+Post-employment obligations |
+81 |
+64 |
+112 |
+26.6% |
+–27.7% |
+
+Materials |
+26 |
+26 |
+21 |
+0.0% |
+23.8% |
+
+Outsourced services |
+409 |
+425 |
+390 |
+–3.8% |
+4.9% |
+
+Amortization |
+231 |
+224 |
+205 |
+3.1% |
+12.7% |
+
+Provisions |
+22 |
+–379 |
+117 |
+–105.8% |
+–81.2% |
+
+Charges for use of the national grid |
+869 |
+850 |
+809 |
+2.2% |
+7.4% |
+
+Electricity purchased for resale |
+3,078 |
+2,545 |
+2,361 |
+20.9% |
+30.4% |
+
+Construction cost |
+1,151 |
+1,079 |
+1,030 |
+6.7% |
+11.7% |
+
+Other expenses |
+101 |
+76 |
+88 |
+32.9% |
+14.8% |
+
+Total |
+6,215 |
+5,222 |
+5,364 |
+19.0% |
+15.9% |
+
+Cemig D |
+3Q24 |
+2Q24 |
+3Q23 |
+Change % |
+Change % |
+
+Profit and loss accounts |
+|
+|
+|
+3Q – 2Q |
+3Q – 3Q |
+
+Net revenue |
+6,758 |
+6,327 |
+5,995 |
+6.8% |
+12.7% |
+
+Operational expenses |
+6,215 |
+5,222 |
+5,364 |
+19.0% |
+15.9% |
+
+Operational profit |
+543 |
+1,105 |
+631 |
+–50.9% |
+–13.9% |
+
+EBITDA |
+773 |
+1,329 |
+836 |
+–41.8% |
+–7.5% |
+
+Net finance income (expenses) |
+–75 |
+306 |
+–99 |
+–124.5% |
+–24.2% |
+
+Provision for income tax,
+Social Contribution
+
+and deferred income tax
+|
+–96 |
+–350 |
+–55 |
+–72.6% |
+74.5% |
+
+Net profit |
+372 |
+1,060 |
+476 |
+–64.9% |
+–21.8% |
+
+COMPANHIA ENERGÉTICA DE MINAS GERAIS S.A.
+| 41 | |
+
+|
+|
+
+Cemig GT
+
+Cemig GT – Operational revenue |
+3Q24 |
+2Q24 |
+3Q23 |
+Change % |
+Change % |
+
+(R$ mn) |
+|
+|
+|
+3Q – 2Q |
+3Q – 3Q |
+
+Sales to final consumers |
+899 |
+777 |
+979 |
+15.7% |
+–8.2% |
+
+Wholesale supply |
+501 |
+409 |
+548 |
+22.5% |
+–8.6% |
+
+Charges for Use of the Transmission Network |
+198 |
+177 |
+198 |
+11.9% |
+0.0% |
+
+Gain on financial updating of Concession grant fee |
+94 |
+107 |
+85 |
+–12.1% |
+10.6% |
+
+Transactions in electricity on CCEE |
+–2 |
+2 |
+0 |
+–200.0% |
+- |
+
+Construction revenue |
+118 |
+100 |
+36 |
+18.0% |
+227.8% |
+
+Financial remuneration of transmission contractual assets |
+111 |
+136 |
+114 |
+–18.4% |
+–2.6% |
+
+Generation capital reimbursement |
+21 |
+21 |
+24 |
+0.0% |
+–12.5% |
+
+Others |
+31 |
+33 |
+26 |
+–6.1% |
+19.2% |
+
+Subtotal |
+1,971 |
+1,762 |
+2,010 |
+11.9% |
+–1.9% |
+
+Deductions |
+378 |
+345 |
+389 |
+9.6% |
+–2.8% |
+
+Net revenue |
+1,593 |
+1,417 |
+1,621 |
+12.4% |
+–1.7% |
+
+Cemig GT - Costs, expenses and other revenues |
+3Q24 |
+2Q24 |
+3Q23 |
+Change % |
+Change % |
+
+CONSOLIDATED (R$ ’000) |
+|
+|
+|
+3Q-2Q |
+3Q-3Q |
+
+People |
+78 |
+99 |
+77 |
+-21.2% |
+1.3% |
+
+Employees’ and managers’ profit shares |
+9 |
+11 |
+10 |
+-18.2% |
+-10.0% |
+
+Post-employment liabilities |
+25 |
+20 |
+36 |
+25.0% |
+-30.6% |
+
+Materials |
+7 |
+6 |
+6 |
+16.7% |
+16.7% |
+
+Outsourced services |
+63 |
+62 |
+60 |
+1.6% |
+5.0% |
+
+Depreciation and amortization |
+84 |
+84 |
+81 |
+0.0% |
+3.7% |
+
+Provisions |
+7 |
+-18 |
+12 |
+-138.9% |
+-41.7% |
+
+Provisions (reversals) for client default |
+2 |
+2 |
+1 |
+0.0% |
+- |
+
+Loss on other credits |
+- |
+16 |
+- |
+- |
+- |
+
+Charges for use of national grid |
+73 |
+73 |
+70 |
+0.0% |
+4.3% |
+
+Electricity bought for resale |
+587 |
+390 |
+574 |
+50.5% |
+2.3% |
+
+Construction cost |
+74 |
+73 |
+27 |
+1.4% |
+174.1% |
+
+Impairments (reversal) |
+2 |
+4 |
+-46 |
+-50.0% |
+- |
+
+Reversal of provision with related party |
+-58 |
+- |
+- |
+0.0% |
+0.0% |
+
+Other expenses |
+33 |
+22 |
+15 |
+50.0% |
+120.0% |
+
+Total costs and expenses |
+986 |
+844 |
+923 |
+16.8% |
+6.8% |
+
+Gain on disposal of investments |
+-1,617 |
+- |
+- |
+- |
+- |
+
+Result of the Transmission Periodic Tariff Review |
+-1,521 |
+- |
+- |
+- |
+- |
+
+Total other revenues |
+-3,138 |
+- |
+- |
+- |
+- |
+
+Total |
+-2,152 |
+844 |
+923 |
+-355.0% |
+-333.2% |
+
+COMPANHIA ENERGÉTICA DE MINAS GERAIS S.A.
+| 42 | |
+
+|
+|
+
+Cemig GT – Income statements |
+3Q24 |
+2Q24 |
+3Q23 |
+Change % |
+Change % |
+
+(R$ mn) |
+|
+|
+|
+3Q – 2Q |
+3Q – 3Q |
+
+Net revenue |
+1,593 |
+1,417 |
+1,621 |
+12.4% |
+-1.7% |
+
+Costs, expenses and other revenues |
+-2,152 |
+844 |
+923 |
+-355.0 |
+-333.2% |
+
+Operational profit |
+3,745 |
+573 |
+698 |
+553.6% |
+436.5% |
+
+Share of gain (loss) in non–consolidated investees |
+-30 |
+-16 |
+12 |
+87.5% |
+–350.0% |
+
+EBITDA |
+3,798 |
+641 |
+791 |
+492.5% |
+380.2% |
+
+Net finance income (expenses) |
+37 |
+-190 |
+-107 |
+-119.5% |
+-134.6% |
+
+Provision for income tax, Social Contribution, and
+
+deferred income tax
+|
+-1,121 |
+-40 |
+-113 |
+2702.5% |
+892.0% |
+
+Net profit |
+2,629 |
+328 |
+490 |
+701.5% |
+436.5% |
+
+Cemig, Consolidated
+
+Revenue from supply of electricity |
+3Q24 |
+2Q24 |
+3Q23 |
+Change |
+Change |
+
+(GWh) |
+|
+|
+|
+3Q – 2Q |
+3Q – 3Q |
+
+Residential |
+3,450 |
+3,151 |
+3,164 |
+9.5% |
+9.0% |
+
+Industrial |
+4,581 |
+4,368 |
+4,680 |
+4.9% |
+–2.1% |
+
+Commercial |
+2,848 |
+2,447 |
+2,736 |
+16.4% |
+4.1% |
+
+Rural |
+1,117 |
+780 |
+1,010 |
+43.2% |
+10.6% |
+
+Other |
+709 |
+699 |
+739 |
+1.4% |
+–4.1% |
+
+Subtotal |
+12,705 |
+11,445 |
+12,329 |
+11.0% |
+3.0% |
+
+Own consumption |
+7 |
+7 |
+7 |
+0.0% |
+0.0% |
+
+Wholesale supply to other concession holders |
+4,200 |
+3,953 |
+4,411 |
+6.2% |
+–4.8% |
+
+TOTAL |
+16,912 |
+15,405 |
+16,747 |
+9.8% |
+1.0% |
+
+Consolidated – Revenue from supply of electricity |
+3Q24 |
+2Q24 |
+3Q23 |
+Change |
+Change |
+
+(R$ mn) |
+|
+|
+|
+3Q – 2Q |
+3Q – 3Q |
+
+Residential |
+3,124 |
+3,067 |
+2,698 |
+1.9% |
+15.8% |
+
+Industrial |
+1,379 |
+1,327 |
+1,518 |
+3.9% |
+–9.2% |
+
+Commercial |
+1,577 |
+1,610 |
+1,508 |
+–2.0% |
+4.6% |
+
+Rural |
+735 |
+600 |
+664 |
+22.5% |
+10.7% |
+
+Other |
+544 |
+538 |
+514 |
+1.1% |
+5.8% |
+
+Subtotal |
+7,359 |
+7,142 |
+6,902 |
+3.0% |
+6.6% |
+
+Retail supply not yet invoiced, net |
+-46 |
+68 |
+92 |
+– |
+– |
+
+Wholesale supply to other concession holders |
+1,243 |
+934 |
+1,136 |
+33.1% |
+9.4% |
+
+TOTAL |
+8,556 |
+8,144 |
+8,130 |
+5.1% |
+5.2% |
+
+COMPANHIA ENERGÉTICA DE MINAS GERAIS S.A.
+| 43 | |
+
+|
+|
+
+Consolidated – Net revenue |
+3Q24 |
+2Q24 |
+3Q23 |
+Change |
+Change |
+
+(R$ mn) |
+|
+|
+|
+3Q – 2Q |
+3Q – 3Q |
+
+Sales to final consumers |
+7,313 |
+7,210 |
+6,994 |
+1.4% |
+4.6% |
+
+Wholesale supply |
+1,243 |
+934 |
+1,136 |
+33.1% |
+9.4% |
+
+TUSD |
+1,338 |
+1,252 |
+1,126 |
+6.9% |
+18.8% |
+
+CVA and Other financial components in tariff adjustments |
+357 |
+–57 |
+80 |
+– |
+346.3% |
+
+Reimbursement to consumers of PIS, Pasep, Cofins tax credits |
+0 |
+190 |
+312 |
+–100.0% |
+–100.0% |
+
+Transmission revenue |
+145 |
+80 |
+96 |
+81.3% |
+51.0% |
+
+Financial remuneration of transmission contract |
+40 |
+134 |
+116 |
+–70.1% |
+–65.5% |
+
+Transactions in electricity on CCEE |
+27 |
+14 |
+36 |
+92.9% |
+–25.0% |
+
+Supply of gas |
+1,038 |
+972 |
+989 |
+6.8% |
+5.0% |
+
+Construction revenue |
+1,375 |
+1,259 |
+1,204 |
+9.2% |
+14.2% |
+
+Others |
+764 |
+876 |
+728 |
+–12.8% |
+4.9% |
+
+Subtotal |
+13,640 |
+12,864 |
+12,817 |
+6.0% |
+6.4% |
+
+Taxes and charges reported as deductions from revenue |
+3,491 |
+3,428 |
+3,390 |
+1.8% |
+3.0% |
+
+Net revenue |
+10,149 |
+9,436 |
+9,427 |
+7.6% |
+7.7% |
+
+Costs, expenses and other revenues |
+3Q24 |
+2Q24 |
+3Q23 |
+Change % |
+Change % |
+
+CONSOLIDATED (R$ ’000) |
+|
+|
+|
+3Q-2Q |
+3Q-3Q |
+
+People |
+326 |
+417 |
+303 |
+-21.8% |
+7.6% |
+
+Employees’ and managers’ profit shares |
+41 |
+43 |
+44 |
+-4.7% |
+-6.8% |
+
+Post-employment liabilities |
+122 |
+98 |
+169 |
+24.5% |
+-27.8% |
+
+Materials |
+35 |
+34 |
+28 |
+2.9% |
+25.0% |
+
+Outsourced services |
+497 |
+508 |
+467 |
+-2.2% |
+6.4% |
+
+Depreciation and amortization |
+346 |
+338 |
+317 |
+2.4% |
+9.1% |
+
+Provisions |
+93 |
+-430 |
+100 |
+- |
+- |
+
+Impairments (reversal) |
+1 |
+4 |
+-46 |
+-75.0% |
+- |
+
+Charges for use of national grid |
+805 |
+817 |
+769 |
+-1.5% |
+4.7% |
+
+Electricity bought for resale |
+4,567 |
+3,693 |
+3,778 |
+23.7% |
+20.9% |
+
+Gas purchased for resale |
+544 |
+509 |
+527 |
+6.9% |
+3.2% |
+
+Construction cost |
+1,336 |
+1,227 |
+1,194 |
+8.9% |
+11.9% |
+
+Provisions (reversals) for client default |
+-51 |
+77 |
+43 |
+-166.2% |
+-218.6% |
+
+Reversal of provision with related party |
+-58 |
+- |
+- |
+- |
+- |
+
+Other expenses |
+146 |
+107 |
+110 |
+36.4% |
+32.7% |
+
+Total costs and expenses |
+8,750 |
+7,442 |
+7,803 |
+17.6% |
+12.1% |
+
+Gain on disposal of investments |
+-1,617 |
+- |
+- |
+- |
+- |
+
+Gain on purchase |
+-14 |
+- |
+- |
+- |
+- |
+
+Result of the Transmission Periodic Tariff Review |
+-1,521 |
+- |
+- |
+- |
+- |
+
+Total other revenues |
+-3,152 |
+- |
+- |
+- |
+- |
+
+Total |
+5,598 |
+7,442 |
+7,803 |
+-24.8% |
+-28.3% |
+
+COMPANHIA ENERGÉTICA DE MINAS GERAIS S.A.
+| 44 | |
+
+|
+|
+
+Finance income (expenses) – Consolidated |
+3Q24 |
+2Q24 |
+3Q23 |
+Change |
+Change |
+
+(R$ mn) |
+|
+|
+|
+3Q – 2Q |
+3Q – 3Q |
+
+Financial revenues |
+|
+|
+|
+|
+|
+
+Income from cash investments |
+105 |
+117 |
+121 |
+-10.3% |
+-13.2% |
+
+Late fees on sale of electricity |
+72 |
+74 |
+67 |
+-2.7% |
+7.5% |
+
+Inflation adjustment – CVA |
+5 |
+– |
+– |
+– |
+– |
+
+Monetary updating on Court escrow deposits |
+18 |
+15 |
+23 |
+20.0% |
+–21.7% |
+
+Pasep and Cofins taxes charged on financial revenues |
+-49 |
+-49 |
+-49 |
+– |
+– |
+
+Gains on financial instruments – Swap |
+13 |
+70 |
+102 |
+-81.4% |
+-87.3% |
+
+Foreign exchange variations – Loans and debentures |
+42 |
+– |
+– |
+– |
+– |
+
+Reimbursement of credits of PIS, Pasep and Cofins taxes charged on amounts of ICMS tax |
+5 |
+406 |
+– |
+–98.8% |
+– |
+
+Updating of Corporate income tax credit on PAT |
+1 |
+50 |
+– |
+–98.0% |
+– |
+
+Others |
+51 |
+42 |
+82 |
+21.4% |
+-37.8% |
+
+|
+263 |
+725 |
+346 |
+-63.7% |
+-24.0% |
+
+Finance expenses |
+|
+|
+|
+|
+|
+
+Borrowing cost – Loans and debentures |
+237 |
+241 |
+280 |
+-1.7% |
+-15.4% |
+
+FX variations – Loans and debentures |
+– |
+214 |
+– |
+– |
+– |
+
+Monetary updating – loans and debentures |
+40 |
+53 |
+27 |
+-24.5% |
+48.1% |
+
+Updating on PIS, Pasep and Cofins tax repayments |
+– |
+– |
+26 |
+– |
+_– |
+
+Others |
+48 |
+99 |
+228 |
+-51.5% |
+-78.9% |
+
+|
+325 |
+607 |
+561 |
+-46.5% |
+-42.1% |
+
+Net finance income (expenses) |
+–62 |
+118 |
+–215 |
+-152.5% |
+-71.2% |
+
+Consolidated profit and loss account |
+3Q24 |
+2Q24 |
+3Q23 |
+Change |
+Change |
+
+(R$ mn) |
+|
+|
+|
+3Q – 2Q |
+3Q – 3Q |
+
+Net revenue |
+10,149 |
+9,436 |
+9,427 |
+7.6% |
+7.7% |
+
+Costs, expenses and other revenues |
+5,598 |
+7,442 |
+7,803 |
+-24.8% |
+-28.3% |
+
+Operational profit |
+4,451 |
+1,994 |
+1,624 |
+128.2% |
+180.2% |
+
+Share of gain (loss) in non-consolidated investees |
+62 |
+39 |
+71 |
+59.0% |
+-12.7% |
+
+EBITDA |
+4,958 |
+2,371 |
+2,011 |
+109.1% |
+146.5% |
+
+Net finance income (expense) |
+-62 |
+118 |
+-215 |
+–152.5% |
+-71.2% |
+
+Provision for income tax, Soc. Contr., and deferred income tax |
+-1,270 |
+-462 |
+-242 |
+174.9% |
+424.8% |
+
+Net profit |
+3,280 |
+1,689 |
+1,237 |
+94.2% |
+165.2% |
+
+Recurring net profit: reconciliation |
+|
+|
+
+R$ mn |
+3Q24 |
+3Q23 |
+
+Net profit – R$ mn |
+3,280 |
+1,237 |
+
+FX exposure – Eurobond hedge |
+-37 |
+26 |
+
+Gain on disposal of investments |
+-1,083 |
+– |
+
+Reversal of provision with related party |
+–38 |
+– |
+
+Result of the Transmission Periodic Tariff Review |
+-1,004 |
+– |
+
+Reversal of impairment of assets – Small Hydro plants held for sale |
+– |
+(30) |
+
+Recurring net profit |
+1,118 |
+1,233 |
+
+COMPANHIA ENERGÉTICA DE MINAS GERAIS S.A.
+| 45 | |
+
+|
+|
+
+Cash flow statement |
+Sep. 2024 |
+Sep. 2023 |
+
+(R$ mn) |
+|
+|
+
+Cash at start of period |
+1,537 |
+1,441 |
+
+Cash from operations |
+4,638 |
+4,724 |
+
+Net profit |
+6,122 |
+3,881 |
+
+Recoverable taxes |
+332 |
+869 |
+
+Depreciation and amortization |
+1,012 |
+923 |
+
+CVA and Other financial components in tariff adjustments |
+–376 |
+64 |
+
+Share of gain (loss) in non–consolidated investees |
+–191 |
+–293 |
+
+Adjustment of expectation of cash flow from financial and concession contract assets |
+–782 |
+–957 |
+
+Effects of Periodic Tariff Review of RAP |
+–1,676 |
+– |
+
+Interest and inflation adjustment |
+205 |
+523 |
+
+Provisions for client default |
+103 |
+72 |
+
+Provisions for contingencies |
+–242 |
+277 |
+
+Current and deferred income tax and Social Contribution tax |
+2,082 |
+968 |
+
+Reimbursement (to consumers) of credits
+of PIS, Pasep and Cofins taxes
+
+– Amounts realized
+|
+–513 |
+–1,569 |
+
+Reversal of amounts to be returned to consumers |
+–411 |
+– |
+
+Gain on disposal of investments |
+–1,617 |
+–30 |
+
+Gain on sale of property, plant and equipment |
+–43 |
+- |
+
+Dividends and Interest on Equity received |
+291 |
+279 |
+
+Interest paid on loans and debentures |
+–558 |
+–521 |
+
+Change in fair value of derivatives – Swap and options |
+–125 |
+60 |
+
+FX variation on loans |
+231 |
+–159 |
+
+Post-employment liabilities |
+366 |
+447 |
+
+Other |
+428 |
+–110 |
+
+Investment activity |
+–3,200 |
+–4,113 |
+
+Cash investments |
+–2,288 |
+109 |
+
+Sale of investments |
+2,737 |
+– |
+
+Investees: acquisition of holdings, cash injections |
+–16 |
+–37 |
+
+Reduction of share capital in investee |
+48 |
+30 |
+
+Settlement of put option |
+– |
+–780 |
+
+Disposal of fixed assets |
+101 |
+- |
+
+PP&E, Intangible; Other / gas distribution infrastructure |
+–3,782 |
+–3,435 |
+
+Financing activities |
+686 |
+304 |
+
+Leasing liabilities paid |
+–54 |
+–52 |
+
+Dividends and Interest on Equity paid |
+–2,977 |
+–912 |
+
+Loans and debentures paid |
+–666 |
+–720 |
+
+Loans obtained |
+4,383 |
+1,988 |
+
+Total cash available |
+3,661 |
+2,356 |
+
+COMPANHIA ENERGÉTICA DE MINAS GERAIS S.A.
+| 46 | |
+
+|
+|
+
+Statement of financial position –
+
+ASSETS
+|
+Sep. 2024 |
+Dec. 2023 |
+
+(R$ mn) |
+|
+|
+
+CURRENT |
+|
+|
+
+Cash and cash equivalents |
+3,661 |
+1,537 |
+
+Securities |
+2,960 |
+774 |
+
+Consumers, Traders, concession holders (power transport) |
+5,212 |
+5,434 |
+
+Concession financial and sector assets |
+1,026 |
+814 |
+
+Contractual assets |
+1,129 |
+850 |
+
+Recoverable taxes |
+626 |
+635 |
+
+Income and Social Contribution taxes recoverable |
+2 |
+411 |
+
+Derivative financial instruments |
+500 |
+368 |
+
+Dividends receivable |
+45 |
+50 |
+
+Public Lighting Contribution |
+269 |
+261 |
+
+Other assets |
+803 |
+676 |
+
+Assets classified as held for sale |
+39 |
+58 |
+
+TOTAL, CURRENT |
+16,272 |
+11,868 |
+
+NON-CURRENT |
+|
+|
+
+Securities |
+131 |
+– |
+
+Consumers, Traders, concession holders (power transport) |
+227 |
+43 |
+
+Recoverable taxes |
+1,404 |
+1,319 |
+
+Income and Social Contribution taxes recoverable |
+602 |
+445 |
+
+Deferred income tax and Social Contribution tax |
+2,685 |
+3,045 |
+
+Escrow deposits in litigation |
+1,276 |
+1,243 |
+
+Accounts receivable from Minas Gerais State |
+43 |
+13 |
+
+Concession financial and sector assets |
+6,506 |
+5,726 |
+
+Contractual assets |
+10,172 |
+7,676 |
+
+Investments |
+3,368 |
+4,632 |
+
+Property, plant and equipment |
+3,591 |
+3,256 |
+
+Intangible |
+16,204 |
+15,249 |
+
+Right of use |
+379 |
+398 |
+
+Other assets |
+147 |
+87 |
+
+TOTAL, NON-CURRENT |
+46,735 |
+43,132 |
+
+|
+|
+|
+
+TOTAL ASSETS |
+63,007 |
+55,000 |
+
+COMPANHIA ENERGÉTICA DE MINAS GERAIS S.A.
+| 47 | |
+
+|
+|
+
+Statement of financial position –
+
+LIABILITIES
+|
+Sep. 2024 |
+Dec. 2023 |
+
+(R$ mn) |
+|
+|
+
+CURRENT |
+|
+|
+
+Suppliers |
+3,160 |
+3,017 |
+
+Regulatory charges |
+357 |
+487 |
+
+Employees’ and managers’ profit shares |
+126 |
+165 |
+
+Taxes |
+606 |
+644 |
+
+Income tax and Social Contribution tax |
+800 |
+111 |
+
+Interest on Equity, and dividends, payable |
+2,659 |
+2,924 |
+
+Loans and debentures |
+4,795 |
+2,630 |
+
+Payroll and related charges |
+307 |
+239 |
+
+Public Lighting Contribution |
+436 |
+425 |
+
+Post-employment liabilities |
+227 |
+329 |
+
+Accounts payable for energy generated by consumers |
+1,145 |
+705 |
+
+Amounts to be returned to consumers |
+516 |
+854 |
+
+Leasing liabilities |
+75 |
+79 |
+
+Other liabilities |
+389 |
+484 |
+
+TOTAL, CURRENT |
+15,598 |
+13,093 |
+
+|
+|
+|
+
+NON-CURRENT |
+|
+|
+
+Regulatory charges |
+204 |
+90 |
+
+Loans and debentures |
+9,339 |
+7,201 |
+
+Taxes |
+489 |
+362 |
+
+Deferred income tax and Social Contribution tax |
+1,651 |
+1,112 |
+
+Provisions |
+1,767 |
+2,200 |
+
+Post-employment liabilities |
+5,217 |
+5,088 |
+
+Amounts to be returned to consumers |
+170 |
+664 |
+
+Leasing liabilities |
+344 |
+354 |
+
+Other liabilities |
+164 |
+180 |
+
+TOTAL, NON-CURRENT |
+19,345 |
+17,251 |
+
+TOTAL LIABILITIES |
+34,943 |
+30,344 |
+
+|
+|
+|
+
+STOCKHOLDERS’ EQUITY |
+|
+|
+
+Share capital |
+14,309 |
+11,007 |
+
+Capital reserves |
+393 |
+2,250 |
+
+Profit reserves |
+10,175 |
+13,041 |
+
+Equity valuation adjustments |
+–1,665 |
+1,648 |
+
+Retained earnings |
+4,847 |
+– |
+
+ATTRIBUTABLE TO CONTROLLING STOCKHOLDERS |
+28,059 |
+24,650 |
+
+ATTRIBUTABLE TO NON-CONTROLLING STOCKHOLDER |
+5 |
+6 |
+
+STOCKHOLDERS’ EQUITY |
+28,064 |
+24,656 |
+
+TOTAL LIABILITIES AND EQUITY |
+63,007 |
+55,000 |
+
+COMPANHIA ENERGÉTICA DE MINAS GERAIS S.A.
+| 48 | |
+
+|
+|
+
+Disclaimer
+
+Certain statements and estimates
+in this material may represent expectations about future events or results which are subject to risks and uncertainties that may be known
+or unknown. There is no guarantee that events or results will occur as referred to in these expectations.
+
+These expectations are based
+on present assumptions and analyses from the point of view of our management, in accordance with their experience and other factors such
+as the macroeconomic environment, market conditions in the electricity sector, and expected future results, many of which are not under
+our control.
+
+Important factors that could
+lead to significant differences between actual results and the projections about future events or results include: Cemig’s business
+strategy, Brazilian and international economic conditions, technology, our financial strategy, changes in the electricity sector, hydrological
+conditions, conditions in the financial and energy markets, uncertainty on our results from future operations, plans and objectives, and
+other factors. Due to these and other factors, our results may differ significantly from those indicated in or implied by such statements.
+
+The information and opinions
+herein should not be understood as a recommendation to potential investors, and no investment decision should be based on the veracity,
+currentness or completeness of this information or these opinions. None of our staff nor any party related to any of them or their representatives
+shall have any responsibility for any losses that may arise as a result of use of the content of this material.
+
+To evaluate the risks and
+uncertainties as they relate to Cemig, and to obtain additional information about factors that could give rise to different results from
+those estimated by Cemig, please consult the section on Risk Factors included in the Reference Form filed with the Brazilian
+Securities Commission (CVM) – and in the 20–F Form filed with the U.S. Securities and Exchange Commission (SEC).
+
+|
+· |
+Financial amounts are in R$ million (R$ mn) unless otherwise stated. |
+
+|
+· |
+Financial data reflect the adoption of IFRS. |
+
+|
+
+|
+
+|
+
+|
+
+| 3. | Notice to the Market dated November 13, 2024 – Cemig announces Vice President of Finances and Investor Relations |
+
+|
+
+|
+
+COMPANHIA ENERGÉTICA DE MINAS GERAIS - CEMIG
+
+PUBLICLY-HELD COMPANY
+
+Corporate Taxpayer’s ID (CNPJ): 17.155.730/0001-64
+
+Company Registry (NIRE): 31300040127
+
+NOTICE TO THE MARKET
+
+Cemig announces Vice Presidente of Finances and
+Investor Relations
+
+COMPANHIA ENERGÉTICA DE MINAS GERAIS – CEMIG (“Cemig”
+or “Company”), a publicly-held company with shares traded on the stock exchanges of São Paulo, New York, and Madrid,
+hereby informs the Brazilian Securities and Exchange Commission (CVM), B3 S.A.- Brasil, Bolsa, Balcão (“B3”), and the
+market in general, that the Company’s Board of Directors elected Ms. Andrea Marques de Almeida as Vice President of Finance and
+Investor Relations, with her term of office beginning on December 02, 2024.
+
+Ms. Andrea has significant executive experience, including abroad,
+across all financial functions, with more than 20 years in leadership positions at companies across various segments, mainly at Vale S.A.
+In the last few years, she served as Vice President of Finance and Strategy at Santander Brazil and Executive Director of Finances and
+Investor Relations at Petrobras.
+
+The Board of Directors members recognize and thank Mr. Leonardo
+George de Magalhães for his outstanding performance as Vice President of Finance and Investor Relations, a role he will hold until
+December 01, 2024. Mr. Leonardo was essential in the process of restoring the Company’s economic and financial capacity and strength,
+achieving, among other things, the lowest leverage ratios. They also emphasize his steadfast leadership, consistently ensuring and upholding
+the Company’s financial and capital discipline.
+
+Belo Horizonte, November 13, 2024.
+
+Leonardo George de Magalhães
+
+Vice President of Finance and Investor Relations
+
+Reynaldo Passanezi Filho
+
+Chair
+
+|
+
+|
+
+| 4. | Notice to the Market dated December 5, 2024 – CEMIG holds auction for the sale of four power plants |
+
+|
+
+|
+
+COMPANHIA ENERGÉTICA DE MINAS GERAIS - CEMIG
+
+PUBLICLY-HELD COMPANY
+
+Corporate Taxpayer’s ID (CNPJ): 17.155.730/0001-64
+
+Company Registry (NIRE): 31300040127
+
+CEMIG GERAÇÃO E TRANSMISSÃO S.A.
+
+PUBLICLY-HELD COMPANY
+
+Corporate Taxpayer’s ID (CNPJ): 06.981.176/0001-58
+
+Company Registry (NIRE): 31300020550
+
+NOTICE TO THE MARKET
+
+CEMIG holds auction for the sale of four power plants
+
+COMPANHIA ENERGÉTICA DE MINAS GERAIS – CEMIG (“CEMIG”) ,
+a publicly-held company with shares traded on the stock exchanges of São Paulo, New York, and Madrid, and CEMIG GERAÇÃO
+E TRANSMISSÃO S.A. (“CEMIG GT”) , a publicly-held company and a wholly-owned subsidiary of CEMIG, hereby inform
+the Brazilian Securities and Exchange Commission – CVM, B3 S.A. – Brasil, Bolsa, Balcão (“B3”), and the
+market in general, further to the Notice to the Market disclosed on September 23, 2024, that it held, today, a public auction on B3, whose
+purpose is the onerous transfer of the Machado Mineiro, Sinceridade, Martins, and Marmelos power plants .
+
+The winning bid was submitted by Âmbar Hidroenergia LTDA in
+the amount of R$52 million, representing a premium of 78.8% over the minimum price of R$29.1 million. The next stages will follow the
+schedule of the published Bid Notice, with the signing of the Agreement for the Purchase and Sale of Assets and approval from the Brazilian
+Electricity Regulatory Agency (ANEEL) and the Brazilian Antitrust Authority (CADE).
+
+The aforementioned sale is in line with the guidelines of CEMIG’s
+Strategic Planning that recommends optimizing the portfolio and bettering capital allocation.
+
+CEMIG and CEMIG GT reaffirm their commitment to keeping shareholders,
+the market in general, and other stakeholders duly and timely informed about this matter, under the rules issued by the CVM and legislation
+in force.
+
+Belo Horizonte, December 05, 2024.
+
+Andrea Marques de Almeida
+
+Vice President of Finance and Investor Relations
+
+|
+
+|
+
+| 5. | Notice to the Market dated December 5, 2024 – Payment of Bonds |
+
+|
+
+|
+
+COMPANHIA ENERGÉTICA DE MINAS GERAIS - CEMIG
+
+PUBLICLY-HELD COMPANY
+
+Corporate Taxpayer’s ID (CNPJ): 17.155.730/0001-64
+
+Company Registry (NIRE): 31300040127
+
+CEMIG GERAÇÃO E TRANSMISSÃO S.A.
+
+PUBLICLY-HELD COMPANY
+
+Corporate Taxpayer’s ID (CNPJ): 06.981.176/0001-58
+
+Company Registry (NIRE): 31300020550
+
+NOTICE TO THE MARKET
+
+Payment of Bonds
+
+COMPANHIA ENERGÉTICA DE MINAS GERAIS – CEMIG (“Cemig”
+or “Company”), a publicly-held company with shares traded on the stock exchanges of São Paulo, New York, and Madrid,
+and CEMIG GERAÇÃO E TRANSMISSÃO S.A. – CEMIG-GT , a category “B” publicly-held company and
+a wholly-owned subsidiary of Cemig (“Cemig GT”) , hereby inform the Brazilian Securities and Exchange Commission (CVM),
+B3 S.A.- Brasil, Bolsa, Balcão (“B3”), and the market in general about the settlement, on this date, of the debt instruments
+issued in the foreign market (“Eurobonds”), by Cemig GT, according to their maturity. The net impact in the Company’s
+cash will be R$1.866 billion, considering the payment of R$2.309 billion (US$381 million at the exchange rate of R$6.0585), net of the
+Hedge impact of R$443 million.
+
+Such payment refers to the issue of Eurobonds by Cemig GT,
+between late 2017 and mid-2018, totaling US$1.5 billion, with a maturity of seven years, semi-annual interest payment, and principal payment
+in December 2024. Aiming to protect against foreign exchange variation, Cemig GT contracted a hedge transaction through a combination
+of derivative operations. To take targeted actions for the prudent management of its liabilities and reduce foreign currency exposure
+risks, the Company started a process of partial buybacks between 2021 and 2023, totaling US$1.119 million.
+
+This settlement reinforces the Company’s commitment to responsible
+financial management and the fulfillment of its obligations to creditors, contributing to the maintenance of its financial soundness and
+credibility in the market.
+
+The Company will remain available to provide any clarifications
+through its Investor Relations department.
+
+Belo Horizonte, December 05, 2024.
+
+Andrea Marques de Almeida
+
+Vice President of Finance and Investor Relations
+
+|
+
+|
+
+| 6. | Material Fact dated December 12, 2024 – Cemig discloses investment plan for the 2025-2029 period |
+
+|
+
+|
+
+COMPANHIA ENERGÉTICA DE MINAS GERAIS - CEMIG
+
+PUBLICLY-HELD COMPANY
+
+Corporate Taxpayer’s ID (CNPJ): 17.155.730/0001-64
+
+Company
+Registry (NIRE): 31300040127
+
+MATERIAL FACT
+
+Cemig discloses investment plan for the 2025-2029 period
+
+COMPANHIA ENERGÉTICA DE MINAS GERAIS – CEMIG
+(“CEMIG” or “Company”) , a publicly-held company with shares traded on the stock exchanges of São Paulo,
+New York, and Madrid, under CVM Resolution 44/2021, of August 23, 2021, hereby announces its investment plan for the 2025-2029 period,
+in the amount of R$39.2 billion , as detailed below, to the Brazilian Securities and Exchange Commission (CVM), B3 S.A. –
+Brasil, Bolsa, Balcão (“ B3 ”), and the market in general.
+
+Description |
+(R$ billion) |
+
+Distribution |
+23.2 |
+
+Generation |
+4.2 |
+
+Transmission |
+4.3 |
+
+Distributed Generation |
+2.6 |
+
+Natural Gas |
+1.6 |
+
+Innovation |
+2.3 |
+
+IT |
+1.0 |
+
+Total |
+39.2 |
+
+It is important to emphasize that the investments are based
+on the assumption that they will create value for shareholders and that return rates will be higher than the cost of capital, ensuring
+the sustainability of the Company’s business.
+
+CEMIG reiterates its commitment to focusing on the state of
+Minas Gerais, mainly engaging in the generation, transmission, and distribution of energy, providing excellent services for customers,
+with safety and maximum efficiency, through sustainable and results-oriented management, making the greatest investment in the Company’s
+history.
+
+The Company emphasizes that the plan disclosed herein is a mere
+estimate and does not constitute a promise of performance as it involves various factors that are beyond its control, and may undergo
+changes.
+
+Belo Horizonte, December 12, 2024.
+
+Andrea Marques de Almeida
+
+Chief Finance and Investor Relations Officer
+
+|
+
+|
+
+| 7. | Notice to the Market dated December 5, 2024 – Cemig listed in the Dow Jones Sustainability Index for 25 years |
+
+|
+
+|
+
+COMPANHIA ENERGÉTICA DE MINAS GERAIS - CEMIG
+
+PUBLICLY-HELD COMPANY
+
+Corporate Taxpayer’s ID (CNPJ): 17.155.730/0001-64
+
+Company Registry (NIRE): 31300040127
+
+NOTICE TO THE MARKET
+
+Cemig listed in the Dow Jones Sustainability Index for 25 years
+
+COMPANHIA ENERGÉTICA DE MINAS GERAIS – CEMIG (“Cemig”
+or “Company”) , a publicly-held company with shares traded on the stock exchanges of São Paulo, New York, and Madrid,
+according to its commitment to adopting the best Corporate Governance practices, hereby informs its shareholders and the market in general
+that it has been selected, for the 25 th time, to be part of the Dow Jones Sustainability World Index (DJSI World).
+
+The Company is the only company in the energy sector in the Americas
+included in the list and one of the few corporations continuously featured since the creation of the indicator in 1999.
+
+The DJSI World, prepared by S&P Global and audited by Deloitte,
+assesses the sustainability performance of 3,300 companies. A total of 73 companies were evaluated in the global energy sector, and only
+Cemig and seven other European companies were included in the index. The rigorous evaluation considers questionnaires, annual reports,
+public information, and the ability to create value for shareholders in the medium and long terms.
+
+In 2024, Cemig’s score improved by 6 points compared to the
+previous year. The company achieved leadership in the Transparency and Reporting, Renewable Generation, and Human Rights categories, consolidating
+its position as a benchmark in sustainability within the global energy sector.
+
+Being included in the Dow Jones index for the 25 th consecutive
+year is the result of the Company’s meticulous ESG strategy and reaffirms its commitment to a more sustainable future, driving the
+energy transition in Brazil.
+
+Further details on the socio-environmental practices adopted by Cemig
+are available in the sustainability reports at www.cemig.com.br.
+
+Belo Horizonte, December 16, 2024.
+
+Andrea Marques de Almeida
+
+Vice President of Finance and Investor Relations
+
+|
+
+|
+
+| 8. | Notice to Shareholders dated December 17, 2024 – Declaration of Interest on Equity |
+
+|
+
+|
+
+COMPANHIA ENERGÉTICA DE MINAS GERAIS - CEMIG
+
+PUBLICLY-HELD COMPANY
+
+CORPORATE TAXPAYER’S ID (CNPJ): 17.155.730/0001-64
+
+COMPANY REGISTRY (NIRE): 31300040127
+
+NOTICE TO SHAREHOLDERS
+
+Declaration of Interest on Equity
+
+We hereby inform our shareholders that the Executive Board approved
+the declaration of Interest on Equity - IoE . Detailed information about the payment is as follows:
+
+|
+1. |
+Gross amount: R$560,143,000.00 (five hundred and sixty million, one hundred and forty-three thousand reais); |
+
+|
+2. |
+Gross amount per share: R$0.19580751126 per share, to be paid with the mandatory minimum dividend for 2024, with a 15% withholding income tax, excluding shareholders exempt from said withholding, under the law in force; |
+
+|
+3. |
+Date “with rights”: shareholders of record on December 23, 2024, holding common and preferred shares will be entitled to the payment; |
+
+|
+4. |
+Date “ex-rights” : December 26, 2024; |
+
+|
+5. |
+Payment date: 2 (two) equal installments, the first of which to be paid by June 30, 2025 , and the second by December 30, 2025 . |
+
+Shareholders whose shares are not held in custody at CBLC and whose
+registration data is outdated are advised to go to a branch of Banco Itaú Unibanco S.A. (the institution managing CEMIG’s
+Registered Share System) bearing their personal documents for the due update of their registration data.
+
+Belo Horizonte, December 17, 2024.
+
+Andrea Marques de Almeida
+
+Vice President of Finance and Investor Relations
+
+!
+
+|
+|

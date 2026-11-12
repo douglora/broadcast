@@ -1,0 +1,9554 @@
+6-K
+1
+cig20251024_6k.htm
+6-K
+
+United States
+
+Securities and
+exchange commission
+
+washington, d.c. 20549
+
+FORM 6-K
+
+report of foreign
+private issuer
+
+pursuant to rule 13 a -16 or 15 d -16 of
+
+the securities exchange act of 1934
+
+For the month of October 2025
+
+Commission File Number 1-15224
+
+Energy Company of Minas Gerais
+
+(Translation of Registrant’s Name into English)
+
+Avenida Barbacena, 1200
+
+30190-131 Belo Horizonte, Minas Gerais, Brazil
+
+(Address of Principal Executive Offices)
+
+Indicate by check mark whether the registrant files or will file annual
+reports under cover of Form 20-F or Form 40-F.
+
+Form 20-F a
+Form 40-F ___
+
+|
+
+|
+
+Index
+
+Item Description
+of Items
+
+| 1. | Material Fact dated August 1, 2025 – Cemig wins CCEE auction for GSF credits for concession extensions |
+
+| 2. | Material Fact dated August 1, 2025 – Official Letter Received from the Controlling Shareholder |
+
+| 3. | Earnings Release – 2Q2025 |
+
+| 4. | Notice to Shareholders dated September 23, 2025 – Declaration of Interest on Equity |
+
+| 5. | Notice to the Market dated October 16, 2025 – Conclusion of the Onerous Transfer of Four Small Power Plants |
+
+| 6. | 2Q Interim Financial Information |
+
+|
+
+|
+
+Forward-Looking Statements
+
+This report contains statements about expected future events and financial
+results that are forward-looking and subject to risks and uncertainties. Actual results could differ materially from those predicted in
+such forward-looking statements. Factors which may cause actual results to differ materially from those discussed herein include those
+risk factors set forth in our most recent Annual Report on Form 20-F filed with the Securities and Exchange Commission. CEMIG undertakes
+no obligation to revise these forward-looking statements to reflect events or circumstances after the date hereof, and claims the protection
+of the safe harbor for forward-looking statements contained in the Private Securities Litigation Reform Act of 1995.
+
+|
+
+|
+
+SIGNATURES
+
+Pursuant to the requirements of the Securities Exchange
+Act of 1934, the registrant has duly caused this report to be signed on its behalf by the undersigned, thereunto duly authorized.
+
+COMPANHIA ENERGÉTICA DE MINAS GERAIS – CEMIG
+
+By: /s/ Andrea Marques de Almeida .
+Name: Andrea Marques de Almeida
+
+Title: Vice President of Finance and
+Investor Relations
+
+Date: October 27, 2025
+
+|
+
+|
+
+| 1. | Material Fact dated August 1, 2025 – Cemig wins CCEE auction for GSF credits for concession extensions |
+
+|
+
+|
+
+COMPANHIA ENERGÉTICA DE MINAS GERAIS - CEMIG
+
+PUBLICLY-HELD COMPANY
+
+CORPORATE TAXPAYER’S ID (CNPJ): 17.155.730/0001-64
+
+COMPANY REGISTRY (NIRE): 31300040127
+
+CEMIG GERAÇÃO E TRANSMISSÃO S.A.
+
+PUBLICLY-HELD COMPANY
+
+CORPORATE TAXPAYER’S ID (CNPJ): 06.981.176/0001-58
+
+Company Registry (NIRE): 31300020550
+
+MATERIAL FACT
+
+Cemig wins CCEE auction for GSF credits for concession
+extensions
+
+COMPANHIA ENERGÉTICA DE MINAS GERAIS –
+CEMIG (“CEMIG” or “Company”), a publicly-held company with shares traded on the stock exchanges of São
+Paulo and New York, and CEMIG GERAÇÃO E TRANSMISSÃO S.A. (“ Cemig GT ”), a publicly-held
+company and the wholly-owned subsidiary of CEMIG, hereby inform its shareholders and the market in general, under CVM Resolution 44/2021,
+that Cemig GT, Cemig PCH S.A., and the Queimado Consortium have won the auction of Generation Scaling Factor (“GSF”) credits
+for concession extensions, held today by the Electric Energy Trading Chamber (“CCEE”).
+
+As a result, the concessions for the Queimado (7
+years), Pai Joaquim (7 years), and Irapé (3 years) hydroelectric power plants will be extended, with a total disbursement of approximately
+R$200 million.
+
+CEMIG reaffirms its commitment to keeping shareholders
+and the market in general informed about this matter, following the rules issued by the CVM and the legislation in force.
+
+Belo Horizonte, August 01, 2025.
+
+Andrea Marques de Almeida
+
+Vice President of Finance and Investor Relations
+
+|
+
+|
+
+| 2. | Material Fact dated August 1, 2025 – Official Letter Received from the Controlling Shareholder |
+
+|
+
+|
+
+COMPANHIA ENERGÉTICA DE MINAS GERAIS - CEMIG
+
+PUBLICLY-HELD COMPANY
+
+CORPORATE TAXPAYER’S ID (CNPJ): 17.155.730/0001-64
+
+Company Registry (NIRE): 31300040127
+
+MATERIAL FACT
+
+Official Letter Received from the Controlling Shareholder
+
+COMPANHIA ENERGÉTICA DE MINAS GERAIS –
+CEMIG (“CEMIG” or “Company”) , a publicly-held company with shares traded on the stock exchanges of São
+Paulo and New York, under CVM Resolution 4/2021, hereby informs its shareholders and the market in general that it has received Official
+Letter SEDE/ASMERC 49/2025 from the State of Minas Gerais, the Company's controlling shareholder, informing that it authorized the Brazilian
+Development Bank (BNDES) to initiate a Request for Information (RFI), a preliminary and non-binding stage aimed at identifying specialized
+technical consultants in the market interested in supporting the preparation of CEMIG’s economic and financial valuation report,
+for the purpose of debt amortization under the Full Debt Repayment Program for States (Propag).
+
+CEMIG reaffirms its commitment to keeping shareholders
+and the market in general informed about this matter, following the rules issued by the CVM and the legislation in force.
+
+Belo Horizonte, August 01, 2025.
+
+Andrea Marques de Almeida
+
+Vice President of Finance and Investor Relations
+
+|
+
+|
+
+| 3. | Earnings Release – 2Q2025 |
+
+|
+
+|
+
+|
+
+|
+
+|
+
+|
+
+|
+
+|
+
+CONTENTS
+
+Ebitda
+and NET profit by company, 2Q25 |
+5 |
+
+Profit and loss
+accounts |
+6 |
+
+RESULTS BY BUSINESS
+SEGMENT |
+7 |
+
+CONSOLIDATED
+ELECTRICITY MARKET |
+8 |
+
+PERFORMANCE BY
+COMPANY |
+9 |
+
+Cemig D |
+9 |
+
+Billed electricity market |
+9 |
+
+Sources and uses of electricity – MWh |
+10 |
+
+Client base |
+10 |
+
+Performance by sector |
+10 |
+
+Direct Action of Unconstitutionality No. 7,324 – PIS/Cofins Credits on ICMS |
+11 |
+
+The 2025 Annual Tariff Adjustment |
+11 |
+
+Five-year Tariff Reviews compared |
+12 |
+
+Opex and Ebitda: realized x Regulatory |
+12 |
+
+Indicators of supply quality – DEC and FEC |
+13 |
+
+Combating default |
+13 |
+
+Energy losses |
+14 |
+
+Cemig GT and
+Cemig Holding Company |
+15 |
+
+Electricity market |
+15 |
+
+Sources and uses of electricity |
+15 |
+
+Gasmig |
+16 |
+
+Consolidated
+results |
+17 |
+
+Net profit |
+17 |
+
+Operational revenue |
+18 |
+
+Operational costs and expenses |
+20 |
+
+Finance income and expenses |
+23 |
+
+Gain (loss) in non-consolidated investees (Equity income) |
+24 |
+
+CONSOLIDATED
+EBITDA (IFRS, and Adjusted) |
+25 |
+
+Ebitda of Cemig D |
+26 |
+
+Cemig GT – Ebitda |
+27 |
+
+Investments |
+28 |
+
+Debt |
+29 |
+
+Cemig’s
+long-term ratings |
+31 |
+
+ESG – Report
+on performance |
+32 |
+
+Performance of
+Cemig’s shares |
+35 |
+
+Plant |
+36 |
+
+RAP: July 2025–June
+2026 cycle |
+37 |
+
+Transmission
+Regulatory Revenue and EBITDA |
+38 |
+
+Complementary
+information |
+39 |
+
+Cemig D |
+39 |
+
+Cemig GT |
+41 |
+
+4 |
+
+|
+
+Ebitda and NET profit
+by company, 2Q25
+
+|
+2Q25 |
+2Q24 |
+Change % |
+2Q25 |
+2Q24 |
+Change % |
+|
+|
+
+(R$ mn) |
+EBITDA (IFRS) |
+Adjusted Ebitda |
+|
+|
+
+|
+|
+
+Cemig D |
+1,210 |
+1,329 |
+-9.0% |
+1,214 |
+872 |
+39.2% |
+|
+|
+
+Cemig GT |
+404 |
+641 |
+-37.0% |
+602 |
+639 |
+-5.8% |
+|
+|
+
+Gasmig |
+243 |
+237 |
+2.5% |
+243 |
+237 |
+2.5% |
+|
+|
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+Consolidated |
+2,009 |
+2,371 |
+-15.3% |
+2,212 |
+1,916 |
+15.4% |
+|
+|
+
+New replacement value (VNR) |
+27 |
+22 |
+22.7% |
+27 |
+22 |
+22.7% |
+|
+|
+
+Equity income (Gain (loss) in non-consolidated investees) |
+77 |
+39 |
+97.4% |
+77 |
+39 |
+97.4% |
+|
+|
+
+Regulatory difference, transmission, T |
+297 |
+56 |
+430.4% |
+99 |
+78 |
+26.9% |
+|
+|
+
+Consolidated, less VNR and equity income, plus difference IFRS/Regulatory Transmission Ebitda |
+2,202 |
+2,366 |
+-6.9% |
+2,207 |
+1,933 |
+14.2% |
+|
+|
+
+|
+2Q25 |
+2Q24 |
+Change % |
+2Q25 |
+2Q24 |
+Change % |
+|
+|
+
+(R$ mn) |
+Profit (IFRS) |
+Adjusted profit |
+|
+|
+
+|
+|
+
+Cemig D |
+551 |
+1,060 |
+-48.0% |
+554 |
+434 |
+27.6% |
+|
+|
+
+Cemig GT |
+342 |
+328 |
+4.3% |
+472 |
+409 |
+15.4% |
+|
+|
+
+Gasmig |
+151 |
+138 |
+9.4% |
+151 |
+138 |
+9.4% |
+|
+|
+
+Consolidated |
+1,188 |
+1,689 |
+-29.7% |
+1,322 |
+1,134 |
+16.6% |
+|
+|
+
+5 |
+
+|
+
+Profit
+and loss accounts
+
+|
+2Q25 |
+2Q24 |
+Change, % |
+
+PROFIT AND LOSS ACCOUNTS (R$ ’000) |
+|
+|
+|
+
+NET REVENUE |
+10,786,295 |
+9,435,991 |
+14.3% |
+
+|
+|
+|
+|
+
+COSTS |
+|
+|
+|
+
+Cost of electricity and gas |
+-5,809,115 |
+-5,019,191 |
+15.7% |
+
+Infrastructure construction costs |
+-1,463,371 |
+-1,226,933 |
+19.3% |
+
+Cost of operation |
+-1,363,676 |
+-686,180 |
+98.7% |
+
+Total costs |
+-8,636,162 |
+-6,932,304 |
+24.6% |
+
+|
+|
+|
+|
+
+GROSS PROFIT |
+2,150,133 |
+2,503,687 |
+-14.1% |
+
+|
+|
+|
+|
+
+EXPENSES |
+|
+|
+|
+
+Client default provision |
+-3,098 |
+-77,300 |
+-96.0% |
+
+General and administrative expenses |
+-177,602 |
+-205,700 |
+-13.7% |
+
+Other expenses |
+-405,801 |
+-226,594 |
+79.1% |
+
+Total expenses |
+-586,501 |
+-509,594 |
+15.1% |
+
+|
+|
+|
+|
+
+Share of gain (loss) in non-consolidated investees |
+77,418 |
+38,711 |
+100.0% |
+
+Profit before Finance income (expenses) and Taxes on profit |
+1,641,050 |
+2,032,804 |
+-19.3% |
+
+|
+|
+|
+|
+
+Finance income |
+302,444 |
+725,474 |
+-58.3% |
+
+Finance expenses |
+-565,404 |
+-607,355 |
+-6.9% |
+
+Net finance income (expense) |
+-262,960 |
+118,119 |
+-322.6% |
+
+|
+|
+|
+|
+
+Profit before income tax and Social Contribution tax |
+1,378,090 |
+2,150,923 |
+-35.9% |
+
+|
+|
+|
+|
+
+Income tax and Social Contribution tax |
+-249,538 |
+-149,309 |
+67.1% |
+
+Deferred income tax and Social Contribution tax |
+59,729 |
+-313,028 |
+-119.1% |
+
+Total income tax and Social Contribution tax, incl. deferred |
+-189,809 |
+-462,337 |
+-58.9% |
+
+|
+|
+|
+|
+
+NET PROFIT FOR THE PERIOD |
+1,188,281 |
+1,688,586 |
+-29.6% |
+
+|
+|
+|
+|
+
+6 |
+
+|
+
+Results
+by business segment
+
+INFORMATION BY SEGMENT ON JUNE 30, 2025 |
+
+|
+Electricity |
+
+Gas
+
+|
+
+Equity interests
+
+|
+
+Total
+
+|
+
+Eliminations
+
+|
+
+Consolidated
+
+|
+
+|
+Generation |
+Transmission |
+Trading |
+Distribution |
+
+NET REVENUE |
+813,582 |
+383,793 |
+1,976,069 |
+7,269,938 |
+865,321 |
+32,704 |
+11,341,407 |
+-555,112 |
+10,786,295 |
+
+Inter-segment |
+401,582 |
+143,006 |
+0 |
+10,524 |
+- |
+- |
+555,112 |
+-555,112 |
+- |
+
+External |
+412,000 |
+240,787 |
+1,976,069 |
+7,259,414 |
+865,321 |
+32,704 |
+10,786,295 |
+- |
+10,786,295 |
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+COST OF ELECTRICITY AND GAS |
+-147,322 |
+-115 |
+-1,950,946 |
+-3,772,388 |
+-485,097 |
+604 |
+-6,355,264 |
+546,149 |
+-5,809,115 |
+
+Inter-segment |
+-9,352 |
+-40 |
+-378,529 |
+-157,538 |
+- |
+-690 |
+-546,149 |
+546,149 |
+- |
+
+External |
+-137,970 |
+-75 |
+-1,572,417 |
+-3,614,850 |
+-485,097 |
+1,294 |
+-5,809,115 |
+- |
+-5,809,115 |
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+COSTS AND EXPENSES |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+People |
+-38,924 |
+-41,301 |
+-10,963 |
+-264,524 |
+-18,197 |
+-14,480 |
+-388,389 |
+- |
+-388,389 |
+
+Employees’ and managers’ profit shares |
+-4,253 |
+-4,483 |
+-2,949 |
+-26,214 |
+-2,108 |
+-6,017 |
+-46,024 |
+- |
+-46,024 |
+
+Post-employment liabilities |
+-11,460 |
+-7,082 |
+-1,623 |
+-70,953 |
+- |
+-18,206 |
+-109,324 |
+- |
+-109,324 |
+
+Materials, Outsourced services and Other expenses, net |
+-59,877 |
+-221,747 |
+-8,007 |
+-575,743 |
+-26,744 |
+-8,042 |
+-900,160 |
+8,963 |
+-891,197 |
+
+Inter-segment |
+-7,175 |
+-713 |
+- |
+-1,023 |
+-50 |
+-2 |
+-8,963 |
+8,963 |
+- |
+
+External |
+-52,702 |
+-221,034 |
+-8,007 |
+-574,720 |
+-26,694 |
+-8,040 |
+-891,197 |
+- |
+-891,197 |
+
+Depreciation and amortization |
+-78,044 |
+-4,652 |
+-3 |
+-254,372 |
+-25,438 |
+-5,884 |
+-368,393 |
+- |
+-368,393 |
+
+Operating provisions / adjustments |
+-7,811 |
+-1,816 |
+-3,179 |
+-118,655 |
+3,058 |
+-18,447 |
+-146,850 |
+- |
+-146,850 |
+
+Infrastructure construction costs |
+- |
+-138,924 |
+- |
+-1,231,704 |
+-92,743 |
+- |
+-1,463,371 |
+- |
+-1,463,371 |
+
+Total cost of operation |
+-200,369 |
+-420,005 |
+-26,724 |
+-2,542,165 |
+-162,172 |
+-71,076 |
+-3,422,511 |
+8,963 |
+-3,413,548 |
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+COSTS AND EXPENSES |
+-347,691 |
+-420,120 |
+-1,977,670 |
+-6,314,553 |
+-647,269 |
+-70,472 |
+-9,777,775 |
+555,112 |
+-9,222,663 |
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+Share of gain (loss) in non-consolidated investees |
+- |
+- |
+- |
+- |
+- |
+77,418 |
+77,418 |
+- |
+77,418 |
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+PROFIT BEFORE FINANCE INCOME (EXPENSES) AND TAXES ON PROFIT |
+465,891 |
+-36,327 |
+-1,601 |
+955,385 |
+218,052 |
+39,650 |
+1,641,050 |
+- |
+1,641,050 |
+
+Net finance income (expenses) |
+15,614 |
+-3,207 |
+4,121 |
+-257,444 |
+4,533 |
+-26,577 |
+-262,960 |
+- |
+-262,960 |
+
+PROFIT (LOSS) BEFORE TAXES ON PROFIT |
+481,505 |
+-39,534 |
+2,520 |
+697,941 |
+222,585 |
+13,073 |
+1,378,090 |
+- |
+1,378,090 |
+
+Income tax and Social Contribution tax |
+-31,781 |
+36,693 |
+3,961 |
+-147,391 |
+-71,765 |
+20,474 |
+-189,809 |
+- |
+-189,809 |
+
+NET PROFIT FOR THE PERIOD |
+449,724 |
+-2,841 |
+6,481 |
+550,550 |
+150,820 |
+33,547 |
+1,188,281 |
+- |
+1,188,281 |
+
+7 |
+
+|
+
+CONSOLIDATED
+ELECTRICITY MARKET
+
+Cemig’s consolidated
+electricity market
+
+In June 2025 the Cemig Group
+invoiced approximately 9.51 million clients – an increase of approximately 181,000 clients, or 1.9%, in its consumer base since
+the end of June 2024. Of this total number of consumers, 9,504,790 are final consumers, and/or represent Cemig’s own consumption;
+and 2,450 are other agents in the Brazilian electricity sector.
+
+This chart shows the percentages
+of the Cemig Group’s sales to final consumers:
+
+8 |
+
+|
+
+PERFORMANCE
+BY COMPANY
+
+Cemig
+D
+
+Billed electricity market
+
+|
+2Q25 |
+2Q24 |
+Change % |
+
+Captive clients + Transmission for clients
+
+(MWh*)
+|
+|
+|
+|
+
+Residential |
+3,170,399 |
+3,150,675 |
+0.6% |
+
+Industrial |
+5,483,216 |
+5,771,074 |
+–5.0% |
+
+Captive market |
+179,077 |
+278,451 |
+–35.7% |
+
+Transport |
+5,304,139 |
+5,492,623 |
+–3.4% |
+
+Commercial, services and Others |
+1,521,025 |
+1,622,287 |
+–6.2% |
+
+Captive market |
+855,645 |
+1,037,239 |
+–17.5% |
+
+Transport |
+665,380 |
+585,048 |
+13.7% |
+
+Rural |
+778,749 |
+767,562 |
+1.5% |
+
+Captive market |
+745,410 |
+752,773 |
+–1.0% |
+
+Transport |
+33,339 |
+14,789 |
+125.4% |
+
+Public services |
+792,114 |
+831,774 |
+–4.8% |
+
+Captive market |
+585,326 |
+697,111 |
+–16.0% |
+
+Transport |
+206,788 |
+134,663 |
+53.6% |
+
+Concession holders |
+73,395 |
+74,376 |
+–1.3% |
+
+Transport |
+73,395 |
+74,376 |
+–1.3% |
+
+Own consumption |
+6,992 |
+7,710 |
+–9.3% |
+
+Total |
+11,825,890 |
+12,225,458 |
+–3.3% |
+
+Total, captive market |
+5,542,849 |
+5,923,959 |
+–6.4% |
+
+Total, energy transported for Free Clients |
+6,283,041 |
+6,301,499 |
+–0.3% |
+
+* Excludes
+supply offset in Distributed Generation.
+
+In
+2Q25 electricity billed to captive clients, plus transport of energy for Free Clients and distributors, excluding supply offset in Distributed
+Generation, totaled 11,826 GWh – or 3.3% less than in 2Q24. This was mainly the result of lower consumption by industrial clients
+(–287.9 GWh or –5.0%), commercial clients (–101.3 GWh or –6.2%) and public services (–33.7 GWh or –4.8%).
+In turn this mainly reflected migration of clients to DG, and to the transmission network. At the same time, consumption by residential
+clients was +19.7 GWh (+0.6%) higher, and rural consumption was +11.2 GWh (+1.5%) higher.
+
+The
+reduction of 3.3% in total energy distributed comprised a 6.4% decrease (–381.1 GWh) in consumption by the captive market, and a
+0.3% reduction (–18.5 GWh) in use of the network by Free Clients. Taking offset DG energy into account, total distributed energy
+was 1.0% lower than in 2Q24.
+
+9 |
+
+|
+
+Sources and uses of electricity –
+MWh
+
+|
+2Q25 |
+2Q24 |
+Change % |
+
+Metered market – MWh |
+|
+|
+|
+
+Transported for distributors |
+73,395 |
+65,408 |
+12.2% |
+
+Transported for Free Clients |
+6,207,535 |
+6,263,100 |
+–0.9% |
+
+Own load + Distributed generation |
+8,792,162 |
+8,891,020 |
+–1.1% |
+
+Consumption by captive market |
+5,550,333 |
+5,814,060 |
+–4.5% |
+
+Distributed Generation market |
+1,505,218 |
+1,487,050 |
+1.2% |
+
+Losses in distribution network |
+1,736,611 |
+1,589,910 |
+9.2% |
+
+Total volume carried |
+15,073,092 |
+15,219,528 |
+–1.0% |
+
+Client base
+
+In June 2025 Cemig billed
+9.49 million consumers, 1.9% more than in June 2024. Of this total, 5,543 were Free Clients using the distribution network of Cemig D.
+
+|
+Jun. 2025 |
+Jun. 2024 |
+Change % |
+
+NUMBER OF CAPTIVE CLIENTS |
+|
+|
+|
+
+Residential |
+8,072,997 |
+7,872,637 |
+2.5% |
+
+Industrial |
+23,754 |
+27,406 |
+–13.3% |
+
+Commercial, services and Others |
+900,319 |
+908,389 |
+–0.9% |
+
+Rural |
+388,636 |
+405,987 |
+–4.3% |
+
+Public authorities |
+74,503 |
+71,375 |
+4.4% |
+
+Public lighting |
+7,354 |
+6,896 |
+6.6% |
+
+Public services |
+13,268 |
+13,706 |
+–3.2% |
+
+Own consumption |
+830 |
+763 |
+8.8% |
+
+Total, captive clients |
+9,481,661 |
+9,307,159 |
+1.9% |
+
+NUMBER OF FREE CLIENTS |
+|
+|
+|
+
+Industrial |
+2,290 |
+1,390 |
+64.7% |
+
+Commercial |
+2,914 |
+1,950 |
+49.4% |
+
+Rural |
+134 |
+34 |
+294.1% |
+
+Public authorities |
+51 |
+4 |
+1175.0% |
+
+Public services |
+146 |
+37 |
+294.6% |
+
+Concession holders |
+8 |
+7 |
+14.3% |
+
+Total, Free Clients |
+5,543 |
+3,422 |
+62.0% |
+
+Total, Captive market + Free Clients |
+9,487,204 |
+9,310,581 |
+1.9% |
+
+Performance by sector
+
+Industrial :
+Energy distributed to industrial clients was 5.0% lower than in 2Q24, and was 46.4% of Cemig D’s total distribution. The greater
+part was energy transported for industrial Free Clients (44.9%), which was 3.4% lower in volume than in 2Q25. Within this total, energy
+billed to captive industrial clients was 1.5% of the total distributed, and 35.7% less by volume than in 2Q24 – mainly due to migration
+of clients to the Free Market.
+
+The reduction in consumption
+by industrial users reflects (i) migration of customers to the transmission network, and (ii) lower consumption, in particular
+by a few sectors: Ferro-alloys (down 9.3% YoY), Chemicals (down 19.2%) and Steel (down10.6%), while there was growth in consumption by
+Extractive Industries (+6.0%) and Foods and Beverages (+2.5%).
+
+10 |
+
+|
+
+Residential
+consumption was 26.8% of the total energy distributed by Cemig D in the quarter, and 0.6% higher in total
+volume than in 2Q24. Average monthly consumption per consumer, at 130.9 kWh/month, was 1.9% lower than in 2Q24. On the other hand, the
+total number of residential clients increased by 2.6% year-on-year (+200,400 new clients).
+
+Commerce
+and Services : Energy distributed to and for these consumers
+was 12.9% of the total distributed by Cemig D in 2Q25, and by volume 6.2% less than in 2Q24. The change has two components: a 17.5% reduction
+in the volume of energy billed to captive clients, and a 13.7% increase in the volume of energy transported for Free Clients. The lower
+figure for total consumption mainly reflects migration of clients to Distributed Generation.
+
+Rural :
+Consumption by rural clients was 6.6% of the total energy distributed and was 1.5% higher by volume
+than in 2Q24. This mainly reflected (i) higher consumption for irrigation, and (ii) a reduction of 0.8% in the number of consumer
+units in this category.
+
+Public services:
+consumed 6.7% of the energy distributed in 2Q25, and 4.8% less by volume than in 2Q24.
+
+Direct Action of Unconstitutionality No.
+7,324 – PIS/Cofins Credits on ICMS
+
+On August 14, 2025, the
+Federal Supreme Court (STF) ruled on Direct Action of Unconstitutionality No. 7324, which challenges the constitutionality of Law No.
+14,385/2022. This law addresses the reimbursement of taxes overpaid by electricity distribution companies to consumers. The Court confirmed
+the validity of the law, establishing that the excess amounts must be returned to consumers in the form of discounts on electricity bills.
+The Company is awaiting the publication of the ruling, at which point there will be sufficient elements to assess the potential accounting,
+financial, and operational impacts resulting from the decision.
+
+More details at the following
+link: (Note to the financial statements (9) – Recoverable Taxes, from the 2022 Financial statements).
+
+cemig-2022-12-31-r8frLRJW.pdf
+
+The 2025 Annual Tariff Adjustment
+
+The tariffs of Cemig
+D are adjusted in May each year; and every five years are subjected to a Periodic Tariff Review, also in May. The aim of the Annual
+Adjustment is to pass on changes in the costs defined as “non-manageable” in full, to the client, and provide inflation adjustment
+for the costs specified as “manageable” in the Tariff Review. Manageable costs are adjusted by the IPCA inflation index, less
+a factor known as the ‘X Factor’, designed to capture productivity, under a system using the price cap regulatory model.
+
+On May 20, 2025 Aneel ratified
+Cemig D’s annual Tariff Adjustment, to be effective from May 28, 2025 to May 27, 2026. This resulted in an average increase, for
+consumers, of 7.78%. The average effect for low-voltage consumers was an increase of 7.03%, and for residential consumers, an increase
+of 6.86%. The component percentage of the increase corresponding to manageable costs (referred to as ‘Portion B’) was 1.36%.
+The increase relating to non-manageable costs (‘Portion A’ – comprising purchase of energy, transmission, sector charges
+and non-recoverable revenues) was 6.12%. The increase in the financial components of the tariff contributed 0.30 percentage points. The
+item with the greatest impact on the tariff increase was the sector charges, which contributed an effect of 4.63%, reflecting an increase
+in the CDE (the Energy Development Account).
+
+Average effects of the Tariff Adjustment |
+
+High voltage – average |
+9.45% |
+
+Low voltage – average |
+7.03% |
+
+Average effect |
+7.78% |
+
+See more details at this link:
+
+https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/SEI_0111327_Nota_Tecnica_116_Cemig.pdf
+
+11 |
+
+|
+
+Five-year Tariff Reviews compared
+
+Comparison of the Tariff Reviews made in 2023
+and in the previous cycle (2018):
+
+Five-year Tariff Reviews |
+2018 |
+2023 |
+
+Gross Remuneration Base R$ million |
+20,490 |
+25,587 |
+
+Net Remuneration Base R$ million |
+8,906 |
+15,200 |
+
+Average depreciation rate |
+3.84% |
+3.95% |
+
+WACC (after taxes) |
+8.09% |
+7.43% |
+
+Remuneration of ‘Special Obligations’ R$ mn |
+149 |
+272 |
+
+CAIMI * R$ mn |
+333 |
+484 |
+
+QRR ** (Depreciation calculation) R$ mn |
+787 |
+1007 |
+
+* CAIMI: ( Cobertura Anual de
+Instalações Móveis e Imóveis ) – Annual support for facilities.
+
+** QRR: ‘Regulatory Reintegration
+Quota’ – Gross base x annual depreciation rate.
+
+See more details at this link:
+
+https://www2.aneel.gov.br/aplicacoes/tarifa/arquivo/NT%2012%202023%20RTP%20Cemig.pdf
+
+Opex and Ebitda: realized x Regulatory
+
+(R$ mn)
+
+Realized Opex and Ebitda were both better than
+regulatory levels in 1H25.
+
+|
+Regulatory
+Ebitda is calculated by reference to: (i) remuneration of capital; (ii) the QRR quota (Gross base x annual depreciation rate);
+and (iii) a percentage of the Annual Cost of Mobile Facilities and Real Estate, published in Aneel Technical Notes at the times of
+Tariff Reviews and Adjustments.
+|
+
+|
+|
+
+12 |
+
+|
+
+Indicators of supply quality – DEC
+and FEC
+
+In the 12 months to end-June
+2025 Cemig’s Outage Duration indicator (DEC) was 9.76 hours, higher than the regulatory limit of 9.48 hours. The Company’s
+Outage Frequency indicator (FEC), at 5.37 per year for the 12 months, remained within the regulatory parameter of 5.83 per year.
+
+Combating default
+
+The Company has maintained
+a high level of collection actions, which have helped keep the Receivables Recovery Index high – it was 98.99% in June 2025.
+
+New payment channels, and
+online negotiation, have helped to increase the proportion of client payments being made via digital channels (PIX instant payments, automatic
+debits, payments by card and app, etc.) – which were 67.5% of the total collected in 2Q25, or 0.44 percentage points higher than
+in 2Q24. A highlight is Brazil’s PIX instant payment system, the method most used by clients – which was used for 33.8 % of
+all client payments, providing savings of R$ 34.8 million in collection expenses since it was put in place in 2021.
+
+13 |
+
+|
+
+Energy losses
+
+Energy losses in the 12
+months to end-June 2025, at 11.43%, were within the regulatory target level of 11.48%. As from the date of the tariff adjustment (May
+28, 2025) Aneel Technical Note 53/2025 updated the method for calculation of non-technical losses to include not only billed amounts of
+energy but also the volume of Distributed Generation, thus widening the scope of the calculation of energy losses. This change led to
+an increase in tariff coverage for energy losses.
+
+Highlights of our combat
+of energy losses in 1H25 include: approximately 177,000 inspections; replacement of more than 173,000 obsolete meters; replacement of
+49,000 conventional meters by smart meters (bringing the total of installed smart meters to 419,000 since the project began in September
+2021); and regularization of 4,300 clandestine connections made by families living in ‘invaded’ and low-income areas, through
+our Energia Legal program, which uses ‘bulletproofed’ networks (bringing the total of connections regularized since
+the start of the project in February 2023 to 27,100). Planned for 2025 are: 340,000 inspections; replacement of 425,000 obsolete meters;
+and regularization of 54,000 families in low-income communities (using ‘ BT Zero’ and ‘ Bulletproofed Meter
+Panel ’ technologies).
+
+14 |
+
+|
+
+Cemig
+GT and Cemig Holding Company
+
+Electricity market
+
+The total volume of electricity
+sold in 2Q25 by Cemig GT and by the holding company ( ‘Cemig H’ ), excluding sales on the Wholesale Power Exchange
+(CCEE), was 17.6% higher than in 2Q24. Cemig GT billed 6,352 GWh (including quota sales) in 2Q25, 31.1% more than in 2Q24.
+
+The holding company reported
+sales of 4,891 GWh in 2Q25, 3.7% more than in 2Q24. The migration of purchase contracts from Cemig GT to the holding company began in
+3Q21, and has continued gradually since then. It is now around 61%.
+
+Of the total sold by the holding company
+and Cemig GT in 2Q25, sales in the ‘retail market’ in 2Q25 accounted for 343.4 GWh.
+
+|
+2Q25 |
+2Q24 |
+Change % |
+
+Cemig GT – MWh |
+
+Free Clients |
+3,625,816 |
+2,930,479 |
+23.7% |
+
+Industrial |
+2,441,227 |
+1,999,042 |
+22.1% |
+
+Commercial |
+1,152,685 |
+917,519 |
+25.6% |
+
+Rural |
+27,707 |
+12,000 |
+130.9% |
+
+Public authorities |
+4,197 |
+1,918 |
+118.8% |
+
+Free Market – Traders and Cooperatives |
+1,574,194 |
+774,876 |
+103.2% |
+
+Quota supply |
+565,513 |
+560,620 |
+0.9% |
+
+Regulated Market |
+554,118 |
+545,964 |
+1.5% |
+
+Regulated Market – Cemig D |
+32,580 |
+32,617 |
+–0.1% |
+
+Total, Cemig GT |
+6,352,221 |
+4,844,556 |
+31.1% |
+
+Cemig H – MWh |
+|
+|
+|
+
+Free Clients |
+2,481,986 |
+2,597,781 |
+–4.5% |
+
+Industrial |
+1,978,731 |
+2,090,040 |
+–5.3% |
+
+Commercial |
+476,561 |
+492,665 |
+–3.3% |
+
+Rural |
+26,694 |
+15,076 |
+77.1% |
+
+Free Market – Traders and Cooperatives |
+2,408,829 |
+2,116,554 |
+13.8% |
+
+Total Cemig H |
+4,890,815 |
+4,714,335 |
+3.7% |
+
+Cemig GT + H |
+11,243,037 |
+9,558,891 |
+17.6% |
+
+Sources and uses of electricity
+
+15 |
+
+|
+
+Gasmig
+
+Gasmig is the exclusive
+distributor of piped natural gas for the whole of the state of Minas Gerais. It supplies industrial, commercial and residential users,
+users of compressed natural gas and vehicle natural gas, and gas as fuel for thermoelectric generation plants. Its concession expires
+in January 2053. Cemig owns 99.57% of Gasmig.
+
+Gasmig’s last Tariff
+Review was completed in April 2022. Highlights:
+
+| § | The WACC adopted
+(real, after taxes) was reduced from 10.02% p.a. to 8.71% p.a. |
+
+| § | The Net Remuneration
+Base was increased significantly, to R$ 3.48 billion. |
+
+| § | The regulator
+recognized the cost of PMSO (Personnel, Materials, outsourced Services and Other expenses) in full. |
+
+Market (Volume in ’000 m 3 ) |
+2022 |
+2023 |
+2024 |
+1H24 |
+1H25 |
+Change, 1H24 –1H25 |
+
+Automotive |
+40,950 |
+31,907 |
+22,511 |
+11,518 |
+10,241 |
+–11.1% |
+
+Compressed vehicle natural gas |
+364 |
+541 |
+630 |
+263 |
+259 |
+–1.5% |
+
+Industrial |
+870,667 |
+830,943 |
+786,363 |
+390,394 |
+351,814 |
+–9.9% |
+
+Industrial compressed natural gas |
+13,616 |
+12,473 |
+10,275 |
+4,915 |
+4,897 |
+–0.4% |
+
+Residential |
+11,392 |
+11,912 |
+12,095 |
+5,749 |
+6,296 |
+9.5% |
+
+Co–generation |
+13,137 |
+12,075 |
+12,164 |
+6,983 |
+6,197 |
+–11.3% |
+
+Commercial |
+23,114 |
+21,964 |
+23,203 |
+11,085 |
+11,637 |
+5.0% |
+
+Subtotal – conventional gas |
+973,240 |
+921,815 |
+867,241 |
+430,907 |
+391,341 |
+–9.2% |
+
+Thermal plants |
+37,991 |
+– |
+– |
+– |
+– |
+– |
+
+Subtotal – gas sold – captive market |
+1,011,231 |
+921,815 |
+867,241 |
+430,907 |
+391,341 |
+–9.2% |
+
+Industrial – Free Market |
+87,133 |
+92,362 |
+97,302 |
+45,903 |
+99,966 |
+117.8% |
+
+Industrial – Free Market |
+– |
+– |
+10,421 |
+5,491 |
+4,730 |
+–13.9% |
+
+Thermal – Free Market |
+7,119 |
+19,050 |
+58,046 |
+11,304 |
+34,067 |
+201% |
+
+Total (captive market + Free Clients) |
+1,105,483 |
+1,033,227 |
+1,033,010 |
+493,605 |
+530,104 |
+7.4% |
+
+Ebitda (R$ ’000) |
+2Q25 |
+2Q24 |
+
+Profit (loss) for the period |
+150,821 |
+137,823 |
+
+Income tax and Social Contribution tax |
+73,468 |
+64,608 |
+
+Net finance income (expenses) |
+–4,533 |
+11,937 |
+
+Depreciation and amortization |
+23,734 |
+22,381 |
+
+Ebitda per CVM Resolution 156 |
+243,490 |
+236,749 |
+
+The volume of gas sold to
+captive clients in 1H25 was 9.2% (39,500 m³) lower than in 1H24, while the volume distributed to industrial Free Clients and for
+thermoelectric generation was 121.3% (76,100 m³) higher, resulting in total volume 7.4% higher. Considering 2Q25, total volume was
+up 11.8% YoY, comprising volume sold to captive clients 11.5% (25,500 m³) lower and volume distributed in the free market 202.3%
+(54,600 m³) higher.
+
+Gasmig’s Ebitda in
+2Q25 was 2.8% higher than in 2Q24, reflecting the higher volume of gas distributed to the free industrial customers.
+
+The total number of Gasmig’s
+clients increased by 6.2% from June 2024 to a total of 106,707 consumers in June 2025 – reflecting expansion of both the commercial
+and the residential client bases (total addition of 6,100 clients).
+
+16 |
+
+|
+
+Consolidated
+results
+
+Net profit
+
+For 2Q25, Cemig reports
+net profit of R$ 1,188.4 million in 2Q25, which compares to net profit of R$ 1,688.6 million in 2Q24. Adjusted net
+profit for 2Q25 is R$ 1,322.3 million, compared to R$ 1,134 million in 2Q24. The main factors in this result were:
+
+| § | A reduction in
+contractual assets, with effect of R$ 131.3 million in net profit, resulting from remeasurement of the ‘RBSE’ (national
+grid) component, due to the changes made by Aneel Ratifying Resolution 3,469/2025. |
+
+| § | Negative impact
+of R$ 46.0 million on profit in the Trading activity, due to the exposure of approximately 544 MW average
+to differences in spot prices between sub-markets, considering that a significant part of the energy purchased is in the Northeast, and
+a part of that energy is sold in the Southeast, Center-West and South markets. The average price difference in 2Q25 was more than R$ 60/MWh. |
+
+| § | There was a net
+gain of R$ 374.9 million from subsidies in Cemig D, arising from the difference between amounts foreseen and realized in the tariff
+cycle ended in May 2025, especially the discounts applied to incentive-bearing sources, and Distributed Generation . |
+
+| § | Cemig D
+distributed 3.3% less energy in 2Q25 than in 2Q24. |
+
+| § | Cemig D’s
+annual tariff adjustment, valid from May 28, produced an average increase of 7.78%; there was also a gain from the change in Aneel’s
+methodology for calculating non-technical energy losses (which increased the scope of the calculation to include distributed generation). |
+
+| § | The effective
+corporate income tax rate was 13.8% in 2Q25, lower than in 2Q24 (21.5%). |
+
+| § | Equity income
+(share of gain/loss in non-consolidated investees) in 2Q25 was R$ 38.7 million higher than in 2Q24, reflecting a strong result in
+Taesa . |
+
+Effects in 2Q24
+
+| § | Reversal of tax
+provisions – referring to a judgment on Social Security contributions on profit sharing payments – added R$ 385.7 million
+to net profit. |
+
+| § | Elimination of
+amounts to be repaid to consumers in 2Q24, with counterpart in finance income: effect of R$ 271 million on net profit |
+
+| § | Posting of a
+civil liability provision of R$ 52.6 million, related to power sales transactions. |
+
+| § | Success in legal
+action relating to the PAT (Workers’ Support Fund): R$ 50.2 million posted in Finance income; income tax provision reduced
+by R$ 31 million |
+
+| § | R$ 95.3
+million negative item in net profit from effect of variation in the US dollar exchange rate on debt in US dollars (net of hedge). |
+
+More details of these variations
+are given below.
+
+17 |
+
+|
+
+Operational revenue
+
+|
+2Q25 |
+2Q24 |
+Change % |
+
+R$ ’000 |
+|
+|
+|
+
+Revenue from supply of electricity |
+8,686,379 |
+8,144,077 |
+6.7% |
+
+Revenue from use of distribution systems (TUSD charge) |
+1,414,496 |
+1,251,554 |
+13.0% |
+
+CVA and Other financial components in tariff adjustments |
+70,394 |
+–56,556 |
+–224.5% |
+
+Reimbursement to consumers of PIS, Pasep and Cofins tax credits |
+– |
+190,186 |
+– |
+
+Transmission operation and maintenance revenue |
+114,197 |
+79,716 |
+43.3% |
+
+Transmission construction revenue |
+179,130 |
+104,891 |
+70.8% |
+
+Financial remuneration of transmission contractual assets |
+30,416 |
+134,430 |
+–77.4% |
+
+Generation: capital reimbursement |
+31,201 |
+20,596 |
+51.5% |
+
+Distribution construction revenue |
+1,324,446 |
+1,154,213 |
+14.7% |
+
+Adjustment to expectation of cash flow from indemnifiable financial assets of the distribution concession |
+26,618 |
+22,258 |
+19.6% |
+
+Gain on financial updating of Concession Grant Fee |
+118,859 |
+107,011 |
+11.1% |
+
+Settlements on CCEE |
+39,585 |
+14,380 |
+175.3% |
+
+Retail supply of gas |
+965,491 |
+972,424 |
+–0.7% |
+
+Fine for continuity indicator shortfall |
+–39,949 |
+–37,084 |
+7.7% |
+
+Other revenues |
+1,315,539 |
+761,856 |
+72.7% |
+
+Taxes and charges reported as deductions from revenue |
+–3,490,507 |
+–3,427,961 |
+1.8% |
+
+Net revenue |
+10,786,295 |
+9,435,991 |
+14.3% |
+
+Revenue from supply of electricity
+
+|
+2Q25 |
+2Q24 |
+Change, % |
+
+|
+MWh |
+R$ ’000 |
+Average price billed – R$/MWh (1) |
+MWh |
+R$ ’000 |
+Average price billed – R$/MWh (1) |
+MWh |
+R$ ’000 |
+
+Residential |
+3,667,850 |
+3,374,148 |
+919.93 |
+3,552,969 |
+3,066,719 |
+863.14 |
+3.2% |
+10.0% |
+
+Industrial |
+4,676,668 |
+1,278,269 |
+273.33 |
+4,440,313 |
+1,326,674 |
+298.78 |
+5.3% |
+–3.6% |
+
+Commercial, services and others |
+3,141,492 |
+1,650,182 |
+525.29 |
+3,009,442 |
+1,609,719 |
+534.89 |
+4.4% |
+2.5% |
+
+Rural |
+984,250 |
+643,413 |
+653.71 |
+927,534 |
+599,558 |
+646.4 |
+6.1% |
+7.3% |
+
+Public authorities |
+384,704 |
+229,246 |
+595.9 |
+270,497 |
+232,496 |
+859.51 |
+42.2% |
+–1.4% |
+
+Public lighting |
+235,650 |
+140,046 |
+594.3 |
+244,326 |
+131,933 |
+539.99 |
+–3.6% |
+6.1% |
+
+Public services |
+58,262 |
+146,260 |
+2510.38 |
+235,023 |
+174,633 |
+743.05 |
+–75.2% |
+–16.2% |
+
+Subtotal |
+13,148,876 |
+7,461,564 |
+567.47 |
+12,680,104 |
+7,141,732 |
+563.22 |
+3.7% |
+4.5% |
+
+Own consumption |
+6,992 |
+– |
+– |
+7,710 |
+– |
+– |
+–9.3% |
+– |
+
+Retail supply not yet invoiced, net |
+– |
+77,702 |
+– |
+– |
+68,410 |
+– |
+– |
+– |
+
+|
+13,155,868 |
+7,539,266 |
+567.47 |
+12,687,814 |
+7,210,142 |
+563.22 |
+3.7% |
+4.6% |
+
+Wholesale supply to other concession holders |
+5,042,543 |
+1,162,502 |
+230.54 |
+3,952,637 |
+966,330 |
+244.48 |
+27.6% |
+20.3% |
+
+Wholesale supply not yet invoiced, net |
+– |
+–15,389 |
+– |
+– |
+–32,395 |
+– |
+– |
+–52.5% |
+
+Total |
+18,198,411 |
+8,686,379 |
+474.07 |
+16,640,451 |
+8,144,077 |
+487.48 |
+9.4% |
+6.7% |
+
+| (1) | (Calculation of average price
+does not include revenue from supply not yet billed.) |
+
+| (2) | Includes Regulated Market Electricity
+Sale Contracts (CCEARs) and ‘bilateral’ contracts with other agents. |
+
+18 |
+
+|
+
+* Includes offset Distributed
+Generation supply.
+
+Energy sold to final consumers
+
+Gross revenue from energy
+sold to final consumers in 2Q25 was R$ 7,539.3 million, a 4.6% year-on-year increase from R$ 7,210.1 million in 2Q24, mainly
+reflecting volume of energy sold 3.7% higher.
+
+Wholesale supply
+
+Revenue from wholesale supply
+in 2Q25 was R$ 1,147.1 million, an increase of 22.8% from R$ 933.9 million in 2Q24. This reflects volume of energy billed 27.6% higher,
+especially to Traders.
+
+Transmission
+
+|
+2Q25 |
+2Q24 |
+Change % |
+
+TRANSMISSION REVENUE (R$ ’000) |
+|
+|
+|
+
+Operation and maintenance |
+114,197 |
+79,716 |
+43.3% |
+
+Infrastructure construction, updating and enhancement |
+179,130 |
+104,891 |
+70.8% |
+
+Financial remuneration of transmission contractual assets |
+30,416 |
+134,430 |
+–77.4% |
+
+ Total |
+323,743 |
+319,037 |
+1.5% |
+
+Transmission revenue was
+R$ 4.7 million higher than in 2Q24, the increase mainly comprising construction revenue, due to the higher volume invested in reinforcement
+and improvement works.
+
+Gas
+
+Gross revenue from supply
+of gas in 2Q25 totaled R$ 965.5 million, compared to R$ 972.4 million in 2Q24. The difference is mainly in a lower volume of
+gas sold to industrial clients.
+
+19 |
+
+|
+
+Revenue from Use of Distribution Systems –
+The TUSD charge
+
+|
+2Q25 |
+2Q24 |
+Change % |
+
+TUSD (R$ ’000) |
+
+Use of the Electricity Distribution System |
+1,414,496 |
+1,251,554 |
+13.0% |
+
+In 2Q25 revenue from the
+TUSD – charged to Free Consumers for distribution of their energy – was R$ 162.9 million higher than in 2Q24. This reflects
+Cemig D’s annual tariff adjustments in May 2024 and 2025, with full effect in the quarter and from May 28, 2025, respectively.
+
+|
+2Q25 |
+2Q24 |
+Change % |
+
+POWER TRANSPORTED – MWh |
+
+Industrial |
+5,304,139 |
+5,492,623 |
+–3.4% |
+
+Commercial |
+665,380 |
+585,048 |
+13.7% |
+
+Rural |
+33,339 |
+14,789 |
+125.4% |
+
+Public services |
+206,788 |
+134,663 |
+53.6% |
+
+Concession holders |
+73,395 |
+74,376 |
+–1.3% |
+
+Total energy transported |
+6,283,041 |
+6,301,499 |
+–0.3% |
+
+Operational costs and expenses
+
+|
+2Q25 |
+2Q24 |
+Change % |
+
+CONSOLIDATED (R$ ’000) |
+|
+|
+|
+
+Electricity bought for resale |
+4,547,303 |
+3,693,227 |
+23.1% |
+
+Charges for use of national grid |
+776,715 |
+817,136 |
+–4.9% |
+
+Gas purchased for resale |
+485,097 |
+508,828 |
+–4.7% |
+
+Construction cost |
+1,463,371 |
+1,226,933 |
+19.3% |
+
+Personnel (reversals) |
+388,389 |
+416,784 |
+–6.8% |
+
+Employees’ and managers’ profit shares |
+46,024 |
+43,187 |
+6.6% |
+
+Post-employment obligations (reversals) |
+109,324 |
+98,391 |
+11.1% |
+
+Materials |
+26,654 |
+33,591 |
+–20.7% |
+
+Outsourced services |
+527,007 |
+507,706 |
+3.8% |
+
+Depreciation and amortization |
+368,393 |
+337,779 |
+9.1% |
+
+Provisions (reversals) |
+113,626 |
+–454,184 |
+– |
+
+Impairment |
+– |
+4,438 |
+– |
+
+Provisions for client default |
+3,098 |
+77,300 |
+–96.0% |
+
+Provision for loss on other credits |
+30,126 |
+24,592 |
+22.5% |
+
+RBSE (national grid) remeasurement |
+198,895 |
+– |
+– |
+
+Other costs and expenses |
+138,641 |
+106,190 |
+– |
+
+Total |
+9,222,663 |
+7,441,898 |
+23.9% |
+
+Operating costs and expenses
+in 2Q25 totaled R$ 9.22 billion, an increase of R$ 1.78 billion compared to 2Q24. The main factors in the higher total were:
+(i) Cost of energy bought for resale was R$ 854.1 million higher than in 2Q24; (ii) construction cost was R$ 236.4 million
+higher; (ii) the effect of remeasurement of reimbursements of value for assets in the national grid (‘RBE assets’) added R$ 198.9
+million; and there were reversals of tax provisions (totaling R$ 584.3 million) reducing expenses in 2Q24. See more details on costs
+and expenses in the following pages.
+
+20 |
+
+|
+
+Electricity purchased for resale
+
+|
+2Q25 |
+2Q24 |
+Change % |
+
+CONSOLIDATED (R$ ’000) |
+|
+|
+|
+
+Electricity acquired in Free Market |
+1,656,838 |
+1,269,988 |
+30.5% |
+
+Electricity acquired in Regulated Market auctions |
+1,046,488 |
+1,035,152 |
+1.1% |
+
+Distributed generation |
+846,075 |
+697,974 |
+21.2% |
+
+Spot market |
+489,394 |
+132,881 |
+268.3% |
+
+Supply from Itaipu Binacional |
+322,822 |
+304,286 |
+6.1% |
+
+Physical guarantee quota contracts |
+200,845 |
+214,415 |
+–6.3% |
+
+Individual (‘bilateral’) contracts |
+132,433 |
+122,958 |
+7.7% |
+
+Proinfa |
+134,838 |
+116,081 |
+16.2% |
+
+Quotas for Angra I and II nuclear plants |
+83,446 |
+94,393 |
+–11.6% |
+
+Credits of PIS, Pasep and Cofins taxes |
+–365,876 |
+–294,901 |
+24.1% |
+
+|
+4,547,303 |
+3,693,227 |
+23.1% |
+
+The consolidated expense
+on electricity bought for resale in 2Q25 was R$ 4.57 billion, an increase of +23.1% (R$ 854.1 million) from 2Q24 This mainly
+reflects several factors:
+
+| § | Costs of energy
+acquired in the Free Market (the largest item in energy costs), at R$ 1,656.8 million, were R$ 386.8 million (+30.5%) higher
+than in 2Q24, due to needs for higher purchases to meet the higher volume sold by the Trading activity, and to cover contractual agreements. |
+
+| § | The cost of energy
+acquired in the spot market was R$ 356.5 million, or 268.3%, higher than in 2Q24. This increase was mainly caused by the increase
+in the spot price (PLD) in the Southeast/Center-West submarket, which was not compensated or offset by spot prices in the Northeast and
+North submarkets, with an average difference between submarkets of more than R$ 60 per MW. The Company buys energy in the Northeast
+and North and its sales are mostly concentrated in the Southeast and Center-West, generating an exposure to the difference between spot
+prices between these sub-markets – with negative effect on profit of the Trading activity. In distribution, the negative effect
+of this exposure is mitigated by the CVA (‘Account Compensating for Variations in ‘Portion A’ items’) –
+which provides compensation in the next Annual Tariff Adjustment. In addition, the lower GSF in the quarter (0.95 in 2Q25 and 0.99 in
+2Q24) caused a higher need for purchase of energy. |
+
+| § | The cost of distributed
+generation was R$ 148.1 million (+21.2%) higher, reflecting an increase in the tariff for buying DG, and a 20.8% increase in the
+amount of energy injected into the system – totaling 1,797 GWh in 2Q25 – in turn caused by the rapid expansion of the number
+of DG facilities connected (they expanded from 273,000 in June 2024 to 336,000 in June 2025). |
+
+Note that for Cemig D, purchased
+energy is a non-manageable cost: the difference between the amounts used as a reference for calculation of tariffs and the costs actually
+incurred is compensated for in the next tariff adjustment.
+
+21 |
+
+|
+
+|
+2Q25 |
+2Q24 |
+Change % |
+
+Cemig D (R$ ’000) |
+|
+|
+|
+
+Supply acquired in auctions on the Regulated Market |
+1,057,434 |
+1,045,713 |
+1.1% |
+
+Distributed generation |
+846,075 |
+697,973 |
+21.2% |
+
+Spot supply – (CCEE power exchange) |
+333,854 |
+121,879 |
+173.9% |
+
+Supply from Itaipu Binacional |
+322,822 |
+304,286 |
+6.1% |
+
+Physical guarantee quota contracts |
+205,235 |
+218,530 |
+–6.1% |
+
+Individual (‘bilateral’) contracts |
+132,433 |
+122,958 |
+7.7% |
+
+Proinfa |
+134,838 |
+116,081 |
+16.2% |
+
+Quotas for Angra I and II nuclear plants |
+83,446 |
+94,393 |
+–11.6% |
+
+Credits of PIS, Pasep and Cofins taxes |
+–198,698 |
+–177,062 |
+12.2% |
+
+|
+2,917,439 |
+2,544,751 |
+14.6% |
+
+Charges for use of the transmission network
+and other system charges
+
+Charges for use of the transmission
+network in 2Q25 were R$ 776.7 million, 4.9% lower than in 2Q24.
+
+In the distribution business
+this is a non-manageable cost: the difference between the amounts used as a reference for calculation of tariffs and the costs actually
+incurred is compensated for in the next tariff adjustment.
+
+Gas purchased for
+resale
+
+The expense on acquisition
+of gas in 2Q25 was R$ 485.1 million, or 4.7% less than in 2Q24 – mainly reflecting lower volume acquired to meet the demand
+of the regulated market.
+
+Outsourced services
+
+Expenditure on outsourced
+services was 3.8% (R$ 19.3 million) higher than in 2Q24, with the following increases as the main factors: tree pruning, R$ 5.2
+million (25.3%) higher; outsourced labor, R$ 5.2 million (42.7%) higher; and costs of disconnecting and reconnecting consumers’
+supply R$ 2.9 million (18.7%) higher.
+
+Client default provision
+
+The expense on provisions
+for losses due to client default in 2Q25 was R$ 3.1 million, or R$ 74.2 million less than in 2Q24.This (i) reflects the
+Company’s actions in combating default, and (ii) results from the revision, in 3Q24 (with positive effect in the subsequent 12 months),
+of the criteria for accounting overdue client receivables (increasing the threshold for posting a 100% loss from 24 to 36 months, to give
+a more faithful estimate of the actual market practice in client payment of past due receivables) .
+
+Provisions
+
+New provisions of R$ 113.6
+million were posted in 2Q25. This compares with a R$ 454.2 million reversal of provisions in 2Q24. The main component in that amount
+was a reversal of R$ 584.3 million, in 2024, for a first instance court decision in relation to Social Security Contributions.
+
+People
+
+Expenditure on personnel
+was R$ 388.4 million in 2Q25, 6.8% less than in 2Q24. This reflects lower expense on the voluntary dismissal program in 2Q25, at
+R$ 25.4 million, compared to R$ 78.1 million in 2Q24. Excluding this effect, other main factors in the comparison were: (i) the
+4.6% salary increase under the Collective Work Agreement of November 2024; and (ii) also, a lower transfer of personnel costs to
+investment in 2Q25.
+
+22 |
+
+|
+
+Finance income and expenses
+
+|
+2Q25 |
+2Q24 |
+Change % |
+
+(R$ ’000) |
+|
+|
+|
+
+Finance income |
+302,444 |
+725,474 |
+–58.3% |
+
+Finance expenses |
+–565,404 |
+–607,355 |
+–6.9% |
+
+Net finance income (expenses) |
+–262,960 |
+118,119 |
+–322.6% |
+
+For 2Q25 the Company posted
+consolidated net financial expenses of R$ 263.0 million, compared to net financial revenue of R$ 118.1 million in 2Q24. Main factors:
+
+| § | Borrowing costs,
+and monetary updating of debentures, were a total of R$ 151.5 million higher, reflecting growth of approximately 30% in gross debt,
+and the increase in the Selic basic interest rate. |
+
+| § | In 2Q24 there
+was a R$ 410.6 million write-down of liabilities posted as “Repayable to consumers”, with counterpart in Finance income
+– since the amount estimated by Cemig D for updating of the liability was higher than the amount calculated by using the criteria
+used by Aneel. In 2Q25, financial revenue of R$ 4.3 million was recognized for updating of credits due to the Company. |
+
+| § | Also in 2Q24
+there was a financial expense of R$ 214.5 million, from the effect on US dollar-denominated debt of 11.26% appreciation of the US dollar
+against the Real. There was no such effect in 2Q25, since the debt in US dollars was settled in full in December 2024. |
+
+23 |
+
+|
+
+Gain (loss) in non-consolidated investees
+(Equity income)
+
+|
+2Q25 |
+2Q24 |
+Change R$ ’000 |
+
+EQUITY INCOME
+
+(Gain/loss in non-consolidated investees)
+|
+
+Taesa |
+106,958 |
+51,707 |
+55,251 |
+
+Paracambi |
+4,527 |
+4,398 |
+129 |
+
+Cemig Sim (Equity interests) |
+3,920 |
+3,534 |
+386 |
+
+Guanhães Energia |
+2,182 |
+3,823 |
+–1,641 |
+
+Hidrelétrica Cachoeirão |
+1,677 |
+832 |
+845 |
+
+Hidrelétrica Pipoca |
+180 |
+6,316 |
+–6,136 |
+
+Belo Monte (Aliança Norte and Amazônia Energia) |
+–42,026 |
+–27,178 |
+–14,848 |
+
+Itaocara |
+- |
+–4,721 |
+4,721 |
+
+Total |
+77,418 |
+38,711 |
+38,707 |
+
+Equity income grew by R$ 38.7
+million in 2Q25 compared to 2Q24. The main effects were (i) a stronger result in Taesa, and (ii) a weaker result in Belo Monte,
+due to higher finance expense (as a result of the higher TJLP (long-term interest rate) in 2Q25) and an increase in operating costs, which
+were impacted by an onerous contract related to the difference between the volumes of energy contracted for purchase and sale in future
+electricity transactions.
+
+24 |
+
+|
+
+CONSOLIDATED
+EBITDA (IFRS, and Adjusted)
+
+Ebitda is a non-accounting
+metric, prepared by the Company, reconciled with its consolidated financial statements in accordance with the specifications in CVM Circular
+SNC/SEP 01/2007 and CVM Resolution 156 of June 23, 2022. It comprises: Net profit adjusted for the effects of: (i) Net finance income
+(expenses), (ii) Depreciation and amortization, and (iii) Income tax and the Social Contribution tax. Ebitda is not a metric
+recognized by Brazilian GAAP nor by IFRS; it does not have a standard meaning; and it may be non-comparable with metrics with similar
+titles provided by other companies. Cemig publishes Ebitda because it uses it to measure its own performance. Ebitda should not be considered
+in isolation or as a substitute for net profit or operational profit, nor as an indicator of operational performance or cash flow, nor
+to measure liquidity, nor the capacity for payment of debt. The Company adjusts its Ebitda (calculated in accordance with CVM Instruction
+156/2022) to exclude extraordinary items which, by their nature, do not contribute to information on the potential for gross cash flow
+generation.
+
+2Q25 Consolidated Ebitda |
+
+R$ ’000 |
+Generation |
+Transmission |
+Trading |
+Distribution |
+Gas |
+Holding co. and equity interests |
+Total |
+
+Profit (loss) for the period |
+449,724 |
+-2,841 |
+6,481 |
+550,550 |
+150,820 |
+33,547 |
+1,188,281 |
+
+Income tax and Social Contr. tax |
+31,781 |
+-36,693 |
+-3,961 |
+147,391 |
+71,765 |
+-20,474 |
+189,809 |
+
+Net finance income (expenses) |
+-15,614 |
+3,207 |
+-4,121 |
+257,444 |
+-4,533 |
+26,577 |
+262,960 |
+
+Depreciation and amortization |
+78,044 |
+4,652 |
+3 |
+254,372 |
+25,438 |
+5,884 |
+368,393 |
+
+Ebitda per CVM Resolution 156 |
+543,935 |
+-31,675 |
+-1,598 |
+1,209,757 |
+243,490 |
+45,534 |
+2,009,443 |
+
+Net profit attributed to |
+- |
+- |
+- |
+- |
+-648 |
+- |
+-648 |
+
+non-controlling stockholders |
+
+Remeasurement of |
+-2,302 |
+-1,422 |
+-326 |
+-16,163 |
+- |
+-948 |
+-21,161 |
+
+post-employment liabilities |
+
+RBSE (national grid) – remeasurement |
+- |
+198,895 |
+- |
+- |
+- |
+- |
+198,895 |
+
+Voluntary severance program |
+1,920 |
+1,187 |
+272 |
+20,812 |
+- |
+1,200 |
+25,391 |
+
+Adjusted Ebitda |
+543,553 |
+166,985 |
+-1,652 |
+1,214,406 |
+242,842 |
+45,786 |
+2,211,920 |
+
+2Q24 Consolidated Ebitda |
+
+R$ ’000 |
+Generation |
+Transmission |
+Trading |
+Distribution |
+Gas |
+Holding co. and equity interests |
+Total |
+
+Profit (loss) for the period |
+315,039 |
+108,947 |
+101,008 |
+1,060,437 |
+137,823 |
+-34,668 |
+1,688,586 |
+
+Income tax and
+
+Social Contribution tax
+|
+58,300 |
+27,512 |
+–576 |
+350,163 |
+62,904 |
+–35,966 |
+462,337 |
+
+Net finance income (expenses) |
+75,996 |
+41,764 |
+–6,921 |
+–305,459 |
+11,937 |
+64,564 |
+–118,119 |
+
+Depreciation and amortization |
+83,670 |
+–60 |
+4 |
+224,113 |
+24,085 |
+5,967 |
+337,779 |
+
+Ebitda per
+
+CVM Resolution 156
+|
+533,005 |
+178,163 |
+93,515 |
+1,329,254 |
+236,749 |
+–103 |
+2,370,583 |
+
+Net profit attributed to
+
+non–controlling stockholders
+|
+– |
+– |
+– |
+– |
+–593 |
+– |
+–593 |
+
+Provision for civil claims – PPAs |
+– |
+– |
+52,647 |
+– |
+– |
+– |
+52,647 |
+
+Reversal of tax provisions – Social security contributions on profit sharing |
+–30,503 |
+–32,967 |
+–5,049 |
+–513,331 |
+– |
+–2,500 |
+–584,350 |
+
+Voluntary severance program |
+9,312 |
+10,064 |
+1,541 |
+56,468 |
+– |
+763 |
+78,148 |
+
+Adjusted Ebitda |
+511,814 |
+155,260 |
+142,654 |
+872,391 |
+236,156 |
+–1,840 |
+1,916,435 |
+
+25 |
+
+|
+
+Ebitda of Cemig D
+
+|
+2Q25 |
+2Q24 |
+Change % |
+
+Cemig D Ebitda – R$ ’000 |
+|
+|
+|
+
+Net profit for the period |
+550,554 |
+1,060,436 |
+-48.1 |
+
+Income tax and Social Contribution tax |
+147,390 |
+350,163 |
+-57.9 |
+
+Net finance income (expense) |
+257,443 |
+-305,458 |
+-184.3 |
+
+Amortization |
+254,373 |
+224,113 |
+13.5 |
+
+Ebitda per CVM Resolution 156 |
+1,209,760 |
+1,329,254 |
+-9.0 |
+
+Voluntary severance program |
+20,812 |
+56,468 |
+-63.1 |
+
+Reversal of tax provisions – social security contributions on profit sharing |
+- |
+-513,331 |
+- |
+
+Remeasurement of post–employment liabilities |
+-16,163 |
+- |
+- |
+
+Adjusted Ebitda |
+1,214,409 |
+872,391 |
+39.2 |
+
+New replacement value (VNR) |
+26,618 |
+22,258 |
+19.6 |
+
+Adjusted Ebitda less VNR |
+1,187,791 |
+850,133 |
+39.7 |
+
+Cemig D posted 2Q25 Ebitda
+of R$ 1,209.8 million, 9.0% lower than in 2Q24. Adjusted Ebitda, at R$ 1,214.4 million, was 39.2% higher than in 2Q24.
+
+Effects on Ebitda in this
+YoY comparison:
+
+| § | The annual Tariff
+Adjustment, in force from May 28, 2025, provided a positive effect, as also did the change made by Aneel to its method of measuring non-technical
+losses – in which Aneel widened the scope of the calculation to include Distributed Generation, which increases effective loss coverage |
+
+| § | The provision
+for client default in 2Q25, including expected loss on other receivables, was R$ 48.3 million lower than in 2Q24. |
+
+| § | A net gain of
+R$ 374.9 million was recognized, for an adjustment related to the difference between amounts forecast and realized in the last tariff
+cycle, especially in the discounts applied to incentive-bearing generation sources and Distributed Generation. |
+
+| § | Restatement of
+post-employment liabilities, with a positive effect of R$ 16.2 million on Ebitda, due to migration of 557 employees to the Premium
+Health Plan (which creates no post-employment obligation for the Company) during the window reopened for joining in April. |
+
+| § | New Replacement
+Value (VNR) of R$ 26.6 million in 2Q25, vs. R$ 22.3 million in 2Q24. |
+
+| § | Total energy
+distributed (excluding DG) was 3.3% lower than in 2Q24 (comprising 6.4% less in the captive market, and 0.3% less in the Free Market),
+mainly due to migration to DG in general, and in particular migration of two large-scale clients to the Free Market. If we include distributed-generation
+offsets, total energy distributed was 1.0% less than in 2Q24. |
+
+| § | Expense on the
+voluntary severance program was R$ 20.8 million in 2Q25 and R$ 56.5 million in 2Q24. |
+
+| § | The net expense
+on deactivation and disposal of assets was R$ 52.0 million higher than in 2Q24. |
+
+| § | In 2Q24 there
+was a R$ 513.3 million reversal of provisions for a first instance judgment in favor of the Company in a case related to Social Security
+Contributions.
+|
+
+26 |
+
+|
+
+Cemig GT – Ebitda
+
+Cemig GT: 2Q25 Ebitda |
+|
+|
+|
+|
+|
+
+R$ ’000 |
+Generation |
+Transmission |
+Trading |
+Equity interests |
+Total |
+
+Profit (loss) for the period |
+460,115 |
+-6,031 |
+-55,415 |
+-56,549 |
+342,120 |
+
+Income tax and Social Contribution tax |
+32,081 |
+-37,895 |
+-16,295 |
+3,971 |
+-18,138 |
+
+Net finance income (expenses) |
+-15,696 |
+3,619 |
+-4,081 |
+14,204 |
+-1,954 |
+
+Depreciation and amortization |
+76,419 |
+5852 |
+3 |
+- |
+82,274 |
+
+Ebitda per CVM Resolution 156 |
+552,919 |
+-34,455 |
+-75,788 |
+-38,374 |
+404,302 |
+
+Voluntary severance program |
+1,920 |
+1,187 |
+272 |
+366 |
+3,745 |
+
+RBSE (national grid) – remeasurement |
+- |
+198,895 |
+- |
+- |
+198,895 |
+
+Remeasurement of post-employment liabilities |
+-2,302 |
+-1,422 |
+-326 |
+-438 |
+-4,488 |
+
+Adjusted Ebitda |
+552,537 |
+164,205 |
+-75,842 |
+-38,446 |
+602,454 |
+
+Cemig GT: 2Q24 Ebitda |
+|
+|
+|
+|
+|
+
+R$ ’000 |
+Generation |
+Transmission |
+Trading |
+Equity interests |
+Total |
+
+Profit (loss) for the period |
+313,025 |
+107,131 |
+–22,360 |
+–69,873 |
+327,923 |
+
+Income tax and Social Contribution tax |
+58,299 |
+26,616 |
+–13,745 |
+–31,713 |
+39,457 |
+
+Net finance income (expenses) |
+75,996 |
+41,890 |
+–6,921 |
+79,395 |
+190,360 |
+
+Depreciation and amortization |
+83,669 |
+– |
+4 |
+– |
+83,673 |
+
+Ebitda per CVM Resolution 156 |
+530,989 |
+175,637 |
+–43,022 |
+–22,191 |
+641,413 |
+
+Reversal of tax provisions –
+
+Social security contributions on profit sharing
+|
+–30,503 |
+–32,967 |
+–5,049 |
+–2,500 |
+–71,019 |
+
+Voluntary severance program |
+6,643 |
+7,178 |
+1,099 |
+544 |
+15,464 |
+
+Provision for civil action on an energy sale |
+22,612 |
+24,439 |
+3,743 |
+1,853 |
+52,647 |
+
+Adjusted Ebitda |
+529,741 |
+174,287 |
+–43,229 |
+–22,294 |
+638,505 |
+
+2Q25 Adjusted Ebitda of Cemig
+GT was R$ 404.3 million, 37.0% lower than in 2Q24. Adjusted Ebitda was 5.6% lower. Effects on Ebitda in this YoY comparison:
+
+| § | Negative impact
+in the Trading activity due to exposure to differences in spot prices between submarkets (averaging more than R$ 60/MWh in
+2Q25). This reflects that a significant part of the energy purchase is in the Northeast, while much of the sales are in other submarkets. |
+
+| § | Recognition of
+a reduction of R$ 198.9 million in the value of contractual assets, net of PIS, Pasep and Cofins taxes, resulting from remeasurement
+of the financial component of assets in the national grid, under the changes made by Aneel Ratifying Resolution 3469/2025. |
+
+| § | Equity income
+(gain/loss in non–consolidated investees) R$ 16.9 million weaker, led by a weaker result in Belo Monte result,
+due to higher finance expenses caused by the increase in the TJLP (long-term) interest rate in 2Q25. |
+
+| § | A lower GSF in
+the quarter (0.95 in 2Q25, vs. 0.99 in 2Q24) caused a greater need for purchase of energy. |
+
+| § | The expense on
+the voluntary severance program in 2Q25, at R$ 3.7 million, was lower than in 2Q24 (R$ 15.5 million). |
+
+| § | Migration of
+employees to the Premium Heath Plan (which causes no post-employment obligation for the Company) caused a positive effect of R$ 4.5 million
+in Ebitda. |
+
+27 |
+
+|
+
+| § | Excluding spot
+sales in the CCEE (wholesale Energy Exchange), the volume of energy sold was 31% more than in 2Q24. |
+
+Investments
+
+Capex
+in the first half of 2025 totaled R$ 2.75 billion, 12.6% more than in 1H24. Realized investment in 2Q25 totaled R$ 1.54
+billion.
+
+Highlights
+in 1H25 were: Investment of R$ 2.16 billion by Cemig D (Distribution), (i) connecting more than 82,000 new clients, (ii) energizing
+9 substations, (iii) installing more than 49,000 smarts, and (iv) adding 2,600 km of medium and low voltage networks; in Transmission,
+investment of R$ 173 million in strengthening and enhancement of the power line network; in solar Distributed Generation, addition
+of 21 MWac of installed capacity – and construction of 100 km of gas pipelines by Gasmig.
+
+Execution
+of the largest investment program in Cemig’s history will modernize its electricity system, ensuring reliability, in line with
+its strategic plan of focusing on Minas Gerais and on its core businesses, and providing ever-improving service to the client. Investment
+totaling R$ 39.20 billion is planned for the period 2025–29, of which R$ 6.35 billion is being invested in 2025.
+
+28 |
+
+|
+
+Debt
+
+CONSOLIDATED (R$ ’000) |
+Jun. 2025 |
+2024 |
+Change, % |
+
+Gross debt |
+15,263,937 |
+12,279,300 |
+24.3% |
+
+Cash and equivalents + Securities |
+3,035,296 |
+2,390,743 |
+27.0% |
+
+Net debt |
+12,228,641 |
+9,888,557 |
+23.7% |
+
+|
+|
+|
+|
+
+CEMIG GT – R$ ’000 |
+Jun. 2025 |
+2024 |
+Change, % |
+
+Gross debt |
+1,689,097 |
+1,031,924 |
+63.7% |
+
+Cash and equivalents + Securities |
+631,018 |
+542,566 |
+16.3% |
+
+Net debt |
+1,058,079 |
+489,358 |
+116.2% |
+
+|
+|
+|
+|
+
+CEMIG D (R$ ’000) |
+Jun. 2025 |
+2024 |
+Change, % |
+
+Gross debt |
+12,333,041 |
+10,037,621 |
+22.9% |
+
+Cash and equivalents + Securities |
+1,692,384 |
+1,114,866 |
+51.8% |
+
+Net debt |
+10,640,657 |
+8,922,755 |
+19.3% |
+
+In 2Q25, Cemig D concluded
+its 13 th debenture issue, for R$ 1.89 billion, in two series:
+
+Series |
+Quantity |
+Value in R ’000 |
+Rate |
+Maturity |
+Amortization |
+
+1 st |
+1,143,000 |
+R$ 1,143,000 |
+CDI + 0.64% p.a. |
+1,831 days |
+48 th and 60 th months |
+
+2 nd |
+752,000 |
+R$ 752,000 |
+CDI + 0.80% p.a. |
+2,562 days |
+72 nd and 84 th months |
+
+Also in 2Q25, Cemig D amortized
+R$ 2.05 billion of its 7 th and 9 th debenture issues.
+
+29 |
+
+|
+
+|
+2Q25 |
+
+DEBT AMORTIZED – R$ ’000 |
+|
+
+Cemig GT |
+– |
+
+Cemig D |
+2,368,868 |
+
+Others |
+– |
+
+Total |
+2,368,868 |
+
+30 |
+
+|
+
+Cemig’s
+long-term ratings
+
+Cemig’s ratings have
+improved significantly in recent years, and are currently at their highest ever. In 2021 the three principal rating agencies upgraded
+their ratings for Cemig. In April 2022, Moody’s again upgraded its rating for Cemig, by one notch. In May 2024, Moody’s raised
+its rating to AA+. In October Fitch raised its rating to AAA, the highest of all ratings on the Brazilian scale, recognizing: (i) consistent
+results and cash generation, (ii) a diversified asset base, and (iii) discipline in capital allocation. More details in this
+table:
+
+31 |
+
+|
+
+ESG
+– Report on performance
+
+Cemig fulfills its
+public commitments related to sustainability by implementing strategic initiatives, monitored through corporate indicators and goals.
+These commitments are subdivided into several pillars: (i) The energy transition; (ii) The environment; (iii) Local development;
+(iv) Our people; and (v) Solid governance.
+
+Cemig highlights
+
+| § | Digitalization
+of service channels |
+
+80% of customer service
+encounters between Cemig and its clients now take place via digital channels – a significant advance in modernizing processes and
+the efficiency of our corporate governance. This digital transformation helps increase transparency, reduce operational costs and improve
+clients’ experience.
+
+Environment
+
+| § | Combating fire
+and protecting the power grid. |
+
+In 2024, Cemig suffered 1,240
+fire-caused events, affecting around 1.5 million people in Minas Gerais. To reduce the risk of outages, in 2025 the Company announced
+preventive actions and a robust budget for tree pruning and power grid maintenance.
+
+| § | Investments in preventive maintenance |
+
+The Company is investing R$ 360
+million in preventive maintenance in 2025, focusing on modernization of substations, strengthening of networks and actions against extreme
+weather events. More than 3.6 tons of telecommunication cables improperly installed on electricity poles were also removed, contributing
+to safety, visual quality and proper functioning of electricity infrastructure.
+
+Social
+
+Expansion of the Social
+Electricity Tariff
+
+| § | Cemig now serves
+more than 1.5 million families charged at the Social electricity rate ( Tarifa Social de Energia Elétrica – TSEE),
+which offers up to 65% discount on the client's electricity bill. The Company has intensified communication actions
+to expand access to the program. In this quarter alone, 93,000 clients in the Zona da Mata region were included in the benefit. |
+
+32 |
+
+|
+
+Energy efficiency in hospitals
+and healthcare centers
+
+| § | A total of R$ 1.1
+million has been invested in modernizing the lighting of 137 health units in Belo Horizonte, with replacement of existing lamps by more
+efficient models. This reduces energy consumption, while improving working conditions for healthcare professionals. |
+
+| § | R$ 493,000
+was allocated to replacing an autoclave at the Eliane Martins Municipal Hospital in Ipatinga. The new technology makes sterilization faster
+and safer, with an average saving of 52.57 MWh per year. |
+
+| § | Solar generation
+was installed at the Nossa Senhora dos Anjos Hospital in Itambacuri, to reduce costs. |
+
+Menstrual Dignity campaign;
+Volunteering
+
+| § | Expanding its
+commitment to gender equity and social inclusion, the Cemig Volunteering Program organized a campaign to collect menstrual hygiene items,
+for free distribution, promoting citizenship and awareness about menstruation, combating any associated stigma, and improving health for
+people in situations of vulnerability. |
+
+Cemig present in the
+leading sustainability indices
+
+33 |
+
+|
+
+Indicators
+
+34 |
+
+|
+
+Performance
+of Cemig’s shares
+
+Security |
+Jun. 30, 2025 |
+Dec. 31, 2024 |
+Change, % |
+
+Prices (2) |
+
+CMIG4 (PN) at the close (R$/share) |
+10.8 |
+10.06 |
+7.39% |
+
+CMIG3 (ON) at the close (R$/share) |
+15.28 |
+13.63 |
+12.07% |
+
+CIG (ADR for PN shares), at close (US$/share) |
+1.96 |
+1.65 |
+19.15% |
+
+CIG.C (ADR for ON shares) at close (US$/share) |
+2.76 |
+2.32 |
+18.93% |
+
+XCMIG (Cemig PN shares on Latibex), close (€/share) |
+1.66 |
+1.71 |
+–2.92% |
+
+Average daily trading |
+
+CMIG4 (PN) (R$ mn) |
+143.02 |
+143.11 |
+–0.06% |
+
+CMIG3 (ON) (R$ mn) |
+4.18 |
+3.75 |
+11.58% |
+
+CIG (ADR for PN shares) (US$ mn) |
+5.7 |
+4.32 |
+31.97% |
+
+CIG.C (ADR for ON shares) (US$ mn) |
+0.01 |
+0.03 |
+–66.40% |
+
+Indices |
+
+IEE |
+101,295 |
+77,455 |
+30.78% |
+
+IBOV |
+138,855 |
+120,283 |
+15.44% |
+
+DJIA |
+9,554 |
+8,974 |
+6.47% |
+
+Indicators |
+
+Market valuation at end of period, R$ mn |
+35,176 |
+35,149 |
+0.08% |
+
+Enterprise value (EV), R$ mn (1) |
+45,724 |
+42,668 |
+7.16% |
+
+Dividend yield of CMIG4 (PN) (%) (3) |
+17.72 |
+11.96 |
+5.76 pp |
+
+Dividend yield of CMIG3 (ON) (%) (3) |
+12.53 |
+9.08 |
+3.45 pp |
+
+(1) EV = (Market valuation [= R$/share x number of shares]) + (consolidated Net debt). |
+
+(2) Share prices adjusted for corporate action payments, including dividends. |
+
+(3) (Dividends distributed in last 4 quarters) / (Share price at end of the period). |
+|
+
+Cemig’s shares, by
+volume (aggregate of common (ON) and preferred (PN) shares), were the fourth most liquid in Brazil’s electricity sector, and among
+the most traded in the Brazilian equity market. On the New York Stock Exchange the volume traded in ADRs for Cemig’s preferred shares
+(CIG) in 1H25 was US$ 695.92 million: we see this as reflecting recognition by the investor market and reaffirmation of Cemig as
+a global investment option. The benchmark Ibovespa index of the São Paulo Stock Exchange rose 19.15% in the period, while Cemig’s
+preferred shares rose 7.39% and its 12.07%. In New York the ADRs for Cemig’s preferred shares rose 19.15% in the same period, and
+the price of the common shares rose 18.93%.
+
+35 |
+
+|
+
+Plant
+
+Plant |
+Company |
+Cemig power (MW) |
+Cemig physical guarantee (MW) |
+End of the concession |
+Type |
+Cemig stake |
+|
+|
+
+|
+|
+
+Emborcação |
+Cemig GT |
+1,192 |
+475 |
+May 2027 |
+Hydro plant |
+100.00% |
+|
+|
+
+Nova Ponte |
+Cemig GT |
+510 |
+257 |
+Aug. 2027 |
+Hydro plant |
+100.00% |
+|
+|
+
+Três Marias |
+Cemig GT |
+396 |
+227 |
+Jan. 2053 |
+Hydro plant |
+100.00% |
+|
+|
+
+Irapé |
+Cemig GT |
+399 |
+198 |
+Sep. 2037 |
+Hydro plant |
+100.00% |
+|
+|
+
+Salto Grande |
+Cemig GT |
+102 |
+74 |
+Jan. 2053 |
+Hydro plant |
+100.00% |
+|
+|
+
+Sá Carvalho |
+Sá Carvalho |
+78 |
+54 |
+Aug. 2026 |
+Hydro plant |
+100.00% |
+|
+|
+
+Rosal |
+Rosal Energia |
+55 |
+28 |
+Dec. 2035 |
+Hydro plant |
+100.00% |
+|
+|
+
+Itutinga |
+Cemig Ger. Itutinga |
+52 |
+27 |
+Jan. 2053 |
+Hydro plant |
+100.00% |
+|
+|
+
+Boa Esperança |
+Cemig GT |
+85 |
+25 |
+Aug. 2057 |
+Solar plant |
+100.00% |
+|
+|
+
+Camargos |
+
+Cemig Ger.
+
+Camargos
+|
+46 |
+22 |
+Jan. 2053 |
+Hydro plant |
+100.00% |
+|
+|
+
+Três Marias Jusante |
+Cemig GT |
+70 |
+20 |
+Feb. 2058 |
+Solar plant |
+100.00% |
+|
+|
+
+Volta do Rio |
+Cemig GT |
+42 |
+18 |
+Dec. 2031 |
+Wind plant |
+100.00% |
+|
+|
+
+Poço Fundo |
+Cemig GT |
+30 |
+17 |
+May 2052 |
+Small Hydro Plant |
+100.00% |
+|
+|
+
+Pai Joaquim |
+Cemig PCH |
+23 |
+14 |
+Oct. 2034 |
+Small Hydro Plant |
+100.00% |
+|
+|
+
+Piau |
+Cemig Ger. Sul |
+18 |
+14 |
+Jan. 2053 |
+Hydro plant |
+100.00% |
+|
+|
+
+Praias do Parajuru |
+Cemig GT |
+29 |
+8 |
+Sep. 2032 |
+Wind plant |
+100.00% |
+|
+|
+
+Gafanhoto |
+Cemig Ger. Oeste |
+14 |
+7 |
+Jan. 2053 |
+Hydro plant |
+100.00% |
+|
+|
+
+Peti |
+Cemig Ger. Leste |
+9 |
+6 |
+Jan. 2053 |
+Hydro plant |
+100.00% |
+|
+|
+
+Joasal |
+Cemig Ger. Sul |
+8 |
+5 |
+Jan. 2053 |
+Hydro plant |
+100.00% |
+|
+|
+
+Tronqueiras |
+Cemig Ger. Leste |
+9 |
+3 |
+Dec. 2046 |
+Hydro plant |
+100.00% |
+|
+|
+
+Queimado |
+Cemig GT |
+87 |
+53 |
+July 2034 |
+Hydro plant |
+82.50% |
+|
+|
+
+Belo Monte |
+Norte |
+1,313 |
+534 |
+Jul. 2046 |
+Hydro plant |
+11.69% |
+|
+|
+
+Paracambi |
+
+Paracambi
+
+Energética
+|
+12 |
+10 |
+Jan. 2034 |
+Small Hydro Plant |
+49.00% |
+|
+|
+
+Cachoeirão |
+
+Hidrelétrica
+
+Cachoeirão
+|
+13 |
+8 |
+Jan. 2046 |
+Small Hydro Plant |
+49.00% |
+|
+|
+
+Pipoca |
+Hidrelétrica Pipoca |
+10 |
+6 |
+Dec. 2034 |
+Small Hydro Plant |
+49.00% |
+|
+|
+
+Others |
+|
+76 |
+37 |
+|
+|
+|
+|
+|
+
+Subtotal |
+|
+4,678 |
+2,146 |
+|
+|
+|
+|
+|
+
+Cemig Sim |
+Equity interests |
+22.6 |
+5.5 |
+|
+Solar plant |
+49.00% |
+|
+|
+
+Cemig Sim |
+Owned |
+48.3 |
+13.1 |
+|
+Solar plant |
+100.00% |
+|
+|
+
+Total |
+|
+4,749 |
+2,165 |
+|
+|
+|
+|
+|
+
+Note:
+The physical guarantees of the Boa Esperança and Jusante plants are the values certified by a certifying company,
+but they have not been approved by Aneel. For the plants of Cemig Sim , the installed capacity is given in MW ac ,
+and the physical guarantee has been estimated in the table as being equal to the estimated generation.
+
+There
+are more details of Cemig Sim's expansion projects on the next page.
+
+36 |
+
+|
+
+Expansion
+of solar generation
+
+Project |
+Company |
+Installed capacity (MW ac ) |
+Capacity (MW p ) |
+Expected generation (MW average ) |
+Planned operational start date |
+
+Ouro Solar Project |
+Cemig Sim |
+22.5 |
+31.9 |
+6.2 |
+
+Aug. 2025 –
+
+Apr. 2026
+|
+
+Bloco Azul project |
+Cemig Sim |
+20.0 |
+28.3 |
+4.9 |
+
+Aug. 2025 –
+
+Apr. 2026
+|
+
+Solar do Cerrado Project |
+Cemig Sim |
+50.0 |
+70.0 |
+10.5 |
+
+Sep. 2025 –
+
+May 2026
+|
+
+Total |
+|
+92.5 |
+130.3 |
+21.6 |
+|
+
+RAP:
+July 2025–June 2026 cycle
+
+The values of RAP for the
+2025–2026 cycle came into effect in July 2025, incorporating the effects for Cemig of the remeasurement of the RBSE (national grid)
+financial component, as defined by Aneel.
+
+ANEEL RATIFYING RESOLUTION (ReH) 3381/2025 (2025–2026 cycle) |
+
+R$ ’000 |
+RAP |
+Adjustment component |
+Total |
+Expiration |
+
+Cemig |
+1,245,408 |
+60,207 |
+1,305,615 |
+|
+
+Cemig GT |
+1,164,296 |
+62,435 |
+1,226,731 |
+Dec. 2042 |
+
+Cemig Itajubá |
+52,484 |
+-1,061 |
+51,423 |
+Oct. 2030 |
+
+Centroeste |
+16,078 |
+-1,017 |
+15,061 |
+Mar. 2035 |
+
+Sete Lagoas |
+12,550 |
+-150 |
+12,401 |
+Jun. 2041 |
+
+Taesa (Cemig stake: 21.68%) |
+861,718 |
+-35,288 |
+826,430 |
+|
+
+TOTAL RAP |
+|
+|
+2,132,045 |
+|
+
+RBSE* COMPENSATION at June 2025 prices (excluding sector charges) |
+
+R$ ’000 – by cycle |
+2025-2026 |
+2026-2027 |
+2027-2028 |
+2028-2029 |
+2029-2033 |
+
+Economic |
+112,434 |
+112,434 |
+112,434 |
+35,253 |
+35,253 |
+
+Financial |
+298,669 |
+298,669 |
+298,669 |
+|
+|
+
+Total |
+411,102 |
+411,102 |
+411,102 |
+35,253 |
+35,253 |
+
+** The figures for indemnity/reimbursement of National Grid components are included in the RAP of Cemig (first table). |
+|
+
+|
+|
+|
+|
+|
+|
+|
+
+Cemig currently has state
+environmental (REA) approval for large-scale strengthening and enhancement works, with total capex of R$ 1,088 million, and for investments
+of R$ 231 million related to Lot 1 of Auction 02/2022 (with completion of works planned for 2028).
+
+Planned operational start date |
+Capex (R$ ’000) |
+RAP (R$ ’000) |
+
+2025 |
+390,903 |
+62,491 |
+
+2026 |
+228,929 |
+36,908 |
+
+2027 |
+442,238 |
+73,472 |
+
+2028 |
+256,885 |
+23,587 |
+
+Total |
+1,318,956 |
+196,458 |
+
+37 |
+
+|
+
+Transmission
+Regulatory Revenue and EBITDA
+
+Transmission Regulatory Result - 2Q25 |
+
+R$ ’000 |
+Cemig GT |
+Centroeste |
+Sete Lagoas |
+Total |
+
+Revenue from Transmission operations |
+429,656 |
+6,500 |
+2,947 |
+439,103 |
+
+Taxes on revenue |
+-37,962 |
+-237 |
+-273 |
+-38,472 |
+
+Sector charges |
+-60,542 |
+-271 |
+-115 |
+-60,928 |
+
+Net Regulatory Revenue |
+331,152 |
+5,992 |
+2,559 |
+339,703 |
+
+|
+|
+|
+|
+|
+
+Regulatory Profit for the period |
+266,338 |
+4,744 |
+1,312 |
+272,394 |
+
+Income tax and Social Contribution tax |
+-62,794 |
+301 |
+490 |
+-62,003 |
+
+Net finance income (expenses) |
+-876 |
+-306 |
+-370 |
+-1,552 |
+
+Depreciation and amortization |
+55,769 |
+373 |
+609 |
+56,751 |
+
+Regulatory EBITDA |
+258,437 |
+5,112 |
+2,041 |
+265,590 |
+
+38 |
+
+|
+
+Complementary
+information
+
+Cemig D
+
+CEMIG D Market |
+
+Quarter |
+Captive |
+TUSD EN ERGY 1 |
+DISTRIBUTED ENERGY |
+TUSD PICK 2 |
+
+Consumers |
+
+1Q22 |
+5,738 |
+5,397 |
+11,136 |
+36.2 |
+
+2Q22 |
+6,050 |
+5,853 |
+11,904 |
+36.7 |
+
+3Q22 |
+5,942 |
+5,790 |
+11,733 |
+34.7 |
+
+4Q22 |
+6,047 |
+5,755 |
+11,802 |
+40.5 |
+
+1Q23 |
+5,723 |
+5,566 |
+11,289 |
+38.0 |
+
+2Q23 |
+5,949 |
+6,058 |
+12,007 |
+38.5 |
+
+3Q23 |
+5,812 |
+6,028 |
+11,840 |
+39.2 |
+
+4Q23 |
+6,376 |
+6,068 |
+12,445 |
+39.9 |
+
+1Q24 |
+5,930 |
+6,097 |
+12,027 |
+40.4 |
+
+2Q24 |
+5,924 |
+6,301 |
+12,225 |
+42.4 |
+
+3Q24 |
+5,821 |
+6,557 |
+12,378 |
+43.6 |
+
+4Q24 |
+5,812 |
+6,505 |
+12,317 |
+42.5 |
+
+1Q25 |
+5,547 |
+6,448 |
+11,996 |
+45.3 |
+
+2Q25 |
+5,543 |
+6,283 |
+11,826 |
+45.9 |
+
+Cemig D |
+2Q25 |
+1Q25 |
+2Q24 |
+chg. % |
+chg. % |
+
+Operating Revenues (R$ million) |
+|
+|
+|
+2Q/1Q |
+2Q/2Q |
+
+Revenue from supply of energy |
+6,090 |
+5,886 |
+5,882 |
+3.5% |
+3.5% |
+
+Reimbursement of PIS/Pasep and Cofins credits to customers |
+- |
+- |
+190 |
+- |
+- |
+
+Revenue from Use of Distribution Systems (the TUSD charge) |
+1,424 |
+1,440 |
+1,261 |
+-1.1% |
+12.9% |
+
+CVA and Other financial components in tariff adjustment |
+70 |
+126 |
+-57 |
+-44.4% |
+-222.8% |
+
+Construction revenue |
+1,232 |
+1,047 |
+1,079 |
+17.7% |
+14.2% |
+
+Adjustment to expectation of cash flow from indemnifiable financial assets of distribution concession (VNR) |
+27 |
+53 |
+22 |
+-49.1% |
+22.7% |
+
+Others |
+1,189 |
+594 |
+673 |
+100.2% |
+76.7% |
+
+Subtotal |
+10,032 |
+9,146 |
+9,050 |
+9.7% |
+10.9% |
+
+Deductions |
+-2,762 |
+-2,643 |
+-2,723 |
+4.5% |
+1.4% |
+
+Net Revenues |
+7,270 |
+6,503 |
+6,327 |
+11.8% |
+14.9% |
+
+39 |
+
+|
+
+Cemig D |
+2Q25 |
+1Q25 |
+2Q24 |
+chg. % |
+chg. % |
+
+Operating Expenses (R$ million) |
+|
+|
+|
+2Q/1Q |
+2Q/2Q |
+
+Personnel |
+265 |
+233 |
+283 |
+13.7% |
+-6.4% |
+
+Employees' and managers' profit sharing |
+26 |
+26 |
+29 |
+0.0% |
+-10.3% |
+
+Post-retirement obligations |
+71 |
+65 |
+64 |
+9.2% |
+10.9% |
+
+Materials |
+17 |
+32 |
+26 |
+-46.9% |
+-34.6% |
+
+Outsourced services |
+433 |
+433 |
+425 |
+0.0% |
+1.9% |
+
+Amortization |
+254 |
+248 |
+224 |
+2.4% |
+13.4% |
+
+Operating provisions |
+118 |
+163 |
+-380 |
+-27.6% |
+-131.1% |
+
+Charges for Use of Basic Transmission Network |
+855 |
+838 |
+850 |
+2.0% |
+0.6% |
+
+Energy purchased for resale |
+2,917 |
+2,770 |
+2,545 |
+5.3% |
+14.6% |
+
+Construction Cost |
+1,232 |
+1,047 |
+1,079 |
+17.7% |
+14.2% |
+
+Other Expenses |
+126 |
+77 |
+77 |
+63.6% |
+63.6% |
+
+Total |
+6,314 |
+5,932 |
+5,222 |
+6.4% |
+20.9% |
+
+Cemig D |
+2Q25 |
+1Q25 |
+2Q24 |
+Var. % |
+Var. % |
+
+Statement of Results (R$ million) |
+|
+|
+|
+2Q/1Q |
+2Q/2Q |
+
+Net Revenue |
+7,270 |
+6,503 |
+6,327 |
+11.8% |
+14.9% |
+
+Operating Expenses |
+6,314 |
+5,932 |
+5,222 |
+6.4% |
+20.9% |
+
+Operational profit |
+956 |
+571 |
+1,105 |
+67.4% |
+-13.5% |
+
+EBITDA |
+1,210 |
+819 |
+1,329 |
+47.7% |
+-9.0% |
+
+Financial Result |
+-257 |
+-202 |
+306 |
+27.2% |
+-184.0% |
+
+Provision for Income Taxes, Social Cont & Deferred Income Tax |
+-147 |
+-58 |
+-350 |
+153.4% |
+-58.0% |
+
+Net Income |
+551 |
+311 |
+1,060 |
+77.2% |
+-48.0% |
+
+40 |
+
+|
+
+Cemig GT
+
+Cemig GT |
+2Q25 |
+1Q25 |
+2Q24 |
+chg. % |
+chg. % |
+
+Operating Revenues (R$ million) |
+|
+|
+|
+2Q/1Q |
+2Q/2Q |
+
+Sales to end consumers |
+892 |
+870 |
+777 |
+2.5% |
+14.8% |
+
+Supply |
+555 |
+537 |
+409 |
+3.4% |
+35.7% |
+
+Revenues from Trans. Network |
+134 |
+146 |
+177 |
+-8.2% |
+-24.3% |
+
+Construction revenue |
+179 |
+66 |
+100 |
+171.2% |
+79.0% |
+
+Financial remuneration of transmission contractual assets |
+150 |
+219 |
+136 |
+-31.5% |
+10.3% |
+
+Gain on monetary updating of Concession Grant Fee |
+119 |
+138 |
+107 |
+-13.8% |
+11.2% |
+
+Transactions in the CCEE |
+2 |
+21 |
+2 |
+-90.5% |
+0.0% |
+
+Generation indemnity revenue |
+31 |
+27 |
+21 |
+14.8% |
+47.6% |
+
+Others |
+48 |
+60 |
+33 |
+-20.0% |
+45.5% |
+
+Subtotal |
+2,110 |
+2,084 |
+1,762 |
+1.2% |
+19.8% |
+
+Deductions |
+-358 |
+-381 |
+-345 |
+-6.0% |
+3.8% |
+
+Net Revenues |
+1,752 |
+1,703 |
+1,417 |
+2.9% |
+23.6% |
+
+Cemig GT |
+2Q25 |
+1Q25 |
+2Q24 |
+chg. % |
+chg. % |
+
+Operating Expenses (R$ million) |
+|
+|
+|
+2Q/1Q |
+2Q/2Q |
+
+Personnel |
+90 |
+80 |
+99 |
+12.5% |
+-9.1% |
+
+Employees' and managers' profit sharing |
+10 |
+9 |
+11 |
+11.1% |
+-9.1% |
+
+Post-retirement obligations |
+22 |
+21 |
+20 |
+4.8% |
+10.0% |
+
+Materials |
+9 |
+6 |
+6 |
+50.0% |
+50.0% |
+
+Outsourced services |
+61 |
+58 |
+62 |
+5.2% |
+-1.6% |
+
+Depreciation and Amortization |
+82 |
+84 |
+84 |
+-2.4% |
+-2.4% |
+
+Provisions |
+14 |
+18 |
+0 |
+-22.2% |
+- |
+
+Charges for Use of Basic Transmission Network |
+75 |
+74 |
+73 |
+1.4% |
+2.7% |
+
+Energy purchased for resale |
+697 |
+586 |
+390 |
+18.9% |
+78.7% |
+
+Construction Cost |
+139 |
+53 |
+73 |
+162.3% |
+90.4% |
+
+RBSE (national grid) remeasurement |
+199 |
+0 |
+- |
+- |
+- |
+
+Other Expenses |
+0 |
+11 |
+26 |
+-100.0% |
+-100.0% |
+
+Total |
+1,398 |
+1,000 |
+844 |
+39.8% |
+65.6% |
+
+41 |
+
+|
+
+Cemig GT |
+2Q25 |
+1Q25 |
+2Q24 |
+chg. % |
+chg. % |
+
+Statement of Results (R$ million) |
+|
+|
+|
+2Q/1Q |
+2Q/2Q |
+
+Net Revenue |
+1,752 |
+1,703 |
+1,417 |
+2.9% |
+23.6% |
+
+Operating Expenses |
+1,398 |
+1,000 |
+844 |
+39.8% |
+65.6% |
+
+Operational profit |
+354 |
+703 |
+573 |
+-49.6% |
+-38.2% |
+
+Equity gain in subsidiaries |
+-33 |
+-38 |
+-16 |
+-13.2% |
+106.3% |
+
+EBITDA |
+404 |
+749 |
+641 |
+-46.1% |
+-37.0% |
+
+Financial Result |
+2 |
+-16 |
+-190 |
+-112.5% |
+-101.1% |
+
+Provision for Income Taxes, Social Cont & Deferred Income Tax |
+18 |
+-108 |
+-40 |
+0.0% |
+-145.0% |
+
+Net Income |
+342 |
+541 |
+328 |
+-36.8% |
+4.3% |
+
+Cemig, Consolidated
+
+Energy Sales |
+2Q25 |
+1Q25 |
+2Q24 |
+chg. % |
+chg. % |
+
+(in GWh) |
+|
+|
+|
+2Q/1Q |
+2Q/2Q |
+
+Residential |
+3,668 |
+3,838 |
+3,553 |
+-4.4% |
+3.2% |
+
+Industrial |
+4,677 |
+4,311 |
+4,440 |
+8.5% |
+5.3% |
+
+Commercial |
+3,141 |
+3,063 |
+3,009 |
+2.5% |
+4.4% |
+
+Rural |
+984 |
+739 |
+928 |
+33.2% |
+6.0% |
+
+Others |
+679 |
+795 |
+749 |
+-14.6% |
+-9.3% |
+
+Subtotal |
+13,149 |
+12,746 |
+12,679 |
+3.2% |
+3.7% |
+
+Own Consumption |
+6 |
+7 |
+8 |
+-14.3% |
+-25.0% |
+
+Wholesale supply |
+5,043 |
+4,826 |
+3,953 |
+4.5% |
+27.6% |
+
+TOTAL |
+18,198 |
+17,579 |
+16,640 |
+3.5% |
+9.4% |
+
+Revenue from supply of electricity |
+2Q25 |
+1Q25 |
+2Q24 |
+chg. % |
+chg. % |
+
+(R$ million) |
+|
+|
+|
+2Q/1Q |
+2Q/2Q |
+
+Residential |
+3,374 |
+3,423 |
+3,067 |
+-1.4% |
+10.0% |
+
+Industrial |
+1,278 |
+1,204 |
+1,327 |
+6.1% |
+-3.7% |
+
+Commercial |
+1,650 |
+1,647 |
+1,610 |
+0.2% |
+2.5% |
+
+Rural |
+643 |
+517 |
+600 |
+24.4% |
+7.2% |
+
+Others |
+516 |
+506 |
+538 |
+2.0% |
+-4.1% |
+
+Subtotal |
+7,461 |
+7,297 |
+7,142 |
+2.2% |
+4.5% |
+
+Retail supply not yet invoiced |
+78 |
+-32 |
+68 |
+- |
+14.7% |
+
+Wholesale supply |
+1,147 |
+1109 |
+934 |
+3.4% |
+22.8% |
+
+TOTAL |
+8,686 |
+8,374 |
+8,144 |
+3.7% |
+6.7% |
+
+42 |
+
+|
+
+Cemig |
+2Q25 |
+1Q25 |
+2Q24 |
+chg. % |
+chg. % |
+
+Operating Revenues (R$ million) |
+|
+|
+|
+2Q/1Q |
+2Q/2Q |
+
+Sales to end consumers |
+7,539 |
+7,265 |
+7,210 |
+3.8% |
+4.6% |
+
+Wholesale supply |
+1,148 |
+1,110 |
+934 |
+3.4% |
+22.9% |
+
+TUSD |
+1,414 |
+1,429 |
+1,252 |
+-1.0% |
+12.9% |
+
+CVA and Other financial components in tariff adjustment |
+70 |
+126 |
+-57 |
+- |
+-222.8% |
+
+Reimbursement of PIS/Pasep and Cofins over ICMS credits to customers |
+- |
+0 |
+190 |
+0.0% |
+-100.0% |
+
+Transmission revenue |
+114 |
+60 |
+80 |
+90.0% |
+42.5% |
+
+Financial remuneration of transmission contract |
+30 |
+173 |
+134 |
+-82.7% |
+-77.6% |
+
+Transactions in the CCEE |
+40 |
+22 |
+14 |
+81.8% |
+185.7% |
+
+Gas supply |
+965 |
+921 |
+972 |
+4.8% |
+-0.7% |
+
+Construction revenue |
+1,503 |
+1,215 |
+1,259 |
+23.7% |
+19.4% |
+
+Others |
+1,454 |
+894 |
+876 |
+62.6% |
+66.0% |
+
+Subtotal |
+14,277 |
+13,215 |
+12,864 |
+8.0% |
+11.0% |
+
+Taxes and charges deductions from revenue |
+-3,491 |
+-3,371 |
+-3,428 |
+3.6% |
+1.8% |
+
+Net Revenues |
+10,786 |
+9,844 |
+9,436 |
+9.6% |
+14.3% |
+
+Cemig |
+2Q25 |
+1Q25 |
+2Q24 |
+chg. % |
+chg. % |
+
+Operating Expenses (R$ million) |
+|
+|
+|
+2Q/1Q |
+2Q/2Q |
+
+Personnel |
+388 |
+346 |
+417 |
+12.1% |
+-7.0% |
+
+Employees’ and managers’ profit sharing |
+46 |
+43 |
+43 |
+7.0% |
+7.0% |
+
+Post-Retirement Employee Benefits |
+109 |
+102 |
+98 |
+6.9% |
+11.2% |
+
+Materials |
+27 |
+39 |
+34 |
+-30.8% |
+-20.6% |
+
+Outsourced services |
+527 |
+515 |
+508 |
+2.3% |
+3.7% |
+
+Energy purchased for resale |
+4,547 |
+4,267 |
+3,693 |
+6.6% |
+23.1% |
+
+Charges for use of the national grid |
+777 |
+767 |
+817 |
+1.3% |
+-4.9% |
+
+Gas bought for resale |
+485 |
+489 |
+509 |
+-0.8% |
+-4.7% |
+
+Depreciation and Amortization |
+368 |
+364 |
+338 |
+1.1% |
+8.9% |
+
+Provisions |
+147 |
+197 |
+-348 |
+-25.4% |
+-142.2% |
+
+Construction costs |
+1,463 |
+1,202 |
+1,227 |
+21.7% |
+19.2% |
+
+RBSE (national grid) remeasurement |
+199 |
+- |
+0 |
+|
+|
+
+Other Expenses |
+140 |
+92 |
+106 |
+52.2% |
+32.1% |
+
+Total |
+9,223 |
+8,423 |
+7,442 |
+9.5% |
+23.9% |
+
+43 |
+
+|
+
+Cemig |
+2Q25 |
+1Q25 |
+2Q24 |
+chg. % |
+chg. % |
+
+Finance Income and Expenses (R$ million) |
+|
+|
+|
+2Q/1Q |
+2Q/2Q |
+
+FINANCE INCOME |
+|
+|
+|
+|
+|
+
+Income from cash investments |
+202 |
+84 |
+117 |
+140.5% |
+72.6% |
+
+Arrears fees on sale of energy |
+81 |
+74 |
+74 |
+9.5% |
+9.5% |
+
+Monetary variations |
+12 |
+12 |
+8 |
+0.0% |
+50.0% |
+
+Monetary variations – CVA |
+13 |
+18 |
+0 |
+-27.8% |
+0.0% |
+
+Monetary updating on Court escrow deposits |
+20 |
+21 |
+15 |
+-4.8% |
+33.3% |
+
+Pasep and Cofins charged on finance income |
+-72 |
+-53 |
+-49 |
+35.8% |
+46.9% |
+
+Gains on financial instruments - Swap |
+0 |
+0 |
+70 |
+0.0% |
+-100.0% |
+
+Monetary updating on PIS/Pasep and Cofins taxes credits |
+4 |
+0 |
+406 |
+0.0% |
+-99.0% |
+
+Others |
+42 |
+38 |
+84 |
+10.5% |
+-50.0% |
+
+|
+302 |
+194 |
+725 |
+55.7% |
+-58.3% |
+
+|
+|
+|
+|
+|
+|
+
+FINANCE EXPENSES |
+|
+|
+|
+|
+|
+
+Costs of loans and financings |
+383 |
+260 |
+241 |
+47.3% |
+58.9% |
+
+Foreign exchange variations |
+- |
+0 |
+214 |
+0.0% |
+-100.0% |
+
+Monetary updating – loans and financings |
+62 |
+125 |
+53 |
+-50.4% |
+17.0% |
+
+Foreign exchange variations - Itaipu Binacional |
+- |
+0 |
+9 |
+0.0% |
+-100.0% |
+
+Monetary updating on PIS/Pasep and Cofins taxes credits |
+- |
+13 |
+- |
+0.0% |
+0.0% |
+
+Estimated update of distributed generation credits |
+75 |
+0 |
+38 |
+0.0% |
+97.4% |
+
+Others |
+45 |
+46 |
+52 |
+-2.2% |
+-13.5% |
+
+|
+565 |
+444 |
+607 |
+27.3% |
+-6.9% |
+
+|
+|
+|
+|
+|
+|
+
+NET FINANCE INCOME (EXPENSES) |
+-263 |
+-250 |
+118 |
+5.2% |
+-322.9% |
+
+Cemig |
+2Q25 |
+1Q25 |
+2Q24 |
+chg. % |
+chg. % |
+
+Statement of Results (R$ million) |
+|
+|
+|
+2Q/1Q |
+2Q/2Q |
+
+Net Revenue |
+10,786 |
+9,844 |
+9,436 |
+9.6% |
+14.3% |
+
+Operating Expenses |
+9,223 |
+8,423 |
+7,442 |
+9.5% |
+23.9% |
+
+Operational profit |
+1,563 |
+1,421 |
+1,994 |
+10.0% |
+-21.6% |
+
+Equity gain (loss) in subsidiaries |
+77 |
+42 |
+39 |
+83.3% |
+97.4% |
+
+EBITDA |
+2,009 |
+1,827 |
+2,371 |
+10.0% |
+-15.3% |
+
+Financial Result |
+-263 |
+-250 |
+118 |
+5.2% |
+-322.9% |
+
+Provision for Income Taxes, Social Cont & Deferred Income Tax |
+-190 |
+-175 |
+-462 |
+8.6% |
+-58.9% |
+
+Net profit for the period |
+1,188 |
+1,039 |
+1,689 |
+14.3% |
+-29.7% |
+
+44 |
+
+|
+
+Cemig |
+|
+|
+
+Recurring profit: reconciliation (R$ million) |
+2Q25 |
+2Q24 |
+
+Net profit – IFRS |
+1,188 |
+1,689 |
+
+Remeasurement of post-employment liabilities |
+-14 |
+- |
+
+RBSE (national grid) remeasurement |
+131 |
+- |
+
+Voluntary retirement program |
+17 |
+52 |
+
+Reversal of tax provision – Social security contributions on profit sharing |
+- |
+-386 |
+
+PIS/Cofins taxes repayable to consumers – Reversal |
+- |
+-271 |
+
+Civil action provision – Power purchase agreement |
+- |
+35 |
+
+Legal action on the PAT (Workers’ Food Program) |
+- |
+-80 |
+
+FX exposure – Eurobond hedge |
+- |
+95 |
+
+Recurring net profit |
+1,322 |
+1,134 |
+
+Cash Flow Statement |
+jun/25 |
+jun/24 |
+
+(R$ million) |
+|
+|
+
+Cash at beginning of period |
+1,898 |
+1,537 |
+
+Cash generated by operations |
+2,346 |
+2,921 |
+
+Net income |
+2,227 |
+2,841 |
+
+Depreciation and amortization |
+732 |
+667 |
+
+CVA and other financial components |
+-197 |
+-19 |
+
+Equity gain (loss) in subsidiaries |
+-120 |
+-129 |
+
+Remeasuring of concession financial and concession contract assets |
+-652 |
+-685 |
+
+Interest and monetary variations |
+622 |
+418 |
+
+Provisions |
+306 |
+-174 |
+
+Deferred income and social contribution taxes |
+365 |
+811 |
+
+Refund of PIS/Pasep and Cofins credits to consumers |
+-178 |
+-513 |
+
+Gain on disposal of investments |
+0 |
+-43 |
+
+Dividends receivable |
+108 |
+213 |
+
+Interest paid on loans and financings |
+-526 |
+-442 |
+
+Net gain on derivative instruments at fair value through profit or loss |
+- |
+-112 |
+
+Foreign exchange variations on loans |
+- |
+273 |
+
+Post-employment obligations |
+212 |
+244 |
+
+Others |
+-553 |
+-429 |
+
+Investment activity |
+-3,267 |
+-2,790 |
+
+Securities - Financial Investment |
+-746 |
+-620 |
+
+Reduction of share capital in investee |
+- |
+48 |
+
+Disposal of assets |
+- |
+101 |
+
+Fixed and Intangible assets/distribution and gas infrastructure |
+-2,521 |
+-2,319 |
+
+Financing activities |
+780 |
+-104 |
+
+Lease payments |
+-40 |
+-36 |
+
+Proceeds from Loans, financings and debentures |
+4,965 |
+1,946 |
+
+Interest on Equity, and dividends |
+-1,776 |
+-1,438 |
+
+Payments of loans and debentures |
+-2,369 |
+-576 |
+
+Cash at end of period |
+1,758 |
+1,564 |
+
+45 |
+
+|
+
+Cemig - Balance Sheets (Assets) |
+jun/25 |
+2024 |
+
+(R$ million) |
+|
+|
+
+CURRENT |
+|
+|
+
+Cash and cash equivalents |
+1,758 |
+1,898 |
+
+Marketable securities |
+1,221 |
+358 |
+
+Customers, traders, concession holders and Transport of energy |
+5,652 |
+5,596 |
+
+Concession financial assets |
+1,232 |
+1,190 |
+
+Concession contract assets |
+1,110 |
+1,140 |
+
+Tax offsetable |
+551 |
+511 |
+
+Income tax and Social Contribution tax recoverable |
+153 |
+7 |
+
+Dividends receivable |
+63 |
+111 |
+
+Public lighting contribution |
+327 |
+296 |
+
+Escrow deposits |
+45 |
+235 |
+
+Reimbursement of tariff subsidies |
+623 |
+209 |
+
+Other credits |
+820 |
+625 |
+
+Assets classified as held for sale |
+57 |
+57 |
+
+TOTAL CURRENT |
+13,612 |
+12,233 |
+
+NON-CURRENT |
+|
+|
+
+Securities |
+56 |
+135 |
+
+Consumers and traders |
+277 |
+254 |
+
+Tax offsetable |
+1,507 |
+1,455 |
+
+Income tax and Social Contribution tax recoverable |
+512 |
+582 |
+
+Deferred income tax and Social Contribution tax |
+2,348 |
+2,334 |
+
+Escrow deposits in legal actions |
+1,207 |
+1,196 |
+
+Reimbursement of tariff subsidies |
+16 |
+- |
+
+Accounts receivable from the State of Minas Gerais |
+35 |
+40 |
+
+Financial assets of the concession |
+7,642 |
+6,881 |
+
+Contractual assets |
+11,244 |
+10,327 |
+
+Investments |
+3,275 |
+3,221 |
+
+Property, plant and equipment |
+3,910 |
+3,715 |
+
+Intangible assets |
+17,247 |
+16,806 |
+
+Leasing – rights of use |
+381 |
+387 |
+
+Other credits |
+142 |
+161 |
+
+TOTAL NON-CURRENT |
+49,799 |
+47,494 |
+
+|
+|
+|
+
+TOTAL ASSETS |
+63,411 |
+59,727 |
+
+46 |
+
+|
+
+Cemig - Balance Sheets (Liabilities and Shareholders' Equity) |
+jun/25 |
+2024 |
+
+(R$ million) |
+|
+|
+
+CURRENT |
+|
+|
+
+Suppliers |
+3,080 |
+2,952 |
+
+Regulatory charges |
+463 |
+344 |
+
+Profit sharing |
+93 |
+111 |
+
+Taxes |
+749 |
+725 |
+
+Income tax and Social Contribution tax |
+159 |
+163 |
+
+Interest on Equity, and dividends, payable |
+2,866 |
+3,611 |
+
+Loans and debentures |
+2,747 |
+2,877 |
+
+Payroll and related charges |
+256 |
+217 |
+
+Public Lighting Contribution |
+497 |
+475 |
+
+Post-retirement liabilities |
+218 |
+233 |
+
+Accounts payable related to energy generated by consumers |
+1,641 |
+1,251 |
+
+Taxes to be reimbursed to customers |
+372 |
+526 |
+
+Leasing operations |
+86 |
+79 |
+
+Other obligations |
+446 |
+582 |
+
+TOTAL CURRENT |
+13,673 |
+14,146 |
+
+|
+|
+|
+
+NON-CURRENT |
+|
+|
+
+Regulatory charges |
+128 |
+172 |
+
+Loans and debentures |
+12,517 |
+9,403 |
+
+Taxes |
+488 |
+496 |
+
+Income tax and Social Contribution tax |
+1,422 |
+1,543 |
+
+Provisions |
+1,960 |
+1,853 |
+
+Post-retirement liabilities |
+4,118 |
+4,073 |
+
+Taxes to be reimbursed to customers |
+159 |
+166 |
+
+Leasing operations |
+340 |
+350 |
+
+Other obligations |
+127 |
+142 |
+
+TOTAL NON-CURRENT |
+21,259 |
+18,198 |
+
+TOTAL LIABILITIES |
+34,932 |
+32,344 |
+
+|
+|
+|
+
+TOTAL EQUITY |
+|
+|
+
+Share capital |
+14,309 |
+14,309 |
+
+Capital reserves |
+393 |
+393 |
+
+Profit reserves |
+13,576 |
+13,576 |
+
+Equity valuation adjustments |
+-899 |
+-900 |
+
+Retained earnings |
+1,094 |
+- |
+
+NON-CONTROLLING INTERESTS |
+28,473 |
+27,378 |
+
+Non-Controlling Interests |
+6 |
+5 |
+
+TOTAL EQUITY |
+28,479 |
+27,383 |
+
+TOTAL LIABILITIES AND EQUITY |
+63,411 |
+59,727 |
+
+47 |
+
+|
+
+Disclaimer
+
+Certain statements and estimates
+in this material may represent expectations about future events or results which are subject to risks and uncertainties that may be known
+or unknown. There is no guarantee that events or results will occur as referred to in these expectations.
+
+These expectations are based
+on present assumptions and analyses from the point of view of our management, in accordance with their experience and other factors such
+as the macroeconomic environment, market conditions in the electricity sector, and expected future results, many of which are not under
+our control.
+
+Important factors that could
+lead to significant differences between actual results and the projections about future events or results include: Cemig’s business
+strategy, Brazilian and international economic conditions, technology, our financial strategy, changes in the electricity sector, hydrological
+conditions, conditions in the financial and energy markets, uncertainty on our results from future operations, plans and objectives; and
+other factors. Due to these and other factors, our results may differ significantly from those indicated in or implied by such statements.
+
+The information and opinions
+herein should not be understood as a recommendation to potential investors, and no investment decision should be based on the veracity,
+currentness or completeness of this information or these opinions. None of our staff nor any party related to any of them or their representatives
+shall have any responsibility for any losses that may arise as a result of use of the content of this material.
+
+To evaluate the risks and
+uncertainties as they relate to Cemig, and to obtain additional information about factors that could give rise to different results from
+those estimated by Cemig, please consult the section on Risk Factors included in the Reference Form filed with the Brazilian Securities
+Commission (CVM), and in the 20-F Form filed with the US Securities and Exchange Commission (SEC).
+
+Financial amounts are in
+R$ million (R$ mn) unless otherwise stated.
+
+Financial data reflect the
+adoption of IFRS.
+
+|
+
+|
+
+| 4. | Notice to Shareholders dated September 23, 2025 – Declaration of Interest on Equity |
+
+|
+
+|
+
+COMPANHIA ENERGÉTICA DE MINAS GERAIS - CEMIG
+
+PUBLICLY-HELD COMPANY
+
+CORPORATE TAXPAYER’S ID (CNPJ): 17.155.730/0001-64
+
+COMPANY REGISTRY (NIRE): 31300040127
+
+NOTICE TO SHAREHOLDERS
+
+Declaration of Interest on Equity
+
+We hereby inform our shareholders that the Executive Board
+approved the declaration of Interest on Equity - IoE . Detailed information about the payment is as follows:
+
+1.
+Gross amount: R$604,737,000.00
+(six hundred and four million, seven hundred and thirty-seven thousand reais)
+
+2.
+Gross amount per share: R$0.21139610230
+per share, to be paid with the mandatory minimum dividend for 2025, with a 15% withholding income tax, excluding shareholders exempt from
+said withholding, under the law in force;
+
+3.
+Date “with rights”:
+common and preferred shareholders of record on September 29, 2025 will be entitled to the payment;
+
+4.
+Date “ex-rights” :
+September 30, 2025;
+
+5.
+Payment date: 2
+(two) equal installments, the first of which to be paid by June 30, 2026 , and the second by December 30, 2026;
+
+Shareholders whose shares are not held in custody at CBLC
+and whose registration data is outdated are advised to go to a branch of Banco Itaú Unibanco S.A. (the institution managing CEMIG’s
+Registered Share System) bearing their personal documents for the due update of their registration data.
+
+Belo Horizonte, September 23, 2025.
+
+Cristiana Maria Fortini Pinto e Silva
+
+Acting Vice President of Finance and Investor Relations
+
+|
+
+|
+
+| 5. | Notice to the Market dated October 16, 2025 – Conclusion of the Onerous Transfer of Four Small Power Plants |
+
+|
+
+|
+
+COMPANHIA ENERGÉTICA
+DE MINAS GERAIS - CEMIG
+
+PUBLICLY-HELD COMPANY
+
+CORPORATE TAXPAYER’S ID (CNPJ): 17.155.730/0001-64
+
+COMPANY REGISTRY (NIRE): 31300040127
+
+CEMIG GERAÇÃO E TRANSMISSÃO S.A.
+
+PUBLICLY-HELD COMPANY
+
+CORPORATE TAXPAYER’S ID (CNPJ): 06.981.176/0001-58
+
+COMPANY REGISTRY (NIRE): 31300020550
+
+NOTICE TO THE MARKET
+
+Conclusion of the Onerous Transfer of Four Small Power
+Plants
+
+COMPANHIA ENERGÉTICA DE MINAS GERAIS –
+CEMIG (“CEMIG”) , a publicly-held company with shares traded on the stock exchanges of São Paulo and New York, and
+CEMIG GERAÇÃO E TRANSMISSÃO S.A. (“CEMIG GT”) , a publicly-held company and the wholly-owned subsidiary
+of CEMIG, hereby inform their shareholders and the market in general that, further to the Notice to the Market disclosed on February 21,
+2025, CEMIG GT and its wholly-owned subsidiaries CEMIG GERAÇÃO LESTE S.A., CEMIG GERAÇÃO OESTE S.A., CEMIG
+GERAÇÃO SUL S.A. have completed today the Onerous Transfer of the Machado Mineiro, Sinceridade, Martins, and Marmelos
+power plants to ÂMBAR HIDROENERGIA LTDA (“ÂMBAR HIDROENERGIA”) , after all conditions precedent under the
+Onerous Transfer Agreement were fulfilled.
+
+The amount received from the divestment was R$52.4
+million.
+
+This Onerous Transfer aims to comply with the guidelines
+of CEMIG’s Strategic Plan, which seeks to optimize the portfolio and operational efficiency, with better capital allocation through
+the divestment of small-sized assets.
+
+CEMIG and CEMIG GT reaffirm their commitment to keeping
+shareholders, the market in general, and other stakeholders duly and timely informed about this matter, in accordance with the rules issued
+by the CVM and the legislation in force.
+
+Belo Horizonte, October 16, 2025.
+
+Andrea Marques de Almeida
+
+Vice President of Finance and Investor Relations
+
+|
+
+|
+
+| 6. | 2Q Interim Financial Information |
+
+|
+
+|
+
+|
+
+|
+
+SUMMARY
+
+FINANCIAL RESULT |
+|
+
+INTERIM FINANCIAL INFORMATION |
+21 |
+
+STATEMENTS OF FINANCIAL POSITION |
+21 |
+
+STATEMENTS OF INCOME |
+23 |
+
+STATEMENTS OF COMPREHENSIVE INCOME |
+25 |
+
+STATEMENTS OF CHANGES IN SHAREHOLDERS’ EQUITY |
+26 |
+
+STATEMENTS OF CASH FLOWS |
+27 |
+
+STATEMENTS OF ADDED VALUE |
+29 |
+
+NOTES TO THE INTERIM FINANCIAL INFORMATION |
+30 |
+
+1. OPERATING CONTEXT |
+30 |
+
+2. BASIS OF PREPARATION |
+31 |
+
+3. PRINCIPLES OF CONSOLIDATION |
+32 |
+
+4. OPERATING SEGMENTS |
+32 |
+
+5. CASH AND CASH EQUIVALENTS |
+35 |
+
+6. MARKETABLE SECURITIES |
+35 |
+
+7. RECEIVABLES FROM CUSTOMERS, TRADERS AND CONCESSION HOLDERS |
+36 |
+
+8. INCOME AND SOCIAL CONTRIBUTION TAXES |
+37 |
+
+9. CONCESSION FINANCIAL AND SECTOR ASSETS AND LIABILITIES |
+40 |
+
+10. CONCESSION CONTRACT ASSETS |
+43 |
+
+11. INVESTMENTS |
+45 |
+
+12. PROPERTY, PLANT AND EQUIPMENT |
+47 |
+
+13. INTANGIBLE ASSETS |
+47 |
+
+14. LEASING |
+48 |
+
+15. SUPPLIERS |
+49 |
+
+16. TAXES PAYABLE AND AMOUNTS TO BE REFUNDED TO CUSTOMERS |
+49 |
+
+17. LOANS AND DEBENTURES |
+50 |
+
+18. POST-EMPLOYMENT OBLIGATIONS |
+56 |
+
+19. PROVISIONS |
+58 |
+
+20. EQUITY AND REMUNERATION TO SHAREHOLDERS |
+60 |
+
+21. NET REVENUE |
+62 |
+
+22. COSTS, EXPENSES AND OTHER REVENUE |
+67 |
+
+23. FINANCE INCOME AND EXPENSES |
+71 |
+
+24. RELATED PARTY TRANSACTIONS |
+73 |
+
+25. FINANCIAL INSTRUMENTS AND RISK MANAGEMENT |
+77 |
+
+26. SALE OF ASSETS |
+83 |
+
+27. ASSETS CLASSIFIED AS HELD FOR SALE |
+83 |
+
+28. SUBSEQUENT EVENTS |
+84 |
+
+Report on Review of interim Financial Information – ITR |
+87 |
+
+OTHER INFORMATION THAT THE COMPANY BELIEVES TO BE MATERIAL |
+89 |
+
+DIRECTORS’ STATEMENT OF REVIEW OF THE INTERIM FINANCIAL INFORMATION |
+97 |
+
+DIRECTORS’ STATEMENT OF REVIEW OF THE REPORT BY THE EXTERNAL AUDITORS ON THE INTERIM FINANCIAL INFORMATION |
+98 |
+
+|
+
+|
+
+|
+|
+
+|
+|
+
+FINANCIAL RESULTS
+
+(Amounts expressed in thousands
+of Reais, unless otherwise indicated)
+
+(The information in this performance
+report has not been reviewed by the independent auditors)
+
+Consolidated results
+
+Net income for the quarter
+
+Cemig’s net income in
+2Q25 was R$1,188,281, 29.63% lower, compared to R$1,688,586 in 2Q24.
+
+The main changes in revenues, costs,
+expenses and financial results, in a consolidated and segregated manner by segment, are presented below.
+
+Earnings before interest, taxes, depreciation,
+and amortization (EBITDA)
+
+EBITDA – Apr to Jun/2025 |
+Generation |
+Transmission |
+Trading |
+Distribution |
+Gas |
+Investee |
+Total |
+
+Net income for the year |
+449,724 |
+(2,841) |
+6,481) |
+550,550 |
+150,820 |
+33,547 |
+1,188,281 |
+
+Income tax and Social Contribution tax |
+31,781 |
+(36,693) |
+(3,961) |
+147,391 |
+71,765 |
+(20,474) |
+189,809 |
+
+Net financial revenue (expenses) |
+(15,614) |
+3,207 |
+(4,121) |
+257,444 |
+(4.533) |
+26,577 |
+262,960 |
+
+Depreciation and amortization |
+78,044 |
+4,652 |
+3 |
+254,372 |
+25,438 |
+5,884 |
+368,393 |
+
+Ebitda according to “CVM Instruction n. 156” (1) |
+
+543,935
+|
+
+(31,675)
+|
+
+(1,598)
+|
+
+1,209,757
+|
+
+243,490
+|
+
+45,534
+|
+
+2,009,443
+|
+
+Non-recurring and non-cash effects |
+|
+|
+|
+|
+|
+|
+|
+
+Net income attributable to non-controlling interests |
+- |
+- |
+- |
+- |
+(648) |
+- |
+(648) |
+
+Remeasurement of post-employment benefit liabilities (Note 18) |
+(2,302) |
+(1,422) |
+(326) |
+(16,163) |
+- |
+(948) |
+(21,161) |
+
+Remeasurement BNES (2) (Note 10) |
+- |
+198,895 |
+- |
+- |
+- |
+- |
+198,895 |
+
+Voluntary Separation Program (Note 22c) |
+1,920 |
+1,187 |
+272 |
+20,812 |
+- |
+1,200 |
+25,391 |
+
+Adjusted EBITDA (3) |
+
+543,553
+|
+
+166,985
+|
+
+(1,652)
+|
+
+1,214,406
+|
+
+242,842
+|
+
+45,786
+|
+
+2,211,920
+|
+
+EBITDA – Apr to Jun/2024 |
+Generation |
+Transmission |
+Trading |
+Distribution |
+Gas |
+Investee |
+Total |
+
+Net income for the year |
+315,039 |
+108,947 |
+101,008 |
+1,060,437 |
+137,823 |
+(34,668) |
+1,688,586 |
+
+Income tax and Social Contribution tax |
+58,300 |
+27,512 |
+(576) |
+350,163 |
+62,904 |
+(35,966) |
+462,337 |
+
+Net financial revenue (expenses) |
+75,996 |
+41,764 |
+(6,921) |
+(305,459) |
+11,937 |
+64,564 |
+(118,119) |
+
+Depreciation and amortization |
+83,670 |
+(60) |
+4 |
+224,113 |
+24,085 |
+5,967 |
+337,779 |
+
+Ebitda according to “CVM Instruction n. 156” (1) |
+
+533,005
+|
+
+178,163
+|
+
+93,515
+|
+
+1,329,254
+|
+
+236,749
+|
+
+(103)
+|
+
+2,370,583
+|
+
+Non-recurring and non-cash effects |
+|
+|
+|
+|
+|
+|
+|
+
+Net income attributable to non-controlling interests |
+- |
+- |
+- |
+- |
+(593) |
+- |
+(593) |
+
+Constitution of civil provisions - Purchase and sale of energy |
+- |
+- |
+52,647 |
+|
+|
+|
+(52,647) |
+
+Reversal of tax provisions - INSS s/ PLR |
+(30,503) |
+(32,967) |
+(5,049) |
+(513,331) |
+- |
+(2,500) |
+(584,350) |
+
+Voluntary Separation Program |
+9,312 |
+10,064 |
+1,541 |
+56,468 |
+- |
+763 |
+78,148 |
+
+Adjusted EBITDA (2) |
+
+511,814
+|
+
+155,260
+|
+
+142,654
+|
+
+872,391
+|
+
+236,156
+|
+
+(1,840)
+|
+
+1,916,435
+|
+
+| (1) | Ebitda is a non-accounting measure prepared
+by the Company, reconciled with the consolidated interim financial information in accordance with CVM Circular SNC/SEP n. 1/2007 and CVM
+Resolution n. 156 of June 23, 2022. It comprises Net income adjusted by the effects of net financial revenue (expenses), Depreciation
+and amortization, and Income and Social Contribution taxes. Ebitda is not a measure recognized by Brazilian GAAP nor by IFRS; it does
+not have a standard meaning; and it may be non-comparable with measures with similar titles provided by other companies. The Company publishes
+Ebitda because it uses it to measure its own performance. Ebitda should not be considered in isolation or as a substitution for net income
+or operational income, nor as an indicator of operational performance or cash flow, nor to measure liquidity nor the capacity for payment
+of debt. |
+
+| (2) | The Company adjusts the Ebitda for a better
+understanding of how its operating performance was impacted by extraordinary items which, because of their nature, do not contribute towards
+information on the potential of future cash generation. |
+
+2
+Av. Barbacena, 1200 – Santo Agostinho – 30190-131 Belo Horizonte, MG – Brazil – Fax (+55-31) 3506-5026 – Tel.: (+55-31) 3506-5024
+
+This text is a translation, provided for information only. The original text in Portuguese is the legally valid version.
+|
+
+| |
+| |
+
+The Company’s Adjusted EBITDA
+decreased by 15.23%, primarily due to the recognition of a reduction in the contract asset, totaling R$198,895, net of PIS/Pasep and Cofins,
+resulting from the remeasurement of the Existing System Basic Network (RBSE), following the changes introduced by Homologation Resolution
+No. 3,469/2025. Further details are provided in the transmission segment performance commentary.
+
+By excluding non-recurring effects
+through Adjusted EBITDA, there was a 15.42% increase, primarily driven by the following factors:
+
+Recognition of tariff
+subsidy revenue in the amount of R$374,909, net of PIS/Pasep and Cofins, resulting from increased discounts granted by Cemig, primarily
+to the “Incentivized Source Load” and “GD II” customer classes. Further details are provided in the distribution
+segment performance commentary; and
+
+The Company’s exposure
+to price differences between sub-markets, which negatively impacted the trading activity by R$69,091, net of PIS/Pasep and Cofins. Further
+details are provided in the trading segment performance commentary.
+
+Net revenue
+
+The breakdown of net revenue is as follows:
+
+|
+Consolidated |
+Variation % |
+
+Apr to Jun/2025 |
+Apr to Jun/2024 |
+
+Revenue from supply of energy - captive customers, in Cemig's concession area |
+8,686,379 |
+8,144,077 |
+6.66 |
+
+Revenue from use of the energy distribution systems (TUSD) - free customers |
+1,414,496 |
+1,251,554 |
+13.02 |
+
+CVA and Other financial components |
+70,394 |
+(56,556) |
+(224.47) |
+
+Restitution of PIS/Pasep and Cofins credits to consumers - Realization |
+- |
+190,186 |
+- |
+
+Revenues from transmission |
+|
+|
+|
+
+Revenues from operation and maintenance |
+114,197 |
+79,716 |
+43.25 |
+
+Revenue of transmission construction |
+179,130 |
+104,891 |
+70.78 |
+
+Financial remuneration of the transmission contract assets |
+30,416 |
+134,430 |
+(77.37) |
+
+Generation indemnity revenue |
+31,201 |
+20,596 |
+51.49 |
+
+Revenue of distribution construction |
+1,324,446 |
+1,154,213 |
+14.75 |
+
+Adjustment of cash flow expectation of the financial asset of distribution concession |
+26,618 |
+22,258 |
+19.59 |
+
+Revenues from financial actualization of the concession bonus |
+118,859 |
+107,011 |
+11.07 |
+
+Settlement in the CCEE |
+39,585 |
+14,380 |
+175.28 |
+
+Gas supply |
+965,491 |
+972,424 |
+(0.71) |
+
+Fine for violation of the continuity indicator standard |
+(39,949) |
+(37,084) |
+7.73 |
+
+Other revenues |
+1,315,539 |
+761,856 |
+72.68 |
+
+Taxes and charges levied on revenue |
+(3,490,507) |
+(3,427,961) |
+1.82 |
+
+Net revenues |
+
+10,786,295
+|
+
+9,435,991
+|
+
+14.31
+|
+
+3
+Av. Barbacena, 1200 – Santo Agostinho – 30190-131 Belo Horizonte, MG – Brazil – Fax (+55-31) 3506-5026 – Tel.: (+55-31) 3506-5024
+
+This text is a translation, provided for information only. The original text in Portuguese is the legally valid version.
+|
+
+| |
+| |
+
+Revenue from supply of energy - captive customers,
+in Cemig's concession area
+
+The Company's gross electricity supply
+revenue is comprised of the delivery of energy to regulated consumers, free consumers, supply to other concessionaires, and energy offset
+through net metering by micro and mini distributed generation customers. This revenue increased by 6.66%, totaling R$8,686,379 in the
+second quarter of 2025, compared to R$8,144,077 in the second quarter of 2024, in line with a 9.36% growth in energy volume, as detailed
+below:
+
+|
+Apr to Jun/2025 |
+Apr to Jun/2024 |
+Change, % |
+
+MWh (1) |
+R$ |
+
+Average price/MWh
+
+billed (R$/MWh) (2)
+|
+MWh |
+R$ |
+
+Average price/MWh
+
+billed (R$/MWh) (2)
+|
+MWh |
+R$ |
+
+Residential |
+3,667,850 |
+3,374,148 |
+919.93 |
+3,552,969 |
+3,066,719 |
+863.14 |
+3.23 |
+10.02 |
+
+Industrial |
+4,676,668 |
+1,278,269 |
+273.33 |
+4,440,313 |
+1,326,674 |
+298.78 |
+5.32 |
+(3.65) |
+
+Commercial, Services and Others |
+3,141,492 |
+1,650,182 |
+525.29 |
+3,009,442 |
+1,609,719 |
+534.89 |
+4.39 |
+2.51 |
+
+Rural |
+984,250 |
+643,413 |
+653.71 |
+927,534 |
+599,558 |
+646.40 |
+6.11 |
+7.31 |
+
+Public authorities |
+384,704 |
+229,246 |
+595.90 |
+270,497 |
+232,496 |
+859.51 |
+42.22 |
+(1.40) |
+
+Public lighting |
+235,650 |
+140,046 |
+594.30 |
+244,326 |
+131,933 |
+539.99 |
+(3.55) |
+6.15 |
+
+Public services |
+58,262 |
+146,260 |
+2,510.38 |
+235,023 |
+174,633 |
+743.05 |
+(75.21) |
+(16.25) |
+
+Subtotal |
+
+13,148,876
+|
+
+7,461,564
+|
+
+567.47
+|
+
+12,680,104
+|
+
+7,141,732
+|
+
+563.22
+|
+
+3.70
+|
+
+4.48
+|
+
+Own consumption |
+6,992 |
+- |
+- |
+7,710 |
+- |
+- |
+(9.31) |
+- |
+
+Net unbilled retail supply |
+- |
+77,702 |
+- |
+- |
+68,410 |
+- |
+- |
+- |
+
+|
+
+13,155,868
+|
+
+7,539,266
+|
+
+567.47
+|
+
+12,687,814
+|
+
+7,210,142
+|
+
+563,22
+|
+
+3.69
+|
+
+4.56
+|
+
+Wholesale supply to other concession holders (3) |
+5,042,543 |
+1,162,502 |
+230.54 |
+3,952,637 |
+966,330 |
+244,48 |
+27.57 |
+20.30 |
+
+Wholesale supply unbilled, net |
+- |
+(15,389) |
+- |
+- |
+(32,395) |
+- |
+- |
+(52.50) |
+
+Total |
+
+18,198,411
+|
+
+8,686,379
+|
+
+474.07
+|
+
+16,640,451
+|
+
+8,144,077
+|
+
+487,48
+|
+
+9.36
+|
+
+6.66
+|
+
+| (1) | Information not reviewed by the independent
+auditors |
+
+| (2) | The calculation of the average price does not
+include revenue from supply not yet billed. |
+
+| (3) | Includes Sale Contracts in the Regulated Market
+(CCEARs – Contratos de Comercialização de Energia no Ambiente Regulado) through the Surplus and Deficits Offsetting
+Mechanism (MSCD: Mecanismo de Compensação de Sobras e Déficits), sales on the Free Market, and the revenues from
+management of generation assets ( GAG – Gestão de Ativos da Geração ) for the 18 hydroelectric plants
+of Lot D of Auction no 12/2015. |
+
+The main variations in energy supply
+are described below:
+
+4
+Av. Barbacena, 1200 – Santo Agostinho – 30190-131 Belo Horizonte, MG – Brazil – Fax (+55-31) 3506-5026 – Tel.: (+55-31) 3506-5024
+
+This text is a translation, provided for information only. The original text in Portuguese is the legally valid version.
+|
+
+| |
+| |
+
+Residential
+
+Residential
+energy consumption increased by 3.23% in the second quarter of 2025 compared to the second quarter
+of 2024, totaling 114,881 MWh. This variation is primarily driven by a 23.65% increase in the volume of energy offset through net metering
+by micro and mini distributed generation customers — 497,451 MWh in Q2 2025 versus 402,294 MWh in the same period of the previous
+year.
+
+Industrial
+
+Industrial
+grade consumption increased by 5.32% , or 236,355 MWh, in the second quarter of 2025, compared
+to the same period of the previous year. This growth is mainly composed of the following factors:
+
+| § | An increase of 22.12% ,
+or 442,185 MWh, in the supply of energy to free customers ,
+due to the price adjustment of the contracts, which are mostly updated at the beginning of the year. |
+
+| § | On the other hand, there was
+a reduction of 35.69% ,
+or 99,374 MWh, in the consumption of captive customers
+of the industrial class , mainly due to the migration
+of customers to the free market. |
+
+Commercial, services, and
+others
+
+Consumption within this customer class
+increased by 4.39% in the second quarter of 2025 compared
+to the same period of the previous year. This growth was primarily driven by the retail segment, due to contract price adjustments, most
+of which are indexed and updated at the beginning of the fiscal year.
+
+Revenue from use of network –
+Free Consumers
+
+This is the revenue from charging
+Free Consumers the Tariff for Use of the Distribution System ( Tarifa de Uso do Sistema de Distribuição , or TUSD)
+on the volume of energy distributed. In the second quarter of 2025, this revenue amounted to R$1,414,496, compared to R$1,251,554 in the
+second quarter of 2024, representing a 13.02% increase . This variation is primarily attributable to the annual tariff adjustment
+applied by the distribution company.
+
+CVA and
+Other financial components in tariff adjustments
+
+Cemig D recognizes in its interim
+financial statements the positive or negative variances between actual non-manageable costs and the estimated costs used as the basis
+for tariff setting. These balances represent amounts that must either be reimbursed to consumers or recovered by Cemig D in future tariff
+adjustments. The primary purpose of the CVA (Cost Variation Account) is to restore the economic and financial balance of distribution
+companies.
+
+5
+Av. Barbacena, 1200 – Santo Agostinho – 30190-131 Belo Horizonte, MG – Brazil – Fax (+55-31) 3506-5026 – Tel.: (+55-31) 3506-5024
+
+This text is a translation, provided for information only. The original text in Portuguese is the legally valid version.
+|
+
+| |
+| |
+
+In the second quarter of 2025, a
+revenue of R$70,394 was recognized, compared to an expense of R$56,556 in the same period of 2024. This variation is mainly due to the
+increase in energy settlement costs at the CCEE (Electric Energy Trading Chamber).
+
+More information on the composition
+and movement of CVA can be found in note 9.3.
+
+Distribution Construction Revenue
+
+The construction revenue, associated
+with construction of infrastructure for the distribution concession of energy and gas in 2Q25 totaled R$ 1,324, compared to R$ 1,154,213
+in the same period of 2024, an increase of 14.75%. This variation is mainly due to the following factors:
+
+§ | | an
+increase in the number of projects, mainly related to electricity distribution networks, in line with the Distribution
+Development Plan (PDD) , resulting
+in construction revenue of R$1,231,705 in the second quarter of 2025, compared to R$1,078,688 in the second quarter of 2024, an increase
+of 14.19%; and |
+
+§ | | an
+increase in the number of projects carried out by Gasmig, in line with the Centro-Oeste
+Project , which foresees the construction
+of an additional 300 km of gas pipelines. In the second quarter of 2025, construction revenue totaled R$92,741, compared to R$75,525
+in the same period of the previous year, an increase of 22.80%. The project is scheduled for completion in the second half of 2026. |
+
+These revenues
+is fully offset by construction costs, of the same amount, and corresponds to the investments by Cemig D and Gasmig in assets of the concession
+in the period.
+
+6
+Av. Barbacena, 1200 – Santo Agostinho – 30190-131 Belo Horizonte, MG – Brazil – Fax (+55-31) 3506-5026 – Tel.: (+55-31) 3506-5024
+
+This text is a translation, provided for information only. The original text in Portuguese is the legally valid version.
+|
+
+| |
+| |
+
+Transmission concession revenue
+
+The Company’s transmission
+revenue is composed of: (i) Operation and Maintenance (O&M) Revenue; (ii) Construction Revenue and (iii) Financial Remuneration of
+the Contractual Asset.
+
+This revenue totaled
+R$323,743 in the second quarter of 2025, compared to R$319,037 in the same period of the previous year, representing an increase
+of 1.48% .
+
+Taxes and regulatory charges reported
+as deductions from revenue
+
+Taxes and charges on revenue in 2Q25 totaled R$3,490,507,
+compared to R$3,427,961 in 2Q24 –a reduction of 1.82% .
+
+Costs and expenses
+
+Operational costs and expenses in
+2Q25 were R$9,222,663, compared to R$ 7,441,898 in 2Q24, representing
+an increase of 23.93% . The main variations in components
+of this total are as described below.
+
+Energy bought for resale
+
+The cost of electricity purchased
+for resale is composed as follows:
+
+The cost of energy purchased for
+resale in 2Q25 was R$4,547,303, which compares to R$3,693,227 in 2Q24, an increase of 23.13% .
+The main factors here were:
+
+§ | | There was a 30.46% increase
+in the cost of energy purchased in the free market, totaling R$1,656,838 in the second quarter of 2025,
+compared to R$1,269,988 in the second quarter of 2024. This increase was mainly due to the higher purchase volume required to offset
+energy deficits in relation to contracted commitments, as well as the rise in market prices in 2025. |
+
+7
+Av. Barbacena, 1200 – Santo Agostinho – 30190-131 Belo Horizonte, MG – Brazil – Fax (+55-31) 3506-5026 – Tel.: (+55-31) 3506-5024
+
+This text is a translation, provided for information only. The original text in Portuguese is the legally valid version.
+|
+
+| |
+| |
+
+§ | | In the second quarter of 2025, there was a
+268.29% increase in short-term energy costs, totaling R$489,394 compared to R$132,881 in the second
+quarter of 2024. This increase was mainly driven by the sharp rise in the PLD (Settlement Price for Differences) in the Southeast/Central-West
+submarket, which was not offset by the PLD in the Northeast and North submarkets. |
+
+| | In the trading activity, the Company's exposure to price differences between submarkets negatively
+affected the results. Further details can be found in the 'Trading Segment Performance' section. |
+
+| | In the distribution activity, the negative impact of this exposure is mitigated by the CVA
+mechanism, which is offset in the subsequent tariff adjustment. Additionally, the unfavorable hydrological scenario in the second quarter
+of 2025 resulted in a low average MRE (Energy Reallocation Mechanism) of 0.95, compared to 0.99 in the same period of the previous year,
+leading to an increase in the values passed through related to Hydrological Risk. |
+
+§ | | a 21.22% increase
+in the cost of distributed generation ,
+totaling R$846,075 in the second quarter of 2025, compared to R$697,974 in the second quarter of 2024. This variation is due to the increase
+in the number of generating installations (336,669 in the second quarter of 2025, compared to 273,174 in the second quarter of 2024)
+and the higher volume of energy injected into the grid (1,797 GWh in the second quarter of 2025, compared to 1,487 GWh in the second
+quarter of 2024). |
+
+8
+Av. Barbacena, 1200 – Santo Agostinho – 30190-131 Belo Horizonte, MG – Brazil – Fax (+55-31) 3506-5026 – Tel.: (+55-31) 3506-5024
+
+This text is a translation, provided for information only. The original text in Portuguese is the legally valid version.
+|
+
+| |
+| |
+
+Revaluation of the Existing System Basic Network (RBSE)
+
+In June 2025, Aneel published ReH
+No. 3,469, which amended the Allowed Annual Revenue (RAP) related to the financial component of the assets of the Existing System Basic
+Network (RBSE), previously approved by ReH No. 2,852/2021. As a result, the Company carried out a revaluation of the RBSE contractual
+asset, recording a reduction of R$219,168 in the contractual asset. Further details can be found in explanatory note No. 10.
+
+Expected credit losses
+
+In the second quarter of 2025, there was a 95.99%
+reduction in expected credit losses, amounting to R$3,098, compared to R$77,300 in the second quarter of 2024. This variation
+is mainly due to the change, effective from August 2024, in the time limit for full recognition of losses—from 24 to 36 months for
+regular consumption customers, and from 12 to 18 months for irregular consumption customers—in order to achieve a more accurate
+estimate of credit risk exposure for Cemig D's captive customers. This change is reflected over a 12-month period, impacting the second
+quarter of 2025. Additional information on the composition of costs, expenses, and other revenues is provided in explanatory note No.
+22.
+
+Net finance revenue
+
+The financial result corresponded
+to a financial expense of R$262,960 in the second quarter of 2025, compared to a financial income of R$118,119 in the same period of 2024.
+This variation is mainly associated with the following factors:
+
+| § | Monetary variation and debenture charges |
+
+The total monetary variation
+and debenture charges represented an expense of R$445,093 in the second quarter of 2025, compared to an expense of R$293,606 in the same
+period of 2024, representing a 51.60% increase. This variation is mainly due from the contracting of Cemig D’s 11th, 12th, and 13th
+debenture issuances, which increased the Company's debt level and, consequently, these expenses.
+
+The composition of financial income
+and expenses is presented in explanatory note No. 23.
+
+Update of taxes refundable to
+consumers
+
+The update of tax credits related
+to PIS/Pasep and Cofins, resulting from the exclusion of ICMS from their calculation basis, and of the liability refundable to consumers
+is presented at net value.
+
+A net financial income of R$4,345
+was recognized in the second quarter of 2025, compared to a net financial income of R$406,414 in the same period of the previous year.
+In the second quarter of 2024, the remaining balance of the liability 'Amounts refundable to consumers' was written off, as it had been
+returned through tariff revisions, with a corresponding entry in the financial result, which increased the financial result for that period.
+
+9
+Av. Barbacena, 1200 – Santo Agostinho – 30190-131 Belo Horizonte, MG – Brazil – Fax (+55-31) 3506-5026 – Tel.: (+55-31) 3506-5024
+
+This text is a translation, provided for information only. The original text in Portuguese is the legally valid version.
+|
+
+| |
+| |
+
+Income tax and social contribution
+
+In 2Q25 the Company posted an expense
+on income tax and the Social Contribution tax of R$189,809 (R$462,337 in 2Q24), on pre-tax income of R$1,378,090 (R$2,150,923 in 2Q24)
+– an effective rate of 13.77% (21.49in 2Q24).
+
+The effective rates are reconciled
+with the nominal rates in Note 8d.
+
+Results by segment
+
+The results presented separately
+by segment do not consider eliminations from the consolidated operations between the segments.
+
+Distribution segment performance
+
+For 2Q25 Cemig’s electricity
+distribution operations posted net income of R$550,554, compared to R$1,060,436 in 2Q24, representing a reduction of 48.08%. The main
+changes are presented below.
+
+Ebitda - Distribution |
+Apr to Jun/2025 (R$) |
+Apr to Jun/2024 (R$) |
+Variation (%) |
+
+Net Income for the Period |
+550,550 |
+1,060,437 |
+-48.08 |
+
+Income Tax and Social Contribution Expense |
+147,391 |
+350,163 |
+-57.91 |
+
+Financial Result |
+257,444 |
+(305,459) |
+|
+
+Depreciation and Amortization |
+254,372 |
+224,113 |
+13.5 |
+
+EBITDA (per CVM Resolution 156) |
+1,209,757 |
+1,329,254 |
+-8.99 |
+
+Non-recurring and Non-cash Effects |
+|
+|
+|
+
+Post-employment Liability Remeasurement |
+(16,163) |
+- |
+- |
+
+Voluntary Termination Program |
+20,812 |
+56,468 |
+-63.14 |
+
+Reversal of Tax Provisions - INSS on Profit Sharing (Note 22) |
+0 |
+(513,331) |
+|
+
+Adjusted EBITDA |
+1,214,406 |
+872,391 |
+39.20 |
+
+10
+Av. Barbacena, 1200 – Santo Agostinho – 30190-131 Belo Horizonte, MG – Brazil – Fax (+55-31) 3506-5026 – Tel.: (+55-31) 3506-5024
+
+This text is a translation, provided for information only. The original text in Portuguese is the legally valid version.
+|
+
+| |
+| |
+
+Net revenue
+
+Net revenue for this segment increased
+by 14.91%, reaching R$7,269,939 in the second quarter of 2025 compared to R$6,326,844 in the same period of 2024. The main variations
+are presented below:
+
+Revenue from supply of electricity
+
+Cemig D's revenue from
+the supply of electricity is composed of energy delivered to captive consumers and energy compensated through micro and mini distributed
+generation by customers. This revenue was R$6,090,187 in the second quarter of 2025, compared to R$5,881,556 in the second quarter of
+2024, representing an increase of 3.55% . This variation
+mainly due to the following factors:
+
+§ | | increase
+of 4.27% in the average billed price per MWh (R$853.44/MWh
+in the second quarter of 2025 compared R$805.82 in the same period of 2024), primarily due to the annual tariff adjustment of Cemig D,
+effective as of May 28, 2024; |
+
+§ | | increase
+of 3.23% in electricity consumption by the residential segment ,
+mainly driven from the increase in the amount of energy compensated by customers through micro and mini distributed generation; and |
+
+§ | | On
+the other hand, there was a 35.69%
+reduction in the industrial class due
+to the migration of captive consumers to the free market. |
+
+11
+Av. Barbacena, 1200 – Santo Agostinho – 30190-131 Belo Horizonte, MG – Brazil – Fax (+55-31) 3506-5026 – Tel.: (+55-31) 3506-5024
+
+This text is a translation, provided for information only. The original text in Portuguese is the legally valid version.
+|
+
+| |
+| |
+
+Revenue from charging - Free Consumers
+
+Increase of 12.92%
+on revenue from charging Free Consumers the Tariff for Use of the Distribution System ( Tarifa de Uso do
+Sistema de Distribuição, or TUSD ) resulting from the charges imposed on free consumers for the use of distributed energy.
+In 2Q25 this revenue was R$1,424,464, compared to R$1,261,441 for the same period in the previous year. This variation results primarily
+due to the distributor's annual tariff adjustment.
+
+Construction revenue
+
+The Construction
+revenues associated with construction of infrastructure for the distribution concession totaled R$1.231.705 in 2Q25, compared to R$1.078.688
+in the same period in the previous year, showing an increase of 14.19% .
+This variation is basically due to the increase in the number of works due to the Distribution Development Plan ( Plano de Desenvolvilmenot
+da Distribuição, or PDD ), mainly in distribution networks. This revenue is fully offset by construction costs and corresponds
+to the Cemig D’s investments in assets of the concession.
+
+Costs and expenses
+
+Total
+costs and expenses for the distribution segment amounted to R$6,314,552 in the second quarter of 2025, compared to R$5,221,703 in the
+same period of 2024, representing an increase of 20.93% .
+The main changes are presented below.
+
+Cost of electricity purchased
+for resale
+
+There was a 14.65%
+increase in the cost of electricity purchased for resale, totaling R$2,917,439 in the second quarter
+of 2025, compared to R$2,544,751 in the second quarter of 2024. This variation is mainly associated with the following factors:
+
+§ | | An
+increase of 173.92% in short-term
+energy costs , totaling R$333,854
+in the second quarter of 2025 compared to R$121,879 in the same period of 2024. This variation was mainly due to the sharp rise in the
+PLD (Settlement Price for the Difference) in the Southeast/Central-West submarket, which was not offset by the PLD in the Northeast and
+North submarkets. Additionally, the unfavorable hydrological scenario resulted in a low MRE (Energy Reallocation Mechanism). In the distribution
+activity, the negative effect of this exposure is mitigated by the CVA mechanism, being compensated in the subsequent tariff adjustment.
+Additionally, the unfavorable hydrological scenario in the second quarter of 2025 resulted in a low average MRE (Energy Reallocation
+Mechanism) of 0.95, compared to 0.99 in the same period of the previous year. |
+
+§ | | A
+increase of 21.22% in distributed
+generation costs , totaling R$846,075
+in the second quarter of 2025, compared to R$697,973 in the same period of 2024, mainly due to the increase in the number of generating
+installations and the volume of energy injected into the grid. |
+
+12
+Av. Barbacena, 1200 – Santo Agostinho – 30190-131 Belo Horizonte, MG – Brazil – Fax (+55-31) 3506-5026 – Tel.: (+55-31) 3506-5024
+
+This text is a translation, provided for information only. The original text in Portuguese is the legally valid version.
+|
+
+| |
+| |
+
+The costs of electricity purchased
+for resale are non-manageable, and the difference between the reference values used to define tariffs and the actual costs incurred is
+compensated in the subsequent tariff adjustment.
+
+Expected Credit Losses
+
+In the second quarter of 2025,
+there was a reduction of 96.99% in expected credit losses, totaling a provision of R$2,184,
+compared to a provision of R$72,477 in the same period of the previous year. This difference is primarily due to the change, effective
+from August 2024, in the recognition period limit for losses, which increased from 24 to 36 months for regular consumption customers,
+and from 12 to 18 months for irregular consumption customers, aiming to achieve a more accurate estimate of credit risk exposure for Cemig
+D's captive consumers. This change is reflected over a 12-month period, impacting the second quarter of 2025.
+
+Provisions for contingencies
+
+Cemig D recognized provisions for
+contingencies in the amount of R$86,353 in the second quarter of 2025, compared to a net reversal of R$459,529 in the same period of 2024.
+
+The main variation occurred in tax-related
+contingencies, due to the recognition of a provision reversal of R$513,331 in the second quarter of 2024, following a favorable first-instance
+court decision for the Company, which ordered the cancellation of the charge and the termination of the tax enforcement process related
+to social security contributions on Profit Sharing (PLR).
+
+Net financial result
+
+In the second quarter of 2025, the
+financial result for this segment was a net expense of R$257,443, compared to a revenue of R$305,458 in the same period of the previous
+year. This variation is mainly associated with the increase in charges and monetary restatement of debentures, resulting from the issuance
+of the 11 th , 12 th and 13 th series of debentures, which raised Cemig D’s debt level and, consequently,
+its financial expenses.
+
+More detailed information on the
+variations and impacts presented in this segment is available in Cemig D’s interim financial statements.
+
+Performance of the Transmission
+Segment
+
+The transmission segment recorded
+a loss of R$2,841 in the second quarter of 2025, compared to a net profit of R$108,947 in the second quarter of 2024. The main variations
+are described below.
+
+Ebitda - Transmission |
+Apr to Jun/2025 (R$) |
+Apr to Jun/2024 (R$) |
+Variation (%) |
+
+Net Income for the Period |
+(2,841) |
+108,947 |
+– |
+
+Income Tax and Social Contribution Expense |
+(36,693) |
+27,512 |
+– |
+
+Financial Result |
+3,207 |
+41,764 |
+-92.32% |
+
+Depreciation and Amortization |
+4,652 |
+(60) |
+– |
+
+EBITDA – per CVM Resolution 156 |
+(31,675) |
+178,163 |
+– |
+
+Non-recurring and Non-cash Effects |
+|
+|
+|
+
+Post-employment Liability Remeasurement |
+(1,422) |
+– |
+– |
+
+RBSE Remeasurement (Note 10) |
+198,895 |
+– |
+– |
+
+Voluntary Termination Program |
+1,187 |
+10,064 |
+-88.21% |
+
+Reversal of Tax Provisions – INSS on Profit Sharing (Note 22) |
+– |
+(32,967) |
+– |
+
+Adjusted EBITDA |
+166,985 |
+155,260 |
+7.55% |
+
+13
+Av. Barbacena, 1200 – Santo Agostinho – 30190-131 Belo Horizonte, MG – Brazil – Fax (+55-31) 3506-5026 – Tel.: (+55-31) 3506-5024
+
+This text is a translation, provided for information only. The original text in Portuguese is the legally valid version.
+|
+
+| |
+| |
+
+The reduction in EBITDA for the transmission
+segment is mainly associated with the recognition of a decrease in the contract asset, in the amount of R$198,895, net of PIS/Pasep and
+Cofins, resulting from the remeasurement of the Existing System Basic Network (RBSE), due to changes introduced by Homologation Resolution
+No. 3,469/2025. Further details can be found in explanatory note No. 10.
+
+Transmission concession revenue
+
+The Company’s transmission
+revenue is composed of: (i) operation and maintenance revenue, (ii) construction revenue, and (iii) financial remuneration of the contractual
+asset.
+
+Construction, reinforcement, and
+infrastructure improvement revenues totaled R$179,130 in the second quarter of 2025, compared to R$104,891 in the same period of 2024,
+representing a 70.78% increase. This variation is primarily due to the higher volume of investments in reinforcement and improvement works,
+project development, and the significant supply of high-value equipment.
+
+14
+Av. Barbacena, 1200 – Santo Agostinho – 30190-131 Belo Horizonte, MG – Brazil – Fax (+55-31) 3506-5026 – Tel.: (+55-31) 3506-5024
+
+This text is a translation, provided for information only. The original text in Portuguese is the legally valid version.
+|
+
+| |
+| |
+
+Construction
+costs
+
+The
+transmission construction cost amounted to R$138,924 in the second quarter of 2025, compared to R$72,720 in the same period of 2024, representing
+an increase of 91.04% . The variation in value mainly reflects
+the largest volume was invested in reinforcement and improvement works, in the development of projects, with a significant supply of equipment
+that carries high financial value.
+
+Remeasurement
+of the Existing System's Basic Network (RBSE)
+
+In June 2025, ANEEL
+published Resolution No. 3,469, which amended the Allowed Annual Revenue (RAP) related to the financial component of the assets of the
+Existing System's Basic Network (RBSE), previously approved by Resolution No. 2,852/2021. As a result, the Company carried out the remeasurement
+of the RBSE contract asset, recording a reduction of R$219,168 in the contract asset. Further details can be found in explanatory note
+No. 10.
+
+Finance income
+(expenses)
+
+The transmission segment recorded
+a net financial expense of R$3,207 in the second quarter of 2025, compared to a net financial expense of R$41,764 in the same period of
+the previous year, representing a 92.32% reduction. Until December 2024, the Company recorded foreign exchange variation on loans related
+to Eurobonds. In accordance with the Company's policy, the allocation of this expense across segments impacted Generation, Transmission,
+and Equity Interests. The settlement of the Eurobonds in December 2024 eliminated Cemig’s exposure.
+
+Detailed information on the variations
+and impacts presented in this segment is available in Cemig GT’s interim financial statements.
+
+Performance of the Generation
+Segment
+
+The generation segment reported a
+net income of R$449,724 in the second quarter of 2025, compared to R$315,039, representing a 42.75% increase ,
+mainly due to changes in the financial result for the period.
+
+This segment recorded net financial
+income of R$15,614 in the second quarter of 2025, compared to net financial expenses of R$75,996 in the same period of the previous year.
+Until December 2024, the Company accounted for exchange rate variations on loans related to Eurobonds. The allocation of this expense
+by segment, in accordance with the Company's policy, impacted the Generation, Transmission, and Holdings segments. The settlement of the
+Eurobonds in December 2024 eliminated Cemig’s exposure.
+
+15
+Av. Barbacena, 1200 – Santo Agostinho – 30190-131 Belo Horizonte, MG – Brazil – Fax (+55-31) 3506-5026 – Tel.: (+55-31) 3506-5024
+
+This text is a translation, provided for information only. The original text in Portuguese is the legally valid version.
+|
+
+| |
+| |
+
+Earnings Before Interest, Taxes,
+Depreciation and Amortization (EBITDA)
+
+EBITDA – Generation Segment |
+Apr to jun/2025 |
+Apr to jun/2024 |
+Variation % |
+
+Net Income for the Period |
+449,724 |
+315,039 |
+42.75% |
+
+Income Tax and Social Contribution Expense |
+31,781 |
+58,300 |
+-45.49% |
+
+Financial Result |
+(15,614) |
+75,996 |
+- |
+
+Depreciation and Amortization |
+78,044 |
+83,670 |
+-6.72% |
+
+EBITDA According to CVM Resolution 156 |
+543,935 |
+533,005 |
+2.05% |
+
+Non-Recurring and Non-Cash Effects |
+|
+|
+|
+
+Remeasurement of Post-Employment Benefit Liabilities |
+(2,302) |
+- |
+- |
+
+Voluntary Termination Program |
+1,920 |
+9,312 |
+-79.38% |
+
+Reversal of Tax Provisions – INSS on Profit Sharing (Note 22) |
+- |
+(30,503) |
+- |
+
+Adjusted EBITDA |
+
+543,553
+|
+
+511,814
+|
+
+6.20%
+|
+
+The EBITDA evolution is as follows:
+
+Detailed information on the variations
+and impacts presented in this segment is available in Cemig GT’s interim financial statements.
+
+Performance of the Trading Segment
+
+The Trading Segment recorded a net
+profit of R$6,481 in the second quarter of 2025, compared to R$101,008 in the second quarter of 2024, representing a 93.58%
+decrease . This variation is mainly due to the increase in short-term electricity costs, primarily driven by the Company's exposure
+to price differences between submarkets.
+
+EBITDA – Trading Segment |
+Apr to jun/2025 |
+Apr to jun/2024 |
+Variation % |
+
+Net Income for the Period |
+6,481 |
+101,008 |
+-93,58% |
+
+Income Tax and Social Contribution Expense |
+(3,961) |
+(576) |
+587,67% |
+
+Financial Result |
+(4,121) |
+(6,921) |
+-40,46% |
+
+Depreciation and Amortization |
+3 |
+4 |
+-25,00% |
+
+EBITDA According to CVM Resolution 156 |
+(1,598) |
+93,515 |
+- |
+
+Non-Recurring and Non-Cash Effects |
+|
+|
+|
+
+Remeasurement of Post-Employment Benefit Liabilities |
+(326) |
+- |
+- |
+
+Recognition of Civil Provisions – Energy Purchase and Sale |
+- |
+52,647 |
+- |
+
+Voluntary Termination Program |
+272 |
+1,541 |
+-82,35% |
+
+Reversal of Tax Provisions – INSS on Profit Sharing (Note 22) |
+- |
+(5,049) |
+- |
+
+Adjusted EBITDA |
+(1,652) |
+142,654 |
+- |
+
+16
+Av. Barbacena, 1200 – Santo Agostinho – 30190-131 Belo Horizonte, MG – Brazil – Fax (+55-31) 3506-5026 – Tel.: (+55-31) 3506-5024
+
+This text is a translation, provided for information only. The original text in Portuguese is the legally valid version.
+|
+
+| |
+| |
+
+The cost of electricity purchased
+for resale amounted to R$1,950,946 in the second quarter of 2025, compared to R$1,469,585 in the second quarter of 2024, representing
+a 32.75% increase. The main reasons for this increase are detailed below.
+
+Electricity Costs – Price
+Differences Between Submarkets
+
+Due to transmission constraints,
+flow optimization, and system balancing, the National Interconnected System ( Sistema Interligado Nacional, or SIN ) is divided into
+four submarkets: South (S), Southeast/Central-West (SE/CO), Northeast (NE), and North (NO).
+
+In addition to its own resources,
+the Company also relies on energy acquired from third parties to meet market demand. Since 2018, the Company has contracted an average
+of 900 MW from solar and wind energy projects located in the Northeast to supply most of its load, which is concentrated in the South
+and Southeast/Central-West submarkets. The current composition of the Company’s energy portfolio results in a surplus in the Northeast
+submarket and a deficit in the Southeast/Central-West submarket. Due to transmission constraints between submarkets, short-term prices
+may vary across regions.
+
+The price received for the sale of
+surplus energy in the Northeast and the price paid for energy acquired to cover the deficit in the South and Southeast/Central-West is
+measured by the PLD (Settlement Price for the Differences) established for each of these submarkets. When the PLD is the same across submarkets,
+there is no impact on the Company’s results. However, in the second quarter, due to transmission constraints between submarkets,
+combined with changes in the system operation planning model and low inflows, there was a price divergence among the submarkets.
+
+17
+Av. Barbacena, 1200 – Santo Agostinho – 30190-131 Belo Horizonte, MG – Brazil – Fax (+55-31) 3506-5026 – Tel.: (+55-31) 3506-5024
+
+This text is a translation, provided for information only. The original text in Portuguese is the legally valid version.
+|
+
+| |
+| |
+
+The PLDs (Settlement Prices for the
+Differences) observed for the second quarter of 2025 and 2024 are as follows:
+
+|
+Southeast/Central-West (SE/CO) |
+South (S) |
+Northeast (NE) |
+North (NO) |
+
+April 2024 |
+61.07 |
+61.07 |
+61.07 |
+61.07 |
+
+May 2024 |
+61.07 |
+61.07 |
+61.07 |
+61.07 |
+
+June 2024 |
+66.41 |
+66.40 |
+66.40 |
+66.41 |
+
+April 2025 |
+202.18 |
+202.98 |
+107.28 |
+107.27 |
+
+May 2025 |
+212.58 |
+233.39 |
+124.98 |
+125.19 |
+
+June 2025 |
+234.71 |
+236.10 |
+230.90 |
+232.29 |
+
+As presented in the previous table,
+during the second quarter of 2024, despite the Company's exposure to submarkets, there was no difference between the PLDs of the SE/CO,
+South, and Northeast submarkets, resulting in no impact on earnings. In the second quarter of 2025, however, the price differences between
+submarkets negatively affected the Company's results by R$76,133, increasing short-term energy purchase costs. This amount represents
+the residual effect between the sale of surplus energy in the Northeast and the purchase of energy in the South and Southeast submarkets.
+
+The following chart details the Company’s
+exposure, in average MW (MWm), and the price difference between the SE/CO and South submarkets (analyzed jointly) compared to the Northeast
+submarket.
+
+Performance of the Gas Segment
+
+The Gas Segment recorded a net profit
+of R$150,820 in the second quarter of 2025, compared to R$137,823 in the second quarter of 2024, an increase of 9.43%. This variation
+was mainly driven by changes in financial results.
+
+I n the second quarter
+of 2025, the Gas Segment recorded financial income of R$4,533, compared to financial expenses of R$11,937 in the same period of the previous
+year. In fiscal year 2024, Gasmig did not have financial operations with interest eligible for capitalization. In December 2024, with
+the 9th debenture issuance, Gasmig raised funds for investments in its distribution network. The interest accrued on the operation was
+fully allocated to assets under construction during the period, resulting in improved financial performance.
+
+18
+Av. Barbacena, 1200 – Santo Agostinho – 30190-131 Belo Horizonte, MG – Brazil – Fax (+55-31) 3506-5026 – Tel.: (+55-31) 3506-5024
+
+This text is a translation, provided for information only. The original text in Portuguese is the legally valid version.
+|
+
+| |
+| |
+
+Ebitda - Gas Segment |
+Apr–Jun/2025 (R$) |
+Apr–Jun/2024 (R$) |
+Variation (%) |
+
+Net Income for the Period |
+150,820 |
+137,823 |
+9.43% |
+
+Income Tax and Social Contribution Expense |
+71,765 |
+62,904 |
+14.09% |
+
+Financial Result |
+(4,533) |
+11,937 |
+– |
+
+Depreciation and Amortization |
+25,438 |
+24,085 |
+5.62% |
+
+EBITDA – per CVM Resolution 156 |
+243,490 |
+236,749 |
+2.85% |
+
+Non-recurring and Non-cash Effects |
+|
+|
+|
+
+Net Income Attributable to Non-controlling Shareholders |
+(648) |
+(593) |
+9.27% |
+
+Adjusted EBITDA |
+242,842 |
+236,156 |
+2.83% |
+
+Additional detailed information regarding
+the variations and impacts presented in this segment is available in Gasmig’s interim financial statements.
+
+Equity interests, and the holding
+company
+
+The Equity Interests and Holding
+Segment recorded a net profit of R$33,547 in the second quarter of 2025, compared to a net loss of R$34,668 in the second quarter of 2024.
+
+Adjusted EBITDA – Holding/Investments Segment |
+Apr–Jun/2025 (R$) |
+Apr–Jun/2024 (R$) |
+Variation (%) |
+
+Net Income for the Period |
+33,547 |
+(34,668) |
+– |
+
+Income Tax and Social Contribution Expense |
+(20,474) |
+(35,966) |
+– |
+
+Financial Result |
+26,577 |
+64,564 |
+-58.84% |
+
+Depreciation and Amortization |
+5,884 |
+5,967 |
+-1.39% |
+
+EBITDA – per CVM Resolution 156 |
+45,534 |
+(103) |
+– |
+
+Non-recurring and Non-cash Effects |
+|
+|
+|
+
+Post-employment Liability Remeasurement |
+(948) |
+– |
+– |
+
+Voluntary Termination Program |
+1,200 |
+763 |
+57.27% |
+
+Reversal of Tax Provisions – INSS on Profit Sharing |
+– |
+(2,500) |
+– |
+
+Adjusted EBITDA |
+45,786 |
+(1,840) |
+– |
+
+19
+Av. Barbacena, 1200 – Santo Agostinho – 30190-131 Belo Horizonte, MG – Brazil – Fax (+55-31) 3506-5026 – Tel.: (+55-31) 3506-5024
+
+This text is a translation, provided for information only. The original text in Portuguese is the legally valid version.
+|
+
+| |
+| |
+
+This variation is mainly associated
+with the higher equity method result recorded for the jointly controlled entity Taesa, which amounted to R$106,957 in the second quarter
+of 2025, compared to R$51,707 in the same period of the previous year.
+
+20
+Av. Barbacena, 1200 – Santo Agostinho – 30190-131 Belo Horizonte, MG – Brazil – Fax (+55-31) 3506-5026 – Tel.: (+55-31) 3506-5024
+
+This text is a translation, provided for information only. The original text in Portuguese is the legally valid version.
+|
+
+| |
+| |
+
+INTERIM FINANCIAL INFORMATION
+
+STATEMENTS OF FINANCIAL POSITION
+
+AS OF JUNE 30, 2025, AND DECEMBER
+31, 2024
+
+ASSETS
+
+(In thousands of Brazilian Reais)
+
+|
+Note |
+Consolidated |
+Parent company |
+
+Jun. 30, 2025 |
+Dec. 31, 2024 |
+Jun. 30, 2025 |
+Dec. 31, 2024 |
+
+CURRENT |
+|
+|
+|
+|
+|
+
+Cash and cash equivalents |
+5 |
+1,757,787 |
+1,898,224 |
+134,464 |
+417,258 |
+
+Marketable securities |
+6 |
+1,221,070 |
+357,913 |
+291,356 |
+3,743 |
+
+Receivables from customers, traders and concession holders |
+7 |
+5,651,867 |
+5,596,248 |
+421,758 |
+454,286 |
+
+Concession financial assets |
+9 |
+1,232,360 |
+1,190,020 |
+- |
+- |
+
+Concession contract assets |
+10 |
+1,109,923 |
+1,140,037 |
+- |
+- |
+
+Recoverable taxes |
+|
+551,193 |
+510,963 |
+3,515 |
+1,687 |
+
+Income tax and social contribution tax credits |
+8a |
+152,812 |
+7,283 |
+- |
+- |
+
+Dividends receivables |
+24 |
+63,382 |
+111,367 |
+2,192,679 |
+2,088,913 |
+
+Restricted Funds |
+17 |
+45,106 |
+235,206 |
+2,514 |
+11,465 |
+
+Public lighting contribution |
+|
+327,073 |
+296,061 |
+- |
+- |
+
+Reimbursement of tariff subsidies |
+|
+623,470 |
+208,688 |
+- |
+- |
+
+Other assets |
+|
+819,038 |
+623,708 |
+38,051 |
+55,566 |
+
+|
+|
+
+13,555,081
+|
+
+12,175,718
+|
+
+3,084,337
+|
+
+3,032,918
+|
+
+|
+|
+|
+|
+|
+|
+
+Assets classified as held for sale |
+27 |
+57,114 |
+56,864 |
+- |
+- |
+
+|
+|
+|
+|
+|
+|
+
+TOTAL CURRENT |
+|
+
+13,612,195
+|
+
+12,232,582
+|
+
+3,084,337
+|
+
+3,032,918
+|
+
+|
+|
+|
+|
+|
+|
+
+NON-CURRENT |
+|
+|
+|
+|
+|
+
+Long-term assets |
+|
+24,985,060 |
+23,365,059 |
+2,506,907 |
+2,338,017 |
+
+Marketable securities |
+6 |
+56,439 |
+134,606 |
+14,284 |
+1,215 |
+
+Receivables from customers, traders and concession holders |
+7 |
+276,672 |
+253,925 |
+2,829 |
+3,863 |
+
+Recoverable taxes |
+|
+1,507,199 |
+1,454,662 |
+576,003 |
+564,822 |
+
+Income tax and social contribution tax recoverable |
+8a |
+511,669 |
+582,348 |
+323,037 |
+239,102 |
+
+Deferred income tax and social contribution tax |
+8c |
+2,348,044 |
+2,333,721 |
+1,155,644 |
+1,089,940 |
+
+Escrow deposits |
+|
+1,207,197 |
+1,196,083 |
+318,445 |
+324,763 |
+
+Reimbursement of tariff subsidies |
+|
+15,620 |
+- |
+- |
+- |
+
+Accounts receivable from the State of Minas Gerais |
+24 |
+34,987 |
+40,393 |
+34,987 |
+40,393 |
+
+Concession financial assets |
+9 |
+7,642,329 |
+6,881,394 |
+- |
+- |
+
+Concession contract assets |
+10 |
+11,243,748 |
+10,326,877 |
+- |
+- |
+
+Other assets |
+|
+141,156 |
+161,050 |
+81,678 |
+73,919 |
+
+Investments - Equity method |
+11 |
+3,275,291 |
+3,221,020 |
+27,227,104 |
+27,054,069 |
+
+Property, plant and equipment |
+12 |
+3,910,084 |
+3,715,105 |
+656 |
+713 |
+
+Intangible assets |
+13 |
+17,247,304 |
+16,805,900 |
+5,332 |
+4,004 |
+
+Leasing - right of use assets |
+14a |
+381,295 |
+387,170 |
+2,359 |
+2,417 |
+
+TOTAL NON-CURRENT |
+|
+
+49,799,034
+|
+
+47,494,254
+|
+
+29,742,358
+|
+
+29,399,220
+|
+
+TOTAL ASSETS |
+|
+
+63,411,229
+|
+
+59,726,836
+|
+
+32,826,695
+|
+
+32,432,138
+|
+
+|
+|
+|
+|
+|
+|
+|
+
+The accompanying notes are an integral
+part of these interim financial information.
+
+21
+Av. Barbacena, 1200 – Santo Agostinho – 30190-131 Belo Horizonte, MG – Brazil – Fax (+55-31) 3506-5026 – Tel.: (+55-31) 3506-5024
+
+This text is a translation, provided for information only. The original text in Portuguese is the legally valid version.
+|
+
+| |
+| |
+
+STATEMENTS OF FINANCIAL POSITION
+
+AS OF JUNE 30, 2025, AND DECEMBER
+31, 2024
+
+LIABILITIES
+
+(In thousands of Brazilian Reais)
+
+|
+Note |
+Consolidated |
+Parent company |
+
+Jun. 30, 2025 |
+Dec. 31, 2024 |
+Jun. 30, 2025 |
+Dec. 31, 2024 |
+
+CURRENT |
+|
+|
+|
+|
+|
+
+Suppliers |
+15 |
+3,080,310 |
+2,951,571 |
+370,204 |
+354,177 |
+
+Regulatory charges |
+|
+462,985 |
+343,944 |
+- |
+- |
+
+Profit sharing |
+|
+92,893 |
+111,045 |
+11,487 |
+18,398 |
+
+Taxes payable |
+16 |
+749,371 |
+724,521 |
+137,322 |
+133,146 |
+
+Income tax and social contribution |
+8b |
+159,260 |
+162,975 |
+- |
+- |
+
+Interest on equity and dividends payable |
+|
+2,865,571 |
+3,611,198 |
+2,862,904 |
+3,608,821 |
+
+Debentures |
+17 |
+2,747,228 |
+2,876,548 |
+- |
+- |
+
+Payroll and related charges |
+|
+255,802 |
+217,415 |
+13,573 |
+11,782 |
+
+Public lighting contribution |
+|
+496,942 |
+475,032 |
+- |
+- |
+
+Accounts payable related to energy generated by residential consumers |
+|
+1,640,563 |
+1,251,298 |
+- |
+- |
+
+Post-employment obligations |
+18 |
+218,428 |
+232,898 |
+25,839 |
+20,406 |
+
+Concession financial liabilities |
+9 |
+- |
+16,470 |
+- |
+- |
+
+Amounts to refund to customers |
+16 |
+371,510 |
+526,499 |
+- |
+- |
+
+Leasing liabilities |
+14b |
+86,030 |
+79,228 |
+233 |
+233 |
+
+Other liabilities |
+|
+446,189 |
+565,166 |
+42,641 |
+44,373 |
+
+TOTAL CURRENT |
+|
+
+13,673,082
+|
+
+14,145,808
+|
+
+3,464,203
+|
+
+4,191,336
+|
+
+|
+|
+|
+|
+|
+|
+
+NON-CURRENT |
+|
+|
+|
+|
+|
+
+Regulatory charges |
+|
+128,466 |
+171,893 |
+4,624 |
+4,624 |
+
+Debentures |
+17 |
+12,516,709 |
+9,402,752 |
+- |
+- |
+
+Taxes payable |
+16 |
+487,885 |
+496,253 |
+- |
+- |
+
+Deferred income tax and social contribution |
+8c |
+1,421,542 |
+1,543,290 |
+- |
+- |
+
+Provisions |
+19 |
+1,959,945 |
+1,853,043 |
+346,870 |
+333,908 |
+
+Post-employment obligations |
+18 |
+4,117,758 |
+4,072,608 |
+533,309 |
+519,931 |
+
+Amounts to refund to customers |
+16 |
+158,531 |
+166,089 |
+- |
+- |
+
+Leasing liabilities |
+14b |
+340,262 |
+349,972 |
+2,547 |
+2,579 |
+
+Other liabilities |
+|
+128,189 |
+142,049 |
+1,975 |
+1,974 |
+
+TOTAL NON-CURRENT |
+|
+
+21,259,287
+|
+
+18,197,949
+|
+
+889,325
+|
+
+863,016
+|
+
+TOTAL LIABILITIES |
+|
+
+34,932,369
+|
+
+32,343,757
+|
+
+4,353,528
+|
+
+5,054,352
+|
+
+|
+|
+|
+|
+|
+|
+
+EQUITY |
+|
+|
+|
+|
+|
+
+Share capital |
+20 |
+14,308,909 |
+14,308,909 |
+14,308,909 |
+14,308,909 |
+
+Capital reserves |
+|
+393,093 |
+393,093 |
+393,093 |
+393,093 |
+
+Profit reserves |
+|
+13,575,648 |
+13,575,648 |
+13,575,648 |
+13,575,648 |
+
+Equity valuation adjustments |
+|
+(898,517) |
+(899,864) |
+(898,517) |
+(899,864) |
+
+Retained earnings |
+|
+1,094,034 |
+- |
+1,094,034 |
+- |
+
+EQUITY ATTRIBUTABLE TO EQUITY HOLDERS OF THE PARENT |
+|
+
+28,473,167
+|
+
+27,377,786
+|
+
+28,473,167
+|
+
+27,377,786
+|
+
+Non-Controlling interests |
+|
+5,693 |
+5,293 |
+- |
+- |
+
+TOTAL EQUITY |
+|
+
+28,478,860
+|
+
+27,383,079
+|
+
+28,473,167
+|
+
+27,377,786
+|
+
+TOTAL LIABILITIES AND EQUITY |
+|
+
+63,411,229
+|
+
+59,726,836
+|
+
+32,826,695
+|
+
+32,432,138
+|
+
+The accompanying notes are an integral
+part of these interim financial information.
+
+22
+Av. Barbacena, 1200 – Santo Agostinho – 30190-131 Belo Horizonte, MG – Brazil – Fax (+55-31) 3506-5026 – Tel.: (+55-31) 3506-5024
+
+This text is a translation, provided for information only. The original text in Portuguese is the legally valid version.
+|
+
+| |
+| |
+
+INCOME STATEMENTS
+
+FOR THE SIX-MONTH PERIODS ENDED
+JUNE 30, 2025, AND 2024
+
+(In thousands of Brazilian Reais,
+except earnings per share)
+
+|
+Note |
+Consolidated |
+Parent company |
+
+Jan to Jun/2025 |
+Jan to Jun/2024 |
+Jan to Jun/2025 |
+Jan to Jun/2024 |
+
+|
+|
+|
+|
+|
+|
+
+NET REVENUE |
+21 |
+20,630,526 |
+18,493,858 |
+1,976,693 |
+1,952,784 |
+
+|
+|
+|
+|
+|
+|
+
+COSTS |
+|
+|
+|
+|
+|
+
+Cost of energy and gas |
+22a |
+(11,331,859) |
+(9,883,222) |
+(1,874,653) |
+(1,568,732) |
+
+Infrastructure and construction cost |
+22b |
+(2,665,235) |
+(2,147,914) |
+- |
+- |
+
+Operating costs |
+22c |
+(2,642,633) |
+(1,933,575) |
+(12,030) |
+(11,940) |
+
+|
+|
+
+(16,639,727)
+|
+
+(13,964,711)
+|
+
+(1,886,683)
+|
+
+(1,580,672)
+|
+
+|
+|
+|
+|
+|
+|
+
+GROSS PROFIT |
+|
+
+3,990,799
+|
+
+4,529,147
+|
+
+90,010
+|
+
+372,112
+|
+
+|
+|
+|
+|
+|
+|
+
+EXPENSES AND OTHER REVENUE |
+|
+|
+|
+|
+|
+
+Expected credit losses |
+22c |
+(53,726) |
+(153,153) |
+87 |
+(9,309) |
+
+General and administrative expenses |
+22c |
+(371,569) |
+(375,446) |
+(36,671) |
+(20,956) |
+
+Other expenses |
+22c |
+(580,594) |
+(457,253) |
+(73,894) |
+(77,515) |
+
+Other revenue |
+22d |
+- |
+42,989 |
+- |
+|
+
+|
+|
+
+(1,005,889)
+|
+
+(942,863)
+|
+
+(110,478)
+|
+
+(107,780)
+|
+
+|
+|
+|
+|
+|
+|
+
+Share of profit, net, of affiliates, subsidiaries and joint ventures |
+11 |
+119,537 |
+129,212 |
+2,211,366 |
+2,593,461 |
+
+Income before financial revenue (expenses) and taxes |
+|
+
+3,104,447
+|
+
+3,715,496
+|
+
+2,190,898
+|
+
+2,857,793
+|
+
+|
+|
+|
+|
+|
+|
+
+Finance income |
+23 |
+485,442 |
+927,008 |
+(29,476) |
+26,961 |
+
+Finance expenses |
+23 |
+(998,033) |
+(989,875) |
+(859) |
+(306) |
+
+|
+|
+
+(512,591)
+|
+
+(62,867)
+|
+
+(30,335)
+|
+
+26,655
+|
+
+|
+|
+|
+|
+|
+|
+
+Income before income tax and social contribution tax |
+|
+
+2,591,856
+|
+
+3,652,629
+|
+
+2,160,563
+|
+
+2,884,448
+|
+
+|
+|
+|
+|
+|
+|
+
+Current income tax and social contribution tax |
+8d |
+(508,224) |
+(409,241) |
+- |
+(41,436) |
+
+Deferred income tax and social contribution tax |
+8d |
+143,389 |
+(401,911) |
+65,318 |
+(2,631) |
+
+|
+|
+
+(364,835)
+|
+
+(811,152)
+|
+
+65,318
+|
+
+(44,067)
+|
+
+|
+|
+|
+|
+|
+|
+
+NET INCOME FOR THE PERIOD |
+|
+
+2,227,021
+|
+
+2,841,477
+|
+
+2,225,881
+|
+
+2,840,381
+|
+
+Total of net income for the period attributed to: |
+|
+|
+|
+|
+|
+
+Equity holders of the parent |
+|
+2,225,881 |
+2,840,381 |
+2,225,881 |
+2,840,381 |
+
+Non-controlling interests |
+|
+1,140 |
+1,096 |
+- |
+- |
+
+|
+|
+
+2,227,021
+|
+
+2,841,477
+|
+
+2,225,881
+|
+
+2,840,381
+|
+
+Basic and diluted earnings per preferred share - R$ |
+20 |
+0,78 |
+0.99 |
+|
+|
+
+Basic and diluted earnings per common share - R$ |
+20 |
+0,78 |
+0.99 |
+|
+|
+
+The accompanying notes are an integral
+part of these interim financial information.
+
+23
+Av. Barbacena, 1200 – Santo Agostinho – 30190-131 Belo Horizonte, MG – Brazil – Fax (+55-31) 3506-5026 – Tel.: (+55-31) 3506-5024
+
+This text is a translation, provided for information only. The original text in Portuguese is the legally valid version.
+|
+
+| |
+| |
+
+INCOME STATEMENTS
+
+FOR THE THREE-MONTH PERIODS ENDED
+JUNE 30, 2025, AND 2024
+
+(In thousands of Brazilian Reais,
+except earnings per share)
+
+|
+Note |
+Consolidated |
+Parent company |
+
+Apr to Jun/2025 |
+Apr to Jun/2024 |
+Apr to Jun/2025 |
+Apr to Jun/2024 |
+
+NET REVENUE |
+21 |
+10,786,295 |
+9,435,991 |
+1,032,471 |
+942,588 |
+
+|
+|
+|
+|
+|
+|
+
+COSTS |
+|
+|
+|
+|
+|
+
+Cost of energy and gas |
+22a |
+(5,809,115) |
+(5,019,191) |
+(948,688) |
+(773,477) |
+
+Infrastructure and construction cost |
+22b |
+(1,463,371) |
+(1,226,933) |
+- |
+- |
+
+Operating costs |
+22c |
+(1,363,676) |
+(686,180) |
+(5,867) |
+(5,990) |
+
+|
+|
+
+(8,636,162)
+|
+
+(6,932,304)
+|
+
+(954,555)
+|
+
+(779,467)
+|
+
+|
+|
+|
+|
+|
+|
+
+GROSS PROFIT |
+|
+
+2,150,133
+|
+
+2,503,687
+|
+
+77,916
+|
+
+163,121
+|
+
+|
+|
+|
+|
+|
+|
+
+EXPENSES AND OTHER REVENUE |
+|
+|
+|
+|
+|
+
+Expected credit losses |
+22c |
+(3,098) |
+(77,300) |
+28 |
+(3,315) |
+
+General and administrative expenses |
+22c |
+(177,602) |
+(205,700) |
+(14,064) |
+(5,437) |
+
+Other expenses |
+22c |
+(405,801) |
+(226,594) |
+(43,763) |
+(48,895) |
+
+|
+|
+
+(586,501)
+|
+
+(509,594)
+|
+
+(57,799)
+|
+
+(57,647)
+|
+
+|
+|
+|
+|
+|
+|
+
+Share of profit, net, of affiliates, subsidiaries and joint ventures |
+|
+77,418 |
+38,711 |
+1,166,096 |
+1,578,346 |
+
+Income before financial revenue (expenses) and taxes |
+|
+
+1,641,050
+|
+
+2,032,804
+|
+
+1,186,213
+|
+
+1,683,820
+|
+
+|
+|
+|
+|
+|
+|
+
+Finance income |
+23 |
+302,444 |
+725,474 |
+(13,578) |
+13,885 |
+
+Finance expenses |
+23 |
+(565,404) |
+(607,355) |
+(81) |
+(96) |
+
+|
+|
+
+(262,960)
+|
+
+118,119
+|
+
+(13,659)
+|
+
+13,789
+|
+
+|
+|
+|
+|
+|
+|
+
+Income before income tax and social contribution tax |
+|
+
+1,378,090
+|
+
+2,150,923
+|
+
+1,172,554
+|
+
+1,697,609
+|
+
+|
+|
+|
+|
+|
+|
+
+Current income tax and social contribution tax |
+8d |
+(249,538) |
+(149,309) |
+- |
+(10,930) |
+
+Deferred income tax and social contribution tax |
+8d |
+59,729 |
+(313,028) |
+15,079 |
+1,314 |
+
+|
+|
+
+(189,809)
+|
+
+(462,337)
+|
+
+15,079
+|
+
+(9,616)
+|
+
+|
+|
+|
+|
+|
+|
+
+NET INCOME FOR THE PERIOD |
+|
+
+1,188,281
+|
+
+1,688,586
+|
+
+1,187,633
+|
+
+1,687,993
+|
+
+Total of net income for the period attributed to: |
+|
+|
+|
+|
+|
+
+Equity holders of the parent |
+|
+1,187,633 |
+1,687,993 |
+1,187,633 |
+1,687,993 |
+
+Non-controlling interests |
+|
+648 |
+593 |
+- |
+- |
+
+|
+|
+
+1,188,281
+|
+
+1,688,586
+|
+
+1,187,633
+|
+
+1,687,993
+|
+
+Basic and diluted earnings per preferred share - R$ |
+20 |
+0,42 |
+0.59 |
+|
+|
+
+Basic and diluted earnings per common share - R$ |
+20 |
+0,42 |
+0.59 |
+|
+|
+
+The accompanying notes are an integral
+part of these interim financial information.
+
+24
+Av. Barbacena, 1200 – Santo Agostinho – 30190-131 Belo Horizonte, MG – Brazil – Fax (+55-31) 3506-5026 – Tel.: (+55-31) 3506-5024
+
+This text is a translation, provided for information only. The original text in Portuguese is the legally valid version.
+|
+
+| |
+| |
+
+STATEMENTS OF COMPREHENSIVE INCOME
+
+FOR THE SIX-MONTH PERIODS ENDED
+JUNE 30, 2025, AND 2024
+
+(In thousands of Brazilian Reais)
+
+|
+Consolidated |
+Parent company |
+
+Jan to Jun/2025 |
+Jan to Jun/2024 |
+Jan to Jun/2025 |
+Jan to Jun/2024 |
+
+NET INCOME FOR THE PERIOD |
+
+2,227,021
+|
+
+2,841,477
+|
+
+2,225,881
+|
+
+2,840,381
+|
+
+OTHER COMPREHENSIVE INCOME |
+|
+|
+|
+|
+
+Items that will not be reclassified to profit or loss in subsequent periods |
+|
+|
+|
+|
+
+Post retirement liabilities - remeasurement of obligations of the defined benefit plans |
+11,006 |
+- |
+(1,134) |
+- |
+
+Income tax and social contribution tax on remeasurement of defined benefit plans |
+(3,742) |
+- |
+386 |
+- |
+
+Equity gain (loss) on other comprehensive income in subsidiary and jointly controlled entity |
+- |
+- |
+8,012 |
+- |
+
+Other comprehensive income |
+- |
+(734) |
+- |
+(734) |
+
+|
+
+7,264
+|
+
+(734)
+|
+
+7.264
+|
+
+(734)
+|
+
+COMPREHENSIVE INCOME FOR THE PERIOD, NET OF TAXES |
+
+2,234,285
+|
+
+2,840,743
+|
+
+2,233,145
+|
+
+2,839,647
+|
+
+|
+|
+|
+|
+|
+
+Total of comprehensive income for the period attributed to: |
+|
+|
+|
+|
+
+Equity holders of the parent |
+2,233,145 |
+2,839,647 |
+2,233,145 |
+2,839,647 |
+
+Non-controlling interests |
+1.140 |
+1.096 |
+- |
+- |
+
+|
+
+2,234,285
+|
+
+2,840,743
+|
+
+2,233,145
+|
+
+2,839,647
+|
+
+The accompanying notes are an integral
+part of these interim financial information.
+
+STATEMENTS OF COMPREHENSIVE INCOME
+
+FOR THE THREE-MONTH PERIODS ENDED
+JUNE 30, 2025, AND 2024
+
+(In thousands of Brazilian Reais)
+
+|
+Consolidated |
+Parent company |
+
+Apr to Jun/2025 |
+Apr to Jun/2024 |
+Apr to Jun/2025 |
+Apr to Jun/2024 |
+
+NET INCOME FOR THE PERIOD |
+
+1,188,281
+|
+
+1,688,586
+|
+
+1,187,633
+|
+
+1,687,993
+|
+
+OTHER COMPREHENSIVE INCOME |
+|
+|
+|
+|
+
+Items that will not be reclassified to profit or loss in subsequent periods |
+|
+|
+|
+|
+
+Post retirement liabilities - remeasurement of obligations of the defined benefit plans |
+(48,731) |
+- |
+(5,791) |
+- |
+
+Income tax and social contribution tax on remeasurement of defined 

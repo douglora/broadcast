@@ -1,0 +1,2390 @@
+[p. 1]
+1 
+ 
+Release de 
+Resultados 
+ 
+1T
+26 
+MAIO 
+2026
+
+[p. 2]
+2 
+SUMÁRIO 
+ 
+Destaques ....................................................................................................................................................... 4 
+Carta da Administração ................................................................................................................................... 6 
+Mercado de Energia ......................................................................................................................................... 7 
+Desempenho Operacional .............................................................................................................................. 10 
+Hidrelétrica ................................................................................................................................................... 10 
+Eólica ........................................................................................................................................................... 11 
+Solar ........................................................................................................................................................... 12 
+Impacto do Curtailment e Ganhos de Modulação ............................................................................................... 14 
+Balanço Energético ........................................................................................................................................ 15 
+Balanço Energético Consolidado ...................................................................................................................... 15 
+Balanço Energético do Segmento de Geração .................................................................................................... 15 
+Balanço Energético do Segmento de Comercialização ......................................................................................... 17 
+Balanço Energético das Participações Minoritárias .............................................................................................. 18 
+Desempenho Financeiro ................................................................................................................................ 19 
+Desempenho Financeiro Consolidado ............................................................................................................... 19 
+Desempenho Financeiro do Segmento de Geração ............................................................................................. 26 
+Desempenho Financeiro do Segmento de Comercialização .................................................................................. 27 
+Desempenho Financeiro das Participações Minoritárias ....................................................................................... 28 
+Outras Informações Relevantes .................................................................................................................... 29 
+Reorganização Societária ................................................................................................................................ 29 
+Visão Geral do Trimestre ............................................................................................................................... 30
+
+[p. 3]
+3 
+Teleconferência 
+ 
+07 de maio de 2026 
+(em português com tradução simultânea para o inglês) 
+10:00h (Brasília) | 09:00h (Nova Iorque) | 14:00h (Londres) 
+Clique aqui para acessar o webcast. 
+ 
+Apresentação de Resultados disponível em: ri.aurenenergia.com.br 
+ 
+ 
+ 
+Contatos 
+ 
+Relações com Investidores 
+o Mateus Ferreira (Vice-Presidente de Finanças e DRI) 
+o Marcelo Sá (Diretor de Relações com Investidores) 
+o Juliana Ramirez (Gerente de Relações com Investidores) 
+o Emille Reckia (Consultora de Relações com Investidores) 
+o Bruna Freixo (Analista de Relações com Investidores) 
+o Bruno Tavares (Analista de Relações com Investidores) 
+ 
+ri@aurenenergia.com.br 
+ri.aurenenergia.com.br 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Em 31 de março de 2026: 
+AURE3: 
+R$ 11,94 
+Valor de Mercado: 
+R$ 12,5 bilhões
+
+[p. 4]
+4 
+Destaques 
+ 
+ 
+ 
+Resiliência do portfólio : no 1T26, a Companhia obteve ganhos de modulação de R$ 97,2 milhões , mitigando 
+integralmente o efeito do curtailment (R$ 86,2 milhões). O ganho total de modulação foi 5 vezes maior do que o 
+observado no 1T25 (R$ 19,4 milhões) . Esse resultado é função do perfil horário de geração da Companhia , da maior 
+volatilidade dos preços e do PLD médio mais elevado no trimestre. 
+Avanço na reorganização societária: a Auren aprovou a primeira etapa da Reorganização Societária , que 
+corresponde à incorporação da Auren Participações pela Auren Operações (Fase 1). O objetivo final da restruturação é 
+concentrar os ativos hidrelétricos em um único veículo (CESP – Companhia Energética de São Paulo ), simplificar a 
+estrutura societária, reduzir o número de subsidiárias de capital aberto e aumentar a eficiência na gestão de caixa 
+e endividamento. A Fase 1 foi aprovada em assembleias e permanece condicionada à implementação de condições 
+precedentes, incluindo aprovações regulatórias e de credores. A última etapa, que corresponde a incorporação da Auren 
+Operações pela Cesp (Fase 2), segue em avaliação pela Companhia. 
+Eficiência na gestão de custos e despesas operacionais: o PMSO aumentou em R$ 11,6 milhões em comparação ao 
+1T25, um crescimento nominal de 3,8%, abaixo da inflação do período . O resultado reflete o compromisso da 
+Companhia com o aprimoramento de processos e ganhos contínuos de eficiência , já tendo entregado 
+R$ 278,7 milhões de sinergias ao longo de 2025. 
+EBITDA Ajustado: a Auren registrou EBITDA Ajustado de R$ 925,9 milhões no 1T26, redução de 23,2% em relação 
+ao mesmo período do ano anterior, reflexo de um resultado menor da comercializadora, do menor recurso eólico e 
+solar e da menor geração hidrelétrica das usinas do MRE. Destacamos que, no 1T25, houve ganhos expressivos na 
+comercializadora decorrentes do deslocamento de PLD entre os submercados SE/CO e N/NE. 
+Disciplina na gestão financeira: a dívida líquida reduziu R$ 135,4 milhões no trimestre, enquanto a alavancagem 
+subiu marginalmente para 5,2x Dívida Líquida/EBITDA Ajustado, devido à queda do EBITDA dos últimos 12 meses (UDM). 
+A trajetória de desalavancagem segue em linha com o planejado, com estabilização em 2026 e queda mais acentuada 
+a partir de 2027. 
+Construção de Cajuína 3: as obras de Cajuína 3, com capacidade instalada de 112,1 MW, apresentam evolução 
+consistente, em linha com o cronograma e o orçamento definidos, com um avanço físico de aproximadamente 72%. 
+Já houve a montagem completa de 8 dos 19 aerogeradores do parque. O comissionamento dos equipamentos está previsto 
+para ocorrer ao longo do ano, enquanto a operação comercial completa é estimada para dezembro de 2026. 
+Auren registra EBITDA Ajustado de R$ 926 milhões no 1T26, com destaque para os 
+ganhos de modulação compensando integralmente o efeito do curtailment no período
+
+[p. 5]
+5 
+| Tabela 1 | Destaques do Período – Informações Operacionais e Financeiras 
+A Auren possui uma capacidade instalada operacional total de 8.722,8 MW, com participação de 100% em ativos próprios 
+de 8.098 MW, dos quais 4.198 MW correspondem à fonte hidrelétrica, 3.023 MW correspondem à capacidade eólica própria 
+e 876 MWac correspondem à fonte solar. Além dos ativos próprios, a Companhia também possui participação minoritária 
+em ativos hidrelétricos (548 MW) e participação de 50% no ativo eólico Tucano Holding III (77 MW). 
+Destaques Operacionais 
+Geração (MW médios) 1T26 1T25 Var. 
+Hidro 2.062,2 2.576,8 -20,0% 
+Eólica2F
+1 835,2 994,9 -16,0% 
+Solar1 186,9 205,2 -8,9% 
+Total Próprios 3.084,4 3.776,9 -18,3% 
+Participações em Ativos Hidrelétricos3F
+2 305,0 307,7 -0,9% 
+Total Próprios e Participações 3.389,4 4.084,6 -17,0% 
+ 
+Destaques Operacionais 
+Disponibilidade Média 1T26 1T25 Var. 
+Eólica 94,2% 92,5% 1,7 p.p. 
+Solar 98,8% 97,6% 1,2 p.p. 
+ 
+Destaques Financeiros 
+(R$ milhões) 1T26 1T25 proforma Var. 
+Receita Líquida 3.074,5 2.952,3 4,1% 
+Geração 1.734,4 1.621,0 7,0% 
+ Hidrelétrica 1.026,5 989,3 3,8% 
+ Eólica 620,9 598,3 3,8% 
+ Solar 133,4 130,6 2,1% 
+ Eliminações da Geração (46,3) (97,2) -52,3% 
+Comercialização 2.025,0 1.787,8 13,3% 
+Eliminações (684,9) (456,5) 50,0% 
+EBITDA Ajustado3 925,9 1.205,3 -23,2% 
+Geração 984,6 1.064,0 -7,5% 
+ Hidrelétrica 615,3 584,2 5,3% 
+ Eólica 315,0 394,4 -20,1% 
+ Solar 54,4 85,3 -36,2% 
+Comercialização (23,8) 161,7 n.a. 
+Holding e Pipeline (35,0) (20,4) 71,6% 
+Margem EBITDA Ajustada 30,1% 40,8% -10,7 p.p. 
+Resultado Líquido (601,6) 54,0 n.a. 
+Dívida Líquida 19.101,7 18.961,8 0,7% 
+Alavancagem 5,2x 4,8x 0,4x 
+ 
+Importante: Tendo em vista a evolução da metodologia de rateio das despesas da Companhia entre segmentos e fontes, passamos a 
+reportar o EBITDA de Geração aberto entre as fontes hidrelétrica, eólica e solar e, para auxiliar o mercado na análise dos resultados e facilitar 
+a visualização e interpretação dos dados do 1T26 da Companhia, os números relativos às Informações Financeiras de 2025 por se gmento 
+são apresentados em uma visão proforma não auditada, considerando a metodologia de rateio aplicada a Compan hia desde 01/01/2025 
+exclusivamente para fins comparativos. 
+_________________________ 
+1 Considera a geração efetiva somada à energia que será ressarcida dado o curtailment classificado como Razão de Indisponibilidade Externa 
+(REL), após atingimento da franquia. Para a fonte eólica, considera 100% da Capacidade Instalada de Tucano Holding III 
+(155 MW), joint-venture entre Auren Participações e Unipar Carbocloro S.A. (50%/50%). 
+2 A geração dos ativos com participação minoritária foi ponderada pela participação econômica indireta da Auren. 
+3 Ajustes detalhados na seção “Desempenho Financeiro”.
+
+[p. 6]
+6 
+Carta da Administração 
+ 
+O primeiro trimestre de 2026 ainda apresentou um ambiente desafiador do ponto de vista operacional e regulatório, mas 
+com fundamentos que começam a indicar um cenário mais equilibrado à frente. Ao longo de 2026, nossos esforços estarão 
+concentrados no aprimoramento de processos internos, na conclusão da reorganização societária, na implementação do 
+orçamento base zero (OBZ) e na busca contínua por eficiênci a. Também estaremos bastante dedicados à execução da 
+estratégia de inteligência artificial da Companhia. A disciplina na alocação de recursos e o aprofundamento dessa agenda 
+de eficiência são pilares centrais para o aumento da competitivi dade da Companhia e para a sustentação da geração de 
+valor no longo prazo. 
+O período úmido 2025-2026 iniciou com vazões abaixo da média e preços de energia elevados. Esse cenário foi persistente 
+até meados de fevereiro de 2026 onde foi observada uma reversão positiva do cenário hidrológico e recuperação gradual 
+das vazões, resultando no replecionamento mais expressivo dos reservatórios do SIN em março. Após iniciar o ano com 
+nível de armazenamento em 45%, a recuperação das vazões ao longo do trimestre permitiu encerrar março em 69%, 
+patamar 13 p.p. acima da média dos últimos dez anos. Ainda assim, o GSF médio do trimestre atingiu 91%, abaixo dos 
+107% registrados no mesmo período do ano anterior, refletindo a menor geração de energia pelas usinas hidrelétricas do 
+MRE. 
+Em resposta ao contexto energético, o PLD médio no submercado SE/CO foi de R$ 308/MWh no 1T26 (vs. R$ 162,3/MWh 
+no 1T25), acompanhado de maior volatilidade horária na ordem de 45%, evidenciando um cenário mais dinâmico e 
+complexo. Seguindo a dinâmica atual de mercado, a tendência é de que tenhamos cada vez mais volatilidade nos preços 
+do mercado de curto prazo (PLD), com reflexo também na curva de preços dos próximos anos, corroborando com a tese 
+de elevação dos preços de longo prazo que vemos tornando-se cada vez mais consensual. 
+Em relação aos cortes de geração (curtailment), o trimestre apresentou níveis médios para o Sistema Interligado Nacional 
+– SIN em linha com os observados no 1T25, com 14,9% para a fonte eólica e 16,2% para a fonte solar. O impacto financeiro 
+bruto sobre o portfólio da Companhia foi de R$ 86,2 milhões no período. No entanto, esse efeito foi integralmente 
+compensado pelos ganhos de modulação, que totalizaram R$ 97,2 milhões, cinco vezes superiores aos registrados no 1T25, 
+refletindo o perfil horário de geração da Companhia, com maior participação de hidrelétrica e eólica, e a maior volatilidade 
+dos preços de energia, como já mencionado. Todo o contexto atual reforça os desafios operacionais e as oportunidades de 
+captura de valor para os agentes bem-posicionados. Com isso, destacamos a importância do equilíbrio entre as diferentes 
+fontes e geografias de nosso portfólio. 
+Nesse contexto, registramos um EBITDA Ajustado de R$ 925,9 milhões no trimestre, uma queda de 23,2% em relação ao 
+1T25, impactada principalmente pelo menor resultado da comercializadora, pelo menor recurso eólico e solar e pela redução 
+da geração hidrelétrica das usinas do MRE. Mesmo em meio a este cenário e com investimento em expansão da nossa 
+capacidade instalada, a geração de caixa pela Companhia permitiu a redução da dívida líquida em R$ 135,4 milhões no 
+trimestre. Ainda assim, a alavancagem subiu marginalmente , para 5,2x Dívida Líquida/EBITDA Ajustado, em função da 
+queda do EBITDA dos últimos 12 meses (UDM) , em linha com a expectativa da Companhia e conforme curva de 
+desalavancagem apresentada em julho de 2025, durante o Auren Day, com estabilidade ao longo de 2026 e intensificação 
+da desalavancagem a partir de 2027. 
+Na agenda de aprimoramento contínuo dos processos internos, o trimestre foi marcado por avanços relevantes. Em abril 
+de 2026, aprovamos a primeira fase da reorganização societária, envolvendo a incorporação reversa da Auren Participações 
+pela Auren Operações. Essa iniciativa representa o primeiro passo de um processo mais amplo que visa concentrar os 
+ativos hidrelétricos em um único veículo, simplificar a estrutura societária e aumentar a eficiência na gestão de caixa e do 
+endividamento. A conclusão da reorganização societária deve ser concluída até o final de 2026. 
+Na frente de crescimento, as obras do projeto Cajuína 3 (112,1 MW) seguem evoluindo de forma consistente, com avanço 
+físico em 72%, alinhado com o cronograma e o orçamento do projeto. O comissionamento está previsto para ocorrer ao 
+longo do ano, com entrada em operação comercial completa estimada para o mês de dezembro, reforçando nossa estratégia 
+de expansão do portfólio renovável. 
+Olhando à frente, acreditamos que, à medida que o ambiente regulatório evolua e as iniciativas em curso amadureçam, a 
+Auren estará posicionada para capturar de forma mais ampla os benefícios dessas transformações. Esperamos concluir, ao 
+longo do ano, as discussões regulatórias relacionadas ao curtailment, criando um ambiente mais previsível e propício para 
+investimentos de longo prazo no setor de geração no Brasil. 
+A partir de 2027, esperamos uma evolução consistente do EBITDA, da geração de caixa e do processo de desalavancagem, 
+mantendo nosso alinhamento estratégico e nos posicionando em meio a um ambiente complexo, transformando desafios 
+em oportunidades e gerando valor sustentável no longo prazo. 
+ 
+ 
+ 
+ Fabio Zanfelice 
+Diretor Presidente 
+Mateus Ferreira 
+Vice-Presidente de Finanças e DRI
+
+[p. 7]
+7 
+Mercado de Energia 
+O período úmido 2025 -2026 (novembro/25 a março /26) começou com uma Energia Natural Afluente (ENA) 
+significativamente abaixo da Média de Longo Termo (MLT), apresentando melhora somente a partir de fevereiro de 2026. 
+O mês de janeiro, por exemplo, que historicamente possui a terceira maior MLT em termos absolutos, registrou uma ENA 
+excepcionalmente baixa, no patamar de 63% da MLT, a quarta pior da série histórica de 94 anos. Como consequência, 
+houve uma recuperação muito tímida dos reservatórios até o final de janeiro, seguido de um aumento significativo no PLD 
+e na curva futura de preços de energia. 
+Esse comportamento hidrológico abaixo da média na maior parte do país é explicado pela influência das águas mais frias 
+do que o normal na região equatorial do Atlântico, região importante para o transporte de umidade em direção ao Brasil. 
+Com esse fluxo de umidade reduzido, a chuva ficou abaixo da média na maioria das regiões. O Nordeste foi a exceção por 
+ter se beneficiado do posicionamento dos eventos de Zona de Convergência do Atlântico Sul (ZCAS), sistema comum no 
+período úmido e que costuma provocar chuvas intensas. 
+Ao longo do mês de fevereiro, houve uma reversão importante de expectativa após a recuperação da ENA, que atingiu uma 
+média mensal de 82% da MLT para o mês e 90% para março. Assim, a média da ENA do SIN para o trimestre foi de 79% 
+da MLT, desempenho 5 p.p. abaixo do observado no mesmo trimestre do ano passado, mas representando uma recuperação 
+significativa de 11 p.p. frente aos 68% da MLT verificado no 4T25. 
+| Tabela 2 | Energia Natural Afluente (ENA) Mensal Bruta no SIN (GW médios) 
+ 
+Fonte: ONS 
+Pelo quarto trimestre consecutivo, as temperaturas no Sudeste/Centro -Oeste ficaram, em geral, abaixo da média 
+climatológica – em resposta à ausência de on das de calor, comuns nesta época do ano. Esse padrão contrasta com o 
+observado no ano anterior, quando ondas de calor intensas atingiram grande parte do país em fevereiro e março, 
+sustentando temperaturas mais elevadas. 
+Nesse cenário, o comportamento das temperaturas continuou impactando de forma relevante a demanda do SIN. A carga 
+global registrada no 1T26 foi de 85,9 GW médios, uma redução de 1,9% em relação ao valor projetado pelo ONS (PLAN 
+2026-301). Na comparação entre os períodos, a carga recuou 0,2% em relação ao 1T25, enquanto registrou alta de 4,7% 
+em relação ao 4T25. 
+Com o aumento da vazão ao longo do trimestre, a trajetória dos reservatórios foi crescente, partindo de 45% da capacidade 
+máxima ao fim do 4T25 para 69% no encerramento do 1T26. Além da melhora das condições hidrológicas, esse acréscimo 
+se deve ao aumento do despacho termelétrico por ordem de mérito de 4,3 GW médios no 1T25 para 6,4 GW médios no 
+1T26. Como resultado, o nível de armazenamento do SIN registrou um aumento de 23 p.p. ao longo do 1T26, 13 p.p. 
+acima da média dos últimos dez anos e um patamar muito próximo aos 70% registrados ao fim do 1T25 , mesmo tendo 
+iniciado 8 p.p. abaixo. 
+| Gráfico 1 | Nível dos Reservatórios do SIN (% Energia Armazenada Máxima) 
+ 
+Fonte: ONS 
+_________________________ 
+1 Relatório do Planejamento Anual da Operação Energética (PMO) 202 6-2030, publicado em dezembro de 2025. 
+ENA Bruta/ 
+MLT Jan Fev Mar Abr Mai Jun Jul Ago Set Out Nov Dez 1T 
+2025 98% 90% 66% 75% 71% 92% 83% 77% 75% 67% 71% 67% 84% 
+2026 63% 82% 90% - - - - - - - - - 79%
+
+[p. 8]
+8 
+Ainda assim, na comparação com o ano anterior, a geração hidrelétrica do MRE foi menor: o 1T26 registrou 52 GW médios 
+vs. 56 GW médios no 1T25 , refletindo a condição hidrológica desfavorável, maior despacho termelétrico e o consumo de 
+energia abaixo do previsto devido a ocorrência de temperaturas abaixo do esperado para o período. Em paralelo, o GSF 
+observado no 1T26 apresentou uma variação negativa de 16 p.p. em relação ao mesmo período de 2025 (91% no 1T26 
+vs. 107% no 1T25), dos quais -8 p.p. se devem à menor geração hidrelétrica e -8 p.p. resultam da maior alocação de 
+garantia física pelos participantes do MRE no primeiro trimestre (57 GW médios no 1T26 vs. 52 GW médios no 1T25 ), 
+conforme ilustrado no Gráfico 2 . Para os agentes que alocaram a garantia física em linha com o MRE em 2025 e 2026, 
+como a Auren, o efeito financeiro está diretamente relacionado ao volume de energia gerada pelas usinas hidrelétricas do 
+MRE, que caiu 8 p.p. em relação ao 1T25. 
+| Gráfico 2 | Deslocamento Hidrelétrico (% GSF) 
+ 
+Fonte: CCEE 
+A geração solar, considerando usinas centralizadas e as plantas de micro e minigeração distribuída (MMGD), ampliou a sua 
+participação no atendimento à carga do SIN, contribuindo com 12,1 GW médios (cerca de 14% da carga) no 1T26 ante 
+10,9 GW médios no 1T25 (12% da carga). A fonte eólica reduziu a participação no atendimento à carga em 1,2 GW médios 
+(-1 p.p.) se comparado ao 1T25, em resposta ao menor recurso eólico entre os trimestres (10,6 GW médios no 1T26 vs. 
+11,4 GW médios no 1T25). 
+Quanto à geração hidrelétrica, houve redução na participação desta fonte no atendimento à carga, passando de 68% no 
+1T25 para 63% no 1T26 (Gráfico 3), devido aos fatores anteriormente mencionados. Por fim, a fonte t ermelétrica 
+apresentou um aumento de 8% no 1T25 para 12% no atendimento à carga no 1T26. 
+| Gráfico 3 | Balanço Energético (SIN) – Contribuição por Fonte para Atendimento à Carga (GW médios) 
+ 
+ 
+Fonte: ONS 
+Nesse contexto, o PLD médio do submercado Sudeste/Centro-Oeste (SE/CO) foi R$ 308/MWh no trimestre, com volatilidade 
+intraday de 45%, o que representa uma elevação significativa em relação ao PLD médio de R$ 162/MWh registrado no 
+1T25, com volatilidade intraday de 19%. Dado o PLD mais elevado, o submercado SE/CO apresentou níveis mais reduzidos 
+de descolamento em relação ao submercado Nordeste quando comparado ao 1 T25, com diferença média de apenas 
+Carga Total (GWm)
+
+[p. 9]
+9 
+R$ 21/MWh ante R$ 103/MWh observados no mesmo período do ano anterior. O descolamento mais relevante se deu em 
+relação ao submercado Sul, onde o PLD médio ficou R$ 50/MWh acima do SE/CO no trimestre, enquanto no 1T25 o 
+descolamento foi de R$ 2/MWh. 
+| Tabela 3 | PLD Médio e Volatilidade por Submercado (R$/MWh) 
+ PLD por Submercado (R$/MWh) Volatilidade Intraday (%) 
+ 1T26 1T25 Var. 1T26 1T25 Var. 
+SE/CO 308,1 162,3 89,8% 45% 19% 26 p.p. 
+Sul 358,0 164,1 118,1% 30% 18% 13 p.p. 
+Nordeste 286,8 58,9 386,7% 49% 7% 42 p.p. 
+Norte 287,3 58,9 387,6% 49% 7% 42 p.p. 
+Fonte: ONS e CCEE 
+Em relação à variação dos preços de energia ao longo do dia, os efeitos mais significativos continuaram concentrados entre 
+o fim da tarde e o início da noite, assim como observado nos trimestres anteriores . A volatilidade intraday dos preços no 
+submercado SE/CO chegou a 45% no trimestre, nível bem acima dos 19% observados no 1T25 e superior aos 36% 
+registrados no 4T25. A elevação da volatilidade no 1T26, na comparação com o mesmo período do ano anterior, está 
+associada a três fatores: (i) cenário hidrológico desfavorável aumentando o custo marginal de operação; (ii) concentração 
+de produção de energia ao longo do dia em função do aumento da capacidade instalada de MMGD; e (iii) o PLD em patamar 
+mais baixo no 1T25, reflexo da hidrologia mais favorável naquele período. 
+Por fim, com base nos dados disponibilizados pelo ONS, o 1T26 apresentou uma pequena redução nos cortes de geração 
+quando comparado ao 1T25. O curtailment total registrado para a fonte eólica no SIN foi de 14,9% (1,6 GW médios) no 
+1T26, o mesmo patamar registrado no 1T25 e inferior aos 23,1% registrados no último trimestre de 2025. Para a fonte 
+solar, o curtailment foi de 16,2% (0,8 GW médios) no trimestre, inferior à restrição de 17,9% no 1T25 e substancialmente 
+inferior se comparado ao último trimestre de 2025 (23,9%). 
+Os cortes de motivação elétrica, passíveis de ressarcimento após o atingimento da franquia, corresponderam a 23% para 
+a fonte eólica e 10% para a fonte solar, composição distinta da observada no 1T25, quando os c ortes foram 
+majoritariamente classificados como motivação elétrica (64% para a fonte eólica e 47% para a fonte solar). Tal 
+comportamento refletiu principalmente a queda de torres de transmissão no primeiro trimestre de 2025, o que limitou o 
+escoamento da energia de Belo Monte pelo bipolo Xingu/Terminal Rio. 
+| Gráfico 4 | Participação Percentual dos Cortes por Motivo (GW médio, % Total) 
+ 
+ 
+Os aspectos abordados acima demonstram tanto os desafios do trimestre, especialmente impostos pelo GSF e curtailment, 
+quanto as oportunidades de ganho de modulação em função da dinâmica do PLD.
+
+[p. 10]
+10 
+Desempenho Operacional 
+Nesta seção, trazemos o desempenho operacional da Companhia, que reflete sua capacidade de adaptação às diferentes 
+condições climáticas e de mercado e evidência a resiliência do portfólio da Auren. 
+| Tabela 4 | Capacidade Instalada e Produção1 Segregadas por Fonte de Geração 
+Fonte 
+Capacidade 
+Instalada 
+(MW) 
+Garantia 
+Física 
+(MW médio) 
+Geração1 (MW médio) 
+1T26 1T25 Var. 
+Hidrelétrica F
+2 4.198,4 2.074,6 2.062,2 2.576,8 -20,0% 
+Eólica9 
+3 3.100,4 1.499,0 835,2 994,9 -16,0% 
+Solar 876,4 238,2 186,9 205,2 -8,9% 
+Total Próprios 8.175,3 3.811,8 3.084,4 3.776,9 -18,3% 
+Participações em Ativos Hidrelétricos 
+4
+ 547,5 265,3 253,0 223,1 13,4% 
+Total Próprios e Participações 8.722,8 4.077,2 3.337,4 4.000,0 -16,6% 
+Hidrelétrica 
+A produção de energia dos ativos hidrelétricos próprios da Auren totalizou 2,1 GW médios no primeiro trimestre de 2026, 
+representando uma redução de 20,0% em relação ao mesmo período do ano anterior e 0,6% abaixo da garantia física dos 
+empreendimentos. Esse desempenho reflete o menor despacho realizado pelo ONS. 
+O Gráfico 5, a seguir, mostra a produção de energia das usinas hidrelétricas desde o início do ano: 
+| Gráfico 5 | Geração de Energia e Valores de Garantia Física (MW médios)11F
+5 
+ 
+No 1T26 , o Índice de Disponibilidade Verificada (IDv60)6 manteve-se acima dos valores de referência da ANEEL nas 
+principais usinas hidrelétricas do portfólio – Porto Primavera, Água Vermelha e Nova Avanhandava – que, em conjunto, 
+representam 78,2% da capacidade instalada hidrelétrica da Companhia. Nas usinas cujos índices ainda se encontram abaixo 
+das referências – equivalente a 15,0% da capacidade hidrelétrica da Auren – a menor disponibilidade reflete eventos 
+pontuais ocorridos em períodos anteriores, como manutenções programadas ou intercorrências específicas. Para endereçar 
+esse impacto, a Companhia adequou as manutenções plurianuais, visando aumentar a confiabilidade dos ativos e preservar 
+a disponibilidade. 
+_________________________ 
+1 Para as fontes eólica e solar, considera a geração efetiva somada à energia que será ressarcida que é o curtailment classificado como 
+Razão de Indisponibilidade Externa (REL), após atingimento da franquia. 
+2 Considera geração das PCHs Mogi-Guaçu, São José e São Joaquim. Não considera UHE Paraibuna. 
+3 Para a fonte eólica, considera 50% da Capacidade Instalada de Tucano Holding III, joint-venture entre Auren Participações e Unipar 
+Carbocloro S.A. (50%/50%). O ativo possui 155 MW de Capacidade Instalada no total, das quais 77,5 MW refletem a participação da 
+Auren. Para os dados operacionais da joint-venture, considera-se participação de 100%. 
+4 Os dados referentes à capacidade instalada e geração foram ponderados pela participação econômica indireta da Auren nos ativos 
+hidrelétricos. 
+5 Considera geração das PCHs Mogi-Guaçu, São José e São Joaquim. 
+6 IDv60 (Índice de Disponibilidade Verificada – 60 meses), que mede a disponibilidade real de uma usina em operar em comparação com 
+sua capacidade de referência nos últimos 5 anos.
+
+[p. 11]
+11 
+Eólica 
+A produção de energia dos ativos eólicos, somada à parcela ressarcível (após atingimento da franquia) da restrição de 
+geração classificada como Razão de Indisponibilidade Externa (REL), foi de 835,2 MW médios no 1T26 - 16,0% inferior ao 
+1T25 – representando 77,2% do percentil 50 da certificação de geração ( P50) e 84,6% do percentil 90 (P90), conforme 
+apresentado no Gráfico 7. O desempenho reflete, principalmente, o menor recurso eólico no período ( equivalente a uma 
+redução de 11,7% em relação ao P50) e incidência de curtailment (equivalente a 12,9% do P50). 
+O nível de curtailment eólico observado no SIN durante o trimestre foi semelhante ao do 1T25, porém com uma composição 
+distinta: enquanto no mesmo período do ano anterior os cortes foram predominantemente classificados como REL (64%), 
+no 1T26 observou-se maior participação de restrições associadas às Razões de Confiabilidade (CNF) e Razão Energética 
+(ENE), conforme evidenciado no Gráfico 6 da seção “Mercado de Energia”. 
+A geração potencial (soma da produção efetiva e da parcela de energia não produzida associada aos cortes de corte), 
+totalizou 97,4% do P90 e 88,9% do P50 no trimestre. 
+O Gráfico 6 apresenta a evolução mensal da (i) geração total , que consiste na geração de energia somada à parcela de 
+energia não produzida por restrição de razão elétrica, passível de ressarcimento; (ii) geração potencial; e (iii) as referências 
+dos percentis 50 e 90 das certificações. 
+| Gráfico 6 | Portfólio Eólico – Geração de Energia e Valores Certificados para o P50 e P90 (MW médios) 
+ 
+O 1T26 seguiu a tendência observada ao longo do ano de 2025, que consolidou o processo de recuperação da performance 
+operacional dos complexos incorporados. As rotinas de manutenção preventiva, corretiva e preditiva seguiram sendo 
+sustentadas por uma governança de operação mais robusta e pela gestão integrada dos estoques estratégicos de 
+componentes. 
+Considerando a sazonalidade e o cenário de recursos mais baixos observados neste trimestre e visando a otimização de 
+nossa produção de energia, realocamos parte das manutenções programadas para ocorrer ao longo do trimestre e do ano 
+para janelas oportunas em termos de recurso eólico. Tal medida levou a uma disponibilidade média de 94,0% no portfólio 
+eólico consolidado no 1T26, uma evolução de 2 p.p. ante os 92,0% observados no 1T25, conforme apresentado a seguir. 
+ 
+_________________________ 
+1 Geração total = geração de energia + parcela de energia não produzida por restrição de razão elétrica . 
+2 Geração potencial = geração de energia + parcela de energia não produzida devido aos diferentes tipos de restrição do ONS . 
+MW médios Jan Fev Mar Abr Mai Jun Jul Ago Set Out Nov Dez 1T 
+Geração 
+Total 20251 684,7 1.250,8 1.073,9 984,9 1.404,3 1.444,1 1.457,6 1.493,4 1.583,6 1.426,5 1.105,7 1.000,1 994,9 
+Geração 
+Total 20261 1.063,4 712,3 718,1 - - - - - - - - - 835,2 
+Geração Potencial 
+20251
+2 727,9 1.338,7 1.156,8 1.035,4 1.574,7 1.626,6 1.722,4 1.835,1 2.022,9 1.994,2 1.410,9 1.171,0 1.065,9 
+Geração Potencial 
+20262 1.298,9 765,5 802,7 - - - - - - - - - 962,0 
+Desvio em relação à 
+Certificação (%) 
+P90: -15,4% 
+P50: -22,8%
+
+[p. 12]
+12 
+| Tabela 5 | Portfólio Eólico - Evolução da Disponibilidade dos Complexos Eólicos Consolidados em 2026 
+ 
+Disponibilidade Média 
+dos Ativos Consolidados 1T 2T 3T 4T Acumulado do Ano 
+ 2025 92,0% 93,5% 94,8% 94,2% 93,6% 
+ 2026 94,0% - - - 94,0% 
+Conforme apresentado no Gráfico 7, a produção do portfólio eólico no trimestre atingiu 76,0% do P50 e 83,3% do P90 no 
+trimestre, como resultado de uma menor disponibilidade de recurso eólico quando comparados à certificação (11,7% abaixo 
+do P50 vs. 3,8% acima do P50 do 1T25) e do curtailment, que reduziu a geração esperada em 12,9 p.p., dos quais 
+11,7 p.p. são relativos à parcela não ressarcível (vs. 13,9 p.p. no 1T25, dos quais 8,3 p.p. não ressarcíveis). 
+| Gráfico 7 | Portfólio Eólico – Desempenho da Geração Consolidada no 1T26 (P50 em base 100)18F
+1 
+ 
+Solar 
+A produção de energia dos ativos solares somada à parcela ressarcível (após atingimento da franquia) da restrição de 
+geração classificada como Razão de Indisponibilidade Externa (REL) , foi de 186,9 MW médios no 1T26, 8,9% inferior ao 
+1T25. No trimestre, a produção representou 72,3% do percentil 50 (P50) definido pela certificação da geração dos parques 
+e 78,9% do percentil 90 ( P90). O resultado foi influenciado principalmente por restrições de geração ( curtailment) 
+classificadas como CNF e ENE. 
+O Gráfico 8 apresenta a evolução mensal da (i) geração total, que consiste na geração de energia somada a parcela de 
+energia não produzida por restrição de razão elétrica (ressarcível); (ii) geração potencial, que representa a geração efetiva 
+adicionada da parcela de energia n ão produzida devido aos diferentes tipos de restrições impostas pelo ONS; e (iii) as 
+referências dos percentis (P50 e P90) das certificações. 
+ 
+ 
+_________________________ 
+1 As informações de curtailment nesta subseção fazem referência aos dados de curtailment internos da Companhia e diferem dos dados da 
+seção “Curtailment dos Ativos Eólicos e Solares da Auren”, que correspondem aos dados publicados pela ONS.
+
+[p. 13]
+13 
+| Gráfico 8 | Ativos Solares – Geração de Energia e Valores Certificados para o P50 e P90 (MW médios) 
+ 
+ 
+ 
+A disponibilidade dos ativos solares atingiu 98,4% no 1T26, um avanço de 2,5 p.p. em relação ao mesmo período de 2025, 
+conforme apresentado na Tabela 6. O resultado reforça o amadurecimento da gestão operacional e a efetividade das 
+iniciativas direcionadas à redução de indisponibilidades, influenciando diretamente a melhoria contínua da operação e 
+performance técnica dos ativos. 
+| Tabela 6 | Portfólio Solar - Disponibilidade Média Consolidada 
+Disponibilidade Média 
+dos Ativos 1T 2T 3T 4T Acumulado do Ano 
+ 2025 95,9% 98,5% 99,0% 98,8% 98,0% 
+ 2026 98,4% - - - 98,4% 
+Conforme apresentado no Gráfico 9, em linhas gerais, apesar do recurso solar abaixo do previsto nas certificações (9,3% 
+abaixo da certificação P50 vs. 1,4% abaixo do P50 no 1T25), a principal influência negativa na performance do trimestre 
+decorreu do curtailment, sobretudo da parcela não ressarcível, que representou isoladamente uma redução de 19,0 p.p. frente 
+à certificação P50 (vs. 21,1 p.p., dos quais 14,0 p.p. não ressarcíveis no 1T25). 
+ 
+_________________________ 
+1 Geração total = geração de energia + parcela de energia não produzida por restrição de razão elétrica . 
+2 Geração potencial = geração de energia + parcela de energia não produzida devido aos diferentes tipos de restrição do ONS . 
+MW médios Jan Fev Mar Abr Mai Jun Jul Ago Set Out Nov Dez 1T 
+Geração Total 
+20251 198,3 227,2 192,3 157,8 143,6 131,5 155,7 162,4 173,2 164,5 175,8 194,3 205,2 
+Geração Total 
+20261 206,2 184,9 169,5 - - - - - - - - - 186,9 
+Geração Potencial 
+20252 227,7 256,1 242,3 203,9 212,1 206,4 218,6 255,8 270,1 257,4 240,2 245,9 241,5 
+Geração Potencial 
+20262 254,1 214,0 225,9 - - - - - - - - - 231,9 
+Desvio em relação à 
+Certificação (%) 
+P90: -21,1% 
+P50: -27,7%
+
+[p. 14]
+14 
+| Gráfico 9 | Portfólio Solar – Desempenho da Geração Consolidada no 1T26 (P50 em base 100)23F
+1
+ 
+ 
+Impacto do Curtailment e Ganhos de Modulação 
+Importante: as informações de curtailment nesta seção fazem referência aos dados de curtailment do ONS e diferem dos dados das seções 
+Eólica e Solar, que correspondem às estimativas internas da Companhia. 
+Na Tabela 8 apresentamos os percentuais do curtailment das fontes eólica e solar do portfólio da Auren, calculados como 
+percentual da Geração Potencial e do percentil 50 (P50), assim como o curtailment do SIN. Adicionalmente, apresentamos 
+o impacto financeiro do curtailment para a Companhia e os benefícios dos ganhos de modulação capturados em função de 
+seu portfólio diversificado de ativos e de seu perfil de geração contra as variações do preço de curto prazo (PLD), uma vez 
+que a maior parte dos contratos de venda de energia no Ambiente de Contratação Livre (ACL) tem perfil constante (flat). 
+Em termos financeiros, o impacto do curtailment no portfólio de ativos, líquido da parcela ressarcível relativa aos cortes 
+classificados como REL após o atingimento das franquias, foi de R$ 86 milhões, uma redução de 58% em relação ao 4T25. 
+Desse valor, R$ 14 milhões representam a parcela não ressarcível (antes do atingimento da franquia de horas) dos cortes 
+classificados como REL, R$ 30 milhões representam os cortes por Confiabilidade e R$ 43 milhões os cortes por Razão 
+Energética. 
+No 1T26, os ganhos por modulação totalizaram R$ 97,2 milhões e compensaram integralmente o impacto negativo do 
+curtailment, resultando em um saldo positivo de R$ 11,0 milhões, resultando em um impacto líquido positivo no resultado 
+da Companhia, conforme detalhado na tabela 7. 
+| Tabela 7 | Curtailment e Ganhos de Modulação 
+ 1T25 2T25 3T25 4T25 1T26 
+ Eólica Solar Eólica Solar Eólica Solar Eólica Solar Eólica Solar 
+Curtailment SIN25F
+2 (%) 14,9% 17,9% 11,7% 22,7% 20,6% 33,2% 23,1% 23,9% 14,9% 16,2% 
+Curtailment SIN25F
+2 ex-REL (%) 5,4% 9,4% 10,4% 21,1% 19,7% 31,3% 22,7% 22,4% 11,5% 14,5% 
+Curtailment Auren26F
+3 (%) 8,3% 12,9% 9,0% 25,7% 18,3% 27,4% 22,3% 23,2% 13,4% 16,3% 
+Geração Efetiva Auren27F
+4 (% do P50) 92,0% 78,7% 93,5% 62,7% 79,2% 65,3% 78,3% 69,1% 78,3% 82,8% 
+Curtailment Auren por Fonte28F
+5 (R$ milhões) 37,7 13,0 56,7 19,1 173,2 22,4 184,2 23,3 69,9 15,6 
+Curtailment Auren Consolidado5 (R$ milhões) 50,7 75,8 195,5 207,5 86,2 
+(-) Ganhos com Modulação (R$ milhões) 19,4 40,4 65,6 70,4 97,2 
+(=) Curtailment Líquido de Modulação5 (R$ milhões) 31,3 35,4 130,0 137,0 -11,0 
+_________________________ 
+1 As informações de curtailment nesta subseção fazem referência aos dados de curtailment internos da Companhia e diferem dos dados da 
+seção “Curtailment dos Ativos Eólicos e Solares da Auren”, que correspondem aos dados publicados pela ONS. 
+2 Curtailment SIN (%) = (Curtailment Energético + Curtailment Confiabilidade) / Geração Potencial. A Geração Potencial é igual à geração 
+efetiva de energia + energia não produzida devido a todos os tipos de restrição do ONS. 
+3 Curtailment Auren (%) = (Curtailment Energético + Curtailment Confiabilidade + Curtailment Elétrico Não-Ressarcível) / Geração Potencial. 
+A Geração Potencial é igual à geração efetiva de energia + energia não produzida devido a todos os tipos de restrição do ONS. 
+4 Geração Efetiva Auren (% do P50) = (Geração Efetiva + Curtailment Elétrico Ressarcível) / P50 
+5 Curtailment Auren (R$ milhões) = Curtailment Energético + Curtailment Confiabilidade + Curtailment Elétrico Não-Ressarcível
+
+[p. 15]
+15 
+Balanço Energético 
+O Balanço Energético Consolidado da Companhia apresenta o perfil de contratação no Ambiente de Contratação Regulada 
+(ACR) e Ambiente de Contratação Livre (ACL) , o nível de contratação do portfólio de Geração e Consolidado, incluindo o 
+portfólio de Comercialização. Adicionalmente, detalhamos do preço médio de venda da Geração. 
+Balanço Energético Consolidado 
+No primeiro trimestre de 2026, na comparação com o Balanço Consolidado do 4T25, a Companhia diminui u sua posição 
+long no período de 2027-2030, aumentando sua contratação média em 55 MW médios. 
+| Gráfico 10 | Balanço Energético Consolidado1 
+ 
+Balanço Energético do Segmento de Geração 
+O 1T26 foi marcado pela execução de diversas operações de remanejamento de lastro, com o objetivo de adequar o 
+portfólio para a formalização de novos contratos de autoprodução, reforçando a estratégia de contratação de longo prazo 
+do portfólio renovável da companhia. As principais movimentações realizadas estão descritas a seguir: 
+o A Companhia avançou na otimização do lastro remanescente de seus projetos ao formalizar contrato de 
+autoprodução no volume de 55 MW médios, referente aos ativos eólicos Cajuína 1 e 2, com início de suprimento 
+em 2026, prazo de 15 anos e indexado à curva futura de preço de energia. 
+A estrutura contratual combina previsibilidade e exposição a preços de mercado. No Balanço de Geração, o 
+contrato apresenta preço fixo, enquanto as variações no preço de energia são capturadas no Balanço de 
+Comercialização, permitindo à Companhia manter exposição à dinâmica de preços no Balanço Consolidado. 
+o Transferência de contrato de venda de longo prazo de 150 MW médios, com preço baseado em dólares, do 
+segmento de Geração para o segmento de Comercialização, realizada através da celebração de contrato 
+intercompany no 2T25, com o objetivo de alocar o contrato de venda de energia de longo prazo e hedge cambial 
+no mesmo veículo. Esse movimento resultou em um impacto positivo no EBITDA do segmento de Geração de 
+R$ 20,7 milhões no 1T26. A cessão terá impacto positivo de R$ 102 milhões em 2026 e 56 milhões em 2027 para 
+a geradora e negativo na mesma magnitude para o segmento de Comercialização. O impacto é neutro para o 
+EBITDA consolidado da Companhia e já está refletido no Balanço Energético de Geração e Comercialização. 
+ 
+ 
+_________________________ 
+1 Inclui os ativos próprios da Companhia e 50% da garantia física da Tucano Holding III, uma joint-venture entre a Auren Participações e a 
+Unipar Carbocloro. A garantia física está líquida de perdas na rede para todos os anos e líquida de GSF apenas para o período já concluído 
+(2025). O balanço energético não considera o potencial efeito de GSF e curtailment futuros. 
+² Preço líquido de impostos (PIS/COFINS e ISS), data-base: 31 de março de 2026. 
+Preço Médio de Venda²
+da Geração (R$/MWh, líquido)
+1.086 1.086 1.187 1.081 1.081 1.080
+7.974
+5.659 4.804
+3.425 2.891 2.133
+329
+517
+476
+899 1.148
+1.380
+111
+25
+113
+135 148 187
+2026 2027 2028 2029 2030 2031
+9.418
+7.219
+6.563
+5.599 5.234 4.703
+Requisito (energia contratada no ACR)
+Balanço Energético 
+Consolidado¹ (MWm)
+Requisito (energia contratada no ACL)
+Energia Convencional Descontratada
+Energia Incentivada Descontratada
+Nível de Contratação 
+do Portfólio Consolidado 95% 77%92% 89% 73% 67%
+196 213208 208 219 224
+
+[p. 16]
+16 
+| Tabela 8 | Balanço Energético do Portfólio de Geração da Auren 
+Volume (MW médio) 2026 2027 2028 2029 2030 2031 
+Recursos Próprios (A) 3.670 3.777 3.777 3.777 3.777 3.777 
+Garantia Física Hidrelétrica7F
+1 1.981 2.027 2.027 2.027 2.027 2.027 
+Garantia Física Eólica2,3 1.455 1.516 1.516 1.516 1.516 1.516 
+Garantia Física Solar 234 234 234 234 234 234 
+Compras para revenda (B) 768 515 485 320 320 314 
+Convencional 344 199 171 6 6 0 
+Incentivada 425 317 314 314 314 314 
+Recursos Totais (C = A+B) 4.439 4.292 4.262 4.097 4.097 4.091 
+Vendas no ACR (D) 1.086 1.086 1.187 1.081 1.081 1.080 
+Hidrelétrica 235 235 336 230 230 229 
+Eólica 786 786 786 786 786 786 
+Solar 65 65 65 65 65 65 
+Vendas no ACL (E) 2.912 2.664 2.487 1.982 1.720 1.444 
+Hidrelétrica4 2.123 1.849 1.672 1.167 905 670 
+Eólica 634 671 671 671 671 671 
+Solar 156 144 144 144 144 102 
+Vendas Totais (F = D+E) 3.998 3.750 3.674 3.063 2.801 2.524 
+Balanço Geração (C - F) 440 542 588 1.034 1.296 1.567 
+Convencional 329 517 476 899 1.148 1.380 
+Incentivada 111 25 113 135 148 187 
+ 
+Preços (R$/MWh) 2026 2027 2028 2029 2030 2031 
+Preço Médio de Venda4 196 208 208 213 219 224 
+ACR 276 281 279 282 282 282 
+Hidrelétrica 312 317 300 320 320 320 
+Eólica 259 264 264 264 264 264 
+Solar 355 361 361 361 361 361 
+ACL 166 178 173 176 180 181 
+Hidrelétrica 149 163 155 155 156 158 
+Eólica 210 214 211 208 208 202 
+Solar5 215 206 202 201 198 200 
+Preço Médio de Compra6 198 195 191 184 185 172 
+Convencional 181 190 187 145 145 0 
+Incentivada 213 198 192 185 186 172 
+_________________________ 
+1 Os valores consideram: (a) Garantia Física dos ativos próprios líquida do fator de ajuste MRE (GSF) apenas para o período rea lizado até 
+31 de março de 2026 - para os demais períodos , o GSF é igual a 1; (b) não inclui os recursos da UHE Paraibuna; (c) 3% de perdas nos 
+ativos conectados à rede básica; (d) exposição do período realizado até 31 de março de 2026 integralmente liquidada ao PLD; e (e) Garantia 
+Física sujeita a o GSF de 1.782 até 2028, com proteção para 230 MW da UHE Porto Primavera - em contrapartida, a Companhia paga, 
+mensalmente, um prêmio de R$ 17,32/MWh. Data base: 01 de janeiro de 2026. 
+2 Considera 50% da Garantia Física de Tucano Holding III, joint-venture entre Auren Participações e Unipar Carbocloro S.A. Este efeito 
+também influencia as linhas de preço médio de compra para revenda e venda dos períodos. 
+3 Considera a entrada em operação do complexo de Cajuína 3 a partir de janeiro de 2027, agregando 63 MW médios de projeção de G F. 
+4 O saldo de vendas do segmento hidrelétrico no ACL tem parte da venda de energia incentivada devido a Auren Operações ser clas sificada 
+no segmento hidrelétrico, mas também firmar contratos de ativos eólicos. 
+5 O preço equivalente do contrato de autoprodução por arrendamento está líquido de PIS, COFINS e ISS. 
+6 Os valores considerados são líquidos de PIS e COFINS. Incluem a totalidade do ACR e ACL no preço médio de venda e apenas ACL no preço 
+médio de compra para energia convencional e incentivada. Data base: 01 de abril de 2026. Dólar considerado: R$ 5,22/USD. Os contratos 
+de energia da Companhia são corrigidos majoritariamente pelo Índice Nacional de Preços ao Consumidor Amplo ( IPCA).
+
+[p. 17]
+17 
+Balanço Energético do Segmento de Comercialização 
+A Tabela 9 apresenta o Balanço Energético de comercialização da Companhia, juntamente com a margem de 
+comercialização para os anos de 202 6 e 2027. Os valores divulgados levam em consideração o volume negociado pelas 
+empresas voltadas à comercialização de energia, sendo Auren Comercializadora, ARN Comercializadora (antiga AES 
+Comercializadora), Tietê Integra (antiga AES Tietê Integra), CESP Comercializadora e Esfera. 
+| Tabela 9 | Balanço Energético do Portfólio de Comercialização da Auren 
+ 
+Volume (MW médios) 2026 2027 2028 2029 2030 2031 
+Compras (A) 4.656 2.629 2.040 1.242 886 602 
+Vendas33F
+1 (B) 4.781 2.735 2.057 1.184 919 675 
+Margem Contratual34F
+2 (R$/MWh) 7,1 8,5 - - - - 
+Balanço Comercialização (A - B) (125) (106) (17) 58 (33) (73) 
+Balanço Consolidado Auren35F
+3 208 436 571 1.092 1.263 1.494 
+Ao analisar a margem contratual do portfólio de comercialização, é importante considerar (i) a participação das operações 
+de trading de curto prazo, que geralmente apresentam margens unitárias mais baixas, mas envolvem volumes elevados 
+de energia – esse tipo de operação tem impacto direto na margem contratual média da Comercializadora ao longo do ano, 
+conforme o volume de trading cresce; e (ii) a exposição em aberto do Balanço de Comercialização, que deve ser valorada 
+a preços de mercado. A posição short de 125 MW médios anualizados de 2026, por exemplo, deverá ser valorada aos 
+preços de mercado do segundo, terceiro e quarto trimestres. 
+No 1T26, a gestão do portfólio foi marcada pelos movimentos abaixo: 
+a) Venda de energia a consumidores finais realizada para o período de 2026-2031, em função da elevação dos preços 
+de energia ao longo do trimestre. 
+b) Transferência de contrato de venda de longo prazo de 150 MW médios , com preço baseado em dólares, do 
+segmento de Geração para o segmento de Comercialização, realizada através da celebração de contrato 
+intercompany no 2T25, com o objetivo de alocar o contrato de venda de energia de longo prazo e hedge cambial 
+no mesmo veículo. Esse movimento resultou em um impacto negativo no EBITDA do segmento de Comercialização 
+de R$ 20,7 milhões no 1T26. A cessão terá impacto negativo de R$ 102 milhões em 2026 e 56 milhões em 2027 
+para a Comercializadora e positivo na mesma magnitude para o segmento de Geração. O impacto é neutro para 
+o EBITDA consolidado da Companhia e já está refletido no Balanço Energético de Comercialização e Geração. 
+Ressalta-se que não há impacto no EBITDA consolidado da Companhia. Desconsiderando a cessão desse contrato, 
+a margem da comercializadora seria de aproximadamente R$ 9, 7/MWh em 2026 e de R$ 10, 4/MWh em 2027, 
+acima dos R$ 7,1/MWh e R$ 8,5/MWh, respectivamente, reportados. 
+ 
+ 
+ 
+_________________________ 
+1 Considera os contratos formalizados no ACR e ACL. 
+2 A margem contratual é calculada pela diferença entre a receita e a despesa dos contratos formalizados divido pelo montante de venda. 
+Não considera a valoração da exposição. Data base: 01 de abril de 2026. Dólar considerado: R$ 5,22/USD (R$/USD). 
+3 Balanço Energético Consolidado considera ambos os segmentos (Geração e Comercialização).
+
+[p. 18]
+18 
+Balanço Energético das Participações Minoritárias 
+As informações do balanço energético e financeiras são apresentadas no nível consolidado das holdings CBA Energia, 
+Pollarix e Pinheiro Machado, nas quais a Companhia possui participação minoritária e cujos saldos são reconhecidos via 
+equivalência patrimonial nas demonstrações financeiras consolidadas da Companhia. Os dividendos dessas participações 
+são reconhecidos no EBITDA Ajustado da Companhia. 
+| Tabela 10 | Balanço Energético dos Ativos Hidrelétricos com Participações Minoritárias30F
+1 
+Volume (MW médios) 2026 2027 2028 2029 2030 
+Garantia Física dos ativos (a) 251 256 256 244 244 
+Compras (b) 47 5 4 4 4 
+Recurso (c) = (a)+(b) 298 261 260 248 248 
+Vendas no ACL (d) 276 256 256 244 244 
+Requisitos (e) 276 256 256 244 244 
+Balanço Energético (f) = (c) – (e) 22 5 4 4 4 
+ 
+Analisando o Balanço Energético do 1T26, tivemos um impacto de 5 MW médios na Garantia Física dos ativos para o ano 
+de 2026, decorrente do impacto do GSF realizado no período. 
+O Balanço Energético das Participações Minoritárias apresenta apenas as transações de compra e venda de energia com o 
+mercado, e exclui os contratos intercompany entre os ativos hidrelétricos e as subholdings (Pollarix, Pinheiro Machado e 
+CBA Energia). 
+ 
+_________________________ 
+1 Notas: (i) A garantia física dos ativos líquida do fator de ajuste MRE (GSF) realizado; (ii) As garantias físicas estão líqui das de perdas 
+internas e da rede básica de 3%; (iii) A garantia física está sujeita ao risco hidrológico (GSF); (iv) Consideram os recursos (garantia física 
+e contratos de compra) e requisitos (vendas) equivalente à participação econômica da Auren nos ativos onde a Auren detém part icipação 
+minoritária (Pollarix, CBA Energia Participações e Pinheiro Machado).
+
+[p. 19]
+19 
+Desempenho Financeiro 
+Desempenho Financeiro Consolidado 
+Os resultados aqui apresentados abrangem, além dos segmentos de Geração e Comercialização, o segmento Holding & 
+Pipeline e as eliminações entre segmentos. O resultado de equivalência patrimonial contempla os ativos não controlados 
+pela Companhia: (i) participações minoritárias da Auren em ativos hidrelétricos, detalhadas na seção “Participações 
+Minoritárias da Auren”, no capítulo Balanço Energético, além de (ii) 50% de participação na joint-venture entre o complexo 
+eólico Tucano e Unipar Carbocloro S.A. (Tucano Holding III), que registrou EBITD A1 de R$ 11,6 milhões no 1T26. Mais 
+informações na Nota Explicativa 10 das Informações Financeiras Trimestrais. 
+| Tabela 11 | Resultados do Período 
+R$ milhões 1T26 1T25 Var. 
+Receita Bruta 3.499,6 3.444,7 1,6% 
+Deduções sobre a Receita Bruta 425,0 492,4 -13,7% 
+Receita Líquida 3.074,5 2.952,3 4,1% 
+Custo com Compra de Energia (1.774,6) (1.330,9) 33,3% 
+Encargos de Uso da Rede Elétrica (179,7) (180,5) -0,5% 
+Margem Líquida 1.120,3 1.440,8 -22,2% 
+Margem Líquida 36,4% 48,8% -12,4 p.p. 
+Custos e Despesas (PMSO) (313,5) (302,0) 3,8% 
+ Outros Resultados Operacionais (ORO) (506,6) 238,6 n.a. 
+EBITDA 300,1 1.377,5 -78,2% 
+ Marcação a Mercado de Contratos Futuros de Energia (ORO) 506,0 (229,2) n.a. 
+ Dividendos das Participações Minoritárias 89,3 58,3 53,1% 
+ Não Recorrentes Relacionados a Iniciativas de Crescimento (PMSO) - 5,5 n.a. 
+ Provisão/(Reversão) para Litígios e Baixa de Depósitos Judiciais (ORO) 30,5 (23,2) -231,2% 
+ Baixa de Imobilizado e Intangível (ORO) - 16,4 n.a. 
+EBITDA Ajustado 925,9 1.205,3 -23,2% 
+Margem EBITDA Ajustada 30,1% 40,8% -10,7 p.p. 
+Depreciação e Amortização (466,8) (458,2) 1,9% 
+Equivalência Patrimonial 71,5 72,1 -0,9% 
+Resultado Financeiro Líquido (589,8) (732,1) -19,4% 
+LAIR (685,1) 259,4 n.a. 
+Impostos (IR/CSLL) 83,5 (205,4) n.a. 
+Resultado Líquido (601,6) 54,0 n.a. 
+ 
+Margem Líquida 
+A Margem Líquida, resultado da Receita Líquida descontado o Custo com Compra de Energia Elétrica e Encargos Setoriais, 
+totalizou R$ 1.120,3 milhões no 1T26, redução de 2 2,2% (-R$ 320,6 milhões) na comparação com o 1T25 
+(R$ 1.440,8 milhões). 
+Os efeitos que influenciaram o resultado foram concentrados principalmente n a Comercializadora, com destaque para: 
+(i) concentração da margem da comercializadora no primeiro trimestre no ano de 2025 , resultando numa variação de 
+-R$ 85,0 milhões no 1T26 em comparação ao mesmo período do ano anterior , e (ii) menor ganho com o descolamento 
+entre os submercados SE/CO e Nordeste e Norte (-R$ 5,0 milhões no 1T26 vs. R$ 60 milhões 1T25). 
+No portfólio de Geração, os principais efeitos foram: (i) o menor recurso eólico e solar , resultando numa variação de 
+-R$ 114,0 milhões no 1T26 em comparação ao mesmo período do ano anterior e (ii) a menor energia gerada pelas usinas 
+_________________________ 
+1 Considerando a participação proporcional da Auren Participações na joint-venture.
+
+[p. 20]
+20 
+do MRE 1 (51,8 GW médios no 1T26 vs. 55,8 GW médios no 1T25), representando uma redução de 7,2,% 
+(-R$ 88,0 milhões) na comparação entre os trimestres, compensados parcialmente por maiores ganhos de modulação 
+(R$ 97,2 milhões no 1T26 vs. 19,4 milhões no 1T25). 
+Na comparação com o 4T25 (R$ 1.094,1 milhões) , o aumento de R$ 26,2 milhões na Margem Líquida é explicad o 
+principalmente pelo maior ganho com modulação (R$ 97,2 milhões no 1T26 vs. R$ 70,4 milhões no 4T25), pelo menor 
+impacto bruto do curtailment (R$ 86,2 milhões no 1T26 vs. R$ 207,5 milhões no 4T25) e pela sazonalidade da geração 
+hidrelétrica, com o aumento da energia gerada pelas usinas do MRE em 11,4 GW médios (51,8 GW médios no 1T26 vs. 
+40,4 GW médios no 4T25 ), suavizados em grande medida pela menor geração dos complexos eólicos da Auren 
+(835,2 GW médios no 1T26 vs. 1.178,2 GW médios no 4T25) em função da sazonalidade dos ativos. 
+Custos e Despesas (PMSO) 
+A soma das linhas de Custos e Despesas Operacionais e Despesas Gerais e Administrativas (PMSO), incluindo iniciativas de 
+crescimento e itens não recorrentes, apresentou um aumento de R$ 11,6 milhões (3,8%) quando comparado ao mesmo 
+trimestre do ano anterior (R$ 313,5 milhões no 1T26 vs. R$ 302,0 milhões no 1T25) , um incremento nominal abaixo da 
+inflação para o período, alinhado a busca da Companhia por um crescimento de gastos recorrentes abaixo da inflação. 
+As principais variações são explicadas pelo aumento de R$ 10,3 milhões referente aos contratos de operação e manutenção 
+dos ativos eólicos referentes ao escalonamento previsto em contrato previamente sinalizado ao mercado em nosso guia de 
+modelagem e iniciativas de crescimento explicadas principalmente pela consolidação da Way2 em julho de 2025 
+(R$ 7,0 milhões), compensadas pelas sinergias capturadas ao longo de 2025. 
+Na comparação com o 4T25 (R$ 341,2 milhões), tivemos uma redução de 8,2% explicada pela sazonalidade das despesas. 
+| Tabela 12 | Custos e Despesas (PMSO Consolidado) 
+R$ milhões 1T26 1T25 Var. 
+ Pessoal (P) 111,0 115,1 -3,5% 
+ Materiais e Serviços de Terceiros (MS) 148,3 145,7 -1,8% 
+ Outros (O) 54,2 41,2 31,5% 
+PMSO 313,5 302,0 3,8% 
+ 
+A evolução entre períodos é explicada por: 
+a) Pessoal (P): os custos e despesas com pessoal totalizaram R$ 111,0 milhões no 1T26, uma redução nominal de 
+3,5% quando comparado com o mesmo período de 202 5 (R$ 115,1 milhões), tendo em vista a captura das 
+sinergias associadas à aquisição da AES Brasil ao longo do ano de 2025 . Na comparação com o 4T25 
+(R$ 132,0 milhões), tivemos uma redução de 15,9% explicada pelos custos com desmobilização no 4T25 e pelo 
+menor provisionamento de bônus no 1T26. 
+b) Materiais e Serviços de Terceiros (MS): os custos de materiais e serviços totalizaram R$ 148,3 milhões no 
+1T26, um aumento nominal de 1,8% vs. o registrado no 1T25 (R$ 145,7 milhões), principalmente em decorrência 
+do aumento da despesa com os contratos de operação e manutenção dos ativos eólicos em função do 
+escalonamento previsto contratualmente (R$ 10,3 milhões) , parcialmente compensado pelo descasamento 
+temporal de despesas (R$ 5,3 milhões) e pelas iniciativas do OBZ. 
+c) Outros (O): R$ 54,2 milhões no 1T26, um aumento de 31,5% se comparado ao 1T25 (R$ 41,2 milhões). O 
+incremento se deve principalmente ao calendário de iniciativas de consumo de itens de estoques descasados com 
+o ciclo anterior e à antecipação de despesas no montante de R$ 5,8 milhões . Na comparação com o 4T25 
+(R$ 55,4 milhões), tivemos uma redução de 2,1%, principalmente devido à menor despesa com seguros. 
+Outros Resultados Operacionais 
+A rubrica Outros Resultados Operacionais (ORO) totalizou uma despesa de R$ 506,8 milhões no 1T26 ante uma receita de 
+R$ 238,6 milhões no 1T25. A variação é explicada principalmente pelo efeito da marcação a mercado dos contratos futuros 
+de energia no montante de -R$ 506,0 milhões no 1T26 e de R$ 229,2 milhões no 1T25. 
+No período findo em 31 de março de 2026, a Companhia atualizou as premissas e estimativas utilizadas na mensuração a 
+valor justo (MtM) dos contratos futuros de compra e venda de energia, em decorrência de mudanças nas condições do 
+setor elétrico. Os efeito s dessa atualização estão refletidos na linha “Marcação a mercado dos contratos de energia” e 
+_________________________ 
+1 Como a Auren segue o perfil de sazonalidade do MRE, a energia gerada por seus ativos segue a geração real das usinas do MRE.
+
+[p. 21]
+21 
+caracterizam-se como mudança de estimativa contábil, de natureza não caixa, com reconhecimento prospectivo, nos 
+termos do CPC 23. 
+Vale ressaltar que a variação da margem futura não impacta a margem de energia contratada para o ano, conforme 
+apresentada no Balanço Energético do Segmento de Comercialização. A agregação de margem futura é reflexo da variação 
+da curva de preços de energi a entre os trimestres. Para fins de modelagem, sugerimos utilizar o balanço de energia 
+divulgado, que contém os volumes e os preços médios dos contratos e a margem de comercialização. 
+EBITDA Ajustado 
+A Auren registrou EBITDA Ajustado de R$ 925,9 milhões no 1T26, uma redução de 23,2%, ou -R$ 279,4 milhões, em 
+relação ao mesmo período do ano anterior . Com relação ao 4T25, tivemos uma redução de 8,3% , ou -R$ 83,8 milhões. 
+Tais variações são resultado dos efeitos detalhados nas seções acima sobre a Margem Líquida e os Custos e Despesas. 
+Os dividendos declarados das participações minoritárias da Auren no 1T26 foram de R$ 89,3 milhões, integralmente 
+associados às participações minoritárias nas hidrelétricas, em linha com a estratégia de linearizar o pagamento de 
+dividendos ao longo do ano. 
+Resultado Financeiro 
+| Tabela 13 | Resultado Financeiro Consolidado 
+R$ milhões 1T26 1T25 Var. 
+Receitas Financeiras 262,0 276,7 5,3% 
+Despesas Financeiras1 (851,8) (1.008,8) -15,6% 
+Resultado Financeiro Líquido (589,8) (732,1) -19,4% 
+ 
+O resultado financeiro líquido foi uma despesa de R$ 589,8 milhões no 1T26 comparado a uma despesa de 
+R$ 732,1 milhões no mesmo período de 2025. 
+a) Receitas Financeiras: incremento de 5,3% (R$ 14,7 milhões) explicado principalmente pela parcela de correção 
+monetária referente a processo de arbitragem com decisão favo rável à Auren ( R$ 25,9 milhões), compensado 
+parcialmente pelo menor rendimento sobre aplicações financeiras em função do menor saldo de liquidez 
+(R$ 4,7 bilhões em março de 2026 vs. R$ 7,2 bilhões em março de 2025). 
+b) Despesas Financeiras: R$ 851,8 milhões no 1T26, comparada a despesa de R$ 1.008,8 milhões no 1T25. O 
+decréscimo de R$ 157,0 milhões decorre, principalmente, da variação do IPCA na comparação entre trimestres 
+(2,0% no 1T25 vs. 1,4% no 1T26) e dos ganhos com o liability management, que incluem a redução do custo e 
+do montante da dívida bruta (R$ 26,0 bilhões no 1T25 vs. R$ 23,7 bilhões no 1T26). 
+Na comparação com o 4T25 (R$ 432,0 milhões), tivemos uma variação negativa de 36,5% no resultado financeiro líquido, 
+devido, principalmente, ao reconhecimento de ganhos associados ao valor presente dos aportes associados às transações 
+de autoprodução registradas no 4T25 (R$ 97,0 milhões). 
+ 
+_________________________ 
+1 Para fins de comparabilidade, destacamos que os efeitos do valor justo de empréstimos, financiamentos, debêntures e instrumen tos 
+financeiros derivativos são demonstrados líquidos na linha de despesas financeiras, diferindo do critério aplicado nas demons trações 
+financeiras.
+
+[p. 22]
+22 
+Resultado Líquido 
+| Tabela 14 | Resultado Líquido Consolidado 
+R$ milhões 1T26 1T25 Var. 
+EBITDA 300,1 1.377,5 -78,2% 
+Depreciação e Amortização (466,8) (458,2) 1,9% 
+Equivalência Patrimonial 71,5 72,1 -0,9% 
+Resultado Financeiro Líquido (589,8) (732,1) -19,4% 
+Impostos (IR/CSLL) 83,5 (205,4) n.a. 
+Resultado Líquido (601,6) 54,0 n.a. 
+Como resultado dos fatores anteriormente mencionados e aliado às variações da depreciação e amortização, equivalência 
+patrimonial e impostos, a Companhia registrou prejuízo de R$ 601,7 milhões no 1T26 ante um lucro de R$ 54,0 milhões 
+no 1T25. As principais variações estão detalhadas abaixo. 
+a) EBITDA: EBITDA consolidado de R$ 300,1 milhões no 1T26 ante R$ 1.377,5 milhões no 1T25, um decréscimo de 
+R$ 1.077,4 milhões, principalmente por conta da marcação a mercado dos contratos futuros de energia, conforme 
+detalhado anteriormente. 
+b) Depreciação/Amortização: despesa de R$ 466,8 milhões no 1T26, em linha com o montante observado no 
+1T25 (R$ 458,2 milhões) 
+c) Imposto de Renda e Contribuição Social (IR/CS): crédito de R$ 83,5 milhões no 1T26, pela constituição de 
+imposto diferido ativo sobre a despesa com a provisão de marcação a mercado dos contratos futuros de energia. 
+d) Equivalência Patrimonial: receita de R$ 71,5 milhões no 1T26, em linha com o montante observado no 1T25 
+(R$ 72,1 milhões). 
+Endividamento 
+Em 31 de março de 2026, a dívida bruta consolidada da Companhia totalizou R$ 23,7 bilhões, representando uma redução 
+de R$ 2,3 bilhões em comparação ao fechamento de março de 2025. Em relação a 31 de dezembro de 2025, a dívida bruta 
+apresentou amortização de R$ 830,2 milhões em função , principalmente, do vencimento do empréstimo 4131 e da 
+amortização de 50% da 1ª séria da 9ª Emissão de Debêntures da Auren Operações (TIET19), conforme o cronograma de 
+amortização previsto. 
+No encerramento do trimestre, o indicador Dívida Líquida/EBITDA Ajustado (alavancagem) atingiu 5,2x, aumento de 0,2x 
+com relação a março de 2025, refletindo, principalmente, o impacto do menor EBITDA Ajustado, que foi parcialmente 
+compensado pela redução na dívida liquida, resultados das iniciativas de liability management. 
+Vale destacar que, ao longo de 2025, a Auren executou e concluiu com sucesso sua est ratégia de liability management, 
+sustentada por um compromisso contínuo com eficiência e pela rigorosa disciplina na alocação de capital. Por meio de 
+captações em condições atrativas, a Companhia promoveu o alongamento do prazo médio de suas dívidas em rel ação ao 
+encerramento de 2024, passando de 5,9 para 6,9 anos ao final de 2025 e mantida no 1T26 , reforçando o conforto de 
+liquidez no curto prazo. Adicionalmente, a substituição de instrumentos de dívida por alternativas com taxas mais 
+competitivas resultou em uma redução relevante do custo médio da dívida, otimizando a estrutura de capital. 
+Considerando a dívida líquida, aproximadamente 66% do saldo está atrelado ao IPCA, mesmo índice que corrige os 
+contratos de venda de energia da Companhia, proporcionando proteção natural contra oscilações futuras. Uma parcela 
+reduzida, de apenas 21%, é remunerada pelo CDI. O custo médio da dívida bruta foi reduzido para CDI-2,9% ao ano.1 
+ | Gráfico 11 | Movimentação (R$ bilhões) e Perfil da Dívida Bruta 
+ 
+_________________________ 
+1 Outros compreende juros incorridos e pagos, atualização monetária e a movimentação de saldos diferidos.
+
+[p. 23]
+23 
+| Gráfico 12 | Dívida Líquida (R$ milhões), Alavancagem e Perfil da Dívida Líquida 
+ 
+Ao final do 1T26, a Auren registrou liquidez39F
+1 de R$ 4.719,0 milhões, posição robusta que permite o pleno cumprimento de 
+suas obrigações financeiras pelos próximos anos. Conforme observado no Gráfico 16, a estratégia de liability management 
+evitou a concentração de vencimentos relevantes nos próximos anos. 
+| Gráfico 13 | Cronograma de Amortização do Principal da Dívida Bruta (R$ milhões) 
+ 
+| Tabela 15 | Endividamento 
+R$ milhões Mar/26 Mar/25 Var. Dez/25 Var. 
+Dívida Bruta 23.691,1 25.992,3 -8,9% 24.521,3 -3,4% 
+Instrumentos Financeiros Derivativos40F
+2 (35,6) (8,9) n.a. 8,7 n.a. 
+Arrendamentos 165,2 169,5 -2,5% 164,1 0,7% 
+Dívida Bruta Ajustada41F
+3 23.820,7 26.152,9 -8,9% 24.694,1 -3,5% 
+Liquidez42F
+4 4.719,0 7.191,1 -34,4% 5.457,0 -13,5% 
+Dívida Líquida 19.101,7 18.961,8 0,7% 19.237,0 -0,7% 
+EBITDA Ajustado 3.689,0 3.968,4 -7,0% 3.967,2 -7,0% 
+Dívida Líquida/EBITDA Ajustado 5,2x 4,8x 0,4x 4,8x 0,4x 
+ 
+Covenants Financeiros – Auren Operações 
+Ao final de março de 2026, R$ 2,8 bilhões do total da dívida bruta da Companhia apresentavam covenants financeiros na 
+subsidiária Auren Operações, sendo eles: (i) limite de até 4,5x de alavancagem, medida pela relação Dívida Líquida/EBITDA 
+Ajustado, que encerrou o período em 1,6x; e (ii) manutenção do Índice de Cobertura de Juros (EBITDA Ajustado/Despesas 
+Financeiras) acima de 1,25x, que encerrou o período em 4,4x, atendendo à obrigação contratual. 
+Ao final do proces so de reestruturação societária, caso concluído conforme planejado, a Companhia deixará de possuir 
+covenants de Dívida Líquida/EBITDA em sua estrutura de endividamento. Nesse cenário, as dívidas atualmente contratadas 
+na Auren Operações passarão a contar com garantia corporativa da Auren Energia. 
+ 
+_________________________ 
+1 Caixa, equivalentes de caixa, aplicações financeiras, fundo de liquidez (conta reserva). 
+2 Considera Marcação a Mercado de derivativos financeiros, exceto aqueles que estejam ligados à operação de compra e venda de e nergia. 
+3 Considera empréstimos, financiamentos e debêntures, liquidas das operações de derivativos a elas relacionadas . 
+4 Caixa, equivalentes de caixa, aplicações financeiras, fundo de liquidez (conta reserva) .
+
+[p. 24]
+24 
+Ratings 
+Ao longo do 1T26, o rating corporativo da Auren se manteve no grau máximo (AAA) pela Fitch Ratings e Moody’s, com 
+perspectiva estável, reforçando a capacidade financeira da Auren mesmo em um contexto de alavancagem elevada, 
+refletindo os efeitos positivos da integração dos ativos e a confiança da agência no posicionamento estratégico e na solidez 
+da estrutura financeira da Companhia. 
+Movimentação da Dívida Líquida 
+| Tabela 16 | Movimentação da Dívida Líquida 
+R$ milhões 1T26 1T25 Var. 
+Dívida Bruta – Posição Inicial (4T) 24.521,3 27.044,7 (2.523,4) 
+Instrumentos Financeiros Derivativos e Arrendamentos – Posição Inicial (4T) 172,8 275,3 (102,5) 
+ Caixa + Fundo de Liquidez + Aplicações Financeiras – Posição Inicial (4T) (5.457,0) (8.113,5) 2.656,5 
+Dívida Líquida – Posição Inicial (4T) (A) 19.237,1 19.206,6 30,5 
+ 
+EBITDA Ajustado 925,9 1.205,3 (279,4) 
+ Provisão de Ressarcimento 132,5 39,5 93,1 
+ Pagamento de Ressarcimento (33,1) (5,4) (27,7) 
+ Capital de Giro (173,9) (215,7) 41,8 
+ Impostos (IR/CSLL) Pago (40,2) (74,5) 34,3 
+ Capex Sustaining (54,8) (27,8) (27,0) 
+ Rendimento sobre Caixa + Fundo de Liquidez + Aplicações Financeiras 179,6 204,8 (25,2) 
+ Juros Pagos de Dívidas e Derivativos (592,9) (454,8) (138,0) 
+ Provisão de Dividendos das Participações (89,3) (58,3) (31,0) 
+ Recebimento de Dividendos das Participações 151,9 0,9 151,0 
+ Pagamento de Dividendos para Acionistas Minoritários (43,0) (99,6) 56,6 
+ Outros (0,9) (10,7) 9,8 
+Movimentação das Disponibilidades (B) 361,9 503,7 (141,8) 
+ 
+ Juros Capitalizados de Dívidas e Derivativos 154,6 130,6 24,0 
+ Amortização de Custo de Emissão e Mais-valia da Dívida (5,1) 7,5 (12,6) 
+ Provisão de Arrendamento 6,8 4,9 2,0 
+Movimentação sem Efeito Caixa (C) 156,4 143,0 13,4 
+ 
+Movimentação da Dívida Líquida sem Expansão (D) = (C) – (B) (205,5) (360,7) 155,2 
+ 
+ Capex de Expansão (E) (70,2) (115,9) 45,7 
+Movimentação da Dívida Líquida com Expansão (F) = (D) – (E) (135,4) (244,8) 109,4 
+ 
+Dívida Líquida – Posição Final (1T) (G) = (A) + (F) 19.101,7 18.961,8 139,9 
+ Instrumentos Financeiros Derivativos e Arrendamentos – Posição Final (1T) (129,7) (160,6) 31,0 
+ Caixa + Fundo de Liquidez + Aplicações Financeiras – Posição Final (1T) 4.719,0 7.191,1 (2.472,1) 
+Dívida Bruta – Posição Final (1T) 23.691,1 25.992,3 (2.301,2) 
+Alguns dos principais efeitos que influenciaram a variação no fluxo de caixa livre entre os períodos são: 
+a) Ressarcimento: (i) provisionamento de R$ 192,1 milhões no 1T26 vs. R$ 39,5 milhões no 1T25, devido à menor 
+geração dos ativos eólicos e solares, e (ii) pagamento de R$ 33,1 milhões no 1T26 vs. R$ 5,4 milhões no 1T25 , 
+devido a parcela já contabilizada pela CCEE, antes da paralisação dos pagamentos, em função das discussões 
+regulatórias sobre o curtailment. 
+b) Capex Sustaining: despesa de Capex de R$ 54,8 milhões no 1T26 relacionada à manutenção dos ativos 
+hidrelétricos, eólicos e solares da Companhia. 
+c) Rendimento sobre Caixa, Fundo de Liquidez e Aplicações Financeiras: redução de R$ 25,2 milhões nos 
+rendimentos financeiros, em função da redução da Liquidez (R$ 4,7 bilhões em março de 2026 vs. R$ 7,2 bilhões 
+em março de 2025).
+
+[p. 25]
+25 
+d) Dividendos: (i) provisão referente aos Dividendos Declarados das participações minoritárias em UHEs no 
+trimestre (R$ 89,3 milhões no 1T26 vs. R$ 58,3 milhões no 1T25) e aumento de R$ 150,9 milhões no montante 
+de dividendos recebidos das participações minoritárias em UHEs em relação ao mesmo período do ano anterior, 
+devido à alteração nas políticas e nos regimes de reconhecimento dos dividendos realizada em 2025 , e 
+(ii) pagamento de dividendos referentes à participação do Itaú na Guaimbê Holding (R$ 43,0 milhões no 1T26 vs. 
+R$ 99,6 milhões no 1T25). 
+e) Capital de Giro: o capital de giro no 1T26 (R$ 173,9 milhões) foi influenciado, principalmente, por diferenças 
+temporais entre o reconhecimento contábil de receitas e despesas e seus respectivos efeitos caixa. As maiores 
+variações estão relacionadas às contas a receber e a pagar de energia (-R$ 103,1 milhões) e à movimentação em 
+obrigações estimadas de folha de pagamento ( -R$ 46,2 milhões). A redução na conta folha de pagamento está 
+associada aos pagamentos de bônus e PLR já provisionados e que foram realizados ao longo do 1T26. 
+f) Juros pagos: R$ 592,9 milhões no 1T26, sendo a variação de R$ 138,0 milhões comparado ao 1T25 explicada, 
+principalmente pela emissão de dívidas ao longo do 4T24, com início de pagamento de juros após o 1T25, dentre 
+as quais a 3ª Emissão de Debêntures da Auren Energia (R$ 2,5 bilhões) e o acquisition financing, posteriormente 
+liquidado antecipadamente com recursos do caixa e emissões associadas ao liability management. 
+g) Capex de Projetos: a despesa de Capex relacionada à expansão no 1T26, de R$ 70,2 milhões, refere -se 
+majoritariamente à implantação do projeto Cajuína 3. Até 31 de março de 2026, já foram investidos 
+R$ 549,9 milhões em Cajuína 3, cerca de 74% do Capex projetado, com a implantação atingindo um avanço físico 
+de 72%. 
+Demonstração de Resultados por Segmento 
+A Tabela 17 apresenta a Demonstração de Resultados de cada um dos segmentos, Geração, Comercialização e Holding, 
+detalhando as eliminações necessárias para obtenção do resultado consolidado do período. 
+| Tabela 17 | Demonstração de Resultados por Segmento e Consolidada – 1T26 
+R$ milhões Geração Comercialização Holding Eliminações Consolidado 
+Receita Bruta 1.928,8 2.279,3 - (708,5) 3.499,6 
+Deduções sobre a Receita Bruta 194,4 254,2 - (23,6) 425,0 
+Receita Líquida 1.734,4 2.025,0 - (684,9) 3.074,5 
+Custo com Compra de Energia (444,2) (2.015,3) - 684,9 (1.774,6) 
+Encargos de Uso da Rede Elétrica (178,5) (0,1) (1,1) - (179,7) 
+Margem Líquida 1.111,8 9,6 (1,1) - 1.120,3 
+Margem Líquida 64,1% 0,5% - - 36,4% 
+Custos e Despesas (PMSO) (243,6) (36,3) (33,6) - (313,5) 
+Outros Resultados Operacionais (ORO) (3,0) 421,3 (0,6) (924,4) (506,6) 
+EBITDA 865,1 394,6 (35,3) (924,4) 300,1 
+Marcação a Mercado de Contratos Futuros 
+de Energia (ORO) - (418,4) - 924,4 506,0 
+Dividendos das Participações Minoritárias 89,3 - - - 89,3 
+Provisão/(Reversão) para Litígios e Baixa de 
+Depósitos Judiciais (ORO) 30,2 - 0,3 - 30,5 
+EBITDA Ajustado 984,6 (23,8) (35,0) - 925,9 
+Margem EBITDA Ajustada 56,8% -1,2% - - 30,1% 
+Depreciação e Amortização (431,2) (4,3) (31,2) - (466,8) 
+Equivalência Patrimonial 73,2 (1,7) - - 71,5 
+Resultado Financeiro Líquido (426,3) 12,9 (176,4) - (589,8) 
+LAIR 80,8 401,5 (243,0) (924,4) (685,1) 
+Impostos (IR/CSLL) (109,9) (137,3) 16,3 314,3 83,5 
+Resultado Líquido (29,1) 264,2 (226,7) (610,1) (601,6)
+
+[p. 26]
+26 
+Desempenho Financeiro do Segmento de Geração 
+Importante: Tendo em vista a evolução da metodologia de rateio das despesas da Companhia entre segmentos e fontes, passamos a 
+reportar o EBITDA de Geração aberto entre as fontes hidrelétrica, eólica e solar e, para auxiliar o mercado na análise dos resultados e facilitar 
+a visualização e interpretação dos dados do 1T26 da Companhia, os números relativos às Informações Financeiras de 2025 por se gmento 
+são apresentados em uma visão proforma não auditada, considera ndo a metodologia de rateio aplicada a Companhia desde 01/01/2025 
+exclusivamente para fins comparativos. 
+| Tabela 18 | Resultados do Período 
+R$ milhões 1T26 1T25 proforma Var. 
+Receita Bruta 1.928,8 1.832,4 5,3% 
+Deduções sobre a Receita Bruta (194,4) (211,4) -8,0% 
+Receita Líquida 1.734,4 1.621,0 7,0% 
+ Custo com Compra de Energia (444,2) (188,7) 135,4% 
+ Encargos de Uso da Rede Elétrica (178,5) (180,2) -0,9% 
+Margem Líquida 1.111,8 1.252,1 -11,2% 
+Margem Líquida 64,1% 77,2% -13,1 p.p. 
+PMSO (243,6) (246,7) -1,2% 
+ Outros Resultados Operacionais (ORO) (3,0) 11,9 n.a. 
+EBITDA 865,1 1.017,4 -15,0% 
+ Dividendos das Participações Minoritárias 89,3 58,3 53,1% 
+Itens Não Recorrentes Relacionadas a Iniciativas de Crescimento - 1,4 n.a. 
+Constituição/(Reversão) de Provisão para Litígios e Depósitos Judiciais 30,2 (23,3) n.a. 
+ Baixa de imobilizado - 10,2 n.a. 
+EBITDA Ajustado 984,6 1.064,0 -7,5% 
+ Hidrelétrica 615,3 584,2 5,3% 
+ Eólica 315,0 394,4 -20,1% 
+ Solar 54,4 85,3 -36,2% 
+Margem EBITDA Ajustada 56,8% 65,6% -8,9 p.p. 
+O EBITDA Ajustado do segmento de geração totalizou R$ 984,6 milhões no 1T26, R$ 79,3 milhões (7,5%) inferior se 
+comparado ao 1T25. A variação no período reflete principalmente: 
+a) Margem Líquida: R$ 1.111,8 milhões no 1T26, uma redução de 11,2% em relação ao mesmo período do ano 
+anterior (R$ 1. 252,1 milhões), equivalente a R$ 140,4 milhões, devido à menor energia gerada pelas usinas 
+hidrelétricas do MRE (51,8 GW médios no 1T26 vs. 55,8 GW médios no 1T25), representando uma redução de 
+7,2% (-R$ 88,0 milhões) e ao menor recurso eólico e solar (-R$ 114,0 milhões), compensados parcialmente pelo 
+maior ganho com modulação. 
+Na comparação com Margem Líquida do 4T25 (R$ 1.050,4 milhões), tivemos um aumento de 5,8% no 1T26, 
+explicado principalmente pelo maior ganho com modulação, pelo menor impacto bruto do curtailment 
+(-R$ 121,3 milhões) e pela sazonalidade da geração hidrelétrica, com maior volume de energia gerada pelas usinas 
+do MRE (51,8 GW médios no 1T26 vs. 40,4 GW médios no 4T25), suavizados em grande medida pela menor 
+geração eólica da Auren (835,2 GW médios no 1T26 vs. 1.178,2 GW médios no 4T25) em função da sazonalidade 
+dos ativos. 
+Adicionalmente, tivemos a redução de R$ 14,0 milhões em Encargos Setoriais explicada principalmente pela 
+redução do P&D (R$ 5,0 milhões) e CFURH (R$ 6,7 milhões). 
+b) PMSO: R$ 243,6 milhões no 1T26, redução de 1,2% em relação ao 1T25, principalmente em decorrência da 
+captura das sinergias associadas à aquisição da AES Brasil realizada ao longo do ano de 2025. Em relação ao 4T25 
+(R$ 249,3 milhões), tivemos uma redução de 2,4% em função da sazonalidade das despesas operacionais. 
+c) ORO: despesa de R$ 3,0 milhões no 1T26 comparada a receita de R$ 11,9 milhões no 1T25. 
+d) Dividendos: dividendos declarados pelos ativos hidrelétricos nos quais a Companhia possui participações 
+minoritárias no montante de R$ 89,3 milhões no 1T26, R$ 31,0 milhões superior ao mesmo período de 2025 , 
+devido ao melhor resultado do exercício apurado de 2026 em Pollarix e CBA Energia.
+
+[p. 27]
+27 
+Desempenho Financeiro do Segmento de Comercialização 
+| Tabela 19 | Resultados do Período 
+R$ milhões 1T26 1T25 proforma Var. 
+Receita Bruta 2.279,3 2.070,8 10,1% 
+Deduções sobre a Receita Bruta 254,2 283,0 -10,2% 
+Receita Líquida 2.025,0 1.787,8 13,3% 
+Custo com Compra de Energia (2.015,3) (1.598,7) 26,1% 
+Encargos de Uso da Rede Elétrica (0,1) (0,4) -75,3% 
+Margem Líquida 9,6 188,7 -94,9% 
+Margem Líquida 0,5% 10,6% -10,1 p.p. 
+PMSO (36,3) (32,6) 11,2% 
+Outros Resultados Operacionais (ORO) 421,3 (33,2) n.a. 
+EBITDA 394,6 122,9 221,0% 
+Marcação a Mercado de Contratos Futuros de Energia (418,4) 38,7 n.a. 
+Outros Ajustes (0,0) 0,1 n.a. 
+EBITDA Ajustado (23,8) 161,7 n.a. 
+Margem EBITDA Ajustada -1,2% 9,0% -10,2 p.p. 
+ 
+O EBITDA Ajustado totalizou -R$ 23,8 milhões no 1T26 ante R$ 161,7 milhões registrados no 1T25. Caso não houvesse 
+a cessão de contrato mencionad a anteriormente, o EBITDA Ajustado do 1T26 seria de -R$ 3,1 milhões. A variação em 
+relação ao 1T25 é explicada principalmente: 
+a) Margem Líquida: excluindo-se o impacto negativo de R$ 20,7 milhões no segmento de Comercialização no 1T26, 
+referente à cessão do contrato de 150 MW médios mencionado anteriormente, teríamos uma variação negativa 
+de R$ 158,4 milhões entre os períodos. Tal variação é majoritariamente explicada pel o menor ganho com o 
+descolamento de preços entre os submercados (-R$ 5,0 milhões no 1T26 vs. R$ 60,0 milhões no 1T25) e por um 
+perfil de sazonalidade de resultados diferente do observado em 2025, quando houve grande contração no primeiro 
+trimestre (-R$ 85,0 milhões). 
+b) PMSO: os custos operacionais e despesas gerais e administrativas do segmento de comercialização totalizaram 
+R$ 36,3 milhões no 1T26, ante R$ 32,6 milhões no 1T25. As variações refletem majoritariamente a adição da 
+Way2, com impacto de R$ 7,0 milhões, e a evolução da metodologia de rateio entre os segmentos. 
+c) ORO: receita de R$ 421,3 milhões, resultado majoritariamente da marcação a mercado dos contratos para venda 
+de energia futura, que totalizou R$ 418,4 milhões no trimestre.
+
+[p. 28]
+28 
+Desempenho Financeiro das Participações Minoritárias 
+Nesta seção apresentamos uma DRE Gerencial com a consolidação do desempenho financeiro dos ativos hidrelétricos nos 
+quais a Auren possui participação minoritária. Tal apresentação é gerencial, não auditada e tem por objetivo auxiliar o 
+mercado a entender a geração de caixa de tais ativos, que resulta no pagamento de dividendos à Companhia. 
+Na Tabela 20, a seguir, destacamos as principais linhas dos resultados de tais ativos em conjunto, ponderados pela 
+participação indireta da Auren, possibilitando melhor entendimento das operações. Vale ressaltar que nenhum dos ativos 
+considerados nessa seção possui dívidas em seus respectivos balanços. 
+| Tabela 20 | DRE Gerencial dos Ativos Hidrelétricos com Participações Minoritárias 
+DRE Gerencial Participações 
+(R$ milhões na participação econômica de Auren) 1T26 1T25 Var. 
+Volume Energia Vendida (MW médios) 290 302 -4,0% 
+Margem Líquida (R$/MWh) 242 183 32,5% 
+Margem Líquida 151,6 119,1 27,2% 
+PMSO (6,2) (5,5) 12,6% 
+EBITDA Ajustado31F
+1 145,4 113,6 27,9% 
+ Depreciação & Amortização (10,4) (9,4) 10,7% 
+ Outros Resultados (Incluindo MTM) 5,8 32,3 -82,0% 
+EBIT 140,8 136,5 3,1% 
+ Resultado Financeiro 4,3 0,1 n.a. 
+LAIR 145,1 136,6 6,3% 
+ IR/CSLL (34,9) (27,3) 27,7% 
+Lucro Líquido32F
+2 110,3 109,3 0,9% 
+Dividendos Declarados 89,3 58,3 53,2% 
+Principais destaques do 1T26: 
+a) Margem Líquida: a melhora da margem em R$ 32,5 milhões é explicada, principalmente, pelo aumento do Preço 
+de Liquidação de Diferenças (PLD) médio no 1T26 contra o 1T25 (R$ 340/MWh vs. R$ 161/MWh, respectivamente) 
+aplicado sobre o volume de energia excedente de 30 MW médios em CBA Energia e Pollarix. 
+b) PMSO: no primeiro trimestre de 2026, o montante alcançou R$ 6,2 milhões frente a R$ 5,5 milhões no mesmo 
+período anterior. O aumento de R$ 0,7 milhões é justificado principalmente por despesas relacionadas aos honorários 
+com litígios. 
+c) EBITDA Ajustado: R$ 145,4 milhões no 1T26, crescimento de 27,9% quando comparado aos R$ 113,6 milhões 
+registrados no 1T25, justificado pelo crescimento da margem líquida em R$ 32,5 milhões. 
+d) Outros Resultados: redução de R$ 26,5 milhões vs. 1T25, influenciada pelo impacto no MtM, que refletiu a 
+variação observada na curva de preços de energia futuros. 
+e) Resultado Financeiro: receita R$ 4,3 milhões no 1T26 frente a receita de R$ 0,1 milhões no mesmo período do 
+ano anterior, devido principalmente à: (i) atualização monetária do saldo do UBP em função da queda no índice 
+aplicado (IGP-M) nas UHEs Picada, Baesa e Enercan (R$ 2,7 milhões); e (ii) ao aumento dos rendimentos de 
+aplicações financeiras na Pollarix Holding e na CBA Energia, devido à maior disponibilidade de caixa para 
+pagamento de dividendos em janeiro de 2026, bem como à dinâmica do CDI no período. 
+f) Dividendos Declarados: R$ 89,3 milhões no primeiro trimestre de 2026 , frente a R$ 58,3 milhões no 1T25 , 
+reflexo do melhor resultado do exercício apurado de 2026 em Pollarix e CBA Energia. 
+ 
+_________________________ 
+1 EBITDA Ajustado desconsidera efeitos de marcação a mercado. 
+2 O Lucro Líquido apresentado pode ser identificado na Nota Explicativa 11 das Demonstrações Financeiras de Auren Energia, ao somar o 
+resultado de equivalência patrimonial das coligadas Pollarix, CBA Energia Participações e Pinheiro Machado Participações.
+
+[p. 29]
+29 
+Outras Informações Relevantes 
+Reorganização Societária 
+Conforme Fato Relevante divulgado em 14 de abril de 2026, a Companhia, a Auren Participações, a Auren Operações e a 
+CESP – Companhia Energética de São Paulo informaram a seus acionistas e ao mercado em geral que a proposta de 
+reorganização societária do grupo empresarial da Auren Energia está em andamento, tendo sido aprovada nas Assembleias 
+Gerais das respectivas companhias. 
+A reorganização societária visa, dentre outros objetivos: (a) concentrar os ativos hidrelétricos em um único veículo (CESP); 
+(b) racionalizar e simplificar a estrutura societária do grupo empresarial da Auren Energia, com a redução do número de 
+companhias abertas; e (c) aumentar a eficiência na gestão de caixa e endividamento. 
+A Reorganização Societária é proposta considerando duas fases sequenciais, ambas subordinadas à verificação de 
+determinadas condições precedentes usuais nestes tipos de operações, incluindo, mas não se limitando a aprovações 
+societárias e regulatórias aplicáveis, bem como anuências e autorizações de terceiros: 
+(a) Fase 1: a incorporação reversa da Auren Participações pela Auren Operações, passando a Auren Energia a deter 
+participação societária direta na Auren Operações, correspondente a 100% do capital social da Auren Operações; 
+(b) Fase 2 – Etapa 1: a transferência, pela Auren Energia, de determinados ativos e passivos para a CESP, mediante 
+operação de aporte de capital, incluindo 100% das ações ordinárias, nominativas, escriturais e sem valor nominal, de 
+emissão da Auren Operações, bem como o drop-down da 3ª Emissão de Debêntures da Auren Energia (R$ 2,5 bilhões), 
+alinhando a alocação do endividamento à geração operacional de caixa dos ativos. Desse modo, a CESP passará a deter 
+participação societária direta correspondente a 100% do capital social da Auren Operações. 
+(c) Fase 2 – Etapa 2: a incorporação da Auren Operações pela CESP. 
+A Incorporação Reversa (ou Fase 1), já aprovada, está subordinada à verificação de determinadas condições suspensivas 
+usuais para esse tipo de operação, incluindo, mas não se limitando, a autorização da ANEEL e a anuência de credores, os 
+quais encontram-se atualmente em andamento. Com a implementação da Fase 1, na Data de Fechamento, a Auren 
+Participações será extinta e sucedida, a título universal e sem solução de continuidade, pela Auren Operações, que assumirá 
+todos os seus direitos e obrigações, passando a ser controlada direta da Auren Energia. 
+A Fase 2 – Etapa 1 e a Fase 2 – Etapa 2 permanecem em estudo pela Auren Energia , condicionadas às aprovações 
+necessárias à sua implementação, dentre elas as aprovações pelos conselhos de administração das companhias envolvidas 
+e a obtenção de anuências da ANEEL e CVM. 
+| Figura 1 | Etapas da Reorganização Societária 
+ 
+VA III
+Auren 
+Energia 
+Auren 
+Operações
+Auren 
+Part.
+Outros 
+Ativos
+CESP
+Outros 
+Ativos
+Auren 
+Energia
+CESP
+Outros 
+Ativos
+Pós-Reestruturação
+(estrutura estimada em 2027)
+VdP I, II e III
+Sol do Piauí
+Part. 
+Minoritárias
+VA III
+VdP I, II e III
+Sol do Piauí
+Part. 
+Minoritárias
+a. Fase 1
+ b. Fase 2 – Etapa 1
+c. Fase 2 – Etapa 2
+VA III
+Auren 
+Energia 
+CESP
+Outros 
+Ativos
+VdP I, II e III
+Sol do Piauí
+Part. 
+Minoritárias
+Auren 
+Energia
+Auren 
+Operações
+Outros 
+Ativos
+VA III
+VdP I, II e III
+Sol do Piauí
+Part. 
+Minoritárias
+CESP
+Outros 
+Ativos
+Aporte
+Auren 
+Operações
+Outros 
+Ativos
+
+[p. 30]
+30 
+ 
+Visão Geral do Trimestre 
+ 
+Nível dos Reservatórios do SIN 
+(% Energia Armazenada Máxima) Energia Alocada no MRE (GW médios) 
+ 
+ 
+ 
+1T26 com elevação gradual das vazões do SIN , 
+favorecendo a recuperação dos reservatórios ao 
+longo do trimestre. A partir de fevereiro, observou-
+se uma melhora significativa no nível dos 
+reservatórios, tendo alcançado no final de março um 
+nível próximo ao do ano anterior. 
+ A maior alocação de garantia física pelos agentes do MRE no 
+trimestre contribuiu para a variação negativa de 16 p.p. do GSF 
+ano contra ano (91% no 1T26 vs. 107% no 1T25), explicada pela 
+combinação de -8 p.p. pela maior alocação de garantia física 
+e -8 p.p. pelo menor despacho hidrelétrico. 
+ 
+Curtailment Eólico e Solar e Modulação Destaques Financeiros 
+ 
+ 
+1T26 Eólica Solar 
+Curtailment SIN25F (%) 11,5% 14,5% 
+Curtailment Auren26F (%) 13,4% 16,3% 
+Geração Efetiva Auren (% do P50) 78,3% 82,8% 
+Curtailment Auren por Fonte28F 
+(R$ milhões) 69,9 15,6 
+Curtailment Auren Consolidado 
+(R$ milhões) 86,2 
+(-) Ganhos com Modulação 
+(R$ milhões) 97,2 
+(=) Curtailment Líquido de Modulação 
+(R$ milhões) -11,0 
+ 
+ 
+EBITDA Ajustado: R$ 925,9 milhões no 1T26, (-23,2% vs. 
+1T25), com redução principalmente explicada por fatores 
+conjunturais e não estruturais: 
+o Menor recurso eólico e solar no trimestre, além de 
+GSF mais negativo (91% vs. 107% no 1T25). Menor 
+geração hidrelétrica pelas usinas do MRE. 
+o Menor ganho com o descolamento entre os 
+submercados SE/CO e NE/N além da sazonalidade do 
+resultado da Comercializadora para o ano de 2026 , 
+distinta do perfil observado em 2025, quando houve grande 
+concentração no primeiro trimestre. 
+o Ganhos de modulação de R$ 97,2 milhões , que 
+mitigaram completamente o efeito do curtailment de 
+R$ 86,2 milhões. 
+Redução da d ívida l íquida, porém com aumento de 
+alavancagem no trimestre (5,2x EBITDA), explicada pela queda 
+do EBITDA dos últimos 12 meses. 
+Balanço Energético Consolidado 
+ 
+ 
+Preço Médio de Venda²
+da Geração (R$/MWh, líquido)
+1.086 1.086 1.187 1.081 1.081 1.080
+7.974
+5.659 4.804
+3.425 2.891 2.133
+329
+517
+476
+899 1.148
+1.380
+111
+25
+113
+135 148 187
+2026 2027 2028 2029 2030 2031
+9.418
+7.219
+6.563
+5.599 5.234 4.703
+Requisito (energia contratada no ACR)
+Balanço Energético 
+Consolidado¹ (MWm)
+Requisito (energia contratada no ACL)
+Energia Convencional Descontratada
+Energia Incentivada Descontratada
+Nível de Contratação 
+do Portfólio Consolidado 95% 77%92% 89% 73% 67%
+196 213208 208 219 224
+Auren registra EBITDA Ajustado de R$ 926 milhões no 1T26, com destaque para os ganhos de 
+R$ 97 milhões com modulação, compensando integralmente o efeito do curtailment no período
+
+[p. 31]
+1 
+ 
+Earnings 
+Release 
+ 
+ 
+1Q
+26 
+MAY 
+2026
+
+[p. 32]
+2 
+CONTENTS 
+ 
+The Quarter at a Glance ................................................................................................................................... 4 
+Message from Management ............................................................................................................................. 6 
+Electricity Market ............................................................................................................................................ 7 
+Operational Performance ............................................................................................................................... 10 
+Hydro .......................................................................................................................................................... 10 
+Wind ............................................................................................................................................................ 11 
+Solar ........................................................................................................................................................... 12 
+Curtailment and Modulation Gains Impact ........................................................................................................ 14 
+Energy Balance .............................................................................................................................................. 15 
+Consolidated Energy Balance .......................................................................................................................... 15 
+Energy Balance – Generation Segment ............................................................................................................. 15 
+Supply-Load Balance – Trading Segment .......................................................................................................... 17 
+Energy Balance of Noncontrolling Interests ....................................................................................................... 18 
+Financial Performance ................................................................................................................................... 19 
+Consolidated Financial Performance ................................................................................................................. 19 
+Financial Performance – Generation Segment ................................................................................................... 26 
+Financial Performance of the Trading Segment .................................................................................................. 27 
+Financial Performance of Noncontrolling Interests .............................................................................................. 28 
+Other Material Information ........................................................................................................................... 29 
+Corporate Reorganization ............................................................................................................................... 29 
+Quarterly Overview ....................................................................................................................................... 30
+
+[p. 33]
+3 
+Earnings Call 
+ 
+May 07, 2026 
+(In Portuguese with simultaneous English translation) 
+10 a.m. (Brasília) | 09 a.m. (New York) | 2 p.m. (London) 
+Click here to view the webcast. 
+ 
+Earnings Presentation available at: ri.aurenenergia.com.br 
+ 
+ 
+ 
+Contact Information 
+ 
+Investor Relations 
+o Mateus Ferreira (Chief Financial and Investor Relations Officer) 
+o Marcelo Sá (Investor Relations Director) 
+o Juliana Ramirez (Investor Relations Manager) 
+o Emille Reckia (Investor Relations Consultant) 
+o Bruna Freixo (Investor Relations Analyst) 
+o Bruno Tavares (Investor Relations Analyst) 
+ 
+ri@aurenenergia.com.br 
+ri.aurenenergia.com.br 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+As of March 31, 2026: 
+AURE3: 
+R$ 11.94 
+Market Cap: 
+R$ 12.5 billion
+
+[p. 34]
+4 
+The Quarter at a Glance 
+ 
+ 
+ 
+Portfolio resilience: in 1Q26, the Company achieved modulation gains of R$ 97.2 million , fully mitigating the 
+curtailment impact (R$ 86.2 million). Total modulation gains were 5 times higher than those recorded in 1Q25 (R$ 19.4 
+million). This result reflects the Company's hourly generation profile, higher price volatility and higher average settlement 
+prices during the quarter. 
+Progress on corporate restructuring: Auren approved the first phase of the Corporate Restructuring , which 
+consists of merging Auren Participações into Auren Operações (Phase 1). The restructuring's ultimate goal is to 
+consolidate hydroelectric assets into a single vehicle (CESP – Companhia Energética de São Paulo), streamline the 
+corporate structure, reduce the number of publicly traded subsidiaries and increase cash and debt management 
+efficiency. Phase 1 was approved at shareholder meetings and remains subject to the performance of precedent 
+conditions, including regulatory and creditor approvals. The Company is currently evaluating the final phase, which consists 
+of merging Auren Operações into CESP (Phase 2). 
+Efficiency in operating cost and expense management: PMSO increased by R$ 11.6 million compared to 1Q25, 
+nominal growth of 3.8%, below inflation for the period . The result reflects the Company's commitment to process 
+improvement and continuous efficiency gains, having already delivered R$ 278.7 million in synergies over the course 
+of 2025. 
+Adjusted EBITDA: Auren reported Adjusted EBITDA of R$ 925.9 million in 1Q26, a 23.2% decrease compared to the 
+same period in the prior year, reflecting lower trading results , lower wind and solar resources, and lower 
+hydroelectric generation from MRE plants. Note that in 1Q25, there were significant trading gains resulting from 
+settlement price displacements between the SE/MW and N/NE submarkets. 
+Financial discipline: net debt decreased by R$ 135.4 million during the quarter, while leverage rose marginally to 
+5.2x Net Debt/Adjusted EBITDA, due to the decline in EBITDA over the last 12 months (LTM). The deleveraging trajectory 
+remains on track, with stabilization in 2026 and a more significant decline beginning in 2027. 
+Cajuína 3 construction: construction of Cajuína 3, with installed capacity of 112.1 MW, is progressing steadily, in line 
+with the schedule and budget, with physical completion of approximately 72%. Eight of the cluster's nineteen wind 
+turbines have been fully assembled. Equipment c ommissioning is expected throughout the year , while full commercial 
+operation is estimated for December 2026. 
+Auren reported Adjusted EBITDA of R$ 926 million in 1Q26, with 
+modulation gains fully offsetting the impact of curtailment in the period
+
+[p. 35]
+5 
+| Table 1 | Period Overview – Operational and Financial Information 
+Auren has total operational installed capacity of 8,722.8 MW, with 100% ownership of proprietary assets amassing 
+8,098 MW, of which: 4,198 MW is from hydro, 3,023 MW from wind and 876 MWac from solar. In addition to its wholly 
+owned assets, the Company holds noncontrolling interests in hydro assets (548 MW) and a 50% interest in the wind asset 
+Tucano Holding III (77 MW). 
+Operational Highlights 
+Generation (MWavg) 1Q26 1Q25 Change 
+Hydro 2,062.2 2,576.8 -20.0% 
+Wind1 835.2 994.9 -16.0% 
+Solar1 186.9 205.2 -8.9% 
+Total Proprietary Assets 3,084.4 3,776.9 -18.3% 
+Interests in Hydroelectric Assets 2 305.0 307.7 -0.9% 
+Total Proprietary Assets and Holdings 3,389.4 4,084.6 -17.0% 
+ 
+ 
+Operational Highlights 
+Average Availability 1Q26 1Q25 Change 
+Wind 94.2% 92.5% 1.7 p.p. 
+Solar 98.8% 97.6% 1.2 p.p. 
+ 
+Financial Headlines 
+(R$ million) 1Q26 1Q25 proforma Change 
+Net Revenue 3,074.5 2,952.3 4.1% 
+Generation 1,734.4 1,621.0 7.0% 
+ Hydro 1,026.5 989.3 3.8% 
+ Wind 620.9 598.3 3.8% 
+ Solar 133.4 130.6 2.1% 
+ Intersource Eliminations (46.3) (97.2) -52.3% 
+Trading 2,025.0 1,787.8 13.3% 
+Intersegment Eliminations (684.9) (456.5) 50.0% 
+Adjusted EBITDA3 925.9 1,205.3 -23.2% 
+Generation 984.6 1,064.0 -7.5% 
+ Hydro 615.3 584.2 5.3% 
+ Wind 315.0 394.4 -20.1% 
+ Solar 54.4 85.3 -36.2% 
+Trading (23.8) 161.7 n.a. 
+Holding Company and Pipeline (35.0) (20.4) 71.6% 
+Adjusted EBITDA Margin 30.1% 40.8% -10.7 p.p. 
+Net Profit (601.6) 54.0 n.a. 
+Net Debt 19,101.7 18,961.8 0.7% 
+Leverage 5.2x 4.8x 0.4x 
+ 
+Note: Given the development of the intersegment expenses sharing methodology, in order to assist the market in analyzing the results and 
+to facilitate the visualization and interpretation of the Company’s 1Q26 data, the figures related to the 2025 Financial Statements by segment 
+are presented on an unaudited pro -forma basis, and include the apportionment methodology applied to the Company since 01/01/2025, 
+solely to facilitate a comparative analysis. 
+_________________________ 
+1 Includes actual generation plus the energy to be compensated due to curtailment classified as External Unavailability (REL), after reaching 
+the allowance. Wind generation counts 100% of Tucano Holding III Installed Capacity 
+(155 MW), a joint venture between Auren Participações and Unipar Carbocloro S.A. (50%/50%). 
+2 Generation from NCI assets was weighted by Auren's indirect economic interest. 
+3 Adjustments detailed in the “Financial Performance” section.
+
+[p. 36]
+6 
+Message from Management 
+ 
+The first quarter of 2026 remained challenging in operational and regulatory terms, but with fundamentals that are 
+beginning to suggest a more balanced road ahead. Throughout 2026, our efforts will be focused on improving internal 
+processes, completing the corporate restructuring, implementing zero -based budgeting (ZBB) and pursuing continuous 
+efficiency. We will also be highly engaged in delivering the Company's artificial intelligence strategy. Disciplined capi tal 
+allocation and deepening this efficiency agenda are central pillars for increasing the Company's competitiveness and 
+sustaining long-term value creation. 
+The 2025-2026 wet season began with below -average water flows and high energy prices. This was the case until mid -
+February 2026, when a positive reversal in hydrological conditions was observed along with a gradual recovery in water 
+flows, resulting in more significant replenishment of the system’s reservoirs in March. After starting the year with a storage 
+level at 45%, the recovery in water flows throughout the quarter allowed March to close at 69%, a level 13 p.p. above the 
+ten-year average. Nevertheless, the average GSF for the quarter was 91%, below the 107% recorded in the same period 
+of the prior year, reflecting lower energy generation by MRE hydroelectric plants. 
+In response to this, the average settlement price in the SE/MW submarket was R$ 308/MWh in 1Q26 (vs. R$ 162.3/MWh 
+in 1Q25), accompanied by higher hourly volatility of around 45%, demonstrating more dynamic and complex conditions. 
+Following current market dynamics, the trend is toward increasing volatility in spot prices (settlement prices), with impacts 
+also on the price curve for coming years, supporting the projected rising long-term prices that we see becoming increasingly 
+consensual. 
+The quarter showed average generation curtailment levels for the National Interconnected System – SIN in line with those 
+observed in 1Q25, at 14.9% for wind and 16.2% for solar. The gross financial impact on the Company's portfolio was 
+R$ 86.2 million during the period. However, this effect was fully offset by modulation gains totaling R$ 97.2 million, five 
+times higher than those recorded in 1Q25, reflecting the Company's hourly generation profile, with greater participation of 
+hydroelectric and wind, and higher energy price volatility, as previously mentioned. The current situation provides significant 
+operational challenges and value capture opportunities for well -positioned players. With this in mind, we highlight the 
+importance of the balance among different sources and geographies in our portfolio. 
+We accordingly recorded Adjusted EBITDA of R$ 925.9 million in the quarter, a 23.2% decline compared to 1Q25, impacted 
+primarily by lower trading results, lower wind and solar resources, and reduced hydroelectric generation from MRE plants. 
+Despite these f actors and because of investments in expanding our installed capacity, the Company's cash generation 
+enabled us to reduce net debt by R$ 135.4 million in the quarter. Nevertheless, leverage rose marginally to 5.2x Net 
+Debt/Adjusted EBITDA, due to the decli ne in LTM EBITDA, in line with the Company's expectations and the deleveraging 
+curve presented in July 2025 during Auren Day, with stability throughout 2026 and accelerated deleveraging beginning in 
+2027. 
+The quarter saw significant progress on the continuous process improvement front. In April 2026, we approved phase one 
+of the corporate restructuring, involving the downstream merger of Auren Participações into Auren Operações. This initiative 
+represents step one in a broader process aimed at consolidating hydroelectric assets into a single vehicle, streamlining our 
+corporate structure and increasing cash and debt management efficiency. The corporate reorganization is ex pected to be 
+completed by year-end 2026. 
+On the growth front, construction of the Cajuína 3 project (112.1 MW) continues to progress steadily, with physical 
+completion at 72%, aligned with the project's schedule and budget. Commissioning is expected throughout the year, with 
+full commercial operation expected in December, reinforcing our renewable portfolio expansion strategy. 
+Looking ahead, we believe that as the regulatory environment evolves and ongoing initiatives mature, Auren will be 
+positioned to more broadly capture the benefits of these transformations. We expect to conclude regulatory discussions 
+related to curtailment throughout the year, creating a more predictable environment conducive to long-term investments 
+in Brazil's generation sector. 
+From 2027 onward, we are forecasting consistent EBITDA growth, cash generation and deleveraging, maintaining our 
+strategic alignment and positioning ourselves within a complex environment, transforming challenges into opportunities 
+and creating sustainable long-term value. 
+ 
+ 
+ 
+ 
+Fabio Zanfelice 
+CEO 
+Mateus Ferreira 
+Chief Financial and Investor 
+Relations Officer
+
+[p. 37]
+7 
+Electricity Market 
+The 2025-2026 wet season (November 2025 to March/26) began with Natural Streamflow (ENA) significantly below the 
+Long-Term Average (LTA), only improving from February 2026 onward. January, for example, which historically has the 
+third-highest LTA in absolute terms, recorded exceptionally low ENA at 63% of LTA, the fourth worst in the 94-year historical 
+series. As a result, reservoir recovery was very modest through the end of January, followed by a significant increase in 
+spot prices and the forward energy price curve. 
+This below-average hydrological pattern in most of the country is explained by the influence of cooler-than-normal waters 
+in the equatorial Atlantic region, an important area for moisture transportation toward Brazil. This reduced moisture flow 
+meant rainfall was below average in most regions. The Northeast was the exception, having benefited from the positioning 
+of South Atlantic Convergence Zone (ZCAS) events, a common system during the wet season that typically produces heavy 
+rainfall. 
+Throughout February, there was a significant reversal of expectations following ENA recovery, which reached a monthly 
+average of 82% of LTA for the month and 90% for March. The average ENA for the National Interconnected Grid (SIN) for 
+the quarter was 79% of LTA, a performance 5 p.p. below that observed in the same quarter last year, but representing a 
+significant 11 p.p. recovery compared to the 68% of LTA recorded in 4Q25. 
+| Table 2 | Gross Monthly Natural Streamflow (ENA) in the SIN (GWavg) 
+ 
+Source: ONS 
+For the fourth consecutive quarter, temperatures in the Southeast/Midwest were generally below the climatological average 
+– due to the absence of heat waves, common at this time of year. This pattern contrasts with the previous year, when heat 
+waves assailed large swathes of the country in February and March, bringing even higher temperatures. 
+These temperatures accordingly continued to significantly impact SIN demand. Total load in 1Q26 was 85.9 GWavg, 1.9% 
+below the level projected by ONS (PLAN 2026–301). On a period comparison basis, load declined 0.2% versus 1Q25, while 
+increasing 4.7% compared to 4Q25. 
+With increased flow throughout the quarter, reservoir levels trended upward, rising from 45% of maximum capacity at the 
+end of 4Q25 to 69% at the close of 1Q26. In addition to improved hydrological conditions, this increase is due to higher 
+merit-order thermal dispatch, which rose from 4.3 GWavg in 1Q25 to 6.4 GWavg in 1Q26. As a result, the SIN storage level 
+recorded a 23 p.p. increase throughout 1Q26, 13 p.p. above the ten-year average and very close to the 70% recorded at 
+the end of 1Q25, despite starting 8 p.p. lower. 
+| Chart 1 | SIN Reservoir Levels (% Maximum Energy Stored) 
+ 
+Source: ONS 
+Nevertheless, compared to the prior year, MRE hydroelectric generation was lower: 1Q26 recorded 52 GWavg (vs. 56 GWavg 
+in 1Q25), reflecting unfavorable hydrological conditions, higher thermoelectric dispatch, and energy consumption below 
+expectations due to cooler temperatures for the period. Meanwhile, the GSF observed in 1Q26 shed 16 p.p. compared to 
+_________________________ 
+1 Annual Energy Operation Planning Report (PMO) 2026-2030 publication in December 2025. 
+Gross ENA/ 
+LTA Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec 1Q 
+2025 98% 90% 66% 75% 71% 92% 83% 77% 75% 67% 71% 67% 84% 
+2026 63% 82% 90% - - - - - - - - - 79%
+
+[p. 38]
+8 
+the same period in 2025 (91% in 1Q26 vs. 107% in 1Q25), of which -8 p.p. is due to lower hydroelectric generation and 
+-8 p.p. from higher firm energy allocation by MRE participants in the first quarter (57 GWavg in 1Q26 vs. 52 GWavg in 
+1Q25), as illustrated in Chart 2. For agents that allocated firm energy in line with the MRE in 2025 and 2026, such as 
+Auren, the financial effect is directly related to the volume of energy generated by MRE hydroelectric plants, which fell 
+8 p.p. compared to 1Q25. 
+| Chart 2 | Hydro Displacement (% GSF) 
+ 
+Source: CCEE 
+Solar generation, including both centralized plants and distributed micro and mini generation (MMGD), increased its share 
+in meeting SIN load. It contributed 12.1 GWavg (approximately 14% of load) in 1Q26, compared to 10.9 GWavg in 1Q25 
+(12% of load). Wind generation reduced its share in load supply by 1.2 GWavg (-1 p.p.) compared to 1Q25, in response to 
+reduced wind resources between quarters (10.6 GWavg in 1Q26 vs. 11.4 GWavg in 1Q25). 
+Hydroelectric generation reduced in this source's share of load supply, falling from 68% in 1Q25 to 63% in 1Q26 (Chart 3), 
+due to the factors previously mentioned. Lastly, the thermal generation source increased its share in meeting system load 
+from 8% in 1Q25 to 12% in 1Q26. 
+| Chart 3 | Supply-Load Balance (SIN) – Contribution by Source to Load Supply (GWavg) 
+ 
+Source: ONS 
+The PLD in the Southeast/Midwest (SE/MW) submarket averaged R$ 308/MWh in the quarter, with intraday volatility of 
+45%, a significant increase compared to an average PLD of R$ 162/MWh in 1Q25 and intraday volatility of 19%. Given the 
+higher PLD prices, the SE/MW submarket showed lower price differentials relative to the Northeast submarket compared 
+to 1Q25, with an average difference of only R$ 21/MWh versus R$ 103/MWh observed in the same period of the prior year. 
+The most significant differential occurred relative to the South submarket, where the average spot price was R$ 50/MWh 
+above SE/MW for the quarter, while in 1Q25 the differential was R$ 2/MWh.
+
+[p. 39]
+9 
+| Table 3 | Average PLD by Submarket (R$/MWh) 
+PLD by Submarket 
+(R$/MWh) 
+PLD by Submarket 
+(R$/MWh) 
+Intraday Volatility 
+(%) 
+1Q26 1Q25 Change 1Q26 1Q25 Change 
+SE/MW 308.1 162.3 89.8% 45% 19% 26 p.p. 
+South 358.0 164.1 118.1% 30% 18% 13 p.p. 
+Northeast 286.8 58.9 386.7% 49% 7% 42 p.p. 
+North 287.3 58.9 387.6% 49% 7% 42 p.p. 
+Source: ONS and CCEE 
+Regarding the variation in energy prices throughout the day, the most significant effects typically occur in the late afternoon 
+and early evening, as was the case in previous quarters. Intraday price volatility in the SE/MW submarket reached 45% in 
+the quarter, well above the 19% recorded in 1Q25 and higher than the 36% observed in 4Q25. The increased volatility in 
+1Q26 compared to the same period in the prior year is associated with three factors: (i) unfavorable hydrological conditions 
+increasing the marginal operating cost; (ii) concentration of energy production throughout the day due to increased MMDG 
+installed capacity; and (iii) lower PLD in 1Q25, due to more favorable hydrology in that period. 
+Finally, based on ONS data, 1Q26 showed a small reduction in generation curtailments compared to 1Q25. Total curtailment 
+for wind generation in SIN reached 14.9% (1.6 GWavg) in 1Q26, unchanged on 1Q25 and below the 23.1% reported in the 
+last quarter of 2025. For solar generation, curtailment was 16.2% (0.8 GWavg) in the quarter, below the 17.9% recorded 
+in 1Q25, and substantially lower than the last quarter of 2025 (23.9%). 
+Curtailments for electrical reasons, eligible for compensation after reaching the allowance threshold, accounted for 23% 
+for wind and 10% for solar, a different composition from that observed in 1Q25, when curtailments were mostly classified 
+as electrical reasons (64% for wind and 47% for solar). This trend primarily reflected the collapse of transmission towers 
+in the first quarter of 2025, which limited energy transmission from Belo Monte through the Xingu/Terminal Rio bipole. 
+| Chart 4 | Percentage Share of Curtailments by Reason (GWavg, % of Total) 
+ 
+The dynamics outlined above highlight both the challenges during the quarter, especially those imposed by GSF and 
+curtailment, and the opportunities for securing modulation gains under the current PLD dynamics.
+
+[p. 40]
+10 
+Operational Performance 
+In this section, we present the Company's operational performance, which reflects its ability to adapt to different weather 
+and market conditions and demonstrates the resilience of Auren's portfolio. 
+| Table 4 | Installed Capacity and Generation Output1 by Generation Source 
+Source 
+Installed 
+Capacity 
+(MW) 
+Firm 
+Energy 
+(MWavg) 
+Generation1 (MWavg) 
+1Q26 1Q25 Change 
+Hydro 2 4,198.4 2,074.6 2,062.2 2,576.8 -20.0% 
+Wind 3 3,100.4 1,499.0 835.2 994.9 -16.0% 
+Solar 876.4 238.2 186.9 205.2 -8.9% 
+Total Proprietary Assets 8,175.3 3,811.8 3,084.4 3,776.9 -18.3% 
+Interests in Hydroelectric Assets4 547.5 265.3 253.0 223.1 13.4% 
+Total Proprietary Assets and Holdings 8,722.8 4,077.2 3,337.4 4,000.0 -16.6% 
+Hydro 
+Auren’s proprietary hydropower assets generated 2.1 GWavg in the first quarter of 2026, representing a 20.0% decline 
+compared to the same period of the previous year and 0.6% below the assets’ firm energy. This performance reflects the 
+lower dispatch performed by ONS. 
+Chart 5 below shows hydro plant generation since the beginning of the year: 
+| Chart 5 | Energy Generation and Firm Energy Values (MWavg)5 
+ 
+In 1Q26, the Verified Availability Index (IDv60) 6 remained above ANEEL's benchmark values at the main hydroelectric 
+plants in the portfolio – Porto Primavera, Água Vermelha, and Nova Avanhandava – which jointly represent 78.2% of the 
+Company's installed hydroelectric capacity. For the plants where the index remains below the benchmark thresholds – equal 
+to 15.0% of Auren's hydro capacity – the lower availability reflects isolated events from previous periods, such as 
+maintenance activities or specific incidents. To address this impact, the Company adjusted its multi -year maintenance 
+programs, aiming to increase asset reliability and preserve availability. 
+ 
+_________________________ 
+1 For wind and solar sources, this includes actual generation plus the energy to be compensated due to curtailment classified a s External 
+Unavailability (“REL”), after reaching the allowance. 
+2 Includes generation from the Mogi-Guaçu, São José and São Joaquim SHPs. Does not include Paraibuna HPP. 
+3 For wind energy, this includes 50% of the Installed Capacity from Tucano Holding III, a joint venture between Auren Participações and 
+Unipar Carbocloro S.A. (50%/50%). The asset has 155 MW of total Installed Capacity, of which 77.5 MW reflects Auren's own ership stake. 
+For the operational data of the joint venture, a 100% ownership interest is assumed. 
+4 The data on installed capacity and generation were weighted according to Auren’s indirect economic interest in the hydroelect ric assets. 
+5 Includes generation from the Mogi-Guaçu, São José and São Joaquim SHPs. 
+6 The IDv60 (Verified Availability Index – 60 months) measures the actual operational availability of a plant compared to its benchmark 
+capacity over the last five years.
+
+[p. 41]
+11 
+Wind 
+Wind asset energy production, plus the reimbursable portion (after meeting the allowance threshold) of generation 
+curtailment classified as External Unavailability (REL), reached 835.2 MWavg in 1Q26 – 16.0% lower than 1Q25 – 
+representing 77.2% of the 50th percentile of generation certification (P50) and 84.6% of the 90th percentile (P90), as shown 
+in Chart 7. This performance primarily reflects lower wind resource during the period (equivalent to an 11.7% reduction 
+relative to P50) and the incidence of curtailment (equivalent to 12.9% of P50). 
+The level of wind curtailment observed in the SIN during the quarter was similar to 1Q25, but with a different composition: 
+while in the same period of the prior year, curtailments were predominantly classified as REL (64%), in 1Q26 there was 
+greater participation of curtailments associated with Reliability (CNF) and Energy (ENE) factors, as evidenced in Chart 4 of 
+the "Energy Market" section. 
+Potential generation (effective production plus the portion of energy not produced due to curtailment) reached 97.4% of 
+P90 and 88.9% of P50 in the quarter. 
+Chart 6 presents the monthly performance of (i) total generation, consisting of actual energy output plus the share of 
+energy not produced due to electricity curtailments; (ii) potential generation; and (iii) the 50 th and 90 th percentile 
+certification benchmark values. 
+| Chart 6 | Wind Assets – Energy Generation and Certified Values for P50 and P90 (MWavg) 
+ 
+1Q26 followed the trend observed throughout 2025, which consolidated the operational performance recovery process of 
+the acquired clusters. Preventive, corrective and predictive maintenance routines remain supported by stronger operational 
+governance and integrated management of strategic spare parts inventories. 
+Considering the seasonality factor and lower resources observed this quarter, and aiming to optimize our energy production, 
+we reallocated part of the scheduled maintenance to occur throughout the quarter and year to opportune windows in terms 
+of wind reso urce. This measure led to an average availability of 94.0% in the consolidated wind portfolio in 1Q26, an 
+improvement of 2 p.p. compared to the 92.0% observed in 1Q25, as presented below. 
+ 
+_________________________ 
+1 Total generation = energy produced + portion of energy not generated due to electrical constraint curtailment. 
+2 Potential generation = energy produced + portion of energy not produced due to various types of restrictions imposed by the N ational 
+System Operator (ONS). 
+MWavg Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec 1Q 
+Total 
+Generation 20251 684.7 1,250.8 1,073.9 984.9 1,404.3 1,444.1 1,457.6 1,493.4 1,583.6 1,426.5 1,105.7 1,000.1 994.9 
+Total 
+Generation 20261 1,063.4 712.3 718.1 - - - - - - - - - 835.2 
+Potential 
+Generation 20252 727.9 1,338.7 1,156.8 1,035.4 1,574.7 1,626.6 1,722.4 1,835.1 2,022.9 1,994.2 1,410.9 1,171.0 1,065.9 
+Potential 
+Generation 20262 1,298.9 765.5 802.7 - - - - - - - - - 962.0 
+Deviation vs. 
+Certification (%) 
+P90: -15.4% 
+P50: -22.8%
+
+[p. 42]
+12 
+| Table 5 | Wind Portfolio - Availability of Consolidated Wind Clusters Acquired in 2026 
+ 
+Average Availability 
+of Consolidated Assets 1Q 2Q 3Q 4Q Year to Date 
+ 2025 92.0% 93.5% 94.8% 94.2% 93.6% 
+ 2026 94.0% - - - 94.0% 
+As shown in Chart 7, the wind portfolio's output for the quarter reached 76.0% of P50 and 83.3% of P90, as a result of 
+lower wind resource availability compared to the certified estimate (11.7% below P50 vs. 3.8% above P50 in 1Q25) and 
+curtailment, which reduced expected generation by 12.9 p .p., of which 11.7 p.p. relates to the non-reimbursable portion 
+(vs. 13.9 p.p. in 1Q25, of which 8.3 p.p. non-reimbursable). 
+| Chart 7 | Wind Portfolio – Consolidated Generation Performance in 1Q26 (P50 indexed to 100)1 
+ 
+Solar 
+Solar asset energy production plus the reimbursable portion (after meeting the allowance threshold) of generation 
+curtailment classified as External Unavailability (REL), reached 186.9 MWavg in 1Q26, 8.9% lower than 1Q25. During the 
+quarter, production represented 72.3% of the 50 th percentile (P50) defined by the clusters' generation certification and 
+78.9% of the 90th percentile (P90). The result was primarily influenced by generation curtailments classified as CNF and 
+ENE. 
+Chart 8 presents the monthly comparison of: (i) total generation – consisting of actual energy output plus the share of 
+energy not produced due to REL restrictions (compensable); (ii) potential generation – representing actual generation plus 
+the share of energy not produced due to various ONS-imposed restrictions; and (iii) the 50th and 90th percentile certification 
+values. 
+ 
+ 
+_________________________ 
+1 The curtailment figures in this subsection refer to Auren’s internal data and differ from the figures presented in the “Curta ilment of 
+Auren’s Wind and Solar Assets” section, which are based on data published by ONS.
+
+[p. 43]
+13 
+| Chart 8 | Solar Assets – Energy Generation and Certified Values for P50 and P90 (MWavg) 
+ 
+ 
+Solar asset availability in 1Q26 reached 98.4%, a 2.5 p.p. improvement on the same period in 2025, as shown in Table 6. 
+The result confirms the maturation of operational management and the effectiveness of initiatives aimed at reducing 
+unavailability, directly driving the continuous improvement of operations and the technical performance of the assets. 
+| Table 6 | Solar Portfolio - Consolidated Average Availability 
+Average Availability 
+of Assets 1Q 2Q 3Q 4Q Year to Date 
+ 2025 95.9% 98.5% 99.0% 98.8% 98.0% 
+ 2026 98.4% - - - 98.4% 
+As presented in Chart 9, despite the solar resource underperforming the certifications forecast (9.3% below P50 certification 
+vs. 1.4% below P50 in 1Q25), in general terms the main negative influence on the quarter's performance resulted from 
+curtailment, especially the non- reimbursable portion, which alone represented a 19.0 p.p. reduction compared to P50 
+certification (vs. 21.1 p.p., of which 14.0 p.p. was non-reimbursable in 1Q25). 
+ 
+_________________________ 
+1 Total generation = energy produced + portion of energy not generated due to electrical constraint curtailment. 
+2 Potential generation = energy produced + portion of energy not produced due to various types of restrictions imposed by the N ational 
+System Operator (ONS). 
+MWavg Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec 1Q 
+Total 
+Generation 20251 198.3 227.2 192.3 157.8 143.6 131.5 155.7 162.4 173.2 164.5 175.8 194.3 205.2 
+Total 
+Generation 20261 206.2 184.9 169.5 - - - - - - - - - 186.9 
+Potential 
+Generation 20252 227.7 256.1 242.3 203.9 212.1 206.4 218.6 255.8 270.1 257.4 240.2 245.9 241.5 
+Potential 
+Generation 20262 254.1 214.0 225.9 - - - - - - - - - 231.9 
+Deviation vs. 
+Certification (%) 
+P90: -21.1% 
+P50: -27.7%
+
+[p. 44]
+14 
+| Chart 9 | Solar Portfolio – Consolidated Generation Performance in 1Q26 (P50 indexed to 100)1
+ 
+Curtailment and Modulation Gains Impact 
+Important: the curtailment data in this section references figures published by the ONS and differ from those in the "Wind and Solar" 
+sections, which rely on the Company’s internal estimates. 
+Table 7 below presents the curtailment percentages for the wind and solar sources in Auren’s portfolio, calculated as a 
+percentage of Potential Generation and of the 50 th percentile (P50), and SIN curtailment. We are also presenting the 
+financial impact of curtailment for the Company and the benefits of modulation gains captured by its diversified asset 
+portfolio and its generation profile against short-term price (PLD) variations, since most energy sales contracts in the Free 
+Contracting Environment (ACL) have a flat profile. 
+In financial terms, the impact of curtailment on the asset portfolio, excluding the compensable portion of REL curtailments 
+after the allowance had been met, was R$ 86 million, a 58% decrease compared to 4Q25. R$ 14 million of this total denotes 
+the non-compensable portion (before the allowance) of REL-classified curtailments, R$ 30 million denotes reliability-based 
+curtailments and R$ 43 million supply curtailments. 
+In 1Q26, modulation gains totaled R$ 97.2 million, fully offsetting the negative impact of curtailment and yielding a positive 
+balance of R$ 11.0 million, with a net positive impact on the Company's results, as detailed in the table 7. 
+| Table 7 | Curtailment and Modulation Gains 
+ 1Q25 2Q25 3Q25 4Q25 1Q26 
+ Wind Solar Wind Solar Wind Solar Wind Solar Wind Solar 
+SIN Curtailment 2 (%) 14.9% 17.9% 11.7% 22.7% 20.6% 33.2% 23.1% 23.9% 14.9% 16.2% 
+SIN Curtailment2 ex-REL (%) 5.4% 9.4% 10.4% 21.1% 19.7% 31.3% 22.7% 22.4% 11.5% 14.5% 
+Auren Curtailment 3 (%) 8.3% 12.9% 9.0% 25.7% 18.3% 27.4% 22.3% 23.2% 13.4% 16.3% 
+Effective Auren Generation 4 (% of P50) 92.0% 78.7% 93.5% 62.7% 79.2% 65.3% 78.3% 69.1% 78.3% 82.8% 
+Auren Curtailment by Source5 (R$ million) 37.7 13.0 56.7 19.1 173.2 22.4 184.2 23.3 69.9 15.6 
+ Auren Consolidated Curtailment5 (R$ million) 50.7 75.8 195.5 207.5 86.2 
+(-) Modulation gains (R$ million) 19.4 40.4 65.6 70.4 97.2 
+(=) Curtailment Net of Modulation5 (R$ million) 31.3 35.4 130.0 137.0 -11.0 
+_________________________ 
+1 The curtailment figures in this subsection refer to Auren’s internal data and differ from the figures presented in the “Curtailment of Auren’s 
+Wind and Solar Assets” section, which are based on data published by ONS. 
+2 SIN Curtailment (%) = (Energy -Based Curtailment + Reliability -Based Curtailment) / Potential Generation. Potential Generation 
+corresponds to actual energy generation plus the energy not produced due to all types of ONS -imposed restrictions. 
+3 Auren Curtailment (%) (Energy -Based Curtailment + Reliability -Based Curtailment + Non -reimbursable Power Curtailment) / Potential 
+Generation. Potential Generation corresponds to actual energy generation plus the energy not produced due to all types of ONS -imposed 
+restrictions. 
+4 Effective Auren Generation (% of P50) = (Effective Generation + Reimbursable Power Curtailment) / P50 
+5 Auren Curtailment (R$ million) = Energy-Based Curtailment + Reliability-Based Curtailment + Non-reimbursable Power Curtailment
+
+[p. 45]
+15 
+Energy Balance 
+The Company's Consolidated Energy Balance presents the contracting profile in the Regulated Contracting Environment 
+(ACR) and Free Contracting Environment (ACL), the contracting level of the Generation and Consolidated portfolio, including 
+the Trading portfolio. We also detail the average selling price of Generation. 
+Consolidated Energy Balance 
+In the first quarter of 2026, the Company reduced its long position in the 2027-2030 period compared to the Consolidated 
+Balance of 4Q25, increasing its average contracting by 55 MWavg. 
+| Chart 10 | Consolidated Energy Balance1 
+ 
+Energy Balance – Generation Segment 
+1Q26 saw various significant energy backing reallocation transactions, aimed at adjusting the portfolio to formalize new 
+long-term self-production agreements, reinforcing the long-term contracting strategy of the Company’s renewable portfolio. 
+The main movements made are as follows: 
+o The Company advanced in optimizing the remaining backing of its projects by formalizing a self-production contract 
+for a volume of 55 MWavg for the Cajuína I and II wind assets, with supply starting in 2026, a 15-year term, and 
+indexed to the forward energy price curve. 
+The contractual structure combines predictability and exposure to market prices. The Generation Balance contract 
+presents a fixed price, while variations in energy prices are captured in the Trading Balance, allowing the Company 
+to maintain exposure to price dynamics in the Consolidated Balance. 
+o Transfer of a long-term 150 MWavg USD-denominated sales contract from the generation segment to the trading 
+segment, executed through an intercompany agreement in 2Q25. The objective was to allocate the long -term 
+energy sales contract and its FX hedge within the same vehicle. This movement had a positive impact on the 
+Generation segment EBITDA of R$ 20.7 million in 1Q26. The assignment will have a positive impact of 
+R$ 102 million in 2026 and 56 million in 2027 for the generator and an equal negative effec t for the Trading 
+segment. The net effect is neutral at the consolidated EBITDA level and is already reflected in the Generation and 
+Trading Supply-Load Balance. 
+ 
+ 
+_________________________ 
+1 Includes the Company's proprietary assets and 50% of the firm energy of Tucano Holding III, a joint venture between Auren Par ticipações 
+and Unipar Carbocloro. The firm energy is net of network losses for all years and net of GSF only for the completed peri od (2025). The 
+energy balance does not factor in the potential effect of future GSF and curtailment. 
+² Price net of taxes (PIS/COFINS and ISS), base date: March 31, 2026. 
+Average Generation 
+Sales Price² (R$/MWh, net)
+1,086 1,086 1,187 1,081 1,081 1,080
+7,974
+5,659 4,804
+3,425 2,891 2,133
+329
+517
+476
+899 1,148
+1,380
+111
+25
+113
+135 148 187
+2026 2027 2028 2029 2030 2031
+9,418
+7,219
+6,563
+5,599 5,234 4,703
+Requisite (Contracted Energy in ACR)
+Consolidated Energy 
+Balance¹ (MWavg)
+Requisite (Contracted Energy in ACL)
+Uncontracted Conventional Energy
+Uncontracted Incentivized Energy
+Consolidated Portfolio
+Contracting Level 95% 77%92% 89% 73% 67%
+196 213208 208 219 224
+
+[p. 46]
+16 
+| Table 8 | Auren Generation Portfolio Supply-Load Balance 
+Volume (MWavg) 2026 2027 2028 2029 2030 2031 
+Own Funds (A) 3,670 3,777 3,777 3,777 3,777 3,777 
+Firm Energy - Hydroelectric1 1,981 2,027 2,027 2,027 2,027 2,027 
+Firm Energy - Wind2,3 1,455 1,516 1,516 1,516 1,516 1,516 
+Solar Firm Energy 234 234 234 234 234 234 
+Purchases for Resale (B) 768 515 485 320 320 314 
+Conventional 344 199 171 6 6 0 
+Incentivized 425 317 314 314 314 314 
+Total Funds (C = A+B) 4,439 4,292 4,262 4,097 4,097 4,091 
+Sales in ACR (D) 1,086 1,086 1,187 1,081 1,081 1,080 
+Hydro 235 235 336 230 230 229 
+Wind 786 786 786 786 786 786 
+Solar 65 65 65 65 65 65 
+Sales in ACL (E) 2,912 2,664 2,487 1,982 1,720 1,444 
+Hydro4 2,123 1,849 1,672 1,167 905 670 
+Wind 634 671 671 671 671 671 
+Solar 156 144 144 144 144 102 
+Total Sales (F = D+E) 3,998 3,750 3,674 3,063 2,801 2,524 
+Generation Balance (C - F) 440 542 588 1,034 1,296 1,567 
+Conventional 329 517 476 899 1,148 1,380 
+Incentivized 111 25 113 135 148 187 
+ 
+Prices (R$/MWh) 2026 2027 2028 2029 2030 2031 
+Average Sale Price4 196 208 208 213 219 224 
+ACR 276 281 279 282 282 282 
+Hydro 312 317 300 320 320 320 
+Wind 259 264 264 264 264 264 
+Solar 355 361 361 361 361 361 
+ACL 166 178 173 176 180 181 
+Hydro 149 163 155 155 156 158 
+Wind 210 214 211 208 208 202 
+Solar5 215 206 202 201 198 200 
+Average Purchase Price6 198 195 191 184 185 172 
+Conventional 181 190 187 145 145 0 
+Incentivized 213 198 192 185 186 172 
+_________________________ 
+1 Figures include: (a) Firm Energy of proprietary assets net of the MRE adjustment factor (GSF) for the realized period through March 31, 
+2026 only - assume GSF equals 1 for other periods; (b) exclude energy from the Paraibuna HPP; (c) apply a 3% loss rate for assets connected 
+to the main grid; (d) exposure of period realized until March 31, 2026 fully settled at PLD and (e) firm energy subject to GS F totals 1,782 
+through 2028, with protection for 230 MW from the Porto Primavera HPP - in return, the Company is paying a monthly premium of 
+R$ 17.32/MWh. Base date: January 01, 2026. 
+2 Includes 50% of the firm energy from Tucano Holding III, a joint venture between Auren Participações and Unipar Carbocloro S. A. This 
+also affects the average purchase and resale prices in the respective periods. 
+3 Assumes commercial operations start at the Cajuína 3 cluster in January 2027, adding 63 MWavg of projected firm energy. 
+4 The hydro segment’s ACL sales include a portion of incentivized energy sales, as Auren Operações is classified under the hydr o segment 
+but also executes contracts from wind assets. 
+5 The equivalent price of the lease-based self-generation contract is net of PIS, COFINS and ISS. 
+6 Figures are net of PIS and COFINS. They include both ACR and ACL in the average selling price, and only ACL in the average purchase 
+price for conventional and incentivized energy. Base date: 01 April 2026. Exchange rate: R$ 5.22/USD. The Company’s energy contracts are 
+mostly indexed to the National Broad Consumer Prices Index (IPCA).
+
+[p. 47]
+17 
+Supply-Load Balance – Trading Segment 
+Table 9 presents the Company's Trading Supply-Load Balance, including sales margins for 2026 and 2027. The figures 
+reflect volumes traded through the energy trading firms Auren Comercializadora, ARN Comercializadora (formerly AES 
+Comercializadora), Tietê Integra (formerly AES Tietê Integra), CESP Comercializadora and Esfera. 
+| Table 9 | Supply-Load Balance of Auren's Trading Portfolio 
+ 
+Volume (MWavg) 2026 2027 2028 2029 2030 2031 
+Purchases (A) 4,656 2,629 2,040 1,242 886 602 
+Sales1 (B) 4,781 2,735 2,057 1,184 919 675 
+Contractual Margin2 (R$/MWh) 7.1 8.5 - - - - 
+Trading Balance (A - B) (125) (106) (17) 58 (33) (73) 
+Auren Consolidated Balance3 208 436 571 1,092 1,263 1,494 
+When analyzing the contractual margin of the trading portfolio, it is important to consider (i) the role of short-term trading 
+operations, which typically carry lower unit margins but involve high energy volumes – this type of transaction directly 
+affects the average contractual margin of the trading company throughout the year as trading volumes grow; and (ii) the 
+open exposure in the Trading Balance, which must be marked to market. For example, the 125 MWavg short position 
+annualized for 2026 will be marked to market based on prevailing prices for the second, third and fourth quarters. 
+In 1Q26, portfolio management was marked by the movements below: 
+a) Energy sales to final consumers made for the 2026 -2031 period, due to rising energy prices throughout the 
+quarter. 
+b) Transfer of a long-term 150 MWavg USD-denominated sales contract from the generation segment to the trading 
+segment, executed through an intercompany agreement in 2Q25. The objective was to allocate the long -term 
+energy sales contract and its FX hedge within the same vehicle. This movement had a negative impact on the 
+Trading segment EBITDA of R$ 20.7 million in 1Q26. The assignment will have a negative impact of R$ 102 million 
+in 2026 and 56 million in 2027 for the Trader and an equal positive effect for the Generation segment. The net 
+effect is neutral at the consolidated EBITDA level and is already reflected in the Trading and Generation Energy 
+Balance. 
+Note that this transaction has no effect on the Company’s consolidated EBITDA. Excluding this contract 
+assignment, the trading margin would have been approximately R$ 9.7/MWh in 2026 and R$ 10.4/MWh in 2027, 
+over and above the reported R$ 7.1/MWh and R$ 8.5/MWh. 
+ 
+ 
+ 
+_________________________ 
+1 Includes formal contracts in ACR and ACL. 
+2 The contractual margin is calculated as the difference between revenue and expenses under formal contracts, divided by the sa les 
+volume. It does not include the valuation of exposure. Base date: 01 April 2026. Exchange rate: R$ 5.22/USD ( R$/USD). 
+3 The Consolidated Supply-Load Balance embraces both segments (Generation and Trading).
+
+[p. 48]
+18 
+Energy Balance of Noncontrolling Interests 
+Energy balance and financial information are presented on a consolidated basis for the CBA Energia, Pollarix and Pinheiro 
+Machado holdings, in which the Company holds noncontrolling interests and whose balances are recognized under the 
+equity method in the Compa ny’s consolidated financial statements. Dividends from these interests are recognized in the 
+Company’s Adjusted EBITDA. 
+| Table 10 | Supply-Load Balance of Hydro Assets with Noncontrolling Interests1 
+Volume (MWavg) 2026 2027 2028 2029 2030 
+Firm Energy of assets (a) 251 256 256 244 244 
+Purchases (b) 47 5 4 4 4 
+Resource (c) = (a)+(b) 298 261 260 248 248 
+Sales in ACL (d) 276 256 256 244 244 
+Requisites (e) 276 256 256 244 244 
+Supply-load Balance (f) = (c) – (e) 22 5 4 4 4 
+ 
+Analyzing the 1Q26 Energy Balance reveals a 5 MWavg impact on the assets’ Firm Energy for 2026, resulting from the 
+impact of the GSF realized during the period. 
+The Energy Balance for Noncontrolling Interests only includes energy purchase and sale transactions with the market, 
+excluding intercompany contracts between hydropower assets and the subholdings (Pollarix, Pinheiro Machado and CBA 
+Energia). 
+ 
+_________________________ 
+1 Notes: (i) Firm energy of assets net of the MRE (GSF) adjustment applied; (ii) Firm energy net of internal and national grid losses (3%); 
+(iii) Firm energy subject to hydrological risk (GSF); (iv) Reflects resources (firm energy and purchase contracts) an d obligations (sales) 
+proportional to Auren’s equity interest in the NCI assets (Pollarix, CBA Energia Participações and Pinheiro Machado).
+
+[p. 49]
+19 
+Financial Performance 
+Consolidated Financial Performance 
+In addition to the Generation and Trading segments, the results presented here include the holding & pipeline segment and 
+intersegment eliminations. The share of profit (loss) of equity -accounted investees includes assets not controlled by the 
+Company: (i) Auren’s NCIs in hydropower assets, detailed in the section “Auren’s NCIs”, in the chapter Energy Balance , 
+plus (ii) Auren’s 50% interest in the joint venture between the Tucano wind cluster and Unipar Carbocloro S.A. (Tucano 
+Holding III), which recorded EBITDA 1 of R$ 11.6 million in 1Q26. For further information, see Note 10 to the Quarterly 
+Financial Information. 
+| Table 11 | Earnings for the Period 
+R$ million 1Q26 1Q25 Change 
+Gross Revenue 3,499.6 3,444.7 1.6% 
+Deductions on Gross Revenue 425.0 492.4 -13.7% 
+Net Revenue 3,074.5 2,952.3 4.1% 
+Power Purchase Cost (1,774.6) (1,330.9) 33.3% 
+Electricity grid usage charges (179.7) (180.5) -0.5% 
+Net Margin 1,120.3 1,440.8 -22.2% 
+Net Margin 36.4% 48.8% -12.4 p.p. 
+Costs and Expenses (PMSO) (313.5) (302.0) 3.8% 
+ Other Operating Income (OOI) (506.6) 238.6 n.a. 
+EBITDA 300.1 1,377.5 -78.2% 
+ Mark-to-Market Adjustment of Energy Futures (OOI) 506.0 (229.2) n.a. 
+ NCI Dividends 89.3 58.3 53.1% 
+ Non-Recurring Items Related to Growth Initiatives (PMSO) - 5.5 n.a. 
+ Accrual/(Reversal) of Provision for Litigation and 
+ Write-off of Judicial Deposits (OOI) 30.5 (23.2) -231.2% 
+ Write-off of PPE and intangible assets (OOI) - 16.4 n.a. 
+Adjusted EBITDA 925.9 1,205.3 -23.2% 
+Adjusted EBITDA Margin 30.1% 40.8% -10.7 p.p. 
+Depreciation and Amortization (466.8) (458.2) 1.9% 
+Share of profit (loss) of equity-accounted investees 71.5 72.1 -0.9% 
+Net Financial Results (589.8) (732.1) -19.4% 
+EBT (685.1) 259.4 n.a. 
+Taxes (IR/CSLL) 83.5 (205.4) -140.6% 
+Net Profit (601.6) 54.0 n.a. 
+ 
+Net Margin 
+Net Margin – Net Revenue less Energy Purchase Costs and Sector Charges – totaled R$ 1,120.3 million in 1Q26, a 22.2% 
+decrease (-R$ 320.6 million) compared to 1Q25 (R$ 1,440.8 million). 
+The effects that influenced the result were concentrated mainly in the Trader, with emphasis on: 
+(i) concentration of the trader's margin in the first quarter of 2025, resulting in a variation of - R$ 85.0 million in 1Q26 
+compared to the same period of the prior year, and (ii) lower gain from the spread between the SE/MW and Northeast and 
+North sub-markets (-R$5.0 million in 1Q26 vs. R$60 million 1Q25). 
+The main effects in the Generation portfolio were: (i) lower wind and solar resources, resulting in a variation of 
+-R$ 114.0 million in 1Q26 compared to the same period of the prior year and (ii) lower energy generated by the MRE 
+hydroelectric plants2 (51.8 GWavg in 1Q26 vs. 55.8 GWavg in 1Q25), representing a 7.2% reduction (-R$ 88.0 million) in 
+_________________________ 
+1 Including Auren Participações’ proportional interest in the joint venture. 
+2 Since Auren follows the MRE seasonality profile, the energy generated by its assets follows the actual generation of the MRE plants.
+
+[p. 50]
+20 
+the comparison between quarters, partially offset by higher modulation gains (R$ 97.2 million in 1Q26 vs. 19.4 million in 
+1Q25). 
+Compared to 4Q25 (R$ 1,094.1 million), the R$ 26.2 million increase in Net Margin is explained primarily by higher gains 
+from modulation (R$ 97.2 million in 1Q26 vs. R$ 70.4 million in 4Q25), lower gross impact from curtailment 
+(R$ 86.2 million in 1Q26 vs. R$ 207.5 million in 4Q25), and the seasonality of hydroelectric generation, with increased 
+energy generated by MRE plants of 11.4 GWavg (51.8 GWavg in 1Q26 vs. 40.4 GWavg in 4Q25), largely offset by lower 
+generation from Auren's wind clusters (835.2 GWavg in 1Q26 vs. 1,178.2 GWavg in 4Q25) due to asset seasonality. 
+Costs and Expenses (PMSO) 
+Including growth initiatives and non- recurring items, the sum of Operating Costs and Expenses and General and 
+Administrative Expenses (PMSO) showed an increase of R$ 11.6 million (3.8%) compared to the same quarter of the prior 
+year (R$ 313.5 million in 1Q26 vs. R$ 302.0 million in 1Q25), a nominal increase below inflation for the period, aligned 
+with the Company's pursuit of recurring expense growth below inflation. 
+The main variations are explained by the R$ 10.3 million increase related to operation and maintenance contracts for wind 
+assets related to the escalation provided for in the contract previously signaled to the market in our modeling guide and 
+growth initiatives explained primarily by the consolidation of Way2 in July 2025 (R$ 7.0 million), offset by synergies 
+captured throughout 2025. 
+Compared to 4Q25 (R$ 341.2 million), expenses decreased by 8.2% mainly due to seasonal factors. 
+| Table 12 | Costs and Expenses (Consolidated PMSO) 
+R$ million 1Q26 1Q25 Change 
+ Personnel (P) 111.0 115.1 -3.5% 
+ Materials and Outsourced Services (MS) 148.3 145.7 -1.8% 
+ Other (O) 54.2 41.2 31.5% 
+PMSO 313.5 302.0 3.8% 
+ 
+The change between periods is explained by: 
+a) Personnel (P): personnel costs and expenses totaled R$ 111.0 million in 1Q26, a nominal decrease of 3.5% 
+compared to the same period in 2025 (R$ 115.1 million), reflecting the synergies captured since the acquisition 
+of AES Brasil over the course of 2025. Compared to 4Q25 (R$ 132.0 million), we had a 15.9% reduction explained 
+by decommissioning costs in 4Q25 and lower bonus provisions in 1Q26. 
+b) Materials and Outsourced Services (MS): materials and services costs totaled R$ 148.3 million in 1Q26, a 
+nominal increase of 1.8% vs. that recorded in 1Q25 (R$ 145.7 million), mainly due to higher expenses on operation 
+and maintenance contracts for wind assets due to contractually provided esca lation (R$ 10.3 million), partially 
+offset by timing mismatches in expenses (R$ 5.3 million) and OBZ initiatives. 
+c) Other (O): R$ 54.2 million in 1Q26, a 31.5% increase compared to 1Q25 (R$ 41.2 million). The increase is mainly 
+due to the timing of inventory consumption initiatives mismatched with the previous cycle and the prepayment of 
+expenses in the amount of R$ 5.8 million. Compared to 4Q25 (R$ 55.4 million), expenses decreased by 2.1%, 
+reflecting lower insurance expenses. 
+Other Operating Income 
+The item Other Operating Revenue (Expenses) was an expense of R$ 506.8 million in 1Q26 compared with revenue of 
+R$ 238.6 million in 1Q25. The variation is mainly explained by the mark -to-market effect of future energy contracts of 
+-R$ 506.0 million in 1Q26 and R$ 229.2 million in 1Q25. 
+For the period ended March 31, 2026, the Company updated the assumptions and estimates used in the fair value (MtM) 
+measurement of future energy purchase and sale contracts, due to changes in conditions in the power sector. The effects 
+of this update are r eflected in the line item ‘Mark -to-market of energy contracts ’ and are characterized as a change in 
+accounting estimates, non-cash in nature, with prospective recognition, in accordance with CPC 23. 
+Note that changes in future margins do not affect the contracted energy margin for the year, as reflected in the Energy 
+Balance of the Trading Segment. The increase in future margin reflects the change in the forward energy price curve 
+between quarters. For modeling purposes, we suggest using the disclosed energy balance, which contains the volumes and 
+average prices of contracts and the trading margin.
+
+[p. 51]
+21 
+Adjusted EBITDA 
+Auren reported an adjusted EBITDA of R$ 925.9 million in 1Q26, a decrease of 23.2% or -R$ 279.4 million compared to 
+the same period the previous year. Compared to 4Q25, we had a reduction of 8.3%, or -R$ 83.8 million. These variations 
+result from the effects detailed in the sections above on Net Margin and Costs and Expenses. 
+The dividends declared on Auren's NCIs in 1Q26 totaled R$ 89.3 million, fully associated with NCIs in hydroelectric plants, 
+in line with the strategy to distribute dividend payments more evenly throughout the year. 
+Financial Result 
+| Table 13 | Consolidated Financial Result 
+R$ million 1Q26 1Q25 Change 
+Financial Revenue 262.0 276.7 5.3% 
+Financial Costs1 (851.8) (1,008.8) -15.6% 
+Net Financial Result (589.8) (732.1) -19.4% 
+ 
+The net financial result was an expense of R$ 589.8 million in 1Q26 compared with an expense of R$ 732.1 million in the 
+same period of 2025. 
+a) Financial Income: 5.3% increase (R$ 14.7 million) explained primarily by the monetary restatement portion 
+related to an arbitration proceeding with a favorable decision to Auren (R$ 25.9 million), partially offset by lower 
+income on financial investments due to lower liquidity balance (R$ 4.7 billion in March 2026 vs. R$ 7.2 billion in 
+March 2025). 
+b) Financial Costs: R$ 851.8 million in 1Q26 vs. an expense of R$ 1,008.8 million in 1Q25. The R$ 157.0 million 
+decrease is mainly due to changes in IPCA inflation between quarters (2.0% in 1Q25 vs. 1.4% in 1Q26) and gains 
+from liability management initiatives, including reduction in debt costs and gross debt (BRL 26.0 billion in 1Q25 
+vs. BRL 23.7 billion in 1Q26). 
+Compared to 4Q25 (R$ 432.0 million), we had a negative variation of 36.5% in net financ ial result, mainly due to the 
+recognition of gains associated with the present value of contributions related to self-production transactions recorded in 4Q25 
+(R$ 97.0 million). 
+Net Profit 
+| Table 14 | Consolidated Net Income 
+R$ million 1Q26 1Q25 Change 
+EBITDA 300.1 1,377.5 -78.2% 
+Depreciation and Amortization (466.8) (458.2) 1.9% 
+Share of profit (loss) of equity-accounted investees 71.5 72.1 -0.9% 
+Net Financial Result (589.8) (732.1) -19.4% 
+Taxes (IR/CSLL) 83.5 (205.4) n.a. 
+Net Profit (601.6) 54.0 n.a. 
+As a result of the aforesaid factors and changes in depreciation and amortization, equity income and taxes, the Company 
+recorded a loss of R$ 601.7 million in 1Q26 compared to profit of R$ 54.0 million in 1Q25. The main changes were as 
+follows. 
+a) EBITDA: Consolidated EBITDA of R$ 300.1 million in 1Q26 versus R$ 1,377.5 million in 1Q25, a decrease of 
+R$ 1,077.4 million, primarily due to the mark-to-market of future energy contracts, as detailed previously. 
+_________________________ 
+1 For comparability purposes, we highlight that the fair value effects of loans, financing, debentures and derivative financial instruments 
+are presented net within financial costs, differing from the accounting treatment applied in the financial statements.
+
+[p. 52]
+22 
+b) Depreciation/Amortization: expense of R$ 466.8 million in 1Q26, in line with the amount observed in 1Q25 
+(R$ 458.2 million) 
+c) Income Tax and Social Contribution (IR/CS): credit of R$ 83.5 million in 1Q26, from the establishment of 
+deferred tax assets on the expense related to the mark-to-market provision for future energy contracts. 
+d) Equity Income: revenue of R$ 71.5 million in 1Q26, in line with the R$ 72.1 million recorded in 1Q25. 
+Indebtedness 
+At March 31, 2026, the Company's consolidated gross debt totaled R$ 23.7 billion, a R$ 2.3 billion decrease compared to the 
+March 2025 closing. Relative to December 31, 2025, gross debt showed amortization of R$ 830.2 million mainly due to the 
+maturity of loan 4131 and the amortization of 50% of the 1st series of the 9th Debenture Issue of Auren Operações (TIET19), 
+according to the scheduled amortization plan. 
+At quarter-end, the Net Debt/Adjusted EBITDA ratio (leverage) reached 5.2x, an increase of 0.2x compared to March 2025, 
+primarily reflecting the impact o f the lower Adjusted EBITDA, which was partially offset by the reduction in net debt, 
+resulting from liability management initiatives. 
+Throughout 2025, Auren successfully executed and completed its liability management strategy, supported by a continuous 
+commitment to efficiency and disciplined capital allocation. Through funding raised on attractive terms, the Company extended 
+the average maturity of its debt compared to year-end 2024, from 5.9 to 6.9 at the end of 2025 and maintaining it in 1Q26, 
+thereby strengthening short- term liquidity. In addition, the replacement of debt instruments with more competitive 
+alternatives resulted in a meaningful reduction in the average cost of debt, optimizing the capital structure. 
+Approximately 66% of the net debt is indexed to the IPCA, the same index that restates the Company's energy sale 
+agreements, providing a natural hedge against future fluctuations. A small portion, representing only 21%, is indexed to 
+CDI. The average cost of the gross debt dropped to CDI–2.9% per year.1 
+| Chart 11 | Changes in Debt (R$ billion) and Gross Debt Profile 
+ 
+| Chart 12 | Net Debt (R$ million), Leverage and Net Debt Profile 
+ 
+At the end of 1Q26, Auren recorded liquidity 2 of R$ 4,719.0 million, a robust position that ensures full compliance of its 
+financial obligations for the coming years. As shown in Chart 1 3, the liability management strategy prevented significant 
+debt maturity concentrations in the near term. 
+ 
+_________________________ 
+1 Other includes incurred and paid interest, monetary restatement and the movement of deferred balances. 
+2 Cash, cash equivalents, short-term investments, liquidity fund (reserve account).
+
+[p. 53]
+23 
+| Chart 13 | Amortization Schedule of the Gross Debt Principal (R$ million) 
+ 
+| Table 15 | Debt 
+R$ million Mar/26 Mar/25 Change Dec/25 Change 
+Gross Debt 23,691.1 25,992.3 -8.9% 24,521.3 -3.4% 
+Derivative Financial Instruments1 (35.6) (8.9) n.a. 8.7 n.a. 
+Leases 165.2 169.5 -2.5% 164.1 0.7% 
+Adjusted Gross Debt2 23,820.7 26,152.9 -8.9% 24,694.1 -3.5% 
+Liquidity 3 4,719.0 7,191.1 -34.4% 5,457.0 -13.5% 
+Net Debt 19,101.7 18,961.8 0.7% 19,237.0 -0.7% 
+Adjusted EBITDA 3,689.0 3,968.4 -7.0% 3,967.2 -7.0% 
+Net Debt/Adjusted EBITDA 5.2x 4.8x 0.4x 4.8x 0.4x 
+ 
+Financial Covenants – Auren Operações 
+At the end of March 2026, R$ 2.8 billion of the Company’s total gross debt was subject to financial covenants at the 
+subsidiary Auren Operações, which include: (i) a leverage ceiling of 4.5x, measured by the Net Debt/Adjusted EBITDA ratio, 
+which closed the period at 1.6x; and (ii) maintenance of the Interest Coverage Ratio (Adjusted EBITDA/Financ ial Costs) 
+above 1.25x, which closed the period at 4.4x, meeting contractual obligations. 
+Upon completion of the corporate restructuring process, if finalized as planned, the Company will no longer have Net Debt/ 
+EBITDA covenants in its debt structure. In this scenario, the debts currently contracted at Auren Operações will come with 
+corporate guarantee from Auren Energia. 
+Ratings 
+Auren’s corporate rating as per Fitch Ratings and Moody’s held steady at the maximum score (AAA) over 1Q26, with a 
+stable outlook, reinforcing Auren’s financial strength despite its elevated leverage, reflecting the positive effects of asse t 
+integration and the agency’s confidence in the Company’s strategic positioning and the robustness of its financial structure. 
+ 
+ 
+ 
+ 
+_________________________ 
+(2) Includes mark-to-market of financial derivatives, except for those related to energy trading operations. 
+3 Includes loans, financing and debentures, net of the related derivatives operations. 
+4 Cash, cash equivalents, short-term investments, liquidity fund (reserve account).
+
+[p. 54]
+24 
+Movement in Net Debt 
+| Table 16 | Movement in Net Debt 
+R$ million 1Q26 1Q25 Change 
+Gross Debt - Opening Balance (4Q) 24,521.3 27,044.7 (2,523.4) 
+Derivative Financial Instruments and Leases - Opening Balance (4Q) 172.8 275.3 (102.5) 
+ Cash + Liquidity Fund + Short-term Investments - Opening Balance (4Q) (5,457.0) (8,113.5) 2,656.5 
+Net Debt - Opening Balance (4Q) (A) 19,237.1 19,206.6 30.5 
+ 
+Adjusted EBITDA 925.9 1,205.3 (279.4) 
+ Provision for Reimbursement 132.5 39.5 93.1 
+ Reimbursement Payment (33.1) (5.4) (27,7) 
+ Working Capital (173.9) (215.7) 41.8 
+ Income Tax and Social Contribution Paid (40.2) (74.5) 34.3 
+ Sustaining Capex (54.8) (27.8) (27.0) 
+ Return on Cash + Liquidity Fund + Financial Investments 179.6 204.8 (25.2) 
+ Interest Paid on Debt and Derivatives (592.9) (454.8) (138.0) 
+ Provision for Dividends on Equity Interests (89.3) (58.3) (31.0) 
+ Provision for Dividends on Equity Interests 151.9 0.9 151.0 
+ Dividend Payment to Noncontrolling Shareholders (43.0) (99.6) 56.6 
+ Others (0.9) (10.7) 9.8 
+Cash Movement (B) 361.9 503.7 (141.8) 
+ 
+ Interest Capitalized on Debt and Derivatives 154.6 130.6 24.0 
+ Amortization of Issuance Costs and Debt Premium (5.1) 7.5 (12.6) 
+ Provision for Leases 6.8 4.9 2.0 
+Non-Cash Movement (C) 156.4 143.0 13.4 
+ 
+Net Debt Movement without Expansion (D) = (C) – (B) (205.5) (360.7) 155.2

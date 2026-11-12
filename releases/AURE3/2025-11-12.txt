@@ -1,0 +1,2567 @@
+[p. 1]
+1 
+ 
+Release de 
+Resultados 
+3T
+25 
+NOVEMBRO 
+2025 
+UHE Água Vermelha
+
+[p. 2]
+2 
+SUMÁRIO 
+ 
+Destaques ....................................................................................................................................................... 4 
+Carta da Administração ................................................................................................................................... 6 
+Mercado de Energia ......................................................................................................................................... 8 
+Desempenho por Unidade de Negócio ........................................................................................................... 14 
+Geração ....................................................................................................................................................... 14 
+Participações Minoritárias da Auren .................................................................................................................. 27 
+Comercialização ............................................................................................................................................ 29 
+Desempenho Financeiro Consolidado ............................................................................................................ 31 
+Outras Informações Relevantes .................................................................................................................... 39
+
+[p. 3]
+3 
+Teleconferência 
+ 
+13 de novembro de 2025 
+(em português com tradução simultânea para o inglês) 
+11:00h (Brasília) | 09:00h (Nova Iorque) | 14:00h (Londres) 
+Clique aqui para acessar o webcast. 
+ 
+Apresentação de Resultados disponível em: ri.aurenenergia.com.br 
+ 
+ 
+ 
+Contatos 
+ 
+Relações com Investidores 
+o Mateus Ferreira (Vice-Presidente de Finanças e DRI) 
+o Marcelo Sá (Diretor de Relações com Investidores) 
+o Luiz Perez (Gerente Executivo de Relações com Investidores) 
+o Juliana Ramirez (Gerente de Relações com Investidores) 
+o Emille Reckia (Consultora de Relações com Investidores) 
+o Bruna Freixo (Analista de Relações com Investidores) 
+o Bruno Tavares (Analista de Relações com Investidores) 
+ 
+ri@aurenenergia.com.br 
+ri.aurenenergia.com.br 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Em 30 de setembro de 2025: 
+AURE3: 
+R$ 10,27 
+Valor de Mercado: 
+R$ 10,8 bilhões
+
+[p. 4]
+4 
+Destaques 
+ 
+ 
+ 
+Conclusão da Integração e Captura de Sinergias: o foco nas prioridades estratégicas desde a aquisição da AES Brasil, 
+em 31 de outubro de 2024 , permitiu à Auren (i) finalizar o processo de integração em tempo recorde e sem 
+intercorrências, (ii) continuar a capturar ganhos com sinergias recorrentes em PMSO , que representaram uma 
+economia de R$ 5 8,1 milhões no 3T25 e já totalizam R$ 212,1 milhões desde a aquisição , (iii) alcançar no 3T25 uma 
+disponibilidade média de 93,3 % dos ativos eólicos incorporados e (iv) iniciar uma nova fase com foco em 
+iniciativas de otimização de processos e melhoria contínua para a Companhia. 
+Desempenho Operacional: no 3T25, a produção de energia total dos ativos próprios foi de 3,3 GW médios1, 1,3% 
+inferior ao mesmo período de 2024 , reflexo principalmente do curtailment de 20,7% para a fonte eólica e 33,1% para a 
+fonte solar no SIN, aliado ao Ajuste do Mecanismo de Realocação de Energia (GSF) de 65% no trimestre. Os ativos eólicos 
+geraram 1,5 GW médios¹, 2,5% superior ao mesmo período de 2024 e equivalente a 87,3% da certificação de geração 
+no percentil 90 (P90). A geração potencial2, desconsiderando o curtailment, registrada no 3T25 correspondeu a 
+107,4% do P90 e 98,3% do P50. 
+EBITDA Ajustado e Alavancagem: a Auren registrou EBITDA Ajustado de R$ 772,7 milhões no 3T25, uma redução 
+de 10,4% em relação ao mesmo período do ano anterior. Essa queda é explicada principalmente pelos efeitos negativos do 
+curtailment e do GSF no trimestre, parcialmente compensada pelo ramp-up dos ativos que entraram em operação em 2024 
+e pelas sinergias da integração. Nos últimos 9 meses, o EBITDA Ajustado totalizou R$ 3,0 bilhões, um crescimento de 
+22,3% em relação a igual período de 2024. A alavancagem terminou o trimestre em 4,9x Dívida Líquida/EBITDA 
+Ajustado dos últimos 12 meses (UDM). 
+Benefícios do Portfólio Diversificado: no 3T25, a Companhia obteve ganhos de modulação de R$ 65,6 milhões, 
+totalizando R$ 124,0 milhões no ano de 2025, em função do perfil horário de geração da Companhia e da dinâmica 
+de preços do mercado, mitigando parte importante do efeito do curtailment. Já descontados os ganhos com 
+modulação, o impacto líquido do curtailment no trimestre totalizou R$ 130 milhões. 
+Aprovação da Indenização dos Investimentos Prudentes da CESP: no dia 14 de outubro de 2025, foi aprovada em 
+Reunião de Diretoria da ANEEL a indenização dos Investimentos Prudentes realizados pela CESP ao longo das concessões 
+das UHEs Jupiá, Ilha Solteira, Jaguari e Paraibuna, no valor de R$ 498,8 milhões, na data base do término dos contratos 
+de concessão. O fator de correção monetária, cronograma e a forma de pagamento serão posteriormente definidos pelo 
+Ministério de Minas e Energia (MME). Mais informações na seção Outras Informações Relevantes. 
+Reorganização Societária: em linha com o que vem sendo comunicado desde o anúncio da aquisição, a Companhia deu 
+início aos atos preparatórios para potencial reorganização societária , que deverá ser concluída em 2027. A 
+reorganização é uma das avenidas para destravar sinergias adicionais, com (i) a concentração dos ativos hidrelétricos 
+em um mesmo veículo (CESP), (ii) a simplificação da estrutura societária com a diminuição do número de companhias de 
+capital aberto e (iii) o aumento da eficiência na gestão de caixa e na alocação do endividamento. Mais informações na 
+seção Outras Informações Relevantes. 
+_________________________ 
+1 Considera a geração efetiva somada a energia que será ressarcida, ou seja, o curtailment classificado como Razão de Indisponibilidade 
+Externa (REL) após atingimento da franquia. 
+2 Geração potencial = geração de energia + parcela de energia não produzida devido aos diferentes tipos de restrição do ONS . 
+Auren registra EBITDA Ajustado de R$ 772,7 MM no 3T25, alcançando EBITDA 
+Ajustado de R$ 3,0 bilhões nos primeiros 9 meses de 2025 e de R$ 3,8 bilhões UDM
+
+[p. 5]
+5 
+| Tabela 1 | Destaques do Período – Informações Operacionais e Financeiras 
+Destaques Operacionais 
+Geração (MW médios) 3T25 3T24 proforma Var. 9M25 9M24 proforma Var. 
+Hidro 1.589,4 1.663,7 -4,5% 1.979,9 1.763,1 12,3% 
+Eólica1 1.510,5 1.473,7 2,5% 1.263,4 1.106,3 14,2% 
+Solar1 163,2 168,8 -3,3% 170,8 124,8 36,8% 
+Total Próprios 3.263,1 3.306,2 -1,3% 3.414,1 2.994,2 14,0% 
+Participações2 346,9 349,0 -0,6% 243,8 372,3 -34,5% 
+Total Próprios e Participações 3.610,0 3.655,2 -1,2% 3.657,9 3.366,5 8,7% 
+ 
+ 
+Disponibilidade Média 
+Fonte Eólica 3T25 3T24 proforma Var. (p.p.) 9M25 9M24 proforma Var. (p.p.) 
+Portfólio Consolidado 94,8% 93,3% 1,5 93,5% 86,3% 7,2 
+Ativos Incorporados 93,3% 91,2% 2,1 91,8% 81,7% 10,1 
+ 
+Destaques Financeiros 
+R$ milhões 3T25 3T24 proforma Var. 9M25 9M24 proforma Var. UDM 3T25 
+Receita Líquida 3.537,4 3.134,7 12,8% 9.375,2 7.651,9 22,5% 12.974,1 
+Geração 1.636,1 1.603,1 2,1% 4.853,8 4.293,1 13,1% 6.649,3 
+Comercialização 2.646,3 2.040,5 29,7% 6.328,3 4.476,9 41,4% 8.931,2 
+Eliminações (745,0) (509,0) 46,4% (1.806,9) (1.118,1) 61,6% (2.606,4) 
+EBITDA Ajustado3 772,7 862,1 -10,4% 2.958,6 2.420,0 22,3% 3.848,5 
+Geração 840,3 812,2 3,5% 2.865,5 2.284,2 25,4% 3.819,6 
+Comercialização (24,9) 81,1 n.a. 193,8 233,4 -17,0% 162,5 
+Holding e Pipeline (42,6) (31,2) 36,8% (100,6) (97,6) 3,0% (133,6) 
+Margem EBITDA Ajustada 21,8% 27,5% -5,7 p.p. 31,6% 31,6% -0,1 p.p. 29,7% 
+Resultado Líquido (403,7) 197,2 n.a. (912,6) 330,9 n.a. (1.276,1) 
+Fluxo de Caixa Operacional 
+após Serviço da Dívida 327,0 419,8 -22,1% 1.290,2 1.322,4 -2,4% 1.818,1 
+Índice de Conversão de Caixa 42,3% 48,7% -6,4 p.p. 43,6% 54,6% -11,0 p.p. 47,2% 
+Dívida Líquida 19.023,4 12.803,2 48,6% 19.023,4 12.803,2 48,6% 19.023,4 
+Alavancagem 4,9x 3,7x 1,2x 4,9x 3,7x 1,2x 4,9x 
+ 
+ 
+Importante: A seção de Desempenho Financeiro deste documento apresenta uma análise dos principais componentes do resultado da 
+Companhia. Tendo em vista a conclusão da aquisição da AES Brasil Energia S.A. em 31 de outubro de 2024, para auxiliar o mercado na 
+análise dos resultados e facilitar a visualização e interpretação dos dados do 3T25 da Companhia, os números relativos às Informações 
+Financeiras Trimestrais de setembro 2024 são apresentados em uma visão proforma não auditada, considerando as operações combinadas 
+da AES Brasil Energia S.A. e da Companhia desde 01/01/2024 exclusivamente para fins comparativos. Desta forma, os resultados contábeis 
+da Auren Energia S.A. e da AES Brasil Energia S.A., divulgados nas Informações Financeiras Trimestrais de setembro de 2024, foram 
+consolidados somando os valores de ambas as empresas e eliminando as transações entre partes relacionadas. Além disso, foram feitas 
+reclassificações entre grupos na demonstração de resultados (DRE) para fins de comparabilidade e para uma m elhor apresentação. 
+_________________________ 
+1 Considera a geração efetiva somada à energia que será ressarcida dado o curtailment classificado como Razão de Indisponibilidade 
+Externa (REL), após atingimento da franquia. 
+2 A variação da geração dos ativos com participação minoritária entre os nove primeiros meses de 2024 e 2025 deve-se a geração 
+extraordinária no 1S24, devido ao volume de chuvas acima da média histórica naquele período. A geração foi ponderada pela participação 
+econômica indireta da Auren. 
+3 Ajustes detalhados na seção “Desempenho Financeiro”.
+
+[p. 6]
+6 
+Carta da Administração 
+ 
+No dia 30 de outubro, a Medida Provisória 1.304 foi aprovada pelo Congresso e agora aguarda sanção presidencial. Vários 
+tópicos foram abordados, sendo dois especialmente importantes para a Auren. O texto aprovado permite o reembolso dos 
+cortes de geração (curtailment) relacionados ao risco para a confiabilidade da operação do Sistema Interligado Nacional – 
+SIN apurados a partir de setembro de 2023, e determina ao MME que estabeleça o conceito de sobreoferta de energia 
+renovável, que pode endereçar parte do curtailment energético. Para a Auren, o curtailment por razão de confiabilidade 
+representou cerca de 50% do total de corte de geração reportado desde setembro de 2023, resultando em um impacto 
+negativo estimado em cerca de R$ 250 milhões. Além disso, o texto estabelece os princípios para a possível renovação de 
+concessões das usinas hidrelétricas. A Auren tem 2.644 MW de capacidade hidrelétrica vencendo em 2032. 
+O terceiro trimestre de 2025 foi desafiador , com o resultado da Companhia sendo impactado de forma acentuada por 
+questões setoriais como os cortes de geração (curtailment) e o deslocamento hidrelétrico (GSF). Por outro lado, a Auren 
+avançou de forma consistente em sua agenda estratégica, com avanços relevantes na integração, na redução adicional das 
+despesas de PMSO (Pessoas, Materiais, Serviços e Outros) e no aumento da disponibilidade dos ativos incorporados com a 
+aquisição da AES Brasil. 
+O foco contínuo nas prioridades estratégicas anunciadas desde a aquisição da AES Brasil permitiu à Auren finalizar o 
+processo de integração em tempo recorde e sem intercorrências, com o descomissionamento dos sistemas advindos da 
+AES Brasil e a conclusão do Liability Management com o efetivo pré-pagamento integral do acquisition finance e de dívidas 
+de custo financeiro mais elevado durante o mês de setembro. A partir deste momento, a Companhia passa a direcionar 
+seu foco para iniciativas de otimização de pr ocessos e melhoria contínua, visando tornar-se uma empresa cada vez mais 
+ágil e eficiente. 
+A captura de sinergias de PMSO manteve -se em ritmo acelerado, atingindo o patamar de R$ 58,1 milhões no 3T25, em 
+linha com os R$ 250 milhões em sinergias anuais mencionadas previamente. Ao considerar as sinergias capturadas desde 
+a conclusão da aquisição, esse valor já totaliza R$ 212,1 milhões. A melhora da performance dos ativos eólicos incorporados, 
+por sua vez, também tem contribuído para ganhos importantes, com a disponibilidade média dos parques alcançando 
+93,3% no 3T25, um aumento de 1,3 p.p. compara do ao 2T25. A Companhia segue comprometida para atingir a 
+disponibilidade de 95% nos ativos incorporados até o final de 2025. 
+Do ponto de vista regulatório, obtivemos uma conquista importante. No dia 14 de outubro de 2025, foi aprovado em 
+Reunião de Diretoria da ANEEL o direito da CESP de receber indenização no valor de R$ 498,8 milhões, referente aos 
+investimentos prudentes realizados ao longo das concessões das UHEs Jupiá, Ilha Solteira, Paraibuna e Jaguari, na data 
+base do término dos respectivos contratos de concessão. Como passo subsequente, caberá ao MME definir a fonte dos 
+recursos para o pagamento da indenização, o cronograma de pagamento e o índice de correção monetária aplicável sobre 
+valor indenizável, temas que também tem sido objeto de discussão no âmbito da Consulta Pública MME nº 190, de 03 de 
+julho de 2025. Nossa expectativa é que essa etapa final seja concluída durante o ano de 2026. 
+Em uma análise mais detalhada dos resultados do trimestre, os maiores detratores do período foram o curtailment e o GSF, 
+ambos registrando níveis superiores às expectativas da Companhia e do mercado em geral. As principais causas foram a 
+retração da demanda do SIN no trimestre, que ficou em 77 GW médios – uma queda de 4% (3 GW médios) em relação ao 
+valor previsto pelo ONS para o período e de 1% (1 GW médio) na comparação com o mesmo trimestre de 2024 – reflexo 
+do inverno mais rigoroso desde 2009, o que acarretou temperaturas médias cerca de 2 ºC inferiores às registradas no 
+inverno de 2024 no centro-sul do país. Além da retração da demanda, o GSF e curtailment foram influenciados pela maior 
+participação de Micro e Minigeração Distribuída (MMGD) e pelo maior despacho termelétrico, devido ao aumento do preço 
+de curto prazo em razão dos novos parâmetros de aversão a risco e à adoção do Newave híbrido, e a entrada em operação 
+de capacidade térmica inflexível ao longo do trimestre. O curtailment ainda foi agravado pelo período de safra de ventos 
+fortes, típico dos meses de inverno, impactando de forma relevante a geração dos parques eólicos. 
+Considerando apenas a parcela não -ressarcível do curtailment, as restrições no SIN resultaram em cortes da ordem de 
+19,8% para os ativos eólicos e 31,2% para os ativos solares, totalizando uma restrição total de 5,6 GW médios, 120,3% 
+superior ao observado em 2T25. Neste cenário, destaca-se mais uma vez o portfólio diversificado da Auren. Concebido para 
+lidar com a crescente complexidade do setor elétrico e a maior demanda por flexibilidade, o portfólio da Companhia tem 
+se mostrado resiliente em momentos desafi adores como o 3T25. Durante o trimestre, a composição de nosso portfólio 
+possibilitou a captura de ganhos de modulação no valor de R$ 6 6 milhões, em função do perfil horário de geração da 
+Companhia e da dinâmica de preços do mercado , beneficiando-se da maior volatilidade em função de aperfeiçoamentos 
+técnicos nos modelos de formação de preços que, na visão da Companhia, refletem melhor a realidade operativa do SIN . 
+O impacto dos cortes sobre o resultado da companhia no trimestre foi de R$ 196 milhões versus R$ 96 milhões no 2T25, 
+resultando em um efeito líquido, descontando-se os ganhos de modulação , de R$ 130 milhões versus R$ 56 milhões 
+observado no 2T25. Adicionalmente, o GSF médio do trimestre foi de 65%, abaixo dos 79% registrados no 3T24. 
+Nesse contexto, a produção de energia dos ativos próprios foi de 3,3 GW médios1 no 3T25, 1,3% inferior ao mesmo período 
+de 2024. No acumulado dos 9 meses de 2025, a geração totalizou 3,4 GW médios1, 14,0% acima do 9M24. Vale o destaque 
+_________________________ 
+1 Considera a geração efetiva somada a energia que será ressarcida que é o curtailment classificado como Razão de Indisponibilidade 
+Externa (REL), após atingimento da franquia.
+
+[p. 7]
+7 
+para a geração de energia dos ativos eólicos, cuja produção atingiu 1.511 MW médios1 no 3T25, 2,5% superior ao mesmo 
+período de 2024. No comparativo com o 3T24, a produção eólica se beneficiou da conclusão do ramp-up de Cajuína e 
+Tucano. Nesse cenário desafiador, os ativos eólicos d a Companhia produziram 87,3% do percentil 90 (P90) da curva de 
+certificação de produção dos ativos, totalizando 95,3% nos últimos 9 meses. Ao analisar a geração potencial, expurgando 
+o impacto do curtailment, a geração totalizaria 1.858 MW médios ou 98,3% do percentil 50 (P50) no 3T25 e 107,4% do 
+percentil 90 (P90), demonstrando a resiliência dos ativos da Companhia. 
+Em relação ao desempenho financeiro, o EBITDA Ajustado atingiu R$ 772,7 milhões no 3T25, uma redução de 10,4%, ou 
+R$ 89,4 milhões, em relação a igual período do ano anterior. Em relação ao 2T25, o EBITDA ajustado caiu 21,2%, explicado 
+principalmente por um impacto mais negativo de curtailment (R$ 196 milhões no 3T25 frente a R$ 96 milhões no 2T25) e 
+de GSF, dada sazonalidade da geração hidrelétrica e pre ço spot mais elevado. Somado ao EBITDA Ajustado de R$ 2,2 
+bilhões alcançado no 6M25, a Companhia apresentou um EBITDA Ajustado de R$ 3,0 bilhões nos últimos 9 meses, um 
+crescimento de 22,3% em relação a igual período de 2024. Analisando-se os últimos 12 meses, o EBITDA Ajustado proforma 
+é de R$ 3,8 bilhões. Encerramos o trimestre com alavancagem de 4,9x (Dívida Líquida/EBITDA). 
+Por último, tendo em vista a otimização de sua operação, a Auren deu início aos atos preparatórios para possível 
+reestruturação societária, prevista para ser concluída em 2027, com o início do processo para obtenção dos waivers de 
+credores. A reestruturação contempla (i) a concentração de todos os ativos hidrelétricos em um único veículo (CESP), 
+(ii) a simplificação da estrutura corporativa por meio da redução do número de companhias abertas, e (iii) a maior eficiência 
+na gestão de caixa e alocação do passivo financeiro. Esta iniciativa vem sendo comunicada desde o anúncio da aquisição 
+como uma das avenidas para destravar sinergias adicionais para a Companhia combinada. 
+Continuamos construtivos em relação aos preços de energia de longo prazo, acreditando que eles devem convergir para o 
+custo marginal de expansão com a diminuição da sobreoferta. Há sinais de que esse movimento já começou, evidenciado 
+pelo aumento da curva futura de preços de energia e pelos valores mais altos em PPAs de longo prazo recentemente 
+assinados. Além disso, analistas de sell-side e investidores estão revisando significativamente suas premissas de preço a 
+longo prazo. 
+A Auren segue confiante na atratividade do setor elétrico brasileiro, contribuindo para sua evolução por meio de discussões 
+técnicas qualificadas, investimentos sustentáveis, inovação e excelência operacional, ao mesmo tempo em que mantém o 
+compromisso de gerar valor consistente para seus acionistas diante dos diferentes cenários apresentados. 
+Agradecemos a confiança e o apoio contínuo de nossos clientes, colaboradores, acionistas e parceiros. 
+ 
+ 
+ 
+ 
+Fabio Zanfelice 
+Diretor Presidente 
+Mateus Ferreira 
+Vice-Presidente de Finanças e DRI
+
+[p. 8]
+8 
+Mercado de Energia 
+O 3T25 foi marcado por um nível elevado de curtailment e deslocamento da geração hidrelétrica (GSF) desafiador, ambos 
+impactando negativamente os resultados das geradoras de energia. Os principais fatores que explicam a variação destes 
+indicadores no trimestre foram: (i) a retração da carga do SIN, que totalizou 77 GW médios no 3T25, 4,0% abaixo do valor 
+previsto pelo ONS1, e 0,9% abaixo do observado no 3T24, (ii) a evolução da matriz energética com a entrada em operação 
+comercial de capacidade térmica inflexível e Micro e Mini Geração Distribuída - MMGD, (iii) a maior produção eólica, e (iv) 
+o maior despacho termelétrico por ordem de mérito em função de preços de curto prazo mais elev ados devido aos novos 
+parâmetros de aversão a risco e a adoção do novo modelo de precificação Newave híbrido. 
+O nível dos reservatórios alcançou 56% da capacidade máxima ao final de setembro, 17 p.p. acima da média dos últimos 
+dez anos e cerca de 6 p.p. acima do mesmo período de 2024. Os últimos dois trimestres de 2025 foram impactados pela 
+carga abaixo do previsto devido à temperaturas abaixo da média, no entanto, o GSF no 3T25 foi mais acentuado do que o 
+observado no 2T25 devido a sazonalidade da produção da fonte hidrelétrica e da fonte eólica. No 3T25, o GSF foi de 65% 
+ante 96% no 2T25 e 79% no 3T24. Os 14 p.p de diferença em relação ao ano passado são explicados pela maior alocação 
+de garantia física no MRE (4p.p) e menor geração hidrelétrica do sistema (10 p.p.). 
+Em relação à fonte eólica, o curtailment total registrado no SIN foi de 20,7% (4,0 GW médios ) no 3T25 , volume 
+consideravelmente mais elevado que os 11,7% registrados no 2T25 e que os 12,8% reportados no 3T24 . Para a fonte 
+solar, o curtailment total no SIN foi de 33,1% (1,6 GW médios) no trimestre, superior às restrições de 22,9% e 18,4% no 
+2T25 e 3T24, respectivamente. 
+Por fim, o PLD do submercado Sudeste/Centro-Oeste (SE/CO) foi de R$ 252/MWh no trimestre, com volatilidade intraday 
+de 38%, contra um preço médio de R$ 170/MWh e volatilidade intraday de 31% no 3T24. Mesmo em patamares mais 
+elevados, o PLD SE/CO apresentou um menor nível de descolamento em relação ao submercado Nordeste, com diferença 
+média de R$ 12/MWh no período, ante R$ 27/MWh no 3T24 e R$ 62/MWh no 2T25. Es se menor descolamento pode ser 
+atribuído ao comportamento do PLD horário do submercado Sudeste/Centro-Oeste se aproximando do perfil horário d o 
+submercado Nordeste, devido ao maior limite de intercâmbio de energia entre as regiões e à maior participação da fonte 
+solar, impulsionada pelo crescimento da MMGD, no submercado Sudeste/Centro-Oeste. 
+Os aspectos abordados acima demonstram tanto os desafios do trimestre impostos pelo GSF e curtailment quanto as 
+oportunidades de ganho de modulação em função da dinâmica do PLD. Os efeitos serão detalhados nos parágrafos a seguir. 
+Climatologia e Energia Natural Afluente 
+Seguindo a tendência iniciada no segundo trimestre deste ano, as temperaturas se mantiveram, de forma geral, abaixo da 
+média climatológica. O inverno mais frio do que a média se deve, principalmente, à atuação de massas de ar de origem 
+polar no Sul e Sudeste/Centro-Oeste, o que contrasta com o observado em 2024, quando anomalias relacionadas a maiores 
+temperaturas predominaram em grande parte do país. 
+No segundo e terceiro trimestre de 2025, as temperaturas impactaram significativamente a demanda do SIN, de modo que 
+a carga global do SIN registrada no 3T25 foi de 77 GW médios, uma redução de 4,0% em relação ao valor previsto para o 
+3T25 pelo ONS. Na comparação com o 3T24, a carga apresentou uma queda de 0,9% e, em relação ao 2T25, foi inferior 
+em 2,5%. 
+ 
+_________________________ 
+1 Segundo o Relatório do Planejamento Anual da Operação Energética (PMO) 2025-2029, publicado em dezembro de 2024.
+
+[p. 9]
+9 
+| Figuras 1 e 2 | Anomalias de Precipitação e de Temperatura Média do Ar no 3T25 
+Figura 1 Figura 2 
+ 
+Fonte: TempoOK 
+ 
+Fonte: SAMet/Tempo OK 
+ 
+O submercado Sudeste/Centro-Oeste registrou, no 3T25, uma ENA bruta de 71% da MLT (ante 55% no 3T24) enquanto 
+os submercados Nordeste e Norte registraram, respectivamente, 45% e 65% da MLT. Em contraste, o subsistema Sul 
+apresentou um trimestre com chuvas acima da média climatológica em algumas áreas – condição associada à concentração 
+de frentes frias na região –, resultando em uma ENA de 108% da MLT neste submercado. 
+| Gráfico 1 | Energia Natural Afluente (ENA) Diária Bruta no Sistema Interligado Nacional (SIN) (GW médios) 
+ 
+ 
+ 
+Fonte: ONS 
+Reservatórios, Balanço Energético e GSF 
+A adoção de novos parâmetros de aversão a risco e do modelo Newave híbrido levaram a um maior despacho termelétrico 
+por ordem de mérito ao longo dos primeiros nove meses de 2025 que, somado a uma maior ENA e à expansão da MMGD 
+no período, resultou em um nível de armazenamento de 56% ao final do 3T25. Este nível é 17 p.p. acima da média dos 
+últimos dez anos e cerca de 6 p.p. acima do mesmo período de 2024. Na comparação com o restante do ano, o indicador 
+apresentou queda no terceiro trimestre, compatível com a sazonalidade do período hidrológico seco. 
+0
+20
+40
+60
+80
+100
+120
+140
+Jan Fev Mar Abr Mai Jun Jul Ago Set Out Nov Dez Jan Fev Mar Abr Mai Jun Jul Ago Set Out Nov Dez Jan Fev Mar Abr Mai Jun Jul Ago Set
+2023 2024 2025
+ENA Bruta
+ga/ MLT Jan Fev Mar Abr Mai Jun Jul Ago Set Out Nov Dez 3T 9M 
+2023 116% 101% 98% 94% 85% 85% 99% 84% 102% 165% 153% 65% 95% 98% 
+2024 59% 66% 71% 86% 95% 72% 85% 57% 50% 64% 97% 101% 66% 72% 
+2025 98% 90% 66% 75% 71% 92% 83% 77% 74% - - - 79% 81%
+
+[p. 10]
+10 
+| Gráfico 2 | Nível dos Reservatórios do SIN (% Energia Armazenada Máxima) 
+ 
+Fonte: ONS 
+A geração solar, impulsionada pelo crescimento da MMGD, seguiu ampliando sua participação no atendimento à carga do 
+sistema, tendo contribuído com 10,0 GW médios (aproximadamente 13% da carga) no período, ante 8,3 GW médios (cerca 
+de 11% da carga ) no 3T24. Além disso, no mesmo período, houve menor despacho hidrelétrico, o que fez com que a 
+parcela da demanda atendida por essa fonte recuasse 4 p.p. em relação ao mesmo período de 2024 (Gráfico 3). 
+| Gráfico 3 | Balanço Energético Mensal (SIN) – Contribuição por Fonte para Atendimento à Carga (GW médios) 
+ 
+ 
+Fonte: ONS 
+Além da desaceleração do deplecionamento dos níveis dos reservatórios, o volume de garantia física alocada no MRE neste 
+trimestre foi maior se comparado ao mesmo período de 2024 (51 GW médios no 3T25 vs. 48 GW médios no 3T24), o que 
+aumentou a base de referência e, por consequência, intensificou a queda do GSF, conforme indicado no Gráfico 4. Com 
+isso, o valor médio do GSF observado no 3T25 foi 65% vs. 79% no 3T24. A diferença de 14 p.p. em relação ao ano passado 
+é explicada pela maior alocação de garantia física no MRE (4 p.p.) e menor geração hidrelétrica do sistema (10 p.p.). 
+ 
+40,6%
+52,8% 52,9% 55,2% 55,6% 54,8% 51,3%
+45,4%
+38,8% 35,5% 32,6% 35,5%
+64,3%
+70,9%
+69,5% 70,6% 68,6% 69,7%
+66,4%
+61,9%
+55,5%
+Jan Fev Mar Abr Mai Jun Jul Ago Set Out Nov Dez
+Média 10 anos 2018 2019 2020 2021 2022 2023 2024 2025
+72%
+66%
+53% 55%
+68%
+60%
+49%
+9%
+10%
+16% 15%
+8%
+11%
+17%
+10%
+15% 21% 17%
+11%
+17% 21%
+4%
+4% 4% 5%
+5%
+4% 4%
+6%
+6% 6% 8%
+8%
+7% 9%
+82 79 78 81
+86
+79 77
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100
+1T24 2T24 3T24 4T24 1T25 2T25 3T25
+Hidrelétrica Térmica Eólica Solar MMGD Carga Total (GWm)
+
+[p. 11]
+11 
+| Gráfico 4 | Deslocamento Hidrelétrico (% GSF) 
+ 
+ 
+Fonte: CCEE 
+Preço de Liquidação das Diferenças (PLD) 
+O Preço de Liquidação das Diferenças (PLD) médio para o submercado Sudeste/Centro-Oeste (SE/CO) foi de R$ 252/MWh 
+no trimestre, ante um preço médio de R$ 170/MWh no 3T24. A manutenção de preços em patamares elevados ao longo 
+do terceiro trimestre, mesmo diante de níveis de armazenamento superiores e de uma condição hidrológica mais favorável 
+em comparação ao ano anterior, evidencia o impacto dos novos parâmetros de aversão a risco introduzidos na cadeia de 
+modelos de formação de preços com o objetivo de aumentar a segurança sistêmica. 
+Apesar do patamar mais elevado do PLD, o 3T25 apresentou uma redução no descolamento de preços entre os submercados 
+Sudeste/Centro-Oeste e Nordeste, com diferença média de R$ 12/MWh, frente aos R$ 27/MWh observados no mesmo 
+período de 2024 e R$ 62/MWh no 2T25. 
+Esse comportamento pode ser atribuído à maior frequência de vales de preços durante o período de sobreoferta registrados 
+no submercado Sudeste/Centro -Oeste. Em 2024, esse padrão era observado predominantemente no Nordeste. Tal 
+convergência evidencia o aumento da oferta nos horários próximos ao meio -dia na região Sudeste/Centro -Oeste, 
+impulsionado pelo crescimento da MMGD, além do aumento nos limites de intercâmbio de energia entre as regiões. 
+| Gráfico 5 | PLD Diário por Submercado (R$/MWh) 
+ 
+ 
+ 
+62 63 61
+52
+46
+48 48 48
+52 52
+46
+54
+49
+52
+55
+48 43
+46
+52 54
+56
+54
+56 58 54
+48
+43
+40
+38 38 38
+44
+46
+56
+58
+54 49
+42 40
+36
+34 35
+87% 89% 95% 104% 104% 89% 85% 79% 73% 74% 80% 86% 113% 111% 99% 102% 97% 86% 66% 64% 65%
+Jan Fev Mar Abr Mai Jun Jul Ago Set Out Nov Dez Jan Fev Mar Abr Mai Jun Jul Ago Set
+GW médio
+Garantia Física Sazonalizada Geração Hidráulica do MRE (Centro de Gravidade) GSF
+2024 2025
+0
+100
+200
+300
+400
+500
+600
+700
+800
+2024 2025
+PLD (R$/MWh)
+Sul Norte Nordeste Sudeste/Centro-Oeste
+Ano Jan Fev Mar Abr Mai Jun Jul Ago Set Out Nov Dez 3T 9M 
+2023 104% 98% 102% 105% 98% 80% 78% 80% 83% 83% 83% 86% 80% 92% 
+2024 87% 89% 95% 104% 104% 89% 85% 79% 73% 73% 80% 86% 79% 89% 
+2025 113% 111% 99% 102% 97% 86% 66% 64% 65% - - - 65% 88%
+
+[p. 12]
+12 
+PLD por Submercado 
+(R$/MWh) 
+3T 9M 
+2025 2024 Var. 2025 2024 Var. 
+ SE/CO 252,4 169,7 82,7 210,7 98,1 112,6 
+ Sul 253,0 169,7 83,3 214,1 98,2 116,0 
+ Nordeste 240,0 142,7 97,2 151,6 89,1 62,6 
+ Norte 251,0 172,6 78,4 155,5 99,1 56,4 
+Fonte: ONS e CCEE 
+Em relação à variação dos preços de energia ao longo do dia, os efeitos mais significativos de alta do PLD são tipicamente 
+registrados entre o final da tarde e o início da noite. Nesses horários, a demanda por energia permanece elevada enquanto 
+a oferta de energia diminui em função da redução total da geração solar, resultando em um aumento dos preços. O inverso 
+ocorre nos horários próximos ao meio-dia, onde há uma redução considerável da carga líquida diante da elevada geração 
+intermitente, levando o PLD a patamares menores. 
+Conforme ilustrado no Gráfico 6, o terceiro trimestre de 2025 apresentou maior estabilidade de preços em comparação ao 
+mesmo período de 2024, quando o PLD médio se manteve em patamares mais baixos e começou a aumentar a partir de 
+setembro. A volatilidade intraday dos preços no submercado Sudeste/Centro-Oeste no 3T25 foi de 38%, superior aos 31% 
+registrados em 2024, principalmente em função da entrada da MMGD que tem levado preços a patamares mais baixos no 
+período da manhã em comparação a 2024. Em 2025 os preços se comportaram de forma mais homogênea ao longo do 
+trimestre, oscilando dentro de uma faixa mais estreita, entre R$ 210/MWh e R$ 287/MWh. 
+| Gráfico 6 | PLD Horário Submercado Sudeste/Centro-Oeste (R$/MWh) 
+ 
+Fonte: CCEE 
+Curtailment 
+Por fim, considerando dados do ONS, o 3T25 registrou uma média de cortes totais (curtailment) sobre a geração total do 
+SIN na ordem de 20,7% (4,0 GW médios) para a fonte eólica e 33, 1% (1,6 GW médios) para a fonte solar. Se 
+desconsiderarmos os eventos motivados por Razão de Indisponibilidade Externa (REL), passíveis de ressarcimento, os 
+cortes atingiram 19,8% (3,8 GW médios) para a fonte eólica e 31,2% (1,5 GW médios) para a fonte solar. 
+Assim como no trimestre anterior, a maior parte da restrição de geração no 3T25 foi atribuída à Razão Energética (64%) – 
+condição diretamente relacionada à combinação da baixa demanda, como consequência das temperaturas mais amenas 
+nas regiões Sudeste/Centro -Oeste e Sul, com a elevada disponibilidade de recursos eólicos no Nordeste, aumento da 
+capacidade térmica e de MMGD, e mudança dos parâmetros de aversão a risco do ONS. A trajetória de cortes foi crescente 
+ao longo do trimestre, com o mês de setembro registrando o maior percentual de curtailment, impulsionado pelo pico da 
+safra dos ventos. 
+ 
+PLD Médio 
+(SE/CO) Jan Fev Mar Abr Mai Jun Jul Ago Set Out Nov Dez 3T 9M 
+2023 69,0 69,0 69,0 69,0 69,0 69,0 69,0 69,0 80,4 74,8 84,4 74,1 72,7 70,3 
+2024 61,1 61,2 61,1 61,1 61,1 66,4 87,1 118,8 307,6 480,8 103,5 64,8 169,7 98,1 
+2025 59,2 93,7 327,3 202,2 212,6 234,7 210,0 287,2 260,4 - - - 252,4 210,7
+
+[p. 13]
+13 
+| Gráfico 7 | Participação Percentual dos Cortes por Motivo (% Total) 
+ 
+| Gráfico 8 | Curtailment Eólico e Solar (GW médio) e PLD (R$/MWh) 
+ 
+Fonte: ONS/CCEE 
+Para voltar ao sumário do documento, clique aqui.
+
+[p. 14]
+14 
+Desempenho por Unidade de Negócio 
+Geração 
+Em setembro de 2025, a capacidade instalada operacional da Auren totalizou 8.800 MW, dos quais 4.746 MW correspondem 
+à fonte hidrelétrica, 3. 178 MW correspondem à fonte eólica e 876 MWac correspondem à fonte solar. Ao longo des te 
+capítulo, a Companhia apresenta o Balanço Energético do segmento de geração, seu desempenho operacional e respectivos 
+resultados financeiros. 
+Balanço Energético do Segmento de Geração 
+A Tabela 2 apresenta o Balanço Energético de Geração da Companhia, além de informações de preços de venda de energia 
+no Ambiente de Contratação Regulada (ACR) e Ambiente de Contratação Livre (ACL) discriminados em fonte convencional 
+e fonte incentivada. Atualmente, os ativos com contratos no ACR incluem a UHE Porto Primavera, os complexos eólicos 
+Ventos do Piauí I, Ventos do Araripe I, Ventos do Araripe III, Alto Sertão II, Ventus, Mandacaru, Salinas, Cassino e Caetés, 
+além dos complexos solares Guaimbê, Boa Hora e Água Vermelha. O detalhamento dos contratos de vendas no ACR, bem 
+como maiores detalhes sobre os ativos, podem ser acessados em formato Excel na Central de Resultados do website de 
+Relações com Investidores. 
+A estratégia de comercialização da Auren resulta em um portfólio com alto nível de contratação de energia nos próximos 3 
+anos, com redução gradual no médio e longo prazo. Nesse sentido, o nível de contratação para o ano de 2025 é de 97% 
+do portfólio consolidado, 94% em 2026 e 87% em 2027. Esses valores correspondem à garantia física total dos ativos 
+próprios, descontadas as perdas da rede básica e o fator de ajuste do MRE (GSF) apenas para o período já realizado (9M25). 
+Nos demais períodos, os valores são brutos de GSF e curtailment. No segmento de geração, a Companhia adquire energia 
+de terceiros visando a gestão do portfólio com a variação de geração, atendendo vendas de energia dos ativos de geração, 
+exposições ao MRE e possíveis compensações associadas ao curtailment. 
+Adicionalmente, os contratos de energia da Companhia são corrigidos majoritariamente pelo Índice Nacional de Preços ao 
+Consumidor Amplo (IPCA) no ano. 
+As principais variações no Balanço Energético do 3T25 são: 
+o 36 MW médios de autoprodução por arrendamento do projeto Solar Sol de Jaíba foram incorporados no volume 
+vendido do ACL Solar com a conclusão da transação após o cumprimento das condições precedentes. Esse contrato 
+tem início de suprimento em outubro de 2025 e vigência até dezembro de 2030. A receita do arrendamento está 
+refletida no Balanço Energético pelo preço equivalente unitário, calculado com base na garantia física alocada ao 
+cliente. 
+o Transferência de contrato de venda de longo prazo de 150 MW médios , com preço baseado em dólares, do 
+segmento de geração para o segmento de comercialização, realizada através da celebração contrato intercompany 
+no 2T25, com o objetivo de alocar o contrato de venda de energia de longo prazo e do hedge no mesmo veículo. 
+Esse movimento resultou em um impacto positivo no EBITDA do segmento de geração de R$ 49,0 milhões no 
+3T25, em linha com o efeito já anunciado de aproximadamente R$ 100 milhões para o ano de 2025, conforme 
+detalhado no Release de Resultados 2T25. No ano de 2026, essa cessão terá impacto positivo de R$ 103 milhões 
+para a geradora e negativo na mesma magnitude para o segmento de comercialização. O impacto dessa cessão é 
+neutro para o EBITDA consolidado da Companhia.
+
+[p. 15]
+15 
+| Tabela 2 | Balanço Energético do Portfólio de Geração da Auren 
+Volume (MW médio) 2025 2026 2027 2028 2029 2030 
+Recursos Próprios (A) 3.545 3.715 3.776 3.776 3.776 3.776 
+Garantia Física Hidrelétrica1 1.857 2.027 2.027 2.027 2.027 2.027 
+Garantia Física Eólica2,5 1.455 1.455 1.516 1.516 1.516 1.516 
+Garantia Física Solar 233 233 233 233 233 233 
+Compras para revenda (B) 1.028 595 498 470 386 386 
+Convencional 401 137 119 91 6 6 
+Incentivada 628 459 379 379 380 380 
+Recursos Totais (C = A+B) 4.573 4.311 4.274 4.246 4.162 4.162 
+Vendas no ACR (D) 1.084 1.084 1.084 1.190 1.084 1.084 
+Hidrelétrica 230 230 230 336 230 230 
+Eólica 788 788 788 788 788 788 
+Solar 65 65 65 65 65 65 
+Vendas no ACL (E) 3.241 2.746 2.467 2.249 1.677 1.416 
+Hidrelétrica3 2.377 2.008 1.745 1.528 956 695 
+Eólica 691 587 587 587 587 587 
+Solar 173 152 134 134 134 134 
+Vendas Totais (F = D+E) 4.325 3.830 3.550 3.438 2.761 2.500 
+Balanço Geração (C - F) 248 480 724 808 1.401 1.662 
+Convencional 147 262 470 466 1.035 1.284 
+Incentivada 101 218 254 341 366 379 
+ 
+Preços (R$/MWh) 2025 2026 2027 2028 2029 2030 
+Preço Médio de Venda3 196 192 201 202 211 218 
+ACR 265 274 275 273 275 275 
+Hidrelétrica 302 311 312 293 312 312 
+Eólica 248 257 257 257 257 257 
+Solar 339 352 352 352 352 352 
+ACL 172 159 168 165 170 175 
+Hidrelétrica 160 142 154 147 148 150 
+Eólica 204 205 206 204 200 201 
+Solar6 210 204 195 191 190 187 
+Preço Médio de Compra4 185 184 176 173 177 177 
+Convencional 206 144 141 132 132 132 
+Incentivada 172 196 187 183 177 178 
+_________________________ 
+1 Os valores consideram: (a) a Garantia Física (GF) dos ativos próprios líquida do fator de ajuste MRE (GSF) apenas para o perí odo 
+realizado até 30 de setembro de 2025, e, para os demais períodos, considera GSF igual a 1; (b) não considera recursos da UHE Paraibuna; 
+(c) 3% de perdas nos ativos conectados à rede básica; (d) que a exposição do s primeiros nove meses de 2025 foi integralmente liquidada 
+ao PLD; e (e) a garantia física sujeita a GSF é de 1.782 até 2028, com proteção para 230 MW da UHE Porto Primavera - em contrapartida, 
+a Companhia paga, mensalmente, um prêmio de R$ 16,62/MWh, conforme valor estabelecido pela Resolução Normativa da ANEEL nº 
+684/2015, Data base: 01 de janeiro de 2025. 
+2 Considera 50% da Garantia Física de Tucano Holding III, joint-venture entre Auren Participações e Unipar Carbocloro S.A. Este efeito 
+também influencia as linhas de preço médio de compra para revenda e venda dos períodos. 
+3 O saldo de vendas do segmento hidrelétrico no ACL tem parte da venda de energia incentivada devido a Auren Operações ser clas sificada 
+no segmento hidrelétrico, mas também firmar contratos de ativos eólicos. 
+4 Os valores considerados são líquidos de PIS e COFINS. Incluem a totalidade do ACR e ACL no preço médio de venda e apenas ACL no 
+preço médio de compra para energia convencional e incentivada. Data base: 01 de outubro de 2025. Dólar considerado: R$ 5,32 
+(BRL/USD). 
+5 Considera a entrada em operação do complexo de Cajuína 3 a partir de janeiro de 2027, agregando 63 MW médios de projeção de GF. 
+6 O preço equivalente do contrato de autoprodução por arrendamento está líquido de PIS, COFINS e ISS.
+
+[p. 16]
+16 
+Desempenho Operacional da Geração 
+Nesta seção, a Auren apresenta seu desempenho operacional para as diferentes fontes que compõem o seu portfólio. As 
+expectativas de produção são baseadas nas certificações de geração nos percentis 50 (P50) e 90 (P90) dos complexos 
+eólicos e solares. 
+| Tabela 3 | Capacidade Instalada e Produção Segregadas por Fonte de Geração 
+Fonte 
+Capacidade 
+Instalada 
+(MW) 
+Geração (MW médios) 
+3T25 3T24 Var. 9M25 9M24 Var. 
+Hidrelétrica1 4.198 1.589,4 1.663,7 -4,5% 1.979,9 1.763,1 12,3% 
+Eólica2 3.178 1.510,5 1.473,7 2,5% 1.263,4 1.106,3 14,2% 
+Solar2 876 163,2 168,8 -3,3% 170,8 124,8 36,8% 
+Total Próprios 8.253 3.263,1 3.306,2 -1,3% 3.414,1 2.994,2 14,0% 
+Participações3 548 346,9 349,0 -0,6% 243,8 372,3 -34,5% 
+Total Próprios e Participações 8.800 3.610,0 3.655,2 -1,2% 3.657,9 3.366,5 8,7% 
+Hidrelétrica 
+A produção de energia dos ativos hidrelétricos próprios da Auren totalizou 1, 6 GW médios no terceiro trimestre de 2025 
+representando uma queda de 4,5% em relação ao mesmo período do ano anterior (1,7 GW médios no 3T24) e um volume 
+de energia gerado 23,2% abaixo da garantia física dos empreendimentos. Esse desempenho é reflexo do menor despacho 
+das usinas hidrelétricas da Companhia, principalmente em função dos níveis de carga registrados no período, além de 
+outros fatores mencionados na seção Mercado de Energia deste documento. 
+No acumulado dos nove primeiros meses de 2025 (9M25), a produção atingiu 2,0 GW médios, um crescimento de 12,3% 
+frente ao mesmo período de 2024 (1,8 GW médios). Esse desempenho positivo foi impulsionado principalmente pela melhor 
+hidrologia registrada no primeiro trimestre de 2025, quando a ENA alcançou 84% da MLT, em comparação a 65% no 1T24. 
+Esse cenário mais favorável no início do ano permitiu elev ar os níveis de armazenamento dos reservatórios, oferecendo 
+maior flexibilidade operativa para o despacho das usinas ao longo dos meses seguintes. 
+O Gráfico 9 a seguir mostra a produção de energia das usinas hidrelétricas desde o início do ano: 
+| Gráfico 9 | Geração de Energia e Valores de Garantia Física (MW médios)4 
+ 
+_________________________ 
+1 Considera geração das PCHs Mogi-Guaçu, São José e São Joaquim. Não considera UHE Paraibuna. 
+2 Considera a geração efetiva somada à energia que será ressarcida que é o curtailment classificado como Razão de Indisponibilidade 
+Externa (REL), após atingimento da franquia. 
+3 A variação da geração dos ativos com participação minoritária entre os períodos acumulados deve-se a geração extraordinária no 1S24, 
+decorrente do volume de chuvas acima da média histórica naquele período. A geração registrada no 1S25 foi em linha se comparado à 
+registrada no 1S23, ambas em condições padrões de médias de precipitação no sul do Brasil. Os dados referentes à capacidade i nstalada e 
+geração foram ponderados pela participação econômica indireta da Auren . 
+4 Considera geração das PCHs Mogi-Guaçu, São José e São Joaquim. 
+1.664
+1.763
+1.589
+1.980
+2.075
+2.075
+2.560
+2.798
+2.394
+1.980
+1.778
+1.595
+1.440 1.514
+1.821
+Jan Fev Mar Abr Mai Jun Jul Ago Set Out Nov Dez 3T 9M
+2024 2025 Garantia Física
+
+[p. 17]
+17 
+Conforme demonstrado na Tabela 4, ao final do 3T25, o Índice de Disponibilidade Verificada1 manteve-se acima dos valores 
+de referência da ANEEL nas principais usinas hidrelétricas do portfólio: Porto Primavera, Água Vermelha e Nova 
+Avanhandava, que juntas representam 78,5% da capacidade hidrelétrica da Companhia. Nas usinas cujos índices ainda se 
+encontram abaixo das referências, a menor disponibilidade reflete eventos pontuais ocorridos em períodos anteriores, como 
+manutenções ou intercorrências específicas. A Companhia estabeleceu um plano de revisão de manutenções plurianuais, 
+visando aumentar a disponibilidade dos ativos aos níveis adequados. 
+| Tabela 4 | Geração e Disponibilidade Verificada dos Ativos Hidrelétricos Próprios 
+Estado Hidrelétrica 
+Cap. 
+Instalada 
+(MW) 
+Geração (MW médios) % Garantia 
+Física2 
+3T25 
+Disponibilidade 
+Verificada¹ 
+Índice Ref. 
+ANEEL 
+3T25 3T24 Var. 9M25 9M24 Var. Setembro/25 
+SP 
+UHE Porto Primavera 1.540 771,8 822,8 -6,2% 896,1 828,4 8,2% -13,0% 96,1% 92,3% 
+UHE Água Vermelha 1.396 482,0 571,8 -15,7% 637,5 587,5 8,5% -30,6% 96,6% 93,9% 
+UHE Nova Avanhandava 347 86,4 64,9 33,2% 120,6 82,8 45,6% -31,1% 95,8% 94,8% 
+UHE Promissão 264 62,6 50,5 23,9% 88,5 63,1 40,2% -33,4% 90,9% 94,8% 
+UHE Bariri 143 37,2 28,2 32,2% 54,4 43,6 24,7% -37,5% 91,9% 93,4% 
+UHE Barra Bonita 141 34,1 26,7 27,6% 38,1 31,1 22,7% -27,0% 87,6% 94,6% 
+UHE Ibitinga 132 40,8 32,9 24,1% 58,8 49,4 19,0% -38,9% 96,9% 93,8% 
+UHE Euclides da Cunha 109 32,7 30,2 8,2% 39,4 36,9 6,8% -30,6% 96,8% 94,6% 
+UHE Caconde 80 31,1 25,5 21,9% 31,0 26,2 18,3% -4,4% 94,3% 94,6% 
+UHE Limoeiro 32 9,2 8,8 4,1% 12,0 10,8 11,5% -35,7% 96,1% 94,6% 
+ Total 4.184 1587,9 1662,3 -4,5% 1976,5 1759,8 12,3% -23,2% - - 
+Eólica 
+A produção de energia dos ativos eólicos somada à restrição de geração por Razão de Indisponibilidade Externa (REL), 
+passível de ressarcimento após atingimento da franquia, atingiu 1.510,5 MW médios no 3T25, 2,5% superior ao 3T24 
+(1.473,7 MW médios). No ano, a produção de energia atingiu 1 .263,4 MW médios, 14,2% superior a 2024 em função, 
+principalmente, da entrada em operação completa dos Complexos Eólicos Tucano e Cajuína e da melhor performance dos 
+demais ativos, parcialmente compensados pelos cortes de geração. Com um cenário de curtailment elevado, o volume de 
+energia produzido somado à restrição por REL foi de 87,3% da P90 no trimestre, conforme apresentado na Tabela 5 a 
+seguir. Nos nove primeiros meses do ano, a geração somada à energia passível de ressarcimento atingiu 95,3% da P90. 
+No Gráfico 10, é apresentada a evolução mensal da (i) geração total – que consiste na geração de energia somada à parcela 
+de energia não produzida por restrição de razão elétrica passível de ressarcimento; (ii) geração potencial – que representa 
+a geração efetiva adicionada da parcela de energia não produzida devido aos diferentes tipos de restrições do ONS; e 
+(iii) as referências dos percentis 50 e 90 das certificações. 
+O destaque do terceiro trimestre foi o mês de setembro, quando a geração potencial de energia foi 104,5% da certificação 
+P50 e 114,4% da P90, em função do recurso eólico favorável e da boa performance dos aerogeradores. Os meses de julho 
+e agosto, mesmo com o recurso eólico abaixo da certificação , tiveram geração potencial de 104,4% e 103,5% da P90, 
+respectivamente. No trimestre, a geração potencial foi de 107,4% da P90 e 98,3% da P50, reforçando a elevada resiliência 
+operacional dos ativos eólicos, com desempenho alinhado às premissas da certificação P50. 
+ 
+_________________________ 
+1 IDv60 (Índice de Disponibilidade Verificada – 60 meses), que mede a disponibilidade real de uma usina em operar em comparação com 
+sua capacidade de referência nos últimos 5 anos. 
+2 Variação percentual da geração em relação à garantia física do ativo.
+
+[p. 18]
+18 
+| Gráfico 10 | Ativos Consolidado – Geração de Energia e Valores Certificados para P50 e P90 (MW médios) 
+ 
+ 
+| Tabela 5 | Produção dos Complexos Eólicos e Performance da Produção em Relação à Certificação 
+Estado Complexos Eólicos 
+Geração + Energia Ressarcível 
+(MW médios) 
+% de Referência (com REL) 
+P90 P50 
+3T25 3T24 Var. 9M25 9M24 Var. 3T25 9M25 3T25 9M25 
+PI 
+Ventos do Araripe III 225,0 230,4 -2,3% 167,6 164,5 1,9% -7,0% -0,5% -12,1% -6,0% 
+Ventos do Piauí II 135,8 148,5 -8,6% 104,1 110,4 -5,7% -0,3% 0,8% -7,1% -6,1% 
+Ventos do Araripe I 110,7 114,9 -3,7% 83,8 86,3 -2,9% -9,0% -3,2% -16,9% -11,6% 
+Ventos do Piauí III 130,2 144,6 -9,9% 99,4 99,8 -0,4% -1,3% 0,5% -8,3% -6,6% 
+Ventos do Piauí I 137,0 135,2 1,4% 101,4 97,0 4,4% -1,3% 3,5% -6,7% -2,1% 
+PE Caetés 62,8 83,6 -24,9% 68,3 70,2 -2,7% -30,4% -12,3% -36,7% -20,2% 
+RN 
+Cajuína 287,6 148,2 94,1% 268,2 125,1 114,4% -21,2% -5,2% -31,3% -17,4% 
+Ventus 33,0 38,1 -13,3% 32,4 29,5 9,7% -42,5% -21,6% -47,9% -29,0% 
+Salinas 23,9 15,2 57,3% 16,3 12,0 35,9% 2,4% -3,9% -5,8% -11,6% 
+CE Mandacaru 27,7 44,2 -37,3% 20,0 27,6 -27,6% -37,7% -28,9% -45,8% -38,2% 
+BA 
+Alto Sertão II 182,2 197,0 -7,5% 162,6 153,0 6,2% -9,4% -0,1% -15,7% -7,0% 
+Tucano 137,3 151,7 -9,4% 121,6 108,0 12,7% -11,8% -14,1% -18,4% -20,5% 
+RS Cassino 17,2 22,1 -22,2% 17,8 23,0 -22,7% -22,2% -9,5% -29,1% -17,5% 
+ Total 1.510,5 1.473,7 2,5% 1.263,4 1.106,3 14,2% -12,7% -4,7% -20,1% -12,9% 
+ 
+O 3T25 marcou mais uma etapa na trajetória de maturação operacional dos parques incorporados, refletindo a consolidação 
+do plano técnico de recuperação implementado ao longo do ano. As ações de manutenção preventiva e preditiva, associadas 
+ao fortalecimento da governança de operação e à gestão integrada dos equipamentos em estoque, vêm garantindo maior 
+_________________________ 
+1 Geração total = geração de energia + parcela de energia não produzida por restrição de razão elétrica . 
+2 Geração potencial = geração de energia + parcela de energia não produzida devido aos diferentes tipos de restrição do ONS . 
+1
+1
+1
+1.458
+1.101
+1
+1
+1
+1.511
+1.263
+1
+1.858
+1.449
+1.730
+1.326
+1.891
+1.450
+685
+1.251
+1.074
+985 1.404
+1.444
+1.458 1.493
+1.583
+728
+1.339
+1.157 1.035
+1.575 1.627 1.722
+1.835
+2.023
+0
+500
+1000
+1500
+2000
+2500
+Jan Fev Mar Abr Mai Jun Jul Ago Set Out Nov Dez 3T 9M
+2024 Ger Total Ger Potencial P90 P50
+MW médios Jan Fev Mar Abr Mai Jun Jul Ago Set Out Nov Dez 3T 9M 
+Geração 
+2024 627 826 668 857 1.206 1.346 1.426 1.430 1.521 1.332 1.265 1.107 1.458 1.101 
+Geração 
+2025 681 1.075 1.062 985 1.394 1.412 1.444 1.480 1.573 - - - 1.498 1.235 
+Geração 
+Total 20251 685 1.251 1.074 985 1.404 1.444 1.458 1.493 1.583 - - - 1.511 1.263 
+Geração 
+Potencial 20252 728 1.339 1.157 1035 1.575 1.627 1.722 1.835 2.023 - - - 1.858 1.449
+
+[p. 19]
+19 
+confiabilidade aos ativos e reduzindo gradualmente o tempo médio de indisponibilidade dos aerogeradores. A estratégia 
+também contempla o aperfeiçoamento contínuo dos procedimentos de campo, assegurando maior estabilidade dos 
+aerogeradores e extraindo o máximo potencial energético de cada parque. 
+Conforme apresentado na Tabela 6, a disponibilidade média dos ativos incorporados alcançou 93,3%, um avanço de 2,1 
+p.p. em relação ao mesmo período de 2024 e 1,3 p.p. em relação ao 2T25 , comprovando a recuperação observada ao 
+longo do ano. A disponibilidade média considerando todos os ativos eólicos da Companhia atingiu 94,8%, incremento de 
+1,5 p.p. na comparação anual. Considerando o acumulado de nove meses, os ganhos são ainda mais expressivos , com 
+aumento de 10 ,1 p.p. nos ativos incorporados e 7, 2 p.p. no portfólio total , evidenciando a efetividade das ações 
+estruturantes de O&M e a consolidação de uma operação cada vez mais eficiente e padronizada. 
+Entre os destaques, os complexos Cajuína, Ventos do Araripe III, Ventos do Piauí I, II e III, Salinas e Alto Sertão II 
+mantiveram a disponibilidade média acima de 95%, reforçando a consistência e eficiência operacional da Companhia . 
+Cajuína, em especial, evidencia recuperação sólida e sustentada desde a sua integração, acumulando avanços de 8,7 p.p. 
+no 3T25 e 21,4 p.p. nos 9M25 se comparado aos mesmos períodos de 2024, resultado direto do conjunto de intervenções 
+técnicas implementadas e da maior estabilidade operacional observada no trimestre. 
+Nos ativos Tucano, Mandacaru e Cassino, o trimestre reflete a continuidade das intervenções corretivas e a consequente 
+retomada gradual dos aerogeradores parados. Ao longo do trimestre, Tucano manteve a tendência de recuperação após a 
+substituição de eixos rápidos e inspeções estruturais, enquanto Mandacaru registrou um avanço relevante na disponibilidade 
+ao longo do trimestre, com o retorno progressivo de aerogeradores à operação – conforme o cronograma técnico planejado 
+para o ciclo 2025 . Em Cassino, por sua vez, a transição do modelo de operação e manutenção gerou um aumento no 
+volume de inspeções de fim de contrato em setembro, influenciando diretamente no resultado da disponibilidade no 
+trimestre. 
+| Tabela 6 | Disponibilidade dos Complexos Eólicos 
+Estado Ativos 
+Cap. 
+Instalada 
+(MW) 
+3T25 3T24 Var. (p.p) 9M25 9M24 Var. (p.p) 
+PI 
+Ventos do Araripe III 358 97,4% 97,6% -0,2 97,3% 96,1% 1,1 
+Ventos do Piauí II 211 99,1% 99,0% 0,1 96,7% 98,6% -1,9 
+Ventos do Araripe I 210 89,6% 89,5% 0,1 90,6% 76,1% 14,5 
+Ventos do Piauí III 207 99,0% 98,3% 0,6 97,6% 95,2% 2,5 
+Ventos do Piauí I 206 96,8% 97,6% -0,8 97,2% 97,1% 0,1 
+PE Caetés 182 95,9% 96,0% -0,1 94,4% 93,0% 1,4 
+RN 
+Cajuína 686 96,4% 87,7% 8,7 94,4% 73,1% 21,4 
+Ventus 187 94,6% 90,9% 3,6 92,5% 89,7% 2,7 
+Salinas 50 95,8% 94,6% 1,2 94,9% 95,7% -0,8 
+CE Mandacaru 108 74,0% 82,6% -8,6 69,6% 83,0% -13,4 
+BA 
+Alto Sertão II 386 97,6% 97,5% 0,1 97,5% 94,8% 2,7 
+Tucano 322 89,6% 90,9% -1,3 85,1% 71,1% 13,9 
+RS Cassino 64 86,0% 98,3% -12,3 91,0% 97,7% -6,7 
+Disponibilidade Média 94,8% 93,3% 1,5 93,5% 86,3% 7,2 
+Disponibilidade Média Ativos Incorporados 93,3% 91,2% 2,1 91,8% 81,7% 10,1 
+ 
+A condução do plano técnico de recuperação dos ativos eólicos tem promovido avanços consistentes na confiabilidade e no 
+desempenho operacional dos complexos, sustentando uma trajetória de crescimento contínuo da disponibilidade ao longo 
+do ano. Embora os meses de julho e setembro apresentem pequenas oscilações pontuais, tais variações não comprometem 
+a tendência geral de recuperação, que permanece positiva e em linha com a consolidação da performance esperada para 
+2025. No Gráfico 11, observa-se a tendência da recuperação gradual do indicador.
+
+[p. 20]
+20 
+| Gráfico 11 | Evolução Anual da Disponibilidade dos Complexos Eólicos Incorporados 
+ 
+Disponibilidade Média 
+dos Ativos Incorporados 1T 2T 3T 9M 
+ 2024 70,9% 82,9% 91,2% 81,7% 
+ 2025 89,9% 92,0% 93,3% 91,8% 
+A produção de energia d o portfólio eólico consolidado alcançou 79, 9% do P50 e 87,3% do P90 no trimestre. O principal 
+ofensor do desempenho foi o curtailment, que reduziu a geração esperada em 19,1 p.p. – sendo 18,4 p.p. relativos à 
+parcela não ressarcível e 0,7 p.p da ressarcível. Adicionalmente, o período também foi impactado pela menor disponibilidade 
+de recurso eólico, conforme Gráfico 12. 
+Apesar do cenário desafiador, os ganhos operacionais conquistados ao longo do ano foram preservados, evidenciando a 
+continuidade da melhoria estrutural dos ativos e a maior estabilidade dos indicadores sob gestão direta da Companhia. 
+| Gráfico 12 | Desempenho da Geração Eólica Consolidada no 3T25 (P50 em base 100)1 
+ 
+Nos nove primeiros meses de 2025, o portfólio eólico consolidado alcançou 87,1% do P50 e 95,3% do P90. Assim como no 
+trimestre, o curtailment também influenciou a produção de energia no acumulado do ano, representando uma redução de 
+14,7 p.p. em relação ao P50 – sendo 12,8 p.p. não-ressarcível e 1,9 p.p. passível de ressarcimento, conforme Gráfico 13. 
+A performance dos aerogeradores apresent ou leve variação negativa no período, refletindo principalmente a menor 
+disponibilidade no 1T25, quando foram concentradas diversas manutenções para recuperação da performance dos ativos. 
+Importante destacar que os resultados mais recentes já evidenciam uma trajetória de recuperação progressiva consistente 
+desde a conclusão da aquisição da AES Brasil em 31 de outubro de 2024. 
+_________________________ 
+1 As informações de curtailment nesta subseção fazem referência aos dados de curtailment internos da Companhia e diferem dos dados da 
+seção “Curtailment dos Ativos Eólicos e Solares da Auren”, que correspondem aos dados publicados pela ONS. 
+89,3%
+89,7%
+90,7%
+91,4%
+91,9%
+92,8% 92,6%
+94,0%
+93,4%
+88,0%
+89,0%
+90,0%
+91,0%
+92,0%
+93,0%
+94,0%
+95,0%
+Jan Fev Mar Abr Mai Jun Jul Ago Set
+100,0%
+79,2%
+-3,4%
+0,5% 1,1%
+-18,3% -0,1%
+-0,7%
+P50 Recurso
+Eólico
+Performance
+Aerogerador
+Performance
+Sist. Elétrico
+Curtailment
+(CNF + ENE)
+REL (Ressarcível e
+Não Ressarcível)
+Geração
+3T25 (P50)
+-18,4%
+Parcela Não-Ressarcível
+79,9% 
+REL Ressarcível
+
+[p. 21]
+21 
+| Gráfico 13 | Desempenho da Geração Eólica Consolidada no 9M25 (P50 em base 100)1 
+ 
+ 
+As ações implementadas desde o início do ano – voltadas ao aumento da confiabilidade e eficiência operacional – seguem 
+sustentando resultados consistentes em performance técnica e disponibilidade, reforçando a resiliência do portfólio frente 
+às variações e xternas. A Companhia mantém o foco na execução das alavancas de performance em andamento , 
+consolidando a trajetória de recuperação e fortalecimento da operação eólica. 
+Solar 
+A produção de energia dos ativos solares somada à restrição de geração por Razão de Indisponibilidade Externa (REL) 
+passível de ressarcimento após atingimento da franquia atingiu 163,2 MW médios no 3T25, 3,3% inferior ao 3T24 
+(168,8 MW médios). Em relação à geração esperada para o P90, a produção foi inferior em 28,5% e, frente à expectativa 
+de geração média (P50), inferior em 34,6%, influenciada principalmente por restrições de geração (curtailment). 
+O Gráfico 14 apresenta a evolução mensal da (i) geração total – que consiste na geração de energia somada a parcela de 
+energia não produzida por restrição de razão elétrica (ressarcível); (ii) geração potencial – que representa a geração efetiva 
+adicionada da parcela d e energia não produzida devido aos diferentes tipos de restrições impostas pelo ONS; e (iii) as 
+referências dos percentis 50 e 90 das certificações. 
+| Gráfico 14 | Ativos Solares – Geração de Energia e Valores Certificados para P50 e P90 (MW médios) 
+ 
+ 
+ 
+_________________________ 
+1 As informações de curtailment nesta subseção fazem referência aos dados de curtailment internos da Companhia e diferem dos dados da 
+seção “Curtailment dos Ativos Eólicos e Solares da Auren”, que correspondem aos dados publicados pela ONS. 
+100,0%
+85,2%
+-0,2% -0,8% 0,9%
+-12,1% -0,7%
+-1,9%
+P50 Recurso
+Eólico
+Performance
+Aerogerador
+Performance
+Sist. Elétrico
+Curtailment
+(CNF + ENE)
+REL (Ressarcível e
+Não Ressarcível)
+Geração
+9M25 (P50)
+-12,8%
+Parcela Não-Ressarcível
+87,1%
+168
+125
+163
+171
+248
+232
+228
+226
+250
+247
+198
+227
+192
+158
+144
+132
+156
+162 172
+228
+256
+242
+204 212 206
+219
+256
+270
+0
+50
+100
+150
+200
+250
+300
+Jan Fev Mar Abr Mai Jun Jul Ago Set Out Nov Dez 3T 9M
+2024 Ger Total Ger Potencial P90 P50
+REL Ressarcível
+
+[p. 22]
+22 
+MW médios Jan Fev Mar Abr Mai Jun Jul Ago Set Out Nov Dez 3T 9M 
+Geração 
+2024 90 89 99 111 111 114 129 185 191 184 184 198 168 125 
+Geração 
+2025 198 196 187 158 139 124 148 158 157 - - - 155 163 
+Geração 
+Total1 2025 198 227 192 158 144 132 156 162 172 - - - 163 171 
+Geração 
+Potencial2 2025 228 256 242 204 212 206 219 256 270 - - - 248 232 
+No 3T25, o portfólio solar da Companhia registrou produção total de energia de 163,2 MW médios, 3,3% inferior ao mesmo 
+período de 2024, conforme Tabela 7. Ainda assim, no acumulado dos nove primeiros meses do ano , observa-se um 
+crescimento expressivo de 36,8%, impulsionado pelo ramp-up das usinas cuja construção foi concluída em 2024 (Sol de 
+Jaíba e Água Vermelha VII) e pela resiliência operacional dos ativos existentes. 
+Apesar da evolução operacional dos ativos, a performance do trimestre foi impactada por um nível elevado de curtailment. 
+Mesmo com infraestrutura operacional disponível e condições técnicas adequadas , parte relevante da geração potencial 
+deixou de ser entregue ao sistema em função de uma demanda inferior ao esperado para o período – conforme mencionado 
+na seção Mercado de Energia – pressionando os resultados frente aos referenciais certificados. Neste cenário, a Auren 
+permanece comprometida com a excelência operacional, a maximização da eficiência de seus ativos solares e a 
+continuidade das ações de otimização, reforçando a resiliência e maturidade do portfólio solar frente aos desafios do setor. 
+| Tabela 7 | Produção dos Complexos Solares e Performance da Produção em Relação à Certificação 
+Estado Complexos Solares 
+Geração + Energia Ressarcível 
+(MW médios) 
+% de Referência com REL 
+P90 P50 
+3T25 3T24 Var. 9M25 9M24 Var. 3T25 9M25 3T25 9M25 
+MG Sol do Jaíba 95,5 96,8 -1,3% 99,6 52,0 91,4% -36,3% -31,4% -42,8% -38,4% 
+SP 
+Guaimbê 26,3 27,6 -4,6% 26,3 29,5 -10,9% -7,5% -9,1% -10,1% -11,7% 
+Água Vermelha Solar 14,1 14,3 -1,9% 14,7 15,8 -6,6% -15,0% -11,9% -19,3% -16,3% 
+Boa Hora 15,3 14,7 4,2% 15,5 15,2 1,8% 1,2% 1,3% -3,8% -3,7% 
+Água Vermelha VII 5,8 7,1 -18,7% 6,4 2,5 158,8% -35,7% -28,9% -40,5% -34,2% 
+PI Sol do Piauí I 6,2 8,3 -25,2% 8,3 9,8 -15,5% -34,4% -21,8% -40,7% -29,3% 
+ Total 163,2 168,8 -3,3% 170,8 124,8 36,8% -28,5% -24,3% -34,6% -30,8% 
+A disponibilidade dos ativos solares atingiu 99,0% no 3T25, um avanço de 1,5 p.p. em relação ao mesmo período de 2024, 
+conforme apresentado na Tabela 8. O resultado reforça o amadurecimento da gestão operacional e a efetividade das 
+iniciativas direcionadas à redução de indisponibilidades , refletindo diretamente na melhoria contínua da operação e 
+performance técnica dos ativos. 
+| Tabela 8 | Valores de Disponibilidade dos Complexos Solares 
+Estado Complexos Solares 
+Cap. 
+Instalada 
+(MW) 
+Disponibilidade 
+3T25 3T24 Var. 9M25 9M24 Var. 
+MG Sol de Jaíba1 500 99,0% 97,4% 1,7 97,7% 96,7% 1,0 
+SP 
+ 
+Guaimbê 150 99,3% 98,1% 1,2 97,7% 99,2% -1,5 
+Água Vermelha Solar 76 97,5% 94,3% 3,1 97,7% 97,3% 0,4 
+Boa Hora 69 99,7% 99,2% 0,5 99,5% 99,6% -0,1 
+Água Vermelha VII² 33 99,2% 98,2% 1,0 99,0% 98,2% 0,8 
+PI Sol do Piauí I 48 99,6% 99,4% 0,2 98,1% 99,6% -1,4 
+Disponibilidade Média - 99,0% 97,5% 1,5 97,9% 97,6% 0,3 
+_________________________ 
+1 Geração total = geração de energia + parcela de energia não produzida por restrição de razão elétrica . 
+2 Geração potencial = geração de energia + parcela de energia não produzida devido aos diferentes tipos de restrição do ONS.
+
+[p. 23]
+23 
+Em linhas gerais, apesar de o recurso solar abaixo das certificações ter limitado a geração, a principal influência negativa na 
+performance do período decorreu do curtailment – sobretudo a parcela não ressarcível, que representou isoladamente uma 
+redução de 33,9 p.p. frente ao P50. A magnitude dos impactos pode ser observada no Gráfico 15. 
+| Gráfico 15 | Desempenho da Geração Solar Consolidada no 3T25 (P50 em base 100)1 
+ 
+Assim como no trimestre, o desempenho solar no acumulado do ano também foi influenciado majoritariamente pelo 
+curtailment, responsável pela perda de 25,0 p.p. frente ao P50. Também contribuíram para o resultado a s condições de 
+recurso solar menos favoráveis (-4,5 p.p.) e a performance dos equipamentos (-2,3 p.p.), refletindo eventos pontuais que 
+ocorridos no 1T25, já solucionados pela Companhia. Desde então, a operação solar vem apresentando melhoria contínua, 
+sustentada por ações voltadas à confiabilidade e eficiência dos ativos. O ganho no desempenho do sistema elétrico (+0,9 p.p.) 
+reforça essa tendência positiva, contribuindo para mitigar parte das perdas acumuladas. Como resultado, a geração 
+consolidada alcançou 69,1% do P50 e 75,7% da P90 nos nove primeiros meses de 2025, conforme ilustrado no Gráfico 16. 
+| Gráfico 16 | Desempenho da Geração Solar Consolidada no 9M25 (P50 em base 100)1 
+ 
+Para voltar ao sumário do documento, clique aqui. 
+Curtailment dos Ativos Eólicos e Solares da Auren 
+Importante: as informações de curtailment nesta seção fazem referência aos dados de curtailment da ONS e diferem dos dados das seções 
+Eólica e Solar, que correspondem às estimativas internas da Companhia. 
+Em termos energéticos, o impacto total da restrição não-ressarcível de geração nos ativos eólicos e solar fotovoltaicos da 
+Companhia foi de 407,5 MW médios, equivalente a 18,8% do P50, sendo (i) 399,5 MW médios no 3T25 (18,4% do P50) 
+por Razão de Confiabilidade e Razão Energética e (ii) 8,0 MW médios (0,4% do P50) por Razão de Indisponibilidade Externa 
+– REL abaixo da franquia. Quando observados os dados totais, os cortes foram na ordem de 429,4 MW médios (19,8% do 
+_________________________ 
+1 As informações de curtailment nesta subseção fazem referência aos dados de curtailment internos da Companhia e diferem dos dados da 
+seção “Curtailment dos Ativos Eólicos e Solares da Auren”, que correspondem aos dados publicados pela ONS. 
+100,0%
+61,9%
+-1,0% -1,2%
+-33,9%
+-0,0%
+1,5%
+P50 Recurso
+Solar
+Performance
+dos Equipamentos
+Performance
+Sist. Elétrico
+Curtailment
+(CNF + ENE)
+REL (Ressarcível e
+Não Ressarcível)
+Geração
+3T25 (P50)
+-33,9%
+Parcela Não-Ressarcível
+100,0%
+66,0%
+-4,5% -2,3%
+-24,1%
+-0,9%
+0,9%
+P50 Recurso
+Solar
+Performance
+dos Equipamentos
+Performance
+Sist. Elétrico
+Curtailment
+(CNF + ENE)
+REL (Ressarcível e
+Não Ressarcível)
+Geração
+9M25 (P50)
+-25,0%
+Parcela Não-Ressarcível
+REL Ressarcível 
+REL Ressarcível
+
+[p. 24]
+24 
+P50), sendo que 21,1 MW médios (1,0% do P50) são ressarcíveis, uma vez que foram eventos subsequentes ao atingimento 
+da franquia para fins de ressarcimento de eventos de REL. 
+Para os projetos eólicos, o 3T25 registrou cortes de geração (curtailment) não-ressarcível na ordem de 340,3 MW médios, 
+equivalente a 18,0% do P50, sendo (i) 337,1 MW médios (17,8% do P50) por Razão de Confiabilidade e Razão Energética 
+e (ii) 3,2 MW médios (0,2% do P50) por Razão de Indisponibilidade Externa – REL abaixo da franquia. Quando observados 
+os dados totais, os cortes foram na ordem de 352,9 MW médios (18,7% do P50), sendo que 12,5 MW médios (0,7% do 
+P50) são ressarcíveis, uma vez que foram eventos subsequentes ao atingimento da franquia de REL. 
+| Gráfico 17 | Eólicos – Restrições de Geração Ressarcíveis e Não-Ressarcíveis Determinadas pelo ONS no 3T25 
+ 
+ 
+ CAJ AS II VEN VA III VA I CAE TUC VdP II VdP III VdP I MAN SAL CAS Total 
+% do P50 23,8% 29,5% 52,1% 10,7% 15,1% 19,3% 10,7% 11,0% 11,1% 10,7% 24,9% 38,5% 7,9% 18,7% 
+Capacidade 
+Inst. (MW) 685,8 386,1 187,0 357,9 210,0 181,9 322,4 211,5 207,0 205,8 108,1 50,4 64,0 3.177,9 
+Para os ativos solares, o 3T25 registrou cortes de geração ( curtailment) não-ressarcível na ordem de 67,2 MW médios, 
+equivalente a 27,1% do P50, sendo (i) 62,4 MW médios (25,2% do P50) por Razão de Confiabilidade e Razão Energética e 
+(ii) 4,8 MW médios (1,9% do P50) por Razão de Indisponibilidade Externa – REL abaixo da franquia. Quando observados 
+os dados totais, os cortes foram na ordem de 75,8 MW médios (30,6% do P50), sendo que 8,6 MW médios (3,5% da P50) 
+são ressarcíveis, uma vez que foram eventos subsequentes ao atingimento da franquia de REL. 
+| Gráfico 18 | Solares - Restrições de Geração Ressarcíveis e Não-Ressarcíveis Determinadas pelo ONS no 3T25 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Jaíba Sol do Piauí1 AGV Guaimbê Boa Hora AGV VII Total 
+% do P50 32,2% - 13,8% 12,9% 10,0% 15,0% 30,5% 
+Capacidade 
+Inst. (MW) 500,0 48,1 76,0 150,0 69,1 33,2 876,4 
+ 
+_________________________ 
+1 A certificação de Sol do Piauí é impactada pelo compartilhamento da MUST com Ventos do Piauí I. 
+1,2 10,6 0,1 0,1 0,3 0,2 12,6 98,3 53,2 32,9 27,3 20,1 19,0 17,7 16,1 15,8 15,7 12,5 9,8 1,9
+340,3
+55,6%
+Cajuína Alto
+Sertão II
+Ventus Ventos do
+Araripe 3
+Ventos do
+Araripe I
+Caetés Tucano Ventos do
+Piauí II
+Ventos do
+Piauí III
+Ventos do
+Piauí I
+Mandacaru Salinas Cassino Total
+Energia Ressarcível (MW médio) Energia não Ressarcível (MW médio)
+do total
+8,6 8,6 
+44,9 
+13,1 2,4 3,7 1,6 1,5 
+67,2 
+Sol de Jaíba Sol do Piauí Água Vermelha Guaimbê Boa Hora Água Vermelha VII Total
+Energia Ressarcível (MW médio) Energia não Ressarcível (MW médio)
+
+[p. 25]
+25 
+Em termos financeiros, o impacto do curtailment no portfólio de ativos, líquido da parcela ressarcível relativa aos cortes 
+classificados como REL após o atingimento das franquias, foi de R$ 196 milhões, um aumento de 158% em relação ao 
+2T25. Desse valor, R$ 2 milhões representam a parcela não ressarcível (antes do atingimento da franquia de horas) dos 
+cortes classificados como REL, R$ 86 milhões representam os cortes por Confiabilidade e R$ 108 milhões os cortes por 
+Razão Energética. O impacto líquido do curtailment no 3T25 foi de R$ 130 milhões, já descontados os ganhos com 
+modulação no valor de R$ 66 milhões, conforme descritos na seção a seguir. 
+Modulação de Geração 
+O atual portfólio diversificado da Companhia apresentou ganhos importantes no que tange ao perfil de geração contra as 
+variações do preço de curto prazo (PLD). Dado que o 3T25 foi marcado por um cenário hidrológico recessivo e que a matriz 
+energética brasileira conta atualmente com aproximadamente 36% de capacidade instalada baseada em fontes 
+intermitentes, o PLD apresentou um comportamento bastante volátil no período. 
+Em virtude de possuir um portfólio com capacidade instalada balanceada – com 54% de participação hidrelétrica, 36% de 
+participação eólica e 10% de participação solar fotovoltaica – a Auren aferiu resultados positivos quando comparamos seu 
+perfil horário de geração ao PLD. Uma vez que a maior parte dos contratos de venda de energia no Ambiente de Contratação 
+Livre (ACL) tem perfil constante (flat), as diferenças entre geração e contrato são liquidadas no mercado de curto prazo. 
+Com base nos dados de geração e preço horário no 3T25, a modulação dos ativos que possuem contratos no ACL trouxe 
+um ganho de aproximadamente R$ 66 milhões para a Auren. Somados aos ganhos do 1S25 de R$ 58 milhões, a Auren 
+apresentou ganhos com modulação de R$ 124 milhões de janeiro a setembro de 2025. 
+Para voltar ao sumário do documento, clique aqui.
+
+[p. 26]
+26 
+Desempenho Financeiro do Segmento de Geração 
+| Tabela 9 | Resultados do Período 
+R$ milhões 3T25 3T24 proforma Var. 9M25 9M24 proforma Var. 
+Receita Líquida 1.636,1 1.603,1 2,1% 4.853,8 4.293,1 13,1% 
+ Custo com Compra de Energia (475,3) (430,6) 10,4% (999,0) (843,1) 18,5% 
+ Encargos de Uso da Rede Elétrica (178,1) (175,8) 1,3% (534,8) (517,2) 3,4% 
+Margem Líquida 982,6 996,8 -1,4% 3.320,0 2.932,8 13,2% 
+Margem Líquida 60,1% 62,2% -2,1 p.p. 68,4% 68,3% 0,1 p.p. 
+PMSO (251,9) (276,9) -9,0% (723,4) (817,6) -11,5% 
+ Outros Resultados Operacionais (ORO) (6,8) 57,3 -111,9% 5,5 134,8 -95,9% 
+EBITDA 723,9 777,2 -6,9% 2.602,1 2.250,0 15,7% 
+ Dividendos das Participações 
+Minoritárias 98,9 97,0 1,9% 252,7 137,8 83,3% 
+Itens Não Recorrentes Relacionadas a 
+Iniciativas de Crescimento 7,2 2,3 211,4% 15,6 6,8 128,3% 
+Constituição/(Reversão) de Provisão 
+para Litígios e Depósitos Judiciais 7,1 (64,4) n.a. (18,2) (132,2) -86,3% 
+ Baixa de imobilizado 3,1 - n.a. 13,2 - n.a. 
+Outros Ajustes - - n.a. - 21,8 n.a. 
+EBITDA Ajustado 840,3 812,2 3,5% 2.865,5 2.284,2 25,4% 
+Margem EBITDA Ajustada 51,4% 50,7% 0,7 p.p. 59,0% 53,2% 11,0% 
+O EBITDA Ajustado do segmento de geração totalizou R$ 840,3 milhões no 3T25, R$ 28,1 milhões (3,5%) superior se 
+comparado ao 3T24. A variação no período reflete principalmente: 
+a) Receita Líquida: incremento de R$ 32,9 milhões (2,1%) no trimestre principalmente pelo ganho com a cessão 
+do contrato de longo prazo em dólares de 150 MW médios (R$ 49,0 milhões) para o segmento de comercialização 
+realizada no 2T25, a entrada em operação faseada de Jaíba em 2024 (R$ 48,1 milhões), o reajuste de preços dos 
+contratos regulados (R$ 24,1 milhões), e a entrada em operação faseada de Cajuína em 2024 (R$ 20,5 milhões), 
+compensados, principalmente, pelo aumento da provisão para ressarcimento (R$ 128,4 milhões) decorrente da 
+frustração de geração no mercado regulado, dado o maior curtailment. 
+b) Custo com Compra de Energia: aumento de R$ 44,8 milhões no trimestre, totalizando R$ 475,3 milhões vs. 
+R$ 430,6 milhões no 3T24, para equalização do balanço energético de geração, incluindo compras de energia para 
+cobrir a exposição short, devido ao curtailment, e um preço mais elevado do que o 3T24. 
+c) Encargos Setoriais: R$ 178,1 milhões no 3T25, em linha com o montante observado no mesmo período do ano 
+anterior (R$ 175,8 milhões) . A variação de R$ 2,3 milhões é explicada pela inflação do período, parcialmente 
+mitigada pela redução das tarifas médias de transmissão e distribuição das usinas hidrelétricas localizadas no 
+estado de São Paulo. 
+d) Margem Líquida: diminuição de R$ 14,1 milhões no trimestre, totalizando R$ 982,6 milhões no 3T25 comparada 
+a R$ 996,8 milhões no 3T24, como resultado dos fatores explicados acima. No trimestre, a Companhia gerou 
+R$ 50,3 milhões em ganhos líquidos de modulação de energia no segmento de geração, que somados aos ganhos 
+obtidos no segmento de comercialização (R$ 15,3 milhões), t otalizaram ganhos de R$ 65,6 milhões no período, 
+proporcionados pela diversificação de seu portfólio, conforme apresentado na seção “Modulação de Geração”. 
+e) PMSO: R$ 251,9 milhões no 3T25, redução de 9,0% em relação ao 3T24, principalmente em decorrência das 
+sinergias capturadas no processo de integração após conclusão da aquisição da AES Brasil, conforme abordado no 
+Desempenho Financeiro Consolidado. 
+f) ORO: despesa de R$ 6,8 milhões no 3T25 comparada a receita de R$ 57,3 milhões no 3T24, explicada 
+principalmente pela reversão de provisões do passivo contencioso no 3T24 que impactaram positivamente o 
+resultado daquele período em R$ 64,4 milhões. 
+g) Dividendos: dividendos declarados pelos ativos hidrelétricos nos quais a Companhia possui participações 
+minoritárias no montante de R$ 98,9 milhões no 3T25, em linha com o mesmo período do ano passado. Maiores 
+detalhes na seção “Participações Minoritárias da Auren”, no capítulo Desempenho por Unidade de Negócio. 
+Para voltar ao sumário do documento, clique aqui.
+
+[p. 27]
+27 
+Participações Minoritárias da Auren 
+Nesta seção apresentamos o desempenho dos ativos hidrelétricos em que a Companhia possui participação minoritária por 
+meio das empresas CBA Energia (BAESA e ENERCAN), Pollarix (ENERCAN, Amador Aguiar I e II, Igarapava e Picada) e 
+Pinheiro Machado (Machadinho), cujos saldos são reconhecidos via equivalência patrimonial nas demonstrações financeiras 
+consolidadas da Companhia. Os dividendos dessas participações são reconhecidos no EBITDA Ajustado da Companhia. 
+As informações do balanço energético e financeiras são apresentadas no nível consolidado das holdings CBA Energia, 
+Pollarix e Pinheiro Machado. Para informações detalhadas sobre a estrutura societária e as principais características das 
+hidrelétricas nas quais a Companhia detém participação minoritária, acesse a Planilha Interativa disponível em formato 
+Excel na Central de Resultados do website de Relações com Investidores. 
+| Figura 3 | Estrutura Societária Simplificada das Participações Minoritárias em Hidrelétricas 
+ 
+ 
+| Tabela 10 | Balanço Energético dos Ativos Hidrelétricos com Participações Minoritárias1 
+Volume (MW médios) 2025 2026 2027 2028 2029 
+Garantia Física dos ativos (a) 237 256 256 256 244 
+Compras (b) 59 35 5 4 4 
+Recurso (c) = (a)+(b) 296 291 261 260 248 
+Vendas no ACL (d) 275 256 256 256 244 
+Requisitos (e) 275 256 256 256 244 
+Balanço Energético (f) = (c) – (e) 21 35 5 4 4 
+ 
+Analisando o Balanço Energético do 3T25, em comparação com os valores do 2T25, tivemos a redução da garantia física 
+dos ativos em 13 MW médios para o ano de 2025, decorrente do impacto do GSF realizado no período. 
+O Balanço Energético das Participações Minoritárias, desde o 2T25, apresenta apenas as transações de compra e venda de 
+energia com o mercado, e exclui os contratos intercompany entre os ativos hidrelétricos e as subholdings (Pollarix, Pinheiro 
+Machado e CBA Energia). 
+Desempenho Financeiro e Pagamento de Dividendos 
+Nesta seção apresentamos uma DRE Gerencial com a consolidação do desempenho financeiro dos ativos hidrelétricos nos 
+quais a Auren possui participação minoritária. Tal apresentação é gerencial, não auditada e tem por objetivo auxiliar o 
+mercado a entender a geração de caixa de tais ativos, que resulta no pagamento de dividendos à Companhia. Os principais 
+efeitos no resultado de participações estão explicados abaixo. 
+Na Tabela 11 a seguir, destacamos as principais linhas dos resultados de tais ativos, ponderados pela participação indireta 
+da Auren, possibilitando melhor entendimento das operações. Vale ressaltar que nenhum dos ativos considerados nessa 
+seção possui dívida em seus respectivos balanços. 
+ 
+_________________________ 
+1 Notas: (i) A garantia física dos ativos líquida do fator de ajuste MRE (GSF) realizado; (ii) As garantias físicas estão líqui das de perdas 
+internas e da rede básica de 3%; (iii) A garantia física está sujeita ao risco hidrológico (GSF); (iv) Consideram os recursos (garantia física 
+e contratos de compra) e requisitos (vendas) equivalente à participação econômica da Auren nos ativos onde a Auren detém part icipação 
+minoritária (Pollarix, CBA Energia Participações e Pinheiro Machado).
+
+[p. 28]
+28 
+ 
+| Tabela 11 | DRE Gerencial dos Ativos Hidrelétricos com Participações Minoritárias 
+DRE Gerencial Participações 
+(R$ milhões na participação econômica de Auren) 3T25 3T24 proforma Var. 9M25 9M24 proforma Var. 
+Volume Energia Vendida (MW médios) 252 245 2,9% 268 270 -0,4% 
+Margem R$/MWh 215 195 10,3% 197 175 12,3% 
+Margem Bruta 119,1 105,0 13,4% 347,8 311,0 11,8% 
+PMSO (5,6) (4,8) 16,7% (17,1) (15,3) 11,8% 
+EBITDA Ajustado1 113,5 100,2 13,3% 330,7 295,7 11,8% 
+ Depreciação & Amortização (9,4) (9,4) 0,0% (28,2) (28,1) 0,4% 
+ Outros Resultados (Incluindo MTM) 7,2 14,6 -50,7% 11,4 50,3 -77,3% 
+EBIT 111,3 105,4 5,6% 313,9 317,9 -1,3% 
+ Resultado Financeiro 8,0 0,1 n.a. 14,5 0,1 n.a. 
+LAIR 119,3 105,5 13,1% 328,4 318 3,3% 
+ IR/CSLL (29,4) (25,8) 14,0% (81,4) (77,2) 5,4% 
+Lucro Líquido2 89,9 79,7 12,8% 247,0 240,8 2,6% 
+Dividendos Declarados 98,9 97,0 2,0% 233,3 137,8 69,3% 
+Principais destaques do 3T25: 
+a) Margem Bruta: a melhora da margem em R$ 14,1 milhões é explicada, principalmente, pelo aumento do Preço 
+de Liquidação de Diferenças (PLD) médio no 3T25 contra o 3T24 (R$ 252/MWh vs. R$ 170/MWh, respectivamente) 
+aplicado sobre o volume de energia excedente de 30 MW médios na CBA Energia. 
+b) PMSO: no terceiro trimestre de 2025, o montante alcançou R$ 5,6 milhões frente a R$ 4,8 milhões no mesmo 
+período anterior, crescimento de R$ 0,8 milhões justificado principalmente por (i) R$ 0,5 milhão de despesas 
+advocatícias da Enercan, relacionadas a processos legais; e ( iii) reajustes nos preços de serviços e materiais 
+contratados. 
+c) EBITDA Ajustado: R$ 113,5 milhões no 3T25, crescimento de 13,3% quando comparado aos R$ 100,2 milhões 
+registrados no 3T24, justificado pelo crescimento da margem bruta em R$ 15,1 milhões. 
+d) Outros Resultados: receita de R$ 7,2 milhões no 3T25 frente a receita de R$ 14,6 milhões no mesmo período do 
+ano anterior, redução de R$ 7,4 milhões justificada principalmente por ressarcimentos associados ao impacto do GSF 
+em Enercan e pela variação do MtM em função do PLD. 
+e) Resultado Financeiro: R$ 8,0 milhões no 3T25 frente a R$ 0,1 milhões no mesmo período do ano anterior, 
+devido principalmente à: (i) atualização monetária do saldo do UBP em função da queda no índice aplicado IGPM 
+nas UHEs Picada, Baesa e Enercan (R$ 5,0 milhões); e (ii) ao aumento dos rendimentos de aplicações financeiras 
+nas subholdings Pollarix e Amador Aguiar , devido ao m aior caixa disponível em ambas as empresas 
+(R$ 169 milhões vs. R$ 56 milhões no 3T24) bem como à dinâmica do CDI no período. 
+f) Dividendos Declarados: R$ 98,9 milhões no terceiro trimestre de 2025, frente a R$ 97,0 milhões no 3T24. As 
+alterações nas políticas e nos regimes de reconhecimento dos dividendos , c onforme mencionado no 4T24, 
+distribuem o montante anual de forma mais linear ao longo do ano, diferente dos períodos anteriores, quando o 
+recebimento ficava concentrado nos últimos trimestres de cada ano. 
+Para voltar ao sumário do documento, clique aqui. 
+ 
+_________________________ 
+1 EBITDA Ajustado desconsidera efeitos de marcação a mercado. 
+2 O Lucro Líquido apresentado pode ser identificado na Nota Explicativa 11 das Demonstrações Financeiras de Auren Energia, ao somar o 
+resultado de equivalência patrimonial das coligadas Pollarix, CBA Energia Participações e Pinheiro Machado Participações.
+
+[p. 29]
+29 
+Comercialização 
+A Auren é a maior Comercializadora de energia do país, provendo à Companhia uma carteira diversificada de clientes , 
+otimização e agilidade na alocação de energia. Sua inteligência de mercado e atuação estratégica reforçam a resiliência 
+operacional, contribuindo para a redução de riscos e consistência de geração de resultados positivos. 
+Balanço Energético do Segmento de comercialização 
+A tabela 12 apresenta o Balanço Energético de comercialização da Companhia, juntamente com a margem de 
+comercialização para os anos de 2025 e 2026. Os valores divulgados levam em consideração o volume negociado pelas 
+empresas voltadas à comercialização de energia, sendo Auren Comercializadora, ARN Comercializadora (antiga AES 
+Comercializadora), Tietê Integra (antiga AES Tietê Integra), CESP Comercializadora e Esfera. 
+Em 2025, a Auren já comercializou 6.207 MW médios de energia vendida tanto para clientes consumidores finais como 
+para demais contrapartes, consolidando sua posição de liderança no segmento de comercialização de energia. 
+| Tabela 12 | Balanço Energético do Portfólio de comercialização da Auren 
+ 
+Volume (MW médios) 2025 2026 2027 2028 2029 2030 
+Compras (A) 6.189 3.439 2.363 1.905 1.117 776 
+Vendas1 (B) 6.207 3.589 2.382 1.885 1.066 818 
+Margem Contratual2 (R$/MWh) 5 10 - - - - 
+Balanço Comercialização (A - B) (18) (150) (19) 20 51 (42) 
+Balanço Consolidado Auren3 230 331 650 773 1.397 1.565 
+Ao analisar a margem contratual do portfólio de comercialização, é importante considerar (i) a participação das operações 
+de trading de curto prazo, que geralmente apresentam margens unitárias mais baixas, mas envolvem volumes elevados 
+de energia – esse tipo de operação tem impacto direto na margem contratual média da Comercializadora ao longo do ano, 
+conforme o volume de trading cresce; e (ii) a exposição em aberto do Balanço de Comercialização que deve ser valorada 
+a preços de mercado. A posição short de 18 MW médios referente ao quarto trimestre de 2025 e a posição short de 
+150 MW médios referente a 2026, por exemplo, deverão ser valoradas aos preços de mercado dos respectivos períodos. 
+A variação observada na margem contratual de 2025 — quando comparada com a margem publicada no 2T25 — associada 
+a um aumento de 594 MW médios no volume negociado é explicada principalmente por presença significativa de operações 
+favoráveis de trading de curto prazo. 
+No 3T25, a gestão do portfólio foi marcada por três movimentos principais: 
+a) Alteração marginal da posição direcional da Comercializadora, saindo de uma posição long de 8 MW médios para 
+o ano de 2025, em junho, para uma posição short de 18 MW médios para o último trimestre de 2025 no balanço 
+de setembro. 
+b) Redução da exposição short em 2026, de 269 MW médios para 150 MW médios , por meio da formalização de 
+120 MW médios em contratos de compra, com o objetivo de reduzir a posição short para gestão de risco do 
+portfólio. 
+c) Aumento no volume vendido en tre 2027 e 2030 associado ao remanejamento de lastro para atendimento dos 
+novos contratos de autoprodução. 
+Transferência do contrato de venda de longo prazo em dólares de 150 MW médios do segmento de geração para 
+o segmento de comercialização, realizada através da celebração de contrato intercompany no 2T25, com o objetivo 
+de alocar o contrato de venda de energia de longo prazo e o hedge no mesmo veículo, com um impacto negativo 
+no segmento de comercialização de R$ 49 milhões no 3T25, em linha com o impacto negativo já anunciado de R$ 
+100 milhões para o ano 2025 . No ano de 2026, essa cessão terá impacto negativo de R$ 103 milhões para a 
+comercializadora e positivo na mesma magnitude para o segmento de geração. Ressalta-se que não há impacto 
+no EBITDA consolidado da Companhia. Desconsiderando a cessão desse contrato, a margem da comercializadora 
+seria de aproximadamente R$ 7/MWh em 2025, acima dos R$ 5/MWh reportados , e de R$ 13/MWh em 2026, 
+acima dos R$ 10/MWh reportados. 
+ 
+ 
+_________________________ 
+1 Considera os contratos formalizados no ACR e ACL. 
+2 A margem contratual é calculada pela diferença entre a receita e a despesa dos contratos formalizados divido pelo montante de venda. 
+Não considera a valoração da exposição. Data-base dos preços: 01 de outubro de 2025. Dólar considerado: R$ 5,32 (BRL/USD). 
+3 Balanço Energético Consolidado considera ambos os segmentos (Geração e Comercialização).
+
+[p. 30]
+30 
+Desempenho Financeiro do Segmento de Comercialização 
+| Tabela 13 | Resultados do Período 
+R$ milhões 3T25 3T24 proforma Var. 9M25 9M24 proforma Var. 
+Receita Líquida 2.646,3 2.040,5 29,7% 6.328,3 4.476,9 41,4% 
+Custo com Energia (2.632,8) (1.931,4) 36,3% (6.044,8) (4.181,3) 44,6% 
+Margem Líquida 13,6 109,2 -87,6% 283,5 295,6 -4,1% 
+Margem Líquida 0,5% 5,3% -4,8 p.p. 4,5% 6,6% -2,1 p.p. 
+PMSO (37,3) (29,5) 26,4% (97,4) (70,2) 38,7% 
+Outros Resultados Operacionais (ORO) 103,3 (18,7) n.a. 147,4 25,4 481,3% 
+EBITDA 79,5 61,0 30,3% 333,5 250,8 33,0% 
+Marcação a Mercado de Contratos Futuros de Energia (104,5) 19,3 n.a. (142,9) (18,1) 689,9% 
+Outros Ajustes 0,0 0,8 n.a. 3,1 0,7 325,1% 
+EBITDA Ajustado (24,9) 81,1 -130,8% 193,8 233,4 -17,0% 
+Margem EBITDA Ajustada -0,9% 4,0% -4,9 p.p. 3,1% 5,2% -41,3% 
+ 
+O EBITDA Ajustado totalizou -R$ 24,9 milhões no 3T25 ante R$ 81,1 milhões registrados no 3T24. Caso não houvesse a 
+cessão de contrato mencionado anteriormente, o EBITDA Ajustado do 3T25 seria de R$ 24,1 milhões. A variação em relação 
+ao 3T24 é explicada principalmente: 
+a) Margem Líquida: totalizou R$ 13,6 milhões no 3T25, uma redução de 87,6% em relação ao observado no mesmo 
+período do ano anterior. Tal variação é explicada, majoritariamente, pela sazon alidade do portfólio de 
+comercialização em 2025, com os resultados concentrados no primeiro semestre do ano. Além disso, a cessão do 
+contrato de longo prazo em dólares de 150 MW médios do segmento de geração para o de comercialização teve 
+um impacto negativo de R$ 49,0 milhões no trimestre. 
+b) PMSO: os custos operacionais e despesas gerais e administrativas do segmento de comercialização totalizaram 
+R$ 37,3 milhões no 3T25, ante R$ 29,5 milhões no 3T24. As variações refletem majoritariamente a adição de 
+Esfera e da Way 2, com impacto de R$ 15,6 milhões, compensadas parcialmente pelas sinergias capturadas desde 
+a conclusão da aquisição da AES Brasil. 
+c) Outras Receitas (Despesas) Operacionais: totalizaram R$ 103,3 milhões, devido à marcação à mercado dos 
+contratos para venda de energia futura, no valor de R$ 104,5 milhões, com uma agregação de margem futura no 
+3T25, no montante de R$ 168,0 milhões, parcialmente compensado pela realização de margem no trimestre 
+(-R$ 63,5 milhões). 
+Para voltar ao sumário do documento, clique aqui.
+
+[p. 31]
+31 
+Desempenho Financeiro Consolidado 
+Demonstração de Resultados Proforma 
+Importante: Esta seção apresenta uma análise dos principais componentes do resultado da Companhia. Tendo em vista a conclusão da 
+operação com a AES Brasil Energia em 31/10/2024, para auxiliar o mercado na análise dos resultados e facilitar a visualização e interpretação 
+dos dados do 3T25 da Companhia, os números relativos às Informações Financeiras Trimestrais do 3T24 são apresentados em uma visão 
+proforma não auditada, considerando as operações combinadas da AES Brasil e da Companhia desde 01/01/2024 exclu sivamente para fins 
+comparativos. Desta forma, os resultados contábeis da Auren Energia e da AES Brasil, divulgados nas Informações Financeiras T rimestrais 
+de setembro de 2024, foram consolidados somando os valores de ambas as empresas e eliminando as transações entre partes relacionadas. 
+Além disso, foram feitas reclassificações entre grupos DRE para fins de comparabilidade e para melhor apresentação. 
+A Companhia ressalta que as informações proforma (i) possuem caráter meramente informativo e foram elaboradas exclusivamente para 
+auxiliar o mercado na simulação dos resultados combinados tendo em vista a operação com a AES Brasil e destina-se única e exclusivamente 
+para facilitar a visualização e interpretação dos dados do 3T25; (ii) foram elaboradas pela Companhia, não tendo sido auditadas e/ou 
+revisadas pelos auditores independentes e não constituem, sob qualquer hipótese, demonstrações financeiras, conf orme legislação e 
+regulamentação aplicáveis; (iii) são apresentadas em caráter voluntário; (iv) não devem ser usadas como base para decisões de 
+investimento, tampouco interpretadas como projeção de desempenho futuro da Companhia; (v) não substituem quaisqu er informações 
+financeiras auditadas previamente divulgadas pelas companhias; e (vi) recomenda -se aos investidores uma análise independente das 
+informações proforma sempre e somente em conjunto com as informações financeiras revisadas ou auditadas da Compa nhia. 
+Os resultados aqui apresentados abrangem, além dos segmentos de geração e comercialização, o segmento holding & 
+pipeline e eliminações. O resultado de equivalência patrimonial contempla os ativos não controlados pela Companhia – 
+participações minoritárias da Auren em ativos hidrelétricos, detalhadas na seção “Participações Minoritárias da Auren”, no 
+capítulo Desempenho por Unidade de Negócio , além de 50% de participação na joint-venture entre o complexo eólico 
+Tucano e Unipar Carbocloro S.A. (Tucano Holding III), que registrou EBITDA 1 de R$ 1 0,0 milhões no 3T25 e de 
+R$ 32,4 milhões nos primeiros nove meses de 2025. Mais informações na Nota Explicativa 10 das Informações Financeiras 
+Trimestrais. 
+| Tabela 14 | Resultados do Período 
+R$ milhões 3T25 3T24 proforma Var. 9M25 9M24 proforma Var. 
+Receita Líquida 3.537,4 3.134,7 12,8% 9.375,2 7.651,9 22,5% 
+Custo com Compra de Energia (2.363,1) (1.852,4) 27,6% (5.236,4) (3.904,9) 34,1% 
+Encargos de Uso da Rede Elétrica (180,6) (176,4) 2,4% (537,9) (526,5) 2,2% 
+Margem Líquida 993,6 1.105,9 -10,2% 3.601,0 3.220,5 11,8% 
+Margem Líquida 28,1% 35,3% -7,2 p.p. 38,4% 42,1% -3,7 p.p. 
+Custos e Despesas (PMSO) (335,7) (343,6) -2,3% (929,1) (982,8) -5,5% 
+ Outros Resultados Operacionais (ORO) 6,3 246,8 -97,4% (113,1) 475,5 n.a. 
+EBITDA 664,3 1.009,1 -34,2% 2.558,8 2.713,2 -5,7% 
+ Marcação a Mercado de Contratos 
+ Futuros de Energia (ORO) (13,9) (188,5) -92,6% 111,5 (334,3) n.a. 
+ Dividendos das Participações 
+ Minoritárias 98,9 97,0 1,9% 252,7 137,8 83,3% 
+ Não Recorrentes Relacionados a 
+ Iniciativas de Crescimento (PMSO) 13,0 8,8 47,6% 29,5 13,3 121,9% 
+ Provisão/(Reversão) para Litígios 
+ e Baixa de Depósitos Judiciais (ORO) 7,3 (64,3) n.a. (16,4) (131,8) -87,6% 
+ Baixa de Imobilizado (ORO) 3,1 - n.a. 19,5 - n.a. 
+ Outros Ajustes (ORO) - - - 3,1 21,8 -86,0% 
+EBITDA Ajustado 772,7 862,1 -10,4% 2.958,6 2.420,0 22,3% 
+Margem EBITDA Ajustada 21,8% 27,5% -5,7 p.p. 31,6% 31,6% -0,1 p.p. 
+Depreciação e Amortização (465,6) (385,7) 20,7% (1.445,5) (1.114,7) 29,7% 
+Equivalência Patrimonial 58,2 57,5 1,2% 145,1 168,7 -14,0% 
+Resultado Financeiro Líquido (625,3) (344,2) 81,7% (2.001,9) (1.091,2) 83,5% 
+LAIR (368,3) 336,7 -209,4% (743,4) 676,1 n.a. 
+Impostos (IR/CSLL) (35,4) (139,5) -74,6% (169,1) (345,2) -51,0% 
+Resultado Líquido (403,7) 197,2 n.a. (912,6) 330,9 n.a. 
+_________________________ 
+1 Considerando a participação proporcional da Auren Participações na joint-venture.
+
+[p. 32]
+32 
+Com o objetivo de promover maior transparência e auxiliar os investidores e analistas em suas análises, a Companhia 
+disponibiliza a Planilha Interativa no site de Relações com Investidores. 
+Margem Líquida 
+A Margem Líquida (resultado da Receita Líquida descontado o Custo com Compra de Energia Elétrica e Encargos Setoriais) 
+totalizou R$ 993,6 milhões no 3T25, redução de 10,2% comparação com o 3T24 (R$ 1.105,9 milhões). 
+Conforme destacado nas respectivas seções que abordaram cada segmento de negócio, os principais efeitos que 
+influenciaram tal resultado são explicados a seguir: 
+a) Receita Líquida: crescimento de 12,8% na comparação entre trimestres, devido principalmente à entrada em 
+operação faseada em 2024 do complexo solar Jaíba e dos complexos eólico Cajuína, a melhora de preços associada 
+à entrada de contratos de autoprodução e a correção monetária dos contratos regulados, bem como outros efeitos 
+mencionados nas análises do desempenho financeiro das respectivas unidades de negócios. 
+b) Custo com Compra de Energia: incremento de 27,6% no 3T25, reflexo principalmente do maior volume de 
+compra de energia e do aumento do PLD médio no período contra o mesmo período do ano anterior nos segmentos 
+de geração e de comercialização, mencionados nas respectivas análises neste documento. 
+c) Modulação: ganhos de modulação de R$ 65,6 milhões no trimestre em função do perfil de geração do portfólio 
+diversificado e das variações do preço de curto prazo (PLD). 
+d) Encargos Setoriais: aumento de 2,4% no 3T25, resultado da inflação e redução de tarifas, conforme descrito na 
+seção “Desempenho Financeiro do Segmento de Geração”. 
+Custos e Despesas (PMSO) 
+Os custos e despesas operacionais e despesas gerais e administrativas ( PMSO), em bases comparáveis e excluindo 
+iniciativas de crescimento e itens não recorrentes, apresentou uma redução de R$ 58,1 milhões (16,0%) quando comparado 
+ao 3T24, ressaltando o compromisso da Administração da Companhia com as iniciativas de eficiência e captura de valor. 
+As despesas relacionadas ao crescimento por meio de Novos Projetos estão associadas à entrada em operação faseada em 
+2024 de Sol de Jaíba (R$ 5,0 milhões) e às despesas associadas à Esfera e Way 2 (R$ 15,6 milhões) que passaram a ser 
+consolidadas a partir de setembro de 2024 e julho de 2025, respectivamente. Quanto aos itens não recorrentes, destacam-
+se despesas associadas a integração da AES Brasil (R$ 17,8 milhões). 
+| Gráfico 19 | PMSO Trimestre (R$ milhões)1 
+ 
+ 
+ 
+ 
+ 
+O PMSO totalizou R$ 335,7 milhões no 3T25 vs. R$ 343,6 milhões no 3T24, uma redução nominal de 2,3%. A evolução 
+entre períodos é explicada por: 
+a) Pessoal (P): os custos e despesas com pessoal totalizaram R$ 118,8 milhões no 3T25, uma redução nominal de 
+8,8% quando comparado com o mesmo período de 2024 (R$ 130,3 milhões), tendo em vista as sinergias 
+capturadas desde a aquisição da AES Brasil. 
+_________________________ 
+1 Considera despesas não recorrentes relacionadas às ações de integração no âmbito da aquisição da AES Brasil (desmobilização, 
+consultorias, auditorias, honorários jurídicos, entre outros). 
+0,0
+17,4
+-58,1
+19,6
+17,8
+-4,8
+343,6
+361,1
+303,0
+335,7
+3T24
+proforma
+3T24
+Não Recorrentes
+Inflação 3T24 
+Normalizado
+Sinergias 
+Recorrentes
+3T25 
+Normalizado
+Novos 
+Projetos
+Não Recorrente
+Líquido¹
+Descasamento
+Temporal
+3T25
+
+[p. 33]
+33 
+b) Materiais e Serviços de Terceiros (MS): os custos de materiais e serviços totalizaram R$ 157,2 milhões no 
+3T25, uma redução nominal de R$ 12,4 milhões (7,3%) vs. 3T24 (R$ 169,6 milhões), principalmente em 
+decorrência de reduções relevantes em Tecnologia da Informação (R$ 5,0 milhões), além de menores despesas 
+com consultoria e renegociações de contratos de manutenção e engenharia capturadas com as iniciativas de 
+sinergia. 
+c) Outros (O): R$ 59,6 milhões no 3T25, um aumento de 36,6% se comparado ao 3T24 (R$ 43,7 milhões). O 
+incremento se deve principalmente à mudança da metodologia de contabilização das despesas de arrendamento 
+que, a partir do 4T24, passaram a ser reconhecidas como despesas operacionais. Ainda tivemos o impacto positivo 
+da renegociação de apólices de seguros (R$ 5,0 milhões). 
+d) Descasamento Temporal: redução de R$ 4,8 milhões no 3T25, principalmente como resultado da postergação 
+de despesas para o quarto trimestre de 2025. 
+Analisando a captura de sinergias de PMSO desde a conclusão da aquisição da AES Brasil em 31 de outubro de 2024, já 
+reduzimos de forma acumulada R$ 212,0 milhões/ano. Estamos confiantes que a redução no próximo trimestre deva ser 
+similar aos níveis observados, levando a uma economia anual de R$ 250,0 milhões conforme divulgado anteriormente. 
+Outras Receitas (Despesas) Operacionais 
+A rubrica Outras Receitas (Despesas) Operacionais (ORO) totalizou uma receita de R$ 6,3 milhões no 3T25 ante uma receita 
+de R$ 246,8 milhão no 3T24. A variação é explicada principalmente pelo efeito da marcação a mercado dos contratos 
+futuros de energia (-R$ 175,4 milhões) e pelo impacto da reversão de provisão de litígios de (-R$ 73,0 milhões) no 3T24. 
+No Gráfico 20, é demonstrada a variação, ao longo do 3T25, do saldo societário da marcação a mercado dos volumes de 
+energia para entrega futura, com a realização de posições construídas em periodos anteriores, no valor de R$ 88,1 milhões. 
+Analogamente ao descrito nos releases do 1T25 e 2T25, a variação da margem futura não impacta a margem de energia 
+contratada para o ano conforme apresentada no Balanço Energético do Segmento de Comercialização. 
+| Gráfico 20 | Evolução do Saldo Societário de Marcação a Mercado ao Longo de 2025 (R$ milhões) 
+ 
+ 
+ 
+EBITDA Ajustado 
+A Auren registrou EBITDA Ajustado de R$ 772,7 milhões no 3T25, uma redução de 10,4%, ou R$ 89,4 milhões, em relação 
+ao mesmo período do ano anterior. Essa queda é explicada principalmente pelos efeitos negativos do curtailment e do GSF 
+no trimestre, parcialmente compensados pelo ramp-up dos ativos que entraram em operação em 2024 e pelas sinergias 
+capturadas desde a aquisição da AES Brasil . Nesse trimestre, o curtailment teve um impacto de R$ 196 milhões vs. 
+R$ 114 milhões no 3T24. 
+Em relação ao 2T25, o EBITDA ajustado caiu 21,2%, explicado principalmente por um impacto mais negativo de curtailment 
+(R$ 196 milhões no 3T25 frente a R$ 96 milhões no 2T25) e de GSF, dada sazonalidade da geração hidrelétrica e preço 
+spot mais elevado. 
+Os dividendos declarados das participações minoritárias da Auren no 3T25 foram de R$ 98,9 milhões, integralmente 
+associados às participações minoritárias nas hidrelétricas, em linha com a estratégia de linearizar o pagamento de 
+dividendos ao longo do ano, detalhada na seção “Participações Minoritárias da Auren”, no capítulo Desempenho por Unidade 
+de Negócio. 
+ 
+102,0
+-88,164,9 78,8
+Saldo Jun/25 Agregação de
+Margem Futura
+Realização de 
+Margem 3T25
+Saldo Set/25
+R$ 13,9 milhões transitam na DRE
+
+[p. 34]
+34 
+Resultado Financeiro 
+| Tabela 15 | Resultado Financeiro Consolidado 
+R$ milhões 3T25 3T24 proforma Var. 9M25 9M24 proforma Var. 
+Receitas Financeiras 237,3 216,4 9,6% 719,2 640,8 12,2% 
+Despesas Financeiras1 (862,6) (560,6) 53,9% (2.721,1) (1.732,0) 57,1% 
+Resultado Financeiro Líquido (625,3) (344,2) 81,7% (2.001,9) (1.091,2) 83,5% 
+ 
+O resultado financeiro líquido foi uma despesa de R$ 625,3 milhões no 3T25 comparado a R$ 344,2 milhões com o mesmo 
+período de 2024: 
+a) Receitas Financeiras: aumento do rendimento sobre aplicações financeiras justificada principalmente pelo 
+impacto da variação do CDI médio no período (14,9% a.a. no 3T25 ante 10,4% a.a. no 3T24). 
+b) Despesas Financeiras: R$ 862,6 milhões no 3T25, comparada a despesa de R$ 560,6 milhões no 3T24. O 
+crescimento de R$ 302,0 milhões decorre, principalmente, de: 
+a. Custos de Captação: os custos de captação de dívida apresentaram um aumento de R$ 128,1 milhões, 
+impulsionado principalmente pelo acréscimo de R$ 103,2 milhões relacionados às 2ª e 3ª Emissões de 
+Debêntures da Auren Participações. Esses valores foram reconhecidos diretamente no resultado financeiro, 
+conforme as normas contábeis aplicáveis, uma vez que as debêntures foram classificadas como instrumentos 
+financeiros mensurados ao valor justo por meio do resultado. Dada essa classifica ção contábil, os custos de 
+transação não são diferidos, mas sim contabilizados imediatamente como despesa. 
+b. Encargos e Atualizações Monetárias: variação de R$ 159,2 milhões é explicada por um crescimento de 
+R$ 150,8 milhões de despesas com juros e valor justo sobre empréstimos , além de um aumento de 
+R$ 8,5 milhões no montante relativo à atualização monetária entre os trimestres, principalmente em função 
+da maior base de endividamento entre os períodos – R$ 24,8 bilhões no 3T25 e R$ 20,7 bilhões no 3T24. Além 
+disso, tivemos o impacto da variação do CDI médio no período. 
+c. Juros Capitalizados: dada a conclusão da construção dos projetos eólicos e solares que entraram em 
+operação ao longo de 2024, os juros, que durante a construção são capitalizados, permanecem registrados na 
+despesa financeira. Quando comparado o volume de despesa de juros capitalizado no 3T25 com o volume do 
+3T24, há uma redução de R$ 25,9 milhões entre os períodos. 
+Resultado Líquido 
+| Tabela 16 | Resultado Líquido Consolidado 
+R$ milhões 3T25 3T24 proforma Var. 9M25 9M24 proforma Var. 
+EBITDA 664,3 1.009,1 -34,2% 2.558,8 2.713,2 -5,7% 
+Depreciação e Amortização (465,6) (385,7) 20,7% (1.445,5) (1.114,7) 29,7% 
+Equivalência Patrimonial 58,2 57,5 1,2% 145,1 168,7 -14,0% 
+Resultado Financeiro Líquido (625,3) (344,2) 81,7% (2.001,9) (1.091,2) 83,5% 
+Impostos (IR/CSLL) (35,4) (139,5) -74,6% (169,1) (345,2) -51,0% 
+Resultado Líquido (403,7) 197,2 n.a. (912,6) 330,9 n.a. 
+Como resultado dos fatores anteriormente mencionados e aliado às variações da depreciação e amortização, equivalência 
+patrimonial e impostos, a Companhia registrou prejuízo de R$ 403,8 milhões no 3T25 ante um lucro de R$ 197,2 milhões 
+no 3T24. 
+As principais variações estão detalhadas abaixo. 
+_________________________ 
+1 Para fins de comparabilidade, destacamos que os efeitos do valor justo de empréstimos, financiamentos, debêntures e instrumen tos 
+financeiros derivativos são demonstrados líquidos na linha de despesas financeiras, diferindo do critério aplicado nas demons trações 
+financeiras.
+
+[p. 35]
+35 
+a) EBITDA: EBITDA consolidado de R$ 664,3 milhões no 3T25 ante R$ 1.009,1 milhões no 3T24, um decréscimo de 
+34,2%, conforme explicado anteriormente. 
+b) Depreciação/Amortização: R$ 465,6 milhões no 3T25 ante R$ 385,7 milhões no 3T24, um crescimento de 
+20,6%, reflexo principalmente da amortização da mais-valia originada nas aquisições da AES Brasil e da Esfera 
+(R$ 50,6 milhões) e do aumento da depreciação em função início da operação faseada do complexo eólico de 
+Cajuína e do complexo solar de Jaíba ao longo de 2024 (R$ 13,4 milhões). 
+c) Imposto de Renda e Contribuição Social (IR/CS): despesa de R$ 35,4 milhões no 3T25, ante 
+R$ 139,5 milhões de despesa no 3T24, gerado substancialmente pelo prejuízo fiscal apurado em sociedades sem 
+a constituição de imposto diferido ativo, decorrente do maior custo financeiro no período. 
+d) Equivalência Patrimonial: a equivalência patrimonial foi positiva em R$ 58,2 milhões no 3T25, em linha com os 
+valores apurados no 3T24 (R$ 57,5 milhões). 
+Demonstração de Resultados por Segmento 
+A Tabela 17 apresenta a Demonstração de Resultados de cada um dos segmentos – Geração, Comercialização e Holding –
+detalhando as eliminações necessárias para obtenção do resultado consolidado do período. 
+| Tabela 17 | Demonstração de Resultados por Segmento e Consolidada 
+R$ milhões Geração Comercialização Holding Eliminações Consolidado 
+Receita Líquida 1.636,1 2.646,3 - (745,0) 3.537,4 
+Custo com Compra de Energia (475,3) (2.632,8) - 745,0 (2.363,1) 
+Encargos de Uso da Rede Elétrica (178,1) (0,0) (2,5) - (180,6) 
+Margem Líquida 982,6 13,6 (2,5) 0,0 993,6 
+Margem Líquida 60,1% 0,5% n.a. n.a. 28,1% 
+Custos e Despesas (PMSO) (251,9) (37,3) (46,5) - (335,7) 
+Outros Resultados Operacionais (ORO) (6,8) 103,3 0,5 (90,6) 6,3 
+EBITDA 723,9 79,5 (48,5) (90,6) 664,3 
+Marcação a Mercado de Contratos 
+Futuros de Energia (ORO) - (104,5) - 90,6 (13,9) 
+Dividendos das Participações Minoritárias 98,9 - - - 98,9 
+Não Recorrentes Relacionadas a Iniciativas 
+de Crescimento (PMSO) 7,2 - 5,7 - 13,0 
+Provisão/(Reversão) para Litígios e Baixa 
+de Depósitos Judiciais (ORO) 7,1 - 0,2 - 7,3 
+Baixa de Imobilizado (ORO) 3,1 - - - 3,1 
+EBITDA Ajustado 840,3 (24,9) (42,6) - 772,7 
+Margem EBITDA Ajustada 51,4% -0,9% n.a. n.a. 21,8% 
+Depreciação e Amortização (456,1) (2,8) (6,7) - (465,6) 
+Equivalência Patrimonial 49,1 9,1 - - 58,2 
+Resultado Financeiro Líquido (313,7) 19,1 (330,6) - (625,3) 
+LAIR 3,2 104,9 (385,8) (90,6) (368,3) 
+Impostos (IR/CSLL) (45,3) (29,8) 8,9 30,8 (35,4) 
+Resultado Líquido (42,1) 75,1 (376,9) (59,8) (403,7)
+
+[p. 36]
+36 
+Endividamento 
+Considerando o fechamento de 30 de setembro de 2025, a dívida bruta totalizou R$ 24, 8 bilhões, representando um 
+aumento de R$ 325,4 milhões em comparação ao fechamento de junho de 2025. O prazo médio da dívida se manteve 
+estável em 7,0 anos a Dívida Líquida/EBITDA Ajustado dos últimos 12 meses atingiu 4,9x em linha com o patamar de 4,8x 
+observado no 2T25. 
+Desde a conclusão da aquisição da AES Brasil no 4T24, e como resultado da estratégia de liability management executada 
+pela Companhia, tivemos o aumento do prazo médio em 1, 1 ano (vs. 5,9 anos em dezembro de 2024) . A alavancagem, 
+por sua vez, foi reduzida em 0,8x (vs. 5,7x em dezembro de 2024), principalmente em decorrência do aumento do EBITDA 
+Ajustado dos últimos 12 meses. 
+Ao longo do trimestre, foram realizadas duas emissões de debêntures, totalizando R$ 3,3 bilhões, cujos recursos foram 
+destinados à liquidação integral de financiamentos de custo mais elevado e à implantação de Cajuína 3, conforme detalhado 
+abaixo: 
+• Captação de R$ 1,15 bilhão na 3ª Emissão de Debêntures da Auren Participações, com prazo de 12 anos e rating AAA 
+pela Fitch – a Companhia realizou um swap do custo financeiro de IPCA+6,92% a.a. para CDI–0,90% a.a.; 
+• Captação de R$ 2,1 bilhões na 14ª Emissão de Debêntures da CESP, com prazo de 7 anos, rating AAA pela Fitch e 
+custo de CDI+0,62%; 
+• Pré-pagamento integral do acquisition finance, no valor de R$ 2,2 bilhões; e 
+• Pré-pagamento integral da 10ª Emissão de Debêntures da Auren Operações, no valor R$ 750 milhões. 
+Ainda durante o 3T25, a Companhia celebrou um contrato de financiamento de R$ 200,0 milhões com o BNDES, referente 
+ao Fundo Clima, cujo desembolso não havia sido efetivado até o encerramento de setembro. Considerando o fechamento 
+de 30 de setembro de 2025 ajustado pela captação de R$ 200,0 milhões via Fundo Clima (“proforma”), a dívida bruta 
+totalizaria R$ 25,0 bilhões. 
+| Gráfico 21 | Movimentação (R$ bilhões) e Perfil da Dívida Bruta Proforma1 
+ 
+ 
+Aproximadamente 67% da dívida líquida proforma está atrelada ao IPCA, o mesmo índice que corrige os contratos de 
+venda de energia da Auren. Esta estratégia oferece proteção contra oscilações futuras, enquanto apenas uma parcela de 
+20% é remunerada pelo CDI. O custo médio da dívida líquida proforma da Companhia foi reduzido para CDI-2,2% ao ano. 
+| Gráfico 22 | Dívida Líquida (R$ milhões), Alavancagem e Perfil da Dívida Líquida Proforma¹ 
+ 
+ 
+_________________________ 
+1 Proforma considera visão de 30 de setembro de 2025, ajustado pela captação de R$ 200,0 milhões via Fundo Clima (BNDES). 
+67%
+20%
+12%
+IPCA CDI TJLP Pré
+IPCA+5,7%
+CDI-0,0%
+TJLP+2,3%
+CDI-2,2%
+74%
+18%
+9%
+Debêntures BNDES Outros
+18.748,2 19.023,4
+4,8x 4,9x
+Jun/25 Set/25
+Dívida Líquida Dív.Liq/EBITDA Ajustado
+-2,9
+3,3 0,224,5 24,8 25,0
+Jun/25 Amortizações Captações Set/25 BNDES
+Fundo Clima
+Set/25
+Proforma
+
+[p. 37]
+37 
+| Gráfico 23 | Cronograma de Amortização do Principal da Dívida Bruta Proforma¹ (R$ milhões) 
+ 
+Endividamento – Visão Contábil 
+A dívida bruta da Auren em 30 de setembro de 2025 (R$ 24,8 bilhões) foi 19,9% superior em relação ao mesmo período 
+de 2024 e praticamente em linha com o registrado ao final de junho de 2025 (+1,3%). A liquidez consolidada da Companhia 
+somava R$ 6,1 bilhões no encerramento do período, R$ 151,5 milhões superior ao registrado no encerramento do trimestre 
+anterior e R$ 2,2 bilhões inferior ao final de setembro de 2024 – antes da conclusão da aquisição da AES Brasil. 
+| Tabela 18 | Endividamento – Visão Contábil 
+R$ milhões Set/25 Set/24 Var. Jun/25 Var. 
+Dívida Bruta 24.828,9 20.700,6 19,9% 24.503,5 1,3% 
+Instrumentos Financeiros Derivativos1 90,7 12,2 641,8% (11,8) n.a. 
+Arrendamentos 166,0 303,7 -45,3% 167,3 -0,8% 
+Dívida Bruta Ajustada2 25.085,6 21.016,6 19,4% 24.659,0 1,7% 
+Liquidez3 6.062,2 8.242,0 -26,4% 5.910,8 2,6% 
+Dívida Líquida 19.023,4 12.774,6 48,9% 18.748,2 1,5% 
+EBITDA Ajustado 3.848,4 3.439,2 11,9% 3.937,9 -2,3% 
+Dívida Líquida/EBITDA Ajustado 4,9x 3,7x 1,2x 4,8x 0,1x 
+Para mais detalhes sobre o endividamento da Companhia, incluindo as características individuais de cada emissão, acesse 
+a Planilha Interativa disponível em formato Excel na Central de Resultados do website de Relações com Investidores. 
+Covenants Financeiros – Auren Operações 
+Em setembro de 2025, o montante de R$ 4,3 bilhões do total da dívida bruta da Companhia apresentava covenants 
+financeiros na subsidiária Auren Operações, sendo eles: (i) limite de até 4,5x de alavancagem, medida pela relação Dívida 
+Líquida/EBITDA Ajustado, que encerrou o período em 2,35x; e (ii) manutenção do Índice de Cobertura de Juros (EBITDA 
+Ajustado/Despesas Financeiras) acima de 1,25x, que encerrou o período em 2,31x, atendendo à obrigação contratual. 
+Ratings 
+Em agosto de 2025, a Fitch avaliou a 3ª Emissão de Debêntures da Auren Participações e 14ª Emissão de Debêntures da 
+CESP, ambas com rating, em escala local, de AAA e perspectiva estável. Além disso, a S&P manteve sem alteração o rating 
+corporativo da CESP no grau máximo (AAA) e perspectiva estável. Mesmo em um cenário de alavancagem mais elevada, 
+a manutenção dos ratings das emissões da Auren no grau máximo (AAA) pela Fitch refletem os efeitos positivos da 
+integração dos ativos e reforçam a confiança no posicionamento estratégico e na solidez da estrutura financeira da Auren. 
+Para mais detalhes, acesse Informação Financeiras – Ratings no website de Relações com Investidores da Companhia. 
+_________________________ 
+1 Considera o principal da Nota Explicativa 13 de Empréstimos, financiamentos e debêntures, incluindo os efeitos das operações de 
+derivativos no montante de R$ 48,2 milhões e a emissão do Fundo Clima no montante de R$ 200,0 milhões. 
+2 Considera empréstimos, financiamentos e debêntures, liquidas das operações de derivativos a elas relacionadas . 
+3 Caixa, equivalentes de caixa, aplicações financeiras, fundo de liquidez (conta reserva) . 
+6.262,2
+501,1 1.536,8 1.767,1 1.821,8 2.684,4
+16.626,2
+Liquidez³ 2025 2026 2027 2028 2029 2030+
+Prazo Médio: ~7,0 anos
+Posição de caixa cobre mais de 4 anos
+
+[p. 38]
+38 
+Fluxo de Caixa Livre 
+| Tabela 19 | Fluxo de Caixa Livre Consolidado 
+R$ milhões 3T25 3T24 proforma Var. 9M25 9M24 proforma Var. 
+EBITDA Ajustado 772,7 862,1 -10,4% 2.958,6 2.420,0 22,3% 
+Não Recorrentes Relacionadas a 
+Iniciativas de Crescimento (13,0) (8,8) 47,6% (29,5) (13,3) 121,9% 
+IR/CS Caixa (42,7) (76,9) -44,5% (204,7) (214,7) -4,7% 
+Capital de Giro e Outros 161,5 7,3 n.a. 387,5 304,2 27,4% 
+CAPEX Sustaining (77,2) (97,8) -21,1% (186,0) (247,7) -24,9% 
+Fluxo de Caixa Operacional (FCO) 801,3 686,0 16,8% 2.926,0 2.248,5 30,1% 
+Serviço da Dívida (474,3) (266,2) 78,2% (1.635,8) (926,2) 76,6% 
+FCO após Serviço da Dívida 327,0 419,8 -22,1% 1.290,2 1.322,4 -2,4% 
+Índice de Conversão de Caixa 42,3% 48,7% 6,4 p.p. 43,6% 54,6% 11,0 p.p. 
+CAPEX Projetos (95,8) (87,9) 9,0% (317,7) (520,9) -39,0% 
+Pagamento de Litígios, Obrigações e 
+Acordos Judiciais (0,6) (7,2) -91,4% (50,5) (45,4) 11,3% 
+Captações 3.202,4 321,5 n.a. 5.146,5 4.196,5 22,6% 
+Amortizações (3.124,2) (260,6) n.a. (7.921,0) (2.120,4) 273,6% 
+Resgate (Aplicação) de Aplicações 
+Financeiras (570,6) - n.a. (593,7) - n.a. 
+Aumento de Capital em Investidas - (2,1) -100,0% (10,7) (11,3) -5,8% 
+Dividendos (86,1) (0,0) n.a. (247,1) (492,0) -49,8% 
+Aquisição de Investimento (80,3) (159,2) -49,6% (80,3) (223,2) -64,0% 
+Recebimento Alienação de Investidas - - n.a. 63,5 31,5 101,4% 
+Fluxo de Caixa Livre (428,0) 224,3 -290,9% (2.721,2) 2.137,2 -227,3% 
+Saldo de Caixa Inicial 4.907,4 7.166,3 -31,5% 7.200,5 5.253,3 37,1% 
+Saldo de Caixa Final 4.479,4 7.390,5 -39,4% 4.479,4 7.390,5 -39,4% 
+Fundo Liquidez – Conta Reserva 986,6 837,0 17,9% 986,6 837,0 17,9% 
+Aplicações Financeiras 596,3 14,4 n.a. 596,3 14,4 n.a. 
+Saldo de Caixa Final + Conta 
+Reserva + Aplicações Financeiras 6.062,3 8.242,0 -26,4% 6.062,3 8.242,0 -26,4% 
+Alguns dos principais efeitos que influenciaram a variação no fluxo de caixa livre entre os períodos são: 
+a) Capital de Giro: o aumento do capital de giro neste trimestre, em comparação ao ano anterior, é explicado pela 
+provisão mais elevada para ressarcimentos, totalizando R$ 136 milhões, parcialmente compensada por um maior 
+pagamento de ressarcimento, no montante de R$ 109 milhões. Além desses fatores, no ano passado houve uma 
+concentração maior de pagamentos no trimestre, relacionada a parques que estavam em construção. 
+b) Serviço de Dívida: R$ 474,3 milhões no 3T25, a variação de R$ 208,1 milhões comparado ao 3T24 é explicada, 
+principalmente, pelo aumento da Dívida Líquida em R$ 6,2 bilhões, ano contra ano, devido, principalmente, ao 
+financiamento levantado para suportar a aquisição da AES Brasil. 
+c) Captações e Amortizações: saldo líquido entre captações e amortizações positivo em R$ 78,2 milhões, como 
+resultado, principalmente, das captações e pré-pagamentos descritos na seção “Endividamento”. 
+d) Capex Sustaining: a despesa de Capex relacionada à manutenção dos ativos no 3T25, de R$ 77,2 milhões, 
+refere-se majoritariamente ao plano de melhoria da disponibilidade dos ativos adquiridos, cujos avanços estão 
+detalhados na seção “Desempenho Operacional da Geração” deste documento. 
+e) Capex de Projetos: a despesa de Capex relacionada à expansão no 3T25, de R$ 95,8 milhões, refere-se 
+majoritariamente à implantação do projeto Cajuína 3. Ao longo de 2025 já foram investidos R$ 191,4 milhões em 
+Cajuína 3, com a implantação atingindo um avanço físico de 39% no final de setembro. 
+f) Dividendos: o pagamento de dividendo s registrado no 3T25 refere-se a dividendos pagos aos acionistas 
+minoritários das subsidiárias da Companhia. 
+Para voltar ao sumário do documento, clique aqui.
+
+[p. 39]
+39 
+Outras Informações Relevantes 
+ANEEL aprova e publica o Despacho 3.076/2025, que reconhece os investimentos prudentes realizados pela CESP 
+durante a operação das UHEs Jaguari, Paraibuna, Jupiá e Ilha Solteira 
+A CESP protocolou, em agosto de 2023, em conformidade com a Resolução Normativa 1. 027/2022, os relatórios de 
+avaliação dos investimentos realizados posteriormente a entrada em operação das concessões das UHEs Jupiá, Ilha Solteira, 
+Jaguari e Paraibuna, ainda não depreciados no término dos respectivos prazos de concessão (denominados Investimentos 
+Prudentes). Em outubro de 2025, a diretoria da ANEEL aprovou o reconhecimento de R$ 498,8 milhões como Base de 
+Remuneração Regulatória Líquida nas datas-base de cada concessão (Tabela 20). A decisão consta no Despacho nº 
+3.076/2025 publicado em 21 de outubro de 2025. 
+| Tabela 20 | Valor Reconhecido e Data Base por Usina Hidrelétrica 
+R$ milhões Valor Reconhecido (BRR) Data Base 
+UHE Jupiá 230,8 Jul-2015 
+UHE Ilha Solteira 213,3 Jul-2015 
+UHE Jaguari 24,1 Mai-2020 
+UHE Paraibuna 30,6 Jun-2022 
+Total 498,8 
+Concluída essa etapa regulatória, o processo segue para o Ministério de Minas e Energia, responsável por definir a fonte de 
+recursos para o pagamento da indenização, o cronograma e o índice de atualização monetária dos valores. Estes pontos 
+são objeto da Consulta Pública MME no 190/2025, que busca estabelecer uma norma aplicável a todas as usinas hidrelétricas 
+com direito à indenização. Embora encerrada, a CP 190 não teve seu resultado divulgado. Em sua minuta inicial, os valores 
+seriam corrigidos pelo IPCA e remunerados pelo WACC de geração a partir do fim da concessão, com duas alternativas para 
+viabilização do pagamento: (i) reconhecimento tarifário via Receita Anual de Geração (RAG) recebida por usinas 
+hidrelétricas no regime de cotas, ou (ii) utilização de recursos da Reserva Global de Reversão (RGR). 
+Reorganização Societária1 
+Conforme divulgado desde o anúncio da aquisição da AES Brasil, em 15 de maio de 2024, a combinação de negócios abre 
+diferentes avenidas para sinergias, além de oportunidades relevantes de otimização corporativa. Neste contexto, após a 
+conclusão da etapa de integração, a Auren iniciou a reavaliação de sua atual estrutura societária (Figura 4), com o objetivo 
+de torná-la mais simples, eficiente e adequada à nova escala da Companhia. 
+A potencial reorganização, em estágio preliminar de implementaçã o, está sujeita à conclusão das análises internas, à 
+aprovação do Conselho de Administração e à obtenção de eventuais anuências necessárias de credores e órgãos reguladores 
+competentes, podendo sofrer alterações ao longo deste processo. Como primeiro passo dest e processo, a Auren iniciou 
+conversas com credores para análise dos waivers aplicáveis. 
+A proposta em estudo envolve a incorporação da Auren Participações e da Auren Operações pela CESP (Figura 5), o que 
+resultaria na concentração dos ativos hidrelétricos em um único veículo, na redução do número de companhias controladas 
+de capital aberto e no aumento da eficiência na gestão de caixa e na alocação do passivo financeiro da Companhia. Essa 
+simplificação societária busca promover uma estrutura mais otimizada e alinhada à estratégia de criação de valor de longo 
+prazo. 
+ 
+ 
+_________________________ 
+1 Estrutura preliminar indicativa, em fase de estudos, sujeita ao cumprimento de condições precedentes e à eventuais mudanças. Pendente 
+waiver dos debenturistas e posterior aprovação do Conselho da Companhia.
+
+[p. 40]
+40 
+Auren 
+Energia 
+Auren 
+Operações 
+Auren 
+Part. CESP Outros Ativos 
+Outros 
+Ativos 
+| Figura 4 | Estrutura Atual Simplificada – Antes da Reorganização 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+| Figura 5 | Estrutura Final Simplificada – Após Conclusão da Reorganização 
+ 
+ 
+ 
+ 
+Auren 
+Energia 
+CESP 
+Outros 
+Ativos 
+Outros 
+Ativos 
+Outros 
+Ativos
+
+[p. 41]
+1 
+ 
+Earnings 
+Release 
+ 
+3Q
+25 
+NOVEMBER 
+2025 
+Água Vermelha HPP
+
+[p. 42]
+2 
+CONTENTS 
+ 
+The Quarter at a Glance ................................................................................................................................... 4 
+Message from Management ............................................................................................................................. 6 
+Electricity Market ............................................................................................................................................ 8 
+Performance by Business Unit ....................................................................................................................... 14 
+Generation ................................................................................................................................................... 14 
+Auren's Noncontrolling Interests ...................................................................................................................... 27 
+Trading ........................................................................................................................................................ 29 
+Consolidated Financial Performance .............................................................................................................. 31 
+Other Material Information ........................................................................................................................... 39
+
+[p. 43]
+3 
+Earnings Call 
+ 
+November 13, 2025 
+(In Portuguese with simultaneous translation into English) 
+11:00 a.m. (Brasília) | 09:00 a.m. (New York) | 2:00 p.m. (London) 
+Click here to view the webcast. 
+ 
+Earnings Presentation available at: ri.aurenenergia.com.br 
+ 
+ 
+ 
+Contact Information 
+ 
+Investor Relations 
+o Mateus Ferreira (Chief Financial and Investor Relations Officer) 
+o Marcelo Sá (Investor Relations Director) 
+o Luiz Perez (Investor Relations Executive Manager) 
+o Juliana Ramirez (Investor Relations Manager) 
+o Emille Reckia (Investor Relations Consultant) 
+o Bruna Freixo (Investor Relations Analyst) 
+o Bruno Tavares (Investor Relations Analyst) 
+ 
+ri@aurenenergia.com.br 
+ri.aurenenergia.com.br 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+As of September 30, 2025: 
+AURE3: 
+R$ 10.27 
+Market Cap: 
+R$ 10.8 billion
+
+[p. 44]
+4 
+The Quarter at a Glance 
+ 
+ 
+ 
+Completion of Integration and Synergy Capture: Auren’s focus on strategic priorities since the acquisition of AES Brasil 
+on October 31, 2024, enabled it to (i) complete the merger process seamlessly and in record time , (ii) continue 
+capturing recurring PMSO synergy gains, which represented savings of R$ 58.1 million in 3Q25 and have already totaled 
+R$ 212.1 million since the acquisition, (iii) reach an average availability of 93.3% for the acquired wind assets in 
+3Q25, and (iv) usher in a new phase focused on process optimization initiatives and continuous improvement across 
+the Company. 
+Operating Performance: in 3Q25, total energy generation from proprietary assets reached 3.3 GWavg 1, 1.3% 
+lower than the same period in 2024. This was mainly due to the 20.7% curtailment for wind and 33.1% for solar sources 
+in the National Interconnected System (SIN), combined with a Generation Scaling Factor (GSF) adjustment of 65% in the 
+quarter. Wind assets generated 1.5 GWavg¹, 2.5% higher than the same period in 2024, equivalent to 87.3% of the 
+certified P90 generation. In 3Q25, potential generation 2 – excluding curtailment – reached 107.4% of P90 and 
+98.3% of P50. 
+Adjusted EBITDA and Leverage: Auren reported an adjusted EBITDA of R$ 772.7 million in 3Q25 , a decrease of 
+10.4% on the same period last year . This decline was primarily driven by the negative impacts of curtailment and GSF 
+during the quarter, partially offset by the ramp-up of assets that began operating in 2024 and synergies from the merger 
+process. In the first nine months of 2025, Adjusted EBITDA totaled R$ 3.0 billion , up 22.3% compared to the same 
+period in 2024. Leverage at the end of the quarter stood at 4.9x Net Debt/LTM Adjusted EBITDA. 
+Benefits of a Diversified Portfolio: in 3Q25, Auren secured modulation gains of R$ 65.6 million, totaling 
+R$ 124.0 million year-to-date in 2025. These gains stem from the Company’s hourly generation profile and prevailing 
+market price dynamics, helping to offset a significant portion of the curtailment impact . After accounting for 
+modulation gains, the net curtailment impact in the quarter was R$ 130 million. 
+Approval of Compensation for CESP’s Prudent Investments: on October 14, 2025, ANEEL’s Executive Board approved 
+the compensation for Prudent Investments made by CESP over the course of the concession periods for the Jupiá, Ilha 
+Solteira, Jaguari and Paraibuna hydropower plants, totaling R$ 498.8 million , based on the concession contract 
+termination dates. The monetary restatement factor, payment schedule and method will be determined later by the Ministry 
+of Mines and Energy (MME). Further details can be found in the Other Material Information section. 
+Corporate Reorganization: in line with previous announcements since the acquisition, the Company has initiated 
+preparatory actions for a potential corporate reorganization, expected to be completed in 2027. This reorganization 
+is one of the strategic paths to unlock additional synergies through (i) the consolidation of hydro assets under a 
+single vehicle (CESP), (ii) a simplified corporate structure by reducing the number of publicly traded companies (iii) greater 
+efficiency in cash management and debt allocation. Further details can be found in the Other Material Information section. 
+_________________________ 
+1 Considering the effective generation combined with the energy to be reimbursed, that is, the curtailment classified as Extern al 
+Unavailability Reason (REL) after reaching the deductible limit . 
+2 Potential generation = energy produced + portion of energy not produced due to various types of restrictions imposed by the N ational 
+System Operator (ONS). 
+Auren reported Adjusted EBITDA of R$ 772.7 million in 3Q25, reaching 
+R$ 3.0 billion in the first nine months of 2025 and R$ 3.8 billion LTM
+
+[p. 45]
+5 
+| Table 1 | Period Overview – Operational and Financial Information 
+Operational Headlines 
+Generation (MWavg) 3Q25 3Q24 proforma Change 9M25 9M24 proforma Change 
+Hydro 1,589.4 1,663.7 -4.5% 1,979.9 1,763.1 12.3% 
+Wind1 1,510.5 1,473.7 2.5% 1,263.4 1,106.3 14.2% 
+Solar1 163.2 168.8 -3.3% 170.8 124.8 36.8% 
+Total Proprietary Assets 3,263.1 3,306.2 -1.3% 3,414.1 2,994.2 14.0% 
+Interests2 346.9 349.0 -0.6% 243.8 372.3 -34.5% 
+Total Proprietary Assets and 
+Holdings 3,610.0 3,655.2 -1.2% 3,657.9 3,366.5 8.7% 
+ 
+ 
+Average Availability 
+Wind Assets 3Q25 3Q24 proforma Change (p.p.) 9M25 9M24 proforma Change (p.p.) 
+Consolidated Portfolio 94.8% 93.3% 1.5 93.5% 86.3% 7.2 
+Acquired Assets 93.3% 91.2% 2.1 91.8% 81.7% 10.1 
+ 
+Summary Financials 
+R$ million 3Q25 3Q24 proforma Change 9M25 9M24 proforma Change LTM 3Q25 
+Net Revenue 3,537.4 3,134.7 12.8% 9,375.2 7,651.9 22.5% 12,974.1 
+Generation 1,636.1 1,603.1 2.1% 4,853.8 4,293.1 13.1% 6,649.3 
+Trading 2,646.3 2,040.5 29.7% 6,328.3 4,476.9 41.4% 8,931.2 
+Eliminations (745.0) (509.0) 46.4% (1,806.9) (1,118.1) 61.6% (2,606.4) 
+Adjusted EBITDA3 772.7 862.1 -10.4% 2,958.6 2,420.0 22.3% 3,848.5 
+Generation 840.3 812.2 3.5% 2,865.5 2,284.2 25.4% 3,819.6 
+Trading (24.9) 81.1 n.a. 193.8 233.4 -17.0% 162.5 
+Holding Company and Pipeline (42.6) (31.2) 36.8% (100.6) (97.6) 3.0% (133.6) 
+Adjusted EBITDA Margin 21.8% 27.5% -5.7 p.p. 31.6% 31.6% -0.1 p.p. 29.7% 
+Net Income (403.7) 197.2 n.a. (912.6) 330.9 n.a. (1,276.1) 
+Operating Cash Flow after 
+Debt Service 327.0 419.8 -22.1% 1,290.2 1,322.4 -2.4% 1,818.1 
+Cash Conversion Ratio 42.3% 48.7% -6.4 p.p. 43.6% 54.6% -11.0 p.p. 47.2% 
+Net Debt 19,023.4 12,803.2 48.6% 19,023.4 12,803.2 48.6% 19,023.4 
+Leverage 4.9x 3.7x 1.2x 4.9x 3.7x 1.2x 4.9x 
+ 
+ 
+Note: The Financial Performance section of this release presents an analysis of the Company’s main earnings components. Given the 
+completion of the acquisition of AES Brasil Energia S.A. on October 31, 2024, and in order to assist the market in analyzing the results and 
+to facilitate the visualization and interpretation of the Company’s 3Q25 data, the figures related to the September 2024 Quar terly Financial 
+Statements are presented on an unaudited pro forma basis, and embrace the combined operations of AES Brasil Energia S.A. and the 
+Company from January 01, 2024, solely to facilitate a comparative analysis. The accounting results of Auren Energia S.A. and AES Brasil 
+Energia S.A., as disclosed in the September 2024 Quarterly Financial Statements, were accor dingly consolidated by summing the figures of 
+both companies and eliminating intercompany transactions. Additionally, reclassifications were made to items in the statement of profit or 
+loss (DRE) to facilitate a comparative analysis and improve presentatio n. 
+_________________________ 
+1 Includes actual generation plus the energy to be compensated due to curtailment classified as External Unavailability (REL), after reaching 
+the allowance. 
+2 The variation in generation from assets with noncontrolling ownership between the first nine months of 2024 and 2025 is due to 
+extraordinary generation in 1H24, driven by higher -than-average rainfall volumes during that period. Generation was weighted by Auren’s 
+indirect economic interest. 
+3 Adjustments detailed in the “Financial Performance” section.
+
+[p. 46]
+6 
+Message from Management 
+ 
+On October 30, Provisional Law 1.304 was approved by Congress and is now pending presidential sanction. Several topics 
+were addressed, with two being particularly important for Auren: The approved text allows for reimbursement of generation 
+cuts (curtailment) related to risks to the reliability of the operation of the National Interconnected System (SIN) verified as 
+of September 2023 , and instructs the Ministry of Mines and Energy (MME) to define the concept of renewable energy 
+oversupply, which may address part of the energy curtailment . For Auren, reliability curtailment accounted for 
+approximately 50% of the total reported since September 2023, with an estimated negative impact of approximately R$ 
+250 million. In addition, the text sets forth the principles for the possible renewal of hydropower plant concessions. Auren 
+has 2,644 MW of hydropower capacity maturing in 2032. 
+The third quarter of 2025 was challenging, with Auren’s performance significantly impacted by sector-specific issues such 
+as generation curtailment and hydropower displacement (GSF). Elsewhere, Auren made consistent progress on its strategic 
+agenda, including significant advances in the merger process, further reduction of PMSO expenses (Personnel, Materials, 
+Services and Others) and improved availability of assets incorporated through the acquisition of AES Brasil. 
+Thanks to its continued focus on strategic priorities outlined since the acquisition of AES Brasil, Auren successfully completed 
+the merger process seamlessly and in record time, including decommissioning AES Brasil’s legacy systems and completing 
+liability management through full early repayment of the acquisition finance and higher -cost debt in September. Going 
+forward, the Company will shift its focus to process optimization and continuous improvement initiatives, aiming to become 
+increasingly agile and efficient. 
+Recurring synergy gains in PMSO resulted in cost savings of R$ 58.1 million in 3Q25, consistent with the aforesaid 
+R$ 250 million in annual synergies. Since the acquisition's completion, cumulative synergies have amassed R$ 212.1 million. 
+The improved performance of Auren’s merged wind assets continues to drive meaningful gains, with average availability 
+reaching 93.3% in 3Q25, a 1.3 p.p. increase compared to 2Q25. The Company remains committed to achieving 95% 
+availability for these assets by the end of 2025. 
+From a regulatory perspective, Auren secured a major milestone: on October 14, 2025, ANEEL’s Executive Board approved 
+CESP’s right to receive R$ 498.8 million in compensation for Prudent Investments made during the concession periods of 
+the Jupiá, Ilha Solteira, Paraibuna and Jaguari hydropower plants. The next step will be for the MME to define the funding 
+source, payment schedule, and applicable monetary restatement index. These topics are also being addressed in the scope 
+of MME Public Consultation No. 190, dated July 03, 2025. Auren expects this final stage to be concluded during 2026. 
+The quarter's performance was significantly impacted by curtailment and the GSF, both of which exceeded Auren’s and the 
+market’s expectations. The main cause was a contraction in SIN demand, which reached 77 GWavg in the quarter – a 4% 
+(3 GWavg) decrease versus ONS forecasts and 1% (1 GWavg) below 3Q24 – driven by the coldest winter since 2009, with 
+average temperatures in the central-southern region around 2°C lower than in winter 2024. In addition to weaker demand, 
+the GSF and curtailment were also influenced by increased participation of Micro and Mini Distributed Generation (MMGD) 
+and by the higher thermal dispatch, driven by the increase in short -term prices due to the new risk aversion parameters 
+and the adoption of the hybrid Newave model, as well as the entry into operation of inflexible thermal capacity during the 
+quarter. Curtailment was further exacerbated by the strong wind season, typical of the winter months, which significantly 
+affected the generation of the wind assets. 
+Considering only the non-reimbursable portion of curtailment, SIN restrictions resulted in generation cuts of approximately 
+19.8% for wind assets and 31.2% for solar assets, totaling 5.6 GWavg of curtailed capacity – 120.3% higher than in 2Q25. 
+Auren’s diversified portfolio, designed to meet the growing complexity of the energy sector and rising demand for flexibility, 
+once again proved resilient in a challenging quarter like 3Q25. The portfolio mix allowed the Company to secure 
+R$ 66 million in modulation gains, benefiting from its hourly generation profile and price dynamics, including higher market 
+volatility stemming from technical improvements in price formation models which, in the Company’s view, better reflect 
+the operational reality of the SIN . The impact from generation cuts in the results of the quarter was R$ 196 million, 
+compared to R$ 96 million in 2Q25. After accounting for modulation gains, the net curtailment impact was R$ 130 million, 
+up from R$ 56 million in 2Q25. Additionally, the average GSF in the quarter was 65%, below the 79% recorded in 3Q24. 
+Proprietary generation accordingly reached 3.3 GWavg1, 1.3% lower than the same period in 2024. In the first nine months 
+of 2025, generation amassed 3.4 GWavg1, 14.0% above 9M24. It is worth highlighting the energy generation of the wind 
+assets, which reached 1,511 MWavg1 in 3Q25 – 2.5% higher than in the same period of 2024. Compared to 3Q24, wind 
+generation benefited from the completion of the ramp -up at Cajuína and Tucano . In this challenging situation, the 
+Company’s wind assets produced 87.3% of the P90 certified production curve in 3Q25, totaling 95.3% over the past nine 
+months. When analyzing potential generation – excluding the curtailment impact – generation would have totaled 
+1,858 MWavg or 98.3% of the 50 percentile (P50) and 107.4% of the 90 percentile (P90) in 3Q25, reflecting the resilience 
+of the Company’s assets. 
+_________________________ 
+1 Includes actual generation plus the energy to be compensated due to curtailment classified as External Unavailability (REL), after 
+reaching the allowance.
+
+[p. 47]
+7 
+In terms of financial performance, Adjusted EBITDA reached R$ 772.7 million in 3Q25, a 10.4% (or R$ 89.4 million) 
+decrease on the same period last year. Compared to 2Q25, Adjusted EBITDA fell 21.2%, mainly due to a greater negative 
+impact from curtailment (R$ 196 million in 3Q25 versus R$ 96 million in 2Q25) and the GSF, given the seasonality of 
+hydropower generation and higher spot prices. Combined with the R$ 2.2 billion Adjusted EBITDA in 6M25, the Company 
+posted an Adjusted EBITDA of R$ 3.0 billion in the last 9 months, a 22.3% increase versus the same period in 2024. On a 
+last 12 months (LTM) basis, pro forma Adjusted EBITDA was R$ 3.8 billion. We ended the quarter with a leverage ratio of 
+4.9x (Net Debt/Adjusted EBITDA). 
+Lastly, as part of its drive to optimize operations, Auren has initiated preparatory steps for a potential corporate 
+reorganization, expected to be completed in 2027, starting with the process to obtain waivers from creditors. The 
+reorganization includes ( i) consolidating all hydro assets into a single vehicle (CESP), (ii) streamlining the corporate 
+structure by reducing the number of publicly traded companies and (iii) improving efficiency in cash management and 
+allocation of financial liabilities. This in itiative has been disclosed since the acquisition as one of the avenues to unlock 
+additional synergies for the combined company. 
+We remain constructive on long-term energy prices, believing they should converge toward the marginal cost of expansion 
+as oversupply recedes. There are signs this shift has already begun, as shown by the increase in the forward energy price 
+curve and the higher values seen in recently signed long -term PPAs. Additionally, sell -side analysts and investors are 
+significantly revising their long-term price assumptions. 
+Auren remains confident in the attractiveness of the Brazilian energy sector and is committed to driving its development 
+through qualified technical discussions, sustainable investments, innovation and operational excellence, while continuing to 
+deliver consistent value to its shareholders across different market scenarios. 
+We are grateful for the trust and continued support of our customers, employees, shareholders and partners. 
+ 
+ 
+ 
+ 
+Fabio Zanfelice 
+CEO 
+Mateus Ferreira 
+Chief Financial and Investor 
+Relations Officer
+
+[p. 48]
+8 
+Electricity Market 
+3Q25 was marked by elevated levels of curtailment and a challenging displacement of hydropower generation (GSF), both 
+negatively affecting energy generators’ results. The main factors behind the variation in these indicators during the quarter 
+were: (i) the decline in SIN load, which totaled 77 GWavg in 3Q25, 4.0% below the level forecast ed by ONS1 and 0.9% 
+below 3Q24, (ii) the evolution of the energy mix, with the entry of inflexible thermal capacity and growth in Distributed 
+Micro and Mini Generation (MMGD), (iii) higher wind generation, and (iv) increased thermal dispatch by merit order, driven 
+by higher short-term prices due to the new risk aversion parameters and the adoption of the new hybrid Newave pricing 
+model. 
+Reservoir levels reached 56% of maximum capacity at the end of September, 17 p.p. above the ten-year average and about 
+6 p.p. higher than the same period in 2024. Much like 3Q25, 2Q25 was also affected by lower-than-expected load due to 
+below-average temperatures. However, the GSF in 3Q25 was more pronounced than in 2Q25, reflecting the seasonality of 
+hydropower and wind generation. In 3Q25, the GSF was 65%, compared to 96% in 2Q25 and 79% in 3Q24. The 14 p.p. 
+difference from the prior year is explained by a higher allocation of assured energy in the MRE (4 p.p.) and lower system-
+wide hydro generation (10 p.p.). 
+For wind generation, total curtailment in the SIN reached 20.7% (4.0 GWavg) in 3Q25, significantly higher than the 11.7% 
+recorded in 2Q25 and 12.8% in 3Q24. For solar, SIN-wide curtailment was 33.1% (1.6 GWavg) in the quarter, above the 
+22.9% and 18.4% in 2Q25 and 3Q24 respectively. 
+Finally, the spot price (PLD) in the Southeast/Midwest (SE/MW) submarket averaged R$ 252/MWh in the quarter, with 
+intraday volatility of 38%, compared to an average of R$ 170/MWh and 31% volatility in 3Q24. Despite higher levels, the 
+SE/MW PLD showed a smaller spread compared to the Northeast submarket, with an average difference of R$ 12/MWh in 
+the period versus R$ 27/MWh in 3Q24 and R$ 62/MWh in 2Q25. This narrower spread can be attributed to the behavior of 
+the hourly PLD in the Southeast/ Midwest submarket, which has become closer to the hourly profile of the Northeast 
+submarket, due to the higher energy exchange capacity between regions and the greater share of solar generation – driven 
+by the growth of MMGD – in the SE/MW submarket. 
+The dynamics outlined above highlight both the challenges posed by GSF and curtailment during the quarter and the 
+opportunities for securing modulation gains under the current PLD dynamics. These effects will be detailed in the following 
+paragraphs. 
+Weather Patterns and Natural Streamflow 
+Continuing the trend observed in the second quarter, temperatures generally remained below historical averages. The 
+colder-than-average winter was mainly driven by polar air masses affecting the South and Southeast/Midwest regions, 
+contrasting with 2024, when temperature anomalies were dominated by higher-than-usual heat across much of the country. 
+In both 2Q25 and 3Q25, lower temperatures had a significant impact on SIN demand. As a result, system load in 3Q25 
+reached 77 GWavg, a 4.0% reduction compared to ONS’s forecast for 3Q25. Compared to 3Q24, system load declined 
+0.9%, and versus 2Q25, it fell 2.5%. 
+ 
+_________________________ 
+1 According to the 2025–2029 Annual Energy Operation Plan (PMO), published in December 2024.
+
+[p. 49]
+9 
+| Figures 1 and 2 | Unusual Rainfall Patterns and Average Air Temperature in 3Q25 
+Figure 1 Figure 2 
+ 
+Source: TempoOK 
+ 
+Source: SAMet/Tempo OK 
+In 3Q25, the Southeast/Midwest submarket recorded gross ENA at 71% of the Long-Term Average (LTA), up from 55% in 
+3Q24. The Northeast and North submarkets registered ENA levels of 45% and 65% of the LTA, respectively. In contrast, 
+the South submarket experienced above-average rainfall in some areas – driven by the concentration of cold fronts in the 
+region – resulting in ENA at 108% of the LTA for the quarter. 
+| Chart 1 | Daily Gross Natural Inflow (ENA) in the National Interconnected System (SIN) (GWavg) 
+ 
+ 
+ 
+Source: ONS 
+Reservoirs, Supply-load Balance and GSF 
+The adoption of the new risk aversion parameters of the hybrid Newave model led to higher merit-order thermal dispatch 
+throughout the first nine months of 2025, which, combined with higher ENA and the expansion of MMGD during the period, 
+resulted in reservoir storage levels reaching 56% at the end of 3Q25 – 17 p.p. above the ten-year average and about 6 
+GROSS 
+ENA/LTA Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec 3Q 9M 
+2023 116% 101% 98% 94% 85% 85% 99% 84% 102% 165% 153% 65% 95% 98% 
+2024 59% 66% 71% 86% 95% 72% 85% 57% 50% 64% 97% 101% 66% 72% 
+2025 98% 90% 66% 75% 71% 92% 83% 77% 74% - - - 79% 81%
+
+[p. 50]
+10 
+p.p. higher than the same period in 2024. Compared to the rest of the year, storage levels declined in the third quarter, in
+line with the seasonal pattern of the dry period.
+| Chart 2 | SIN Reservoir Levels (% Maximum Energy Stored) 
+Source: ONS 
+Solar generation, driven by the growth of MMGD, continued to increase its share in meeting system load, contributing 
+10.0 GWavg (approximately 13% of the load) in the period, compared to 8.3 GWavg (around 11% of the load) in 3Q24. 
+Additionally, in the same period, lower hydro dispatch resulted in a 4 p.p. decline in the share of demand met by total 
+hydropower generation under the MRE compared to the same quarter in 2024 (Chart 3). 
+| Chart 3 | Monthly Supply-Load Balance (SIN) – Contribution by Source to Load Supply (GWavg) 
+Source: ONS 
+In addition to the slowdown in reservoir depletion rates, the volume of assured energy allocated by the MRE this quarter 
+was higher than in 3Q24 – 51 GWavg in 3Q25 versus 48 GWavg in 3Q24. This increased the reference base and, as a result, 
+amplified the decline in the GSF, as shown in Chart 4. As a result, the average GSF for 3Q25 was 65%, compared to 79% 
+in 3Q24. The 14 p.p. difference from the prior year is explained by the greater MRE assured energy allocation (4 p.p.) and 
+lower hydro generation across the system (10 p.p.). 
+72%
+66%
+53% 55%
+68%
+60%
+49%
+9%
+10%
+16% 15%
+8%
+11%
+17%
+10%
+15% 21% 17%
+11%
+17% 21%
+4%
+4% 4% 5%
+5%
+4% 4%
+6%
+6% 6% 8%
+8%
+7% 9%
+82 79 78 81
+86
+79 77
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100
+1Q24 2Q24 3Q24 4Q24 1Q25 2Q25 3Q25
+Hydro Thermal Wind Solar MMGD Total Load (GWavg)
+
+[p. 51]
+11 
+| Chart 4 | Hydro Displacement (% GSF) 
+ 
+ 
+ 
+Source: CCEE 
+Difference Settlement Price (PLD) 
+The average Difference Settlement Price (PLD) for the Southeast/Midwest ( SE/MW) submarket was R$ 252/MWh in the 
+quarter, compared to an average of R$ 170/MWh in 3Q24. The persistence of elevated prices throughout the third quarter, 
+despite higher reservoir levels and a more favorable hydrological outlook compared to the previous year , highlights the 
+impact of the new risk aversion parameters introduced into the price formation model chain, aimed at increasing system 
+reliability. 
+Despite the higher PLD level, 3Q25 saw a reduction in the price spread between the Southeast/Midwest (SE/MW) and 
+Northeast submarkets, with an average difference of R$ 12/MWh, compared to R$ 27/MWh in the same period of 2024 and 
+R$ 62/MWh in 2Q25. 
+This pattern can be attributed to the more frequent price troughs observed during oversupply periods in the 
+Southeast/Midwest submarket. In 2024, this pattern was primarily observed in the Northeast. The convergence reflects 
+increased supply during midday hours in the SE/MW region, driven by MMGD growth and expanded interregional energy 
+transmission limits. 
+| Chart 5 | Daily PLD by Submarket (R$/MWh) 
+ 
+ 
+Year Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec 3Q 9M 
+2023 104% 98% 102% 105% 98% 80% 78% 80% 83% 83% 83% 86% 80% 92% 
+2024 87% 89% 95% 104% 104% 89% 85% 79% 73% 73% 80% 86% 79% 89% 
+2025 113% 111% 99% 102% 97% 86% 66% 64% 65% - - - 65% 88%
+
+[p. 52]
+12 
+PLD by Submarket 
+(R$/MWh) 
+3Q 9M 
+2025 2024 Change 2025 2024 Change 
+ SE/MW 252.4 169.7 82.7 210.7 98.1 112.6 
+ South 253.0 169.7 83.3 214.1 98.2 116.0 
+ Northeast 240.0 142.7 97.2 151.6 89.1 62.6 
+ North 251.0 172.6 78.4 155.5 99.1 56.4 
+Source: ONS and CCEE 
+Regarding the variation in energy prices throughout the day, the most significant PLD increases typically occur in the late 
+afternoon and early evening. During certain hours, energy demand remains high while supply decreases due to the drop in 
+total solar generation, resulting in upward pressure on prices. The opposite is observed around midday, when net load 
+decreases significantly due to high levels of intermittent generation, pushing PLD to lower levels. 
+As illustrated in Chart 6, the third quarter of 2025 showed greater price stability compared to the same period in 2024, 
+when the average PLD remained lower and only began to rise in September. Intraday price volatility in the 
+Southeast/Midwest submarket reached 38% in 3Q25, higher than the 31% recorded in 2024, mainly due to the entry of 
+MMGD, which drove prices to lower levels in the morning compared to the previous year. In 2025, prices behaved more 
+uniformly throughout the quarter, fluctuating within a narrower range between R$ 210/MWh and R$ 287/MWh. 
+| Chart 6 | Hourly PLD – Southeast/Midwest Submarket (R$/MWh) 
+ 
+Source: CCEE 
+Curtailment 
+Lastly, according to ONS data, 3Q25 recorded an average total curtailment of 20.7% (4.0 GWavg) for wind generation and 
+33.1% (1.6 GWavg) for solar generation across the SIN. Excluding events classified as External Unavailability Factor (REL), 
+which are eligible for reimbursement, curtailment reached 19.8% (3.8 GWavg) for wind and 31.2% (1.5 GWavg) for solar. 
+As in the previous quarter, most of the generation restriction in 3Q25 was attributed to the Energy -Based Curtailment 
+condition (64%) – directly related to the combination of low demand, driven by milder temperatures in the 
+Southeast/Midwest and South regions, high wind resource availability in the Northeast, the increase in thermal capacity 
+and MMGD, and the change in ONS’s risk -aversion parameters. Curtailment followed an upward trend throughout the 
+quarter, with September recording the highest percentage, driven by the peak of the wind season. 
+ 
+Average PLD 
+(SE/MW) Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec 3Q 9M 
+2023 69.0 69.0 69.0 69.0 69.0 69.0 69.0 69.0 80.4 74.8 84.4 74.1 72.7 70.3 
+2024 61.1 61.2 61.1 61.1 61.1 66.4 87.1 118.8 307.6 480.8 103.5 64.8 169.7 98.1 
+2025 59.2 93.7 327.3 202.2 212.6 234.7 210.0 287.2 260.4 - - - 252.4 210.7
+
+[p. 53]
+13 
+| Chart 7 | Percentage Share of Curtailments by Reason (% of Total) 
+ 
+| Chart 8 | Wind and Solar Curtailment (GWavg) and PLD (R$/MWh) 
+ 
+Source: ONS/CCEE 
+To return to the table of contents, click here.
+
+[p. 54]
+14 
+Performance by Business Unit 
+Generation 
+In September 2025, Auren’s operational installed capacity totaled 8,800 MW, of which 4,746 MW comes from hydro, 
+3,178 MW from wind and 876 MWac from solar. This chapter presents the Supply-Load Balance for the generation segment, 
+along with its operational performance and corresponding financial results. 
+Supply-Load Balance – Generation Segment 
+Table 2 presents Auren’s Generation Supply -Load Balance alongside information on energy sale prices in the Regulated 
+Contracting Environment (ACR) and the Free Contracting Environment (ACL), broken down by conventional and incentivized 
+sources. Assets with ACR contracts currently include the Porto Primavera HPP, and the Ventos do Piauí I, Ventos do Araripe 
+I, Ventos do Araripe III, Alto Sertão II, Ventus, Mandacaru, Salinas, Cassino and Caetés wind clusters, and the Guaimbê, 
+Boa Hora and Água Vermelha solar clusters. Details on ACR contracts and further information on the assets are available 
+in Excel format in the Results Center on our Investor Relations website: 
+Auren’s trading strategy results in a highly contracted energy portfolio for the next three years, with a gradual decrease 
+over the medium and long term. Contracting levels are at 97% of total generation for 2025, 94% in 2026 and 87% in 2027. 
+These figures reflect the total firm energy capacity of proprietary assets, net of backbone losses and MRE (GSF) adjustments 
+for the realized period only (9M25). For future periods, figures are gross of GSF and curtailment. Within the generation 
+segment, the Company purchases energy from third parties to manage portfolio fluctuations, meet energy sales from 
+generation assets, cover MRE exposures and possible curtailment compensations. 
+Additionally, the Company’s energy contracts are mostly indexed to the National Broad Consumer Prices Index (IPCA). 
+Main changes in the 3Q25 Supply-Load Balance: 
+o An additional 36 MWavg of proprietary generation from the solar project Jaíba lease were incorporated into the 
+ACL Solar sales volume following the conclusion of the deal after all precedent conditions were met. This contract 
+begins supplying in October 2025 and runs through December 2030. The lease revenue is reflected in the Supply-
+Load Balance using an equivalent unit price based on the firm energy allocated to the client. 
+o The transfer of a 150 MWavg long -term dollar-denominated power purchase agreement from the generation 
+segment to the trading segment – executed through an intercompany agreement in 2Q25 – aimed to consolidate 
+the energy sale contract and its hedge under the same entity. This transfer had a positive impact of 
+R$ 49.0 million on the generation segment's EBITDA in 3Q25, consistent with the previously announced full-year 
+impact of approximately R$ 100 million as detailed in the 2Q25 Earnings Release. In 2026, this transaction will 
+have a positive impact of R$ 103 million for the generation segment and a negative impact of the same magnitude 
+for the trading segment. The effect of this transaction is EBITDA-neutral at the consolidated level.
+
+[p. 55]
+15 
+| Table 2 | Auren Generation Portfolio Supply-Load Balance 
+Volume (MWavg) 2025 2026 2027 2028 2029 2030 
+Own Funds (A) 3,545 3,715 3,776 3,776 3,776 3,776 
+Firm Energy - Hydroelectric1 1,857 2,027 2,027 2,027 2,027 2,027 
+Firm Energy - Wind2,5 1,455 1,455 1,516 1,516 1,516 1,516 
+Solar Firm Energy 233 233 233 233 233 233 
+Purchases for Resale (B) 1,028 595 498 470 386 386 
+Conventional 401 137 119 91 6 6 
+Incentivized 628 459 379 379 380 380 
+Total Funds (C = A+B) 4,573 4,311 4,274 4,246 4,162 4,162 
+Sales in ACR (D) 1,084 1,084 1,084 1,190 1,084 1,084 
+Hydro 230 230 230 336 230 230 
+Wind 788 788 788 788 788 788 
+Solar 65 65 65 65 65 65 
+Sales in ACL (E) 3,241 2,746 2,467 2,249 1,677 1,416 
+Hydro3 2,377 2,008 1,745 1,528 956 695 
+Wind 691 587 587 587 587 587 
+Solar 173 152 134 134 134 134 
+Total Sales (F = D+E) 4,325 3,830 3,550 3,438 2,761 2,500 
+Generation Balance (C - F) 248 480 724 808 1,401 1,662 
+Conventional 147 262 470 466 1,035 1,284 
+Incentivized 101 218 254 341 366 379 
+ 
+Prices (R$/MWh) 2025 2026 2027 2028 2029 2030 
+Average Sale Price3 196 192 201 202 211 218 
+ACR 265 274 275 273 275 275 
+Hydro 302 311 312 293 312 312 
+Wind 248 257 257 257 257 257 
+Solar 339 352 352 352 352 352 
+ACL 172 159 168 165 170 175 
+Hydro 160 142 154 147 148 150 
+Wind 204 205 206 204 200 201 
+Solar6 210 204 195 191 190 187 
+Average Purchase Price4 185 184 176 173 177 177 
+Conventional 206 144 141 132 132 132 
+Incentivized 172 196 187 183 177 178 
+ 
+_________________________ 
+1 Figures include: (a) the Firm Energy (GF) of proprietary assets is presented net of th

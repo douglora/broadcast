@@ -1,0 +1,2837 @@
+[p. 2]
+Dados de acesso para
+ plataforma Zoom:
+ Clique aqui
+ 
+ h
+
+[p. 3]
+SUMÁRIO
+1. RESULTADO CONSOLIDADO | IFRS E REGULATÓRIO ........................................................... 8
+2. DRE REGULATÓRIA AJUSTADA .............................................................................................. 11
+3. EBITDA AJUSTADO ................................................................................................................. 13
+4. COMERCIALIZAÇÃO DE ENERGIA .......................................................................................... 16
+5. INVESTIMENTOS E PROJETOS DE EXPANSÃO ....................................................................... 17
+6. ENDIVIDAMENTO ................................................................................................................... 22
+7. EMPRÉSTIMO COMPULSÓRIO ............................................................................................... 24
+8. FLUXO DE CAIXA .................................................................................................................... 25
+9. DESEMPENHO FINANCEIRO ................................................................................................... 26
+9.1. Receitas Operacionais ........................................................................................................ 26
+9.2. Custos e Despesas Operacionais ........................................................................................ 31
+9.3. Margem de Contribuição da Geração ................................................................................ 39
+9.4. Participações Societárias .................................................................................................... 41
+9.5. Resultado Financeiro .......................................................................................................... 42
+9.6. Tributos Correntes e Diferidos ........................................................................................... 44
+10. DESEMPENHO OPERACIONAL ............................................................................................... 45
+10.1. Segmento de Geração ........................................................................................................ 45
+10.2. Segmento de Transmissão ................................................................................................. 48
+10.3. ESG ...................................................................................................................................... 49
+11. ANEXOS .................................................................................................................................. 50
+11.1. Anexo 1 - Demonstrações Contábeis ................................................................................. 50
+11.2. Anexo 2 - Nota sobre venda das Térmicas ......................................................................... 59
+11.3. Anexo 3 - Nota sobre a Incorporação de Furnas e da Eletropar ........................................ 59
+11.4. Anexo 4 - DRE Regulatória vs. IFRS ..................................................................................... 60
+11.5. Anexo 5 - EBITDA IFRS ........................................................................................................ 62
+11.6. Anexo 6 - Receita Societária de Geração ........................................................................... 63
+11.7. Anexo 7 - Receita Societária de Transmissão ..................................................................... 63
+11.8. Anexo 8 - Receita Regulatória de Transmissão - Parcela de Ajuste (PA) ........................... 64
+11.9. Anexo 9 - Componente Financeiro da RBSE (PRT 120/2016) ............................................. 66
+11.10. Anexo 10 - RTP da RAP 2025 dos Contratos de Concessão Licitados ................................ 67
+11.11. Anexo 11 - Reajuste Anual da RAP ciclo 2025/2026 .......................................................... 68
+11.12. Anexo 12 - Financiamentos e empréstimos concedidos (Recebíveis) ............................... 69
+11.13. Anexo 13 - Conciliação Resultado Regulatório x IFRS ........................................................ 70
+ 
+Relatório de Resultados 2T25 3
+
+[p. 4]
+ELETROBRAS DIVULGA RESULTADOS DO 2º TRIMESTRE DE 2025
+O resultado financeiro da Eletrobras no 2T25 refletiu os efeitos positivos com venda de energia e menores 
+despesas com Pessoal, Material, Serviços e Outros (PMSO), em linha com a estratégia de otimização da 
+comercialização de energia e busca contínua pela eficiência operacional.
+Principais eventos do 2T25:
+Remuneração aos acionistas: R$ 4.000 milhões de dividendos, em linha com a metodologia de alocação de 
+capital da Eletrobras. Desde a divulgação do 4T24, a Administração realizou entregas consistentes e 
+acelerou o processo de eliminação de riscos da Companhia. Esse fator aliado a uma visão mais construtiva 
+de preço de energia, possibilitou a proposta de dividendos, reforçando o compromisso com a disciplina 
+financeira e a geração de valor aos acionistas.
+Margem de contribuição da geração: a contribuição da geração para o resultado cresceu de R$ 2.892 
+milhões no 2T24 para R$ 3.345 milhões no 2T25.
+Essa variação pode ser explicada pelo aumento da receita bruta, impulsionada pela nossa estratégia de 
+comercialização de energia, mais que compensando o maior gasto com energia comprada para revenda. 
+Por sua vez, os custos com encargos de uso de rede apresentaram queda no mesmo período, contribuindo 
+de forma positiva para o resultado do segmento de geração.
+Empréstimo Compulsório: o estoque de provisão foi reduzido em R$ 1,2 bilhão na comparação com o 1T25 
+e R$ 3,3 bilhões em relação ao 2T24, totalizando R$ 12 bilhões no 2T25. Houve reversão líquida de R$ 279 
+milhões devidos aos acordos celebrados e às decisões favoráveis no 2T25.
+Investimentos: R$ 1.966 milhões no 2T25, em linha com 2T24, e um crescimento de 116% em relação ao 
+1T25. Vale destacar o aumento dos investimentos em reforços e melhorias no segmento de transmissão 
+que atingiram R$ 1.108 milhões no 2T25. 
+Ainda no segmento de transmissão, estamos implementando 249 empreendimentos de grande porte com 
+RAP adicional de R$ 1,8 bilhão entre 2025-2030 e CAPEX total estimado em R$ 13,3 bilhões.
+Em julho, a Eletrobras conclui u o primeiro empreendimento vencido em leilão após a privatização. O 
+projeto Caladinho foi concluído com 14 meses de antecedência em relação ao prazo da ANEEL, que 
+originalmente era em setembro de 2026.
+A Eletrobras realizou aportes de R$ 225 milhões em abr/25 e de R$ 282 milhões em jul/25 na Transnorte 
+Energia S.A. (TNE), elevando sua participação no capital social para 64,61%. A obra foi retomada em 2022 e 
+consiste na implantação da linha de transmissão para integrar o estado de Roraima ao Sistema Interligado 
+Nacional (SIN). 
+Gestão de portfólio: em abril, finalizamos a aquisição da participação de 51% do capital social da Eletronet, 
+passando a consolidar e controlar a empresa. Em maio, houve a conclusão da venda das térmicas do 
+Amazonas pelo montante total de recursos de R$ 2,9 bilhões. Ainda em maio, concluímos o descruzamento 
+de ativos com a Copel. A Eletrobras passou a consolidar a UHE Colíder com 300 MW de capacidade 
+hidrelétrica em seu portfólio.
+Gestão financeira: a dívida líquida totalizou R$ 40,13 bilhões no 2T25, aumento de R$ 0,85 bilhão em 
+relação ao 1T25 e redução de R$ 2,84 bilhão na comparação com o 2T24. O prazo médio da dívida 
+consolidada foi alongado em 2,6 meses no 2T25, quando comparado ao 2T24. O custo médio total passou 
+de CDI + 0,48% a.a. para CDI + 0,57% a.a. no mesmo período.
+Destaque para a captação de R$ 2 bilhões em debêntures emitidas pela Eletronorte em jul/25 com um 
+custo equivalente de CDI - 0,56% a.a. após operação de swap. 
+Avanços na comercialização: atingimos 781 clientes no 2T25 um crescimento de 24% em relação ao 2T24, 
+sendo 688 clientes no ambiente de comercialização livre (ACL) contra 551 no 2T24. 
+ 
+Relatório de Resultados 2T25 4
+
+[p. 5]
+Destaques Financeiros 2T25
+▪ ROL regulatória: manteve-se estável em relação ao 2T24, atingindo R$ 9.593 milhões: 
+(+) crescimento da receita de geração, aumento de 9,9% no preço médio e de 1,0% no volume. 
+Destaque para o crescimento da venda tanto no ambiente de contratação livre (ACL) como no 
+ambiente de contratação regulada (ACR). 
+(-) redução da Receita Anual Permitida (RAP) de R$ 483 milhões em relação ao 2T24 em função da 
+Revisão Tarifária Periódica (RTP 2024), sendo R$ 328 milhões referentes à Parcela de Ajuste (PA) 
+Postergação.
+▪ PMSO societário ajustado: R$ 1.403 milhões (redução de 3,8% vs. 2T24), refletindo economias ligadas a 
+ganhos de eficiência. No 2T25, o PMSO ajustado foi impactado pelos seguintes efeitos:
+(a) R$ 213 milhões relativos aos Programas de Demissão Voluntária (PDVs) e custos com rescisões ;
+(b) R$ 15 milhões de custos com consultorias jurídicas relacionadas à estratégia de redução de 
+contingências.
+▪ Energia Comprada para Revenda (IFRS): R$ 1.356 milhões (aumento de 70,1% vs. 2T24), explicado 
+principalmente pela energia comprada para fins de gestão de lastro regulatório na Eletrobras. Vale 
+destacar que essas operações não geram impacto em resultado, uma vez que o preço de compra não é 
+superior ao preço de liquidação.
+▪ Provisões regulatórias ajustadas: provisão líquida de R$ 98 milhões, reflexo da redução da 
+inadimplência com a energia vendida para Amazonas Energia, de R$482 milhões no 2T24 para uma 
+reversão de R$15 milhões no 2T25.
+▪ EBITDA regulatório ajustado: R$ 5.501 milhões (redução de 8,6% vs 2T24).
+Excluindo o resultado das participações societárias, o EBITDA alcançou R$ 5.706 milhões no 2T25, um 
+aumento de R$318 milhões em relação ao 2T24, refletindo:
+(a) maior receita de geração;
+(b) redução dos custos e despesas com pessoal, material, serviços e outros;
+(c) menores provisões reconhecidas no trimestre;
+Tais efeitos foram parcialmente compensados pela menor receita de transmissão e pelos maiores 
+custos com energia comprada para revenda.
+▪ Lucro Líquido societário ajustado: R$ 1.469 milhões, impactado positivamente pelo: 
+(a) aumento da receita de geração superior ao avanço de custos com produção e compra de 
+energia; 
+(b) incremento no reconhecimento da receita de transmissão; 
+(c) pela redução dos gastos com PMSO e das despesas financeiras. Tal combinação mais que 
+compensou a menor contribuição das participações societárias.
+ 
+Relatório de Resultados 2T25 5
+
+[p. 6]
+Tabela 1 - Ajustes no EBITDA Regulatório (R$ mm)
+2T25 2T24 % 1T25 % 6M25 6M24
+EBITDA Regulatório (a) 5.820 6.125 -5,0 5.485 6,1 11.305 11.821
+Total de Ajustes no EBITDA (b) -319 -108 196,3 -108 194,7 -427 -198
+Receita Bruta: ajuste de preço de M&As 
+2T25 109 0 0,0 0 0,0 109 0
+PMSO 228 171 33,6 191 19,1 419 203
+PDV 98 11 795,5 96 1,1 194 44
+Custos com rescisão de 2025 109 0 0,0 31 249,7 140 0
+Custos com rescisão de 2024 7 0 0,0 22 -69,6 29 0
+Consultorias jurídicas relacionadas a 
+estratégia de redução de contingências
+15 42 -64,0 42 -63,5 57 42
+Condenações Judiciais 0 118 n.m. 0 0,0 0 118
+Provisão -95 -396 -76,0 -166 -42,9 -261 -514
+Provisão para litígios -74 -89 -17,3 -99 -25,7 -173 -228
+PECLD - Financiamentos e empréstimos 10 0 0,0 0 0,0 10 4
+Contratos onerosos -30 -45 -34,1 -29 1,5 -59 -83
+Perdas estimadas em investimentos -21 14 -250,5 -12 71,3 -34 29
+Perda estimada por irrecuperabilidade 
+de ativos (Impairment)
+0 0 -56,0 0 -1,3 0 6
+Provisão para implantação de ações - 
+Empréstimo Compulsório
+20 17 19,9 -26 -178,0 -6 50
+Mensuração a valor justo de ativo disp. 
+p/ venda
+0 -293 n.m. 0 0,0 0 -293
+Resultado de alienação de ativos -504 115 -537,7 0 0,0 -504 115
+Outras receitas e despesas -57 2 n.m. -133 -57,4 -190 -3
+EBITDA Regulatório Ajustado (c) = (a) + (b) 5.501 6.017 -8,6 5.377 2,3 10.878 11.623
+ 
+Relatório de Resultados 2T25 6
+
+[p. 7]
+PRINCIPAIS INDICADORES FINANCEIROS E OPERACIONAIS 
+Tabela 2 - Destaques Operacionais
+2T25 2T24 ∆% 1T25 ∆%
+Geração e Comercialização
+Capacidade Instalada Geração (MW) 44.368 44.279 0,2 44.359 0,0
+Garantia Física (MWm) (1) 21.655 22.012 -1,6 21.915 -1,2
+Geração Líquida (TWh) 38,7 41,7 -7,2 45,5 -15,1
+Energia Vendida ACR (TWh) (2) 8,7 8,8 -0,4 10,0 -12,8
+Energia Vendida ACL (TWh) (3) 17,9 15,8 13,2 23,2 -22,8
+Energia Vendida Cotas (TWh) (4) 4,9 8,6 -43,0 5,4 -9,8
+Preço Médio ACR (R$/MWh) (5) 220,97 213,30 3,6 212,54 4,0
+Preço Médio ACL (R$/MWh) 152,45 147,30 3,5 143,36 6,3
+Transmissão
+Linhas de transmissão (km) 73.774 73.803 0,0 74.097 -0,4
+RAP (R$mm) (6) 17.209 17.856 -3,6 17.164 0,3
+(1) A GF reflete: (a) a portaria GM/MME 544/21, que definiu a revisão dos valores de GF das usinas que tiveram renovação da concessão por conta da capitalização 
+(usinas sob regime de Cotas, Tucuruí, Itumbiara, Sobradinho, Mascarenhas de Moraes e Curuá-Una), com significativa redução na GF, valendo a partir de 2023; (b) a 
+portaria GM/MME 709/22, com Revisão Ordinária de GF de usinas hidrelétricas, valendo a partir de 2023, afetando várias usinas de Eletrobras; (c) o aumento da GF da 
+UTE Santa Cruz pelo fechamento do Ciclo Combinado, a partir do despacho ANEEL 481, de 23/fev/23, autorizando o início de operação comercial de nova unidade 
+geradora na usina.
+(2) Não inclui cotas.
+(3) Inclui os contratos sob Lei 13.182/2015. 
+(4) Os valores apresentados são de Garantia Física de cotas em GWh.
+(5) Exclui térmicas.
+(6) RAP Homologada para o ciclo regulatório em curso, associada aos módulos ativos ao final de cada período, incluindo os que eram ativos no começo do ciclo mais os 
+que entraram em operação comercial. Inclui contratos de transmissão das empresas Eletrobras Holding, Chesf, CGT Eletrosul, Eletronorte, TMT e VSB.
+Tabela 3 - Destaques Financeiros
+2T25 2T24 % 1T25 %
+Indicadores Financeiros
+Receita Bruta 12.082 10.280 17,5 12.222 -1,1
+Receita Bruta Ajustado 12.191 10.280 18,6 12.222 -0,3
+Receita Operacional Líquida 10.199 8.395 21,5 10.414 -2,1
+Receita Oper. Líquida Ajustado 10.308 8.395 22,8 10.414 -1,0
+Receita Oper. Líquida Regulatória 9.593 9.620 -0,3 9.708 -1,2
+EBITDA 1.259 4.430 -71,6 4.318 -70,8
+EBITDA Ajustado 5.151 4.322 19,2 4.416 16,6
+EBITDA Regulatório 5.820 6.125 -5,0 5.485 6,1
+EBITDA Regulatório Ajustado 5.501 6.017 -8,6 5.377 2,3
+Margem EBITDA (%) 12,3 52,8 -40,4pp 41,5 -29,1pp
+Margem EBITDA Ajustado (%) 50,0 51,5 -1,5pp 42,4 7,6pp
+Retorno sobre o Patrimônio (ROE %) 5,6 3,9 1,7pp 8,0 -2,4pp
+Dívida Bruta Ajustada 71.042 70.375 0,9 71.192 -0,2
+Dívida Líquida Ajustado 40.125 42.961 -6,6 39.272 2,2
+Dív. Líq Aj./ EBITDA LTM Ajustado 1,5 2,5 -38,7 1,5 -1,1
+Lucro Líquido -1.325 1.743 -176,0 -354 274,7
+Lucro Líquido Ajustado 1.469 1.025 43,3 -80 n.m.
+Investimentos 1.966 2.000 -1,7 912 115,5
+ 
+Relatório de Resultados 2T25 7
+
+[p. 8]
+DESTAQUES DOS RESULTADOS CONSOLIDADOS
+1. RESULTADO CONSOLIDADO | IFRS E REGULATÓRIO
+Tabela 4 - DRE IFRS (R$ mm)
+2T25 2T24 1T25 6M25 6M24
+IFRS Ajuste Ajustado Ajustado % A/A Ajustado % T/T Ajustado Ajustado % A/A
+Geração 6.851 109 6.960 5.828 19,4 6.967 -0,1 13.928 11.761 18,4
+Transmissão 5.079 0 5.079 4.395 15,6 5.186 -2,1 10.264 8.954 14,6
+Outros 152 0 152 57 168,5 69 121,1 221 136 62,3
+Receita Bruta 12.082 109 12.191 10.280 18,6 12.222 -0,3 24.413 20.851 17,1
+(-) Deduções da Receita -1.883 0 -1.883 -1.884 -0,1 -1.807 4,2 -3.691 -3.737 -1,3
+Receita Líquida 10.199 109 10.308 8.395 22,8 10.414 -1,0 20.722 17.114 21,1
+Energia revenda, rede, 
+combustível e construção -3.568 0 -3.568 -3.046 17,1 -3.862 -7,6 -7.430 -5.903 25,9
+Pessoal, Material, Serviços e 
+Outros -1.631 228 -1.403 -1.458 -3,8 -1.467 -4,3 -2.870 -3.052 -6,0
+Provisões Operacionais -133 -43 -177 -269 -34,3 -86 106,3 -262 -583 -55,0
+Resultado da alienação de ativos -105 105 0 0 0,0 0 0,0 0 0 0
+Remensurações regulatórias - 
+Contratos de Transmissão -3.433 3.433 0 0 0,0 -952 n.m. -952 0 0
+Outras receitas e despesas 57 -57 0 0 0,0 0 0,0 0 0 0,0
+EBITDA, antes de Part. 
+Societárias 1.385 3.775 5.160 3.622 42,5 4.049 27,5 9.209 7.575 21,6
+Participações Societárias -126 116 -10 700 -101,4 368 -102,7 358 1.276 -71,9
+EBITDA 1.259 3.892 5.151 4.322 19,2 4.416 16,6 9.567 8.852 8,1
+D&A -1.131 0 -1.131 -968 16,9 -1.112 1,7 -2.244 -1.965 14,2
+EBIT 127 3.892 4.019 3.354 19,8 3.304 21,6 7.323 6.887 6,3
+Resultado Financeiro -2.555 178 -2.377 -2.750 -13,6 -3.319 -28,4 -5.696 -5.531 3,0
+EBT -2.427 4.069 1.642 604 171,9 -15 n.m. 1.627 1.356 20,0
+Imposto de Renda e Contribuição 
+Social 1.102 -1.275 -173 421 -141,1 -65 166,5 -238 116 -304,9
+Lucro Líquido -1.325 2.794 1.469 1.025 43,3 -80 n.m. 1.389 1.472 -5,6
+ 
+Relatório de Resultados 2T25 8
+
+[p. 9]
+Tabela 5 - DRE Regulatória (R$ mm)
+ 2T25 2T24 1T25 6M25 6M24
+ Regulatória Ajuste Ajustado Ajustado % A/A Ajustado % T/T Ajustado Ajustado % A/A
+Geração 6.836 109 6.945 6.310 10,1 7.023 -1,1 13.968 12.675 10,2
+Transmissão 4.488 0 4.488 5.138 -12,7 4.423 1,5 8.911 10.129 -12,0
+Outros 152 0 152 56 172,8 69 121,1 221 134 64,5
+Receita Bruta 11.476 109 11.585 11.504 0,7 11.515 0,6 23.100 22.939 0,7
+(-) Deduções da Receita -1.883 0 -1.883 -1.884 -0,1 -1.807 4,2 -3.691 -3.737 -1,3
+Receita Líquida 9.593 109 9.701 9.620 0,8 9.708 -0,1 19.409 19.201 1,1
+Energia revenda, rede, 
+combustível e construção -2.478 0 -2.478 -2.320 6,8 -3.152 -21,4 -5.630 -4.591 22,6
+Pessoal, Material, Serviços e 
+Outros -1.647 228 -1.419 -1.476 -3,8 -1.473 -3,6 -2.892 -3.082 -6,2
+Provisões Operacionais -3 -95 -98 -437 -77,5 -77 27,1 -175 -981 -82,1
+Resultado da alienação de 
+ativos 504 -504 0 0 0,0 0 0,0 0 0 0
+Remensurações regulatórias - 
+Contratos de Transmissão 0 0 0 0 0,0 0 0,0 0 0 0
+Outras receitas e despesas 57 -57 0 0 0,0 0 0,0 0 0 0,0
+EBITDA, antes de Part. 
+Societárias 6.025 -319 5.706 5.388 5,9 5.006 14,0 10.711 10.547 1,6
+Participações Societárias -205 0 -205 629 -132,5 371 -155,1 166 1.076 -84,5
+EBITDA 5.820 -319 5.501 6.017 -8,6 5.377 2,3 10.878 11.623 -6,4
+D&A -1.615 0 -1.615 -1.450 11,3 -1.592 1,4 -3.206 -2.929 9,5
+EBIT 4.206 -319 3.886 4.567 -14,9 3.785 2,7 7.672 8.694 -11,8
+Resultado Financeiro -2.627 229 -2.398 -2.945 -18,6 -3.275 -26,8 -5.673 -5.815 -2,4
+EBT 1.578 -90 1.488 1.622 -8,2 511 191,5 1.999 2.879 -30,6
+Imposto de Renda e 
+Contribuição Social -330 86 -244 84 -389,2 -101 140,6 -345 -286 20,7
+Lucro Líquido 1.248 -4 1.244 1.706 -27,0 409 204,1 1.654 2.593 -36,2
+ 
+Relatório de Resultados 2T25 9
+
+[p. 10]
+Resultado do 2T24: reclassificações
+Vale destacar que o resultado apresentado neste relatório, referente ao 2T24, apresenta diferenças em 
+relação ao apresentado na ocasião da sua divulgação em 07 de agosto de 2024.
+Tanto no resultado societário quanto no regulatório há a reclassificação de duas despesas como 
+recorrentes, em outros do PMSO e em imposto diferido, o que já havia sido feito de forma retroativa na 
+divulgação do resultado do 4T24.
+No resultado regulatório, há diferenças fruto de reclassificação entre linhas da DRE: 
+(a) receita de transmissão e encargos sobre o uso de rede elétrica; e 
+(b) outras despesas operacionais (PMSO), provisões operacionais e resultado financeiro.
+A tabela abaixo apresenta os valores originalmente divulgados, os reclassificados e a diferença, para o 
+resultado societário (IFRS) e o regulatório.
+Tabela 6 - Reclassificações da DRE Ajustada do 2T24 (R$ mm)
+IFRS Ajustado Regulatório Ajustado
+Divulgado
+no 2T24 Reclassificado Diferença Divulgado no 2T24 Reclassificado Diferença
+Geração 5.828 5.828 0 6.310 6.310 0
+Transmissão 4.395 4.395 0 5.254 5.138 -115
+Outros 57 57 0 56 56 0
+Receita Bruta 10.280 10.280 0 11.620 11.504 -115
+(-) Deduções da Receita -1.884 -1.884 0 -1.884 -1.884 0
+Receita Líquida 8.395 8.395 0 9.735 9.620 -115
+Energia revenda, rede, 
+combustível e construção -3.046 -3.046 0 -2.435 -2.320 115
+Pessoal, Material, Serviços e 
+Outros -1.576 -1.458 118 -1.500 -1.476 25
+Provisões Operacionais -269 -269 0 -419 -437 -17
+Resultado da alienação de ativos 0 0 0 0 0 0
+Remensurações regulatórias - 
+Contratos de Transmissão 0 0 0 0 0 0
+Outras receitas e despesas 0 0 0 0 0 0
+EBITDA, antes de Part. Societárias 3.504 3.622 118 5.380 5.388 7
+Participações Societárias 700 700 0 629 629 0
+EBITDA 4.204 4.322 118 6.010 6.017 7
+D&A -968 -968 0 -1.450 -1.450 0
+EBIT 3.236 3.354 118 4.559 4.567 7
+Resultado Financeiro -2.750 -2.750 0 -3.055 -2.945 110
+EBT 487 604 117 1.504 1.622 117
+Imposto de Renda e Contribuição 
+Social 129 421 292 -208 84 292
+Lucro Líquido 615 1.025 410 1.296 1.706 410
+ 
+Relatório de Resultados 2T25 10
+
+[p. 11]
+2. DRE REGULATÓRIA AJUSTADA
+Esta seção apresenta a reconciliação entre a DRE Regulatória e a Societária, bem como os ajustes de 
+eventos não recorrentes na DRE Regulatória.
+O Anexo 4 deste relatório traz explicações complementares que podem contribuir para uma melhor 
+compreensão dos temas.
+Já a reconciliação detalhada entre as Demonstrações de Resultado regulatória e societária está disponível 
+na planilha "Reconciliação da DRE Regulatória e Societária", localizada em Informações Financeiras 
+Históricas no site de RI da Companhia.
+Tabela 7 - DRE Regulatória x DRE IFRS (R$ mm)
+2T25 
+IFRS Diferença 2T25 Regulatório Ajuste de não recorrentes 2T25 Regulatório Ajustado
+Geração 6.851 -15 6.836 109 6.945
+Transmissão 5.079 -591 4.488 0 4.488
+Outros 152 0 152 0 152
+Receita Bruta 12.082 -606 11.476 109 11.585
+(-) Deduções da Receita -1.883 0 -1.883 0 -1.883
+Receita Líquida 10.199 -606 9.593 109 9.701
+Construção -1.036 1.036 0 0 0
+Energia comprada pra revenda -1.356 -92 -1.447 0 -1.447
+Encargos sobre uso da rede -955 146 -809 0 -809
+Combustível para produção de energia elétrica -222 0 -222 0 -222
+Energia revenda, rede, combustível e construção -3.568 1.090 -2.478 0 -2.478
+Pessoal -997 -3 -1.000 213 -787
+Material -42 0 -42 0 -42
+Serviços -456 0 -456 15 -441
+Outros -136 -13 -149 0 -149
+Pessoal, Material, Serviços e Outros -1.631 -16 -1.647 228 -1.419
+Provisões Operacionais -133 130 -3 -95 -98
+Resultado da alienação de ativos -105 610 504 -504 0
+Remensurações regulatórias - Contratos de 
+Transmissão -3.433 3.433 0 0 0
+Outras receitas e despesas 57 0 57 -57 0
+EBITDA, antes de Part. Societárias 1.385 4.640 6.025 -319 5.706
+Participações Societárias -126 -78 -205 0 -205
+EBITDA 1.259 4.561 5.820 -319 5.501
+D&A -1.131 -483 -1.615 0 -1.615
+EBIT 127 4.078 4.206 -319 3.886
+Resultado Financeiro -2.555 -73 -2.627 229 -2.398
+EBT -2.427 4.006 1.578 -90 1.488
+Imposto de Renda e Contribuição Social 1.102 -1.432 -330 86 -244
+Lucro Líquido, continuadas -1.325 2.573 1.248 -4 1.244
+ 
+Relatório de Resultados 2T25 11
+
+[p. 12]
+Ajustes de eventos não recorrentes
+Os valores a seguir referem-se a efeitos classificados como não recorrentes:
+▪ Receita de Geração: R$ 109 milhões, referente a ajustes no valor das transações de venda das térmicas 
+do Amazonas na Eletronorte e descruzamento de ativo com a Copel na CGT Eletrosul.
+▪ PMSO (Pessoal): R$ 213 milhões, dos quais R$ 98 milhões são relacionados aos PDVs e R$ 115 milhões 
+à rescisões contratuais.
+▪ PMSO (Serviços): R$ 15 milhões, referentes a consultorias jurídicas ligadas à redução de contingências.
+▪ Provisão Operacional: -R$ 95 milhões, englobando provisões para litígios, ajustes para implantação de 
+ações ligadas ao empréstimo compulsório, perdas estimadas em investimentos e por irrecuperabilidade 
+de ativos, correção de contratos onerosos, e provisão para refletir possível perda estimada em 
+financiamentos e empréstimos.
+▪ Alienação de Ativos: -R$ 504 milhões, referente aos impactos, sem efeito caixa mas reconhecidos no 
+resultado, em função da conclusão de transações de compra e venda de ativos no trimestre, incluindo a 
+venda das térmicas do Amazonas, descruzamento de ativos com a Copel e aquisição do controle da 
+Eletronet.
+▪ Outras Despesas e Receitas: -R$ 57 milhões , ajustado integralmente como não recorrente, dada a 
+natureza atípica dos itens que compõem esse item.
+▪ Resultado Financeiro: R$ 229 milhões, relacionados à atualização monetária de empréstimo 
+compulsório e de litígios.
+▪ Imposto de Renda e Contribuição Social: R$ 86 milhões, relacionado à mudança da alíquota efetiva da 
+Eletronorte.
+ 
+Relatório de Resultados 2T25 12
+
+[p. 13]
+3. EBITDA AJUSTADO
+EBITDA Regulatório Ajustado
+No 2T25, o EBITDA regulatório ajustado totalizou R$ 5.501 milhões, uma redução de R$ 516 milhões em 
+comparação ao 2T24, refletindo a menor receita de transmissão e a contribuição negativa dos resultados 
+das participações societárias, que foram parcialmente compensadas pelo aumento da receita de geração, 
+redução dos custos e despesas PMSO, e menor volume de provisões reconhecidas no trimestre. Esses 
+eventos positivos também foram observados no 1T25.
+Excluindo o resultado das participações societárias, o EBITDA alcançou R$ 5.706 milhões no 2T25, um 
+aumento de R$318 milhões em relação ao 2T24. Os destaques no resultado das participações societárias 
+foram: 
+(a) parada para manutenção na Usina Angra 1 na Eletronuclear, incluindo modernização de 
+equipamentos para extensão de vida útil e 
+(b) efeito negativo no lucro líquido da ISA Energia proveniente da redução do fluxo de recebimentos 
+relacionados ao componente financeiro da RBSE.
+ Tabela 8 - EBITDA Regulatório Ajustado (R$ mm)
+2T25 2T24 % 1T25 % 6M25 6M24 %
+Receita Líquida (1) 9.701 9.620 0,8 9.708 -0,1 19.409 19.201 1,1
+- Energia revenda, encargos de rede, combustível -2.478 -2.320 6,8 -3.152 -21,4 -5.630 -4.591 22,6
+- Pessoal, Material, Serviços e Outros -1.419 -1.476 -3,8 -1.473 -3,6 -2.892 -3.082 -6,2
+- Provisões Operacionais (1) -98 -437 -77,5 -77 27,1 -175 -981 -82,1
+- Resultado de alienação de ativos 0 0 0,0 0 0,0 0 0 0,0
+- Outras receitas e despesas 0 0 0,0 0 0,0 0 0 0,0
++ Participações Societárias -205 629 -132,5 371 -155,1 166 1.076 -84,5
+EBITDA Regulatório Ajustado 5.501 6.017 -8,6 5.377 2,3 10.878 11.623 -6,4
+(1) Reconhece o valor de R$ 432 milhões no 1T24 referente à receita proveniente da Amazonas Energia. Em função da inadimplência, esses saldos são inteiramente 
+reconhecidos, também, nas provisões operacionais. No 4T24 e no 1T25, o faturamento das térmicas foi reconhecido, sem nenhum provisionamento correspondente. 
+Como parte do faturamento de Balbina continuou e continua inadimplente, foi provisionado o valor de R$ 32 milhões no 4T24 e R$ 56 milhões no 1T25.
+A receita de geração foi de R$ 6.836 milhões no 2T25, com aumento de R$ 526 milhões em relação ao 
+2T24. O destaque foi o crescimento de R$ 1.000 milhões da receita com energia liquidada no Mercado de 
+Curto Prazo (MCP), refletindo maiores volumes e preços, sendo parcialmente compensados pela queda de 
+R$ 486 milhões na receita, em função da venda das térmicas do Amazonas à Âmbar, em maio de 2025.
+O aumento de receita foi acompanhado por um avanço moderado dos custos associados à geração, de R$ 
+159 milhões, atingindo R$ 2.478 milhões no 2T25. Destacam-se os gastos com energia comprada para 
+revenda, com acréscimo de R$ 475 milhões, parcialmente compensados: 
+(a) pelos menores gastos com combustível para produção de energia elétrica de R$ 242 milhões, refletindo 
+a venda das térmicas do Amazonas; 
+(b) pela redução de R$ 74 milhões dos gastos com encargos de uso de rede. 
+Ainda no segmento de geração, destac a-se a evolução dos recebimentos ligados à energia vendida pelas 
+térmicas da Eletrobras e pela UHE Balbina à Amazonas Energia (AmE), após a retomada de seu 
+reconhecimento no 3T24. No 2T25, a receita bruta regulatória com a energia vendida pelas térmicas e 
+Balbina foi de R$ 769 milhões, valor inferior aos trimestres anteriores em função da conclusão da vendas 
+das térmicas do Amazonas. Cerca de 52% dessa receita foi faturada como Contrato de Energia de Reserva 
+(CER) e recebida por meio de Encargo de Energia de Reserva, 27% como Contrato de Disponibilidade e 21% 
+faturados contra a AmE, estando este último valor distribuído em 2 categorias:
+(a) contratos de venda de térmicas classificadas como produtores independentes (PIEs) e que 
+foram pagos pela AmE (5% do total);
+ 
+Relatório de Resultados 2T25 13
+
+[p. 14]
+(b) energia vendida pela UHE Balbina (16% do total).
+A diferença entre as receitas dos ambientes regulatório e societário está relacionada à energia vendida, 
+porém inadimplida, pela Amazonas Energia, não sendo reconhecida como faturamento no resultado 
+societário, mas sim no regulatório, onde é integralmente provisionada.
+Tabela 9 - Amazonas Energia (R$ mm)
+Regulatório Societário
+Receita Bruta 119 134
+Adimplido 134 134
+Inadimplido -15 0
+Reversão/Provisão 15 0
+A receita de transmissão foi de R$ 4.488 milhões no 2T25, redução de R$ 651 milhões frente ao 2T24. A 
+queda foi explicada principalmente pelas reduções da Receita Anual Permitida (RAP) e da Parcela de Ajuste 
+(PA), reposicionadas após os processos de Reajuste Tarifário Periódico (RTP) e Reajuste Anual (RA) para o 
+ciclo regulatório de 2024-2025, iniciado em julho de 2024.
+Os gastos com Pessoal, Material, Serviços e Outros (PMSO) caíram R$ 56 milhões, totalizando R$ 1.419 
+milhões no 2T25. Assim como no trimestre anterior, a queda refletiu os ganhos obtidos com diversas 
+iniciativas adotadas pela Companhia visando ganho de eficiência no quadro de pessoal, além de ajustes em 
+processos e na estrutura organizacional.
+As provisões na visão regulatória, por sua vez, caíram de R$ 437 milhões no 2T24 para R$ 98 milhões no 
+2T25. A redução de R$ 338 milhões refletiu, essencialmente, a forte queda da inadimplência sobre a venda 
+de energia para Amazonas Energia de R$ 482 milhões no 2T24 para uma reversão de R$ 15 milhões no 
+2T25.
+O 2T25 foi marcado pelos efeitos positivos com venda de energia, menores despesas de PMSO e redução 
+nas provisões refletindo a estratégia de otimização da comercialização de energia, busca contínua pela 
+eficiência operacional e mitigação de contingências.
+ 
+Relatório de Resultados 2T25 14
+
+[p. 15]
+EBITDA IFRS Ajustado
+O EBITDA IFRS Ajustado atingiu R$ 5.151 milhões no 2T25, aumento de 19,2% em relação ao 2T24.
+O incremento da s receitas de transmissão e geração e a redução das despesas de PMSO mais do que 
+compensaram o aumento com os gastos de energia comprada para revenda e com provisões e a menor 
+contribuição do resultado das participações societárias.
+Tabela 10 - EBITDA IFRS Ajustado (R$ mm)
+2T25 2T24 % 1T25 % 6M25 6M24 %
+Receita Líquida 10.308 8.395 22,8 10.414 -1,0 20.722 17.114 21,1
+- Energia revenda, encargos de rede, 
+combustível -3.568 -3.046 17,1 -3.862 -7,6 -7.430 -5.903 25,9
+- Remensuração Regulatória - Contratos de 
+Transmissão 0 0 0,0 -952 n.m. -952 0 0
+- Pessoal, Material, Serviços e Outros -1.403 -1.458 -3,8 -1.467 -4,3 -2.870 -3.052 -6,0
+- Provisões Operacionais -177 -269 -34,3 -86 106,3 -262 -583 -55,0
+- Resultado de alienação de ativos 0 0 0,0 0 0,0 0 0 0,0
+- Outras receitas e despesas 0 0 0,0 0 0,0 0 0 0,0
++ Participações Societárias -10 700 -101,4 368 -102,7 358 1.276 -71,9
+EBITDA IFRS Ajustado 5.151 4.322 19,2 4.416 16,6 9.567 8.852 8,1
+A tabela com a construção do EBITDA de acordo com a Resolução CVM 156 de 2022 encontra-se no Anexo 5 deste documento. 
+ 
+Relatório de Resultados 2T25 15
+
+[p. 16]
+4. COMERCIALIZAÇÃO DE ENERGIA
+As empresas Eletrobras venderam 31,5 TWh de energia no 2T25, redução de 5,0% em relação aos 33,2 TWh 
+negociados no 2T24. 
+Os volumes vendidos incluem a energia das usinas sob o regime de cotas, renovadas pela Lei 12.783/2013, 
+bem como das usinas sob regime de exploração ACL e ACR, e de Sociedades de Propósito Específico - SPEs, 
+consolidadas (UHEs Teles Pires, a partir de out/23; Baguari, a partir de out/23; Retiro Baixo, a partir de 
+nov/23; e Santo Antônio a partir de nov/23). 
+Tabela 11 - Balanço Energético 2T25 (MWmed)
+2025 2026 2027
+Recursos (A) 16.635 17.017 17.872
+Recursos Próprios (1) (2) (3) (4) (5) 14.247 15.600 16.759
+ Hidráulico 13.949 15.280 16.439
+ Eólico 298 320 320
+Compra de Energia(6) 2.388 1.417 1.113
+Limite => Inferior Superior Inferior Superior Inferior Superior
+Vendas (B) 11.998 14.096 9.347 11.847 7.148 9.148
+ACR – Exceto cotas 3.498 3.597 3.148
+ACL – Contratos Bilaterais + Mercado de Curto 
+Prazo realizado (range)(6) 8.500 10.598 5.750 8.250 4.000 6.000
+Preços Médios Contratos realizados
+Limite => Inferior Superior Inferior Superior Inferior Superior
+Preço Médio de Contratos de Venda (ACR e ACL 
+- R$/MWh) 170 180 185 205 195 225
+ Saldo (A - B) 4.637 2.539 7.670 5.170 10.724 8.724
+ Saldo considerando estimativa de hedge (9) 2.098 0 4.889 2.389 7.732 5.732
+Energia Descontratada considerando estimativa 
+de hedge (9) 13% 0% 29% 14% 43% 32%
+Contratos celebrados até 30/06/2025. 
+Cabe ressaltar que no balanço estão sendo consideradas as SPEs consolidadas pela Eletrobras: UHE Santo Antônio (a partir do 3T22), UHEs Baguari e Retiro Baixo (a partir 
+do 4T23), seja nos recursos, nas vendas ou nos preços médios. Da mesma forma está sendo considerada a SPE consolidada pela Eletronorte: UHE Teles Pires (a partir do 
+4T23).
+1. Não estão incluídos no balanço, seja nos recursos, requisitos (vendas) ou preços médios, os contratos dos Produtores Independentes de Energia (PIEs) advindos do 
+processo de desverticalização da Amazonas Distribuidora, os contratos das usinas térmicas por disponibilidade e as Cotas de Garantia Física.
+2. Nos Recursos Próprios estão incluídas as usinas da descotização (novos PIEs) e as Novas Outorgas (Sobradinho, Itumbiara, Tucuruí, Curuá-Una e Mascarenhas de 
+Moraes). Para os empreendimentos hidrelétricos, foi considerada uma estimativa de GFIS2, ou seja, a Garantia Física considerando os Fatores de Ajustes em função das 
+Perdas Internas, Perdas na Rede Básica e Disponibilidade e ajustes devido às particularidades do portfólio. 
+3. Estão considerados os valores revistos de Garantia Física conforme definido na Portaria Nº 709/GM/MME, de 30 de novembro de 2022 
+4. Com a descotização, as usinas atualmente em regime de cotas passam a ter uma nova concessão sob o regime de Produtor Independente de Energia (PIE), ocorrendo 
+de forma gradual em um período de 5 anos a partir de 2023. Os valores de Garantia Física foram definidos na Portaria GM/MME Nº 544/21. 
+5. Consideradas as novas outorgas de concessão a partir de 2023 para as usinas de Sobradinho, Itumbiara, Tucuruí, Curuá-Una e Mascarenhas de Moraes, cujos valores 
+de Garantia Física foram definidos na Portaria GM/MME Nº 544/21.
+6. Os saldos incluem transações intercompany, com efeitos nas linhas de compra de energia e vendas no ACL, nas seguintes quantidades: aproximadamente 800 MWmed 
+em 2025 e 200 MWmed em 2026 e 2027.
+Tabela 12 - Cotas de Garantia Física de Usinas Hidrelétricas (MWmed)
+2025 2026 2027
+Cotas de Garantia Física 2.626 1.313 0
+7. Não está incluída aqui a Garantia Física da UHE Jaguari, de 12,7 MWmed, cuja concessão está sob administração provisória da Eletrobras. 
+8. A descotização ocorre de forma gradual em um período de 5 anos a partir de 2023. Os valores de Garantia Física considerados a partir de 2023 foram os definidos na 
+Portaria GM/MME Nº 544/21.
+9. Os valores apresentam uma estimativa da energia descontratada. Para o s anos de 2025, 2026 e 2027 considerou-se o valor estimado, de 81,8%. Cabe ressaltar que o 
+valor médio histórico do GSF, de 2019 a 2024, é de 82,7%. Fonte: CCEE, obtido no site da CCEE, no seguinte link: https://www.ccee.org.br/dados-e-analises/dados-
+geracao, na opção MRE no painel. Cabe ressaltar que trata-se apenas de uma estimativa, baseada em fatos ocorridos no passado.
+ 
+Relatório de Resultados 2T25 16
+
+[p. 17]
+5. INVESTIMENTOS E PROJETOS DE EXPANSÃO
+Os investimentos totalizaram R$ 1.966 milhões no 2T25, sendo R$ 1.199 milhões em transmissão, R$ 357 
+milhões em geração, R$ 117 milhões em infraestrutura, R$ 68 milhões na área ambiental e R$ 225 milhões 
+em participações.
+Na área de infraestrutura, os investimentos foram distribuídos da seguinte forma: 37% para iniciativas 
+socioambientais, 28% para tecnologia da informação, 25% para bens imóveis e 10% para bens móveis. 
+Na área socioambiental destaca-se os investimentos relativos à manutenção de licenças de operação de 
+usinas e subestações, além de indenizações fundiárias.
+No 2T25, a Eletrobras realizou aporte de R$ 225 milhões na Transnorte Energia S.A. (TNE), elevando sua 
+participação no empreendimento para 59,11%. Com o aporte adicional realizado em julho de 2025, a 
+participação no capital social passou para 64,61%. 
+Tabela 13 - Investimentos Realizados (R$ mm)
+2T25 2T24 % 1T25 % 6M25 6M24 %
+Geração Corporativo 357 732 -51,2 167 114,7 524 1.234 -57,5
+Implantação /Ampliação 45 412 -89,0 37 23,7 82 710 -88,4
+Manutenção 312 320 -2,4 130 140,4 442 524 -15,6
+Transmissão Corporativo 1.199 673 78,3 655 82,9 1.854 1.299 42,7
+Ampliação 85 22 288,2 54 57,4 139 25 446,2
+Reforços e Melhorias 1.108 610 81,8 596 85,9 1.705 1.208 41,1
+Manutenção 5 41 -87,0 5 3,8 10 65 -84,0
+Infraestrutura 117 49 136,7 43 169,9 160,5 68,5 134,2
+Ambiental 68 64 5,4 47 44,1 114,5 132,7 -13,7
+SPEs 225 481 -53,2 0 0,0 225,1 486,4 -53,7
+Geração - Aportes 0 478 n.m. 0 0,0 0 478 n.m.
+Geração - Aquisição 0 0 0,0 0 0,0 0 0 0,0
+Transmissão - Aportes 225 3 n.m. 0 0,0 225 8 n.m.
+Transmissão - Aquisição 0 0 0,0 0 0,0 0 0 0,0
+Total 1.966 2.000 -1,7 912 115,5 2.879 3.221 -10,6
+ 
+Relatório de Resultados 2T25 17
+
+[p. 18]
+Geração
+No 2T25, os investimentos em geração alcançaram R$ 357 milhões, comparados a R$ 732 milhões no 2T24.
+A redução observada deveu-se principalmente aos menores gastos com ampliação da CGT Eletrosul, reflexo 
+da implantação do Parque Eólico de Coxilha Negra, que teve a operação comercial iniciada de forma 
+escalonada.
+No 2T25, os gastos foram distribuídos da seguinte forma:
+ Tabela 14 - Investimentos em Geração 1
+Geração (R$ mm) 2T25 2T24 %
+Manutenção 312 320 -2,4
+Eletrobras Holding 63 77 -18,5
+Eletronorte 45 80 -43,5
+Chesf 199 160 24,4
+CGT Eletrosul 5 3 63,5
+Ampliação 45 412 -89,0
+Eletrobras Holding 2 5 -54,0
+Eletronorte 1 0 886,9
+Chesf 1 4 -65,5
+CGT Eletrosul 40 403 -90,0
+Total 357 732 -51,2
+▪ Manutenção: 
+▪ R$ 199 milhões pela Chesf na substituição 
+de equipamentos nas usinas Paulo Afonso 
+IV, Sobradinho e Luiz Gonzaga; 
+▪ R$ 45 milhões pela Eletronorte, com 
+destaque para as UHEs Tucuruí, Curuá-Una 
+e Samuel;
+▪ R$ 63 milhões pela Eletrobras, destacando-
+se as UHEs Porto Colômbia, Simplício, 
+Marimbondo, Corumbá, Manso, 
+Mascarenhas de Moraes e Itumbiara.
+▪ Ampliação: 
+▪ R$ 40 milhões pela CGT Eletrosul na 
+ampliação do Parque Eólico de Coxilha 
+Negra, com início da operação comercial 
+dos aerogeradores no 3T24;
+▪ R$ 1 milhão pela Chesf para a usina eólica 
+de Casa Nova B.
+ 
+Relatório de Resultados 2T25 18
+1 Para mais informações sobre a composição de Eletrobras Holding, consulte o Anexo 3
+
+[p. 19]
+Transmissão
+No 2T25, os investimentos em transmissão totalizaram R$ 1.199 milhões, sendo sua maior parte, R$ 1.108 
+milhões, destinados a reforços e melhorias (R&M), representando um aumento de 82% em relação ao 
+2T24.
+Já os investimentos em ampliações atingiram R$ 85 milhões, reflexo do avanço das atividades em linhas de 
+transmissão e subestações vinculadas aos lotes vencidos nos leilões dos últimos anos.
+No 2T25, os desembolsos estão distribuídos da seguinte forma:
+Tabela 15 - Investimentos em Transmissão 1
+Transmissão (R$ mm) 2T25 2T24 %
+Reforços e Melhorias 1.108 610 81,8
+Eletrobras Holding 573 145 295,7
+Eletronorte 145 170 -15,1
+Chesf 283 220 28,8
+CGT Eletrosul 107 74 44,1
+Manutenção 5 41 -87,0
+Eletrobras Holding 0 21 -98,1
+Eletronorte 0 13 -96,4
+Chesf 0 0 0,0
+CGT Eletrosul 4 7 -33,8
+Ampliação 85 22 288,2
+Eletrobras Holding 29 15 97,4
+Eletronorte 56 6 912,5
+Chesf 0 2 -96,8
+CGT Eletrosul 0 0 0,0
+Total 1.199 673 78,3
+▪ Eletrobras Holding: R$ 573 milhões, sendo 
+R$ 422 milhões de grande porte e R$ 1 51 
+milhões de pequeno porte.
+Destaque para as Subestações (SEs) Ivaiporã, 
+Itaberá, Grajaú, Cachoeira Paulista, 
+Campinas, Ibiuna, Brasília, Adrianópolis, 
+Itumbiara e Vitória. 
+▪ Eletronorte: R$ 145 milhões, sendo R$ 87 
+milhões de grande porte e R$ 58 milhões de 
+pequeno porte.
+Destaque para as SEs Imperatriz, Marabá, São 
+Luis, Pres. Dutra, Porto Velho, Colinas, Vila do 
+Conde e Guamá.
+▪ Chesf: R$ 283 milhões, sendo R$ 183 milhões 
+de grande porte e R$ 100 milhões de 
+pequeno porte. 
+Destaque para as SEs Delmiro Gouveia, 
+Messias, Jardim e Teresina, Bongi, Poções e 
+Piauí.
+▪ CGT Eletrosul: R$ 107 milhões , sendo R$ 70 
+milhões de grande porte e R$ 37 milhões de 
+pequeno porte.
+Destaque para as SEs Gravataí, Itajai, Areia, 
+Campos Novos, Blumenau e Curitiba.
+ 
+Relatório de Resultados 2T25 19
+1 Para mais informações sobre a composição de Eletrobras Holding, consulte o Anexo 3
+
+[p. 20]
+Projetos de Expansão - Transmissão
+Empreendimentos de Grande Porte
+▪ Amostragem: 249 projetos1, incluindo o projeto de Revitalização do Sistema HVDC de Itaipu. Ao longo 
+do 2T25, a amostra foi ampliada de 240 para 249 empreendimentos, em função de 9 energizações e da 
+inclusão de 18 novas autorizações emitidas pelo regulador.
+▪ Investimento estimado: R$ 6,95 bilhões (excluindo o projeto de Revitalização do Sistema HVDC de 
+Itaipu, dado que a Eletrobras é responsável apenas por sua execução, não se beneficiando de receita 
+associada e sendo integralmente reembolsada pelo investimento).
+▪ RAP adicional associada: R$ 1,8 bilhão entre 2025-2030.
+▪ Leilões: investimentos de R$ 6,35 bilhões, destacam-se as seguintes SPEs (Sociedades de Propósito 
+Específico): Nova Era Janapu, que já fazia parte da amostra desde o 2T24; Nova Era Catarina, Nova Era 
+Ceará, Nova Era Integração e Nova Era Teresina, incluídas no 3T24 2. Além disso, a amostra também 
+inclui um lote arrematado no leilão 01 de 2022, vencido pela Eletronorte.
+Empreendimentos de Pequeno Porte
+▪ Amostragem: dados do Sistema de Gerenciamento dos Planos de Melhorias e Reforços (SGPMR).
+▪ Empreendimentos: 9.194 eventos de pequeno porte, em implantação ou a serem implantados, sendo 
+8.668 de melhoria e 526 de reforço.
+ 
+Relatório de Resultados 2T25 20
+1 Referentes a reforços, melhorias e empreendimentos de leilão. Considera os projetos cadastrados no Sistema de Gestão da Transmissão (SIGET) da ANEEL. Os projetos 
+são incluídos quando adicionados ao sistema, e excluídos quando são cancelados ou entram em operação comercial. Os 24 9 empreendimentos adicionarão 2.313 km de 
+LT e 13.350 MVA em subestações.
+2 Cada uma das 5 SPEs constituídas detém os contratos assinados nos leilões de transmissão dos últimos anos. A SPE Nova Era Janapu detém o contrato Nº 09/2023-
+ANEEL do 4º lote do leilão 01-2023; a SPE Nova Era Teresina detém o contrato Nº 04/2024-ANEEL do 1º lote do leilão 01-2024; a SPE Nova Era Ceará detém o contrato Nº 
+06/2024-ANEEL do 3º lote do leilão 01-2024; a SPE Nova Era Integração detém o contrato Nº 08/2024-ANEEL do 5º lote do leilão 01-2024; e a SPE Nova Era Catarina 
+detém o contrato Nº 12/2024-ANEEL do 9o lote do leilão 01-2024.
+
+[p. 21]
+Projetos de Expansão - Geração
+Dois projetos estão em fase de implantação e, quando concluídos, adicionarão cerca de 330 MW à 
+capacidade instalada da Eletrobras.
+Parque Eólico Coxilha Negra (302,4 MW de capacidade, localizado no Rio Grande do Sul)
+▪ O complexo conta com um total de 72 aerogeradores, distribuídos em 3 parques eólicos: 
+Coxilha Negra 2, Coxilha Negra 3 e Coxilha Negra 4.
+▪ Investimento: R$ 2,4 bilhões
+▪ Concluída a montagem dos 72 aerogeradores.
+▪ Em 04/04/25, o último aerogerador foi comissionado, iniciando sua operação em teste.
+▪ Em 05/06/25, dos 72 aerogeradores, 64 estavam em operação comercial e 8 com despachos vigentes 
+para operação em teste.
+▪ Comissionamento concluído em abril/2025
+▪ A operação em teste foi iniciada em fevereiro de 2024, seguida pela operação comercial, iniciada de 
+forma escalonada em julho de 2024. Ao final do 2T25, os 72 aerogeradores estavam em operação.
+▪ Atualmente, encontram-se em andamento as etapas finais do projeto, que envolvem a resolução de 
+pendências documentais e operacionais do parque eólico e do sistema de transmissão de uso 
+exclusivo, além da desmobilização do canteiro de obras e da recuperação de áreas degradadas. Tais 
+atividades estão previstas contratualmente e não comprometem a operação do empreendimento.
+Usina Eólica Casa Nova B (27 MW de capacidade, localizado na Bahia)
+▪ Investimento estimado: R$ 151 milhões
+▪ Avanço físico de implantação: 86%
+▪ Considera as duas fases do projeto: Casa Nova A, que representa 60% do projeto, está 100% 
+concluída; Casa Nova B, que representa os outros 40%, encontra-se 66% concluída.
+▪ Obras físicas: O 2T25 foi essencial para buscar uma definição técnica eficiente sobre determinados 
+equipamentos. Optou-se pelo recondicionamento das pás, cujo processo de contratação já está em 
+andamento, sinalizando um passo importante para a continuidade das obras.
+▪ Previsão de início da operação: 3T27, podendo ocorrer antecipadamente caso haja disponibilidade de 
+acesso no sistema de transmissão. Ressalta-se que tal disponibilidade depende exclusivamente de 
+fatores técnicos externos à Companhia por se tratarem de projetos de outros agentes.
+ 
+Relatório de Resultados 2T25 21
+
+[p. 22]
+6. ENDIVIDAMENTO
+A dívida líquida totalizou R$ 40,13 bilhões no 2T25, aumento de R$ 0,85 bilhão em relação ao 1T25 e redução 
+de R$ 2,84 bilhões comparada ao 2T24. 
+A relação Dívida líquida/EBITDA LTM regulatório ajustado dos últimos 12 meses foi de 1,8x no 2T25, 1,7x no 
+1T25 e 1,8x no 2T24.
+Como resultado da gestão de passivos e do aumento de 450 bps da taxa de juros básica (Selic), o prazo médio 
+da dívida consolidada da Companhia foi alongado em 2,6 meses no 2T25, quando comparado ao 2T24. O custo 
+médio total passou de CDI + 0,48% a.a. para CDI + 0,57% a.a. no mesmo período.
+Tabela 16 - Dívida Líquida (R$ mm)
+30/06/2025 31/03/2025 30/06/2024
+(+) Dívida Bruta 70.290 70.890 70.814
+(+) Derivativos (hedge cambial) Líquido 752 302 -439
+(-) (Caixa e Equivalente de caixa + Títulos e Valores Mobiliários Circulante) 29.387 30.281 26.167
+(-) Caixa Restrito para Empréstimos e Financiamentos 899 994 623
+(-) Financiamentos a Receber 632 644 624
+Dívida Líquida 40.125 39.272 42.961
+Gráfico 1 - Empréstimos e Financiamentos a Pagar (R$ bilhões)
+3,8 5,4 5,1 4,4 5,6 6,5
+14,0
+5,8 8,3 7,0 6,0 7,7 7,2
+28,2
+Controladora Consolidado
+2025 2026 2027 2028 2029 2030 Após 2031
+ 
+Relatório de Resultados 2T25 22
+
+[p. 23]
+Tabela 17 - Composição da Dívida Bruta
+Credor Indexador Custo Médio (ao ano) Saldo Total (R$ milhões) Participação sobre Total (%)
+Debêntures e Nota comercial CDI CDI + 0,09% a 2,20% 24.353 34,6
+Debêntures e Nota comercial IPCA IPCA + 3,75% a 7,029% 15.631 22,2
+BNDES
+TJLP,IPCA, 
+Taxa pré-
+fixada
+IPCA + 5,38% a 6,41%; 
+TJLP a TJLP + 3,28% 6.046 8,6
+Banco do Brasil CDI, IPCA, TJLP
+TJLP + 1,89% a 2,13%;
+ CDI + 2% até 2,25%;
+ IPCA + 6,56%
+2.028 2,9
+Caixa Econômica Federal IPCA IPCA + 6,56% 1.514 2,2
+Bradesco IPCA, CDI IPCA + 6,56%; CDI + 2,09% a 2,17% 1.333 1,9
+Banco do Nordeste do Brasil IPCA, TFC IPCA + 2,33% a 6,56%; 2,94% a 9,5% 1.468 2,1
+Itaú IPCA, CDI IPCA + 6,56%; CDI + 0,30% a 2,28% 508 0,7
+Demais credores
+CDI, IPCA, 
+TJLP, Taxa pré-
+fixada
+CDI + 0,19% a 2,20%;
+ IPCA + 6,56%;
+2,94% a 10%;
+ TJLP + 5%
+5.540 7,9
+Moeda Estrangeira - Bônus e 
+demais dívidas USD 1,40% a 4,63% 11.153 15,9
+Moeda Estrangeira - demais 
+dívidas EUR 2,00% a 4,4212% 716 1,0
+TOTAL 70.290 100,0
+*Destaca-se que a Companhia realizou operações de hedge cambial para algumas das dívidas em moeda estrangeira, as quais com suas respectivas taxas equivalentes (pós 
+hedge) atreladas ao CDI encontram-se a seguir:
+Bonds 2025 - 97,41% do CDI; Bonds 2030 - CDI + 1,70% a.a.; Bonds 2035 - 122,59% do CDI; Citibank - CDI + 0,19% a 1,70% a.a.; Itaú - CDI + 0,30% a.a.
+** Exposição ao BNDES considera apenas contratos da linha BNDES direto.
+ 
+Relatório de Resultados 2T25 23
+
+[p. 24]
+7. EMPRÉSTIMO COMPULSÓRIO
+A Eletrobras tem implementado medidas para reduzir os riscos associados aos processos judiciais relacionados 
+ao empréstimo compulsório sobre energia elétrica (ECE), que envolvem a correção monetária de créditos 
+escriturais. Para isso, a Companhia tem fortalecido sua estratégia de defesa judicial e buscado acordos com 
+deságios e quitação plena das ações.
+Como resultado das negociações:
+▪ O estoque de provisões foi reduzido em R$ 1,2 bilhão na comparação com o 1T25 e em R$ 3,3 bilhões 
+quando comparado com o 2T24, totalizando R$ 11,97 bilhões no 2T25, devido principalmente aos acordos 
+firmados;
+▪ Reversão líquida de R$ 279 milhões1 devido aos acordos celebrados e às decisões favoráveis no 2T25;
+▪ O valor registrado no 2T25 relativo à despesa financeira com atualização monetária foi de R$ 176 milhões;
+▪ No 2T25, com os acordos assinados, foram liberados R$ 116 milhões em garantias depositadas 
+judicialmente, que ingressarão na Companhia após as respectivas homologações judiciais, totalizando, 
+desde o 3T22, R$ 2,4 bilhões de garantias liberadas em favor da Eletrobras. 
+Desta forma, desde o 3T22, quando as negociações foram iniciadas, o estoque de provisões relacionadas a 
+esse conjunto de ações caiu de R$ 25,8 bilhões para os atuais R$ 12 bilhões, uma queda de R$ 13,8 bilhões, 
+mesmo considerando a atualização monetária acumulada de R$ 2,7 bilhões no período. Vale destacar que essa 
+queda incluiu R$ 4 bilhões que impactaram diretamente o resultado, ao serem contabilizados como reversão 
+de provisão, devido a deságio obtidos em acordos celebrados e às decisões favoráveis.
+Além disso, os acordos celebrados também permitiram a eliminação de R$ 9,6 bilhões em riscos judiciais 
+considerados "off balance", sendo R$ 913 milhões classificados como possíveis e R$ 8,7 bilhões como remoto. 
+Essas reduções estão alinhadas à estratégia da Companhia de reduzir seus passivos judiciais legados.
+Gráfico 2 - Estoque total provisão de empréstimo compulsório (R$ bilhões)
+15,30
+-1,21
+-0,70
+-2,16
+0,74
+11,97
+Estoque 2T24
+Iniciativas p/redução do risco
+(ex. deságios acordos) 
+Pagamentos em Condenações
+Reclassificação de Acordos p/ passivo
+ (aguardando homologação)
+Atualização monetária (Selic)
+Estoque 2T25
+ 
+Relatório de Resultados 2T25 24
+1 O valor apresentado considera apenas os créditos escriturais. O resultado total, que abrange outros processos relacionados ao empréstimo compulsório, apresentou uma 
+reversão líquida de R$ 246 milhões, detalhado na seção de provisão para litígios
+
+[p. 25]
+8. FLUXO DE CAIXA
+No 2T25, merece destaque o recebimento líquido de R$ 2,0 bilhões referente a conclusão de compras e 
+vendas de ativos, bem como de aportes, incluindo a venda das térmicas no Amazonas, a aquisição do controle 
+da Eletronet e o aporte na TNE.
+Tabela 18 - Fluxo de Caixa (R$ bilhões) 
+2T25 2T24 ∆%
+EBITDA Regulatório Ajustado, antes de Part. Societária 5,71 5,39 5,9
+Ajuste do EBITDA 0,32 0,11 196,3
+Imposto de Renda e Contribuição Social -0,04 -0,59 -93,5
+Capital de Giro -0,31 -0,71 -56,2
+Encargos da Privatização -1,80 -1,13 59,9
+Dividendos Recebidos 0,25 0,80 -68,8
+Fluxo de Caixa Operacional 4,12 3,87 6,6
+Investimentos * -1,57 -1,65 -4,9
+Fluxo de Caixa Livre 2,55 2,21 15,2
+Serviço da Dívida -1,22 -2,16 -43,2
+Litígios -1,35 -1,16 15,9
+Cauções, Depósitos Vinculados e Outros 0,55 -0,20 -374,3
+Pagamento de Previdência Complementar -0,15 -0,10 44,9
+Captação líquida de recursos ** -1,38 10,81 -112,7
+Recebimento de empréstimos e encargos financeiros 0,00 0,03 -96,2
+Alienação de Investimento em Participações Societárias 2,02 -0,01 n.m.
+Dividendos e Recompra de Ações -1,80 -1,29 39,8
+Caixa Líquido Livre -0,78 8,13 -109,6
+Variação de Caixa Restrito (curto e longo prazo) 0,36 0,42 -14,1
+Variação de Aplicações Financeiras (longo prazo) 0,00 0,02 -102,3
+Caixa Líquido -0,42 8,57 -104,9
+*Exclui aportes de geração.
+**Captação líquida de recursos: captação de dívida, líquida de despesas com emissão.
+ 
+Relatório de Resultados 2T25 25
+
+[p. 26]
+ANÁLISE DOS RESULTADOS FINANCEIROS E OPERACIONAIS 
+9. DESEMPENHO FINANCEIRO
+9.1. Receitas Operacionais
+Receita Regulatória de Geração 
+A receita regulatória recorrente foi de R$ 6.945 milhões no 2T25, R$ 15 milhões inferior à receita de geração 
+ajustada IFRS. Essa diferença reflete o tratamento da parte do faturamento com Amazonas Energia, 
+envolvendo valores adimplidos e inadimplidos com a venda de energia para este cliente.
+Receita de Geração por Ambiente de Contratação
+No 2T25, houve o reconhecimento de um valor negativo, de R$ 109 milhões, referente a ajustes no valor das 
+transações de venda das térmicas no Amazonas e descruzamento de ativo com a Copel na CGT Eletrosul. Tais 
+efeitos envolvem obrigações e direitos com prazos superiores aos das conclusões das transações, e são 
+tratados como valores não recorrentes ajustados na receita bruta do período.
+Desta forma, a receita regulatória ajustada com venda de energia em todos os ambientes de contratação 
+totalizou R$ 6.946 milhões no 2T25, representando um aumento de R$ 636 milhões na comparação com o 
+2T24.
+Os destaques positivos foram:
+▪ incremento de R$ 1.000 milhões da receita no mercado de curto prazo, resultado de um volume de 
+energia liquidado 12,7% superior nesse ambiente aliado a um preço médio de liquidação mais elevado;
+▪ aumento de R$ 229 milhões da receita no mercado livre;
+▪ aumento de R$ 198 milhões da receita no mercado regulado, excluindo as térmicas e M&As.
+Tais efeitos mais que compensaram as reduções:
+▪ de R$ 486 milhões na receita das térmicas, refletindo a venda das térmicas do Amazonas à Âmbar, em 
+maio de 2025, resultando em menor contribuição no 2T25;
+▪ de R$ 288 milhões na receita com venda de energia de Operação e Manutenção (O&M) de usinas cotistas, 
+em linha com o processo de descotização.
+Considerando todos os ambientes de contratação, a receita subiu 10,1%, no 2T25 em relação ao 2T24, em 
+função do aumento de 15,5% do preço médio, mais que compensando a queda de 4,7% no volume.
+A redução de 879 MWm no volume total foi explicada principalmente pela queda do GSF, de 99,2% no 2T24 
+para 95,3% no 2T25. Considerando a energia vendida e liquidada em diferentes ambientes de contratação, foi 
+observada redução de 1.694 MWm de energia comercializada sob o regime de cotas, parcialmente 
+compensada pelos aumentos de 381 MWm no mercado livre e de 450 MWm no mercado de curto prazo. 
+ 
+Relatório de Resultados 2T25 26
+
+[p. 27]
+Tabela 19 - Receita Geração por Ambiente de Contratação (R$ mm)
+Receita Geração 
+Volume (MWmed) 
+(a) 
+Preço (R$/MWh) 
+(b)
+Receita Regulatória 
+(c) = (a) x (b)
+2T25 % A/A % T/T 2T25 % A/A % T/T 2T25 % A/A % T/T
+(+) Mercado Regulado 3.999 -0,4 -13,8 271 -11,1 -8,8 2.365 -11,4 -20,5
+Existentes 3.308 9,9 -7,3 219 4,0 4,4 1.584 14,3 -2,1
+M&A's (4) 61 -33,7 -39,5 312 6,1 3,1 41 -29,7 -36,9
+Térmicas 631 -30,9 -35,0 537 -12,6 -12,8 740 -39,6 -42,7
+(+) Mercado Livre 7.619 5,3 -15,6 154 4,3 2,0 2.557 9,8 -12,9
+Existentes 7.619 5,3 -15,6 154 4,3 2,0 2.557 9,8 -12,9
+M&A's (4) 0 0,0 0,0 0 0,0 0,0 0 0,0 0,0
+(+) O&M (Quotas) 2.248 -43,0 -10,8 104 12,0 8,8 510 -36,1 -1,9
+(+) Mercado CP (CCEE)1 4.001 12,7 -7,2 173 161,4 173,9 1.514 194,5 156,9
+(=) Receita com Venda de 
+Energia 17.867 -4,7 -12,8 178 15,5 12,2 6.946 10,1 -1,1
+(+) Outros (2) — — — — — — -111 n.m. n.m.
+(=) Receita Total — — — — — — 6.836 8,3 -2,7
+Recorrente — — — — — — 6.945 10,1 -1,1
+Não recorrente — — — — — — -109 0,0 0,0
+Receita Geração 
+Receita Regulatória
+(c)
+Ajuste Contábil 
+(d) (3)
+Receita Contábil
+(e) = (c) + (d)
+2T25 2T24 1T25 2T25 2T24 1T25 2T25 2T24 2T25x2T24 1T25 2T25x1T25
+Mercado Regulado 2.365 2.670 2.975 15 -482 -56 2.381 2.188 8,8% 2.919 -18,4
+Mercado Livre 2.557 2.328 2.937 0 0 0 2.557 2.328 9,8% 2.937 -12,9
+O&M (Quotas) 510 798 520 0 0 0 510 798 -36,1% 520 -1,9
+Mercado de curto 
+prazo (1) 1.514 514 590 0 0 0 1.514 514 194,5% 590 156,9
+Venda de energia 6.946 6.311 7.021 15 -482 -56 6.962 5.829 19,4% 6.965 0,0
+Outros (2) -111 -1 2 0 0 0 -111 -1 n.m. 2 n.m.
+Receita Total 6.836 6.310 7.023 15 -482 -56 6.851 5.828 17,6% 6.967 -1,7
+Recorrente 6.945 6.310 7.023 15 -482 -56 6.960 5.828 19,4% 6.967 -0,1
+Não recorrente -109 0 0 0 0 0 -109 0 0,0% 0 0,0
+(1) Mercado de curto prazo: Câmara de Comercialização de Energia Elétrica (CCEE) 
+(2) Principal efeito: reconhecimento de um efeito negativo, de R$ 109 milhões, referente a ajustes no valor das transações de venda das das térmicas do Amazonas e 
+descruzamento de ativo com a Copel na CGT Eletrosul, ligados a obrigações e direitos com prazos superiores aos de conclusões das transações.
+(3) As diferenças entre as receitas societária e regulatória no 2T24, 1T25 e 2T25 referem-se à energia vendida, porém inadimplida pela Amazonas Energia, não sendo 
+reconhecida como faturamento no resultado societário, mas sim no regulatório, onde é integralmente provisionada.
+(4) M&A: envolve a receita de ativos nas quais a participação da Eletrobras sofreu alteração ao longo dos últimos 12 meses.
+▪ Ambiente de Contratação Regulada (ACR): a receita regulatória de geração no ACR totalizou R$ 2.365 
+milhões no 2T25, uma redução de R$ 305 milhões em relação à receita de R$ 2.670 milhões no 2T24, 
+refletindo principalmente queda de 11,1% nos preços médios, explicada por sua vez pela performance das 
+vendas de energia das térmicas. Excluindo térmicas e M&As, a receita no 2T25 foi composta por R$ 1.584 
+milhões, impactada principalmente pelo leilão A-1 de dezembro de 2024 (+351 MWm; R$ 159/MWh), 
+além da atualização pela inflação dos contratos existentes. Por sua vez, as térmicas contribuíram com R$ 
+740 milhões, enquanto a UHE Mauá, com R$ 41 milhões referentes ao período do trimestre em que ainda 
+esteve no portfólio antes de ter sido transferida à Copel com o closing do descruzamento de ativos.
+ 
+Relatório de Resultados 2T25 27
+
+[p. 28]
+▪ Ambiente de Contratação Livre (ACL): a receita regulatória de geração no ACL totalizou R$ 2.557 milhões 
+no 2T25, aumento de R$ 229 milhões em relação ao 2T24. O resultado foi impulsionado pelo crescimento 
+de 5,3% do volume vendido, refletindo a estratégia de ampliação da participação no mercado livre, aliado 
+ao aumento de 4,3% no preço médio.
+▪ O&M: as receitas de operação e manutenção tiveram uma redução de R$ 288 milhões, totalizando R$ 510 
+milhões no 2T25, reflexo, principalmente, da queda do volume devido ao processo de descotização, 
+atenuado pelos efeitos do reajuste anual da Receita Anual de Geração (RAG1).
+▪ Mercado de Curto Prazo ( CCEE): receita de R$ 1.514 milhões no 2T25, aumento de R$ 1.000 milhões em 
+relação ao 2T24, explicada pelo aumento de 161% do preço e 13% no volume. 
+Receita Regulatória de Transmissão
+A receita regulatória de transmissão foi de R$ 4.488 milhões, redução de 12,7% em relação ao 2T24. A queda 
+refletiu a homologação, em julho de 2024, dos processos de revisão tarifária periódica (RTP) de 2023 que 
+foram postergados para 2024, com destaque para a revisão da receita dos contratos de concessão prorrogados 
+por meio da Lei nº 12.783/2013.
+Vale destacar que as elimi nações, tanto na receita regulatória quanto na societária, referem-se à parcela de 
+encargos de uso do sistema de transmissão pagos pelas geradoras da Eletrobras às transmissoras do próprio 
+grupo, que as recebem na forma de RAP. Para fins de consolidação, esses valores são eliminados, na receita de 
+transmissão e no custo com encargos de uso na geração. A contabilização societária (IFRS) considera a parc ela 
+de receita com operação e manutenção (O&M), enquanto na regulatória, a eliminação considera a RAP. 
+Tabela 20 - Receita IFRS X Regulatória Trimestral (R$ mm)2
+2T25 2T24 Variação Regulatório
+IFRS Ajustes Regulatório IFRS Ajustes Regulatório (%)
+Eletrobras 
+Holding 1.994 -131 1.863 1.727 469 2.196 -15,2
+Chesf 1.550 -57 1.493 1.255 330 1.585 -5,8
+CGT Eletrosul 589 -95 494 531 8 539 -8,3
+Eletronorte 1.064 -177 886 966 51 1.017 -12,8
+Eliminações -118 -131 -249 -83 -115 -199 25,2
+TOTAL 5.079 -591 4.488 4.395 744 5.138 -12,7
+ 
+Relatório de Resultados 2T25 28
+1 Conforme as Resoluções Homologatórias nº 3.225/2023 (ciclo 2023-2024) e nº 3.353/2024 (ciclo 2024-2025), impactando Eletronorte, Chesf e Furnas.
+2 Para mais informações sobre a composição de Eletrobras Holding, consulte o Anexo 3
+
+[p. 29]
+Gráfico 3 - Conciliação RAP e Receita de Transmissão 2T25 (R$ mm)
+3.864
+585 40
+-64
+157
+-94
+4.488
+RAP e PA 
+homologadas
+Tributos e 
+Encargos
+Novos 
+Investimentos
+Desconto por 
+Indisponibilidade
+Itens de repasse, 
+descontados da 
+PA no
+ ciclo seguinte
+Outros Total
+Definições RAP Homologada x Receita Bruta
+Abaixo encontra-se a análise simplificada da receita bruta regulatória do segmento de transmissão. Maiores 
+detalhes e explicações estão disponíveis na planilha de "Suporte à Modelagem de Transmissão", localizada na 
+Central de Resultados do site de Relações com Investidores da Companhia.
+▪ Receita Anual Permitida (RAP) e Parcela de Ajuste (PA) Homologada 2T25: corresponde a ¼ da RAP e da 
+PA, respectivamente, de R$ 16.983 milhões e R$ 1.529 milhões, homologadas para o ciclo 2024/2025 pela 
+ReH 3.348/2024 dos contratos de concessão de transmissão das empresas Eletrobras (pós-incorporação de 
+Furnas), Chesf, CGT Eletrosul, Eletronorte, TMT e VSB.
+Mais detalhes sobre a PA no Anexo 8.
+▪ Tributos e Encargos Setoriais ( pass through): inclui PIS/COFINS relativos ao faturamento da receita da 
+Rede Básica, Rede Básica de Fronteira e DIT Compartilhada, conforme AVCs emitidos pelo ONS, e 
+recolhimento junto a consumidores conectados diretamente nas instalações de transmissão da Eletrobras 
+de contribuições à Conta de Desenvolvimento Energético e ao Programa de Incentivo às Fontes 
+Alternativas de Energia Elétrica.
+▪ Novos Investimentos: adicional de RAP das novas instalações (reforços e melhorias de grande porte) na 
+rede básica, autorizados com receitas definidas previamente, que entraram em operação comercial ao 
+longo do trimestre.
+▪ Desconto por indisponibilidade: associado ao desconto por Parcela Variável (PV), suspensão de 
+Pagamento Base (PB) por indisponibilidade e por pendências em Termos de Liberação (TL). No 2T25, o 
+desconto de receita por indisponibilidade foi de cerca de -R$ 63,5 milhões, sendo -R$ 49,1 milhões por 
+Parcela Variável.
+▪ Itens nos quais as transmissoras têm apenas papel de arrecadador e que serão descontados em PA no 
+ciclo tarifário subsequente ( pass through): associado a itens que transitam na receita no ciclo tarifário 
+corrente, mas posteriormente compensados via Parcela de Ajuste (PA) no ciclo seguinte. Inclui diferenças 
+de apuração da RAP homologada para o faturamento pela ONS relacionado a rateio de antecipação, bem 
+ 
+Relatório de Resultados 2T25 29
+
+[p. 30]
+como ao recebimento, do Fundo CDE, via CCEE, de valores não arrecadados em função de descontos 
+incidentes sobre as tarifas.
+▪ Outros: inclui dois grupos de efeitos. (i) “Eliminações”, que são operações que ocorreram entre as 
+empresas do mesmo grupo, ou seja, empresas Eletrobras, sendo que no 2T25, o total das eliminações é de 
+cerca de - R$ 249 milhões, e (ii) descasamentos em relação à RAP homologada para o ciclo tarifário 
+corrente, como por exemplo: descasamento entre o Reajuste Anual da Transmissão e da Distribuição, 
+AVCs complementares associados à rescisão de Contratos de Uso do Sistema de Transmissão (CUST) por 
+geradores, etc.
+Principais eventos do segmento de transmissão no 2T25
+▪ Alteração do fluxo de recebimento da RAP ligada ao componente financeiro da RBSE
+Mais detalhes sobre as mudanças, inclusive por contrato, no Anexo 9.
+No resultado regulatório o efeito será refletido apenas a partir do 3T25, que marca o primeiro trimestre do 
+próximo ciclo tarifário (2025-26).
+No resultado societário o efeito já foi refletido no 2T25, através do reconhecimento da despesa de R$ 
+3.433 milhões na forma de remensuração regulatória. Esta despesa, bem como o valor positivo de R$ 882 
+milhões reconhecido como imposto diferido a ela associado, foram considerados como itens não 
+recorrentes no 2T25, e desta forma, ajustados no EBITDA e no Lucro Líquido.
+▪ Revisão Tarifária Periódica (RTP) de contratos licitados com revisão em 2025-26
+Mais detalhes sobre as mudanças, inclusive por contrato, no Anexo 10.
+▪ Reajuste Anual (RA) do Ciclo Tarifário de 2025-26: homologação de RAP e PA
+Mais detalhes sobre as mudanças, inclusive por contrato, no Anexo 11.
+ 
+Relatório de Resultados 2T25 30
+
+[p. 31]
+9.2. Custos e Despesas Operacionais
+Tabela 21 - Custos e Despesas Operacionais (R$ mm)
+2T25 2T24 % 1T25 % 6M25 6M24 %
+Energia comprada para revenda 1.356 797 70,1 1.560 -13,1 2.916 1.534 90,0
+Encargos sobre uso de rede elétrica 955 999 -4,4 996 -4,2 1.951 1.970 -1,0
+Combustível p/ prod. de energia 
+elétrica 222 464 -52,1 560 -60,3 782 970 -19,4
+Construção 1.036 787 31,7 745 38,9 1.781 1.428 24,7
+Pessoal, Material, Serviços e Outros 1.631 1.629 0,1 1.658 -1,6 3.289 3.256 1,0
+Depreciação e Amortização 1.131 968 16,9 1.112 1,7 2.244 1.965 14,2
+Provisões Operacionais 133 -127 -205,1 126 5,4 260 69 276,5
+Resultado da alienação de ativos 105 115 -8,5 0 0,0 105 115 -8
+Remensurações regulatórias 3.433 0 0,0 952 260,7 4.385 0 0
+Custos e Despesas 10.002 5.632 77,6 7.710 29,7 17.712 11.307 56,6
+Eventos não recorrentes
+(-) Eventos PMSO não recorrentes -228 -171 33,6 -191 19,1 -419 -203 106,2
+(-) Provisões não recorrentes 43 396 -89,0 -41 -206,6 3 514 -99,5
+(-) Resultado de alienação de ativos -105 -115 -8,5 0 0,0 -105 -115 -8,5
+(-) Remensuração regulatória -3.433 0 0,0 0 0,0 -3.433 0 0,0
+Custos e Despesas Ajustados 6.279 5.742 9,4 7.478 -16,0 13.757 11.503 19,6
+▪ Energia comprada para revenda : totalizou R$ 1.356 milhões no 2T25, aumento de R$ 559 milhões em 
+relação ao 2T24. Esse crescimento reflete a energia comprada para cobrir requisitos de lastro de energia 
+na Eletrobras de forma a reequilibrar os recursos com os compromissos assumidos pelas vendas nesta 
+empresa. Vale destacar que essas operações não geram impacto em resultado.
+▪ Encargos sobre uso da rede: somaram R$ 955 milhões no 2T25, redução de R$ 44 milhões em comparação 
+ao 2T24, refletindo principalmente o menor valor dos encargos de uso do sistema de transmissão (EUST) 
+vigentes após a definição da ReH ANEEL nº 3.349/2024, em substituição aos valores estabelecidos pela 
+ReH anterior (ReH ANEEL nº 3.216/2023).
+▪ Combustível para produção de energia elétrica: atingiram R$ 222 milhões no 2T25, apresentando um 
+redução de R$ 242 milhões em relação ao 2T24, devido à venda das térmicas do Amazonas em maio de 
+2025.
+▪ Construção: totalizaram R$ 1.036 milhões no 2T25, representando crescimento de R$ 249 milhões em 
+relação ao 2T24, com destaque para os aumentos de R$ 199 milhões referente as obras de reforços e 
+melhorias e de R$ 72 milhões com a construção civil referente aos contratos de concessão conquistados 
+em leilões de transmissão nos últimos anos , sendo parcialmente compensados por R$ 22 milhões de 
+baixas do Ativo Imobilizado em Serviço.
+▪ Remensuração Regulatória - contratos de transmissão: despesa de R$ 3.433 milhões no 2T25, reflexo das 
+mudanças do fluxo de pagamento do componente financeiro da RBSE dos contratos prorrogados pela Lei 
+nº 12.783/2013, para os ciclos 2025-26, 2026-27 e 2027-28, em face da decisão da diretoria da ANEEL na 
+20ª Reunião Pública Ordinária em 10 de junho de 2025.
+ 
+Relatório de Resultados 2T25 31
+
+[p. 32]
+▪ Resultado de alienação de ativos: despesa de R$ 105 milhões no 2T25, reflexo de ajustes sem efeito caixa 
+em função de negociações concluídas no período, com destaque para:
+▪ - R$ 286 milhões: conclusão da venda das térmicas do Amazonas para a Âmbar Energia;
+▪ + R$ 257 milhões: remensuração da Eletronet;
+▪ - R$ 76 milhões: descruzamento de ativos com a Copel, com a aquisição da UHE Colíder em troca de 
+participação na UHE Jayme Canet Junior (Mauá) e transmissora Mata de Santa Genebra.
+ 
+Relatório de Resultados 2T25 32
+
+[p. 33]
+PMSO - Pessoal, Material, Serviços e Outros
+Pessoal: saldo ajustado de R$ 784 milhões no 2T25, redução de 15% em relação aos R$ 923 milhões do 2T24, 
+destaque para: 
+▪ Economia de R$ 1 42 milhões, sendo R$ 95 milhões com despesas de remuneração e R$ 47 milhões em 
+encargos trabalhistas, reflexo da redução do quadro de funcionários decorrente dos Planos de Demissão 
+Voluntária (PDVs). Esse efeito foi parcialmente compensado por novas admissões, que elevaram as 
+despesas em R$ 30 milhões.
+▪ Economia de R$ 38 milhões, resultado do ganho de eficiência com a reestruturação nas equipes, 
+impulsionada pelos PDVs, novos modelos de contratação e maior compartilhamento de recursos entre as 
+empresas do grupo.
+Efeitos não-recorrentes: R$ 213 milhões, sendo: (a) R$ 98 milhões com PDVs, (b) R$ 72 milhões com custos de 
+rescisão contratual, e (c) R$ 44 milhões com multa de FGTS ligada a rescisões.
+Material: saldo ajustado de R$ 42 milhões no 2T25, registrando um aumento de R$ 5 milhões em relação aos 
+R$ 37 milhões do 2T24. A variação refletiu os maiores gastos com manutenção operacional. 
+Não houve efeitos não-recorrentes no trimestre. 
+Serviços: saldo ajustado de R$ 441 milhões no 2T25, representando aumento de 6% frente aos R$ 415 milhões 
+do 2T24. As principais contribuições para esse acréscimo de R$ 26 milhões foram: 
+▪ Aumento de R$ 34 milhões devido à centralização e reajuste dos contratos de serviço de limpeza e 
+manutenção; 
+▪ Redução de R$ 8 milhões relacionada à reprogramação de manutenções das máquinas para o segundo 
+semestre de 2025.
+Efeitos não-recorrentes: R$ 15 milhões relacionados aos honorários de êxitos pagos às consultorias jurídicas 
+ligadas a estratégia de redução de contingências.
+Outros: saldo ajustado de R$ 136 milhões no 2T25, aumento de R$ 53 milhões em relação ao 2T24, com 
+destaque para o aumento de R$ 28 milhões em custos relacionados ao segmento de geração, incluindo 
+pagamento de seguro de repactuação do risco hidrológico e contribuições associativas.
+Não houve efeitos não-recorrentes no trimestre.
+ 
+Relatório de Resultados 2T25 33
+
+[p. 34]
+Tabela 22 - PMSO 2T25 (R$ mm)1
+PMSO 2T25
+(R$ milhões)
+Eletrobras 
+Holding
+Chesf
+Eletronorte
+CGT 
+Eletrosul
+Total
+Eliminação
+Consolidado 
+IFRS
+Pessoal 403 220 192 85 899 0 899
+Plano de Demissão Consensual 
+(PDC) – Provisão 76 4 15 3 98 0 98
+Material 17 8 16 2 42 0 42
+Serviços 225 95 101 35 456 0 456
+Outros 47 27 63 6 143 -7 136
+PMSO 768 353 386 131 1.638 -7 1.631
+Eventos não recorrentes
+Pessoal: PDV,PDC -76 -4 -15 -3 -98 0 -98
+Pessoal: Custos com rescisão -63 -21 -23 -9 -115 0 -115
+Serviços: Consultorias jurídicas -11 -2 -2 0 -15 0 -15
+Outros: Condenações Judiciais 0 0 0 0 0 0 0
+Outros: Baixa de depósitos 
+Judiciais 0 0 0 0 0 0 0
+PMSO Ajustado 618 326 346 119 1.410 -7 1.403
+Tabela 23 - PMSO 2T24 (R$ mm)
+PMSO 2T24
+(R$ milhões)
+Eletrobras + 
+Furnas
+Chesf
+Eletronorte
+CGT Eletrosul
+Total
+Eliminação
+Consolidado 
+IFRS
+Pessoal 378 244 218 83 923 0 923
+Plano de Demissão Voluntária (PDV) 
+– Provisão 15 6 -10 0 11 0 11
+Material 10 6 22 -1 37 0 37
+Serviços 251 87 84 36 457 0 457
+Outros 98 76 37 12 223 -22 200
+PMSO 752 419 350 130 1.651 -22 1.629
+Eventos não recorrentes
+Pessoal: PDV,PDC -15 -6 10 0 -11 0 -11
+Pessoal: PLR Retroativo 0 0 0 0 0 0 0
+Pessoal: Alocação em atividades de 
+investimento 0 0 0 0 0 0 0
+Serviços: consultorias para Plano de 
+Transformação -42 0 0 0 -42 0 -42
+Outros: Combinação de negócios¹ -118 0 0 0 -118 -118
+PMSO Ajustado 577 413 360 130 1.480 -22 1.458
+ 
+Relatório de Resultados 2T25 34
+1 Para mais informações sobre a composição de Eletrobras Holding, consulte o Anexo 3.
+
+[p. 35]
+Tabela 24 - PMSO IFRS (R$ mm)
+2T25 2T24 1T25
+Total 
+(a)
+Não recorrente
+(b)
+Ajustado
+(c) = (a) + (b) Ajustado % Var. Ajustado % Var.
+Pessoal 899 -115 784 923 -15,1 802 -2,3
+PDV 98 -98 0 0 0,0 0 0,0
+Material 42 0 42 37 13,0 52 -19,1
+Serviços 456 -15 441 415 6,2 396 11,3
+Outros 136 0 136 83 64,6 217 -37,1
+Total 1.631 -228 1.403 1.458 -3,8 1.467 -4,3
+Tabela 25 - PMSO IFRS Detalhado (R$ mm)
+2T25 2T24 % 1T25 % 6M25 6M24 %
+Pessoal 899 923 -2,6 855 5,1 1.755 1.868 -6,1
+PDV 98 11 795,5 96 1,1 194 44 344,5
+Material 42 37 13,0 52 -19,1 94 83 12,9
+Serviços 456 457 -0,3 438 4,2 894 896 -0,2
+Outros 136 200 -32,0 217 -37,1 353 365 -3,3
+PMSO (a) 1.631 1.629 0,1 1.658 -1,6 3.289 3.256 1,0
+Pessoal -115 0 0,0 -53 116,5 -169 0 0,0
+PDV -98 -11 795,5 -96 1,1 -194 -44 344,5
+Material 0 0 0,0 0 0,0 0 0 0,0
+Serviços -15 -42 -64,0 -42 -63,5 -57 -42 34,8
+Outros 0 -118 n.m. 0 0,0 0 -118 n.m.
+Não recorrente (b) -228 -171 33,6 -191 19,1 -419 -203 106,2
+Pessoal 784 923 -15,1 802 -2,3 1.586 1.868 -15,1
+PDV 0 0 0,0 0 0,0 0 0 0,0
+Material 42 37 13,0 52 -19,1 94 83 12,9
+Serviços 441 415 6,2 396 11,3 837 854 -2,0
+Outros 136 83 64,6 217 -37,1 353 247 42,7
+PMSO ajustado (c) = (a) + (b) 1.403 1.458 -3,8 1.467 -4,3 2.870 3.052 -6,0
+PMSO excluindo Térmicas * (c.1) 1.374 1.422 -3,4 1.430 -4,0 2.804 2.984 -6,0
+despesas 1.336 1.412 -5,4 1.394 -4,2 2.729 2.951 -7,5
+custos de geração ** 38 10 287,2 37 3,3 75 33 123,7
+Térmicas (c.2) 29 36 -18,7 36 -19,4 66 68 -3,6
+* Térmicas: PMSO das térmicas vendidas a Âmbar. No 2T25, considera valores para UHE Santa Cruz para todo o período. 
+Para as demais plantas, cuja venda foi concluída em 15 de maio de 2025, considera valores até essa data.
+** Outros custos operacionais: ligados a atividade de geração, incluindo seguro GSF, contribuição associativa e outros.
+ 
+Relatório de Resultados 2T25 35
+
+[p. 36]
+Tabela 26 - Outros Custos e Despesas (R$ mm)
+2T25 2T24 % 1T25 % 6M25 6M24 %
+Condenações, perdas e custas judiciais 5 128 -95,9 71 -92,6 76 161 -52,9
+GSF 17 5 244,0 17 1,4 33 24 38,9
+Seguros 24 27 -12,0 23 5,7 47 47 -0,1
+Investidas 18 16 10,3 10 77,2 28 33 -15,1
+Doações e contribuições 29 10 179,3 21 36,1 50 64 -22,1
+Aluguel 19 8 134,9 23 -19,2 41 22 91,0
+Recuperação de despesa -12 -6 93,6 -12 0,0 -24 -46 -47,2
+Tributos 6 11 -42,7 31 -80,3 37 37 -0,6
+Taxa de Fiscalização Rec. Hídricos - TFRH 11 0 0,0 14 -17,6 25 0 0,0
+Outros 20 2 n.m. 20 -2,5 40 23 71,8
+Total 136 200 -32,0 217 -37,1 353 365 -3,3
+ 
+Relatório de Resultados 2T25 36
+
+[p. 37]
+Provisões Operacionais
+Tabela 27 - Provisões Operacionais - IFRS (R$ mm)
+ 2T25 2T24 % 1T25 % 6M25 6M24 %
+Provisões / Reversões Operacionais 
+Provisão/Reversão para Litígios 22 89 -75,1 -108 -120,5 -86 228 -137,7
+Perdas estimadas em investimentos 21 -14 -250,5 12 71,3 34 -29 -214,9
+Mensuração a valor justo de ativo disp. p/ venda 0 167 n.m. 0 0,0 0 167 n.m.
+Provisão para Implantação de Ações - Empréstimo Compulsório -20 -17 19,9 26 -178,0 6 -50 -111,2
+PECLD - Financiamentos e empréstimos -10 0 0,0 0 0,0 -10 -4 123,2
+PECLD - Consumidores e revendedores -79 -43 84,1 -19 324,0 -98 -175 -44,2
+PECLD - Outros créditos -26 -25 3,9 -7 248,0 -33 -115 -71,3
+Contratos onerosos 30 45 -34,1 29 1,5 59 83 -29,7
+Resultado laudos atuariais -92 -128 -28,4 -93 -1,6 -185 -256 -27,8
+Outras * 20 52 -62,5 33 -41,3 53 83 -35,9
+Provisões / Reversões Operacionais -133 127 -205,1 -126 5,4 -260 -69 276,5
+Itens não recorrentes / Ajustes -43 -396 -89,0 41 -206,6 -3 -514 -99,5
+Provisão para Litígios -22 -89 -75,1 108 -120,5 86 -228 -137,7
+Mensuração a valor justo de ativo disp. p/ venda 0 -293 n.m. 0 0,0 0 -293 n.m.
+Perdas estimadas em investimentos -21 14 -250,5 -12 71,3 -34 29 -214,9
+Provisão para Implantação de Ações - Empréstimo Compulsório 20 17 19,9 -26 -178,0 -6 50 -111,2
+PECLD - Financiamentos e empréstimos 10 0 0,0 0 0,0 10 4 123,2
+Contratos onerosos -30 -45 -34,1 -29 1,5 -59 -83 -29,7
+Perda estimada por irrecuperabilidade de ativos (Impairment) 0 0 n.m. 0 0,0 0 6 n.m.
+Restituição RGR 0 0 0,0 0 0,0 0 0 0,0
+Provisões/Reversões Ajustadas -177 -269 -34,3 -86 106,3 -262 -583 -55,0
+Os valores positivos na tabela acima significam reversão de provisão.
+* Inclui principalmente impairment e restituição de RGR.
+▪ Provisão para litígios : reversão de R$ 22 milhões no 2T25 comparado à reversão de R$ 89 milhões no 
+2T24. A variação de R$ 67 milhões pode ser analisada considerando separadamente a contribuição de 
+empréstimo compulsório e de eventos de outras naturezas, incluindo cível, tributária, trabalhista, 
+regulatória, ambiental, fundiária e outras.
+▪ Empréstimo Compulsório: no 2T25 contribuiu com uma reversão líquida de R$ 246 milhões, comparado 
+à reversão líquida de R$ 327 milhões no 2T24, representando uma redução de R$ 81 milhões. Em ambos 
+os períodos o resultado reflete acordos celebrados e decisões favoráveis. A variação entre os períodos 
+decorre da alteração do perfil de carteira de processos, cujos riscos individuais vêm sendo reduzidos ao 
+longo da sua gestão. Vale destacar que a atualização monetária relacionada à provisão de empréstimo 
+compulsório, diferentemente do que ocorre nas demais provisões, foi reconhecida no resultado 
+financeiro.
+▪ Eventos de outras naturezas: no 2T25 contribuíram com uma provisão de R$ 165 milhões, comparado a 
+provisão de R$ 89 milhões no 2T24, um incremento de R$ 75 milhões na despesa neste período. Já a 
+atualização monetária contribuiu com uma despesa de R$ 59 milhões no 2T25, frente a R$ 148 milhões 
+no 2T24, refletindo o aumento dos índices considerados na atualização, principalmente IPCA e Selic. 
+Sobre o aumento das provisões, destaca-se uma constituição decorrente de celebração de termo de 
+Transação e Compromisso. 
+ 
+Relatório de Resultados 2T25 37
+
+[p. 38]
+▪ Mensuração a valor justo de ativo disponível para venda: Reversão de R$ 167 milhões referente à Santa 
+Cruz, sem efeito em 2025.
+▪ Implantação de Ações - Empréstimo Compulsório : provisão de R$ 20 milhões no 2T25, frente aos R$ 17 
+milhões no 2T24. O resultado reflete o efeito da marcação a mercado sobre o valor da cotação média dos 
+últimos 12 meses das ações preferenciais B emitidas pela Companhia em decorrência de montantes 
+contabilizados no balanço e a elas atrelados. Tais montantes estão relacionados ao compromisso de 
+entrega de ações já convertidas, em decorrência dos recolhimentos de empréstimos compulsórios, via 
+fatura de energia, por contribuintes que ainda não apresentaram solicitações adequadas de implantações 
+de ações.
+▪ Resultado de laudos atuariais: provisão de R$ 92 milhões no 2T25 comparado a uma provisão de R$ 128 
+milhões referente ao custo dos juros e custo do serviço corrente definido nos laudos para o exercício de 
+2024, devido à redução de base passiva.
+▪ Perdas estimadas em investimento : reversão de R$ 21 milhões no 2T25 referente à revisão de vida útil 
+remanescente dos ativos intangíveis na subsidiária Madeira Energia S.A. (MESA), frente à provisão de R$ 
+14 milhões no 2T24 relacionada à ajuste no valor de recebíveis, sem contrapartida no 2T25.
+▪ Perdas estimadas em créditos de liquidação duvidosa (PECLD) - consumidores e revendedores : aumento 
+da provisão de R$ 43 milhões no 2T24 para R$ 79 milhões no 2T25, variação não atrelada a nenhuma 
+contraparte específica de forma concentrada.
+▪ Perdas estimadas em créditos de liquidação duvidosa (PECLD) - outros créditos: provisão estável, de R$ 
+25 milhões no 2T24 para R$ 26 milhões no 2T25. 
+▪ Contratos Onerosos: Reversão de R$ 30 milhões no 2T25 frente reversão de R$ 45 milhões no 2T24, 
+refletindo variação no valor dos contratos.
+ 
+Relatório de Resultados 2T25 38
+
+[p. 39]
+9.3. Margem de Contribuição da Geração
+A margem de contribuição da geração captura o valor agregado do resultado desse segmento, com foco na 
+comercialização de energia e nos custos diretamente a ela associados, desconsiderando assim despesas com 
+pessoal, materiais, serviços e outros.
+A contribuição da geração para o resultado cresceu de R$ 2.892 milhões no 2T24 para R$ 3.345 milhões no 
+2T25. Em termos unitários, isto é, medindo-se a margem pelo volume de energia disponível (recurso 
+energético), a melhora foi de R$79/MWh no 2T24 para R$98/MWh no 2T25. Essa variação foi impulsionada 
+por preços mais altos no trimestre, parte da estratégia de gestão do portfolio.
+Tabela 28 - Geração - Margem de Contribuição Ajustada, Regulatória (R$ mm)
+2T25 2T24 % 1T25 % 6M25 6M24 %
+Receita Bruta 6.945 6.310 10,1 7.023 -1,1 13.968 12.675 10,2
+Tributos -704 -760 -7,4 -748 -5,9 -1.452 -1.496 -2,9
+Encargos -380 -328 15,8 -314 21,2 -694 -664 4,5
+Receita Líquida 5.861 5.222 12,2 5.962 -1,7 11.823 10.515 12,4
+Energia Comprada para Revenda -1.447 -972 48,8 -1.743 -17,0 -3.191 -1.885 69,2
+Encargos de Uso de Rede -809 -883 -8,4 -849 -4,7 -1.658 -1.736 -4,5
+Custo com Combustíveis (líquido de CCC (1)) -222 -464 -52,1 -560 -60,3 -782 -970 -19,4
+Custo com Hedge do RRH (2) -17 -5 244,0 -17 1,4 -33 -21 57,8
+Outros Custos Operacionais (3) -21 -5 330,1 -20 4,9 -41 -12 237,1
+Margem de Contribuição 3.345 2.892 15,6 2.773 20,6 6.118 5.890 3,9
+Recursos (MWm) (4) 15.625 16.763 -6,8 18.740 -16,6 17.174 8.382 104,9
+Margem Unitária (R$/MWh) 98 79 24,1 69 43,1 82 161 -49,0
+(1) CCC: Conta de Consumo de Combustíveis, responsável pela gestão dos pagamentos feitos por distribuidores e transmissores
+para subsidiar os custos de operação de geradores que atuam nos Sistemas Isolados.
+(2) RRH: Repactuação do Risco Hidrológico
+(3) Outros Custos Operacionais: contribuições associativas (CCEE e ONS) e outros custos.
+(4) Inclui recursos próprios e compras estruturais, que consideram contratos com mais de 12 meses de fornecimento.
+A seguir, destaca-se uma divisão gerencial do segmento de energia em quatro áreas de atuação, de modo que 
+a performance possa ser mais facilmente compreendida.
+(a) O resultado das usinas térmicas, cuja contribuição tende a diminuir progressivamente com o avanço do 
+processo de desinvestimento. 
+(b) A contribuição da energia faturada sob o regime de cotas não adiciona risco de mercado à operação, sendo 
+definida de forma previsível pelo regulador, remunerando apenas o atributo da disponibilidade, e tenderá a 
+zero à medida que avança o processo de descotização das usinas renovadas na ocasião da privatização.
+(c) A energia vendida no ambiente regulado (ACR), embora conte com alguma camada de risco de mercado, 
+apresenta um fluxo bastante previsível, com preço e volume definidos durante o prazo dos contratos.
+(d) Por fim, o recurso energético que sobra, após descontados os volumes em cotas e em ACR, e adicionado o 
+volume comprado de energia, está disponível para que seja alocado no ambiente de contratação livre (ACL) ou 
+liquidado no mercado de curto prazo (MCP). É importante destacar que esta última parcela do recurso 
+energético é a mais exposta aos riscos de mercado e, consequentemente, a que recebe a maior atenção da 
+gestão ativa do portfólio.
+A margem de contribuição da energia comercializada no ACL e liquidada no MCP avançou de R$56/MWh no 
+2T24 para R$79/MWh no 2T25, considerando o recurso disponível para alocação em ambos os ambientes.
+ 
+Relatório de Resultados 2T25 39
+
+[p. 40]
+Tal volume manteve-se praticamente estável, com o montante liberado pela descotização sendo igualmente 
+compensado por um GSF mais baixo no período: 95,3% no 2T25 frente 99,2% no 2T24.
+A contribuição em volume financeiro avançou de R$ 1.124 milhões no 2T24 para R$ 1.615 milhões no 2T25, 
+com o incremento de receita mais que compensando o aumento dos gastos referentes à compra de energia, 
+resultado da estratégia de comercialização de energia no 2T25.
+Tabela 29 - Geração - Margem de Contribuição Ajustada, Regulatória - por ambiente de contratação (R$ mm)
+2T25 2T24 1T25
+Total 
+(a)=(b)+(c)
++(d)+(e)
+Térmicas 
+(b)
+Cota 
+(c)
+ACR 
+(d)
+ACL + MCP 
+(e)
+ACL + 
+MCP % A/A ACL + MCP % T/T
+Receita Bruta 6.836 650 509 1.626 4.051 2.842 42,5 3.529 14,8
+(-) Ajuste 109 89 0 19 0 0 0,0 0 0,0
+Receita Bruta Ajustada 6.945 740 509 1.645 4.051 2.842 42,5 3.529 14,8
+(-) Tributos -704 -56 -53 -170 -424 -318 33,3 -418 1,6
+(-) Encargos Setoriais -380 0 -31 -100 -249 -176 41,1 -193 28,9
+(-) Energia comprada para revenda -1.447 -144 0 0 -1.303 -746 74,7 -1.427 -8,7
+(-) Encargo de Uso do Sistema -809 -65 -117 -183 -445 -474 -6,1 -467 -4,7
+(-) Custo com Combustível (1) -222 -222 0 0 0 0 0,0 0 -175,0
+(-) Custo com Hedge de GSF (2) -17 0 0 -17 0 0 0,0 0 0,0
+(-) Outros Custos Operacionais (3) -21 0 -2 -6 -14 -3 403,9 -12 11,6
+Margem de Contribuição (f) 3.345 253 306 1.170 1.615 1.124 43,7 1.012 59,6
+Recurso Próprio (MWm) 14.800 15.953 -7,2 17.905 -17,3
+(-) Cotas -2.248 -3.464 -35,1 -2.520 -10,8
+(-) ACR (inclui térmica) -3.995 -4.064 -1,7 -4.680 -14,6
+(+) Compras Estruturais 825 810 1,8 835 -1,2
+Recurso (MWm) (4) 9.382 9.234 1,6 11.540 -18,7
+Recurso (MWh mil) (4) (g) 20.489 20.168 1,6 24.927 -17,8
+R$/MWh (f)/(g) 79 56 41,4 41 94,2
+(1) Líquido de CCC: Conta de Consumo de Combustíveis, responsável pela gestão dos pagamentos feitos por distribuidores e transmissores
+para subsidiar os custos de operação de geradores que atuam nos Sistemas Isolados.
+(2) RRH: Repactuação do Risco Hidrológico
+(3) Outros Custos Operacionais: contribuições associativas (CCEE e ONS) e outros custos.
+(4) Inclui recursos próprios e compras estruturais, que consideram contratos com mais de 12 meses de fornecimento.
+ 
+Relatório de Resultados 2T25 40
+
+[p. 41]
+9.4. Participações Societárias
+O resultado das participações societárias apresentou os seguintes destaques:
+▪ Eletronuclear: dois fatores explicaram o resultado de -R$ 147 milhões: 
+(a) redução na receita em função de parada programada para manutenção da usina de Angra 1, e (b) 
+provisão relacionada a valores sobre ressarcimento excedente sobre o Fundo de Descomissionamento.
+A parada se estendeu de 04/04/25 até 11/07/25. Angra 1 já retomou as operações. Além da manutenção, 
+a parada foi para substituir o combustível e realizar a modernização de equipamentos como parte do 
+Programa Long Term Operation (LTO) que, prevê diversas intervenções até 2028 em contrapartida à 
+extensão de vida útil por 20 anos (até Dez/2044), conforme autorização da CNEN (Comissão Nacional de 
+Energia Nuclear) de novembro de 2024.
+▪ ISA Energia: queda no resultado de R$ 25 milhões devido ao impacto da remensuração regulatória pela 
+redução do fluxo de recebimentos relacionados ao componente financeiro da RBSE do contrato 
+prorrogado pela Lei nº 12.783/2013.
+▪ Transnorte Energia: queda no resultado devido à revisão de CAPEX para fins de retorno sobre o ativo 
+contratual.
+▪ Norte Energia: a variação negativa se deveu principalmente pelo aumento da despesa com juros, despesa 
+tributária diferida e depreciação.
+Efeitos não-recorrente: ajuste de R$ 116 milhões , proporcional à participação da Eletrobras na ISA Energia, 
+referente ao efeito líquido de PIS/COFINS e de imposto de renda, reflexo das mudanças do fluxo de 
+pagamento do componente financeiro da RBSE.
+Tabela 30 - Participações Societárias (R$ mm)
+2T25 2T24 % 1T25 % 6M25 6M24 %
+Destaques Coligadas (a) -45 529 -108,6 277 -116,3 231 922 -74,9
+Eletronuclear -147 200 -173,7 64 -331,8 -84 303 -127,7
+ISA Energia 25 188 -86,9 135 -81,7 159 418 -61,9
+Outras Equivalências 78 141 -45,0 78 -1,1 156 201 -22,4
+Destaques SPEs (b) -148 100 -248,4 47 -415,2 -101 167 -160,3
+IE Madeira 31 52 -40,0 84 -62,9 115 117 -1,4
+Belo Monte Transmissora de 
+Energia S.A. - BMTE 27 52 -48,2 56 -51,6 83 107 -22,6
+Transnorte Energia -128 19 -788,0 50 -353,5 -77 35 -321,0
+Chapecoense 55 32 72,5 43 29,0 98 82 20,0
+ESBR Jirau 22 5 338,1 39 -44,3 61 41 49,3
+IE Garanhuns 23 20 17,3 15 59,4 38 40 -4,6
+Norte Energia -179 -80 123,6 -240 -25,4 -419 -254 64,9
+Outras Participações * (c) 67 71 -6,5 44 51,1 111 187 -40,7
+Total (a) + (b) + (c) -126 700 -118,0 368 -134,3 242 1.276 -81,1
+Eventos não recorrentes
+(-) Remensuração Regulatória, 
+ISA Energia 116 0 0,0 0 0,0 116 0 0,0
+Participações Societárias 
+Ajustadas -10 700 -101,4 368 -102,7 358 1.276 -71,9
+* Inclui movimentações do valor reconhecido no balanço patrimonial de coligadas mensuradas a valor justo / custo.
+ 
+Relatório de Resultados 2T25 41
+
+[p. 42]
+9.5. Resultado Financeiro
+Tabela 31 - Resultado Financeiro (R$ mm)
+2T25 2T24 % 1T25 % 6M25 6M24 %
+Receitas Financeiras 1.069 691 54,6 1.073 -0,4 2.142 1.366 56,8
+Receitas de juros, multas, comissões e taxas -13 39 -133,9 37 -136,3 23 72 -67,3
+Receita de aplicações financeiras 1.101 546 101,5 1.057 4,2 2.159 1.120 92,7
+Acréscimo moratório sobre energia elétrica 36 32 13,3 32 11,1 68 79 -13,1
+Outras receitas financeiras 24 128 -81,2 29 -17,4 53 202 -73,6
+(-) Tributos sobre receitas financeiras -79 -55 45,3 -82 -3,6 -162 -106 52,3
+Despesas Financeiras -2.380 -2.498 -4,7 -2.464 -3,4 -4.844 -4.968 -2,5
+Encargos de dívidas -1.528 -1.500 1,9 -1.640 -6,8 -3.168 -3.125 1,4
+Encargos de obrigações com CDE -661 -613 7,9 -662 -0,1 -1.323 -1.223 8,2
+Encargos de revitalização de bacias hidrográficas -79 -83 -5,3 -79 -0,2 -157 -168 -6,4
+Desconto financeiro por antecipação - ENBpar 0 0 0,0 0 0,0 0 0 0,0
+Outras despesas financeiras -111 -302 -63,2 -84 32,3 -195 -453 -56,9
+Itens Financeiros Líquidos -1.244 -1.115 11,5 -2.103 -40,8 -3.347 -2.308 45,0
+Variações monetárias -264 -190 38,8 -285 -7,4 -548 -537 2,2
+Variações cambiais -12 5 -344,7 5 -344,7 -7 2 -393,5
+Variação do valor justo de dívida protegida (hedge) 
+líquida do derivativo -587 -372 57,9 -966 -39,2 -1.554 -563 176,0
+Atualizações monetárias - CDE -316 -367 -14,1 -733 -56,9 -1.048 -861 21,8
+Atualizações monetárias - bacias hidrográficas -52 -67 -22,4 -113 -54,2 -165 -154 7,6
+Variação de instrumento financeiro derivativo não ligado 
+a proteção de dívida -14 -124 -88,9 -10 32,8 -24 -196 -87,7
+Resultado Financeiro -2.555 -2.922 -12,6 -3.494 -26,9 -6.049 -5.910 2,4
+Ajustes
+Atualização monet. emp. compulsórios 178 172 3,4 175 1,6 353 379 -6,9
+Resultado Financeiro Ajustado -2.377 -2.750 -13,6 -3.319 -28,4 -5.696 -5.531 3,0
+¹ Essas obrigações foram estabelecidas pela Lei 14.182/21 (Desestatização da Eletrobras), como uma das condições para a obtenção das novas outorgas de concessão de 
+geração de energia elétrica por mais 30 anos. Os encargos foram calculados a partir dos dados publicados na Resolução CNPE 015/2021: (a) do valor presente da obrigação; 
+(b) do fluxo futuro de pagamentos; e (c) do prazo de pagamentos. Ver mais detalhes na Tabela 28.
+No 2T25, o resultado financeiro ajustado foi negativo em R$ 2.377 milhões, frente a um resultado negativo de 
+R$ 2.750 milhões no 2T24. As principais variações no 2T25 foram:
+▪ Receitas Financeiras: aumento da receita financeira de R$ 691 milhões no 2T24 para R$ 1.069 milhões no 
+2T25, explicado principalmente pela elevação do caixa médio e do CDI no período.
+▪ Encargos de dívida: aumento da despesa de R$ 1.500 milhões no 2T24 para R$ 1.528 milhões no 2T25. 
+Com relação a despesa com juros sobre empréstimos e financiamentos, houve um aumento de R$ 1.366 
+milhões no 2T24 para R$ 1.455 milhões no 2T25, devido principalmente às elevações da taxa Selic e do 
+saldo de dívida no período, em razão das captações ocorridas durante o ano de 2024, incluindo debêntures 
+e financiamentos com instituições financeiras. O saldo médio de dívida bruta da Eletrobras passou de 
+aproximadamente R$ 65 bilhões no 2T24 para R$ 71 bilhões no 2T25, enquanto a Selic média aumentou 
+em 4,5 pontos percentuais, de 10,4% ao ano no 2T24 para 14,9% ao ano no 2T25. O crescimento dessa 
+despesa foi em parte compensado pela redução dos encargos de leasing, de R$ 133 milhões no 2T24 para 
+ 
+Relatório de Resultados 2T25 42
+
+[p. 43]
+R$ 70 milhões, no 2T25, em razão do fim dos contratos de compra de energia, tratados como 
+arrendamento, de usinas térmicas localizadas no estado do Amazonas em maio/25.
+▪ Variação da atualização monetária (Selic) : aumento da despesa de R$ 74 milhões no 2T24 para R$ 264 
+milhões no 2T25, que teve como principal motivo o menor reconhecimento de atualização sobre imposto 
+de renda, contribuindo com R$ 79 milhões para o aumento da despesa. Por sua vez, a despesa relacionada 
+a atualização do empréstimo compulsório da Eletrobras permaneceu estável, atingindo R$ 178 milhões no 
+2T25, uma vez que a redução do estoque de R$ 15 bilhões em junho de 2024 para R$ 12 bilhões em junho 
+de 2025 foi compensada pelo aumento da Selic no período, conforme citado anteriormente.
+▪ Encargos de obrigação com CDE (Conta de Desenvolvimento Energético) e atualizações monetárias CDE 
+(despesas financeiras de IPCA + encargos sobre o saldo devedor de obrigações junto à CDE, sendo o 
+encargo de 7,6% ao ano): as despesas somaram R$ 977 milhões no 2T25, em linha com o 2T24. 
+▪ Encargos de revitalização de bacias hidrográficas (encargo de 5,67% ), com despesa de R$ 79 milhões no 
+2T25, e atualizações monetárias - bacias hidrográficas, com despesa de R$ 52 milhões. 
+ Tabela 32 - Encargos com CDE e Projetos – Lei 14.182/2021 (R$ mm)
+2T25
+Holding Chesf Eletronorte Total
+Encargos de dívidas - Obrigações com a CDE -190 -276 -195 -661
+Encargos de dívidas - Revitalização das bacias hidrográficas -21 -31 -26 -79
+Atualização monetária passiva - Obrigações com a CDE -91 -132 -93 -316
+Atualização monetária passiva - Revitalização das bacias hidrográficas -13 -20 -18 -52
+Total de encargos com a CDE e Projetos - Lei 14.182/2021 -315 -460 -332 -1.107
+▪ Variação do valor justo de dívida protegida ( hedge) líquida do derivativo: despesa de R$ 587 milhões no 
+2T25, superior a despesa de R$ 372 milhões no 2T24. Esse aumento foi explicado , principalmente, pela 
+inclusão de novas operações firmadas ao final de 2024, ambas atreladas ao dólar x CDI: o Bond 2035 (US$ 
+750 milhões, em out/24) e o financiamento SACE (US$ 400 milhões, em dez/24). Tal efeito foi parcialmente 
+compensado pela liquidação do Bond 2025 em fev/25 e por novas operações de crédito e swaps na CGT 
+Eletrosul, atreladas ao dólar x CDI e euro x CDI.
+▪ Variação de instrumento financeiro derivativo não ligado à proteção de dívida: No 2T25, houve um efeito 
+negativo de R$ 14 milhões relacionado à variação de instrumento financeiro derivativo não vinculado à 
+proteção de dívida, frente à despesa de R$ 124 milhões no 2T24. Isso se deveu essencialmente ao 
+encerramento, em dezembro de 2024, do contrato entre a Eletronorte e a Albras que continha um 
+derivativo embutido vinculado ao dólar, à taxa Selic e aos preços de alumínio na LME.
+▪ Outras despesas financeiras : somaram R$ 111 milhões no 2T25, comparadas as despesas de R$ 302 
+milhões no 2T24, uma redução de R$ 191 milhões explicada principalmente pela ocorrência no 2T24 de 
+despesa de R$ 163 milhões relacionada a PIS/Cofins incidentes sobre juros sobre capital próprio (JCP) pago 
+por Furnas, sem contrapartida no 2T25.
+▪ Outras receitas financeiras: redução de R$ 104 milhões, de R$ 128 milhões no 2T24 para R$ 24 milhões no 
+2T25, devido principalmente ao valor de R$ 106 milhões ocorrido no 2T24 sem equivalência no 2T25, 
+relacionado a juros sobre dividendos devidos.
+ 
+Relatório de Resultados 2T25 43
+
+[p. 44]
+9.6. Tributos Correntes e Diferidos
+O imposto de renda e contribuição social ajustado apresentou valor de -R$ 173 milhões no 2T25, frente a um 
+valor de +R$ 421 milhões no 2T24. 
+Vale destacar que tivemos o reconhecimento de dois efeitos de IR Diferido no 2T25: (a) sobre a remensuração 
+regulatória, de R$ 882 milhões, e (b) relacionado a mudança da alíquota efetiva da Eletronorte, no valor de R$ 
+393 milhões.
+O primeiro efeito reflete a aplicação das alíquotas efetivas de cada empresa sobre o valor da remensuração 
+regulatória de seus respectivos contratos. O segundo decorre da revisão dos ativos e passivos diferidos da 
+Eletronorte, em função de sua nova alíquota de IRPJ de 6,25%, aplicada após a alienação de suas usinas 
+térmicas em maio de 2025, quando passou a atuar exclusivamente com ativos incentivados.
+Tabela 33 - Imposto de Renda e Contribuição Social (R$ mm)
+2T25 2T24 % 1T25 % 6M25 6M24 %
+Imposto de renda e contribuição social correntes -254 20 n.m. -79 219,5 -333 -494 -32,6
+Imposto de renda e contribuição social diferidos 1.356 1.183 14,6 14 n.m. 1.370 1.392 -1,6
+Imposto de renda e contribuição social total 1.102 1.203 -8,4 -65 n.m. 1.037 898 15,5
+Ajustes
+Constituição/Reversão de IR Diferido s/ Prejuízo 
+Fiscal ¹ 0 -782 n.m. 0 0 0 -782 n.m.
+Ajuste IR Diferido sobre Remensuração Regul.: RBSE 
+Financeiro ² -882 0 n.m. 0 0 -882 0 0,0
+Ajuste IR Diferido sobre diferença alíquota 
+Eletronorte -393 0 n.m. 0 0,00 -393 0 0,0
+Imposto de renda e contribuição social ajustada -173 421 -141,1 -65 166,5 -238 116 -304,9
+¹ ¹ Holding e CGT Eletrosul no 2T24. Na Holding, houve reconhecimento de R$ 1.074 milhões referentes a créditos tributários originados por prejuízos fiscais acumulados pela 
+Eletrobras, após reestimação de lucros tributárias em função da incorporação de Furnas. Na CGT Eletrosul, houve a reversão de R$ 292,4 milhões, com base em alteração de 
+expectativa de conclusão de operações necessárias para o aproveitamento do crédito tributário gerado pela alienação da UTE Candiota.
+.
+² ² IR Diferido reconhecido no 2T25 sobre a Remensuração Regulatória, reflexo das mudanças do fluxo de pagamento do componente financeiro da RBSE dos contratos 
+prorrogados pela Lei nº 12.783/2013, para os ciclos 2025-26, 2026-27 e 2027-28, em face da decisão da diretoria da ANEEL na 20ª Reunião Pública Ordinária em 10 de junho 
+de 2025.
+ 
+Relatório de Resultados 2T25 44
+
+[p. 45]
+10. DESEMPENHO OPERACIONAL
+10.1. Segmento de Geração
+Ativos de Geração
+No 2T25 a Companhia possuía 82 usinas, sendo 47 hidrelétricas, 1 térmica, 33 eólicas e 1 solar, considerando 
+os empreendimentos corporativos, propriedade compartilhada e participações via SPEs. Em comparação com 
+o 1T25, a redução em 6 ativos ocorreu devido à transferência da participação das usinas térmicas na 
+Eletronorte. Além disso, houve a aquisição da usina UHE Colíder e transferência da UHE Gov. Jayme Canet da 
+CGT Eletrosul. 
+Já a capacidade instalada do portfólio atingiu 44.368,08 MW no 2T25, sendo 99% proveniente de fontes limpas 
+com baixa emissão de gases de efeito estufa e representando 17% do total instalado no Brasil.
+Tabela 34 - Ativos de Geração
+Fonte Capacidade Instalada (MW) Garantia Física (MWmed) Energia Gerada Acc. (GWh)
+Hídrica (47 usinas) 43.072,68 21.027,70 82.428,31
+Térmica (1 usinas) 500,00 401,20 1.336,02
+Eólica (33 usinas) 794,47 226,39 811,29
+Solar (1 usina) 0,93 0,00 0,51
+Total (82 usinas) 44.368,08 21.655,29 84.576,13
+No 2T25, a quantidade de energia gerada total da Eletrobras caiu 7,5% em relação ao 2T24.
+Gráfico 4 - Geração Líquida de Energia Eletrobras (GWh)
+1.028 443
+40.317 41.788
+363 483
+37.819 38.666
+2T24 (GWh) 2T25 (GWh)
+Térmica Eólica e Solar Hídrica Total
+ 
+Relatório de Resultados 2T25 45
+
+[p. 46]
+Dados do Sistema – Capacidade Instalada e Geração 
+No 2T25, a capacidade instalada Brasil totalizou 254.044,30 MW. 
+Gráfico 5 - Capacidade instalada Brasil - por fonte
+ 
+43%
+19%
+13%
+7%
+1%
+16%
+Hidráulica Térmica
+Eólica Solar
+Nuclear Geração Distribuida
+Fonte: Sistema de Informações de Geração da ANEEL – SIGA
+Gráfico 6 - Energia Gerada SIN – Sistema Interligado Nacional (GWh)
+Eólica Hidrelétrica Nuclear Solar Térmica
+jan.-25 fev.-25 mar.-25 abr.-25 mai.-25 jun.-25
+0
+100
+200
+300
+400
+500
+600
+700
+0
+500
+1.000
+1.500
+2.000
+Fonte: Resultados da Operação 01/01 a 31/03/2025 – ONS
+ 
+Relatório de Resultados 2T25 46
+
+[p. 47]
+Dados do Sistema – Mercado de Energia
+Tabela 35 - PLD
+ 2T25 2T24 ∆% 1T25 ∆%
+Mercado
+GSF (%) 95,34 99,22 -3,9 107,56 -11,4
+PLD SE (R$/MWh) 226,68 62,83 260,8 162,06 39,9
+PLD S (R$/MWh) 235,91 62,83 275,5 164,08 43,8
+PLD NE (R$/MWh) 161,75 62,83 157,5 58,92 174,5
+PLD N (R$/MWh) 163,42 62,83 160,1 58,92 177,3
+Gráfico 7 - GSF (%)
+70%
+80%
+89%
+87%
+2021 2022 2023 2024 2025
+jan fev mar abr mai jun jul ago set out nov dez
+25%
+50%
+75%
+100%
+125%
+Gráfico 8 - Média Histórica da Energia Natural Afluente (ENA) – SIN (%)
+O 2T25 foi marcado por aumento da ENA no mês de junho, com as chuvas concentradas na região Sul.
+101
+154
+59
+72
+101
+76
+92
+Mín e Máx (2020-2024) Realizado
+fev./23 abr./23 jun./23 ago./23 out./23 dez./23 fev./24 abr./24 jun./24 ago./24 out./24 dez./24 fev./25 abr.-25 jun.-25
+0
+20
+40
+60
+80
+100
+120
+140
+160
+180
+ 
+Relatório de Resultados 2T25 47
+
+[p. 48]
+Gráfico 9 - Energia Armazenada no Reservatórios – SIN (%)
+O SIN encerrou o 2T25 com Energia Armazenada em 70%, cerca de 1% abaixo do observado no 2T24.
+80
+87
+61
+71
+44
+64
+70
+Mín e Máx (2020-2024) Realizado
+fev./23 abr./23 jun./23 ago./23 out./23 dez./23 fev./24 abr./24 jun./24 ago./24 out./24 dez./24 fev./25 abr./25 jun./25
+0
+20
+40
+60
+80
+100
+10.2. Segmento de Transmissão
+A Companhia encerrou o 2T25 com 73,8 mil km de linhas, sendo 67,4 mil km de linhas próprias e 6,3 mil km 
+em parceria. No 2T24, havia 73,8 mil km de linhas, sendo 66,5 mil km de linhas próprias e 7,3 mil km em 
+parceria.
+O número de subestações no 2T25 foi de 411, considerando 295 próprias e 116 de terceiros.
+Tabela 36 - Linhas de Transmissão (Km)1
+Empresa Próprias (1) Em Parceria (2) Total
+Chesf 22.191 1.832 24.023
+Eletronorte 10.982 1.073 12.055
+CGT Eletrosul 12.134 5 12.139
+Eletrobras Holding 22.129 3.429 25.558
+Total 67.436 6.338 73.774
+(1) Inclui TMT (100%) e VSB (100%).
+(2) Parcerias consideram extensões proporcionais ao capital investido pelas Empresas Eletrobras no empreendimento.
+ 
+Relatório de Resultados 2T25 48
+1 Para mais informações sobre a Composição de Eletrobras Holding, consulte o Anexo 3
+
+[p. 49]
+10.3. ESG
+Tabela 37 - Indicadores ESG 2T25
+Pilar Indicador 2T24 2T25 Variação
+Planeta
+Emissões de Gases de Efeito Estufa 
+acumulada no ano (1)
+1.873.121 885.107 -53%
+ (Escopos 1, 2 e 3) (tCO2e) 
+Pessoas
+Taxa de Frequência de Acidentes - 
+empregados próprios (com afastamento) 0,48 0,48 —%
+Mulheres no quadro de pessoal (%) 20% 20% 0,0 p.p.
+Cargos de liderança ocupados por mulheres 
+(%) (2) 26% 25% -1,0 p.p.
+Governança Apuração de denúncias atendidas no prazo (%) 98,0% 100,0% 2,0 p.p.
+Os valores apresentados são preliminares e não assegurados, podendo ser ajustados conforme os processos de apuração, verificação e atualização dos 
+dados.
+1 A redução das emissões está associada, principalmente, à retirada da geração termelétrica a carvão, da matriz elétrica da Companhia
+2 A redução foi devida à saídas no PDV. 
+ 
+Relatório de Resultados 2T25 49
+
+[p. 50]
+11. ANEXOS
+11.1. Anexo 1 - Demonstrações Contábeis
+Tabela 37 - Balanço Patrimonial (R$ Mil)
+ ATIVO
+CIRCULANTE
+ Caixa e equivalentes de caixa 11.616.284 16.387.945 22.529.651 26.572.522
+ Caixa restrito 282.037 449.865 450.603 508.734
+ Títulos e valores mobiliários 2.687.356 6.421.621 6.856.889 8.951.838
+ Clientes 1.602.279 1.686.293 5.234.155 5.911.477
+ Ativo contratual transmissão 3.814.397 4.634.940 8.242.777 10.539.570
+ Financiamentos, empréstimos e debêntures 706.240 971.555 463.157 475.458
+ Remuneração de participações societárias 1.378.237 2.286.078 441.456 721.683
+ Impostos e Contribuições 1.531.480 1.734.020 2.291.209 2.831.413
+ Imposto de renda e contribuição social 0 0 0 0
+ Direito de ressarcimento 725.813 865.299 754.685 893.254
+ Almoxarifado 63.379 50.576 393.237 441.471
+ Instrumentos financeiros derivativos 0 500.998 37.418 692.660
+ Outros 854.350 729.718 1.576.159 1.408.919
+25.261.852 36.718.908 49.271.396 59.948.999
+ Ativos mantidos para venda 713.777 1.353.723 713.777 4.502.102
+25.975.629 38.072.631 49.985.173 64.451.101
+NÃO CIRCULANTE
+REALIZÁVEL A LONGO PRAZO
+Caixa restrito 1.516.383 1.430.650 3.132.170 3.170.749
+Remuneração de participações societárias 181.049 181.049 0 0
+Direito de ressarcimento 352.803 692.126 367.239 720.081
+Financiamentos, empréstimos e debêntures 1.293.095 1.894.322 168.444 163.140
+Clientes 153.516 171.017 545.512 602.411
+Títulos e valores mobiliários 429.397 421.933 439.322 433.341
+Impostos e Contribuições 2.357.241 2.356.369 2.748.143 2.715.445
+Imposto de renda e contribuição social diferido 0 0 5.722.119 5.673.011
+Cauções e depósitos vinculados 4.090.617 3.693.298 5.739.815 5.190.344
+Ativo contratual transmissão 20.580.061 21.223.812 55.827.309 56.848.086
+Instrumentos financeiros derivativos 381.029 1.269.677 757.277 1.544.095
+Outros 1.868.139 2.000.734 1.163.786 1.645.570
+33.203.330 35.334.987 76.611.136 78.706.273
+INVESTIMENTOS
+ Avaliados por equivalência patrimonial 112.588.827 112.300.525 30.926.638 30.727.405
+CONTROLADORA CONSOLIDADO
+30/06/2025 31/12/2024 30/06/2025 31/12/2024
+ 
+Relatório de Resultados 2T25 50
+
+[p. 51]
+Mantidos a valor justo 976.987 839.546 976.987 861.234
+Outros Investimentos 19.387 19.387 97.987 97.987
+113.585.201 113.159.458 32.001.612 31.686.626
+IMOBILIZADO 7.387.064 6.137.175 39.106.244 36.854.055
+INTANGÍVEL 20.538.860 20.779.526 77.255.959 78.173.273
+174.714.455 175.411.146 224.974.951 225.420.227
+TOTAL DO ATIVO 200.690.084 213.483.777 274.960.124 289.871.328
+CONTROLADORA CONSOLIDADO
+PASSIVO E PATRIMÔNIO LÍQUIDO 30/6/2025 31/12/2024 30/6/2025 31/12/2024
+CIRCULANTE
+ Empréstimos, financiamentos e debêntures 7.128.604 8.329.966 10.944.211 12.809.872
+ Empréstimo compulsório - Acordos 1.511.547 1.105.534 1.511.547 1.105.534
+ Empréstimo compulsório 1.222.900 1.326.925 1.222.900 1.326.925
+ Fornecedores 962.898 1.145.660 2.184.699 2.756.328
+ Impostos e Contribuições 259.791 378.569 899.111 1.146.169
+ Imposto de renda e contribuição social 0 0 0 0
+ Contratos onerosos 0 0 120.720 62.711
+ Remuneração aos acionistas 32.793 2.486.778 35.707 2.490.668
+ Obrigações com pessoal 376.481 483.779 779.165 1.065.114
+ Obrigações de ressarcimento 0 0 47.959 55.517
+ Benefício pós-emprego 941 993 300.365 289.840
+ Provisões para litígios 719.478 1.719.453 811.458 1.791.088
+ Encargos setoriais 90.107 105.352 891.955 820.067
+ Obrigações da Lei 14.182/2021 996.590 814.819 3.578.059 2.916.199
+ Devoluções RGR 595.147 492.276 595.147 492.276
+ Arrendamentos 19.994 8.429 49.776 26.861
+ Instrumentos financeiros derivativos 967.944 824.125 1.411.580 1.175.652
+Outros 245.224 458.746 1.428.033 1.105.093
+15.130.439 19.681.404 26.812.392 31.435.914
+Passivos associados a ativos mantidos para venda 0 0 0 194.454
+15.130.439 19.681.404 26.812.392 31.630.368
+NÃO CIRCULANTE
+ Empréstimos, financiamentos e debêntures 37.688.776 40.926.187 59.345.657 62.810.702
+ Remuneração aos acionistas 0 0 585 0
+ Fornecedores 0 0 123.651 7.959
+CONTROLADORA CONSOLIDADO
+30/06/2025 31/12/2024 30/06/2025 31/12/2024
+ 
+Relatório de Resultados 2T25 51
+
+[p. 52]
+Provisões para litígios 14.882.449 15.658.437 20.610.023 21.583.395
+ Benefício pós-emprego 412.648 418.586 3.397.715 3.416.381
+ Obrigações da Lei 14.182/2021 10.854.810 11.111.765 38.128.295 39.105.924
+ Devoluções RGR 219.987 439.974 219.987 439.974
+ Contratos onerosos 0 0 505.083 621.725
+ Obrigações de ressarcimento 0 0 15.286 15.286
+ Arrendamentos 87.336 79.994 395.965 155.722
+ Concessões a pagar - Uso do bem Público 38.268 38.175 561.504 543.867
+ Adiantamentos para futuro aumento de capital 115.932 108.938 115.932 108.938
+ Instrumentos financeiros derivativos 114.645 2.283 114.645 2.283
+ Encargos setoriais 766.877 744.833 993.434 942.348
+ Impostos e Contribuições 96.537 103.682 294.073 372.488
+ Imposto de renda e contribuição social diferidos 946.469 1.566.835 3.112.418 4.287.021
+ Outros 627.994 739.459 1.458.657 1.827.171
+66.852.728 71.939.148 129.392.910 136.241.184
+PATRIMÔNIO LÍQUIDO
+ Capital social 70.135.202 70.099.826 70.135.202 70.099.826
+ Gastos com emissão de ações -108.186 -108.186 -108.186 -108.186
+ Reservas de capital e Instrumentos Patrimoniais 
+Outorgados 13.912.770 13.910.768 13.912.770 13.910.768
+ Ações em tesouraria -2.222.635 -2.223.011 -2.222.635 -2.223.011
+ Reservas de lucros 43.905.041 43.905.041 43.905.041 43.905.041
+ Dividendo adicional proposto 0 1.535.196 0 1.535.196
+ Lucros acumulados -1.677.488 0 -1.677.488 0
+ Outros resultados abrangentes acumulados -5.237.787 -5.256.409 -5.237.787 -5.256.409
+ Valores reconhecidos em ORA classificados 
+como mantidos para venda 0 0 0 0
+Participação de acionistas controladores 118.706.917 121.863.225 118.706.917 121.863.225
+Participação de acionistas não controladores 0 0 47.905 136.551
+TOTAL DO PATRIMÔNIO LÍQUIDO 118.706.917 121.863.225 118.754.822 121.999.776
+TOTAL DO PASSIVO E DO PATRIMÔNIO LÍQUIDO 200.690.084 213.483.777 274.960.124 289.871.328
+CONTROLADORA CONSOLIDADO
+30/06/2025 31/12/2024 30/06/2025 31/12/2024
+ 
+Relatório de Resultados 2T25 52
+
+[p. 53]
+Tabela 38 - Demonstração de Resultados (R$ Mil)
+OPERAÇÕES CONTINUADAS
+Receita operacional líquida 7.191.028 29.553 20.613.133 17.113.553
+Custos operacionais -4.162.849 -67 -10.923.292 -9.149.743
+RESULTADO BRUTO 3.028.179 29.486 9.689.841 7.963.810
+Despesas operacionais -788.941 -219.590 -2.403.980 -2.157.670
+Remensurações regulatórias - 
+Contratos de transmissão -1.681.819 0 -4.385.033 0
+RESULTADO OPERACIONAL ANTES 
+DO RESULTADO FINANCEIRO 557.419 -190.104 2.900.828 5.806.140
+RESULTADO FINANCEIRO -3.012.628 -1.703.591 -6.048.785 -5.909.589
+ Receitas de juros, multas, 
+comissões e taxas 138.344 491.206 23.432 71.699
+ Receita de aplicações 
+financeiras
+1.193.925 379.511 2.158.536 1.120.166
+ Acréscimo moratório sobre 
+energia elétrica 2.318 0 68.224 78.502
+ Outras receitas financeiras 45.507 156.519 53.298 201.860
+ (-) Tributos sobre receitas 
+financeiras -89.143 -67.431 -161.536 -106.030
+ Receitas financeiras 1.290.951 959.805 2.141.954 1.366.197
+ Encargos de dívidas -1.884.688 -1.486.043 -3.168.301 -3.124.510
+ Encargos de obrigações com 
+CDE -380.441 0 -1.322.857 -1.222.589
+ Encargos de revitalização de 
+bacias hidrográficas -41.802 0 -157.249 -168.008
+ Outras despesas financeiras -132.642 -257.049 -195.448 -452.965
+ Despesas financeiras -2.439.573 -1.743.092 -4.843.855 -4.968.072
+ Atualizações monetárias – CDE -301.498 0 -1.048.360 -860.650
+ Atualizações monetárias – 
+bacias hidrográficas -42.670 0 -165.447 -153.765
+ Atualizações monetárias -369.535 -514.453 -548.448 -536.765
+ Variações cambiais -9.485 28.478 -6.976 2.377
+ Variação do valor justo de 
+dívida protegida (hedge) líquida do 
+derivativo -1.140.819 -434.329 -1.553.607 -562.974
+CONTROLADORA CONSOLIDADO
+30/06/2025 30/06/2024 30/06/2025 30/06/2024
+ 
+Relatório de Resultados 2T25 53
+
+[p. 54]
+Variação de instrumento 
+financeiro derivativo não ligado 
+a proteção de dívida 0 0 -24.046 -195.937
+ Itens financeiros, líquidos -1.864.007 -920.304 -3.346.884 -2.307.714
+RESULTADO ANTES DAS 
+PARTICIPAÇÕES SOCIETÁRIAS -2.455.210 -1.893.695 -3.147.957 -103.449
+Resultado das participações 
+societárias 32.631 2.884.708 241.625 1.276.208
+Outras receitas e despesas 85.933 3.139 190.179 2.573
+RESULTADO OPERACIONAL ANTES 
+DOS TRIBUTOS -2.336.646 994.152 -2.716.153 1.175.332
+Imposto de renda e contribuição 
+social correntes 0 0 -332.852 -494.202
+Imposto de renda e contribuição 
+social diferidos 659.157 1.074.204 1.370.283 1.392.081
+LUCRO LÍQUIDO DAS OPERAÇÕES 
+CONTINUADAS -1.677.488 2.068.356 -1.678.722 2.073.211
+Parcela atribuída aos 
+controladores -1.677.488 2.068.356 -1.677.488 2.068.356
+Parcela atribuída aos não 
+controladores 0 0 -1.234 4.855
+LUCRO LÍQUIDO (PREJUÍZO) DA 
+OPERAÇÃO DESCONTINUADA 0 0 0 0
+Parcela atribuída aos 
+controladores 0 0 0 0
+Parcela atribuída aos não 
+controladores 0 0 0 0
+LUCRO LÍQUIDO DO EXERCÍCIO -1.677.489 2.068.356 -1.678.722 2.073.211
+Parcela atribuída aos 
+controladores -1.677.488 2.068.355 -1.677.488 2.068.356
+Parcela atribuída aos não 
+controladores 0 0 -1.234 4.855
+RESULTADO POR AÇÃO
+Resultado por ação - básico (ON) -0,74 0,89 -0,74 0,89
+Resultado por ação - básico (PN) -0,81 0,97 -0,81 0,97
+CONTROLADORA CONSOLIDADO
+30/06/2025 30/06/2024 30/06/2025 30/06/2024
+ 
+Relatório de Resultados 2T25 54
+
+[p. 55]
+Resultado por ação - diluído (ON) -0,73 0,87 -0,73 0,87
+Resultado por ação - diluído (PN) -0,80 0,96 -0,80 0,96
+CONTROLADORA CONSOLIDADO
+30/06/2025 30/06/2024 30/06/2025 30/06/2024
+ 
+Relatório de Resultados 2T25 55
+
+[p. 56]
+Tabela 39 - Demonstração do Fluxo de Caixa (R$ Mil)
+ATIVIDADES OPERACIONAIS
+Resultado do período antes do imposto de renda e 
+da contribuição social -2.336.645 994.152 -2.716.153 1.175.332
+Ajustes para reconciliar o lucro com o caixa gerado 
+pelas operações:
+Depreciação e amortização 447.787 8.358 2.243.600 1.964.812
+Variações cambiais e monetárias líquidas 723.188 485.975 1.769.231 1.548.803
+Receita Financeira 0 0 0 0
+Encargos financeiros 974.662 615.326 2.466.439 3.323.242
+Resultado da equivalência patrimonial -32.631 -2.884.708 -241.625 -1.276.208
+Outras receitas e despesas -183.318 -13.745 -84.719 -13.179
+Receitas da transmissão -3.872.041 0 -10.264.270 -8.953.525
+Custo de construção - transmissão 756.978 0 1.780.935 1.428.308
+Remensurações regulatórias - Contratos de 
+transmissão 1.681.819 0 4.385.033 0
+Provisões (reversões) operacionais -50.303 -332.024 259.625 194.785
+Baixas de imobilizado e intangível 436 0 -152.745 180.772
+Resultado da dívida protegida (hedge) e derivativos 1.140.819 434.329 1.577.653 758.911
+Outras 173.960 156.250 107.968 183.874
+1.761.356 -1.530.239 3.847.125 -659.405
+(Acréscimos)/decréscimos nos ativos operacionais
+Clientes 54.672 0 662.011 164.463
+Direito de ressarcimento 549.691 505.224 555.702 529.940
+Outros 1.268.465 -162.706 2.049.160 29.509
+1.872.828 342.518 3.266.873 723.912
+Acréscimos/(decréscimos) nos passivos 
+operacionais
+Fornecedores -183.189 -70.930 -523.399 -1.299.361
+Adiantamentos 0 0 0 0
+Obrigações com pessoal -107.298 -45.912 -285.949 -648.136
+Encargos setoriais -2.465 0 117.841 33.044
+Outros -34.416 -81.152 -1.035.375 -847.157
+-327.368 -197.994 -1.726.882 -2.761.610
+Pagamento de encargos financeiros -2.181.963 -1.945.272 -3.137.666 -3.690.811
+Pagamento de encargos financeiros - 
+arrendamentos
+0 0 0 0
+Recebimento da receita anual permitida - RAP 3.654.516 0 9.196.807 10.361.815
+Recebimento de encargos financeiros de 
+controladas 0 0 0 0
+CONTROLADORA CONSOLIDADO
+30/06/2025 30/06/2024 30/06/2025 30/06/2024
+ 
+Relatório de Resultados 2T25 56
+
+[p. 57]
+Recebimento de remuneração de investimentos em 
+participações societárias 1.242.572 2.781.535 527.296 944.197
+Pagamento de litígios -1.750.604 -1.098.135 -1.874.922 -1.404.087
+Cauções e depósitos vinculados -430.710 -71.056 38.763 -405.044
+Pagamento de imposto de renda e contribuição 
+social -14.280 -31.217 -173.967 -914.106
+Pagamento de previdência complementar -12.354 -10.756 -166.504 -227.846
+Caixa líquido proveniente das atividades 
+operacionais das operações descontinuadas 0 0 0 0
+Caixa líquido proveniente das (usado nas) 
+atividades operacionais 1.477.348 -766.464 7.080.770 3.142.347
+ATIVIDADES DE FINANCIAMENTO
+Empréstimos e financiamentos obtidos e debêntures 
+obtidas 0 9.008.795 500.000 16.923.438
+Pagamento de empréstimos e financiamentos e 
+debêntures - principal -4.350.801 -4.625.409 -6.332.830 -6.744.199
+Pagamento de remuneração aos acionistas -3.989.181 -1.287.130 -3.996.565 -1.291.679
+Pagamento aos acionistas dissidentes - incorporação 
+de ações 0 0 0 0
+Recompra de ações 0 0 0 0
+Pagamento de obrigações com CDE e revitalização 
+de bacias - principal -841.594 0 -2.691.384 -1.974.965
+Pagamento de arrendamentos - principal -17.223 -8.413 -25.868 -30.891
+Caixa Restrito 0 0 0 0
+Outros -136.635 0 -136.635 0
+Caixa líquido proveniente das atividades de 
+financiamento -9.335.434 3.087.843 -12.683.282 6.881.704
+ATIVIDADES DE INVESTIMENTO
+Concessão de adiantamento para futuro aumento 
+de capital 0 -8.051 0 -8.051
+Recebimento de empréstimos e financiamentos 274.435 678.486 2.210 5.882
+Recebimento de encargos financeiros 110.311 497.343 263 27.560
+Aquisição de ativo imobilizado -60.946 -4.281 -727.574 -1.514.290
+Aquisição de ativo intangível -19.894 -26.462 -105.746 -136.253
+Caixa restrito 82.095 0 96.710 -216.121
+Resgates / (aplicações) financeiras (TVM) 3.497.483 -180.189 1.801.323 -2.106.401
+Recebimento de encargos (TVM) 229.318 107.222 280.876 281.420
+Aquisição de debêntures 0 0 0 0
+Infraestrutura da transmissão - ativo contratual -756.978 0 -1.780.935 -1.450.565
+CONTROLADORA CONSOLIDADO
+30/06/2025 30/06/2024 30/06/2025 30/06/2024
+ 
+Relatório de Resultados 2T25 57
+
+[p. 58]
+Aquisição/aporte de capital em participações 
+societárias -459.213 -8.821 -591.559 -8.819
+Alienação de investimentos em participações 
+societárias 189.814 0 2.584.072 0
+Caixa líquido na incorporação de controladas 0 0 0 0
+Caixa líquido na aquisição de controle de investidas 0 0 0 0
+Outros 0 0 0 -1.006
+Caixa líquido proveniente das atividades de 
+investimento das operações descontinuadas 0 0 0 0
+Caixa líquido proveniente das (usado nas) 
+atividades de investimento 3.086.425 1.055.247 1.559.641 -5.126.644
+Acréscimo no caixa e equivalentes de caixa -4.771.661 3.376.626 -4.042.871 4.897.407
+Caixa e equivalentes de caixa no início do período 16.387.945 5.698.457 26.572.522 13.046.371
+Caixa e equivalentes de caixa no fim do período 11.616.284 9.075.083 22.529.651 17.943.778
+-4.771.661 3.376.626 -4.042.871 4.897.407
+CONTROLADORA CONSOLIDADO
+30/06/2025 30/06/2024 30/06/2025 30/06/2024
+ 
+Relatório de Resultados 2T25 58
+
+[p. 59]
+11.2. Anexo 2 - Nota sobre venda das Térmicas
+No dia 10 de junho de 2024, a Eletrobras assinou um contrato com a Âmbar Energia/Grupo J&F para vender 
+seu portfólio termoelétrico por R$ 4,7 bilhões, incluindo R$ 1,2 bilhão em earn-out. A J&F também assumiu 
+imediatamente e integralmente o risco de crédito dos contratos de energia desse portfólio.
+Em 12 de junho de 2024, foi publicada a Medida Provisória nº 1.232, que altera as regras dos sistemas 
+isolados. O texto permite que, se a ANEEL reconhecer a perda das condições de serviço, um plano de 
+transferência societário poderá ser aprovado como alternativa à extinção da concessão. A MP também muda 
+as regras dos contratos de compra e venda de energia (CCVEEs) reembolsáveis pela Conta Consumo de 
+Combustível (CCC).
+Como consequência, a Eletronorte firmou Contratos de Energia de Reserva (CERs) com a Câmara de 
+Comercialização de Energia Elétrica (CCEE), vinculados às certas usinas da Companhia 1. Além disso, foram 
+assinados com a Amazonas Distribuidora de Energia S/A os Distratos dos CCVEEs dessas usinas e o Termo de 
+Desistência e Renúncia a direitos contra a União sobre compras de energia antes da troca dos contratos por 
+CERs.
+Os documentos foram aprovados sub judice, conforme o Despacho ANEEL nº 3.025, de 7 de outubro de 2024, 
+e a celebração dos novos CERs, diretamente com a CCEE, permitiu o recebimento dos pagamentos, incluindo 
+os recebimentos retroativos até o dia 13 de Junho de 2024, data de início de suprimento da energia prevista 
+nos CERs. 
+Ainda, em 14 de maio de 2025, foi concluído o fechamento da venda das térmicas do Amazonas para o grupo 
+J&F, que inclui os ativos termoelétricos da Eletronorte, contrapartes dos novos CERs. Considerando a 
+transferência do ativos, os CERs foram posteriormente aditivados, a fim de refletir a nova titularidade ao grupo 
+J&F.
+O fechamento da venda da UTE Santa Cruz (500MW), último ativo remanescente do portfólio alienado, 
+aguarda a conclusão das respectivas aprovações regulatórias.
+11.3. Anexo 3 - Nota sobre a Incorporação de Furnas e da Eletropar
+Nas tabelas contendo informações sobre as principais subsidiárias operacionais do Grupo Eletrobras, os 
+comentários sobre o resultado referentes à “holding Eletrobras” consideram, a partir do 3T24: 
+a) os ativos de Furnas recém incorporados; 
+b) as entidades geradoras Baguari Energia, Retiro Baixo Energética, Brasil Ventos e Madeira Energia 
+(MESA); e 
+c) as entidades transmissoras Triângulo Mineiro Transmissora, Vale do São Bartolomeu Transmissora e 
+Nova Era Janapú. 
+Estas sete entidades antes eram consolidadas em Furnas.
+Adicionalmente, a partir do dia 29 de abril de 2025, a Eletrobras passou a consolidar a Eletronet, após a 
+aquisição de participação de 51% na empresa, totalizando 100%. Posteriormente, em 26 de junho de 2025, 
+incorporou a Eletropar, que foi extinta. Os comentários sobre o resultado referentes à " holding Eletrobras" 
+também passam a considerar a partir desta data os resultados da Eletronet.
+Para as comparações entre o 2 T25 e o 2T24, considerou-se para o 2T24, por simplificação, a soma da holding 
+Eletrobras, da Eletropar e de Furnas consolidada, incluindo as 7 SPEs, visto que as eliminações são irrelevantes 
+tanto no resultado operacional (receita e EBITDA) como no resultado financeiro.
+ 
+Relatório de Resultados 2T25 59
+1 Aparecida, Jaraqui, Tambaqui, Cristiano Rocha, Manauara e Ponta Negra.
+
+[p. 60]
+11.4. Anexo 4 - DRE Regulatória vs. IFRS
+Considerando a DRE regulatória frente ao societário, as diferenças de tratamento contábil em ambos os 
+regimes geraram um efeito positivo de R$ 4.640 milhões no EBITDA antes das participações societárias e R$ 
+2.573 milhões no lucro líquido.
+Gráfico 10 - EBITDA Regulatório x IFRS (R$ mm)
+1.259
+-606
+1.036
+-92
+146
+-16
+3.433
+-78
+610 130 5.820
+EBITDA 
+IFRS
+Receita 
+Bruta
+Construção Energia 
+Comprada 
+de PIEs
+Encargos 
+sobre uso 
+da rede
+PMSO Remensuração 
+Regulatória
+Eq. 
+Patrimonial
+Resultado 
+da 
+alienação 
+de ativos
+Provisão EBITDA 
+Regulatório
+Gráfico 11 - Lucro Líquido Regulatório x IFRS (R$ mm)
+-1.325 -606
+1.036
+-92
+146
+-16
+3.433
+-78
+610 130
+-483 -73
+-1.432
+1.248
+Lucro 
+Líquido 
+IFRS
+Receita 
+Bruta
+Construção Energia 
+Comprada 
+de PIEs
+Encargos 
+sobre uso 
+da rede
+PMSO Remensuração 
+Regulatória
+Eq. 
+Patrimonial
+Resultado 
+da 
+alienação 
+de ativos
+Provisão Depreciação Resultado 
+Financeiro
+IR & CSLL Lucro 
+Líquido 
+Regulatório
+A diferença entre o lucro líquido regulatório e IFRS pode também ser analisada reorganizando-se as linhas da 
+DRE. É possível agrupá-las de acordo com a natureza operacional dos eventos. Esse exercício consiste em 
+segmentá-las entre (a) transmissão, (b) geração, (c) participações societárias e (d) outros, que inclui provisões, 
+resultado financeiro e impostos. 
+Como resultado, a maior parte da diferença no lucro líquido regulatório X IFRS passa a ser essencialmente 
+explicada pelo tratamento contábil particular aplicado à transmissão em cada uma das visões, e que gera um 
+efeito positivo em R$ 3.538 milhões no lucro líquido regulatório considerando as operações deste segmento 
+em empresas consolidadas. 
+Gráfico 12 - Lucro Líquido Regulatório x IFRS por Segmento (R$ mm) 
+-1.325
+3.538
+561
+-78
+-1.447
+1.248
+Lucro Líquido 
+IFRS
+Transmissão Geração Participações 
+Societárias
+Outros Lucro Líquido 
+Regulatório
+ 
+Relatório de Resultados 2T25 60
+
+[p. 61]
+Transmissão: efeito positivo de R$ 3.538 milhões
+Gráfico 13 - Efeitos de Transmissão (R$ mm) 
+-591 -486
+1.036
+146
+3.433 3.538
+Receita Bruta Construção Encargos 
+sobre uso da 
+rede
+Remensuração 
+Regulatória
+Depreciação Total
+• -R$ 591 milhões na receita bruta, incluindo dois efeitos:
+(a) no regulatório, a receita é reconhecida pelo regime de caixa, a partir do faturamento das 
+concessionárias de transmissão, enquanto no societário a receita considera o valor do ativo contratual, 
+que é um efeito não-caixa;
+(b) a diferença na forma como o valor de encargo de uso de rede pago pelas geradoras da Eletrobras 
+às transmissoras do próprio grupo é eliminado da receita de transmissão, acompanhando o regime 
+caixa no regulatório. Já no societário, considera-se uma das parcelas não-caixa da receita de 
+transmissão: a receita de operação e manutenção.
+• R$ 1.036 milhões, referente ao custo de construção, reconhecido apenas na visão societária;
+• R$ 146 milhões, como contrapartida da eliminação na receita de transmissão citada no item (b) acima, 
+registrado no custo com encargo de uso de rede da geração, no mesmo montante, mas com sinal 
+invertido;
+• R$ 3.433 milhões , em remensuração regulatória, reflexo das mudanças do fluxo de pagamento do 
+componente financeiro da RBSE dos contratos prorrogados pela Lei nº 12.783/2013, para os ciclos 
+2025-26, 2026-27 e 2027-28, em face da decisão da diretoria da ANEEL na 20ª Reunião Pública 
+Ordinária em 10 de junho de 2025.
+• -R$ 483 milhões, referente à maior depreciação no regulatório, refletindo a depreciação de linhas de 
+transmissão e subestações, enquanto no societário esse efeito não ocorre sobre o ativo contratual. 
+Geração: efeito positivo de R$ 561 milhões
+Gráfico 14 - Efeitos de Geração (R$ mm)
+-15 -92 -28
+15 71
+610 561
+Receita 
+Amazonas
+Provisão/Reversão 
+Amazonas
+Energia 
+Comprada de 
+PIEs
+Energia Comprada - 
+Depreciação/Encargos
+Resultado da 
+alienação de 
+ativos
+GAG Melhoria 
+(Reversão de 
+Provisão)
+Total
+• No 2T25, a diferença negativa de R$ 15 milhões na receita é explicada pela inadimplência em parte da 
+energia vendida para Amazonas Energia, sendo compensada por provisão de igual valor no regulatório. 
+ 
+Relatório de Resultados 2T25 61
+
+[p. 62]
+No regulatório, o faturamento é reconhecido na receita e inteiramente provisionado, enquanto no 
+societário, não é reconhecido. 
+• Energia comprada de Produtores Independentes (PIEs): no regulatório, é reconhecida uma despesa 
+com energia comprada para revenda no valor de R$ 92 milhões, enquanto no societário, o contrato de 
+compra é tratado como arrendamento, e assim, é reconhecido apenas a depreciação do ativo de 
+direito de uso e a despesa com encargos do passivo de arrendamento no resultado financeiro, nos 
+valores de R$ 4 milhões e R$ 67 milhões, respectivamente. O efeito líquido total é negativo em R$ 21 
+milhões no regulatório.
+• Resultado de alienação de ativos: a diferença de R$ 610 milhões é explicada pela não ocorrência no 
+regulatório da baixa do saldo contábil ligado aos contratos de arrendamento reconhecidos em função 
+da energia comprada de PIEs na região Norte, revendida à Amazonas Energia. Tais compromissos, no 
+societário, geram um ativo de direito de uso, sem contrapartida no balanço regulatório, e que foi 
+baixado após a venda das térmicas do Amazonas.
+• GAG Melhoria: no societário, essa obrigação é revertida na linha de provisão, respeitando a curva de 
+descotização das usinas, no valor de R$ 28 milhões. No regulatório, não é reconhecido.
+Equivalência Patrimonial: efeito negativo de R$ 78 milhões
+• Reflexo, principalmente, do resultado de participações no segmento de transmissão.
+Outras Linhas: efeito negativo de R$ 1.447 milhões
+• Diferenças no reconhecimento em diversas linhas de provisão, resultado financeiro e imposto.
+• Destaca-se a diferença na linha de imposto que, com valor de R$ 1.432 milhões, explica praticamente 
+toda a diferença, refletindo a diferença entre as bases tributárias regulatória e societária.
+11.5. Anexo 5 - EBITDA IFRS
+Tabela 41 - EBITDA IFRS Ajustado (R$ Mil)
+2T25 2T24 % 1T25 % 6M25 6M24 %
+Resultado do Exercício -1.325 1.743 -176,0 -354 274,7 -1.679 2.073 -181,0
++ Resultado da Operação Descontinuada 0 0 0,0 0 0,0 0 0 0,0
+Resultado do Exercício, operação Continuada -1.325 1.743 -176,0 -354 274,7 -1.679 2.073 -181,0
++ Provisão Imposto de Renda e Contribuição Social -1.102 -1.203 -8,4 65 n.m. -1.037 -898 15,5
++ Resultado Financeiro 2.555 2.922 -12,6 3.494 -26,9 6.049 5.910 2,4
++ Amortização e Depreciação 1.131 968 16,9 1.112 1,7 2.244 1.965 14,2
+EBITDA 1.259 4.430 -71,6 4.318 -70,8 5.576 9.050 -38,4
+Ajustes Receitas 109 0 0,0 0 0,0 109 0 0,0
+Ajustes Custos e Despesas 3.661 171 n.m. 191 n.m. 3.853 203 n.m.
+Ajustes Provisões -43 -396 -89,0 41 -206,6 -3 -514 -99,5
+Ajustes Resultado da Alienação de Ativos 105 115 -8,5 0 0,0 105 115 -8,5
+Ajustes Outras Receitas e Despesas -57 2 n.m. -133 -57,4 -190 -3 n.m.
+Ajustes Participações Societárias 116 0 0,0 0 0,0 116 0 0,0
+EBITDA IFRS Ajustado 5.151 4.322 19,2 4.416 16,6 9.567 8.852 8,1
+ 
+Relatório de Resultados 2T25 62
+
+[p. 63]
+11.6. Anexo 6 - Receita Societária de Geração
+A tabela a seguir mostra a abertura de Receita de Geração Societária em linha com as demonstrações 
+contábeis. A receita com suprimento é obtida com clientes que não sejam consumidores finais, como por 
+exemplo distribuidores, comercializadores e geradores - contratos no ACR e ACL. Já a receita com 
+fornecimento é obtida diretamente com consumidores finais, como por exemplo indústria e comércio, apenas 
+contratos no ACL.
+Tabela 42 - Receita Bruta 2T25 (R$ mm)
+ 
+2T25
+Eletrobras 
+Holding Chesf Eletronorte CGT Eletrosul Total Eliminação Consolida do IFRS
+Suprimento 2.573 255 1.411 200 4.439 -64 4.374
+Fornecimento 245 55 78 55 433 0 433
+CCEE 283 406 819 26 1.534 0 1.534
+Receita de operação e manutenção 176 330 4 0 509 0 509
+Receitas de Geração 3.277 1.045 2.313 281 6.915 -64 6.851
+Itens não recorrentes – Ajustes 0 0 0 0 0 0 0
+Receita Geração Ajustada 3.277 1.045 2.313 281 6.915 -64 6.851
+Tabela 43 - Receita Bruta 2T24 (R$ mm)
+2T24
+Eletrobras 
++ Furnas e 
+Outros
+Chesf Eletronorte CGT Eletrosul Total Eliminação Consolidado IFRS
+Suprimento 2.031 116 1.386 193 3.726 -2 3.724
+Fornecimento 307 77 398 9 792 0 792
+CCEE 48 207 258 1 514 0 514
+Receita de operação e manutenção 264 528 7 0 798 0 798
+Receitas de Geração 2.650 927 2.049 204 5.830 -2 5.828
+Itens não recorrentes – Ajustes 0 0 0 0 0 0 0
+Receita Geração Ajustada 2.650 927 2.049 204 5.830 -2 5.828
+11.7. Anexo 7 - Receita Societária de Transmissão
+A receita societária de transmissão foi de R$ 5.079 milhões no 2T25, acréscimo de 16% em relação ao 2T24, 
+com destaque para os aumentos de R$ 342 milhões na receita de Construção, R$ 334 milhões na receita 
+Contratual e R$ 7 milhões na receita de O&M. A receita de O&M está associada à operação e manutenção dos 
+ativos em operação; a de construção, aos investimentos realizados (apropriados e alocados) nos projetos em 
+andamento; e a contratual (financeira), à aplicação dos índices inflacionários aos saldos dos ativos de contrato 
+de cada concessão.
+Tabela 44 - Receita Operacional de Transmissão (R$ mm) 
+2T25 2T24 % 1T25 % 6M25 6M24 %
+Receitas de Transmissão 5.079 4.395 15,6 5.186 -2,1 10.264 8.954 14,6
+Receita de operação e manutenção 2.065 2.058 0,3 2.016 2,4 4.081 3.957 3,1
+Receita de Construção 1.063 721 47,5 746 42,5 1.809 1.306 38,5
+Receita Contratual – Transmissão 1.951 1.616 20,7 2.424 -19,5 4.374 3.690 18,5
+Itens não recorrentes – Ajustes 0 0 0,0 0 0,0 0 0 0,0
+Receita Operacional de Transmissão Ajustada 5.079 4.395 15,6 5.186 -2,1 10.264 8.954 14,6
+ 
+Relatório de Resultados 2T25 63
+
+[p. 64]
+11.8. Anexo 8 - Receita Regulatória de Transmissão - Parcela de Ajuste (PA)
+A Parcela de Ajuste (PA) do ciclo tarifário atual é o mecanismo utilizado pelo regulador, previsto em contrato, 
+para compensar o déficit ou superávit de receita ocorrido no ciclo tarifário anterior, ou seja, corresponde ao 
+ajuste entre os valores recebidos e os permitidos no ciclo tarifário anterior, compensado em 12 parcelas 
+mensais iguais no ciclo atual. Pode ser positivo ou negativo, conforme tenha sido o saldo de cada agente.
+A tabela a seguir apresenta as aberturas das PA para os ciclos 2024/2025 e 2025/2026 estabelecidas por meio 
+das Resoluções Homologatórias 3.348/2024 e 3.481/2025, no âmbito dos Reajustes Anuais das RAP. 
+Adicionalmente, são apresentadas para os ciclos tarifários seguintes (2026/2027 e 2027/2028) as PAs Revisão 
+estabelecidas pela ANEEL no âmbito dos processos de revisão periódica da RAP dos contratos de concessão 
+renovados e licitados já homologadas pela ANEEL até o ciclo 2025/2026.
+Tabela 45 - Parcela de Ajuste (PA) (R$ mm)
+Contratos de Concessão Prorrogados por meio da Lei 
+12.783/2012 
+Data base jun/24
+PA
+Ciclo 
+24/25
+PA
+Ciclo 
+25/26
+PA
+Ciclo 
+26/27
+PA
+Ciclo 
+27/28
+TOTAL
+PA Revisão Periódica da RAP - 2023 (I) (1) -811 509 509 509 718
+PA Postergação RTP 2023 (2) -1.316 -1.316
+RBSE - Componente Econômico -1.655 -1.655
+RBSE - O&M - PRT 579/2012 18 18
+Reforços e Melhorias com RAP Prévia -176 -176
+Reforços e Melhorias sem RAP Prévia (3) 496 496
+PA Retroatividade da Receita Revisada de Reforços e 
+Melhorias (4) 349 373 373 373 1.468
+Reforços e Melhorias com RAP Prévia 50 57 57 57 222
+Reforços e Melhorias sem RAP Prévia 299 316 316 316 1.246
+PA Outros Ajustes - RTP 2023 (5) 26 26
+PA Anuidade Melhorias (6) 131 136 136 136 540
+PA Reajuste Anual da RAP - ciclos 24/25 e 25/26 (II) -627 -887 -1.487
+PA Apuração (7) -623 -871 -1.494
+PA Autorizações de Reforços de Pequeno Porte sem RAP 
+(8) 5 4 10
+PA Qualidade DIT (9) 0 -1 -1
+PA Outros Ajustes 0 -1 -1
+PA TOTAL - Contratos de Concessão Prorrogados (I + II) -1.438 -377 509 509 -796
+Contratos de Concessão Licitados
+PA Revisão Periódica da RAP (III) (10) 19 17 12 8 56
+PA Reajuste Anual da RAP - ciclos 24/25 e 25/26 (IV) -110 -107 -217
+PA Apuração (7) -112 -108 -220
+PA Autorizações de Reforços de Pequeno Porte sem RAP 
+prévia (8) 2 1 3
+PA Qualidade DIT (9) 0 -0 0
+PA Outros Ajustes 0 -0 0
+PA TOTAL - Contratos de Concessão Licitados (III + IV) -91 -90 12 8 -160
+PA TOTAL - Reajuste Anual (Prorrogadas + Licitadas) -1.529 -467 522 517 -956
+ 
+Relatório de Resultados 2T25 64
+
+[p. 65]
+(1) PA ciclo 24/25 (antes dos Recursos Administrativos) - Parcela de Ajuste estabelecida na Resolução Homologatória 3.344/2024, que define o resultado da Revisão Periódica 
+da RAP dos Contratos de Concessão 057/2001, 058/2001, 061/2001 e 062/2001 prorrogados por meio da Lei 12.783/2013, resultado da Consulta Pública (CP) ANEEL 12/2024. 
+PA ciclos 25/26, 26/27 e 27/28 - Parcela de Ajuste estabelecida no Despacho 1.228/2025, publicado em 24.04.2025, em que a Agência decide dar provimento parcial aos 
+Recursos Administrativos interpostos em face da Resolução Homologatória nº 3.344/2024, que define o resultado da Revisão Periódica da RAP dos Contratos de Concessão 
+057/2001, 058/2001, 061/2001 e 062/2001 prorrogados por meio da Lei 12.783/2013, resultado da Consulta Pública (CP) ANEEL 12/2024. Ressalta-se que os efeitos do 
+Despacho 1.228/2025 serão refletidos de forma efetiva ao longo do ciclo 2025-2026 da RAP.
+(2) PA Postergação: relativa às diferenças financeiras decorrentes da postergação da revisão periódica da RAP dos contratos de concessão prorrogados de 01/07/2023 para 
+01/07/2024, conforme Despacho nº 402/2023. PA a ser compensada em parcela única. Valores definidos na ReH 3.344/2024. 
+(3) Inclui anuidades (adiantamentos financeiros) para execução de Melhorias de Pequeno Porte referente ao ciclo 2023-2024. Valor do ciclo 24/25 estabelecido na ReH 
+3.344/2024.
+(4) PA Retroatividade: relativa à retroatividade das parcelas adicionais de RAP dos reforços e melhorias que estão passando pela primeira revisão periódica (base 
+incremental), no período compreendido entre a sua data de entrada em operação comercial até 30.06.2023, conforme previsto no Submódulo 9.7 do PRORET, já descontadas 
+das anuidades para adiantamento de parte dos valores de receita associados à execução das melhorias de pequeno porte sem receita previa. PA a ser compensada em 
+parcelas iguais até a revisão subsequente em julho/2028. Valores do ciclo 24/25 definidos na ReH 3.344/24 (antes dos recursos) e dos ciclos 25/26, 26/27 e 27/28 
+estabelecidos no Despacho 1.228/2025 (pós-recursos).
+(5) PA Outros Ajustes - RTP 2023: refere-se aos demais ajustes conforme Notas Técnicas nº 58/2024 e nº 103/2024-STR/ANEEL, que subsidiaram a CP 12/2024. PA a ser 
+compensada em parcela única. Valores do ciclo 24/25 definidos na ReH 3.344/2024 (antes dos recursos).
+(6) PA Anuidade Melhorias: Financeiro anual para execução de melhorias de pequeno porte a ser considerado a partir do ciclo 2024-2025 até o ciclo 2027-2028. Valores do 
+ciclo 24/25 definidos na ReH 3.344/2024 e dos ciclos 25/26, 26/27 e 27/28 definidos no Despacho 1.228/2025 (pós-recursos). 
+(7) PA Apuração: compensa as diferenças oriundas do déficit ou superávit de arrecadação que ocorre na contabilização realizada pelo ONS. Valores dos ciclos 24/25 e 25/26 
+conforme ReH 3.348/2024 e ReH 3.481/2025, respectivamente. 
+(8) PA Autorizações de Reforços de Pequeno Porte sem RAP: considera a parcela da RAP relativa ao período que abrange a data da entrada em operação comercial da obra 
+conforme Termo de Liberação emitido pelo ONS, até 30 junho do ano i (junho do ciclo i-1), para os casos de reforços de pequeno porte autorizados com RAP estabelecida no 
+âmbito do Reajuste Anual da RAP. Valores dos ciclos 24/25 e 25/26 conforme ReH 3.348/2024 e ReH 3.481/2025, respectivamente. 
+(9) PA Qualidade DIT: refere-se ao valor a ser descontado das transmissoras devido à violação dos limites de continuidade dos pontos de conexão em DIT, conforme disposto 
+no PRODIST (Procedimento de Distribuição de Energia Elétrica no Sistema Elétrico Nacional). Valores dos ciclos 24/25 e 25/26 conforme ReH 3.348/2024 e ReH 3.481/2025, 
+respectivamente. 
+(10) Considera apenas a PA da Revisão homologada pela ANEEL para os contratos de concessão Licitados que passaram por revisão até o ano de 2025. Valores do ciclo 24/25 
+conforme ReH 3.348/2024 e valores dos ciclos 25/26, 26/27 e 27/28 conforme ReH 3.481/2025.
+ 
+Relatório de Resultados 2T25 65
+
+[p. 66]
+11.9. Anexo 9 - Componente Financeiro da RBSE (PRT 120/2016)
+Através da publicação das resoluções homologatórias nº 3.462/2025, 3.463/2025, 3.465/2025 e 3.468/2025, a 
+ANEEL aprovou novo fluxo de receitas associado ao componente financeiro da RBSE.
+Tal resultado decorre da publicação do Despacho ANEEL nº 1.746/2025 que julgou recursos administrativos 
+interpostos pela Associação Brasileira dos Investidores em Autoprodução de Energia (ABIAPE), pela Energia 
+Sustentável do Brasil S.A. (ESBR) e pela Associação Brasileira de Grandes Consumidores Industriais de Energia e 
+Consumidores Livres (ABRACE). Por tratar-se de julgamento de recurso, tal decisão representa, no campo 
+administrativo, o fim das discussões a respeito desse tema.
+Conforme trecho a seguir do Despacho nº 1.746/2025, a decisão preservou grande parte da metodologia de 
+formação do valor a ser recebido pelas transmissoras, ajustando predominantemente os efeitos da 
+concatenação de fluxos de pagamento. No caso, o pagamento do componente financeiro da RBSE passará a 
+ser composto por 2 fluxos, respeitando o prazo de pagamento em 8 anos, definido na Portaria MME nº 
+120/2016, e as diferentes datas de início do efetivo pagamento das parcelas denominadas incontroversas 
+(jul/2017) e controversas (jul/2020).
+“(i) não conhecer dos pedidos de reconsideração … para capitalização de juros no fluxo de caixa com 
+discretização mensal; (ii) não conhecer dos pedidos de reconsideração … para modificação da aplicação 
+da metodologia de cálculo do fluxo de caixa, realizado de forma antecipada na fase de capitalização e 
+postecipada na fase de amortização, dada preclusão administrativa e a inexistência de erro material; 
+(iii) conhecer e, no mérito, dar provimento aos Pedidos de Reconsideração … para modificação da base 
+da aplicação do custo de capital próprio das transmissoras, de modo que o ke seja incorporado até o 
+ano de 2017, início do efetivo pagamento, de forma a manter o fluxo de pagamento da receita 
+incontroversa até o ano de 2025 e, um segundo fluxo deve ser realizado para a receita controversa em 
+2020, com atualização pelo ke até esta data, que constitui seu efetivo pagamento, finalizando em 
+2028; (iv) corrigir, de ofício, a utilização do custo médio ponderado de capital (WACC), atualizado nas 
+datas das revisões tarifárias para o componente financeiro da Rede Básica do Sistema Existente 
+(RBSE)"
+Como resultado, a parcela homologada de receita anual desse componente para as empresas Eletrobras 
+passou a ser de R$ 5.504.404 mil, a preços de jun/2025, representando uma redução de cerca de 20% em 
+relação aos valores homologados anteriormente. Esse valor será recebido entre jul/2025 e jun/2028, conforme 
+tabela a seguir:
+Tabela 46 - Componente financeiro da RBSE revisado (R$ mm)
+Concessionária Contrato 2025/26 2026/27 2027/28
+Chesf 061/2001 1.676 1.676 1.676
+Eletronorte 058/2001 782 782 782
+CGT Eletrosul 057/2001 366 366 366
+Eletrobras Holding 062/2001 2.680 2.680 2.680
+Total 5.504 5.504 5.504
+Fonte: ANEEL
+Referência de preços: junho/2025
+ 
+Relatório de Resultados 2T25 66
+
+[p. 67]
+11.10. Anexo 10 - RTP da RAP 2025 dos Contratos de Concessão Licitados
+O resultado da Revisão Tarifária Periódica (RTP) da Receita Anual Permitida (RAP) dos Contratos de Concessão 
+de Transmissão Licitados de 2025 foi estabelecido por meio Resolução Homologatória nº 3.475/2025, 
+publicada em 24.06.2025, resultado da Consulta Pública 17/2025. A revisão ensejou o índice de 
+reposicionamento (IRR) de +3,62%, com acréscimo de RAP de aproximadamente R$ 8,5 milhões. Foi também 
+definida Parcela de Ajuste (PA) Retroatividade Anual, no valor de + R$ 1,9 milhão, a preços de jun/25, a ser 
+paga nos próximos 5 ciclos tarifários. A seguir é apresentada a abertura do resultado da Revisão Periódica de 
+2025 para as empresas Eletrobras, por concessionária, contrato e parcela da RAP.
+Tabela 47 - RAP antes e depois da RTP dos contratos licitados, RAP Total (leilão + reforço e melhoria) (R$)
+Concessionária Contrato RAP Vigente Jun/2024 RAP Revisada Jun/2025 Impacto Variação (%)
+Chesf 017/2009 44.506.119 49.317.946 4.811.826 -10,8
+Chesf 018/2009 11.082.066 11.250.262 168.196 -1,5
+Eletronorte 021/2009 103.046.656 105.227.111 2.180.456 -2,1
+Eletronorte 022/2009 57.159.138 58.167.068 1.007.930 -1,8
+Eletrobras Holding 028/2009 17.248.809 17.511.092 262.283 -1,5
+Total 233.042.788 241.473.479 8.430.690 -3,6
+Tabela 48 - RAP antes e depois da RTP dos contratos licitados, RAP do leilão (R$)
+Concessionária Contrato RAP Vigente Jun/2024 RAP Revisada Jun/2025 Impacto Variação (%)
+Chesf 017/2009 36.139.620 36.660.971 521.352 -1,4
+Chesf 018/2009 11.082.066 11.250.262 168.196 -1,5
+Eletronorte 021/2009 97.090.991 98.526.921 1.435.930 -1,5
+Eletronorte 022/2009 55.456.669 56.254.960 798.290 -1,4
+Eletrobras Holding 028/2009 17.248.809 17.511.092 262.283 -1,5
+Total 217.018.155 220.204.206 3.186.051 -1,5
+Tabela 49 - RAP antes e depois da RTP dos contratos licitados, RAP Reforço e Melhoria (R$)
+Concessionária Contrato RAP Vigente Jun/2024 RAP Revisada Jun/2025 Impacto Variação (%)
+Chesf 017/2009 8.366.500 12.656.974 4.290.474 -51,3
+Chesf 018/2009 0 0 0 n.m.
+Eletronorte 021/2009 5.955.665 6.700.190 744.526 -12,5
+Eletronorte 022/2009 1.702.469 1.912.108 209.639 -12,3
+Eletrobras Holding 028/2009 0 0 0 n.m.
+Total 16.024.633 21.269.273 5.244.639 -32,7
+Tabela 50 - PA Retroatividade, resultado da RTP dos contratos licitados (R$)
+Concessionária Contrato PA Total Anual Jun/2025
+Chesf 017/2009 1.912.361
+Chesf 018/2009 0
+Eletronorte 021/2009 -16.971
+Eletronorte 022/2009 -3.556
+Eletrobras Holding 028/2009 0
+Total 1.891.834
+ 
+Relatório de Resultados 2T25 67
+
+[p. 68]
+11.11. Anexo 11 - Reajuste Anual da RAP ciclo 2025/2026
+Adicionalmente, foi definida Parcela de Ajuste – PA Retroatividade Anual, no valor de + R$ 1,9 milhão, a preços 
+de jun/25, a ser paga nos próximos 5 ciclos tarifários.
+O resultado do Reajuste Anual da Receita Anual Permitida (RAP) dos Contratos de Concessão de Transmissão 
+para o ciclo 2025/2026 foi estabelecido por meio Resolução Homologatória nº 3.481/2025, publicada em 
+17.07.2025.
+O reajuste implicou em redução da RAP em 2,6% em relação a RAP homologada para o ciclo 2024/2025 
+motivada principalmente pelo reposicionamento do componente financeiro da RBSE (conforme detalhado no 
+Anexo 9) e pelos ajustes de ofício aplicados pela ANEEL na análise dos recursos da RTP 2023 (conforme 
+detalhado no Anexo 10 do Release de Resultados do 1T25).
+Gráfico 15 - Reajuste Anual da Receita de Transmissão
+16.983 913 283 15 8
+-1.374 -201 -36 -20 -14 -19
+16.538
+-467
+16.071
+RAP 
+Ciclo 
+24/25
+IPCA/IGPM Reforços e 
+Melhorias
+O&M 
+Instalações
+Transferidas
+RTP 2025
+Licitados
+RBSE
+Componente 
+Financeiro
+Recursos 
+ciclo
+24/25
+Trajetória 
+AO&M
+Perfil 
+degrau
+Licitados
+RAP 
+Desativadas
+Outros RAP Ciclo 
+25/26
+PA RAP + PA 
+Ciclo 
+25/26
+▪ IPCA/IGPM: Correção monetária do ciclo 2025-2026, pelos índices IPCA de 5,32% (contratos prorrogados e 
+maior parte dos licitados) ou IGP-M de 7,02% (alguns contratos licitados).
+▪ Reforços & Melhorias: Adicional de RAP de Reforços e Melhorias que entraram em operação comercial ao 
+longo do ciclo 2024-2025.
+▪ O&M Instalações Transferidas: RAP adicional referente aos O&M de instalações de transmissão 
+transferidas ao longo do ciclo 2024-2025.
+▪ RTP 2025 Licitados: Resultado da RTP 2025 dos contratos de concessão licitados (conforme detalhado no 
+Anexo 10).
+▪ RBSE Componente Financeiro : Resultado 1 da decisão de diretoria da ANEEL referente ao acatamento 
+parcial dos pedidos de reconsideração dos grandes consumidores e autoprodutores de energia, com 
+relação ao Componente Financeiro da RAP RBSE (PRT 120/2016), sendo segregado os saldos controverso e 
+incontroverso no recebimento da remuneração de capital.
+▪ Recursos Ciclo 2024/2025: Resultado dos Recursos Administrativos associados ao Reajuste Anual da RAP 
+ciclo 2024/2025, que contempla também os resultados dos recursos associados à Revisão Periódica das 
+ 
+Relatório de Resultados 2T25 68
+1 Resultado na RAP RBSE Componente Financeiro, efeito das Resoluções Homologatórias 3.462/2025, 3463/2025, 3465/2025 e 3468/2025 que alteram as Resoluções 
+Homologatórias nº 3011/2022, 2935/2021, 2848/2021 e 2849/2021, em decorrência da análise pela ANEEL dos pedidos de reconsideração interpostos pela ABIAPE, ESBR e 
+ABRACE contra as citadas resoluções.
+
+[p. 69]
+RAP de 2024 dos contratos licitados e de 2023 dos contratos prorrogados (conforme detalhado, 
+respectivamente, nos Anexos 9 e 10 do Release de Resultados do 1T25).
+▪ Trajetória AO&M: Redução da RAP AO&M (PRT 579/2012) em decorrência da Trajetória dos Custos 
+Operacionais Eficientes, definida no âmbito da RTP 2023 dos contratos de concessão prorrogados, que 
+vigorará até o ciclo 2027-2028.
+▪ Perfil Degrau Licitados: Redução da RAP devido ao “perfil degrau”, dos contratos licitados que preveem a 
+redução de RAP a partir do 16º ano de operação comercial.
+▪ RAP Desativadas: Redução de RAP referente às desativações de instalações de transmissão ocorridas ao 
+longo do ciclo 2024-2025.
+▪ Parcela de Ajuste: Contempla: (i) PA Apuração 5 (-R$ 979 milhões) com efeitos não recorrentes; (ii) PA 
+Revisão - Retroatividade da receita revisada de Reforços e Melhorias da RTP 2023 dos CC prorrogados (+R$ 
+373 milhões) com efeitos recorrentes até ciclo 27/28; (iii) PA Revisão associada aos CC licitados (R$ +17 
+milhões); (iv) PA Anuidade Melhorias (+R$ 136 milhões); (v) PA Outros Ajustes (-R$ 18 milhões); (vi) PA 
+associada à retroatividade da RAP dos reforços de pequeno porte contemplados no âmbito do Reajuste 
+Anual (+R$ 5 milhões); e (vii) PA Qualidade DIT (-R$ 1 milhão). Ressalta-se que a PA Apuração foi, 
+predominante, formada pelos efeitos dos recursos da RTP 2023 e pelas parcelas pass through do rateio de 
+antecipação e fundo CDE recebidas mensalmente.
+11.12. Anexo 12 - Financiamentos e empréstimos concedidos (Recebíveis)
+Gráfico 16 - Recebíveis (R$ bilhões)
+0,9 0,5 0,4 0,4 0,4
+3,4
+6,0
+0,8 0,3 0,3 0,3 0,3
+2,5
+4,6
+Controladora Consolidado
+2025 2026 2027 2028 2029 Após 2029 TOTAL
+Não inclui PECLD de R$ 3.989 milhões e encargo circulante.
+ 
+Relatório de Resultados 2T25 69
+
+[p. 70]
+11.13. Anexo 13 - Conciliação Resultado Regulatório x IFRS
+Tabela 50 - Conciliação IFRS X Regulatória (R$ Mil)
+RECEITAS OPERACIONAIS
+Geração
+Suprimento 9.716.506 9.757.199 -40.693 7.407.769 8.321.429 -913.660
+Fornecimento 927.549 927.549 0 1.552.924 1.552.924 0
+CCEE 2.146.052 2.146.052 0 1.215.327 1.215.327 0
+Receita de operação e 
+manutenção 1.028.535 1.028.535 0 1.585.362 1.585.362 0
+Transmissão
+Receita de operação e 
+manutenção 4.080.926 3.787.716 293.210 3.956.675 3.722.513 234.162
+Receita de construção 1.808.870 0 1.808.870 1.306.404 0 1.306.404
+Receita contratual - 
+Transmissão 4.374.474 0 4.374.474 3.690.446 0 3.690.446
+Disponibilidade Do 
+Sistema De Transmissão 
+(Rap)
+0 5.122.962 -5.122.962 0 6.406.959 -6.406.959
+Outras receitas 220.746 220.746 0 135.985 134.162 1.823
+Deduções
+ (-) Encargos setoriais -1.364.726 -1.364.726 0 -1.290.915 -1.290.915 0
+ (-) ICMS -152.694 -152.694 0 -469.065 -469.065 0
+ (-) PASEP e COFINS -2.170.644 -2.170.644 0 -1.975.502 -1.975.502 0
+ (-) Outras Deduções -2.461 -2.461 0 -1.857 -1.857 0
+Receita operacional 
+líquida 20.613.133 19.300.234 1.312.899 17.113.553 19.201.337 -2.087.784
+CUSTOS OPERACIONAIS
+ Pessoal, Material e 
+Serviços -1.320.172 -1.320.172 0 -1.378.676 -1.378.219 -457
+ Energia comprada para 
+revenda -2.915.546 -3.190.541 274.995 -1.534.189 -1.885.260 351.071
+ Encargos sobre uso da 
+rede elétrica -1.951.072 -1.657.862 -293.210 -1.970.405 -1.736.243 -234.162
+ Combustível para 
+produção de energia 
+elétrica
+-781.976 -781.976 0 -969.786 -969.786 0
+ Construção -1.780.935 0 -1.780.935 -1.428.308 0 -1.428.308
+ Depreciação -947.842 -1.906.946 959.104 -857.205 -1.812.498 955.293
+Resultado CVM 
+- Societário
+Resultado 
+Regulatório Diferenças Resultado CVM - Societário Resultado Regulatório Diferenças
+30/06/2025 30/06/2024
+ 
+Relatório de Resultados 2T25 70
+
+[p. 71]
+Amortização -1.126.315 -1.129.694 3.379 -980.936 -993.169 12.233
+ Provisões operacionais 0 0 0 0 0 0
+ Outros Custos -99.434 -99.435 1 -30.238 -30.369 131
+Custos operacionais -10.923.292 -10.086.626 -836.666 -9.149.743 -8.805.544 -344.199
+RESULTADO BRUTO 9.689.841 9.213.608 476.233 7.963.810 10.395.793 -2.431.983
+DESPESAS OPERACIONAIS
+ Pessoal, Material e 
+Serviços -1.422.149 -1.429.216 7.067 -1.468.621 -1.493.523 24.902
+ Programa de Demissão 
+Voluntária -193.908 -193.908 0 -43.625 -43.625 0
+ Remuneração e 
+ressarcimento 0 0 0 0 0 0
+ Depreciação -106.627 -106.627 0 -104.613 -101.025 -3.588
+ Amortização -62.816 -62.816 0 -22.058 -22.058 0
+ Doações e 
+contribuições -40.086 -40.086 0 -60.042 -60.042 0
+ Provisões/Reversões 
+operacionais -259.625 86.091 -345.716 -68.963 -466.303 397.340
+Resultado da alienação de 
+ativos -105.460 504.251 -609.711 -115.215 -115.215 0
+ Outras despesas -213.309 -228.952 15.643 -274.533 -279.880 5.347
+Despesas operacionais -2.403.980 -1.471.263 -932.718 -2.157.670 -2.581.671 424.001
+Remensurações 
+regulatórias - Contratos 
+de transmissão
+-4.385.033 0 -4.385.033 0 0 0
+RESULTADO 
+OPERACIONAL ANTES DO 
+RESULTADO FINANCEIRO
+2.900.828 7.742.346 -4.841.518 5.806.140 7.814.122 -2.007.982
+RESULTADO FINANCEIRO -6.048.785 -6.283.908 235.123 -5.909.589 -6.193.939 284.350
+RESULTADO ANTES DAS 
+PARTICIPAÇÕES 
+SOCIETÁRIAS
+-3.147.957 1.458.438 -4.606.395 -103.449 1.620.183 -1.723.632
+Resultado das 
+participações societárias 241.625 166.439 75.186 1.276.208 1.075.502 200.706
+Outras receitas e 
+despesas 190.179 190.179 0 2.573 2.573 0
+Resultado CVM 
+- Societário
+Resultado 
+Regulatório Diferenças Resultado CVM - Societário Resultado Regulatório Diferenças
+30/06/2025 30/06/2024
+ 
+Relatório de Resultados 2T25 71
+
+[p. 72]
+RESULTADO 
+OPERACIONAL ANTES 
+DOS TRIBUTOS
+-2.716.153 1.815.056 -4.531.209 1.175.332 2.698.258 -1.522.926
+Imposto de renda e 
+contribuição social 
+correntes
+-332.852 -332.852 0 -494.202 -494.202 0
+Imposto de renda e 
+contribuição social 
+diferidos
+1.370.283 -98.423 1.468.706 1.392.081 990.016 402.065
+LUCRO LÍQUIDO DAS 
+OPERAÇÕES 
+CONTINUADAS
+-1.678.722 1.383.780 -3.062.502 2.073.211 3.194.072 -1.120.861
+0 0
+Parcela atribuída aos 
+controladores -1.677.488 1.385.014 -3.062.502 2.068.356 3.189.997 -1.121.641
+Parcela atribuída aos não 
+controladores -1.234 -1.234 0 4.855 4.075 780
+LUCRO LÍQUIDO 
+(PREJUÍZO) DA 
+OPERAÇÃO 
+DESCONTINUADA
+0 0 0 0 0 0
+Parcela atribuída aos 
+controladores 0 0 0 0 0 0
+Parcela atribuída aos não 
+controladores 0 0 0 0 0 0
+LUCRO LÍQUIDO DO 
+PERÍODO -1.678.722 1.383.780 -3.062.502 2.073.211 3.194.072 -1.120.861
+Parcela atribuída aos 
+controladores -1.677.488 1.385.014 -3.062.502 2.068.356 3.189.997 -1.121.641
+Parce

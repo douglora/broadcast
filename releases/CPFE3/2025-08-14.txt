@@ -1,0 +1,3110 @@
+[p. 1]
+VIDEOCONFERÊNCIA
+18 de agosto de 2025
+Horário: 11h00 (BRT) | 10h00 (ET)
+Videoconferência em português com 
+tradução simultânea para o inglês
+Clique aqui ou pelo QR Code
+Energia para um futuro 
+mais sustentável
+Resultados 2T25
+
+[p. 2]
+Chegamos ao fim de mais um semestre com resultados 
+consistentes e robustos. Neste trimestre, alcançamos um 
+EBITDA de R$ 3 bilhões, um crescimento de 6,7%, e Lucro 
+Líquido de R$ 1,2 bilhão, crescimento de 7,8%. Destaque 
+também para o PMSO, que teve queda de 1,8% no período, 
+favorecido pela redução da PDD e pelo efetivo controle de 
+custos em todos os nossos segmentos.
+No segmento de Distribuição, destaque para a queda na 
+inadimplência, que voltou a níveis próximos do nosso histórico, 
+com um indicador de 0,82% (PDD/Receita de Fornecimento), 
+favorecida pelo menor ticket médio, em consequência de 
+temperaturas mais amenas este ano. Além disso observamos 
+uma massa de renda real ainda em crescimento. Importante 
+ressaltar também que continuamos com nossas equipes 
+mobilizadas na execução de todas das ações para o controle da 
+inadimplência. Nas vendas de energia, destaque para a classe 
+industrial que vem mostrando números positivos nos últimos 
+trimestres e no 2T25 obteve um crescimento de 1,9%. 
+Tivemos ainda os efeitos positivos dos reajustes tarifários 
+sobre 
+Mensagem do Presidente
+sobre a parcela B, com destaque para o repasse de IGP-M, descontado do Fator X, de 7,53% 
+no reajuste tarifário da CPFL Paulista, em abril de 2025. 
+No segmento de Geração, destacamos a melhor safra de ventos, com um crescimento de 
+28% em relação ao mesmo período de 2024. Em contrapartida, continuamos com as 
+restrições de geração impostas pelo ONS (curtailment), que também cresceram em relação ao 
+mesmo período de 2024, atingindo 24,3% da geração do período. No líquido, tivemos uma 
+geração 11,9% maior no 2T25. Outro ponto importante foi a conclusão da venda de nossa 
+participação na Epasa, em linha com os nossos compromissos ESG; agora nosso portfolio de 
+geração é 100% renovável!
+Nossos investimentos continuam elevados. Nesse trimestre, realizamos um total de R$ 1,4 
+bilhão, com destaque para os R$ 1,2 bilhão investidos no segmento de Distribuição e os R$ 
+166 milhões em Transmissão, destinados principalmente à composição da base de ativos 
+(BRR). Já são R$ 2,7 bilhões no semestre e nossa estimativa é atingir um Capex de R$ 6,5 
+bilhões para todos os negócios do grupo em 2025.
+Com relação a nossa disciplina financeira, gestão de caixa e otimização da estrutura de 
+capital, apresentamos ao fim desse trimestre uma alavancagem de 2,07x Dívida 
+Líquida/EBITDA, no critério de medição dos covenants financeiros, e posição de caixa de R$ 
+4,2 bilhões. Outro ponto importante foi a aprovação em AGO, ocorrida em 29 de abril, de 
+dividendos relativos aos resultados de 2024, no montante de R$ 3,2 bilhões, ou R$ 2,79/ação.
+Encerro essa mensagem com um destaque muito importante para o mercado de capitais. A 
+CPFL Energia conseguiu rating global “Baa2” pela Moody’s, sendo esta nota 2 níveis acima do 
+rating soberano. Com esse reconhecimento, abrimos novas possibilidades de financiamento 
+no exterior, a custos bastante atrativos, garantindo o financiamento para nosso plano de 
+investimentos nos próximos anos. Seguimos ainda mais motivados a sempre buscar a 
+excelência na gestão operacional e financeira de nossos ativos, com foco constante na 
+qualidade dos nossos processos e sempre atentos a oportunidades de crescimento com 
+potencial de geração de valor para nossos acionistas. Agradeço a todos que nos acompanham 
+e seguimos juntos nessa jornada.
+ Gustavo Estrella
+Presidente da CPFL Energia
+
+[p. 3]
+Resultados 2T25
+Resumo dos Principais Indicadores 
+Notas:
+(1) O EBITDA é calculado a partir da soma do lucro líquido, impostos, resultado financeiro e depreciação/amortização, conforme Resolução CVM 
+156/22. Vide cálculo no item 2.1 deste relatório;
+(2) No critério dos covenants financeiros, que considera a participação da CPFL Energia nos projetos de geração;
+(3) Não inclui obrigações especiais.
+Os dados que constam desse release bem como um maior detalhamento deles estão 
+disponíveis em Excel, na Base Histórica de Informações da CPFL Energia, 
+disponível no site de RI. Para acessá-la, clique aqui.
+Em caso de dúvidas, Fale com o RI.
+R$ Milhões 2T25 2T24 D R$ D % 1S25 1S24 D R$ D %
+Carga na Área de Concessão | GWh 17.340 17.738 (399) -2,2% 37.084 37.161 (77) -0,2%
+Vendas na Área de Concessão | GWh 17.974 18.271 (298) -1,6% 36.891 36.896 (5) 0,0%
+Mercado Cativo 8.983 10.207 (1.224) -12,0% 19.451 21.261 (1.809) -8,5%
+Cliente Livre 8.991 8.064 927 11,5% 17.440 15.636 1.804 11,5%
+Receita Operacional Bruta 15.101 14.212 889 6,3% 30.511 29.199 1.313 4,5%
+Receita Operacional Líquida 10.549 9.662 887 9,2% 21.204 19.828 1.377 6,9%
+EBITDA(1) Consolidado 3.028 2.837 191 6,7% 6.880 6.702 177 2,6%
+Distribuição 2.066 1.690 376 22,2% 4.658 4.226 432 10,2%
+Geração 806 856 (50) -5,9% 1.661 1.811 (150) -8,3%
+Transmissão 171 233 (63) -26,8% 531 490 41 8,4%
+Comercialização, Serviços & Outros (15) 57 (72) - 30 176 (146) -83,2%
+Lucro Líquido Consolidado 1.186 1.100 85 7,8% 2.801 2.855 (54) -1,9%
+Distribuição 847 565 282 50,0% 1.941 1.723 218 12,7%
+Geração 381 431 (50) -11,5% 781 906 (124) -13,7%
+Transmissão 39 102 (62) -61,4% 219 226 (7) -3,1%
+Comercialização, Serviços & Outros (82) 3 (85) - (140) 1 (141) -
+Dívida Líquida(2) 27.287 26.250 1.037 4,0% 27.287 26.250 1.037 4,0%
+Dívida Líquida / EBITDA (2) 2,07 2,01 - 3,0% 2,07 2,01 - 3,0%
+Investimentos(3) 1.422 1.353 69 5,1% 2.660 2.447 213 8,7%
+Preço da Ação (R$/ação) 40,86 32,73 8,13 24,8% 40,86 32,73 8,13 24,8%
+Volume Médio Diário 56 67 (11) -16,2% 67 69 (3) -3,6%
+
+[p. 4]
+Dívida Liquida 
+R$ 27,3
+bilhões e alavancagem 
+de 2,07x (Dívida 
+Líquida/ EBITDA²)
+Resultados 2T25
+Destaques
+1) Carga líquida de perdas; 2) No critério dos covenants financeiros.
+EBITDA 
+R$ 3.028
+milhões (+6,7%)
+Lucro Líquido 
+R$ 1.186
+milhões (+7,8%)
+Carga na Área de 
+Concessão1 
+-2,2%
+CAPEX
+R$ 1.422 
+milhões (+5,1%)
+PDD
+Distribuição
+-37,3%
+Ocorreram os Reajustes 
+Tarifários Anuais (RTAs) 
+das distribuidoras CPFL 
+Paulista e RGE com 
+aumentos na Parcela B 
+de 7,53% e 4,90% 
+respectivamente
+No processo de Renovação 
+de Concessões, a ANEEL 
+aprovou o pedido de 
+prorrogação antecipada das 
+distribuidoras CPFL 
+Piratininga e RGE, e 
+aguardam a decisão do MME
+A Moody’s atribuiu à 
+CPFL Energia o Rating 
+Corporativo Global 
+"Baa2“, dois níveis
+acima do rating
+soberano
+
+[p. 5]
+Uso Público CPFL 
+ 
+ 
+Índice 
+ 
+1) PERFORMANCE ECONÔMICO-FINANCEIRA DA CPFL ENERGIA ................................. 6 
+1.1) Desempenho Econômico-Financeiro................................................................................... 6 
+1.2) Endividamento ................................................................................................................ 11 
+1.2.1) Dívida Financeira no Critério IFRS .................................................................................. 11 
+1.2.2) Dívida no Critério dos Covenants Financeiros ................................................................. 12 
+1.3) Investimentos ................................................................................................................. 13 
+1.3.1) Investimentos Realizados por Segmento ........................................................................ 13 
+1.3.2) Investimentos Previstos ................................................................................................ 13 
+ 
+2) SUSTENTABILIDADE E INDICADORES ESG .............................................................. 14 
+2.1) Plano ESG 2030 .............................................................................................................. 14 
+2.2) Principais Indicadores ...................................................................................................... 15 
+ 
+3) PERFORMANCE DOS NEGÓCIOS .............................................................................. 17 
+ 
+3.1) SEGMENTO DE DISTRIBUIÇÃO ............................................................................. 17 
+3.1.1) Desempenho Operacional ............................................................................................. 17 
+3.1.1.1) Carga Líquida de Perdas | Área de Concessão ............................................................. 17 
+3.1.1.2) Venda de Energia | Área de Concessão ....................................................................... 17 
+3.1.1.3) Inadimplência ............................................................................................................ 18 
+3.1.1.4) Perdas ...................................................................................................................... 19 
+3.1.1.5) DEC e FEC ................................................................................................................. 20 
+3.1.2) Eventos Tarifários ......................................................................................................... 20 
+3.1.3) Desempenho Econômico-Financeiro ............................................................................... 21 
+ 
+3.2) SEGMENTO DE GERAÇÃO ...................................................................................... 27 
+3.2.1) Desempenho Operacional ............................................................................................. 27 
+3.2.2) Desempenho Econômico-Financeiro ............................................................................... 27 
+ 
+3.3) SEGMENTO DE TRANSMISSÃO .............................................................................. 32 
+3.3.1) Portfólio ....................................................................................................................... 32 
+3.3.2) Desempenho Operacional ............................................................................................. 32 
+3.3.3) Temas Regulatórios ...................................................................................................... 33 
+3.3.4) Desempenho Econômico-Financeiro | Regulatório ........................................................... 36 
+3.3.5) Desempenho Econômico-Financeiro | IFRS .................................................................... 38 
+ 
+3.4) SEGMENTOS DE COMERCIALIZAÇÃO E SERVIÇOS ............................................... 39 
+3.4.1) Desempenho Econômico-Financeiro ............................................................................... 39 
+ 
+4) ANEXO ...................................................................................................................... 40 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Resultados 2T25
+
+[p. 6]
+6 
+ 
+ 
+Release de Resultados | 2T25 
+1) PERFORMANCE ECONÔMICO-FINANCEIRA DA CPFL ENERGIA 
+ 
+1.1) Desempenho Econômico-Financeiro 
+ 
+Nota: (1) O EBITDA é calculado a partir da soma do lucro líquido, impostos, resultado financeiro e depreciação/amortização. 
+ 
+Efeitos não caixa, itens extraordinários e outros 
+Destacamos abaixo os efeitos não caixa, itens extraordinários e outros de maior relevância 
+observados nos períodos analisados, como forma de facilitar o entendimento das variações nos 
+resultados da Companhia. 
+ 
+* Extraordinário. 
+ 
+Explicação dos itens extraordinários 
+ Impacto da venda da participação na Epasa (UTEs Termonordeste e Termoparaíba): 
+Em 10 de junho de 2025, foi concluído o processo de venda da participação societária 
+da CPFL Geração nas Centrais Elétricas da Paraíba S.A. – EPASA (“EPASA”). A venda 
+gerou um impacto negativo na baixa de ativos, relacionado principalmente ao benefício 
+da Superintendência do Desenvolvimento do Nordeste (“SUDENE”) (não-caixa) 
+(-R$ 153 milhões), parcialmente compensado pelo impacto positivo do valor da venda 
+R$ Milhões 2T25 2T24 D R$ D % 1S25 1S24 D R$ D %
+Receita Operacional Bruta 15.101 14.212 889 6,3% 30.511 29.199 1.313 4,5%
+Receita Operacional Líquida 10.549 9.662 887 9,2% 21.204 19.828 1.377 6,9%
+Receita Operacional Líquida (ex-rec. construção) 9.131 8.426 704 8,4% 18.628 17.569 1.059 6,0%
+Custo com Energia Elétrica (4.962) (4.392) (569) 13,0% (9.584) (8.721) (863) 9,9%
+PMSO, Previdência e PDD (1.313) (1.368) 55 -4,0% (2.490) (2.459) (31) 1,2%
+Custos com construção de infraestrutura (1.319) (1.149) (171) 14,9% (2.385) (2.121) (263) 12,4%
+Equivalência Patrimonial 73 84 (11) -13,1% 134 176 (42) -23,9%
+EBITDA1 3.028 2.837 191 6,7% 6.880 6.702 177 2,6%
+Depreciação e Amortização (603) (571) (32) 5,6% (1.193) (1.137) (56) 4,9%
+Resultado Financeiro (667) (716) 49 -6,9% (1.536) (1.532) (4) 0,3%
+Receitas Financeiras 463 378 84 22,3% 850 795 55 7,0%
+Despesas Financeiras (1.129) (1.094) (35) 3,2% (2.386) (2.327) (59) 2,5%
+Lucro Antes da Tributação 1.759 1.550 208 13,4% 4.151 4.034 117 2,9%
+Imposto de Renda e Contribuição Social (573) (450) (123) 27,3% (1.350) (1.178) (171) 14,5%
+Lucro Líquido 1.186 1.100 85 7,8% 2.801 2.855 (54) -1,9%
+Efeitos no EBITDA | R$ Milhões 2T25 2T24 D R$ D % 1S25 1S24 D R$ D %
+ Distribuição 323 7 316 754 348 406 
+Atualização do ativo financeiro da concessão (VNR) 425 206 219 106,3% 910 590 320 54,3%
+Despesas legais e judiciais (58) (53) (4) 7,8% (96) (92) (4) 4,2%
+Baixa de ativos (45) (49) 4 -8,3% (60) (53) (7) 14,0%
+Impacto Enchente - Rio Grande do Sul* - (97) 97 - - (97) 97 -
+Geração (21) 66 (87) (84) 43 (127) 
+Equivalência Patrimonial 73 84 (11) -13,1% 134 176 (42) -23,9%
+Despesas legais e judiciais (0) 0 (1) - (1) 2 (3) -
+Baixa de ativos (2) 1 (2) - (2) 2 (4) -
+Ajustes a Valor Justo de Lajeado (efeito não caixa)* - - - - 8 62 (54) -86,5%
+Impacto Venda Epasa* (92) - (92) - (92) - (92) -
+Impacto Enchente - Rio Grande do Sul* - (19) 19 - - (19) 19 -
+Transmissão (189) (1) (188) (150) (9) (141) 
+Despesas legais e judiciais (3) (10) 7 -68,5% (15) (23) 8 -35,0%
+Baixa de ativos 4 2 2 136,6% 8 2 5 217,9%
+Diferença do IFRS (-) Regulatório (40) 15 (55) - 122 19 104 557,3%
+Ajuste RBSE* (150) - (150) - (150) - (150) -
+Impacto Enchente - Rio Grande do Sul* - (9) 9 - - (9) 9 -
+
+[p. 7]
+7 
+ 
+ 
+Release de Resultados | 2T25 
+da participação (+R$ 60 MM); 
+ Ajuste RBSE : Em 10 de junho de 2025, a ANEEL decidiu sobre os pedidos de 
+reconsideração relacionados ao reperfilamento da RBSE, aprovando parcialmente as 
+recomendações da Nota Técnica nº 85/2023. Em decorrência dessa decisão, a CPFL 
+Transmissão reconheceu um ajuste de remensuração no valor de R$ 150 milhões . O 
+impacto no resultado regulatório será diluído até 2028 e será visto a partir de julho 
+desse ano, com a nova RAP homologada no RTA; 
+ Impacto da Enchente em 2024 – Rio Grande do Sul: 
+a. RGE (R$ 97 milhões): (i) baixa de ativos danificados , no montante de R$ 4 9 
+milhões, principalmente medidores e equipamentos de rede de distribuição e 
+subestação (R$ 43 milhões) e suas respectivas baixas n o ativo financeiro da 
+concessão (R$ 6 milhões); (ii) serviços relacionados à substituição de ativos 
+impactados, serviços de limpeza e infraestrutura, manutenção de frota, entre 
+outros, no montante de R$ 23 milhões, (iii) impacto na contratação de Rede Básica 
+(R$ 14 milhões) e (iv) impossibilidade de faturamento de clientes afetados pelas 
+enchentes, em valor estimado de R$ 12 milhões; 
+b. Ceran (R$ 19 milhões): (i) serviços de limpeza e infraestrutura, entre outros , no 
+montante de R$ 16 milhões; e (ii) baixa de ativos danificados, no montante de R$ 
+3 milhões; 
+c. CPFL Transmissão (R$ 9 milhões): (i) despesas de infraestrutura e manutenção, 
+entre outras, no montante de R$ 6 milhões; e (ii) baixa de ativos de infraestrutura, 
+no valor de R$ 3 milhões. 
+ 
+Para a análise do acumulado, o resultado também foi impactado pelo seguinte item: 
+ Ajustes a Valor Justo de Lajeado (efeito não caixa): Efeito positivo de R$ 8 milhões no 
+1S25, comparado ao efeito positivo de R$ 62 milhões no 1 S24, por conta da 
+remensuração a valor justo em investimento registrado na Paulista Lajeado. 
+ 
+Outros números relevantes para a análise do resultado 
+ 
+ 
+Para o resultado financeiro é importante destacar o seguinte efeito: 
+ Marcação a mercado (MTM) da Dívida : houve um a variação positiva decorrente d o 
+aumento na curva de spread de risco nesse trimestre , parcialmente compensado por 
+menores ganhos relacionados às novas captações . No acumulado, o ganho com novas 
+captações ainda é o principal efeito, junto com uma menor redução da curva de spread de 
+risco acumulada, se comparada ao ano passado. 
+ 
+ 
+Efeitos no EBITDA | Segmento de Transmissão 2T25 2T24 D R$ D % 1S25 1S24 D R$ D %
+EBITDA IFRS 171 233 (63) -26,8% 531 490 41 8,4%
+EBITDA Regulatório 211 218 (7) -3,3% 389 435 (46) -10,6%
+Diferença do IFRS (-) Regulatório (40) 15 142 54 
+Efeitos no Resultado Financeiro | R$ Milhões 2T25 2T24 D R$ D % 1S25 1S24 D R$ D %
+Acréscimos e multas moratórias 119 100 19 19,4% 242 219 23 10,6%
+Marcação a mercado (MTM) da Dívida 86 (12) 98 - 109 (150) 259 -
+
+[p. 8]
+8 
+ 
+ 
+Release de Resultados | 2T25 
+Receita Operacional Líquida por Segmento 
+ 
+ 
+No segmento de Distribuição, o aumento da receita de fornecimento (Cativo + TUSD) junto à 
+atualização do ativo financeiro da concessão geraram um crescimento da receita. 
+Para mais detalhes sobre a variação da receita operacional líquida por segmento, vide Capítulo 
+3 – Performance dos Negócios. 
+ 
+Custo com Energia Elétrica 
+ 
+ 
+Houve um crescimento nos custos com Energia Comprada para Revenda, tanto no trimestre 
+quanto no acumulado, principalmente por conta d o crescimento dos custos com Leilão, 
+Contratos Bilaterais e Curto Prazo. 
+Em relação aos Encargos de Uso do Sistema de Transmissão e Distribuição , as reduções 
+percebidas no trimestre e no acumulado decorrem dos encargos de Rede Básica, devido à queda 
+das tarifas do uso de transmissão a partir de jul/24 , conforme Resolução ANEEL n° 3.349/2024. 
+O mesmo ocorreu com o encargo de Transporte de Itaipu, devido às novas tarifas determinadas 
+na Resolução ANEEL nº 3.349/2024, e pelos novos montantes definidos em dez/24 no Despacho 
+n° 3.836/2024. 
+Além disso, nos encargos setoriais (ESS/EER) , o custo do ESS - Encargos de Serviço do 
+Sistema foi reduzido principalmente devido ao alívio retroativo gerado pela diferença de preços 
+entre os submercados do Sistema Interligado Nacional (SIN). Esse efeito foi parcialmente 
+compensado pelo EER - Encargos de Energia de Reserva , que registrou um aumento dos 
+custos, em decorrência do maior acionamento das usinas no trimestre, bem como pelo aumento 
+do PLD aplicado às liquidações de energia dos Contratos de Energia de Reserva na CCEE tanto no 
+trimestre quanto no acumulado. 
+Para mais detalhes sobre a variação do Custo com Energia Elétrica, vide Capítulo 3 – 
+Performance dos Negócios. 
+ 
+ 
+R$ Milhões 2T25 2T24 D R$ D % 1S25 1S24 D R$ D %
+Distribuição 8.816 8.029 787 9,8% 17.586 16.641 945 5,7%
+Geração 1.161 1.081 81 7,4% 2.224 2.157 67 3,1%
+Transmissão 423 485 (62) -12,8% 1.027 908 120 13,2%
+Comercialização 626 508 118 23,2% 1.262 971 291 30,0%
+Serviços 306 328 (22) -6,8% 609 624 (15) -2,5%
+Eliminações e Outros (784) (770) (14) 1,8% (1.503) (1.473) (31) 2,1%
+Receita Operacional Líquida 10.549 9.662 887 9,2% 21.204 19.828 1.377 6,9%
+R$ Milhões 2T25 2T24 D R$ D % 1S25 1S24 D R$ D %
+Itaipu 570 581 (11) -1,9% 1.101 1.076 26 2,4%
+PROINFA 118 92 26 28,7% 253 183 70 38,1%
+Leilão, Contratos Bilaterais e Curto Prazo 3.387 2.632 755 28,7% 6.489 5.319 1.170 22,0%
+Crédito de PIS e COFINS (352) (284) (68) 23,8% (680) (569) (111) 19,6%
+Energia Comprada para Revenda 3.723 3.020 703 23,3% 7.164 6.010 1.154 19,2%
+Encargos da Rede Básica 991 1.088 (96) -8,9% 2.025 2.156 (131) -6,1%
+Encargos de Transporte de Itaipu 78 110 (33) -29,5% 149 213 (64) -29,9%
+Encargos de Conexão 29 31 (2) -6,2% 55 58 (4) -6,0%
+Encargos de Uso do Sistema de Distribuição 10 11 (0) -4,2% 21 21 (0) -0,1%
+ESS / EER 256 282 (26) -9,2% 414 558 (143) -25,7%
+Crédito de PIS e COFINS (125) (149) 24 -16,1% (244) (294) 50 -17,1%
+Encargo 1.239 1.372 (133) -9,7% 2.420 2.712 (291) -10,7%
+Custo com Energia Elétrica 4.962 4.392 569 13,0% 9.584 8.721 863 9,9%
+
+[p. 9]
+9 
+ 
+ 
+Release de Resultados | 2T25 
+PMSO 
+ 
+* Extraordinário. 
+ 
+O PMSO no trimestre foi impactado pelo efeito total da venda da participação na Epasa, que gerou 
+um efeito negativo de R$ 92 milhões. Em contrapartida, houve uma variação positiva pelos efeitos 
+da Enchente no Rio Grande do Sul do 2T24, no total de R$ 93 milhões (para mais detalhes, vide 
+explicações no início do capítulo). Na análise do acumulado, o resultado também foi impactado 
+pela remensuração a valor justo em investimento registrado na Paulista Lajeado que gerou efeitos 
+positivos de R$ 8 milhões no 1S25 e de R$ 62 milhões no 1S24. 
+Expurgando esses itens extraordinários, o PMSO teria apresentado uma redução de 1,9% (R$ 23 
+milhões) decorrente dos seguintes fatores: 
+ MSO não ligado à inflação (reduções de R$ 32 milhões no trimestre e de R$ 25 
+milhões no acumulado ): redução na provisão para devedores duvidosos (PDD) , 
+parcialmente compensado pelo aumento na baixa de ativos; 
+ MSO ligado à inflação (redução de R$ 9 milhões no trimestre e aumento de R$ 
+23 milhões no acumulado ): menores despesas com auditoria e consultoria (R$ 7 
+milhões) no trimestre, enquanto no acumulado houve aumento em manutenção de 
+hardware/software (R$ 29 milhões); 
+ Pessoal (aumentos de R$ 18 milhões no trimestre e de R$ 36 milhões no 
+acumulado): o crescimento reflete principalmente os reajustes salariais decorrentes dos 
+acordos coletivos aplicados em 2024. 
+ 
+Demais custos e despesas operacionais 
+ 
+ 
+EBITDA 
+O EBITDA do trimestre foi impactado pelos efeitos extraordinários da venda da participação na 
+Epasa e do ajuste da RBSE no segmento de Transmissão, enquanto a base de comparação do 
+2T24 foi afetada pelos efeitos das enchentes no RS . Expurgando esses efeitos, o desempenho 
+seria positivo, explicado pela boa performance no PMSO e na PDD, pelo maior ativo financeiro da 
+concessão no segmento de Distribuição, pelos reajustes por IGP-M em contratos da Geração e 
+pela melhor margem do segmento de Transmissão . No a cumulado, houve também o efeito 
+R$ Milhões 2T25 2T24 D R$ D % 1S25 1S24 D R$ D %
+ Pessoal 581 563 18 3,2% 1.126 1.090 36 3,3%
+ Material 125 142 (17) -12,2% 250 261 (11) -4,2%
+ Serviços de Terceiros 261 279 (18) -6,3% 517 499 18 3,5%
+ Serviços de Terceiros 261 233 28 11,8% 517 454 63 13,8%
+ Serviços de Terceiros - Enchente Rio Grande do Sul* - 45 (45) - - 45 (45) -
+ Outros Custos/Despesas Operacionais 338 346 (8) -2,3% 579 535 44 8,2%
+PDD 74 106 (32) -30,1% 177 220 (44) -19,8%
+Baixa de Ativos 43 47 (4) -8,7% 85 74 11 14,8%
+Despesas Legais e Judiciais 65 64 2 2,4% 120 117 3 2,7%
+Outros 64 81 (17) -21,2% 114 137 (24) -17,2%
+Baixa de Ativos - Enchente Rio Grande do Sul* - 49 (49) - - 49 (49) -
+Impacto Venda Epasa* 92 - (92) - 92 - (92) -
+Ajustes a Valor Justo de Lajeado (efeito não caixa)* - - - - (8) (62) 54 -86,5%
+PMSO 1.305 1.329 (25) -1,8% 2.472 2.386 87 3,6%
+R$ Milhões 2T25 2T24 D R$ D % 1S25 1S24 D R$ D %
+Custos com construção de infraestrutura 1.319 1.149 171 14,9% 2.385 2.121 263 12,4%
+Entidade de Previdência Privada 9 39 (31) -77,9% 17 73 (56) -76,3%
+Depreciação e Amortização 603 571 32 5,6% 1.193 1.137 56 4,9%
+Demais Custos e Despesas Operacionais 1.931 1.758 172 9,8% 3.595 3.331 263 7,9%
+
+[p. 10]
+10 
+ 
+ 
+Release de Resultados | 2T25 
+extraordinário da remensuração a valor justo em investimento registrado na Paulista Lajeado. 
+Sem esse efeito, o desempenho positivo é explicado pelos mesmos motivos do trimestre. 
+O EBITDA é calculado de acordo com a Resolução CVM nº 156/2022, conforme demonstrado na 
+tabela abaixo: 
+ 
+ 
+ 
+Resultado Financeiro 
+ 
+ 
+Análise Gerencial 
+ 
+ 
+As despesas financeiras líquidas reduziram no trimestre pelos efeitos positivos da marcação 
+a mercado (ganho com o aumento da curva de spread de risco) e da atualização do ativo e 
+passivo financeiro setorial , parcialmente compensado s pelas maiores despesas com a 
+dívida líquida, devido aos aumentos nos indexadores ( IPCA e CDI), nos gastos com novas 
+captações e no endividamento, na comparação com o período anterior. No acumulado, os mesmos 
+fatores prevaleceram, tendo maior relevância a variação nas despesas com a dívida líquida. 
+ 
+Lucro Líquido 
+O aumento do Lucro Líquido refletiu principalmente o melhor desempenho do EBITDA do 
+trimestre e as menores despesas financeiras líquidas , parcialmente compensado por uma 
+maior alíquota efetiva (32,6% no 2T25 ante 29,0% no 2T24). No acumulado, a redução do Lucro 
+Líquido refletiu a maior alíquota efetiva do período (32,5% no 1S25 ante 29, 2% no 1S24), 
+parcialmente compensado pelo aumento do EBITDA. 
+ 
+R$ Milhões 2T25 2T24 D R$ D % 1S25 1S24 D R$ D %
+Lucro Líquido 1.186 1.100 85 7,8% 2.801 2.855 (54) -1,9%
+Depreciação e Amortização 603 571 32 5,6% 1.193 1.137 56 4,9%
+Resultado Financeiro 667 716 (49) -6,9% 1.536 1.532 4 0,3%
+Imposto de Renda / Contribuição Social 573 450 123 27,3% 1.350 1.178 171 14,5%
+EBITDA 3.028 2.837 191 6,7% 6.880 6.702 177 2,6%
+R$ Milhões 2T25 2T24 D R$ D % 1S25 1S24 D R$ D %
+Receitas 463 378 84 22,3% 850 795 55 7,0%
+Despesas (1.129) (1.094) (35) 3,2% (2.386) (2.327) (59) 2,5%
+Resultado Financeiro (667) (716) 49 -6,9% (1.536) (1.532) (4) 0,3%
+R$ Milhões 2T25 2T24 D R$ D % 1S25 1S24 D R$ D %
+Despesas com a dívida líquida (842) (758) (84) 11,1% (1.795) (1.486) (309) 20,8%
+Acréscimos e multas moratórias 119 100 19 19,4% 242 219 23 10,6%
+Marcação a mercado 86 (12) 98 - 109 (150) 259 -
+Atualização do ativo e passivo financeiro setorial 36 (13) 49 - 16 (79) 96 -
+Outras receitas e despesas (66) (33) (33) 100,6% (108) (35) (73) 206,5%
+Resultado Financeiro (667) (716) 49 -6,9% (1.536) (1.532) (4) 0,3%
+
+[p. 11]
+11 
+ 
+ 
+Release de Resultados | 2T25 
+1.2) Endividamento 
+ 
+1.2.1) Dívida Financeira no Critério IFRS 
+ 
+ 
+Breakdown por Fonte e por Indexação | Pós-Hedge 
+ 
+Para mitigar possíveis exposições ao risco de flutuações do mercado, cerca de R$ 4,5 bilhões em 
+dívida possu em operações de hedge. Visando a proteção do câmbio e da taxa atrelada ao 
+contrato, para as dívidas em moeda estrangeira (14,1% do total das dívidas em IFRS) foram 
+contratadas operações de swap. 
+ 
+Dívida por Segmento – IFRS | R$ milhões 
+ 
+Notas: 
+(1) O segmento de Geração considera CPFL Renováveis, CPFL Geração, Ceran e Enercan; 
+(2) Considera o principal da dívida, juros, derivativos e os mútuos com a SGBP.
+
+[p. 12]
+12 
+ 
+ 
+Release de Resultados | 2T25 
+Evolução do Saldo da Dívida – IFRS | 2T25 
+ 
+Cronograma de Amortização da Dívida¹ – IFRS | Junho de 2025 
+ 
+ 
+Notas: 
+(1) Considera apenas o principal da dívida e derivativos. Para se chegar ao total da dívida financeira de R$ 31.263 milhões, faz-se a 
+inclusão dos encargos, do efeito de Marcação a Mercado (MTM) e do custo de captação; 
+(2) Caixa está considerando o saldo de TVM de R$ 2,0 bilhões. 
+ 
+1.2.2) Dívida no Critério dos Covenants Financeiros 
+ 
+Notas: 
+(1) Considera a consolidação proporcional dos ativos de Geração e da CPFL Transmissão, além do mútuo com a SGBP; 
+(2) Inclui Títulos e Valores Mobiliários (TVM); 
+(3) EBITDA Pro forma no critério dos covenants financeiros, ajustado de acordo com as participações da CPFL Energia em suas 
+controladas. 
+ 
+R$ Milhões 2T25 2T24 D R$ D %
+Dívida Financeira (incluindo Hedge )1 31.492 30.295 1.197 4,0%
+(-) Disponibilidades² (4.205) (4.046) (160) 3,9%
+(=) Dívida Líquida 27.287 26.250 1.037 4,0%
+EBITDA Proforma ³ 13.153 13.038 115 0,9%
+Dívida Líquida / EBITDA 2,07 2,01 - 3,0%
+
+[p. 13]
+13 
+ 
+ 
+Release de Resultados | 2T25 
+A reconciliação do indicador Dívida Líquida/EBITDA Pro Forma está disponível na Base Histórica 
+de Informações da CPFL Energia; para acessá-la, clique aqui. 
+ 
+1.3) Investimentos 
+ 
+1.3.1) Investimentos Realizados por Segmento 
+ 
+Notas: 
+(1) Transmissoras não possuem ativos imobilizados, assim, considera-se a adição de ativos contratuais; 
+(2) Outros: refere-se basicamente a ativos e transações que não são relacionados a nenhum dos segmentos identificados. 
+ 
+O aumento observado entre os períodos está relacionado a: 
+ no segmento de Distribuição, o foco em obras de atendimento a clientes e plano de expansão 
+do sistema elétrico, somado à manutenção e modernização da rede; 
+ no segmento de Transmissão, a expansão dos investimentos é focada em melhorias para a 
+rede. 
+ 
+1.3.2) Investimentos Previstos 
+Em 12 de dezembro de 2024, o Conselho de Administração da CPFL Energia aprovou a proposta 
+da Diretoria Executiva para as Projeções Plurianuais 2025-2029¹ da Companhia, a qual foi 
+previamente debatida com o Comitê de Finanças e Gestão de Riscos. 
+ 
+ 
+Notas: 
+(1) Moeda constante; 
+(2) Desconsiderando investimentos em Obrigações Especiais no segmento de Distribuição (entre outros financiados por 
+consumidores).
+
+[p. 14]
+14 
+ 
+ 
+Release de Resultados | 2T25 
+2) SUSTENTABILIDADE E INDICADORES ESG 
+ 
+ 
+2.1) Plano ESG 2030 
+O Plano ESG 2030 traz diretrizes e estratégias para que possamos fornecer energia sustentável, 
+acessível e confiável em todos os momentos, tornando a vida das pessoas mais segura, saudável 
+e próspera nas regiões onde operamos. Nosso objetivo corporativo é impulsionar a transição para 
+um modelo mais sustentável de produzir e consumir energia, potencializando os impactos 
+positivos do nosso modelo de negócio na comunidade e cadeia de valor. 
+Para isso, identificamos quatro pilares que sustentam a maneira como conduzimos nossos 
+negócios e executamos nossa estratégia: Soluções renováveis e inteligentes, Operações 
+sustentáveis, Valor compartilhado com a sociedade e Atuação segura e confiável. 
+ 
+Dentro dos pilares, assumimos 24 compromissos norteados pelos Objetivos de Desenvolvimento 
+Sustentável (ODSs) das Nações Unidas. Os compromissos estão disponíveis no site de RI da CPFL 
+Energia.
+
+[p. 15]
+15 
+ 
+ 
+Release de Resultados | 2T25 
+2.2) Principais Indicadores 
+Abaixo listamos alguns indicadores alinhados ao Plano ESG 2030: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Tema Indicador Unidade 2T25 2T24 D % 1S25 1S24 D %
+Energia gerada por fontes renováveis GWh 2.640 3.889 -32,1% 5.086 7.854 -35,2%
+UHEs (hidrelétricas) GWh 1.350 2.447 -44,8% 2.666 5.140 -48,1%
+PCHs e CGHs GWh 409 418 -2,2% 862 981 -12,2%
+Solar GWh 0,1 0,2 -49,9% 0,4 0,5 -24,5%
+Eólica GWh 743 664 11,9% 1.410 1.299 8,5%
+Biomassa GWh 138 360 -61,7% 149 434 -65,7%
+Religadores automáticos instalados unidade 20.651 18.728 10,3% 20.651 18.728 10,3%
+Carga de energia telemedida % 58,7% 56,4% 58,7% 56,6% 55,3% 2,4%
+Inovação Investimento em inovação | P&D ANEEL R$ MM 12,5 13,6 -8,6% 21,8 22,7 -3,8%
+Projetos habilitados para a comercialização de 
+créditos de carbono e selos de energia renovável unidade 53 53 0,0% 53 53 0,0%
+Receitas de vendas de créditos de carbono e selos 
+de energia R$ MM 0,4 0,2 105,6% 1,0 1,5 -34,7%
+Energia
+renovável
+Smart Grid
+Descarbonização
+ 
+Valor Compartilhado com a Sociedade 
+Soluções Renováveis e Inteligentes 
+Operações Sustentáveis
+
+[p. 16]
+16 
+ 
+ 
+Release de Resultados | 2T25 
+ 
+ 
+ 
+ 
+Tema Indicador Unidade 2T25 2T24 D % 1S25 1S24 D %
+Taxa de frêquencia de acidentes | Próprios
+nº feridos 
+*1MM/HH 
+trabalhadas¹ 
+0,6 0,7 -21,1% 0,5 0,7 -25,2%
+Taxa de frêquencia de acidentes | Terceiros
+nº feridos 
+*1MM/HH 
+trabalhadas¹ 
+2,3 2,0 15,4% 2,2 7,2 -69,6%
+Acidentes fatais com a população unidade 5,0 1,0 400,0% 13,0 3,0 333,3%
+Ética Colaboradores treinados em Ética e Integridade % 100% 99,0% 1,0% 100% 99,0% 1,0%
+Conselheiros Independentes no Conselho de 
+Administração unidade 2 2 0,0% 2 2 0,0%
+Mulheres no Conselho de Administração unidade 2 2 0,0% 2 2 0,0%
+Nota: (1) Horas trabalhadas com exposição ao risco até o período. 
+Saúde e 
+Segurança
+Transparência
+Atuação Segura e Confiável
+
+[p. 17]
+17 
+ 
+ 
+Release de Resultados | 2T25 
+3) PERFORMANCE DOS NEGÓCIOS 
+ 
+3.1) SEGMENTO DE DISTRIBUIÇÃO 
+ 
+3.1.1) Desempenho Operacional 
+ 
+3.1.1.1) Carga Líquida de Perdas | Área de Concessão 
+ 
+ 
+3.1.1.2) Venda de Energia | Área de Concessão 
+ 
+ 
+Destacam-se no trimestre: 
+ Classe Residencial: redução de 4,8%, principalmente em função d o impacto negativo de 
+temperatura e pelo incremento de geração distribuída (GD). Esses efeitos foram parcialmente 
+compensados pelo bom desempenho da massa de renda , nível de emprego e crescimento 
+vegetativo; 
+ Classe Industrial: crescimento de 1,9%, refletindo o predomínio de taxas positivas no 
+consumo de 7 dos 10 maiores setores em nossa área de concessão, que foram parcialmente 
+compensados pelo impacto de GD; 
+ Classe Comercial: retração de 4,2% na comparação com o mesmo período do ano anterior, 
+em função do efeito de temperatura negativo e pelo impacto de GD . Esses efeitos foram 
+parcialmente compensados pelo resultado positivo de renda e redução na taxa de 
+desemprego; 
+ Classe Rural: redução de 2,8%, explicado pel o impacto da GD , que foi parcialmente 
+compensado pela menor pluviometria no Rio Grande do Sul; 
+ Classe Outros: crescimento de 0,7%, impulsionado pelo melhor desempenho econômico do 
+país, que foi parcialmente compensado por menores temperaturas e pelo incremento de
+
+[p. 18]
+18 
+ 
+ 
+Release de Resultados | 2T25 
+clientes que utilizam GD. 
+De forma geral, os mesmos efeitos afetam o resultado acumulado, com exceção de: 
+ Classe Rural: crescimento de 1,1%, impulsionado pela menor pluviometria na nossa área de 
+concessão, o que aumenta a necessidade de irrigação, e pelo desempenho econômico do país, 
+que foi parcialmente compensado pelo incremento de clientes que utilizam GD. 
+ 
+3.1.1.3) Inadimplência 
+A PDD apresentou um a redução de R$ 37,3 
+milhões em relação ao mesmo período de 
+2024 e uma redução de R$ 13,6 milhões em 
+relação ao 1T25. C om isso, o índice de 
+PDD/Receita bruta de fornecimento alcançou 
+0,82% no trimestre. 
+O resultado do trimestre pode ser explicado por 
+uma maior realização de cor tes de energia, 
+quando comparado com o mesmo período no 
+ano passado, favorecido pela menor incidência 
+de eventos climáticos extremos na área de 
+concessão. Encerramos o trimestre com mais de 
+717 mil cortes, o que contribuiu para a queda do 
+indicador de inadimplência. 
+É importante considerar o impacto d as enchentes que acometeram o estado do Rio Grande do 
+Sul em maio de 2024 que impossibilitaram a execução de cortes, em virtude da severidade do 
+evento e, em seguida, por força da Resolução Normativa nº 1.092/2024 da ANEEL, que proibiu a 
+suspensão do fornecimento por inadimplência nos municípios atingidos. Desconsiderando os 
+cortes da RGE em maio e junho de 2025 , encerramos o trimestre com a realização de 612 mil 
+cortes, o que representa um aumento de 3% em relação ao 2T24. 
+Esses mesmos efeitos impactaram o resultado acumulado, em que registramos uma redução de 
+R$ 72 milhões na provisão para devedores duvidosos (PDD), com índice de PDD/Receita bruta de 
+fornecimento de 0,84%. 
+A CPFL continua a realizar constantes alterações em seus modelos de gestão da inadimplência, 
+priorizando a otimização e automação dos processos de cobrança e atuações na frente de cortes. 
+Essa abordagem dinâmica permite que a empresa se adapte às mudanças no comportamento dos 
+clientes, buscando sempre soluções mais eficazes e inovadoras.
+
+[p. 19]
+19 
+ 
+ 
+Release de Resultados | 2T25 
+3.1.1.4) Perdas 
+O Despacho Aneel nº 684/2025, incorporando os resultados da Consulta Pública nº 09/2024, 
+aprovou o aprimoramento da metodologia de cálculo da energia requerida e das perdas não 
+técnicas, incorporando os efeitos da micro e minigeração distribuída (MMGD) no sistema de 
+compensação de energia. A nova diretriz estabelece a adoção do conceito de " mercado de 
+fornecimento medido ", que representa a energia efetivamente consumida pelos usuários, 
+independentemente de eventual compensação por geração própria. Adicionalmente, o despacho 
+determina a inclusão da energia injetada na rede pelos sistemas de MMGD na carga total. 
+ 
+Perdas | Nova Metodologia (CP 09) 
+ 
+ 
+Apenas a CPFL Piratininga ainda não passou por processo de reajuste tarifário e, por essa razão, 
+não tem o novo limite ANEEL definindo. 
+ 
+Perdas | Metodologia Antiga 
+ 
+Notas: 
+(1) Limite ANEEL referente a 30/06/2025. 
+(2) Para a RGE, clientes de alta tensão (A1) são expurgados da conta. 
+(3) De acordo com os critérios anteriores da ANEEL, exceto pela não consideração dos efeitos de GD. 
+ 
+Desconsiderando o efeito do calendário de faturamento em ambos os períodos, as perdas teriam 
+as seguintes variações: Paulista -0,13 p.p.; Piratininga +1,13 p.p.; RGE +0,19 p.p. e Santa Cruz 
++0,56 p.p. 
+As principais realizações no combate às perdas foram: 
+(i) Manutenção das fronteiras elétricas e subestações internas; 
+(ii) Mapeamento das perdas de energia por meio de microbalanços; 
+(iii) Blindagem de 9,9 mil clientes do Grupo B com caixa blindada e 326 clientes do Grupo A 
+com Conjunto de Medição (Migração de Cabine interna para medição exteriorizada no 
+poste da CPFL); 
+(iv) Realização de 101,8 mil inspeções em unidades consumidoras com 20,5% de 
+assertividade na identificação de perdas; 
+(v) Faturamento de 21,9 GWh de energia recuperad a através das inspeções. Além do 
+retroativo, os clientes normalizados passam a consumir a energia correta e esse 
+montante representou 89,8 GWh de incremento no mercado; 
+(vi) Substituição de mais de 8,6 mil medidores obsoletos/defeituosos por novos 
+equipamentos eletrônicos; 
+(vii) Visita a 16,5 mil unidades consumidoras inativadas para corte nos casos de religação à
+
+[p. 20]
+20 
+ 
+ 
+Release de Resultados | 2T25 
+revelia; 
+(viii) Regularização de 4 8,4 mil unidades consumidoras, com avanço de consumo e sem 
+contrato; 
+(ix) Regularização de 587 unidades consumidoras clandestinas, tendo em sua maioria, 
+necessidade de obras de construção de rede da CPFL Energia; 
+(x) Disciplina de mercado através da publicação de 120 notícias relacionadas aos operativos 
+de combate à fraude e furtos pela CPFL. 
+ 
+3.1.1.5) DEC e FEC 
+O DEC mede a duração média, em horas, de 
+interrupção por cliente e o FEC indica o número 
+médio de interrupções por cliente. Tais 
+indicadores medem a qualidade e a 
+confiabilidade anuais do fornecimento de 
+energia elétrica. 
+No resultado dos últimos 12 meses, os valores 
+de DEC e FEC apresentaram uma redução no 
+consolidado do Grupo e nas distribuidoras de 
+São Paulo . Já n a RGE, ocorreu um leve 
+aumento dos indicadores , principalmente 
+devido a desligamentos programados para 
+manutenções. 
+Apesar disso, t odas as distribuidoras estão 
+enquadradas nos limites ANEEL, resultado que 
+pode ser atribuído à contínua busca da CPFL 
+por melhoria em sua operação, maturação do 
+sistema de operação ADMS, incremento 
+logístico e intensificação, tanto através de 
+novos investimentos , como na operação e 
+manutenção da rede. 
+ 
+ 
+3.1.2) Eventos Tarifários 
+ 
+Notas: 
+(1) Em decorrência da enchente ocorrida no Rio Grande do Sul em maio de 2024, a RGE solicitou à ANEEL uma postergação tarifária, 
+que refletiu em um impacto zero aos consumidores no ano de 2024 e levou a criação de um ativo regulatório a ser recomposto nos 
+RTAs dos anos seguintes, atualizado por SELIC. No RTA 2025, foi iniciado o repasse desse ativo por meio de componente financeiro, 
+no valor de R$ 370 milhões; o valor remanescente será repassado nos reajustes posteriores. 
+(2) O efeito para o consumidor também é impactado pelo componente financeiro retirado na última revisão ou reajuste tarifário. 
+ Nota: (1) Limite ANEEL referente a 30/06/2025. 
+RTAs
+
+[p. 21]
+21 
+ 
+ 
+Release de Resultados | 2T25 
+3.1.3) Desempenho Econômico-Financeiro 
+ 
+Nota: (1) O EBITDA (IFRS) é calculado a partir da soma do lucro líquido, impostos, resultado financeiro e depreciação/amortização. 
+ 
+Ativos e Passivos Financeiros Setoriais 
+Em 30 de junho de 2025, o saldo dos ativos e passivos financeiros setoriais era negativo (passivo) 
+em R$ 1.815 milhões. Se comparado a 31 de dezembro de 2024, houve uma variação de R$ 820 
+milhões, conforme demonstrado no gráfico abaixo: 
+ 
+ 
+A movimentação desse saldo ocorreu em função da homologação da devolução aos consumidores, 
+no montante de R$ 1.766 milhões, sendo R$ 1.506 milhões referente aos créditos de PIS/COFINS 
+e R$ 260 milhões decorrentes de créditos da geração distribuída. O Despacho nº 684/2025 
+regulamentou o tratamento dos créditos de geração distribuída, o que levou a Companhia a 
+reconhecer um passivo regulatório que, até então, estava registrado em "outras contas a pagar". 
+Nos reajustes tarifários das distribuidoras aplicados em 2025, esse passivo regulatório a ser 
+repassado aos consumidores já foi considerado. Adicionalmente, houve o repasse de recursos da 
+CDE no montante de R$ 29 milhões. 
+No período, foi realizada uma amortização de R$ 992 milhões, enquanto a atualização monetária 
+dos ativos e passivos totalizou R$ 16 milhões. 
+Já decorrente da constituição líquida, tivemos um ativo de R$ 36 milhões, principalmente nas 
+linhas: 
+(i) Outros componentes financeiros (R$ 416 milhões); 
+(ii) CDE (R$ 215 milhões); 
+( )
+ 
+ 
+ 
+( )
+( )
+ 
+Saldo De onstitui o Amorti a o Atuali a o 
+ onet ria
+Devolu o aos 
+consumidores
+ DE Eletro r s Saldo un 
+( )
+
+[p. 22]
+22 
+ 
+ 
+Release de Resultados | 2T25 
+(iii) Sobrecontratação (R$ 156 milhões); 
+(iv) Proinfa (R$ 61 milhões); 
+Parcialmente compensadas por passivos constituídos nas linhas de: 
+(v) Devolução para os clientes do crédito de PIS/COFINS (R$ 306 milhões); 
+(vi) Repasse de Itaipu (R$ 140 milhões); 
+(vii) Ultrapassagem de demanda e excedente de reativo (R$ 138 milhões); 
+(viii) Neutralidade dos encargos setoriais (R$ 84 milhões); 
+(ix) Bandeira tarifária faturada (R$ 74 milhões); 
+(x) Custos com energia elétrica (R$ 52 milhões); 
+(xi) Demais itens (R$ 18 milhões). 
+ 
+Para fins de análise, segue abaixo o gráfico que demonstra a movimentação dos saldos de ativo 
+e passivo setorial, apenas no 2T25: 
+ 
+ 
+ 
+Receita Operacional 
+ 
+ 
+ 
+( )
+ 
+( )
+ 
+ 
+( )
+Saldo ar onstitui o Amorti a o Atuali a o 
+ onet ria
+Devolu o aos 
+ onsumidores
+ DE Eletro r s Saldo un 
+( )
+
+[p. 23]
+23 
+ 
+ 
+Release de Resultados | 2T25 
+Receita Operacional Bruta 
+A variação da linha de Ativo e Passivo Financeiro Setorial decorre, principalmente, pela maior 
+constituição de Ativos Regulatórios no 2T25 se comparado ao 2T24. 
+O aumento na atualização do Ativo Financeiro da Concessão é explicado, principalmente, 
+pelo ganho de R$ 111 milhões decorrente dos laudos de avaliação realizados no 2T25 . 
+Adicionalmente, o crescimento médio de 18% na base de ativos, aliado à variação do IPCA (1,00% 
+no 2T24 e 1,25% no 2T25), também contribuiu para a elevação do saldo. 
+No acumulado , os efeitos que impactaram a variação da receita foram semelhantes aos 
+registrados no trimestre. Destaca-se ainda o aumento no Aporte CDE , impulsionado pelo 
+crescimento no número de clientes que passaram a ter o direito aos subsídios tarifários, resultando 
+no recebimento pelas distribuidoras por meio do referido Aporte. 
+ 
+Deduções da Receita Operacional Bruta 
+No trimestre, as deduções da receita operacional bruta apresentaram aumento, principalmente 
+devido à elevação na arrecadação de PIS/COFINS , às maiores despesas com a CDE, em função 
+do aumento da cota, e ao crescimento do Proinfa. Esses efeitos foram parcialmente compensados 
+pela menor arrecadação de ICMS e pela redução na linha Outros, decorrente da recomposição 
+dos recursos da Conta de Comercialização de Energia Elétrica de Itaipu. 
+No acumulado, observou-se uma redução nas deduções, também relacionada à recomposição dos 
+recursos de Itaipu no início de 2024, período em que o impacto foi mais significativo. 
+ 
+Custo com Energia Elétrica 
+ 
+ 
+O aumento dos Custos com Energia Comprada para Revenda, tanto no trimestre quanto no 
+acumulado decorre principalmente do aumento do preço de energia comprada e m Leilão, 
+Contratos Bilaterais e Curto Prazo. 
+No caso da energia adquirida de Itaipu, observou-se uma redução no trimestre, atribuída à menor 
+quantidade de energia comprada. No entanto, no acumulado, houve um aumento, impulsionado 
+pela valorização do dólar em 2025. 
+Em relação aos Encargos de Uso do Sistema de Transmissão e Distribuição , as reduções 
+percebidas no trimestre e no acumulado decorrem dos encargos de Rede Básica devido à queda 
+das tarifas de uso do sistema de transmissão a partir de jul/24 conforme Resolução ANEE L n° 
+3.349/2024. O mesmo ocorreu com o encargo de Transporte de Itaipu, devido às novas tarifas 
+determinadas na Resolução ANEEL nº 3.349/2024, e pelos novos montantes definidos em dez/24 
+pelo Despacho n° 3.836/2024.
+
+[p. 24]
+24 
+ 
+ 
+Release de Resultados | 2T25 
+Além disso, nos encargos setoriais (ESS/EER), o custo do ESS - Encargos de Serviço do 
+Sistema foi reduzido principalmente devido ao alívio retroativo gerado pela diferença de preços 
+entre os submercados do Sistema Interligado Nacional (SIN). Esse efeito foi parcialmente 
+compensado pelo EER - Encargos de Energia de Reserva , que registrou um aumento dos 
+custos, em decorrência do maior acionamento das usinas no 2T25, bem como pelo aumento do 
+PLD aplicado às liquidações de energia dos Contratos de Energia de Reserva na CCEE, ambos no 
+trimestre e no acumulado. 
+ 
+PMSO 
+ 
+* Extraordinário. 
+ 
+O PMSO foi impactado por um item extraordinário – enchentes no Rio Grande do Sul (para mais 
+detalhes, vide explicação no início do capítulo 1) , que gerou um efeito de R$ 66 milhões no 
+trimestre e no acumulado de 2024. 
+Expurgando esse item, o PMSO teria apresentado aumentos de 0,2% (R$ 2 milhões) no trimestre 
+e de 1,8% (R$ 33 milhões) no acumulado, decorrente dos seguintes fatores: 
+ MSO ligado à inflação (aumentos de R$ 14 milhões no trimestre e de R$ 51 milhões 
+no acumulado): explicado por ações de cobrança (R$ 5 milhões no 2T25 e R$ 7 milhões no 
+1S25); hardware e software (R$ 5 milhões no 2T25 e R$ 24 milhões no 1S25); poda de árvores 
+(R$ 2 milhões no 2T25 e R$ 4 milhões no 1S25), entre outros; 
+ Pessoal (aumento s de R$ 21 milhões no trimestre e de R$ 31 milhões no 
+acumulado): explicado principalmente pelo crescimento no headcount de 2,2%1 no trimestre 
+e 1,6%2 acumulado e pelo acordo coletivo homologado em 2024; 
+ MSO não ligado à inflação ( reduções de R$ 33 milhões no trimestre e de R$ 49 
+milhões no acumulado): explicada pela provisão para devedores duvidosos (PDD) , 
+conforme explicado no item 3.1.1.3, parcialmente compensado por um aumento em despesas 
+legais e judiciais. 
+ 
+Demais custos e despesas operacionais 
+ 
+ 
+ 
+1 Média de abril a junho. 
+2 Média de janeiro a junho.
+
+[p. 25]
+25 
+ 
+ 
+Release de Resultados | 2T25 
+EBITDA 
+O EBITDA do segmento de Distribuição foi impactado pelo efeito extraordinário registrado em 
+2024 decorrente das enchentes no Rio Grande do Sul (para mais detalhes, vide explicação no 
+início do capítulo 1) . Desconsiderando esse efeito, o EBITDA teria apresentado um crescimento 
+de 15,6%, explicado principalmente pelo aumento do ativo financeiro da concessão e pelo bom 
+desempenho do PMSO e da PDD. 
+ 
+ 
+ 
+EBITDA por Distribuidora 
+ 
+ 
+CPFL Paulista: 
+No trimestre, o resultado positivo foi impulsionado pelo reajuste positivo da Parcela B ( 7,53%) 
+que entrou em vigência em abr/25 e da menor PDD, além da atualização do ativo financeiro da 
+concessão. 
+No acumulado, a variação decorre da menor PDD, somada à atualização do ativo financeiro da 
+concessão. 
+ 
+CPFL Piratininga: 
+No trimestre, o resultado positivo do EBITDA foi influenciado pelo mix de energia mais favorável, 
+além do reajuste tarifário, que resultou em um aumento de 1,88% na Parcela B, vigente desde 
+out/24, além da atualização do ativo financeiro da concessão. 
+No acumulado, os mesmos efeitos prevaleceram. 
+ 
+RGE: 
+No trimestre, o EBITDA foi impactado pelo efeito extraordinário em 2024 decorrente d as 
+enchentes no Rio Grande do Sul (para mais detalhes, vide explicação no capítulo 1). 
+Desconsiderando esse efeito, a variação teria sido uma redução de 9,1% impactado pelo reajuste 
+tarifário negativo da Parcela B (-0,87%) vigente desde ago/24, e maiores despesas com PMSO. 
+O EBITDA no acumulado, desconsiderando o efeito extraordinário, apresentaria crescimento de 
+0,9% impulsionado pelo melhor desempenho da PDD, além da atualização do ativo financeiro da 
+concessão. 
+ 
+CPFL Santa Cruz: 
+A variação positiva do EBITDA é reflexo do incremento da Parcela B ( +3,87%) e do melhor mix
+
+[p. 26]
+26 
+ 
+ 
+Release de Resultados | 2T25 
+de energia, tanto para o trimestre quanto para o acumulado. 
+ 
+Resultado Financeiro 
+ 
+ 
+Análise Gerencial 
+ 
+ 
+A redução das despesas financeiras líquidas decorreu principalmente: (i) da receita de MTM e (ii) 
+da variação na Atualização do ativo e passivo financeiro setorial em função do saldo 
+atualizável, compensados parcialmente (iii) pelo aumento das Despesas com a dívida líquida, 
+decorrente dos aumentos nos indexadores (IPCA e CDI). 
+Os mesmos fatores afetaram as despesas financeiras líquidas no acumulado, com o acréscimo do 
+efeito decorrente da redução da atualização dos créditos fiscais. 
+ 
+Lucro Líquido 
+O aumento do Lucro Líquido ocorreu devido ao maior resultado do EBITDA e às menores 
+despesas financeiras líquidas, compensado s parcialmente pelo aumento nas despesas com 
+imposto de renda e contribuição social. 
+Os mesmos efeitos também afetaram o Lucro Líquido acumulado.
+
+[p. 27]
+27 
+ 
+ 
+Release de Resultados | 2T25 
+3.2) SEGMENTO DE GERAÇÃO 
+ 
+3.2.1) Desempenho Operacional 
+ 
+Energia Gerada 
+ 
+Notas: 
+(1) As usinas de biomassa Bio Buriti, Bio Ipê e Bio Pedra foram transferidas para o Grupo Pedra em nov/24, deixando de pertencer ao 
+Grupo CPFL desde então; 
+(2) O contrato de energia se encerrou em dez/24 e o ativo foi alienado no 1S25. 
+ 
+No trimestre e no acumulado , registramos uma redução no volume de energia gerada, com 
+impacto principalmente pelo desempenho das UHEs, refletindo as condições hidrológicas menos 
+favoráveis, além do efeito do curtailment nos parques eólicos, que representou 24% da geração 
+potencial total no trimestre e 21% no acumulado. 
+ 
+Disponibilidade 
+ 
+Notas: 
+(1) As usinas de biomassas Bio Buriti, Bio Ipê e Bio Pedra foram transferidas para o Grupo Pedra em nov/24, deixando de pertencer 
+ao grupo CPFL desde então; 
+(2) O contrato de energia se encerrou em dez/24 e o ativo foi alienado no 1S25. 
+ 
+3.2.2) Desempenho Econômico-Financeiro 
+ 
+GWh 2T25 2T24 D GWh D % 1S25 1S24 D GWh D %
+Eólica 743 664 79 11,9% 1.410 1.299 111 8,5%
+PCH 409 418 (9) -2,2% 862 981 (119) -12,1%
+UHE 1.350 2.447 (1.097) -44,8% 2.666 5.140 (2.474) -48,1%
+Biomassa¹ 138 360 (222) -61,7% 149 434 (285) -65,7%
+Solar 0,1 0,2 (0,1) -49,9% 0,4 0,5 (0,1) -24,5%
+UTE² - 2 (2) - - 7 (7) -
+Total 2.640 3.891 (1.251) -32,1% 5.086 7.861 (2.775) -35,3%
+Média Mensal 2T25 2T24 D p.p. D % 1S25 1S24 D p.p. D %
+Eólica 93,7% 94,4% -0,7 -0,8% 92,3% 95,1% -2,8 -2,9%
+PCH 94,9% 97,5% -2,6 -2,6% 94,9% 97,8% -2,9 -3,0%
+UHE 92,7% 98,3% -5,6 -5,7% 95,3% 98,5% -3,1 -3,2%
+Biomassa¹ 99,6% 99,3% 0,3 0,3% 99,8% 99,4% 0,4 0,4%
+Solar 100,0% 100,0% 0,0 0,0% 100,0% 100,0% 0,0 0,0%
+UTE² 0,0% 97,3% -97,3 - 0,0% 98,4% -98,4 -
+R$ Milhões 2T25 2T24 D R$ D % 1S25 1S24 D R$ D %
+Receita Operacional Bruta 1.267 1.186 81 6,8% 2.431 2.371 60 2,5%
+Receita Operacional Líquida 1.161 1.081 81 7,4% 2.224 2.157 67 3,1%
+Custo com Energia Elétrica (179) (139) (40) 28,5% (321) (265) (56) 21,0%
+PMSO e Previdência (248) (169) (79) 46,8% (373) (253) (120) 47,2%
+Equivalência Patrimonial 72 84 (12) -14,1% 131 172 (42) -24,1%
+EBITDA1 806 856 (50) -5,9% 1.661 1.811 (150) -8,3%
+Depreciação e Amortização (220) (218) (2) 0,9% (439) (437) (2) 0,4%
+Resultado Financeiro (84) (98) 13 -13,5% (202) (229) 27 -11,7%
+Receitas Financeiras 71 32 39 119,7% 106 66 40 61,0%
+Despesas Financeiras (156) (130) (26) 19,7% (308) (294) (13) 4,5%
+Lucro Antes da Tributação 502 540 (39) -7,2% 1.020 1.145 (125) -10,9%
+Lucro Líquido 381 431 (50) -11,5% 781 906 (124) -13,7%
+
+[p. 28]
+28 
+ 
+ 
+Release de Resultados | 2T25 
+Nota: (1) O EBITDA é calculado a partir da soma do lucro líquido, impostos, resultado financeiro e depreciação/amortização. 
+ 
+Receita Operacional Líquida 
+No trimestre e no acumulado, a receita foi favorecida principalmente pelos preços de energia 
+reajustados por inflação (IPCA ou IGP-M) e pelo melhor desempenho dos parques eólicos, devido 
+ao maior volume de ventos, mesmo com o aumento no curtailment imposto pelo ONS, que 
+representou uma perda de receita de R$ 84 milhões no 2T25 (versus R$ 26 milhões no 2T24) e 
+R$ 131 milhões no 1S25 (versus R$ 35 milhões no 1S24). 
+ 
+Custo com Energia Elétrica 
+ 
+Nota: (1) O Prêmio de Risco do GSF passou a ser contabilizado no custo de energia a partir do 4T24. 
+ 
+No trimestre e no acumulado, a principal variação ocorreu devido ao aumento na compra de 
+Energia de Curto Prazo. Além disso, houve uma maior quantidade de energia adquirida em 
+Contratos Bilaterais, ACR e ACL, assim como um maior preço médio. 
+ 
+PMSO 
+ 
+Notas: 
+* Extraordinário; 
+(1) O Prêmio de Risco do GSF passou a ser contabilizado no custo de energia a partir do 4T24. 
+ 
+No trimestre, a variação nas despesas com PMSO são explicadas principalmente pel a venda da 
+participação na Epasa, que gerou um efeito negativo de R$ 92 milhões no trimestre (para mais 
+detalhes, vide explicação no capítulo 1). Além disso, houve a reclassificação do Prêmio de Risco 
+do GSF para a linha de Compra de Energia (R$ 6 milhões). 
+R$ Milhões 2T25 2T24 D R$ D % 1S25 1S24 D R$ D %
+Pessoal 43 39 4 10,4% 86 83 3 4,1%
+Material 10 14 (4) -26,7% 23 24 (2) -6,4%
+Serviços de Terceiros 73 81 (8) -9,5% 130 150 (20) -13,4%
+Serviços de Terceiros 73 65 8 12,9% 130 134 (4) -3,0%
+Serviços de Terceiros - Enchente Rio Grande do Sul* - 16 (16) - - 16 (16) -
+Outros 121 32 89 278,7% 133 (5) 138 -
+Baixa de Ativos 2 (1) 2 - 2 (2) 4 -
+Legais, Judiciais e Indenizações 0 (0) 1 - 1 (2) 3 -
+Outros 27 24 2 9,8% 46 47 (1) -2,0%
+Impacto Venda Epasa* 92 - 92 - 92 - 92 -
+Prêmio do Risco do GSF*¹ - 6 (6) - - 11 (11) -
+Baixa de Ativos - Enchente Rio Grande do Sul* - 3 (3) - - 3 (3) -
+Ajuste a Valor Justo de Lajeado (efeito não caixa)* - - - - (8) (62) 54 -86,5%
+PMSO 248 166 82 49,2% 372 252 120 47,5%
+
+[p. 29]
+29 
+ 
+ 
+Release de Resultados | 2T25 
+No acumulado, os efeitos se assemelham, com destaque para o efeito extraordinário de ajuste 
+a valor justo de Paulista Lajeado, que gerou um impacto negativo de R$ 54 milhões no primeiro 
+trimestre (para mais detalhes, vide explicação no capítulo 1). 
+Expurgando esses itens, o PMSO teria apresentado um aumento de 2,0% (R$ 3 milhões ) no 
+trimestre e uma redução de 6,0% ( R$ 18 milhões) no acumulado, decorrente dos seguintes 
+fatores: 
+ PMSO ligado à inflação (em linha no trimestre e redução de R$ 26 milhões no 
+acumulado): sobretudo pela redução de despesas com outros serviços terceirizados e 
+manutenção de máquinas e equipamentos; 
+ PMSO não ligado à inflação (aumentos de R$ 3 milhões no trimestre e de R$ 7 
+milhões no acumulado): decorrente de despesas legais e baixa de ativos. 
+ 
+Demais custos e despesas operacionais 
+ 
+ 
+Equivalência Patrimonial 
+ 
+Nota: (1) A divulgação da participação em controladas é realizada de acordo com a IFRS 12 e CPC 45. 
+ 
+Baesa 
+ 
+ 
+No trimestre e no acumulado, o aumento na Receita Líquida foi resultado de uma maior tarifa, 
+parcialmente compensado pela redução da CFURH . Em relação aos Custos e Despesas 
+Operacionais, o aumento decorreu da maior quantidade e preço de energia comprada . O 
+aumento na Despesa Financeira Líquida foi em função de maiores despesas com UBP. 
+ 
+ 
+ 
+ 
+ 
+ 
+R$ Milhões 2T25 2T24 D R$ D % 1S25 1S24 D R$ D %
+Entidade de Previdência Privada 0 3 (3) -88,8% 1 1 (0) -26,4%
+Depreciação e Amortização 172 172 0 0,2% 343 344 (0) -0,1%
+Amortização do Intangível da Concessão 48 47 1 3,2% 96 93 2 2,2%
+Demais Custos/Despesas Operacionais 221 221 (1) -0,3% 440 438 1 0,3%
+R$ Milhões 2T25 2T24 D R$ D % 1S25 1S24 D R$ D %
+Baesa (1) 2 (2) - 1 4 (3) -80,1%
+Foz do Chapecó 72 60 12 20,2% 129 125 3 2,6%
+Epasa 0 22 (21) -98,1% 1 43 (42) -97,9%
+Equivalência Patrimonial¹ 72 84 (12) -13,9% 130 172 (42) -24,4%
+R$ Milhões 2T25 2T24 D R$ D % 1S25 1S24 D R$ D %
+Receita Líquida 18 14 4 27,4% 36 31 4 13,6%
+Custos/Desp. Operacionais (13) (7) (6) 88,2% (19) (13) (6) 47,3%
+Depreciação e Amortização (4) (4) (0) 1,2% (7) (7) (0) 1,0%
+Resultado Financeiro (3) (1) (2) 124,5% (8) (5) (3) 52,3%
+IR/CS 0 (1) 1 - (1) (2) 2 -75,1%
+Lucro Líquido (1) 2 (2) - 1 4 (3) -80,1%
+
+[p. 30]
+30 
+ 
+ 
+Release de Resultados | 2T25 
+Foz do Chapecó 
+ 
+ 
+No trimestre e no acumulado, a Receita Líquida aumentou devido ao maior preço da energia 
+suprida, parcialmente compensado pela redução da CFURH . Os Custos e Despesas 
+Operacionais tiveram um aumento devido ao maior volume de energia comprada. A redução da 
+Despesa Financeira Líquida é devido principalmente à renda de aplicações financeiras, em 
+função do maior saldo de caixa, da alta do CDI e redução nos encargos de dívidas, parcialmente 
+compensado pelo aumento nas despesas com UBP, indexadas por IGP-M e IPCA. 
+ 
+Epasa 
+ 
+ 
+Com o fim do contrato de venda de energia em dez/24 e a conclusão da venda da participação 
+no ativo no 2T25, a contribuição para o resultado de 2025 é significativamente menor. Passamos 
+a reportar apenas as variações apresentadas nos períodos analisados. 
+ 
+Resultado Financeiro 
+ 
+ 
+Análise Gerencial 
+ 
+ 
+No trimestre, o aumento nas rendas de aplicações financeiras reduziu as Despesas com a dívida 
+líquida. Além disso, houve um ganho de com Marcação a mercado (MTM). De forma geral, 
+os mesmos efeitos impactaram o resultado acumulado. 
+ 
+ 
+ 
+ 
+R$ Milhões 2T25 2T24 D R$ D % 1S25 1S24 D R$ D %
+Receita Líquida 172 158 13 8,4% 337 321 16 4,9%
+Custos/Desp. Operacionais (36) (34) (2) 5,7% (78) (67) (11) 16,3%
+Depreciação e Amortização (13) (13) 0 -0,1% (26) (26) 0 -0,1%
+Resultado Financeiro (13) (19) 6 -30,8% (37) (41) 4 -9,1%
+IR/CS (36) (31) (5) 17,1% (65) (63) (2) 3,7%
+Lucro Líquido 72 60 12 20,2% 129 125 3 2,6%
+R$ Milhões 2T25 2T24 D R$ D % 1S25 1S24 D R$ D %
+Receita Líquida (0) 45 (45) - (0) 93 (93) -100,3%
+Custos/Desp. Operacionais (3) (9) 7 -70,9% (7) (23) 15 -67,4%
+Depreciação e Amortização - (12) 12 - - (25) 25 -100,0%
+Resultado Financeiro 4 4 (0) -1,7% 10 8 2 31,3%
+IR/CS (0) (5) 4 -94,8% (1) (9) 9 -93,9%
+Lucro Líquido 0 22 (21) -98,1% 1 43 (42) -97,9%
+R$ Milhões 2T25 2T24 D R$ D % 1S25 1S24 D R$ D %
+Receitas 71 32 39 119,7% 106 66 40 61,0%
+Despesas (156) (130) (26) 19,7% (308) (294) (13) 4,5%
+Resultado Financeiro (84) (98) 13 -13,5% (202) (229) 27 -11,7%
+R$ Milhões 2T25 2T24 D R$ D % 1S25 1S24 D R$ D %
+Despesas com a dívida líquida (71) (75) 5 -6,3% (159) (181) 22 -12,0%
+Marcação a mercado 1 (3) 3 - (1) (8) 7 -88,2%
+Outras receitas e despesas (14) (18) 4 -22,0% (41) (39) (2) 6,3%
+Resultado Financeiro (84) (98) 13 -13,5% (202) (229) 27 -11,7%
+
+[p. 31]
+31 
+ 
+ 
+Release de Resultados | 2T25 
+EBITDA e Lucro Líquido 
+ 
+ 
+No trimestre, o efeito de venda da Epasa e o fim d e contratos das biomassas e da Epasa foram 
+os principais impactos no EBITDA. Os mesmos impactos também afetaram o resultado 
+acumulado, além do efeito extraordinário de ajuste a valor justo de Paulista Lajeado (-R$ 54 
+milhões) no primeiro trimestre. 
+Esta piora do EBITDA foi refletida no desempenho do Lucro Líquido , no trimestre e no 
+acumulado. 
+ 
+ 
+R$ Milhões 2T25 2T24 D R$ D % 1S25 1S24 D R$ D %
+Lucro Líquido 381 431 (50) -11,5% 781 906 (124) -13,7%
+Depreciação e Amortização 220 218 2 0,9% 439 437 2 0,4%
+Resultado Financeiro 84 98 (13) -13,5% 202 229 (27) -11,7%
+Imposto de Renda / Contribuição Social 120 109 11 9,8% 239 240 (1) -0,3%
+EBITDA 806 856 (50) -5,9% 1.661 1.811 (150) -8,3%
+
+[p. 32]
+32 
+ 
+ 
+Release de Resultados | 2T25 
+3.3) SEGMENTO DE TRANSMISSÃO 
+ 
+3.3.1) Portfólio 
+ 
+Notas: 
+(1) Valor homologado descontando a Parcela de Ajuste (PA); 
+(2) Projetos consolidados por equivalência patrimonial. 
+ 
+3.3.2) Desempenho Operacional 
+ 
+ENS – Energia Não Suprida | MWh 
+O indicador de Energia Não Suprida (ENS) consiste na análise do quantitativo da energia 
+interrompida por indisponibilidade de ativos de Transmissão e, portanto, constata o impacto 
+efetivo da indisponibilidade para a sociedade. 
+ 
+ 
+ 
+A redução do ENS no período de análise se deve à ausência de eventos relevantes com perda de 
+carga no 2 T25, ao contrário do 1 T25 desse ano , apresentando uma queda de 87% nessa 
+comparação. Já no acumulado, vemos um aumento no indicador devido ao resultado negativo do 
+1T25. 
+ 
+PVd – Parcela Variável Descontada 
+A Parcela Variável Descontada (PVd) consiste na relação percentual dos descontos de Parcela 
+Variável efetivados sobre a base do Faturamento Mensal da Transmissora. Tais dados são 
+disponibilizados mensalmente pelo Operador Nacional do Sistema Elétrico (ONS). 
+ 
+ 
+ 
+No 2T25, tivemos um leve aumento comparado com o mesmo período de 2024, mas uma redução 
+se comparado ao 1T25. Cabe ressaltar que em 2024 obtivemos liminar para a devolução de
+
+[p. 33]
+33 
+ 
+ 
+Release de Resultados | 2T25 
+descontos referentes a desligamentos ocorridos em 2022 , o que afetou a base de comparação . 
+Já no primeiro semestre de 2025, tivemos uma redução se comparado com o mesmo período de 
+2024, devido à diminuição de eventos forçados no sistema de transmissão no 1T25. 
+ 
+3.3.3) Temas Regulatórios 
+ 
+Fluxo de Recebimento da RBSE1 
+A Parcela da Receita Anual Permitida (RAP) correspondente aos ativos pertencentes à Rede Básica 
+do Sistema Existente – RBSE é a indenização dos ativos não amortizados, n o contexto da 
+renovação das concessões de Transmissão , nos termos da Lei nº 12.783/2013. O fluxo de 
+recebimento para a receita desses ativos pertencentes ao Contrato de Concessão nº 055/2001 da 
+CPFL Transmissão são demonstrados abaixo. Em 10 de junho de 2025, a ANEEL deliberou sobre 
+o pleito interposto por algumas associações que representam os agentes de mercado, pleito este 
+que tratava dos cálculos realizados e homologados anteriormente pela ANEEL para fins de 
+pagamento do componente financeiro da RBSE, reperfilado e homologado (de acordo com a REH 
+ANEEL nº 2.851/2021) a partir do ciclo 2021 -2022. Como resultado da deliberação, a ANEEL 
+concluiu a discussão administrativa da RBSE e publicou a REH nº 3.464/2025, a qual estabeleceu: 
+(I) Separação de fluxo de pagamentos entre parcelas controversas, oriundas de ações 
+judiciais, e incontroversas, para formação do componente financeiro; 
+(II) As parcelas controversas devem considerar o período de pagamentos entre os ciclos 
+tarifários 2020/2021 e 2027/2028, compreendido de 1º de julho de 2020 a 30 de junho 
+de 2028; 
+(III) As parcelas incontroversas devem considerar o período de pagamentos entre os ciclos 
+tarifários 2017/2018 e 2024/2025, compreendido de 1º de julho de 2017 a 30 de junho 
+de 2025; 
+(IV) Apenas as parcelas controversas vencidas e não pagas durante os ciclos tarifários 
+2017/2018, 2018/2019 e 2019/2020, período em que vigorou as liminares judiciais, 
+devem ser remuneradas a partir dos seus vencimentos pelas Taxas de Custo de Capital 
+Próprio homologadas; 
+(V) Atualização da Taxa de Remuneração Regulatória associada ao ano previsto da revisão 
+periódica da RAP do contrato de concessão; e 
+(VI) Manter o fluxo de pagamentos realizados nos ciclos 2020/2021 a 2024/2025, 
+ajustando-se para os ciclos futuros, da seguinte forma: (a) Modular o fluxo da parcela 
+controversa nos ciclos 2020/2021 a 2022/2023 para valor nulo e recomposição de juros 
+no saldo devedor, no ciclo 2023/2024 para pagamento apenas de juros, no ciclo 
+2024/2025 para pagamento de juros e de amortização equivalente à taxa de 4,6% e 
+nos ciclos 2025/2026, 2026/2027 e 2027/2028 para pagamento de juros e de 
+amortização equivalente à taxa em perfil constante de 31,8% ; e (b) Modular o fluxo 
+da parcela incontroversa pela diferença entre os valores realizados nos ciclos 
+2020/2021 a 2024/2025 e os obtidos na alínea (a) para esses ciclos. 
+As parcelas do componente financeiro para os ciclos 2025/2026, 2026/2027 e 2027/2028, a serem 
+recebidas pela CPFL-T, foram alteradas de R$ 296 MM para R$ 249 milhões (por ciclo anual de 
+reajuste tarifário). Os fluxos do componente econômico e de O&M não eram objeto de discussão 
+e não tiveram alterações, mantendo o estabelecido na Revisão Periódica Tarifária (RTP) das 
+transmissoras, conforme determinado na REH 3.344/2024.
+
+[p. 34]
+34 
+ 
+ 
+Release de Resultados | 2T25 
+Fluxo de Recebimento – Componentes Financeiro1, Econômico2 e O&M2 | R$ milhões 
+ 
+Nota: (1) Valores do gráfico estão na data base Junho/2025 e devem ser atualizados por IPCA anualmente. (2) Valores sem data 
+definida para acabar (acaba somente na baixa ou substituição do ativo). 
+ 
+Revis o Tarif ria Periódica (“RTP”) 
+O Contrato de Concessão de Transmissão de Energia Elétrica nº 055/2001-ANEEL, celebrado entre 
+a União e a CPFL Transmissão, foi prorrogado nos termos da Lei nº 12.783, de 11 de janeiro de 
+2013, definindo em sua cláusula oitava as regras de revisão suficientes para manter o equilíbrio 
+econômico-financeiro da concessão. 
+A segunda RTP estava prevista para ocorrer em 1º de julho de 2023 . Entretanto, assim como 
+ocorreu com a 1ª RTP, houve a postergação, com o processo sendo concluído em 12/07/2024 
+com a publicação da REH ANEEL nº 3.344/2024, que homologou o resultado definitivo da RTP de 
+2023 da RAP, associada ao Contrato de Concessão nº 055/2001. 
+ 
+Revisão Tarifária dos contratos de concessão licitados: 
+ 
+* Valores expressos em R$ mil. 
+ 
+Reajuste Tarifário Anual (“RTA”) 
+De acordo com a REH ANEEL nº 3.481/2025 , para o ciclo de 2025-2026, de 01/07/ 2025 a 
+30/06/2026, a Receita (RAP) somada à Parcela de Ajuste (PA) do Contrato de Concessão nº 
+055/2001, totaliza cerca de R$ 1.252 milhões, líquida de PIS e COFINS, com destaque para: 
+(i) Correção monetária pelo IPCA; 
+(ii) Desconto da Parcela de Ajuste (PA), composta dos seguintes componentes: (i) PA RTP
+
+[p. 35]
+35 
+ 
+ 
+Release de Resultados | 2T25 
+2023 relativa à retroatividade da RAP pertinente aos Reforços e Melhorias, (ii) PA 
+Financeiro Melhorias, (iii) PA Calcula da correspondente ao desconto dos valores 
+excedentes de RAP recebidos a maior no ciclo anterior (Subsídio CDE, Antecipações de 
+RAP) e (iv) PA Outros, relativa à PA Qualidade DIT e Outros; 
+(iii) Reforços e Melhorias que entraram em operação comercial durante o ciclo 2024-2025 
+e incrementaram a receita da transmissora (novos investimentos); 
+(iv) RBSE, sendo a redução relativo à decisão final em Reunião Ordinária da ANEEL na data 
+de 10 de junho de 2025 acerca da discussão do Componente Financeiro da RBSE, 
+relativos à trajetória da cobertura de O&M e relativos às desativações. 
+ 
+Reajuste Tarifário Anual do contrato de concessão prorrogado nos termos da Lei nº 12.783/2013: 
+ 
+* Valores expressos em R$ milhões. 
+ 
+Quanto aos contratos licitados, de acordo com a REH ANEEL nº 3.481/2025, para o ciclo de 
+2025/2026, de 01/07/2025 a 30/06/2026 o valor da RAP total, somada à Parcela de Ajuste alcança 
+aproximadamente R$ 209 milhões. 
+Reajuste Tarifário Anual 2025: 
+ 
+* Valores expressos em R$ mil.
+
+[p. 36]
+36 
+ 
+ 
+Release de Resultados | 2T25 
+3.3.4) Desempenho Econômico-Financeiro | Regulatório 
+ 
+ 
+ 
+ 
+Receita Operacional 
+ 
+ 
+A redução percebida na receita operacional é devido aos efeitos da revisão tarifária para o ciclo 
+2024-2025, aplicada a partir de julho de 2024. 
+ 
+ 
+ 
+ 
+Disclaimer: Este item contém os resultados regulatórios (Demonstrações 
+Contábeis Regulatórias destinadas ao reporte para a ANEEL, agência reguladora 
+do setor elétrico) e, portanto, possui apenas fins de análise do desempenho 
+regulatório/gerencial, seguindo as práticas do mercado para negócios de 
+transmissão. 
+Assim, este não serve como reporte oficial da Companhia para a Comissão de 
+Valores Mobiliários (CVM), que segue estrita e rigidamente os padrões contábeis 
+internacionais do IFRS. 
+Os valores não foram auditados e ainda estão sujeitos a alterações.
+
+[p. 37]
+37 
+ 
+ 
+Release de Resultados | 2T25 
+Custos e Despesas de O&M | PMSO e Depreciação/Amortização 
+ 
+* Extraordinário. 
+ 
+O PMSO foi afetado principalmente por: 
+ Baixa de adiantamento em obra, que impactou o resultado regulatório no 2T24 (+R$ 11 
+milhões); 
+ Efeitos das enchentes que impactaram o Rio Grande do Sul no 2T24, nas linhas de Materiais 
+e Serviços (+R$ 9 milhões); 
+ Redução de despesa de previdência privada por conta da redução do passivo (+R$ 8 
+milhões); 
+ Demais itens (+R$ 11 milhões). 
+No acumulado, também houve uma redução, impactada pelos efeitos acima e parcialmente 
+compensada por um gasto maior com pessoal. 
+Em relação à depreciação, houve um aumento em função da revisão tarifária ocorrida em 2024, 
+quando a ANEEL recalculou a taxa de depreciação dos ativos e reconheceu novos que entraram 
+no ciclo. 
+ 
+EBITDA 
+ 
+ 
+A redução no EBITDA se deve principalmente a uma menor receita, parcialmente compensada 
+pela redução do PMSO. Esses mesmos efeitos também afetam o resultado acumulado.
+
+[p. 38]
+38 
+ 
+ 
+Release de Resultados | 2T25 
+Resultado Financeiro 
+ 
+ 
+Houve uma piora do Resultado Financeiro, devido principalmente a: 
+ Aumento das despesas com a dívida líquida, principalmente em função da variação do CDI 
+(-R$ 12 milhões); 
+ Perda no efeito d a marcação a mercado, especialmente com as novas captações ( -R$ 3 
+milhões); 
+ Outros (-R$ 19 milhões). 
+Já no acumulado, a variação se deu devido a: 
+ Aumento das despesas com dívida, fruto das novas emissões ocorridas ao longo de 2024, 
+da variação do CDI e dos gastos com novas captações (-R$ 71 milhões) 
+ Outros (-R$ 9 milhões). 
+Parcialmente compensado por: 
+ Ganho no efeito da marcação a mercado, especialmente com as novas captações (+R$ 14 
+milhões). 
+ 
+Lucro Líquido 
+Houve uma redução no Lucro Líquido, devido a uma menor receita (RAP) causada pela aplicação 
+da revisão tarifária do ciclo 2024-2025 e pela piora no resultado financeiro. 
+ 
+3.3.5) Desempenho Econômico-Financeiro | IFRS 
+ 
+Nota: (1) O EBITDA é calculado a partir da soma do lucro líquido, impostos, resultado financeiro e depreciação/amortização.
+
+[p. 39]
+39 
+ 
+ 
+Release de Resultados | 2T25 
+3.4) SEGMENTOS DE COMERCIALIZAÇÃO E SERVIÇOS 
+ 
+3.4.1) Desempenho Econômico-Financeiro 
+ 
+Comercialização 
+ 
+Nota: (1) O EBITDA é calculado a partir da soma do lucro líquido, impostos, resultado financeiro e depreciação/amortização. 
+ 
+No trimestre, o EBITDA foi impactado principalmente pela menor margem . N o resultado 
+acumulado, além da menor margem, houve impacto referente a inadimplência (PDD) de algumas 
+comercializadoras (contrapartes no mercado) que entraram em recuperação judicial. 
+ 
+Serviços 
+ 
+Nota: (1) O EBITDA é calculado a partir da soma do lucro líquido, impostos, resultado financeiro e depreciação/amortização.
+
+[p. 40]
+40 
+ 
+ 
+Release de Resultados | 2T25 
+4) ANEXO 
+ 
+ 
+Perfil da Empresa e Estrutura Societária 
+Área de Atuação 
+A CPFL Energia atua nos segmentos de 
+Geração, Transmissão , Distribuição, 
+Comercialização e Serviços. 
+A CPFL é a maior distribuidora em volume de 
+energia vendida, com 13% de participação no 
+Brasil, atendendo cerca de 10, 8 milhões de 
+clientes em 687 municípios. Com 4.072 MW 
+de capacidade instalada, está entre as 
+maiores geradoras do país, com 96% do 
+portfólio em geração proveniente de fontes 
+renováveis. 
+O grupo atua de forma relevante também no 
+segmento de transmissão, com potência 
+instalada de 1 5,9 mil MVA e mais de 6 mil 
+quilômetros de linhas de transmissão . Conta 
+ainda com uma operação nacional por meio 
+da CPFL Soluções, fornecendo soluções 
+integradas em gestão e comercialização de 
+energia, eficiência energética, geração 
+distribuída, infraestrutura energética e 
+serviços de consultoria. Para acessar o Mapa de Atuação detalhado, clique aqui. 
+ 
+Estratégia de Crescimento 
+Para saber sobre o Planejamento Estratégico e as Vantagens Competitivas d a CPFL Energia , 
+acessar o site de RI. 
+ 
+Estrutura Societária e Governança Corporativa 
+A CPFL Energia atua como holding, participando no capital de outras sociedades. A State Grid 
+Corporation of China (SGCC) controla a CPFL Energia por meio de suas subsidiárias State Grid 
+International Development Co. Ltd, State Grid International Development Limited (SGID), 
+International Grid Holdings Limited, State Grid Brazil Power Participações S.A. (SGBP) e ESC 
+Energia S.A. 
+As diretrizes e o conjunto de documentos relativos à governança corporativa estão disponíveis no 
+site de RI.
+
+[p. 41]
+41 
+ 
+ 
+Release de Resultados | 2T25 
+ 
+ 
+ 
+Base: 30/06/2025 
+Notas: 
+(1) A RGE é controlada pela CPFL Energia (89,0107%) e pela CPFL Brasil (10,9893%); 
+(2) A CPFL Renováveis é controlada pela CPFL Energia (51,00%) e pela CPFL Geração (49,00%); 
+(3) A CPFL Transmissão é controlada pela CPFL Brasil (100%); 
+(4) CPFL Soluções = CPFL Brasil + CPFL Serviços; 
+(5) A Alesta é controlada pela CPFL Energia (99,99%) e pela CPFL Brasil (0,01%). 
+ 
+Política de Distribuição de Dividendos 
+A Política de Distribuição de Dividendos da CPFL Energia estabelece diretrizes, critérios e 
+procedimentos para a distribuição de dividendos e juros sobre o capital próprio aos acionistas da 
+Companhia, de acordo com a sua geração de caixa, sem comprometer o seu crescimento e sua 
+necessidade de investimentos. A política está disponível no site de RI.
+
+[p. 43]
+Energy for a more 
+sustainable future
+2Q25 Results
+VIDEOCONFERENCE 
+August 18th, 2025
+Time: 11:00 am (BRT) | 10:00 am (ET)
+Videoconference in Portuguese with 
+simultaneous translation into English
+Click here or use the QR Code
+
+[p. 44]
+Factor,which resulted in a 7.53% tariff adjustment for CPFL Paulista in April 2025.
+In the Generation segment, we highlight a notably favorable wind season, with output rising
+28% compared to the same period in 2024. On the other hand, we continue to face the
+generation restrictions imposed by the National Electricity System Operator (ONS)
+(curtailment), which also increased compared to the same period in 2024 and accounted for
+24.3% of the period’s total generation. Net generation was 11.9% higher in 2Q25. Another
+important point was the conclusion of the sale of our stake in Epasa, in line with our ESG
+commitments; now our generation portfolio is 100% renewable!
+Our investments remain substantial. This quarter, we invested R$ 1.4 billion in total, notably
+R$ 1.2 billion directed to Distribution and R$ 166 million to Transmission, primarily aimed at
+the formation of our asset base (RAB). We have already invested R$ 2.7 billion in this half-
+year and our estimated Capex across all businesses of the group is R$ 6.5 billion in 2025.
+As regards our financial discipline, cash management and optimization of the capital structure,
+we ended the quarter with leverage of 2.07 times the Net Debt/EBITDA, based on the
+measurement criterion used in financial covenants, and cash balance of R$ 4.2 billion.
+Another noteworthy event was the approval at the Annual General Meeting held on April 29 of
+dividends related to the 2024 results, amounting to R$ 3.2 billion, or R$ 2.79/share.
+I conclude this message with a very important highlight for the capital markets. CPFL Energia
+achieved a "Baa2" global rating by Moody's, which is 2 levels above the sovereign rating. With
+this recognition, we open up new possibilities for financing abroad, at very attractive costs,
+guaranteeing financing for our investment plan in the coming years. We remain highly
+motivated to constantly seek excellence in the operational and financial management of our
+assets, while always focusing on the quality of our processes and being alert to growth
+opportunities with the potential to generate value for our shareholders. I thank everyone who
+has been with us and let us move forward together in this journey.
+ Gustavo Estrella
+Presidente da CPFL Energia
+Message from the CEO
+We have reached the end of another half-year with consistent
+and robust results. In this quarter, EBITDA reached R$ 3
+billion, up 6.7%, while Net Profit totaled R$ 1.2 billion, an
+increase of 7.8%. It is also worth highlighting the 1.8%
+reduction in PMSO in the period, supported by lower
+allowances for doubtful accounts and effective cost control
+throughout all of our segments.
+In the Distribution segment, we highlight the decrease in
+delinquency, which returned close to our historical levels, with
+a ratio of 0.82% (Allowance for Doubtful Accounts/ Energy
+Supply Revenue), driven by the lower average ticket, as a
+result of milder temperatures this year. We have also observed
+an aggregate real income that is still growing. It must also be
+highlighted that our teams continue to make all efforts to
+control default levels. In energy sales, a highlight is the
+industrial sector, which has been showing positive numbers in
+recent quarters, achieving a growth of 1.9% in 2Q25. We also
+had the positive effects of tariff adjustments on the 'Parcel B',
+particularly the pass-through of the IGP-M index, net of the X-
+
+[p. 45]
+The data disclosed in this release, as well as further details, are available in Excel, in
+CPFL Energia’s Historical Information Base, available in the IR website. To
+access, click here.
+In case of doubts, Talk to IR.
+2Q25 Results
+Key Indicators 
+Notes:
+(1) EBITDA is calculated from the sum of net income, taxes, financial result, depreciation/amortization, as CVM Resolution no. 156/22. See the
+calculation in item 2.1 of this report;
+(2) In financial covenants criteria, which considers CPFL Energia’s stake in each generation projects and in CPFL Transmissão;
+(3) Does not include special obligations.
+R$ Million 2Q25 2Q24 D R$ D % 1H25 1H24 D R$ D %
+Load in the Concession Area | GWh 17,340 17,738 (399) -2.2% 37,084 37,161 (77) -0.2%
+Sales within the Concession Area | GWh 17,974 18,271 (298) -1.6% 36,891 36,896 (5) 0.0%
+Captive Market 8,983 10,207 (1,224) -12.0% 19,451 21,261 (1,809) -8.5%
+Free Client 8,991 8,064 927 11.5% 17,440 15,636 1,804 11.5%
+Gross Operating Revenue 15,101 14,212 889 6.3% 30,511 29,199 1,313 4.5%
+Net Operating Revenue 10,549 9,662 887 9.2% 21,204 19,828 1,377 6.9%
+EBITDA(1) 3,028 2,837 191 6.7% 6,880 6,702 177 2.6%
+Distribution 2,066 1,690 376 22.2% 4,658 4,226 432 10.2%
+Generation 806 856 (50) -5.9% 1,661 1,811 (150) -8.3%
+Transmission 171 233 (63) -26.8% 531 490 41 8.4%
+Commercialization, Services & Others (15) 57 (72) - 30 176 (146) -83.2%
+Net Income 1,186 1,100 85 7.8% 2,801 2,855 (54) -1.9%
+Distribution 847 565 282 50.0% 1,941 1,723 218 12.7%
+Generation 381 431 (50) -11.5% 781 906 (124) -13.7%
+Transmission 39 102 (62) -61.4% 219 226 (7) -3.1%
+Commercialization, Services & Others (82) 3 (85) - (140) 1 (141) -
+Net Debt(2) 27,287 26,250 1,037 4.0% 27,287 26,250 1,037 4.0%
+Net Debt / EBITDA(2) 2.07 2.01 - 3.0% 2.07 2.01 - 3.0%
+Investments(3) 1,422 1,353 69 5.1% 2,660 2,447 213 8.7%
+Stock Performance 40.86 32.73 8.13 24.8% 40.86 32.73 8.13 24.8%
+Daily Average Volume 56 67 (11) -16.2% 67 69 (3) -3.6%
+
+[p. 46]
+Net Debt
+R$ 27.3
+billion with a leverage 
+of 2.07x (Net Debt/ 
+EBITDA²)
+2Q25 Results
+Highlights
+1) Load net of losses; 2) In the financial covenants criteria.
+EBITDA
+R$ 3,028
+million (+6.7%)
+Net Income 
+R$ 1,186
+million (+7.8%)
+Load in the 
+Concession Area¹
+-2,2%
+CAPEX
+R$ 1,422 
+million (+5.1%)
+Distribution 
+ADA
+-37.3%
+There were the Annual 
+Tariff Adjustments (RTAs) 
+of the distributors CPFL 
+Paulista and RGE with 
+increases in Parcel B of 
+7.53% and 4.90%
+respectively
+In the Renewal of
+Concessions process, ANEEL 
+approved the request for early 
+extension of the CPFL 
+Piratininga and RGE 
+distributors, and awaiting the 
+MME decision
+Moody’s assigned to 
+CPFL Energia the Global 
+Corporate Rating 
+"Baa2“, two notches 
+above the sovereign 
+rating
+
+[p. 47]
+Uso Público CPFL 
+ 
+ 
+ 
+ 
+Contents 
+ 
+1) CPFL ENERGIA ECONOMIC-FINANCIAL PERFORMANCE ........................................... 6 
+1.1) Economic-Financial Performance ....................................................................................... 6 
+1.2) Indebtedness .................................................................................................................. 11 
+1.2.1) Financial Debt in IFRS Criteria ....................................................................................... 11 
+1.2.2) Debt in Financial Covenants Criteria ............................................................................... 12 
+1.3) Investments .................................................................................................................... 13 
+1.3.1) Actual Investments by Segment .................................................................................... 13 
+1.3.2) Investment Forecast ..................................................................................................... 13 
+ 
+2) SUSTAINABILITY AND ESG INDICATORS ................................................................ 14 
+2.1) ESG Plan 2030 ................................................................................................................ 14 
+2.2) Key ESG Indicators aligned to the Plan ............................................................................. 15 
+ 
+3) PERFORMANCE OF BUSINESS SEGMENTS ............................................................... 17 
+ 
+3.1) DISTRIBUTION SEGMENT ..................................................................................... 17 
+3.1.1) Operational Performance .............................................................................................. 17 
+3.1.1.1) Load Net of Losses | Concession Area ......................................................................... 17 
+3.1.1.2) Energy Sales | Concession Area .................................................................................. 17 
+3.1.1.3) Delinquency .............................................................................................................. 18 
+3.1.1.4) Losses ...................................................................................................................... 19 
+3.1.1.5) SAIDI and SAIFI ........................................................................................................ 20 
+3.1.2) Tariff Events ................................................................................................................ 20 
+3.1.3) Economic-Financial Performance ................................................................................... 21 
+ 
+3.2) GENERATION SEGMENT ........................................................................................ 27 
+3.2.1) Operational Performance .............................................................................................. 27 
+3.2.2) Economic-Financial Performance ................................................................................... 27 
+ 
+3.3) TRANSMISSION SEGMENT .................................................................................... 32 
+3.3.1) Portfolio ....................................................................................................................... 32 
+3.3.2) Operational Performance .............................................................................................. 32 
+3.3.3) Regulatory Themes ...................................................................................................... 33 
+3.3.4) Economic-Financial Performance | Regulatory ................................................................ 36 
+3.3.5) Economic-Financial Performance | IFRS ......................................................................... 38 
+ 
+3.4) COMMERCIALIZATION AND SERVICES SEGMENTS .............................................. 38 
+3.4.1) Economic-Financial Performance ................................................................................... 39 
+ 
+4) ATTACHMENTS ......................................................................................................... 40 
+ 
+ 
+ 
+ 
+ 
+2Q25 Results
+
+[p. 48]
+6 
+ 
+ 
+Earnings Release | 2Q25 
+1) CPFL ENERGIA ECONOMIC-FINANCIAL PERFORMANCE 
+ 
+1.1) Economic-Financial Performance 
+ 
+Note: (1) EBITDA is calculated from the sum of net income, taxes, financial results and depreciation/amortization. 
+ 
+Non-cash effects, extraordinary items and others 
+We highlight below the non -cash effects, extraordinary items and others of greater relevance 
+observed in the periods analyzed, as a way to facilitate the understanding of the variations in the 
+Company’s results. 
+ 
+* Extraordinary. 
+ 
+Extraordinary items explanation 
+ Impact of the sale of the stake in Epasa (Termonordeste and Termoparaíba TPPs): On 
+June 10, 2025, the sale of CPFL Geração's equity interest in Centrais Elétricas da 
+Paraíba S.A. – EPASA (“EPASA”) was completed. The sale had a negative impact on 
+assets write-off, mainly related to the benefit from the Superintendence for the 
+Development of the Northeast (“SUDENE”) (non-cash) (-R$ 153 million), partially offset 
+by the positive impact of the sale of the stake (+R$ 60 million); 
+EBITDA effects | R$ million 2Q25 2Q24 D R$ D % 1H25 1H24 D R$ D %
+Distribuition 323 7 316 754 348 406 
+Adjustments in the concession financial assets (VNR) 425 206 219 106.3% 910 590 320 54.3%
+Legal and judicial expenses (58) (53) (4) 7.8% (96) (92) (4) 4.2%
+Assets write-off (45) (49) 4 -8.3% (60) (53) (7) 14.0%
+Flood Impacts - Rio Grande do Sul* - (97) 97 - - (97) 97 -
+Generation (21) 66 (87) (84) 43 (127) 
+Equity Income 73 84 (11) -13.1% 134 176 (42) -23.9%
+Legal and judicial expenses (0) 0 (1) - (1) 2 (3) -
+Assets write-off (2) 1 (2) - (2) 2 (4) -
+Lajeado Fair Value Adjustments (non-cash effect)* - - - - 8 62 (54) -86.5%
+Epasa Sale Impact* (92) - (92) - (92) - (92) -
+Flood Impacts - Rio Grande do Sul* - (19) 19 - - (19) 19 -
+Transmission (189) (1) (188) (150) (9) (141) 
+Legal and judicial expenses (3) (10) 7 -68.5% (15) (23) 8 -35.0%
+Assets write-off 4 2 2 136.6% 8 2 5 217.9%
+Difference IFRS (-) Regulatory (40) 15 (55) - 122 19 104 557.3%
+RBSE Adjustments* (150) - (150) - (150) - (150) -
+Flood Impacts - Rio Grande do Sul* - (9) 9 - - (9) 9 -
+
+[p. 49]
+7 
+ 
+ 
+Earnings Release | 2Q25 
+ RBSE Adjustment: On June 10t, 2025, ANEEL ruled on the reconsideration requests 
+related to the RBSE reprofiling, partially approving the recommendations of Technical 
+Note No. 85/2023. As a result of this decision, CPFL Transmissão recognized a 
+remeasurement adjustment of R$ 150 million. The impact on the regulatory result will 
+be diluted until 2028 and will be seen starting in July of that year, with the new RAP 
+(Allowed Annual Revenue) approved in the annual tariff adjustment; 
+ 2024 Flood Impacts – Rio Grande do Sul: 
+a. RGE (R$ 97 million): (i) damaged assets write-off, in the amount of R$ 49 million, 
+mainly meters and distribution grid equipment and substation (R$ 43 million) and 
+their respective write-off in concession financial asset (R$ 6 million); (ii) services 
+related to the replacement of impacted assets, cleaning and infrastructure services, 
+fleet maintenance, among others, in the amount of R$ 23 million, (iii) impact in the 
+National Grid contracting (R$ 14 million ), and (iv) impossibility of billing clients 
+affected by the floods, in an estimated amount of R$ 12 million; 
+b. Ceran (R$ 19 million): (i) cleaning and infrastructure services, among others, in the 
+amount of R$ 16 million; and (ii) damaged assets write-off, in the amount of R$ 3 
+million; 
+c. CPFL Transmissão (R$ 9 million): (i) infrastructure and maintenance expenses, 
+among others, in the amount of R$ 6 million; and (ii) infrastructure assets write -
+off, in the amount of R$ 3 million. 
+ 
+For the YTD analysis, the result was also impacted by the following item: 
+ Lajeado Fair Value Adjustments (non -cash effect): Positive effect of R$ 8 million in 
+1H25, compared to a positive effect of R$ 62 million in 1H24, due to the 
+remeasurement at fair value in the investment recorded in Paulista Lajeado. 
+ 
+Other relevant numbers for result analysis 
+ 
+ 
+In the financial result, it is worth noting the following effect: 
+ Debt Mark-to-market (MTM): there was a positive change due to the increase in the risk 
+spread curve this quarter, partially offset by lower gains related to new funding. In the 
+YTD, the gain from new funding remains the main effect, along with a smaller reduction 
+in the accumulated risk spread curve compared to last year. 
+ 
+ 
+EBITDA effects| Transmission Segment 2Q25 2Q24 D R$ D % 1H25 1H24 D R$ D %
+EBITDA IFRS 171 233 (63) -26.8% 531 490 41 8.4%
+EBITDA Regulatory 211 218 (7) -3.3% 409 471 (62) -13.2%
+Difference IFRS (-) Regulatory (40) 15 122 19 
+Financial results effect | R$ million 2Q25 2Q24 D R$ D % 1H25 1H24 D R$ D %
+Late payment interest and fines 119 100 19 19.4% 242 219 23 10.6%
+Debt Mark-to-market (MTM) 86 (12) 98 - 109 (150) 259 -
+
+[p. 50]
+8 
+ 
+ 
+Earnings Release | 2Q25 
+Net Operating Revenue by Segment 
+ 
+ 
+In the Distribution segment, the increase in revenue with energy sales (Captive + TUSD ) along 
+with adjustments to the Concession's Financial Asset generated revenue growth. 
+For further details about the variation in net operating revenue by segment, see Chapter 3 – 
+Performance of Business Segments. 
+ 
+Cost of Electric Energy 
+ 
+ 
+There was an increase in Costs with Energy Purchased for Resale, both in the quarter and 
+YTD, mainly due to the increase in the costs of Auction, Bilateral Contracts and Spot Market. 
+Regarding Charges for the Use of the Transmission and Distribution System , the 
+reductions seen in the quarter and YTD are due to National Grid charges, as a result of the 
+reduction in transmission usage tariffs effective as of Jul-24, as per ANEEL Resolution No. 
+3,349/2024. The same occurred with the Itaipu Transmission charge, due to the new rates 
+determined in ANEEL Resolution No. 3,349/2024 and the new amounts defined in Dec -24 in 
+Dispatch No. 3,836/2024. 
+Furthermore, in sector charges (ESS/EER), the cost of ESS - System Service Charges was 
+reduced mainly due to the retroactive relief generated by the difference in prices between the 
+submarkets of the National Interconnected System (SIN). This effect was partially offset by the 
+EER - Reserve Energy Charge , which recorded an increase in costs , due to the greater 
+activation of plants in the quarter, as well as by the increase in the PLD appl ied to energy 
+settlements of Reserve Energy Contracts at CCEE both in the quarter and YTD. 
+For further details about the variation in the Cost of Electric Energy, see Chapter 3 – 
+Performance of Business Segments. 
+ 
+ 
+R$ Million 2Q25 2Q24 D R$ D % 1H25 1H24 D R$ D %
+Distribution 8,816 8,029 787 9.8% 17,586 16,641 945 5.7%
+Generation 1,161 1,081 81 7.4% 2,224 2,157 67 3.1%
+Transmission 423 485 (62) -12.8% 1,027 908 120 13.2%
+Commercialization 626 508 118 23.2% 1,262 971 291 30.0%
+Services 306 328 (22) -6.8% 609 624 (15) -2.5%
+Elimination and Others (784) (770) (14) 1.8% (1,503) (1,473) (31) 2.1%
+Net Operating Revenue 10,549 9,662 887 9.2% 21,204 19,828 1,377 6.9%
+R$ Million 2Q25 2Q24 D R$ D % 1H25 1H24 D R$ D %
+Itaipu 570 581 (11) -1.9% 1,101 1,076 26 2.4%
+PROINFA 118 92 26 28.7% 253 183 70 38.1%
+Auction, Bilateral Contracts and Spot Market 3,387 2,632 755 28.7% 6,489 5,319 1,170 22.0%
+PIS and COFINS Tax Credit (352) (284) (68) 23.8% (680) (569) (111) 19.6%
+Cost of Electric Power Purchased for Resale 3,723 3,020 703 23.3% 7,164 6,010 1,154 19.2%
+National Grid Charges 991 1,088 (96) -8.9% 2,025 2,156 (131) -6.1%
+Itaipu Transmission Charges 78 110 (33) -29.5% 149 213 (64) -29.9%
+Connection Charges 29 31 (2) -6.2% 55 58 (4) -6.0%
+Charges for the Use of the Distribution System 10 11 (0) -4.2% 21 21 (0) -0.1%
+ESS / EER 256 282 (26) -9.2% 414 558 (143) -25.7%
+PIS and COFINS Tax Credit (125) (149) 24 -16.1% (244) (294) 50 -17.1%
+Charges 1,239 1,372 (133) -9.7% 2,420 2,712 -291 -10.7%
+Cost of Electric Energy 4,962 4,392 569 13.0% 9,584 8,721 863 9.9%
+
+[p. 51]
+9 
+ 
+ 
+Earnings Release | 2Q25 
+PMSO 
+ 
+* Extraordinary; 
+ 
+PMSO in the quarter was impacted by the full effect of the sale of the stake in Epasa , which 
+generated a negative impact of R$ 92 million. On the other hand, there was a positive variation 
+due to the effects of the Rio Grande do Sul Flood in 2Q24, totaling R$ 93 million (for more details, 
+see explanations at the beginning of the chapter). In the YTD analysis, the result was impacted 
+by the remeasurement at fair value in the investment recorded in Paulista Lajeado, which 
+generated positive effects of R$ 8 million in 1H25 and R$ 62 million in 1H24. 
+Excluding these extraordinary items, the PMSO would have a reduction of 1.9% (R$ 23 million) 
+due to the following factors: 
+ MSO not linked to inflation (reductions of R$ 32 million in the quarter and of R$ 
+25 million in the YTD): reduction in the allowance for doubtful accounts (ADA), partially 
+offset by the increase in assets write-off; 
+ MSO linked to inflation (reduction of R$ 9 million in the quarter and increase of 
+R$ 23 million in the YTD): lower expenses with auditing and consulting (R$ 7 million) 
+in the quarter, while in the YTD there was an increase in hardware/software maintenance 
+(R$ 29 million); 
+ Personnel (increases of R$ 18 million in the quarter and of R$ 36 million in the 
+YTD): the growth mainly reflects the salary adjustments resulting from the collective 
+bargaining agreements applied in 2024. 
+ 
+Other operating costs and expenses 
+ 
+ 
+EBITDA 
+EBITDA for the quarter was impacted by the extraordinary effects of the sale of the stake in 
+Epasa and the RBSE adjustment in the Transmission segment, while the 2Q24 comparison basis 
+was affected by the effects of the floods in Rio Grande do Sul. Excluding these effects, 
+performance would have been positive, explained by the strong performance in PMSO and ADA, 
+the higher concession's financial asset in the Distribution segment, IGP -M adjustments in 
+Generation contracts, and the improved margin in the Transmission segment. In the YTD, there 
+was also the extraordinary effect of the remeasurement at fair value in the investment recorded 
+R$ Million 2Q25 2Q24 D R$ D % 1H25 1H24 D R$ D %
+ Personnel 581 563 18 3.2% 1,126 1,090 36 3.3%
+ Material 125 142 (17) -12.2% 250 261 (11) -4.2%
+ Outsourced Services 261 279 (18) -6.3% 517 499 18 3.5%
+ Outsourced Services 261 233 28 11.8% 517 454 63 13.8%
+ Outsourced Services - Flood in Rio Grande do Sul* - 45 (45) - - 45 (45) -
+ Other Operating Costs/Expenses 338 346 (8) -2.3% 579 535 44 8.2%
+ADA 74 106 (32) -30.1% 177 220 (44) -19.8%
+Assets Write-Off 43 47 (4) -8.7% 85 74 11 14.8%
+Legal and judicial expenses 65 64 2 2.4% 120 117 3 2.7%
+Others 64 81 (17) -21.2% 114 137 (24) -17.2%
+Assets Write-Off - Flood in Rio Grande do Sul* - 49 (49) - - 49 (49) -
+Epasa Sale Impact* 92 - (92) - 92 - (92) -
+Lajeado Fair Value Adjustments (non-cash effect)* - - - - (8) (62) 54 -86.5%
+PMSO 1,305 1,329 (25) -1.8% 2,472 2,386 87 3.6%
+R$ Million 2Q25 2Q24 D R$ D % 1H25 1H24 D R$ D %
+Costs of Building the Infrastructure 1,319 1,149 171 14.9% 2,385 2,121 263 12.4%
+Private Pension Fund 9 39 (31) -77.9% 17 73 (56) -76.3%
+Depreciation and Amortization 603 571 32 5.6% 1,193 1,137 56 4.9%
+Other operating costs and expenses 1,931 1,758 172 9.8% 3,595 3,331 263 7.9%
+
+[p. 52]
+10 
+ 
+ 
+Earnings Release | 2Q25 
+in Paulista Lajeado . Excluding this effect, the positive performance is explained by the same 
+reasons as in the quarter. 
+EBITDA is calculated according to CVM Resolution No. 156/22 and shown in the table below: 
+ 
+ 
+ 
+Financial Result 
+ 
+ 
+Managerial Analysis 
+ 
+ 
+Net financial expenses decreased in the quarter due to the positive effects of mark-to-
+market (gains from the increase in the risk spread curve) and the update of sectoral financial 
+assets and liabilities, partially offset by higher expenses with the net debt due to increases 
+in indexes (IPCA and CDI), in new funding costs, and in debt, compared to the previous period. 
+In the YTD, the same factors prevailed, with the variation in the expenses with the net debt 
+being more significant. 
+ 
+Net Income 
+The increase in Net Income mainly reflected the higher EBITDA performance of the quarter, 
+and the lower net financial expenses, partially offset by the higher effective tax rate (32.6% 
+in 2Q25 compared to 29.0% in 2Q24). In the YTD, the lower Net Income reflected the higher 
+effective tax rate (32. 5% in 1H25 compared to 29. 2% in 1H24), partially offset by the higher 
+EBITDA. 
+ 
+R$ Million 2Q25 2Q24 D R$ D % 1H25 1H24 D R$ D %
+Net Income 1,186 1,100 85 7.8% 2,801 2,855 (54) -1.9%
+Depreciation and Amortization 603 571 32 5.6% 1,193 1,137 56 4.9%
+Financial Result 667 716 (49) -6.9% 1,536 1,532 4 0.3%
+Income Tax / Social Contribution 573 450 123 27.3% 1,350 1,178 171 14.5%
+EBITDA 3,028 2,837 191 6.7% 6,880 6,702 177 2.6%
+R$ Million 2Q25 2Q24 D R$ D % 1H25 1H24 D R$ D %
+Revenues 463 378 84 22.3% 850 795 55 7.0%
+Expenses (1,129) (1,094) (35) 3.2% (2,386) (2,327) (59) 2.5%
+Financial Result (667) (716) 49 -6.9% (1,536) (1,532) (4) 0.3%
+R$ Million 2Q25 2Q24 D R$ D % 1H25 1H24 D R$ D %
+Expenses with the net debt (842) (758) (84) 11.1% (1,795) (1,486) (309) 20.8%
+Late payment interest and fines 119 100 19 19.4% 242 219 23 10.6%
+Mark-to-market 86 (12) 98 - 109 (150) 259 -
+Adjustment to the sectorial financial asset/liability 36 (13) 49 - 16 (79) 96 -
+Others financial revenues/expenses (66) (33) (33) 100.6% (108) (35) (73) 206.5%
+Financial Result (667) (716) 49 -6.9% (1,536) (1,532) (4) 0.3%
+
+[p. 53]
+11 
+ 
+ 
+Earnings Release | 2Q25 
+1.2) Indebtedness 
+ 
+1.2.1) Financial Debt in IFRS Criteria 
+ 
+ 
+Breakdown by Profile and Indexation | After Hedge 
+ 
+ 
+To mitigate any risk of market fluctuations, around R$ 4.5 billion in debt is protected by hedge 
+operations. In order to protect the exchange rate and the rate linked to the contract, swap 
+operations were contracted for foreign currency debts (14.1% of total IFRS debts). 
+ 
+Debt by Segment – IFRS | R$ Million 
+ 
+ 
+Notes: 
+(1) The Generation segment considers CPFL Renováveis, CPFL Geração, Ceran and Enercan; 
+(2) Considering the debt’s notional, interests, derivatives and the intercompany loans with SGBP. 
+ 
+ 
+R$ Million 2Q25 2Q24 D R$ D %
+Financial Debt (including hedge) 31,263 29,924 (1,338) 4.5%
+Available Funds (4,211) (3,943) 267 6.8%
+Net Debt 27,052 25,981 1,071 4.1%
+Debt Cost 14.3% 10.9% - 30.7%
+23.351
+4.158 3.754
+Distribution Generation Transmission
+
+[p. 54]
+12 
+ 
+ 
+Earnings Release | 2Q25 
+Evolution of the Debt Balance – IFRS | 2Q25 
+ 
+Debt Amortization Schedule¹ – IFRS | June 2025 
+ 
+ 
+Notes: 
+(1) Considering only the notional and hedge of the debt. In order to reach the total financial debt of R$ 31,263 million, charges, the 
+mark-to-market (MTM) effect, cost with funding and intercompany loans should be included; 
+(2) Cash is considering the amount of R$ 2.0 billion of Marketable Securities. 
+ 
+1.2.2) Debt in Financial Covenants Criteria 
+ 
+Notes: 
+(1) Considers the proportional consolidation of the assets of Generation and of CPFL Transmissão, in addition to the loan with SGBP; 
+(2) Cash and Cash Equivalents already considering Marketable Securities; 
+(3) Proforma EBITDA in the financial covenants criteria, adjusted according to CPFL Energia’s stake in each of its subsidiaries. 
+ 
+The reconciliation of CPFL Energia's Net Debt/EBITDA indicator is available on CPFL Energia's 
+Historical Information Base, on the IR website, to access it click here. 
+R$ Million 2Q25 2Q24 D R$ D %
+Financial Debt (including hedge)¹ 31,492 30,295 1,197 4.0%
+(-) Available Funds² (4,205) (4,046) (160) 3.9%
+(=) Net Debt 27,287 26,250 1,037 4.0%
+EBITDA Proforma³ 13,153 13,038 115 0.9%
+Net Debt / EBITDA 2.07 2.01 - 3.0%
+
+[p. 55]
+13 
+ 
+ 
+Earnings Release | 2Q25 
+1.3) Investments 
+ 
+1.3.1) Actual Investments by Segment 
+ 
+ 
+Notes: 
+(1) Transmission assets do not have fixed assets, the figures in this table are the addition of contractual assets; 
+(2) Others: basically, refers to assets and transactions that are not related to the listed segments. 
+ 
+The increase observed between the periods is related to: 
+ in the Distribution segment, the focus on customer service works and the electrical system 
+expansion plan, in addition to the maintenance and modernization of the grid; 
+ in the Transmission segment, the expansion of investments is focused on improvements in 
+the grid. 
+ 
+1.3.2) Investment Forecast 
+On December 12th, 2024, the Board of Directors of CPFL Energia approved Board of Executive 
+Officers’ 2025/2029¹ Multiannual Plan for the Company, which was previously discussed by the 
+Corporate Finance Committee and Risk Management. 
+ 
+ 
+Notes: 
+(1) Constant currency; 
+(2) Disregard investments in Special Obligations (among other items financed by consumers). 
+ 
+ 
+R$ Million 2Q25 2Q24 D R$ D % 1H25 1H24 D R$ D %
+Distribution 1,199 1,079 121 11.2% 2,213 1,998 215 10.7%
+Generation 51 99 (47) -48.0% 96 149 (53) -35.5%
+Transmission¹ 166 153 13 8.5% 341 257 84 32.7%
+Commercialization 0 1 (0) -60.9% 0 2 (2) -81.7%
+Services and Others² 5 22 (17) -75.4% 10 41 (31) -76.6%
+Actual Investments 1,422 1,353 69 5.1% 2,660 2,447 213 8.7%
+
+[p. 56]
+14 
+ 
+ 
+Earnings Release | 2Q25 
+2) SUSTAINABILITY AND ESG INDICATORS 
+ 
+ 
+2.1) ESG Plan 2030 
+The ESG Plan 2030 brings guidelines and strategies so that we can provide sustainable, accessible, 
+and reliable energy at all times, making people's lives safer, healthier and more prosperous in the 
+regions where we operate . Our corporate goal is to drive the transition to a more sustainable 
+model of producing and consuming energy, leveraging the positive impacts of our business model 
+on the community and the value chain. 
+To this end, we have identified four pillars that support the way we conduct our business and 
+execute our strategy: Renewable and smart solutions, Sustainable operations, Shared value with 
+society and Safe and reliable business. 
+ 
+ 
+Within the pillars, we made 2 4 commitments guided by the United Nations' Sustainable 
+Development Goals (SDGs). The commitments are available on the CPFL Energia IR website.
+
+[p. 57]
+15 
+ 
+ 
+Earnings Release | 2Q25 
+2.2) Key ESG Indicators aligned to the Plan 
+Below we list some indicators in line with the 2030 ESG Plan: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Shared Value with Society 
+Renewable & Smart Solutions 
+Sustainable Operations
+
+[p. 58]
+16 
+ 
+ 
+Earnings Release | 2Q25 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Safe & Reliable Business
+
+[p. 59]
+17 
+ 
+ 
+Earnings Release | 2Q25 
+3) PERFORMANCE OF BUSINESS SEGMENTS 
+ 
+3.1) DISTRIBUTION SEGMENT 
+ 
+3.1.1) Operational Performance 
+ 
+3.1.1.1) Load Net of Losses | Concession Area 
+ 
+ 
+3.1.1.2) Energy Sales | Concession Area 
+ 
+ 
+Highlights in the quarter: 
+ Residential Segment: reduction of 4.8%, mainly due to the negative impact of the 
+temperature and the increase in distributed generation (DG) . These effects were partially 
+offset by the good performance of the payroll, level of employment and vegetative growth; 
+ Industrial Segment: growth of 1.9%, reflecting the predominance of positive rates in 
+consumption in 7 of the 10 largest sectors in our concession area, which were partially offset 
+by the impact of DG; 
+ Commercial Segment: 4.2% decrease compared to the same period of the previous year, 
+due to the negative temperature effect and the impact of DG. These effects were partially 
+offset by the positive result of the payroll and the reduction in the unemployment rate; 
+ Rural Segment: reduction of 2.8%, explained by the impact of DG, partially offset by the 
+lower rainfall in Rio Grande do Sul; 
+ Others Segment: growth of 0.7%, driven by the country's better economic performance, 
+which was partially offset by the lower temperature and the increase in clients using DG. 
+
+
+[p. 60]
+18 
+ 
+ 
+Earnings Release | 2Q25 
+In general, the same effects affect the YTD result, with the exception of: 
+ Rural Segment: growth of 1.1%, driven by lower rainfall in our concession area, which 
+increases the need for irrigation, and by the country's economic performance, which was 
+partially offset by the increase in clients using DG. 
+ 
+3.1.1.3) Delinquency
+ADA showed a decrease of R$ 37.3 million 
+compared to the same period in 2024 and a 
+reduction of R$ 13.6 million compared to 
+1Q25. As a result, the ADA/Revenue from 
+Sales to Final Clients index reached 0.82% in 
+the quarter. 
+The quarterly result can be explained by a 
+higher number of power cuts compared to 
+the same period last year, favored by the 
+lower incidence of extreme weather events in 
+the concession area. We ended the quarter 
+with more than 717 thousand cuts, which 
+contributed to the drop in the delinquency 
+indicator. 
+It is important to consider the impact of the floods that affected the state of Rio Grande do Sul in 
+May 2024, which prevented the execution of service disconnections due to the severity of the 
+event and, subsequently, due to ANEEL Normative Resolution No. 1,092/2024, which prohibited 
+supply suspension for delinquency in the affected municipalities. Disregarding RGE's cuts in May 
+and June 2025, we ended the quarter with 612 thousand cuts, representing a 3% increase 
+compared to 2Q24. 
+These same effects influenced the YTD results, with a recorded reduction of R$ 72 million in the 
+allowance for doubtful accounts (ADA), with ADA/Revenue from Sales to Final Clients index of 
+0.84%. 
+CPFL continues to implement ongoing improvements to its delinquency management models, with 
+a focus on optimizing and automating collection processes and disconnection operations. This 
+dynamic approach enables the company to adapt to changes in customer behavior, consistent ly 
+pursuing more effective and innovative solutions.
+
+[p. 61]
+19 
+ 
+ 
+Earnings Release | 2Q25 
+3.1.1.4) Losses 
+ANEEL Dispatch No. 684/2025, based on the outcomes of Public Consultation No. 09/2024, 
+approved enhancements to the methodology for calculating required energy and non -technical 
+losses, incorporating the effects of micro and mini distributed generation (MMDG) within the 
+energy compensation system. The new directive establishes the adoption of the concept 
+of “measured supply market”, which represents the energy effectively consumed by users, 
+regardless of any compensation from self -generation. Additionally, the dispatch mandates the 
+inclusion of energy injected into the grid by MMDG systems in the total system load. 
+ 
+ Losses | New Methodology (PC 09) 
+ 
+ 
+Only CPFL Piratininga has not yet undergone the tariff adjustment process and, for this reason, 
+does not have the new limit established by ANEEL. 
+ 
+ Losses | Old Methodology 
+ 
+Notes: 
+(1) ANEEL Limit referring to 06/30/2025; 
+(2) In RGE, high-voltage clients (A1) were disregarded; 
+(3) According to the previous ANEEL criteria defined without distributed generation (DG) effects. 
+ 
+Excluding the effect of the billing calendar in both periods, losses would have the fo llowing 
+variations: Paulista -0.13 p.p.; Piratininga +1.13 p.p .; RGE +0.19 p.p. and Santa Cruz +0.56% 
+p.p. 
+The main achievements in losses reduction were: 
+(i) Maintenance of electrical borders and internal substations; 
+(ii) Mapping of energy losses through microbalances; 
+(iii) Shielding of 9.9 thousand Group B customers with armored enclosures, and 326 Group 
+A customers with Metering Assemblies (migration from internal cabin to external 
+metering installed on CPFL’s utility poles); 
+(iv) 101.8 thousand inspections performed in consumer units, with a 20.5% success rate in 
+identifying losses; 
+(v) Billed 21.9 GWh of recovered energy as a result of inspections. In addition to the 
+retroactive billing, normalized customers resumed accurate consumption, contributing 
+to 89.8 GWh increase in market volume; 
+(vi) Replacement of more than 8.6 thousand obsolete/defective meters for new electronic 
+meters;
+
+[p. 62]
+20 
+ 
+ 
+Earnings Release | 2Q25 
+(vii) Visit in 16.5 thousand consumer units inactivated for cutting in cases of self -
+reconnection; 
+(viii) Regularization of 48.4 thousand consumer units, with increase of consumption and 
+without contract; 
+(ix) Regularization of 587 clandestine consumer units, most of which having the need of 
+CPFL Energia’s grid construction; 
+(x) Market discipline through 120 news in media related to CPFL operations to fight fraud 
+and theft. 
+ 
+3.1.1.5) SAIDI and SAIFI 
+SAIDI measures the average duration, in 
+hours, of outages per c lient, and SAIFI 
+indicates the average number of outages 
+per c lient. Such indicators measure the 
+annual quality and reliability of the 
+electricity supply. 
+In the results of the last 12 months , the 
+SAIDI and SAIFI values showed a 
+reduction in the Group’s consolidated 
+figures and in the São Paulo distributors. 
+At RGE, there was a slight increase in the 
+indicators mainly due to scheduled 
+shutdowns for maintenance. 
+Despite this, all distributors are within the 
+ANEEL limits, a result that can be 
+attributed to CPFL's continuous search for 
+improvement in its operation, maturation 
+of the ADMS operating system, logistical 
+increase and intensification, both through 
+new investments and in the operation and 
+maintenance of the grid. 
+ 
+ 
+3.1.2) Tariff Events 
+ 
+Notes: 
+(1) As a result of the flood that occurred in Rio Grande do Sul in May 2024, RGE requested ANEEL for a tariff postponement, which 
+had zero impact on consumers in 2024 and led to the creation of a regulatory asset to be recomposed in the ATAs of the following 
+years, updated by SELIC. In the 2025 ATA, the pass-through of this asset began with a financial component in the amount of R$ 370 
+million; the remaining amount will be passed-through in subsequent tariff adjustments. 
+(2) The effect on consumer billing is also impacted by the financial components removed in the last tariff revision or adjustment. 
+Note: (1) ANEEL limit regarding 06/30/2025. 
+ATAs
+
+[p. 63]
+21 
+ 
+ 
+Earnings Release | 2Q25 
+3.1.3) Economic-Financial Performance 
+ 
+Note: (1) EBITDA (IFRS) is calculated from the sum of net income, taxes, financial result and depreciation/amortization. 
+ 
+Sectoral Financial Assets and Liabilities 
+On June 30th, 2025, the balance of sectoral financial assets and liabilities was negative (liability) 
+in R$ 1,815 million. If compared to December 31st, 2024, there was a variation of R$ 820 million, 
+as demonstrated in the chart below: 
+ 
+ 
+ 
+The movement of this balance was driven by the approval of the reimbursement to consumers, 
+totaling R$ 1,766 million , of which R$ 1,506 million refers to PIS/COFINS credits and R$ 260 
+million to credits from distributed generation. Dispatch No. 684/2025 regulated the treatment of 
+distributed generation credits, leading the Company to recognize a regulatory liability that had 
+previously been recorded under 'other accounts payable'. This regulatory liability to be passed on 
+to consumers was already considered in the 2025 tariff adjustments applied to the distributors. 
+Additionally, there were resources from the CDE in the amount of R$ 29 million. 
+During the period, R$ 992 million was amortized, while the monetary update of assets and 
+liabilities totaled R$ 16 million. 
+As a result of net asset constitution, we had assets of R$ 36 million, primarily in the following 
+lines: 
+(i) Other financial components (R$ 416 million); 
+(ii) CDE charge (R$ 215 million); 
+( )
+ 
+ 22 
+ 
+( , )
+(2 )
+ , 
+ alance Dec 2 Constitution Amorti ation onetary 
+Adjustment
+ efund to 
+Consumers
+CDE Eletrobr s alance un 2 
+( )
+
+[p. 64]
+22 
+ 
+ 
+Earnings Release | 2Q25 
+(iii) Overcontracting (R$ 156 million); 
+(iv) Proinfa (R$ 61 million); 
+Partially offset by the constitution of liabilities in: 
+(v) Return to clients of the PIS/COFINS credit (R$ 306 million); 
+(vi) Pass-through from Itaipu (R$ 140 million); 
+(vii) Exceeding demand and surplus of reactive power (R$ 138 million); 
+(viii) Neutrality of sector charges (R$ 84 million); 
+(ix) Billed tariff flag (R$ 74 million); 
+(x) Electric energy cost (R$ 52 million); 
+(xi) Other items (R$ 18 million). 
+ 
+For analysis purposes, below is the graph that demonstrates the movement in the balances of 
+sectoral assets and liabilities, only in 2Q25: 
+ 
+ 
+ 
+Operating Revenue 
+ 
+ 
+ 
+ 
+( 2 )
+ , 
+(2,0 )
+ 0 
+ 
+(2 )
+ alance ar 2 Constitution Amorti ation onetary 
+Adjustment
+ efund to 
+Consumers
+CDE Eletrobr s alance un 2 
+( )
+
+[p. 65]
+23 
+ 
+ 
+Earnings Release | 2Q25 
+Gross Operating Revenue 
+The variation in the Sectorial Financial Asset and Liability line is mainly due to the higher 
+recognition of Regulatory Assets in 2Q25 compared to 2Q24. 
+The increase in adjustments to the Concession’s Financial Assets is mainly explained by the 
+gain of R$ 111 million resulting from the appraisal reports prepared in 2Q25. Additionally, the 
+average growth of 18% in the asset base, combined with the variation in the IPCA (1.00% in 
+2Q24 and 1.25% in 2Q25), also contributed to the increase in the balance. 
+In the YTD , the effects that impacted revenue variation were similar to those recorded in the 
+quarter. Also noteworthy was the increase in CDE Resources, driven by the increase in the 
+number of clients who became eligible for tariff subsidies, resulting in distributors receiving the 
+aforementioned Resources. 
+ 
+Deductions from the Gross Operating Revenue 
+In the quarter, deductions from gross operating revenue increased, mainly due to higher 
+PIS/COFINS collections, higher CDE expenses resulting from the increased quota, and the growth 
+in Proinfa. These effects were partially offset by lower ICMS collections and a reduction in the 
+Others line, due to the recomposition of resources from Itaipu’s Electric Energy Commercialization 
+Account. 
+In the YTD, a reduction in deductions was observed, also related to the recomposition of resources 
+from Itaipu at the beginning of 2024, when the impact was more significant. 
+ 
+Cost of Electric Energy 
+ 
+ 
+The increase in Cost of Electric Power Purchased for Resale, both in the quarter and in the 
+YTD, is mainly due to the increase in the price of energy purchased from Auction, Bilateral 
+Contracts and Spot Market. 
+In the case of energy purchased from Itaipu, a reduction was observed in the quarter, attributed 
+to the lower amount of energy purchased. However, in the YTD, there was an increase, driven by 
+the appreciation of the dollar in 2025. 
+Regarding Charges for the Use of the Transmission and Distribution System , the 
+reductions seen in the quarter and in the YTD result from the National Grid charges due to the 
+drop in transmission system usage tariffs starting in Jul -24, as per ANEEL Resolution No. 
+3,349/2024. The same occurred with the Itaipu Transportation charge, due to the new tariffs 
+determined in ANEEL Resolution No. 3,349/2024, and by the new amounts defined in Dec-24 by 
+Dispatch No. 3,836/2024.
+
+[p. 66]
+24 
+ 
+ 
+Earnings Release | 2Q25 
+Furthermore, in sector charges (ESS/EER), the cost of ESS - System Service Charges was 
+reduced mainly due to the retroactive relief generated by the difference in prices between the 
+submarkets of the National Interconnected System (SIN). This effect was partially offset by the 
+EER - Reserve Energy Charge , which recorded an increase in costs , due to the greater 
+activation of plants in 2Q25, as well as by the increase in the PLD applied to energy settlements 
+of Reserve Energy Contracts at CCEE both in the quarter and YTD. 
+ 
+PMSO 
+ 
+* Extraordinary. 
+ 
+PMSO was impacted by an extraordinary item – floods in Rio Grande do Sul (for more details, see 
+explanation at the beginning of chapter 1 ), which generated an effect of R$ 66 million in the 
+quarter and year of 2024. 
+Excluding this item, the PMSO would have presented increases of 0.2% (R$ 2 million) in the 
+quarter and of 1.8% (R$ 33 million) in the YTD, due to the following factors: 
+ MSO linked to inflation (increase s of R$ 14 million in the quarter and of R$ 51 
+million in the YTD): explained by collection actions (R$ 5 million in 2Q25 and R$ 7 million 
+in 1H25); hardware and software (R$ 5 million in 2Q25 and R$ 24 million in 1H25); tree 
+pruning (R$ 2 million in 2Q25 and R$ 4 million in 1H25), among others; 
+ Personnel (increase of R$ 21 million in the quarter and of R$ 31 million in the YTD): 
+mainly explained by the growth of 2.2%1 in the headcount in the quarter and 1.6% ² in the 
+YTD and the collective labor agreements approved throughout 2024; 
+ MSO not linked to inflation ( reductions of R$ 33 million in the quarter and R$ 49 
+million in the YTD): explained by the allowance for doubtful accounts (ADA), as explained 
+in the item 3.1.1.3, partially offset by the increase in legal and judicial expenses. 
+ 
+Other operating costs and expenses 
+ 
+ 
+ 
+ 
+ 
+1 Average of April until June. 
+² Average of January until June.
+
+[p. 67]
+25 
+ 
+ 
+Earnings Release | 2Q25 
+EBITDA 
+The EBITDA of the Distribution segment was impacted by the extraordinary event recorded in 
+2024, resulting from the floods in Rio Grande do Sul (for further details, see explanation at the 
+beginning of chapter 1). Excluding this effect, the EBITDA would have shown a 15.6% increase, 
+mainly explained by the growth of the concession’s financial assets and the better performance 
+of PMSO and ADA. 
+ 
+ 
+ 
+EBITDA by Distribution Company 
+ 
+ 
+CPFL Paulista: 
+In the quarter, the positive result was driven by the favorable adjustment of Parcel B (7.53%), 
+which took effect in Apr-25, along with a lower ADA and the concession financial asset. 
+In the YTD, the variation is due to the lower ADA, added to the update of the concession's financial 
+assets. 
+ 
+CPFL Piratininga: 
+In the quarter, the positive EBITDA result was influenced by a more favorable energy mix, as well 
+as the tariff adjustment, which led to a 1.88% increase in Parcel B, effective since Oct -24, in 
+addition to the update of the concession’s financial asset. 
+The same effects impacted the YTD results. 
+ 
+RGE: 
+In the quarter, EBITDA was impacted by the extraordinary event in 2024 resulting from the floods 
+in Rio Grande do Sul (for further details, see explanation in chapter 1). Excluding this effect, the 
+variation would have been a 9.1% decrease, influenced by the negative tariff adjustment of Parcel 
+B (-0.87%), effective since Aug-24, and higher PMSO expenses. 
+In the YTD, excluding the extraordinary effect, EBITDA would have shown a 0.9% increase, driven 
+by improved performance in ADA, as well as the update of the concession’s financial asset. 
+ 
+CPFL Santa Cruz: 
+The positive variation in EBITDA reflects the increase in Parcel B (+3.87%) and a more favorable 
+energy mix, both in the quarter and in the YTD.
+
+[p. 68]
+26 
+ 
+ 
+Earnings Release | 2Q25 
+Financial Result 
+ 
+ 
+Managerial Analysis 
+ 
+ 
+The reduction in net financial expenses was mainly due to: (i) the MTM revenue; and (ii) the 
+variation in the Update of sectoral financial assets and liabilities , driven by the current 
+balance subject to adjustment; partially offset by (iii) the increase in Expenses with the net 
+debt, resulting from higher indexes (IPCA and CDI). 
+The same factors also impacted on the YTD net financial expenses, with the addition of the effect 
+of the reduction in the update of tax credits. 
+ 
+Net Income 
+The increase in Net Income was due to higher EBITDA results and lower net financial expenses, 
+partially offset by an increase income tax and social contribution expenses. 
+The same effects also impacted on the YTD Net Income.
+
+[p. 69]
+27 
+ 
+ 
+Earnings Release | 2Q25 
+3.2) GENERATION SEGMENT 
+ 
+3.2.1) Operational Performance 
+ 
+Generated Energy 
+ 
+Notes: 
+(1) The biomass plants Bio Buriti, Bio Ipê, and Bio Pedra were transferred to Pedra Group in Nov -24, no longer belonging to CPFL 
+Group since then; 
+(2) The energy contract was terminated on Dec-24 and the asset was sold in the 1H25. 
+ 
+In the quarter and in the YTD, we registered a reduction in the volume of energy generated, 
+mainly impacted by the performance of the HPPs, reflecting less favorable hydrological conditions, 
+in addition to the effect of curtailment in the wind farms, which represented 24% of total 
+generation in the quarter and 21% in the YTD. 
+ 
+Availability 
+ 
+Notes: 
+(1) The biomass plants Bio Buriti, Bio Ipê, and Bio Pedra were transferred to Pedra Group in Nov -24, no longer belonging to CPFL 
+Group since then; 
+(2) The energy contract was terminated on Dec-24 and the asset was sold in the 1H25. 
+3.2.2) Economic-Financial Performance 
+ 
+GWh 2Q25 2Q24 D GWh D % 1H25 1H24 D GWh D %
+Wind 743 664 79 11.9% 1,410 1,299 111 8.5%
+SHPP 409 418 (9) -2.2% 862 981 (119) -12.1%
+HPP 1,350 2,447 (1,097) -44.8% 2,666 5,140 (2,474) -48.1%
+Biomass¹ 138 360 (222) -61.7% 149 434 (285) -65.7%
+Solar 0.1 0.2 (0.1) -49.9% 0.4 0.5 (0.1) -24.5%
+TPP² - 2 (2) - - 7 (7) -
+Total 2,640 3,891 (1,251) -32.1% 5,086 7,861 (2,775) -35.3%
+Monthly Average 2Q25 2Q24 D p.p. D % 1H25 1H24 D p.p. D %
+Wind 93.7% 94.4% -0.7 -0.8% 92.3% 95.1% -2.8 -2.9%
+SHPP 94.9% 97.5% -2.6 -2.6% 94.9% 97.8% -2.9 -3.0%
+HPP 92.7% 98.3% -5.6 -5.7% 95.3% 98.5% -3.1 -3.2%
+Biomass¹ 99.6% 99.3% 0.3 0.3% 99.8% 99.4% 0.4 0.4%
+Solar 100.0% 100.0% 0.0 0.0% 100.0% 100.0% 0.0 0.0%
+TPP² 0.0% 97.3% -97.3 - 0.0% 98.4% -98.4 -
+R$ Million 2Q25 2Q24 D R$ D % 1H25 1H24 D R$ D %
+Gross Operating Revenue 1,267 1,186 81 6.8% 2,431 2,371 60 2.5%
+Net Operating Revenue 1,161 1,081 81 7.4% 2,224 2,157 67 3.1%
+Cost of Electric Power (179) (139) (40) 28.5% (321) (265) (56) 21.0%
+PMSO and Private Pension Fund (248) (169) (79) 46.8% (373) (253) (120) 47.2%
+Equity Income 72 84 (12) -14.1% 131 172 (42) -24.1%
+EBITDA¹ 806 856 (50) -5.9% 1,661 1,811 (150) -8.3%
+Depreciation and Amortization (220) (218) (2) 0.9% (439) (437) (2) 0.4%
+Financial Result (84) (98) 13 -13.5% (202) (229) 27 -11.7%
+Financial Revenues 71 32 39 119.7% 106 66 40 61.0%
+Financial Expenses (156) (130) (26) 19.7% (308) (294) (13) 4.5%
+Income Before Taxes 502 540 (39) -7.2% 1,020 1,145 (125) -10.9%
+Net Income 381 431 (50) -11.5% 781 906 (124) -13.7%
+
+[p. 70]
+28 
+ 
+ 
+Earnings Release | 2Q25 
+Note: (1) EBITDA is calculated from the sum of net income, taxes, financial result and depreciation/amortization. 
+ 
+Net Operating Revenue 
+In the quarter and in the YTD, revenue was mainly affected by energy prices adjusted for inflation 
+(IPCA or IGP-M) and by the better performance of wind farms, due to the higher volume of winds, 
+even with the increase in curtailment imposed by the ONS, which represented a revenue loss of 
+R$ 84 million in 2Q25 (versus R$ 26 million in 2Q24) and R$ 131 million in 1H25 (versus R$ 35 
+million in 1H24). 
+ 
+Cost of Electric Power 
+ 
+Note: (1) The GSF Risk Premium began to be accounted for in the cost of energy as of 4Q24. 
+ 
+In the quarter and in the YTD, the main variation occurred due to the increase in Energy 
+Purchased in the Spot Market. In addition, there was a greater amount of energy acquired in 
+Bilateral Contracts, ACR and ACL, as well as a higher average price. 
+ 
+PMSO 
+ 
+Notes: 
+* Extraordinary; 
+(1) The GSF Risk Premium began to be accounted for in the cost of energy as of 4Q24. 
+ 
+In the quarter, the variation in expenses with PMSO is mainly explained by the sale of the stake 
+in Epasa, which generated a negative effect of R$ 92 million in the quarter (for more details, see 
+R$ Million 2Q25 2Q24 D R$ D % 1H25 1H24 D R$ D %
+Energy Purchased in the Spot Market 58 25 32 127.4% 89 46 43 94.6%
+Bilateral Contracts, ACR and ACL 62 52 11 20.5% 116 96 20 21.0%
+PIS and COFINS Tax Credit (4) (5) 0 -8.7% (9) (9) (0) 1.4%
+Cost of Electric Power Purchased for Resale 116 72 43 59.9% 197 133 63 47.7%
+National Grid Charges 55 55 (1) -1.3% 107 110 (2) -2.1%
+Connection Charges 3 5 (1) -27.6% 6 9 (3) -32.5%
+Charges for the Use of the Distribution System 9 10 (1) -10.7% 18 20 (2) -11.2%
+ESS/EER (0) 1 (1) - (0) 1 (1) -
+PIS and COFINS Tax Credit (3) (4) 0 -11.3% (7) (8) 1 -10.3%
+Charges 63 67 (4) -5.4% 124 132 (8) -5.8%
+Cost of Electric Energy 179 139 40 28.5% 321 265 56 21.0%
+R$ Million 2Q25 2Q24 D R$ D % 1H25 1H24 D R$ D %
+ Personnel 43 39 4 10.4% 86 83 3 4.1%
+ Material 10 14 (4) -26.7% 23 24 (2) -6.4%
+ Outsourced Services 73 81 (8) -9.5% 130 150 (20) -13.4%
+ Outsourced Services 73 65 8 12.9% 130 134 (4) -3.0%
+ Outsourced Services - Rio Grande do Sul Flood* - 16 (16) - - 16 (16) -
+ Other Operating Costs/Expenses 121 32 89 278.7% 133 (5) 138 -
+Asset Write-off 2 (1) 2 - 2 (2) 4 -
+Legal and Judicial Expenses 0 (0) 1 - 1 (2) 3 -
+Others 27 24 2 9.8% 46 47 (1) -2.0%
+Epasa Sales's Impact* 92 - 92 - 92 - 92 -
+GSF Risk Premium*¹ - 6 (6) - - 11 (11) -
+Assets Write-Off - Rio Grande do Sul Flood* - 3 (3) - - 3 (3) -
+Lajeado Fair Value Adjustment (non-cash effect)* - - - - (8) (62) 54 -86.5%
+PMSO 248 166 82 49.2% 372 252 120 47.5%
+
+[p. 71]
+29 
+ 
+ 
+Earnings Release | 2Q25 
+the explanation in chapter 1). Additionally, there was the reclassification of the GSF Risk Premium 
+to the Energy Purchase line (R$ 6 million). 
+In the YTD, the effects are similar, especially noting the extraordinary effect of the fair value 
+adjustment of Paulista Lajeado, which generated a negative effect of R$ 54 million in the first 
+quarter (for more details, see the explanation in chapter 1). 
+Excluding these items, PMSO would have an increase of 2.0% (R$ 3 million) in the quarter and a 
+reduction of 6.0% (R$ 18 million) in the YTD, due to the following factors: 
+ PMSO linked to inflation (in line in the quarter and a reduction of R$ 26 million 
+in the YTD): mainly due to the reduction in expenses with other outsourced services and 
+maintenance of machinery and equipment; 
+ PMSO not linked to inflation (increases of R$ 3 million in the quarter and of R$ 
+7 million in the YTD): resulting from the legal expenses and assets write-off. 
+ 
+Other operating costs and expenses 
+ 
+ 
+Equity Income 
+ 
+Note: (1) Disclosure of interest in subsidiaries is made in accordance with IFRS 12 and CPC 45. 
+ 
+Baesa 
+ 
+ 
+In the quarter and in the YTD, the increase in Net Revenue was the result of a higher tariff , 
+partially offset by the reduction in CFURH . Regarding Operating Costs and Expenses, the 
+increase was due to the higher amount and price of energy purchased. The increase in Net 
+Financial Expense was due to higher expenses with UBP. 
+ 
+ 
+ 
+ 
+R$ Million 2Q25 2Q24 D R$ D % 1H25 1H24 D R$ D %
+Private Pension Fund 0 3 (3) -88.8% 1 1 (0) -26.4%
+Depreciation and amortization 172 172 0 0.2% 343 344 (0) -0.1%
+Amortization of Concession Intangible 48 47 1 3.2% 96 93 2 2.2%
+Other operating costs and expenses 221 221 (1) -0.3% 440 438 1 0.3%
+R$ Million 2Q25 2Q24 D R$ D % 1H25 1H24 D R$ D %
+Baesa (1) 2 (2) - 1 4 (3) -80.1%
+Foz do Chapecó 72 60 12 20.2% 129 125 3 2.6%
+Epasa 0 22 (21) -98.1% 1 43 (42) -97.9%
+Equity Income 72 84 (12) -13.9% 130 172 (42) -24.4%
+R$ Million 2Q25 2Q24 D R$ D % 1H25 1H24 D R$ D %
+Net Revenue 18 14 4 27.4% 36 31 4 13.6%
+Operating Costs / Expenses (13) (7) (6) 88.2% (19) (13) (6) 47.3%
+Deprec. / Amortization (4) (4) (0) 1.2% (7) (7) (0) 1.0%
+Net Financial Result (3) (1) (2) 124.5% (8) (5) (3) 52.3%
+Income Tax 0 (1) 1 - (1) (2) 2 -75.1%
+Net Income (1) 2 (2) - 1 4 (3) -80.1%
+
+[p. 72]
+30 
+ 
+ 
+Earnings Release | 2Q25 
+Foz do Chapecó 
+ 
+ 
+In the quarter and in the YTD, the Net Revenue increased due to the higher price of energy 
+supplied, partially offset by the reduction in the CFURH. Operating Costs/Expenses increased 
+due to the higher amount of energy purchased. The reduction in Net Financial Expense is 
+mainly due to income from financial investments, due to the higher cash balance, the increase in 
+the CDI and the reduction in debt charges, partially offset by the increase of expenses with UBP, 
+indexed by IGP-M and IPCA. 
+ 
+Epasa 
+ 
+ 
+With the end of the energy sales contract in Dec-24 and the closing of the sale of the stake in the 
+asset in 2Q25, the contribution to the 2025 result is significantly lower. We now report only the 
+variations presented in the periods analyzed. 
+ 
+Financial Result 
+ 
+ 
+Managerial Analysis 
+ 
+ 
+In the quarter, the increase in income from financial investments reduced Expenses with the 
+net debt. In addition, there was a gain with Market-to-market (MTM). Overall, the same 
+effects impacted the YTD result. 
+ 
+ 
+R$ Million 2Q25 2Q24 D R$ D % 1H25 1H24 D R$ D %
+Net Revenue 172 158 13 8.4% 337 321 16 4.9%
+Operating Costs / Expenses (36) (34) (2) 5.7% (78) (67) (11) 16.3%
+Deprec. / Amortization (13) (13) 0 -0.1% (26) (26) 0 -0.1%
+Net Financial Result (13) (19) 6 -30.8% (37) (41) 4 -9.1%
+Income Tax (36) (31) (5) 17.1% (65) (63) (2) 3.7%
+Net Income 72 60 12 20.2% 129 125 3 2.6%
+R$ Million 2Q25 2Q24 D R$ D % 1H25 1H24 D R$ D %
+Net Revenue (0) 45 (45) - (0) 93 (93) -100.3%
+Operating Costs / Expenses (3) (9) 7 -70.9% (7) (23) 15 -67.4%
+Deprec. / Amortization - (12) 12 - - (25) 25 -100.0%
+Net Financial Result 4 4 (0) -1.7% 10 8 2 31.3%
+Income Tax (0) (5) 4 -94.8% (1) (9) 9 -93.9%
+Net Income 0 22 (21) -98.1% 1 43 (42) -97.9%
+R$ Million 2Q25 2Q24 D R$ D % 1H25 1H24 D R$ D %
+Financial Revenues 71 32 39 119.7% 106 66 40 61.0%
+Financial Expenses (156) (130) (26) 19.7% (308) (294) (13) 4.5%
+Financial Result (84) (98) 13 -13.5% (202) (229) 27 -11.7%
+R$ Million 2Q25 2Q24 D R$ D % 1H25 1H24 D R$ D %
+Expenses with the net debt (71) (75) 5 -6.3% (159) (181) 22 -12.0%
+Market-to-market 1 (3) 3 - (1) (8) 7 -88.2%
+Other financial revenues/expenses (14) (18) 4 -22.0% (41) (39) (2) 6.3%
+Financial Result (84) (98) 13 -13.5% (202) (229) 27 -11.7%
+
+[p. 73]
+31 
+ 
+ 
+Earnings Release | 2Q25 
+EBITDA and Net Income 
+ 
+ 
+In the quarter, Epasa’s sale effect and the termination of biomass and Epasa contracts were the 
+main impacts in EBITDA. These same impacts also affected the YTD result, in addition to the 
+extraordinary effect of the fair value adjustment of Paulista Lajeado ( -R$ 54 million) in the first 
+quarter. 
+This worsening in EBITDA was reflected in the Net Income performance, in the quarter and in 
+the YTD. 
+ 
+R$ Million 2Q25 2Q24 D R$ D % 1H25 1H24 D R$ D %
+Net Income 381 431 (50) -11.5% 781 906 (124) -13.7%
+Depreciation and Amortization 220 218 2 0.9% 439 437 2 0.4%
+Financial Result 84 98 (13) -13.5% 202 229 (27) -11.7%
+Income Tax / Social Contribution 120 109 11 9.8% 239 240 (1) -0.3%
+EBITDA 806 856 (50) -5.9% 1,661 1,811 (150) -8.3%
+
+[p. 74]
+32 
+ 
+ 
+Earnings Release | 2Q25 
+3.3) TRANSMISSION SEGMENT 
+ 
+3.3.1) Portfolio 
+ 
+Notes: 
+(1) Approved value discounting the Adjustment Portion (PA); 
+(2) Contracts consolidated by equity income. 
+ 
+3.3.2) Operational Performance 
+ 
+ENS – Unsupplied Energy | MWh 
+The Unsupplied Energy (ENS) indicator consists in the analysis of the amount of energy interrupted 
+due to the unavailability of Transmission assets and, therefore, verifies the effective impact of the 
+unavailability for society. 
+ 
+ 
+ 
+The reduction in the ENS during the analysis period is due to the absence of significant load loss 
+events in 2Q25, unlike 1Q25 of this year, which showed an 87% decrease in this comparison. In 
+the accumulated results, we see an increase in the indicator due to the negative result in 1Q25. 
+ 
+PVd – Discounted Variable Parcel 
+The Discounted Variable Portion (PVd) consists of the percentage ratio of the Variable Portion 
+Discounts effected on the basis of Transmitter’s Monthly Billing. Such data is made available 
+monthly by the National Electric System Operator (ONS). 
+ 
+ 
+ 
+In 2Q25, we saw a slight increase compared to the same period in 2024, but a decrease compared 
+to 1Q25. It is worth noting that in 2024, we obtained an injunction for the return of discounts
+
+[p. 75]
+33 
+ 
+ 
+Earnings Release | 2Q25 
+related to disconnections that occurred in 2022, which affected the comparison basis. In the first 
+half of 2025, we saw a decrease compared to the same period in 2024, due to the decrease in 
+forced events in the transmission system in 1Q25. 
+ 
+3.3.3) Regulatory Themes 
+ 
+ 
+RBSE Revenue Flow¹ 
+The Allowed Annual Revenue (RAP) Parcel related to the assets belonging to the National Grid of 
+Existing System – RBSE is the indemnity of unamortized assets, in the context of the renewal of 
+Transmission concessions, in accordance with the Law No. 12,783/2013. The revenue flow from 
+these assets belonging to CPFL Transmissão’s Concession Contract No. 055/2001 is shown below. 
+On June 10 th, 2025, ANEEL deliberated on a request filed by some associations representing 
+market agents, which addressed calculations previously performed and approved by ANEEL for 
+payment of the financial component of the RBSE, reprofiled and approved (in accordance with 
+ANEEL REH No. 2,851/2021) starting in the 2021-2022 cycle. As a result of the deliberation, ANEEL 
+concluded the administrative discussion of the RBSE and published REH No. 3,464/2025, which 
+established: 
+(I) Separation of payment flows between controversial installments, arising from lawsuits, 
+and uncontroversial installments, to form the financial component; 
+(II) Controversial installments must consider the payment period between the 2020/2021 
+and 2027/2028 tariff cycles, from July 1st, 2020, to June 30th, 2028; 
+(III) Uncontroversial installments must consider the payment period between the 
+2017/2018 and 2024/2025 tariff cycles, from July 1st, 2017, to June 30th, 2025; 
+(IV) Only the controversial installments due and unpaid during the 2017/2018, 2018/2019, 
+and 2019/2020 tariff cycles, the period in which the court injunctions were in effect, 
+must be remunerated from their due dates at the approved Cost of Equity Rates; 
+(V) Update of the Regulatory Remuneration Rate associated with the expected year of the 
+periodic review of the RAP of the concession agreement; and 
+(VI) Maintain the flow of payments made in the 2020/2021 to 2024/2025 cycles, adjusting 
+for future cycles as follows: (a) Modulate the flow of the controversial installment in 
+the 2020/2021 to 2022/2023 cycles to zero and recomposition of interest on the 
+outstanding balance, in the 2023/2024 cycle for payment of interest only, in the 
+2024/2025 cycle for payment of interest and amortization equivalent to the rate of 
+4.6%, and in the 2025/2026, 2026/2027, and 2027/2028 cycles for payment of interest 
+and amortization equivalent to the constant profile rate of 31.8%; and (b) Modulate 
+the flow of the u ncontroversial installment by the difference between the amounts 
+realized in the 2020/2021 to 2024/2025 cycles and those obtained in item (a) for those 
+cycles. 
+The installments of the financial component for the 2025/2026, 2026/2027, and 2027/2028 cycles, 
+to be received by CPFL-T, were changed from R$ 296 million to R$ 249 million (per annual tariff 
+adjustment cycle). The flows of the economic component and O&M were not subject to discussion 
+and remained unchanged, maintaining the provisions of the Periodic Tariff Review (RTP) of the 
+transmission companies, as determined in REH 3,344/2024.
+
+[p. 76]
+34 
+ 
+ 
+Earnings Release | 2Q25 
+Revenue Flow –Financial1, Economic2 and O&M2 Components | R$ million 
+ 
+Note: (1) Values are in June-2025 database and must be updated by IPCA annually. (2) Values without date to end (it ends only in 
+the write off or substitution of the asset). 
+ 
+Periodic Tariff Review (“PT ”) 
+The Transmission Concession Contract No. 055/2001 -ANEEL, signed between the Federal 
+Government and the CPFL T ransmissão was extended in the terms of the Law No. 12,783, of 
+January 11, 2013, defining in its eight clause the rules for tariff revision enough to maintain the 
+concession economical-financial balance. 
+The second PTR was expected to happen in July 1st 2023, although, as like happened with the 1st 
+PTR, there was a postponement, with the process being ended in 07/12/2024 with the publication 
+of the REH ANEEL No. 3,344/2024, which homologate the 2023 PTR final result of the AAR, 
+associated to the Concession Contract No. 055/2001. 
+ 
+Tariff review of tendered concession contracts: 
+ 
+* Values expressed in R$ x 1,000. 
+ 
+Annual Tariff Adjustment (“ATA”) 
+According to REH ANEEL No. 3,481/2025, for the 202 5-2026 cycle, from 0 7/01/2025 to 
+06/30/2026, the Revenue (AAR) added to the Adjustment Portion (PA) of Concession Contract 
+No. 055/2001, totals around R$ 1,252 million, net of PIS and COFINS, highlighting: 
+(i) Monetary correction by the IPCA; 
+(ii) Discount of the Adjustment P ortion (PA), composed of the following components: (i) 
+PA 2023 PTR related to the retroactivity of the AAR pertinent to Reinforcements and 
+ 
+ 
+ 
+2 2 2 2 2 2 
+Financial Component Economical Component O Component
+
+[p. 77]
+35 
+ 
+ 
+Earnings Release | 2Q25 
+Improvements, (ii) PA Financial Improvements, (iii) PA Calculated corresponding to the 
+discount of excess AAR amounts received in excess in the previous cycle (CDE Subsidy, 
+AAR Advances) and (iv) PA Others related to the PA Quality DIT and Others; 
+(iii) Reinforcements and Replacement that started up during the 2024-2025 cycle and 
+increased the transmission company's revenue (new investments); 
+(iv) RBSE, the reduction being related to the final decision at the ANEEL Ordinary Meeting 
+on June 10th, 2025, regarding the discussion of the Financial Component of RBSE, 
+related to the trajectory of O&M coverage and related to deactivations. 
+ 
+Annual Tariff Adjustment of the concession contract extended under the terms of Law No. 
+12,783/2013: 
+ 
+* Values expressed in R$ million. 
+ 
+As for the tendered contracts, according to REH ANEEL No. 3,481/2025, for the 2025-2026 cycle, 
+from 0 7/01/2025 to 06 /30/2026 the total AAR plus the Adjustment Portion amounts to 
+approximately R$ 209 million. 
+Annual Tariff Adjustment 2025: 
+ 
+* Values expressed in R$ thousands.
+
+[p. 78]
+36 
+ 
+ 
+Earnings Release | 2Q25 
+3.3.4) Economic-Financial Performance | Regulatory 
+ 
+ 
+ 
+Operational Revenue 
+ 
+ 
+The decrease perceived in the operating revenue is due to the effects of the tariff review for 
+the 2024/2025 cycle, applied as of July 2024. 
+ 
+ 
+ 
+ 
+Disclaimer: This chapter contains the regulatory results (Regulatory Financial 
+Statements prepared for Aneel, the electricity sector regulatory agency), 
+therefore, is merely for the purpose of analyzing the regulatory/management 
+performance, following the market practices for transmission businesses. 
+Therefore, this does not work as an official report from the Company to the 
+Brazilian Securities and Exchange Commission (CVM), which strictly and rigidly 
+follows the IFRS international accounting standards. 
+The figures have not been audited and are still subject to change.
+
+[p. 79]
+37 
+ 
+ 
+Earnings Release | 2Q25 
+O&M Costs and Expenses | PMSO and Depreciation/Amortization 
+ 
+* Extraordinary. 
+ 
+PMSO was impacted mainly by: 
+ Write-off of advanced payment, which impacted regulatory result in 2Q24 (+R$ 11 million); 
+ Effect of the floods which impacted Rio Grande do Sul in 2Q24, in Materials and Services 
+accounts (+R$ 9 million); 
+ Decrease in the private pension expenses due to the reduction in liabilities (+R$ 8 million); 
+ Other items (+R$ 11 million). 
+In the YTD, there was also a reduction, impacted by the above effects and partially offset by 
+higher personnel expenses. 
+Regarding the depreciation, there was a n increase due to the tariff review which took place in 
+2024, when ANEEL recalculated the depreciation rate of the assets and recognized new ones to 
+be included in the cycle. 
+ 
+EBITDA 
+ 
+ 
+The decrease in EBITDA is mainly due to lower revenue, partially offset by the PMSO decrease. 
+These same effects also impact the YTD.
+
+[p. 80]
+38 
+ 
+ 
+Earnings Release | 2Q25 
+Financial Result 
+ 
+ 
+There was a worsening in the Financial Result, mainly due to: 
+ Increase in expenses with the net debt, mainly due to the CDI variation (-R$ 12 million); 
+ Loss in the mark-to-market effect, especially with the new funding (-R$ 3 million); 
+ Others (-R$ 19 million). 
+In the YTD, the variation occurred due to: 
+ Increase in expenses with the net debt, due to new issuances occurred throughout 2024, 
+CDI variation and expenditures with new funding (-R$ 71 million); 
+ Others (-R$ 9 million). 
+Partially compensated by: 
+ Gain in mark-to-market, especially with the new fundings (+R$ 14 million). 
+ 
+Net Income 
+There was a decrease in Net Income, due to a lower revenue (RAP) caused by the application 
+of the tariff review for the 2024-2025 cycle and the worsening in the financial result. 
+ 
+3.3.5) Economic-Financial Performance | IFRS 
+ 
+Note (1): EBITDA is calculated from the sum of net income, taxes, financial result and depreciation/amortization.

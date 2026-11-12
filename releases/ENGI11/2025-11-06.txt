@@ -1,0 +1,2825 @@
+[p. 1]
+D I V U L G A Ç Ã O R E S U L T A D O S 
+3T25 
+1 
+G R U P O EN ER G I SA 
+GRUPO ENERGISA S/A 
+RESULTADOS 3º. TRIMESTRE DE 2025 
+ 
+ 
+Cataguases, 06 de novembro de 2025 – A administração da Energisa S/A (“Energisa” ou “Companhia”) apresenta 
+os resultados do terceiro trimestre (3T25) e nove meses (9M25) de 2025. Os valores estão expressos em reais mil 
+(R$ mil) e as informações financeiras a seguir, foram elaboradas e estão sendo apresentadas de acordo com as 
+práticas contábeis adotadas no Brasil e com as Normas Internacionais de Relatório Financeiro (“IFRS”) emi tidas 
+pelo International Accounting Standards Board (“IASB”), que compreendem a s normas da Comissão de Valores 
+Mobiliários (“CVM”), os pronunciamentos contábeis, interpretações e orientações emitidos pelo Comitê de 
+Pronunciamentos Contábeis (“CPC”) e, qua ndo aplicáveis, as regulamentações do órgão regulador, a Agência 
+Nacional de Energia Elétrica – ANEEL, exceto quando indicado de outra forma. 
+ 
+➢ Energisa Consolidado: EBITDA ajustado recorrente consolidado totalizou R$ 2.071,0 milhões no 3T25, aumento 
+de 16,9% (R$ 299,4 milhões) sobre 3T24. O lucro líquido ajustado recorrente foi R$ 427,6 milhões no 3T25 
+(-13,6%). 
+ 
+➢ Distribuição de Energia Elétrica: O EBITDA ajustado combinado recorrente cresceu 13,8% no comparativo com 
+o 3T24, totalizando R$ 1.776,6 milhões. A venda de energia (mercado cativo + TUSD + energia compensada GD 
+II/III), sem o volume não faturado , cresceu 2,0% na comparação com o 3T24, atingindo 10.515,7 GWh. 
+Considerando o mercado não-faturado, o crescimento foi de 1,1% no trimestre. 
+ 
+➢ Transmissão de Energia Elétrica: O EBITDA regulatório apresentou crescimento de 28,6% e totalizou R$ 168,6 
+milhões. A margem EBITDA Regulatório atingiu 83,2%, +7,1pp na comparação com 3T24, reflexo da redução 
+expressiva de PMSO (- 25,6%) e aumento da receita operacional líquida regulatória (+ 17,6%) em função do 
+reajuste tarifário da RAP do ciclo 2025/2026 e da entrada em operação de novos ativos. 
+ 
+➢ Distribuição de gás natural: a ES Gás apresentou margem bruta de R$ 80,4 milhões, representando crescimento 
+de 17,3% em relação ao 3T24, impactada pelo incremento de volume e reajuste da margem média de 
+distribuição após a revisão ordinária . Adicionalmente, s e descontado o efeito da PGU (preço de gás de 
+ultrapassagem), que incidiu somente sobre o 3T24 , a margem bruta teria um aumento de 32,1% (+R$ 19,6 
+milhões). A Norgás apresentou resultado de equivalência patrimonial de R$ 25,4 milhões no 3T25. 
+ 
+➢ (re) energisa: No segmento de geração distribuída, no 3T25, o EBITDA cresceu 24,3% na comparação com o 
+3T24, com a adição de 7 usinas ao portfólio, totalizando 125 UFV´s em operação e 467,1 MWp de potência 
+instalada. 
+ 
+➢ No 3T25, o resultado do Grupo Energisa está afetado pelos seguintes efeitos não recorrentes e/ou não-caixa: 
+ 
+ 
+Itens que impactam EBITDA no trimestre: 
+ 
+ 
+ 
+• Marcação a mercado ECOM : R$ 10,5 milhões de efeito positivo não-caixa referente a marcação da 
+carteira da Energisa Comercializadora, com impacto no trimestre; 
+ 
+Itens que impactam Lucro: 
+ 
+• Marcação a mercado Call EPM e EPNE : R$ 86,1 milhões de efeito positivo em função do cálculo da 
+marcação a mercado da opção de compra de ações da subsidiária EPM e EPNE ;
+
+[p. 2]
+D I V U L G A Ç Ã O R E S U L T A D O S 
+3T25 
+2 
+G R U P O EN ER G I SA 
+ 
+Descrição 
+Trimestre Acumulado 
+3T25 3T24 Var. % 9M25 9M24 Var. % 
+ Indicadores Financeiros – R$ milhões 
+ Receita operacional bruta 12.640,9 11.717,4 + 7,9 35.659,9 33.627,8 + 6,0 
+Receita líquida ajustada (1) 7.631,4 7.001,3 + 9,0 21.463,9 19.761,0 + 8,6 
+PMSO 934,6 909,1 + 2,8 2.719,7 2.719,6 + 0,0 
+EBITDA 2.192,3 1.875,7 + 16,9 6.765,8 6.178,0 + 9,5 
+EBITDA ajustado recorrente (2) 2.071,0 1.771,6 + 16,9 5.872,1 5.575,7 + 5,3 
+EBITDA ajustado covenants (3) 2.301,4 1.983,6 + 16,0 7.096,1 6.499,7 + 9,2 
+Margem EBITDA (%) 23,9 21,9 + 2,0 p.p. 25,9 25,6 + 0,3 p.p. 
+Resultado financeiro (784,1) (498,4) + 57,3 (2.460,4) (1.545,9) + 59,2 
+Lucro líquido consolidado (4) 648,4 727,1 - 10,8 2.164,9 2.517,1 - 14,0 
+Lucro líquido consolidado ajustado recorrente (5) 427,6 495,1 - 13,6 1.258,5 1.564,4 - 19,6 
+Lucro líquido da controladora 438,5 552,9 - 20,7 1.471,5 1.960,7 - 24,9 
+Investimentos 1.819,5 1.827,3 - 0,4 4.751,5 4.756,0 -0,1% 
+Endividamento líquido (6) 29.199,5 23.707,0 + 23,2 
+Dívida Líquida/EBITDA ajustado covenants 12 meses 3,2 x 2,8 x 
+ 
+1) Considera receita líquida consolidada descontado do VNR e da receita de construção das distribuidoras, da receita societária da transmissão e com adição da 
+receita regulatória da transmissão; 2) EBITDA descontado do VNR da distribuição, do EBITDA societário da transmissão e dos efeitos não caixa e não recorrentes, 
+e com adição do EBITDA regulatório da transmissão; 3) EBITDA com adição de receitas de acréscimos moratórios; 4) Lucro Líquido antes da participação dos não 
+controladores; 5) Lucro líquido desc ontado do VNR da distribuição, do lucro líquido societário da transmissão e dos efeitos não caixa e não recorrentes e com 
+adição do lucro líquido regulatório da transmissão. 6) Inclui créditos setoriais (CDE, CCC, CVA).
+
+[p. 3]
+3 
+G R U P O EN ER G I SA 
+D I V U L G A Ç Ã O R E S U L T A D O S 
+3T25 
+Índice 
+1. PERFIL E ESTRUTURA SOCIETÁRIA ........................................................................................................................................... 5 
+1.1. Estrutura societária do Grupo Energisa .................................................................................................................... 6 
+2. ENERGISA CONSOLIDADA ............................................................................................................................................................ 7 
+2.1 Receita operacional líquida ......................................................................................................................................... 7 
+2.2 Custos e despesas operacionais controláveis .......................................................................................................... 8 
+2.3 EBITDA .......................................................................................................................................................................... 10 
+2.4 Resultado financeiro ................................................................................................................................................... 11 
+2.5 Lucro líquido do período ............................................................................................................................................ 12 
+2.6 Estrutura de capital .................................................................................................................................................... 13 
+2.6.1 Operações financeiras ................................................................................................................................. 13 
+2.6.2 Opções de compra de participações minoritárias .................................................................................. 13 
+2.6.3 Caixa e endividamento ................................................................................................................................. 13 
+2.6.4 Custo e prazo médio do endividamento ................................................................................................... 15 
+2.6.5 Cronograma de amortização das dívidas ................................................................................................. 15 
+2.7 Ratings .......................................................................................................................................................................... 16 
+2.8 Investimentos ............................................................................................................................................................... 16 
+2.9 Fluxo de caixa .............................................................................................................................................................. 16 
+2.10 Mercado de capitais .................................................................................................................................................... 17 
+3. DISTRIBUIÇÃO DE ENERGIA ELÉTRICA .................................................................................................................................. 17 
+3.1 Receita operacional .................................................................................................................................................... 17 
+3.1.1 Margem bruta ................................................................................................................................................ 18 
+3.1.2 Mercado de energia ..................................................................................................................................... 19 
+3.1.3 Consumo por classe ..................................................................................................................................... 20 
+3.1.4 Perdas de energia elétrica .......................................................................................................................... 21 
+3.1.5 Gestão da inadimplência ............................................................................................................................. 22 
+3.1.5.1 Taxa de arrecadação .................................................................................................................................... 22 
+3.1.5.2 Taxa de inadimplência ................................................................................................................................. 23 
+3.1.5.3 Indicadores de qualidade dos serviços nos serviços de distribuição – DEC e FEC ........................... 24 
+3.1.6 Conta de compensação dos valores da Parcela A (CVA)....................................................................... 25 
+3.1.7 Sobrecontratação ......................................................................................................................................... 26 
+3.1.8 Bandeiras tarifárias ...................................................................................................................................... 26 
+3.1.9 Revisões e reajustes tarifários ................................................................................................................... 26 
+3.1.10 Base de remuneração regulatória ............................................................................................................. 26 
+3.1.11 Parcela B........................................................................................................................................................ 27 
+3.2 Custos e despesas operacionais ............................................................................................................................... 28 
+3.2.1 Custos e despesas operacionais não controláveis ................................................................................. 28 
+3.2.2 Custos e despesas operacionais controláveis ......................................................................................... 28 
+3.2.3 Demais despesas operacionais .................................................................................................................. 29 
+3.3 EBITDA .......................................................................................................................................................................... 30 
+3.4 Lucro líquido do período ............................................................................................................................................ 31 
+4. TRANSMISSÃO ................................................................................................................................................................................ 32 
+4.1 Resultados econômico-financeiros consolidado – Societário x Regulatório ................................................... 32 
+5. (RE)ENERGISA ................................................................................................................................................................................ 33 
+5.1 Geração distribuída ..................................................................................................................................................... 33 
+5.2 Comercialização de energia elétrica ....................................................................................................................... 35 
+5.3 Serviços de valor agregado ...................................................................................................................................... 36 
+6. GERAÇÃO CENTRALIZADA .......................................................................................................................................................... 37
+
+[p. 4]
+4 
+G R U P O EN ER G I SA 
+D I V U L G A Ç Ã O R E S U L T A D O S 
+3T25 
+7. DISTRIBUIÇÃO DE GÁS NATURAL ............................................................................................................................................ 37 
+7.1 Visão geral.................................................................................................................................................................... 37 
+7.2 Resumo participações direta e indireta .................................................................................................................. 38 
+7.3 Informações Financeiras............................................................................................................................................ 38 
+8. ACOMPANHAMENTO DAS PROJEÇÕES DA COMPANHIA ................................................................................................. 40 
+9. EVENTOS SUBSEQUENTES ......................................................................................................................................................... 41 
+9.1 Bandeira tarifária ........................................................................................................................................................ 41 
+9.2 Energização do Reforço Oriximiná - LMTE ............................................................................................................. 41 
+9.3 Empréstimos Contratados ......................................................................................................................................... 41 
+9.4 Emissão de Debêntures - Controladas .................................................................................................................... 41 
+9.5 Aquisição da Lurean S.A. ........................................................................................................................................... 41 
+9.6 Pagamentos de dividendos – controladas .............................................................................................................. 42 
+ANEXO I – INFORMAÇÕES COMPLEMENTARES ............................................................................................................................ 43 
+A.1 Empresas por linha de negócio ................................................................................................................................ 43 
+A.2 Receita operacional líquida - Consolidado ............................................................................................................. 44 
+A.3 EBITDA por empresa .................................................................................................................................................. 45 
+A.4 Lucro (prejuízo) líquido por empresa ...................................................................................................................... 46 
+A.5 Debêntures espelho .................................................................................................................................................... 47 
+A.6 Investimento por empresa ......................................................................................................................................... 50 
+ANEXO II - DEMONSTRAÇÕES FINANCEIRAS ................................................................................................................................ 52 
+1. Balanço patrimonial ativo .......................................................................................................................................... 52 
+2. Balanço patrimonial passivo ..................................................................................................................................... 53 
+3. Demonstração de resultados .................................................................................................................................... 54 
+4. Demonstração do fluxo de caixa .............................................................................................................................. 55 
+Declaração dos Diretores da Energisa S.A. .................................................................................................................................... 56 
+Declaração dos Diretores da Energisa S.A. sobre o Parecer dos Auditores Independentes ......................................... 57 
+Conselho de Administração ................................................................................................................................................................. 58 
+Diretoria Executiva ................................................................................................................................................................................. 59
+
+[p. 5]
+5 
+G R U P O EN ER G I SA 
+D I V U L G A Ç Ã O R E S U L T A D O S 
+3T25 
+ 
+1. PERFIL E ESTRUTURA SOCIETÁRIA 
+ 
+O Grupo Energisa completou 1 20 anos em 26 de fevereiro de 202 5 e conta com mais de 1 7 mil colaboradores 
+próprios para atender a 9,3 milhões de clientes de eletricidade e gás natural. Oferecemos ao mercado um completo 
+ecossistema de soluções energéticas inovadoras para atender às necessidades de todos os perfis de clientes ao 
+redor do Brasil. 
+ 
+O Grupo Energisa atua nos seguintes segmentos: 
+ 
+Distribuição de energia elétrica: A Companhia controla 9 distribuidoras localizadas nos Estados de Minas Gerais, 
+Sergipe, Paraíba, Rio de Janeiro, Mato Grosso, Mato Grosso do Sul, Tocantins, São Paulo, Paraná, Acre e Rondônia, 
+com uma área de concessão que atinge 2.035 mil Km 2, equivalente a 24% do território nacional e atende cerca de 
+8,9 milhões de consumidores. 
+ 
+(re) energisa: Marca do grupo responsável pela gestão e comercialização de energia e de gás no mercado livre, 
+prestação de serviços de valor agregado e geração distribuída de fontes renováveis . 
+ 
+Transmissão de energia elétrica: Esse segmento totaliza 13 concessões de transmissão, dos quais 10 ativos 
+operacionais e 3 em construção, com aproximadamente 3. 508 km de linhas de transmissão e 14.454 MVA de 
+capacidade de transformação. 
+ 
+Geração centralizada : Duas usinas fotovoltaicas totalizando 70 MWp, energia totalmente comercializada no 
+mercado livre. 
+ 
+Distribuição de gás natural: A ES Gás é responsável pela distribuição de gás natural canalizado no Espírito Santo, 
+atuando em diversos setores, como residencial, comercial, industrial, automotivo, climatização, cogeração e 
+geração termoelétrica e atende o total de 90.377 clientes. Além disso, a Energisa possui participações societárias 
+indiretas nas distribuidoras de gás natural : Gás de Alagoas (Algás), Companhia de Gás do Ceará (Cegás), 
+Companhia Pernambucana de Gás (Copergás) e Companhia Potiguar de Gás (Potigás) localizadas nos Estados de 
+Alagoas, Ceará, Pernambuco e Rio Grande do Norte. Estas distribuidoras atendem a 259.164 clientes. 
+ 
+Biossoluções: Está em curso a construção da planta da AGRIC para produção de biometano e ampliação da 
+capacidade de produção de biofertilizantes em Campos Novos (SC). O portfólio inclui biometano, fertilizantes 
+orgânicos e tratamento de resíduos orgânicos de origem industrial. Adicionalmente, o Grupo adquiriu participação 
+majoritária na Lurean, que atua no tratamento de resíduos e na comercialização de adubo orgânico no Paraná e 
+onde será construída a segunda usina de produção de biometano do Grupo. Além de promover a economia circular, 
+valorizando os resíduos, estes projetos contribuirão para redução das emissões de gases efeito estufa. 
+ 
+ 
+(*) Após decisão do STF em 06/10/2023 o estado de Mato Grosso passa a ter 142 municípios. O distrito de Sorriso, Boa Esperança, agora é denominado município de Boa Esperança do Norte
+
+[p. 6]
+6 
+G R U P O EN ER G I SA 
+D I V U L G A Ç Ã O R E S U L T A D O S 
+3T25 
+1.1. Estrutura societária do Grupo Energisa 
+ 
+O controle acionário do Grupo Energisa é exercido pela Gipar S.A., cujo controlador é a família Botelho. A 
+Companhia é listada no Nível 2 de Governança Corporativa da B3 e as ações de maior liquidez são negociadas sob 
+o código ENGI11 (Units - certificados compostos por uma ação ordinária e quatro ações preferenciais). Além 
+desses títulos, são negociadas ações sob os códigos ENGI3 (ações ordinárias) e ENGI4 (ações preferenciais). 
+ 
+A seguir, a estrutura societária simplificada do Grupo Energisa: 
+ 
+ 
+ 
+CV - Capital Votante | CT - Capital Total 
+ 
+As participações demonstradas no quadro são diretas (1) ou indiretas (2) da Energisa S.A. 
+Squadra Investimentos, FIA Samambaia e Goldman Sachs – posição acionária direta e indireta através de veículos de investimentos. 
+Outros minoritários – posição acionária incluindo ações em tesouraria. 
+A Energisa Participações Minoritárias S.A possui participação direta de 29,6% na Rede e 39,8% na EMT. 
+A Energisa Participações Nordeste S.A possui participação direta de 100% na EPB. 
+A holding Gemini Energy S/A detém o controle acionário das transmissoras: 
+ - 100% da Linhas de Itacaiúnas de Transmissora de Energia Ltda; 
+ - 100% das Linhas de Taubaté Transmissora de Energia S.A; 
+ - 85,1% das Linhas de Macapá Transmissora de Energia S.A; e 
+ - 83,3% das Linhas de Xingu Transmissora de Energia S.A. 
+A empresa Norgás detém investimento minoritário nas seguintes distribuidoras de gás: 
+ - 29,4% da Cegás; 
+ - 29,4% da Algás; 
+ - 41,5% da Copergás; e 
+ - 83,0% da Potigas. 
+ 
+Dados de 03/11/2025
+
+[p. 7]
+7 
+G R U P O EN ER G I SA 
+D I V U L G A Ç Ã O R E S U L T A D O S 
+3T25 
+ 
+ 
+ 
+2. ENERGISA CONSOLIDADA 
+ 
+2.1 Receita operacional líquida 
+ 
+A seguir, as receitas operacionais líquidas por linha de negócio antes das eliminações intercompan hia e 
+combinação de negócios: 
+ 
+Receita líquida por linha de negócio 
+Valores em R$ milhões 
+Trimestre Acumulado 
+3T25 3T24 Var. % 9M25 9M24 Var. % 
+ ➢ Distribuição de energia elétrica 8.142,4 7.422,6 + 9,7 23.305,4 20.893,8 + 11,5 
+➢ Transmissão de energia elétrica 285,6 334,3 - 14,6 989,8 1.119,8 - 11,6 
+➢ (re) energisa 635,3 479,7 + 32,4 1.564,1 1.124,4 + 39,1 
+• Geração distribuída 87,6 84,4 + 3,8 255,7 264,1 - 3,2 
+• Comercialização de energia elétrica (1) 491,0 326,6 + 50,3 1.152,0 633,4 + 81,9 
+• Serviços de valor agregado 56,7 68,7 - 17,5 156,5 226,8 - 31,0 
+➢ Distribuição de gás natural 187,8 431,5 - 56,5 497,8 1.282,2 - 61,2 
+➢ Holdings e outros 143,9 131,7 + 9,2 407,9 376,5 + 8,3 
+(=) Total 9.395,0 8.799,8 + 6,8 26.765,1 24.796,7 + 7,9 
+ Eliminações intercompany e combinação de negócios (213,0) (219,3) - 2,9 (609,6) (639,4) - 4,7 
+(=) Receita líquida consolidada 9.182,0 8.580,6 + 7,0 26.155,5 24.157,3 + 8,3 
+(-) Receita de construção (2) (1.674,2) (1.661,3) + 0,8 (4.786,1) (4.570,2) + 4,7 
+(=) Receita líquida consolidada, sem receita de 
+construção da infraestrutura 7.507,8 6.919,3 + 8,5 21.369,4 19.587,2 + 9,1 
+ 
+(1) Considera o resultado da Clarke na Comercializadora a partir do 2T25, antes contabilizado em "Holding/Outros". Para facilitar a comparação, esse ajuste também 
+foi aplicado aos resultados de 2024 não impactando o resultado consolidado da Energisa, pois se trata apenas de uma reclassificação entre linhas na demonstração 
+de resultados. 
+(2) Receita de construção: receita de construção da infraestrutura + receita de operação e manutenção da infraestrutura de transm issão + receita das margens da 
+obrigação de performance da construção + remuneração do ativo de contrato (transmissão de energia e létrica). 
+ 
+A receita operacional consolidada está detalhada no Anexo A2. Acesse essa e outras tabelas em Excel nesse link. 
+ 
+Principais destaques: 
+ 
+➢ No 3T25, o segmento de Distribuição de Energia Elétrica apresentou crescimento na receita líquida de R$ 719,8 
+milhões (+ 9,7%), explicado, principalmente, pelo incremento da receita de ativos e passivos financeiros 
+(+R$ 341,1 milhões) , da receita de disponibilidade do sistema elétrico (+R$ 243,1 milhões) , da linha de 
+subvenções vinculadas aos serviços concedidos (+R$ 2 66,7 milhões) e do fornecimento cativo faturado 
+(+ R$83,7 milhões). Maiores detalhes seção 3. 
+ 
+➢ No segmento de Transmissão, o resultado societário reduziu 14,6% explicado, principalmente, pela redução da 
+receita de construção em função da menor realização de investimentos n os projetos energizados: Energisa 
+Amazonas e Energisa Amapá. Maiores detalhes na seção 4. 
+ 
+➢ O aumento de 32,4% na receita da (re)energisa no 3T25 foi impulsionado, principalmente, pela Comercializadora 
+(+ R$ 164,3 milhões) e pela Geração Distribuída (R$ 3,2 milhões). Esse crescimento compensou a redução no 
+segmento de serviços de valor agregado, que registrou queda de R$ 12,0 milhões. Maiores detalhes na seção 
+5. 
+ 
+➢ No segmento de Distribuição de Gás, a redução de 56,5% da receita líquida em comparação ao 3T24 é reflexo 
+da migração de clientes para o mercado livre de gás e redução do faturamento de PGU ( preço de gás de 
+ultrapassagem). Destaca-se que a migração para o mercado livre tem contrapartida na redução do custo do 
+gás e não afeta a margem bruta da distribuidora quando mantidos volumes equivalentes de distribuição, dado 
+que o custo do gás é integralmente repassado ao cliente ( pass-through). A margem bruta do segm ento 
+totalizou R$ 80,4 milhões, crescimento de 17,3%. Maiores detalhes na seção 7. 
+ 
+➢ Na Holding e Outros, o aumento de 9,2% (R$ 12,2 milhões) na comparação com 3T24 foi devido, principalmente, 
+ao crescimento da prestação de serviços do CSE e TI (+R$ 9,1 milhões).
+
+[p. 8]
+8 
+G R U P O EN ER G I SA 
+D I V U L G A Ç Ã O R E S U L T A D O S 
+3T25 
+2.2 Custos e despesas operacionais controláveis 
+ 
+A seguir, a composição dos custos e despesas operacionais consolidados da Companhia: 
+ 
+Composição dos custos e despesas operacionais 
+Valores em R$ milhões 
+Trimestre Acumulado 
+3T25 3T24 Var. % 9M25 9M24 Var. % 
+ 
+ 
+ 
+1 Custos e despesas não controláveis 4.415,0 4.057,2 + 8,8 11.977,9 10.770,5 + 11,2 
+1.1 Custo energia elétrica e transporte (1) 4.334,9 3.714,2 + 16,7 11.731,8 9.725,1 + 20,6 
+1.2 Custo do gás e transporte 80,0 343,0 - 76,7 246,1 1.045,4 - 76,5 
+2 Custos e Despesas controláveis 1.059,7 1.107,4 - 4,3 3.189,3 3.106,0 + 2,7 
+2.1 PMSO 934,6 909,1 + 2,8 2.719,7 2.719,6 + 0,0 
+2.2 Provisões/Reversões 125,1 198,3 - 36,9 469,5 386,3 + 21,5 
+2.2.1 Contingências 29,5 121,0 - 75,6 118,1 32,8 + 260,4 
+2.2.2 Perdas esperadas de crédito de liquidação duvidosa 95,6 77,3 + 23,7 351,5 353,5 - 0,6 
+3 Demais receitas/despesas 581,6 542,0 + 7,3 1.816,9 1.720,1 + 5,6 
+3.1 Amortização e depreciação 533,8 466,4 + 14,5 1.572,1 1.369,4 + 14,8 
+3.2 Outras receitas/despesas 47,8 75,6 - 36,8 244,7 350,7 - 30,2 
+Total (sem custo de construção da infraestrutura) 6.056,3 5.706,6 + 6,1 16.984,0 15.596,5 + 8,9 
+Custo de construção da infraestrutura 1.467,2 1.464,7 + 0,2 3.977,8 3.752,2 + 6,0 
+Total (com custo de construção da infraestrutura) 7.523,5 7.171,3 + 4,9 20.961,8 19.348,7 + 8,3 
+ 
+(1) Considera os valores de compra de energia elétrica das distribuidoras, comercializadora e efeitos de eliminação. 
+ 
+A linha de energia elétrica comprada está impactada pela provisão líquida de R$ 12,9 milhões referente à energia 
+não compensada de geração distribuída, cujo reconhecimento contábil teve início no 4T24. 
+ 
+Abaixo apresentamos o PMSO, que compõe os custos controláveis, detalhado por linha de negócio: 
+ 
+PMSO por linha de negócio 
+Valores em R$ milhões 
+Trimestre Acumulado 
+3T25 3T24 Var. % 9M25 9M24 Var. % 
+ ➢ Distribuição de energia elétrica (1) 848,4 786,1 + 7,9 2.460,7 2.358,3 + 4,3 
+➢ Transmissão de energia elétrica 33,8 62,3 - 45,8 94,7 166,9 - 43,2 
+➢ (re) energisa 86,3 115,8 - 25,5 258,1 346,1 - 25,4 
+• Geração distribuída 25,9 38,9 - 33,4 87,2 100,2 - 13,0 
+• Comercialização de energia elétrica (2) 10,8 14,7 - 26,4 32,5 41,7 - 22,3 
+• Serviços de valor agregado 49,6 62,3 - 20,3 138,4 204,1 - 32,2 
+➢ Distribuição de gás natural 19,2 19,6 - 1,7 55,5 54,0 + 2,9 
+➢ Holdings e outros 127,0 114,1 + 11,3 365,4 337,1 + 8,4 
+(=) Total 1.114,7 1.098,0 1,5 3.234,4 3.262,4 - 0,9 
+ Eliminações intercompany (180,1) (188,9) - 4,7 (514,7) (542,7) - 5,2 
+(=) Energisa consolidada 934,6 909,1 + 2,8 2.719,7 2.719,6 - 
+ 
+(1) Acesse essa e outras tabelas em Excel que estão disponíveis nesse link 
+(2) Considera o resultado da Clarke na Comercializadora a partir do 2T25, antes contabilizado em "Holding/Outros". Para facilitar a comparação, esse ajuste também 
+foi aplicado aos resultados de 2024 não impactando o resultado consolidado da Energisa, pois se trata apenas de uma reclassificação entre linhas na demonstração 
+de resultados. 
+ 
+No trimestre, o PMSO consolidado apresentou aumento de 2,8% abaixo da inflação (IPCA) de 5,2%. Destaque para 
+as reduções na transmissão (-45,8%) e (re)energisa (-25,5%). 
+ 
+ 
+No segmento de Transmissão, redução de 25,6% no PMSO Regulatório em função de internalização de atividades 
+de O&M. Para maiores informações, vide item 4 deste documento.
+
+[p. 9]
+9 
+G R U P O EN ER G I SA 
+D I V U L G A Ç Ã O R E S U L T A D O S 
+3T25 
+ 
+ 
+PMSO Regulatório Transmissão 
+Valores em R$ milhões 
+Trimestre Exercício 
+3T25 3T24 Var. % 9M25 9M24 Var. % 
+ ➢ Transmissão de energia elétrica - Regulatório 33,8 45,4 - 25,6 92,5 127,2 - 27,3 
+ 
+ 
+ 
+ 
+PMSO (Pessoal, Material, Serviços e Outros) 
+ 
+As despesas com PMSO no consolidado tiveram aumento de 2,8% na comparação com o 3T24 e atingiram R$ 934,6 
+milhões no trimestre. 
+ 
+PMSO Consolidado 
+Trimestre Exercício 
+3T25 3T24 Var. % 9M25 9M24 Var. % 
+ Pessoal e benefício pós-emprego 539,0 491,5 + 9,7 1.580,5 1.468,8 + 7,6 
+Material 77,6 81,5 - 4,9 235,9 249,2 - 5,3 
+Serviços de terceiros(1) 301,5 288,3 + 4,6 793,0 825,2 - 3,9 
+Outras 16,6 47,8 - 65,3 110,3 176,5 - 37,5 
+• Penalidades contratuais e regulatórias 0,3 0,9 - 67,3 0,9 1,9 - 54,0 
+• Outros 16,3 46,8 - 65,3 109,4 174,6 - 37,3 
+Total PMSO consolidado 934,6 909,1 + 2,8 2.719,7 2.719,6 + 0,0 
+ 
+As principais variações nas despesas de PMSO estão detalhadas a seguir: 
+ 
+✓ Pessoal e Benefício Pós Emprego 
+ 
+No 3T25, estas despesas apresentaram crescimento de 9,7% (+R$ 47,5 milhões) em relação ao 3T24, 
+influenciado pelos acordos coletivos, benefícios , maiores custos de rescisão e aumento no quadro de 
+empregados em 2,9% devido às internalizações de equipes realizadas nos últimos trimestres principalmente 
+na distribuição de energia (+R$ 38,8 milhões), transmissão (+R$ 8,2 milhões) e ES Gás (+R$ 5,6 milhões). Este 
+aumento foi compensado em parte pelas menores despesas no segmento de serviços de valor agregado da 
+(re)energisa (-R$ 11,8 milhões). 
+ 
+✓ Material 
+ 
+No 3T25, as despesas com materiais totalizaram R$ 7 7,6 milhões, uma redução de 4,9% (R$ 4,0 milhões) em 
+comparação ao 3T24 impulsionada principalmente pela retração de R$ 6,4 milhões na transmissão, em função 
+da eficiência na gestão de custos operacionais, sendo parcialmente compensada pelo aumento de R$ 3,5 
+milhões no segmento de distribuição de energia devido aos maiores gastos com combustíveis e lubrificantes , 
+manutenção de redes, equipamentos e frotas. 
+ 
+✓ Serviços 
+ 
+No 3T25, as despesas com serviços totalizaram R$ 301,5 milhões, um aumento de 4,6% (+R$ 13,2 milhões 
+abaixo do registrado no 3T24, devido: 
+ 
+(i) + R$ 41,5 milhões de despesas no segmento de distribuição de energia, sendo +R$ 16,2 milhões em 
+despesas de manutenção corretiva e preventiva e R$ 9,2 milhões em honorários advocatícios; 
+(ii) + R$ 11,0 milhões em serviços intercompany; 
+(iii) - R$ 28,9 milhões em função da internalização das atividades O&M nas transmissoras; 
+(iv) - R$ 12,3 milhões de despesas no segmento de geração distribuída. 
+ 
+✓ Outros 
+ 
+No 3T25, a linha registou uma redução de 65,3% (-R$ 31,2 milhões) com destaque para o reembolso da Conta 
+de Consumo de Combustíveis (CCC), contrapartida aos projetos Vila Restauração e Mais Luz para Amazônia 
+totalizando redução de despesa de R$ 18,0 milhões no 3T25 e redução das despesas de aluguel de 
+equipamentos e imóveis no montante de R$ 8,7 milhões. 
+ 
+Provisões/Reversões 
+ 
+Contingências 
+ 
+No 3T25, a rubrica de provisões/reversões registrou um impacto de R$ 29,5 milhões, frente R$ 121,0 milhões no
+
+[p. 10]
+10 
+G R U P O EN ER G I SA 
+D I V U L G A Ç Ã O R E S U L T A D O S 
+3T25 
+3T24, que representa um a redução de R$ 91,5 milhões vinculado especialmente as seguintes movimentações 
+ocorridas em 2024, conforme seguem: (i) realização de acordos de processos relevantes com impacto no montante 
+de R$ 36,9 milhões (ERO – R$ 18,4 milhões, EMT – R$ 13,0 milhões e ETO R$ 5,5 milhões); e (ii) reavaliação de 
+risco no montante de R$ 40 milhões, em processo envolvendo honorários de sucumbência relacionado a crédito 
+indicado na recuperação judicial da Rede Energia. 
+ 
+Perdas esperadas de créditos de liquidação duvidosa (“PPECLD”) 
+ 
+No 3T25, a PPECLD foi de R$ 95,6 milhões, representando aumento de 23,7% (+R$ 18,3 milhões), quando 
+comparado aos R$ 77,3 milhões no 3T24. Este crescimento é explicado pelo aumento do PPECLD das discos no 
+3T25 e pelo reconhecimento de R$ 7,0 milhões referente à baixa de contratos contabilizado na linha de Outras 
+receitas/despesas no 3T24, cujo efeito foi reclassificado para a linha de PPECLD no 4T24. Para maiores 
+informações, recorrer ao item 3.1.5.2 deste relatório. 
+ 
+Outras receitas/despesas 
+ 
+No trimestre, as outras despesas líquidas alcançaram R$ 47,8 milhões, redução de 36,8% (- R$ 27,8 milhões) em 
+relação ao mesmo período do ano anterior, principalmente pela variação positiva de R$ 24,6 milhões, sem efeito 
+caixa, referente a marcação a mercado da Comercializadora. 
+ 
+ 
+2.3 EBITDA 
+ 
+O EBITDA totalizou R$ 2.192,3 milhões no 3T25, aumento de 16,9% em relação ao mesmo trimestre do ano anterior. 
+ 
+O EBITDA ajustado covenants, utilizado nos indicadores de dívidas, registrou o valor de R$ 2.301,4 milhões no 
+3T25, 16,0% acima do registrado no mesmo período do ano anterior. No acumulado dos últimos 12 meses, o EBITDA 
+ajustado para fins de covenants somou R$ 8.998,6 milhões. 
+ 
+Se desconsiderarmos o impacto do efeito não recorrente da provisão de crédito de geração distribuída nas 
+distribuidoras no valor de R$ 510,9 milhões (sendo R$ 430,2 milhões no 4T2 4, R$ 41,5 milhões no 1T25 , R$ 26,2 
+milhões no 2T25 e R$ 12,9 milhões no 3T25 ), o EBITDA ajustado covenants dos últimos 12 meses alcançaria 
+R$ 9.509,4 milhões. 
+ 
+EBITDA por linha de negócio 
+Valores em R$ milhões 
+Trimestre Acumulado 
+3T25 3T24 Var. % 9M25 9M24 Var. % 
+ ➢ Distribuição de energia elétrica 1.877,0 1.670,7 + 12,4 5.807,7 5.282,0 + 10,0 
+➢ Transmissão de energia elétrica 179,0 141,7 + 26,3 707,4 630,4 + 12,2 
+➢ (re) energisa 40,6 20,6 + 97,2 48,9 (21,1) - 
+• Geração distribuída 43,2 34,7 + 24,3 119,1 125,1 - 4,7 
+• Comercialização de energia elétrica (1) (10,7) (20,3) - 47,1 (87,9) (168,3) - 47,8 
+• Serviços de valor agregado 8,2 6,2 + 32,6 17,6 22,2 - 20,8 
+➢ Distribuição de gás natural 62,5 49,5 + 26,3 135,6 153,0 - 11,4 
+➢ Holdings e outros 32,1 (16,1) - 52,6 (34,3) - 
+Eliminações intercompany e combinação de negócios 1,0 9,3 - 89,0 13,6 168,0 - 91,9 
+(=) EBITDA 2.192,3 1.875,7 + 16,9 6.765,8 6.178,0 + 9,5 
+(+) Receitas de acréscimos moratórios 109,1 108,0 + 1,1 330,4 321,7 + 2,7 
+(=) EBITDA ajustado covenants (2) 2.301,4 1.983,6 + 16,0 7.096,1 6.499,7 + 9,2 
+ 
+(1) Considera o resultado da Clarke na Comercializadora a partir do 2T25, antes contabilizado em "Holding/Outros". Para facilitar a comparação, esse ajuste também 
+foi aplicado aos resultados de 2024 não impactando o resultado consolidado da Energisa, pois se trata apenas de uma reclassificação entre linhas na demonstração 
+de resultados. 
+(2) EBITDA com adição de receitas de acréscimos moratórios.
+
+[p. 11]
+11 
+G R U P O EN ER G I SA 
+D I V U L G A Ç Ã O R E S U L T A D O S 
+3T25 
+Descrição 
+Valores em R$ milhões 
+Trimestre Acumulado 
+3T25 3T24 (1) Var. % 9M25 9M24 Var. % 
+ 
+ (=) EBITDA 2.192,3 1.875,7 + 16,9 6.765,8 6.178,0 + 9,5 
+(-) Ativo financeiro indenizável da concessão (VNR - 
+Distribuição) (100,4) (107,6) - 6,6 (545,4) (427,1) + 27,7 
+(-) EBITDA societário transmissoras (179,0) (141,7) + 26,3 (707,4) (630,4) + 12,2 
+(+) EBITDA regulatório transmissoras 168,6 131,1 + 28,6 478,3 410,1 + 16,6 
+(=) EBITDA ajustado 2.081,5 1.757,5 + 18,4 5.991,2 5.530,6 + 8,3 
+(+/-) Efeitos não recorrentes e extraordinários (10,5) 14,1 - (119,1) 45,1 - 
+Marcação a Mercado ECOM (10,5) 14,1 - 57,8 186,5 - 69,0 
+Reversão Contingência ERO - - - - (141,4) - 
+Provisão RTE da ERO (1) 0,0 - - (176,9) - - 
+(=) EBITDA ajustado recorrente 2.071,0 1.771,6 + 16,9 5.872,1 5.575,7 + 5,3 
+ 
+(1) Reversão Contingências ERO registrada no Purchase Proce Allocation (PPA) da ERO não impacta a distribuidora, somente a contro ladora Energisa S.A. 
+ 
+O EBITDA ajustado recorrente alcançou R$ 2.071,0 milhões, um resultado 16,9% superior ao 3T24. Esse aumento 
+deveu-se à maior receita em todos os segmentos que a Companhia atua e redução de R$ 91,5 milhões na linha de 
+contingências. Adicionalmente, o EBITDA foi impactado por um efeito positivo de marcação a mercado da ECOM 
+de R$ 10,5 milhões no 3T25 e d o efeito negativo de R$ 14,0 milhões no 3T24, ambos referentes à carteira da 
+Comercializadora. 
+ 
+2.4 Resultado financeiro 
+ 
+No 3T25, o resultado financeiro representou despesa líquida de R$ 784,1 milhões, com crescimento de 57,3% em 
+relação ao 3T24, influenciado pelo aumento do saldo da dívida líquida em 33% e crescimento do custo médio da 
+dívida líquida de 14,65% a.a. no 3T25 versus 11,22% a.a. no 3T24. 
+ 
+Resultado Financeiro 
+(R$ milhões) 
+Trimestre Acumulado 
+3T25 3T24 Var. % 9M25 9M24 Var. % 
+ Receitas financeiras 574,5 454,8 + 26,3 1.660,5 1.346,8 + 23,3 
+Receita de aplicações financeiras 309,3 263,6 + 17,3 827,4 784,2 + 5,5 
+Acréscimos moratórios sobre contas em atraso 109,1 108,0 + 1,1 330,4 321,7 + 2,7 
+Atualização financeira de ativos regulatórios (CVA) 62,7 9,7 + 548,3 206,7 26,2 + 687,7 
+Atualização de créditos tributários a recuperar 22,1 36,2 - 38,9 78,0 87,1 - 10,5 
+Atualização monetária dos depósitos judiciais 33,7 12,9 + 161,6 96,7 61,7 + 56,7 
+Atualização sobre os efeitos da redução do ICMS na 
+base do Pis e Cofins (*) 25,1 28,0 - 10,3 75,8 94,3 - 19,6 
+(-) Pis/Cofins sobre receita financeira (41,3) (30,1) + 37,0 (115,1) (92,1) + 25,0 
+Outras receitas financeiras 53,8 26,6 + 102,0 160,7 63,6 + 152,5 
+Despesas financeiras (1.358,6) (953,1) + 42,5 (4.120,9) (2.892,6) + 42,5 
+Encargos de dívidas - Juros (1.020,2) (718,7) + 42,0 (2.683,4) (2.122,5) + 26,4 
+Encargos de dívidas - Variação monetária/cambial 80,4 24,0 + 235,1 475,5 (1.223,9) - 
+Instrumentos financeiros derivativos (Swap) (416,3) (238,9) + 74,2 (1.642,9) 512,6 - 
+Ajuste a valor presente (17,3) (7,6) + 127,7 (23,2) 24,3 - 
+Marcação a mercado derivativos 109,2 100,4 + 8,7 505,3 (183,8) - 
+✓ Marcação de Swap (3,8) 2,1 - 452,1 (477,6) - 
+✓ MTM Opção de compra (EPM) 130,0 98,4 + 32,1 (31,8) 293,9 - 
+✓ MTM Opção de compra (EPNE) (17,0) - - 85,1 - - 
+Marcação a mercado da dívida 6,3 (21,2) - (425,8) 452,2 - 
+Atualização financeira de passivos regulatórios (16,4) (26,2) - 37,5 (66,1) (73,3) - 9,9 
+Atualização PEE e P&D (5,3) (4,1) + 30,1 (16,4) (11,6) + 42,1 
+(-) Transferência para ordens em curso 15,5 29,0 - 46,5 40,4 89,8 - 55,0 
+Incorporação de redes (8,1) 37,4 - (31,6) (11,2) + 181,8 
+Atualização sobre os efeitos da redução do ICMS na 
+base do Pis e Cofins (*) (20,3) (24,7) - 17,7 (68,2) (85,4) - 20,2 
+Outras despesas financeiras (66,1) (102,6) - 35,6 (184,6) (259,9) - 29,0 
+Resultado financeiro (784,1) (498,4) + 57,3 (2.460,4) (1.545,9) + 59,2
+
+[p. 12]
+12 
+G R U P O EN ER G I SA 
+D I V U L G A Ç Ã O R E S U L T A D O S 
+3T25 
+2.5 Lucro líquido do período 
+ 
+No trimestre, o lucro líquido do período, antes da participação dos minoritários, foi de R$ 648,4 milhões, queda de 
+R$ 78,6 milhões ou -10,8% em relação ao mesmo período do ano anterior. O lucro líquido da Controladora no 
+trimestre foi de R$ 438,5 milhões, 20,7% menor ao registrado no 3T24. 
+ 
+A participação dos minoritários foi de R$ 209,9 milhões no 3T25, crescimento de 20,5% no comparativo com o 
+respectivo período de 2024. 
+ 
+Lucro líquido do período por linha de negócio 
+Valores em R$ milhões 
+Trimestre Acumulado 
+3T25 3T24 Var. % 9M25 9M24 Var. % 
+ ➢ Distribuição de energia elétrica 687,8 767,7 - 10,4 2.435,0 2.421,4 + 0,6 
+➢ Transmissão de energia elétrica 92,0 61,9 + 48,6 351,1 283,2 + 24,0 
+➢ (re) energisa (30,5) (25,0) + 22,0 (117,2) (122,5) - 4,4 
+· Geração distribuída (26,1) (10,9) + 138,6 (63,8) (12,9) + 396,1 
+· Comercialização de energia elétrica (1) (7,9) (15,4) - 48,6 (60,3) (116,3) - 48,2 
+· Serviços de valor agregado 3,5 1,3 + 167,8 6,9 6,7 + 3,5 
+➢ Distribuição de gás natural 11,0 8,6 + 28,2 5,2 39,0 - 86,8 
+➢ Holdings e outros (48,9) (38,0) + 28,5 (315,6) (105,2) + 200,1 
+Combinação de negócios (62,9) (48,0) + 31,0 (193,6) 1,3 - 
+(=) Lucro líquido consolidado do período 648,4 727,1 - 10,8 2.164,9 2.517,1 - 14,0 
+Margem lucro líquido (%) 7,1 8,5 - 1,4 p.p. 8,3 10,4 - 2,1 p.p. 
+Lucro líquido da Controladora 438,5 552,9 - 20,7 1.471,5 1.960,7 - 24,9 
+ 
+(1) Considera o resultado da Clarke na Comercializadora a partir do 2T25, antes contabilizado em "Holding/Outros". Para facilitar a comparação, esse ajuste também 
+foi aplicado aos resultados de 2024 não impactando o resultado consolidado da Energisa, pois se trata apenas de uma reclassificação entre linhas na demonstração 
+de resultados. 
+ 
+A linha de “Holdings e Outros” foi impactada negativamente pelo resultado financeiro, influenciado pelos seguintes 
+efeitos: (i) aumento do saldo da dívida líquida em 33% e (iii) crescimento do custo médio da dívida líquida de 14,65% 
+a.a. no 3T25 versus 11,22% a.a. no 3T24. 
+ 
+Desconsiderando os efeitos não recorrentes e não caixa descritos na tabela abaixo, o lucro líquido consolidado 
+ajustado recorrente do trimestre seria de R$ 427,6 milhões, refletindo uma redução de 13,6% em comparação com 
+o mesmo período do ano anterior. 
+ 
+Abaixo os efeitos não recorrentes e não caixa no trimestre, líquidos de impostos: 
+ 
+Valores em R$ milhões 
+Lucro líquido 
+Trimestre Acumulado 
+3T25 3T24 Var. % 9M25 9M24 Var. % 
+ 
+ (=) Lucro líquido consolidado do período 648,4 727,1 - 10,8 2.164,9 2.517,1 - 14,0 
+(-) Ativo financeiro indenizável da concessão (VNR - 
+Distribuição) (79,5) (85,9) - 7,5 (432,7) (341,6) + 26,7 
+(-) Lucro/Prejuízo líquido societário – Transmissoras (92,0) (61,9) + 48,6 (351,1) (283,2) + 24,0 
+(+) Lucro/Prejuízo líquido regulatório – 
+Transmissoras 43,6 4,9 + 781,5 65,0 (15,7) - 
+(=) Lucro líquido do período ajustado 520,6 584,2 - 10,9 1.446,0 1.876,7 - 22,9 
+Efeitos não recorrentes (93,0) (89,1) + 4,4 (187,5) (312,2) - 40,0 
+Marcação a Mercado ECOM (6,9) 9,3 - 38,1 123,1 - 69,0 
+Marcação a Mercado Call EPM (99,0) (98,4) + 0,7 24,2 (293,9) - 
+Marcação a Mercado Call EPNE 13,0 - - (64,8) - - 
+Provisão RTE ERO - - - (185,0) - - 
+Reversão de Contingências ERO - - - - (141,4) - 
+(=) Lucro líquido do período ajustado recorrente 427,6 495,1 - 13,6 1.258,5 1.564,5 - 19,6 
+ Margem lucro líquido (%) 4,7 5,8 - 1,1 p.p. 4,8 6,5 - 1,7 p.p. 
+ 
+(1) O lucro líquido ajustado recorrente referente ao 3T24 difere do divulgado porque não considera o ajuste de Provisão PLR (R$ 49,3 milhões) e Provisão 
+sobrecontratação EAC (R$ 1,9 milhão) uma vez que estes efeitos são recorrentes no 3T25. 
+ 
+A abertura do lucro líquido por empresa consta no anexo A.3.
+
+[p. 13]
+13 
+G R U P O EN ER G I SA 
+D I V U L G A Ç Ã O R E S U L T A D O S 
+3T25 
+ 
+2.6 Estrutura de capital 
+ 
+2.6.1 Operações financeiras 
+ 
+As captações de financiamento pelo Grupo Energisa totalizaram R$ 7.594,7 milhões no 3T25, com custo médio de 
+103,17% do CDI. 
+ 
+Ao longo dos últimos anos, a controladora Energisa S.A. emitiu debêntures de infraestrutura, através da Lei 12.431, 
+para financiar os investimentos de suas distribuidoras. Os recursos foram repassados para as subsidiárias através 
+de debêntures espelho, com distribuição privada, cujos detalhes estão disponíveis no anexo A.4. 
+ 
+Abaixo as captações por companhia e tipo de emissão no acumulado de 2025: 
+ 
+Companhia 
+Tipo de 
+emissão 
+Montante total 
+(R$ milhões) 
+Custo Médio 
+(% CDI a.a.) 
+Vencimentos 
+(anos) 
+ AGRIC, ALSOL, ECOM, EPB, ERO, ESA, ES Gás, LMTE e 
+LXTE Lei 4.131 1.401,00 104,45% 1, 2 e 3 
+ALSOL, EMS, EMT, EPB, ERO, ESA, ESE, ESS e ETO Debêntures / Notas Comerciais 10.519,66 103,07% 2, 5, 7, 10 e 15 
+AGRIC Fundo Clima 47,0 52,55% Em até 16 
+EAC, EMR, ESE, ESS e ETO FINEM 396,50 105,87% Em até 16 
+Total 12.364,16 103,12% - 
+ 
+2.6.2 Opções de compra de participações minoritárias 
+ 
+A companhia detém opções de compra de participações minoritárias com valor atualizado equivalente a R$ 1.118,0 
+milhões na E nergisa Participações Minoritárias S/A (EPM) e de R$ 922,9 milhões na Energisa Participações 
+Nordeste (EPNE). No trimestre foi realizada operação de redução de capital na EPM no montante de R$ 1 bilhão 
+além de declaração de dividendos no montante de R$ 163,5 milhões, o que representou ingresso de recursos de 
+R$ 794,3 milhões na controladora Energisa S/A. 
+ 
+Maiores detalhes nas notas explicativas nº 15 e 32 e disponíveis em Planilhas Interativas - Energisa. 
+ 
+ 
+2.6.3 Caixa e endividamento 
+ 
+A posição consolidada de caixa, equivalentes de caixa, aplicações financeiras e créditos setoriais totalizou 
+R$ 11.753,4 milhões em 30 de setembro, frente aos R$ 10.131,7 milhões registrados em 30 de junho de 2025. 
+Ressalte-se que os referidos saldos incluem os créditos referentes à Conta de Desenvolvimento Energético (CDE), 
+Conta de Consumo de Combustíveis Fósseis (CCC) e Conta de Compensação dos Valores da Parcela A (CVA), no s 
+montantes de R$ 1.751,3 milhões em setembro, contra R$ 945,6 milhões em março de 2025. 
+ 
+Em 30 de setembro de 2025, a dívida líquida ajustada pelos créditos setoriais totalizou R$ 29.199,5 milhões, ante 
+R$ 27.646,8 milhões em 31 de junho. Apesar do aumento nominal, o indicador de alavancagem, medido pela razão 
+dívida líquida / EBITDA ajustado para covenants, permaneceu estável em 3,2x nos últimos 3 trimestres. O trimestre 
+foi marcado pelas captações em debêntures incentivadas, representando ingressos de R$ 2.490 milhões com custo 
+médio ponderado equivalente ao título do tesouro menos spread de 0,30% a.a. O prazo médio destas captações foi 
+de 12 anos. Adicionalmente, foi conduzida operação de “Exchange Offer” a qual teve adesão de 84%, 
+correspondente ao volume de R$ 3.249 milhões, o que resultou em alongamento de 5 anos . 
+ 
+Considerando o impacto da provisão de geração distribuída no valor total de R$ 510,9 milhões (sendo R$ 430,2 
+milhões no 4T24, R$ 41,5 milhões no 1T25, R$ 26,2 milhões no 2T25 e R$ 12,9 milhões no 3T25), o EBITDA Ajustado 
+Covenants dos últimos 12 meses alcançaria R$ 9.512,1 milhões. Nesse cenário, a relação dívida líquida/EBITDA 
+Ajustado Covenants seria de 3,1x em setembro de 2025, versus 3,0x registrado em junho de 2025.
+
+[p. 14]
+14 
+G R U P O EN ER G I SA 
+D I V U L G A Ç Ã O R E S U L T A D O S 
+3T25 
+ 
+ 
+A Companhia e suas controladas possuem covenants de endividamento de 4,0x para os empréstimos realizados 
+até 2019 e 4,25x para os demais. Nas emissões de debentures, os covenants são de 4,0x para emissões realizadas 
+até março de 2020 e 4,25x para as demais. 
+ 
+A seguir, as dívidas de curto e longo prazo, líquidas de disponibilidades financeiras (caixa, equivalentes de caixa, 
+aplicações financeiras e créditos setoriais): 
+ 
+Descrição 
+Valores em R$ milhões 
+Controladora Consolidado 
+30/09/2025 30/06/2025 31/03/2025 30/09/2025 30/06/2025 31/03/2025 
+ Circulante 1.474,5 2.884,4 897,7 7.166,5 7.888,6 6.411,8 
+Empréstimos e financiamentos 324,8 329,6 261,5 3.727,6 3.412,7 4.099,0 
+Debêntures 951,6 2.391,7 513,3 2.469,5 3.356,0 1.505,4 
+Encargos de dívidas 169,0 147,3 141,6 317,3 480,8 404,9 
+Parcelamento de impostos e benefícios pós-emprego 1,5 1,5 1,5 27,8 28,0 28,1 
+Instrumentos financeiros derivativos líquidos: 27,5 14,2 (20,2) 624,3 611,0 374,5 
+✓ (-) Ativo: instrumentos financeiros derivativos 0,0 0,0 (22,8) (23,8) (33,4) (188,9) 
+✓ (+) Passivo: instrumentos financeiros derivativos 27,5 14,2 2,5 648,1 644,4 563,4 
+Não circulante 10.210,3 8.337,7 9.871,5 33.786,5 29.889,9 29.595,8 
+Empréstimos, financiamentos e arrendamentos 199,9 199,9 199,9 10.634,8 10.996,3 11.316,6 
+Debêntures 11.009,6 9.088,1 10.792,2 24.215,2 20.049,3 19.742,6 
+Parcelamento de impostos e benefícios pós-emprego 11,7 11,3 11,0 225,9 217,7 210,9 
+Instrumentos financeiros derivativos líquidos: (1.011,0) (961,7) (1.131,5) (1.289,5) (1.373,3) (1.674,3) 
+✓ (-) Ativo: instrumentos financeiros derivativos (1.404,3) (1.291,3) (1.504,9) (1.998,5) (1.971,5) (2.323,4) 
+✓ (+) Passivo: instrumentos financeiros derivativos 393,3 329,6 373,4 709,1 598,1 649,1 
+Total das dívidas 11.684,8 11.222,1 10.769,3 40.953,0 37.778,4 36.007,7 
+(-) Disponibilidades financeiras: 9.067,3 7.816,8 7.980,8 10.002,1 9.186,1 9.071,6 
+✓ Caixa e equivalentes de caixa 77,5 313,2 78,8 1.154,1 1.254,6 653,4 
+✓ Aplicações no mercado aberto e recursos vinculados 8.989,8 7.503,6 7.902,1 8.848,0 7.931,4 8.418,2 
+Total das dívidas líquidas 2.617,5 3.405,3 2.788,5 30.950,9 28.592,4 26.936,1 
+(-) Créditos CDE - - - 1.035,7 959,9 886,6 
+(-) Créditos CCC - - - 154,8 156,3 160,5 
+(-) Créditos CVA (1) - - - 560,8 (170,6) (329,9) 
+Total das dívidas líquidas deduzidas de créditos setoriais 2.617,5 3.405,3 2.788,5 29.199,5 27.646,8 26.218,9 
+ Indicador Relativo 
+ EBITDA ajustado covenants 12 meses 8.998,6 8.680,8 8.284,5 
+Dívida líquida / EBITDA ajustado covenants 12 meses (2) 3,2 3,2 3,2 
+ 
+(1) Esses créditos se referem aos ativos e passivos financeiros setoriais. | (2) EBITDA ajustado covenants = EBITDA + Receitas de acréscimos moratórios. 
+ 
+Maiores informações e detalhes sobre o endividamento das companhias estão nas Notas Explicativas disponíveis 
+em Central de Resultados.
+
+[p. 15]
+15 
+G R U P O EN ER G I SA 
+D I V U L G A Ç Ã O R E S U L T A D O S 
+3T25 
+2.6.4 Custo e prazo médio do endividamento 
+ 
+ 
+Ao final de setembro de 2025, o prazo médio da dívida era de 6,5 anos e o custo médio da dívida 98,33% do CDI 
+(14,65%). 
+ 
+ 
+Composição da Dívida bancária e de emissão consolidada por indexador (R$ milhões) 
+ 
+ 
+ 
+ 
+ 
+(1) Este valor considera: (i) dívidas captadas em CDI R$14,3 bilhões; (ii) dívidas em dólar e euro convertidas para CDI, sem limitador de proteção, sendo R$ 5,7 
+bilhões referentes ao swap de USD para CDI; (iii) dívidas em IPCA convertidas para CDI, totalizando R$ 11,3 bilhões. 
+Obs.: O endividamento em moeda estrangeira conta com swaps para taxa em CDI e outros instrumentos de proteção contra variação cambial adversa. 
+ 
+2.6.5 Cronograma de amortização das dívidas 
+ 
+O cronograma de amortização dos empréstimos, financiamentos, encargos de dívidas e debêntures consolidados, 
+em 30 de setembro de 2025, vis-à-vis o caixa e equivalentes de caixa, está representado pelo gráfico abaixo.
+
+[p. 16]
+16 
+G R U P O EN ER G I SA 
+D I V U L G A Ç Ã O R E S U L T A D O S 
+3T25 
+2.7 Ratings 
+ 
+Os ratings atuais da Energisa S/A emitidos pelas agências Standard & Poor’s e Fitch Ratings são: 
+ 
+Agência 
+Classificação 
+Nacional/Perspectiva Classificação Global/Perspectiva 
+Último 
+relatório 
+ Standard & Poor’s brAAA (estável) BB- (estável) Dez/24 
+Fitch Ratings AAA (bra) (estável) BB+ (estável) Mai/25 
+ 
+ 
+ 
+ 
+ 
+ 
+2.8 Investimentos 
+ 
+Os investimentos realizados por linha de negócio estão descritos abaixo e a abertura dos investimentos por 
+empresa está disponível no AnexoA6. 
+ 
+Investimentos Trimestre Acumulado 
+Valores em R$ milhões 3T25 3T24 Var. % 9M25 9M24 Var. % 
+ 
+ 
+ ➢ Distribuição de energia elétrica 1.620,5 1.519,2 + 6,7 4.177,6 4.048,6 + 3,2 
+➢ Transmissão de energia elétrica 62,4 154,3 - 59,6 173,0 370,9 - 53,4 
+➢ (re) energisa 57,4 111,0 - 48,3 198,0 252,3 - 21,5 
+Geração Distribuída 51,4 103,7 - 50,4 187,2 239,0 - 21,7 
+Comercialização de energia elétrica 0,4 2,5 - 82,7 0,6 4,3 - 86,4 
+Serviços 5,5 4,9 + 13,7 10,2 9,0 + 13,7 
+➢ Distribuição de gás natural 28,3 21,6 + 30,8 64,5 46,4 + 39,1 
+➢ Biogás 19,1 5,7 + 236,2 97,3 13,5 + 618,4 
+➢ Holdings e outras 31,9 15,4 + 106,8 41,1 24,4 + 68,6 
+(=) Total 1.819,5 1.827,3 - 0,4 4.751,5 4.756,0 - 0,1 
+ 
+No trimestre, a Energisa e suas controladas investiram R$ 1.819,5 milhões, o que representa uma redução de 0,4% 
+em relação ao mesmo período do ano anterior, influenciado (i) pelo segmento de transmissão que apresentou uma 
+queda de -59,6% (-R$ 91,9 milhões) devido a entrada em operação dos projetos em construção; e (ii) pela (re) 
+energisa que apresentou uma redução de -48,3% (-R$ 53,6 milhões), puxada principalmente pela queda de -50,4% 
+em Geração Distribuída. 
+ 
+ 
+2.9 Fluxo de caixa 
+ 
+Fluxo de caixa consolidado e saldo de caixa e equivalentes 
+Valores em R$ milhões 
+Exercício 
+9M25 9M24 
+ Caixa líquido atividades operacionais 4.149,4 5.365,1 
+(i) Caixa gerado nas operações 6.528,5 5.931,6 
+(ii) Variações nos ativos e passivos (2.379,1) (566,5) 
+Caixa líquido das atividades de investimento (4.313,6) (5.318,5) 
+Caixa líquido das atividades de financiamento 419,1 (246,8) 
+Aumento (redução) de caixa (a) 255,0 (200,2) 
+Saldo inicial de caixa e equivalentes de caixa (b) 899,1 1.298,4 
+(=) Saldo final de caixa e equivalentes de caixa (a + b) 1.154,1 1.098,3 
+(+) Saldo aplicações financeiras e créditos setoriais 10.599,3 7.855,3 
+(=) Saldo final de caixa e equivalentes, aplicações financeiras e créditos setoriais 11.753,4 8.953,6
+
+[p. 17]
+17 
+G R U P O EN ER G I SA 
+D I V U L G A Ç Ã O R E S U L T A D O S 
+3T25 
+ 
+2.10 Mercado de capitais 
+ 
+Negociada na B3, a ação de maior liquidez da Energisa, ENGI11 – Unit, composta por 1 ação ordinária e 4 ações 
+preferenciais, encerrou setembro de 2025 cotada a R$ 50,86 por Unit, representando uma valorização de 13,55% 
+em relação ao mesmo período do ano anterior. No mesmo intervalo, o principal índice da bolsa, o Ibovespa, 
+registrou valorização de 10,94% e o IEE apresentou crescimento de 20,97%. O volume financeiro médio diário das 
+transações com ENGI11 nos últimos 12 meses recuou 8,98% em comparação ao mes mo período do ano anterior, 
+alcançando R$ 123,0 milhões. 
+ 
+A seguir, os indicadores de mercado das ações da Energisa no final do trimestre: 
+ 
+ set/25 set/24 (3) Variação 
+ Indicadores de mercado 
+ Enterprise value (EV - R$ milhões) (1) 52.535 44.216 18,82% 
+Valor de mercado no final do exercício (R$ milhões) 23.288 20.509 13,55% 
+Volume médio diário negociado UDM – Units (R$ milhões) 123 135 -8,98% 
+ ENGI11 (Unit) no fechamento no final do exercício (R$/Unit) 50,86 44,79 13,55% 
+ENGI3 (ON) no fechamento no final do exercício (R$/ação) 13,47 13,60 -0,96% 
+ ENGI4 (PN) no fechamento no final do exercício (R$/ação) 9,32 7,85 18,73% 
+ Dividendos pagos por Unit - UDM 2,90 2,00 44,76% 
+Lucro líquido por Unit - UDM 12,21 9,45 29,30% 
+Retorno total ao acionista detentor de Units (TSR) - UDM % 20,02% 4,21% 15,81 p.p. 
+Valor de mercado / patrimônio líquido (vezes) 1,03 1,00 3,15% 
+ 
+ 
+(1) EV = Valor de mercado (R$/ação x quantidade de ações) + dívida líquida consolidada. 
+(2) O Lucro Líquido utilizado na construção do indicador Lucro Líquido por Unit é o Lucro líquido societário. 
+(3) Valores de períodos anteriores podem ser alterados devido a ajustes de dividendos nos preços das ações. 
+ 
+ 
+3. DISTRIBUIÇÃO DE ENERGIA ELÉTRICA 
+ 
+3.1 Receita operacional 
+ 
+A seguir, as receitas operacionais líquidas por classe de consumo das distribuidoras: 
+ 
+Receita líquida por classe de consumo 
+Valores em R$ milhões 
+Trimestre Acumulado 
+3T25 3T24 Var. % 9M25 9M24 Var. % 
+ (+) Receita de energia elétrica (mercado cativo) 6.624,9 6.541,3 + 1,3 19.738,3 20.768,5 - 5,0 
+✓ Residencial 3.644,0 3.463,9 + 5,2 11.090,3 11.187,8 - 0,9 
+✓ Industrial 260,4 329,7 - 21,0 778,0 1.033,6 - 24,7 
+✓ Comercial 1.098,4 1.160,6 - 5,4 3.328,6 3.806,8 - 12,6 
+✓ Rural 800,2 790,4 + 1,2 2.171,1 2.309,0 - 6,0 
+✓ Outras classes 822,0 796,8 + 3,2 2.370,2 2.431,4 - 2,5 
+(+) Suprimento de energia elétrica 206,8 178,8 + 15,6 674,4 241,1 + 179,7 
+(+) Fornecimento não faturado líquido 132,1 42,1 + 214,0 71,9 (130,8) - 
+(+) Disponibilidade do sistema elétrico 1.077,8 834,7 + 29,1 2.963,7 2.370,7 + 25,0 
+(+) Receita de construção de infraestrutura 1.367,2 1.309,6 + 4,4 3.729,8 3.380,6 + 10,3 
+(+) Ativos e passivos financeiros setoriais - 
+constituição e amortização 986,1 645,0 + 52,9 2.206,6 852,2 + 158,9 
+(+) Subvenções vinculadas aos serviços concedidos 878,1 611,3 + 43,6 2.289,0 1.664,3 + 37,5 
+(+) Ativo financeiro indenizável da concessão (VNR) 100,4 107,6 - 6,6 545,4 427,1 + 27,7 
+(+) Outras receitas 78,1 72,2 + 8,1 178,1 174,4 + 2,1 
+(=) Receita bruta 11.451,5 10.342,5 + 10,7 32.397,1 29.748,2 + 8,9 
+(-) Impostos sobre vendas (2.207,5) (2.030,6) + 8,7 (6.357,5) (6.157,1) + 3,3 
+(-) Encargos setoriais (1.101,6) (889,3) + 23,9 (2.734,1) (2.697,2) + 1,4 
+(=) Receita líquida combinada 8.142,4 7.422,6 + 9,7 23.305,4 20.893,8 + 11,5 
+(-) Ativo financeiro indenizável da concessão (VNR) (100,4) (107,6) - 6,6 (545,4) (427,1) + 27,7 
+(-) Receita de construção de infraestrutura (1.367,2) (1.309,6) + 4,4 (3.729,8) (3.380,6) + 10,3 
+(=) Receita líquida combinada, sem receita de 
+construção de infraestrutura e VNR 6.674,8 6.005,4 + 11,1 19.030,2 17.086,2 + 11,4
+
+[p. 18]
+18 
+G R U P O EN ER G I SA 
+D I V U L G A Ç Ã O R E S U L T A D O S 
+3T25 
+ 
+3.1.1 Margem bruta 
+ 
+Margem bruta distribuição 
+Valores em R$ milhões 
+Trimestre Acumulado 
+3T25 3T24 Var. % 9M25 9M24 Var.% 
+ 
+ 
+ Receita operacional líquida combinada 8.142,4 7.422,6 + 9,7 23.305,4 20.893,8 + 11,5 
+(-) Custo de construção de infraestrutura (1.367,2) (1.309,6) + 4,4 (3.729,8) (3.380,6) + 10,3 
+(-) Ativo financeiro indenizável da concessão - VNR (100,4) (107,6) - 6,6 (545,4) (427,1) + 27,7 
+(=) Receita operacional líquida combinada (sem custo de 
+construção da infraestrutura e VNR) 6.674,8 6.005,4 + 11,1 19.030,2 17.086,2 + 11,4 
+(-) Custos e despesas não controláveis (3.844,4) (3.411,0) + 12,7 (10.620,2) (9.192,5) + 15,5 
+Energisa elétrica comprada para revenda (2.991,7) (2.790,7) + 7,2 (8.156,3) (7.320,1) + 11,4 
+Encargos de uso do sistema de transmissão e distribuição (852,7) (620,4) + 37,5 (2.463,9) (1.872,4) + 31,6 
+(=) Margem bruta 2.830,4 2.594,4 + 9,1 8.410,0 7.893,7 + 6,5 
+(-) Provisão RTE da ERO - - - (176,9) - - 
+(=) Margem bruta ajustada e recorrente 2.830,4 2.594,4 + 9,1 8.233,1 7.893,7 + 4,3 
+ 
+Os fatores que mais contribuíram para a variação da receita líquida e da margem bruta no trimestre, foram: 
+ 
+a) Na rubrica de Receita de energia elétrica, a receita de energia no mercado cativo apresentou um aumento de 
+1,3% no 3T25, reflexo do efeito tarifa média que foi +3,73% devido ao reajuste tarifários das distribuidoras 
+ESE, ESS, EMR, EMT, EMS, ERO e revisão tarifária da EPB e ETO. O aumento foi limitado pela queda d o 
+consumo cativo (com GD-2 e G2 -3) de 2,3% no trimestre, pela migração de consumidores para o mercado 
+livre de energia e pelo reajuste negativo da EAC em dezembro de 2024. Adicionalmente, parte do faturamento 
+do mercado cativo referente à GD -2 e GD-3 é recebida pelas distribuidoras via CDE, impactando a linha de 
+subvenções. 
+ 
+b) Na rubrica de Suprimento de energia, composta pela liquidação de energia no mercado de curto prazo, o 
+aumento de 15,6% (+R$ 28,0 milhões) é explicado pelas receitas com energia excedente de curto prazo no 
+3T25 que tiveram maior PLD médio em relação a 2024 (2025: 249,2R$/MWh e 2024: 165,06 R$/MWh); 
+ 
+c) O fornecimento não faturado apresentou um aumento de R$ 90,0 milhões entre trimestres em função, 
+principalmente, do aumento da tarifa média e crescimento do consumo não faturado. No trimestre houve 
+incremento no número médio de dias não faturados, que passou de 15,54 dias no terceiro trimestre de 2024 
+para 16,24 dias no terceiro trimestre deste ano. 
+ 
+d) Na linha de disponibilidade do sistema elétrico, o aumento de 29,1% (+ R$ 243,1 milhões), foi motivado pelo 
+aumento da base por conta das novas migrações de clientes no mercado livre; 
+ 
+e) A linha de Ativos e Passivos Regulatórios, que inclui a amortização e constituição dos ativos/passivos 
+regulatórios e receita de ultrapassagem de demanda, apresentou um aumento de 52,9% (+R$ 341,1 milhões) 
+devido, principalmente: 
+ 
+➢ + R$ 518,6 milhões referente à criação da CVA Energia, refletindo custos de energia acima da cobertura 
+tarifária da ANEEL, cenário diferente do ocorrido no 3T24, quando o PLD se encontrava mais baixo, o que 
+colaborou para diminuir os custos na compra e venda de energia; 
+➢ + R$ 99,6 milhões referentes ao financeiro de neutralidade com impacto positivo devido à redução de 
+mercado, comparado ao homologado; 
+➢ - R$ 173,7 milhões em razão da projeção de bandeiras tarifárias devido ao acionamento das bandeiras 
+vermelha patamar 1 e 2, elevando os custos com energia; 
+➢ – R$ 115,2 milhões em função da quitação de CDE Covid e Escassez Hídrica para 2025. Atualmente está 
+sendo constituído apenas a cobertura tarifária homologada no último evento tarifário. 
+ 
+f) Na linha de subvenções vinculadas aos serviços concedidos, o aumento de 43,6% (+ R$ 266,8 milhões) se 
+refere, principalmente , ao crescimento nos subsídios tarifários com destaque para o Sistema de 
+Compensação de Energia Elétrica de geração distribuída no montante de R$ 159,7 milhões e de fontes 
+incentivadas no montante total de R$ 58,5 milhões; e
+
+[p. 19]
+19 
+G R U P O EN ER G I SA 
+D I V U L G A Ç Ã O R E S U L T A D O S 
+3T25 
+g) A linha de ativo financeiro da concessão – VNR apresentou uma redução de 6,6% (+R$ 7,1 milhões) no 3T25, 
+impulsionado pela menor inflação registrada no trimestre (0,65% no 3T25 e 0,80% no 3T24), que afetou a 
+atualização do ativo financeiro e pelo reconhecimento da base de ativos homologada pela ANEEL na revisão 
+tarifária da ETO. 
+ 
+3.1.2 Mercado de energia 
+ 
+No 3º trimestre, o consumo de energia elétrica nas distribuidoras do Grupo Energisa (10.515,7 GWh) cresceu 2,0% 
+frente ao 3º Trimestre de 2024. Em 2 meses do trimestre houve alta do consumo, sobretudo em setembro. O 
+aumento no consumo dos clientes residenciais, do industrial e comerciais direcionaram o resultado do trimestre. 
+ 
+Dentre os fatores que contribuíram , vale destacar o bom desempenho da produção de alguns segmentos 
+industriais como alimentos e minerais, com expansões em clientes relevantes. No segmento comercial, houve 
+aumento no segmento de supermercados e, eletrodomésticos. Adicionalmente, vale citar o aumento de renda, 
+sobretudo no Nordeste e Norte, que vem impulsionando o setor imobiliário , bem como calendário de leitura a 
+maior nos 3 meses do trimestre (descontando este efeito, o mercado seguiria crescendo 1,2% ). O mercado das 
+empresas do Grupo vem mostrando surpreendente evolução positiva considerando que o terceiro trimestre de 
+2024 registrou a maior taxa em 11 anos e explicado, principalmente, pelo clima quente e aumento de renda que 
+elevaram as vendas de ar-condicionado, e pelo bom desempenho da cadeia de alimentos no segmento industrial. 
+ 
+Especificamente na questão climática, o 3T25 foi menos quente o 3T24, reforçando que os demais fatores foram 
+mais decisivos para explicar a expansão de consumo neste trimestre. O indicador de Colling Degree Days, que 
+mede a necessidade de resfriamento, rec uou 16,8% frente ao 3T24 e 9,3% frente a média dos últimos 5 anos. Por 
+fim, vale ainda mencionar o aumento de consumidores, sobretudo na EAC, ESE e EPB, que foi acima da média 
+recente, em linha com a expansão imobiliária nessas localidades. 
+ 
+Entre os tipos de mercado, o consumo dos clientes livres teve um avanço mais significativo, impulsionado pelas 
+migrações, novas cargas, ampliações e aumento de consumo dos clientes industriais. No cativo, vale destacar os 
+clientes que possuem Mini e MicroGeração Distribuída (MMGD). Descontando o efeito da compensada dos clientes 
+GD tipo II e III, o mercado teria registrado variação de -1,4%. 
+ 
+ 
+Colling Degree Days - Por Região 3T25 3T24 Var. (%) 
+ Centro-Oeste 620 763 -18,7 
+Nordeste 506 656 -22,8 
+Norte 826 826 -0,3 
+Sul e Sudeste 289 438 -34,0 
+Energisa 582 699 -16,8 
+ (1) Cooling Degree Days: mede a quantidade de graus -dias acima da temperatura referência e indica a necessidade de resfriamento. Ele é calculado subtraindo da temperatura média do ar 
+(em graus Celsius) uma temperatura de referência (18,5°C). Se a temperatura m édia diária for maior que a temperatura de referência, o resultado é um número positivo, que representa a 
+quantidade de graus-dia de resfriamento, no caso da Energisa, observada nas cidades mais representativas quanto ao consumo de energia. Por exemplo, se a temperatura média for de 27°C, 
+então o CDD para esse dia será de 8,5 graus-dia (27°C – 18,5°C = 8,5°C). 
+ 
+Entre as concessões do Grupo, 7 apresentaram crescimento no consumo, sobretudo a ETO (6,4%), EPB (4,9%) e EMT 
+(+4,1%), com o segmento residencial ditando a alta, embora a indústria e o comercial também tenham avançado. 
+ 
+Na sequência há o detalhamento do consumo por classe e os principais destaques.
+
+[p. 20]
+20 
+G R U P O EN ER G I SA 
+D I V U L G A Ç Ã O R E S U L T A D O S 
+3T25 
+ 
+Descrição Valores em GWh Trimestre Acumulado 
+3T25 3T24 Var. % 9M25 9M24 Var. % 
+ Coluna1 4T23 4T22 Var. % 4T232 4T223 Var. %4 Residencial 4.148,8 3.980,4 + 4,2 13.025,5 12.688,8 + 2,7 
+Comercial 1.064,9 1.187,5 - 10,3 3.408,5 3.895,8 - 12,5 
+Industrial 234,5 333,7 - 29,7 740,8 1.014,0 - 26,9 
+Rural 872,9 921,1 - 5,2 2.398,7 2.548,6 - 5,9 
+Outros 998,2 1.068,6 - 6,6 3.098,5 3.293,5 - 5,9 
+1 Mercado Cativo 7.319,3 7.491,4 - 2,3 22.672,1 23.440,6 - 3,3 
+Residencial - - - - - - 
+Comercial 691,6 536,9 + 28,8 2.054,9 1.604,7 + 28,1 
+Industrial 2.138,0 2.012,4 + 6,2 6.065,7 5.644,8 + 7,5 
+Rural 156,0 112,7 + 38,4 337,2 222,8 + 51,3 
+Outros 210,8 157,0 + 34,2 569,3 447,4 + 27,2 
+2 Mercado (TUSD) 3.196,4 2.819,1 + 13,4 9.027,1 7.919,7 + 14,0 
+Residencial 4.148,8 3.980,4 + 4,2 13.025,5 12.688,8 + 2,7 
+Comercial 1.756,5 1.724,5 + 1,9 5.463,5 5.500,5 - 0,7 
+Industrial 2.372,5 2.346,1 + 1,1 6.806,5 6.658,7 + 2,2 
+Rural 1.029,0 1.033,8 - 0,5 2.735,9 2.771,4 - 1,3 
+Outros 1.208,9 1.225,6 - 1,4 3.667,7 3.740,9 - 2,0 
+3 Mercado (1+2) 10.515,7 10.310,5 + 2,0 31.699,1 31.360,3 + 1,1 
+3.1 Compensada GD II/III 643,0 294,8 + 118,1 1.734,0 691,9 + 150,6 
+3.2 Mercado - Compensada GD II/III (3-3.1) 9.872,7 10.015,7 - 1,4 29.965,2 30.668,4 - 2,3 
+4 Fornecimento Não Faturado 20,9 110,3 - 81,1 (124,6) (109,3) + 14,0 
+5 Mercado + Fornecimento Não Faturado (3+4) 10.536,6 10.420,8 + 1,1 31.574,5 31.251,0 + 1,0 
+5.1 Mercado - Compensada GD II/III + 
+fornecimento não faturado (3.2+4) 9.893,6 10.125,9 - 2,3 29.840,5 30.559,1 - 2,4 
+ 
+ 
+ 
+ 
+Os dados da tabela acima são passíveis de recontabilizações de energia realizadas pela CCEE. 
+ 
+A Companhia encerrou o trimestre com 8.928.582 unidades consumidoras, crescimento de 2, 2% em relação ao 
+mesmo período do ano anterior. O número de consumidores cativos aumentou 2, 2%, enquanto os consumidores 
+livres tiveram uma expansão de 66,9%. 
+ 
+Acesse essa e outras tabelas em Excel que estão disponíveis nesse link. 
+ 
+3.1.3 Consumo por classe 
+ 
+No trimestre, os destaques por classe de consumo foram: 
+ 
+• Classe residencial: consumo avançou 4,2%, sendo a principal contribuição para o aumento de consumo do 
+resultado agregado, lembrando que é a classe mais representativa. Entre as empresas, 8 das 9 avançaram, 
+direcionadas pela expansão de clientes, em linha com expansão imobili ária, de renda, e do aumento de unidades 
+com refrigeração. Destaque para as concessões da EPB e ETO. 
+ 
+• Classe industrial: apresentou aumento de 1,1%. Maioria das distribuidoras do Grupo apresentou aumento do 
+consumo (8 das 9), principalmente a ESE, ESS e EMT. A produção de alimentos, minerais, químicos e Óleo&Gás 
+direcionaram, motivadas por novas cargas, ampliações e aumento de consumo dos clientes que já estavam no 
+mercado livre. 
+ 
+• Classe comercial: apresentou alta no consumo de 1,9%, com expansão na maioria das empresas (5 de 9), 
+sobretudo na EMT, EPB e ETO, o aumento de consumo dos clientes que atuam na cadeia de alimentos 
+(armazenagem e supermercados), hotéis e redes de saúde. 
+ 
+• Classe rural: registrou recuo de 0,5%, com 6 empresas diminuindo o consumo, em especial a ESS e ESE, com 
+os clientes ligados a agropecuária. A base alta do 3T24 limitou o resultado – consumo havia crescido 5,9% (maior 
+taxa em 4 anos). 
+ 
+• Demais classes: recuo de 1,4%. O result ado foi influenciado sobretudo pelo segmento de iluminação pública, 
+diante de programas de eficiência energética, e poder público. 
+ 
+Para maiores detalhes, acessar o Boletim de Mercado – clique no link
+
+[p. 21]
+21 
+G R U P O EN ER G I SA 
+D I V U L G A Ç Ã O R E S U L T A D O S 
+3T25 
+ 
+3.1.4 Perdas de energia elétrica 
+ 
+O Grupo Energisa encerrou o 3º trimestre de 2025 com 12,04% de perdas totais, uma redução de 0,79 p.p. em 
+relação ao 3T24, atingindo o menor nível histórico para a atual composição do Grupo (inclui EAC e ERO). O 
+desempenho reforça a consistência da estratégia de combate às perdas, com execução disciplinada e foco em 
+alocação eficiente de capital. 
+ 
+No âmbito regulatório, em 2025 a ANEEL passou a aplicar a perda não técnica sobre o mercado medido, tornando 
+os referenciais mais aderentes à realidade do setor. Para as distribuidoras que já tiveram seus processos tarifários 
+concluídos ao longo do ano, os novos limites regulatórios incorporam essa metodologia, com efeito integral após 
+12 meses do reajuste. EAC e ERO terão seus limites atualizados no reajuste de dezembro, passando a refletir a 
+nova regra, também com efeito integral ao longo dos 12 meses seguintes. 
+ 
+O limite regulatório consolidado do Grupo evoluiu de 12,26% no 4T24 para 12,50% no 3T25. À luz desses 
+referenciais, sete das nove distribuidoras operaram abaixo do limite, com destaque para EMR, ESE, EMS, ETO e 
+EAC, todas mais de 1 p.p. abaixo de seus respectivos referenciais. 
+ 
+Com essa evolução, o consolidado do Grupo encerra o 3T25 dentro dos limites regulatórios, refletindo o avanço 
+das frentes estruturantes de combate às perdas. Mantemos foco na captura de eficiências operacionais e 
+regulatórias, com governança e monitoramento contínuos. O gráfico e a tabela anexos ilustram a trajetória de 
+redução do indicador e a ampliação do spread regulatório no período. 
+ 
+ 
+O gráfico a seguir ilustra a diferença entre perdas reais e regulatórias ao longo dos últimos trimestres. 
+ 
+ 
+ 
+Perdas de Energia (% últimos 12 meses) 
+ 
+ 
+Distribuidoras Perdas técnicas (%) Perdas não-técnicas (%) Perdas totais (%) 
+ANEEL % Energia injetada (12 
+meses) set/24 jun/25 set/25 set/24 jun/25 set/25 set/24 jun/25 set/25 
+ 
+ 
+ 
+ 
+ 
+ EMR 8,80 8,10 8,19 -0,12 -0,26 -0,85 8,68 7,84 7,34 10,17 
+ESE (*) 7,75 7,71 7,72 2,49 2,09 2,02 10,24 9,80 9,74 11,32 
+EPB 8,31 8,46 8,41 3,95 3,66 3,67 12,26 12,12 12,08 12,61 
+EMT (*) 8,80 8,81 7,86 5,77 4,91 5,77 14,57 13,72 13,63 12,13 
+EMS (*) 8,23 7,45 7,48 3,61 3,44 3,98 11,83 10,88 11,46 12,85 
+ETO 9,87 9,80 8,92 0,71 0,24 0,70 10,58 10,04 9,62 13,28 
+ESS 6,19 6,14 5,59 -0,01 -0,06 0,43 6,18 6,09 6,02 6,90 
+ERO 9,01 8,75 7,73 13,03 11,61 12,36 22,04 20,36 20,09 19,13 
+EAC 9,42 9,30 8,33 5,48 4,48 5,96 14,90 13,78 14,29 16,35 
+Energisa Consolidada % 8,41 8,23 7,72 4,43 3,84 4,32 12,83 12,07 12,04 12,50 / 
+ 
+Nota: 
+(1) Para cálculo dos percentuais apresentados acima, foram considerados os valores de energia não faturada. O Mercado Livre A1 fo i considerado no cálculo da 
+Perda Total Realizada e Regulatória. 
+(2) O resultado dos trimestres anteriores está passível de ajustes após resultado divulgado pela Câmera de Comercialização de Ene rgia CCEE. 
+(*) As distribuidoras ESE, EMT e EMS tiveram seus reajustes tarifários em 2025 e seus limites regulatórios passaram a ser apurados com base na nova metodologia 
+que considera o mercado medido no resultado de set/25. Os resultados de set/24 e jun/25, no entanto, não foram ajustados e mantêm a metodologia antiga , 
+baseada no mercado faturado. 
+ 
+Acesse essa e outras tabelas em Excel que estão disponíveis nesse link.
+
+[p. 22]
+22 
+G R U P O EN ER G I SA 
+D I V U L G A Ç Ã O R E S U L T A D O S 
+3T25 
+ 
+ 
+ 
+3.1.5 Gestão da inadimplência 
+ 
+3.1.5.1 Taxa de arrecadação 
+ 
+A taxa de arrecadação consolidada em 12 meses do Grupo Energisa alcançou 97,16%, repetindo o nível histórico 
+alcançado no exercício anterior, mesmo com um cenário econômico desafiador caracterizado pelo aumento da 
+inadimplência no cenário nacional. Segundo dados do Boletim Econômico da SERASA de Ago/25, quase metade 
+da população adulta encontra-se inadimplente o que significa um marco negativo para o indicador do SERASA. 
+ 
+O desempenho deste trimestre é consequência da diligência do Grupo Energisa em realizar cobranças de forma 
+ágil e eficaz, apoiada pela robustez e uso de inteligência analítica nas ações implementadas pelo grupo. 
+ 
+Taxa de arrecadação (%) 
+Em 12 meses (%) 
+set/25 set/24 Variação em p.p. 
+ 
+ 
+ EMR 98,69 98,68 + 0,01 
+ESE 98,50 98,13 + 0,38 
+EPB 98,04 98,07 - 0,03 
+EMT 96,54 96,44 + 0,10 
+EMS 97,53 97,59 - 0,06 
+ETO 97,78 97,80 - 0,02 
+ESS 98,93 99,06 - 0,13 
+ERO 94,11 94,39 - 0,30 
+EAC 96,05 95,65 + 0,42 
+Energisa Consolidada 97,16 97,16 + 0,00 
+ 
+As empresas do grupo que apresentaram melhoria em sua performance são ESE, EMT e EAC. 
+ 
+Das empresas que tiveram queda no desempenho, na Energisa Rondônia continuamos com avanços na 
+arrecadação de clientes da classe residencial e grandes clientes. O desafio está em regularizar clientes 
+inadimplentes recorrentes que persistem na inadimplência mesmo com a repetições de ações de cobrança. Para 
+estes clientes, o grupo implementou um programa para equalizar a dívida histórica e garantir o pagamento do 
+faturamento novo. 
+ 
+Na Energisa Sul Sudeste, o aumento de tarifa em 19% em julho de 2025, traz um efeito de curto prazo no indicador 
+em virtude do saldo de curto prazo (maior fatia do saldo) estar com faturamento novo e toda a base ainda com o 
+faturamento antigo. Este efeito será transitório e irá regularizar nos próximos meses. 
+ 
+Na Energisa Mato Grosso do Sul, a mudança no programa estadual (Conta de Luz Zero para clientes de Baixa 
+Renda) reduziu em 80% o número de beneficiados e tivemos clientes que começaram a receber faturas de energia 
+para pagamento que antes eram pagas pelo Estado. A Energisa tem atuado para auxiliar com campanhas de 
+orientação e incentivo ao recadastramento junto ao g overno estadual, intensificação das ações de cobrança 
+administrativa e suspensão de fornecimento. 
+ 
+Como evidenciado no gráfico abaixo, o desempenho no 3T25 manteve o patamar acima de 97%, resultado das 
+medidas implementadas ao longo dos últimos ciclos. 
+ 
+.
+
+[p. 23]
+23 
+G R U P O EN ER G I SA 
+D I V U L G A Ç Ã O R E S U L T A D O S 
+3T25 
+ 
+ 
+3.1.5.2 Taxa de inadimplência 
+ 
+No terceiro trimestre de 2025 (3T25), a taxa de inadimplência consolidada do Grupo Energisa dos últimos 12 meses 
+foi de 1,43%, representando uma variação de 0,24 ponto percentual em relação ao mesmo período do ano anterior. 
+ 
+ 
+ 
+PECLD registrou um aumento de R$ 70,5 milhões no 3T25 em comparação ao 3T24. 
+ 
+ 
+ 
+Na apuração do 3T24 consta reversão de R$ 69,2 milhões referente ao bom desempenho da Energisa no programa 
+do Governo Federal “Desenrola Brasil” (redução referente as negociações ocorridas entre Out/23 e Mar/24 dentro 
+do programa) e no resultado do 3T25 não houve reversões deste programa. Com objetivo de melh orar o 
+desempenho e encontrar resultados adicionais semelhantes ao realizado no programa Desenrola, a Energisa 
+implementou, em período de teste desde Jul/24 nas empresas EAC e ESE, programa de regularização de débitos 
+voltados para clientes Pessoa Física com débitos antigos. Com o bom desempenho destas 2 empresas nos últimos 
+resultados, principalmente na EAC conforme quadro abaixo, a empresa decidiu pela expansão nas demais 
+empresas a partir do 4T25.
+
+[p. 24]
+24 
+G R U P O EN ER G I SA 
+D I V U L G A Ç Ã O R E S U L T A D O S 
+3T25 
+ 
+PPECLD Em 12 meses (%) 
+(% do fornecimento faturado) set/25 set/24 Variação em p.p. 
+ 
+ 
+ 
+ 
+ 
+ 
+EMR 0,36 0,27 + 0,09 
+ESE 0,63 0,55 + 0,09 
+EPB 0,84 0,67 + 0,17 
+EMT 1,95 1,78 + 0,17 
+EMS 1,61 0,95 + 0,66 
+ETO 0,52 0,43 + 0,08 
+ESS 0,36 0,20 + 0,16 
+ERO 2,84 2,23 + 0,62 
+EAC 2,16 2,65 - 0,48 
+Total 1,43 1,19 + 0,24 
+ 
+Em relação aos resultados das distribuidoras do Grupo Energisa, observamos que a EMS apresenta a maior 
+variação no indicador, com um desvio de 0,66 p.p., seguido da ERO em 0,62 p.p. e EMT com 0,17 p.p. quando 
+comparamos os resultados entre o 3T25 e 3T24. Estas empresas foram as que mais reduziram o resultado no 3T24 
+durante o programa “Desenrola Brasil” com R$ 51,0 milhões negociados durante o programa (74% do negociado 
+pelo grupo). Na EMS, acrescenta -se o impacto dos clientes residenciais da subclasse baixa renda que 
+anteriormente tinham as suas contas subsidiadas pelo Governo Estadual. 
+ 
+A empresa atua com medidas para aumentar o cadastro de clientes na tarifa baixa renda, tendo como reflexo 
+destas ações crescimento de 7,8% (142 mil novos beneficiários) no cadastro o cadastro comparando Set/25 com 
+Set/24. 
+ 
+A Energisa segue promovendo mudanças contínuas em seus métodos de gestão da inadimplência, com foco na 
+otimização e automação dos processos de cobrança. Essa estratégia flexível garante que a empresa acompanhe 
+as transformações no comportamento dos clientes, priorizando a busca por soluções mais inovadoras e eficientes. 
+ 
+Para reverter o crescimento da inadimplência há iniciativas estratégicas direcionadas, como a solução de crédito 
+com foco no perfil dos consumidores, ampliação do uso de ferramentas de digitais e cadastro para os beneficiários 
+do baixa renda, priorização das ações de cobrança de maneira a maximizar a arrecadação, acompanhamento e 
+atuação junto ao jurídico das dívidas de grandes clientes. 
+ 
+3.1.5.3 Indicadores de qualidade dos serviços nos serviços de distribuição – DEC e FEC 
+ 
+No 3T25, as distribuidoras do Grupo permanecem com resultados consistentes, apresentando desempenho melhor 
+que os limites regulatórios para o DEC Global e o FEC Global em todas as concessões . 
+ 
+O resultado reflete a disciplina na gestão dos projetos de melhoria e planos de manutenção, bem como na alocação 
+de capital, sempre buscando adotar as melhores práticas para reduzir as interrupções à despeito da intensificação 
+dos eventos climáticos severos, reforçando o compromisso de entregar energia de qualidade a todos os clientes. 
+ 
+A tabela a seguir apresenta os resultados do período: 
+ 
+Distribuidoras 
+Indicadores de qualidade 
+dos serviços 
+DEC Global (horas) FEC Global (vezes) 
+Limite DEC Limite FEC set/25 set/24 Var.(%) set/25 set/24 Var.(%) 
+ 
+ 
+ EMR 9,07 7,49 + 21,1 4,66 3,89 + 19,8 9,97 6,67 
+ESE 9,21 9,00 + 2,3 4,20 4,52 - 7,1 10,53 6,42 
+EPB 9,13 10,25 - 10,9 3,57 3,95 - 9,6 12,63 6,91 
+EMT 15,03 14,77 + 1,8 6,52 6,40 + 1,9 17,19 11,63 
+EMS 8,88 9,37 - 5,2 4,35 4,27 + 1,9 9,92 6,43 
+ETO 14,49 15,72 - 7,8 5,25 5,94 - 11,6 16,85 10,29 
+ESS 5,47 5,17 + 5,8 3,12 2,88 + 8,3 6,74 5,41 
+ERO 19,84 20,60 - 3,7 6,82 8,21 - 16,9 25,02 16,10 
+EAC 23,85 23,19 + 2,8 8,23 8,46 - 2,7 41,06 29,68 
+ 
+ 
+ 
+Os dados apresentados são obtidos a partir das bases de dados da ANEEL e são passíveis de alterações solicitadas pelo regulad or
+
+[p. 25]
+25 
+G R U P O EN ER G I SA 
+D I V U L G A Ç Ã O R E S U L T A D O S 
+3T25 
+ 
+Principais destaques: 
+ 
+• EPB se destacou com o melhor FEC da série histórica, com redução de 9,6%, resultado de uma alocação 
+de capital eficiente e medidas de operação e manutenção eficazes. 
+ 
+• ETO se destacou com o melhor DEC e FEC da série histórica, com reduções de 7, 8% e 11, 6%, 
+respectivamente, em comparação com setembro de 2024. 
+ 
+• ERO também se destacou com o melhor DEC e FEC da série histórica, com reduções de 3,7% e 16,9%, 
+respectivamente, em comparação com setembro de 2024. 
+ 
+• EMS se destacou com o melhor DEC da série histórica, com redução de 5,2%, resultado de uma alocação 
+de capital eficiente e medidas de operação e manutenção eficazes. 
+ 
+Em 03 de novembro de 2022, visando a melhoria da Continuidade do Fornecimento de Energia Elétrica no 
+segmento de distribuição, a ANEEL, através do ofício 44/2022, estabeleceu o alcance do percentual mínimo de 80% 
+dos conjuntos dentro dos limites regulatórios do DEC e do FEC no horizonte de 2023 a 2026. 
+ 
+Para o atingimento da meta de 80% referida acima até o ano de 2026, estabeleceu -se metas anuais para cada 
+concessionária, considerando um aumento gradativo do percentual mínimo de conjuntos dentro dos limites 
+regulatórios. Todas as distribuidoras do Grupo Energisa já cumprem a meta para o FEC em 2025 e as distribuidoras 
+EMT, EMS e EMR estão em rota para cumprir o indicador DEC para o período e as demais distribuidoras já cumprem 
+a meta de DEC. 
+ 
+3.1.6 Conta de compensação dos valores da Parcela A (CVA) 
+ 
+A Conta de Compensação da Parcela A (CVA) é um mecanismo regulatório instituído pela Portaria Interministerial 
+nº 25/2002, com a finalidade de registrar as variações nos custos relacionados à compra e transporte de energia 
+elétrica, bem como aos encargos setoriais, ocorridas entre os eventos tarifários da distribuidora. Esse mecanismo 
+visa neutralizar os efeitos desses custos, denominados de “Parcela A” e de repasse tarifário integral assegurado, 
+sobre o resultado da distribuidora. 
+ 
+No terceiro trimestre de 2025, observou -se uma constituição ativa, uma vez que os custos efetivos da Parcela A 
+superaram a cobertura tarifária vigente. 
+ 
+Os principais fatores que influenciaram a constituição dos ativos e passivos financeiros setoriais no 3T25 foram: 
+ 
+➢ + R$ 45,6 milhões referente às novas cotas de CDE Uso para 2025, homologadas pela REH nº 3.484/2025 . 
+Essas novas cotas têm valor superior à cobertura tarifária estabelecida pela ANEEL para o ciclo atual; 
+➢ + R$ 515,2 milhões devido ao aumento nos custos de energia relacionados aos efeitos climáticos e 
+sazonais do período, que afetam a geração de energia; 
+➢ - R$ 113,2 milhões relacionados à redução nos encargos ESS e EER, diretamente influenciada pela queda 
+de mercado Brasil em relação ao ano anterior. Com a diminuição da carga elétrica, o sistema exige menor 
+necessidade de acionamento de usinas fora da ordem de mérito, resultando em menor Encargo de Serviço 
+do Sistema (ESS). Além disso, o menor risco de déficit energético diminui a demanda por usinas de 
+reserva, levando à redução do Encargo de Energia de Reserva (EER); 
+➢ - R$ 76,5 milhões referente à “Projeção Bandeiras Tarifárias”, com o aumento dos custos com aquisição 
+de energia elétrica - acionamento das térmicas, decorrente do cenário hídrico - de maio a setembro de 
+2025, houve acionamento das bandeiras (nos meses de agosto e setembro estava acionada na vermelha 
+patamar 2); 
+➢ -R$ 115,2 milhões devido às reduções associadas à interrupção de pagamentos de CDE Escassez Hídrica, 
+CDE Covid e ajustes de modicidade tarifária; 
+➢ -R$ 14,5 milhões referente ao diferimento do risco hidrológico, financeiro não recorrente ocorrido apenas 
+em 2024, gerando impacto negativo principalmente na ERO; 
++R$ 99,6 milhões referente ao aumento na neutralidade, ocasionada pela queda de mercado.
+
+[p. 26]
+26 
+G R U P O EN ER G I SA 
+D I V U L G A Ç Ã O R E S U L T A D O S 
+3T25 
+3.1.7 Sobrecontratação 
+ 
+O Grupo Energisa registrou no 3T25 R$ 0,1 milhão positivo, relativos à atualização monetária de períodos já 
+contabilizados. O acumulado de 2025 é de R$ 0,2 milhão positivos. Para mais detalhes, vide Nota Explicativa n° 
+8.1.4. 
+ 
+3.1.8 Bandeiras tarifárias 
+ 
+O “Sistema de Bandeiras Tarifárias” foi instituído em janeiro de 2015, visando sinalizar aos consumidores finais os 
+custos reais da geração de energia elétrica, através do repasse do aumento do custo incorrido pela distribuidora 
+sempre que a compra de ener gia for afetada pelo despacho termelétrico de maior custo, diminuindo o 
+carregamento financeiro entre os reajustes tarifários. A ANEEL definiu para as distribuidoras de energia elétrica, 
+a aplicação da Bandeira Vermelha Patamar 2 para o mês de setembro e a gosto de 2025 e Bandeira Vermelha 
+Patamar 1 para o mês de outubro e novembro de 2025, resultado de análises do cenário hidrológico do país. 
+ 
+As receitas consolidadas auferidas pelo Grupo Energisa provenientes das bandeiras tarifárias foram de R$ 174,3 
+milhões no 3T25 ante R$ 21,0 milhões registrados no 3T24. O 3T25 contempla a cobrança de bandeiras referente 
+ao período de mai/2025 a jul/2025, meses em que estava em vigor a bandeira amarela em maio e bandeira 
+vermelha patamar 1 em junho e julho. 
+ 
+3.1.9 Revisões e reajustes tarifários 
+ 
+No ano de 2025, as distribuidoras EMT, EMS, ESE, EMR e ESS passaram por processos de reajustes tarifários que 
+visam atualizar a receita necessária das distribuidoras, alinhando as tarifas às novas projeções de despesas com 
+a compra de energia, encargos e transporte, além de refletir os ajustes financeiros realizados ao longo do último 
+ano. Ainda estão previstos os reajustes de ERO e EAC em dezembro de 2025. 
+ 
+Nos meses de julho e agosto, as distribuidoras ETO e EPB passaram pelo processo de revisão tarifária, com o 
+objetivo de recalcular suas respectivas receitas requeridas. Esse processo visa reconhecer os investimentos 
+realizados ao longo do último ciclo tarifário, bem como os custos operacionais eficientes da concessão, que serão 
+refletidos na tarifa aplicada ao consumidor. 
+ 
+Desta forma, os efeitos para os consumidores decorrentes dos últimos processos de reajuste e revisão tarifária 
+de cada distribuidora do Grupo Energisa foram os seguintes: 
+ 
+ 
+Distribuidoras 
+Efeito para o Consumidor (%) 
+Início da Vigência Atualização Monetária – eventos de reajustes Processo Revisional Baixa 
+Tensão 
+Alta e Média 
+Tensão Médio 
+ EMR +4,12 +1,61 +3,61 22/06/2025 IPCA Reajuste Anual 
+ESE +6,69 +8,10 +7,0 22/04/2025 IGP-M Reajuste Anual 
+EPB +13,94 +12,11 +13,59 28/08/2025 IGP-M Revisão 
+EMT +0,34 +5,42 +1,79 08/04/2025 IGP-M Reajuste Anual 
+EMS +0,69 +3,09 +1,33 08/04/2025 IGP-M Reajuste Anual 
+ETO +12,55 +13,25 +12,68 04/07/2025 IPCA Revisão 
+ESS +19,15 +18,80 +19,05 12/07/2025 IPCA Reajuste Anual 
+ERO +2,55 +5,0 +3,03 13/12/2024 IPCA Reajuste Anual 
+EAC -4,42 -1,23 -3,84 13/12/2024 IPCA Reajuste Anual 
+ 
+3.1.10 Base de remuneração regulatória 
+ 
+O processo de valoração dos ativos da “Base de Remuneração Regulatória” utiliza o método do “Valor Novo de 
+Reposição – VNR”, que corresponde ao valor, a preços atuais de mercado, de um ativo idêntico, similar ou 
+equivalente, sujeito a reposição, que efetue os mesmos serviços e tenha a mesma capacidade do ativo existente, 
+considerando todos os gastos necessários para a sua instalação. A Base de Remuneraç ão Líquida (BRL) 
+homologada de cada distribuidora de energia elétrica, ajustada pelo IPCA para setembro/2025, são as seguintes:
+
+[p. 27]
+27 
+G R U P O EN ER G I SA 
+D I V U L G A Ç Ã O R E S U L T A D O S 
+3T25 
+ 
+ 
+Distribuidoras 
+BRL Regulatória atualizada por 
+IPCA até setembro de 2025 
+(R$ milhões) 
+Data da última 
+Revisão Tarifária Ciclo Tarifário WACC (antes de impostos) Próximas revisões tarifárias 
+ZZ EMR 821,6 Junho/2021 5º 
+ 
+10,62% 
+ 
+Junho/2026 
+ESS 1.406,5 Julho/2021 Julho/2026 
+EPB 3.242,8 Agosto/2025 6º 12,17% Agosto/2030 
+ESE 1.445,6 Abril/2023 
+5º 11,25% 
+Abril/2028 
+EMT 7.375,1 Abril/2023 Abril/2028 
+EMS 3.720,1 Abril/2023 Abril/2028 
+ETO 3.017,3 Julho/2025 6º 12,17% Julho/2030 
+ERO 3.282,9 Dezembro/2023 5º 11,25% Dezembro/2028 EAC 1.139,8 Dezembro/2023 Dezembro/2028 
+Total 25.451,8 
+ 
+A base de remuneração consolidada das distribuidoras de energia elétrica extraída das informações financeiras 
+societárias contempla depreciação, baixa e novas adições, conforme abaixo: 
+ 
+Descrição 
+Valores em R$ milhões 
+Nota 
+Explicativa 30/09/2025 30/09/2024 Var. % 
+ 
+ 
+ Ativo financeiro indenizável da concessão 13.1 16.786,37 13.603,32 23,4% 
+Ativo contratual - infraestrutura em construção 14 3.202,54 2.752,16 16,4% 
+Intangível - contrato de concessão 17 19.008,77 16.659,66 14,1% 
+(-) Exclusão do mais valia dos ativos apurado no purchase price allocation 
+(PPA) da combinação de negócios 16 (5.239,07) (5.807,84) -9,8% 
+ Total (33.758,61) (27.207,30) 24,1% 
+ 
+3.1.11 Parcela B 
+ 
+Distribuidora 
+Parcela B 
+DRA (1) DRP (2) 
+Variação 
+(R$ milhões) Variação % 
+Processo 
+Revisional 
+ 
+ 
+ EMR 428,8 458,1 29,3 +6,8 Reajuste Anual 
+ESE 663,1 706,0 42,9 +6,5 Reajuste Anual 
+EPB 1.189,0 1.245,8 56,8 +4,8 Revisão 
+EMT 2.888,2 3.081,2 193,0 +6,7 Reajuste Anual 
+EMS 1.761,0 1.895,7 134,7 +7,6 Reajuste Anual 
+ETO 1.088,2 1.216,7 128,6 +11,8 Revisão 
+ESS 605,2 654,5 49,3 +8,1 Reajuste Anual 
+ERO 1.129,5 1.163,5 33,9 +3,0 Reajuste Anual 
+EAC 432,1 444,9 12,8 +3,0 Reajuste Anual 
+Total 10.185,1 10.866,4 681,4 +6,3% 
+ 
+(1) DRA – Data de Referência Anterior: é definida como sendo a data de vigência do último processo tarifário homologado pela ANEEL, sej a reajuste ou revisão 
+tarifária, que contempla os custos incorridos e receitas auferidas nos doze meses relativos ao processo tarifário. 
+(2) DRP – Data de Referência em Processamento: a DRP é definida como sendo a data de vigência do processo tarifário em análise a ser homologado pela ANEEL, 
+quer seja reajuste ou revisão tarifária, que contempla os custos e receitas previstas para os doze meses relativos ao processo tarifário. Ambas utilizam o 
+mesmo mercado de referência e, portanto, a razão entre as duas indica apenas o incremento tarifário do componente.
+
+[p. 28]
+28 
+G R U P O EN ER G I SA 
+D I V U L G A Ç Ã O R E S U L T A D O S 
+3T25 
+3.2 Custos e despesas operacionais 
+ 
+A seguir, a composição dos custos e despesas operacionais das distribuidoras . 
+ 
+Composição dos custos e despesas operacionais 
+Valores em R$ milhões 
+Trimestre Acumulado 
+3T25 3T24 Var. % 9M25 9M24 Var. % 
+ 1 Custos e despesas não controláveis 3.844,4 3.411,0 + 12,7 10.620,2 9.192,5 + 15,5 
+1.1 Energia elétrica comprada para revenda 2.991,7 2.790,7 + 7,2 8.156,3 7.320,1 + 11,4 
+1.2 Encargos de uso do sistema de transmissão e 
+distribuição 852,7 620,4 + 37,5 2.463,9 1.872,4 + 31,6 
+2 Custos e Despesas controláveis 973,5 960,4 + 1,4 2.923,4 2.837,5 + 3,0 
+2.1 PMSO 848,4 786,1 + 7,9 2.460,7 2.358,3 + 4,3 
+2.2 Provisões/Reversões 125,1 174,3 - 28,2 462,7 479,2 - 3,4 
+ 2.2.1 Contingências 31,0 89,6 - 65,4 113,2 163,3 - 30,7 
+ 2.2.2 Perdas esperadas de crédito de liquidação 
+duvidosa 94,2 84,7 + 11,2 349,5 315,9 + 10,6 
+3 Demais receitas/despesas 461,6 398,4 + 15,9 1.340,2 1.150,9 + 16,4 
+3.1 Amortização e depreciação 381,4 327,5 + 16,4 1.115,9 949,6 + 17,5 
+3.2 Outras receitas/despesas 80,2 70,9 + 13,2 224,3 201,3 + 11,4 
+Total (sem custo de construção da infraestrutura) 5.279,5 4.769,8 + 10,7 14.883,8 13.180,9 + 12,9 
+Custo de construção da infraestrutura 1.367,2 1.309,6 + 4,4 3.729,8 3.380,6 + 10,3 
+Total (com custo de construção da infraestrutura) 6.646,7 6.079,4 + 9,3 18.613,6 16.561,5 + 12,4 
+ 
+3.2.1 Custos e despesas operacionais não controláveis 
+ 
+Os custos e despesas não controláveis apresentaram aumento de 12,7% no trimestre, atingindo R$ 3.844,4 milhões 
+no 3T25, em função dos maiores custos da rubrica “energia comprada” que reflete o balanço de oferta e demanda 
+de energia do Sistema Interligado Nacional (SIN) . O resultado foi influenciado pelo Preço da Liquidação das 
+Diferenças (PLD) e pelos índices financeiros utilizados para reajustar o preço dos contratos de compra de energia. 
+O PLD, além de precificar a liquidação de energia no Mercado de Curto Prazo da CCEE, também valora as despesas 
+relacionadas ao risco hidrológico (cotas de garantia física, Itaipu e das usinas repactuadas) e demais encargos 
+setoriais que compõem a Parcela A da tarifa, caracterizada pelo repasse integral aos consumidores. 
+ 
+Além disso, esta rubrica inclui a provisão de R$ 12,9 milhões referente à energia não compensada de geração 
+distribuída, cujo reconhecimento contábil teve início no 4T24. 
+ 
+3.2.2 Custos e despesas operacionais controláveis 
+ 
+Os custos e despesas controláveis tiveram um aumento de 1,4% atingindo R$ 970,9 milhões no trimestre. 
+ 
+PMSO (Pessoal, Material, Serviços e Outros) 
+ 
+As despesas com PMSO aumentaram 7,9% (R$ 62,3 milhões) e atingiram R$ 848,4 milhões no trimestre e segue 
+abaixo da inflação do período. 
+ 
+A seguir, a composição do PMSO das distribuidoras: 
+ 
+PMSO combinado 
+Valores em R$ milhões 
+Trimestre Acumulado 
+3T25 3T24 Var. % 9M25 9M24 Var. % 
+ 
+ 
+ Pessoal e benefício pós-emprego 375,5 336,7 + 11,5 1.109,3 1.003,5 + 10,5 
+Material 67,5 63,3 + 6,6 204,8 192,1 + 6,6 
+Serviços de terceiros 399,9 358,4 + 11,6 1.096,4 1.046,0 + 4,8 
+Outras 5,5 27,7 - 80,2 50,3 116,8 - 56,9 
+✓ Penalidades contratuais e 
+regulatórias 0,6 0,8 - 22,8 1,3 1,7 - 25,3 
+✓ Outros 4,9 27,0 - 81,9 49,0 115,1 - 57,4 
+Total PMSO combinado 848,4 786,1 + 7,9 2.460,7 2.358,3 + 4,3 
+IPCA / IBGE (12 meses) 5,17% 
+IGPM / FGV (12 meses) 2,82%
+
+[p. 29]
+29 
+G R U P O EN ER G I SA 
+D I V U L G A Ç Ã O R E S U L T A D O S 
+3T25 
+As principais variações nas despesas de PMSO estão detalhadas a seguir: 
+ 
+✓ Pessoal e Benefício Pós Emprego 
+ 
+No trimestre, a rubrica de pessoal e benefício pós-emprego atingiu R$ 375,5 milhões registrando um aumento de 
+11,5% (+R$ 38,8 milhões), explicado principalmente pelos seguintes fatores: 
+ 
+(i) +R$ 38,8 milhões reflexo dos acordos coletivos e reajustes , maiores custos de rescisão e aumento de 
+quadro de empregados devido à internalização de equipes; 
+ 
+✓ Material 
+ 
+As despesas com materiais atingiram R$ 67,5 milhões no 3T25, aumento de 6,6% (+R$ 4,2 milhões) na comparação 
+com o 3T24, explicado principalmente: 
+ 
+(i) + R$ 1,5 milhão em despesas em manutenção de rede e equipamentos; 
+(ii) + R$ 1,2 milhão de despesas com materiais de escritório; 
+(iii) + R$ 1,1 milhão em despesas com combustíveis e lubrificantes; 
+(iv) + R$ 1,0 milhão de despesas com manutenção de frota. 
+ 
+✓ Serviços 
+ 
+As despesas com serviços de terceiros alcançaram R$ 399,9 milhões, aumento de 11,6% (+ R$ 41,5 milhões), devido 
+principalmente a: 
+ 
+(i) + R$ 16,2 milhões nas despesas de manutenção, corretiva e preventiva; 
+(ii) + R$ 9,2 milhões com honorários advocatícios; 
+(iii) + R$ 6,7 milhões com prestação de serviços de TI; 
+(iv) + R$ 6,8 milhões com serviços Intercompany; 
+ 
+✓ Outras despesas 
+ 
+No trimestre, as outras despesas atingiram R$ 5,5 milhões, redução de 80,2% (-R$ 22,2 milhões) comparado ao 
+mesmo período do ano passado, na maior parte, em função principalmente ao reembolso de Conta de Consumo 
+de Combustíveis (CCC) no total de R$ 18,0 milhões no período. 
+ 
+Acesse essa e outras tabelas em Excel que estão disponíveis nesse link. 
+ 
+3.2.3 Demais despesas operacionais 
+ 
+O grupo das demais despesas operacionais atingiu R$ 586,7 milhões no trimestre, contra R$ 572,7 milhões no 
+mesmo período do ano anterior, aumento de 2,5%. 
+ 
+Demais despesas - combinado 
+Valores em R$ milhões 
+Trimestre Acumulado 
+3T25 3T24 Var. % 9M25 9M24 Var. % 
+ Provisões/Reversões 125,1 174,3 - 28,2 462,7 479,2 - 3,4 
+Contingências 31,0 89,6 - 65,4 113,2 163,3 - 30,7 
+Perdas esperadas de crédito de liquidação duvidosa 94,2 84,7 + 11,2 349,5 315,9 + 10,6 
+Demais receitas/despesas 461,6 398,4 + 15,9 1.340,2 1.150,9 + 16,4 
+Amortização e depreciação 381,4 327,5 + 16,4 1.115,9 949,6 + 17,5 
+Outras receitas/despesas 80,2 70,9 + 13,2 224,3 201,3 + 11,4 
+Total combinado 586,7 572,7 + 2,5 1.802,8 1.630,1 + 10,6 
+ 
+Contingências 
+ 
+No 3T25 a rubrica de contingências registrou R$ 31,0 milhões, redução de 65,4% (-R$ 58,6 milhões) na comparação 
+com o trimestre do ano anterior, vinculado especialmente as seguintes movimentações: (i) realização de acordos 
+de processos relevantes de natureza cível com impacto no montante de R$ 36,9 milhões (ERO – R$ 18,4 milhões,
+
+[p. 30]
+30 
+G R U P O EN ER G I SA 
+D I V U L G A Ç Ã O R E S U L T A D O S 
+3T25 
+EMT – R$ 13,0 milhões e ETO R$ 5,5 milhões). 
+ 
+Perdas esperadas de créditos de liquidação duvidosa (“PPECLD”) 
+ 
+A PPECLD foi de R$ 94,2 milhões no 3T25, representando um aumento de 11,2% (+ R$ 9,5 milhões) , quando 
+comparado a R$ 84,7 milhões no 3T24. Informações adicionais, recorrer ao item 3.1.5.2 deste relatório. 
+ 
+Demais receitas/despesas 
+ 
+No trimestre, as outras despesas líquidas alcançaram R$ 80,2 milhões no 3T24, aumento de 13,7% (R$ 9,4 milhões) 
+em relação ao mesmo período do ano anterior, principalmente em função de maiores desativações (baixa) de 
+ativos nas concessões ETO e EMT. 
+ 
+3.3 EBITDA 
+ 
+O EBITDA ajustado recorrente combinado das distribuidoras, que exclui VNR, totalizou R$ 1. 776,6 milhões no 
+trimestre, cresceu 13,7% em relação ao mesmo trimestre do ano anterior. 
+ 
+Descrição 
+Valores em R$ milhões 
+Trimestre Acumulado 
+3T25 3T24 (1) Var. % 9M25 9M24 (1) Var. % 
+ EMR 57,3 56,3 + 1,7 201,9 172,2 + 17,3 
+ESE 146,7 106,0 + 38,4 417,3 343,8 + 21,4 
+EPB 176,4 172,6 + 2,2 577,5 562,3 + 2,7 
+EMT 513,9 426,7 + 20,4 1.381,0 1.398,8 - 1,3 
+EMS 268,3 294,0 - 8,8 859,8 909,3 - 5,4 
+ETO 264,3 191,5 + 38,0 655,2 544,6 + 20,3 
+ESS 104,5 88,0 + 18,8 313,3 260,7 + 20,2 
+ERO 185,9 150,9 + 23,2 660,6 486,8 + 35,7 
+EAC 59,3 77,2 - 23,2 195,6 176,4 + 10,9 
+Total combinado 1.776,6 1.563,1 + 13,7 5.262,3 4.854,9 + 8,4 
+ 
+(1) O EBITDA combinado referente ao 3T24 difere do divulgado porque não considera o ajuste de Provisão PLR e Provisão sobrecontratação EAC uma vez que estes 
+efeitos passaram a ser recorrentes a partir de 1T25. 
+ 
+Descrição 
+Valores em R$ milhões 
+Trimestre Acumulado 
+3T25 3T24 Var. % 9M25 9M24 Var% 
+ 
+ (=) EBITDA ajustado combinado 1.776,6 1.563,1 + 13,7 5.262,3 4.854,9 + 8,4 
+Provisão RTE da ERO - - - (176,9) - - 
+(=) EBITDA ajustado combinado recorrente 1.776,6 1.563,1 + 13,7 5.085,4 4.854,9 + 4,7 
+ 
+Informações detalhadas sobre as variações dos indicadores por empresa estão disponíveis no release de cada 
+distribuidora. 
+ 
+Os valores de EBITDA por empresa estão no AnexoA3.
+
+[p. 31]
+31 
+G R U P O EN ER G I SA 
+D I V U L G A Ç Ã O R E S U L T A D O S 
+3T25 
+3.4 Lucro líquido do período 
+ 
+O lucro líquido combinado das distribuidoras, que exclui VNR, totalizou R$ 608,3 milhões no trimestre, redução de 
+10,9% em relação ao mesmo trimestre do ano anterior, conforme abaixo: 
+ 
+Lucro líquido 
+Valores em R$ milhões 
+Trimestre Acumulado 
+3T25 3T24 Var. % 9M25 9M24 Var. % 
+ EMR 7,9 13,8 - 42,7 49,4 41,9 + 17,7 
+ESE 83,1 62,9 + 32,0 235,1 184,3 + 27,6 
+EPB 87,1 113,6 - 23,3 307,9 347,0 - 11,3 
+EMT 166,0 191,8 - 13,5 495,1 634,6 - 22,0 
+EMS 69,4 111,3 - 37,6 263,3 356,4 - 26,1 
+ETO 139,1 106,2 + 31,0 314,8 299,4 + 5,1 
+ESS 33,9 25,0 + 35,3 97,2 80,9 + 20,2 
+ERO 6,0 21,8 - 72,7 24,9 82,0 - 69,6 
+EAC 15,8 35,1 - 54,9 29,5 53,2 - 44,5 
+Total 608,3 681,6 - 10,8 1.817,2 2.079,7 - 12,6 
+(1) O lucro líquido combinado das distribuidoras referente ao 3T24 difere do divulgado porque não considera o ajuste de Provisão PLR e Provisão sobrecontratação 
+EAC uma vez que estes efeitos passaram a ser recorrentes a partir de 1T25. 
+ 
+ 
+Valores em R$ milhões 
+Lucro líquido 
+Trimestre Acumulado 
+3T25 3T24 Var. % 9M25 9M24 Var. % 
+ 
+(=) Lucro líquido do período ajustado combinado 608,3 681,6 - 10,8 1.817,2 2.079,7 - 12,6 
+Provisão RTE da ERO (0,0) - - (185,0) - - 
+(=) Lucro líquido do período ajustado recorrente 
+combinado 608,3 681,6 - 10,8 1.632,2 2.079,7 - 21,5
+
+[p. 32]
+32 
+G R U P O EN ER G I SA 
+D I V U L G A Ç Ã O R E S U L T A D O S 
+3T25 
+ 
+4. TRANSMISSÃO 
+ 
+4.1 Resultados econômico-financeiros consolidado – Societário x Regulatório 
+ 
+Principais impactos no resultado societário 
+ 
+Resume-se, a seguir, o desempenho econômico-financeiro societário consolidado da ETE: 
+ 
+Desempenho Econômico-Financeiro IFRS 
+Resultados – R$ milhões 
+Trimestre Acumulado 
+3T25 3T24 Var. % 9M25 9M24 Var. % 
+ Receita de construção de infraestrutura 76,3 141,2 - 45,9 194,4 344,1 - 43,5 
+Ganho na eficiência na implementação da infraestrutura 11,4 12,6 - 9,5 19,7 5,1 + 286,3 
+Receita das margens da obrigação de performance da 
+construção 
+ 23,4 27,3 - 10,1 47,4 100,4 - 52,8 
+Receita de operação e manutenção 19,3 16,8 + 14,2 54,0 50,6 + 6,7 
+Remuneração dos ativos de concessão 160,7 146,9 + 9,3 697,4 653,5 + 6,7 
+Outras receitas operacionais 21,2 15,1 + 40,6 68,0 56,7 + 20,0 
+Total da receita bruta 312,3 359,9 - 13,2 1.080,9 1.210,4 - 10,7 
+Deduções da receita (26,7) (25,6) + 4,0 (91,1) (90,6) + 0,5 
+Receita operacional líquida 285,6 334,3 - 14,5 989,8 1.119,8 285,6 
+Custo de construção (72,6) (135,2) - 46,3 (185,0) (330,7) - 44,1 
+Margem bruta 213,0 199,2 + 13,8 p.p. 804,9 789,1 + 15,8 p.p. 
+PMSO (33,8) (62,3) - 45,8 (94,7) (166,9) - 43,2 
+Demais despesas operacionais (1) (0,2) 4,9 - (2,7) 8,2 - 
+Depreciação/Amortização (0,4) (0,4) - 13,6 (1,3) (1,4) - 6,0 
+Resultado financeiro (66,8) (66,3) + 0,7 (277,2) (250,1) + 10,9 
+Contribuição social e imposto de renda (19,9) (13,1) + 51,9 (77,8) (95,8) - 18,8 
+Lucro líquido do período 92,0 61,9 + 48,6 351,1 283,2 + 24,0 
+EBITDA 179,0 141,7 + 26,3 707,4 630,4 + 12,2 
+Margem EBITDA (%) 62,7 42,4 + 20,3 p.p. 71,5 56,3 + 15,2 p.p. 
+ 
+(1) Considera provisões e reversões de contingências trabalhista, cíveis, regulatórias, ambientais e fiscal e outras receitas/despesas. 
+ 
+➢ A receita operacional líquida alcançou R$ 285,6 milhões, uma redução de 14,5% em relação ao ano anterior, 
+causada principalmente pela diminuição da receita de construção devido à menor realização de investimentos 
+no período nas concessões EAM e EAM II e pela entrada em operação da ETT II e EAP . Esse efeito foi 
+parcialmente compensado pelo avanço na construção da concessão EMA e capitalização da REA 11.996 da 
+LMTE (R$ 24,0 milhões). 
+ 
+➢ O PMSO do 3T25 totalizou R$ 33,8 milhões, redução de 45,8% na comparação com o 3T24, reflexo da gestão 
+eficiente dos custos operacionais da companhia com a internalização das atividades de O&M, que gerou uma 
+redução de R$ 12,4 milhões em serviços de terceiros e gastos com melhorias na infraestrutura ocorridas em 
+2024, não recorrente no 3T25. 
+ 
+➢ O EBITDA foi de R$ 179,0 milhões no 3T25, aumento de 26,3% em comparação ao mesmo período do ano anterior 
+em função de redução do PMSO. 
+ 
+Principais impactos do resultado regulatório 
+ 
+Aviso: Nesta seção são apresentados os resultados regulatórios do segmento de transmissão da Companhia. Os 
+resultados regulatórios têm a finalidade de apresentar uma análise do desempenho regulatório/gerencial das 
+transmissoras, seguindo as práticas do mer cado de transmissão. Portanto, não deve ser considerado como 
+relatório econômico-financeiro oficial da Companhia para a Comissão de Valores Mobiliários (CVM), que segue as 
+normas contábeis internacionais do IFRS, emitidas pelo International Accounting Sta ndards Board (IASB). As 
+Demonstrações Contábeis Regulatórias (DCR’s) aqui apresentadas são auditadas anualmente até 30 de abril de 
+cada exercício na entrega das demonstrações contábeis regulatórias à ANEEL. Assim, os assuntos relacionados
+
+[p. 33]
+33 
+G R U P O EN ER G I SA 
+D I V U L G A Ç Ã O R E S U L T A D O S 
+3T25 
+especificamente à contabilidade regulatória divulgados anteriormente à conclusão das DCRs são passíveis de 
+alterações. 
+ 
+Resume-se, a seguir, o desempenho econômico-financeiro regulatório consolidado da ETE: 
+ 
+Desempenho Econômico-Financeiro Regulatório 
+Resultados – R$ milhões 
+Trimestre Acumulado 
+3T25 3T24 Var. % 9M25 9M24 Var. % 
+ Receita anual permitida 226,1 193,0 + 17,2 641,2 594,4 + 7,9 
+Total da receita bruta 226,1 193,0 + 17,2 641,2 594,4 + 7,9 
+Deduções da receita (23,5) (20,7) 13,5% (67,7) (63,2) 7,1% 
+Receita operacional líquida 202,6 172,3 + 17,6 573,4 531,2 + 8,0 
+PMSO (33,8) (45,4) - 25,6 (92,5) (127,1) - 27,3 
+Demais despesas operacionais (1) (0,2) 4,2 - (2,7) 6,1 - 
+Amortização/Depreciação (48,0) (47,7) + 0,7 (143,4) (142,0) + 0,9 
+Resultado financeiro (66,8) (66,3) + 0,7 (277,2) (249,9) + 10,9 
+Contribuição social e imposto de renda (10,2) (12,2) - 16,1 7,3 (33,9) - 
+Lucro (Prejuízo) líquido regulatório 43,6 4,9 + 781,5 65,0 (15,7) - 
+EBITDA regulatório 168,6 131,1 + 28,6 478,3 410,1 + 16,6 
+Margem EBITDA (%) 83,2 76,1 + 7,1 p.p. 83,4 77,2 + 6,2 p.p. 
+ 
+(1) Considera provisões e reversões de contingências trabalhista, cíveis, regulatórias, ambientais e fiscal e outras receitas/despesas. 
+ 
+➢ A Energisa Transmissão de Energia (ETE) apresentou um EBITDA regulatório de R$ 168,6 milhões, um aumento 
+de R$ 37,5 milhões na comp aração com o 3T24. O crescimento foi impulsionado principalmente pela receita 
+operacional líquida, que atingiu R$ 202,6 milhões, reflexo tanto do reajuste tarifário da RAP do ciclo 2025/2026 
+quanto da entrada em operação de novos ativos. Além disso, a empresa permanece demonstrando eficiência 
+na gestão de custos, com uma redução de R$ 11,6 milhões na linha de PMSO, beneficiada p ela internalização 
+de atividades de operação e manutenção. 
+ 
+ 
+5. (RE)ENERGISA 
+ 
+A (re)energisa é a marca do grupo que representa os negócios não regulados, entre eles a geração descentralizada 
+através de fontes renováveis (Alsol Energias Renováveis), comercialização de energia e de gás (Energisa 
+Comercializadora e Clarke Energia ) no mercado livre e serviços de valor agregado (Energisa Soluções). 
+Considerando um mercado cada vez mais competitivo e com múltiplas ofertas, faz parte da estratégia de 
+diversificação dos negócios do Grupo oferecer um ecossistema de soluções energéticas para os nossos clientes. 
+ 
+A marca também traduz o conceito adotado pela empresa para a abordagem ao mercado, o one -stop-shop, ou 
+seja, todas as soluções em um só lugar. A estratégia da empresa é protagonizar a transição energética, conectando 
+pessoas e empresas à melhor solução de energia com foco em uma economia sustentável e de baixo carbono. 
+ 
+5.1 Geração distribuída 
+ 
+A Alsol é a empresa do grupo que atua principalmente nas atividades de geração descentralizada a partir de 
+fazendas solares que são conectadas a redes de distribuição existentes utilizando o sistema de compensação de 
+energia elétrica previsto na Lei 14.300 /2022. A empresa constrói e opera suas próprias usinas solares, além de 
+desenvolver seus próprios sistemas de controle e monitoramento das diferentes unidades de geração, resultando 
+em maior produtividade de energia elétrica acima do planejamento inicial e cada planta. As fazendas solares são 
+destinadas ao atendimento a clientes MPE – micro e pequenas empresas, bem como médias empresas e pessoas 
+físicas, atendidas em baixa tensão, na modalidade de consórcio ao sistema de compensação.
+
+[p. 34]
+34 
+G R U P O EN ER G I SA 
+D I V U L G A Ç Ã O R E S U L T A D O S 
+3T25 
+No final de setembro de 2025, a Alsol teve um crescimento dos parques solares atingindo 125 usinas solares 
+(UFVs) em operação, totalizando 467 MWp de potência. Segue tabela com capacidade instalada por região: 
+ 
+Distribuidora Usinas MWp 
+ Minas Gerais 66 203,89 
+Mato Grosso 19 93,63 
+Rio de Janeiro 5 13,53 
+São Paulo 9 42,87 
+Mato Grosso do Sul 17 82,44 
+Ceará 4 12,86 
+Maranhão 1 4,81 
+Pernambuco 3 6,77 
+Piauí 1 6,29 
+Total 125 467,08 
+ 
+Resume-se, a seguir, o desempenho econômico-financeiro do segmento: 
+ 
+Geração Distribuída 
+Valores em R$ milhões 
+Trimestre Acumulado 
+3T25 3T24 Var. % 9M25 9M24 Var.% 
+ (=) Receita líquida 87,6 84,4 + 3,8 255,7 264,1 - 3,2 
+(-) CUSD (16,4) (11,2) + 45,9 (43,8) (32,0) + 36,9 
+(-) PMSO (25,9) (38,9) - 33,4 (87,2) (100,2) - 13,0 
+(+) Outros custos e despesas (2,2) 0,4 - (5,6) (6,8) - 18,8 
+(=) EBITDA 43,2 34,7 + 24,3 119,1 125,1 - 4,7 
+(+) Amortização e depreciação (24,2) (19,1) + 26,5 (68,0) (61,6) + 10,5 
+(+/-) Resultado financeiro (59,6) (32,9) + 80,9 (149,7) (85,3) + 75,5 
+(+/-) IR/CSLL 14,5 6,4 + 126,6 34,8 8,9 + 289,8 
+(=) Lucro (prejuízo) do período (26,1) (10,9) + 138,6 (63,8) (12,9) + 396,1 
+ 
+O braço de geração distribuída da (re)energisa apresentou uma receita líquida de R$ 87,6 milhões no 3T25, 
+crescimento de 3,8% em relação ao 3T24, reflexo do plano de expansão de vendas e eficácia com o efeito da 
+manutenção da política comercial visando pre servação das margens no produto de longo prazo em um mercado 
+que sofre um aumento circunstancial na oferta de GD. Os indicadores operacionais contribuíram para o resultado, 
+apresentando melhora no comparativo entre os trimestres: churn caiu de 4,41% para 3 ,00%, uma redução de 
+31,97%, enquanto a inadimplência (PDD) recuou de 4,75% para 3,00%, queda de 36,84%. Adicionalmente, o volume 
+de vendas no trimestre foi 60% superior ao registrado no mesmo período do ano anterior, refletindo maior 
+eficiência operaciona l e amadurecimento da estratégia de planejamento comercial implementada ao longo de 
+2025. 
+ 
+A CUSD e o PMSO somados totalizaram R$ 42,3 milhões, apresentando uma redução de -15,6%, respectivamente, 
+quando comparado com o 3T24, refletindo melhor efetividade em OPEX alinhados pelo time operacional e 
+administrativo. 
+ 
+O EBITDA no 3T25 foi de R$ 43,2 milhões, crescimento de 24,3% frente ao resultado de R$ 34,7 milhões, no mesmo 
+período do ano anterior. 
+ 
+O resultado financeiro foi impactado pelo saldo da dívida líquida que cresceu 20,6% em relação ao saldo de 3T24 
+e o custo médio da dívida líquida apurado em 3T25 de 13,8%a.a. que se apresentou 142bps maior que o verificado 
+no mesmo período de 2024 (12,4%a.a.). 
+ 
+Os empréstimos e financiamentos captados para a Alsol estão detalhados nas notas explicativas 20 e 21 das 
+Demonstrações Financeiras.
+
+[p. 35]
+35 
+G R U P O EN ER G I SA 
+D I V U L G A Ç Ã O R E S U L T A D O S 
+3T25 
+5.2 Comercialização de energia elétrica 
+ 
+ 
+Nota: A partir do 2T25, o resultado da Clarke passou a ser incorporado aos resultados da Comercializadora para 
+alinhar com a natureza do negócio. Anteriormente, era classificado em "Holding/Outros". Para facilitar a 
+comparação, esse ajuste também foi aplicado aos resultados de 2024. É importante notar que essa mud ança não 
+impacta o resultado consolidado da Energisa, pois se trata apenas de uma reclassificação entre linhas da 
+demonstração de resultados. 
+ 
+No terceiro trimestre de 2025 (3T25), o cenário hidrológico mostrou desempenho pouco melhor em relação ao 
+mesmo período de 2024 (3T24). Apesar das Energias Naturais Afluentes (ENAs) permanecerem entre as mais 
+baixas do histórico, ainda assim o 3T25 foi beneficiado por um período úmido menos desfavorável que o de 2024. 
+Como consequência, os níveis de armazenamento nos reservatórios também foram mais elevados em comparação 
+com o ano an terior. Contudo, mudanças nos modelos de formação do PLD (Preço de liquidaç ão das diferenças), 
+que aumentaram a aversão ao risco, elevaram o PLD para R$ 252,43/MWh no período. 
+ 
+No 3T25, o faturamento com energia cresceu 46,3% no total, justificado pelo esforço na prospecção de novos 
+clientes e pelas movimentações estratégicas de trading. 
+ 
+No que se refere às migrações varejistas, o 3T25 registrou a entrada de 80 unidades, frente a 77 migrações 
+registradas no 3T24. Com isso, até o 3º trimestre de 2025 totalizou 462 migrações, representando um crescimento 
+de 79,1% em relação ao mesmo período do ano anterior (258 migrações no 3T24), reforçando a estratégia de 
+crescimento da companhia nesse segmento. 
+ 
+Descrição 
+Valores em GWh 
+Trimestre Acumulado 
+3T25 3T24 Var. % 9M25 9M24 Var.% 
+ Vendas a consumidores livres (ECOM) 2.658 2.679 - 0,8 6.847 5.207 + 31,5 
+ 
+Resume-se, a seguir, o desempenho econômico-financeiro da Comercializadora: 
+ 
+Comercializadora Trimestre Acumulado 
+Valores em R$ milhões 3T25 3T24 Var. % 9M25 9M24 Var.% 
+ (=) Receita Liquida 491,0 326,6 + 50,3 1.152,0 633,4 + 81,9 
+Compra de energia (501,4) (318,2) + 57,6 (1.149,1) (584,8) + 96,5 
+Spread (10,4) 8,4 - 2,8 48,6 - 94,2 
+Efeito MtM 10,5 (14,1) - (57,8) (186,5) - 69,0 
+PMSO (10,8) (14,7) - 26,4 (32,4) (41,7) - 22,3 
+Outras receitas/despesas (0,0) (0,0) - 93,3 (0,5) 11,3 - 
+EBITDA (10,7) (20,3) - 47,1 (87,9) (168,3) - 47,8 
+Depreciação e amortização (0,4) (0,1) + 213,9 (0,6) (0,3) + 121,8 
+Resultado financeiro 0,1 (2,1) - 0,0 (5,9) - 
+IR e CSLL do lucro líquido (reportado) 3,1 7,1 - 56,3 28,2 58,1 - 51,5 
+Lucro (prejuízo) líquido (7,9) (15,4) - 48,5 (60,3) (116,3) - 48,2 
+ 
+ 
+Apresentamos abaixo o EBITDA ajustado e Lucro Líquido ajustado da Comercializadora excluindo o efeito do MTM 
+do período: 
+ 
+EBITDA Comercializadora 
+Valores em R$ milhões 
+Trimestre Acumulado 
+3T25 3T24 Var. % 9M25 9M24 Var.% 
+ (=) EBITDA (10,7) (20,3) - 47,1 (87,9) (168,3) - 47,8 
+Marcação a mercado (MTM) (10,5) 14,0 - 57,8 186,5 - 69,0 
+(=) EBITDA ajustado recorrente (21,2) (6,3) + 239,7 (30,1) 18,2 -
+
+[p. 36]
+36 
+G R U P O EN ER G I SA 
+D I V U L G A Ç Ã O R E S U L T A D O S 
+3T25 
+ 
+Lucro líquido Comercializadora 
+Valores em R$ milhões 
+Trimestre Acumulado 
+3T25 3T24 Var. % 9M25 9M24 Var.% 
+ (=) Lucro/prejuízo líquido do período (7,9) (15,4) - 48,5 (60,3) (116,3) - 48,2 
+Marcação a mercado (MTM) (6,9) 9,3 - 38,1 123,1 - 69,0 
+(=) Lucro/prejuízo líquido do período (14,8) (6,1) + 143,0 (22,1) 6,8 - 
+ 
+A comercializadora apresentou spread de -R$ 10,4 milhões, redução de R$ 18,9 milhões em relação ao 3T24. Com 
+relação à receita liquida, houve um crescimento de 50,3% frente ao mesmo período do ano anterior, e, apesar da 
+redução de volume (-4,6%), os preços negociados aumentaram (+52,2%) no período respectivamente. 
+ 
+No 3T25, a marcação a mercado dos contratos foi de R$ 10,5 milhões positivo, variação positiva de R$ 24,5 milhões, 
+sem efeito caixa, referente às elevações de preço e posição do portfólio como efeito de um estorno no resultado. 
+ 
+A linha de PMSO registrou uma redução de R$ 3,9 milhões no comparativo com o mesmo período do ano anterior, 
+em função de otimização de despesas para composição da estrutura da comercializadora. 
+ 
+O EBITDA do 3T25 apresentou uma melhora de 47,1% em relação ao 3T24. Todavia, removendo o efeito MTM, o 
+EBITDA ajustado recorrente apresentou uma queda de R$ 14,8 milhões em comparação com o 3T24, reflexo do 
+impacto no spread, decorrente da relação entre o preço da energia e o volume exposto. 
+ 
+5.3 Serviços de valor agregado 
+ 
+A Energisa Soluções é a empresa do Grupo que atua na prestação de serviços de valor agregado para clientes de 
+média e alta tensão em todo o Brasil. Estes serviços geram benefícios para os nossos clientes através de melhorias 
+e maior eficiência dos seus pro cessos energéticos, reduzindo custos e melhorando seus níveis operacionais. 
+Dentro desta linha de negócios, destacam -se serviços como O&M (operação e manutenção de ativos elétricos), 
+Eficiência Energética e Automação de processos energéticos. 
+ 
+Resume-se, a seguir, o desempenho econômico-financeiro do segmento: 
+ 
+Serviços de valor agregado 
+Valores em R$ milhões 
+Trimestre Acumulado 
+3T25 3T24 Var. % 9M25 9M24 Var.% 
+ Receita líquida 56,7 68,7 - 17,5 156,5 226,8 - 31,0 
+PMSO (49,6) (62,3) - 20,3 (138,4) (204,1) - 32,2 
+Outros custos e despesas 1,1 (0,3) + 0,0 (0,4) (0,4) + 0,2 
+EBITDA 8,2 6,2 + 32,6 17,6 22,2 - 20,8 
+Amortização e depreciação (3,8) (3,8) - 0,0 (11,3) (11,6) - 2,4 
+Resultado financeiro 1,2 (0,0) + 0,0 4,6 (0,1) + 0,0 
+IR/CSLL (2,1) (1,1) + 97,5 (4,0) (3,9) + 2,1 
+Lucro líquido (prejuízo) do período 3,5 1,3 + 167,9 6,9 6,7 + 3,4 
+ 
+A receita líquida do 3T25 apresentou redução frente ao mesmo período do ano anterior devido à restruturação do 
+portfólio de serviços, mantendo na base os contratos alinhados à estratégia de expansão da (re)energisa. 
+ 
+No PMSO, observa -se redução de R$ 12,7 milhões na comparação com o 3T24, reflexo , principalmente, da 
+otimização das despesas e restruturação mencionada acima. Adicionalmente, houve registro de outros custos e 
+despesas de +R$ 1,4 milhão, o qual contribuiu com o resultado do EBITDA. 
+ 
+Na comparação com o acumulado de 2024 , apesar da retração no EBITDA devido ao redimensionamento da 
+empresa, o resultado financeiro apresentou uma melhora de R$ 4,7 milhões frente ao 9M24. Esse desempenho 
+positivo decorre, principalmente, do aumento na disponibilidade de caixa aplicado em instrumentos financeiros, 
+refletindo uma gestão mais eficiente da liquidez. Como consequência, o lucro líquido acumulado ficou em linha 
+com o 9M24 e no trimestre houve um crescimento de R$ 2,2 milhões.
+
+[p. 37]
+37 
+G R U P O EN ER G I SA 
+D I V U L G A Ç Ã O R E S U L T A D O S 
+3T25 
+6. GERAÇÃO CENTRALIZADA 
+ 
+O Grupo Energisa está presente na geração centralizada através da s usinas fotovoltaicas Energisa Geração 
+Central Solar Rio do Peixe I e Energisa G eração Central Solar Rio do Peixe II, localizadas no Estado da Paraíba, 
+com 70 MWp de capacidade instalada. Os empreendimentos possuem o certificado global de energia limpa I-REC, 
+que agrega valor ao megawatt gerado e confirma sua origem de fonte renovável. 
+ 
+Resume-se, a seguir, o desempenho econômico-financeiro do segmento: 
+ 
+Rio do Peixe I e II 
+Valores em R$ milhões 
+Trimestre 
+3T25 3T24 Var. % 9M25 9M24 Var.% 
+ Receita líquida 7,4 7,3 + 2,2 22,5 23,6 - 4,7 
+PMSO (0,8) (0,5) + 64,4 (2,9) (2,8) + 5,0 
+Outros custos e despesas (2,1) (1,4) + 48,0 (5,2) (4,1) + 29,3 
+EBITDA 4,4 5,3 - 16,4 14,4 16,8 - 14,6 
+Amortização e depreciação (3,6) (3,6) + 0,0 (10,7) (10,6) + 1,3 
+Resultado financeiro (1,6) (2,6) - 39,6 (6,7) (8,5) - 21,3 
+Contribuição social e imposto de renda 0,2 (0,0) - 0,8 (1,9) - 
+Prejuízo líquido (0,6) (0,9) - 39,1 (2,3) (4,2) - 45,0 
+ 
+No 3T25, a Companhia registrou uma receita líquida de R$ 7,4 milhões, em linha com o registrado no 3T24. O PMSO 
+aumentou 64,4% devido ao crescimento da compra de energia, sendo compensado em parte pela internalização 
+da estrutura de O&M . O EBITDA alcançou R$ 4,4 milhões no período, redução de R$ 0,9 milhão no trimestre e o 
+prejuízo líquido foi de R$ 0,6 milhão, uma redução de 39,1% frente ao 3T24. 
+ 
+ 
+7. DISTRIBUIÇÃO DE GÁS NATURAL 
+ 
+7.1 Visão geral 
+ 
+A Energisa Distribuidora de Gás (EDG) é responsável pela expansão do Grupo Energisa no setor de gás natural. 
+Abaixo, segue o organograma societário que ilustra a estrutura de controle da EDG dentro do Grupo Energisa : 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+100% 
+EDG 
+50,5% 
+41,5% 
+ 29,4% 
+ 29,4% 
+ 83% 
+EDGNE 
+100% 
+51% 
+Energisa Distribuidora 
+de Gás 
+Energisa Distribuidora de 
+Gás Nordeste
+
+[p. 38]
+38 
+G R U P O EN ER G I SA 
+D I V U L G A Ç Ã O R E S U L T A D O S 
+3T25 
+ 
+ 
+ 
+➢ ES Gás desempenha um papel estratégico na expansão da infraestrutura de gás natural no Espírito Santo, 
+contribuindo para a transição energética com soluções inovadoras e sustentáveis. A empresa atende mais de 
+90,4 mil unidades consumidoras e opera uma rede de aproximadamente 606 km, garantindo um fornecimento 
+seguro e eficiente. Responsável pela distribuição de gás natural canalizado no estado, a ES Gás atua em 
+diversos setores, incluindo residencial, comercial, industrial, automotivo, climatização, cogeraç ão e geração 
+termoelétrica. Para mais informações, consulte o Release da ES Gás . 
+ 
+➢ Através da Norgás, a Energisa possui participações societárias em importantes distribuidoras de gás natural 
+nos estados do Nordeste. O Grupo participa das operações da Algás (Gás de Alagoas), Cegás (Companhia de 
+Gás do Ceará), Copergás (Companhia Pernambucana de Gás) e Potigás (Companhia Potiguar de Gás), que 
+atendem os estados de Alagoas, Ceará, Pernambuco e Rio Grande do Norte, respectivamen te. Com essa 
+estratégia, a Norgás fortalece a presença do Grupo Energisa no mercado de gás natural, expandindo sua 
+atuação e contribuindo para o desenvolvimento energético da região. As distribuidoras juntas atendem a 259,2 
+mil unidades consumidores. 
+ 
+7.2 Resumo participações direta e indireta 
+ 
+Companhias Distribuidoras Locais de 
+Gás Canalizados (CDL) 
+Participação (%) 
+Norgás(1) EDG Energisa(2) 
+ 
+ 
+ Es Gás - 100(1) 86,2 
+Norgás 
+Copergás 41,5 50,5(2) 21,0 
+Cegás 29,4 50,5(2) 14,8 
+Algás 29,4 50,5(2) 14,8 
+Potigás 83,0 50,5(2) 41,9 
+As participações demonstradas no quadro são diretas (1) ou indiretas (2). 
+ 
+7.3 Informações Financeiras 
+ 
+ 
+Abaixo, apresentamos o resultado da equivalência patrimonial e seu impacto no consolidado do Grupo Energisa, 
+referente às empresas controladas pela Norgás. 
+ 
+Os valores consideram o período de junho a agosto de 2025 para o 3T25, e de dezembro de 2024 a agosto de 2025 
+para o acumulado de 2025, evidenciando a evolução do resultado das investidas ao longo do exercício . 
+ 
+Equivalência Patrimonial por CDL 
+Valores em R$ milhão 3T25 
+ 
+9M25 
+ Copergás 13,6 46,2 
+Cegás 3,8 11,9 
+Algás 2,8 9,6 
+Potigás 5,2 10,9 
+Total 25,4 78,6
+
+[p. 39]
+39 
+G R U P O EN ER G I SA 
+D I V U L G A Ç Ã O R E S U L T A D O S 
+3T25 
+A seguir é apresentado um resumo do desempenho econômico-financeiro da ES Gás e Norgás(*): 
+ 
+Descrição 
+ES GÁS NORGÁS (1) 
+Trimestre Acumulado Trimestre 
+Valores em R$ 
+milhões 3T25 3T24 Var. % 9M25 9M24 Var. % 3T25 3T24(2) Var. % 9M25 9M24 Var.% 
+ Receita líquida (3) 187,8 431,5 - 56,5 497,8 1.282,2 - 61,2 681,7 742,9 - 8,2 2.064,3 2.169,6 - 4,9 
+Margem Bruta 80,4 68,5 + 17,3 188,7 195,8 - 3,7 143,5 118,0 + 21,6 419,2 385,4 + 8,8 
+PMSO 19,2 19,6 - 1,7 55,5 54,0 + 2,9 (58,7) (53,4) + 10,0 (185,3) (182,3) + 1,6 
+EBITDA 62,5 49,5 + 26,3 135,6 153,0 - 11,4 85,4 66,8 + 28,0 255,4 259,7 -1,6 
+Resultado financeiro (27,0) (20,1) + 34,6 (73,9) (45,5) + 62,5 12,8 10,2 + 26,1 41,0 48,8 -16,1 
+Lucro/ prejuízo líquido 11,0 8,6 + 28,2 2,4 5,2 + 39,0 63,3 44,3 + 42,8 204,6 205,6 - 0,5 
+Investimentos 28,3 21,6 + 30,8 64,5 46,4 + 39,1 49,1 48,6 + 1,0 158,4 167,6 - 5,5 
+ 
+(1) Os valores correspondem a 100% do resultado da CDL. 
+(2) O 3T24 refere-se ao período de junho a agosto de 2024, e o 3T25 corresponde ao período de junho a agosto de 2025. 
+(3) Receita líquida sem receita de construção 
+ 
+ 
+ 
+Destaques Es Gás: 
+ 
+• A Margem Bruta, desconsiderando os efeitos do PGU (preço de gás de ultrapassagem), apresentou 
+um aumento de 32,1 % no 3T25, totalizando R$ 80, 4 milhões. Essa variação é explicada, 
+principalmente, pelo incremento de volume (+14,2%) e do reajuste da margem média de distribuição 
+para R$ 0,4702/m³ (+56,7%), vigente a partir de agosto de 2025. 
+ 
+• A ES Gás encerrou o segundo trimestre de 2025 com um total de 90.377 unidades consumidoras, um 
+incremento de 8,5% em relação ao mesmo período do ano anterior. O resultado reflete a continuidade 
+dos esforços para expandir a base de clientes e fortalecer a presença no mercado. 
+ 
+• O volume total de gás natural distribuído alcançou 207.022 mil m³, crescimento de 14,2% em relação 
+ao mesmo período do ano anterior. O resultado foi impulsionado, principalmente, pelo avanço nos 
+segmentos industrial (+15,8%), residencial (+15,1%) e comercial (+10,4%) . 
+ 
+ 
+Destaques Norgás: 
+ 
+• No 3T25, as distribuidoras de gás natural (CDLs) foi marcado pelo crescimento de 21,5% na Margem 
+Bruta, que atingiu R$ 143,4 milhões , devido ao menor custo de aquisição do gás . A Receita Líquida 
+apresentou queda de 8,2% alcançando R$ 681,8 milhões no 3T25, provocada pela retração de 3,1% 
+no volume dos segmentos industrial e automotivo (GNV ). Em contrapartida, os custos operacionais 
+(PMSO) subiram 10,0%, pressionados principalmente por despesas com pessoal e taxas regulatórias. 
+ 
+As informações detalhadas sobre as empresas podem ser consultadas nos links abaixo. 
+ 
+➢ Es Gás: Acesso às informações aqui 
+➢ Norgás: Consulte o release aqui
+
+[p. 40]
+40 
+G R U P O EN ER G I SA 
+D I V U L G A Ç Ã O R E S U L T A D O S 
+3T25 
+ 
+8. ACOMPANHAMENTO DAS PROJEÇÕES DA COMPANHIA 
+ 
+Comentário sobre o Comportamento das Projeções Empresariais Individuais e Consolidadas 
+ 
+Em atenção ao disposto no art. 21, §4º, da Resolução CVM n.º 80/22, apresenta -se abaixo as comparações das 
+projeções divulgadas pela Companhia com os dados evolutivos efetivamente realizados até o 3T25: 
+ 
+(i) Projeções dos compromissos relacionados à sustentabilidade dos negócios, abordando aspectos 
+ambientais, sociais e de governança (“ESG”) da Companhia divulgadas ao mercado em 29 de junho de 2022: 
+ 
+Objeto Unidade 
+Previsão até o período findo em 
+31 de dezembro de 2026 
+Acumulado até 
+30 de setembro de 2025 
+ Energia elétrica, limpa e acessível a áreas 
+remotas da concessão 
+nº de unidades 
+consumidoras 55.000 53.600 
+Descomissionamento e desativação de UTEs MW 171,7 195(a) 
+Instalação de potência em energia renovável GW 0,6 0,543 
+ 
+(a) Em 2024, concluímos o desligamento de todas as usinas termelétricas previstas na Amazônia Legal, antecipando em dois anos o 
+compromisso originalmente estabelecido para 2026. 
+ 
+(ii) Aumento da participação de demais linhas de negócios no EBITDA Consolidado, divulgado ao mercado em 
+21 de novembro de 2022: 
+ 
+Objeto Unidade 
+Previsão até o período findo em 
+ 31 de dezembro de 2026 
+Posição em 
+30 de setembro de 2025 (1) 
+ Participação de demais linhas de negócios da 
+Companhia, além da distribuição de energia 
+elétrica, no EBITDA Consolidado 
+% do EBITDA 
+Consolidado 
+Até 25 19,5 
+ (b) Considera EBITDA Ajustado Covenants 12 meses 
+ 
+(iii) Estimativa de investimentos divulgado ao mercado em 19 de dezembro de 2022: 
+ 
+Objeto Unidade 
+Previsão até o período findo 
+em 31 de dezembro de 2026 
+Acumulado em 
+30 de setembro de 2025 
+ Estimativa de Investimentos R$ bilhões 24,0 23,9
+
+[p. 41]
+41 
+G R U P O EN ER G I SA 
+D I V U L G A Ç Ã O R E S U L T A D O S 
+3T25 
+ 
+9. EVENTOS SUBSEQUENTES 
+ 
+9.1 Bandeira tarifária 
+ 
+A ANEEL definiu para as distribuidoras de energia elétrica, a aplicação da Bandeira Vermelha Patamar 1 para os 
+meses de outubro e novembro de 2025, resultado de análises do cenário hidrológico do país. 
+ 
+9.2 Energização do Reforço Oriximiná - LMTE 
+ 
+Em 17 de outubro de 2025 a Controlada indireta LMTE energizou o Reforço de Grande Porte autorizado para 
+aumento da potência instalada na subestação Oriximiná. O Reforço da subestação Oriximiná, situada no Pará, é um 
+empreendimento que compreende a instalaç ão do segundo Banco de Autotransformadores Monofásicos (TR2) 
+500/138-13,8 KV de 150 MVA. A obra foi concluída 30 meses após publicação da Resolução Autorizativa - REA nº 
+14.314, dentro do prazo regulatório previsto. Foram investidos aproximadamente R$57,7 milhões e o 
+empreendimento adiciona ao portfólio do grupo uma RAP de R$7,7 milhões. 
+ 
+9.3 Empréstimos Contratados 
+ 
+1. Em 07 de outubro de 2025 a controlada EPB teve a liberação de R$107.500 referente à segunda parcela 
+do contrato Nº 23.2.0334-1 de financiamento junto ao BNDES, firmado em 06 de fevereiro de 2024 . 
+ 
+ 
+2. Em 07 de outubro de 2025 a controlada ERO teve a liberação de R$37.500 referente à segunda parcela do 
+contrato Nº 23.203.335-1 de financiamento junto ao BNDES, firmado em 06 de fevereiro de 2024 . 
+ 
+ 
+9.4 Emissão de Debêntures - Controladas 
+ 
+1. Em 06 de novembro de 2025, a controlada EPB, efetuou a 17ª emissão de debêntures incentivadas no 
+montante de R$ 495.000 em duas séries, sendo (i) a 1a série no valor de R$ 297.000, prazo de 10 anos, 
+amortização no vencimento e custo de NTN -B35 menos 0,37% a.a.; (ii) a 2a série no valor de R$ 198.000, 
+prazo de 15 anos, amortização anual a partir do 13º ano e custo NTN-B40 menos 0,34% a.a.. 
+ 
+2. Em 06 de novembro de 2025, a controlada EMT, efetuou a 26ª emissão de debêntures incentivadas no 
+montante de R$ 330.000 em duas séries, sendo (i) a 1a série no valor de R$ 198.000, prazo de 10 anos, 
+amortização no vencimento e custo de NTN -B35 menos 0,37% a.a.; (ii) a 2a série no valor de R$ 132.000, 
+prazo de 15 anos, amortização anual a partir do 13º ano e custo NTN-B40 menos 0,34% a.a.. 
+ 
+3. Em 06 de novembro de 2025, a controlada EMR efetuou a 19ª emissão de debêntures incentivadas no 
+montante de R$ 265.000 em duas séries, sendo (i) a 1a série no valor de R$ 159.000, prazo de 10 anos, 
+amortização no vencimento e custo de NTN -B35 menos 0,37% a.a..; (ii) a 2a série no valor de R$ 106.000, 
+prazo de 15 anos, amortização anual a partir do 13º ano e custo de NTN-B40 menos 0,34% a.a.. 
+ 
+4. Em 06 de novembro de 2025, a controlada ESS efetuou a 15ª emissão de debêntures incentivadas no 
+montante de R$ 240.000 em duas séries, sendo (i) a 1a série no valor de R$ 144.000, prazo de 10 anos, 
+amortização no vencimento e custo de NTN -B35 menos 0,37% a.a.; (ii) a 2a série no valor de R$ 96.000, 
+prazo de 15 anos, amortização anual a partir do 13º ano e custo NTN-B40 menos 0,34% a.a.. 
+ 
+5. Em 06 de novembro de 2025, a controlada ERO efetuou a 14ª emissão de debêntures incentivadas no 
+montante de R$ 440.000 em duas séries, sendo (i) a 1a série no valor de R$ 264.000, prazo de 10 anos, 
+amortização no vencimento e custo de NTN -B35 menos 0,32% a.a.; (ii) a 2a série no valor de R$ 176.000, 
+prazo de 15 anos, amortização anual a partir do 13º ano e custo NTN-B40 menos 0,29% a.a.. 
+ 
+9.5 Aquisição da Lurean S.A. 
+ 
+Em 03 de novembro de 202 5 a controlada Energisa Biogás S.A. (EBIO) concluiu a operação em que passou a ser 
+titular de 52% no capital social da Lurean S.A. A Lurean atua há 12 anos no tratamento de resíduos orgânicos e na 
+produção e comercialização de biofertilizantes. O investimento total da EBIO na transação é de R$ 62,7 milhões,
+
+[p. 42]
+42 
+G R U P O EN ER G I SA 
+D I V U L G A Ç Ã O R E S U L T A D O S 
+3T25 
+valor que contempla (i) aquisição da participação na sociedade e (ii) aporte de capital, que será utilizado como 
+parte do financiamento para construção de uma usina com capacidade de produção de aproximadamente 28 mil 
+m³ de biometano por dia. O CAPEX total estimado para implantação da Usina será de R$ 100 milhões. Esta 
+transação acelera a estratégia da Companhia no segmento de biometano, iniciada em 2023 com a aquisição da 
+AGRIC, e reforça seu posicionamento como provedora de soluções energéticas completas e de baixa emissão para 
+atender à demanda de seus clientes. 
+ 
+ 
+9.6 Pagamentos de dividendos – controladas 
+ 
+Em 06 de novembro de 2025, a Administração das controladas aprovou a distribuição de dividendos intercalares 
+com base no lucro do período findo em 30 de setembro de 2025, conforme demonstrado a seguir: 
+ 
+ 
+Controladas Valor dividendos Valor por ação (R$) Tipo de Ação Data pagamento 
+       EPB 85.224 81,36051830 ON a partir de 07/11/2025 
+ESE 150.625 770,42333105 ON a partir de 07/11/2025 
+EMT 188.077 0,85902629 ON E PN 26/11/2025 
+EGO I 14.000 0,05381654 ON a partir de 07/11/2025 
+ETT I 7.548 0,01342822 ON a partir de 07/11/2025 
+EAP 3.666 0,02703907 ON a partir de 07/11/2025 
+EPT 2.670 0,08611751 ON a partir de 07/11/2025 
+REDE POWER 22.060 83,91332778 ON a partir de 07/11/2025 
+REDE 160.000 0,07581776 ON 27/11/2025 
+DENERGE 110.000 141,65236192 ON a partir de 07/11/2025 
+ 
+ 
+ 
+ 
+ 
+ A Administração
+
+[p. 43]
+43 
+G R U P O EN ER G I SA 
+D I V U L G A Ç Ã O R E S U L T A D O S 
+3T25 
+ANEXO I – INFORMAÇÕES COMPLEMENTARES 
+ 
+A.1 Empresas por linha de negócio 
+ 
+Linha de negócio Empresas e conceitos 
+ ✓ Distribuição de energia 
+elétrica 
+EPB, EMR. ETO, EMT, EMS, ESS, EAC, ERO e ESE 
+✓ Transmissão de energia 
+elétrica 
+Energisa Transmissão Consolidado, incluindo as holdings ETE Controladora e Gemini 
+• (re)energisa A (re)energisa é a marca do grupo responsável pela gestão e comercialização de energia e de gás no 
+mercado livre, prestação de serviços de valor agregado e geração distribuída de fontes renováveis. 
+• Geração distribuída Alsol Consolidado 
+• Comercialização de energia 
+elétrica 
+Energisa Comercializadora e Clarke 
+• Serviços de valor 
+agregado 
+Energisa Soluções Consolidada 
+✓ Distribuição de gás natural ES Gás 
+✓ Holding e outros Energisa Geração - Usina Maurício S/A, Energisa Geração Central Solar Rio do Peixe I S/A, Energisa 
+Geração Central Solar Rio do Peixe II S/A, Parque Eólico Sobradinho LTDA., Energisa Geração Central 
+Eólica Alecrim S/A, Energisa Geração Central Eólica Boa Esperança S/A, Energisa Geração Central Solar 
+Coremas S/A, Energisa Geração Central Eólica Mandacaru S/A, Energisa Geração Central Eólica 
+Umbuzeiro-Muquim S/A, Companhia Técnica de Comercialização de Energia S/A, Multi Energisa Serviços 
+S/A, Energisa Serviços Aéreos de Aeroinspeção S/A, Voltz Capital S/A, Energisa Planejamento e 
+Corretagem de Seguros LTDA., Dinâmica Direitos Creditórios LTDA., QMRA - Participações S/A, Energisa 
+S/A, Rede Energia Participações S/A, Denerge Desenvolvimento Energético S/A, Energisa Biogás S/A 
+Consolidada, Rede Power Holding de Energia S/A, Energisa Participações Minoritárias S/A, Clarke 
+Desenvolvimento de Software S/A, Energisa Geração Central Eólica Maravilha I S/A, Energisa Geração 
+Central Eólica Maravilha II S/A, Energisa Geração Central Eólica Maravilha III S/A, Energisa Geração 
+Central Eólica Maravilha IV S/A, Energisa Geração Central Eólica Maravilha V S/A, Norgás S/A e EDGNE. 
+✓ Eliminações intercompany Eliminação de transações realizadas entre empresas do grupo Energisa a fim de evitar a dupla contagem 
+de receitas, despesas, ativo e passivo 
+✓ Combinação de negócios Refere-se a realização das mais valia das combinações de negócios reconhecidas conforme IFRS 3 ou o 
+CPC 15 (R1).
+
+[p. 44]
+44 
+G R U P O EN ER G I SA 
+D I V U L G A Ç Ã O R E S U L T A D O S 
+3T25 
+ 
+A.2 Receita operacional líquida - Consolidado 
+ 
+Receita operacional por segmento 
+Descrição (R$ milhões) 
+Trimestre Acumulado 
+3T25 3T24 Var. % 9M25 9M24 Var. % 
+ (+) Receita de energia elétrica (mercado cativo) 6.624,6 6.540,9 + 1,3 19.736,1 20.763,6 - 4,9 
+ü Residencial 3.644,0 3.463,9 + 5,2 11.090,3 11.187,8 - 0,9 
+ü Industrial 260,4 329,7 - 21,0 778,0 1.033,6 - 24,7 
+ü Comercial 1.098,1 1.160,3 - 5,4 3.326,4 3.801,9 - 12,5 
+ü Rural 800,2 790,4 + 1,2 2.171,1 2.309,0 - 6,0 
+ü Outras classes 822,0 796,8 + 3,2 2.370,2 2.431,4 - 2,5 
+(+) Suprimento de energia elétrica 206,4 174,7 + 18,1 675,0 234,3 + 188,1 
+(+) Fornecimento não faturado líquido 132,1 42,1 + 214,0 71,9 (130,8) - 
+(+) Vendas pela comercializadora (ECOM) 542,7 362,5 + 49,7 1.275,4 705,6 + 80,8 
+(+) Disponibilidade do sistema elétrico (TUSD) 1.072,1 833,2 + 28,7 2.948,2 2.362,1 + 24,8 
+(+) Receita de construção de infraestrutura (1) 1.674,2 1.661,3 + 0,8 4.786,1 4.570,2 + 4,7 
+(+) Receita de distribuição de gás natural 196,6 530,9 - 63,0 532,8 1.586,8 - 66,4 
+(+) Ativos e passivos financeiros setoriais - constituição e amortização 986,1 645,0 + 52,9 2.206,6 852,2 + 158,9 
+(+) Subvenções vinculadas aos serviços concedidos 878,1 611,3 + 43,6 2.289,0 1.664,3 + 37,5 
+(+) Atualização do ativo financeiro da concessão (VNR) 100,4 107,6 - 6,6 545,4 427,1 + 27,7 
+(+) Outras receitas 227,6 207,9 + 9,5 593,5 592,3 + 0,2 
+(=) Receita Bruta 12.640,9 11.717,4 + 7,9 35.659,9 33.627,8 + 6,0 
+(-) Impostos sobre vendas (2.350,7) (2.241,5) + 4,9 (6.751,0) (6.755,4) - 0,1 
+(-) Encargos setoriais (1.108,2) (895,3) + 23,8 (2.753,4) (2.715,1) + 1,4 
+(=) Receita líquida 9.182,0 8.580,6 + 7,0 26.155,5 24.157,3 + 8,3 
+(-) Receita de construção de infraestrutura (1.674,2) (1.661,3) + 0,8 (4.786,1) (4.570,2) + 4,7 
+(=) Receita líquida, sem receita de construção de infraestrutura 7.507,8 6.919,3 + 8,5 21.369,4 19.587,2 + 9,1 
+1) Receita de construção: receita de construção da infraestrutura + receita de operação e manutenção da infraestrutura de transmissão + 
+receita das margens da obrigação de performance da construção + remuneração do ativo de contrato (transmissão de energia elétrica);
+
+[p. 45]
+45 
+G R U P O EN ER G I SA 
+D I V U L G A Ç Ã O R E S U L T A D O S 
+3T25 
+A.3 EBITDA por empresa 
+ 
+Descrição 
+Valores em R$ milhões 
+Trimestre Acumulado 
+3T25 3T24 Var. % 9M25 9M24 Var. % 
+ Distribuição de energia elétrica 1.877,0 1.670,7 + 12,4 5.807,7 5.282,0 + 10,0 
+EMR 58,8 57,4 + 2,5 209,1 176,5 + 18,5 
+ESE 157,0 115,0 + 36,4 465,7 381,3 + 22,2 
+EPB 191,7 185,7 + 3,2 649,8 615,9 + 5,5 
+EMT 569,6 478,9 + 18,9 1.647,7 1.605,0 + 2,7 
+EMS 294,5 318,8 - 7,6 985,6 1.005,5 - 2,0 
+ETO 248,2 192,4 + 29,0 644,5 548,2 + 17,6 
+ESS 107,0 90,0 + 18,9 324,7 268,8 + 20,8 
+ERO 189,3 154,0 + 22,9 677,0 499,7 + 35,5 
+EAC 61,1 78,5 - 22,1 203,6 181,3 + 12,3 
+Transmissão de energia elétrica (1) 179,0 141,7 + 26,3 707,4 630,4 + 12,2 
+EGO 12,0 10,8 + 11,3 47,3 43,8 + 8,0 
+EPA I 14,5 14,6 - 0,9 53,8 56,2 - 4,3 
+EPA II 12,0 20,9 - 42,5 48,8 55,4 - 11,9 
+ETT 17,7 5,0 + 250,6 78,4 63,8 + 22,9 
+EAM 10,7 28,1 - 62,1 71,4 87,6 - 18,5 
+EAM II 10,4 8,8 + 17,4 31,3 13,9 + 125,7 
+ETT II 1,6 5,2 - 68,8 5,6 10,7 - 47,7 
+EPT 2,6 2,8 - 9,0 11,7 10,6 + 10,6 
+EAP 4,5 7,3 - 38,0 15,0 29,7 - 49,5 
+EMA 12,3 - - 13,2 - - 
+Gemini 62,1 16,1 + 286,8 273,5 198,0 + 38,1 
+ETE controladora 18,5 22,0 - 15,6 57,4 60,6 - 5,4 
+(re) energisa 40,6 20,6 + 97,2 48,9 (21,1) - 
+Geração distribuída 43,2 34,7 + 24,3 119,1 125,1 - 4,7 
+Comercialização de energia elétrica (10,7) (20,3) - 47,1 (87,9) (168,3) - 47,8 
+Serviços de valor agregado 8,2 6,2 + 32,6 17,6 22,2 - 20,8 
+Distribuição de gás natural 62,5 49,5 + 26,3 135,6 153,0 - 11,4 
+Holdings e outros 32,1 (16,1) - 52,6 (34,3) - 
+Combinação de negócios 1,0 9,3 - 89,0 13,6 168,0 - 91,9 
+EBITDA 2.192,3 1.875,7 + 16,9 6.765,8 6.178,0 + 9,5 
+Receitas de multas 109,1 108,0 + 1,1 330,4 321,7 + 2,7 
+EBITDA ajustado covenants 2.301,4 1.983,6 + 16,0 7.096,1 6.499,7 + 9,2 
+ 
+(1) ETE Consol considera os impactos da combinação de negócios pela aquisição Grupo Gemini.
+
+[p. 46]
+46 
+G R U P O EN ER G I SA 
+D I V U L G A Ç Ã O R E S U L T A D O S 
+3T25 
+ 
+A.4 Lucro (prejuízo) líquido por empresa 
+ 
+Descrição 
+Valores em R$ milhões 
+Trimestre Acumulado 
+3T25 3T24 Var. % 9M25 9M24 Var. % 
+ Distribuição de energia elétrica 687,8 767,7 - 10,4 2.435,0 2.421,4 + 0,6 
+EMR 8,9 14,5 - 38,5 54,1 44,8 + 21,0 
+ESE 91,8 70,6 + 30,0 276,1 216,0 + 27,8 
+EPB 100,0 124,7 - 19,8 369,2 392,4 - 5,9 
+EMT 213,2 236,1 - 9,7 721,1 809,3 - 10,9 
+EMS 86,7 127,7 - 32,1 346,3 419,9 - 17,5 
+ETO 125,5 107,0 + 17,3 305,7 302,5 + 1,1 
+ESS 35,5 26,3 + 34,7 104,7 86,3 + 21,4 
+ERO 8,8 24,5 - 63,8 222,2 92,9 + 139,3 
+EAC 17,3 36,3 - 52,2 35,6 57,5 - 38,1 
+Transmissão de energia elétrica (1) 92,0 61,9 + 48,6 351,1 283,2 + 24,0 
+EGO 12,0 10,7 + 12,3 46,9 43,8 + 7,1 
+EPA I 10,1 9,9 + 1,7 41,7 42,8 - 2,6 
+EPA II 6,6 15,4 - 57,0 33,3 42,6 - 21,7 
+ETT 7,9 3,0 + 161,0 36,4 32,5 + 11,7 
+EAM 4,0 20,3 - 80,1 48,7 66,3 - 26,6 
+EAM II 9,4 7,5 + 25,3 28,5 13,2 + 116,5 
+ETT II 1,6 4,5 - 65,4 5,4 9,7 - 43,9 
+EPT 2,7 2,9 - 6,3 12,2 11,0 + 11,6 
+EAP 3,9 6,6 - 41,4 12,0 26,6 - 54,9 
+EMA 11,0 - - 11,8 - - 
+Gemini 20,6 (6,2) - 98,8 52,5 + 88,1 
+ETE controladora 2,2 (13,0) - (24,6) (57,8) - 57,5 
+(re) energisa (30,5) (25,0) + 22,0 (117,2) (122,5) - 4,4 
+Geração distribuída (26,1) (10,9) + 138,6 (63,8) (12,9) + 396,1 
+Comercialização de energia 
+elétrica (7,9) (15,4) - 48,6 (60,3) (116,3) - 48,2 
+Serviços de valor agregado 3,5 1,3 + 167,8 6,9 6,7 + 3,5 
+Distribuição de gás natural 11,0 8,6 + 28,2 5,2 39,0 - 86,8 
+Holdings e outros (48,9) (38,0) + 28,5 (315,6) (105,2) + 200,1 
+Combinação de negócios (62,9) (48,0) + 31,0 (193,6) 1,3 - 
+Lucro líquido 648,4 727,1 - 10,8 2.164,9 2.517,1 - 14,0 
+ 
+(1) ETE Consol considera os impactos da combinação de negócios pela aquisição Grupo Gemini.
+
+[p. 47]
+47 
+G R U P O EN ER G I SA 
+D I V U L G A Ç Ã O R E S U L T A D O S 
+3T25 
+ 
+A.5 Debêntures espelho 
+ 
+Debêntures Privadas das distribuidoras 
+com a Controladora Energisa S.A. 
+Data da 
+Captação 
+Valor de 
+emissão 
+(R$ 
+milhões) 
+Saldo da 
+Dívida em 
+setembro/25 Data Vencimento Index Spread (a.a.) 
+ 
+ 
+ 
+ 
+ESA 22ª Emissão – CVM – 160 (1): 15/09/2024 730,00 764,1 15/09/2034 IPCA IPCA + 6,44% 
+✓ EAC 5ª Emissão 14/09/2024 115,0 120,4 14/09/2034 IPCA IPCA + 6,44% 
+✓ EAP 1ª Emissão 14/09/2024 100,0 104,7 14/09/2034 IPCA IPCA + 6,44% 
+✓ EMR 17ª Emissão 14/09/2024 100,0 104,7 14/09/2034 IPCA IPCA + 6,44% 
+✓ EMT 21ª Emissão 14/09/2024 50,0 52,3 14/09/2034 IPCA IPCA + 6,44% 
+✓ EPB 15ª Emissão 14/09/2024 45,0 47,1 14/09/2034 IPCA IPCA + 6,44% 
+✓ ERO 11ª Emissão 14/09/2024 150,0 157,0 14/09/2034 IPCA IPCA + 6,44% 
+✓ ESS 13ª Emissão 14/09/2024 170,0 177,9 14/09/2034 IPCA IPCA + 6,44% 
+ESA 20ª Emissão – CVM – 160 (1): 15/04/2024 1.440,00 1.578,1 1ª série: 15/04/2031 2ª série: 15/04/2039 IPCA 1ª série: IPCA + 6,16% 2ª série: IPCA + 6,40% 
+✓ EMR 16ª Emissão 15/04/2024 150,0 164,4 1ª série: 13/04/2031 2ª série: 13/04/2039 IPCA 1ª série: IPCA + 6,16% 2ª série: IPCA + 6,40% 
+✓ EMT 19ª Emissão 15/04/2024 240,0 263,0 1ª série: 13/04/2031 2ª série: 13/04/2039 IPCA 1ª série: IPCA + 6,16% 2ª série: IPCA + 6,40% 
+✓ EMS 22ª Emissão 15/04/2024 180,0 197,3 1ª série: 13/04/2031 2ª série: 13/04/2039 IPCA 1ª série: IPCA + 6,16% 2ª série: IPCA + 6,40% 
+✓ ETO 11ª Emissão 15/04/2024 450,0 493,1 1ª série: 13/04/2031 2ª série: 13/04/2039 IPCA 1ª série: IPCA + 6,16% 2ª série: IPCA + 6,40% 
+✓ ERO 10ª Emissão 15/04/2024 250,0 274,0 1ª série: 13/04/2031 2ª série: 13/04/2039 IPCA 1ª série: IPCA + 6,16% 2ª série: IPCA + 6,40% 
+✓ ESS 11ª Emissão 15/04/2024 50,0 54,8 1ª série: 13/04/2031 2ª série: 13/04/2039 IPCA 1ª série: IPCA + 6,16% 2ª série: IPCA + 6,40% 
+✓ ESE 13ª Emissão 15/04/2024 120,0 131,5 1ª série: 13/04/2031 2ª série: 13/04/2039 IPCA 1ª série: IPCA + 6,16% 2ª série: IPCA + 6,40% 
+ESA 19ª Emissão – CVM – 160 (1): 15/09/2023 1.227,0 1.345,3 1ª série: 15/09/2030 2ª série: 15/09/2033 IPCA 1ª série: IPCA + 6,16% 2ª série: IPCA + 6,45% 
+✓ ERO 8ª Emissão 
+13/09/2023 200,0 219,3 1ª série:13/09/2030 2ª série:13/09/2033 IPCA 1ª série IPCA + 6,16% 2ª série IPCA + 6,45% 
+✓ EMR 15ª Emissão 
+13/09/2023 90,0 98,7 1ª série:13/09/2030 2ª série:13/09/2033 IPCA 1ª série IPCA + 6,16% 2ª série IPCA + 6,45% 
+✓ EMT 16ª Emissão 
+13/09/2023 150,0 164,5 1ª série:13/09/2030 2ª série:13/09/2033 IPCA 1ª série IPCA + 6,16% 2ª série IPCA + 6,45% 
+✓ ESS 10ª Emissão 
+13/09/2023 42,0 46,1 1ª série:13/09/2030 2ª série:13/09/2033 IPCA 1ª série IPCA + 6,16% 2ª série IPCA + 6,45% 
+✓ ETE 6ª Emissão 
+13/09/2023 90,0 98,7 1ª série:13/09/2030 2ª série:13/09/2033 IPCA 1ª série IPCA + 6,16% 2ª série IPCA + 6,45%
+
+[p. 48]
+48 
+G R U P O EN ER G I SA 
+D I V U L G A Ç Ã O R E S U L T A D O S 
+3T25 
+Debêntures Privadas das distribuidoras 
+com a Controladora Energisa S.A. 
+Data da 
+Captação 
+Valor de 
+emissão 
+(R$ 
+milhões) 
+Saldo da 
+Dívida em 
+setembro/25 Data Vencimento Index Spread (a.a.) 
+ 
+ 
+ 
+ 
+✓ EPB 12ª Emissão 
+13/09/2023 145,0 159,0 1ª série:13/09/2030 2ª série:13/09/2033 IPCA 1ª série IPCA + 6,16% 2ª série IPCA + 6,45% 
+✓ EAC 4ª Emissão 
+13/09/2023 142,0 155,7 1ª série:13/09/2030 2ª série:13/09/2033 IPCA 1ª série IPCA + 6,16% 2ª série IPCA + 6,45% 
+✓ ESE 12ª Emissão 
+13/09/2023 90,0 98,7 1ª série:13/09/2030 2ª série:13/09/2033 IPCA 1ª série IPCA + 6,16% 2ª série IPCA + 6,45% 
+✓ EMS 20ª Emissão 
+13/09/2023 200,0 219,3 1ª série:13/09/2030 2ª série:13/09/2033 IPCA 1ª série IPCA + 6,16% 2ª série IPCA + 6,45% 
+✓ ETO 10ª Emissão 13/09/2023 78,0 85,5 1ª série:13/09/2030 2ª série:13/09/2033 IPCA 1ª série IPCA + 6,16% 2ª série IPCA + 6,45% 
+ESA 16ª Emissão - CVM 476: 15/04/2022 500,0 590,9 1ª série:15/04/2029 2ª série: 15/04/2032 IPCA 1ª série: IPCA + 6,16% 2ª série: IPCA + 6,28% 
+✓ ERO 7ª Emissão 15/04/2022 410,0 484,6 1ª série: 13/04/2029 2ª série: 13/04/2032 IPCA 1ª série IPCA + 6,16% 2ª série IPCA + 6,28% 
+✓ ETO 8ª Emissão 15/04/2022 90,0 106,4 1ª série: 13/04/2029 2ª série: 13/04/2032 IPCA 1ª série IPCA + 6,16% 2ª série IPCA + 6,28% 
+ESA 15ª Emissão - CVM 476: (1) 15/10/2021 330,0 415,1 15/10/2031 IPCA IPCA + 6,09% 
+✓ EPB 10ª Emissão 15/10/2021 54,6 68,7 13/10/2031 IPCA IPCA + 6,09% 
+✓ ETO 7ª Emissão 15/10/2021 82,0 103,1 13/10/2031 IPCA IPCA + 6,09% 
+✓ ESE 10ª Emissão 15/10/2021 59,0 74,1 13/10/2031 IPCA IPCA + 6,09% 
+✓ ERO 6ª Emissão 15/10/2021 92,8 116,7 13/10/2031 IPCA IPCA + 6,09% 
+✓ EAM 1ª Emissão 15/10/2021 41,6 52,4 13/10/2031 IPCA IPCA + 6,09% 
+ESA 14ª Emissão - CVM 476: 15/10/2020 480,0 662,2 1a série: 15/10/2027 2a série: 15/10/2030 IPCA 1a série: IPCA + 4,23% 2a série: IPCA + 4,475% 
+✓ EMS 15ª Emissão 11/10/2020 75,0 103,5 1a série: 11/10/2027 2a série: 11/10/2030 IPCA 1a série: IPCA + 4,23% 2a série: IPCA + 4,475% 
+✓ EMG 13ª Emissão 11/10/2020 35,0 48,3 1a série: 11/10/2027 2a série: 11/10/2030 IPCA 1a série: IPCA + 4,23% 2a série: IPCA + 4,475% 
+✓ ENF 2ª Emissão 11/10/2020 10,0 13,8 1a série: 11/10/2027 2a série: 11/10/2030 IPCA 1a série: IPCA + 4,23% 2a série: IPCA + 4,475% 
+✓ ETO 6ª Emissão 11/10/2020 60,0 82,8 1a série: 11/10/2027 2a série: 11/10/2030 IPCA 1a série: IPCA + 4,23% 2a série: IPCA + 4,475% 
+✓ ERO 3ª Emissão 11/10/2020 85,0 117,3 1a série: 11/10/2027 2a série: 11/10/2030 IPCA 1a série: IPCA + 4,23% 2a série: IPCA + 4,475% 
+✓ EAC 2ª Emissão 11/10/2020 40,0 55,2 1a série: 11/10/2027 2a série: 11/10/2030 IPCA 1a série: IPCA + 4,23% 2a série: IPCA + 4,475% 
+✓ EPB 9ª Emissão 11/10/2020 70,0 96,6 1a série: 11/10/2027 2a série: 11/10/2030 IPCA 1a série: IPCA + 4,23% 2a série: IPCA + 4,475% 
+✓ ESE 9ª Emissão 11/10/2020 30,0 41,4 1a série: 11/10/2027 2a série: 11/10/2030 IPCA 1a série: IPCA + 4,23% 2a série: IPCA + 4,475% 
+✓ ESS 6ª Emissão 11/10/2020 60,0 82,8 1a série: 11/10/2027 2a série: 11/10/2030 IPCA 1a série: IPCA + 4,23% 2a série: IPCA + 4,475% 
+✓ EBO 5ª Emissão 11/10/2020 15,0 20,7 1a série: 11/10/2027 2a série: 11/10/2030 IPCA 1a série: IPCA + 4,23% 2a série: IPCA + 4,475% 
+ESA 11ª Emissão - CVM 476: 15/04/2019 500,0 719,1 15/04/2026 IPCA 4,62% 
+✓ EAC 1ª Emissão 14/04/2019 175,0 251,7 14/04/2026 IPCA 4,62% 
+✓ ERO 2ª Emissão 14/04/2019 325,0 467,4 14/04/2026 IPCA 4,62% 
+ESA 9ª Emissão - CVM 400: 15/10/2017 850,0 33,8 
+ 
+IPCA 
+ 
+3ª série - 15/10/2027 3ª série - IPCA+5,1074% 
+ 
+✓ EMG 9ª Emissão 15/10/2017 50,0 2,0 3ª série - 15/10/2027 IPCA 3ª série - IPCA+5,1074% 
+✓ EMT 7ª Emissão 15/10/2017 145,0 5,8 3ª série - 15/10/2027 IPCA 3ª série - IPCA+5,1074% 
+✓ EMS 9ª Emissão 15/10/2017 148,0 5,9 3ª série - 15/10/2027 IPCA 3ª série - IPCA+5,1074% 
+✓ ESS 3ª Emissão 15/10/2017 118,0 4,7 3ª série - 15/10/2027 IPCA 3ª série - IPCA+5,1074%
+
+[p. 49]
+49 
+G R U P O EN ER G I SA 
+D I V U L G A Ç Ã O R E S U L T A D O S 
+3T25 
+Debêntures Privadas das distribuidoras 
+com a Controladora Energisa S.A. 
+Data da 
+Captação 
+Valor de 
+emissão 
+(R$ 
+milhões) 
+Saldo da 
+Dívida em 
+setembro/25 Data Vencimento Index Spread (a.a.) 
+ 
+ 
+ 
+ 
+✓ ESE 5ª Emissão 15/10/2017 98,0 3,9 3ª série - 15/10/2027 IPCA 3ª série - IPCA+5,1074% 
+✓ ETO 3ª Emissão 15/10/2017 131,0 5,2 3ª série - 15/10/2027 IPCA 3ª série - IPCA+5,1074% 
+✓ EPB 3ª Emissão 15/10/2017 160,0 6,4 3ª série - 15/10/2027 IPCA 3ª série - IPCA+5,1074% 
+Total 2017-2024 6.057,0 6.108,4 
+ 
+(1) O saldo da dívida apresentado reflete apenas o montante das séries incentivadas espelhadas nas emissões privadas das concessões.
+
+[p. 50]
+D I V U L G A Ç Ã O R E S U L T A D O S 
+3T25 
+50 
+G R U P O EN ER G I SA 
+A.6 Investimento por empresa 
+ 
+ 
+ 
+Investimentos Ativo Elétrico Ativo Não Elétrico Ativos Próprios Total Obrigações Especiais Investimento Total 
+Valores em R$ milhões 3T25 3T24 Var. % 3T25 3T24 Var. % 3T25 3T24 Var. % 3T25 3T24 Var. % 3T25 3T24 Var. % 
+ Distribuidoras de energia 
+elétrica 1.391,9 1.355,8 + 2,7 78,6 64,5 + 21,9 1470,6 1.420,7 + 3,5 149,9 98,6 + 52,0 1620,5 1.519,1 + 6,7 
+EMR 78,7 68,9 + 14,2 6,3 5,0 + 26,2 85,0 73,9 + 15,0 8,8 1,9 + 363,5 93,8 75,8 + 23,8 
+ESE 66,4 63,6 + 4,4 5,0 4,4 + 14,1 71,4 68,1 + 4,9 2,0 2,0 - 2,2 73,4 70,1 + 4,7 
+EPB 96,1 127,5 - 24,6 8,2 8,8 - 7,3 104,3 136,3 - 23,5 10,2 5,3 + 92,9 114,5 141,6 - 19,1 
+EMT 545,1 331,1 + 64,6 20,9 14,1 + 48,0 565,9 345,2 + 63,9 5,4 30,5 - 82,4 571,3 375,7 + 52,1 
+EMS 183,9 181,9 + 1,1 11,1 7,6 + 46,6 195,1 189,6 + 2,9 -1,6 11,2 + 0,0 193,5 200,8 - 3,6 
+ETO 174,1 176,5 - 1,3 6,4 6,0 + 6,9 180,5 182,6 - 1,1 16,8 6,1 + 175,0 197,3 188,6 + 4,6 
+ESS 99,5 82,3 + 20,9 8,2 5,7 + 44,5 107,8 88,0 + 22,5 6,8 20,4 - 66,8 114,5 108,4 + 5,7 
+ERO 96,9 146,7 - 33,9 8,6 7,1 + 21,3 105,6 153,9 - 31,4 62,5 20,9 + 198,9 168,0 174,7 - 3,8 
+EAC 51,1 177,3 - 71,2 3,9 5,8 - 33,1 55,0 183,1 - 70,0 39,1 0,3 + 12.942,4 94,1 183,4 - 48,7 
+Transmissoras de 
+energia elétrica 62,1 154,2 - 59,7 0,3 111,1 - 99,8 62,4 265,4 - 76,5 0,0 - + 0,0 62,4 154,4 - 59,6 
+EPA I 0,1 - + 0,0 0,0 - + 0,0 0,1 - + 0,0 0,0 - + 0,0 0,1 - + 0,0 
+EPA II 0,0 - + 0,0 0,0 - + 0,0 0,1 - + 0,0 0,0 - + 0,0 0,1 - + 0,0 
+EGO I 0,1 - + 0,0 0,0 - + 0,0 0,1 - + 0,0 0,0 - + 0,0 0,1 - + 0,0 
+ETT 0,0 - + 0,0 0,0 - + 0,0 0,1 - + 0,0 0,0 - + 0,0 0,1 - + 0,0 
+ETT II (0,6) 16,4 + 0,0 - - + 0,0 -0,6 16,4 + 0,0 0,0 - + 0,0 -0,6 16,4 + 0,0 
+EAM 11,1 58,9 - 81,2 0,1 - + 0,0 11,2 58,9 - 81,1 0,0 - + 0,0 11,2 58,9 - 81,1 
+EAM II 20,7 28,7 - 27,9 - - + 0,0 20,7 28,7 - 27,9 0,0 - + 0,0 20,7 28,7 - 27,9 
+EAP (0,2) 15,0 + 0,0 - - + 0,0 -0,2 15,0 + 0,0 0,0 - + 0,0 -0,2 15,0 + 0,0 
+EPT - 0,1 + 0,0 - - + 0,0 0,0 0,1 + 0,0 0,0 - + 0,0 0,0 0,1 + 0,0 
+EMA 27,5 - - 21,6 - - + 0,0 27,5 - - 22,1 0,0 - + 0,0 27,5 - + 0,0 
+GEMINI Consolidado 3,4 35,1 + 0,0 0,1 0,1 - 99,9 3,5 35,3 - 96,9 0,0 - + 0,0 3,5 35,3 - 90,1 
+(re)energisa 51,4 - + 0,0 6,0 111,1 - 94,6 57,4 111,1 - 48,3 0,0 - + 0,0 57,4 111,1 - 48,3 
+ALSOL Consolidado 51,4 - + 0,0 - 103,7 + 0,0 51,4 103,7 - 50,4 0,0 - + 0,0 51,4 103,7 - 50,4 
+ECOM - - + 0,0 0,4 2,5 - 82,7 0,4 2,5 - 82,7 0,0 - + 0,0 0,4 2,5 - 82,7 
+ESOL Consolidado - - + 0,0 5,5 4,9 + 13,3 5,5 4,9 + 13,3 0,0 - + 0,0 5,5 4,9 + 13,3 
+Distribuição de gás 
+natural (0,0) - + 0,0 28,3 21,6 + 30,9 28,3 21,6 + 30,9 0,0 - + 0,0 28,3 21,6 + 30,9 
+ES GÁS (0,0) - + 0,0 28,3 21,6 + 30,9 28,3 21,6 + 30,9 0,0 - + 0,0 28,3 21,6 + 30,9 
+Biogás 19,1 - + 0,0 - 5,7 + 0,0 19,1 5,7 + 235,3 0,0 - + 0,0 19,1 5,7 + 235,3 
+AGRIC 19,1 - + 0,0 - 5,7 + 0,0 19,1 5,7 + 235,3 0,0 - + 0,0 19,1 5,7 + 235,3 
+Holdings e Outras 
+empresas 0,4 - + 0,0 31,4 15,4 + 104
