@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 12/11 15h57
+NOTÍCIAS E FATOS · 12/11 17h43
 
-Pernas: noticias ok 27 novas (18 consultas; descartadas: 365 veículo fora da lista, 42 sem ativo, 103 teto) · cvm ok 0 novos de 0 (0 cias casadas) · sec ok 2 novos em 3 dias
+Pernas: noticias ok 18 novas (18 consultas; descartadas: 370 veículo fora da lista, 45 sem ativo, 16 teto) · cvm ok 0 novos de 0 (0 cias casadas) · sec ok 0 novos em 3 dias
 
 ## SEC (8-K, 6-K, 10-Q, 10-K) (2)
 
@@ -32,7 +32,41 @@ Fonte: SEC EDGAR 2026-11-12
 id: E04-TSM-26000800-2026-11-12 · status: linha · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (16)
+## NOTÍCIAS COM MATERIALIDADE (19)
+
+[ATENÇÃO] E05 · PETR4 · Petrobras dá novo passo no etanol e compra transportadora por R$ 620 milhões
+Exame · 12/11 16h40 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – A Petrobras deu nesta quinta-feira, 12, um passo importante para voltar ao mercado de etanol.
+  – O movimento ajuda a revelar como a companhia pretende se posicionar em um setor que passa por uma transformação impulsionada pelo crescimento da produção de etanol de milho.
+  – A estatal anunciou um acordo para adquirir os 70% restantes da Logum Logística, por R$ 620 milhões.
+  – A companhia já possuía 30% da transportadora e, com a conclusão da operação, passará a controlar integralmente uma infraestrutura que conecta regiões produtoras aos principais centros consumidores do país.
+  – "A Petrobras não tem a intenção de entrar no agronegócio.
+  – Esse não é o negócio da Petrobras", disse Alex Gasparetto, presidente da Petrobras Biocombustível (PBio), em entrevista à EXAME durante o 4º Congresso Cerealista Brasileiro, realizado em Florianópolis (SC).
+Link: https://exame.com/agro/petrobras-da-novo-passo-no-etanol-e-compra-transportadora-por-r-620-milhoes/
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: PETR4
+Como falar: 'saiu no Exame: Petrobras dá novo passo no etanol e compra transportadora por R$ 620 milhões; confirmar o número no texto antes de repassar'
+Fonte: Exame 12/11 16h40
+id: E05-PETR4-189e023d12-2026-11-12 · status: pendente
+
+[ATENÇÃO] E05 · BBAS3 · Ação do BB (BBAS3) ainda vale a pena para quem busca dividendos?
+Estadao · 12/11 16h35 · fonte única · licença: manchete
+Link: https://www.estadao.com.br/einvestidor/onde-investir/acao-do-bb-bbas3-ainda-vale-a-pena-para-quem-busca-dividendos/
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: BBAS3
+Como falar: 'saiu no Estadao: Ação do BB (BBAS3) ainda vale a pena para quem busca dividendos?; confirmar o número no texto antes de repassar'
+Fonte: Estadao 12/11 16h35
+id: E05-BBAS3-cb3ebb811c-2026-11-12 · status: pendente
+
+[ATENÇÃO] E05 · NVDA · Nvidia CEO Jensen Huang Resigns—and the Stock Is Falling
+Barron's · 12/11 14h47 · fonte única · licença: manchete
+Link: https://www.barrons.com/articles/nvidia-stock-price-huang-affair-ceo-ouster-26c99dad
+Por que importa: troca no comando reabre a discussao de estrategia e de alocacao de capital
+Ativos: NVDA
+Como falar: 'saiu no Barron's: Nvidia CEO Jensen Huang Resigns—and the Stock Is Falling; confirmar o número no texto antes de repassar'
+Fonte: Barron's 12/11 14h47
+id: E05-NVDA-500322871c-2026-11-12 · status: pendente
 
 [ATENÇÃO] E05 · UGPA3 · Ultrapar aprova R$ 1,08 bilhão em dividendos e pagará R$ 1 por ação em dezembro
 ADVFN · 12/11 15h43 · fonte única · licença: manchete
@@ -197,7 +231,7 @@ Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir
 Ativos: BBAS3
 Como falar: 'saiu no O Globo: Banco do Brasil revê projeções e reduz dividendos em meio à alta da inadimplência no agro; confirmar o número no texto antes de repassar'
 Fonte: O Globo 11/11 21h28
-id: E05-BBAS3-317ab13fca-2026-11-12 · status: pendente
+id: E05-BBAS3-317ab13fca-2026-11-12 · status: expirado
 
 [ATENÇÃO] E05 · UGPA3 · Ultrapar anuncia pagamento de R$ 1,08 bilhão em dividendos; confira valor por ação
 Estadao · 11/11 21h26 · fonte única · licença: manchete
@@ -206,7 +240,7 @@ Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir
 Ativos: UGPA3
 Como falar: 'saiu no Estadao: Ultrapar anuncia pagamento de R$ 1,08 bilhão em dividendos; confira valor por ação; confirmar o número no texto antes de repassar'
 Fonte: Estadao 11/11 21h26
-id: E05-UGPA3-5a9e82e58f-2026-11-12 · status: pendente
+id: E05-UGPA3-5a9e82e58f-2026-11-12 · status: expirado
 
 [ATENÇÃO] E05 · UGPA3 · Ultrapar (UGPA3) aprova R$ 1,085 bilhão em dividendos; veja datas
 Estadao · 11/11 21h19 · fonte única · licença: manchete
@@ -215,7 +249,7 @@ Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir
 Ativos: UGPA3
 Como falar: 'saiu no Estadao: Ultrapar (UGPA3) aprova R$ 1,085 bilhão em dividendos; veja datas; confirmar o número no texto antes de repassar'
 Fonte: Estadao 11/11 21h19
-id: E05-UGPA3-b92b8444c8-2026-11-12 · status: pendente
+id: E05-UGPA3-b92b8444c8-2026-11-12 · status: expirado
 
 [ATENÇÃO] E05 · BBAS3 · Agronegócio cobra o preço no Banco do Brasil: inadimplência dispara, lucro desaba e dividendos entram na linha de corte
 Seu Dinheiro · 11/11 21h10 · fonte única · licença: resumo
@@ -234,8 +268,23 @@ Fonte: Seu Dinheiro 11/11 21h10
 id: E05-BBAS3-5cbb3e88ef-2026-11-12 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (21)
+## OUTRAS NOTÍCIAS (só manchete) (36)
 
+· NVDA Tim Cook for Nvidia CEO? Trump and the world ponder who's next (Reuters) https://www.reuters.com/legal/transactional/tim-cook-nvidia-ceo-trump-world-ponder-whos-next-2026-11-12/
+· USDBRL Dólar sobe forte e fecha a R$ 5,6519 com incertezas sobre o ajuste fiscal (Money Times) https://www.moneytimes.com.br/dolar-12-11-2026-davs/
+· USDBRL Dólar à vista fecha em alta de 1,58%, a R$5,6507 na venda Por Reuters (Investing.com) https://br.investing.com/news/forex-news/dolar-a-vista-fecha-em-alta-de-158-a-r56507-na-venda-2125679
+· INTC After Intel’s Worst Day on Record, CEO Lip-Bu Tan Buys $9.7 Million in Stock (Barron's) https://www.barrons.com/articles/intel-stock-insider-ceo-buy-1e10df5f
+· NVDA AMD Is Up 127% in a Year. William Blair Just Upgraded It as Nvidia Loses Its CEO (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/amd-127-william-blair-just-200535132.html
+· EQTL3 Equatorial reduz curtailment em 35% com melhoria na confiabilidade (UOL Economia) https://megawhat.uol.com.br/economia-e-politica/empresas/equatorial-reduz-curtailment-em-35-com-melhoria-na-confiabilidade/
+· NVDA Nvidia Chip Crackdown Fears Send Alibaba Shares Tumbling (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:17f6652ae094b:0-nvidia-chip-crackdown-fears-send-alibaba-shares-tumbling/
+· NVDA Intel Stocks Fall 3.49% as NVIDIA CEO Exit Clouds a $13 Billion Partnership Stake (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/intel-stocks-fall-3-49-194340237.html
+· BAC Bank of America Drops Shock Take on Victoria's Secret Stock After Rally (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/bank-america-drops-shock-victorias-194258296.html
+· AMD AMD is Trading at a Premium at 38.39X P/E: Is the Stock Still a Buy? (TradingView (Reuters)) https://www.tradingview.com/news/zacks:9042dab60094b:0-amd-is-trading-at-a-premium-at-38-39x-p-e-is-the-stock-still-a-buy/
+· BTC Adam Back Says Bitcoin Could Reach $1 Million by Late 2028. What Would Have to Happen First? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/adam-back-says-bitcoin-could-191739555.html
+· USDBRL Ouro fecha abaixo dos US$ 4 mil com alta do dólar e tensões entre EUA e Irã (Money Times) https://www.moneytimes.com.br/ouro-fecha-abaixo-dos-us-4-mil-com-alta-do-dolar-e-tensoes-entre-eua-e-ira-davs/
+· INTC Intel CEO Lip-Bu Tan on turnaround efforts amid stock slump: 'I feel called to do this' (Yahoo Finance) https://news.google.com/rss/articles/CBMi3AFBVV95cUxNTmp0em1oU1VFaW51Y1Q2TnNIM0hENVVRQ0pnV1JTRXZzRFc4cHltcmdNcmJsR2R2Z1A0TlRPUzZZYS1YWkJZcXB1MlhzTFkxVUthSTVHdnRFNjRtbWo2REViajV4T2NUanFCNVdfUE1seTdObzdHRFNTZFZuNm5vd0FhQUlMU2UyZ0E1UUFMRGhMcXcwTmwtZDlLVmNuRFpLa1dsUHlDa0ExQXNNNzVMSVp0aW5zVDRhcHJMamJYMFdfVjlKdC1OUTM5Q3RvRFpESzNrUGJSTnRWUkNw?oc=5
+· BBAS3 Banco do Brasil promete medidas para recuperar rentabilidade (CNN Brasil) https://news.google.com/rss/articles/CBMitAFBVV95cUxPNTg2MHlEazhQVzNZVW1wSFBFcFB0RnRSVjdhRmthaF95UHFNTS1BUWJUamZCazRqZWJZM0JqNmFLVmdDNzFRX0hLcnlvQ0NyT0xzSHZMem1JRm9CdDNnWFRlVjVXUFpMRmNFX0xCWWo4UlRDWUxURzF5U0NCaXFqSHhjeV9QYVlndGlPbkFYN2s5bjBBdVRwSmJfUUVabmVaQmM3NzdFTjlRMlBvWmw5RGpLLW8?oc=5
+· GOOGL OpenAI, Google, Anthropic hit with lawsuit seeking halt to frontier AI development (TradingView (Reuters)) https://news.google.com/rss/articles/CBMi5AFBVV95cUxNcEFMdGNmZlBEMkJaYkVMQWVMRVlkdnFXWlAtSVNaV2laQ3RlOEJjTzIta1VjU2xsOWIzeEtRZUM1bVNSb0tVRTEwdmZsV1JRSEluLWRTV25DRXQ2WXpUdTZuME8zVUVobmcwZi1ZbVprb3ZSZ0dMTWdHdUl2SEVvV3psamZqTnMtS3g2WnRyemNqS2MzbVF3NTRBX1VxbjI1WmpSOGtaV1o3bzBEXzN6RzQ2SGRJWGpkNE9TenFqeC1wNEg5NE9Qd3AwRkZaX0t3a1F0VXA0QmV5QVA4aUt1TjdUYjI?oc=5
 · ITUB4 MRV surpreende no balanço, mas endividamento elevado afasta Itaú BBA das ações (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/mrv-surpreende-no-balanco-mas-endividamento-elevado-afasta-itau-bba-das-acoes/
 · BBAS3 Banco do Brasil não contava com persistência do "risco moral" no agro, diz CEO (UOL Economia) https://economia.uol.com.br/noticias/reuters/2026/11/12/banco-do-brasil-nao-contava-com-persistencia-do-risco-moral-no-agro-diz-ceo.htm
 · GOOGL OpenAI, Google, Anthropic hit with lawsuit seeking halt to frontier AI development (Reuters) https://www.reuters.com/business/openai-google-anthropic-hit-with-lawsuit-seeking-halt-frontier-ai-development-2026-11-12/
