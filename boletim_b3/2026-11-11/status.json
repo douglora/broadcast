@@ -12,9 +12,9 @@
    "id": 1,
    "nome": "Renda fixa",
    "pai": null,
-   "situacao": "publicado",
-   "errata": false,
-   "atualizado_em": "2026-11-12T08:16:35.803",
+   "situacao": "republicado",
+   "errata": true,
+   "atualizado_em": "2026-11-12T10:40:06.707",
    "arquivo": "",
    "pdf": ""
   },
@@ -63,8 +63,8 @@
    "nome": "Resumo",
    "pai": 3,
    "situacao": "republicado",
-   "errata": false,
-   "atualizado_em": "2026-11-12T00:00:47.593",
+   "errata": true,
+   "atualizado_em": "2026-11-12T10:52:42.6",
    "arquivo": "BDI_03-1_20261111.pdf",
    "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-11-11/BDI_03-1_20261111.pdf"
   },
