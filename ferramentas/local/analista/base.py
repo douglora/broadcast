@@ -122,6 +122,8 @@ def ativo(ticker):
         d = ler_json(LOCAL / "ativos" / f"{tk}.json")
     if not isinstance(d, dict):
         raise SemDado(f"{tk} não está coletado: rode python3 ferramentas/local/coletar.py {tk} --pares auto")
+    from . import cvm_integral            # aqui dentro: cvm_integral importa este modulo
+    cvm_integral.conferir_empresa(tk, d)  # balanco de outra companhia nao passa (caso CMIG4)
     return d
 
 
@@ -303,8 +305,16 @@ def preco_e_valor(d, integral=None, livro=None, preco=None):
             livro.p("Valor de mercado", vm, "R$ mi", "terminal: soma de cada classe de ação pelo seu preço", data_preco, MERCADO)
             simples = preco / por_unit * acoes / 1e6
             if abs(simples / vm - 1.0) > 0.08:
-                livro.aviso(f"Valor de mercado por classe ({mi(vm)}) difere {pct(simples / vm - 1.0, 0, True)} de preço x ações "
-                            f"({mi(simples)}): há mais de uma classe de ação ou unit; a conta usa o valor por classe.")
+                a = (integral or {}).get("acoes") or {}
+                if integral and por_unit == 1 and a.get("on") and not a.get("pn"):
+                    # so ordinarias e sem unit: a diferenca nao e de classe, e o numero de acoes que mudou
+                    livro.aviso(f"Valor de mercado da tela ({mi(vm)}) difere {pct(simples / vm - 1.0, 0, True)} de preço x ações "
+                                f"da CVM de {a.get('data')} ({mi(simples)}). A empresa só tem ação ordinária: o número de ações "
+                                "mudou depois do balanço (bonificação, desdobramento ou emissão). A conta usa o valor de mercado "
+                                "da tela; confira o aviso aos acionistas.")
+                else:
+                    livro.aviso(f"Valor de mercado por classe ({mi(vm)}) difere {pct(simples / vm - 1.0, 0, True)} de preço x ações "
+                                f"({mi(simples)}): há mais de uma classe de ação ou unit; a conta usa o valor por classe.")
         else:
             for nome, outro in (("Yahoo", vm_yahoo), ("Fundamentus", vm_fund)):
                 if outro and abs(vm / outro - 1.0) > 0.08:

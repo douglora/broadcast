@@ -12,6 +12,7 @@ from __future__ import annotations
 
 import csv
 import datetime as dt
+import functools
 import io
 import re
 import zipfile
@@ -121,7 +122,11 @@ def _ler_zip(arq, tipo, ano, cds):
 RX = {
     "capex": re.compile(r"imobiliz|intang|ativos? (de|do) contrato|ativos? contratua|infraestrutura|"
                         r"concess|ativo financeiro (da concess|indeniz)|adi[cç][oõ]es? (ao|a|em)|obras em andamento", re.I),
-    "capex_fora": re.compile(r"venda|aliena|recebimento|resgate|baixa|redu[cç][aã]o de capital|dividend|aplica[cç]", re.I),
+    # "Aplicacao no imobilizado" (Engie, Energisa) e investimento; so a aplicacao FINANCEIRA fica de fora.
+    # "Concessao de adiantamento para futuro aumento de capital" (Axia) e aporte em coligada, nao obra.
+    "capex_fora": re.compile(r"venda|aliena|recebimento|resgate|baixa|redu[cç][aã]o de capital|dividend|"
+                             r"aplica[cç][^;]{0,40}financeir|t[ií]tulos e valores|aumento de capital|\bafac\b|"
+                             r"concess[aã]o de (adiantamento|empr[eé]stimo|m[uú]tuo|cr[eé]dito)", re.I),
     "div": re.compile(r"dividend|juros sobre (o )?capital|\bjcp\b|jscp|proventos pagos", re.I),
     "juros": re.compile(r"(juros|encargos)[^;]{0,70}(pagos?|liquidados?)\b|pagamentos?[^;]{0,70}\b(juros|encargos)\b|"
                         r"(amortiza[cç][aã]o|liquida[cç][aã]o) (de|dos) (juros|encargos)", re.I),
@@ -244,6 +249,98 @@ def padronizar(dem):
 def _cds(cd_cvm):
     n = str(cd_cvm).lstrip("0")
     return {n, n.zfill(6), n.zfill(5)}
+
+
+# ------------------------------------------------------------------ de quem e o ticker
+def _so_digitos(texto):
+    return re.sub(r"\D", "", str(texto or ""))
+
+
+def _versao_fca(r):
+    try:
+        v = int(r.get("Versao") or 0)
+    except ValueError:
+        v = 0
+    return ((r.get("Data_Referencia") or "").strip(), v)
+
+
+@functools.lru_cache(maxsize=None)
+def _fca(ano):
+    """Formulario Cadastral da CVM do ano: (papeis, {cnpj: (cd_cvm, nome)}). Sem o zip, vazio."""
+    arq = _zip("fca", ano)
+    papeis, geral, versoes = [], {}, {}
+    if not arq:
+        return papeis, geral
+    with zipfile.ZipFile(arq) as z:
+        for nome in z.namelist():
+            if "valor_mobiliario" in nome:
+                papeis += list(csv.DictReader(io.StringIO(z.read(nome).decode("latin-1")), delimiter=";"))
+            elif "_geral_" in nome:
+                for r in csv.DictReader(io.StringIO(z.read(nome).decode("latin-1")), delimiter=";"):
+                    cnpj = _so_digitos(r.get("CNPJ_Companhia"))
+                    if cnpj and _versao_fca(r) >= versoes.get(cnpj, ("", 0)):
+                        versoes[cnpj] = _versao_fca(r)
+                        geral[cnpj] = ((r.get("Codigo_CVM") or "").strip().lstrip("0"), (r.get("Nome_Empresarial") or "").strip())
+    return papeis, geral
+
+
+def dono_do_ticker(ticker):
+    """Companhia que declara o ticker no Formulario Cadastral da CVM: {cd_cvm, nome, cnpj, ano}.
+    Ano corrente e, se o ticker nao estiver la, o anterior; de cada companhia vale o formulario mais
+    novo e a linha sem data de fim de negociacao. None quando o cadastro nao traz o ticker, quando
+    duas companhias o declaram ou quando a CVM nao respondeu: ai nao ha o que conferir."""
+    tk = (ticker or "").upper().replace(".SA", "").strip()
+    hoje = dt.date.today()
+    for ano in (hoje.year, hoje.year - 1):
+        try:
+            papeis, geral = _fca(ano)
+        except (zipfile.BadZipFile, OSError):
+            continue
+        novo = {}
+        for r in papeis:
+            cnpj = _so_digitos(r.get("CNPJ_Companhia"))
+            if cnpj:
+                novo[cnpj] = max(novo.get(cnpj, ("", 0)), _versao_fca(r))
+        donos = {}
+        for r in papeis:
+            cnpj = _so_digitos(r.get("CNPJ_Companhia"))
+            if ((r.get("Codigo_Negociacao") or "").strip().upper() == tk and cnpj and _versao_fca(r) == novo[cnpj]
+                    and not (r.get("Data_Fim_Negociacao") or "").strip()):
+                donos[cnpj] = (r.get("Nome_Empresarial") or "").strip()
+        if len(donos) == 1:
+            cnpj, nome = next(iter(donos.items()))
+            cd, nome_geral = geral.get(cnpj, ("", ""))
+            return {"cd_cvm": cd or None, "nome": nome_geral or nome, "cnpj": cnpj, "ano": ano}
+        if donos:
+            return None
+    return None
+
+
+def conferir_empresa(ticker, d):
+    """Para a analise quando o JSON do ativo traz o balanco de OUTRA companhia. O coletor casava a
+    empresa pelo nome e trocou a Cemig (CMIG4) pela Cemig Distribuicao: EBITDA, divida e numero de
+    acoes da controlada, com o preco da holding. JSON coletado pelo cadastro ja vem conferido."""
+    cvm = d.get("cvm") or {}
+    cd = str((d.get("cvm_demonstracoes") or {}).get("cd_cvm") or cvm.get("codigo_cvm") or "").lstrip("0")
+    if not cd or str(cvm.get("casamento") or "").startswith("cadastro FCA"):
+        return
+    dono = dono_do_ticker(ticker)
+    tk = ticker.upper().replace(".SA", "")
+    escolhida = cvm.get("empresa_escolhida") or "outra companhia"
+    if not dono:
+        # BDR fora do cadastro e casado so por uma palavra do nome (o do Nubank veio como Alfa Holdings)
+        metodo = f"{cvm.get('casamento') or ''} {(d.get('fontes') or {}).get('cvm') or ''}"
+        if re.fullmatch(r"[A-Z][A-Z0-9]{3}3[1-9]", tk) and "casa_fraco" in metodo:
+            raise B.SemDado(
+                f"{tk}: é BDR e o JSON traz o balanço de {escolhida} (CVM {cd}), casada só por uma palavra do nome e fora "
+                f"do cadastro da CVM. Não é a empresa do BDR: recolete com python3 ferramentas/local/coletar.py {tk}")
+        return
+    if not dono.get("cd_cvm") or dono["cd_cvm"] == cd:
+        return
+    raise B.SemDado(
+        f"{tk}: o JSON do ativo traz o balanço de {escolhida} (CVM {cd}), mas no "
+        f"cadastro da CVM o ticker é de {dono['nome']} (CVM {dono['cd_cvm']}). Nenhum número daqui serve: "
+        f"recolete com python3 ferramentas/local/coletar.py {tk} --pares auto")
 
 
 def escala_acoes(integral):

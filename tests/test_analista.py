@@ -403,6 +403,21 @@ def test_encargos_da_divida_por_competencia(linha, entra):
     assert achou is entra
 
 
+def test_capex_le_aplicacao_no_imobilizado_e_ignora_aplicacao_financeira_e_aporte():
+    """Engie e Energisa chamam o investimento de 'Aplicacao no imobilizado': o motor lia zero e a
+    conta 'investindo no ritmo atual' nao saia. A Axia tinha aporte em coligada somado como obra."""
+    dfc = {"6.02": ["Caixa Liquido Atividades de Investimento", -9000.0],
+           "6.02.01": ["Aplicação no imobilizado e no intangível", -2566.0],
+           "6.02.02": ["Aplicações no imobilizado, intangível e ativo contratual", -4503.0],
+           "6.02.03": ["Aplicações em linhas de transmissão de energia - ativo de contrato", -384.0],
+           "6.02.04": ["Aplicações financeiras vinculadas à concessão", -465.0],
+           "6.02.05": ["Aplicação em títulos e valores mobiliários - intangível", -90.0],
+           "6.02.06": ["Concessão de adiantamento para futuro aumento de capital", -700.0],
+           "6.02.07": ["Aumento de capital em controladas - infraestrutura", -300.0]}
+    v, usados = C._soma(dfc, "6.02", C.RX["capex"], C.RX["capex_fora"], "-")
+    assert v == -(2566.0 + 4503.0 + 384.0) and len(usados) == 3
+
+
 def test_capex_pega_ativo_de_contrato_e_ignora_venda():
     dfc = {"6.02.01": ("Aquisição de imobilizado e intangível", -300.0),
            "6.02.02": ("Adições ao ativo de contrato", -200.0),
@@ -666,6 +681,108 @@ def test_numero_em_formato_brasileiro_na_linha_de_comando():
 
 # ------------------------------------------------------------------ com o dado de verdade (pula sem cache)
 TEM_TERMINAL = B.TERMINAL.exists()
+def test_valor_de_mercado_diferente_em_empresa_so_de_ordinarias_e_numero_de_acoes_velho(monkeypatch):
+    """Engie (so ON): a tela dava R$ 37,7 bi e preco x acoes da CVM de junho, R$ 30,4 bi. O aviso
+    dizia 'mais de uma classe de acao'; a causa era bonificacao depois do balanco."""
+    monkeypatch.setattr(B, "_terminal_multiplos", lambda tk: {"preco": 26.65, "mcap": 37.75e9, "preco_de": "2026-11-11"})
+    d = {"ticker": "EGIE3"}
+    so_on = {"acoes": {"total_ex_tesouraria": 1142.3e6, "data": "2026-06-30", "on": 1142.3e6, "pn": 0.0}}
+    livro = B.Livro()
+    pv = B.preco_e_valor(d, so_on, livro)
+    assert PERTO(pv["valor_mercado"], 37750.0)
+    assert len(livro.avisos) == 1 and "só tem ação ordinária" in livro.avisos[0] and "2026-06-30" in livro.avisos[0]
+    duas = {"acoes": {"total_ex_tesouraria": 1142.3e6, "data": "2026-06-30", "on": 400e6, "pn": 742.3e6}}
+    livro = B.Livro()
+    B.preco_e_valor(d, duas, livro)
+    assert "mais de uma classe" in livro.avisos[0]
+
+
+# ------------------------------------------------------------------ de quem e o ticker (caso CMIG4)
+def _zip_fca(pasta, papeis, geral):
+    """Zip no formato do Formulario Cadastral da CVM, com as duas tabelas que o motor le."""
+    import zipfile
+    cab_p = "CNPJ_Companhia;Data_Referencia;Versao;Nome_Empresarial;Codigo_Negociacao;Data_Fim_Negociacao"
+    cab_g = "CNPJ_Companhia;Data_Referencia;Versao;Nome_Empresarial;Codigo_CVM"
+    arq = pasta / "fca.zip"
+    with zipfile.ZipFile(arq, "w") as z:
+        z.writestr("fca_cia_aberta_valor_mobiliario_2026.csv", "\n".join([cab_p] + papeis).encode("latin-1"))
+        z.writestr("fca_cia_aberta_geral_2026.csv", "\n".join([cab_g] + geral).encode("latin-1"))
+    return arq
+
+
+HOLDING, CONTROLADA = "17.155.730/0001-64", "06.981.180/0001-16"
+
+
+@pytest.fixture
+def cadastro_cvm(tmp_path, monkeypatch):
+    arq = _zip_fca(tmp_path, [
+        f"{HOLDING};2026-01-01;2;CIA ENERGETICA DE MINAS GERAIS - CEMIG;CMIG4;",
+        f"{HOLDING};2026-01-01;2;CIA ENERGETICA DE MINAS GERAIS - CEMIG;CMIG3;",
+        f"{CONTROLADA};2026-01-01;1;CEMIG DISTRIBUICAO S.A.;;",
+        "11.111.111/0001-11;2026-01-01;1;EMPRESA VELHA S.A.;VELH3;2025-06-30",
+        "22.222.222/0001-22;2026-01-01;1;CSN MINERACAO S.A.;25585;",
+    ], [
+        f"{HOLDING};2026-01-01;1;NOME ANTIGO;002453",
+        f"{HOLDING};2026-01-01;2;CIA ENERGETICA DE MINAS GERAIS - CEMIG;002453",
+        f"{CONTROLADA};2026-01-01;1;CEMIG DISTRIBUICAO S.A.;020303",
+    ])
+    monkeypatch.setattr(C, "_zip", lambda tipo, ano: arq if (tipo, ano) == ("fca", ANO0) else None)
+    C._fca.cache_clear()
+    yield
+    C._fca.cache_clear()
+
+
+def test_cadastro_da_cvm_diz_de_quem_e_o_ticker(cadastro_cvm):
+    dono = C.dono_do_ticker("cmig4.SA")
+    assert dono["cd_cvm"] == "2453" and dono["cnpj"] == "17155730000164"
+    assert dono["nome"] == "CIA ENERGETICA DE MINAS GERAIS - CEMIG"        # a ultima versao do formulario
+    assert C.dono_do_ticker("VELH3") is None                               # papel com data de fim de negociacao
+    assert C.dono_do_ticker("CMIN3") is None                               # companhia preencheu o campo com outra coisa
+
+
+def test_balanco_de_controlada_no_lugar_da_holding_para_a_analise(cadastro_cvm):
+    trocado = {"cvm": {"empresa_escolhida": "CEMIG DISTRIBUIÇÃO S/A", "codigo_cvm": "20303"},
+               "cvm_demonstracoes": {"cd_cvm": "20303"}}
+    with pytest.raises(B.SemDado) as e:
+        C.conferir_empresa("CMIG4", trocado)
+    msg = str(e.value)
+    assert "CEMIG DISTRIBUIÇÃO" in msg and "2453" in msg and "coletar.py CMIG4" in msg
+    certo = {"cvm": {"codigo_cvm": "2453"}, "cvm_demonstracoes": {"cd_cvm": "002453"}}
+    assert C.conferir_empresa("CMIG4", certo) is None
+    # ticker que o cadastro nao traz e ativo sem balanco da CVM: nada a conferir
+    assert C.conferir_empresa("CMIN3", {"cvm_demonstracoes": {"cd_cvm": "25585"}}) is None
+    assert C.conferir_empresa("AAPL34", {"subjacente_us": {}}) is None
+
+
+def test_json_coletado_pelo_cadastro_nao_e_conferido_de_novo(monkeypatch):
+    monkeypatch.setattr(C, "dono_do_ticker", lambda tk: pytest.fail("nao devia consultar o cadastro"))
+    d = {"cvm": {"codigo_cvm": "2453", "casamento": "cadastro FCA 2026"}, "cvm_demonstracoes": {"cd_cvm": "2453"}}
+    assert C.conferir_empresa("CMIG4", d) is None
+
+
+def test_bdr_com_balanco_casado_por_uma_palavra_do_nome_para_a_analise(cadastro_cvm):
+    nubank = {"cvm": {"empresa_escolhida": "ALFA HOLDINGS S.A.", "codigo_cvm": "9954"},
+              "cvm_demonstracoes": {"cd_cvm": "9954"},
+              "fontes": {"cvm": "ok (0 fatos relevantes; casamento casa_fraco; empresa: ALFA HOLDINGS S.A.)"}}
+    with pytest.raises(B.SemDado) as e:
+        C.conferir_empresa("ROXO34", nubank)
+    assert "ALFA HOLDINGS" in str(e.value) and "BDR" in str(e.value)
+    # o mesmo casamento fraco em acao comum fora do cadastro segue valendo (nao ha como conferir)
+    assert C.conferir_empresa("XXXX3", dict(nubank)) is None
+
+
+def test_ativo_passa_pela_conferencia_da_empresa(tmp_path, monkeypatch, cadastro_cvm):
+    (tmp_path / "ativos").mkdir()
+    (tmp_path / "ativos" / "CMIG4.json").write_text(json.dumps(
+        {"cvm": {"empresa_escolhida": "CEMIG DISTRIBUIÇÃO S/A", "codigo_cvm": "20303"},
+         "cvm_demonstracoes": {"cd_cvm": "20303"}}), encoding="utf-8")
+    import mesa
+    monkeypatch.setattr(mesa, "baixar", lambda caminho: None)
+    monkeypatch.setattr(B, "LOCAL", tmp_path)
+    with pytest.raises(B.SemDado):
+        B.ativo("CMIG4")
+
+
 TEM_COPEL = (B.LOCAL / "ativos" / "CPLE3.json").exists() and (B.CACHE / "integral").exists()
 
 

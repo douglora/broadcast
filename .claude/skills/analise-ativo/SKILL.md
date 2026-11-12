@@ -744,6 +744,25 @@ Cada linha nasceu de um erro real. Correcao vale para todos os ativos, com teste
 - **Pagina sobrando so com o glossario (11/11).** O resumido fechava em 7 paginas com a
   ultima quase vazia. Hoje o glossario so traz o termo usado e o resumido encolhe sozinho
   para caber em 6.
+- **Balanco de outra empresa no ticker (11/11).** CMIG4 saiu com o balanco da Cemig
+  Distribuicao (controlada com registro proprio na CVM) no lugar da holding, e o BDR do
+  Nubank (ROXO34) com o da Alfa Holdings: o coletor casava a companhia pelo nome. Hoje
+  quem decide e o Formulario Cadastral da CVM, onde a propria empresa declara o ticker; o
+  nome so vale quando o cadastro nao traz o codigo, e BDR nao casa por uma palavra so. O
+  motor confere de novo em todo comando e para com "o JSON traz o balanco de ..." quando a
+  empresa nao e a dona do ticker: nao contorne, recolete. Enquanto o Actions rodar um
+  coletor antigo, `coletar.py TICKER --so-local` recoleta sem regravar o branch.
+- **Investimento zerado (11/11).** "Aplicacao no imobilizado" era descartada junto com
+  "aplicacao financeira": Engie e Energisa saiam sem investimento e com a TIR do ritmo
+  atual errada. Corrigido com teste. Investimento zero em empresa de infraestrutura e
+  defeito de leitura ate prova em contrario: confira em `analista.py balanco --dem DFC`.
+- **Numero de acoes velho (11/11).** A CVM traz as acoes do ultimo balanco; bonificacao
+  ou desdobramento depois dele (Engie, +24%) faz preco x acoes divergir da tela. A conta
+  usa o valor de mercado da tela e o aviso diz o motivo: confirme no aviso aos acionistas.
+- **Comparar TIR entre pares sem selo.** Na tabela de pares cada TIR leva o que a
+  sustenta: transmissora sem `fim` e `residual` nao e comparavel; custo da divida no teto
+  e piso; despesa grande em "outras" pode ser nao recorrente (confira no release antes de
+  concluir); "nao fecha" se escreve.
 
 ## Anexo: o que cada bloco do JSON do ativo significa
 

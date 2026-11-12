@@ -49,6 +49,7 @@ import sys
 import tempfile
 import time
 import unicodedata
+import zipfile
 from datetime import datetime, timedelta, timezone
 from urllib.parse import urljoin
 
@@ -359,12 +360,107 @@ def _linhas_ipe(ano):
     return linhas
 
 
+# ───────────────────────── CVM (cadastro: de quem e o ticker) ─────────────────────────
+# No Formulario Cadastral (FCA) a propria companhia declara os codigos de negociacao dos seus
+# papeis: e a regua oficial para saber de quem e o ticker. Casar pelo nome trocou a Cemig
+# (CMIG4) pela Cemig Distribuicao, uma controlada com registro proprio na CVM, e o BDR do
+# Nubank (ROXO34) pela Alfa Holdings. O nome so decide quando o cadastro nao traz o ticker.
+FCA_ZIP_URL = "https://dados.cvm.gov.br/dados/CIA_ABERTA/DOC/FCA/DADOS/fca_cia_aberta_{ano}.zip"
+_FCA_CACHE = {}
+
+
+def so_digitos(texto):
+    return re.sub(r"\D", "", str(texto or ""))
+
+
+def _versao_fca(row):
+    try:
+        versao = int(row.get("Versao") or 0)
+    except ValueError:
+        versao = 0
+    return ((row.get("Data_Referencia") or "").strip(), versao)
+
+
+def _ler_fca(conteudo):
+    """Zip do FCA -> {'papeis': linhas de valor mobiliario, 'geral': {cnpj: {codigo_cvm, nome}}}."""
+    papeis, geral = [], {}
+    with zipfile.ZipFile(io.BytesIO(conteudo)) as z:
+        for nome in z.namelist():
+            if "valor_mobiliario" in nome:
+                papeis += list(csv.DictReader(io.StringIO(z.read(nome).decode("latin-1")), delimiter=";"))
+            elif "_geral_" in nome:
+                for row in csv.DictReader(io.StringIO(z.read(nome).decode("latin-1")), delimiter=";"):
+                    cnpj = so_digitos(row.get("CNPJ_Companhia"))
+                    if cnpj and (cnpj not in geral or _versao_fca(row) >= geral[cnpj]["_versao"]):
+                        geral[cnpj] = {"codigo_cvm": (row.get("Codigo_CVM") or "").strip().lstrip("0"),
+                                       "nome": (row.get("Nome_Empresarial") or "").strip(),
+                                       "_versao": _versao_fca(row)}
+    return {"papeis": papeis, "geral": geral}
+
+
+def _fca(ano):
+    """Formulario Cadastral do ano. Cacheado por execucao; falha vira cadastro vazio, com registro."""
+    if ano in _FCA_CACHE:
+        return _FCA_CACHE[ano]
+    cadastro = {"papeis": [], "geral": {}}
+    try:
+        r = app.http_get(FCA_ZIP_URL.format(ano=ano), timeout=90)
+        if r is not None:
+            cadastro = _ler_fca(r.content)
+    except Exception as e:
+        app.log(f"cvm: FCA {ano} falhou ({type(e).__name__}: {e})")
+    _FCA_CACHE[ano] = cadastro
+    return cadastro
+
+
+def cadastro_do_ticker(tk, ano=None):
+    """Companhia que declara o ticker no Formulario Cadastral da CVM: {cnpj, codigo_cvm, nome, ano}.
+
+    Olha o ano corrente e, se o ticker nao estiver la, o anterior (companhia que ainda nao
+    reapresentou o formulario). De cada companhia vale so o formulario mais novo, e nele a
+    linha sem data de fim de negociacao. Devolve None quando o ticker nao aparece (ha companhia
+    que preenche o campo com outra coisa) ou quando duas companhias o declaram ativo: ai o
+    cadastro nao decide e quem escolhe e o casamento por nome.
+    """
+    tk = (tk or "").strip().upper()
+    if not tk:
+        return None
+    ano = ano or datetime.now(timezone.utc).year
+    for a in (ano, ano - 1):
+        cadastro = _fca(a)
+        mais_novo = {}
+        for row in cadastro["papeis"]:
+            cnpj = so_digitos(row.get("CNPJ_Companhia"))
+            if cnpj:
+                mais_novo[cnpj] = max(mais_novo.get(cnpj, ("", 0)), _versao_fca(row))
+        donos = {}
+        for row in cadastro["papeis"]:
+            if (row.get("Codigo_Negociacao") or "").strip().upper() != tk:
+                continue
+            cnpj = so_digitos(row.get("CNPJ_Companhia"))
+            if not cnpj or _versao_fca(row) != mais_novo[cnpj]:
+                continue
+            if (row.get("Data_Fim_Negociacao") or "").strip():
+                continue
+            donos[cnpj] = (row.get("Nome_Empresarial") or "").strip()
+        if len(donos) > 1:
+            app.log(f"cvm: FCA {a} tem {len(donos)} companhias com o ticker {tk} ativo; cadastro nao decide")
+            return None
+        if donos:
+            cnpj, nome = next(iter(donos.items()))
+            ficha = cadastro["geral"].get(cnpj) or {}
+            return {"cnpj": cnpj, "codigo_cvm": ficha.get("codigo_cvm") or None,
+                    "nome": ficha.get("nome") or nome, "ano": a}
+    return None
+
+
 def coletar_cvm(tk, nomes, fontes, limite=40):
     """Fatos relevantes e comunicados da CVM para a companhia do ticker."""
     nucleos = [nucleo_nome(n) for n in nomes if n]
     nucleos = [n for n in nucleos if n]
-    if not nucleos:
-        fontes["cvm"] = "sem nome de companhia para casar"
+    cadastro = cadastro_do_ticker(tk)
+    if not nucleos and not cadastro:
+        fontes["cvm"] = "sem nome de companhia para casar e ticker fora do cadastro da CVM"
         return {}
     hoje = datetime.now(timezone.utc)
     ano = hoje.year
@@ -401,8 +497,42 @@ def coletar_cvm(tk, nomes, fontes, limite=40):
                 return 1
         return 0
 
-    docs, metodo = [], None
-    for tentativa in (casa, casa_fraco):
+    def documento(row, empresa, nota):
+        return {
+            "empresa": empresa, "_nota": nota,
+            "categoria": (row.get("Categoria") or "").strip(),
+            "tipo": (row.get("Tipo") or "").strip(),
+            "assunto": (row.get("Assunto") or "").strip()[:240],
+            "data": (row.get("Data_Entrega") or "")[:10],
+            "link": (row.get("Link_Download") or "").strip(),
+        }
+
+    docs, metodo, outras, codigo = [], None, [], None
+    if cadastro:
+        # A companhia e a que declara o ticker no cadastro da CVM, achada pelo CNPJ: nome nao
+        # decide nada aqui (o da Cemig no IPE e "CIA ENERG MINAS GERAIS - CEMIG" e muda com o ano).
+        for row in linhas:
+            if so_digitos(row.get("CNPJ_Companhia")) != cadastro["cnpj"]:
+                continue
+            empresa = (row.get("Nome_Companhia") or "").strip() or cadastro["nome"]
+            docs.append(documento(row, empresa, 3))
+            codigo = codigo or (row.get("Codigo_CVM") or "").strip()
+        if docs:
+            docs = [{k: v for k, v in d.items() if k != "_nota"} for d in docs]
+            do_cadastro = {d["empresa"] for d in docs}
+            vistos = {}
+            for row in linhas:                      # parecidas pelo nome, so para conferencia
+                empresa = (row.get("Nome_Companhia") or "").strip()
+                if empresa and empresa not in vistos:
+                    vistos[empresa] = empresa not in do_cadastro and bool(nucleos) and casa(empresa)
+            outras = sorted(e for e, nota in vistos.items() if nota)
+            metodo = f"cadastro FCA {cadastro['ano']}"
+            codigo = cadastro.get("codigo_cvm") or codigo
+        else:
+            app.log(f"cvm: {tk} esta no cadastro (CNPJ {cadastro['cnpj']}) mas sem documento no IPE; casando pelo nome")
+    # BDR nao usa o casamento fraco: 'Nu Holdings' casava com 'Alfa Holdings' por uma palavra so.
+    tentativas = () if docs else ((casa,) if eh_bdr(tk) else (casa, casa_fraco))
+    for tentativa in tentativas:
         docs, pontuacao = [], {}
         for row in linhas:
             empresa = (row.get("Nome_Companhia") or "").strip()
@@ -413,14 +543,7 @@ def coletar_cvm(tk, nomes, fontes, limite=40):
                 nota = pontuacao[empresa] = tentativa(empresa)
             if not nota:
                 continue
-            docs.append({
-                "empresa": empresa, "_nota": nota,
-                "categoria": (row.get("Categoria") or "").strip(),
-                "tipo": (row.get("Tipo") or "").strip(),
-                "assunto": (row.get("Assunto") or "").strip()[:240],
-                "data": (row.get("Data_Entrega") or "")[:10],
-                "link": (row.get("Link_Download") or "").strip(),
-            })
+            docs.append(documento(row, empresa, nota))
         if docs:
             # Fica a empresa com o melhor casamento; no empate, a que tem mais documentos.
             # Evita trocar o Banco do Brasil pela Brasil Tecnologia ou o BTG pela BTG Commodities.
@@ -432,7 +555,7 @@ def coletar_cvm(tk, nomes, fontes, limite=40):
             escolhida = max(contagem, key=contagem.get)
             outras = sorted({d["empresa"] for d in docs if d["empresa"] != escolhida})
             docs = [{k: v for k, v in d.items() if k != "_nota"} for d in docs if d["empresa"] == escolhida]
-            metodo = tentativa.__name__
+            metodo = f"por nome ({tentativa.__name__}; ticker fora do cadastro FCA)"
             break
     docs.sort(key=lambda d: d["data"], reverse=True)
     corte = (hoje - timedelta(days=365)).strftime("%Y-%m-%d")
@@ -448,16 +571,18 @@ def coletar_cvm(tk, nomes, fontes, limite=40):
                      f"{len(resultado)} de resultado; casamento {metodo}; "
                      f"empresa: {docs[0]['empresa']}; indice IPE {indice})") if docs else (
                      f"sem documentos casados (indice IPE {indice})")
-    codigos = {}
-    for row in linhas:
-        empresa = (row.get("Nome_Companhia") or "").strip()
-        if docs and empresa == docs[0]["empresa"]:
-            codigos[empresa] = (row.get("Codigo_CVM") or "").strip()
-            break
+    if docs and not codigo:
+        for row in linhas:
+            if (row.get("Nome_Companhia") or "").strip() == docs[0]["empresa"]:
+                codigo = (row.get("Codigo_CVM") or "").strip()
+                break
+    pelo_cadastro = bool(cadastro and docs and (metodo or "").startswith("cadastro"))
     return {"fatos_relevantes": fatos, "outros_documentos": outros, "documentos_resultado": resultado,
             "empresa_escolhida": docs[0]["empresa"] if docs else None,
             "empresas_casadas": ([docs[0]["empresa"]] + outras) if docs else [],
-            "codigo_cvm": codigos.get(docs[0]["empresa"]) if docs else None}
+            "codigo_cvm": (codigo or None) if docs else None,
+            "cnpj": cadastro["cnpj"] if pelo_cadastro else None,
+            "casamento": metodo}
 
 
 # Documento anual ou societario que as vezes chega com tipo "Press-release": nao e release
