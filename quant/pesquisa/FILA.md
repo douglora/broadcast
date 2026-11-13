@@ -41,6 +41,8 @@ metodo em quant/saida/pesquisa5/BRIEF.md) e move a linha para "Testadas" com os 
 
 
 ## Testadas
+- 13/11/2026, tarde: nenhuma hipotese testavel; 7, 8, 9, 10, 12, 14, 15 e 16 seguem esperando dado novo ou sao prova viva. Nao ha item "[revisao: ...]"
+  aberto. Pregao de 13/11: robo sem negocio; so medidos: nivel e reacao 21 sinais (+R$ 49), climax 3 (-R$ 226). Prova viva rodou: indice fim do dia original 21 negocios (+R$ 69, t 2,0), variante adaptativa 17 (-R$ 63), abaixo de 60; reversao do dado 4 negocios (-R$ 332). Painel de opcoes regravado (cadeia de 12/11). Nenhuma tentativa nova (METODO: parar em vez de forcar).
 - 12/11/2026, tarde: nenhuma hipotese testavel; 7, 8, 9, 10, 12, 14, 15 e 16 seguem esperando dado novo ou sao prova viva. Nao ha item "[revisao: ...]"
   aberto. Prova viva rodou: indice fim do dia original 20 negocios (+R$ 75, t 2,1), variante adaptativa 17 (-R$ 63), abaixo de 60; reversao do dado 4 negocios (-R$ 332). Pregao de 12/11: robo sem negocio; robo cego 11 minutos (10h07 e 12h09) pela cotacao da XP em rajadas, defeito de fora, so relatado. Nenhuma tentativa nova (METODO: parar em vez de forcar).
 - 11/11/2026, tarde: nenhuma hipotese testavel; 7, 8, 9, 10, 12, 14, 15 e 16 seguem esperando dado novo ou sao prova viva. Nao ha item "[revisao: ...]"
