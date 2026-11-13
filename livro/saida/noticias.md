@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 13/11 15h31
+NOTÍCIAS E FATOS · 13/11 17h25
 
-Pernas: noticias ok 22 novas (18 consultas; descartadas: 399 veículo fora da lista, 24 sem ativo, 69 teto) · cvm ok 8 novos de 22 (10 cias casadas); 2 PDF lido em nova tentativa · sec ok 2 novos em 3 dias
+Pernas: noticias ok 16 novas (18 consultas; descartadas: 384 veículo fora da lista, 29 sem ativo, 12 teto) · cvm ok 0 novos de 22 (10 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (8)
 
@@ -108,7 +108,16 @@ Fonte: SEC EDGAR 2026-11-13
 id: E04-TSM-26000801-2026-11-13 · status: linha · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (7)
+## NOTÍCIAS COM MATERIALIDADE (8)
+
+[ATENÇÃO] E05 · MINERIO · Goldman cuts iron ore price target on China steel demand
+Investing.com · 13/11 10h20 · fonte única · licença: manchete
+Link: https://www.investing.com/news/commodities-news/goldman-cuts-iron-ore-price-target-on-china-steel-demand-93CH-5025364
+Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
+Ativos: MINERIO
+Como falar: 'saiu no Investing.com: Goldman cuts iron ore price target on China steel demand; confirmar o número no texto antes de repassar'
+Fonte: Investing.com 13/11 10h20
+id: E05-MINERIO-2c9c87b3ec-2026-11-13 · status: pendente
 
 [ATENÇÃO] E05 · DI · Santander vê PIB mais fraco e inflação mais teimosa no Brasil até 2027, mas mantém projeção para a Selic
 Money Times · 13/11 13h30 · fonte única · licença: integral
@@ -202,8 +211,23 @@ Fonte: Yahoo Finance 13/11 01h38
 id: E05-CVX-44eaaeccaa-2026-11-13 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (20)
+## OUTRAS NOTÍCIAS (só manchete) (35)
 
+· DI A Selic alta bateu? Caixa estuda aumentar juros no financiamento imobiliário (Seu Dinheiro) https://www.seudinheiro.com/2026/financas-pessoais/a-selic-alta-bateu-caixa-estuda-aumentar-juros-no-financiamento-imobiliario-julw/
+· USDBRL Dólar fecha estável, a R$ 5,65, e Ibovespa sobe com varejo e petroleiras (UOL Economia) https://economia.uol.com.br/cotacoes/noticias/redacao/2026/11/13/dolar-fecha-estavel-a-r-565-e-ibovespa-sobe-com-varejo-e-petroleiras.amp.htm
+· USDBRL Dólar à vista fecha em alta de 0,11%, a R$5,6567 na venda (UOL Economia) https://economia.uol.com.br/noticias/reuters/2026/11/13/dolar-a-vista-fecha-em-alta-de-011-a-r56567-na-venda.htm
+· NVDA Nvidia Tanks as Altman Joins Dario in AI Chip Export Ban (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/nvidia-tanks-altman-joins-dario-200730448.html
+· AMD AMDL 2X AMD ETF Tumbles 18% as AMD Sinks Amid Michael Burry’s Bearish Chip Bets (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/amdl-2x-amd-etf-tumbles-200220473.html
+· AXIA3 Leilões de energia existente movimentam R$ 14,25 bilhões; Axia e BTG lideram vendas (eixos) https://eixos.com.br/energia/leiloes-de-energia-existente-movimentam-r-1425-bilhoes-axia-e-btg-lideram-vendas/
+· NVDA Nvidia turmoil reshuffles the AI trade. Winners, losers and what investors should watch (CNBC) https://www.cnbc.com/2026/11/13/nvidia-ceo-exit-amd-broadcom-and-ai-trade-fallout-.html
+· BTC Twenty One Capital Made $1 Billion in Bitcoin Profit. 60% is Already Gone (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/twenty-one-capital-made-1-193441522.html
+· ETH VanEck Ethereum ETF 3Q 2026 — 10-Q Summary (TradingView (Reuters)) https://www.tradingview.com/news/tradingview:27f743817262c:0-vaneck-ethereum-etf-3q-2026-10-q-summary/
+· JPM Anthropic CEO Amodei speaks with JPMorgan CEO Dimon about compute commitments (CNBC) https://www.cnbc.com/video/2026/11/13/anthropic-ceo-amodei-speaks-with-jpmorgan-ceo-dimon-about-compute-commitments.html
+· AMD AMD or Intel: 1 Chip Stock Is the Clear Winner (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/amd-intel-1-chip-stock-185000434.html
+· JPM Anthropic Chief Tells Jamie Dimon He Hopes IPO Will ‘Underpromise and Overdeliver’ (The Wall Street Journal) https://www.wsj.com/finance/anthropic-chief-tells-jamie-dimon-he-hopes-ipo-will-underpromise-and-overdeliver-1ba2dd71
+· NVDA AMD Stock Has Outrun Nvidia 5X Since 2024. But There’s a Valuation Catch (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:4b25fb80d094b:0-amd-stock-has-outrun-nvidia-5x-since-2024-but-there-s-a-valuation-catch/
+· NVDA Export-banned Nvidia chips are behind China’s most powerful AI models—uh oh, Jensen! (TechCrunch) https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/
+· BTC Why Bitcoin Is Falling Today (Yahoo Finance) https://news.google.com/rss/articles/CBMilAFBVV95cUxQTXNMM3YxTGlpTGtkckZHdjRXaWVhTlhwOXk4ZGNldGJ1Z0ZnRmM4Y29CNHJ4R1cyX0dYYTNXVEV2UFh4c295OWZFdXhMNTFuQkRKcTFVZW82NUVhZ3ZHN1ZleU5uUlZIR0ctTTZFaGdCZTJXQnlWWW9MNjJ3ZjBrVGRITEF3NTNqZzRXdUc3VTBUQm8y?oc=5
 · AMD AMD: The AI Trade Just Entered Another Phase (NASDAQ:AMD) (Seeking Alpha) https://seekingalpha.com/article/4967921-amd-ai-trade-just-entered-another-phase
 · PETR4 BB e Petrobras: após decepções com balanços e proventos, o que esperar para ações? (InfoMoney) https://www.infomoney.com.br/mercados/banco-do-brasil-bbas3-e-petrobras-petr3-petr4-apos-decepcoes-com-balancos-e-proventos-o-que-esperar-para-acoes/
 · TSLA Is Tesla Stock Worth Buying Now on Robotaxi & FSD Progress? (TradingView (Reuters)) https://www.tradingview.com/news/zacks:788f9c0cc094b:0-is-tesla-stock-worth-buying-now-on-robotaxi-fsd-progress/
