@@ -6,14 +6,18 @@
  "paginas": 1,
  "colunas": [{"nome": "TckrSymb", "titulo": "Ação"}, {"nome": "Cod", "titulo": "Código"}, {"nome": "Term", "titulo": "Prazo"}, {"nome": "Closing", "titulo": ""}, {"nome": "TradQty", "titulo": ""}, {"nome": "VlmTradedDay", "titulo": "Volume (R$) mil"}, {"nome": "Part", "titulo": "Participação (%)"}],
  "texto": ["Lista ações com maior volume de negociação em contratos a termo, destacando as mais ativas."],
- "situacao": "publicado",
- "atualizado_em": "2026-11-12T18:50:47.99",
+ "situacao": "republicado",
+ "atualizado_em": "2026-11-13T02:12:25.077",
  "truncada": false,
  "linhas": [
   ["FII HSI MALLCI  ER", "CI  ER", 67, 80.77, 45000, 3634.65, 0.6653444547383911],
+  ["FII HSI MALLCI", "CI", 67, 80.77, 45000, 3634.65, 0.6653444547383911],
+  ["FII HSI MALLCI", "CI  ER", 67, 80.77, 45000, 3634.65, 0.6653444547383911],
   ["INVESTOUTIL CI", "CI", 32, 119.2, 50000, 5960, 0.73927161637599],
   ["PETROBRAS   PN      N2", "PN      N2", 32, 44.28, 71000, 3143.88, 1.0497656952539058],
   ["FII HEDGEBS CI  ER", "CI  ER", 67, 17.77, 180000, 3198.6, 2.661377818953564],
+  ["FII HEDGEBS CI", "CI  ER", 67, 17.77, 180000, 3198.6, 2.661377818953564],
+  ["FII HEDGEBS CI", "CI", 67, 17.77, 180000, 3198.6, 2.661377818953564],
   ["ASSAI       ON      NM", "ON      NM", 90, 9.82, 3000000, 29460, 44.3562969825594]
  ]
 }

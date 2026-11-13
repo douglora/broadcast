@@ -7,7 +7,7 @@
  "colunas": [{"nome": "TckrSymb", "titulo": "Emissor"}, {"nome": "Code", "titulo": "Código ISIN"}, {"nome": "EarningsType", "titulo": "Tipo de provento"}, {"nome": "DateAge", "titulo": "Data de aprovação"}, {"nome": "Value", "titulo": "Valor (R$)"}, {"nome": "CreditDate", "titulo": "Data de crédito"}],
  "texto": ["Crédito de proventos é o montante recebido por investidores como retorno sobre investimentos em ações ou outros ativos de renda variável. Nesta tabela, estão informações sobre esses rendimentos."],
  "situacao": "republicado",
- "atualizado_em": "2026-11-12T21:40:44.343",
+ "atualizado_em": "2026-11-13T04:01:58.317",
  "truncada": false,
  "linhas": [
   ["ITAU CREDITO IMOBILIARIO CDI FII RESP LIM", "BRICDIR10M16 108", "RENDIMENTO", "2026-10-30", 1.07, "2026-11-12"],
