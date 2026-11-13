@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-11-12T19:05:37Z",
+ "gerado_em": "2026-11-13T00:51:47Z",
  "cliente_http": "curl_cffi",
  "livro": [
   "EQTL3",
@@ -23,41 +23,6 @@
   "CURY3"
  ],
  "pregoes": {
-  "2026-11-10": {
-   "completo": true,
-   "faltam": [],
-   "boletim": "publicado",
-   "sinais": 27,
-   "tabelas": 47,
-   "arquivos": [
-    "DerivativesOpenPosition",
-    "InstrumentsConsolidated",
-    "TradeInformationConsolidated",
-    "TradeInformationConsolidatedAfterHours"
-   ],
-   "rf_cadastro": {
-    "papeis_no_dia": 1629,
-    "consultados": 0,
-    "achados": 0,
-    "sem_cadastro": 0,
-    "erros": 0,
-    "ficaram_para_depois": 0,
-    "no_cache": 3775
-   },
-   "anbima": {
-    "situacao": "publicado",
-    "data": "2026-11-10",
-    "papeis": 1267,
-    "publicado_em": "2026-11-11T19:52:34",
-    "comparado_com": "2026-11-09",
-    "tentativas": {
-     "2026-11-10": "publicado",
-     "2026-11-09": "publicado"
-    }
-   },
-   "falhas": {},
-   "segundos": 46
-  },
   "2026-11-11": {
    "completo": true,
    "faltam": [],
@@ -91,10 +56,51 @@
     }
    },
    "falhas": {},
-   "segundos": 47
+   "segundos": 127
+  },
+  "2026-11-12": {
+   "completo": false,
+   "faltam": [
+    "DerivativesOpenPosition",
+    "BTBLendingOpenPosition",
+    "BTBLoanBalance",
+    "AnalyticalFramework2"
+   ],
+   "boletim": "publicando",
+   "sinais": 11,
+   "tabelas": 47,
+   "arquivos": [
+    "InstrumentsConsolidated",
+    "TradeInformationConsolidated",
+    "TradeInformationConsolidatedAfterHours"
+   ],
+   "rf_cadastro": {
+    "papeis_no_dia": 1488,
+    "consultados": 15,
+    "achados": 13,
+    "sem_cadastro": 2,
+    "erros": 0,
+    "ficaram_para_depois": 0,
+    "no_cache": 3785
+   },
+   "anbima": {
+    "situacao": "publicado",
+    "data": "2026-11-12",
+    "papeis": 1267,
+    "publicado_em": "2026-11-12T19:53:32",
+    "comparado_com": "2026-11-11",
+    "tentativas": {
+     "2026-11-12": "publicado",
+     "2026-11-11": "publicado"
+    }
+   },
+   "falhas": {
+    "DerivativesOpenPosition": "arquivo DerivativesOpenPosition: token HTTP 400"
+   },
+   "segundos": 111
   }
  },
  "falhas": [],
  "versao": 2,
- "ultimo_pregao": "2026-11-11"
+ "ultimo_pregao": "2026-11-12"
 }
