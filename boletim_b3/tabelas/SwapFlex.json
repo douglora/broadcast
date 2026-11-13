@@ -1,5 +1,5 @@
 {
- "pregao": "2026-11-11",
+ "pregao": "2026-11-12",
  "nome": "SwapFlex",
  "titulo": "Swap",
  "sla": "3:00:00",
@@ -7,17 +7,18 @@
  "colunas": [{"nome": "TckrSymb", "titulo": "Código IF"}, {"nome": "DueDate", "titulo": "Vencimento"}, {"nome": "NmbrBusinesses", "titulo": "Número de negócios"}, {"nome": "NationalVol", "titulo": "Volume (R$)"}, {"nome": "AvrgDailyRate", "titulo": "Taxa média diária"}],
  "texto": ["Informações sobre contratos de swap de renda fixa, incluindo volumes e tipos de operações realizadas. Os detalhes sobre as regras utilizadas, bem como a definição de cada um dos campos, estão disponíveis no <a href=\"https://www.b3.com.br/data/files/70/F3/F6/C4/73E609105FE89209AC094EA8/Glossario%20do%20BDI_v3.pdf\">Glossário</a>."],
  "situacao": "publicado",
- "atualizado_em": "2026-11-11T22:00:45.123",
+ "atualizado_em": "2026-11-13T15:27:21.457",
  "truncada": false,
  "linhas": [
-  ["DI1 x PRE", "2031-11-10", 1, 100000, 16],
-  ["DI1 x PRE", "2032-11-11", 1, 75000, 14.01],
-  ["DI1 x PRE", "2033-01-03", 1, 500000, 14.55],
-  ["DI1 x PRE", "2033-05-04", 1, 100000, 14.25],
-  ["DI1 x PRE", "2033-11-11", 2, 114000, 14.03],
-  ["DI1 x PRE", "2035-01-02", 12, 1865000, 14.6297],
-  ["DI1 x PRE", "2036-10-17", 3, 420000, 19.65],
-  ["DI1 x PRE", "2036-11-11", 11, 1020000, 16.303],
-  ["DI1 x PRE", "2041-11-08", 5, 570000, 14.6895]
+  ["DI1 x PRE", "2029-11-14", 1, 140000, 15.77],
+  ["DI1 x PRE", "2030-11-14", 2, 280000, 15.95],
+  ["DI1 x PRE", "2033-01-03", 1, 50000, 14.74],
+  ["DI1 x PRE", "2033-11-14", 3, 250000, 17.488],
+  ["DI1 x PRE", "2035-01-02", 14, 2030000, 14.936],
+  ["DI1 x PRE", "2036-10-17", 1, 85000, 20.06],
+  ["DI1 x PRE", "2036-11-12", 8, 1160000, 15.6597],
+  ["DI1 x PRE", "2041-11-05", 1, 50000, 14.91],
+  ["DI1 x PRE", "2041-11-08", 1, 160000, 14.91],
+  ["DI1 x PRE", "2041-11-12", 5, 1400000, 14.6793]
  ]
 }

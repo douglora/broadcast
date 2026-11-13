@@ -1,6 +1,6 @@
 {
  "pregao": "2026-11-12",
- "coletado_em": "2026-11-13T11:52:14Z",
+ "coletado_em": "2026-11-13T18:43:28Z",
  "tabelas": {
   "SharesInvesVolum": {
    "titulo": "Participação dos investidores",
@@ -21,7 +21,7 @@
   "EconomicIndicators": {
    "titulo": "Indicadores econômicos",
    "situacao": "republicado",
-   "atualizado_em": "2026-11-13T08:43:31.73",
+   "atualizado_em": "2026-11-13T15:03:11.797",
    "sla": "8:00:00",
    "linhas": 434,
    "truncada": false
@@ -39,31 +39,31 @@
    "situacao": "publicado",
    "atualizado_em": "2026-11-12T00:01:48.973",
    "sla": "20:00:00",
-   "linhas": 0,
+   "linhas": 99,
    "truncada": false
   },
   "DailyAverageStocks": {
    "titulo": "Ações",
-   "situacao": "atrasado",
-   "atualizado_em": "2026-11-13T00:00:46.803",
+   "situacao": "publicado",
+   "atualizado_em": "2026-11-13T15:02:07.98",
    "sla": "20:00:00",
-   "linhas": 0,
+   "linhas": 9,
    "truncada": false
   },
   "StocksOperationSummary": {
    "titulo": "Ações - resumo das operações",
-   "situacao": "atrasado",
-   "atualizado_em": "2026-11-13T00:00:46.803",
+   "situacao": "publicado",
+   "atualizado_em": "2026-11-13T14:27:58.8",
    "sla": "20:00:00",
-   "linhas": 0,
+   "linhas": 57,
    "truncada": false
   },
   "AverageChart": {
    "titulo": "Médias diárias – volume em um ano (R$ em milhões)",
-   "situacao": "publicado",
-   "atualizado_em": "2026-11-12T00:01:47.203",
+   "situacao": "republicado",
+   "atualizado_em": "2026-11-13T15:03:28.46",
    "sla": "20:00:00",
-   "linhas": 12,
+   "linhas": 13,
    "truncada": false
   },
   "IOPV": {
@@ -76,10 +76,10 @@
   },
   "ForwardMarket": {
    "titulo": "Mercado a termo",
-   "situacao": "atrasado",
-   "atualizado_em": "2026-11-13T00:00:46.803",
+   "situacao": "publicado",
+   "atualizado_em": "2026-11-13T15:01:55.41",
    "sla": "20:00:00",
-   "linhas": 0,
+   "linhas": 170,
    "truncada": false
   },
   "NegotiStrategi": {
@@ -92,18 +92,18 @@
   },
   "IbovespaStockBiggestHighs": {
    "titulo": "Ações do IBOVESPA - maiores altas",
-   "situacao": "atrasado",
-   "atualizado_em": "2026-11-13T08:04:36.82",
+   "situacao": "publicado",
+   "atualizado_em": "2026-11-13T15:02:08.263",
    "sla": "8:00:00",
-   "linhas": 0,
+   "linhas": 10,
    "truncada": false
   },
   "IbovespaStockBiggestLow": {
    "titulo": "Ações do IBOVESPA - maiores baixas",
-   "situacao": "atrasado",
-   "atualizado_em": "2026-11-13T08:04:36.82",
+   "situacao": "publicado",
+   "atualizado_em": "2026-11-13T15:02:08.077",
    "sla": "8:00:00",
-   "linhas": 0,
+   "linhas": 10,
    "truncada": false
   },
   "InCashMarketBiggestHighs": {
@@ -157,7 +157,7 @@
   "DailyAverageDerivatives2": {
    "titulo": "Derivativos",
    "situacao": "republicado",
-   "atualizado_em": "2026-11-13T08:42:38.897",
+   "atualizado_em": "2026-11-13T08:52:24.793",
    "sla": "6:00:00",
    "linhas": 9,
    "truncada": false
@@ -188,10 +188,10 @@
   },
   "SwapFlex": {
    "titulo": "Swap",
-   "situacao": "atrasado",
-   "atualizado_em": "2026-11-13T08:04:36.82",
+   "situacao": "publicado",
+   "atualizado_em": "2026-11-13T15:27:21.457",
    "sla": "3:00:00",
-   "linhas": 0,
+   "linhas": 10,
    "truncada": false
   },
   "EletronicTerm": {
@@ -237,7 +237,7 @@
   "ProventionCreditVariable": {
    "titulo": "Crédito de proventos",
    "situacao": "republicado",
-   "atualizado_em": "2026-11-13T08:42:51.807",
+   "atualizado_em": "2026-11-13T15:02:24.187",
    "sla": "00:00:00",
    "linhas": 47,
    "truncada": false
@@ -284,10 +284,10 @@
   },
   "DebenturesBusiness": {
    "titulo": "Negócios de VM de renda fixa realizados no Puma",
-   "situacao": "atrasado",
-   "atualizado_em": "2026-11-13T00:00:46.803",
+   "situacao": "publicado",
+   "atualizado_em": "2026-11-13T15:02:16.717",
    "sla": "20:00:00",
-   "linhas": 0,
+   "linhas": 75,
    "truncada": false
   },
   "SaleOff": {
@@ -348,10 +348,10 @@
   },
   "PreviaQuadrimestral": {
    "titulo": "Composição das carteiras de índices",
-   "situacao": "publicado",
-   "atualizado_em": "2026-11-12T00:01:49.09",
+   "situacao": "republicado",
+   "atualizado_em": "2026-11-13T15:03:36.18",
    "sla": "21:00:00",
-   "linhas": 0,
+   "linhas": 2253,
    "truncada": false
   },
   "Previa": {
@@ -365,9 +365,9 @@
   "Trade": {
    "titulo": "Negócio a negócio",
    "situacao": "republicado",
-   "atualizado_em": "2026-11-12T20:51:24.023",
+   "atualizado_em": "2026-11-13T12:10:08.51",
    "sla": "18:00:00",
-   "linhas": 26503,
+   "linhas": 26588,
    "truncada": false
   },
   "BTBTrade": {
@@ -407,7 +407,7 @@
  },
  "falhas": {},
  "rf_cadastro": {
-  "papeis_no_dia": 1488,
+  "papeis_no_dia": 1466,
   "consultados": 0,
   "achados": 0,
   "sem_cadastro": 0,

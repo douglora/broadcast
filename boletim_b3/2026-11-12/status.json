@@ -1,20 +1,20 @@
 {
  "pregao": "2026-11-12",
- "situacao": "atrasado",
+ "situacao": "publicado",
  "errata": false,
- "atualizado_em": "2026-11-13T08:43:31.73",
+ "atualizado_em": "2026-11-13T00:00:00",
  "completo": {
-  "arquivo": "",
-  "pdf": ""
+  "arquivo": "BDI_00_20261112.pdf",
+  "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-11-12/BDI_00_20261112.pdf"
  },
  "cadernos": [
   {
    "id": 1,
    "nome": "Renda fixa",
    "pai": null,
-   "situacao": "",
-   "errata": false,
-   "atualizado_em": "2026-11-13T08:40:07.513",
+   "situacao": "publicado",
+   "errata": true,
+   "atualizado_em": "2026-11-13T15:02:16.717",
    "arquivo": "",
    "pdf": ""
   },
@@ -32,19 +32,19 @@
    "id": 21,
    "nome": "Resumo de ações",
    "pai": 20,
-   "situacao": "atrasado",
+   "situacao": "republicado",
    "errata": false,
-   "atualizado_em": "2026-11-13T00:00:46.803",
-   "arquivo": "",
-   "pdf": ""
+   "atualizado_em": "2026-11-13T15:03:28.46",
+   "arquivo": "BDI_02-1_20261112.pdf",
+   "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-11-12/BDI_02-1_20261112.pdf"
   },
   {
    "id": 2,
    "nome": "Indicadores e informativos",
    "pai": 20,
-   "situacao": "atrasado",
-   "errata": false,
-   "atualizado_em": "2026-11-13T08:43:31.73",
+   "situacao": "publicado",
+   "errata": true,
+   "atualizado_em": "2026-11-13T15:03:36.18",
    "arquivo": "",
    "pdf": ""
   },
@@ -52,11 +52,11 @@
    "id": 23,
    "nome": "Maiores oscilações",
    "pai": 20,
-   "situacao": "atrasado",
+   "situacao": "republicado",
    "errata": false,
-   "atualizado_em": "2026-11-13T08:04:36.82",
-   "arquivo": "",
-   "pdf": ""
+   "atualizado_em": "2026-11-13T15:02:08.263",
+   "arquivo": "BDI_02-3_20261112.pdf",
+   "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-11-12/BDI_02-3_20261112.pdf"
   },
   {
    "id": 31,
@@ -72,11 +72,11 @@
    "id": 33,
    "nome": "Derivativos de balcão",
    "pai": 3,
-   "situacao": "atrasado",
+   "situacao": "publicado",
    "errata": false,
-   "atualizado_em": "2026-11-13T08:04:36.82",
-   "arquivo": "",
-   "pdf": ""
+   "atualizado_em": "2026-11-13T15:35:48.63",
+   "arquivo": "BDI_03-3_20261112.pdf",
+   "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-11-12/BDI_03-3_20261112.pdf"
   },
   {
    "id": 34,
@@ -92,9 +92,9 @@
    "id": 41,
    "nome": "Clearing e depositária",
    "pai": 4,
-   "situacao": "publicado",
-   "errata": false,
-   "atualizado_em": "2026-11-13T08:42:51.807",
+   "situacao": "republicado",
+   "errata": true,
+   "atualizado_em": "2026-11-13T15:02:24.187",
    "arquivo": "",
    "pdf": ""
   },
