@@ -1,6 +1,6 @@
-ALERTAS · Fechamento 18h
+ALERTAS · intradia
 
-[CRÍTICO] CURVA · C01 A curva ABRIU: F29 +19 bps no dia · F30 +20 bps no dia · F32 +23 bps no dia (ajuste B3 12/11) / C04 IPCA+ 2029 volta abaixo de 7,50% real: 7,46% (-5 bps), base 11/11 / C05 Pre 2029 ABRE 15 bps (PU -0,2%) · Pre 2032 ABRE 19 bps (PU -0,8%) (base 12/11)
+(pendente de slot anterior) [CRÍTICO] CURVA · C01 A curva ABRIU: F29 +19 bps no dia · F30 +20 bps no dia · F32 +23 bps no dia (ajuste B3 12/11) / C04 IPCA+ 2029 volta abaixo de 7,50% real: 7,46% (-5 bps), base 11/11 / C05 Pre 2029 ABRE 15 bps (PU -0,2%) · Pre 2032 ABRE 19 bps (PU -0,8%) (base 12/11)
 DI F28 14,28 (+10) · F29 14,74 (+19) · F30 14,98 (+20) · F32 15,18 (+23) · F35 15,25 (+24)
 Inclinação F35-F28 +97 bps (+14)
 PU R$ 3.996,08; cada 10 bps move ~0,3% do PU
@@ -16,83 +16,7 @@ Implícita 2031/32 (descasado): 6,81% (-19 bps na semana) vs Focus IPCA 2030 3,9
 Por que importa: a curva é o preço do dinheiro no Brasil; longo abrindo com curto parado é prêmio de risco, não Selic
 Como falar: 'o prefixado longo marcou a mercado para baixo; quem carrega até o vencimento não mudou de taxa'
 Fonte: B3 ajuste 12/11 · Tesouro Transparente base 12/11; BCB Focus · Tesouro Transparente, base 11/11 · Tesouro Transparente, base 12/11 · Treasury.gov CMT 12/11 · ajuste B3 12/11
-Push: [CRÍTICO] DI A curva ABRIU | IPCA2029 IPCA+ 2029 volta abaixo de 7,50% real | TESOURO Pre 2029 ABRE 15 bps (PU -0,2%) · Pre 2032 ABRE 19 bps (PU - +4 · detalhe na sessão
 ids: C01-DI-abriu-2026-11-12, C04-IPCA2029-baixo_7.5-2026-11-11, C05-TESOURO-abriu-2026-11-12, C07-UST-abriu-2026-11-12, C02-DI-inclinacao-2026-11-12, C03-DI-di-2026-11-12, C06-TESOURO-implicita-2026-11-12
-
-(pendente de slot anterior) [ATENÇÃO] E01 · ITSA4: resultado sai na próxima sessão (13/11)
-sex 13/11 · após o fechamento da B3 · estimado (config/calendario.yaml)
-Vol de 20 dias +55% a.a. ⇒ movimento típico de 1 dia ±3,5%
-Chega ao resultado com 1m -15% · 6m +4,5% · YTD +19%
-Consenso: não disponível (sem fonte licenciada); usar o release e o guidance anterior
-Por que importa: resultado é o evento que mais move o papel em um dia; a vol implícita e o posicionamento sobem antes e caem depois
-Como falar: 'o resultado sai amanhã; o movimento típico do papel num dia é o da vol acima, e o mercado costuma exagerar na abertura'
-Fonte: config/calendario.yaml
-ids: E01-ITSA4-D-1-2026-11-12
-
-(pendente de slot anterior) [ATENÇÃO] M01 · Agenda: IPCA de outubro (IBGE) hoje às 09:00 (12/11)
-O que está no preço: F28 14,28% · F35 15,25% · Focus IPCA 2027 4,90%
-Por que importa: evento macro de alta relevância reprecifica a curva inteira; o que importa é a surpresa contra o que está no preço
-Ativos: DI · Tesouro · USD/BRL
-Como falar: 'IPCA de outubro sai hoje; o mercado já precifica o consenso, a reação vem da surpresa'
-Fonte: config/calendario.yaml
-ids: M01-MACRO-D0_1211-2026-11-12
-
-(pendente de slot anterior) [ATENÇÃO] E04 · NVDA · 8-K: 5.02 entrada ou saida de diretor ou conselheiro
-SEC EDGAR · aceito 12/11 10h52 · 8-K
-Do documento:
-  – On November 11, 2026, the Board of Directors, or the Board, of NVIDIA Corporation accepted the resignation of Jen-Hsun Huang, as NVIDIA’s President, Chief Executive Officer and member of the Board, effective immediately.
-  – Kress, age 59, to serve as interim Chief Executive Officer, while the Board conducts a search for a new Chief Executive Officer.
-  – Kress has served as NVIDIA’s Executive Vice President and Chief Financial Officer since 2013 and will continue in that role while she serves as the interim Chief Executive Officer.
-  – On November 11, 2026, the Board appointed Harvey C.
-  – Jones, age 73, as Chair of the Board.
-  – Jones has served on the Board since 1993.
-Link: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000082/nvda-20261111.htm
-Por que importa: troca de diretor ou conselheiro reabre a discussao de estrategia
-Ativos: NVDA
-Como falar: 'a NVDA protocolou 8-K na SEC (5.02 entrada ou saida de diretor ou conselheiro)'
-Fonte: SEC EDGAR 2026-11-12
-ids: E04-NVDA-26000082-2026-11-12
-
-(pendente de slot anterior) [ATENÇÃO] E05 · UGPA3 · Ultrapar aprova R$ 1,08 bilhão em dividendos e pagará R$ 1 por ação em dezembro
-ADVFN · 12/11 15h43 · fonte única · licença: manchete
-Link: https://br.advfn.com/jornal/2026/11/ultrapar-aprova-r-1-08-bilhao-em-dividendos-e-pagara-r-1-por-acao-em-dezembro
-Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
-Ativos: UGPA3
-Como falar: 'saiu no ADVFN: Ultrapar aprova R$ 1,08 bilhão em dividendos e pagará R$ 1 por ação em dezembro; confirmar o número no texto antes de repassar'
-Fonte: ADVFN 12/11 15h43
-ids: E05-UGPA3-41804f13c5-2026-11-12
-
-(pendente de slot anterior) [ATENÇÃO] E05 · PETR4 · Petrobras e PRIO podem ter dividend yield de até 20% em 2027, estima Goldman
-InfoMoney · 12/11 14h50 · fonte única · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – Publicidade A Petrobras (PETR3; PETR4) e a PRIO (PRIO3) continuam oferecendo potencial de retorno atrativo aos acionistas, mesmo em um cenário de petróleo a US$ 75 por barril.
-  – Segundo análise do Goldman Sachs, as duas empresas podem proporcionar dividend yield (rendimento de dividendos) combinado com recompra de ações de até 20% em 2027.
-  – O banco revisou suas projeções para as petroleiras após os resultados do terceiro trimestre de 2026 (3T26), incorporando também as novas estimativas de investimentos da Petrobras e um cenário macroeconômico com real mai…
-  – O banco estima um retorno de fluxo de caixa livre (FCF yield) de 21% em 2027, considerando Brent a US$ 75 por barril e margem de refino do diesel de US$ 50 por barril.
-  – A projeção já considera investimentos de US$ 21 bilhões e pagamentos de arrendamentos de US$ 11,3 bilhões.
-  – O banco também incorporou a revisão das estimativas da companhia para 2026, quando o CAPEX passou a ser projetado entre US$ 21 bilhões e US$ 22 bilhões, ante aproximadamente US$ 17 bilhões anteriormente.
-Link: https://www.infomoney.com.br/mercados/petrobras-e-prio-podem-ter-dividend-yield-de-ate-20-em-2027-estima-goldman/
-Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
-Ativos: PETR4
-Como falar: 'saiu no InfoMoney: Petrobras e PRIO podem ter dividend yield de até 20% em 2027, estima Goldman; confirmar o número no texto antes de repassar'
-Fonte: InfoMoney 12/11 14h50
-ids: E05-PETR4-54773b6cc3-2026-11-12
-
-(pendente de slot anterior) [ATENÇÃO] E05 · NVDA · Applied Digital Sinks 8% as Nebius Outlook and NVIDIA CEO Exit Hit AI Data Center Stocks; Cipher Digital Falls 4%, TeraWulf Slides 3%
-Yahoo Finance · 12/11 13h10 · fonte única · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – - Cipher Digital and Core Scientific slid 4% and 5%, but Applied Digital's debt-heavy model left it more exposed than its bitcoin-mining-turned-AI peers.
-  – - Applied Digital's $113 million quarterly interest bill dwarfs its $66 million of base rent, and roughly 800 MW still needs funding.
-  – - It sounds nuts, but SoFi is giving new Active Invest users up to $1,000 in stock for a limited time, and all it takes is a $50 deposit to get started.
-  – Applied Digital stock is at $16.45 in Thursday morning trading, down 8%.
-  – The drop gives back the company's 7% gain on November 11, when the stock closed at $17.91.
-  – Nebius Spending Plan and NVIDIA Leadership Exit Rattle AI Landlords Nebius reported its Q3 2026 results on November 12 and issued a weak outlook.
-Link: https://finance.yahoo.com/technology/ai/articles/applied-digital-sinks-8-nebius-161011516.html
-Por que importa: troca no comando reabre a discussao de estrategia e de alocacao de capital
-Ativos: NVDA
-Como falar: 'saiu no Yahoo Finance: Applied Digital Sinks 8% as Nebius Outlook and NVIDIA CEO Exit Hit AI Data Center Stocks;…; confirmar o número no texto antes de repassar'
-Fonte: Yahoo Finance 12/11 13h10
-ids: E05-NVDA-dba12bf4fe-2026-11-12
 
 (pendente de slot anterior) [ATENÇÃO] E05 · PETR4 · Petrobras dá novo passo no etanol e compra transportadora por R$ 620 milhões
 Exame · 12/11 16h40 · fonte única · licença: resumo
@@ -128,7 +52,7 @@ Como falar: 'saiu no Barron's: Nvidia CEO Jensen Huang Resigns—and the Stock I
 Fonte: Barron's 12/11 14h47
 ids: E05-NVDA-500322871c-2026-11-12
 
-[ATENÇÃO] E05 · NVDA · AMD, Broadcom stocks jump as Nvidia CEO Jensen Huang resigns
+(pendente de slot anterior) [ATENÇÃO] E05 · NVDA · AMD, Broadcom stocks jump as Nvidia CEO Jensen Huang resigns
 Yahoo Finance · 12/11 18h23 · fonte única · licença: resumo
 Trechos (licença resumo: reescrever, não colar):
   – AMD (AMD) stock rose about 5% while Broadcom (AVGO) jumped as much as 5% Thursday morning following news that Nvidia CEO Jensen Huang resigned and the company board named CFO Colette Kress as interim chief executive off…
@@ -141,10 +65,9 @@ Por que importa: troca no comando reabre a discussao de estrategia e de alocacao
 Ativos: NVDA · AMD · AVGO
 Como falar: 'saiu no Yahoo Finance: AMD, Broadcom stocks jump as Nvidia CEO Jensen Huang resigns; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 12/11 18h23
-Push: Fechamento 18h: 2 alertas de atenção — E05 NVDA, E05 NVDA · detalhe na sessão
 ids: E05-NVDA-52b24ebf50-2026-11-12
 
-[ATENÇÃO] E05 · NVDA · Explainer: Tougher curbs on AI chip sales to China likely after Nvidia CEO resigns
+(pendente de slot anterior) [ATENÇÃO] E05 · NVDA · Explainer: Tougher curbs on AI chip sales to China likely after Nvidia CEO resigns
 Reuters · 12/11 16h08 · fonte única · licença: manchete
 Link: https://www.reuters.com/world/china/tougher-curbs-ai-chip-sales-china-likely-after-nvidia-ceo-resigns-2026-11-12/
 Por que importa: troca no comando reabre a discussao de estrategia e de alocacao de capital
@@ -153,76 +76,112 @@ Como falar: 'saiu no Reuters: Explainer: Tougher curbs on AI chip sales to China
 Fonte: Reuters 12/11 16h08
 ids: E05-NVDA-459a99d4c5-2026-11-12
 
-Info (só linha no Fechamento):
-· T01 CNDX (iShares NASDAQ 100 UCITS ETF USD (Acc)) retomou a média de 200 dias pela 2ª sessão: US$ 1.634 vs MM200 US$ 1.612 (+1,3%)
-· T04 USDBRL fechou na máxima de 52 semanas: R$ 5,6497, +13% em 1m e +7,2% em 12m
-· T02 VHYA (Vanguard FTSE All-World High Dividend Yield UCITS ETF USD Accumulating) retomou a MM50 e retomou a MM100 pela 2ª sessão: US$ 108,04, acima da MM200 (tendência longa preservada)
-· T07 USDBRL entrou em sobrecomprado: RSI14 75 a R$ 5,6497
-· E05 USDBRL · Waack: Dólar sobe e conta da demora de Lula fica mais cara
-· E05 NVDA · Nvidia suddenly changed how it reported revenue in Singapore, correlating with Megaspeed scrutiny
-· E05 BBAS3 · Banco do Brasil atribui queda no lucro principalmente à inadimplência do agronegócio; ações caíram mais de 8%
-· E05 BBAS3 · Produtores de soja rebatem Banco do Brasil sobre dívidas do agro; estatal nega ter culpado todo o setor
-· E05 USDBRL · Ibovespa cai com fiscal e balanços no radar; dólar dispara a R$5,65
-· E05 USDBRL · Dólar fecha na maior cotação desde junho de 2025
-· E05 BBAS3 · Banco do Brasil tem pior reação a um balanço em 18 meses perde R$ 8 bi na bolsa
-· E05 NVDA · Baird Cut Its Nvidia (NVDA) Target From $500 to $200. Here’s What It Wants Next
-· E05 INTC · Intel: Upgrading To 'Strong Buy' After The 38% Sell-Off (NASDAQ:INTC)
-· E05 MRVE3 · MRV espera vendas mais fortes e benefício com reforma tributária e mudança de jornada
-· E05 SAPR4 · Sanepar lucra R$ 302,5 milhões no 3º trimestre
-· E05 UST · Gold sinks to more than one-year low as Fed rate hike bets boost dollar, Treasury yields
-· E05 USDBRL · Dólar dispara 1,58% e fecha a R$ 5,65, maior nível em 17 meses
-· E05 BBAS3 · Ibovespa cai, BB (BBAS3) afunda 8% e dólar dispara: o que pesou na Bolsa?
-· E05 NOK · What Does Nokia Oyj (HLSE:NOKIA) Winning An AI Network Deal Signal?
-· T01 BTC fechou abaixo da média de 200 dias pela 1ª sessão: US$ 71.395 vs MM200 US$ 73.081 (-2,3%)
-· T03 QNTM formou death cross: MM50 US$ 27,51 cruzou abaixo da MM200 US$ 27,61 pela 2ª sessão; preço US$ 24,60, -11% da MM200, -5,5% em 12m
-· T04 BABA fechou na mínima de 52 semanas: US$ 94,49, -15% em 1m e -40% em 12m
-· T04 BBAS3 fechou na mínima de 52 semanas: R$ 15,48, -36% em 1m e -30% em 12m
-· T05 BABA -6,9% no dia a US$ 94,49: movimento de 3,2 desvios para uma vol de 20 dias de 36% a.a.
-· T08 TSM entrou em queda de -15% do pico: -17% do pico de 52s (US$ 485,80 em 05/10) a US$ 405,43
-· T06 BABA -13% em 5 sessões a US$ 94,49: movimento de 2,6 desvios para a vol de 20 dias
-· T09 BABA -6,9% com volume 2,6x a mediana de 20 sessões, a US$ 94,49
-· T10 BABA no mínimo de força relativa em 63 sessões contra FXI: -15% vs -2,3% em 20 sessões (-13% relativo)
-· T10 BBAS3 no mínimo de força relativa em 63 sessões contra IBOV: -36% vs -17% em 20 sessões (-23% relativo)
-· T11 BBAS3 descolou atrás de ITUB4: -36% vs -15% em 20 sessões (z -3,4 em 252 sessões, 2º dia)
+[ATENÇÃO] E03 · AXIA3 · Comunicado ao Mercado: Recebeu comunicado da GQG Partners LLC (“GQG Partners”), informando que, em decorrência de operações de alienação realizadas no mercado acionário, pa…
+CVM · entregue 13/11/2026 07:48 · Aquisição/Alienação de Participação Acionária Relevante / Declaração de Alienação de Participação Acionária Relevante
+Do documento:
+  – A GQG Partners declara que esse é um investimento minoritário que não tem o objetivo de alterar a  composição do controle ou a estrutura administrativa da Companhia.
+  – GQG Partners stated that its investment is a minority interest and is not intended to alter the Company’s  control structure or management structure.
+  – Eduardo Haiama    Vice Presidente of Finance and Investor Relations
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1588922
+Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; confirma ou nega o que circula
+Ativos: AXIA3
+Como falar: 'a Axia Energia publicou comunicado ao mercado sobre Recebeu comunicado da GQG Partners LLC (“GQG Partners”), informando q…'
+Fonte: CVM 13/11
+Push: intradia: 6 alertas de atenção — E03 AXIA3, E03 ALUP4, E05 DI, E05 NVDA, E05 MINERIO, S01 SISTEMA · detalhe na sessão
+ids: E03-AXIA3-1588922-2026-11-13
 
-Suprimidos pelo teto (viram linha do Fechamento): T01-BTC-perda-2026-11-12 (teto de atenção), T03-QNTM-death-2026-11-12 (teto de atenção), T04-BABA-minima-2026-11-12 (teto de atenção), T04-BBAS3-minima-2026-11-12 (teto de atenção), T05-BABA-queda-2026-11-12 (teto de atenção), T08-TSM--15-2026-11-12 (teto de atenção), T06-BABA-queda-2026-11-12 (teto de atenção), T09-BABA-queda-2026-11-12 (teto de atenção), T10-BABA-mínimo-2026-11-12 (teto de atenção), T10-BBAS3-mínimo-2026-11-12 (teto de atenção), T11-BBAS3-ITUB4_abaixo-2026-11-12 (teto de atenção)
+[ATENÇÃO] E03 · ALUP4 · Comunicado ao Mercado: ALUP11; ALUP3; ALUP4), comunica aos seus acionistas e ao mercado em geral que, nos termos do artigo 12 da Resolução da Comissão de Valores Mobiliário…
+CVM · entregue 12/11/2026 08:47 · Aquisição/Alienação de Participação Acionária Relevante / Declaração de Alienação de Participação Acionária Relevante
+Do documento:
+  – 3 Permanecemos à disposição para quaisquer esclarecimentos ou comentários adicionais que  julguem necessários quanto ao assunto.
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1588141
+Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; confirma ou nega o que circula
+Ativos: ALUP4
+Como falar: 'a Alupar publicou comunicado ao mercado sobre ALUP11; ALUP3; ALUP4), comunica aos seus acionistas e ao mercado em g…'
+Fonte: CVM 12/11
+ids: E03-ALUP4-1588141-2026-11-12
+
+[ATENÇÃO] E05 · DI · Santander vê PIB mais fraco e inflação mais teimosa no Brasil até 2027, mas mantém projeção para a Selic
+Money Times · 13/11 13h30 · fonte única · licença: integral
+Do texto:
+  – Santander vê PIB mais fraco e inflação mais teimosa no Brasil até 2027; Selic também persistente O Santander revisou para baixo suas projeções de crescimento da economia brasileira e elevou as estimativas de inflação pa…
+  – Em relatório divulgado nesta sexta-feira (13), o banco passou a projetar uma expansão do Produto Interno Bruto (PIB) de apenas 0,8% no próximo ano, ante 1,3% anteriormente.
+  – Para 2026, a estimativa de crescimento caiu de 1,8% para 1,6%.
+  – Na direção contrária, a projeção para o Índice Nacional de Preços ao Consumidor Amplo (IPCA) de 2027 subiu de 4% para 5%, enquanto a estimativa para este ano avançou de 5% para 5,3%.
+  – A projeção para os investimentos em 2027, por exemplo, passou de crescimento de 1,2% para uma contração de 0,1%.
+  – Apesar da desaceleração econômica, o Santander avalia que a inflação deve continuar pressionada, especialmente em 2027.
+Link: https://www.moneytimes.com.br/santander-ve-pib-mais-fraco-e-inflacao-mais-teimosa-no-brasil-ate-2027-selic-vai-sofrer-jcav/
+Por que importa: decisao de politica monetaria reprecifica toda a curva e o cambio
+Ativos: DI
+Como falar: 'saiu no Money Times: Santander vê PIB mais fraco e inflação mais teimosa no Brasil até 2027, mas mantém projeç…; confirmar o número no texto antes de repassar'
+Fonte: Money Times 13/11 13h30
+ids: E05-DI-2b5568e92f-2026-11-13
+
+[ATENÇÃO] E05 · NVDA · Neocloud Nscale Reveals $5.5 Billion Debt and Closer Nvidia Ties Ahead of IPO
+Bloomberg · 13/11 10h30 · fonte única · licença: manchete
+Link: https://www.bloomberg.com/news/articles/2026-11-13/neocloud-nscale-reveals-5-5-billion-debt-and-closer-nvidia-ties-ahead-of-ipo
+Por que importa: oferta de acoes ou divida altera a base acionaria ou a alavancagem
+Ativos: NVDA
+Como falar: 'saiu no Bloomberg: Neocloud Nscale Reveals $5.5 Billion Debt and Closer Nvidia Ties Ahead of IPO; confirmar o número no texto antes de repassar'
+Fonte: Bloomberg 13/11 10h30
+ids: E05-NVDA-6c60beb3b9-2026-11-13
+
+[ATENÇÃO] E05 · MINERIO · Goldman cuts iron ore price target on China steel demand By Investing.com
+Investing.com · 13/11 10h22 · fonte única · licença: manchete
+Link: https://ng.investing.com/news/stock-market-news/goldman-cuts-iron-ore-price-target-on-china-steel-demand-93CH-2806190
+Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
+Ativos: MINERIO
+Como falar: 'saiu no Investing.com: Goldman cuts iron ore price target on China steel demand By Investing.com; confirmar o número no texto antes de repassar'
+Fonte: Investing.com 13/11 10h22
+ids: E05-MINERIO-31fee815d4-2026-11-13
+
+[ATENÇÃO] S01 · coleta do slot intradia saiu incompleta: bcb: BCB devolveu 4 de 5 séries (faltaram cdi_dia)
+O que fiz: entreguei as seções disponíveis; as pernas que falharam estão em LACUNAS.
+Por que importa: silêncio é lido como 'está tudo bem'; declarar a falha é o que permite confiar no restante
+Fonte: manifest do runner
+ids: S01-SISTEMA-intradia-2026-11-13
+
+Info (só linha no Fechamento):
+· F06 BTC cai a US$ 68.870 (cruzou US$ 70.000) (parcial, intradia)
+· F06 ETH cai a US$ 1.940 (cruzou US$ 2.000) (parcial, intradia)
+· E01 ITSA4: resultado sai hoje (13/11)
+· E03 SBSP3 · Aviso aos Acionistas: Outros avisos
+· E03 SAPR4 · Comunicado ao Mercado: Apresentações a analistas/agentes do mercado
+· E03 SAPR4 · Comunicado ao Mercado: Apresentações a analistas/agentes do mercado
+· E03 UGPA3 · Comunicado ao Mercado: Apresentações a analistas/agentes do mercado
+· E03 BBAS3 · Comunicado ao Mercado: Apresentações a analistas/agentes do mercado
+· E03 PETR4 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
+· E04 NOK · 6-K: 6-K
+· E04 TSM · 6-K: 6-K
+· E05 AMD · AMD: The AI Trade Just Entered Another Phase (NASDAQ:AMD)
+· E05 PETR4 · BB e Petrobras: após decepções com balanços e proventos, o que esperar para ações?
+· E05 TSLA · Is Tesla Stock Worth Buying Now on Robotaxi & FSD Progress?
+· E05 TSLA · Tesla Pulls $42K Model Y AWD From US Website Amid Musk’s Pivot Toward Robotaxis
+· E05 BTC · Veteran economist warns investors that Bitcoin’s worst may not be over
+· E05 NVDA · AMD Stocks Fall 6.46% After 30% Weekly Surge on Nvidia Leadership Shock
+· E05 NVDA · Scott Bessent Backs Export Curbs on Nvidia Customer Megaspeed
+· E05 NVDA · Neoclouds, AI stocks slide again as Nvidia turmoil rattles sector
+· E05 NVDA · 3 U.S. AI Software Stocks Facing A New Nvidia Export Rule Test
+· E05 NVDA · NVIDIA Trades at 13 Times Forward Earnings After a 27% Slide. Wall Street Still Sees $325+
+· E05 BRENT · Brent Crude Climbs Back Above $96 as Iran Tensions Escalate
+· E05 INTC · I'm Taking A Pause Until I See Intel's Q4 2026 Numbers (Rating Downgrade) (NASDAQ:INTC)
+· E05 INTC · What Is Going On With Intel Stock After Its Earnings Call?
+· E05 MRVL · What Is Going on With Marvell Tech Stock on Friday?
+· E05 NVDA · Nvidia: A House Of Cards (Rating Downgrade) (NASDAQ:NVDA)
+· E05 PETR4 · Petrobras compra 70% da Logum por R$ 620 milhões
+· E05 JPM · Key facts: MSCI to Drop MSTR; Schiff Flags Dividend Risk; JPMorgan Buys
+· E05 MMM · 3M (MMM) Looks Fairly Valued After Its PFAS Settlement Put A Key Risk In View
+· E05 CVX · Chevron And 2 Other Dividend Stocks To Own
+
+Suprimidos pelo teto (viram linha do Fechamento): E05-PETR4-7068600cbd-2026-11-13 (teto de noticias), E05-JPM-347ca88535-2026-11-13 (teto de noticias), E05-MMM-c59ad28f5e-2026-11-13 (teto de noticias), E05-CVX-44eaaeccaa-2026-11-13 (teto de noticias)
 
 Alertas do dia (todos, com status):
-· pendente  C07 UST — UST ABRIU: 2y +13 bps · 10y +12 bps · 10y cruzou 5,00% (12/11)
-· pendente  C01 DI — A curva ABRIU: F29 +19 bps no dia · F30 +20 bps no dia · F32 +23 bps no dia (aju
-· pendente  C05 TESOURO — Pre 2029 ABRE 15 bps (PU -0,2%) · Pre 2032 ABRE 19 bps (PU -0,8%) (base 12/11)
-· pendente  C02 DI — Inclinação da curva DI: F35-F28 +14 bps no dia: bear steepening (longo abriu mai
-· pendente  C03 DI — DI em nível: F32 cruzou 15,00% (para cima, agora 15,18%)
-· pendente  C06 TESOURO — Inflação implícita: implícita 2029 +269 bps acima do Focus · implícita 2032 cruz
-· linha     T01 BTC — BTC fechou abaixo da média de 200 dias pela 1ª sessão: US$ 71.395 vs MM200 US$ 7
-· linha     T03 QNTM — QNTM formou death cross: MM50 US$ 27,51 cruzou abaixo da MM200 US$ 27,61 pela 2ª
-· linha     T04 BABA — BABA fechou na mínima de 52 semanas: US$ 94,49, -15% em 1m e -40% em 12m
-· linha     T04 BBAS3 — BBAS3 fechou na mínima de 52 semanas: R$ 15,48, -36% em 1m e -30% em 12m
-· linha     T05 BABA — BABA -6,9% no dia a US$ 94,49: movimento de 3,2 desvios para uma vol de 20 dias 
-· linha     T08 TSM — TSM entrou em queda de -15% do pico: -17% do pico de 52s (US$ 485,80 em 05/10) a
-· linha     T06 BABA — BABA -13% em 5 sessões a US$ 94,49: movimento de 2,6 desvios para a vol de 20 di
-· linha     T09 BABA — BABA -6,9% com volume 2,6x a mediana de 20 sessões, a US$ 94,49
-· linha     T10 BABA — BABA no mínimo de força relativa em 63 sessões contra FXI: -15% vs -2,3% em 20 s
-· linha     T10 BBAS3 — BBAS3 no mínimo de força relativa em 63 sessões contra IBOV: -36% vs -17% em 20 
-· linha     T11 BBAS3 — BBAS3 descolou atrás de ITUB4: -36% vs -15% em 20 sessões (z -3,4 em 252 sessões
-· pendente  E05 NVDA — NVDA · AMD, Broadcom stocks jump as Nvidia CEO Jensen Huang resigns
-· pendente  E05 NVDA — NVDA · Explainer: Tougher curbs on AI chip sales to China likely after Nvidia CE
-· pendente  E05 PETR4 — PETR4 · Petrobras dá novo passo no etanol e compra transportadora por R$ 620 mil
-· pendente  E05 BBAS3 — BBAS3 · Ação do BB (BBAS3) ainda vale a pena para quem busca dividendos?
-· pendente  E05 NVDA — NVDA · Nvidia CEO Jensen Huang Resigns—and the Stock Is Falling
-· expirado  E01 ITSA4 — ITSA4: resultado sai na próxima sessão (13/11)
-· expirado  M01 MACRO — Agenda: IPCA de outubro (IBGE) hoje às 09:00 (12/11)
-· expirado  E04 NVDA — NVDA · 8-K: 5.02 entrada ou saida de diretor ou conselheiro
-· expirado  E05 UGPA3 — UGPA3 · Ultrapar aprova R$ 1,08 bilhão em dividendos e pagará R$ 1 por ação em d
-· expirado  E05 PETR4 — PETR4 · Petrobras e PRIO podem ter dividend yield de até 20% em 2027, estima Gol
-· expirado  E05 NVDA — NVDA · Applied Digital Sinks 8% as Nebius Outlook and NVIDIA CEO Exit Hit AI Dat
-· expirado  E05 BBAS3 — BBAS3 · Banco do Brasil revê projeções e reduz dividendos em meio à alta da inad
-· expirado  E05 UGPA3 — UGPA3 · Ultrapar anuncia pagamento de R$ 1,08 bilhão em dividendos; confira valo
-· expirado  E05 UGPA3 — UGPA3 · Ultrapar (UGPA3) aprova R$ 1,085 bilhão em dividendos; veja datas
-· linha     T01 CNDX — CNDX (iShares NASDAQ 100 UCITS ETF USD (Acc)) retomou a média de 200 dias pela 2
-· linha     T04 USDBRL — USDBRL fechou na máxima de 52 semanas: R$ 5,6497, +13% em 1m e +7,2% em 12m
-· linha     T02 VHYA — VHYA (Vanguard FTSE All-World High Dividend Yield UCITS ETF USD Accumulating) re
-· linha     T07 USDBRL — USDBRL entrou em sobrecomprado: RSI14 75 a R$ 5,6497
-· linha     F03 BRENT — Brent sobe a US$ 96,12 (+3,6% no dia) (parcial, intradia)
-· linha     F01 USDBRL — Real cai: USD/BRL 5,6497 (+1,6% no dia) (parcial, intradia)
-· (+66 notícias só manchete, em noticias.md)
+· pendente  E03 AXIA3 — AXIA3 · Comunicado ao Mercado: Recebeu comunicado da GQG Partners LLC (“GQG Part
+· pendente  E03 ALUP4 — ALUP4 · Comunicado ao Mercado: ALUP11; ALUP3; ALUP4), comunica aos seus acionist
+· pendente  E05 DI — DI · Santander vê PIB mais fraco e inflação mais teimosa no Brasil até 2027, mas
+· pendente  E05 NVDA — NVDA · Neocloud Nscale Reveals $5.5 Billion Debt and Closer Nvidia Ties Ahead of
+· pendente  E05 MINERIO — MINERIO · Goldman cuts iron ore price target on China steel demand By Investing.
+· pendente  S01 SISTEMA — coleta do slot intradia saiu incompleta: bcb: BCB devolveu 4 de 5 séries (faltar
+· linha     F06 BTC — BTC cai a US$ 68.870 (cruzou US$ 70.000) (parcial, intradia)
+· linha     F06 ETH — ETH cai a US$ 1.940 (cruzou US$ 2.000) (parcial, intradia)
+· (+33 notícias só manchete, em noticias.md)

@@ -1,347 +1,226 @@
-NOTÍCIAS E FATOS · 12/11 22h45
+NOTÍCIAS E FATOS · 13/11 15h31
 
-Pernas: noticias ok 17 novas (18 consultas; descartadas: 378 veículo fora da lista, 36 sem ativo, 33 teto) · cvm ok 0 novos de 0 (0 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 22 novas (18 consultas; descartadas: 399 veículo fora da lista, 24 sem ativo, 69 teto) · cvm ok 8 novos de 22 (10 cias casadas); 2 PDF lido em nova tentativa · sec ok 2 novos em 3 dias
+
+## FATOS RELEVANTES E COMUNICADOS (CVM) (8)
+
+[ATENÇÃO] E03 · AXIA3 · Comunicado ao Mercado: Recebeu comunicado da GQG Partners LLC (“GQG Partners”), informando que, em decorrência de operações de alienação realizadas no mercado acionário, pa…
+CVM · entregue 13/11/2026 07:48 · Aquisição/Alienação de Participação Acionária Relevante / Declaração de Alienação de Participação Acionária Relevante
+Do documento:
+  – A GQG Partners declara que esse é um investimento minoritário que não tem o objetivo de alterar a  composição do controle ou a estrutura administrativa da Companhia.
+  – GQG Partners stated that its investment is a minority interest and is not intended to alter the Company’s  control structure or management structure.
+  – Eduardo Haiama    Vice Presidente of Finance and Investor Relations
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1588922
+Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; confirma ou nega o que circula
+Ativos: AXIA3
+Como falar: 'a Axia Energia publicou comunicado ao mercado sobre Recebeu comunicado da GQG Partners LLC (“GQG Partners”), informando q…'
+Fonte: CVM 13/11
+id: E03-AXIA3-1588922-2026-11-13 · status: pendente · íntegra disponível
+
+[ATENÇÃO] E03 · ALUP4 · Comunicado ao Mercado: ALUP11; ALUP3; ALUP4), comunica aos seus acionistas e ao mercado em geral que, nos termos do artigo 12 da Resolução da Comissão de Valores Mobiliário…
+CVM · entregue 12/11/2026 08:47 · Aquisição/Alienação de Participação Acionária Relevante / Declaração de Alienação de Participação Acionária Relevante
+Do documento:
+  – 3 Permanecemos à disposição para quaisquer esclarecimentos ou comentários adicionais que  julguem necessários quanto ao assunto.
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1588141
+Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; confirma ou nega o que circula
+Ativos: ALUP4
+Como falar: 'a Alupar publicou comunicado ao mercado sobre ALUP11; ALUP3; ALUP4), comunica aos seus acionistas e ao mercado em g…'
+Fonte: CVM 12/11
+id: E03-ALUP4-1588141-2026-11-12 · status: pendente · íntegra disponível
+
+[INFO] E03 · SBSP3 · Aviso aos Acionistas: Outros avisos
+CVM · entregue 12/11/2026 19:57 · Outros avisos
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1588827
+Por que importa: aviso aos acionistas traz provento, data-com ou evento societario que muda o fluxo ao acionista
+Ativos: SBSP3
+Como falar: 'a Sabesp publicou aviso aos acionistas sobre Outros avisos'
+Fonte: CVM 12/11
+id: E03-SBSP3-1588827-2026-11-12 · status: linha
+
+[INFO] E03 · SAPR4 · Comunicado ao Mercado: Apresentações a analistas/agentes do mercado
+CVM · entregue 12/11/2026 19:05 · Apresentações a analistas/agentes do mercado
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1588742
+Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; confirma ou nega o que circula
+Ativos: SAPR4
+Como falar: 'a Sanepar publicou comunicado ao mercado sobre Apresentações a analistas/agentes do mercado'
+Fonte: CVM 12/11
+id: E03-SAPR4-1588742-2026-11-12 · status: linha
+
+[INFO] E03 · SAPR4 · Comunicado ao Mercado: Apresentações a analistas/agentes do mercado
+CVM · entregue 12/11/2026 19:05 · Apresentações a analistas/agentes do mercado
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1588741
+Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; confirma ou nega o que circula
+Ativos: SAPR4
+Como falar: 'a Sanepar publicou comunicado ao mercado sobre Apresentações a analistas/agentes do mercado'
+Fonte: CVM 12/11
+id: E03-SAPR4-1588741-2026-11-12 · status: linha
+
+[INFO] E03 · UGPA3 · Comunicado ao Mercado: Apresentações a analistas/agentes do mercado
+CVM · entregue 12/11/2026 09:38 · Apresentações a analistas/agentes do mercado
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1588178
+Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; confirma ou nega o que circula
+Ativos: UGPA3
+Como falar: 'a Ultrapar publicou comunicado ao mercado sobre Apresentações a analistas/agentes do mercado'
+Fonte: CVM 12/11
+id: E03-UGPA3-1588178-2026-11-12 · status: linha
+
+[INFO] E03 · BBAS3 · Comunicado ao Mercado: Apresentações a analistas/agentes do mercado
+CVM · entregue 12/11/2026 08:48 · Apresentações a analistas/agentes do mercado
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1588142
+Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; confirma ou nega o que circula
+Ativos: BBAS3
+Como falar: 'a Banco do Brasil publicou comunicado ao mercado sobre Apresentações a analistas/agentes do mercado'
+Fonte: CVM 12/11
+id: E03-BBAS3-1588142-2026-11-12 · status: linha
+
+[INFO] E03 · PETR4 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
+CVM · entregue 12/11/2026 08:00 · Outros Comunicados Não Considerados Fatos Relevantes
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1588095
+Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; confirma ou nega o que circula
+Ativos: PETR4
+Como falar: 'a Petrobras publicou comunicado ao mercado sobre Outros Comunicados Não Considerados Fatos Relevantes'
+Fonte: CVM 12/11
+id: E03-PETR4-1588095-2026-11-12 · status: linha
+
 
 ## SEC (8-K, 6-K, 10-Q, 10-K) (2)
 
-[ATENÇÃO] E04 · NVDA · 8-K: 5.02 entrada ou saida de diretor ou conselheiro
-SEC EDGAR · aceito 12/11 10h52 · 8-K
+[INFO] E04 · NOK · 6-K: 6-K
+SEC EDGAR · aceito 13/11 14h05 · FORM 6-K
 Do documento:
-  – On November 11, 2026, the Board of Directors, or the Board, of NVIDIA Corporation accepted the resignation of Jen-Hsun Huang, as NVIDIA’s President, Chief Executive Officer and member of the Board, effective immediately.
-  – Kress, age 59, to serve as interim Chief Executive Officer, while the Board conducts a search for a new Chief Executive Officer.
-  – Kress has served as NVIDIA’s Executive Vice President and Chief Financial Officer since 2013 and will continue in that role while she serves as the interim Chief Executive Officer.
-  – On November 11, 2026, the Board appointed Harvey C.
-  – Jones, age 73, as Chair of the Board.
-  – Jones has served on the Board since 1993.
-Link: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000082/nvda-20261111.htm
-Por que importa: troca de diretor ou conselheiro reabre a discussao de estrategia
-Ativos: NVDA
-Como falar: 'a NVDA protocolou 8-K na SEC (5.02 entrada ou saida de diretor ou conselheiro)'
-Fonte: SEC EDGAR 2026-11-12
-id: E04-NVDA-26000082-2026-11-12 · status: expirado · íntegra disponível
+  – 6-K  1  tm2629738d1_6k.htm  FORM 6-K  UNITED STATES  SECURITIES AND EXCHANGE COMMISSION  Washington, D.C.
+Link: https://www.sec.gov/Archives/edgar/data/924613/000110465926126794/tm2629738d1_6k.htm
+Por que importa: 6-K e o relatorio de emissor estrangeiro: resultado, provento ou fato relevante do pais de origem
+Ativos: NOK
+Como falar: 'a NOK protocolou 6-K na SEC (6-K)'
+Fonte: SEC EDGAR 2026-11-13
+id: E04-NOK-26126794-2026-11-13 · status: linha · íntegra disponível
 
 [INFO] E04 · TSM · 6-K: 6-K
-SEC EDGAR · aceito 12/11 10h03 · 6-K
+SEC EDGAR · aceito 13/11 08h02 · 6-K
 Do documento:
-  – 6-K  1  a20261112statementregardin.htm  6-K  1934 Act Registration No. 1-14700   UNITED STATES   SECURITIES AND EXCHANGE COMMISSION   Washington, D.C.
-Link: https://www.sec.gov/Archives/edgar/data/1046179/000104617926000800/a20261112statementregardin.htm
+  – 6-K  1  tsm-fsx20261113x6k.htm  6-K  1934 Act Registration No. 1-14700   UNITED STATES   SECURITIES AND EXCHANGE COMMISSION   Washington, D.C.
+Link: https://www.sec.gov/Archives/edgar/data/1046179/000104617926000801/tsm-fsx20261113x6k.htm
 Por que importa: 6-K e o relatorio de emissor estrangeiro: resultado, provento ou fato relevante do pais de origem
 Ativos: TSM
 Como falar: 'a TSM protocolou 6-K na SEC (6-K)'
-Fonte: SEC EDGAR 2026-11-12
-id: E04-TSM-26000800-2026-11-12 · status: linha · íntegra disponível
+Fonte: SEC EDGAR 2026-11-13
+id: E04-TSM-26000801-2026-11-13 · status: linha · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (21)
+## NOTÍCIAS COM MATERIALIDADE (7)
 
-[ATENÇÃO] E05 · NVDA · AMD, Broadcom stocks jump as Nvidia CEO Jensen Huang resigns
-Yahoo Finance · 12/11 18h23 · fonte única · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – AMD (AMD) stock rose about 5% while Broadcom (AVGO) jumped as much as 5% Thursday morning following news that Nvidia CEO Jensen Huang resigned and the company board named CFO Colette Kress as interim chief executive off…
-  – The speculation followed an X post from Musk, who replied "That would be an honor" to a ZeroHedge post urging, "Elon, please hire Jensen." Sentiment around the rest of the AI trade, however, soured, particularly among c…
-  – Shares of Nvidia-backed neocloud provider CoreWeave (CRWV) dropped 6%, giving back some of the prior session's gains sparked by a strong quarterly print.
-  – Peer Nebius (NBIS) also sank 16%.
-  – Meanwhile, shares of Taiwan Semiconductor Manufacturing Company (TSM), which manufactures Nvidia chips, also fell nearly 2%.
-Link: https://ca.finance.yahoo.com/news/nvidia-stock-sinks-but-rivals-amd-broadcom-rise-133910081.html
-Por que importa: troca no comando reabre a discussao de estrategia e de alocacao de capital
-Ativos: NVDA · AMD · AVGO
-Como falar: 'saiu no Yahoo Finance: AMD, Broadcom stocks jump as Nvidia CEO Jensen Huang resigns; confirmar o número no texto antes de repassar'
-Fonte: Yahoo Finance 12/11 18h23
-id: E05-NVDA-52b24ebf50-2026-11-12 · status: pendente
+[ATENÇÃO] E05 · DI · Santander vê PIB mais fraco e inflação mais teimosa no Brasil até 2027, mas mantém projeção para a Selic
+Money Times · 13/11 13h30 · fonte única · licença: integral
+Do texto:
+  – Santander vê PIB mais fraco e inflação mais teimosa no Brasil até 2027; Selic também persistente O Santander revisou para baixo suas projeções de crescimento da economia brasileira e elevou as estimativas de inflação pa…
+  – Em relatório divulgado nesta sexta-feira (13), o banco passou a projetar uma expansão do Produto Interno Bruto (PIB) de apenas 0,8% no próximo ano, ante 1,3% anteriormente.
+  – Para 2026, a estimativa de crescimento caiu de 1,8% para 1,6%.
+  – Na direção contrária, a projeção para o Índice Nacional de Preços ao Consumidor Amplo (IPCA) de 2027 subiu de 4% para 5%, enquanto a estimativa para este ano avançou de 5% para 5,3%.
+  – A projeção para os investimentos em 2027, por exemplo, passou de crescimento de 1,2% para uma contração de 0,1%.
+  – Apesar da desaceleração econômica, o Santander avalia que a inflação deve continuar pressionada, especialmente em 2027.
+Link: https://www.moneytimes.com.br/santander-ve-pib-mais-fraco-e-inflacao-mais-teimosa-no-brasil-ate-2027-selic-vai-sofrer-jcav/
+Por que importa: decisao de politica monetaria reprecifica toda a curva e o cambio
+Ativos: DI
+Como falar: 'saiu no Money Times: Santander vê PIB mais fraco e inflação mais teimosa no Brasil até 2027, mas mantém projeç…; confirmar o número no texto antes de repassar'
+Fonte: Money Times 13/11 13h30
+id: E05-DI-2b5568e92f-2026-11-13 · status: pendente · íntegra disponível
 
-[ATENÇÃO] E05 · NVDA · Explainer: Tougher curbs on AI chip sales to China likely after Nvidia CEO resigns
-Reuters · 12/11 16h08 · fonte única · licença: manchete
-Link: https://www.reuters.com/world/china/tougher-curbs-ai-chip-sales-china-likely-after-nvidia-ceo-resigns-2026-11-12/
-Por que importa: troca no comando reabre a discussao de estrategia e de alocacao de capital
+[ATENÇÃO] E05 · NVDA · Neocloud Nscale Reveals $5.5 Billion Debt and Closer Nvidia Ties Ahead of IPO
+Bloomberg · 13/11 10h30 · fonte única · licença: manchete
+Link: https://www.bloomberg.com/news/articles/2026-11-13/neocloud-nscale-reveals-5-5-billion-debt-and-closer-nvidia-ties-ahead-of-ipo
+Por que importa: oferta de acoes ou divida altera a base acionaria ou a alavancagem
 Ativos: NVDA
-Como falar: 'saiu no Reuters: Explainer: Tougher curbs on AI chip sales to China likely after Nvidia CEO resigns; confirmar o número no texto antes de repassar'
-Fonte: Reuters 12/11 16h08
-id: E05-NVDA-459a99d4c5-2026-11-12 · status: pendente
+Como falar: 'saiu no Bloomberg: Neocloud Nscale Reveals $5.5 Billion Debt and Closer Nvidia Ties Ahead of IPO; confirmar o número no texto antes de repassar'
+Fonte: Bloomberg 13/11 10h30
+id: E05-NVDA-6c60beb3b9-2026-11-13 · status: pendente
 
-[ATENÇÃO] E05 · PETR4 · Petrobras dá novo passo no etanol e compra transportadora por R$ 620 milhões
-Exame · 12/11 16h40 · fonte única · licença: resumo
+[ATENÇÃO] E05 · MINERIO · Goldman cuts iron ore price target on China steel demand By Investing.com
+Investing.com · 13/11 10h22 · fonte única · licença: manchete
+Link: https://ng.investing.com/news/stock-market-news/goldman-cuts-iron-ore-price-target-on-china-steel-demand-93CH-2806190
+Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
+Ativos: MINERIO
+Como falar: 'saiu no Investing.com: Goldman cuts iron ore price target on China steel demand By Investing.com; confirmar o número no texto antes de repassar'
+Fonte: Investing.com 13/11 10h22
+id: E05-MINERIO-31fee815d4-2026-11-13 · status: pendente
+
+[ATENÇÃO] E05 · PETR4 · Petrobras compra 70% da Logum por R$ 620 milhões
+Valor Economico · 13/11 05h00 · fonte única · licença: resumo
 Trechos (licença resumo: reescrever, não colar):
-  – A Petrobras deu nesta quinta-feira, 12, um passo importante para voltar ao mercado de etanol.
-  – O movimento ajuda a revelar como a companhia pretende se posicionar em um setor que passa por uma transformação impulsionada pelo crescimento da produção de etanol de milho.
-  – A estatal anunciou um acordo para adquirir os 70% restantes da Logum Logística, por R$ 620 milhões.
-  – A companhia já possuía 30% da transportadora e, com a conclusão da operação, passará a controlar integralmente uma infraestrutura que conecta regiões produtoras aos principais centros consumidores do país.
-  – "A Petrobras não tem a intenção de entrar no agronegócio.
-  – Esse não é o negócio da Petrobras", disse Alex Gasparetto, presidente da Petrobras Biocombustível (PBio), em entrevista à EXAME durante o 4º Congresso Cerealista Brasileiro, realizado em Florianópolis (SC).
-Link: https://exame.com/agro/petrobras-da-novo-passo-no-etanol-e-compra-transportadora-por-r-620-milhoes/
+  – A Petrobras assinou um acordo para a compra, por R$ 620 milhões, de mais 70% de participação na Logum Logística, dona de uma de rede de mil quilômetros de dutos para transporte de etanol.
+  – A estatal já possuía 30% da empresa e, com a nova aquisição, passou a deter 100% do capital.
+  – O controle da Logum estava dividido entre Raízen (30%), Copersucar (30%) e Uniduto Logística (10%).
+  – Com a compra, a Petrobras dá mais um passo na volta ao segmento de etanol, do qual participou a partir de 2008.
+  – O pagamento será realizado em três parcelas, sujeitas a ajustes de preço previstos em contrato, sendo R$ 300 milhões no fechamento da operação, R$ 160 milhões após 12 meses e R$ 160 milhões após 24 meses.
+  – A Logum é uma empresa de logística operadora de uma rede de dutos de etanol, criada em 2011, e que movimentou cerca de 5 milhões de metros cúbicos de produtos na última safra.
+Link: https://valor.globo.com/google/amp/empresas/noticia/2026/11/13/petrobras-compra-70-da-logum-por-r-620-milhoes.ghtml
 Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
 Ativos: PETR4
-Como falar: 'saiu no Exame: Petrobras dá novo passo no etanol e compra transportadora por R$ 620 milhões; confirmar o número no texto antes de repassar'
-Fonte: Exame 12/11 16h40
-id: E05-PETR4-189e023d12-2026-11-12 · status: pendente
+Como falar: 'saiu no Valor Economico: Petrobras compra 70% da Logum por R$ 620 milhões; confirmar o número no texto antes de repassar'
+Fonte: Valor Economico 13/11 05h00
+id: E05-PETR4-7068600cbd-2026-11-13 · status: linha
 
-[ATENÇÃO] E05 · BBAS3 · Ação do BB (BBAS3) ainda vale a pena para quem busca dividendos?
-Estadao · 12/11 16h35 · fonte única · licença: manchete
-Link: https://www.estadao.com.br/einvestidor/onde-investir/acao-do-bb-bbas3-ainda-vale-a-pena-para-quem-busca-dividendos/
-Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
-Ativos: BBAS3
-Como falar: 'saiu no Estadao: Ação do BB (BBAS3) ainda vale a pena para quem busca dividendos?; confirmar o número no texto antes de repassar'
-Fonte: Estadao 12/11 16h35
-id: E05-BBAS3-cb3ebb811c-2026-11-12 · status: pendente
-
-[ATENÇÃO] E05 · NVDA · Nvidia CEO Jensen Huang Resigns—and the Stock Is Falling
-Barron's · 12/11 14h47 · fonte única · licença: manchete
-Link: https://www.barrons.com/articles/nvidia-stock-price-huang-affair-ceo-ouster-26c99dad
-Por que importa: troca no comando reabre a discussao de estrategia e de alocacao de capital
-Ativos: NVDA
-Como falar: 'saiu no Barron's: Nvidia CEO Jensen Huang Resigns—and the Stock Is Falling; confirmar o número no texto antes de repassar'
-Fonte: Barron's 12/11 14h47
-id: E05-NVDA-500322871c-2026-11-12 · status: pendente
-
-[ATENÇÃO] E05 · UGPA3 · Ultrapar aprova R$ 1,08 bilhão em dividendos e pagará R$ 1 por ação em dezembro
-ADVFN · 12/11 15h43 · fonte única · licença: manchete
-Link: https://br.advfn.com/jornal/2026/11/ultrapar-aprova-r-1-08-bilhao-em-dividendos-e-pagara-r-1-por-acao-em-dezembro
-Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
-Ativos: UGPA3
-Como falar: 'saiu no ADVFN: Ultrapar aprova R$ 1,08 bilhão em dividendos e pagará R$ 1 por ação em dezembro; confirmar o número no texto antes de repassar'
-Fonte: ADVFN 12/11 15h43
-id: E05-UGPA3-41804f13c5-2026-11-12 · status: expirado
-
-[ATENÇÃO] E05 · PETR4 · Petrobras e PRIO podem ter dividend yield de até 20% em 2027, estima Goldman
-InfoMoney · 12/11 14h50 · fonte única · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – Publicidade A Petrobras (PETR3; PETR4) e a PRIO (PRIO3) continuam oferecendo potencial de retorno atrativo aos acionistas, mesmo em um cenário de petróleo a US$ 75 por barril.
-  – Segundo análise do Goldman Sachs, as duas empresas podem proporcionar dividend yield (rendimento de dividendos) combinado com recompra de ações de até 20% em 2027.
-  – O banco revisou suas projeções para as petroleiras após os resultados do terceiro trimestre de 2026 (3T26), incorporando também as novas estimativas de investimentos da Petrobras e um cenário macroeconômico com real mai…
-  – O banco estima um retorno de fluxo de caixa livre (FCF yield) de 21% em 2027, considerando Brent a US$ 75 por barril e margem de refino do diesel de US$ 50 por barril.
-  – A projeção já considera investimentos de US$ 21 bilhões e pagamentos de arrendamentos de US$ 11,3 bilhões.
-  – O banco também incorporou a revisão das estimativas da companhia para 2026, quando o CAPEX passou a ser projetado entre US$ 21 bilhões e US$ 22 bilhões, ante aproximadamente US$ 17 bilhões anteriormente.
-Link: https://www.infomoney.com.br/mercados/petrobras-e-prio-podem-ter-dividend-yield-de-ate-20-em-2027-estima-goldman/
-Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
-Ativos: PETR4
-Como falar: 'saiu no InfoMoney: Petrobras e PRIO podem ter dividend yield de até 20% em 2027, estima Goldman; confirmar o número no texto antes de repassar'
-Fonte: InfoMoney 12/11 14h50
-id: E05-PETR4-54773b6cc3-2026-11-12 · status: expirado
-
-[ATENÇÃO] E05 · NVDA · Applied Digital Sinks 8% as Nebius Outlook and NVIDIA CEO Exit Hit AI Data Center Stocks; Cipher Digital Falls 4%, TeraWulf Slides 3%
-Yahoo Finance · 12/11 13h10 · fonte única · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – - Cipher Digital and Core Scientific slid 4% and 5%, but Applied Digital's debt-heavy model left it more exposed than its bitcoin-mining-turned-AI peers.
-  – - Applied Digital's $113 million quarterly interest bill dwarfs its $66 million of base rent, and roughly 800 MW still needs funding.
-  – - It sounds nuts, but SoFi is giving new Active Invest users up to $1,000 in stock for a limited time, and all it takes is a $50 deposit to get started.
-  – Applied Digital stock is at $16.45 in Thursday morning trading, down 8%.
-  – The drop gives back the company's 7% gain on November 11, when the stock closed at $17.91.
-  – Nebius Spending Plan and NVIDIA Leadership Exit Rattle AI Landlords Nebius reported its Q3 2026 results on November 12 and issued a weak outlook.
-Link: https://finance.yahoo.com/technology/ai/articles/applied-digital-sinks-8-nebius-161011516.html
-Por que importa: troca no comando reabre a discussao de estrategia e de alocacao de capital
-Ativos: NVDA
-Como falar: 'saiu no Yahoo Finance: Applied Digital Sinks 8% as Nebius Outlook and NVIDIA CEO Exit Hit AI Data Center Stocks;…; confirmar o número no texto antes de repassar'
-Fonte: Yahoo Finance 12/11 13h10
-id: E05-NVDA-dba12bf4fe-2026-11-12 · status: expirado
-
-[ATENÇÃO] E05 · NVDA · Jensen Huang Just Resigned, and Nvidia Stock Has Fallen 35% From Its All-Time High. I Still Think It's a Buy.
-Yahoo Finance · 12/11 13h09 · fonte única · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – Jensen Huang Just Resigned, and Nvidia Stock Has Fallen 35% From Its All-Time High.
-  – Nvidia (NASDAQ:NVDA) stock finished at $173.73 on Wednesday, Nov.
-  – 11, roughly 27% off its all-time closing high of $239.24 from Oct.
-  – And shares slipped further in after-hours trading that evening, to roughly $159, after The Wall Street Journal reported that Nvidia's board was preparing to oust CEO Jensen Huang.
-  – 12, Nvidia announced that Huang had resigned and named finance chief Colette Kress interim CEO, and the stock fell even further, briefly trading below $150 at the open and sitting at about $156 shortly after, roughly 35…
-  – The artificial intelligence (AI) chip giant's revenue more than doubled from a year earlier in its last reported quarter, and management sees about 70% growth in its next fiscal year.
-Link: https://finance.yahoo.com/markets/stocks/articles/jensen-huang-just-resigned-nvidia-160902148.html
-Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
-Ativos: NVDA
-Como falar: 'saiu no Yahoo Finance: Jensen Huang Just Resigned, and Nvidia Stock Has Fallen 35% From Its All-Time High. I Sti…; confirmar o número no texto antes de repassar'
-Fonte: Yahoo Finance 12/11 13h09
-id: E05-NVDA-cf90e6056a-2026-11-12 · status: linha
-
-[ATENÇÃO] E05 · NVDA · AMD, Broadcom stocks jump as Nvidia CEO Jensen Huang resigns
-Yahoo Finance · 12/11 11h52 · fonte única · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – AMD (AMD) stock rose about 3% while Broadcom (AVGO) jumped as much as 6% Thursday morning following news that Nvidia CEO Jensen Huang resigned and the company board named CFO Colette Kress as interim chief executive off…
-  – Shares of SpaceX (SPCX) popped 2% Thursday as investors speculated that Elon Musk and Jensen Huang could eventually work together.
-  – The speculation followed an X post from Musk, who replied "That would be an honor" to a ZeroHedge post urging, "Elon, please hire Jensen." Sentiment around the rest of the AI trade, however, soured, particularly among c…
-  – Shares of Nvidia-backed neocloud provider CoreWeave (CRWV) dropped 7%, giving back some of the prior session's gains sparked by a strong quarterly print.
-  – Peer Nebius (NBIS) also sank 15%.
-  – Meanwhile, shares of Taiwan Semiconductor Manufacturing Company (TSM), which manufactures Nvidia chips, also fell more than 1%.
-Link: https://finance.yahoo.com/markets/article/amd-broadcom-stocks-jump-as-nvidia-ceo-jensen-huang-resigns-143725561.html
-Por que importa: troca no comando reabre a discussao de estrategia e de alocacao de capital
-Ativos: NVDA · AMD · AVGO
-Como falar: 'saiu no Yahoo Finance: AMD, Broadcom stocks jump as Nvidia CEO Jensen Huang resigns; confirmar o número no texto antes de repassar'
-Fonte: Yahoo Finance 12/11 11h52
-id: E05-NVDA-a4724eae06-2026-11-12 · status: linha
-
-[ATENÇÃO] E05 · NVDA · Nvidia stock tumbles as CEO Jensen Huang steps down, dragging down other AI names
-Yahoo Finance · 12/11 11h21 · fonte única · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – AMD (AMD) stock rose about 3% while Broadcom (AVGO) jumped as much as 6% Thursday morning following news that Nvidia CEO Jensen Huang resigned and the company board named CFO Colette Kress as interim chief executive off…
-  – Shares of SpaceX (SPCX) popped 2% Thursday as investors speculated that Elon Musk and Jensen Huang could eventually work together.
-  – The speculation followed an X post from Musk, who replied "That would be an honor" to a ZeroHedge post urging, "Elon, please hire Jensen." Sentiment around the rest of the AI trade, however, soured, particularly among c…
-  – Shares of Nvidia-backed neocloud provider CoreWeave (CRWV) dropped 7%, giving back some of the prior session's gains sparked by a strong quarterly print.
-  – Peer Nebius (NBIS) also sank 15%.
-  – Meanwhile, shares of Taiwan Semiconductor Manufacturing Company (TSM), which manufactures Nvidia chips, also fell more than 1%.
-Link: https://finance.yahoo.com/markets/article/nvidia-stock-sinks-but-rivals-amd-broadcom-rise-133910081.html
-Por que importa: troca no comando reabre a discussao de estrategia e de alocacao de capital
-Ativos: NVDA
-Como falar: 'saiu no Yahoo Finance: Nvidia stock tumbles as CEO Jensen Huang steps down, dragging down other AI names; confirmar o número no texto antes de repassar'
-Fonte: Yahoo Finance 12/11 11h21
-id: E05-NVDA-9a22e48219-2026-11-12 · status: linha
-
-[ATENÇÃO] E05 · UGPA3 · Ultrapar dispara lucro em 249% no 3T26, mas geração de caixa operacional recua
-ADVFN · 12/11 10h57 · fonte única · licença: manchete
-Link: https://br.advfn.com/jornal/2026/11/ultrapar-dispara-lucro-em-249-no-3t26-mas-geracao-de-caixa-operacional-recua
-Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
-Ativos: UGPA3
-Como falar: 'saiu no ADVFN: Ultrapar dispara lucro em 249% no 3T26, mas geração de caixa operacional recua; confirmar o número no texto antes de repassar'
-Fonte: ADVFN 12/11 10h57
-id: E05-UGPA3-72a90c81da-2026-11-12 · status: linha
-
-[ATENÇÃO] E05 · PETR4 · Petrobras compra transportadora de combustíveis por R$ 620 milhões
-CNN Brasil · 12/11 10h38 · + g1 · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – A Petrobras anunciou nesta quinta-feira (12) a celebração de um acordo para adquirir 70% restante do capital da Logum Logística S.A., empresa especializada no transporte multimodal de combustíveis e biocombustíveis.
-  – O valor total da operação será de R$ 620 milhões.
-  – Atualmente, a Logum é controlada pelas empresas Raízen Energia S.A. (30%), Copersucar S.A. (30%) e Uniduto Logística S.A. (10%).
-  – A Petrobras detinha 30% do capital social da transportadora e, após a conclusão da aquisição, passará a possuir 100%.
-  – Com sede no Rio de Janeiro, a transportadora opera uma rede de dutos com mais de 1 mil km, além de possuir terminais em Uberaba (MG), Ribeirão Preto (SP) e Paulínia (SP).
-  – A primeira, de R$ 300 milhões, será efetuada no fechamento da operação.
-Link: https://www.cnnbrasil.com.br/infra/petrobras-compra-transportadora-de-combustiveis-por-r-620-milhoes/
-Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
-Ativos: PETR4
-Como falar: 'saiu no CNN Brasil: Petrobras compra transportadora de combustíveis por R$ 620 milhões; confirmar o número no texto antes de repassar'
-Fonte: CNN Brasil 12/11 10h38
-id: E05-PETR4-bd73668a7f-2026-11-12 · status: linha
-
-[ATENÇÃO] E05 · EQTL3 · Equatorial registra queda de 37,1% no lucro ajustado do 3T26, apesar de avanço do Ebitda
-ADVFN · 12/11 10h07 · fonte única · licença: manchete
-Link: https://br.advfn.com/jornal/2026/11/equatorial-registra-queda-de-37-1-no-lucro-ajustado-do-3t26-apesar-de-avanco-do-ebitda
-Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
-Ativos: EQTL3
-Como falar: 'saiu no ADVFN: Equatorial registra queda de 37,1% no lucro ajustado do 3T26, apesar de avanço do Ebitda; confirmar o número no texto antes de repassar'
-Fonte: ADVFN 12/11 10h07
-id: E05-EQTL3-171e08badc-2026-11-12 · status: linha
-
-[ATENÇÃO] E05 · KLBN4 · Klabin (KLBN11) paga dividendos nesta quinta-feira; saiba mais
-Suno Noticias · 12/11 09h10 · fonte única · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – Negócios Klabin (KLBN11) paga dividendos nesta quinta-feira; saiba mais A Klabin (KLBN11) é um dos destaques corporativos desta quinta-feira, pois a companhia vai pagar dividendos aos seus acionistas.
-  – Os acionistas da Klabin vão receber R$ 0,2279 em dividendos hoje.
-  – Serão contemplados com os dividendos da Klabin os acionistas que detinham ações da empresa até data de corte, que ocorreu no dia 15 de dezembro.
-  – Desde o dia 16 de dezembro, as ações são negociadas sem direito aos proventos.
-  – No caso dos JCP, os acionistas precisam pagar 15% de IR sobre o valor recebido da empresa.
-Link: https://www.suno.com.br/noticias/klabin-klbn11-agenda-dividendos-12112026/
-Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
-Ativos: KLBN4
-Como falar: 'saiu no Suno Noticias: Klabin (KLBN11) paga dividendos nesta quinta-feira; saiba mais; confirmar o número no texto antes de repassar'
-Fonte: Suno Noticias 12/11 09h10
-id: E05-KLBN4-8db7d13e17-2026-11-12 · status: linha
-
-[ATENÇÃO] E05 · GOOGL · Setback for Google as EU Court adviser backs $1.7 billion antitrust fine
-TradingView (Reuters) · 12/11 07h10 · + Reuters · licença: manchete
-Link: https://www.tradingview.com/news/reuters.com,2026:newsml_L5N46T0VE:0-setback-for-google-as-eu-court-adviser-backs-1-7-billion-antitrust-fine/
-Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e prazo
-Ativos: GOOGL
-Como falar: 'saiu no TradingView (Reuters): Setback for Google as EU Court adviser backs $1.7 billion antitrust fine; confirmar o número no texto antes de repassar'
-Fonte: TradingView (Reuters) 12/11 07h10
-id: E05-GOOGL-b33590d583-2026-11-12 · status: linha
-
-[ATENÇÃO] E05 · JPM · JPMorgan upgrades Alamtri Resources Indonesia stock rating on dividend outlook
-Investing.com · 12/11 06h55 · fonte única · licença: manchete
-Link: https://www.investing.com/news/analyst-ratings/jpmorgan-upgrades-alamtri-resources-indonesia-stock-rating-on-dividend-outlook-93CH-5020719
+[ATENÇÃO] E05 · JPM · Key facts: MSCI to Drop MSTR; Schiff Flags Dividend Risk; JPMorgan Buys
+TradingView (Reuters) · 13/11 05h00 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/tradingview:5fe5a361c6e9b:0-key-facts-msci-to-drop-mstr-schiff-flags-dividend-risk-jpmorgan-buys/
 Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
 Ativos: JPM
-Como falar: 'saiu no Investing.com: JPMorgan upgrades Alamtri Resources Indonesia stock rating on dividend outlook; confirmar o número no texto antes de repassar'
-Fonte: Investing.com 12/11 06h55
-id: E05-JPM-9ae95a7a3c-2026-11-12 · status: linha
+Como falar: 'saiu no TradingView (Reuters): Key facts: MSCI to Drop MSTR; Schiff Flags Dividend Risk; JPMorgan Buys; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 13/11 05h00
+id: E05-JPM-347ca88535-2026-11-13 · status: linha
 
-[ATENÇÃO] E05 · BBAS3 · Banco do Brasil revê projeções e reduz dividendos em meio à alta da inadimplência no agro
-O Globo · 11/11 21h28 · fonte única · licença: manchete
-Link: https://oglobo.globo.com/blogs/miriam-leitao/post/2026/11/banco-do-brasil-reve-projecoes-e-reduz-dividendos-em-meio-a-alta-da-inadimplencia-no-agro.ghtml
-Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
-Ativos: BBAS3
-Como falar: 'saiu no O Globo: Banco do Brasil revê projeções e reduz dividendos em meio à alta da inadimplência no agro; confirmar o número no texto antes de repassar'
-Fonte: O Globo 11/11 21h28
-id: E05-BBAS3-317ab13fca-2026-11-12 · status: expirado
-
-[ATENÇÃO] E05 · UGPA3 · Ultrapar anuncia pagamento de R$ 1,08 bilhão em dividendos; confira valor por ação
-Estadao · 11/11 21h26 · fonte única · licença: manchete
-Link: https://www.estadao.com.br/em-alta/einvestidor/cenarios-e-mercado/ultrapar-anuncia-pagamento-de-r-108-bilhao-em-dividendos-confira-valor-por-acao/
-Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
-Ativos: UGPA3
-Como falar: 'saiu no Estadao: Ultrapar anuncia pagamento de R$ 1,08 bilhão em dividendos; confira valor por ação; confirmar o número no texto antes de repassar'
-Fonte: Estadao 11/11 21h26
-id: E05-UGPA3-5a9e82e58f-2026-11-12 · status: expirado
-
-[ATENÇÃO] E05 · UGPA3 · Ultrapar (UGPA3) aprova R$ 1,085 bilhão em dividendos; veja datas
-Estadao · 11/11 21h19 · fonte única · licença: manchete
-Link: https://www.estadao.com.br/einvestidor/cenarios-e-mercado/ultrapar-anuncia-pagamento-de-r-108-bilhao-em-dividendos-confira-valor-por-acao/
-Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
-Ativos: UGPA3
-Como falar: 'saiu no Estadao: Ultrapar (UGPA3) aprova R$ 1,085 bilhão em dividendos; veja datas; confirmar o número no texto antes de repassar'
-Fonte: Estadao 11/11 21h19
-id: E05-UGPA3-b92b8444c8-2026-11-12 · status: expirado
-
-[ATENÇÃO] E05 · BBAS3 · Agronegócio cobra o preço no Banco do Brasil: inadimplência dispara, lucro desaba e dividendos entram na linha de corte
-Seu Dinheiro · 11/11 21h10 · fonte única · licença: resumo
+[ATENÇÃO] E05 · MMM · 3M (MMM) Looks Fairly Valued After Its PFAS Settlement Put A Key Risk In View
+Yahoo Finance · 13/11 04h11 · fonte única · licença: resumo
 Trechos (licença resumo: reescrever, não colar):
-  – É o que ele classifica como um problema de “risco moral”.
-  – “Estamos tendo que tomar medidas, eu diria, até drásticas para fazer frente a essa situação”, afirmou Tobias, durante videocast sobre os resultados do terceiro trimestre de 2026 (3T26).
-  – A inadimplência acima de 90 dias chegou a 6,08% no terceiro trimestre, enquanto o custo do crédito atingiu R$ 21,2 bilhões no período, consumindo o equivalente a 81% da margem financeira bruta.
-  – Leia Também Para dimensionar a piora, basta olhar a trajetória desse indicador: desde 2023, a relação entre custo do crédito e margem financeira bruta costumava ficar entre 30% e 34%.
-  – Em 2025, já havia alcançado cerca de 65%.
-  – “Isso está consumindo a musculatura e a capacidade do Banco do Brasil de gerar resultados recorrentes, e isso traz impacto no nosso capital”, disse o CFO.
-Link: https://www.seudinheiro.com/2026/empresas/agronegocio-esta-cobrando-o-preco-no-banco-do-brasil-inadimplencia-dispara-lucro-encolhe-e-acionistas-ficam-sem-uma-parte-dos-dividendos-miql/
-Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
-Ativos: BBAS3
-Como falar: 'saiu no Seu Dinheiro: Agronegócio cobra o preço no Banco do Brasil: inadimplência dispara, lucro desaba e divid…; confirmar o número no texto antes de repassar'
-Fonte: Seu Dinheiro 11/11 21h10
-id: E05-BBAS3-5cbb3e88ef-2026-11-12 · status: linha
+  – 3M (MMM) just put a price tag and a timetable on a major legal overhang, agreeing to a US$7.35b PFAS personal injury settlement that defines cash outflows over nine years.
+  – Despite a 1-day share price return that declined 1.4% to US$186.24, 3M has logged a 30-day share price return of 14.42% and a year to date share price return of 15.09%.
+  – This suggests momentum has picked up as investors reassess legal risk after the PFAS settlement, dividend affirmation, and a new US$6.0b buyback authorization.
+  – Scan how other industrials are pricing in legal risk and balance sheet strength by reviewing the hand picked 29 resilient stocks with low risk scores alongside 3M.
+  – With 3M shares up double digits over the past month after the PFAS deal, the real tension is simple: Does the current price already reflect that cleaner risk profile or not yet?
+  – The ongoing shift from a regionally run holding-company model to a globally integrated operating company, including consolidation of factories and back-office functions, is already tied to roughly 500 basis points of op…
+Link: https://finance.yahoo.com/markets/stocks/articles/3m-mmm-looks-fairly-valued-071146333.html
+Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e prazo
+Ativos: MMM
+Como falar: 'saiu no Yahoo Finance: 3M (MMM) Looks Fairly Valued After Its PFAS Settlement Put A Key Risk In View; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 13/11 04h11
+id: E05-MMM-c59ad28f5e-2026-11-13 · status: linha
+
+[ATENÇÃO] E05 · CVX · Chevron And 2 Other Dividend Stocks To Own
+Yahoo Finance · 13/11 01h38 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – That backdrop makes companies with dividend yields above 3% that look well covered and steady feel a lot more appealing.
+  – However, if you want the pick of this theme, these 6 dividend aristocrats stocks are the best of the best.
+  – Operations: Chevron generates revenue primarily from its Downstream businesses, with about US$91.2b in the United States and US$85.4b internationally, alongside sizeable Upstream activities.
+  – Market Cap: US$422.8b Chevron matters for the Dividend Powerhouses theme because its integrated oil and gas engine generates the steady cash needed for a 3%+ payout.
+  – Operations: Copa Holdings generates about US$4.0b in revenue from air transportation services, with passenger ticketing and related activity driving the cash engine.
+  – Market Cap: US$5.9b Copa Holdings matters for the Dividend Powerhouses screen because its passenger heavy Copa Airlines network is built to throw off cash that can support a higher yielding payout.
+Link: https://sg.finance.yahoo.com/news/chevron-2-other-dividend-stocks-043832328.html
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: CVX
+Como falar: 'saiu no Yahoo Finance: Chevron And 2 Other Dividend Stocks To Own; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 13/11 01h38
+id: E05-CVX-44eaaeccaa-2026-11-13 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (51)
+## OUTRAS NOTÍCIAS (só manchete) (20)
 
+· AMD AMD: The AI Trade Just Entered Another Phase (NASDAQ:AMD) (Seeking Alpha) https://seekingalpha.com/article/4967921-amd-ai-trade-just-entered-another-phase
+· PETR4 BB e Petrobras: após decepções com balanços e proventos, o que esperar para ações? (InfoMoney) https://www.infomoney.com.br/mercados/banco-do-brasil-bbas3-e-petrobras-petr3-petr4-apos-decepcoes-com-balancos-e-proventos-o-que-esperar-para-acoes/
+· TSLA Is Tesla Stock Worth Buying Now on Robotaxi & FSD Progress? (TradingView (Reuters)) https://www.tradingview.com/news/zacks:788f9c0cc094b:0-is-tesla-stock-worth-buying-now-on-robotaxi-fsd-progress/
+· TSLA Tesla Pulls $42K Model Y AWD From US Website Amid Musk’s Pivot Toward Robotaxis (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:fdf8dfedb094b:0-tesla-pulls-42k-model-y-awd-from-us-website-amid-musk-s-pivot-toward-robotaxis/
+· BTC Veteran economist warns investors that Bitcoin’s worst may not be over (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/veteran-economist-warns-investors-bitcoin-174848680.html
+· NVDA AMD Stocks Fall 6.46% After 30% Weekly Surge on Nvidia Leadership Shock (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:dc2c3c48e094b:0-amd-stocks-fall-6-46-after-30-weekly-surge-on-nvidia-leadership-shock/
+· NVDA Scott Bessent Backs Export Curbs on Nvidia Customer Megaspeed (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:1db4a72e4094b:0-scott-bessent-backs-export-curbs-on-nvidia-customer-megaspeed/
+· NVDA Neoclouds, AI stocks slide again as Nvidia turmoil rattles sector (Reuters) https://www.reuters.com/business/neoclouds-ai-stocks-slide-again-nvidia-turmoil-rattles-sector-2026-11-13/
+· NVDA 3 U.S. AI Software Stocks Facing A New Nvidia Export Rule Test (Yahoo Finance) https://news.google.com/rss/articles/CBMijwFBVV95cUxON2NOZlhyNVo1WTlYRGhPck05UWoyTGdZbXYxbGdNWGMxVGhXN1FmdXNFdl9iODlYLU9ReV9UWWZOZTB1TmJtTzRiX0h3MnBoYWVXM0t0OGVtYk8wQlczekR0Nl9oN3NLbHBwZktGd3hfemduZTduOXFCVGJmZ1UxeUotTVRlZjhjLVhKbUJENA?oc=5
+· NVDA NVIDIA Trades at 13 Times Forward Earnings After a 27% Slide. Wall Street Still Sees $325+ (Yahoo Finance) https://news.google.com/rss/articles/CBMimwFBVV95cUxPNkMyVFozVnIzOEllY3RTc0JNTVFFaElaVVJUc1dLOXhsVTgwWHE4T2VqUzJQZ1N2MmhGT1VTZFlGMkVUNGZzNmlycEFBWURjR0tGMzNSSmtIR0RjeVlHTzV1ZnhkTVFNemJVbDdRZ3FjLWFGbi1QQ1lfeHNPYmJtMTJBVEpScXFLS0h5ekVMb2FmVUtLM1djbEVVVQ?oc=5
+· BRENT Brent Crude Climbs Back Above $96 as Iran Tensions Escalate (OilPrice.com) https://news.google.com/rss/articles/CBMiqgFBVV95cUxORzRCRnJVVmFNdW1GUE9DZ2tNZlV0bk4tVWtmeGJvbGRORXkzbDlUdk9sS3hKLXlES2lxQzdJeFRtRW1BMWlBZ3A2SlJWbHhEZEpZSTM2MHByOFBKWUhCak04WUtPeV91NG5FbXdzYzIwZHAwNmxwcHJYdWZqVVowMGc2SUpPZHhDNjI1TjVQdGZEMnc2WmxwOTN5akxfaFMyQkk3Y3B0RDl2Z9IBrwFBVV95cUxQZFZQcC11eEtOYjRlZ2RhTFFSZWczTDVvazlUWTRpYXRKcThPWWsxV2NEb2ZFdTVGWEZYeTAxSWRNTTFBSGowaUlDSTFsWnp6dEtfNzNNRk51N1dUZmpKWmhtY3IyX1pmb2hVdWtRMjFyTVgwQ0J3UzVWNjA5V3N2SDdZLWJXQXZaQW40T3IxakhpMDdUc1NjTENtUnN4Y25rN1dIWURIbVJEcWxNZF9B?oc=5
+· INTC I'm Taking A Pause Until I See Intel's Q4 2026 Numbers (Rating Downgrade) (NASDAQ:INTC) (Seeking Alpha) https://news.google.com/rss/articles/CBMiugFBVV95cUxQU0paVE1mTWdYQXg3R25XaXdyNUI1QU1mZ2lnS3BoVW0tbEk0cE54YmpVVTR0NTBUa2xFS0lCaG13M0FCTnJlR2hnRnNNUDI0UUNGQno1OWRlUk51SEdqN2N6LVJHay1yUE5sQjZteEppcG1IdmF3d2pkVGVDZllqejFWMlJtNVNZMUgxXzJBRHFFUDFrWW1EZnBSR0VkaVJtMVB3M2daRVR6b05ZeU9uZElCZHFhRUIzQkE?oc=5
+· INTC What Is Going On With Intel Stock After Its Earnings Call? (Yahoo Finance) https://news.google.com/rss/articles/CBMinAFBVV95cUxQUzdUVDFPT2EzSFk1aUQxZ3Iwd0cwX2JPaHdSdmh2ajdrWGtkN0V2WURpUVRaT1Z0WkZZeDVaNnBLR0YtdGR0LVBhdHMzVzltSGxvcEEzeHBidzRPQWs2aTBJcm1GT1dLNTFuNTdhTlJaQy1QU3FFNHlEWlZsbHliOGQ2cUNlQXNBRXJ1RWVHMG92YmZKaDhLOEpaemU?oc=5
+· MRVL What Is Going on With Marvell Tech Stock on Friday? (TradingView (Reuters)) https://news.google.com/rss/articles/CBMirgFBVV95cUxPcW5qZElFX3Yyc3piWTVpNTF0Ti1Tb2plb3dFa2VyYWRIdzdGMnVKSGl6bkcxOENYMTRWSWhxRHpaWWdVU1lTQm1PXzRlUXdRMHNwZTYzQkQxX0R5MFpZTUxKSXljNHhBbU92X1pid3paQ2JSWG5oLVBKelgzbldhWHFvdk4tXzFhU3hXa0NGeWlCZ0xNZW5xV1JPTEVkX0JwYzQxNHVDeEdsWDVWbmc?oc=5
+· NVDA Nvidia: A House Of Cards (Rating Downgrade) (NASDAQ:NVDA) (Seeking Alpha) https://news.google.com/rss/articles/CBMiiAFBVV95cUxPVkIwa3NOQkR0YlJNdlB6NUU5YzNkaklQOFJvcVcxVnY1M1dVdUVNT2hsUFV4cmo4bTNxbmtiZXl2VWtEUnVtWGdRZFB3bU1oWEVYckpac3J5SjBLZkFwWlRnX0ZfemJUQ2Z4cDFuOTEySU1RNkFidS1mR0hnNDBXOXlncWJ0dWlq?oc=5
 · USDBRL Waack: Dólar sobe e conta da demora de Lula fica mais cara (CNN Brasil) https://www.cnnbrasil.com.br/economia/money/macroeconomia/waack-dolar-sobe-e-conta-da-demora-de-lula-fica-mais-cara/
 · NVDA Nvidia suddenly changed how it reported revenue in Singapore, correlating with Megaspeed scrutiny (Fortune) https://fortune.com/2026/11/12/nvidia-changed-earnings-report-format-singapore-revenue-megaspeed-probe-colette-kress/
 · BBAS3 Banco do Brasil atribui queda no lucro principalmente à inadimplência do agronegócio; ações caíram mais de 8% (g1) https://g1.globo.com/jornal-nacional/noticia/2026/11/12/banco-do-brasil-atribui-queda-no-lucro-principalmente-a-inadimplencia-do-agronegocio-acoes-cairam-mais-de-8percent.ghtml
 · BBAS3 Produtores de soja rebatem Banco do Brasil sobre dívidas do agro; estatal nega ter culpado todo o setor (g1) https://g1.globo.com/economia/agronegocios/noticia/2026/11/12/nota-aprosoja.ghtml
 · USDBRL Ibovespa cai com fiscal e balanços no radar; dólar dispara a R$5,65 (TradingView (Reuters)) https://br.tradingview.com/news/reuters.com,2026:newsml_L2N46T1P2:0/
-· USDBRL Dólar fecha na maior cotação desde junho de 2025 (g1) https://g1.globo.com/google/amp/jornal-nacional/video/dolar-fecha-na-maior-cotacao-desde-junho-de-2025-15183890.ghtml
-· BBAS3 Banco do Brasil tem pior reação a um balanço em 18 meses perde R$ 8 bi na bolsa (Exame) https://exame.com/invest/mercados/banco-do-brasil-tem-maior-queda-diaria-em-18-meses-perde-r-8-bi-na-bolsa/
-· NVDA Baird Cut Its Nvidia (NVDA) Target From $500 to $200. Here’s What It Wants Next (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/baird-cut-nvidia-nvda-target-231726498.html
-· INTC Intel: Upgrading To 'Strong Buy' After The 38% Sell-Off (NASDAQ:INTC) (Seeking Alpha) https://seekingalpha.com/article/4967383-intel-upgrading-to-strong-buy-after-the-38-percent-sell-off
-· MRVE3 MRV espera vendas mais fortes e benefício com reforma tributária e mudança de jornada (Valor Economico) https://valor.globo.com/empresas/noticia/2026/11/12/mrv-espera-vendas-mais-fortes-e-beneficio-com-reforma-tributaria-e-mudanca-de-jornada.ghtml
-· SAPR4 Sanepar lucra R$ 302,5 milhões no 3º trimestre (Valor Economico) https://valor.globo.com/empresas/noticia/2026/11/12/sanepar-lucra-r-3025-milhoes-no-3o-trimestre.ghtml
-· UST Gold sinks to more than one-year low as Fed rate hike bets boost dollar, Treasury yields (TradingView (Reuters)) https://www.tradingview.com/news/seekingalpha:847f96b73094b:0-gold-sinks-to-more-than-one-year-low-as-fed-rate-hike-bets-boost-dollar-treasury-yields/
-· USDBRL Dólar dispara 1,58% e fecha a R$ 5,65, maior nível em 17 meses (Agencia Brasil) https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/dolar-dispara-158-e-fecha-r-565-maior-nivel-em-17-meses
-· BBAS3 Ibovespa cai, BB (BBAS3) afunda 8% e dólar dispara: o que pesou na Bolsa? (Suno Noticias) https://news.google.com/rss/articles/CBMia0FVX3lxTE9YRDlxOW5TR1NQdEdkV2tsa21tOGQ5ZkpqQlpQQ25DZ1NnUmlvSkZXZzR1WnRKaDJnTGJqTHdyTjBKRURvQUJSTGttSVNlR09kcDU2U0ZPS1B1VzFwMFJhTkg1OWNwT2RETHo40gFwQVVfeXFMTUV6ZjhDcHBRWWlDMW8wUVUydnBwdjI2QjRXcXRqRktwMjNvU2ZOTzFRQzJ4VjEtTzljcVB3cTFKX2dtZi1MVW1kWTJWRXBqNlp3V1B4VWI4Vmx6bW5xMHAzWmdJN3ItOVprd1NncDJZaQ?oc=5
-· NOK What Does Nokia Oyj (HLSE:NOKIA) Winning An AI Network Deal Signal? (Yahoo Finance) https://news.google.com/rss/articles/CBMikwFBVV95cUxOTkhTSjdWSWJ6RGVBVzBBc3RPRzViVTlCMzlzODhvSGV3NG5tYXJUZm4tU2xrSlJIWDR6TExBU3ktLXBaekJzYmk3bkhaWkEwU2ZzbWpDQ1JfMTZFdzFrbTFFUDh2eFBQaHN3dF9BcG5DaUo5SVB5VGNtUUVYNkpzUTJ4bVNocTlJRnNyQmZjVlVrUmM?oc=5
-· NVDA Tim Cook for Nvidia CEO? Trump and the world ponder who's next (Reuters) https://www.reuters.com/legal/transactional/tim-cook-nvidia-ceo-trump-world-ponder-whos-next-2026-11-12/
-· USDBRL Dólar sobe forte e fecha a R$ 5,6519 com incertezas sobre o ajuste fiscal (Money Times) https://www.moneytimes.com.br/dolar-12-11-2026-davs/
-· USDBRL Dólar à vista fecha em alta de 1,58%, a R$5,6507 na venda Por Reuters (Investing.com) https://br.investing.com/news/forex-news/dolar-a-vista-fecha-em-alta-de-158-a-r56507-na-venda-2125679
-· INTC After Intel’s Worst Day on Record, CEO Lip-Bu Tan Buys $9.7 Million in Stock (Barron's) https://www.barrons.com/articles/intel-stock-insider-ceo-buy-1e10df5f
-· NVDA AMD Is Up 127% in a Year. William Blair Just Upgraded It as Nvidia Loses Its CEO (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/amd-127-william-blair-just-200535132.html
-· EQTL3 Equatorial reduz curtailment em 35% com melhoria na confiabilidade (UOL Economia) https://megawhat.uol.com.br/economia-e-politica/empresas/equatorial-reduz-curtailment-em-35-com-melhoria-na-confiabilidade/
-· NVDA Nvidia Chip Crackdown Fears Send Alibaba Shares Tumbling (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:17f6652ae094b:0-nvidia-chip-crackdown-fears-send-alibaba-shares-tumbling/
-· NVDA Intel Stocks Fall 3.49% as NVIDIA CEO Exit Clouds a $13 Billion Partnership Stake (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/intel-stocks-fall-3-49-194340237.html
-· BAC Bank of America Drops Shock Take on Victoria's Secret Stock After Rally (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/bank-america-drops-shock-victorias-194258296.html
-· AMD AMD is Trading at a Premium at 38.39X P/E: Is the Stock Still a Buy? (TradingView (Reuters)) https://www.tradingview.com/news/zacks:9042dab60094b:0-amd-is-trading-at-a-premium-at-38-39x-p-e-is-the-stock-still-a-buy/
-· BTC Adam Back Says Bitcoin Could Reach $1 Million by Late 2028. What Would Have to Happen First? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/adam-back-says-bitcoin-could-191739555.html
-· USDBRL Ouro fecha abaixo dos US$ 4 mil com alta do dólar e tensões entre EUA e Irã (Money Times) https://www.moneytimes.com.br/ouro-fecha-abaixo-dos-us-4-mil-com-alta-do-dolar-e-tensoes-entre-eua-e-ira-davs/
-· INTC Intel CEO Lip-Bu Tan on turnaround efforts amid stock slump: 'I feel called to do this' (Yahoo Finance) https://news.google.com/rss/articles/CBMi3AFBVV95cUxNTmp0em1oU1VFaW51Y1Q2TnNIM0hENVVRQ0pnV1JTRXZzRFc4cHltcmdNcmJsR2R2Z1A0TlRPUzZZYS1YWkJZcXB1MlhzTFkxVUthSTVHdnRFNjRtbWo2REViajV4T2NUanFCNVdfUE1seTdObzdHRFNTZFZuNm5vd0FhQUlMU2UyZ0E1UUFMRGhMcXcwTmwtZDlLVmNuRFpLa1dsUHlDa0ExQXNNNzVMSVp0aW5zVDRhcHJMamJYMFdfVjlKdC1OUTM5Q3RvRFpESzNrUGJSTnRWUkNw?oc=5
-· BBAS3 Banco do Brasil promete medidas para recuperar rentabilidade (CNN Brasil) https://news.google.com/rss/articles/CBMitAFBVV95cUxPNTg2MHlEazhQVzNZVW1wSFBFcFB0RnRSVjdhRmthaF95UHFNTS1BUWJUamZCazRqZWJZM0JqNmFLVmdDNzFRX0hLcnlvQ0NyT0xzSHZMem1JRm9CdDNnWFRlVjVXUFpMRmNFX0xCWWo4UlRDWUxURzF5U0NCaXFqSHhjeV9QYVlndGlPbkFYN2s5bjBBdVRwSmJfUUVabmVaQmM3NzdFTjlRMlBvWmw5RGpLLW8?oc=5
-· GOOGL OpenAI, Google, Anthropic hit with lawsuit seeking halt to frontier AI development (TradingView (Reuters)) https://news.google.com/rss/articles/CBMi5AFBVV95cUxNcEFMdGNmZlBEMkJaYkVMQWVMRVlkdnFXWlAtSVNaV2laQ3RlOEJjTzIta1VjU2xsOWIzeEtRZUM1bVNSb0tVRTEwdmZsV1JRSEluLWRTV25DRXQ2WXpUdTZuME8zVUVobmcwZi1ZbVprb3ZSZ0dMTWdHdUl2SEVvV3psamZqTnMtS3g2WnRyemNqS2MzbVF3NTRBX1VxbjI1WmpSOGtaV1o3bzBEXzN6RzQ2SGRJWGpkNE9TenFqeC1wNEg5NE9Qd3AwRkZaX0t3a1F0VXA0QmV5QVA4aUt1TjdUYjI?oc=5
-· ITUB4 MRV surpreende no balanço, mas endividamento elevado afasta Itaú BBA das ações (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/mrv-surpreende-no-balanco-mas-endividamento-elevado-afasta-itau-bba-das-acoes/
-· BBAS3 Banco do Brasil não contava com persistência do "risco moral" no agro, diz CEO (UOL Economia) https://economia.uol.com.br/noticias/reuters/2026/11/12/banco-do-brasil-nao-contava-com-persistencia-do-risco-moral-no-agro-diz-ceo.htm
-· GOOGL OpenAI, Google, Anthropic hit with lawsuit seeking halt to frontier AI development (Reuters) https://www.reuters.com/business/openai-google-anthropic-hit-with-lawsuit-seeking-halt-frontier-ai-development-2026-11-12/
-· AMD Why AMD Shares Are Surging and What a $10,000 Investment in the Stock Could Be Worth in 3 Years (Yahoo Finance) https://news.google.com/rss/articles/CBMilAFBVV95cUxQVUNkTl9ZNndkTTVPOTRJUm5ZdFhqU01FOG92ZzRzdWtRdkw1WENXNFNUbWZJa0ljY2JscGVsUUl6aWN1amQzbTVBb3d3cmw2dVl2MjhIejJrTUdLRTBFOHVNVzBaOEp0VW0zV0tvNTVPaVpscGttTzRZbmZMS0F1SndpdTZPVUNHNnV0dUt3d0h1VUw0?oc=5
-· NVDA Breakingviews - COMMENTARY: Nvidia stock discounts China, but not other risks (Reuters) https://news.google.com/rss/articles/CBMiqAFBVV95cUxPTGlvRFZjcC1oT0hVMW5Ja24yMGhVXzkyeVBOb0V6bWZ3a1IyVzZpLVhCVkpHck1mVWQxUm5wbkFpcjRSVHN3aktDSF9KNkFLNlVYTVQ0QlRCbEg3Y0FiWVROaXJ1UmpyeFpXUTZKcUF4Umx0SldENDE0dEgwZ0RXczBiQnpfMUQzLTdhc2dINEppekRDWUlYaFZBSzRZNkJXdnUzaGlfYU8?oc=5
-· NVDA Nvidia CFO solid pick for interim CEO, but company outlook is clouded, Wall Street says (Yahoo Finance) https://news.google.com/rss/articles/CBMi3gFBVV95cUxQblRzWUc0cE1hb1dwbjNCVWY2UEtTSEFnQWJlTmhYaEtMZ1FJYkZ6dlFZdDhUV2dSRVNXbHZza25fMmUxT2JwRllTOFVzMnpmck1JYmhXSng1aGdld1JhbjFWTGE4R2NlbnNrdS1wQ082ci1ENFFKQ1ZlMmtzRHVzcjI3T1RRcVh2emJnYnNMLW5tZHZwOF9Bcl95NzlnMXhQQ3hucGRZb0pTZElDajFFX0I1UmtvYUY5TDBqN0RGakFfUnAydkVhMVY4R0Z4RFFOME1RWjZPVnNIdjlQRXc?oc=5
-· INTC Intel CEO Lip-Bu Tan sees a 'healthy pullback' ahead in the AI boom (Yahoo Finance) https://news.google.com/rss/articles/CBMisgFBVV95cUxQaWtwUTNRakhsdzVCME1ZdDhyMEs4eFdIeHN4VUlHdkVDMWxjTU9wU28wMVlWQnoxRzA4Tkw5Ti1taXlKWFdRSGNkUFR0T2FFSk1QVU91UUNjT3VrdnJwb2VEb0pyNDRzZTVHX1FuSElqOWcwZ283Y2Rsc19XQ1l4N196MmhGZ2stOUl5OVFzZWdvc1hCYW9Ka3hrbDlJbFFuUXRhckhsN2dSeXJRdnM5dXh3?oc=5
-· NVDA TSMC Stocks Fall 2.21% as NVIDIA Shake-Up Overshadows Record October Revenue (Yahoo Finance) https://news.google.com/rss/articles/CBMijwFBVV95cUxORmxpdjhiUlZfRExUZXlUOHRuWmp0cWRuV3htQTdpcTk1VjJKT0ZYYzQ4MzBPeXNraUloRGI0b2JLdC1STHZsZno2eUtRbHRPejhEUzNWak94cWVpQ1g3QnpzRzh6c1I5SGkwWldjUVVUcmdZUDJxZ2U5d1Rkcm90VFRwTHhKTXgxTko2WlZqVQ?oc=5
-· EQTL3 Grupo Equatorial registra resultados mistos no 3º tri de 2026 (Investing.com) https://news.google.com/rss/articles/CBMitwFBVV95cUxQNUZSN3hndmJMZldRdmsyWFdhWjVBTUxDTHhSUTNRdVN1NllCZU5PNU9kRU0xVW9XeGJLamtIeFl0Y0FpYkF0bzZPTndtdDd1MHVCdW5nR0Fpc3pUSi1oWXI4SHJYRUgzUWRGSHdnd3dFb1d4ZGQ1WktKZ2J2SXNISE84aEl5QUNxcW9TVkx1RlQ1eWx6UnRXTGNUVm1PSnBid0NqQndmWi1fekZCX21Eam5xMC0yQ3M?oc=5
-· NVDA Anthropic’s blockbuster IPO just got harder after Jensen Huang’s dramatic exit as Nvidia CEO (Fortune) https://news.google.com/rss/articles/CBMigwFBVV95cUxOaGgwMUQ0a24yanhHM3hQZ0owamNHdC1PRGwtV2M2d2x2bks3Z2hWbWpGZ1FmbE5jRXZJR2hmLUUtLU1IRnNYU2EtNWU2UzJrQVFRQ3UwaVJ6SF8wS0RCUDlxVUdfYm9NUnNOMHZPUUc5MDQ1dUxjNjB0VThfcURQM3JXWQ?oc=5
-· NVDA Tesla Vs. Nvidia: The Regulatory Crosshairs are Trained on These Two Mag 7 Shares, One is Worse Off (Yahoo Finance) https://news.google.com/rss/articles/CBMipAFBVV95cUxNYkVJQ3Y4RHJKakkxTi1MY2pJaDhHdG5tR2Vqd1lGTVlZd2hfWkg1UUh3bXBNTnB5QXFPeHo2YUJKV2lFcF81V2lnYm1BOFNaemRUa19GOFgxbHlGbUdNaHVqLWJkb1JfQzJBYmduamc3SVFmc0h1NmtZSG1xcEE4VzJFak1pVVlsbWNmblREUkJMdHdYNVY0ajVSR2NsaVdTdjNYbA?oc=5
-· NVDA AI stocks pare losses as investors assess fallout of Nvidia CEO's exit (Reuters) https://news.google.com/rss/articles/CBMiuwFBVV95cUxOTDc4NU9Ycko1b01GTVdRT1lMVzJWaEhrLS1OSU92el9GTTRMSEhyTW5VbThOZEhoVGNCbHNBU19EZS1UUlNiTW0wVU41RUdBVkJpQlNRazBvaHJFQ2VnT2FJU183NE9ub1RKQU5wMFp6N1luX3lrMFZubFVIaHJ0TWhZRVkyUzhJVjBsaDRlMEpKNUFLeWtITVhLRVhqOERFMzh0azNJeVlqVzI0ZUowcnV4Z3VYMUdXcFY0?oc=5
-· AVGO Broadcom: Jensen Huang's Resignation Is A $2 Trillion Game Changer (NASDAQ:AVGO) (Seeking Alpha) https://news.google.com/rss/articles/CBMikwFBVV95cUxONUNrRjNYRndObU1GVFZCaVgzWWhmWXBMbDB5UXBTNEtEcnJKa2NvU21LZ3ZXNFhvQ1JhUHMtU1RsM2E0UkJLQ2J3T3NIYTVJcXZBenN6N1ZRMXYyYjdYSzRmM3FxSXZxQ2tmMEJGMmVIeHViMExCUU80anh6cGdBbGFYTmxyRF9KNm8xOEVzX05kMGM?oc=5
-· INTC Yahoo Finance Invest: Intel CEO Lip-Bu Tan (Yahoo Finance) https://news.google.com/rss/articles/CBMikgFBVV95cUxPeXB0Vzg4WG9NNFhCQ01TOHBuWWNWdms0NE5XTDNrX01aZG5GSFhTU1ZNRVpzRWJGeERyN2xCVWVVNzJNTTdSVFNaVUtPcVUwVVpieVpJbV9jVkZsOFJMUkVqTUozMmNWTmxIMHp5R191WmNFOWRTTnVieW9VVWpMbWlXYmE4WENDd0UtQ1AyLWR6Zw?oc=5
-· NVDA Michael Burry Says Nvidia’s Biggest Problem Isn’t Jensen Huang (Yahoo Finance) https://news.google.com/rss/articles/CBMingFBVV95cUxONjh3UXgxc0JkVDVWRVAxdWs5eklFWEFlUEk2OEJrYjZycldzY0NsdV9BelFvT1BpaWpVMHgxSldCZWhFZWVZeTdaM3dIbnctNlQ2MDR1V29PTHRrNUEwYXhYb3RZcW9jZkRabWZwZDJ2T21LYnFLSGlWanRhZWROUjZTZWg5TWg4Z2JKMXoyNS1WZDhMeUZ2QkhYRmZLdw?oc=5
-· NVDA Nvidia Stock Sinks as Jensen Huang Ouster Report Sends Investors Toward AMD, Broadcom (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/nvidia-stock-sinks-jensen-huang-002504447.html
-· NVDA Nvidia Tumbles as Investors Consider Future Without CEO Huang (Bloomberg) https://www.bloomberg.com/news/articles/2026-11-11/nvidia-tumbles-as-investors-consider-future-without-ceo-huang
-· BTC Cryptocurrencies: Bitcoin Down 5% This Week (Seeking Alpha) https://seekingalpha.com/article/4966730-cryptocurrencies-bitcoin-down-5-percent-this-week
-· NVDA Nvidia’s Disappearing Singapore Sales Deepen Mystery Around Megaspeed (The Wall Street Journal) https://news.google.com/rss/articles/CBMitgFBVV95cUxQTVMxMWYtSHpfTEN1dUVzcTRpZDBkRUR4ZVBENFJxODZHaEg5WHp0ekZFdENtZEZrNDl5eENKWW11LVJFSGd4T0Y0TVNEQU0wRUhoMW5HMVdsUmZmQThZVV9WdmVXc3ZGM0F5Wk1kRlM0TEFXbG51WUNyWGt3WXlRU1I2cmNoNmNocEtkdkktdU9NTVA1dUhiWHlYRG44aUxTM3VlVmdzOU41T3Z4aGxKbkw4VG5RZw?oc=5
-· NVDA Nvidia Export Curbs Could Shift AI Demand Toward These Data Center Stocks (Yahoo Finance) https://news.google.com/rss/articles/CBMimwFBVV95cUxPVTJUV2NtRlFXRDJLbmcwQmp2Zk1FTnJ2MDlNUGM5c0htWHFVZ3RBLXdvcWtVc3NFUFRpRzNmUGozY3pROG90U2c5cDFSQ09Xbm1jLWhRVGhyZFhjcFVwSkVZQnFTTVAtREFyU011VlJhUkV1eUtwQjZNdHNhZmRQWXlaVnhFZ2MwTHdKaWNGWDBtOGxrSlFXTHE5VQ?oc=5
-· NVDA CoreWeave Reportedly Plans $4B Investment-Grade Loan After Strong Earnings Beat — But Shares Fall After-Hours On Nvidia CEO Drama (Yahoo Finance) https://news.google.com/rss/articles/CBMiqAFBVV95cUxOWmdDMGtMT3hxb0duZVJVZG1RWWJzVjNKWTNGOTV2ZGwyVmFmWFFSOUU0OTRma3FqYlVnUG5KeFJ0RGk5VDZPc1RRX0p6bF9ENWU5VmIxa2RJNm9IaUNZckZWWXlwbjhRdkRTQkkzZk9uZ1RtVmFCTVRWbEo4aTJ3SlN4aGo3NnRITENILWwzMXRFM1VTdHRoMVZWN2xrLVBuZmUzVnk1LTQ?oc=5
