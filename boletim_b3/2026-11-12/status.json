@@ -1,8 +1,8 @@
 {
  "pregao": "2026-11-12",
- "situacao": "publicando",
+ "situacao": "atrasado",
  "errata": false,
- "atualizado_em": "2026-11-13T04:05:38.303",
+ "atualizado_em": "2026-11-13T08:43:31.73",
  "completo": {
   "arquivo": "",
   "pdf": ""
@@ -12,9 +12,9 @@
    "id": 1,
    "nome": "Renda fixa",
    "pai": null,
-   "situacao": "publicando",
+   "situacao": "",
    "errata": false,
-   "atualizado_em": "2026-11-13T02:42:49.953",
+   "atualizado_em": "2026-11-13T08:40:07.513",
    "arquivo": "",
    "pdf": ""
   },
@@ -42,9 +42,9 @@
    "id": 2,
    "nome": "Indicadores e informativos",
    "pai": 20,
-   "situacao": "publicando",
+   "situacao": "atrasado",
    "errata": false,
-   "atualizado_em": "2026-11-13T04:02:31.547",
+   "atualizado_em": "2026-11-13T08:43:31.73",
    "arquivo": "",
    "pdf": ""
   },
@@ -54,7 +54,7 @@
    "pai": 20,
    "situacao": "atrasado",
    "errata": false,
-   "atualizado_em": "2026-11-13T02:12:25.077",
+   "atualizado_em": "2026-11-13T08:04:36.82",
    "arquivo": "",
    "pdf": ""
   },
@@ -72,9 +72,9 @@
    "id": 33,
    "nome": "Derivativos de balcão",
    "pai": 3,
-   "situacao": "publicando",
+   "situacao": "atrasado",
    "errata": false,
-   "atualizado_em": "2026-11-13T01:13:00.627",
+   "atualizado_em": "2026-11-13T08:04:36.82",
    "arquivo": "",
    "pdf": ""
   },
@@ -82,21 +82,21 @@
    "id": 34,
    "nome": "Derivativos de bolsa",
    "pai": 3,
-   "situacao": "publicando",
+   "situacao": "publicado",
    "errata": false,
-   "atualizado_em": "2026-11-13T02:13:29.287",
-   "arquivo": "",
-   "pdf": ""
+   "atualizado_em": "2026-11-13T00:00:00",
+   "arquivo": "BDI_03-4_20261112.pdf",
+   "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-11-12/BDI_03-4_20261112.pdf"
   },
   {
    "id": 41,
    "nome": "Clearing e depositária",
    "pai": 4,
-   "situacao": "republicado",
+   "situacao": "publicado",
    "errata": false,
-   "atualizado_em": "2026-11-13T04:05:38.303",
-   "arquivo": "BDI_04-1_20261112.pdf",
-   "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-11-12/BDI_04-1_20261112.pdf"
+   "atualizado_em": "2026-11-13T08:42:51.807",
+   "arquivo": "",
+   "pdf": ""
   },
   {
    "id": 42,

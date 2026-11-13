@@ -7,7 +7,7 @@
  "colunas": [{"nome": "TckrSymb", "titulo": "Emissor"}, {"nome": "Code", "titulo": "Código ISIN"}, {"nome": "EarningsType", "titulo": "Tipo de provento"}, {"nome": "DateAge", "titulo": "Data de aprovação"}, {"nome": "Value", "titulo": "Valor (R$)"}, {"nome": "CreditDate", "titulo": "Data de crédito"}],
  "texto": ["Crédito de proventos é o montante recebido por investidores como retorno sobre investimentos em ações ou outros ativos de renda variável. Nesta tabela, estão informações sobre esses rendimentos."],
  "situacao": "republicado",
- "atualizado_em": "2026-11-13T04:01:58.317",
+ "atualizado_em": "2026-11-13T08:42:51.807",
  "truncada": false,
  "linhas": [
   ["ITAU CREDITO IMOBILIARIO CDI FII RESP LIM", "BRICDIR10M16 108", "RENDIMENTO", "2026-10-30", 1.07, "2026-11-12"],
@@ -48,8 +48,8 @@
   ["ITAU CREDITO IMOBILIARIO CDI FII RESP LIM", "BRICDIR08M10 107", "RENDIMENTO", "2026-10-30", 0.75, "2026-11-12"],
   ["KINEA PLATAFORMA RESIDENCIAL FUN DE I. IMOB RES LI", "BRKNPLR07M15 103", "RENDIMENTO", "2026-10-30", 0.71, "2026-11-12"],
   ["KINEA UNIQUE HY CDI FII RESP LIM", "BRKNUQR32M12 143", "RENDIMENTO", "2026-10-30", 1.06, "2026-11-12"],
-  ["ALLIED TECNOLOGIA S.A.", "BRALLDACNOR3 110", "JUROS SOBRE CAPITAL PRÓPRIO", null, 0.48124087968, "2026-11-12"],
   ["ALLIED TECNOLOGIA S.A.", "BRALLDACNOR3 110", "JUROS SOBRE CAPITAL PRÓPRIO", null, 0.14400963736, "2026-11-12"],
+  ["ALLIED TECNOLOGIA S.A.", "BRALLDACNOR3 110", "JUROS SOBRE CAPITAL PRÓPRIO", null, 0.48124087968, "2026-11-12"],
   ["CAIXA RIO BRAVO FDO DE FDOS INV IMOB II RESP LIM", "BRCRFFCTF006 189", "RENDIMENTO", "2026-11-03", 0.65, "2026-11-12"],
   ["PENTAIR PLC", "BRP1NRBDR003 126", "DIVIDENDO", "2026-09-21", 1.438627451, "2026-11-12"],
   ["KINEA PLATAFORMA RESIDENCIAL FUN DE I. IMOB RES LI", "BRKNPLR05M17 103", "RENDIMENTO", "2026-10-30", 0.71, "2026-11-12"],
