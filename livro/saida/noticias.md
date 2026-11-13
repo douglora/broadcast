@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 12/11 17h43
+NOTÍCIAS E FATOS · 12/11 22h45
 
-Pernas: noticias ok 18 novas (18 consultas; descartadas: 370 veículo fora da lista, 45 sem ativo, 16 teto) · cvm ok 0 novos de 0 (0 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 17 novas (18 consultas; descartadas: 378 veículo fora da lista, 36 sem ativo, 33 teto) · cvm ok 0 novos de 0 (0 cias casadas) · sec ok 0 novos em 3 dias
 
 ## SEC (8-K, 6-K, 10-Q, 10-K) (2)
 
@@ -18,7 +18,7 @@ Por que importa: troca de diretor ou conselheiro reabre a discussao de estrategi
 Ativos: NVDA
 Como falar: 'a NVDA protocolou 8-K na SEC (5.02 entrada ou saida de diretor ou conselheiro)'
 Fonte: SEC EDGAR 2026-11-12
-id: E04-NVDA-26000082-2026-11-12 · status: pendente · íntegra disponível
+id: E04-NVDA-26000082-2026-11-12 · status: expirado · íntegra disponível
 
 [INFO] E04 · TSM · 6-K: 6-K
 SEC EDGAR · aceito 12/11 10h03 · 6-K
@@ -32,7 +32,31 @@ Fonte: SEC EDGAR 2026-11-12
 id: E04-TSM-26000800-2026-11-12 · status: linha · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (19)
+## NOTÍCIAS COM MATERIALIDADE (21)
+
+[ATENÇÃO] E05 · NVDA · AMD, Broadcom stocks jump as Nvidia CEO Jensen Huang resigns
+Yahoo Finance · 12/11 18h23 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – AMD (AMD) stock rose about 5% while Broadcom (AVGO) jumped as much as 5% Thursday morning following news that Nvidia CEO Jensen Huang resigned and the company board named CFO Colette Kress as interim chief executive off…
+  – The speculation followed an X post from Musk, who replied "That would be an honor" to a ZeroHedge post urging, "Elon, please hire Jensen." Sentiment around the rest of the AI trade, however, soured, particularly among c…
+  – Shares of Nvidia-backed neocloud provider CoreWeave (CRWV) dropped 6%, giving back some of the prior session's gains sparked by a strong quarterly print.
+  – Peer Nebius (NBIS) also sank 16%.
+  – Meanwhile, shares of Taiwan Semiconductor Manufacturing Company (TSM), which manufactures Nvidia chips, also fell nearly 2%.
+Link: https://ca.finance.yahoo.com/news/nvidia-stock-sinks-but-rivals-amd-broadcom-rise-133910081.html
+Por que importa: troca no comando reabre a discussao de estrategia e de alocacao de capital
+Ativos: NVDA · AMD · AVGO
+Como falar: 'saiu no Yahoo Finance: AMD, Broadcom stocks jump as Nvidia CEO Jensen Huang resigns; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 12/11 18h23
+id: E05-NVDA-52b24ebf50-2026-11-12 · status: pendente
+
+[ATENÇÃO] E05 · NVDA · Explainer: Tougher curbs on AI chip sales to China likely after Nvidia CEO resigns
+Reuters · 12/11 16h08 · fonte única · licença: manchete
+Link: https://www.reuters.com/world/china/tougher-curbs-ai-chip-sales-china-likely-after-nvidia-ceo-resigns-2026-11-12/
+Por que importa: troca no comando reabre a discussao de estrategia e de alocacao de capital
+Ativos: NVDA
+Como falar: 'saiu no Reuters: Explainer: Tougher curbs on AI chip sales to China likely after Nvidia CEO resigns; confirmar o número no texto antes de repassar'
+Fonte: Reuters 12/11 16h08
+id: E05-NVDA-459a99d4c5-2026-11-12 · status: pendente
 
 [ATENÇÃO] E05 · PETR4 · Petrobras dá novo passo no etanol e compra transportadora por R$ 620 milhões
 Exame · 12/11 16h40 · fonte única · licença: resumo
@@ -75,7 +99,7 @@ Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir
 Ativos: UGPA3
 Como falar: 'saiu no ADVFN: Ultrapar aprova R$ 1,08 bilhão em dividendos e pagará R$ 1 por ação em dezembro; confirmar o número no texto antes de repassar'
 Fonte: ADVFN 12/11 15h43
-id: E05-UGPA3-41804f13c5-2026-11-12 · status: pendente
+id: E05-UGPA3-41804f13c5-2026-11-12 · status: expirado
 
 [ATENÇÃO] E05 · PETR4 · Petrobras e PRIO podem ter dividend yield de até 20% em 2027, estima Goldman
 InfoMoney · 12/11 14h50 · fonte única · licença: resumo
@@ -91,7 +115,7 @@ Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir
 Ativos: PETR4
 Como falar: 'saiu no InfoMoney: Petrobras e PRIO podem ter dividend yield de até 20% em 2027, estima Goldman; confirmar o número no texto antes de repassar'
 Fonte: InfoMoney 12/11 14h50
-id: E05-PETR4-54773b6cc3-2026-11-12 · status: pendente
+id: E05-PETR4-54773b6cc3-2026-11-12 · status: expirado
 
 [ATENÇÃO] E05 · NVDA · Applied Digital Sinks 8% as Nebius Outlook and NVIDIA CEO Exit Hit AI Data Center Stocks; Cipher Digital Falls 4%, TeraWulf Slides 3%
 Yahoo Finance · 12/11 13h10 · fonte única · licença: resumo
@@ -107,7 +131,7 @@ Por que importa: troca no comando reabre a discussao de estrategia e de alocacao
 Ativos: NVDA
 Como falar: 'saiu no Yahoo Finance: Applied Digital Sinks 8% as Nebius Outlook and NVIDIA CEO Exit Hit AI Data Center Stocks;…; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 12/11 13h10
-id: E05-NVDA-dba12bf4fe-2026-11-12 · status: pendente
+id: E05-NVDA-dba12bf4fe-2026-11-12 · status: expirado
 
 [ATENÇÃO] E05 · NVDA · Jensen Huang Just Resigned, and Nvidia Stock Has Fallen 35% From Its All-Time High. I Still Think It's a Buy.
 Yahoo Finance · 12/11 13h09 · fonte única · licença: resumo
@@ -268,8 +292,23 @@ Fonte: Seu Dinheiro 11/11 21h10
 id: E05-BBAS3-5cbb3e88ef-2026-11-12 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (36)
+## OUTRAS NOTÍCIAS (só manchete) (51)
 
+· USDBRL Waack: Dólar sobe e conta da demora de Lula fica mais cara (CNN Brasil) https://www.cnnbrasil.com.br/economia/money/macroeconomia/waack-dolar-sobe-e-conta-da-demora-de-lula-fica-mais-cara/
+· NVDA Nvidia suddenly changed how it reported revenue in Singapore, correlating with Megaspeed scrutiny (Fortune) https://fortune.com/2026/11/12/nvidia-changed-earnings-report-format-singapore-revenue-megaspeed-probe-colette-kress/
+· BBAS3 Banco do Brasil atribui queda no lucro principalmente à inadimplência do agronegócio; ações caíram mais de 8% (g1) https://g1.globo.com/jornal-nacional/noticia/2026/11/12/banco-do-brasil-atribui-queda-no-lucro-principalmente-a-inadimplencia-do-agronegocio-acoes-cairam-mais-de-8percent.ghtml
+· BBAS3 Produtores de soja rebatem Banco do Brasil sobre dívidas do agro; estatal nega ter culpado todo o setor (g1) https://g1.globo.com/economia/agronegocios/noticia/2026/11/12/nota-aprosoja.ghtml
+· USDBRL Ibovespa cai com fiscal e balanços no radar; dólar dispara a R$5,65 (TradingView (Reuters)) https://br.tradingview.com/news/reuters.com,2026:newsml_L2N46T1P2:0/
+· USDBRL Dólar fecha na maior cotação desde junho de 2025 (g1) https://g1.globo.com/google/amp/jornal-nacional/video/dolar-fecha-na-maior-cotacao-desde-junho-de-2025-15183890.ghtml
+· BBAS3 Banco do Brasil tem pior reação a um balanço em 18 meses perde R$ 8 bi na bolsa (Exame) https://exame.com/invest/mercados/banco-do-brasil-tem-maior-queda-diaria-em-18-meses-perde-r-8-bi-na-bolsa/
+· NVDA Baird Cut Its Nvidia (NVDA) Target From $500 to $200. Here’s What It Wants Next (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/baird-cut-nvidia-nvda-target-231726498.html
+· INTC Intel: Upgrading To 'Strong Buy' After The 38% Sell-Off (NASDAQ:INTC) (Seeking Alpha) https://seekingalpha.com/article/4967383-intel-upgrading-to-strong-buy-after-the-38-percent-sell-off
+· MRVE3 MRV espera vendas mais fortes e benefício com reforma tributária e mudança de jornada (Valor Economico) https://valor.globo.com/empresas/noticia/2026/11/12/mrv-espera-vendas-mais-fortes-e-beneficio-com-reforma-tributaria-e-mudanca-de-jornada.ghtml
+· SAPR4 Sanepar lucra R$ 302,5 milhões no 3º trimestre (Valor Economico) https://valor.globo.com/empresas/noticia/2026/11/12/sanepar-lucra-r-3025-milhoes-no-3o-trimestre.ghtml
+· UST Gold sinks to more than one-year low as Fed rate hike bets boost dollar, Treasury yields (TradingView (Reuters)) https://www.tradingview.com/news/seekingalpha:847f96b73094b:0-gold-sinks-to-more-than-one-year-low-as-fed-rate-hike-bets-boost-dollar-treasury-yields/
+· USDBRL Dólar dispara 1,58% e fecha a R$ 5,65, maior nível em 17 meses (Agencia Brasil) https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/dolar-dispara-158-e-fecha-r-565-maior-nivel-em-17-meses
+· BBAS3 Ibovespa cai, BB (BBAS3) afunda 8% e dólar dispara: o que pesou na Bolsa? (Suno Noticias) https://news.google.com/rss/articles/CBMia0FVX3lxTE9YRDlxOW5TR1NQdEdkV2tsa21tOGQ5ZkpqQlpQQ25DZ1NnUmlvSkZXZzR1WnRKaDJnTGJqTHdyTjBKRURvQUJSTGttSVNlR09kcDU2U0ZPS1B1VzFwMFJhTkg1OWNwT2RETHo40gFwQVVfeXFMTUV6ZjhDcHBRWWlDMW8wUVUydnBwdjI2QjRXcXRqRktwMjNvU2ZOTzFRQzJ4VjEtTzljcVB3cTFKX2dtZi1MVW1kWTJWRXBqNlp3V1B4VWI4Vmx6bW5xMHAzWmdJN3ItOVprd1NncDJZaQ?oc=5
+· NOK What Does Nokia Oyj (HLSE:NOKIA) Winning An AI Network Deal Signal? (Yahoo Finance) https://news.google.com/rss/articles/CBMikwFBVV95cUxOTkhTSjdWSWJ6RGVBVzBBc3RPRzViVTlCMzlzODhvSGV3NG5tYXJUZm4tU2xrSlJIWDR6TExBU3ktLXBaekJzYmk3bkhaWkEwU2ZzbWpDQ1JfMTZFdzFrbTFFUDh2eFBQaHN3dF9BcG5DaUo5SVB5VGNtUUVYNkpzUTJ4bVNocTlJRnNyQmZjVlVrUmM?oc=5
 · NVDA Tim Cook for Nvidia CEO? Trump and the world ponder who's next (Reuters) https://www.reuters.com/legal/transactional/tim-cook-nvidia-ceo-trump-world-ponder-whos-next-2026-11-12/
 · USDBRL Dólar sobe forte e fecha a R$ 5,6519 com incertezas sobre o ajuste fiscal (Money Times) https://www.moneytimes.com.br/dolar-12-11-2026-davs/
 · USDBRL Dólar à vista fecha em alta de 1,58%, a R$5,6507 na venda Por Reuters (Investing.com) https://br.investing.com/news/forex-news/dolar-a-vista-fecha-em-alta-de-158-a-r56507-na-venda-2125679
