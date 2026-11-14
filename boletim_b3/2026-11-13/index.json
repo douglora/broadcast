@@ -1,6 +1,6 @@
 {
  "pregao": "2026-11-13",
- "coletado_em": "2026-11-14T11:51:37Z",
+ "coletado_em": "2026-11-14T17:17:52Z",
  "tabelas": {
   "SharesInvesVolum": {
    "titulo": "Participação dos investidores",
@@ -21,7 +21,7 @@
   "EconomicIndicators": {
    "titulo": "Indicadores econômicos",
    "situacao": "republicado",
-   "atualizado_em": "2026-11-14T08:43:06.017",
+   "atualizado_em": "2026-11-14T10:52:38.177",
    "sla": "8:00:00",
    "linhas": 434,
    "truncada": false
