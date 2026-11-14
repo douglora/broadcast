@@ -1,5 +1,5 @@
 {
- "pregao": "2026-11-12",
+ "pregao": "2026-11-13",
  "nome": "InCashMarketBiggestLow",
  "titulo": "Mercado à vista - maiores baixas",
  "sla": "8:00:00",
@@ -7,18 +7,18 @@
  "colunas": [{"nome": "TckrSymb", "titulo": "Ação"}, {"nome": "Cod", "titulo": "Código"}, {"nome": "Price", "titulo": "Preço (R$)"}, {"nome": "OscillationDesc", "titulo": "Oscilação (%)"}],
  "texto": ["Mostra as maiores desvalorizações de ativos no mercado à vista num período."],
  "situacao": "publicado",
- "atualizado_em": "2026-11-12T18:50:13.57",
+ "atualizado_em": "2026-11-13T19:10:29.737",
  "truncada": false,
  "linhas": [
-  ["AZTE1", "DIR ORD", 0.01, -50],
-  ["RCFA11", "CI", 0.54, -41.93],
-  ["UCAS3", "ON      NM", 0.7, -25.53],
-  ["RAIZ16", "DIR UNT N2", 0.06, -25],
-  ["CASN3", "ON", 4.56, -24],
-  ["C1TV34", "DRN", 13.2, -21.7],
-  ["RAIZ14", "DIR PNB N2", 0.11, -21.42],
-  ["AMER3", "ON      NM", 4.05, -20.11],
-  ["C1AB34", "DRN", 16.7, -16.5],
-  ["RAIZ1", "DIR ORD N2", 0.11, -15.38]
+  ["AZTE11", "BNS ORD", 0.05, -28.57],
+  ["MAPT4", "PN", 2.01, -19.6],
+  ["AALR3", "ON      NM", 1.31, -18.63],
+  ["DAMA11", "CI", 4.12, -13.44],
+  ["AGXY3", "ON      NM", 0.2, -13.04],
+  ["FHER3", "ON      NM", 2.55, -12.06],
+  ["CSNA3", "ON", 3.72, -12.05],
+  ["RZDL11", "CI", 77.1, -9.4],
+  ["AZUL97", "UNT     N2", 1, -9.09],
+  ["DPRO11", "CI  ER", 4.63, -9.03]
  ]
 }

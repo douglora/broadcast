@@ -1,7 +1,7 @@
 # Boletim da B3: pregão de 12/11/2026 (quinta)
 
 **Situação: COMPLETO.** Boletim publicado pela B3 em 2026-11-13 00:00 (hora de Brasília).
-Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-11-13T18:43:45Z (UTC).
+Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-11-14T01:04:03Z (UTC).
 
 [[LEITURA_DA_MESA]]
 
@@ -332,6 +332,7 @@ Por classe, mediana das taxas de referência dos papéis. Taxa de referência: n
 ## Lacunas e pendências
 
 - aluguel por corretora: ignorado
+- Forward: falhou: HTTP 0 em https://arquivos.b3.com.br/bdi/table/Forward/2026-11-12/2026-11-12/1/1000
 - RepurchaseDealings: ignorado
 - Publicadas pela B3 depois do prazo, mas com dado: AnalyticalFramework2.
 - Posição em aberto de derivativos por tipo de investidor (estrangeiro, institucional, pessoa física): não existe no Boletim Diário do Mercado; procurado nas 69 tabelas e no texto dos 11 cadernos em 30/09/2026.

@@ -1,6 +1,6 @@
 {
  "pregao": "2026-11-12",
- "coletado_em": "2026-11-13T18:43:28Z",
+ "coletado_em": "2026-11-14T00:52:24Z",
  "tabelas": {
   "SharesInvesVolum": {
    "titulo": "Participação dos investidores",
@@ -128,14 +128,6 @@
    "atualizado_em": "2026-11-12T18:50:14.37",
    "sla": "8:00:00",
    "linhas": 5,
-   "truncada": false
-  },
-  "Forward": {
-   "titulo": "Ações mais negociadas - a termo",
-   "situacao": "republicado",
-   "atualizado_em": "2026-11-13T02:12:25.077",
-   "sla": "8:00:00",
-   "linhas": 9,
    "truncada": false
   },
   "OptionsPurshase": {
@@ -405,7 +397,9 @@
    "estado": null
   }
  },
- "falhas": {},
+ "falhas": {
+  "Forward": "HTTP 0 em https://arquivos.b3.com.br/bdi/table/Forward/2026-11-12/2026-11-12/1/1000"
+ },
  "rf_cadastro": {
   "papeis_no_dia": 1466,
   "consultados": 0,

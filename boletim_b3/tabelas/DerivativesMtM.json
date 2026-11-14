@@ -1,5 +1,5 @@
 {
- "pregao": "2026-11-12",
+ "pregao": "2026-11-13",
  "nome": "DerivativesMtM",
  "titulo": "Derivativos - mark to market",
  "sla": "20:00:00",
@@ -7,12 +7,12 @@
  "colunas": [{"nome": "TckrSymb", "titulo": "Série"}, {"nome": "XprtnDt", "titulo": "Data do vencimento"}, {"nome": "ClnrDays", "titulo": "Prazo em dias corridos"}, {"nome": "AdjstdQtTax", "titulo": "Taxa de mercado"}, {"nome": "SwpDscntFctr", "titulo": "Fator de desconto"}, {"nome": "MktVal", "titulo": "Valor de mercado"}],
  "texto": ["Mostra a avaliação atual das posições em derivativos, refletindo o valor de mercado das operações."],
  "situacao": "publicado",
- "atualizado_em": "2026-11-12T17:11:14.143",
+ "atualizado_em": "2026-11-13T17:11:36.61",
  "truncada": false,
  "linhas": [
-  ["SCSZ601", "2026-12-01", 19, -24.888, 0.986864666666666, 50665.5083405],
-  ["SCSF704", "2027-01-04", 53, -5.168, 0.992391555555555, 50383.3388344],
-  ["SCSG701", "2027-02-01", 81, -1.419, 0.99680725, 50160.1488151],
-  ["SCSH701", "2027-03-01", 109, 0.477, 1.00144425, 49927.8916424]
+  ["SCSZ601", "2026-12-01", 18, -6.103, 0.9969485, 50153.0420076],
+  ["SCSF704", "2027-01-04", 52, 1.727, 1.002494555555555, 49875.5825883],
+  ["SCSG701", "2027-02-01", 80, 3.147, 1.006993333333333, 49652.7616866],
+  ["SCSH701", "2027-03-01", 108, 3.893, 1.011679, 49422.7912213]
  ]
 }
