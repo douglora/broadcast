@@ -1,6 +1,6 @@
 {
  "pregao": "2026-11-13",
- "coletado_em": "2026-11-14T01:04:03Z",
+ "coletado_em": "2026-11-14T06:59:26Z",
  "tabelas": {
   "SharesInvesVolum": {
    "titulo": "Participação dos investidores",
@@ -21,9 +21,9 @@
   "EconomicIndicators": {
    "titulo": "Indicadores econômicos",
    "situacao": "republicado",
-   "atualizado_em": "2026-11-13T21:56:52.327",
+   "atualizado_em": "2026-11-14T03:53:00.77",
    "sla": "8:00:00",
-   "linhas": 211,
+   "linhas": 434,
    "truncada": false
   },
   "HistoricalExchange": {
@@ -44,16 +44,16 @@
   },
   "DailyAverageStocks": {
    "titulo": "Ações",
-   "situacao": "aguardando",
-   "atualizado_em": "2026-11-13T00:00:38.013",
+   "situacao": "atrasado",
+   "atualizado_em": "2026-11-14T00:00:38.5",
    "sla": "20:00:00",
    "linhas": 0,
    "truncada": false
   },
   "StocksOperationSummary": {
    "titulo": "Ações - resumo das operações",
-   "situacao": "aguardando",
-   "atualizado_em": "2026-11-13T00:00:38.013",
+   "situacao": "atrasado",
+   "atualizado_em": "2026-11-14T00:00:38.5",
    "sla": "20:00:00",
    "linhas": 0,
    "truncada": false
@@ -76,8 +76,8 @@
   },
   "ForwardMarket": {
    "titulo": "Mercado a termo",
-   "situacao": "aguardando",
-   "atualizado_em": "2026-11-13T00:00:38.013",
+   "situacao": "atrasado",
+   "atualizado_em": "2026-11-14T00:00:38.5",
    "sla": "20:00:00",
    "linhas": 0,
    "truncada": false
@@ -141,9 +141,9 @@
   "OptionsPurshase": {
    "titulo": "Ações mais negociadas - opções de compra",
    "situacao": "republicado",
-   "atualizado_em": "2026-11-13T21:40:51.883",
+   "atualizado_em": "2026-11-13T22:11:15.273",
    "sla": "8:00:00",
-   "linhas": 8,
+   "linhas": 10,
    "truncada": false
   },
   "OptionsSelling": {
@@ -157,15 +157,15 @@
   "DailyAverageDerivatives2": {
    "titulo": "Derivativos",
    "situacao": "republicado",
-   "atualizado_em": "2026-11-13T19:50:44.127",
+   "atualizado_em": "2026-11-13T22:40:45.177",
    "sla": "6:00:00",
    "linhas": 9,
    "truncada": false
   },
   "DerivativesOperation2": {
    "titulo": "Derivativos - resumo das operações",
-   "situacao": "publicado",
-   "atualizado_em": "2026-11-13T19:51:16.257",
+   "situacao": "republicado",
+   "atualizado_em": "2026-11-13T22:41:22.17",
    "sla": "8:00:00",
    "linhas": 104,
    "truncada": false
@@ -204,42 +204,42 @@
   },
   "OTCRegistrationWCCP": {
    "titulo": "Registro sem CCP",
-   "situacao": "aguardando",
-   "atualizado_em": "2026-11-13T00:00:38.013",
+   "situacao": "publicado",
+   "atualizado_em": "2026-11-14T02:22:44.537",
    "sla": "8:00:00",
-   "linhas": 0,
+   "linhas": 4,
    "truncada": false
   },
   "OTCRegistrationCCP": {
    "titulo": "Registro com CCP",
-   "situacao": "aguardando",
-   "atualizado_em": "2026-11-13T00:00:38.013",
+   "situacao": "publicado",
+   "atualizado_em": "2026-11-14T02:22:44.78",
    "sla": "8:00:00",
-   "linhas": 0,
+   "linhas": 3,
    "truncada": false
   },
   "OTCInventoryWCCP": {
    "titulo": "Estoque sem CCP",
-   "situacao": "aguardando",
-   "atualizado_em": "2026-11-13T00:00:38.013",
+   "situacao": "publicado",
+   "atualizado_em": "2026-11-14T02:22:45.113",
    "sla": "8:00:00",
-   "linhas": 0,
+   "linhas": 4,
    "truncada": false
   },
   "OTCInventoryCCP": {
    "titulo": "Estoque com CCP",
-   "situacao": "aguardando",
-   "atualizado_em": "2026-11-13T00:00:38.013",
+   "situacao": "publicado",
+   "atualizado_em": "2026-11-14T02:22:44.88",
    "sla": "8:00:00",
-   "linhas": 0,
+   "linhas": 3,
    "truncada": false
   },
   "ProventionCreditVariable": {
    "titulo": "Crédito de proventos",
-   "situacao": "aguardando",
-   "atualizado_em": "2026-11-13T00:00:38.013",
+   "situacao": "publicado",
+   "atualizado_em": "2026-11-14T00:00:43.973",
    "sla": "00:00:00",
-   "linhas": 0,
+   "linhas": 33,
    "truncada": false
   },
   "Custody": {
@@ -268,34 +268,34 @@
   },
   "COERegistration": {
    "titulo": "Registro",
-   "situacao": "aguardando",
-   "atualizado_em": "2026-11-13T00:00:38.013",
+   "situacao": "publicado",
+   "atualizado_em": "2026-11-14T02:22:45.113",
    "sla": "8:00:00",
-   "linhas": 0,
+   "linhas": 1,
    "truncada": false
   },
   "COEInventory": {
    "titulo": "Estoque",
-   "situacao": "aguardando",
-   "atualizado_em": "2026-11-13T00:00:38.013",
+   "situacao": "publicado",
+   "atualizado_em": "2026-11-14T02:22:45.207",
    "sla": "8:00:00",
-   "linhas": 0,
+   "linhas": 1,
    "truncada": false
   },
   "DebenturesBusiness": {
    "titulo": "Negócios de VM de renda fixa realizados no Puma",
-   "situacao": "aguardando",
-   "atualizado_em": "2026-11-13T00:00:38.013",
+   "situacao": "atrasado",
+   "atualizado_em": "2026-11-14T00:00:38.5",
    "sla": "20:00:00",
    "linhas": 0,
    "truncada": false
   },
   "SaleOff": {
    "titulo": "Liquidação",
-   "situacao": "aguardando",
-   "atualizado_em": "2026-11-13T00:00:38.013",
+   "situacao": "publicado",
+   "atualizado_em": "2026-11-14T03:12:27.303",
    "sla": "8:00:00",
-   "linhas": 0,
+   "linhas": 45,
    "truncada": false
   },
   "Stock": {
@@ -324,10 +324,10 @@
   },
   "DIover": {
    "titulo": "DI over",
-   "situacao": "aguardando",
-   "atualizado_em": "2026-11-13T00:00:38.013",
+   "situacao": "publicado",
+   "atualizado_em": "2026-11-14T01:12:48.457",
    "sla": "8:00:00",
-   "linhas": 0,
+   "linhas": 1,
    "truncada": false
   },
   "BTBLendingOpenPosition": {
@@ -340,10 +340,10 @@
   },
   "BTBLoanBalance": {
    "titulo": "Empréstimos registrados",
-   "situacao": "aguardando",
-   "atualizado_em": "2026-11-13T00:00:38.013",
+   "situacao": "publicado",
+   "atualizado_em": "2026-11-14T03:53:07.713",
    "sla": "8:00:00",
-   "linhas": 0,
+   "linhas": 4743,
    "truncada": false
   },
   "PreviaQuadrimestral": {
@@ -365,17 +365,17 @@
   "Trade": {
    "titulo": "Negócio a negócio",
    "situacao": "republicado",
-   "atualizado_em": "2026-11-13T19:16:27.37",
+   "atualizado_em": "2026-11-13T22:26:48.827",
    "sla": "18:00:00",
-   "linhas": 28282,
+   "linhas": 29402,
    "truncada": false
   },
   "BTBTrade": {
    "titulo": "Negócios",
-   "situacao": "aguardando",
-   "atualizado_em": "2026-11-13T00:00:38.013",
+   "situacao": "ignorado",
+   "atualizado_em": "2026-11-14T00:00:38.5",
    "sla": "21:00:00",
-   "linhas": 0,
+   "linhas": 66552,
    "truncada": false
   }
  },
@@ -398,10 +398,10 @@
   "DerivativesOpenPosition": "arquivo DerivativesOpenPosition: token HTTP 400"
  },
  "rf_cadastro": {
-  "papeis_no_dia": 1572,
-  "consultados": 27,
-  "achados": 3,
-  "sem_cadastro": 24,
+  "papeis_no_dia": 1574,
+  "consultados": 0,
+  "achados": 0,
+  "sem_cadastro": 0,
   "erros": 0,
   "ficaram_para_depois": 0,
   "no_cache": 3810

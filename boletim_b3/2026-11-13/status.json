@@ -1,11 +1,11 @@
 {
  "pregao": "2026-11-13",
- "situacao": "publicando",
+ "situacao": "publicado",
  "errata": false,
- "atualizado_em": "2026-11-13T21:56:52.327",
+ "atualizado_em": "2026-11-13T00:00:00",
  "completo": {
-  "arquivo": "",
-  "pdf": ""
+  "arquivo": "BDI_00_20261113.pdf",
+  "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-11-13/BDI_00_20261113.pdf"
  },
  "cadernos": [
   {
@@ -14,7 +14,7 @@
    "pai": null,
    "situacao": "publicando",
    "errata": false,
-   "atualizado_em": "2026-11-13T21:31:01.327",
+   "atualizado_em": "2026-11-14T03:12:27.303",
    "arquivo": "",
    "pdf": ""
   },
@@ -34,7 +34,7 @@
    "pai": 20,
    "situacao": "publicando",
    "errata": false,
-   "atualizado_em": "2026-11-13T21:43:27.37",
+   "atualizado_em": "2026-11-14T00:00:38.5",
    "arquivo": "",
    "pdf": ""
   },
@@ -44,7 +44,7 @@
    "pai": 20,
    "situacao": "publicando",
    "errata": false,
-   "atualizado_em": "2026-11-13T21:56:52.327",
+   "atualizado_em": "2026-11-14T03:53:00.77",
    "arquivo": "",
    "pdf": ""
   },
@@ -54,7 +54,7 @@
    "pai": 20,
    "situacao": "atrasado",
    "errata": false,
-   "atualizado_em": "2026-11-13T21:40:51.883",
+   "atualizado_em": "2026-11-13T22:11:15.273",
    "arquivo": "",
    "pdf": ""
   },
@@ -62,9 +62,9 @@
    "id": 31,
    "nome": "Resumo",
    "pai": 3,
-   "situacao": "publicado",
+   "situacao": "republicado",
    "errata": false,
-   "atualizado_em": "2026-11-13T19:55:38.063",
+   "atualizado_em": "2026-11-13T22:45:38.007",
    "arquivo": "BDI_03-1_20261113.pdf",
    "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-11-13/BDI_03-1_20261113.pdf"
   },
@@ -74,7 +74,7 @@
    "pai": 3,
    "situacao": "publicando",
    "errata": false,
-   "atualizado_em": "2026-11-13T00:00:38.013",
+   "atualizado_em": "2026-11-14T02:22:45.113",
    "arquivo": "",
    "pdf": ""
   },
@@ -84,7 +84,7 @@
    "pai": 3,
    "situacao": "publicando",
    "errata": false,
-   "atualizado_em": "2026-11-13T21:42:32.547",
+   "atualizado_em": "2026-11-14T02:53:09.25",
    "arquivo": "",
    "pdf": ""
   },
@@ -94,7 +94,7 @@
    "pai": 4,
    "situacao": "publicando",
    "errata": false,
-   "atualizado_em": "2026-11-13T00:00:38.013",
+   "atualizado_em": "2026-11-14T00:00:43.973",
    "arquivo": "",
    "pdf": ""
   },
@@ -102,9 +102,9 @@
    "id": 42,
    "nome": "Empréstimos de ativos",
    "pai": 4,
-   "situacao": "publicado",
+   "situacao": "republicado",
    "errata": false,
-   "atualizado_em": "2026-11-13T00:00:38.013",
+   "atualizado_em": "2026-11-14T03:55:38.01",
    "arquivo": "BDI_04-2_20261113.pdf",
    "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-11-13/BDI_04-2_20261113.pdf"
   },
@@ -112,11 +112,11 @@
    "id": 43,
    "nome": "COE",
    "pai": 4,
-   "situacao": "publicando",
+   "situacao": "publicado",
    "errata": false,
-   "atualizado_em": "2026-11-13T00:00:38.013",
-   "arquivo": "",
-   "pdf": ""
+   "atualizado_em": "2026-11-14T02:25:38.01",
+   "arquivo": "BDI_04-3_20261113.pdf",
+   "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-11-13/BDI_04-3_20261113.pdf"
   }
  ]
 }
