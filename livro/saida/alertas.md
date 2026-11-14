@@ -1,46 +1,4 @@
-ALERTAS · intradia
-
-(pendente de slot anterior) [CRÍTICO] CURVA · C01 A curva ABRIU: F29 +19 bps no dia · F30 +20 bps no dia · F32 +23 bps no dia (ajuste B3 12/11) / C04 IPCA+ 2029 volta abaixo de 7,50% real: 7,46% (-5 bps), base 11/11 / C05 Pre 2029 ABRE 15 bps (PU -0,2%) · Pre 2032 ABRE 19 bps (PU -0,8%) (base 12/11)
-DI F28 14,28 (+10) · F29 14,74 (+19) · F30 14,98 (+20) · F32 15,18 (+23) · F35 15,25 (+24)
-Inclinação F35-F28 +97 bps (+14)
-PU R$ 3.996,08; cada 10 bps move ~0,3% do PU
-Desde 2010, 43% dos dias tiveram taxa maior neste título
-TD Pre 2029 14,80 (+15) · IPCA+ 2032 7,70 (+2) · IPCA+ 2040 7,49 (+5) PU -0,7% · IPCA+ 2050 7,48 (+4) PU -0,9% · Pre 2032 15,30 (+19) PU -0,8%
-2y 4,86 · 10y 5,10 · 30y 5,43 · 2s10s +24 bps
-Transmissão: IUAA (iShares US Aggregate Bond, duração ~6) ≈ -0,7%; pressiona múltiplo de CNDX/RBOT, fortalece DXY e pesa no real
-F35-F28 +97 bps (+14 dia · +22 5 pregões)
-F30-F28 +70 bps (+10 dia · +11 5 pregões)
-Implícita 2029: 6,69% (-8 bps na semana) vs Focus IPCA 2029 4,00% (+269 bps)
-Implícita 2032: 7,06% (+18 bps na semana) vs Focus IPCA 2030 3,94% (+312 bps)
-Implícita 2031/32 (descasado): 6,81% (-19 bps na semana) vs Focus IPCA 2030 3,94% (+287 bps)
-Por que importa: a curva é o preço do dinheiro no Brasil; longo abrindo com curto parado é prêmio de risco, não Selic
-Como falar: 'o prefixado longo marcou a mercado para baixo; quem carrega até o vencimento não mudou de taxa'
-Fonte: B3 ajuste 12/11 · Tesouro Transparente base 12/11; BCB Focus · Tesouro Transparente, base 11/11 · Tesouro Transparente, base 12/11 · Treasury.gov CMT 12/11 · ajuste B3 12/11
-ids: C01-DI-abriu-2026-11-12, C04-IPCA2029-baixo_7.5-2026-11-11, C05-TESOURO-abriu-2026-11-12, C07-UST-abriu-2026-11-12, C02-DI-inclinacao-2026-11-12, C03-DI-di-2026-11-12, C06-TESOURO-implicita-2026-11-12
-
-(pendente de slot anterior) [ATENÇÃO] E05 · NVDA · AMD, Broadcom stocks jump as Nvidia CEO Jensen Huang resigns
-Yahoo Finance · 12/11 18h23 · fonte única · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – AMD (AMD) stock rose about 5% while Broadcom (AVGO) jumped as much as 5% Thursday morning following news that Nvidia CEO Jensen Huang resigned and the company board named CFO Colette Kress as interim chief executive off…
-  – The speculation followed an X post from Musk, who replied "That would be an honor" to a ZeroHedge post urging, "Elon, please hire Jensen." Sentiment around the rest of the AI trade, however, soured, particularly among c…
-  – Shares of Nvidia-backed neocloud provider CoreWeave (CRWV) dropped 6%, giving back some of the prior session's gains sparked by a strong quarterly print.
-  – Peer Nebius (NBIS) also sank 16%.
-  – Meanwhile, shares of Taiwan Semiconductor Manufacturing Company (TSM), which manufactures Nvidia chips, also fell nearly 2%.
-Link: https://ca.finance.yahoo.com/news/nvidia-stock-sinks-but-rivals-amd-broadcom-rise-133910081.html
-Por que importa: troca no comando reabre a discussao de estrategia e de alocacao de capital
-Ativos: NVDA · AMD · AVGO
-Como falar: 'saiu no Yahoo Finance: AMD, Broadcom stocks jump as Nvidia CEO Jensen Huang resigns; confirmar o número no texto antes de repassar'
-Fonte: Yahoo Finance 12/11 18h23
-ids: E05-NVDA-52b24ebf50-2026-11-12
-
-(pendente de slot anterior) [ATENÇÃO] E05 · NVDA · Explainer: Tougher curbs on AI chip sales to China likely after Nvidia CEO resigns
-Reuters · 12/11 16h08 · fonte única · licença: manchete
-Link: https://www.reuters.com/world/china/tougher-curbs-ai-chip-sales-china-likely-after-nvidia-ceo-resigns-2026-11-12/
-Por que importa: troca no comando reabre a discussao de estrategia e de alocacao de capital
-Ativos: NVDA
-Como falar: 'saiu no Reuters: Explainer: Tougher curbs on AI chip sales to China likely after Nvidia CEO resigns; confirmar o número no texto antes de repassar'
-Fonte: Reuters 12/11 16h08
-ids: E05-NVDA-459a99d4c5-2026-11-12
+ALERTAS · Fechamento 18h
 
 (pendente de slot anterior) [ATENÇÃO] E03 · AXIA3 · Comunicado ao Mercado: Recebeu comunicado da GQG Partners LLC (“GQG Partners”), informando que, em decorrência de operações de alienação realizadas no mercado acionário, pa…
 CVM · entregue 13/11/2026 07:48 · Aquisição/Alienação de Participação Acionária Relevante / Declaração de Alienação de Participação Acionária Relevante
@@ -106,42 +64,96 @@ Por que importa: silêncio é lido como 'está tudo bem'; declarar a falha é o 
 Fonte: manifest do runner
 ids: S01-SISTEMA-intradia-2026-11-13
 
-[ATENÇÃO] E05 · MINERIO · Goldman cuts iron ore price target on China steel demand
+(pendente de slot anterior) [ATENÇÃO] E05 · MINERIO · Goldman cuts iron ore price target on China steel demand
 Investing.com · 13/11 10h20 · fonte única · licença: manchete
 Link: https://www.investing.com/news/commodities-news/goldman-cuts-iron-ore-price-target-on-china-steel-demand-93CH-5025364
 Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
 Ativos: MINERIO
 Como falar: 'saiu no Investing.com: Goldman cuts iron ore price target on China steel demand; confirmar o número no texto antes de repassar'
 Fonte: Investing.com 13/11 10h20
-Push: [ATENÇÃO] MINERIO · Goldman cuts iron ore price target on China steel  · detalhe na sessão
 ids: E05-MINERIO-2c9c87b3ec-2026-11-13
 
-Info (só linha no Fechamento):
-· E05 DI · A Selic alta bateu? Caixa estuda aumentar juros no financiamento imobiliário
-· E05 USDBRL · Dólar fecha estável, a R$ 5,65, e Ibovespa sobe com varejo e petroleiras
-· E05 USDBRL · Dólar à vista fecha em alta de 0,11%, a R$5,6567 na venda
-· E05 NVDA · Nvidia Tanks as Altman Joins Dario in AI Chip Export Ban
-· E05 AMD · AMDL 2X AMD ETF Tumbles 18% as AMD Sinks Amid Michael Burry’s Bearish Chip Bets
-· E05 AXIA3 · Leilões de energia existente movimentam R$ 14,25 bilhões; Axia e BTG lideram vendas
-· E05 NVDA · Nvidia turmoil reshuffles the AI trade. Winners, losers and what investors should watch
-· E05 BTC · Twenty One Capital Made $1 Billion in Bitcoin Profit. 60% is Already Gone
-· E05 ETH · VanEck Ethereum ETF 3Q 2026 — 10-Q Summary
-· E05 JPM · Anthropic CEO Amodei speaks with JPMorgan CEO Dimon about compute commitments
-· E05 AMD · AMD or Intel: 1 Chip Stock Is the Clear Winner
-· E05 JPM · Anthropic Chief Tells Jamie Dimon He Hopes IPO Will ‘Underpromise and Overdeliver’
-· E05 NVDA · AMD Stock Has Outrun Nvidia 5X Since 2024. But There’s a Valuation Catch
-· E05 NVDA · Export-banned Nvidia chips are behind China’s most powerful AI models—uh oh, Jensen!
-· E05 BTC · Why Bitcoin Is Falling Today
+[ATENÇÃO] E05 · GOOGL · Alphabet (GOOGL) Faces Uber Deal Talk, Space Chip Test And €1.66 Billion Fine
+Yahoo Finance · 13/11 18h10 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – - Google has unveiled "Project Suncatcher", an orbital experiment designed to test its AI accelerator chips in space-based data centers.
+  – - The group faces renewed legal attention around a €1.66b EU advertising fine while Tesla's robotaxis now operate ahead of Waymo in Texas.
+  – Take a look at 1 major warning sign we have identified for Alphabet.
+  – For readers tracking how AI-heavy infrastructure stories are reshaping big tech funding and competition, the next stop is 53 AI infrastructure stocks.
+  – At the same time, Tesla edging ahead of Waymo in Texas and renewed EU scrutiny over the €1.66b advertising case highlight the existing risks around slower Search monetisation and regulatory pressure on ad models.
+  – See how these catalysts shape Alphabet's path to a $408 fair value.
+Link: https://ca.finance.yahoo.com/news/alphabet-googl-faces-uber-deal-211021625.html
+Por que importa: aquisicao ou venda muda alavancagem, mix de receita e o multiplo; olhar preco pago e financiamento
+Ativos: GOOGL
+Como falar: 'saiu no Yahoo Finance: Alphabet (GOOGL) Faces Uber Deal Talk, Space Chip Test And €1.66 Billion Fine; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 13/11 18h10
+Push: Fechamento 18h: 2 alertas de atenção — E05 GOOGL, E05 JPM · detalhe na sessão
+ids: E05-GOOGL-f30a01ea39-2026-11-13
 
+[ATENÇÃO] E05 · JPM · 4 Takeaways From Dario Amodei’s Anthropic IPO Chat With Jamie Dimon
+Barron's · 13/11 17h28 · fonte única · licença: manchete
+Link: https://www.barrons.com/articles/anthropic-ipo-jamie-dimon-chase-3e44342b
+Por que importa: oferta de acoes ou divida altera a base acionaria ou a alavancagem
+Ativos: JPM
+Como falar: 'saiu no Barron's: 4 Takeaways From Dario Amodei’s Anthropic IPO Chat With Jamie Dimon; confirmar o número no texto antes de repassar'
+Fonte: Barron's 13/11 17h28
+ids: E05-JPM-bffd95625e-2026-11-13
+
+Info (só linha no Fechamento):
+· C06 Inflação implícita: implícita 2029 +273 bps acima do Focus · implícita 2032 +302 bps acima do Focus · implícita 2031/32 (descasado) +290 bps acima do Focus
+· T01 BRENT retomou a média de 200 dias pela 2ª sessão: US$ 96,08 vs MM200 US$ 93,86 (+2,4%)
+· T04 KO fechou na máxima de 52 semanas: US$ 99,20, +8,1% em 1m e +43% em 12m
+· T02 IUAA (iShares US Aggregate Bond UCITS ETF USD (Acc)) perdeu a MM100 pela 2ª sessão: US$ 5,64, já abaixo da MM200 (confirma tendência de baixa)
+· T02 SBSP3 perdeu a MM50 pela 2ª sessão: R$ 27,22, já abaixo da MM200 (confirma tendência de baixa)
+· T07 BBAS3 entrou em sobrevendido: RSI14 25 a R$ 15,10
+· T09 NVDA -2,2% com volume 2,6x a mediana de 20 sessões, a US$ 162,49
+· T10 QNTM no mínimo de força relativa em 63 sessões contra SPX: -10% vs -1,3% em 20 sessões (-8,9% relativo)
+· T10 QANT no mínimo de força relativa em 63 sessões contra SPX: -10% vs -1,3% em 20 sessões (-9,0% relativo)
+· T12 MCHI: 6 quedas seguidas (-4,9% acumulado) a US$ 49,51
+· E03 AXIA3 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
+· E03 AXIA3 · Comunicado ao Mercado: Apresentações a analistas/agentes do mercado
+· E05 BBAS3 · O que a Folha pensa: Resultado do Banco do Brasil é vexatório
+· E05 NVDA · Broadcom: Nvidia Has A Problem, And That Creates An Opportunity (NASDAQ:AVGO)
+· E05 BTC · Coinbase Institutional says Fed rate expectations, not the Binance hack, sank Bitcoin
+· E05 PLTR · Palantir: Exceptional Business, Unjustifiable Price (NASDAQ:PLTR)
+· E05 NVDA · Stock Market Today, Nov. 13: Nvidia Slides After HSBC Downgrades Stock to Hold on CEO Uncertainty
+· E05 NVDA · With Nvidia Floundering, AI Bulls Need More Than Spending. Watch Revenue.
+· E05 AXIA3 · Axia liderou contratação no leilão de energia existente
+· E05 USDBRL · Ibovespa sobe com fiscal no radar e avança 2,35% na semana; dólar supera ganho, com 2,66%
+· E05 NVDA · Boardroom Drama Ahead of NVIDIA's Q3 Earnings: Buy or Sell the Stock?
+· E05 USDBRL · Dólar fecha estável a R$ 5,65, mas sobe 2,63% na semana
+· E05 AVGO · Broadcom Inc. (AVGO) Suffers a Larger Drop Than the General Market: Key Insights
+· E05 NVDA · Better Chip Stock: Nvidia vs. AMD
+· E05 ETH · iShares Staked Ethereum Trust ETF appoints Paul Lohrey to board; Peter Landini resigns
+· E05 BTC · iShares Bitcoin Trust ETF adds Paul Lohrey to board; Peter Landini resigns
+· E05 USDBRL · Bolsa sobe 0,66% e dólar segue em R$ 5,65 com ajuste fiscal em vista
+· C07 UST ABRIU: 10y +31 bps em 5 pregões (13/11)
+· T11 KLBN4 descolou atrás de SUZB3: -4,7% vs +29% em 20 sessões (z -4,0 em 252 sessões, 2º dia)
+
+Suprimidos pelo teto (viram linha do Fechamento): C07-UST-abriu-2026-11-13 (teto de atenção), T11-KLBN4-SUZB3_abaixo-2026-11-13 (teto de atenção)
 
 Alertas do dia (todos, com status):
+· linha     C07 UST — UST ABRIU: 10y +31 bps em 5 pregões (13/11)
+· linha     T11 KLBN4 — KLBN4 descolou atrás de SUZB3: -4,7% vs +29% em 20 sessões (z -4,0 em 252 sessõe
+· pendente  E05 GOOGL — GOOGL · Alphabet (GOOGL) Faces Uber Deal Talk, Space Chip Test And €1.66 Billion
+· pendente  E05 JPM — JPM · 4 Takeaways From Dario Amodei’s Anthropic IPO Chat With Jamie Dimon
 · pendente  E05 MINERIO — MINERIO · Goldman cuts iron ore price target on China steel demand
-· pendente  E03 AXIA3 — AXIA3 · Comunicado ao Mercado: Recebeu comunicado da GQG Partners LLC (“GQG Part
-· pendente  E03 ALUP4 — ALUP4 · Comunicado ao Mercado: ALUP11; ALUP3; ALUP4), comunica aos seus acionist
-· pendente  E05 DI — DI · Santander vê PIB mais fraco e inflação mais teimosa no Brasil até 2027, mas
-· pendente  E05 NVDA — NVDA · Neocloud Nscale Reveals $5.5 Billion Debt and Closer Nvidia Ties Ahead of
-· pendente  E05 MINERIO — MINERIO · Goldman cuts iron ore price target on China steel demand By Investing.
-· pendente  S01 SISTEMA — coleta do slot intradia saiu incompleta: bcb: BCB devolveu 4 de 5 séries (faltar
+· expirado  E03 AXIA3 — AXIA3 · Comunicado ao Mercado: Recebeu comunicado da GQG Partners LLC (“GQG Part
+· expirado  E03 ALUP4 — ALUP4 · Comunicado ao Mercado: ALUP11; ALUP3; ALUP4), comunica aos seus acionist
+· expirado  E05 DI — DI · Santander vê PIB mais fraco e inflação mais teimosa no Brasil até 2027, mas
+· expirado  E05 NVDA — NVDA · Neocloud Nscale Reveals $5.5 Billion Debt and Closer Nvidia Ties Ahead of
+· expirado  E05 MINERIO — MINERIO · Goldman cuts iron ore price target on China steel demand By Investing.
+· expirado  S01 SISTEMA — coleta do slot intradia saiu incompleta: bcb: BCB devolveu 4 de 5 séries (faltar
+· linha     C06 TESOURO — Inflação implícita: implícita 2029 +273 bps acima do Focus · implícita 2032 +302
+· linha     T01 BRENT — BRENT retomou a média de 200 dias pela 2ª sessão: US$ 96,08 vs MM200 US$ 93,86 (
+· linha     T04 KO — KO fechou na máxima de 52 semanas: US$ 99,20, +8,1% em 1m e +43% em 12m
+· linha     T02 IUAA — IUAA (iShares US Aggregate Bond UCITS ETF USD (Acc)) perdeu a MM100 pela 2ª sess
+· linha     T02 SBSP3 — SBSP3 perdeu a MM50 pela 2ª sessão: R$ 27,22, já abaixo da MM200 (confirma tendê
+· linha     T07 BBAS3 — BBAS3 entrou em sobrevendido: RSI14 25 a R$ 15,10
+· linha     T09 NVDA — NVDA -2,2% com volume 2,6x a mediana de 20 sessões, a US$ 162,49
+· linha     T10 QNTM — QNTM no mínimo de força relativa em 63 sessões contra SPX: -10% vs -1,3% em 20 s
+· linha     T10 QANT — QANT no mínimo de força relativa em 63 sessões contra SPX: -10% vs -1,3% em 20 s
+· linha     T12 MCHI — MCHI: 6 quedas seguidas (-4,9% acumulado) a US$ 49,51
 · linha     F06 BTC — BTC cai a US$ 68.929 (cruzou US$ 70.000) (parcial, intradia)
 · linha     F06 ETH — ETH cai a US$ 1.951 (cruzou US$ 2.000) (parcial, intradia)
-· (+48 notícias só manchete, em noticias.md)
+· (+65 notícias só manchete, em noticias.md)

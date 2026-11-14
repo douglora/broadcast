@@ -1,8 +1,8 @@
-NOTÍCIAS E FATOS · 13/11 17h25
+NOTÍCIAS E FATOS · 13/11 22h23
 
-Pernas: noticias ok 16 novas (18 consultas; descartadas: 384 veículo fora da lista, 29 sem ativo, 12 teto) · cvm ok 0 novos de 22 (10 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 17 novas (18 consultas; descartadas: 375 veículo fora da lista, 28 sem ativo, 37 teto) · cvm ok 2 novos de 24 (10 cias casadas) · sec ok 0 novos em 3 dias
 
-## FATOS RELEVANTES E COMUNICADOS (CVM) (8)
+## FATOS RELEVANTES E COMUNICADOS (CVM) (10)
 
 [ATENÇÃO] E03 · AXIA3 · Comunicado ao Mercado: Recebeu comunicado da GQG Partners LLC (“GQG Partners”), informando que, em decorrência de operações de alienação realizadas no mercado acionário, pa…
 CVM · entregue 13/11/2026 07:48 · Aquisição/Alienação de Participação Acionária Relevante / Declaração de Alienação de Participação Acionária Relevante
@@ -15,7 +15,7 @@ Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; 
 Ativos: AXIA3
 Como falar: 'a Axia Energia publicou comunicado ao mercado sobre Recebeu comunicado da GQG Partners LLC (“GQG Partners”), informando q…'
 Fonte: CVM 13/11
-id: E03-AXIA3-1588922-2026-11-13 · status: pendente · íntegra disponível
+id: E03-AXIA3-1588922-2026-11-13 · status: expirado · íntegra disponível
 
 [ATENÇÃO] E03 · ALUP4 · Comunicado ao Mercado: ALUP11; ALUP3; ALUP4), comunica aos seus acionistas e ao mercado em geral que, nos termos do artigo 12 da Resolução da Comissão de Valores Mobiliário…
 CVM · entregue 12/11/2026 08:47 · Aquisição/Alienação de Participação Acionária Relevante / Declaração de Alienação de Participação Acionária Relevante
@@ -26,7 +26,25 @@ Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; 
 Ativos: ALUP4
 Como falar: 'a Alupar publicou comunicado ao mercado sobre ALUP11; ALUP3; ALUP4), comunica aos seus acionistas e ao mercado em g…'
 Fonte: CVM 12/11
-id: E03-ALUP4-1588141-2026-11-12 · status: pendente · íntegra disponível
+id: E03-ALUP4-1588141-2026-11-12 · status: expirado · íntegra disponível
+
+[INFO] E03 · AXIA3 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
+CVM · entregue 13/11/2026 19:38 · Outros Comunicados Não Considerados Fatos Relevantes
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1589559
+Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; confirma ou nega o que circula
+Ativos: AXIA3
+Como falar: 'a Axia Energia publicou comunicado ao mercado sobre Outros Comunicados Não Considerados Fatos Relevantes'
+Fonte: CVM 13/11
+id: E03-AXIA3-1589559-2026-11-13 · status: linha
+
+[INFO] E03 · AXIA3 · Comunicado ao Mercado: Apresentações a analistas/agentes do mercado
+CVM · entregue 13/11/2026 17:47 · Apresentações a analistas/agentes do mercado
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1589315
+Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; confirma ou nega o que circula
+Ativos: AXIA3
+Como falar: 'a Axia Energia publicou comunicado ao mercado sobre Apresentações a analistas/agentes do mercado'
+Fonte: CVM 13/11
+id: E03-AXIA3-1589315-2026-11-13 · status: linha
 
 [INFO] E03 · SBSP3 · Aviso aos Acionistas: Outros avisos
 CVM · entregue 12/11/2026 19:57 · Outros avisos
@@ -108,7 +126,32 @@ Fonte: SEC EDGAR 2026-11-13
 id: E04-TSM-26000801-2026-11-13 · status: linha · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (8)
+## NOTÍCIAS COM MATERIALIDADE (10)
+
+[ATENÇÃO] E05 · GOOGL · Alphabet (GOOGL) Faces Uber Deal Talk, Space Chip Test And €1.66 Billion Fine
+Yahoo Finance · 13/11 18h10 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – - Google has unveiled "Project Suncatcher", an orbital experiment designed to test its AI accelerator chips in space-based data centers.
+  – - The group faces renewed legal attention around a €1.66b EU advertising fine while Tesla's robotaxis now operate ahead of Waymo in Texas.
+  – Take a look at 1 major warning sign we have identified for Alphabet.
+  – For readers tracking how AI-heavy infrastructure stories are reshaping big tech funding and competition, the next stop is 53 AI infrastructure stocks.
+  – At the same time, Tesla edging ahead of Waymo in Texas and renewed EU scrutiny over the €1.66b advertising case highlight the existing risks around slower Search monetisation and regulatory pressure on ad models.
+  – See how these catalysts shape Alphabet's path to a $408 fair value.
+Link: https://ca.finance.yahoo.com/news/alphabet-googl-faces-uber-deal-211021625.html
+Por que importa: aquisicao ou venda muda alavancagem, mix de receita e o multiplo; olhar preco pago e financiamento
+Ativos: GOOGL
+Como falar: 'saiu no Yahoo Finance: Alphabet (GOOGL) Faces Uber Deal Talk, Space Chip Test And €1.66 Billion Fine; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 13/11 18h10
+id: E05-GOOGL-f30a01ea39-2026-11-13 · status: pendente
+
+[ATENÇÃO] E05 · JPM · 4 Takeaways From Dario Amodei’s Anthropic IPO Chat With Jamie Dimon
+Barron's · 13/11 17h28 · fonte única · licença: manchete
+Link: https://www.barrons.com/articles/anthropic-ipo-jamie-dimon-chase-3e44342b
+Por que importa: oferta de acoes ou divida altera a base acionaria ou a alavancagem
+Ativos: JPM
+Como falar: 'saiu no Barron's: 4 Takeaways From Dario Amodei’s Anthropic IPO Chat With Jamie Dimon; confirmar o número no texto antes de repassar'
+Fonte: Barron's 13/11 17h28
+id: E05-JPM-bffd95625e-2026-11-13 · status: pendente
 
 [ATENÇÃO] E05 · MINERIO · Goldman cuts iron ore price target on China steel demand
 Investing.com · 13/11 10h20 · fonte única · licença: manchete
@@ -133,7 +176,7 @@ Por que importa: decisao de politica monetaria reprecifica toda a curva e o camb
 Ativos: DI
 Como falar: 'saiu no Money Times: Santander vê PIB mais fraco e inflação mais teimosa no Brasil até 2027, mas mantém projeç…; confirmar o número no texto antes de repassar'
 Fonte: Money Times 13/11 13h30
-id: E05-DI-2b5568e92f-2026-11-13 · status: pendente · íntegra disponível
+id: E05-DI-2b5568e92f-2026-11-13 · status: expirado · íntegra disponível
 
 [ATENÇÃO] E05 · NVDA · Neocloud Nscale Reveals $5.5 Billion Debt and Closer Nvidia Ties Ahead of IPO
 Bloomberg · 13/11 10h30 · fonte única · licença: manchete
@@ -142,7 +185,7 @@ Por que importa: oferta de acoes ou divida altera a base acionaria ou a alavanca
 Ativos: NVDA
 Como falar: 'saiu no Bloomberg: Neocloud Nscale Reveals $5.5 Billion Debt and Closer Nvidia Ties Ahead of IPO; confirmar o número no texto antes de repassar'
 Fonte: Bloomberg 13/11 10h30
-id: E05-NVDA-6c60beb3b9-2026-11-13 · status: pendente
+id: E05-NVDA-6c60beb3b9-2026-11-13 · status: expirado
 
 [ATENÇÃO] E05 · MINERIO · Goldman cuts iron ore price target on China steel demand By Investing.com
 Investing.com · 13/11 10h22 · fonte única · licença: manchete
@@ -151,7 +194,7 @@ Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais
 Ativos: MINERIO
 Como falar: 'saiu no Investing.com: Goldman cuts iron ore price target on China steel demand By Investing.com; confirmar o número no texto antes de repassar'
 Fonte: Investing.com 13/11 10h22
-id: E05-MINERIO-31fee815d4-2026-11-13 · status: pendente
+id: E05-MINERIO-31fee815d4-2026-11-13 · status: expirado
 
 [ATENÇÃO] E05 · PETR4 · Petrobras compra 70% da Logum por R$ 620 milhões
 Valor Economico · 13/11 05h00 · fonte única · licença: resumo
@@ -211,8 +254,23 @@ Fonte: Yahoo Finance 13/11 01h38
 id: E05-CVX-44eaaeccaa-2026-11-13 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (35)
+## OUTRAS NOTÍCIAS (só manchete) (50)
 
+· BBAS3 O que a Folha pensa: Resultado do Banco do Brasil é vexatório (Folha de S.Paulo) https://www1.folha.uol.com.br/opiniao/2026/11/resultado-do-banco-do-brasil-e-vexatorio.shtml
+· NVDA Broadcom: Nvidia Has A Problem, And That Creates An Opportunity (NASDAQ:AVGO) (Seeking Alpha) https://seekingalpha.com/article/4968075-broadcom-nvidia-has-a-problem-and-that-creates-an-opportunity
+· BTC Coinbase Institutional says Fed rate expectations, not the Binance hack, sank Bitcoin (TradingView (Reuters)) https://www.tradingview.com/news/cryptobriefing:d0025a3b5094b:0-coinbase-institutional-says-fed-rate-expectations-not-the-binance-hack-sank-bitcoin/
+· PLTR Palantir: Exceptional Business, Unjustifiable Price (NASDAQ:PLTR) (Seeking Alpha) https://seekingalpha.com/article/4968006-palantir-exceptional-business-unjustifiable-price
+· NVDA Stock Market Today, Nov. 13: Nvidia Slides After HSBC Downgrades Stock to Hold on CEO Uncertainty (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/stock-market-today-nov-13-222002466.html
+· NVDA With Nvidia Floundering, AI Bulls Need More Than Spending. Watch Revenue. (Barron's) https://www.barrons.com/articles/nvidia-floundering-ai-bulls-4173db07
+· AXIA3 Axia liderou contratação no leilão de energia existente (CanalEnergia) https://www.canalenergia.com.br/noticias/53360308/axia-liderou-contratacao-no-leilao-de-energia-existente
+· USDBRL Ibovespa sobe com fiscal no radar e avança 2,35% na semana; dólar supera ganho, com 2,66% (Exame) https://exame.com/invest/mercados/ibovespa-sobe-com-fiscal-no-radar-e-avanca-235-na-semana-dolar-supera-ganho-com-266/
+· NVDA Boardroom Drama Ahead of NVIDIA's Q3 Earnings: Buy or Sell the Stock? (TradingView (Reuters)) https://www.tradingview.com/news/zacks:5a7b41560094b:0-boardroom-drama-ahead-of-nvidia-s-q3-earnings-buy-or-sell-the-stock/
+· USDBRL Dólar fecha estável a R$ 5,65, mas sobe 2,63% na semana (Agencia Brasil) https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/dolar-fecha-estavel-r-565-mas-sobe-263-na-semana
+· AVGO Broadcom Inc. (AVGO) Suffers a Larger Drop Than the General Market: Key Insights (Yahoo Finance) https://au.finance.yahoo.com/news/broadcom-inc-avgo-suffers-larger-214501014.html
+· NVDA Better Chip Stock: Nvidia vs. AMD (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/better-chip-stock-nvidia-vs-214302160.html
+· ETH iShares Staked Ethereum Trust ETF appoints Paul Lohrey to board; Peter Landini resigns (TradingView (Reuters)) https://www.tradingview.com/news/tradingview:4df70f85c2ce4:0-ishares-staked-ethereum-trust-etf-appoints-paul-lohrey-to-board-peter-landini-resigns/
+· BTC iShares Bitcoin Trust ETF adds Paul Lohrey to board; Peter Landini resigns (TradingView (Reuters)) https://news.google.com/rss/articles/CBMi0AFBVV95cUxQUFphYUNDNUdwMmxrbVJOWF9yNzdVeVVSQTYwQm1PYXRQQk1jZExLdHFnMUU4TmFmM21qcFBSWlRJZjFZa0Mwa3B0RXdxR2lBR1NHejVRUTQ3a3ZzUWRPQnVyQzJEZGtGd050VXo1WU5BM2tUa3Z6dnZwS1FfLXJBVGwzd00xRnpVeFo3V1hxdUVSeVkwLUFGMUZCV3V3Qkl4dTNQWC1ucjRxYWRaTVViZ2JiZklVX2J1Xzh2ZVBlNTA3cF92MFZ5RVdGTU5ZR3pq?oc=5
+· USDBRL Bolsa sobe 0,66% e dólar segue em R$ 5,65 com ajuste fiscal em vista (Poder360) https://news.google.com/rss/articles/CBMirAFBVV95cUxQMWxJQTNEeUVIVU5meUx6NzExRmNzdDgwMWRZQ3dfcXdJdGVObzVubkxVSlNjcVJfS1QwMHdMa2dneDJhMjcwQ2RLOGppdmFzajd6Ul9KRTJibmtBc2w0Ym9nY0FZWjh0bFpvT0JsemhvcnRwWDBLSl84YTAxWUdQQzg4Ymtsc0NRYWw5emhaMUNjejh5NkZfQVNORm1CaS1BaG8zX1VlX1N3QnJC?oc=5
 · DI A Selic alta bateu? Caixa estuda aumentar juros no financiamento imobiliário (Seu Dinheiro) https://www.seudinheiro.com/2026/financas-pessoais/a-selic-alta-bateu-caixa-estuda-aumentar-juros-no-financiamento-imobiliario-julw/
 · USDBRL Dólar fecha estável, a R$ 5,65, e Ibovespa sobe com varejo e petroleiras (UOL Economia) https://economia.uol.com.br/cotacoes/noticias/redacao/2026/11/13/dolar-fecha-estavel-a-r-565-e-ibovespa-sobe-com-varejo-e-petroleiras.amp.htm
 · USDBRL Dólar à vista fecha em alta de 0,11%, a R$5,6567 na venda (UOL Economia) https://economia.uol.com.br/noticias/reuters/2026/11/13/dolar-a-vista-fecha-em-alta-de-011-a-r56567-na-venda.htm
