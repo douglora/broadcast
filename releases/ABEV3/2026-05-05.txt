@@ -18,15 +18,15 @@ Volume Total (orgânico) Receita Líquida (orgânica)
 Os volumes totais permaneceram relativamente 
 estáveis (+0,1%). A performance de volume foi 
 influenciada pelo crescimento na América 
-Central e Caribe (“CAC”) ( +7,7%) e Cerveja Brasil 
+Central e Caribe (“CAC”) (+7,7%) e Cerveja Brasil 
 (+1,2%), sendo parcialmente compensada pela 
-diminuição em América Latina Sul (“LAS”) ( -0,5%), 
+diminuição em América Latina Sul (“LAS”) (-0,5%), 
 Canadá (-2,0%) e Brasil NAB (-3,9%). 
-O desempenho da receita líquida foi de 8,1% , 
+O desempenho da receita líquida foi de 8,1%, 
 impulsionado pelo crescimento de 8,0% da receita 
 líquida por hectolitro (“ROL/hl”). A receita líquida 
 aumentou na maior parte das nossas unidades de 
-negócio, incluindo LAS 2 (+10,2%), CAC (+10,0%), Cerveja 
+negócio, incluindo LAS2 (+10,2%), CAC (+10,0%), Cerveja 
 Brasil (+9,6%) e NAB Brasil (+1,8%), enquanto Canadá 
 permaneceu estável (-0,0%). 
  
@@ -38,7 +38,7 @@ R$ 3.832,4 milhões
 O EBITDA Ajustado cresceu 10,1%, com todas as 
 nossas unidades de negócio entregando 
 crescimento de EBITDA ajustado. A margem 
-EBITDA Ajustada aumentou 60 pontos -base, para 
+EBITDA Ajustada aumentou 60 pontos-base, para 
 33,6%. 
 O Lucro Líquido Ajustado aumentou 0,3% em 
 comparação aos R$ 3.820,2 milhões no 1T25, 
@@ -53,7 +53,7 @@ R$ 3.160,9 milhões
  
 R$ 700 milhões de Juros sobre Capital Próprio 
 O fluxo de caixa das atividades operacionais 
-aumentou 162,5% em comparação a R$ 1.204,0 
+aumentou 162,5% em comparação a R$1.204,0 
 milhões no 1T25, refletindo principalmente o 
 crescimento do EBITDA e melhor dinâmica de 
 capital de giro. 
@@ -89,8 +89,8 @@ COMENTÁRIOS DA ADMINISTRAÇÃO
 Iniciamos 2026 mantendo nosso momentum, entregando um sólido primeiro trimestre, marcado pelo 
 crescimento do volume de cerveja e ganhos estimados de participação em vários de nossos mercados 
  
-Os volumes consolidados de cerveja cresceram um dígito baixo ( low-single digit) no 1T26, sustentados pelo 
-contínuo fortalecimento das nossas marcas, ativações das nossas megaplataformas , e por uma execução 
+Os volumes consolidados de cerveja cresceram um dígito baixo (low-single digit) no 1T26, sustentados pelo 
+contínuo fortalecimento das nossas marcas, ativações das nossas megaplataformas, e por uma execução 
 comercial disciplinada, resultando em ganhos estimados de participação de mercado em diversos dos 
 nossos mercados, mesmo em um ambiente operacional ainda dinâmico. A receita líquida cresceu 8,1% e o 
 EBITDA Ajustado aumentou 10,1%, com expansão de margem de 60 pontos-base. 
@@ -109,10 +109,10 @@ marcas, reforçando sua conexão com os consumidores e impulsionando o engajamen
 ocasião de socialização. 
  
 Em nossas operações, seguimos desenvolvendo os segmentos que estão moldando o futuro da categoria, 
-com volumes de cervejas premium crescendo na casa dos 15% ( mid-teens), balanced choices (“escolhas 
-equilibradas”) crescendo na casa dos 60% baixos ( low-sixties) e, dentro desse segmento, os volumes de 
+com volumes de cervejas premium crescendo na casa dos 15% (mid-teens), balanced choices (“escolhas 
+equilibradas”) crescendo na casa dos 60% baixos (low-sixties) e, dentro desse segmento, os volumes de 
 cervejas sem álcool crescendo na casa dos 15% (mid-teens). No segmento core, permanecemos focados em 
-fortalecer a base a partir da qual a categoria pode se expandir. Embora nossos volumes d esse segmento 
+fortalecer a base a partir da qual a categoria pode se expandir. Embora nossos volumes desse segmento 
 tenham caído um dígito baixo (low-single digit) no trimestre, impactado principalmente pelo clima, as 
 tendências apresentaram melhora sequencial em relação ao 2S25. 
  
@@ -131,8 +131,8 @@ a nossa geração de receita, quanto nosso relacionamento
 com clientes e consumidores. 
  
 No B2B (“business-to-business”), o BEES segue sendo um 
-importante impulsionador d e melhor execução comercial 
-no ponto de venda , gerando insights que aprimoram o 
+importante impulsionador de melhor execução comercial 
+no ponto de venda, gerando insights que aprimoram o 
 sortimento e a gestão de receita. Nossas capacidades de 
 dados e tecnologia nos permitem entender melhor as 
 necessidades dos clientes, ativar o sell-out e traduzir esses 
@@ -142,7 +142,7 @@ continuou a escalar, com o Gross Merchandise Value
 (“GMV”) crescendo 59%, impulsionado principalmente pela 
 expansão das parcerias com terceiros (“3P”). 
  
-Na frente de venda direta ao consumidor ( “DTC”), o Zé 
+Na frente de venda direta ao consumidor (“DTC”), o Zé 
 Delivery continuou desempenhando um papel estratégico 
 no fortalecimento do relacionamento direto com os consumidores e na ativação das nossas marcas. A 
 plataforma representa um dígito médio (mid-single digit) dos volumes de cerveja no Brasil e é um importante
@@ -158,12 +158,12 @@ motor de geração de insights e engajamento, ampliando nossa capacidade de ente
 jovens adultos em idade legal para beber estão se relacionando com a categoria. 
  
 Com cerca de 80% da sua base composta por consumidores da Geração Z e Millennials, o Zé Delivery nos 
-mantém próximos das tendências emergentes e acelera , tanto a execução , quanto nosso ciclo de teste e 
+mantém próximos das tendências emergentes e acelera, tanto a execução, quanto nosso ciclo de teste e 
 aprendizado de inovações. No trimestre, a plataforma desempenhou um papel central como hub de inovação 
 para o lançamento de Skol Zero Zero, permitindo capturar feedback dos consumidores e gerar insights mais 
 profundos sobre expectativas e percepção de marca, com quase 90% dos consumidores reportando 
 percepção de marca neutra ou melhor após provar o produto. Além disso, o Zé Delivery continuou expandindo 
-usuários ativos mensais ( “MAU”) em um dígito baixo (low-single digit) e GMV em um dígito alto (high-single 
+usuários ativos mensais (“MAU”) em um dígito baixo (low-single digit) e GMV em um dígito alto (high-single 
 digit), ao mesmo tempo em que avançou no seu papel como uma das principais plataformas de conveniência 
 do Brasil. 
  
@@ -177,11 +177,11 @@ melhorando a alocação de recursos e apoiando a escalabilidade da nossa estrat�
 Nossa abordagem disciplinada em gestão de receita e alocação de recursos continuou sendo um dos 
 principais motores de rentabilidade, geração de caixa e retorno aos nossos acionistas. 
  
-O CPV por hectolitro (“CP V/hl”) excluindo depreciação e amortização aumentou 8,5%, refletindo 
+O CPV por hectolitro (“CPV/hl”) excluindo depreciação e amortização aumentou 8,5%, refletindo 
 principalmente impactos de câmbio e commodities, enquanto o SG&A excluindo depreciação e amortização 
 cresceu 4,8%. Nesse contexto, o EBITDA Ajustado consolidado cresceu 10,1%, com expansão de margem de 60 
 pontos-base, para 33,6%, sustentado pelo crescimento do EBITDA em todas as unidades de negócio e pela 
-expansão de margem em quatro d e cinco delas. O LPA Ajustado cresceu 0,5% no trimestre, para R$ 0,24, 
+expansão de margem em quatro de cinco delas. O LPA Ajustado cresceu 0,5% no trimestre, para R$ 0,24, 
 refletindo essa performance, parcialmente compensada por despesas financeiras líquidas, principalmente 
 devido ao aumento do custo de carrego de instrumentos derivativos. 
  
@@ -192,7 +192,7 @@ melhor dinâmica de capital de giro. O fluxo de caixa das atividades de investim
 de ativos em CAC, conforme mencionado na nota 5.1 das nossas demonstrações contábeis. 
  
 Por fim, em 4 de maio de 2026, nosso Conselho de Administração aprovou o pagamento da segunda parcela 
-de JCP relacionada à declaração de dezembro de 2025, totalizando aproximadamente R$ 1,2 bilhão, a ser em 
+de JCP relacionada à declaração de dezembro de 2025, totalizando aproximadamente R$ 1,2 bilhão, a serem 
 pagos em 6 de julho de 2026, bem como uma nova distribuição de JCP, no valor aproximado de R$ 700 milhões, 
 a serem pagos até dezembro de 2026. Esses anúncios de proventos, juntamente com a execução do nosso 
 programa de recompra de ações em andamento, reforçam nosso compromisso de devolver de forma 
@@ -201,7 +201,7 @@ consistente o caixa excedente aos nossos acionistas ao longo do tempo.
 Ao mesmo tempo, seguimos atentos ao fato de que o ambiente geopolítico global permanece dinâmico. 
 Estamos monitorando de perto os desdobramentos em nossos mercados e seguimos focados na execução 
 disciplinada e na alocação eficiente de recursos, preservando a flexibilidade necessária para navegar em um 
-ambiente em constante evolução , e mantemos inalterado o nosso guidance de CPV /hl em Cerveja Brasil, 
+ambiente em constante evolução, e mantemos inalterado o nosso guidance de CPV/hl em Cerveja Brasil, 
 excluindo depreciação e amortização, e excluindo o marketplace, com expectativa de aumento entre 4,5% e 
 7,5% no ano.
 
@@ -240,27 +240,27 @@ Divulgação de resultados – 05 de maio de 2026
 DESEMPENHO DOS PRINCIPAIS MERCADOS 
 Cerveja Brasil: volume recorde e gestão disciplinada de receita impulsionaram crescimento de um dígito alto 
 (high-single digit) da receita líquida e do EBITDA Ajustado 
-• Desempenho operacional: o volume cresce u 1,2% (superando a indústria, de acordo com nossas 
+• Desempenho operacional: o volume cresceu 1,2% (superando a indústria, de acordo com nossas 
 estimativas), sobre uma base forte do ano anterior, alcançando novo nível recorde para um primeiro 
-trimestre, sustentado principalmente pela performance d as nossas marcas premium. A ROL/hl, 
+trimestre, sustentado principalmente pela performance das nossas marcas premium. A ROL/hl, 
 excluindo marketplace, cresceu 8,0%, impulsionada pela gestão de receita e pelo mix positivo de 
-marcas. O CPV/hl excluindo depreciação e amortização , excluindo marketplace, aumentou 14,6%, 
+marcas. O CPV/hl excluindo depreciação e amortização, excluindo marketplace, aumentou 14,6%, 
 refletindo principalmente os impactos esperados de câmbio e commodities, enquanto o SG&A 
 excluindo depreciação e amortização cresceu 3,4%, refletindo principalmente eficiências em 
 despesas de distribuição decorrentes de benefícios por escala de volume. O EBITDA Ajustado cresceu 
-7,6%, com retração de 170 pontos -base na margem bruta e de 60 pontos -base na margem EBITDA 
+7,6%, com retração de 170 pontos-base na margem bruta e de 60 pontos-base na margem EBITDA 
 Ajustada. 
-• Destaques comerciais : seguimos liderando onde a categoria mais cresce , especialmente no 
+• Destaques comerciais: seguimos liderando onde a categoria mais cresce, especialmente no 
 premium, balanced choices e cervejas sem álcool, com ganhos estimados de participação de 
-mercado nesses segmentos no período . Nossas marcas premium e super premium tiveram 
-crescimento de volumes na casa dos 20% baixos ( low-twenties), liderado por Stella Artois, Corona e 
-Original. O segmento de balanced choices cresceu na casa dos 70% baixos ( low-seventies), com 
+mercado nesses segmentos no período. Nossas marcas premium e super premium tiveram 
+crescimento de volumes na casa dos 20% baixos (low-twenties), liderado por Stella Artois, Corona e 
+Original. O segmento de balanced choices cresceu na casa dos 70% baixos (low-seventies), com 
 Stella Pure Gold e Michelob Ultra mais do que dobrando de volume, enquanto os volumes de cervejas 
-sem álcool cresceram na casa dos 10% baixos ( low-teens), impulsionados por Corona Cero e pelo 
-lançamento de Skol Zero Zero. Nosso portfólio core e value, em conjunto , apresentou queda de um 
+sem álcool cresceram na casa dos 10% baixos (low-teens), impulsionados por Corona Cero e pelo 
+lançamento de Skol Zero Zero. Nosso portfólio core e value, em conjunto, apresentou queda de um 
 dígito baixo (low-single digit), refletindo maior sensibilidade a clima e ocasiões fora do lar, embora 
 tenha apresentado melhora sequencial, com ganhos de participação de mercado em comparação 
-com o mesmo período do ano passado . Em nossas iniciativas digitais, o GMV do BEES Marketplace 
+com o mesmo período do ano passado. Em nossas iniciativas digitais, o GMV do BEES Marketplace 
 dobrou, impulsionado pela expansão do 3P. 
 Cerveja Brasil3 
 R$ milhões 1T25 Escopo 
@@ -288,7 +288,7 @@ Outras receitas/(despesas) operacionais 460,8 (52,2) - 63,0 471,7 2,4% 15,4%
 Lucro operacional ajustado 2.701,8 (52,2) - 263,0 2.912,6 7,8% 9,9% 
 % Margem de Lucro operacional ajustado 27,0% 26,6% -40 pb 10 pb 
 EBITDA ajustado 3.632,0 (52,2) - 273,5 3.853,3 6,1% 7,6% 
-% Margem EBITDA ajustad a 36,3% 35,2% -110 pb -60 pb 
+% Margem EBITDA ajustada 36,3% 35,2% -110 pb -60 pb 
  
  
  
@@ -345,7 +345,7 @@ Outras receitas/(despesas) operacionais 124,4 (9,3) - (10,1) 105,0 -15,6% -8,8%
 Lucro operacional ajustado 524,8 (9,3) - 115,2 630,7 20,2% 22,3% 
 % Margem de Lucro operacional ajustado 23,3% 27,5% 420 pb 460 pb 
 EBITDA ajustado 632,0 (9,3) - 102,3 725,0 14,7% 16,4% 
-% Margem EBITDA ajustad a 28,0% 31,6% 360 pb 400 pb 
+% Margem EBITDA ajustada 28,0% 31,6% 360 pb 400 pb 
  
  
  
@@ -386,12 +386,12 @@ Outras receitas/(despesas) operacionais 585,3 (61,5) - 52,9 576,7 -1,5% 10,1%
 Lucro operacional ajustado 3.226,6 (61,5) - 378,2 3.543,3 9,8% 11,9% 
 % Margem de Lucro operacional ajustado 26,3% 26,7% 40 pb 90 pb 
 EBITDA ajustado 4.264,0 (61,5) - 375,8 4.578,3 7,4% 8,9% 
-% Margem EBITDA ajustad a 34,8% 34,5% -30 pb 20 pb 
+% Margem EBITDA ajustada 34,8% 34,5% -30 pb 20 pb 
  
  
  
 5 No 1T26, a ROL/hl e o CPV/hl excluindo depreciação e amortização, excluindo a venda de produtos de marketplace não Ambev, foi de R$ 403,5 (crescimento 
-orgânico de 8,1%) e R$ (182,3) (crescimento orgânico de 11,0%), respectivamente. A mudança de escopo no Brasil refere -se a créditos tributários e efeitos 
+orgânico de 8,1%) e R$ (182,3) (crescimento orgânico de 11,0%), respectivamente. A mudança de escopo no Brasil refere-se a créditos tributários e efeitos 
 relacionados.
 
 [p. 8]
@@ -403,13 +403,13 @@ ambev.com.br
 Divulgação de resultados – 05 de maio de 2026 
 América Central e Caribe (CAC): crescimento de volumes de cerveja impulsionou aumento de dois dígitos 
 (double digit) da receita líquida e do EBITDA Ajustado 
-• Desempenho operacional: os volumes totais cresceram 7,7%, com crescimento d os volumes de 
+• Desempenho operacional: os volumes totais cresceram 7,7%, com crescimento dos volumes de 
 cerveja na região. A receita líquida aumentou 10,0%, com a ROL/hl, excluindo marketplace, crescendo 
 3,1%, principalmente em função de iniciativas de gestão de receita. O CPV/hl excluindo depreciação 
-e amortização , e excluindo marketplace, caiu 2,0%, enquanto o SG&A excluindo depreciação e 
-amortização cresceu 15,4%, refletindo principalmente maiores despesas de distribuição , além de 
+e amortização, e excluindo marketplace, caiu 2,0%, enquanto o SG&A excluindo depreciação e 
+amortização cresceu 15,4%, refletindo principalmente maiores despesas de distribuição, além de 
 maiores despesas com vendas e marketing, em linha com nossos investimentos consistentes em 
-marcas. O EBITDA Ajustado cresceu 13,6%, com expansão de 360 pontos -base na margem bruta e de 
+marcas. O EBITDA Ajustado cresceu 13,6%, com expansão de 360 pontos-base na margem bruta e de 
 130 pontos-base na margem EBITDA Ajustada. 
 • Destaques comerciais: na República Dominicana nossa performance foi sustentada por iniciativas de 
 gestão de receita, incluindo uma dinâmica de relatividade de preços mais favorável em relação a 
@@ -444,12 +444,12 @@ SG&A total (526,0) 67,9 56,4 (62,6) (464,2) -11,7% 13,7%
 Lucro operacional ajustado 881,9 (115,4) (102,1) 143,7 808,1 -8,4% 18,7% 
 % Margem de Lucro operacional ajustado 33,2% 36,0% 280 pb 270 pb 
 EBITDA ajustado 1.097,4 (137,8) (122,2) 130,1 967,5 -11,8% 13,6% 
-% Margem EBITDA ajustad a 41,3% 43,1% 180 pb 130 pb 
+% Margem EBITDA ajustada 41,3% 43,1% 180 pb 130 pb 
  
  
  
-6 No 1T26, a ROL/hl e o CPV/hl excluindo depreciação e amortização, excluindo a venda de produtos de marketplace não Ambev, foi de R$ 837,5 (crescimento 
-orgânico de 3,1%) e R$ (305,0) (redução orgânica de 2,0%), respectivamente. A mudança de escopo na CAC refere-se à desconsolidação de subsidiárias.
+6 No 1T26, a ROL/hl e o CPV/hl excluindo depreciação e amortização, excluindo a venda de produtos de marketplace não Ambev, foi de R$ 837, 5 (crescimento 
+orgânico de 3,1%) e R$ (305,0) (redução orgânica de 2,0%), respectivamente. A mudança de escopo na CAC refere -se à desconsolidação de subsidiárias.
 
 [p. 9]
 Página | 9 
@@ -459,7 +459,7 @@ Página | 9
 ambev.com.br 
 Divulgação de resultados – 05 de maio de 2026 
 América Latina Sul (LAS): crescimento de dois dígitos (double-digit) da receita líquida e do EBITDA Ajustado, 
-com expansão de margens, sustentado pela melhora contínua dos fundamentos d e negócio na Argentina e 
+com expansão de margens, sustentado pela melhora contínua dos fundamentos de negócio na Argentina e 
 pela performance consistente na Bolívia 
 • Desempenho operacional: os volumes recuaram 0,5%. A receita líquida cresceu 10,2%, com a ROL/hl, 
 excluindo marketplace, aumentando 11,4%, impulsionada pelas nossas iniciativas de gestão de receita. 
@@ -467,10 +467,10 @@ O CPV/hl excluindo depreciação e amortização, excluindo marketplace, aumento
 SG&A excluindo depreciação e amortização cresceu 10,5%, ambos refletindo uma abordagem 
 disciplinada na gestão de custos e despesas. O EBITDA Ajustado cresceu 12,2%, com expansão de 60 
 pontos-base tanto na margem bruta quanto na margem EBITDA Ajustada. 
-• Destaques comerciais: na Argentina, o ambiente macroeconômico tornou -se mais estável, com 
+• Destaques comerciais: na Argentina, o ambiente macroeconômico tornou-se mais estável, com 
 menor inflação e menor volatilidade cambial, o que ainda não se traduziu em um ambiente de 
 consumo mais favorável. Os volumes totais caíram um dígito baixo (low-single digit), enquanto nossas 
-marcas acima do core cresceram um dígito alto ( high-single digit), impulsionadas por Stella Artois, 
+marcas acima do core cresceram um dígito alto (high-single digit), impulsionadas por Stella Artois, 
 Corona e Michelob Ultra. Estimamos ter ganhado participação de mercado em cerveja no período, 
 superando a indústria do país. Na Bolívia, os totais volumes cresceram um dígito médio (mid-single 
 digit), com os volumes de cerveja atingindo níveis recordes para um primeiro trimestre. Estimamos 
@@ -502,15 +502,15 @@ SG&A total (1.440,2) (2,6) 318,5 (150,6) (1.275,0) -11,5% 10,5%
 Lucro operacional ajustado 1.273,8 (8,6) (194,5) 171,0 1.241,8 -2,5% 13,4% 
 % Margem de Lucro operacional ajustado 23,0% 24,7% 170 pb 70 pb 
 EBITDA ajustado 1.607,3 (11,5) (261,6) 196,8 1.531,0 -4,7% 12,2% 
-% Margem EBITDA ajustad a 29,0% 30,4% 140 pb 60 pb 
+% Margem EBITDA ajustada 29,0% 30,4% 140 pb 60 pb 
  
  
  
  
 7 No 1T26, a ROL/hl e o CPV/hl excluindo depreciação e amortização, excluindo a venda de produtos de marketplace não Ambev, foi de R$ 571,1 (crescimento 
-orgânico de 11,4%) e R$ (263,3) (crescimento orgânico de 10,8%), respectivamente. A mudança de escopo em LAS refere -se à metodologia de limite de 
-crescimento orgânico na Argentina, quando atingido o limite, e aos efeitos decorrentes da aplicação da contabilidade de hiperinflação dentro do trimestre. 
-Os números reportados são apresentados aplicando -se a contab ilidade de hiperinflação para nossas operações na Argentina, conforme detalhado na 
+orgânico de 11,4%) e R$ (263,3) (crescimento orgânico de 10,8%), respectivamente. A mudança de escopo em LAS refere-se à metodologia de limite de 
+crescimento orgânico na Argentina, quando atingido o limite, e aos efeitos decorrentes da aplicação da contabilidade de hiper inflação dentro do trimestre. 
+Os números reportados são apresentados aplicando-se a contabilidade de hiperinflação para nossas operações na Argentina, conforme detalhado na 
 página 15.
 
 [p. 10]
@@ -523,20 +523,20 @@ Divulgação de resultados – 05 de maio de 2026
 Canadá: ganhos de participação de mercado em beyond beer e participação estável em cerveja resultaram 
 em receita líquida estável, combinada com expansão de margens, entregando mais um trimestre de 
 crescimento do EBITDA Ajustado 
-• Desempenho operacional : os volumes caíram 2,0%, com volume s de cerveja em linha com uma 
-indústria fraca, impactad a principalmente por temperaturas mais baixas, enquanto seguimos 
-superando a indústria em beyond beer . A receita líquida permaneceu estável ( -0,0%), com 
+• Desempenho operacional: os volumes caíram 2,0%, com volumes de cerveja em linha com uma 
+indústria fraca, impactada principalmente por temperaturas mais baixas, enquanto seguimos 
+superando a indústria em beyond beer. A receita líquida permaneceu estável (-0,0%), com 
 crescimento de 2,0% da ROL/hl, excluindo marketplace, refletindo nossas iniciativas de gestão de 
-receita e a contínua premiumização do portfólio. O CPV/hl excluindo depreciação e amortização , 
+receita e a contínua premiumização do portfólio. O CPV/hl excluindo depreciação e amortização, 
 excluindo marketplace, aumentou 0,7%, enquanto o SG&A excluindo depreciação e amortização caiu 
 3,4%, impulsionado por eficiências em distribuição, parcialmente compensadas por maiores 
 investimentos em vendas e marketing, em linha com o calendário das nossas mega plataformas. O 
-EBITDA Ajustado cresceu 6,7%, com expansão de 10 pontos -base na margem bruta e de 160 pontos -
+EBITDA Ajustado cresceu 6,7%, com expansão de 10 pontos-base na margem bruta e de 160 pontos-
 base na margem EBITDA Ajustada. 
 • Destaques comerciais: a participação de mercado em cerveja permaneceu estável, de acordo com 
 nossas estimativas, com desempenho liderado por Michelob Ultra e Busch, que foram as duas marcas 
 com maior ganho de participação em volume na indústria. Em beyond beer, seguimos capturando 
-crescimento, com ganhos de participação de mercado , de acordo com nossas estimativas , 
+crescimento, com ganhos de participação de mercado, de acordo com nossas estimativas, 
 sustentados pelo sucesso de Mike’s Hard Lemonade e Cutwater, que foram as duas dentre as três 
 marcas com ganho de participação de mercado nesta categoria. 
 Canadá8 
@@ -565,7 +565,7 @@ SG&A total (846,9) - 47,5 34,0 (765,4) -9,6% -4,0%
 Lucro operacional ajustado 349,0 - (22,2) 31,5 358,3 2,7% 9,0% 
 % Margem de Lucro operacional ajustado 17,0% 18,6% 160 pb 160 pb 
 EBITDA ajustado 475,9 - (29,6) 31,9 478,1 0,5% 6,7% 
-% Margem EBITDA ajustad a 23,2% 24,8% 160 pb 160 pb 
+% Margem EBITDA ajustada 23,2% 24,8% 160 pb 160 pb 
  
  
  
@@ -620,14 +620,14 @@ Lucro líquido ajustado 3.820,2 3.832,4 0,3%
 Atribuído à Ambev 3.709,5 3.715,2 0,2% 
  
 EBITDA ajustado 7.444,6 (210,8) (413,5) 734,6 7.555,0 1,5% 10,1% 
-% Margem EBITDA ajustad a 33,1% 33,6% 50 pb 60 pb 
+% Margem EBITDA ajustada 33,1% 33,6% 50 pb 60 pb 
  
  
  
  
 9 No 1T26, a ROL/hl e o CPV/hl excluindo depreciação e amortização, excluindo a venda de produtos de marketplace não Ambev, foi de R$ 488,9 
-(crescimento orgânico de 8,1%) e R$ ( 215,0) (crescimento orgânico de 9,0%), respectivamente. As mudanças de escopo referem-se a: (i) créditos tributários 
-e efeitos relacionados no Brasil; (ii) desconsolidação de subsidiárias na CAC; e (iii) metodologia de limite de crescimento orgânico na Argentina, quando 
+(crescimento orgânico de 8,1%) e R$ (215,0) (crescimento orgânico de 9,0%), respectivamente. As mudanças de escopo referem-se a: (i) créditos tributários 
+e efeitos relacionados no Brasil; (ii) desconsolidação de subsidiárias na CAC; e (iii) metodologia de limite de crescimento o rgânico na Argentina, quando 
 atingido o limite, e aos efeitos decorrentes da aplicação da Contabilidade ´de Hiperinflação dentro do trimestre na LAS.
 
 [p. 12]
@@ -673,12 +673,12 @@ RESULTADO FINANCEIRO LÍQUIDO
 O resultado financeiro líquido no 1T26 totalizou R$ (1.056,5) milhões, uma piora de R$ 200,2 milhões em 
 comparação ao 1T25, detalhada a seguir: 
 • As receitas financeiras totalizaram R$ 566,6 milhões, explicadas principalmente por: (i) receita de 
-juros de R$ 3 19,0 milhões decorrente de aplicações de saldo de Caixa, sobretudo no Brasil e na 
+juros de R$ 319,0 milhões decorrente de aplicações de saldo de Caixa, sobretudo no Brasil e na 
 Argentina; e (ii) atualização de créditos tributários no Brasil no valor de R$ 147,1 milhões. 
 • As despesas com juros totalizaram R$ ( 534,6) milhões, impactadas principalmente por: (i) ajustes 
-a valor justo de contas a pagar conforme IFRS 13 (CPC 46 ) no valor de R$ (3 11,3) milhões; (ii) 
+a valor justo de contas a pagar conforme IFRS 13 (CPC 46) no valor de R$ (311,3) milhões; (ii) 
 apropriação de juros sobre passivos de arrendamento de R$ (72,2) milhões, conforme IFRS 16 (CPC 
-06 R2); (iii) juros sobre incentivos fiscais de R$ ( 44,1) milhões; e (iv) apropriação de juros sobre a 
+06 R2); (iii) juros sobre incentivos fiscais de R$ (44,1) milhões; e (iv) apropriação de juros sobre a 
 opção de venda da CND de R$ (33,6) milhões. 
 • Perdas com instrumentos derivativos de R$ ( 537,6) milhões, explicadas principalmente por (i) 
 custos de carrego relacionados ao hedge de nossa exposição cambial de US$ 1,8 bilhão no Brasil, 
@@ -688,13 +688,13 @@ Argentina neste trimestre; no entanto, ainda mantemos uma exposição cambial de
 aproximadamente US$ 286,6 milhões no país. 
 • Perdas com instrumentos não derivativos de R$ ( 306,1) milhões, refletindo principalmente perdas 
 cambiais relacionadas à compra de dólares na Bolívia, e impacto não caixa decorrente da 
-valorização do DOP na Dominicana , que afetou a conversão de saldos de moedas fortes no 
+valorização do DOP na Dominicana, que afetou a conversão de saldos de moedas fortes no 
 balanço patrimonial. 
 • Os tributos sobre transações financeiras totalizaram R$ ( 54,8) milhões. 
 • Outras despesas financeiras totalizaram R$ ( 200,8) milhões, explicadas principalmente por 
 provisões para contingências judiciais, despesas com cartas de crédito, planos de previdência e 
 tarifas bancárias. 
-• A receita financeira não caixa foi de R$ 10,8 milhões, resultado da aplica ção da norma de 
+• A receita financeira não caixa foi de R$ 10,8 milhões, resultado da aplicação da norma de 
 contabilidade e evidenciação em economia altamente inflacionária na Argentina. 
 Resultado financeiro líquido 
 1T25 1T26 R$ milhões 
@@ -787,9 +787,9 @@ a 100%, o país é considerado altamente inflacionário de acordo com o IAS29/CP
 Economia Hiperinflacionária. 
 Consequentemente, a partir do 3T18, passamos a reportar as operações de nossas subsidiárias argentinas 
 aplicando a norma de Contabilidade e Evidenciação em Economia Altamente Inflacionária. As normas do IFRS 
-e do CPC exigem que os resultados de nossas oper ações em economias altamente inflacionárias sejam 
+e do CPC exigem que os resultados de nossas operações em economias altamente inflacionárias sejam 
 reportados consolidando os resultados acumulados do ano e corrigindo-os pela alteração no poder geral de 
-compra da moeda local, utilizando índices oficiais de inflação e, posteriormente, convertidos para Re al pela 
+compra da moeda local, utilizando índices oficiais de inflação e, posteriormente, convertidos para Real pela 
 taxa de câmbio de fechamento do período (ou seja, taxa de fechamento de 31 de março de 2026 para os 
 resultados do 1T26). 
 Os resultados dos ajustes de contabilidade e evidenciação em economia altamente inflacionária realizados 
@@ -816,7 +816,7 @@ comparação com a taxa de câmbio média de cada período
 Além disso, a IAS 29 exige que ativos e passivos não monetários no balanço patrimonial das nossas operações 
 localizadas em economias altamente inflacionárias sejam atualizados pela inflação acumulada. O efeito 
 resultante do ajuste até 31 de dezembro de 2017 foi relatado no patrimônio líquido e, o efeito da atualização a 
-partir desta data, em uma conta dedicada no resultado financeiro, reconhecendo -se os impostos diferidos 
+partir desta data, em uma conta dedicada no resultado financeiro, reconhecendo-se os impostos diferidos 
 sobre tais ajustes, quando aplicável. 
 No 1T26, a transição para a norma de Contabilidade e Evidenciação em Economia Altamente Inflacionária, de 
 acordo com as regras do IFRS, resultou em (i) um ajuste positivo de R$ 10,8 milhões reportado no resultado 
@@ -826,7 +826,7 @@ Para o ano de 2026, a definição de crescimento orgânico da receita líquida f
 crescimento de preços na Argentina a um máximo de 2% ao mês (26,8% ano a ano e acumulado de três anos 
 de 100%). Para o CPV e as despesas de distribuição, o mesmo teto da taxa de crescimento do preço é aplicado, 
 calculado em uma base "por hectolitro" quando aplicável. Para as demais linhas da demonstração de 
-resultados divulgadas, o crescimento orgânico é calculado proporcionalmente ao crescimento da receit a 
+resultados divulgadas, o crescimento orgânico é calculado proporcionalmente ao crescimento da receita 
 líquida limitada. Esse método de cálculo se aplica a valores em moeda local convertidos de ARS (com limite) 
 para BRL usando a taxa de câmbio de fechamento aplicável, e os ajustes correspondentes são feitos por meio 
 de mudanças de escopo quando o limitador é atingido.
@@ -841,10 +841,10 @@ Divulgação de resultados – 05 de maio de 2026
 RECONCILIAÇÃO ENTRE EBITDA AJUSTADO E LUCRO 
 O EBITDA, Lucro Operacional e Lucro Líquido Ajustados são medidas utilizadas por nossa Administração para 
 medir seu desempenho. 
-O EBITDA Ajustado é calculado excluindo -se do Lucro Líquido os seguintes efeitos: (i) participação de não 
+O EBITDA Ajustado é calculado excluindo-se do Lucro Líquido os seguintes efeitos: (i) participação de não 
 controladores, (ii) despesa com imposto de renda, (iii) participação nos resultados de coligadas, (iv) resultado 
 financeiro líquido, (v) itens não usuais, e (vi) depreciação e amortização. 
-O EBITDA é calculado excluindo -se do EBITDA Ajustado os seguintes efeitos: (i) itens não usuais, e (ii) 
+O EBITDA é calculado excluindo-se do EBITDA Ajustado os seguintes efeitos: (i) itens não usuais, e (ii) 
 participação nos resultados de coligadas. 
 O EBITDA, o Lucro Operacional e o Lucro Líquido Ajustados não são medidas contábeis utilizadas nas práticas 
 contábeis adotadas no Brasil, pelo IFRS ou nos Estados Unidos da América (US GAAP), e não devem ser 
@@ -888,7 +888,7 @@ ambev.com.br
 Divulgação de resultados – 05 de maio de 2026 
 RECONCILIAÇÃO DO RESULTADO FINANCEIRO LÍQUIDO ENTRE 
 DEMONSTRAÇÕES CONTÁBEIS E RELEASE DE RESULTADOS 
-O resultado financeiro líquido apresentado na página 1 3 é uma visão resumida utilizada por nossa 
+O resultado financeiro líquido apresentado na página 13 é uma visão resumida utilizada por nossa 
 Administração para medir e analisar o desempenho financeiro da Companhia. 
  
 A reconciliação entre esta visão resumida e a as demonstrações contábeis é apresentada abaixo: 
@@ -969,7 +969,7 @@ Sempre que utilizados neste documento, termos que se refiram a variações perce
 simplificar o entendimento e correspondem aos respectivos intervalos, independentemente da variação ser 
 positiva ou negativa: estável (0,0 - 0,1%); um dígito baixo (0,2 - 3,3%); um dígito médio (3,4 - 6,6%); um dígito alto 
 (6,7 - 9,9%); dois dígitos ou na casa dos 10% (10,0 - 19,9%); dois dígitos baixos ou na casa dos 10% baixos (10,1 - 
-13,3%); dois dígitos médios, na casa dos 10% médios ou aproximadamen te 15% (13,4 - 16,6%); dois dígitos altos 
+13,3%); dois dígitos médios, na casa dos 10% médios ou aproximadamente 15% (13,4 - 16,6%); dois dígitos altos 
 ou na casa dos 10% altos (16,7 - 19,9%); na casa dos 20% (20,0 - 29,9%); na casa dos 20% baixos (20,1 – 23,3%); na 
 casa dos 20% médios ou na casa dos 25% (23,4 – 26,6%); na casa dos 20% altos (26,7 – 29,9%). Para percentuais 
 que excedam os intervalos previamente definidos, a mesma lógica de classificação deverá ser aplicada. 
@@ -986,14 +986,14 @@ referem-se ao primeiro trimestre de 2025 (1T25). Os somatórios neste relatório
 arredondamentos. 
 Declarações contidas neste relatório podem conter informações futuras e refletem a percepção atual e 
 estimativas da administração sobre a evolução do ambiente macroeconômico, condições da indústria, 
-desempenho da Companhia e resultados financeiros. Quaisqu er declarações, expectativas, capacidades, 
+desempenho da Companhia e resultados financeiros. Quaisquer declarações, expectativas, capacidades, 
 planos e premissas contidos neste relatório, que não descrevam fatos históricos, tais como informações a 
 respeito da declaração de pagamento de dividendos, a direção futura das operações, a implementação de 
 estratégias operacionais e financeiras relevantes e planos de investimentos em bens de capital, os fatores ou 
 tendências que afetem a condição financeira, liquidez ou resultados das operações, são considerações 
 futuras de significado previsto no “U.S. Private Securities Litigation Reform Act” de 1995 e contemplam diversos 
 riscos e incertezas. Não há garantias de que tais resultados venham a ocorrer. As declarações são baseadas 
-em diversos fatores e premissas, incluindo condições econômicas e mercadológicas gerais , condições da 
+em diversos fatores e premissas, incluindo condições econômicas e mercadológicas gerais, condições da 
 indústria e fatores operacionais. Quaisquer mudanças em tais premissas e fatores podem implicar que o 
 resultado real seja materialmente diferente das expectativas correntes.
 
@@ -1014,8 +1014,7 @@ EBITDA 3.625,0 3.847,1 7,7% 632,0 725,0 16,4% 4.257,0 4.572,1 9,0% 1.094,9 1.050
 Itens não usuais -9,7 -5,8 -39,8% - - 0,0% -9,7 -5,8 -39,9% -2,5 83,2 ns -9,2 -40,5 ns - - 0,0% -21,4 36,9 ns 
 % do total 45,4% -15,8% 0,0% 0,0% 45,4% -15,8% 11,8% 225,5% 42,8% -109,7% 0,0% 0,0% 100,0% 100,0% 
 Participação nos resultados de coligadas e empreendimentos 
-controlados em conjunto 2,7 -0,4 -113,1% - - 0,0% 2,7 -0,4 -113,1% - - 0,0% - - 0,0% 0,0 - -
-100,0% 2,7 -0,4 -112,9% 
+controlados em conjunto 2,7 -0,4 -113,1% - - 0,0% 2,7 -0,4 -113,1% - - 0,0% - - 0,0% 0,0 - - 100,0% 2,7 -0,4 -112,9% 
 % do total 98,8% 100,0% 0,0% 0,0% 98,8% 100,0% 0,0% 0,0% 0,0% 0,0% 1,2% 0,0% 100,0% 100,0% 
 EBITDA ajustado 3.632,0 3.853,3 7,6% 632,0 725,0 16,4% 4.264,0 4.578,3 8,9% 1.097,4 967,5 13,6% 1.607,3 1.531,0 12,2% 475,9 478,1 6,7% 7.444,6 7.555,0 10,1% 
 % do total 48,8% 51,0% 8,5% 9,6% 57,3% 60,6% 14,7% 12,8% 21,6% 20,3% 6,4% 6,3% 100,0% 100,0%
@@ -1033,13 +1032,13 @@ Resultado orgânico Cerveja NAB Total Consolidado
  1T25 1T26 % 1T25 1T26 % 1T25 1T26 % 1T25 1T26 % 1T25 1T26 % 1T25 1T26 % 1T25 1T26 % 
 Volume ('000 hl) 23.158,7 23.429,8 1,2% 8.934,6 8.583,7 -3,9% 32.093,3 32.013,5 -0,2% 2.751,0 2.560,0 7,7% 8.797,3 8.751,5 -0,5% 1.676,1 1.643,0 -2,0% 45.317,7 44.967,9 0,1% 
 R$ milhões 
-Receita líquida 10.000,8 10.960,0 9,6% 2.254,6 2.294,6 1,8% 12.255,4 13.254,6 8,2% 2.656,9 2.245, 2 10,0% 5.536,1 5.036,1 10,2% 2.049,0 1.928,5 -0,0% 22.497,4 22.464,5 8,1% 
+Receita líquida 10.000,8 10.960,0 9,6% 2.254,6 2.294,6 1,8% 12.255,4 13.254,6 8,2% 2.656,9 2.245,2 10,0% 5.536,1 5.036,1 10,2% 2.049,0 1.928,5 -0,0% 22.497,4 22.464,5 8,1% 
 % do total 44,5% 48,8% 10,0% 10,2% 54,5% 59,0% 11,8% 10,0% 24,6% 22,4% 9,1% 8,6% 100,0% 100,0% 
-CPV (4.707,3) (5.352,0) 13,7% (1.284, 4) (1.206, 2) -6,1% (5.991,6) (6.558,2) 9,5% (1.257,6) (977,3) 1,7% (2.833,9) (2.536,7) 8,9% (862,6) (809,5) -0,3% (10.945,7) (10.881,6) 7,8% 
+CPV (4.707,3) (5.352,0) 13,7% (1.284,4) (1.206,2) -6,1% (5.991,6) (6.558,2) 9,5% (1.257,6) (977,3) 1,7% (2.833,9) (2.536,7) 8,9% (862,6) (809,5) -0,3% (10.945,7) (10.881,6) 7,8% 
 % do total 43,0% 49,2% 11,7% 11,1% 54,7% 60,3% 11,5% 9,0% 25,9% 23,3% 7,9% 7,4% 100,0% 100,0% 
 Lucro bruto 5.293,5 5.608,0 5,9% 970,3 1.088,4 12,2% 6.263,7 6.696,5 6,9% 1.399,3 1.268,0 17,2% 2.702,2 2.499,4 11,6% 1.186,4 1.119,0 0,2% 11.551,6 11.582,9 8,4% 
 % do total 45,8% 48,4% 8,4% 9,4% 54,2% 57,8% 12,1% 10,9% 23,4% 21,6% 10,3% 9,7% 100,0% 100,0% 
-SG&A (3.052,5) (3.167,1) 3,8% (569,9) (562,7) -1,3% (3.622,4) (3.729,8) 3,0% (526,0) (464,2) 13,7% (1.440, 2) (1.275,0) 10,5% (846,9) (765,4) -4,0% (6.435,5) (6.234,4) 4,5% 
+SG&A (3.052,5) (3.167,1) 3,8% (569,9) (562,7) -1,3% (3.622,4) (3.729,8) 3,0% (526,0) (464,2) 13,7% (1.440,2) (1.275,0) 10,5% (846,9) (765,4) -4,0% (6.435,5) (6.234,4) 4,5% 
 % do total 47,4% 50,8% 8,9% 9,0% 56,3% 59,8% 8,2% 7,4% 22,4% 20,5% 13,2% 12,3% 100,0% 100,0% 
 Outras receitas/(despesas) operacionais 460,8 471,7 15,4% 124,4 105,0 -8,8% 585,3 576,7 10,1% 8,6 4,3 -40,1% 11,8 17,3 75,8% 9,5 4,7 -48,1% 615,2 603,0 9,8% 
 % do total 74,9% 78,2% 20,2% 17,4% 95,1% 95,6% 1,4% 0,7% 1,9% 2,9% 1,6% 0,8% 100,0% 100,0% 
@@ -1059,9 +1058,9 @@ EBITDA ajustado 36,3% 35,2% 28,0% 31,6% 34,8% 34,5% 41,3% 43,1% 29,0% 30,4% 23,2
  
 Por hectolitro - (R$/hl) 
 Receita líquida 431,8 467,8 8,3% 252,3 267,3 5,9% 381,9 414,0 8,4% 965,8 877,1 2,1% 629,3 575,5 10,8% 1.222,5 1.173,8 2,0% 496,4 499,6 8,0% 
-CPV (203,3) (228, 4) 12,4% (143,8) (140,5) -2,2% (186,7) (204,9) 9,7% (457,1) (381,7) -5,6% (322,1) (289,9) 9,5% (514,7) (492,7) 1,7% (241,5) (242,0) 7,7% 
+CPV (203,3) (228,4) 12,4% (143,8) (140,5) -2,2% (186,7) (204,9) 9,7% (457,1) (381,7) -5,6% (322,1) (289,9) 9,5% (514,7) (492,7) 1,7% (241,5) (242,0) 7,7% 
 Lucro bruto 228,6 239,4 4,7% 108,6 126,8 16,8% 195,2 209,2 7,2% 508,7 495,3 8,8% 307,2 285,6 12,2% 707,8 681,1 2,2% 254,9 257,6 8,4% 
-SG&A (131,8) (135, 2) 2,6% (63,8) (65,6) 2,8% (112,9) (116,5) 3,2% (191, 2) (181,3) 5,5% (163,7) (145,7) 11,0% (505,3) (465,8) -2,1% (142,0) (138,6) 4,4% 
+SG&A (131,8) (135,2) 2,6% (63,8) (65,6) 2,8% (112,9) (116,5) 3,2% (191,2) (181,3) 5,5% (163,7) (145,7) 11,0% (505,3) (465,8) -2,1% (142,0) (138,6) 4,4% 
 Outras receitas/(despesas) operacionais 19,9 20,1 14,1% 13,9 12,2 -5,1% 18,2 18,0 10,4% 3,1 1,7 -44,4% 1,3 2,0 76,7% 5,7 2,8 -47,1% 13,6 13,4 9,7% 
 Lucro operacional ajustado 116,7 124,3 8,7% 58,7 73,5 27,4% 100,5 110,7 12,2% 320,6 315,7 10,2% 144,8 141,9 14,0% 208,2 218,1 11,2% 126,5 132,3 13,0% 
 EBITDA ajustado 156,8 164,5 6,4% 70,7 84,5 21,2% 132,9 143,0 9,2% 398,9 377,9 5,4% 182,7 174,9 12,8% 283,9 291,0 8,8% 164,3 168,0 10,1%

@@ -1,0 +1,388 @@
+[p. 1]
+1. Considera o desdobramento de ações na proporção de 1:5, conforme aprovado na AGE de 28 de abril de 2026 
+2. Exclui margem de construção, ativo financeiro, efeitos não recorrentes e EMAE. 
+3. Meta 2024-2026: 126% de atingimento no recorte urbano e 93% de atingimento no recorte informal e rural. 
+4. Meta 2024-2026: 118% de atingimento no recorte urbano e 71% de atingimento no recorte informal e rural. 
+ 
+Release de Resultados 
+ 3T26 
+Página 1 
+5 de novembro de 2026 
+• Lucro por ação¹ ajustado de R$0,31 no 3T26, vs. R$0,38 no 3T25 
+• R$ 4,5 bilhões em investimentos no 3T26, +13,8% a/a 
+ 
+Mensagem do CEO 
+ 
+No terceiro trimestre de 2026, a Sabesp continuou avançando nas prioridades que estão moldando o futuro da Companhia. 
+Nossa principal prioridade é a universalização, conduzida com segurança, seguida pela melhoria contínua da experiência dos nossos 
+clientes. 
+Seguimos avançando na universalização, com investimentos de R$ 4,5 bilhões no trimestre e aproximadamente R$ 12 bilhões 
+nos primeiros nove meses de 2026. Em setembro, havíamos atingido 118%³ da meta do Fator U para 2024-2026 em novas economias 
+de água, 103%⁴ em novas economias de esgoto e 89% em economias conectadas ao tratamento de esgoto. Os benefícios desses 
+investimentos já são perceptíveis: na Região Metropolitana de São Paulo, a carga orgânica média anual lançada no Rio Tietê apresentou 
+redução de aproximadamente 30% em relação a 2025. Seguimos avançando nessa agenda sem abrir mão da segurança: nosso foco 
+contínuo no fortalecimento dos padrões de segurança e na supervisão das atividades em campo vem apresentando resultados, com 
+redução de 67% a/a na Taxa de Frequência de Acidentes com Afastamento entre nossos empregados e terceirizados. 
+A experiência dos clientes também continuou evoluindo à medida que avançamos na implementação do nosso Plano 
+Comercial. Desde março de 2026, as reclamações registradas na Ouvidoria e em outros canais críticos diminuíram 51%, enquanto o 
+tempo médio de espera nas agências de atendimento caiu 70%, reforçando os avanços na construção de uma Companhia cada vez 
+mais centrada no cliente. 
+Permanecemos focados em executar nossa transformação com disciplina: ampliando, com segurança, o acesso aos serviços 
+essenciais de água e esgotamento sanitário, aprimorando a experiência dos nossos clientes e a qualidade de nossas operações e 
+gerando valor sustentável no longo prazo. 
+ 
+Resultados Consolidados 
+ 
+O desempenho operacional da Sabesp no trimestre refletiu a expansão da base de clientes e os avanços em sua agenda de 
+universalização. 
+A Receita Líquida Ajustada² cresceu 9,0% em relação ao mesmo período do ano anterior, impulsionada pelo reajuste tarifário 
+e pelo aumento do volume, com contribuição das novas economias adicionadas por meio da universalização. Esse crescimento foi 
+parcialmente compensado pelo maior volume de chuvas no período, que afetou os padrões de consumo e resultou em um mix 
+desfavorável entre categorias de clientes e faixas de consumo. 
+O EBITDA Ajustado² aumentou 13,8% em relação ao mesmo período do ano anterior, apesar da execução do Plano Comercial, 
+que teve impacto de R$ 179 milhões no trimestre. As iniciativas implementadas no âmbito do plano têm contribuído para a redução das 
+reclamações e do tempo de espera nas agências de atendimento. 
+O Lucro Líquido Ajustado² recuou 13,8% em relação ao mesmo período do ano anterior, refletindo principalmente a piora do 
+resultado financeiro líquido, uma vez que o 3T25 foi beneficiado por um ganho não recorrente de R$ 1,5 bilhão relacionado a precatórios, 
+enquanto as despesas com juros aumentaram em função do maior saldo de dívida associado ao financiamento da aceleração do nosso 
+programa de investimentos. 
+O Capex atingiu R$ 4,5 bilhões no 3T26, crescimento de 13,8% em relação ao mesmo período do ano anterior. Os investimentos 
+nos primeiros nove meses do ano foram de aproximadamente R$ 12 bilhões, 15% acima do mesmo período de 2025. O backlog de Capex 
+contratado alcançou R$ 44,2 bilhões, com o crescimento sequencial impulsionado pela contratação das Ondas 2 e 3 de 
+Universalização, enquanto a Onda 4, que contempla a Região Metropolitana de São Paulo, permanece em processo licitatório. 
+ 
+Teleconferência de Resultados 
+Será realizada em 6 de novembro de 2026, às 10h (horário de Brasília). O link de acesso está disponível no site de Relações com 
+Investidores da Companhia. A apresentação já está disponível no mesmo site. A gravação de áudio da teleconferência será 
+disponibilizada nesse endereço.
+
+[p. 2]
+Release de Resultados 
+ 3T26 
+Página 2 
+DEMONSTRAÇÃO DO RESULTADO REPORTADO (CONSOLIDADO) 
+R$ milhões 
+ 3T26 3T25 Var. (R$) % / p.p 9M26 9M25 Var. (R$) % / p.p 
+ Receita de serviços de saneamento 6.449 6.108 340 5,6 19.351 18.415 936 5,1 
+ Redutora de Água/Esgoto (FAUSP) (1) (332) 331 (99,7) 39 (736) 776 (105,4) 
+ Ativo Financeiro (indenização) 50 154 (104) (67,6) 863 847 17 2,0 
+ Tributos (PIS/COFINS/TRCF) (507) (430) (78) 18,1 (1.513) (1.306) (208) 15,9 
+ Receita de Energia 150 - 150 - 324 - 324 - 
+(=) Receita Líquida de Serviços 6.140 5.501 639 11,6 19.064 17.219 1.845 10,7 
+ Receita de construção 4.001 3.924 76 1,9 11.250 9.596 1.654 17,2 
+(=) Receita Líquida 10.141 9.425 716 7,6 30.315 26.816 3.499 13,0 
+ Custos de construção (4.007) (3.924) (83) 2,1 (11.243) (9.596) (1.647) 17,2 
+ Custos e despesas (2.433) (2.385) (48) 2,0 (7.440) (6.859) (582) 8,5 
+ 
+Outras receitas/(despesas) operacionais, 
+líquidas 266 (54) 320 (589,9) 297 (7) 303 (4.421,2) 
+ Resultado da equivalência patrimonial 15 7 7 95,2 41 32 9 26,9 
+(=) EBITDA 3.982 3.069 913 29,7 11.968 10.386 1.583 15,2 
+(%) Margem Ebitda 39% 33% - 6,7 39% 39% - 0,8 
+ Depreciação e Amortização (736) (535) (200) 37,5 (2.171) (1.662) (509) 30,6 
+(=) EBIT 3.246 2.534 712 28,1 9.797 8.724 1.073 12,3 
+ Resultado Financeiro (1.222) 707 (1.929) (272,8) (3.264) (4) (3.260) 78.021,1 
+(=) EBT 2.024 3.241 (1.217) (37,5) 6.533 8.720 (2.187) (25,1) 
+ Imposto de Renda e contribuição social (636) (1.082) 446 (41,2) (1.932) (2.943) 1.011 (34,4) 
+(=) Lucro Líquido 1.388 2.159 (771) (35,7) 4.601 5.777 (1.175) (20,3) 
+(%) Margem Líquida 14% 23% - (9,2) 15% 22% - (6,4) 
+ Lucro por ação (R$) * 0,39 0,63 - - 1,31 1,69 - - 
+ 
+* Inclui EMAE
+
+[p. 3]
+Release de Resultados 
+ 3T26 
+Página 3 
+DEMONSTRAÇÃO DO RESULTADO AJUSTADO (CONSOLIDADO) 
+R$ milhões 
+ 
+3T26 
+Ajustes 
+3T26 
+Ajustado 
+3T25 
+Ajustado Var. (R$) % / p.p Ativo Financeiro Construção Não Recorrentes EMAE 
+ Receita de serviços de saneamento 6.449 - - - - 6.449 6.108 340 5,6 
+ Redutora de Água/Esgoto (FAUSP) (1) - - - - (1) (225) 224 (99,5) 
+ Ativo Financeiro (indenização) 50 50 - - - - - - - 
+ Tributos (PIS/COFINS/TRCF) (507) (5) - - (13) (489) (415) (74) 17,9 
+ Receita de Energia 150 - - - 150 - - - - 
+(=) Receita Líquida de Serviços 6.140 45 - - 137 5.958 5.468 490 9,0 
+ Receita de construção 4.001 - 3.979 - 21 - - - - 
+(=) Receita operacional líquida 10.141 45 3.979 - 158 5.958 5.468 490 9,0 
+ Custos de construção (4.007) - (3.979) - (28) - - - - 
+ Custos e despesas (2.433) - - (38) (76) (2.319) (2.262) (56) 2,5 
+ Outras receitas/(despesas) operacionais, líquidas 266 - - 300 (28) (6) (8) 2 (25,5) 
+ Resultado da equivalência patrimonial 15 - - - - 15 7 7 95,2 
+(=) EBITDA 3.982 45 - 262 26 3.648 3.206 443 13,8 
+(%) Margem Ebitda 39% - - - 16% 61% 59% - 2,6 
+ Depreciação e Amortização (736) - - - (4) (732) (535) (197) 36,8 
+(=) EBIT 3.246 45 - 262 22 2.916 2.671 246 9,2 
+ Resultado Financeiro (1.222) - - 78 12 (1.312) (754) (558) 74,0 
+(=) EBT 2.024 45 - 339 35 1.605 1.916 (312) (16,3) 
+ Imposto de Renda e contribuição social (636) (15) - (115) (8) (497) (632) 135 (21,3) 
+(=) Lucro Líquido 1.388 30 - 224 27 1.107 1.284 (177) (13,8) 
+(%) Margem Líquida 14% - - - 17% 19% 23% - (4,9) 
+ Lucro por ação (R$) * 0,39 - - - - 0,31 0,38 - - 
+ 
+ 
+* Saldo ajustado pela receita/custo de construção 
+ 
+Efeitos não recorrentes no EBITDA do 3T26: R$300 milhões relacionados a crédito tributário e R$(38) milhões 
+relacionados ao incidente de Jaguaré. 
+Efeitos não recorrentes no Resultado Financeiro Líquido do 3T26: R$78 milhões relacionados ao crédito tributário.
+
+[p. 4]
+Release de Resultados 
+ 3T26 
+Página 4 
+ 
+ 
+RECEITA LÍQUIDA AJUSTADA 
+A receita líquida ajustada de serviços de saneamento, considerando FAUSP e impostos, totalizou R$5.958 milhões no 3T26, 
+um aumento de +9,0% em relação ao 3T25. Os principais fatores que impactaram a receita no período foram: 
+• +7,7% em preço líquido: +10,6% reajuste tarifário, compensado por maior volume de reformas; 
+• +2,1% em volume: Novas economias +2,2%; troca de hidrômetros +0,4 e temperatura/atividade econômica 
+(0,4)%; 
+• (0,8)% em mix: mix de categoria de clientes e mix de faixas de consumo (0,6)% relacionado a temperatura. 
+ 
+CONSUMO POR CATEGORIA 
+ Volume Faturado (milhões de m³) Tarifa média (R$/m³) 
+Categoria 3T26 3T25 % 3T26 3T25 % 
+Residencial 945 932 1,4 4,32 4,04 7,0 
+Comercial 98 98 0,3 16,14 15,12 6,7 
+Industrial 18 18 (3,3) 22,06 19,50 13,1 
+Total varejo 1.061 1.048 1,2 5,71 5,35 6,9 
+Atacado 13 13 (1,4) 3,09 2,91 6,1 
+Outras¹ 26 25 1,1 22,33 21,08 5,9 
+Total Geral Consolidado 1.099 1.087 1,1 6,07 5,68 6,8 
+ 
+ Volume Faturado (milhões de m³) Tarifa média (R$/m³) 
+Categoria 9M26 9M25 % 9M26 9M25 % 
+Residencial 2.848 2.802 1,6 4,32 4,09 5,8 
+Comercial 291 296 (1,8) 15,73 14,71 7,0 
+Industrial 52 55 (6,2) 21,55 18,94 13,8 
+Total varejo 3.190 3.153 1,2 5,64 5,34 5,6 
+Atacado² 39 40 (2,2) 3,07 2,81 8,9 
+Outras¹,² 75 92 (18,1) 21,95 17,06 28,7 
+Total Geral Consolidado 3.303 3.284 0,6 5,98 5,64 6,1 
+ 
+(1) Outras é composto por Público e Prédio Próprio da Companhia. 
+(2) Atacado e Outras em 2025 foram ajustados para incorporar os valores referentes à Olímpia. 
+ 
+ 
+ 
+ 
+ 
+Número de ligações, em milhares¹ 3T26 3T25 Var. % 
+Ligações de água¹ 9.515 9.509 6,3 0,1 
+Ligações de esgotos¹ 8.255 8.245 10,0 0,1 
+ 
+(1) Ligações ativas e cadastradas, no final do período 
+Não auditado por auditores externos
+
+[p. 5]
+Release de Resultados 
+ 3T26 
+Página 5 
+ 
+CUSTOS E DESPESAS 
+No 3T26, os Custos e Despesas totalizaram R$2.325 milhões, um aumento de 2,4% em comparação com R$2.270 
+milhões registrados no 3T25, impulsionado principalmente por: 
+(i) R$ (112) milhões em energia elétrica, em razão da inflação e dos novos encargos setoriais de Angra; 
+(ii) R$ (82) milhões em perdas estimadas com créditos de liquidação duvidosa, principalmente em razão do 
+envelhecimento da carteira; 
+(iii) R$ 147 milhões em pessoal, em razão da migração do plano de saúde, do acordo coletivo e da composição do quadro 
+de empregados. 
+R$ milhões 
+ 3T26 Ajustado 3T25 Ajustado Var. (R$) % 9M26 Ajustado 9M25 Ajustado Var. (R$) % 
+Salários, encargos e benefícios e obrigações previdenciárias (538) (685) 147 (21,4) (1.700) (2.011) 311 (15,5) 
+Materiais gerais (79) (86) 7 (8,1) (256) (195) (61) 31,4 
+Materiais de tratamento (118) (120) 2 (1,4) (450) (364) (86) 23,7 
+Serviços (731) (712) (19) 2,7 (2.291) (2.018) (273) 13,5 
+Energia elétrica (415) (302) (112) 37,2 (1.209) (1.144) (65) 5,7 
+Despesas gerais (241) (262) 21 (8,0) (688) (540) (148) 27,3 
+Despesas tributárias (37) (18) (19) 102,5 (113) (64) (50) 78,2 
+Perdas estimadas com créditos de liquidação duvidosa (159) (77) (82) 106,1 (377) (419) 43 (10,2) 
+Outras receitas e despesas (6) (8) 2 (25,5) (13) 23 (35) (156,9) 
+Custos, despesas administrativas e comerciais (2.325) (2.270) (54) 2,4 (7.096) (6.732) (364) 5,4 
+Depreciação e amortização (732) (535) (197) 36,8 (2.160) (1.662) (498) 30,0 
+Custos, despesas administrativas e comerciais + D&A (3.056) (2.805) (251) 9,0 (9.256) (8.394) (862) 10,3 
+ 
+PESSOAL 
+A Sabesp encerrou o 3T26 com 9.057 colaboradores, redução de 2,7% em relação ao mesmo período do ano anterior e 
+uma queda de 3,4% quando considerada a média do número de empregados no período. O ganho pela redução do quadro 
+de pessoal foi compensado por um dissídio de 4,4%. 
+Número de funcionários 3T26 3T25 Var. (Qtde.) % 
+Funcionários no final de cada período 9.057 9.306 (249) (2,7) 
+Funcionários - média simples 8.959 9.279 (320) (3,4) 
+ 
+INVESTIMENTOS 
+No 3T26, o Capex totalizou R$4.528 milhões, um aumento de 13,8% em comparação com o mesmo período do ano 
+anterior. Os investimentos dos 9M26 alcançaram R$11.986 milhões, um aumento de 14,9% a/a. 
+R$ milhões 
+ 3T26 3T25 Var. (R$) % 9M26 9M25 Var. (R$) % 
+Água 1.701 1.155 546 47,2 3.994 2.815 1.179 41,9 
+Esgoto 2.827 2.823 4 0,1 7.992 7.616 376 4,9 
+Total 4.528 3.978 549 13,8 11.986 10.430 1.556 14,9
+
+[p. 6]
+Release de Resultados 
+ 3T26 
+Página 6 
+BALANÇO PATRIMONIAL (CONSOLIDADO) 
+(i) Contas a receber de clientes diminuíram R$ 680 milhões: Em dez/25, a SABESP possuía um saldo de R$ 814 milhões 
+em precatórios, que foram recebidos ao longo dos primeiros nove meses do ano. 
+(ii) Ativo de contrato aumentou R$ 10,6 bilhões: A variação decorreu principalmente de R$ 13 bilhões em adições de 
+obras em andamento, parcialmente compensadas por transferências para o ativo intangível e bifurcação de ativos de R$ 
+(2,6) bilhões. 
+(iii) Dívida de curto e longo prazo aumentou R$ 6,3 bilhões: impulsionada por R$ 14,6 bilhões em novas captações, 
+parcialmente compensadas por R$ (7,3) bilhões em amortizações e pré-pagamentos. 
+ATIVO 3T26 4T25 
+Ativo Circulante 
+Caixa e equivalentes de caixa 4.108.028 4.663.226 
+Aplicações financeiras 5.074.767 7.707.745 
+Contas a receber de clientes 3.793.956 4.413.449 
+Saldos com partes relacionadas 308.169 276.388 
+Estoques 86.831 22.061 
+Caixa restrito 15.720 9.575 
+Impostos a recuperar 1.783.283 1.295.310 
+Ativos mantidos para venda 48.150 26.864 
+Outros ativos 466.743 141.892 
+Total do ativo circulante 15.685.647 18.556.510 
+Ativo Não circulante 
+Contas a receber de clientes 198.244 258.544 
+Saldos com partes relacionadas 816.015 862.782 
+Depósitos judiciais 233.075 120.021 
+Imposto de renda e contribuição social diferidos 42.313 - 
+Impostos a recuperar 258.187 - 
+Investimentos 258.164 254.358 
+Propriedades para investimento 328.064 49.933 
+Ativo de contrato 21.691.436 11.018.516 
+Ativo financeiro 23.259.497 21.665.330 
+Intangível 51.162.227 50.492.473 
+Imobilizado 1.203.761 890.791 
+Outros ativos 29.138 33.509 
+Total do ativo não circulante 99.480.121 85.646.257 
+Total do Ativo 115.165.768 104.202.767 
+PASSIVO E PATRIMÔNIO LÍQUIDO 3T26 4T25 
+Passivo Circulante 
+Empreiteiros e fornecedores 1.978.363 2.400.046 
+Serviços a pagar 2.865.638 2.772.416 
+Empréstimos e financiamentos 2.876.086 5.092.816 
+Obrigações sociais e trabalhistas 526.265 699.629 
+Impostos e contribuições a recolher 747.238 615.592 
+PIS e Cofins diferidos 76.152 89.049 
+Dividendos e Juros sobre o capital próprio a pagar 441.222 2.059.850 
+Provisões 291.480 1.370.013 
+Parceria Público-Privada - PPP 481.705 469.687 
+Instrumentos financeiros derivativos 2.130.720 661.421 
+Contratos de Performance 97.746 120.776 
+Passivo de contrato 36.882 - 
+Outras obrigações 318.226 201.619 
+Total do passivo circulante 12.867.723 16.552.914 
+Passivo Não circulante 
+Empréstimos e financiamentos 43.560.823 35.049.531 
+Imposto de renda e contribuição social diferidos 2.784.776 3.129.908 
+PIS/COFINS diferidos 1.275.707 1.191.916 
+Provisões 1.870.109 533.399 
+Obrigações previdenciárias 2.397.135 2.140.161 
+Parceria Público-Privada – PPP 2.837.937 2.856.008 
+Contrato de Performance 1.200 6.151 
+Passivo de contrato 632.047 - 
+Outras obrigações 218.784 341.655 
+Total do passivo não circulante 55.578.518 45.248.729 
+Total do passivo 68.446.241 61.801.643 
+Patrimônio líquido 
+Capital social 21.379.216 21.210.000
+
+[p. 7]
+Release de Resultados 
+ 3T26 
+Página 7 
+Reservas de capital 242.016 30.219 
+Reservas de lucros 21.348.996 21.518.212 
+Ações em Tesouraria (474.687) (475.385) 
+Ajuste de avaliação patrimonial 117.634 118.078 
+Lucros (prejuízos) acumulados 4.106.352 - 
+Total do Patrimônio Líquido - Controladores 46.719.527 42.401.124 
+Participação dos Acionistas Não Controladores - - 
+Total do patrimônio líquido 46.719.527 42.401.124 
+Total do Passivo e do Patrimônio Líquido 115.165.768 104.202.767 
+ 
+DEMONSTRAÇÃO DO FLUXO DE CAIXA (CONSOLIDADO) 
+R$ ‘000 3T26 3T25 
+Fluxo de Caixa das Atividades Operacionais 4.169.848 3.094.604 
+Lucro antes do imposto de renda e contribuição social 2.023.987 3.240.860 
+Ajustes para reconciliação do lucro líquido: 
+Depreciação e amortização 735.502 535.081 
+Valor residual do imobilizado, intangível e propriedades para investimentos baixados 29.289 62.964 
+Perdas estimadas com créditos de liquidação duvidosa 159.377 (352.449) 
+Provisões e variações monetárias de provisões 39.614 (41.668) 
+Juros calculados sobre empréstimos e financiamentos a pagar 1.577.318 168.021 
+Juros e variações monetárias líquidas (281.131) (2.062.980) 
+Instrumentos financeiros derivativos e marcação a mercado (130.097) 1.042.898 
+Encargos financeiros de clientes (52.097) (172.807) 
+ Resultado da equivalência patrimonial (14.541) (7.451) 
+ Juros e variação monetária PPP 122.252 73.450 
+Repasses Municipais 140.961 170.282 
+Obrigações previdenciárias 44.624 68.084 
+PIS e Cofins diferidos sobre ativo financeiro da concessão 4.619 14.261 
+Atualização do Ativo financeiro da concessão (49.935) (154.164) 
+Outros ajustes (179.894) 510.222 
+ 4.169.848 3.094.604 
+Variação no Ativo 
+Contas a receber de clientes 51.955 1.544.836 
+Saldos e transações com partes relacionadas 25.782 16.142 
+Estoques (103.826) (28.562) 
+Impostos a recuperar 204.117 449.509 
+Depósitos judiciais (6.077) (71.558) 
+Outros ativos (113.835) 27.431 
+ 
+Variação no Passivo 
+Empreiteiros e fornecedores (17.115) 306.551 
+Serviços a pagar (363.665) 177.180 
+Obrigações sociais e trabalhistas 71.293 (38.407) 
+Impostos e contribuições a recolher 101.112 (722.515) 
+PIS/Cofins diferidos (1.661) (20.186) 
+Provisões (26.467) (147.685) 
+Obrigações previdenciárias (71.104) (63.694) 
+Outras obrigações 68.778 12.698 
+Caixa proveniente das operações 3.989.135 4.536.344 
+ 
+Juros pagos (1.512.691) (963.207) 
+Imposto de renda e contribuição social pagos (349.342) (399.867) 
+ 
+Caixa Líquido Proveniente atividades operacionais 2.127.102 3.173.270 
+ 
+Fluxo de caixa das atividades de investimentos 
+Aquisição de ativo de contrato, intangíveis e imobilizados (5.107.613) (3.783.368) 
+Caixa restrito 12.877 (4.234) 
+Aplicações financeiras – Aplicação (3.919.706) (10.041.790) 
+Aplicações financeiras – Resgate 11.779.590 7.422.894 
+Juros Recebidos 771.923 (79.864) 
+Dividendos recebidos 5.508 13.789 
+Aumento de capital em investidas 570 
+Caixa líquido aplicado nas atividades de investimentos 3.542.579 (6.472.003) 
+ 
+Fluxo de Caixa das atividades de financiamentos 
+Empréstimos e financiamentos 
+ Captações 390.340 4.711.941 
+ Amortizações (5.370.553) (796.735) 
+Parceria Público-Privada – PPP (124.828) (85.025)
+
+[p. 8]
+Release de Resultados 
+ 3T26 
+Página 8 
+Instrumentos financeiros derivativos (Pagos)/recebidos (697.402) (123.445) 
+Pagamento por aquisição de ações em tesouraria (2.687) 
+Caixa líquido proveniente das (aplicado nas) atividades de financiamentos (5.805.130) 3.706.736 
+ 
+Aumento / (diminuição) de caixa e equivalentes de caixa no exercício (135.449) 408.003 
+ 
+Representado por: 
+Caixa e equivalentes de caixa no início do exercício 4.243.477 4.561.016 
+Caixa e equivalentes de caixa no final do exercício 4.108.028 4.969.019 
+Aumento / (diminuição) de caixa e equivalentes de caixa no exercício (135.449) 408.003

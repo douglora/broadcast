@@ -1,0 +1,1663 @@
+[p. 1]
+l 
+ue
+
+[p. 2]
+2 
+ 
+Brasília, 11 de novembro de 2026 – A Equatorial S.A., holding multi-utilities, com atuação nos segmentos de Distribuição, Geração, Comercialização, 
+Serviços, Saneamento e Telecom (B3: EQTL3; USOTC: EQUEY), anuncia os resultados do terceiro trimestre de 2026 (3T26). 
+EBITDA Consolidado Ajustado cresce 4,1%, R$ 3,2 bilhões no período (vs. 3T25)¹ 
+Forte crescimento de mercado, Margem Bruta e redução do curtailment 
+ 
+• Aumento consolidado do Mercado Fio-B de 4,9%. 
+• Perdas totais consolidadas abaixo do nível regulatório (18,1%, 0,8 p.p. abaixo do regulatório), com destaque para 
+redução do Amapá de 2,5 p.p. vs o 3T25. 
+• Equivalência patrimonial de R$ 247 milhões, sendo R$ 184 milhões da Sabesp e R$ 63 milhões da Copasa. 
+• Investimentos consolidados totalizaram cerca de R$ 2,6 bilhões no 3T26. 
+• Relação Dívida Líquida / EBITDA consolidado na visão covenant, encerrou o trimestre em 3,1x (Ex-ganho de capi-
+tal da venda da Transmissão a relação Dívida Líquida/EBITDA é de 3,6x). 
+• Disponibilidade e Aplicações do período atingiram R$ 10,2 bilhões, 2,1x da dívida de curto prazo. 
+• O PMSO Ajustado por Consumidor (12 meses) cresceu 4,9%, enquanto em uma visão PMSO Ajustado por Consu-
+midor mais Compensações (12 meses) a variação foi de 3,0%. 
+• Reconhecimento parcial do deságio na negociação de precatórios já homologados pelo governo no Acordo Ga-
+úcho, R$ 83 milhões no trimestre. 
+• Renováveis: geração líquida 14,3% superior ao 3T25, com redução do constrained-off. Reconhecimento contábil 
+de R$ 283,9 milhões no EBITDA referentes à compensação de constrained-off passado (Lei nº 15.269/2025 e Por-
+taria MME nº 140/2026) 
+• No 3T26, o DEC recuou em seis das sete distribuidoras em relação ao 3T25. Destaque para Goiás, que passou a 
+operar abaixo do limite regulatório de DEC, totalizando cinco distribuidoras dentro do limite, e todas as conces-
+sões permanecem abaixo do limite regulatório de FEC. 
+• Renda Não Faturada cresceu R$ 301 milhões no período, principalmente devido a mudança de metodologia do 
+ciclo de faturamento dos clientes livres no Maranhão (R$ 44,5 milhões) e no Pará (R$ 118,9 milhões). 
+• Recebimento de JSCP da Copasa no valor de R$ 59,4 milhões, referente ao 2T26 e 3T26, com Pis/Cofins associado 
+de R$ 6,6 milhões. 
+• Inclusão no Release da seção de Reconciliação de dados Reportados e Ajustados (pág. 7). 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+1EBITDA Ajustado líquido de efeitos não-recorrentes e efeito não caixa de VNR e MtM e comparação com visão proforma 3T25 sem o ajuste de custo de remoção no 
+EBITDA.
+
+[p. 3]
+3 
+ 
+ 
+PRINCIPAIS MACROINDICADORES 
+ 
+ 
+¹EBITDA ajustado por efeitos não-recorrentes e ajustes IFRS (VNR e MtM) 
+²EBITDA Ajustado excluindo os valores de Equivalência Patrimonial da Sabesp e da Copasa 
+³Lucro Líquido ajustado por efeitos não-recorrentes e ajustes líquido de impostos IFRS (VNR e MtM) 
+⁴O Lucro Líquido Ajustado – Mesmos ativos desconsidera o resultado de Transmissão no 3T25 e da equivalência da Copasa no 3T26 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+As informações financeiras apresentadas neste documento podem ser consultadas em formato de planilha através 
+deste link de acesso. 
+ 
+ 
+Destaques Financeiros 3T25 3T26 ∆% ∆
+R$ milhões
+Receita operacional líquida (ROL) 13.806 13.644 -1,2% (162) 
+EBITDA Societário 2.794 3.536 26,6% 742 
+EBITDA Ajustado¹ 3.080 3.206 4,1% 127 
+Margem EBITDA Ajustado (%ROL) 22,3% 23,5% 1,2 p.p.
+EBITDA Ajustado ex - Equivalência² 2.765 2.960 7,1% 195 
+Lucro Líquido Ajustado³ 851 535 -37,1% (316) 
+Margem líquida (%ROL) 6,2% 3,9% -2,2 p.p.
+Lucro Líquido Aj. - Mesmos ativos⁴ 674 473 -29,9% (201) 
+Investimentos 3.019 2.620 -13,2% (399) 
+Dívida líquida 46.139 52.824 14,5% 6.684 
+Dívida líquida/EBITDA Covenant (12 meses) 3,3x 3,1x -0,3x
+Disponibilidade / Dívida de curto prazo 2,1x 2,1x -0,1x
+
+[p. 4]
+4 
+ 
+Sumário 
+Sumário ................................................................................................................................................................................... 4 
+1. DESEMPENHO FINANCEIRO CONSOLIDADO ............................................................................................................... 6 
+1.1 RECONCILIAÇÃO DE RESULTADOS REPORTADOS E AJUSTADOS ................................................................................... 7 
+1.2 MARGEM BRUTA AJUSTADA ............................................................................................................................................ 8 
+1.3 CUSTOS E DESPESAS ......................................................................................................................................................... 9 
+1.4 EBITDA ............................................................................................................................................................................. 11 
+1.5 RESULTADO FINANCEIRO ............................................................................................................................................... 13 
+1.6 LUCRO LÍQUIDO .............................................................................................................................................................. 14 
+1.7 ENDIVIDAMENTO ........................................................................................................................................................... 16 
+1.8 INVESTIMENTOS ............................................................................................................................................................. 17 
+1.9 ESG (Environmental, Social and Governance) .............................................................................................................. 18 
+2. DISTRIBUIÇÃO ............................................................................................................................................................. 19 
+2.1 DESEMPENHO COMERCIAL ............................................................................................................................................ 19 
+2.2 DESEMPENHO OPERACIONAL ........................................................................................................................................ 21 
+2.3 DESEMPENHO FINANCEIRO ........................................................................................................................................... 22 
+2.4 MARGEM BRUTA ............................................................................................................................................................ 22 
+2.5 DESPESAS OPERACIONAIS E PMSO/CONSUMIDOR ...................................................................................................... 23 
+2.6 EBITDA ............................................................................................................................................................................. 26 
+2.7 EFEITOS NÃO RECORRENTES EBITDA ............................................................................................................................ 28 
+2.8 RESULTADO FINANCEIRO ............................................................................................................................................... 28 
+2.9 LUCRO LÍQUIDO .............................................................................................................................................................. 28 
+2.10 INVESTIMENTOS ........................................................................................................................................................... 28 
+2.11 IMPOSTOS ..................................................................................................................................................................... 29 
+3. RENOVÁVEIS ............................................................................................................................................................... 30 
+3.1 DESEMPENHO OPERACIONAL ........................................................................................................................................ 30 
+3.2 DESEMPENHO FINANCEIRO ........................................................................................................................................... 33 
+4. SANEAMENTO ............................................................................................................................................................. 37 
+4.1 DESEMPENHO FINANCEIRO ........................................................................................................................................... 37 
+5. EQUATORIAL SERVIÇOS .............................................................................................................................................. 39 
+6. SERVIÇOS PRESTADOS PELO AUDITOR INDEPENDENTE ........................................................................................... 40
+
+[p. 5]
+5 
+ 
+AVISO 
+As declarações sobre eventos futuros estão sujeitas a riscos e incertezas. Tais declarações têm como base crenças e 
+suposições de nossa Administração e informações a que a Companhia atualmente tem acesso. Declarações sobre 
+eventos futuros incluem informações sobre nossas intenções, crenças ou expectativas atuais, assim como aquelas dos 
+membros do Conselho de Administração e Diretores da Companhia. As ressalvas com relação às declarações e infor-
+mações acerca do futuro também incluem informações sobre resultados operacionais possíveis ou presumidos, bem 
+como declarações que são precedidas, seguidas ou que incluem as palavras “acredita”, “poderá”, “irá”, “continua”, 
+“espera”, “prevê”, “pretende”, “estima” ou expressões semelhantes. 
+As declarações e informações sobre o futuro não são garantias de desempenho. Elas envolvem riscos, incertezas e su-
+posições porque se referem a eventos futuros, dependendo, portanto, de circunstâncias que poderão ocorrer ou não. 
+Os resultados futuros e a criação de valor para os acionistas poderão diferir de maneira significativa daqueles expressos 
+ou sugeridos pelas declarações com relação ao futuro. Muitos dos fatores que irão determinar estes resultados e valores 
+estão além da capacidade de controle ou previsão da Companhia. 
+Critérios contábeis adotados: 
+As informações estão apresentadas na forma consolidada e de acordo com os critérios da legislação societária brasi-
+leira, a partir de informações financeiras revisadas. As informações financeiras consolidadas apresentadas neste rela-
+tório representam 100% do resultado de suas controladas diretas e indiretas e consideram o resultado dos ativos a partir 
+de sua aquisição, exceto quando indicado o contrário para fins de comparabilidade. 
+ As informações operacionais consolidadas representam 100% dos resultados de controladas diretas e indiretas.
+
+[p. 6]
+6 
+ 
+1. DESEMPENHO FINANCEIRO CONSOLIDADO 
+ 
+¹Margem Bruta ajustada efeitos não-recorrentes e ajustes IFRS (VNR e MtM) 
+² EBITDA ajustado por efeitos não-recorrentes e ajustes IFRS (VNR e MtM) 
+³Resultado Financeiro ajustado por efeitos não-recorrentes 
+⁴O Lucro Líquido Ajustado do 3T25 considera o resultado de Transmissão e do 3T26 considera a equivalência da Copasa, em uma visão mesmos ativos, o valor seria de R$ 
+473 milhões 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Demonstração de Resultado 3T25 3T26 ∆% ∆
+R$ milhões
+Receita operacional bruta (ROB) 18.379 18.777 2,2% 398 
+Receita operacional líquida (ROL) 13.806 13.644 -1,2% (162) 
+Custos (9.582) (8.450) -11,8% 1.132 
+Margem Bruta 4.224 5.194 23,0% 970 
+Margem Bruta Ajustada¹ 4.221 4.719 11,8% 498 
+Custo e despesas operacionais (1.474) (1.574) 6,8% (100) 
+Outras receitas/despesas operacionais (271) (331) 22,1% (60) 
+Equivalência patrimonial 315 247 -21,7% (68) 
+Sabesp 315 184 -41,7% (131) 
+Copasa - 63 N/A 63 
+EBITDA Societário 2.794 3.536 26,6% 742 
+EBITDA Ajustado² 3.080 3.206 4,1% 127 
+Depreciação (572) (811) 41,7% (238) 
+Amortização de ágio (81) (78) -3,2% 3 
+Resultado do serviço (EBIT) 2.140 2.647 23,6% 506 
+Resultado Financeiro (1.554) (1.598) 2,8% (44) 
+Resultado Financeiro Ajustado³ (1.508) (1.620) 7,5% (113) 
+Lucro antes da tributação (EBT) 586 1.049 79,0% 463 
+IR/CSLL (153) (115) -25,2% 39 
+Participações minoritárias (141) (177) 25,3% (36) 
+Lucro Líquido Ex Minoritários 292 757 159,5% 466 
+Lucro Líquido Ajustado⁴ 851 535 -37,1% (316) 
+Investimentos 3.019 2.620 -13,2% (399)
+
+[p. 7]
+7 
+ 
+1.1 RECONCILIAÇÃO DE RESULTADOS REPORTADOS E AJUSTADOS 
+Com o objetivo de proporcionar maior clareza sobre o desempenho operacional e financeiro do Grupo, apresentamos a 
+seguir a reconciliação entre os valores reportados e ajustados no período, com o detalhamento dos principais efeitos 
+considerados para fins de ajuste. 
+No 3T26, os ajustes totalizaram R$ 329 milhões no EBITDA e R$ 399 milhões no Lucro Líquido. Os efeitos do trimestre 
+estão detalhados na tabela abaixo: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+R$ milhões Reportado 3T26 Ajustes Ajustado 3T26
+Margem Bruta 5.194 (476) 4.719 
+Precatório homologado - Acordo Gaúcho (83) 
+PIS/COFINS - Acordo Gaúcho 8 
+Não neutralidade Parcela A (94) 
+Ressarcimento Constrained-off (284) 
+Ajustes IFRS (VNR/MtM) (22) 
+(-) PMSO (1.301) (1.301) 
+(-) Provisões (233) (233) 
+(-) Sistemas Isolados e Subv. CCC (40) (40) 
+(-) Outras receitas/despesas operacionais (331) 146 (185) 
+Multa rescisória Acordo de Acionistas - Copasa 52 
+Outros Custos Não Caixa 94 
+(+) Equivalência Patrimonial 247 247 
+EBITDA 3.536 (329) 3.206 
+(-) Ajustes apenas de EBITDA (94) (94) 
+(-) Depreciação e Amortização (889) (889) 
+(-/+) Resultado Financeiro (1.598) (22) (1.620) 
+Atualização Monetária - Ressarcimento Constrained-off (22) 
+(-/+) Impostos (115) 47 (67) 
+Tributos - Ressarcimento Constrained-off 10 
+Tributos (Não neutralidade CVA) 30 
+Impostos sobre ajustes IFRS 7 
+Lucro Líquido 934 (399) 535
+
+[p. 8]
+8 
+ 
+1.2 MARGEM BRUTA AJUSTADA 
+ 
+De forma consolidada, a Margem Bruta ajustada do Grupo Equatorial no 3T26 apresentou um crescimento de 11,8% em 
+comparação ao 3T25, totalizando R$ 4.719 milhões, já excluindo os efeitos da receita de construção e os efeitos IFRS 
+(VNR e MtM). 
+O resultado é explicado, principalmente, pelo aumento da margem bruta do segmento de Distribuição (R$ 443 milhões), 
+em função do crescimento de margem em todas suas distribuidoras, sendo o impacto Equatorial Goiás (R$ 147 mi-
+lhões), Equatorial Maranhão (R$ 116 milhões), da Equatorial Pará (R$ 52 milhões), da CEEE-D (R$ 51 milhões), da Equa-
+torial Alagoas (R$ 28 milhões), da CEA (R$ 27 milhões) e da Equatorial Piauí (R$ 22 milhões). 
+O resultado também foi impactado positivamente pela margem bruta de Renováveis (R$ 26 milhões), e um leve cresci-
+mento na margem da CSA (R$ 6 milhões). 
+No trimestre, o saldo de RNF totalizou R$ 365 milhões, refletindo principalmente a mudança no ciclo de faturamento 
+dos clientes livres no Maranhão e no Pará. O efeito tarifa fio-b contribuiu com R$ 193 milhões para a variação da margem. 
+Na tabela abaixo apresentamos os efeitos não recorrentes ou não caixa da margem bruta: 
+ 
+Abaixo o detalhamento dos efeitos não recorrentes que impactam a Margem Bruta: 
+Deduções da Receita Operacional: 
+(i) Acordo Gaúcho: reconhecimento de deságio de R$ 83 milhões na CEEE-D de compra de precatórios que 
+foram homologados pelo estado neste trimestre e foram utilizados para pagamento do Acordo Gaúcho, 
+parcialmente compensado por R$ 8 milhões de PIS/COFINS sobre o ganho (efeito líquido positivo de R$ 76 
+milhões); 
+(ii) Não Neutralidade de Parcela A: ganho de R$ 94 milhões referente a ajuste no cálculo da neutralidade da 
+Parcela A de períodos anteriores; 
+Não Recorrentes | Margem Bruta Ajustada Distribuição Renováveis Saneamento Holding Outros PPAs 3T26 Total
+Deduções da receita operacional (170) (284) - - - - (454) 
+Precatório homologado - Acordo Gaúcho (83) - - - - - (83) 
+PIS/COFINS - Acordo Gaúcho 8 - - - - - 8 
+Não neutralidade Parcela A (94) - - - - - (94) 
+Ressarcimento Constrained-off - (284) - - - - (284) 
+Receita Operacional líquida (170) (284) - - - - (454) 
+Ajustes IFRS (VNR/MtM) (10) (11) - - - - (22) 
+Margem Bruta Ajustada (180) (295) - - - - (476)
+
+[p. 9]
+9 
+ 
+(iii) Reconhecimento contábil dos ressarcimentos referentes aos cortes de geração ocorridos entre 
+01/09/2023 e 25/11/2025, nos termos da Lei nº 15.269/2025. Do montante total de R$ 331 milhões, uma 
+parcela referente à indisponibilidade externa já havia sido reconhecida contabilmente em trimestres ante-
+riores, sendo reconhecidos neste trimestre os efeitos no EBITDA de R$ 62,7 milhões relativos aos contratos 
+do ACR e R$ 221,2 milhões relativos aos contratos do ACL; 
+(iv) Ajustes IFRS (VNR / MtM): no segmento de Distribuição, R$ 10 milhões referentes à atualização do valor 
+novo de reposição (VNR) do ativo financeiro das concessões, ante R$ 42 milhões no 3T25. A redução reflete 
+a reclassificação de parcela relevante do ativo financeiro para o ativo intangível após a renovação das con-
+cessões do Maranhão e do Pará, em maio de 2026. No segmento Outros, R$ 11 milhões referentes à mar-
+cação a mercado (MtM) dos contratos de energia da comercializadora. 
+ 
+1.3 CUSTOS E DESPESAS 
+ 
+A partir do ano de 2026, os valores de efeito Caixa que antes eram considerados na linha de Outras Receitas/Despesas 
+Operacionais foram evidenciados na linha de Custo de Remoção. Essa nova linha se refere ao gasto com serviços de 
+retirada (desativação) de ativos, por exemplo, postes, cabos ou equipamentos da rede elétrica que precisam ser subs-
+tituídos ou descartados. Vale destacar que essa despesa integra o PMSO real em todos os mecanismos de definição 
+dos Custos Operacionais Regulatórios. Adicionalmente, deve-se notar que essas despesas são diretamente relaciona-
+das ao volume de Capex e à intensidade do processo de unitização e capitalização das obras, ou seja, tendem a variar 
+ao longo do ciclo tarifário conforme a estratégia de alocação temporal de investimentos de cada empresa. 
+Custos Operacionais 3T25 3T26 ∆% ∆
+R$ milhões
+(+) Pessoal 368 427 16% 58
+(+) Material 50 59 17% 9
+(+) Serviço de terceiros 724 707 -2% (17)
+(+) Outros 132 108 -18% (24)
+(=) PMSO Reportado 1.275 1.301 2,0% 26
+Ajustes - Não Recorrentes (PMSO) (128) - -100% 128
+PMSO Ajustado 1.146 1.301 13,4% 154
+(+) Provisões 173 233 35% 60
+(+) Sistemas Isolados e Subv. CCC 25 40 57% 15
+(+) Outras receitas/despesas operacionais 271 331 22% 60
+(+) Custo de Remoção 96 175 81% 79
+(+) Outros Custos Não Caixa 175 156 -11% (19)
+(+) Depreciação e amortização 572 811 42% 238
+Custos e Despesas Reportado 2.318 2.716 17,2% 399
+Ajustes - Não Recorrentes (Provisões) (1) - 100% 1
+Ajustes - Não Recorrentes (Outras Receitas/Despesas) - (52) N/A (52)
+Custos e Despesas Ajustado 2.188 2.664 21,7% 476
+IPCA (12 meses)
+IGPM (12 meses) 3,34%
+4,58%
+
+[p. 10]
+10 
+ 
+ 
+O PMSO Ajustado apresentou aumento de 13,4% na comparação entre trimestres, passando de R$ 1.146 milhões para 
+R$ 1.301 milhões. Como principais efeitos do PMSO Ajustado do trimestre, destacamos: 
+Distribuição: 
+(i) Aumento nas despesas de Pessoal em R$ 40 milhões, refletindo o crescimento do headcount e a primarização de atividades 
+em Uruaçu (GO), Alagoas e Pará, além do aumento da provisão para Incentivos de Longo Prazo (ILP) em R$ 22 milhões no 
+trimestre, e dos reajustes salariais e de benefícios. 
+(ii) Aumento de R$ 9 milhões na linha de Material, observado em todas as distribuidoras, principalmente em função dos maio-
+res volumes de EPI/EPC, associados à primarização de atividades, além de outros gastos relacionados a eventos climáticos 
+extremos no Rio Grande do Sul. 
+(iii) Em valores ajustados, a linha de Serviço de Terceiros apresentou um aumento de R$ 17 milhões, decorrente principalmente 
+do crescimento das despesas com consultorias e serviços gerais na Equatorial Pará, além do aumento de R$ 9 milhões na 
+Equatorial Alagoas, associado a honorários advocatícios e serviços de faturamento e leitura. 
+(iv) Em valores ajustados, a linha de Outros apresentou um aumento de R$ 16 milhões, principalmente em função de uma multa 
+regulatória no valor de R$ 19,8 milhões na Equatorial Piauí, que deixou de ser ajustada no EBITDA a partir deste trimestre. 
+Renováveis 
+(i) Aumento de R$ 3 milhões nas despesas com pessoal, principalmente em função da maior provisão para Incentivos de Longo 
+Prazo (ILP); 
+(ii) Aumento nas despesas de Serviços de Terceiros em R$ 16 milhões, explicado principalmente pelos reajustes inflacionários 
+e contratuais dos serviços de operação e manutenção dos parques e pelo aumento de honorários advocatícios relaciona-
+dos a arbitragens e êxitos. 
+Holding 
+(i) Aumento de R$ 14 milhões nas despesas com pessoal, principalmente em função da maior provisão para Incentivos de 
+Longo Prazo (ILP); 
+(ii) Aumento de R$ 37 milhões na linha de Serviços de Terceiros, decorrente do aumento das despesas com honorários e as-
+sessorias especializadas relacionadas aos projetos de M&A da Companhia voltados à aquisição de ativos. 
+Outros 
+(i) Redução de R$ 13 milhões na linha de Outros, decorrente da reclassificação de processos da FUNAC. 
+ 
+Custos Operacionais 3T25 ∆ Distribuição ∆ Renováveis ∆ Saneamento ∆ Holding ∆ Outros* 3T26 ∆% ∆
+R$ milhões
+(+) Pessoal 368 40 3 1 14 1 427 15,9% 58
+(+) Material 50 9 (1) 1 (0) (0) 59 17,2% 9
+(+) Serviço de terceiros 724 (73) 16 2 37 1 707 -2,4% (17)
+(+) Outros 132 (14) 5 (1) (3) (13) 108 -18,4% (24)
+(=) PMSO Reportado 1.275 (37) 23 2 48 (11) 1.301 2,0% 26
+Ajustes - Não Recorrentes (PMSO) (128) 120 9 - - (0) - 100,0% 128
+PMSO Ajustado 1.146 83 32 2 48 37 1.301 13,4% 154
+(+) Provisões 173 37 - (4) - 27 233 34,5% 60
+(+) Sistemas Isolados e Subv. CCC 25 15 - - - (0) 40 57,2% 15
+(+) Outras receitas/despesas operacionais 271 (5) - (1) 65 2 331 22,1% 60
+(+) Depreciação e amortização 572 247 (12) 2 0 1 811 41,7% 238
+Custos e Despesas Reportado 2.318 257 11 (1) 113 18 2.716 17,2% 399
+Ajustes - Não Recorrentes (1) 1 - - (52) - (52) -6017,8% (51)
+Custos e Despesas Ajustado 2.188 377 20 (1) 61 67 2.664 21,7% 476
+IPCA (12 meses)
+IGPM (12 meses)
+*Inclui PPAs e Serviços
+3,34%
+4,58%
+
+[p. 11]
+11 
+ 
+A linha de Provisões apresentou aumento de 34,5%, refletindo, principalmente, a evolução da PECLD de R$ 61 milhões, 
+sendo mais relevante nas distribuidoras do Maranhão, Piauí e Alagoas. 
+A linha de outras receitas/despesas operacionais variou pelo efeito não recorrente da multa rescisória do acordo da 
+Copasa e R$ 6,6 milhões relacionados à contabilização de Pis/Cofins sobre a declaração de JSCP da Copasa. A abertura 
+das explicações para os movimentos de cada segmento está em suas respectivas seções no documento. 
+Vale ressaltar que neste trimestre houve a revisão e atualização da matriz de PECLD, visando refletir de forma mais 
+tempestiva as variações no perfil de risco da carteira de clientes. 
+Abaixo o detalhamento do efeito não recorrente: 
+ 
+(i) Pagamento de R$ 52 milhões referente à multa rescisória do Acordo de Acionistas da Copasa; 
+ 
+1.4 EBITDA 
+ 
+O EBITDA reportado da Equatorial atingiu R$ 3.536 milhões no 3T26, um valor 26,6% superior aos R$ 2.794 milhões 
+registrados no 3T25. Na visão ajustada por efeitos não recorrentes e não caixa, o EBITDA alcançou R$ 3.206 milhões, 
+4,1% superior ao mesmo período do ano anterior, ou R$ 127 milhões superior, crescimento explicado principalmente 
+pelo aumento do segmento de distribuição em R$ 230 milhões, fruto do crescimento da margem bruta. Além da conta-
+bilização da equivalência patrimonial da Copasa. 
+Em contrapartida, o resultado foi parcialmente atenuado pela redução de R$ 131 milhões na equivalência patrimonial 
+da SABESP no trimestre. Também contribuíram para a queda os menores resultados da Holding, refletindo os maiores 
+custos com pessoal e serviços relacionados a M&A, e do segmento de Renováveis, cujo desempenho foi impactado pela 
+redução do EBITDA da Comercializadora, parcialmente compensada pelo crescimento da Echoenergia, impulsionado 
+pela maior geração no período. 
+Além disso, o Custo de Remoção apresentou aumento no trimestre, refletindo o calendário de Revisões Tarifárias. Esse 
+efeito foi mais expressivo nas distribuidoras em fase pré-RTP, especialmente naquelas cujas datas de corte da Base de 
+Remuneração está mais próxima, como Pará e Goiás. 
+Não Recorrentes / Não Caixa | Custos Distribuição Renováveis Saneamento Holding Outros PPAs 3T26 Total
+Outras receitas/despesas operacionais - - - 52 - - 52 
+Multa rescisória Acordo de Acionistas - Copasa - - - 52 - - 52
+
+[p. 12]
+12 
+ 
+O EBITDA Ajustado ex. equivalência patrimonial apresentou um crescimento de 7,1% na comparação entre os trimes-
+tres. Enquanto na visão mesmos ativos, desconsiderando a equivalência patrimonial da Copasa, o EBITDA Ajustado 
+cresceu 2,1%. 
+O EBITDA ajustado já contempla os ajustes não caixa e IFRS (VNR e MtM). 
+A seguir apresentamos a conciliação do EBITDA, conforme Resolução CVM 156/22: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+¹O EBITDA Ajustado - Mesmos Ativos desconsidera o resultado da equivalência patrimonial da Copasa no 3T26. 
+Os efeitos não-recorrentes ou não caixa que impactaram o EBITDA estão relacionados a seguir. 
+ 
+Abaixo, apresentamos o detalhamento dos efeitos não caixa, considerados exclusivamente para fins de ajuste do 
+EBITDA, não sendo considerados como ajustes no lucro líquido. 
+(i) Contabilização de R$ 94 milhões nas distribuidoras, referente à baixa de ativos. 
+Os outros ajustes do EBITDA estão representados nas seções “Margem Bruta” e “Custos e Despesas”. Para maiores 
+detalhes, ver seção de “Distribuição”. 
+EBITDA 3T25 3T26 ∆% ∆
+R$ milhões
+EBITDA Societário 2.794 3.536 26,6% 742
+Ajustes EBITDA 286 (329) -215,0% (615)
+Não Recorrentes / Não Caixa 341 (307) -190,2% (648)
+(-) VNR (42) (10) -75,0% 31
+(-) MtM (13) (11) -10,1% 1
+EBITDA Ajustado 3.080 3.206 4,1% 127
+EBITDA Ajustado ex - Equivalência 2.765 2.960 7,1% 195
+EBITDA Ajustado - Mesmos Ativos¹ 3.080 3.144 2,1% 64
+Não Recorrentes | EBITDA Distribuição Renováveis Saneamento Holding Outros PPAs 3T26 Total
+Margem Bruta (170) (284) - - - - (454) 
+Ajustes IFRS (VNR/MTM) (10) (11) - - - - (22) 
+Margem Bruta Ajustada (180) (295) - - - - (476) 
+Outras receitas/despesas operacionais - - - 52 - - 52 
+Outros Custos Não Caixa 94 - - - - - 94 
+Ajustes EBITDA (86) (295) - 52 - - (329)
+
+[p. 13]
+13 
+ 
+1.5 RESULTADO FINANCEIRO 
+ 
+De forma consolidada, o resultado financeiro reportado da Companhia atingiu R$ 1.598 milhões negativos contra R$ 
+1.554 milhões negativos no 3T25, enquanto resultado financeiro ajustado por efeitos não recorrentes e não caixa no 
+3T26 foi de R$ 1.620 milhões negativos, 7,5% maior em relação ao 3T25. A piora no resultado financeiro do trimestre é 
+explicada, principalmente, pelo crescimento de 11,4% no saldo da dívida no período, que elevou os encargos financei-
+ros, e pela redução das rendas financeiras, refletindo a menor disponibilidade de caixa no segmento de Distribuição e a 
+queda da taxa média do CDI, de 3,70% no 3T25 para 3,43% no 3T26. Os efeitos foram parcialmente compensados pelo 
+melhor desempenho dos encargos de CVA e de outras receitas e despesas financeiras. 
+Os efeitos não-recorrentes que impactaram o resultado financeiro estão relacionados a seguir: 
+ 
+Abaixo o detalhamento do efeito não recorrente no Resultado Financeiro: 
+(i) R$ 22 milhões no resultado financeiro, decorrente da atualização monetária dos valores de ressarcimento dos cortes 
+de geração reconhecidos na Echoenergia. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Resultado Financeiro Líquido 3T25 ∆ Distribuidoras ∆ Renováveis ∆ Saneamento ∆ Holding ∆ Outros 3T26 ∆% ∆
+R$ milhões
+(+) Rendas Financeiras 415 (103) 3 0 28 6 350 -15,8% (66) 
+(+) Acréscimo Moratório - Venda de Energia 119 (1) (0) 0 - (0) 117 -1,1% (1) 
+(+) Encargos da dívida (1.847) (131) 37 15 119 (184) (1.991) 7,8% (145) 
+(+) Encargos CVA 45 76 - - - - 121 168,0% 76 
+(+) AVP - Comercial (7) 22 - (0) - - 15 308,5% 22 
+(+) Contingências (58) (14) - (0) - 2 (70) 20,9% (12) 
+(+) Outras Receitas / Despesas (222) 65 4 (0) 13 (1) (140) -36,7% 81 
+Resultado financeiro (1.554) (85) 44 15 160 (177) (1.598) 2,8% (44) 
+(-/+) Efeitos Não Recorrentes 21 (21) (22) - - - (22) -208,3% (43) 
+(-/+) Efeitos Não Caixa 26 - - - (26) - - -100,0% (26) 
+Resultado financeiro ajustado (1.508) (1.620) 7,5% (113) 
+Não Recorrentes | Resultado Financeiro Distribuição Renováveis Saneamento Holding Outros PPAs 3T26 Total
+Resultado Financeiro - (22) - - - - (22) 
+Atualização Monetária Ressarcimento Constrained-off (22) (22)
+
+[p. 14]
+14 
+ 
+1.6 LUCRO LÍQUIDO 
+De forma consolidada, o lucro líquido do período foi de R$ 934 milhões, enquanto o lucro líquido ajustado foi de R$ 535 
+milhões. 
+ 
+¹ Lucro Líquido Ajustado – Mesmos ativos desconsidera o resultado de Transmissão no 3T25 e equivalência da Copasa no 3T26 
+As participações minoritárias da companhia são afetadas pelo direito econômico dos dividendos no ano em curso con-
+ferido às ações PN emitidas na Equatorial Distribuição, e por isso não refletem a participação econômica existente na 
+Equatorial. O Lucro Líquido Ajustado por minoritários, para uma visão mais aderente, deve levar em consideração: (i) as 
+participações minoritárias das empresas do grupo, que no trimestre atingiram R$ 72,5 milhões e (ii) o valor da atualiza-
+ção das PNs por CDI, que no trimestre registrou R$ 34,6 milhões. Efetuando estes ajustes, o Lucro Líquido Ex Minoritá-
+rios seria de R$ 826,9 milhões. 
+Abaixo apresentamos os efeitos não recorrentes e não caixa que impactaram o lucro da companhia: 
+ 
+Lucro Líquido 3T25 3T26 ∆% ∆
+R$ milhões
+Distribuição 366 720 97% 354 
+Echo Participações 57 368 545% 311 
+Echo Crescimento (32) 24 177% 56 
+Serviços (9) (43) -378% (34) 
+CSA (45) (24) 47% 21 
+PPAS 21 - -100% (21) 
+Holding + outros 251 (112) -144% (363) 
+(=) Lucro Líquido 610 934 53% 324 
+Ajustes Totais 241 (399) -265% (640) 
+Ajustes Distribuição 267 (140) -152% (406) 
+Ajustes Echoenergia 6 (297) -5129% (302) 
+Ajustes Saneamento - - N/A - 
+Ajustes Serviços - - N/A - 
+Ajustes PPAS e Holding (21) 52 345% 73 
+Ajustes PNs - Não caixa 26 - -100% (26) 
+Ajustes IFRS (VNR e MtM) (36) (14) 60% 22 
+(=) Lucro Líquido Ajustado 851 535 -37,1% (316) 
+(=) Lucro Líquido 610 934 53,2% 324 
+(-) Participações Minoritárias (141) (177) 25,3% (36) 
+(-) Lucro da Transmissão (177) - - -
+(=) Lucro Líquido Ex Minoritários 292 757 159,5% 466 
+Lucro Líquido Ajustado - Mesmos ativos¹ 674 473 -29,9% (201) 
+Não Recorrentes | Lucro Líquido Distribuição Renováveis Saneamento Holding Outros PPAs 3T26 Total
+Ajustes EBITDA (Margem + Custos) (170) (284) - 52 - - (402) 
+Ajustes Resultado Financeiro - (22) - - - - (22) 
+Impostos 30 10 - - - - 40 
+Tributos (Ressarcimento Constrained-off) - 10 - - - - 10 
+Tributos (Não neutralidade CVA) 30 - - - - - 30 
+Ajustes IFRS (VNR / MtM) líquido de impostos (7) (7) - - - - (14) 
+Ajustes Totais Lucro Líquido (147) (304) - 52 - - (399)
+
+[p. 15]
+15 
+ 
+A linha de impostos ajusta o valor do trimestre para a incidência de impostos sobre o resultado recorrente, e a linha de 
+Ajustes IFRS traz os efeitos não caixa já líquidos de impostos. 
+Abaixo o detalhamento dos efeitos não recorrentes no Lucro Líquido: 
+(i) Efeito de R$ 10 milhões referente aos tributos estimados incidentes sobre os valores de ressarcimento do Constrained-
+off reconhecidos; 
+(ii) Efeito de R$ 30 milhões referente aos tributos estimados incidentes sobre os valores de não neutralidade CVA na Equa-
+torial Goiás.
+
+[p. 16]
+16 
+ 
+1.7 ENDIVIDAMENTO 
+No trimestre, a dívida bruta consolidada, considerando empréstimos e financiamentos, credores financeiros da recu-
+peração judicial (líquido de ajuste a valor presente) e debêntures, atingiu R$ 64,4 bilhões, representando um leve au-
+mento de 1,2% em relação ao 2T26. Para abertura mais detalhada da dívida, visite o website de RI, na seção: Informa-
+ções Financeiras – Dados Operacionais e Financeiros. 
+ 
+ 
+ A dívida líquida apurada para fins de covenants atingiu R$ 52,8 bilhões, implicando numa relação dívida líquida/EBITDA 
+de 3,1x e desconsiderando o ganho de capital da Transmissão, a relação dívida líquida/EBITDA fica em 3,6x. A abertura 
+do quadro de covenants apresenta o EBITDA da Equatorial somado pela equivalência patrimonial das suas investidas, 
+sendo 15% na SABESP e 30% na Copasa, referentes aos últimos 12 meses.
+
+[p. 17]
+17 
+ 
+Nos últimos 12 meses a parcela da dívida do grupo indexada ao CDI registrou um custo de 15,12% a.a., ou CDI + 0,57% 
+a.a., enquanto a parcela da dívida indexada ao IPCA registrou um custo médio de 9,88% a.a., ou IPCA + 5,43% a.a.. 
+A cobertura de caixa com relação às obrigações de curto prazo da Companhia foi de 2,1x no 3T26, ficando em linha com 
+o 3T25, em virtude do trabalho de alongamento das dívidas que reduziu os vencimentos no curto prazo. 
+ 
+1.8 INVESTIMENTOS 
+ 
+No 3T26, o total dos investimentos em ativos elétricos nas distribuidoras alcançou R$ 2 bilhões, aproximada-
+mente 16% menor que o mesmo período no ano passado. Esse efeito foi impactado principalmente pela de-
+saceleração decorrente das datas de corte das RTPs da CEEE-D e da CEA. 
+A linha de Obrigações Especiais apresentou uma redução de 5%, refletindo o menor volume de obras do PLPT 
+no período. 
+Os investimentos em ativos não elétricos apresentaram um crescimento de 6%. Nesta linha, destacam-se os 
+investimentos em projetos de tecnologia, licenças e padronização de sistemas, com destaque para o aumento 
+de R$ 11 milhões na Equatorial Goiás envolvendo sistemas técnicos. 
+Para maiores detalhes, ver seção de “Distribuição”. 
+ 
+ 
+ 
+Investimentos 3T25 3T26 ∆% ∆
+R$ milhões
+Distribuição 2.932 2.556 -13% (376) 
+Ativos elétricos 2.317 1.956 -16% -361
+Obrigações especiais 461 437 -5% -24
+Ativos não elétricos 154 163 6% 9
+Renováveis 65 38 -42% -27
+Ativos Operacionais 64 38 -42% -27
+Projetos em desenvolvimento 0 - - 0
+Saneamento 14 14 2% 0
+Outros 8 12 51% 4
+Total Equatorial 3.019 2.620 -13,2% (399)
+
+[p. 18]
+18 
+ 
+1.9 ESG (Environmental, Social and Governance) 
+O Grupo Equatorial encerra o 3T26 reafirmando seu compromisso com a agenda ESG, com avanços nas frentes ambi-
+ental, social e de governança que consolidam a sustentabilidade como pilar da Companhia. 
+No campo ambiental, destaque para o lançamento da Chamada Pública de Projetos (CPP 001/2026) do Programa de 
+Eficiência Energética (PEE) regulado pela ANEEL, que disponibilizou mais de R$ 61 milhões para iniciativas nos sete 
+estados de concessão do Grupo. O edital direciona recursos para a modernização da iluminação pública municipal, 
+eficientização de prédios públicos e apoio a fundo perdido para entidades filantrópicas certificadas nas áreas de saúde, 
+educação e assistência social, além de conceder bônus residenciais para a substituição de eletrodomésticos antigos 
+por modelos mais econômicos e sustentáveis, estimulando a descarbonização e o consumo consciente de energia. 
+Na frente de governança e reputação corporativa, o Grupo Equatorial celebrou, em agosto, os 20 anos de sua listagem 
+na B3, consolidando duas décadas de transparência e disciplina estratégica que transformaram a companhia na pri-
+meira plataforma multiutilidades do país, hoje presente em 31% do território nacional. Ainda no trimestre, a companhia 
+conquistou posição no Top 5 das empresas mais inovadoras do setor elétrico nacional no Prêmio Valor Inovação Brasil 
+2026, realizado pelo jornal Valor Econômico em parceria com a consultoria Strategy& da PwC, reconhecimento que re-
+flete a maturidade de iniciativas como o programa nacional de Inovação Aberta lançado pelo EQT Lab no período. 
+Também no âmbito de gestão de pessoas e segurança operacional, o Grupo foi reconhecido em agosto com Menção 
+Honrosa na categoria Saúde e Segurança do Prêmio Abradee 2026 e avançou quatro posições no ranking nacional Great 
+Place to Work (GPTW) Brasil 2026, alcançando o 14º lugar entre as melhores grandes empresas para trabalhar no país, 
+reflexo da consistência na valorização do capital humano e na cultura de preservação da vida. 
+No pilar social, o trimestre marcou o aniversário de dois anos do Instituto Equatorial em julho, atingindo o patamar his-
+tórico de mais de R$ 35 milhões investidos diretamente em 869 organizações sociais e impactando mais de 160 mil 
+pessoas nas regiões de atuação da companhia. Entre as frentes de educação e cidadania do período, ganhou destaque 
+a conclusão da primeira edição do Equatorial Game, projeto técnico, científico e educativo que mobilizou 23.071 estu-
+dantes de 164 escolas públicas do Ensino Fundamental II nas sete áreas de concessão, promovendo o protagonismo 
+juvenil no desenvolvimento de soluções voltadas ao uso seguro e eficiente da energia e à preservação ambiental. 
+Saiba mais sobre nossos indicadores, disponibilizados a cada trimestre, no quadro abaixo. 
+ 
+Para retornar ao Sumário, clique aqui. 
+Indicadores ESG Unidade 3T25 3T26 ∆%
+Ambiental
+Consumo de Combustíveis Renováveis na Frota Administrativa L 246.714 350.283 0,4 p.p.
+Intensidade de Emissões de SF6 tCO2eq/GWh 0,037 0,026 -0,3 p.p.
+Número de Ligações de Energia em Áreas Remotas via SIGFI (Sistema Individual de Geração de Energia Elétrica com Fonte Intermitente) # 7.757 7.750 0,0 p.p.
+Investimentos P&D e Eficiência Energética em Meio Ambiente R$ mil 31.318 60.854 0,9 p.p.
+Social
+% de Mulheres no Grupo Equatorial % 33% 32% -0,03 p.p.
+% de Mulheres em Cargos de Liderança x Total de Líderes % 23% 23% 0,00 p.p.
+% de Negros em Cargos de Liderança x Total de Líderes % 53% 55% 0,03 p.p.
+% de Fornecedores Locais % 43% 61% 0,40 p.p.
+Investimentos Sociais R$ mil 25.002 10.522 -0,58 p.p.
+TG Próprios # 36 75 1,08 p.p.
+TG Terceiros # 351 279 -0,21 p.p.
+Número de óbitos de empregados (próprios + terceiros) # 1 1 0,00 p.p.
+Número de Acidentes com a População # 12 12 0,00 p.p.
+Número de Unidades Consumidoras (UCs) beneficiadas pela Tarifa Social de Energia Elétrica (TSEE) # 4.405 4.055 -0,08 p.p.
+Governança
+% de Conselheiros Independentes¹ % 88% 88% 0 p.p.
+% de Mulheres no Conselho % 14% 13% -1,5 p.p.
+% de Colaboradores Treinados na Trilha de Integridade % 99% 100% 1 p.p.
+Casos Registrados no Canal de Ética # 245 251 0,02 p.p.
+1 - Considera composição atual.
+
+[p. 19]
+19 
+ 
+2. DISTRIBUIÇÃO 
+2.1 DESEMPENHO COMERCIAL 
+ 
+PERDAS (12 meses) 
+ 
+ 
+¹ Em relação à cobertura tarifária para compra de energia da CEA, cumpre destacar que além do valor usual implícito no nível de perdas regulatórias, a Aneel disponibilizou na Sparta da RTA 2025 o valor adicional de R$ 55,3 milhões, 
+homologado via REH, e é referente ao parágrafo único do art. 4º b da lei 12.111, de 9 de dezembro de 2009. Este mecanismo complementar, previsto em lei, se extingue no processo tarifário de 2026. 
+² O delta de perdas regulatório para Alagoas, Maranhão e Pará já considera o resultado 12 meses das Perdas Pós CP 09. As demais serão inseridas após a próxima RTA. 
+ 
+As informações operacionais foram divulgadas na planilha de dados do site. Para acessar o documento, clique aqui. 
+ 
+Distribuidoras 3T25 2T26 3T26 Regulatório 3T26 Homologado Pós CP 09 Regulatório LTM Pós CP 09 ∆ 3T25 ∆ 2T26 ∆ Regulatório²
+Equatorial Maranhão 19,4% 18,7% 18,9% 18,9% 19,1% -0,5 p.p. 0,2 p.p. -0,2 p.p.
+Equatorial Pará 29,5% 29,5% 29,8% 28,7% 28,9% 0,3 p.p. 0,3 p.p. 0,9 p.p.
+Equatorial Piauí 17,4% 16,9% 17,1% 19,3% - -0,3 p.p. 0,2 p.p. -2,2 p.p.
+Equatorial Alagoas 16,7% 16,1% 16,2% 18,0% 18,4% -0,5 p.p. 0,1 p.p. -2,2 p.p.
+CEEE-D 12,7% 12,9% 13,7% 12,5% - 1,0 p.p. 0,8 p.p. 1,2 p.p.
+CEA¹ 31,3% 29,5% 28,8% 33,2% - -2,5 p.p. -0,7 p.p. -4,4 p.p.
+Equatorial Goiás 10,0% 10,3% 10,4% 12,8% - 0,4 p.p. 0,1 p.p. -2,3 p.p.
+Consolidado 18,0% 17,9% 18,1% 18,9% 0,1 p.p. 0,2 p.p. -0,8 p.p.
+Perdas - 12 meses (%) Nível Regulatório (%) Variação
+Dados Operacionais
+Medida MA PA PI AL RS AP GO Total MA* PA* PI AL* RS AP GO Total
+Energia Injetada SIN GWh 2.628 3.884 1.472 1.135 2.312 480 4.560 16.471 2.755 4.224 1.526 1.259 2.334 507 5.211 17.817 
+Sistema isolado GWh 0 77 0 0 0 16 0 93 1 64 1 0 0 19 0 84 
+Energia injetada pela Geração Distribuída GWh 275 413 300 180 111 43 811 2.134 336 511 357 234 124 54 998 2.615 
+Energia Injetada Bruta Total GWh 2.903 4.374 1.773 1.316 2.423 539 5.371 18.699 3.093 4.799 1.884 1.493 2.459 579 6.209 20.516 
+Variação Injetada Bruta Total (%) % 6,5% 9,7% 6,3% 13,5% 1,5% 7,5% 15,6% 9,7%
+Residencial - convencional GWh 766 787 327 265 796 107 1.260 4.308 789 836 322 291 762 127 1.304 4.431 
+Residencial - baixa renda GWh 465 479 217 166 142 89 259 1.816 496 530 230 184 117 89 283 1.928 
+Industrial GWh 25 50 15 16 35 7 63 211 22 39 13 13 27 14 52 181 
+Comercial GWh 138 273 112 98 293 53 333 1.300 131 262 106 95 267 52 309 1.223 
+Outros GWh 435 408 251 146 198 43 788 2.269 433 412 243 161 179 44 786 2.258 
+Consumidores Cativos GWh 1.828 1.997 922 692 1.463 299 2.703 9.904 1.871 2.080 914 744 1.352 326 2.734 10.021 
+Industrial GWh 130 420 43 186 311 5 982 2.076 133 426 48 197 327 6 1.035 2.173 
+Comercial GWh 162 289 84 90 220 22 232 1.100 174 325 95 102 246 23 271 1.236 
+Outros GWh 15 41 24 40 68 4 80 272 22 58 31 51 77 5 88 331 
+Consumidores livres GWh 307 750 152 316 599 31 1.295 3.448 329 809 174 351 650 34 1.393 3.740 
+Energia de Conexão - outras Distribuidoras GWh 6 8 50 4 16 - 1 85 3 6 53 4 17 - 1 83 
+Energia Faturada GWh 2.142 2.756 1.123 1.011 2.078 330 3.999 13.438 2.203 2.894 1.141 1.098 2.019 360 4.128 13.843 
+Variação Faturada (%) % 2,8% 5,0% 1,6% 8,6% -2,8% 9,3% 3,2% 3,0%
+SCEE - GDII + GD III GWh 80 151 83 43 27 23 217 625 123 219 115 72 47 33 295 904 
+Mercado Fio B GWh 2.222 2.907 1.206 1.054 2.104 353 4.216 14.063 2.326 3.113 1.256 1.170 2.066 394 4.422 14.747 
+Variação Fio B (%) % 4,7% 7,1% 4,2% 11,0% -1,8% 11,4% 4,9% 4,9%
+Mercado Distribuído (Fio B + Comp. GD I) GWh 2.349 3.073 1.338 1.124 2.199 363 4.565 15.010 2.469 3.304 1.404 1.263 2.141 403 4.932 15.916 
+Variação Mercado Distribuído (%) % 5,1% 7,5% 5,0% 12,4% -2,7% 11,1% 8,0% 6,0%
+Energia Medida Total + Fluxo Passante GWh 2.330 3.036 1.463 1.116 2.204 365 4.736 15.250 2.463 3.284 1.543 1.262 2.145 408 5.461 16.566 
+Variação Energia Medida Total + Fluxo Passante (%) % 5,7% 8,2% 5,5% 13,0% -2,7% 11,7% 15,3% 8,6%
+Número de Consumidores MIL 2.838 3.089 1.574 1.411 1.990 268 3.501 14.670 2.903 3.119 1.604 1.446 2.034 279 3.690 15.075 
+Variação Número de Consumidores (%) % 2,3% 1,0% 1,9% 2,5% 2,2% 4,1% 5,4% 2,8%
+*Valores ajustados para desconsiderar os efeitos da alteração na contabilização do faturamento dos clientes livres nas empresas Maranhão, Pará e Alagoas
+3T25 3T26
+
+[p. 20]
+20 
+ 
+PERCENTUAL DE CONTRATAÇÃO (12 meses) 
+A seguir, apresentamos a expectativa do nível de contratação das distribuidoras para o terceiro trimestre de 2026 na 
+visão com e sem ajustes decorrentes da sobrecontratação involuntária. 
+ 
+No 3T26, somente AP apresentou contratação acima de 105% da carga, por sobrecontratação involuntária. No Amapá, 
+o efeito decorre de contratos legados firmados em 2015, quando a CEA ainda não integrava o SIN e se projetava cresci-
+mento superior ao realizado. Desconsiderando a sobrecontratação involuntária, a CEA se enquadra abaixo de 105%. A 
+Equatorial Alagoas apresenta contratação abaixo de 100%, em função do forte crescimento do consumo de energia, 
+impulsionado pelas elevadas temperaturas registradas no estado em decorrência do fenômeno El Niño. 
+ 
+PECLD e ARRECADAÇÃO – TRIMESTRE 
+ 
+ 
+De maneira consolidada, a PECLD do grupo atingiu 1,35% da ROB contra 1,01% no 3T25. Este resultado é reflexo, prin-
+cipalmente, do desempenho da CEA, Equatorial Alagoas e Maranhão. A atualização da matriz representou um impacto 
+de R$ 32,8 milhões no trimestre. Adicionalmente, a base de comparação do 3T25 contou com negociações expressivas 
+(R$ 24,7 milhões), enquanto o 3T26 foi pressionado pelo aumento dos níveis de constituição do varejo, parcialmente 
+compensado pela arrecadação de precatório na CEEE-D. 
+ 
+Os efeitos que impactaram a linha de PECLD das distribuidoras estão detalhados na seção de custos e despesas. 
+ 
+A arrecadação das companhias finalizou o trimestre em um patamar consolidado de 98,79%, com destaque para a evo-
+lução da CEEE-D (+1,39 p.p.) e da Equatorial Pará (+1,02 p.p.) frente ao 3T25. Em contrapartida, houve uma menor 
+arrecadação na Equatorial AL, GO, MA, PI e CEA, influenciada principalmente pelo aumento da inadimplência decor-
+rente dos segmentos residencial, iluminação pública e poder público. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+PECLD/ROB¹ 3T25 3T26 Δ Arrecadação - IAR 3T25 3T26 Δ
+Equatorial Maranhão 1,51% 2,30% 0,79 p.p. Equatorial Maranhão 97,42% 96,68% -0,74 p.p.
+Equatorial Pará 2,22% 2,79% 0,57 p.p. Equatorial Pará 97,12% 98,14% 1,02 p.p.
+Equatorial Piauí 1,41% 1,98% 0,57 p.p. Equatorial Piauí 98,60% 97,99% -0,61 p.p.
+Equatorial Alagoas -0,47% 1,36% 1,83 p.p. Equatorial Alagoas 103,50% 100,95% -2,55 p.p.
+CEEE-D 1,35% -0,36% -1,71 p.p. CEEE-D 99,39% 100,78% 1,39 p.p.
+CEA -1,16% 1,25% 2,41 p.p. CEA 97,35% 97,26% -0,09 p.p.
+Equatorial Goiás 0,11% 0,32% 0,21 p.p. Equatorial Goiás 101,35% 99,54% -1,81 p.p.
+Consolidado 1,01% 1,35% 0,35 p.p. Consolidado 99,17% 98,79% -0,38 p.p.
+1 Desconsidera Receita de Construção
+3T26 MA PA PI AL RS AP GO
+% de contratação 103,09% 101,63% 100,22% 99,47% 101,53% 123,37% 103,17%
+% desconsiderando involuntária 103,09% 101,63% 100,22% 99,47% 101,53% 100,00% 103,17%
+
+[p. 21]
+21 
+ 
+2.2 DESEMPENHO OPERACIONAL 
+DEC e FEC (12 meses) 
+ 
+ 
+No 3T26, o Grupo Equatorial apresentou melhora sequencial dos indicadores de continuidade, com redução do DEC em 
+seis das sete distribuidoras na comparação com o 3T25. O destaque foi para a Equatorial Goiás, que alcançou o enqua-
+dramento no patamar regulatório, além da CEA, que registrou a maior redução entre os trimestres (-6,7h), seguida por 
+Goiás (-4,0h). No FEC, houve redução em quatro das sete distribuidoras frente ao 3T25, com destaque novamente para 
+a CEA (-2,5 vezes) e Goiás (-1,5 vez). 
+Na comparação com o trimestre anterior, o DEC recuou em cinco das sete concessões frente ao 2T26, com destaque 
+para CEA (-1,4h), Alagoas (-0,8h), CEEE-D (-0,7h) e Goiás (-0,6h), refletindo a maturação dos investimentos em rede e a 
+assertividade dos processos de manutenção. 
+Atualmente, cinco das sete concessões da Equatorial estão dentro do limite regulatório do DEC, enquanto todas as 
+distribuidoras do Grupo permanecem enquadradas no limite regulatório do FEC. A CEEE-D segue em trajetória de recu-
+peração dos indicadores de continuidade, com foco no cumprimento da meta contratual de DEC (9,9h) em 2026, apoi-
+ado pelo reforço da rede e no aumento da resiliência operacional. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Distribuidoras 3T25 2T26 3T26 Regulatório ∆ 3T25 ∆ 2T26 ∆ Regulatório
+DEC
+Equatorial Maranhão 12,9 12,3 12,6 13,7 -0,3 0,3 -1,1
+Equatorial Pará 17,3 15,4 15,3 20,3 -2,0 -0,2 -5,0
+Equatorial Piauí 16,6 17,7 18,3 18,0 1,6 0,6 0,3
+Equatorial Alagoas 15,5 13,4 12,5 14,1 -2,9 -0,8 -1,5
+CEEE-D 11,0 9,8 9,1 7,6 -1,9 -0,7 1,5
+CEA 29,7 24,4 23,0 44,3 -6,7 -1,4 -21,3
+Equatorial Goiás 14,6 11,1 10,5 11,0 -4,0 -0,6 -0,5
+FEC
+Equatorial Maranhão 5,5 5,9 6,0 7,9 0,4 0,0 -1,9
+Equatorial Pará 7,2 7,0 7,5 14,6 0,3 0,5 -7,0
+Equatorial Piauí 6,1 6,1 6,4 11,0 0,3 0,3 -4,6
+Equatorial Alagoas 5,8 5,1 4,9 10,8 -0,9 -0,2 -5,9
+CEEE-D 4,8 4,4 4,1 5,3 -0,7 -0,3 -1,2
+CEA 13,4 11,2 10,8 30,0 -2,5 -0,4 -19,2
+Equatorial Goiás 6,5 5,3 5,0 7,1 -1,5 -0,2 -2,1
+
+[p. 22]
+22 
+ 
+ 
+2.3 DESEMPENHO FINANCEIRO 
+ 
+2.4 MARGEM BRUTA 
+No 3T26, a Margem Bruta ajustada das distribuidoras ex-VNR alcançou R$ 4,36 bilhões, 11,3% maior do que o mesmo 
+período do ano anterior, ou R$ 443 milhões, influenciada, principalmente, pela variação positiva da Renda Não Faturada 
+(R$ 301 milhões), sendo o efeito da contabilização do faturamento dos clientes livres em R$ 163,4 milhões, tarifa fio-B 
+(R$ 193 milhões) e crescimento de mercado (R$ 63 milhões). O volume maior de RNF refletiu a alteração na competên-
+cia de faturamento dos clientes livres no Pará e no Maranhão. Esses efeitos foram parcialmente compensados pelo 
+delta perdas negativo (R$ 128 milhões) e outros efeitos negativos referente a não recorrentes do 3T25 (R$ 11 milhões). 
+A Equatorial Goiás foi a distribuidora que mais contribuiu para a variação positiva da margem do trimestre (+R$ 147 
+milhões), decorrente do crescimento do mercado Fio B e efeito tarifa (R$ 85 milhões) e da Renda Não Faturada (R$ 59 
+milhões), seguida pela Equatorial Maranhão, cuja variação positiva foi de R$ 116 milhões, majoritariamente impactada 
+pelo crescimento da tarifa fio-b no período. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Análise da receita ∆%
+R$ milhões MA PA PI AL RS AP GO Total MA PA PI AL RS AP GO Total Total
+(+) Vendas as classes 1.652 2.253 944 611 1.237 311 2.591 9.597 1.946 2.569 1.102 718 1.388 352 3.079 11.154 16%
+Renda Não Faturada 36 1 (2) (9) (34) 2 70 64 72 147 9 (0) 1 8 129 365 467%
+(+) Ult. de demanda / reativo excedente (4) (12) (3) (3) (5) (1) (20) (47) (5) (11) (5) (3) (5) (1) (22) (51) 8%
+(+) Outras receitas 388 939 291 261 312 128 615 2.933 402 656 298 269 453 100 896 3.075 5%
+Subvenção baixa renda 142 203 88 77 24 18 74 625 155 187 93 73 27 15 75 626 0%
+Subvenção CDE outros 77 255 65 48 55 32 155 686 99 202 86 60 87 31 252 816 19%
+Uso da rede 64 189 52 72 181 13 303 874 64 158 61 93 193 20 436 1.027 17%
+Atualização ativo financeiro (64) 77 4 2 7 1 17 42 1 (0) 1 (2) 2 7 3 10 -75%
+Bandeira Tarifária 129 156 51 44 5 59 0 444 41 49 24 24 20 21 40 219 -51%
+Multa por atraso de pagamento 17 25 10 7 9 3 23 96 20 26 12 8 12 4 27 109 13%
+(+) Outras receitas operacionais 22 34 21 12 31 3 43 166 22 34 20 13 112 3 64 269 62%
+Outras Receitas (Parcela B) 15 22 8 6 24 2 26 103 15 23 5 6 26 2 36 114 11%
+(+) Suprimento 10 0 25 52 33 49 211 381 17 18 6 23 26 43 118 250 -34%
+(+) Valores a receber de parcela A 111 18 95 68 325 57 574 1.248 33 51 9 46 126 104 202 571 -54%
+(+) Receita de construção 338 920 258 162 386 117 751 2.932 352 795 259 189 204 33 724 2.556 -13%
+(=) Receita operacional bruta 2.495 4.118 1.610 1.151 2.288 660 4.723 17.044 2.746 4.078 1.669 1.242 2.193 630 4.998 17.555 3%
+(+) Deduções à receita (719) (909) (457) (301) (654) (131) (1.263) (4.434) (780) (997) (511) (346) (697) (148) (1.526) (5.006) 13%
+PIS/COFINS/ICMS/ISS (561) (703) (366) (220) (373) (106) (718) (3.047) (612) (762) (418) (265) (397) (118) (967) (3.539) 16%
+Compensações Indicadores de Qualidade (4) (5) (4) (3) (5) (3) (24) (49) (8) (23) (6) (3) (9) (2) (20) (71) 44,8%
+Demais Deduções (CDE e Encargos) (153) (201) (87) (79) (276) (22) (521) (1.339) (161) (211) (88) (79) (291) (29) (539) (1.397) 4%
+(=) Receita operacional líquida 1.777 3.209 1.152 850 1.633 529 3.459 12.610 1.966 3.081 1.157 896 1.496 482 3.472 12.549 0%
+(-) Receita de construção (338) (920) (258) (162) (386) (117) (751) (2.932) (352) (795) (259) (189) (204) (33) (724) (2.556) -13%
+(=) Receita operac. líq. sem rec.de construção 1.439 2.289 895 687 1.247 412 2.708 9.678 1.614 2.286 898 706 1.291 449 2.748 9.993 3%
+(-) Energia comprada e transporte e Encargos (843) (1.217) (472) (415) (904) (253) (1.665) (5.770) (837) (1.204) (456) (395) (825) (257) (1.478) (5.452) -6%
+(=) Margem Bruta 596 1.072 423 272 343 159 1.044 3.908 777 1.082 442 312 466 192 1.270 4.541 16%
+(+) Não-Recorrentes - 36 - 15 - - - 51 - - - - (76) - (94) (170) -433%
+(-) VNR 64 (77) (4) (2) (7) (1) (17) (42) (1) 0 (1) 2 (2) (7) (3) (10) -75%
+(=) Margem Bruta Ajustada (Ex-VNR) 660 1.031 419 285 337 158 1.027 3.917 777 1.083 441 314 388 185 1.174 4.361 11%
+∆% Margem Bruta Ajustada 17,6% 5,0% 5,2% 9,8% 15,2% 17,2% 14,3%
+3T25 3T26
+
+[p. 23]
+23 
+ 
+ 
+2.5 DESPESAS OPERACIONAIS E PMSO/CONSUMIDOR 
+ 
+MARANHÃO 
+No comparativo entre trimestres, o PMSO Ajustado/Consumidor, na visão 12 meses, aumentou 4,5%, totalizando 
+R$ 260. O PMSO ajustado do período aumentou 4,8%, ou R$ 8,8 milhões maior do que no mesmo período do ano ante-
+rior. 
+ 
+O aumento do trimestre vem principalmente da linha de Pessoal (R$ 4 milhões) e de Material (R$ 2 milhões). Na linha 
+de pessoal, o aumento se deve ao reajuste salarial e ao aumento de headcount além dos efeitos de PLR e ILP, que foram 
+parcialmente compensados pelo maior compartilhamento de despesas operacionais com as demais distribuidoras e 
+pela maior alocação de mão de obra própria em investimentos. Em material, o crescimento foi causado pelas despesas 
+com compra de postes. A linha de Serviços de Terceiros, desconsiderados os efeitos não recorrentes do 3T25, cresceu 
+abaixo da inflação do período. 
+ 
+A PECLD atingiu R$ 55 milhões no 3T26 e representa 2,30% da ROB, um aumento de R$ 23 milhões em comparação 
+com o 3T25. O aumento reflete principalmente o maior envelhecimento da dívida no varejo. A atualização da matriz de 
+PECLD respondeu por R$ 9 milhões. 
+ 
+PARÁ 
+No 3T26, o PMSO Ajustado/Consumidor, na visão 12 meses, aumentou 13,5%, totalizando R$ 279. O PMSO ajustado do 
+período atingiu R$ 221 milhões, 12,3% maior que o 3T25, ou R$ 24,3 milhões. 
+ 
+O aumento do PMSO Ajustado no trimestre foi impulsionado principalmente por Serviços de Terceiros (+R$ 24 milhões), 
+refletindo maiores despesas com consultorias (+R$ 11 milhões), alterações no modelo de remuneração do operador 
+logístico e maiores despesas com serviços logísticos e fretes (+R$ 9 milhões). A linha de Pessoal apresentou cresci-
+mento de R$ 3 milhões, associado ao aumento do headcount e aos incentivos de longo prazo, parcialmente compen-
+sado pela maior ativação. Esses efeitos foram parcialmente mitigados pela redução de R$ 3 milhões em Outros, decor-
+rente da antecipação das contribuições ao Instituto Equatorial para o 2T26. 
+ 
+Custos Operacionais ∆%
+R$ milhões MA PA PI AL RS AP GO Total MA PA PI AL RS AP GO Total Total
+(+) Pessoal 62 58 23 36 30 12 72 293 67 60 37 35 33 17 85 334 13,7%
+(+) Material 5 7 3 4 4 1 15 41 8 8 4 5 6 2 17 50 23,3%
+(+) Serviço de terceiros 113 149 69 43 128 25 228 753 113 147 69 48 106 16 181 681 -9,7%
+(+) Outros 33 10 3 (2) 15 3 10 72 6 7 22 3 7 1 12 58 -19,0%
+(=) PMSO Reportado 214 223 98 80 177 41 326 1.160 194 221 132 92 151 37 295 1.123 -3,2%
+Ajustes (29) (26) 3 2 (18) (10) (42) (120) - - - - - - - - -100,0%
+PMSO Ajustado 185 197 100 82 160 32 284 1.040 194 221 132 92 151 37 295 1.123 8,0%
+PECLD e perdas 32 71 19 (5) 26 (6) 5 142 55 92 28 14 (7) 7 14 203 43,1%
+PECLD/ROB (Ex-Receita de Construção) 1,51% 2,22% 1,41% -0,47% 1,35% -1,16% 0,11% 1,01% 2,30% 2,79% 1,98% 1,36% -0,36% 1,25% 0,32% 1,35%
+Provisões - contingências 7 5 2 8 9 0 14 45 6 3 3 4 9 1 7 32 -28,1%
+Provisões - FUNAC - - - - - - 11 11 - - - - - - (1) (1) -107,5%
+(+) Provisões 39 76 21 3 34 (6) 30 198 61 95 31 18 2 8 20 234 18,5%
+Ajustes Provisões - - (3) (5) - 7 - (1) - - - - - - - - -100,0%
+(=) Provisões Ajustadas 39 76 18 (1) 34 1 30 197 61 95 31 18 2 8 20 234 19,0%
+(+) Sistemas Isolados e Subv. CCC 1 24 - - - 0 - 25 0 32 - - - 8 - 40 57,3%
+(+) Custo de Remoção 11 17 6 9 15 9 30 96 26 71 13 12 6 4 43 175 81,5%
+(+) Outros Custos Não Caixa 11 80 5 15 19 6 43 178 5 10 11 10 22 15 23 95 -46,9%
+(+) Outras receitas/despesas operacionais 21 97 11 24 34 15 73 275 30 81 24 23 28 19 66 270 -1,8%
+(+) Depreciação e amortização 102 73 48 36 59 20 149 487 106 209 60 42 73 27 218 735 50,8%
+(=) Custos e despesas gerenciáveis 378 493 178 144 305 70 577 2.145 391 637 247 174 254 99 599 2.402 12,0%
+PMSO Ajustado/Consumidor (12m) 249 246 247 223 317 518 345 283 260 279 295 246 319 513 331 296 4,9%
+∆% PMSO por Consumidor 4,5% 13,5% 19,1% 10,3% 0,8% -0,9% -3,8%
+PMSO Ajustado + Compensações/Consumidor (12m) 258 261 265 231 347 553 394 307 273 296 313 257 340 542 360 316 3,0%
+∆% PMSO + Compensações por Consumidor 6,1% 13,5% 18,2% 10,9% -2,0% -2,0% -8,5%
+3T25 3T26
+
+[p. 24]
+24 
+ 
+No 3T26, a PECLD alcançou R$ 92 milhões, representando 2,79% da ROB, um aumento de R$ 21 milhões na compara-
+ção com o 3T25, influenciada pela atualização da matriz (R$ 8,6 milhões), pela base de comparação do 3T25, que con-
+tou com negociações relevantes (R$ 12 milhões), e pelo maior envelhecimento das faturas de CNR, além do ritmo mais 
+acelerado de crescimento da inadimplência do varejo. 
+ 
+PIAUÍ 
+O PMSO Ajustado/Consumidor (12 meses) registrou R$ 295, um aumento de 19,1% contra o 3T25, enquanto o PMSO 
+ajustado cresceu 32%, ou R$ 32,1 milhões, na comparação entre os trimestres. 
+ 
+Essa variação é fruto principalmente de multa regulatória (R$ 19,8 milhões), registrada na linha de Outros, e da linha de 
+Pessoal (R$ 14 milhões), impactada pelo maior compartilhamento de despesas entre as empresas do grupo (R$ 6 mi-
+lhões), pela remuneração variável (R$ 5 milhões, sendo R$ 2,6 milhões de PLR) e pelo reajuste salarial. Desconside-
+rando a multa, o PMSO ajustado teria crescido 12,3%. 
+ 
+A PECLD do trimestre foi de R$ 28 milhões, 1,98% da ROB, um aumento de R$ 9 milhões em comparação com o 3T25. 
+O efeito da atualização da matriz impactou negativamente em R$ 7,6 milhões, além da maior inadimplência das classes 
+residencial, iluminação pública e poder público e do envelhecimento da carteira do varejo. 
+ 
+ALAGOAS 
+O PMSO Ajustado/Consumidor (12 meses) foi de R$ 246, 10,3% maior que o 3T25, enquanto o PMSO ajustado cresceu 
+11,5%, ou R$ 9,4 milhões. 
+ 
+O aumento do PMSO no trimestre foi concentrado em Serviços de Terceiros (+R$ 9 milhões), refletindo honorários de 
+êxito relacionados a um processo judicial (R$ 4,6 milhões), além de maiores despesas com faturamento e leitura (R$ 
+3,8 milhões) e plano de manutenção para melhoria dos indicadores de Qualidade (R$ 2,9 milhões). Em Pessoal, a redu-
+ção de headcount compensou o aumento das despesas com incentivos de longo prazo (R$ 2,8 milhões). 
+Em Alagoas, a PECLD do trimestre foi de R$ 14 milhões, representando 1,36% da ROB, um aumento de R$ 19 milhões 
+na comparação com o 3T25. O efeito de atualização da matriz foi negativo em R$ 9,6 milhões, além da base de compa-
+ração do 3T25, que contou com negociações relevantes com municípios e com a Secretaria de Estado da Saúde (R$ 8,7 
+milhões). 
+ 
+CEEE-D 
+O PMSO Ajustado/Consumidor (12 meses) foi de R$ 319, um aumento de 0,8%. O PMSO ajustado do período caiu R$ 
+8,3 milhões, ou 5,2% em relação ao 3T25. 
+ 
+A queda no PMSO tem como principal efeito a redução na linha de Serviços de Terceiros (R$ 14 milhões na visão ajus-
+tada), devido à renegociação dos contratos de atendimento emergencial e à menor volumetria de ocorrências. Esse 
+efeito foi parcialmente reduzido pelo aumento nas linhas de Pessoal (R$ 2 milhões), pela atualização do rateio de bene-
+fícios de SOP e Phantom de colaboradores corporativos, e de Material (R$ 2 milhões), pelo maior consumo em função 
+dos eventos climáticos de setembro. 
+ 
+A PECLD/ROB registrou reversão de 0,36% no trimestre (R$ 7 milhões), representando melhora de R$ 33 milhões em 
+relação ao 3T25, favorecida pelo recebimento de precatório (R$ 10,8 milhões) e pela celebração de acordos com clien-
+tes públicos e privados.
+
+[p. 25]
+25 
+ 
+CEA 
+O PMSO Ajustado/Consumidor (12 meses) atingiu R$ 513, redução de 0,9% na comparação anual. O PMSO Ajustado da 
+CEA totalizou R$ 37 milhões (+17,5% ou R$ 5,6 milhões vs. 3T25), refletindo principalmente maiores despesas com 
+Pessoal (+R$ 5 milhões), decorrentes do compartilhamento de despesas, incentivos de longo prazo e reajuste da assis-
+tência médica. Em contrapartida, a linha de Serviços de Terceiros apresentou redução de 9,9% na visão ajustada, pela 
+desmobilização de equipes de limpeza de faixa e de manutenção em linha viva. 
+ 
+No 3T26, a PECLD/ROB foi de 1,25% ou R$ 7 milhões, um aumento de R$ 13 milhões na comparação com o 3T25, cuja 
+base foi favorecida por efeitos não recorrentes (reconhecimento de AVP de R$ 4,6 milhões e padronização da PECLD 
+sobre itens financeiros de R$ 2,1 milhões) e pela negociação com um município do estado (R$ 2,2 milhões). A atualiza-
+ção da matriz teve efeito positivo de R$ 1,2 milhão. 
+ 
+GOIÁS 
+O PMSO Ajustado/Consumidor (12 meses) foi de R$ 331 no 3T26, resultado 3,8% menor no comparativo com o 3T25. O 
+PMSO ajustado foi de R$ 295 milhões, 4,0% maior que o mesmo período do ano anterior, ou R$ 11,3 milhões. 
+ 
+O aumento do PMSO Ajustado no trimestre foi concentrado na linha de Pessoal (R$ 13 milhões), reflexo do avanço da 
+primarização, com a internalização de equipes em Uruaçu (+346 vagas), da remuneração variável (PLR de R$ 6,9 mi-
+lhões) e do ILP (R$ 3,1 milhões), parcialmente compensados pela maior ativação de mão de obra (R$ 18 milhões). Esses 
+valores foram parcialmente compensados pela redução em Serviços de Terceiros (R$ 6 milhões na visão ajustada), em 
+função da reversão de provisões de anos anteriores e da menor quantidade de serviços na rede de distribuição. 
+ 
+No 3T26, a PECLD registrou R$ 14 milhões, ou 0,32% da ROB, um aumento de R$ 9 milhões em relação ao 3T25, cuja 
+base contou com negociações e acordos relevantes no período. A atualização da matriz contribuiu positivamente em 
+R$ 5,4 milhões.
+
+[p. 26]
+26 
+ 
+2.6 EBITDA 
+ 
+Os valores ajustados em "Outras receitas/despesas operacionais" referem-se exclusivamente a efeitos não caixa. 
+Para fins de comparabilidade, os efeitos caixa, como custos de remoção, também foram contabilizados na base com-
+parativa do 3T25. 
+ 
+MARANHÃO 
+No 3T26, o EBITDA ajustado por VNR e efeitos não recorrentes atingiu R$ 496 milhões, 16,8% maior que o 3T25, ou R$ 
+71 milhões. 
+A margem bruta ajustada do trimestre registrou crescimento de 17,6% ou R$ 116 milhões, influenciada principalmente 
+pela variação positiva de: (i) tarifa fio-B no valor de R$ 91 milhões, reflexo da revisão tarifária, e (ii) RNF de R$ 36 milhões, 
+parcialmente compensados pelo efeito do processo tarifário (R$ 20 milhões). 
+O PMSO ajustado do período apresentou um aumento de R$ 8,8 milhões, enquanto as provisões e contingências ajus-
+tadas do período aumentaram R$ 22 milhões, em decorrência principalmente da PECLD. Adicionalmente, o custo de 
+remoção cresceu R$ 15 milhões, em função do maior volume de baixas de ordens de construção, ligação nova e com-
+bate à fraude. 
+ 
+PARÁ 
+O EBITDA Ajustado por VNR e efeitos não recorrentes do Pará atingiu R$ 664 milhões, redução de 7,4% (R$ 53 milhões) 
+em relação ao 3T25. Apesar do crescimento de 5,0% (R$ 52 milhões) na margem bruta ajustada, o resultado foi impac-
+tado pelo aumento dos custos de remoção (R$ 54 milhões), que é intensificado perto do fechamento da base de remu-
+neração da empresa pela aceleração do processo de encerramento das obras, do PMSO Ajustado (R$ 24 milhões) e das 
+provisões e contingências ajustadas (R$ 19 milhões), principalmente PECLD. Adicionalmente, os custos com sistemas 
+isolados cresceram R$ 8 milhões, enquanto a Renda Não Faturada aumentou R$ 146 milhões, refletindo principalmente 
+a alteração, implementada em julho de 2026, na competência de faturamento dos consumidores livres do Grupo A, com 
+o consequente deslocamento de receita faturada para receita não faturada. 
+ 
+PIAUÍ 
+No Piauí, o EBITDA ajustado atingiu R$ 264 milhões, 10,2% menor, ou R$ 30 milhões, quando comparado com o mesmo 
+período do ano anterior. 
+Recomposição EBITDA ∆%
+R$ milhões MA PA PI AL CEEE-D CEA GO Total MA PA PI AL CEEE-D CEA GO Total Total
+(+) Resultado do Exercício 104 389 98 66 (263) (31) 3 366 258 255 102 73 (113) 28 118 720 96,8%
+(+) Impostos sobre o Lucro 43 65 35 4 - 5 (23) 128 33 (5) 2 (1) - (9) 43 64 -49,7%
+(+) Resultado Financeiro 71 126 112 58 302 115 486 1.270 95 195 91 65 324 74 511 1.355 6,7%
+(+) Depreciação e Amortização 102 73 48 36 59 20 149 487 106 209 60 42 73 27 218 735 50,8%
+(=) EBITDA societário (CVM)* 320 652 293 165 97 108 616 2.251 492 653 255 179 285 120 890 2.874 28%
+Ajustes Totais 105 65 1 32 30 8 67 308 4 10 10 12 (56) 8 (74) (86) -127,9%
+(+) Outras receitas/despesas operacionais 11 80 5 15 19 6 43 178 5 10 11 10 22 15 23 94 -47,1%
+(+) Impactos Margem Bruta - 36 - 15 - - - 51 - - - - (76) - (94) (170) -433,2%
+(+) Sistemas Isolados - - - - - - - - - - - - - - - - N/A
+(+) Ajustes de PMSO 29 26 (3) (2) 18 10 42 120 - - - - - - - - -100,0%
+(+) Ajustes Provisões - - 3 5 - (7) - 1 - - - - - - - - -100,0%
+(-) VNR 64 (77) (4) (2) (7) (1) (17) (42) (1) 0 (1) 2 (2) (7) (3) (10) -75,0%
+(=) EBITDA Societário Ajustado 425 717 295 196 127 116 683 2.558 496 664 264 191 229 128 816 2.788 9,0%
+∆% 16,8% -7,4% -10,2% -2,6% 79,5% 10,4% 19,5%
+*Calculado em conformidade com a instrução CVM 156/22 - EBITDA Calculado aqui não é o mesmo utilizado para os covenants
+3T25 3T26
+
+[p. 27]
+27 
+ 
+A margem bruta ajustada do período aumentou 5,2% ou R$ 22 milhões comparado ao 3T25, reflexo principalmente do 
+crescimento de mercado (R$ 16 milhões), da tarifa fio-B (R$ 9 milhões) e da RNF (R$ 11 milhões), parcialmente com-
+pensados pelo delta perdas (R$ 21 milhões). 
+O PMSO ajustado apresentou aumento de R$ 32 milhões entre períodos, influenciado principalmente pela multa regu-
+latória relacionada à Geração Distribuída (R$ 19,8 milhões), enquanto a linha de PECLD e Contingências ajustadas teve 
+uma piora de R$ 13 milhões e o custo de remoção aumentou R$ 7 milhões, em função do maior volume de baixas de 
+ordens de serviço impulsionado pelo PLA. 
+ALAGOAS 
+O EBITDA Ajustado atingiu R$ 191 milhões, R$ 5 milhões menor que o 3T25, ou -2,6%. 
+A margem bruta ajustada do período cresceu 9,8%, ou R$ 28 milhões, principalmente em função do crescimento de 
+mercado (R$ 24 milhões), favorecido por temperaturas mais elevadas e menor volume de chuvas, da RNF (R$ 9 milhões) 
+e da tarifa (R$ 6 milhões), parcialmente compensados pela redução do suprimento (R$ 29 milhões). 
+As provisões e contingências ajustadas apresentaram uma piora de R$ 19 milhões, decorrente principalmente da atua-
+lização da matriz de PECLD, enquanto o PMSO ajustado aumentou cerca de R$ 9,4 milhões e o custo de remoção, R$ 3 
+milhões. 
+CEEE-D 
+O EBITDA ajustado do Rio Grande do Sul atingiu R$ 229 milhões no trimestre, 79,5% maior que o 3T25, ou R$ 101 mi-
+lhões. 
+A margem bruta ajustada da CEEE-D apresentou um crescimento de 15,2% ou R$ 51 milhões, principalmente em virtude 
+de: (i) RNF de R$ 35 milhões e (ii) crescimento na tarifa fio-B (R$ 16 milhões), reflexo do reajuste tarifário de 19,53% em 
+novembro de 2025, parcialmente compensados pelo delta perdas (R$ 24 milhões). No trimestre, foram desconsidera-
+dos efeitos não recorrentes de R$ 76 milhões na margem bruta. 
+O PMSO ajustado do período apresentou uma redução de R$ 8,3 milhões, enquanto as provisões e contingências ajus-
+tadas do período apresentaram uma melhora de R$ 32 milhões, com destaque para o recebimento do precatório da 
+Olvebra e acordos com grandes clientes. Nesse trimestre, a empresa apresentou um Custo de Remoção de R$ 6 mi-
+lhões, ante R$ 15 milhões no 3T25, refletindo a menor intensidade de retiradas e substituições de ativos. 
+CEA 
+O EBITDA Ajustado alcançou R$ 128 milhões, com crescimento de 10,4% em relação ao mesmo período do ano anterior 
+(R$ 12 milhões). Esse resultado reflete, principalmente, a Margem Bruta ajustada ex-VNR, que apresentou um aumento 
+de 17,2% ou R$ 27 milhões, impulsionada pelo crescimento de mercado (R$ 14 milhões), influenciado pela entrada em 
+operação da Mina Tucano, pela tarifa fio-B (R$ 4,5 milhões) e pela RNF (R$ 6 milhões), além da redução de R$ 5 milhões 
+no custo de remoção, que somou R$ 4 milhões no trimestre. Esses efeitos foram parcialmente compensados pelo au-
+mento do PMSO ajustado (R$ 5,6 milhões), das provisões (R$ 7 milhões), em função da base do 3T25 favorecida por 
+efeitos não recorrentes na PECLD, e dos custos com sistemas isolados (R$ 8 milhões). 
+GOIÁS 
+O EBITDA ajustado por efeitos não recorrentes e VNR da Equatorial Goiás atingiu R$ 816 milhões, um aumento de 19,5% 
+em relação ao mesmo período do ano anterior, ou R$ 133 milhões.
+
+[p. 28]
+28 
+ 
+A margem bruta ajustada neste trimestre apresentou uma variação positiva de R$ 147 milhões em função de: (i) tarifa 
+fio-B (R$ 43 milhões), (ii) crescimento de mercado (R$ 43 milhões), (iii) Renda Não Faturada (R$ 59 milhões), influenci-
+ada pelas altas temperaturas de agosto e setembro, e (iv) outras receitas, com destaque para subvenção CDE e uso da 
+rede. No trimestre, houve também impacto de não neutralidade de parcela A referente à contabilização de períodos 
+anteriores. 
+Adicionalmente, o PMSO ajustado do período apresentou um aumento de R$ 11 milhões e o custo de remoção, de R$ 
+13 milhões, enquanto as provisões apresentaram redução de R$ 10 milhões, explicada pelo retorno de alvarás nas con-
+tingências (R$ 8,9 milhões) e pela reversão de perdas FUNAC, parcialmente compensados pelo aumento da PECLD (R$ 
+9 milhões). 
+2.7 EFEITOS NÃO RECORRENTES EBITDA 
+ 
+2.8 RESULTADO FINANCEIRO 
+ 
+2.9 LUCRO LÍQUIDO 
+ 
+2.10 INVESTIMENTOS 
+ 
+Para retornar ao Sumário, clique aqui. 
+ 
+Não Recorrentes | EBITDA Distribuição MA PA PI AL RS AP GO 3T26 Total
+Margem Bruta - - - - (76) - (94) (170) 
+Outros Custos Não Caixa 5 10 11 10 22 15 23 94 
+VNR (1) 0 (1) 2 (2) (7) (3) (10) 
+Ajustes EBITDA 4 10 10 12 (56) 8 (74) (86) 
+Investimentos Distribuidoras ∆%
+R$ milhões MA PA PI AL RS AP GO Total MA PA PI AL RS AP GO Total Total
+Ativos elétricos 288 531 211 150 360 77 700 2.317 302 412 208 173 185 24 652 1.956 -15,6%
+Obrigações especiais 26 361 32 3 2 32 5 461 24 353 35 6 - 4 14 437 -5,3%
+Ativos não elétricos 24 28 14 10 23 9 46 154 26 30 16 10 19 4 58 163 6,0%
+Projetos Estratégicos 5 12 3 3 11 6 3 43 7 8 3 3 6 1 18 46 5,9%
+Total 338 920 258 162 386 117 751 2.932 352 795 259 189 204 33 724 2.556 -13%
+∆% 4,2% -13,6% 0,6% 16,5% -47,0% -71,9% -3,7%
+3T25 3T26
+Lucro Líquido ∆%
+R$ milhões MA PA PI AL CEEE-D CEA GO Total MA PA PI AL CEEE-D CEA GO Total Total
+(+ ) Lucro Líquido / Prejuízo 104 389 98 66 (263) (31) 3 366 258 255 102 73 (113) 28 118 720 97%
+(+) Impacto EBITDA 29 62 - 18 18 3 42 171 - - - - (76) - (94) (170) -199,0%
+(+) Efeito IR e CSLL 17 (3) 6 8 - 3 (14) 18 - - - - - - 30 30 70,4%
+(+) Depreciação - - - - - - - - - - - - - - - - N/A
+(+) Ajustes do Resultado Financeiro - - - - - 21 - 21 - - - - - - - - -100,0%
+(+) Outras Receitas/Despesas Não Operacionais - 57 - - - - - 57 - - - - - - - - -100,0%
+(+) VNR Líquido de IR e CSLL 43 (51) (2) (1) (4) (0) (11) (28) (0) 0 (1) 1 (1) (4) (2) (7) -75,0%
+(=) Lucro Líquido / Prejuízo Ajustado 193 454 102 91 (250) (5) 20 605 257 255 101 74 (190) 23 52 573 -5%
+∆% 33,2% -43,8% -0,3% -18,7% -24,0% -561,1% 167,0%
+3T25 3T26
+Resultado Financeiro ∆%
+R$ milhões MA PA PI AL CEEE-D CEA GO Total MA PA PI AL CEEE-D CEA GO Total Total
+(+) Rendas Financeiras 38 130 33 36 46 45 28 356 20 73 24 25 48 23 39 253 -28,9%
+(+) Acréscimo Moratório - Venda de Energia 19 36 11 11 22 3 15 117 25 41 16 9 4 4 18 116 -0,9%
+(+) Encargos da dívida (125) (286) (135) (104) (253) (130) (484) (1.518) (122) (309) (146) (105) (312) (106) (545) (1.645) 8,4%
+(+) Encargos CVA 9 6 2 (1) 9 6 14 45 1 2 22 14 26 11 46 121 168,0%
+(+) AVP - Comercial 1 3 4 1 4 (21) 1 (7) 2 4 (2) 1 7 3 (0) 15 311,7%
+(+) Contingências (4) (2) (2) (5) (28) (2) (15) (58) (5) (3) (4) (4) (32) (3) (21) (72) 24,3%
+(+) Outras Receitas / Despesas (10) (14) (24) 3 (101) (16) (45) (206) (16) (4) (1) (5) (65) (7) (47) (145) -29,8%
+Resultado financeiro (71) (126) (112) (58) (302) (115) (486) (1.270) (95) (195) (91) (65) (324) (74) (511) (1.355) 7%
+(-/+) Efeitos Não Recorrentes - - - - - 21 - 21 - - - - - - - - -100,0%
+Resultado financeiro ajustado (71) (126) (112) (58) (302) (94) (486) (1.249) (95) (195) (91) (65) (324) (74) (511) (1.355) 8%
+∆% 34,7% 54,7% -19,1% 11,5% 7,4% -21,6% 5,2%
+3T25 3T26
+
+[p. 29]
+29 
+ 
+2.11 IMPOSTOS 
+No Grupo Equatorial, a apuração do Imposto de Renda Pessoa Jurídica (IRPJ) e da Contribuição Social sobre o Lucro 
+Líquido (CSLL) a pagar é influenciada positivamente pelos seguintes itens: (i) incentivo fiscal de redução de 75% do 
+Imposto de Renda, decorrente do benefício de modernização total, obtido junto à SUDENE/SUDAM (válido até 2032 para 
+as distribuidoras Maranhão, Piauí, Alagoas e CEA; e até 2034 para a Equatorial Pará); (ii) benefício de exclusão de até 
+60% dos valores despendidos em PD&I do lucro líquido; e (iii) benefícios de dedução do Imposto de Renda relacionados 
+a despesas com alimentação dos colaboradores (PAT), licença-maternidade e doações. 
+ 
+ 
+ 
+IRPJ / CSLL
+R$ Milhões Maranhão Pará Piauí Alagoas CEEE-D CEA Goiás Maranhão Pará Piauí Alagoas CEEE-D CEA Goiás
+Lair (a) 147 453 133 70 (263) (27) (20) 291 250 104 73 (113) 19 161 
+Despesas IRPJ/CSLL (43) (65) (35) (4) - (5) 23 (33) 5 (2) 1 - 9 (43) 
+(+) Ativo Fiscal Diferido (38) 16 9 (9) - - (34) (24) (49) (6) 1 - - 31 
+(+) Incentivos Fiscais 5 86 11 19 - - - 65 87 34 25 - 3 - 
+(-) Não recorrente (27) (7) (6) (9) - - - - - - - - - - 
+NR Diferido 14 (13) (9) (4) - - - - - - - - - - 
+NR IRPJ/CSLL (40) 6 3 (5) - - - - - - - - - - 
+(=) Imposto Calculado (b) (54) (41) (20) (4) - (5) (11) (57) (44) (8) 2 - 9 (12) 
+Alíquota Efetiva (b/a) 36% 9% 15% 6% 0% -17% -55% 20% 18% 8% -3% 0% -45% 7%
+Lucro Real (c) 251 491 108 96 497 14 32 368 395 129 69 - (15) 246 
+Alíquota Efetiva sobre Lucro Real (b/c) 21% 8% 18% 4% 0% 32% 35% 15% 11% 6% -3% 0% 57% 5%
+3T25 3T26
+
+[p. 30]
+30 
+ 
+3. RENOVÁVEIS 
+3.1 DESEMPENHO OPERACIONAL1 
+GERAÇÃO 
+ 
+ 
+As informações operacionais foram divulgadas no release operacional da companhia. Para acessar o documento, clique 
+aqui. 
+ 
+MÉDIA DOS VENTOS - PORTFÓLIO EÓLICO (m/s) GERAÇÃO TOTAL - PORTFÓLIO EÓLICO (GWh) 
+ 
+Na comparação com o 3T25, a velocidade média dos ventos nos complexos da Echoenergia recuou 1,4%, com parte 
+dos ativos operando abaixo da respectiva média climatológica. 
+ 
+ 
+3T25 3T26 Δ% Δ 3T25 3T26 Δ% Δ
+Geração Eólica Bruta 1.465,2 1.455,5 -0,7% -9,8 8,7 8,6 -1,4% -0,1
+Constrained-Off 342,5 179,5 -47,6% -163,0
+Geração Eólica Líquida 1.122,7 1.276,0 13,7% 153,3
+3T25 3T26 Δ% Δ 3T25 3T26 Δ% Δ
+Geração Solar Bruta 396,3 406,5 2,6% 10,2 336,2 342,5 1,9% 6,3
+Constrained-Off 200,2 174,6 -12,8% -25,5
+Geração Solar Líquida 196,1 231,9 18,2% 35,8
+3T25 3T26 Δ% Δ
+Geração Consolidada Bruta 1.861,5 1.862,0 0,0% 0,5
+Constrained-Off 542,7 354,1 -34,8% -188,6
+Geração Consolidada Líquida 1.318,8 1.507,9 14,3% 189,1
+Portfólio
+Geração (GWh)
+Complexos Eólicos
+Geração (GWh) Ventos (m/s)
+Complexos Solares
+Geração (GWh) Irradiância Média (W/m²)
+
+[p. 31]
+31 
+ 
+A figura ao lado ilustra as anomalias de vento no 3T26 em relação à média de longo 
+prazo, evidenciando o impacto climático negativo sobre os complexos eólicos da 
+Echoenergia. Desconsiderando os efeitos de constrained-off, a geração do período, 
+no centro de gravidade, se aproximou de P84 nos ativos eólicos e de P94 nos ativos 
+solares, em ambos os casos na referência de variabilidade anual. 
+Os gráficos a seguir apresentam a geração de energia eólica e solar da Echoenergia 
+nos últimos 12 meses e a visão para o 3T26, comparando-a com os valores de P50 
+e P90 anual revisados pela empresa. Vale destacar que essas estimativas de produ-
+ção de energia são consideradas robustas, pois os estudos foram elaborados utili-
+zando metodologias consolidadas no mercado e tem como base dados operacio-
+nais para todos os complexos eólicos.
+
+[p. 32]
+32 
+ 
+EFEITOS DO CONSTRAINED-OFF 
+Com base nos dados do ONS e considerando as perdas relativas ao centro de gravidade, os efeitos de constrained-off 
+totalizaram 354,1 GWh no 3T26, correspondentes a um percentual de restrição de 19,0% e a um impacto financeiro 
+estimado de R$ 45 milhões. 
+O volume de energia cortada nos complexos solares, respondeu por 174,6 GWh, atingindo um percentual de restrição 
+de 43,0% da produção de energia solar, com impacto financeiro estimado de R$ 11 milhões. E nos complexos eólicos, 
+os cortes totalizaram 179,5 GWh, atingindo 12,3% de restrição da produção de energia eólica, a um impacto financeiro 
+de R$ 34 milhões. 
+Em comparação com o 3T25, quando os cortes totalizaram 542,7 GWh e impacto financeiro estimado em R$ 104 mi-
+lhões, o volume de constrained-off recuou aproximadamente 35%, enquanto o impacto financeiro diminuiu 57%. Assim, 
+o percentual de restrição do portfólio diminuiu 10,1 p.p., passando de 29,2% no 3T25 para 19,0% no 3T26. 
+Quanto à natureza das restrições, os cortes de ordem energética foram predominantes, representando aproximada-
+mente 82% do total, ou 292,0 GWh, com impacto financeiro estimado de R$ 35 milhões. As restrições decorrentes de 
+indisponibilidade externa corresponderam a cerca de 6% do total, equivalentes a 21,4 GWh e R$ 2 milhões, enquanto 
+as restrições por razões de confiabilidade representaram aproximadamente 12%, ou 40,7 GWh e R$ 9 milhões. Nos 
+complexos solares, as restrições energéticas responderam por aproximadamente 85% do volume cortado no segmento, 
+ao passo que nos complexos eólicos, representaram cerca de 79% dos cortes. 
+ 
+Adicionalmente, para os eventos de constrained-off ocorridos entre 1º de setembro de 2023 e 25 de novembro de 2025, 
+a Lei nº 15.269/2025 estabeleceu o direito à compensação dos custos associados às restrições de geração classifica-
+das como indisponibilidade externa e confiabilidade elétrica para usinas eólicas e solares. Em julho de 2026, o Ministé-
+rio de Minas e Energia (MME) publicou a Portaria Normativa nº 140/2026, regulamentando a operacionalização desse 
+mecanismo por meio da celebração de um Termo de Compromisso entre os agentes de geração e o Poder Concedente. 
+Em setembro de 2026, a Companhia reconheceu contabilmente R$ 308,9 milhões (valores brutos de impostos) referen-
+tes aos ressarcimentos estimados desses eventos. Considerando o montante total de R$ 331 milhões, parte dos valores 
+referentes à indisponibilidade externa já havia sido reconhecida contabilmente em trimestres anteriores. Do montante 
+reconhecido nesse trimestre, no EBITDA, R$ 221,2 milhões referem-se aos contratos do Ambiente de Contratação Livre 
+(ACL), calculados com base no PLD horário, e R$ 62,7 milhões aos contratos do Ambiente de Contratação Regulada 
+(ACR), com base nos respectivos PPAs. Os valores referem-se exclusivamente a cortes classificados como indisponibi-
+lidade externa e confiabilidade elétrica, com base no reprocessamento do ONS. 
+O reconhecimento contábil não produz efeito imediato no caixa. A liquidação financeira está prevista para ocorrer em 
+etapas, via CCEE, após a assinatura do Termo de Compromisso, permanecendo sujeita às etapas de revisão e validação 
+dos montantes pelos agentes envolvidos. 
+ 
+[%] [GWh] [R$ milhões] [GWh] [R$ milhões] [GWh] [R$ milhões] [GWh] [R$ milhões]
+3T25 23,4% 343 81 226 59 8 2 108 21
+3T26 12,3% 179 34 34 8 3 0 143 26
+3T23 a 3T26 14,4% 2.267 437 1.440 279 142 30 685 128
+3T25 50,5% 200 23 71 10 19 3 110 10
+3T26 43,0% 175 11 7 0 18 1 149 9
+3T23 a 3T26 33,7% 1.098 108 283 38 145 17 670 53
+3T25 29,2% 543 104 298 69 27 5 218 31
+3T26 19,0% 354 45 41 9 21 2 292 35
+3T23 a 3T26 17,7% 3.364 545 1.723 317 287 47 1.355 181
+Visão ONS - Centro de Gravidade
+Eólicas
+Solares
+Total Confiabilidade
+Portfolio
+Indisponibilidade Energético
+Unidade
+
+[p. 33]
+33 
+ 
+3.2 DESEMPENHO FINANCEIRO 
+Abaixo apresentamos o desempenho econômico-financeiro da Echoenergia em uma visão combinando o resultado da 
+Echo Participações com o da Echo Crescimento, veículos de geração eólica e solar do grupo, respectivamente. 
+ 
+ 
+LUCRO BRUTO DE ENERGIA – ECHOENERGIA 
+O Lucro Bruto de Energia da Echoenergia foi de R$ 657,6 milhões no 3T26, um aumento de 109,5%, impactado princi-
+palmente pelo reconhecimento contábil do ressarcimento do constrained-off de R$ 283,9 milhões. Em uma visão ajus-
+tada, desconsiderando esse valor, o Lucro Bruto de Energia atingiu R$ 373,7 milhões, aumento de 19,0% quando com-
+parado ao mesmo período do ano passado, ou de R$ 59,7 milhões. Essa variação decorreu, principalmente, da geração 
+14,3% superior ao 3T25, beneficiada pela redução expressiva no nível de constrained-off (de 19,0% no 3T26 contra 
+Echo Participações Echo Crescimento
+DRE 3T25 3T26 ∆% ∆ 3T25 3T26 ∆% ∆
+Receita Bruta de Energia 322,7 331,0 2,6% 8,3 106,6 78,7 -26,2% (28,0) 
+(+) Ressarcimento Constrained-off - 244,6 N/A 244,6 - 39,3 N/A 39,3 
+(-) Deduções (25,5) (19,1) -24,9% 6,3 (5,9) (4,8) -19,3% 1,1 
+Receita Liquida 297,3 556,5 87,2% 259,2 100,7 113,2 12,4% 12,4 
+(-) Compra de Energia (37,3) (0,1) -99,8% 37,3 (46,6) (12,0) -74,4% 34,7 
+(+/-) Efeito MtM (Ganhos e Perdas) - - N/A - (0,1) (0,1) 6,4% (0,0) 
+Lucro Bruto de Energia 259,9 556,4 114,1% 296,5 54,0 101,2 87,2% 47,1 
+(-) Encargos de Uso do Sistema - (21,7) N/A N/A (10,9) N/A (10,9) 
+Margem Bruta 259,9 534,7 105,7% 274,8 54,0 90,2 67,0% 36,2 
+Custos e Despesas Operacionais (72,8) (73,0) 0,2% (0,1) (23,8) (10,9) -54,1% 12,9 
+(-) Custos de Operação e Produção de Energia (57,0) (52,0) -8,7% 5,0 (20,9) (8,0) -61,8% 12,9 
+(-) Despesas Operacionais e Administrativas (15,9) (21,0) 32,2% (5,1) (2,9) (3,0) 0,6% (0,0) 
+EBITDA 187,1 461,7 146,8% 274,6 30,2 79,3 162,4% 49,1 
+Margem EBITDA (%) 62,9% 83,0% 20p.p. N/A 30,0% 70,1% 40,1p.p. N/A
+(-/+) Efeitos Não-Recorrentes 8,8 (235,5) -2776,1% (244,3) - (39,3) N/A (39,3) 
+(-/+) Efeito MtM (Ganhos e Perdas) - - N/A - 0,1 0,1 16,3% 0,0 
+EBITDA Ajustado 195,9 226,2 15,5% 30,4 30,3 40,1 32,4% 9,8 
+Margem EBITDA Ajustada (%) 65,9% 40,7% -25,2p.p. N/A 30,1% 35,4% 5,4p.p. N/A
+(-) Depreciação/Amortização (65,3) (59,0) -9,7% 6,4 (19,4) (14,0) -27,7% 5,4 
+(+/-) Resultado Financeiro (44,8) (1,9) -95,8% 42,9 (37,0) (35,9) -2,9% 1,1 
+(-) Impostos (19,8) (32,5) 63,8% (12,7) (4,8) (5,0) 5,4% (0,3) 
+Lucro (Prejuízo) Líquido Reportado 57,1 368,4 544,7% 311,2 (30,9) 24,3 178,7% 55,3 
+Margem Líquida (%) 19,2% 66,2% 47p.p. N/A -30,7% 21,5% 52,2p.p. N/A
+Echoenergia (Part. + Cresc.)
+DRE 3T25 3T26 ∆% ∆
+Receita Bruta de Energia 429,4 409,7 -4,6% (19,7) 
+(+) Ressarcimento Constrained-off - 283,9 N/A 283,9 
+(-) Deduções (31,4) (23,9) -23,8% 7,5 
+Receita Liquida 398,0 669,7 68,3% 271,7 
+(-) Compra de Energia (84,0) (12,0) -85,7% 72,0 
+(+/-) Efeito MtM (Ganhos e Perdas) (0,1) (0,1) 6,4% (0,0) 
+Lucro Bruto de Energia 313,9 657,6 109,5% 343,7 
+(-) Encargos de Uso do Sistema (32,7) N/A (32,7) 
+Margem Bruta 313,9 624,9 99,1% 311,0 
+Custos e Despesas Operacionais (96,6) (83,9) -13,2% 12,7 
+(-) Custo de Operação e Produção de Energia (77,9) (60,0) -23,0% 17,9 
+(-) Despesas Operacionais e Administrativas (18,8) (23,9) 27,3% (5,1) 
+EBITDA 217,3 541,0 149,0% 323,7 
+Margem EBITDA (%) 54,6% 80,8% 26,2p.p. N/A
+(-/+) Efeitos Não-Recorrentes 8,8 (274,8) -3222,3% (283,6) 
+(-/+) Efeito MtM (Ganhos e Perdas) 0,1 0,1 16,3% 0,0 
+EBITDA Ajustado 226,2 266,3 17,8% 40,2 
+Margem EBITDA Ajustada (%) 56,8% 39,8% -17,1p.p. N/A
+(-) Depreciação/Amortização (84,7) (73,0) -13,9% 11,7 
+(+/-) Resultado Financeiro (81,8) (37,8) -53,8% 44,0 
+(-) Impostos (24,6) (37,5) 52,5% (12,9) 
+Lucro (Prejuízo) Líquido Reportado 26,2 392,7 1399,2% 366,5 
+Margem Líquida (%) 6,6% 58,6% 52,1p.p. N/A
+
+[p. 34]
+34 
+ 
+29,2% no 3T25) e do reajuste inflacionário dos preços dos PPAs na Echo Participações. Vale comentar que ocorreu ex-
+pressiva redução de 85,7% (ou -R$ 72,0 milhões) nos custos com compra de energia em virtude da menor necessidade 
+de recomposição de lastro das eólicas em função da maior geração. 
+Os custos com Encargos de Uso dos Sistemas de Transmissão e Distribuição totalizaram R$ 32,7 milhões no 3T26, re-
+fletindo a redução de MUST nos parques eólicos e solares entre os períodos. 
+Vale destacar que, a partir do 2T26, parte dos valores anteriormente classificados como Custos de Operação e Produção 
+de Energia foi reclassificada para a linha de Encargos de Uso do Sistema, apresentada de forma segregada no quadro 
+financeiro. Os valores referentes ao 3T25 foram mantidos conforme originalmente reportados no release e, portanto, 
+não contemplam essa reclassificação. 
+Sendo assim, a Margem Bruta da Echoenergia foi de R$ 624,9 milhões, um crescimento de 99,1% quando comparado 
+ao mesmo período do ano passado, ou de R$ 311,0 milhões. Em uma visão ajustada, desconsiderando o efeito do reco-
+nhecimento contábil do ressarcimento do constrained-off, a Margem Bruta atingiu R$ 341,0 milhões, aumento de 8,6% 
+quando comparado ao mesmo período do ano passado, ou de R$ 27,1 milhões 
+CUSTOS E DESPESAS OPERACIONAIS - ECHOENERGIA 
+Os custos e despesas operacionais da Echoenergia totalizaram R$ 83,9 milhões no 3T26, representando uma redu-
+ção de 13,2% (ou de R$ 12,7 milhões) quando comparado ao 3T25 (R$ 96,6 milhões). Essa variação é explicada 
+principalmente pelas seguintes flutuações nas linhas: 
+• Redução de R$ 33,3 milhões em Encargos de Uso do Sistema de Transmissão e Distribuição; 
+• Aumento de R$ 1,9 milhão em despesas com pessoal, decorrente do reconhecimento da provisão dos Incen-
+tivos de Longo Prazo (ILP) e dos reajustes salariais e de benefícios; 
+• Redução de R$ 1,5 milhão em materiais, justificada pelo menor consumo de materiais atrelados às manuten-
+ções corretivas no complexo Echo 2; 
+• Aumento de R$ 18,2 milhões em serviços de terceiros e engenharia de O&M, decorrente de reajustes contratu-
+ais e escalation¹ nos contratos full scope de manutenção de parques eólicos (+R$ 6,0 milhões), despesas com 
+consultorias técnicas e auditorias (+R$ 5,0 milhões), gastos com honorários advocatícios extraordinários (+R$ 
+3,5 milhões), e na variação de Liquid Damages (+R$ 3,7 milhões); 
+• Aumento de R$ 1,9 milhão em outros custos e despesas, principalmente em função de despesas com seguros 
+e indenizações, despesas legais e atividades administrativas. 
+Vale destacar que, a partir do 2T26, parte dos valores anteriormente classificados como Custos de Operação e 
+Produção de Energia foi reclassificada para a linha de Encargos de Uso do Sistema, apresentada de forma segre-
+gada no quadro financeiro. Os valores referentes ao 3T25 foram mantidos conforme originalmente reportados no 
+release e, portanto, não contemplam essa reclassificação. Em bases comparáveis, considerando a mesma reclas-
+sificação no 3T25, houve crescimento em custos e despesas operacionais entre os períodos de 32,5% (ou de R$ 
+20,6 milhões). 
+RESULTADO FINANCEIRO - ECHOENERGIA 
+O resultado financeiro líquido da Echoenergia registrado no 3T26 foi de R$ 37,8 milhões negativos, apresentando uma 
+melhora significativa de R$ 44 milhões (ou 53,8%) quando comparado ao saldo negativo de R$ 81,8 milhões reportado 
+no 3T25. Tal variação reflete, principalmente, a melhora no rendimento das aplicações e redução dos encargos da dí-
+vida, bem como o efeito não-recorrente de R$ 22,4 milhões oriundo da atualização monetária referente ao reconheci-
+mento contábil do ressarcimento do constrained-off.
+
+[p. 35]
+35 
+ 
+1 Escalation se refere aos reajustes, em termos reais, de valores previstos em contratos de O&M de longo prazo, relacionados ao aumento da taxa de 
+falhas naturais das máquinas e equipamentos. 
+PROFORMA – ECHOENERGIA + EQUATORIAL RENOVÁVEIS 
+Abaixo apresentamos o desempenho econômico-financeiro da Echoenergia em uma visão proforma combinando o re-
+sultado da Equatorial Renováveis S.A., veículo de comercialização do grupo, o qual é atualmente consolidado, na visão 
+societária, sob a Equatorial Serviços. 
+ 
+LUCRO BRUTO DE ENERGIA – EQTL RENOVÁVEIS 
+O Lucro Bruto de Energia da EQTL Renováveis foi de R$ 37,0 milhões negativos no 3T26, uma redução de R$ 36,0 milhões 
+quando comparado ao 3T25. Excluindo o efeito não-caixa da marcação a mercado (MtM) dos contratos de trading nos 
+períodos, o Lucro Bruto foi de R$ 48,4 milhões negativos no 3T26, uma redução de R$ 34,6 milhões contra o mesmo 
+período do ano anterior. Essa queda é explicada, principalmente, pelo efeito negativo da compra de energia dos ativos 
+Echoenergia (Part. + Cresc.) EQTL Renováveis
+DRE 3T25 3T26 ∆% ∆ 3T25 3T26 ∆% ∆
+Receita Bruta de Energia 429,4 409,7 -4,6% (19,7) 825,9 644,3 -22,0% (181,6) 
+(+) Ressarcimento Constrained-off - 283,9 N/A 283,9 - - N/A - 
+(-) Deduções (31,4) (23,9) -23,8% 7,5 (93,9) (84,5) -10,0% 9,4 
+Receita Liquida 398,0 669,7 68,3% 271,7 732,0 559,8 -23,5% (172,2) 
+(-) Compra de Energia (84,0) (12,0) -85,7% 72,0 (746,9) (609,2) -18,4% 137,8 
+(+/-) Efeito MtM (Ganhos e Perdas) (0,1) (0,1) 6,4% (0,0) 13,9 12,3 -11,2% (1,6) 
+Lucro Bruto de Energia 313,9 657,6 109,5% 343,7 (1,1) (37,0) 3278,2% (36,0) 
+(-) Encargos de Uso do Sistema - (32,7) N/A (32,7) (5,2) N/A (5,2) 
+Margem Bruta 313,9 624,9 99,1% 311,0 (1,1) (42,2) 3752,3% (41,2) 
+Custos e Despesas Operacionais (96,6) (83,9) -13,2% 12,7 (13,2) (10,5) -20,8% 2,8 
+(-) Custos de Operação e Produção de Energia (77,9) (60,0) -23,0% 17,9 (12,1) (7,9) -34,4% 4,1 
+(-) Despesas Operacionais e Administrativas (18,8) (23,9) 27,3% (5,1) (1,2) (2,6) 118,3% (1,4) 
+EBITDA 217,3 541,0 149,0% 323,7 (14,3) (52,7) -268,1% (38,4) 
+Margem EBITDA (%) 54,6% 80,8% 26,2p.p. N/A -2,0% -9,4% -7,5p.p. N/A
+(-/+) Efeitos Não-Recorrentes 8,8 (274,8) -3222,3% (283,6) - - N/A - 
+(-/+) Efeito MtM (Ganhos e Perdas) 0,1 0,1 16,3% 0,0 (12,7) (11,3) -10,9% 1,4 
+EBITDA Ajustado 226,2 266,3 17,8% 40,2 (27,0) (64,1) -136,9% (37,0) 
+Margem EBITDA Ajustada (%) 56,8% 39,8% -17,1p.p. N/A -3,7% -11,4% -7,7p.p. N/A
+(-) Depreciação/Amortização (84,7) (73,0) -13,9% 11,7 (0,1) (0,1) 0,0% - 
+(+/-) Resultado Financeiro (81,8) (37,8) -53,8% 44,0 1,1 1,5 38,2% 0,4 
+(-) Impostos (24,6) (37,5) 52,5% (12,9) (4,3) (3,9) -10,9% 0,5 
+Lucro (Prejuízo) Líquido Reportado 26,2 392,7 1399,2% 366,5 (17,7) (55,2) -212,4% (37,5) 
+Margem Líquida (%) 6,6% 58,6% 52,1p.p. N/A -2,4% -9,9% -7,4p.p. N/A
+Proforma (Echoenergia + EQTL Renováveis)
+DRE 3T25 3T26 ∆% ∆
+Receita Bruta de Energia 1.255,3 1.054,0 -16,0% (201,3) 
+(+) Ressarcimento Constrained-off - 283,9 N/A 283,9 
+(-) Deduções (125,3) (108,4) -13,5% 16,9 
+Receita Liquida 1.129,9 1.229,4 8,8% 99,5 
+(-) Compra de Energia (830,9) (621,2) -25,2% 209,8 
+(+/-) Efeito MtM (Ganhos e Perdas) 13,8 12,3 -11,2% (1,6) 
+Lucro Bruto de Energia 312,9 620,6 98,4% 307,7 
+(-) Encargos de Uso do Sistema - (37,9) N/A (37,9) 
+Margem Bruta 312,9 582,7 86,3% 269,8 
+Custos e Despesas Operacionais (109,9) (94,4) -14,1% 15,5 
+(-) Custo de Operação e Produção de Energia (89,9) (67,9) -24,5% 22,0 
+(-) Despesas Operacionais e Administrativas (20,0) (26,5) 32,7% (6,5) 
+EBITDA 203,0 488,3 140,6% 285,3 
+Margem EBITDA (%) 18,0% 39,7% 21,8p.p. N/A
+(-/+) Efeitos Não-Recorrentes 8,8 (274,8) -3222,3% (283,6) 
+(-/+) Efeito MtM (Ganhos e Perdas) (12,7) (11,3) -11,0% 1,4 
+EBITDA Ajustado 199,1 202,3 1,6% 3,2 
+Margem EBITDA Ajustada (%) 17,6% 16,5% -1,2p.p. N/A
+(-) Depreciação/Amortização (84,8) (73,1) -13,8% 11,7 
+(+/-) Resultado Financeiro (80,7) (36,3) -55,0% 44,4 
+(-) Impostos (28,9) (41,4) 43,1% (12,5) 
+Lucro (Prejuízo) Líquido Reportado 8,5 337,5 3854,6% 329,0 
+Margem Líquida (%) 0,8% 27,5% 26,7p.p. N/A
+
+[p. 36]
+36 
+ 
+solares a preços superiores aos de venda no mercado livre, pela variação nos resultados das operações de trading e 
+pelos custos adicionais com modulação horária. 
+Os custos com Encargos de Comercialização totalizaram R$ 5,2 milhões no 3T26, em virtude do maior volume de ener-
+gia entregue ao consumidor final no mercado varejista entre os períodos. Vale destacar que, a partir do 2T26, parte dos 
+valores anteriormente classificados como Custos de Operação e Produção de Energia foi reclassificada para a linha de 
+Encargos de Comercialização, apresentada de forma segregada no quadro financeiro. Os valores referentes ao 3T25 
+foram mantidos conforme originalmente reportados no release e, portanto, não contemplam essa reclassificação. Em 
+bases comparáveis, considerando a mesma reclassificação no 3T25, a variação de encargos de comercialização entre 
+os períodos foi de R$ 1,3 milhão. 
+Sendo assim, a Margem Bruta da EQTL Renováveis, excluindo o efeito do MtM, de ambos os períodos, foi de R$ 54,6 
+milhões negativos no 3T26, uma redução de R$ 39,6 milhões quando comparado ao mesmo período do ano passado. 
+CUSTOS E DESPESAS OPERACIONAIS – EQTL RENOVÁVEIS 
+Os custos e despesas operacionais da EQTL Renováveis totalizaram R$ 15,7 milhões no 3T26, representando um au-
+mento de 18,5% (ou de R$ 2,4 milhões) em relação ao montante de R$ 13,2 milhões registrado no 3T25. Essa variação 
+é justificada principalmente por: 
+• Aumento de R$ 0,5 milhão em pessoal, reflexo da curva de contratação da equipe de vendas, do crescimento 
+do compartilhamento de despesas da Echoenergia e dos ajustes em salários e benefícios; 
+• Aumento de R$ 1,9 milhão em outros custos e despesas – contemplando PECLD, despesas jurídicas e legais, 
+serviços de terceiros, viagens, encargos, entre outros. 
+ 
+ 
+Para retornar ao Sumário, clique aqui.
+
+[p. 37]
+37 
+ 
+4. SANEAMENTO 
+ 
+As informações operacionais foram divulgadas no release operacional da companhia. Para acessar o documento, cli-
+que aqui. 
+ 
+4.1 DESEMPENHO FINANCEIRO 
+ 
+ 
+ 
+Demonstração de Resultado 3T25 3T26 ∆% ∆
+R$ milhões
+Receita Operacional 42,3 48,7 15,2% 6,4
+Abastecimento de água e serviços de esgoto 26,4 32,7 23,8% 6,3
+Receita de construção 14,1 14,5 2,5% 0,4
+Outras receitas 1,7 1,5 -12,5% -0,2
+Deduções à receita operacional -2,6 -3,1 17,9% -0,5
+Receita operacional líquida 39,7 45,6 15,0% 6,0
+Custos de construção -14,1 -14,5 2,5% -0,4
+Custo da Operação -23,4 -20,5 -12,5% 2,9
+PMSO -17,1 -19,5 14,0% -2,4
+Pessoal -5,2 -6,1 15,8% -0,8
+Material -2,2 -2,8 28,9% -0,6
+Serviços de terceiros -4,7 -6,2 32,6% -1,5
+Outros -5,0 -4,4 -12,0% 0,6
+PDD/Provisões -4,8 -0,7 -86,0% 4,1
+Outras Receitas e Despesas Operacionais -1,5 -0,3 -81,4% 1,2
+EBITDA 2,2 10,7 395,9% 8,5
+(-/+) Efeitos Não Recorrentes 0,0 0,0 N/A 0,0
+EBITDA Ajustado 2,2 10,7 395,9% 8,5
+Depreciação e amortização -8,5 -10,4 22,8% -1,9
+Resultado financeiro -39,0 -24,2 -37,9% 14,8
+Receita financeira 1,2 1,9 57,2% 0,7
+Despesa financeira -40,2 -26,1 -35,1% 14,1
+Tributos 0,0 0,0 N/A 0,0
+Resultado do exercício Ajustado -45,3 -23,9 -47,2% 21,4
+Indicadores Operacionais - Água 3T25 3T26 ∆% vs 3T25
+Economias faturadas (mil) 98,4 92,3 -6,2%
+Volume Faturado (mil m3) 5.450,5 5.031,5 -7,7%
+Índice de cobertura (%) 70,0% 71,7% 1,7 p.p.
+Índice de Perda da Distribuição (%) 62,9% 67,8% 4,9 p.p.
+Indicadores Operacionais - Esgoto 3T25 3T26 ∆% vs 3T25
+Economias faturadas (mil) 19,2 19,6 1,9%
+Volume Faturado (mil m3) 1.061,3 1.137,0 7,1%
+Índice de cobertura (%) 15,3% 15,5% 0,2 p.p.
+
+[p. 38]
+38 
+ 
+RECEITA OPERACIONAL LÍQUIDA - CSA 
+No 3T26, a Receita Operacional Líquida da CSA atingiu R$ 45,6 milhões, crescimento de 15,0% (R$ 6,0 milhões) em 
+relação ao 3T25. Excluindo a receita de construção, as receitas operacionais totalizaram R$ 31,1 milhões (+21,9% ou 
+R$ 5,6 milhões), impulsionadas pelo avanço das receitas de água (+16% ou R$ 3,3 milhões) e esgoto (+64% ou R$ 3,2 
+milhões). O desempenho refletiu principalmente o aumento das tarifas médias de água (+25%) e esgoto (+53%), asso-
+ciado ao reajuste tarifário anual de 6,5%, além do crescimento de 7% no volume faturado de esgoto. Esses efeitos mais 
+que compensaram a redução de 8% no volume faturado de água, decorrente da menor quantidade de economias fatu-
+radas e do avanço da hidrometração. As deduções da receita cresceram R$ 0,5 milhão, acompanhando a evolução do 
+faturamento. 
+ 
+CUSTOS E DESPESAS OPERACIONAIS - CSA 
+Os custos e despesas operacionais, incluindo outras receitas e despesas, totalizaram R$ 20,5 milhões no 3T26, redução 
+de 12,5% (R$ 2,9 milhões) em relação ao 3T25. 
+ 
+O PMSO atingiu R$ 19,5 milhões (+14,0% ou R$ 2,4 milhões), refletindo maiores despesas com Pessoal (+R$ 0,8 mi-
+lhão), principalmente PLR, benefícios e menor ativação de mão de obra, Materiais (+R$ 0,6 milhão), pelo maior consumo 
+de produtos químicos para melhoria da qualidade da água; e Serviços de Terceiros (+R$ 1,5 milhão), devido à intensifi-
+cação dos cortes por inadimplência, consultorias regulatórias e ações de combate a perdas. Esses efeitos foram parci-
+almente compensados pela redução de R$ 0,6 milhão em Outros, decorrente principalmente do reconhecimento de 
+créditos de PIS/COFINS. 
+ 
+As provisões totalizaram R$ 0,7 milhão no 3T26, uma redução de 86,0% ou R$ 4,1 milhões em relação ao 3T25, refletindo 
+principalmente os efeitos de atualização da matriz de PECLD. Com isso, o indicador PECLD/Receita Bruta, excluindo 
+construção, recuou de 16,3% para 1,3% na comparação anual. 
+ 
+ 
+EBITDA - CSA 
+O EBITDA da CSA atingiu R$ 10,7 milhões no 3T26, crescimento de R$ 8,5 milhões em relação ao 3T25, impulsionado 
+pelo aumento das receitas operacionais (+R$ 6,1 milhões) e pela redução dos custos e despesas (+R$ 2,9 milhões), 
+parcialmente compensados pelas maiores deduções da receita (R$ 0,5 milhão). 
+ 
+RESULTADO FINANCEIRO - CSA 
+No 3T26, o resultado financeiro da CSA foi negativo em R$ 24,2 milhões, melhora de 38% (R$ 14,8 milhões) em relação 
+ao 3T25, refletindo principalmente a redução dos encargos da dívida, de R$ 39 milhões para R$ 25 milhões. A queda 
+decorreu da menor variação do IPCA (0,01% ante 0,46% no 3T25), com impacto positivo de R$ 6 milhões, e da redução 
+do saldo devedor. 
+ 
+ 
+ 
+ 
+ 
+Para retornar ao Sumário, clique aqui.
+
+[p. 39]
+39 
+ 
+5. EQUATORIAL SERVIÇOS 
+ 
+ 
+DESEMPENHO FINANCEIRO – SERVIÇOS 
+A tabela acima apresenta os resultados da Equatorial Serviços, excluindo os efeitos da Equatorial Renováveis (comer-
+cializadora do grupo consolidada societariamente na Equatorial Serviços e detalhada na seção 3.2), em visão proforma 
+com a Echoenergia. 
+A Receita Operacional Líquida registrou um avanço de 11,4%, atingindo R$ 86,9 milhões, impulsionada pelo desempe-
+nho robusto do Contact Center e de Afinidades na Equatorial Serviços, beneficiados pela expansão de canais digitais 
+(+R$ 4,7 milhões) e pelo acréscimo de 63,7 mil clientes na base. Além do forte crescimento na Equatorial Telecom, que 
+elevou sua receita com a expansão de contratos de conectividade e dados. Esse desempenho compensou o recuo de 
+13,0% na receita da Enova, que foi impactada pela descontinuação dos serviços de varejo (rooftop). 
+Por outro lado, os custos e despesas operacionais acompanharam o crescimento das atividades, somando R$ 59 mi-
+lhões (alta de 4% vs. 3T25), influenciados principalmente pelo aumento na linha de pessoal na Equatorial Serviços. 
+ Dessa forma, o EBITDA consolidado atingiu R$ 27,9 milhões, representando uma alta de 31,3% em relação ao 3T25. 
+ 
+ 
+ 
+ 
+ 
+Para retornar ao Sumário, clique aqui. 
+ 
+Demonstração de Resultado¹ 3T25 3T26 ∆% ∆
+R$ milhões
+Receita Operacional Bruta 89,5 99,6 11,3% 10,1 
+Deduções (11,5) (12,7) 10,4% (1,2) 
+Receita Operacional Líquida 78,0 86,9 11,4% 8,9 
+Custos Operacionais (1,9) (2,1) 13,5% (0,3) 
+Despesas Operacionais (54,8) (56,8) 3,6% (2,0) 
+EBITDA 21,3 27,9 31,3% 6,6 
+Margem EBITDA 27,3% 32,1% 17,8% N/A
+Depreciação e Amortização (7,4) (8,1) 8,8% (0,7) 
+Resultado do serviço (EBIT) 13,8 19,8 43,3% 6,0 
+Resultado financeiro (0,9) (1,7) 93,7% (0,8) 
+Equivalência - - - - 
+Tributos (4,4) (6,2) 42,7% (1,9) 
+Lucro Líquido 8,6 11,9 38,6% 3,3 
+¹ Os resultados apresentados excluem os efeitos da Comercializadora
+
+[p. 40]
+40 
+ 
+SERVIÇOS PRESTADOS PELO AUDITOR INDEPENDENTE 
+Por fim, durante o período findo em 30 de setembro de 2026, a Ernst & Young Auditores Independentes S/S Ltda., auditor 
+independente da Companhia, prestou outros serviços além da auditoria das demonstrações contábeis e da revisão de 
+informações intermediárias, tais como: revisão da tradução das demonstrações financeiras para o inglês; emissão de 
+relatório de asseguração limitada sobre covenants; auditoria de demonstrações regulatórias; asseguração limitada so-
+bre outras contas a receber; asseguração limitada sobre indicadores de sustentabilidade; diagnóstico de aderência às 
+normas relacionadas à sustentabilidade; emissão de laudo de avaliação de patrimônio líquido contábil; e procedimen-
+tos previamente acordados sobre relatório de controle patrimonial. 
+A política de contratação adotada pela Companhia observa a regulamentação aplicável e assegura a independência do 
+auditor, conforme previsto na Instrução CVM nº 381/03, conforme alterada pela Resolução CVM nº 162/2022, especi-
+almente no que se refere à vedação de que o auditor audite o próprio trabalho, exerça funções gerenciais na Companhia 
+ou atue na promoção de seus interesses. 
+As seguintes informações constantes deste Relatório da Administração não foram revisadas pelos auditores indepen-
+dentes: (i) dados operacionais; (ii) informações financeiras proforma e suas comparações com resultados societários; 
+e (iii) expectativas da administração quanto ao desempenho futuro da Companhia. 
+ 
+ 
+Para retornar ao Sumário, clique aqui.
