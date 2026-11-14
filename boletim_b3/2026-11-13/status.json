@@ -14,7 +14,7 @@
    "pai": null,
    "situacao": "publicando",
    "errata": false,
-   "atualizado_em": "2026-11-14T03:12:27.303",
+   "atualizado_em": "2026-11-14T07:42:57.167",
    "arquivo": "",
    "pdf": ""
   },
@@ -44,7 +44,7 @@
    "pai": 20,
    "situacao": "publicando",
    "errata": false,
-   "atualizado_em": "2026-11-14T03:53:00.77",
+   "atualizado_em": "2026-11-14T08:43:06.017",
    "arquivo": "",
    "pdf": ""
   },
@@ -84,7 +84,7 @@
    "pai": 3,
    "situacao": "publicando",
    "errata": false,
-   "atualizado_em": "2026-11-14T02:53:09.25",
+   "atualizado_em": "2026-11-14T04:53:32.317",
    "arquivo": "",
    "pdf": ""
   },
@@ -92,9 +92,9 @@
    "id": 41,
    "nome": "Clearing e depositária",
    "pai": 4,
-   "situacao": "publicando",
+   "situacao": "publicado",
    "errata": false,
-   "atualizado_em": "2026-11-14T00:00:43.973",
+   "atualizado_em": "2026-11-14T04:32:14.483",
    "arquivo": "",
    "pdf": ""
   },
@@ -102,9 +102,9 @@
    "id": 42,
    "nome": "Empréstimos de ativos",
    "pai": 4,
-   "situacao": "republicado",
+   "situacao": "publicado",
    "errata": false,
-   "atualizado_em": "2026-11-14T03:55:38.01",
+   "atualizado_em": "2026-11-14T04:23:38.633",
    "arquivo": "BDI_04-2_20261113.pdf",
    "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-11-13/BDI_04-2_20261113.pdf"
   },

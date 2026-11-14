@@ -1,6 +1,6 @@
 {
  "pregao": "2026-11-13",
- "coletado_em": "2026-11-14T06:59:26Z",
+ "coletado_em": "2026-11-14T11:51:37Z",
  "tabelas": {
   "SharesInvesVolum": {
    "titulo": "Participação dos investidores",
@@ -21,7 +21,7 @@
   "EconomicIndicators": {
    "titulo": "Indicadores econômicos",
    "situacao": "republicado",
-   "atualizado_em": "2026-11-14T03:53:00.77",
+   "atualizado_em": "2026-11-14T08:43:06.017",
    "sla": "8:00:00",
    "linhas": 434,
    "truncada": false
@@ -183,7 +183,7 @@
    "situacao": "aguardando",
    "atualizado_em": "2026-11-13T00:00:38.013",
    "sla": "8:00:00",
-   "linhas": 0,
+   "linhas": 68,
    "truncada": false
   },
   "SwapFlex": {
@@ -244,10 +244,10 @@
   },
   "Custody": {
    "titulo": "Ações custodiadas - programa de ADR",
-   "situacao": "aguardando",
-   "atualizado_em": "2026-11-13T00:00:38.013",
+   "situacao": "publicado",
+   "atualizado_em": "2026-11-14T04:32:14.483",
    "sla": "7:00:00",
-   "linhas": 0,
+   "linhas": 61,
    "truncada": false
   },
   "FugibleCustody": {
@@ -300,18 +300,18 @@
   },
   "Stock": {
    "titulo": "Estoque",
-   "situacao": "aguardando",
-   "atualizado_em": "2026-11-13T00:00:38.013",
+   "situacao": "publicado",
+   "atualizado_em": "2026-11-14T07:42:35.223",
    "sla": "8:00:00",
-   "linhas": 0,
+   "linhas": 42,
    "truncada": false
   },
   "Register": {
    "titulo": "Registro",
-   "situacao": "aguardando",
-   "atualizado_em": "2026-11-13T00:00:38.013",
+   "situacao": "publicado",
+   "atualizado_em": "2026-11-14T07:42:57.167",
    "sla": "8:00:00",
-   "linhas": 0,
+   "linhas": 18,
    "truncada": false
   },
   "RepurchaseDealings": {
@@ -332,10 +332,10 @@
   },
   "BTBLendingOpenPosition": {
    "titulo": "Posições em aberto",
-   "situacao": "aguardando",
-   "atualizado_em": "2026-11-13T00:00:38.013",
+   "situacao": "publicado",
+   "atualizado_em": "2026-11-14T04:12:40.127",
    "sla": "8:00:00",
-   "linhas": 0,
+   "linhas": 2924,
    "truncada": false
   },
   "BTBLoanBalance": {
