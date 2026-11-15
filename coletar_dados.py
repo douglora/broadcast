@@ -61,6 +61,7 @@ import requests  # noqa: E402
 import app  # noqa: E402  (reaproveita http_get, IPE_URL, sgs_fetch)
 import pares as PARES_MOD  # noqa: E402  (grupos de pares e acao-mae dos BDRs)
 import tir_real_servidor as TIR  # noqa: E402
+import calendario_fiscal as FISCAL  # noqa: E402  (prazo da SEC pelo trimestre fiscal de cada empresa)
 
 UA = app.UA
 GENERICAS = {"S", "A", "SA", "S.A.", "S/A", "HOLDING", "PARTICIPACOES", "CIA", "COMPANHIA",
@@ -839,14 +840,18 @@ def _ajustar_periodo(item):
 RELEASE_MIN_UTIL = 4000
 
 
-def janela_obrigatoria(n=RELEASES_POR_ATIVO, hoje=None, referencia=None):
+def janela_obrigatoria(n=RELEASES_POR_ATIVO, hoje=None, referencia=None, vencido=None):
     """Os `n` trimestres que a mesa PRECISA ter, do mais novo para o mais antigo.
 
     A ponta e a MESMA referencia do frescor: o mais novo entre o ITR/XBRL e o trimestre cujo prazo
     legal de divulgacao ja venceu. Divergir disso cria laco infinito - num ativo que antecipa o ITR, o
     leitor cobra um trimestre que o coletor nunca vai buscar e a cobertura nunca fecha. Fora essa
-    ponta, a janela vem do calendario, nao do que o coletor achou: e igual para todo ativo."""
-    venc = trimestre_vencido(hoje)
+    ponta, a janela vem do calendario, nao do que o coletor achou: e igual para todo ativo.
+
+    `vencido` e o trimestre vencido DO ATIVO (trimestre_vencido_ativo): para quem entrega 10-Q na SEC ele
+    sai do calendario fiscal da empresa, e o calendario da CVM nao pode empurrar a ponta para um
+    trimestre que a empresa ainda nem fechou."""
+    venc = vencido if vencido is not None else trimestre_vencido(hoje)
     par = _ano_trimestre(venc) if venc else None
     ref = _ano_trimestre(referencia) if referencia else None
     if ref and (not par or ref > par):
@@ -909,14 +914,14 @@ def periodos_oficiais(dados):
     return achados
 
 
-def cobertura_releases(historico, n=RELEASES_POR_ATIVO, hoje=None, oficiais=None, referencia=None):
+def cobertura_releases(historico, n=RELEASES_POR_ATIVO, hoje=None, oficiais=None, referencia=None, vencido=None):
     """Bloco `cobertura`: a janela obrigatoria, o que esta coberto, o que falta e o que esta fraco.
 
     E o criterio que separa 'tenho o dado' de 'tenho a linha no indice'. Um deep search so pode ser
     escrito com `completa` verdadeiro, ou com a lacuna declarada na primeira frase. `oficiais` (o
     conjunto de periodos_oficiais) marca como `nao_aplicavel` o trimestre anterior a existencia da
     companhia como aberta, que nunca vai ter release."""
-    janela = janela_obrigatoria(n, hoje, referencia)
+    janela = janela_obrigatoria(n, hoje, referencia, vencido)
     por_periodo = {r.get("periodo"): r for r in (historico or []) if r.get("periodo")}
     # Piso relativo: release muito menor que a mediana do proprio ticker quase sempre e outro
     # documento (ITUB4 4T24 tem 6 mil caracteres contra 92 mil dos irmaos). O piso absoluto sozinho
@@ -952,13 +957,13 @@ def cobertura_releases(historico, n=RELEASES_POR_ATIVO, hoje=None, oficiais=None
                      "se `faltando` ou `fracos` tiver item")}
 
 
-def periodos_a_buscar(historico, n=RELEASES_POR_ATIVO, hoje=None, oficiais=None, referencia=None):
+def periodos_a_buscar(historico, n=RELEASES_POR_ATIVO, hoje=None, oficiais=None, referencia=None, vencido=None):
     """Trimestres da janela que o coletor ainda precisa ir buscar (faltando + fracos)."""
-    c = cobertura_releases(historico, n, hoje, oficiais, referencia)
+    c = cobertura_releases(historico, n, hoje, oficiais, referencia, vencido)
     return c["faltando"] + [f["periodo"] for f in c["fracos"]]
 
 
-def _mesclar_historico(anterior, novo, n=RELEASES_POR_ATIVO, hoje=None):
+def _mesclar_historico(anterior, novo, n=RELEASES_POR_ATIVO, hoje=None, referencia=None, vencido=None):
     """Funde o historico ja gravado no branch com o que esta coleta achou, um documento por trimestre.
 
     Sem isso, uma coleta parcial (site fora do ar, orcamento estourado, IPE incompleto) reescreve o
@@ -973,7 +978,7 @@ def _mesclar_historico(anterior, novo, n=RELEASES_POR_ATIVO, hoje=None):
             achados[periodo] = item
     todos = sorted(achados.values(), key=lambda r: (ordem_periodo(r.get("periodo")), r.get("data") or ""),
                    reverse=True)
-    dentro = set(janela_obrigatoria(n, hoje))
+    dentro = set(janela_obrigatoria(n, hoje, referencia, vencido))
     escolhidos = [r for r in todos if r.get("periodo") in dentro]
     for r in todos:
         if len(escolhidos) >= n:
@@ -1081,7 +1086,9 @@ def coletar_releases_cvm(documentos, fontes, conhecidos=None,
 # Versao do classificador da rota SEC. Quando ela muda, os descartes gravados no indice sao
 # reconferidos uma vez: a regra antiga reprovava o release de verdade (o arquivo 'nupr1q25_6k.htm' da
 # Nu nao casava em '\bpr\d') e aprovava ata de assembleia pelo rodape juridico.
-CLASSIFICADOR_SEC_V = 2
+# v3 (15/11/2026): o anuncio da fusao Marvell-Lumentum ("to combine", "definitive agreement",
+# "all-stock transaction") entrou como release do 3T26 da Marvell.
+CLASSIFICADOR_SEC_V = 3
 
 # O titulo diz que o documento E o resultado do trimestre
 _RE_SEC_RESULTADO = re.compile(
@@ -1096,6 +1103,9 @@ _RE_SEC_SOCIETARIO = re.compile(
     r"|announces?[^.\n]{0,40}dividend|cash dividend|extraordinary dividend|dividend (?:declaration|payment)"
     r"|share repurchase|buyback|by-?laws|changes? to the board|appointment of|resignation of|election of"
     r"|divestment|sale of [^.\n]{0,40}(?:stake|business|unit|subsidiary)|acquisition of|merger with"
+    # fusao e aquisicao anunciada: o comunicado traz receita e valor da empresa, mas nao e resultado
+    r"|\bto combine\b|definitive (?:merger )?agreement|all-(?:stock|cash) transaction|exchange ratio"
+    r"|business combination|(?:agreed|agreement|plans?|intends?) to acquire|tender offer"
     r"|pricing of|offering of|prospectus|credit rating")
 _RE_SEC_DEMONSTRACAO = re.compile(
     r"(?i)interim (?:condensed )?(?:consolidated )?financial statements|notes to the (?:interim|consolidated) financial"
@@ -1230,7 +1240,7 @@ def _ordenar_por_faltantes(filings, faltantes):
 
 def coletar_releases_sec(cik, fontes, conhecidos=None, descartados=None,
                          max_releases=RELEASES_POR_ATIVO, max_filings=200,
-                         orcamento_s=RELEASE_ORCAMENTO_S, faltantes=None):
+                         orcamento_s=RELEASE_ORCAMENTO_S, faltantes=None, vencido=None):
     """Ate `max_releases` releases de resultado da SEC (8-K item 2.02 e 6-K), um por trimestre.
 
     A varredura para quando a JANELA obrigatoria esta coberta, nao quando a contagem de filings
@@ -1252,7 +1262,7 @@ def coletar_releases_sec(cik, fontes, conhecidos=None, descartados=None,
         fontes["release_ri"] = "falha: submissions ilegivel"
         return []
     achados, baixados, reusados, examinados = {}, 0, 0, 0
-    janela = set(janela_obrigatoria())
+    janela = set(janela_obrigatoria(vencido=vencido))
     if faltantes:
         filings = _ordenar_por_faltantes(filings, faltantes)
         app.log(f"SEC: varredura priorizando os filings da janela de divulgacao de "
@@ -3268,7 +3278,9 @@ ADR_DE_B3 = {
 
 # Linhas que interessam, por taxonomia. Chave = nome amigavel; valor = tags candidatas.
 SEC_LINHAS = {
-    "receita": ["Revenues", "RevenueFromContractWithCustomerExcludingAssessedTax", "SalesRevenueNet", "Revenue"],
+    "receita": ["Revenues", "RevenueFromContractWithCustomerExcludingAssessedTax",
+                # a Lumentum trocou para esta no exercicio de 2026 e a receita dela parou no 1T25
+                "RevenueFromContractWithCustomerIncludingAssessedTax", "SalesRevenueNet", "Revenue"],
     "custo": ["CostOfRevenue", "CostOfGoodsAndServicesSold", "CostOfSales"],
     "lucro_bruto": ["GrossProfit"],
     "despesas_vendas_marketing": ["SellingAndMarketingExpense"],
@@ -3320,12 +3332,23 @@ _SEC_TICKERS = {}
 
 
 def _parse_serie_sec(serie):
-    """Uma tag do companyfacts -> (trimestral, anual, instantanea, unidade), so com frames."""
+    """Uma tag do companyfacts -> (trimestral, anual, instantanea, unidade, extra), so com frames.
+
+    `extra`: `fim` = data real de fim de cada trimestre ({'CY2026Q2': '2026-08-01'}), que da o calendario
+    fiscal da empresa; `periodos` = (inicio, fim, valor, entregue) de todo fato com duracao, para derivar
+    o 4T fiscal de quem nao fecha o ano em dezembro; `fim_exercicio` = fim do exercicio mais novo."""
     unidades = serie.get("units", {})
     unidade = next((u for u in ("USD", "USD/shares", "shares", "BRL") if u in unidades), None) \
         or next(iter(unidades.keys()), None)
     tri, anu, instantanea = {}, {}, False
+    fins, periodos, fim_exercicio = {}, [], None
     for v in unidades.get(unidade, []) if unidade else []:
+        ini, fim = v.get("start"), v.get("end")
+        if ini and fim and v.get("val") is not None:
+            periodos.append((ini, fim, v.get("val"), v.get("filed")))
+            if v.get("fp") == "FY" and str(v.get("form") or "")[:4] in ("10-K", "20-F", "40-F") \
+                    and 350 <= (FISCAL.data(fim) - FISCAL.data(ini)).days <= 380:
+                fim_exercicio = max(fim_exercicio or fim, fim)
         frame = v.get("frame")
         if not frame:
             continue
@@ -3338,20 +3361,30 @@ def _parse_serie_sec(serie):
             instantanea = True
             if tri_n:
                 tri[f"CY{ano}Q{tri_n}"] = v.get("val")
+                if fim:
+                    fins[f"CY{ano}Q{tri_n}"] = fim
                 if tri_n == "4":
                     anu[f"CY{ano}"] = v.get("val")
             else:
                 anu[f"CY{ano}"] = v.get("val")
         elif tri_n:
             tri[frame] = v.get("val")
+            if fim:
+                fins[frame] = fim
         else:
             anu[frame] = v.get("val")
-    return tri, anu, instantanea, unidade
+    return tri, anu, instantanea, unidade, {"fim": fins, "periodos": periodos, "fim_exercicio": fim_exercicio}
 
 
 def _ultimo_ano(tri, anu):
     anos = [int(k[2:6]) for k in list(tri) + list(anu)]
     return max(anos) if anos else 0
+
+
+def _ultimo_trimestre(tri):
+    """(ano, tri) do frame trimestral mais novo: desempata tags que param no mesmo ano."""
+    pares = [FISCAL.par_do_frame(k) for k in tri]
+    return max([p for p in pares if p] or [(0, 0)])
 
 
 def _cik_por_ticker(simbolo):
@@ -3383,9 +3416,11 @@ def coletar_sec_xbrl(simbolo, fontes, max_periodos=40):
     taxonomias = [tx for tx in ("us-gaap", "ifrs-full") if tx in facts]
     out = {"cik": cik, "taxonomias": taxonomias, "trimestral": {}, "anual": {}, "tags_usadas": {},
            "unidades": {}, "instantaneas": [], "derivados": {}, "ltm": {}, "desatualizadas": [],
+           "fim_periodo": {}, "fim_exercicio": None,
            "nota": ("trimestral: frames CYyyyyQn do XBRL (3 meses; balanco = saldo no fim do trimestre). "
                     "O 4T de fluxo e derivado: anual menos 1T+2T+3T (lista em derivados). "
-                    "ltm: soma dos ultimos 4 trimestres consecutivos.")}
+                    "ltm: soma dos ultimos 4 trimestres consecutivos. fim_periodo: data real de fim de cada "
+                    "trimestre fiscal (o prazo do 10-Q conta dela); fim_exercicio: fim do exercicio fiscal mais novo.")}
     ano_atual = datetime.now(timezone.utc).year
     for nome, candidatos in SEC_LINHAS.items():
         # Entre as tags candidatas, vale a que tem dado mais recente (empresas trocam de tag
@@ -3397,9 +3432,10 @@ def coletar_sec_xbrl(simbolo, fontes, max_periodos=40):
         for ordem, tag in enumerate(candidatos):
             for tx in taxonomias:
                 if tag in facts.get(tx, {}):
-                    tri, anu, inst, unidade = _parse_serie_sec(facts[tx][tag])
+                    tri, anu, inst, unidade, extra = _parse_serie_sec(facts[tx][tag])
                     if tri or anu:
-                        opcoes.append((_ultimo_ano(tri, anu), -ordem, tag, tri, anu, inst, unidade))
+                        opcoes.append((_ultimo_ano(tri, anu), _ultimo_trimestre(tri), -ordem, tag, tri, anu,
+                                       inst, unidade, extra))
                     break
         if nome in SEC_REGEX_FALLBACK and (not opcoes or max(o[0] for o in opcoes) < ano_atual - 1):
             rx = re.compile(SEC_REGEX_FALLBACK[nome])
@@ -3408,13 +3444,16 @@ def coletar_sec_xbrl(simbolo, fontes, max_periodos=40):
                     continue
                 for tag, serie in tags.items():
                     if rx.search(tag):
-                        tri, anu, inst, unidade = _parse_serie_sec(serie)
+                        tri, anu, inst, unidade, extra = _parse_serie_sec(serie)
                         if tri or anu:
-                            opcoes.append((_ultimo_ano(tri, anu), -10000 + len(tri) + len(anu), f"{tx}:{tag}", tri, anu, inst, unidade))
+                            opcoes.append((_ultimo_ano(tri, anu), _ultimo_trimestre(tri), -10000 + len(tri) + len(anu),
+                                           f"{tx}:{tag}", tri, anu, inst, unidade, extra))
         if not opcoes:
             continue
-        opcoes.sort(key=lambda o: (o[0], o[1]), reverse=True)
-        ultimo_ano, _, tag, tri, anu, instantanea, unidade = opcoes[0]
+        # Ano mais novo; no empate, o trimestre mais novo (tag que parou no 1T nao vence a que vai ao 3T);
+        # depois a ordem das candidatas
+        opcoes.sort(key=lambda o: (o[0], o[1], o[2]), reverse=True)
+        ultimo_ano, _, _, tag, tri, anu, instantanea, unidade, extra = opcoes[0]
         if ultimo_ano < ano_atual - 1:
             # A empresa parou de usar a tag (o InterestExpenseDebt do MELI acaba em 2018):
             # fica registrado, mas nao entra no LTM nem nas comparacoes.
@@ -3427,6 +3466,21 @@ def coletar_sec_xbrl(simbolo, fontes, max_periodos=40):
                 if f"CY{ano}Q4" not in tri and total is not None and all(x is not None for x in q):
                     tri[f"CY{ano}Q4"] = total - sum(q)
                     out["derivados"].setdefault(nome, []).append(f"CY{ano}Q4")
+            # Exercicio que nao fecha em dezembro: o 4T fiscal sai pelas datas reais (exercicio menos os
+            # tres trimestres dele). Sem isso a Broadcom, a Ciena e a Lumentum ficavam sem os 12 meses.
+            for (ano_q, n_q), (valor, fim_q) in sorted(FISCAL.q4_fiscal(extra["periodos"]).items()):
+                rotulo = f"CY{ano_q}Q{n_q}"
+                if rotulo not in tri:
+                    tri[rotulo] = valor
+                    extra["fim"].setdefault(rotulo, fim_q)
+                    out["derivados"].setdefault(nome, []).append(rotulo)
+        # Calendario fiscal: o fim real de cada trimestre e o fim do exercicio, de todas as linhas
+        if ultimo_ano >= ano_atual - 1:
+            for rotulo, fim_q in extra["fim"].items():
+                if rotulo in tri:
+                    out["fim_periodo"].setdefault(rotulo, fim_q)
+            if extra["fim_exercicio"] and extra["fim_exercicio"] > (out["fim_exercicio"] or ""):
+                out["fim_exercicio"] = extra["fim_exercicio"]
         out["trimestral"][nome] = dict(sorted(tri.items())[-max_periodos:])
         out["anual"][nome] = dict(sorted(anu.items())[-15:])
         out["tags_usadas"][nome] = tag
@@ -3437,6 +3491,8 @@ def coletar_sec_xbrl(simbolo, fontes, max_periodos=40):
             ltm = _ltm(out["trimestral"][nome], lambda k: (int(k[2:6]), int(k[7])))
             if ltm:
                 out["ltm"][nome] = ltm
+    out["fim_periodo"] = dict(sorted(out["fim_periodo"].items(),
+                                     key=lambda kv: FISCAL.par_do_frame(kv[0]) or (0, 0))[-12:])
     n = len(out["tags_usadas"])
     fontes["sec_xbrl"] = f"ok ({n} linhas; CIK {cik}; 4T derivado em {len(out['derivados'])} linhas)" if n else "vazio"
     return out
@@ -4050,14 +4106,63 @@ def trimestre_vencido(hoje=None):
     return None
 
 
-def _referencia_frescor(dados):
-    """(referencia, origem): o mais novo entre o ITR e o trimestre vencido no calendario."""
+def _bloco_sec(dados):
+    """O bloco XBRL que vale para o ativo: o da acao-mae do BDR, o do proprio ticker dos EUA ou o do ADR."""
+    d = dados or {}
+    return (d.get("subjacente_us") or {}).get("sec_xbrl") or d.get("sec_xbrl") or d.get("sec_xbrl_adr") or {}
+
+
+def calendario_fiscal_do_ativo(dados, hoje=None):
+    """Prazo da SEC pelo trimestre FISCAL da empresa (calendario_fiscal.vencido_fiscal), com `origem`.
+
+    None para quem tem ITR na CVM (vale o calendario da CVM) e para quem nao tem data de fim de
+    trimestre nem no XBRL nem no Yahoo. JSON gravado antes de o coletor guardar `fim_periodo` usa as
+    datas das colunas do Yahoo, so para o calendario."""
+    d = dados or {}
+    if (d.get("cvm_demonstracoes") or {}).get("serie_trimestral"):
+        return None
+    sec = _bloco_sec(d)
+    if not sec.get("trimestral"):
+        return None
+    fins, origem = sec.get("fim_periodo") or {}, "datas do XBRL"
+    if not fins:
+        y = (d.get("subjacente_us") or {}).get("yahoo") or d.get("yahoo") or {}
+        fins, origem = FISCAL.fins_do_yahoo(y.get("demonstracoes")), "datas do Yahoo (JSON sem as datas do XBRL)"
+    r = FISCAL.vencido_fiscal(fins, sec.get("fim_exercicio"), hoje or agora())
+    if r:
+        r["origem"] = origem
+    return r
+
+
+def trimestre_vencido_ativo(dados, hoje=None):
+    """trimestre_vencido do ATIVO: pelo calendario fiscal da SEC quando ele entrega 10-Q, pelo da CVM
+    nos demais. '2026T2', o formato de trimestre_vencido."""
+    r = calendario_fiscal_do_ativo(dados, hoje)
+    if r:
+        return f"{r['par'][0]}T{r['par'][1]}"
+    return trimestre_vencido(hoje)
+
+
+def _referencia_frescor(dados, historico=None, hoje=None):
+    """(referencia, origem): o mais novo entre o ITR, o trimestre vencido do ativo e o release recem-saido.
+
+    O release so empurra a referencia quando esta UM trimestre a frente das outras duas: e o caso normal
+    de quem publica o release antes do ITR ou do 10-Q (na SEC o 8-K sai dias ou semanas antes). Sem isso,
+    nesse intervalo a janela cobrava o trimestre mais velho, que ja saiu dela, e o mais novo era cortado
+    do indice. Mais de um trimestre a frente e rotulo suspeito, e nao mexe na janela."""
     itr = _itr_mais_novo(dados)
-    vencido = trimestre_vencido()
+    vencido = trimestre_vencido_ativo(dados, hoje)
     candidatos = [(r, o) for r, o in ((itr, "ITR"), (vencido, "calendario")) if r]
     if not candidatos:
         return None, None
-    return max(candidatos, key=lambda ro: _ano_trimestre(ro[0]))
+    ref = max(candidatos, key=lambda ro: _ano_trimestre(ro[0]))
+    cabecas = [_ano_trimestre(r.get("periodo")) for r in (historico or []) if _ano_trimestre(r.get("periodo"))]
+    if cabecas:
+        a, t = _ano_trimestre(ref[0])
+        seguinte = (a + 1, 1) if t == 4 else (a, t + 1)
+        if max(cabecas) == seguinte:
+            return f"{seguinte[0]}T{seguinte[1]}", "release"
+    return ref
 
 
 def _completar_pelo_site_ri(tk, dados, fontes, historico, conhecidos, descartados, saida=None):
@@ -4066,7 +4171,7 @@ def _completar_pelo_site_ri(tk, dados, fontes, historico, conhecidos, descartado
     a CVM trouxe, um por trimestre."""
     itr = _itr_mais_novo(dados)
     mais_novo = historico[0].get("periodo") if historico else None
-    referencia, origem = _referencia_frescor(dados)
+    referencia, origem = _referencia_frescor(dados, historico)
     atraso = defasagem_release(mais_novo, referencia)
     preferencias = {r.get("periodo"): r.get("preferencia", 1) for r in historico if r.get("periodo")}
     # Release mais novo que entrou sem a palavra release no rotulo (arquivo avulso da central, 1.5) ou
@@ -4074,7 +4179,7 @@ def _completar_pelo_site_ri(tk, dados, fontes, historico, conhecidos, descartado
     # coleta ate um release rotulado do mesmo trimestre tomar o lugar dele (preferencias + ate_periodo).
     fraco = bool(historico) and historico[0].get("preferencia", 1) > 1
     faltantes = periodos_a_buscar(historico, oficiais=periodos_oficiais(dados),
-                                  referencia=_referencia_frescor(dados)[0])
+                                  referencia=_referencia_frescor(dados, historico)[0])
     if historico and atraso <= 0 and not fraco and not faltantes:
         app.log(f"{tk}: release {mais_novo} em dia com o ITR {referencia} e janela completa; "
                 f"site de RI nao consultado")
@@ -4109,12 +4214,16 @@ def _frescor(dados, historico, fontes, releases=True):
     """Bloco `frescor` do JSON: o ITR mais novo, o release mais novo e a distancia entre eles."""
     itr = _itr_mais_novo(dados)
     mais_novo = historico[0].get("periodo") if historico else None
-    vencido = trimestre_vencido()
+    vencido = trimestre_vencido_ativo(dados)
+    fiscal = calendario_fiscal_do_ativo(dados)
     return {"itr_mais_novo": itr, "release_mais_novo": mais_novo,
             "release_data": historico[0].get("data") if historico else None,
             "release_data_estimada": bool(historico[0].get("data_estimada")) if historico else None,
             "defasagem_trimestres": defasagem_release(mais_novo, itr) if releases else None,
             "calendario_vencido": vencido,
+            "calendario": (f"fiscal da SEC ({fiscal['origem']}): proximo trimestre fecha em "
+                           f"{fiscal['proximo_fim']:%d/%m/%Y} e o {'10-K' if fiscal['proximo_e_10k'] else '10-Q'} "
+                           f"vence em {fiscal['proximo_vencimento']:%d/%m/%Y}") if fiscal else "CVM",
             "defasagem_calendario": defasagem_release(mais_novo, vencido) if (releases and vencido) else None,
             "itr_atras_do_calendario": (defasagem_release(f"{_ano_trimestre(itr)[1]}T{str(_ano_trimestre(itr)[0])[-2:]}", vencido)
                                         if (itr and vencido and _ano_trimestre(itr)) else None),
@@ -4122,7 +4231,8 @@ def _frescor(dados, historico, fontes, releases=True):
             "site_ri": fontes.get("release_ri_site", "nao consultado"),
             "nota": ("defasagem_trimestres: quantos trimestres o release mais novo esta atras do ITR/XBRL "
                      "mais novo (0 = em dia; 99 = sem release; null = coleta sem releases). "
-                     "calendario_vencido: ultimo trimestre cujo prazo legal de divulgacao venceu; "
+                     "calendario_vencido: ultimo trimestre cujo prazo legal de divulgacao venceu (na SEC, "
+                     "contado do fim do trimestre FISCAL da empresa: 45 dias, 90 no que fecha o exercicio); "
                      "defasagem_calendario e itr_atras_do_calendario medem release e ITR contra ele")}
 
 
@@ -4187,15 +4297,16 @@ def coletar_ativo(tk, macro, releases=True, saida=None):
         try:
             conhecidos = carregar_indice_releases(saida, tk)
             # O que falta na janela orienta a varredura da SEC: sem isso ela e so cronologica
+            venc_ativo = trimestre_vencido_ativo(dados)
             faltam = periodos_a_buscar(anterior, oficiais=periodos_oficiais(dados),
-                                       referencia=_referencia_frescor(dados)[0])
+                                       referencia=_referencia_frescor(dados, anterior)[0], vencido=venc_ativo)
             if eh_simbolo_us(tk):
                 historico = coletar_releases_sec(_cik_por_ticker(tk), fontes, conhecidos, descartados,
-                                                 faltantes=faltam)
+                                                 faltantes=faltam, vencido=venc_ativo)
             elif eh_bdr(tk):
                 # O release da acao-mae e o release da empresa
                 historico = coletar_releases_sec(_cik_por_ticker(simbolo_subjacente(tk)), fontes,
-                                                 conhecidos, descartados, faltantes=faltam)
+                                                 conhecidos, descartados, faltantes=faltam, vencido=venc_ativo)
             else:
                 historico = coletar_releases_cvm((dados.get("cvm") or {}).get("documentos_resultado") or [],
                                                  fontes, conhecidos)
@@ -4210,7 +4321,9 @@ def coletar_ativo(tk, macro, releases=True, saida=None):
             fontes["release_ri"] = f"falha geral: {type(e).__name__}: {e}"[:160]
         # O historico do branch entra sempre: coleta que achou menos nao apaga o que ja estava la
         antes = {r.get("periodo") for r in historico}
-        historico = _mesclar_historico(anterior, historico)
+        historico = _mesclar_historico(anterior, historico,
+                                       referencia=_referencia_frescor(dados, list(anterior or []) + list(historico))[0],
+                                       vencido=trimestre_vencido_ativo(dados))
         vindos_do_branch = [r.get("periodo") for r in historico if r.get("periodo") not in antes]
         if vindos_do_branch:
             app.log(f"{tk}: {len(vindos_do_branch)} trimestre(s) vieram do indice ja gravado no branch: "
@@ -4221,7 +4334,8 @@ def coletar_ativo(tk, macro, releases=True, saida=None):
             if historico:
                 dados["release_ri"] = {**historico[0], "texto": texto_do_release(saida, historico[0])}
             dados["cobertura"] = cobertura_releases(historico, oficiais=periodos_oficiais(dados),
-                                                    referencia=_referencia_frescor(dados)[0])
+                                                    referencia=_referencia_frescor(dados, historico)[0],
+                                                    vencido=trimestre_vencido_ativo(dados))
             c = dados["cobertura"]
             app.log(f"{tk}: cobertura da janela: {len(c['completos'])}/{len(c['janela'])} trimestres"
                     + (f"; faltando {', '.join(c['faltando'])}" if c["faltando"] else "")

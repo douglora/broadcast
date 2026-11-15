@@ -668,6 +668,57 @@ def trimestre_vencido(hoje=None):
     return (0, 0), None
 
 
+def _bloco_sec(d):
+    """O bloco XBRL que vale para o ativo: o da acao-mae do BDR, o do proprio ticker dos EUA ou o do ADR."""
+    d = d or {}
+    return (d.get("subjacente_us") or {}).get("sec_xbrl") or d.get("sec_xbrl") or d.get("sec_xbrl_adr") or {}
+
+
+def calendario_fiscal_do_ativo(d, hoje=None):
+    """Prazo da SEC pelo trimestre FISCAL da empresa (calendario_fiscal.py), com `origem`; None quando vale
+    o calendario da CVM (ativo com ITR na CVM) ou quando nao ha data de fim de trimestre.
+
+    A Lumentum fecha o ano em junho e a Marvell no fim de janeiro: o 10-Q conta 45 dias do fim do
+    trimestre DELAS, nao do trimestre do calendario. Mesma conta do coletor (trimestre_vencido_ativo)."""
+    try:
+        import calendario_fiscal as _f
+    except Exception:
+        return None
+    d = d or {}
+    if (d.get("cvm_demonstracoes") or {}).get("serie_trimestral"):
+        return None
+    sec = _bloco_sec(d)
+    if not sec.get("trimestral"):
+        return None
+    fins, origem = sec.get("fim_periodo") or {}, "datas do XBRL"
+    if not fins:
+        y = (d.get("subjacente_us") or {}).get("yahoo") or d.get("yahoo") or {}
+        fins, origem = _f.fins_do_yahoo(y.get("demonstracoes")), "datas do Yahoo; recolete para ter as do XBRL"
+    r = _f.vencido_fiscal(fins, sec.get("fim_exercicio"), hoje)
+    if r:
+        r["origem"] = origem
+    return r
+
+
+def trimestre_vencido_ativo(d, hoje=None):
+    """((ano, tri), vencimento, fiscal): trimestre_vencido pelo calendario fiscal da SEC quando o ativo
+    entrega 10-Q, pelo da CVM nos demais. `fiscal` e o dict do calendario fiscal ou None."""
+    fiscal = calendario_fiscal_do_ativo(d, hoje)
+    if fiscal:
+        return fiscal["par"], fiscal["vencimento"], fiscal
+    vencido, venc = trimestre_vencido(hoje)
+    return vencido, venc, None
+
+
+def _cabeca_um_a_frente(d, ref):
+    """O trimestre do release mais novo quando ele esta UM trimestre a frente de `ref` (release publicado
+    antes do ITR ou do 10-Q, o caso normal na SEC); senao None. Mesma regra do coletor."""
+    seguinte = (ref[0] + 1, 1) if ref[1] == 4 else (ref[0], ref[1] + 1)
+    cabecas = [ordem_periodo(r.get("periodo")) for r in ((d or {}).get("releases_historico") or [])]
+    cabecas = [c for c in cabecas if c != (0, 0)]
+    return seguinte if (ref[0] and cabecas and max(cabecas) == seguinte) else None
+
+
 def _eh_b3_sem_bdr(tk):
     """Companhia da B3 que publica na CVM (nao BDR, nao ticker dos EUA): e o caso que precisa de mapa de RI."""
     if not re.fullmatch(r"[A-Z]{4}\d{1,2}", tk or ""):
@@ -689,8 +740,10 @@ def _mapeado_no_ri(tk):
         return False
 
 
-def avaliar_frescor(tk, d):
-    """(motivos, avisos, detalhes) do frescor de um JSON do branch. Motivo = bloqueia; aviso = so alerta."""
+def avaliar_frescor(tk, d, hoje=None):
+    """(motivos, avisos, detalhes) do frescor de um JSON do branch. Motivo = bloqueia; aviso = so alerta.
+
+    `hoje` (datetime) so para teste: fixa o dia do calendario de prazos."""
     gerado = d.get("gerado_em")
     idade = _horas_desde(gerado)
     agora_brt = datetime.datetime.now(datetime.timezone.utc) - datetime.timedelta(hours=3)
@@ -705,7 +758,8 @@ def avaliar_frescor(tk, d):
     rel_data = data_release(rel if rel.get("data") else primeiro)
     rel_fonte = rel.get("fonte") or primeiro.get("fonte")
     rel_ord = ordem_periodo(rel_periodo)
-    vencido, venc_data = trimestre_vencido()
+    vencido, venc_data, fiscal = trimestre_vencido_ativo(d, hoje)
+    regua = "calendario fiscal da SEC" if fiscal else "calendario"
     defasagem = None
     if itr != (0, 0) and rel_ord != (0, 0):
         defasagem = (itr[0] * 4 + itr[1]) - (rel_ord[0] * 4 + rel_ord[1])
@@ -716,7 +770,12 @@ def avaliar_frescor(tk, d):
                 (f"ITR mais novo: {itr_rotulo} ({_rotulo_curto(itr)}) | {fonte}" if itr_rotulo
                  else "ITR mais novo: AUSENTE | sem demonstracao oficial no JSON"),
                 f"release mais novo: {rel_periodo or 'AUSENTE'} | {rel_data or '-'} | {rel_fonte or '-'}",
-                (f"calendario: ultimo trimestre com prazo vencido {_rotulo_curto(vencido)} (venceu em {venc_data:%d/%m/%Y})"
+                (f"calendario fiscal da SEC ({fiscal['origem']}): ultimo trimestre com prazo vencido "
+                 f"{_rotulo_curto(vencido)} (fechou em {fiscal['fim']:%d/%m/%Y}, venceu em {venc_data:%d/%m/%Y}) | "
+                 f"o seguinte fecha em {fiscal['proximo_fim']:%d/%m/%Y} e o "
+                 f"{'10-K' if fiscal['proximo_e_10k'] else '10-Q'} vence em {fiscal['proximo_vencimento']:%d/%m/%Y}"
+                 if fiscal else
+                 f"calendario: ultimo trimestre com prazo vencido {_rotulo_curto(vencido)} (venceu em {venc_data:%d/%m/%Y})"
                  if vencido != (0, 0) else "calendario: nao calculado")]
     if defasagem is None:
         detalhes.append("defasagem: nao da para medir (falta ITR ou release)")
@@ -738,9 +797,10 @@ def avaliar_frescor(tk, d):
     elif defasagem <= -2:
         motivos.append(f"RELEASE ADIANTADO ({-defasagem} trimestres a frente do ITR: trimestre do release suspeito)")
     if atraso_cal is not None and atraso_cal > 0 and not any(m.startswith("RELEASE VELHO") for m in motivos):
-        motivos.append(f"RELEASE VELHO (calendario: {_rotulo_curto(vencido)} venceu em {venc_data:%d/%m}, release e {rel_periodo})")
+        motivos.append(f"RELEASE VELHO ({regua}: {_rotulo_curto(vencido)} venceu em {venc_data:%d/%m}, release e {rel_periodo})")
     if itr_cal is not None and itr_cal > 0:
-        motivos.append(f"ITR VELHO (calendario: {_rotulo_curto(vencido)} venceu em {venc_data:%d/%m}, ITR e {_rotulo_curto(itr)})")
+        motivos.append(f"ITR VELHO ({regua}: {_rotulo_curto(vencido)} venceu em {venc_data:%d/%m}, "
+                       f"{'XBRL' if fonte == 'SEC XBRL' else 'ITR'} e {_rotulo_curto(itr)})")
     if idade is None:
         motivos.append("COLETA VELHA (gerado_em ilegivel)")
     elif idade > teto:
@@ -761,8 +821,10 @@ def janela_obrigatoria(d=None, n=JANELA_TRIMESTRES, hoje=None):
 
     A ponta e a mesma referencia do frescor: o mais novo entre o ITR/XBRL e o trimestre cujo prazo
     legal de divulgacao ja venceu. A janela vem do CALENDARIO, nao do que o coletor achou: ela e igual
-    para todo ativo, e e por isso que ela serve de criterio."""
-    vencido, _ = trimestre_vencido(hoje)
+    para todo ativo, e e por isso que ela serve de criterio. Quem entrega 10-Q na SEC conta o prazo do
+    trimestre fiscal dele (calendario_fiscal.py), e o release que saiu antes do ITR ou do 10-Q, um
+    trimestre a frente, ja empurra a ponta: e a mesma regra do coletor (_referencia_frescor)."""
+    vencido = trimestre_vencido_ativo(d, hoje)[0] if d else trimestre_vencido(hoje)[0]
     ponta = vencido
     if d:
         try:
@@ -770,6 +832,7 @@ def janela_obrigatoria(d=None, n=JANELA_TRIMESTRES, hoje=None):
             _, itr = _itr_mais_novo(tri or {})
             if itr and itr > ponta:
                 ponta = itr
+            ponta = _cabeca_um_a_frente(d, ponta) or ponta
         except Exception:
             pass
     ano, t = ponta
