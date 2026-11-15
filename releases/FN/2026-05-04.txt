@@ -1,0 +1,352 @@
+EX-99.1
+2
+fn-2026504xex991q326.htm
+EX-99.1
+
+Document
+
+Exhibit 99.1
+Fabrinet Announces Third Quarter Fiscal Year 2026 Financial Results
+• Record Third Quarter Revenue and Earnings Per Share Exceed Guidance Ranges
+BANGKOK, Thailand – May 4, 2026 – Fabrinet (NYSE: FN), a leading provider of advanced optical packaging and precision optical, electro-mechanical and electronic manufacturing services to original equipment manufacturers of complex products, today announced its financial results for its third fiscal quarter ended March 27, 2026.
+
+Seamus Grady, Chairman and Chief Executive Officer of Fab rine t, said, “Our third quarter was exceptionally strong, delivering record financial results that exceeded our guidance ranges. Growth was supported by numerous ongoing and ramping programs that continue to provide meaningful tailwinds. We expect several new customer agreements, particularly in the datacom market, to further strengthen our growth trajectory as we move into the fourth quarter and beyond.”
+Third Quarter Fiscal Year 2026 Fi nancial Highlights
+GAAP Results
+• Revenue for the third quarter of fiscal year 2026 was $1,214.3 million, compared to $871.8 million for the third quarter of fiscal year 2025.
+• GAAP net income for the third quarter of fiscal year 2026 was $125.2 million, compared to $81.3 million for the third quarter of fiscal year 2025.
+• GAAP net income per diluted share for the third quarter of fiscal year 2026 was $3.45, compared to $2.25 for the third quarter of fiscal year 2025.
+Non-GAAP Results
+• Non-GAAP net income for the third quarter of fiscal year 2026 was $134.9 million, compared to $91.2 million for the third quarter of fiscal year 2025.
+• Non-GAAP net income per diluted share for the third quarter of fiscal year 2026 was $3.72, compared to $2.52 for the third quarter of fiscal year 2025.
+Business Outlook
+Based on information available as of May 4, 2026, Fabrinet is issuing guidance for its fourth fiscal quarter ending June 26, 2026, as follows:
+• Fabrinet expects fourth quarter revenue to be in the range of $1.25 billion to $1.29 billion.
+• GAAP net income per diluted share is expected to be in the range of $3.48 to $3.63, based on approximately 36.3 million fully diluted shares outstanding.
+• Non-GAAP net income per diluted share is expected to be in the range of $3.72 to $3.87, based on approximately 36.3 million fully diluted shares outstanding.
+Guidance for non-GAAP net income per diluted share excludes share-based compensation expenses and certain non-recurring items. A reconciliation of non-GAAP net income per diluted share to the corresponding GAAP measure is available at the end of this press release.
+Conference Call Information
+| | | | | | | | |
+What: | | Fabrinet Third Quarter Fiscal Year 2026 Financial Results Call
+|
+When: | | May 4, 2026
+|
+Time: | | 5:00 p.m. ET |
+Live Call and Replay: | | https://investor.fabrinet.com/events-and-presentations/events
+|
+
+A recorded version of this webcast will be available approximately two hours after the call and accessible at http://investor.fabrinet.com . The webcast will be archived on Fabrinet’s website for a period of one year.
+
+About Fabrinet
+Fabrinet is a leading provider of advanced optical packaging and precision optical, electro-mechanical, and electronic manufacturing services to original equipment manufacturers of complex products, such as optical communication components, modules and subsystems, automotive components, medical devices, industrial lasers and sensors. Fabrinet offers a broad range of advanced optical and electro-mechanical capabilities across the entire manufacturing process, including process design and engineering, supply chain management, manufacturing, advanced packaging, integration, final assembly and testing. Fabrinet focuses on production of high complexity products in any mix and any volume. Fabrinet maintains engineering and manufacturing resources and facilities in Thailand, the United States of America, the People’s Republic of China, and Israel. For more information visit: www.fabrinet.com .
+Forward-Looking Statements
+This press release contains forward-looking statements within the meaning of the Private Securities Litigation Reform Act of 1995. These statements include all of the statements under the “Business Outlook” section regarding our expected revenue, GAAP and non-GAAP net income per share, and fully diluted shares outstanding for the fourth quarter of fiscal year 2026. These forward-looking statements involve risks and uncertainties, and actual results could vary materially from these forward-looking statements. Important factors that could cause actual results to differ materially from those in the forward-looking statements include, but are not limited to: changes in general economic conditions, either globally or in our markets, and the risk of recession or an economic downturn; disruption to our supply chain, which could increase our costs and affect our ability to procure parts and materials; less customer demand for our products and services than forecasted; less growth in the optical communications, automotive, industrial lasers and sensors markets than we forecast; difficulties expanding into additional markets, such as the semiconductor processing, biotechnology, metrology and materials processing markets; increased competition in the optical manufacturing services markets; difficulties in delivering products and services that compete effectively from a price and performance perspective; our reliance on a small number of customers and suppliers; difficulties in managing our operating costs; difficulties in managing and operating our business across multiple countries (including Thailand, the People’s Republic of China, Israel and the U.S.); and other important factors as described in reports and documents we file from time to time with the Securities and Exchange Commission (SEC), including the factors described under the section captioned “Risk Factors” in our Quarterly Report on Form 10-Q filed with the SEC on February 3, 2026. We disclaim any obligation to update information contained in these forward-looking statements whether as a result of new information, future events, or otherwise.
+Non-GAAP Financial Measures
+In addition to reporting financial results in accordance with GAAP, we provide investors with certain non-GAAP financial measures. These non-GAAP financial measures are in addition to, and not a substitute for or superior to, measures of financial performance prepared in accordance with GAAP. We believe these non-GAAP financial measures provide investors with useful supplemental information to: (1) measure company performance against historical results, (2) facilitate comparisons to our competitors’ operating results, and (3) allow greater transparency with respect to information used by management in making financial and operational decisions. In addition, we use some of these non-GAAP financial measures to measure company performance for the purposes of determining employee incentive plan compensation.
+Non-GAAP gross profit, non-GAAP operating profit, non-GAAP net income and non-GAAP net income per diluted share exclude: share-based compensation expenses; severance payment and others; restructuring and other related costs; and legal and litigation costs. We have excluded these items in order to enhance investors’ understanding of our underlying operations.
+Non-GAAP free cash flow is net cash provided by (used in) operating activities, minus capital expenditures (purchase of property, plant and equipment). We use free cash flow to measure our ability to generate additional cash from our business operations.
+There are a number of limitations related to the use of these non-GAAP financial measures versus their nearest GAAP equivalents. For example, other companies may calculate non-GAAP financial measures differently or may use other measures to evaluate their performance, all of which could reduce the usefulness of our non-GAAP financial measures as tools for comparison. We urge you to review the reconciliations of our non-GAAP financial measures to the most directly comparable GAAP financial measures, and not to rely on any single financial measure to evaluate our business.
+Investor Contact:
+Garo Toomajanian
+ir@fabrinet.com
+
+FABRINET
+CONDENSED CONSOLIDATED BALANCE SHEETS
+| | | | | | | | | | | |
+(in thousands of U.S. dollars, except share data and par value) | March 27,
+2026 | | June 27,
+2025 |
+| (unaudited) | | |
+Assets | | | |
+Current assets | | | |
+Cash and cash equivalents | $ | 356,562 | | | $ | 306,425 | |
+| | | |
+Short-term investments | 588,674 | | | 627,819 | |
+Trade accounts receivable, net of allowance for expected credit losses of $1,181 and $1,344, respectively
+| 908,544 | | | 758,894 | |
+| | | |
+Inventories | 875,988 | | | 581,015 | |
+Prepaid expenses | 38,196 | | | 38,476 | |
+Other current assets | 177,476 | | | 116,210 | |
+Total current assets | 2,945,440 | | | 2,428,839 | |
+Non-current assets | | | |
+Long-term restricted cash | 694 | | | — | |
+Property, plant and equipment, net | 524,973 | | | 380,640 | |
+Intangibles, net | 2,392 | | | 2,156 | |
+Operating right-of-use assets | 4,434 | | | 5,768 | |
+Deferred tax assets | 17,266 | | | 13,406 | |
+Other non-current assets | 13,787 | | | 623 | |
+Total non-current assets | 563,546 | | | 402,593 | |
+Total Assets | $ | 3,508,986 | | | $ | 2,831,432 | |
+Liabilities and Shareholders’ Equity | | | |
+Current liabilities | | | |
+| | | |
+Trade accounts payable | 859,004 | | | 637,417 | |
+Fixed assets payable | 65,307 | | | 40,781 | |
+| | | |
+| | | |
+Operating lease liabilities, current portion | 1,462 | | | 1,792 | |
+Income tax payable | 7,611 | | | 7,939 | |
+Accrued payroll, bonus and related expenses | 30,845 | | | 24,566 | |
+Accrued expenses | 36,418 | | | 30,630 | |
+Severance liabilities, current portion | 1,981 | | | — | |
+Other payables | 152,915 | | | 66,717 | |
+Total current liabilities | 1,155,543 | | | 809,842 | |
+Non-current liabilities | | | |
+| | | |
+Deferred tax liability | 1,216 | | | 1,595 | |
+| | | |
+Operating lease liability, non-current portion | 2,963 | | | 3,679 | |
+Severance liabilities | 31,501 | | | 31,225 | |
+Other non-current liabilities | 13,052 | | | 3,279 | |
+Total non-current liabilities | 48,732 | | | 39,778 | |
+Total Liabilities | 1,204,275 | | | 849,620 | |
+| | | |
+Shareholders’ equity | | | |
+Preferred shares (5,000,000 shares authorized, $0.01 par value; no shares issued and outstanding as of March 27, 2026 and June 27, 2025)
+| — | | | — | |
+Ordinary shares (500,000,000 shares authorized, $0.01 par value; 39,717,065 shares and 39,602,152 shares issued as of March 27, 2026 and June 27, 2025, respectively; and 35,829,221 shares and 35,728,074 shares outstanding as of March 27, 2026 and June 27, 2025, respectively)
+| 397 | | | 396 | |
+Additional paid-in capital | 243,038 | | | 237,881 | |
+Less: Treasury shares (3,887,844 shares and 3,874,078 shares as of March 27, 2026 and June 27, 2025, respectively) | (365,287) | | | (360,056) | |
+Accumulated other comprehensive income (loss) | (501) | | | 10,294 | |
+Retained earnings | 2,427,064 | | | 2,093,297 | |
+Total Shareholders’ Equity | 2,304,711 | | | 1,981,812 | |
+Total Liabilities and Shareholders’ Equity | $ | 3,508,986 | | | $ | 2,831,432 | |
+
+FABRINET
+CONDENSED CONSOLIDATED STATEMENTS OF OPERATIONS AND COMPREHENSIVE INCOME (UNAUDITED)
+
+| | | | | | | | | | | | | | | | | | | | | | | |
+| Three Months Ended | | Nine Months Ended |
+(in thousands of U.S. dollars, except per share data) | March 27,
+2026 | | March 28,
+2025 | | March 27,
+2026 | | March 28,
+2025 |
+| | | | | | | |
+Revenues | $ | 1,214,293 | | | $ | 871,799 | | | $ | 3,325,309 | | | $ | 2,509,635 | |
+Cost of revenues | (1,069,954) | | | (769,616) | | | (2,926,849) | | | (2,207,577) | |
+Gross profit | 144,339 | | | 102,183 | | | 398,460 | | | 302,058 | |
+Selling, general and administrative expenses | (24,295) | | | (22,063) | | | (69,822) | | | (65,300) | |
+Restructuring and other related costs | — | | | (1,264) | | | — | | | (1,367) | |
+Operating income | 120,044 | | | 78,856 | | | 328,638 | | | 235,391 | |
+Interest income | 7,421 | | | 10,145 | | | 25,393 | | | 32,392 | |
+| | | | | | | |
+Foreign exchange gain (loss), net | 6,989 | | | (2,675) | | | 1,715 | | | (5,728) | |
+Other income (expense), net | (212) | | | (30) | | | (351) | | | (111) | |
+Income before income taxes | 134,242 | | | 86,296 | | | 355,395 | | | 261,944 | |
+Income tax expense | (9,029) | | | (5,006) | | | (21,628) | | | (16,624) | |
+Net income | 125,213 | | | 81,290 | | | 333,767 | | | 245,320 | |
+Other comprehensive income (loss), net of tax: | | | | | | | |
+Change in net unrealized gain (loss) on available-for-sale securities | (2,966) | | | 3,350 | | | (1,325) | | | 9,647 | |
+Change in net unrealized gain (loss) on derivative instruments | (11,946) | | | 1,790 | | | (9,382) | | | 907 | |
+| | | | | | | |
+Change in foreign currency translation adjustment | (28) | | | 1,060 | | | (88) | | | 1,136 | |
+Total other comprehensive income (loss), net of tax | (14,940) | | | 6,200 | | | (10,795) | | | 11,690 | |
+Net comprehensive income | $ | 110,273 | | | $ | 87,490 | | | $ | 322,972 | | | $ | 257,010 | |
+Earnings per share | | | | | | | |
+Basic | $ | 3.49 | | | $ | 2.26 | | | $ | 9.32 | | | $ | 6.80 | |
+Diluted | $ | 3.45 | | | $ | 2.25 | | | $ | 9.22 | | | $ | 6.75 | |
+Weighted-average number of ordinary shares outstanding (in thousands of shares)
+| | | | | | | |
+Basic | 35,828 | | | 35,914 | | | 35,809 | | | 36,094 | |
+Diluted | 36,301 | | | 36,172 | | | 36,217 | | | 36,327 | |
+
+FABRINET
+CONDENSED CONSOLIDATED STATEMENTS OF CASH FLOWS (UNAUDITED)
+| | | | | | | | | | | |
+| Nine Months Ended |
+(in thousands of U.S. dollars) | March 27,
+2026 | | March 28,
+2025 |
+| | | |
+Cash flows from operating activities | | | |
+Net income for the period | $ | 333,767 | | | $ | 245,320 | |
+Adjustments to reconcile net income to net cash provided by operating activities | | | |
+Depreciation and amortization | 48,761 | | | 39,223 | |
+| | | |
+(Gain) loss on disposal of property, plant and equipment and intangibles | 45 | | | (39) | |
+| | | |
+Amortization of discount (premium) of short-term investments | (3,622) | | | (3,435) | |
+| | | |
+Inventory obsolescence impairment | 2,389 | | | — | |
+(Reversal of) allowance for expected credit losses | (163) | | | (374) | |
+Unrealized loss (gain) on exchange rate and fair value of foreign currency forward contracts | (3,544) | | | 4,067 | |
+| | | |
+| | | |
+Share-based compensation | 26,369 | | | 24,903 | |
+Customer warrant | 3,177 | | | 3,929 | |
+Deferred income tax expense (benefit) | (3,333) | | | (4,182) | |
+Other non-cash expenses | 285 | | | 82 | |
+Changes in operating assets and liabilities | | | |
+Trade accounts receivable | (150,082) | | | (65,271) | |
+| | | |
+Inventories | (297,362) | | | (68,132) | |
+Other current assets and non-current assets | (77,518) | | | (2,357) | |
+Trade accounts payable | 225,741 | | | 79,196 | |
+| | | |
+Income tax payable | (328) | | | 4,180 | |
+Accrued expenses | (5,539) | | | 12,643 | |
+Other payables | 91,155 | | | (152) | |
+Severance liabilities | 2,663 | | | 2,131 | |
+Other current liabilities and non-current liabilities | 8,897 | | | 1,540 | |
+Net cash provided by operating activities | 201,758 | | | 273,272 | |
+Cash flows from investing activities | | | |
+Purchase of short-term investments | (241,255) | | | (304,189) | |
+| | | |
+Proceeds from maturities of short-term investments | 282,697 | | | 122,129 | |
+Purchase of property, plant and equipment | (160,634) | | | (70,668) | |
+Purchase of intangibles | (682) | | | (514) | |
+Proceeds from disposal of property, plant and equipment | 57 | | | 116 | |
+Net cash used in investing activities | (119,817) | | | (253,126) | |
+Cash flows from financing activities | | | |
+| | | |
+| | | |
+Repurchase of ordinary shares | (5,231) | | | (103,475) | |
+Withholding tax related to net share settlement of restricted share units | (24,388) | | | (20,918) | |
+Net cash used in financing activities | (29,619) | | | (124,393) | |
+Net increase (decrease) in cash, cash equivalents and restricted cash | $ | 52,322 | | | $ | (104,247) | |
+Movement in cash, cash equivalents and restricted cash | | | |
+Cash, cash equivalents and restricted cash at the beginning of period | $ | 306,425 | | | $ | 409,973 | |
+Increase (decrease) in cash, cash equivalents and restricted cash | 52,322 | | | (104,247) | |
+Effect of exchange rate on cash, cash equivalents and restricted cash | (1,491) | | | 1,179 | |
+Cash, cash equivalents and restricted cash at the end of period | $ | 357,256 | | | $ | 306,905 | |
+Non-cash investing and financing activities | | | |
+Construction, software and equipment-related payables | $ | 65,307 | | | $ | 33,101 | |
+
+FABRINET
+CONDENSED CONSOLIDATED STATEMENTS OF CASH FLOWS (UNAUDITED)
+The following table provides a reconciliation of cash, cash equivalents and restricted cash reported within the consolidated balance sheets that sum to the total of the same amounts shown in the consolidated statements of cash flows:
+| | | | | | | | | | | |
+| As of |
+(in thousands of U.S. dollars) | March 27,
+2026 | | March 28,
+2025 |
+| | | |
+Cash and cash equivalents | $ | 356,562 | | | $ | 306,905 | |
+Restricted cash | 694 | | | — | |
+Cash, cash equivalents and restricted cash | $ | 357,256 | | | $ | 306,905 | |
+
+FABRINET
+RECONCILIATION OF GAAP MEASURES TO NON-GAAP MEASURES (UNAUDITED)
+
+Reconciliation of GAAP Gross Profit and GAAP Gross Margin to Non-GAAP Gross Profit and Non-GAAP Gross Margin
+
+| | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| Three Months Ended | | Nine Months Ended |
+(in thousands of U.S. dollars) | March 27,
+2026 | | March 28,
+2025 | | March 27,
+2026 | | March 28,
+2025 |
+Revenues | $ | 1,214,293 | | | | | $ | 871,799 | | | | | $ | 3,325,309 | | | | | $ | 2,509,635 | | | |
+| | | | | | | | | | | | | | | |
+Gross profit (GAAP) | $ | 144,339 | | | 11.9 | % | | $ | 102,183 | | | 11.7 | % | | $ | 398,460 | | | 12.0 | % | | $ | 302,058 | | | 12.0 | % |
+Share-based compensation expenses | 2,531 | | | | | 2,221 | | | | | 8,694 | | | | | 7,883 | | | |
+| | | | | | | | | | | | | | | |
+| | | | | | | | | | | | | | | |
+| | | | | | | | | | | | | | | |
+| | | | | | | | | | | | | | | |
+Gross profit (Non-GAAP) | $ | 146,870 | | | 12.1 | % | | $ | 104,404 | | | 12.0 | % | | $ | 407,154 | | | 12.2 | % | | $ | 309,941 | | | 12.4 | % |
+| | | | | | | | | | | | | | | |
+| | | | | | | | | | | | | | | |
+| | | | | | | | | | | | | | | |
+
+Reconciliation of GAAP Operating Profit and GAAP Operating Margin to Non-GAAP Operating Profit and Non-GAAP Operating Margin
+
+| | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| Three Months Ended | | Nine Months Ended |
+(in thousands of U.S. dollars) | March 27,
+2026 | | March 28,
+2025 | | March 27,
+2026 | | March 28,
+2025 |
+Revenues | $ | 1,214,293 | | | | | $ | 871,799 | | | | | $ | 3,325,309 | | | | | $ | 2,509,635 | | | |
+| | | | | | | | | | | | | | | |
+Operating profit (GAAP) | $ | 120,044 | | | 9.9 | % | | $ | 78,856 | | | 9.0 | % | | $ | 328,638 | | | 9.9 | % | | $ | 235,391 | | | 9.4 | % |
+Share-based compensation expenses | 8,541 | | | | | 7,783 | | | | | 26,369 | | | | | 24,903 | | | |
+| | | | | | | | | | | | | | | |
+Legal and litigation costs | 497 | | | | | 827 | | | | | 1,007 | | | | | 827 | | | |
+Severance payment and others | 613 | | | | | — | | | | | 685 | | | | | 748 | | | |
+Restructuring and other related costs | — | | | | | 1,264 | | | | | — | | | | | 1,367 | | | |
+| | | | | | | | | | | | | | | |
+Operating profit (Non-GAAP) | $ | 129,695 | | | 10.7 | % | | $ | 88,730 | | | 10.2 | % | | $ | 356,699 | | | 10.7 | % | | $ | 263,236 | | | 10.5 | % |
+| | | | | | | | | | | | | | | |
+| | | | | | | | | | | | | | | |
+| | | | | | | | | | | | | | | |
+
+FABRINET
+RECONCILIATION OF GAAP MEASURES TO NON-GAAP MEASURES (UNAUDITED)
+
+Reconciliation of GAAP Net Income and EPS to Non-GAAP Net Income and EPS
+
+| | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| Three Months Ended | | Nine Months Ended |
+| March 27,
+2026 | | March 28,
+2025 | | March 27,
+2026 | | March 28,
+2025 |
+(in thousands of U.S. dollars, except per share data) | Net income | | Diluted EPS | | Net income | | Diluted EPS | | Net income | | Diluted EPS | | Net income | | Diluted EPS |
+GAAP measures | $ | 125,213 | | | $ | 3.45 | | | $ | 81,290 | | | $ | 2.25 | | | $ | 333,767 | | | $ | 9.22 | | | $ | 245,320 | | | $ | 6.75 | |
+Items reconciling GAAP net income & EPS to non-GAAP net income & EPS: | | | | | | | | | | | | | | | |
+Related to cost of revenues: | | | | | | | | | | | | | | | |
+Share-based compensation expenses | 2,531 | | | 0.07 | | | 2,221 | | | 0.06 | | | 8,694 | | | 0.24 | | | 7,883 | | | 0.22 | |
+| | | | | | | | | | | | | | | |
+| | | | | | | | | | | | | | | |
+Total related to cost of revenues | 2,531 | | | 0.07 | | | 2,221 | | | 0.06 | | | 8,694 | | | 0.24 | | | 7,883 | | | 0.22 | |
+Related to selling, general and administrative expenses: | | | | | | | | | | | | | | | |
+Share-based compensation expenses | 6,010 | | | 0.16 | | | 5,562 | | | 0.16 | | | 17,675 | | | 0.48 | | | 17,020 | | | 0.47 | |
+| | | | | | | | | | | | | | | |
+| | | | | | | | | | | | | | | |
+| | | | | | | | | | | | | | | |
+Legal and litigation costs | 497 | | | 0.02 | | | 827 | | | 0.02 | | | 1,007 | | | 0.03 | | | 827 | | | 0.02 | |
+Severance payment and others | 613 | | | 0.02 | | | — | | | — | | | 685 | | | 0.02 | | | 748 | | | 0.02 | |
+Total related to selling, general and administrative expenses | 7,120 | | | 0.20 | | | 6,389 | | | 0.18 | | | 19,367 | | | 0.53 | | | 18,595 | | | 0.51 | |
+Related to other income and expense: | | | | | | | | | | | | | | | |
+Restructuring and other related costs | — | | | — | | | 1,264 | | | 0.03 | | | — | | | — | | | 1,367 | | | 0.04 | |
+| | | | | | | | | | | | | | | |
+Total related to other income and expense | — | | | — | | | 1,264 | | | 0.03 | | | — | | | — | | | 1,367 | | | 0.04 | |
+Total related to net income & EPS | 9,651 | | | 0.27 | | | 9,874 | | | 0.27 | | | 28,061 | | | 0.77 | | | 27,845 | | | 0.77 | |
+| | | | | | | | | | | | | | | |
+Non-GAAP measures | $ | 134,864 | | | $ | 3.72 | | | $ | 91,164 | | | $ | 2.52 | | | $ | 361,828 | | | $ | 9.99 | | | $ | 273,165 | | | $ | 7.52 | |
+Shares used in computing diluted net income per share (in thousands of shares) | | | | | | | | | | | | | | | |
+GAAP diluted shares | | | 36,301 | | | | | 36,172 | | | | | 36,217 | | | | | 36,327 | |
+Non-GAAP diluted shares | | | 36,301 | | | | | 36,172 | | | | | 36,217 | | | | | 36,327 | |
+
+FABRINET
+RECONCILIATION OF NET CASH PROVIDED BY OPERATING ACTIVITIES TO FREE CASH FLOW (UNAUDITED)
+| | | | | | | | | | | | | | | | | | | | | | | | | | |
+(in thousands of U.S. dollars) | | Three Months Ended | | Nine Months Ended |
+| | March 27,
+2026 | | March 28,
+2025 | | March 27,
+2026 | | March 28,
+2025 |
+Net cash provided by operating activities | | $ | 52,931 | | | $ | 74,186 | | | $ | 201,758 | | | $ | 273,272 | |
+Less: Purchase of property, plant and equipment | | (63,760) | | | (28,518) | | | (160,634) | | | (70,668) | |
+Non-GAAP free cash flow | | $ | (10,829) | | | $ | 45,668 | | | $ | 41,124 | | | $ | 202,604 | |
+
+FABRINET
+GUIDANCE FOR QUARTER ENDING JUNE 26, 2026
+RECONCILIATION OF GAAP MEASURES TO NON-GAAP MEASURES
+| | | | | |
+| Diluted
+EPS
+|
+GAAP net income per diluted share | $3.48 to $3.63
+|
+Related to cost of revenues: | |
+Share-based compensation expenses | 0.08 |
+Total related to cost of revenues | 0.08 |
+Related to selling, general and administrative expenses: | |
+Share-based compensation expenses | 0.16 |
+| |
+Total related to selling, general and administrative expenses | 0.16 |
+| |
+| |
+| |
+Total related to net income & EPS | 0.24 |
+Non-GAAP net income per diluted share | $3.72 to $3.87
+|

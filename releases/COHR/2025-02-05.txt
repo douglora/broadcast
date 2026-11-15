@@ -1,0 +1,6767 @@
+EX-99.1
+2
+d835094dex991.htm
+EX-99.1
+
+EX-99.1
+
+Exhibit 99.1
+
+PRESS RELEASE
+COHERENT CORP. REPORTS SECOND QUARTER
+FISCAL 2025 RESULTS
+
+|
+• |
+|
+Q2 REVENUE OF $1.43B, INCREASED 27% Y/Y
+|
+
+|
+• |
+|
+Q2 GAAP GROSS MARGIN OF 35.5%, INCREASED 452 bps Y/Y; Q2 NON-GAAP
+GROSS MARGIN OF 38.2%, INCREASED 363 bps Y/Y
+|
+
+|
+• |
+|
+Q2 GAAP EPS OF $0.44, IMPROVED $0.82 Y/Y; Q2 NON-GAAP EPS OF $0.95,
+IMPROVED $0.69 Y/Y
+|
+SAXONBURG, PA, February 5, 2025 (GLOBE NEWSWIRE) – Coherent Corp. (NYSE: COHR) (“Coherent,”
+“We,” or the “Company”), a global leader in materials, networking, and lasers, announced financial results today for its fiscal second quarter ended December 31, 2024.
+
+Revenue for the second quarter of fiscal 2025 was $1.43 billion, with GAAP gross margin of 35.5% and GAAP net income of $0.44 per diluted share. On a non-GAAP basis, gross margin was 38.2% with net income per diluted share of $0.95.
+Jim Anderson, CEO, said, “We
+delivered strong growth in the December quarter on both a sequential and year-over-year basis, resulting in record revenue, driven by another quarter of strong AI-related Data Center demand as well as growth
+in our Telecom business. We also drove significant improvement in gross margin and operating margin. I would like to thank my Coherent teammates for their strong execution.”
+
+Sherri Luther, CFO, said, “I am pleased by our profitability, cash generation and debt reduction in the second quarter. Revenue growth and margin
+expansion drove significant sequential and year-over-year increases in our GAAP and Non-GAAP EPS. We also paid down $132 million of our outstanding debt . ”
+
+Selected Second Quarter Financial Results and Comparisons (in millions, except percentages and per share data)
+
+Table 1
+
+|
+
+|
+|
+|
+|
+
+|
+|
+|
+|
+
+|
+|
+|
+|
+
+|
+|
+|
+|
+
+|
+|
+|
+|
+
+|
+|
+|
+|
+
+|
+|
+|
+|
+
+|
+|
+|
+|
+
+|
+|
+GAAP Financial Results (unaudited) |
+|
+
+|
+|
+Q2 FY25 |
+|
+|
+Q1 FY25 |
+|
+|
+Q2 FY24 |
+|
+|
+Q/Q |
+|
+|
+Y/Y |
+|
+|
+Q2 FY25
+YTD |
+|
+|
+Q2 FY24
+YTD |
+|
+|
+FY/FY |
+|
+
+Revenues
+|
+|
+$ |
+1,435 |
+|
+|
+$ |
+1,348 |
+|
+|
+$ |
+1,131 |
+|
+|
+|
+6.4 |
+% |
+|
+|
+26.8 |
+% |
+|
+$ |
+2,783 |
+|
+|
+$ |
+2,185 |
+|
+|
+|
+27.4 |
+% |
+
+Gross Margin %
+|
+|
+|
+35.5 |
+% |
+|
+|
+34.1 |
+% |
+|
+|
+31.0 |
+% |
+|
+|
+138 |
+ bps |
+|
+|
+452 |
+ bps |
+|
+|
+34.8 |
+% |
+|
+|
+30.1 |
+% |
+|
+|
+474 |
+ bps |
+
+R&D Expense %
+|
+|
+|
+10.0 |
+% |
+|
+|
+9.8 |
+% |
+|
+|
+9.8 |
+% |
+|
+|
+27 |
+ bps |
+|
+|
+20 |
+ bps |
+|
+|
+9.9 |
+% |
+|
+|
+10.3 |
+% |
+|
+|
+(39 |
+) bps |
+
+SG&A Expense %
+|
+|
+|
+15.4 |
+% |
+|
+|
+17.0 |
+% |
+|
+|
+18.5 |
+% |
+|
+|
+(161 |
+) bps |
+|
+|
+(311 |
+) bps |
+|
+|
+16.2 |
+% |
+|
+|
+19.3 |
+% |
+|
+|
+(311 |
+) bps |
+
+Operating Expenses
+|
+|
+$ |
+373 |
+|
+|
+$ |
+385 |
+|
+|
+$ |
+319 |
+|
+|
+|
+(3.2 |
+)% |
+|
+|
+16.8 |
+% |
+|
+$ |
+757 |
+|
+|
+$ |
+647 |
+|
+|
+|
+17.1 |
+% |
+
+Operating Income (1)
+|
+|
+$ |
+137 |
+|
+|
+$ |
+75 |
+|
+|
+$ |
+32 |
+|
+|
+|
+82.0 |
+% |
+|
+|
+329.2 |
+% |
+|
+$ |
+212 |
+|
+|
+$ |
+11 |
+|
+|
+|
+1,900.9 |
+% |
+
+Operating Margin
+|
+|
+|
+9.5 |
+% |
+|
+|
+5.6 |
+% |
+|
+|
+2.8 |
+% |
+|
+|
+396 |
+ bps |
+|
+|
+672 |
+ bps |
+|
+|
+7.6 |
+% |
+|
+|
+0.5 |
+% |
+|
+|
+714 |
+ bps |
+
+Net Earnings (Loss) Attributable to Coherent Corp.
+|
+|
+$ |
+103 |
+|
+|
+$ |
+26 |
+|
+|
+$ |
+(27 |
+) |
+|
+|
+299.4 |
+% |
+|
+|
+(483.0 |
+)% |
+|
+$ |
+129 |
+|
+|
+$ |
+(95 |
+) |
+|
+|
+(236.8 |
+)% |
+
+Diluted Earnings (Loss) Per Share
+|
+|
+$ |
+0.44 |
+|
+|
+$ |
+(0.04 |
+) |
+|
+$ |
+(0.38 |
+) |
+|
+$ |
+0.48 |
+|
+|
+$ |
+0.82 |
+|
+|
+$ |
+0.41 |
+|
+|
+$ |
+(1.03 |
+) |
+|
+$ |
+1.44 |
+|
+
+(1) |
+Operating Income is defined as earnings (loss) before income taxes, interest expense, and other expense or
+income, net.
+|
+
+Selected Second Quarter Financial Results and Comparisons (in millions, except percentages and per share data)
+
+Table 1, continued
+
+|
+
+|
+|
+|
+|
+
+|
+|
+|
+|
+
+|
+|
+|
+|
+
+|
+|
+|
+|
+
+|
+|
+|
+|
+
+|
+|
+|
+|
+
+|
+|
+|
+|
+
+|
+|
+|
+|
+
+|
+|
+Non-GAAP Financial Results (unaudited) (1)(2) |
+|
+
+|
+|
+Q2 FY25 |
+|
+|
+Q1 FY25 |
+|
+|
+Q2 FY24 |
+|
+|
+Q/Q |
+|
+|
+Y/Y |
+|
+|
+Q2 FY25
+YTD |
+|
+|
+Q2 FY24
+YTD |
+|
+|
+FY/FY |
+|
+
+Revenues
+|
+|
+$ |
+1,435 |
+|
+|
+$ |
+1,348 |
+|
+|
+$ |
+1,131 |
+|
+|
+|
+6.4 |
+% |
+|
+|
+26.8 |
+% |
+|
+$ |
+2,783 |
+|
+|
+$ |
+2,185 |
+|
+|
+|
+27.4 |
+% |
+
+Gross Margin %
+|
+|
+|
+38.2 |
+% |
+|
+|
+36.7 |
+% |
+|
+|
+34.6 |
+% |
+|
+|
+146 |
+ bps |
+|
+|
+363 |
+ bps |
+|
+|
+37.5 |
+% |
+|
+|
+33.8 |
+% |
+|
+|
+371 |
+ bps |
+
+R&D Expense %
+|
+|
+|
+9.6 |
+% |
+|
+|
+9.3 |
+% |
+|
+|
+9.3 |
+% |
+|
+|
+24 |
+ bps |
+|
+|
+31 |
+ bps |
+|
+|
+9.5 |
+% |
+|
+|
+9.6 |
+% |
+|
+|
+(14 |
+) bps |
+
+SG&A Expense %
+|
+|
+|
+10.2 |
+% |
+|
+|
+11.3 |
+% |
+|
+|
+11.8 |
+% |
+|
+|
+(110 |
+) bps |
+|
+|
+(168 |
+) bps |
+|
+|
+10.7 |
+% |
+|
+|
+12.1 |
+% |
+|
+|
+(144 |
+) bps |
+
+Operating Expenses
+|
+|
+$ |
+283 |
+|
+|
+$ |
+278 |
+|
+|
+$ |
+239 |
+|
+|
+|
+1.9 |
+% |
+|
+|
+18.6 |
+% |
+|
+$ |
+561 |
+|
+|
+$ |
+475 |
+|
+|
+|
+18.1 |
+% |
+
+Operating Income
+|
+|
+$ |
+265 |
+|
+|
+$ |
+218 |
+|
+|
+$ |
+152 |
+|
+|
+|
+21.7 |
+% |
+|
+|
+73.8 |
+% |
+|
+$ |
+483 |
+|
+|
+$ |
+263 |
+|
+|
+|
+83.2 |
+% |
+
+Operating Margin
+|
+|
+|
+18.5 |
+% |
+|
+|
+16.1 |
+% |
+|
+|
+13.5 |
+% |
+|
+|
+232 |
+ bps |
+|
+|
+499 |
+ bps |
+|
+|
+17.3 |
+% |
+|
+|
+12.1 |
+% |
+|
+|
+528 |
+ bps |
+
+Net Earnings Attributable to Coherent Corp.
+|
+|
+$ |
+185 |
+|
+|
+$ |
+138 |
+|
+|
+$ |
+72 |
+|
+|
+|
+33.6 |
+% |
+|
+|
+158.5 |
+% |
+|
+$ |
+323 |
+|
+|
+$ |
+110 |
+|
+|
+|
+193.5 |
+% |
+
+Diluted Earnings Per Share
+|
+|
+$ |
+0.95 |
+|
+|
+$ |
+0.67 |
+|
+|
+$ |
+0.27 |
+|
+|
+$ |
+0.28 |
+|
+|
+$ |
+0.69 |
+|
+|
+$ |
+1.63 |
+|
+|
+$ |
+0.32 |
+|
+|
+$ |
+1.30 |
+|
+
+(1) |
+During the second fiscal quarter of 2025, the Company refined its methodology to report non-GAAP measures. The change does not impact the Company’s financial position, cash flows, or GAAP consolidated results of operations. Prior period non-GAAP financial
+measures presented in this press release have been recast to conform to the current presentation.
+|
+
+(2) |
+The Company has disclosed financial measurements in this earnings release that present financial information
+considered to be non-GAAP financial measures. These measurements are not a substitute for GAAP measurements, although the Company’s management uses these measurements as an aid in monitoring the
+Company’s on-going financial performance. The non-GAAP net earnings attributable to Coherent Corp., the non-GAAP diluted
+earnings per share, the non-GAAP operating income, the non-GAAP gross margin, the non-GAAP research and
+
+|
+
+|
+
+development, the non-GAAP selling, general and administration, the non-GAAP operating expenses, the non-GAAP interest and other (income) expense, and the non-GAAP income tax (benefit), measure earnings and operating income (loss), respectively, excluding non-recurring or unusual items that are considered by management to be outside the Company’s standard operation and excluding certain non-cash items. There are
+limitations associated with the use of non-GAAP financial measures, including that such measures may not be entirely comparable to similarly titled measures used by other companies, due to potential
+differences among calculation methodologies. Thus, there can be no assurance whether (i) items excluded from the non-GAAP financial measures will occur in the future or (ii) there will be cash costs
+associated with items excluded from the non-GAAP financial measures. The Company compensates for these limitations by using these non-GAAP financial measures as
+supplements to GAAP financial measures and by providing the reconciliations of the non-GAAP financial measures to their most comparable GAAP financial measures. Investors should consider adjusted measures in
+addition to, and not as a substitute for, or superior to, financial performance measures prepared in accordance with GAAP. All non-GAAP amounts exclude certain adjustments for share-based compensation,
+acquired intangible amortization expense, restructuring charges (recoveries), integration and site consolidation expenses, integration transaction expenses, and various one-time adjustments. See Table 6 for
+the Reconciliation of GAAP measures to non-GAAP measures. |
+Product Highlights – Second
+Quarter Fiscal 2025
+
+|
+• |
+|
+CHIPS Act funding announced by the U.S. government to increase our Indium Phosphide (InP) production capacity.
+Coherent has been investing in InP technology for over 20 years and InP is a key enabling technology for EML lasers and CW lasers for Silicon Photonics.
+|
+
+|
+• |
+|
+First customer order for our new Optical Circuit Switch (OCS). Coherent’s OCS is based on a unique
+digital liquid crystal technology. This differentiated platform offers tremendous advantages to our customers compared to mechanical MEMS-based solutions.
+|
+
+|
+• |
+|
+Expanding customer engagements for new 100G ZR, 400G ZR/ZR+ and 800G ZR DCO transceivers. Our industry
+leading performance, power, cost and reliability are key differentiators valued by our customers.
+|
+
+|
+• |
+|
+Industry-first shipment of our Excimer Laser Annealing system for deployment in the world’s first Gen 8
+OLED display fab. Our differentiated system is now starting to be deployed in Gen 8 OLED display fabs for larger devices such as tablet and laptop computers.
+|
+
+|
+• |
+|
+First customer orders for our recently launched EDGE Fiber laser platform. This innovative platform
+redefines value with best-in-class performance in fiber laser cutting.
+|
+
+Business Outlook – Third Quarter Fiscal 2025
+
+|
+• |
+|
+Revenue for the third quarter of fiscal 2025 is expected to be between $1.39 billion and $1.48 billion.
+
+|
+
+|
+• |
+|
+Gross margin percentage for the third quarter of fiscal 2025 is expected to be between 37% and 39% on a non-GAAP basis.
+|
+
+|
+• |
+|
+Total operating expenses for the third quarter of fiscal 2025 are expected to be between $285 million and
+$305 million on a non-GAAP basis.
+|
+
+|
+• |
+|
+Tax rate for the third quarter of fiscal 2025 is expected to be between 17% and 19% on a non-GAAP basis.
+|
+
+|
+• |
+|
+EPS for the third quarter of fiscal 2025 is expected to be between $0.75 and $0.95 on a non-GAAP basis.
+|
+
+Investor Conference Call / Webcast Details
+
+Coherent will review the Company’s financial results for its second quarter of fiscal 2025 and business outlook on Wednesday, February 5, at 5:00
+p.m. ET. A live webcast of the conference call will be available on the Investor Relations section of the Company’s website at coherent.com/company/investor-relations . The Company’s financial guidance will be limited to the comments
+on its public quarterly earnings call and the public business outlook statements contained in this press release.
+The conference call will be recorded,
+and a replay will be available to interested parties starting on or about February 6, 2025.
+Additional Information and Where to Find It
+
+In connection with the conference call described above, the Company intends to file an investor presentation as an exhibit to a Current Report on Form 8-K filed with the Securities and Exchange Commission (“SEC”) and to post the investor presentation on the Company’s website at coherent.com/company/investor-relations/investor-presentations
+after market close on February 5, 2025. We also may, from time to time, post other important information for investors on our website at coherent.com/company/investor-relations. We intend to use our website as a means of disclosing
+material, non-public information and for complying with our disclosure obligations under Regulation FD. Accordingly, investors should review the Investor Relations page of our website referenced above, in
+addition to following the Company’s press releases, SEC filings, and public conference calls, presentations, and webcasts. Investors and security holders are able to obtain free copies of these documents through the Company’s website
+referenced above. Copies of the documents filed by the Company with the SEC may be obtained free of charge on the Company’s website at c oherent.com/company/investor-relations/sec-filings . The
+information contained on, or that may be accessed through, the Company’s website is not incorporated by reference into, and is not part of, this release.
+
+Forward-Looking Statements
+This press release contains
+statements, estimates and projections that constitute “forward-looking statements” as defined under U.S. federal securities laws – including our estimates and projections for our business outlook for the third quarter of fiscal 2025,
+each of which is made pursuant to the safe harbor provisions of the U.S. Private Securities Litigation Reform Act of 1995 and relate to the Company’s performance on a going-forward basis. The forward-looking statements contained herein are
+subject to certain risks and uncertainties that could cause the Company’s actual results to differ materially from its historical experience and our present expectations or projections.
+
+The Company believes that all forward-looking statements made by it herein have a reasonable basis, but there can be no assurance that management’s
+expectations, beliefs, or projections as expressed in the forward-looking statements will actually occur or prove to be correct. In addition to general industry and global economic conditions, factors that could cause actual results to differ
+materially from those discussed in the forward-looking statements herein include but are not limited to: (i) the failure of any one or more of the assumptions stated herein to prove to be correct; (ii) the risks relating to forward-looking
+statements and other “Risk Factors” identified from time to time in our filings with the SEC, including our Annual Report on Form 10-K
+
+for the fiscal year ended June 30, 2024, and subsequently filed Quarterly Reports on Form 10-Q, which filings are available from the SEC;
+(iii) the substantial indebtedness the Company incurred in connection with its acquisition of Coherent, Inc. (the “Transaction”), the need to generate sufficient cash flows to service and repay such debt, and the Company’s
+ability to generate sufficient funds to meet its anticipated debt reduction goals; (iv) the possibility that the Company may not be able to continue its integration progress and/or take other restructuring actions, or otherwise be able to
+achieve expected synergies, operating efficiencies including greater scale, focus, resiliency, and lower operating costs, and other benefits within the expected time frames or at all and ultimately to successfully fully integrate the operations of
+Coherent with those of the Company; (v) the possibility that such integration and/or the restructuring actions may be more difficult, time-consuming, or costly than expected or that operating costs and business disruption (including, without
+limitation, disruptions in relationships with employees, customers, or suppliers) may be greater than expected in connection with the Transaction and/or the restructuring actions; (vi) any unexpected costs, charges, or expenses resulting from
+the Transaction and/or the restructuring actions; (vii) the risk that disruption from the Transaction and/or the restructuring actions materially and adversely affects the respective businesses and operations of the Company and Coherent, Inc.;
+(viii) potential adverse reactions or changes to business relationships resulting from the completion of the Transaction and/or the restructuring actions; (ix) the ability of the Company to retain and hire key employees; (x) the purchasing
+patterns of customers and end users; (xi) the timely release of new products and acceptance of such new products by the market; (xii) the introduction of new products by competitors and other competitive responses; (xiii) the
+Company’s ability to assimilate other recently acquired businesses, and realize synergies, cost savings, and opportunities for growth in connection therewith, together with the risks, costs, and uncertainties associated with such acquisitions;
+(xiv) the Company’s ability to devise and execute strategies to respond to market conditions; (xv) the risks to realizing the benefits of investments in R&D and commercialization of innovations; (xvi) the risks that the
+Company’s stock price will not trade in line with industrial technology leaders; and/or (xvii) the risks of business and economic disruption related to worldwide health epidemics or outbreaks that may arise. You should not place undue
+reliance on forward-looking statements, which speak only as of the date they are made. The Company disclaims any obligation to update information contained in these forward-looking statements, whether as a result of new information, future events or
+developments, or otherwise.
+About Coherent
+
+Coherent empowers market innovators to define the future through breakthrough technologies, from materials to systems. We deliver innovations that resonate
+with our customers in diversified applications for the industrial, communications, electronics, and instrumentation markets. Coherent has research and development, manufacturing, sales, service, and distribution facilities worldwide. For more
+information, please visit us at coherent.com .
+Contact:
+
+Paul Silverstein
+Senior VP, Investor Relations &
+Corporate Communications
+investor.relations@coherent.com
+
+# # #
+
+Table 2
+Coherent Corp. and Subsidiaries
+
+Condensed Consolidated Statements of Earnings (Loss)*
+
+|
+
+|
+|
+|
+|
+
+|
+|
+|
+|
+
+|
+|
+|
+|
+
+|
+|
+THREE MONTHS ENDED |
+|
+
+$ Millions, except per share amounts (unaudited)
+|
+|
+Dec 31,
+2024 |
+|
+|
+Sep 30,
+2024 |
+|
+|
+Dec 31,
+2023 |
+|
+
+Revenues
+|
+|
+$ |
+1,434.7 |
+|
+|
+$ |
+1,348.1 |
+|
+|
+$ |
+1,131.4 |
+|
+
+Costs, Expenses & Other Expense (Income)
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+Cost of goods sold
+|
+|
+|
+925.3 |
+|
+|
+|
+888.0 |
+|
+|
+|
+780.8 |
+|
+
+Research and development
+|
+|
+|
+143.9 |
+|
+|
+|
+131.6 |
+|
+|
+|
+111.2 |
+|
+
+Selling, general and administrative
+|
+|
+|
+220.6 |
+|
+|
+|
+229.0 |
+|
+|
+|
+209.2 |
+|
+
+Restructuring charges (recoveries)
+|
+|
+|
+8.0 |
+|
+|
+|
+24.4 |
+|
+|
+|
+(1.6 |
+) |
+
+Interest expense
+|
+|
+|
+64.3 |
+|
+|
+|
+66.6 |
+|
+|
+|
+74.7 |
+|
+
+Other expense (income), net
+|
+|
+|
+(55.8 |
+) |
+|
+|
+(10.7 |
+) |
+|
+|
+(5.4 |
+) |
+
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+
+Total Costs, Expenses, & Other Expense
+|
+|
+|
+1,306.3 |
+|
+|
+|
+1,328.8 |
+|
+|
+|
+1,168.8 |
+|
+
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+
+Earnings (Loss) Before Income Taxes
+|
+|
+|
+128.4 |
+|
+|
+|
+19.3 |
+|
+|
+|
+(37.4 |
+) |
+
+Income Taxes
+|
+|
+|
+26.9 |
+|
+|
+|
+(5.6 |
+) |
+|
+|
+(8.9 |
+) |
+
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+
+Net Earnings (Loss)
+|
+|
+|
+101.5 |
+|
+|
+|
+24.9 |
+|
+|
+|
+(28.5 |
+) |
+
+Net Loss Attributable to Noncontrolling Interests
+|
+|
+|
+(1.8 |
+) |
+|
+|
+(1.0 |
+) |
+|
+|
+(1.5 |
+) |
+
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+
+Net Earnings (Loss) Attributable to Coherent Corp.
+|
+|
+$ |
+103.4 |
+|
+|
+$ |
+25.9 |
+|
+|
+$ |
+(27.0 |
+) |
+
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+
+Less: Dividends on Preferred Stock
+|
+|
+|
+32.3 |
+|
+|
+|
+31.8 |
+|
+|
+|
+30.6 |
+|
+
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+
+Net Earnings (Loss) Available to the Common Shareholders
+|
+|
+$ |
+71.1 |
+|
+|
+$ |
+(5.9 |
+) |
+|
+$ |
+(57.6 |
+) |
+
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+
+Basic Earnings (Loss) Per Share
+|
+|
+$ |
+0.46 |
+|
+|
+$ |
+(0.04 |
+) |
+|
+$ |
+(0.38 |
+) |
+
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+
+Diluted Earnings (Loss) Per Share
+|
+|
+$ |
+0.44 |
+|
+|
+$ |
+(0.04 |
+) |
+|
+$ |
+(0.38 |
+) |
+
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+
+Average Shares Outstanding - Basic
+|
+|
+|
+154.8 |
+|
+|
+|
+153.6 |
+|
+|
+|
+151.6 |
+|
+
+Average Shares Outstanding - Diluted
+|
+|
+|
+160.0 |
+|
+|
+|
+153.6 |
+|
+|
+|
+151.6 |
+|
+
+* |
+Amounts may not recalculate due to rounding.
+|
+
+Table 2
+Coherent Corp. and Subsidiaries
+
+Condensed Consolidated Statements of Earnings (Loss)*
+
+(Continued)
+
+|
+
+|
+|
+|
+|
+
+|
+|
+|
+|
+
+|
+|
+SIX MONTHS ENDED |
+|
+
+$ Millions, except per share amounts (unaudited)
+|
+|
+Dec 31,
+2024 |
+|
+|
+Dec 31,
+2023 |
+|
+
+Revenues
+|
+|
+$ |
+2,782.8 |
+|
+|
+$ |
+2,184.5 |
+|
+
+Costs, Expenses & Other Expense (Income)
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+Cost of goods sold
+|
+|
+|
+1,813.3 |
+|
+|
+|
+1,527.0 |
+|
+
+Research and development
+|
+|
+|
+275.5 |
+|
+|
+|
+224.7 |
+|
+
+Selling, general and administrative
+|
+|
+|
+449.6 |
+|
+|
+|
+420.9 |
+|
+
+Restructuring charges
+|
+|
+|
+32.4 |
+|
+|
+|
+1.4 |
+|
+
+Interest expense
+|
+|
+|
+130.9 |
+|
+|
+|
+147.9 |
+|
+
+Other expense (income), net
+|
+|
+|
+(66.6 |
+) |
+|
+|
+(11.7 |
+) |
+
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+
+Total Costs, Expenses, & Other Expense
+|
+|
+|
+2,635.1 |
+|
+|
+|
+2,310.2 |
+|
+
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+
+Earnings (Loss) Before Income Taxes
+|
+|
+|
+147.7 |
+|
+|
+|
+(125.7 |
+) |
+
+Income Taxes
+|
+|
+|
+21.3 |
+|
+|
+|
+(29.7 |
+) |
+
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+
+Net Earnings (Loss)
+|
+|
+|
+126.4 |
+|
+|
+|
+(96.0 |
+) |
+
+Net Loss Attributable to Noncontrolling Interests
+|
+|
+|
+(2.9 |
+) |
+|
+|
+(1.5 |
+) |
+
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+
+Net Earnings (Loss) Attributable to Coherent Corp.
+|
+|
+$ |
+129.3 |
+|
+|
+$ |
+(94.5 |
+) |
+
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+
+Less: Dividends on Preferred Stock
+|
+|
+|
+64.1 |
+|
+|
+|
+60.8 |
+|
+
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+
+Net Earnings (Loss) Available to the Common Shareholders
+|
+|
+$ |
+65.2 |
+|
+|
+$ |
+(155.3 |
+) |
+
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+
+Basic Earnings (Loss) Per Share
+|
+|
+$ |
+0.42 |
+|
+|
+$ |
+(1.03 |
+) |
+
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+
+Diluted Earnings (Loss) Per Share
+|
+|
+$ |
+0.41 |
+|
+|
+$ |
+(1.03 |
+) |
+
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+
+Average Shares Outstanding - Basic
+|
+|
+|
+154.2 |
+|
+|
+|
+150.9 |
+|
+
+Average Shares Outstanding - Diluted
+|
+|
+|
+159.3 |
+|
+|
+|
+150.9 |
+|
+
+* |
+Amounts may not recalculate due to rounding.
+|
+
+Table 3
+Coherent Corp. and Subsidiaries
+
+Condensed Consolidated Balance Sheets*
+
+|
+
+|
+|
+|
+|
+
+|
+|
+|
+|
+
+$ Millions (unaudited)
+|
+|
+December 31,
+2024 |
+|
+|
+June 30,
+2024 |
+|
+
+Assets
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+Current Assets
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+Cash and cash equivalents
+|
+|
+$ |
+917.8 |
+|
+|
+$ |
+926.0 |
+|
+
+Restricted cash, current
+|
+|
+|
+11.8 |
+|
+|
+|
+174.0 |
+|
+
+Accounts receivable
+|
+|
+|
+891.8 |
+|
+|
+|
+848.5 |
+|
+
+Inventories
+|
+|
+|
+1,344.6 |
+|
+|
+|
+1,286.4 |
+|
+
+Prepaid and refundable income taxes
+|
+|
+|
+24.2 |
+|
+|
+|
+26.9 |
+|
+
+Prepaid and other current assets
+|
+|
+|
+307.3 |
+|
+|
+|
+398.2 |
+|
+
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+
+Total Current Assets
+|
+|
+|
+3,497.4 |
+|
+|
+|
+3,660.1 |
+|
+
+Property, plant & equipment, net
+|
+|
+|
+1,889.6 |
+|
+|
+|
+1,817.3 |
+|
+
+Goodwill
+|
+|
+|
+4,391.1 |
+|
+|
+|
+4,464.3 |
+|
+
+Other intangible assets, net
+|
+|
+|
+3,313.7 |
+|
+|
+|
+3,503.2 |
+|
+
+Deferred income taxes
+|
+|
+|
+53.6 |
+|
+|
+|
+41.0 |
+|
+
+Restricted cash, non-current
+|
+|
+|
+739.0 |
+|
+|
+|
+689.6 |
+|
+
+Other assets
+|
+|
+|
+313.0 |
+|
+|
+|
+313.1 |
+|
+
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+
+Total Assets
+|
+|
+$ |
+14,197.3 |
+|
+|
+$ |
+14,488.6 |
+|
+
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+
+Liabilities, Mezzanine Equity and Equity
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+Current Liabilities
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+Current portion of long-term debt
+|
+|
+$ |
+27.2 |
+|
+|
+$ |
+73.8 |
+|
+
+Accounts payable
+|
+|
+|
+689.9 |
+|
+|
+|
+631.5 |
+|
+
+Operating lease current liabilities
+|
+|
+|
+41.0 |
+|
+|
+|
+40.6 |
+|
+
+Accruals and other current liabilities
+|
+|
+|
+551.2 |
+|
+|
+|
+597.9 |
+|
+
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+
+Total Current Liabilities
+|
+|
+|
+1,309.3 |
+|
+|
+|
+1,343.8 |
+|
+
+Long-term debt
+|
+|
+|
+3,832.7 |
+|
+|
+|
+4,026.4 |
+|
+
+Deferred income taxes
+|
+|
+|
+712.8 |
+|
+|
+|
+784.4 |
+|
+
+Operating lease liabilities
+|
+|
+|
+163.3 |
+|
+|
+|
+162.4 |
+|
+
+Other liabilities
+|
+|
+|
+214.0 |
+|
+|
+|
+225.4 |
+|
+
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+
+Total Liabilities
+|
+|
+|
+6,232.1 |
+|
+|
+|
+6,542.4 |
+|
+
+Total Mezzanine Equity
+|
+|
+|
+2,428.9 |
+|
+|
+|
+2,364.8 |
+|
+
+Total Coherent Corp. Shareholders’ Equity
+|
+|
+|
+5,168.2 |
+|
+|
+|
+5,210.1 |
+|
+
+Noncontrolling interests
+|
+|
+|
+368.1 |
+|
+|
+|
+371.4 |
+|
+
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+
+Total Equity
+|
+|
+|
+5,536.3 |
+|
+|
+|
+5,581.5 |
+|
+
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+
+Total Liabilities, Mezzanine Equity and Equity
+|
+|
+$ |
+14,197.3 |
+|
+|
+$ |
+14,488.6 |
+|
+
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+
+* |
+Amounts may not recalculate due to rounding.
+|
+
+Table 4
+Coherent Corp. and Subsidiaries
+
+Condensed Consolidated Statements of Cash Flows*
+
+|
+
+|
+|
+|
+|
+
+|
+|
+|
+|
+
+|
+|
+SIX MONTHS ENDED |
+|
+
+$ Millions (unaudited)
+|
+|
+Dec 31,
+2024 |
+|
+|
+Dec 31,
+2023 |
+|
+
+Cash Flows from Operating Activities
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+Net cash provided by operating activities
+|
+|
+$ |
+340.4 |
+|
+|
+$ |
+266.0 |
+|
+
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+
+Cash Flows from Investing Activities
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+Additions to property, plant & equipment
+|
+|
+|
+(197.7 |
+) |
+|
+|
+(153.7 |
+) |
+
+Proceeds from the sale of business
+|
+|
+|
+27.0 |
+|
+|
+|
+—  |
+|
+
+Other investing activities
+|
+|
+|
+(1.1 |
+) |
+|
+|
+(2.0 |
+) |
+
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+
+Net cash used in investing activities
+|
+|
+|
+(171.8 |
+) |
+|
+|
+(155.6 |
+) |
+
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+
+Cash Flows from Financing Activities
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+Contributions from noncontrolling interest holders
+|
+|
+|
+—  |
+|
+|
+|
+1,000.0 |
+|
+
+Payments on existing debt
+|
+|
+|
+(250.2 |
+) |
+|
+|
+(107.5 |
+) |
+
+Equity issuance costs
+|
+|
+|
+—  |
+|
+|
+|
+(31.8 |
+) |
+
+Proceeds from exercises of stock options and purchases under employee stock purchase plan
+|
+
+|
+|
+29.2 |
+|
+|
+|
+16.1 |
+|
+
+Payments in satisfaction of employees’ minimum tax obligations
+|
+|
+|
+(45.0 |
+) |
+|
+|
+(17.6 |
+) |
+
+Other financing activities
+|
+|
+|
+(0.5 |
+) |
+|
+|
+(0.5 |
+) |
+
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+
+Net cash provided by (used in) financing activities
+|
+|
+|
+(266.5 |
+) |
+|
+|
+858.7 |
+|
+
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+
+Effect of exchange rate changes on cash and cash equivalents
+|
+|
+|
+(23.1 |
+) |
+|
+|
+14.0 |
+|
+
+Net increase (decrease) in cash and cash equivalents
+|
+|
+|
+(121.0 |
+) |
+|
+|
+983.1 |
+|
+
+Cash, Cash Equivalents, and Restricted Cash at Beginning of Period
+|
+|
+|
+1,789.7 |
+|
+|
+|
+837.6 |
+|
+
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+
+Cash, Cash Equivalents, and Restricted Cash at End of Period
+|
+|
+$ |
+1,668.6 |
+|
+|
+$ |
+1,820.7 |
+|
+
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+
+* |
+Amounts may not recalculate due to rounding.
+|
+
+Table 5
+Segment Revenues*
+
+|
+
+|
+|
+|
+|
+
+|
+|
+|
+|
+
+|
+|
+|
+|
+
+|
+|
+|
+|
+
+|
+|
+|
+|
+
+|
+|
+|
+|
+
+|
+|
+THREE MONTHS ENDED |
+|
+|
+|
+|
+|
+SIX MONTHS ENDED |
+|
+
+$ Millions (unaudited)
+|
+|
+Dec 31,
+2024 |
+|
+|
+Sep 30,
+2024 |
+|
+|
+Dec 31,
+2023 |
+|
+|
+|
+|
+|
+Dec 31,
+2024 |
+|
+|
+Dec 31,
+2023 |
+|
+
+Revenues:
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+Networking
+|
+|
+$ |
+815.9 |
+|
+|
+$ |
+762.9 |
+|
+|
+$ |
+524.2 |
+|
+|
+|
+|
+|
+|
+$ |
+1,578.8 |
+|
+|
+$ |
+997.1 |
+|
+
+Materials
+|
+|
+|
+243.5 |
+|
+|
+|
+237.4 |
+|
+|
+|
+253.7 |
+|
+|
+|
+|
+|
+|
+|
+480.9 |
+|
+|
+|
+498.3 |
+|
+
+Lasers
+|
+|
+|
+375.3 |
+|
+|
+|
+347.8 |
+|
+|
+|
+353.5 |
+|
+|
+|
+|
+|
+|
+|
+723.1 |
+|
+|
+|
+689.1 |
+|
+
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+|
+|
+|
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+
+Consolidated
+|
+|
+$ |
+1,434.7 |
+|
+|
+$ |
+1,348.1 |
+|
+|
+$ |
+1,131.4 |
+|
+|
+|
+|
+|
+|
+$ |
+2,782.8 |
+|
+|
+$ |
+2,184.5 |
+|
+
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+|
+|
+|
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+
+* |
+Amounts may not recalculate due to rounding.
+|
+
+10
+
+Table 6
+Reconciliation of GAAP Measures to Non-GAAP Measures*
+
+|
+
+|
+|
+|
+|
+
+|
+|
+|
+|
+
+|
+|
+|
+|
+
+|
+|
+|
+|
+
+|
+|
+|
+|
+
+|
+|
+|
+|
+
+|
+|
+THREE MONTHS ENDED |
+|
+|
+|
+|
+|
+SIX MONTHS ENDED |
+|
+
+$ Millions, except per share amounts (unaudited)
+|
+|
+Dec 31,
+2024 |
+|
+|
+Sep 30,
+2024 (1) |
+|
+|
+Dec 31,
+2023 (1) |
+|
+|
+|
+|
+|
+Dec 31,
+2024 (1) |
+|
+|
+Dec 31,
+2023 (1) |
+|
+
+Gross margin on GAAP basis
+|
+|
+$ |
+509.4 |
+|
+|
+$ |
+460.1 |
+|
+|
+$ |
+350.6 |
+|
+|
+|
+|
+|
+|
+$ |
+969.5 |
+|
+|
+$ |
+657.5 |
+|
+
+Share-based compensation
+|
+|
+|
+5.6 |
+|
+|
+|
+5.7 |
+|
+|
+|
+5.3 |
+|
+|
+|
+|
+|
+|
+|
+11.3 |
+|
+|
+|
+12.7 |
+|
+
+Amortization of acquired intangibles
+|
+|
+|
+30.4 |
+|
+|
+|
+30.4 |
+|
+|
+|
+30.2 |
+|
+|
+|
+|
+|
+|
+|
+60.8 |
+|
+|
+|
+61.0 |
+|
+
+Integration, site consolidation and
+other (2)
+|
+|
+|
+2.6 |
+|
+|
+|
+(0.9 |
+) |
+|
+|
+5.0 |
+|
+|
+|
+|
+|
+|
+|
+1.7 |
+|
+|
+|
+6.8 |
+|
+
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+|
+|
+|
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+
+Gross margin on non-GAAP basis
+|
+|
+$ |
+548.0 |
+|
+|
+$ |
+495.3 |
+|
+|
+$ |
+391.1 |
+|
+|
+|
+|
+|
+|
+$ |
+1,043.3 |
+|
+|
+$ |
+738.0 |
+|
+
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+|
+|
+|
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+
+Research and development on GAAP basis
+|
+|
+$ |
+143.9 |
+|
+|
+$ |
+131.6 |
+|
+|
+$ |
+111.2 |
+|
+|
+|
+|
+|
+|
+$ |
+275.5 |
+|
+|
+$ |
+224.7 |
+|
+
+Share-based compensation
+|
+|
+|
+(5.7 |
+) |
+|
+|
+(5.3 |
+) |
+|
+|
+(5.0 |
+) |
+|
+|
+|
+|
+|
+|
+(11.0 |
+) |
+|
+|
+(13.0 |
+) |
+
+Amortization of acquired intangibles
+|
+|
+|
+(0.6 |
+) |
+|
+|
+(0.7 |
+) |
+|
+|
+(0.7 |
+) |
+|
+|
+|
+|
+|
+|
+(1.3 |
+) |
+|
+|
+(1.3 |
+) |
+
+Integration, site consolidation and
+other (2)
+|
+|
+|
+(0.2 |
+) |
+|
+|
+0.3 |
+|
+|
+|
+(0.6 |
+) |
+|
+|
+|
+|
+|
+|
+0.1 |
+|
+|
+|
+(0.6 |
+) |
+
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+|
+|
+|
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+
+Research and development on non-GAAP basis
+|
+
+|
+$ |
+137.4 |
+|
+|
+$ |
+125.9 |
+|
+|
+$ |
+104.9 |
+|
+|
+|
+|
+|
+|
+$ |
+263.3 |
+|
+|
+$ |
+209.8 |
+|
+
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+|
+|
+|
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+
+Selling, general and administrative on GAAP basis
+|
+|
+$ |
+220.6 |
+|
+|
+$ |
+229.0 |
+|
+|
+$ |
+209.2 |
+|
+|
+|
+|
+|
+|
+$ |
+449.6 |
+|
+|
+$ |
+420.9 |
+|
+
+Share-based compensation
+|
+|
+|
+(29.7 |
+) |
+|
+|
+(24.5 |
+) |
+|
+|
+(17.0 |
+) |
+|
+|
+|
+|
+|
+|
+(54.2 |
+) |
+|
+|
+(46.1 |
+) |
+
+Amortization of acquired intangibles
+|
+|
+|
+(40.7 |
+) |
+|
+|
+(40.8 |
+) |
+|
+|
+(40.6 |
+) |
+|
+|
+|
+|
+|
+|
+(81.5 |
+) |
+|
+|
+(81.9 |
+) |
+
+Integration, site consolidation and
+other (2)
+|
+|
+|
+(4.5 |
+) |
+|
+|
+(11.8 |
+) |
+|
+|
+(17.7 |
+) |
+|
+|
+|
+|
+|
+|
+(16.3 |
+) |
+|
+|
+(28.0 |
+) |
+
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+|
+|
+|
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+
+Selling, general and administrative on non-GAAP
+basis
+|
+|
+$ |
+145.7 |
+|
+|
+$ |
+151.8 |
+|
+|
+$ |
+133.9 |
+|
+|
+|
+|
+|
+|
+$ |
+297.5 |
+|
+|
+$ |
+264.9 |
+|
+
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+|
+|
+|
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+
+Restructuring charges on GAAP basis
+|
+|
+$ |
+8.0 |
+|
+|
+$ |
+24.4 |
+|
+|
+$ |
+(1.6 |
+) |
+|
+|
+|
+|
+|
+$ |
+32.4 |
+|
+|
+$ |
+1.4 |
+|
+
+Restructuring charges
+(recoveries) (3)
+|
+|
+|
+(8.0 |
+) |
+|
+|
+(24.4 |
+) |
+|
+|
+1.6 |
+|
+|
+|
+|
+|
+|
+|
+(32.4 |
+) |
+|
+|
+(1.4 |
+) |
+
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+|
+|
+|
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+
+Restructuring charges on non-GAAP basis
+|
+|
+$ |
+—  |
+|
+|
+$ |
+—  |
+|
+|
+$ |
+—  |
+|
+|
+|
+|
+|
+|
+$ |
+—  |
+|
+|
+$ |
+—  |
+|
+
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+|
+|
+|
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+
+Operating income on GAAP basis
+|
+|
+$ |
+136.9 |
+|
+|
+$ |
+75.2 |
+|
+|
+$ |
+31.9 |
+|
+|
+|
+|
+|
+|
+$ |
+212.1 |
+|
+|
+$ |
+10.6 |
+|
+
+Share-based compensation
+|
+|
+|
+41.0 |
+|
+|
+|
+35.5 |
+|
+|
+|
+27.3 |
+|
+|
+|
+|
+|
+|
+|
+76.5 |
+|
+|
+|
+71.8 |
+|
+
+Amortization of acquired intangibles
+|
+|
+|
+71.7 |
+|
+|
+|
+71.9 |
+|
+|
+|
+71.5 |
+|
+|
+|
+|
+|
+|
+|
+143.6 |
+|
+|
+|
+144.2 |
+|
+
+Restructuring charges
+(recoveries) (3)
+|
+|
+|
+8.0 |
+|
+|
+|
+24.4 |
+|
+|
+|
+(1.6 |
+) |
+|
+|
+|
+|
+|
+|
+32.4 |
+|
+|
+|
+1.4 |
+|
+
+Integration, site consolidation and
+other (2)
+|
+|
+|
+7.3 |
+|
+|
+|
+10.6 |
+|
+|
+|
+23.3 |
+|
+|
+|
+|
+|
+|
+|
+17.9 |
+|
+|
+|
+35.4 |
+|
+
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+|
+|
+|
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+
+Operating income on non-GAAP basis
+|
+|
+$ |
+264.9 |
+|
+|
+$ |
+217.6 |
+|
+|
+$ |
+152.4 |
+|
+|
+|
+|
+|
+|
+$ |
+482.5 |
+|
+|
+$ |
+263.4 |
+|
+
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+|
+|
+|
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+
+11
+
+Table 6
+Reconciliation of GAAP Measures to Non-GAAP Measures*
+(Continued)
+
+|
+
+|
+|
+|
+|
+
+|
+|
+|
+|
+
+|
+|
+|
+|
+
+|
+|
+|
+|
+
+|
+|
+|
+|
+
+|
+|
+|
+|
+
+|
+|
+THREE MONTHS ENDED |
+|
+|
+|
+|
+|
+YEAR ENDED |
+|
+
+$ Millions, except per share amounts (unaudited)
+|
+|
+Dec 31,
+2024 |
+|
+|
+Sep 30,
+2024 (1) |
+|
+|
+Dec 31,
+2023 (1) |
+|
+|
+|
+|
+|
+Dec 31,
+2024 (1) |
+|
+|
+Dec 31,
+2023 (1) |
+|
+
+Interest and other (income) expense, net on GAAP basis
+|
+|
+$ |
+8.5 |
+|
+|
+$ |
+55.9 |
+|
+|
+$ |
+69.3 |
+|
+|
+|
+|
+|
+|
+$ |
+64.4 |
+|
+|
+$ |
+136.3 |
+|
+
+Foreign currency exchange gains (losses), net
+|
+|
+|
+35.1 |
+|
+|
+|
+(9.8 |
+) |
+|
+|
+(6.2 |
+) |
+|
+|
+|
+|
+|
+|
+25.3 |
+|
+|
+|
+(5.5 |
+) |
+
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+|
+|
+|
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+
+Interest and other (income) expense, net on non-GAAP
+basis
+|
+|
+$ |
+43.6 |
+|
+|
+$ |
+46.1 |
+|
+|
+$ |
+63.1 |
+|
+|
+|
+|
+|
+|
+$ |
+89.7 |
+|
+|
+$ |
+130.8 |
+|
+
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+|
+|
+|
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+
+Income taxes on GAAP basis
+|
+|
+$ |
+26.9 |
+|
+|
+$ |
+(5.6 |
+) |
+|
+$ |
+(8.9 |
+) |
+|
+|
+|
+|
+|
+$ |
+21.3 |
+|
+|
+$ |
+(29.7 |
+) |
+
+Tax impact of non-GAAP measures
+|
+|
+|
+19.2 |
+|
+|
+|
+28.4 |
+|
+|
+|
+28.2 |
+|
+|
+|
+|
+|
+|
+|
+47.6 |
+|
+|
+|
+53.7 |
+|
+
+Tax windfall from share-based
+compensation (4)
+|
+|
+|
+4.1 |
+|
+|
+|
+10.9 |
+|
+|
+|
+—  |
+|
+|
+|
+|
+|
+|
+|
+15.0 |
+|
+|
+|
+—  |
+|
+
+Tax impact of valuation allowance for deferred tax assets (5)
+|
+|
+|
+(11.8 |
+) |
+|
+|
+0.6 |
+|
+|
+|
+—  |
+|
+|
+|
+|
+|
+|
+|
+(11.2 |
+) |
+|
+|
+—  |
+|
+
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+|
+|
+|
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+
+Income taxes on non-GAAP basis
+|
+|
+$ |
+38.4 |
+|
+|
+$ |
+34.3 |
+|
+|
+$ |
+19.3 |
+|
+|
+|
+|
+|
+|
+$ |
+72.7 |
+|
+|
+$ |
+24.0 |
+|
+
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+|
+|
+|
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+
+Net earnings (loss) attributable to Coherent Corp. on GAAP basis
+|
+|
+$ |
+103.4 |
+|
+|
+$ |
+25.9 |
+|
+|
+$ |
+(27.0 |
+) |
+|
+|
+|
+|
+|
+$ |
+129.3 |
+|
+|
+$ |
+(94.5 |
+) |
+
+Share-based compensation
+|
+|
+|
+41.0 |
+|
+|
+|
+35.5 |
+|
+|
+|
+27.3 |
+|
+|
+|
+|
+|
+|
+|
+76.5 |
+|
+|
+|
+71.8 |
+|
+
+Amortization of acquired intangibles
+|
+|
+|
+71.7 |
+|
+|
+|
+71.9 |
+|
+|
+|
+71.5 |
+|
+|
+|
+|
+|
+|
+|
+143.6 |
+|
+|
+|
+144.2 |
+|
+
+Foreign currency exchange (gains) losses
+|
+|
+|
+(35.1 |
+) |
+|
+|
+9.8 |
+|
+|
+|
+6.2 |
+|
+|
+|
+|
+|
+|
+|
+(25.3 |
+) |
+|
+|
+5.5 |
+|
+
+Restructuring charges
+(recoveries) (3)
+|
+|
+|
+8.0 |
+|
+|
+|
+24.4 |
+|
+|
+|
+(1.6 |
+) |
+|
+|
+|
+|
+|
+|
+32.4 |
+|
+|
+|
+1.4 |
+|
+
+Integration, site consolidation and
+other (2)
+|
+|
+|
+7.3 |
+|
+|
+|
+10.6 |
+|
+|
+|
+23.3 |
+|
+|
+|
+|
+|
+|
+|
+17.9 |
+|
+|
+|
+35.4 |
+|
+
+Tax impact of non-GAAP measures
+|
+|
+|
+(19.2 |
+) |
+|
+|
+(28.4 |
+) |
+|
+|
+(28.2 |
+) |
+|
+|
+|
+|
+|
+|
+(47.6 |
+) |
+|
+|
+(53.7 |
+) |
+
+Tax windfall from share-based
+compensation (4)
+|
+|
+|
+(4.1 |
+) |
+|
+|
+(10.9 |
+) |
+|
+|
+—  |
+|
+|
+|
+|
+|
+|
+|
+(15.0 |
+) |
+|
+|
+—  |
+|
+
+Tax impact of valuation allowance for deferred tax assets (5)
+|
+|
+|
+11.8 |
+|
+|
+|
+(0.6 |
+) |
+|
+|
+—  |
+|
+|
+|
+|
+|
+|
+|
+11.2 |
+|
+|
+|
+—  |
+|
+
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+|
+|
+|
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+
+Net earnings attributable to Coherent Corp. on non-GAAP
+basis
+|
+|
+$ |
+184.8 |
+|
+|
+$ |
+138.3 |
+|
+|
+$ |
+71.5 |
+|
+|
+|
+|
+|
+|
+$ |
+323.1 |
+|
+|
+$ |
+110.1 |
+|
+
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+|
+|
+|
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+
+Per share data:
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+Net loss on GAAP basis
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+Basic Earnings (Loss)Per Share
+|
+|
+$ |
+0.46 |
+|
+|
+$ |
+(0.04 |
+) |
+|
+$ |
+(0.38 |
+) |
+|
+|
+|
+|
+|
+$ |
+0.42 |
+|
+|
+$ |
+(1.03 |
+) |
+
+Diluted Earnings (Loss) Per Share
+
+|
+|
+$ |
+0.44 |
+|
+|
+$ |
+(0.04 |
+) |
+|
+$ |
+(0.38 |
+) |
+|
+|
+|
+|
+|
+$ |
+0.41 |
+|
+|
+$ |
+(1.03 |
+) |
+
+Net earnings on non-GAAP basis
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+Basic Earnings Per Share
+|
+|
+$ |
+0.99 |
+|
+|
+$ |
+0.69 |
+|
+|
+$ |
+0.27 |
+|
+|
+|
+|
+|
+|
+$ |
+1.68 |
+|
+|
+$ |
+0.33 |
+|
+
+Diluted Earnings Per Share
+|
+|
+$ |
+0.95 |
+|
+|
+$ |
+0.67 |
+|
+|
+$ |
+0.27 |
+|
+|
+|
+|
+|
+|
+$ |
+1.63 |
+|
+|
+$ |
+0.32 |
+|
+
+* |
+Amounts may not recalculate due to rounding.
+|
+
+12
+
+(1) |
+During the second fiscal quarter of 2025, the Company refined its methodology to report non-GAAP measures. The change does not impact the Company’s financial position, cash flows, or GAAP consolidated results of operations. Prior period non-GAAP financial
+measures presented in this press release have been recast to conform to the current presentation.
+|
+
+(2) |
+Integration, site consolidation and other costs include retention and severance payments and other integration
+costs related to the acquisition of Coherent, Inc. Refer to table 7 for a more detailed description of these costs on a consolidated basis.
+|
+
+(3) |
+Restructuring charges include loss on sale of a facility, severance,
+non-cash impairment charges for production assets and improvements on leased facilities and other costs related to the 2023 Restructuring Plan.
+|
+
+(4) |
+Windfall tax benefits were recorded on the vesting of share-based compensation.
+|
+
+(5) |
+Valuation allowance adjustments were related to an increase (decrease) in valuation allowance related to
+certain deferred tax assets resulting from the Company’s cumulative GAAP net loss that is not recognized for non-GAAP purposes given the historical non-GAAP net
+earnings.
+|
+
+13
+
+Table 7
+Components of Integration, Site
+
+Consolidation and Other Costs Excluded
+from Non-GAAP Operating Income*
+
+|
+
+|
+|
+|
+|
+
+|
+|
+|
+|
+
+|
+|
+|
+|
+
+|
+|
+|
+|
+
+|
+|
+|
+|
+
+|
+|
+|
+|
+
+|
+|
+THREE MONTHS ENDED |
+|
+|
+|
+|
+|
+SIX MONTHS ENDED |
+|
+
+$ Millions (unaudited)
+|
+|
+Dec 31,
+2024 |
+|
+|
+Sep 30,
+2024 (1) |
+|
+|
+Dec 31,
+2023 (1) |
+|
+|
+|
+|
+|
+Dec 31,
+2024 (1) |
+|
+|
+Dec 31,
+2023 (1) |
+|
+
+Integration, site consolidation and other costs
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+Consulting costs related to projects to integrate recent acquisitions into common technology
+systems and simplify legal entity structure
+|
+|
+$ |
+3.8 |
+|
+|
+$ |
+11.4 |
+|
+|
+$ |
+16.6 |
+|
+|
+|
+|
+|
+|
+$ |
+15.2 |
+|
+|
+$ |
+23.2 |
+|
+
+Employee severance and retention costs for site consolidations as part of our Synergy and Site
+Consolidation Plan or other actions
+|
+|
+|
+3.5 |
+|
+|
+|
+(1.4 |
+) |
+|
+|
+4.0 |
+|
+|
+|
+|
+|
+|
+|
+2.1 |
+|
+|
+|
+7.5 |
+|
+
+Severance costs related to the retirement of our CEO/CFO/President
+|
+|
+|
+—  |
+|
+|
+|
+0.6 |
+|
+|
+|
+—  |
+|
+|
+|
+|
+|
+|
+|
+0.6 |
+|
+|
+|
+1.7 |
+|
+
+Direct damages from substation power failure/fire at manufacturing sites
+|
+|
+|
+—  |
+|
+|
+|
+—  |
+|
+|
+|
+2.7 |
+|
+|
+|
+|
+|
+|
+|
+—  |
+|
+|
+|
+3.0 |
+|
+
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+|
+|
+|
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+
+Integration, site consolidation and other costs
+|
+|
+$ |
+7.3 |
+|
+|
+$ |
+10.6 |
+|
+|
+$ |
+23.3 |
+|
+|
+|
+|
+|
+|
+$ |
+17.9 |
+|
+|
+$ |
+35.4 |
+|
+
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+|
+|
+|
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+
+* |
+Amounts may not recalculate due to rounding.
+|
+
+(1) |
+During the second fiscal quarter of 2025, the Company refined its methodology to report non-GAAP measures. The change does not impact the Company’s financial position, cash flows, or GAAP consolidated results of operations. Prior period non-GAAP financial
+measures presented in this press release have been recast to conform to the current presentation.
+|
+
+14
+
+Table 8
+GAAP Earnings (Loss) Per Share
+Calculation*
+
+|
+
+|
+|
+|
+|
+
+|
+|
+|
+|
+
+|
+|
+|
+|
+
+|
+|
+|
+|
+
+|
+|
+|
+|
+
+|
+|
+|
+|
+
+|
+|
+THREE MONTHS ENDED |
+|
+|
+|
+|
+|
+SIX MONTHS ENDED |
+|
+
+$ Millions, except per share amounts (unaudited)
+|
+|
+Dec 31,
+2024 |
+|
+|
+Sep 30,
+2024 |
+|
+|
+Dec 31,
+2023 |
+|
+|
+|
+|
+|
+Dec 31,
+2024 |
+|
+|
+Dec 31,
+2023 |
+|
+
+Numerator
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+Net earnings (loss) attributable to Coherent Corp.
+|
+|
+$ |
+103.4 |
+|
+|
+$ |
+25.9 |
+|
+|
+$ |
+(27.0 |
+) |
+|
+|
+|
+|
+|
+$ |
+129.3 |
+|
+|
+$ |
+(94.5 |
+) |
+
+Deduct Series B redeemable preferred dividends
+|
+|
+|
+(32.3 |
+) |
+|
+|
+(31.8 |
+) |
+|
+|
+(30.6 |
+) |
+|
+|
+|
+|
+|
+|
+(64.1 |
+) |
+|
+|
+(60.8 |
+) |
+
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+|
+|
+|
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+
+Basic earnings (loss) available to common shareholders
+|
+|
+$ |
+71.1 |
+|
+|
+$ |
+(5.9 |
+) |
+|
+$ |
+(57.6 |
+) |
+|
+|
+|
+|
+|
+$ |
+65.2 |
+|
+|
+$ |
+(155.3 |
+) |
+
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+|
+|
+|
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+
+Diluted earnings (loss) available to common shareholders
+|
+|
+$ |
+71.1 |
+|
+|
+$ |
+(5.9 |
+) |
+|
+$ |
+(57.6 |
+) |
+|
+|
+|
+|
+|
+$ |
+65.2 |
+|
+|
+$ |
+(155.3 |
+) |
+
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+|
+|
+|
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+
+Denominator
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+Weighted average shares
+|
+|
+|
+154.8 |
+|
+|
+|
+153.6 |
+|
+|
+|
+151.6 |
+|
+|
+|
+|
+|
+|
+|
+154.2 |
+|
+|
+|
+150.9 |
+|
+
+Effect of dilutive securities:
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+Common stock equivalents
+|
+|
+|
+5.2 |
+|
+|
+|
+—  |
+|
+|
+|
+—  |
+|
+|
+|
+|
+|
+|
+|
+5.1 |
+|
+|
+|
+—  |
+|
+
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+|
+|
+|
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+
+Diluted weighted average common shares
+|
+|
+|
+160.0 |
+|
+|
+|
+153.6 |
+|
+|
+|
+151.6 |
+|
+|
+|
+|
+|
+|
+|
+159.3 |
+|
+|
+|
+150.9 |
+|
+
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+|
+|
+|
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+
+Basic earnings (loss) per common share
+|
+|
+$ |
+0.46 |
+|
+|
+$ |
+(0.04 |
+) |
+|
+$ |
+(0.38 |
+) |
+|
+|
+|
+|
+|
+$ |
+0.42 |
+|
+|
+$ |
+(1.03 |
+) |
+
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+|
+|
+|
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+
+Diluted earnings (loss) per common share
+|
+|
+$ |
+0.44 |
+|
+|
+$ |
+(0.04 |
+) |
+|
+$ |
+(0.38 |
+) |
+|
+|
+|
+|
+|
+$ |
+0.41 |
+|
+|
+$ |
+(1.03 |
+) |
+
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+|
+|
+|
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+
+* |
+Amounts may not recalculate due to rounding.
+|
+
+15
+
+Table 9
+
+Non-GAAP Earnings Per Share Calculation*
+
+|
+
+|
+|
+|
+|
+
+|
+|
+|
+|
+
+|
+|
+|
+|
+
+|
+|
+|
+|
+
+|
+|
+|
+|
+
+|
+|
+|
+|
+
+|
+|
+THREE MONTHS ENDED |
+|
+|
+|
+|
+|
+SIX MONTHS ENDED |
+|
+
+$ Millions, except per share amounts (unaudited)
+|
+|
+Dec 31,
+2024 |
+|
+|
+Sep 30,
+2024 (1) |
+|
+|
+Dec 31,
+2023 (1) |
+|
+|
+|
+|
+|
+Dec 31,
+2024 (1) |
+|
+|
+Dec 31,
+2023 (1) |
+|
+
+Numerator
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+Net earnings attributable to Coherent Corp. on non-GAAP
+basis
+|
+|
+$ |
+184.8 |
+|
+|
+$ |
+138.3 |
+|
+|
+$ |
+71.5 |
+|
+|
+|
+|
+|
+|
+$ |
+323.1 |
+|
+|
+$ |
+110.1 |
+|
+
+Deduct Series B redeemable preferred dividends
+|
+|
+|
+(32.3 |
+) |
+|
+|
+(31.8 |
+) |
+|
+|
+(30.6 |
+) |
+|
+|
+|
+|
+|
+|
+(64.1 |
+) |
+|
+|
+(60.8 |
+) |
+
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+|
+|
+|
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+
+Basic earnings available to common shareholders
+|
+|
+$ |
+152.6 |
+|
+|
+$ |
+106.4 |
+|
+|
+$ |
+41.0 |
+|
+|
+|
+|
+|
+|
+$ |
+259.0 |
+|
+|
+$ |
+49.3 |
+|
+
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+|
+|
+|
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+
+Diluted earnings available to common shareholders
+|
+|
+$ |
+152.6 |
+|
+|
+$ |
+106.4 |
+|
+|
+$ |
+41.0 |
+|
+|
+|
+|
+|
+|
+$ |
+259.0 |
+|
+|
+$ |
+49.3 |
+|
+
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+|
+|
+|
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+
+Denominator
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+Weighted average shares
+|
+|
+|
+154.8 |
+|
+|
+|
+153.6 |
+|
+|
+|
+151.6 |
+|
+|
+|
+|
+|
+|
+|
+154.2 |
+|
+|
+|
+150.9 |
+|
+
+Effect of dilutive securities:
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+Common stock equivalents
+|
+|
+|
+5.2 |
+|
+|
+|
+4.9 |
+|
+|
+|
+1.4 |
+|
+|
+|
+|
+|
+|
+|
+5.1 |
+|
+|
+|
+1.6 |
+|
+
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+|
+|
+|
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+
+Diluted weighted average common shares
+|
+|
+|
+160.0 |
+|
+|
+|
+158.6 |
+|
+|
+|
+152.9 |
+|
+|
+|
+|
+|
+|
+|
+159.3 |
+|
+|
+|
+152.6 |
+|
+
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+|
+|
+|
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+
+Basic earnings per common share on non-GAAP
+basis
+|
+|
+$ |
+0.99 |
+|
+|
+$ |
+0.69 |
+|
+|
+$ |
+0.27 |
+|
+|
+|
+|
+|
+|
+$ |
+1.68 |
+|
+|
+$ |
+0.33 |
+|
+
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+|
+|
+|
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+
+Diluted earnings per common share on non-GAAP
+basis
+|
+|
+$ |
+0.95 |
+|
+|
+$ |
+0.67 |
+|
+|
+$ |
+0.27 |
+|
+|
+|
+|
+|
+|
+$ |
+1.63 |
+|
+|
+$ |
+0.32 |
+|
+
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+|
+|
+|
+|
+|
+
+|
+
+|
+|
+|
+
+|
+
+|
+|
+
+* |
+Amounts may not recalculate due to rounding.
+|
+
+(1) |
+During the second fiscal quarter of 2025, the Company refined its methodology to report non-GAAP measures. The change does not impact the Company’s financial position, cash flows, or GAAP consolidated results of operations. Prior period non-GAAP financial
+measures presented in this press release have been recast to conform to the current presentation.
+|
+
+16

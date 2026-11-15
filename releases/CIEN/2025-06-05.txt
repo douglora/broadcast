@@ -1,0 +1,381 @@
+EX-99.1
+2
+ex9912025q2earningspressre.htm
+EX-99.1
+
+Document
+
+FOR IMMEDIATE RELEASE
+
+Ciena Reports Fiscal Second Quarter 2025 Financial Results
+
+HANOVER, Md. - June 5, 2025 - Ciena ® Corporation (NYSE: CIEN), a networking systems, services and software company, today announced unaudited financial results for its fiscal second quarter ended May 3, 2025.
+
+• Q2 Revenue : $1.13 billion
+
+• Q2 Net Income per Share: $0.06 GAAP; $0.42 adjusted (non-GAAP)
+
+• Share Repurchases: Repurchased approximately 1.2 million shares of common stock for an aggregate price of $84.3 million during the quarter
+
+"Our strong fiscal second quarter results demonstrate our continued global leadership in high-speed connectivity with growing momentum across all of our business segments,” said Gary Smith, president and CEO, Ciena. “With accelerating demand driven by cloud and AI, our performance is validating the durability of a positive network infrastructure spending environment. As a result, we have strong visibility and are very confident in both our continued growth and our ability to drive additional operating leverage over time."
+
+For the fiscal second quarter 2025, Ciena reported revenue of $1.13 billion as compared to $910.8 million for the fiscal second quarter 2024.
+
+Ciena's GAAP net income for the fiscal second quarter 2025 was $9.0 million, or $0.06 per diluted common share, which compares to a GAAP net loss of $(16.8) million, or $(0.12) per diluted common share, for the fiscal second quarter 2024.
+
+Ciena's adjusted (non-GAAP) net income for the fiscal second quarter 2025 was $60.7 million, or $0.42 per diluted common share, which compares to an adjusted (non-GAAP) net income of $39.4 million, or $0.27 per diluted common share, for the fiscal second quarter 2024.
+
+1
+
+Fiscal Second Quarter 2025 Performance Summary
+The tables below (in millions, except percentage data) provide comparisons of certain quarterly results to the prior year. Appendices A and B set forth reconciliations between the GAAP and adjusted (non-GAAP) measures contained in this release.
+| | | | | | | | | | | | | | | | | | | | | | | | | | |
+| | GAAP Results (unaudited) |
+| | Q2 | | Q2 | | Period Change | | | | |
+| | FY 2025 | | FY 2024 | | Y-T-Y* | | | | | | |
+Revenue | | $ | 1,125.9 | | | $ | 910.8 | | | 23.6 | % | | | | | | |
+Gross margin | | 40.2 | % | | 42.7 | % | | (2.5) | % | | | | | | |
+Operating expense | | $ | 420.0 | | | $ | 392.6 | | | 7.0 | % | | | | | | |
+Operating margin | | 2.9 | % | | (0.4) | % | | 3.3 | % | | | | | | |
+| | | | | | | | | | | | |
+| | | | | | | | | | | | |
+
+| | | | | | | | | | | | | | | | | | | | | | | | | | |
+| | Non-GAAP Results (unaudited) |
+| | Q2 | | Q2 | | Period Change | | | | |
+| | FY 2025 | | FY 2024 | | Y-T-Y* | | | | | | |
+Revenue | | $ | 1,125.9 | | | $ | 910.8 | | | 23.6 | % | | | | | | |
+Adj. gross margin | | 41.0 | % | | 43.5 | % | | (2.5) | % | | | | | | |
+Adj. operating expense | | $ | 369.5 | | | $ | 333.9 | | | 10.7 | % | | | | | | |
+Adj. operating margin | | 8.2 | % | | 6.8 | % | | 1.4 | % | | | | | | |
+Adj. EBITDA | | $ | 116.7 | | | $ | 85.8 | | | 36.0 | % | | | | | | |
+
+* Denotes % change, or in the case of margin, absolute change
+| | | | | | | | | | | | | | | | | | | | | | | | | | |
+| | Revenue by Segment (unaudited) |
+| | Q2 FY 2025 | | Q2 FY 2024 |
+| | Revenue | | %** | | Revenue | | %** |
+Networking Platforms | | | | | | | | |
+Optical Networking | | $ | 773.6 | | | 68.7 | | | $ | 560.2 | | | 61.5 | |
+Routing and Switching | | 92.7 | | | 8.2 | | | 116.1 | | | 12.7 | |
+Total Networking Platforms | | 866.3 | | | 76.9 | | | 676.3 | | | 74.2 | |
+| | | | | | | | |
+Platform Software and Services | | 85.4 | | | 7.5 | | | 85.4 | | | 9.4 | |
+| | | | | | | | |
+Blue Planet Automation Software and Services | | 28.0 | | | 2.5 | | | 14.4 | | | 1.6 | |
+| | | | | | | | |
+Global Services | | | | | | | | |
+Maintenance Support and Training | | 79.4 | | | 7.1 | | | 77.4 | | | 8.5 | |
+Installation and Deployment | | 58.2 | | | 5.2 | | | 43.8 | | | 4.8 | |
+Consulting and Network Design | | 8.6 | | | 0.8 | | | 13.5 | | | 1.5 | |
+Total Global Services | | 146.2 | | | 13.1 | | | 134.7 | | | 14.8 | |
+| | | | | | | | |
+Total | | $ | 1,125.9 | | | 100.0 | | | $ | 910.8 | | | 100.0 | |
+| | | | | | | | |
+
+** Denotes % of total revenue
+
+2
+
+Additional Performance Metrics for Fiscal Second Quarter 2025
+| | | | | | | | | | | | | | | | | | | | | | | | | | |
+| | Revenue by Geographic Region (unaudited) |
+| | Q2 FY 2025 | | Q2 FY 2024 |
+| | Revenue | | % ** | | Revenue | | % ** |
+Americas | | $ | 833.8 | | | 74.1 | | | $ | 662.9 | | | 72.8 | |
+Europe, Middle East and Africa | | 191.6 | | | 17.0 | | | 155.8 | | | 17.1 | |
+Asia Pacific | | 100.5 | | | 8.9 | | | 92.1 | | | 10.1 | |
+Total | | $ | 1,125.9 | | | 100.0 | | | $ | 910.8 | | | 100.0 | |
+| | | | | | | | |
+
+** Denotes % of total revenue
+• Two customer represented 10%-plus of revenue combining for a total of 23.9% of revenue
+• Cash and investments totaled $1.35 billion
+• Cash flow from operations totaled $156.9 million
+• Average days' sales outstanding (DSOs) were 87
+• Accounts receivable, net balance was $929.8 million
+• Unbilled contract asset, net balance was $151.8 million
+• Inventories totaled $874.3 million, including:
+◦ Raw materials: $647.0 million
+◦ Work in process: $35.3 million
+◦ Finished goods: $273.4 million
+◦ Deferred cost of sales: $36.6 million
+◦ Reserve for excess and obsolescence: $(118.0) million
+• Product inventory turns were 2.5
+• Headcount totaled 8,819
+
+Supplemental Materials and Live Web Broadcast of Unaudited Fiscal Second Quarter 2025 Results
+Today, Thursday, June 5, 2025, in conjunction with this announcement, Ciena has posted to the Quarterly Results page of the Investor Relations section of its website certain related supporting materials for its unaudited fiscal second quarter 2025 results.
+
+Ciena's management will also host a discussion today with investors and financial analysts that will include the Company's outlook. The live audio web broadcast beginning at 8:30 a.m. Eastern will be accessible via www.ciena.com. An archived replay of the live broadcast will be available shortly following its conclusion on the Investor Relations page of Ciena's website.
+
+3
+
+Notes to Investors
+
+Forward-Looking Statements. You are encouraged to review the Investors section of our website, where we routinely post press releases, Securities and Exchange Commission ("SEC") filings, recent news, financial results, supplemental financial information, and other announcements. From time to time we exclusively post material information to this website along with other disclosure channels that we use. This press release contains certain forward-looking statements that involve risks and uncertainties. These statements are based on current expectations, forecasts, assumptions and other information available to the Company as of the date hereof. Forward-looking statements include statements regarding Ciena's expectations, beliefs, intentions or strategies regarding the future and can be identified by forward-looking words such as "anticipate," "believe," "could," "estimate," "expect," "intend," "may," "should," "will," and "would" or similar words. Forward-looking statements in this release include: "Our strong fiscal second quarter results demonstrate our continued global leadership in high-speed connectivity with growing momentum across all of our business segments. With accelerating demand driven by cloud and AI, our performance is validating the durability of a positive network infrastructure spending environment. As a result, we have strong visibility and are very confident in both our continued growth and our ability to drive additional operating leverage over time."
+
+Ciena's actual results, performance or events may differ materially from these forward-looking statements made or implied due to a number of risks and uncertainties relating to Ciena's business, including: the effect of broader economic and market conditions on our customers, their spending and their businesses and markets; our ability to execute our business and growth strategies; the impact of macroeconomic conditions and global supply chain constraints or disruptions including increased supply costs and lead times; the impact of the introduction of new technologies by us or our competitors; seasonality and the timing and size of customer orders, their delivery dates and our ability to recognize revenue relating to such sales; the level of competitive pressure we encounter; the product, customer and geographic mix of sales within the period; changes in foreign currency exchange rates; factors beyond our control such as natural disasters, climate change, acts of war or terrorism, geopolitical tensions or events, including but not limited to the ongoing conflicts between Ukraine and Russia, and Israel and Hamas, and public health emergencies or epidemics and pandemics; changes in tax or trade regulations, including the imposition of tariffs, duties or efforts to withdraw from or materially modify international trade agreements; cyberattacks, data breaches or other security incidents involving our enterprise network environment or our products; regulatory changes, litigation involving our intellectual property or government investigations; and the other risk factors disclosed in Ciena’s periodic reports filed with the Securities and Exchange Commis sion (SEC) including its Annual Report on Form 10-K filed with the SEC on December 20, 2024 and included in its Quarterly Report on Form 10-Q for the second quarter of fiscal 2025 to be filed with the SEC. Ciena assumes no obligation to update any forward-looking information included in this press release.
+
+Non-GAAP Presentation of Quarterly and Annual Results. This release includes non-GAAP measures of Ciena's gross profit, operating expense, income from operations, earnings before interest, tax, depreciation and amortization (EBITDA), Adjusted EBITDA, and measures of net income and net income per share. In evaluating the operating performance of Ciena's business, management excludes certain charges and credits that are required by GAAP. These items share one or more of the following characteristics: they are unusual and Ciena does not expect them to recur in the ordinary course of its business; they do not involve the expenditure of cash; they are unrelated to the ongoing operation of the business in the ordinary course; or their magnitude and timing is largely outside of Ciena's control. Management believes that the non-GAAP measures below provide management and investors useful information and meaningful insight to the operating performance of the business. The presentation of these non-GAAP financial measures should be considered in addition to Ciena's GAAP results and these measures are not intended to be a substitute for the financial information prepared and presented in accordance with GAAP. Ciena's non-GAAP measures and the related adjustments may differ from non-GAAP measures used by other companies and should only be used to evaluate Ciena's results of operations in conjunction with our corresponding GAAP results. To the extent not previously disclosed in a prior Ciena financial results press release, Appendices A and B to this press release set forth a complete GAAP to non-GAAP reconciliation of the non-GAAP measures contained in this release.
+4
+
+About Ciena. Ciena (NYSE: CIEN) is a global leader in networking systems, services, and software. We build the most adaptive networks in the industry, enabling customers to anticipate and meet ever-increasing digital demands. For three-plus decades, Ciena has brought our humanity to our relentless pursuit of innovation. Prioritizing collaborative relationships with our customers, partners, and communities, we create flexible, open, and sustainable networks that better serve all users—today and into the future. For updates on Ciena, follow us on LinkedIn, X, the Ciena Insights blog, or visit www.ciena.com.
+
+5
+
+CIENA CORPORATION
+CONDENSED CONSOLIDATED STATEMENTS OF OPERATIONS
+(in thousands, except per share data)
+(unaudited)
+| | | | | | | | | | | | | | | | | | | | | | | |
+| Quarter Ended | | Six Months Ended |
+| May 3, | | April 27, | | May 3, | | April 27, |
+| 2025 | | 2024 | | 2025 | | 2024 |
+Revenue: | | | | | | | |
+Products | $ | 898,581 | | | $ | 701,316 | | | $ | 1,753,366 | | | $ | 1,537,093 | |
+Services | 227,297 | | | 209,510 | | | 444,772 | | | 411,442 | |
+Total revenue | 1,125,878 | | | 910,826 | | | 2,198,138 | | | 1,948,535 | |
+Cost of goods sold: | | | | | | | |
+Products | 549,984 | | | 415,732 | | | 1,040,788 | | | 882,204 | |
+Services | 123,056 | | | 106,433 | | | 232,691 | | | 210,708 | |
+Total cost of goods sold | 673,040 | | | 522,165 | | | 1,273,479 | | | 1,092,912 | |
+Gross profit | 452,838 | | | 388,661 | | | 924,659 | | | 855,623 | |
+Operating expenses: | | | | | | | |
+Research and development | 214,868 | | | 195,380 | | | 407,531 | | | 382,649 | |
+Selling and marketing | 139,683 | | | 124,071 | | | 276,187 | | | 252,229 | |
+General and administrative | 56,952 | | | 49,573 | | | 110,854 | | | 104,256 | |
+Significant asset impairments and restructuring costs | 1,948 | | | 15,655 | | | 3,492 | | | 20,626 | |
+Amortization of intangible assets | 6,545 | | | 7,947 | | | 13,090 | | | 15,199 | |
+| | | | | | | |
+| | | | | | | |
+Total operating expenses | 419,996 | | | 392,626 | | | 811,154 | | | 774,959 | |
+Income (loss) from operations | 32,842 | | | (3,965) | | | 113,505 | | | 80,664 | |
+Interest and other income, net | 7,871 | | | 11,797 | | | 19,449 | | | 22,447 | |
+Interest expense | (21,697) | | | (23,861) | | | (44,615) | | | (47,637) | |
+Loss on extinguishment and modification of debt | — | | | — | | | (729) | | | — | |
+Income (loss) before income taxes | 19,016 | | | (16,029) | | | 87,610 | | | 55,474 | |
+Provision for income taxes
+| 10,047 | | | 820 | | | 34,069 | | | 22,776 | |
+Net income (loss) | $ | 8,969 | | | $ | (16,849) | | | $ | 53,541 | | | $ | 32,698 | |
+| | | | | | | |
+Net Income (Loss) per Common Share | | | | | | | |
+Basic net income (loss) per common share | $ | 0.06 | | | $ | (0.12) | | | $ | 0.38 | | | $ | 0.23 | |
+Diluted net income (loss) per potential common share | $ | 0.06 | | | $ | (0.12) | | | $ | 0.37 | | | $ | 0.22 | |
+| | | | | | | |
+Weighted average basic common shares outstanding | 142,503 | | | 144,914 | | | 142,704 | | | 145,104 | |
+Weighted average dilutive potential common shares outstanding 1
+| 144,972 | | | 144,914 | | | 145,470 | | | 146,059 | |
+
+1 Weighted average dilutive potential common shares outstanding used in calculating GAAP diluted net income (loss) per potential common share includes the following number of shares underlying certain stock option and stock unit awards: (i) 2.5 million and 2.8 million for the second quarter and first six months of fiscal 2025, respectively; and (ii) 1.0 million for the first six months of fiscal 2024.
+
+6
+
+CIENA CORPORATION
+CONDENSED CONSOLIDATED BALANCE SHEETS
+(in thousands, except share data)
+(unaudited)
+| | | | | | | | | | | |
+| May 3,
+2025 | | November 2,
+2024 |
+ASSETS | | | |
+Current assets: | | | |
+Cash and cash equivalents | $ | 949,771 | | | $ | 934,863 | |
+Short-term investments | 304,177 | | | 316,343 | |
+Accounts receivable, net | 929,799 | | | 908,597 | |
+Inventories, net | 874,326 | | | 820,430 | |
+Prepaid expenses and other | 506,252 | | | 564,183 | |
+Total current assets | 3,564,325 | | | 3,544,416 | |
+Long-term investments | 92,121 | | | 80,920 | |
+Equipment, building, furniture and fixtures, net | 349,349 | | | 337,722 | |
+Operating lease right-of-use assets | 38,655 | | | 27,417 | |
+Goodwill | 444,805 | | | 444,707 | |
+Other intangible assets, net | 147,459 | | | 165,020 | |
+Deferred tax asset, net | 863,571 | | | 886,441 | |
+Other long-term assets | 159,081 | | | 154,694 | |
+Total assets | $ | 5,659,366 | | | $ | 5,641,337 | |
+LIABILITIES AND STOCKHOLDERS’ EQUITY | | | |
+Current liabilities: | | | |
+Accounts payable | $ | 419,077 | | | $ | 423,401 | |
+Accrued liabilities and other short-term obligations | 381,398 | | | 393,905 | |
+Deferred revenue | 221,835 | | | 156,379 | |
+Operating lease liabilities | 13,170 | | | 14,455 | |
+Current portion of long-term debt | 11,580 | | | 11,700 | |
+| | | |
+Total current liabilities | 1,047,060 | | | 999,840 | |
+Long-term deferred revenue | 83,239 | | | 81,240 | |
+Other long-term obligations | 188,809 | | | 185,938 | |
+Long-term operating lease liabilities | 35,103 | | | 25,107 | |
+Long-term debt, net | 1,528,776 | | | 1,533,074 | |
+Total liabilities | 2,882,987 | | | 2,825,199 | |
+Stockholders’ equity: | | | |
+Preferred stock – par value $0.01; 20,000,000 shares authorized; zero shares issued and outstanding
+| — | | | — | |
+Common stock – par value $0.01; 290,000,000 shares authorized; 141,686,082 and 142,656,116 shares issued and outstanding
+| 1,417 | | | 1,427 | |
+Additional paid-in capital | 6,054,464 | | | 6,154,869 | |
+Accumulated other comprehensive loss | (39,596) | | | (46,711) | |
+Accumulated deficit | (3,239,906) | | | (3,293,447) | |
+Total stockholders’ equity | 2,776,379 | | | 2,816,138 | |
+Total liabilities and stockholders’ equity | $ | 5,659,366 | | | $ | 5,641,337 | |
+| | | |
+
+7
+
+CIENA CORPORATION
+CONDENSED CONSOLIDATED STATEMENTS OF CASH FLOWS
+(in thousands)
+(unaudited) | | | | | | | | | | | |
+| Six Months Ended |
+| May 3, | | April 27, |
+| 2025 | | 2024 |
+Cash flows provided by operating activities: | | | |
+Net income | $ | 53,541 | | | $ | 32,698 | |
+Adjustments to reconcile net income to net cash provided by operating activities: | | | |
+| | | |
+Depreciation of equipment, building, furniture and fixtures, and amortization of leasehold improvements | 49,771 | | | 46,016 | |
+Share-based compensation expense | 88,767 | | | 78,075 | |
+Amortization of intangible assets | 17,555 | | | 20,726 | |
+Deferred taxes | (10,470) | | | (8,946) | |
+Provision for inventory excess and obsolescence | 23,431 | | | 23,152 | |
+Provision for warranty | 10,714 | | | 8,629 | |
+| | | |
+Other | (6,355) | | | 11,509 | |
+Changes in assets and liabilities: | | | |
+Accounts receivable | (20,857) | | | 155,107 | |
+Inventories | (76,904) | | | 5,346 | |
+Prepaid expenses and other | 84,144 | | | (37,441) | |
+Operating lease right-of-use assets | 5,580 | | | 6,111 | |
+Accounts payable, accruals and other obligations | (16,755) | | | (56,064) | |
+Deferred revenue | 66,493 | | | 48,641 | |
+Short and long-term operating lease liabilities | (7,986) | | | (9,010) | |
+Net cash provided by operating activities | 260,669 | | | 324,549 | |
+Cash flows used in investing activities: | | | |
+Payments for equipment, furniture, fixtures and intellectual property | (55,622) | | | (33,500) | |
+| | | |
+Purchases of investments | (159,102) | | | (171,131) | |
+Proceeds from sales and maturities of investments | 164,837 | | | 83,013 | |
+Settlement of foreign currency forward contracts, net | 2,441 | | | (828) | |
+Purchase of equity investments | — | | | (16,256) | |
+| | | |
+| | | |
+| | | |
+Net cash used in investing activities | (47,446) | | | (138,702) | |
+Cash flows used in financing activities: | | | |
+Proceeds for modification of debt, net | 19,175 | | | — | |
+Cash paid for extinguishment of debt | (19,175) | | | — | |
+Payment of long term debt | (5,790) | | | (2,925) | |
+Payment of debt issuance costs | (12) | | | (2,554) | |
+Payment of finance lease obligations | (2,110) | | | (1,989) | |
+Shares repurchased for tax withholdings on vesting of stock unit awards | (42,266) | | | (22,428) | |
+Repurchases of common stock - repurchase program, net | (168,197) | | | (94,817) | |
+Proceeds from issuance of common stock | 17,132 | | | 16,876 | |
+Net cash used in financing activities | (201,243) | | | (107,837) | |
+Effect of exchange rate changes on cash, cash equivalents and restricted cash | 2,937 | | | 2,659 | |
+Net increase in cash, cash equivalents and restricted cash | 14,917 | | | 80,669 | |
+Cash, cash equivalents and restricted cash at beginning of period | 935,026 | | | 1,010,786 | |
+Cash, cash equivalents and restricted cash at end of period | $ | 949,943 | | | $ | 1,091,455 | |
+Supplemental disclosure of cash flow information | | | |
+Cash paid during the period for interest, net | $ | 43,200 | | | $ | 45,782 | |
+Cash paid during the period for income taxes, net | $ | 55,466 | | | $ | 29,193 | |
+Operating lease payments | $ | 8,812 | | | $ | 9,964 | |
+Non-cash investing and financing activities | | | |
+Purchase of equipment in accounts payable | $ | 12,545 | | | $ | 6,365 | |
+| | | |
+Repurchase of common stock in accrued liabilities from repurchase program, net | $ | 2,023 | | | $ | 3,859 | |
+Operating right-of-use assets subject to lease liability | $ | 16,351 | | | $ | 3,639 | |
+| | | |
+
+8
+
+| | | | | | | | | | | | | | | | | | |
+APPENDIX A - Reconciliation of Adjusted (Non- GAAP) Measurements |
+(in thousands, except per share data) (unaudited) |
+| | | | | | | | |
+| | Quarter Ended | | |
+| | May 3, | | April 27, | | | | |
+| | 2025 | | 2024 | | | | |
+Gross Profit Reconciliation (GAAP/non-GAAP) | | | | | | | | |
+GAAP gross profit | | $ | 452,838 | | | $ | 388,661 | | | | | |
+Share-based compensation-products | | 2,033 | | | 1,760 | | | | | |
+Share-based compensation-services | | 3,980 | | | 3,344 | | | | | |
+Amortization of intangible assets | | 2,232 | | | 2,763 | | | | | |
+Total adjustments related to gross profit | | 8,245 | | | 7,867 | | | | | |
+Adjusted (non-GAAP) gross profit | | $ | 461,083 | | | $ | 396,528 | | | | | |
+Adjusted (non-GAAP) gross profit percentage | | 41.0 | % | | 43.5 | % | | | | |
+| | | | | | | | |
+Operating Expense Reconciliation (GAAP/non-GAAP) | | | | | | | | |
+GAAP operating expense | | $ | 419,996 | | | $ | 392,626 | | | | | |
+Share-based compensation-research and development | | 17,021 | | | 14,066 | | | | | |
+Share-based compensation-sales and marketing | | 13,649 | | | 11,166 | | | | | |
+Share-based compensation-general and administrative | | 11,341 | | | 9,875 | | | | | |
+Significant asset impairments and restructuring costs | | 1,948 | | | 15,655 | | | | | |
+Amortization of intangible assets | | 6,545 | | | 7,947 | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+Total adjustments related to operating expense | | 50,504 | | | 58,709 | | | | | |
+Adjusted (non-GAAP) operating expense | | $ | 369,492 | | | $ | 333,917 | | | | | |
+| | | | | | | | |
+Income (Loss) from Operations Reconciliation (GAAP/non-GAAP) | | | | | | | | |
+GAAP income (loss) from operations | | $ | 32,842 | | | $ | (3,965) | | | | | |
+Total adjustments related to gross profit | | 8,245 | | | 7,867 | | | | | |
+Total adjustments related to operating expense | | 50,504 | | | 58,709 | | | | | |
+Total adjustments related to income (loss) from operations | | 58,749 | | | 66,576 | | | | | |
+Adjusted (non-GAAP) income from operations | | $ | 91,591 | | | $ | 62,611 | | | | | |
+Adjusted (non-GAAP) operating margin percentage | | 8.2 | % | | 6.8 | % | | | | |
+| | | | | | | | |
+Net Income (Loss) Reconciliation (GAAP/non-GAAP) | | | | | | | | |
+GAAP net income (loss) | | $ | 8,969 | | | $ | (16,849) | | | | | |
+Exclude GAAP provision for income taxes | | 10,047 | | | 820 | | | | | |
+Income (loss) before income taxes | | 19,016 | | | (16,029) | | | | | |
+Total adjustments related to income (loss) from operations | | 58,749 | | | 66,576 | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+Adjusted income before income taxes | | 77,765 | | | 50,547 | | | | | |
+Non-GAAP tax provision on adjusted income before income taxes | | 17,108 | | | 11,120 | | | | | |
+Adjusted (non-GAAP) net income | | $ | 60,657 | | | $ | 39,427 | | | | | |
+| | | | | | | | |
+Weighted average basic common shares outstanding | | 142,503 | | 144,914 | | | | |
+Weighted average dilutive potential common shares outstanding 1
+| | 144,972 | | 146,268 | | | | |
+| | | | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+Net Income (Loss) per Common Share | | | | | | | | |
+GAAP diluted net income (loss) per potential common share | | $ | 0.06 | | | $ | (0.12) | | | | | |
+Adjusted (non-GAAP) diluted net income per potential common share | | $ | 0.42 | | | $ | 0.27 | | | | | |
+
+1 Weighted average dilutive potential common shares outstanding used in calculating Adjusted (non-GAAP) diluted net income per potential common share includes the following number of shares underlying certain stock option and stock unit awards: (i) 2.5 million for the second quarter of fiscal 2025; and (ii) 1.4 million for the second quarter of fiscal 2024.
+9
+
+| | | | | | | | | | | | | | | | | | |
+APPENDIX B - Calculation of EBITDA and Adjusted EBITDA |
+(in thousands) (unaudited) |
+| | | | | | | | |
+| | Quarter Ended | | |
+| | May 3, | | April 27, | | | | |
+| | 2025 | | 2024 | | | | |
+Earnings Before Interest, Tax, Depreciation and Amortization (EBITDA) | | | | | | | | |
+Net income (loss) (GAAP) | | $ | 8,969 | | | $ | (16,849) | | | | | |
+Add: Interest expense | | 21,697 | | | 23,861 | | | | | |
+Less: Interest and other income, net | | 7,871 | | | 11,797 | | | | | |
+| | | | | | | | |
+Add: Provision for income taxes | | 10,047 | | | 820 | | | | | |
+Add: Depreciation of equipment, building, furniture and fixtures, and amortization of leasehold improvements | | 25,092 | | | 23,208 | | | | | |
+Add: Amortization of intangible assets | | 8,777 | | | 10,710 | | | | | |
+EBITDA | | $ | 66,711 | | | $ | 29,953 | | | | | |
+Add: Share-based compensation expense | | 48,024 | | | 40,211 | | | | | |
+Add: Significant asset impairments and restructuring costs | | 1,948 | | | 15,655 | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+Adjusted EBITDA | | $ | 116,683 | | | $ | 85,819 | | | | | |
+
+* * *
+The adjusted (non-GAAP) measures above and their reconciliation to Ciena's GAAP results for the periods presented reflect adjustments relating to the following items:
+• Share-based compensation - a non-cash expense incurred in accordance with share-based compensation accounting guidance.
+• Significant asset impairments and restructuring costs - costs incurred as a result of restructuring activities taken to align resources with perceived market opportunities, the redesign of business processes and restructuring certain real estate facilities.
+• Amortization of intangible assets - a non-cash expense arising from the acquisition of intangible assets, principally developed technologies and customer-related intangibles, that Ciena is required to amortize over an expected useful life.
+• Non-GAAP tax provision - consists of current and deferred income tax expense commensurate with the level of adjusted income before income taxes and utilizes a current, blended U.S. and foreign statutory annual tax rate of 22.0% for both the second quarter of fiscal 2025 and fiscal 2024. This rate may be subject to change in the future, including as a result of changes in tax policy or tax strategy.
+10

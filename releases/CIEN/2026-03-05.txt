@@ -1,0 +1,376 @@
+EX-99.1
+2
+ex9912026q1earningspressre.htm
+EX-99.1
+
+Document
+
+FOR IMMEDIATE RELEASE
+
+Ciena Reports Fiscal First Quarter 2026 Financial Results
+
+Summary
+• Fiscal first quarter 2026 revenue was $1.43 billion, up 33% year-over-year
+• Fiscal first quarter 2026 adjusted Earnings Per Share (EPS) was $1.35, an increase of 111% compared to fiscal first quarter 2025
+• Providing revenue guidance of $1.5 billion plus or minus $50 million for fiscal second quarter 2026
+• Raising revenue guidance range for fiscal year 2026 to $5.9 billion to $6.3 billion, a 28% increase year-over-year at the midpoint
+
+HANOVER, Md. - March 5, 2026 - Ciena ® Corporation (NYSE: CIEN) today announced financial results for its fiscal first quarter ended January 31, 2026.
+"We delivered a very strong fiscal first quarter, driven by focused execution and unprecedented, broad-based demand as we enable customers to monetize their AI investments,” said Gary Smith, President and Chief Executive Officer of Ciena. "With industry‑leading technology and deep customer relationships, we are well positioned to meet multi‑year demand as AI‑driven networking continues to scale. We are investing and executing to deliver long‑term value for our shareholders and to support the full range of high‑speed connectivity needs for our customers."
+Performance Summary for Fiscal First Quarter Ended January 31, 2026
+Revenue:
+• $1.43 billion in the fiscal first quarter 2026, compared to $1.07 billion in the fiscal first quarter 2025
+
+Net Income per diluted share:
+• $1.03 GAAP and $1.35 adjusted (non-GAAP) for the fiscal first quarter 2026, compared to $0.31 and $0.64 for fiscal first quarter 2025, respectively
+
+The tables below (in millions, except percentage data) provide comparisons of certain quarterly results. Appendices A and B set forth reconciliations between the GAAP and adjusted (non-GAAP) measures contained in this release.
+1
+
+| | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| | GAAP Results (unaudited) | | Non-GAAP Results (unaudited) |
+| | Quarter Ended | | Period | | Quarter Ended | | Period |
+| | January 31, | | February 1, | | Change | | January 31, | | February 1, | | Change |
+| | 2026 | | 2025 | | Y-T-Y* | | 2026 | | 2025 | | Y-T-Y* |
+Revenue | | $ | 1,427.0 | | | $ | 1,072.3 | | | 33.1 | % | | $ | 1,427.0 | | | $ | 1,072.3 | | | 33.1 | % |
+Gross margin | | 43.8 | % | | 44.0 | % | | (0.2) | % | | 44.7 | % | | 44.7 | % | | — | % |
+Operating expense | | $ | 436.1 | | | $ | 391.2 | | | 11.5 | % | | $ | 383.2 | | | $ | 347.4 | | | 10.3 | % |
+Operating margin | | 13.3 | % | | 7.5 | % | | 5.8 | % | | 17.9 | % | | 12.3 | % | | 5.6 | % |
+EBITDA | | $ | 233.2 | | | $ | 114.1 | | | 104.4 | % | | $ | 287.3 | | | $ | 156.5 | | | 83.6 | % |
+
+* Denotes % change, or in the case of margin, absolute change
+Business Outlook
+“With a historically strong order book and record Q1 backlog, we are poised to deliver strong results, supported by durable demand, through 2026 and into 2027,” said Marc Graff, Ciena’s Chief Financial Officer. “Our strong balance sheet and financial discipline position the company to meet growing demand while improving profitability and shareholder returns.”
+Ciena expects fiscal second quarter 2026 to include:
+• Revenue in the range of $1.5 billion plus or minus $50 million
+• Adjusted (non-GAAP) gross margin between 43.5% and 44.5%
+• Adjusted (non-GAAP) operating expense of approximately $375 to $390 million
+• Adjusted (non-GAAP) operating margin between 17.5% and 18.5%
+Ciena expects fiscal year 2026 to include:
+• Revenue in the range of $5.9 billion to $6.3 billion
+• Adjusted (non-GAAP) gross margin between 43.5% and 44.5%
+• Adjusted (non-GAAP) operating expense of approximately $1.52 to $1.53 billion
+• Adjusted (non-GAAP) operating margin between 17.5% and 19.5%
+
+Statements relating to business outlook are forward-looking in nature and actual results may differ materially. These statements should be read in the context of the “Economic considerations and assumptions in our 2026 outlook” in our accompanying Earnings Presentation and each of the "Forward-Looking Statements" and "Reconciliation of Adjusted (Non- GAAP) Measurements" found in the Notes to Investors below.
+Financial Highlights for the Fiscal First Quarter 2026
+• Three customers represented 10%-plus of revenue for a total of 47.4% of revenue.
+• Average days' sales outstanding (DSOs) were 72.
+• Inventory turns were 3.2.
+• Repurchased approximately 0.4 million shares of common stock for an aggregate price of $80.5 million under the $1 billion share repurchase program.
+2
+
+Financial Performance by Segment | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| | Revenue by Segment (unaudited) |
+| | Quarter Ended |
+| | January 31, 2026 | | February 1, 2025 |
+| | Revenue | | %** | | Revenue | | %** |
+Networking Platforms | | | | | | | | |
+Optical Networking | | $ | 1,023.2 | | | 71.7 | | | $ | 728.0 | | | 67.9 | |
+Routing and Switching | | 126.0 | | | 8.8 | | | 93.2 | | | 8.7 | |
+Total Networking Platforms | | 1,149.2 | | | 80.5 | | | 821.2 | | | 76.6 | |
+| | | | | | | | |
+Platform Software and Services | | 93.3 | | | 6.5 | | | 95.1 | | | 8.9 | |
+| | | | | | | | |
+Blue Planet Automation Software and Services | | 20.4 | | | 1.5 | | | 26.0 | | | 2.4 | |
+| | | | | | | | |
+Global Services | | | | | | | | |
+Maintenance, Support, and Learning | | 87.6 | | | 6.1 | | | 74.6 | | | 7.0 | |
+Implementation | | 67.9 | | | 4.8 | | | 47.7 | | | 4.4 | |
+Advisory and Enablement | | 8.6 | | | 0.6 | | | 7.7 | | | 0.7 | |
+Total Global Services | | 164.1 | | | 11.5 | | | 130.0 | | | 12.1 | |
+| | | | | | | | |
+Total | | $ | 1,427.0 | | | 100.0 | | | $ | 1,072.3 | | | 100.0 | |
+| | | | | | | | |
+
+** Denotes % of total revenue
+
+Supplemental Materials and Live Web Broadcast of Unaudited Fiscal First Quarter 2026 Results
+Today, Thursday, March 5, 2026, in conjunction with this announcement, Ciena has posted to the Quarterly Results page of the Investor Relations section of its website certain related supporting materials for its unaudited fiscal first quarter 2026 results.
+
+Ciena's management will also host a discussion today with investors and financial analysts that will include the Company's outlook. The live audio web broadcast beginning at 8:30 a.m. Eastern will be accessible via www.ciena.com. An archived replay of the live broadcast will be available shortly following its conclusion on the Investor Relations page of Ciena's website.
+
+Notes to Investors
+
+Forward-Looking Statements. You are encouraged to review the Investors section of our website, where we routinely post press releases, Securities and Exchange Commission ("SEC") filings, recent news, financial results, supplemental financial information, and other announcements. From time to time we exclusively post material information to this website along with other disclosure channels that we use. This press release contains certain forward-looking statements that involve risks and uncertainties. These statements are based on current expectations, forecasts, assumptions and other information available to the Company as of the date hereof. Forward-looking statements include statements regarding Ciena's expectations, beliefs, intentions or strategies regarding the future and can be identified by forward-looking words such as "anticipate," "believe," "could," "estimate," "expect," "intend," "may," "should," "will," and "would" or similar words. Forward-looking statements in this release include
+3
+
+the "Business Outlook" section of this press release and "We delivered a very strong fiscal first quarter, driven by focused execution and unprecedented, broad-based demand as we enable customers to monetize their AI investments. With industry‑leading technology and deep customer relationships, we are well positioned to meet multi‑year demand as AI‑driven networking continues to scale. We are investing and executing to deliver long‑term value for our shareholders and to support the full range of our customers’ high‑speed connectivity needs." and “With a historically strong order book and record Q1 backlog, we are poised to deliver strong results, supported by durable demand, through 2026 and into 2027. Our strong balance sheet and financial discipline position the company to meet growing demand while improving profitability and shareholder returns.”
+
+Ciena's actual results, performance or events may differ materially from these forward-looking statements made or implied due to a number of risks and uncertainties relating to Ciena's business, including: the effect of broader economic and market conditions on our business and that of our customers, including their spending; the development and use of artificial intelligence and its impact on overall networking technology spending; our ability to execute our business and growth strategies; supply chain constraints or disruptions including increased costs and lead times; the introduction of new technologies by us or our competitors; the timing and size of customer orders, their delivery dates and our ability to fulfill and recognize revenue relating to such sales; the level of competitive pressure we encounter; the product, customer and geographic mix of sales within the period; changes in foreign currency exchange rates; factors beyond our control such as natural disasters, climate change, acts of war or terrorism, geopolitical tensions or events, and public health emergencies, epidemics, or pandemics; changes in tax or trade regulations, including the imposition of tariffs, duties or efforts to withdraw from or materially modify international trade agreements; cyberattacks, data breaches or other security incidents involving our enterprise network environment or our products; regulatory changes, litigation involving our intellectual property or government investigations; and the other risk factors disclosed in Ciena’s periodic reports filed with the Securities and Exchange Commis sion (SEC) including its Annual Report on Form 10-K filed with the SEC on December 12, 2025 and included in its Quarterly Report on Form 10-Q for the first quarter of fiscal 2026 to be filed with the SEC. Ciena assumes no obligation to update any forward-looking information included in this press release.
+
+Non-GAAP Presentation of Quarterly and Annual Results. This release includes non-GAAP measures of Ciena's gross profit, operating expense, income from operations, earnings before interest, tax, depreciation and amortization (EBITDA), Adjusted EBITDA, and measures of net income and net income per share. In evaluating the operating performance of Ciena's business, management excludes certain charges and credits that are required by GAAP. These items share one or more of the following characteristics: they are unusual and Ciena does not expect them to recur in the ordinary course of its business; they do not involve the expenditure of cash; they are unrelated to the ongoing operation of the business in the ordinary course; or their magnitude and timing is largely outside of Ciena's control. Management believes that the non-GAAP measures below provide management and investors useful information and meaningful insight to the operating performance of the business. The presentation of these non-GAAP financial measures should be considered in addition to Ciena's GAAP results and these measures are not intended to be a substitute for the financial information prepared and presented in accordance with GAAP. Ciena's non-GAAP measures and the related adjustments may differ from non-GAAP measures used by other companies and should only be used to evaluate Ciena's results of operations in conjunction with our corresponding GAAP results. To the extent not previously disclosed in a prior Ciena financial results press release, Appendices A and B to this press release set forth a complete GAAP to non-GAAP reconciliation of the non-GAAP measures contained in this release.
+
+With respect to Ciena’s expectations under “Business Outlook” above, Ciena is not able to provide a quantitative reconciliation of the adjusted (non-GAAP) gross margin, adjusted (non-GAAP) operating expense, and adjusted (non-GAAP) operating margin guidance measures to the corresponding gross margin, operating expense, and operating margin GAAP measures without unreasonable efforts. Ciena cannot provide meaningful estimates of the non-recurring charges and credits excluded from these non-GAAP measures due to the forward-looking nature of these estimates and their inherent variability and uncertainty. For the same reasons, Ciena is unable to address the probable significance of the unavailable information.
+
+4
+
+About Ciena. Ciena is the global leader in high-speed connectivity. We build the world’s most advanced networks to support exponential growth in bandwidth demand. By harnessing the power of our networking systems, interconnects, automation software, and services, Ciena revolutionizes data transmission and network management. With unparalleled expertise and innovation, we empower our customers, partners, and communities to thrive in the AI era. For updates on Ciena, follow us on LinkedIn, X, the Ciena Insights blog, or visit www.ciena.com.
+
+5
+
+CIENA CORPORATION
+CONDENSED CONSOLIDATED STATEMENTS OF OPERATIONS
+(in thousands, except per share data)
+(unaudited)
+| | | | | | | | | | | | | | | |
+| Quarter Ended | | |
+| January 31, | | February 1, | | | | |
+| 2026 | | 2025 | | | | |
+Revenue: | | | | | | | |
+Products | $ | 1,179,870 | | | $ | 854,785 | | | | | |
+Services | 247,172 | | | 217,475 | | | | | |
+Total revenue | 1,427,042 | | | 1,072,260 | | | | | |
+Cost of goods sold: | | | | | | | |
+Products | 666,574 | | | 490,804 | | | | | |
+Services | 134,948 | | | 109,635 | | | | | |
+Total cost of goods sold | 801,522 | | | 600,439 | | | | | |
+Gross profit | 625,520 | | | 471,821 | | | | | |
+Operating expenses: | | | | | | | |
+Research and development | 221,458 | | | 192,663 | | | | | |
+Selling and marketing | 148,867 | | | 136,504 | | | | | |
+General and administrative | 59,243 | | | 53,902 | | | | | |
+Significant asset impairments and restructuring costs | 1,498 | | | 1,544 | | | | | |
+Amortization of intangible assets | 4,736 | | | 6,545 | | | | | |
+Acquisition and integration costs | 306 | | | — | | | | | |
+| | | | | | | |
+Total operating expenses | 436,108 | | | 391,158 | | | | | |
+Income from operations | 189,412 | | | 80,663 | | | | | |
+Interest and other income, net | 12,957 | | | 11,578 | | | | | |
+Interest expense | (21,254) | | | (22,918) | | | | | |
+Loss on extinguishment and modification of debt | — | | | (729) | | | | | |
+Income before income taxes | 181,115 | | | 68,594 | | | | | |
+Provision for income taxes | 30,832 | | | 24,022 | | | | | |
+Net income | $ | 150,283 | | | $ | 44,572 | | | | | |
+| | | | | | | |
+Net Income per Common Share | | | | | | | |
+Basic net income per common share | $ | 1.06 | | | $ | 0.31 | | | | | |
+Diluted net income per potential common share | $ | 1.03 | | | $ | 0.31 | | | | | |
+| | | | | | | |
+Weighted average basic common shares outstanding | 141,676 | | | 142,880 | | | | | |
+Weighted average dilutive potential common shares outstanding 1
+| 145,799 | | | 145,944 | | | | | |
+
+1 Weighted average dilutive potential common shares outstanding used in calculating GAAP diluted net income per potential common share includes the following number of shares underlying certain stock option and stock unit awards: (i) 4.1 million for the first quarter ended fiscal 2026; and (ii) 3.1 million for the first quarter ended fiscal 2025.
+
+6
+
+CIENA CORPORATION
+CONDENSED CONSOLIDATED BALANCE SHEETS
+(in thousands, except share data)
+(unaudited)
+| | | | | | | | | | | |
+| January 31, | | November 1, |
+| 2026 | | 2025 |
+ASSETS | | | |
+Current assets: | | | |
+Cash and cash equivalents | $ | 1,123,413 | | | $ | 1,091,952 | |
+Short-term investments | 176,315 | | | 216,148 | |
+Accounts receivable, net | 967,408 | | | 975,856 | |
+Inventories, net | 845,823 | | | 826,235 | |
+Prepaid expenses and other | 427,918 | | | 455,316 | |
+Total current assets | 3,540,877 | | | 3,565,507 | |
+Long-term investments | 69,876 | | | 57,142 | |
+Equipment, building, furniture and fixtures, net | 437,838 | | | 386,779 | |
+Operating lease right-of-use assets | 40,484 | | | 38,613 | |
+Goodwill | 521,712 | | | 521,204 | |
+Other intangible assets, net | 212,689 | | | 224,210 | |
+Deferred tax asset, net | 877,995 | | | 884,889 | |
+Other long-term assets | 190,888 | | | 186,323 | |
+Total assets | $ | 5,892,359 | | | $ | 5,864,667 | |
+LIABILITIES AND STOCKHOLDERS’ EQUITY | | | |
+Current liabilities: | | | |
+Accounts payable | $ | 547,221 | | | $ | 542,841 | |
+Accrued liabilities and other short-term obligations | 395,881 | | | 531,081 | |
+Deferred revenue | 290,418 | | | 208,936 | |
+Operating lease liabilities | 13,273 | | | 13,956 | |
+Current portion of long-term debt | 11,580 | | | 11,580 | |
+| | | |
+Total current liabilities | 1,258,373 | | | 1,308,394 | |
+Long-term deferred revenue | 100,455 | | | 94,850 | |
+Other long-term obligations | 182,329 | | | 175,426 | |
+Long-term operating lease liabilities | 34,100 | | | 32,516 | |
+Long-term debt, net | 1,524,744 | | | 1,524,158 | |
+Total liabilities | 3,100,001 | | | 3,135,344 | |
+Stockholders’ equity: | | | |
+Preferred stock – par value $0.01; 20,000,000 shares authorized; zero shares issued and outstanding
+| — | | | — | |
+Common stock – par value $0.01; 290,000,000 shares authorized; 141,452,656 and 141,016,300 shares issued and outstanding
+| 1,415 | | | 1,410 | |
+Additional paid-in capital | 5,849,492 | | | 5,953,057 | |
+Accumulated other comprehensive loss | (38,723) | | | (55,035) | |
+Accumulated deficit | (3,019,826) | | | (3,170,109) | |
+Total stockholders’ equity | 2,792,358 | | | 2,729,323 | |
+Total liabilities and stockholders’ equity | $ | 5,892,359 | | | $ | 5,864,667 | |
+| | | |
+
+7
+
+CIENA CORPORATION
+CONDENSED CONSOLIDATED STATEMENTS OF CASH FLOWS
+(in thousands)
+(unaudited) | | | | | | | | | | | |
+| Quarter Ended |
+| January 31, | | February 1, |
+| 2026 | | 2025 |
+Cash flows provided by operating activities: | | | |
+Net income | $ | 150,283 | | | $ | 44,572 | |
+Adjustments to reconcile net income to net cash provided by operating activities: | | | |
+| | | |
+Depreciation of equipment, building, furniture and fixtures, and amortization of leasehold improvements | 32,309 | | | 24,679 | |
+| | | |
+Share-based compensation expense | 49,827 | | | 40,806 | |
+Amortization of intangible assets | 11,521 | | | 8,778 | |
+Deferred taxes | (7,043) | | | (17,085) | |
+Provision for inventory excess and obsolescence | 21,832 | | | 10,918 | |
+Provision for warranty | 8,185 | | | 5,697 | |
+| | | |
+Other | (1,545) | | | (6,655) | |
+Changes in assets and liabilities: | | | |
+Accounts receivable | 9,406 | | | (33,454) | |
+Inventories | (41,228) | | | (35,844) | |
+Prepaid expenses and other | 40,024 | | | 92,036 | |
+Operating lease right-of-use assets | 2,879 | | | 2,902 | |
+Accounts payable, accruals and other obligations | (130,907) | | | (49,577) | |
+Deferred revenue | 86,013 | | | 20,311 | |
+Short and long-term operating lease liabilities | (3,911) | | | (4,361) | |
+Net cash provided by operating activities | 227,645 | | | 103,723 | |
+Cash flows used in investing activities: | | | |
+Payments for equipment, furniture, and fixtures | (73,885) | | | (26,884) | |
+| | | |
+Purchases of investments | (39,919) | | | (97,024) | |
+Proceeds from sales and maturities of investments | 68,882 | | | 55,061 | |
+Settlement of foreign currency forward contracts, net | 1,036 | | | 1,757 | |
+| | | |
+| | | |
+| | | |
+| | | |
+Net cash used in investing activities | (43,886) | | | (67,090) | |
+Cash flows used in financing activities: | | | |
+Proceeds for modification of debt, net | — | | | 19,175 | |
+Cash paid for extinguishment of debt | — | | | (19,175) | |
+Payment of long term debt | — | | | (2,895) | |
+Payment of debt issuance costs | — | | | (10) | |
+Payment of finance lease obligations | (1,158) | | | (1,020) | |
+Shares repurchased for tax withholdings on vesting of stock unit awards | (90,100) | | | (25,489) | |
+Repurchases of common stock - repurchase program, net | (80,513) | | | (81,176) | |
+Proceeds from issuance of common stock | 17,226 | | | 17,133 | |
+Net cash used in financing activities | (154,545) | | | (93,457) | |
+Effect of exchange rate changes on cash, cash equivalents and restricted cash | 2,247 | | | (3,289) | |
+Net increase (decrease) in cash, cash equivalents and restricted cash | 31,461 | | | (60,113) | |
+Cash, cash equivalents and restricted cash at beginning of period | 1,092,197 | | | 935,026 | |
+Cash, cash equivalents and restricted cash at end of period | $ | 1,123,658 | | | $ | 874,913 | |
+Supplemental disclosure of cash flow information | | | |
+Cash paid during the period for interest, net | $ | 16,879 | | | $ | 25,559 | |
+Cash paid during the period for income taxes, net | $ | 10,718 | | | $ | 10,426 | |
+Operating lease payments | $ | 4,516 | | | $ | 4,762 | |
+Non-cash investing and financing activities | | | |
+Purchase of equipment in accounts payable | $ | 14,910 | | | $ | 4,735 | |
+| | | |
+Repurchase of common stock in accrued liabilities from repurchase program, net | $ | 2,579 | | | $ | 4,198 | |
+Operating right-of-use assets subject to lease liability | $ | 4,894 | | | $ | 1,056 | |
+| | | |
+
+8
+
+| | | | | | | | | | | | | | | | | | |
+APPENDIX A - Reconciliation of Adjusted (Non- GAAP) Measurements |
+(in thousands, except per share data) (unaudited) |
+| | | | | | | | |
+| | Quarter Ended | | |
+| | January 31, | | February 1, | | | | |
+| | 2026 | | 2025 | | | | |
+Gross Profit Reconciliation (GAAP/non-GAAP) | | | | | | | | |
+GAAP gross profit | | $ | 625,520 | | | $ | 471,821 | | | | | |
+Share-based compensation-products | | 1,822 | | | 1,750 | | | | | |
+Share-based compensation-services | | 4,025 | | | 3,405 | | | | | |
+Amortization of intangible assets | | 6,785 | | | 2,233 | | | | | |
+Total adjustments related to gross profit | | 12,632 | | | 7,388 | | | | | |
+Adjusted (non-GAAP) gross profit | | $ | 638,152 | | | $ | 479,209 | | | | | |
+Adjusted (non-GAAP) gross profit percentage | | 44.7 | % | | 44.7 | % | | | | |
+| | | | | | | | |
+Operating Expense Reconciliation (GAAP/non-GAAP) | | | | | | | | |
+GAAP operating expense | | $ | 436,108 | | | $ | 391,158 | | | | | |
+Share-based compensation-research and development | | 16,594 | | | 14,237 | | | | | |
+Share-based compensation-sales and marketing | | 14,754 | | | 11,597 | | | | | |
+Share-based compensation-general and administrative | | 12,632 | | | 9,827 | | | | | |
+Significant asset impairments and restructuring costs | | 1,498 | | | 1,544 | | | | | |
+Amortization of intangible assets | | 4,736 | | | 6,545 | | | | | |
+Acquisition and integration costs | | 306 | | | — | | | | | |
+Holdback arrangement | | 2,403 | | | — | | | | | |
+| | | | | | | | |
+Total adjustments related to operating expense | | 52,923 | | | 43,750 | | | | | |
+Adjusted (non-GAAP) operating expense | | $ | 383,185 | | | $ | 347,408 | | | | | |
+| | | | | | | | |
+Income from Operations Reconciliation (GAAP/non-GAAP) | | | | | | | | |
+GAAP income from operations | | $ | 189,412 | | | $ | 80,663 | | | | | |
+Total adjustments related to gross profit | | 12,632 | | | 7,388 | | | | | |
+Total adjustments related to operating expense | | 52,923 | | | 43,750 | | | | | |
+Total adjustments related to income from operations | | 65,555 | | | 51,138 | | | | | |
+Adjusted (non-GAAP) income from operations | | $ | 254,967 | | | $ | 131,801 | | | | | |
+Adjusted (non-GAAP) operating margin percentage | | 17.9 | % | | 12.3 | % | | | | |
+| | | | | | | | |
+Net Income Reconciliation (GAAP/non-GAAP) | | | | | | | | |
+GAAP net income | | $ | 150,283 | | | $ | 44,572 | | | | | |
+Exclude GAAP provision for income taxes | | 30,832 | | | 24,022 | | | | | |
+Income before income taxes | | 181,115 | | | 68,594 | | | | | |
+Total adjustments related to income from operations | | 65,555 | | | 51,138 | | | | | |
+Loss on extinguishment and modification of debt | | — | | | 729 | | | | | |
+| | | | | | | | |
+Adjusted income before income taxes | | 246,670 | | | 120,461 | | | | | |
+Non-GAAP tax provision on adjusted income before income taxes | | 49,334 | | | 26,501 | | | | | |
+Adjusted (non-GAAP) net income | | $ | 197,336 | | | $ | 93,960 | | | | | |
+| | | | | | | | |
+Weighted average basic common shares outstanding | | 141,676 | | 142,880 | | | | |
+Weighted average dilutive potential common shares outstanding 1
+| | 145,799 | | 145,944 | | | | |
+| | | | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+Net Income per Common Share | | | | | | | | |
+GAAP diluted net income per potential common share | | $ | 1.03 | | | $ | 0.31 | | | | | |
+Adjusted (non-GAAP) diluted net income per potential common share | | $ | 1.35 | | | $ | 0.64 | | | | | |
+
+1 Weighted average dilutive potential common shares outstanding used in calculating Adjusted (non-GAAP) diluted net income per potential common share includes the following number of shares underlying certain stock option and stock unit awards: (i) 4.1 million for the first quarter ended fiscal 2026; and (ii) 3.1 million for the first quarter ended fiscal 2025.
+9
+
+| | | | | | | | | | | | | | | | | | |
+APPENDIX B - Calculation of EBITDA and Adjusted EBITDA |
+(in thousands) (unaudited) |
+| | | | | | | | |
+| | Quarter Ended | | |
+| | January 31, | | February 1, | | | | |
+| | 2026 | | 2025 | | | | |
+Earnings Before Interest, Tax, Depreciation and Amortization (EBITDA) | | | | | | | | |
+Net income (GAAP) | | $ | 150,283 | | | $ | 44,572 | | | | | |
+Add: Interest expense | | 21,254 | | | 22,918 | | | | | |
+Less: Interest and other income, net | | 12,957 | | | 11,578 | | | | | |
+Add: Loss on extinguishment and modification of debt | | — | | | 729 | | | | | |
+Add: Provision for income taxes | | 30,832 | | | 24,022 | | | | | |
+Add: Depreciation of equipment, building, furniture and fixtures, and amortization of leasehold improvements | | 32,309 | | | 24,679 | | | | | |
+Add: Amortization of intangible assets | | 11,521 | | | 8,778 | | | | | |
+EBITDA | | $ | 233,242 | | | $ | 114,120 | | | | | |
+Add: Share-based compensation expense | | 49,827 | | | 40,816 | | | | | |
+Add: Significant asset impairments and restructuring costs | | 1,498 | | | 1,544 | | | | | |
+Add: Acquisition and integration costs | | 306 | | | — | | | | | |
+| | | | | | | | |
+Add: Holdback arrangement | | 2,403 | | | — | | | | | |
+Adjusted EBITDA | | $ | 287,276 | | | $ | 156,480 | | | | | |
+
+* * *
+The adjusted (non-GAAP) measures above and their reconciliation to Ciena's GAAP results for the periods presented reflect adjustments relating to the following items:
+• Share-based compensation - a non-cash expense incurred in accordance with share-based compensation accounting guidance.
+• Significant asset impairments and restructuring costs - non-recurring costs p rimarily reflecting expenses associated with actions Ciena has taken to restructure our business, including reductions in force, facility optimization, and the redesign of business processes.
+• Amortization of intangible assets - a non-cash expense arising from the acquisition of intangible assets, principally developed technologies and customer-related intangibles, that Ciena is required to amortize over an expected useful life.
+• Acquisition and integration costs - consists of financial, legal, and accounting advisors and employee-related costs related to our acquisition of Nubis Communications, Inc. during the fourth quarter of fiscal 2025.
+• Holdback arrangement - reflects a one-time holdback of a portion of the merger consideration otherwise payable at closing to certain key employee shareholders of Nubis Communications, Inc. who became employees of Ciena, which is treated as contingent compensation for GAAP reporting purposes. These transaction-related amounts are not part of Ciena's standard compensation and benefits.
+• Loss on extinguishment and modification of debt - reflects extinguishment and debt modification expenses related to refinancing our term loan during the first quarter of fiscal 2025.
+• Non-GAAP tax provision - consists of current and deferred income tax expense commensurate with the level of adjusted income before income taxes and utilizes a current, blended U.S. and foreign statutory annual tax rate of 20% for the first quarter of fiscal 2026 and 22% for the first quarter of fiscal 2025. This rate may be subject to change in the future, including as a result of changes in tax policy or tax strategy.
+
+10
