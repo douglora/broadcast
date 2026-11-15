@@ -122,6 +122,13 @@ PARES = {
         "nome": "Semicondutores (BDRs)", "tipo": "operacional",
         "tickers": ["NVDC34", "A1MD34", "ITLC34", "TSMC34", "AVGO34"],
     },
+    # Acoes dos EUA (sem BDR): optica primeiro (laser, modulo e transceptor), depois os chips de
+    # conectividade dos data centers de IA. A Nvidia fica fora de proposito: e a maior cliente e o motor
+    # do setor, nao um par, e o tamanho dela distorce a mediana; ela esta no grupo de semicondutores.
+    "optica_conectividade_ia": {
+        "nome": "Optica e conectividade para IA (EUA)", "tipo": "operacional",
+        "tickers": ["LITE", "COHR", "CIEN", "FN", "MRVL", "AVGO", "CRDO"],
+    },
     "bancos_eua": {
         "nome": "Bancos dos EUA (BDRs)", "tipo": "financeiro",
         "tickers": ["JPMC34", "BOAC34", "WFCO34", "CTGP34", "GSGI34", "MSBR34"],

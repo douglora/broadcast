@@ -322,3 +322,45 @@ def test_classificador_recusa_anuncio_de_fusao():
 @precisa_coletor
 def test_classificador_aceita_resultado_que_cita_a_fusao():
     assert CD.classificar_documento_sec(_RESULTADO, "lite_ex991xq1fy27.htm", "3T26")[0] == "release"
+
+
+# ───────────────────────── releases da SEC: previa e 8-K so de anexos (Credo, 15/11/2026) ─────────────────
+
+_PREVIA = ("EX-99.1 Exhibit 99.1 Credo Provides Preliminary Third Quarter Fiscal Year 2026 Revenue Results, Updated "
+           "Revenue Guidance for Fourth Quarter of Fiscal Year 2026. Revenue of $407 million to $410 million, "
+           "net revenue up 200%, gross margin of 67%, $1.2 billion of cash. " * 4)
+_COMPLETO = ("EX-99.1 Exhibit 99.1 Credo Technology Group Holding Ltd Reports Third Quarter of Fiscal Year 2026 "
+             "Financial Results. Revenue of $408.1 million, in line with the preliminary revenue results announced "
+             "on February 9. GAAP net income of $120.4 million, gross margin of 67.1%, $1.2 billion of cash. " * 4)
+
+
+@precisa_coletor
+def test_classificador_recusa_previa_de_resultado():
+    classe, _, motivo = CD.classificar_documento_sec(_PREVIA, "feb20268-kex991.htm", "4T25")
+    assert classe == "nao" and "previa" in motivo
+
+
+@precisa_coletor
+def test_classificador_aceita_release_completo_que_cita_a_previa():
+    assert CD.classificar_documento_sec(_COMPLETO, "credoq32026ex-991.htm", "4T25")[0] == "release"
+
+
+@precisa_coletor
+def test_8k_so_de_anexos_entra_na_janela_de_um_trimestre_que_falta():
+    janela_3t25 = [CD._janela_de_divulgacao("3T25")]
+    so_anexos = {"form": "8-K", "items": "9.01", "filingDate": "2025-12-01"}
+    assert CD._filing_candidato(so_anexos, janela_3t25)
+    assert not CD._filing_candidato(so_anexos, [])                         # nada faltando: nao gasta a varredura
+    assert not CD._filing_candidato({**so_anexos, "filingDate": "2025-06-01"}, janela_3t25)
+    assert not CD._filing_candidato({**so_anexos, "items": "5.07,9.01"}, janela_3t25)   # assembleia
+    assert CD._filing_candidato({"form": "8-K", "items": "2.02,9.01", "filingDate": "2024-01-01"})
+    assert CD._filing_candidato({"form": "6-K", "items": "", "filingDate": "2024-01-01"})
+    assert not CD._filing_candidato({"form": "10-Q", "items": "", "filingDate": "2025-12-01"}, janela_3t25)
+
+
+def test_grupo_optica_conectividade_ia():
+    import pares
+    assert pares.grupo_de("LITE") == pares.grupo_de("MRVL") == "optica_conectividade_ia"
+    assert set(pares.pares_de("LITE")) == {"COHR", "CIEN", "FN", "MRVL", "AVGO", "CRDO"}
+    assert pares.grupo_de("AVGO34") == "semicondutores"          # o BDR continua no grupo dele
+    assert pares.grupo_de("NVDA") is None                        # cliente e motor do setor, nao par

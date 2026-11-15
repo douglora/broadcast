@@ -1087,8 +1087,10 @@ def coletar_releases_cvm(documentos, fontes, conhecidos=None,
 # reconferidos uma vez: a regra antiga reprovava o release de verdade (o arquivo 'nupr1q25_6k.htm' da
 # Nu nao casava em '\bpr\d') e aprovava ata de assembleia pelo rodape juridico.
 # v3 (15/11/2026): o anuncio da fusao Marvell-Lumentum ("to combine", "definitive agreement",
-# "all-stock transaction") entrou como release do 3T26 da Marvell.
-CLASSIFICADOR_SEC_V = 3
+# "all-stock transaction") entrou como release do 3T26 da Marvell. v4 (15/11/2026): a previa de receita
+# da Credo (09/02/2026, "Provides Preliminary Third Quarter ... Revenue Results") tomou o lugar do
+# resultado completo de 02/03 no 4T25.
+CLASSIFICADOR_SEC_V = 4
 
 # O titulo diz que o documento E o resultado do trimestre
 _RE_SEC_RESULTADO = re.compile(
@@ -1107,6 +1109,14 @@ _RE_SEC_SOCIETARIO = re.compile(
     r"|\bto combine\b|definitive (?:merger )?agreement|all-(?:stock|cash) transaction|exchange ratio"
     r"|business combination|(?:agreed|agreement|plans?|intends?) to acquire|tender offer"
     r"|pricing of|offering of|prospectus|credit rating")
+# Previa de resultado ("Provides Preliminary Third Quarter Revenue Results"): so a receita, dias antes do
+# release. Mesma regra da previa operacional no site de RI: nunca e o release, e se ocupasse o trimestre o
+# resultado completo perdia o lugar (o desempate favorece o documento entregue mais cedo). So o titulo
+# conta: o release completo pode citar a previa logo na primeira frase.
+_RE_SEC_PREVIA = re.compile(
+    r"(?i)\b(?:provides?|announces?|issues?|reports?|releases?)\s+(?:its\s+)?preliminary\b"
+    r"|\bpreliminary\s+(?:(?:first|second|third|fourth|q[1-4]|fiscal|unaudited|quarter|year|revenue|financial"
+    r"|full[- ]year|20\d\d)\s+){1,7}(?:results|revenue)")
 _RE_SEC_DEMONSTRACAO = re.compile(
     r"(?i)interim (?:condensed )?(?:consolidated )?financial statements|notes to the (?:interim|consolidated) financial"
     r"|report of independent (?:registered )?public accounting|unaudited condensed consolidated")
@@ -1127,6 +1137,11 @@ def classificar_documento_sec(texto, nome="", periodo=None):
     densidade = len(re.findall(r"\d[\d.,]{2,}|\d+\s*%", corpo))   # numeros de qualquer tipo
     if _RE_SEC_SOCIETARIO.search(cabeca) and not titulo_ok:
         return "nao", None, "comunicado societario (assembleia, dividendo, recompra, M&A), nao release de resultado"
+    # previa so quando o "preliminary" vem ANTES do titulo de resultado: "Reports Third Quarter Results
+    # (...) in line with the preliminary revenue results" e o release completo citando a previa
+    previa, resultado = _RE_SEC_PREVIA.search(texto[:300]), _RE_SEC_RESULTADO.search(texto[:300])
+    if previa and (not resultado or previa.start() < resultado.start()):
+        return "nao", None, "previa de resultado (preliminary), nao o release completo do trimestre"
     if _RE_SEC_DEMONSTRACAO.search(cabeca) and not titulo_ok:
         return "nao", None, "demonstracoes financeiras intermediarias, nao o release da gestao"
     # Apresentacao de resultados e fonte legitima da gestao (o historico do INBR32 e feito dela), mas o
@@ -1238,10 +1253,28 @@ def _ordenar_por_faltantes(filings, faltantes):
     return sorted(filings, key=alvo)
 
 
+def _filing_candidato(f, janelas_faltantes=()):
+    """O filing da SEC pode trazer release de resultado? 6-K sempre; 8-K com o item 2.02 (Results of
+    Operations); e o 8-K so de anexos (item 9.01 sozinho) quando cai na janela de divulgacao de um
+    trimestre que FALTA. A Credo entregou o resultado de dezembro de 2025 assim, sem o 2.02, e o 3T25
+    dela nunca era achado. Quem decide se o anexo e resultado continua sendo o classificador."""
+    form = (f.get("form") or "").upper()
+    if form == "6-K":
+        return True
+    if form != "8-K":
+        return False
+    itens = {i.strip() for i in str(f.get("items") or "").split(",") if i.strip()}
+    if "2.02" in itens:
+        return True
+    data = str(f.get("filingDate") or "")
+    return itens == {"9.01"} and any(ini <= data <= fim for ini, fim in janelas_faltantes)
+
+
 def coletar_releases_sec(cik, fontes, conhecidos=None, descartados=None,
                          max_releases=RELEASES_POR_ATIVO, max_filings=200,
                          orcamento_s=RELEASE_ORCAMENTO_S, faltantes=None, vencido=None):
-    """Ate `max_releases` releases de resultado da SEC (8-K item 2.02 e 6-K), um por trimestre.
+    """Ate `max_releases` releases de resultado da SEC (8-K item 2.02 e 6-K), um por trimestre (8-K so de
+    anexos tambem, na janela de um trimestre que falta: _filing_candidato).
 
     A varredura para quando a JANELA obrigatoria esta coberta, nao quando a contagem de filings
     estoura: quem publica muito 6-K (a Nu tem mais de 40 por ano) empurrava os trimestres antigos
@@ -1263,6 +1296,7 @@ def coletar_releases_sec(cik, fontes, conhecidos=None, descartados=None,
         return []
     achados, baixados, reusados, examinados = {}, 0, 0, 0
     janela = set(janela_obrigatoria(vencido=vencido))
+    janelas_faltantes = [j for j in (_janela_de_divulgacao(p) for p in (faltantes or [])) if j]
     if faltantes:
         filings = _ordenar_por_faltantes(filings, faltantes)
         app.log(f"SEC: varredura priorizando os filings da janela de divulgacao de "
@@ -1274,9 +1308,7 @@ def coletar_releases_sec(cik, fontes, conhecidos=None, descartados=None,
         if len(achados) >= max_releases and janela <= set(achados):
             break
         form = (f.get("form") or "").upper()
-        if form not in ("8-K", "6-K"):
-            continue
-        if form == "8-K" and "2.02" not in (f.get("items") or ""):
+        if not _filing_candidato(f, janelas_faltantes):
             continue
         examinados += 1
         if time.monotonic() - t0 > orcamento_s:
