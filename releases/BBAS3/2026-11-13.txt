@@ -1,0 +1,3325 @@
+[p. 1]
+Análise do 
+3T26 
+Desempenho
+
+[p. 2]
+Análise do Desempenho 3T26 
+ 
+ 
+ 
+ 
+ Banco do Brasil S.A. | BBAS3 | BDORY 
+ 
+Apresentação 
+O relatório Análise do Desempenho tem periodicidade 
+trimestral e apresenta a discussão e análise da situação 
+econômico-financeira do Banco do Brasil (BB). Destinado aos 
+acionistas, investidores e analistas de mercado, nele o leitor 
+encontrará informações sobre rentabilidade, produtividade, 
+qualidade da carteira de crédito, estrutura de capital, mercado 
+de capitais, dados estruturais, dentre outras. 
+O relatório Análise do Desempenho e demais documentos 
+podem ser acessados no portal de Relações com Investidores, 
+onde também estão disponíveis informações adicionais sobre o 
+BB, como: estrutura organizacional, composição acionária, 
+governança corporativa e sustentabilidade, fatos relevantes e 
+comunicados ao mercado, apresentações, calendários de 
+eventos, dentre outras. Todos os documentos referentes às 
+divulgações do resultado podem ser consultados na Central de 
+Resultados, e estão disponíveis para download no kit investidor. 
+Banco do Brasil 
+bb.com.br 
+Relações com Investidores 
+bb.com.br/ri
+
+[p. 3]
+Análise do Desempenho 3T26 
+ 
+ 
+ 
+ 
+ Banco do Brasil S.A. | Relações com Investidores 1 
+ 
+ 
+Este relatório faz referências e declarações sobre expectativas, sinergias planejadas, estimativas de crescimento, 
+projeções de resultado e estratégias futuras sobre o Conglomerado Banco do Brasil. Tais declarações baseiam-
+se nas atuais expectativas, estimativas e projeções da Administração sobre acontecimentos futuros e tendências 
+financeiras que possam afetar os negócios do Conglomerado. 
+Essas referências e declarações não são garantia de desempenho futuro e envolvem riscos e incertezas que 
+podem extrapolar o controle da Administração, podendo, desta forma, resultar em saldos e valores diferentes 
+daqueles, aqui, antecipados e discutidos. As expectativas e projeções da Administração são vinculadas às 
+condições do mercado (mudanças tecnológicas, pressões competitivas sobre produtos, preços, entre outros), 
+do desempenho econômico geral do país (taxa de juros e câmbio, mudanças políticas e econômicas, inflação, 
+mudanças na legislação tributária, entre outras) e dos mercados internacionais. 
+Expectativas futuras decorrentes da leitura deste relatório devem considerar os riscos e incertezas que envolvem 
+os negócios do Conglomerado. O Banco do Brasil não se responsabiliza em atualizar qualquer estimativa contida 
+em relatório publicado em períodos anteriores. 
+As tabelas e gráficos deste relatório apresentam, além dos saldos e valores contábeis, números financeiros e 
+gerenciais. As taxas de variação relativa são apuradas antes do procedimento de arredondamento em R$ 
+milhões. O arredondamento utilizado segue as regras estabelecidas pela Resolução 886/66 da Fundação IBGE: 
+caso o algarismo decimal seja igual ou superior a 0,5, aumenta-se em uma unidade; caso o algarismo decimal 
+seja inferior a 0,5, não há acréscimo de uma unidade. 
+Informamos em textos explicativos e notas de rodapé eventos que possam afetar a comparabilidade entre os 
+períodos, sejam alterações nos padrões contábeis ou ajustes para melhor evidenciação e comparabilidade da 
+informação.
+
+[p. 4]
+Análise do Desempenho 3T26 
+ 
+ 
+ 
+ 
+ Banco do Brasil S.A. | Relações com Investidores 2 
+ 
+Índice 
+Sumário do Resultado ............................................................................................................................................... 9 
+Desempenho ......................................................................................................................................................... 11 
+Projeções Corporativas .......................................................................................................................................... 12 
+1. Informações Financeiras Consolidadas Resumidas ............................................................................................ 13 
+Balanço Patrimonial Consolidado .......................................................................................................................... 14 
+Demonstração do Resultado Consolidado ............................................................................................................ 15 
+2. Margem Financeira Bruta .................................................................................................................................... 18 
+MFB Contábil ......................................................................................................................................................... 19 
+Receita Financeira de Operações de Crédito ................................................................................................... 20 
+Despesa Financeira de Captação Comercial ..................................................................................................... 21 
+Despesa Financeira de Captação Institucional ..................................................................................................22 
+Resultado de Tesouraria ...................................................................................................................................23 
+Saldo da Liquidez ............................................................................................................................................ 24 
+MFB Gerencial ........................................................................................................................................................ 25 
+Análise dos Ativos e Passivos ................................................................................................................................ 26 
+Ativos Rentáveis ............................................................................................................................................... 26 
+Passivos Onerosos............................................................................................................................................. 27 
+Análise Volume e Taxa ..................................................................................................................................... 28 
+Spreads ................................................................................................................................................................. 29 
+Spread Global .................................................................................................................................................. 29 
+Spread com Clientes ........................................................................................................................................ 30 
+Spread Gerencial de Crédito ............................................................................................................................ 30 
+Balanço em Moedas Estrangeiras .......................................................................................................................... 31 
+Balanço por Indexadores .......................................................................................................................................32 
+3. Receitas de Prestação de Serviços ...................................................................................................................... 33 
+4. Despesas Administrativas ................................................................................................................................... 35 
+Canais de Atendimento ......................................................................................................................................... 38 
+Indicadores ............................................................................................................................................................39 
+5. Outros Componentes do Resultado ................................................................................................................... 40 
+Outras Receitas e Despesas ................................................................................................................................... 41 
+Informações de Controladas e Coligadas ............................................................................................................. 42 
+6. Gestão de Capital ................................................................................................................................................. 43 
+7. Crédito .................................................................................................................................................................... 51 
+Carteira Expandida................................................................................................................................................. 52 
+Crédito Pessoa Física .............................................................................................................................................. 61 
+Crédito Pessoa Jurídica .......................................................................................................................................... 67 
+Crédito Agro .......................................................................................................................................................... 75 
+8. Captações ............................................................................................................................................................. 82 
+Volume e Market Share ........................................................................................................................................ 83 
+Fontes e Usos ........................................................................................................................................................ 85
+
+[p. 5]
+Análise do Desempenho 3T26 
+ 
+ 
+ 
+ 
+ Banco do Brasil S.A. | Relações com Investidores 3 
+ 
+9. Soluções Financeiras ............................................................................................................................................ 87 
+Meios de Pagamento ............................................................................................................................................ 88 
+Gestão de Recursos de Terceiros .......................................................................................................................... 90 
+Mercado de Capitais ..............................................................................................................................................93 
+10. Outras Informações .......................................................................................................................................... 94 
+Ativo e Passivo Atuarial ......................................................................................................................................... 95 
+Negócios Internacionais ......................................................................................................................................... 97 
+Cadernos Estratégicos ........................................................................................................................................... 100 
+Caderno de Clientes ............................................................................................................................................ 101 
+Estratégia Digital ................................................................................................................................................. 104 
+Assessoria em Investimentos ...............................................................................................................................108 
+Sustentabilidade ................................................................................................................................................... 111 
+Glossário .................................................................................................................................................................. 117
+
+[p. 6]
+Análise do Desempenho 3T26 
+ 
+ 
+ 
+ 
+ Banco do Brasil S.A. | Relações com Investidores 4 
+ 
+Índice de Tabelas 
+Tabela 1. Destaques do Resultado ............................................................................................................................. 11 
+Tabela 2. Balanço Patrimonial¹ – Ativos, Passivos e Patrimônio Líquido – R$ milhões ............................................. 14 
+Tabela 3. Demonstração do Resultado com Realocações – R$ milhões ................................................................... 15 
+Tabela 4. Demonstrativo das Realocações e Itens Extraordinários – R$ milhões ..................................................... 16 
+Tabela 5. Efeitos Fiscais e de PLR sobre Itens Extraordinários – R$ milhões ............................................................. 17 
+Tabela 6. Principais Indicadores ................................................................................................................................. 19 
+Tabela 7. Composição da Margem Financeira Bruta – R$ milhões ............................................................................ 19 
+Tabela 8. Receita Financeira de Operação de Crédito – R$ milhões ........................................................................ 20 
+Tabela 9. Despesa de Captação Comercial – R$ milhões .......................................................................................... 21 
+Tabela 10. Captações vs. Taxa Selic – R$ milhões......................................................................................................22 
+Tabela 11. Despesa de Captação Institucional – R$ milhões .....................................................................................22 
+Tabela 12. Resultado de Tesouraria – R$ milhões ....................................................................................................23 
+Tabela 13. Resultado de TVM – R$ milhões ..............................................................................................................23 
+Tabela 14. Carteira de Títulos por Categoria – Valor de Mercado – R$ milhões ..................................................... 24 
+Tabela 15. Saldo da Liquidez – R$ milhões .............................................................................................................. 24 
+Tabela 16. Margem Financeira com Clientes e Mercado – R$ milhões ..................................................................... 25 
+Tabela 17. Saldos Médios e Taxa de Juros – Ativos Rentáveis (anual) – R$ milhões ................................................ 26 
+Tabela 18. Saldos Médios e Taxa de Juros – Ativos Rentáveis (trimestral) – R$ milhões ........................................ 26 
+Tabela 19. Saldos Médios e Taxa de Juros – Ativos Rentáveis (acumulado) – R$ milhões ...................................... 26 
+Tabela 20. Saldos Médios e Taxa de Juros – Passivos Onerosos (anual) – R$ milhões ............................................ 27 
+Tabela 21. Saldos Médios e Taxa de Juros – Passivos Onerosos (trimestral) – R$ milhões ...................................... 27 
+Tabela 22. Saldos Médios e Taxa de Juros – Passivos Onerosos (acumulado) – R$ milhões .................................. 28 
+Tabela 23. Variação de Volume/Taxa – R$ milhões .................................................................................................. 28 
+Tabela 24. Spread Global e Margem Financeira Bruta – R$ milhões ....................................................................... 29 
+Tabela 25. Spread Global e Spread Ajustado pelo Risco – % ................................................................................... 29 
+Tabela 26. Spread com Clientes Ajustado pelo Risco – R$ milhões ......................................................................... 30 
+Tabela 27. Balanço em Moedas Estrangeiras – R$ milhões ....................................................................................... 31 
+Tabela 28. Descasamento por Vencimento (Banco Múltiplo) – R$ milhões .............................................................32 
+Tabela 29. Receitas de Prestação de Serviços – R$ milhões ..................................................................................... 34 
+Tabela 30. Despesas Administrativas – R$ milhões .................................................................................................. 36 
+Tabela 31. Perfil dos Colaboradores .......................................................................................................................... 37 
+Tabela 32. Rede de Atendimento ............................................................................................................................. 38 
+Tabela 33. Atendimento Especializado ..................................................................................................................... 38 
+Tabela 34. Índices de Cobertura Ajustados – R$ milhões .........................................................................................39 
+Tabela 35. Índices de Eficiência Ajustados – R$ milhões ...........................................................................................39 
+Tabela 36. Outras Receitas e Despesas – R$ milhões ................................................................................................ 41 
+Tabela 37. Participações Societárias no Brasil e no Exterior ¹ – R$ mil ..................................................................... 42 
+Tabela 38. Índice de Basileia – R$ milhões ................................................................................................................45 
+Tabela 39. PRMR Referente à Parcela do RWACPAD1 – R$ milhões ..............................................................................47 
+Tabela 40. PRMR Referente à Parcela do RWAOPAD1 – R$ milhões .............................................................................47
+
+[p. 7]
+Análise do Desempenho 3T26 
+ 
+ 
+ 
+ 
+ Banco do Brasil S.A. | Relações com Investidores 5 
+ 
+Tabela 41. PRMR Referente à Parcela do RWAMPAD – R$ milhões .............................................................................. 48 
+Tabela 42. RWACPAD1 Segregada por Fator de Ponderação de Risco – FPR - R$ milhões ......................................... 49 
+Tabela 43. Carteira de Crédito e Carteira de Crédito Expandida – R$ milhões ......................................................... 52 
+Tabela 44. 100 Maiores Clientes em Relação à Carteira de Crédito e PR – R$ milhões ........................................... 54 
+Tabela 45. Custo do Crédito da Carteira Expandida – R$ milhões ............................................................................ 55 
+Tabela 46. Carteira de Crédito e Perda Esperada por Estágio – R$ milhões ............................................................. 57 
+Tabela 47. Carteira de Créditos Renegociados e Reestruturados – Banco Múltiplo¹ – R$ milhões .......................... 59 
+Tabela 48. Carteira de Crédito Pessoa Física – R$ milhões ........................................................................................ 61 
+Tabela 49. Carteira de Crédito PF e Perda Esperada por Estágio – R$ milhões ....................................................... 64 
+Tabela 50. Carteira de Crédito Pessoa Jurídica – R$ milhões .................................................................................... 67 
+Tabela 51. Carteira de Crédito MPME – R$ milhões ................................................................................................. 70 
+Tabela 52. Macrossetor: Concentração da Carteira PJ e Agro PJ – R$ milhões ......................................................... 71 
+Tabela 53. Carteira de Crédito PJ e Perda Esperada por Estágio – R$ milhões ......................................................... 72 
+Tabela 54. Carteira de Crédito de Agronegócios – R$ milhões................................................................................. 75 
+Tabela 55. Carteira de Crédito de Agronegócios por Porte – R$ milhões ................................................................ 75 
+Tabela 56. Carteira de Crédito de Agronegócios por Tipo de Item Financiado – R$ milhões .................................. 76 
+Tabela 57. Desembolsos por Segmento do Crédito Rural – R$ milhões .................................................................. 76 
+Tabela 58. Distribuição de Mitigadores no Custeio Agrícola – R$ milhões ...............................................................77 
+Tabela 59. Carteira de Crédito de Agronegócios por Região – % .............................................................................77 
+Tabela 60. Composição da Carteira de Negócios Sustentáveis de Agronegócios – R$ milhões .............................. 78 
+Tabela 61. Carteira de Crédito Agro e Perda Esperada por Estágio – R$ milhões .................................................... 78 
+Tabela 62. Captações Comerciais – R$ milhões ........................................................................................................ 83 
+Tabela 63. Captações Institucionais – R$ milhões .................................................................................................... 84 
+Tabela 64. Captações Comerciais no Exterior – Modalidade – US$ milhões ........................................................... 84 
+Tabela 65. Captações Comerciais no Exterior – Produto – US$ milhões ................................................................. 84 
+Tabela 66. Fontes e Usos – R$ milhões .................................................................................................................... 85 
+Tabela 67. Letras Financeiras Subordinadas no País – R$ milhões ........................................................................... 86 
+Tabela 68. Emissões Vigentes no Exterior ................................................................................................................ 86 
+Tabela 69. Base de Cartões – Uso Recorrente1 – milhões ........................................................................................ 88 
+Tabela 70. Resultado com Negócios de Cartões4 – R$ milhões ............................................................................... 89 
+Tabela 71. Fundos de Investimento por Segmento – R$ milhões ............................................................................ 91 
+Tabela 72. Fundos de Investimento por Classe ANBIMA¹ – R$ milhões .................................................................... 91 
+Tabela 73. Gestão de Fundos de Investimento com Características Socioambientais – R$ milhões ....................... 92 
+Tabela 74. Previ (Plano 1) – Composição dos Ativos – % ......................................................................................... 95 
+Tabela 75. Previ (Plano 1) – Principais Premissas Atuariais – % ................................................................................ 95 
+Tabela 76. Previ (Plano 1) – Efeitos da Contabilização da Resolução CVM 110/2022– R$ milhões ......................... 95 
+Tabela 77. Previ (Plano 1) – Fundos de Utilização1 – R$ milhões ............................................................................. 96 
+Tabela 78. Efeitos da Contabilização da Cassi – Resolução CVM 110/2022– R$ milhões ........................................ 96 
+Tabela 79. Rede de Atendimento no Exterior ........................................................................................................... 97 
+Tabela 80. Consolidado no Exterior – Ativo – R$ milhões ........................................................................................ 97 
+Tabela 81. Consolidado no Exterior – Passivo – R$ milhões ..................................................................................... 97 
+Tabela 82. Consolidado no Exterior – Itens do Resultado – R$ milhões ................................................................. 98 
+Tabela 83. Banco Patagonia – Destaques Patrimoniais – R$ milhões ...................................................................... 98
+
+[p. 8]
+Análise do Desempenho 3T26 
+ 
+ 
+ 
+ 
+ Banco do Brasil S.A. | Relações com Investidores 6 
+ 
+Tabela 84. Banco Patagonia – Principais Linhas do Resultado – R$ milhões ........................................................... 99 
+Tabela 85. Banco Patagonia – Margem Financeira Bruta – R$ milhões ................................................................... 99 
+Tabela 86. Banco Patagonia – Indicadores de Rentabilidade, Capital e Crédito – % ............................................... 99
+
+[p. 9]
+Análise do Desempenho 3T26 
+ 
+ 
+ 
+ 
+ Banco do Brasil S.A. | Relações com Investidores 7 
+ 
+Índice de Figuras 
+Figura 1. Projeções Corporativas 2026 ....................................................................................................................... 12 
+Figura 2. Distribuição das Receitas de Crédito – % ................................................................................................... 20 
+Figura 3. Distribuição da Carteira de Crédito Expandida – % .................................................................................... 21 
+Figura 4. Carteira de Títulos e Valores Mobiliários por Indexador (Banco Múltiplo) – % .........................................23 
+Figura 5. Margem Financeira com Clientes ¹ e com Mercado ² – R$ milhões............................................................ 25 
+Figura 6. Spread com Clientes e Spread com Clientes Ajustado pelo Risco – % ...................................................... 30 
+Figura 7. Spread Gerencial de Crédito ¹ – % ............................................................................................................. 30 
+Figura 8. Ativos e Passivos por Indexador e Posição Líquida (Banco Múltiplo) – R$ bilhões¹ ...................................32 
+Figura 9. Índice de Basileia - % ................................................................................................................................. 44 
+Figura 10. Capital Principal – Composição (%) ..........................................................................................................45 
+Figura 11. Consumo de RWA – R$ bilhões ................................................................................................................ 46 
+Figura 12. Composição do RWA - % ......................................................................................................................... 46 
+Figura 13. Carteira Conforme Projeções Corporativas – R$ bilhões .......................................................................... 53 
+Figura 14. Carteira de Negócios Sustentáveis – R$ bilhões ....................................................................................... 53 
+Figura 15. Carteira de Crédito Interna BB (por Período de Contratação) – % .......................................................... 54 
+Figura 16. Despesa com Perda Esperada da Carteira de Crédito Interna¹ por Segmento – R$ milhões ................... 55 
+Figura 17. Despesa com Perda Esperada da Carteira de Crédito Interna¹ por Estágio – R$ milhões ........................ 56 
+Figura 18. INAD+30d, INAD+90d e Índice de Cobertura da Carteira de Crédito – % .............................................. 56 
+Figura 19. Participação dos Estágios na Carteira de Crédito ...................................................................................... 57 
+Figura 20. New NPL – % da Carteira de Crédito ....................................................................................................... 58 
+Figura 21. Baixa para Perda – % da Carteira de Crédito............................................................................................ 58 
+Figura 22. Recuperação Acumulada (R$ bilhões) e Índice de Recuperação à Vista¹– % .......................................... 60 
+Figura 23. Composição da Carteira de Crédito Pessoa Física – R$ milhões ............................................................... 61 
+Figura 24. Crédito Consignado – R$ milhões ............................................................................................................62 
+Figura 25. Crédito Não Consignado¹ – R$ milhões ....................................................................................................62 
+Figura 26. Financiamento Imobiliário– R$ milhões .................................................................................................. 63 
+Figura 27. Cartão de Crédito– R$ milhões ................................................................................................................ 63 
+Figura 28. Cartão de Crédito – Composição Carteira – % ........................................................................................ 64 
+Figura 29. Participação dos Estágios na Carteira de Crédito PF ................................................................................ 64 
+Figura 30. INAD +30d, INAD+90d e Índice de Cobertura da Carteira de Crédito PF – % .........................................65 
+Figura 31. INAD+90d Carteira de Crédito BB PF – em % por Linha de Crédito.........................................................65 
+Figura 32. New NPL – Carteira de Crédito Pessoa Física ........................................................................................... 66 
+Figura 33. Baixa para Perda – % da Carteira de Crédito Pessoa Física ...................................................................... 66 
+Figura 34. Carteira de Crédito Expandida Pessoa Jurídica – R$ milhões .................................................................. 67 
+Figura 35. Segmentação da Carteira de Crédito Expandida Pessoa Jurídica – R$ milhões ...................................... 68 
+Figura 36. Carteira de Crédito Grandes Empresas Expandida– R$ milhões ............................................................. 69 
+Figura 37. Participação dos Estágios na Carteira de Crédito PJ .................................................................................. 72 
+Figura 38. INAD +30d, INAD+90d e Índice de Cobertura da Carteira de Crédito PJ – % .......................................... 73 
+Figura 39. INAD. +90d Carteira de Crédito BB PJ – em % por Linha de Crédito ....................................................... 73 
+Figura 40. New NPL – Carteira de Crédito Pessoa Jurídica ........................................................................................ 74
+
+[p. 10]
+Análise do Desempenho 3T26 
+ 
+ 
+ 
+ 
+ Banco do Brasil S.A. | Relações com Investidores 8 
+ 
+Figura 41. Baixa para Perda – % da Carteira de Crédito Pessoa Jurídica ................................................................... 74 
+Figura 42. Participação dos Estágios na Carteira de Crédito Agro ............................................................................ 78 
+Figura 43. INAD+30d, INAD+90d e Índice de Cobertura da Carteira de Crédito Agro – % ......................................79 
+Figura 44. INAD. +90d Carteira de Crédito de Agronegócios – em % por Linha de Crédito ....................................79 
+Figura 45. New NPL – Carteira de Crédito de Agronegócios .................................................................................... 80 
+Figura 46. Baixa para Perda – % da Carteira de Crédito de Agronegócio ................................................................ 80 
+Figura 47. Distribuição das Garantias Vinculadas e de Saldo por Região ................................................................... 81 
+Figura 48. Participação de Mercado das Captações do BB – R$ bilhões .................................................................. 83 
+Figura 49. Faturamento dos Cartões BB – R$ bilhões .............................................................................................. 88 
+Figura 50. Gestão de Recursos e Participação de Mercado – R$ bilhões ................................................................. 90 
+Figura 51. Administração Fiduciária e Participação de Mercado – R$ bilhões .......................................................... 90 
+Figura 52. Consórcios – Receitas com Prestação de Serviços e Cotas Ativas .............................................................93 
+Figura 53. Banco Patagonia – Captações Comerciais e Interbancárias – US$ milhões ............................................. 98 
+Figura 54. Destaques da Estratégia Digital .............................................................................................................. 106 
+Figura 55. Investimentos em Tecnologia1 – R$ bilhões ............................................................................................ 107 
+Figura 56. Compromissos BB 2030 para um Mundo + Sustentável ........................................................................ 112 
+Figura 57. Adicionalidade/Contribuição da Carteira de Negócios Sustentáveis ....................................................... 113
+
+[p. 11]
+Banco do Brasil S.A. | Relações com Investidores 9 
+ 
+Sumário 
+do Resultado 
+ 
+O Lucro Líquido Ajustado do terceiro trimestre de 
+2026 alcançou R$ 1,3 bilhão, redução de 66,5% em 
+relação ao 3T25 e de 67,5% frente ao 2T26. Os 
+principais componentes desse resultado foram: 
+Margem Financeira Bruta (MFB): atingiu R$ 26,0 
+bilhões no 3T26, redução de 5,5% em relação ao 
+2T26 e de 1,5% em 12 meses. 
+Na comparação acumulada (9M26/9M25), a MFB 
+cresceu 7,4%, refletindo principalmente o 
+crescimento das receitas de crédito (+2,5%) e do 
+resultado de tesouraria (+4,4%). 
+Custo do Crédito: correspondeu a R$ 21,2 bilhões no 
+3T26, elevação de 18,4% em relação ao 3T25 e de 
+14,9% frente ao 2T26. No acumulado, somou R$ 58,6 
+bilhões, com elevação de 33,2% em relação ao 9M25. 
+O aumento reflete principalmente a continuidade da 
+elevação da inadimplência em parte da carteira de 
+agronegócios e reforços pontuais em empresas do 
+segmento atacado. 
+Receitas de Prestação de Serviços: totalizaram 
+R$ 9,3 bilhões no trimestre, com alta de 1,6% frente 
+ao 2T26 e de 4,6% ao 3T25. No acumulado, cresceram 
+4,8% com destaque para administração de fundos 
+(+11,4%), consórcios (+12,7%) e operações de crédito 
+e garantias (+12,0%). 
+Despesas Administrativas: no 3T26, totalizaram 
+R$ 10,3 bilhões, elevação de 2,0% em relação ao 
+trimestre anterior e de 4,8% em 12 meses. No 9M26, 
+as despesas cresceram 4,8% na comparação com o 
+mesmo período do ano anterior. 
+Carteira de Crédito 
+R$ 1,3 trilhão 
+Pessoas Físicas 
+R$ 357,7 bilhões 
+Pessoas 
+Jurídicas 
+R$ 464,4 bilhões 
+Agro 
+R$ 403,6 bilhões 
+Margem Financeira 
+Bruta 
+R$ 80,9 bilhões – 9M26 
+R$ 75,3 bilhões – 9M25 
+Custo do Crédito 
+R$ 58,6 bilhões – 9M26 
+R$ 44,0 bilhões – 9M25 
+Receitas de Prestação 
+de Serviços 
+R$ 27,2 bilhões – 9M26 
+R$ 26,0 bilhões – 9M25 
+Despesas 
+Administrativas 
+R$ 30,4 bilhões – 9M26 
+R$ 29,0 bilhões – 9M25 
+Capital Principal 
+10,80% – Set/26 
+ 11,16% – Set/25 
+Lucro Líquido Ajustado 
+R$ 8,6 bilhões – 9M26 
+R$ 14,9 bilhões – 9M25 
+RSPL 
+6,2% – 9M26 
+11,2% – 9M25
+
+[p. 12]
+Banco do Brasil S.A. | Relações com Investidores 10 
+ 
+No mês de setembro/26, os funcionários obtiveram 
+reajuste salarial de 4,6%, em acordo coletivo válido 
+até 2028. (ACT 26/28). 
+Carteira de Crédito: totalizou R$ 1,3 trilhão em 
+setembro/26, com redução de 0,5% no trimestre e 
+crescimento de 2,2% em 12 meses. O crescimento 
+seguiu direcionado a linhas de menor risco e com 
+garantias. Os principais destaques foram: 
+Pessoa Física: alcançou R$ 357,7 bilhões, estabilidade 
+no trimestre e elevação de 2,1% em 12 meses, 
+influenciada principalmente pelo desempenho do 
+crédito consignado. 
+Pessoa Jurídica: registrou R$ 464,4 bilhões, 
+crescimento de 1,8% no trimestre e de 2,5% em 12 
+meses com destaque para o crescimento da carteira 
+Governo. 
+Agronegócios: atingiu R$ 403,6 bilhões, com 
+redução de 4,3% no trimestre e crescimento de 1,2% 
+em 12 meses. 
+Indicadores de Inadimplência: a inadimplência acima 
+de 90 dias foi de 6,08%, enquanto o índice de 
+cobertura encerrou o período em 137,8%. 
+Capital: o Capital Principal atingiu 10,80% e o Índice 
+de Basileia atingiu 13,45%.
+
+[p. 13]
+Análise do Desempenho 3T26 | Sumário do Resultado 
+ 
+ 
+ 
+ 
+ 
+ Banco do Brasil S.A. | Relações com Investidores 11 
+ 
+Desempenho 
+Tabela 1. Destaques do Resultado 
+R$ milhões, exceto quando indicado 3T25 2T26 3T26 Δ% A/A Δ% T/T 9M25 9M26 Δ% Acm.
+|| Resultado Gerencial
+Lucro Líquido Ajustado 3.785 3.908 1.270 (66,5) (67,5) 14.943 8.608 (42,4)
+Margem Financeira Bruta 26.365 27.483 25.982 (1,5) (5,5) 75.327 80.891 7,4
+Custo do Crédito (17.928) (18.477) (21.234) 18,4 14,9 (43.987) (58.575) 33,2
+Receitas de Prestação de Serviços 8.863 9.125 9.275 4,6 1,6 25.978 27.222 4,8
+Despesas Administrativas (9.812) (10.076) (10.279) 4,8 2,0 (28.984) (30.372) 4,8
+Lucro Líquido Contábil 3.028 3.175 1.216 (59,9) (61,7) 12.836 7.480 (41,7)
+R$ milhões, exceto quando indicado Set/25 Jun/26 Set/26 Δ% A/A Δ% T/T 
+|| Balanço Patrimonial
+Total de Ativos 2.538.718 2.584.770 2.549.171 0,4 (1,4)
+Títulos e Valores Mobiliários 661.734 768.259 790.623 19,5 2,9
+Total de Passivos 2.352.131 2.395.559 2.359.049 0,3 (1,5)
+Recursos de Clientes 891.322 954.019 946.630 6,2 (0,8)
+Patrimônio Líquido 186.587 189.211 190.121 1,9 0,5
+|| Carteira de Crédito
+Carteira de Crédito Expandida 1.278.644 1.313.157 1.306.664 2,2 (0,5)
+Carteira PF 350.511 357.640 357.743 2,1 0,0
+Carteira PJ 452.967 456.150 464.429 2,5 1,8
+Carteira Agro 398.790 421.550 403.588 1,2 (4,3)
+INAD+90d 4,51% 5,61% 6,08% 157 bps 47 bps
+Cobertura 90d 174,27% 148,45% 137,76% (3.650) bps (1.069) bps
+|| Indicadores de Capital
+Índice de Capital Nível I 13,92% 13,27% 12,81% (111) bps (47) bps
+Índice de Capital Principal 11,16% 11,27% 10,80% (35) bps (47) bps
+Índice de Basileia 14,81% 13,91% 13,45% (136) bps (47) bps
+Unidades conforme indicado 3T25 2T26 3T26 Δ% A/A Δ% T/T 9M25 9M26 Δ% Acm.
+|| Indicadores e Múltiplos de Mercado 
+Retorno sobre Ativos (ROA) 0,6% 0,6% 0,2% (41) bps (40) bps 0,8% 0,5% (35) bps
+Retorno sobre Patrimônio Líquido (RSPL) 8,4% 8,3% 2,8% (564) bps (560) bps 11,2% 6,2% (502) bps
+Índice de Eficiência 28,0% 27,7% 30,3% 224 bps 264 bps 27,6% 28,5% 92 bps
+JCP/Dividendos – R$ milhões 411 926 197 (52,0) (78,7) 3.687 1.989 (46,1)
+JCP/Dividendos por Ação – R$ 0,07 0,16 0,04 (51,4) (78,4) 0,65 0,35 (45,9)
+Lucro Líquido por Ação – R$ 0,53 0,56 0,21 (60,4) (62,5) 2,26 1,30 (42,5)
+Valor Patrimonial por Ação – R$ 31,08 31,64 31,63 1,8 (0,0) 31,08 31,63 0,54
+Preço da Ação (BBAS3) – R$ 22,09 19,91 23,07 4,4 15,9 22,09 23,07 0,98
+(P/LPA) Preço / Lucro por Ação 12 Meses 5,83 7,84 10,39 456 bps 255 bps 5,83 10,39 456 bps
+(P/VPA) Preço / Valor Patrimonial da Ação 0,71 0,63 0,73 2 bps 10 bps 0,71 0,73 2 bps
+
+[p. 14]
+Análise do Desempenho 3T26 | Sumário do Resultado 
+ 
+ 
+ 
+ 
+ 
+ Banco do Brasil S.A. | Relações com Investidores 12 
+ 
+Projeções Corporativas 
+As projeções corporativas (guidance) do Banco do Brasil são elaboradas e apresentadas para o ano de referência, 
+com acompanhamento trimestral. 
+As estimativas baseiam-se nas atuais expectativas e projeções da Administração sobre acontecimentos futuros e 
+tendências financeiras que possam afetar os negócios do Conglomerado BB, estando vinculadas às condições de 
+mercado, incluindo mudanças tecnológicas e pressões competitivas sobre produtos e preços, ao desempenho 
+econômico geral do país, como variações nas taxas de juros e câmbio, mudanças políticas, econômicas e na 
+legislação tributária e inflação, bem como aos mercados internacionais. 
+Essas estimativas não constituem garantia de desempenho futuro e envolvem riscos e incertezas que podem 
+extrapolar o controle da Administração, podendo resultar em valores diferentes daqueles apresentados. 
+Mais informações podem ser consultadas no Formulário de Referência, seção 3 e no Fato Relevante divulgado em 
+11/11/2026. 
+Figura 1. Projeções Corporativas 2026 
+ 
+(1) As projeções de crédito consideram a carteira doméstica adicionada de TVM privados e garantias e não considera crédito ao governo. (2) Custo do Crédito: 
+corresponde às despesas de perda esperada (conforme Resolução CMN nº 4.966/21), somadas aos descontos concedidos e deduzidas das receitas com recuperação 
+de crédito.
+
+[p. 15]
+Análise do Desempenho 3T26 
+ 
+ 
+ 
+ Banco do Brasil S.A. 13 
+ 
+1. 
+Informações 
+Financeiras 
+Consolidadas 
+Resumidas
+
+[p. 16]
+Análise do Desempenho 3T26 | Informações Financeiras Consolidadas Resumidas 
+ 
+ 
+ 
+ 
+ 
+ Banco do Brasil S.A. | Relações com Investidores 14 
+ 
+Balanço Patrimonial Consolidado 
+Tabela 2. Balanço Patrimonial¹ – Ativos, Passivos e Patrimônio Líquido – R$ milhões 
+Set/25 Jun/26 Set/26 Δ% A/A Δ% T/T
+|| Total do Ativo 2.538.718 2.584.770 2.549.171 0,4 (1,4)
+Disponibilidades 23.733 27.063 26.425 11,3 (2,4)
+Ativos Financeiros ao Valor Justo no Resultado 17.151 16.166 18.625 8,6 15,2
+Títulos e Valores Mobiliários 7.479 10.152 11.457 53,2 12,9
+Instrumentos Financeiros Derivativos 9.672 6.015 7.167 (25,9) 19,2
+Ativos Fin. ao VJ em Outros Result. Abrangentes 573.030 681.641 706.251 23,2 3,6
+Títulos e Valores Mobiliários 573.030 681.641 706.251 23,2 3,6
+Ativos Financeiros ao Custo Amortizado 1.842.953 1.768.942 1.700.416 (7,7) (3,9)
+Depósitos Compulsórios no Bacen 120.538 117.967 125.259 3,9 6,2
+Aplic. Interfinanceiras de Liquidez 354.961 254.519 190.016 (46,5) (25,3)
+Títulos e Valores Mobiliários 81.225 76.466 72.915 (10,2) (4,6)
+Carteira de Crédito 1.214.345 1.245.872 1.235.239 1,7 (0,9)
+Outros Ativos Financeiros 71.883 74.118 76.986 7,1 3,9
+(Perdas Esperadas Assoc. ao Risco de Crédito) (100.282) (109.222) (110.065) 9,8 0,8
+(Carteira de Crédito) (95.447) (103.687) (103.388) 8,3 (0,3)
+(Outros Ativos financeiros) (4.835) (5.536) (6.677) 38,1 20,6
+Ativos Fiscais 97.423 110.485 117.790 20,9 6,6
+Correntes 13.356 12.092 13.007 (2,6) 7,6
+Diferidos (Créditos Tributários) 84.067 98.394 104.782 24,6 6,5
+Investimentos 19.911 20.401 21.322 7,1 4,5
+Imobilizado 15.279 18.255 18.575 21,6 1,8
+Intangível 11.870 12.262 13.110 10,5 6,9
+Outros Ativos Não Financeiros 37.651 38.777 36.722 (2,5) (5,3)
+|| Total do Passivo e Patrimônio Líquido 2.538.718 2.584.770 2.549.171 0,4 (1,4)
+Total do Passivo 2.352.131 2.395.559 2.359.049 0,3 (1,5)
+Passivos Financeiros ao Valor Justo no Resultado 8.895 5.614 7.112 (20,0) 26,7
+Instrumentos Financeiros Derivativos 8.895 5.614 7.112 (20,0) 26,7
+Passivos Financeiros ao Custo Amortizado 2.234.764 2.281.626 2.242.351 0,3 (1,7)
+Recursos de Clientes 891.322 954.019 946.630 6,2 (0,8)
+Recursos de Instituições Financeiras 795.250 922.436 907.183 14,1 (1,7)
+Recursos de Emissões de Títulos e Valores Mobiliários 367.888 287.273 276.767 (24,8) (3,7)
+Outros Passivos Financeiros 180.304 117.898 111.771 (38,0) (5,2)
+Provisões 35.306 38.912 38.291 8,5 (1,6)
+Cíveis, Fiscais e Trabalhistas 28.292 32.037 30.839 9,0 (3,7)
+Outras Provisões 7.014 6.875 7.452 6,2 8,4
+Passivos Fiscais 19.342 16.831 19.483 0,7 15,8
+Correntes 6.817 5.022 6.756 (0,9) 34,5
+Diferidos 12.525 11.809 12.728 1,6 7,8
+Outros Passivos Não Financeiros 53.825 52.575 51.812 (3,7) (1,5)
+Patrimônio Líquido 186.587 189.211 190.121 1,9 0,5
+Capital 120.000 120.000 120.000 0,0 0,0
+Instrumento Elegível ao Capital Principal 4.100 4.100 4.000 (2,4) (2,4)
+Reservas de Capital 1.417 1.427 1.427 0,7 0,0
+Reservas de Lucros 75.822 86.770 86.573 14,2 (0,2)
+Outros Resultados Abrangentes (22.380) (27.360) (28.451) 27,1 4,0
+(Ações em Tesouraria) (258) (253) (252) (2,3) (0,2)
+Lucros ou Prejuízos Acumulados 3.033 - 1.222 (59,7) -
+Participação dos Não Controladores 4.853 4.528 5.603 15,5 23,7
+ 
+(1) Elaborado a partir de base contábil, mas pode apresentar ajustes gerenciais, para possibilitar um melhor entendimento do negócio e do desempenho da empresa.
+
+[p. 17]
+Análise do Desempenho 3T26 | Informações Financeiras Consolidadas Resumidas 
+ 
+ 
+ 
+ 
+ 
+ Banco do Brasil S.A. | Relações com Investidores 15 
+ 
+Demonstração do 
+Resultado Consolidado 
+Tabela 3. Demonstração do Resultado com Realocações – R$ milhões 
+3T25 2T26 3T26 Δ% A/A Δ% T/T 9M25 9M26 Δ% Acm.
+Margem Financeira Bruta ¹ ² ³ ⁴ 26.365 27.483 25.982 (1,5) (5,5) 75.327 80.891 7,4
+Custo do Crédito ¹ ² ⁵ ⁶ (17.928) (18.477) (21.234) 18,4 14,9 (43.987) (58.575) 33,2
+Recuperação de Crédito 1.424 1.865 1.758 23,5 (5,7) 4.703 4.854 3,2
+Despesa de Perda Esperada (17.928) (18.831) (22.064) 23,1 17,2 (46.368) (57.488) 24,0
+Descontos Concedidos (1.424) (1.510) (928) (34,8) (38,6) (2.322) (5.942) 155,8
+Margem Financeira Líquida 8.437 9.006 4.748 (43,7) (47,3) 31.339 22.316 (28,8)
+Receitas de Prestação de Serviços 8.863 9.125 9.275 4,6 1,6 25.978 27.222 4,8
+Despesas Administrativas (9.812) (10.076) (10.279) 4,8 2,0 (28.984) (30.372) 4,8
+Despesas de Pessoal ⁷ (6.567) (6.781) (6.747) 2,7 (0,5) (19.334) (20.309) 5,0
+Outras Despesas Administrativas ⁸ (3.244) (3.295) (3.532) 8,9 7,2 (9.650) (10.063) 4,3
+Outras Receitas/Despesas Operacionais (1.453) (1.436) (3.366) 131,7 134,5 (3.988) (6.602) 65,5
+Participações em Controladas e Coligadas 1.989 2.085 1.891 (4,9) (9,3) 5.872 5.769 (1,7)
+PREVI - Plano de Benefícios I ⁹ 822 1.051 785 (4,5) (25,3) 2.779 2.887 3,9
+PREVI - Atualização de Fundo Utilização ¹⁰ 208 350 210 1,2 (39,9) 862 936 8,6
+Despesas Tributárias ⁴ (2.235) (2.307) (2.207) (1,3) (4,4) (6.524) (6.804) 4,3
+Outras Receitas/Despesas ⁵ ⁶ ⁸ ⁹ ¹⁰ ¹¹ ¹² (2.237) (2.614) (4.046) 80,9 54,8 (6.976) (9.390) 34,6
+Provisões (1.795) (1.717) (1.284) (28,5) (25,2) (5.461) (5.198) (4,8)
+Cíveis, Fiscais e Trabalhistas ¹¹ ¹³ (1.795) (1.717) (1.284) (28,5) (25,2) (5.448) (5.191) (4,7)
+Outras Provisões - - - - - (13) (6) (50,8)
+Resultado Operacional 4.241 4.903 (906) - - 18.885 7.366 (61,0)
+Resultado Não Operacional 80 99 74 (7,7) (25,2) 218 379 74,1
+Resultado Antes da Trib. s/ o Lucro 4.322 5.002 (832) - - 19.103 7.745 (59,5)
+Imposto de Renda e Contr. Social ³ ¹⁴ 716 258 3.124 336,5 - 178 4.484 -
+Participações Estatutárias ¹⁵ (438) (408) (176) (60,0) (57,0) (1.865) (1.027) (44,9)
+Participações Minoritárias (814) (944) (847) 4,1 (10,2) (2.473) (2.594) 4,9
+Lucro Líquido Ajustado 3.785 3.908 1.270 (66,5) (67,5) 14.943 8.608 (42,4)
+Itens Extraordinários (757) (733) (54) (92,9) (92,7) (2.107) (1.128) (46,5)
+Planos Econômicos ¹³ (1.461) (1.415) (104) (92,9) (92,7) (3.930) (2.177) (44,6)
+Adesão ao Programa de Transação ⁷ ¹² - - - - - (1.192) - -
+Efeitos Fiscais e de PLR ¹⁴ ¹⁵ 704 682 50 (92,9) (92,7) 3.015 1.050 (65,2)
+Lucro Líquido 3.028 3.175 1.216 (59,9) (61,7) 12.836 7.480 (41,7)
+
+[p. 18]
+Análise do Desempenho 3T26 | Informações Financeiras Consolidadas Resumidas 
+ 
+ 
+ 
+ 
+ Banco do Brasil S.A. | Relações com Investidores 16 
+ 
+Tabela 4. Demonstrativo das Realocações e Itens Extraordinários – R$ milhões 
+# De Para Evento 3T25 2T26 3T26 9M25 9M26
+1 Margem Financeira Bruta Custo do Crédito Recuperação de Crédito 1.424 1.865 1.758 4.703 4.854
+2 Margem Financeira Bruta Custo do Crédito Descontos Concedidos (1.040) (94) (9) (1.347) (3.255)
+3 Imposto de Renda e Contr. Social Margem Financeira Bruta Rendimentos de Aplicações Financeiras 735 695 780 1.945 2.195
+4 Despesas Tributárias Margem Financeira Bruta Hedge Fiscal (19) (13) 0 (105) (54)
+5 Custo do Crédito Outras Receitas/Despesas Perda Esperada sem Caract. de Interm. Fin. (160) (239) (1.154) (761) (1.643)
+6 Outras Receitas/Despesas Custo do Crédito Descontos Concedidos (384) (1.417) (919) (975) (2.687)
+7 Despesas de Pessoal Adesão ao Programa de Transação Adesão ao Programa de Transação – – – (433) –
+8 Outras Despesas Administrativas Outras Receitas/Despesas Verba de Relacionamento Negocial (485) (491) (501) (1.418) (1.483)
+9 Outras Receitas/Despesas PREVI - Plano de Benefícios I Revisão dos Ativos e Passivos Atuariais da Previ 822 1.051 785 2.779 2.887
+10 Outras Receitas/Despesas PREVI - Atualização de Fundo Utilização Revisão dos Ativos e Passivos Atuariais da Previ 208 350 210 862 936
+11 Outras Receitas/Despesas Cíveis, Fiscais e Trabalhistas Outras Despesas com Demandas Cíveis (60) (262) (305) (360) (779)
+12 Outras Receitas/Despesas Adesão ao Programa de Transação Adesão ao Programa de Transação – – – (759) –
+13 Cíveis, Fiscais e Trabalhistas Planos Econômicos Planos Econômicos (1.461) (1.415) (104) (3.930) (2.177)
+14 Imposto de Renda e Contr. Social Efeitos Fiscais e de PLR Efeitos Fiscais e de PLR sobre Itens Extraordinários 619 600 44 2.777 923
+15 Participações Estatutárias Efeitos Fiscais e de PLR Efeitos Fiscais e de PLR sobre Itens Extraordinários 85 82 6 238 127
+
+[p. 19]
+Análise do Desempenho 3T26 | Informações Financeiras Consolidadas Resumidas 
+ 
+ 
+ 
+ 
+ 
+ Banco do Brasil S.A. | Relações com Investidores 17 
+ 
+Glossário das Realocações 
+(01), (02) e (06) Receitas (despesas) relacionadas ao 
+custo do crédito contabilizadas em recuperação de 
+créditos baixados como prejuízo, descontos 
+concedidos em renegociação. 
+(03) Realocação de resultado positivo de aplicações 
+financeiras. 
+(04) Efeitos de impostos incidentes sobre hedge para 
+investimentos no exterior. 
+(05) Reversão (reforço) de provisão para créditos sem 
+característica de intermediação financeira. 
+(07) e (12) Efeitos da adesão ao Programa de 
+Transição Tributária, elaborado pela Procuradoria 
+Geral da Fazenda Nacional (PGFN) e Secretaria 
+Especial da Receita Federal do Brasil (RFB). 
+(08) Amortização de aquisição de folha de 
+pagamentos. 
+(09) Receitas (despesas) financeiras da revisão dos 
+ativos e passivos atuariais da Previ. 
+(10) Receitas financeiras de atualização do Fundo 
+Utilização da Previ. 
+(11) Outras despesas provenientes de demandas 
+cíveis. 
+(13) Despesas com provisão oriundas de ações 
+judiciais referentes aos planos econômicos. 
+ (14) e (15) Segregação dos efeitos de itens 
+extraordinários em relação ao imposto de renda (IR) e 
+contribuição social sobre o lucro líquido (CSLL) e à 
+apuração de participação nos lucros e resultados 
+(PLR). 
+Efeitos Fiscais e de PLR 
+sobre Itens Extraordinários 
+A tabela a seguir demonstra os efeitos fiscais (IR e CSLL) e de participação nos lucros e resultados (PLR) relacionados 
+a cada um dos itens extraordinários. 
+Tabela 5. Efeitos Fiscais e de PLR sobre Itens Extraordinários – R$ milhões 
+3T25 2T26 3T26 Δ% A/A Δ% T/T 9M25 9M26 Δ% Acm.
+|| Efeitos Fiscais e de PLR s/ Itens Ext. 704 682 50 (92,9) (92,7) 3.015 1.050 (65,2)
+Planos Econômicos 704 682 50 (92,9) (92,7) 1.894 1.050 (44,6)
+Adesão ao Programa de Transação - - - - - 1.121 - -
+
+[p. 20]
+Análise do Desempenho 3T26 
+ 
+ 
+ 
+ Banco do Brasil S.A. 18 
+ 
+2. 
+Margem 
+Financeira 
+Bruta 
+No 3T26, a Margem Financeira Bruta (MFB) totalizou R$ 26,0 
+bilhões, queda de 5,5% na comparação trimestral e de 1,5% na 
+comparação com o mesmo período do ano anterior, em função, 
+principalmente, da retração das receitas financeiras de 
+operações de crédito (-3,1% e -4,8%, respectivamente). 
+Na comparação acumulada (9M26/9M25), o crescimento da 
+MFB (+7,4%) foi impulsionada pelas receitas de crédito (+2,5%), 
+especialmente nas operações de pessoas físicas (+10,1%) e pelo 
+resultado de tesouraria (+4,4%).
+
+[p. 21]
+Análise do Desempenho 3T26 | Margem Financeira Bruta 
+ 
+ 
+ 
+ 
+ 
+ Banco do Brasil S.A. | Relações com Investidores 19 
+ 
+MFB Contábil 
+Tabela 6. Principais Indicadores 
+3T25 2T26 3T26 Δ% A/A Δ% T/T 9M25 9M26 Δ% Acm.
+CDI / TMS – % 3,70 3,32 3,43 (7,5) 3,3 10,36 10,51 1,4
+TJLP – % 2,26 2,30 2,30 2,0 0,1 6,58 7,08 7,6
+TR – % 0,52 0,51 0,51 (2,1) 0,7 1,45 1,49 2,9
+RDP – % ¹ 2,04 2,01 2,01 (1,4) 0,1 6,09 6,13 0,7
+Dias úteis 66 61 65 (1,5) 6,6 188 187 (0,5)
+Dias corridos 92 91 92 – 1,1 273 273 –
+Câmbio – US$ ² 5,32 5,18 5,18 (2,6) 0,1
+ 
+(1) Remuneração dos Depósitos de Poupança; (2) Câmbio de fechamento (PTAX venda) do último dia útil do período de referência. 
+Tabela 7. Composição da Margem Financeira Bruta – R$ milhões 
+3T25 2T26 3T26 Δ% A/A Δ% T/T 9M25 9M26 Δ% Acm.
+Margem Financeira Bruta 26.365 27.483 25.982 (1,5) (5,5) 75.327 80.891 7,4
+Receitas Financeiras 57.501 55.453 53.907 (6,3) (2,8) 160.204 164.667 2,8
+Operações de Crédito 47.245 46.409 44.992 (4,8) (3,1) 134.522 137.854 2,5
+Tesouraria ¹ 10.256 9.044 8.916 (13,1) (1,4) 25.682 26.813 4,4
+Despesas Financeiras (31.136) (27.970) (27.925) (10,3) (0,2) (84.877) (83.775) (1,3)
+Captação Comercial (26.240) (23.258) (23.194) (11,6) (0,3) (70.979) (69.848) (1,6)
+Captação Institucional ² (4.896) (4.712) (4.731) (3,4) 0,4 (13.898) (13.927) 0,2
+ 
+(1) Inclui o resultado com juros, hedge fiscal, derivativos e outros instrumentos financeiros que compensam os efeitos da variação cambial no resultado; (2) Inclui 
+instrumentos de dívida sênior, dívida subordinada e IHCD (exceto instrumento elegível ao Capital Principal).
+
+[p. 22]
+Análise do Desempenho 3T26 | Margem Financeira Bruta 
+ 
+ 
+ 
+ 
+ 
+ Banco do Brasil S.A. | Relações com Investidores 20 
+ 
+Receita Financeira 
+de Operações de Crédito 
+A receita de operações de crédito totalizou R$ 45,0 bilhões no 3T26, queda de 3,1% na comparação trimestral, 
+influenciada, principalmente, pela menor receita na carteira de pessoas físicas (PF) e do Agro. Na comparação 
+acumulada, houve crescimento de 2,5%. 
+Tabela 8. Receita Financeira de Operação de Crédito – R$ milhões 
+3T25 2T26 3T26 Δ% A/A Δ% T/T 9M25 9M26 Δ% Acm.
+Receita Financeira de Op. de Crédito 47.245 46.409 44.992 (4,8) (3,1) 134.522 137.854 2,5
+Operações de Crédito - PF 16.760 18.086 16.819 0,4 (7,0) 47.958 52.805 10,1
+Operações de Crédito - PJ 17.262 14.935 15.173 (12,1) 1,6 48.442 45.445 (6,2)
+Operações de Crédito - Agronegócio 10.953 11.310 10.948 (0,0) (3,2) 31.610 33.245 5,2
+Operações de Crédito - Rede Externa 2.020 1.756 1.767 (12,6) 0,6 5.689 5.478 (3,7)
+Op. de Venda ou de Transf. de Ativos Fin. 202 278 231 14,7 (16,8) 688 738 7,3
+Operações de Arrendamento Mercantil 33 33 31 (6,6) (8,0) 88 98 12,4
+Demais Operações de Crédito 14 11 23 67,0 106,0 48 43 (10,8)
+ 
+ 
+Figura 2. Distribuição das Receitas de Crédito – % 
+37,4
+33,7
+24,3
+3,9 0,6
+3T26
+39,0
+32,2
+24,4
+3,8 0,7
+2T26
+Pessoas Físicas
+Pessoas Jurídicas
+Agronegócio
+Rede Externa
+Demais Operações de 
+Crédito
+
+[p. 23]
+Análise do Desempenho 3T26 | Margem Financeira Bruta 
+ 
+ 
+ 
+ 
+ 
+ Banco do Brasil S.A. | Relações com Investidores 21 
+ 
+Figura 3. Distribuição da Carteira de Crédito Expandida – % 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+27,4
+35,5
+30,9
+6,2
+Set/26
+27,2
+34,7
+32,1
+5,9
+Jun/26
+Pessoas Físicas
+Pessoas Jurídicas
+Agronegócio
+Rede Externa
+ 
+Despesa Financeira 
+de Captação Comercial 
+A despesa de captação comercial totalizou R$ 23,2 bilhões no 3T26, redução de 0,3% na comparação trimestral, 
+influenciada pela retração do saldo médio das captações, especialmente nas LCA (-5,2%). Na comparação 
+acumulada, a queda de 1,6%, é explicada principalmente pela retração do saldo médio das LCA (-19,9%). 
+Tabela 9. Despesa de Captação Comercial – R$ milhões 
+3T25 2T26 3T26 Δ% A/A Δ% T/T 9M25 9M26 Δ% Acm.
+Despesa de Captação Comercial (26.240) (23.258) (23.194) (11,6) (0,3) (70.979) (69.848) (1,6)
+Despesas de Captação com Depósitos (20.037) (19.476) (19.770) (1,3) 1,5 (54.781) (58.246) 6,3
+Depósitos a Prazo ¹ (8.672) (7.821) (8.209) (5,3) 5,0 (22.523) (23.859) 5,9
+Depósitos de Poupança (4.174) (4.027) (4.158) (0,4) 3,2 (12.108) (12.223) 1,0
+Depósitos Judiciais (7.190) (7.628) (7.404) 3,0 (2,9) (20.151) (22.164) 10,0
+Despesas de Emissão de Títulos (8.777) (6.287) (6.157) (29,9) (2,1) (22.854) (19.263) (15,7)
+Letra de Crédito do Agronegócio (LCA) (8.282) (5.821) (5.687) (31,3) (2,3) (21.522) (17.835) (17,1)
+Letra de Crédito Imobiliário (LCI) (483) (450) (449) (7,0) (0,1) (1.307) (1.380) 5,6
+Outros Recursos de Emissões (12) (17) (20) 72,9 20,5 (25) (48) 94,7
+Fundo Garantidor Créditos (FGC) (248) (238) (241) (2,9) 1,2 (723) (717) (0,8)
+Res. de Depósitos no Banco Central 2.822 2.744 2.975 5,4 8,4 7.379 8.378 13,5
+ 
+(1) Inclui despesas com Outros Depósitos.
+
+[p. 24]
+Análise do Desempenho 3T26 | Margem Financeira Bruta 
+ 
+ 
+ 
+ 
+ 
+ Banco do Brasil S.A. | Relações com Investidores 22 
+ 
+Tabela 10. Captações vs. Taxa Selic – R$ milhões 
+3T25 2T26 3T26
+Saldo
+Médio Custo % Selic Saldo Médio Custo % Selic Saldo Médio Custo % Selic 
+Depósitos Totais 1.188.879 (29.196) 66,3 1.217.293 (27.251) 67,4 1.181.673 (26.620) 65,7
+Depósitos a Prazo ¹ 593.749 (15.863) 72,1 644.470 (15.449) 72,2 653.488 (15.613) 69,7
+Depósitos de Poupança 215.153 (4.174) 52,4 214.015 (4.027) 56,7 215.537 (4.158) 56,3
+Letras de Créd. do Agronegócio 245.192 (8.282) 91,2 187.328 (5.821) 93,6 177.655 (5.687) 93,4
+Depósitos à Vista 90.741 – – 87.722 – – 83.610 – –
+Depósitos Interfinanceiros 28.974 (394) – 68.140 (1.505) – 35.923 (713) –
+Letras de Crédito Imobiliário 15.069 (483) 86,6 15.619 (450) 86,7 15.459 (449) 84,8
+ 
+(1) Inclui depósitos judiciais e outros depósitos. 
+Despesa Financeira 
+de Captação Institucional 
+A tabela a seguir apresenta a abertura da Despesa de Captação Institucional, que é referente aos títulos corporativos 
+emitidos pelo Banco no mercado de capitais, no Brasil e no exterior, cujos subscritores são investidores qualificados. 
+Vale ressaltar que o Instrumento Híbrido de Capital e Dívida (IHCD) emitido no Brasil, fruto de contrato mútuo com 
+a União e elegível a capital principal, é apresentado no Patrimônio Líquido em Instrumento Elegível ao Capital 
+Principal e o pagamento de sua remuneração é realizado com recursos provenientes de lucros acumulados e reserva 
+de lucros, ou seja, não está refletido na despesa financeira de captação institucional. 
+Tabela 11. Despesa de Captação Institucional – R$ milhões 
+3T25 2T26 3T26 Δ% A/A Δ% T/T 9M25 9M26 Δ% Acm.
+Despesa Financ. de Captação Institucional (4.896) (4.712) (4.731) (3,4) 0,4 (13.898) (13.927) 0,2
+Obrigações de Emp., Cessões e Repasses (1.992) (2.284) (2.197) 10,3 (3,8) (6.194) (6.444) 4,0
+Dívidas Subordinadas (1.346) (1.135) (1.178) (12,5) 3,8 (3.310) (3.444) 4,0
+no País ¹ (1.142) (1.135) (1.178) 3,2 3,8 (2.671) (3.444) 28,9
+no Exterior (205) – – - - (639) – -
+Títulos e Valores Mobiliários no Exterior (484) (445) (450) (7,1) 1,2 (1.576) (1.358) (13,8)
+Letras Financeiras ² (1.073) (849) (906) (15,5) 6,8 (2.818) (2.681) (4,9)
+ 
+(1) Correspondem às despesas com Letras Financeiras Perpétuas; (2) Representam as despesas com instrumentos sêniores.
+
+[p. 25]
+Análise do Desempenho 3T26 | Margem Financeira Bruta 
+ 
+ 
+ 
+ 
+ 
+ Banco do Brasil S.A. | Relações com Investidores 23 
+ 
+Resultado de Tesouraria 
+O resultado de tesouraria é formado por: (i) resultado de títulos e valores mobiliários, onde estão as 
+receitas/despesas de juros e negociação das carteiras de negociação e bancária, além da marcação à mercado dos 
+títulos da carteira de negociação; (ii) resultado de operações compromissadas; (iii) resultado de operações 
+interfinanceiras; e (iv) outros componentes, onde estão os resultados de derivativos, operações de câmbio, variação 
+cambial dos instrumentos financeiros, ganho/perda cambial sobre os investimentos no exterior e resultado do 
+hedge fiscal (overhedge). 
+Tabela 12. Resultado de Tesouraria – R$ milhões 
+3T25 2T26 3T26 Δ% A/A Δ% T/T 9M25 9M26 Δ% Acm.
+Resultado de Tesouraria 10.256 9.044 8.916 (13,1) (1,4) 25.682 26.813 4,4
+Títulos e Valores Mobiliários ¹ 10.035 8.172 8.866 (11,6) 8,5 24.613 25.077 1,9
+Result. de Operações Compromissadas 195 94 67 (65,7) (28,8) 511 296 (42,1)
+Aplicações Interfinanceiras de Liquidez 11.330 6.033 6.843 (39,6) 13,4 31.499 19.160 (39,2)
+Captações no Mercado Aberto ² (11.134) (5.939) (6.776) (39,1) 14,1 (30.988) (18.864) (39,1)
+Result. de Depósitos Interfinanceiros 366 573 219 (40,1) (61,8) 1.214 1.464 20,6
+Aplicações em Depósitos Interfinanceiros 759 2.078 932 22,7 (55,2) 2.370 4.138 74,6
+Captações em Depósitos Interfinanceiros (394) (1.505) (713) 81,1 (52,6) (1.156) (2.674) 131,4
+Outros Componentes de Tesouraria (340) 205 (236) (30,5) - (656) (23) (96,5)
+ 
+(1) Contém as despesas com captação no mercado aberto (carteira própria); (2) Refere-se às despesas com carteira de terceiros. 
+O resultado de TVM totalizou R$ 8,9 bilhões no 3T26, aumento de 8,5% na comparação trimestral e elevação de 
+1,9% na comparação acumulada. Em ambas as comparações, o desempenho foi influenciado pelo aumento da 
+carteira média (+1,2% e +31,7%). 
+Tabela 13. Resultado de TVM – R$ milhões 
+3T25 2T26 3T26 Δ% A/A Δ% T/T 9M25 9M26 Δ% Acm.
+Resultado de TVM 10.035 8.172 8.866 (11,6) 8,5 24.613 25.077 1,9
+Receitas de Juros 9.951 8.259 8.724 (12,3) 5,6 23.764 24.912 4,8
+Resultado das Negociações 126 103 130 3,7 26,1 718 420 (41,6)
+Resultado de Marcação a Mercado (41) (190) 11 - - 131 (255) -
+ 
+Figura 4. Carteira de Títulos e Valores Mobiliários por Indexador (Banco Múltiplo) – % 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+86,1
+13,2
+0,7
+Set/26
+86,6
+12,6
+0,8
+Jun/26
+CDI / TMS
+Prefixado
+Outros
+
+[p. 26]
+Análise do Desempenho 3T26 | Margem Financeira Bruta 
+ 
+ 
+ 
+ 
+ 
+ Banco do Brasil S.A. | Relações com Investidores 24 
+ 
+A tabela a seguir demonstra a composição da carteira de TVM. A carteira é composta principalmente por títulos 
+públicos federais. 
+Tabela 14. Carteira de Títulos por Categoria – Valor de Mercado – R$ milhões 
+Set/25 Part. % Jun/26 Part. % Set/26 Part. % Δ% A/A Δ% T/T 
+Títulos e Valores Mobiliários 662.337 100,0 768.259 100,0 790.623 100,0 19,4 2,9 
+Ao Valor Justo no Resultado 7.513 1,1 10.152 1,3 11.457 1,4 52,5 12,9 
+Ao Valor Justo em Outros Res. Abrangentes 573.184 86,5 681.641 88,7 706.251 89,3 23,2 3,6 
+Ao Custo Amortizado 81.640 12,3 76.466 10,0 72.915 9,2 (10,7) (4,6) 
+ 
+Saldo da Liquidez 
+A tabela seguinte apresenta o saldo de liquidez, diferença entre os ativos e passivos de liquidez. 
+Tabela 15. Saldo da Liquidez – R$ milhões 
+Set/25 Part. % Jun/26 Part. % Set/26 Part. % Δ% A/A Δ% T/T 
+Ativos de Liquidez (a) 1.040.428 100,0 1.049.841 100,0 1.007.065 100,0 (3,2) (4,1)
+Títulos e Valores Mobiliários (TVM) 661.734 63,6 768.259 73,2 790.623 78,5 19,5 2,9
+Aplicações Interfinanceiras 354.961 34,1 254.519 24,2 190.016 18,9 (46,5) (25,3)
+Disponibilidades 23.733 2,3 27.063 2,6 26.425 2,6 11,3 (2,4)
+Passivos de Liquidez (b) 712.560 100,0 756.567 100,0 734.426 100,0 3,1 (2,9)
+Captações no Mercado Aberto 682.233 95,7 685.502 90,6 703.883 95,8 3,2 2,7
+Depósitos Interfinanceiros 30.327 4,3 71.065 9,4 30.543 4,2 0,7 (57,0)
+Saldo da Liquidez (a-b) 327.868 100,0 293.274 100,0 272.639 100,0 (16,8) (7,0)
+
+[p. 27]
+Análise do Desempenho 3T26 | Margem Financeira Bruta 
+ 
+ 
+ 
+ 
+ 
+ Banco do Brasil S.A. | Relações com Investidores 25 
+ 
+MFB Gerencial 
+A seguir é apresentada a MFB Gerencial, formada pela Margem com Clientes e Margem com Mercado. 
+Figura 5. Margem Financeira com Clientes ¹ e com Mercado ² – R$ milhões 
+ 
+ 
+ 
+ 
+ 
+ 
+24.628 24.424 22.935 23.450 22.860
+1.737 3.378 4.491 4.032 3.122
+26.365 27.801 27.426 27.483 25.982
+3T25 4T25 1T26 2T26 3T26
+Margem com 
+Clientes
+Margem com 
+Mercado
+ 
+(1) A Margem com Clientes é formada pela receita de operações de crédito, acrescida de TVMs privados com característica de crédito, descontada de despesas de 
+oportunidade para cada tipo de operação e pelas despesas de captação comercial (sem aplicações compulsórias), acrescidas de receitas de oportunidade para cada 
+tipo de operação; (2) A Margem com Mercado é formada pelo resultado de tesouraria (sem TVMs privados), pelas despesas de captação institucional, pela margem 
+financeira bruta do Banco Patagonia e pelo resultado líquido das oportunidades (receitas/despesas) acrescido do resultado das aplicações compulsórias. 
+Tabela 16. Margem Financeira com Clientes e Mercado – R$ milhões 
+3T25 2T26 3T26 Δ% A/A Δ% T/T 9M25 9M26 Δ% Acm.
+Margem Financeira Bruta 26.365 27.483 25.982 (1,5) (5,5) 75.326 80.891 7,4
+Margem com Clientes 24.628 23.450 22.860 (7,2) (2,5) 67.267 69.245 2,9
+Saldo Médio 1.138.486 1.157.205 1.159.802 1,9 0,2 1.132.574 1.156.095 2,1
+Spread com Clientes % 8,94 8,36 8,12 (9,1) (2,8) 8,00 8,06 0,9
+Margem com Mercado 1.737 4.032 3.122 79,7 (22,6) 8.059 11.646 44,5
+ 
+A Margem com Clientes totalizou R$ 22,9 bilhões no 3T26, queda trimestral de 2,5%, devido, principalmente, à 
+queda nas receitas das operações PF e do Agro. A margem passiva foi influenciada pela expansão dos depósitos a 
+prazo, além do efeito calendário (quatro dias úteis a mais). O desempenho da Margem com Mercado (-22,6%) foi 
+influenciado pelo menor resultado de tesouraria do Banco Patagonia. 
+Na comparação acumulada, a Margem com Clientes cresceu 2,9%, positivamente influenciada pela mudança do mix 
+da margem passiva. O desempenho da Margem com Mercado (+44,5%) tem relação com a expansão da carteira de 
+TVM e com a estratégia de substituição de parte dos instrumentos de capital nível I no exterior por emissões no 
+mercado local.
+
+[p. 28]
+Análise do Desempenho 3T26 | Margem Financeira Bruta 
+ 
+ 
+ 
+ 
+ 
+ Banco do Brasil S.A. | Relações com Investidores 26 
+ 
+Análise dos Ativos e Passivos 
+As tabelas referentes aos ativos rentáveis e aos passivos onerosos apresentam os seguintes conceitos: (i) Saldo 
+Médio: média aritmética dos saldos de fim de mês do período; (ii) Receitas/Despesas: calculadas incluindo o efeito 
+parcial da variação cambial; e (iii) Taxa Anual: 252 dias úteis por ano / dias úteis no período. 
+Ativos Rentáveis 
+Tabela 17. Saldos Médios e Taxa de Juros – Ativos Rentáveis (anual) – R$ milhões 
+Saldo
+Médio Receitas Taxa Anual (%) Saldo Médio Receitas Taxa Anual (%)
+Ativos Rentáveis 2.304.498 85.079 15,6 2.339.033 81.905 14,8
+Operações de Crédito ¹ 1.221.102 47.245 16,4 1.241.150 44.992 15,3
+Títulos e Valores Mobiliários 646.606 22.923 15,0 775.359 26.165 14,2
+Aplicações Interf. de Liquidez 339.401 12.089 15,0 216.002 7.774 15,2
+Depósito Compulsório Rentável 97.388 2.822 12,1 106.522 2.975 11,6
+3T25 3T26
+ 
+(1) Inclui: Operações de Crédito, Arrendamento Mercantil, Carteiras Adquiridas e carteira de TVM Privados com característica de crédito. 
+Tabela 18. Saldos Médios e Taxa de Juros – Ativos Rentáveis (trimestral) – R$ milhões 
+Saldo
+Médio Receitas Taxa Anual (%) Saldo Médio Receitas Taxa Anual (%)
+Ativos Rentáveis 2.366.617 82.346 14,7 2.339.033 81.905 14,8
+Operações de Crédito ¹ 1.241.096 46.409 15,8 1.241.150 44.992 15,3
+Títulos e Valores Mobiliários 765.936 25.082 13,8 775.359 26.165 14,2
+Aplicações Interf. de Liquidez 258.153 8.111 13,2 216.002 7.774 15,2
+Depósito Compulsório Rentável 101.431 2.744 11,3 106.522 2.975 11,6
+2T26 3T26
+ 
+(1) Inclui Operações de Crédito, Arrendamento Mercantil e Carteiras Adquiridas e a carteira de TVM Privados com característica de crédito. 
+Tabela 19. Saldos Médios e Taxa de Juros – Ativos Rentáveis (acumulado) – R$ milhões 
+Saldo
+Médio Receitas Taxa Anual (%) Saldo Médio Receitas Taxa Anual (%)
+Ativos Rentáveis 2.234.620 233.534 14,2 2.343.595 245.750 14,2
+Operações de Crédito ¹ 1.222.377 134.522 14,9 1.239.177 137.854 15,1
+Títulos e Valores Mobiliários 578.855 57.764 13,5 762.080 76.221 13,6
+Aplicações Interf. de Liquidez 340.978 33.869 13,5 240.976 23.298 13,1
+Depósito Compulsório Rentável 92.410 7.379 10,8 101.362 8.378 11,2
+9M25 9M26
+ 
+(1) Inclui Operações de Crédito, Arrendamento Mercantil e Carteiras Adquiridas e a carteira de TVM Privados com característica de crédito.
+
+[p. 29]
+Análise do Desempenho 3T26 | Margem Financeira Bruta 
+ 
+ 
+ 
+ 
+ 
+ Banco do Brasil S.A. | Relações com Investidores 27 
+ 
+Passivos Onerosos 
+Tabela 20. Saldos Médios e Taxa de Juros – Passivos Onerosos (anual) – R$ milhões 
+Saldo
+Médio Despesas Taxa Anual (%) Saldo Médio Despesas Taxa Anual (%)
+Passivos Onerosos 2.003.760 (58.126) 11,1 2.048.877 (55.446) 10,4
+Captações no Mercado Aberto 653.129 (24.022) 13,9 693.070 (24.074) 13,2
+Depósitos a Prazo 593.749 (15.863) 10,3 653.488 (15.613) 9,2
+Depósitos de Poupança 215.153 (4.174) 7,5 215.537 (4.158) 7,5
+Letras de Crédito do Agronegócio 245.192 (8.282) 12,8 177.655 (5.687) 12,2
+Obrig. por Emprest. e Repasses ¹ 154.291 (1.992) 5,1 170.723 (2.197) 5,0
+Dívida Subordinada 37.315 (1.346) 13,7 29.964 (1.178) 14,8
+Obrigações com TVM no Exterior 31.998 (484) 5,9 29.964 (450) 5,9
+Depósitos Interfinanceiros 28.974 (394) 5,3 35.923 (713) 7,7
+Letras de Crédito Imobiliário 15.069 (483) 12,2 15.459 (449) 11,1
+Demais Letras Bancárias ² 28.889 (1.085) 14,2 27.092 (927) 13,0
+3T25 3T26
+ 
+(1) Inclui Fundos Financeiros e de Desenvolvimento; (2) Inclui Letras Financeiras, Debêntures e Certificados de Recebíveis Imobiliários. 
+Tabela 21. Saldos Médios e Taxa de Juros – Passivos Onerosos (trimestral) – R$ milhões 
+Saldo
+Médio Despesas Taxa Anual (%) Saldo Médio Despesas Taxa Anual (%)
+Passivos Onerosos 2.067.598 (54.829) 10,2 2.048.877 (55.446) 10,4
+Captações no Mercado Aberto 687.677 (22.849) 12,6 693.070 (24.074) 13,2
+Depósitos a Prazo 644.470 (15.449) 9,2 653.488 (15.613) 9,2
+Depósitos de Poupança 214.015 (4.027) 7,3 215.537 (4.158) 7,5
+Letras de Crédito do Agronegócio 187.328 (5.821) 11,9 177.655 (5.687) 12,2
+Obrig. por Emprest. e Repasses ¹ 162.991 (2.284) 5,5 170.723 (2.197) 5,0
+Dívida Subordinada 30.028 (1.135) 14,3 29.964 (1.178) 14,8
+Obrigações com TVM no Exterior 31.075 (445) 5,6 29.964 (450) 5,9
+Depósitos Interfinanceiros 68.140 (1.505) 8,5 35.923 (713) 7,7
+Letras de Crédito Imobiliário 15.619 (450) 11,0 15.459 (449) 11,1
+Demais Letras Bancárias ² 26.256 (866) 12,6 27.092 (927) 13,0
+2T26 3T26
+ 
+(1) Inclui Fundos Financeiros e de Desenvolvimento; (2) Inclui Letras Financeiras, Debêntures e Certificados de Recebíveis Imobiliários.
+
+[p. 30]
+Análise do Desempenho 3T26 | Margem Financeira Bruta 
+ 
+ 
+ 
+ 
+ 
+ Banco do Brasil S.A. | Relações com Investidores 28 
+ 
+Tabela 22. Saldos Médios e Taxa de Juros – Passivos Onerosos (acumulado) – R$ milhões 
+Saldo
+Médio Despesas Taxa Anual (%) Saldo Médio Despesas Taxa Anual (%)
+Passivos Onerosos 1.943.466 (156.828) 10,6 2.041.651 (164.119) 10,6
+Captações no Mercado Aberto 635.577 (64.139) 13,2 689.774 (70.009) 13,3
+Depósitos a Prazo 566.704 (42.674) 9,9 635.891 (46.023) 9,5
+Depósitos de Poupança 214.491 (12.108) 7,5 213.761 (12.223) 7,6
+Letras de Crédito do Agronegócio 234.273 (21.522) 12,1 187.667 (17.835) 12,5
+Obrig. por Emprest. e Repasses ¹ 153.593 (6.194) 5,3 164.195 (6.444) 5,2
+Dívida Subordinada 34.233 (3.310) 12,7 29.737 (3.444) 15,1
+Obrigações com TVM no Exterior 34.190 (1.576) 6,1 30.377 (1.358) 5,9
+Depósitos Interfinanceiros 26.980 (1.156) 5,7 47.755 (2.674) 7,4
+Letras de Crédito Imobiliário 15.097 (1.307) 11,4 15.784 (1.380) 11,5
+Demais Letras Bancárias ² 28.328 (2.843) 13,2 26.710 (2.729) 13,4
+9M25 9M26
+ 
+(1) Inclui Fundos Financeiros e de Desenvolvimento; (2) Inclui Letras Financeiras, Debêntures e Certificados de Recebíveis Imobiliários. 
+As tabelas a seguir apresentam as variações nas receitas e despesas de juros em função do volume médio dos ativos 
+rentáveis e dos passivos onerosos e pela variação da taxa média de juros sobre esses ativos e passivos. 
+Análise Volume e Taxa 
+Tabela 23. Variação de Volume/Taxa – R$ milhões 
+Volume
+Médio¹
+Taxa
+Média²
+Variação
+Líquida³
+Volume
+Médio¹
+Taxa
+Média²
+Variação
+Líquida³
+Volume
+Médio¹
+Taxa
+Média²
+Variação
+Líquida³
+Ativos Rentáveis 1.209 (4.383) (3.174) (966) 525 (440) 11.427 789 12.216
+Operações de Crédito 727 (2.980) (2.253) 2 (1.420) (1.418) 1.869 1.462 3.331
+Títulos e Valores Mobiliários 4.345 (1.103) 3.242 318 765 1.083 18.326 132 18.458
+Aplicações Interf. de Liquidez (4.441) 127 (4.315) (1.517) 1.180 (337) (9.668) (903) (10.571)
+Depósito Compulsório Rentável 255 (103) 152 142 88 231 740 258 998
+Passivos Onerosos (1.221) 3.901 2.680 507 (1.123) (617) (7.893) 602 (7.291)
+Captações no Mercado Aberto (1.387) 1.336 (52) (187) (1.038) (1.226) (5.501) (369) (5.870)
+Depósitos a Prazo (1.327) 1.577 250 (156) (8) (164) (4.901) 1.553 (3.349)
+Depósitos de Poupança (7) 24 16 (29) (101) (131) 42 (158) (116)
+Letras de Crédito do Agronegócio 2.162 433 2.595 310 (176) 133 4.429 (742) 3.687
+Obrig. por Emprest. e Repasses (211) 7 (205) (99) 186 87 (416) 166 (250)
+Dívida Subordinada 289 (121) 168 2 (46) (44) 521 (655) (134)
+Obrigações com TVM no Exterior 31 4 35 17 (22) (5) 170 48 218
+Depósitos Interfinanceiros (138) (181) (319) 639 153 792 (1.163) (355) (1.519)
+Letras de Crédito Imobiliário (11) 45 34 5 (4) 0 (60) (13) (73)
+Demais Letras Bancárias 61 96 158 (29) (32) (61) 165 (52) 114
+3T26 / 2T263T26 / 3T25 9M26 / 9M25
+ 
+(1) Variação Líquida – Taxa Média; (2) (Juros Período Atual / Saldo Período Atual) x (Saldo Período Anterior) – (Juros Período Anterior); (3) Juros Período Atual – 
+Juros do Período Anterior.
+
+[p. 31]
+Análise do Desempenho 3T26 | Margem Financeira Bruta 
+ 
+ 
+ 
+ 
+ 
+ Banco do Brasil S.A. | Relações com Investidores 29 
+ 
+Spreads 
+Spread Global 
+O spread global é obtido pela divisão entre a margem financeira bruta e os ativos rentáveis médios. 
+Tabela 24. Spread Global e Margem Financeira Bruta – R$ milhões 
+3T25 2T26 3T26 9M25 9M26 
+(a) Saldo Médio dos Ativos Rentáveis 2.304.498 2.366.617 2.339.033 2.234.620 2.343.595
+(b) Saldo Médio dos Passivos Onerosos 2.003.760 2.067.598 2.048.877 1.943.466 2.041.651
+(c) Margem Financeira Bruta 26.365 27.483 25.982 75.327 80.891
+(d) Receita Líquida de Juros 26.953 27.517 26.459 76.706 81.631
+(d.I) Receitas de Juros 85.079 82.346 81.905 233.534 245.750
+(d.II) Despesas de Juros (58.126) (54.829) (55.446) (156.828) (164.119)
+(e) Demais Componentes ¹ (588) (34) (477) (1.379) (740)
+Passivos Onerosos / Ativos Rentáveis (b/a) – % 86,9 87,4 87,6 87,0 87,1
+Rentabilidade Média dos Ativos ² ⁴ (d.I/a) – % 15,6 14,7 14,8 14,2 14,2
+Custo Médio dos Passivos ² ⁴ (d.II/b) – % 12,1 11,0 11,3 10,9 10,9
+Margem de Lucro Líquida ² ³ – % 3,5 3,6 3,5 3,3 3,4
+Margem Líquida de Juros ² (d/a) – % 4,8 4,7 4,6 4,6 4,7
+Spread Global ² (c/a) – % 4,7 4,7 4,5 4,5 4,6
+ 
+(1) Contém resultado de derivativos, contratos de assunção de dívidas, resultado de op. de câmbio, recuperação de créd. baixados como prejuízo, empréstimos de 
+ouro, fundo garantidor de crédito, ganho/perda cambial no exterior e outras receitas com características de intermediação financeira; (2) Taxas anualizadas; (3) 
+Diferença entre a taxa média dos ativos rentáveis e a taxa média dos passivos onerosos; (4) Calculado com efeito parcial da variação cambial. 
+Tabela 25. Spread Global e Spread Ajustado pelo Risco – % 
+3T25 4T25 1T26 2T26 3T26 
+Spread Global ¹ 4,7 5,0 4,8 4,7 4,5 
+Spread Ajustado pelo Risco ² 1,5 1,7 1,5 1,5 0,8 
+ 
+(1) Margem Financeira Bruta dividida pelo Saldo Médio dos Ativos Rentáveis, anualizado; (2) Margem Financeira Líquida (MFB menos Custo do Crédito) dividida pelo 
+Saldo Médio dos Ativos Rentáveis, anualizado.
+
+[p. 32]
+Análise do Desempenho 3T26 | Margem Financeira Bruta 
+ 
+ 
+ 
+ 
+ 
+ Banco do Brasil S.A. | Relações com Investidores 30 
+ 
+Spread com Clientes 
+Tabela 26. Spread com Clientes Ajustado pelo Risco – R$ milhões 
+3T25 2T26 3T26 Δ% A/A Δ% T/T 9M25 9M26 Δ% Acm. 
+Margem com Clientes 24.628 23.450 22.860 (7,2) (2,5) 67.267 69.245 2,9
+Custo do Crédito 17.928 18.477 21.234 18,4 14,9 43.987 58.575 33,2
+Saldo Médio com Clientes 1.138.486 1.157.205 1.159.802 1,9 0,2 1.132.574 1.156.095 2,1
+Spread com Clientes % 8,94 8,36 8,12 (9,1) (2,8) 8,00 8,06 0,9
+Spread c/ Clientes Ajust. pelo Risco % ¹ 2,37 1,73 0,56 (76,3) (67,5) 2,75 1,23 (55,2)
+ 
+(1) Margem com Clientes, líquida de Custo do Crédito, dividida pelo Saldo Médio com Clientes, anualizado. 
+Figura 6. Spread com Clientes e Spread com Clientes Ajustado pelo Risco – % 
+ 
+ 
+ 
+ 
+ 
+ 
+8,94 8,91 8,21 8,36 8,12
+2,37 2,30
+1,42 1,73
+0,56
+3T25 4T25 1T26 2T26 3T26
+Spread com Clientes 
+Ajustado pelo Risco
+Spread com Clientes
+ 
+Spread Gerencial de Crédito 
+Figura 7. Spread Gerencial de Crédito ¹ – % 
+ 
+ 
+ 
+ 
+ 
+14,5 14,9 15,3 14,8
+13,1
+6,7 7,0 6,6 6,5
+6,0
+5,2 5,2
+4,7 4,6 4,6
+3,9 4,0
+3,3 3,3 3,3
+3T25 4T25 1T26 2T26 3T26
+Pessoas Físicas
+Crédito
+Pessoas Jurídicas
+Agronegócio
+ 
+(1) Resultado da margem gerencial de crédito dividido pelos respectivos saldos médios de cada carteira, posteriormente anualizado. Vale ressaltar que os spreads 
+de crédito não consideram as operações de títulos privados, operações com governo e operações contratadas por unidades/subsidiárias do BB no exterior.
+
+[p. 33]
+Análise do Desempenho 3T26 | Margem Financeira Bruta 
+ 
+ 
+ 
+ 
+ 
+ Banco do Brasil S.A. | Relações com Investidores 31 
+ 
+Balanço em Moedas Estrangeiras 
+O Banco do Brasil utiliza a estratégia de hedge fiscal que tem como objetivo reduzir a volatilidade do resultado, 
+após os efeitos tributários sobre faturamento, haja vista que os ganhos com a variação cambial dos investimentos 
+no exterior não são tributados e, similarmente, as perdas não geram dedução na base tributária. 
+A exposição cambial é gerenciada de forma a minimizar seus efeitos sobre o resultado do Consolidado. Apresenta-
+se, a seguir, o demonstrativo dos ativos, passivos e derivativos do Consolidado referenciados em moedas 
+estrangeiras. 
+Tabela 27. Balanço em Moedas Estrangeiras – R$ milhões 
+Moeda Ativo Passivo Comprado Vendido Ativo + Comprado Passivo + Vendido 
+Dólar dos EUA 226.034 229.092 82.732 82.882 308.766 311.974 
+Euro 18.959 12.988 8.878 15.169 27.837 28.157 
+Iene 3.417 3.651 2.689 2.350 6.106 6.001 
+Libra Esterlina 559 1.201 877 196 1.436 1.397 
+Franco Suíço 366 35 10 334 376 369 
+Ouro 388 – – – 388 – 
+Dólar Canadense 13 9 – – 13 9 
+Demais 16.765 15.716 5.516 282 22.281 15.998 
+Total 266.501 262.692 100.702 101.213 367.203 363.905 
+Posição Total Líquida 3.298 
+Posição Total Líquida - em US$ milhões 637 
+Contas Patrimoniais Derivativos Total
+
+[p. 34]
+Análise do Desempenho 3T26 | Margem Financeira Bruta 
+ 
+ 
+ 
+ 
+ 
+ Banco do Brasil S.A. | Relações com Investidores 32 
+ 
+Balanço por Indexadores 
+O gráfico a seguir apresenta a composição dos ativos e passivos do Banco Múltiplo, detalhada por indexador e pela 
+posição líquida. 
+Figura 8. Ativos e Passivos por Indexador e Posição Líquida (Banco Múltiplo) – R$ bilhões¹ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+803
+1.142
+75 142 217 47
+(102)
+(1.540)
+(98) (240) (413) (33)
+701
+(398)
+(23) (98) (196)
+14
+Prefixado Pós-Fixado Dólar (US$) /
+Outras Moedas
+Estrangeiras
+Poupança / TBF Sem Indexador TJLP / TLP /
+Índice de Preço /
+RV
+Posição Líquida
+Passivo
+Ativo
+ 
+(1) Classificação gerencial de ativos e passivos. 
+Apresenta-se, a seguir, o estoque de operações sensíveis às variações nas taxas de juros, alocados por prazo de 
+vencimento. 
+Tabela 28. Descasamento por Vencimento (Banco Múltiplo) – R$ milhões 
+< 1 Mês 1 > 3 Meses 3 > 6 Meses 6 > 12 Meses 1 > 3 Anos > 3 Anos Total 
+Ativos 1.046.606 129.507 107.350 189.800 405.101 547.218 2.425.584
+Prefixado 175.992 42.400 64.038 110.556 217.100 192.963 803.048
+Pós-Fixado 723.427 79.644 21.220 44.852 102.260 170.703 1.142.106
+Poupança / TBF 10.536 6.571 1.989 10.536 28.552 83.474 141.658
+Índice de Preço 10.617 459 663 5.221 14.139 9.145 40.244
+TJLP 44 89 77 155 333 6.250 6.948
+Dólar (US$) / Outras Moedas Estrang. 22.353 4.006 8.912 1.327 5.672 31.895 74.164
+Renda Variável – – – – – 867 867
+Sem Indexador 103.638 (3.661) 10.451 17.153 37.046 51.921 216.549
+Passivos (871.900) (61.486) (58.614) (182.005) (387.912) (863.666) (2.425.584)
+Prefixado (16.928) (6.552) (7.148) (15.756) (25.192) (30.163) (101.739)
+Pós-Fixado (717.063) (33.272) (32.461) (96.861) (283.082) (377.536) (1.540.276)
+Poupança / TBF (11.911) (9.905) (4.107) (16.466) (43.251) (154.369) (240.008)
+Índice de Preço (8.462) (294) (468) (1.187) (4.221) (7.935) (22.568)
+TJLP (396) (154) (117) (125) (258) (9.430) (10.479)
+Dólar (US$) / Outras Moedas Estrang. (12.491) (8.677) (7.582) (41.549) (9.844) (17.582) (97.726)
+Sem Indexador (104.648) (2.633) (6.731) (10.060) (22.065) (266.651) (412.788)
+Gap 174.706 68.021 48.736 7.795 17.189 (316.447) – 
+Gap Acumulado 174.706 242.727 291.463 299.258 316.447 – – 
+Gap Acum. como % Ativos 16,7 187,4 271,5 157,7 78,1 –
+
+[p. 35]
+Análise do Desempenho 3T26 
+ 
+ 
+ 
+ Banco do Brasil S.A. 33 
+ 
+3. 
+Receitas de 
+Prestação de 
+Serviços 
+As Receitas de Prestação de Serviços totalizaram R$ 9,3 bilhões 
+no trimestre, com alta de 1,6% na comparação com o 2T26 e 
+4,6% na comparação com o 3T25. Na comparação acumulada, o 
+crescimento foi de 4,8%. 
+No trimestre, o desempenho foi impulsionado principalmente 
+pelo avanço das receitas de administração de fundos (+8,0%), 
+seguros, previdência e capitalização (+3,6%) e taxas de 
+administração de consórcios (+2,5%). 
+Na comparação acumulada, as receitas avançaram 4,8%, 
+refletindo principalmente o desempenho das linhas de 
+administração de fundos (+11,4%), administração de consórcios 
+(+12,7%) e operações de crédito e garantias (+12,0%).
+
+[p. 36]
+Análise do Desempenho 3T26 | Receita de Prestação de Serviços 
+ 
+ 
+ 
+ 
+ 
+ Banco do Brasil S.A. | Relações com Investidores 34 
+ 
+A tabela a seguir apresenta a composição das receitas de prestação de serviços. A comparação com o trimestre 
+anterior deve considerar os efeitos da sazonalidade, relacionados ao volume de produtos e serviços comercializados, 
+e a dinâmica dos negócios que impactam essas receitas, como a gestão de ativos, a concessão de crédito, o 
+desempenho comercial de consórcios e as atividades do mercado de capitais. Essas informações estão disponíveis 
+no Capítulo 9 deste documento. 
+Tabela 29. Receitas de Prestação de Serviços – R$ milhões 
+3T25 2T26 3T26 Δ% A/A Δ% T/T 9M25 9M26 Δ% Acm. 
+Receitas de Prestação de Serviços 8.863 9.125 9.275 4,6 1,6 25.978 27.222 4,8
+Administração de Fundos 2.751 2.882 3.111 13,1 8,0 7.816 8.705 11,4
+Seguros, Previdência e Capitalização 1.569 1.471 1.524 (2,9) 3,6 4.541 4.536 (0,1)
+Conta Corrente 1.394 1.426 1.396 0,2 (2,1) 4.077 4.148 1,7
+Taxas de Administração de Consórcios 917 984 1.009 10,1 2,5 2.597 2.926 12,7
+Renda de Cartões 500 515 504 0,9 (2,1) 1.513 1.547 2,2
+Operações de Crédito e Garantias 283 421 307 8,7 (27,0) 1.008 1.130 12,0
+Cobrança 288 276 283 (1,6) 2,5 879 837 (4,8)
+Arrecadações 236 251 247 4,7 (1,7) 723 741 2,5
+Rendas do Mercado de Capitais 176 138 125 (29,4) (9,8) 543 394 (27,4)
+Tes. Nac. e Adm. de Fundos Oficiais 69 80 72 3,3 (10,2) 222 222 (0,1)
+Demais 682 681 696 2,2 2,3 2.059 2.036 (1,1)
+Dias Úteis 66 61 65 - - 188 187 (0,5)
+
+[p. 37]
+Análise do Desempenho 3T26 
+ 
+ 
+ 
+ Banco do Brasil S.A. 35 
+ 
+4. 
+Despesas 
+Administrativas 
+No 3T26, as despesas administrativas totalizaram 
+R$ 10,3 bilhões, elevação de 2,0% em relação ao trimestre 
+anterior e de 4,8% em 12 meses. No mês de setembro/26 os 
+funcionários obtiveram reajuste salarial de 4,6%, em acordo 
+coletivo válido até 2028 (ACT 26/28). 
+No 9M26, as despesas administrativas cresceram 4,8%, 
+refletindo principalmente o reajuste salarial de 5,7% em 
+setembro/25, no âmbito do acordo coletivo (ACT 24/26).
+
+[p. 38]
+Análise do Desempenho 3T26 | Despesas Administrativas 
+ 
+ 
+ 
+ 
+ 
+ Banco do Brasil S.A. | Relações com Investidores 36 
+ 
+Tabela 30. Despesas Administrativas – R$ milhões 
+3T25 2T26 3T26 Δ% A/A Δ% T/T 9M25 9M26 Δ% Acm. 
+Despesas Administrativas (9.812) (10.076) (10.279) 4,8 2,0 (28.984) (30.372) 4,8
+Despesas de Pessoal (6.567) (6.781) (6.747) 2,7 (0,5) (19.334) (20.309) 5,0
+Proventos (3.055) (3.767) (3.205) 4,9 (14,9) (9.578) (10.128) 5,7
+Provisões Administrativas de Pessoal (1.166) (503) (1.087) (6,8) 115,9 (2.724) (2.781) 2,1
+Benefícios (1.044) (1.092) (1.095) 4,9 0,3 (3.125) (3.274) 4,7
+Encargos Sociais (995) (1.096) (1.031) 3,6 (5,9) (3.029) (3.153) 4,1
+Previdência Complementar (273) (286) (288) 5,4 0,5 (781) (867) 11,0
+Honorários de Diret. e Conselheiros (19) (21) (20) 5,6 (2,3) (54) (60) 10,6
+Treinamento (14) (16) (20) 42,0 29,8 (42) (47) 10,4
+Outras Despesas Administrativas (3.244) (3.295) (3.532) 8,9 7,2 (9.650) (10.063) 4,3
+Amortização e Depreciação (777) (1.015) (1.058) 36,1 4,3 (2.082) (3.043) 46,1
+Comunicação e Proc. de Dados (548) (497) (587) 7,1 18,0 (1.602) (1.636) 2,1
+Imóveis e Bens de Uso (532) (398) (423) (20,4) 6,3 (1.822) (1.232) (32,4)
+Serv. de Vigilância, Segur. e Transp. (392) (409) (416) 6,1 1,9 (1.186) (1.229) 3,7
+Serviços de Terceiros (286) (301) (313) 9,7 4,2 (875) (868) (0,8)
+Publicidade e Relações Públicas (221) (238) (248) 12,1 4,2 (595) (641) 7,8
+Prog. de Desemp. Gratificado - PDG (122) (127) (107) (11,9) (15,4) (440) (366) (16,7)
+Demais (366) (311) (379) 3,5 22,0 (1.049) (1.048) (0,2)
+As despesas de pessoal totalizaram R$ 6,7 bilhões no 
+3T26, praticamente estáveis na comparação com o 
+trimestre anterior. Na comparação em nove meses 
+(9M26/9M25), houve aumento de 5,0%, justificado, 
+principalmente, pelos reajustes salariais concedidos 
+aos bancários, de 5,7% em setembro/25, no âmbito 
+do acordo coletivo (ACT 24/26) e 4,6% em 
+setembro/26 (ACT 26/28). 
+As outras despesas administrativas totalizaram 
+R$ 3,5 bilhões no 3T26, aumento de 7,2% na 
+comparação com o trimestre anterior, justificado 
+principalmente pelas despesas de Comunicação e 
+Processamento de Dados, em linha com os 
+investimentos em Tecnologia. No comparativo com o 
+9M25, as outras despesas administrativas cresceram 
+4,3%, justificadas, pelo aumento nas despesas com 
+amortização e depreciação (+46,1%).
+
+[p. 39]
+Análise do Desempenho 3T26 | Despesas Administrativas 
+ 
+ 
+ 
+ 
+ 
+ Banco do Brasil S.A. | Relações com Investidores 37 
+ 
+Tabela 31. Perfil dos Colaboradores 
+Set/25 Dez/25 Mar/26 Jun/26 Set/26
+Funcionários 85.802 85.206 84.619 83.991 83.305
+Gênero
+Feminino 34.938 34.689 34.474 34.222 33.970
+Masculino 50.864 50.517 50.145 49.769 49.335
+Escolaridade
+Ensino Médio 9.311 9.005 8.656 8.397 8.101
+Graduação 23.625 23.129 22.687 22.179 21.769
+Especialização, Mestrado e Doutorado 52.794 53.002 53.208 53.346 53.368
+Demais 72 70 68 69 67
+Cargo
+Gerencial 30.557 30.513 30.740 30.808 30.817
+Técnico 1.326 1.331 1.337 1.340 1.349
+Assessoria 12.593 12.812 12.732 12.718 12.694
+Operacional 39.544 38.794 37.712 36.915 35.982
+Especialista 1.782 1.756 2.098 2.210 2.463
+Estagiários 420 431 410 396 792
+|| Índice de Rotatividade Trimestral (%) 0,6 0,6 0,6 0,6 0,7
+
+[p. 40]
+Análise do Desempenho 3T26 | Despesas Administrativas 
+ 
+ 
+ 
+ 
+ 
+ Banco do Brasil S.A. | Relações com Investidores 38 
+ 
+Canais de Atendimento 
+Tabela 32. Rede de Atendimento 
+Set/25 Jun/26 Set/26 Δ% A/A Δ% T/T 
+Rede de Atendimento 55.868 56.368 55.712 (0,3) (1,2)
+Rede Própria 10.517 10.376 10.299 (2,1) (0,7)
+Agências 3.987 3.931 3.909 (2,0) (0,6)
+Postos de Atendimento 1.378 1.396 1.403 1,8 0,5
+Postos de Atendimento Eletrônico 5.152 5.049 4.987 (3,2) (1,2)
+Rede MaisBB 20.102 18.221 17.339 (13,7) (4,8)
+Banco24Horas 25.249 27.771 28.074 11,2 1,1
+ 
+Tabela 33. Atendimento Especializado 
+Set/25 Jun/26 Set/26 Δ% A/A Δ% T/T 
+Rede Própria 10.517 10.376 10.299 (2,1) (0,7)
+Atendimento Tradicional 9.688 9.538 9.461 (2,3) (0,8)
+Agências Tradicionais 3.158 3.093 3.071 (2,8) (0,7)
+Postos de Atendimento 1.378 1.396 1.403 1,8 0,5
+Postos de Atendimento Eletrônico 5.152 5.049 4.987 (3,2) (1,2)
+Atendimento Especializado 829 838 838 1,1 –
+Agências Digitais e Especializadas 829 838 838 1,1 –
+Escritórios Leve Digital 16 16 16 – –
+
+[p. 41]
+Análise do Desempenho 3T26 | Despesas Administrativas 
+ 
+ 
+ 
+ 
+ 
+ Banco do Brasil S.A. | Relações com Investidores 39 
+ 
+Indicadores 
+Tabela 34. Índices de Cobertura Ajustados – R$ milhões 
+3T25 4T25 1T26 2T26 3T26
+Receitas de Prestação de Serviços (A) 8.863 8.835 8.821 9.125 9.275
+Desp. Administrativas (B) = (C) + (D) (9.812) (9.888) (10.017) (10.076) (10.279)
+Despesas de Pessoal (C) (6.567) (6.470) (6.782) (6.781) (6.747)
+Outras Despesas Administrativas (D) (3.244) (3.418) (3.236) (3.295) (3.532)
+|| Cobertura Desp. de Pessoal (A/C) - % 135,0 136,6 130,1 134,6 137,5
+|| Cobertura Desp. de Pessoal 12 m - % 137,3 134,9 134,3 134,0 134,6
+|| Cobertura Desp. Adm. (A/B) - % 90,3 89,4 88,1 90,6 90,2
+|| Cobertura Desp. Adm. 12 m - % 91,4 89,6 89,5 89,6 89,6
+ 
+Tabela 35. Índices de Eficiência Ajustados – R$ milhões 
+3T25 4T25 1T26 2T26 3T26
+Despesas Administrativas (A) (9.812) (9.888) (10.017) (10.076) (10.279)
+Despesas de Pessoal (6.567) (6.470) (6.782) (6.781) (6.747)
+Outras Despesas Administrativas (3.244) (3.418) (3.236) (3.295) (3.532)
+Receitas Operacionais (B) 34.980 37.733 33.040 36.434 33.932
+Margem Financeira Bruta 26.365 27.801 27.426 27.483 25.982
+Recuperação de Crédito 1.424 1.777 1.232 1.865 1.758
+Descontos Concedidos (1.424) (700) (3.503) (1.510) (928)
+Receitas de Prestação de Serviços 8.863 8.835 8.821 9.125 9.275
+Part. em Controladas, Coligadas e JV 1.989 2.445 1.793 2.085 1.891
+Outras Receitas/Despesas Operacionais (2.237) (2.424) (2.730) (2.614) (4.046)
+|| Índice de Eficiência (A/B) - % 28,0 26,2 30,3 27,7 30,3
+|| Índice de Eficiência 12 meses - % 27,6 27,7 28,0 28,0 28,5
+
+[p. 42]
+Análise do Desempenho 3T26 
+ 
+ 
+ 
+ Banco do Brasil S.A. 40 
+ 
+5. 
+Outros 
+Componentes 
+do Resultado 
+Nesta seção são apresentadas as principais linhas que formam o 
+resultado de Outros Componentes do Resultado, sendo elas: 
+Outras Receitas, Outras Despesas e Resultado das Participações, 
+este último, parte destacado em Resultado de Participações em 
+Controladas, Coligadas e Joint Ventures e parte consolidado nas 
+demais linhas da Demonstração do Resultado do Exercício.
+
+[p. 43]
+Análise do Desempenho 3T26 | Outros Componentes do Resultado 
+ 
+ 
+ 
+ 
+ 
+ Banco do Brasil S.A. | Relações com Investidores 41 
+ 
+Outras Receitas e Despesas 
+Tabela 36. Outras Receitas e Despesas – R$ milhões 
+3T25 2T26 3T26 Δ% A/A Δ% T/T 9M25 9M26 Δ% Acm.
+Outras Receitas/Despesas (2.237) (2.614) (4.046) 80,9 54,8 (6.976) (9.390) 34,6
+Outras Receitas (ORO) 2.178 2.039 2.005 (7,9) (1,7) 6.116 6.179 1,0
+Atualização de Depósitos em Garantia 717 737 732 2,1 (0,6) 2.091 2.187 4,6
+Recuperação de Encargos e Despesas 546 452 423 (22,5) (6,4) 1.500 1.295 (13,7)
+Operações com Cartões 346 297 274 (20,7) (7,8) 999 762 (23,7)
+Clube de Benefícios BB 118 105 101 (15,0) (4,5) 370 315 (15,0)
+Empresas Controladas Não Financeiras 39 40 39 (1,5) (4,1) 123 115 (6,1)
+Atualização de Impostos a Compensar 112 162 96 (14,0) (40,3) 237 510 114,8
+Demais ORO 299 245 340 13,6 38,6 796 995 25,0
+Outras Despesas (ODO) (4.415) (4.653) (6.051) 37,1 30,0 (13.092) (15.569) 18,9
+Operações com Cartões (633) (698) (1.004) 58,6 43,9 (1.882) (2.651) 40,9
+Verba de Relacionamento Negocial (485) (491) (501) 3,3 1,9 (1.418) (1.483) 4,6
+Serviços de Terceiros (458) (479) (490) 7,0 2,5 (1.334) (1.418) 6,3
+Bônus de Relacionamento Negocial (436) (419) (477) 9,2 13,8 (1.261) (1.328) 5,3
+Atualização das Obrigações Atuariais (354) (345) (425) 20,0 22,9 (1.023) (1.115) 9,0
+Empresas Controladas Não Financeiras (231) (178) (165) (28,6) (7,2) (672) (586) (12,8)
+Transporte de Valores (158) (209) (173) 9,3 (17,2) (472) (550) 16,6
+Convênio INSS (159) (179) (187) 17,7 4,4 (466) (540) 15,8
+Prêmio de Seguro de Vida - CDC (144) (125) (125) (13,4) (0,4) (413) (383) (7,4)
+Autoatendimento (80) (67) (65) (18,6) (2,4) (346) (198) (42,8)
+Falhas/Fraudes e Outras Perdas (141) (45) (41) (70,6) (7,2) (259) (134) (48,4)
+Outras Despesas de Provisões Operacionais (15) (31) (831) – – (57) (876) –
+Demais ODO (1.120) (1.387) (1.566) 39,9 12,9 (3.487) (4.308) 23,5
+
+[p. 44]
+Análise do Desempenho 3T26 | Outros Componentes do Resultado 
+ 
+ 
+ 
+ 
+ 
+ Banco do Brasil S.A. | Relações com Investidores 42 
+ 
+Informações de Controladas e Coligadas 
+Tabela 37. Participações Societárias no Brasil e no Exterior ¹ – R$ mil 
+Saldo de Investimento Resultado da Participação
+Participações Societárias no Brasil Atividade Part. Set/25 Set/26 9M25 9M26 
+Banco Votorantim S.A. Banco Múltiplo (ii) 50,00% 6.443.231 6.423.639 695.933 720.604
+BB Administradora de Cartões de Crédito S.A. Serviços (i) 100,00% 49.327 51.104 24.994 26.771
+BB Administradora de Consórcios S.A. Consórcios (i) 100,00% 1.615.156 1.809.063 1.280.661 1.447.657
+Ativos S.A. Securitizadora de Créditos Financeiros Aquisição de Créd. (i) 100,00% 1.195.291 1.207.359 215.349 230.190
+BB Banco de Investimento S.A. – BBBI Banco de Invest. (i) 100,00% 994.246 837.112 565.331 255.328
+▸UBS BB Serv. de Assessoria Fin. e Participações S.A. Banco de Invest. (ii) 49,99% 771.146 742.839 12.188 1.428
+BB Asset Adm. de Ativos (i) 100,00% 2.044.026 2.100.903 1.734.334 1.916.792
+BB Elo Cartões Participações S.A. Holding (i) 100,00% 11.166.504 11.017.050 1.418.789 1.109.536
+▸Cateno Gestão de Contas de Pagamento S.A. 2 Serviços (ii) 30,00% 2.743.490 2.496.470 214.085 192.475
+▸Cielo S.A. 3 Serviços (ii) 29,17% 2.986.276 3.454.498 296.123 213.846
+▸Elo Participações S.A. 4 Holding (ii) 49,99% 875.389 1.780.840 636.455 510.459
+BB Leasing S.A. Arrendamento Mercantil Arrendamento (i) 100,00% 4.843.606 4.949.509 181.549 291.197
+BB Seguridade Participações S.A. 
+5 6 Holding (i) 68,26% 8.395.570 8.822.997 4.591.819 4.708.881
+BB Mapfre Participações S.A. 7 Holding (ii) 74,99% 2.239.449 1.912.533 2.816.821 2.591.975
+Brasilcap Capitalização S.A. 7 Capitalização (ii) 66,77% 682.999 649.752 146.286 180.212
+Brasilprev Seguros e Previdência S.A. 7 Seg./Previd. (ii) 74,99% 5.264.656 5.774.768 936.859 1.292.329
+BB Tecnologia e Serviços S.A. – BBTS 6 Informática (i) 100,00% 644.499 729.689 119.103 105.854
+Saldo de Investimento Resultado da Participação
+Participações Societárias no Exterior Atividade Part. Set/25 Set/26 9M25 9M26 
+Banco do Brasil Aktiengesellschaft – BBAG Holding (i) 100,00% 853.918 807.716 (508) 25.303
+Banco Patagonia S.A. Banco Múltiplo (i) 80,39% 3.831.185 5.284.084 1.384.229 1.629.519
+BB Americas Banco Múltiplo (i) 100,00% 1.671.977 1.725.149 159.954 205.237
+BB Cayman Islands Holding – BBCI Holding (i) 100,00% 1.462.846 1.299.299 207.533 44.241
+▸BB Securities LTD Corretora (i) 100,00% 359.172 328.068 20.910 (6.562)
+BB Securities LLC Corretora (i) 100,00% 407.908 382.178 6.462 2.759
+BB USA Holding Company INC Holding (i) 100,00% 704 647 (35) (39)
+ 
+(i) Empresas consolidadas integralmente; (ii) Empresas avaliadas pelo método de equivalência patrimonial; (1) O lucro líquido e o resultado de equivalência das 
+subsidiárias no exterior estão evidenciados sem os efeitos da variação cambial. Esses investimentos são objeto de hedge estrutural e seus impactos cambiais são 
+reclassificados para as despesas com recursos de instituições financeiras; (2) Participação indireta do Banco na Cateno, por meio de sua controlada BB Elo Cartões 
+Participações S.A. A participação total do Banco é de 64,49%, em virtude da Cielo S.A. deter 70,00% de participação direta na Cateno; (3) Participação indireta do 
+Banco na Cielo S.A., por meio de sua controlada BB Elo Cartões Participações S.A. A participação total do Banco é de 49,28%, em virtude das participações da Livelo 
+S.A. e Elo Participações Ltda na Cielo; (4) A equivalência patrimonial da Elo Participações Ltda é calculada na proporção da contribuição mensal da BB Elo Cartões nos 
+negócios da empresa, conforme acordo de 01/11/2017, entre a BB Elo Cartões e a Bradescard; (5) O valor do investimento considerando o preço de mercado cotado 
+é de R$ 52.138.750 mil (R$ 47.898.750 mil em 31/12/2025); (6) O lucro líquido e o resultado de equivalência das subsidiárias no exterior estão evidenciados sem os 
+efeitos da variação cambial. Esses investimentos são objeto de hedge estrutural e seus impactos cambiais são reclassificados para as despesas com recursos de 
+instituições financeiras; (7) Participação societária detida pela BB Seguros Participações S.A. Inclui ajustes de harmonização de práticas contábeis.
+
+[p. 45]
+Análise do Desempenho 3T26 
+ 
+ 
+ 
+ Banco do Brasil S.A. 43 
+ 
+6. 
+Gestão de 
+Capital 
+A gestão de riscos e de capital é fundamental para a 
+sustentabilidade do sistema bancário. Os métodos de 
+identificação, mensuração, avaliação, monitoramento, reporte, 
+controle e mitigação dos riscos salvaguardam as instituições 
+financeiras em momentos adversos e proporcionam suporte à 
+geração de resultados positivos e recorrentes ao longo do 
+tempo. 
+O Índice de Basileia foi de 13,45% em setembro de 2026. O 
+índice de capital nível I foi de 12,81%, sendo 10,80% de capital 
+principal. O Patrimônio de Referência, que considera os 
+requisitos de apuração do capital regulamentar de Basileia, 
+atingiu o montante de R$ 184,7 bilhões. 
+O gerenciamento de riscos no Banco do Brasil contempla todos 
+os riscos relevantes declarados no inventário de riscos do Banco 
+do Brasil. As atividades de gerenciamento são realizadas por 
+estruturas especializadas, conforme objetivos, políticas, 
+estratégias, processos e sistemas descritos em cada um desses 
+riscos.
+
+[p. 46]
+Análise do Desempenho 3T26 | Gestão de Capital 
+ 
+ 
+ 
+ 
+ 
+ Banco do Brasil S.A. | Relações com Investidores 44 
+ 
+Figura 9. Índice de Basileia - % 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+13,92 14,26 13,59 13,27 12,81
+0,89 0,87 0,64 0,64 0,64
+14,81 15,13 14,23 13,91 13,45
+11,16 12,23 11,59 11,27 10,80
+Set/25 Dez/25 Mar/26 Jun/26 Set/26
+Nível I
+Nível II
+Índice de Capital 
+Principal
+Índice de Basileia
+ 
+O Índice de Basileia é apurado segundo os critérios 
+estabelecidos pelas Resoluções CMN nº 4.955/2021 e 
+nº 4.958/2021, que tratam do cálculo do Patrimônio 
+de Referência – PR e do Patrimônio de Referência 
+Mínimo Requerido – PRMR em relação ao Ativo 
+Ponderado pelo Risco – RWA, respectivamente. Os 
+termos técnicos utilizados para regulação de capital 
+estão disponíveis no glossário. 
+O Banco do Brasil promove a gestão do capital com 
+visão prospectiva de três anos e considera a 
+Declaração de Apetite e Tolerância a Riscos, a 
+Estratégia Corporativa, o Plano Diretor e Orçamento 
+Corporativo. 
+O foco está na geração orgânica de capital e no 
+crescimento sustentável dos negócios com adequado 
+retorno ajustado ao risco. 
+O Banco segue avançando na incorporação dos 
+ajustes regulatórios associados à adoção do novo 
+arcabouço contábil para instrumentos financeiros 
+(Resolução CMN nº 4.966/2021) e ao respectivo 
+regime de transição prudencial relativo aos efeitos da 
+adoção no capital regulatório, conforme estabelecido 
+pela Resolução CMN nº 5.199/2024 (faseamento 
+aplicável ao período). 
+Adicionalmente, permaneceu em aplicação a 
+metodologia padronizada para apuração do capital 
+requerido para risco operacional (RWAOPAD), nos 
+termos da Resolução BCB nº 356/2023, com reflexos 
+na dinâmica de RWA e, consequentemente, nos 
+índices de capital (Capital Principal, Nível I e Capital 
+Total). 
+O escopo de consolidação utilizado como base para a 
+verificação dos limites operacionais é o 
+Conglomerado Prudencial, definido na Resolução 
+CMN nº 4.950/2021. 
+Nos termos do Plano Contábil das Instituições 
+Financeiras (Cosif), o Conglomerado Prudencial 
+abrange não só as instituições financeiras, como 
+também administradoras de consórcios, instituições 
+de pagamento, sociedades que realizem aquisição de 
+operações ou assumam direta ou indiretamente risco 
+de crédito, sobre as quais tenham controle direto e 
+indireto e fundos de investimento nos quais o 
+conglomerado retenha substancialmente riscos e 
+benefícios.
+
+[p. 47]
+Análise do Desempenho 3T26 | Gestão de Capital 
+ 
+ 
+ 
+ 
+ 
+ Banco do Brasil S.A. | Relações com Investidores 45 
+ 
+Figura 10. Capital Principal – Composição (%) 
+ 
+(1) Conforme repactuação do cronograma de devolução do Instrumento Híbrido de Capital e Dívida (“IHCD”), o saldo remanescente de R$ 4,0 bilhões passa a ser 
+amortizado conforme o seguinte cronograma: (i) uma parcela anual de R$ 100 milhões, em julho de 2027; (ii) uma parcela de R$ 1 bilhão, em julho de 2028; e (iii) 
+uma parcela de R$ 2,9 bilhões, em julho de 2029. 
+Tabela 38. Índice de Basileia – R$ milhões 
+Set/25 Dez/25 Mar/26 Jun/26 Set/26 
+|| Patrimônio de Referência - PR 195.705 204.529 195.560 191.008 184.744
+Nível I 183.971 192.794 186.759 182.207 175.943
+Capital Principal 147.477 165.282 159.267 154.715 148.450
+Patrimônio Líquido 178.573 184.878 186.994 181.822 181.827
+Instrumentos Elegíveis a Capital 4.100 4.100 4.100 4.100 4.000
+Ajuste Decorrente da Aplicação da Res. CMN 5.199/24¹ 8.018 8.018 5.345 5.345 5.345
+Ajustes Prudenciais (43.214) (31.715) (37.172) (36.553) (42.721)
+Capital Complementar 36.494 27.512 27.492 27.492 27.492
+Nível II 11.735 11.735 8.801 8.801 8.801
+Dívidas Subordinadas Elegíveis a Capital 11.735 11.735 8.801 8.801 8.801
+Recursos Captados no FCO² 11.735 11.735 8.801 8.801 8.801
+|| Ativos Ponderados pelo Risco (RWA) 1.321.763 1.351.829 1.374.409 1.372.716 1.373.970
+Risco de Crédito (RWACPAD)³ 1.060.782 1.090.837 1.093.994 1.090.000 1.084.166
+Risco de Mercado (RWAMPAD) 40.699 40.710 48.292 50.594 52.468
+Risco Operacional (RWAOPAD) 220.282 220.282 232.123 232.123 237.336
+Índice de Capital Nível I (Nível I/RWA) - (%)⁴ 13,92 14,26 13,59 13,27 12,81
+Índice de Capital Principal (CP/RWA) - (%)⁴ 11,16 12,23 11,59 11,27 10,80
+Índice de Basileia (PR/RWA) - (%)⁴ 14,81 15,13 14,23 13,91 13,45
+Saldo
+ 
+(1) Conforme Nota Explicativa; (2) Em cumprimento ao disposto no artigo 31 da Resolução CMN nº 4.955/2021, em 2025, os saldos do FCO correspondem à aplicação 
+do limitador de 40% (50% em 2024) ao montante computado no Nível II em 30/06/2018; (3) Em conformidade com a Resolução CMN nº 4.958/2021, corresponde 
+à aplicação do fator “F” ao montante de RWA, sendo “F” igual a 8%; (4) Valores oriundos do DLO (Demonstrativo de Limites Operacionais). 
+ 
+ 
+ 
+ 
+ 
+11,27
+0,06
+(0,01) (0,09) (0,42) (0,01)
+10,80
+Jun/26 Lucro Líq. Devol. IHCD ¹ MtM Aj. Prudenciais RWA Set/26
+
+[p. 48]
+Análise do Desempenho 3T26 | Gestão de Capital 
+ 
+ 
+ 
+ 
+ 
+ Banco do Brasil S.A. | Relações com Investidores 46 
+ 
+Ativo Ponderado pelo Risco – RWA 
+Figura 11. Consumo de RWA – R$ bilhões 
+2.146 2.249
+2.470 2.539 2.549
+1.039 1.104 1.267 1.322 1.374
+48,4% 49,1% 51,3% 52,1% 53,9%
+Set/22 Set/23 Set/24 Set/25 Set/26
+Consumo de RWA
+Total do Ativo
+Ativos Ponderados 
+pelo Risco (RWA)
+ 
+Figura 12. Composição do RWA - % 
+78,9
+17,3
+3,8
+Set/26
+80,3
+16,7
+3,1
+Set/25
+Crédito
+Operacional
+Mercado
+
+[p. 49]
+Análise do Desempenho 3T26 | Gestão de Capital 
+ 
+ 
+ 
+ 
+ 
+ Banco do Brasil S.A. | Relações com Investidores 47 
+ 
+A seguir, é apresentado o PRMR referente às parcelas de RWA sujeitas aos riscos de crédito, operacional e de 
+mercado, mediante abordagem padronizada. O fator “F” vigente é de 8,0%. Para o RWACPAD, considera-se a 
+ponderação relativa ao cálculo do capital requerido para o risco de crédito mediante abordagem padronizada. 
+Tabela 39. PRMR Referente à Parcela do RWACPAD1 – R$ milhões 
+RWACPAD PRMR % RWACPAD PRMR % RWACPAD PRMR % 
+Total 1.060.782 84.863 100,0 1.090.000 87.200 100,0 1.084.166 86.733 100,0
+Operações de Crédito 649.083 51.927 61,2 663.208 53.057 60,8 650.142 52.011 60,0
+TVM e Derivativos 24.822 1.986 2,3 22.087 1.767 2,0 22.069 1.766 2,0
+Créditos Tributários 90.038 7.203 8,5 89.653 7.172 8,2 88.133 7.051 8,1
+Outros Direitos 152.512 12.201 14,4 152.229 12.178 14,0 153.448 12.276 14,2
+Permanente 57.769 4.622 5,4 73.071 5.846 6,7 80.041 6.403 7,4
+Lim. de Crédito e Créd.a Liberar 31.124 2.490 2,9 30.317 2.425 2,8 30.450 2.436 2,8
+Garantias Prestadas 14.412 1.153 1,4 15.920 1.274 1,5 16.708 1.337 1,5
+Part. Fundos de Gar. de Clearings 331 26 0,0 385 31 0,0 398 32 0,0
+Demais 40.691 3.255 3,8 43.129 3.450 4,0 42.776 3.422 3,9
+Set/25 Jun/26 Set/26
+ 
+(1) A partir de 01.07.2023, o RWACPAD passou a ser apurado em conformidade com os procedimentos de apuração da parcela definidos por meio da Resolução BCB nº 
+229/22, em substituição à Circular nº 3.644/13, a qual foi revogada pelo Banco Central. 
+Tabela 40. PRMR Referente à Parcela do RWAOPAD1 – R$ milhões 
+Set/25 Jun/26 Set/26
+RWAOPAD RWAOPAD RWAOPAD
+Total 220.282 232.123 237.336
+Componente Juros 53.512 55.768 57.904
+Componente Serviços 53.075 54.109 57.172
+Componente Financeira 10.273 7.837 8.244
+Indicador de Negócios (BI) 116.860 117.714 123.320
+BIC 17.379 17.507 18.348
+Fator ILM (Multiplicador Interno de Perdas) 0 1,1525% 1,1451%
+Capital Requerido (PRMR) 19.602 20.177 21.011
+RWAopad (SAOR) – 252.212 262.638
+RWAopad (ASA) – 212.034 212.034
+Regra Percentual de Transição (Resolução Bacen nº 356) – 50% 50%
+ 
+(1) A partir de 01.01.2025, entrou em vigor a Resolução BCB n° 356 que estabelece os novos procedimentos para cálculo da parcela dos ativos ponderados pelo risco 
+(RWA) relativa ao cálculo requerido para o risco operacional mediante abordagem padronizada (RWA OPAD). Para as instituições financeiras cuja aplicação do novo 
+formato resulte em um valor superior ao RWAOPAD apurado na data-base de 31.12.2024, a parcela considerada para o ano de 2026 será composta pelo RWAOPAD apurado 
+em 31.12.2024, acrescido de 50% da diferença entre o novo cálculo do RWAOPAD e o valor originalmente apurado na referida data-base.
+
+[p. 50]
+Análise do Desempenho 3T26 | Gestão de Capital 
+ 
+ 
+ 
+ 
+ 
+ Banco do Brasil S.A. | Relações com Investidores 48 
+ 
+Tabela 41. PRMR Referente à Parcela do RWAMPAD – R$ milhões 
+RWAMPAD PRMR % RWAMPAD PRMR % RWAMPAD PRMR % 
+Total 40.699 3.256 100,0 50.594 4.047 100,0 52.468 4.197 100,0
+Câmbio 20.315 1.625 49,9 27.279 2.182 53,9 27.129 2.170 51,7
+Taxa de Juros 8.048 644 19,8 10.495 840 20,7 12.389 991 23,6
+CVA 4.992 399 12,3 4.445 356 8,8 5.229 418 10,0
+DRC¹ 4.022 322 9,9 5.956 476 11,8 4.438 355 8,5
+Commodities 3.316 265 8,1 2.257 181 4,5 3.281 262 6,3
+Ações 7 1 0,0 162 13 0,3 2 0 0,0
+Set/25 Jun/26 Set/26
+ 
+(1) A partir de 01.07.2024, o RWADRC passou a ser apurado em conformidade com a Resolução BCB nº 313/23.
+
+[p. 51]
+Análise do Desempenho 3T26 | Gestão de Capital 
+ 
+ 
+ 
+ 
+ Banco do Brasil S.A. | Relações com Investidores 49 49 
+ 
+Tabela 42. RWACPAD1 Segregada por Fator de Ponderação de Risco – FPR - R$ milhões 
+RWACPAD 2 PRMR³ RWACPAD 2 PRMR³ RWACPAD 2 PRMR³ RWACPAD 2 PRMR³ RWACPAD 2 PRMR³ RWACPAD 2 PRMR³ RWACPAD 2 PRMR³ 
+Total 650.142 52.011 88.133 7.051 22.069 1.766 153.448 12.276 80.041 6.403 90.332 7.227 1.084.166 86.733 
+FPR 2% – – – – 144 12 – – – – 401 32 546 44 
+FPR 20% 2.320 186 – – 152 12 0 0 – – 1.230 98 3.702 296 
+FPR 25% 1.768 141 – – 580 46 – – – – 8 1 2.357 189 
+FPR 30% 8.009 641 – – 0 0 – – – – 641 51 8.650 692 
+FPR 40% 1.391 111 – – 8.994 720 7.514 601 – – 5.880 470 23.780 1.902 
+FPR 45% – – – – – – 15.994 1.279 – – 5.810 465 21.803 1.744 
+FPR 50% 1.006 80 – – 16 1 1 0 – – 302 24 1.325 106 
+FPR 60% 264 21 – – – – – – – – 3 0 267 21 
+FPR 65% 45.508 3.641 – – 1.815 145 41.812 3.345 – – 24.944 1.996 114.079 9.126 
+FPR 70% 59.872 4.790 – – – – 1.158 93 – – 594 47 61.623 4.930 
+FPR 75% 259.738 20.779 – – – – 15.205 1.216 – – 7.205 576 282.147 22.572 
+FPR 85% 21.845 1.748 – – 378 30 5.118 409 – – 4.505 360 31.846 2.548 
+FPR 90% 22.082 1.767 – – – – 741 59 – – 266 21 23.089 1.847 
+FPR 100% 132.275 10.582 86.313 6.905 8.937 715 59.566 4.765 18.199 1.456 25.250 2.020 330.540 26.443 
+FPR 110% 56.196 4.496 – – – – 3.255 260 – – 1.125 90 60.576 4.846 
+FPR 112,5% 771 62 – – – – 0 0 – – 444 35 1.215 97 
+FPR 130% 6.110 489 – – – – 0 0 – – 2.046 164 8.156 652 
+FPR 150% 30.986 2.479 – – 402 32 2.357 189 – – 9.679 774 43.424 3.474 
+FPR 190% – – – – 141 11 – – 24.409 1.953 – – 24.550 1.964 
+FPR 200% – – – – – – 728 58 – – – – 728 58 
+FPR 250% – – 1.820 146 – – – – 37.273 2.982 – – 39.093 3.127 
+FPR 280% – – – – 183 15 – – 161 13 – – 344 27 
+FPR 300% – – 0 0 – – – – – – – – 0 0 
+FPR 1.250% – – – – 327 26 – – – – – – 327 26 
+Operações de Crédito Créditos Tributários TVM e Instr. Financeiros Derivativos Outros Direitos TotalPermanente Demais
+ 
+(1) A partir de 01.07.2023, o RWACPAD passou a ser apurado em conformidade com os procedimentos de apuração da parcela definidos por meio da Resolução BCB nº 229/22; (2) Somatório dos produtos das exposições pelos respectivos Fatores 
+de Ponderação de Risco, ajustados pelo Fator de Conversão; (3) Exposição ponderada por Fator de Risco multiplicada por 8,0%.
+
+[p. 52]
+Análise do Desempenho 3T26 | Gestão de Capital 
+ 
+ 
+ 
+ Banco do Brasil S.A. | Relações com Investidores 50 
+ 
+Indicador de Liquidez de Curto Prazo (LCR) 
+O indicador Liquidez de Curto Prazo (LCR) é exigido para instituições financeiras enquadradas no segmento S1, 
+conforme previsto na Resolução CMN 4.401/2015, e corresponde à razão entre o estoque de ativos líquidos de alta 
+qualidade (HQLA) e o total das saídas de caixa previstas para um período de 30 dias. 
+O cálculo do LCR segue modelo de cenário de estresse padronizado estabelecido pelo Bacen, por meio da Circular 
+Bacen 3.749/2015, alinhado às diretrizes internacionais e tem como objetivo garantir a existência de ativos de alta 
+liquidez suficientes para suportar um cenário de estresse financeiro com duração de 30 dias. Em setembro/26, o 
+indicador LCR foi de 178,4%. 
+Indicador Liquidez de Longo Prazo (NSFR) 
+O Indicador de Liquidez de Longo Prazo (NSFR) é exigido para instituições financeiras enquadradas no segmento 
+S1, conforme previsto na Resolução CMN nº 4.616/2017. O cálculo do NSFR segue metodologia estabelecida pelo 
+Bacen, por meio da Circular nº 3.869/2017, que está alinhada às diretrizes internacionais de Basileia e tem como 
+objetivo garantir que as instituições financeiras financiem as suas atividades com recursos estáveis em uma visão de 
+longo prazo. Em setembro/26, o indicador NSFR foi de 112,7%. 
+O NSFR é definido pela razão dos Recursos Estáveis Disponíveis (Available Stable Funding – ASF) sobre os Recursos 
+Estáveis Requeridos (Required Stable Funding – RSF), em que: 
+Recursos Estáveis Disponíveis (ASF): correspondem ao saldo em estoque, ponderados pelos respectivos fatores de 
+ponderação, dos elementos registrados no passivo e no patrimônio líquido do balanço patrimonial. É composto 
+principalmente pelo capital da instituição, além das captações de varejo e de atacado. 
+Recursos Estáveis Requeridos (RSF): correspondem ao saldo em estoque, ponderados pelos respectivos fatores de 
+ponderação, dos elementos registrados no ativo e das exposições não contabilizadas no balanço patrimonial da 
+instituição (exposições off balance). É composto, principalmente pelas operações de crédito, depósitos 
+compulsórios, títulos públicos e privados, aplicações interbancárias, ativo permanente e crédito tributário.
+
+[p. 53]
+Análise do Desempenho 3T26 
+ 
+ 
+ 
+ Banco do Brasil S.A. 51 
+ 
+7. 
+Crédito 
+A carteira de crédito expandida totalizou R$ 1,3 trilhão em 
+setembro/26, queda de 0,5% no trimestre e crescimento de 
+2,2% em 12 meses. 
+A carteira expandida PF finalizou setembro/26 com estabilidade 
+na comparação trimestral e com crescimento de 2,1% em 12 
+meses, com destaque para o consignado em ambos os períodos 
+(+1,0% e +5,0%, respectivamente). 
+A carteira expandida PJ cresceu no trimestre e em 12 meses 
+(+1,8% t/t e +2,5% a/a), totalizando R$ 464,4 bilhões. Destaque 
+para as operações de Pronampe e PEAC FGI, com saldo de R$ 
+41,9 bilhões em setembro/26, com crescimento de 4,7% t/t e 
+28,2% a/a, que representam 40,8% da carteira MPE. 
+A carteira de crédito Agro encerrou setembro/26 com saldo de 
+R$ 403,6 bilhões, queda de 4,3% no trimestre e crescimento de 
+1,2% em 12 meses, influenciada pelo desempenho das linhas de 
+Custeio e Investimento Agropecuário.
+
+[p. 54]
+Análise do Desempenho 3T26 | Crédito 
+ 
+ 
+ 
+ 
+ 
+ Banco do Brasil S.A. | Relações com Investidores 52 
+ 
+Carteira Expandida 
+Tabela 43. Carteira de Crédito e Carteira de Crédito Expandida – R$ milhões 
+Set/25 Part. % Jun/26 Part. % Set/26 Part. % Δ% A/A Δ% T/T 
+|| Carteira de Crédito (a)¹ 1.214.345 100,0 1.245.872 100,0 1.235.239 100,0 1,7 (0,9)
+Interna 1.152.518 94,9 1.183.207 94,7 1.168.708 95,0 1,4 (1,2)
+Pessoa Física 350.416 27,4 357.560 29,0 357.653 29,3 2,1 0,0
+Pessoa Jurídica 403.312 34,3 404.097 32,7 407.467 31,8 1,0 0,8
+Grandes Empresas 209.207 18,1 205.244 16,9 208.143 16,3 (0,5) 1,4
+MPME 118.540 10,1 110.476 9,4 108.856 9,0 (8,2) (1,5)
+Governo 75.566 6,1 88.376 6,5 90.467 6,6 19,7 2,4
+Agronegócio 398.790 33,2 421.550 33,0 403.588 33,9 1,2 (4,3)
+Pessoa Física 362.367 30,1 371.368 29,7 355.885 30,2 (1,8) (4,2)
+Pessoa Jurídica 36.423 3,1 50.183 3,3 47.703 3,7 31,0 (4,9)
+Exterior 61.827 5,1 62.665 5,3 66.532 5,0 7,6 6,2
+|| TVM Privados e Garantias (b)² 64.299 100,0 67.286 100,0 71.425 100,0 11,1 6,2
+|| Carteira de Crédito Expandida (a + b)¹ 1.278.644 100,0 1.313.157 100,0 1.306.664 100,0 2,2 (0,5)
+Interna 1.202.268 94,1 1.235.341 94,0 1.225.761 94,2 2,0 (0,8)
+Pessoa Física 350.511 26,3 357.640 27,5 357.743 27,7 2,1 0,0
+Pessoa Jurídica 452.967 36,0 456.150 35,1 464.429 34,4 2,5 1,8
+Agronegócio 398.790 31,8 421.550 31,3 403.588 32,0 1,2 (4,3)
+Externa 76.376 5,9 77.817 6,0 80.904 5,8 5,9 4,0
+|| Participação de Mercado BB - % 16,8 16,1 15,7
+ 
+(1) Inclui, além da carteira de crédito, TVMs com e sem características de crédito e garantias prestadas. (2) Composta por TVMs privados sem características de crédito 
+e garantias.
+
+[p. 55]
+Análise do Desempenho 3T26 | Crédito 
+ 
+ 
+ 
+ 
+ 
+ Banco do Brasil S.A. | Relações com Investidores 53 
+ 
+A próxima figura apresenta a visão da carteira expandida de Pessoa Física, Empresas e de Agronegócios, conforme 
+as projeções corporativas para o ano de 2026. 
+Figura 13. Carteira Conforme Projeções Corporativas – R$ bilhões 
+ 
+ 
+ 
+ 
+ 
+398,8 406,1 418,4 421,6 403,6
+377,4 375,6 367,9 367,8 374,0
+350,5 357,0 361,8 357,6 357,7
+1.126,7 1.138,7 1.148,1 1.147,0 1.135,3
+Set/25 Dez/25 Mar/26 Jun/26 Set/26
+Pessoa Física
+Agronegócios
+Empresas
+ 
+Reforçando o compromisso do BB para um futuro mais sustentável, o Banco realiza o acompanhamento das 
+projeções para a carteira sustentável, que abrange linhas de crédito com enfoque ambiental, social e financiamentos 
+de atividades ou segmentos que tragam impactos socioambientais positivos, com validação de segunda opinião. 
+Mais informações sobre os negócios ASG do Banco do Brasil e de sua carteira sustentável estão disponíveis no 
+Caderno ASG, na seção Cadernos Estratégicos. 
+A carteira de negócios sustentáveis alcançou R$ 431,5 bilhões, crescimento de 8,2% em 12 meses, e corresponde 
+por 34,9% da carteira de crédito. 
+Figura 14. Carteira de Negócios Sustentáveis – R$ bilhões 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+153,0 167,6 169,5 178,2 182,0
+118,1 120,6 123,3 125,6 124,6
+63,7 60,2 60,8 59,2 56,3
+64,1 66,6 67,6 68,5 68,7
+399,0 415,1 421,2 431,5 431,5
+Set/25 Dez/25 Mar/26 Jun/26 Set/26
+Negócios Sociais
+Boas Práticas 
+Socioambientais
+Agricultura de Baixo 
+Carbono
+Empresarial
+
+[p. 56]
+Análise do Desempenho 3T26 | Crédito 
+ 
+ 
+ 
+ 
+ 
+ Banco do Brasil S.A. | Relações com Investidores 54 
+ 
+A próxima figura apresenta a carteira de crédito interna considerando o período de contratação. Em alguns casos, 
+existe a possibilidade de o desembolso ocorrer de forma parcelada. Nesses casos todas as parcelas são consideradas 
+no período em que foram contratadas. 
+Avaliando a carteira de setembro/26, 67,8% dos ativos foram contratados entre 2024 e 2026. 
+Figura 15. Carteira de Crédito Interna BB (por Período de Contratação) – % 
+16,9 15,2 13,8 13,0 12,5
+6,3 5,7 5,3 4,9 4,5
+9,0 7,8 7,2 6,5 5,9
+14,6
+12,4 11,2 10,3 9,3
+27,2
+23,6
+20,9 19,0 17,3
+26,0
+35,3
+32,7
+28,7
+26,0
+8,8
+17,7 24,5
+1.152,5 1.165,2 1.173,5 1.183,2 1.168,7
+Set/25 Dez/25 Mar/26 Jun/26 Set/26
+Até 2020
+2021
+2024
+2025
+2023
+2022
+2026
+ 
+A tabela a seguir apresenta o nível de concentração dos clientes e grupos empresariais com os quais o Banco do 
+Brasil se relaciona. 
+Tabela 44. 100 Maiores Clientes em Relação à Carteira de Crédito e PR – R$ milhões 
+Set/25 Jun/26 Set/26 Carteira ¹ PR ²
+1º Cliente 19.790 16.307 16.721 1,4% 9,1%
+2º ao 20º 89.566 91.830 93.334 7,6% 50,5%
+21º ao 100º 94.393 98.190 99.823 8,1% 54,0%
+100 maiores 203.749 206.327 209.879 17,0% 113,6%
+ 
+(1) Carteira de Crédito; (2) Patrimônio de Referência.
+
+[p. 57]
+Análise do Desempenho 3T26 | Crédito 
+ 
+ 
+ 
+ 
+ 
+ Banco do Brasil S.A. | Relações com Investidores 55 
+ 
+Qualidade do Crédito 
+Custo do Crédito 
+O Custo do Crédito, que corresponde ao total das despesas de perda esperada (conforme a Resolução CMN nº 
+4.966/21), somada aos descontos concedidos e deduzidas das receitas com recuperação de crédito, totalizou R$ 
+21,2 bilhões no 3T26. A elevação do risco de crédito no trimestre reflete, principalmente, a continuidade da dinâmica 
+mais agravada em parte da carteira de Agronegócios e reforços pontuais realizados em algumas empresas do 
+segmento atacado. 
+Tabela 45. Custo do Crédito da Carteira Expandida – R$ milhões 
+3T25 2T26 3T26 Δ% A/A Δ% T/T 9M25 9M26 Δ% Acm.
+Custo do Crédito (17.928) (18.477) (21.234) 18,4 14,9 (43.987) (58.575) 33,2
+Risco de Crédito (17.928) (18.831) (22.064) 23,1 17,2 (46.368) (57.488) 24,0
+Recuperação de Crédito 1.424 1.865 1.758 23,5 (5,7) 4.703 4.854 3,2
+Descontos Concedidos (1.424) (1.510) (928) (34,8) (38,6) (2.322) (5.942) 155,8
+ 
+Figura 16. Despesa com Perda Esperada da Carteira de Crédito Interna¹ por Segmento – R$ milhões 
+ 
+ 
+ 
+8.769 10.525 7.394 8.351 12.151
+4.624
+3.933
+978
+2.770
+4.011
+6.033 4.319
+8.088
+7.796
+6.204
+19.426 18.777
+16.460
+18.918
+22.366
+3T25 4T25 1T26 2T26 3T26
+Agronegócio
+Pessoa Jurídica
+Pessoa Física
+ 
+(1) Não considera as despesas com Perda Esperada da Carteira Externa, TVM sem características de crédito, garantias, créditos a liberar e outros instrumentos 
+financeiros.
+
+[p. 58]
+Análise do Desempenho 3T26 | Crédito 
+ 
+ 
+ 
+ 
+ 
+ Banco do Brasil S.A. | Relações com Investidores 56 
+ 
+Figura 17. Despesa com Perda Esperada da Carteira de Crédito Interna¹ por Estágio – R$ milhões 
+11.139 9.249 9.614 10.668 13.298
+7.998
+8.079 6.273 7.513
+8.325288 1.449
+574
+737
+74319.426 18.777
+16.460
+18.918
+22.366
+3T25 4T25 1T26 2T26 3T26
+Estágio 3
+Estágio 2
+Estágio 1
+ 
+(1) Não considera as despesas com Perda Esperada da Carteira Externa, TVM sem características de crédito, garantias, créditos a liberar e outros instrumentos 
+financeiros. 
+Inadimplência e Cobertura 
+A inadimplência acima de 90 dias encerrou setembro/26 em 6,08% e o índice de cobertura alcançou 137,8%. 
+Figura 18. INAD+30d, INAD+90d e Índice de Cobertura da Carteira de Crédito – % 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+174,3
+155,4 158,4 148,5 137,8 Cobertura +90d (%)
+95,4 98,7 98,8 103,7 103,4
+78,6 84,1 80,4
+95,5 99,4
+54,8 63,5 62,3 69,8 75,0
+4,51 5,17 5,05 5,61
+6,086,47 6,84 6,51 7,66 8,05
+Set/25 Dez/25 Mar/26 Jun/26 Set/26
+Perda Esperada (R$ bi)
+INAD +90d (%)
+INAD +30d (%)
+Inad +90d (R$ bi)
+Inad +30d (R$ bi)
+
+[p. 59]
+Análise do Desempenho 3T26 | Crédito 
+ 
+ 
+ 
+ 
+ 
+ Banco do Brasil S.A. | Relações com Investidores 57 
+ 
+Em setembro/26, 91,2% da carteira de crédito estava classificada nos estágios 1 e 2. 
+Figura 19. Participação dos Estágios na Carteira de Crédito 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+88,2 88,8 88,8 88,7 88,7
+3,4 2,9 2,9 2,6 2,4
+8,4 8,3 8,3 8,8 8,8
+Set/25 Dez/25 Mar/26 Jun/26 Set/26
+Estágio 1 (%)
+Estágio 3 (%)
+Estágio 2 (%)
+ 
+Tabela 46. Carteira de Crédito e Perda Esperada por Estágio – R$ milhões 
+Jun/26 Set/26
+Carteira de Crédito Perda Esperada Carteira de Crédito Perda Esperada
+Saldo (a) Saldo (b) (b)/(a) - % Saldo (a) Δ% Jun/26 Saldo (b) Δ% Jun/26 (b)/(a) - %
+Estágio 1 1.104.991 18.044 1,6 1.096.202 (0,8) 17.315 (4,0) 1,6
+Estágio 2 31.845 9.867 31,0 29.892 (6,1) 9.188 (6,9) 30,7
+Estágio 3 109.035 75.776 69,5 109.146 0,1 76.885 1,5 70,4
+Total 1.245.872 103.687 8,3 1.235.239 (0,9) 103.388 (0,3) 8,4
+
+[p. 60]
+Análise do Desempenho 3T26 | Crédito 
+ 
+ 
+ 
+ 
+ 
+ Banco do Brasil S.A. | Relações com Investidores 58 
+ 
+O indicador New NPL/Carteira de Crédito é apurado pela relação entre: (i) a variação trimestral do saldo das 
+operações vencidas há mais de 90 dias, acrescida das baixas para prejuízo efetuadas no trimestre; e (ii) o saldo da 
+carteira de crédito do trimestre imediatamente anterior. 
+No 3T26, o New NPL alcançou R$ 28,0 bilhões e a sua cobertura 78,8%. 
+Figura 20. New NPL – % da Carteira de Crédito 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+99,6
+77,8
+107,8 86,9 78,8 Cobertura New NPL (%)
+17,99
+24,46
+15,39
+21,66
+28,00
+1,46
+2,01
+1,25
+1,75
+2,25
+3T25 4T25 1T26 2T26 3T26
+New NPL (R$ bi)
+New NPL(t)/
+Cart. de Crédito(t-1) (%)
+ 
+ 
+Figura 21. Baixa para Perda – % da Carteira de Crédito 
+ 
+ 
+ 
+11,9
+15,7 16,6 14,2
+22,8
+1,0 1,3 1,3 1,1
+1,8
+3T25 4T25 1T26 2T26 3T26
+Baixa para Perda (R$ bi)
+Baixa para Perda/Carteira 
+de Crédito (%)
+
+[p. 61]
+Análise do Desempenho 3T26 | Crédito 
+ 
+ 
+ 
+ 
+ 
+ Banco do Brasil S.A. | Relações com Investidores 59 
+ 
+Créditos Renegociados e Reestruturados (2Rs) 
+A Resolução CMN nº 4.966/21 trouxe mudanças no tratamento de renegociações e reestruturações de dívidas, com 
+objetivo de alinhar as práticas das instituições financeiras brasileiras aos padrões internacionais. 
+Créditos Renegociados 
+Os créditos renegociados contemplam operações 
+com alterações nas condições originalmente 
+pactuadas ou a substituição da linha, mediante 
+liquidação ou refinanciamento parcial ou integral da 
+obrigação original. Destaca-se que essa repactuação 
+não implica, automaticamente, em fragilidade da 
+qualidade do crédito. 
+Créditos Reestruturados 
+Os créditos reestruturados são créditos renegociados 
+que tiveram concessões significativas de vantagens ao 
+cliente em razão da deterioração de sua qualidade 
+creditícia, que não seriam concedidas em outra 
+situação, com o objetivo de adequar as condições do 
+crédito à situação do cliente. 
+ 
+Tabela 47. Carteira de Créditos Renegociados e Reestruturados – Banco Múltiplo¹ – R$ milhões 
+3T25 4T25 1T26 2T26 3T26 Δ% A/A Δ% T/T
+Saldo Inicial 86.725 82.332 79.770 71.460 73.738 (15,0) 3,2
+Contratações 10.331 10.094 7.590 11.430 10.000 (3,2) (12,5)
+Renegociações 3.526 3.339 2.862 4.536 4.642 31,6 2,3
+Reestruturações 6.804 6.755 4.728 6.893 5.358 (21,3) (22,3)
+Recebimentos menos Juros Líquidos ² (9.583) (5.924) (9.316) (5.879) (6.014) (37,2) 2,3
+Baixas para Prejuízo (5.141) (6.733) (6.584) (3.272) (6.444) 25,4 96,9
+Saldo Final 82.332 79.770 71.460 73.738 71.280 (13,4) (3,3)
+|| Índice de Inadimplência 90 dias – % 21,2 25,2 21,8 21,5 22,5 134 bps 99 bps
+|| Índice de Cobertura – % 223,2 180,4 184,7 192,5 179,3 (4.386) bps (1.317) bps
+|| Índice de Reestruturação – % 52,1 54,0 55,1 56,8 56,9 475 bps 5 bps
+ 
+(1) Conforme Nota Explicativa 12-i. Não inclui os créditos prorrogados da carteira rural com amparo em legislação específica; (2) Recebimentos de principal e juros 
+menos juros capitalizados, incluindo operações alongadas no período e liquidações com recebimento integral de seu capital principal.
+
+[p. 62]
+Análise do Desempenho 3T26 | Crédito 
+ 
+ 
+ 
+ 
+ 
+ Banco do Brasil S.A. | Relações com Investidores 60 
+ 
+Regularização de Créditos 
+Cobrança e Recuperação de Crédito 
+O Banco adota estratégias para a regularização dos 
+créditos em atraso no menor tempo possível, 
+atuando preventivamente, de modo a evitar o 
+agravamento dos estágios de risco. A prioridade na 
+regularização é através do recebimento à vista, 
+contribuindo para a redução de valores provisionados 
+e para a qualidade dos ativos renegociados a prazo. 
+Recuperação de Perdas 
+Nos últimos doze meses, a recuperação de perdas 
+acumulada foi de R$ 6,6 bilhões, sendo R$ 5,2 bilhões 
+(77,9%) de créditos à vista. A partir do 1T25, a 
+abordagem de recuperação à vista foi impulsionada, 
+evitando o incremento da perda esperada nas 
+operações a prazo e aprimorando ainda mais a 
+qualidade destas recuperações. 
+Figura 22. Recuperação Acumulada (R$ bilhões) e Índice de Recuperação à Vista¹– % 
+6,6 6,5 6,4 6,3 6,6
+74,2 78,5 78,1 78,2 77,9
+3T25 4T25 1T26 2T26 3T26
+Recuperação 
+Acumulada 
+(R$ bilhões)
+Recuperação à Vista 
+Acumulada
+(%)
+ 
+(1) Acumulado 12 meses.
+
+[p. 63]
+Análise do Desempenho 3T26 | Crédito 
+ 
+ 
+ 
+ 
+ 
+ Banco do Brasil S.A. | Relações com Investidores 61 
+ 
+Crédito Pessoa Física 
+A carteira expandida PF apresentou estabilidade no trimestre e alta de 2,1% em 12 meses, influenciada, 
+principalmente, pelo desempenho do crédito consignado. 
+Tabela 48. Carteira de Crédito Pessoa Física – R$ milhões 
+Set/25 Part. % Jun/26 Part. % Set/26 Part. % Δ% A/A Δ% T/T 
+|| Carteira de Crédito (a) 350.416 100,0 357.560 100,0 357.653 100,0 2,1 0,0
+Crédito Direto ao Consumidor 197.067 56,2 203.004 56,8 204.239 57,1 3,6 0,6
+Crédito Consignado 147.893 42,2 153.663 43,0 155.243 43,4 5,0 1,0
+Público 112.207 32,0 112.975 31,6 113.675 31,8 1,3 0,6
+INSS 26.805 7,6 28.252 7,9 29.316 8,2 9,4 3,8
+Privado 8.881 2,5 12.437 3,5 12.252 3,4 38,0 (1,5)
+Crédito Não Consignado¹ 49.175 14,0 49.341 13,8 48.996 13,7 (0,4) (0,7)
+Cartão de Crédito 63.882 18,2 69.928 19,6 68.460 19,1 7,2 (2,1)
+Financiamento Imobiliário 47.310 13,5 45.230 12,6 44.826 12,5 (5,3) (0,9)
+Composição de Dívidas 25.133 7,2 24.462 6,8 23.879 6,7 (5,0) (2,4)
+Pessoa Física 16.095 4,6 15.243 4,3 15.222 4,3 (5,4) (0,1)
+Produtor Rural 9.038 2,6 9.218 2,6 8.657 2,4 (4,2) (6,1)
+Financiamento de Veículos¹ 12.351 3,5 10.477 2,9 10.889 3,0 (11,8) 3,9
+Carteira Orgânica 3.535 1,0 2.641 0,7 4.533 1,3 28,2 71,7
+Carteira Adquirida 8.816 2,5 7.836 2,2 6.356 1,8 (27,9) (18,9)
+Cheque Especial 3.356 1,0 3.281 0,9 3.371 0,9 0,4 2,7
+Microcrédito 240 0,1 218 0,1 216 0,1 (9,9) (1,0)
+Demais 1.076 0,3 960 0,3 1.773 0,5 64,7 84,6
+|| TVM Privados e Garantias (b) 95 0,0 80 0,0 90 0,0 (4,7) 12,8
+|| Carteira de Crédito Expandida (a + b) 350.511 100,0 357.640 100,0 357.743 100,0 2,1 0,0
+ 
+(1) Série revisada por reclassificação de saldos entre as linhas de Financiamento de Veículos para Crédito Não Consignado. 
+ 
+Figura 23. Composição da Carteira de Crédito Pessoa Física – R$ milhões 
+42,2% 42,0% 42,0% 43,0% 43,4%
+13,5% 13,1% 12,7% 12,6% 12,5%
+18,2% 20,0% 20,0% 19,6% 19,1%
+14,0% 13,8% 14,0% 13,8% 13,7%
+12,0% 11,1% 11,4% 11,0% 11,2%
+350.416 356.878 361.744 357.560 357.653
+Set/25 Dez/25 Mar/26 Jun/26 Set/26
+Crédito Consignado
+Cartão de Crédito
+Financiamento 
+Imobiliário
+Crédito Não 
+Consignado¹
+Demais
+ 
+(1) Série revisada por reclassificação de saldos entre as linhas de Financiamento de Veículos para Crédito Não Consignado.
+
+[p. 64]
+Análise do Desempenho 3T26 | Crédito 
+ 
+ 
+ 
+ 
+ 
+ Banco do Brasil S.A. | Relações com Investidores 62 
+ 
+Crédito Consignado 
+O saldo da carteira de crédito consignado alcançou R$ 155,2 bilhões em setembro/26, aumento de 5,0% em 12 
+meses. Destaque para a estratégia relacionada à expansão na linha de consignado privado, que permitiu a elevação 
+de 38% dessas operações em 12 meses, e ao consignado INSS, que cresceu 3,8% no trimestre e 9,4% em 12 meses. 
+A taxa média das operações de crédito consignado é de 1,80% a.m. e prazo médio de 72 meses. 
+Figura 24. Crédito Consignado – R$ milhões 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+147.893 149.978 151.814 153.663 155.243
+1,70 1,74 1,77 1,79 1,80
+Set/25 Dez/25 Mar/26 Jun/26 Set/26
+Crédito Consignado
+Taxa Média da Carteira
+% a.m.
+ 
+Crédito Não Consignado 
+A carteira de crédito não consignado encerrou setembro/26 em R$ 49,0 bilhões, retração de 0,4% em 12 meses e 
+0,7% em relação a junho/26. 
+Figura 25. Crédito Não Consignado¹ – R$ milhões 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+49.175 49.396 50.671 49.341 48.996
+Set/25 Dez/25 Mar/26 Jun/26 Set/26
+Crédito Não Consignado
+ 
+(1) Série revisada por reclassificação de saldos entre as linhas de Financiamento de Veículos para Crédito Não Consignado.
+
+[p. 65]
+Análise do Desempenho 3T26 | Crédito 
+ 
+ 
+ 
+ 
+ 
+ Banco do Brasil S.A. | Relações com Investidores 63 
+ 
+Financiamento Imobiliário 
+A carteira de financiamento imobiliário encerrou setembro/26 em R$ 44,8 bilhões, redução de 0,9% no trimestre e 
+5,3% em 12 meses, e com percentual financiado de 62,2% (loan-to-value – LTV). No período, a carteira apresentou 
+taxa média de 7,02% a.a e prazo médio de 333 meses. 
+Figura 26. Financiamento Imobiliário– R$ milhões 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+47.310 46.662 45.910 45.230 44.826
+6,99 7,02 7,04 7,05 7,02
+Set/25 Dez/25 Mar/26 Jun/26 Set/26
+Taxa Média da Carteira
+% a.a.
+Financiamento 
+Imobiliário
+ 
+Cartão de Crédito 
+O saldo da carteira de cartão de crédito apresentou crescimento de 7,2% em 12 meses e redução de 2,1% no 
+trimestre. 
+Figura 27. Cartão de Crédito– R$ milhões 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+63.882
+71.269 72.170 69.928 68.460
+Set/25 Dez/25 Mar/26 Jun/26 Set/26
+Cartão de Crédito
+
+[p. 66]
+Análise do Desempenho 3T26 | Crédito 
+ 
+ 
+ 
+ 
+ 
+ Banco do Brasil S.A. | Relações com Investidores 64 
+ 
+A figura a seguir apresenta o perfil da carteira de cartão de crédito pessoa física por modalidade e segregada de 
+acordo com a sensibilidade a juros. 
+Figura 28. Cartão de Crédito – Composição Carteira – % 
+81,7
+5,8
+12,4
+Set/25
+À Vista e Parcelado Sem 
+Juros
+Parcelado
+Rotativo
+76,8
+3,8
+19,5
+Set/26
+ 
+Qualidade do Crédito PF 
+A tabela a seguir detalha o saldo da carteira de crédito PF e da perda esperada por estágio. 
+Tabela 49. Carteira de Crédito PF e Perda Esperada por Estágio – R$ milhões 
+Jun/26 Set/26
+Carteira de Crédito Perda Esperada Carteira de Crédito Perda Esperada
+Saldo (a) Saldo (b) (b)/(a) - % Carteira de Crédito Δ% Jun/26 Perda Esperada Δ% Jun/26 (b)/(a) - %
+Estágio 1 299.186 3.933 1,3 301.034 0,6 3.739 (4,9) 1,2
+Estágio 2 13.857 4.348 31,4 11.803 (14,8) 3.499 (19,5) 29,6
+Estágio 3 44.517 29.559 66,4 44.815 0,7 30.066 1,7 67,1
+Total 357.560 37.840 10,6 357.653 0,0 37.305 (1,4) 10,4
+ 
+Figura 29. Participação dos Estágios na Carteira de Crédito PF 
+ 
+ 
+ 
+ 
+ 
+ 
+84,2 85,8 84,9 83,7 84,2
+4,4 3,4 3,6 3,9 3,3
+11,4 10,8 11,4 12,5 12,5
+Set/25 Dez/25 Mar/26 Jun/26 Set/26
+Estágio 1 (%)
+Estágio 3 (%)
+Estágio 2 (%)
+
+[p. 67]
+Análise do Desempenho 3T26 | Crédito 
+ 
+ 
+ 
+ 
+ 
+ Banco do Brasil S.A. | Relações com Investidores 65 
+ 
+O índice de inadimplência INAD+90d (relação entre as operações vencidas há mais de 90 dias e o saldo da carteira 
+de crédito) encerrou setembro/26 em 9,14%. 
+Figura 30. INAD +30d, INAD+90d e Índice de Cobertura da Carteira de Crédito PF – % 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+152,1 140,1 147,9 125,8 114,2 Cobertura +90d (%)
+32,0 32,8 36,5 37,8 37,3 28,5 30,0 33,6 40,8 40,8
+21,1 23,4 24,7
+30,1 32,7
+6,01 6,56 6,82
+8,41 9,14
+8,13 8,41 9,30
+11,42 11,41
+Set/25 Dez/25 Mar/26 Jun/26 Set/26
+Perda Esperada (R$ bi)
+INAD +90d
+(%)
+INAD +30d
+(%)
+Inad +90d (R$ bi)
+Inad +30d (R$ bi)
+ 
+A figura a seguir apresenta a evolução da inadimplência nos principais produtos da carteira de Pessoas Físicas. 
+Figura 31. INAD+90d Carteira de Crédito BB PF – em % por Linha de Crédito 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+8,89 8,64 7,12
+14,58 16,35
+3,21
+3,86
+2,91
+2,89
+2,39
+1,57
+1,90 2,44
+2,74
+3,17
+3,05 3,10
+3,01
+2,75 2,75
+Set/25 Dez/25 Mar/26 Jun/26 Set/26
+Crédito Consignado
+Fin. de Veículos
+Fin. Imobiliário
+Cartão de Crédito
+
+[p. 68]
+Análise do Desempenho 3T26 | Crédito 
+ 
+ 
+ 
+ 
+ 
+ Banco do Brasil S.A. | Relações com Investidores 66 
+ 
+A próxima figura detalha a formação da inadimplência da Carteira PF. O índice encerrou setembro/26 em 2,61%. A 
+cobertura do New NPL foi de 66,4%. 
+Figura 32. New NPL – Carteira de Crédito Pessoa Física 
+85,6 73,3
+142,9
+65,9 66,4Cobertura New NPL (%)
+7,05
+5,89 5,66
+11,84
+9,34
+2,06 1,68 1,59
+3,27
+2,61
+3T25 4T25 1T26 2T26 3T26
+New NPL PF 
+(R$ bi)
+New NPL PF(t)/
+Cart. Crédito PF(t-1) (%)
+ 
+Figura 33. Baixa para Perda – % da Carteira de Crédito Pessoa Física 
+ 
+ 
+ 
+5,1
+3,5
+4,4
+6,4 6,7
+1,5
+1,0 1,2
+1,8 1,9
+3T25 4T25 1T26 2T26 3T26
+Baixa para Perda (R$ bi)
+Baixa para Perda/Carteira 
+PF (%)
+
+[p. 69]
+Análise do Desempenho 3T26 | Crédito 
+ 
+ 
+ 
+ 
+ 
+ Banco do Brasil S.A. | Relações com Investidores 67 
+ 
+Crédito Pessoa Jurídica 
+A carteira expandida PJ cresceu no trimestre e em 12 meses (+1,8% t/t e 2,5% a/a). 
+Tabela 50. Carteira de Crédito Pessoa Jurídica – R$ milhões 
+Set/25 Part. % Jun/26 Part. % Set/26 Part. % Δ% A/A Δ% T/T 
+|| Carteira de Crédito (a) 403.312 89,0 404.097 88,6 407.467 87,7 1,0 0,8
+Capital de Giro Amplo 157.664 34,8 144.960 31,8 141.598 30,5 (10,2) (2,3)
+Capital de Giro 136.036 30,0 123.655 27,1 121.391 26,1 (10,8) (1,8)
+Recebíveis 16.703 3,7 16.585 3,6 15.604 3,4 (6,6) (5,9)
+Conta Garantida 4.435 1,0 4.237 0,9 4.129 0,9 (6,9) (2,5)
+Cheque Especial 490 0,1 483 0,1 473 0,1 (3,5) (2,0)
+Investimento 106.333 23,5 118.938 26,1 120.423 25,9 13,3 1,2
+ACC/ACE 27.946 6,2 27.006 5,9 30.470 6,6 9,0 12,8
+Composição de Dívidas 22.489 5,0 16.878 3,7 16.522 3,6 (26,5) (2,1)
+Grandes Empresas 9.213 2,0 7.866 1,7 7.933 1,7 (13,9) 0,9
+MPME 13.276 2,9 9.012 2,0 8.589 1,8 (35,3) (4,7)
+TVM com Caracteristica de Crédito 65.714 14,5 68.817 15,1 70.226 15,1 6,9 2,0
+Cartão de Crédito 7.849 1,7 9.448 2,1 8.991 1,9 14,5 (4,8)
+Crédito Imobiliário 4.390 1,0 5.109 1,1 5.215 1,1 18,8 2,1
+Demais 10.927 2,4 12.940 2,8 14.021 3,0 28,3 8,4
+|| TVM Priv. s/Carac. Créd. e Garantias (b) 49.655 11,0 52.054 11,4 56.963 12,3 14,7 9,4
+|| Carteira de Crédito Expandida (a+b) 452.967 100,0 456.150 100,0 464.429 100,0 2,5 1,8
+ 
+Figura 34. Carteira de Crédito Expandida Pessoa Jurídica – R$ milhões 
+21,0% 20,9% 20,1% 20,3% 20,5%
+30,0% 28,8% 28,4% 27,1% 26,1%
+23,5% 24,3% 24,9% 26,1% 25,9%
+11,0% 11,6% 12,4% 11,4% 12,3%
+14,5% 14,3% 14,2% 15,1% 15,1%
+452.967 455.150 449.027 456.150 464.429
+Set/25 Dez/25 Mar/26 Jun/26 Set/26
+Capital de Giro
+TVM Priv. s/Carac. Créd. 
+e Garantias
+Investimento
+Demais
+TVM com Caracteristica 
+de Crédito
+
+[p. 70]
+Análise do Desempenho 3T26 | Crédito 
+ 
+ 
+ 
+ 
+ 
+ Banco do Brasil S.A. | Relações com Investidores 68 
+ 
+Figura 35. Segmentação da Carteira de Crédito Expandida Pessoa Jurídica – R$ milhões 
+57,1% 57,2% 57,1% 56,4% 57,1%
+26,2% 25,3% 24,8% 24,2% 23,4%
+16,7% 17,5% 18,1% 19,4% 19,5%
+452.967 455.150 449.027 456.150 464.429
+Set/25 Dez/25 Mar/26 Jun/26 Set/26
+Grandes Empresas
+MPME
+Governo
+ 
+Crédito para Grandes Empresas 
+Enquadram-se no segmento grandes empresas 
+aquelas com faturamento bruto anual superior a R$ 
+200 milhões. 
+A carteira expandida de Grandes Empresas encerrou 
+setembro/26 com saldo de R$ 265,1 bilhões, alta de 
+3,0% em relação ao trimestre anterior e de 2,4% em 
+12 meses. 
+TVM Privados e Garantias 
+Os principais instrumentos de TVM Privados 
+utilizados pelas Grandes Empresas para 
+financiamento dos seus negócios são debêntures, 
+Fundos de Investimento em Direitos Creditórios 
+(FIDC), Certificados de Recebíveis Imobiliários (CRI) e 
+Certificados de Recebíveis do Agronegócio (CRA). 
+Debêntures 
+As debêntures são títulos privados representativos de 
+dívida das Sociedades Anônimas de capital aberto ou 
+fechado (“S.A.”) e o principal instrumento de 
+captação de recursos no mercado de capitais. 
+Para as Grandes Empresas, as emissões de debêntures 
+são fontes competitivas de captação de recursos 
+quando comparado com as linhas de créditos 
+tradicionais, por apresentarem muitas vezes menor 
+custo de captação. 
+Para os investidores das debêntures, estas costumam 
+oferecer bons rendimentos, em geral indexado ao CDI 
+ou à Índices de Preços. 
+Fundos de Investimento em Direitos 
+Creditórios (FIDC) 
+Os Fundos de Investimentos em Direitos Creditórios 
+representam uma comunhão de recursos que 
+destinam uma parcela do seu patrimônio líquido para 
+aplicação em direitos creditórios provenientes de 
+operações comerciais, industriais, imobiliárias, 
+financeiras ou de prestação de serviços que as 
+empresas têm a receber, como duplicatas, contratos, 
+cheques, entre outros. 
+O direito desses créditos é negociável, ou seja, a 
+Grande Empresa cede ao fundo, antecipando o
+
+[p. 71]
+Análise do Desempenho 3T26 | Crédito 
+ 
+ 
+ 
+ 
+ 
+ Banco do Brasil S.A. | Relações com Investidores 69 
+ 
+recebimento do recurso, cuja antecipação é 
+descontada por uma taxa variável com o risco de 
+crédito desses recebíveis, otimizando a gestão de 
+caixa sem a necessidade de elevar seu grau de 
+endividamento. 
+Certificados de Recebíveis Imobiliários 
+(CRI) 
+Os Certificados de Recebíveis Imobiliários são títulos 
+lastreados em créditos imobiliários, representativos 
+de parcelas de um direito creditório pertencente a 
+uma Grande Empresa. 
+Certificados de Recebíveis do Agronegócio 
+(CRA) 
+Os Certificados de Recebíveis do Agronegócio são 
+títulos lastreados em direitos creditórios originários 
+de negócios realizados entre produtores rurais, ou 
+suas cooperativas, e terceiros, relacionados ao 
+financiamento das atividades do agronegócio. 
+Prestação de Garantias 
+Dentre os negócios voltados à prestação de garantias, 
+uma importante frente de atuação é a de fianças 
+completion no âmbito de Project Finance. Trata-se de 
+prestação de fiança destinada a garantir os credores 
+de projetos de investimento durante a fase de 
+implantação dos empreendimentos. Destaca-se 
+nessa frente o apoio do BB a projetos de 
+infraestrutura, sobretudo os de geração de energia 
+renovável (eólica e solar, principalmente). 
+Figura 36. Carteira de Crédito Grandes Empresas Expandida– R$ milhões 
+55,4% 54,7% 53,4% 53,0% 52,0%
+19,2% 20,3% 21,7% 20,2% 21,5%
+25,4% 24,9% 24,9% 26,7% 26,5%
+258.862 260.443 256.454 257.298 265.106
+Set/25 Dez/25 Mar/26 Jun/26 Set/26
+Grandes Empresas
+TVM Priv. s/ Carac. Créd. e 
+Garantias
+TVM c/ Carac. Crédito
+
+[p. 72]
+Análise do Desempenho 3T26 | Crédito 
+ 
+ 
+ 
+ 
+ 
+ Banco do Brasil S.A. | Relações com Investidores 70 
+ 
+Crédito para Micro, Pequenas e Médias Empresas (MPME) 
+Enquadram-se no segmento micro, pequenas e médias empresas aquelas com faturamento bruto anual inferior a 
+R$ 200 milhões. 
+A carteira de crédito MPME encerrou setembro/26 com saldo de R$ 108,9 bilhões (-1,5% t/t e -8,2% a/a), 
+influenciada especialmente pela redução nas linhas de capital de giro amplo (-2,3% t/t e -7,7% a/a) e composição 
+de dívidas (-4,7% t/t e -35,3% a/a). Do saldo dessa carteira, 99,3% estão aplicados junto aos correntistas com tempo 
+de relacionamento superior a dois anos. 
+Destaque para as operações de Pronampe e PEAC FGI, com saldo de R$ 41,9 bilhões em setembro/26, com 
+crescimento de 4,7% t/t e 28,2% a/a e que representam 40,8% da carteira MPE. 
+Tabela 51. Carteira de Crédito MPME – R$ milhões 
+Set/25 Part. % Jun/26 Part. % Set/26 Part. % Δ% A/A Δ% T/T 
+Carteira de Crédito 118.540 100,0 110.476 100,0 108.856 100,0 (8,2) (1,5)
+Capital de Giro Amplo 77.862 65,7 73.513 66,5 71.859 66,0 (7,7) (2,3)
+Capital de Giro 68.978 58,2 65.781 59,5 64.314 59,1 (6,8) (2,2)
+Recebíveis 4.604 3,9 3.574 3,2 3.485 3,2 (24,3) (2,5)
+Conta Garantida 3.796 3,2 3.683 3,3 3.592 3,3 (5,4) (2,5)
+Cheque Especial 484 0,4 476 0,4 467 0,4 (3,6) (1,9)
+Investimento 11.825 10,0 11.319 10,2 11.254 10,3 (4,8) (0,6)
+Composição de Dívidas 13.276 11,2 9.012 8,2 8.589 7,9 (35,3) (4,7)
+ACC/ACE 4.763 4,0 4.461 4,0 4.426 4,1 (7,1) (0,8)
+Cartão de Crédito 4.278 3,6 4.370 4,0 4.359 4,0 1,9 (0,2)
+Crédito Imobiliário 1.163 1,0 1.445 1,3 1.512 1,4 30,0 4,6
+Demais 5.373 4,5 6.356 5,8 6.858 6,3 27,6 7,9
+ 
+Crédito para Governo 
+O Banco do Brasil apoia os estados, o Distrito Federal 
+e os municípios em suas demandas, no financiamento 
+de programas de investimento voltados à melhoria da 
+qualidade e transparência da gestão pública, 
+mobilidade urbana, saúde, educação e segurança 
+pública, gerando benefícios efetivos para a 
+população e contribuindo para o desenvolvimento do 
+país. 
+Em setembro/26 a carteira Governo totalizou 
+R$ 90,5 bilhões, crescimento de 19,7% em 12 meses. 
+Foram desembolsados R$ 22,7 bilhões no 9M26 em 
+operações de crédito com estados e municípios para 
+viabilizar a execução de programas de investimentos 
+constantes do plano plurianual. A maior parte das 
+operações com o Setor Público contam com garantia 
+do Tesouro. 
+De acordo com a Resolução Bacen nº 229/2022, 
+artigo 23, deve ser aplicado o Fator de Ponderação de 
+Risco (FPR) de 0% à parcela de exposição coberta por 
+operações de crédito com garantias prestadas pelo 
+Tesouro Nacional, não havendo assim, 
+comprometimento de capital. 
+A carteira de governo tem uma participação 
+importante de créditos repassados em moeda 
+estrangeira, o que implica em variações de saldo em 
+função do comportamento do câmbio.
+
+[p. 73]
+Análise do Desempenho 3T26 | Crédito 
+ 
+ 
+ 
+ 
+ 
+ Banco do Brasil S.A. | Relações com Investidores 71 
+ 
+Concentração PJ por Macrossetor 
+A próxima tabela apresenta a concentração por macrossetores econômicos da carteira PJ e Agro PJ, considerando o 
+Banco Múltiplo, as operações com TVM sem característica de crédito e garantia e a carteira externa. A carteira é 
+constituída a partir das exposições com clientes conforme sua respectiva atividade econômica principal, sendo 
+agregados conforme a estrutura macrossetorial adotada pelo BB. 
+Tabela 52. Macrossetor: Concentração da Carteira PJ e Agro PJ – R$ milhões 
+Set/25 Part. % Jun/26 Part. % Set/26 Part. % Δ% A/A Δ% T/T 
+Total 538.333 100,0 553.492 100,0 559.663 100,0 4,0 1,1
+Administração Pública 75.879 14,1 88.573 16,0 90.687 16,2 19,5 2,4
+Agronegócio de Origem Vegetal 56.063 10,4 60.409 10,9 62.268 11,1 11,1 3,1
+Serviços 49.097 9,1 55.837 10,1 55.607 9,9 13,3 (0,4)
+Instituições e Serviços Financeiros 46.213 8,6 43.674 7,9 49.293 8,8 6,7 12,9
+Energia Elétrica 33.752 6,3 34.051 6,2 34.344 6,1 1,8 0,9
+Petroleiro 39.499 7,3 32.136 5,8 31.296 5,6 (20,8) (2,6)
+Mineração e Metalurgia 24.507 4,6 26.447 4,8 25.832 4,6 5,4 (2,3)
+Transportes 24.270 4,5 25.026 4,5 23.793 4,3 (2,0) (4,9)
+Agronegócio de Origem Animal 19.554 3,6 23.049 4,2 23.113 4,1 18,2 0,3
+Automotivo 21.649 4,0 22.254 4,0 22.287 4,0 2,9 0,1
+Químico 16.845 3,1 16.349 3,0 17.230 3,1 2,3 5,4
+Insumos Agrícolas 16.886 3,1 17.485 3,2 17.140 3,1 1,5 (2,0)
+Comércio Varejista 16.993 3,2 16.398 3,0 15.714 2,8 (7,5) (4,2)
+Eletroeletrônico 14.688 2,7 14.071 2,5 13.850 2,5 (5,7) (1,6)
+Fornecedores da Construção Civil 13.499 2,5 12.998 2,3 12.549 2,2 (7,0) (3,5)
+Papel e Celulose 10.858 2,0 10.589 1,9 11.299 2,0 4,1 6,7
+Comércio Atacadista e Ind. Diversas 10.418 1,9 10.140 1,8 9.998 1,8 (4,0) (1,4)
+Imobiliário 11.374 2,1 10.314 1,9 9.981 1,8 (12,3) (3,2)
+Têxtil e Confecções 9.289 1,7 8.246 1,5 8.246 1,5 (11,2) 0,0
+Madeireiro e Moveleiro 6.539 1,2 7.245 1,3 7.185 1,3 9,9 (0,8)
+Telecomunicações 5.558 1,0 5.162 0,9 5.194 0,9 (6,5) 0,6
+Construção Pesada 5.762 1,1 3.264 0,6 3.200 0,6 (44,5) (2,0)
+Couro e Calçados 2.294 0,4 2.339 0,4 2.312 0,4 0,8 (1,1)
+Bebidas 1.450 0,3 1.906 0,3 2.141 0,4 47,7 12,4
+Demais Atividades 5.396 1,0 5.531 1,0 5.103 0,9 (5,4) (7,7)
+Total 538.333 100,0 553.492 100,0 559.663 100,0 4,0 1,1
+Carteira de Crédito Interna 439.735 81,7 454.279 82,1 455.170 81,3 3,5 0,2
+Carteira de Crédito Externa 35.415 6,6 32.450 5,9 33.729 6,0 (4,8) 3,9
+Garantias + TVM 63.183 11,7 66.763 12,1 70.764 12,6 12,0 6,0
+
+[p. 74]
+Análise do Desempenho 3T26 | Crédito 
+ 
+ 
+ 
+ 
+ 
+ Banco do Brasil S.A. | Relações com Investidores 72 
+ 
+Qualidade do Crédito PJ 
+A tabela a seguir detalha o saldo da carteira de crédito PJ por estágio e da perda esperada por estágio. 
+Tabela 53. Carteira de Crédito PJ e Perda Esperada por Estágio – R$ milhões 
+Jun/26 Set/26
+Carteira de Crédito Perda Esperada Carteira de Crédito Perda Esperada
+Saldo (a) Saldo (b) (b)/(a) - % Saldo (a) Δ% Jun/26 Saldo (b) Δ% Jun/26 (b)/(a) - %
+Estágio 1 367.390 1.117 0,3 371.147 1,0 1.243 11,3 0,3
+Estágio 2 7.430 1.503 20,2 7.315 (1,6) 1.488 (1,0) 20,3
+Estágio 3 29.276 18.790 64,2 29.005 (0,9) 19.970 6,3 68,8
+Total 404.097 21.410 5,3 407.467 0,8 22.700 6,0 5,6
+ 
+Figura 37. Participação dos Estágios na Carteira de Crédito PJ 
+ 
+ 
+ 
+ 
+ 
+ 
+89,5 90,0 90,6 90,9 91,1
+2,0 2,1 2,3 1,8 1,8
+8,6 7,9 7,0 7,2 7,1
+Set/25 Dez/25 Mar/26 Jun/26 Set/26
+Estágio 1 (%)
+Estágio 3 (%)
+Estágio 2 (%)
+
+[p. 75]
+Análise do Desempenho 3T26 | Crédito 
+ 
+ 
+ 
+ 
+ 
+ Banco do Brasil S.A. | Relações com Investidores 73 
+ 
+O índice de inadimplência acima de 90 dias – INAD+90d (relação entre as operações vencidas há mais de 90 dias e 
+o saldo da carteira de crédito) encerrou setembro/26 em 3,44% e a cobertura em 162,1%. A INAD+30d atingiu 
+4,23%. 
+Figura 38. INAD +30d, INAD+90d e Índice de Cobertura da Carteira de Crédito PJ – % 
+206,9
+174,1 185,6 166,7 162,1Cobertura +90d (%)
+28,4 26,2
+21,0 21,4 22,721,0 20,0
+15,4 16,2 17,3 13,7 15,1 11,3 12,8 14,0
+3,40
+3,75
+2,87 3,18 3,44
+5,20 4,96
+3,93 4,00 4,23
+Set/25 Dez/25 Mar/26 Jun/26 Set/26
+Perda Esperada (R$ bi)
+INAD +90d
+(%)
+INAD +30d
+(%)
+Inad +90d (R$ bi)
+Inad +30d (R$ bi)
+ 
+Figura 39. INAD. +90d Carteira de Crédito BB PJ – em % por Linha de Crédito 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+0,71 0,77 0,71
+0,54 0,60
+1,95
+1,96
+1,90 2,04
+2,12
+2,57
+1,81
+1,92
+2,18
+2,09
+3,59
+2,72
+3,67
+4,52 4,69
+Set/25 Dez/25 Mar/26 Jun/26 Set/26
+ACC/ACE
+Investimento
+Recebíveis
+Capital de Giro
+ 
+Quando se considera apenas o segmento MPME, a inadimplência das operações vencidas há mais de 90 dias foi de 
+9,46%.
+
+[p. 76]
+Análise do Desempenho 3T26 | Crédito 
+ 
+ 
+ 
+ 
+ 
+ Banco do Brasil S.A. | Relações com Investidores 74 
+ 
+A formação da inadimplência (New NPL) da Carteira PJ alcançou R$ 3,9 bilhões e a sua cobertura encerrou 
+setembro/26 em 103,4%. 
+Figura 40. New NPL – Carteira de Crédito Pessoa Jurídica 
+214,8
+52,8 39,7 71,5 103,4
+Cobertura New NPL (%)
+2,15
+7,46
+2,46
+3,88 3,88
+0,51
+1,85
+0,61
+0,99 0,96
+3T25 4T25 1T26 2T26 3T26
+New NPL PJ (t)/
+Cart. Crédito (t-1) (%)
+New NPL PJ (R$ bi)
+ 
+Figura 41. Baixa para Perda – % da Carteira de Crédito Pessoa Jurídica 
+ 
+ 
+ 
+4,6
+6,1 6,2
+2,3 2,7
+1,1 1,5 1,6
+0,6 0,7
+3T25 4T25 1T26 2T26 3T26
+Baixa para Perda (R$ bi)
+Baixa para Perda/Carteira 
+PJ (%)
+
+[p. 77]
+Análise do Desempenho 3T26 | Crédito 
+ 
+ 
+ 
+ 
+ 
+ Banco do Brasil S.A. | Relações com Investidores 75 
+ 
+Crédito Agro 
+A carteira de crédito Agro encerrou o 3T26 com saldo de R$ 403,6 bilhões, com retração de 4,3% no trimestre e 
+elevação de 1,2% em 12 meses. 
+Tabela 54. Carteira de Crédito de Agronegócios – R$ milhões 
+Set/25 Part. % Jun/26 Part. % Set/26 Part. % Δ% A/A Δ% T/T 
+Carteira de Crédito 398.790 100,0 421.550 100,0 403.588 100,0 1,2 (4,3)
+Crédito Rural 355.029 89,0 385.397 91,4 369.507 91,6 4,1 (4,1)
+Custeio Agropecuário 108.481 27,2 95.389 22,6 88.871 22,0 (18,1) (6,8)
+Investimento Agropecuário 86.497 21,7 78.417 18,6 72.938 18,1 (15,7) (7,0)
+Pronaf 67.725 17,0 69.604 16,5 70.253 17,4 3,7 0,9
+BB Regulariza Agro ¹ – – 39.341 9,3 40.400 10,0 - 2,7
+FCO Rural 36.747 9,2 39.037 9,3 39.274 9,7 6,9 0,6
+Pronamp 33.262 8,3 37.532 8,9 36.097 8,9 8,5 (3,8)
+Industrialização 4.048 1,0 12.181 2,9 10.511 2,6 159,7 (13,7)
+BNDES/Finame Rural 7.413 1,9 6.998 1,7 6.255 1,5 (15,6) (10,6)
+Comercialização Agropecuária 8.434 2,1 4.872 1,2 3.285 0,8 (61,1) (32,6)
+Demais 2.422 0,6 2.025 0,5 1.622 0,4 (33,0) (19,9)
+Crédito Agroindustrial 3.608 0,9 5.370 1,3 5.536 1,4 53,4 3,1
+CPR 33.849 8,5 25.765 6,1 23.956 5,9 (29,2) (7,0)
+CDCA 6.304 1,6 5.019 1,2 4.588 1,1 (27,2) (8,6)
+ 
+(1) Inclui o saldo das operações realizadas por meio da MP 1.314/2025, publicada em 05/09/2025, e MP 1.376/2026, publicada em 15/07/2026. 
+A tabela a seguir demonstra o saldo da carteira do agronegócio segregado conforme o porte do cliente. 
+Tabela 55. Carteira de Crédito de Agronegócios por Porte – R$ milhões 
+Set/25 Part. % Jun/26 Part. % Set/26 Part. % Δ% A/A Δ% T/T 
+Carteira de Crédito 398.790 100,0 421.550 100,0 403.588 100,0 1,2 (4,3)
+ Médio e Grande Produtor 267.405 67,1 280.308 66,5 266.684 66,1 (0,3) (4,9)
+ Pequeno Produtor 77.130 19,3 82.848 19,7 83.079 20,6 7,7 0,3
+ Empresas 8.782 2,2 16.139 3,8 15.485 3,8 76,3 (4,1)
+ Cooperativas Agropecuárias 5.320 1,3 11.471 2,7 9.796 2,4 84,1 (14,6)
+CPR 33.849 8,5 25.765 6,1 23.956 5,9 (29,2) (7,0)
+CDCA 6.304 1,6 5.019 1,2 4.588 1,1 (27,2) (8,6)
+
+[p. 78]
+Análise do Desempenho 3T26 | Crédito 
+ 
+ 
+ 
+ 
+ 
+ Banco do Brasil S.A. | Relações com Investidores 76 
+ 
+A tabela a seguir detalha o saldo das operações de crédito destinadas ao agronegócio por tipo de item financiado. 
+Tabela 56. Carteira de Crédito de Agronegócios por Tipo de Item Financiado – R$ milhões 
+Set/25 Part. % Jun/26 Part. % Set/26 Part. % Δ% A/A Δ% T/T 
+Carteira de Crédito 398.790 100,0 421.550 100,0 403.588 100,0 1,2 (4,3)
+Crédito Rural 355.029 89,0 385.396 91,4 369.508 91,6 4,1 (4,1)
+Bovinocultura 90.644 22,7 84.721 20,1 81.481 20,2 (10,1) (3,8)
+ Carne 68.337 17,1 63.427 15,0 60.962 15,1 (10,8) (3,9)
+ Leite 22.307 5,6 21.294 5,1 20.519 5,1 (8,0) (3,6)
+Máquinas e Implementos 56.057 14,1 50.681 12,0 46.874 11,6 (16,4) (7,5)
+Soja 41.562 10,4 37.758 9,0 36.056 8,9 (13,2) (4,5)
+Armazenagem 17.312 4,3 17.898 4,2 17.385 4,3 0,4 (2,9)
+Melhoramento do Solo 15.813 4,0 15.464 3,7 14.630 3,6 (7,5) (5,4)
+Milho 17.494 4,4 15.750 3,7 12.932 3,2 (26,1) (17,9)
+Pastagem 10.522 2,6 10.446 2,5 10.122 2,5 (3,8) (3,1)
+Café 11.430 2,9 10.781 2,6 9.782 2,4 (14,4) (9,3)
+Avicultura 6.037 1,5 8.359 2,0 8.135 2,0 34,8 (2,7)
+Cana-de-açúcar 4.807 1,2 5.839 1,4 5.636 1,4 17,2 (3,5)
+Algodão 1.984 0,5 3.480 0,8 3.370 0,8 69,9 (3,2)
+Suinocultura 2.457 0,6 2.644 0,6 2.631 0,7 7,1 (0,5)
+Arroz 2.678 0,7 2.548 0,6 2.362 0,6 (11,8) (7,3)
+Caminhões/Veículos 2.320 0,6 1.889 0,4 1.776 0,4 (23,4) (6,0)
+Eucalipto/Pinus/Florestas 1.203 0,3 1.404 0,3 1.449 0,4 20,4 3,2
+Trigo 1.471 0,4 1.563 0,4 1.374 0,3 (6,6) (12,1)
+BB Regulariza Agro ¹ - – 39.341 9,3 40.400 10,0 - 2,7
+Demais 71.238 17,9 74.830 17,8 73.113 18,1 2,6 (2,3)
+Crédito Agroindustrial 3.608 0,9 5.370 1,3 5.536 1,4 53,4 3,1
+CPR 33.849 8,5 25.765 6,1 23.956 5,9 (29,2) (7,0)
+CDCA 6.304 1,6 5.019 1,2 4.588 1,1 (27,2) (8,6)
+ 
+(1) Inclui o saldo das operações realizadas por meio da MP 1.314/2025, publicada em 05/09/2025, e MP 1.376/2026, publicada em 15/07/2026. 
+Durante os três primeiros meses do Plano Safra 26/27, o Banco do Brasil desembolsou R$ 24,5 bilhões em crédito 
+ao agronegócio. Foram mais de 119,0 mil operações contratadas, sendo 90,3% destinadas a agricultura familiar 
+(PRONAF) e médios produtores (PRONAMP). 
+Tabela 57. Desembolsos por Segmento do Crédito Rural – R$ milhões 
+Safra 25/26 Safra 26/27 Δ% Safra 25/26
+Total 43.532 24.508 (43,7)
+ Agricultura Empresarial 23.977 10.092 (57,9)
+ Agricultura Familiar - Pronaf 7.151 7.387 3,3
+ Médios Produtores - Pronamp 6.591 3.875 (41,2)
+ BB Regulariza Agro ¹ – 169 –
+ Títulos Agro 5.813 2.985 (48,7)
+ 
+(1) Inclui o saldo das operações realizadas por meio da MP 1.314/2025, publicada em 05/09/2025, e MP 1.376/2026, publicada em 15/07/2026.
+
+[p. 79]
+Análise do Desempenho 3T26 | Crédito 
+ 
+ 
+ 
+ 
+ 
+ Banco do Brasil S.A. | Relações com Investidores 77 
+ 
+Mitigadores de Risco 
+O Banco do Brasil estimula o uso de mecanismos mitigadores de risco na contratação das operações de custeio 
+agrícola. 
+A estratégia de mitigação considera diversas informações, tais como o risco da atividade, a cultura a ser financiada e 
+o local do financiamento. Essas informações permitem direcionar o mecanismo de proteção mais adequado ao perfil 
+de risco de cada operação e empreendimento agropecuário. 
+A tabela a seguir apresenta o histórico recente de utilização de mitigadores de risco na contratação de operações 
+de custeio agrícola, para as respectivas safras. 
+Tabela 58. Distribuição de Mitigadores no Custeio Agrícola – R$ milhões 
+Safra 24/25 Part. % Safra 25/26 Part. % Safra 26/27 Part. % 
+Custeio Agrícola 23.254 100,0 13.472 100,0 7.669 100,0
+Total com Mitigador 12.218 52,5 5.746 42,7 3.876 50,5
+Seguro Agrícola 9.602 41,3 4.186 31,1 2.312 30,1
+Proagro 2.565 11,0 1.557 11,6 1.562 20,4
+Proteção de Preço 50 0,2 4 0,0 2 0,0
+Sem Mitigador 11.036 47,5 7.725 57,3 3.793 49,5
+ 
+Os riscos assumidos, em decorrência da contratação de seguro agrícola da safra, foram distribuídos da seguinte 
+forma no 3T26: Brasilseg 25,0%; IRB Brasil Resseguros 15,8%; Hannover Ruck SE 15,8%; Arch Re 13,5%; Mapfre Re 
+13,5%, dentre outros. 
+Participação no Agronegócio 
+O Banco mantém-se historicamente como o principal agente financeiro do agronegócio no país. Conforme dados 
+do Banco Central do Brasil, em setembro/26, o BB detinha 47,7% de participação nos financiamentos destinados ao 
+setor. No crédito direto ao produtor rural (participação de mercado no crédito agro pessoa física), a participação de 
+mercado é de 55,0%. 
+A distribuição das operações de agroneg
