@@ -1,137 +1,100 @@
 ALERTAS · eventos
 
-(pendente de slot anterior) [CRÍTICO] C05 · Pre 2029 FECHA 20 bps (PU +0,4%) · IPCA+ 2050 PU -6,0% em 5 datas-base · Pre 2032 FECHA 24 bps (PU +1,1%) (base 06/11)
-TD Pre 2029 14,74 (-20) · IPCA+ 2032 7,82 (-10) PU +0,6% · IPCA+ 2040 7,52 (-10) PU +1,3% · IPCA+ 2050 7,42 (-6) PU +1,4% · Pre 2032 15,10 (-24) PU +1,1%
-Por que importa: fechamento de taxa é ganho de marcação; quem carrega até o vencimento não mudou de rentabilidade
-Como falar: 'a marcação a mercado veio a favor; o rendimento contratado segue igual'
-Fonte: Tesouro Transparente, base 06/11
-ids: C05-TESOURO-fechou-2026-11-06
+(pendente de slot anterior) [ATENÇÃO] E05 · MINERIO · Goldman cuts iron ore price target on China steel demand
+Investing.com · 13/11 10h20 · fonte única · licença: manchete
+Link: https://www.investing.com/news/commodities-news/goldman-cuts-iron-ore-price-target-on-china-steel-demand-93CH-5025364
+Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
+Ativos: MINERIO
+Como falar: 'saiu no Investing.com: Goldman cuts iron ore price target on China steel demand; confirmar o número no texto antes de repassar'
+Fonte: Investing.com 13/11 10h20
+ids: E05-MINERIO-2c9c87b3ec-2026-11-13
 
-(pendente de slot anterior) [ATENÇÃO] E05 · PETR4 · Petrobras pode distribuir até US$ 4,2 bilhões em dividendos apesar da queda do petróleo Brent
-Estadao · 06/11 21h29 · fonte única · licença: manchete
-Link: https://www.estadao.com.br/em-alta/einvestidor/cenarios-e-mercado/petrobras-pode-distribuir-ate-us-42-bilhoes-em-dividendos-apesar-da-queda-do-petroleo-brent/
-Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
-Ativos: PETR4 · BRENT
-Como falar: 'saiu no Estadao: Petrobras pode distribuir até US$ 4,2 bilhões em dividendos apesar da queda do petróleo B…; confirmar o número no texto antes de repassar'
-Fonte: Estadao 06/11 21h29
-ids: E05-PETR4-ce232399f3-2026-11-07
+(pendente de slot anterior) [ATENÇÃO] E05 · GOOGL · Alphabet (GOOGL) Faces Uber Deal Talk, Space Chip Test And €1.66 Billion Fine
+Yahoo Finance · 13/11 18h10 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – - Google has unveiled "Project Suncatcher", an orbital experiment designed to test its AI accelerator chips in space-based data centers.
+  – - The group faces renewed legal attention around a €1.66b EU advertising fine while Tesla's robotaxis now operate ahead of Waymo in Texas.
+  – Take a look at 1 major warning sign we have identified for Alphabet.
+  – For readers tracking how AI-heavy infrastructure stories are reshaping big tech funding and competition, the next stop is 53 AI infrastructure stocks.
+  – At the same time, Tesla edging ahead of Waymo in Texas and renewed EU scrutiny over the €1.66b advertising case highlight the existing risks around slower Search monetisation and regulatory pressure on ad models.
+  – See how these catalysts shape Alphabet's path to a $408 fair value.
+Link: https://ca.finance.yahoo.com/news/alphabet-googl-faces-uber-deal-211021625.html
+Por que importa: aquisicao ou venda muda alavancagem, mix de receita e o multiplo; olhar preco pago e financiamento
+Ativos: GOOGL
+Como falar: 'saiu no Yahoo Finance: Alphabet (GOOGL) Faces Uber Deal Talk, Space Chip Test And €1.66 Billion Fine; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 13/11 18h10
+ids: E05-GOOGL-f30a01ea39-2026-11-13
 
-(pendente de slot anterior) [ATENÇÃO] E05 · PETR4 · Petrobras (PETR4) reina nas carteiras de dividendos; novo plano pode trazer mais dinheiro ao acionista
-Money Times · 09/11 16h01 · fonte única · licença: integral
-Do texto:
-  – Para os analistas, outro evento importante no radar é a divulgação do novo Plano Estratégico da Petrobras, prevista para 23 de novembro.
-  – Vale lembrar que, nesta quarta-feira (11), a Petrobras divulga o resultado do terceiro trimestre de 2026.
-  – Na sequência, aparecem Copel (CPLE6) e Itaú Unibanco (ITUB4), com sete recomendações cada.
-  – Já Itaúsa (ITSA4), Vale (VALE3) e Vivo (VIVT3) receberam seis indicações cada.
-  – Completam a lista das dez ações mais recomendadas BB Seguridade (BBSE3) e Axia Energia, antiga Eletrobras, com cinco indicações cada.
-Link: https://www.moneytimes.com.br/petrobras-petr4-reina-nas-carteiras-de-dividendos-novo-plano-pode-trazer-mais-dinheiro-ao-acionista-jcav/
+(pendente de slot anterior) [ATENÇÃO] E05 · JPM · 4 Takeaways From Dario Amodei’s Anthropic IPO Chat With Jamie Dimon
+Barron's · 13/11 17h28 · fonte única · licença: manchete
+Link: https://www.barrons.com/articles/anthropic-ipo-jamie-dimon-chase-3e44342b
+Por que importa: oferta de acoes ou divida altera a base acionaria ou a alavancagem
+Ativos: JPM
+Como falar: 'saiu no Barron's: 4 Takeaways From Dario Amodei’s Anthropic IPO Chat With Jamie Dimon; confirmar o número no texto antes de repassar'
+Fonte: Barron's 13/11 17h28
+ids: E05-JPM-bffd95625e-2026-11-13
+
+[ATENÇÃO] E05 · TSM · INTW 2X Intel ETF Tumbles 13% as Intel Drops Amid Shareholder Lawsuit and AI Chip Selloff; Taiwan Semiconductor Falls 5%
+Yahoo Finance · 16/11 17h03 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Quick Read - Intel's 6% slide on a class action and AI chip selloff crushed INTW 13%, as daily resets leave the 2x fund down 75% in a month.
+  – - Taiwan Semiconductor fell 5% and Broadcom 4% as the AI chip drop hit the whole sector ahead of NVIDIA earnings.
+  – - Despite Intel's 51% gain this year, the leveraged fund is down 4%, proving compounding turns volatility into losses for anyone holding beyond a day.
+  – - The biggest 401k decisions tend to get made once and never revisited: when to roll it over, what to hold inside it, and when to start taking money out.
+  – That is exactly what the report: 401k & IRA Tips and Answers was created to address, and it is free today.
+  – The GraniteShares 2x Long INTC Daily ETF (NASDAQ:INTW) has fallen to $5.20 this afternoon, down 13%.
+Link: https://finance.yahoo.com/markets/stocks/articles/intw-2x-intel-etf-tumbles-200312007.html
+Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e prazo
+Ativos: TSM · INTC
+Como falar: 'saiu no Yahoo Finance: INTW 2X Intel ETF Tumbles 13% as Intel Drops Amid Shareholder Lawsuit and AI Chip Selloff…; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 16/11 17h03
+Push: eventos: 3 alertas de atenção — E05 TSM, E05 NVDA, E05 PETR4 · detalhe na sessão
+ids: E05-TSM-8cc9582431-2026-11-16
+
+[ATENÇÃO] E05 · NVDA · Nasdaq 100 Plunges as Nvidia Earnings, Anthropic IPO on Horizon
+Bloomberg · 16/11 16h56 · fonte única · licença: manchete
+Link: https://www.bloomberg.com/news/articles/2026-11-16/nasdaq-100-plunges-as-nvidia-earnings-anthropic-ipo-on-horizon
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: NVDA
+Como falar: 'saiu no Bloomberg: Nasdaq 100 Plunges as Nvidia Earnings, Anthropic IPO on Horizon; confirmar o número no texto antes de repassar'
+Fonte: Bloomberg 16/11 16h56
+ids: E05-NVDA-7a34897346-2026-11-16
+
+[ATENÇÃO] E05 · PETR4 · Petrobras: mercado projeta investimentos maiores e dividendos acima de US$ 60 bilhões no novo plano estratégico
+ADVFN · 16/11 16h21 · fonte única · licença: manchete
+Link: https://br.advfn.com/jornal/2026/11/petrobras-mercado-projeta-investimentos-maiores-e-dividendos-acima-de-us-60-bilhoes-no-novo-plano-estrategico
 Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
 Ativos: PETR4
-Como falar: 'saiu no Money Times: Petrobras (PETR4) reina nas carteiras de dividendos; novo plano pode trazer mais dinheiro…; confirmar o número no texto antes de repassar'
-Fonte: Money Times 09/11 16h01
-ids: E05-PETR4-4dff3e3498-2026-11-09
-
-(pendente de slot anterior) [ATENÇÃO] E05 · AVGO · Broadcom Stocks Jump 8.21% as Investors Eye $21.7 Billion AI Revenue Guide
-Yahoo Finance · 09/11 15h05 · fonte única · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – Broadcom (NASDAQ:AVGO) shares rallied 8.21% to $317.81 as of 10:44 a.m.
-  – ET on Monday, November 9, in regular trading, after the chipmaker set December 9 for its fiscal fourth-quarter and full-year results.
-  – The bounce comes days after shares hit a 52-week low of $289.77.
-  – GuruFocus has detected 3 Warning Sign with AVGO.
-  – Broadcom reported fiscal third-quarter revenue of $29.6 billion, up 86%, with AI semiconductor revenue of $16.7 billion, up 221% year over year and 54% sequentially.
-  – Non-GAAP operating income reached $20.1 billion.
-Link: https://au.finance.yahoo.com/news/broadcom-stocks-jump-8-21-180538383.html
-Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
-Ativos: AVGO
-Como falar: 'saiu no Yahoo Finance: Broadcom Stocks Jump 8.21% as Investors Eye $21.7 Billion AI Revenue Guide; confirmar o número no texto antes de repassar'
-Fonte: Yahoo Finance 09/11 15h05
-ids: E05-AVGO-96e7808fa8-2026-11-09
-
-(pendente de slot anterior) [ATENÇÃO] E05 · DI · Mercado eleva projeção da Selic para 13,75% em 2026
-Agencia Brasil · 09/11 10h26 · + InfoMoney, Exame · licença: integral
-Do texto:
-  – Mercado eleva projeção da Selic para 13,75% em 2026 O mercado financeiro elevou de 13,5% para 13,75% ao ano a projeção para a taxa básica de juros (Selic) ao final de 2026, segundo o Boletim Focus divulgado nesta segund…
-  – Com a revisão, a expectativa dos analistas passou a coincidir com o atual nível da taxa, de 13,75% ao ano.
-  – A revisão das projeções ocorre após a decisão mais recente do Comitê de Política Monetária (Copom) de manter a Selic em 13,75% ao ano.
-  – A estimativa para o Índice Nacional de Preços ao Consumidor Amplo (IPCA) permaneceu em 5,22% para 2026.
-  – Para 2027, a projeção subiu de 4,76% para 4,90%, na quarta alta consecutiva.
-  – Definida pelo Conselho Monetário Nacional (CMN), a meta de inflação é 3% ao ano, com intervalo de tolerância de 1,5 ponto percentual para cima ou para baixo.
-Link: https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/mercado-eleva-projecao-da-selic-para-1375-em-2026
-Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
-Ativos: DI
-Como falar: 'saiu no Agencia Brasil: Mercado eleva projeção da Selic para 13,75% em 2026; confirmar o número no texto antes de repassar'
-Fonte: Agencia Brasil 09/11 10h26
-ids: E05-DI-3ddf9e0b5d-2026-11-09
-
-[ATENÇÃO] E05 · ITSA4 · Itaúsa tem lucro líquido recorrente de R$5,1 bi no 3º tri
-TradingView (Reuters) · 09/11 19h13 · fonte única · licença: manchete
-Link: https://br.tradingview.com/news/reuters.com,2026:newsml_S0N46E05B:0/
-Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
-Ativos: ITSA4
-Como falar: 'saiu no TradingView (Reuters): Itaúsa tem lucro líquido recorrente de R$5,1 bi no 3º tri; confirmar o número no texto antes de repassar'
-Fonte: TradingView (Reuters) 09/11 19h13
-Push: eventos: 3 alertas de atenção — E05 ITSA4, E05 MU, E05 USDBRL · detalhe na sessão
-ids: E05-ITSA4-aa123100d2-2026-11-09
-
-[ATENÇÃO] E05 · MU · Micron Rises 6% as Bulls Tout Its Bargain Valuation and Buyback Firepower; Seagate and Western Digital Jump 11%
-Yahoo Finance · 09/11 14h52 · fonte única · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – Quick Read - Micron trades at a 4x forward earnings multiple while a $35 billion buyback starts December 9, but cyclical-peak fears keep skeptics wary.
-  – - Seagate and Western Digital surged 11% on AI storage demand, outpacing Micron's bounce despite pricier forward multiples than the memory leader.
-  – - SanDisk sports the cheapest trailing multiple of the group at 7x, with an eight-for-one split arriving November 19.
-  – Micron stock is at $733.98, up 6% in afternoon trading.
-  – Against that background, Micron trades at a trailing 12-month price-to-earnings (P/E) ratio of 9x and a forward P/E of 4x.
-  – Micron's Buyback Math Has Value Investors Circling CNBC's Halftime Report gave the bull case a loud coverage on Friday, November 6, when a panelist argued that Micron will buy back $100 billion of stock at its depressed…
-Link: https://finance.yahoo.com/markets/stocks/articles/micron-rises-6-bulls-tout-175231901.html
-Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
-Ativos: MU
-Como falar: 'saiu no Yahoo Finance: Micron Rises 6% as Bulls Tout Its Bargain Valuation and Buyback Firepower; Seagate and We…; confirmar o número no texto antes de repassar'
-Fonte: Yahoo Finance 09/11 14h52
-ids: E05-MU-38571517a9-2026-11-09
-
-[ATENÇÃO] E05 · USDBRL · Dólar recua a R$ 5,50, com projeção de inflação e balança comercial no radar; Ibovespa avança
-g1 · 09/11 09h00 · fonte única · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – ▶️ O Banco Central divulgou nesta segunda-feira (9) o Boletim Focus, relatório que reúne as projeções de economistas para a economia brasileira.
-  – O mercado elevou de 4,76% para 4,90% a previsão de inflação para 2027, enquanto a estimativa para 2026 permaneceu em 5,22%.
-  – ▶️Já a balança comercial brasileira registrou superávit de US$ 1,4 bilhão na primeira semana de novembro.
-  – O resultado considera US$ 7,2 bilhões em exportações e US$ 5,8 bilhões em importações.
-  – Na comparação com novembro de 2025, a média diária das exportações cresceu 21,5%, enquanto a das importações avançou 23,6%.
-  – ▶️ O mercado também repercutiu o pronunciamento do presidente Luiz Inácio Lula da Silva, feito na noite de domingo (8).
-Link: https://g1.globo.com/economia/noticia/2026/11/09/dolar-ibovespa.ghtml
-Por que importa: decisao de politica monetaria reprecifica toda a curva e o cambio
-Ativos: USDBRL
-Como falar: 'saiu no g1: Dólar recua a R$ 5,50, com projeção de inflação e balança comercial no radar; Ibovespa av…; confirmar o número no texto antes de repassar'
-Fonte: g1 09/11 09h00
-ids: E05-USDBRL-49cdc12974-2026-11-09
+Como falar: 'saiu no ADVFN: Petrobras: mercado projeta investimentos maiores e dividendos acima de US$ 60 bilhões no…; confirmar o número no texto antes de repassar'
+Fonte: ADVFN 16/11 16h21
+ids: E05-PETR4-9996b94ca2-2026-11-16
 
 Info (só linha no Fechamento):
-· E03 KLBN4 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
-· E05 GOOGL · Advanced Micro Devices soars 13% on Google Cloud deal, tech rally (AMD:NASDAQ)
-· E05 KLBN4 · Klabin (KLBN11) capta US$ 150 milhões com agência canadense para gestão da dívida
-· E05 AMD · Advanced Micro Devices (AMD) Lands EPYC Role In New AI Security System
-· E05 NVDA · Nvidia spy allegations likely to spur laws to tighten China's access to AI chips
-· E05 BTC · Watch S&P 500 Erases Midterm Losses, Bitcoin Bounce
-· E05 NVDA · US Lawmakers Demand Details on Nvidia Amid Jensen Huang Scandal
-· E05 NVDA · Nvidia's China revenue 'not very significant,' says Melius' Ben Reitzes
-· E05 BTC · AI Price Prediction: Is Bitcoin a Buy at $74,000? We Asked ChatGPT, Claude and Grok
-· E05 USDBRL · Ibovespa ganha mais de 3 mil pontos em um dia, mas dólar não acompanha a festa
-· E05 BRENT · Dólar fecha praticamente estável com cautela fiscal e tombo do petróleo
-· E05 USDBRL · Dólar cai a R$ 5,505; Ibovespa sobe 2,22%
-· E05 NVDA · Nvidia Scandal Creates Risk for Entire AI Industry, Not Just CEO
-· E05 NVDA · Nvidia Stock’s (NVDA) Sell-Off Looks Overdone Ahead of Q3
-· E05 BTC · Anthony Scaramucci Says Bitcoin Should Already Be Trading at $200,000
-· E05 NVDA · Jensen Huang Might Be the Biggest Wild Card for Nvidia Stock. Here's What to Watch During Earnings on Nov. 17
-· E05 MMM · Weekly Recap: Higher 2026 EPS guidance and 3M deal removes cost headwind
+· E03 MRVE3 · Comunicado ao Mercado: Apresentações a analistas/agentes do mercado
+· E05 NVDA · Bitcoin risks falling below $60,000 as Nvidia earnings threaten to deepen crypto sell-off
+· E05 USDBRL · Dólar à vista fecha em alta de 2,13%, a R$5,7770 na venda Por Reuters
+· E05 UST · Treasury Yields Fall, German Bunds’ Tick Higher
+· E05 USDBRL · Dólar à vista fecha no maior valor em mais de 18 meses com incertezas fiscais no Brasil
+· E05 TSLA · Tesla: Wall Street Keeps Getting It Wrong, And The Price Is Still Too High (Rating Downgrade)
+· E05 TSLA · Tesla's Cybercab Comes With a Monthly Catch
+· E05 NVDA · US Moves to Curb Remote Access to Nvidia’s Advanced AI Chips
+· E05 VALE3 · Vale (VALE3): ações caem 4% com minério na mínima em 16 meses
+· E05 NVDA · Broadcom Is Better Positioned Than AMD As Nvidia Struggles (NASDAQ:AMD)
+· E05 VALE3 · Viridis recebe US$ 5 mi de fundo apoiado por Vale e BNDESPar
+· E05 NVDA · Watch Nvidia’s Defining Week: CEO Search, Earnings and China
+· E05 NVDA · Market's Nvidia obsession obscuring an opportunity in this name
+· E05 DI · Mercado precifica possibilidade de alta de juros em dezembro e Selic de 15,50% em 2027
+· E05 INTC · Intel Stocks Drop 6.13% as Shareholder Suit Targets PC Slump Disclosures
+· E05 NVDA · Nvidia Stock Falls Again. It Doesn’t Need a Jensen Huang Comeback to Thrive.
+· E05 MRVL · Lumentum Stocks Sink 8.32% as Marvell Slide Shrinks Deal Value Below $660
+· E05 KO · Coca-Cola Has Crushed PepsiCo in 2026, but Retirement Investors Face a Different Dividend Decision
+· E05 DI · Focus eleva projeção de inflação e Selic para 2027, mas corta IPCA em 2026
 
-Suprimidos pelo teto (viram linha do Fechamento): E05-MMM-4b02ef0a17-2026-11-09 (teto de noticias)
+Suprimidos pelo teto (viram linha do Fechamento): E05-MRVL-777f4f2033-2026-11-16 (teto de noticias), E05-KO-0ff0914f0b-2026-11-16 (teto de noticias), E05-DI-6c4be7f64a-2026-11-16 (teto de noticias)
 
 Alertas do dia (todos, com status):
-· pendente  E05 ITSA4 — ITSA4 · Itaúsa tem lucro líquido recorrente de R$5,1 bi no 3º tri
-· pendente  E05 MU — MU · Micron Rises 6% as Bulls Tout Its Bargain Valuation and Buyback Firepower; 
-· pendente  E05 USDBRL — USDBRL · Dólar recua a R$ 5,50, com projeção de inflação e balança comercial no 
-· pendente  E05 PETR4 — PETR4 · Petrobras (PETR4) reina nas carteiras de dividendos; novo plano pode tra
-· pendente  E05 AVGO — AVGO · Broadcom Stocks Jump 8.21% as Investors Eye $21.7 Billion AI Revenue Guid
-· pendente  E05 DI — DI · Mercado eleva projeção da Selic para 13,75% em 2026
-· (+39 notícias só manchete, em noticias.md)
+· pendente  E05 TSM — TSM · INTW 2X Intel ETF Tumbles 13% as Intel Drops Amid Shareholder Lawsuit and 
+· pendente  E05 NVDA — NVDA · Nasdaq 100 Plunges as Nvidia Earnings, Anthropic IPO on Horizon
+· pendente  E05 PETR4 — PETR4 · Petrobras: mercado projeta investimentos maiores e dividendos acima de U
+· (+19 notícias só manchete, em noticias.md)
 
