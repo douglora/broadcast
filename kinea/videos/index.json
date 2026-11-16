@@ -1,10 +1,36 @@
 {
- "gerado_em": "2026-11-12T19:14:07Z",
+ "gerado_em": "2026-11-16T22:58:07Z",
  "canal": "https://www.youtube.com/@KineaInvestimentos",
  "listagem": "yt-dlp",
  "fora_do_tema": 0,
  "fonte": "YouTube (legenda publicada pelo proprio YouTube; a automatica e transcricao de maquina e pode errar nome proprio)",
  "videos": [
+  {
+   "id": "gl-tsZJe-WA",
+   "titulo": "IA na descoberta de medicamentos | Resumo Kinea Insights",
+   "aba": "videos",
+   "url": "https://www.youtube.com/watch?v=gl-tsZJe-WA",
+   "data": "2026-11-14",
+   "descricao": "IA na descoberta de medicamentos: analisamos como essa tecnologia transforma a pesquisa e pode criar oportunidades de investimento. Neste Resumo Kinea Insights, explicamos como a inteligência artificial ajuda a compreender alvos de doenças, selecionar moléculas promissoras e aperfeiçoar candidatos a novos tratamentos. Com o exemplo de uma chave e uma fechadura, mostramos o papel de modelos como o AlphaFold e por que os avanços no computador ainda precisam ser comprovados no laboratório e nos testes em humanos. Desenvolver um medicamento continua sendo um processo longo, caro e sujeito a falhas, e acelerar as primeiras etapas não garante a aprovação de novos remédios. É nessa diferença entre descoberta e comprovação que apresentamos nossa tese de investimento: mais moléculas candidatas podem ampliar a demanda por equipamentos e reagentes utilizados nas ciências da vida. Discutimos por que essa infraestrutura pode se beneficiar do avanço da biotecnologia, enquanto os resultados para as empresas que desenvolvem medicamentos permanecem incertos. \n\nAssista ao vídeo Kinea Insights - IA, Biotecnologia e a luta para derrotar a morte - O Sétimo Selo: https://youtu.be/CiaBjk0LC5s\n\nPara ler este conteúdo, acesse o blog da Kinea em: https://www.kinea.com.br/blog/kinea-insights-a-bela-adormecida/\n\nAcesse a comunidade da Kinea no Whatsapp e fique por dentro de tudo: https://kinea.me/3KrOUkb  \n\nCadastre-se em nossa newsletter e receba as informações da Kinea em primeira mão: https://www.kinea.com.br/newsletter/\n\nAcesse as redes da Kinea e fique por dentro das novidades, clicando aqui: https://linktr.ee/kineainvestimentos\n\nMais informações sobre os fundos Kinea em: https://www.kinea.com.br/",
+   "coleta": 2,
+   "duracao_min": null,
+   "capitulos": [],
+   "ao_vivo": false,
+   "erro": "painel: painel: get_transcript HTTP 400, 0 trechos | yt-dlp: nenhuma legenda listada | audio: padrao: DownloadError: ERROR: [youtube] gl-tsZJe-WA: Faça login para confirmar que você não é um bot. Isso ajuda a proteger nossa comunidade"
+  },
+  {
+   "id": "CiaBjk0LC5s",
+   "titulo": "IA, Biotecnologia e a luta para derrotar a morte | Kinea Insights - O Sétimo Selo",
+   "aba": "videos",
+   "url": "https://www.youtube.com/watch?v=CiaBjk0LC5s",
+   "data": "2026-11-12",
+   "descricao": "Entenda como a revolução da inteligência artificial aplicada à biotecnologia está transformando a descoberta de novos medicamentos e a medicina moderna, unindo avanços como AlphaFold, modelagem computacional e triagem virtual para acelerar testes clínicos e buscar a cura de doenças complexas. Neste episódio do Kinea Insights, nossa equipe analisa o impacto prático dessa convergência na longevidade e qualidade de vida humana, além de detalhar a tese e a cadeia de investimentos do setor, destacando oportunidades em empresas de Life Science Tools, equipamentos laboratoriais e pesquisa farmacêutica global.\n\nPor Ruy Alves, Sócio e Gestor de Investimentos, Leandro Souza, Head de Research de Ações, Guilherme Amaral, Analista de ações e Mariana Campos, analista de ações da Kinea.\n\nNeste vídeo: \n00:00 - Introdução: inteligência artificial e biotecnologia\n00:50 - A metáfora de O Sétimo Selo e a busca pela longevidade\n01:33 - Breve histórico da indústria farmacêutica e o surgimento da biotecnologia\n03:22 - O ciclo tradicional de descoberta de medicamentos e onde a IA atua\n04:18 - O conceito de chave e fechadura: alvos, moléculas e triagem virtual\n06:05 - Otimização, testes químicos (ADMET) e redução do tempo pré-clínico\n07:28 - Desafios dos testes clínicos em humanos e a complexidade biológica\n11:23 - Como o AlphaFold revolucionou a identificação 3D de proteínas\n14:18 - O impacto na cadeia de investimentos: o que são Life Science Tools\n15:40 - Empresas do setor: Thermo Fisher, Revvity, IQVIA e Illumina\n17:11 - Aumento da probabilidade de sucesso e retorno sobre P&D\n18:37 - Estudo de caso: IA desenhando antídotos na prática\n20:46 - Da computação para a vida real: impactos na sociedade e conclusões\n\n#InteligenciaArtificial #Biotecnologia #Investimentos #MercadoFinanceiro #KineaInsights\n\nPara ler este conteúdo, acesse o blog da kinea em: https://www.kinea.com.br/blog/kinea-insights-o-setimo-selo/\n\nAcesse a comunidade da Kinea no Whatsapp e fique por dentro de tudo: https://kinea.me/3KrOUkb  \n\nCadastre-se em nossa newsletter e receba as informações da Kinea em primeira mão: https://www.kinea.com.br/newsletter/\n\nAcesse as redes da Kinea e fique por dentro das novidades, clicando aqui: https://linktr.ee/kineainvestimentos\n\nMais informações sobre os fundos Kinea em: https://www.kinea.com.br/",
+   "coleta": 2,
+   "duracao_min": null,
+   "capitulos": [],
+   "ao_vivo": false,
+   "erro": "painel: painel: get_transcript HTTP 400, 0 trechos | yt-dlp: nenhuma legenda listada | audio: padrao: DownloadError: ERROR: [youtube] CiaBjk0LC5s: Faça login para confirmar que você não é um bot. Isso ajuda a proteger nossa comunidade"
+  },
   {
    "id": "8uLfYCU3ge8",
    "titulo": "Por dentro da escola: Visita com Kinea na Aedifica | Investida do Kinea Equity Infra",
@@ -69,32 +95,6 @@
    "capitulos": [],
    "ao_vivo": false,
    "erro": "painel: painel: get_transcript HTTP 400, 0 trechos | yt-dlp: nenhuma legenda listada | audio: padrao: DownloadError: ERROR: [youtube] 1d1-ccTJ4dw: Faça login para confirmar que você não é um bot. Isso ajuda a proteger nossa comunidade"
-  },
-  {
-   "id": "4MsKbD06rtY",
-   "titulo": "As dificuldades práticas de um ajuste fiscal ambicioso | Kinea Insights - A Bela Adormecida",
-   "aba": "videos",
-   "url": "https://www.youtube.com/watch?v=4MsKbD06rtY",
-   "data": "2026-10-13",
-   "descricao": "Neste episódio do Kinea Insights, analisamos os principais desafios e as dificuldades práticas de implementar um ajuste fiscal ambicioso no Brasil. Entenda como o equilíbrio das contas públicas, os gastos governamentais e as decisões de política fiscal impactam diretamente o cenário macroeconômico, a inflação, a taxa de juros (Selic) e as perspectivas para os seus investimentos e o mercado financeiro.\n\nPor Ruy Alves, Sócio e Gestor de Investimentos, André Diniz, Economista Chefe e Daniela Lima, Economista Chefe Brasil.\n\nPara ler este conteúdo, acesse o blog da kinea em: https://www.kinea.com.br/blog/kinea-insights-a-bela-adormecida/\n\n0:00 - Introdução e contexto macroeconômico\n02:15 - O cenário atual das contas públicas no Brasil\n06:40 - O que seria um ajuste fiscal ambicioso?\n12:10 - Principais entraves e dificuldades práticas\n18:30 - Impactos na inflação e na taxa Selic\n23:50 - Perspectivas para o mercado financeiro e investimentos\n28:15 - Conclusão e considerações finais\n\nAcesse a comunidade da Kinea no Whatsapp e fique por dentro de tudo: https://kinea.me/3KrOUkb  \n\nCadastre-se em nossa newsletter e receba as informações da Kinea em primeira mão: https://www.kinea.com.br/newsletter/\n\nAcesse as redes da Kinea e fique por dentro das novidades, clicando aqui: https://linktr.ee/kineainvestimentos\n\nMais informações sobre os fundos Kinea em: https://www.kinea.com.br/",
-   "coleta": 2,
-   "duracao_min": null,
-   "capitulos": [],
-   "ao_vivo": false,
-   "erro": "painel: painel: get_transcript HTTP 400, 0 trechos | yt-dlp: nenhuma legenda listada | audio: padrao: DownloadError: ERROR: [youtube] 4MsKbD06rtY: Faça login para confirmar que você não é um bot. Isso ajuda a proteger nossa comunidade"
-  },
-  {
-   "id": "9lasMCOB6Ic",
-   "titulo": "Como a Governabilidade Destrava o Mercado | Corte da Live Economia e Mercados - Ref. Set/26",
-   "aba": "videos",
-   "url": "https://www.youtube.com/watch?v=9lasMCOB6Ic",
-   "data": "2026-10-10",
-   "descricao": "Assista a live na íntegra: https://youtube.com/live/2Hkb9GcGwV8\n\nReceba a apresentação utilizada na live: https://www.kinea.com.br/livemensal/\n\nAcesse a comunidade da Kinea no Whatsapp e fique por dentro de todos os conteúdos da Kinea: https://kinea.me/3KrOUkb\n\nMais informações sobre os fundos Kinea em: https://www.kinea.com.br/\n\nSiga a Kinea no Linkedin: https://www.linkedin.com/company/kinea-investimentos/\n\nCadastre-se em nossa newsletter e receba as informações da Kinea em primeira mão: https://www.kinea.com.br/newsletter/\n\nMais informações sobre os fundos multimercados Kinea em:\nKinea Atlas (II): https://www.kinea.com.br/fundos/fundo-multimercado-atlas-ii/\nKinea Chronos: https://www.kinea.com.br/fundos/fundo-multimercado-chronos/\nKinea Apolo: https://www.kinea.com.br/fundos/fundo-multimercado-apolo/\nKinea Prev XTR: https://www.kinea.com.br/fundos/prev-xtr/\nKinea Prev MM: https://www.kinea.com.br/fundos/prev/\nKinea Prev Apolo: https://www.kinea.com.br/fundos/kinea-prev-apolo-itau/\n\nFale com a equipe Kinea para tirar dúvidas e saber mais sobre oportunidades de investimento:\nhttps://www.kinea.com.br/fale-conosco/\nrelacionamento@kinea.com.br",
-   "coleta": 2,
-   "duracao_min": null,
-   "capitulos": [],
-   "ao_vivo": false,
-   "erro": "painel: painel: get_transcript HTTP 400, 0 trechos | yt-dlp: nenhuma legenda listada | audio: padrao: DownloadError: ERROR: [youtube] 9lasMCOB6Ic: Faça login para confirmar que você não é um bot. Isso ajuda a proteger nossa comunidade"
   },
   {
    "id": "5vkhf-BhJlg",
@@ -425,6 +425,6 @@
   }
  ],
  "log": [
-  "parei em kvh6MnqHKAY: 6 videos seguidos sem legenda por erro do YouTube"
+  "parei em tpHBNW5ZLCc: 6 videos seguidos sem legenda por erro do YouTube"
  ]
 }
