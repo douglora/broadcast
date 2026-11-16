@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 16/11 18h02
+NOTÍCIAS E FATOS · 16/11 19h49
 
-Pernas: noticias ok 21 novas (18 consultas; descartadas: 268 veículo fora da lista, 20 sem ativo, 58 teto); 6 falhas · cvm ok 1 novos de 4 (2 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 15 novas (18 consultas; descartadas: 228 veículo fora da lista, 20 sem ativo, 0 teto); 6 falhas · cvm ok 0 novos de 4 (2 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (1)
 
@@ -14,7 +14,18 @@ Fonte: CVM 16/11
 id: E03-MRVE3-1589809-2026-11-16 · status: linha
 
 
-## NOTÍCIAS COM MATERIALIDADE (6)
+## NOTÍCIAS COM MATERIALIDADE (7)
+
+[ATENÇÃO] E05 · SBSP3 · Arsesp multa Sabesp em R$ 700 mil por crise da água em Itapeva
+g1 · 16/11 15h12 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Arsesp multa Sabesp em R$ 700 mil por crise da água em Itapeva     A Arsesp multou a Sabesp em R$ 700 mil por causa da crise da água em Itapeva (SP), onde quatro bairros mais altos seguem sem abastecimento.
+Link: https://g1.globo.com/google/amp/sp/sorocaba-jundiai/videos-tem-noticias-1-edicao/video/arsesp-multa-sabesp-em-r-700-mil-por-crise-da-agua-em-itapeva-15192717.ghtml
+Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e prazo
+Ativos: SBSP3
+Como falar: 'saiu no g1: Arsesp multa Sabesp em R$ 700 mil por crise da água em Itapeva; confirmar o número no texto antes de repassar'
+Fonte: g1 16/11 15h12
+id: E05-SBSP3-6127b3f32f-2026-11-16 · status: pendente
 
 [ATENÇÃO] E05 · TSM · INTW 2X Intel ETF Tumbles 13% as Intel Drops Amid Shareholder Lawsuit and AI Chip Selloff; Taiwan Semiconductor Falls 5%
 Yahoo Finance · 16/11 17h03 · fonte única · licença: resumo
@@ -92,8 +103,22 @@ Fonte: InfoMoney 16/11 08h36
 id: E05-DI-6c4be7f64a-2026-11-16 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (15)
+## OUTRAS NOTÍCIAS (só manchete) (29)
 
+· USDBRL Dólar salta e fecha em R$ 5,77 com temor fiscal; bolsa cai e juros sobem (CNN Brasil) https://www.cnnbrasil.com.br/economia/money/mercado/mercado-financeiro-ibovespa-dolar-16-novembro-2026/
+· VALE3 Ibovespa perde mais de 3 mil pontos em um dia; dólar dispara e Vale (VALE3) afunda 4% (Suno Noticias) https://www.suno.com.br/noticias/ibovespa-vale-vale3-dolar-fiscal/
+· USDBRL Moedas Globais: força do dólar segue e DXY sobe a maior nível desde Dia da Libertação (InfoMoney) https://www.infomoney.com.br/mercados/moedas-globais-forca-do-dolar-segue-e-dxy-sobe-a-maior-nivel-desde-dia-da-libertacao/
+· USDBRL Por que o dólar ultrapassou os R$ 5,77 nesta segunda? (InfoMoney) https://www.infomoney.com.br/mercados/por-que-dolar-sobe-nesta-segunda/
+· USDBRL Dólar hoje sobe 2% e vai a R$ 5,77, maior valor desde abril de 2025, com risco fiscal (InfoMoney) https://www.infomoney.com.br/mercados/dolar-hoje-avanca-com-dados-domesticos-e-politica-fiscal-em-foco/
+· SBSP3 Sabesp (SBSP3) é a favorita entre analistas nas carteiras ESG; veja outras apostas (Seu Dinheiro) https://www.seudinheiro.com/2026/bolsa-dolar/sabesp-sbsp3-e-a-favorita-entre-analistas-nas-carteiras-esg-veja-outras-apostas-cbcb/
+· AXIA3 Axia recebe autorização para revogar outorga de térmica em Roraima (UOL Economia) https://megawhat.uol.com.br/destaques-do-diario/axia-recebe-autorizacao-para-revogar-outorga-de-termica-em-roraima/
+· DI A curva de juros vai matar muita gente no meio do caminho, diz CEO da BrasilAgro (AGRO3) (Money Times) https://www.moneytimes.com.br/a-curva-de-juros-vai-matar-muita-gente-no-meio-do-caminho-diz-ceo-da-brasilagro-agro3/
+· AXIA3 AXIA Energia (AXIA3) vence leilão de energia existente da CCEE (Suno Noticias) https://www.suno.com.br/noticias/axia3-axia-energia-leilao-energia-161126-go/
+· AXIA3 Axia Energia conquista contratos de R$ 2,71 bilhões em leilão de energia e garante fornecimento até 2028 (ADVFN) https://br.advfn.com/jornal/2026/11/axia-energia-conquista-contratos-de-r-2-71-bilhoes-em-leilao-de-energia-e-garante-fornecimento-ate-2028
+· AXIA3 Cosan, GPA, Casas Bahia, Axia e mais ações para acompanhar nesta segunda-feira (InfoMoney) https://www.infomoney.com.br/mercados/cosan-gpa-casas-bahia-axia-e-mais-acoes-para-acompanhar-nesta-segunda-feira/
+· AXIA3 Axia (AXIA3) arremata 540 MW médios em leilão e fecha contratos de R$ 2,7 bilhões (InfoMoney) https://www.infomoney.com.br/mercados/axia-axia3-arremata-540-mw-medios-em-leilao-e-fecha-contratos-de-r-27-bilhoes/
+· MINERIO Chinese Iron Ore Futures Hit Four-Year Low on Weak Steel Outlook (Bloomberg) https://www.bloomberg.com/news/articles/2026-11-16/chinese-iron-ore-futures-hit-four-year-low-on-weak-steel-outlook
+· MINERIO Australia Warns China Iron Ore Push Could Breach Trade Rules (Bloomberg) https://www.bloomberg.com/news/articles/2026-11-15/australia-warns-china-iron-ore-push-could-breach-trade-rules
 · NVDA Bitcoin risks falling below $60,000 as Nvidia earnings threaten to deepen crypto sell-off (CoinDesk) https://www.coindesk.com/markets/2026/11/16/bitcoin-risks-falling-below-usd60-000-as-nvidia-earnings-threaten-to-deepen-crypto-sell-off
 · USDBRL Dólar à vista fecha em alta de 2,13%, a R$5,7770 na venda Por Reuters (Investing.com) https://br.investing.com/news/forex-news/dolar-a-vista-fecha-em-alta-de-213-a-r57770-na-venda-2128784
 · UST Treasury Yields Fall, German Bunds’ Tick Higher (The Wall Street Journal) https://www.wsj.com/finance/investing/u-s-treasury-yields-decline-but-fed-rate-hike-prospects-in-focus-1257629b

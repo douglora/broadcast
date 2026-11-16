@@ -1,14 +1,5 @@
 ALERTAS · eventos
 
-(pendente de slot anterior) [ATENÇÃO] E05 · MINERIO · Goldman cuts iron ore price target on China steel demand
-Investing.com · 13/11 10h20 · fonte única · licença: manchete
-Link: https://www.investing.com/news/commodities-news/goldman-cuts-iron-ore-price-target-on-china-steel-demand-93CH-5025364
-Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
-Ativos: MINERIO
-Como falar: 'saiu no Investing.com: Goldman cuts iron ore price target on China steel demand; confirmar o número no texto antes de repassar'
-Fonte: Investing.com 13/11 10h20
-ids: E05-MINERIO-2c9c87b3ec-2026-11-13
-
 (pendente de slot anterior) [ATENÇÃO] E05 · GOOGL · Alphabet (GOOGL) Faces Uber Deal Talk, Space Chip Test And €1.66 Billion Fine
 Yahoo Finance · 13/11 18h10 · fonte única · licença: resumo
 Trechos (licença resumo: reescrever, não colar):
@@ -34,7 +25,7 @@ Como falar: 'saiu no Barron's: 4 Takeaways From Dario Amodei’s Anthropic IPO C
 Fonte: Barron's 13/11 17h28
 ids: E05-JPM-bffd95625e-2026-11-13
 
-[ATENÇÃO] E05 · TSM · INTW 2X Intel ETF Tumbles 13% as Intel Drops Amid Shareholder Lawsuit and AI Chip Selloff; Taiwan Semiconductor Falls 5%
+(pendente de slot anterior) [ATENÇÃO] E05 · TSM · INTW 2X Intel ETF Tumbles 13% as Intel Drops Amid Shareholder Lawsuit and AI Chip Selloff; Taiwan Semiconductor Falls 5%
 Yahoo Finance · 16/11 17h03 · fonte única · licença: resumo
 Trechos (licença resumo: reescrever, não colar):
   – Quick Read - Intel's 6% slide on a class action and AI chip selloff crushed INTW 13%, as daily resets leave the 2x fund down 75% in a month.
@@ -48,10 +39,9 @@ Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e 
 Ativos: TSM · INTC
 Como falar: 'saiu no Yahoo Finance: INTW 2X Intel ETF Tumbles 13% as Intel Drops Amid Shareholder Lawsuit and AI Chip Selloff…; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 16/11 17h03
-Push: eventos: 3 alertas de atenção — E05 TSM, E05 NVDA, E05 PETR4 · detalhe na sessão
 ids: E05-TSM-8cc9582431-2026-11-16
 
-[ATENÇÃO] E05 · NVDA · Nasdaq 100 Plunges as Nvidia Earnings, Anthropic IPO on Horizon
+(pendente de slot anterior) [ATENÇÃO] E05 · NVDA · Nasdaq 100 Plunges as Nvidia Earnings, Anthropic IPO on Horizon
 Bloomberg · 16/11 16h56 · fonte única · licença: manchete
 Link: https://www.bloomberg.com/news/articles/2026-11-16/nasdaq-100-plunges-as-nvidia-earnings-anthropic-ipo-on-horizon
 Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
@@ -60,7 +50,7 @@ Como falar: 'saiu no Bloomberg: Nasdaq 100 Plunges as Nvidia Earnings, Anthropic
 Fonte: Bloomberg 16/11 16h56
 ids: E05-NVDA-7a34897346-2026-11-16
 
-[ATENÇÃO] E05 · PETR4 · Petrobras: mercado projeta investimentos maiores e dividendos acima de US$ 60 bilhões no novo plano estratégico
+(pendente de slot anterior) [ATENÇÃO] E05 · PETR4 · Petrobras: mercado projeta investimentos maiores e dividendos acima de US$ 60 bilhões no novo plano estratégico
 ADVFN · 16/11 16h21 · fonte única · licença: manchete
 Link: https://br.advfn.com/jornal/2026/11/petrobras-mercado-projeta-investimentos-maiores-e-dividendos-acima-de-us-60-bilhoes-no-novo-plano-estrategico
 Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
@@ -69,31 +59,38 @@ Como falar: 'saiu no ADVFN: Petrobras: mercado projeta investimentos maiores e d
 Fonte: ADVFN 16/11 16h21
 ids: E05-PETR4-9996b94ca2-2026-11-16
 
-Info (só linha no Fechamento):
-· E03 MRVE3 · Comunicado ao Mercado: Apresentações a analistas/agentes do mercado
-· E05 NVDA · Bitcoin risks falling below $60,000 as Nvidia earnings threaten to deepen crypto sell-off
-· E05 USDBRL · Dólar à vista fecha em alta de 2,13%, a R$5,7770 na venda Por Reuters
-· E05 UST · Treasury Yields Fall, German Bunds’ Tick Higher
-· E05 USDBRL · Dólar à vista fecha no maior valor em mais de 18 meses com incertezas fiscais no Brasil
-· E05 TSLA · Tesla: Wall Street Keeps Getting It Wrong, And The Price Is Still Too High (Rating Downgrade)
-· E05 TSLA · Tesla's Cybercab Comes With a Monthly Catch
-· E05 NVDA · US Moves to Curb Remote Access to Nvidia’s Advanced AI Chips
-· E05 VALE3 · Vale (VALE3): ações caem 4% com minério na mínima em 16 meses
-· E05 NVDA · Broadcom Is Better Positioned Than AMD As Nvidia Struggles (NASDAQ:AMD)
-· E05 VALE3 · Viridis recebe US$ 5 mi de fundo apoiado por Vale e BNDESPar
-· E05 NVDA · Watch Nvidia’s Defining Week: CEO Search, Earnings and China
-· E05 NVDA · Market's Nvidia obsession obscuring an opportunity in this name
-· E05 DI · Mercado precifica possibilidade de alta de juros em dezembro e Selic de 15,50% em 2027
-· E05 INTC · Intel Stocks Drop 6.13% as Shareholder Suit Targets PC Slump Disclosures
-· E05 NVDA · Nvidia Stock Falls Again. It Doesn’t Need a Jensen Huang Comeback to Thrive.
-· E05 MRVL · Lumentum Stocks Sink 8.32% as Marvell Slide Shrinks Deal Value Below $660
-· E05 KO · Coca-Cola Has Crushed PepsiCo in 2026, but Retirement Investors Face a Different Dividend Decision
-· E05 DI · Focus eleva projeção de inflação e Selic para 2027, mas corta IPCA em 2026
+[ATENÇÃO] E05 · SBSP3 · Arsesp multa Sabesp em R$ 700 mil por crise da água em Itapeva
+g1 · 16/11 15h12 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Arsesp multa Sabesp em R$ 700 mil por crise da água em Itapeva     A Arsesp multou a Sabesp em R$ 700 mil por causa da crise da água em Itapeva (SP), onde quatro bairros mais altos seguem sem abastecimento.
+Link: https://g1.globo.com/google/amp/sp/sorocaba-jundiai/videos-tem-noticias-1-edicao/video/arsesp-multa-sabesp-em-r-700-mil-por-crise-da-agua-em-itapeva-15192717.ghtml
+Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e prazo
+Ativos: SBSP3
+Como falar: 'saiu no g1: Arsesp multa Sabesp em R$ 700 mil por crise da água em Itapeva; confirmar o número no texto antes de repassar'
+Fonte: g1 16/11 15h12
+Push: [ATENÇÃO] SBSP3 · Arsesp multa Sabesp em R$ 700 mil por crise da água  · detalhe na sessão
+ids: E05-SBSP3-6127b3f32f-2026-11-16
 
-Suprimidos pelo teto (viram linha do Fechamento): E05-MRVL-777f4f2033-2026-11-16 (teto de noticias), E05-KO-0ff0914f0b-2026-11-16 (teto de noticias), E05-DI-6c4be7f64a-2026-11-16 (teto de noticias)
+Info (só linha no Fechamento):
+· E05 USDBRL · Dólar salta e fecha em R$ 5,77 com temor fiscal; bolsa cai e juros sobem
+· E05 VALE3 · Ibovespa perde mais de 3 mil pontos em um dia; dólar dispara e Vale (VALE3) afunda 4%
+· E05 USDBRL · Moedas Globais: força do dólar segue e DXY sobe a maior nível desde Dia da Libertação
+· E05 USDBRL · Por que o dólar ultrapassou os R$ 5,77 nesta segunda?
+· E05 USDBRL · Dólar hoje sobe 2% e vai a R$ 5,77, maior valor desde abril de 2025, com risco fiscal
+· E05 SBSP3 · Sabesp (SBSP3) é a favorita entre analistas nas carteiras ESG; veja outras apostas
+· E05 AXIA3 · Axia recebe autorização para revogar outorga de térmica em Roraima
+· E05 DI · A curva de juros vai matar muita gente no meio do caminho, diz CEO da BrasilAgro (AGRO3)
+· E05 AXIA3 · AXIA Energia (AXIA3) vence leilão de energia existente da CCEE
+· E05 AXIA3 · Axia Energia conquista contratos de R$ 2,71 bilhões em leilão de energia e garante fornecimento até 2028
+· E05 AXIA3 · Cosan, GPA, Casas Bahia, Axia e mais ações para acompanhar nesta segunda-feira
+· E05 AXIA3 · Axia (AXIA3) arremata 540 MW médios em leilão e fecha contratos de R$ 2,7 bilhões
+· E05 MINERIO · Chinese Iron Ore Futures Hit Four-Year Low on Weak Steel Outlook
+· E05 MINERIO · Australia Warns China Iron Ore Push Could Breach Trade Rules
+
 
 Alertas do dia (todos, com status):
+· pendente  E05 SBSP3 — SBSP3 · Arsesp multa Sabesp em R$ 700 mil por crise da água em Itapeva
 · pendente  E05 TSM — TSM · INTW 2X Intel ETF Tumbles 13% as Intel Drops Amid Shareholder Lawsuit and 
 · pendente  E05 NVDA — NVDA · Nasdaq 100 Plunges as Nvidia Earnings, Anthropic IPO on Horizon
 · pendente  E05 PETR4 — PETR4 · Petrobras: mercado projeta investimentos maiores e dividendos acima de U
-· (+19 notícias só manchete, em noticias.md)
+· (+33 notícias só manchete, em noticias.md)
