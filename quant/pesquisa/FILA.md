@@ -39,10 +39,12 @@ metodo em quant/saida/pesquisa5/BRIEF.md) e move a linha para "Testadas" com os 
    menos de 4, sem conclusao antes de 120 pregoes; (c) quantos dias a TIR foi recusada (`quant/saida/terminal/tir_checagens.jsonl`) e quantos
    papeis ficaram sem TIR, e por que.
 
-
-28. [revisao: d:reversão do dado:arrasto 15] A saida 'arrasto 15' rende mais que a congelada na reversao do dado: repetir o teste das saidas com os pregoes novos. Apareceu em 3 pregoes (2026-10-27, 2026-11-10, 2026-11-17). Teste: lab.avaliar na descoberta (10/2021-12/2024) com a regra congelada e o filtro/saida da hipotese; candidata (t >= 3, n >= 200, 5 de 7 semestres) vai a validacao (2025); 2026 nao escolhe parametro. So muda a regra se passar e com o 'pode' do Douglas.
-
 ## Testadas
+- 17/11/2026, tarde: item 28 ([revisao: arrasto 15 na reversao do dado], reaberto pela revisao em 17/11 com o terceiro pregao) fechado SEM teste novo: ja foi
+  testado em 10/11 na descoberta (10/2021-12/2024, 338 negocios): saida congelada +R$ 100,29 por negocio (t 3,27, 7 de 7 semestres) contra 'arrasto 15' +R$ 4,13
+  (t 0,23, 3 de 7 semestres); como a descoberta e a mesma, repetir daria o mesmo numero. O dia 17/11 (+R$ 215, percentil 62; arrasto teria dado +R$ 645) esta dentro
+  da distribuicao. Regra inalterada. Outros itens (7, 8, 9, 10, 12, 14, 15, 16) seguem esperando dado novo ou sao prova viva (indice fim do dia original 23 negocios,
+  +R$ 57, t 1,7; variante adaptativa 17, -R$ 63; abaixo de 60; reversao do dado 5 negocios, -R$ 217). Pregao de 17/11: 1 negocio (+R$ 215); Mac dormiu 27 minutos (10h41-11h14), defeito de fora, so relatado. Nenhuma tentativa nova (METODO: parar em vez de forcar).
 - 13/11/2026, tarde: nenhuma hipotese testavel; 7, 8, 9, 10, 12, 14, 15 e 16 seguem esperando dado novo ou sao prova viva. Nao ha item "[revisao: ...]"
   aberto. Pregao de 13/11: robo sem negocio; so medidos: nivel e reacao 21 sinais (+R$ 49), climax 3 (-R$ 226). Prova viva rodou: indice fim do dia original 21 negocios (+R$ 69, t 2,0), variante adaptativa 17 (-R$ 63), abaixo de 60; reversao do dado 4 negocios (-R$ 332). Painel de opcoes regravado (cadeia de 12/11). Nenhuma tentativa nova (METODO: parar em vez de forcar).
 - 12/11/2026, tarde: nenhuma hipotese testavel; 7, 8, 9, 10, 12, 14, 15 e 16 seguem esperando dado novo ou sao prova viva. Nao ha item "[revisao: ...]"
