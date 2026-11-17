@@ -1,4 +1,4 @@
-ALERTAS · intradia
+ALERTAS · eventos
 
 (pendente de slot anterior) [CRÍTICO] T08 · MU entrou em queda de -40% do pico: -41% do pico de 52s (US$ 1.214 em 25/06) a US$ 719,02
 1m -18% · 6m +5,5% · 12m +192%
@@ -8,17 +8,6 @@ Como falar: 'o cliente sente a queda no extrato; a conversa é sobre a tese, nã
 Anula/Confirma: rearma acima de -35% do pico
 Fonte: Yahoo Finance fech. 16/11
 ids: T08-MU--40-2026-11-16
-
-(pendente de slot anterior) [ATENÇÃO] E05 · SBSP3 · Arsesp multa Sabesp em R$ 700 mil por crise da água em Itapeva
-g1 · 16/11 15h12 · fonte única · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – Arsesp multa Sabesp em R$ 700 mil por crise da água em Itapeva     A Arsesp multou a Sabesp em R$ 700 mil por causa da crise da água em Itapeva (SP), onde quatro bairros mais altos seguem sem abastecimento.
-Link: https://g1.globo.com/google/amp/sp/sorocaba-jundiai/videos-tem-noticias-1-edicao/video/arsesp-multa-sabesp-em-r-700-mil-por-crise-da-agua-em-itapeva-15192717.ghtml
-Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e prazo
-Ativos: SBSP3
-Como falar: 'saiu no g1: Arsesp multa Sabesp em R$ 700 mil por crise da água em Itapeva; confirmar o número no texto antes de repassar'
-Fonte: g1 16/11 15h12
-ids: E05-SBSP3-6127b3f32f-2026-11-16
 
 (pendente de slot anterior) [ATENÇÃO] CURVA · C05 Pre 2029 ABRE 24 bps (PU -0,4%) (base 16/11) / C07 UST FECHOU: 10y +26 bps em 5 pregões (16/11) / C03 Prefixado em nível: Pre 2029 cruzou 15,00% (agora 15,09%)
 TD Pre 2029 15,09 (+24) · IPCA+ 2032 7,86 (+13) PU -0,6% · IPCA+ 2040 7,50 (+1) · IPCA+ 2050 7,50 (-1) · Pre 2032 15,46 (+14) PU -0,6%
@@ -88,7 +77,7 @@ Como falar: 'saiu no Yahoo Finance: Wall Street Traders Bet That Bitcoin Will Fa
 Fonte: Yahoo Finance 16/11 10h33
 ids: E05-BTC-a3fc375781-2026-11-16
 
-[ATENÇÃO] E04 · JPM · 8-K: 5.02 entrada ou saida de diretor ou conselheiro
+(pendente de slot anterior) [ATENÇÃO] E04 · JPM · 8-K: 5.02 entrada ou saida de diretor ou conselheiro
 SEC EDGAR · aceito 17/11 10h00 · 8-K
 Do documento:
   – 20549   FORM 8-K   CURRENT REPORT   Pursuant to Section 13 or 15(d) of the Securities Exchange Act of 1934   Date of Report (date of earliest event reported): November 17, 2026   JPMorgan Chase & Co .
@@ -101,10 +90,9 @@ Por que importa: troca de diretor ou conselheiro reabre a discussao de estrategi
 Ativos: JPM
 Como falar: 'a JPM protocolou 8-K na SEC (5.02 entrada ou saida de diretor ou conselheiro)'
 Fonte: SEC EDGAR 2026-11-17
-Push: intradia: 4 alertas de atenção — E04 JPM, E05 BTC, E05 KO, E05 PETR4 · detalhe na sessão
 ids: E04-JPM-26000407-2026-11-17
 
-[ATENÇÃO] E05 · BTC · Wall Street Investors Slowly Get Back to Bitcoin After a $1.9 Billion Exit
+(pendente de slot anterior) [ATENÇÃO] E05 · BTC · Wall Street Investors Slowly Get Back to Bitcoin After a $1.9 Billion Exit
 Yahoo Finance · 17/11 15h07 · fonte única · licença: resumo
 Trechos (licença resumo: reescrever, não colar):
   – The funds took in $7.99 million after a seven-day run in which $1.91 billion left.
@@ -120,7 +108,7 @@ Como falar: 'saiu no Yahoo Finance: Wall Street Investors Slowly Get Back to Bit
 Fonte: Yahoo Finance 17/11 15h07
 ids: E05-BTC-fbed08ad82-2026-11-17
 
-[ATENÇÃO] E05 · KO · TD Cowen raises Coca-Cola stock price target on growth outlook
+(pendente de slot anterior) [ATENÇÃO] E05 · KO · TD Cowen raises Coca-Cola stock price target on growth outlook
 Investing.com · 17/11 13h46 · fonte única · licença: manchete
 Link: https://www.investing.com/news/analyst-ratings/td-cowen-raises-cocacola-stock-price-target-on-growth-outlook-93CH-5033065
 Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
@@ -129,7 +117,7 @@ Como falar: 'saiu no Investing.com: TD Cowen raises Coca-Cola stock price target
 Fonte: Investing.com 17/11 13h46
 ids: E05-KO-b600744e57-2026-11-17
 
-[ATENÇÃO] E05 · PETR4 · Petrobras: Citi corta preço-alvo e mantém visão neutra após 3T e alta de investimento
+(pendente de slot anterior) [ATENÇÃO] E05 · PETR4 · Petrobras: Citi corta preço-alvo e mantém visão neutra após 3T e alta de investimento
 InfoMoney · 17/11 13h18 · + ADVFN · licença: resumo
 Trechos (licença resumo: reescrever, não colar):
   – O banco cortou o preço-alvo da ação preferencial PETR4 de R$ 56 para R$ 48,00.
@@ -144,37 +132,72 @@ Como falar: 'saiu no InfoMoney: Petrobras: Citi corta preço-alvo e mantém vis�
 Fonte: InfoMoney 17/11 13h18
 ids: E05-PETR4-b4da342e6c-2026-11-17
 
-Info (só linha no Fechamento):
-· F01 Real cai: USD/BRL 5,7800 (+3,5% em 5 sessões) (parcial, intradia)
-· E05 BTC · Want to know what bitcoin is really worth? Check this chart.
-· E05 NVDA · Nvidia's earnings will be 'all about the non-financial aspects,' says Keybanc's John Vinh
-· E05 NVDA · Intel Stocks Fall 2.01% as Nvidia Cuts Stake 25% and Shareholders Sue
-· E05 NVDA · Nvidia Sold a Quarter of Its Intel Shares and More Than Half Its Nokia Stake. SpaceX Is Now Its Biggest Investment
-· E05 PETR4 · Petrobras entra no radar de risco do Citi: mais gastos podem pressionar dívida e dividendos
-· E05 PETR4 · BBA vê forte reajuste na gasolina e desafio para Petrobras cumprir política de preços
-· E05 NVDA · Amazon CEO Andy Jassy weighs in on data center buildout, Nvidia: Here's what you need to know
-· E05 NVDA · Nvidia’s interim CEO Colette Kress takes on export compliance as Washington turns up pressure
-· E05 NVDA · Why Fairlead's Katie Stockton thinks the market is oversold ahead of Nvidia's earnings
-· E05 NVDA · Why 'Shark Tank' star Kevin O'Leary wouldn't bring Jensen Huang back as Nvidia CEO
-· E05 BTC · Bitcoin Falls Below $70,000. Here's Where It Could Finish the Year
-· E05 AMD · AMD Stock Rises After Chip Deal Closes
-· E05 NVDA · Nvidia’s soap opera could be AMD’s big opportunity. Here’s why I’m buying
-· E05 UST · U.S. Treasury, Eurozone Bond Yields Edge Lower
-· E05 AMD · AMD: The Strong AI Contender Keeps Getting Better (NASDAQ:AMD)
-· E05 ITUB4 · Crédito deve seguir em desaceleração em 2027 com juros elevados e comprometimento de renda em patamar recorde, diz CEO do Itaú
-· E05 NVDA · Bitcoin Bears Target $60K As Nvidia Earnings, Anthropic IPO, Bond Yields And Fed Hike Odds Weigh On Crypto Recovery
+[ATENÇÃO] E04 · NVDA · 8-K: 2.02 resultado do trimestre
+SEC EDGAR · aceito 17/11 18h20 · 8-K
+Do documento:
+  – ☐   Item 2.02 Results of Operations and Financial Condition.
+  – On November 17, 2026, NVIDIA Corporation, or the Company, issued a press release announcing its results for the quarter ended October 25, 2026.
+  – The press release is attached as Exhibit 99.1 and is incorporated herein by reference.
+  – Attached hereto as Exhibit 99.2 and incorporated by reference herein is financial information and commentary by Colette M.
+  – Kress, Interim Chief Executive Officer, Executive Vice President and Chief Financial Officer of the Company, regarding results for the quarter ended October 25, 2026, or the CFO Commentary.
+  – Attached hereto as Exhibit 99.3 and incorporated by reference herein is supplemental financial information for the quarter ended October 25, 2026, or the Supplemental Financial Information.
+Link: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/nvda-20261117.htm
+Por que importa: resultado do trimestre reprecifica lucro, guidance e multiplo; comparar com o consenso
+Ativos: NVDA
+Como falar: 'a NVDA protocolou 8-K na SEC (2.02 resultado do trimestre)'
+Fonte: SEC EDGAR 2026-11-17
+Push: eventos: 3 alertas de atenção — E04 NVDA, E05 NVDA, E05 USDBRL · detalhe na sessão
+ids: E04-NVDA-26000088-2026-11-17
 
-Suprimidos pelo teto (viram linha do Fechamento): E05-ITUB4-edcf198837-2026-11-17 (teto de noticias), E05-NVDA-99b937f0c5-2026-11-17 (teto de noticias)
+[ATENÇÃO] E05 · NVDA · The Street Wants “$130 Billion in Revenue” From Nvidia’s Guidance Tonight. Options Price a Nearly 7% Move
+Yahoo Finance · 17/11 17h25 · fonte única · licença: manchete
+Link: https://news.google.com/rss/articles/CBMingFBVV95cUxQSl9UREdxSVBVUGVrZk00N3I1NHVBNWRkdDN2R2YwcUtXblN6aEFFcENuUmRldXg5MmZKRWZXTFJyMW5jd3B4UU9EQUFHbEtjSzNaLUVHWWR6WHh6cnFtUDVaTVJLMVA3Rkk3Qk5RaVlzZENQZ0FYMFhBQjRvaWFFTHcwUl8xRC01czhEUmloUDZWQVNQSk8yZUU0bDlLQQ?oc=5
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: NVDA
+Como falar: 'saiu no Yahoo Finance: The Street Wants “$130 Billion in Revenue” From Nvidia’s Guidance Tonight. Options Price…; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 17/11 17h25
+ids: E05-NVDA-81e0e5caac-2026-11-17
+
+[ATENÇÃO] E05 · USDBRL · Dólar fecha em R$ 5,78, novo recorde do ano, à espera de votação do 'plano Moretti'; Bolsa sobe
+Folha de S.Paulo · 17/11 09h48 · fonte única · licença: manchete
+Link: https://news.google.com/rss/articles/CBMi3wFBVV95cUxQWWFFank0UVNNUk1WT1IwSEJacjJrb3loRTc3SVRaMnl6SUd4aVFaS1JSZXIwU1dmXzV0azgzXzYwSHdQWWNEYjNYUHloNlV0bDhuTkdIODFMYWtGeHdva3hBQmg3YXNBWk9PNjBmc01xam5nbFZiUTZnYUF6R1h5WjFES3RhZTBQY0xKaXNNaENRWTQ4UERETUNzYlJ5b0Z5VEtmcURGaUtsdG45RnkzQ3J2TW91dFphN1dURHhCdWFjME9pSU9nRXZIbVh0OUw1ck5vNGtyOWZPeEZ5bjE4?oc=5
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: USDBRL
+Como falar: 'saiu no Folha de S.Paulo: Dólar fecha em R$ 5,78, novo recorde do ano, à espera de votação do 'plano Moretti'; Bols…; confirmar o número no texto antes de repassar'
+Fonte: Folha de S.Paulo 17/11 09h48
+ids: E05-USDBRL-857b458503-2026-11-17
+
+Info (só linha no Fechamento):
+· E03 AXIA3 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
+· E05 BTC · Could Bitcoin’s Market Value Reach $3 Trillion by 2030?
+· E05 NVDA · Nvidia Beats Estimates in First Earnings Report After Jensen Huang’s Ouster
+· E05 NVDA · ​Nvidia forecasts quarterly revenue above estimates in first report since Huang’s exit as CEO​
+· E05 BTC · Strategy Sinks 6% as Bitcoin Slides; Saylor Says Cash Covers “3.4 Years of Interest and Dividends”
+· E05 NVDA · Stocks down ahead of Nvidia's post-scandal earnings report
+· E05 USDBRL · Dólar à vista fecha perto da estabilidade após ultrapassar os R$ 5,80 hoje
+· E05 USDBRL · Dólar sobe com votação do pacote fiscal e incertezas sobre política econômica no radar
+· E05 BTC · Bitcoin Investors Are Capitulating—That’s Historically Been a Bottom Signal
+· E05 TSM · Surging AI Demand and Advanced Chipmaking Strengthens Taiwan Semiconductor Manufacturing Company Limited (TSM) Growth Outlook
+· E05 USDBRL · Dólar à vista fecha em alta de 0,08%, a R$5,7819 na venda Por Reuters
+· E05 NVDA · OpenAI pushes forward with AMD partnership amid ongoing efforts to diversify from Nvidia
+· E05 NVDA · Stocks Fall in Countdown to Nvidia’s Earnings Test: Markets Wrap
+· E05 USDBRL · Dólar fecha a R$ 5,78; Ibovespa perde força com fiscal e queda em NY
+· E05 TESOURO · Tesouro Direto hoje: prefixados recuam após disparada e IPCA+ tem movimento misto
+· E05 VALE3 · Painel S.A.: Vale tem contrato de 20 anos de compra de minério da Cedro
+
 
 Alertas do dia (todos, com status):
+· pendente  E04 NVDA — NVDA · 8-K: 2.02 resultado do trimestre
+· pendente  E05 NVDA — NVDA · The Street Wants “$130 Billion in Revenue” From Nvidia’s Guidance Tonight
+· pendente  E05 USDBRL — USDBRL · Dólar fecha em R$ 5,78, novo recorde do ano, à espera de votação do 'pl
 · pendente  T13 VIX — VIX cruzou 25: 26,0 (+14% no dia)
 · pendente  E04 JPM — JPM · 8-K: 5.02 entrada ou saida de diretor ou conselheiro
 · pendente  E05 BTC — BTC · Wall Street Investors Slowly Get Back to Bitcoin After a $1.9 Billion Exit
 · pendente  E05 KO — KO · TD Cowen raises Coca-Cola stock price target on growth outlook
 · pendente  E05 PETR4 — PETR4 · Petrobras: Citi corta preço-alvo e mantém visão neutra após 3T e alta de
-· pendente  T13 VIX — VIX cruzou 20: 22,9 (+19% no dia)
-· pendente  M03 MACRO — Focus de 13/11: IPCA: 2026 5,11% (+1 bps) · 2027 5,00% (+4 bps)
-· pendente  E05 ITSA4 — ITSA4 · ITSA4: A Projeção "correta" de Dividendos por Ação da Itaúsa para 2027
-· pendente  E05 BTC — BTC · Wall Street Traders Bet That Bitcoin Will Fall Below $60,000
+· expirado  T13 VIX — VIX cruzou 20: 22,9 (+19% no dia)
+· expirado  M03 MACRO — Focus de 13/11: IPCA: 2026 5,11% (+1 bps) · 2027 5,00% (+4 bps)
+· expirado  E05 ITSA4 — ITSA4 · ITSA4: A Projeção "correta" de Dividendos por Ação da Itaúsa para 2027
+· expirado  E05 BTC — BTC · Wall Street Traders Bet That Bitcoin Will Fall Below $60,000
 · linha     F01 USDBRL — Real cai: USD/BRL 5,7800 (+3,5% em 5 sessões) (parcial, intradia)
-· (+39 notícias só manchete, em noticias.md)
+· (+55 notícias só manchete, em noticias.md)
