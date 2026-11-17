@@ -12,9 +12,9 @@
    "id": 1,
    "nome": "Renda fixa",
    "pai": null,
-   "situacao": "publicando",
+   "situacao": "publicado",
    "errata": false,
-   "atualizado_em": "2026-11-14T07:42:57.167",
+   "atualizado_em": "2026-11-16T10:16:38.427",
    "arquivo": "",
    "pdf": ""
   },
@@ -32,9 +32,9 @@
    "id": 21,
    "nome": "Resumo de ações",
    "pai": 20,
-   "situacao": "publicando",
+   "situacao": "publicado",
    "errata": false,
-   "atualizado_em": "2026-11-14T00:00:38.5",
+   "atualizado_em": "2026-11-16T10:16:32.6",
    "arquivo": "",
    "pdf": ""
   },
@@ -42,9 +42,9 @@
    "id": 2,
    "nome": "Indicadores e informativos",
    "pai": 20,
-   "situacao": "publicando",
+   "situacao": "publicado",
    "errata": false,
-   "atualizado_em": "2026-11-14T10:52:38.177",
+   "atualizado_em": "2026-11-16T10:53:30.23",
    "arquivo": "",
    "pdf": ""
   },
@@ -52,29 +52,29 @@
    "id": 23,
    "nome": "Maiores oscilações",
    "pai": 20,
-   "situacao": "atrasado",
-   "errata": false,
-   "atualizado_em": "2026-11-13T22:11:15.273",
-   "arquivo": "",
-   "pdf": ""
+   "situacao": "republicado",
+   "errata": true,
+   "atualizado_em": "2026-11-16T13:40:38.103",
+   "arquivo": "BDI_02-3_20261113.pdf",
+   "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-11-13/BDI_02-3_20261113.pdf"
   },
   {
    "id": 31,
    "nome": "Resumo",
    "pai": 3,
    "situacao": "republicado",
-   "errata": false,
-   "atualizado_em": "2026-11-13T22:45:38.007",
-   "arquivo": "BDI_03-1_20261113.pdf",
-   "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-11-13/BDI_03-1_20261113.pdf"
+   "errata": true,
+   "atualizado_em": "2026-11-16T10:44:45.49",
+   "arquivo": "",
+   "pdf": ""
   },
   {
    "id": 33,
    "nome": "Derivativos de balcão",
    "pai": 3,
-   "situacao": "publicando",
+   "situacao": "republicado",
    "errata": false,
-   "atualizado_em": "2026-11-14T02:22:45.113",
+   "atualizado_em": "2026-11-16T10:16:59.193",
    "arquivo": "",
    "pdf": ""
   },
@@ -82,11 +82,11 @@
    "id": 34,
    "nome": "Derivativos de bolsa",
    "pai": 3,
-   "situacao": "publicando",
+   "situacao": "publicado",
    "errata": false,
-   "atualizado_em": "2026-11-14T04:53:32.317",
-   "arquivo": "",
-   "pdf": ""
+   "atualizado_em": "2026-11-16T00:00:00",
+   "arquivo": "BDI_03-4_20261113.pdf",
+   "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-11-13/BDI_03-4_20261113.pdf"
   },
   {
    "id": 41,

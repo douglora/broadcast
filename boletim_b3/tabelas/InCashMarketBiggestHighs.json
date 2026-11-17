@@ -1,5 +1,5 @@
 {
- "pregao": "2026-11-13",
+ "pregao": "2026-11-16",
  "nome": "InCashMarketBiggestHighs",
  "titulo": "Mercado à vista - maiores altas",
  "sla": "8:00:00",
@@ -7,18 +7,18 @@
  "colunas": [{"nome": "TckrSymb", "titulo": "Ação"}, {"nome": "Cod", "titulo": "Código"}, {"nome": "Price", "titulo": "Preço (R$)"}, {"nome": "Oscillation", "titulo": "Oscilação (%)"}],
  "texto": ["Mostra as maiores valorizações de ativos no mercado à vista, destacando as melhores performances."],
  "situacao": "publicado",
- "atualizado_em": "2026-11-13T19:10:29.54",
+ "atualizado_em": "2026-11-16T18:50:27.447",
  "truncada": false,
  "linhas": [
-  ["SCHW34", "DRN ED", 74.23, 15.82],
-  ["RRES11", "CI", 11.5, 19.17],
-  ["ALLD3", "ON      NM", 7.13, 19.83],
-  ["RAIZ14", "DIR PNB N2", 0.14, 27.27],
-  ["PPLI34", "DRN", 12.53, 28.64],
-  ["M1TD34", "DRN", 972.26, 35.27],
-  ["W2ST34", "DRN ED", 67.48, 37.08],
-  ["RAIZ1", "DIR ORD N2", 0.16, 45.45],
-  ["RAIZ16", "DIR UNT N2", 0.1, 66.66],
-  ["AZTE1", "DIR ORD", 0.02, 100]
+  ["CTAX3", "ON", 0.96, 14.28],
+  ["W1MG34", "DRN", 46.23, 15.45],
+  ["U2NF34", "DRN", 70.14, 17.72],
+  ["R1MD34", "DRN ED", 346.71, 17.98],
+  ["RAIZ1", "DIR ORD N2", 0.19, 18.75],
+  ["GILD34", "DRN", 98.97, 23.71],
+  ["INEP4", "PN", 1.22, 25.77],
+  ["HMRN31", "DR1", 2.29, 27.22],
+  ["INEP3", "ON", 1.34, 35.35],
+  ["AZTE11", "BNS ORD", 0.07, 40]
  ]
 }
