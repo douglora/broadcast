@@ -1,20 +1,20 @@
 {
  "pregao": "2026-11-16",
- "situacao": "publicando",
+ "situacao": "publicado",
  "errata": false,
- "atualizado_em": "2026-11-16T21:46:24.097",
+ "atualizado_em": "2026-11-16T00:00:00",
  "completo": {
-  "arquivo": "",
-  "pdf": ""
+  "arquivo": "BDI_00_20261116.pdf",
+  "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-11-16/BDI_00_20261116.pdf"
  },
  "cadernos": [
   {
    "id": 1,
    "nome": "Renda fixa",
    "pai": null,
-   "situacao": "publicando",
+   "situacao": "publicado",
    "errata": false,
-   "atualizado_em": "2026-11-16T20:52:38.513",
+   "atualizado_em": "2026-11-17T05:03:14.33",
    "arquivo": "",
    "pdf": ""
   },
@@ -32,79 +32,79 @@
    "id": 21,
    "nome": "Resumo de ações",
    "pai": 20,
-   "situacao": "republicado",
+   "situacao": "publicado",
    "errata": false,
-   "atualizado_em": "2026-11-16T20:19:51.01",
-   "arquivo": "",
-   "pdf": ""
+   "atualizado_em": "2026-11-16T22:35:38.007",
+   "arquivo": "BDI_02-1_20261116.pdf",
+   "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-11-16/BDI_02-1_20261116.pdf"
   },
   {
    "id": 2,
    "nome": "Indicadores e informativos",
    "pai": 20,
-   "situacao": "republicado",
+   "situacao": "publicado",
    "errata": false,
-   "atualizado_em": "2026-11-16T21:50:38.013",
-   "arquivo": "BDI_02_20261116.pdf",
-   "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-11-16/BDI_02_20261116.pdf"
+   "atualizado_em": "2026-11-17T05:23:40.297",
+   "arquivo": "",
+   "pdf": ""
   },
   {
    "id": 23,
    "nome": "Maiores oscilações",
    "pai": 20,
-   "situacao": "publicando",
+   "situacao": "republicado",
    "errata": false,
-   "atualizado_em": "2026-11-16T21:23:09.123",
-   "arquivo": "",
-   "pdf": ""
+   "atualizado_em": "2026-11-17T01:35:38.113",
+   "arquivo": "BDI_02-3_20261116.pdf",
+   "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-11-16/BDI_02-3_20261116.pdf"
   },
   {
    "id": 31,
    "nome": "Resumo",
    "pai": 3,
-   "situacao": "publicado",
+   "situacao": "republicado",
    "errata": false,
-   "atualizado_em": "2026-11-16T19:53:45.253",
-   "arquivo": "",
-   "pdf": ""
+   "atualizado_em": "2026-11-16T22:45:38.01",
+   "arquivo": "BDI_03-1_20261116.pdf",
+   "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-11-16/BDI_03-1_20261116.pdf"
   },
   {
    "id": 33,
    "nome": "Derivativos de balcão",
    "pai": 3,
-   "situacao": "publicando",
+   "situacao": "publicado",
    "errata": false,
-   "atualizado_em": "2026-11-16T00:00:38.01",
-   "arquivo": "",
-   "pdf": ""
+   "atualizado_em": "2026-11-17T02:15:38.083",
+   "arquivo": "BDI_03-3_20261116.pdf",
+   "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-11-16/BDI_03-3_20261116.pdf"
   },
   {
    "id": 34,
    "nome": "Derivativos de bolsa",
    "pai": 3,
-   "situacao": "publicando",
+   "situacao": "publicado",
    "errata": false,
-   "atualizado_em": "2026-11-16T20:50:37.647",
-   "arquivo": "",
-   "pdf": ""
+   "atualizado_em": "2026-11-16T00:00:00",
+   "arquivo": "BDI_03-4_20261116.pdf",
+   "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-11-16/BDI_03-4_20261116.pdf"
   },
   {
    "id": 41,
    "nome": "Clearing e depositária",
    "pai": 4,
-   "situacao": "publicando",
+   "situacao": "publicado",
    "errata": false,
-   "atualizado_em": "2026-11-16T21:00:45.377",
-   "arquivo": "",
-   "pdf": ""
+   "atualizado_em": "2026-11-17T01:05:38.1",
+   "arquivo": "BDI_04-1_20261116.pdf",
+   "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-11-16/BDI_04-1_20261116.pdf"
   },
   {
    "id": 42,
    "nome": "Empréstimos de ativos",
    "pai": 4,
-   "situacao": "publicado",
+   "situacao": "republicado",
    "errata": false,
-   "atualizado_em": "2026-11-16T00:00:38.01",
+   "atualizado_em": "2026-11-17T03:55:38.22",
    "arquivo": "BDI_04-2_20261116.pdf",
    "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-11-16/BDI_04-2_20261116.pdf"
   },
@@ -112,11 +112,11 @@
    "id": 43,
    "nome": "COE",
    "pai": 4,
-   "situacao": "publicando",
+   "situacao": "publicado",
    "errata": false,
-   "atualizado_em": "2026-11-16T00:00:38.01",
-   "arquivo": "",
-   "pdf": ""
+   "atualizado_em": "2026-11-17T02:15:38.083",
+   "arquivo": "BDI_04-3_20261116.pdf",
+   "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-11-16/BDI_04-3_20261116.pdf"
   }
  ]
 }

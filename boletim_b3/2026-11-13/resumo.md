@@ -1,7 +1,7 @@
 # Boletim da B3: pregão de 13/11/2026 (sexta)
 
 **Situação: PARCIAL.** Ainda sem: cadastro de instrumentos. A B3 publica esses blocos na madrugada seguinte ao pregão; a rodada da manhã completa.
-Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-11-17T00:53:40Z (UTC).
+Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-11-17T08:27:23Z (UTC).
 
 [[LEITURA_DA_MESA]]
 
@@ -167,7 +167,7 @@ Aluguel de ações (BTC, o banco de títulos da B3): quem aluga normalmente vend
 | SMAL11 | 100,27 | -0,74% | - |
 | RARA11 | - | - | - |
 
-- Paridade: RARA11 -1,48% contra REMX em reais -0,92% (lá fora -1,95%, câmbio +1,05%); desvio de -0,56%. Fechamentos em horários diferentes: é aproximação.
+- Paridade: RARA11 -1,48% contra REMX em reais -0,66% (lá fora -1,69%, câmbio +1,05%); desvio de -0,82%. Fechamentos em horários diferentes: é aproximação.
 
 ## Radar do mercado: aluguel
 
