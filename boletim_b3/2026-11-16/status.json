@@ -14,7 +14,7 @@
    "pai": null,
    "situacao": "publicado",
    "errata": false,
-   "atualizado_em": "2026-11-17T05:03:14.33",
+   "atualizado_em": "2026-11-17T08:03:14.417",
    "arquivo": "",
    "pdf": ""
   },
@@ -43,8 +43,8 @@
    "nome": "Indicadores e informativos",
    "pai": 20,
    "situacao": "publicado",
-   "errata": false,
-   "atualizado_em": "2026-11-17T05:23:40.297",
+   "errata": true,
+   "atualizado_em": "2026-11-17T08:47:56.903",
    "arquivo": "",
    "pdf": ""
   },

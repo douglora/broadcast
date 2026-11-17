@@ -1,7 +1,7 @@
 # Boletim da B3: pregão de 16/11/2026 (segunda)
 
-**Situação: PARCIAL.** Ainda sem: cadastro de instrumentos, quadro de posições em aberto. A B3 publica esses blocos na madrugada seguinte ao pregão; a rodada da manhã completa.
-Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-11-17T08:27:47Z (UTC).
+**Situação: PARCIAL.** Ainda sem: cadastro de instrumentos. A B3 publica esses blocos na madrugada seguinte ao pregão; a rodada da manhã completa.
+Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-11-17T11:53:18Z (UTC).
 
 [[LEITURA_DA_MESA]]
 
@@ -82,6 +82,18 @@ Saldo = compras menos vendas, somando todos os mercados da B3. A B3 divulga com 
 | INDZ26 | 170.845,00 | -1,91% | 192.601 |
 
 DI1 = DI futuro (taxa prefixada); DAP = cupom de IPCA (juro real); DOL = dólar futuro; IND = Ibovespa futuro. pb = ponto-base (0,01 ponto percentual).
+
+## Posições em aberto por mercado (futuros)
+
+| Mercado | Contratos | Variação no pregão | Referencial (R$ mi) |
+|---|---:|---:|---:|
+| IND | 201.416 | -0,36% | 34.455 |
+| WIN | 1.409.758 | -1,79% | 48.179 |
+| WDO | 1.648.587 | +9,44% | 95.731 |
+| DOL | 974.345 | +2,71% | 282.877 |
+| DAP | 3.427.715 | +0,22% | 477.922 |
+| DDI | 4.700.189 | +0,68% | 1.273.882 |
+| DI1 | 42.799.518 | -0,42% | 3.438.253 |
 
 ## O livro em blocos
 
@@ -261,10 +273,10 @@ Por classe, mediana das taxas de referência dos papéis. Taxa de referência: n
 
 ## Lacunas e pendências
 
-- quadro de posições em aberto: aguardando
 - aluguel por corretora: ignorado
 - cadastro de instrumentos: aguardando
-- RepurchaseDealings: aguardando
+- RepurchaseDealings: ignorado
+- Publicadas pela B3 depois do prazo, mas com dado: AnalyticalFramework2.
 - Posição em aberto de derivativos por tipo de investidor (estrangeiro, institucional, pessoa física): não existe no Boletim Diário do Mercado; procurado nas 69 tabelas e no texto dos 11 cadernos em 30/09/2026.
 - Fluxo por tipo de investidor sai acumulado no mês e com dois pregões de atraso; o saldo de um dia é a diferença entre dois acumulados seguidos.
 - RARA11: a B3 não publica valor de referência da cota (IOPV) para este ETF no boletim.
