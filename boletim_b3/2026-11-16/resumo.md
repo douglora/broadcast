@@ -1,19 +1,18 @@
 # Boletim da B3: pregão de 16/11/2026 (segunda)
 
 **Situação: PARCIAL.** Ainda sem: cadastro de instrumentos. A B3 publica esses blocos na madrugada seguinte ao pregão; a rodada da manhã completa.
-Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-11-17T11:53:18Z (UTC).
+Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-11-17T20:01:42Z (UTC).
 
 [[LEITURA_DA_MESA]]
 
-## Sinais do dia (17)
+## Sinais do dia (16)
 
 **Novos hoje**
 
 - **Crédito: taxa abriu.** ARTRA7 (Arteris, debênture incentivada): a taxa indicativa da ANBIMA abriu 41,5 pb de 13/11 para 16/11, para IPCA+ 11,33%; na B3, negócios de 16/11 a IPCA+ 12,11% em R$ 10,1 mi. _(ANBIMA, taxa indicativa de debêntures, 16/11)_
 - **Crédito: taxa abriu.** CLAG15 (Colombo Agroindustria Sa, debênture incentivada): a taxa indicativa da ANBIMA abriu 31,6 pb de 13/11 para 16/11, para IPCA+ 9,91%; na B3, negócios de 16/11 a IPCA+ 9,99% em R$ 36,0 mi. _(ANBIMA, taxa indicativa de debêntures, 16/11)_
-- **Crédito: taxa abriu.** 23I1270600 (Opea Securitizadora, CRI): taxa média dos negócios da B3 abriu 226 pb contra 30/10, para CDI+ 3,50%, em R$ 24,8 mi. _(B3, Trade + InstrumentRegistration (preliminar), 16/11)_
-- **Crédito: taxa abriu.** TEPA12 (Brasil Tecnologia e Participacao, debênture incentivada): taxa média dos negócios da B3 abriu 185 pb contra 29/10, para IPCA+ 29,98%, em R$ 5,5 mi. _(B3, Trade + InstrumentRegistration (preliminar), 16/11)_
-- **Crédito: prêmio alto.** TEPA12 (Brasil Tecnologia e Participacao, debênture incentivada): negociada a IPCA+ 29,98%, 2.218 pb acima do juro real de mercado de prazo equivalente, em R$ 5,5 mi. _(B3, Trade + InstrumentRegistration (preliminar), 16/11)_
+- **Crédito: taxa abriu.** TEPA12 (Brasil Tecnologia e Participacao, debênture incentivada): taxa média dos negócios da B3 abriu 185 pb contra 29/10, para IPCA+ 29,98%, em R$ 5,5 mi. _(B3, Trade + InstrumentRegistration, 16/11)_
+- **Crédito: prêmio alto.** TEPA12 (Brasil Tecnologia e Participacao, debênture incentivada): negociada a IPCA+ 29,98%, 2.218 pb acima do juro real de mercado de prazo equivalente, em R$ 5,5 mi. _(B3, Trade + InstrumentRegistration, 16/11)_
 - **Crédito: prêmio alto.** CGEE23 (Companhia Estadual de Geracao de Ener…, debênture incentivada): taxa indicativa da ANBIMA de 16/11 a IPCA+ 16,46%, 865 pb acima do juro real de mercado na duration de 4,9 anos; na B3, negócios de 16/11 a IPCA+ 16,45% em R$ 23,3 mi. _(ANBIMA e B3, taxa indicativa de debêntures (ANBIMA) e DAP (B3), 16/11)_
 - **Fluxo estrangeiro.** Estrangeiro vendeu R$ 91 mi líquidos em 12/11; no mês, até 12/11, saldo de -R$ 5.496 mi. _(B3, SharesInvesVolum, 12/11)_
 - **Juros.** A curva de juros abriu: DI1F28 +29 pb, para 14,56%, DI1F29 +34 pb, para 15,01%, DI1F30 +32 pb, para 15,20%, DI1F32 +25 pb, para 15,32%, DI1F35 +21 pb, para 15,35%. _(B3, TradeInformationConsolidated, 16/11)_
@@ -28,7 +27,7 @@ Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-11
 - **Aluguel alto.** DIRR3: saldo alugado de 40,9 mi de ações, 12,5% da quantidade teórica do índice e 2,5 pregões de giro; taxa média do tomador de 0,06% ao ano. _(B3, BTBLendingOpenPosition, 16/11 · 52º pregão seguido)_
 - **Aluguel alto.** MRVE3: saldo alugado de 79,0 mi de ações, 21,1% da quantidade teórica do índice e 3,3 pregões de giro; taxa média do tomador de 5,83% ao ano. O preço subiu 10,8% em 5 pregões: aluguel alto e caro com preço subindo é o quadro em que o vendido costuma ser forçado a recomprar. _(B3, BTBLendingOpenPosition, 16/11 · 52º pregão seguido)_
 - **Aluguel caro.** SMAL11: taxa média do tomador no aluguel em 5,28% ao ano: papel disputado por vendidos. _(B3, BTBLoanBalance, 16/11 · 15º pregão seguido)_
-- **Crédito: prêmio alto.** CRA021000RX (Riza Securitizadora, CRA): negociada a IPCA+ 14,08%, 669 pb acima do juro real de mercado de prazo equivalente, em R$ 16,6 mi. _(B3, Trade + InstrumentRegistration (preliminar), 16/11 · 2º pregão seguido)_
+- **Crédito: prêmio alto.** CRA021000RX (Riza Securitizadora, CRA): negociada a IPCA+ 14,08%, 669 pb acima do juro real de mercado de prazo equivalente, em R$ 16,6 mi. _(B3, Trade + InstrumentRegistration, 16/11 · 2º pregão seguido)_
 
 ## Índices
 
@@ -190,15 +189,13 @@ Aluguel de ações (BTC, o banco de títulos da B3): quem aluga normalmente vend
 
 ## Renda fixa: debêntures incentivadas, CRI e CRA
 
-**Preliminar:** a B3 ajusta os negócios de balcão no dia seguinte; volumes e taxas dos negócios deste pregão ainda podem mudar.
-
 **De onde vem cada taxa:** debêntures pela taxa indicativa da ANBIMA de 16/11 (1.267 papéis), com os negócios da B3 de 16/11 ao lado; CRI e CRA só pelos negócios da B3.
 
 | Classe | Volume do dia | Taxa mediana | Sobre o juro real |
 |---|---:|---:|---:|
-| Debêntures incentivadas | R$ 2,0 bi | IPCA+ 8,44% | +68 pb |
-| CRI | R$ 594,4 mi | IPCA+ 9,38% e CDI+ 1,40% | +173 pb |
-| CRA | R$ 222,8 mi | IPCA+ 10,29% e CDI+ 1,39% | +266 pb |
+| Debêntures incentivadas | R$ 1,9 bi | IPCA+ 8,44% | +68 pb |
+| CRI | R$ 482,1 mi | IPCA+ 9,11% e CDI+ 1,35% | +137 pb |
+| CRA | R$ 216,9 mi | IPCA+ 10,29% e CDI+ 1,40% | +266 pb |
 
 Nas incentivadas, a mediana pelos negócios do dia (B3 negócios de 16/11) foi IPCA+ 8,35%.
 
@@ -234,13 +231,13 @@ Nas incentivadas, a mediana pelos negócios do dia (B3 negócios de 16/11) foi I
 | VLIM18 (Vli Multimodal S.A.) | IPCA+ 8,45% (ANBIMA indicativa de 16/11) | IPCA+ 8,45%, R$ 83,4 mi | +66 pb na duration |
 | AESLA9 (Rge Sul Distribuidora De Ene) | IPCA+ 8,20% (ANBIMA indicativa de 16/11) | IPCA+ 8,19%, R$ 83,1 mi | +39 pb na duration |
 | CSRNA4 (Companhia Energetica Do Rio ) | IPCA+ 8,23% (ANBIMA indicativa de 16/11) | IPCA+ 8,12%, R$ 79,1 mi | +45 pb na duration |
-| ENEVA4 (Eneva S.A.) | IPCA+ 8,76% (ANBIMA indicativa de 16/11) | IPCA+ 8,82%, R$ 72,9 mi | +101 pb na duration |
 | RPTA14 (Concessionaria Auto Raposo T) | IPCA+ 9,77% (ANBIMA indicativa de 16/11) | IPCA+ 9,88%, R$ 63,2 mi | +196 pb na duration |
 | JALL15 (Jalles Machado S.A.) | IPCA+ 9,33% (ANBIMA indicativa de 16/11) | IPCA+ 9,40%, R$ 61,8 mi | +151 pb na duration |
 | USAS12 (Usina Santa Adelia S.A.) | IPCA+ 9,12% (ANBIMA indicativa de 16/11) | IPCA+ 9,24%, R$ 59,9 mi | +135 pb na duration |
+| PALFB6 (Companhia Paulista De Forca ) | IPCA+ 8,10% (ANBIMA indicativa de 16/11) | IPCA+ 8,03%, R$ 51,1 mi | +28 pb na duration |
 
 **Abriram taxa pela indicativa da ANBIMA:** RISP12 +83,6 pb contra 13/11, para IPCA+ 15,90% (R$ 3,6 mi); ELPLA5 +43,4 pb contra 13/11, para IPCA+ 12,37% (R$ 3,0 mi); ARTRA7 +41,5 pb contra 13/11, para IPCA+ 11,33% (R$ 10,1 mi); CLAG15 +31,6 pb contra 13/11, para IPCA+ 9,91% (R$ 36,0 mi); HZTC14 +26,5 pb contra 13/11, para IPCA+ 8,85% (R$ 8,0 mi).
-**Abriram taxa pelos negócios da B3:** 23I1270600 +226 pb contra 30/10, para CDI+ 3,50% (R$ 24,8 mi); TEPA12 +185 pb contra 29/10, para IPCA+ 29,98% (R$ 5,5 mi); ATHD11 +107 pb contra 23/10, para IPCA+ 8,63% (R$ 3,2 mi); 22B0006022 +95 pb contra 13/11, para IPCA+ 15,05% (R$ 5,0 mi); ORIG22 +86 pb contra 13/11, para 16,84% pré (R$ 3,1 mi).
+**Abriram taxa pelos negócios da B3:** TEPA12 +185 pb contra 29/10, para IPCA+ 29,98% (R$ 5,5 mi); ATHD11 +107 pb contra 23/10, para IPCA+ 8,63% (R$ 3,2 mi); 22B0006022 +95 pb contra 13/11, para IPCA+ 15,05% (R$ 5,0 mi); ORIG22 +86 pb contra 13/11, para 16,84% pré (R$ 3,1 mi); 26D4874450 +54 pb contra 13/11, para CDI+ 3,75% (R$ 4,0 mi).
 **Fecharam taxa pelos negócios da B3:** ANET12 -60 pb contra 13/11, para IPCA+ 20,79% (R$ 4,8 mi); 24D0006601 -29 pb contra 03/11, para CDI+ 0,24% (R$ 7,1 mi); WNTY12 -29 pb contra 06/11, para IPCA+ 9,57% (R$ 3,5 mi); 22G0279834 -10 pb contra 10/11, para CDI+ 1,23% (R$ 3,3 mi); CRA0240099E -2 pb contra 13/11, para CDI+ 3,50% (R$ 32,6 mi).
 **Prêmio alto:** TEPA12 a IPCA+ 29,98% (B3 negócios de 16/11), +2.218 pb no vencimento, R$ 5,5 mi; ANET12 a IPCA+ 20,79% (B3 negócios de 16/11), +1.300 pb no vencimento, R$ 4,8 mi; CGEE23 a IPCA+ 16,46% (ANBIMA indicativa de 16/11), +865 pb na duration, R$ 23,3 mi; RISP12 a IPCA+ 15,90% (ANBIMA indicativa de 16/11), +814 pb na duration, R$ 3,6 mi; 22B0006022 a IPCA+ 15,05% (B3 negócios de 16/11), +755 pb no vencimento, R$ 5,0 mi.
 
