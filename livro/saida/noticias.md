@@ -1,8 +1,51 @@
-NOTÍCIAS E FATOS · 17/11 18h38
+NOTÍCIAS E FATOS · 17/11 23h50
 
-Pernas: noticias ok 17 novas (18 consultas; descartadas: 396 veículo fora da lista, 21 sem ativo, 16 teto) · cvm ok 1 novos de 7 (5 cias casadas) · sec ok 1 novos em 3 dias
+Pernas: noticias ok 17 novas (18 consultas; descartadas: 409 veículo fora da lista, 17 sem ativo, 26 teto) · cvm ok 4 novos de 11 (6 cias casadas) · sec ok 0 novos em 3 dias
 
-## FATOS RELEVANTES E COMUNICADOS (CVM) (6)
+## FATOS RELEVANTES E COMUNICADOS (CVM) (10)
+
+[ATENÇÃO] E03 · SBSP3 · Fato Relevante: A Companhia de Saneamento Básico do Estado de São Paulo – Sabesp (“Companhia” ou “Sabesp”) informa que, em reunião realizada nesta data, o Conselho d…
+CVM · entregue 17/11/2026 19:33
+Do documento:
+  – Farão jus aos juros sobre o capital próprio ora creditados os acionistas que constarem da base acionária  da Companhia no final do pregão de 10 de novembro de 2026.
+  – As ações de emissão da Companhia  passarão a ser negociadas “ex-JCP” na B3 S.A. – Brasil, Bolsa, Balcão a partir de 11 de novembro de  2026 (inclusive).
+  – São Paulo, 05 de novembro de 2026.
+  – It will be paid until the date of  the Company's Ordinary General Meeting that approves the financial statements for the fiscal year  2026.
+  – Shareholders listed in the Company's shareholder base at the close of trading on November 10,  2026, will be entitled to the interest on shareholders' equity credited hereby.
+  – The Company's shares  will trade "ex-interest on equity" on B3 S.A. – Brasil, Bolsa, Balcão from November 11, 2026  (inclusive).
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1590807
+Por que importa: fato relevante e o que a propria companhia julga capaz de mover o preco; ler o documento inteiro antes de comentar
+Ativos: SBSP3
+Como falar: 'a Sabesp publicou fato relevante sobre A Companhia de Saneamento Básico do Estado de São Paulo – Sabesp (“Co…'
+Fonte: CVM 17/11
+id: E03-SBSP3-1590807-2026-11-17 · status: pendente · íntegra disponível
+
+[INFO] E03 · AXIA3 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
+CVM · entregue 17/11/2026 21:58 · Outros Comunicados Não Considerados Fatos Relevantes
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1590863
+Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; confirma ou nega o que circula
+Ativos: AXIA3
+Como falar: 'a Axia Energia publicou comunicado ao mercado sobre Outros Comunicados Não Considerados Fatos Relevantes'
+Fonte: CVM 17/11
+id: E03-AXIA3-1590863-2026-11-17 · status: linha
+
+[INFO] E03 · SBSP3 · Aviso aos Acionistas: Outros avisos
+CVM · entregue 17/11/2026 19:37 · Outros avisos
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1590810
+Por que importa: aviso aos acionistas traz provento, data-com ou evento societario que muda o fluxo ao acionista
+Ativos: SBSP3
+Como falar: 'a Sabesp publicou aviso aos acionistas sobre Outros avisos'
+Fonte: CVM 17/11
+id: E03-SBSP3-1590810-2026-11-17 · status: linha
+
+[INFO] E03 · PETR4 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
+CVM · entregue 17/11/2026 19:33 · Outros Comunicados Não Considerados Fatos Relevantes
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1590808
+Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; confirma ou nega o que circula
+Ativos: PETR4
+Como falar: 'a Petrobras publicou comunicado ao mercado sobre Outros Comunicados Não Considerados Fatos Relevantes'
+Fonte: CVM 17/11
+id: E03-PETR4-1590808-2026-11-17 · status: linha
 
 [INFO] E03 · AXIA3 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
 CVM · entregue 17/11/2026 18:01 · Outros Comunicados Não Considerados Fatos Relevantes
@@ -94,10 +137,35 @@ Por que importa: troca de diretor ou conselheiro reabre a discussao de estrategi
 Ativos: JPM
 Como falar: 'a JPM protocolou 8-K na SEC (5.02 entrada ou saida de diretor ou conselheiro)'
 Fonte: SEC EDGAR 2026-11-17
-id: E04-JPM-26000407-2026-11-17 · status: pendente · íntegra disponível
+id: E04-JPM-26000407-2026-11-17 · status: expirado · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (9)
+## NOTÍCIAS COM MATERIALIDADE (11)
+
+[ATENÇÃO] E05 · DI · Boletim Focus reduz projeção da taxa Selic de 2026 para 13,5%
+Agencia Brasil · 17/11 19h57 · fonte única · licença: integral
+Do texto:
+  – Na semana passada, o Copom, Comitê de Política Monetária, reduziu a taxa para 13,75% ao ano.
+  – Agora, os economistas consultados pelo Banco Central esperam que termine o ano ainda mais baixa, em 13,5%.
+  – Já para a inflação, a previsão teve um leve aumento, subindo de 4,9% para 4,92%.
+  – Enquanto a expectativa para o crescimento econômico caiu levemente para 1,88% — era 1,89% na semana passada.
+  – O barril do petróleo continua na faixa dos US$ 100, o que afeta a inflação mundial.
+  – O último dado do Boletim Focus permaneceu sem alteração: dólar a R$ 5,20.
+Link: https://agenciabrasil.ebc.com.br/es/node/1702883
+Por que importa: decisao de politica monetaria reprecifica toda a curva e o cambio
+Ativos: DI
+Como falar: 'saiu no Agencia Brasil: Boletim Focus reduz projeção da taxa Selic de 2026 para 13,5%; confirmar o número no texto antes de repassar'
+Fonte: Agencia Brasil 17/11 19h57
+id: E05-DI-46e258f8f3-2026-11-17 · status: pendente · íntegra disponível
+
+[ATENÇÃO] E05 · USDBRL · Dólar fecha em R$ 5,78, novo recorde do ano, à espera de votação do 'plano Moretti'; Bolsa avança
+Folha de S.Paulo · 17/11 09h48 · fonte única · licença: manchete
+Link: https://www1.folha.uol.com.br/mercado/2026/11/dolar-abre-em-alta-e-chega-a-r-579-com-mercado-a-espera-de-votacao-de-projeto-fiscal-no-senado.shtml
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: USDBRL
+Como falar: 'saiu no Folha de S.Paulo: Dólar fecha em R$ 5,78, novo recorde do ano, à espera de votação do 'plano Moretti'; Bols…; confirmar o número no texto antes de repassar'
+Fonte: Folha de S.Paulo 17/11 09h48
+id: E05-USDBRL-0115bcd6cf-2026-11-17 · status: pendente
 
 [ATENÇÃO] E05 · NVDA · The Street Wants “$130 Billion in Revenue” From Nvidia’s Guidance Tonight. Options Price a Nearly 7% Move
 Yahoo Finance · 17/11 17h25 · fonte única · licença: manchete
@@ -131,7 +199,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: BTC
 Como falar: 'saiu no Yahoo Finance: Wall Street Investors Slowly Get Back to Bitcoin After a $1.9 Billion Exit; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 17/11 15h07
-id: E05-BTC-fbed08ad82-2026-11-17 · status: pendente
+id: E05-BTC-fbed08ad82-2026-11-17 · status: expirado
 
 [ATENÇÃO] E05 · KO · TD Cowen raises Coca-Cola stock price target on growth outlook
 Investing.com · 17/11 13h46 · fonte única · licença: manchete
@@ -140,7 +208,7 @@ Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais
 Ativos: KO
 Como falar: 'saiu no Investing.com: TD Cowen raises Coca-Cola stock price target on growth outlook; confirmar o número no texto antes de repassar'
 Fonte: Investing.com 17/11 13h46
-id: E05-KO-b600744e57-2026-11-17 · status: pendente
+id: E05-KO-b600744e57-2026-11-17 · status: expirado
 
 [ATENÇÃO] E05 · PETR4 · Petrobras: Citi corta preço-alvo e mantém visão neutra após 3T e alta de investimento
 InfoMoney · 17/11 13h18 · + ADVFN · licença: resumo
@@ -155,7 +223,7 @@ Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais
 Ativos: PETR4
 Como falar: 'saiu no InfoMoney: Petrobras: Citi corta preço-alvo e mantém visão neutra após 3T e alta de investimento; confirmar o número no texto antes de repassar'
 Fonte: InfoMoney 17/11 13h18
-id: E05-PETR4-b4da342e6c-2026-11-17 · status: pendente
+id: E05-PETR4-b4da342e6c-2026-11-17 · status: expirado
 
 [ATENÇÃO] E05 · ITUB4 · Crédito deve seguir em desaceleração em 2027 com juros elevados e comprometimento de renda em patamar recorde, diz CEO do Itaú
 Valor Economico · 17/11 09h53 · fonte única · licença: resumo
@@ -208,8 +276,23 @@ Fonte: Yahoo Finance 16/11 10h33
 id: E05-BTC-a3fc375781-2026-11-16 · status: expirado
 
 
-## OUTRAS NOTÍCIAS (só manchete) (45)
+## OUTRAS NOTÍCIAS (só manchete) (60)
 
+· NVDA Asian Equities Mixed as Investors Parse Nvidia’s Results, Guidance (The Wall Street Journal) https://www.wsj.com/finance/asian-equities-mixed-as-investors-parse-nvidias-results-guidance-7041c3ea
+· USDBRL Leilão do BC pode dar alívio ao dólar, mas cenário externo será decisivo, avalia economista (O Globo) https://oglobo.globo.com/blogs/miriam-leitao/post/2026/11/leilao-do-bc-pode-dar-alivio-ao-dolar-mas-cenario-externo-sera-decisivo-avalia-economista.ghtml
+· NVDA Nvidia shares rise on earnings beat, raised outlook despite leadership uncertainty (CoinDesk) https://www.coindesk.com/markets/2026/11/17/nvidia-tops-estimates-issues-strong-guidance-adds-usd150-billion-to-buyback-authorization
+· NVDA Nvidia Gives Upbeat Outlook While Quashing Idea of Huang Return (Bloomberg) https://www.bloomberg.com/news/articles/2026-11-17/nvidia-delivers-solid-outlook-in-first-post-huang-earnings
+· ETH Bitmine Adds 7,653 ETH as Ethereum Treasury Climbs Above 6.08 Million Tokens (TradingView (Reuters)) https://www.tradingview.com/news/newsbtc:20f0d6df9094b:0-bitmine-adds-7-653-eth-as-ethereum-treasury-climbs-above-6-08-million-tokens/
+· MRVL Marvell Technology chairman and CEO sells $1.1M in shares (Investing.com) https://www.investing.com/news/insider-trading-news/marvell-technology-chairman-and-ceo-sells-11m-in-shares-93CH-5034425
+· NVDA Nvidia Q3 revenue doubles in first report since Huang exit; shares jump 5% (Investing.com) https://www.investing.com/news/earnings/nvidia-quarterly-results-beat-estimates-5033943
+· MINERIO BHP, Rio Tinto executives to meet China leaders as iron ore pressure builds (Reuters) https://www.reuters.com/world/china/bhp-rio-tinto-executives-meet-china-leaders-iron-ore-pressure-builds-2026-11-18/
+· USDBRL Dólar comercial volta a subir e fecha cotado a R$ 5,78 (g1) https://g1.globo.com/google/amp/jornal-nacional/video/dolar-comercial-volta-a-subir-e-fecha-cotado-a-r-578-15201694.ghtml
+· NVDA Nvidia's Q3 numbers were pretty good. Its earnings call optics were another story. (Yahoo Finance) https://finance.yahoo.com/video/nvidias-q3-numbers-were-pretty-good-its-earnings-call-optics-were-another-story-234451647.html
+· NVDA Jim Cramer’s key takeaway from Nvidia’s first earnings since Huang’s resignation (CNBC) https://www.cnbc.com/2026/11/17/cramers-key-takeaway-from-nvidias-first-earnings-since-huangs-resignation.html
+· NVDA Nvidia Reports Faster Growth, Says Jensen Huang Won’t Return as CEO (The Wall Street Journal) https://www.wsj.com/tech/ai/nvidia-nvda-3q-2027-earnings-report-stock-6e642303
+· USDBRL Dólar segue em alta com ajuste fiscal no Congresso; Bolsa também sobe (Poder360) https://www.poder360.com.br/poder-economia/dolar-segue-em-alta-com-ajuste-fiscal-no-congresso-bolsa-tambem-sobe/
+· USDBRL Ibovespa fecha em alta e dólar fica estável de olho em fiscal e novo governo (TradingView (Reuters)) https://news.google.com/rss/articles/CBMid0FVX3lxTE9fRUtJSmh6b256WTlxVjRxd0NHblhoeEdQa09IMU90aVJqRkQ0VHdwZVk5RDhTMUkzT3JjV0REdkcyaWRtLUtGcU13eW54cWIxS2t1R2Q2ZUgxRk44TkJLQUVvVXZWS2xib2RJaUdJMnkyVi1ZZGp3?oc=5
+· NVDA Nvidia interim-CEO Colette Kress speaks on quarterly revenue hitting $116B (Yahoo Finance) https://news.google.com/rss/articles/CBMivAFBVV95cUxQS3hPOFhuTnhKZW8zZ1NNTUVUUjE4eDJXOVpxS2pOUzRfa0VObTBZTWE2TzdEbUVTUnUwZmJfbmRCYktpV0tmSGJjNk85LUlwTzhWMEw3VmpEcDJxemR3X19UR3RzNV9aSTl1azlVVW4tV1BQVUk0LWtxMndaN0pxRnpGOGJwbHBsZEMweG5EVEk4QWF4Ty1WTVU5X2xnR0lreFZiNWYyTjBXQUxRUzFxWEpRM3VhVEhyVkxQMg?oc=5
 · BTC Could Bitcoin’s Market Value Reach $3 Trillion by 2030? (Yahoo Finance) https://news.google.com/rss/articles/CBMingFBVV95cUxPLS1Tc1pwSDA2TGpJeHRvRlJoelQ4T01iSTBSYjJrUzhmQ0I3OUtIU0p3MjFOMzFxeXNsWTBPd09oaE82QVlQdVYzSXFreDdDOFI4UWhxalg0eHpRSzdBNWFEaVZiOHFnRjFaei1zeGNRRDUxT1REZjM5bnF3X3VNQklRVjZBbVlTS2VNWmJyTEtscVlBa2o4VFk3ZmFCUQ?oc=5
 · NVDA Nvidia Beats Estimates in First Earnings Report After Jensen Huang’s Ouster (The Wall Street Journal) https://news.google.com/rss/articles/CBMihAFBVV95cUxQOERUMkVEZEttRVd6TG92RVVFUzc4RU10anVtbFoxeV9RN1VneDJiUkc5NXpVWWNhM09PUWhGMHNHcmJNeTU0WTltdjA1TE5BbUtvOWx1QU4ySmJJc2lPWmoydVJld09sOER4Rk4xRE9QbXpKSVMzNE9ldENzQWZWVGZGRlY?oc=5
 · NVDA ​Nvidia forecasts quarterly revenue above estimates in first report since Huang’s exit as CEO​ (Reuters) https://news.google.com/rss/articles/CBMivgFBVV95cUxPUzY1ZVJpMEF5SkVrMm5oVXBaUE9FNFVkUTNxQllsbHo0YXpJMnZQc0Zjc2c2Z2FjRTNYdHAxdi1ZaEFJZkFIRUxqaVNHWUpTZTdydVZtejBWd2Rqa2llYVJDR2MwdjFORHhPSkc0WXAxbml3NWdiTkx5bW9FbE9xdUl1Y1paSnZMcG1OM3RSSHV1TGhHWl92dEpGenJGTXpSbXV3OVRfQzdHTXNqX1NXRzVaY1NGdEFwOTNWSm5R?oc=5
