@@ -7,7 +7,7 @@
  "colunas": [{"nome": "TckrSymb", "titulo": "Ação"}, {"nome": "Cod", "titulo": "Código"}, {"nome": "Term", "titulo": "Prazo"}, {"nome": "Closing", "titulo": ""}, {"nome": "TradQty", "titulo": ""}, {"nome": "VlmTradedDay", "titulo": "Volume (R$) mil"}, {"nome": "Part", "titulo": "Participação (%)"}],
  "texto": ["Lista ações com maior volume de negociação em contratos a termo, destacando as mais ativas."],
  "situacao": "republicado",
- "atualizado_em": "2026-11-18T08:43:13.57",
+ "atualizado_em": "2026-11-18T10:55:18.81",
  "truncada": false,
  "linhas": [
   ["INVESTOUTIL CI", "CI", 30, 119.63, 60000, 7177.8, 0.8411088000868023],
