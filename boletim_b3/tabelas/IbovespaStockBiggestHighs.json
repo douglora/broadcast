@@ -1,5 +1,5 @@
 {
- "pregao": "2026-11-16",
+ "pregao": "2026-11-17",
  "nome": "IbovespaStockBiggestHighs",
  "titulo": "Ações do IBOVESPA - maiores altas",
  "sla": "8:00:00",
@@ -7,18 +7,18 @@
  "colunas": [{"nome": "TckrSymb", "titulo": "Ação"}, {"nome": "Cod", "titulo": "Código"}, {"nome": "Price", "titulo": "Preço (R$)"}, {"nome": "Oscillation", "titulo": "Oscilação (%)"}],
  "texto": ["Lista as ações do IBOVESPA com os maiores percentuais de valorização em um período."],
  "situacao": "publicado",
- "atualizado_em": "2026-11-16T23:30:15.453",
+ "atualizado_em": "2026-11-17T23:30:25.407",
  "truncada": false,
  "linhas": [
-  ["SANB11", "UNT", 28.65, 0.88],
-  ["SUZB3", "ON      NM", 55.5, 1.33],
-  ["VIVT3", "ON", 34.53, 1.43],
-  ["AZZA3", "ON      NM", 16.14, 1.44],
-  ["USIM5", "PNA     N1", 4.85, 1.46],
-  ["TIMS3", "ON      NM", 21.87, 1.48],
-  ["CPFE3", "ON      NM", 44.65, 1.54],
-  ["POMO4", "PN      N2", 3.81, 1.6],
-  ["CMIN3", "ON      N2", 4.73, 1.93],
-  ["YDUQ3", "ON      NM", 9.7, 2.53]
+  ["COGN3", "ON      NM", 1.62, 2.53],
+  ["VAMO3", "ON      NM", 2.69, 2.67],
+  ["RDOR3", "ON      NM", 36.24, 2.83],
+  ["ASAI3", "ON      NM", 9.66, 2.87],
+  ["TIMS3", "ON      NM", 22.51, 2.92],
+  ["RAIL3", "ON      NM", 16.91, 3.8],
+  ["VIVT3", "ON", 35.89, 3.93],
+  ["CSAN3", "ON      NM", 3.25, 5.17],
+  ["MGLU3", "ON      NM", 7.95, 6.14],
+  ["HAPV3", "ON  ATZ NM", 6.12, 12.5]
  ]
 }

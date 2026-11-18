@@ -1,7 +1,7 @@
 # Boletim da B3: pregão de 16/11/2026 (segunda)
 
 **Situação: PARCIAL.** Ainda sem: cadastro de instrumentos. A B3 publica esses blocos na madrugada seguinte ao pregão; a rodada da manhã completa.
-Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-11-18T00:52:32Z (UTC).
+Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-11-18T07:55:12Z (UTC).
 
 [[LEITURA_DA_MESA]]
 
