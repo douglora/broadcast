@@ -1,8 +1,51 @@
-NOTÍCIAS E FATOS · 18/11 16h24
+NOTÍCIAS E FATOS · 18/11 18h16
 
-Pernas: noticias ok 17 novas (18 consultas; descartadas: 402 veículo fora da lista, 16 sem ativo, 85 teto) · cvm ok 0 novos de 11 (6 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 16 novas (18 consultas; descartadas: 391 veículo fora da lista, 16 sem ativo, 12 teto) · cvm ok 1 novos de 12 (6 cias casadas) · sec ok 0 novos em 3 dias
 
-## NOTÍCIAS COM MATERIALIDADE (2)
+## FATOS RELEVANTES E COMUNICADOS (CVM) (1)
+
+[ATENÇÃO] E03 · KLBN4 · Fato Relevante: Registrou hoje uma ocorrência envolvendo a caldeira de recuperação da Unidade Otacílio Costa (SC).
+CVM · entregue 18/11/2026 15:01
+Do documento:
+  – São Paulo, 18 de novembro de 2026  Maria Gabriela Woge Liguori  Diretora Financeira e de Relações com Investidores
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1591019
+Por que importa: fato relevante e o que a propria companhia julga capaz de mover o preco; ler o documento inteiro antes de comentar
+Ativos: KLBN4
+Como falar: 'a Klabin publicou fato relevante sobre Registrou hoje uma ocorrência envolvendo a caldeira de recuperação da…'
+Fonte: CVM 18/11
+id: E03-KLBN4-1591019-2026-11-18 · status: pendente · íntegra disponível
+
+
+## NOTÍCIAS COM MATERIALIDADE (4)
+
+[ATENÇÃO] E05 · KLBN4 · Klabin (KLBN11): impacto de acidente pode afetar até 7% do Ebitda, mas é administrável, diz Safra
+Money Times · 18/11 17h38 · fonte única · licença: integral
+Do texto:
+  – A empresa informou ao mercado nesta quarta-feira (18) que suspendeu as operações da unidade após a ocorrência e acionou os protocolos de emergência.
+  – A unidade de Otacílio Costa possui capacidade para produzir cerca de 350 mil toneladas por ano de papel kraft, o equivalente a aproximadamente 19% da capacidade total de papel da Klabin, segundo o relatório.
+  – Pelas contas do banco, mesmo considerando um custo cerca de 30% superior ao da produção própria da Klabin, o impacto anual cairia para aproximadamente R$ 440 milhões.
+  – O Safra estima que a unidade utilizava cerca de 1,3 milhão de metros cúbicos de madeira por ano.
+  – Considerando um preço médio de R$ 120 por metro cúbico, o impacto líquido no Ebitda poderia ser reduzido para aproximadamente R$ 285 milhões, ou cerca de 4% da projeção anual do banco.
+  – Reconstrução pode exigir até R$ 1,7 bilhão O Safra também avaliou um cenário de reconstrução da caldeira de recuperação.
+Link: https://www.moneytimes.com.br/klabin-klbn11-impacto-de-acidente-pode-variar-entre-4-e-7-do-ebitda-mas-e-administravel-diz-safra-pads/
+Por que importa: evento operacional afeta producao e custo no trimestre corrente
+Ativos: KLBN4
+Como falar: 'saiu no Money Times: Klabin (KLBN11): impacto de acidente pode afetar até 7% do Ebitda, mas é administrável, d…; confirmar o número no texto antes de repassar'
+Fonte: Money Times 18/11 17h38
+id: E05-KLBN4-14cff2bf87-2026-11-18 · status: pendente · íntegra disponível
+
+[ATENÇÃO] E05 · BRENT · Petróleo fecha em queda em meio à alta do dólar e recuperação da oferta
+Money Times · 18/11 17h27 · fonte única · licença: integral
+Do texto:
+  – Negociado na Intercontinental Exchange de Londres (ICE), o petróleo Brent para janeiro fechou em queda de 1,27%, a US$ 91,95 o barril.
+  – O petróleo WTI para o mesmo mês recuou 2,76%, a US$ 82,31 o barril, na Nymex.
+  – Hoje, o Departamento de Energia (DoE, na sigla em inglês) dos EUA também anunciou alta de 3,38 milhões de barris nos estoques de petróleo na semana.
+Link: https://www.moneytimes.com.br/petroleo-fecha-em-queda-em-meio-a-alta-do-dolar-e-recuperacao-da-oferta-davs/
+Por que importa: oferta de acoes ou divida altera a base acionaria ou a alavancagem
+Ativos: BRENT · USDBRL
+Como falar: 'saiu no Money Times: Petróleo fecha em queda em meio à alta do dólar e recuperação da oferta; confirmar o número no texto antes de repassar'
+Fonte: Money Times 18/11 17h27
+id: E05-BRENT-122d2b525c-2026-11-18 · status: pendente · íntegra disponível
 
 [ATENÇÃO] E05 · NVDA · JPMorgan raises Nvidia stock price target to $230 on guidance
 Investing.com · 18/11 09h31 · fonte única · licença: manchete
@@ -26,8 +69,22 @@ Fonte: Money Times 17/11 18h21
 id: E05-PETR4-0eff9532a3-2026-11-17 · status: pendente · íntegra disponível
 
 
-## OUTRAS NOTÍCIAS (só manchete) (24)
+## OUTRAS NOTÍCIAS (só manchete) (38)
 
+· USDBRL Dólar à vista supera os R$ 5,85 e fecha na maior cotação em 19 meses (Money Times) https://www.moneytimes.com.br/dolar-a-vista-supera-os-r-585-e-fecha-na-maior-cotacao-em-19-meses-davs/
+· EQTL3 EQTL3: ANEEL aprova revisão tarifária periódica da CEEE-D (Suno Noticias) https://www.suno.com.br/noticias/eqtl3-aneel-revisao-tarifaria-ceee-d/
+· NVDA Nvidia retreats as strong outlook fails to dispel uncertainty (Reuters) https://www.reuters.com/business/ai-stocks-rally-nvidia-outlook-calms-demand-fears-2026-11-18/
+· NVDA Generac Jolted After Nvidia Earnings. Why It’s a Top S&P 500 Stock Today. (Barron's) https://www.barrons.com/articles/generac-stock-s-p-500-top-performer-89e04579
+· USDBRL Dólar sobe por 5ª sessão seguida com temor fiscal e acumula alta de 17,6% desde reeleição de Lula Por Reuters (Investing.com) https://br.investing.com/news/forex-news/dolar-a-vista-fecha-em-alta-de-148-a-r58677-na-venda-2131802
+· GOOGL Why Isn’t Alphabet Stock Taking Off After Reporting Record Cloud Growth? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/why-isn-t-alphabet-stock-200701293.html
+· SBSP3 'Supersecretária' de Tarcísio foi responsável pela privatização da Sabesp e coordenadora de campanha (g1) https://g1.globo.com/sp/sao-paulo/noticia/2026/11/18/supersecretaria-de-tarcisio-foi-responsavel-pela-privatizacao-da-sabesp-e-coordenadora-de-campanha.ghtml
+· NVDA ‘Sending a message’: Nvidia signals more cautious stance on China after Huang’s departure (Yahoo Finance) https://sg.finance.yahoo.com/news/sending-a-message-nvidia-signals-more-cautious-stance-on-china-after-huangs-departure-194945165.html
+· NVDA Nvidia earnings call ‘very reassuring,’ says BofA (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/nvidia-earnings-call-very-reassuring-194537685.html
+· NVDA CoreWeave and Neoclouds Slide Post-Nvidia Earnings As AI Fears Remain (Barron's) https://www.barrons.com/articles/coreweave-neoclouds-nvidia-earnings-stock-down-f96d09db
+· USDBRL Ouro fecha em forte queda com alta do dólar e expectativas para a ata do Fed (Money Times) https://www.moneytimes.com.br/ouro-fecha-em-forte-queda-com-alta-do-dolar-e-expectativas-para-a-ata-do-fed-davs/
+· BTC Bitcoin Tanks Ahead of Anthropic’s IPO. Should We Really Blame AI? (Yahoo Finance) https://news.google.com/rss/articles/CBMinwFBVV95cUxOSkJIZFgtNWJWZklTaWZPRktNWDBIbVlLVTdSOHZIMm5ibzg1U0dWYXZ4VDF6ZHY1UzRveDhZSmczWEF0aDB0a1pzbVhfanNzZXlILXdSVTVQSjJSV1pPdFFUd092Zmd6S2RfQWhZTUVQbzBUVGF0SmhrMW9QZWNPaHdlWVZNbDUxNGRqa0k3QVJRcHZLeGdTM2djdTBOdkU?oc=5
+· BTC What $100 a Month in Bitcoin Since 2020 Is Worth After This Crash (Yahoo Finance) https://news.google.com/rss/articles/CBMimAFBVV95cUxNSUs2cC1lZFNUNXJZZU01UjdwRUh0TWszQ0l0ZW1jOHVZNFIzQjE4VkJoMEl3QWRDWmxwVFR1M3VhNUhMQW82Q2hjREFHUGo5dy1Bcl9xd0tYRkdveTR5clY2Uzd0MEVYeTlqUXR2THd6WEt4azRicU9LTlpEZlhMdktUV0lneVJyMURTWnhkVk9UUjhUeG42aQ?oc=5
+· KLBN4 Klabin confirma ocorrência com caldeira em Unidade em Otacílio Costa (SC) (UOL Economia) https://news.google.com/rss/articles/CBMixAFBVV95cUxOeEprbGRrcm1pMXVPeklOWlRHVzhnZVBpQXl6Y2dxNHJlMndYM01DZ0xYN0daWF8zZGNEbk5ZcUhsZHBaY2V5TF9zOTVFU2JIV3pwQUw3aU5LYWtoV2VaSG1lS2JNd1paQ0xNWVlYMG1HSmdjNlcyT0pZYUY2cGJvelBGcXI0cmdiQjJZNktvdnBZZjlhVEZxYk5Wbmc5YXBmRjNOdHA1YW9pazFpclRZTnFNVzVWN1o4ZGZGcThoT2NzMnM00gHEAUFVX3lxTE54SmtsZGtybWkxdU96SU5aVEdXOGdlUGlBeXpjZ3E0cmUyd1gzTUNnTFg3R1pYXzNkY0RuTllxSGxkcFpjZXlMX3M5NUVTYkhXenBBTDdpTktha2hXZVpIbWVLYk13WlpDTE1ZWVgwbUdKZ2M2VzJPSllhRjZwYm96UEZxcjRyZ2JCMlk2S292cFlmOWFURnFiTlZuZzlhcGZGM050cDVhb2lrMWlyVFlOcU1XNVY3WjhkZkZxOGhPY3MyczQ?oc=5
 · ITUB4 Abecs elege Rubens Fogli, do Itaú, para presidir novo Comitê Executivo (Valor Economico) https://valor.globo.com/financas/noticia/2026/11/18/abecs-elege-rubens-fogli-do-ita-para-presidir-novo-comit-executivo.ghtml
 · NVDA Stocks Fall as Nvidia’s Earnings Rally Sputters: Markets Wrap (Bloomberg) https://www.bloomberg.com/news/articles/2026-11-17/stock-market-today-dow-s-p-live-updates
 · NVDA The Bank of Nvidia Under New Management (Bloomberg) https://www.bloomberg.com/news/newsletters/2026-11-18/nvidia-earnings-colette-kress-tightens-ai-spending-after-jensen-huang-s-exit

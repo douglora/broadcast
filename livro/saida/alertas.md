@@ -1,4 +1,4 @@
-ALERTAS · intradia
+ALERTAS · eventos
 
 (pendente de slot anterior) [CRÍTICO] T08 · TSM entrou em queda de -25% do pico: -26% do pico de 52s (US$ 485,80 em 05/10) a US$ 359,69
 1m -13% · 6m -7,9% · 12m +29%
@@ -8,40 +8,6 @@ Como falar: 'o cliente sente a queda no extrato; a conversa é sobre a tese, nã
 Anula/Confirma: rearma acima de -20% do pico
 Fonte: Yahoo Finance fech. 17/11
 ids: T08-TSM--25-2026-11-17
-
-(pendente de slot anterior) [ATENÇÃO] E04 · NVDA · 8-K: 2.02 resultado do trimestre
-SEC EDGAR · aceito 17/11 18h20 · 8-K
-Do documento:
-  – ☐   Item 2.02 Results of Operations and Financial Condition.
-  – On November 17, 2026, NVIDIA Corporation, or the Company, issued a press release announcing its results for the quarter ended October 25, 2026.
-  – The press release is attached as Exhibit 99.1 and is incorporated herein by reference.
-  – Attached hereto as Exhibit 99.2 and incorporated by reference herein is financial information and commentary by Colette M.
-  – Kress, Interim Chief Executive Officer, Executive Vice President and Chief Financial Officer of the Company, regarding results for the quarter ended October 25, 2026, or the CFO Commentary.
-  – Attached hereto as Exhibit 99.3 and incorporated by reference herein is supplemental financial information for the quarter ended October 25, 2026, or the Supplemental Financial Information.
-Link: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/nvda-20261117.htm
-Por que importa: resultado do trimestre reprecifica lucro, guidance e multiplo; comparar com o consenso
-Ativos: NVDA
-Como falar: 'a NVDA protocolou 8-K na SEC (2.02 resultado do trimestre)'
-Fonte: SEC EDGAR 2026-11-17
-ids: E04-NVDA-26000088-2026-11-17
-
-(pendente de slot anterior) [ATENÇÃO] E05 · NVDA · The Street Wants “$130 Billion in Revenue” From Nvidia’s Guidance Tonight. Options Price a Nearly 7% Move
-Yahoo Finance · 17/11 17h25 · fonte única · licença: manchete
-Link: https://news.google.com/rss/articles/CBMingFBVV95cUxQSl9UREdxSVBVUGVrZk00N3I1NHVBNWRkdDN2R2YwcUtXblN6aEFFcENuUmRldXg5MmZKRWZXTFJyMW5jd3B4UU9EQUFHbEtjSzNaLUVHWWR6WHh6cnFtUDVaTVJLMVA3Rkk3Qk5RaVlzZENQZ0FYMFhBQjRvaWFFTHcwUl8xRC01czhEUmloUDZWQVNQSk8yZUU0bDlLQQ?oc=5
-Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
-Ativos: NVDA
-Como falar: 'saiu no Yahoo Finance: The Street Wants “$130 Billion in Revenue” From Nvidia’s Guidance Tonight. Options Price…; confirmar o número no texto antes de repassar'
-Fonte: Yahoo Finance 17/11 17h25
-ids: E05-NVDA-81e0e5caac-2026-11-17
-
-(pendente de slot anterior) [ATENÇÃO] E05 · USDBRL · Dólar fecha em R$ 5,78, novo recorde do ano, à espera de votação do 'plano Moretti'; Bolsa sobe
-Folha de S.Paulo · 17/11 09h48 · fonte única · licença: manchete
-Link: https://news.google.com/rss/articles/CBMi3wFBVV95cUxQWWFFank0UVNNUk1WT1IwSEJacjJrb3loRTc3SVRaMnl6SUd4aVFaS1JSZXIwU1dmXzV0azgzXzYwSHdQWWNEYjNYUHloNlV0bDhuTkdIODFMYWtGeHdva3hBQmg3YXNBWk9PNjBmc01xam5nbFZiUTZnYUF6R1h5WjFES3RhZTBQY0xKaXNNaENRWTQ4UERETUNzYlJ5b0Z5VEtmcURGaUtsdG45RnkzQ3J2TW91dFphN1dURHhCdWFjME9pSU9nRXZIbVh0OUw1ck5vNGtyOWZPeEZ5bjE4?oc=5
-Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
-Ativos: USDBRL
-Como falar: 'saiu no Folha de S.Paulo: Dólar fecha em R$ 5,78, novo recorde do ano, à espera de votação do 'plano Moretti'; Bols…; confirmar o número no texto antes de repassar'
-Fonte: Folha de S.Paulo 17/11 09h48
-ids: E05-USDBRL-857b458503-2026-11-17
 
 (pendente de slot anterior) [ATENÇÃO] E03 · SBSP3 · Fato Relevante: A Companhia de Saneamento Básico do Estado de São Paulo – Sabesp (“Companhia” ou “Sabesp”) informa que, em reunião realizada nesta data, o Conselho d…
 CVM · entregue 17/11/2026 19:33
@@ -84,16 +50,15 @@ Como falar: 'saiu no Folha de S.Paulo: Dólar fecha em R$ 5,78, novo recorde do 
 Fonte: Folha de S.Paulo 17/11 09h48
 ids: E05-USDBRL-0115bcd6cf-2026-11-17
 
-[ATENÇÃO] M01 · Agenda: CPI de outubro (BLS) hoje às 10:30 (18/11)
+(pendente de slot anterior) [INFO] M01 · Agenda: Vencimento de opcoes sobre indice e futuros de Ibovespa (B3) hoje (18/11)
 O que está no preço: F28 14,43% · F35 15,15% · Focus IPCA 2027 5,00%
 Por que importa: evento macro de alta relevância reprecifica a curva inteira; o que importa é a surpresa contra o que está no preço
-Ativos: UST · DXY · UCITS
-Como falar: 'CPI de outubro sai hoje; o mercado já precifica o consenso, a reação vem da surpresa'
+Ativos: DI · Tesouro · USD/BRL
+Como falar: 'Vencimento de opcoes sobre indice e futuros de Ibovespa sai hoje; o mercado já precifica o consenso, a reação vem da surpresa'
 Fonte: config/calendario.yaml
-Push: intradia: 4 alertas de atenção — M01 MACRO, E05 NVDA, E05 PETR4, S01 SISTEMA · detalhe na sessão
 ids: M01-MACRO-D0_1811-2026-11-18
 
-[ATENÇÃO] E05 · NVDA · JPMorgan raises Nvidia stock price target to $230 on guidance
+(pendente de slot anterior) [ATENÇÃO] E05 · NVDA · JPMorgan raises Nvidia stock price target to $230 on guidance
 Investing.com · 18/11 09h31 · fonte única · licença: manchete
 Link: https://www.investing.com/news/analyst-ratings/jpmorgan-raises-nvidia-stock-price-target-to-230-on-guidance-93CH-5035754
 Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
@@ -102,7 +67,7 @@ Como falar: 'saiu no Investing.com: JPMorgan raises Nvidia stock price target to
 Fonte: Investing.com 18/11 09h31
 ids: E05-NVDA-2007c7b41e-2026-11-18
 
-[ATENÇÃO] E05 · PETR4 · Petrobras (PETR4): Citi coloca novo risco para dividendos e corta preço-alvo
+(pendente de slot anterior) [ATENÇÃO] E05 · PETR4 · Petrobras (PETR4): Citi coloca novo risco para dividendos e corta preço-alvo
 Money Times · 17/11 18h21 · fonte única · licença: integral
 Do texto:
   – “Vemos investidores preocupados com esse aumento (de capex)”, disse o Citi nesta terça-feira, pontuando que a elevação de investimentos poderia pressionar dividendos e elevar a alavancagem caso os preços do petróleo rec…
@@ -114,37 +79,78 @@ Como falar: 'saiu no Money Times: Petrobras (PETR4): Citi coloca novo risco para
 Fonte: Money Times 17/11 18h21
 ids: E05-PETR4-0eff9532a3-2026-11-17
 
-[ATENÇÃO] S01 · coleta do slot intradia saiu incompleta: bcb: BCB devolveu 4 de 5 séries (faltaram ipca_mes)
+(pendente de slot anterior) [ATENÇÃO] S01 · coleta do slot intradia saiu incompleta: bcb: BCB devolveu 4 de 5 séries (faltaram ipca_mes)
 O que fiz: entreguei as seções disponíveis; as pernas que falharam estão em LACUNAS.
 Por que importa: silêncio é lido como 'está tudo bem'; declarar a falha é o que permite confiar no restante
 Fonte: manifest do runner
 ids: S01-SISTEMA-intradia-2026-11-18
 
+[ATENÇÃO] E03 · KLBN4 · Fato Relevante: Registrou hoje uma ocorrência envolvendo a caldeira de recuperação da Unidade Otacílio Costa (SC).
+CVM · entregue 18/11/2026 15:01
+Do documento:
+  – São Paulo, 18 de novembro de 2026  Maria Gabriela Woge Liguori  Diretora Financeira e de Relações com Investidores
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1591019
+Por que importa: fato relevante e o que a propria companhia julga capaz de mover o preco; ler o documento inteiro antes de comentar
+Ativos: KLBN4
+Como falar: 'a Klabin publicou fato relevante sobre Registrou hoje uma ocorrência envolvendo a caldeira de recuperação da…'
+Fonte: CVM 18/11
+Push: eventos: 3 alertas de atenção — E03 KLBN4, E05 KLBN4, E05 BRENT · detalhe na sessão
+ids: E03-KLBN4-1591019-2026-11-18
+
+[ATENÇÃO] E05 · KLBN4 · Klabin (KLBN11): impacto de acidente pode afetar até 7% do Ebitda, mas é administrável, diz Safra
+Money Times · 18/11 17h38 · fonte única · licença: integral
+Do texto:
+  – A empresa informou ao mercado nesta quarta-feira (18) que suspendeu as operações da unidade após a ocorrência e acionou os protocolos de emergência.
+  – A unidade de Otacílio Costa possui capacidade para produzir cerca de 350 mil toneladas por ano de papel kraft, o equivalente a aproximadamente 19% da capacidade total de papel da Klabin, segundo o relatório.
+  – Pelas contas do banco, mesmo considerando um custo cerca de 30% superior ao da produção própria da Klabin, o impacto anual cairia para aproximadamente R$ 440 milhões.
+  – O Safra estima que a unidade utilizava cerca de 1,3 milhão de metros cúbicos de madeira por ano.
+  – Considerando um preço médio de R$ 120 por metro cúbico, o impacto líquido no Ebitda poderia ser reduzido para aproximadamente R$ 285 milhões, ou cerca de 4% da projeção anual do banco.
+  – Reconstrução pode exigir até R$ 1,7 bilhão O Safra também avaliou um cenário de reconstrução da caldeira de recuperação.
+Link: https://www.moneytimes.com.br/klabin-klbn11-impacto-de-acidente-pode-variar-entre-4-e-7-do-ebitda-mas-e-administravel-diz-safra-pads/
+Por que importa: evento operacional afeta producao e custo no trimestre corrente
+Ativos: KLBN4
+Como falar: 'saiu no Money Times: Klabin (KLBN11): impacto de acidente pode afetar até 7% do Ebitda, mas é administrável, d…; confirmar o número no texto antes de repassar'
+Fonte: Money Times 18/11 17h38
+ids: E05-KLBN4-14cff2bf87-2026-11-18
+
+[ATENÇÃO] E05 · BRENT · Petróleo fecha em queda em meio à alta do dólar e recuperação da oferta
+Money Times · 18/11 17h27 · fonte única · licença: integral
+Do texto:
+  – Negociado na Intercontinental Exchange de Londres (ICE), o petróleo Brent para janeiro fechou em queda de 1,27%, a US$ 91,95 o barril.
+  – O petróleo WTI para o mesmo mês recuou 2,76%, a US$ 82,31 o barril, na Nymex.
+  – Hoje, o Departamento de Energia (DoE, na sigla em inglês) dos EUA também anunciou alta de 3,38 milhões de barris nos estoques de petróleo na semana.
+Link: https://www.moneytimes.com.br/petroleo-fecha-em-queda-em-meio-a-alta-do-dolar-e-recuperacao-da-oferta-davs/
+Por que importa: oferta de acoes ou divida altera a base acionaria ou a alavancagem
+Ativos: BRENT · USDBRL
+Como falar: 'saiu no Money Times: Petróleo fecha em queda em meio à alta do dólar e recuperação da oferta; confirmar o número no texto antes de repassar'
+Fonte: Money Times 18/11 17h27
+ids: E05-BRENT-122d2b525c-2026-11-18
+
 Info (só linha no Fechamento):
-· F01 Real cai: USD/BRL 5,8606 (+5,4% em 5 sessões) (parcial, intradia)
-· F06 BTC cai a US$ 62.735 (-15% em 7 dias) (parcial, intradia)
-· E05 ITUB4 · Abecs elege Rubens Fogli, do Itaú, para presidir novo Comitê Executivo
-· E05 NVDA · Stocks Fall as Nvidia’s Earnings Rally Sputters: Markets Wrap
-· E05 NVDA · The Bank of Nvidia Under New Management
-· E05 NVDA · Nvidia Stock Is One of the Best Deals on Offer With 1 Big Catch
-· E05 KLBN4 · Ocorrência em caldeira na unidade da Klabin em SC deixa 10 funcionários feridos
-· E05 KO · Coca-Cola Stocks Move Lower Even as TD Cowen Names It Top 2027 Pick
-· E05 KLBN4 · Klabin (KLBN11) suspende operações em unidade de SC após incidente; 10 funcionários são hospitalizados
-· E05 KLBN4 · Klabin diz que 10 trabalhadores de fábrica em SC são levados para hospital após "ocorrência" Por Reuters
-· E05 USDBRL · Dólar hoje sobe 1%, a R$ 5,84, com foco em pacote fiscal e ata do Fed
-· E05 NVDA · Read Jim Cramer’s full interview with Nvidia’s Colette Kress: Demand, buybacks and China
-· E05 NVDA · Where Does Nvidia Stock Go After Earnings? What the Charts Tell Us.
-· E05 NVDA · Nasdaq rises in choppy trade as investors weigh Nvidia outlook, Anthropic IPO
-· E05 BBAS3 · Banco do Brasil (BBAS3) nega fraude em ‘fazendas fantasmas’; o que há por trás dos R$ 256 bi?
-· E05 NVDA · Nvidia stock erases earnings pop as investors face life after Jensen Huang
-· E05 NVDA · Stock Market Midday, Nov. 18: Nvidia Doubles Revenue, but Wall Street's Sell-Off Continues
+· E05 USDBRL · Dólar à vista supera os R$ 5,85 e fecha na maior cotação em 19 meses
+· E05 EQTL3 · EQTL3: ANEEL aprova revisão tarifária periódica da CEEE-D
+· E05 NVDA · Nvidia retreats as strong outlook fails to dispel uncertainty
+· E05 NVDA · Generac Jolted After Nvidia Earnings. Why It’s a Top S&P 500 Stock Today.
+· E05 USDBRL · Dólar sobe por 5ª sessão seguida com temor fiscal e acumula alta de 17,6% desde reeleição de Lula Por Reuters
+· E05 GOOGL · Why Isn’t Alphabet Stock Taking Off After Reporting Record Cloud Growth?
+· E05 SBSP3 · 'Supersecretária' de Tarcísio foi responsável pela privatização da Sabesp e coordenadora de campanha
+· E05 NVDA · ‘Sending a message’: Nvidia signals more cautious stance on China after Huang’s departure
+· E05 NVDA · Nvidia earnings call ‘very reassuring,’ says BofA
+· E05 NVDA · CoreWeave and Neoclouds Slide Post-Nvidia Earnings As AI Fears Remain
+· E05 USDBRL · Ouro fecha em forte queda com alta do dólar e expectativas para a ata do Fed
+· E05 BTC · Bitcoin Tanks Ahead of Anthropic’s IPO. Should We Really Blame AI?
+· E05 BTC · What $100 a Month in Bitcoin Since 2020 Is Worth After This Crash
+· E05 KLBN4 · Klabin confirma ocorrência com caldeira em Unidade em Otacílio Costa (SC)
 
 
 Alertas do dia (todos, com status):
+· pendente  E03 KLBN4 — KLBN4 · Fato Relevante: Registrou hoje uma ocorrência envolvendo a caldeira de r
+· pendente  E05 KLBN4 — KLBN4 · Klabin (KLBN11): impacto de acidente pode afetar até 7% do Ebitda, mas é
+· pendente  E05 BRENT — BRENT · Petróleo fecha em queda em meio à alta do dólar e recuperação da oferta
 · pendente  M01 MACRO — Agenda: Vencimento de opcoes sobre indice e futuros de Ibovespa (B3) hoje (18/11
 · pendente  E05 NVDA — NVDA · JPMorgan raises Nvidia stock price target to $230 on guidance
 · pendente  E05 PETR4 — PETR4 · Petrobras (PETR4): Citi coloca novo risco para dividendos e corta preço-
 · pendente  S01 SISTEMA — coleta do slot intradia saiu incompleta: bcb: BCB devolveu 4 de 5 séries (faltar
 · linha     F01 USDBRL — Real cai: USD/BRL 5,8606 (+5,4% em 5 sessões) (parcial, intradia)
 · linha     F06 BTC — BTC cai a US$ 62.735 (-15% em 7 dias) (parcial, intradia)
-· (+24 notícias só manchete, em noticias.md)
+· (+38 notícias só manchete, em noticias.md)
