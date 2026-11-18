@@ -1,5 +1,5 @@
 {
- "pregao": "2026-11-16",
+ "pregao": "2026-11-17",
  "nome": "Forward",
  "titulo": "Ações mais negociadas - a termo",
  "sla": "8:00:00",
@@ -7,13 +7,13 @@
  "colunas": [{"nome": "TckrSymb", "titulo": "Ação"}, {"nome": "Cod", "titulo": "Código"}, {"nome": "Term", "titulo": "Prazo"}, {"nome": "Closing", "titulo": ""}, {"nome": "TradQty", "titulo": ""}, {"nome": "VlmTradedDay", "titulo": "Volume (R$) mil"}, {"nome": "Part", "titulo": "Participação (%)"}],
  "texto": ["Lista ações com maior volume de negociação em contratos a termo, destacando as mais ativas."],
  "situacao": "republicado",
- "atualizado_em": "2026-11-17T01:32:00.23",
+ "atualizado_em": "2026-11-17T21:41:54.77",
  "truncada": false,
  "linhas": [
-  ["INVESTOUTIL CI", "CI", 30, 118.79, 52000, 6177.08, 1.3312156763958054],
-  ["FII TRX REALCI", "CI", 63, 56.11, 54000, 3029.94, 1.3824162793341055],
-  ["VALE        ON      NM", "ON      NM", 16, 61.22, 208000, 12733.76, 5.324862705583222],
-  ["TENDA       ON      NM", "ON      NM", 74, 16.84, 300000, 5052, 7.68009044074503],
-  ["ASSAI       ON      NM", "ON      NM", 91, 9.76, 1500000, 14640, 38.400452203725145]
+  ["INVESTOUTIL CI", "CI", 30, 119.63, 60000, 7177.8, 0.8411088000868023],
+  ["INVESTOUTIL CI", "CI", 62, 120.8, 62000, 7489.6, 0.8691457600896959],
+  ["AXIA ENERGIAON      NM", "ON      NM", 80, 48.99, 160000, 7838.4, 2.242956800231473],
+  ["ENEVA       ON      NM", "ON      NM", 80, 27.55, 360000, 9918, 5.046652800520814],
+  ["MRV         ON      NM", "ON      NM", 360, 5.72, 1281000, 7327.32, 17.957672881853235]
  ]
 }

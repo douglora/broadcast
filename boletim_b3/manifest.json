@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-11-17T19:59:34Z",
+ "gerado_em": "2026-11-18T00:51:30Z",
  "cliente_http": "curl_cffi",
  "livro": [
   "EQTL3",
@@ -23,44 +23,6 @@
   "CURY3"
  ],
  "pregoes": {
-  "2026-11-13": {
-   "completo": false,
-   "faltam": [
-    "InstrumentsConsolidated"
-   ],
-   "boletim": "publicado",
-   "sinais": 17,
-   "tabelas": 47,
-   "arquivos": [
-    "DerivativesOpenPosition",
-    "TradeInformationConsolidated",
-    "TradeInformationConsolidatedAfterHours"
-   ],
-   "rf_cadastro": {
-    "papeis_no_dia": 1564,
-    "consultados": 0,
-    "achados": 0,
-    "sem_cadastro": 0,
-    "erros": 0,
-    "ficaram_para_depois": 0,
-    "no_cache": 3817
-   },
-   "anbima": {
-    "situacao": "publicado",
-    "data": "2026-11-13",
-    "papeis": 1267,
-    "publicado_em": "2026-11-13T20:05:29",
-    "comparado_com": "2026-11-12",
-    "tentativas": {
-     "2026-11-13": "publicado",
-     "2026-11-12": "publicado"
-    }
-   },
-   "falhas": {
-    "InstrumentsConsolidated": "arquivo InstrumentsConsolidated: token HTTP 400"
-   },
-   "segundos": 31
-  },
   "2026-11-16": {
    "completo": false,
    "faltam": [
@@ -87,7 +49,7 @@
     "situacao": "publicado",
     "data": "2026-11-16",
     "papeis": 1267,
-    "publicado_em": "2026-11-16T20:13:51",
+    "publicado_em": "2026-11-17T19:47:33",
     "comparado_com": "2026-11-13",
     "tentativas": {
      "2026-11-16": "publicado",
@@ -97,10 +59,52 @@
    "falhas": {
     "InstrumentsConsolidated": "arquivo InstrumentsConsolidated: token HTTP 400"
    },
-   "segundos": 96
+   "segundos": 61
+  },
+  "2026-11-17": {
+   "completo": false,
+   "faltam": [
+    "InstrumentsConsolidated",
+    "DerivativesOpenPosition",
+    "BTBLendingOpenPosition",
+    "BTBLoanBalance",
+    "AnalyticalFramework2"
+   ],
+   "boletim": "publicando",
+   "sinais": 12,
+   "tabelas": 47,
+   "arquivos": [
+    "TradeInformationConsolidated",
+    "TradeInformationConsolidatedAfterHours"
+   ],
+   "rf_cadastro": {
+    "papeis_no_dia": 1721,
+    "consultados": 19,
+    "achados": 0,
+    "sem_cadastro": 19,
+    "erros": 0,
+    "ficaram_para_depois": 0,
+    "no_cache": 3836
+   },
+   "anbima": {
+    "situacao": "publicado",
+    "data": "2026-11-17",
+    "papeis": 1266,
+    "publicado_em": "2026-11-17T19:47:34",
+    "comparado_com": "2026-11-16",
+    "tentativas": {
+     "2026-11-17": "publicado",
+     "2026-11-16": "publicado"
+    }
+   },
+   "falhas": {
+    "InstrumentsConsolidated": "arquivo InstrumentsConsolidated: token HTTP 400",
+    "DerivativesOpenPosition": "arquivo DerivativesOpenPosition: token HTTP 400"
+   },
+   "segundos": 24
   }
  },
  "falhas": [],
  "versao": 2,
- "ultimo_pregao": "2026-11-16"
+ "ultimo_pregao": "2026-11-17"
 }
