@@ -1,44 +1,4 @@
-ALERTAS · intradia
-
-(pendente de slot anterior) [ATENÇÃO] E03 · KLBN4 · Fato Relevante: Registrou hoje uma ocorrência envolvendo a caldeira de recuperação da Unidade Otacílio Costa (SC).
-CVM · entregue 18/11/2026 15:01
-Do documento:
-  – São Paulo, 18 de novembro de 2026  Maria Gabriela Woge Liguori  Diretora Financeira e de Relações com Investidores
-Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1591019
-Por que importa: fato relevante e o que a propria companhia julga capaz de mover o preco; ler o documento inteiro antes de comentar
-Ativos: KLBN4
-Como falar: 'a Klabin publicou fato relevante sobre Registrou hoje uma ocorrência envolvendo a caldeira de recuperação da…'
-Fonte: CVM 18/11
-ids: E03-KLBN4-1591019-2026-11-18
-
-(pendente de slot anterior) [ATENÇÃO] E05 · KLBN4 · Klabin (KLBN11): impacto de acidente pode afetar até 7% do Ebitda, mas é administrável, diz Safra
-Money Times · 18/11 17h38 · fonte única · licença: integral
-Do texto:
-  – A empresa informou ao mercado nesta quarta-feira (18) que suspendeu as operações da unidade após a ocorrência e acionou os protocolos de emergência.
-  – A unidade de Otacílio Costa possui capacidade para produzir cerca de 350 mil toneladas por ano de papel kraft, o equivalente a aproximadamente 19% da capacidade total de papel da Klabin, segundo o relatório.
-  – Pelas contas do banco, mesmo considerando um custo cerca de 30% superior ao da produção própria da Klabin, o impacto anual cairia para aproximadamente R$ 440 milhões.
-  – O Safra estima que a unidade utilizava cerca de 1,3 milhão de metros cúbicos de madeira por ano.
-  – Considerando um preço médio de R$ 120 por metro cúbico, o impacto líquido no Ebitda poderia ser reduzido para aproximadamente R$ 285 milhões, ou cerca de 4% da projeção anual do banco.
-  – Reconstrução pode exigir até R$ 1,7 bilhão O Safra também avaliou um cenário de reconstrução da caldeira de recuperação.
-Link: https://www.moneytimes.com.br/klabin-klbn11-impacto-de-acidente-pode-variar-entre-4-e-7-do-ebitda-mas-e-administravel-diz-safra-pads/
-Por que importa: evento operacional afeta producao e custo no trimestre corrente
-Ativos: KLBN4
-Como falar: 'saiu no Money Times: Klabin (KLBN11): impacto de acidente pode afetar até 7% do Ebitda, mas é administrável, d…; confirmar o número no texto antes de repassar'
-Fonte: Money Times 18/11 17h38
-ids: E05-KLBN4-14cff2bf87-2026-11-18
-
-(pendente de slot anterior) [ATENÇÃO] E05 · BRENT · Petróleo fecha em queda em meio à alta do dólar e recuperação da oferta
-Money Times · 18/11 17h27 · fonte única · licença: integral
-Do texto:
-  – Negociado na Intercontinental Exchange de Londres (ICE), o petróleo Brent para janeiro fechou em queda de 1,27%, a US$ 91,95 o barril.
-  – O petróleo WTI para o mesmo mês recuou 2,76%, a US$ 82,31 o barril, na Nymex.
-  – Hoje, o Departamento de Energia (DoE, na sigla em inglês) dos EUA também anunciou alta de 3,38 milhões de barris nos estoques de petróleo na semana.
-Link: https://www.moneytimes.com.br/petroleo-fecha-em-queda-em-meio-a-alta-do-dolar-e-recuperacao-da-oferta-davs/
-Por que importa: oferta de acoes ou divida altera a base acionaria ou a alavancagem
-Ativos: BRENT · USDBRL
-Como falar: 'saiu no Money Times: Petróleo fecha em queda em meio à alta do dólar e recuperação da oferta; confirmar o número no texto antes de repassar'
-Fonte: Money Times 18/11 17h27
-ids: E05-BRENT-122d2b525c-2026-11-18
+ALERTAS · eventos
 
 (pendente de slot anterior) [ATENÇÃO] E05 · NVDA · Moody's lowers Nvidia outlook to stable from positive
 CNBC · 18/11 19h19 · + Bloomberg · licença: resumo
@@ -49,15 +9,14 @@ Como falar: 'saiu no CNBC: Moody's lowers Nvidia outlook to stable from positive
 Fonte: CNBC 18/11 19h19
 ids: E05-NVDA-3782606763-2026-11-18
 
-[ATENÇÃO] T13 · VIX cruzou 25: 27,9 (+14% no dia)
+(pendente de slot anterior) [ATENÇÃO] T13 · VIX cruzou 25: 27,9 (+14% no dia)
 VIX 27,9 (+14%)
 Por que importa: VIX acima de 20 é o mercado pagando por proteção; acima de 30 as correlações vão a 1 e o que manda é o tamanho da posição
 Como falar: 'dia de aversão a risco: não é hora de decidir pelo preço de tela'
 Fonte: Cboe via Yahoo, fech. 19/11
-Push: intradia: 5 alertas de atenção — regime VIX, E05 AXIA3, E05 GOOGL, E05 NVDA, S01 SISTEMA · detalhe na sessão
 ids: T13-VIX-vix25-2026-11-19
 
-[ATENÇÃO] E05 · AXIA3 · Axia prepara emissão de R$ 1 bilhão em debêntures para UHE Santo Antônio
+(pendente de slot anterior) [ATENÇÃO] E05 · AXIA3 · Axia prepara emissão de R$ 1 bilhão em debêntures para UHE Santo Antônio
 UOL Economia · 19/11 14h36 · fonte única · licença: manchete
 Link: https://megawhat.uol.com.br/geracao/axia-prepara-emissao-de-r-1-bilhao-em-debentures-para-uhe-santo-antonio/
 Por que importa: oferta de acoes ou divida altera a base acionaria ou a alavancagem
@@ -66,7 +25,7 @@ Como falar: 'saiu no UOL Economia: Axia prepara emissão de R$ 1 bilhão em deb�
 Fonte: UOL Economia 19/11 14h36
 ids: E05-AXIA3-8a797ef5ea-2026-11-19
 
-[ATENÇÃO] E05 · GOOGL · Alphabet (GOOG) Slips as 2026 Capex Outlook Rises
+(pendente de slot anterior) [ATENÇÃO] E05 · GOOGL · Alphabet (GOOG) Slips as 2026 Capex Outlook Rises
 Yahoo Finance · 19/11 13h07 · fonte única · licença: resumo
 Trechos (licença resumo: reescrever, não colar):
   – RiverPark Advisors, an investment advisory firm and sponsor of the RiverPark family of mutual funds, released its "RiverPark Large Growth Fund" Q3 2026 investor letter.
@@ -82,7 +41,7 @@ Como falar: 'saiu no Yahoo Finance: Alphabet (GOOG) Slips as 2026 Capex Outlook 
 Fonte: Yahoo Finance 19/11 13h07
 ids: E05-GOOGL-2ecf140715-2026-11-19
 
-[ATENÇÃO] E05 · NVDA · Intel Climbs 7% on First 18A Customer, NVIDIA Gains 4% as Trump Floats Blackwell Sales to China and Dan Ives Hails Anthropic IPO; AMD Rises 3%
+(pendente de slot anterior) [ATENÇÃO] E05 · NVDA · Intel Climbs 7% on First 18A Customer, NVIDIA Gains 4% as Trump Floats Blackwell Sales to China and Dan Ives Hails Anthropic IPO; AMD Rises 3%
 Yahoo Finance · 19/11 11h56 · fonte única · licença: resumo
 Trechos (licença resumo: reescrever, não colar):
   – - Intel still faces a $1.85 billion quarterly foundry loss and a lingering PC slump, so its next 18A customer is the one to watch.
@@ -98,41 +57,76 @@ Como falar: 'saiu no Yahoo Finance: Intel Climbs 7% on First 18A Customer, NVIDI
 Fonte: Yahoo Finance 19/11 11h56
 ids: E05-NVDA-b50e91e1eb-2026-11-19
 
-[ATENÇÃO] S01 · coleta do slot intradia saiu incompleta: bcb: BCB devolveu 4 de 5 séries (faltaram ipca_mes)
+(pendente de slot anterior) [ATENÇÃO] S01 · coleta do slot intradia saiu incompleta: bcb: BCB devolveu 4 de 5 séries (faltaram ipca_mes)
 O que fiz: entreguei as seções disponíveis; as pernas que falharam estão em LACUNAS.
 Por que importa: silêncio é lido como 'está tudo bem'; declarar a falha é o que permite confiar no restante
 Fonte: manifest do runner
 ids: S01-SISTEMA-intradia-2026-11-19
 
-Info (só linha no Fechamento):
-· F01 Real cai: USD/BRL 5,9178 (+4,7% em 5 sessões) (parcial, intradia)
-· M01 Agenda: Vencimento de opcoes sobre acoes (B3, rolado pelo feriado de 20/11) amanhã (23/11)
-· E05 VALE3 · Vale: BTG reduz preço-alvo, mas mantém recomendação de compra apesar de desafios em Serra Norte
-· E05 VALE3 · Vale: Serra Norte vira nova preocupação para o mercado, mas analistas mantêm compra
-· E05 VALE3 · BTG corta projeções da Vale e faz alerta: comprar a ação agora pode não valer a pena
-· E05 USDBRL · BC erra ao intervir na cotação do dólar, diz ex-chefe de departamento da autarquia
-· E05 USDBRL · Dólar sobe após bater máxima a R$ 5,93, na maior cotação em 19 meses
-· E05 TESOURO · Juros disparam e Tesouro Direto suspende negociação de prefixados e IPCA+
-· E05 VALE3 · Vale Indonésia aumentará produção de níquel matte para 73 mil toneladas em 2027
-· E05 AMD · AMD Slides After Hunterbrook Shorts Stock, Cites Circular Deals
-· E05 AMD · Why AMD Stock Was Plunging on Thursday
-· E05 USDBRL · Dólar sobe depois de aprovação de pacote
-· E05 USDBRL · Dólar chega a R$ 5,92, mas modera alta após intervenção do Banco Central
-· E05 AMD · AMD shares slide over 9% after short seller raises concerns over China exposure
-· E05 AMD · AMD stock drops after Hunterbrook Media raises export control concerns
-· E05 USDBRL · Dólar supera R$5,90 apesar de leilão do BC e taxas dos DIs avançam com pressão fiscal
-· E05 USDBRL · Dólar ganha (ainda mais) fôlego e passa os R$ 5,90 — e aqui estão os motores da disparada do dia
-· E05 KLBN4 · Acidente na Klabin (KLBN11) preocupa, mas bancos apontam efeito contido
-· E05 AXIA3 · Axia Energia lança oferta de R$ 1,2 bi em debêntures para hidrelétrica
-· E05 KLBN4 · Explosão suspende operações em 3º maior complexo da Klabin
+[ATENÇÃO] E05 · BABA · EQUITY ALERT: Rosen Law Firm Files Securities Class Action Lawsuit on Behalf of Alibaba Group Holding Limited Investors – BABA
+Business Wire · 19/11 15h50 · fonte única · licença: integral
+Link: https://www.businesswire.com/news/home/20261119870639/en/EQUITY-ALERT-Rosen-Law-Firm-Files-Securities-Class-Action-Lawsuit-on-Behalf-of-Alibaba-Group-Holding-Limited-Investors-BABA
+Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e prazo
+Ativos: BABA
+Como falar: 'saiu no Business Wire: EQUITY ALERT: Rosen Law Firm Files Securities Class Action Lawsuit on Behalf of Alibaba G…; confirmar o número no texto antes de repassar'
+Fonte: Business Wire 19/11 15h50
+Push: eventos: 3 alertas de atenção — E05 BABA, E05 NVDA, E05 BTC · detalhe na sessão
+ids: E05-BABA-e171147901-2026-11-19
 
-Suprimidos pelo teto (viram linha do Fechamento): E05-KLBN4-5955ddc472-2026-11-19 (teto de noticias), E05-AXIA3-3ff4def5e4-2026-11-19 (teto de noticias), E05-KLBN4-90d44c0465-2026-11-19 (teto de noticias)
+[ATENÇÃO] E05 · NVDA · Nvidia Stocks Rise 4.63% as $10 Billion Anthropic Stake Lands on IPO Day
+TradingView (Reuters) · 19/11 14h36 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/gurufocus:de797ecf3094b:0-nvidia-stocks-rise-4-63-as-10-billion-anthropic-stake-lands-on-ipo-day/
+Por que importa: oferta de acoes ou divida altera a base acionaria ou a alavancagem
+Ativos: NVDA
+Como falar: 'saiu no TradingView (Reuters): Nvidia Stocks Rise 4.63% as $10 Billion Anthropic Stake Lands on IPO Day; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 19/11 14h36
+ids: E05-NVDA-5cced55572-2026-11-19
+
+[ATENÇÃO] E05 · BTC · Sweden’s H100 Considers Using Bitcoin Trading Pool to Fund Share Buyback
+Yahoo Finance · 19/11 12h45 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Swedish Bitcoin (CRYPTO: $BTC) treasury company H100 Group (NASDAQ Stockholm: H100) is considering using Bitcoin from its active trading pool to support share buybacks.
+  – The company announced Thursday that its board will ask shareholders to authorize the buybacks at an extraordinary general meeting on December 7.
+  – The proposal comes as new Swedish rules allowing companies listed on the NGM Growth Market to repurchase their own shares take effect on December 5.
+  – BTC from the active pool may be allocated for this purpose," H100 CEO Eirik Grøttum said in the company's third-quarter report.
+  – H100 held 233.42 Bitcoin in its active pool as of September 30, down from a loss of approximately 30 BTC during the third quarter.
+  – The company separately held 3,243.38 BTC in its long-term treasury, bringing its total holdings to 3,476.8 BTC.
+Link: https://finance.yahoo.com/markets/crypto/articles/sweden-h100-considers-using-bitcoin-154500668.html
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: BTC
+Como falar: 'saiu no Yahoo Finance: Sweden’s H100 Considers Using Bitcoin Trading Pool to Fund Share Buyback; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 19/11 12h45
+ids: E05-BTC-28af0b835e-2026-11-19
+
+Info (só linha no Fechamento):
+· E04 BABA · 6-K: 6-K
+· E05 USDBRL · Dólar vai a R$ 5,93 e renova máxima do ano apesar de leilão do BC
+· E05 BTC · Can Bitcoin Reach Standard Chartered’s $500,000 Target by 2030?
+· E05 UGPA3 · ‘Mais importante que a cifra do ajuste é a confiança de que ele será executado’, diz CEO da Ultrapar
+· E05 MINERIO · Australian PM to meet Xi Jinping as iron ore tensions loom
+· E05 BBDC4 · CEO do Bradesco prega ‘pé no chão e prudência’ em 2027 adverso | Finanças
+· E05 USDBRL · Por que o dólar passou de R$ 5,90 hoje?
+· E05 USDBRL · Dólar sobe 1,15%, na 6ª alta seguida, e se aproxima de R$ 6 mesmo com intervenção do BC
+· E05 ITUB4 · NOVO11: ETF reúne Nubank, Itaú, Petrobras e Mercado Livre em uma só cota
+· E05 USDBRL · Dólar à vista fecha em alta de 1,10%, a R$5,9323 na venda Por Reuters
+· E05 AMD · Looks Like AMD Also Has A China Problem
+· E05 USDBRL · Dólar vai a R$ 5,93 e juros vão às máximas do ano; Bolsa cai
+· E05 TSLA · Tesla Expands Cybercab To Dallas In First Move Outside Austin
+· E05 INTC · Intel Hits Its IT Organization With Another Round of Layoffs
+· E05 USDBRL · Mercado de câmbio trava após fala de Lula sobre escolha de ministros e BC intervém com leilão de dólar
+· E05 BTC · Bitcoin Enters Death Cross as Anthropic IPO Fails to Lift Wall Street
+· E05 NVDA · Moody’s Lowers Nvidia’s Ratings Outlook to Stable From Positive
+
+Suprimidos pelo teto (viram linha do Fechamento): E05-NVDA-1bec3d5dfb-2026-11-18 (teto de noticias)
 
 Alertas do dia (todos, com status):
+· pendente  E05 BABA — BABA · EQUITY ALERT: Rosen Law Firm Files Securities Class Action Lawsuit on Beh
+· pendente  E05 NVDA — NVDA · Nvidia Stocks Rise 4.63% as $10 Billion Anthropic Stake Lands on IPO Day
+· pendente  E05 BTC — BTC · Sweden’s H100 Considers Using Bitcoin Trading Pool to Fund Share Buyback
 · pendente  T13 VIX — VIX cruzou 25: 27,9 (+14% no dia)
 · pendente  E05 AXIA3 — AXIA3 · Axia prepara emissão de R$ 1 bilhão em debêntures para UHE Santo Antônio
 · pendente  E05 GOOGL — GOOGL · Alphabet (GOOG) Slips as 2026 Capex Outlook Rises
 · pendente  E05 NVDA — NVDA · Intel Climbs 7% on First 18A Customer, NVIDIA Gains 4% as Trump Floats Bl
 · pendente  S01 SISTEMA — coleta do slot intradia saiu incompleta: bcb: BCB devolveu 4 de 5 séries (faltar
 · linha     F01 USDBRL — Real cai: USD/BRL 5,9178 (+4,7% em 5 sessões) (parcial, intradia)
-· (+24 notícias só manchete, em noticias.md)
+· (+41 notícias só manchete, em noticias.md)

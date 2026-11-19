@@ -1,8 +1,73 @@
-NOTÍCIAS E FATOS · 19/11 16h29
+NOTÍCIAS E FATOS · 19/11 18h18
 
-Pernas: noticias ok 21 novas (18 consultas; descartadas: 303 veículo fora da lista, 17 sem ativo, 38 teto); 4 falhas · cvm ok 0 novos de 13 (6 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 19 novas (18 consultas; descartadas: 391 veículo fora da lista, 16 sem ativo, 53 teto) · cvm ok 0 novos de 13 (6 cias casadas) · sec ok 1 novos em 3 dias
 
-## NOTÍCIAS COM MATERIALIDADE (6)
+## SEC (8-K, 6-K, 10-Q, 10-K) (1)
+
+[INFO] E04 · BABA · 6-K: 6-K
+SEC EDGAR · aceito 19/11 18h00 · FORM 6-K
+Do documento:
+  – 6-K  1  tm2630263d1_6k.htm  FORM 6-K  UNITED STATES   SECURITIES AND EXCHANGE COMMISSION   Washington, D.C.
+  – ALIBABA GROUP HOLDING LIMITED   Date: November 19 , 2026   By:   /s/ Toby Hong XU   Name:   Toby Hong XU   Title:   Chief Financial Officer   3
+Link: https://www.sec.gov/Archives/edgar/data/1577552/000110465926130115/tm2630263d1_6k.htm
+Por que importa: 6-K e o relatorio de emissor estrangeiro: resultado, provento ou fato relevante do pais de origem
+Ativos: BABA
+Como falar: 'a BABA protocolou 6-K na SEC (6-K)'
+Fonte: SEC EDGAR 2026-11-19
+id: E04-BABA-26130115-2026-11-19 · status: linha · íntegra disponível
+
+
+## NOTÍCIAS COM MATERIALIDADE (10)
+
+[ATENÇÃO] E05 · BABA · EQUITY ALERT: Rosen Law Firm Files Securities Class Action Lawsuit on Behalf of Alibaba Group Holding Limited Investors – BABA
+Business Wire · 19/11 15h50 · fonte única · licença: integral
+Link: https://www.businesswire.com/news/home/20261119870639/en/EQUITY-ALERT-Rosen-Law-Firm-Files-Securities-Class-Action-Lawsuit-on-Behalf-of-Alibaba-Group-Holding-Limited-Investors-BABA
+Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e prazo
+Ativos: BABA
+Como falar: 'saiu no Business Wire: EQUITY ALERT: Rosen Law Firm Files Securities Class Action Lawsuit on Behalf of Alibaba G…; confirmar o número no texto antes de repassar'
+Fonte: Business Wire 19/11 15h50
+id: E05-BABA-e171147901-2026-11-19 · status: pendente
+
+[ATENÇÃO] E05 · NVDA · Nvidia Stocks Rise 4.63% as $10 Billion Anthropic Stake Lands on IPO Day
+TradingView (Reuters) · 19/11 14h36 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/gurufocus:de797ecf3094b:0-nvidia-stocks-rise-4-63-as-10-billion-anthropic-stake-lands-on-ipo-day/
+Por que importa: oferta de acoes ou divida altera a base acionaria ou a alavancagem
+Ativos: NVDA
+Como falar: 'saiu no TradingView (Reuters): Nvidia Stocks Rise 4.63% as $10 Billion Anthropic Stake Lands on IPO Day; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 19/11 14h36
+id: E05-NVDA-5cced55572-2026-11-19 · status: pendente
+
+[ATENÇÃO] E05 · BTC · Sweden’s H100 Considers Using Bitcoin Trading Pool to Fund Share Buyback
+Yahoo Finance · 19/11 12h45 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Swedish Bitcoin (CRYPTO: $BTC) treasury company H100 Group (NASDAQ Stockholm: H100) is considering using Bitcoin from its active trading pool to support share buybacks.
+  – The company announced Thursday that its board will ask shareholders to authorize the buybacks at an extraordinary general meeting on December 7.
+  – The proposal comes as new Swedish rules allowing companies listed on the NGM Growth Market to repurchase their own shares take effect on December 5.
+  – BTC from the active pool may be allocated for this purpose," H100 CEO Eirik Grøttum said in the company's third-quarter report.
+  – H100 held 233.42 Bitcoin in its active pool as of September 30, down from a loss of approximately 30 BTC during the third quarter.
+  – The company separately held 3,243.38 BTC in its long-term treasury, bringing its total holdings to 3,476.8 BTC.
+Link: https://finance.yahoo.com/markets/crypto/articles/sweden-h100-considers-using-bitcoin-154500668.html
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: BTC
+Como falar: 'saiu no Yahoo Finance: Sweden’s H100 Considers Using Bitcoin Trading Pool to Fund Share Buyback; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 19/11 12h45
+id: E05-BTC-28af0b835e-2026-11-19 · status: pendente
+
+[ATENÇÃO] E05 · NVDA · Moody’s Lowers Nvidia’s Ratings Outlook to Stable From Positive
+Yahoo Finance · 18/11 19h29 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – "It also could have repercussions for the growth strategy, which is supported by Nvidia's vast network of relationships across the AI ecosystem." The world's largest chipmaker cut ties with Huang on Nov.
+  – 12 after revelations about his extramarital affairs spurred a widening scandal.
+  – Nvidia, which Huang ran for more than 30 years, is now actively recruiting for his replacement and has approached Arm Holdings Plc Chief Executive Officer Rene Haas as part of its hunt.
+  – Moody's affirmed Nvidia's Aa1 senior unsecured rating — the second highest for Moody's — and Prime-1 short-term commercial paper program rating.
+  – The lower outlook means an upgrade is unlikely over the next 12 to 18 months, the agency said.
+  – A $200 Million Bet That They Can ©2026 Bloomberg L.P.
+Link: https://finance.yahoo.com/markets/stocks/articles/moody-lowers-nvidia-ratings-outlook-222901110.html
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: NVDA
+Como falar: 'saiu no Yahoo Finance: Moody’s Lowers Nvidia’s Ratings Outlook to Stable From Positive; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 18/11 19h29
+id: E05-NVDA-1bec3d5dfb-2026-11-18 · status: linha
 
 [ATENÇÃO] E05 · AXIA3 · Axia prepara emissão de R$ 1 bilhão em debêntures para UHE Santo Antônio
 UOL Economia · 19/11 14h36 · fonte única · licença: manchete
@@ -82,8 +147,23 @@ Fonte: Valor Economico 19/11 05h00
 id: E05-KLBN4-90d44c0465-2026-11-19 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (20)
+## OUTRAS NOTÍCIAS (só manchete) (35)
 
+· USDBRL Dólar vai a R$ 5,93 e renova máxima do ano apesar de leilão do BC (Poder360) https://www.poder360.com.br/poder-economia/dolar-vai-a-r-593-e-renova-maxima-do-ano-apesar-de-leilao-do-bc
+· BTC Can Bitcoin Reach Standard Chartered’s $500,000 Target by 2030? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-reach-standard-chartered-500-210325550.html
+· UGPA3 ‘Mais importante que a cifra do ajuste é a confiança de que ele será executado’, diz CEO da Ultrapar (Estadao) https://www.estadao.com.br/economia/mais-importante-que-a-cifra-do-ajuste-e-a-confianca-de-que-ele-sera-executado-diz-ceo-da-ultrapar/
+· MINERIO Australian PM to meet Xi Jinping as iron ore tensions loom (Financial Times) https://www.ft.com/content/ddbf0f75-047a-421a-87c0-3e60bf42ed22?syn-25a6b1a6=1
+· BBDC4 CEO do Bradesco prega ‘pé no chão e prudência’ em 2027 adverso | Finanças (Valor Economico) https://valor.globo.com/financas/noticia/2026/11/19/ceo-do-bradesco-prega-pe-no-chao-e-prudencia-em-2027-adverso.ghtml
+· USDBRL Por que o dólar passou de R$ 5,90 hoje? (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/por-que-o-dolar-passou-de-r-590-hoje/
+· USDBRL Dólar sobe 1,15%, na 6ª alta seguida, e se aproxima de R$ 6 mesmo com intervenção do BC (Exame) https://exame.com/invest/mercados/dolar-sobe-115-na-6a-alta-seguida-e-se-aproxima-de-r-6-mesmo-com-intervencao-do-bc/
+· ITUB4 NOVO11: ETF reúne Nubank, Itaú, Petrobras e Mercado Livre em uma só cota (Suno Noticias) https://www.suno.com.br/noticias/novo11-investe-nubank-itau/
+· USDBRL Dólar à vista fecha em alta de 1,10%, a R$5,9323 na venda Por Reuters (Investing.com) https://br.investing.com/news/forex-news/dolar-a-vista-fecha-em-alta-de-110-a-r59323-na-venda-2133235
+· AMD Looks Like AMD Also Has A China Problem (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/looks-amd-china-problem-201254374.html
+· USDBRL Dólar vai a R$ 5,93 e juros vão às máximas do ano; Bolsa cai (O Globo) https://oglobo.globo.com/economia/financas/noticia/2026/11/19/dolar-hoje-maxima-ano-5-93.ghtml
+· TSLA Tesla Expands Cybercab To Dallas In First Move Outside Austin (TradingView (Reuters)) https://news.google.com/rss/articles/CBMivwFBVV95cUxPUWNoV05zMWplT2xmTlRqa3k2VGFER3VhOXhWcm4zajVHMVBRdUx5R0lXbTRhWDE1M0xXMEwtTnB3WU8xVGVXdW1UTzZhaXRYUngwWV9aaGk4aDI2bUVxeTY2emdtUFVvUkRkV2hHUmFyTGtjNGtZTE1pNEhuTXRXeFZjUlhwRldMS1pEVTFUeDFtNFc0ejd5TjJjRkMxdXZSMUhycVlSbmpVU19jV0xQb1BkZHMtMVpQOXVkZ1BxUQ?oc=5
+· INTC Intel Hits Its IT Organization With Another Round of Layoffs (Yahoo Finance) https://news.google.com/rss/articles/CBMinwFBVV95cUxQUzJiTnVIOHhJRTJrZzRTcDRUYk5SRHVXY0dxdW1KU0YzeEdYOXhpVFVKY1FPMHdMSW9xcjRVcG5CVlhwREdyZU1jVFhNaExIRTNqaGwzR0dwMkZhQ1ZweGZVVVBkZlUtM1N5a2YzWkxicXJxNWNDLWtwVnBSOFRUclNFVkNEdjVQdWpvcVlJRWNTaUt3ektvbU1XTTFzY1k?oc=5
+· USDBRL Mercado de câmbio trava após fala de Lula sobre escolha de ministros e BC intervém com leilão de dólar (g1) https://news.google.com/rss/articles/CBMi_wFBVV95cUxQS3F4c3dNZmhwZ2FaZ2ZWdkxCOWo2WmZsWGFqWTdKTVJWNENFZ19KQjRfUmFTZWFTUDMyekEwSk1SQXpYR1Y4cktzN2lxTWdhT2FkRk9xZ0xxZlB0d2N0QVNaUDlKZ1ljNGdYeW1tSnpUejEzanNoU3F5T3lHclZQWjVscUc5OEFsLUFlN1dLMU0wWnVIel9NMDVwMFg3RVdSMUg0Z2F0NkxROFVXRU9UQ0NZM25adWV4TTBOR2w4bDNPLXpjbUFZY0JHX05qZTB1WThVd0JXM3JrYVhZUUsxUndqVGpfVk5iaGR0V25VS243b0xZZlRteGd5ZnV5Mk3SAY4CQVVfeXFMT0JOSFpnTHZ6UUxENkszVUs4R2F1c185aVFENm1Eb3lIQmEtUGMwNjJPMGZqc2JHQlFmbTl0WW02X1BQV1JNUHVRSG5yMGNKc3IyYnVzVHduc2pDb2tkRzVIbV90X3E2N2F1LXpvaHpYWUpEUHpENDJpc1hwdjJSdE03aVExTlRuV2l1SXIxVzAxeHp0Z05IT05vdVQ3TG1XM2hSb3RxVGlWLUxQdUJmbWdqaEEtaHg0dVlXdEVOOWNRUFNNTEk4X1VQR3BvcnBuZHg4d2NkR05wcl9meFNlMUFudk1TcmlpcF9ueU9vQkJjeEl2SFd4aEw1M0xZeTU4NF9OVlhZS19VTUlvdnVn?oc=5
+· BTC Bitcoin Enters Death Cross as Anthropic IPO Fails to Lift Wall Street (Yahoo Finance) https://news.google.com/rss/articles/CBMiowFBVV95cUxNRDNLR2g5M3dqRmtrcEpvREdaMVdOUmZkSG96dDV2aUR4YUxfTExXMXpHTzA0ajFSekJ2T2ItQ0dRd1hlWmt3QW5jdWd2UndMTGd5SHBoQ2RqSWU3LWxTaEFySF9JS0tEZ2hUMzZGM0NZQ0FhY1ZTRWdFUHMxaFZKR01VQUxTal9sLUFnNnFyYzJjeTZGQ1JaZEFDY2FRZHUxNllr?oc=5
 · VALE3 Vale: BTG reduz preço-alvo, mas mantém recomendação de compra apesar de desafios em Serra Norte (ADVFN) https://br.advfn.com/jornal/2026/11/vale-btg-reduz-preco-alvo-mas-mantem-recomendacao-de-compra-apesar-de-desafios-em-serra-norte
 · VALE3 Vale: Serra Norte vira nova preocupação para o mercado, mas analistas mantêm compra (InfoMoney) https://www.infomoney.com.br/mercados/vale-vale3-serra-norte-vira-nova-preocupacao-para-mercado-mas-analistas-mantem-compra-acao/
 · VALE3 BTG corta projeções da Vale e faz alerta: comprar a ação agora pode não valer a pena (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/btg-corta-projecoes-da-vale-e-faz-alerta-comprar-a-acao-agora-pode-nao-valer-a-pena/
