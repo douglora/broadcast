@@ -1,6 +1,6 @@
 {
  "pregao": "2026-11-17",
- "coletado_em": "2026-11-19T00:50:58Z",
+ "coletado_em": "2026-11-19T07:53:20Z",
  "tabelas": {
   "SharesInvesVolum": {
    "titulo": "Participação dos investidores",
@@ -409,7 +409,7 @@
   "sem_cadastro": 0,
   "erros": 0,
   "ficaram_para_depois": 0,
-  "no_cache": 3836
+  "no_cache": 3844
  },
  "anbima": {
   "situacao": "publicado",
