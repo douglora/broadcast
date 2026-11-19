@@ -1,5 +1,5 @@
 {
- "pregao": "2026-11-17",
+ "pregao": "2026-11-18",
  "nome": "Forward",
  "titulo": "Ações mais negociadas - a termo",
  "sla": "8:00:00",
@@ -7,13 +7,13 @@
  "colunas": [{"nome": "TckrSymb", "titulo": "Ação"}, {"nome": "Cod", "titulo": "Código"}, {"nome": "Term", "titulo": "Prazo"}, {"nome": "Closing", "titulo": ""}, {"nome": "TradQty", "titulo": ""}, {"nome": "VlmTradedDay", "titulo": "Volume (R$) mil"}, {"nome": "Part", "titulo": "Participação (%)"}],
  "texto": ["Lista ações com maior volume de negociação em contratos a termo, destacando as mais ativas."],
  "situacao": "republicado",
- "atualizado_em": "2026-11-18T10:55:18.81",
+ "atualizado_em": "2026-11-18T21:46:13.633",
  "truncada": false,
  "linhas": [
-  ["INVESTOUTIL CI", "CI", 30, 119.63, 60000, 7177.8, 0.8411088000868023],
-  ["INVESTOUTIL CI", "CI", 62, 120.8, 62000, 7489.6, 0.8691457600896959],
-  ["AXIA ENERGIAON      NM", "ON      NM", 80, 48.99, 160000, 7838.4, 2.242956800231473],
-  ["ENEVA       ON      NM", "ON      NM", 80, 27.55, 360000, 9918, 5.046652800520814],
-  ["MRV         ON      NM", "ON      NM", 360, 5.72, 1281000, 7327.32, 17.957672881853235]
+  ["ISHARES BOVACI", "CI", 180, 175.94, 52100, 9166.474, 0.5699646359370032],
+  ["TESLA INC   DRN", "DRN", 42, 71.23, 280000, 19944.4, 3.0631496749013607],
+  ["AXIA ENERGIAON      NM", "ON      NM", 42, 47.22, 440000, 20776.8, 4.813520917702139],
+  ["AXIA ENERGIAON      NM", "ON      NM", 90, 48.93, 700000, 34251, 7.657874187253403],
+  ["FII CAPI SECCI  ER", "CI  ER", 30, 6.65, 1468000, 9762.2, 16.059656152697134]
  ]
 }
