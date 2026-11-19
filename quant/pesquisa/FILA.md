@@ -23,6 +23,8 @@ metodo em quant/saida/pesquisa5/BRIEF.md) e move a linha para "Testadas" com os 
 14. PROVA VIVA do dolar em prazo de dias (tendencia `tsm_media`, parametros congelados em 10/10/2026): rodar
    `quant/saida/pesquisa5/dolar_dias/coletar.py` e `sinal_hoje.py` todo dia util e comparar, so com pregoes de 13/10/2026 em
    diante, com o resultado que a regra teria dado. Precisa do pacote yfinance no .venv. Nada opera.
+   19/11/2026: PARADA. O coletor so traz yfinance ate 09/10 (di_curva ate 30/10) e o sinal_hoje.py grava NaN desde 26/10 (falta o
+   arquivo sgs7806, que parou em 2019). Sem dado novo nao ha prova viva; consertar o coletor e decisao dele (pesquisa, nao a rotina).
 15. Dados gratuitos do dolar ainda sem teste (lista em `dolar_dias/RESULTADO.md`, parte 3): expectativas Focus, fluxo
    cambial contratado do BC, posicao de BRL no CME (CFTC), cambio real (IPCA x CPI), estoque de swap cambial do BC, e a curva
    de cupom cambial 2002-2021 da B3.
