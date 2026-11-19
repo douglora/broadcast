@@ -1,8 +1,8 @@
-NOTÍCIAS E FATOS · 18/11 18h16
+NOTÍCIAS E FATOS · 18/11 23h29
 
-Pernas: noticias ok 16 novas (18 consultas; descartadas: 391 veículo fora da lista, 16 sem ativo, 12 teto) · cvm ok 1 novos de 12 (6 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 16 novas (18 consultas; descartadas: 391 veículo fora da lista, 16 sem ativo, 18 teto); 1 falhas · cvm ok 1 novos de 13 (6 cias casadas) · sec ok 0 novos em 3 dias
 
-## FATOS RELEVANTES E COMUNICADOS (CVM) (1)
+## FATOS RELEVANTES E COMUNICADOS (CVM) (2)
 
 [ATENÇÃO] E03 · KLBN4 · Fato Relevante: Registrou hoje uma ocorrência envolvendo a caldeira de recuperação da Unidade Otacílio Costa (SC).
 CVM · entregue 18/11/2026 15:01
@@ -15,8 +15,26 @@ Como falar: 'a Klabin publicou fato relevante sobre Registrou hoje uma ocorrênc
 Fonte: CVM 18/11
 id: E03-KLBN4-1591019-2026-11-18 · status: pendente · íntegra disponível
 
+[INFO] E03 · AXIA3 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
+CVM · entregue 18/11/2026 20:28 · Outros Comunicados Não Considerados Fatos Relevantes
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1591286
+Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; confirma ou nega o que circula
+Ativos: AXIA3
+Como falar: 'a Axia Energia publicou comunicado ao mercado sobre Outros Comunicados Não Considerados Fatos Relevantes'
+Fonte: CVM 18/11
+id: E03-AXIA3-1591286-2026-11-18 · status: linha
 
-## NOTÍCIAS COM MATERIALIDADE (4)
+
+## NOTÍCIAS COM MATERIALIDADE (5)
+
+[ATENÇÃO] E05 · NVDA · Moody's lowers Nvidia outlook to stable from positive
+CNBC · 18/11 19h19 · + Bloomberg · licença: resumo
+Link: https://www.cnbc.com/video/2026/11/18/moodys-lowers-nvidia-outlook-to-stable-from-positive.html
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: NVDA
+Como falar: 'saiu no CNBC: Moody's lowers Nvidia outlook to stable from positive; confirmar o número no texto antes de repassar'
+Fonte: CNBC 18/11 19h19
+id: E05-NVDA-3782606763-2026-11-18 · status: pendente
 
 [ATENÇÃO] E05 · KLBN4 · Klabin (KLBN11): impacto de acidente pode afetar até 7% do Ebitda, mas é administrável, diz Safra
 Money Times · 18/11 17h38 · fonte única · licença: integral
@@ -54,7 +72,7 @@ Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais
 Ativos: NVDA
 Como falar: 'saiu no Investing.com: JPMorgan raises Nvidia stock price target to $230 on guidance; confirmar o número no texto antes de repassar'
 Fonte: Investing.com 18/11 09h31
-id: E05-NVDA-2007c7b41e-2026-11-18 · status: pendente
+id: E05-NVDA-2007c7b41e-2026-11-18 · status: expirado
 
 [ATENÇÃO] E05 · PETR4 · Petrobras (PETR4): Citi coloca novo risco para dividendos e corta preço-alvo
 Money Times · 17/11 18h21 · fonte única · licença: integral
@@ -66,11 +84,26 @@ Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir
 Ativos: PETR4
 Como falar: 'saiu no Money Times: Petrobras (PETR4): Citi coloca novo risco para dividendos e corta preço-alvo; confirmar o número no texto antes de repassar'
 Fonte: Money Times 17/11 18h21
-id: E05-PETR4-0eff9532a3-2026-11-17 · status: pendente · íntegra disponível
+id: E05-PETR4-0eff9532a3-2026-11-17 · status: expirado · íntegra disponível
 
 
-## OUTRAS NOTÍCIAS (só manchete) (38)
+## OUTRAS NOTÍCIAS (só manchete) (53)
 
+· AMD Why Is AMD Stock Rising Overnight? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/why-amd-stock-rising-overnight-020525527.html
+· USDBRL Dólar norte-americano oscila perto da maior cotação em 19 meses; dólar australiano cai após dados fracos sobre o mercado de trabalho (TradingView (Reuters)) https://br.tradingview.com/news/reuters.com,2026:newsml_L2N470031:0/
+· INTC Intel signs first external customer for advanced 18A chips (CNBC) https://www.cnbc.com/2026/11/18/intel-first-18a-foundry-customer.html
+· NVDA After Nvidia’s Earnings, Here’s My Prediction for the Stock Price by the End of the Year (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/nvidia-earnings-prediction-stock-price-002502278.html
+· NVDA Elon Musk Says Nvidia Ousting Jensen Huang Is Like Kicking Michael Jordan Off A Winning Team (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/elon-musk-says-nvidia-ousting-002332874.html
+· GOOGL Is Alphabet Stock a Buy Right Now? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/alphabet-stock-buy-now-235702314.html
+· NVDA Nvidia Turmoil Spurs Valuation Rethink of Japan’s AI Shares (Bloomberg) https://www.bloomberg.com/news/articles/2026-11-18/nvidia-turmoil-spurs-valuation-rethink-of-japan-s-ai-shares
+· JPM JPMorgan taps 20-year company veteran Bregje de Best as its next CFO (Fortune) https://fortune.com/2026/11/18/jpmorgan-taps-20-year-company-veteran-bregje-de-best-as-its-next-cfo/
+· NVDA Nvidia (NVDA) Stock Drops Despite Q3 Results Showing Huge AI Earnings (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/nvidia-nvda-stock-drops-despite-232131314.html
+· UST FOMC Meeting Explained: Statement, Conference, and Reaction for AMEX:SPY by ClearStreet (TradingView (Reuters)) https://www.tradingview.com/chart/SPY/IkKAi8Ri-FOMC-Meeting-Explained-Statement-Conference-and-Reaction/
+· BTC Analyst warns Anthropic IPO is pulling money out of Bitcoin (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/analyst-warns-anthropic-ipo-pulling-224557665.html
+· USDBRL Dólar sobe para R$ 5,87 com expectativa sobre votação de ajuste fiscal (Agencia Brasil) https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/dolar-sobe-para-r-587-com-expectativa-sobre-votacao-de-ajuste-fiscal
+· JPM JPMorgan Chase & Co. (JPM) Sees a More Significant Dip Than Broader Market: Some Facts to Know (Yahoo Finance) https://uk.finance.yahoo.com/news/jpmorgan-chase-co-jpm-sees-214502926.html
+· UST U.S. Treasury Prices Rise as Steady 20-Year Auction Supports Longer-Dated Bonds (TradingView (Reuters)) https://news.google.com/rss/articles/CBMi2AFBVV95cUxOb0RUZjNHS1F4MlZPaVFrSDdibU0teWxJUGloeGhGal92c0tmVTA5eHhPak5rQWlEcTFCcUhSZzhGem80V1Q0UHl1Ullia21WaDk0eGtpN2hkbGVxUFp3M2oxb19ycXY4WWQxNHdEWkhzLXEwVkpzQTNSSDM3NVRYNWNJOVpWeHY4clFIYXd4aEUtZ01POXZid1haWW8weXhYMFR2Q3ZncjZEYnI1RDgwV0YtVnhYYUlDcE55alR2U21lVlF0V01NWW4zQlhlVGxKVUVuREdsTEc?oc=5
+· NVDA Wall Street ends mixed after Nvidia earnings, Fed minutes (Yahoo Finance) https://news.google.com/rss/articles/CBMiogFBVV95cUxOWW5jUWw3eWpMVDFtWWJvWUxCOWVfblVVMmt1Vk45aW82c0M3dkswaHVNalpCM3dDWHdBM0lwVUhLMGhVUldUT0lYVmNNek4xNlJmVkJVdzBQYVM1Ni1IbklGTjVZUElxYy12dG1uWUJyb2NQbHE5bUlMdXpwdkhqZTJGb0lCWlBha3ZqUHpkb3ZCdmtEYlAzLWRhVjFtZ0tlWHc?oc=5
 · USDBRL Dólar à vista supera os R$ 5,85 e fecha na maior cotação em 19 meses (Money Times) https://www.moneytimes.com.br/dolar-a-vista-supera-os-r-585-e-fecha-na-maior-cotacao-em-19-meses-davs/
 · EQTL3 EQTL3: ANEEL aprova revisão tarifária periódica da CEEE-D (Suno Noticias) https://www.suno.com.br/noticias/eqtl3-aneel-revisao-tarifaria-ceee-d/
 · NVDA Nvidia retreats as strong outlook fails to dispel uncertainty (Reuters) https://www.reuters.com/business/ai-stocks-rally-nvidia-outlook-calms-demand-fears-2026-11-18/
