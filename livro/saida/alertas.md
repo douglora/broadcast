@@ -1,39 +1,4 @@
-ALERTAS · Fechamento 18h
-
-(pendente de slot anterior) [INFO] M01 · Agenda: Vencimento de opcoes sobre indice e futuros de Ibovespa (B3) hoje (18/11)
-O que está no preço: F28 14,51% · F35 15,25% · Focus IPCA 2027 5,00%
-Por que importa: evento macro de alta relevância reprecifica a curva inteira; o que importa é a surpresa contra o que está no preço
-Ativos: DI · Tesouro · USD/BRL
-Como falar: 'Vencimento de opcoes sobre indice e futuros de Ibovespa sai hoje; o mercado já precifica o consenso, a reação vem da surpresa'
-Fonte: config/calendario.yaml
-ids: M01-MACRO-D0_1811-2026-11-18
-
-(pendente de slot anterior) [ATENÇÃO] E05 · NVDA · JPMorgan raises Nvidia stock price target to $230 on guidance
-Investing.com · 18/11 09h31 · fonte única · licença: manchete
-Link: https://www.investing.com/news/analyst-ratings/jpmorgan-raises-nvidia-stock-price-target-to-230-on-guidance-93CH-5035754
-Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
-Ativos: NVDA
-Como falar: 'saiu no Investing.com: JPMorgan raises Nvidia stock price target to $230 on guidance; confirmar o número no texto antes de repassar'
-Fonte: Investing.com 18/11 09h31
-ids: E05-NVDA-2007c7b41e-2026-11-18
-
-(pendente de slot anterior) [ATENÇÃO] E05 · PETR4 · Petrobras (PETR4): Citi coloca novo risco para dividendos e corta preço-alvo
-Money Times · 17/11 18h21 · fonte única · licença: integral
-Do texto:
-  – “Vemos investidores preocupados com esse aumento (de capex)”, disse o Citi nesta terça-feira, pontuando que a elevação de investimentos poderia pressionar dividendos e elevar a alavancagem caso os preços do petróleo rec…
-  – O banco estimou desembolsos de capital entre US$21 bilhões e US$23 bilhões em 2027 e afirmou ver uma leitura negativa para dividendos, além de considerar improvável a distribuição de dividendos extraordinários no próxim…
-Link: https://www.moneytimes.com.br/mercado-ve-alta-de-capex-como-risco-em-novo-plano-da-petrobras-citi-corta-preco-alvo-rnda/
-Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
-Ativos: PETR4
-Como falar: 'saiu no Money Times: Petrobras (PETR4): Citi coloca novo risco para dividendos e corta preço-alvo; confirmar o número no texto antes de repassar'
-Fonte: Money Times 17/11 18h21
-ids: E05-PETR4-0eff9532a3-2026-11-17
-
-(pendente de slot anterior) [ATENÇÃO] S01 · coleta do slot intradia saiu incompleta: bcb: BCB devolveu 4 de 5 séries (faltaram ipca_mes)
-O que fiz: entreguei as seções disponíveis; as pernas que falharam estão em LACUNAS.
-Por que importa: silêncio é lido como 'está tudo bem'; declarar a falha é o que permite confiar no restante
-Fonte: manifest do runner
-ids: S01-SISTEMA-intradia-2026-11-18
+ALERTAS · intradia
 
 (pendente de slot anterior) [ATENÇÃO] E03 · KLBN4 · Fato Relevante: Registrou hoje uma ocorrência envolvendo a caldeira de recuperação da Unidade Otacílio Costa (SC).
 CVM · entregue 18/11/2026 15:01
@@ -75,75 +40,99 @@ Como falar: 'saiu no Money Times: Petróleo fecha em queda em meio à alta do d�
 Fonte: Money Times 18/11 17h27
 ids: E05-BRENT-122d2b525c-2026-11-18
 
-[ATENÇÃO] E05 · NVDA · Moody's lowers Nvidia outlook to stable from positive
+(pendente de slot anterior) [ATENÇÃO] E05 · NVDA · Moody's lowers Nvidia outlook to stable from positive
 CNBC · 18/11 19h19 · + Bloomberg · licença: resumo
 Link: https://www.cnbc.com/video/2026/11/18/moodys-lowers-nvidia-outlook-to-stable-from-positive.html
 Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
 Ativos: NVDA
 Como falar: 'saiu no CNBC: Moody's lowers Nvidia outlook to stable from positive; confirmar o número no texto antes de repassar'
 Fonte: CNBC 18/11 19h19
-Push: [ATENÇÃO] NVDA · Moody's lowers Nvidia outlook to stable from positive · detalhe na sessão
 ids: E05-NVDA-3782606763-2026-11-18
 
-Info (só linha no Fechamento):
-· T01 META fechou abaixo da média de 200 dias pela 2ª sessão: US$ 616,38 vs MM200 US$ 628,79 (-2,0%)
-· T04 USDBRL fechou na máxima de 52 semanas: R$ 5,8646, +16% em 1m e +10% em 12m
-· T07 BABA entrou em sobrevendido: RSI14 25 a US$ 84,37
-· T12 BBAS3: 6 quedas seguidas (-17% acumulado) a R$ 14,12
-· E03 AXIA3 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
-· E05 AMD · Why Is AMD Stock Rising Overnight?
-· E05 USDBRL · Dólar norte-americano oscila perto da maior cotação em 19 meses; dólar australiano cai após dados fracos sobre o mercado de trabalho
-· E05 INTC · Intel signs first external customer for advanced 18A chips
-· E05 NVDA · After Nvidia’s Earnings, Here’s My Prediction for the Stock Price by the End of the Year
-· E05 NVDA · Elon Musk Says Nvidia Ousting Jensen Huang Is Like Kicking Michael Jordan Off A Winning Team
-· E05 GOOGL · Is Alphabet Stock a Buy Right Now?
-· E05 NVDA · Nvidia Turmoil Spurs Valuation Rethink of Japan’s AI Shares
-· E05 JPM · JPMorgan taps 20-year company veteran Bregje de Best as its next CFO
-· E05 NVDA · Nvidia (NVDA) Stock Drops Despite Q3 Results Showing Huge AI Earnings
-· E05 UST · FOMC Meeting Explained: Statement, Conference, and Reaction for AMEX:SPY by ClearStreet
-· E05 BTC · Analyst warns Anthropic IPO is pulling money out of Bitcoin
-· E05 USDBRL · Dólar sobe para R$ 5,87 com expectativa sobre votação de ajuste fiscal
-· E05 JPM · JPMorgan Chase & Co. (JPM) Sees a More Significant Dip Than Broader Market: Some Facts to Know
-· E05 UST · U.S. Treasury Prices Rise as Steady 20-Year Auction Supports Longer-Dated Bonds
-· E05 NVDA · Wall Street ends mixed after Nvidia earnings, Fed minutes
-· C03 DI em nível: F30 cruzou 15,00% (para cima, agora 15,11%)
-· C06 Inflação implícita: implícita 2029 +38 bps na semana · implícita 2032 +311 bps acima do Focus · implícita 2031/32 (descasado) +22 bps na semana
-· T01 VWRA (Vanguard FTSE All-World UCITS ETF USD Accumulating) fechou abaixo da média de 200 dias pela 2ª sessão: US$ 181,28 vs MM200 US$ 185,09 (-2,1%)
-· T04 REMX fechou na mínima de 52 semanas: US$ 45,29, -15% em 1m e -36% em 12m
-· T04 NVDA fechou na mínima de 52 semanas: US$ 150,96, -30% em 1m e -17% em 12m
-· T04 VALE3 fechou na mínima de 52 semanas: R$ 59,00, -11% em 1m e -1,8% em 12m
-· T04 BBAS3 fechou na mínima de 52 semanas: R$ 14,12, -41% em 1m e -34% em 12m
-· T08 JPM entrou em correção: -11% do pico de 52s (US$ 365,18 em 12/08) a US$ 324,11
-· T10 INTC no mínimo de força relativa em 63 sessões contra SOX: -41% vs -16% em 20 sessões (-30% relativo)
-· T10 USDBRL no máximo de força relativa em 63 sessões contra DXY: +17% vs +2,0% em 20 sessões (+14% relativo)
-· T10 BTC no mínimo de força relativa em 63 sessões contra CNDX: -19% vs -9,5% em 20 sessões (-17% relativo)
+[ATENÇÃO] T13 · VIX cruzou 25: 27,9 (+14% no dia)
+VIX 27,9 (+14%)
+Por que importa: VIX acima de 20 é o mercado pagando por proteção; acima de 30 as correlações vão a 1 e o que manda é o tamanho da posição
+Como falar: 'dia de aversão a risco: não é hora de decidir pelo preço de tela'
+Fonte: Cboe via Yahoo, fech. 19/11
+Push: intradia: 5 alertas de atenção — regime VIX, E05 AXIA3, E05 GOOGL, E05 NVDA, S01 SISTEMA · detalhe na sessão
+ids: T13-VIX-vix25-2026-11-19
 
-Suprimidos pelo teto (viram linha do Fechamento): C03-DI-di-2026-11-18 (teto de atenção), C06-TESOURO-implicita-2026-11-18 (teto de atenção), T01-VWRA-perda-2026-11-18 (teto de atenção), T04-REMX-minima-2026-11-18 (teto de atenção), T04-NVDA-minima-2026-11-18 (teto de atenção), T04-VALE3-minima-2026-11-18 (teto de atenção), T04-BBAS3-minima-2026-11-18 (teto de atenção), T08-JPM--10-2026-11-18 (teto de atenção), T10-INTC-mínimo-2026-11-18 (teto de atenção), T10-USDBRL-máximo-2026-11-18 (teto de atenção), T10-BTC-mínimo-2026-11-18 (teto de atenção)
+[ATENÇÃO] E05 · AXIA3 · Axia prepara emissão de R$ 1 bilhão em debêntures para UHE Santo Antônio
+UOL Economia · 19/11 14h36 · fonte única · licença: manchete
+Link: https://megawhat.uol.com.br/geracao/axia-prepara-emissao-de-r-1-bilhao-em-debentures-para-uhe-santo-antonio/
+Por que importa: oferta de acoes ou divida altera a base acionaria ou a alavancagem
+Ativos: AXIA3
+Como falar: 'saiu no UOL Economia: Axia prepara emissão de R$ 1 bilhão em debêntures para UHE Santo Antônio; confirmar o número no texto antes de repassar'
+Fonte: UOL Economia 19/11 14h36
+ids: E05-AXIA3-8a797ef5ea-2026-11-19
+
+[ATENÇÃO] E05 · GOOGL · Alphabet (GOOG) Slips as 2026 Capex Outlook Rises
+Yahoo Finance · 19/11 13h07 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – RiverPark Advisors, an investment advisory firm and sponsor of the RiverPark family of mutual funds, released its "RiverPark Large Growth Fund" Q3 2026 investor letter.
+  – equity markets rose modestly in the third quarter, with the S&P 500 gaining 2.30% and the Russell 1000 Growth Index increasing 0.92%.
+  – The Fund also advanced, returning 4.10% in the quarter amid persistent macroeconomic challenges.
+  – Also, check the fund's top five holdings to see its best picks in 2026.
+  – In its Q3 2026 investor letter, RiverPark Large Growth Fund noted that Alphabet Inc. (NASDAQ:GOOG) detracted from performance.
+  – On November 18, 2026, Alphabet Inc. (NASDAQ:GOOG) closed at $279.20 per share with a market capitalization of $3.43 trillion.
+Link: https://finance.yahoo.com/markets/stocks/articles/alphabet-goog-slips-2026-capex-160741067.html
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: GOOGL
+Como falar: 'saiu no Yahoo Finance: Alphabet (GOOG) Slips as 2026 Capex Outlook Rises; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 19/11 13h07
+ids: E05-GOOGL-2ecf140715-2026-11-19
+
+[ATENÇÃO] E05 · NVDA · Intel Climbs 7% on First 18A Customer, NVIDIA Gains 4% as Trump Floats Blackwell Sales to China and Dan Ives Hails Anthropic IPO; AMD Rises 3%
+Yahoo Finance · 19/11 11h56 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – - Intel still faces a $1.85 billion quarterly foundry loss and a lingering PC slump, so its next 18A customer is the one to watch.
+  – Intel stock is at $58.41, up 7% in morning trading.
+  – The rally cuts a steep slide, as the shares are down 37% over the past month despite a gain for the year.
+  – Since its October 29 report, Intel has struggled, as its Q4 2026 revenue outlook of $15 billion to $16 billion missed expectations and management warned the PC decline would last through at least the first half of 2027.
+  – Intel Lands Its First 18A Foundry Customer CEO Lip-Bu Tan disclosed on November 18 at the TomorrowX Summit in Austin that Intel signed its first outside customer for its 18A chip process, though he didn't name the compa…
+  – Read More Here › ------ Microsoft (NASDAQ:MSFT) announced an expanded Azure partnership with Intel on November 18 that includes a multi-year Xeon processor supply agreement.
+Link: https://finance.yahoo.com/technology/articles/intel-climbs-7-first-18a-145631177.html
+Por que importa: oferta de acoes ou divida altera a base acionaria ou a alavancagem
+Ativos: NVDA · AMD · INTC
+Como falar: 'saiu no Yahoo Finance: Intel Climbs 7% on First 18A Customer, NVIDIA Gains 4% as Trump Floats Blackwell Sales to…; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 19/11 11h56
+ids: E05-NVDA-b50e91e1eb-2026-11-19
+
+[ATENÇÃO] S01 · coleta do slot intradia saiu incompleta: bcb: BCB devolveu 4 de 5 séries (faltaram ipca_mes)
+O que fiz: entreguei as seções disponíveis; as pernas que falharam estão em LACUNAS.
+Por que importa: silêncio é lido como 'está tudo bem'; declarar a falha é o que permite confiar no restante
+Fonte: manifest do runner
+ids: S01-SISTEMA-intradia-2026-11-19
+
+Info (só linha no Fechamento):
+· F01 Real cai: USD/BRL 5,9178 (+4,7% em 5 sessões) (parcial, intradia)
+· M01 Agenda: Vencimento de opcoes sobre acoes (B3, rolado pelo feriado de 20/11) amanhã (23/11)
+· E05 VALE3 · Vale: BTG reduz preço-alvo, mas mantém recomendação de compra apesar de desafios em Serra Norte
+· E05 VALE3 · Vale: Serra Norte vira nova preocupação para o mercado, mas analistas mantêm compra
+· E05 VALE3 · BTG corta projeções da Vale e faz alerta: comprar a ação agora pode não valer a pena
+· E05 USDBRL · BC erra ao intervir na cotação do dólar, diz ex-chefe de departamento da autarquia
+· E05 USDBRL · Dólar sobe após bater máxima a R$ 5,93, na maior cotação em 19 meses
+· E05 TESOURO · Juros disparam e Tesouro Direto suspende negociação de prefixados e IPCA+
+· E05 VALE3 · Vale Indonésia aumentará produção de níquel matte para 73 mil toneladas em 2027
+· E05 AMD · AMD Slides After Hunterbrook Shorts Stock, Cites Circular Deals
+· E05 AMD · Why AMD Stock Was Plunging on Thursday
+· E05 USDBRL · Dólar sobe depois de aprovação de pacote
+· E05 USDBRL · Dólar chega a R$ 5,92, mas modera alta após intervenção do Banco Central
+· E05 AMD · AMD shares slide over 9% after short seller raises concerns over China exposure
+· E05 AMD · AMD stock drops after Hunterbrook Media raises export control concerns
+· E05 USDBRL · Dólar supera R$5,90 apesar de leilão do BC e taxas dos DIs avançam com pressão fiscal
+· E05 USDBRL · Dólar ganha (ainda mais) fôlego e passa os R$ 5,90 — e aqui estão os motores da disparada do dia
+· E05 KLBN4 · Acidente na Klabin (KLBN11) preocupa, mas bancos apontam efeito contido
+· E05 AXIA3 · Axia Energia lança oferta de R$ 1,2 bi em debêntures para hidrelétrica
+· E05 KLBN4 · Explosão suspende operações em 3º maior complexo da Klabin
+
+Suprimidos pelo teto (viram linha do Fechamento): E05-KLBN4-5955ddc472-2026-11-19 (teto de noticias), E05-AXIA3-3ff4def5e4-2026-11-19 (teto de noticias), E05-KLBN4-90d44c0465-2026-11-19 (teto de noticias)
 
 Alertas do dia (todos, com status):
-· linha     C03 DI — DI em nível: F30 cruzou 15,00% (para cima, agora 15,11%)
-· linha     C06 TESOURO — Inflação implícita: implícita 2029 +38 bps na semana · implícita 2032 +311 bps a
-· linha     T01 VWRA — VWRA (Vanguard FTSE All-World UCITS ETF USD Accumulating) fechou abaixo da média
-· linha     T04 REMX — REMX fechou na mínima de 52 semanas: US$ 45,29, -15% em 1m e -36% em 12m
-· linha     T04 NVDA — NVDA fechou na mínima de 52 semanas: US$ 150,96, -30% em 1m e -17% em 12m
-· linha     T04 VALE3 — VALE3 fechou na mínima de 52 semanas: R$ 59,00, -11% em 1m e -1,8% em 12m
-· linha     T04 BBAS3 — BBAS3 fechou na mínima de 52 semanas: R$ 14,12, -41% em 1m e -34% em 12m
-· linha     T08 JPM — JPM entrou em correção: -11% do pico de 52s (US$ 365,18 em 12/08) a US$ 324,11
-· linha     T10 INTC — INTC no mínimo de força relativa em 63 sessões contra SOX: -41% vs -16% em 20 se
-· linha     T10 USDBRL — USDBRL no máximo de força relativa em 63 sessões contra DXY: +17% vs +2,0% em 20
-· linha     T10 BTC — BTC no mínimo de força relativa em 63 sessões contra CNDX: -19% vs -9,5% em 20 s
-· pendente  E05 NVDA — NVDA · Moody's lowers Nvidia outlook to stable from positive
-· pendente  E03 KLBN4 — KLBN4 · Fato Relevante: Registrou hoje uma ocorrência envolvendo a caldeira de r
-· pendente  E05 KLBN4 — KLBN4 · Klabin (KLBN11): impacto de acidente pode afetar até 7% do Ebitda, mas é
-· pendente  E05 BRENT — BRENT · Petróleo fecha em queda em meio à alta do dólar e recuperação da oferta
-· expirado  M01 MACRO — Agenda: Vencimento de opcoes sobre indice e futuros de Ibovespa (B3) hoje (18/11
-· expirado  E05 NVDA — NVDA · JPMorgan raises Nvidia stock price target to $230 on guidance
-· expirado  E05 PETR4 — PETR4 · Petrobras (PETR4): Citi coloca novo risco para dividendos e corta preço-
-· expirado  S01 SISTEMA — coleta do slot intradia saiu incompleta: bcb: BCB devolveu 4 de 5 séries (faltar
-· linha     T01 META — META fechou abaixo da média de 200 dias pela 2ª sessão: US$ 616,38 vs MM200 US$ 
-· linha     T04 USDBRL — USDBRL fechou na máxima de 52 semanas: R$ 5,8646, +16% em 1m e +10% em 12m
-· linha     T07 BABA — BABA entrou em sobrevendido: RSI14 25 a US$ 84,37
-· linha     T12 BBAS3 — BBAS3: 6 quedas seguidas (-17% acumulado) a R$ 14,12
-· linha     F01 USDBRL — Real cai: USD/BRL 5,8646 (+5,5% em 5 sessões)
-· linha     F06 BTC — BTC cai a US$ 62.735 (-15% em 7 dias) (parcial, intradia)
-· (+54 notícias só manchete, em noticias.md)
+· pendente  T13 VIX — VIX cruzou 25: 27,9 (+14% no dia)
+· pendente  E05 AXIA3 — AXIA3 · Axia prepara emissão de R$ 1 bilhão em debêntures para UHE Santo Antônio
+· pendente  E05 GOOGL — GOOGL · Alphabet (GOOG) Slips as 2026 Capex Outlook Rises
+· pendente  E05 NVDA — NVDA · Intel Climbs 7% on First 18A Customer, NVIDIA Gains 4% as Trump Floats Bl
+· pendente  S01 SISTEMA — coleta do slot intradia saiu incompleta: bcb: BCB devolveu 4 de 5 séries (faltar
+· linha     F01 USDBRL — Real cai: USD/BRL 5,9178 (+4,7% em 5 sessões) (parcial, intradia)
+· (+24 notícias só manchete, em noticias.md)
