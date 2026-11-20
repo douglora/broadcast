@@ -1,5 +1,5 @@
 {
- "pregao": "2026-11-18",
+ "pregao": "2026-11-19",
  "nome": "InCashMarketBiggestHighs",
  "titulo": "Mercado à vista - maiores altas",
  "sla": "8:00:00",
@@ -7,18 +7,18 @@
  "colunas": [{"nome": "TckrSymb", "titulo": "Ação"}, {"nome": "Cod", "titulo": "Código"}, {"nome": "Price", "titulo": "Preço (R$)"}, {"nome": "Oscillation", "titulo": "Oscilação (%)"}],
  "texto": ["Mostra as maiores valorizações de ativos no mercado à vista, destacando as melhores performances."],
  "situacao": "publicado",
- "atualizado_em": "2026-11-18T19:10:17.08",
+ "atualizado_em": "2026-11-19T18:51:35.593",
  "truncada": false,
  "linhas": [
-  ["O1KT34", "DRN", 57.41, 13.25],
-  ["BIGO39", "DRE", 57.4, 13.43],
-  ["OCRE11", "CI", 79.69, 13.84],
-  ["NOKI34", "DRN", 49.98, 15.18],
-  ["BEEF11", "BNS ORD NM", 0.35, 16.66],
-  ["RECD11", "CI", 5.89, 16.86],
-  ["FNOR11", "CI *", 0.59, 20.4],
-  ["E2PA34", "DRN", 15.2, 22.28],
-  ["C1PB34", "DRN", 139.86, 27.27],
-  ["TOST34", "DRN", 50, 35.79]
+  ["SEQL3", "ON      NM", 7.37, 18.87],
+  ["ANTH34", "DRN", 71.7, 18.94],
+  ["MCOR34", "DRN ED", 100.4, 19.49],
+  ["S1SL34", "DRN", 235.16, 21.85],
+  ["GEHC34", "DRN", 60.66, 26.24],
+  ["SJAU11", "CI", 0.89, 27.14],
+  ["B1DX34", "DRN", 251.26, 27.27],
+  ["A2SO34", "DRN", 104.94, 28.44],
+  ["Q1UE34", "DRN", 767.6, 32.78],
+  ["AGXY3", "ON      NM", 0.3, 42.85]
  ]
 }

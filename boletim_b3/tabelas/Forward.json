@@ -1,19 +1,19 @@
 {
- "pregao": "2026-11-18",
+ "pregao": "2026-11-19",
  "nome": "Forward",
  "titulo": "Ações mais negociadas - a termo",
  "sla": "8:00:00",
  "paginas": 1,
  "colunas": [{"nome": "TckrSymb", "titulo": "Ação"}, {"nome": "Cod", "titulo": "Código"}, {"nome": "Term", "titulo": "Prazo"}, {"nome": "Closing", "titulo": ""}, {"nome": "TradQty", "titulo": ""}, {"nome": "VlmTradedDay", "titulo": "Volume (R$) mil"}, {"nome": "Part", "titulo": "Participação (%)"}],
  "texto": ["Lista ações com maior volume de negociação em contratos a termo, destacando as mais ativas."],
- "situacao": "republicado",
- "atualizado_em": "2026-11-19T10:58:43.737",
+ "situacao": "publicado",
+ "atualizado_em": "2026-11-19T19:01:19.717",
  "truncada": false,
  "linhas": [
-  ["ISHARES BOVACI", "CI", 180, 175.94, 52100, 9166.474, 0.5699646359370032],
-  ["TESLA INC   DRN", "DRN", 42, 71.23, 280000, 19944.4, 3.0631496749013607],
-  ["AXIA ENERGIAON      NM", "ON      NM", 42, 47.22, 440000, 20776.8, 4.813520917702139],
-  ["AXIA ENERGIAON      NM", "ON      NM", 90, 48.93, 700000, 34251, 7.657874187253403],
-  ["FII CAPI SECCI  ER", "CI  ER", 30, 6.65, 1468000, 9762.2, 16.059656152697134]
+  ["FII TRX REALCI", "CI", 98, 55.88, 130000, 7264.4, 2.074199542463491],
+  ["PETROBRAS   PN      N2", "PN      N2", 18, 43.05, 140200, 6035.61, 2.2369444296413956],
+  ["VALE        ON      NM", "ON      NM", 33, 59.37, 195300, 11594.961, 3.116085928024],
+  ["ASSAI       ON      NM", "ON      NM", 90, 9.57, 1000000, 9570, 15.955381095873014],
+  ["FII CAPI SECCI  ER", "CI  ER", 89, 6.79, 1317000, 8942.43, 21.013236903264758]
  ]
 }
