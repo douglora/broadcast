@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 19/11 23h14
+NOTÍCIAS E FATOS · 20/11 16h06
 
-Pernas: noticias ok 15 novas (18 consultas; descartadas: 346 veículo fora da lista, 20 sem ativo, 29 teto); 2 falhas · cvm ok 0 novos de 13 (6 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 19 novas (18 consultas; descartadas: 394 veículo fora da lista, 17 sem ativo, 61 teto) · cvm ok 0 novos de 7 (4 cias casadas) · sec ok 0 novos em 3 dias
 
 ## SEC (8-K, 6-K, 10-Q, 10-K) (1)
 
@@ -17,7 +17,43 @@ Fonte: SEC EDGAR 2026-11-19
 id: E04-BABA-26130115-2026-11-19 · status: linha · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (10)
+## NOTÍCIAS COM MATERIALIDADE (14)
+
+[ATENÇÃO] E05 · BABA · Citi cuts Alibaba stock price target on cloud revenue outlook By Investing.com
+Investing.com · 20/11 08h03 · fonte única · licença: manchete
+Link: https://news.google.com/rss/articles/CBMivwFBVV95cUxOdzcwTXdtTHlJOHA4eUF5cW1XWU5PeEg1b2pWbkdMTlFQYzJUaXMtd3lVQVBzZG41OWhibVp3WURIcG5uRzI1LUp5TTBwdFhOZWFxUzFUaVFydEFIMHNKaUw4VjJDaWFtZjdrbl9HNTZtTmlJVEd3RXRJbWo1ZGE5aUdkeHVHa3BHRm9PbFNEUWtKaVU5emNMSlNoYVpUcG9pOFo5RGtQMUFyYndNTHBGRkVrYnRDeUszWWNnOFlUTQ?oc=5
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: BABA
+Como falar: 'saiu no Investing.com: Citi cuts Alibaba stock price target on cloud revenue outlook By Investing.com; confirmar o número no texto antes de repassar'
+Fonte: Investing.com 20/11 08h03
+id: E05-BABA-93b2387ab2-2026-11-20 · status: pendente
+
+[ATENÇÃO] E05 · CVX · Chevron or Mondelez: I Can Only Pick One Dividend Stock for the Next 20 Years. Here’s Mine
+Yahoo Finance · 20/11 07h03 · fonte única · licença: manchete
+Link: https://news.google.com/rss/articles/CBMimwFBVV95cUxPUXhsOTNmZDE5VmdrdE5xNzdaQmZyWUZ6akRyNHdjRV9BdFFRWXFVVlNrLTdSbUJ5d3ExdVRSYl9DcjdXWXN0ZlZPSGlndjF0RGZZdGh0eXFzaTh3YWkza2I4Z3h5eUVkaVJsTFlKZ3d4bTZ5dkVoNVpVTEVWanhSZTUzUVBSTklkczN0SDl5U01VVVpPdXJpSERKNA?oc=5
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: CVX
+Como falar: 'saiu no Yahoo Finance: Chevron or Mondelez: I Can Only Pick One Dividend Stock for the Next 20 Years. Here’s Mine; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 20/11 07h03
+id: E05-CVX-7759404901-2026-11-20 · status: pendente
+
+[ATENÇÃO] E05 · AMD · Key facts: AMD Revenue +45%; Anthropic Helios Deal; $800M MI308 Charge
+TradingView (Reuters) · 20/11 05h00 · fonte única · licença: manchete
+Link: https://news.google.com/rss/articles/CBMixAFBVV95cUxQX2o2YlZGM2k2N2hSZ0ZxbFU2ZDBZZENibXlnMjdlVlQtMkJYSjBxczRQN3UtbFZ6X1VWS0dVbWxLWm1ZUlFVai1xU25aLUg4NTcwUGlHRXdVVXk2bUJzdXhLYVZvYTZsSmdzU1dYS2FZUEFGRXJxOXc1N3BpVExEMVZaZ1NkWGpLdFNVVVVMaXpDczRfTFpleWJfWEdBVDgxTFNQS3FtaE1VT0JScGJ1VEphbnRvSS03UmE3Sm9fUXlneFo5?oc=5
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: AMD
+Como falar: 'saiu no TradingView (Reuters): Key facts: AMD Revenue +45%; Anthropic Helios Deal; $800M MI308 Charge; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 20/11 05h00
+id: E05-AMD-431fa9769b-2026-11-20 · status: pendente
+
+[ATENÇÃO] E05 · BABA · Alibaba Group Holding Limited Notice of January 19, 2027 Application Deadline for Class Action Lawsuit - Contact Lewis Kahn, Esq. at Kahn Swick & Fot…
+Business Wire · 20/11 02h29 · fonte única · licença: manchete
+Link: https://news.google.com/rss/articles/CBMi1gJBVV95cUxNV0VoVnVwWFRHWm5GQ3dhcEE0ODZEMFNMZlJQbXZFSThpQ0RVSk1JaUx6d2FjSGdGNDVNdWZJWUJFQy1KNm9SRGZ1R1RLZkxIUy1zTHZfdWNLeERzX0NYaTMxak9ZMWJxNWNkY0czcEFfUnhBTzB2ai0tNEpPcE56OU5EdlJZdlZweVQ4dkhHZFA2Z2oyRGdnMVZxRDVMT1cwVXRlSHZXaGJjck1rUmNFclUySWpiOXF5eEozUVptcDNfTzZCbGtKRkhqajQxbVdWUjRGTnhWSGhlQ19kcUxibk9ueU84djRvbzZjeXlBZlVVd1pUUVdKRTZTakZzWHd5ek5GczRuM3Y1SVA0MHNHOVplZ2pDMkVOU2lMaHcwSGp1M0lpb0RSS0Q3NVpHZVRoMXlXaWpMZVRDTzVHQl9CSFd2MGpaU2cyaGF0ZDdXbDQwOEJVQ1E?oc=5
+Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e prazo
+Ativos: BABA
+Como falar: 'saiu no Business Wire: Alibaba Group Holding Limited Notice of January 19, 2027 Application Deadline for Class A…; confirmar o número no texto antes de repassar'
+Fonte: Business Wire 20/11 02h29
+id: E05-BABA-cc96422e0d-2026-11-20 · status: linha
 
 [ATENÇÃO] E05 · BABA · EQUITY ALERT: Rosen Law Firm Files Securities Class Action Lawsuit on Behalf of Alibaba Group Holding Limited Investors – BABA
 Business Wire · 19/11 15h50 · fonte única · licença: integral
@@ -26,7 +62,7 @@ Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e 
 Ativos: BABA
 Como falar: 'saiu no Business Wire: EQUITY ALERT: Rosen Law Firm Files Securities Class Action Lawsuit on Behalf of Alibaba G…; confirmar o número no texto antes de repassar'
 Fonte: Business Wire 19/11 15h50
-id: E05-BABA-e171147901-2026-11-19 · status: pendente
+id: E05-BABA-e171147901-2026-11-19 · status: expirado
 
 [ATENÇÃO] E05 · NVDA · Nvidia Stocks Rise 4.63% as $10 Billion Anthropic Stake Lands on IPO Day
 TradingView (Reuters) · 19/11 14h36 · fonte única · licença: manchete
@@ -35,7 +71,7 @@ Por que importa: oferta de acoes ou divida altera a base acionaria ou a alavanca
 Ativos: NVDA
 Como falar: 'saiu no TradingView (Reuters): Nvidia Stocks Rise 4.63% as $10 Billion Anthropic Stake Lands on IPO Day; confirmar o número no texto antes de repassar'
 Fonte: TradingView (Reuters) 19/11 14h36
-id: E05-NVDA-5cced55572-2026-11-19 · status: pendente
+id: E05-NVDA-5cced55572-2026-11-19 · status: expirado
 
 [ATENÇÃO] E05 · BTC · Sweden’s H100 Considers Using Bitcoin Trading Pool to Fund Share Buyback
 Yahoo Finance · 19/11 12h45 · fonte única · licença: resumo
@@ -51,7 +87,7 @@ Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir
 Ativos: BTC
 Como falar: 'saiu no Yahoo Finance: Sweden’s H100 Considers Using Bitcoin Trading Pool to Fund Share Buyback; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 19/11 12h45
-id: E05-BTC-28af0b835e-2026-11-19 · status: pendente
+id: E05-BTC-28af0b835e-2026-11-19 · status: expirado
 
 [ATENÇÃO] E05 · NVDA · Moody’s Lowers Nvidia’s Ratings Outlook to Stable From Positive
 Yahoo Finance · 18/11 19h29 · fonte única · licença: resumo
@@ -147,8 +183,23 @@ Fonte: Valor Economico 19/11 05h00
 id: E05-KLBN4-90d44c0465-2026-11-19 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (50)
+## OUTRAS NOTÍCIAS (só manchete) (65)
 
+· AMD Intel Proved The CPU Comeback, AMD Will Cash It (NASDAQ:AMD) (Seeking Alpha) https://news.google.com/rss/articles/CBMitAFBVV95cUxOcTA1amRDQkFkZlp6NzZkT1RVcUpnTXZIUWc4ZUxuR3hEVXdxUkRDZE5rWEpmYTdpSFZoYzNPNHN3YkdjamhtT01fVmt6S1VscHlYYS14YTc2d01DdjdvSVFvTE9YdnN3b0xHeFByTU1yLWZ5clk3WG5jblc5dGh4MzRnN0gwRl9mSVhTMEZKWC1iRzhCc3ozVmI1N000N2FJeU9ReWwxQ1UwcHFIaTEtblJud00?oc=5
+· BTC Bitcoin Drops Below $59K, Wiping Out $1.5B In Crypto Bets: MSTR, BMNR, ASST Stocks Extend Losses (Yahoo Finance) https://news.google.com/rss/articles/CBMimwFBVV95cUxPSmFOTDFUSm9yQVRWVVpjbm1tZy1sbWJxZ0VWMGpFdkhFYWlzaEZ1UHdsZklzUTNnTkxNekxpcWMxZGJnN0M0UkwtRVpWa3pfdV9zX1dJME9adkpVWE8tYS1BTjU2X1gxWHJMVHpuRW9UWWJVRE9adW0xU1owNXZ5UmF2b0hRdU9IdzlHNDZoczFGZEZIS1dPOWJwNA?oc=5
+· BTC Binance hack laundering ramps up as $149 million in bitcoin mixed through coinjoins: Elliptic (The Block) https://news.google.com/rss/articles/CBMizAFBVV95cUxQSndDVWk0NjdkRDZvb1d2QURSZ1FnOUVVWEpaVWV1Uzg3d2VoWVVOdUtVOGQ3elR3eExRZFdCTUY2XzFOR1Z2Y01rMk9aLUxOQi1adzdlTFVQcnNpWjVFQWotdUhNR3JZZDRSY1BGSTZkbWV0bUNjemxyNFA1Q3I1MElrMVFhdndpUFh2T0I4SEpfdTNkYmlMREVDV0Vrd2M4SHlVWlpXRjBvd29aS1VNNW52bFc4OEpZT2xEYXhobjR3bEt0MU84Ujhhek4?oc=5
+· INTC Wedbush: Microsoft May Give Intel a Crucial AI Chip Win (TradingView (Reuters)) https://news.google.com/rss/articles/CBMitAFBVV95cUxNY09wdHk2d0JsTW5GSG1oMWdXa21OMEdGM19LQXFoV1BxNEo1d1Z2R2VzanhvYXNnQXN3QXp6YWZlWWc1czAzVFEyai1XUUQyaGV5LVFyRU81U0lGbExDbldOQjgzWThvMnRyUkpqYmxOQXNTQ1JoSzcxaXFVREtIQU04bW14Q09OSjhZbm51dGZXRXJJaTd6a3gzUUVzNWdKRjhYUzViaTJETGp1clpMRTlUMWE?oc=5
+· BTC Bitcoin Falls Below $60K as ETFs Bleed (Yahoo Finance) https://news.google.com/rss/articles/CBMimAFBVV95cUxPSmd6OHZkVXBjeW9fdUxxQ0Vnc2NJN2dESExEMFYzNVVUdGEzejhXUU9PcG55MWtnSHlIdk8zVnpBSm53bUxxN01lc1hNQmlKc3JVS0l1c0IxU2toR1hYajB2eW5uR3Qxcll3MF9vMW1jdjBMcDRKSXVZV3lCYmV2WGtLMW9NbFBLaGVXWDd5M2dhZkFxeGZUZA?oc=5
+· NVDA Nvidia Sinks 7% on New Probes as California AG Says Scandal “Raises Bright Red Flags” (Yahoo Finance) https://news.google.com/rss/articles/CBMingFBVV95cUxQMlVGXzRIN2w1MXlmamNOendhX29sRHppZzZRYnZRdDZNdUhmdVJXYlRJYzlYcU9BSE9jd25wc2dHMUNJQ0t3T0ViZFFYZmZZQWtnSWg5bjN1SDZrTkkwWGh2R3NvOEdpdlRUV19LRWg0SnNXcE4tVnZwd0ZENVJ5Rk5ZRllQOUl0RmVobUJCSGh1MGx6N2hSbTNXbDZiZw?oc=5
+· INTC Intel: Further Pain Ahead, Still Expensive For What It Is (Seeking Alpha) https://news.google.com/rss/articles/CBMinAFBVV95cUxPZl9GM1l3T0RwajFvNHc0al81U0NyNFF4Tm5IZnVmWWg3VUE3TVdQQXl2Unpsa3BsZDE4dktfbzhUTlJtX3ItbUZsVV9PR21QZmRub0EtOXg1TTlSb1dWUDB3Wm5YVUFXNTVPak1TVTVsanh6SUU0RUpmbjZyazdITlhaQnVEdFZLY2dnUDZsVlViR0YwMlNRdnVxNzg?oc=5
+· BTC Bitcoin falls over 20% in November as ETF outflows mount, but history offers some hope (TradingView (Reuters)) https://news.google.com/rss/articles/CBMi4wFBVV95cUxOQ3FkcklvTjB1ZDFNRVpGazlNYWQ1X2Y2SFJ5OHZ6VzJONjZsUHNzWUZtT1RjZl9xWFZQd2oxNDBEZ3M5MW9kMHhNNlJOTFkxWU9EQ0V1SnlTbndPUVVrNnNRRTdjMzgzakg2eWNHbE4zaEIxTHZldTdZOUhZS0YyUl92NTlmU1VybDJ0RGMtREtKWjZ1aWxYMFFhLWZQRVZWdE1OMVhmU3QyLWFJMWQ1WXNmenBhcVdYd0V4RUp4OGdIWHV4VEFoQm5HTHA3VENmLU92ZXI0eEFMUmQ5Z0R3WlZ5NA?oc=5
+· JPM JPMorgan Stocks Move Lower as CFO Handover Reshapes Dimon Bench (TradingView (Reuters)) https://news.google.com/rss/articles/CBMiwAFBVV95cUxObjE1dDBpaE1NNnpEOTJXNDBsUHhYN2Y1dzJJYWpnaUQ1b2dBUXN0bG5pSlg3T01TbF9kRExLczgwTGtBcE01bGVTU003WWJHLUFLeGFOYlBBbk1MT2dvX3ByODllR3J5amhDaDA0aWdVSFU1RGg1UENwRnJpLVFsZ0sxU2t4LTlIdHVvQVp1WnBUVjJyY0tDcDBtbEQxVzFmeXdxNGoweDRWMmdpdFpqU0hXSndXMi1ESzdoUmVjdDg?oc=5
+· INTC Intel Wins Microsoft AI Chip Business as Foundry Turnaround Faces New Test (TradingView (Reuters)) https://news.google.com/rss/articles/CBMizwFBVV95cUxOY2NRRmlxay1vNktiSVFZZTdRdWdBLUF2Tm04VUNIMC1jZXRHZVB3SHQxV2ZYaE5qa25jT1BjR2h0T19kZngxTjNIS2lrVFVmeE83aGJGaG1HREhpVFlqMHczdDhoUHh0cXlLRzVNbEphS2N6TVhHQ2xpa3FHM2cyS01SaFVfaUV5VVQ5Rk1UN2kzcFh5MnNhV3ZuMmxzSm1JM1FFQVJLZGl6clRCYTFZNUdvYUV5Qjk2SFFCMFA4dXI5NGp6ejFRYk91eDBQcWM?oc=5
+· JPM JPMorgan’s Dimon says will find ways to offset UK bank tax increase - FT (TradingView (Reuters)) https://news.google.com/rss/articles/CBMi1wFBVV95cUxOSi0xNG1tSjBFZGZadEp6T1ZaMy1yWFNGaVRyZUxQYUtIQ1FkME9Kd0ZYdm4tSWN2OGhSeS0tWTM3YmdBUmUyM1g3RHBXMnAwbi1sMkpIQkJQQWhsckptTGxDcUFadE4ydENQb2FDM3pFanRIT1k3VmwwaGdNWjh0eWo0Uzlkd0xZanhaUVJpM21FRUk4eUNsa3BSc3ltR2s0V2FEWlRjelpBd005Yy10UGpnWG5BQU13V21NYWYtVWRhc3VycUlWTUg4S3JhZEVDcHdydWdSYw?oc=5
+· JPM JPMorgan’s Dimon vows to claw back ‘unfair’ UK bank tax (Financial Times) https://news.google.com/rss/articles/CBMihAFBVV95cUxOS2k0a0xOVmVtVG5BUlRUQXZmNk9yZXBCWjBqNUoyNzdwR21mQnYyRGhDZE5ESzRGWXQxV014blY0S1M0Y0pHZTAwM243R0FPVFRsc3lBT0JmQlVZR21MVlYyb1BRNlEwNmV1MVBIT19jSk04SkEyd1lSRFJEX1lLZC1rZGk?oc=5
+· BTC Institutional bitcoin ETP holdings hit record $29.8B in Q3: Galaxy Research (Yahoo Finance) https://news.google.com/rss/articles/CBMiuwFBVV95cUxQY2ZtRXl3UGRLZ0VGaVY3bWtjbHJ1WkM3SDRBdlRIeHVqU0dZNzNkR3JJbHBDeDVTRHFraV9wdWQzZjlFWl95X1hSU1VFSG04MVh5SXp3eXFINVVnU1B2ZW4tLXNVQWp2Y001Q2tfQjZjTUhGWWFBY0RwUVNLeTktUTJ2YWc3X0Vhclp4TVhhQVJQeVFsMFJHVTlFSkJNUmE1OW9YUUdLa0xXY2hBN0NoeVI0MW1oaGRIY2lj?oc=5
+· BTC Bitcoin Breaks Below $60K as Crypto Fear Index Hits Worst Level Since February (Yahoo Finance) https://news.google.com/rss/articles/CBMinAFBVV95cUxPU0NwWlpFcF9rdzkwWWRVd0xhbk00Tm5Kck1KbHllT1NZXzk4VDNTTFNFU2EwUnNMQkg3S1FGM3lGeWxaVG5vMFBWYXNiWm0tM2owRVViMzNUY2RXc1U5QkhnS0E4X19VTVlOMGdoZXN4MEZOdzVRa0ZaaHF5ckVtSUlCWUlvbHp1TDBCWlZYVlVSel9oVGpIb3BSUzY?oc=5
+· GFS GlobalFoundries (GFS) Fell Despite Strong Results and Improved Guidance (Yahoo Finance) https://news.google.com/rss/articles/CBMipwFBVV95cUxPUHUwWGF0NnBXSlVycmxIVEdfbFZvbTg2NzJOZzNPOUFqZ1IzOHU5TWtFeDB0c2NtbkFMUEZPandsbnNqLTd6bldRVUxfcVRGTEwtNzdES1AwQmF5OVYxMkJYLUJUOGJVcUpkdENydzBDUmFlWVF4VEsyNk9EaXhrWEpoQW1QOGhseUlVZGVTZmlVOWlWUWxWbVotQkF4VlBiUmpQVUZsQQ?oc=5
 · USDBRL BC faz 1ª intervenção cambial desde 2024 após fala de Lula; dólar vai a R$ 5,94 (Bloomberg Linea) https://www.bloomberglinea.com.br/mercados/bc-faz-1-intervencao-cambial-desde-2024-apos-fala-de-lula-dolar-vai-a-r-594/
 · MRVL The combination with Marvell is going to be very powerful, says Lumentum CEO Hurlston (CNBC) https://www.cnbc.com/video/2026/11/19/the-combination-with-marvell-is-going-to-be-very-powerful-says-lumentum-ceo-hurlston.html
 · NVDA US approved sale of Nvidia and AMD chips to Chinese companies (Financial Times) https://www.ft.com/content/76342072-2781-4b16-ba3b-816a25214483?syn-25a6b1a6=1
@@ -194,8 +245,4 @@ id: E05-KLBN4-90d44c0465-2026-11-19 · status: linha
 · AMD AMD stock drops after Hunterbrook Media raises export control concerns (Yahoo Finance) https://news.google.com/rss/articles/CBMiygFBVV95cUxNWUg5LTNtMXZ0UXA0a1J0Ukx1U1lEaUhIV3pzS3ZxUVZGNmdack9VOTJiUHhrRnJZd2lDRkFsVS1hbE14eFlxZGtON3ZDMnZ4VVl0REI1MmllX016cFhCSzhxa0NYZHhELTV4Um93OHhTanJXbHRqZ2VDWmRHdUZfZzJTQmtSa0l1ODFIODItcVQxenFDSlozMVcxeGUxQzhReEJERTl6am1EbDdvYkRmV3pkUzdMWWhyM0taWS1DV0lLZGFyZHdPUElB?oc=5
 · USDBRL Dólar supera R$5,90 apesar de leilão do BC e taxas dos DIs avançam com pressão fiscal (TradingView (Reuters)) https://news.google.com/rss/articles/CBMid0FVX3lxTE5qbmU2RTc5Tl9HNWN2QnBfSFFucjBMRHNPbktGcmVSVFJDelc4U21BMHBJLUhYZkFmSGRTalVWUDBxZjFHdlhYYk9GYmEyV0pnRWhDYTRaYm5mb21NdWxseWtHSkVaUV83anB6TG9pSkxyc3Y4OWdJ?oc=5
 · USDBRL Dólar ganha (ainda mais) fôlego e passa os R$ 5,90 — e aqui estão os motores da disparada do dia (Seu Dinheiro) https://news.google.com/rss/articles/CBMiygFBVV95cUxNeUtCQTc3elNIVUxBSTQxejlzU3R1UXNEVmZHZ0VET0xMal8wV3hpQ0hMMXBoQjhSYWRMSFN1VjNEeTJpR1JnZDB0eHBGakRwbWVKMHBDcTJKb1VjUTJlZ2hMdTFORlpJRzFmUGtjU0RKem5xLUJNNzNvdGRManB2RTVGOUtYYVJ2Mi1uWHlOOGxpZHhVc2J4S0dsbkN1UFplN0J0V1kyLXdBZVREWXpwYmwyOERWc2ZMVDB3YlF6UXNuSWJIYUcyeXFB?oc=5
-· AMD Why Is AMD Stock Rising Overnight? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/why-amd-stock-rising-overnight-020525527.html
-· USDBRL Dólar norte-americano oscila perto da maior cotação em 19 meses; dólar australiano cai após dados fracos sobre o mercado de trabalho (TradingView (Reuters)) https://br.tradingview.com/news/reuters.com,2026:newsml_L2N470031:0/
-· INTC Intel signs first external customer for advanced 18A chips (CNBC) https://www.cnbc.com/2026/11/18/intel-first-18a-foundry-customer.html
-· NVDA After Nvidia’s Earnings, Here’s My Prediction for the Stock Price by the End of the Year (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/nvidia-earnings-prediction-stock-price-002502278.html
-· NVDA Elon Musk Says Nvidia Ousting Jensen Huang Is Like Kicking Michael Jordan Off A Winning Team (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/elon-musk-says-nvidia-ousting-002332874.html
+· (+5 manchetes; lista completa em eventos/noticias.json)

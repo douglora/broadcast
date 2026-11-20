@@ -1,6 +1,6 @@
-ALERTAS · Fechamento 18h
+ALERTAS · intradia
 
-[CRÍTICO] CURVA · C01 A curva ABRIU: F28 +32 bps no dia · F28 +55 bps em 5 pregões · F29 +37 bps no dia (ajuste B3 19/11) / C05 Pre 2029 ABRE 39 bps (PU -0,7%) · Pre 2032 ABRE 32 bps (PU -1,3%) (base 19/11) / C02 Inclinação da curva DI: F35-F28 -30 bps em 5 pregões
+(pendente de slot anterior) [CRÍTICO] CURVA · C01 A curva ABRIU: F28 +32 bps no dia · F28 +55 bps em 5 pregões · F29 +37 bps no dia (ajuste B3 19/11) / C05 Pre 2029 ABRE 39 bps (PU -0,7%) · Pre 2032 ABRE 32 bps (PU -1,3%) (base 19/11) / C02 Inclinação da curva DI: F35-F28 -30 bps em 5 pregões
 DI F28 14,83 (+32) · F29 15,30 (+37) · F30 15,45 (+35) · F32 15,51 (+29) · F35 15,50 (+25)
 Inclinação F35-F28 +67 bps (-7)
 TD Pre 2029 15,33 (+39) PU -0,7% · IPCA+ 2032 7,86 (+12) PU -0,6% · IPCA+ 2040 7,52 (+3) · IPCA+ 2050 7,53 (+2) · Pre 2032 15,60 (+32) PU -1,3%
@@ -14,62 +14,15 @@ Implícita 2031/32 (descasado): 6,92% (+12 bps na semana) vs Focus IPCA 2030 3,9
 Por que importa: delta em bps e inclinação são o que toda mesa de renda fixa reporta e o que explica a marcação do Tesouro ao cliente
 Como falar: 'o prefixado longo marcou a mercado para baixo; quem carrega até o vencimento não mudou de taxa'
 Fonte: B3 ajuste 19/11 · Tesouro Transparente base 19/11; BCB Focus · Tesouro Transparente, base 19/11 · ajuste B3 19/11
-Push: [CRÍTICO] DI A curva ABRIU | TESOURO Pre 2029 ABRE 39 bps (PU -0,7%) · Pre 2032 ABRE 32 bps (PU - | DI Inclinação da curva DI +3 · detalhe na sessão
 ids: C01-DI-abriu-2026-11-19, C05-TESOURO-abriu-2026-11-19, C02-DI-inclinacao-2026-11-19, C03-DI-di-2026-11-19, C03-TESOURO-td-2026-11-19, C06-TESOURO-implicita-2026-11-19
 
-(pendente de slot anterior) [ATENÇÃO] T13 · VIX cruzou 25: 27,9 (+14% no dia)
-VIX 27,9 (+14%)
+[CRÍTICO] T13 · VIX cruzou 30: 31,7 (+12% no dia)
+VIX 31,7 (+12%)
 Por que importa: VIX acima de 20 é o mercado pagando por proteção; acima de 30 as correlações vão a 1 e o que manda é o tamanho da posição
 Como falar: 'dia de aversão a risco: não é hora de decidir pelo preço de tela'
 Fonte: Cboe via Yahoo, fech. 19/11
-ids: T13-VIX-vix25-2026-11-19
-
-(pendente de slot anterior) [ATENÇÃO] E05 · AXIA3 · Axia prepara emissão de R$ 1 bilhão em debêntures para UHE Santo Antônio
-UOL Economia · 19/11 14h36 · fonte única · licença: manchete
-Link: https://megawhat.uol.com.br/geracao/axia-prepara-emissao-de-r-1-bilhao-em-debentures-para-uhe-santo-antonio/
-Por que importa: oferta de acoes ou divida altera a base acionaria ou a alavancagem
-Ativos: AXIA3
-Como falar: 'saiu no UOL Economia: Axia prepara emissão de R$ 1 bilhão em debêntures para UHE Santo Antônio; confirmar o número no texto antes de repassar'
-Fonte: UOL Economia 19/11 14h36
-ids: E05-AXIA3-8a797ef5ea-2026-11-19
-
-(pendente de slot anterior) [ATENÇÃO] E05 · GOOGL · Alphabet (GOOG) Slips as 2026 Capex Outlook Rises
-Yahoo Finance · 19/11 13h07 · fonte única · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – RiverPark Advisors, an investment advisory firm and sponsor of the RiverPark family of mutual funds, released its "RiverPark Large Growth Fund" Q3 2026 investor letter.
-  – equity markets rose modestly in the third quarter, with the S&P 500 gaining 2.30% and the Russell 1000 Growth Index increasing 0.92%.
-  – The Fund also advanced, returning 4.10% in the quarter amid persistent macroeconomic challenges.
-  – Also, check the fund's top five holdings to see its best picks in 2026.
-  – In its Q3 2026 investor letter, RiverPark Large Growth Fund noted that Alphabet Inc. (NASDAQ:GOOG) detracted from performance.
-  – On November 18, 2026, Alphabet Inc. (NASDAQ:GOOG) closed at $279.20 per share with a market capitalization of $3.43 trillion.
-Link: https://finance.yahoo.com/markets/stocks/articles/alphabet-goog-slips-2026-capex-160741067.html
-Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
-Ativos: GOOGL
-Como falar: 'saiu no Yahoo Finance: Alphabet (GOOG) Slips as 2026 Capex Outlook Rises; confirmar o número no texto antes de repassar'
-Fonte: Yahoo Finance 19/11 13h07
-ids: E05-GOOGL-2ecf140715-2026-11-19
-
-(pendente de slot anterior) [ATENÇÃO] E05 · NVDA · Intel Climbs 7% on First 18A Customer, NVIDIA Gains 4% as Trump Floats Blackwell Sales to China and Dan Ives Hails Anthropic IPO; AMD Rises 3%
-Yahoo Finance · 19/11 11h56 · fonte única · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – - Intel still faces a $1.85 billion quarterly foundry loss and a lingering PC slump, so its next 18A customer is the one to watch.
-  – Intel stock is at $58.41, up 7% in morning trading.
-  – The rally cuts a steep slide, as the shares are down 37% over the past month despite a gain for the year.
-  – Since its October 29 report, Intel has struggled, as its Q4 2026 revenue outlook of $15 billion to $16 billion missed expectations and management warned the PC decline would last through at least the first half of 2027.
-  – Intel Lands Its First 18A Foundry Customer CEO Lip-Bu Tan disclosed on November 18 at the TomorrowX Summit in Austin that Intel signed its first outside customer for its 18A chip process, though he didn't name the compa…
-  – Read More Here › ------ Microsoft (NASDAQ:MSFT) announced an expanded Azure partnership with Intel on November 18 that includes a multi-year Xeon processor supply agreement.
-Link: https://finance.yahoo.com/technology/articles/intel-climbs-7-first-18a-145631177.html
-Por que importa: oferta de acoes ou divida altera a base acionaria ou a alavancagem
-Ativos: NVDA · AMD · INTC
-Como falar: 'saiu no Yahoo Finance: Intel Climbs 7% on First 18A Customer, NVIDIA Gains 4% as Trump Floats Blackwell Sales to…; confirmar o número no texto antes de repassar'
-Fonte: Yahoo Finance 19/11 11h56
-ids: E05-NVDA-b50e91e1eb-2026-11-19
-
-(pendente de slot anterior) [ATENÇÃO] S01 · coleta do slot intradia saiu incompleta: bcb: BCB devolveu 4 de 5 séries (faltaram ipca_mes)
-O que fiz: entreguei as seções disponíveis; as pernas que falharam estão em LACUNAS.
-Por que importa: silêncio é lido como 'está tudo bem'; declarar a falha é o que permite confiar no restante
-Fonte: manifest do runner
-ids: S01-SISTEMA-intradia-2026-11-19
+Push: [CRÍTICO] VIX cruzou 30 · detalhe na sessão
+ids: T13-VIX-vix30-2026-11-19
 
 (pendente de slot anterior) [ATENÇÃO] E05 · BABA · EQUITY ALERT: Rosen Law Firm Files Securities Class Action Lawsuit on Behalf of Alibaba Group Holding Limited Investors – BABA
 Business Wire · 19/11 15h50 · fonte única · licença: integral
@@ -105,38 +58,69 @@ Como falar: 'saiu no Yahoo Finance: Sweden’s H100 Considers Using Bitcoin Trad
 Fonte: Yahoo Finance 19/11 12h45
 ids: E05-BTC-28af0b835e-2026-11-19
 
+[ATENÇÃO] E05 · BABA · Citi cuts Alibaba stock price target on cloud revenue outlook By Investing.com
+Investing.com · 20/11 08h03 · fonte única · licença: manchete
+Link: https://news.google.com/rss/articles/CBMivwFBVV95cUxOdzcwTXdtTHlJOHA4eUF5cW1XWU5PeEg1b2pWbkdMTlFQYzJUaXMtd3lVQVBzZG41OWhibVp3WURIcG5uRzI1LUp5TTBwdFhOZWFxUzFUaVFydEFIMHNKaUw4VjJDaWFtZjdrbl9HNTZtTmlJVEd3RXRJbWo1ZGE5aUdkeHVHa3BHRm9PbFNEUWtKaVU5emNMSlNoYVpUcG9pOFo5RGtQMUFyYndNTHBGRkVrYnRDeUszWWNnOFlUTQ?oc=5
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: BABA
+Como falar: 'saiu no Investing.com: Citi cuts Alibaba stock price target on cloud revenue outlook By Investing.com; confirmar o número no texto antes de repassar'
+Fonte: Investing.com 20/11 08h03
+Push: intradia: 3 alertas de atenção — E05 BABA, E05 CVX, E05 AMD · detalhe na sessão
+ids: E05-BABA-93b2387ab2-2026-11-20
+
+[ATENÇÃO] E05 · CVX · Chevron or Mondelez: I Can Only Pick One Dividend Stock for the Next 20 Years. Here’s Mine
+Yahoo Finance · 20/11 07h03 · fonte única · licença: manchete
+Link: https://news.google.com/rss/articles/CBMimwFBVV95cUxPUXhsOTNmZDE5VmdrdE5xNzdaQmZyWUZ6akRyNHdjRV9BdFFRWXFVVlNrLTdSbUJ5d3ExdVRSYl9DcjdXWXN0ZlZPSGlndjF0RGZZdGh0eXFzaTh3YWkza2I4Z3h5eUVkaVJsTFlKZ3d4bTZ5dkVoNVpVTEVWanhSZTUzUVBSTklkczN0SDl5U01VVVpPdXJpSERKNA?oc=5
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: CVX
+Como falar: 'saiu no Yahoo Finance: Chevron or Mondelez: I Can Only Pick One Dividend Stock for the Next 20 Years. Here’s Mine; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 20/11 07h03
+ids: E05-CVX-7759404901-2026-11-20
+
+[ATENÇÃO] E05 · AMD · Key facts: AMD Revenue +45%; Anthropic Helios Deal; $800M MI308 Charge
+TradingView (Reuters) · 20/11 05h00 · fonte única · licença: manchete
+Link: https://news.google.com/rss/articles/CBMixAFBVV95cUxQX2o2YlZGM2k2N2hSZ0ZxbFU2ZDBZZENibXlnMjdlVlQtMkJYSjBxczRQN3UtbFZ6X1VWS0dVbWxLWm1ZUlFVai1xU25aLUg4NTcwUGlHRXdVVXk2bUJzdXhLYVZvYTZsSmdzU1dYS2FZUEFGRXJxOXc1N3BpVExEMVZaZ1NkWGpLdFNVVVVMaXpDczRfTFpleWJfWEdBVDgxTFNQS3FtaE1VT0JScGJ1VEphbnRvSS03UmE3Sm9fUXlneFo5?oc=5
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: AMD
+Como falar: 'saiu no TradingView (Reuters): Key facts: AMD Revenue +45%; Anthropic Helios Deal; $800M MI308 Charge; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 20/11 05h00
+ids: E05-AMD-431fa9769b-2026-11-20
+
 Info (só linha no Fechamento):
-· T01 WUTI (State Street SPDR MSCI World Utilities UCITS ETF (USD)) fechou abaixo da média de 200 dias pela 2ª sessão: US$ 69,11 vs MM200 US$ 70,47 (-1,9%) (dado a confirmar)
-· T09 RARA11 -1,3% com volume 4,2x a mediana de 20 sessões, a R$ 11,75
-· T10 SBSP3 no máximo de força relativa em 63 sessões contra IBOV: -12% vs -19% em 20 sessões (+9,0% relativo)
-· T12 VWRA (Vanguard FTSE All-World UCITS ETF USD Accumulating): 6 quedas seguidas (-4,6% acumulado) a US$ 180,94
-· T12 USDBRL: 6 altas seguidas (+6,6% acumulado) a R$ 5,9302
-· E05 USDBRL · BC faz 1ª intervenção cambial desde 2024 após fala de Lula; dólar vai a R$ 5,94
-· E05 MRVL · The combination with Marvell is going to be very powerful, says Lumentum CEO Hurlston
-· E05 NVDA · US approved sale of Nvidia and AMD chips to Chinese companies
-· E05 NOK · Is Nokia Oyj (HLSE:NOKIA) Trading At A Premium On Earnings?
-· E05 TSM · TSMC halts advanced chip orders from Chinese designers in Taiwan
-· E05 BABA · BABA INVESTOR ALERT: Alibaba Group Holding Limited
-· E05 MRVL · Lumentum CEO defends Marvell deal after stock plunge: 'We've got work to do' with shareholders
-· E05 NVDA · US Congress releases list of Chinese firms seeking Nvidia chips
-· E05 NVDA · Alibaba defrauded shareholders by concealing ties to suspected spy in Nvidia scandal, lawsuit says
-· E05 USDBRL · Banco Central faz leilão extraordinário de US$ 1 bilhão à vista no mercado de câmbio
-· E05 NVDA · California attorney general issues Nvidia subpoena in probe of China chip diversion
-· E05 USDBRL · Dólar supera R$ 5,93 e fecha no maior valor desde abril de 2025
-· E05 BTC · Bitcoin slides toward $60,000 as spot ETF outflows near $3 billion
-· E05 UST · U.S. Treasury yields slip on safe-haven bid, 10-year posts four-day losing streak
-· E05 AMD · AMD: Why I See Opportunity After The Hunterbrook Short Report (NASDAQ:AMD)
+· F01 Real cai: USD/BRL 5,9488 (+5,2% em 5 sessões) (parcial, intradia)
+· F06 BTC cai a US$ 58.234 (cruzou US$ 60.000) (parcial, intradia)
+· F06 ETH cai a US$ 1.610 (-8,3% em 24h · -16% em 7 dias · cruzou US$ 1.750) (parcial, intradia)
+· E05 AMD · Intel Proved The CPU Comeback, AMD Will Cash It (NASDAQ:AMD)
+· E05 BTC · Bitcoin Drops Below $59K, Wiping Out $1.5B In Crypto Bets: MSTR, BMNR, ASST Stocks Extend Losses
+· E05 BTC · Binance hack laundering ramps up as $149 million in bitcoin mixed through coinjoins: Elliptic
+· E05 INTC · Wedbush: Microsoft May Give Intel a Crucial AI Chip Win
+· E05 BTC · Bitcoin Falls Below $60K as ETFs Bleed
+· E05 NVDA · Nvidia Sinks 7% on New Probes as California AG Says Scandal “Raises Bright Red Flags”
+· E05 INTC · Intel: Further Pain Ahead, Still Expensive For What It Is
+· E05 BTC · Bitcoin falls over 20% in November as ETF outflows mount, but history offers some hope
+· E05 JPM · JPMorgan Stocks Move Lower as CFO Handover Reshapes Dimon Bench
+· E05 INTC · Intel Wins Microsoft AI Chip Business as Foundry Turnaround Faces New Test
+· E05 JPM · JPMorgan’s Dimon says will find ways to offset UK bank tax increase - FT
+· E05 JPM · JPMorgan’s Dimon vows to claw back ‘unfair’ UK bank tax
+· E05 BTC · Institutional bitcoin ETP holdings hit record $29.8B in Q3: Galaxy Research
+· E05 BTC · Bitcoin Breaks Below $60K as Crypto Fear Index Hits Worst Level Since February
+· E05 GFS · GlobalFoundries (GFS) Fell Despite Strong Results and Improved Guidance
+· E05 BABA · Alibaba Group Holding Limited Notice of January 19, 2027 Application Deadline for Class Action Lawsuit - Contact Lewis Kahn, Esq. at Kahn Swick & Fot…
 · T01 PETR4 fechou abaixo da média de 200 dias pela 2ª sessão: R$ 42,67 vs MM200 R$ 43,50 (-1,9%)
 · T03 QANT formou death cross: MM50 US$ 5,70 cruzou abaixo da MM200 US$ 5,73 pela 2ª sessão; preço US$ 4,77, -17% da MM200, - em 12m
 · T03 KLBN4 formou death cross: MM50 R$ 3,62 cruzou abaixo da MM200 R$ 3,64 pela 2ª sessão; preço R$ 3,34, -8,2% da MM200, -0,5% em 12m
 · T06 VHYA (Vanguard FTSE All-World High Dividend Yield UCITS ETF USD Accumulating) -4,7% em 5 sessões a US$ 103,00: movimento de 2,6 desvios para a vol de 20 dias
 · T12 VALE3: 8 quedas seguidas (-12% acumulado) a R$ 58,48
 
-Suprimidos pelo teto (viram linha do Fechamento): T01-PETR4-perda-2026-11-19 (teto de atenção), T03-QANT-death-2026-11-19 (teto de atenção), T03-KLBN4-death-2026-11-19 (teto de atenção), T06-VHYA-queda-2026-11-19 (teto de atenção), T12-VALE3-quedas_8-2026-11-19 (teto de atenção)
+Suprimidos pelo teto (viram linha do Fechamento): E05-BABA-cc96422e0d-2026-11-20 (teto de noticias), T01-PETR4-perda-2026-11-19 (teto de atenção), T03-QANT-death-2026-11-19 (teto de atenção), T03-KLBN4-death-2026-11-19 (teto de atenção), T06-VHYA-queda-2026-11-19 (teto de atenção), T12-VALE3-quedas_8-2026-11-19 (teto de atenção)
 
 Alertas do dia (todos, com status):
+· pendente  T13 VIX — VIX cruzou 30: 31,7 (+12% no dia)
 · pendente  C01 DI — A curva ABRIU: F28 +32 bps no dia · F28 +55 bps em 5 pregões · F29 +37 bps no di
 · pendente  C05 TESOURO — Pre 2029 ABRE 39 bps (PU -0,7%) · Pre 2032 ABRE 32 bps (PU -1,3%) (base 19/11)
+· pendente  E05 BABA — BABA · Citi cuts Alibaba stock price target on cloud revenue outlook By Investin
+· pendente  E05 CVX — CVX · Chevron or Mondelez: I Can Only Pick One Dividend Stock for the Next 20 Ye
+· pendente  E05 AMD — AMD · Key facts: AMD Revenue +45%; Anthropic Helios Deal; $800M MI308 Charge
 · pendente  C02 DI — Inclinação da curva DI: F35-F28 -30 bps em 5 pregões
 · pendente  C03 DI — DI em nível: F29 cruzou 15,00% (para cima, agora 15,30%) · F29 na máxima de 252 
 · pendente  C03 TESOURO — Prefixado em nível: Pre 2029 cruzou 15,00% (agora 15,33%) · Pre 2032 cruzou 15,5
@@ -146,18 +130,20 @@ Alertas do dia (todos, com status):
 · linha     T03 KLBN4 — KLBN4 formou death cross: MM50 R$ 3,62 cruzou abaixo da MM200 R$ 3,64 pela 2ª se
 · linha     T06 VHYA — VHYA (Vanguard FTSE All-World High Dividend Yield UCITS ETF USD Accumulating) -4
 · linha     T12 VALE3 — VALE3: 8 quedas seguidas (-12% acumulado) a R$ 58,48
-· pendente  E05 BABA — BABA · EQUITY ALERT: Rosen Law Firm Files Securities Class Action Lawsuit on Beh
-· pendente  E05 NVDA — NVDA · Nvidia Stocks Rise 4.63% as $10 Billion Anthropic Stake Lands on IPO Day
-· pendente  E05 BTC — BTC · Sweden’s H100 Considers Using Bitcoin Trading Pool to Fund Share Buyback
+· expirado  E05 BABA — BABA · EQUITY ALERT: Rosen Law Firm Files Securities Class Action Lawsuit on Beh
+· expirado  E05 NVDA — NVDA · Nvidia Stocks Rise 4.63% as $10 Billion Anthropic Stake Lands on IPO Day
+· expirado  E05 BTC — BTC · Sweden’s H100 Considers Using Bitcoin Trading Pool to Fund Share Buyback
 · expirado  T13 VIX — VIX cruzou 25: 27,9 (+14% no dia)
 · expirado  E05 AXIA3 — AXIA3 · Axia prepara emissão de R$ 1 bilhão em debêntures para UHE Santo Antônio
 · expirado  E05 GOOGL — GOOGL · Alphabet (GOOG) Slips as 2026 Capex Outlook Rises
 · expirado  E05 NVDA — NVDA · Intel Climbs 7% on First 18A Customer, NVIDIA Gains 4% as Trump Floats Bl
-· expirado  S01 SISTEMA — coleta do slot intradia saiu incompleta: bcb: BCB devolveu 4 de 5 séries (faltar
+· linha     F01 USDBRL — Real cai: USD/BRL 5,9488 (+5,2% em 5 sessões) (parcial, intradia)
+· linha     F06 BTC — BTC cai a US$ 58.234 (cruzou US$ 60.000) (parcial, intradia)
+· linha     F06 ETH — ETH cai a US$ 1.610 (-8,3% em 24h · -16% em 7 dias · cruzou US$ 1.750) (parcial,
 · linha     T01 WUTI — WUTI (State Street SPDR MSCI World Utilities UCITS ETF (USD)) fechou abaixo da m
 · linha     T09 RARA11 — RARA11 -1,3% com volume 4,2x a mediana de 20 sessões, a R$ 11,75
 · linha     T10 SBSP3 — SBSP3 no máximo de força relativa em 63 sessões contra IBOV: -12% vs -19% em 20 
 · linha     T12 VWRA — VWRA (Vanguard FTSE All-World UCITS ETF USD Accumulating): 6 quedas seguidas (-4
 · linha     T12 USDBRL — USDBRL: 6 altas seguidas (+6,6% acumulado) a R$ 5,9302
 · linha     F01 USDBRL — Real cai: USD/BRL 5,9302 (+5,0% em 5 sessões)
-· (+56 notícias só manchete, em noticias.md)
+· (+72 notícias só manchete, em noticias.md)
