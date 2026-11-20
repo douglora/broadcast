@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 20/11 16h06
+NOTÍCIAS E FATOS · 20/11 17h59
 
-Pernas: noticias ok 19 novas (18 consultas; descartadas: 394 veículo fora da lista, 17 sem ativo, 61 teto) · cvm ok 0 novos de 7 (4 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 16 novas (18 consultas; descartadas: 405 veículo fora da lista, 18 sem ativo, 12 teto) · cvm ok 0 novos de 7 (4 cias casadas) · sec ok 0 novos em 3 dias
 
 ## SEC (8-K, 6-K, 10-Q, 10-K) (1)
 
@@ -17,7 +17,16 @@ Fonte: SEC EDGAR 2026-11-19
 id: E04-BABA-26130115-2026-11-19 · status: linha · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (14)
+## NOTÍCIAS COM MATERIALIDADE (15)
+
+[ATENÇÃO] E05 · BABA · Citi cuts Alibaba stock price target on cloud revenue outlook
+Investing.com · 20/11 07h45 · fonte única · licença: manchete
+Link: https://www.investing.com/news/analyst-ratings/citi-cuts-alibaba-stock-price-target-on-cloud-revenue-outlook-93CH-5041164
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: BABA
+Como falar: 'saiu no Investing.com: Citi cuts Alibaba stock price target on cloud revenue outlook; confirmar o número no texto antes de repassar'
+Fonte: Investing.com 20/11 07h45
+id: E05-BABA-114266897c-2026-11-20 · status: pendente
 
 [ATENÇÃO] E05 · BABA · Citi cuts Alibaba stock price target on cloud revenue outlook By Investing.com
 Investing.com · 20/11 08h03 · fonte única · licença: manchete
@@ -183,8 +192,23 @@ Fonte: Valor Economico 19/11 05h00
 id: E05-KLBN4-90d44c0465-2026-11-19 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (65)
+## OUTRAS NOTÍCIAS (só manchete) (80)
 
+· USDBRL Nem US$ 1 bilhão do BC conteve a alta do dólar; o que isso revela sobre a economia? (Estadao) https://www.estadao.com.br/economia/celso-ming/nem-us-1-bilhao-do-bc-conteve-a-alta-do-dolar-o-que-isso-revela-sobre-a-economia/
+· LITE TTM Technologies, Flex, Lumentum, Benchmark, and Knowles shares plummet, what you need to know (TradingView (Reuters)) https://www.tradingview.com/news/stockstory:8330484e4094b:0-ttm-technologies-flex-lumentum-benchmark-and-knowles-shares-plummet-what-you-need-to-know/
+· NVDA EXCLUSIVE: Nvidia's accounting is a focus of US SEC investigation, sources say (Reuters) https://www.reuters.com/world/us-secs-nvidia-probe-is-examining-potential-accounting-issues-sources-say-2026-11-20/
+· NVDA Broadcom, Intel, Nvidia, and Qualcomm stocks trade down, what you need to know (TradingView (Reuters)) https://www.tradingview.com/news/stockstory:6d083d94d094b:0-broadcom-intel-nvidia-and-qualcomm-stocks-trade-down-what-you-need-to-know/
+· MRVL Marvell Technology retreats 11% as tech stocks suffer (MRVL:NASDAQ) (Seeking Alpha) https://seekingalpha.com/news/4675309-marvell-technology-retreats-11-as-tech-stocks-suffer
+· COHR Coherent sinks 14%, dragged down by tech selling (COHR:NYSE) (Seeking Alpha) https://seekingalpha.com/news/4675302-coherent-sinks-14-dragged-down-by-tech-selling
+· NVDA Nvidia stock extends $2.5 trillion rout as SEC probe reportedly investigates its accounting (Yahoo Finance) https://finance.yahoo.com/markets/article/nvidia-stock-extends-25-trillion-rout-as-sec-probe-reportedly-investigates-its-accounting-194945274.html
+· SMAL11 Small caps: Safra coloca na carteira banco que pode disparar 80% e chegar a R$ 100; confira o portfólio (Money Times) https://www.moneytimes.com.br/small-caps-safra-coloca-na-carteira-banco-que-pode-disparar-80-e-chegar-a-r-100-na-carteira-confira/
+· BTC Bitcoin Falls to More than Two-Year Low as Global Markets Sink (Bloomberg) https://www.bloomberg.com/news/articles/2026-11-20/bitcoin-falls-to-more-than-two-year-low-as-global-markets-sink
+· NVDA Nvidia stock plunges 12%, rides longest weekly losing streak since 2008 financial crisis (CNBC) https://www.cnbc.com/2026/11/20/nvidias-7-week-losing-streak-is-longest-since-2008-financial-crisis.html
+· BABA BABA DEADLINE ALERT: Faruqi & Faruqi, LLP Reminds Alibaba (GlobeNewswire) https://www.globenewswire.com/news-release/2026/11/20/3407783/0/en/baba-deadline-alert-faruqi-faruqi-llp-reminds-alibaba-nyse-baba-investors-of-securities-class-action-lawsuit-deadline-on-january-19-2027.html
+· BTC Ripple’s CEO Says Investors Sold XRP and Bitcoin to Buy Anthropic Shares (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/ripple-ceo-says-investors-sold-190103648.html
+· JPM JPMorgan adds Dallas fund-banking hub as Y’all Street private capital ecosystem grows (Yahoo Finance) https://finance.yahoo.com/real-estate/articles/jpmorgan-adds-dallas-fund-banking-190000985.html
+· BABA BABA Investors Have Opportunity to Lead Alibaba Group Holding Limited Securities Fraud Lawsuit with SBS Law (Business Wire) https://www.businesswire.com/news/home/20261120303208/en/BABA-Investors-Have-Opportunity-to-Lead-Alibaba-Group-Holding-Limited-Securities-Fraud-Lawsuit-with-SBS-Law
+· NVDA Anthropic And Nvidia Are Saying The AI Bubble Is Finally Popping (Seeking Alpha) https://news.google.com/rss/articles/CBMiqAFBVV95cUxNOExsYVF5bHI3Rm9XQTZoMTFJTVhEbFJ5bnhMdjJIdEVzRFBJc21STEhyVTdNLUpjZ3FYVVcwdWRMTWs3V1pHQXEzUTVPZXR3X2daWUV6UXFWMmE2aXR0eDlQVmUtYlc5ems1aWtEdGg0UzVFSlVNWXQ1NW94bFFzdnk4eGN5aml6Rkt3SE44R2k0WTNzR2JnUEU4bWk5d0xjSkRod3RrdWM?oc=5
 · AMD Intel Proved The CPU Comeback, AMD Will Cash It (NASDAQ:AMD) (Seeking Alpha) https://news.google.com/rss/articles/CBMitAFBVV95cUxOcTA1amRDQkFkZlp6NzZkT1RVcUpnTXZIUWc4ZUxuR3hEVXdxUkRDZE5rWEpmYTdpSFZoYzNPNHN3YkdjamhtT01fVmt6S1VscHlYYS14YTc2d01DdjdvSVFvTE9YdnN3b0xHeFByTU1yLWZ5clk3WG5jblc5dGh4MzRnN0gwRl9mSVhTMEZKWC1iRzhCc3ozVmI1N000N2FJeU9ReWwxQ1UwcHFIaTEtblJud00?oc=5
 · BTC Bitcoin Drops Below $59K, Wiping Out $1.5B In Crypto Bets: MSTR, BMNR, ASST Stocks Extend Losses (Yahoo Finance) https://news.google.com/rss/articles/CBMimwFBVV95cUxPSmFOTDFUSm9yQVRWVVpjbm1tZy1sbWJxZ0VWMGpFdkhFYWlzaEZ1UHdsZklzUTNnTkxNekxpcWMxZGJnN0M0UkwtRVpWa3pfdV9zX1dJME9adkpVWE8tYS1BTjU2X1gxWHJMVHpuRW9UWWJVRE9adW0xU1owNXZ5UmF2b0hRdU9IdzlHNDZoczFGZEZIS1dPOWJwNA?oc=5
 · BTC Binance hack laundering ramps up as $149 million in bitcoin mixed through coinjoins: Elliptic (The Block) https://news.google.com/rss/articles/CBMizAFBVV95cUxQSndDVWk0NjdkRDZvb1d2QURSZ1FnOUVVWEpaVWV1Uzg3d2VoWVVOdUtVOGQ3elR3eExRZFdCTUY2XzFOR1Z2Y01rMk9aLUxOQi1adzdlTFVQcnNpWjVFQWotdUhNR3JZZDRSY1BGSTZkbWV0bUNjemxyNFA1Q3I1MElrMVFhdndpUFh2T0I4SEpfdTNkYmlMREVDV0Vrd2M4SHlVWlpXRjBvd29aS1VNNW52bFc4OEpZT2xEYXhobjR3bEt0MU84Ujhhek4?oc=5
@@ -230,19 +254,4 @@ id: E05-KLBN4-90d44c0465-2026-11-19 · status: linha
 · INTC Intel Hits Its IT Organization With Another Round of Layoffs (Yahoo Finance) https://news.google.com/rss/articles/CBMinwFBVV95cUxQUzJiTnVIOHhJRTJrZzRTcDRUYk5SRHVXY0dxdW1KU0YzeEdYOXhpVFVKY1FPMHdMSW9xcjRVcG5CVlhwREdyZU1jVFhNaExIRTNqaGwzR0dwMkZhQ1ZweGZVVVBkZlUtM1N5a2YzWkxicXJxNWNDLWtwVnBSOFRUclNFVkNEdjVQdWpvcVlJRWNTaUt3ektvbU1XTTFzY1k?oc=5
 · USDBRL Mercado de câmbio trava após fala de Lula sobre escolha de ministros e BC intervém com leilão de dólar (g1) https://news.google.com/rss/articles/CBMi_wFBVV95cUxQS3F4c3dNZmhwZ2FaZ2ZWdkxCOWo2WmZsWGFqWTdKTVJWNENFZ19KQjRfUmFTZWFTUDMyekEwSk1SQXpYR1Y4cktzN2lxTWdhT2FkRk9xZ0xxZlB0d2N0QVNaUDlKZ1ljNGdYeW1tSnpUejEzanNoU3F5T3lHclZQWjVscUc5OEFsLUFlN1dLMU0wWnVIel9NMDVwMFg3RVdSMUg0Z2F0NkxROFVXRU9UQ0NZM25adWV4TTBOR2w4bDNPLXpjbUFZY0JHX05qZTB1WThVd0JXM3JrYVhZUUsxUndqVGpfVk5iaGR0V25VS243b0xZZlRteGd5ZnV5Mk3SAY4CQVVfeXFMT0JOSFpnTHZ6UUxENkszVUs4R2F1c185aVFENm1Eb3lIQmEtUGMwNjJPMGZqc2JHQlFmbTl0WW02X1BQV1JNUHVRSG5yMGNKc3IyYnVzVHduc2pDb2tkRzVIbV90X3E2N2F1LXpvaHpYWUpEUHpENDJpc1hwdjJSdE03aVExTlRuV2l1SXIxVzAxeHp0Z05IT05vdVQ3TG1XM2hSb3RxVGlWLUxQdUJmbWdqaEEtaHg0dVlXdEVOOWNRUFNNTEk4X1VQR3BvcnBuZHg4d2NkR05wcl9meFNlMUFudk1TcmlpcF9ueU9vQkJjeEl2SFd4aEw1M0xZeTU4NF9OVlhZS19VTUlvdnVn?oc=5
 · BTC Bitcoin Enters Death Cross as Anthropic IPO Fails to Lift Wall Street (Yahoo Finance) https://news.google.com/rss/articles/CBMiowFBVV95cUxNRDNLR2g5M3dqRmtrcEpvREdaMVdOUmZkSG96dDV2aUR4YUxfTExXMXpHTzA0ajFSekJ2T2ItQ0dRd1hlWmt3QW5jdWd2UndMTGd5SHBoQ2RqSWU3LWxTaEFySF9JS0tEZ2hUMzZGM0NZQ0FhY1ZTRWdFUHMxaFZKR01VQUxTal9sLUFnNnFyYzJjeTZGQ1JaZEFDY2FRZHUxNllr?oc=5
-· VALE3 Vale: BTG reduz preço-alvo, mas mantém recomendação de compra apesar de desafios em Serra Norte (ADVFN) https://br.advfn.com/jornal/2026/11/vale-btg-reduz-preco-alvo-mas-mantem-recomendacao-de-compra-apesar-de-desafios-em-serra-norte
-· VALE3 Vale: Serra Norte vira nova preocupação para o mercado, mas analistas mantêm compra (InfoMoney) https://www.infomoney.com.br/mercados/vale-vale3-serra-norte-vira-nova-preocupacao-para-mercado-mas-analistas-mantem-compra-acao/
-· VALE3 BTG corta projeções da Vale e faz alerta: comprar a ação agora pode não valer a pena (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/btg-corta-projecoes-da-vale-e-faz-alerta-comprar-a-acao-agora-pode-nao-valer-a-pena/
-· USDBRL BC erra ao intervir na cotação do dólar, diz ex-chefe de departamento da autarquia (Folha de S.Paulo) https://www1.folha.uol.com.br/mercado/2026/11/bc-erra-ao-intervir-na-cotacao-do-dolar-diz-ex-chefe-de-departamento-da-autarquia.shtml
-· USDBRL Dólar sobe após bater máxima a R$ 5,93, na maior cotação em 19 meses (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/ibovespa-hoje-mercado-opera-entre-encontro-de-trump-xi-e-putin-ipo-da-anthropic-e-ajuste-fiscal/
-· TESOURO Juros disparam e Tesouro Direto suspende negociação de prefixados e IPCA+ (InfoMoney) https://www.infomoney.com.br/onde-investir/juros-disparam-e-tesouro-direto-suspende-negociacao-de-prefixados-e-ipca/
-· VALE3 Vale Indonésia aumentará produção de níquel matte para 73 mil toneladas em 2027 (Valor Economico) https://valor.globo.com/empresas/noticia/2026/11/19/vale-indonsia-aumentar-produo-de-nquel-matte-para-73-mil-toneladas-em-2027.ghtml
-· AMD AMD Slides After Hunterbrook Shorts Stock, Cites Circular Deals (Bloomberg) https://www.bloomberg.com/news/articles/2026-11-19/amd-slides-after-hunterbrook-shorts-stock-cites-circular-deals
-· AMD Why AMD Stock Was Plunging on Thursday (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/why-amd-stock-plunging-thursday-174343101.html
-· USDBRL Dólar sobe depois de aprovação de pacote (g1) https://news.google.com/rss/articles/CBMiqAFBVV95cUxQZ2xwN2h5aFd0QTRjLUFKZWNZWHhpMW5jY2NmLURqY09HUEoxa1hnNFRjTl85VkQtbzJjWUJ6Vmk4WkV6SUV1MEM4NUx3NmZiZDVIdExzV2k1elY1dGFCUjNZUVpNVkFwdkFua0ZPTVB5NFpPcVZkcGpEam9fRHZseWpJMFJ1cUZVdnVpa1Y1UUc4c2FCVFNjMUxFa0FsVG12bVVqdnRvT3PSAagBQVVfeXFMUGdscDdoeWhXdEE0Yy1BSmVjWVh4aTFuY2NjZi1EamNPR1BKMWtYZzRUY05fOVZELW8yY1lCelZpOFpFeklFdTBDODVMdzZmYmQ1SHRMc1dpNXpWNXRhQlIzWVFaTVZBcHZBbmtGT01QeTRaT3FWZHBqRGpvX0R2bHlqSTBSdXFGVXZ1aWtWNVFHOHNhQlRTYzFMRWtBbFRtdm1VanZ0b09z?oc=5
-· USDBRL Dólar chega a R$ 5,92, mas modera alta após intervenção do Banco Central (UOL Economia) https://news.google.com/rss/articles/CBMi0AFBVV95cUxOLVh3cXhCQ25jRWZzM1lkZWlEYUpyNklHX0UtQ1A5WVhUNGYxNWpXWEVMREp5Mlc3Q3QtZVAxVlROblFTOV9NemI1dTJPUG5NbW1EbnpIRVVVclRzMTlVdmNPLVZKekg5bzlfbjlZRmk4SF9EMVJpTzE5OVpheEtVRGdGYWhNcmlkYzAwREN6bWdWRUptM2tEUW5mYkt1LWVTaUVveWtydTdsMnN0LVpfUk5pRkZMaEc3V2R2TlVreTZBektUdG5MUHk5akNza0xz?oc=5
-· AMD AMD shares slide over 9% after short seller raises concerns over China exposure (Yahoo Finance) https://news.google.com/rss/articles/CBMijAFBVV95cUxOdGJXZEFwZFllTXh2RjZ5eW03LXJWNXp4THNkZzYyVzlYcW1rUUxFQUNydDhtV0lQcmFjQVlIaWhGN0E3TVJhczJObDJLSWZlRWNWQnh2am0wTTQ3WmlZcmZDbHF6ZnBpaEVlelBKZE5GVzN3NHRlY045T0xFRmJYRG5vTjEzd2d2NkVHLQ?oc=5
-· AMD AMD stock drops after Hunterbrook Media raises export control concerns (Yahoo Finance) https://news.google.com/rss/articles/CBMiygFBVV95cUxNWUg5LTNtMXZ0UXA0a1J0Ukx1U1lEaUhIV3pzS3ZxUVZGNmdack9VOTJiUHhrRnJZd2lDRkFsVS1hbE14eFlxZGtON3ZDMnZ4VVl0REI1MmllX016cFhCSzhxa0NYZHhELTV4Um93OHhTanJXbHRqZ2VDWmRHdUZfZzJTQmtSa0l1ODFIODItcVQxenFDSlozMVcxeGUxQzhReEJERTl6am1EbDdvYkRmV3pkUzdMWWhyM0taWS1DV0lLZGFyZHdPUElB?oc=5
-· USDBRL Dólar supera R$5,90 apesar de leilão do BC e taxas dos DIs avançam com pressão fiscal (TradingView (Reuters)) https://news.google.com/rss/articles/CBMid0FVX3lxTE5qbmU2RTc5Tl9HNWN2QnBfSFFucjBMRHNPbktGcmVSVFJDelc4U21BMHBJLUhYZkFmSGRTalVWUDBxZjFHdlhYYk9GYmEyV0pnRWhDYTRaYm5mb21NdWxseWtHSkVaUV83anB6TG9pSkxyc3Y4OWdJ?oc=5
-· USDBRL Dólar ganha (ainda mais) fôlego e passa os R$ 5,90 — e aqui estão os motores da disparada do dia (Seu Dinheiro) https://news.google.com/rss/articles/CBMiygFBVV95cUxNeUtCQTc3elNIVUxBSTQxejlzU3R1UXNEVmZHZ0VET0xMal8wV3hpQ0hMMXBoQjhSYWRMSFN1VjNEeTJpR1JnZDB0eHBGakRwbWVKMHBDcTJKb1VjUTJlZ2hMdTFORlpJRzFmUGtjU0RKem5xLUJNNzNvdGRManB2RTVGOUtYYVJ2Mi1uWHlOOGxpZHhVc2J4S0dsbkN1UFplN0J0V1kyLXdBZVREWXpwYmwyOERWc2ZMVDB3YlF6UXNuSWJIYUcyeXFB?oc=5
-· (+5 manchetes; lista completa em eventos/noticias.json)
+· (+20 manchetes; lista completa em eventos/noticias.json)
