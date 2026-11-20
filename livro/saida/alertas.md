@@ -1,13 +1,21 @@
-ALERTAS · eventos
+ALERTAS · Fechamento 18h
 
-(pendente de slot anterior) [ATENÇÃO] E05 · NVDA · Moody's lowers Nvidia outlook to stable from positive
-CNBC · 18/11 19h19 · + Bloomberg · licença: resumo
-Link: https://www.cnbc.com/video/2026/11/18/moodys-lowers-nvidia-outlook-to-stable-from-positive.html
-Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
-Ativos: NVDA
-Como falar: 'saiu no CNBC: Moody's lowers Nvidia outlook to stable from positive; confirmar o número no texto antes de repassar'
-Fonte: CNBC 18/11 19h19
-ids: E05-NVDA-3782606763-2026-11-18
+[CRÍTICO] CURVA · C01 A curva ABRIU: F28 +32 bps no dia · F28 +55 bps em 5 pregões · F29 +37 bps no dia (ajuste B3 19/11) / C05 Pre 2029 ABRE 39 bps (PU -0,7%) · Pre 2032 ABRE 32 bps (PU -1,3%) (base 19/11) / C02 Inclinação da curva DI: F35-F28 -30 bps em 5 pregões
+DI F28 14,83 (+32) · F29 15,30 (+37) · F30 15,45 (+35) · F32 15,51 (+29) · F35 15,50 (+25)
+Inclinação F35-F28 +67 bps (-7)
+TD Pre 2029 15,33 (+39) PU -0,7% · IPCA+ 2032 7,86 (+12) PU -0,6% · IPCA+ 2040 7,52 (+3) · IPCA+ 2050 7,53 (+2) · Pre 2032 15,60 (+32) PU -1,3%
+F35-F28 +67 bps (-7 dia · -30 5 pregões)
+F30-F28 +62 bps (+3 dia · -7 5 pregões)
+F32 na máxima de 252 pregões: 15,51%
+F35 na máxima de 252 pregões: 15,50%
+Implícita 2029: 6,97% (+28 bps na semana) vs Focus IPCA 2029 4,00% (+297 bps)
+Implícita 2032: 7,18% (+25 bps na semana) vs Focus IPCA 2030 3,94% (+324 bps)
+Implícita 2031/32 (descasado): 6,92% (+12 bps na semana) vs Focus IPCA 2030 3,94% (+299 bps)
+Por que importa: delta em bps e inclinação são o que toda mesa de renda fixa reporta e o que explica a marcação do Tesouro ao cliente
+Como falar: 'o prefixado longo marcou a mercado para baixo; quem carrega até o vencimento não mudou de taxa'
+Fonte: B3 ajuste 19/11 · Tesouro Transparente base 19/11; BCB Focus · Tesouro Transparente, base 19/11 · ajuste B3 19/11
+Push: [CRÍTICO] DI A curva ABRIU | TESOURO Pre 2029 ABRE 39 bps (PU -0,7%) · Pre 2032 ABRE 32 bps (PU - | DI Inclinação da curva DI +3 · detalhe na sessão
+ids: C01-DI-abriu-2026-11-19, C05-TESOURO-abriu-2026-11-19, C02-DI-inclinacao-2026-11-19, C03-DI-di-2026-11-19, C03-TESOURO-td-2026-11-19, C06-TESOURO-implicita-2026-11-19
 
 (pendente de slot anterior) [ATENÇÃO] T13 · VIX cruzou 25: 27,9 (+14% no dia)
 VIX 27,9 (+14%)
@@ -63,17 +71,16 @@ Por que importa: silêncio é lido como 'está tudo bem'; declarar a falha é o 
 Fonte: manifest do runner
 ids: S01-SISTEMA-intradia-2026-11-19
 
-[ATENÇÃO] E05 · BABA · EQUITY ALERT: Rosen Law Firm Files Securities Class Action Lawsuit on Behalf of Alibaba Group Holding Limited Investors – BABA
+(pendente de slot anterior) [ATENÇÃO] E05 · BABA · EQUITY ALERT: Rosen Law Firm Files Securities Class Action Lawsuit on Behalf of Alibaba Group Holding Limited Investors – BABA
 Business Wire · 19/11 15h50 · fonte única · licença: integral
 Link: https://www.businesswire.com/news/home/20261119870639/en/EQUITY-ALERT-Rosen-Law-Firm-Files-Securities-Class-Action-Lawsuit-on-Behalf-of-Alibaba-Group-Holding-Limited-Investors-BABA
 Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e prazo
 Ativos: BABA
 Como falar: 'saiu no Business Wire: EQUITY ALERT: Rosen Law Firm Files Securities Class Action Lawsuit on Behalf of Alibaba G…; confirmar o número no texto antes de repassar'
 Fonte: Business Wire 19/11 15h50
-Push: eventos: 3 alertas de atenção — E05 BABA, E05 NVDA, E05 BTC · detalhe na sessão
 ids: E05-BABA-e171147901-2026-11-19
 
-[ATENÇÃO] E05 · NVDA · Nvidia Stocks Rise 4.63% as $10 Billion Anthropic Stake Lands on IPO Day
+(pendente de slot anterior) [ATENÇÃO] E05 · NVDA · Nvidia Stocks Rise 4.63% as $10 Billion Anthropic Stake Lands on IPO Day
 TradingView (Reuters) · 19/11 14h36 · fonte única · licença: manchete
 Link: https://www.tradingview.com/news/gurufocus:de797ecf3094b:0-nvidia-stocks-rise-4-63-as-10-billion-anthropic-stake-lands-on-ipo-day/
 Por que importa: oferta de acoes ou divida altera a base acionaria ou a alavancagem
@@ -82,7 +89,7 @@ Como falar: 'saiu no TradingView (Reuters): Nvidia Stocks Rise 4.63% as $10 Bill
 Fonte: TradingView (Reuters) 19/11 14h36
 ids: E05-NVDA-5cced55572-2026-11-19
 
-[ATENÇÃO] E05 · BTC · Sweden’s H100 Considers Using Bitcoin Trading Pool to Fund Share Buyback
+(pendente de slot anterior) [ATENÇÃO] E05 · BTC · Sweden’s H100 Considers Using Bitcoin Trading Pool to Fund Share Buyback
 Yahoo Finance · 19/11 12h45 · fonte única · licença: resumo
 Trechos (licença resumo: reescrever, não colar):
   – Swedish Bitcoin (CRYPTO: $BTC) treasury company H100 Group (NASDAQ Stockholm: H100) is considering using Bitcoin from its active trading pool to support share buybacks.
@@ -99,34 +106,58 @@ Fonte: Yahoo Finance 19/11 12h45
 ids: E05-BTC-28af0b835e-2026-11-19
 
 Info (só linha no Fechamento):
-· E04 BABA · 6-K: 6-K
-· E05 USDBRL · Dólar vai a R$ 5,93 e renova máxima do ano apesar de leilão do BC
-· E05 BTC · Can Bitcoin Reach Standard Chartered’s $500,000 Target by 2030?
-· E05 UGPA3 · ‘Mais importante que a cifra do ajuste é a confiança de que ele será executado’, diz CEO da Ultrapar
-· E05 MINERIO · Australian PM to meet Xi Jinping as iron ore tensions loom
-· E05 BBDC4 · CEO do Bradesco prega ‘pé no chão e prudência’ em 2027 adverso | Finanças
-· E05 USDBRL · Por que o dólar passou de R$ 5,90 hoje?
-· E05 USDBRL · Dólar sobe 1,15%, na 6ª alta seguida, e se aproxima de R$ 6 mesmo com intervenção do BC
-· E05 ITUB4 · NOVO11: ETF reúne Nubank, Itaú, Petrobras e Mercado Livre em uma só cota
-· E05 USDBRL · Dólar à vista fecha em alta de 1,10%, a R$5,9323 na venda Por Reuters
-· E05 AMD · Looks Like AMD Also Has A China Problem
-· E05 USDBRL · Dólar vai a R$ 5,93 e juros vão às máximas do ano; Bolsa cai
-· E05 TSLA · Tesla Expands Cybercab To Dallas In First Move Outside Austin
-· E05 INTC · Intel Hits Its IT Organization With Another Round of Layoffs
-· E05 USDBRL · Mercado de câmbio trava após fala de Lula sobre escolha de ministros e BC intervém com leilão de dólar
-· E05 BTC · Bitcoin Enters Death Cross as Anthropic IPO Fails to Lift Wall Street
-· E05 NVDA · Moody’s Lowers Nvidia’s Ratings Outlook to Stable From Positive
+· T01 WUTI (State Street SPDR MSCI World Utilities UCITS ETF (USD)) fechou abaixo da média de 200 dias pela 2ª sessão: US$ 69,11 vs MM200 US$ 70,47 (-1,9%) (dado a confirmar)
+· T09 RARA11 -1,3% com volume 4,2x a mediana de 20 sessões, a R$ 11,75
+· T10 SBSP3 no máximo de força relativa em 63 sessões contra IBOV: -12% vs -19% em 20 sessões (+9,0% relativo)
+· T12 VWRA (Vanguard FTSE All-World UCITS ETF USD Accumulating): 6 quedas seguidas (-4,6% acumulado) a US$ 180,94
+· T12 USDBRL: 6 altas seguidas (+6,6% acumulado) a R$ 5,9302
+· E05 USDBRL · BC faz 1ª intervenção cambial desde 2024 após fala de Lula; dólar vai a R$ 5,94
+· E05 MRVL · The combination with Marvell is going to be very powerful, says Lumentum CEO Hurlston
+· E05 NVDA · US approved sale of Nvidia and AMD chips to Chinese companies
+· E05 NOK · Is Nokia Oyj (HLSE:NOKIA) Trading At A Premium On Earnings?
+· E05 TSM · TSMC halts advanced chip orders from Chinese designers in Taiwan
+· E05 BABA · BABA INVESTOR ALERT: Alibaba Group Holding Limited
+· E05 MRVL · Lumentum CEO defends Marvell deal after stock plunge: 'We've got work to do' with shareholders
+· E05 NVDA · US Congress releases list of Chinese firms seeking Nvidia chips
+· E05 NVDA · Alibaba defrauded shareholders by concealing ties to suspected spy in Nvidia scandal, lawsuit says
+· E05 USDBRL · Banco Central faz leilão extraordinário de US$ 1 bilhão à vista no mercado de câmbio
+· E05 NVDA · California attorney general issues Nvidia subpoena in probe of China chip diversion
+· E05 USDBRL · Dólar supera R$ 5,93 e fecha no maior valor desde abril de 2025
+· E05 BTC · Bitcoin slides toward $60,000 as spot ETF outflows near $3 billion
+· E05 UST · U.S. Treasury yields slip on safe-haven bid, 10-year posts four-day losing streak
+· E05 AMD · AMD: Why I See Opportunity After The Hunterbrook Short Report (NASDAQ:AMD)
+· T01 PETR4 fechou abaixo da média de 200 dias pela 2ª sessão: R$ 42,67 vs MM200 R$ 43,50 (-1,9%)
+· T03 QANT formou death cross: MM50 US$ 5,70 cruzou abaixo da MM200 US$ 5,73 pela 2ª sessão; preço US$ 4,77, -17% da MM200, - em 12m
+· T03 KLBN4 formou death cross: MM50 R$ 3,62 cruzou abaixo da MM200 R$ 3,64 pela 2ª sessão; preço R$ 3,34, -8,2% da MM200, -0,5% em 12m
+· T06 VHYA (Vanguard FTSE All-World High Dividend Yield UCITS ETF USD Accumulating) -4,7% em 5 sessões a US$ 103,00: movimento de 2,6 desvios para a vol de 20 dias
+· T12 VALE3: 8 quedas seguidas (-12% acumulado) a R$ 58,48
 
-Suprimidos pelo teto (viram linha do Fechamento): E05-NVDA-1bec3d5dfb-2026-11-18 (teto de noticias)
+Suprimidos pelo teto (viram linha do Fechamento): T01-PETR4-perda-2026-11-19 (teto de atenção), T03-QANT-death-2026-11-19 (teto de atenção), T03-KLBN4-death-2026-11-19 (teto de atenção), T06-VHYA-queda-2026-11-19 (teto de atenção), T12-VALE3-quedas_8-2026-11-19 (teto de atenção)
 
 Alertas do dia (todos, com status):
+· pendente  C01 DI — A curva ABRIU: F28 +32 bps no dia · F28 +55 bps em 5 pregões · F29 +37 bps no di
+· pendente  C05 TESOURO — Pre 2029 ABRE 39 bps (PU -0,7%) · Pre 2032 ABRE 32 bps (PU -1,3%) (base 19/11)
+· pendente  C02 DI — Inclinação da curva DI: F35-F28 -30 bps em 5 pregões
+· pendente  C03 DI — DI em nível: F29 cruzou 15,00% (para cima, agora 15,30%) · F29 na máxima de 252 
+· pendente  C03 TESOURO — Prefixado em nível: Pre 2029 cruzou 15,00% (agora 15,33%) · Pre 2032 cruzou 15,5
+· pendente  C06 TESOURO — Inflação implícita: implícita 2029 +28 bps na semana · implícita 2032 +25 bps na
+· linha     T01 PETR4 — PETR4 fechou abaixo da média de 200 dias pela 2ª sessão: R$ 42,67 vs MM200 R$ 43
+· linha     T03 QANT — QANT formou death cross: MM50 US$ 5,70 cruzou abaixo da MM200 US$ 5,73 pela 2ª s
+· linha     T03 KLBN4 — KLBN4 formou death cross: MM50 R$ 3,62 cruzou abaixo da MM200 R$ 3,64 pela 2ª se
+· linha     T06 VHYA — VHYA (Vanguard FTSE All-World High Dividend Yield UCITS ETF USD Accumulating) -4
+· linha     T12 VALE3 — VALE3: 8 quedas seguidas (-12% acumulado) a R$ 58,48
 · pendente  E05 BABA — BABA · EQUITY ALERT: Rosen Law Firm Files Securities Class Action Lawsuit on Beh
 · pendente  E05 NVDA — NVDA · Nvidia Stocks Rise 4.63% as $10 Billion Anthropic Stake Lands on IPO Day
 · pendente  E05 BTC — BTC · Sweden’s H100 Considers Using Bitcoin Trading Pool to Fund Share Buyback
-· pendente  T13 VIX — VIX cruzou 25: 27,9 (+14% no dia)
-· pendente  E05 AXIA3 — AXIA3 · Axia prepara emissão de R$ 1 bilhão em debêntures para UHE Santo Antônio
-· pendente  E05 GOOGL — GOOGL · Alphabet (GOOG) Slips as 2026 Capex Outlook Rises
-· pendente  E05 NVDA — NVDA · Intel Climbs 7% on First 18A Customer, NVIDIA Gains 4% as Trump Floats Bl
-· pendente  S01 SISTEMA — coleta do slot intradia saiu incompleta: bcb: BCB devolveu 4 de 5 séries (faltar
-· linha     F01 USDBRL — Real cai: USD/BRL 5,9178 (+4,7% em 5 sessões) (parcial, intradia)
-· (+41 notícias só manchete, em noticias.md)
+· expirado  T13 VIX — VIX cruzou 25: 27,9 (+14% no dia)
+· expirado  E05 AXIA3 — AXIA3 · Axia prepara emissão de R$ 1 bilhão em debêntures para UHE Santo Antônio
+· expirado  E05 GOOGL — GOOGL · Alphabet (GOOG) Slips as 2026 Capex Outlook Rises
+· expirado  E05 NVDA — NVDA · Intel Climbs 7% on First 18A Customer, NVIDIA Gains 4% as Trump Floats Bl
+· expirado  S01 SISTEMA — coleta do slot intradia saiu incompleta: bcb: BCB devolveu 4 de 5 séries (faltar
+· linha     T01 WUTI — WUTI (State Street SPDR MSCI World Utilities UCITS ETF (USD)) fechou abaixo da m
+· linha     T09 RARA11 — RARA11 -1,3% com volume 4,2x a mediana de 20 sessões, a R$ 11,75
+· linha     T10 SBSP3 — SBSP3 no máximo de força relativa em 63 sessões contra IBOV: -12% vs -19% em 20 
+· linha     T12 VWRA — VWRA (Vanguard FTSE All-World UCITS ETF USD Accumulating): 6 quedas seguidas (-4
+· linha     T12 USDBRL — USDBRL: 6 altas seguidas (+6,6% acumulado) a R$ 5,9302
+· linha     F01 USDBRL — Real cai: USD/BRL 5,9302 (+5,0% em 5 sessões)
+· (+56 notícias só manchete, em noticias.md)

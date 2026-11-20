@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 19/11 18h18
+NOTÍCIAS E FATOS · 19/11 23h14
 
-Pernas: noticias ok 19 novas (18 consultas; descartadas: 391 veículo fora da lista, 16 sem ativo, 53 teto) · cvm ok 0 novos de 13 (6 cias casadas) · sec ok 1 novos em 3 dias
+Pernas: noticias ok 15 novas (18 consultas; descartadas: 346 veículo fora da lista, 20 sem ativo, 29 teto); 2 falhas · cvm ok 0 novos de 13 (6 cias casadas) · sec ok 0 novos em 3 dias
 
 ## SEC (8-K, 6-K, 10-Q, 10-K) (1)
 
@@ -76,7 +76,7 @@ Por que importa: oferta de acoes ou divida altera a base acionaria ou a alavanca
 Ativos: AXIA3
 Como falar: 'saiu no UOL Economia: Axia prepara emissão de R$ 1 bilhão em debêntures para UHE Santo Antônio; confirmar o número no texto antes de repassar'
 Fonte: UOL Economia 19/11 14h36
-id: E05-AXIA3-8a797ef5ea-2026-11-19 · status: pendente
+id: E05-AXIA3-8a797ef5ea-2026-11-19 · status: expirado
 
 [ATENÇÃO] E05 · GOOGL · Alphabet (GOOG) Slips as 2026 Capex Outlook Rises
 Yahoo Finance · 19/11 13h07 · fonte única · licença: resumo
@@ -92,7 +92,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: GOOGL
 Como falar: 'saiu no Yahoo Finance: Alphabet (GOOG) Slips as 2026 Capex Outlook Rises; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 19/11 13h07
-id: E05-GOOGL-2ecf140715-2026-11-19 · status: pendente
+id: E05-GOOGL-2ecf140715-2026-11-19 · status: expirado
 
 [ATENÇÃO] E05 · NVDA · Intel Climbs 7% on First 18A Customer, NVIDIA Gains 4% as Trump Floats Blackwell Sales to China and Dan Ives Hails Anthropic IPO; AMD Rises 3%
 Yahoo Finance · 19/11 11h56 · fonte única · licença: resumo
@@ -108,7 +108,7 @@ Por que importa: oferta de acoes ou divida altera a base acionaria ou a alavanca
 Ativos: NVDA · AMD · INTC
 Como falar: 'saiu no Yahoo Finance: Intel Climbs 7% on First 18A Customer, NVIDIA Gains 4% as Trump Floats Blackwell Sales to…; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 19/11 11h56
-id: E05-NVDA-b50e91e1eb-2026-11-19 · status: pendente
+id: E05-NVDA-b50e91e1eb-2026-11-19 · status: expirado
 
 [ATENÇÃO] E05 · KLBN4 · Acidente na Klabin (KLBN11) preocupa, mas bancos apontam efeito contido
 InfoMoney · 19/11 09h29 · fonte única · licença: resumo
@@ -147,8 +147,23 @@ Fonte: Valor Economico 19/11 05h00
 id: E05-KLBN4-90d44c0465-2026-11-19 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (35)
+## OUTRAS NOTÍCIAS (só manchete) (50)
 
+· USDBRL BC faz 1ª intervenção cambial desde 2024 após fala de Lula; dólar vai a R$ 5,94 (Bloomberg Linea) https://www.bloomberglinea.com.br/mercados/bc-faz-1-intervencao-cambial-desde-2024-apos-fala-de-lula-dolar-vai-a-r-594/
+· MRVL The combination with Marvell is going to be very powerful, says Lumentum CEO Hurlston (CNBC) https://www.cnbc.com/video/2026/11/19/the-combination-with-marvell-is-going-to-be-very-powerful-says-lumentum-ceo-hurlston.html
+· NVDA US approved sale of Nvidia and AMD chips to Chinese companies (Financial Times) https://www.ft.com/content/76342072-2781-4b16-ba3b-816a25214483?syn-25a6b1a6=1
+· NOK Is Nokia Oyj (HLSE:NOKIA) Trading At A Premium On Earnings? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/nokia-oyj-hlse-nokia-trading-002102369.html
+· TSM TSMC halts advanced chip orders from Chinese designers in Taiwan (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/tsmc-halts-advanced-chip-orders-000631441.html
+· BABA BABA INVESTOR ALERT: Alibaba Group Holding Limited (GlobeNewswire) https://www.globenewswire.com/news-release/2026/11/19/3407214/0/en/baba-investor-alert-alibaba-group-holding-limited-investors-with-substantial-losses-may-seek-to-lead-the-alibaba-class-action-lawsuit-rgrd-law.html
+· MRVL Lumentum CEO defends Marvell deal after stock plunge: 'We've got work to do' with shareholders (CNBC) https://www.cnbc.com/2026/11/19/lumentum-marvell-deal-ceo-shareholders-cramer.html
+· NVDA US Congress releases list of Chinese firms seeking Nvidia chips (South China Morning Post) https://www.scmp.com/news/china/diplomacy/article/3375135/us-congress-releases-list-chinese-firms-seeking-nvidia-chips
+· NVDA Alibaba defrauded shareholders by concealing ties to suspected spy in Nvidia scandal, lawsuit says (Reuters) https://www.reuters.com/business/retail-consumer/alibaba-defrauded-shareholders-by-concealing-ties-suspected-spy-nvidia-scandal-2026-11-19/
+· USDBRL Banco Central faz leilão extraordinário de US$ 1 bilhão à vista no mercado de câmbio (g1) https://g1.globo.com/google/amp/jornal-nacional/video/banco-central-faz-leilao-extraordinario-de-us-1-bilhao-a-vista-no-mercado-de-cambio-15265683.ghtml
+· NVDA California attorney general issues Nvidia subpoena in probe of China chip diversion (CNBC) https://www.cnbc.com/2026/11/19/nvidia-california-bonta-subpoena-china-chips.html
+· USDBRL Dólar supera R$ 5,93 e fecha no maior valor desde abril de 2025 (Agencia Brasil) https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/dolar-supera-r-593-e-fecha-no-maior-valor-desde-abril-de-2025
+· BTC Bitcoin slides toward $60,000 as spot ETF outflows near $3 billion (TradingView (Reuters)) https://www.tradingview.com/news/cryptobriefing:e730d6776094b:0-bitcoin-slides-toward-60-000-as-spot-etf-outflows-near-3-billion/
+· UST U.S. Treasury yields slip on safe-haven bid, 10-year posts four-day losing streak (Investing.com) https://www.investing.com/news/stock-market-news/us-treasury-yields-slip-on-safehaven-bid-10year-posts-fourday-losing-streak-5040235
+· AMD AMD: Why I See Opportunity After The Hunterbrook Short Report (NASDAQ:AMD) (Seeking Alpha) https://seekingalpha.com/article/4970322-amd-why-i-see-opportunity-after-the-hunterbrook-short-report
 · USDBRL Dólar vai a R$ 5,93 e renova máxima do ano apesar de leilão do BC (Poder360) https://www.poder360.com.br/poder-economia/dolar-vai-a-r-593-e-renova-maxima-do-ano-apesar-de-leilao-do-bc
 · BTC Can Bitcoin Reach Standard Chartered’s $500,000 Target by 2030? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-reach-standard-chartered-500-210325550.html
 · UGPA3 ‘Mais importante que a cifra do ajuste é a confiança de que ele será executado’, diz CEO da Ultrapar (Estadao) https://www.estadao.com.br/economia/mais-importante-que-a-cifra-do-ajuste-e-a-confianca-de-que-ele-sera-executado-diz-ceo-da-ultrapar/

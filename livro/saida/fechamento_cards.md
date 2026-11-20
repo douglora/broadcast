@@ -1,12 +1,4 @@
-## Fechamento do livro · qua 18/11 · 23h29 BRT
-
----
-
-### Correção do que já foi enviado
-
-- **CORREÇÃO tabela · BTC 17/11: saiu -1,8% a 63.715; o certo é +0,1% a 64.894 (sinal invertido)**
-
-*O número entregue saiu de barra errada do Yahoo (contrato misturado, pregão faltando ou barra parcial); o certo vem da série já corrigida.*
+## Fechamento do livro · qui 19/11 · 23h14 BRT
 
 ---
 
@@ -14,18 +6,32 @@
 
 ---
 
-### Alertas do dia · 1
+### Alertas do dia · 8 (2 críticos)
 
+> **CRÍTICO · C01 · DI** — A curva ABRIU: F28 +32 bps no dia · F28 +55 bps em 5 pregões · F29 +37 bps no dia (ajuste B3 19/11)
+> DI F28 14,83 (+32) · F29 15,30 (+37) · F30 15,45 (+35) · F32 15,51 (+29) · F35 15,50 (+25)
+> Inclinação F35-F28 +67 bps (-7)
+> *Por que importa:* delta em bps e inclinação são o que toda mesa de renda fixa reporta e o que explica a marcação do Tesouro ao cliente
+
+> **CRÍTICO · C05 · TESOURO** — Pre 2029 ABRE 39 bps (PU -0,7%) · Pre 2032 ABRE 32 bps (PU -1,3%) (base 19/11)
+> TD Pre 2029 15,33 (+39) PU -0,7% · IPCA+ 2032 7,86 (+12) PU -0,6% · IPCA+ 2040 7,52 (+3) · IPCA+ 2050 7,53 (+2) · Pre 2032 15,60 (+32) PU -1,3%
+> *Por que importa:* abertura crescente com o prazo é venda de duration, não revisão de inflação; o cliente vê o PU cair no extrato
+
+- **C02 · DI** Inclinação da curva DI: F35-F28 -30 bps em 5 pregões
+- **C03 · DI** DI em nível: F29 cruzou 15,00% (para cima, agora 15,30%) · F29 na máxima de 252 pregões: 15,30% · F30 na máxima de 252 pregões: 15,45%
+- **C03 · TESOURO** Prefixado em nível: Pre 2029 cruzou 15,00% (agora 15,33%) · Pre 2032 cruzou 15,50% (agora 15,60%)
+- **C06 · TESOURO** Inflação implícita: implícita 2029 +28 bps na semana · implícita 2032 +25 bps na semana · implícita 2032 cruzou 7,00%
+- **T13 · VIX** VIX cruzou 25: 27,9 (+14% no dia)
 - **S01 · SISTEMA** coleta do slot intradia saiu incompleta: bcb: BCB devolveu 4 de 5 séries (faltaram ipca_mes)
 
-*Mais 17 sinais de baixa prioridade em `alertas.md`.*
+*Mais 11 sinais de baixa prioridade em `alertas.md`.*
 
 ---
 
 ### Destaques do dia
 
-**Altas** AMD +5,3% (fechou na máxima) · AMZN +3,8% (fechou na máxima) · AVGO +3,6% · USDBRL +1,4% (máxima de 52 semanas) · IGV +1,3%
-**Baixas** MRVE3 -4,8% · CVX -4,0% (fechou na mínima) · CURY3 -3,8% · ETH -3,5% · BBAS3 -3,4% (mínima de 52 semanas)
+**Altas** BBAS3 +1,3% · USDBRL +1,1% (máxima de 52 semanas) · WQTM +1,0% (vol 0,5x · fechou na mínima) · CNDX +0,8% · ALUP4 +0,7% (vol 0,3x)
+**Baixas** MRVE3 -3,8% (fechou na mínima) · MELI34 -2,8% (fechou na mínima) · EQTL3 -2,3% (fechou na mínima) · DIRR3 -2,1% · KLBN4 -2,1% (vol 1,3x · fechou na mínima)
 
 ---
 
@@ -33,14 +39,11 @@
 
 | Ativo | dia | explicação | grau |
 |---|---:|---|---|
-| **AMD** | +5,3% | descolou do setor (semicondutores (eua) -0,2% (mediana), SOX +0,1%; 5,5 p.p. da mediana); investigar antes de comentar | sem causa no dado |
-| **MRVE3** | -4,8% | andou com o setor: construtoras de baixa renda -4,7% (mediana), DI F30 +11 bps | setorial |
-| **CVX** | -4,0% | acompanhou o Brent (-1,3%) | driver |
-| **CURY3** | -3,8% | andou com o setor: construtoras de baixa renda -4,7% (mediana), DI F30 +11 bps | setorial |
-| **AMZN** | +3,8% | investigar antes de comentar | sem causa no dado |
-| **AVGO** | +3,6% | descolou do setor (semicondutores (eua) -0,2% (mediana), SOX +0,1%; 3,8 p.p. da mediana); investigar antes de comentar | sem causa no dado |
-| **BBAS3** | -3,4% | descolou do setor (bancos -2,0% (mediana), DI F28 +8 bps; -1,4 p.p. da mediana); notícia a conferir (Suno Noticias): Banco do Brasil (BBAS3) nega fraude em ‘fazendas fantasmas’; o que há por trás dos R$ 256 | notícia (conferir) |
-| **NVDA** | -2,9% | descolou do setor (semicondutores (eua) -0,2% (mediana), SOX +0,1%; -2,7 p.p. da mediana); notícia a conferir (CNBC): Moody's lowers Nvidia outlook to stable from positive | notícia (conferir) |
+| **MRVE3** | -3,8% | descolou do setor (construtoras de baixa renda -1,1% (mediana), DI F30 +35 bps; -2,6 p.p. da mediana); investigar antes de comentar | sem causa no dado |
+| **MELI34** | -2,8% | investigar antes de comentar | sem causa no dado |
+| **EQTL3** | -2,3% | descolou do setor (energia e saneamento -0,5% (mediana), DI F35 +25 bps; -1,8 p.p. da mediana); investigar antes de comentar | sem causa no dado |
+| **DIRR3** | -2,1% | andou com o setor: construtoras de baixa renda -1,1% (mediana), DI F30 +35 bps | setorial |
+| **KLBN4** | -2,1% | notícia a conferir (InfoMoney): Acidente na Klabin (KLBN11) preocupa, mas bancos apontam efeito contido | notícia (conferir) |
 
 *Grau: setorial = andou com a cesta; driver = acompanhou a commodity do par; documento = fato relevante ou 8-K do dia; sem causa no dado = investigar antes de comentar.*
 
@@ -50,10 +53,9 @@
 
 | Setor | mediana | subiram/caíram | quem destoou |
 |---|---:|---:|---|
-| Construtoras de baixa renda · DI F30 +11 bps | -4,7% | 0/5 | DIRR3 -2,3% |
-| Bancos · DI F28 +8 bps | -2,0% | 0/4 | BBAS3 -3,4% |
-| Energia e saneamento · DI F35 +10 bps | -1,3% | 0/5 | AXIA3 -2,4% |
-| Semicondutores (EUA) · SOX +0,1% | -0,2% | 4/4 | AMD +5,3% |
+| Construtoras de baixa renda · DI F30 +35 bps | -1,1% | 1/4 | MRVE3 -3,8% |
+| Bancos · DI F28 +32 bps | -0,1% | 2/2 | BBDC4 -1,8% |
+| Energia e saneamento · DI F35 +25 bps | -0,5% | 1/4 | EQTL3 -2,3% |
 
 ---
 
@@ -61,14 +63,14 @@
 
 | Ativo | últ | dia | 1 sem | 1 mês | 3 m | 6 m | 1 ano | YTD | 5 anos |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| **VWRA** Vanguard FTSE All-World | 181,28 | **-0,5** | -4,4 | -5,4 | -6,7 | -2,4 | +11 | +6,2 | +53 |
-| **CSPX** iShares Core S&P 500 | 789,92 | **-0,1** | -3,9 | -5,2 | -5,1 | -1,0 | +11 | +7,0 | +65 |
-| **CNDX** iShares NASDAQ 100 | 1.550 | **+0,6** | -5,1 | -9,4 | -8,5 | -7,7 | +10 | +5,6 | +65 |
-| **VHYA** Vanguard FTSE All-World High Dividend Yield | 104,20 | **-1,4** | -3,4 | -1,8 | -4,3 | +2,3 | +18 | +12 | +68 |
-| **WUTI** State Street SPDR MSCI World Utilities | 69,96 | **-1,1** | -1,1 | +4,4 | 0,0 | -1,0 | +4,6 | +5,7 | +54 |
-| **RBOT** iShares Automation & Robotics | 18,56 | **-0,1** | -8,6 | -13 | -14 | -6,8 | +20 | +14 | +26 |
-| **IUAA** iShares US Aggregate Bond | 5,64 | **+0,1** | -0,4 | +0,5 | -1,5 | -1,0 | -1,0 | -2,0 | -2,6 |
-| **IB01** iShares $ Treasury Bond 0-1yr | 122,62 | **0,0** | 0,0 | +0,3 | +0,9 | +1,8 | +3,7 | +3,1 | +20 |
+| **VWRA** Vanguard FTSE All-World | 180,94 | **-0,2** | -4,5 | -5,4 | -6,5 | -2,3 | +11 | +6,0 | +53 |
+| **CSPX** iShares Core S&P 500 | 789,16 | **-0,1** | -4,2 | -5,2 | -4,6 | -0,8 | +11 | +6,9 | +64 |
+| **CNDX** iShares NASDAQ 100 | 1.563 | **+0,8** | -4,3 | -7,9 | -6,9 | -6,5 | +11 | +6,5 | +67 |
+| **VHYA** Vanguard FTSE All-World High Dividend Yield | 103,00 | **-1,2** | -4,7 | -3,3 | -5,2 | +1,4 | +18 | +11 | +66 |
+| **WUTI** State Street SPDR MSCI World Utilities | 69,11 | **-1,2** | -3,0 | +2,1 | -1,7 | -2,8 | +4,0 | +4,5 | +52 |
+| **RBOT** iShares Automation & Robotics | 18,57 | **0,0** | -7,6 | -13 | -13 | -6,6 | +20 | +14 | +26 |
+| **IUAA** iShares US Aggregate Bond | 5,64 | **0,0** | -0,1 | +0,2 | -1,3 | -0,8 | -1,2 | -1,9 | -2,6 |
+| **IB01** iShares $ Treasury Bond 0-1yr · máxima de 52 semanas | 122,68 | **0,0** | +0,1 | +0,4 | +0,9 | +1,8 | +3,7 | +3,2 | +20 |
 
 Nomes completos: **VWRA** Vanguard FTSE All-World UCITS ETF USD Accumulating · **CSPX** iShares Core S&P 500 UCITS ETF USD (Acc) · **CNDX** iShares NASDAQ 100 UCITS ETF USD (Acc) · **VHYA** Vanguard FTSE All-World High Dividend Yield UCITS ETF USD Accumulating · **WUTI** State Street SPDR MSCI World Utilities UCITS ETF (USD) · **RBOT** iShares Automation & Robotics UCITS ETF USD (Acc) · **IUAA** iShares US Aggregate Bond UCITS ETF USD (Acc) · **IB01** iShares $ Treasury Bond 0-1yr UCITS ETF USD (Acc).
 
@@ -78,14 +80,14 @@ Nomes completos: **VWRA** Vanguard FTSE All-World UCITS ETF USD Accumulating · 
 
 | Ativo | últ | dia | 1 sem | 1 mês | 3 m | 6 m | 1 ano | YTD | 5 anos |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| **SPY** SPDR S&P 500 ETF Trust | 730,20 | **-0,3** | -3,9 | -4,7 | -4,8 | -1,0 | +12 | +7,9 | +67 |
-| **QQQ** Invesco QQQ Trust | 659,51 | **+0,4** | -4,5 | -8,2 | -7,8 | -7,3 | +11 | +7,7 | +68 |
-| **SMH** VanEck Semiconductor ETF | 459,54 | **-0,1** | -9,4 | -16 | -18 | -19 | +38 | +28 | +203 |
-| **SOXX** iShares Semiconductor ETF | 141,85 | **+0,3** | -8,7 | -15 | -18 | -18 | +54 | +42 | +147 |
-| **XLK** Technology Select Sector SPDR Fund | 163,81 | **+0,3** | -6,1 | -12 | -11 | -7,3 | +18 | +14 | +98 |
-| **VGT** Vanguard Information Technology ETF | 107,03 | **+0,2** | -5,9 | -11 | -9,8 | -5,8 | +17 | +14 | +93 |
-| **IGV** iShares Expanded Tech-Software Sector ETF | 96,94 | **+1,3** | -5,2 | -8,5 | -5,7 | +3,9 | -7,1 | -8,3 | +10 |
-| **BOTZ** Global X Robotics & Artificial Intelligence ETF · mínima de 52 semanas | 29,71 | **0,0** | -7,8 | -11 | -18 | -24 | -11 | -18 | -21 |
+| **SPY** SPDR S&P 500 ETF Trust _(dado a confirmar)_ | a confirmar | a confirmar | - | - | - | - | - | - | - |
+| **QQQ** Invesco QQQ Trust _(dado a confirmar)_ | a confirmar | a confirmar | - | - | - | - | - | - | - |
+| **SMH** VanEck Semiconductor ETF _(dado a confirmar)_ | a confirmar | a confirmar | - | - | - | - | - | - | - |
+| **SOXX** iShares Semiconductor ETF _(dado a confirmar)_ | a confirmar | a confirmar | - | - | - | - | - | - | - |
+| **XLK** Technology Select Sector SPDR Fund _(dado a confirmar)_ | a confirmar | a confirmar | - | - | - | - | - | - | - |
+| **VGT** Vanguard Information Technology ETF _(dado a confirmar)_ | a confirmar | a confirmar | - | - | - | - | - | - | - |
+| **IGV** iShares Expanded Tech-Software Sector ETF _(dado a confirmar)_ | a confirmar | a confirmar | - | - | - | - | - | - | - |
+| **BOTZ** Global X Robotics & Artificial Intelligence ETF _(dado a confirmar)_ | a confirmar | a confirmar | - | - | - | - | - | - | - |
 
 ---
 
@@ -93,12 +95,12 @@ Nomes completos: **VWRA** Vanguard FTSE All-World UCITS ETF USD Accumulating · 
 
 | Ativo | últ | dia | 1 sem | 1 mês | 3 m | 6 m | 1 ano | YTD | 5 anos |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| **QNTM** VanEck Quantum Computing | 22,40 | **+0,6** | -10 | -15 | -24 | -24 | -6,3 | -11 | - |
-| **QANT** iShares Quantum Computing | 4,77 | **-0,8** | -11 | -16 | -23 | -23 | - | -5,7 | - |
-| **WQTM** WisdomTree Quantum Computing | 27,64 | **+0,3** | -12 | -16 | -28 | -29 | -4,0 | -7,7 | - |
-| **WQTMUS** WisdomTree Quantum Computing Fund | 23,39 | **-0,2** | -12 | -16 | -30 | -31 | -6,8 | -9,6 | - |
-| **QTUM** Defiance Quantum ETF | 122,95 | **+0,4** | -8,4 | -11 | -18 | -15 | +19 | +13 | +128 |
-| **REMX** VanEck Rare Earth & Strategic Metals ETF · mínima de 52 semanas | 45,29 | **-1,4** | -15 | -15 | -40 | -52 | -36 | -39 | -57 |
+| **QNTM** VanEck Quantum Computing | 22,41 | **+0,1** | -8,9 | -15 | -22 | -27 | -6,7 | -11 | - |
+| **QANT** iShares Quantum Computing | 4,77 | **0,0** | -9,3 | -15 | -21 | -28 | - | -5,6 | - |
+| **WQTM** WisdomTree Quantum Computing | 27,92 | **+1,0** | -8,9 | -15 | -26 | -32 | -3,4 | -6,7 | - |
+| **WQTMUS** WisdomTree Quantum Computing Fund _(dado a confirmar)_ | a confirmar | a confirmar | - | - | - | - | - | - | - |
+| **QTUM** Defiance Quantum ETF _(dado a confirmar)_ | a confirmar | a confirmar | - | - | - | - | - | - | - |
+| **REMX** VanEck Rare Earth & Strategic Metals ETF _(dado a confirmar)_ | a confirmar | a confirmar | - | - | - | - | - | - | - |
 
 Nomes completos: **QNTM** VanEck Quantum Computing UCITS ETF USD (Acc) · **QANT** iShares Quantum Computing UCITS ETF USD (Acc) · **WQTM** WisdomTree Quantum Computing UCITS ETF USD (Acc).
 
@@ -108,17 +110,17 @@ Nomes completos: **QNTM** VanEck Quantum Computing UCITS ETF USD (Acc) · **QANT
 
 | Ativo | últ | dia | 1 sem | 1 mês | 3 m | 6 m | 1 ano | YTD | 5 anos |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| **NVDA** NVIDIA · mínima de 52 semanas · resultado 25/11 (estimado) | 150,96 | **-2,9** | -13 | -30 | -31 | -32 | -17 | -19 | +360 |
-| **AMD** Advanced Micro Devices | 530,14 | **+5,3** | -4,1 | -1,5 | +14 | +18 | +130 | +148 | +241 |
-| **AVGO** Broadcom | 354,05 | **+3,6** | +2,6 | +5,8 | -2,1 | -15 | +4,8 | +2,9 | +580 |
-| **MRVL** Marvell Technology · resultado 01/12 (estimado) | 145,54 | **-2,2** | -14 | -39 | -39 | -22 | +85 | +72 | +99 |
-| **INTC** Intel | 54,67 | **-0,9** | -13 | -41 | -41 | -54 | +59 | +48 | +19 |
-| **MU** Micron Technology | 705,27 | **-1,0** | -13 | -22 | -25 | -3,6 | +209 | +147 | +770 |
-| **TSM** Taiwan Semiconductor Manufacturing | 362,62 | **+0,8** | -12 | -14 | -12 | -9,3 | +32 | +20 | +216 |
-| **GFS** GlobalFoundries | 39,83 | **+0,6** | -7,0 | -14 | -18 | -44 | +22 | +15 | -36 |
-| **LITE** Lumentum Holdings | 551,07 | **-1,6** | -15 | -34 | -33 | -37 | +123 | +50 | +504 |
-| **COHR** Coherent Corp | 212,84 | **+0,9** | -9,2 | -8,3 | -26 | -41 | +54 | +15 | +232 |
-| **NOK** Nokia | 7,59 | **0,0** | -10 | -16 | -25 | -44 | +14 | +17 | +45 |
+| **NVDA** NVIDIA _(dado a confirmar)_ · resultado 25/11 (estimado) | a confirmar | a confirmar | - | - | - | - | - | - | - |
+| **AMD** Advanced Micro Devices _(dado a confirmar)_ | a confirmar | a confirmar | - | - | - | - | - | - | - |
+| **AVGO** Broadcom _(dado a confirmar)_ | a confirmar | a confirmar | - | - | - | - | - | - | - |
+| **MRVL** Marvell Technology _(dado a confirmar)_ · resultado 01/12 (estimado) | a confirmar | a confirmar | - | - | - | - | - | - | - |
+| **INTC** Intel _(dado a confirmar)_ | a confirmar | a confirmar | - | - | - | - | - | - | - |
+| **MU** Micron Technology _(dado a confirmar)_ | a confirmar | a confirmar | - | - | - | - | - | - | - |
+| **TSM** Taiwan Semiconductor Manufacturing _(dado a confirmar)_ | a confirmar | a confirmar | - | - | - | - | - | - | - |
+| **GFS** GlobalFoundries _(dado a confirmar)_ | a confirmar | a confirmar | - | - | - | - | - | - | - |
+| **LITE** Lumentum Holdings _(dado a confirmar)_ | a confirmar | a confirmar | - | - | - | - | - | - | - |
+| **COHR** Coherent Corp _(dado a confirmar)_ | a confirmar | a confirmar | - | - | - | - | - | - | - |
+| **NOK** Nokia _(dado a confirmar)_ | a confirmar | a confirmar | - | - | - | - | - | - | - |
 
 ---
 
@@ -126,12 +128,12 @@ Nomes completos: **QNTM** VanEck Quantum Computing UCITS ETF USD (Acc) · **QANT
 
 | Ativo | últ | dia | 1 sem | 1 mês | 3 m | 6 m | 1 ano | YTD | 5 anos |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| **META** Meta Platforms | 616,38 | **-0,4** | -2,0 | -13 | +13 | +2,0 | +3,5 | -6,4 | +80 |
-| **GOOGL** Alphabet | 282,44 | **+0,8** | -3,8 | -18 | -18 | -27 | -0,4 | -9,6 | +91 |
-| **AMZN** Amazon | 267,74 | **+3,8** | +0,6 | +2,0 | +0,7 | +1,0 | +20 | +16 | +46 |
-| **PLTR** Palantir Technologies | 156,67 | **+0,1** | -9,1 | -19 | -11 | +14 | -6,4 | -12 | +632 |
-| **TSLA** Tesla | 383,72 | **+0,9** | -1,8 | +4,3 | +9,3 | -8,0 | -4,4 | -15 | +1,2 |
-| **BABA** Alibaba Group · mínima de 52 semanas · resultado 25/11 (estimado) | 84,37 | **-2,6** | -17 | -22 | -35 | -37 | -47 | -42 | -36 |
+| **META** Meta Platforms _(dado a confirmar)_ | a confirmar | a confirmar | - | - | - | - | - | - | - |
+| **GOOGL** Alphabet _(dado a confirmar)_ | a confirmar | a confirmar | - | - | - | - | - | - | - |
+| **AMZN** Amazon _(dado a confirmar)_ | a confirmar | a confirmar | - | - | - | - | - | - | - |
+| **PLTR** Palantir Technologies _(dado a confirmar)_ | a confirmar | a confirmar | - | - | - | - | - | - | - |
+| **TSLA** Tesla _(dado a confirmar)_ | a confirmar | a confirmar | - | - | - | - | - | - | - |
+| **BABA** Alibaba Group _(dado a confirmar)_ · resultado 25/11 (estimado) | a confirmar | a confirmar | - | - | - | - | - | - | - |
 
 ---
 
@@ -139,8 +141,8 @@ Nomes completos: **QNTM** VanEck Quantum Computing UCITS ETF USD (Acc) · **QANT
 
 | Ativo | últ | dia | 1 sem | 1 mês | 3 m | 6 m | 1 ano | YTD | 5 anos |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| **JPM** JPMorgan Chase | 324,11 | **-1,8** | -5,6 | -2,8 | -8,8 | +8,3 | +10 | +2,5 | +128 |
-| **BAC** Bank of America | 48,91 | **-1,1** | -3,5 | -2,9 | -22 | -3,5 | -3,3 | -9,6 | +22 |
+| **JPM** JPMorgan Chase | 320,76 | **-1,0** | -6,4 | -4,3 | -8,3 | +6,9 | +7,8 | +1,5 | +126 |
+| **BAC** Bank of America | 48,61 | **-0,6** | -3,8 | -4,0 | -21 | -4,6 | -4,6 | -10 | +21 |
 
 ---
 
@@ -148,9 +150,9 @@ Nomes completos: **QNTM** VanEck Quantum Computing UCITS ETF USD (Acc) · **QANT
 
 | Ativo | últ | dia | 1 sem | 1 mês | 3 m | 6 m | 1 ano | YTD | 5 anos |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| **KO** Coca-Cola · data-com 01/12 | 98,09 | **-0,7** | +0,5 | +5,0 | +9,2 | +22 | +41 | +43 | +106 |
-| **CVX** Chevron · ex-dividendo hoje (US$ 1,78) | 205,88 | **-4,0** | -2,7 | -7,5 | +0,9 | +9,4 | +39 | +40 | +124 |
-| **MMM** 3M | 181,05 | **+0,1** | -3,7 | +12 | +1,1 | +23 | +11 | +15 | +43 |
+| **KO** Coca-Cola · data-com 01/12 | 96,26 | **-1,9** | -1,2 | +3,0 | +7,0 | +20 | +39 | +40 | +102 |
+| **CVX** Chevron | 206,23 | **+0,2** | -3,9 | -7,9 | +1,1 | +9,8 | +41 | +40 | +124 |
+| **MMM** 3M _(dado a confirmar)_ | a confirmar | a confirmar | - | - | - | - | - | - | - |
 
 ---
 
@@ -158,8 +160,8 @@ Nomes completos: **QNTM** VanEck Quantum Computing UCITS ETF USD (Acc) · **QANT
 
 | Ativo | últ | dia | 1 sem | 1 mês | 3 m | 6 m | 1 ano | YTD | 5 anos |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| **EWY** iShares MSCI South Korea ETF | 136,73 | **+1,0** | -7,5 | -13 | -22 | -24 | +53 | +41 | +94 |
-| **MCHI** iShares MSCI China ETF · mínima de 52 semanas | 47,79 | **-1,3** | -5,7 | -6,1 | -14 | -15 | -22 | -20 | -22 |
+| **EWY** iShares MSCI South Korea ETF _(dado a confirmar)_ | a confirmar | a confirmar | - | - | - | - | - | - | - |
+| **MCHI** iShares MSCI China ETF _(dado a confirmar)_ | a confirmar | a confirmar | - | - | - | - | - | - | - |
 
 ---
 
@@ -167,25 +169,25 @@ Nomes completos: **QNTM** VanEck Quantum Computing UCITS ETF USD (Acc) · **QANT
 
 | Ativo | últ | dia | 1 sem | 1 mês | 3 m | 6 m | 1 ano | YTD | 5 anos |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| **EQTL3** Equatorial Energia ON | 33,67 | **-1,3** | -2,4 | -31 | -3,3 | -13 | -14 | -13 | +62 |
-| **SAPR4** Sanepar PN | 6,65 | **-0,4** | +2,0 | -14 | +6,6 | -9,9 | -3,1 | -14 | +135 |
-| **KLBN4** Klabin PN | 3,41 | **-1,4** | -1,4 | -5,5 | -3,4 | +2,4 | +1,0 | -9,3 | +16 |
-| **ALUP4** Alupar PN | 10,37 | **-1,9** | -0,1 | -16 | +1,4 | +0,1 | +0,5 | +4,8 | +81 |
-| **ITUB4** Itau Unibanco PN · data-com 01/12 | 40,19 | **-1,7** | -3,7 | -16 | +4,9 | +2,5 | +12 | +4,7 | +181 |
-| **BBDC4** Bradesco PN · data-com 02/12 | 14,08 | **-2,3** | -1,7 | -30 | -10 | -18 | -20 | -18 | +11 |
-| **PETR4** Petrobras PN | 43,17 | **-1,8** | -0,9 | -26 | +3,3 | +1,5 | +44 | +49 | +459 |
-| **VALE3** Vale ON · mínima de 52 semanas | 59,00 | **-2,2** | -8,4 | -11 | -18 | -26 | -1,8 | -16 | +39 |
-| **MELI34** Mercado Livre BDR | 69,26 | **+0,4** | -0,2 | -10 | -15 | +1,3 | -25 | -25 | +6,3 |
-| **UGPA3** Ultrapar ON · data-com 24/11 | 31,60 | **-1,5** | +4,2 | -19 | -4,1 | +12 | +52 | +56 | +187 |
-| **AXIA3** Axia Energia ON · mínima de 52 semanas | 46,30 | **-2,4** | -5,1 | -21 | -8,9 | -16 | -24 | -8,5 | +63 |
-| **ITSA4** Itausa PN · data-com 01/12 | 13,15 | **-1,1** | -3,1 | -15 | +6,4 | +2,6 | +24 | +15 | +159 |
-| **BBAS3** Banco do Brasil ON · mínima de 52 semanas | 14,12 | **-3,4** | -16 | -41 | -22 | -31 | -34 | -34 | +40 |
-| **SBSP3** Sabesp ON | 27,43 | **-1,2** | +0,1 | -12 | +18 | -3,3 | +9,6 | +6,5 | +371 |
-| **SMAL11** iShares BM&FBOVESPA Small Cap Fundo de Indice | 98,22 | **-0,7** | -1,8 | -27 | -1,7 | -13 | -13 | -13 | -15 |
-| **RARA11** Investo Terras Raras e Metais Estrategicos | 11,90 | **+0,7** | -9,8 | -1,2 | -32 | - | - | - | - |
-| **DIRR3** Direcional Engenharia ON | 8,93 | **-2,3** | -6,4 | -17 | -15 | -33 | -47 | -37 | +265 |
-| **MRVE3** MRV ON | 4,77 | **-4,8** | -3,4 | -40 | -2,3 | -26 | -43 | -39 | -57 |
-| **CURY3** Cury Construtora e Incorporadora ON | 25,30 | **-3,8** | -11 | -18 | -18 | -16 | -21 | -16 | +479 |
+| **EQTL3** Equatorial Energia ON | 32,90 | **-2,3** | -3,5 | -34 | -5,9 | -14 | -15 | -15 | +58 |
+| **SAPR4** Sanepar PN | 6,62 | **-0,5** | +3,4 | -17 | +3,6 | -9,9 | -2,1 | -14 | +134 |
+| **KLBN4** Klabin PN | 3,34 | **-2,1** | -4,8 | -9,5 | -7,7 | +0,6 | -0,5 | -11 | +13 |
+| **ALUP4** Alupar PN | 10,44 | **+0,7** | +0,1 | -17 | +4,1 | +1,6 | +0,3 | +5,5 | +82 |
+| **ITUB4** Itau Unibanco PN · data-com 01/12 | 40,07 | **-0,3** | -3,9 | -18 | +7,0 | +1,0 | +12 | +4,4 | +180 |
+| **BBDC4** Bradesco PN · data-com 02/12 | 13,83 | **-1,8** | -3,4 | -33 | -10 | -19 | -20 | -19 | +8,6 |
+| **PETR4** Petrobras PN | 42,67 | **-1,2** | -4,5 | -27 | -0,7 | -0,4 | +43 | +47 | +453 |
+| **VALE3** Vale ON · mínima de 52 semanas | 58,48 | **-0,9** | -8,6 | -11 | -21 | -27 | -2,6 | -16 | +38 |
+| **MELI34** Mercado Livre BDR | 67,32 | **-2,8** | -2,7 | -14 | -18 | -3,3 | -27 | -27 | +3,3 |
+| **UGPA3** Ultrapar ON · data-com 24/11 | 31,36 | **-0,8** | -1,1 | -21 | -5,9 | +11 | +52 | +54 | +185 |
+| **AXIA3** Axia Energia ON · mínima de 52 semanas | 46,00 | **-0,6** | -3,2 | -22 | -10 | -16 | -24 | -9,1 | +62 |
+| **ITSA4** Itausa PN · data-com 01/12 | 13,17 | **+0,2** | -2,9 | -17 | +8,2 | +2,9 | +25 | +16 | +160 |
+| **BBAS3** Banco do Brasil ON | 14,30 | **+1,3** | -7,6 | -41 | -20 | -30 | -32 | -33 | +42 |
+| **SBSP3** Sabesp ON | 27,35 | **-0,3** | +1,6 | -14 | +21 | -1,7 | +8,8 | +6,2 | +369 |
+| **SMAL11** iShares BM&FBOVESPA Small Cap Fundo de Indice | 97,60 | **-0,6** | -1,5 | -30 | -1,7 | -13 | -12 | -13 | -15 |
+| **RARA11** Investo Terras Raras e Metais Estrategicos | 11,75 | **-1,3** | -8,3 | -3,1 | -33 | - | - | - | - |
+| **DIRR3** Direcional Engenharia ON | 8,74 | **-2,1** | -5,5 | -23 | -16 | -33 | -48 | -38 | +257 |
+| **MRVE3** MRV ON | 4,59 | **-3,8** | -3,8 | -45 | -6,5 | -26 | -44 | -41 | -59 |
+| **CURY3** Cury Construtora e Incorporadora ON · mínima de 52 semanas | 25,01 | **-1,1** | -9,7 | -22 | -15 | -16 | -22 | -17 | +472 |
 
 ---
 
@@ -193,14 +195,14 @@ Nomes completos: **QNTM** VanEck Quantum Computing UCITS ETF USD (Acc) · **QANT
 
 | Ativo | últ | dia | 1 sem | 1 mês | 3 m | 6 m | 1 ano | YTD | 5 anos |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| **USDBRL** Dolar/Real · máxima de 52 semanas | 5,8646 | **+1,4** | +5,5 | +16 | +12 | +16 | +10 | +7,1 | +5,5 |
-| **DXY** Indice Dolar DXY · máxima de 52 semanas | 103,86 | **+0,4** | +0,9 | +1,8 | +5,1 | +4,8 | +4,3 | +5,7 | +8,1 |
-| **BRENT** Petroleo Brent | 91,95 | **-1,3** | -0,9 | -16 | +0,4 | -12 | +42 | +51 | +17 |
-| **BTC** Bitcoin | 62.735 | **-3,3** | -15 | -23 | -9,4 | -19 | -33 | -28 | +6,8 |
-| **ETH** Ethereum | 1.759 | **-3,5** | -14 | -27 | -22 | -17 | -44 | -41 | -59 |
-| **MINERIO** Minerio de ferro 62% Fe CFR China _(D-1, 18/11)_ | 90,72 | **+0,2** | -1,6 | -0,3 | -4,7 | -18 | -13 | -15 | -2,2 |
+| **USDBRL** Dolar/Real · máxima de 52 semanas | 5,9302 | **+1,1** | +5,0 | +18 | +15 | +18 | +11 | +8,3 | +6,7 |
+| **DXY** Indice Dolar DXY _(dia 18/11)_ | 103,86 | **+0,4** | +0,9 | +1,8 | +5,1 | +4,8 | +4,3 | +5,7 | +8,1 |
+| **BRENT** Petroleo Brent | 91,98 | **0,0** | -4,0 | -15 | -1,9 | -10 | +45 | +51 | +17 |
+| **BTC** Bitcoin | 62.714 | **-0,4** | -12 | -24 | -14 | -19 | -31 | -28 | +6,8 |
+| **ETH** Ethereum | 1.778 | **+0,2** | -12 | -27 | -24 | -17 | -41 | -40 | -58 |
+| **MINERIO** Minerio de ferro 62% Fe CFR China _(D-1, 19/11)_ | 90,86 | **+0,2** | -0,8 | 0,0 | -4,5 | -17 | -13 | -15 | -2,1 |
 
-**Brent em reais:** R$ 539,25 por barril (18/11) · dia +0,1% · 1 mês -2,4% · no ano +62% (Brent do 1º vencimento × dólar).
+**Brent em reais:** R$ 545,46 por barril (19/11) · dia +1,2% · 1 mês -0,1% · no ano +64% (Brent do 1º vencimento × dólar).
 
 ---
 
@@ -208,11 +210,11 @@ Nomes completos: **QNTM** VanEck Quantum Computing UCITS ETF USD (Acc) · **QANT
 
 | Referência | US$/t | dia | 1 sem | 1 mês | leitura |
 |---|---:|---:|---:|---:|---|
-| **Celulose fibra longa** | 607 | -1,1 | -1,2 | -1,5 | 19/11 |
-| **Minerio de ferro Dalian** | 86 | +0,7 | -5,1 | -5,1 | 19/11 |
+| **Celulose fibra longa** | 606 | -1,2 | -2,1 | -1,9 | 20/11 |
+| **Minerio de ferro Dalian** | 87 | +0,1 | -3,7 | -4,2 | 20/11 |
 
-- **Celulose fibra longa**: futuro SP da SHFE (fibra longa) em CNY/t, sem o IVA de 13%; nao e preco de lista NBSK · CNY/t 4.570 a USD/CNY 6,67 = US$ 686/t com IVA
-- **Minerio de ferro Dalian**: futuro da DCE em CNY/t, sem o IVA de 13%; o CFR 62% em US$ e a linha MINERIO · CNY/t 648 a USD/CNY 6,67 = US$ 97/t com IVA
+- **Celulose fibra longa**: futuro SP da SHFE (fibra longa) em CNY/t, sem o IVA de 13%; nao e preco de lista NBSK · CNY/t 4.568 a USD/CNY 6,67 = US$ 685/t com IVA
+- **Minerio de ferro Dalian**: futuro da DCE em CNY/t, sem o IVA de 13%; o CFR 62% em US$ e a linha MINERIO · CNY/t 656 a USD/CNY 6,67 = US$ 98/t com IVA
 
 ---
 
@@ -220,55 +222,53 @@ Nomes completos: **QNTM** VanEck Quantum Computing UCITS ETF USD (Acc) · **QANT
 
 | DI futuro (B3) · D0 | taxa | Δ dia |
 |---|---:|---:|
-| F28 | 14,51 | +8 bps |
-| F29 | 14,93 | +10 bps |
-| F30 | 15,11 | +11 bps |
-| F32 | 15,22 | +11 bps |
-| F35 | 15,25 | +10 bps |
+| F28 | 14,83 | +32 bps |
+| F29 | 15,30 | +37 bps |
+| F30 | 15,45 | +35 bps |
+| F32 | 15,51 | +29 bps |
+| F35 | 15,50 | +25 bps |
 
-**ABRIU** · inclinação F35-F28 +74 bps (+2 no dia)
+**ABRIU** · inclinação F35-F28 +67 bps (-7 no dia)
 
-| Tesouro Direto · base 18/11 | taxa | Δ 17/11→18/11 |
+| Tesouro Direto · base 19/11 | taxa | Δ 18/11→19/11 |
 |---|---:|---:|
-| Pre 2029 | 14,94% | -4 bps |
-| Pre 2031 | 15,27% | +15 bps |
-| Pre 2032 | 15,31% | -4 bps |
-| IPCA+ 2029 | 7,49% | +5 bps |
-| IPCA+ 2032 | 7,72% | -6 bps |
-| IPCA+ 2035 | 7,76% | -2 bps |
-| IPCA+ 2040 | 7,47% | -2 bps |
-| IPCA+ 2050 | 7,51% | +2 bps |
+| Pre 2029 | 15,33% | +39 bps |
+| Pre 2031 | 15,20% | -7 bps |
+| Pre 2032 | 15,60% | +32 bps |
+| IPCA+ 2029 | 7,45% | -4 bps |
+| IPCA+ 2032 | 7,86% | +12 bps |
+| IPCA+ 2035 | 7,77% | +1 bps |
+| IPCA+ 2040 | 7,52% | +3 bps |
+| IPCA+ 2050 | 7,53% | +2 bps |
 
-Inflação implícita 2029 6,93% · 2032 7,05% · 2031/32 (descasado) 7,01% · Focus IPCA 2027 5,00%
+Inflação implícita 2029 7,33% · 2032 7,18% · 2031/32 (descasado) 6,81% · Focus IPCA 2027 5,00%
 
 | Treasury (EUA) · D0 | taxa | Δ dia |
 |---|---:|---:|
-| 2y | 4,80 | 0 bps |
-| 10y | 5,07 | -3 bps |
-| 30y | 5,41 | -5 bps |
+| 2y | 4,76 | -4 bps |
+| 10y | 5,04 | -3 bps |
+| 30y | 5,40 | -1 bps |
 
-2s10s +27 bps (-3 no dia)
+2s10s +28 bps (+1 no dia)
 
-**Regime** VIX 24,6 (-3,5%) · score de risco 3 de 6 · **regime de vol LIGADO**
+**Regime** VIX 28,4 (+16%) · score de risco 3 de 5 · **regime de vol LIGADO**
 
 ---
 
-### Notícias e fatos · 7
+### Notícias e fatos · 6
 
-- **NVDA** Moody's lowers Nvidia outlook to stable from positive (CNBC · 18/11) [abrir a fonte](https://www.cnbc.com/video/2026/11/18/moodys-lowers-nvidia-outlook-to-stable-from-positive.html)
-  *Por que importa:* noticia material sobre um ativo do livro; ler o texto antes de comentar
-- **KLBN4** Fato Relevante: Registrou hoje uma ocorrência envolvendo a caldeira de recuperação da Unidade Otacílio Costa (SC). (CVM · 18/11) [abrir a fonte](https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1591019)
-  *Por que importa:* fato relevante e o que a propria companhia julga capaz de mover o preco; ler o documento inteiro antes de comentar
-- **KLBN4** Klabin (KLBN11): impacto de acidente pode afetar até 7% do Ebitda, mas é administrável, diz Safra (Money Times · 18/11) [abrir a fonte](https://www.moneytimes.com.br/klabin-klbn11-impacto-de-acidente-pode-variar-entre-4-e-7-do-ebitda-mas-e-administravel-diz-safra-pads/)
-  *Por que importa:* evento operacional afeta producao e custo no trimestre corrente
-- **BRENT** Petróleo fecha em queda em meio à alta do dólar e recuperação da oferta (Money Times · 18/11) [abrir a fonte](https://www.moneytimes.com.br/petroleo-fecha-em-queda-em-meio-a-alta-do-dolar-e-recuperacao-da-oferta-davs/)
+- **BABA** EQUITY ALERT: Rosen Law Firm Files Securities Class Action Lawsuit on Behalf of Alibaba Group Holding Limited Investors – BABA (Business Wire · 19/11) [abrir a fonte](https://www.businesswire.com/news/home/20261119870639/en/EQUITY-ALERT-Rosen-Law-Firm-Files-Securities-Class-Action-Lawsuit-on-Behalf-of-Alibaba-Group-Holding-Limited-Investors-BABA)
+  *Por que importa:* contingencia muda o risco e pode virar provisao; olhar valor e prazo
+- **NVDA** Nvidia Stocks Rise 4.63% as $10 Billion Anthropic Stake Lands on IPO Day (TradingView (Reuters) · 19/11) [abrir a fonte](https://www.tradingview.com/news/gurufocus:de797ecf3094b:0-nvidia-stocks-rise-4-63-as-10-billion-anthropic-stake-lands-on-ipo-day/)
   *Por que importa:* oferta de acoes ou divida altera a base acionaria ou a alavancagem
-- **MACRO** Agenda: Vencimento de opcoes sobre indice e futuros de Ibovespa (B3) hoje (18/11) (agenda · 18/11)
-  *Por que importa:* evento macro de alta relevância reprecifica a curva inteira; o que importa é a surpresa contra o que está no preço
-- **NVDA** JPMorgan raises Nvidia stock price target to $230 on guidance (Investing.com · 18/11) [abrir a fonte](https://www.investing.com/news/analyst-ratings/jpmorgan-raises-nvidia-stock-price-target-to-230-on-guidance-93CH-5035754)
-  *Por que importa:* mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
-- **PETR4** Petrobras (PETR4): Citi coloca novo risco para dividendos e corta preço-alvo (Money Times · 17/11) [abrir a fonte](https://www.moneytimes.com.br/mercado-ve-alta-de-capex-como-risco-em-novo-plano-da-petrobras-citi-corta-preco-alvo-rnda/)
+- **BTC** Sweden’s H100 Considers Using Bitcoin Trading Pool to Fund Share Buyback (Yahoo Finance · 19/11) [abrir a fonte](https://finance.yahoo.com/markets/crypto/articles/sweden-h100-considers-using-bitcoin-154500668.html)
   *Por que importa:* provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+- **AXIA3** Axia prepara emissão de R$ 1 bilhão em debêntures para UHE Santo Antônio (UOL Economia · 19/11) [abrir a fonte](https://megawhat.uol.com.br/geracao/axia-prepara-emissao-de-r-1-bilhao-em-debentures-para-uhe-santo-antonio/)
+  *Por que importa:* oferta de acoes ou divida altera a base acionaria ou a alavancagem
+- **GOOGL** Alphabet (GOOG) Slips as 2026 Capex Outlook Rises (Yahoo Finance · 19/11) [abrir a fonte](https://finance.yahoo.com/markets/stocks/articles/alphabet-goog-slips-2026-capex-160741067.html)
+  *Por que importa:* noticia material sobre um ativo do livro; ler o texto antes de comentar
+- **NVDA** Intel Climbs 7% on First 18A Customer, NVIDIA Gains 4% as Trump Floats Blackwell Sales to China and Dan Ives Hails Anthropic IPO; AMD Rises 3% (Yahoo Finance · 19/11) [abrir a fonte](https://finance.yahoo.com/technology/articles/intel-climbs-7-first-18a-145631177.html)
+  *Por que importa:* oferta de acoes ou divida altera a base acionaria ou a alavancagem
 
 *As manchetes que citaram o livro sem número ou decisão nova estão em `noticias.md`.*
 
@@ -276,11 +276,11 @@ Inflação implícita 2029 6,93% · 2032 7,05% · 2031/32 (descasado) 7,01% · F
 
 ### Agenda
 
-- **qui 19/11** 11:00 — Leilao do Tesouro: NTN-B
 - **seg 23/11** — Vencimento de opcoes sobre acoes (B3, rolado pelo feriado de 20/11) (a confirmar)
 - **seg 23/11** 08:25 — Relatorio Focus (BCB)
 - **ter 24/11** 11:00 — Leilao do Tesouro: LTN/NTN-F
 - **ter 24/11** — ex-dividendo UGPA3 R$ 1,00 (último provento, Yahoo)
+- **qua 25/11** 10:30 — PIB 3T26 (2a estimativa) e PCE de outubro (BEA)
 - **qua 25/11** — resultado NVDA (após NY, estimado)
 - **qua 25/11** — resultado BABA (antes de NY, estimado)
 - **ter 01/12** — resultado MRVL (Yahoo, estimado)
@@ -293,11 +293,11 @@ Inflação implícita 2029 6,93% · 2032 7,05% · 2031/32 (descasado) 7,01% · F
 
 ### Como ler
 
-**Relógios:** Yahoo 23h29 · DI ajuste D0 · Tesouro base 18/11 · UST CMT D0 · PTAX 18/11
-**Lacunas:** nenhuma perna falhou.
+**Relógios:** Yahoo 23h14 · DI ajuste D0 · Tesouro base 19/11 · UST CMT D0 · PTAX 19/11
+**Lacunas:** DXY sem barra de 19/11 (última 18/11); SPY: barra de 19/11 não bate com a cotação do Yahoo às 16:00 (721,01 contra 715,87, -0.71%); variação do dia a confirmar; QQQ: barra de 19/11 não bate com a cotação do Yahoo às 16:00 (651,27 contra 645,04, -0.96%); variação do dia a confirmar; SMH: barra de 19/11 não bate com a cotação do Yahoo às 16:00 (454,70 contra 447,48, -1.59%); variação do dia a confirmar; SOXX: barra de 19/11 não bate com a cotação do Yahoo às 16:00 (140,25 contra 137,95, -1.64%); variação do dia a confirmar; XLK: barra de 19/11 não bate com a cotação do Yahoo às 16:00 (162,36 contra 160,69, -1.03%); variação do dia a confirmar; VGT: barra de 19/11 não bate com a cotação do Yahoo às 16:00 (106,12 contra 104,99, -1.06%); variação do dia a confirmar; IGV: barra de 19/11 não bate com a cotação do Yahoo às 16:00 (96,86 contra 96,10, -0.79%); variação do dia a confirmar; BOTZ: barra de 19/11 não bate com a cotação do Yahoo às 16:00 (29,23 contra 29,00, -0.79%); variação do dia a confirmar; WQTMUS: barra de 19/11 não bate com a cotação do Yahoo às 16:00 (22,94 contra 22,69, -1.11%); variação do dia a confirmar; QTUM: barra de 19/11 não bate com a cotação do Yahoo às 16:00 (121,07 contra 119,71, -1.12%); variação do dia a confirmar; REMX: barra de 19/11 não bate com a cotação do Yahoo às 16:00 (44,79 contra 44,32, -1.05%); variação do dia a confirmar; NVDA: barra de 19/11 não bate com a cotação do Yahoo às 16:00 (148,82 contra 145,98, -1.91%); variação do dia a confirmar; AMD: barra de 19/11 não bate com a cotação do Yahoo às 16:00 (486,67 contra 489,19, +0.52%); variação do dia a confirmar; AVGO: barra de 19/11 não bate com a cotação do Yahoo às 16:00 (349,58 contra 346,65, -0.84%); variação do dia a confirmar; MRVL: barra de 19/11 não bate com a cotação do Yahoo às 16:00 (142,55 contra 138,47, -2.86%); variação do dia a confirmar; INTC: barra de 19/11 não bate com a cotação do Yahoo às 16:00 (56,53 contra 55,72, -1.43%); variação do dia a confirmar; MU: barra de 19/11 não bate com a cotação do Yahoo às 16:00 (702,69 contra 690,44, -1.74%); variação do dia a confirmar; TSM: barra de 19/11 não bate com a cotação do Yahoo às 16:00 (356,62 contra 352,09, -1.27%); variação do dia a confirmar; GFS: barra de 19/11 não bate com a cotação do Yahoo às 16:00 (39,48 contra 38,94, -1.37%); variação do dia a confirmar; LITE: barra de 19/11 não bate com a cotação do Yahoo às 16:00 (543,60 contra 535,15, -1.55%); variação do dia a confirmar; COHR: barra de 19/11 não bate com a cotação do Yahoo às 16:00 (217,80 contra 214,94, -1.32%); variação do dia a confirmar; NOK: barra de 19/11 não bate com a cotação do Yahoo às 16:00 (7,5800 contra 7,5000, -1.06%); variação do dia a confirmar; META: barra de 19/11 não bate com a cotação do Yahoo às 16:00 (602,20 contra 596,22, -0.99%); variação do dia a confirmar; GOOGL: barra de 19/11 não bate com a cotação do Yahoo às 16:00 (278,94 contra 272,66, -2.25%); variação do dia a confirmar; AMZN: barra de 19/11 não bate com a cotação do Yahoo às 16:00 (259,49 contra 257,37, -0.82%); variação do dia a confirmar; PLTR: barra de 19/11 não bate com a cotação do Yahoo às 16:00 (155,50 contra 153,68, -1.17%); variação do dia a confirmar; TSLA: barra de 19/11 não bate com a cotação do Yahoo às 16:00 (377,52 contra 374,41, -0.82%); variação do dia a confirmar; BABA: barra de 19/11 não bate com a cotação do Yahoo às 16:01 (84,68 contra 83,31, -1.62%); variação do dia a confirmar; MMM: barra de 19/11 incoerente (fechamento fora da máxima e da mínima); variação do dia a confirmar; EWY: barra de 19/11 não bate com a cotação do Yahoo às 16:00 (136,51 contra 134,59, -1.41%); variação do dia a confirmar; MCHI: barra de 19/11 não bate com a cotação do Yahoo às 16:00 (47,30 contra 47,02, -0.59%); variação do dia a confirmar; DXY: barra de 19/11 é o início da sessão seguinte (última cotação 21:04 de Nova York); barra descartada, fica a de 18/11; alertas_segurados: alertas não emitidos por dado não confirmado: T04 BOTZ (BOTZ: barra de 19/11 não bate com a cotação do Yahoo às 16:00 (29,23 contra 29,00, -0.79%)); T04 WQTMUS (WQTMUS: barra de 19/11 não bate com a cotação do Yahoo às 16:00 (22,94 contra 22,69, -1.11%)); T12 SPY (SPY: barra de 19/11 não bate com a cotação do Yahoo às 16:00 (721,01 contra 715,87, -0.71%)); T12 SMH (SMH: barra de 19/11 não bate com a cotação do Yahoo às 16:00 (454,70 contra 447,48, -1.59%)); T12 WQTMUS (WQTMUS: barra de 19/11 não bate com a cotação do Yahoo às 16:00 (22,94 contra 22,69, -1.11%)); T12 REMX (REMX: barra de 19/11 não bate com a cotação do Yahoo às 16:00 (44,79 contra 44,32, -1.05%)); T12 NVDA (NVDA: barra de 19/11 não bate com a cotação do Yahoo às 16:00 (148,82 contra 145,98, -1.91%)); T12 MU (MU: barra de 19/11 não bate com a cotação do Yahoo às 16:00 (702,69 contra 690,44, -1.74%)).
 **IUAA:** NAO e renda fixa ultracurta: cai ~6% a cada +100 bps na curva. Ler junto com UST 10y/30y. Caixa em dolar e o IB01.
 **Hipótese:** **EWY** iShares MSCI South Korea ETF · **MCHI** iShares MSCI China ETF — ETFs dos EUA, a confirmar.
-Minério: proxy Dalian 648 CNY/t (2026-11-19).
-Celulose: proxy SHFE SP (fibra longa) 4.570 CNY/t; BHKP sem série diária.
+Minério: proxy Dalian 656 CNY/t (2026-11-20).
+Celulose: proxy SHFE SP (fibra longa) 4.568 CNY/t; BHKP sem série diária.
 **Fontes:** Yahoo Finance · B3 Boletim Diário · site do Tesouro Direto · Treasury.gov CMT · BCB.
 *Uso interno da mesa. Organização e comparação de dados públicos, não é recomendação de investimento (Resolução CVM 178).*
