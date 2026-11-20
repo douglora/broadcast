@@ -6,14 +6,14 @@
  "paginas": 1,
  "colunas": [{"nome": "TckrSymb", "titulo": "Ação"}, {"nome": "Cod", "titulo": "Código"}, {"nome": "Term", "titulo": "Prazo"}, {"nome": "Closing", "titulo": ""}, {"nome": "TradQty", "titulo": ""}, {"nome": "VlmTradedDay", "titulo": "Volume (R$) mil"}, {"nome": "Part", "titulo": "Participação (%)"}],
  "texto": ["Lista ações com maior volume de negociação em contratos a termo, destacando as mais ativas."],
- "situacao": "publicado",
- "atualizado_em": "2026-11-19T19:01:19.717",
+ "situacao": "republicado",
+ "atualizado_em": "2026-11-20T04:02:03.43",
  "truncada": false,
  "linhas": [
-  ["FII TRX REALCI", "CI", 98, 55.88, 130000, 7264.4, 2.074199542463491],
-  ["PETROBRAS   PN      N2", "PN      N2", 18, 43.05, 140200, 6035.61, 2.2369444296413956],
-  ["VALE        ON      NM", "ON      NM", 33, 59.37, 195300, 11594.961, 3.116085928024],
-  ["ASSAI       ON      NM", "ON      NM", 90, 9.57, 1000000, 9570, 15.955381095873014],
-  ["FII CAPI SECCI  ER", "CI  ER", 89, 6.79, 1317000, 8942.43, 21.013236903264758]
+  ["FII TRX REALCI", "CI", 98, 55.88, 130000, 7264.4, 2.0738587236388626],
+  ["PETROBRAS   PN      N2", "PN      N2", 18, 43.05, 140200, 6035.61, 2.2365768696474495],
+  ["VALE        ON      NM", "ON      NM", 33, 59.37, 195300, 11594.961, 3.115573913282076],
+  ["ASSAI       ON      NM", "ON      NM", 90, 9.57, 1000000, 9570, 15.952759412606635],
+  ["FII CAPI SECCI  ER", "CI  ER", 89, 6.79, 1317000, 8942.43, 21.009784146402936]
  ]
 }
