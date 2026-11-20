@@ -1,6 +1,6 @@
 {
  "pregao": "2026-11-19",
- "coletado_em": "2026-11-20T07:43:31Z",
+ "coletado_em": "2026-11-20T11:52:31Z",
  "tabelas": {
   "SharesInvesVolum": {
    "titulo": "Participação dos investidores",
@@ -21,7 +21,7 @@
   "EconomicIndicators": {
    "titulo": "Indicadores econômicos",
    "situacao": "republicado",
-   "atualizado_em": "2026-11-20T04:32:34.57",
+   "atualizado_em": "2026-11-20T08:42:39.677",
    "sla": "8:00:00",
    "linhas": 457,
    "truncada": false
@@ -183,7 +183,7 @@
    "situacao": "aguardando",
    "atualizado_em": "2026-11-19T00:00:38.013",
    "sla": "8:00:00",
-   "linhas": 0,
+   "linhas": 68,
    "truncada": false
   },
   "SwapFlex": {
@@ -308,10 +308,10 @@
   },
   "Register": {
    "titulo": "Registro",
-   "situacao": "aguardando",
-   "atualizado_em": "2026-11-19T00:00:38.013",
+   "situacao": "publicado",
+   "atualizado_em": "2026-11-20T05:23:27.313",
    "sla": "8:00:00",
-   "linhas": 0,
+   "linhas": 18,
    "truncada": false
   },
   "RepurchaseDealings": {

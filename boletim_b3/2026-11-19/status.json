@@ -2,7 +2,7 @@
  "pregao": "2026-11-19",
  "situacao": "publicando",
  "errata": false,
- "atualizado_em": "2026-11-20T04:35:38.01",
+ "atualizado_em": "2026-11-20T08:42:39.677",
  "completo": {
   "arquivo": "",
   "pdf": ""
@@ -14,7 +14,7 @@
    "pai": null,
    "situacao": "publicando",
    "errata": false,
-   "atualizado_em": "2026-11-20T04:02:40.24",
+   "atualizado_em": "2026-11-20T05:23:27.313",
    "arquivo": "",
    "pdf": ""
   },
@@ -42,11 +42,11 @@
    "id": 2,
    "nome": "Indicadores e informativos",
    "pai": 20,
-   "situacao": "republicado",
+   "situacao": "publicado",
    "errata": false,
-   "atualizado_em": "2026-11-20T04:35:38.01",
-   "arquivo": "BDI_02_20261119.pdf",
-   "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-11-19/BDI_02_20261119.pdf"
+   "atualizado_em": "2026-11-20T08:42:39.677",
+   "arquivo": "",
+   "pdf": ""
   },
   {
    "id": 23,

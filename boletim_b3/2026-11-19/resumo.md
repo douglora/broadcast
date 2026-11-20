@@ -1,7 +1,7 @@
 # Boletim da B3: pregão de 19/11/2026 (quinta)
 
 **Situação: PARCIAL.** Ainda sem: cadastro de instrumentos, quadro de posições em aberto. A B3 publica esses blocos na madrugada seguinte ao pregão; a rodada da manhã completa.
-Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-11-20T07:44:12Z (UTC).
+Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-11-20T11:53:03Z (UTC).
 
 [[LEITURA_DA_MESA]]
 
@@ -227,7 +227,6 @@ Por classe, mediana das taxas de referência dos papéis. Taxa de referência: n
 - DebenturesBusiness: atrasado
 - ForwardMarket: atrasado
 - cadastro de instrumentos: aguardando
-- Register: aguardando
 - RepurchaseDealings: aguardando
 - Stock: aguardando
 - StocksOperationSummary: atrasado
