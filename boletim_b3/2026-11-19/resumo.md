@@ -1,11 +1,11 @@
 # Boletim da B3: pregão de 19/11/2026 (quinta)
 
 **Situação: PARCIAL.** Ainda sem: cadastro de instrumentos, quadro de posições em aberto. A B3 publica esses blocos na madrugada seguinte ao pregão; a rodada da manhã completa.
-Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-11-20T11:53:03Z (UTC).
+Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-11-20T19:15:19Z (UTC).
 
 [[LEITURA_DA_MESA]]
 
-## Sinais do dia (17)
+## Sinais do dia (16)
 
 **Novos hoje**
 
@@ -28,7 +28,6 @@ Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-11
 - **Aluguel alto.** DIRR3: saldo alugado de 47,4 mi de ações, 14,5% da quantidade teórica do índice e 3,0 pregões de giro; taxa média do tomador de 0,06% ao ano. _(B3, BTBLendingOpenPosition, 19/11 · 55º pregão seguido)_
 - **Aluguel alto.** MRVE3: saldo alugado de 82,0 mi de ações, 21,9% da quantidade teórica do índice e 3,5 pregões de giro; taxa média do tomador de 1,72% ao ano. _(B3, BTBLendingOpenPosition, 19/11 · 55º pregão seguido)_
 - **Crédito: prêmio alto.** CRA021001PQ (Opea Securitizadora, CRA): negociada a IPCA+ 13,36%, 596 pb acima do juro real de mercado de prazo equivalente, em R$ 17,5 mi. _(B3, Trade + InstrumentRegistration (preliminar), 19/11 · 2º pregão seguido)_
-- **Paridade.** RARA11 fez -1,26% contra +0,69% de REMX em reais (-1,10% lá fora, câmbio +1,82%): descolamento de -1,95 ponto no dia. _(B3, TradeInformationConsolidated + series do livro, 19/11 · 4º pregão seguido)_
 
 ## Fluxo por tipo de investidor (acumulado no mês até 17/11)
 
@@ -131,7 +130,7 @@ Aluguel de ações (BTC, o banco de títulos da B3): quem aluga normalmente vend
 | SMAL11 | 97,68 | -0,08% | - |
 | RARA11 | - | - | - |
 
-- Paridade: RARA11 -1,26% contra REMX em reais +0,69% (lá fora -1,10%, câmbio +1,82%); desvio de -1,95%. Fechamentos em horários diferentes: é aproximação.
+- Paridade: RARA11 -1,26% contra REMX em reais -0,36% (lá fora -2,14%, câmbio +1,82%); desvio de -0,90%. Fechamentos em horários diferentes: é aproximação.
 
 ## Radar do mercado: aluguel
 
