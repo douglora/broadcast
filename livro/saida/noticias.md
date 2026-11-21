@@ -1,8 +1,17 @@
-NOTÍCIAS E FATOS · 20/11 17h59
+NOTÍCIAS E FATOS · 20/11 23h06
 
-Pernas: noticias ok 16 novas (18 consultas; descartadas: 405 veículo fora da lista, 18 sem ativo, 12 teto) · cvm ok 0 novos de 7 (4 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 16 novas (18 consultas; descartadas: 389 veículo fora da lista, 14 sem ativo, 11 teto) · cvm ok 0 novos de 7 (4 cias casadas) · sec ok 1 novos em 3 dias
 
-## SEC (8-K, 6-K, 10-Q, 10-K) (1)
+## SEC (8-K, 6-K, 10-Q, 10-K) (2)
+
+[INFO] E04 · BAC · 8-K: 5.03 mudanca de estatuto ou exercicio
+SEC EDGAR · aceito 20/11 18h45 · 8-K
+Link: https://www.sec.gov/Archives/edgar/data/70858/000007085826000608/bac-20261119.htm
+Por que importa: documento da companhia na SEC
+Ativos: BAC
+Como falar: 'a BAC protocolou 8-K na SEC (5.03 mudanca de estatuto ou exercicio)'
+Fonte: SEC EDGAR 2026-11-20
+id: E04-BAC-26000608-2026-11-20 · status: linha · íntegra disponível
 
 [INFO] E04 · BABA · 6-K: 6-K
 SEC EDGAR · aceito 19/11 18h00 · FORM 6-K
@@ -17,7 +26,23 @@ Fonte: SEC EDGAR 2026-11-19
 id: E04-BABA-26130115-2026-11-19 · status: linha · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (15)
+## NOTÍCIAS COM MATERIALIDADE (16)
+
+[ATENÇÃO] E05 · KO · Coca-Cola or Shell: Only One Gets My Dividend Dollars for the Next 20 Years
+Yahoo Finance · 20/11 05h59 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Key Takeaways - Coca-Cola (KO:NYSE) yields 2.2%, and Shell yields 3.3%.
+  – Further, Coca-Cola raised its 2026 guidance after a 7% rise in organic revenue in Q3.
+  – - Shell's (SHEL) dividend took 23% of its free cash flow over its latest 12 months, against 79% at Coca-Cola.
+  – - Coca-Cola's dividend per share rose from $1.32 in fiscal 2015 to $2.04 in fiscal 2025, while Shell's fell from $1.90 to $1.42 after a cut in 2020.
+  – - Coca-Cola trades at 28x forward earnings, its highest in five years, against 8.0x for Shell.
+  – If you're buying a dividend stock to hold for 20 years, the check has to keep coming and keep growing through whatever the next two decades bring.
+Link: https://finance.yahoo.com/markets/stocks/articles/coca-cola-shell-only-one-085919392.html
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: KO
+Como falar: 'saiu no Yahoo Finance: Coca-Cola or Shell: Only One Gets My Dividend Dollars for the Next 20 Years; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 20/11 05h59
+id: E05-KO-090286db10-2026-11-20 · status: pendente
 
 [ATENÇÃO] E05 · BABA · Citi cuts Alibaba stock price target on cloud revenue outlook
 Investing.com · 20/11 07h45 · fonte única · licença: manchete
@@ -35,7 +60,7 @@ Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; 
 Ativos: BABA
 Como falar: 'saiu no Investing.com: Citi cuts Alibaba stock price target on cloud revenue outlook By Investing.com; confirmar o número no texto antes de repassar'
 Fonte: Investing.com 20/11 08h03
-id: E05-BABA-93b2387ab2-2026-11-20 · status: pendente
+id: E05-BABA-93b2387ab2-2026-11-20 · status: expirado
 
 [ATENÇÃO] E05 · CVX · Chevron or Mondelez: I Can Only Pick One Dividend Stock for the Next 20 Years. Here’s Mine
 Yahoo Finance · 20/11 07h03 · fonte única · licença: manchete
@@ -44,7 +69,7 @@ Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir
 Ativos: CVX
 Como falar: 'saiu no Yahoo Finance: Chevron or Mondelez: I Can Only Pick One Dividend Stock for the Next 20 Years. Here’s Mine; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 20/11 07h03
-id: E05-CVX-7759404901-2026-11-20 · status: pendente
+id: E05-CVX-7759404901-2026-11-20 · status: expirado
 
 [ATENÇÃO] E05 · AMD · Key facts: AMD Revenue +45%; Anthropic Helios Deal; $800M MI308 Charge
 TradingView (Reuters) · 20/11 05h00 · fonte única · licença: manchete
@@ -53,7 +78,7 @@ Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; 
 Ativos: AMD
 Como falar: 'saiu no TradingView (Reuters): Key facts: AMD Revenue +45%; Anthropic Helios Deal; $800M MI308 Charge; confirmar o número no texto antes de repassar'
 Fonte: TradingView (Reuters) 20/11 05h00
-id: E05-AMD-431fa9769b-2026-11-20 · status: pendente
+id: E05-AMD-431fa9769b-2026-11-20 · status: expirado
 
 [ATENÇÃO] E05 · BABA · Alibaba Group Holding Limited Notice of January 19, 2027 Application Deadline for Class Action Lawsuit - Contact Lewis Kahn, Esq. at Kahn Swick & Fot…
 Business Wire · 20/11 02h29 · fonte única · licença: manchete
@@ -192,8 +217,23 @@ Fonte: Valor Economico 19/11 05h00
 id: E05-KLBN4-90d44c0465-2026-11-19 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (80)
+## OUTRAS NOTÍCIAS (só manchete) (95)
 
+· NVDA Nvidia faces further blow after shock US export permit data release: analysts (South China Morning Post) https://www.scmp.com/tech/big-tech/article/3375287/nvidia-faces-further-blow-after-shock-us-export-permit-data-release-analysts
+· NVDA Here's How Much Nvidia Stock Is Worth Without Jensen Huang, According to Dan Ives (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/heres-much-nvidia-stock-worth-003004121.html
+· AMZN Generac Stock In Focus After Earnings Beat And Amazon Supply Deal (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/generac-stock-focus-earnings-beat-001937973.html
+· UST The Weekly Spread: What Shaped US Treasury Yields And The Dollar This Week (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:fb361b931094b:0-the-weekly-spread-what-shaped-us-treasury-yields-and-the-dollar-this-week/
+· NVDA Prediction: Nvidia Stock Will Do This in the 6 Months After a New CEO Takes Over, According to History (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/prediction-nvidia-stock-6-months-000251264.html
+· ETH Fairmint plans tokenized stock venue on Canton, Ethereum under SEC experiment (CoinDesk) https://www.coindesk.com/business/2026/11/20/fairmint-plans-tokenized-stock-venue-on-canton-ethereum-under-sec-experiment
+· NVDA Trump’s Treasury Secretary Keeps Nvidia’s H200 China Policy as House Data Show Nearly 880,000 AI Chips Approved (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/trump-treasury-secretary-keeps-nvidia-215837212.html
+· MRVL Marvell's $115 Billion Lumentum Deal Creates a New Valuation Test (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:1ba9f9033094b:0-marvell-s-115-billion-lumentum-deal-creates-a-new-valuation-test/
+· NVDA Nvidia Stock Plunge Wipes Out Nearly $500 Billion in One Day as SEC Reportedly Probes Its Accounting (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/nvidia-stock-plunge-wipes-nearly-212722915.html
+· AMD Congress files detail AMD requests to export AI chips to China, says Hunterbrook (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/congress-files-detail-amd-requests-211058888.html
+· NVDA Nvidia’s (NVDA) AI Demand Visibility into 2029 Keeps Me Bullish (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/nvidia-nvda-ai-demand-visibility-210400433.html
+· NVDA Nvidia Shares Sink to 52-Week Low After Report SEC Is Probing Accounting (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/nvidia-shares-sink-52-week-203654330.html
+· BTC WTF is Happening to the Market? Plus, Bitcoin Price Outlook and Trouble Ahead for Neoclouds (Yahoo Finance) https://finance.yahoo.com/video/wtf-happening-market-plus-bitcoin-203540856.html
+· KO Coca-Cola (KO) After ETF Selling Is It Still Fairly Valued (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/coca-cola-ko-etf-selling-201320830.html
+· NVDA Nvidia server suppliers halt Southeast Asia shipments over US curbs (Nikkei Asia) https://news.google.com/rss/articles/CBMi0AFBVV95cUxPQWJ2Ynl0elFmc2U2cHV6em9qVVp6SGdacE1hRjdjaEJsZExHRDhkSm95cDYwNGxDN3pwY1dBYkhSSkgzd0JveGJUMExPaDBXS2lrc0hCaUtOd09ZUUdPRWNjNHZJOXZhRkpmajhral9vZDV1WjV3UzItRnhiU3Y5NmtKV3JueDZQVHVlaEFTamxxOG1pUm9KdTlXazlOSXEtLUNFdkJmaFY0cG9td1hqV2dCLTF4b2t0ZXZBVVVQSHh0Zy1OY05EV0NwcmJ1c2Ni?oc=5
 · USDBRL Nem US$ 1 bilhão do BC conteve a alta do dólar; o que isso revela sobre a economia? (Estadao) https://www.estadao.com.br/economia/celso-ming/nem-us-1-bilhao-do-bc-conteve-a-alta-do-dolar-o-que-isso-revela-sobre-a-economia/
 · LITE TTM Technologies, Flex, Lumentum, Benchmark, and Knowles shares plummet, what you need to know (TradingView (Reuters)) https://www.tradingview.com/news/stockstory:8330484e4094b:0-ttm-technologies-flex-lumentum-benchmark-and-knowles-shares-plummet-what-you-need-to-know/
 · NVDA EXCLUSIVE: Nvidia's accounting is a focus of US SEC investigation, sources say (Reuters) https://www.reuters.com/world/us-secs-nvidia-probe-is-examining-potential-accounting-issues-sources-say-2026-11-20/
@@ -239,19 +279,4 @@ id: E05-KLBN4-90d44c0465-2026-11-19 · status: linha
 · BTC Bitcoin slides toward $60,000 as spot ETF outflows near $3 billion (TradingView (Reuters)) https://www.tradingview.com/news/cryptobriefing:e730d6776094b:0-bitcoin-slides-toward-60-000-as-spot-etf-outflows-near-3-billion/
 · UST U.S. Treasury yields slip on safe-haven bid, 10-year posts four-day losing streak (Investing.com) https://www.investing.com/news/stock-market-news/us-treasury-yields-slip-on-safehaven-bid-10year-posts-fourday-losing-streak-5040235
 · AMD AMD: Why I See Opportunity After The Hunterbrook Short Report (NASDAQ:AMD) (Seeking Alpha) https://seekingalpha.com/article/4970322-amd-why-i-see-opportunity-after-the-hunterbrook-short-report
-· USDBRL Dólar vai a R$ 5,93 e renova máxima do ano apesar de leilão do BC (Poder360) https://www.poder360.com.br/poder-economia/dolar-vai-a-r-593-e-renova-maxima-do-ano-apesar-de-leilao-do-bc
-· BTC Can Bitcoin Reach Standard Chartered’s $500,000 Target by 2030? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-reach-standard-chartered-500-210325550.html
-· UGPA3 ‘Mais importante que a cifra do ajuste é a confiança de que ele será executado’, diz CEO da Ultrapar (Estadao) https://www.estadao.com.br/economia/mais-importante-que-a-cifra-do-ajuste-e-a-confianca-de-que-ele-sera-executado-diz-ceo-da-ultrapar/
-· MINERIO Australian PM to meet Xi Jinping as iron ore tensions loom (Financial Times) https://www.ft.com/content/ddbf0f75-047a-421a-87c0-3e60bf42ed22?syn-25a6b1a6=1
-· BBDC4 CEO do Bradesco prega ‘pé no chão e prudência’ em 2027 adverso | Finanças (Valor Economico) https://valor.globo.com/financas/noticia/2026/11/19/ceo-do-bradesco-prega-pe-no-chao-e-prudencia-em-2027-adverso.ghtml
-· USDBRL Por que o dólar passou de R$ 5,90 hoje? (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/por-que-o-dolar-passou-de-r-590-hoje/
-· USDBRL Dólar sobe 1,15%, na 6ª alta seguida, e se aproxima de R$ 6 mesmo com intervenção do BC (Exame) https://exame.com/invest/mercados/dolar-sobe-115-na-6a-alta-seguida-e-se-aproxima-de-r-6-mesmo-com-intervencao-do-bc/
-· ITUB4 NOVO11: ETF reúne Nubank, Itaú, Petrobras e Mercado Livre em uma só cota (Suno Noticias) https://www.suno.com.br/noticias/novo11-investe-nubank-itau/
-· USDBRL Dólar à vista fecha em alta de 1,10%, a R$5,9323 na venda Por Reuters (Investing.com) https://br.investing.com/news/forex-news/dolar-a-vista-fecha-em-alta-de-110-a-r59323-na-venda-2133235
-· AMD Looks Like AMD Also Has A China Problem (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/looks-amd-china-problem-201254374.html
-· USDBRL Dólar vai a R$ 5,93 e juros vão às máximas do ano; Bolsa cai (O Globo) https://oglobo.globo.com/economia/financas/noticia/2026/11/19/dolar-hoje-maxima-ano-5-93.ghtml
-· TSLA Tesla Expands Cybercab To Dallas In First Move Outside Austin (TradingView (Reuters)) https://news.google.com/rss/articles/CBMivwFBVV95cUxPUWNoV05zMWplT2xmTlRqa3k2VGFER3VhOXhWcm4zajVHMVBRdUx5R0lXbTRhWDE1M0xXMEwtTnB3WU8xVGVXdW1UTzZhaXRYUngwWV9aaGk4aDI2bUVxeTY2emdtUFVvUkRkV2hHUmFyTGtjNGtZTE1pNEhuTXRXeFZjUlhwRldMS1pEVTFUeDFtNFc0ejd5TjJjRkMxdXZSMUhycVlSbmpVU19jV0xQb1BkZHMtMVpQOXVkZ1BxUQ?oc=5
-· INTC Intel Hits Its IT Organization With Another Round of Layoffs (Yahoo Finance) https://news.google.com/rss/articles/CBMinwFBVV95cUxQUzJiTnVIOHhJRTJrZzRTcDRUYk5SRHVXY0dxdW1KU0YzeEdYOXhpVFVKY1FPMHdMSW9xcjRVcG5CVlhwREdyZU1jVFhNaExIRTNqaGwzR0dwMkZhQ1ZweGZVVVBkZlUtM1N5a2YzWkxicXJxNWNDLWtwVnBSOFRUclNFVkNEdjVQdWpvcVlJRWNTaUt3ektvbU1XTTFzY1k?oc=5
-· USDBRL Mercado de câmbio trava após fala de Lula sobre escolha de ministros e BC intervém com leilão de dólar (g1) https://news.google.com/rss/articles/CBMi_wFBVV95cUxQS3F4c3dNZmhwZ2FaZ2ZWdkxCOWo2WmZsWGFqWTdKTVJWNENFZ19KQjRfUmFTZWFTUDMyekEwSk1SQXpYR1Y4cktzN2lxTWdhT2FkRk9xZ0xxZlB0d2N0QVNaUDlKZ1ljNGdYeW1tSnpUejEzanNoU3F5T3lHclZQWjVscUc5OEFsLUFlN1dLMU0wWnVIel9NMDVwMFg3RVdSMUg0Z2F0NkxROFVXRU9UQ0NZM25adWV4TTBOR2w4bDNPLXpjbUFZY0JHX05qZTB1WThVd0JXM3JrYVhZUUsxUndqVGpfVk5iaGR0V25VS243b0xZZlRteGd5ZnV5Mk3SAY4CQVVfeXFMT0JOSFpnTHZ6UUxENkszVUs4R2F1c185aVFENm1Eb3lIQmEtUGMwNjJPMGZqc2JHQlFmbTl0WW02X1BQV1JNUHVRSG5yMGNKc3IyYnVzVHduc2pDb2tkRzVIbV90X3E2N2F1LXpvaHpYWUpEUHpENDJpc1hwdjJSdE03aVExTlRuV2l1SXIxVzAxeHp0Z05IT05vdVQ3TG1XM2hSb3RxVGlWLUxQdUJmbWdqaEEtaHg0dVlXdEVOOWNRUFNNTEk4X1VQR3BvcnBuZHg4d2NkR05wcl9meFNlMUFudk1TcmlpcF9ueU9vQkJjeEl2SFd4aEw1M0xZeTU4NF9OVlhZS19VTUlvdnVn?oc=5
-· BTC Bitcoin Enters Death Cross as Anthropic IPO Fails to Lift Wall Street (Yahoo Finance) https://news.google.com/rss/articles/CBMiowFBVV95cUxNRDNLR2g5M3dqRmtrcEpvREdaMVdOUmZkSG96dDV2aUR4YUxfTExXMXpHTzA0ajFSekJ2T2ItQ0dRd1hlWmt3QW5jdWd2UndMTGd5SHBoQ2RqSWU3LWxTaEFySF9JS0tEZ2hUMzZGM0NZQ0FhY1ZTRWdFUHMxaFZKR01VQUxTal9sLUFnNnFyYzJjeTZGQ1JaZEFDY2FRZHUxNllr?oc=5
-· (+20 manchetes; lista completa em eventos/noticias.json)
+· (+35 manchetes; lista completa em eventos/noticias.json)
