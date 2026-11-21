@@ -1,6 +1,6 @@
 {
  "pregao": "2026-11-19",
- "coletado_em": "2026-11-20T19:15:04Z",
+ "coletado_em": "2026-11-21T07:40:29Z",
  "tabelas": {
   "SharesInvesVolum": {
    "titulo": "Participação dos investidores",
@@ -21,7 +21,7 @@
   "EconomicIndicators": {
    "titulo": "Indicadores econômicos",
    "situacao": "republicado",
-   "atualizado_em": "2026-11-20T10:53:19.493",
+   "atualizado_em": "2026-11-21T04:32:48.143",
    "sla": "8:00:00",
    "linhas": 457,
    "truncada": false
@@ -300,10 +300,10 @@
   },
   "Stock": {
    "titulo": "Estoque",
-   "situacao": "aguardando",
-   "atualizado_em": "2026-11-19T00:00:38.013",
+   "situacao": "publicado",
+   "atualizado_em": "2026-11-21T00:02:40.127",
    "sla": "8:00:00",
-   "linhas": 0,
+   "linhas": 43,
    "truncada": false
   },
   "Register": {

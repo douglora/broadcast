@@ -1,7 +1,7 @@
 # Boletim da B3: pregão de 19/11/2026 (quinta)
 
 **Situação: PARCIAL.** Ainda sem: cadastro de instrumentos, quadro de posições em aberto. A B3 publica esses blocos na madrugada seguinte ao pregão; a rodada da manhã completa.
-Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-11-20T19:15:19Z (UTC).
+Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-11-21T07:40:48Z (UTC).
 
 [[LEITURA_DA_MESA]]
 
@@ -227,7 +227,6 @@ Por classe, mediana das taxas de referência dos papéis. Taxa de referência: n
 - ForwardMarket: atrasado
 - cadastro de instrumentos: aguardando
 - RepurchaseDealings: aguardando
-- Stock: aguardando
 - StocksOperationSummary: atrasado
 - Posição em aberto de derivativos por tipo de investidor (estrangeiro, institucional, pessoa física): não existe no Boletim Diário do Mercado; procurado nas 69 tabelas e no texto dos 11 cadernos em 30/09/2026.
 - Fluxo por tipo de investidor sai acumulado no mês e com dois pregões de atraso; o saldo de um dia é a diferença entre dois acumulados seguidos.
