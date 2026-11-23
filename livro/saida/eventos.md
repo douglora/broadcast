@@ -1,133 +1,175 @@
 ALERTAS · eventos
 
-(pendente de slot anterior) [ATENÇÃO] E05 · NVDA · Moody's lowers Nvidia outlook to stable from positive
-CNBC · 18/11 19h19 · + Bloomberg · licença: resumo
-Link: https://www.cnbc.com/video/2026/11/18/moodys-lowers-nvidia-outlook-to-stable-from-positive.html
-Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
-Ativos: NVDA
-Como falar: 'saiu no CNBC: Moody's lowers Nvidia outlook to stable from positive; confirmar o número no texto antes de repassar'
-Fonte: CNBC 18/11 19h19
-ids: E05-NVDA-3782606763-2026-11-18
-
-(pendente de slot anterior) [ATENÇÃO] T13 · VIX cruzou 25: 27,9 (+14% no dia)
-VIX 27,9 (+14%)
-Por que importa: VIX acima de 20 é o mercado pagando por proteção; acima de 30 as correlações vão a 1 e o que manda é o tamanho da posição
-Como falar: 'dia de aversão a risco: não é hora de decidir pelo preço de tela'
-Fonte: Cboe via Yahoo, fech. 19/11
-ids: T13-VIX-vix25-2026-11-19
-
-(pendente de slot anterior) [ATENÇÃO] E05 · AXIA3 · Axia prepara emissão de R$ 1 bilhão em debêntures para UHE Santo Antônio
-UOL Economia · 19/11 14h36 · fonte única · licença: manchete
-Link: https://megawhat.uol.com.br/geracao/axia-prepara-emissao-de-r-1-bilhao-em-debentures-para-uhe-santo-antonio/
-Por que importa: oferta de acoes ou divida altera a base acionaria ou a alavancagem
-Ativos: AXIA3
-Como falar: 'saiu no UOL Economia: Axia prepara emissão de R$ 1 bilhão em debêntures para UHE Santo Antônio; confirmar o número no texto antes de repassar'
-Fonte: UOL Economia 19/11 14h36
-ids: E05-AXIA3-8a797ef5ea-2026-11-19
-
-(pendente de slot anterior) [ATENÇÃO] E05 · GOOGL · Alphabet (GOOG) Slips as 2026 Capex Outlook Rises
-Yahoo Finance · 19/11 13h07 · fonte única · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – RiverPark Advisors, an investment advisory firm and sponsor of the RiverPark family of mutual funds, released its "RiverPark Large Growth Fund" Q3 2026 investor letter.
-  – equity markets rose modestly in the third quarter, with the S&P 500 gaining 2.30% and the Russell 1000 Growth Index increasing 0.92%.
-  – The Fund also advanced, returning 4.10% in the quarter amid persistent macroeconomic challenges.
-  – Also, check the fund's top five holdings to see its best picks in 2026.
-  – In its Q3 2026 investor letter, RiverPark Large Growth Fund noted that Alphabet Inc. (NASDAQ:GOOG) detracted from performance.
-  – On November 18, 2026, Alphabet Inc. (NASDAQ:GOOG) closed at $279.20 per share with a market capitalization of $3.43 trillion.
-Link: https://finance.yahoo.com/markets/stocks/articles/alphabet-goog-slips-2026-capex-160741067.html
-Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
-Ativos: GOOGL
-Como falar: 'saiu no Yahoo Finance: Alphabet (GOOG) Slips as 2026 Capex Outlook Rises; confirmar o número no texto antes de repassar'
-Fonte: Yahoo Finance 19/11 13h07
-ids: E05-GOOGL-2ecf140715-2026-11-19
-
-(pendente de slot anterior) [ATENÇÃO] E05 · NVDA · Intel Climbs 7% on First 18A Customer, NVIDIA Gains 4% as Trump Floats Blackwell Sales to China and Dan Ives Hails Anthropic IPO; AMD Rises 3%
-Yahoo Finance · 19/11 11h56 · fonte única · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – - Intel still faces a $1.85 billion quarterly foundry loss and a lingering PC slump, so its next 18A customer is the one to watch.
-  – Intel stock is at $58.41, up 7% in morning trading.
-  – The rally cuts a steep slide, as the shares are down 37% over the past month despite a gain for the year.
-  – Since its October 29 report, Intel has struggled, as its Q4 2026 revenue outlook of $15 billion to $16 billion missed expectations and management warned the PC decline would last through at least the first half of 2027.
-  – Intel Lands Its First 18A Foundry Customer CEO Lip-Bu Tan disclosed on November 18 at the TomorrowX Summit in Austin that Intel signed its first outside customer for its 18A chip process, though he didn't name the compa…
-  – Read More Here › ------ Microsoft (NASDAQ:MSFT) announced an expanded Azure partnership with Intel on November 18 that includes a multi-year Xeon processor supply agreement.
-Link: https://finance.yahoo.com/technology/articles/intel-climbs-7-first-18a-145631177.html
-Por que importa: oferta de acoes ou divida altera a base acionaria ou a alavancagem
-Ativos: NVDA · AMD · INTC
-Como falar: 'saiu no Yahoo Finance: Intel Climbs 7% on First 18A Customer, NVIDIA Gains 4% as Trump Floats Blackwell Sales to…; confirmar o número no texto antes de repassar'
-Fonte: Yahoo Finance 19/11 11h56
-ids: E05-NVDA-b50e91e1eb-2026-11-19
-
-(pendente de slot anterior) [ATENÇÃO] S01 · coleta do slot intradia saiu incompleta: bcb: BCB devolveu 4 de 5 séries (faltaram ipca_mes)
-O que fiz: entreguei as seções disponíveis; as pernas que falharam estão em LACUNAS.
-Por que importa: silêncio é lido como 'está tudo bem'; declarar a falha é o que permite confiar no restante
-Fonte: manifest do runner
-ids: S01-SISTEMA-intradia-2026-11-19
-
-[ATENÇÃO] E05 · BABA · EQUITY ALERT: Rosen Law Firm Files Securities Class Action Lawsuit on Behalf of Alibaba Group Holding Limited Investors – BABA
-Business Wire · 19/11 15h50 · fonte única · licença: integral
-Link: https://www.businesswire.com/news/home/20261119870639/en/EQUITY-ALERT-Rosen-Law-Firm-Files-Securities-Class-Action-Lawsuit-on-Behalf-of-Alibaba-Group-Holding-Limited-Investors-BABA
-Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e prazo
+(pendente de slot anterior) [ATENÇÃO] E05 · BABA · Citi cuts Alibaba stock price target on cloud revenue outlook
+Investing.com · 20/11 07h45 · fonte única · licença: manchete
+Link: https://www.investing.com/news/analyst-ratings/citi-cuts-alibaba-stock-price-target-on-cloud-revenue-outlook-93CH-5041164
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
 Ativos: BABA
-Como falar: 'saiu no Business Wire: EQUITY ALERT: Rosen Law Firm Files Securities Class Action Lawsuit on Behalf of Alibaba G…; confirmar o número no texto antes de repassar'
-Fonte: Business Wire 19/11 15h50
-Push: eventos: 3 alertas de atenção — E05 BABA, E05 NVDA, E05 BTC · detalhe na sessão
-ids: E05-BABA-e171147901-2026-11-19
+Como falar: 'saiu no Investing.com: Citi cuts Alibaba stock price target on cloud revenue outlook; confirmar o número no texto antes de repassar'
+Fonte: Investing.com 20/11 07h45
+ids: E05-BABA-114266897c-2026-11-20
 
-[ATENÇÃO] E05 · NVDA · Nvidia Stocks Rise 4.63% as $10 Billion Anthropic Stake Lands on IPO Day
-TradingView (Reuters) · 19/11 14h36 · fonte única · licença: manchete
-Link: https://www.tradingview.com/news/gurufocus:de797ecf3094b:0-nvidia-stocks-rise-4-63-as-10-billion-anthropic-stake-lands-on-ipo-day/
-Por que importa: oferta de acoes ou divida altera a base acionaria ou a alavancagem
-Ativos: NVDA
-Como falar: 'saiu no TradingView (Reuters): Nvidia Stocks Rise 4.63% as $10 Billion Anthropic Stake Lands on IPO Day; confirmar o número no texto antes de repassar'
-Fonte: TradingView (Reuters) 19/11 14h36
-ids: E05-NVDA-5cced55572-2026-11-19
-
-[ATENÇÃO] E05 · BTC · Sweden’s H100 Considers Using Bitcoin Trading Pool to Fund Share Buyback
-Yahoo Finance · 19/11 12h45 · fonte única · licença: resumo
+(pendente de slot anterior) [ATENÇÃO] E05 · KO · Coca-Cola or Shell: Only One Gets My Dividend Dollars for the Next 20 Years
+Yahoo Finance · 20/11 05h59 · fonte única · licença: resumo
 Trechos (licença resumo: reescrever, não colar):
-  – Swedish Bitcoin (CRYPTO: $BTC) treasury company H100 Group (NASDAQ Stockholm: H100) is considering using Bitcoin from its active trading pool to support share buybacks.
-  – The company announced Thursday that its board will ask shareholders to authorize the buybacks at an extraordinary general meeting on December 7.
-  – The proposal comes as new Swedish rules allowing companies listed on the NGM Growth Market to repurchase their own shares take effect on December 5.
-  – BTC from the active pool may be allocated for this purpose," H100 CEO Eirik Grøttum said in the company's third-quarter report.
-  – H100 held 233.42 Bitcoin in its active pool as of September 30, down from a loss of approximately 30 BTC during the third quarter.
-  – The company separately held 3,243.38 BTC in its long-term treasury, bringing its total holdings to 3,476.8 BTC.
-Link: https://finance.yahoo.com/markets/crypto/articles/sweden-h100-considers-using-bitcoin-154500668.html
+  – Key Takeaways - Coca-Cola (KO:NYSE) yields 2.2%, and Shell yields 3.3%.
+  – Further, Coca-Cola raised its 2026 guidance after a 7% rise in organic revenue in Q3.
+  – - Shell's (SHEL) dividend took 23% of its free cash flow over its latest 12 months, against 79% at Coca-Cola.
+  – - Coca-Cola's dividend per share rose from $1.32 in fiscal 2015 to $2.04 in fiscal 2025, while Shell's fell from $1.90 to $1.42 after a cut in 2020.
+  – - Coca-Cola trades at 28x forward earnings, its highest in five years, against 8.0x for Shell.
+  – If you're buying a dividend stock to hold for 20 years, the check has to keep coming and keep growing through whatever the next two decades bring.
+Link: https://finance.yahoo.com/markets/stocks/articles/coca-cola-shell-only-one-085919392.html
 Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
-Ativos: BTC
-Como falar: 'saiu no Yahoo Finance: Sweden’s H100 Considers Using Bitcoin Trading Pool to Fund Share Buyback; confirmar o número no texto antes de repassar'
-Fonte: Yahoo Finance 19/11 12h45
-ids: E05-BTC-28af0b835e-2026-11-19
+Ativos: KO
+Como falar: 'saiu no Yahoo Finance: Coca-Cola or Shell: Only One Gets My Dividend Dollars for the Next 20 Years; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 20/11 05h59
+ids: E05-KO-090286db10-2026-11-20
+
+[ATENÇÃO] E03 · PETR4 · Fato Relevante: Seu Conselho de Administração aprovou, em reunião realizada hoje, o Plano de Negócios 2027-2031 (PN No PN 2027-31, a Petrobras mantém as estratégias…
+CVM · entregue 23/11/2026 19:39
+Do documento:
+  – A Petrobras reafirma sua ambição de permanecer relevante na oferta de energia ao Brasil até 2050,  expandindo simultaneamente a oferta de combustíveis fósseis e renováveis.
+  – No período entre 2027 e 2031, a Petrobras prevê investimentos totais (Capex) de US$ 122 bilhões, sendo  US$ 113 bilhões em projetos da Carteira em Implantação e US$ 9 bilhões na Carteira em Avaliação,  composta por opor…
+  – Para o  acompanhamento do plano, consideram-se as projeções conforme gráficos a seguir, com uma margem  de variação de +/- 5%.
+  – PÚBLICA  Distribuição anual dos investimentos (Capex) da Carteira Total  (US$ bilhão)        Exploração e Produção (E&P)    O segmento de E&P permanece como prioridade e concentra mais de 70% dos investimentos da  compa…
+  – Estão previstos US$ 83 bilhões na Carteira em Implantação e cerca  de US$ 3 bilhões na Carteira em Avaliação de E&P.
+  – A produção de óleo e LGN prevista alcança e sustenta o nível de 2,9 milhões de barris por dia (bpd) no  horizonte do PN 2027-31, além da oferta crescente de gás natural.
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1592762
+Por que importa: fato relevante e o que a propria companhia julga capaz de mover o preco; ler o documento inteiro antes de comentar
+Ativos: PETR4
+Como falar: 'a Petrobras publicou fato relevante sobre Seu Conselho de Administração aprovou, em reunião realizada hoje, o P…'
+Fonte: CVM 23/11
+Push: eventos: 7 alertas de atenção — E03 PETR4, E03 PETR4, E03 PETR4, E03 PETR4, E05 PETR4, E05 PETR4, E05 PETR4 · detalhe na sessão
+ids: E03-PETR4-1592762-2026-11-23
+
+[ATENÇÃO] E03 · PETR4 · Fato Relevante: Celebrou acordo para adquirir participação de 42% da Neomille S.A., empresa de produção de etanol de milho do Grupo CerradinhoBio.
+CVM · entregue 23/11/2026 19:29
+Do documento:
+  – O valor total da aquisição será de R$ 2,8 bilhões, incluindo R$ 1,8 bilhão em aporte primário de recursos  na Neomille, mediante subscrição de novas ações.
+  – A parcela remanescente corresponde à aquisição  secundária de ações detidas pelos atuais acionistas e inclui pagamento contingente de até R$ 397  milhões a título de earn-out.
+  – A presença no  segmento de etanol de milho aproxima a Petrobras de grandes clientes.
+  – A aquisição da infraestrutura de dutos da Logum, em 12 de novembro, seguida pela participação na  Neomille, anunciada hoje, representa um movimento estratégico para a Petrobras.
+  – Sobre a Neomille    A Neomille é a terceira maior produtora de etanol de milho do país e possui duas plantas operacionais  localizadas em Chapadão do Céu (GO) e Maracaju (MS).
+  – As unidades têm capacidade atual de produção  de aproximadamente 800 milhões de litros de etanol por ano, com expansões planejadas que elevarão  essa capacidade para cerca de 1,5 bilhão de litros por ano até 2028.
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1592757
+Por que importa: fato relevante e o que a propria companhia julga capaz de mover o preco; ler o documento inteiro antes de comentar
+Ativos: PETR4
+Como falar: 'a Petrobras publicou fato relevante sobre Celebrou acordo para adquirir participação de 42% da Neomille S.A., e…'
+Fonte: CVM 23/11
+ids: E03-PETR4-1592757-2026-11-23
+
+[ATENÇÃO] E03 · PETR4 · Fato Relevante: Seu Conselho de Administração aprovou, em reunião realizada hoje, o Plano de Negócios 2027-2031 (PN No PN 2027-31, a Petrobras mantém as estratégias…
+CVM · entregue 23/11/2026 19:19
+Do documento:
+  – A Petrobras reafirma sua ambição de permanecer relevante na oferta de energia ao Brasil até 2050,  expandindo simultaneamente a oferta de combustíveis fósseis e renováveis.
+  – No período entre 2027 e 2031, a Petrobras prevê investimentos totais (Capex) de US$ 122 bilhões, sendo  US$ 113 bilhões em projetos da Carteira em Implantação e US$ 9 bilhões na Carteira em Avaliação,  composta por opor…
+  – Para o  acompanhamento do plano, consideram-se as projeções conforme gráficos a seguir, com uma margem  de variação de +/- 5%.
+  – PÚBLICA  Distribuição anual dos investimentos (Capex) da Carteira Total  (US$ bilhão)        Exploração e Produção (E&P)    O segmento de E&P permanece como prioridade e concentra mais de 70% dos investimentos da  compa…
+  – Estão previstos US$ 83 bilhões na Carteira em Implantação e cerca  de US$ 3 bilhões na Carteira em Avaliação de E&P.
+  – A produção de óleo e LGN prevista alcança e sustenta o nível de 2,9 milhões de barris por dia (bpd) no  horizonte do PN 2027-31, além da oferta crescente de gás natural.
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1592735
+Por que importa: fato relevante e o que a propria companhia julga capaz de mover o preco; ler o documento inteiro antes de comentar
+Ativos: PETR4
+Como falar: 'a Petrobras publicou fato relevante sobre Seu Conselho de Administração aprovou, em reunião realizada hoje, o P…'
+Fonte: CVM 23/11
+ids: E03-PETR4-1592735-2026-11-23
+
+[ATENÇÃO] E03 · PETR4 · Fato Relevante: Seu Conselho de Administração (CA), em reunião realizada hoje, aprovou o pagamento de remuneração extraordinária aos acionistas no valor de R$ 15,6 0…
+CVM · entregue 23/11/2026 19:16
+Do documento:
+  – Data base: para os detentores de ações de emissão da Petrobras negociadas na B3, a data base será em  07 de dezembro de 2026.
+  – As ações da Petrobras serão negociadas ex-direitos a partir de 08 de dezembro  de 2026.
+  – Forma de pagamento: O provento será pago em parcela única no dia 23 de dezembro de 2026, no valor  de R$ 1,21035949 por ação ordinária e preferencial em circulação , integralmente sob a forma de  dividendos.
+  – O valor a ser pago será descontado da remuneração aos acionistas a ser aprovada na Assembleia Geral  Ordinária de 2027 relativa ao exercício de 2026.
+  – PÚBLICA  Detentores de ADRs negociados na New York Stock Exchange (NYSE): record date e ex-date será em 09  de dezembro de 2026 e o pagamento será feito a partir de 31 de dezembro de 2026.
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1592677
+Por que importa: fato relevante e o que a propria companhia julga capaz de mover o preco; ler o documento inteiro antes de comentar
+Ativos: PETR4
+Como falar: 'a Petrobras publicou fato relevante sobre Seu Conselho de Administração (CA), em reunião realizada hoje, aprovo…'
+Fonte: CVM 23/11
+ids: E03-PETR4-1592677-2026-11-23
+
+[ATENÇÃO] E05 · PETR4 · Petrobras anuncia US$ 122 bilhões em investimentos para 2027-2031
+CNN Brasil · 23/11 19h29 · + O Globo · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – A Petrobras aprovou nesta segunda-feira (23) um plano de negócios com investimentos de US$ 122 bilhões entre 2027 e 2031.
+  – O valor representa um aumento de US$ 13 bilhões, ou 11,9%, em relação aos US$ 109 bilhões previstos no plano anterior, que abrangia o período de 2026 a 2030.
+  – Do total, US$ 113 bilhões estão na carteira em implantação e US$ 9 bilhões correspondem a oportunidades ainda em avaliação, com menor grau de maturidade.
+  – A programação concentra os investimentos no início do período: são US$ 29,5 bilhões em 2027 e US$ 28,3 bilhões em 2028, recuando até US$ 17,8 bilhões em 2031.
+  – As projeções têm margem de variação de 5% para cima ou para baixo.
+  – A companhia projeta uma produção de petróleo e líquidos de gás natural de 2,9 milhões de barris por dia ao longo do período.
+Link: https://www.cnnbrasil.com.br/infra/petrobras-anuncia-us-122-bilhoes-em-investimentos-para-2027-2031/
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: PETR4
+Como falar: 'saiu no CNN Brasil: Petrobras anuncia US$ 122 bilhões em investimentos para 2027-2031; confirmar o número no texto antes de repassar'
+Fonte: CNN Brasil 23/11 19h29
+ids: E05-PETR4-5b0a9fd3e3-2026-11-23
+
+[ATENÇÃO] E05 · PETR4 · Petrobras vai pagar R$ 15,6 bilhões em dividendos extraordinários
+O Globo · 23/11 19h18 · fonte única · licença: manchete
+Link: https://oglobo.globo.com/economia/noticia/2026/11/23/petrobras-vai-pagar-r-156-bilhoes-em-dividendos-extraordinarios.ghtml
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: PETR4
+Como falar: 'saiu no O Globo: Petrobras vai pagar R$ 15,6 bilhões em dividendos extraordinários; confirmar o número no texto antes de repassar'
+Fonte: O Globo 23/11 19h18
+ids: E05-PETR4-d392df89b1-2026-11-23
+
+[ATENÇÃO] E05 · PETR4 · Petrobras compra 42% da produtora de etanol de milho Neomille por R$ 2,8 bi
+CNN Brasil · 23/11 19h01 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – A Petrobras fechou um acordo para adquirir 42% do capital social da Neomille, produtora de etanol de milho controlada pela CerradinhoBio, em uma operação avaliada em R$ 2,8 bilhões.
+  – O acordo foi anunciado nesta segunda-feira (23), por meio de fato relevante.
+  – Com a operação, a CerradinhoBio permanecerá como acionista controladora da Neomille, com participação de 58%, enquanto a Petrobras ficará com os 42% restantes.
+  – Do valor total da transação, R$ 1,8 bilhão corresponde a um aporte primário de recursos na Neomille, por meio da subscrição de novas ações.
+  – O montante restante envolve a aquisição de ações dos atuais acionistas, incluindo um pagamento contingente de até R$ 397 milhões, condicionado a metas e condições previstas no acordo (earn-out).
+  – Em Chapadão do Céu (GO), a capacidade de processamento de milho deverá passar de 1,1 milhão para 1,7 milhão de toneladas por ano.
+Link: https://www.cnnbrasil.com.br/agro/petrobras-compra-42-da-produtora-de-etanol-de-milho-neomille-por-r-28-bi/
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: PETR4
+Como falar: 'saiu no CNN Brasil: Petrobras compra 42% da produtora de etanol de milho Neomille por R$ 2,8 bi; confirmar o número no texto antes de repassar'
+Fonte: CNN Brasil 23/11 19h01
+ids: E05-PETR4-9b0da55200-2026-11-23
 
 Info (só linha no Fechamento):
+· E03 VALE3 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
+· E03 ITSA4 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
 · E04 BABA · 6-K: 6-K
-· E05 USDBRL · Dólar vai a R$ 5,93 e renova máxima do ano apesar de leilão do BC
-· E05 BTC · Can Bitcoin Reach Standard Chartered’s $500,000 Target by 2030?
-· E05 UGPA3 · ‘Mais importante que a cifra do ajuste é a confiança de que ele será executado’, diz CEO da Ultrapar
-· E05 MINERIO · Australian PM to meet Xi Jinping as iron ore tensions loom
-· E05 BBDC4 · CEO do Bradesco prega ‘pé no chão e prudência’ em 2027 adverso | Finanças
-· E05 USDBRL · Por que o dólar passou de R$ 5,90 hoje?
-· E05 USDBRL · Dólar sobe 1,15%, na 6ª alta seguida, e se aproxima de R$ 6 mesmo com intervenção do BC
-· E05 ITUB4 · NOVO11: ETF reúne Nubank, Itaú, Petrobras e Mercado Livre em uma só cota
-· E05 USDBRL · Dólar à vista fecha em alta de 1,10%, a R$5,9323 na venda Por Reuters
-· E05 AMD · Looks Like AMD Also Has A China Problem
-· E05 USDBRL · Dólar vai a R$ 5,93 e juros vão às máximas do ano; Bolsa cai
-· E05 TSLA · Tesla Expands Cybercab To Dallas In First Move Outside Austin
-· E05 INTC · Intel Hits Its IT Organization With Another Round of Layoffs
-· E05 USDBRL · Mercado de câmbio trava após fala de Lula sobre escolha de ministros e BC intervém com leilão de dólar
-· E05 BTC · Bitcoin Enters Death Cross as Anthropic IPO Fails to Lift Wall Street
-· E05 NVDA · Moody’s Lowers Nvidia’s Ratings Outlook to Stable From Positive
+· E05 PETR4 · Petrobras aprova R$15,60 bi em remuneração extra a acionistas
+· E05 BBAS3 · Banco do Brasil enfrenta novo alerta: corretora recomenda venda e prevê lucro ainda menor em 2027
+· E05 USDBRL · Após ir a R$ 6, dólar fecha em leve baixa, aos R$ 5,92, mesmo diante de incertezas sobre política fiscal e cenário externo
+· E05 NVDA · Plot Twist: Cathie Wood Sold Nvidia Over “Losing Jensen.” Nvidia Just Rehired Him, but Her Other Worry Remains
+· E05 USDBRL · Após tocar R$ 6,00, dólar recua 0,15%, a R$ 5,9262, com nomes para BC no radar
+· E05 JPM · Divided Wall Street: Wells Fargo Upgrades US Large Caps To ‘Most Favorable,’ But JPMorgan Is Taking A Measured Approach
+· E05 AMD · AMD’s Blockbuster Q3 Report Is Getting Lost in the Pullback
+· E05 NVDA · Nvidia Rehires Huang in Stunning Comeback Following Trump Push
+· E05 NVDA · Data, Stats and Facts from NVIDIA Earnings for NASDAQ:NVDA by ClearStreet
+· E05 JPM · Fidelity steps in where JPMorgan retreated
+· E05 USDBRL · Dólar fecha a R$ 5,93 após superar R$ 6 pela 1ª vez desde abril de 2025
+· E05 USDBRL · Dólar sobe com as apostas em uma postura mais restritiva do Fed e a alta no setor de IA
+· E05 TSLA · “No Synergies” in a SpaceX-Tesla Merger? Really? Starlink Just Showed Up in a Cybercab Roof
+· E05 VALE3 · Temporal destrói unidades da C.Vale no RS e compromete estoque de grãos
+· E05 USDBRL · Dólar fecha em leve queda após ultrapassar os R$ 6 com tensão fiscal
+· E04 KO · 8-K: 5.02 entrada ou saida de diretor ou conselheiro
+· E04 NVDA · 8-K: 5.02 entrada ou saida de diretor ou conselheiro
+· E05 EQTL3 · Equatorial recebe nova multa por favorecer comercializadora do grupo
+· E05 DI · Fazenda eleva projeção de inflação para 2027 e vê Selic mais alta por mais tempo
+· E05 DI · Copom mantém previsão da taxa básica de juros para 13% em 2017
+· E05 BRENT · Brent Drops Below $90 as Wall Street Splits on 2027 Oil Outlook
+· E05 USDBRL · Mercado eleva projeção do dólar para R$ 5,55 em 2026
+· E05 PETR4 · Petrobras (PETR4) e Bradespar (BRAP4): veja quais empresas pagam dividendos hoje
+· E05 AMZN · Weekly Recap: AWS sales, UBS cuts estimates and Q4 outlook, 2026 capex
+· E05 BAC · Weekly Recap: Berkshire cuts stake and Bank of America outage
+· E05 BTC · Bitcoin Price Hit $55,130 Two Days After Anthropic’s IPO: Is The Bottom In?
 
-Suprimidos pelo teto (viram linha do Fechamento): E05-NVDA-1bec3d5dfb-2026-11-18 (teto de noticias)
+Suprimidos pelo teto (viram linha do Fechamento): E04-KO-26000567-2026-11-23 (teto de eventos), E04-NVDA-26000090-2026-11-23 (teto de eventos), E05-EQTL3-dfc5697195-2026-11-23 (teto de noticias), E05-DI-48648c7863-2026-11-23 (teto de noticias), E05-DI-a355bf3dd1-2026-11-23 (teto de noticias), E05-BRENT-05462f7bda-2026-11-23 (teto de noticias), E05-USDBRL-1a13127009-2026-11-23 (teto de noticias), E05-PETR4-3097495da1-2026-11-23 (teto de noticias), E05-AMZN-759ec0b640-2026-11-23 (teto de noticias), E05-BAC-415a3104ae-2026-11-23 (teto de noticias), E05-BTC-5e2b0f3c74-2026-11-23 (teto de noticias)
 
 Alertas do dia (todos, com status):
-· pendente  E05 BABA — BABA · EQUITY ALERT: Rosen Law Firm Files Securities Class Action Lawsuit on Beh
-· pendente  E05 NVDA — NVDA · Nvidia Stocks Rise 4.63% as $10 Billion Anthropic Stake Lands on IPO Day
-· pendente  E05 BTC — BTC · Sweden’s H100 Considers Using Bitcoin Trading Pool to Fund Share Buyback
-· pendente  T13 VIX — VIX cruzou 25: 27,9 (+14% no dia)
-· pendente  E05 AXIA3 — AXIA3 · Axia prepara emissão de R$ 1 bilhão em debêntures para UHE Santo Antônio
-· pendente  E05 GOOGL — GOOGL · Alphabet (GOOG) Slips as 2026 Capex Outlook Rises
-· pendente  E05 NVDA — NVDA · Intel Climbs 7% on First 18A Customer, NVIDIA Gains 4% as Trump Floats Bl
-· pendente  S01 SISTEMA — coleta do slot intradia saiu incompleta: bcb: BCB devolveu 4 de 5 séries (faltar
-· linha     F01 USDBRL — Real cai: USD/BRL 5,9178 (+4,7% em 5 sessões) (parcial, intradia)
-· (+41 notícias só manchete, em noticias.md)
+· pendente  E03 PETR4 — PETR4 · Fato Relevante: Seu Conselho de Administração aprovou, em reunião realiz
+· pendente  E03 PETR4 — PETR4 · Fato Relevante: Celebrou acordo para adquirir participação de 42% da Neo
+· pendente  E03 PETR4 — PETR4 · Fato Relevante: Seu Conselho de Administração aprovou, em reunião realiz
+· pendente  E03 PETR4 — PETR4 · Fato Relevante: Seu Conselho de Administração (CA), em reunião realizada
+· pendente  E05 PETR4 — PETR4 · Petrobras anuncia US$ 122 bilhões em investimentos para 2027-2031
+· pendente  E05 PETR4 — PETR4 · Petrobras vai pagar R$ 15,6 bilhões em dividendos extraordinários
+· pendente  E05 PETR4 — PETR4 · Petrobras compra 42% da produtora de etanol de milho Neomille por R$ 2,8
+· (+29 notícias só manchete, em noticias.md)
 

@@ -1,282 +1,307 @@
-NOTÍCIAS E FATOS · 20/11 23h06
+NOTÍCIAS E FATOS · 23/11 19h39
 
-Pernas: noticias ok 16 novas (18 consultas; descartadas: 389 veículo fora da lista, 14 sem ativo, 11 teto) · cvm ok 0 novos de 7 (4 cias casadas) · sec ok 1 novos em 3 dias
+Pernas: noticias ok 27 novas (18 consultas; descartadas: 410 veículo fora da lista, 27 sem ativo, 87 teto) · cvm ok 6 novos de 6 (3 cias casadas) · sec ok 3 novos em 3 dias
 
-## SEC (8-K, 6-K, 10-Q, 10-K) (2)
+## FATOS RELEVANTES E COMUNICADOS (CVM) (6)
 
-[INFO] E04 · BAC · 8-K: 5.03 mudanca de estatuto ou exercicio
-SEC EDGAR · aceito 20/11 18h45 · 8-K
-Link: https://www.sec.gov/Archives/edgar/data/70858/000007085826000608/bac-20261119.htm
-Por que importa: documento da companhia na SEC
-Ativos: BAC
-Como falar: 'a BAC protocolou 8-K na SEC (5.03 mudanca de estatuto ou exercicio)'
-Fonte: SEC EDGAR 2026-11-20
-id: E04-BAC-26000608-2026-11-20 · status: linha · íntegra disponível
+[ATENÇÃO] E03 · PETR4 · Fato Relevante: Seu Conselho de Administração aprovou, em reunião realizada hoje, o Plano de Negócios 2027-2031 (PN No PN 2027-31, a Petrobras mantém as estratégias…
+CVM · entregue 23/11/2026 19:39
+Do documento:
+  – A Petrobras reafirma sua ambição de permanecer relevante na oferta de energia ao Brasil até 2050,  expandindo simultaneamente a oferta de combustíveis fósseis e renováveis.
+  – No período entre 2027 e 2031, a Petrobras prevê investimentos totais (Capex) de US$ 122 bilhões, sendo  US$ 113 bilhões em projetos da Carteira em Implantação e US$ 9 bilhões na Carteira em Avaliação,  composta por opor…
+  – Para o  acompanhamento do plano, consideram-se as projeções conforme gráficos a seguir, com uma margem  de variação de +/- 5%.
+  – PÚBLICA  Distribuição anual dos investimentos (Capex) da Carteira Total  (US$ bilhão)        Exploração e Produção (E&P)    O segmento de E&P permanece como prioridade e concentra mais de 70% dos investimentos da  compa…
+  – Estão previstos US$ 83 bilhões na Carteira em Implantação e cerca  de US$ 3 bilhões na Carteira em Avaliação de E&P.
+  – A produção de óleo e LGN prevista alcança e sustenta o nível de 2,9 milhões de barris por dia (bpd) no  horizonte do PN 2027-31, além da oferta crescente de gás natural.
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1592762
+Por que importa: fato relevante e o que a propria companhia julga capaz de mover o preco; ler o documento inteiro antes de comentar
+Ativos: PETR4
+Como falar: 'a Petrobras publicou fato relevante sobre Seu Conselho de Administração aprovou, em reunião realizada hoje, o P…'
+Fonte: CVM 23/11
+id: E03-PETR4-1592762-2026-11-23 · status: pendente · íntegra disponível
+
+[ATENÇÃO] E03 · PETR4 · Fato Relevante: Celebrou acordo para adquirir participação de 42% da Neomille S.A., empresa de produção de etanol de milho do Grupo CerradinhoBio.
+CVM · entregue 23/11/2026 19:29
+Do documento:
+  – O valor total da aquisição será de R$ 2,8 bilhões, incluindo R$ 1,8 bilhão em aporte primário de recursos  na Neomille, mediante subscrição de novas ações.
+  – A parcela remanescente corresponde à aquisição  secundária de ações detidas pelos atuais acionistas e inclui pagamento contingente de até R$ 397  milhões a título de earn-out.
+  – A presença no  segmento de etanol de milho aproxima a Petrobras de grandes clientes.
+  – A aquisição da infraestrutura de dutos da Logum, em 12 de novembro, seguida pela participação na  Neomille, anunciada hoje, representa um movimento estratégico para a Petrobras.
+  – Sobre a Neomille    A Neomille é a terceira maior produtora de etanol de milho do país e possui duas plantas operacionais  localizadas em Chapadão do Céu (GO) e Maracaju (MS).
+  – As unidades têm capacidade atual de produção  de aproximadamente 800 milhões de litros de etanol por ano, com expansões planejadas que elevarão  essa capacidade para cerca de 1,5 bilhão de litros por ano até 2028.
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1592757
+Por que importa: fato relevante e o que a propria companhia julga capaz de mover o preco; ler o documento inteiro antes de comentar
+Ativos: PETR4
+Como falar: 'a Petrobras publicou fato relevante sobre Celebrou acordo para adquirir participação de 42% da Neomille S.A., e…'
+Fonte: CVM 23/11
+id: E03-PETR4-1592757-2026-11-23 · status: pendente · íntegra disponível
+
+[ATENÇÃO] E03 · PETR4 · Fato Relevante: Seu Conselho de Administração aprovou, em reunião realizada hoje, o Plano de Negócios 2027-2031 (PN No PN 2027-31, a Petrobras mantém as estratégias…
+CVM · entregue 23/11/2026 19:19
+Do documento:
+  – A Petrobras reafirma sua ambição de permanecer relevante na oferta de energia ao Brasil até 2050,  expandindo simultaneamente a oferta de combustíveis fósseis e renováveis.
+  – No período entre 2027 e 2031, a Petrobras prevê investimentos totais (Capex) de US$ 122 bilhões, sendo  US$ 113 bilhões em projetos da Carteira em Implantação e US$ 9 bilhões na Carteira em Avaliação,  composta por opor…
+  – Para o  acompanhamento do plano, consideram-se as projeções conforme gráficos a seguir, com uma margem  de variação de +/- 5%.
+  – PÚBLICA  Distribuição anual dos investimentos (Capex) da Carteira Total  (US$ bilhão)        Exploração e Produção (E&P)    O segmento de E&P permanece como prioridade e concentra mais de 70% dos investimentos da  compa…
+  – Estão previstos US$ 83 bilhões na Carteira em Implantação e cerca  de US$ 3 bilhões na Carteira em Avaliação de E&P.
+  – A produção de óleo e LGN prevista alcança e sustenta o nível de 2,9 milhões de barris por dia (bpd) no  horizonte do PN 2027-31, além da oferta crescente de gás natural.
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1592735
+Por que importa: fato relevante e o que a propria companhia julga capaz de mover o preco; ler o documento inteiro antes de comentar
+Ativos: PETR4
+Como falar: 'a Petrobras publicou fato relevante sobre Seu Conselho de Administração aprovou, em reunião realizada hoje, o P…'
+Fonte: CVM 23/11
+id: E03-PETR4-1592735-2026-11-23 · status: pendente · íntegra disponível
+
+[ATENÇÃO] E03 · PETR4 · Fato Relevante: Seu Conselho de Administração (CA), em reunião realizada hoje, aprovou o pagamento de remuneração extraordinária aos acionistas no valor de R$ 15,6 0…
+CVM · entregue 23/11/2026 19:16
+Do documento:
+  – Data base: para os detentores de ações de emissão da Petrobras negociadas na B3, a data base será em  07 de dezembro de 2026.
+  – As ações da Petrobras serão negociadas ex-direitos a partir de 08 de dezembro  de 2026.
+  – Forma de pagamento: O provento será pago em parcela única no dia 23 de dezembro de 2026, no valor  de R$ 1,21035949 por ação ordinária e preferencial em circulação , integralmente sob a forma de  dividendos.
+  – O valor a ser pago será descontado da remuneração aos acionistas a ser aprovada na Assembleia Geral  Ordinária de 2027 relativa ao exercício de 2026.
+  – PÚBLICA  Detentores de ADRs negociados na New York Stock Exchange (NYSE): record date e ex-date será em 09  de dezembro de 2026 e o pagamento será feito a partir de 31 de dezembro de 2026.
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1592677
+Por que importa: fato relevante e o que a propria companhia julga capaz de mover o preco; ler o documento inteiro antes de comentar
+Ativos: PETR4
+Como falar: 'a Petrobras publicou fato relevante sobre Seu Conselho de Administração (CA), em reunião realizada hoje, aprovo…'
+Fonte: CVM 23/11
+id: E03-PETR4-1592677-2026-11-23 · status: pendente · íntegra disponível
+
+[INFO] E03 · VALE3 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
+CVM · entregue 23/11/2026 19:01 · Outros Comunicados Não Considerados Fatos Relevantes
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1592674
+Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; confirma ou nega o que circula
+Ativos: VALE3
+Como falar: 'a Vale publicou comunicado ao mercado sobre Outros Comunicados Não Considerados Fatos Relevantes'
+Fonte: CVM 23/11
+id: E03-VALE3-1592674-2026-11-23 · status: linha
+
+[INFO] E03 · ITSA4 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
+CVM · entregue 23/11/2026 09:28 · Outros Comunicados Não Considerados Fatos Relevantes
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1592312
+Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; confirma ou nega o que circula
+Ativos: ITSA4
+Como falar: 'a Itausa publicou comunicado ao mercado sobre Outros Comunicados Não Considerados Fatos Relevantes'
+Fonte: CVM 23/11
+id: E03-ITSA4-1592312-2026-11-23 · status: linha
+
+
+## SEC (8-K, 6-K, 10-Q, 10-K) (3)
+
+[ATENÇÃO] E04 · KO · 8-K: 5.02 entrada ou saida de diretor ou conselheiro
+SEC EDGAR · aceito 23/11 18h35 · 8-K
+Do documento:
+  – On November 23, 2026, The Coca-Cola Company (the “Company”) announced that David V.
+  – Elkins will succeed John Murphy as Executive Vice President and Chief Financial Officer, effective April 2, 2027.
+  – Murphy intends to retire at a later date in 2027.
+  – Elkins, age 58, has served as Executive Vice President and Chief Financial Officer of Bristol Myers Squibb Company (“BMS”) since 2019.
+  – Elkins’ letter, his base salary will be $1,180,000.
+Link: https://www.sec.gov/Archives/edgar/data/21344/000155278126000567/e26458_ko-8k.htm
+Por que importa: troca de diretor ou conselheiro reabre a discussao de estrategia
+Ativos: KO
+Como falar: 'a KO protocolou 8-K na SEC (5.02 entrada ou saida de diretor ou conselheiro)'
+Fonte: SEC EDGAR 2026-11-23
+id: E04-KO-26000567-2026-11-23 · status: linha · íntegra disponível
+
+[ATENÇÃO] E04 · NVDA · 8-K: 5.02 entrada ou saida de diretor ou conselheiro
+SEC EDGAR · aceito 23/11 10h57 · 8-K
+Do documento:
+  – On November 22, 2026, the Board of Directors of NVIDIA Corporation reinstated Jen-Hsun Huang as NVIDIA’s President, Chief Executive Officer and member of the Board of Directors, effective immediately.
+  – A copy of the press release announcing the above is attached as Exhibit 99.1 to this Current Report on Form 8-K.
+  – NVIDIA Corporation   Date: November 23, 2026 By: /s/ Colette M.
+Link: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000090/nvda-20261122.htm
+Por que importa: troca de diretor ou conselheiro reabre a discussao de estrategia
+Ativos: NVDA
+Como falar: 'a NVDA protocolou 8-K na SEC (5.02 entrada ou saida de diretor ou conselheiro)'
+Fonte: SEC EDGAR 2026-11-23
+id: E04-NVDA-26000090-2026-11-23 · status: linha · íntegra disponível
 
 [INFO] E04 · BABA · 6-K: 6-K
-SEC EDGAR · aceito 19/11 18h00 · FORM 6-K
+SEC EDGAR · aceito 23/11 08h01 · FORM 6-K
 Do documento:
-  – 6-K  1  tm2630263d1_6k.htm  FORM 6-K  UNITED STATES   SECURITIES AND EXCHANGE COMMISSION   Washington, D.C.
-  – ALIBABA GROUP HOLDING LIMITED   Date: November 19 , 2026   By:   /s/ Toby Hong XU   Name:   Toby Hong XU   Title:   Chief Financial Officer   3
-Link: https://www.sec.gov/Archives/edgar/data/1577552/000110465926130115/tm2630263d1_6k.htm
+  – 6-K  1  tm2630460d1_6k.htm  FORM 6-K  UNITED STATES   SECURITIES AND EXCHANGE COMMISSION   Washington, D.C.
+  – ALIBABA GROUP HOLDING LIMITED   Date: November 23, 2026   By:   /s/ Kevin Jinwei ZHANG   Name:   Kevin Jinwei ZHANG   Title:   Company Secretary  3
+Link: https://www.sec.gov/Archives/edgar/data/1577552/000110465926130757/tm2630460d1_6k.htm
 Por que importa: 6-K e o relatorio de emissor estrangeiro: resultado, provento ou fato relevante do pais de origem
 Ativos: BABA
 Como falar: 'a BABA protocolou 6-K na SEC (6-K)'
-Fonte: SEC EDGAR 2026-11-19
-id: E04-BABA-26130115-2026-11-19 · status: linha · íntegra disponível
+Fonte: SEC EDGAR 2026-11-23
+id: E04-BABA-26130757-2026-11-23 · status: linha · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (16)
+## NOTÍCIAS COM MATERIALIDADE (12)
 
-[ATENÇÃO] E05 · KO · Coca-Cola or Shell: Only One Gets My Dividend Dollars for the Next 20 Years
-Yahoo Finance · 20/11 05h59 · fonte única · licença: resumo
+[ATENÇÃO] E05 · PETR4 · Petrobras anuncia US$ 122 bilhões em investimentos para 2027-2031
+CNN Brasil · 23/11 19h29 · + O Globo · licença: resumo
 Trechos (licença resumo: reescrever, não colar):
-  – Key Takeaways - Coca-Cola (KO:NYSE) yields 2.2%, and Shell yields 3.3%.
-  – Further, Coca-Cola raised its 2026 guidance after a 7% rise in organic revenue in Q3.
-  – - Shell's (SHEL) dividend took 23% of its free cash flow over its latest 12 months, against 79% at Coca-Cola.
-  – - Coca-Cola's dividend per share rose from $1.32 in fiscal 2015 to $2.04 in fiscal 2025, while Shell's fell from $1.90 to $1.42 after a cut in 2020.
-  – - Coca-Cola trades at 28x forward earnings, its highest in five years, against 8.0x for Shell.
-  – If you're buying a dividend stock to hold for 20 years, the check has to keep coming and keep growing through whatever the next two decades bring.
-Link: https://finance.yahoo.com/markets/stocks/articles/coca-cola-shell-only-one-085919392.html
-Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
-Ativos: KO
-Como falar: 'saiu no Yahoo Finance: Coca-Cola or Shell: Only One Gets My Dividend Dollars for the Next 20 Years; confirmar o número no texto antes de repassar'
-Fonte: Yahoo Finance 20/11 05h59
-id: E05-KO-090286db10-2026-11-20 · status: pendente
-
-[ATENÇÃO] E05 · BABA · Citi cuts Alibaba stock price target on cloud revenue outlook
-Investing.com · 20/11 07h45 · fonte única · licença: manchete
-Link: https://www.investing.com/news/analyst-ratings/citi-cuts-alibaba-stock-price-target-on-cloud-revenue-outlook-93CH-5041164
-Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
-Ativos: BABA
-Como falar: 'saiu no Investing.com: Citi cuts Alibaba stock price target on cloud revenue outlook; confirmar o número no texto antes de repassar'
-Fonte: Investing.com 20/11 07h45
-id: E05-BABA-114266897c-2026-11-20 · status: pendente
-
-[ATENÇÃO] E05 · BABA · Citi cuts Alibaba stock price target on cloud revenue outlook By Investing.com
-Investing.com · 20/11 08h03 · fonte única · licença: manchete
-Link: https://news.google.com/rss/articles/CBMivwFBVV95cUxOdzcwTXdtTHlJOHA4eUF5cW1XWU5PeEg1b2pWbkdMTlFQYzJUaXMtd3lVQVBzZG41OWhibVp3WURIcG5uRzI1LUp5TTBwdFhOZWFxUzFUaVFydEFIMHNKaUw4VjJDaWFtZjdrbl9HNTZtTmlJVEd3RXRJbWo1ZGE5aUdkeHVHa3BHRm9PbFNEUWtKaVU5emNMSlNoYVpUcG9pOFo5RGtQMUFyYndNTHBGRkVrYnRDeUszWWNnOFlUTQ?oc=5
-Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
-Ativos: BABA
-Como falar: 'saiu no Investing.com: Citi cuts Alibaba stock price target on cloud revenue outlook By Investing.com; confirmar o número no texto antes de repassar'
-Fonte: Investing.com 20/11 08h03
-id: E05-BABA-93b2387ab2-2026-11-20 · status: expirado
-
-[ATENÇÃO] E05 · CVX · Chevron or Mondelez: I Can Only Pick One Dividend Stock for the Next 20 Years. Here’s Mine
-Yahoo Finance · 20/11 07h03 · fonte única · licença: manchete
-Link: https://news.google.com/rss/articles/CBMimwFBVV95cUxPUXhsOTNmZDE5VmdrdE5xNzdaQmZyWUZ6akRyNHdjRV9BdFFRWXFVVlNrLTdSbUJ5d3ExdVRSYl9DcjdXWXN0ZlZPSGlndjF0RGZZdGh0eXFzaTh3YWkza2I4Z3h5eUVkaVJsTFlKZ3d4bTZ5dkVoNVpVTEVWanhSZTUzUVBSTklkczN0SDl5U01VVVpPdXJpSERKNA?oc=5
-Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
-Ativos: CVX
-Como falar: 'saiu no Yahoo Finance: Chevron or Mondelez: I Can Only Pick One Dividend Stock for the Next 20 Years. Here’s Mine; confirmar o número no texto antes de repassar'
-Fonte: Yahoo Finance 20/11 07h03
-id: E05-CVX-7759404901-2026-11-20 · status: expirado
-
-[ATENÇÃO] E05 · AMD · Key facts: AMD Revenue +45%; Anthropic Helios Deal; $800M MI308 Charge
-TradingView (Reuters) · 20/11 05h00 · fonte única · licença: manchete
-Link: https://news.google.com/rss/articles/CBMixAFBVV95cUxQX2o2YlZGM2k2N2hSZ0ZxbFU2ZDBZZENibXlnMjdlVlQtMkJYSjBxczRQN3UtbFZ6X1VWS0dVbWxLWm1ZUlFVai1xU25aLUg4NTcwUGlHRXdVVXk2bUJzdXhLYVZvYTZsSmdzU1dYS2FZUEFGRXJxOXc1N3BpVExEMVZaZ1NkWGpLdFNVVVVMaXpDczRfTFpleWJfWEdBVDgxTFNQS3FtaE1VT0JScGJ1VEphbnRvSS03UmE3Sm9fUXlneFo5?oc=5
-Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
-Ativos: AMD
-Como falar: 'saiu no TradingView (Reuters): Key facts: AMD Revenue +45%; Anthropic Helios Deal; $800M MI308 Charge; confirmar o número no texto antes de repassar'
-Fonte: TradingView (Reuters) 20/11 05h00
-id: E05-AMD-431fa9769b-2026-11-20 · status: expirado
-
-[ATENÇÃO] E05 · BABA · Alibaba Group Holding Limited Notice of January 19, 2027 Application Deadline for Class Action Lawsuit - Contact Lewis Kahn, Esq. at Kahn Swick & Fot…
-Business Wire · 20/11 02h29 · fonte única · licença: manchete
-Link: https://news.google.com/rss/articles/CBMi1gJBVV95cUxNV0VoVnVwWFRHWm5GQ3dhcEE0ODZEMFNMZlJQbXZFSThpQ0RVSk1JaUx6d2FjSGdGNDVNdWZJWUJFQy1KNm9SRGZ1R1RLZkxIUy1zTHZfdWNLeERzX0NYaTMxak9ZMWJxNWNkY0czcEFfUnhBTzB2ai0tNEpPcE56OU5EdlJZdlZweVQ4dkhHZFA2Z2oyRGdnMVZxRDVMT1cwVXRlSHZXaGJjck1rUmNFclUySWpiOXF5eEozUVptcDNfTzZCbGtKRkhqajQxbVdWUjRGTnhWSGhlQ19kcUxibk9ueU84djRvbzZjeXlBZlVVd1pUUVdKRTZTakZzWHd5ek5GczRuM3Y1SVA0MHNHOVplZ2pDMkVOU2lMaHcwSGp1M0lpb0RSS0Q3NVpHZVRoMXlXaWpMZVRDTzVHQl9CSFd2MGpaU2cyaGF0ZDdXbDQwOEJVQ1E?oc=5
-Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e prazo
-Ativos: BABA
-Como falar: 'saiu no Business Wire: Alibaba Group Holding Limited Notice of January 19, 2027 Application Deadline for Class A…; confirmar o número no texto antes de repassar'
-Fonte: Business Wire 20/11 02h29
-id: E05-BABA-cc96422e0d-2026-11-20 · status: linha
-
-[ATENÇÃO] E05 · BABA · EQUITY ALERT: Rosen Law Firm Files Securities Class Action Lawsuit on Behalf of Alibaba Group Holding Limited Investors – BABA
-Business Wire · 19/11 15h50 · fonte única · licença: integral
-Link: https://www.businesswire.com/news/home/20261119870639/en/EQUITY-ALERT-Rosen-Law-Firm-Files-Securities-Class-Action-Lawsuit-on-Behalf-of-Alibaba-Group-Holding-Limited-Investors-BABA
-Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e prazo
-Ativos: BABA
-Como falar: 'saiu no Business Wire: EQUITY ALERT: Rosen Law Firm Files Securities Class Action Lawsuit on Behalf of Alibaba G…; confirmar o número no texto antes de repassar'
-Fonte: Business Wire 19/11 15h50
-id: E05-BABA-e171147901-2026-11-19 · status: expirado
-
-[ATENÇÃO] E05 · NVDA · Nvidia Stocks Rise 4.63% as $10 Billion Anthropic Stake Lands on IPO Day
-TradingView (Reuters) · 19/11 14h36 · fonte única · licença: manchete
-Link: https://www.tradingview.com/news/gurufocus:de797ecf3094b:0-nvidia-stocks-rise-4-63-as-10-billion-anthropic-stake-lands-on-ipo-day/
-Por que importa: oferta de acoes ou divida altera a base acionaria ou a alavancagem
-Ativos: NVDA
-Como falar: 'saiu no TradingView (Reuters): Nvidia Stocks Rise 4.63% as $10 Billion Anthropic Stake Lands on IPO Day; confirmar o número no texto antes de repassar'
-Fonte: TradingView (Reuters) 19/11 14h36
-id: E05-NVDA-5cced55572-2026-11-19 · status: expirado
-
-[ATENÇÃO] E05 · BTC · Sweden’s H100 Considers Using Bitcoin Trading Pool to Fund Share Buyback
-Yahoo Finance · 19/11 12h45 · fonte única · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – Swedish Bitcoin (CRYPTO: $BTC) treasury company H100 Group (NASDAQ Stockholm: H100) is considering using Bitcoin from its active trading pool to support share buybacks.
-  – The company announced Thursday that its board will ask shareholders to authorize the buybacks at an extraordinary general meeting on December 7.
-  – The proposal comes as new Swedish rules allowing companies listed on the NGM Growth Market to repurchase their own shares take effect on December 5.
-  – BTC from the active pool may be allocated for this purpose," H100 CEO Eirik Grøttum said in the company's third-quarter report.
-  – H100 held 233.42 Bitcoin in its active pool as of September 30, down from a loss of approximately 30 BTC during the third quarter.
-  – The company separately held 3,243.38 BTC in its long-term treasury, bringing its total holdings to 3,476.8 BTC.
-Link: https://finance.yahoo.com/markets/crypto/articles/sweden-h100-considers-using-bitcoin-154500668.html
-Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
-Ativos: BTC
-Como falar: 'saiu no Yahoo Finance: Sweden’s H100 Considers Using Bitcoin Trading Pool to Fund Share Buyback; confirmar o número no texto antes de repassar'
-Fonte: Yahoo Finance 19/11 12h45
-id: E05-BTC-28af0b835e-2026-11-19 · status: expirado
-
-[ATENÇÃO] E05 · NVDA · Moody’s Lowers Nvidia’s Ratings Outlook to Stable From Positive
-Yahoo Finance · 18/11 19h29 · fonte única · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – "It also could have repercussions for the growth strategy, which is supported by Nvidia's vast network of relationships across the AI ecosystem." The world's largest chipmaker cut ties with Huang on Nov.
-  – 12 after revelations about his extramarital affairs spurred a widening scandal.
-  – Nvidia, which Huang ran for more than 30 years, is now actively recruiting for his replacement and has approached Arm Holdings Plc Chief Executive Officer Rene Haas as part of its hunt.
-  – Moody's affirmed Nvidia's Aa1 senior unsecured rating — the second highest for Moody's — and Prime-1 short-term commercial paper program rating.
-  – The lower outlook means an upgrade is unlikely over the next 12 to 18 months, the agency said.
-  – A $200 Million Bet That They Can ©2026 Bloomberg L.P.
-Link: https://finance.yahoo.com/markets/stocks/articles/moody-lowers-nvidia-ratings-outlook-222901110.html
+  – A Petrobras aprovou nesta segunda-feira (23) um plano de negócios com investimentos de US$ 122 bilhões entre 2027 e 2031.
+  – O valor representa um aumento de US$ 13 bilhões, ou 11,9%, em relação aos US$ 109 bilhões previstos no plano anterior, que abrangia o período de 2026 a 2030.
+  – Do total, US$ 113 bilhões estão na carteira em implantação e US$ 9 bilhões correspondem a oportunidades ainda em avaliação, com menor grau de maturidade.
+  – A programação concentra os investimentos no início do período: são US$ 29,5 bilhões em 2027 e US$ 28,3 bilhões em 2028, recuando até US$ 17,8 bilhões em 2031.
+  – As projeções têm margem de variação de 5% para cima ou para baixo.
+  – A companhia projeta uma produção de petróleo e líquidos de gás natural de 2,9 milhões de barris por dia ao longo do período.
+Link: https://www.cnnbrasil.com.br/infra/petrobras-anuncia-us-122-bilhoes-em-investimentos-para-2027-2031/
 Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
-Ativos: NVDA
-Como falar: 'saiu no Yahoo Finance: Moody’s Lowers Nvidia’s Ratings Outlook to Stable From Positive; confirmar o número no texto antes de repassar'
-Fonte: Yahoo Finance 18/11 19h29
-id: E05-NVDA-1bec3d5dfb-2026-11-18 · status: linha
+Ativos: PETR4
+Como falar: 'saiu no CNN Brasil: Petrobras anuncia US$ 122 bilhões em investimentos para 2027-2031; confirmar o número no texto antes de repassar'
+Fonte: CNN Brasil 23/11 19h29
+id: E05-PETR4-5b0a9fd3e3-2026-11-23 · status: pendente
 
-[ATENÇÃO] E05 · AXIA3 · Axia prepara emissão de R$ 1 bilhão em debêntures para UHE Santo Antônio
-UOL Economia · 19/11 14h36 · fonte única · licença: manchete
-Link: https://megawhat.uol.com.br/geracao/axia-prepara-emissao-de-r-1-bilhao-em-debentures-para-uhe-santo-antonio/
-Por que importa: oferta de acoes ou divida altera a base acionaria ou a alavancagem
-Ativos: AXIA3
-Como falar: 'saiu no UOL Economia: Axia prepara emissão de R$ 1 bilhão em debêntures para UHE Santo Antônio; confirmar o número no texto antes de repassar'
-Fonte: UOL Economia 19/11 14h36
-id: E05-AXIA3-8a797ef5ea-2026-11-19 · status: expirado
+[ATENÇÃO] E05 · PETR4 · Petrobras vai pagar R$ 15,6 bilhões em dividendos extraordinários
+O Globo · 23/11 19h18 · fonte única · licença: manchete
+Link: https://oglobo.globo.com/economia/noticia/2026/11/23/petrobras-vai-pagar-r-156-bilhoes-em-dividendos-extraordinarios.ghtml
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: PETR4
+Como falar: 'saiu no O Globo: Petrobras vai pagar R$ 15,6 bilhões em dividendos extraordinários; confirmar o número no texto antes de repassar'
+Fonte: O Globo 23/11 19h18
+id: E05-PETR4-d392df89b1-2026-11-23 · status: pendente
 
-[ATENÇÃO] E05 · GOOGL · Alphabet (GOOG) Slips as 2026 Capex Outlook Rises
-Yahoo Finance · 19/11 13h07 · fonte única · licença: resumo
+[ATENÇÃO] E05 · PETR4 · Petrobras compra 42% da produtora de etanol de milho Neomille por R$ 2,8 bi
+CNN Brasil · 23/11 19h01 · fonte única · licença: resumo
 Trechos (licença resumo: reescrever, não colar):
-  – RiverPark Advisors, an investment advisory firm and sponsor of the RiverPark family of mutual funds, released its "RiverPark Large Growth Fund" Q3 2026 investor letter.
-  – equity markets rose modestly in the third quarter, with the S&P 500 gaining 2.30% and the Russell 1000 Growth Index increasing 0.92%.
-  – The Fund also advanced, returning 4.10% in the quarter amid persistent macroeconomic challenges.
-  – Also, check the fund's top five holdings to see its best picks in 2026.
-  – In its Q3 2026 investor letter, RiverPark Large Growth Fund noted that Alphabet Inc. (NASDAQ:GOOG) detracted from performance.
-  – On November 18, 2026, Alphabet Inc. (NASDAQ:GOOG) closed at $279.20 per share with a market capitalization of $3.43 trillion.
-Link: https://finance.yahoo.com/markets/stocks/articles/alphabet-goog-slips-2026-capex-160741067.html
+  – A Petrobras fechou um acordo para adquirir 42% do capital social da Neomille, produtora de etanol de milho controlada pela CerradinhoBio, em uma operação avaliada em R$ 2,8 bilhões.
+  – O acordo foi anunciado nesta segunda-feira (23), por meio de fato relevante.
+  – Com a operação, a CerradinhoBio permanecerá como acionista controladora da Neomille, com participação de 58%, enquanto a Petrobras ficará com os 42% restantes.
+  – Do valor total da transação, R$ 1,8 bilhão corresponde a um aporte primário de recursos na Neomille, por meio da subscrição de novas ações.
+  – O montante restante envolve a aquisição de ações dos atuais acionistas, incluindo um pagamento contingente de até R$ 397 milhões, condicionado a metas e condições previstas no acordo (earn-out).
+  – Em Chapadão do Céu (GO), a capacidade de processamento de milho deverá passar de 1,1 milhão para 1,7 milhão de toneladas por ano.
+Link: https://www.cnnbrasil.com.br/agro/petrobras-compra-42-da-produtora-de-etanol-de-milho-neomille-por-r-28-bi/
 Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
-Ativos: GOOGL
-Como falar: 'saiu no Yahoo Finance: Alphabet (GOOG) Slips as 2026 Capex Outlook Rises; confirmar o número no texto antes de repassar'
-Fonte: Yahoo Finance 19/11 13h07
-id: E05-GOOGL-2ecf140715-2026-11-19 · status: expirado
+Ativos: PETR4
+Como falar: 'saiu no CNN Brasil: Petrobras compra 42% da produtora de etanol de milho Neomille por R$ 2,8 bi; confirmar o número no texto antes de repassar'
+Fonte: CNN Brasil 23/11 19h01
+id: E05-PETR4-9b0da55200-2026-11-23 · status: pendente
 
-[ATENÇÃO] E05 · NVDA · Intel Climbs 7% on First 18A Customer, NVIDIA Gains 4% as Trump Floats Blackwell Sales to China and Dan Ives Hails Anthropic IPO; AMD Rises 3%
-Yahoo Finance · 19/11 11h56 · fonte única · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – - Intel still faces a $1.85 billion quarterly foundry loss and a lingering PC slump, so its next 18A customer is the one to watch.
-  – Intel stock is at $58.41, up 7% in morning trading.
-  – The rally cuts a steep slide, as the shares are down 37% over the past month despite a gain for the year.
-  – Since its October 29 report, Intel has struggled, as its Q4 2026 revenue outlook of $15 billion to $16 billion missed expectations and management warned the PC decline would last through at least the first half of 2027.
-  – Intel Lands Its First 18A Foundry Customer CEO Lip-Bu Tan disclosed on November 18 at the TomorrowX Summit in Austin that Intel signed its first outside customer for its 18A chip process, though he didn't name the compa…
-  – Read More Here › ------ Microsoft (NASDAQ:MSFT) announced an expanded Azure partnership with Intel on November 18 that includes a multi-year Xeon processor supply agreement.
-Link: https://finance.yahoo.com/technology/articles/intel-climbs-7-first-18a-145631177.html
-Por que importa: oferta de acoes ou divida altera a base acionaria ou a alavancagem
-Ativos: NVDA · AMD · INTC
-Como falar: 'saiu no Yahoo Finance: Intel Climbs 7% on First 18A Customer, NVIDIA Gains 4% as Trump Floats Blackwell Sales to…; confirmar o número no texto antes de repassar'
-Fonte: Yahoo Finance 19/11 11h56
-id: E05-NVDA-b50e91e1eb-2026-11-19 · status: expirado
+[ATENÇÃO] E05 · EQTL3 · Equatorial recebe nova multa por favorecer comercializadora do grupo
+UOL Economia · 23/11 16h33 · fonte única · licença: manchete
+Link: https://megawhat.uol.com.br/destaques-do-diario/equatorial-recebe-nova-multa-por-favorecer-comercializadora-do-grupo/
+Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e prazo
+Ativos: EQTL3
+Como falar: 'saiu no UOL Economia: Equatorial recebe nova multa por favorecer comercializadora do grupo; confirmar o número no texto antes de repassar'
+Fonte: UOL Economia 23/11 16h33
+id: E05-EQTL3-dfc5697195-2026-11-23 · status: linha
 
-[ATENÇÃO] E05 · KLBN4 · Acidente na Klabin (KLBN11) preocupa, mas bancos apontam efeito contido
-InfoMoney · 19/11 09h29 · fonte única · licença: resumo
+[ATENÇÃO] E05 · DI · Fazenda eleva projeção de inflação para 2027 e vê Selic mais alta por mais tempo
+Money Times · 23/11 16h21 · fonte única · licença: integral
+Do texto:
+  – Fazenda eleva projeção de inflação para 2027 e vê Selic mais alta por mais tempo O Ministério da Fazenda elevou as projeções para a inflação e a taxa básica de juros, a Selic, em 2027.
+  – As revisões constam no Boletim Macrofiscal de novembro, divulgado nesta segunda-feira (23) pela Secretaria de Política Econômica (SPE).
+  – A estimativa para o Índice Nacional de Preços ao Consumidor Amplo (IPCA) passou de 3,8% para 4,5% em 2027, alcançando o teto da banda de tolerância da meta de inflação, cujo centro é de 3%.
+  – Para 2026, a projeção também foi revisada para cima, de 4,9% para 5,3%, acima do limite superior da meta.
+  – O boletim destaca que a inflação acumulada em 12 meses passou de 4,2% em agosto para 4,6% em outubro, pressionada principalmente pelos preços dos alimentos consumidos no domicílio.
+  – A projeção para a taxa Selic acumulada em 2027 passou de 12,67% para 12,93%, enquanto a estimativa para 2026 permaneceu em 14,22%.
+Link: https://www.moneytimes.com.br/fazenda-eleva-projecao-de-inflacao-para-2027-e-ve-selic-mais-alta-por-mais-tempo-jcav/
+Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
+Ativos: DI
+Como falar: 'saiu no Money Times: Fazenda eleva projeção de inflação para 2027 e vê Selic mais alta por mais tempo; confirmar o número no texto antes de repassar'
+Fonte: Money Times 23/11 16h21
+id: E05-DI-48648c7863-2026-11-23 · status: linha · íntegra disponível
+
+[ATENÇÃO] E05 · DI · Copom mantém previsão da taxa básica de juros para 13% em 2017
+Agencia Brasil · 23/11 14h30 · fonte única · licença: integral
+Do texto:
+  – Os analistas do mercado financeiro estimam que a taxa básica de juros brasileira, a Selic, deve ficar em 13% em 2027.
+  – É o que mostra o boletim Focus, publicado nesta segunda-feira (23), pelo Copom, Comitê de Política Econômica do Banco Central.
+  – Atualmente a nossa Selic está em 13,75%, conforme definiu o Copom, na última reunião.
+  – Quanto à inflação, o boletim traz um aumento na estimativa do IPCA, índice de Preços ao Consumidor Amplo, de 5,15% no índice calculado mensalmente pelo IBGE.
+  – "Esse debate todo com relação às contas públicas para 2027, projeto de lei apresentado pelo governo, isso tem realmente afetado as expectativas com relação às contas públicas.
+  – Isso faz com que o mercado precifique uma inflação maior para 2027.
+Link: https://agenciabrasil.ebc.com.br/radioagencia-nacional/economia/audio/2026-11/copom-mantem-previsao-da-taxa-basica-de-juros-para-13-em-2017
+Por que importa: decisao de politica monetaria reprecifica toda a curva e o cambio
+Ativos: DI
+Como falar: 'saiu no Agencia Brasil: Copom mantém previsão da taxa básica de juros para 13% em 2017; confirmar o número no texto antes de repassar'
+Fonte: Agencia Brasil 23/11 14h30
+id: E05-DI-a355bf3dd1-2026-11-23 · status: linha · íntegra disponível
+
+[ATENÇÃO] E05 · BRENT · Brent Drops Below $90 as Wall Street Splits on 2027 Oil Outlook
+OilPrice.com · 23/11 11h30 · fonte única · licença: manchete
+Link: https://oilprice.com/Latest-Energy-News/World-News/Brent-Drops-Below-90-as-Wall-Street-Splits-on-2027-Oil-Outlook.html
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: BRENT
+Como falar: 'saiu no OilPrice.com: Brent Drops Below $90 as Wall Street Splits on 2027 Oil Outlook; confirmar o número no texto antes de repassar'
+Fonte: OilPrice.com 23/11 11h30
+id: E05-BRENT-05462f7bda-2026-11-23 · status: linha
+
+[ATENÇÃO] E05 · USDBRL · Mercado eleva projeção do dólar para R$ 5,55 em 2026
+Agencia Brasil · 23/11 10h11 · + O Globo, Estadao · licença: integral
+Do texto:
+  – Mercado eleva projeção do dólar para R$ 5,55 em 2026 Analistas do mercado financeiro elevaram de R$ 5,40 para R$ 5,55 a estimativa para a cotação do dólar no fim de 2026.
+  – O dado consta do boletim Focus, divulgado nesta segunda-feira (23) pelo Banco Central, com expectativas de instituições financeiras para os principais indicadores da economia.
+  – A estimativa para o Índice Nacional de Preços ao Consumidor Amplo (IPCA), indicador oficial da inflação, neste ano passou de 5,11% para 5,15%, enquanto a previsão para o Produto Interno Bruto (PIB) caiu de 1,72% para 1,…
+  – Câmbio e inflação A projeção para o dólar no fim de 2026 subiu de R$ 5,40 para R$ 5,55.
+  – Para 2027, a expectativa avançou de R$ 5,45 para R$ 5,50.
+  – O mercado prevê a moeda norte-americana em R$ 5,50 ao fim de 2028 e em R$ 5,55 no encerramento de 2029.
+Link: https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/mercado-eleva-projecao-do-dolar-para-r-555-em-2026
+Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
+Ativos: USDBRL
+Como falar: 'saiu no Agencia Brasil: Mercado eleva projeção do dólar para R$ 5,55 em 2026; confirmar o número no texto antes de repassar'
+Fonte: Agencia Brasil 23/11 10h11
+id: E05-USDBRL-1a13127009-2026-11-23 · status: linha · íntegra disponível
+
+[ATENÇÃO] E05 · PETR4 · Petrobras (PETR4) e Bradespar (BRAP4): veja quais empresas pagam dividendos hoje
+Suno Noticias · 23/11 09h15 · fonte única · licença: resumo
 Trechos (licença resumo: reescrever, não colar):
-  – Publicidade A Klabin (KLBN11) informou ao mercado um acidente envolvendo a caldeira de recuperação da unidade de Otacílio Costa (SC), equipamento considerado essencial para o processo de produção de celulose.
-  – A prioridade da companhia segue sendo o atendimento aos 11 funcionários afetados pelo acidente.
-  – A unidade é totalmente dedicada à produção de kraftliner e responde por cerca de 13% do volume anual de papel e embalagens da companhia.
-  – Na avaliação do Itaú BBA, a unidade gera aproximadamente R$ 375 milhões de EBITDA (lucro antes de juros, impostos, depreciações e amortizações) por ano, o equivalente a cerca de 5% da estimativa do banco para 2027.
-  – Segundo o banco, a cobertura para perda de lucros passa a valer após um período de carência de 30 dias.
-  – Com isso, a exposição não segurada se concentraria basicamente no primeiro mês de paralisação das operações, em um impacto estimado em aproximadamente R$ 31 milhões, ou cerca de 0,4% do EBITDA projetado para 2026.
-Link: https://www.infomoney.com.br/mercados/acidente-na-klabin-klbn11-preocupa-mas-bancos-apontam-efeito-contido/
+  – Negócios Petrobras (PETR4) e Bradespar (BRAP4): veja quais empresas pagam dividendos hoje Os acionistas da Petrobras (PETR4) e da Bradespar (BRAP4) receberão nesta segunda-feira os dividendos que serão distribuídos pela…
+  – Os acionistas da Petrobras vão receber R$ 0,6740 em dividendos hoje, enquanto os investidores da Bradespar receberão R$ 0,1997.
+  – Têm direito aos dividendos da Petrobras os investidores com ações PETR4 no dia 21 de agosto.
+  – Já para receber os dividendos da Bradespar, os acionistas tinham que deter papéis da empresa em 11 de novembro.
+  – Já os Juros Sobre Capital Próprio têm 15% de imposto.
+Link: https://www.suno.com.br/noticias/a-petrobras-petr4-agenda-dividendos-23112026/
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: PETR4
+Como falar: 'saiu no Suno Noticias: Petrobras (PETR4) e Bradespar (BRAP4): veja quais empresas pagam dividendos hoje; confirmar o número no texto antes de repassar'
+Fonte: Suno Noticias 23/11 09h15
+id: E05-PETR4-3097495da1-2026-11-23 · status: linha
+
+[ATENÇÃO] E05 · AMZN · Weekly Recap: AWS sales, UBS cuts estimates and Q4 outlook, 2026 capex
+TradingView (Reuters) · 23/11 08h00 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/tradingview:a3f2524e7095d:0-weekly-recap-aws-sales-ubs-cuts-estimates-and-q4-outlook-2026-capex/
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: AMZN
+Como falar: 'saiu no TradingView (Reuters): Weekly Recap: AWS sales, UBS cuts estimates and Q4 outlook, 2026 capex; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 23/11 08h00
+id: E05-AMZN-759ec0b640-2026-11-23 · status: linha
+
+[ATENÇÃO] E05 · BAC · Weekly Recap: Berkshire cuts stake and Bank of America outage
+TradingView (Reuters) · 23/11 08h00 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/tradingview:ec0a91c861249:0-weekly-recap-berkshire-cuts-stake-and-bank-of-america-outage/
 Por que importa: evento operacional afeta producao e custo no trimestre corrente
-Ativos: KLBN4
-Como falar: 'saiu no InfoMoney: Acidente na Klabin (KLBN11) preocupa, mas bancos apontam efeito contido; confirmar o número no texto antes de repassar'
-Fonte: InfoMoney 19/11 09h29
-id: E05-KLBN4-5955ddc472-2026-11-19 · status: linha
+Ativos: BAC
+Como falar: 'saiu no TradingView (Reuters): Weekly Recap: Berkshire cuts stake and Bank of America outage; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 23/11 08h00
+id: E05-BAC-415a3104ae-2026-11-23 · status: linha
 
-[ATENÇÃO] E05 · AXIA3 · Axia Energia lança oferta de R$ 1,2 bi em debêntures para hidrelétrica
-UOL Economia · 19/11 08h19 · fonte única · licença: manchete
-Link: https://www.bol.uol.com.br/economia/2026/11/19/axia-energia-lanca-oferta-de-r-12-bi-em-debentures-para-usina.ghtm
-Por que importa: oferta de acoes ou divida altera a base acionaria ou a alavancagem
-Ativos: AXIA3
-Como falar: 'saiu no UOL Economia: Axia Energia lança oferta de R$ 1,2 bi em debêntures para hidrelétrica; confirmar o número no texto antes de repassar'
-Fonte: UOL Economia 19/11 08h19
-id: E05-AXIA3-3ff4def5e4-2026-11-19 · status: linha
-
-[ATENÇÃO] E05 · KLBN4 · Explosão suspende operações em 3º maior complexo da Klabin
-Valor Economico · 19/11 05h00 · fonte única · licença: resumo
+[ATENÇÃO] E05 · BTC · Bitcoin Price Hit $55,130 Two Days After Anthropic’s IPO: Is The Bottom In?
+Yahoo Finance · 23/11 06h04 · fonte única · licença: resumo
 Trechos (licença resumo: reescrever, não colar):
-  – A fabricante de embalagens, papel e celulose não especificou do que se tratava a ocorrência, mas o Corpo de Bombeiros Militar de Santa Catarina (CBMSC) informou que houve uma explosão no equipamento, parte central no pr…
-Link: https://valor.globo.com/empresas/noticia/2026/11/19/explosao-suspende-operacoes-em-3o-maior-complexo-da-klabin.ghtml
-Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
-Ativos: KLBN4
-Como falar: 'saiu no Valor Economico: Explosão suspende operações em 3º maior complexo da Klabin; confirmar o número no texto antes de repassar'
-Fonte: Valor Economico 19/11 05h00
-id: E05-KLBN4-90d44c0465-2026-11-19 · status: linha
+  – In Bitcoin news this weekend, BTC fell to $55,130 early on Saturday, November 21, two days after Anthropic's Nasdaq listing.
+  – That was its lowest price since September 2024, and it came as US spot Bitcoin ETFs, funds that hold actual bitcoin, posted a fourth straight day of outflows.
+  – Bitcoin closed Saturday back above $60,000 and trades near $61,466 on Monday, 11% above the low.
+  – After SpaceX went public in June, Bitcoin kept falling for 19 days before it found a bottom, and we expected the Anthropic listing to follow a similar path.
+  – So is $55,130 the low, and which daily close would confirm that Bitcoin has turned?
+  – Figures from SoSoValue's ETF dashboard show US spot Bitcoin ETFs losing $669 million on Friday, November 20.
+Link: https://finance.yahoo.com/markets/crypto/articles/bitcoin-price-hit-55-130-090410529.html
+Por que importa: oferta de acoes ou divida altera a base acionaria ou a alavancagem
+Ativos: BTC
+Como falar: 'saiu no Yahoo Finance: Bitcoin Price Hit $55,130 Two Days After Anthropic’s IPO: Is The Bottom In?; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 23/11 06h04
+id: E05-BTC-5e2b0f3c74-2026-11-23 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (95)
+## OUTRAS NOTÍCIAS (só manchete) (15)
 
-· NVDA Nvidia faces further blow after shock US export permit data release: analysts (South China Morning Post) https://www.scmp.com/tech/big-tech/article/3375287/nvidia-faces-further-blow-after-shock-us-export-permit-data-release-analysts
-· NVDA Here's How Much Nvidia Stock Is Worth Without Jensen Huang, According to Dan Ives (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/heres-much-nvidia-stock-worth-003004121.html
-· AMZN Generac Stock In Focus After Earnings Beat And Amazon Supply Deal (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/generac-stock-focus-earnings-beat-001937973.html
-· UST The Weekly Spread: What Shaped US Treasury Yields And The Dollar This Week (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:fb361b931094b:0-the-weekly-spread-what-shaped-us-treasury-yields-and-the-dollar-this-week/
-· NVDA Prediction: Nvidia Stock Will Do This in the 6 Months After a New CEO Takes Over, According to History (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/prediction-nvidia-stock-6-months-000251264.html
-· ETH Fairmint plans tokenized stock venue on Canton, Ethereum under SEC experiment (CoinDesk) https://www.coindesk.com/business/2026/11/20/fairmint-plans-tokenized-stock-venue-on-canton-ethereum-under-sec-experiment
-· NVDA Trump’s Treasury Secretary Keeps Nvidia’s H200 China Policy as House Data Show Nearly 880,000 AI Chips Approved (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/trump-treasury-secretary-keeps-nvidia-215837212.html
-· MRVL Marvell's $115 Billion Lumentum Deal Creates a New Valuation Test (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:1ba9f9033094b:0-marvell-s-115-billion-lumentum-deal-creates-a-new-valuation-test/
-· NVDA Nvidia Stock Plunge Wipes Out Nearly $500 Billion in One Day as SEC Reportedly Probes Its Accounting (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/nvidia-stock-plunge-wipes-nearly-212722915.html
-· AMD Congress files detail AMD requests to export AI chips to China, says Hunterbrook (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/congress-files-detail-amd-requests-211058888.html
-· NVDA Nvidia’s (NVDA) AI Demand Visibility into 2029 Keeps Me Bullish (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/nvidia-nvda-ai-demand-visibility-210400433.html
-· NVDA Nvidia Shares Sink to 52-Week Low After Report SEC Is Probing Accounting (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/nvidia-shares-sink-52-week-203654330.html
-· BTC WTF is Happening to the Market? Plus, Bitcoin Price Outlook and Trouble Ahead for Neoclouds (Yahoo Finance) https://finance.yahoo.com/video/wtf-happening-market-plus-bitcoin-203540856.html
-· KO Coca-Cola (KO) After ETF Selling Is It Still Fairly Valued (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/coca-cola-ko-etf-selling-201320830.html
-· NVDA Nvidia server suppliers halt Southeast Asia shipments over US curbs (Nikkei Asia) https://news.google.com/rss/articles/CBMi0AFBVV95cUxPQWJ2Ynl0elFmc2U2cHV6em9qVVp6SGdacE1hRjdjaEJsZExHRDhkSm95cDYwNGxDN3pwY1dBYkhSSkgzd0JveGJUMExPaDBXS2lrc0hCaUtOd09ZUUdPRWNjNHZJOXZhRkpmajhral9vZDV1WjV3UzItRnhiU3Y5NmtKV3JueDZQVHVlaEFTamxxOG1pUm9KdTlXazlOSXEtLUNFdkJmaFY0cG9td1hqV2dCLTF4b2t0ZXZBVVVQSHh0Zy1OY05EV0NwcmJ1c2Ni?oc=5
-· USDBRL Nem US$ 1 bilhão do BC conteve a alta do dólar; o que isso revela sobre a economia? (Estadao) https://www.estadao.com.br/economia/celso-ming/nem-us-1-bilhao-do-bc-conteve-a-alta-do-dolar-o-que-isso-revela-sobre-a-economia/
-· LITE TTM Technologies, Flex, Lumentum, Benchmark, and Knowles shares plummet, what you need to know (TradingView (Reuters)) https://www.tradingview.com/news/stockstory:8330484e4094b:0-ttm-technologies-flex-lumentum-benchmark-and-knowles-shares-plummet-what-you-need-to-know/
-· NVDA EXCLUSIVE: Nvidia's accounting is a focus of US SEC investigation, sources say (Reuters) https://www.reuters.com/world/us-secs-nvidia-probe-is-examining-potential-accounting-issues-sources-say-2026-11-20/
-· NVDA Broadcom, Intel, Nvidia, and Qualcomm stocks trade down, what you need to know (TradingView (Reuters)) https://www.tradingview.com/news/stockstory:6d083d94d094b:0-broadcom-intel-nvidia-and-qualcomm-stocks-trade-down-what-you-need-to-know/
-· MRVL Marvell Technology retreats 11% as tech stocks suffer (MRVL:NASDAQ) (Seeking Alpha) https://seekingalpha.com/news/4675309-marvell-technology-retreats-11-as-tech-stocks-suffer
-· COHR Coherent sinks 14%, dragged down by tech selling (COHR:NYSE) (Seeking Alpha) https://seekingalpha.com/news/4675302-coherent-sinks-14-dragged-down-by-tech-selling
-· NVDA Nvidia stock extends $2.5 trillion rout as SEC probe reportedly investigates its accounting (Yahoo Finance) https://finance.yahoo.com/markets/article/nvidia-stock-extends-25-trillion-rout-as-sec-probe-reportedly-investigates-its-accounting-194945274.html
-· SMAL11 Small caps: Safra coloca na carteira banco que pode disparar 80% e chegar a R$ 100; confira o portfólio (Money Times) https://www.moneytimes.com.br/small-caps-safra-coloca-na-carteira-banco-que-pode-disparar-80-e-chegar-a-r-100-na-carteira-confira/
-· BTC Bitcoin Falls to More than Two-Year Low as Global Markets Sink (Bloomberg) https://www.bloomberg.com/news/articles/2026-11-20/bitcoin-falls-to-more-than-two-year-low-as-global-markets-sink
-· NVDA Nvidia stock plunges 12%, rides longest weekly losing streak since 2008 financial crisis (CNBC) https://www.cnbc.com/2026/11/20/nvidias-7-week-losing-streak-is-longest-since-2008-financial-crisis.html
-· BABA BABA DEADLINE ALERT: Faruqi & Faruqi, LLP Reminds Alibaba (GlobeNewswire) https://www.globenewswire.com/news-release/2026/11/20/3407783/0/en/baba-deadline-alert-faruqi-faruqi-llp-reminds-alibaba-nyse-baba-investors-of-securities-class-action-lawsuit-deadline-on-january-19-2027.html
-· BTC Ripple’s CEO Says Investors Sold XRP and Bitcoin to Buy Anthropic Shares (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/ripple-ceo-says-investors-sold-190103648.html
-· JPM JPMorgan adds Dallas fund-banking hub as Y’all Street private capital ecosystem grows (Yahoo Finance) https://finance.yahoo.com/real-estate/articles/jpmorgan-adds-dallas-fund-banking-190000985.html
-· BABA BABA Investors Have Opportunity to Lead Alibaba Group Holding Limited Securities Fraud Lawsuit with SBS Law (Business Wire) https://www.businesswire.com/news/home/20261120303208/en/BABA-Investors-Have-Opportunity-to-Lead-Alibaba-Group-Holding-Limited-Securities-Fraud-Lawsuit-with-SBS-Law
-· NVDA Anthropic And Nvidia Are Saying The AI Bubble Is Finally Popping (Seeking Alpha) https://news.google.com/rss/articles/CBMiqAFBVV95cUxNOExsYVF5bHI3Rm9XQTZoMTFJTVhEbFJ5bnhMdjJIdEVzRFBJc21STEhyVTdNLUpjZ3FYVVcwdWRMTWs3V1pHQXEzUTVPZXR3X2daWUV6UXFWMmE2aXR0eDlQVmUtYlc5ems1aWtEdGg0UzVFSlVNWXQ1NW94bFFzdnk4eGN5aml6Rkt3SE44R2k0WTNzR2JnUEU4bWk5d0xjSkRod3RrdWM?oc=5
-· AMD Intel Proved The CPU Comeback, AMD Will Cash It (NASDAQ:AMD) (Seeking Alpha) https://news.google.com/rss/articles/CBMitAFBVV95cUxOcTA1amRDQkFkZlp6NzZkT1RVcUpnTXZIUWc4ZUxuR3hEVXdxUkRDZE5rWEpmYTdpSFZoYzNPNHN3YkdjamhtT01fVmt6S1VscHlYYS14YTc2d01DdjdvSVFvTE9YdnN3b0xHeFByTU1yLWZ5clk3WG5jblc5dGh4MzRnN0gwRl9mSVhTMEZKWC1iRzhCc3ozVmI1N000N2FJeU9ReWwxQ1UwcHFIaTEtblJud00?oc=5
-· BTC Bitcoin Drops Below $59K, Wiping Out $1.5B In Crypto Bets: MSTR, BMNR, ASST Stocks Extend Losses (Yahoo Finance) https://news.google.com/rss/articles/CBMimwFBVV95cUxPSmFOTDFUSm9yQVRWVVpjbm1tZy1sbWJxZ0VWMGpFdkhFYWlzaEZ1UHdsZklzUTNnTkxNekxpcWMxZGJnN0M0UkwtRVpWa3pfdV9zX1dJME9adkpVWE8tYS1BTjU2X1gxWHJMVHpuRW9UWWJVRE9adW0xU1owNXZ5UmF2b0hRdU9IdzlHNDZoczFGZEZIS1dPOWJwNA?oc=5
-· BTC Binance hack laundering ramps up as $149 million in bitcoin mixed through coinjoins: Elliptic (The Block) https://news.google.com/rss/articles/CBMizAFBVV95cUxQSndDVWk0NjdkRDZvb1d2QURSZ1FnOUVVWEpaVWV1Uzg3d2VoWVVOdUtVOGQ3elR3eExRZFdCTUY2XzFOR1Z2Y01rMk9aLUxOQi1adzdlTFVQcnNpWjVFQWotdUhNR3JZZDRSY1BGSTZkbWV0bUNjemxyNFA1Q3I1MElrMVFhdndpUFh2T0I4SEpfdTNkYmlMREVDV0Vrd2M4SHlVWlpXRjBvd29aS1VNNW52bFc4OEpZT2xEYXhobjR3bEt0MU84Ujhhek4?oc=5
-· INTC Wedbush: Microsoft May Give Intel a Crucial AI Chip Win (TradingView (Reuters)) https://news.google.com/rss/articles/CBMitAFBVV95cUxNY09wdHk2d0JsTW5GSG1oMWdXa21OMEdGM19LQXFoV1BxNEo1d1Z2R2VzanhvYXNnQXN3QXp6YWZlWWc1czAzVFEyai1XUUQyaGV5LVFyRU81U0lGbExDbldOQjgzWThvMnRyUkpqYmxOQXNTQ1JoSzcxaXFVREtIQU04bW14Q09OSjhZbm51dGZXRXJJaTd6a3gzUUVzNWdKRjhYUzViaTJETGp1clpMRTlUMWE?oc=5
-· BTC Bitcoin Falls Below $60K as ETFs Bleed (Yahoo Finance) https://news.google.com/rss/articles/CBMimAFBVV95cUxPSmd6OHZkVXBjeW9fdUxxQ0Vnc2NJN2dESExEMFYzNVVUdGEzejhXUU9PcG55MWtnSHlIdk8zVnpBSm53bUxxN01lc1hNQmlKc3JVS0l1c0IxU2toR1hYajB2eW5uR3Qxcll3MF9vMW1jdjBMcDRKSXVZV3lCYmV2WGtLMW9NbFBLaGVXWDd5M2dhZkFxeGZUZA?oc=5
-· NVDA Nvidia Sinks 7% on New Probes as California AG Says Scandal “Raises Bright Red Flags” (Yahoo Finance) https://news.google.com/rss/articles/CBMingFBVV95cUxQMlVGXzRIN2w1MXlmamNOendhX29sRHppZzZRYnZRdDZNdUhmdVJXYlRJYzlYcU9BSE9jd25wc2dHMUNJQ0t3T0ViZFFYZmZZQWtnSWg5bjN1SDZrTkkwWGh2R3NvOEdpdlRUV19LRWg0SnNXcE4tVnZwd0ZENVJ5Rk5ZRllQOUl0RmVobUJCSGh1MGx6N2hSbTNXbDZiZw?oc=5
-· INTC Intel: Further Pain Ahead, Still Expensive For What It Is (Seeking Alpha) https://news.google.com/rss/articles/CBMinAFBVV95cUxPZl9GM1l3T0RwajFvNHc0al81U0NyNFF4Tm5IZnVmWWg3VUE3TVdQQXl2Unpsa3BsZDE4dktfbzhUTlJtX3ItbUZsVV9PR21QZmRub0EtOXg1TTlSb1dWUDB3Wm5YVUFXNTVPak1TVTVsanh6SUU0RUpmbjZyazdITlhaQnVEdFZLY2dnUDZsVlViR0YwMlNRdnVxNzg?oc=5
-· BTC Bitcoin falls over 20% in November as ETF outflows mount, but history offers some hope (TradingView (Reuters)) https://news.google.com/rss/articles/CBMi4wFBVV95cUxOQ3FkcklvTjB1ZDFNRVpGazlNYWQ1X2Y2SFJ5OHZ6VzJONjZsUHNzWUZtT1RjZl9xWFZQd2oxNDBEZ3M5MW9kMHhNNlJOTFkxWU9EQ0V1SnlTbndPUVVrNnNRRTdjMzgzakg2eWNHbE4zaEIxTHZldTdZOUhZS0YyUl92NTlmU1VybDJ0RGMtREtKWjZ1aWxYMFFhLWZQRVZWdE1OMVhmU3QyLWFJMWQ1WXNmenBhcVdYd0V4RUp4OGdIWHV4VEFoQm5HTHA3VENmLU92ZXI0eEFMUmQ5Z0R3WlZ5NA?oc=5
-· JPM JPMorgan Stocks Move Lower as CFO Handover Reshapes Dimon Bench (TradingView (Reuters)) https://news.google.com/rss/articles/CBMiwAFBVV95cUxObjE1dDBpaE1NNnpEOTJXNDBsUHhYN2Y1dzJJYWpnaUQ1b2dBUXN0bG5pSlg3T01TbF9kRExLczgwTGtBcE01bGVTU003WWJHLUFLeGFOYlBBbk1MT2dvX3ByODllR3J5amhDaDA0aWdVSFU1RGg1UENwRnJpLVFsZ0sxU2t4LTlIdHVvQVp1WnBUVjJyY0tDcDBtbEQxVzFmeXdxNGoweDRWMmdpdFpqU0hXSndXMi1ESzdoUmVjdDg?oc=5
-· INTC Intel Wins Microsoft AI Chip Business as Foundry Turnaround Faces New Test (TradingView (Reuters)) https://news.google.com/rss/articles/CBMizwFBVV95cUxOY2NRRmlxay1vNktiSVFZZTdRdWdBLUF2Tm04VUNIMC1jZXRHZVB3SHQxV2ZYaE5qa25jT1BjR2h0T19kZngxTjNIS2lrVFVmeE83aGJGaG1HREhpVFlqMHczdDhoUHh0cXlLRzVNbEphS2N6TVhHQ2xpa3FHM2cyS01SaFVfaUV5VVQ5Rk1UN2kzcFh5MnNhV3ZuMmxzSm1JM1FFQVJLZGl6clRCYTFZNUdvYUV5Qjk2SFFCMFA4dXI5NGp6ejFRYk91eDBQcWM?oc=5
-· JPM JPMorgan’s Dimon says will find ways to offset UK bank tax increase - FT (TradingView (Reuters)) https://news.google.com/rss/articles/CBMi1wFBVV95cUxOSi0xNG1tSjBFZGZadEp6T1ZaMy1yWFNGaVRyZUxQYUtIQ1FkME9Kd0ZYdm4tSWN2OGhSeS0tWTM3YmdBUmUyM1g3RHBXMnAwbi1sMkpIQkJQQWhsckptTGxDcUFadE4ydENQb2FDM3pFanRIT1k3VmwwaGdNWjh0eWo0Uzlkd0xZanhaUVJpM21FRUk4eUNsa3BSc3ltR2s0V2FEWlRjelpBd005Yy10UGpnWG5BQU13V21NYWYtVWRhc3VycUlWTUg4S3JhZEVDcHdydWdSYw?oc=5
-· JPM JPMorgan’s Dimon vows to claw back ‘unfair’ UK bank tax (Financial Times) https://news.google.com/rss/articles/CBMihAFBVV95cUxOS2k0a0xOVmVtVG5BUlRUQXZmNk9yZXBCWjBqNUoyNzdwR21mQnYyRGhDZE5ESzRGWXQxV014blY0S1M0Y0pHZTAwM243R0FPVFRsc3lBT0JmQlVZR21MVlYyb1BRNlEwNmV1MVBIT19jSk04SkEyd1lSRFJEX1lLZC1rZGk?oc=5
-· BTC Institutional bitcoin ETP holdings hit record $29.8B in Q3: Galaxy Research (Yahoo Finance) https://news.google.com/rss/articles/CBMiuwFBVV95cUxQY2ZtRXl3UGRLZ0VGaVY3bWtjbHJ1WkM3SDRBdlRIeHVqU0dZNzNkR3JJbHBDeDVTRHFraV9wdWQzZjlFWl95X1hSU1VFSG04MVh5SXp3eXFINVVnU1B2ZW4tLXNVQWp2Y001Q2tfQjZjTUhGWWFBY0RwUVNLeTktUTJ2YWc3X0Vhclp4TVhhQVJQeVFsMFJHVTlFSkJNUmE1OW9YUUdLa0xXY2hBN0NoeVI0MW1oaGRIY2lj?oc=5
-· BTC Bitcoin Breaks Below $60K as Crypto Fear Index Hits Worst Level Since February (Yahoo Finance) https://news.google.com/rss/articles/CBMinAFBVV95cUxPU0NwWlpFcF9rdzkwWWRVd0xhbk00Tm5Kck1KbHllT1NZXzk4VDNTTFNFU2EwUnNMQkg3S1FGM3lGeWxaVG5vMFBWYXNiWm0tM2owRVViMzNUY2RXc1U5QkhnS0E4X19VTVlOMGdoZXN4MEZOdzVRa0ZaaHF5ckVtSUlCWUlvbHp1TDBCWlZYVlVSel9oVGpIb3BSUzY?oc=5
-· GFS GlobalFoundries (GFS) Fell Despite Strong Results and Improved Guidance (Yahoo Finance) https://news.google.com/rss/articles/CBMipwFBVV95cUxPUHUwWGF0NnBXSlVycmxIVEdfbFZvbTg2NzJOZzNPOUFqZ1IzOHU5TWtFeDB0c2NtbkFMUEZPandsbnNqLTd6bldRVUxfcVRGTEwtNzdES1AwQmF5OVYxMkJYLUJUOGJVcUpkdENydzBDUmFlWVF4VEsyNk9EaXhrWEpoQW1QOGhseUlVZGVTZmlVOWlWUWxWbVotQkF4VlBiUmpQVUZsQQ?oc=5
-· USDBRL BC faz 1ª intervenção cambial desde 2024 após fala de Lula; dólar vai a R$ 5,94 (Bloomberg Linea) https://www.bloomberglinea.com.br/mercados/bc-faz-1-intervencao-cambial-desde-2024-apos-fala-de-lula-dolar-vai-a-r-594/
-· MRVL The combination with Marvell is going to be very powerful, says Lumentum CEO Hurlston (CNBC) https://www.cnbc.com/video/2026/11/19/the-combination-with-marvell-is-going-to-be-very-powerful-says-lumentum-ceo-hurlston.html
-· NVDA US approved sale of Nvidia and AMD chips to Chinese companies (Financial Times) https://www.ft.com/content/76342072-2781-4b16-ba3b-816a25214483?syn-25a6b1a6=1
-· NOK Is Nokia Oyj (HLSE:NOKIA) Trading At A Premium On Earnings? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/nokia-oyj-hlse-nokia-trading-002102369.html
-· TSM TSMC halts advanced chip orders from Chinese designers in Taiwan (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/tsmc-halts-advanced-chip-orders-000631441.html
-· BABA BABA INVESTOR ALERT: Alibaba Group Holding Limited (GlobeNewswire) https://www.globenewswire.com/news-release/2026/11/19/3407214/0/en/baba-investor-alert-alibaba-group-holding-limited-investors-with-substantial-losses-may-seek-to-lead-the-alibaba-class-action-lawsuit-rgrd-law.html
-· MRVL Lumentum CEO defends Marvell deal after stock plunge: 'We've got work to do' with shareholders (CNBC) https://www.cnbc.com/2026/11/19/lumentum-marvell-deal-ceo-shareholders-cramer.html
-· NVDA US Congress releases list of Chinese firms seeking Nvidia chips (South China Morning Post) https://www.scmp.com/news/china/diplomacy/article/3375135/us-congress-releases-list-chinese-firms-seeking-nvidia-chips
-· NVDA Alibaba defrauded shareholders by concealing ties to suspected spy in Nvidia scandal, lawsuit says (Reuters) https://www.reuters.com/business/retail-consumer/alibaba-defrauded-shareholders-by-concealing-ties-suspected-spy-nvidia-scandal-2026-11-19/
-· USDBRL Banco Central faz leilão extraordinário de US$ 1 bilhão à vista no mercado de câmbio (g1) https://g1.globo.com/google/amp/jornal-nacional/video/banco-central-faz-leilao-extraordinario-de-us-1-bilhao-a-vista-no-mercado-de-cambio-15265683.ghtml
-· NVDA California attorney general issues Nvidia subpoena in probe of China chip diversion (CNBC) https://www.cnbc.com/2026/11/19/nvidia-california-bonta-subpoena-china-chips.html
-· USDBRL Dólar supera R$ 5,93 e fecha no maior valor desde abril de 2025 (Agencia Brasil) https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/dolar-supera-r-593-e-fecha-no-maior-valor-desde-abril-de-2025
-· BTC Bitcoin slides toward $60,000 as spot ETF outflows near $3 billion (TradingView (Reuters)) https://www.tradingview.com/news/cryptobriefing:e730d6776094b:0-bitcoin-slides-toward-60-000-as-spot-etf-outflows-near-3-billion/
-· UST U.S. Treasury yields slip on safe-haven bid, 10-year posts four-day losing streak (Investing.com) https://www.investing.com/news/stock-market-news/us-treasury-yields-slip-on-safehaven-bid-10year-posts-fourday-losing-streak-5040235
-· AMD AMD: Why I See Opportunity After The Hunterbrook Short Report (NASDAQ:AMD) (Seeking Alpha) https://seekingalpha.com/article/4970322-amd-why-i-see-opportunity-after-the-hunterbrook-short-report
-· (+35 manchetes; lista completa em eventos/noticias.json)
+· PETR4 Petrobras aprova R$15,60 bi em remuneração extra a acionistas (UOL Economia) https://economia.uol.com.br/noticias/reuters/2026/11/23/petrobras-aprova-r1560-bi-em-remuneracao-extra-a-acionistas.htm
+· BBAS3 Banco do Brasil enfrenta novo alerta: corretora recomenda venda e prevê lucro ainda menor em 2027 (Estadao) https://www.estadao.com.br/em-alta/einvestidor/cenarios-e-mercado/banco-do-brasil-enfrenta-novo-alerta-corretora-recomenda-venda-e-preve-lucro-ainda-menor-em-2027/
+· USDBRL Após ir a R$ 6, dólar fecha em leve baixa, aos R$ 5,92, mesmo diante de incertezas sobre política fiscal e cenário externo (O Globo) https://oglobo.globo.com/economia/financas/noticia/2026/11/23/dolar-e-bolsa-hoje-cotacoes-reagem-a-votacao-de-medidas-fiscais-e-cenario-externo.ghtml
+· NVDA Plot Twist: Cathie Wood Sold Nvidia Over “Losing Jensen.” Nvidia Just Rehired Him, but Her Other Worry Remains (Yahoo Finance) https://news.google.com/rss/articles/CBMilwFBVV95cUxOTk1rRWlkUzJUaW9MeE1JYWRoVlJ5VExnVkdCZGItVUZ2SEZuR3dlZ01id2FDTzV0Z3NRQXRhZGFqMVlTWmlEQWlKbTc0QS1hMHNXT2RHckx0b0pIUTIwSkZHTFU2RWFfZmFnbU1reHdrdkhOVkdLVWZuTENRNDRJTXZIa0l3SExpd0FqOUEtNmlrWW5Tc3BV?oc=5
+· USDBRL Após tocar R$ 6,00, dólar recua 0,15%, a R$ 5,9262, com nomes para BC no radar (UOL Economia) https://news.google.com/rss/articles/CBMi1AFBVV95cUxQM0lka2JBc092aEQzMHFTLVp0S19jdXJEQVBOcU8yQjZ3T3pKSk9NNzZreGpaTGE0YVRscFltLVFuVC1ZU3Z4VlRhTTB0a0tMTzNwMERjMzdhbGVNTjN3YjFBWmo1VWhkUnRUa2ZXV0Y2anR3R0NRVlJOcGFWY3diVGt0bE1yR1k3VmJxdFFBdFZxNjBHelRabk9yelk1dEQxa3VhVkJUWm1XUE1KbXR3SGN1RENpcnJVeHc0ZjJIdEEyNUwwNmtCaHhHbW9pQXc5SHR2dQ?oc=5
+· JPM Divided Wall Street: Wells Fargo Upgrades US Large Caps To ‘Most Favorable,’ But JPMorgan Is Taking A Measured Approach (TradingView (Reuters)) https://news.google.com/rss/articles/CBMihwJBVV95cUxQTGNUVTJVR1N1ZkZCMXpuWWU4OXFyTFZJdWk4dFUzLTAxd2xRSTZQQkZDVDJmMHB2TGpUZDZNVWg0Z0JMbDYzUW95NU5DUWtoekcyckpKbllQWGgyWkgwUGY0RHhGZU1YTzVSNVU4N3NWZV9sdTFGal9Qck82MjVwNnZveUIzY0R2SE9Wb1dqaWNjTUtrOFF5WExhQ2NiejFyNkEyMGhaWjNiVS05YXZlbFFQZDlQUmxZbFh2YjBPaXVKVFMybmhaa05NVVF1MW9NUjB0Z0FxV1NRR0Fqc3ZFSU5WTEY2TWdYWk5yWFlmQ2FMOVN0V01UcTRvWXF5V0VGekJ2TXYzUQ?oc=5
+· AMD AMD’s Blockbuster Q3 Report Is Getting Lost in the Pullback (Yahoo Finance) https://news.google.com/rss/articles/CBMinwFBVV95cUxPTjFKT3p5WGFkWXllR0hiUHlBSGFvRnE1TlRLem9SSXJaYzJUSm5ad09oRURTV0VuZnczYXFEbXZDcmpSdUNVSHNFYVdkUC16d3J2NnVuMmV6d05QN2FtMGJPbE5EbWU4clRQNGd3OVNBQUtaOExMQWhiLWUtRFdFcms4RmVmVVZWd0JkeTRGMXl1RTBMektPYXJBQmJGZUU?oc=5
+· NVDA Nvidia Rehires Huang in Stunning Comeback Following Trump Push (Bloomberg) https://news.google.com/rss/articles/CBMirwFBVV95cUxOUkNIMGtvdXlmRlE2NVZqSEhkRFItNWFyeGJtR0pKbWxZTjRxZHQwTmxIbnB1eXFsZV9QWkE4bFRVMEtoU0huMmdNZHRUbnZmNTRkM3l6eVQtQ3J5OUxkZ1hxckxLQlF0aE5YZUtDTVBTT0x2eHRuQjVhdnFzNmpscXdMaUhRaGlsaVFVM0dHbF9yTURqSFpMczlrQXAyYjdqbUJTdWFjS2Jqa1pGeG9n?oc=5
+· NVDA Data, Stats and Facts from NVIDIA Earnings for NASDAQ:NVDA by ClearStreet (TradingView (Reuters)) https://news.google.com/rss/articles/CBMilAFBVV95cUxOTVFfVnZjNVphSmVLQmxEUWp4Ni1TRlBJSnpObk5obGdFR2FNQ3p3eUo5TW1Nc2Q2LWNlanNSRENTZHo1czFtd25FLTJYc2FXTjBCWGwxREg5d2NtRnViV0Z6aU5Gc09qSm9sSVZJeXBFbFZDeVF2Q3NCcXlMS0lydDdGRjJDeF84X0dWVWhyRFd4TmZo?oc=5
+· JPM Fidelity steps in where JPMorgan retreated (Yahoo Finance) https://news.google.com/rss/articles/CBMipwFBVV95cUxNMkh4Umx4YjY5YnNna1FvQzhjN1lSWGY0UVd3SEtZQUlJbXhSZ1BQSklFMnBiZURXbUhRd3ZWQ1JDNzBWOVUyMnRlUjhvdklMU3ZzZnFFX25jbVlfTDUxOTFTX0hIUG1vWjNTWUFwaDJZcFc2MHVmc0FraVdoekE4MWlndFRMRnNYY0psbHdiclcwMTVKZ1Z6UExEZFpYSWlHVTZkLXRXWQ?oc=5
+· USDBRL Dólar fecha a R$ 5,93 após superar R$ 6 pela 1ª vez desde abril de 2025 (Poder360) https://news.google.com/rss/articles/CBMisgFBVV95cUxOWml4WEI3TDFiWTVhb3dyVUZsOTItUXhFQzZXV3RneFdITkdZcFF4ZFQ2Ql9TR05CcWxqTVBwY0FYWm4xOFdSY29HMlc0eVE4V2JEZ2kwdVpSSzYwMHZqZ0kyWXZScUNKVkluZVJvRlNXTWY4bnFqODIzRTJvdFRjRDFBZU1iNXUyZG52YTlNelE5X3VWdmhpNE5kc3NrZWQ2aFdydVpodjJkeURZQTR0bHBn?oc=5
+· USDBRL Dólar sobe com as apostas em uma postura mais restritiva do Fed e a alta no setor de IA (TradingView (Reuters)) https://news.google.com/rss/articles/CBMid0FVX3lxTE1DS2tSZlUxWWc0Q0d5LWhOMlpqZHJuYXI1TG5nT0w4TGpoR2ZfcVM2MWVfUi1oNENVbm1KeVpUR1h4MGQwS0toM1poMXZibUNmM2RwUU1ORzJvWVBvSkF0dTBEanE1TVJkdm5iLTFxZGUxQjRjX01R?oc=5
+· TSLA “No Synergies” in a SpaceX-Tesla Merger? Really? Starlink Just Showed Up in a Cybercab Roof (Yahoo Finance) https://news.google.com/rss/articles/CBMingFBVV95cUxPeTBkN3JhOXVGUUJQYXo4c0xZRTRIdHRfdUp4bW9JQXB3TVROamxadVRIbHJwVjRZeEROSDFyOEEtRXpiSWNodXRsTGFUYlJfVEdhMHAyWVpCYlloSkFFanRwMlZtcDlEdzhMd2R2anBvcHBrYkN4UjJvQk5vSzlKRTFMVS1SdmVIR3R2TUEzNnNsRzZtaTlFNi1iTFh0dw?oc=5
+· VALE3 Temporal destrói unidades da C.Vale no RS e compromete estoque de grãos (CNN Brasil) https://news.google.com/rss/articles/CBMiqgFBVV95cUxQTEFqZkwxdXYyMDd6U0pIQlNSUk5CVF90Nk5zdFpRRVRGbmtOWVpwbFVzYjJrSGtENVVnQmZQNzNRSGl4X2ZlSWl1UWpmQWlNWmQxZ0Y3SU9aTEc0Z1pmTTl0Qmlwc0wzVWVNX2dFRVRrZHhyR01HM1UtVVI1QWZzZFV5QjJZUXNIMmxSWDFIZ0VBajhxVmJKeUJVSTlnNTZIbWhldzI2eHllZw?oc=5
+· USDBRL Dólar fecha em leve queda após ultrapassar os R$ 6 com tensão fiscal (Money Times) https://news.google.com/rss/articles/CBMiYkFVX3lxTFBhOXdPSUp1cnN0LTFqRWVZenJRb2g2NkE2SlowUmQ1SFVNMnQ3cmR6aERNQmFySzhBVTY1QUNCa2xCSDFFa20yS01fLWNiVWhVWlprd0l3N014RkZ3SVJpQmFB?oc=5
