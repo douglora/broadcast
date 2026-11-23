@@ -91,6 +91,9 @@ metodo em quant/saida/pesquisa5/BRIEF.md) e move a linha para "Testadas" com os 
 - 18/11/2026, tarde: nenhuma hipotese testavel; 7, 8, 9, 10, 12, 14, 15 e 16 seguem esperando dado novo ou sao prova viva. Nao ha item "[revisao: ...]"
   aberto. Prova viva rodou: indice fim do dia original 24 negocios (+R$ 58, t 1,9), variante adaptativa 17 (-R$ 63), abaixo de 60. Nenhuma tentativa nova (METODO: parar em vez de forcar).
 
+- 23/11/2026, tarde: nenhuma hipotese testavel; 7, 8, 9, 10, 12, 14, 15 e 16 seguem esperando dado novo ou sao prova viva. Nao ha item "[revisao: ...]"
+  aberto. Prova viva rodou: indice fim do dia original 26 negocios (+R$ 53, t 1,8), variante adaptativa 17 (-R$ 63), abaixo de 60; reversao do dado 6 negocios (-R$ 649). Pregao de 23/11: robo sem negocio; so medidos: nivel e reacao 17 sinais (+R$ 523), climax 2 (+R$ 294). Painel de opcoes regravado (cadeia de 19/11). Nenhuma tentativa nova (METODO: parar em vez de forcar).
+
 - 20/11/2026, tarde: nenhuma hipotese testavel; 7, 8, 9, 10, 12, 14, 15 e 16 seguem esperando dado novo ou sao prova viva. Nao ha item "[revisao: ...]"
   aberto. Prova viva rodou: indice fim do dia original 26 negocios (+R$ 53, t 1,8), variante adaptativa 17 (-R$ 63), abaixo de 60. Nenhuma tentativa nova (METODO: parar em vez de forcar).
 
