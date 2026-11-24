@@ -1,8 +1,8 @@
 {
  "pregao": "2026-11-23",
- "situacao": "publicando",
+ "situacao": "atrasado",
  "errata": false,
- "atualizado_em": "2026-11-24T07:12:48.803",
+ "atualizado_em": "2026-11-24T08:28:35.82",
  "completo": {
   "arquivo": "",
   "pdf": ""
@@ -12,9 +12,9 @@
    "id": 1,
    "nome": "Renda fixa",
    "pai": null,
-   "situacao": "publicando",
+   "situacao": "",
    "errata": false,
-   "atualizado_em": "2026-11-24T05:13:12.44",
+   "atualizado_em": "2026-11-24T08:45:07.687",
    "arquivo": "",
    "pdf": ""
   },
@@ -42,9 +42,9 @@
    "id": 2,
    "nome": "Indicadores e informativos",
    "pai": 20,
-   "situacao": "atrasado",
+   "situacao": "",
    "errata": false,
-   "atualizado_em": "2026-11-24T07:12:48.803",
+   "atualizado_em": "2026-11-24T08:45:07.687",
    "arquivo": "",
    "pdf": ""
   },
@@ -54,7 +54,7 @@
    "pai": 20,
    "situacao": "atrasado",
    "errata": false,
-   "atualizado_em": "2026-11-24T00:42:26.683",
+   "atualizado_em": "2026-11-24T08:05:42.827",
    "arquivo": "",
    "pdf": ""
   },
@@ -72,9 +72,9 @@
    "id": 33,
    "nome": "Derivativos de balcão",
    "pai": 3,
-   "situacao": "publicando",
+   "situacao": "atrasado",
    "errata": false,
-   "atualizado_em": "2026-11-24T01:52:40.833",
+   "atualizado_em": "2026-11-24T08:05:42.827",
    "arquivo": "",
    "pdf": ""
   },
