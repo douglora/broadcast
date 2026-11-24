@@ -1,8 +1,8 @@
-NOTÍCIAS E FATOS · 23/11 19h39
+NOTÍCIAS E FATOS · 23/11 21h41
 
-Pernas: noticias ok 27 novas (18 consultas; descartadas: 410 veículo fora da lista, 27 sem ativo, 87 teto) · cvm ok 6 novos de 6 (3 cias casadas) · sec ok 3 novos em 3 dias
+Pernas: noticias ok 25 novas (18 consultas; descartadas: 435 veículo fora da lista, 27 sem ativo, 8 teto) · cvm ok 1 novos de 7 (3 cias casadas) · sec ok 0 novos em 3 dias
 
-## FATOS RELEVANTES E COMUNICADOS (CVM) (6)
+## FATOS RELEVANTES E COMUNICADOS (CVM) (7)
 
 [ATENÇÃO] E03 · PETR4 · Fato Relevante: Seu Conselho de Administração aprovou, em reunião realizada hoje, o Plano de Negócios 2027-2031 (PN No PN 2027-31, a Petrobras mantém as estratégias…
 CVM · entregue 23/11/2026 19:39
@@ -67,6 +67,15 @@ Como falar: 'a Petrobras publicou fato relevante sobre Seu Conselho de Administr
 Fonte: CVM 23/11
 id: E03-PETR4-1592677-2026-11-23 · status: pendente · íntegra disponível
 
+[INFO] E03 · PETR4 · Comunicado ao Mercado: Apresentações a analistas/agentes do mercado
+CVM · entregue 23/11/2026 20:31 · Apresentações a analistas/agentes do mercado
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1592801
+Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; confirma ou nega o que circula
+Ativos: PETR4
+Como falar: 'a Petrobras publicou comunicado ao mercado sobre Apresentações a analistas/agentes do mercado'
+Fonte: CVM 23/11
+id: E03-PETR4-1592801-2026-11-23 · status: linha
+
 [INFO] E03 · VALE3 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
 CVM · entregue 23/11/2026 19:01 · Outros Comunicados Não Considerados Fatos Relevantes
 Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1592674
@@ -129,7 +138,139 @@ Fonte: SEC EDGAR 2026-11-23
 id: E04-BABA-26130757-2026-11-23 · status: linha · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (12)
+## NOTÍCIAS COM MATERIALIDADE (22)
+
+[ATENÇÃO] E05 · PETR4 · Petrobras mira produção recorde e aumenta previsão de dividendos em US$ 10 bilhões até 2031
+Estadao · 23/11 20h25 · fonte única · licença: manchete
+Link: https://www.estadao.com.br/em-alta/einvestidor/cenarios-e-mercado/petrobras-mira-producao-recorde-e-aumenta-previsao-de-dividendos-em-us-10-bilhoes-ate-2031/
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: PETR4
+Como falar: 'saiu no Estadao: Petrobras mira produção recorde e aumenta previsão de dividendos em US$ 10 bilhões até 20…; confirmar o número no texto antes de repassar'
+Fonte: Estadao 23/11 20h25
+id: E05-PETR4-76a90e2c90-2026-11-23 · status: pendente
+
+[ATENÇÃO] E05 · PETR4 · Petrobras: PN 2027-31 estima dividendos ordinários entre US$ 55 bi e US$ 60 bi
+UOL Economia · 23/11 20h14 · fonte única · licença: manchete
+Link: https://economia.uol.com.br/noticias/estadao-conteudo/2026/11/23/petrobras-pn-2027-31-estima-dividendos-ordinarios-entre-us-55-bi-e-us-60-bi.htm
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: PETR4
+Como falar: 'saiu no UOL Economia: Petrobras: PN 2027-31 estima dividendos ordinários entre US$ 55 bi e US$ 60 bi; confirmar o número no texto antes de repassar'
+Fonte: UOL Economia 23/11 20h14
+id: E05-PETR4-649eefb27d-2026-11-23 · status: pendente
+
+[ATENÇÃO] E05 · PETR4 · Petrobras (PETR4) prevê US$ 122 bilhões em investimentos em 5 anos e dividendos de até US$ 60 bilhões até 2031
+Money Times · 23/11 19h57 · + Seu Dinheiro · licença: integral
+Do texto:
+  – Petrobras (PETR4) prevê US$ 122 bilhões em investimentos em 5 anos e dividendos de até US$ 60 bilhões até 2031 A Petrobras (PETR4) divulgou nesta segunda-feira (23) o Plano Estratégico 2027-2031, com investimentos de US…
+  – O valor se compara aos US$ 109 bilhões do plano anterior (2026-2030), considerando os projetos em execução e os em avaliação.
+  – Do total anunciado pela estatal, US$ 113 bilhões fazem parte da carteira em implantação e os US$ 9 bilhões restantes estão na carteira em avaliação — esta última, segundo a Petrobras, composta por oportunidades com meno…
+  – A estatal também projeta dividendos ordinários de US$ 55 bilhões a US$ 60 bilhões no período, cerca de US$ 10 bilhões acima do que o plano anterior previa.
+  – Os principais números do plano da Petrobras O plano prevê investimentos (capex) de US$ 29,5 bilhões em 2027, US$ 28,3 bilhões em 2028, US$ 23,8 bilhões em 2029, US$ 22,3 bilhões em 2030 e US$ 17,8 bilhões em 2031.
+  – O investimento em caixa foi definido em US$ 24 bilhões em 2027 e 2028, e cai para US$ 15 bilhões em 2031.
+Link: https://www.moneytimes.com.br/petrobras-petr4-preve-us-122-bilhoes-em-investimentos-em-5-anos-e-dividendos-de-ate-us-60-bilhoes-ate-2031-ccgg/
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: PETR4
+Como falar: 'saiu no Money Times: Petrobras (PETR4) prevê US$ 122 bilhões em investimentos em 5 anos e dividendos de até US…; confirmar o número no texto antes de repassar'
+Fonte: Money Times 23/11 19h57
+id: E05-PETR4-1e9302ee0e-2026-11-23 · status: pendente · íntegra disponível
+
+[ATENÇÃO] E05 · PETR4 · Petrobras (PETR4) vai pagar US$ 15,6 bilhões em dividendos extraordinários; veja prazos e quem pode receber
+Money Times · 23/11 19h42 · + CNN Brasil, Seu Dinheiro · licença: integral
+Do texto:
+  – Petrobras (PETR4) vai pagar US$ 15,6 bilhões em dividendos extraordinários; veja prazos e quem pode receber A semana começa com uma das notícias mais aguardadas pelos acionistas: dividendos extraordinários da Petrobras…
+  – O Conselho de Administração da estatal aprovou nesta segunda-feira (23) a distribuição de R$ 15,60 bilhões, ou R$ 1,21035949 por ação ordinária e preferencial em circulação.
+  – Para os acionistas com papéis negociados na B3, a data-base para ter direito ao provento será 7 de dezembro de 2026.
+  – O pagamento está previsto para 23 de dezembro de 2026.
+  – A Petrobras informou ainda que o montante pago será descontado da remuneração aos acionistas que vier a ser aprovada na Assembleia Geral Ordinária de 2027, referente ao exercício de 2026.
+  – Segundo a Petrobras, a distribuição anunciada nesta segunda-feira (23) está alinhada à Política de Remuneração aos Acionistas vigente, que prevê o pagamento de dividendos extraordinários desde que seja compatível com a…
+Link: https://www.moneytimes.com.br/petrobras-petr4-vai-pagar-us-156-bilhoes-em-dividendos-extraordinarios-veja-prazos-e-quem-pode-receber-ccgg/
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: PETR4
+Como falar: 'saiu no Money Times: Petrobras (PETR4) vai pagar US$ 15,6 bilhões em dividendos extraordinários; veja prazos e…; confirmar o número no texto antes de repassar'
+Fonte: Money Times 23/11 19h42
+id: E05-PETR4-9cbe2a6f1f-2026-11-23 · status: linha · íntegra disponível
+
+[ATENÇÃO] E05 · PETR4 · Petrobras (PETR4) aprova investimentos de US$ 122 bi em plano de negócios 2027-2031
+InfoMoney · 23/11 19h41 · + Poder360, UOL Economia · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Publicidade A Petrobras (PETR3;PETR4) anunciou nesta segunda-feira (23) seu novo Plano de Negócios 2027-2031, prevendo investimentos totais de US$ 122 bilhões no período.
+  – O montante supera o plano anterior e fica alinhado às expectativas de mercado de um programa de investimentos acima de US$ 120 bilhões.
+  – Do total previsto, US$ 113 bilhões serão destinados a projetos já em implantação e outros US$ 9 bilhões a projetos ainda em fase de avaliação, que possuem menor grau de maturidade.
+  – O grande destaque do plano é a continuidade da prioridade dada ao segmento de exploração e produção (E&P), responsável por mais de 70% dos investimentos da estatal.
+  – A área receberá US$ 86 bilhões, sendo US$ 83 bilhões em projetos já aprovados e cerca de US$ 3 bilhões em oportunidades em avaliação.
+  – Segundo a companhia, 60% dos recursos destinados ao E&P serão direcionados ao pré-sal, principal motor de crescimento da produção brasileira.
+Link: https://www.infomoney.com.br/mercados/petrobras-petr3-petr4-aprova-investimentos-de-us-122-bi-em-plano-de-negocios-2027-2031/
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: PETR4
+Como falar: 'saiu no InfoMoney: Petrobras (PETR4) aprova investimentos de US$ 122 bi em plano de negócios 2027-2031; confirmar o número no texto antes de repassar'
+Fonte: InfoMoney 23/11 19h41
+id: E05-PETR4-bba15af060-2026-11-23 · status: linha
+
+[ATENÇÃO] E05 · PETR4 · Petrobras prevê investir US$ 122 bilhões até 2031, alta de 11,9% em relação ao plano anterior
+g1 · 23/11 19h38 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Petrobras — Foto: Foto Divulgação A Petrobras aprovou nesta segunda-feira (23) seu novo plano de negócios, que prevê investimentos de US$ 122 bilhões (cerca de R$ 723 bilhões) entre 2027 e 2031.
+  – O valor é 11,92% superior aos US$ 109 bilhões estimados para o período de 2026 a 2030.
+  – A maior parte dos recursos será destinada à exploração e produção de petróleo e gás, que concentrará mais de 70% do total, com US$ 86 bilhões (R$ 509 bilhões).
+  – "Esse é um plano construído com ambição e que será conduzido com responsabilidade.
+  – Isso significa disciplina de capital e rigor em cada decisão", afirmou, em nota, a presidente da Petrobras, Magda Chambriard.
+  – "Vamos investir em projetos que mantêm retorno positivo mesmo nos cenários mais desafiadores, todos sustentados por uma sólida governança de aprovação", acrescentou.
+Link: https://g1.globo.com/economia/noticia/2026/11/23/petrobras-investimento-2027-a-2031.ghtml
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: PETR4
+Como falar: 'saiu no g1: Petrobras prevê investir US$ 122 bilhões até 2031, alta de 11,9% em relação ao plano ante…; confirmar o número no texto antes de repassar'
+Fonte: g1 23/11 19h38
+id: E05-PETR4-9142fc524d-2026-11-23 · status: linha
+
+[ATENÇÃO] E05 · PETR4 · Petrobras anuncia plano de investimento recorde de US$ 122 bilhões para os anos de 2027 a 2031
+O Globo · 23/11 19h23 · fonte única · licença: manchete
+Link: https://oglobo.globo.com/economia/negocios/noticia/2026/11/23/petrobras-anuncia-plano-de-investimentos-de-us-122-bilhoes.ghtml
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: PETR4
+Como falar: 'saiu no O Globo: Petrobras anuncia plano de investimento recorde de US$ 122 bilhões para os anos de 2027 a…; confirmar o número no texto antes de repassar'
+Fonte: O Globo 23/11 19h23
+id: E05-PETR4-7cf7c68629-2026-11-23 · status: linha
+
+[ATENÇÃO] E05 · DI · Copom mantém previsão da taxa básica de juros para 13% em 2027
+Agencia Brasil · 23/11 14h30 · fonte única · licença: integral
+Do texto:
+  – Os analistas do mercado financeiro estimam que a taxa básica de juros brasileira, a Selic, deve ficar em 13% em 2027.
+  – É o que mostra o boletim Focus, publicado nesta segunda-feira (23), pelo Copom, Comitê de Política Econômica do Banco Central.
+  – Atualmente a nossa Selic está em 13,75%, conforme definiu o Copom, na última reunião.
+  – Quanto à inflação, o boletim traz um aumento na estimativa do IPCA, índice de Preços ao Consumidor Amplo, de 5,15% no índice calculado mensalmente pelo IBGE.
+  – "Esse debate todo com relação às contas públicas para 2027, projeto de lei apresentado pelo governo, isso tem realmente afetado as expectativas com relação às contas públicas.
+  – Isso faz com que o mercado precifique uma inflação maior para 2027.
+Link: https://agenciabrasil.ebc.com.br/radioagencia-nacional/economia/audio/2026-11/copom-mantem-previsao-da-taxa-basica-de-juros-para-13-em-2027
+Por que importa: decisao de politica monetaria reprecifica toda a curva e o cambio
+Ativos: DI
+Como falar: 'saiu no Agencia Brasil: Copom mantém previsão da taxa básica de juros para 13% em 2027; confirmar o número no texto antes de repassar'
+Fonte: Agencia Brasil 23/11 14h30
+id: E05-DI-5ba32ecc4b-2026-11-23 · status: linha · íntegra disponível
+
+[ATENÇÃO] E05 · NVDA · This Is the Number That Could Change Nvidia Stock’s Outlook for 2027
+Yahoo Finance · 23/11 14h03 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Quick Read - Nvidia (NVDA) fell 18% this year despite a record quarter, giving it a path to $300 if it doubles in 2027.
+  – - Analysts' $254 average price target implies 66% upside, and fiscal 2028 revenue is forecast to jump 67%.
+  – - At $300, Nvidia would trade at 19x fiscal 2028 earnings, a reasonable multiple for a company expected to grow EPS 70%.
+  – Fiscal third-quarter revenue reached $115.84 billion, up 103.2% year over year.
+  – Vera Rubin generated nearly $20 billion in its first quarter of shipments, which management called "the fastest product ramp in NVIDIA's history." Even so, shares are down 18.01% year to date and 29.73% over the past mo…
+  – Interim CEO Colette Kress pushed back on the gloom: "Our momentum is real.
+Link: https://finance.yahoo.com/markets/stocks/articles/number-could-change-nvidia-stock-170340037.html
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: NVDA
+Como falar: 'saiu no Yahoo Finance: This Is the Number That Could Change Nvidia Stock’s Outlook for 2027; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 23/11 14h03
+id: E05-NVDA-9d533a1601-2026-11-23 · status: linha
+
+[ATENÇÃO] E05 · META · Meta Platforms Stocks Rebound 6.13% After 12.6% Weekly Slide on Class C Lawsuit
+TradingView (Reuters) · 23/11 14h03 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/gurufocus:ba61dd808094b:0-meta-platforms-stocks-rebound-6-13-after-12-6-weekly-slide-on-class-c-lawsuit/
+Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e prazo
+Ativos: META
+Como falar: 'saiu no TradingView (Reuters): Meta Platforms Stocks Rebound 6.13% After 12.6% Weekly Slide on Class C Lawsuit; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 23/11 14h03
+id: E05-META-a0464d9a3c-2026-11-23 · status: linha
 
 [ATENÇÃO] E05 · PETR4 · Petrobras anuncia US$ 122 bilhões em investimentos para 2027-2031
 CNN Brasil · 23/11 19h29 · + O Globo · licença: resumo
@@ -288,8 +429,23 @@ Fonte: Yahoo Finance 23/11 06h04
 id: E05-BTC-5e2b0f3c74-2026-11-23 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (15)
+## OUTRAS NOTÍCIAS (só manchete) (30)
 
+· PETR4 Petrobras aprova pagamento de R$ 15,6 bilhões a acionistas (Agencia Brasil) https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/petrobras-aprova-pagamento-de-r-156-bilhoes-acionistas
+· USDBRL Dólar atinge R$ 6 em meio às incertezas com os rumos da economia brasileira e cenário internacional desfavorável (g1) https://g1.globo.com/jornal-nacional/noticia/2026/11/23/dolar-atinge-r-6-em-meio-as-incertezas-com-os-rumos-da-economia-brasileira-e-cenario-internacional-desfavoravel.ghtml
+· BTC CFTC staff say exchanges can count Bitcoin toward operating reserves (TradingView (Reuters)) https://www.tradingview.com/news/cointelegraph:619462aae094b:0-cftc-staff-say-exchanges-can-count-bitcoin-toward-operating-reserves/
+· PETR4 Ibovespa cai com Petrobras e dólar fecha estável em meio a temor com fiscal (TradingView (Reuters)) https://br.tradingview.com/news/reuters.com,2026:newsml_L2N474151:0/
+· AMD AMD: Even 80% Growth Is Not Enough To Make Me Buy (NASDAQ:AMD) (Seeking Alpha) https://news.google.com/rss/articles/CBMinAFBVV95cUxPUUkzVE1zWU4yeldGOHViRWpZNUc3XzZza1dUVUo3WnJIbFRDWmVUMjd0TVAxbVQ2aEZSYU5jZTJzd2piS3RZYnQzTlJaWnNHUlROeWNHQjBqNnFNd3Rsc285R2kxaVVUbVVWemJkOWEtamwwQVdSeFA0bVVpX093TVVmcVRLUVBzMmFQaGhwQV9NaUgyaFhWaWJIWUw?oc=5
+· PETR4 Produção comercial da Petrobras 2027-31 será de 3,2 milhões de boed entre 2028 e 2031 (UOL Economia) https://news.google.com/rss/articles/CBMi6AFBVV95cUxNRkhwUG5LVG1qXzQ1VjdYejB2MjNIZ0loLTg4UHZRcXV3TWx1bXBJaGtCXzBjUElFUk03MzVXckItUmtnME96VzlndGRkQmN3RHdCd0NMZ3pSVTExcHZWOXVPU1RsZlJORG43Vjg3Tk5qRS1lTnA1VmFST21vQVNwZGZ1bHFCc0d3Q2NLVThWc00yblJsYWlfWFNnQUVqRGx2THlmRG1ZUTJRZG5Ebi1PejBQV0VlOEhRZTZjVlBjcWNPMUNFZWtlV25SQjlFRE81ZlRzY2o1TUx2VDhXbHhkNm5OVThLMTR1?oc=5
+· PETR4 Petrobras vai aportar R$1,8 bi em produtora de etanol de milho, diz CerradinhoBio (InfoMoney) https://news.google.com/rss/articles/CBMiuAFBVV95cUxNaTV5VEJTbkJtVGhnUTBPQmwyM3BNdFJlSDgwelV2c0N1RFYtbVQ5eUVjSEtvQXFXNzM0MU5VUmM1QzBqdmo5SVRyRGpYMW1RTHVGYWJ5OHZ3cUN3MEstQVMwWmI1MmFjUEhhQWFJWndRYUo5U3o4ZkFPWUMzNWNxSENIMXB1SXU5dEpCOVlkc2tPM2oyWklWeGVrNWZydEt4RkpFdjNjNjBwNDhGY2pYczJ2Nzk4SHRh0gG-AUFVX3lxTE9ldnV1eklTRkJoQk9pMTJVUV9VQm1OUng2Z1Q4NXZDTHExdmFnZWhsSzdsMHNmTmh4STRLNW9fQ0JWd0dGdE5fd2gyYm5INWVKZXBnZ182Xy1hdjJlR1RmM0hoYlJISjFabE5wV2RGRlkwMW1qcGwxeUdBM1dIYUhGcjJfV0haQktha1JXelE2MDhia216ODkwaml3SGNvZ0I3NWhwT1ZGQjc1M2xxMlFZQVhyQTh1ZjlMTHlTNHc?oc=5
+· PETR4 Produção de fertilizantes da Petrobras deve começar em 2029, em MS (CNN Brasil) https://news.google.com/rss/articles/CBMiogFBVV95cUxPUlM1X0hVVFhFU2VHOEVyNTZpQ0tHZ3BlUDZlMkJ3LXVPUF9pdF9Wb2k3bGE1alh6aHlnWWI2eUx3eml6YU5xNnM2UnRjV2VFbGlELXg4ZllFbXpkblNCYzlZRkZyMnVuZV9iQ1hYczc3SXl0YXc2N3plUndRWG4zQjdVTVRIQzRPUmJNV1pVTTJNWUlwa3NBT3E0eHU2ZTJIV1E?oc=5
+· VALE3 Vale retoma parcialmente operações na Mina de Viga, em MG (Valor Economico) https://news.google.com/rss/articles/CBMitAFBVV95cUxOdjVWdXhZcG44V1FJMTJkeGxieFY2ZmNGWEROT3BWNV9lbHcydmdyb1FKRzBOSGZzQ2duTlNvTDJ3UXp5cFZiQXRxQVNMb0k0TVprNk5fUjZTRWljTXJ0MzVDdHpsR3JjYUdzMnQzNmpTbkw3YnhvZzhtOTFIOFJENHRoVjlGTHc1cl9sS3Z2elpwT2VXMm84ZmdiVUNLajRKNTV5ZkZHT1hYVW10LWFSNHpoT3rSAcMBQVVfeXFMTTZmR3c1cUxYSFNRX21jaXkwUlltQ2VySldIaDRKRExVUGRWRlA2bXhSejUwYlZ3Yk5VZHVkdTNzWkMtYjItSzNsWEdrQy1lckVqZmtTUVdxTHY0VU1nMnMzZDdmTjR4U2NscnNVV1I5M1BsQzVsaXROT1hiVjR1ZXlYQmhLNnFpdi1zVDVlYUhJY3ZjSWtETy1xQ2JXb1B0cjNhNENqNFRVNjhkaUQ5SHY2eDZMcVhrSmhqT1RESDh4QXQw?oc=5
+· PETR4 Dólar bate R$ 6, mas vira e fecha em queda; Ibovespa recua com Petrobras e bancos (Exame) https://news.google.com/rss/articles/CBMia0FVX3lxTFA3OVVkOTF5ZEpWcnN3dlM1MkJ2VTg4Z3Z4eGN0Vm1RYXlseEY4Yk5ZdXJTNnJUX0JYbzBscHVUT0ROMEdFUThhYXdKZjYwMkJBNjE4UnRFa3hpS2REUzBVeDFxYnV5cm1VMThr?oc=5
+· USDBRL Ibovespa tem terceira queda seguida; dólar fecha em leve baixa após bater R$ 6 (InfoMoney) https://news.google.com/rss/articles/CBMijwFBVV95cUxPV0hzZG9EMVFMTTR3eWVHdDZJZWVwSm9yaTYzWW02UWNXUUNLeDktQUpvemF3WWwyMDVzbU13RFdVbkl0VEtGUGU4Qm9UTmZtTXhmZUxGdXdWSWlSU0t1a3BsUl9VelBtanhGbTZjUlNtdkVIRGlmQm4yaGU5YzA2LU5qMUJIeDhsMFM1eW80OA?oc=5
+· TESOURO Incertezas seguram taxas do Tesouro Direto acima de 15%; título de 2032 paga 15,59% (Estadao) https://news.google.com/rss/articles/CBMi4wFBVV95cUxNNWtFSTlwcDZTem1FWW9vb2JnNGtwMHhrRWxtczRmUE5jSWlXWU8tN0JHa2dQUkNWejhTYTN0Q1pLcGJfdlBjcnlUM3FHbHNwb21XSi1MMWdwNHZzd3dzVXk1a3AtSXYzanRWNnJoNUh1NGFlLXY5blBtd3l2LU1pbk5VQTRHMmYwc3hFUXRUb3RyZS01RkdIUHhQMlBZdTA1V1o0X3M3ZHp2UTA3WlRPTXZpdkRGRmppckEtd3RTaE53MmZpbjZvT0N0a01ieWQzZGNZSGhZd0otWUlxR3hMM3BtTdIB6AFBVV95cUxOWEdCVHBkNTNXbjNiMjV5ZHZmT3AyRnhVeEZmM0tSSXRfSU1aNVIzOHFQWXRUWTYyS0J6MERXSmVJWktRYkYxX2w4UmdlZUdZdDBHbFAxS1pUZFBYV2JuazNqdHE1djZ2Q2lhcHBGQWNEYkdfYUlJRVI3Vk1WTm1SR3FsTlp5QUFXa2NtRWp2ZzBpMzdKeHBlZENCQTR0WFluMHM5ckRURktrTTdOdDdYdDYtdG1GaWJWMjVjcWZLd19iaHUzUVYtZTdiMTk5TVB4VjRvenQ0dnhIdjJVTDBOdWs0VGJpSHNs?oc=5
+· USDBRL Dólar sobe: A tempestade perfeita (dentro e fora do Brasil) que levou preço a R$ 6 (BBC) https://news.google.com/rss/articles/CBMiY0FVX3lxTE4wQ3FOWW83a2RFOHVPbnV6ODJEMzdITFNTTEY1eFFqWjM5Z0RmZ3BuRWh2ejRQLV81eDZPQ0NUT3ZpeXdoQXVWRmhvZEhacWt0eE1RY1VNMU1nNVdTaF95NHlRc9IBaEFVX3lxTE42VFI1UkNwRWVENElmdUZmLTF5UWtNV1VhQndlaUhyaFo5QkRHUnFzMkxGVDdiUy02S29OaW5oUjZFanpzQlgwby1INTIwa21WczFobVI4NnFqVm8tcjhGMVRLa2xZWmFS?oc=5
+· BTC Solo Bitcoin Miner Scores Again, Hitting $191,000 Jackpot Against the Odds (Yahoo Finance) https://news.google.com/rss/articles/CBMinAFBVV95cUxQRF96cHlzdkFYdDRPREFIbU5TUXViTnJ2cGlsWGQ1Mm93enRrQnpzYW00LWJqRWdHWXowOWNoTWMwZURTUzRNQVlxdVl3dGdwYkw3R3R5YVZBSW5jTUpCUzR5Y18wMTE0ZDljdFNsYjN1dVl0ajZfTVg0R01kZTc2Ukc4QkUydzFxTUJOWU1kU2p1cXVoMXY0dXhUdmo?oc=5
+· ITUB4 No encontro de três gerações de CEOs, Setubal explica como o Itaú equilibra cautela e mudança (NeoFeed) https://news.google.com/rss/articles/CBMiwwFBVV95cUxOTVRBM19mYWNUVW01UFJhVjMzQWU2LVFsNjlyZGpRYUV2MDRETDQzRzdROEZZZGdiVzNIRXFNUFdxT1F1bExZYTZFYzBMdFBjd05GZFVuam8tVE40Slkxbm9NOF93V3FLUm92SmZDTU0tYkEyU1FRVnFfQnhyek1ZdUNvVjdCN0FkSXZPLU9Lanota01obkNOVkNMdVY5Z1NHS1ZxM2hpU29HUFFrQnpHSW9UNV92SWdicG52YmVqdW4za2c?oc=5
 · PETR4 Petrobras aprova R$15,60 bi em remuneração extra a acionistas (UOL Economia) https://economia.uol.com.br/noticias/reuters/2026/11/23/petrobras-aprova-r1560-bi-em-remuneracao-extra-a-acionistas.htm
 · BBAS3 Banco do Brasil enfrenta novo alerta: corretora recomenda venda e prevê lucro ainda menor em 2027 (Estadao) https://www.estadao.com.br/em-alta/einvestidor/cenarios-e-mercado/banco-do-brasil-enfrenta-novo-alerta-corretora-recomenda-venda-e-preve-lucro-ainda-menor-em-2027/
 · USDBRL Após ir a R$ 6, dólar fecha em leve baixa, aos R$ 5,92, mesmo diante de incertezas sobre política fiscal e cenário externo (O Globo) https://oglobo.globo.com/economia/financas/noticia/2026/11/23/dolar-e-bolsa-hoje-cotacoes-reagem-a-votacao-de-medidas-fiscais-e-cenario-externo.ghtml

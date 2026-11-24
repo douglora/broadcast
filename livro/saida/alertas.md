@@ -1,14 +1,5 @@
 ALERTAS · eventos
 
-(pendente de slot anterior) [ATENÇÃO] E05 · BABA · Citi cuts Alibaba stock price target on cloud revenue outlook
-Investing.com · 20/11 07h45 · fonte única · licença: manchete
-Link: https://www.investing.com/news/analyst-ratings/citi-cuts-alibaba-stock-price-target-on-cloud-revenue-outlook-93CH-5041164
-Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
-Ativos: BABA
-Como falar: 'saiu no Investing.com: Citi cuts Alibaba stock price target on cloud revenue outlook; confirmar o número no texto antes de repassar'
-Fonte: Investing.com 20/11 07h45
-ids: E05-BABA-114266897c-2026-11-20
-
 (pendente de slot anterior) [ATENÇÃO] E05 · KO · Coca-Cola or Shell: Only One Gets My Dividend Dollars for the Next 20 Years
 Yahoo Finance · 20/11 05h59 · fonte única · licença: resumo
 Trechos (licença resumo: reescrever, não colar):
@@ -25,7 +16,7 @@ Como falar: 'saiu no Yahoo Finance: Coca-Cola or Shell: Only One Gets My Dividen
 Fonte: Yahoo Finance 20/11 05h59
 ids: E05-KO-090286db10-2026-11-20
 
-[ATENÇÃO] E03 · PETR4 · Fato Relevante: Seu Conselho de Administração aprovou, em reunião realizada hoje, o Plano de Negócios 2027-2031 (PN No PN 2027-31, a Petrobras mantém as estratégias…
+(pendente de slot anterior) [ATENÇÃO] E03 · PETR4 · Fato Relevante: Seu Conselho de Administração aprovou, em reunião realizada hoje, o Plano de Negócios 2027-2031 (PN No PN 2027-31, a Petrobras mantém as estratégias…
 CVM · entregue 23/11/2026 19:39
 Do documento:
   – A Petrobras reafirma sua ambição de permanecer relevante na oferta de energia ao Brasil até 2050,  expandindo simultaneamente a oferta de combustíveis fósseis e renováveis.
@@ -39,10 +30,9 @@ Por que importa: fato relevante e o que a propria companhia julga capaz de mover
 Ativos: PETR4
 Como falar: 'a Petrobras publicou fato relevante sobre Seu Conselho de Administração aprovou, em reunião realizada hoje, o P…'
 Fonte: CVM 23/11
-Push: eventos: 7 alertas de atenção — E03 PETR4, E03 PETR4, E03 PETR4, E03 PETR4, E05 PETR4, E05 PETR4, E05 PETR4 · detalhe na sessão
 ids: E03-PETR4-1592762-2026-11-23
 
-[ATENÇÃO] E03 · PETR4 · Fato Relevante: Celebrou acordo para adquirir participação de 42% da Neomille S.A., empresa de produção de etanol de milho do Grupo CerradinhoBio.
+(pendente de slot anterior) [ATENÇÃO] E03 · PETR4 · Fato Relevante: Celebrou acordo para adquirir participação de 42% da Neomille S.A., empresa de produção de etanol de milho do Grupo CerradinhoBio.
 CVM · entregue 23/11/2026 19:29
 Do documento:
   – O valor total da aquisição será de R$ 2,8 bilhões, incluindo R$ 1,8 bilhão em aporte primário de recursos  na Neomille, mediante subscrição de novas ações.
@@ -58,7 +48,7 @@ Como falar: 'a Petrobras publicou fato relevante sobre Celebrou acordo para adqu
 Fonte: CVM 23/11
 ids: E03-PETR4-1592757-2026-11-23
 
-[ATENÇÃO] E03 · PETR4 · Fato Relevante: Seu Conselho de Administração aprovou, em reunião realizada hoje, o Plano de Negócios 2027-2031 (PN No PN 2027-31, a Petrobras mantém as estratégias…
+(pendente de slot anterior) [ATENÇÃO] E03 · PETR4 · Fato Relevante: Seu Conselho de Administração aprovou, em reunião realizada hoje, o Plano de Negócios 2027-2031 (PN No PN 2027-31, a Petrobras mantém as estratégias…
 CVM · entregue 23/11/2026 19:19
 Do documento:
   – A Petrobras reafirma sua ambição de permanecer relevante na oferta de energia ao Brasil até 2050,  expandindo simultaneamente a oferta de combustíveis fósseis e renováveis.
@@ -74,7 +64,7 @@ Como falar: 'a Petrobras publicou fato relevante sobre Seu Conselho de Administr
 Fonte: CVM 23/11
 ids: E03-PETR4-1592735-2026-11-23
 
-[ATENÇÃO] E03 · PETR4 · Fato Relevante: Seu Conselho de Administração (CA), em reunião realizada hoje, aprovou o pagamento de remuneração extraordinária aos acionistas no valor de R$ 15,6 0…
+(pendente de slot anterior) [ATENÇÃO] E03 · PETR4 · Fato Relevante: Seu Conselho de Administração (CA), em reunião realizada hoje, aprovou o pagamento de remuneração extraordinária aos acionistas no valor de R$ 15,6 0…
 CVM · entregue 23/11/2026 19:16
 Do documento:
   – Data base: para os detentores de ações de emissão da Petrobras negociadas na B3, a data base será em  07 de dezembro de 2026.
@@ -89,7 +79,7 @@ Como falar: 'a Petrobras publicou fato relevante sobre Seu Conselho de Administr
 Fonte: CVM 23/11
 ids: E03-PETR4-1592677-2026-11-23
 
-[ATENÇÃO] E05 · PETR4 · Petrobras anuncia US$ 122 bilhões em investimentos para 2027-2031
+(pendente de slot anterior) [ATENÇÃO] E05 · PETR4 · Petrobras anuncia US$ 122 bilhões em investimentos para 2027-2031
 CNN Brasil · 23/11 19h29 · + O Globo · licença: resumo
 Trechos (licença resumo: reescrever, não colar):
   – A Petrobras aprovou nesta segunda-feira (23) um plano de negócios com investimentos de US$ 122 bilhões entre 2027 e 2031.
@@ -105,7 +95,7 @@ Como falar: 'saiu no CNN Brasil: Petrobras anuncia US$ 122 bilhões em investime
 Fonte: CNN Brasil 23/11 19h29
 ids: E05-PETR4-5b0a9fd3e3-2026-11-23
 
-[ATENÇÃO] E05 · PETR4 · Petrobras vai pagar R$ 15,6 bilhões em dividendos extraordinários
+(pendente de slot anterior) [ATENÇÃO] E05 · PETR4 · Petrobras vai pagar R$ 15,6 bilhões em dividendos extraordinários
 O Globo · 23/11 19h18 · fonte única · licença: manchete
 Link: https://oglobo.globo.com/economia/noticia/2026/11/23/petrobras-vai-pagar-r-156-bilhoes-em-dividendos-extraordinarios.ghtml
 Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
@@ -114,7 +104,7 @@ Como falar: 'saiu no O Globo: Petrobras vai pagar R$ 15,6 bilhões em dividendos
 Fonte: O Globo 23/11 19h18
 ids: E05-PETR4-d392df89b1-2026-11-23
 
-[ATENÇÃO] E05 · PETR4 · Petrobras compra 42% da produtora de etanol de milho Neomille por R$ 2,8 bi
+(pendente de slot anterior) [ATENÇÃO] E05 · PETR4 · Petrobras compra 42% da produtora de etanol de milho Neomille por R$ 2,8 bi
 CNN Brasil · 23/11 19h01 · fonte única · licença: resumo
 Trechos (licença resumo: reescrever, não colar):
   – A Petrobras fechou um acordo para adquirir 42% do capital social da Neomille, produtora de etanol de milho controlada pela CerradinhoBio, em uma operação avaliada em R$ 2,8 bilhões.
@@ -130,40 +120,72 @@ Como falar: 'saiu no CNN Brasil: Petrobras compra 42% da produtora de etanol de 
 Fonte: CNN Brasil 23/11 19h01
 ids: E05-PETR4-9b0da55200-2026-11-23
 
-Info (só linha no Fechamento):
-· E03 VALE3 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
-· E03 ITSA4 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
-· E04 BABA · 6-K: 6-K
-· E05 PETR4 · Petrobras aprova R$15,60 bi em remuneração extra a acionistas
-· E05 BBAS3 · Banco do Brasil enfrenta novo alerta: corretora recomenda venda e prevê lucro ainda menor em 2027
-· E05 USDBRL · Após ir a R$ 6, dólar fecha em leve baixa, aos R$ 5,92, mesmo diante de incertezas sobre política fiscal e cenário externo
-· E05 NVDA · Plot Twist: Cathie Wood Sold Nvidia Over “Losing Jensen.” Nvidia Just Rehired Him, but Her Other Worry Remains
-· E05 USDBRL · Após tocar R$ 6,00, dólar recua 0,15%, a R$ 5,9262, com nomes para BC no radar
-· E05 JPM · Divided Wall Street: Wells Fargo Upgrades US Large Caps To ‘Most Favorable,’ But JPMorgan Is Taking A Measured Approach
-· E05 AMD · AMD’s Blockbuster Q3 Report Is Getting Lost in the Pullback
-· E05 NVDA · Nvidia Rehires Huang in Stunning Comeback Following Trump Push
-· E05 NVDA · Data, Stats and Facts from NVIDIA Earnings for NASDAQ:NVDA by ClearStreet
-· E05 JPM · Fidelity steps in where JPMorgan retreated
-· E05 USDBRL · Dólar fecha a R$ 5,93 após superar R$ 6 pela 1ª vez desde abril de 2025
-· E05 USDBRL · Dólar sobe com as apostas em uma postura mais restritiva do Fed e a alta no setor de IA
-· E05 TSLA · “No Synergies” in a SpaceX-Tesla Merger? Really? Starlink Just Showed Up in a Cybercab Roof
-· E05 VALE3 · Temporal destrói unidades da C.Vale no RS e compromete estoque de grãos
-· E05 USDBRL · Dólar fecha em leve queda após ultrapassar os R$ 6 com tensão fiscal
-· E04 KO · 8-K: 5.02 entrada ou saida de diretor ou conselheiro
-· E04 NVDA · 8-K: 5.02 entrada ou saida de diretor ou conselheiro
-· E05 EQTL3 · Equatorial recebe nova multa por favorecer comercializadora do grupo
-· E05 DI · Fazenda eleva projeção de inflação para 2027 e vê Selic mais alta por mais tempo
-· E05 DI · Copom mantém previsão da taxa básica de juros para 13% em 2017
-· E05 BRENT · Brent Drops Below $90 as Wall Street Splits on 2027 Oil Outlook
-· E05 USDBRL · Mercado eleva projeção do dólar para R$ 5,55 em 2026
-· E05 PETR4 · Petrobras (PETR4) e Bradespar (BRAP4): veja quais empresas pagam dividendos hoje
-· E05 AMZN · Weekly Recap: AWS sales, UBS cuts estimates and Q4 outlook, 2026 capex
-· E05 BAC · Weekly Recap: Berkshire cuts stake and Bank of America outage
-· E05 BTC · Bitcoin Price Hit $55,130 Two Days After Anthropic’s IPO: Is The Bottom In?
+[ATENÇÃO] E05 · PETR4 · Petrobras mira produção recorde e aumenta previsão de dividendos em US$ 10 bilhões até 2031
+Estadao · 23/11 20h25 · fonte única · licença: manchete
+Link: https://www.estadao.com.br/em-alta/einvestidor/cenarios-e-mercado/petrobras-mira-producao-recorde-e-aumenta-previsao-de-dividendos-em-us-10-bilhoes-ate-2031/
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: PETR4
+Como falar: 'saiu no Estadao: Petrobras mira produção recorde e aumenta previsão de dividendos em US$ 10 bilhões até 20…; confirmar o número no texto antes de repassar'
+Fonte: Estadao 23/11 20h25
+Push: eventos: 3 alertas de atenção — E05 PETR4, E05 PETR4, E05 PETR4 · detalhe na sessão
+ids: E05-PETR4-76a90e2c90-2026-11-23
 
-Suprimidos pelo teto (viram linha do Fechamento): E04-KO-26000567-2026-11-23 (teto de eventos), E04-NVDA-26000090-2026-11-23 (teto de eventos), E05-EQTL3-dfc5697195-2026-11-23 (teto de noticias), E05-DI-48648c7863-2026-11-23 (teto de noticias), E05-DI-a355bf3dd1-2026-11-23 (teto de noticias), E05-BRENT-05462f7bda-2026-11-23 (teto de noticias), E05-USDBRL-1a13127009-2026-11-23 (teto de noticias), E05-PETR4-3097495da1-2026-11-23 (teto de noticias), E05-AMZN-759ec0b640-2026-11-23 (teto de noticias), E05-BAC-415a3104ae-2026-11-23 (teto de noticias), E05-BTC-5e2b0f3c74-2026-11-23 (teto de noticias)
+[ATENÇÃO] E05 · PETR4 · Petrobras: PN 2027-31 estima dividendos ordinários entre US$ 55 bi e US$ 60 bi
+UOL Economia · 23/11 20h14 · fonte única · licença: manchete
+Link: https://economia.uol.com.br/noticias/estadao-conteudo/2026/11/23/petrobras-pn-2027-31-estima-dividendos-ordinarios-entre-us-55-bi-e-us-60-bi.htm
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: PETR4
+Como falar: 'saiu no UOL Economia: Petrobras: PN 2027-31 estima dividendos ordinários entre US$ 55 bi e US$ 60 bi; confirmar o número no texto antes de repassar'
+Fonte: UOL Economia 23/11 20h14
+ids: E05-PETR4-649eefb27d-2026-11-23
+
+[ATENÇÃO] E05 · PETR4 · Petrobras (PETR4) prevê US$ 122 bilhões em investimentos em 5 anos e dividendos de até US$ 60 bilhões até 2031
+Money Times · 23/11 19h57 · + Seu Dinheiro · licença: integral
+Do texto:
+  – Petrobras (PETR4) prevê US$ 122 bilhões em investimentos em 5 anos e dividendos de até US$ 60 bilhões até 2031 A Petrobras (PETR4) divulgou nesta segunda-feira (23) o Plano Estratégico 2027-2031, com investimentos de US…
+  – O valor se compara aos US$ 109 bilhões do plano anterior (2026-2030), considerando os projetos em execução e os em avaliação.
+  – Do total anunciado pela estatal, US$ 113 bilhões fazem parte da carteira em implantação e os US$ 9 bilhões restantes estão na carteira em avaliação — esta última, segundo a Petrobras, composta por oportunidades com meno…
+  – A estatal também projeta dividendos ordinários de US$ 55 bilhões a US$ 60 bilhões no período, cerca de US$ 10 bilhões acima do que o plano anterior previa.
+  – Os principais números do plano da Petrobras O plano prevê investimentos (capex) de US$ 29,5 bilhões em 2027, US$ 28,3 bilhões em 2028, US$ 23,8 bilhões em 2029, US$ 22,3 bilhões em 2030 e US$ 17,8 bilhões em 2031.
+  – O investimento em caixa foi definido em US$ 24 bilhões em 2027 e 2028, e cai para US$ 15 bilhões em 2031.
+Link: https://www.moneytimes.com.br/petrobras-petr4-preve-us-122-bilhoes-em-investimentos-em-5-anos-e-dividendos-de-ate-us-60-bilhoes-ate-2031-ccgg/
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: PETR4
+Como falar: 'saiu no Money Times: Petrobras (PETR4) prevê US$ 122 bilhões em investimentos em 5 anos e dividendos de até US…; confirmar o número no texto antes de repassar'
+Fonte: Money Times 23/11 19h57
+ids: E05-PETR4-1e9302ee0e-2026-11-23
+
+Info (só linha no Fechamento):
+· E03 PETR4 · Comunicado ao Mercado: Apresentações a analistas/agentes do mercado
+· E05 PETR4 · Petrobras aprova pagamento de R$ 15,6 bilhões a acionistas
+· E05 USDBRL · Dólar atinge R$ 6 em meio às incertezas com os rumos da economia brasileira e cenário internacional desfavorável
+· E05 BTC · CFTC staff say exchanges can count Bitcoin toward operating reserves
+· E05 PETR4 · Ibovespa cai com Petrobras e dólar fecha estável em meio a temor com fiscal
+· E05 AMD · AMD: Even 80% Growth Is Not Enough To Make Me Buy (NASDAQ:AMD)
+· E05 PETR4 · Produção comercial da Petrobras 2027-31 será de 3,2 milhões de boed entre 2028 e 2031
+· E05 PETR4 · Petrobras vai aportar R$1,8 bi em produtora de etanol de milho, diz CerradinhoBio
+· E05 PETR4 · Produção de fertilizantes da Petrobras deve começar em 2029, em MS
+· E05 VALE3 · Vale retoma parcialmente operações na Mina de Viga, em MG
+· E05 PETR4 · Dólar bate R$ 6, mas vira e fecha em queda; Ibovespa recua com Petrobras e bancos
+· E05 USDBRL · Ibovespa tem terceira queda seguida; dólar fecha em leve baixa após bater R$ 6
+· E05 TESOURO · Incertezas seguram taxas do Tesouro Direto acima de 15%; título de 2032 paga 15,59%
+· E05 USDBRL · Dólar sobe: A tempestade perfeita (dentro e fora do Brasil) que levou preço a R$ 6
+· E05 BTC · Solo Bitcoin Miner Scores Again, Hitting $191,000 Jackpot Against the Odds
+· E05 ITUB4 · No encontro de três gerações de CEOs, Setubal explica como o Itaú equilibra cautela e mudança
+· E05 PETR4 · Petrobras (PETR4) vai pagar US$ 15,6 bilhões em dividendos extraordinários; veja prazos e quem pode receber
+· E05 PETR4 · Petrobras (PETR4) aprova investimentos de US$ 122 bi em plano de negócios 2027-2031
+· E05 PETR4 · Petrobras prevê investir US$ 122 bilhões até 2031, alta de 11,9% em relação ao plano anterior
+· E05 PETR4 · Petrobras anuncia plano de investimento recorde de US$ 122 bilhões para os anos de 2027 a 2031
+· E05 DI · Copom mantém previsão da taxa básica de juros para 13% em 2027
+· E05 NVDA · This Is the Number That Could Change Nvidia Stock’s Outlook for 2027
+· E05 META · Meta Platforms Stocks Rebound 6.13% After 12.6% Weekly Slide on Class C Lawsuit
+
+Suprimidos pelo teto (viram linha do Fechamento): E05-PETR4-9cbe2a6f1f-2026-11-23 (teto de noticias), E05-PETR4-bba15af060-2026-11-23 (teto de noticias), E05-PETR4-9142fc524d-2026-11-23 (teto de noticias), E05-PETR4-7cf7c68629-2026-11-23 (teto de noticias), E05-DI-5ba32ecc4b-2026-11-23 (teto de noticias), E05-NVDA-9d533a1601-2026-11-23 (teto de noticias), E05-META-a0464d9a3c-2026-11-23 (teto de noticias)
 
 Alertas do dia (todos, com status):
+· pendente  E05 PETR4 — PETR4 · Petrobras mira produção recorde e aumenta previsão de dividendos em US$ 
+· pendente  E05 PETR4 — PETR4 · Petrobras: PN 2027-31 estima dividendos ordinários entre US$ 55 bi e US$
+· pendente  E05 PETR4 — PETR4 · Petrobras (PETR4) prevê US$ 122 bilhões em investimentos em 5 anos e div
 · pendente  E03 PETR4 — PETR4 · Fato Relevante: Seu Conselho de Administração aprovou, em reunião realiz
 · pendente  E03 PETR4 — PETR4 · Fato Relevante: Celebrou acordo para adquirir participação de 42% da Neo
 · pendente  E03 PETR4 — PETR4 · Fato Relevante: Seu Conselho de Administração aprovou, em reunião realiz
@@ -171,4 +193,4 @@ Alertas do dia (todos, com status):
 · pendente  E05 PETR4 — PETR4 · Petrobras anuncia US$ 122 bilhões em investimentos para 2027-2031
 · pendente  E05 PETR4 — PETR4 · Petrobras vai pagar R$ 15,6 bilhões em dividendos extraordinários
 · pendente  E05 PETR4 — PETR4 · Petrobras compra 42% da produtora de etanol de milho Neomille por R$ 2,8
-· (+29 notícias só manchete, em noticias.md)
+· (+52 notícias só manchete, em noticias.md)
