@@ -1,5 +1,5 @@
 {
- "pregao": "2026-11-19",
+ "pregao": "2026-11-23",
  "nome": "AverageChart",
  "titulo": "Médias diárias – volume em um ano (R$ em milhões)",
  "sla": "20:00:00",
@@ -7,7 +7,7 @@
  "colunas": [{"nome": "RptDt", "titulo": "Data"}, {"nome": "TckrSymb", "titulo": "Data"}, {"nome": "LastPric", "titulo": "Médias"}],
  "texto": ["Conjunto de dados médios das transações realizadas com as ações durante um ano."],
  "situacao": "publicado",
- "atualizado_em": "2026-11-19T00:01:32.63",
+ "atualizado_em": "2026-11-23T00:01:23.897",
  "truncada": false,
  "linhas": [
   ["2025-11-01", "2025-11-01", 26099.53],

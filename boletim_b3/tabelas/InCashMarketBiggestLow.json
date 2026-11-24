@@ -1,5 +1,5 @@
 {
- "pregao": "2026-11-19",
+ "pregao": "2026-11-23",
  "nome": "InCashMarketBiggestLow",
  "titulo": "Mercado à vista - maiores baixas",
  "sla": "8:00:00",
@@ -7,18 +7,18 @@
  "colunas": [{"nome": "TckrSymb", "titulo": "Ação"}, {"nome": "Cod", "titulo": "Código"}, {"nome": "Price", "titulo": "Preço (R$)"}, {"nome": "OscillationDesc", "titulo": "Oscilação (%)"}],
  "texto": ["Mostra as maiores desvalorizações de ativos no mercado à vista num período."],
  "situacao": "publicado",
- "atualizado_em": "2026-11-19T18:51:36.653",
+ "atualizado_em": "2026-11-23T18:50:25.02",
  "truncada": false,
  "linhas": [
-  ["KNRE11", "CI", 0.17, -32],
-  ["AZUL99", "UNT     N2", 0.7, -22.22],
-  ["VIVR3", "ON      NM", 2.73, -19.7],
-  ["AZTE11", "BNS ORD", 0.05, -16.66],
-  ["C1AB34", "DRN", 13.84, -14.83],
-  ["AZUL97", "UNT     N2", 0.65, -14.47],
-  ["GFSA12", "BNS ORD NM", 0.06, -14.28],
-  ["M2KS34", "DRN", 56, -13.84],
-  ["RBTS11", "CI", 178.03, -11.64],
-  ["BTCV39", "DRE", 36.98, -11.5]
+  ["RAIZ14", "DIR PNB N2", 0.08, -20],
+  ["NETE34", "DRN", 60.9, -18.81],
+  ["VSOL39", "DRE", 3.8, -18.62],
+  ["RAIZ1", "DIR ORD N2", 0.14, -17.64],
+  ["C2HP34", "DRN", 18.26, -17.07],
+  ["ONCO11", "BNS ORD NM", 0.1, -16.66],
+  ["I1QY34", "DRN", 1.42, -16.47],
+  ["SEQL3", "ON      NM", 6.2, -15.87],
+  ["NUTR3", "ON      MP", 2.51, -15.48],
+  ["S2NA34", "DRN", 4.69, -14.41]
  ]
 }

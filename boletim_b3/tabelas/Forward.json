@@ -1,19 +1,19 @@
 {
- "pregao": "2026-11-19",
+ "pregao": "2026-11-23",
  "nome": "Forward",
  "titulo": "Ações mais negociadas - a termo",
  "sla": "8:00:00",
  "paginas": 1,
  "colunas": [{"nome": "TckrSymb", "titulo": "Ação"}, {"nome": "Cod", "titulo": "Código"}, {"nome": "Term", "titulo": "Prazo"}, {"nome": "Closing", "titulo": ""}, {"nome": "TradQty", "titulo": ""}, {"nome": "VlmTradedDay", "titulo": "Volume (R$) mil"}, {"nome": "Part", "titulo": "Participação (%)"}],
  "texto": ["Lista ações com maior volume de negociação em contratos a termo, destacando as mais ativas."],
- "situacao": "republicado",
- "atualizado_em": "2026-11-20T04:02:03.43",
+ "situacao": "publicado",
+ "atualizado_em": "2026-11-23T18:51:07.003",
  "truncada": false,
  "linhas": [
-  ["FII TRX REALCI", "CI", 98, 55.88, 130000, 7264.4, 2.0738587236388626],
-  ["PETROBRAS   PN      N2", "PN      N2", 18, 43.05, 140200, 6035.61, 2.2365768696474495],
-  ["VALE        ON      NM", "ON      NM", 33, 59.37, 195300, 11594.961, 3.115573913282076],
-  ["ASSAI       ON      NM", "ON      NM", 90, 9.57, 1000000, 9570, 15.952759412606635],
-  ["FII CAPI SECCI  ER", "CI  ER", 89, 6.79, 1317000, 8942.43, 21.009784146402936]
+  ["VALE        ON      NM", "ON      NM", 182, 62.68, 32000, 2005.76, 0.5184739561620549],
+  ["AXIA ENERGIAPNC     NM", "PNC     NM", 90, 47.39, 77766, 3685.3307400000003, 1.2599889273405738],
+  ["TENDA       ON      NM", "ON      NM", 74, 15.28, 150000, 2292, 2.430346669509632],
+  ["AXIA ENERGIAON      NM", "ON      NM", 90, 47.16, 689600, 32521.535999999996, 11.17311375529228],
+  ["ENERGISA    UNT     N2", "UNT     N2", 120, 50.65, 2679300, 135706.545, 43.410852210781044]
  ]
 }
