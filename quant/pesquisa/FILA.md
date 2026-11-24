@@ -42,6 +42,8 @@ metodo em quant/saida/pesquisa5/BRIEF.md) e move a linha para "Testadas" com os 
    papeis ficaram sem TIR, e por que.
 
 ## Testadas
+- 24/11/2026, tarde: nenhuma hipotese testavel; 7, 8, 9, 10, 12, 14, 15 e 16 seguem esperando dado novo ou sao prova viva. Nao ha item "[revisao: ...]"
+  aberto. Prova viva rodou: indice fim do dia original 27 negocios (+R$ 50, t 1,8), variante adaptativa 17 (-R$ 63), abaixo de 60; reversao do dado 6 negocios (-R$ 108). Pregao de 24/11: robo sem negocio. Nenhuma tentativa nova (METODO: parar em vez de forcar).
 - 17/11/2026, tarde: item 28 ([revisao: arrasto 15 na reversao do dado], reaberto pela revisao em 17/11 com o terceiro pregao) fechado SEM teste novo: ja foi
   testado em 10/11 na descoberta (10/2021-12/2024, 338 negocios): saida congelada +R$ 100,29 por negocio (t 3,27, 7 de 7 semestres) contra 'arrasto 15' +R$ 4,13
   (t 0,23, 3 de 7 semestres); como a descoberta e a mesma, repetir daria o mesmo numero. O dia 17/11 (+R$ 215, percentil 62; arrasto teria dado +R$ 645) esta dentro
