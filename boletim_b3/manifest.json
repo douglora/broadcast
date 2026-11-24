@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-11-24T11:51:46Z",
+ "gerado_em": "2026-11-24T21:28:39Z",
  "cliente_http": "curl_cffi",
  "livro": [
   "EQTL3",
@@ -57,25 +57,26 @@
     }
    },
    "falhas": {
-    "InstrumentsConsolidated": "arquivo InstrumentsConsolidated: token HTTP 400"
+    "InstrumentsConsolidated": "arquivo InstrumentsConsolidated: token HTTP 400",
+    "informativos": "HTTP 0 em https://arquivos.b3.com.br/bdi/table/classification/5e70f1f8-a8c9-4154-b368-4e56"
    },
-   "segundos": 164
+   "segundos": 583
   },
   "2026-11-23": {
    "completo": false,
    "faltam": [
     "InstrumentsConsolidated"
    ],
-   "boletim": "atrasado",
+   "boletim": "publicado",
    "sinais": 18,
-   "tabelas": 47,
+   "tabelas": 46,
    "arquivos": [
     "DerivativesOpenPosition",
     "TradeInformationConsolidated",
     "TradeInformationConsolidatedAfterHours"
    ],
    "rf_cadastro": {
-    "papeis_no_dia": 1665,
+    "papeis_no_dia": 1661,
     "consultados": 0,
     "achados": 0,
     "sem_cadastro": 0,
@@ -95,9 +96,10 @@
     }
    },
    "falhas": {
+    "Forward": "HTTP 0 em https://arquivos.b3.com.br/bdi/table/Forward/2026-11-23/2026-11-23/1/1000",
     "InstrumentsConsolidated": "arquivo InstrumentsConsolidated: token HTTP 400"
    },
-   "segundos": 88
+   "segundos": 532
   }
  },
  "falhas": [],

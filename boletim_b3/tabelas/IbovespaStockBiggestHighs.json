@@ -1,5 +1,5 @@
 {
- "pregao": "2026-11-19",
+ "pregao": "2026-11-23",
  "nome": "IbovespaStockBiggestHighs",
  "titulo": "Ações do IBOVESPA - maiores altas",
  "sla": "8:00:00",
@@ -7,18 +7,18 @@
  "colunas": [{"nome": "TckrSymb", "titulo": "Ação"}, {"nome": "Cod", "titulo": "Código"}, {"nome": "Price", "titulo": "Preço (R$)"}, {"nome": "Oscillation", "titulo": "Oscilação (%)"}],
  "texto": ["Lista as ações do IBOVESPA com os maiores percentuais de valorização em um período."],
  "situacao": "publicado",
- "atualizado_em": "2026-11-19T23:30:49.137",
+ "atualizado_em": "2026-11-24T09:32:38.647",
  "truncada": false,
  "linhas": [
-  ["RAIL3", "ON      NM", 16.8, 0.35],
-  ["BEEF3", "ON      NM", 3.73, 0.53],
-  ["BBSE3", "ON      NM", 36.99, 0.9],
-  ["GGBR4", "PN  ED  N1", 25.86, 1.05],
-  ["CSMG3", "ON      NM", 56.09, 1.06],
-  ["TEND3", "ON      NM", 15.23, 1.12],
-  ["BBAS3", "ON      NM", 14.3, 1.27],
-  ["GOAU4", "PN  ED  N1", 11.5, 2.22],
-  ["FLRY3", "ON      NM", 21.51, 2.52],
-  ["USIM5", "PNA     N1", 5.14, 2.59]
+  ["CYRE3", "ON      NM", 18.7, 1.46],
+  ["SMFT3", "ON      NM", 17.95, 1.46],
+  ["CURY3", "ON  ED  NM", 25.4, 1.55],
+  ["NATU3", "ON      NM", 4.55, 1.56],
+  ["VBBR3", "ON      NM", 30.68, 1.82],
+  ["CSAN3", "ON      NM", 3.14, 1.94],
+  ["DIRR3", "ON      NM", 8.94, 2.28],
+  ["VAMO3", "ON      NM", 2.6, 4.41],
+  ["RADL3", "ON      NM", 14.69, 7.06],
+  ["MGLU3", "ON      NM", 8.99, 9.63]
  ]
 }

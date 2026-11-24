@@ -1,20 +1,20 @@
 {
  "pregao": "2026-11-23",
- "situacao": "atrasado",
+ "situacao": "publicado",
  "errata": false,
- "atualizado_em": "2026-11-24T08:28:35.82",
+ "atualizado_em": "2026-11-24T12:30:39",
  "completo": {
-  "arquivo": "",
-  "pdf": ""
+  "arquivo": "BDI_00_20261123.pdf",
+  "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-11-23/BDI_00_20261123.pdf"
  },
  "cadernos": [
   {
    "id": 1,
    "nome": "Renda fixa",
    "pai": null,
-   "situacao": "",
+   "situacao": "publicado",
    "errata": false,
-   "atualizado_em": "2026-11-24T08:45:07.687",
+   "atualizado_em": "2026-11-24T11:18:17.467",
    "arquivo": "",
    "pdf": ""
   },
@@ -32,9 +32,9 @@
    "id": 21,
    "nome": "Resumo de ações",
    "pai": 20,
-   "situacao": "atrasado",
+   "situacao": "republicado",
    "errata": false,
-   "atualizado_em": "2026-11-24T00:00:48.327",
+   "atualizado_em": "2026-11-24T09:34:47.077",
    "arquivo": "",
    "pdf": ""
   },
@@ -42,9 +42,9 @@
    "id": 2,
    "nome": "Indicadores e informativos",
    "pai": 20,
-   "situacao": "",
-   "errata": false,
-   "atualizado_em": "2026-11-24T08:45:07.687",
+   "situacao": "publicado",
+   "errata": true,
+   "atualizado_em": "2026-11-24T10:54:09.717",
    "arquivo": "",
    "pdf": ""
   },
@@ -52,9 +52,9 @@
    "id": 23,
    "nome": "Maiores oscilações",
    "pai": 20,
-   "situacao": "atrasado",
+   "situacao": "publicado",
    "errata": false,
-   "atualizado_em": "2026-11-24T08:05:42.827",
+   "atualizado_em": "2026-11-24T09:32:38.647",
    "arquivo": "",
    "pdf": ""
   },
@@ -72,9 +72,9 @@
    "id": 33,
    "nome": "Derivativos de balcão",
    "pai": 3,
-   "situacao": "atrasado",
+   "situacao": "publicado",
    "errata": false,
-   "atualizado_em": "2026-11-24T08:05:42.827",
+   "atualizado_em": "2026-11-24T10:05:04.51",
    "arquivo": "",
    "pdf": ""
   },
