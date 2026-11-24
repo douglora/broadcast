@@ -1,10 +1,23 @@
 {
- "gerado_em": "2026-11-16T22:58:07Z",
+ "gerado_em": "2026-11-24T00:53:15Z",
  "canal": "https://www.youtube.com/@KineaInvestimentos",
  "listagem": "yt-dlp",
  "fora_do_tema": 0,
  "fonte": "YouTube (legenda publicada pelo proprio YouTube; a automatica e transcricao de maquina e pode errar nome proprio)",
  "videos": [
+  {
+   "id": "14tRYXpfiiw",
+   "titulo": "As cinco forças da geopolítica | Kinea Expresso #07 com Marcos Troyjo",
+   "aba": "videos",
+   "url": "https://www.youtube.com/watch?v=14tRYXpfiiw",
+   "data": "2026-11-19",
+   "descricao": "O mundo está deixando uma fase marcada pela globalização para entrar em uma era em que a geopolítica ganha protagonismo. Neste Kinea Expresso, Marcos Troyjo analisa cinco tendências que estão transformando o cenário internacional: a estratégia chinesa de reduzir suas dependências e ampliar a dependência de outros países, o dilema dos Estados Unidos entre liderança global e isolacionismo, as mudanças na demografia, o avanço das economias emergentes e a crescente demanda por energia, água e minerais críticos na era da inteligência artificial. Como essas forças se conectam e onde estão as oportunidades para o Brasil? Uma conversa sobre poder, tecnologia e os caminhos do crescimento global.\n\n00:00 - Introdução e apresentação de Marcos Troyjo\n01:29 - Força 1: China Choke e a nova fase da economia chinesa\n07:01 - Impactos da competitividade chinesa na Europa e América Latina\n10:36 - Força 2: A escolha americana de liderar\n14:20 - Força 3: Demografia global (Um planeta rumo a 10 bilhões)\n17:13 - Envelhecimento populacional e produtividade\n20:11 - Força 4: Os E7 e os novos motores de crescimento mundial\n24:00 - A dinâmica do \"G2\": Estados Unidos vs. China\n26:46 - Força 5: Highlander e a base de recursos para a tecnologia\n32:41 - O papel e o bônus do Brasil na nova ordem geopolítica\n36:03 - Considerações finais e encerramento\n\n#KineaExpresso #KafeComKinea #Geopolitica #MarcosTroyjo #EconomiaGlobal #China #EstadosUnidos #Brasil #inteligenciaartificial \n\nAcesse a comunidade da Kinea no WhatsApp e fique por dentro de tudo: https://kinea.me/3KrOUkb \n\nInscreva-se para receber as informações sobre os próximos episódios do Kafé com Kinea:\nhttps://www.kinea.com.br/lp-kafe-com-kinea/\n\nCadastre-se em nossa newsletter e receba as informações da Kinea em primeira mão: https://www.kinea.com.br/newsletter/\n\nAcesse as redes da Kinea e fique por dentro das novidades, clicando aqui: https://linktr.ee/kineainvestimentos\n\nMais informações sobre os fundos Kinea em: https://www.kinea.com.br/",
+   "coleta": 2,
+   "duracao_min": null,
+   "capitulos": [],
+   "ao_vivo": false,
+   "erro": "painel: painel: get_transcript HTTP 400, 0 trechos | yt-dlp: nenhuma legenda listada | audio: padrao: DownloadError: ERROR: [youtube] 14tRYXpfiiw: Faça login para confirmar que você não é um bot. Isso ajuda a proteger nossa comunidade"
+  },
   {
    "id": "gl-tsZJe-WA",
    "titulo": "IA na descoberta de medicamentos | Resumo Kinea Insights",
@@ -82,19 +95,6 @@
    "capitulos": [],
    "ao_vivo": false,
    "erro": "painel: painel: get_transcript HTTP 400, 0 trechos | yt-dlp: nenhuma legenda listada | audio: padrao: DownloadError: ERROR: [youtube] JpUIam3ZftM: Faça login para confirmar que você não é um bot. Isso ajuda a proteger nossa comunidade"
-  },
-  {
-   "id": "1d1-ccTJ4dw",
-   "titulo": "Ajuste fiscal: o desafio dos gastos | Resumo Kinea Insights",
-   "aba": "videos",
-   "url": "https://www.youtube.com/watch?v=1d1-ccTJ4dw",
-   "data": "2026-10-17",
-   "descricao": "Ajuste fiscal: o que precisa mudar nas contas públicas brasileiras? Analisamos os obstáculos para reduzir desequilíbrios e estabilizar a dívida. Nesta Pílula Kinea Insights, apresentamos os principais pontos do estudo “As dificuldades práticas de um ajuste fiscal ambicioso” e explicamos por que o próximo governo terá de enfrentar escolhas difíceis para construir uma trajetória fiscal sustentável. Percorremos o histórico dos ajustes brasileiros, das tentativas durante a hiperinflação ao Plano Real e aos superávits primários mantidos nos anos seguintes, para entender o que funcionou e por que os resultados mudaram. Também discutimos o teto de gastos, a redução das despesas discricionárias e os limites de repetir esse caminho sem mudanças nos gastos obrigatórios. Apresentamos cenários que consideram um superávit primário de pelo menos 2% do PIB e sua relação com a estabilização da dívida pública e condições para juros mais baixos. A analogia com a Bela Adormecida ajuda a organizar essa discussão sobre os desafios práticos de uma proposta fiscal mais sustentável. \n\nAssista ao vídeo Kinea Insights - As dificuldades práticas de um ajuste fiscal ambicioso | A Bela Adormecida: https://youtu.be/4MsKbD06rtY\n\nPara ler este conteúdo, acesse o blog da Kinea em: https://www.kinea.com.br/blog/kinea-insights-a-bela-adormecida/\n\nAcesse a comunidade da Kinea no Whatsapp e fique por dentro de tudo: https://kinea.me/3KrOUkb  \n\nCadastre-se em nossa newsletter e receba as informações da Kinea em primeira mão: https://www.kinea.com.br/newsletter/\n\nAcesse as redes da Kinea e fique por dentro das novidades, clicando aqui: https://linktr.ee/kineainvestimentos\n\nMais informações sobre os fundos Kinea em: https://www.kinea.com.br/",
-   "coleta": 2,
-   "duracao_min": null,
-   "capitulos": [],
-   "ao_vivo": false,
-   "erro": "painel: painel: get_transcript HTTP 400, 0 trechos | yt-dlp: nenhuma legenda listada | audio: padrao: DownloadError: ERROR: [youtube] 1d1-ccTJ4dw: Faça login para confirmar que você não é um bot. Isso ajuda a proteger nossa comunidade"
   },
   {
    "id": "5vkhf-BhJlg",
@@ -206,6 +206,14 @@
    "chars": 73123
   },
   {
+   "id": "k6i02uNIlR4",
+   "titulo": "Kafé com Kinea #60 - Horizontes 2027",
+   "aba": "videos",
+   "coleta": 2,
+   "url": "https://www.youtube.com/watch?v=k6i02uNIlR4",
+   "erro": "nao tentado nesta rodada: o YouTube recusou os anteriores"
+  },
+  {
    "id": "tpHBNW5ZLCc",
    "titulo": "Inteligência Artificial, Petróleo e Eleição | Live Economia e Mercados ref. Julho/2026",
    "aba": "streams",
@@ -269,22 +277,6 @@
    "aba": "videos",
    "coleta": 2,
    "url": "https://www.youtube.com/watch?v=ue4zvhTuWk8",
-   "erro": "nao tentado nesta rodada: o YouTube recusou os anteriores"
-  },
-  {
-   "id": "ckWCSh-bH_I",
-   "titulo": "O que você faria se estivesse na presidência? | Kinea Reflexões #12",
-   "aba": "videos",
-   "coleta": 2,
-   "url": "https://www.youtube.com/watch?v=ckWCSh-bH_I",
-   "erro": "nao tentado nesta rodada: o YouTube recusou os anteriores"
-  },
-  {
-   "id": "1K81qsL9ri4",
-   "titulo": "Governos mudam, o Brasil fica. Uma conversa com Murilo Portugal | Kafé com Kinea #59",
-   "aba": "videos",
-   "coleta": 2,
-   "url": "https://www.youtube.com/watch?v=1K81qsL9ri4",
    "erro": "nao tentado nesta rodada: o YouTube recusou os anteriores"
   },
   {
