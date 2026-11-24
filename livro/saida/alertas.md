@@ -17,40 +17,6 @@ Como falar: 'o cliente sente a queda no extrato; a conversa é sobre a tese, nã
 Fonte: Yahoo Finance fech. 23/11
 ids: T08-KLBN4--20-2026-11-23, T08-PETR4--30-2026-11-23
 
-(pendente de slot anterior) [ATENÇÃO] E05 · PETR4 · Petrobras mira produção recorde e aumenta previsão de dividendos em US$ 10 bilhões até 2031
-Estadao · 23/11 20h25 · fonte única · licença: manchete
-Link: https://www.estadao.com.br/em-alta/einvestidor/cenarios-e-mercado/petrobras-mira-producao-recorde-e-aumenta-previsao-de-dividendos-em-us-10-bilhoes-ate-2031/
-Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
-Ativos: PETR4
-Como falar: 'saiu no Estadao: Petrobras mira produção recorde e aumenta previsão de dividendos em US$ 10 bilhões até 20…; confirmar o número no texto antes de repassar'
-Fonte: Estadao 23/11 20h25
-ids: E05-PETR4-76a90e2c90-2026-11-23
-
-(pendente de slot anterior) [ATENÇÃO] E05 · PETR4 · Petrobras: PN 2027-31 estima dividendos ordinários entre US$ 55 bi e US$ 60 bi
-UOL Economia · 23/11 20h14 · fonte única · licença: manchete
-Link: https://economia.uol.com.br/noticias/estadao-conteudo/2026/11/23/petrobras-pn-2027-31-estima-dividendos-ordinarios-entre-us-55-bi-e-us-60-bi.htm
-Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
-Ativos: PETR4
-Como falar: 'saiu no UOL Economia: Petrobras: PN 2027-31 estima dividendos ordinários entre US$ 55 bi e US$ 60 bi; confirmar o número no texto antes de repassar'
-Fonte: UOL Economia 23/11 20h14
-ids: E05-PETR4-649eefb27d-2026-11-23
-
-(pendente de slot anterior) [ATENÇÃO] E05 · PETR4 · Petrobras (PETR4) prevê US$ 122 bilhões em investimentos em 5 anos e dividendos de até US$ 60 bilhões até 2031
-Money Times · 23/11 19h57 · + Seu Dinheiro · licença: integral
-Do texto:
-  – Petrobras (PETR4) prevê US$ 122 bilhões em investimentos em 5 anos e dividendos de até US$ 60 bilhões até 2031 A Petrobras (PETR4) divulgou nesta segunda-feira (23) o Plano Estratégico 2027-2031, com investimentos de US…
-  – O valor se compara aos US$ 109 bilhões do plano anterior (2026-2030), considerando os projetos em execução e os em avaliação.
-  – Do total anunciado pela estatal, US$ 113 bilhões fazem parte da carteira em implantação e os US$ 9 bilhões restantes estão na carteira em avaliação — esta última, segundo a Petrobras, composta por oportunidades com meno…
-  – A estatal também projeta dividendos ordinários de US$ 55 bilhões a US$ 60 bilhões no período, cerca de US$ 10 bilhões acima do que o plano anterior previa.
-  – Os principais números do plano da Petrobras O plano prevê investimentos (capex) de US$ 29,5 bilhões em 2027, US$ 28,3 bilhões em 2028, US$ 23,8 bilhões em 2029, US$ 22,3 bilhões em 2030 e US$ 17,8 bilhões em 2031.
-  – O investimento em caixa foi definido em US$ 24 bilhões em 2027 e 2028, e cai para US$ 15 bilhões em 2031.
-Link: https://www.moneytimes.com.br/petrobras-petr4-preve-us-122-bilhoes-em-investimentos-em-5-anos-e-dividendos-de-ate-us-60-bilhoes-ate-2031-ccgg/
-Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
-Ativos: PETR4
-Como falar: 'saiu no Money Times: Petrobras (PETR4) prevê US$ 122 bilhões em investimentos em 5 anos e dividendos de até US…; confirmar o número no texto antes de repassar'
-Fonte: Money Times 23/11 19h57
-ids: E05-PETR4-1e9302ee0e-2026-11-23
-
 (pendente de slot anterior) [ATENÇÃO] CURVA · C05 Pre 2029 FECHA 18 bps (PU +0,4%) (base 23/11) / C06 Inflação implícita: implícita 2029 +28 bps na semana · implícita 2032 +306 bps acima do Focus · implícita 2031/32 (descasado) +297 bps acima do Focus
 TD Pre 2029 15,15 (-18) · IPCA+ 2032 7,92 (+6) · IPCA+ 2040 7,59 (+7) PU -0,8% · IPCA+ 2050 7,56 (+3) PU -0,6% · Pre 2032 15,48 (-12) PU +0,6%
 Implícita 2029: 6,97% (+28 bps na semana) vs Focus IPCA 2029 4,00% (+297 bps)
@@ -150,7 +116,7 @@ Como falar: 'saiu no TradingView (Reuters): CFTC Guidance Requires at Least 20% 
 Fonte: TradingView (Reuters) 23/11 20h00
 ids: E05-BTC-84c2aed2e4-2026-11-23
 
-[ATENÇÃO] E05 · PETR4 · Petrobras prevê investimentos de US$ 122 bilhões entre 2027 e 2031
+(pendente de slot anterior) [ATENÇÃO] E05 · PETR4 · Petrobras prevê investimentos de US$ 122 bilhões entre 2027 e 2031
 Agencia Brasil · 24/11 14h31 · + g1 · licença: integral
 Do texto:
   – Petrobras prevê investimentos de US$ 122 bilhões entre 2027 e 2031 O Conselho de Administração da Petrobras aprovou o plano de negócios da estatal para o período de 2027 a 2031, com investimentos totais previstos de US$…
@@ -164,10 +130,9 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: PETR4
 Como falar: 'saiu no Agencia Brasil: Petrobras prevê investimentos de US$ 122 bilhões entre 2027 e 2031; confirmar o número no texto antes de repassar'
 Fonte: Agencia Brasil 24/11 14h31
-Push: eventos: 3 alertas de atenção — E05 PETR4, E05 GOOGL, E05 JPM · detalhe na sessão
 ids: E05-PETR4-78b43271ce-2026-11-24
 
-[ATENÇÃO] E05 · GOOGL · Broadcom Stocks Fall 3.98% as Google TPU Order Report Clouds AI Outlook
+(pendente de slot anterior) [ATENÇÃO] E05 · GOOGL · Broadcom Stocks Fall 3.98% as Google TPU Order Report Clouds AI Outlook
 TradingView (Reuters) · 24/11 13h54 · fonte única · licença: manchete
 Link: https://www.tradingview.com/news/gurufocus:c5ba9cb4f094b:0-broadcom-stocks-fall-3-98-as-google-tpu-order-report-clouds-ai-outlook/
 Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
@@ -176,7 +141,7 @@ Como falar: 'saiu no TradingView (Reuters): Broadcom Stocks Fall 3.98% as Google
 Fonte: TradingView (Reuters) 24/11 13h54
 ids: E05-GOOGL-aaf982c09e-2026-11-24
 
-[ATENÇÃO] E05 · JPM · Jamie Dimon floated $10,000 gold — now JPMorgan's strategists slash their 2026 target to $4,500 as Fed hikes loom
+(pendente de slot anterior) [ATENÇÃO] E05 · JPM · Jamie Dimon floated $10,000 gold — now JPMorgan's strategists slash their 2026 target to $4,500 as Fed hikes loom
 Yahoo Finance · 24/11 13h15 · fonte única · licença: resumo
 Trechos (licença resumo: reescrever, não colar):
   – American billionaire banker Jamie Dimon, who serves as Chairman and CEO of JPMorgan Chase, bluntly shared his opinion on gold as an investment at the 2025 Fortune Most Powerful Women Summit.
@@ -192,38 +157,70 @@ Como falar: 'saiu no Yahoo Finance: Jamie Dimon floated $10,000 gold — now JPM
 Fonte: Yahoo Finance 24/11 13h15
 ids: E05-JPM-d9bde6f6fe-2026-11-24
 
-Info (só linha no Fechamento):
-· E03 VALE3 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
-· E05 JPM · JPMorgan Sets Below Consensus S&P 500 Target of 8,200 for 2027
-· E05 USDBRL · Banco Central autoriza Binance a operar no mercado de câmbio no Brasil
-· E05 PLTR · Palantir: A Rude Awakening Is Coming (NASDAQ:PLTR)
-· E05 MELI34 · “A Amazon não compete com o concorrente”: a estratégia para bater rivais como Mercado Livre e Shopee no Brasil
-· E05 NVDA · Copper price erases Nvidia rebound as investors steer clear of metals
-· E05 USDBRL · Dólar fecha em queda e volta para os R$ 5,90 com redução dos riscos fiscais
-· E05 USDBRL · Dólar fecha em queda com expectativa de freio nos gastos; Ibovespa oscila
-· E05 AMD · AMD After The Selloff: A 26x P/E With A Server Business Set To Double (NASDAQ:AMD)
-· E05 USDBRL · Dólar fecha em baixa, aos R$ 5,91, com discussão sobre limitar gastos obrigatórios
-· E05 VALE3 · Dólar fecha em queda, mas fica acima de R$ 5,91; Ibovespa perde fôlego com Vale em baixa de 5%
-· E05 NVDA · Jensen Huang’s Nvidia return is a ‘bullish black swan’ and bitcoin is in gold’s ‘doghouse’ era: Eric Balchunas
-· E05 PETR4 · Petrobras: Retomaremos perfuração na Bacia da Foz do Amazonas no 1° tri de 2027, diz presidente
-· E05 USDBRL · Ibovespa Hoje Ao Vivo: Bolsa diminui ritmo de alta; dólar segue em baixa
-· E05 BTC · The Bitcoin Price That Would Signal the Sell-Off Is Over
-· E05 AMD · AMDL 2X AMD ETF Drops from $90 to $30: Will This Leveraged AMD Fund Be an ‘Easy Triple’ from Here?
-· E05 PETR4 · Petrobras (PETR4) vai conseguir manter os dividendos? Plano de Negócios conta com petróleo nas alturas e gera apreensão
-· E05 PETR4 · Plano de US$ 122 bilhões da Petrobras agrada menos que o dividendo extra
-· E05 PETR4 · Petrobras eleva investimento a US$ 122 bilhões e projeta dividendos
-· E05 PETR4 · Petrobras eleva investimentos e surpreende com dividendo extra – mas divide opiniões
+[ATENÇÃO] E05 · PETR4 · Petrobras anuncia investimento de US$ 122 bilhões até 2031
+Agencia Brasil · 24/11 19h37 · fonte única · licença: integral
+Do texto:
+  – A Petrobras anunciou um investimento de US$ 122 bilhões por meio do plano de negócios 2027-2031.
+  – De acordo com a empresa, a ideia é manter o foco no segmento de exploração e produção, que no novo plano terá 70% dos investimentos, conciliando com recursos destinados à diversificação de negócios de baixo carbono, seg…
+  – “Nós planejamos investir ao longo de 5 anos US$ 122 bilhões.
+  – Isso representa cerca de 5% de tudo que será investido no Brasil nos próximos 5 anos”.
+  – “De 24 para cá, nós crescemos mais do que crescemos em 10 anos.
+  – Nos últimos 2 anos, a produção aumentou cerca de 30%.
+Link: https://agenciabrasil.ebc.com.br/radioagencia-nacional/economia/audio/2026-11/petrobras-anuncia-investimento-de-us-122-bilhoes-ate-2031
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: PETR4
+Como falar: 'saiu no Agencia Brasil: Petrobras anuncia investimento de US$ 122 bilhões até 2031; confirmar o número no texto antes de repassar'
+Fonte: Agencia Brasil 24/11 19h37
+Push: eventos: 2 alertas de atenção — E05 PETR4, E05 PETR4 · detalhe na sessão
+ids: E05-PETR4-a5316d5808-2026-11-24
 
-Suprimidos pelo teto (viram linha do Fechamento): E05-PETR4-f04c508144-2026-11-24 (teto de noticias), E05-PETR4-1409681be8-2026-11-24 (teto de noticias), E05-PETR4-fe3d6c828d-2026-11-24 (teto de noticias), E05-PETR4-f99631c60d-2026-11-24 (teto de noticias)
+[ATENÇÃO] E05 · PETR4 · Petrobras (PETR4) abre a carteira, mas fecha espaço para dividendos? Veja a reação do mercado ao plano 2027-2031
+Money Times · 24/11 11h45 · fonte única · licença: integral
+Do texto:
+  – Petrobras (PETR4) abre a carteira, mas fecha espaço para dividendos?
+  – Na noite de ontem (23), com a publicação do documento, a espera acabou, mas deu lugar a outro sentimento: a apreensão.
+  – A companhia prevê investimentos de US$ 122 bilhões, ante US$ 109 bilhões no planejamento anterior.
+  – Desse total, US$ 113 bilhões já estão destinados a projetos em execução, enquanto US$ 9 bilhões permanecem em avaliação.
+  – A estatal prevê investimentos com saída efetiva de caixa de cerca de US$ 24 bilhões em 2027 e outros US$ 24 bilhões em 2028, valores acima das expectativas de boa parte do mercado.
+  – Além disso, os gastos com arrendamentos também aumentaram, chegando a US$ 12 bilhões em 2027.
+Link: https://www.moneytimes.com.br/petrobras-petr4-abre-a-carteira-mas-fecha-espaco-para-dividendos-veja-a-reacao-do-mercado-ao-plano-2027-2031-bdap/
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: PETR4
+Como falar: 'saiu no Money Times: Petrobras (PETR4) abre a carteira, mas fecha espaço para dividendos? Veja a reação do mer…; confirmar o número no texto antes de repassar'
+Fonte: Money Times 24/11 11h45
+ids: E05-PETR4-e99c7fd091-2026-11-24
+
+Info (só linha no Fechamento):
+· E03 BBAS3 · Comunicado ao Mercado: Esclarecimentos sobre questionamentos da CVM/B3
+· E03 BBAS3 · Comunicado ao Mercado: Esclarecimentos sobre questionamentos da CVM/B3
+· E03 BBAS3 · Comunicado ao Mercado: Esclarecimentos sobre questionamentos da CVM/B3
+· E04 GOOGL · 8-K: 8.01 outros eventos
+· E05 PETR4 · Petrobras prevê emitir 28% mais até 2030 e retorna à produção de etanol
+· E05 USDBRL · Banco Central anuncia nova intervenção no câmbio, de até US$ 2 bi
+· E05 USDBRL · Dólar cai para R$ 5,91 com expectativa de ajuste fiscal
+· E05 NVDA · Intel, Marvell, and Dell Stocks Will Benefit from Return of Nvidia CEO Jensen Huang
+· E05 BTC · CleanSpark Returns to Q4 Profit on Bitcoin Gains, Revenue Falls 46% During AI Shift
+· E05 NVDA · Kevin O’Leary Says ‘The Bank of NVIDIA Is Closed’ as AI Data Center Boom Faces Scrutiny
+· E05 PETR4 · Não falamos em aumentar dívida, diz Chambriard sobre plano do Petrobras
+· E05 VALE3 · Por que a Vale (VALE3) caiu mais de 5% nesta terça?
+· E05 PETR4 · Dividendos extraordinários são um potencial, mas Petrobras não está prometendo, diz Magda
+· E05 USDBRL · Dólar cai a R$ 5,91, longe da mínima do dia, com notícia sobre PEC para conter gastos
+· E05 USDBRL · Dólar à vista fecha em baixa de 0,35%, a R$5,9085 na venda
+· E05 NVDA · Jensen Huang’s Nvidia return is a ‘bullish black swan’ and bitcoin is in gold’s ‘doghouse’ era: Eric Balchunas
+· E05 CVX · Earnings Surge Could Be A Game Changer For Chevron Stock (CVX)
+· E05 NVDA · NVIDIA Corporation (NVDA) stock price, news, quote and history
+
 
 Alertas do dia (todos, com status):
+· pendente  E05 PETR4 — PETR4 · Petrobras anuncia investimento de US$ 122 bilhões até 2031
+· pendente  E05 PETR4 — PETR4 · Petrobras (PETR4) abre a carteira, mas fecha espaço para dividendos? Vej
 · pendente  E05 PETR4 — PETR4 · Petrobras prevê investimentos de US$ 122 bilhões entre 2027 e 2031
 · pendente  E05 GOOGL — GOOGL · Broadcom Stocks Fall 3.98% as Google TPU Order Report Clouds AI Outlook
 · pendente  E05 JPM — JPM · Jamie Dimon floated $10,000 gold — now JPMorgan's strategists slash their 
-· pendente  E01 NVDA — NVDA: resultado sai na próxima sessão (25/11)
-· pendente  E01 BABA — BABA: resultado sai na próxima sessão (25/11)
-· pendente  M03 MACRO — Focus de 19/11: IPCA: 2026 5,15% (+4 bps) · 2027 5,12% (+12 bps)
-· pendente  E05 PETR4 — PETR4 · Petrobras (PETR4): US$ 122 bilhões em investimentos e US$ 60 bilhões em 
-· pendente  E05 PETR4 — PETR4 · Plano de Negócios 2027-2031 da Petrobras prevê investimento total de US$
-· pendente  E05 BTC — BTC · CFTC Guidance Requires at Least 20% Haircuts for Bitcoin and Ether in Oper
-· (+37 notícias só manchete, em noticias.md)
+· expirado  E01 NVDA — NVDA: resultado sai na próxima sessão (25/11)
+· expirado  E01 BABA — BABA: resultado sai na próxima sessão (25/11)
+· expirado  M03 MACRO — Focus de 19/11: IPCA: 2026 5,15% (+4 bps) · 2027 5,12% (+12 bps)
+· expirado  E05 PETR4 — PETR4 · Petrobras (PETR4): US$ 122 bilhões em investimentos e US$ 60 bilhões em 
+· expirado  E05 PETR4 — PETR4 · Plano de Negócios 2027-2031 da Petrobras prevê investimento total de US$
+· expirado  E05 BTC — BTC · CFTC Guidance Requires at Least 20% Haircuts for Bitcoin and Ether in Oper
+· (+55 notícias só manchete, em noticias.md)

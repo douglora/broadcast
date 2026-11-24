@@ -1,8 +1,35 @@
-NOTÍCIAS E FATOS · 24/11 18h12
+NOTÍCIAS E FATOS · 24/11 19h58
 
-Pernas: noticias ok 22 novas (18 consultas; descartadas: 399 veículo fora da lista, 18 sem ativo, 99 teto) · cvm ok 1 novos de 8 (3 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 16 novas (18 consultas; descartadas: 386 veículo fora da lista, 19 sem ativo, 11 teto) · cvm ok 3 novos de 11 (4 cias casadas) · sec ok 1 novos em 3 dias
 
-## FATOS RELEVANTES E COMUNICADOS (CVM) (1)
+## FATOS RELEVANTES E COMUNICADOS (CVM) (4)
+
+[INFO] E03 · BBAS3 · Comunicado ao Mercado: Esclarecimentos sobre questionamentos da CVM/B3
+CVM · entregue 24/11/2026 19:31 · Esclarecimentos sobre questionamentos da CVM/B3
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1593229
+Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; confirma ou nega o que circula
+Ativos: BBAS3
+Como falar: 'a Banco do Brasil publicou comunicado ao mercado sobre Esclarecimentos sobre questionamentos da CVM/B3'
+Fonte: CVM 24/11
+id: E03-BBAS3-1593229-2026-11-24 · status: linha
+
+[INFO] E03 · BBAS3 · Comunicado ao Mercado: Esclarecimentos sobre questionamentos da CVM/B3
+CVM · entregue 24/11/2026 19:29 · Esclarecimentos sobre questionamentos da CVM/B3
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1593225
+Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; confirma ou nega o que circula
+Ativos: BBAS3
+Como falar: 'a Banco do Brasil publicou comunicado ao mercado sobre Esclarecimentos sobre questionamentos da CVM/B3'
+Fonte: CVM 24/11
+id: E03-BBAS3-1593225-2026-11-24 · status: linha
+
+[INFO] E03 · BBAS3 · Comunicado ao Mercado: Esclarecimentos sobre questionamentos da CVM/B3
+CVM · entregue 24/11/2026 19:27 · Esclarecimentos sobre questionamentos da CVM/B3
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1593223
+Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; confirma ou nega o que circula
+Ativos: BBAS3
+Como falar: 'a Banco do Brasil publicou comunicado ao mercado sobre Esclarecimentos sobre questionamentos da CVM/B3'
+Fonte: CVM 24/11
+id: E03-BBAS3-1593223-2026-11-24 · status: linha
 
 [INFO] E03 · VALE3 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
 CVM · entregue 24/11/2026 18:07 · Outros Comunicados Não Considerados Fatos Relevantes
@@ -14,7 +41,53 @@ Fonte: CVM 24/11
 id: E03-VALE3-1593038-2026-11-24 · status: linha
 
 
-## NOTÍCIAS COM MATERIALIDADE (10)
+## SEC (8-K, 6-K, 10-Q, 10-K) (1)
+
+[INFO] E04 · GOOGL · 8-K: 8.01 outros eventos
+SEC EDGAR · aceito 24/11 18h49 · 8-K
+Do documento:
+  – 20549  FORM 8-K   CURRENT REPORT  Pursuant to Section 13 or 15(d)  of The Securities Exchange Act of 1934  Date of Report (Date of earliest event reported)  November 24, 2026   ALPHABET INC.
+Link: https://www.sec.gov/Archives/edgar/data/1652044/000119312526475973/d91615d8k.htm
+Por que importa: documento da companhia na SEC
+Ativos: GOOGL
+Como falar: 'a GOOGL protocolou 8-K na SEC (8.01 outros eventos)'
+Fonte: SEC EDGAR 2026-11-24
+id: E04-GOOGL-26475973-2026-11-24 · status: linha · íntegra disponível
+
+
+## NOTÍCIAS COM MATERIALIDADE (12)
+
+[ATENÇÃO] E05 · PETR4 · Petrobras anuncia investimento de US$ 122 bilhões até 2031
+Agencia Brasil · 24/11 19h37 · fonte única · licença: integral
+Do texto:
+  – A Petrobras anunciou um investimento de US$ 122 bilhões por meio do plano de negócios 2027-2031.
+  – De acordo com a empresa, a ideia é manter o foco no segmento de exploração e produção, que no novo plano terá 70% dos investimentos, conciliando com recursos destinados à diversificação de negócios de baixo carbono, seg…
+  – “Nós planejamos investir ao longo de 5 anos US$ 122 bilhões.
+  – Isso representa cerca de 5% de tudo que será investido no Brasil nos próximos 5 anos”.
+  – “De 24 para cá, nós crescemos mais do que crescemos em 10 anos.
+  – Nos últimos 2 anos, a produção aumentou cerca de 30%.
+Link: https://agenciabrasil.ebc.com.br/radioagencia-nacional/economia/audio/2026-11/petrobras-anuncia-investimento-de-us-122-bilhoes-ate-2031
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: PETR4
+Como falar: 'saiu no Agencia Brasil: Petrobras anuncia investimento de US$ 122 bilhões até 2031; confirmar o número no texto antes de repassar'
+Fonte: Agencia Brasil 24/11 19h37
+id: E05-PETR4-a5316d5808-2026-11-24 · status: pendente · íntegra disponível
+
+[ATENÇÃO] E05 · PETR4 · Petrobras (PETR4) abre a carteira, mas fecha espaço para dividendos? Veja a reação do mercado ao plano 2027-2031
+Money Times · 24/11 11h45 · fonte única · licença: integral
+Do texto:
+  – Petrobras (PETR4) abre a carteira, mas fecha espaço para dividendos?
+  – Na noite de ontem (23), com a publicação do documento, a espera acabou, mas deu lugar a outro sentimento: a apreensão.
+  – A companhia prevê investimentos de US$ 122 bilhões, ante US$ 109 bilhões no planejamento anterior.
+  – Desse total, US$ 113 bilhões já estão destinados a projetos em execução, enquanto US$ 9 bilhões permanecem em avaliação.
+  – A estatal prevê investimentos com saída efetiva de caixa de cerca de US$ 24 bilhões em 2027 e outros US$ 24 bilhões em 2028, valores acima das expectativas de boa parte do mercado.
+  – Além disso, os gastos com arrendamentos também aumentaram, chegando a US$ 12 bilhões em 2027.
+Link: https://www.moneytimes.com.br/petrobras-petr4-abre-a-carteira-mas-fecha-espaco-para-dividendos-veja-a-reacao-do-mercado-ao-plano-2027-2031-bdap/
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: PETR4
+Como falar: 'saiu no Money Times: Petrobras (PETR4) abre a carteira, mas fecha espaço para dividendos? Veja a reação do mer…; confirmar o número no texto antes de repassar'
+Fonte: Money Times 24/11 11h45
+id: E05-PETR4-e99c7fd091-2026-11-24 · status: pendente · íntegra disponível
 
 [ATENÇÃO] E05 · PETR4 · Petrobras prevê investimentos de US$ 122 bilhões entre 2027 e 2031
 Agencia Brasil · 24/11 14h31 · + g1 · licença: integral
@@ -128,7 +201,7 @@ Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir
 Ativos: PETR4
 Como falar: 'saiu no Seu Dinheiro: Petrobras (PETR4): US$ 122 bilhões em investimentos e US$ 60 bilhões em dividendos — por…; confirmar o número no texto antes de repassar'
 Fonte: Seu Dinheiro 23/11 20h25
-id: E05-PETR4-5cb1d02577-2026-11-23 · status: pendente
+id: E05-PETR4-5cb1d02577-2026-11-23 · status: expirado
 
 [ATENÇÃO] E05 · PETR4 · Plano de Negócios 2027-2031 da Petrobras prevê investimento total de US$ 122 bi
 Valor Economico · 23/11 20h25 · fonte única · licença: resumo
@@ -144,7 +217,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: PETR4
 Como falar: 'saiu no Valor Economico: Plano de Negócios 2027-2031 da Petrobras prevê investimento total de US$ 122 bi; confirmar o número no texto antes de repassar'
 Fonte: Valor Economico 23/11 20h25
-id: E05-PETR4-af482afe3e-2026-11-23 · status: pendente
+id: E05-PETR4-af482afe3e-2026-11-23 · status: expirado
 
 [ATENÇÃO] E05 · BTC · CFTC Guidance Requires at Least 20% Haircuts for Bitcoin and Ether in Operating Reserves
 TradingView (Reuters) · 23/11 20h00 · fonte única · licença: manchete
@@ -153,11 +226,25 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: BTC · ETH
 Como falar: 'saiu no TradingView (Reuters): CFTC Guidance Requires at Least 20% Haircuts for Bitcoin and Ether in Operating Reserves; confirmar o número no texto antes de repassar'
 Fonte: TradingView (Reuters) 23/11 20h00
-id: E05-BTC-84c2aed2e4-2026-11-23 · status: pendente
+id: E05-BTC-84c2aed2e4-2026-11-23 · status: expirado
 
 
-## OUTRAS NOTÍCIAS (só manchete) (31)
+## OUTRAS NOTÍCIAS (só manchete) (45)
 
+· PETR4 Petrobras prevê emitir 28% mais até 2030 e retorna à produção de etanol (UOL Economia) https://capitalreset.uol.com.br/transicao-energetica/petrobras-preve-emitir-28-mais-ate-2030-e-retorna-a-producao-de-etanol/
+· USDBRL Banco Central anuncia nova intervenção no câmbio, de até US$ 2 bi (O Globo) https://oglobo.globo.com/economia/financas/noticia/2026/11/24/banco-central-intervencao-ate-usd-2-bi.ghtml
+· USDBRL Dólar cai para R$ 5,91 com expectativa de ajuste fiscal (Agencia Brasil) https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/dolar-cai-para-r-591-com-expectativa-de-ajuste-fiscal
+· NVDA Intel, Marvell, and Dell Stocks Will Benefit from Return of Nvidia CEO Jensen Huang (Barron's) https://www.barrons.com/articles/intel-marvell-dell-nvidia-huang-stock-564d5753
+· BTC CleanSpark Returns to Q4 Profit on Bitcoin Gains, Revenue Falls 46% During AI Shift (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/cleanspark-returns-q4-profit-bitcoin-215300886.html
+· NVDA Kevin O’Leary Says ‘The Bank of NVIDIA Is Closed’ as AI Data Center Boom Faces Scrutiny (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/kevin-o-leary-says-bank-213006032.html
+· PETR4 Não falamos em aumentar dívida, diz Chambriard sobre plano do Petrobras (UOL Economia) https://economia.uol.com.br/noticias/redacao/2026/11/24/petrobras.htm
+· VALE3 Por que a Vale (VALE3) caiu mais de 5% nesta terça? (InfoMoney) https://www.infomoney.com.br/mercados/por-que-a-vale-vale3-caiu-mais-de-5-nesta-terca/
+· PETR4 Dividendos extraordinários são um potencial, mas Petrobras não está prometendo, diz Magda (UOL Economia) https://economia.uol.com.br/noticias/estadao-conteudo/2026/11/24/dividendos-extraordinarios-sao-um-potencial-mas-petrobras-nao-esta-prometendo-diz-magda.htm
+· USDBRL Dólar cai a R$ 5,91, longe da mínima do dia, com notícia sobre PEC para conter gastos (InfoMoney) https://www.infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-24112026/
+· USDBRL Dólar à vista fecha em baixa de 0,35%, a R$5,9085 na venda (UOL Economia) https://economia.uol.com.br/noticias/reuters/2026/11/24/dolar-a-vista-fecha-em-baixa-de-035-a-r59085-na-venda.htm
+· NVDA Jensen Huang’s Nvidia return is a ‘bullish black swan’ and bitcoin is in gold’s ‘doghouse’ era: Eric Balchunas (Yahoo Finance) https://ca.finance.yahoo.com/video/jensen-huang-nvidia-return-bullish-192556293.html
+· CVX Earnings Surge Could Be A Game Changer For Chevron Stock (CVX) (Yahoo Finance) https://news.google.com/rss/articles/CBMinwFBVV95cUxNbC00MkdyTldsVWJtTjUtTDdaM25CZFBFN2JMVUdVc3hvdW5DcWpLc2JzZjBUU3M3cGFlLVFDcG1jWkZZYlItR2pHZDJGLUJsdmRQc2kzS1U3NF9uTW53TlN4eW0zQXVoc2hDYUl4Y2ZtTGZLQlYzcWdOcE5JZG9ZblFaUVlMMGhTcGJkS2xRWmthaTVkQk9fQXc4eC14NjQ?oc=5
+· NVDA NVIDIA Corporation (NVDA) stock price, news, quote and history (Yahoo Finance) https://news.google.com/rss/articles/CBMiUkFVX3lxTE9Nb3Qya2dEajFPaUk5dEVveFlBb0lMSjVhTXBHYldhYUI1TlAwUXYxZjFoZHhmRURWd3BRTjRZVDk1REF1NXNOUzRXWFhkT2d4b1E?oc=5
 · JPM JPMorgan Sets Below Consensus S&P 500 Target of 8,200 for 2027 (Bloomberg) https://www.bloomberg.com/news/articles/2026-11-24/jpmorgan-sets-below-consensus-s-p-500-target-of-8-200-for-2027
 · USDBRL Banco Central autoriza Binance a operar no mercado de câmbio no Brasil (CNN Brasil) https://www.cnnbrasil.com.br/economia/money/tecnologia/banco-central-autoriza-binance-a-operar-no-mercado-de-cambio-no-brasil/
 · PLTR Palantir: A Rude Awakening Is Coming (NASDAQ:PLTR) (Seeking Alpha) https://seekingalpha.com/article/4971583-palantir-a-rude-awakening-is-coming
