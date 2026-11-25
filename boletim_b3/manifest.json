@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-11-25T11:51:52Z",
+ "gerado_em": "2026-11-25T19:05:37Z",
  "cliente_http": "curl_cffi",
  "livro": [
   "EQTL3",
@@ -59,7 +59,7 @@
    "falhas": {
     "InstrumentsConsolidated": "arquivo InstrumentsConsolidated: token HTTP 400"
    },
-   "segundos": 179
+   "segundos": 21
   },
   "2026-11-24": {
    "completo": false,
@@ -75,7 +75,7 @@
     "TradeInformationConsolidatedAfterHours"
    ],
    "rf_cadastro": {
-    "papeis_no_dia": 1585,
+    "papeis_no_dia": 1577,
     "consultados": 0,
     "achados": 0,
     "sem_cadastro": 0,
@@ -97,7 +97,7 @@
    "falhas": {
     "InstrumentsConsolidated": "arquivo InstrumentsConsolidated: token HTTP 400"
    },
-   "segundos": 110
+   "segundos": 14
   }
  },
  "falhas": [],
