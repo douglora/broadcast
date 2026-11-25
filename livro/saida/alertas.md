@@ -1,38 +1,4 @@
-ALERTAS · intradia
-
-(pendente de slot anterior) [ATENÇÃO] E05 · ITUB4 · Quando Itaú (ITUB4) paga dividendos? Confira o calendário
-Suno Noticias · 25/11 15h01 · fonte única · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – Negócios Quando Itaú (ITUB4) paga dividendos?
-  – Confira o calendário Quem tem ações do Itaú Unibanco (ITUB4) já pode marcar no calendário a próxima remessa de proventos do banco.
-  – O pagamento mensal referente a dezembro tem crédito previsto para 4 de janeiro de 2027 no Brasil.
-  – Assim, o provento de dezembro pertence ao exercício de 2026, mas só cai na conta em janeiro.
-  – O valor de referência dessa distribuição é de R$ 0,015 líquido por ação.
-  – Como o pagamento é feito na forma de juros sobre capital próprio (JCP), o montante bruto é de R$ 0,01765, já que há retenção de Imposto de Renda na fonte.
-Link: https://www.suno.com.br/noticias/itau-unibanco-itub4-dividendos-calendario-241126/
-Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
-Ativos: ITUB4
-Como falar: 'saiu no Suno Noticias: Quando Itaú (ITUB4) paga dividendos? Confira o calendário; confirmar o número no texto antes de repassar'
-Fonte: Suno Noticias 25/11 15h01
-ids: E05-ITUB4-41f21b4d7f-2026-11-25
-
-(pendente de slot anterior) [ATENÇÃO] E05 · PETR4 · Santander rebaixa Petrobras para neutra e reduz preço-alvo após aumento de riscos no plano de negócios
-ADVFN · 25/11 14h10 · fonte única · licença: manchete
-Link: https://br.advfn.com/jornal/2026/11/santander-rebaixa-petrobras-para-neutra-e-reduz-preco-alvo-apos-aumento-de-riscos-no-plano-de-negocios
-Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
-Ativos: PETR4
-Como falar: 'saiu no ADVFN: Santander rebaixa Petrobras para neutra e reduz preço-alvo após aumento de riscos no plan…; confirmar o número no texto antes de repassar'
-Fonte: ADVFN 25/11 14h10
-ids: E05-PETR4-db88d9258f-2026-11-25
-
-(pendente de slot anterior) [ATENÇÃO] E05 · AMZN · Amazon Stocks Fall 4.26% as $215 Billion Capex Run Rate Meets AI Doubts
-TradingView (Reuters) · 25/11 12h41 · fonte única · licença: manchete
-Link: https://www.tradingview.com/news/gurufocus:eccdca4a2094b:0-amazon-stocks-fall-4-26-as-215-billion-capex-run-rate-meets-ai-doubts/
-Por que importa: decisao de politica monetaria reprecifica toda a curva e o cambio
-Ativos: AMZN
-Como falar: 'saiu no TradingView (Reuters): Amazon Stocks Fall 4.26% as $215 Billion Capex Run Rate Meets AI Doubts; confirmar o número no texto antes de repassar'
-Fonte: TradingView (Reuters) 25/11 12h41
-ids: E05-AMZN-233b96244c-2026-11-25
+ALERTAS · eventos
 
 (pendente de slot anterior) [ATENÇÃO] E05 · PETR4 · Petrobras eleva em 12% plano de investimentos entre 2027 e 2031, para US$ 122 bilhões
 Estadao · 25/11 12h54 · fonte única · licença: manchete
@@ -52,17 +18,16 @@ Como falar: 'saiu no TradingView (Reuters): Alibaba Q2 Earnings Call Details Clo
 Fonte: TradingView (Reuters) 25/11 11h00
 ids: E05-BABA-7adb3bae38-2026-11-25
 
-[ATENÇÃO] E05 · NVDA · Nvidia agrees to settle 2018 US investor class action for $290 million
+(pendente de slot anterior) [ATENÇÃO] E05 · NVDA · Nvidia agrees to settle 2018 US investor class action for $290 million
 Reuters · 25/11 14h36 · fonte única · licença: manchete
 Link: https://www.reuters.com/legal/government/nvidia-agrees-settle-2018-us-investor-class-action-for-290-million-2026-11-25/
 Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
 Ativos: NVDA
 Como falar: 'saiu no Reuters: Nvidia agrees to settle 2018 US investor class action for $290 million; confirmar o número no texto antes de repassar'
 Fonte: Reuters 25/11 14h36
-Push: intradia: 2 alertas de atenção — E05 NVDA, E05 NVDA · detalhe na sessão
 ids: E05-NVDA-5b37f62a45-2026-11-25
 
-[ATENÇÃO] E05 · NVDA · Nvidia agrees to $290M settlement over crypto mining revenue disclosures
+(pendente de slot anterior) [ATENÇÃO] E05 · NVDA · Nvidia agrees to $290M settlement over crypto mining revenue disclosures
 TradingView (Reuters) · 25/11 14h19 · fonte única · licença: manchete
 Link: https://www.tradingview.com/news/cointelegraph:a5d0a6786094b:0-nvidia-agrees-to-290m-settlement-over-crypto-mining-revenue-disclosures/
 Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
@@ -71,26 +36,77 @@ Como falar: 'saiu no TradingView (Reuters): Nvidia agrees to $290M settlement ov
 Fonte: TradingView (Reuters) 25/11 14h19
 ids: E05-NVDA-b7a242b7cb-2026-11-25
 
-Info (só linha no Fechamento):
-· E05 USDBRL · Dólar cai 1,58% com expectativa fiscal e rumores sobre Trabuco na Fazenda
-· E05 PLTR · Goldman Sachs bets on Palantir's 'mega customers' after NYC demo
-· E05 USDBRL · Dólar fecha em baixa, aos R$ 5,81, com avaliação de novas medidas fiscais e cenário externo
-· E05 BTC · Bitcoin Miners Hammered Again as Price Rout Squeezes Margins
-· E05 MU · Micron, Sandisk lead technology stocks with attractive valuations after Q3 earnings
-· E05 USDBRL · Ibovespa registra forte alta de mais de 1% com alívo no dólar e juros futuros
-· E05 NVDA · S&P puts NVIDIA on CreditWatch over governance concerns
-· E05 BAC · Salesforce earnings to put Bank of America’s growth outlook to the test
-· E05 BTC · Is the Anthropic IPO to Blame for Bitcoin's Recent Downturn? The Answer Might Surprise You.
-· E05 MU · Micron Technology (MU) Dropped, So What Is Drawing Attention Now?
-· E05 PETR4 · Dólar fecha em queda, mas fica acima de R$ 5,91; Ibovespa cai com tombo da Vale e da Petrobras
+[ATENÇÃO] E05 · KLBN4 · Klabin (KLBN11) atualiza informações sobre acidente em Santa Catarina e adia Investor Day
+Money Times · 25/11 18h26 · fonte única · licença: integral
+Do texto:
+  – Klabin (KLBN11) atualiza informações sobre acidente em Santa Catarina e adia Investor Day A Klabin (KLBN11) informou nesta quarta-feira (25) o adiamento do Klabin Day, evento voltado a acionistas que estava previsto par…
+  – O incidente foi divulgado ao mercado em fato relevante publicado em 18 de novembro.
+Link: https://www.moneytimes.com.br/klabin-klbn11-atualiza-informacoes-sobre-acidente-em-santa-catarina-e-adia-investor-day-pads/
+Por que importa: evento operacional afeta producao e custo no trimestre corrente
+Ativos: KLBN4
+Como falar: 'saiu no Money Times: Klabin (KLBN11) atualiza informações sobre acidente em Santa Catarina e adia Investor Day; confirmar o número no texto antes de repassar'
+Fonte: Money Times 25/11 18h26
+Push: eventos: 3 alertas de atenção — E05 KLBN4, E05 COHR, E05 NVDA · detalhe na sessão
+ids: E05-KLBN4-3eee798dee-2026-11-25
 
+[ATENÇÃO] E05 · COHR · Coherent (COHR) Authorizes A $2.0b Buyback, Is The 47% Undervaluation Case Intact?
+Yahoo Finance · 25/11 17h14 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Coherent (COHR) has drawn fresh attention after authorizing a share repurchase program of up to US$2.0b with no expiration date, a capital return move that gives investors a new variable to track.
+  – Coherent's share price has fallen 9.1% over the past day and is down 33.3% over 90 days.
+  – However, the 1 year total shareholder return of 31.8% and 3 year total shareholder return above 4x show that longer term momentum is still intact.
+  – Spot other AI infrastructure plays moving on similar themes to Coherent's buyback and datacenter optics story by scanning our hand picked 53 AI infrastructure stocks.
+  – Coherent's new US$2.0b buyback, rapid AI optics growth and a share price that has slid a third in 90 days create a simple tension.
+  – See why 146 investors see Coherent as 47% undervalued.
+Link: https://finance.yahoo.com/markets/stocks/articles/coherent-cohr-authorizes-2-0b-201459636.html
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: COHR
+Como falar: 'saiu no Yahoo Finance: Coherent (COHR) Authorizes A $2.0b Buyback, Is The 47% Undervaluation Case Intact?; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 25/11 17h14
+ids: E05-COHR-db6c8e4f4d-2026-11-25
+
+[ATENÇÃO] E05 · NVDA · Nvidia to Pay $290 Million to Settle Long-Running Crypto Mining Revenue Lawsuit
+Yahoo Finance · 25/11 16h28 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Nvidia has agreed to pay $290 million to settle a shareholder lawsuit dating back to 2018, resolving long-running claims that the chipmaker misled investors about how much of its soaring gaming revenue was actually driv…
+  – According to a court filing Tuesday, the proposed cash settlement would close a case rooted in the 2017-2018 crypto boom, when miners snapped up Nvidia's GeForce GPUs to mint coins, with the sales booked as gaming reven…
+  – In November 2018, the company cut its quarterly revenue forecast as mining demand evaporated, and its stock tumbled roughly 28% over the following two trading sessions.
+  – An analysis commissioned by the plaintiffs estimated Nvidia had understated its crypto-related GPU sales by about $1.1 billion over that stretch.
+  – A district court dismissed the suit in March 2021 for failure to adequately allege the executives knew they were misleading investors.
+  – Supreme Court, which heard arguments before dismissing the appeal in December 2024 without ruling on the merits.
+Link: https://finance.yahoo.com/markets/stocks/articles/nvidia-pay-290-million-settle-192854016.html
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: NVDA
+Como falar: 'saiu no Yahoo Finance: Nvidia to Pay $290 Million to Settle Long-Running Crypto Mining Revenue Lawsuit; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 25/11 16h28
+ids: E05-NVDA-42341009ee-2026-11-25
+
+Info (só linha no Fechamento):
+· E03 KLBN4 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
+· E05 USDBRL · Dólar cai para R$ 5,81, em meio à discussão de nomes para Fazenda
+· E05 SMAL11 · Quais small caps da Bolsa combinam alta rentabilidade e baixa dívida?
+· E05 USDBRL · Dólar cai 1,58% a R$ 5,817 com leilões do BC e ajuste fiscal
+· E05 USDBRL · Dólar cai com expectativa sobre Trabuco na Fazenda e discussão de medidas fiscais
+· E05 NVDA · Nvidia at Risk of Rating Cut by S&P Over Governance Concerns
+· E05 USDBRL · Ibovespa Hoje Ao Vivo: Bolsa sobe mais de 1% e retoma os 166 mil; dólar recua
+· E05 TSLA · Tesla (TSLA) Earnings Date & Report
+· E05 NVDA · Nvidia sellers seek new buyers as U.S. curbs China AI chip access, sources tell CNBC
+· E05 AMD · AMD, Intel stocks sink despite $132B reassurance
+· E05 BBAS3 · Banco do Brasil (BBAS3) esclarece à CVM sobre BB Seguridade
+· E05 EQTL3 · Vamos ter que repetir o pré-sal na Margem Equatorial, diz Magda
+· E05 NVDA · Plot Twist: Coherent Announces a $2 Billion Buyback, the Same Sum Nvidia Paid for Its Stock in March
+
+Suprimidos pelo teto (viram linha do Fechamento): E05-NVDA-411339b7c4-2026-11-25 (teto de noticias)
 
 Alertas do dia (todos, com status):
 · expirado  T13 VIX — VIX cruzou 30: 30,9 (+17% no dia)
+· pendente  E05 KLBN4 — KLBN4 · Klabin (KLBN11) atualiza informações sobre acidente em Santa Catarina e 
+· pendente  E05 COHR — COHR · Coherent (COHR) Authorizes A $2.0b Buyback, Is The 47% Undervaluation Cas
+· pendente  E05 NVDA — NVDA · Nvidia to Pay $290 Million to Settle Long-Running Crypto Mining Revenue L
 · pendente  E05 NVDA — NVDA · Nvidia agrees to settle 2018 US investor class action for $290 million
 · pendente  E05 NVDA — NVDA · Nvidia agrees to $290M settlement over crypto mining revenue disclosures
-· pendente  E05 PETR4 — PETR4 · Petrobras eleva em 12% plano de investimentos entre 2027 e 2031, para US
-· pendente  E05 BABA — BABA · Alibaba Q2 Earnings Call Details Cloud Outlook and Chip Plans
+· expirado  E05 PETR4 — PETR4 · Petrobras eleva em 12% plano de investimentos entre 2027 e 2031, para US
+· expirado  E05 BABA — BABA · Alibaba Q2 Earnings Call Details Cloud Outlook and Chip Plans
 · expirado  E05 ITUB4 — ITUB4 · Quando Itaú (ITUB4) paga dividendos? Confira o calendário
 · expirado  E05 PETR4 — PETR4 · Santander rebaixa Petrobras para neutra e reduz preço-alvo após aumento 
 · expirado  E05 AMZN — AMZN · Amazon Stocks Fall 4.26% as $215 Billion Capex Run Rate Meets AI Doubts
@@ -107,4 +123,4 @@ Alertas do dia (todos, com status):
 · expirado  E05 PETR4 — PETR4 · Petrobras (PETR4) anuncia R$ 15,6 bi em dividendos extraordinários; veja
 · linha     F03 BRENT — Brent sobe a US$ 94,55 (+3,4% no dia) (parcial, intradia)
 · linha     F01 USDBRL — Real sobe: USD/BRL 5,8151 (-1,6% no dia · 5 dias seguidos de movimento doméstico
-· (+119 notícias só manchete, em noticias.md)
+· (+132 notícias só manchete, em noticias.md)

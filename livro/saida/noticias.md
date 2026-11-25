@@ -1,6 +1,18 @@
-NOTÍCIAS E FATOS · 25/11 17h28
+NOTÍCIAS E FATOS · 25/11 19h18
 
-Pernas: noticias ok 13 novas (18 consultas; descartadas: 418 veículo fora da lista, 34 sem ativo, 3 teto) · cvm ok 0 novos de 11 (4 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 15 novas (18 consultas; descartadas: 416 veículo fora da lista, 23 sem ativo, 2 teto) · cvm ok 1 novos de 12 (5 cias casadas) · sec ok 0 novos em 3 dias
+
+## FATOS RELEVANTES E COMUNICADOS (CVM) (1)
+
+[INFO] E03 · KLBN4 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
+CVM · entregue 25/11/2026 18:10 · Outros Comunicados Não Considerados Fatos Relevantes
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1593815
+Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; confirma ou nega o que circula
+Ativos: KLBN4
+Como falar: 'a Klabin publicou comunicado ao mercado sobre Outros Comunicados Não Considerados Fatos Relevantes'
+Fonte: CVM 25/11
+id: E03-KLBN4-1593815-2026-11-25 · status: linha
+
 
 ## SEC (8-K, 6-K, 10-Q, 10-K) (2)
 
@@ -31,7 +43,67 @@ Fonte: SEC EDGAR 2026-11-25
 id: E04-TSM-26000805-2026-11-25 · status: linha · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (20)
+## NOTÍCIAS COM MATERIALIDADE (24)
+
+[ATENÇÃO] E05 · KLBN4 · Klabin (KLBN11) atualiza informações sobre acidente em Santa Catarina e adia Investor Day
+Money Times · 25/11 18h26 · fonte única · licença: integral
+Do texto:
+  – Klabin (KLBN11) atualiza informações sobre acidente em Santa Catarina e adia Investor Day A Klabin (KLBN11) informou nesta quarta-feira (25) o adiamento do Klabin Day, evento voltado a acionistas que estava previsto par…
+  – O incidente foi divulgado ao mercado em fato relevante publicado em 18 de novembro.
+Link: https://www.moneytimes.com.br/klabin-klbn11-atualiza-informacoes-sobre-acidente-em-santa-catarina-e-adia-investor-day-pads/
+Por que importa: evento operacional afeta producao e custo no trimestre corrente
+Ativos: KLBN4
+Como falar: 'saiu no Money Times: Klabin (KLBN11) atualiza informações sobre acidente em Santa Catarina e adia Investor Day; confirmar o número no texto antes de repassar'
+Fonte: Money Times 25/11 18h26
+id: E05-KLBN4-3eee798dee-2026-11-25 · status: pendente · íntegra disponível
+
+[ATENÇÃO] E05 · COHR · Coherent (COHR) Authorizes A $2.0b Buyback, Is The 47% Undervaluation Case Intact?
+Yahoo Finance · 25/11 17h14 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Coherent (COHR) has drawn fresh attention after authorizing a share repurchase program of up to US$2.0b with no expiration date, a capital return move that gives investors a new variable to track.
+  – Coherent's share price has fallen 9.1% over the past day and is down 33.3% over 90 days.
+  – However, the 1 year total shareholder return of 31.8% and 3 year total shareholder return above 4x show that longer term momentum is still intact.
+  – Spot other AI infrastructure plays moving on similar themes to Coherent's buyback and datacenter optics story by scanning our hand picked 53 AI infrastructure stocks.
+  – Coherent's new US$2.0b buyback, rapid AI optics growth and a share price that has slid a third in 90 days create a simple tension.
+  – See why 146 investors see Coherent as 47% undervalued.
+Link: https://finance.yahoo.com/markets/stocks/articles/coherent-cohr-authorizes-2-0b-201459636.html
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: COHR
+Como falar: 'saiu no Yahoo Finance: Coherent (COHR) Authorizes A $2.0b Buyback, Is The 47% Undervaluation Case Intact?; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 25/11 17h14
+id: E05-COHR-db6c8e4f4d-2026-11-25 · status: pendente
+
+[ATENÇÃO] E05 · NVDA · Nvidia to Pay $290 Million to Settle Long-Running Crypto Mining Revenue Lawsuit
+Yahoo Finance · 25/11 16h28 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Nvidia has agreed to pay $290 million to settle a shareholder lawsuit dating back to 2018, resolving long-running claims that the chipmaker misled investors about how much of its soaring gaming revenue was actually driv…
+  – According to a court filing Tuesday, the proposed cash settlement would close a case rooted in the 2017-2018 crypto boom, when miners snapped up Nvidia's GeForce GPUs to mint coins, with the sales booked as gaming reven…
+  – In November 2018, the company cut its quarterly revenue forecast as mining demand evaporated, and its stock tumbled roughly 28% over the following two trading sessions.
+  – An analysis commissioned by the plaintiffs estimated Nvidia had understated its crypto-related GPU sales by about $1.1 billion over that stretch.
+  – A district court dismissed the suit in March 2021 for failure to adequately allege the executives knew they were misleading investors.
+  – Supreme Court, which heard arguments before dismissing the appeal in December 2024 without ruling on the merits.
+Link: https://finance.yahoo.com/markets/stocks/articles/nvidia-pay-290-million-settle-192854016.html
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: NVDA
+Como falar: 'saiu no Yahoo Finance: Nvidia to Pay $290 Million to Settle Long-Running Crypto Mining Revenue Lawsuit; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 25/11 16h28
+id: E05-NVDA-42341009ee-2026-11-25 · status: pendente
+
+[ATENÇÃO] E05 · NVDA · Plot Twist: Coherent Announces a $2 Billion Buyback, the Same Sum Nvidia Paid for Its Stock in March
+Yahoo Finance · 25/11 00h52 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Key Takeaways - Coherent authorized a $2 billion buyback on Nov.
+  – 18, the same amount Nvidia paid for 7.8 million new Coherent shares in March.
+  – - Coherent's free cash flow was negative $1.0 billion in fiscal 2026, so any buying would come from a cash pile Nvidia helped build.
+  – - Applied Optoelectronics went the other way that week, with a program to sell up to $550 million of new stock.
+  – Coherent (COHR:NYSE) authorized a $2 billion share buyback on Nov.
+  – That's what Nvidia(NVDA:NASDAQ) paid for 7.8 million new Coherent shares in March.
+Link: https://finance.yahoo.com/markets/stocks/articles/plot-twist-coherent-announces-2-035229494.html
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: NVDA
+Como falar: 'saiu no Yahoo Finance: Plot Twist: Coherent Announces a $2 Billion Buyback, the Same Sum Nvidia Paid for Its Sto…; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 25/11 00h52
+id: E05-NVDA-411339b7c4-2026-11-25 · status: linha
 
 [ATENÇÃO] E05 · NVDA · Nvidia agrees to settle 2018 US investor class action for $290 million
 Reuters · 25/11 14h36 · fonte única · licença: manchete
@@ -58,7 +130,7 @@ Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais
 Ativos: PETR4
 Como falar: 'saiu no Estadao: Petrobras eleva em 12% plano de investimentos entre 2027 e 2031, para US$ 122 bilhões; confirmar o número no texto antes de repassar'
 Fonte: Estadao 25/11 12h54
-id: E05-PETR4-bb6b4ccb70-2026-11-25 · status: pendente
+id: E05-PETR4-bb6b4ccb70-2026-11-25 · status: expirado
 
 [ATENÇÃO] E05 · BABA · Alibaba Q2 Earnings Call Details Cloud Outlook and Chip Plans
 TradingView (Reuters) · 25/11 11h00 · fonte única · licença: manchete
@@ -67,7 +139,7 @@ Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; 
 Ativos: BABA
 Como falar: 'saiu no TradingView (Reuters): Alibaba Q2 Earnings Call Details Cloud Outlook and Chip Plans; confirmar o número no texto antes de repassar'
 Fonte: TradingView (Reuters) 25/11 11h00
-id: E05-BABA-7adb3bae38-2026-11-25 · status: pendente
+id: E05-BABA-7adb3bae38-2026-11-25 · status: expirado
 
 [ATENÇÃO] E05 · ITUB4 · Quando Itaú (ITUB4) paga dividendos? Confira o calendário
 Suno Noticias · 25/11 15h01 · fonte única · licença: resumo
@@ -270,8 +342,19 @@ Fonte: Suno Noticias 24/11 11h06
 id: E05-PETR4-594e6ec6b7-2026-11-24 · status: expirado
 
 
-## OUTRAS NOTÍCIAS (só manchete) (110)
+## OUTRAS NOTÍCIAS (só manchete) (121)
 
+· USDBRL Dólar cai para R$ 5,81, em meio à discussão de nomes para Fazenda (Agencia Brasil) https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/dolar-cai-para-r-581-em-meio-discussao-de-nomes-para-fazenda
+· SMAL11 Quais small caps da Bolsa combinam alta rentabilidade e baixa dívida? (Estadao) https://www.estadao.com.br/einvestidor/einar-rivero/quais-small-caps-da-bolsa-combinam-alta-rentabilidade-e-baixa-divida/
+· USDBRL Dólar cai 1,58% a R$ 5,817 com leilões do BC e ajuste fiscal (Poder360) https://www.poder360.com.br/poder-economia/dolar-cai-158-a-r-5817-com-leiloes-do-bc-e-ajuste-fiscal/
+· USDBRL Dólar cai com expectativa sobre Trabuco na Fazenda e discussão de medidas fiscais (ADVFN) https://br.advfn.com/jornal/2026/11/dolar-cai-com-expectativa-sobre-trabuco-na-fazenda-e-discussao-de-medidas-fiscais
+· NVDA Nvidia at Risk of Rating Cut by S&P Over Governance Concerns (Bloomberg) https://www.bloomberg.com/news/articles/2026-11-25/s-p-says-it-may-downgrade-nvidia-s-ratings-on-governance-worries
+· USDBRL Ibovespa Hoje Ao Vivo: Bolsa sobe mais de 1% e retoma os 166 mil; dólar recua (InfoMoney) https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-25112026/
+· TSLA Tesla (TSLA) Earnings Date & Report (Investing.com) https://www.investing.com/equities/tesla-motors-earnings
+· NVDA Nvidia sellers seek new buyers as U.S. curbs China AI chip access, sources tell CNBC (CNBC) https://news.google.com/rss/articles/CBMie0FVX3lxTE1IN1pwRHJFN1ZiXzJpeXpsLWI5RGJNMTNUU3VSNFY5Q21iUkVkNDhneFg2VFg4TTI3R3k5RXUtb0hBRGRhYkVXdXZablA3dG4zSF9yc3Q5YmVDTjBBZjAxMXJFWUdCUFFwZHQ3dm9QWG5uSWhXdS1KRGRVY9IBgAFBVV95cUxPYW9MbXdwMWFTZFd6dmhZLVNGYzdHUmNDaF9VQk5jN2lMdDFfU010WUdOX2t1ai1qNXYtZi1TbnVTbEt6b0pvejRsdjJoYmZuWXJwZjl4TkpuZHNpeHNIbEpFZkxuc3RnNExQZGRWZ0ZQTy0xYU9wYnhCT3k5a2tBUA?oc=5
+· AMD AMD, Intel stocks sink despite $132B reassurance (TradingView (Reuters)) https://news.google.com/rss/articles/CBMipgFBVV95cUxPc3dsU2JjS2g4ekoyOWgtdElNdllTaElBRk1CYy13UDYyOWVLeWFhbFFScFN3WXZ0dU5mN1JyRXZEMkxQc0ptclNKSDBKZ1pTczA0VHZEYlhLVlZfRzdfR05FX3BESFdZcUczYWl2RmZUb0FvYm9NQ0QyVjhqYlZqa254QUNyUzdBQU15R2VzbU9JbVAteWxfcjlzWGE3TlZRU3ladnZ3?oc=5
+· BBAS3 Banco do Brasil (BBAS3) esclarece à CVM sobre BB Seguridade (Suno Noticias) https://news.google.com/rss/articles/CBMiekFVX3lxTFBnejg2S01pZmt3U3RicDdpZ3FrZ0pCbzZxRHQ3dElxYXNRb20zcE9NLTRNMW94QVZYUm51Yzc5OTBVbWN0THY4OFVDc3dielFiSkxyVklwYXMtOFI3SWVaLU5hZGgyWHV0N1lza0M3eFNyZGFWZ3JLcGNB0gF_QVVfeXFMT3VsWUVzaEZhX01lVFJkb2Ryc0s3dHhSa25sUkVFN2lNaTFmNEk3SDh3UmhKTmJVQU8zRjYxZi1sOFpxTnREdTB1NUhpUHJrWGdjaWFlZHJuOUlzc2ZscFpKb0NCZS1Ndi1aRWhFRGJDRkhFa0dKUzVMclU4SHozcw?oc=5
+· EQTL3 Vamos ter que repetir o pré-sal na Margem Equatorial, diz Magda (CNN Brasil) https://news.google.com/rss/articles/CBMinwFBVV95cUxOVEdsWGdqanFUMk9ldWRRMmdpcWFZLTRJd3lCeS1TLTFneWxicWRJc0lHcWZXTC1TX1B1YVNCRGRBZjNOVWxHOEJObWV2SkpaTUJVSDY1QUJKN3lwTzVqemtTS2UweXR6QUtvWGpKdXI3ZXZaX1gzam1lOWpzUzhKckxvY0tmX2t1Rk1tQ1BkNDJkdV9HMWlmMzQyS1Rjc1k?oc=5
 · USDBRL Dólar cai 1,58% com expectativa fiscal e rumores sobre Trabuco na Fazenda (UOL Economia) https://economia.uol.com.br/cotacoes/noticias/redacao/2026/11/25/dolar-ibovespa-fechamento-25-novembro-2026.ghtm
 · PLTR Goldman Sachs bets on Palantir's 'mega customers' after NYC demo (Yahoo Finance) https://sg.finance.yahoo.com/news/goldman-sachs-bets-palantirs-mega-201300526.html
 · USDBRL Dólar fecha em baixa, aos R$ 5,81, com avaliação de novas medidas fiscais e cenário externo (O Globo) https://oglobo.globo.com/economia/financas/noticia/2026/11/25/dolar-bolsa-hoje.ghtml
@@ -321,15 +404,4 @@ id: E05-PETR4-594e6ec6b7-2026-11-24 · status: expirado
 · LITE Innodata, Lumentum, Quantum Computing, and Xanadu Quantum Technologies stocks trade down, what you need to know (TradingView (Reuters)) https://www.tradingview.com/news/stockstory:96744dfff094b:0-innodata-lumentum-quantum-computing-and-xanadu-quantum-technologies-stocks-trade-down-what-you-need-to-know/
 · BTC Bitcoin Price Prediction for December 2026: What the Forecasts Say (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-price-prediction-december-2026-161709787.html
 · BTC Bitcoin Price Faces Alarming $58,000 Test as Selling Mounts (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:6a200a1d1094b:0-bitcoin-price-faces-alarming-58-000-test-as-selling-mounts/
-· JPM JPMorgan says the S&P 500 will rise to 8,200 next year because of the AI supercycle (CNBC) https://www.cnbc.com/2026/11/25/jpmorgan-sp-500-8200-2027-ai.html
-· UST Treasury Yields Extend Fall After U.S. Data Flurry (The Wall Street Journal) https://www.wsj.com/finance/investing/u-s-treasury-yields-fall-ahead-of-pce-inflation-data-dfeb7995
-· USDBRL Dólar cai a R$ 5,86 e Ibovespa sobe com expectativa por medidas fiscais; Nasdaq tomba mais de 4% (Estadao) https://news.google.com/rss/articles/CBMi5AFBVV95cUxPbXB5T05UWmg1TENfbl9xbUo0eWc0N1JveG9heERUb0xzekk2R0hVTDJ2bWI2YUFRN2RWazVMbTg1cm10a1phNnpqYlBLM2FHRzdJSWhmcHdLRU0yLXQzMFBCNWFna3V2LU9CRXVFTHJ0R3NLelhHTVFtSW1PYnFpd3R0TWlUS1E3RU5EZjJQZ1RGTWJqZF8xbWJGazQ0NEJveDN0X1pPR0ZVY2pJLXo3RXRjNmRQY1ZPN290b3lYNUFkVG5Vb0ZCV19GOFlwcXp0T3hnRklfYnNUZnZLNkh6dktkOGfSAeoBQVVfeXFMUDNJaFd2bVd4TFY0azl6TG1lZEw3Q1VkbFZsLWhVbk9wcy1UbmJQeXdFcnJKRUJSLWVCd3JiYlg3U2xiVHBqRkJfdldhRkpFbmpZS2lKY0ZwMk1NVFVkYnQ4QzA5VXJ3TjdiYXVGUmJ6eHRVOGRkNEFzZXp5dGVaNHhCNENzbll2RmdrXzRGdTMzU19XdDF3dUpLS29wSkdLd0I1bHdQUUFEcmVlTTJMakRnMW9nNXZOTk40M3ZGZGFRVU1IQUs3RTB0SjFQeGxrWUNzTGdRbnItbk9PNmVicER3b3pIT1Z3NTJB?oc=5
-· USDBRL Dólar avança com cautela fiscal e externa antes do PCE dos EUA (UOL Economia) https://news.google.com/rss/articles/CBMiywFBVV95cUxPM05UM0RPRlRqa01TZ3lTb0EtQ0doWmhLVmwwZXVPMUR4RWdFZTQ4Qk5fcDZmVktVWEt6ZUNRV0puc21KY096am43T0JxYUVlNHI2YU9EYVJIOHR3aVVGTnBkQUdhTnFnOTFjQmlJSlE4TlNjQWhuTzhOTTR1S2o3SmUtRGN0d19CNFJIVmE3WWVxUjZlREg4S3k5clhtQjJjb2pMV1k5TkMxSC1WdE1rTk5mc0JxaE13elFzMWlNclRjTkJkeEhYcWNKRQ?oc=5
-· PETR4 BTG avalia que Petrobras tem espaço para ampliar produção, mas queda do Brent pode apertar contas (Valor Economico) https://valor.globo.com/empresas/noticia/2026/11/25/btg-avalia-que-petrobras-tem-espao-para-ampliar-produo-mas-queda-do-brent-pode-apertar-contas.ghtml
-· BBAS3 BBAS3: Banco do Brasil esclarece à CVM sobre BB Seguridade (Suno Noticias) https://www.suno.com.br/noticias/bbas3-bb-esclarece-cvm-bb-seguridade/
-· NVDA Not a Bubble: 2 Numbers That Show Nvidia’s Demand Is Real (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/not-bubble-2-numbers-show-155002687.html
-· META Meta Platforms Stocks Fall 2.91% as Big Tech Selloff Spreads (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:0966d20b5094b:0-meta-platforms-stocks-fall-2-91-as-big-tech-selloff-spreads/
-· PETR4 Jefferies reduz preços-alvos para ADRs da Petrobras após alta de investimentos em plano de negócios (Valor Economico) https://valor.globo.com/google/amp/empresas/noticia/2026/11/25/jefferies-reduz-preos-alvos-para-adrs-da-petrobras-aps-alta-de-investimentos-em-plano-de-negcios.ghtml
-· BBAS3 Comissão da Câmara aprova pedidos para ouvir ministro da Fazenda e presidente do Banco do Brasil após queda no lucro e atrito com o agro (O Globo) https://oglobo.globo.com/economia/noticia/2026/11/25/comissao-da-camara-aprova-pedidos-para-ouvir-ministro-da-fazenda-e-presidente-do-banco-do-brasil-apos-queda-no-lucro-e-atrito-com-o-agro.ghtml
-· BTC Strategy Now Holds More Than 850,000 Bitcoin. Where Could Its Stock Go Next? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/strategy-now-holds-more-850-150315381.html
-· (+50 manchetes; lista completa em eventos/noticias.json)
+· (+61 manchetes; lista completa em eventos/noticias.json)
