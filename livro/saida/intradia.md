@@ -1,23 +1,5 @@
 ALERTAS · intradia
 
-(pendente de slot anterior) [ATENÇÃO] E05 · AMD · AMD Stocks Plunge 9.74% as Chip Rout and Tariff Threat Collide
-TradingView (Reuters) · 25/11 12h49 · fonte única · licença: manchete
-Link: https://www.tradingview.com/news/gurufocus:83c0163b4094b:0-amd-stocks-plunge-9-74-as-chip-rout-and-tariff-threat-collide/
-Por que importa: tarifa ou sancao muda margem e acesso a mercado
-Ativos: AMD
-Como falar: 'saiu no TradingView (Reuters): AMD Stocks Plunge 9.74% as Chip Rout and Tariff Threat Collide; confirmar o número no texto antes de repassar'
-Fonte: TradingView (Reuters) 25/11 12h49
-ids: E05-AMD-44bde78321-2026-11-25
-
-(pendente de slot anterior) [ATENÇÃO] E05 · TSM · TSMC Stocks Slide 6.65% as Taiwan Lands on US Tariff List
-TradingView (Reuters) · 25/11 12h33 · fonte única · licença: manchete
-Link: https://www.tradingview.com/news/gurufocus:097f16b74094b:0-tsmc-stocks-slide-6-65-as-taiwan-lands-on-us-tariff-list/
-Por que importa: tarifa ou sancao muda margem e acesso a mercado
-Ativos: TSM
-Como falar: 'saiu no TradingView (Reuters): TSMC Stocks Slide 6.65% as Taiwan Lands on US Tariff List; confirmar o número no texto antes de repassar'
-Fonte: TradingView (Reuters) 25/11 12h33
-ids: E05-TSM-f0d061a21f-2026-11-25
-
 (pendente de slot anterior) [ATENÇÃO] E05 · ITUB4 · Quando Itaú (ITUB4) paga dividendos? Confira o calendário
 Suno Noticias · 25/11 15h01 · fonte única · licença: resumo
 Trechos (licença resumo: reescrever, não colar):
@@ -52,17 +34,16 @@ Como falar: 'saiu no TradingView (Reuters): Amazon Stocks Fall 4.26% as $215 Bil
 Fonte: TradingView (Reuters) 25/11 12h41
 ids: E05-AMZN-233b96244c-2026-11-25
 
-[ATENÇÃO] E05 · PETR4 · Petrobras eleva em 12% plano de investimentos entre 2027 e 2031, para US$ 122 bilhões
+(pendente de slot anterior) [ATENÇÃO] E05 · PETR4 · Petrobras eleva em 12% plano de investimentos entre 2027 e 2031, para US$ 122 bilhões
 Estadao · 25/11 12h54 · fonte única · licença: manchete
 Link: https://www.estadao.com.br/em-alta/economia/negocios/petrobras-anuncia-plano-de-investimento-de-us-122-bilhoes-entre-2027-e-2031/
 Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
 Ativos: PETR4
 Como falar: 'saiu no Estadao: Petrobras eleva em 12% plano de investimentos entre 2027 e 2031, para US$ 122 bilhões; confirmar o número no texto antes de repassar'
 Fonte: Estadao 25/11 12h54
-Push: intradia: 2 alertas de atenção — E05 PETR4, E05 BABA · detalhe na sessão
 ids: E05-PETR4-bb6b4ccb70-2026-11-25
 
-[ATENÇÃO] E05 · BABA · Alibaba Q2 Earnings Call Details Cloud Outlook and Chip Plans
+(pendente de slot anterior) [ATENÇÃO] E05 · BABA · Alibaba Q2 Earnings Call Details Cloud Outlook and Chip Plans
 TradingView (Reuters) · 25/11 11h00 · fonte única · licença: manchete
 Link: https://www.tradingview.com/news/zacks:42681c4c2094b:0-alibaba-q2-earnings-call-details-cloud-outlook-and-chip-plans/
 Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
@@ -71,30 +52,48 @@ Como falar: 'saiu no TradingView (Reuters): Alibaba Q2 Earnings Call Details Clo
 Fonte: TradingView (Reuters) 25/11 11h00
 ids: E05-BABA-7adb3bae38-2026-11-25
 
+[ATENÇÃO] E05 · NVDA · Nvidia agrees to settle 2018 US investor class action for $290 million
+Reuters · 25/11 14h36 · fonte única · licença: manchete
+Link: https://www.reuters.com/legal/government/nvidia-agrees-settle-2018-us-investor-class-action-for-290-million-2026-11-25/
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: NVDA
+Como falar: 'saiu no Reuters: Nvidia agrees to settle 2018 US investor class action for $290 million; confirmar o número no texto antes de repassar'
+Fonte: Reuters 25/11 14h36
+Push: intradia: 2 alertas de atenção — E05 NVDA, E05 NVDA · detalhe na sessão
+ids: E05-NVDA-5b37f62a45-2026-11-25
+
+[ATENÇÃO] E05 · NVDA · Nvidia agrees to $290M settlement over crypto mining revenue disclosures
+TradingView (Reuters) · 25/11 14h19 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/cointelegraph:a5d0a6786094b:0-nvidia-agrees-to-290m-settlement-over-crypto-mining-revenue-disclosures/
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: NVDA
+Como falar: 'saiu no TradingView (Reuters): Nvidia agrees to $290M settlement over crypto mining revenue disclosures; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 25/11 14h19
+ids: E05-NVDA-b7a242b7cb-2026-11-25
+
 Info (só linha no Fechamento):
-· F03 Brent sobe a US$ 94,15 (+3,0% no dia) (parcial, intradia)
-· E05 BABA · INVESTOR DEADLINE: RGRD Law Announces that Alibaba Group
-· E05 VALE3 · Agência de Comunicação - Vale retoma parcialmente operações na mina de Viga, em Congonhas (MG )
-· E05 BABA · ALIBABA CLASS ACTION ALERT: Bragar Eagel & Squire, P.C.
-· E05 ITUB4 · Investe no exterior por medo do Brasil? Então você está fazendo isso errado, explica Itaú
-· E05 MRVL · Marvell Technology Stocks Fall 8.47% as Data Center Exposure Bites
-· E05 PETR4 · Petrobras (PETR4): Santander retira recomendação de compra
-· E05 INTC · Intel Stocks Drop 7.47% as GuruFocus Flags 48.7% Premium to GF Value
-· E05 USDBRL · Dólar hoje cai mais de 1,6%, a R$ 5,81, com especulações sobre ministro da Fazenda
-· E05 NVDA · NVIDIA Corporation (NVDA.TO) Stock Price, News, Quote & History
-· E05 JPM · JPMorgan Sees S&P 500 At 8,200 In 2027 As AI Supercycle Remains Intact
-· E05 CVX · Bad News for Exxon and Chevron: Goldman Sees Brent Falling “Roughly $10” Next Year on a Supply Glut
-· E05 NVDA · Nvidia’s Jensen Huang is back – but will he still be a regular visitor to China?
-· E05 BTC · Bitcoin Funds Head for Worst Month as Outflows Near $5 Billion
+· E05 USDBRL · Dólar cai 1,58% com expectativa fiscal e rumores sobre Trabuco na Fazenda
+· E05 PLTR · Goldman Sachs bets on Palantir's 'mega customers' after NYC demo
+· E05 USDBRL · Dólar fecha em baixa, aos R$ 5,81, com avaliação de novas medidas fiscais e cenário externo
+· E05 BTC · Bitcoin Miners Hammered Again as Price Rout Squeezes Margins
+· E05 MU · Micron, Sandisk lead technology stocks with attractive valuations after Q3 earnings
+· E05 USDBRL · Ibovespa registra forte alta de mais de 1% com alívo no dólar e juros futuros
+· E05 NVDA · S&P puts NVIDIA on CreditWatch over governance concerns
+· E05 BAC · Salesforce earnings to put Bank of America’s growth outlook to the test
+· E05 BTC · Is the Anthropic IPO to Blame for Bitcoin's Recent Downturn? The Answer Might Surprise You.
+· E05 MU · Micron Technology (MU) Dropped, So What Is Drawing Attention Now?
+· E05 PETR4 · Dólar fecha em queda, mas fica acima de R$ 5,91; Ibovespa cai com tombo da Vale e da Petrobras
 
 
 Alertas do dia (todos, com status):
 · expirado  T13 VIX — VIX cruzou 30: 30,9 (+17% no dia)
+· pendente  E05 NVDA — NVDA · Nvidia agrees to settle 2018 US investor class action for $290 million
+· pendente  E05 NVDA — NVDA · Nvidia agrees to $290M settlement over crypto mining revenue disclosures
 · pendente  E05 PETR4 — PETR4 · Petrobras eleva em 12% plano de investimentos entre 2027 e 2031, para US
 · pendente  E05 BABA — BABA · Alibaba Q2 Earnings Call Details Cloud Outlook and Chip Plans
-· pendente  E05 ITUB4 — ITUB4 · Quando Itaú (ITUB4) paga dividendos? Confira o calendário
-· pendente  E05 PETR4 — PETR4 · Santander rebaixa Petrobras para neutra e reduz preço-alvo após aumento 
-· pendente  E05 AMZN — AMZN · Amazon Stocks Fall 4.26% as $215 Billion Capex Run Rate Meets AI Doubts
+· expirado  E05 ITUB4 — ITUB4 · Quando Itaú (ITUB4) paga dividendos? Confira o calendário
+· expirado  E05 PETR4 — PETR4 · Santander rebaixa Petrobras para neutra e reduz preço-alvo após aumento 
+· expirado  E05 AMZN — AMZN · Amazon Stocks Fall 4.26% as $215 Billion Capex Run Rate Meets AI Doubts
 · expirado  E05 AMD — AMD · AMD Stocks Plunge 9.74% as Chip Rout and Tariff Threat Collide
 · expirado  E05 TSM — TSM · TSMC Stocks Slide 6.65% as Taiwan Lands on US Tariff List
 · expirado  E05 BABA — BABA · Alibaba Q2 Earnings Call Details Cloud Outlook and Chip Plans
@@ -106,7 +105,7 @@ Alertas do dia (todos, com status):
 · expirado  M01 MACRO — Agenda: PIB 3T26 (2a estimativa) e PCE de outubro (BEA) hoje às 10:30 (25/11)
 · expirado  E05 PLTR — PLTR · Palantir CEO Alexander Karp sells $37.2 million in class A stock By Inves
 · expirado  E05 PETR4 — PETR4 · Petrobras (PETR4) anuncia R$ 15,6 bi em dividendos extraordinários; veja
-· linha     F03 BRENT — Brent sobe a US$ 94,15 (+3,0% no dia) (parcial, intradia)
-· linha     F01 USDBRL — Real sobe: USD/BRL 5,8165 (-1,5% no dia · 4 dias seguidos de movimento doméstico
-· (+108 notícias só manchete, em noticias.md)
+· linha     F03 BRENT — Brent sobe a US$ 94,55 (+3,4% no dia) (parcial, intradia)
+· linha     F01 USDBRL — Real sobe: USD/BRL 5,8151 (-1,6% no dia · 5 dias seguidos de movimento doméstico
+· (+119 notícias só manchete, em noticias.md)
 

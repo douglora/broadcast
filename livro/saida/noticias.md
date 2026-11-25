@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 25/11 16h05
+NOTÍCIAS E FATOS · 25/11 17h28
 
-Pernas: noticias ok 15 novas (18 consultas; descartadas: 450 veículo fora da lista, 33 sem ativo, 5 teto) · cvm ok 0 novos de 11 (4 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 13 novas (18 consultas; descartadas: 418 veículo fora da lista, 34 sem ativo, 3 teto) · cvm ok 0 novos de 11 (4 cias casadas) · sec ok 0 novos em 3 dias
 
 ## SEC (8-K, 6-K, 10-Q, 10-K) (2)
 
@@ -31,7 +31,25 @@ Fonte: SEC EDGAR 2026-11-25
 id: E04-TSM-26000805-2026-11-25 · status: linha · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (18)
+## NOTÍCIAS COM MATERIALIDADE (20)
+
+[ATENÇÃO] E05 · NVDA · Nvidia agrees to settle 2018 US investor class action for $290 million
+Reuters · 25/11 14h36 · fonte única · licença: manchete
+Link: https://www.reuters.com/legal/government/nvidia-agrees-settle-2018-us-investor-class-action-for-290-million-2026-11-25/
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: NVDA
+Como falar: 'saiu no Reuters: Nvidia agrees to settle 2018 US investor class action for $290 million; confirmar o número no texto antes de repassar'
+Fonte: Reuters 25/11 14h36
+id: E05-NVDA-5b37f62a45-2026-11-25 · status: pendente
+
+[ATENÇÃO] E05 · NVDA · Nvidia agrees to $290M settlement over crypto mining revenue disclosures
+TradingView (Reuters) · 25/11 14h19 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/cointelegraph:a5d0a6786094b:0-nvidia-agrees-to-290m-settlement-over-crypto-mining-revenue-disclosures/
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: NVDA
+Como falar: 'saiu no TradingView (Reuters): Nvidia agrees to $290M settlement over crypto mining revenue disclosures; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 25/11 14h19
+id: E05-NVDA-b7a242b7cb-2026-11-25 · status: pendente
 
 [ATENÇÃO] E05 · PETR4 · Petrobras eleva em 12% plano de investimentos entre 2027 e 2031, para US$ 122 bilhões
 Estadao · 25/11 12h54 · fonte única · licença: manchete
@@ -65,7 +83,7 @@ Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir
 Ativos: ITUB4
 Como falar: 'saiu no Suno Noticias: Quando Itaú (ITUB4) paga dividendos? Confira o calendário; confirmar o número no texto antes de repassar'
 Fonte: Suno Noticias 25/11 15h01
-id: E05-ITUB4-41f21b4d7f-2026-11-25 · status: pendente
+id: E05-ITUB4-41f21b4d7f-2026-11-25 · status: expirado
 
 [ATENÇÃO] E05 · PETR4 · Santander rebaixa Petrobras para neutra e reduz preço-alvo após aumento de riscos no plano de negócios
 ADVFN · 25/11 14h10 · fonte única · licença: manchete
@@ -74,7 +92,7 @@ Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais
 Ativos: PETR4
 Como falar: 'saiu no ADVFN: Santander rebaixa Petrobras para neutra e reduz preço-alvo após aumento de riscos no plan…; confirmar o número no texto antes de repassar'
 Fonte: ADVFN 25/11 14h10
-id: E05-PETR4-db88d9258f-2026-11-25 · status: pendente
+id: E05-PETR4-db88d9258f-2026-11-25 · status: expirado
 
 [ATENÇÃO] E05 · AMZN · Amazon Stocks Fall 4.26% as $215 Billion Capex Run Rate Meets AI Doubts
 TradingView (Reuters) · 25/11 12h41 · fonte única · licença: manchete
@@ -83,7 +101,7 @@ Por que importa: decisao de politica monetaria reprecifica toda a curva e o camb
 Ativos: AMZN
 Como falar: 'saiu no TradingView (Reuters): Amazon Stocks Fall 4.26% as $215 Billion Capex Run Rate Meets AI Doubts; confirmar o número no texto antes de repassar'
 Fonte: TradingView (Reuters) 25/11 12h41
-id: E05-AMZN-233b96244c-2026-11-25 · status: pendente
+id: E05-AMZN-233b96244c-2026-11-25 · status: expirado
 
 [ATENÇÃO] E05 · AMD · AMD Stocks Plunge 9.74% as Chip Rout and Tariff Threat Collide
 TradingView (Reuters) · 25/11 12h49 · fonte única · licença: manchete
@@ -252,8 +270,19 @@ Fonte: Suno Noticias 24/11 11h06
 id: E05-PETR4-594e6ec6b7-2026-11-24 · status: expirado
 
 
-## OUTRAS NOTÍCIAS (só manchete) (99)
+## OUTRAS NOTÍCIAS (só manchete) (110)
 
+· USDBRL Dólar cai 1,58% com expectativa fiscal e rumores sobre Trabuco na Fazenda (UOL Economia) https://economia.uol.com.br/cotacoes/noticias/redacao/2026/11/25/dolar-ibovespa-fechamento-25-novembro-2026.ghtm
+· PLTR Goldman Sachs bets on Palantir's 'mega customers' after NYC demo (Yahoo Finance) https://sg.finance.yahoo.com/news/goldman-sachs-bets-palantirs-mega-201300526.html
+· USDBRL Dólar fecha em baixa, aos R$ 5,81, com avaliação de novas medidas fiscais e cenário externo (O Globo) https://oglobo.globo.com/economia/financas/noticia/2026/11/25/dolar-bolsa-hoje.ghtml
+· BTC Bitcoin Miners Hammered Again as Price Rout Squeezes Margins (Bloomberg) https://www.bloomberg.com/news/articles/2026-11-25/bitcoin-miners-hammered-again-as-price-rout-squeezes-margins
+· MU Micron, Sandisk lead technology stocks with attractive valuations after Q3 earnings (TradingView (Reuters)) https://www.tradingview.com/news/seekingalpha:fe4074312094b:0-micron-sandisk-lead-technology-stocks-with-attractive-valuations-after-q3-earnings/
+· USDBRL Ibovespa registra forte alta de mais de 1% com alívo no dólar e juros futuros (Exame) https://exame.com/invest/mercados/ibovespa-hoje-25-11-2026/
+· NVDA S&P puts NVIDIA on CreditWatch over governance concerns (Investing.com) https://www.investing.com/news/stock-market-news/sp-puts-nvidia-on-creditwatch-over-governance-concerns-5051348
+· BAC Salesforce earnings to put Bank of America’s growth outlook to the test (Yahoo Finance) https://ca.finance.yahoo.com/news/salesforce-earnings-put-bank-america-185900036.html
+· BTC Is the Anthropic IPO to Blame for Bitcoin's Recent Downturn? The Answer Might Surprise You. (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/anthropic-ipo-blame-bitcoins-recent-185701071.html
+· MU Micron Technology (MU) Dropped, So What Is Drawing Attention Now? (Yahoo Finance) https://news.google.com/rss/articles/CBMijgFBVV95cUxPaFNlM0VVaVVGcmZPTjNZb1hFM1dpTzZlUU5kRllHQjljY19WU0s3dXp1OXEzZlFrZkItSlc3Y1lXUUpLM2dDdUIzZENFQUxYZ1JPa2lVVnF2Tk82bkFtSVQtSURqa0ZkTXY3TVJsSGExM0pIYkp0R2liZk5vY2Q0LVJhSV90a0dhMzJCc2Fn?oc=5
+· PETR4 Dólar fecha em queda, mas fica acima de R$ 5,91; Ibovespa cai com tombo da Vale e da Petrobras (Estadao) https://news.google.com/rss/articles/CBMi5AFBVV95cUxOWl9oX25YS1E3cmNiRFRhT3ZDNS1WUy1GQ1Y5MU5HU2lPOUtLSFF0bVZsUmw4eWUyTVFmODhwRnluWTN1dnE3WUt1TDJhTlFvWi01MEJ0UGhENHpZckdRNVBCaGRaaC14U1RpTHJYM3I0S3I2d1gtam9kV2pjU1BEOUFULTRCWDhFNXl2cWlqMHlLeTVmYm9tMmFrckhYQW1JWGk4QU8yQVpEeHJXRVNBSkhLUDRNVnYyQ1lOY1hpem5yYjNab3Jyd0NjVmRleVdRQ3Z2R1FkYXhybGYxQzltY3cxUWE?oc=5
 · BABA INVESTOR DEADLINE: RGRD Law Announces that Alibaba Group (GlobeNewswire) https://www.globenewswire.com/news-release/2026/11/25/3410545/0/en/investor-deadline-rgrd-law-announces-that-alibaba-group-holding-limited-baba-investors-with-substantial-losses-may-seek-to-lead-class-action-lawsuit-january-17-2027-deadline.html
 · VALE3 Agência de Comunicação - Vale retoma parcialmente operações na mina de Viga, em Congonhas (MG ) (Estadao) https://bluestudio.estadao.com.br/agencia-de-comunicacao/agencia-minera-brasil/vale-retoma-parcialmente-operacoes-na-mina-de-viga-em-congonhas-mg-2/
 · BABA ALIBABA CLASS ACTION ALERT: Bragar Eagel & Squire, P.C. (GlobeNewswire) https://www.globenewswire.com/news-release/2026/11/25/3410533/0/en/alibaba-class-action-alert-bragar-eagel-squire-p-c-announces-that-a-class-action-lawsuit-has-been-filed-against-alibaba-group-holding-limited-and-encourages-investors-to-contact-th.html
@@ -303,15 +332,4 @@ id: E05-PETR4-594e6ec6b7-2026-11-24 · status: expirado
 · PETR4 Jefferies reduz preços-alvos para ADRs da Petrobras após alta de investimentos em plano de negócios (Valor Economico) https://valor.globo.com/google/amp/empresas/noticia/2026/11/25/jefferies-reduz-preos-alvos-para-adrs-da-petrobras-aps-alta-de-investimentos-em-plano-de-negcios.ghtml
 · BBAS3 Comissão da Câmara aprova pedidos para ouvir ministro da Fazenda e presidente do Banco do Brasil após queda no lucro e atrito com o agro (O Globo) https://oglobo.globo.com/economia/noticia/2026/11/25/comissao-da-camara-aprova-pedidos-para-ouvir-ministro-da-fazenda-e-presidente-do-banco-do-brasil-apos-queda-no-lucro-e-atrito-com-o-agro.ghtml
 · BTC Strategy Now Holds More Than 850,000 Bitcoin. Where Could Its Stock Go Next? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/strategy-now-holds-more-850-150315381.html
-· BABA BABA INVESTORS: Contact Kirby McInerney LLP About the (GlobeNewswire) https://www.globenewswire.com/news-release/2026/11/25/3410338/937/en/baba-investors-contact-kirby-mcinerney-llp-about-the-securities-fraud-lawsuit-filed-on-behalf-of-alibaba-group-holding-limited-shareholders.html
-· BTC Bitcoin slides below $59,000, on pace for its worst month since June 2022 (Yahoo Finance) https://finance.yahoo.com/markets/article/bitcoin-sinks-in-brutal-november-sell-off-as-broader-market-slides-143727717.html
-· BTC Bitcoin Falls Below $60K as ETFs Bleed Another $231M – Is the Worst Still Ahead? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-falls-below-60k-etfs-142841403.html
-· AMD Advanced Micro Devices (AMD) Expands Into Quantum AI Computing With Drug Discovery Focus (Yahoo Finance) https://ca.finance.yahoo.com/news/advanced-micro-devices-amd-expands-141319913.html
-· CVX Can Chevron Build a Lithium Business in the Smackover Formation? (Yahoo Finance) https://news.google.com/rss/articles/CBMingFBVV95cUxNalphb2liZ3BhYVVxTDhONjVsNUZjdlJPMF9uUzIzbV82Um42QTZRa1F4MzZhOUIxbGN0MkNlc1JyeElfOHp4QWVac1ZtWDFjU3VjYlI5WkxMa1gtY0MzVTRTUmNGR21LS3l1d2ZUU0FsZGN5Y1JncXdqZGxCalFiUy1TbkhLZ19RcV9Gdkp6d29HaVR2MHNOc3VZQUlFUQ?oc=5
-· NVDA Nvidia’s Top Lawyer Sold $4.5 Million of Nvidia Stock the Day Before Its 14% Plunge (Yahoo Finance) https://news.google.com/rss/articles/CBMikwFBVV95cUxObzhIV0xUd2NGa0ZTUEtFaFdJcWx6NlVBY2tuSDQxcm1PVHlyMml2UVFzMWd2Q1pqOUxmeGVvZWstTEEwTDN5NGRWcmgwSE9UeGVTaWk5VGVfdXlFR3IzWU5fcEVJNXlvV2haZ3A1MEJUZXpjazhpTmJTSklsOUM3R1JYOVRfU0RwR3BJYllrVDdQU1k?oc=5
-· PETR4 PETR3: Petrobras aprova remuneração extraordinária de R$ 15,6 bi (Suno Noticias) https://news.google.com/rss/articles/CBMilgFBVV95cUxNREV0anNEQnRKaWR5cnVpY2RGcm1kT2JZN3dzRHQyWWNPaXF6OE5yQzgxeXFIREtCbGQ0dlI5QVRfMWtMQ1RJRmlFTFhkd000MmxqRVY4UDJhUG5sM09ncU5KeWtwX282aDZvZTFVUWcxM2h4TVZjQUN3bmhHRWctTUwzN3NvZmI0YUl3REhuOVdvZHFvalHSAZYBQVVfeXFMTURFdGpzREJ0SmlkeXJ1aWNkRnJtZE9iWTd3c0R0MlljT2lxejhOckM4MXlxSERLQmxkNHZSOUFUXzFrTENUSUZpRUxYZHdNNDJsakVWOFAyYVBubDNPZ3FOSnlrcF9vNmg2b2UxVVFnMTNoeE1WY0FDd25oR0VnLU1MMzdzb2ZiNGFJd0RIbjlXb2Rxb2pR?oc=5
-· USDBRL Banco Central vende US$ 2 bilhões em leilão em meio à pressão sobre o dólar (Money Times) https://www.moneytimes.com.br/banco-central-vende-us-2-bilhoes-em-leilao-em-meio-a-pressao-sobre-o-dolar-mlem/
-· MU Nvidia, AMD, and Micron stocks sink as investors flee AI trade (Yahoo Finance) https://finance.yahoo.com/markets/article/nvidia-amd-micron-stocks-sink-as-investors-flee-ai-trade-134518921.html
-· BTC Bitcoin price tests $58K floor as $107M liquidated, ETFs bleed cash (Seeking Alpha) https://seekingalpha.com/news/4676534-bitcoin-price-tests-58k-floor-as-107m-liquidated-etfs-bleed-cash
-· PETR4 PETR4: Santander rebaixa ações da Petrobras para neutra com percepção maior de risco (InfoMoney) https://www.infomoney.com.br/mercados/petr4-santander-rebaixa-acoes-da-petrobras-para-neutra-com-percepcao-maior-de-risco/
-· (+39 manchetes; lista completa em eventos/noticias.json)
+· (+50 manchetes; lista completa em eventos/noticias.json)
