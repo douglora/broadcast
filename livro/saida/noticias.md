@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 25/11 15h05
+NOTÍCIAS E FATOS · 25/11 16h05
 
-Pernas: noticias ok 17 novas (18 consultas; descartadas: 435 veículo fora da lista, 27 sem ativo, 1 teto) · cvm ok 0 novos de 11 (4 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 15 novas (18 consultas; descartadas: 450 veículo fora da lista, 33 sem ativo, 5 teto) · cvm ok 0 novos de 11 (4 cias casadas) · sec ok 0 novos em 3 dias
 
 ## SEC (8-K, 6-K, 10-Q, 10-K) (2)
 
@@ -31,7 +31,25 @@ Fonte: SEC EDGAR 2026-11-25
 id: E04-TSM-26000805-2026-11-25 · status: linha · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (16)
+## NOTÍCIAS COM MATERIALIDADE (18)
+
+[ATENÇÃO] E05 · PETR4 · Petrobras eleva em 12% plano de investimentos entre 2027 e 2031, para US$ 122 bilhões
+Estadao · 25/11 12h54 · fonte única · licença: manchete
+Link: https://www.estadao.com.br/em-alta/economia/negocios/petrobras-anuncia-plano-de-investimento-de-us-122-bilhoes-entre-2027-e-2031/
+Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
+Ativos: PETR4
+Como falar: 'saiu no Estadao: Petrobras eleva em 12% plano de investimentos entre 2027 e 2031, para US$ 122 bilhões; confirmar o número no texto antes de repassar'
+Fonte: Estadao 25/11 12h54
+id: E05-PETR4-bb6b4ccb70-2026-11-25 · status: pendente
+
+[ATENÇÃO] E05 · BABA · Alibaba Q2 Earnings Call Details Cloud Outlook and Chip Plans
+TradingView (Reuters) · 25/11 11h00 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/zacks:42681c4c2094b:0-alibaba-q2-earnings-call-details-cloud-outlook-and-chip-plans/
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: BABA
+Como falar: 'saiu no TradingView (Reuters): Alibaba Q2 Earnings Call Details Cloud Outlook and Chip Plans; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 25/11 11h00
+id: E05-BABA-7adb3bae38-2026-11-25 · status: pendente
 
 [ATENÇÃO] E05 · ITUB4 · Quando Itaú (ITUB4) paga dividendos? Confira o calendário
 Suno Noticias · 25/11 15h01 · fonte única · licença: resumo
@@ -74,7 +92,7 @@ Por que importa: tarifa ou sancao muda margem e acesso a mercado
 Ativos: AMD
 Como falar: 'saiu no TradingView (Reuters): AMD Stocks Plunge 9.74% as Chip Rout and Tariff Threat Collide; confirmar o número no texto antes de repassar'
 Fonte: TradingView (Reuters) 25/11 12h49
-id: E05-AMD-44bde78321-2026-11-25 · status: pendente
+id: E05-AMD-44bde78321-2026-11-25 · status: expirado
 
 [ATENÇÃO] E05 · TSM · TSMC Stocks Slide 6.65% as Taiwan Lands on US Tariff List
 TradingView (Reuters) · 25/11 12h33 · fonte única · licença: manchete
@@ -83,7 +101,7 @@ Por que importa: tarifa ou sancao muda margem e acesso a mercado
 Ativos: TSM
 Como falar: 'saiu no TradingView (Reuters): TSMC Stocks Slide 6.65% as Taiwan Lands on US Tariff List; confirmar o número no texto antes de repassar'
 Fonte: TradingView (Reuters) 25/11 12h33
-id: E05-TSM-f0d061a21f-2026-11-25 · status: pendente
+id: E05-TSM-f0d061a21f-2026-11-25 · status: expirado
 
 [ATENÇÃO] E05 · BABA · Alibaba Q2 Earnings Call Details Cloud Outlook and Chip Plans
 Yahoo Finance · 25/11 11h00 · fonte única · licença: resumo
@@ -234,8 +252,21 @@ Fonte: Suno Noticias 24/11 11h06
 id: E05-PETR4-594e6ec6b7-2026-11-24 · status: expirado
 
 
-## OUTRAS NOTÍCIAS (só manchete) (86)
+## OUTRAS NOTÍCIAS (só manchete) (99)
 
+· BABA INVESTOR DEADLINE: RGRD Law Announces that Alibaba Group (GlobeNewswire) https://www.globenewswire.com/news-release/2026/11/25/3410545/0/en/investor-deadline-rgrd-law-announces-that-alibaba-group-holding-limited-baba-investors-with-substantial-losses-may-seek-to-lead-class-action-lawsuit-january-17-2027-deadline.html
+· VALE3 Agência de Comunicação - Vale retoma parcialmente operações na mina de Viga, em Congonhas (MG ) (Estadao) https://bluestudio.estadao.com.br/agencia-de-comunicacao/agencia-minera-brasil/vale-retoma-parcialmente-operacoes-na-mina-de-viga-em-congonhas-mg-2/
+· BABA ALIBABA CLASS ACTION ALERT: Bragar Eagel & Squire, P.C. (GlobeNewswire) https://www.globenewswire.com/news-release/2026/11/25/3410533/0/en/alibaba-class-action-alert-bragar-eagel-squire-p-c-announces-that-a-class-action-lawsuit-has-been-filed-against-alibaba-group-holding-limited-and-encourages-investors-to-contact-th.html
+· ITUB4 Investe no exterior por medo do Brasil? Então você está fazendo isso errado, explica Itaú (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/investe-no-exterior-por-medo-do-brasil-entao-voce-esta-fazendo-isso-errado-explica-itau/
+· MRVL Marvell Technology Stocks Fall 8.47% as Data Center Exposure Bites (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:117fad9de094b:0-marvell-technology-stocks-fall-8-47-as-data-center-exposure-bites/
+· PETR4 Petrobras (PETR4): Santander retira recomendação de compra (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/mais-petroleo-menos-espaco-para-dividendos-o-que-fez-o-santander-mudar-de-visao-sobre-a-petrobras/
+· INTC Intel Stocks Drop 7.47% as GuruFocus Flags 48.7% Premium to GF Value (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:5a5d7ca19094b:0-intel-stocks-drop-7-47-as-gurufocus-flags-48-7-premium-to-gf-value/
+· USDBRL Dólar hoje cai mais de 1,6%, a R$ 5,81, com especulações sobre ministro da Fazenda (InfoMoney) https://www.infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-25112026/
+· NVDA NVIDIA Corporation (NVDA.TO) Stock Price, News, Quote & History (Yahoo Finance) https://ca.finance.yahoo.com/quote/NVDA.TO/
+· JPM JPMorgan Sees S&P 500 At 8,200 In 2027 As AI Supercycle Remains Intact (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/jpmorgan-sees-p-500-8-164752848.html
+· CVX Bad News for Exxon and Chevron: Goldman Sees Brent Falling “Roughly $10” Next Year on a Supply Glut (Yahoo Finance) https://finance.yahoo.com/energy/articles/bad-news-exxon-chevron-goldman-154156323.html
+· NVDA Nvidia’s Jensen Huang is back – but will he still be a regular visitor to China? (South China Morning Post) https://news.google.com/rss/articles/CBMitgFBVV95cUxPdENOaWxoVFlfV204UHJTa3JSeExaOWowQnhJTHBsMnJxNGQ2MXd3Rk1QZnoxWElTN1lYTDBxSTlTeTFEQ3RQaVllUnlIb1BVTlhqUlROYWVWcWNVQmNtT1NZSGtnM2ZpUVZObEtFaW1pX3ZxRnNNUHF5SzY3dWFUTDNDYUc1SnBBX0YwQ1k0bi1KS3ZHRXRGQ0lnQW5sTmZIdlRwWFZuMUdEYWRYX1JkazJZcHV0QdIBtgFBVV95cUxNMzlmZFVEMUZ0QUhHaHlHaXBOcEZyTmQwUno5N3RVXzluZTRCcFZ0b3hNOHBmak8xM09JSEtrS0hvYlppWjI5aEMxOGVqY0tfS2ExTklvQ2tvOU5zSS1VNjJIelBiMFY0c3FxR2dRdC02RFFNWEdMYko5cnd1UkRMbzdQM1czbi1UZ3Z6YlhBQ05iUmxUdnlJS3BXeHVJeTNRYm9FbVl6RkdHeHFFTXhjX2xKbEpNZw?oc=5
+· BTC Bitcoin Funds Head for Worst Month as Outflows Near $5 Billion (Bloomberg) https://news.google.com/rss/articles/CBMisgFBVV95cUxQVlZrR3hSRnRhN2p1U3ktUnBnZnc2LWJ4Zk1GdWdCaFpsY3Z5emp6LWJ4bXVEZVl6UVVRN1VZcm90cWQ3Vlo2SkthYTZGT3NxbEJ6ZlJSWWFpNFRvcGgyZ1hNYzhQQkV0UFdnUXhkUy1tZ1QwemJfUjVGbmVqQUZtTnRmaU5HY1JWXzZVY0JJeXdWRFRYNnRfVGRQLVV1QmRIMC15aW5ZWGhXM2pjUE80Mjhn?oc=5
 · PETR4 Mais petróleo, menos espaço para dividendos: o que fez o Santander mudar de visão sobre a Petrobras (Estadao) https://www.estadao.com.br/em-alta/einvestidor/cenarios-e-mercado/mais-petroleo-menos-espaco-para-dividendos-o-que-fez-o-santander-mudar-de-visao-sobre-a-petrobras/
 · NVDA Treasury Yields Rise After Huang Returns as Nvidia CEO; European Bond Yields Slip (The Wall Street Journal) https://www.wsj.com/finance/investing/u-s-european-bond-yields-rise-reversing-last-weeks-sharp-falls-9afadf09
 · BTC Bitcoin price stuck below $60,000 as Galaxy takes back bottom call, crypto bulls lose faith (CoinDesk) https://www.coindesk.com/markets/2026/11/25/this-time-actually-seems-different-crypto-veterans-brace-for-more-pain-as-bitcoin-tumbles
@@ -283,17 +314,4 @@ id: E05-PETR4-594e6ec6b7-2026-11-24 · status: expirado
 · MU Nvidia, AMD, and Micron stocks sink as investors flee AI trade (Yahoo Finance) https://finance.yahoo.com/markets/article/nvidia-amd-micron-stocks-sink-as-investors-flee-ai-trade-134518921.html
 · BTC Bitcoin price tests $58K floor as $107M liquidated, ETFs bleed cash (Seeking Alpha) https://seekingalpha.com/news/4676534-bitcoin-price-tests-58k-floor-as-107m-liquidated-etfs-bleed-cash
 · PETR4 PETR4: Santander rebaixa ações da Petrobras para neutra com percepção maior de risco (InfoMoney) https://www.infomoney.com.br/mercados/petr4-santander-rebaixa-acoes-da-petrobras-para-neutra-com-percepcao-maior-de-risco/
-· BRENT Kazakhstan also seeks higher oil output capacity estimate ahead of 2027 OPEC+ quota debate, sources say (Reuters) https://www.reuters.com/business/energy/kazakhstan-also-seeks-higher-oil-output-capacity-estimate-ahead-2027-opec-quota-2026-11-25/
-· AMD Advanced Micro Devices (AMD) Expands Into Quantum AI Computing With Drug Discovery Focus (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/advanced-micro-devices-amd-expands-141319913.html
-· BBAS3 Banco do Brasil (BBAS3) esclarece à CVM sobre provisões do agro (Suno Noticias) https://www.suno.com.br/noticias/bbas3-banco-brasil-cvm-provisoes-agro-241126/
-· PLTR Palantir’s CEO Alex Karp Sold $75 Million. Co-Founder Peter Thiel Bought $122 Million (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/palantir-ceo-alex-karp-sold-135347013.html
-· JPM Unilever, BAT and Reckitt named among JPMorgan’s top picks for 2027 (Yahoo Finance) https://uk.finance.yahoo.com/news/unilever-bat-reckitt-named-among-133000173.html
-· GOOGL Is Google Services Still the Prime Earnings Engine for Alphabet Stock? (Yahoo Finance) https://ca.finance.yahoo.com/news/google-services-still-prime-earnings-130600190.html
-· BTC Bitcoin Is on Track for Its Second-Worst Q4 Ever, and One Signal Points to 2027 (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-track-second-worst-q4-130000366.html
-· AMD AMD Sees Server Revenues Doubling in 2027: Will the Momentum Last? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/amd-sees-server-revenues-doubling-125600843.html
-· NVDA Nvidia Stock Looks Like a Screaming Buy Below $160. Here's Why. (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/nvidia-stock-looks-screaming-buy-125002743.html
-· USDBRL Dólar passa a cair e Ibovespa sobe antes de dado de inflação preferido do Fed (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/ibovespa-hoje-acompanha-inflacao-preferida-do-fed-e-novas-projecoes-para-as-contas-publicas/
-· MU The Consensus on Micron Stock Is Changing. Here’s What Investors Should Know (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/consensus-micron-stock-changing-investors-131026330.html
-· NVDA Nvidia, chipmakers slide premarket; Dell falls despite upbeat outlook (Investing.com) https://www.investing.com/news/stock-market-news/nvidia-chipmakers-slide-premarket-dell-falls-despite-upbeat-outlook-5050581
-· NVDA The questions Jensen Huang and Nvidia will still have to answer about Megaspeed (TechCrunch) https://techcrunch.com/2026/11/25/the-questions-jensen-huang-and-nvidia-will-still-have-to-answer-about-megaspeed/
-· (+26 manchetes; lista completa em eventos/noticias.json)
+· (+39 manchetes; lista completa em eventos/noticias.json)
