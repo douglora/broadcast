@@ -1,11 +1,11 @@
 {
  "pregao": "2026-11-24",
- "situacao": "publicando",
+ "situacao": "publicado",
  "errata": false,
- "atualizado_em": "2026-11-25T06:03:04.977",
+ "atualizado_em": "2026-11-25T08:00:50",
  "completo": {
-  "arquivo": "",
-  "pdf": ""
+  "arquivo": "BDI_00_20261124.pdf",
+  "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-11-24/BDI_00_20261124.pdf"
  },
  "cadernos": [
   {
@@ -14,7 +14,7 @@
    "pai": null,
    "situacao": "publicado",
    "errata": false,
-   "atualizado_em": "2026-11-25T05:15:38.163",
+   "atualizado_em": "2026-11-25T08:15:39.29",
    "arquivo": "BDI_01_20261124.pdf",
    "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-11-24/BDI_01_20261124.pdf"
   },
@@ -43,8 +43,8 @@
    "nome": "Indicadores e informativos",
    "pai": 20,
    "situacao": "republicado",
-   "errata": false,
-   "atualizado_em": "2026-11-25T06:03:04.977",
+   "errata": true,
+   "atualizado_em": "2026-11-25T08:45:38.91",
    "arquivo": "BDI_02_20261124.pdf",
    "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-11-24/BDI_02_20261124.pdf"
   },

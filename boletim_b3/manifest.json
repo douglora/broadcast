@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-11-25T09:05:31Z",
+ "gerado_em": "2026-11-25T11:51:52Z",
  "cliente_http": "curl_cffi",
  "livro": [
   "EQTL3",
@@ -59,15 +59,14 @@
    "falhas": {
     "InstrumentsConsolidated": "arquivo InstrumentsConsolidated: token HTTP 400"
    },
-   "segundos": 57
+   "segundos": 179
   },
   "2026-11-24": {
    "completo": false,
    "faltam": [
-    "InstrumentsConsolidated",
-    "AnalyticalFramework2"
+    "InstrumentsConsolidated"
    ],
-   "boletim": "publicando",
+   "boletim": "publicado",
    "sinais": 18,
    "tabelas": 47,
    "arquivos": [
@@ -98,7 +97,7 @@
    "falhas": {
     "InstrumentsConsolidated": "arquivo InstrumentsConsolidated: token HTTP 400"
    },
-   "segundos": 40
+   "segundos": 110
   }
  },
  "falhas": [],

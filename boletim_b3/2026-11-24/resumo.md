@@ -1,7 +1,7 @@
 # Boletim da B3: pregão de 24/11/2026 (terça)
 
-**Situação: PARCIAL.** Ainda sem: cadastro de instrumentos, quadro de posições em aberto. A B3 publica esses blocos na madrugada seguinte ao pregão; a rodada da manhã completa.
-Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-11-25T09:07:09Z (UTC).
+**Situação: PARCIAL.** Ainda sem: cadastro de instrumentos. A B3 publica esses blocos na madrugada seguinte ao pregão; a rodada da manhã completa.
+Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-11-25T11:56:41Z (UTC).
 
 [[LEITURA_DA_MESA]]
 
@@ -83,6 +83,18 @@ Saldo = compras menos vendas, somando todos os mercados da B3. A B3 divulga com 
 | INDZ26 | 165.397,00 | -0,49% | 197.367 |
 
 DI1 = DI futuro (taxa prefixada); DAP = cupom de IPCA (juro real); DOL = dólar futuro; IND = Ibovespa futuro. pb = ponto-base (0,01 ponto percentual).
+
+## Posições em aberto por mercado (futuros)
+
+| Mercado | Contratos | Variação no pregão | Referencial (R$ mi) |
+|---|---:|---:|---:|
+| IND | 206.212 | +1,08% | 34.149 |
+| WIN | 1.424.385 | -2,13% | 47.128 |
+| WDO | 1.968.986 | +0,21% | 116.284 |
+| DOL | 1.121.464 | +4,36% | 331.162 |
+| DAP | 3.473.489 | -0,08% | 486.715 |
+| DDI | 4.981.923 | +2,01% | 1.378.864 |
+| DI1 | 42.751.492 | -0,10% | 3.445.993 |
 
 ## O livro em blocos
 
@@ -258,11 +270,13 @@ Por classe, mediana das taxas de referência dos papéis. Taxa de referência: n
 
 ## Lacunas e pendências
 
-- quadro de posições em aberto: aguardando
 - aluguel por corretora: ignorado
 - cadastro de instrumentos: aguardando
-- RepurchaseDealings: aguardando
+- RepurchaseDealings: ignorado
+- Publicadas pela B3 depois do prazo, mas com dado: AnalyticalFramework2.
 - Posição em aberto de derivativos por tipo de investidor (estrangeiro, institucional, pessoa física): não existe no Boletim Diário do Mercado; procurado nas 69 tabelas e no texto dos 11 cadernos em 30/09/2026.
 - Fluxo por tipo de investidor sai acumulado no mês e com dois pregões de atraso; o saldo de um dia é a diferença entre dois acumulados seguidos.
 - RARA11: a B3 não publica valor de referência da cota (IOPV) para este ETF no boletim.
 - Paridade de MELI34: sem a barra de 24/11 de MELI nas séries do livro.
+
+Boletim completo em PDF (B3): https://arquivos.b3.com.br/bdi/download/bdi/2026-11-24/BDI_00_20261124.pdf
