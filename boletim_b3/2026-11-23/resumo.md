@@ -1,7 +1,7 @@
 # Boletim da B3: pregão de 23/11/2026 (segunda)
 
 **Situação: PARCIAL.** Ainda sem: cadastro de instrumentos. A B3 publica esses blocos na madrugada seguinte ao pregão; a rodada da manhã completa.
-Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-11-25T19:05:58Z (UTC).
+Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-11-25T20:38:00Z (UTC).
 
 [[LEITURA_DA_MESA]]
 
@@ -249,11 +249,6 @@ Por classe, mediana das taxas de referência dos papéis. Taxa de referência: n
 ## Eventos e comunicados
 
 - PETR4: juros sobre capital próprio de R$ 0,6741, crédito em 23/11
-- Comunicado (09/11): 304° Leilão Especial do FINOR - Edital
-- Comunicado (09/11): 304° Leilão Especial do FINOR - Decodificação
-- Comunicado (11/11): 304° Leilão Especial do FINOR - Relação de Empresa
-- Comunicado (18/11): LEILÃO DE VENDA DE ATIVOS  POR SOLICITAÇÃO DO PODER JUDICIÁRIO
-- Comunicado (23/11): Leilão de Venda de Ações ON da Tecnisa S.A - BTG.
 
 ## Renda fixa na plataforma eletrônica (80 papéis, R$ 579,7 mi)
 

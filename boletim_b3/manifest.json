@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-11-25T19:05:37Z",
+ "gerado_em": "2026-11-25T20:37:22Z",
  "cliente_http": "curl_cffi",
  "livro": [
   "EQTL3",
@@ -59,7 +59,7 @@
    "falhas": {
     "InstrumentsConsolidated": "arquivo InstrumentsConsolidated: token HTTP 400"
    },
-   "segundos": 21
+   "segundos": 38
   },
   "2026-11-24": {
    "completo": false,
@@ -97,7 +97,7 @@
    "falhas": {
     "InstrumentsConsolidated": "arquivo InstrumentsConsolidated: token HTTP 400"
    },
-   "segundos": 14
+   "segundos": 122
   }
  },
  "falhas": [],
