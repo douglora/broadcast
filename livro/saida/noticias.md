@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 25/11 12h05
+NOTÍCIAS E FATOS · 25/11 13h32
 
-Pernas: noticias ok 13 novas (18 consultas; descartadas: 427 veículo fora da lista, 22 sem ativo, 12 teto) · cvm ok 0 novos de 11 (4 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 17 novas (18 consultas; descartadas: 439 veículo fora da lista, 23 sem ativo, 11 teto) · cvm ok 0 novos de 11 (4 cias casadas) · sec ok 0 novos em 3 dias
 
 ## SEC (8-K, 6-K, 10-Q, 10-K) (2)
 
@@ -31,7 +31,55 @@ Fonte: SEC EDGAR 2026-11-25
 id: E04-TSM-26000805-2026-11-25 · status: linha · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (8)
+## NOTÍCIAS COM MATERIALIDADE (11)
+
+[ATENÇÃO] E05 · BABA · Alibaba Q2 Earnings Call Details Cloud Outlook and Chip Plans
+Yahoo Finance · 25/11 11h00 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – On the second-quarter fiscal 2027 call, chief executive officer Eddie Wu reaffirmed a calendar-year 2030 target of $100 billion in external cloud revenues and a margin above 20%.
+  – BABA Weighs Slower Near-Term Cloud Growth Asked by Morgan Stanley about the impact of export controls, an Alibaba executive outlined a preliminary cloud revenue growth range of 30% to 45% for next year.
+  – The executive expects cloud revenue growth to reach 50% or more in calendar 2028 as Alibaba expands the supply of domestically produced computing hardware.
+  – Fiscal second-quarter revenues from external cloud and compute customers rose 64% year over year.
+  – Recurring revenues from those customers, which exclude sales of computing equipment solutions, grew 67%.
+  – Alibaba Sets a Timetable for Its Next AI Chip Wu expects mass production of T-Head's Zhenwu V900 chip to begin in the first quarter of calendar 2027, with clusters built around the chip launching at commercial scale in…
+Link: https://finance.yahoo.com/technology/ai/articles/alibaba-q2-earnings-call-details-140000262.html
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: BABA
+Como falar: 'saiu no Yahoo Finance: Alibaba Q2 Earnings Call Details Cloud Outlook and Chip Plans; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 25/11 11h00
+id: E05-BABA-b167eedb6d-2026-11-25 · status: pendente
+
+[ATENÇÃO] E05 · AVGO · Does Broadcom's Debt Load Pose a Risk to the Stock's Outlook for FY27?
+Yahoo Finance · 25/11 09h56 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Broadcom AVGO enters fiscal 2027 with a debt load that looks increasingly manageable, though new AI-related commitments warrant attention.
+  – 2, 2026, total debt principal was $61.1 billion, down from $67.1 billion at the end of fiscal 2025, while cash and cash equivalents rose to $24 billion from $16.2 billion.
+  – In the first nine months of fiscal 2026, Broadcom repaid or repurchased $10.5 billion of senior notes while issuing only $4.5 billion.
+  – Third-quarter free cash flow of $13.7 billion, or 46% of revenues, dwarfed interest expense of $778 million, down from $807 million a year ago.
+  – After $2.3 billion due in the rest of fiscal 2026, no principal matures in fiscal 2027, with $5.1 billion scheduled for fiscal 2028.
+  – Broadcom has an undrawn $7.5 billion revolving credit facility and no commercial paper outstanding.
+Link: https://sg.finance.yahoo.com/news/does-broadcoms-debt-load-pose-125600461.html
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: AVGO
+Como falar: 'saiu no Yahoo Finance: Does Broadcom's Debt Load Pose a Risk to the Stock's Outlook for FY27?; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 25/11 09h56
+id: E05-AVGO-0d41d09acd-2026-11-25 · status: pendente
+
+[ATENÇÃO] E05 · PETR4 · Ibovespa fecha no vermelho após presidente da Petrobras não garantir dividendos extraordinários
+Money Times · 24/11 18h27 · fonte única · licença: integral
+Do texto:
+  – Ibovespa fecha no vermelho após presidente da Petrobras não garantir dividendos extraordinários A bolsa brasileira passou boa parte do pregão desta terça-feira (24) no campo positivo, chegando a recuperar os 165 mil pon…
+  – Porém o bom humor não resistiu às declarações da presidente da Petrobras, Magda Chambriard, e o Ibovespa (IBOV) fechou em queda de 0,43%, aos 164.089,81 mil pontos.
+  – Os investidores também reagiram à queda do dólar frente ao real, após a moeda norte-americana ter ultrapassado os R$ 6,00 na véspera.
+  – Por volta de 18h20 (horário de Brasília), o DXY, indicador que compara a moeda a uma cesta de seis divisas globais, como euro e libra, operava em queda de 0,49%, aos 103,8270 pontos.
+  – O principal catalisador do mercado doméstico durante a sessão de hoje foi a aprovação do pacote fiscal na Câmara dos Deputados, na noite de segunda-feira (23).
+  – O texto-base recebeu 353 votos favoráveis e prevê medidas para melhorar o resultado das contas públicas em 2027, com economia estimada em cerca de R$ 18,7 bilhões.
+Link: https://www.moneytimes.com.br/ibovespa-fecha-no-vermelho-apos-presidente-da-petrobras-nao-garantir-dividendos-extraordinarios-davs/
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: PETR4
+Como falar: 'saiu no Money Times: Ibovespa fecha no vermelho após presidente da Petrobras não garantir dividendos extraordi…; confirmar o número no texto antes de repassar'
+Fonte: Money Times 24/11 18h27
+id: E05-PETR4-6d57f88955-2026-11-24 · status: pendente · íntegra disponível
 
 [ATENÇÃO] E05 · CVX · Chevron Pays a Bigger Dividend, but Exxon May Be the Better Retirement Stock
 Yahoo Finance · 25/11 10h17 · fonte única · licença: resumo
@@ -134,8 +182,22 @@ Fonte: Suno Noticias 24/11 11h06
 id: E05-PETR4-594e6ec6b7-2026-11-24 · status: expirado
 
 
-## OUTRAS NOTÍCIAS (só manchete) (43)
+## OUTRAS NOTÍCIAS (só manchete) (57)
 
+· PETR4 BTG avalia que Petrobras tem espaço para ampliar produção, mas queda do Brent pode apertar contas (Valor Economico) https://valor.globo.com/empresas/noticia/2026/11/25/btg-avalia-que-petrobras-tem-espao-para-ampliar-produo-mas-queda-do-brent-pode-apertar-contas.ghtml
+· BBAS3 BBAS3: Banco do Brasil esclarece à CVM sobre BB Seguridade (Suno Noticias) https://www.suno.com.br/noticias/bbas3-bb-esclarece-cvm-bb-seguridade/
+· NVDA Not a Bubble: 2 Numbers That Show Nvidia’s Demand Is Real (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/not-bubble-2-numbers-show-155002687.html
+· META Meta Platforms Stocks Fall 2.91% as Big Tech Selloff Spreads (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:0966d20b5094b:0-meta-platforms-stocks-fall-2-91-as-big-tech-selloff-spreads/
+· PETR4 Jefferies reduz preços-alvos para ADRs da Petrobras após alta de investimentos em plano de negócios (Valor Economico) https://valor.globo.com/google/amp/empresas/noticia/2026/11/25/jefferies-reduz-preos-alvos-para-adrs-da-petrobras-aps-alta-de-investimentos-em-plano-de-negcios.ghtml
+· BBAS3 Comissão da Câmara aprova pedidos para ouvir ministro da Fazenda e presidente do Banco do Brasil após queda no lucro e atrito com o agro (O Globo) https://oglobo.globo.com/economia/noticia/2026/11/25/comissao-da-camara-aprova-pedidos-para-ouvir-ministro-da-fazenda-e-presidente-do-banco-do-brasil-apos-queda-no-lucro-e-atrito-com-o-agro.ghtml
+· BTC Strategy Now Holds More Than 850,000 Bitcoin. Where Could Its Stock Go Next? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/strategy-now-holds-more-850-150315381.html
+· BABA BABA INVESTORS: Contact Kirby McInerney LLP About the (GlobeNewswire) https://www.globenewswire.com/news-release/2026/11/25/3410338/937/en/baba-investors-contact-kirby-mcinerney-llp-about-the-securities-fraud-lawsuit-filed-on-behalf-of-alibaba-group-holding-limited-shareholders.html
+· BTC Bitcoin slides below $59,000, on pace for its worst month since June 2022 (Yahoo Finance) https://finance.yahoo.com/markets/article/bitcoin-sinks-in-brutal-november-sell-off-as-broader-market-slides-143727717.html
+· BTC Bitcoin Falls Below $60K as ETFs Bleed Another $231M – Is the Worst Still Ahead? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-falls-below-60k-etfs-142841403.html
+· AMD Advanced Micro Devices (AMD) Expands Into Quantum AI Computing With Drug Discovery Focus (Yahoo Finance) https://ca.finance.yahoo.com/news/advanced-micro-devices-amd-expands-141319913.html
+· CVX Can Chevron Build a Lithium Business in the Smackover Formation? (Yahoo Finance) https://news.google.com/rss/articles/CBMingFBVV95cUxNalphb2liZ3BhYVVxTDhONjVsNUZjdlJPMF9uUzIzbV82Um42QTZRa1F4MzZhOUIxbGN0MkNlc1JyeElfOHp4QWVac1ZtWDFjU3VjYlI5WkxMa1gtY0MzVTRTUmNGR21LS3l1d2ZUU0FsZGN5Y1JncXdqZGxCalFiUy1TbkhLZ19RcV9Gdkp6d29HaVR2MHNOc3VZQUlFUQ?oc=5
+· NVDA Nvidia’s Top Lawyer Sold $4.5 Million of Nvidia Stock the Day Before Its 14% Plunge (Yahoo Finance) https://news.google.com/rss/articles/CBMikwFBVV95cUxObzhIV0xUd2NGa0ZTUEtFaFdJcWx6NlVBY2tuSDQxcm1PVHlyMml2UVFzMWd2Q1pqOUxmeGVvZWstTEEwTDN5NGRWcmgwSE9UeGVTaWk5VGVfdXlFR3IzWU5fcEVJNXlvV2haZ3A1MEJUZXpjazhpTmJTSklsOUM3R1JYOVRfU0RwR3BJYllrVDdQU1k?oc=5
+· PETR4 PETR3: Petrobras aprova remuneração extraordinária de R$ 15,6 bi (Suno Noticias) https://news.google.com/rss/articles/CBMilgFBVV95cUxNREV0anNEQnRKaWR5cnVpY2RGcm1kT2JZN3dzRHQyWWNPaXF6OE5yQzgxeXFIREtCbGQ0dlI5QVRfMWtMQ1RJRmlFTFhkd000MmxqRVY4UDJhUG5sM09ncU5KeWtwX282aDZvZTFVUWcxM2h4TVZjQUN3bmhHRWctTUwzN3NvZmI0YUl3REhuOVdvZHFvalHSAZYBQVVfeXFMTURFdGpzREJ0SmlkeXJ1aWNkRnJtZE9iWTd3c0R0MlljT2lxejhOckM4MXlxSERLQmxkNHZSOUFUXzFrTENUSUZpRUxYZHdNNDJsakVWOFAyYVBubDNPZ3FOSnlrcF9vNmg2b2UxVVFnMTNoeE1WY0FDd25oR0VnLU1MMzdzb2ZiNGFJd0RIbjlXb2Rxb2pR?oc=5
 · USDBRL Banco Central vende US$ 2 bilhões em leilão em meio à pressão sobre o dólar (Money Times) https://www.moneytimes.com.br/banco-central-vende-us-2-bilhoes-em-leilao-em-meio-a-pressao-sobre-o-dolar-mlem/
 · MU Nvidia, AMD, and Micron stocks sink as investors flee AI trade (Yahoo Finance) https://finance.yahoo.com/markets/article/nvidia-amd-micron-stocks-sink-as-investors-flee-ai-trade-134518921.html
 · BTC Bitcoin price tests $58K floor as $107M liquidated, ETFs bleed cash (Seeking Alpha) https://seekingalpha.com/news/4676534-bitcoin-price-tests-58k-floor-as-107m-liquidated-etfs-bleed-cash
