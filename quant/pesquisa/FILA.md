@@ -386,3 +386,6 @@ dependencia. Nenhuma tentativa nova entrou no registro.
   4 negocios, +R$ 299 com 2 contratos, mas o robo nunca a rodou ao vivo (so percorria o WDOFUT; conserto da varredura de 15/10).
 
 (21/10/2026, noite) Pesquisa da noite: nenhuma hipotese testada, por falta de dado. Item 7 sem leitura ao vivo; item 8 segue com 15 casos; itens 9 e 10 na prova viva (6 negocios do mini-indice, cedo demais); item 14 sem yfinance no .venv. Nenhuma tentativa nova no registro.
+
+- 25/11/2026, tarde: nenhuma hipotese testavel; 7, 8, 9, 10, 12, 14, 15 e 16 seguem esperando dado novo ou sao prova viva. Nao ha item "[revisao: ...]"
+  aberto. Prova viva rodou: indice fim do dia original 28 negocios (+R$ 50, t 1,8), variante adaptativa 17 (-R$ 63), abaixo de 60. Nenhuma tentativa nova (METODO: parar em vez de forcar).
