@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 25/11 14h05
+NOTÍCIAS E FATOS · 25/11 15h05
 
-Pernas: noticias ok 17 novas (18 consultas; descartadas: 432 veículo fora da lista, 28 sem ativo, 3 teto) · cvm ok 0 novos de 11 (4 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 17 novas (18 consultas; descartadas: 435 veículo fora da lista, 27 sem ativo, 1 teto) · cvm ok 0 novos de 11 (4 cias casadas) · sec ok 0 novos em 3 dias
 
 ## SEC (8-K, 6-K, 10-Q, 10-K) (2)
 
@@ -31,7 +31,41 @@ Fonte: SEC EDGAR 2026-11-25
 id: E04-TSM-26000805-2026-11-25 · status: linha · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (13)
+## NOTÍCIAS COM MATERIALIDADE (16)
+
+[ATENÇÃO] E05 · ITUB4 · Quando Itaú (ITUB4) paga dividendos? Confira o calendário
+Suno Noticias · 25/11 15h01 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Negócios Quando Itaú (ITUB4) paga dividendos?
+  – Confira o calendário Quem tem ações do Itaú Unibanco (ITUB4) já pode marcar no calendário a próxima remessa de proventos do banco.
+  – O pagamento mensal referente a dezembro tem crédito previsto para 4 de janeiro de 2027 no Brasil.
+  – Assim, o provento de dezembro pertence ao exercício de 2026, mas só cai na conta em janeiro.
+  – O valor de referência dessa distribuição é de R$ 0,015 líquido por ação.
+  – Como o pagamento é feito na forma de juros sobre capital próprio (JCP), o montante bruto é de R$ 0,01765, já que há retenção de Imposto de Renda na fonte.
+Link: https://www.suno.com.br/noticias/itau-unibanco-itub4-dividendos-calendario-241126/
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: ITUB4
+Como falar: 'saiu no Suno Noticias: Quando Itaú (ITUB4) paga dividendos? Confira o calendário; confirmar o número no texto antes de repassar'
+Fonte: Suno Noticias 25/11 15h01
+id: E05-ITUB4-41f21b4d7f-2026-11-25 · status: pendente
+
+[ATENÇÃO] E05 · PETR4 · Santander rebaixa Petrobras para neutra e reduz preço-alvo após aumento de riscos no plano de negócios
+ADVFN · 25/11 14h10 · fonte única · licença: manchete
+Link: https://br.advfn.com/jornal/2026/11/santander-rebaixa-petrobras-para-neutra-e-reduz-preco-alvo-apos-aumento-de-riscos-no-plano-de-negocios
+Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
+Ativos: PETR4
+Como falar: 'saiu no ADVFN: Santander rebaixa Petrobras para neutra e reduz preço-alvo após aumento de riscos no plan…; confirmar o número no texto antes de repassar'
+Fonte: ADVFN 25/11 14h10
+id: E05-PETR4-db88d9258f-2026-11-25 · status: pendente
+
+[ATENÇÃO] E05 · AMZN · Amazon Stocks Fall 4.26% as $215 Billion Capex Run Rate Meets AI Doubts
+TradingView (Reuters) · 25/11 12h41 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/gurufocus:eccdca4a2094b:0-amazon-stocks-fall-4-26-as-215-billion-capex-run-rate-meets-ai-doubts/
+Por que importa: decisao de politica monetaria reprecifica toda a curva e o cambio
+Ativos: AMZN
+Como falar: 'saiu no TradingView (Reuters): Amazon Stocks Fall 4.26% as $215 Billion Capex Run Rate Meets AI Doubts; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 25/11 12h41
+id: E05-AMZN-233b96244c-2026-11-25 · status: pendente
 
 [ATENÇÃO] E05 · AMD · AMD Stocks Plunge 9.74% as Chip Rout and Tariff Threat Collide
 TradingView (Reuters) · 25/11 12h49 · fonte única · licença: manchete
@@ -65,7 +99,7 @@ Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; 
 Ativos: BABA
 Como falar: 'saiu no Yahoo Finance: Alibaba Q2 Earnings Call Details Cloud Outlook and Chip Plans; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 25/11 11h00
-id: E05-BABA-b167eedb6d-2026-11-25 · status: pendente
+id: E05-BABA-b167eedb6d-2026-11-25 · status: expirado
 
 [ATENÇÃO] E05 · AVGO · Does Broadcom's Debt Load Pose a Risk to the Stock's Outlook for FY27?
 Yahoo Finance · 25/11 09h56 · fonte única · licença: resumo
@@ -81,7 +115,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: AVGO
 Como falar: 'saiu no Yahoo Finance: Does Broadcom's Debt Load Pose a Risk to the Stock's Outlook for FY27?; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 25/11 09h56
-id: E05-AVGO-0d41d09acd-2026-11-25 · status: pendente
+id: E05-AVGO-0d41d09acd-2026-11-25 · status: expirado
 
 [ATENÇÃO] E05 · PETR4 · Ibovespa fecha no vermelho após presidente da Petrobras não garantir dividendos extraordinários
 Money Times · 24/11 18h27 · fonte única · licença: integral
@@ -97,7 +131,7 @@ Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir
 Ativos: PETR4
 Como falar: 'saiu no Money Times: Ibovespa fecha no vermelho após presidente da Petrobras não garantir dividendos extraordi…; confirmar o número no texto antes de repassar'
 Fonte: Money Times 24/11 18h27
-id: E05-PETR4-6d57f88955-2026-11-24 · status: pendente · íntegra disponível
+id: E05-PETR4-6d57f88955-2026-11-24 · status: expirado · íntegra disponível
 
 [ATENÇÃO] E05 · CVX · Chevron Pays a Bigger Dividend, but Exxon May Be the Better Retirement Stock
 Yahoo Finance · 25/11 10h17 · fonte única · licença: resumo
@@ -200,8 +234,22 @@ Fonte: Suno Noticias 24/11 11h06
 id: E05-PETR4-594e6ec6b7-2026-11-24 · status: expirado
 
 
-## OUTRAS NOTÍCIAS (só manchete) (72)
+## OUTRAS NOTÍCIAS (só manchete) (86)
 
+· PETR4 Mais petróleo, menos espaço para dividendos: o que fez o Santander mudar de visão sobre a Petrobras (Estadao) https://www.estadao.com.br/em-alta/einvestidor/cenarios-e-mercado/mais-petroleo-menos-espaco-para-dividendos-o-que-fez-o-santander-mudar-de-visao-sobre-a-petrobras/
+· NVDA Treasury Yields Rise After Huang Returns as Nvidia CEO; European Bond Yields Slip (The Wall Street Journal) https://www.wsj.com/finance/investing/u-s-european-bond-yields-rise-reversing-last-weeks-sharp-falls-9afadf09
+· BTC Bitcoin price stuck below $60,000 as Galaxy takes back bottom call, crypto bulls lose faith (CoinDesk) https://www.coindesk.com/markets/2026/11/25/this-time-actually-seems-different-crypto-veterans-brace-for-more-pain-as-bitcoin-tumbles
+· MINERIO Operação prende suspeitos de extração ilegal de minério de ferro em MG (Agencia Brasil) https://agenciabrasil.ebc.com.br/radioagencia-nacional/geral/audio/2026-11/operacao-prende-suspeitos-de-extracao-ilegal-de-minerio-de-ferro-em-mg
+· BTC Bitcoin falls below $58,000 as CoinShares' Butterfill sees 'tail end of the bear market' (The Block) https://www.theblock.co/news/markets/2026-11-25-bitcoin-falls-below-58000-coinshares-butterfill-sees-tail-end-bear-market-446678
+· PLTR Palantir Stocks Fall 4.62% as Nasdaq Rout Hits AI Software (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:87dfb605e094b:0-palantir-stocks-fall-4-62-as-nasdaq-rout-hits-ai-software/
+· UST Treasuries Rise Across Curve as AI Concerns Dent Risk Sentiment (Bloomberg) https://www.bloomberg.com/news/articles/2026-11-25/treasuries-rise-across-curve-as-ai-concerns-dent-risk-sentiment
+· NVDA Nasdaq tumbles 4% as Nvidia leads AI sell-off, inflation and tariffs weigh on investors (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/nasdaq-tumbles-4-nvidia-leads-164313502.html
+· NVDA Nvidia Just Delivered Its Latest Earnings Report. Is the Stock a Buy Below $160? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/nvidia-just-delivered-latest-earnings-161302328.html
+· LITE Lumentum Holdings loses 9% as tech falls (LITE:NASDAQ) (Seeking Alpha) https://seekingalpha.com/news/4676619-lumentum-holdings-loses-9-as-tech-falls
+· NVDA Scott Galloway Predicts Nvidia Stock Will Be “Up at the End of the Year.” Six Weeks Left (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/scott-galloway-predicts-nvidia-stock-140528130.html
+· GOOGL Is Google Services Still the Prime Earnings Engine for Alphabet Stock? (TradingView (Reuters)) https://news.google.com/rss/articles/CBMiwwFBVV95cUxQX1VkOXRlY1RVUjQ1UEhGdzQ1Wmh4YmUwV2g2MUg5VDFNX0FtbWVkU3VGQ2ZkdHpfclJ6RnhycVEydVBwZl8ySTdHdEFXRHFtV2NZU3dtNnhTSzN4Y21NV1BsWkpYMGlzOFFiWERmSmZOeGRMV0hBdmVCOVBFNTI0SVlOWmx1ZzdQUUdQcEY2c3RERkp6VElGTlYwQmQzV004aGF5LVlWVXJCNU9FNjFNR1cyRVNuekpiMHZzdkVrcTFOU0E?oc=5
+· VALE3 Dólar forte favorece Vale e CSN Mineração, mas pressiona Usiminas, diz Morgan Stanley (InfoMoney) https://news.google.com/rss/articles/CBMivwFBVV95cUxPR1Bud1dhd3JrSXFueU5ScUNTQWNxZEhmLTZNZk5kclZGVzJ2OTA1WUIwUVp5VHV2RTdIVWdOMm9MRTVfbzJqUUpLc2FvWnhDY19zMzFmeHdUREJmZU5SWHlzc1drZ0NQZW0tbWlLblJwWUtXYnlHQThaMXJCOEg3ZXpReTVFRGNJZngwWWZBcU1YUjFaMmIzaUhVd0FQcTBvbENxc1BrM2NsSzZMUENKQldYY0FvcUQ2a0hxQTJvTdIBxAFBVV95cUxQYXlZdzl5anZQRmlzenVrZVg0a2MyRHFabVk3a3BNbjFJOEJTMC1JTG9ibnJ5c0g1RmtxbDUxWU93dV8wM1pvOVpLMFZpbEtUVEFZWXQ3T0Q0SmZQU29vaExiWkZ6T0Rsa1VKeGJPZEFnTlMwZVhna1ZnOS1LUlZPMURkSkpkYVpzRVVYRVAzSnRCU3Z0enJ2QzFGcEFFcllZMWJrbktPbWNxX0ZZVjVaMW8wOHFDZU4xTV9YLVpzVEVMUFIt?oc=5
+· USDBRL Dólar despenca e Bolsa avança com possível indicação de Trabuco para a Fazenda e expectativa por sinais fiscais (Folha de S.Paulo) https://news.google.com/rss/articles/CBMi3wFBVV95cUxNOXA2VWlkZ2t2Mjc2TXhCRklvS2xnZUZkck5LVFV4S3B2VXF4NVQzaC1RNEJ2ZjFVbm5UQ1MwZG1TWjVORkxsVjFCaUZwcTdfNVpvY0hhNl9QeEgyQ1QwTlVkNFZqNXBJUXZ0ZHpyOFBXTXNqTzRoWF9jNmdhZmpsV1RvZEpmY3FhRWgwVGZ4S2hPREw3X1dVT1JLaVcwcXRmVHljM2RFeG1fZVl4RmRBSFd0VFU2cjZJSS13N2ZWVVY0OVZNY3VBQmY3V29JbEF5VDBGSjktY05FT3lNcFF3?oc=5
 · BTC Hyperliquid's HYPE will join bitcoin, ether and more in Franklin Templeton's crypto ETF (The Block) https://www.theblock.co/news/markets/2026-11-25-franklin-templeton-ezpz-etf-adds-hyperliquid-hype-446686
 · NVDA Chip stocks tumble as Nvidia-led AI rally unravels, tariff fears weigh (Yahoo Finance) https://ca.finance.yahoo.com/news/chip-stocks-tumble-nvidia-led-164900978.html
 · PLTR Palantir: Already Off To A Strong 2027 (NASDAQ:PLTR) (Seeking Alpha) https://seekingalpha.com/article/4971949-palantir-already-off-to-a-strong-2027
@@ -248,18 +296,4 @@ id: E05-PETR4-594e6ec6b7-2026-11-24 · status: expirado
 · MU The Consensus on Micron Stock Is Changing. Here’s What Investors Should Know (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/consensus-micron-stock-changing-investors-131026330.html
 · NVDA Nvidia, chipmakers slide premarket; Dell falls despite upbeat outlook (Investing.com) https://www.investing.com/news/stock-market-news/nvidia-chipmakers-slide-premarket-dell-falls-despite-upbeat-outlook-5050581
 · NVDA The questions Jensen Huang and Nvidia will still have to answer about Megaspeed (TechCrunch) https://techcrunch.com/2026/11/25/the-questions-jensen-huang-and-nvidia-will-still-have-to-answer-about-megaspeed/
-· BTC Current price of Bitcoin for November 25, 2026 (Fortune) https://fortune.com/article/price-of-bitcoin-11-25-2026/
-· USDBRL Dólar abre em leve alta em linha com exterior e à espera de novos sinais sobre política fiscal (Folha de S.Paulo) https://www1.folha.uol.com.br/mercado/2026/11/dolar-abre-em-leve-alta-em-linha-com-exterior-e-a-espera-de-novos-sinais-sobre-politica-fiscal.shtml
-· USDBRL Dólar avança com discussões fiscais e espera por dado de inflação dos EUA (UOL Economia) https://economia.uol.com.br/cotacoes/noticias/redacao/2026/11/25/dolar-abertura-25-11-2026.ghtm
-· USDBRL Dólar sobe diante de piora em projeção fiscal e inflação dos EUA no radar (CNN Brasil) https://www.cnnbrasil.com.br/economia/money/mercado/mercado-financeiro-ibovespa-dolar-25-novembro-2026/
-· BTC Bitcoin Slips Below $59K Ahead Of PCE Report, Heads For Worst Month Since July 2022 (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-slips-below-59k-ahead-123156434.html
-· USDBRL Dólar hoje acompanha exterior e sobe ante o real (InfoMoney) https://news.google.com/rss/articles/CBMinAFBVV95cUxQcEpha3pvUHNvaFpaWF9BZlhGQkZoWVF6aDZlaWE5ODhMc3NJc2l1RDJkQ2wyT0JoclJ2d2ZmRV96OVA3MDlacEJyNVRGbVhnNk9qM0xDTXIyOUotbmQzZ3ZRSHdFZ1owS3FfRXhyaXp0b1BESTFoV3V3Yk9CTlRvc01Qc1VNb3lVWVpMWWllSU5WaW01RUJXUjNGczLSAaIBQVVfeXFMUF9PSWJHUGdUWFBkR09VOFRibjlTX1RKQjZoV1JULUliV1dFd0tjN2xOLXBuVXpEQUNUMFd4bXFyeEphaDYyUGdpU3NtNDJzdUstTzZWYWtTMnVQdnJfdzJta2pSVUZ0bVlnVzV2dkYtU1dvSjVpQ3JBQ2lZRE12SjRrZDlRWjZxallhT3dhM0M2cWVad1oxOHdfcG1WZ0JWaWt3?oc=5
-· TSM Huang Boost Fades Quickly as AI Fears Sink TSMC, SK Hynix Shares (Yahoo Finance) https://news.google.com/rss/articles/CBMimAFBVV95cUxPSnVQX0EyNnpsTDJhNldDLUZpQWh2am54cXVKTlN1LTVidU50TkZPVFh0UzhZUmpfQno3UHlWaE5qcW9IaFlQaUdXcWFjNjVkVWdCX3VBYXBQMllvY2hoTEFOWVFBQl9qQVhnMXRvNExRTHVzbjIwUVMzNzBpMFlaVmZ0cXNLbW42eXFaVWxmWHlMcVNJeDJfdw?oc=5
-· CVX Why Chevron Investors Could Make Sense Of ETFs Now (Yahoo Finance) https://news.google.com/rss/articles/CBMilAFBVV95cUxOdk5yRzNtMVYxZDJpLVVIUFN4amozSy11VURJZkE4OEJLdzRiMXVuaUtNWVVUMUt2UHQwaS1EOEZrdGRQWXY0YUgzaHZuNmV6eG03NlBIOGR4cFNBQm9DczJ0RzRJU2lnWWUzSnp2M2FGVnlzSkxKU3FaakFzbGlUX2RFbVpDWGRBQUVxaHZVMHI4bWhK?oc=5
-· BTC Bitcoin falls below the Rainbow Chart's lowest band, into 'fire sale' territory (TradingView (Reuters)) https://news.google.com/rss/articles/CBMi2AFBVV95cUxNSWt6ak1YdmcwdWJfVzg2VEtnVlh6eVhTTnFQN0R1c243blNuSVhfY0JUek9DNXdQYWRVTTI2TWEwdnZaRl9pdllQUDFjeV95dDk4REN3VkFlazlFXzVuQkRrUkhVSTFZVmJuWWtmLW9oWDJvR1FpdHlYNkdyUzhBRXFoNnhwTjljTE9qVzloNFV1UnlTRnZyVjZTbEp2b2tTdUJZYk45ZFBkUGtKNDZuSHIxT1JDbzJtV0VkTXJtbndvdzJ4TXpiU0VBckVHdWt0OVhlN1hhSlg?oc=5
-· AMZN io.net: IO Cloud launches on AWS Marketplace - 25 Nov 2026 (TradingView (Reuters)) https://news.google.com/rss/articles/CBMiuwFBVV95cUxOTS1nR2xjRXFLX3BIbW1EMGRjSlJCc2c1UFNCN2pDem1nQUhxNS1INDdxWERnUExMcVY3dFZmVHdlMFdsVGRPbnA1OHpxcVpJelFVWGxyb3JkVzNFRjdWbXlPdXBRRnBUbkJKSEZrQnRYSU5udVFFXy1SQ05xQVd4LWNyX3BrTC1SVndOVzRmNzZpQmxtVWhrOWxJZkl5aUhrbW1JQVkzcnVIRzM5SlRydWthZ1QwQ2hkWUZ3?oc=5
-· USDBRL Dólar abre em alta e vai a R$ 5,97, com foco em inflação e PIB dos EUA e medidas econômicas de Lula (g1) https://news.google.com/rss/articles/CBMieEFVX3lxTE5VSmdsNU51NWlvZS03eDR4U3FpZW4yV0VIMXZ4bWctcFc0N2dmcHJzMDdkN0FET1M2dUM2dFlRaVR5MG5sd3c5SURZcU0xRWkzdkdIVDN2MHVTUGZ3VGo5UXdkVk5kVXJFWUNCcDRWcU9uNjgyT191TdIBhwFBVV95cUxNUW1Qai1CQzE2bHphejdnZjR3MGg5LUE3eEhBVWVsNDluWEtnNnYxeVVPU1dsS1hNYzkyTFgxNUJpblhBZFpkbXZQbVA4dGR4SnZtRDhNVXNfMzM1dVFJdmRycGN1cGFjZkFjMWo2TE1NanZNS1B2aHNCQWw4Z2ZJSDd2MDJtakk?oc=5
-· ETH Ethereum Could Crash Below $500, Peter Brandt Warns – Why Another Analyst Still Sees A Bounce Toward $2,000 (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/ethereum-could-crash-below-500-031403042.html
-· NVDA Jensen Huang’s return steadies Nvidia, but China curbs, US scrutiny remain (South China Morning Post) https://www.scmp.com/tech/big-tech/article/3375632/jensen-huangs-return-steadies-nvidia-china-curbs-us-scrutiny-show-no-sign-easing
-· BABA Alibaba Group Holding Limited Notice of January 19, 2027 (GlobeNewswire) https://www.globenewswire.com/news-release/2026/11/25/3409965/6713/en/alibaba-group-holding-limited-notice-of-january-19-2027-application-deadline-for-class-action-lawsuit-contact-lewis-kahn-esq-at-kahn-swick-foti-llc-before-application-deadline.html
-· (+12 manchetes; lista completa em eventos/noticias.json)
+· (+26 manchetes; lista completa em eventos/noticias.json)

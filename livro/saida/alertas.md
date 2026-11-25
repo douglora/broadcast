@@ -48,17 +48,16 @@ Como falar: 'saiu no Money Times: Ibovespa fecha no vermelho após presidente da
 Fonte: Money Times 24/11 18h27
 ids: E05-PETR4-6d57f88955-2026-11-24
 
-[ATENÇÃO] E05 · AMD · AMD Stocks Plunge 9.74% as Chip Rout and Tariff Threat Collide
+(pendente de slot anterior) [ATENÇÃO] E05 · AMD · AMD Stocks Plunge 9.74% as Chip Rout and Tariff Threat Collide
 TradingView (Reuters) · 25/11 12h49 · fonte única · licença: manchete
 Link: https://www.tradingview.com/news/gurufocus:83c0163b4094b:0-amd-stocks-plunge-9-74-as-chip-rout-and-tariff-threat-collide/
 Por que importa: tarifa ou sancao muda margem e acesso a mercado
 Ativos: AMD
 Como falar: 'saiu no TradingView (Reuters): AMD Stocks Plunge 9.74% as Chip Rout and Tariff Threat Collide; confirmar o número no texto antes de repassar'
 Fonte: TradingView (Reuters) 25/11 12h49
-Push: intradia: 2 alertas de atenção — E05 AMD, E05 TSM · detalhe na sessão
 ids: E05-AMD-44bde78321-2026-11-25
 
-[ATENÇÃO] E05 · TSM · TSMC Stocks Slide 6.65% as Taiwan Lands on US Tariff List
+(pendente de slot anterior) [ATENÇÃO] E05 · TSM · TSMC Stocks Slide 6.65% as Taiwan Lands on US Tariff List
 TradingView (Reuters) · 25/11 12h33 · fonte única · licença: manchete
 Link: https://www.tradingview.com/news/gurufocus:097f16b74094b:0-tsmc-stocks-slide-6-65-as-taiwan-lands-on-us-tariff-list/
 Por que importa: tarifa ou sancao muda margem e acesso a mercado
@@ -67,36 +66,73 @@ Como falar: 'saiu no TradingView (Reuters): TSMC Stocks Slide 6.65% as Taiwan La
 Fonte: TradingView (Reuters) 25/11 12h33
 ids: E05-TSM-f0d061a21f-2026-11-25
 
+[ATENÇÃO] E05 · ITUB4 · Quando Itaú (ITUB4) paga dividendos? Confira o calendário
+Suno Noticias · 25/11 15h01 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Negócios Quando Itaú (ITUB4) paga dividendos?
+  – Confira o calendário Quem tem ações do Itaú Unibanco (ITUB4) já pode marcar no calendário a próxima remessa de proventos do banco.
+  – O pagamento mensal referente a dezembro tem crédito previsto para 4 de janeiro de 2027 no Brasil.
+  – Assim, o provento de dezembro pertence ao exercício de 2026, mas só cai na conta em janeiro.
+  – O valor de referência dessa distribuição é de R$ 0,015 líquido por ação.
+  – Como o pagamento é feito na forma de juros sobre capital próprio (JCP), o montante bruto é de R$ 0,01765, já que há retenção de Imposto de Renda na fonte.
+Link: https://www.suno.com.br/noticias/itau-unibanco-itub4-dividendos-calendario-241126/
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: ITUB4
+Como falar: 'saiu no Suno Noticias: Quando Itaú (ITUB4) paga dividendos? Confira o calendário; confirmar o número no texto antes de repassar'
+Fonte: Suno Noticias 25/11 15h01
+Push: intradia: 3 alertas de atenção — E05 ITUB4, E05 PETR4, E05 AMZN · detalhe na sessão
+ids: E05-ITUB4-41f21b4d7f-2026-11-25
+
+[ATENÇÃO] E05 · PETR4 · Santander rebaixa Petrobras para neutra e reduz preço-alvo após aumento de riscos no plano de negócios
+ADVFN · 25/11 14h10 · fonte única · licença: manchete
+Link: https://br.advfn.com/jornal/2026/11/santander-rebaixa-petrobras-para-neutra-e-reduz-preco-alvo-apos-aumento-de-riscos-no-plano-de-negocios
+Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
+Ativos: PETR4
+Como falar: 'saiu no ADVFN: Santander rebaixa Petrobras para neutra e reduz preço-alvo após aumento de riscos no plan…; confirmar o número no texto antes de repassar'
+Fonte: ADVFN 25/11 14h10
+ids: E05-PETR4-db88d9258f-2026-11-25
+
+[ATENÇÃO] E05 · AMZN · Amazon Stocks Fall 4.26% as $215 Billion Capex Run Rate Meets AI Doubts
+TradingView (Reuters) · 25/11 12h41 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/gurufocus:eccdca4a2094b:0-amazon-stocks-fall-4-26-as-215-billion-capex-run-rate-meets-ai-doubts/
+Por que importa: decisao de politica monetaria reprecifica toda a curva e o cambio
+Ativos: AMZN
+Como falar: 'saiu no TradingView (Reuters): Amazon Stocks Fall 4.26% as $215 Billion Capex Run Rate Meets AI Doubts; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 25/11 12h41
+ids: E05-AMZN-233b96244c-2026-11-25
+
 Info (só linha no Fechamento):
-· E05 BTC · Hyperliquid's HYPE will join bitcoin, ether and more in Franklin Templeton's crypto ETF
-· E05 NVDA · Chip stocks tumble as Nvidia-led AI rally unravels, tariff fears weigh
-· E05 PLTR · Palantir: Already Off To A Strong 2027 (NASDAQ:PLTR)
-· E05 JPM · JPM: MGM CHINA Special Div. Announcement Modestly Positive Signal
-· E05 USDBRL · Ibovespa sobe e dólar cai com política fiscal no radar, na contramão do exterior
-· E05 JPM · REG - JPMorgan Emerging MD - Result of AGM
-· E05 BTC · Bitcoin wallet COLDCARD patches code after August hack
-· E05 JPM · JPMorgan Says the Biggest Risk to Stocks in 2027 Is the Fed
-· E05 LITE · Innodata, Lumentum, Quantum Computing, and Xanadu Quantum Technologies stocks trade down, what you need to know
-· E05 BTC · Bitcoin Price Prediction for December 2026: What the Forecasts Say
-· E05 BTC · Bitcoin Price Faces Alarming $58,000 Test as Selling Mounts
-· E05 JPM · JPMorgan says the S&P 500 will rise to 8,200 next year because of the AI supercycle
-· E05 UST · Treasury Yields Extend Fall After U.S. Data Flurry
-· E05 USDBRL · Dólar cai a R$ 5,86 e Ibovespa sobe com expectativa por medidas fiscais; Nasdaq tomba mais de 4%
-· E05 USDBRL · Dólar avança com cautela fiscal e externa antes do PCE dos EUA
+· E05 PETR4 · Mais petróleo, menos espaço para dividendos: o que fez o Santander mudar de visão sobre a Petrobras
+· E05 NVDA · Treasury Yields Rise After Huang Returns as Nvidia CEO; European Bond Yields Slip
+· E05 BTC · Bitcoin price stuck below $60,000 as Galaxy takes back bottom call, crypto bulls lose faith
+· E05 MINERIO · Operação prende suspeitos de extração ilegal de minério de ferro em MG
+· E05 BTC · Bitcoin falls below $58,000 as CoinShares' Butterfill sees 'tail end of the bear market'
+· E05 PLTR · Palantir Stocks Fall 4.62% as Nasdaq Rout Hits AI Software
+· E05 UST · Treasuries Rise Across Curve as AI Concerns Dent Risk Sentiment
+· E05 NVDA · Nasdaq tumbles 4% as Nvidia leads AI sell-off, inflation and tariffs weigh on investors
+· E05 NVDA · Nvidia Just Delivered Its Latest Earnings Report. Is the Stock a Buy Below $160?
+· E05 LITE · Lumentum Holdings loses 9% as tech falls (LITE:NASDAQ)
+· E05 NVDA · Scott Galloway Predicts Nvidia Stock Will Be “Up at the End of the Year.” Six Weeks Left
+· E05 GOOGL · Is Google Services Still the Prime Earnings Engine for Alphabet Stock?
+· E05 VALE3 · Dólar forte favorece Vale e CSN Mineração, mas pressiona Usiminas, diz Morgan Stanley
+· E05 USDBRL · Dólar despenca e Bolsa avança com possível indicação de Trabuco para a Fazenda e expectativa por sinais fiscais
 
 
 Alertas do dia (todos, com status):
 · expirado  T13 VIX — VIX cruzou 30: 30,9 (+17% no dia)
+· pendente  E05 ITUB4 — ITUB4 · Quando Itaú (ITUB4) paga dividendos? Confira o calendário
+· pendente  E05 PETR4 — PETR4 · Santander rebaixa Petrobras para neutra e reduz preço-alvo após aumento 
+· pendente  E05 AMZN — AMZN · Amazon Stocks Fall 4.26% as $215 Billion Capex Run Rate Meets AI Doubts
 · pendente  E05 AMD — AMD · AMD Stocks Plunge 9.74% as Chip Rout and Tariff Threat Collide
 · pendente  E05 TSM — TSM · TSMC Stocks Slide 6.65% as Taiwan Lands on US Tariff List
-· pendente  E05 BABA — BABA · Alibaba Q2 Earnings Call Details Cloud Outlook and Chip Plans
-· pendente  E05 AVGO — AVGO · Does Broadcom's Debt Load Pose a Risk to the Stock's Outlook for FY27?
-· pendente  E05 PETR4 — PETR4 · Ibovespa fecha no vermelho após presidente da Petrobras não garantir div
+· expirado  E05 BABA — BABA · Alibaba Q2 Earnings Call Details Cloud Outlook and Chip Plans
+· expirado  E05 AVGO — AVGO · Does Broadcom's Debt Load Pose a Risk to the Stock's Outlook for FY27?
+· expirado  E05 PETR4 — PETR4 · Ibovespa fecha no vermelho após presidente da Petrobras não garantir div
 · expirado  E05 CVX — CVX · Chevron Pays a Bigger Dividend, but Exxon May Be the Better Retirement Sto
 · expirado  E05 USDBRL — USDBRL · Banco Central anuncia nova intervenção no câmbio. BC oferta até US$ 2 b
 · expirado  E05 GOOGL — GOOGL · Key facts: Alphabet capex $51.4B; Cloud revenue up 103%; Malaysia $15B
 · expirado  M01 MACRO — Agenda: PIB 3T26 (2a estimativa) e PCE de outubro (BEA) hoje às 10:30 (25/11)
 · expirado  E05 PLTR — PLTR · Palantir CEO Alexander Karp sells $37.2 million in class A stock By Inves
 · expirado  E05 PETR4 — PETR4 · Petrobras (PETR4) anuncia R$ 15,6 bi em dividendos extraordinários; veja
-· linha     F01 USDBRL — Real sobe: USD/BRL 5,8156 (-1,6% no dia) (parcial, intradia)
-· (+81 notícias só manchete, em noticias.md)
+· linha     F01 USDBRL — Real sobe: USD/BRL 5,8026 (-1,8% no dia · 3 dias seguidos de movimento doméstico
+· (+95 notícias só manchete, em noticias.md)
