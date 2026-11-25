@@ -119,6 +119,15 @@ def data_pregao_b3(agora: datetime | None = None) -> date:
     return ultimo_dia_util("B3", agora.astimezone(BRT).date())
 
 
+def dia_do_turno(modo: str, agora: datetime | None = None) -> date:
+    """Dia que o turno descreve. Fechamento (e backfill) e o do ultimo pregao B3 que fechou: o cron do GitHub atrasa horas e o
+    fechamento das 18h ja rodou a 01h04 do dia seguinte (25/11/2026), saindo com a data do pregao que nem tinha aberto. Manha,
+    intradia e eventos ficam no dia util corrente."""
+    if modo in ("fechamento", "backfill"):
+        return data_referencia("B3", agora)
+    return data_pregao_b3(agora)
+
+
 def base_ytd(datas: list[str], ano: int) -> int | None:
     """Indice da ultima barra <= 31/12/(ano-1) na lista ordenada de datas ISO."""
     limite = f"{ano - 1}-12-31"

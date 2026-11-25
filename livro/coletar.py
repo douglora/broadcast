@@ -61,7 +61,7 @@ class Coleta:
         self.u = uni.carregar()
         self.limiares = uni.carregar_yaml("limiares.yaml")
         self.calendario = uni.carregar_yaml("calendario.yaml")
-        self.hoje = relogios.data_pregao_b3(self.agora)
+        self.hoje = relogios.dia_do_turno(modo, self.agora)
         self.pernas: dict = {}
         self.falhas: dict = {}
         self.series: dict = {}

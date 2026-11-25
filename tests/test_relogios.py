@@ -39,3 +39,18 @@ def test_base_ytd():
     datas = ["2025-12-29", "2025-12-30", "2026-01-02"]
     assert relogios.base_ytd(datas, 2026) == 1
     assert relogios.base_ytd(["2026-01-02"], 2026) is None
+
+
+def test_fechamento_atrasado_vale_pelo_pregao_que_fechou():
+    # 25/11/2026: o cron das 18h do GitHub so rodou a 01h04 BRT do dia seguinte e o fechamento saiu com a data de 25/11
+    madrugada = datetime(2026, 11, 25, 4, 4, tzinfo=timezone.utc)   # 01h04 BRT
+    assert relogios.dia_do_turno("fechamento", madrugada) == date(2026, 11, 24)
+    assert relogios.dia_do_turno("backfill", madrugada) == date(2026, 11, 24)
+    assert relogios.dia_do_turno("manha", madrugada) == date(2026, 11, 25)       # a manha e a do dia que vai abrir
+    no_horario = datetime(2026, 11, 24, 21, 11, tzinfo=timezone.utc)  # 18h11 BRT
+    assert relogios.dia_do_turno("fechamento", no_horario) == date(2026, 11, 24)
+    assert relogios.dia_do_turno("intradia", no_horario) == date(2026, 11, 24)
+    sabado = datetime(2026, 11, 28, 4, 0, tzinfo=timezone.utc)
+    assert relogios.dia_do_turno("fechamento", sabado) == date(2026, 11, 27)
+    pos_feriado = datetime(2026, 11, 23, 4, 0, tzinfo=timezone.utc)   # 01h de segunda 23/11, sexta 20/11 foi feriado
+    assert relogios.dia_do_turno("fechamento", pos_feriado) == date(2026, 11, 19)
