@@ -1,44 +1,11 @@
 ALERTAS · intradia
 
-[CRÍTICO] T13 · VIX cruzou 30: 30,9 (+17% no dia)
+(pendente de slot anterior) [CRÍTICO] T13 · VIX cruzou 30: 30,9 (+17% no dia)
 VIX 30,9 (+17%)
 Por que importa: VIX acima de 20 é o mercado pagando por proteção; acima de 30 as correlações vão a 1 e o que manda é o tamanho da posição
 Como falar: 'dia de aversão a risco: não é hora de decidir pelo preço de tela'
 Fonte: Cboe via Yahoo, fech. 25/11
-Push: [CRÍTICO] VIX cruzou 30 · detalhe na sessão
 ids: T13-VIX-vix30-2026-11-25
-
-(pendente de slot anterior) [ATENÇÃO] E05 · PETR4 · Petrobras anuncia investimento de US$ 122 bilhões até 2031
-Agencia Brasil · 24/11 19h37 · fonte única · licença: integral
-Do texto:
-  – A Petrobras anunciou um investimento de US$ 122 bilhões por meio do plano de negócios 2027-2031.
-  – De acordo com a empresa, a ideia é manter o foco no segmento de exploração e produção, que no novo plano terá 70% dos investimentos, conciliando com recursos destinados à diversificação de negócios de baixo carbono, seg…
-  – “Nós planejamos investir ao longo de 5 anos US$ 122 bilhões.
-  – Isso representa cerca de 5% de tudo que será investido no Brasil nos próximos 5 anos”.
-  – “De 24 para cá, nós crescemos mais do que crescemos em 10 anos.
-  – Nos últimos 2 anos, a produção aumentou cerca de 30%.
-Link: https://agenciabrasil.ebc.com.br/radioagencia-nacional/economia/audio/2026-11/petrobras-anuncia-investimento-de-us-122-bilhoes-ate-2031
-Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
-Ativos: PETR4
-Como falar: 'saiu no Agencia Brasil: Petrobras anuncia investimento de US$ 122 bilhões até 2031; confirmar o número no texto antes de repassar'
-Fonte: Agencia Brasil 24/11 19h37
-ids: E05-PETR4-a5316d5808-2026-11-24
-
-(pendente de slot anterior) [ATENÇÃO] E05 · PETR4 · Petrobras (PETR4) abre a carteira, mas fecha espaço para dividendos? Veja a reação do mercado ao plano 2027-2031
-Money Times · 24/11 11h45 · fonte única · licença: integral
-Do texto:
-  – Petrobras (PETR4) abre a carteira, mas fecha espaço para dividendos?
-  – Na noite de ontem (23), com a publicação do documento, a espera acabou, mas deu lugar a outro sentimento: a apreensão.
-  – A companhia prevê investimentos de US$ 122 bilhões, ante US$ 109 bilhões no planejamento anterior.
-  – Desse total, US$ 113 bilhões já estão destinados a projetos em execução, enquanto US$ 9 bilhões permanecem em avaliação.
-  – A estatal prevê investimentos com saída efetiva de caixa de cerca de US$ 24 bilhões em 2027 e outros US$ 24 bilhões em 2028, valores acima das expectativas de boa parte do mercado.
-  – Além disso, os gastos com arrendamentos também aumentaram, chegando a US$ 12 bilhões em 2027.
-Link: https://www.moneytimes.com.br/petrobras-petr4-abre-a-carteira-mas-fecha-espaco-para-dividendos-veja-a-reacao-do-mercado-ao-plano-2027-2031-bdap/
-Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
-Ativos: PETR4
-Como falar: 'saiu no Money Times: Petrobras (PETR4) abre a carteira, mas fecha espaço para dividendos? Veja a reação do mer…; confirmar o número no texto antes de repassar'
-Fonte: Money Times 24/11 11h45
-ids: E05-PETR4-e99c7fd091-2026-11-24
 
 (pendente de slot anterior) [ATENÇÃO] CURVA · C05 Pre 2029 FECHA 21 bps (PU +0,4%) · Pre 2032 FECHA 16 bps (PU +0,8%) (base 24/11) / C03 Prefixado em nível: Pre 2029 cruzou 15,00% (agora 14,94%) / C06 Inflação implícita: implícita 2029 +28 bps na semana · implícita 2032 cruzou 7,00% · implícita 2031/32 (descasado) +297 bps acima do Focus
 TD Pre 2029 14,94 (-21) · IPCA+ 2032 7,88 (-4) · IPCA+ 2040 7,53 (-6) PU +0,8% · IPCA+ 2050 7,54 (-2) · Pre 2032 15,32 (-16) PU +0,8%
@@ -100,7 +67,7 @@ Como falar: 'saiu no Suno Noticias: Petrobras (PETR4) anuncia R$ 15,6 bi em divi
 Fonte: Suno Noticias 24/11 11h06
 ids: E05-PETR4-594e6ec6b7-2026-11-24
 
-[ATENÇÃO] E05 · CVX · Chevron Pays a Bigger Dividend, but Exxon May Be the Better Retirement Stock
+(pendente de slot anterior) [ATENÇÃO] E05 · CVX · Chevron Pays a Bigger Dividend, but Exxon May Be the Better Retirement Stock
 Yahoo Finance · 25/11 10h17 · fonte única · licença: resumo
 Trechos (licença resumo: reescrever, não colar):
   – Quick Read - Exxon beats Chevron for retirees who want a dividend that keeps growing, with 44 straight annual raises against Chevron's 39.
@@ -114,10 +81,9 @@ Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir
 Ativos: CVX
 Como falar: 'saiu no Yahoo Finance: Chevron Pays a Bigger Dividend, but Exxon May Be the Better Retirement Stock; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 25/11 10h17
-Push: intradia: 3 alertas de atenção — E05 CVX, E05 USDBRL, E05 GOOGL · detalhe na sessão
 ids: E05-CVX-01945a3947-2026-11-25
 
-[ATENÇÃO] E05 · USDBRL · Banco Central anuncia nova intervenção no câmbio. BC oferta até US$ 2 bilhões em leilões
+(pendente de slot anterior) [ATENÇÃO] E05 · USDBRL · Banco Central anuncia nova intervenção no câmbio. BC oferta até US$ 2 bilhões em leilões
 ADVFN · 25/11 08h48 · fonte única · licença: manchete
 Link: https://br.advfn.com/jornal/2026/11/banco-central-anuncia-nova-intervencao-no-cambio-bc-oferta-ate-us-2-bilhoes-em-leiloes
 Por que importa: oferta de acoes ou divida altera a base acionaria ou a alavancagem
@@ -126,7 +92,7 @@ Como falar: 'saiu no ADVFN: Banco Central anuncia nova intervenção no câmbio.
 Fonte: ADVFN 25/11 08h48
 ids: E05-USDBRL-cc2276f8f7-2026-11-25
 
-[ATENÇÃO] E05 · GOOGL · Key facts: Alphabet capex $51.4B; Cloud revenue up 103%; Malaysia $15B
+(pendente de slot anterior) [ATENÇÃO] E05 · GOOGL · Key facts: Alphabet capex $51.4B; Cloud revenue up 103%; Malaysia $15B
 TradingView (Reuters) · 25/11 05h00 · fonte única · licença: manchete
 Link: https://www.tradingview.com/news/tradingview:2d9671abac61c:0-key-facts-alphabet-capex-51-4b-cloud-revenue-up-103-malaysia-15b/
 Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
@@ -136,35 +102,17 @@ Fonte: TradingView (Reuters) 25/11 05h00
 ids: E05-GOOGL-69640b2f97-2026-11-25
 
 Info (só linha no Fechamento):
-· E04 TSM · 6-K: 6-K
-· E04 TSM · 6-K: 6-K
-· E05 USDBRL · Dólar passa a cair e Ibovespa sobe antes de dado de inflação preferido do Fed
-· E05 MU · The Consensus on Micron Stock Is Changing. Here’s What Investors Should Know
-· E05 NVDA · Nvidia, chipmakers slide premarket; Dell falls despite upbeat outlook
-· E05 NVDA · The questions Jensen Huang and Nvidia will still have to answer about Megaspeed
-· E05 BTC · Current price of Bitcoin for November 25, 2026
-· E05 USDBRL · Dólar abre em leve alta em linha com exterior e à espera de novos sinais sobre política fiscal
-· E05 USDBRL · Dólar avança com discussões fiscais e espera por dado de inflação dos EUA
-· E05 USDBRL · Dólar sobe diante de piora em projeção fiscal e inflação dos EUA no radar
-· E05 BTC · Bitcoin Slips Below $59K Ahead Of PCE Report, Heads For Worst Month Since July 2022
-· E05 USDBRL · Dólar hoje acompanha exterior e sobe ante o real
-· E05 TSM · Huang Boost Fades Quickly as AI Fears Sink TSMC, SK Hynix Shares
-· E05 CVX · Why Chevron Investors Could Make Sense Of ETFs Now
-· E05 BTC · Bitcoin falls below the Rainbow Chart's lowest band, into 'fire sale' territory
-· E05 AMZN · io.net: IO Cloud launches on AWS Marketplace - 25 Nov 2026
-· E05 USDBRL · Dólar abre em alta e vai a R$ 5,97, com foco em inflação e PIB dos EUA e medidas econômicas de Lula
-· E05 BTC · BlackRock Says Markets Overprice Fed Hikes: Will Bitcoin Catch a Break?
-· E05 PETR4 · Dividendos da semana: CPFL paga R$ 1,13 por ação e Petrobras também entra na lista
-· E05 KO · Coca-Cola at $95 or PepsiCo at $140: Which Dividend King Could Turn $1,000 Into More Money by 2036?
+· S01 coleta do slot intradia saiu incompleta: bcb: BCB devolveu 4 de 5 séries (faltaram ptax_venda)
 
-Suprimidos pelo teto (viram linha do Fechamento): E05-BTC-cf2972f31d-2026-11-25 (teto de noticias), E05-PETR4-ebf5c0e69f-2026-11-24 (teto de noticias), E05-KO-0fcb142985-2026-11-24 (teto de noticias)
+Suprimidos pelo teto (viram linha do Fechamento): S01-SISTEMA-intradia-2026-11-25 (teto de atenção)
 
 Alertas do dia (todos, com status):
 · pendente  T13 VIX — VIX cruzou 30: 30,9 (+17% no dia)
+· linha     S01 SISTEMA — coleta do slot intradia saiu incompleta: bcb: BCB devolveu 4 de 5 séries (faltar
 · pendente  E05 CVX — CVX · Chevron Pays a Bigger Dividend, but Exxon May Be the Better Retirement Sto
 · pendente  E05 USDBRL — USDBRL · Banco Central anuncia nova intervenção no câmbio. BC oferta até US$ 2 b
 · pendente  E05 GOOGL — GOOGL · Key facts: Alphabet capex $51.4B; Cloud revenue up 103%; Malaysia $15B
-· pendente  M01 MACRO — Agenda: PIB 3T26 (2a estimativa) e PCE de outubro (BEA) hoje às 10:30 (25/11)
-· pendente  E05 PLTR — PLTR · Palantir CEO Alexander Karp sells $37.2 million in class A stock By Inves
-· pendente  E05 PETR4 — PETR4 · Petrobras (PETR4) anuncia R$ 15,6 bi em dividendos extraordinários; veja
+· expirado  M01 MACRO — Agenda: PIB 3T26 (2a estimativa) e PCE de outubro (BEA) hoje às 10:30 (25/11)
+· expirado  E05 PLTR — PLTR · Palantir CEO Alexander Karp sells $37.2 million in class A stock By Inves
+· expirado  E05 PETR4 — PETR4 · Petrobras (PETR4) anuncia R$ 15,6 bi em dividendos extraordinários; veja
 · (+39 notícias só manchete, em noticias.md)

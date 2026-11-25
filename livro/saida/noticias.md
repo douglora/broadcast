@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 25/11 10h42
+NOTÍCIAS E FATOS · 25/11 11h05
 
-Pernas: noticias ok 21 novas (18 consultas; descartadas: 403 veículo fora da lista, 22 sem ativo, 42 teto) · cvm ok 0 novos de 11 (4 cias casadas) · sec ok 2 novos em 3 dias
+Pernas: noticias ok 0 novas (18 consultas; descartadas: 0 veículo fora da lista, 0 sem ativo, 0 teto); 18 falhas · cvm ok 0 novos de 11 (4 cias casadas) · sec ok 0 novos em 3 dias
 
 ## SEC (8-K, 6-K, 10-Q, 10-K) (2)
 
@@ -115,7 +115,7 @@ Por que importa: troca no comando reabre a discussao de estrategia e de alocacao
 Ativos: PLTR
 Como falar: 'saiu no Investing.com: Palantir CEO Alexander Karp sells $37.2 million in class A stock By Investing.com; confirmar o número no texto antes de repassar'
 Fonte: Investing.com 24/11 22h28
-id: E05-PLTR-161918aa5f-2026-11-25 · status: pendente
+id: E05-PLTR-161918aa5f-2026-11-25 · status: expirado
 
 [ATENÇÃO] E05 · PETR4 · Petrobras (PETR4) anuncia R$ 15,6 bi em dividendos extraordinários; veja datas
 Suno Noticias · 24/11 11h06 · fonte única · licença: resumo
@@ -131,7 +131,7 @@ Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir
 Ativos: PETR4
 Como falar: 'saiu no Suno Noticias: Petrobras (PETR4) anuncia R$ 15,6 bi em dividendos extraordinários; veja datas; confirmar o número no texto antes de repassar'
 Fonte: Suno Noticias 24/11 11h06
-id: E05-PETR4-594e6ec6b7-2026-11-24 · status: pendente
+id: E05-PETR4-594e6ec6b7-2026-11-24 · status: expirado
 
 
 ## OUTRAS NOTÍCIAS (só manchete) (30)
