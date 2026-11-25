@@ -7,7 +7,7 @@
  "colunas": [{"nome": "TckrSymb", "titulo": "Opções"}, {"nome": "DueDate", "titulo": "Vencimento"}, {"nome": "ExerPric", "titulo": "Preço exercício (R$)"}, {"nome": "VlmTradedDay", "titulo": "Volume (R$) mil"}, {"nome": "Part", "titulo": "Participação (%)"}],
  "texto": ["Apresenta as opções de venda mais ativas, refletindo as ações que atraem maior volume de negociação."],
  "situacao": "republicado",
- "atualizado_em": "2026-11-24T20:50:43.85",
+ "atualizado_em": "2026-11-24T21:51:12.847",
  "truncada": false,
  "linhas": [
   ["IBOVM175", "2027-01-13", 175000, 44474, 5.653476773557207],

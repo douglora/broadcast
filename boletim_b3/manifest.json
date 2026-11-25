@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-11-25T00:51:45Z",
+ "gerado_em": "2026-11-25T09:05:31Z",
  "cliente_http": "curl_cffi",
  "livro": [
   "EQTL3",
@@ -23,44 +23,6 @@
   "CURY3"
  ],
  "pregoes": {
-  "2026-11-19": {
-   "completo": false,
-   "faltam": [
-    "InstrumentsConsolidated"
-   ],
-   "boletim": "publicado",
-   "sinais": 16,
-   "tabelas": 47,
-   "arquivos": [
-    "DerivativesOpenPosition",
-    "TradeInformationConsolidated",
-    "TradeInformationConsolidatedAfterHours"
-   ],
-   "rf_cadastro": {
-    "papeis_no_dia": 1505,
-    "consultados": 0,
-    "achados": 0,
-    "sem_cadastro": 0,
-    "erros": 0,
-    "ficaram_para_depois": 0,
-    "no_cache": 3861
-   },
-   "anbima": {
-    "situacao": "publicado",
-    "data": "2026-11-19",
-    "papeis": 1258,
-    "publicado_em": "2026-11-19T19:49:09",
-    "comparado_com": "2026-11-18",
-    "tentativas": {
-     "2026-11-19": "publicado",
-     "2026-11-18": "publicado"
-    }
-   },
-   "falhas": {
-    "InstrumentsConsolidated": "arquivo InstrumentsConsolidated: token HTTP 400"
-   },
-   "segundos": 126
-  },
   "2026-11-23": {
    "completo": false,
    "faltam": [
@@ -81,7 +43,7 @@
     "sem_cadastro": 0,
     "erros": 0,
     "ficaram_para_depois": 0,
-    "no_cache": 3861
+    "no_cache": 3872
    },
    "anbima": {
     "situacao": "publicado",
@@ -97,28 +59,26 @@
    "falhas": {
     "InstrumentsConsolidated": "arquivo InstrumentsConsolidated: token HTTP 400"
    },
-   "segundos": 79
+   "segundos": 57
   },
   "2026-11-24": {
    "completo": false,
    "faltam": [
     "InstrumentsConsolidated",
-    "DerivativesOpenPosition",
-    "BTBLendingOpenPosition",
-    "BTBLoanBalance",
     "AnalyticalFramework2"
    ],
    "boletim": "publicando",
-   "sinais": 8,
+   "sinais": 18,
    "tabelas": 47,
    "arquivos": [
+    "DerivativesOpenPosition",
     "TradeInformationConsolidated",
     "TradeInformationConsolidatedAfterHours"
    ],
    "rf_cadastro": {
     "papeis_no_dia": 1585,
-    "consultados": 13,
-    "achados": 13,
+    "consultados": 0,
+    "achados": 0,
     "sem_cadastro": 0,
     "erros": 0,
     "ficaram_para_depois": 0,
@@ -136,16 +96,12 @@
     }
    },
    "falhas": {
-    "InstrumentsConsolidated": "arquivo InstrumentsConsolidated: token HTTP 400",
-    "DerivativesOpenPosition": "arquivo DerivativesOpenPosition: token HTTP 400"
+    "InstrumentsConsolidated": "arquivo InstrumentsConsolidated: token HTTP 400"
    },
-   "segundos": 50
+   "segundos": 40
   }
  },
  "falhas": [],
  "versao": 2,
- "refeitos": [
-  "2026-11-19"
- ],
  "ultimo_pregao": "2026-11-24"
 }
