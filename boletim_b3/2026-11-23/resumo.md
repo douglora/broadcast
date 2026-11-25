@@ -1,7 +1,7 @@
 # Boletim da B3: pregão de 23/11/2026 (segunda)
 
 **Situação: PARCIAL.** Ainda sem: cadastro de instrumentos. A B3 publica esses blocos na madrugada seguinte ao pregão; a rodada da manhã completa.
-Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-11-24T21:47:14Z (UTC).
+Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-11-25T00:55:10Z (UTC).
 
 [[LEITURA_DA_MESA]]
 
@@ -269,7 +269,6 @@ Por classe, mediana das taxas de referência dos papéis. Taxa de referência: n
 ## Lacunas e pendências
 
 - aluguel por corretora: ignorado
-- Forward: falhou: HTTP 0 em https://arquivos.b3.com.br/bdi/table/Forward/2026-11-23/2026-11-23/1/1000
 - cadastro de instrumentos: aguardando
 - RepurchaseDealings: ignorado
 - Publicadas pela B3 depois do prazo, mas com dado: AnalyticalFramework2.

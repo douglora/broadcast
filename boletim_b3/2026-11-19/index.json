@@ -1,6 +1,6 @@
 {
  "pregao": "2026-11-19",
- "coletado_em": "2026-11-24T21:28:40Z",
+ "coletado_em": "2026-11-25T00:51:47Z",
  "tabelas": {
   "SharesInvesVolum": {
    "titulo": "Participação dos investidores",
@@ -400,8 +400,7 @@
   }
  },
  "falhas": {
-  "InstrumentsConsolidated": "arquivo InstrumentsConsolidated: token HTTP 400",
-  "informativos": "HTTP 0 em https://arquivos.b3.com.br/bdi/table/classification/5e70f1f8-a8c9-4154-b368-4e56"
+  "InstrumentsConsolidated": "arquivo InstrumentsConsolidated: token HTTP 400"
  },
  "rf_cadastro": {
   "papeis_no_dia": 1505,

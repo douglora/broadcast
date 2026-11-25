@@ -1,5 +1,5 @@
 {
- "pregao": "2026-11-23",
+ "pregao": "2026-11-24",
  "nome": "Forward",
  "titulo": "Ações mais negociadas - a termo",
  "sla": "8:00:00",
@@ -7,13 +7,13 @@
  "colunas": [{"nome": "TckrSymb", "titulo": "Ação"}, {"nome": "Cod", "titulo": "Código"}, {"nome": "Term", "titulo": "Prazo"}, {"nome": "Closing", "titulo": ""}, {"nome": "TradQty", "titulo": ""}, {"nome": "VlmTradedDay", "titulo": "Volume (R$) mil"}, {"nome": "Part", "titulo": "Participação (%)"}],
  "texto": ["Lista ações com maior volume de negociação em contratos a termo, destacando as mais ativas."],
  "situacao": "publicado",
- "atualizado_em": "2026-11-23T18:51:07.003",
+ "atualizado_em": "2026-11-24T18:53:24.043",
  "truncada": false,
  "linhas": [
-  ["VALE        ON      NM", "ON      NM", 182, 62.68, 32000, 2005.76, 0.5184739561620549],
-  ["AXIA ENERGIAPNC     NM", "PNC     NM", 90, 47.39, 77766, 3685.3307400000003, 1.2599889273405738],
-  ["TENDA       ON      NM", "ON      NM", 74, 15.28, 150000, 2292, 2.430346669509632],
-  ["AXIA ENERGIAON      NM", "ON      NM", 90, 47.16, 689600, 32521.535999999996, 11.17311375529228],
-  ["ENERGISA    UNT     N2", "UNT     N2", 120, 50.65, 2679300, 135706.545, 43.410852210781044]
+  ["VALE        ON      NM", "ON      NM", 180, 59.38, 134800, 8004.424, 2.517175803442182],
+  ["ORIZON      ON      NM", "ON      NM", 34, 18.87, 350000, 6604.5, 6.535693851667386],
+  ["XPETFCHINA  CI", "CI", 120, 7.37, 504986, 3721.74682, 9.429811129651732],
+  ["ASSAI       ON      NM", "ON      NM", 90, 10.04, 559300, 5615.371999999999, 10.444038774964483],
+  ["MRV         ON      NM", "ON      NM", 180, 4.75, 1210400, 5749.4, 22.602296680166297]
  ]
 }
