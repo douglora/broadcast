@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 25/11 11h05
+NOTÍCIAS E FATOS · 25/11 12h05
 
-Pernas: noticias ok 0 novas (18 consultas; descartadas: 0 veículo fora da lista, 0 sem ativo, 0 teto); 18 falhas · cvm ok 0 novos de 11 (4 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 13 novas (18 consultas; descartadas: 427 veículo fora da lista, 22 sem ativo, 12 teto) · cvm ok 0 novos de 11 (4 cias casadas) · sec ok 0 novos em 3 dias
 
 ## SEC (8-K, 6-K, 10-Q, 10-K) (2)
 
@@ -47,7 +47,7 @@ Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir
 Ativos: CVX
 Como falar: 'saiu no Yahoo Finance: Chevron Pays a Bigger Dividend, but Exxon May Be the Better Retirement Stock; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 25/11 10h17
-id: E05-CVX-01945a3947-2026-11-25 · status: pendente
+id: E05-CVX-01945a3947-2026-11-25 · status: expirado
 
 [ATENÇÃO] E05 · USDBRL · Banco Central anuncia nova intervenção no câmbio. BC oferta até US$ 2 bilhões em leilões
 ADVFN · 25/11 08h48 · fonte única · licença: manchete
@@ -56,7 +56,7 @@ Por que importa: oferta de acoes ou divida altera a base acionaria ou a alavanca
 Ativos: USDBRL
 Como falar: 'saiu no ADVFN: Banco Central anuncia nova intervenção no câmbio. BC oferta até US$ 2 bilhões em leilões; confirmar o número no texto antes de repassar'
 Fonte: ADVFN 25/11 08h48
-id: E05-USDBRL-cc2276f8f7-2026-11-25 · status: pendente
+id: E05-USDBRL-cc2276f8f7-2026-11-25 · status: expirado
 
 [ATENÇÃO] E05 · GOOGL · Key facts: Alphabet capex $51.4B; Cloud revenue up 103%; Malaysia $15B
 TradingView (Reuters) · 25/11 05h00 · fonte única · licença: manchete
@@ -65,7 +65,7 @@ Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; 
 Ativos: GOOGL
 Como falar: 'saiu no TradingView (Reuters): Key facts: Alphabet capex $51.4B; Cloud revenue up 103%; Malaysia $15B; confirmar o número no texto antes de repassar'
 Fonte: TradingView (Reuters) 25/11 05h00
-id: E05-GOOGL-69640b2f97-2026-11-25 · status: pendente
+id: E05-GOOGL-69640b2f97-2026-11-25 · status: expirado
 
 [ATENÇÃO] E05 · BTC · BlackRock Says Markets Overprice Fed Hikes: Will Bitcoin Catch a Break?
 Yahoo Finance · 25/11 02h20 · fonte única · licença: resumo
@@ -134,8 +134,21 @@ Fonte: Suno Noticias 24/11 11h06
 id: E05-PETR4-594e6ec6b7-2026-11-24 · status: expirado
 
 
-## OUTRAS NOTÍCIAS (só manchete) (30)
+## OUTRAS NOTÍCIAS (só manchete) (43)
 
+· USDBRL Banco Central vende US$ 2 bilhões em leilão em meio à pressão sobre o dólar (Money Times) https://www.moneytimes.com.br/banco-central-vende-us-2-bilhoes-em-leilao-em-meio-a-pressao-sobre-o-dolar-mlem/
+· MU Nvidia, AMD, and Micron stocks sink as investors flee AI trade (Yahoo Finance) https://finance.yahoo.com/markets/article/nvidia-amd-micron-stocks-sink-as-investors-flee-ai-trade-134518921.html
+· BTC Bitcoin price tests $58K floor as $107M liquidated, ETFs bleed cash (Seeking Alpha) https://seekingalpha.com/news/4676534-bitcoin-price-tests-58k-floor-as-107m-liquidated-etfs-bleed-cash
+· PETR4 PETR4: Santander rebaixa ações da Petrobras para neutra com percepção maior de risco (InfoMoney) https://www.infomoney.com.br/mercados/petr4-santander-rebaixa-acoes-da-petrobras-para-neutra-com-percepcao-maior-de-risco/
+· BRENT Kazakhstan also seeks higher oil output capacity estimate ahead of 2027 OPEC+ quota debate, sources say (Reuters) https://www.reuters.com/business/energy/kazakhstan-also-seeks-higher-oil-output-capacity-estimate-ahead-2027-opec-quota-2026-11-25/
+· AMD Advanced Micro Devices (AMD) Expands Into Quantum AI Computing With Drug Discovery Focus (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/advanced-micro-devices-amd-expands-141319913.html
+· BBAS3 Banco do Brasil (BBAS3) esclarece à CVM sobre provisões do agro (Suno Noticias) https://www.suno.com.br/noticias/bbas3-banco-brasil-cvm-provisoes-agro-241126/
+· PLTR Palantir’s CEO Alex Karp Sold $75 Million. Co-Founder Peter Thiel Bought $122 Million (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/palantir-ceo-alex-karp-sold-135347013.html
+· JPM Unilever, BAT and Reckitt named among JPMorgan’s top picks for 2027 (Yahoo Finance) https://uk.finance.yahoo.com/news/unilever-bat-reckitt-named-among-133000173.html
+· GOOGL Is Google Services Still the Prime Earnings Engine for Alphabet Stock? (Yahoo Finance) https://ca.finance.yahoo.com/news/google-services-still-prime-earnings-130600190.html
+· BTC Bitcoin Is on Track for Its Second-Worst Q4 Ever, and One Signal Points to 2027 (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-track-second-worst-q4-130000366.html
+· AMD AMD Sees Server Revenues Doubling in 2027: Will the Momentum Last? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/amd-sees-server-revenues-doubling-125600843.html
+· NVDA Nvidia Stock Looks Like a Screaming Buy Below $160. Here's Why. (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/nvidia-stock-looks-screaming-buy-125002743.html
 · USDBRL Dólar passa a cair e Ibovespa sobe antes de dado de inflação preferido do Fed (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/ibovespa-hoje-acompanha-inflacao-preferida-do-fed-e-novas-projecoes-para-as-contas-publicas/
 · MU The Consensus on Micron Stock Is Changing. Here’s What Investors Should Know (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/consensus-micron-stock-changing-investors-131026330.html
 · NVDA Nvidia, chipmakers slide premarket; Dell falls despite upbeat outlook (Investing.com) https://www.investing.com/news/stock-market-news/nvidia-chipmakers-slide-premarket-dell-falls-despite-upbeat-outlook-5050581
