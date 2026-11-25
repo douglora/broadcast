@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 25/11 13h32
+NOTÍCIAS E FATOS · 25/11 14h05
 
-Pernas: noticias ok 17 novas (18 consultas; descartadas: 439 veículo fora da lista, 23 sem ativo, 11 teto) · cvm ok 0 novos de 11 (4 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 17 novas (18 consultas; descartadas: 432 veículo fora da lista, 28 sem ativo, 3 teto) · cvm ok 0 novos de 11 (4 cias casadas) · sec ok 0 novos em 3 dias
 
 ## SEC (8-K, 6-K, 10-Q, 10-K) (2)
 
@@ -31,7 +31,25 @@ Fonte: SEC EDGAR 2026-11-25
 id: E04-TSM-26000805-2026-11-25 · status: linha · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (11)
+## NOTÍCIAS COM MATERIALIDADE (13)
+
+[ATENÇÃO] E05 · AMD · AMD Stocks Plunge 9.74% as Chip Rout and Tariff Threat Collide
+TradingView (Reuters) · 25/11 12h49 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/gurufocus:83c0163b4094b:0-amd-stocks-plunge-9-74-as-chip-rout-and-tariff-threat-collide/
+Por que importa: tarifa ou sancao muda margem e acesso a mercado
+Ativos: AMD
+Como falar: 'saiu no TradingView (Reuters): AMD Stocks Plunge 9.74% as Chip Rout and Tariff Threat Collide; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 25/11 12h49
+id: E05-AMD-44bde78321-2026-11-25 · status: pendente
+
+[ATENÇÃO] E05 · TSM · TSMC Stocks Slide 6.65% as Taiwan Lands on US Tariff List
+TradingView (Reuters) · 25/11 12h33 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/gurufocus:097f16b74094b:0-tsmc-stocks-slide-6-65-as-taiwan-lands-on-us-tariff-list/
+Por que importa: tarifa ou sancao muda margem e acesso a mercado
+Ativos: TSM
+Como falar: 'saiu no TradingView (Reuters): TSMC Stocks Slide 6.65% as Taiwan Lands on US Tariff List; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 25/11 12h33
+id: E05-TSM-f0d061a21f-2026-11-25 · status: pendente
 
 [ATENÇÃO] E05 · BABA · Alibaba Q2 Earnings Call Details Cloud Outlook and Chip Plans
 Yahoo Finance · 25/11 11h00 · fonte única · licença: resumo
@@ -182,8 +200,23 @@ Fonte: Suno Noticias 24/11 11h06
 id: E05-PETR4-594e6ec6b7-2026-11-24 · status: expirado
 
 
-## OUTRAS NOTÍCIAS (só manchete) (57)
+## OUTRAS NOTÍCIAS (só manchete) (72)
 
+· BTC Hyperliquid's HYPE will join bitcoin, ether and more in Franklin Templeton's crypto ETF (The Block) https://www.theblock.co/news/markets/2026-11-25-franklin-templeton-ezpz-etf-adds-hyperliquid-hype-446686
+· NVDA Chip stocks tumble as Nvidia-led AI rally unravels, tariff fears weigh (Yahoo Finance) https://ca.finance.yahoo.com/news/chip-stocks-tumble-nvidia-led-164900978.html
+· PLTR Palantir: Already Off To A Strong 2027 (NASDAQ:PLTR) (Seeking Alpha) https://seekingalpha.com/article/4971949-palantir-already-off-to-a-strong-2027
+· JPM JPM: MGM CHINA Special Div. Announcement Modestly Positive Signal (TradingView (Reuters)) https://www.tradingview.com/news/moodys:2ec7720266a10:0-jpm-mgm-china-special-div-announcement-modestly-positive-signal/
+· USDBRL Ibovespa sobe e dólar cai com política fiscal no radar, na contramão do exterior (TradingView (Reuters)) https://br.tradingview.com/news/reuters.com,2026:newsml_L2N4760V7:0/
+· JPM REG - JPMorgan Emerging MD - Result of AGM (TradingView (Reuters)) https://www.tradingview.com/news/reuters.com,2026-11-25:newsml_RSY7004Ea:0-reg-jpmorgan-emerging-md-result-of-agm/
+· BTC Bitcoin wallet COLDCARD patches code after August hack (Yahoo Finance) https://finance.yahoo.com/video/bitcoin-wallet-coldcard-patches-code-163000292.html
+· JPM JPMorgan Says the Biggest Risk to Stocks in 2027 Is the Fed (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/jpmorgan-says-biggest-risk-stocks-162750501.html
+· LITE Innodata, Lumentum, Quantum Computing, and Xanadu Quantum Technologies stocks trade down, what you need to know (TradingView (Reuters)) https://www.tradingview.com/news/stockstory:96744dfff094b:0-innodata-lumentum-quantum-computing-and-xanadu-quantum-technologies-stocks-trade-down-what-you-need-to-know/
+· BTC Bitcoin Price Prediction for December 2026: What the Forecasts Say (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-price-prediction-december-2026-161709787.html
+· BTC Bitcoin Price Faces Alarming $58,000 Test as Selling Mounts (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:6a200a1d1094b:0-bitcoin-price-faces-alarming-58-000-test-as-selling-mounts/
+· JPM JPMorgan says the S&P 500 will rise to 8,200 next year because of the AI supercycle (CNBC) https://www.cnbc.com/2026/11/25/jpmorgan-sp-500-8200-2027-ai.html
+· UST Treasury Yields Extend Fall After U.S. Data Flurry (The Wall Street Journal) https://www.wsj.com/finance/investing/u-s-treasury-yields-fall-ahead-of-pce-inflation-data-dfeb7995
+· USDBRL Dólar cai a R$ 5,86 e Ibovespa sobe com expectativa por medidas fiscais; Nasdaq tomba mais de 4% (Estadao) https://news.google.com/rss/articles/CBMi5AFBVV95cUxPbXB5T05UWmg1TENfbl9xbUo0eWc0N1JveG9heERUb0xzekk2R0hVTDJ2bWI2YUFRN2RWazVMbTg1cm10a1phNnpqYlBLM2FHRzdJSWhmcHdLRU0yLXQzMFBCNWFna3V2LU9CRXVFTHJ0R3NLelhHTVFtSW1PYnFpd3R0TWlUS1E3RU5EZjJQZ1RGTWJqZF8xbWJGazQ0NEJveDN0X1pPR0ZVY2pJLXo3RXRjNmRQY1ZPN290b3lYNUFkVG5Vb0ZCV19GOFlwcXp0T3hnRklfYnNUZnZLNkh6dktkOGfSAeoBQVVfeXFMUDNJaFd2bVd4TFY0azl6TG1lZEw3Q1VkbFZsLWhVbk9wcy1UbmJQeXdFcnJKRUJSLWVCd3JiYlg3U2xiVHBqRkJfdldhRkpFbmpZS2lKY0ZwMk1NVFVkYnQ4QzA5VXJ3TjdiYXVGUmJ6eHRVOGRkNEFzZXp5dGVaNHhCNENzbll2RmdrXzRGdTMzU19XdDF3dUpLS29wSkdLd0I1bHdQUUFEcmVlTTJMakRnMW9nNXZOTk40M3ZGZGFRVU1IQUs3RTB0SjFQeGxrWUNzTGdRbnItbk9PNmVicER3b3pIT1Z3NTJB?oc=5
+· USDBRL Dólar avança com cautela fiscal e externa antes do PCE dos EUA (UOL Economia) https://news.google.com/rss/articles/CBMiywFBVV95cUxPM05UM0RPRlRqa01TZ3lTb0EtQ0doWmhLVmwwZXVPMUR4RWdFZTQ4Qk5fcDZmVktVWEt6ZUNRV0puc21KY096am43T0JxYUVlNHI2YU9EYVJIOHR3aVVGTnBkQUdhTnFnOTFjQmlJSlE4TlNjQWhuTzhOTTR1S2o3SmUtRGN0d19CNFJIVmE3WWVxUjZlREg4S3k5clhtQjJjb2pMV1k5TkMxSC1WdE1rTk5mc0JxaE13elFzMWlNclRjTkJkeEhYcWNKRQ?oc=5
 · PETR4 BTG avalia que Petrobras tem espaço para ampliar produção, mas queda do Brent pode apertar contas (Valor Economico) https://valor.globo.com/empresas/noticia/2026/11/25/btg-avalia-que-petrobras-tem-espao-para-ampliar-produo-mas-queda-do-brent-pode-apertar-contas.ghtml
 · BBAS3 BBAS3: Banco do Brasil esclarece à CVM sobre BB Seguridade (Suno Noticias) https://www.suno.com.br/noticias/bbas3-bb-esclarece-cvm-bb-seguridade/
 · NVDA Not a Bubble: 2 Numbers That Show Nvidia’s Demand Is Real (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/not-bubble-2-numbers-show-155002687.html
@@ -229,15 +262,4 @@ id: E05-PETR4-594e6ec6b7-2026-11-24 · status: expirado
 · ETH Ethereum Could Crash Below $500, Peter Brandt Warns – Why Another Analyst Still Sees A Bounce Toward $2,000 (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/ethereum-could-crash-below-500-031403042.html
 · NVDA Jensen Huang’s return steadies Nvidia, but China curbs, US scrutiny remain (South China Morning Post) https://www.scmp.com/tech/big-tech/article/3375632/jensen-huangs-return-steadies-nvidia-china-curbs-us-scrutiny-show-no-sign-easing
 · BABA Alibaba Group Holding Limited Notice of January 19, 2027 (GlobeNewswire) https://www.globenewswire.com/news-release/2026/11/25/3409965/6713/en/alibaba-group-holding-limited-notice-of-january-19-2027-application-deadline-for-class-action-lawsuit-contact-lewis-kahn-esq-at-kahn-swick-foti-llc-before-application-deadline.html
-· BTC CleanSpark weighs selling more Bitcoin than it mines to ‘de-risk’ books (TradingView (Reuters)) https://www.tradingview.com/news/cointelegraph:8283d2749094b:0-cleanspark-weighs-selling-more-bitcoin-than-it-mines-to-de-risk-books/
-· UGPA3 Com melhora do setor, venda de fatia da Ipiranga pela Ultrapar esfria (Estadao) https://www.estadao.com.br/amp/economia/coluna-da-broad/com-melhora-do-setor-venda-de-fatia-da-ipiranga-pela-ultrapar-esfria/
-· NVDA S&P 500, Nasdaq End Lower As AI Jitters Resurface With Nvidia’s Governance Issues And Talks Of Fresh Import Tariffs — NVDA, DELL, TSLA, TGTX In Focus (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/p-500-nasdaq-end-lower-001212497.html
-· USDBRL Dólar cai após aprovação do ajuste fiscal e expectativa de investidores sobre anúncio de novas medidas do governo para equilibrar contas (g1) https://g1.globo.com/google/amp/jornal-nacional/noticia/2026/11/24/dolar-cai-apos-aprovacao-do-ajuste-fiscal-e-expectativa-de-investidores-sobre-anuncio-de-novas-medidas-do-governo-para-equilibrar-contas.ghtml
-· USDBRL Expectativa de novo pacote fiscal melhora humor do mercado e dólar fecha em queda (O Globo) https://oglobo.globo.com/google/amp/blogs/miriam-leitao/post/2026/11/expectativa-de-novo-pacote-fiscal-melhora-humor-do-mercado-e-dolar-fecha-em-queda.ghtml
-· AMD Why AMD Stock Fell Today (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/why-amd-stock-fell-today-232502689.html
-· INTC Why Intel Stock Fell Today (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/why-intel-stock-fell-today-231601168.html
-· BBAS3 Banco do Brasil (BBAS3) nega decisão sobre IPOs de empresas do grupo após questionamento da CVM (Money Times) https://www.moneytimes.com.br/banco-do-brasil-bbas3-nega-decisao-sobre-ipos-de-empresas-do-grupo-apos-questionamento-da-cvm-rnda/
-· INTC Intel And 2 More AI Stocks To Watch (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/intel-2-more-ai-stocks-221918630.html
-· PETR4 Petrobras (PETR4) não quer depender da bonança do petróleo para investir — e CEO manda recado ao mercado (Seu Dinheiro) https://www.seudinheiro.com/2026/empresas/a-petrobras-petr4-nao-quer-depender-da-bonanca-do-petroleo-para-investir-o-recado-da-ceo-da-estatal-ao-mercado-bdap/
-· MRVL Marvell Technology (MRVL) Suffers a Larger Drop Than the General Market: Key Insights (Yahoo Finance) https://news.google.com/rss/articles/CBMikAFBVV95cUxQLVJpV2g3a1FVUVQxemVzc2xyWnJQX3NldmMySUl3RFNxaHNuR1dYOXlxNWFyaDV1OEZQVjJlNWtheHdjeFVqRVFyMU4wUTdybHpqX0NpVjBHZG44N1ZWdFZ5ZTJCYmRxTkhpT1F4T1NyR0RYOUlDc1h4cEJEZ3NKMXV6YXRWQnc5dGZsMlVaa2E?oc=5
-· USDBRL Ibovespa cai apesar de 'alívio' fiscal, Vale desaba 5,5% e dólar recua a R$ 5,91 (Exame) https://news.google.com/rss/articles/CBMia0FVX3lxTFAzdGp1U0pLeVRpX01WdUJLYlgtR25EbXFMc0tSWE9GT3lfZ2ZOWFNaX1ZzV0VrYVFaajFxaHg5RzNzdGMwTmpQUVg5Um93UVVqU1o4dTNEUUQ3cWNNUDdUVnZaLVl1dmxWYXNj?oc=5
+· (+12 manchetes; lista completa em eventos/noticias.json)
