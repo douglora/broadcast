@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 25/11 19h18
+NOTÍCIAS E FATOS · 25/11 19h57
 
-Pernas: noticias ok 15 novas (18 consultas; descartadas: 416 veículo fora da lista, 23 sem ativo, 2 teto) · cvm ok 1 novos de 12 (5 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 8 novas (18 consultas; descartadas: 422 veículo fora da lista, 26 sem ativo, 0 teto) · cvm ok 0 novos de 12 (5 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (1)
 
@@ -112,7 +112,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: NVDA
 Como falar: 'saiu no Reuters: Nvidia agrees to settle 2018 US investor class action for $290 million; confirmar o número no texto antes de repassar'
 Fonte: Reuters 25/11 14h36
-id: E05-NVDA-5b37f62a45-2026-11-25 · status: pendente
+id: E05-NVDA-5b37f62a45-2026-11-25 · status: expirado
 
 [ATENÇÃO] E05 · NVDA · Nvidia agrees to $290M settlement over crypto mining revenue disclosures
 TradingView (Reuters) · 25/11 14h19 · fonte única · licença: manchete
@@ -121,7 +121,7 @@ Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; 
 Ativos: NVDA
 Como falar: 'saiu no TradingView (Reuters): Nvidia agrees to $290M settlement over crypto mining revenue disclosures; confirmar o número no texto antes de repassar'
 Fonte: TradingView (Reuters) 25/11 14h19
-id: E05-NVDA-b7a242b7cb-2026-11-25 · status: pendente
+id: E05-NVDA-b7a242b7cb-2026-11-25 · status: expirado
 
 [ATENÇÃO] E05 · PETR4 · Petrobras eleva em 12% plano de investimentos entre 2027 e 2031, para US$ 122 bilhões
 Estadao · 25/11 12h54 · fonte única · licença: manchete
@@ -342,8 +342,16 @@ Fonte: Suno Noticias 24/11 11h06
 id: E05-PETR4-594e6ec6b7-2026-11-24 · status: expirado
 
 
-## OUTRAS NOTÍCIAS (só manchete) (121)
+## OUTRAS NOTÍCIAS (só manchete) (129)
 
+· SBSP3 Sabesp diz que ação coordenada dissemina informações falsas sobre a qualidade da água e aciona Justiça (Folha de S.Paulo) https://www1.folha.uol.com.br/cotidiano/2026/11/sabesp-diz-que-acao-coordenada-dissemina-informacoes-falsas-sobre-a-qualidade-da-agua-e-aciona-justica.shtml
+· BTC How Much of Your Portfolio Should Be in Bitcoin After a 50% Drop? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/much-portfolio-bitcoin-50-drop-221448060.html
+· NVDA Moody's Nvidia's CEO Reinstatement Restores Strategic Continuity But Leaves Some Governance Questions Unresolved Rating And Outlook Are Unchanged (TradingView (Reuters)) https://www.tradingview.com/news/reuters.com,2026:newsml_FWN4762F2:0-moody-s-nvidia-s-ceo-reinstatement-restores-strategic-continuity-but-leaves-some-governance-questions-unresolved-rating-and-outlook-are-unchanged/
+· AMD Prediction: AMD Stock Could Rally 58% as Analysts Maintain Strong Buy Rating (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/prediction-amd-stock-could-rally-213100517.html
+· PETR4 A Petrobras já perdeu dinheiro no etanol de cana. Agora vai tentar o milho (Brazil Journal) https://braziljournal.com/a-petrobras-ja-perdeu-dinheiro-no-etanol-de-cana-agora-vai-tentar-o-milho
+· ITUB4 Tesouro IPCA+, Treasurys e S&P 500: Itaú dobra a aposta no exterior e reduz o peso do Brasil nas carteiras para 2027 (Seu Dinheiro) https://www.seudinheiro.com/2026/bolsa-dolar/tesouro-ipca-treasurys-e-sp-500-itau-dobra-a-aposta-no-exterior-para-2027-mlim/
+· BTC Michael Saylor reveals a Bitcoin plan that could shock investors (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/michael-saylor-reveals-bitcoin-plan-180000909.html
+· JPM JPMorgan Sees S&P 500 At 8,200 In 2027 As AI Supercycle Remains Intact (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:4fdd48e75094b:0-jpmorgan-sees-s-p-500-at-8-200-in-2027-as-ai-supercycle-remains-intact/
 · USDBRL Dólar cai para R$ 5,81, em meio à discussão de nomes para Fazenda (Agencia Brasil) https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/dolar-cai-para-r-581-em-meio-discussao-de-nomes-para-fazenda
 · SMAL11 Quais small caps da Bolsa combinam alta rentabilidade e baixa dívida? (Estadao) https://www.estadao.com.br/einvestidor/einar-rivero/quais-small-caps-da-bolsa-combinam-alta-rentabilidade-e-baixa-divida/
 · USDBRL Dólar cai 1,58% a R$ 5,817 com leilões do BC e ajuste fiscal (Poder360) https://www.poder360.com.br/poder-economia/dolar-cai-158-a-r-5817-com-leiloes-do-bc-e-ajuste-fiscal/
@@ -396,12 +404,4 @@ id: E05-PETR4-594e6ec6b7-2026-11-24 · status: expirado
 · BTC Hyperliquid's HYPE will join bitcoin, ether and more in Franklin Templeton's crypto ETF (The Block) https://www.theblock.co/news/markets/2026-11-25-franklin-templeton-ezpz-etf-adds-hyperliquid-hype-446686
 · NVDA Chip stocks tumble as Nvidia-led AI rally unravels, tariff fears weigh (Yahoo Finance) https://ca.finance.yahoo.com/news/chip-stocks-tumble-nvidia-led-164900978.html
 · PLTR Palantir: Already Off To A Strong 2027 (NASDAQ:PLTR) (Seeking Alpha) https://seekingalpha.com/article/4971949-palantir-already-off-to-a-strong-2027
-· JPM JPM: MGM CHINA Special Div. Announcement Modestly Positive Signal (TradingView (Reuters)) https://www.tradingview.com/news/moodys:2ec7720266a10:0-jpm-mgm-china-special-div-announcement-modestly-positive-signal/
-· USDBRL Ibovespa sobe e dólar cai com política fiscal no radar, na contramão do exterior (TradingView (Reuters)) https://br.tradingview.com/news/reuters.com,2026:newsml_L2N4760V7:0/
-· JPM REG - JPMorgan Emerging MD - Result of AGM (TradingView (Reuters)) https://www.tradingview.com/news/reuters.com,2026-11-25:newsml_RSY7004Ea:0-reg-jpmorgan-emerging-md-result-of-agm/
-· BTC Bitcoin wallet COLDCARD patches code after August hack (Yahoo Finance) https://finance.yahoo.com/video/bitcoin-wallet-coldcard-patches-code-163000292.html
-· JPM JPMorgan Says the Biggest Risk to Stocks in 2027 Is the Fed (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/jpmorgan-says-biggest-risk-stocks-162750501.html
-· LITE Innodata, Lumentum, Quantum Computing, and Xanadu Quantum Technologies stocks trade down, what you need to know (TradingView (Reuters)) https://www.tradingview.com/news/stockstory:96744dfff094b:0-innodata-lumentum-quantum-computing-and-xanadu-quantum-technologies-stocks-trade-down-what-you-need-to-know/
-· BTC Bitcoin Price Prediction for December 2026: What the Forecasts Say (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-price-prediction-december-2026-161709787.html
-· BTC Bitcoin Price Faces Alarming $58,000 Test as Selling Mounts (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:6a200a1d1094b:0-bitcoin-price-faces-alarming-58-000-test-as-selling-mounts/
-· (+61 manchetes; lista completa em eventos/noticias.json)
+· (+69 manchetes; lista completa em eventos/noticias.json)
