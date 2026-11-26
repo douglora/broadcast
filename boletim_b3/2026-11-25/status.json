@@ -1,22 +1,22 @@
 {
  "pregao": "2026-11-25",
- "situacao": "publicando",
- "errata": false,
- "atualizado_em": "2026-11-26T05:47:59.23",
+ "situacao": "publicado",
+ "errata": true,
+ "atualizado_em": "2026-11-26T08:04:11",
  "completo": {
-  "arquivo": "",
-  "pdf": ""
+  "arquivo": "BDI_00_20261125.pdf",
+  "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-11-25/BDI_00_20261125.pdf"
  },
  "cadernos": [
   {
    "id": 1,
    "nome": "Renda fixa",
    "pai": null,
-   "situacao": "publicando",
+   "situacao": "publicado",
    "errata": false,
-   "atualizado_em": "2026-11-26T02:22:42.37",
-   "arquivo": "",
-   "pdf": ""
+   "atualizado_em": "2026-11-26T08:16:27.527",
+   "arquivo": "BDI_01_20261125.pdf",
+   "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-11-25/BDI_01_20261125.pdf"
   },
   {
    "id": 20,
@@ -43,8 +43,8 @@
    "nome": "Indicadores e informativos",
    "pai": 20,
    "situacao": "republicado",
-   "errata": false,
-   "atualizado_em": "2026-11-26T05:50:38.1",
+   "errata": true,
+   "atualizado_em": "2026-11-26T08:45:54.45",
    "arquivo": "BDI_02_20261125.pdf",
    "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-11-25/BDI_02_20261125.pdf"
   },
@@ -82,11 +82,11 @@
    "id": 34,
    "nome": "Derivativos de bolsa",
    "pai": 3,
-   "situacao": "atrasado",
+   "situacao": "publicado",
    "errata": false,
-   "atualizado_em": "2026-11-26T02:23:35.62",
-   "arquivo": "",
-   "pdf": ""
+   "atualizado_em": "2026-11-26T07:55:38.127",
+   "arquivo": "BDI_03-4_20261125.pdf",
+   "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-11-25/BDI_03-4_20261125.pdf"
   },
   {
    "id": 41,
