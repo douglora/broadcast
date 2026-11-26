@@ -1,13 +1,13 @@
 ```
 VARIAÇÃO %       últ  dia   1s   1m  YTD
 UCITS (USD)
-VWRA   Mundo  174,00 -2,0 -4,0 -8,5 +2,0
-CSPX   S&P500 756,28 -2,2 -4,3 -8,7 +2,4
-CNDX   Nasdaq  1.442 -3,6 -7,0  -14 -1,8
-VHYA   AltDiv 101,86 -0,8 -2,2 -4,4 +9,9
-WUTI   Utilit  69,68 -0,1 -0,4 +1,3 +5,3
-RBOT   Robot   17,11 -3,8 -7,8  -19 +4,9
-IUAA   RF EUA   5,72 +0,5 +1,5 +1,1 -0,5
+VWRA   Mundo  179,38 +3,1 -0,9 -6,2 +5,1
+CSPX   S&P500 781,29 +3,3 -1,0 -6,3 +5,8
+CNDX   Nasdaq  1.506 +4,5 -3,6  -12 +2,6
+VHYA   AltDiv 103,96 +2,1 +0,9 -2,7  +12
+WUTI   Utilit  70,14 +0,7 +1,5 +1,9 +6,0
+RBOT   Robot   17,99 +5,1 -3,1  -17  +10
+IUAA   RF EUA   5,72  0,0 +1,4 +1,0 -0,5
 IB01   T-bill 122,78  0,0 +0,1 +0,4 +3,3
 ETFs EUA (USD)
 SPY    S&P 50 716,70 -0,3 -1,8 -6,4 +5,9
@@ -19,9 +19,9 @@ VGT    Tech V 102,56 -0,7 -4,2  -15 +9,2
 IGV    Softwa  95,02 -0,3 -2,0  -15  -10
 BOTZ   Roboti  29,23 -0,8 -1,6  -12  -19
 Temáticos: quântica e metais (USD)
-QNTM   Quantu  20,67 -2,6 -7,7  -20  -18
-QANT   Quantu   4,43 -2,7 -7,1  -21  -12
-WQTM   Quantu  24,66 -3,9  -11  -24  -18
+QNTM   Quantu  21,61 +4,6 -3,5  -19  -14
+QANT   Quantu   4,64 +4,8 -2,7  -18 -8,2
+WQTM   Quantu  26,32 +6,7 -5,7  -21  -12
 WQTMUS Quantu  22,08 +0,4 -5,6  -20  -15
 QTUM   Quantu 116,03 -0,1 -5,6  -16 +6,5
 REMX   Terras  43,80 +0,2 -3,3  -15  -41
@@ -55,31 +55,31 @@ Hipótese (ETF país, a confirmar)
 EWY    Coreia 129,19 -1,2 -5,5  -15  +33
 MCHI   China   46,43 -0,4 -2,8 -5,5  -22
 BR (R$)
-EQTL3  Equatr  34,87 +3,9 +3,6 +0,1 -9,4
-SAPR4  Sanepa   6,69 +0,6 +0,6 -1,6  -13
-KLBN4  Klabin   3,34 +1,5 -2,1 -9,7  -11
-ALUP4  Alupar  11,03 +4,7 +6,4 +5,2  +11
-ITUB4  Itau    40,01 +0,7 -0,4 -4,0 +4,3
-BBDC4  Brades  14,19 +4,2 +0,8  -11  -17
-PETR4  Petro   41,36 +2,0 -4,2  -23  +43
-VALE3  Vale    56,90 +3,1 -3,6  -12  -19
-MELI34 MeLi    70,95 +0,2 +2,4 -4,7  -23
-UGPA3  Ultra   30,84 +2,1 +0,8 -9,6  +57
-AXIA3  Axia    46,16 +1,0 -0,3 -9,1 -8,8
-ITSA4  Itausa  13,09 +1,2 -0,5 -2,2  +15
-BBAS3  BB      14,69 +3,6 +4,0  -16  -31
-SBSP3  Sabesp  28,48 +2,2 +3,8  +16  +11
-SMAL11 SmallC 100,55 +2,8 +2,4 +1,8  -11
-RARA11 Terras  11,34 -1,5 -4,7 -9,1    -
-DIRR3  Direc    9,33 +3,1 +4,5 +6,3  -34
-MRVE3  MRV      4,62 +6,5 -3,1 -2,3  -41
-CURY3  Cury    26,39 +4,3 +4,3 -0,3  -12
+EQTL3  Equatr  37,73 +8,2  +15 +6,9 -2,0
+SAPR4  Sanepa   6,95 +3,9 +5,0 +4,5 -9,9
+KLBN4  Klabin   3,41 +2,1 +2,1 -7,6 -9,3
+ALUP4  Alupar  11,28 +1,6 +7,9 +7,0  +14
+ITUB4  Itau    42,56 +6,4 +6,2 +3,4  +11
+BBDC4  Brades  15,83  +12  +14 +0,8 -7,3
+PETR4  Petro   43,19 +4,4 +1,2  -18  +49
+VALE3  Vale    58,73 +3,2 +0,4 -6,8  -16
+MELI34 MeLi    72,00 +1,5 +7,0 -3,5  -22
+UGPA3  Ultra   32,92 +6,7 +8,4 -0,7  +67
+AXIA3  Axia    48,77 +5,7 +6,0 -4,1 -3,6
+ITSA4  Itausa  13,99 +6,9 +6,2 +5,0  +23
+BBAS3  BB      16,54  +13  +16 -4,8  -23
+SBSP3  Sabesp  30,35 +6,6  +11  +22  +18
+SMAL11 SmallC 108,00 +7,4  +11 +9,0 -4,0
+RARA11 Terras  11,52 +1,6 -2,0  -11    -
+DIRR3  Direc    9,93 +6,4  +14 +7,4  -30
+MRVE3  MRV      5,33  +15  +16  +20  -32
+CURY3  Cury    28,42 +7,7  +14 +3,7 -5,2
 Macro
-USDBRL USD/BR 5,8151 -1,6 -0,8 +7,7 +6,2
-DXY    DXY    103,67 -0,1 -0,2 +1,7 +5,5
-BRENT  Brent   94,61 +3,5 +2,9  -15  +55
-BTC    BTC    60.024 +0,5 -4,7  -25  -31
-ETH    ETH     1.685 +0,4 -5,0  -27  -43
+USDBRL USD/BR 5,7424 -1,3 -3,2 +7,4 +4,9
+DXY    DXY    103,78 +0,1 -0,1 +1,4 +5,6
+BRENT  Brent   96,12 +1,6 +4,5  -12  +58
+BTC*   BTC    60.549 +0,3 -2,2  -25  -31
+ETH*   ETH     1.695 +0,3 -3,4  -28  -43
 MINER* Mineri  90,64  0,0 -0,1 -0,2  -15
 ```
 UCITS por extenso: VWRA Vanguard FTSE All-World

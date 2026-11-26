@@ -1,8 +1,24 @@
-NOTÍCIAS E FATOS · 26/11 19h13
+NOTÍCIAS E FATOS · 26/11 19h45
 
-Pernas: noticias ok 15 novas (18 consultas; descartadas: 420 veículo fora da lista, 46 sem ativo, 6 teto) · cvm ok 1 novos de 14 (6 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 5 novas (18 consultas; descartadas: 410 veículo fora da lista, 46 sem ativo, 0 teto) · cvm ok 2 novos de 16 (7 cias casadas) · sec ok 0 novos em 3 dias
 
-## FATOS RELEVANTES E COMUNICADOS (CVM) (2)
+## FATOS RELEVANTES E COMUNICADOS (CVM) (4)
+
+[ATENÇÃO] E03 · AXIA3 · Fato Relevante: O seu Conselho de Administração aprovou, nesta data, o resgate de 129.982.668 ações preferenciais classe “C” (“PNC”), equivalente a R$ 6,0 bilhões e…
+CVM · entregue 26/11/2026 19:15
+Do documento:
+  – Os principais termos e condições da operação são os seguintes:  • Data de corte da B3: 30 de novembro de 2026.
+  – • Data ex-direitos: a partir de 01 de dezembro de 2026 as ações PNC passarão a ser negociadas ex- direitos.
+  – • Valor total do resgate: R$ 6,0 bilhões.
+  – • Valor do resgate da ação PNC: R$ 46,16 por ação, correspondente a cotação de fechamento das  ações ordinárias de emissão da Companhia no pregão do dia 25 de novembro de 2026.
+  – • Tratamento tributário para investidores não residentes: informações sobre o tratamento tributário  aplicável ao resgate, em especial para investidores não residentes (“INRs”), encontram-se detalhadas no  Aviso aos Aci…
+  – O período para  manifestação será de 03 a 07 de dezembro de 2026 inclusive.
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1594260
+Por que importa: fato relevante e o que a propria companhia julga capaz de mover o preco; ler o documento inteiro antes de comentar
+Ativos: AXIA3
+Como falar: 'a Axia Energia publicou fato relevante sobre O seu Conselho de Administração aprovou, nesta data, o resgate de 129…'
+Fonte: CVM 26/11
+id: E03-AXIA3-1594260-2026-11-26 · status: pendente · íntegra disponível
 
 [ATENÇÃO] E03 · SBSP3 · Fato Relevante: A Companhia de Saneamento Básico do Estado de São Paulo – Sabesp (“Companhia”), em atendimento às disposições da Resolução da Comissão de Valores Mob…
 CVM · entregue 26/11/2026 18:00
@@ -14,6 +30,15 @@ Ativos: SBSP3
 Como falar: 'a Sabesp publicou fato relevante sobre A Companhia de Saneamento Básico do Estado de São Paulo – Sabesp (“Co…'
 Fonte: CVM 26/11
 id: E03-SBSP3-1594223-2026-11-26 · status: pendente · íntegra disponível
+
+[INFO] E03 · AXIA3 · Aviso aos Acionistas: Outros avisos
+CVM · entregue 26/11/2026 19:18 · Outros avisos
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1594264
+Por que importa: aviso aos acionistas traz provento, data-com ou evento societario que muda o fluxo ao acionista
+Ativos: AXIA3
+Como falar: 'a Axia Energia publicou aviso aos acionistas sobre Outros avisos'
+Fonte: CVM 26/11
+id: E03-AXIA3-1594264-2026-11-26 · status: linha
 
 [INFO] E03 · BBAS3 · Comunicado ao Mercado: Apresentações a analistas/agentes do mercado
 CVM · entregue 26/11/2026 14:31 · Apresentações a analistas/agentes do mercado
@@ -96,8 +121,13 @@ Fonte: CNN Brasil 25/11 21h05
 id: E05-PETR4-fd098a6e7e-2026-11-26 · status: expirado
 
 
-## OUTRAS NOTÍCIAS (só manchete) (124)
+## OUTRAS NOTÍCIAS (só manchete) (129)
 
+· BBDC4 Trabuco, do Bradesco (BBDC4), aceita convite de Lula para a Fazenda (Suno Noticias) https://www.suno.com.br/noticias/trabuco-bradesco-bbdc4-ministerio-fazenda-lula/
+· AVGO Goldman Sachs resets Broadcom's 12-month price target before earnings (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/goldman-sachs-resets-broadcoms-12-193315984.html
+· PETR4 Petrobras paralisa plataforma P-77 em Búzios após raio causar princípio de incêndio (InfoMoney) https://www.infomoney.com.br/mercados/petrobras-paralisa-plataforma-p-77-em-buzios-apos-raio-causar-principio-de-incendio/
+· BBAS3 BBAS3: Banco do Brasil não vai quebrar! (Investing.com) https://br.investing.com/analysis/bbas3-banco-do-brasil-nao-vai-quebrar-200480954
+· BABA Don’t Give Up on Alibaba (BABA) Stock Just Yet: The Math May Be More Compelling Than You Think (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/don-t-alibaba-baba-stock-160003539.html
 · BTC A 30% Bitcoin crash hasn't shaken this asset manager's $1.6 million call (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/30-bitcoin-crash-hasnt-shaken-220000017.html
 · USDBRL Ibovespa dispara 6% e dólar cai com expectativa de Trabuco no Ministério da Fazenda (g1) https://g1.globo.com/economia/noticia/2026/11/26/trabuco-ibovespa-fazenda-dolar.ghtml
 · USDBRL Dólar cai pelo quarto pregão seguido com "efeito Trabuco" (UOL Economia) https://economia.uol.com.br/noticias/estadao-conteudo/2026/11/26/dolar-cai-pelo-quarto-pregao-seguido-com-efeito-trabuco.htm
@@ -153,9 +183,4 @@ id: E05-PETR4-fd098a6e7e-2026-11-26 · status: expirado
 · USDBRL Ibovespa sobe mais de 4% e dólar recua a R$ 5,71 com otimismo no mercado (Money Times) https://www.moneytimes.com.br/ibovespa-dispara-mais-de-4-e-dolar-recua-a-r-571-o-que-anima-o-mercado-hoje-davs/
 · KO Diluted earnings per share (diluted EPS) of Coca-Cola Company – GPW:COLA_C (TradingView (Reuters)) https://www.tradingview.com/symbols/GPW-COLA_C/financials-income-statement/earnings-per-share-diluted/
 · JPM JPMorgan Rethinks UK Investments: Will Higher Taxes Hurt Growth? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/jpmorgan-rethinks-uk-investments-higher-140500776.html
-· NOK Nokia: AI Growth Is Accelerating While The Valuation Becomes Attractive (Rating Upgrade) (Seeking Alpha) https://seekingalpha.com/article/4972160-nokia-ai-growth-is-accelerating-while-the-valuation-becomes-attractive-upgrade
-· NVDA Jensen Huang's Bank of Nvidia Dilemma Is Still Looming Large (Bloomberg) https://www.bloomberg.com/opinion/articles/2026-11-26/jensen-huang-s-bank-of-nvidia-dilemma-is-still-looming-large
-· BABA Could Alibaba Actually Climb 87%? Or Is Jefferies Totally Wrong? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/could-alibaba-actually-climb-87-045814800.html
-· KO Here’s How Many Coca-Cola Shares It Takes to Earn $1,300 Every Quarter in Dividends (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/many-coca-cola-shares-takes-234802485.html
-· BABA How Export Blacklisting Will Impact Alibaba Stock Investors (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/export-blacklisting-impact-alibaba-stock-220853461.html
-· (+64 manchetes; lista completa em eventos/noticias.json)
+· (+69 manchetes; lista completa em eventos/noticias.json)
