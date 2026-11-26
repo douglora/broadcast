@@ -1,111 +1,70 @@
 ALERTAS · intradia
 
-(pendente de slot anterior) [ATENÇÃO] E05 · ITUB4 · Quando Itaú (ITUB4) paga dividendos? Confira o calendário
-Suno Noticias · 25/11 15h01 · fonte única · licença: resumo
+(pendente de slot anterior) [ATENÇÃO] E05 · PETR4 · Santander rebaixa Petrobras a neutra e reduz preço-alvo de ação ordinária
+CNN Brasil · 25/11 21h05 · fonte única · licença: resumo
 Trechos (licença resumo: reescrever, não colar):
-  – Negócios Quando Itaú (ITUB4) paga dividendos?
-  – Confira o calendário Quem tem ações do Itaú Unibanco (ITUB4) já pode marcar no calendário a próxima remessa de proventos do banco.
-  – O pagamento mensal referente a dezembro tem crédito previsto para 4 de janeiro de 2027 no Brasil.
-  – Assim, o provento de dezembro pertence ao exercício de 2026, mas só cai na conta em janeiro.
-  – O valor de referência dessa distribuição é de R$ 0,015 líquido por ação.
-  – Como o pagamento é feito na forma de juros sobre capital próprio (JCP), o montante bruto é de R$ 0,01765, já que há retenção de Imposto de Renda na fonte.
-Link: https://www.suno.com.br/noticias/itau-unibanco-itub4-dividendos-calendario-241126/
-Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
-Ativos: ITUB4
-Como falar: 'saiu no Suno Noticias: Quando Itaú (ITUB4) paga dividendos? Confira o calendário; confirmar o número no texto antes de repassar'
-Fonte: Suno Noticias 25/11 15h01
-ids: E05-ITUB4-41f21b4d7f-2026-11-25
-
-(pendente de slot anterior) [ATENÇÃO] E05 · PETR4 · Santander rebaixa Petrobras para neutra e reduz preço-alvo após aumento de riscos no plano de negócios
-ADVFN · 25/11 14h10 · fonte única · licença: manchete
-Link: https://br.advfn.com/jornal/2026/11/santander-rebaixa-petrobras-para-neutra-e-reduz-preco-alvo-apos-aumento-de-riscos-no-plano-de-negocios
+  – O Santander rebaixou a recomendação para as ações da Petrobras de outperform (compra) para neutra e reduziu o preço-alvo para o final de 2027 do papel ordinário de R$ 60 para R$ 54,10, o que implica alta de 16,82% ante…
+  – Para os ADRs (American Depositary Receipts), o preço-alvo passou de US$ 24 para US$ 18,35 (+17,10% ante o último fechamento).
+  – Segundo o banco, embora o novo Plano de Negócios 2027-31 indique produção mais robusta, ele também eleva a percepção de risco.
+  – Há ainda incerteza sobre a manutenção da política de preços de combustíveis, que pode ser revista em breve, além de dúvidas quanto ao imposto de 12% sobre exportação de petróleo e a eventuais subsídios aos combustíveis.
+  – O Santander calcula yield ordinário de dividendos em torno de 9% para 2027, assumindo Brent a US$ 80 o barril.
+  – Na avaliação do banco, esse nível não compensa os riscos adicionais, sobretudo porque grandes petroleiras globais oferecem retorno médio de cerca de 8% aos acionistas com menor risco de alocação de capital.
+Link: https://www.cnnbrasil.com.br/economia/money/mercado/santander-rebaixa-petrobras-de-compra-para-neutra-e-corta-preco-alvo-da-acao-on-para-r-5410/
 Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
 Ativos: PETR4
-Como falar: 'saiu no ADVFN: Santander rebaixa Petrobras para neutra e reduz preço-alvo após aumento de riscos no plan…; confirmar o número no texto antes de repassar'
-Fonte: ADVFN 25/11 14h10
-ids: E05-PETR4-db88d9258f-2026-11-25
+Como falar: 'saiu no CNN Brasil: Santander rebaixa Petrobras a neutra e reduz preço-alvo de ação ordinária; confirmar o número no texto antes de repassar'
+Fonte: CNN Brasil 25/11 21h05
+ids: E05-PETR4-fd098a6e7e-2026-11-26
 
-(pendente de slot anterior) [ATENÇÃO] E05 · AMZN · Amazon Stocks Fall 4.26% as $215 Billion Capex Run Rate Meets AI Doubts
-TradingView (Reuters) · 25/11 12h41 · fonte única · licença: manchete
-Link: https://www.tradingview.com/news/gurufocus:eccdca4a2094b:0-amazon-stocks-fall-4-26-as-215-billion-capex-run-rate-meets-ai-doubts/
-Por que importa: decisao de politica monetaria reprecifica toda a curva e o cambio
-Ativos: AMZN
-Como falar: 'saiu no TradingView (Reuters): Amazon Stocks Fall 4.26% as $215 Billion Capex Run Rate Meets AI Doubts; confirmar o número no texto antes de repassar'
-Fonte: TradingView (Reuters) 25/11 12h41
-ids: E05-AMZN-233b96244c-2026-11-25
+(pendente de slot anterior) [INFO] M01 · Agenda: Thanksgiving: NYSE fechada (27/11 meio pregao) hoje (26/11)
+O que está no preço: F28 14,29% · F35 15,08% · Focus IPCA 2027 5,12%
+Por que importa: evento macro de alta relevância reprecifica a curva inteira; o que importa é a surpresa contra o que está no preço
+Ativos: UST · DXY · UCITS
+Como falar: 'Thanksgiving: NYSE fechada sai hoje; o mercado já precifica o consenso, a reação vem da surpresa'
+Fonte: config/calendario.yaml
+ids: M01-MACRO-D0_2611-2026-11-26
 
-(pendente de slot anterior) [ATENÇÃO] E05 · PETR4 · Petrobras eleva em 12% plano de investimentos entre 2027 e 2031, para US$ 122 bilhões
-Estadao · 25/11 12h54 · fonte única · licença: manchete
-Link: https://www.estadao.com.br/em-alta/economia/negocios/petrobras-anuncia-plano-de-investimento-de-us-122-bilhoes-entre-2027-e-2031/
-Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
-Ativos: PETR4
-Como falar: 'saiu no Estadao: Petrobras eleva em 12% plano de investimentos entre 2027 e 2031, para US$ 122 bilhões; confirmar o número no texto antes de repassar'
-Fonte: Estadao 25/11 12h54
-ids: E05-PETR4-bb6b4ccb70-2026-11-25
-
-(pendente de slot anterior) [ATENÇÃO] E05 · BABA · Alibaba Q2 Earnings Call Details Cloud Outlook and Chip Plans
-TradingView (Reuters) · 25/11 11h00 · fonte única · licença: manchete
-Link: https://www.tradingview.com/news/zacks:42681c4c2094b:0-alibaba-q2-earnings-call-details-cloud-outlook-and-chip-plans/
-Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
-Ativos: BABA
-Como falar: 'saiu no TradingView (Reuters): Alibaba Q2 Earnings Call Details Cloud Outlook and Chip Plans; confirmar o número no texto antes de repassar'
-Fonte: TradingView (Reuters) 25/11 11h00
-ids: E05-BABA-7adb3bae38-2026-11-25
-
-[ATENÇÃO] E05 · NVDA · Nvidia agrees to settle 2018 US investor class action for $290 million
-Reuters · 25/11 14h36 · fonte única · licença: manchete
-Link: https://www.reuters.com/legal/government/nvidia-agrees-settle-2018-us-investor-class-action-for-290-million-2026-11-25/
+(pendente de slot anterior) [ATENÇÃO] E05 · NVDA · Top Analyst Flags 5 Major Risks for NVDA Stock, Says Nvidia Could Stay in ‘Penalty Box’ for 1-2 Quarters: ‘Jensen Return Honeymoon Lasted About a Day’
+TradingView (Reuters) · 26/11 04h43 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/benzinga:842df53bc094b:0-top-analyst-flags-5-major-risks-for-nvda-stock-says-nvidia-could-stay-in-penalty-box-for-1-2-quarters-jensen-return-honeymoon-lasted-about-a-day/
 Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
 Ativos: NVDA
-Como falar: 'saiu no Reuters: Nvidia agrees to settle 2018 US investor class action for $290 million; confirmar o número no texto antes de repassar'
-Fonte: Reuters 25/11 14h36
-Push: intradia: 2 alertas de atenção — E05 NVDA, E05 NVDA · detalhe na sessão
-ids: E05-NVDA-5b37f62a45-2026-11-25
+Como falar: 'saiu no TradingView (Reuters): Top Analyst Flags 5 Major Risks for NVDA Stock, Says Nvidia Could Stay in ‘Penalty Box’ f…; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 26/11 04h43
+ids: E05-NVDA-fefff1cd96-2026-11-26
 
-[ATENÇÃO] E05 · NVDA · Nvidia agrees to $290M settlement over crypto mining revenue disclosures
-TradingView (Reuters) · 25/11 14h19 · fonte única · licença: manchete
-Link: https://www.tradingview.com/news/cointelegraph:a5d0a6786094b:0-nvidia-agrees-to-290m-settlement-over-crypto-mining-revenue-disclosures/
-Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+(pendente de slot anterior) [ATENÇÃO] E05 · NVDA · Nvidia's Aa1 rating, stable outlook unchanged after Huang's return: Moody's (NVDA:NASDAQ)
+Seeking Alpha · 26/11 03h01 · fonte única · licença: manchete
+Link: https://seekingalpha.com/news/4676735-nvidias-aa1-rating-stable-outlook-unchanged-after-huangs-return-moodys
+Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
 Ativos: NVDA
-Como falar: 'saiu no TradingView (Reuters): Nvidia agrees to $290M settlement over crypto mining revenue disclosures; confirmar o número no texto antes de repassar'
-Fonte: TradingView (Reuters) 25/11 14h19
-ids: E05-NVDA-b7a242b7cb-2026-11-25
+Como falar: 'saiu no Seeking Alpha: Nvidia's Aa1 rating, stable outlook unchanged after Huang's return: Moody's (NVDA:NASDAQ); confirmar o número no texto antes de repassar'
+Fonte: Seeking Alpha 26/11 03h01
+ids: E05-NVDA-d3ed239b92-2026-11-26
 
 Info (só linha no Fechamento):
-· E05 USDBRL · Dólar cai 1,58% com expectativa fiscal e rumores sobre Trabuco na Fazenda
-· E05 PLTR · Goldman Sachs bets on Palantir's 'mega customers' after NYC demo
-· E05 USDBRL · Dólar fecha em baixa, aos R$ 5,81, com avaliação de novas medidas fiscais e cenário externo
-· E05 BTC · Bitcoin Miners Hammered Again as Price Rout Squeezes Margins
-· E05 MU · Micron, Sandisk lead technology stocks with attractive valuations after Q3 earnings
-· E05 USDBRL · Ibovespa registra forte alta de mais de 1% com alívo no dólar e juros futuros
-· E05 NVDA · S&P puts NVIDIA on CreditWatch over governance concerns
-· E05 BAC · Salesforce earnings to put Bank of America’s growth outlook to the test
-· E05 BTC · Is the Anthropic IPO to Blame for Bitcoin's Recent Downturn? The Answer Might Surprise You.
-· E05 MU · Micron Technology (MU) Dropped, So What Is Drawing Attention Now?
-· E05 PETR4 · Dólar fecha em queda, mas fica acima de R$ 5,91; Ibovespa cai com tombo da Vale e da Petrobras
+· F01 Real sobe: USD/BRL 5,7706 (cruzou R$ 5,80) (parcial, intradia)
+· E05 USDBRL · Dólar cai a R$ 5,75 com feriado nos EUA e "prévia da inflação" no Brasil
+· E05 BTC · Galaxy Research Withdraws Call That Bitcoin's Bear Market Is Over
+· E05 USDBRL · Dólar cai abaixo de R$ 5,80 após Lula sondar possibilidade de Trabuco assumir Fazenda
+· E05 USDBRL · Dólar abre em queda, a R$ 5,77, influenciado por IPCA-15 e equipe econômica
+· E05 BTC · Billionaire Investor Paul Tudor Jones Just Doubled Down on Bitcoin. What Does He Know That the Market Doesn't?
+· E05 BTC · Spot bitcoin ETFs are on track for their biggest monthly outflow on record
+· E05 SBSP3 · Sabesp diz que há fake news sobre contaminação e reafirma qualidade da água
+· E05 USDBRL · Ibovespa Hoje Ao Vivo: Confira o que movimenta Bolsa, Dólar e Juros nesta quinta
+· E05 USDBRL · Dólar abre em queda e vai abaixo de R$ 5,80, com prévia da inflação e política econômica no radar
+· E05 AMD · Is The Client Unit Still Carrying AMD Stock?
+· E05 BTC · Bitcoin price eyes $61K as Talos warns of thin Thanksgiving liquidity
+· E05 MU · Nvidia, AMD and Micron Stocks Plunge as AI Selloff Deepens
+· E05 NVDA · Nvidia Reportedly Halts AI Server Shipments to Four Southeast Asian Countries Amid Tighter US Export Controls
+· E05 BTC · Bitcoin Tops $60,000 as Risk Assets Rise in Holiday Trading
 
 
 Alertas do dia (todos, com status):
-· expirado  T13 VIX — VIX cruzou 30: 30,9 (+17% no dia)
-· pendente  E05 NVDA — NVDA · Nvidia agrees to settle 2018 US investor class action for $290 million
-· pendente  E05 NVDA — NVDA · Nvidia agrees to $290M settlement over crypto mining revenue disclosures
-· pendente  E05 PETR4 — PETR4 · Petrobras eleva em 12% plano de investimentos entre 2027 e 2031, para US
-· pendente  E05 BABA — BABA · Alibaba Q2 Earnings Call Details Cloud Outlook and Chip Plans
-· expirado  E05 ITUB4 — ITUB4 · Quando Itaú (ITUB4) paga dividendos? Confira o calendário
-· expirado  E05 PETR4 — PETR4 · Santander rebaixa Petrobras para neutra e reduz preço-alvo após aumento 
-· expirado  E05 AMZN — AMZN · Amazon Stocks Fall 4.26% as $215 Billion Capex Run Rate Meets AI Doubts
-· expirado  E05 AMD — AMD · AMD Stocks Plunge 9.74% as Chip Rout and Tariff Threat Collide
-· expirado  E05 TSM — TSM · TSMC Stocks Slide 6.65% as Taiwan Lands on US Tariff List
-· expirado  E05 BABA — BABA · Alibaba Q2 Earnings Call Details Cloud Outlook and Chip Plans
-· expirado  E05 AVGO — AVGO · Does Broadcom's Debt Load Pose a Risk to the Stock's Outlook for FY27?
-· expirado  E05 PETR4 — PETR4 · Ibovespa fecha no vermelho após presidente da Petrobras não garantir div
-· expirado  E05 CVX — CVX · Chevron Pays a Bigger Dividend, but Exxon May Be the Better Retirement Sto
-· expirado  E05 USDBRL — USDBRL · Banco Central anuncia nova intervenção no câmbio. BC oferta até US$ 2 b
-· expirado  E05 GOOGL — GOOGL · Key facts: Alphabet capex $51.4B; Cloud revenue up 103%; Malaysia $15B
-· expirado  M01 MACRO — Agenda: PIB 3T26 (2a estimativa) e PCE de outubro (BEA) hoje às 10:30 (25/11)
-· expirado  E05 PLTR — PLTR · Palantir CEO Alexander Karp sells $37.2 million in class A stock By Inves
-· expirado  E05 PETR4 — PETR4 · Petrobras (PETR4) anuncia R$ 15,6 bi em dividendos extraordinários; veja
-· linha     F03 BRENT — Brent sobe a US$ 94,55 (+3,4% no dia) (parcial, intradia)
-· linha     F01 USDBRL — Real sobe: USD/BRL 5,8151 (-1,6% no dia · 5 dias seguidos de movimento doméstico
-· (+119 notícias só manchete, em noticias.md)
+· pendente  M01 MACRO — Agenda: Thanksgiving: NYSE fechada (27/11 meio pregao) hoje (26/11)
+· pendente  E05 NVDA — NVDA · Top Analyst Flags 5 Major Risks for NVDA Stock, Says Nvidia Could Stay in
+· pendente  E05 NVDA — NVDA · Nvidia's Aa1 rating, stable outlook unchanged after Huang's return: Moody
+· expirado  E05 PETR4 — PETR4 · Santander rebaixa Petrobras a neutra e reduz preço-alvo de ação ordinári
+· linha     F01 USDBRL — Real sobe: USD/BRL 5,7706 (cruzou R$ 5,80) (parcial, intradia)
+· (+41 notícias só manchete, em noticias.md)
 
