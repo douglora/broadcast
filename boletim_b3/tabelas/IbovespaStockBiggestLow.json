@@ -1,5 +1,5 @@
 {
- "pregao": "2026-11-24",
+ "pregao": "2026-11-25",
  "nome": "IbovespaStockBiggestLow",
  "titulo": "Ações do IBOVESPA - maiores baixas",
  "sla": "8:00:00",
@@ -7,18 +7,18 @@
  "colunas": [{"nome": "TckrSymb", "titulo": "Ação"}, {"nome": "Cod", "titulo": "Código"}, {"nome": "Price", "titulo": "Preço (R$)"}, {"nome": "OscillationDesc", "titulo": "Oscilação (%)"}],
  "texto": ["Lista as ações do IBOVESPA que apresentaram as maiores quedas de preços em um período."],
  "situacao": "publicado",
- "atualizado_em": "2026-11-24T23:30:07.86",
+ "atualizado_em": "2026-11-25T23:30:25.377",
  "truncada": false,
  "linhas": [
-  ["CSNA3", "ON", 3.24, -6.89],
-  ["POMO4", "PN      N2", 3.37, -6.38],
-  ["NATU3", "ON      NM", 4.26, -6.37],
-  ["VALE3", "ON      NM", 55.19, -5.51],
-  ["BRAP4", "PN  EDJ N1", 15.76, -4.48],
-  ["USIM5", "PNA     N1", 4.84, -4.15],
-  ["BRAV3", "ON      NM", 11.92, -3.94],
-  ["CEAB3", "ON      NM", 7.15, -3.89],
-  ["CMIN3", "ON      N2", 4.78, -3.23],
-  ["MRVE3", "ON      NM", 4.34, -2.9]
+  ["EMBJ3", "ON      NM", 103.2, -4],
+  ["SANB11", "UNT", 27.37, -2.59],
+  ["ABEV3", "ON", 15.81, -1.8],
+  ["MBRF3", "ON      NM", 18.01, -1.58],
+  ["VIVT3", "ON", 34.8, -1.41],
+  ["CPFE3", "ON      NM", 42.89, -1.4],
+  ["SUZB3", "ON  ATZ NM", 55.4, -1.31],
+  ["WEGE3", "ON      NM", 49.65, -1.09],
+  ["CMIG4", "PN      N1", 10.73, -0.83],
+  ["VIVA3", "ON      NM", 15.86, -0.56]
  ]
 }

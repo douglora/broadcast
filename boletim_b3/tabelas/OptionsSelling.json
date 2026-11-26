@@ -7,7 +7,7 @@
  "colunas": [{"nome": "TckrSymb", "titulo": "Opções"}, {"nome": "DueDate", "titulo": "Vencimento"}, {"nome": "ExerPric", "titulo": "Preço exercício (R$)"}, {"nome": "VlmTradedDay", "titulo": "Volume (R$) mil"}, {"nome": "Part", "titulo": "Participação (%)"}],
  "texto": ["Apresenta as opções de venda mais ativas, refletindo as ações que atraem maior volume de negociação."],
  "situacao": "republicado",
- "atualizado_em": "2026-11-25T21:41:05.81",
+ "atualizado_em": "2026-11-26T00:41:48.827",
  "truncada": false,
  "linhas": [
   ["RDORV523", "2027-10-15T20:59:59", 48.22, 10444, 1.353462462488466],
@@ -17,8 +17,8 @@
   ["RDORV523", "2027-10-15", 48.22, 10444, 1.353462462488466],
   ["PETRN442", "2027-02-19T20:59:59", 42.44, 9240.471, 1.197494315799814],
   ["BPACX820", "2026-12-18T20:59:59", 82.05, 12432, 1.6110920465010157],
-  ["PETRX512", "2026-12-18", 48.91, 16360.036, 2.1203474955869495],
-  ["PETRX474", "2026-12-18", 45.16, 16004.119, 2.074218763377141],
-  ["PETRN442", "2027-02-19", 42.44, 9240.471, 1.1976140848891674]
+  ["PETRX512", "2026-12-18", 48.91, 16360.036, 2.1201354472386016],
+  ["PETRX474", "2026-12-18", 45.16, 16004.119, 2.0740113281978596],
+  ["PETRN442", "2027-02-19", 42.44, 9240.471, 1.197494315799814]
  ]
 }

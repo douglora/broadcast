@@ -6,14 +6,14 @@
  "paginas": 1,
  "colunas": [{"nome": "TckrSymb", "titulo": "Ação"}, {"nome": "Cod", "titulo": "Código"}, {"nome": "Term", "titulo": "Prazo"}, {"nome": "Closing", "titulo": ""}, {"nome": "TradQty", "titulo": ""}, {"nome": "VlmTradedDay", "titulo": "Volume (R$) mil"}, {"nome": "Part", "titulo": "Participação (%)"}],
  "texto": ["Lista ações com maior volume de negociação em contratos a termo, destacando as mais ativas."],
- "situacao": "publicado",
- "atualizado_em": "2026-11-25T18:50:52",
+ "situacao": "republicado",
+ "atualizado_em": "2026-11-26T02:22:28.983",
  "truncada": false,
  "linhas": [
-  ["AXIA ENERGIAON      NM", "ON      NM", 35, 46.96, 100000, 4696, 2.5618199168689433],
-  ["TENDA       ON      NM", "ON      NM", 121, 16.13, 270000, 4355.1, 6.916913775546149],
-  ["BRADESCO    PN      N1", "PN      N1", 33, 13.96, 300000, 4188.000000000001, 7.6854597506068325],
-  ["COMPASS     ON  ED  NM", "ON  ED  NM", 93, 23.43, 440000, 10309.2, 11.272007634223352],
-  ["ASSAI       ON      NM", "ON      NM", 90, 10.13, 520000, 5267.6, 13.321463567718508]
+  ["AXIA ENERGIAON      NM", "ON      NM", 35, 46.96, 100000, 4696, 2.5617405079828957],
+  ["TENDA       ON      NM", "ON      NM", 121, 16.13, 270000, 4355.1, 6.916699371553819],
+  ["BRADESCO    PN      N1", "PN      N1", 33, 13.96, 300000, 4188.000000000001, 7.685221523948689],
+  ["COMPASS     ON  ED  NM", "ON  ED  NM", 93, 23.43, 440000, 10309.2, 11.271658235124741],
+  ["ASSAI       ON      NM", "ON      NM", 90, 10.13, 520000, 5267.6, 13.321050641511059]
  ]
 }

@@ -1,25 +1,57 @@
 # Boletim da B3: pregão de 25/11/2026 (quarta)
 
-**Situação: PARCIAL.** Ainda sem: cadastro de instrumentos, posições em aberto (opções e futuros), saldo de aluguel, empréstimos do dia, quadro de posições em aberto. A B3 publica esses blocos na madrugada seguinte ao pregão; a rodada da manhã completa.
-Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-11-26T00:53:00Z (UTC).
+**Situação: PARCIAL.** Ainda sem: cadastro de instrumentos, quadro de posições em aberto. A B3 publica esses blocos na madrugada seguinte ao pregão; a rodada da manhã completa.
+Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-11-26T08:52:50Z (UTC).
 
 [[LEITURA_DA_MESA]]
 
-## Sinais do dia (8)
+## Sinais do dia (16)
 
 **Novos hoje**
 
+- **Aluguel mudou.** SAPR4: saldo alugado caiu 19,0% em um pregão, para 1,8 mi de ações, com o preço em +0,60% no dia. _(B3, BTBLendingOpenPosition, 25/11)_
 - **Crédito: taxa abriu.** CRA020002H1 (BRF (IPCA, série a confirmar), CRA): taxa média dos negócios da B3 abriu 72 pb contra 24/11, para IPCA+ 14,77%, em R$ 12,0 mi. _(B3, Trade + InstrumentRegistration (preliminar), 25/11)_
 - **Crédito: prêmio alto.** 24F1970219 (Opea Securitizadora, CRI): negociada a CDI+ 5,00%, em R$ 8,8 mi. _(B3, Trade + InstrumentRegistration (preliminar), 25/11)_
 - **Crédito: prêmio alto.** CRA022001E2 (Eco Securitizadora de Direitos Credit…, CRA): negociada a IPCA+ 11,60%, 421 pb acima do juro real de mercado de prazo equivalente, em R$ 6,1 mi. _(B3, Trade + InstrumentRegistration (preliminar), 25/11)_
 - **Fluxo estrangeiro.** Estrangeiro vendeu R$ 1.500 mi líquidos em 23/11; no mês, até 23/11, saldo de -R$ 5.906 mi. _(B3, SharesInvesVolum, 23/11)_
 - **Juros.** A curva de juros fechou: DI1F28 −15 pb, para 14,29%, DI1F29 −15 pb, para 14,71%, DI1F30 −16 pb, para 14,87%, DI1F32 −17 pb, para 15,03%, DI1F35 −14 pb, para 15,08%. _(B3, TradeInformationConsolidated, 25/11)_
 - **Provento.** SBSP3: crédito de leilão de frações de R$ 26,9192 por ação em 25/11. _(B3, ProventionCreditVariable, 25/11)_
-- **Listas do dia.** Do livro nas listas do boletim: mais negociadas à vista: PETR4 (1º), VALE3 (2º), ITUB4 (4º); calls mais negociadas: PETRB442 (2º); puts mais negociadas: PETRX512 (2º), PETRX474 (3º), PETRN442 (5º). _(B3, tabelas de maiores oscilacoes, 25/11)_
+- **Listas do dia.** Do livro nas listas do boletim: maiores altas do Ibovespa: MRVE3 (6º); mais negociadas à vista: PETR4 (1º), VALE3 (2º), ITUB4 (4º); calls mais negociadas: PETRB442 (2º); puts mais negociadas: PETRX512 (2º), PETRX474 (3º), PETRN442 (5º). _(B3, tabelas de maiores oscilacoes, 25/11)_
 
 **Já vinham de pregões anteriores**
 
+- **Aluguel alto.** BBAS3: saldo alugado de 491,7 mi de ações, 17,3% da quantidade teórica do índice e 6,9 pregões de giro; taxa média do tomador de 0,69% ao ano. _(B3, BTBLendingOpenPosition, 25/11 · 58º pregão seguido)_
+- **Aluguel alto.** CURY3: saldo alugado de 24,1 mi de ações, 15,0% da quantidade teórica do índice e 4,5 pregões de giro; taxa média do tomador de 1,50% ao ano. _(B3, BTBLendingOpenPosition, 25/11 · 58º pregão seguido)_
+- **Aluguel alto.** DIRR3: saldo alugado de 47,5 mi de ações, 14,6% da quantidade teórica do índice e 3,1 pregões de giro; taxa média do tomador de 0,06% ao ano. _(B3, BTBLendingOpenPosition, 25/11 · 58º pregão seguido)_
+- **Aluguel alto.** MRVE3: saldo alugado de 81,2 mi de ações, 21,7% da quantidade teórica do índice e 3,4 pregões de giro; taxa média do tomador de 1,69% ao ano. _(B3, BTBLendingOpenPosition, 25/11 · 58º pregão seguido)_
+- **Pressão vendida.** PETR4: em 5 pregões o saldo alugado subiu 41,2% e o preço caiu 6,0%: posição vendida crescendo junto com a queda. _(B3, BTBLendingOpenPosition, 25/11 · 2º pregão seguido)_
+- **Aluguel alto.** PETR4: saldo alugado de 279,7 mi de ações, 6,3% da quantidade teórica do índice e 4,8 pregões de giro; taxa média do tomador de 0,13% ao ano. _(B3, BTBLendingOpenPosition, 25/11 · 2º pregão seguido)_
+- **Aluguel mudou.** SBSP3: saldo alugado subiu 14,2% em um pregão, para 108,4 mi de ações, com o preço em +2,18% no dia. _(B3, BTBLendingOpenPosition, 25/11 · 2º pregão seguido)_
 - **Crédito: prêmio alto.** CRA020002H1 (BRF (IPCA, série a confirmar), CRA): negociada a IPCA+ 14,77%, 709 pb acima do juro real de mercado de prazo equivalente, em R$ 12,0 mi. _(B3, Trade + InstrumentRegistration (preliminar), 25/11 · 2º pregão seguido)_
+
+## Índices
+
+| Índice | Fechamento | Dia | No mês |
+|---|---:|---:|---:|
+| Ibovespa | 166.684 | +1,58% | -0,74% |
+| Small caps (SMLL) | 2.037 | +2,66% | +8,79% |
+| Financeiro (IFNC) | 16.558 | +2,71% | +1,22% |
+| Utilidade pública (UTIL) | 17.948 | +1,81% | +7,85% |
+| Imobiliário (IMOB) | 1.118 | +2,65% | +7,12% |
+| Dividendos (IDIV) | 11.725 | +1,35% | +0,06% |
+| Energia elétrica (IEE) | 122.894 | +1,41% | +4,71% |
+| Materiais básicos (IMAT) | 6.187 | +1,36% | +1,68% |
+| Fundos imobiliários (IFIX) | 3.541 | +2,11% | -2,89% |
+| BDRs (BDRX) | 28.311 | -2,55% | -0,99% |
+
+## Giro do mercado de ações
+
+|  | Dia | Média do mês | Dia / média |
+|---|---:|---:|---:|
+| Volume (R$ mi) | 36.782 | 38.128 | 0,96x |
+| Negócios (mil) | 4.608 | 4.622 | - |
+
+Mercado de ações = à vista, opções e termo (médias diárias da B3). No dia: à vista R$ 31.506 mi, opções R$ 852 mi, termo R$ 58 mi.
 
 ## Fluxo por tipo de investidor (acumulado no mês até 23/11)
 
@@ -37,16 +69,16 @@ Saldo = compras menos vendas, somando todos os mercados da B3. A B3 divulga com 
 
 | Contrato | Ajuste | Variação | Contratos em aberto |
 |---|---:|---:|---:|
-| DI1F27 | 13,684% | +0,0 pb | - |
-| DI1F28 | 14,291% | -14,7 pb | - |
-| DI1F29 | 14,706% | -14,7 pb | - |
-| DI1F30 | 14,869% | -16,0 pb | - |
-| DI1F32 | 15,026% | -16,9 pb | - |
-| DI1F35 | 15,081% | -14,5 pb | - |
-| DAPK31 | 7,765% | -1,0 pb | - |
-| DAPQ28 | 7,255% | -3,5 pb | - |
-| DOLZ26 | 5.820,48 | -1,43% | - |
-| INDZ26 | 167.885,00 | +1,50% | - |
+| DI1F27 | 13,684% | +0,0 pb | 7.700.391 |
+| DI1F28 | 14,291% | -14,7 pb | 5.091.016 |
+| DI1F29 | 14,706% | -14,7 pb | 3.921.199 |
+| DI1F30 | 14,869% | -16,0 pb | 1.868.585 |
+| DI1F32 | 15,026% | -16,9 pb | 1.322.638 |
+| DI1F35 | 15,081% | -14,5 pb | 788.936 |
+| DAPK31 | 7,765% | -1,0 pb | 158.534 |
+| DAPQ28 | 7,255% | -3,5 pb | 525.157 |
+| DOLZ26 | 5.820,48 | -1,43% | 1.088.219 |
+| INDZ26 | 167.885,00 | +1,50% | 197.069 |
 
 DI1 = DI futuro (taxa prefixada); DAP = cupom de IPCA (juro real); DOL = dólar futuro; IND = Ibovespa futuro. pb = ponto-base (0,01 ponto percentual).
 
@@ -89,6 +121,32 @@ Juros no mesmo dia: DI1F27 +0,0 pb, DI1F28 -14,7 pb, DI1F29 -14,7 pb, DI1F30 -16
 
 x média = volume do dia dividido pela média dos pregões anteriores no histórico (até 20).
 
+## Livro: aluguel de ações
+
+| Ativo | Saldo alugado em mi de ações (% do free float) | Variação no pregão | Taxa do tomador (ao ano) |
+|---|---:|---:|---:|
+| EQTL3 | 24,5 (2,0%) | -1,41% | 0,06% |
+| SAPR4 | 1,8 | -18,97% | 0,14% |
+| KLBN4 | 8,8 | -4,98% | 0,01% |
+| ALUP4 | 0,03 | +3,15% | 0,12% |
+| ITUB4 | 189,5 (3,5%) | +1,83% | 0,08% |
+| BBDC4 | 229,4 (4,5%) | +1,71% | 0,06% |
+| PETR4 | 279,7 (6,3%) | +9,20% | 0,13% |
+| VALE3 | 164,2 (4,5%) | +0,51% | 0,04% |
+| MELI34 | 3,7 | -1,38% | 0,33% |
+| UGPA3 | 46,0 (4,3%) | +1,64% | 0,34% |
+| AXIA3 | 49,8 (2,2%) | -4,02% | 0,05% |
+| ITSA4 | 74,3 (1,2%) | +0,15% | 0,03% |
+| BBAS3 | 491,7 (17,3%) | -6,71% | 0,69% |
+| SBSP3 | 108,4 (3,1%) | +14,25% | 0,20% |
+| SMAL11 | 25,5 | -0,24% | 4,89% |
+| RARA11 | 0,00 | +63,29% | 1,00% |
+| DIRR3 | 47,5 (14,6%) | +1,94% | 0,06% |
+| MRVE3 | 81,2 (21,7%) | +2,07% | 1,69% |
+| CURY3 | 24,1 (15,0%) | +2,23% | 1,50% |
+
+Aluguel de ações (BTC, o banco de títulos da B3): quem aluga normalmente vende a descoberto, então o saldo mede a aposta vendida. Free float aqui é a quantidade teórica da carteira de índice.
+
 ## ETFs do livro
 
 | ETF | Valor de referência da cota (IOPV) | Prêmio ou desconto | Cotas criadas no dia |
@@ -96,7 +154,24 @@ x média = volume do dia dividido pela média dos pregões anteriores no histór
 | SMAL11 | 100,43 | +0,12% | - |
 | RARA11 | - | - | - |
 
-- Paridade: RARA11 -1,47% contra REMX em reais -1,65% (lá fora +0,16%, câmbio -1,81%); desvio de +0,18%. Fechamentos em horários diferentes: é aproximação.
+- Paridade: RARA11 -1,47% contra REMX em reais -0,25% (lá fora +0,16%, câmbio -0,41%); desvio de -1,22%. Fechamentos em horários diferentes: é aproximação.
+
+## Radar do mercado: aluguel
+
+| Mais alugadas | % das ações | Taxa | Preço em 5 pregões |
+|---|---:|---:|---:|
+| BEEF3 | 33,7% | 41,28% | +8,88% |
+| PLPL3 | 25,0% | 6,89% | -6,59% |
+| EZTC3 | 25,0% | 4,41% | -1,36% |
+| TTEN3 | 23,2% | 0,46% | -6,54% |
+| TAEE11 | 22,8% | 0,63% | -2,48% |
+| MRVE3 | 21,7% | 1,69% | -7,78% |
+
+**Aluguel mais caro (taxa ao ano):** CSNA3 48,48%, CMIN3 47,21%, BEEF3 41,28%, INTB3 30,28%, MBRF3 22,84%, YDUQ3 19,83%.
+**Saldo alugado que mais subiu no pregão:** HYPE3 +15,7%, RADL3 +15,5%, SBSP3 +14,2%, VBBR3 +9,3%, PETR4 +9,2%, RIAA3 +7,5%.
+**Saldo que mais caiu:** LEVE3 -35,5%, CEAB3 -27,9%, TEND3 -21,1%, MDNE3 -16,7%, PRIO3 -14,1%, SMFT3 -13,1%.
+**Vendidos sob pressão (muito alugadas, preço subindo):** MGLU3 +16,9%, BEEF3 +8,9%, CSMG3 +8,0%, SMFT3 +7,0%, SIMH3 +5,7%, KEPL3 +5,3%.
+**Aposta vendida crescendo (aluguel subindo, preço caindo):** PETR4 -6,0%.
 
 ## Renda fixa: debêntures incentivadas, CRI e CRA
 
@@ -166,27 +241,26 @@ Por classe, mediana das taxas de referência dos papéis. Taxa de referência: n
 - Comunicado (24/11): LEILÃO DE VENDA DE ATIVOS  POR DETERMINAÇÃO JUDICIAL
 - Comunicado (25/11): LEILÃO DE VENDA DE COTAS DO  V2 RECEBÍVEIS IMOBILIÁRIOS FUNDO DE INVESTIMENTO
 
+## Renda fixa na plataforma eletrônica (78 papéis, R$ 346,1 mi)
+
+| Papel | Último | Negócios | Volume (R$ mil) |
+|---|---:|---:|---:|
+| LFTB11 | 129,13 | 6.413 | 102.646 |
+| IRFM11 | 105,61 | 646 | 86.634 |
+| B5P211 | 115,02 | 2.800 | 31.710 |
+| LFTS11 | 163,49 | 1.685 | 18.493 |
+| LTBX11 | 27,10 | 3.747 | 15.632 |
+| LFIX11 | 22,24 | 76 | 11.055 |
+
 ## Lacunas e pendências
 
 - quadro de posições em aberto: aguardando
-- saldo de aluguel: aguardando
-- empréstimos do dia: aguardando
-- aluguel por corretora: aguardando
-- Custody: aguardando
-- DIover: aguardando
-- DailyAverageStocks: aguardando
-- DebenturesBusiness: aguardando
-- posições em aberto (opções e futuros): aguardando
-- ForwardMarket: aguardando
-- IbovespaStockBiggestHighs: aguardando
-- IbovespaStockBiggestLow: aguardando
+- aluguel por corretora: ignorado
 - cadastro de instrumentos: aguardando
 - Register: aguardando
 - RepurchaseDealings: aguardando
 - Stock: aguardando
-- StocksOperationSummary: aguardando
 - Posição em aberto de derivativos por tipo de investidor (estrangeiro, institucional, pessoa física): não existe no Boletim Diário do Mercado; procurado nas 69 tabelas e no texto dos 11 cadernos em 30/09/2026.
 - Fluxo por tipo de investidor sai acumulado no mês e com dois pregões de atraso; o saldo de um dia é a diferença entre dois acumulados seguidos.
-- Carteira de índice: a B3 não publicou a tabela neste pregão; valem os pesos de 24/11.
 - RARA11: a B3 não publica valor de referência da cota (IOPV) para este ETF no boletim.
 - Paridade de MELI34: sem a barra de 25/11 de MELI nas séries do livro.
