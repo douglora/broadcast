@@ -17,25 +17,24 @@ Fonte: Yahoo Finance 26/11 09h59
 ids: E05-KO-4815d18ec1-2026-11-26
 
 Info (só linha no Fechamento):
-· E05 BTC · Why Is Bitcoin Dropping So Much? 5 Reasons Behind Its Worst Month Since 2022
-· E05 USDBRL · Bolsa dispara e dólar cai abaixo de R$ 5,80, de olho em possíveis nomes para a Fazenda
-· E05 SBSP3 · Sabesp (SBSP3) tem dois catalisadores no radar e BBI reitera recomendação de compra
-· E05 DI · IPCA-15 surpreende para baixo e reforça aposta em Selic “parada” por mais tempo
-· E05 NVDA · Nvidia's credit rating, the AI trade's collateral, is at risk
-· E05 SBSP3 · Sabesp diz que há fake news sobre contaminação e reafirma qualidade da água
-· E05 USDBRL · Ibovespa dispara e dólar cai com expectativa sobre a Fazenda e IPCA-15 menor que o esperado
-· E05 MRVL · Marvell Technology, Inc. (MRVL) is Attracting Investor Attention: Here is What You Should Know
-· E05 USDBRL · Bolsa dispara mais de 4% com possibilidade de Trabuco na Fazenda; dólar cai a R$ 5,72
-· E05 NVDA · US Chip Curbs Can't Shake China's Appetite For Nvidia. Another Chinese Firm Is Buying 5,000 Blackwell GPUs.
-· E05 NVDA · NVIDIA's Data Center Sales Jump 110%: Can NVDA Keep the Pace Ahead?
-· E05 MU · Micron and Sandisk Are Two of the Cheapest AI Chip Stocks to Own
+· E05 USDBRL · Ibovespa dispara mais de 3% e dólar recua após IPCA-15
+· E05 BTC · Bitcoin News: Swiss ETF Debut Meets $7B Options Expiry and US Strategic Reserve Push
+· E05 MRVL · Marvell's Most Important Earnings Call Has Nothing To Do With Earnings (Preview) (NASDAQ:MRVL)
+· E05 USDBRL · Ibovespa sobe mais de 4% e dólar recua a R$ 5,71 com otimismo no mercado
+· E05 KO · Diluted earnings per share (diluted EPS) of Coca-Cola Company – GPW:COLA_C
+· E05 JPM · JPMorgan Rethinks UK Investments: Will Higher Taxes Hurt Growth?
+· E05 NOK · Nokia: AI Growth Is Accelerating While The Valuation Becomes Attractive (Rating Upgrade)
+· E05 NVDA · Jensen Huang's Bank of Nvidia Dilemma Is Still Looming Large
+· E05 BABA · Could Alibaba Actually Climb 87%? Or Is Jefferies Totally Wrong?
+· E05 KO · Here’s How Many Coca-Cola Shares It Takes to Earn $1,300 Every Quarter in Dividends
+· E05 BABA · How Export Blacklisting Will Impact Alibaba Stock Investors
 
 
 Alertas do dia (todos, com status):
-· pendente  E05 KO — KO · Coca-Cola Is the Most Boring Stock I Own. After 64 Years of Dividend Raises
+· expirado  E05 KO — KO · Coca-Cola Is the Most Boring Stock I Own. After 64 Years of Dividend Raises
 · expirado  M01 MACRO — Agenda: Thanksgiving: NYSE fechada (27/11 meio pregao) hoje (26/11)
 · expirado  E05 NVDA — NVDA · Top Analyst Flags 5 Major Risks for NVDA Stock, Says Nvidia Could Stay in
 · expirado  E05 NVDA — NVDA · Nvidia's Aa1 rating, stable outlook unchanged after Huang's return: Moody
 · expirado  E05 PETR4 — PETR4 · Santander rebaixa Petrobras a neutra e reduz preço-alvo de ação ordinári
-· linha     F01 USDBRL — Real sobe: USD/BRL 5,7342 (-3,3% em 5 sessões · 7 dias seguidos de movimento dom
-· (+65 notícias só manchete, em noticias.md)
+· linha     F01 USDBRL — Real sobe: USD/BRL 5,7400 (-3,2% em 5 sessões · 8 dias seguidos de movimento dom
+· (+76 notícias só manchete, em noticias.md)

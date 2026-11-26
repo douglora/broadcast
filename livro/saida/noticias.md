@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 26/11 12h05
+NOTÍCIAS E FATOS · 26/11 13h05
 
-Pernas: noticias ok 12 novas (18 consultas; descartadas: 428 veículo fora da lista, 34 sem ativo, 0 teto) · cvm ok 0 novos de 12 (5 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 11 novas (18 consultas; descartadas: 463 veículo fora da lista, 40 sem ativo, 4 teto) · cvm ok 0 novos de 12 (5 cias casadas) · sec ok 0 novos em 3 dias
 
 ## NOTÍCIAS COM MATERIALIDADE (4)
 
@@ -18,7 +18,7 @@ Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir
 Ativos: KO
 Como falar: 'saiu no Yahoo Finance: Coca-Cola Is the Most Boring Stock I Own. After 64 Years of Dividend Raises, I'll Never S…; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 26/11 09h59
-id: E05-KO-4815d18ec1-2026-11-26 · status: pendente
+id: E05-KO-4815d18ec1-2026-11-26 · status: expirado
 
 [ATENÇÃO] E05 · NVDA · Top Analyst Flags 5 Major Risks for NVDA Stock, Says Nvidia Could Stay in ‘Penalty Box’ for 1-2 Quarters: ‘Jensen Return Honeymoon Lasted About a Day’
 TradingView (Reuters) · 26/11 04h43 · fonte única · licença: manchete
@@ -55,8 +55,19 @@ Fonte: CNN Brasil 25/11 21h05
 id: E05-PETR4-fd098a6e7e-2026-11-26 · status: expirado
 
 
-## OUTRAS NOTÍCIAS (só manchete) (64)
+## OUTRAS NOTÍCIAS (só manchete) (75)
 
+· USDBRL Ibovespa dispara mais de 3% e dólar recua após IPCA-15 (Suno Noticias) https://www.suno.com.br/noticias/ibovespa-hoje-26112026-ipca-15-dolar-go/
+· BTC Bitcoin News: Swiss ETF Debut Meets $7B Options Expiry and US Strategic Reserve Push (TradingView (Reuters)) https://www.tradingview.com/news/cryptonews:dfa9be5f6094b:0-bitcoin-news-swiss-etf-debut-meets-7b-options-expiry-and-us-strategic-reserve-push/
+· MRVL Marvell's Most Important Earnings Call Has Nothing To Do With Earnings (Preview) (NASDAQ:MRVL) (Seeking Alpha) https://seekingalpha.com/article/4972309-marvells-most-important-earnings-call-has-nothing-to-do-with-earnings?source=generic_rss
+· USDBRL Ibovespa sobe mais de 4% e dólar recua a R$ 5,71 com otimismo no mercado (Money Times) https://www.moneytimes.com.br/ibovespa-dispara-mais-de-4-e-dolar-recua-a-r-571-o-que-anima-o-mercado-hoje-davs/
+· KO Diluted earnings per share (diluted EPS) of Coca-Cola Company – GPW:COLA_C (TradingView (Reuters)) https://www.tradingview.com/symbols/GPW-COLA_C/financials-income-statement/earnings-per-share-diluted/
+· JPM JPMorgan Rethinks UK Investments: Will Higher Taxes Hurt Growth? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/jpmorgan-rethinks-uk-investments-higher-140500776.html
+· NOK Nokia: AI Growth Is Accelerating While The Valuation Becomes Attractive (Rating Upgrade) (Seeking Alpha) https://seekingalpha.com/article/4972160-nokia-ai-growth-is-accelerating-while-the-valuation-becomes-attractive-upgrade
+· NVDA Jensen Huang's Bank of Nvidia Dilemma Is Still Looming Large (Bloomberg) https://www.bloomberg.com/opinion/articles/2026-11-26/jensen-huang-s-bank-of-nvidia-dilemma-is-still-looming-large
+· BABA Could Alibaba Actually Climb 87%? Or Is Jefferies Totally Wrong? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/could-alibaba-actually-climb-87-045814800.html
+· KO Here’s How Many Coca-Cola Shares It Takes to Earn $1,300 Every Quarter in Dividends (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/many-coca-cola-shares-takes-234802485.html
+· BABA How Export Blacklisting Will Impact Alibaba Stock Investors (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/export-blacklisting-impact-alibaba-stock-220853461.html
 · BTC Why Is Bitcoin Dropping So Much? 5 Reasons Behind Its Worst Month Since 2022 (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/why-bitcoin-dropping-much-5-144312932.html
 · USDBRL Bolsa dispara e dólar cai abaixo de R$ 5,80, de olho em possíveis nomes para a Fazenda (g1) https://g1.globo.com/globonews/conexao-globonews/video/bolsa-dispara-e-dolar-cai-abaixo-de-r-580-de-olho-em-possiveis-nomes-para-a-fazenda-15283457.ghtml
 · SBSP3 Sabesp (SBSP3) tem dois catalisadores no radar e BBI reitera recomendação de compra (InfoMoney) https://www.infomoney.com.br/mercados/sabesp-sbsp3-tem-dois-catalisadores-no-radar-e-bbi-reitera-recomendacao-de-compra/
@@ -106,15 +117,4 @@ id: E05-PETR4-fd098a6e7e-2026-11-26 · status: expirado
 · GOOGL Broadcom: The Google Scare Is Overdone (Seeking Alpha) https://seekingalpha.com/article/4972191-broadcom-the-google-scare-is-overdone
 · JPM JPMorgan Global Select Equity ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.125 Sh (TradingView (Reuters)) https://www.tradingview.com/symbols/BMFBOVESPA-JGLO39/financials-earnings/
 · USDBRL Bolsa e dólar: veja os destaques da agenda econômica desta terça-feira (24) (Money Times) https://www.moneytimes.com.br/bolsa-e-dolar-veja-os-destaques-da-agenda-economica-desta-terca-feira-mlem-2/
-· BTC Spot bitcoin ETFs on track for worst month on record as bear market drags on (The Block) https://www.theblock.co/news/markets/2026-11-26-spot-bitcoin-etfs-worst-month-november-446814
-· USDBRL Expectativas sobre Lula 4 melhoram e dólar cai a R$ 5,81 (Valor Economico) https://valor.globo.com/financas/noticia/2026/11/26/expectativas-sobre-lula-4-melhoram-e-dolar-cai-a-r-581.ghtml
-· JPM What Is JPMorgan Chase (JPM) Saying With Its $450 Billion AI Debt Call? (Yahoo Finance) https://news.google.com/rss/articles/CBMimAFBVV95cUxQZGhBc2I3QjlQXzhURDdwTEp3YlBJQTd2OXNGNzVpUGNBR2NVLW4tRk9GRnhCVlBmVUk5WERiVWVJYWgtaHBqa0diZ1ZjdERYSWRVZ0dnSnRKZmttSWFJN0tOTWdwa2lpTGNFNkg1X0kxYW5Scm9JaUhHa3ZGU0UtRVNidnV4WmJFb0FfVjVLZnR0dW9nRnFWUw?oc=5
-· TSLA Key facts: Tesla merger talks; revenue +161%; FCC clears 1M satellites (TradingView (Reuters)) https://news.google.com/rss/articles/CBMixgFBVV95cUxORVY3U0IwNEZZdjdybXNaSmx3U3hza2pYVkxaNzd2WXgxYWxIZ0RRcm54SXAyU3dfNGFKcjRPMnJUelp5RHEyWXdpQ2lDa095V2k1Und1ckl0c3J5bkF6YTFBWHVZMWgwLTJhTlg0dURoSnFVbmlhclpZZ0t6NXdOZkNHZnRraS1JVFZnMTdGekdfSjZMZHlKNUh6VW9hUmVBWlZWOGgxUnVpRkN0R2tOc09aSWt3bkdiWVR0d1BxVDQtZjVUTUE?oc=5
-· NVDA Nvidia chips reach Chinese-owned U.S. firms despite export curbs, CBS reports By Investing.com (Investing.com) https://za.investing.com/news/stock-market-news/nvidia-chips-reach-chineseowned-us-firms-despite-export-curbs-cbs-reports-4597850
-· NVDA S&P warns Nvidia credit rating could be cut over 'rising' management and governance risk (CNBC) https://www.cnbc.com/2026/11/26/nvidia-market-governance-risk.html
-· AMD Why Retail Investors Are Watching AMD and AI Infrastructure Stocks After SpaceX Satellite News (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/why-retail-investors-watching-amd-021215050.html
-· BTC How Low Can Bitcoin, Ethereum and XRP Fall? 4 Price Levels to Watch (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/low-bitcoin-ethereum-xrp-fall-013734178.html
-· VALE3 Vale: When Everyone Sells, I Start Looking (Rating Upgrade) (NYSE:VALE) (Seeking Alpha) https://seekingalpha.com/article/4972075-vale-when-everyone-sells-i-start-looking-upgrade
-· USDBRL Bolsa sobe e o dólar caiu com expectativa por novas medidas de controle das contas públicas (g1) https://g1.globo.com/google/amp/jornal-nacional/video/bolsa-sobe-e-o-dolar-caiu-com-expectativa-por-novas-medidas-de-controle-das-contas-publicas-15282113.ghtml
-· EWY South Korea's Kospi leads gains as tech rebound lifts Asia markets (CNBC) https://www.cnbc.com/2026/11/26/stock-markets-today-.html
-· (+4 manchetes; lista completa em eventos/noticias.json)
+· (+15 manchetes; lista completa em eventos/noticias.json)
