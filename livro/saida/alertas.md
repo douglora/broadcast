@@ -1,22 +1,12 @@
 ALERTAS · intradia
 
-(pendente de slot anterior) [ATENÇÃO] E05 · BTC · YieldMax Bitcoin Option Income Strategy ETF declares $0.1135 dividend
-TradingView (Reuters) · 26/11 13h59 · fonte única · licença: manchete
-Link: https://www.tradingview.com/news/seekingalpha:4c6910866094b:0-yieldmax-bitcoin-option-income-strategy-etf-declares-0-1135-dividend/
-Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
-Ativos: BTC
-Como falar: 'saiu no TradingView (Reuters): YieldMax Bitcoin Option Income Strategy ETF declares $0.1135 dividend; confirmar o número no texto antes de repassar'
-Fonte: TradingView (Reuters) 26/11 13h59
-ids: E05-BTC-af7f109aa2-2026-11-26
-
+Nenhum alerta novo neste slot.
 Info (só linha no Fechamento):
-· E05 BBAS3 · Alta do Banco do Brasil (BBAS3) é 'fogo de palha'? Gestora vê uma foto ruim de uma realidade pior ainda
-· E05 INTC · Intel Stocks Slip After Erasing a 10.3% Plunge Below $50
-· E05 NVDA · Should You Buy Nvidia After Its Sharp Decline? Warren Buffett’s Long-Held Investment Philosophy Provides a Clear Answer
-· E05 JPM · JPMorgan ActiveBuilders Emerging Markets Equity ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.1666667 Sh Earnings and Revenue – BMFBOVESPA:…
-· E05 BRENT · Oil price today: Brent edges up after fresh tanker attacks near Strait of Hormuz
-· E05 NVDA · Nvidia stops AI GPU shipments to Southeast Asia amid purported China cloud access ban, report claims — data centers in Singapore, other countries, in…
-· E05 BRENT · Brent settles higher as mine strikes, refinery attack stoke Middle East supply concerns
+· E05 CVX · Chevron (CVX) Is Back In Focus, What Is Driving The Attention?
+· E05 PETR4 · Petrobras paralisa plataforma P-77 em Búzios após raio causar princípio de incêndio
+· E05 PETR4 · Petrobras (PETR4): quais dúvidas ainda ficaram após divulgação do plano de negócios?
+· E05 BTC · Bitcoin holds above $60K as death cross signals weakness
+· E05 BTC · Proshares Bitcoin & Ether Equal Weight ETF (BETE) latest press releases and corporate news
 
 
 Alertas do dia (todos, com status):
@@ -27,4 +17,4 @@ Alertas do dia (todos, com status):
 · expirado  E05 NVDA — NVDA · Nvidia's Aa1 rating, stable outlook unchanged after Huang's return: Moody
 · expirado  E05 PETR4 — PETR4 · Santander rebaixa Petrobras a neutra e reduz preço-alvo de ação ordinári
 · linha     F01 USDBRL — Real sobe: USD/BRL 5,7424 (-3,2% em 5 sessões · 10 dias seguidos de movimento do
-· (+107 notícias só manchete, em noticias.md)
+· (+112 notícias só manchete, em noticias.md)

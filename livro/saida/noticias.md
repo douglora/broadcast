@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 26/11 17h05
+NOTÍCIAS E FATOS · 26/11 17h11
 
-Pernas: noticias ok 7 novas (18 consultas; descartadas: 388 veículo fora da lista, 46 sem ativo, 0 teto); 2 falhas · cvm ok 0 novos de 13 (5 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 5 novas (18 consultas; descartadas: 422 veículo fora da lista, 39 sem ativo, 0 teto) · cvm ok 0 novos de 13 (5 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (1)
 
@@ -76,8 +76,13 @@ Fonte: CNN Brasil 25/11 21h05
 id: E05-PETR4-fd098a6e7e-2026-11-26 · status: expirado
 
 
-## OUTRAS NOTÍCIAS (só manchete) (105)
+## OUTRAS NOTÍCIAS (só manchete) (110)
 
+· CVX Chevron (CVX) Is Back In Focus, What Is Driving The Attention? (Yahoo Finance) https://finance.yahoo.com/energy/articles/chevron-cvx-back-focus-driving-191123814.html
+· PETR4 Petrobras paralisa plataforma P-77 em Búzios após raio causar princípio de incêndio (Valor Economico) https://valor.globo.com/empresas/noticia/2026/11/26/petrobras-paralisa-plataforma-p-77-em-bzios-aps-raio-causar-princpio-de-incndio.ghtml
+· PETR4 Petrobras (PETR4): quais dúvidas ainda ficaram após divulgação do plano de negócios? (InfoMoney) https://www.infomoney.com.br/mercados/petrobras-petr4-quais-duvidas-ainda-ficaram-apos-divulgacao-do-plano-de-negocios/
+· BTC Bitcoin holds above $60K as death cross signals weakness (TradingView (Reuters)) https://www.tradingview.com/news/cryptobriefing:68ce8d0e0094b:0-bitcoin-holds-above-60k-as-death-cross-signals-weakness/
+· BTC Proshares Bitcoin & Ether Equal Weight ETF (BETE) latest press releases and corporate news (Yahoo Finance) https://uk.finance.yahoo.com/quote/BETE/press-releases/
 · BBAS3 Alta do Banco do Brasil (BBAS3) é 'fogo de palha'? Gestora vê uma foto ruim de uma realidade pior ainda (Money Times) https://www.moneytimes.com.br/alta-do-banco-do-brasil-bbas3-e-fogo-de-palha-gestora-ve-uma-foto-ruim-de-uma-realidade-pior-ainda-rnda/
 · INTC Intel Stocks Slip After Erasing a 10.3% Plunge Below $50 (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:d85d0f5f6094b:0-intel-stocks-slip-after-erasing-a-10-3-plunge-below-50/
 · NVDA Should You Buy Nvidia After Its Sharp Decline? Warren Buffett’s Long-Held Investment Philosophy Provides a Clear Answer (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/buy-nvidia-sharp-decline-warren-173502631.html
@@ -133,9 +138,4 @@ id: E05-PETR4-fd098a6e7e-2026-11-26 · status: expirado
 · MU Micron and Sandisk Are Two of the Cheapest AI Chip Stocks to Own (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:e251cce89094b:0-micron-and-sandisk-are-two-of-the-cheapest-ai-chip-stocks-to-own/
 · SBSP3 Sabesp diz que há fake news sobre contaminação e reafirma qualidade da água (InfoMoney) https://www.infomoney.com.br/brasil/sabesp-diz-que-ha-fake-news-sobre-contaminacao-e-reafirma-qualidade-da-agua/
 · NVDA Heading Into FY27: How to Trade Broadcom’s ~$115B AI Target Against Nvidia’s Multiple Reset (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/heading-fy27-trade-broadcom-115b-134533717.html
-· USDBRL Ibovespa dispara mais de 3% com ‘efeito Trabuco’ e IPCA-15 abaixo do esperado; dólar cai a R$ 5,73 (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/sem-wall-street-ibovespa-hoje-fica-mais-sensivel-a-noticias-de-brasilia-e-previa-da-inflacao/
-· NVDA New U.S. Chip Rule Is Now Hitting AI Data-Center Loans, Not Just Nvidia Chips (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/u-chip-rule-now-hitting-132829525.html
-· USDBRL Dólar abre em queda e Ibovespa em alta com Trabuco cotado para Fazenda (Poder360) https://www.poder360.com.br/poder-economia/dolar-abre-em-queda-e-ibovespa-em-alta-com-trabuco-cotado-para-fazenda/
-· USDBRL Dólar cai após IPCA-15 fraco, com foco em Trabuco e medidas fiscais (UOL Economia) https://economia.uol.com.br/noticias/estadao-conteudo/2026/11/26/dolar-cai-apos-ipca-15-fraco-com-foco-em-trabuco-e-medidas-fiscais.htm
-· NVDA NVIDIA's Data Center Sales Jump 110%: Can NVDA Keep the Pace Ahead? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/nvidias-data-center-sales-jump-122800006.html
-· (+45 manchetes; lista completa em eventos/noticias.json)
+· (+50 manchetes; lista completa em eventos/noticias.json)
