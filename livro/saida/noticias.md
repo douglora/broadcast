@@ -1,8 +1,24 @@
-NOTÍCIAS E FATOS · 26/11 10h05
+NOTÍCIAS E FATOS · 26/11 11h05
 
-Pernas: noticias ok 14 novas (18 consultas; descartadas: 332 veículo fora da lista, 31 sem ativo, 5 teto); 3 falhas · cvm ok 0 novos de 12 (5 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 13 novas (18 consultas; descartadas: 403 veículo fora da lista, 32 sem ativo, 0 teto) · cvm ok 0 novos de 12 (5 cias casadas) · sec ok 0 novos em 3 dias
 
-## NOTÍCIAS COM MATERIALIDADE (3)
+## NOTÍCIAS COM MATERIALIDADE (4)
+
+[ATENÇÃO] E05 · KO · Coca-Cola Is the Most Boring Stock I Own. After 64 Years of Dividend Raises, I'll Never Sell.
+Yahoo Finance · 26/11 09h59 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – I have my fair share of growth stocks, for sure, but my staple "boring" stock is Coca-Cola (NYSE:KO).
+  – Although Coca-Cola is up over 40% this year (as of Nov.
+  – 24), its main appeal has long been its dividend.
+  – It has increased its annual dividend for 64 consecutive years, making it one of the market's premier Dividend Kings ( companies with at least 50 consecutive years of dividend hikes).
+  – Most investors think they missed the AI boat because they didn't buy Nvidia in 2005.
+  – But according to our analysts, we're only at the end of "Act 1"—the R&D phase.
+Link: https://finance.yahoo.com/markets/stocks/articles/coca-cola-most-boring-stock-125902904.html
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: KO
+Como falar: 'saiu no Yahoo Finance: Coca-Cola Is the Most Boring Stock I Own. After 64 Years of Dividend Raises, I'll Never S…; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 26/11 09h59
+id: E05-KO-4815d18ec1-2026-11-26 · status: pendente
 
 [ATENÇÃO] E05 · NVDA · Top Analyst Flags 5 Major Risks for NVDA Stock, Says Nvidia Could Stay in ‘Penalty Box’ for 1-2 Quarters: ‘Jensen Return Honeymoon Lasted About a Day’
 TradingView (Reuters) · 26/11 04h43 · fonte única · licença: manchete
@@ -11,7 +27,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: NVDA
 Como falar: 'saiu no TradingView (Reuters): Top Analyst Flags 5 Major Risks for NVDA Stock, Says Nvidia Could Stay in ‘Penalty Box’ f…; confirmar o número no texto antes de repassar'
 Fonte: TradingView (Reuters) 26/11 04h43
-id: E05-NVDA-fefff1cd96-2026-11-26 · status: pendente
+id: E05-NVDA-fefff1cd96-2026-11-26 · status: expirado
 
 [ATENÇÃO] E05 · NVDA · Nvidia's Aa1 rating, stable outlook unchanged after Huang's return: Moody's (NVDA:NASDAQ)
 Seeking Alpha · 26/11 03h01 · fonte única · licença: manchete
@@ -20,7 +36,7 @@ Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais
 Ativos: NVDA
 Como falar: 'saiu no Seeking Alpha: Nvidia's Aa1 rating, stable outlook unchanged after Huang's return: Moody's (NVDA:NASDAQ); confirmar o número no texto antes de repassar'
 Fonte: Seeking Alpha 26/11 03h01
-id: E05-NVDA-d3ed239b92-2026-11-26 · status: pendente
+id: E05-NVDA-d3ed239b92-2026-11-26 · status: expirado
 
 [ATENÇÃO] E05 · PETR4 · Santander rebaixa Petrobras a neutra e reduz preço-alvo de ação ordinária
 CNN Brasil · 25/11 21h05 · fonte única · licença: resumo
@@ -39,8 +55,20 @@ Fonte: CNN Brasil 25/11 21h05
 id: E05-PETR4-fd098a6e7e-2026-11-26 · status: expirado
 
 
-## OUTRAS NOTÍCIAS (só manchete) (40)
+## OUTRAS NOTÍCIAS (só manchete) (52)
 
+· SBSP3 Sabesp diz que há fake news sobre contaminação e reafirma qualidade da água (InfoMoney) https://www.infomoney.com.br/brasil/sabesp-diz-que-ha-fake-news-sobre-contaminacao-e-reafirma-qualidade-da-agua/
+· NVDA Heading Into FY27: How to Trade Broadcom’s ~$115B AI Target Against Nvidia’s Multiple Reset (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/heading-fy27-trade-broadcom-115b-134533717.html
+· USDBRL Ibovespa dispara mais de 3% com ‘efeito Trabuco’ e IPCA-15 abaixo do esperado; dólar cai a R$ 5,73 (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/sem-wall-street-ibovespa-hoje-fica-mais-sensivel-a-noticias-de-brasilia-e-previa-da-inflacao/
+· NVDA New U.S. Chip Rule Is Now Hitting AI Data-Center Loans, Not Just Nvidia Chips (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/u-chip-rule-now-hitting-132829525.html
+· USDBRL Dólar abre em queda e Ibovespa em alta com Trabuco cotado para Fazenda (Poder360) https://www.poder360.com.br/poder-economia/dolar-abre-em-queda-e-ibovespa-em-alta-com-trabuco-cotado-para-fazenda/
+· USDBRL Dólar cai após IPCA-15 fraco, com foco em Trabuco e medidas fiscais (UOL Economia) https://economia.uol.com.br/noticias/estadao-conteudo/2026/11/26/dolar-cai-apos-ipca-15-fraco-com-foco-em-trabuco-e-medidas-fiscais.htm
+· NVDA NVIDIA's Data Center Sales Jump 110%: Can NVDA Keep the Pace Ahead? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/nvidias-data-center-sales-jump-122800006.html
+· NVDA Nvidia: Upgrade To Hold, Too Early To Buy (NASDAQ:NVDA) (Seeking Alpha) https://seekingalpha.com/article/4972036-nvidia-upgrade-to-hold-too-early-to-buy
+· BTC Talos warns of thin Thanksgiving liquidity as Bitcoin eyes $61K (TradingView (Reuters)) https://www.tradingview.com/news/cryptobriefing:476b6b375094b:0-talos-warns-of-thin-thanksgiving-liquidity-as-bitcoin-eyes-61k/
+· BRENT Brent Climbs Above $95 as Middle East Supply Risks Offset Rising US Crude Stockpiles (Yahoo Finance) https://uk.finance.yahoo.com/news/brent-climbs-above-95-middle-095643383.html
+· PETR4 Análise: A Petrobras e os limites da autossuficiência em diesel (CNN Brasil) https://www.cnnbrasil.com.br/blogs/pedro-cortes/infra/analise-a-petrobras-e-os-limites-da-autossuficiencia-em-diesel/
+· AXIA3 Citi reduz preço-alvo para Axia Energia de R$ 68 para R$ 66 e mantém recomendação de compra (Valor Economico) https://valor.globo.com/empresas/noticia/2026/11/25/citi-reduz-preo-alvo-para-axia-energia-de-r-68-para-r-66-e-mantm-recomendao-de-compra.ghtml
 · USDBRL Dólar cai a R$ 5,75 com feriado nos EUA e "prévia da inflação" no Brasil (CNN Brasil) https://www.cnnbrasil.com.br/economia/money/mercado/mercado-financeiro-ibovespa-dolar-26-novembro-2026/
 · BTC Galaxy Research Withdraws Call That Bitcoin's Bear Market Is Over (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/galaxy-research-withdraws-call-bitcoins-122608908.html
 · USDBRL Dólar cai abaixo de R$ 5,80 após Lula sondar possibilidade de Trabuco assumir Fazenda (InfoMoney) https://www.infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-26112026/

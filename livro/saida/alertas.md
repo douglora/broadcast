@@ -1,21 +1,5 @@
 ALERTAS · intradia
 
-(pendente de slot anterior) [ATENÇÃO] E05 · PETR4 · Santander rebaixa Petrobras a neutra e reduz preço-alvo de ação ordinária
-CNN Brasil · 25/11 21h05 · fonte única · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – O Santander rebaixou a recomendação para as ações da Petrobras de outperform (compra) para neutra e reduziu o preço-alvo para o final de 2027 do papel ordinário de R$ 60 para R$ 54,10, o que implica alta de 16,82% ante…
-  – Para os ADRs (American Depositary Receipts), o preço-alvo passou de US$ 24 para US$ 18,35 (+17,10% ante o último fechamento).
-  – Segundo o banco, embora o novo Plano de Negócios 2027-31 indique produção mais robusta, ele também eleva a percepção de risco.
-  – Há ainda incerteza sobre a manutenção da política de preços de combustíveis, que pode ser revista em breve, além de dúvidas quanto ao imposto de 12% sobre exportação de petróleo e a eventuais subsídios aos combustíveis.
-  – O Santander calcula yield ordinário de dividendos em torno de 9% para 2027, assumindo Brent a US$ 80 o barril.
-  – Na avaliação do banco, esse nível não compensa os riscos adicionais, sobretudo porque grandes petroleiras globais oferecem retorno médio de cerca de 8% aos acionistas com menor risco de alocação de capital.
-Link: https://www.cnnbrasil.com.br/economia/money/mercado/santander-rebaixa-petrobras-de-compra-para-neutra-e-corta-preco-alvo-da-acao-on-para-r-5410/
-Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
-Ativos: PETR4
-Como falar: 'saiu no CNN Brasil: Santander rebaixa Petrobras a neutra e reduz preço-alvo de ação ordinária; confirmar o número no texto antes de repassar'
-Fonte: CNN Brasil 25/11 21h05
-ids: E05-PETR4-fd098a6e7e-2026-11-26
-
 (pendente de slot anterior) [INFO] M01 · Agenda: Thanksgiving: NYSE fechada (27/11 meio pregao) hoje (26/11)
 O que está no preço: F28 14,29% · F35 15,08% · Focus IPCA 2027 5,12%
 Por que importa: evento macro de alta relevância reprecifica a curva inteira; o que importa é a surpresa contra o que está no preço
@@ -42,28 +26,43 @@ Como falar: 'saiu no Seeking Alpha: Nvidia's Aa1 rating, stable outlook unchange
 Fonte: Seeking Alpha 26/11 03h01
 ids: E05-NVDA-d3ed239b92-2026-11-26
 
+[ATENÇÃO] E05 · KO · Coca-Cola Is the Most Boring Stock I Own. After 64 Years of Dividend Raises, I'll Never Sell.
+Yahoo Finance · 26/11 09h59 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – I have my fair share of growth stocks, for sure, but my staple "boring" stock is Coca-Cola (NYSE:KO).
+  – Although Coca-Cola is up over 40% this year (as of Nov.
+  – 24), its main appeal has long been its dividend.
+  – It has increased its annual dividend for 64 consecutive years, making it one of the market's premier Dividend Kings ( companies with at least 50 consecutive years of dividend hikes).
+  – Most investors think they missed the AI boat because they didn't buy Nvidia in 2005.
+  – But according to our analysts, we're only at the end of "Act 1"—the R&D phase.
+Link: https://finance.yahoo.com/markets/stocks/articles/coca-cola-most-boring-stock-125902904.html
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: KO
+Como falar: 'saiu no Yahoo Finance: Coca-Cola Is the Most Boring Stock I Own. After 64 Years of Dividend Raises, I'll Never S…; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 26/11 09h59
+Push: [ATENÇÃO] KO · Coca-Cola Is the Most Boring Stock I Own. After 64 Year · detalhe na sessão
+ids: E05-KO-4815d18ec1-2026-11-26
+
 Info (só linha no Fechamento):
-· F01 Real sobe: USD/BRL 5,7706 (cruzou R$ 5,80) (parcial, intradia)
-· E05 USDBRL · Dólar cai a R$ 5,75 com feriado nos EUA e "prévia da inflação" no Brasil
-· E05 BTC · Galaxy Research Withdraws Call That Bitcoin's Bear Market Is Over
-· E05 USDBRL · Dólar cai abaixo de R$ 5,80 após Lula sondar possibilidade de Trabuco assumir Fazenda
-· E05 USDBRL · Dólar abre em queda, a R$ 5,77, influenciado por IPCA-15 e equipe econômica
-· E05 BTC · Billionaire Investor Paul Tudor Jones Just Doubled Down on Bitcoin. What Does He Know That the Market Doesn't?
-· E05 BTC · Spot bitcoin ETFs are on track for their biggest monthly outflow on record
 · E05 SBSP3 · Sabesp diz que há fake news sobre contaminação e reafirma qualidade da água
-· E05 USDBRL · Ibovespa Hoje Ao Vivo: Confira o que movimenta Bolsa, Dólar e Juros nesta quinta
-· E05 USDBRL · Dólar abre em queda e vai abaixo de R$ 5,80, com prévia da inflação e política econômica no radar
-· E05 AMD · Is The Client Unit Still Carrying AMD Stock?
-· E05 BTC · Bitcoin price eyes $61K as Talos warns of thin Thanksgiving liquidity
-· E05 MU · Nvidia, AMD and Micron Stocks Plunge as AI Selloff Deepens
-· E05 NVDA · Nvidia Reportedly Halts AI Server Shipments to Four Southeast Asian Countries Amid Tighter US Export Controls
-· E05 BTC · Bitcoin Tops $60,000 as Risk Assets Rise in Holiday Trading
+· E05 NVDA · Heading Into FY27: How to Trade Broadcom’s ~$115B AI Target Against Nvidia’s Multiple Reset
+· E05 USDBRL · Ibovespa dispara mais de 3% com ‘efeito Trabuco’ e IPCA-15 abaixo do esperado; dólar cai a R$ 5,73
+· E05 NVDA · New U.S. Chip Rule Is Now Hitting AI Data-Center Loans, Not Just Nvidia Chips
+· E05 USDBRL · Dólar abre em queda e Ibovespa em alta com Trabuco cotado para Fazenda
+· E05 USDBRL · Dólar cai após IPCA-15 fraco, com foco em Trabuco e medidas fiscais
+· E05 NVDA · NVIDIA's Data Center Sales Jump 110%: Can NVDA Keep the Pace Ahead?
+· E05 NVDA · Nvidia: Upgrade To Hold, Too Early To Buy (NASDAQ:NVDA)
+· E05 BTC · Talos warns of thin Thanksgiving liquidity as Bitcoin eyes $61K
+· E05 BRENT · Brent Climbs Above $95 as Middle East Supply Risks Offset Rising US Crude Stockpiles
+· E05 PETR4 · Análise: A Petrobras e os limites da autossuficiência em diesel
+· E05 AXIA3 · Citi reduz preço-alvo para Axia Energia de R$ 68 para R$ 66 e mantém recomendação de compra
 
 
 Alertas do dia (todos, com status):
-· pendente  M01 MACRO — Agenda: Thanksgiving: NYSE fechada (27/11 meio pregao) hoje (26/11)
-· pendente  E05 NVDA — NVDA · Top Analyst Flags 5 Major Risks for NVDA Stock, Says Nvidia Could Stay in
-· pendente  E05 NVDA — NVDA · Nvidia's Aa1 rating, stable outlook unchanged after Huang's return: Moody
+· pendente  E05 KO — KO · Coca-Cola Is the Most Boring Stock I Own. After 64 Years of Dividend Raises
+· expirado  M01 MACRO — Agenda: Thanksgiving: NYSE fechada (27/11 meio pregao) hoje (26/11)
+· expirado  E05 NVDA — NVDA · Top Analyst Flags 5 Major Risks for NVDA Stock, Says Nvidia Could Stay in
+· expirado  E05 NVDA — NVDA · Nvidia's Aa1 rating, stable outlook unchanged after Huang's return: Moody
 · expirado  E05 PETR4 — PETR4 · Santander rebaixa Petrobras a neutra e reduz preço-alvo de ação ordinári
-· linha     F01 USDBRL — Real sobe: USD/BRL 5,7706 (cruzou R$ 5,80) (parcial, intradia)
-· (+41 notícias só manchete, em noticias.md)
+· linha     F01 USDBRL — Real sobe: USD/BRL 5,7205 (-1,6% no dia · -3,5% em 5 sessões · 6 dias seguidos d
+· (+53 notícias só manchete, em noticias.md)
