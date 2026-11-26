@@ -1,6 +1,6 @@
 ALERTAS · Fechamento 18h
 
-[CRÍTICO] CURVA · C01 A curva FECHOU: F30 -16 bps no dia · F32 -17 bps no dia (ajuste B3 25/11) / C05 Pre 2029 FECHA 28 bps (PU +0,7%) · Pre 2032 FECHA 28 bps (PU +1,4%) (base 25/11) / C03 DI em nível: F30 cruzou 15,00% (para baixo, agora 14,87%)
+(pendente de slot anterior) [CRÍTICO] CURVA · C01 A curva FECHOU: F30 -16 bps no dia · F32 -17 bps no dia (ajuste B3 25/11) / C05 Pre 2029 FECHA 28 bps (PU +0,7%) · Pre 2032 FECHA 28 bps (PU +1,4%) (base 25/11) / C03 DI em nível: F30 cruzou 15,00% (para baixo, agora 14,87%)
 DI F28 14,29 (-15) · F29 14,71 (-15) · F30 14,87 (-16) · F32 15,03 (-17) · F35 15,08 (-14)
 Inclinação F35-F28 +79 bps (+0)
 TD Pre 2029 14,76 (-28) PU +0,7% · IPCA+ 2032 7,84 (+2) · IPCA+ 2040 7,56 (+2) · IPCA+ 2050 7,58 (+2) · Pre 2032 15,15 (-28) PU +1,4%
@@ -10,26 +10,7 @@ Implícita 2031/32 (descasado): 6,98% (+15 bps na semana) vs Focus IPCA 2030 3,9
 Por que importa: delta em bps e inclinação são o que toda mesa de renda fixa reporta e o que explica a marcação do Tesouro ao cliente
 Como falar: 'a curva fechou: o prefixado valorizou na marcação; o cupom contratado não muda'
 Fonte: B3 ajuste 25/11 · Tesouro Transparente base 25/11; BCB Focus · Tesouro Transparente, base 25/11 · ajuste B3 25/11
-Push: [CRÍTICO] DI A curva FECHOU | TESOURO Pre 2029 FECHA 28 bps (PU +0,7%) · Pre 2032 FECHA 28 bps (PU | DI em nível +2 · detalhe na sessão
 ids: C01-DI-fechou-2026-11-25, C05-TESOURO-fechou-2026-11-25, C03-DI-di-2026-11-25, C03-TESOURO-td-2026-11-25, C06-TESOURO-implicita-2026-11-25
-
-(pendente de slot anterior) [ATENÇÃO] E05 · NVDA · Nvidia agrees to settle 2018 US investor class action for $290 million
-Reuters · 25/11 14h36 · fonte única · licença: manchete
-Link: https://www.reuters.com/legal/government/nvidia-agrees-settle-2018-us-investor-class-action-for-290-million-2026-11-25/
-Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
-Ativos: NVDA
-Como falar: 'saiu no Reuters: Nvidia agrees to settle 2018 US investor class action for $290 million; confirmar o número no texto antes de repassar'
-Fonte: Reuters 25/11 14h36
-ids: E05-NVDA-5b37f62a45-2026-11-25
-
-(pendente de slot anterior) [ATENÇÃO] E05 · NVDA · Nvidia agrees to $290M settlement over crypto mining revenue disclosures
-TradingView (Reuters) · 25/11 14h19 · fonte única · licença: manchete
-Link: https://www.tradingview.com/news/cointelegraph:a5d0a6786094b:0-nvidia-agrees-to-290m-settlement-over-crypto-mining-revenue-disclosures/
-Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
-Ativos: NVDA
-Como falar: 'saiu no TradingView (Reuters): Nvidia agrees to $290M settlement over crypto mining revenue disclosures; confirmar o número no texto antes de repassar'
-Fonte: TradingView (Reuters) 25/11 14h19
-ids: E05-NVDA-b7a242b7cb-2026-11-25
 
 (pendente de slot anterior) [ATENÇÃO] E05 · KLBN4 · Klabin (KLBN11) atualiza informações sobre acidente em Santa Catarina e adia Investor Day
 Money Times · 25/11 18h26 · fonte única · licença: integral
@@ -75,21 +56,35 @@ Como falar: 'saiu no Yahoo Finance: Nvidia to Pay $290 Million to Settle Long-Ru
 Fonte: Yahoo Finance 25/11 16h28
 ids: E05-NVDA-42341009ee-2026-11-25
 
+[ATENÇÃO] E05 · PETR4 · Santander rebaixa Petrobras a neutra e reduz preço-alvo de ação ordinária
+CNN Brasil · 25/11 21h05 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – O Santander rebaixou a recomendação para as ações da Petrobras de outperform (compra) para neutra e reduziu o preço-alvo para o final de 2027 do papel ordinário de R$ 60 para R$ 54,10, o que implica alta de 16,82% ante…
+  – Para os ADRs (American Depositary Receipts), o preço-alvo passou de US$ 24 para US$ 18,35 (+17,10% ante o último fechamento).
+  – Segundo o banco, embora o novo Plano de Negócios 2027-31 indique produção mais robusta, ele também eleva a percepção de risco.
+  – Há ainda incerteza sobre a manutenção da política de preços de combustíveis, que pode ser revista em breve, além de dúvidas quanto ao imposto de 12% sobre exportação de petróleo e a eventuais subsídios aos combustíveis.
+  – O Santander calcula yield ordinário de dividendos em torno de 9% para 2027, assumindo Brent a US$ 80 o barril.
+  – Na avaliação do banco, esse nível não compensa os riscos adicionais, sobretudo porque grandes petroleiras globais oferecem retorno médio de cerca de 8% aos acionistas com menor risco de alocação de capital.
+Link: https://www.cnnbrasil.com.br/economia/money/mercado/santander-rebaixa-petrobras-de-compra-para-neutra-e-corta-preco-alvo-da-acao-on-para-r-5410/
+Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
+Ativos: PETR4
+Como falar: 'saiu no CNN Brasil: Santander rebaixa Petrobras a neutra e reduz preço-alvo de ação ordinária; confirmar o número no texto antes de repassar'
+Fonte: CNN Brasil 25/11 21h05
+Push: [ATENÇÃO] PETR4 · Santander rebaixa Petrobras a neutra e reduz preço-a · detalhe na sessão
+ids: E05-PETR4-fd098a6e7e-2026-11-26
+
 Info (só linha no Fechamento):
-· T01 ALUP4 retomou a média de 200 dias pela 1ª sessão: R$ 11,03 vs MM200 R$ 10,64 (+3,6%)
-· T02 WUTI (State Street SPDR MSCI World Utilities UCITS ETF (USD)) retomou a MM100 pela 2ª sessão: US$ 69,68, ainda abaixo da MM200 (repique dentro da baixa)
-· T02 AMZN perdeu a MM50 e perdeu a MM100 pela 2ª sessão: US$ 244,43, já abaixo da MM200 (confirma tendência de baixa)
-· T10 CNDX (iShares NASDAQ 100 UCITS ETF USD (Acc)) no mínimo de força relativa em 63 sessões contra SPX: -16% vs -7,2% em 20 sessões (-8,9% relativo)
-· T10 ALUP4 no máximo de força relativa em 63 sessões contra IBOV: +5,2% vs -5,6% em 20 sessões (+11% relativo)
-· T11 BOTZ descolou à frente de SOX: -14% vs -25% em 20 sessões (z 2,1 em 252 sessões, 2º dia)
-· E05 SBSP3 · Sabesp diz que ação coordenada dissemina informações falsas sobre a qualidade da água e aciona Justiça
-· E05 BTC · How Much of Your Portfolio Should Be in Bitcoin After a 50% Drop?
-· E05 NVDA · Moody's Nvidia's CEO Reinstatement Restores Strategic Continuity But Leaves Some Governance Questions Unresolved Rating And Outlook Are Unchanged
-· E05 AMD · Prediction: AMD Stock Could Rally 58% as Analysts Maintain Strong Buy Rating
-· E05 PETR4 · A Petrobras já perdeu dinheiro no etanol de cana. Agora vai tentar o milho
-· E05 ITUB4 · Tesouro IPCA+, Treasurys e S&P 500: Itaú dobra a aposta no exterior e reduz o peso do Brasil nas carteiras para 2027
-· E05 BTC · Michael Saylor reveals a Bitcoin plan that could shock investors
-· E05 JPM · JPMorgan Sees S&P 500 At 8,200 In 2027 As AI Supercycle Remains Intact
+· E05 NVDA · Nvidia chips reach Chinese-owned U.S. firms despite export curbs, CBS reports By Investing.com
+· E05 NVDA · S&P warns Nvidia credit rating could be cut over 'rising' management and governance risk
+· E05 AMD · Why Retail Investors Are Watching AMD and AI Infrastructure Stocks After SpaceX Satellite News
+· E05 BTC · How Low Can Bitcoin, Ethereum and XRP Fall? 4 Price Levels to Watch
+· E05 VALE3 · Vale: When Everyone Sells, I Start Looking (Rating Upgrade) (NYSE:VALE)
+· E05 USDBRL · Bolsa sobe e o dólar caiu com expectativa por novas medidas de controle das contas públicas
+· E05 EWY · South Korea's Kospi leads gains as tech rebound lifts Asia markets
+· E05 NVDA · Altimeter’s Brad Gerstner Says Nvidia Was Priced for “Negative Growth for 2028 and 2029.” Wall Street Expects 29%
+· E05 NVDA · Nvidia: The Demand It Finances Is The Risk (Rating Downgrade) (NASDAQ:NVDA)
+· E05 BBDC4 · Luiz Trabuco: quem é o executivo do Bradesco que está entre os cotados para assumir Ministério da Fazenda
+· E05 USDBRL · Dólar fecha com queda de 1,5%, a R$ 5,81, com especulações sobre ministro da Fazenda
 · T08 CSPX (iShares Core S&P 500 UCITS ETF USD (Acc)) entrou em correção: -11% do pico de 52s (US$ 845,93 em 06/10) a US$ 756,28
 · T08 RBOT (iShares Automation & Robotics UCITS ETF USD (Acc)) entrou em queda de -25% do pico: -26% do pico de 52s (US$ 22,99 em 06/10) a US$ 17,11
 · T03 LITE formou death cross: MM50 US$ 804,35 cruzou abaixo da MM200 US$ 815,13 pela 2ª sessão; preço US$ 476,58, -42% da MM200, +64% em 12m
@@ -102,6 +97,7 @@ Alertas do dia (todos, com status):
 · pendente  C05 TESOURO — Pre 2029 FECHA 28 bps (PU +0,7%) · Pre 2032 FECHA 28 bps (PU +1,4%) (base 25/11)
 · linha     T08 RBOT — RBOT (iShares Automation & Robotics UCITS ETF USD (Acc)) entrou em queda de -25%
 · expirado  T13 VIX — VIX cruzou 30: 30,9 (+17% no dia)
+· pendente  E05 PETR4 — PETR4 · Santander rebaixa Petrobras a neutra e reduz preço-alvo de ação ordinári
 · pendente  C01 DI — A curva FECHOU: F30 -16 bps no dia · F32 -17 bps no dia (ajuste B3 25/11)
 · pendente  C03 DI — DI em nível: F30 cruzou 15,00% (para baixo, agora 14,87%)
 · pendente  C03 TESOURO — Prefixado em nível: Pre 2029 cruzou 15,00% (agora 14,76%)
@@ -110,9 +106,9 @@ Alertas do dia (todos, com status):
 · linha     T04 WQTM — WQTM fechou na mínima de 52 semanas: US$ 24,66, -24% em 1m e -14% em 12m
 · linha     T08 CSPX — CSPX (iShares Core S&P 500 UCITS ETF USD (Acc)) entrou em correção: -11% do pico
 · linha     T10 MU — MU no mínimo de força relativa em 63 sessões contra SOX: -39% vs -25% em 20 sess
-· pendente  E05 KLBN4 — KLBN4 · Klabin (KLBN11) atualiza informações sobre acidente em Santa Catarina e 
-· pendente  E05 COHR — COHR · Coherent (COHR) Authorizes A $2.0b Buyback, Is The 47% Undervaluation Cas
-· pendente  E05 NVDA — NVDA · Nvidia to Pay $290 Million to Settle Long-Running Crypto Mining Revenue L
+· expirado  E05 KLBN4 — KLBN4 · Klabin (KLBN11) atualiza informações sobre acidente em Santa Catarina e 
+· expirado  E05 COHR — COHR · Coherent (COHR) Authorizes A $2.0b Buyback, Is The 47% Undervaluation Cas
+· expirado  E05 NVDA — NVDA · Nvidia to Pay $290 Million to Settle Long-Running Crypto Mining Revenue L
 · expirado  E05 NVDA — NVDA · Nvidia agrees to settle 2018 US investor class action for $290 million
 · expirado  E05 NVDA — NVDA · Nvidia agrees to $290M settlement over crypto mining revenue disclosures
 · expirado  E05 PETR4 — PETR4 · Petrobras eleva em 12% plano de investimentos entre 2027 e 2031, para US
@@ -137,6 +133,6 @@ Alertas do dia (todos, com status):
 · linha     T10 CNDX — CNDX (iShares NASDAQ 100 UCITS ETF USD (Acc)) no mínimo de força relativa em 63 
 · linha     T10 ALUP4 — ALUP4 no máximo de força relativa em 63 sessões contra IBOV: +5,2% vs -5,6% em 2
 · linha     T11 BOTZ — BOTZ descolou à frente de SOX: -14% vs -25% em 20 sessões (z 2,1 em 252 sessões,
-· linha     F03 BRENT — Brent sobe a US$ 94,69 (+3,6% no dia)
+· linha     F03 BRENT — Brent sobe a US$ 94,61 (+3,5% no dia)
 · linha     F01 USDBRL — Real sobe: USD/BRL 5,8151 (-1,6% no dia · 5 dias seguidos de movimento doméstico
-· (+140 notícias só manchete, em noticias.md)
+· (+151 notícias só manchete, em noticias.md)

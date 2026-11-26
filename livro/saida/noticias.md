@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 25/11 19h57
+NOTÍCIAS E FATOS · 26/11 00h28
 
-Pernas: noticias ok 8 novas (18 consultas; descartadas: 422 veículo fora da lista, 26 sem ativo, 0 teto) · cvm ok 0 novos de 12 (5 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 12 novas (18 consultas; descartadas: 432 veículo fora da lista, 28 sem ativo, 9 teto) · cvm ok 0 novos de 12 (5 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (1)
 
@@ -43,7 +43,23 @@ Fonte: SEC EDGAR 2026-11-25
 id: E04-TSM-26000805-2026-11-25 · status: linha · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (24)
+## NOTÍCIAS COM MATERIALIDADE (25)
+
+[ATENÇÃO] E05 · PETR4 · Santander rebaixa Petrobras a neutra e reduz preço-alvo de ação ordinária
+CNN Brasil · 25/11 21h05 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – O Santander rebaixou a recomendação para as ações da Petrobras de outperform (compra) para neutra e reduziu o preço-alvo para o final de 2027 do papel ordinário de R$ 60 para R$ 54,10, o que implica alta de 16,82% ante…
+  – Para os ADRs (American Depositary Receipts), o preço-alvo passou de US$ 24 para US$ 18,35 (+17,10% ante o último fechamento).
+  – Segundo o banco, embora o novo Plano de Negócios 2027-31 indique produção mais robusta, ele também eleva a percepção de risco.
+  – Há ainda incerteza sobre a manutenção da política de preços de combustíveis, que pode ser revista em breve, além de dúvidas quanto ao imposto de 12% sobre exportação de petróleo e a eventuais subsídios aos combustíveis.
+  – O Santander calcula yield ordinário de dividendos em torno de 9% para 2027, assumindo Brent a US$ 80 o barril.
+  – Na avaliação do banco, esse nível não compensa os riscos adicionais, sobretudo porque grandes petroleiras globais oferecem retorno médio de cerca de 8% aos acionistas com menor risco de alocação de capital.
+Link: https://www.cnnbrasil.com.br/economia/money/mercado/santander-rebaixa-petrobras-de-compra-para-neutra-e-corta-preco-alvo-da-acao-on-para-r-5410/
+Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
+Ativos: PETR4
+Como falar: 'saiu no CNN Brasil: Santander rebaixa Petrobras a neutra e reduz preço-alvo de ação ordinária; confirmar o número no texto antes de repassar'
+Fonte: CNN Brasil 25/11 21h05
+id: E05-PETR4-fd098a6e7e-2026-11-26 · status: pendente
 
 [ATENÇÃO] E05 · KLBN4 · Klabin (KLBN11) atualiza informações sobre acidente em Santa Catarina e adia Investor Day
 Money Times · 25/11 18h26 · fonte única · licença: integral
@@ -55,7 +71,7 @@ Por que importa: evento operacional afeta producao e custo no trimestre corrente
 Ativos: KLBN4
 Como falar: 'saiu no Money Times: Klabin (KLBN11) atualiza informações sobre acidente em Santa Catarina e adia Investor Day; confirmar o número no texto antes de repassar'
 Fonte: Money Times 25/11 18h26
-id: E05-KLBN4-3eee798dee-2026-11-25 · status: pendente · íntegra disponível
+id: E05-KLBN4-3eee798dee-2026-11-25 · status: expirado · íntegra disponível
 
 [ATENÇÃO] E05 · COHR · Coherent (COHR) Authorizes A $2.0b Buyback, Is The 47% Undervaluation Case Intact?
 Yahoo Finance · 25/11 17h14 · fonte única · licença: resumo
@@ -71,7 +87,7 @@ Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir
 Ativos: COHR
 Como falar: 'saiu no Yahoo Finance: Coherent (COHR) Authorizes A $2.0b Buyback, Is The 47% Undervaluation Case Intact?; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 25/11 17h14
-id: E05-COHR-db6c8e4f4d-2026-11-25 · status: pendente
+id: E05-COHR-db6c8e4f4d-2026-11-25 · status: expirado
 
 [ATENÇÃO] E05 · NVDA · Nvidia to Pay $290 Million to Settle Long-Running Crypto Mining Revenue Lawsuit
 Yahoo Finance · 25/11 16h28 · fonte única · licença: resumo
@@ -87,7 +103,7 @@ Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; 
 Ativos: NVDA
 Como falar: 'saiu no Yahoo Finance: Nvidia to Pay $290 Million to Settle Long-Running Crypto Mining Revenue Lawsuit; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 25/11 16h28
-id: E05-NVDA-42341009ee-2026-11-25 · status: pendente
+id: E05-NVDA-42341009ee-2026-11-25 · status: expirado
 
 [ATENÇÃO] E05 · NVDA · Plot Twist: Coherent Announces a $2 Billion Buyback, the Same Sum Nvidia Paid for Its Stock in March
 Yahoo Finance · 25/11 00h52 · fonte única · licença: resumo
@@ -342,8 +358,19 @@ Fonte: Suno Noticias 24/11 11h06
 id: E05-PETR4-594e6ec6b7-2026-11-24 · status: expirado
 
 
-## OUTRAS NOTÍCIAS (só manchete) (129)
+## OUTRAS NOTÍCIAS (só manchete) (140)
 
+· NVDA Nvidia chips reach Chinese-owned U.S. firms despite export curbs, CBS reports By Investing.com (Investing.com) https://za.investing.com/news/stock-market-news/nvidia-chips-reach-chineseowned-us-firms-despite-export-curbs-cbs-reports-4597850
+· NVDA S&P warns Nvidia credit rating could be cut over 'rising' management and governance risk (CNBC) https://www.cnbc.com/2026/11/26/nvidia-market-governance-risk.html
+· AMD Why Retail Investors Are Watching AMD and AI Infrastructure Stocks After SpaceX Satellite News (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/why-retail-investors-watching-amd-021215050.html
+· BTC How Low Can Bitcoin, Ethereum and XRP Fall? 4 Price Levels to Watch (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/low-bitcoin-ethereum-xrp-fall-013734178.html
+· VALE3 Vale: When Everyone Sells, I Start Looking (Rating Upgrade) (NYSE:VALE) (Seeking Alpha) https://seekingalpha.com/article/4972075-vale-when-everyone-sells-i-start-looking-upgrade
+· USDBRL Bolsa sobe e o dólar caiu com expectativa por novas medidas de controle das contas públicas (g1) https://g1.globo.com/google/amp/jornal-nacional/video/bolsa-sobe-e-o-dolar-caiu-com-expectativa-por-novas-medidas-de-controle-das-contas-publicas-15282113.ghtml
+· EWY South Korea's Kospi leads gains as tech rebound lifts Asia markets (CNBC) https://www.cnbc.com/2026/11/26/stock-markets-today-.html
+· NVDA Altimeter’s Brad Gerstner Says Nvidia Was Priced for “Negative Growth for 2028 and 2029.” Wall Street Expects 29% (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/altimeter-brad-gerstner-says-nvidia-233902558.html
+· NVDA Nvidia: The Demand It Finances Is The Risk (Rating Downgrade) (NASDAQ:NVDA) (Seeking Alpha) https://seekingalpha.com/article/4972041-nvidia-the-demand-it-finances-is-the-risk-rating-downgrade
+· BBDC4 Luiz Trabuco: quem é o executivo do Bradesco que está entre os cotados para assumir Ministério da Fazenda (g1) https://g1.globo.com/politica/noticia/2026/11/25/luiz-trabuco-quem-e-o-executivo-cotado-para-ser-ministro-da-fazenda.ghtml
+· USDBRL Dólar fecha com queda de 1,5%, a R$ 5,81, com especulações sobre ministro da Fazenda (InfoMoney) https://news.google.com/rss/articles/CBMinAFBVV95cUxQcEpha3pvUHNvaFpaWF9BZlhGQkZoWVF6aDZlaWE5ODhMc3NJc2l1RDJkQ2wyT0JoclJ2d2ZmRV96OVA3MDlacEJyNVRGbVhnNk9qM0xDTXIyOUotbmQzZ3ZRSHdFZ1owS3FfRXhyaXp0b1BESTFoV3V3Yk9CTlRvc01Qc1VNb3lVWVpMWWllSU5WaW01RUJXUjNGczLSAaIBQVVfeXFMUF9PSWJHUGdUWFBkR09VOFRibjlTX1RKQjZoV1JULUliV1dFd0tjN2xOLXBuVXpEQUNUMFd4bXFyeEphaDYyUGdpU3NtNDJzdUstTzZWYWtTMnVQdnJfdzJta2pSVUZ0bVlnVzV2dkYtU1dvSjVpQ3JBQ2lZRE12SjRrZDlRWjZxallhT3dhM0M2cWVad1oxOHdfcG1WZ0JWaWt3?oc=5
 · SBSP3 Sabesp diz que ação coordenada dissemina informações falsas sobre a qualidade da água e aciona Justiça (Folha de S.Paulo) https://www1.folha.uol.com.br/cotidiano/2026/11/sabesp-diz-que-acao-coordenada-dissemina-informacoes-falsas-sobre-a-qualidade-da-agua-e-aciona-justica.shtml
 · BTC How Much of Your Portfolio Should Be in Bitcoin After a 50% Drop? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/much-portfolio-bitcoin-50-drop-221448060.html
 · NVDA Moody's Nvidia's CEO Reinstatement Restores Strategic Continuity But Leaves Some Governance Questions Unresolved Rating And Outlook Are Unchanged (TradingView (Reuters)) https://www.tradingview.com/news/reuters.com,2026:newsml_FWN4762F2:0-moody-s-nvidia-s-ceo-reinstatement-restores-strategic-continuity-but-leaves-some-governance-questions-unresolved-rating-and-outlook-are-unchanged/
@@ -393,15 +420,4 @@ id: E05-PETR4-594e6ec6b7-2026-11-24 · status: expirado
 · MINERIO Operação prende suspeitos de extração ilegal de minério de ferro em MG (Agencia Brasil) https://agenciabrasil.ebc.com.br/radioagencia-nacional/geral/audio/2026-11/operacao-prende-suspeitos-de-extracao-ilegal-de-minerio-de-ferro-em-mg
 · BTC Bitcoin falls below $58,000 as CoinShares' Butterfill sees 'tail end of the bear market' (The Block) https://www.theblock.co/news/markets/2026-11-25-bitcoin-falls-below-58000-coinshares-butterfill-sees-tail-end-bear-market-446678
 · PLTR Palantir Stocks Fall 4.62% as Nasdaq Rout Hits AI Software (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:87dfb605e094b:0-palantir-stocks-fall-4-62-as-nasdaq-rout-hits-ai-software/
-· UST Treasuries Rise Across Curve as AI Concerns Dent Risk Sentiment (Bloomberg) https://www.bloomberg.com/news/articles/2026-11-25/treasuries-rise-across-curve-as-ai-concerns-dent-risk-sentiment
-· NVDA Nasdaq tumbles 4% as Nvidia leads AI sell-off, inflation and tariffs weigh on investors (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/nasdaq-tumbles-4-nvidia-leads-164313502.html
-· NVDA Nvidia Just Delivered Its Latest Earnings Report. Is the Stock a Buy Below $160? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/nvidia-just-delivered-latest-earnings-161302328.html
-· LITE Lumentum Holdings loses 9% as tech falls (LITE:NASDAQ) (Seeking Alpha) https://seekingalpha.com/news/4676619-lumentum-holdings-loses-9-as-tech-falls
-· NVDA Scott Galloway Predicts Nvidia Stock Will Be “Up at the End of the Year.” Six Weeks Left (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/scott-galloway-predicts-nvidia-stock-140528130.html
-· GOOGL Is Google Services Still the Prime Earnings Engine for Alphabet Stock? (TradingView (Reuters)) https://news.google.com/rss/articles/CBMiwwFBVV95cUxQX1VkOXRlY1RVUjQ1UEhGdzQ1Wmh4YmUwV2g2MUg5VDFNX0FtbWVkU3VGQ2ZkdHpfclJ6RnhycVEydVBwZl8ySTdHdEFXRHFtV2NZU3dtNnhTSzN4Y21NV1BsWkpYMGlzOFFiWERmSmZOeGRMV0hBdmVCOVBFNTI0SVlOWmx1ZzdQUUdQcEY2c3RERkp6VElGTlYwQmQzV004aGF5LVlWVXJCNU9FNjFNR1cyRVNuekpiMHZzdkVrcTFOU0E?oc=5
-· VALE3 Dólar forte favorece Vale e CSN Mineração, mas pressiona Usiminas, diz Morgan Stanley (InfoMoney) https://news.google.com/rss/articles/CBMivwFBVV95cUxPR1Bud1dhd3JrSXFueU5ScUNTQWNxZEhmLTZNZk5kclZGVzJ2OTA1WUIwUVp5VHV2RTdIVWdOMm9MRTVfbzJqUUpLc2FvWnhDY19zMzFmeHdUREJmZU5SWHlzc1drZ0NQZW0tbWlLblJwWUtXYnlHQThaMXJCOEg3ZXpReTVFRGNJZngwWWZBcU1YUjFaMmIzaUhVd0FQcTBvbENxc1BrM2NsSzZMUENKQldYY0FvcUQ2a0hxQTJvTdIBxAFBVV95cUxQYXlZdzl5anZQRmlzenVrZVg0a2MyRHFabVk3a3BNbjFJOEJTMC1JTG9ibnJ5c0g1RmtxbDUxWU93dV8wM1pvOVpLMFZpbEtUVEFZWXQ3T0Q0SmZQU29vaExiWkZ6T0Rsa1VKeGJPZEFnTlMwZVhna1ZnOS1LUlZPMURkSkpkYVpzRVVYRVAzSnRCU3Z0enJ2QzFGcEFFcllZMWJrbktPbWNxX0ZZVjVaMW8wOHFDZU4xTV9YLVpzVEVMUFIt?oc=5
-· USDBRL Dólar despenca e Bolsa avança com possível indicação de Trabuco para a Fazenda e expectativa por sinais fiscais (Folha de S.Paulo) https://news.google.com/rss/articles/CBMi3wFBVV95cUxNOXA2VWlkZ2t2Mjc2TXhCRklvS2xnZUZkck5LVFV4S3B2VXF4NVQzaC1RNEJ2ZjFVbm5UQ1MwZG1TWjVORkxsVjFCaUZwcTdfNVpvY0hhNl9QeEgyQ1QwTlVkNFZqNXBJUXZ0ZHpyOFBXTXNqTzRoWF9jNmdhZmpsV1RvZEpmY3FhRWgwVGZ4S2hPREw3X1dVT1JLaVcwcXRmVHljM2RFeG1fZVl4RmRBSFd0VFU2cjZJSS13N2ZWVVY0OVZNY3VBQmY3V29JbEF5VDBGSjktY05FT3lNcFF3?oc=5
-· BTC Hyperliquid's HYPE will join bitcoin, ether and more in Franklin Templeton's crypto ETF (The Block) https://www.theblock.co/news/markets/2026-11-25-franklin-templeton-ezpz-etf-adds-hyperliquid-hype-446686
-· NVDA Chip stocks tumble as Nvidia-led AI rally unravels, tariff fears weigh (Yahoo Finance) https://ca.finance.yahoo.com/news/chip-stocks-tumble-nvidia-led-164900978.html
-· PLTR Palantir: Already Off To A Strong 2027 (NASDAQ:PLTR) (Seeking Alpha) https://seekingalpha.com/article/4971949-palantir-already-off-to-a-strong-2027
-· (+69 manchetes; lista completa em eventos/noticias.json)
+· (+80 manchetes; lista completa em eventos/noticias.json)

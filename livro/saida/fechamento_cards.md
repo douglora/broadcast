@@ -1,12 +1,4 @@
-## Fechamento do livro · qua 25/11 · 19h57 BRT
-
----
-
-### Correção do que já foi enviado
-
-- **CORREÇÃO tabela · BTC 24/11: saiu -1,1% a 60.523; o certo é -2,4% a 59.748**
-
-*O número entregue saiu de barra errada do Yahoo (contrato misturado, pregão faltando ou barra parcial); o certo vem da série já corrigida.*
+## Fechamento do livro · qua 25/11 · 00h28 de 26/11 BRT
 
 ---
 
@@ -48,7 +40,7 @@
 | **ALUP4** | +4,7% | descolou do setor (energia e saneamento +2,2% (mediana), DI F35 -14 bps; 2,6 p.p. da mediana); investigar antes de comentar | sem causa no dado |
 | **MU** | -4,5% | descolou do setor (semicondutores (eua) -1,2% (mediana), SOX -0,7%; -3,4 p.p. da mediana); notícia a conferir (TradingView (Reuters)): Micron, Sandisk lead technology stocks with attractive valuations after Q3 earnings | notícia (conferir) |
 | **CURY3** | +4,3% | andou com o setor: construtoras de baixa renda +3,7% (mediana), DI F30 -16 bps | setorial |
-| **BBDC4** | +4,2% | descolou do setor (bancos +2,4% (mediana), DI F28 -15 bps; 1,8 p.p. da mediana); investigar antes de comentar | sem causa no dado |
+| **BBDC4** | +4,2% | descolou do setor (bancos +2,4% (mediana), DI F28 -15 bps; 1,8 p.p. da mediana); notícia a conferir (g1): Luiz Trabuco: quem é o executivo do Bradesco que está entre os cotados para assumir Minist | notícia (conferir) |
 | **WQTM** | -3,9% | investigar antes de comentar | sem causa no dado |
 | **EQTL3** | +3,9% | descolou do setor (energia e saneamento +2,2% (mediana), DI F35 -14 bps; 1,7 p.p. da mediana); notícia a conferir (CNN Brasil): Vamos ter que repetir o pré-sal na Margem Equatorial, diz Magda | notícia (conferir) |
 | **NVDA** | -3,9% | descolou do setor (semicondutores (eua) -1,2% (mediana), SOX -0,7%; -2,7 p.p. da mediana); notícia a conferir (Yahoo Finance): Nvidia to Pay $290 Million to Settle Long-Running Crypto Mining Revenue Lawsuit | notícia (conferir) |
@@ -119,7 +111,7 @@ Nomes completos: **QNTM** VanEck Quantum Computing UCITS ETF USD (Acc) · **QANT
 
 | Ativo | últ | dia | 1 sem | 1 mês | 3 m | 6 m | 1 ano | YTD | 5 anos |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| **NVDA** NVIDIA · resultado 25/11 (estimado) | 149,30 | **-3,9** | -1,1 | -31 | -29 | -30 | -16 | -20 | +376 |
+| **NVDA** NVIDIA · data-com 02/12 | 149,30 | **-3,9** | -1,1 | -31 | -29 | -30 | -16 | -20 | +376 |
 | **AMD** Advanced Micro Devices | 406,03 | **-1,8** | -23 | -24 | -16 | -18 | +97 | +90 | +162 |
 | **AVGO** Broadcom · resultado 09/12 (estimado) | 300,86 | **-0,1** | -15 | -8,6 | -15 | -28 | -21 | -13 | +501 |
 | **MRVL** Marvell Technology · resultado 01/12 (estimado) | 130,93 | **-0,5** | -10 | -44 | -47 | -34 | +57 | +54 | +85 |
@@ -142,7 +134,7 @@ Nomes completos: **QNTM** VanEck Quantum Computing UCITS ETF USD (Acc) · **QANT
 | **AMZN** Amazon | 244,43 | **-3,1** | -8,7 | -1,9 | -6,1 | -10 | +6,4 | +5,9 | +39 |
 | **PLTR** Palantir Technologies | 163,59 | **+1,5** | +4,4 | -18 | -7,8 | +23 | 0,0 | -8,0 | +678 |
 | **TSLA** Tesla | 380,14 | **-1,2** | -0,9 | -2,9 | +9,9 | -14 | -9,4 | -15 | +5,4 |
-| **BABA** Alibaba Group · resultado 25/11 (estimado) | 86,26 | **+1,6** | +2,2 | -14 | -28 | -32 | -45 | -41 | -31 |
+| **BABA** Alibaba Group | 86,26 | **+1,6** | +2,2 | -14 | -28 | -32 | -45 | -41 | -31 |
 
 ---
 
@@ -205,13 +197,13 @@ Nomes completos: **QNTM** VanEck Quantum Computing UCITS ETF USD (Acc) · **QANT
 | Ativo | últ | dia | 1 sem | 1 mês | 3 m | 6 m | 1 ano | YTD | 5 anos |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | **USDBRL** Dolar/Real | 5,8151 | **-1,6** | -0,8 | +7,7 | +13 | +15 | +8,0 | +6,2 | +3,7 |
-| **DXY** Indice Dolar DXY | 103,69 | **-0,1** | -0,2 | +1,7 | +4,6 | +4,5 | +4,0 | +5,5 | +7,9 |
-| **BRENT** Petroleo Brent | 94,69 | **+3,6** | +3,0 | -14 | +7,8 | +0,4 | +52 | +56 | +30 |
-| **BTC** Bitcoin _(parcial)_ | 60.024 | **+0,5** | -4,7 | -25 | -24 | -19 | -31 | -31 | +4,8 |
-| **ETH** Ethereum _(parcial)_ | 1.685 | **+0,4** | -5,0 | -27 | -33 | -17 | -43 | -43 | -61 |
-| **MINERIO** Minerio de ferro 62% Fe CFR China _(D-1, 24/11)_ | 90,67 | **0,0** | +0,1 | -0,2 | -5,0 | -17 | -13 | -15 | -4,0 |
+| **DXY** Indice Dolar DXY | 103,67 | **-0,1** | -0,2 | +1,7 | +4,5 | +4,5 | +4,0 | +5,5 | +7,9 |
+| **BRENT** Petroleo Brent | 94,61 | **+3,5** | +2,9 | -15 | +7,7 | +0,3 | +51 | +55 | +30 |
+| **BTC** Bitcoin | 60.024 | **+0,5** | -4,7 | -25 | -24 | -19 | -31 | -31 | +4,8 |
+| **ETH** Ethereum | 1.685 | **+0,4** | -5,0 | -27 | -33 | -17 | -43 | -43 | -61 |
+| **MINERIO** Minerio de ferro 62% Fe CFR China _(D-1, 25/11)_ | 90,64 | **0,0** | -0,1 | -0,2 | -5,2 | -17 | -13 | -15 | -4,0 |
 
-**Brent em reais:** R$ 550,63 por barril (25/11) · dia +2,0% · 1 mês -7,9% · no ano +65% (Brent do 1º vencimento × dólar).
+**Brent em reais:** R$ 550,17 por barril (25/11) · dia +1,9% · 1 mês -7,9% · no ano +65% (Brent do 1º vencimento × dólar).
 
 ---
 
@@ -219,11 +211,11 @@ Nomes completos: **QNTM** VanEck Quantum Computing UCITS ETF USD (Acc) · **QANT
 
 | Referência | US$/t | dia | 1 sem | 1 mês | leitura |
 |---|---:|---:|---:|---:|---|
-| **Celulose fibra longa** | 619 | +1,6 | +0,9 | +2,1 | 25/11 |
-| **Minerio de ferro Dalian** | 87 | +0,2 | +1,3 | -1,0 | 25/11 |
+| **Celulose fibra longa** | 624 | +1,5 | +0,8 | +2,0 | 26/11 |
+| **Minerio de ferro Dalian** | 88 | +0,1 | +1,3 | -1,1 | 26/11 |
 
-- **Celulose fibra longa**: futuro SP da SHFE (fibra longa) em CNY/t, sem o IVA de 13%; nao e preco de lista NBSK · CNY/t 4.660 a USD/CNY 6,66 = US$ 700/t com IVA
-- **Minerio de ferro Dalian**: futuro da DCE em CNY/t, sem o IVA de 13%; o CFR 62% em US$ e a linha MINERIO · CNY/t 656 a USD/CNY 6,66 = US$ 98/t com IVA
+- **Celulose fibra longa**: futuro SP da SHFE (fibra longa) em CNY/t, sem o IVA de 13%; nao e preco de lista NBSK · CNY/t 4.700 a USD/CNY 6,66 = US$ 705/t com IVA
+- **Minerio de ferro Dalian**: futuro da DCE em CNY/t, sem o IVA de 13%; o CFR 62% em US$ e a linha MINERIO · CNY/t 664 a USD/CNY 6,66 = US$ 100/t com IVA
 
 ---
 
@@ -261,8 +253,10 @@ Inflação implícita 2032 6,78% · Focus IPCA 2027 5,12%
 
 ---
 
-### Notícias e fatos · 21
+### Notícias e fatos · 22
 
+- **PETR4** Santander rebaixa Petrobras a neutra e reduz preço-alvo de ação ordinária (CNN Brasil · 26/11) [abrir a fonte](https://www.cnnbrasil.com.br/economia/money/mercado/santander-rebaixa-petrobras-de-compra-para-neutra-e-corta-preco-alvo-da-acao-on-para-r-5410/)
+  *Por que importa:* mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
 - **KLBN4** Klabin (KLBN11) atualiza informações sobre acidente em Santa Catarina e adia Investor Day (Money Times · 25/11) [abrir a fonte](https://www.moneytimes.com.br/klabin-klbn11-atualiza-informacoes-sobre-acidente-em-santa-catarina-e-adia-investor-day-pads/)
   *Por que importa:* evento operacional afeta producao e custo no trimestre corrente
 - **COHR** Coherent (COHR) Authorizes A $2.0b Buyback, Is The 47% Undervaluation Case Intact? (Yahoo Finance · 25/11) [abrir a fonte](https://finance.yahoo.com/markets/stocks/articles/coherent-cohr-authorizes-2-0b-201459636.html)
@@ -330,11 +324,11 @@ Inflação implícita 2032 6,78% · Focus IPCA 2027 5,12%
 
 ### Como ler
 
-**Relógios:** Yahoo 19h57 · DI ajuste D0 · Tesouro base 25/11 · UST CMT D0 · PTAX 25/11
+**Relógios:** Yahoo 00h28 · DI ajuste D0 · Tesouro base 25/11 · UST CMT D0 · PTAX 25/11
 **Lacunas:** Tesouro: Pre 2031, IPCA+ 2035, IPCA+ 2029 parado(s) na base 19/11 (só a taxa de resgate no site do TD; a de compra volta com o CSV do Tesouro Transparente): fora da tabela e da inflação implícita.
 **IUAA:** NAO e renda fixa ultracurta: cai ~6% a cada +100 bps na curva. Ler junto com UST 10y/30y. Caixa em dolar e o IB01.
 **Hipótese:** **EWY** iShares MSCI South Korea ETF · **MCHI** iShares MSCI China ETF — ETFs dos EUA, a confirmar.
-Minério: proxy Dalian 656 CNY/t (2026-11-25).
-Celulose: proxy SHFE SP (fibra longa) 4.660 CNY/t; BHKP sem série diária.
+Minério: proxy Dalian 664 CNY/t (2026-11-26).
+Celulose: proxy SHFE SP (fibra longa) 4.700 CNY/t; BHKP sem série diária.
 **Fontes:** Yahoo Finance · B3 Boletim Diário · site do Tesouro Direto · Treasury.gov CMT · BCB.
 *Uso interno da mesa. Organização e comparação de dados públicos, não é recomendação de investimento (Resolução CVM 178).*

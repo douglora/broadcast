@@ -1,10 +1,10 @@
 BLOCO A
 ```
-FECHAMENTO DO LIVRO · qua 25/11 · 19h57 BRT
-Relógios: Yahoo 19h57 · DI ajuste D0 · Tesouro base
+FECHAMENTO DO LIVRO · qua 25/11 · 00h28 de 26/11 BRT
+Relógios: Yahoo 00h28 · DI ajuste D0 · Tesouro base
   25/11 · UST CMT D0 · PTAX 25/11
 
-ALERTAS DO DIA (40 · 3 críticos)
+ALERTAS DO DIA (41 · 3 críticos)
 [CRÍTICO] C05 Pre 2029 FECHA 28 bps (PU +0,7%) · Pre
           2032 FECHA 28 bps (PU +1,4%) (base 25/11)
 [CRÍTICO] T08 RBOT (iShares Automation & Robotics
@@ -12,6 +12,9 @@ ALERTAS DO DIA (40 · 3 críticos)
           -25% do pico: -26% do pico de 52s (US$
           22,99 em 06/10) a US$ 17,11
 [CRÍTICO] T13 VIX cruzou 30: 30,9 (+17% no dia)
+[ATENÇÃO] E05 PETR4 · Santander rebaixa Petrobras a
+          neutra e reduz preço-alvo de ação
+          ordinária
 [ATENÇÃO] C01 A curva FECHOU: F30 -16 bps no dia ·
           F32 -17 bps no dia (ajuste B3 25/11)
 [ATENÇÃO] C03 DI em nível: F30 cruzou 15,00% (para
@@ -21,19 +24,17 @@ ALERTAS DO DIA (40 · 3 críticos)
 [ATENÇÃO] C06 Inflação implícita: implícita 2029 +32
           bps na semana · implícita 2029 cruzou
           7,00% · implícita 2032 -27 bps na semana
-[ATENÇÃO] T03 LITE formou death cross: MM50 US$
-          804,35 cruzou abaixo da MM200 US$ 815,13
-          pela 2ª sessão; preço US$ 476,58, -42% da
-          MM200, +64% em 12m
-(+32 em alertas.md)
+(+33 em alertas.md)
 
 ALTAS  MRVE3 +6,5% · ALUP4 +4,7% · CURY3 +4,3% ·
        BBDC4 +4,2% · EQTL3 +3,9%
 BAIXAS MU -4,5% · WQTM -3,9% · NVDA -3,9% · RBOT
        -3,8% · CNDX -3,6%
 
-NOTÍCIAS E FATOS (21 com materialidade ·
+NOTÍCIAS E FATOS (22 com materialidade ·
   noticias.md)
+· PETR4 Santander rebaixa Petrobras a neutra e reduz
+  preço-alvo de ação ordinária (CNN Brasil)
 · KLBN4 Klabin (KLBN11) atualiza informações sobre
   acidente em Santa Catarina e adia Investor Day
   (Money Times)
@@ -47,10 +48,7 @@ NOTÍCIAS E FATOS (21 com materialidade ·
   class action for $290 million (Reuters)
 · NVDA Nvidia agrees to $290M settlement over crypto
   mining revenue disclosures (TradingView (Reuters))
-· PETR4 Petrobras eleva em 12% plano de
-  investimentos entre 2027 e 2031, para US$ 122
-  bilhões (Estadao)
-  (+15)
+  (+16)
 
 CURVAS · taxa (Δ bps)
 DI (D0, Δ dia·sem bps) F28 14,29 (-15·-14) F29 14,71
@@ -181,11 +179,11 @@ MRVE3  MRV        4,62 +6,5 -3,1 -2,3  -23  -48  -41
 CURY3  Cury      26,39 +4,3 +4,3 -0,3  -13  -21  -12
 Macro
 USDBRL USD/BRL  5,8151 -1,6 -0,8 +7,7  +15 +8,0 +6,2
-DXY    DXY      103,69 -0,1 -0,2 +1,7 +4,5 +4,0 +5,5
-BRENT  Brent     94,69 +3,6 +3,0  -14 +0,4  +52  +56
-BTC*   BTC      60.024 +0,5 -4,7  -25  -19  -31  -31
-ETH*   ETH       1.685 +0,4 -5,0  -27  -17  -43  -43
-MINER* Minerio   90,67  0,0 +0,1 -0,2  -17  -13  -15
+DXY    DXY      103,67 -0,1 -0,2 +1,7 +4,5 +4,0 +5,5
+BRENT  Brent     94,61 +3,5 +2,9  -15 +0,3  +51  +55
+BTC    BTC      60.024 +0,5 -4,7  -25  -19  -31  -31
+ETH    ETH       1.685 +0,4 -5,0  -27  -17  -43  -43
+MINER* Minerio   90,64  0,0 -0,1 -0,2  -17  -13  -15
 ```
 UCITS por extenso: VWRA Vanguard FTSE All-World
 UCITS ETF USD Accumulating · CSPX iShares Core S&P
@@ -201,6 +199,6 @@ Caixa em dolar e o IB01. · IB01 iShares $ Treasury
 Bond 0-1yr UCITS ETF USD (Acc). Hipótese: EWY
 iShares MSCI South Korea ETF · MCHI iShares MSCI
 China ETF (ETFs dos EUA, a confirmar).
-Minério: proxy Dalian 656 CNY/t (2026-11-25).
-Celulose: proxy SHFE SP (fibra longa) 4.660 CNY/t;
+Minério: proxy Dalian 664 CNY/t (2026-11-26).
+Celulose: proxy SHFE SP (fibra longa) 4.700 CNY/t;
 BHKP sem série diária.
