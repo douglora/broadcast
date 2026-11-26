@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 26/11 15h16
+NOTÍCIAS E FATOS · 26/11 16h05
 
-Pernas: noticias ok 15 novas (18 consultas; descartadas: 432 veículo fora da lista, 39 sem ativo, 15 teto) · cvm ok 1 novos de 13 (5 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 9 novas (18 consultas; descartadas: 424 veículo fora da lista, 39 sem ativo, 0 teto) · cvm ok 0 novos de 13 (5 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (1)
 
@@ -76,8 +76,17 @@ Fonte: CNN Brasil 25/11 21h05
 id: E05-PETR4-fd098a6e7e-2026-11-26 · status: expirado
 
 
-## OUTRAS NOTÍCIAS (só manchete) (89)
+## OUTRAS NOTÍCIAS (só manchete) (98)
 
+· KLBN4 KLBN11: Por que as ações da Klabin estão "MUITO CARAS" agora (Investing.com) https://br.investing.com/analysis/klbn11-por-que-as-acoes-da-klabin-estao-muito-caras-agora-200480955
+· AVGO Broadcom Stocks Edge Lower After Rebounding From an Intraday Low of $278 (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:2aceb5c99094b:0-broadcom-stocks-edge-lower-after-rebounding-from-an-intraday-low-of-278/
+· MU Micron Stock Faces Surprising New Threat From Huawei (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:12ccb9e34094b:0-micron-stock-faces-surprising-new-threat-from-huawei/
+· LITE Lumentum Surges 55% in a Year: Should You Buy, Sell, or Hold the Stock? (TradingView (Reuters)) https://www.tradingview.com/news/zacks:2a6ed7f66094b:0-lumentum-surges-55-in-a-year-should-you-buy-sell-or-hold-the-stock/
+· NVDA Cerebras Expands AI Inference Reach: Can It Challenge NVDA & AMD? (TradingView (Reuters)) https://www.tradingview.com/news/zacks:cb3c60bb1094b:0-cerebras-expands-ai-inference-reach-can-it-challenge-nvda-amd/
+· NVDA Nvidia chip buyers told to rule out Chinese renters to purchase GPUs, sources say (CNBC) https://www.cnbc.com/2026/11/26/neoclouds-nvidia-china-ai.html
+· GOOGL Alphabet Drops 15% in a Year: Buy, Sell or Hold the Stock? (TradingView (Reuters)) https://www.tradingview.com/news/zacks:e50c49150094b:0-alphabet-drops-15-in-a-year-buy-sell-or-hold-the-stock/
+· BBAS3 Banco do Brasil não emprestou dinheiro a CPF inexistente com 112 fazendas fantasmas (Estadao) https://www.estadao.com.br/estadao-verifica/cpf-fantasma-emprestimo-banco-do-brasil-lula-fraude-ladrao/
+· KO Coca-Cola Bottling Co. Consolidated (COKE) stock price, news, quote and history (Yahoo Finance) https://uk.finance.yahoo.com/quote/COKE/
 · MRVL Marvell Options Price In 16% Earnings-Day Stock Swing (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:e75cca4db094b:0-marvell-options-price-in-16-earnings-day-stock-swing/
 · MU Micron Stocks Fall 4.53% as TrendForce Cuts 2027 Memory Forecasts (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:6910f467c094b:0-micron-stocks-fall-4-53-as-trendforce-cuts-2027-memory-forecasts/
 · AMZN Amazon Stocks Fall 3.12% as Bernstein Flags a 16% Drop in Cloud Web Traffic (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:c1731a248094b:0-amazon-stocks-fall-3-12-as-bernstein-flags-a-16-drop-in-cloud-web-traffic/
@@ -129,13 +138,4 @@ id: E05-PETR4-fd098a6e7e-2026-11-26 · status: expirado
 · AXIA3 Citi reduz preço-alvo para Axia Energia de R$ 68 para R$ 66 e mantém recomendação de compra (Valor Economico) https://valor.globo.com/empresas/noticia/2026/11/25/citi-reduz-preo-alvo-para-axia-energia-de-r-68-para-r-66-e-mantm-recomendao-de-compra.ghtml
 · USDBRL Dólar cai a R$ 5,75 com feriado nos EUA e "prévia da inflação" no Brasil (CNN Brasil) https://www.cnnbrasil.com.br/economia/money/mercado/mercado-financeiro-ibovespa-dolar-26-novembro-2026/
 · BTC Galaxy Research Withdraws Call That Bitcoin's Bear Market Is Over (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/galaxy-research-withdraws-call-bitcoins-122608908.html
-· USDBRL Dólar cai abaixo de R$ 5,80 após Lula sondar possibilidade de Trabuco assumir Fazenda (InfoMoney) https://www.infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-26112026/
-· USDBRL Dólar abre em queda, a R$ 5,77, influenciado por IPCA-15 e equipe econômica (UOL Economia) https://economia.uol.com.br/cotacoes/noticias/redacao/2026/11/26/dolar-bolsa-abre-hoje-26-de-novembro-de-2026.ghtm
-· BTC Billionaire Investor Paul Tudor Jones Just Doubled Down on Bitcoin. What Does He Know That the Market Doesn't? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/billionaire-investor-paul-tudor-jones-122002931.html
-· BTC Spot bitcoin ETFs are on track for their biggest monthly outflow on record (CoinDesk) https://www.coindesk.com/daybook-us/2026/11/26/bitcoin-etfs-are-bleeding-cash-and-the-fed-is-unlikely-to-help
-· SBSP3 Sabesp diz que há fake news sobre contaminação e reafirma qualidade da água (Estadao) https://www.estadao.com.br/sao-paulo/sabesp-diz-que-ha-fake-news-sobre-contaminacao-e-reafirma-qualidade-da-agua/
-· USDBRL Ibovespa Hoje Ao Vivo: Confira o que movimenta Bolsa, Dólar e Juros nesta quinta (InfoMoney) https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-26112026/
-· USDBRL Dólar abre em queda e vai abaixo de R$ 5,80, com prévia da inflação e política econômica no radar (g1) https://g1.globo.com/economia/noticia/2026/11/26/dolar-ibovespa.ghtml
-· AMD Is The Client Unit Still Carrying AMD Stock? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/client-unit-still-carrying-amd-112339975.html
-· BTC Bitcoin price eyes $61K as Talos warns of thin Thanksgiving liquidity (TradingView (Reuters)) https://www.tradingview.com/news/cointelegraph:376c88ef3094b:0-bitcoin-price-eyes-61k-as-talos-warns-of-thin-thanksgiving-liquidity/
-· (+29 manchetes; lista completa em eventos/noticias.json)
+· (+38 manchetes; lista completa em eventos/noticias.json)
