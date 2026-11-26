@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 26/11 16h05
+NOTÍCIAS E FATOS · 26/11 17h05
 
-Pernas: noticias ok 9 novas (18 consultas; descartadas: 424 veículo fora da lista, 39 sem ativo, 0 teto) · cvm ok 0 novos de 13 (5 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 7 novas (18 consultas; descartadas: 388 veículo fora da lista, 46 sem ativo, 0 teto); 2 falhas · cvm ok 0 novos de 13 (5 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (1)
 
@@ -23,7 +23,7 @@ Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir
 Ativos: BTC
 Como falar: 'saiu no TradingView (Reuters): YieldMax Bitcoin Option Income Strategy ETF declares $0.1135 dividend; confirmar o número no texto antes de repassar'
 Fonte: TradingView (Reuters) 26/11 13h59
-id: E05-BTC-af7f109aa2-2026-11-26 · status: pendente
+id: E05-BTC-af7f109aa2-2026-11-26 · status: expirado
 
 [ATENÇÃO] E05 · KO · Coca-Cola Is the Most Boring Stock I Own. After 64 Years of Dividend Raises, I'll Never Sell.
 Yahoo Finance · 26/11 09h59 · fonte única · licença: resumo
@@ -76,8 +76,15 @@ Fonte: CNN Brasil 25/11 21h05
 id: E05-PETR4-fd098a6e7e-2026-11-26 · status: expirado
 
 
-## OUTRAS NOTÍCIAS (só manchete) (98)
+## OUTRAS NOTÍCIAS (só manchete) (105)
 
+· BBAS3 Alta do Banco do Brasil (BBAS3) é 'fogo de palha'? Gestora vê uma foto ruim de uma realidade pior ainda (Money Times) https://www.moneytimes.com.br/alta-do-banco-do-brasil-bbas3-e-fogo-de-palha-gestora-ve-uma-foto-ruim-de-uma-realidade-pior-ainda-rnda/
+· INTC Intel Stocks Slip After Erasing a 10.3% Plunge Below $50 (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:d85d0f5f6094b:0-intel-stocks-slip-after-erasing-a-10-3-plunge-below-50/
+· NVDA Should You Buy Nvidia After Its Sharp Decline? Warren Buffett’s Long-Held Investment Philosophy Provides a Clear Answer (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/buy-nvidia-sharp-decline-warren-173502631.html
+· JPM JPMorgan ActiveBuilders Emerging Markets Equity ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.1666667 Sh Earnings and Revenue – BMFBOVESPA:… (TradingView (Reuters)) https://www.tradingview.com/symbols/BMFBOVESPA-JEMA39/financials-earnings/
+· BRENT Oil price today: Brent edges up after fresh tanker attacks near Strait of Hormuz (TradingView (Reuters)) https://www.tradingview.com/news/invezz:8a76a7dbc094b:0-oil-price-today-brent-edges-up-after-fresh-tanker-attacks-near-strait-of-hormuz/
+· NVDA Nvidia stops AI GPU shipments to Southeast Asia amid purported China cloud access ban, report claims — data centers in Singapore, other countries, in… (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/nvidia-stops-ai-gpu-shipments-160000782.html
+· BRENT Brent settles higher as mine strikes, refinery attack stoke Middle East supply concerns (Reuters) https://www.reuters.com/business/energy/oil-rises-supply-concerns-iran-claims-mine-strikes-ships-2026-11-26/
 · KLBN4 KLBN11: Por que as ações da Klabin estão "MUITO CARAS" agora (Investing.com) https://br.investing.com/analysis/klbn11-por-que-as-acoes-da-klabin-estao-muito-caras-agora-200480955
 · AVGO Broadcom Stocks Edge Lower After Rebounding From an Intraday Low of $278 (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:2aceb5c99094b:0-broadcom-stocks-edge-lower-after-rebounding-from-an-intraday-low-of-278/
 · MU Micron Stock Faces Surprising New Threat From Huawei (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:12ccb9e34094b:0-micron-stock-faces-surprising-new-threat-from-huawei/
@@ -131,11 +138,4 @@ id: E05-PETR4-fd098a6e7e-2026-11-26 · status: expirado
 · USDBRL Dólar abre em queda e Ibovespa em alta com Trabuco cotado para Fazenda (Poder360) https://www.poder360.com.br/poder-economia/dolar-abre-em-queda-e-ibovespa-em-alta-com-trabuco-cotado-para-fazenda/
 · USDBRL Dólar cai após IPCA-15 fraco, com foco em Trabuco e medidas fiscais (UOL Economia) https://economia.uol.com.br/noticias/estadao-conteudo/2026/11/26/dolar-cai-apos-ipca-15-fraco-com-foco-em-trabuco-e-medidas-fiscais.htm
 · NVDA NVIDIA's Data Center Sales Jump 110%: Can NVDA Keep the Pace Ahead? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/nvidias-data-center-sales-jump-122800006.html
-· NVDA Nvidia: Upgrade To Hold, Too Early To Buy (NASDAQ:NVDA) (Seeking Alpha) https://seekingalpha.com/article/4972036-nvidia-upgrade-to-hold-too-early-to-buy
-· BTC Talos warns of thin Thanksgiving liquidity as Bitcoin eyes $61K (TradingView (Reuters)) https://www.tradingview.com/news/cryptobriefing:476b6b375094b:0-talos-warns-of-thin-thanksgiving-liquidity-as-bitcoin-eyes-61k/
-· BRENT Brent Climbs Above $95 as Middle East Supply Risks Offset Rising US Crude Stockpiles (Yahoo Finance) https://uk.finance.yahoo.com/news/brent-climbs-above-95-middle-095643383.html
-· PETR4 Análise: A Petrobras e os limites da autossuficiência em diesel (CNN Brasil) https://www.cnnbrasil.com.br/blogs/pedro-cortes/infra/analise-a-petrobras-e-os-limites-da-autossuficiencia-em-diesel/
-· AXIA3 Citi reduz preço-alvo para Axia Energia de R$ 68 para R$ 66 e mantém recomendação de compra (Valor Economico) https://valor.globo.com/empresas/noticia/2026/11/25/citi-reduz-preo-alvo-para-axia-energia-de-r-68-para-r-66-e-mantm-recomendao-de-compra.ghtml
-· USDBRL Dólar cai a R$ 5,75 com feriado nos EUA e "prévia da inflação" no Brasil (CNN Brasil) https://www.cnnbrasil.com.br/economia/money/mercado/mercado-financeiro-ibovespa-dolar-26-novembro-2026/
-· BTC Galaxy Research Withdraws Call That Bitcoin's Bear Market Is Over (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/galaxy-research-withdraws-call-bitcoins-122608908.html
-· (+38 manchetes; lista completa em eventos/noticias.json)
+· (+45 manchetes; lista completa em eventos/noticias.json)
