@@ -1,7 +1,7 @@
 # Boletim da B3: pregão de 25/11/2026 (quarta)
 
-**Situação: PARCIAL.** Ainda sem: cadastro de instrumentos, quadro de posições em aberto. A B3 publica esses blocos na madrugada seguinte ao pregão; a rodada da manhã completa.
-Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-11-26T11:53:41Z (UTC).
+**Situação: PARCIAL.** Ainda sem: cadastro de instrumentos. A B3 publica esses blocos na madrugada seguinte ao pregão; a rodada da manhã completa.
+Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-11-26T20:34:48Z (UTC).
 
 [[LEITURA_DA_MESA]]
 
@@ -81,6 +81,18 @@ Saldo = compras menos vendas, somando todos os mercados da B3. A B3 divulga com 
 | INDZ26 | 167.885,00 | +1,50% | 197.069 |
 
 DI1 = DI futuro (taxa prefixada); DAP = cupom de IPCA (juro real); DOL = dólar futuro; IND = Ibovespa futuro. pb = ponto-base (0,01 ponto percentual).
+
+## Posições em aberto por mercado (futuros)
+
+| Mercado | Contratos | Variação no pregão | Referencial (R$ mi) |
+|---|---:|---:|---:|
+| IND | 205.914 | -0,14% | 34.612 |
+| WIN | 1.443.843 | +1,37% | 48.490 |
+| WDO | 2.050.507 | +4,14% | 119.366 |
+| DOL | 1.126.709 | +0,47% | 327.964 |
+| DAP | 3.484.796 | +0,33% | 489.554 |
+| DDI | 5.084.025 | +2,05% | 1.389.345 |
+| DI1 | 43.021.480 | +0,63% | 3.477.578 |
 
 ## O livro em blocos
 
@@ -254,7 +266,6 @@ Por classe, mediana das taxas de referência dos papéis. Taxa de referência: n
 
 ## Lacunas e pendências
 
-- quadro de posições em aberto: atrasado
 - aluguel por corretora: ignorado
 - cadastro de instrumentos: aguardando
 - RepurchaseDealings: ignorado

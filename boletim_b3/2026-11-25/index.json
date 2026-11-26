@@ -1,6 +1,6 @@
 {
  "pregao": "2026-11-25",
- "coletado_em": "2026-11-26T11:52:54Z",
+ "coletado_em": "2026-11-26T20:33:47Z",
  "tabelas": {
   "SharesInvesVolum": {
    "titulo": "Participação dos investidores",
@@ -21,7 +21,7 @@
   "EconomicIndicators": {
    "titulo": "Indicadores econômicos",
    "situacao": "republicado",
-   "atualizado_em": "2026-11-26T08:42:57.167",
+   "atualizado_em": "2026-11-26T10:53:10.213",
    "sla": "8:00:00",
    "linhas": 441,
    "truncada": false
@@ -84,10 +84,10 @@
   },
   "NegotiStrategi": {
    "titulo": "Negociação de estratégias",
-   "situacao": "ignorado",
-   "atualizado_em": "2026-11-26T00:00:44.47",
+   "situacao": "publicado",
+   "atualizado_em": "2026-11-26T17:00:40.3",
    "sla": "20:00:00",
-   "linhas": 0,
+   "linhas": 246,
    "truncada": false
   },
   "IbovespaStockBiggestHighs": {
@@ -180,10 +180,10 @@
   },
   "AnalyticalFramework2": {
    "titulo": "Quadro analítico das posições em aberto",
-   "situacao": "atrasado",
-   "atualizado_em": "2026-11-26T08:04:11.3",
+   "situacao": "publicado",
+   "atualizado_em": "2026-11-26T10:13:57.637",
    "sla": "8:00:00",
-   "linhas": 0,
+   "linhas": 468,
    "truncada": false
   },
   "SwapFlex": {
