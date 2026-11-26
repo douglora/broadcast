@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 26/11 00h28
+NOTÍCIAS E FATOS · 26/11 08h20
 
-Pernas: noticias ok 12 novas (18 consultas; descartadas: 432 veículo fora da lista, 28 sem ativo, 9 teto) · cvm ok 0 novos de 12 (5 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 17 novas (18 consultas; descartadas: 414 veículo fora da lista, 30 sem ativo, 28 teto) · cvm ok 0 novos de 12 (5 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (1)
 
@@ -43,7 +43,25 @@ Fonte: SEC EDGAR 2026-11-25
 id: E04-TSM-26000805-2026-11-25 · status: linha · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (25)
+## NOTÍCIAS COM MATERIALIDADE (27)
+
+[ATENÇÃO] E05 · NVDA · Top Analyst Flags 5 Major Risks for NVDA Stock, Says Nvidia Could Stay in ‘Penalty Box’ for 1-2 Quarters: ‘Jensen Return Honeymoon Lasted About a Day’
+TradingView (Reuters) · 26/11 04h43 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/benzinga:842df53bc094b:0-top-analyst-flags-5-major-risks-for-nvda-stock-says-nvidia-could-stay-in-penalty-box-for-1-2-quarters-jensen-return-honeymoon-lasted-about-a-day/
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: NVDA
+Como falar: 'saiu no TradingView (Reuters): Top Analyst Flags 5 Major Risks for NVDA Stock, Says Nvidia Could Stay in ‘Penalty Box’ f…; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 26/11 04h43
+id: E05-NVDA-fefff1cd96-2026-11-26 · status: pendente
+
+[ATENÇÃO] E05 · NVDA · Nvidia's Aa1 rating, stable outlook unchanged after Huang's return: Moody's (NVDA:NASDAQ)
+Seeking Alpha · 26/11 03h01 · fonte única · licença: manchete
+Link: https://seekingalpha.com/news/4676735-nvidias-aa1-rating-stable-outlook-unchanged-after-huangs-return-moodys
+Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
+Ativos: NVDA
+Como falar: 'saiu no Seeking Alpha: Nvidia's Aa1 rating, stable outlook unchanged after Huang's return: Moody's (NVDA:NASDAQ); confirmar o número no texto antes de repassar'
+Fonte: Seeking Alpha 26/11 03h01
+id: E05-NVDA-d3ed239b92-2026-11-26 · status: pendente
 
 [ATENÇÃO] E05 · PETR4 · Santander rebaixa Petrobras a neutra e reduz preço-alvo de ação ordinária
 CNN Brasil · 25/11 21h05 · fonte única · licença: resumo
@@ -358,8 +376,23 @@ Fonte: Suno Noticias 24/11 11h06
 id: E05-PETR4-594e6ec6b7-2026-11-24 · status: expirado
 
 
-## OUTRAS NOTÍCIAS (só manchete) (140)
+## OUTRAS NOTÍCIAS (só manchete) (155)
 
+· NVDA Nvidia shipment halt threatens to stall the AI rally (CoinDesk) https://www.coindesk.com/markets/2026/11/26/nvidia-shipment-freeze-and-u-s-chip-curbs-put-ai-stocks-under-pressure
+· KLBN4 Klabin adia evento com acionistas após acidente em unidade industrial de Santa Catarina (ADVFN) https://br.advfn.com/jornal/2026/11/klabin-adia-evento-com-acionistas-apos-acidente-em-unidade-industrial-de-santa-catarina
+· NVDA Nvidia tightens AI chip shipments to Southeast Asia amid US export curbs - report (TradingView (Reuters)) https://www.tradingview.com/news/seekingalpha:1fe03c833094b:0-nvidia-tightens-ai-chip-shipments-to-southeast-asia-amid-us-export-curbs-report/
+· BTC Galaxy Withdraws Bitcoin Bottom Call, Warns BTC Could Fall to $28,200 (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/galaxy-withdraws-bitcoin-bottom-call-103215752.html
+· PETR4 O acordo da Braskem com os credores e o conselho de administração da Petrobras (O Globo) https://oglobo.globo.com/blogs/lauro-jardim/post/2026/11/o-acordo-da-braskem-com-os-credores-e-o-conselho-de-administracao-da-petrobras.ghtml
+· UST India swaps, treasury bills signal possibility of outsized RBI rate hike next week (Reuters) https://www.reuters.com/world/india/india-swaps-treasury-bills-signal-possibility-outsized-rbi-rate-hike-next-week-2026-11-26/
+· USDBRL Feriado nos EUA reduz liquidez do mercado em dia de inflação; Ibovespa em dólar sobe nesta quinta-feira (26) (Money Times) https://www.moneytimes.com.br/feriado-nos-eua-reduz-liquidez-do-mercado-em-dia-de-inflacao-ibovespa-em-dolar-sobe-nesta-quinta-feira-26-rens/
+· DI Onde Investir repercute último Copom do ano e debate rumos da renda fixa em 2027 (InfoMoney) https://www.infomoney.com.br/onde-investir/renda-fixa-2027-onde-investir-juros-altos/
+· GOOGL Broadcom: The Google Scare Is Overdone (Seeking Alpha) https://seekingalpha.com/article/4972191-broadcom-the-google-scare-is-overdone
+· JPM JPMorgan Global Select Equity ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.125 Sh (TradingView (Reuters)) https://www.tradingview.com/symbols/BMFBOVESPA-JGLO39/financials-earnings/
+· USDBRL Bolsa e dólar: veja os destaques da agenda econômica desta terça-feira (24) (Money Times) https://www.moneytimes.com.br/bolsa-e-dolar-veja-os-destaques-da-agenda-economica-desta-terca-feira-mlem-2/
+· BTC Spot bitcoin ETFs on track for worst month on record as bear market drags on (The Block) https://www.theblock.co/news/markets/2026-11-26-spot-bitcoin-etfs-worst-month-november-446814
+· USDBRL Expectativas sobre Lula 4 melhoram e dólar cai a R$ 5,81 (Valor Economico) https://valor.globo.com/financas/noticia/2026/11/26/expectativas-sobre-lula-4-melhoram-e-dolar-cai-a-r-581.ghtml
+· JPM What Is JPMorgan Chase (JPM) Saying With Its $450 Billion AI Debt Call? (Yahoo Finance) https://news.google.com/rss/articles/CBMimAFBVV95cUxQZGhBc2I3QjlQXzhURDdwTEp3YlBJQTd2OXNGNzVpUGNBR2NVLW4tRk9GRnhCVlBmVUk5WERiVWVJYWgtaHBqa0diZ1ZjdERYSWRVZ0dnSnRKZmttSWFJN0tOTWdwa2lpTGNFNkg1X0kxYW5Scm9JaUhHa3ZGU0UtRVNidnV4WmJFb0FfVjVLZnR0dW9nRnFWUw?oc=5
+· TSLA Key facts: Tesla merger talks; revenue +161%; FCC clears 1M satellites (TradingView (Reuters)) https://news.google.com/rss/articles/CBMixgFBVV95cUxORVY3U0IwNEZZdjdybXNaSmx3U3hza2pYVkxaNzd2WXgxYWxIZ0RRcm54SXAyU3dfNGFKcjRPMnJUelp5RHEyWXdpQ2lDa095V2k1Und1ckl0c3J5bkF6YTFBWHVZMWgwLTJhTlg0dURoSnFVbmlhclpZZ0t6NXdOZkNHZnRraS1JVFZnMTdGekdfSjZMZHlKNUh6VW9hUmVBWlZWOGgxUnVpRkN0R2tOc09aSWt3bkdiWVR0d1BxVDQtZjVUTUE?oc=5
 · NVDA Nvidia chips reach Chinese-owned U.S. firms despite export curbs, CBS reports By Investing.com (Investing.com) https://za.investing.com/news/stock-market-news/nvidia-chips-reach-chineseowned-us-firms-despite-export-curbs-cbs-reports-4597850
 · NVDA S&P warns Nvidia credit rating could be cut over 'rising' management and governance risk (CNBC) https://www.cnbc.com/2026/11/26/nvidia-market-governance-risk.html
 · AMD Why Retail Investors Are Watching AMD and AI Infrastructure Stocks After SpaceX Satellite News (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/why-retail-investors-watching-amd-021215050.html
@@ -405,19 +438,4 @@ id: E05-PETR4-594e6ec6b7-2026-11-24 · status: expirado
 · VALE3 Agência de Comunicação - Vale retoma parcialmente operações na mina de Viga, em Congonhas (MG ) (Estadao) https://bluestudio.estadao.com.br/agencia-de-comunicacao/agencia-minera-brasil/vale-retoma-parcialmente-operacoes-na-mina-de-viga-em-congonhas-mg-2/
 · BABA ALIBABA CLASS ACTION ALERT: Bragar Eagel & Squire, P.C. (GlobeNewswire) https://www.globenewswire.com/news-release/2026/11/25/3410533/0/en/alibaba-class-action-alert-bragar-eagel-squire-p-c-announces-that-a-class-action-lawsuit-has-been-filed-against-alibaba-group-holding-limited-and-encourages-investors-to-contact-th.html
 · ITUB4 Investe no exterior por medo do Brasil? Então você está fazendo isso errado, explica Itaú (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/investe-no-exterior-por-medo-do-brasil-entao-voce-esta-fazendo-isso-errado-explica-itau/
-· MRVL Marvell Technology Stocks Fall 8.47% as Data Center Exposure Bites (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:117fad9de094b:0-marvell-technology-stocks-fall-8-47-as-data-center-exposure-bites/
-· PETR4 Petrobras (PETR4): Santander retira recomendação de compra (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/mais-petroleo-menos-espaco-para-dividendos-o-que-fez-o-santander-mudar-de-visao-sobre-a-petrobras/
-· INTC Intel Stocks Drop 7.47% as GuruFocus Flags 48.7% Premium to GF Value (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:5a5d7ca19094b:0-intel-stocks-drop-7-47-as-gurufocus-flags-48-7-premium-to-gf-value/
-· USDBRL Dólar hoje cai mais de 1,6%, a R$ 5,81, com especulações sobre ministro da Fazenda (InfoMoney) https://www.infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-25112026/
-· NVDA NVIDIA Corporation (NVDA.TO) Stock Price, News, Quote & History (Yahoo Finance) https://ca.finance.yahoo.com/quote/NVDA.TO/
-· JPM JPMorgan Sees S&P 500 At 8,200 In 2027 As AI Supercycle Remains Intact (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/jpmorgan-sees-p-500-8-164752848.html
-· CVX Bad News for Exxon and Chevron: Goldman Sees Brent Falling “Roughly $10” Next Year on a Supply Glut (Yahoo Finance) https://finance.yahoo.com/energy/articles/bad-news-exxon-chevron-goldman-154156323.html
-· NVDA Nvidia’s Jensen Huang is back – but will he still be a regular visitor to China? (South China Morning Post) https://news.google.com/rss/articles/CBMitgFBVV95cUxPdENOaWxoVFlfV204UHJTa3JSeExaOWowQnhJTHBsMnJxNGQ2MXd3Rk1QZnoxWElTN1lYTDBxSTlTeTFEQ3RQaVllUnlIb1BVTlhqUlROYWVWcWNVQmNtT1NZSGtnM2ZpUVZObEtFaW1pX3ZxRnNNUHF5SzY3dWFUTDNDYUc1SnBBX0YwQ1k0bi1KS3ZHRXRGQ0lnQW5sTmZIdlRwWFZuMUdEYWRYX1JkazJZcHV0QdIBtgFBVV95cUxNMzlmZFVEMUZ0QUhHaHlHaXBOcEZyTmQwUno5N3RVXzluZTRCcFZ0b3hNOHBmak8xM09JSEtrS0hvYlppWjI5aEMxOGVqY0tfS2ExTklvQ2tvOU5zSS1VNjJIelBiMFY0c3FxR2dRdC02RFFNWEdMYko5cnd1UkRMbzdQM1czbi1UZ3Z6YlhBQ05iUmxUdnlJS3BXeHVJeTNRYm9FbVl6RkdHeHFFTXhjX2xKbEpNZw?oc=5
-· BTC Bitcoin Funds Head for Worst Month as Outflows Near $5 Billion (Bloomberg) https://news.google.com/rss/articles/CBMisgFBVV95cUxQVlZrR3hSRnRhN2p1U3ktUnBnZnc2LWJ4Zk1GdWdCaFpsY3Z5emp6LWJ4bXVEZVl6UVVRN1VZcm90cWQ3Vlo2SkthYTZGT3NxbEJ6ZlJSWWFpNFRvcGgyZ1hNYzhQQkV0UFdnUXhkUy1tZ1QwemJfUjVGbmVqQUZtTnRmaU5HY1JWXzZVY0JJeXdWRFRYNnRfVGRQLVV1QmRIMC15aW5ZWGhXM2pjUE80Mjhn?oc=5
-· PETR4 Mais petróleo, menos espaço para dividendos: o que fez o Santander mudar de visão sobre a Petrobras (Estadao) https://www.estadao.com.br/em-alta/einvestidor/cenarios-e-mercado/mais-petroleo-menos-espaco-para-dividendos-o-que-fez-o-santander-mudar-de-visao-sobre-a-petrobras/
-· NVDA Treasury Yields Rise After Huang Returns as Nvidia CEO; European Bond Yields Slip (The Wall Street Journal) https://www.wsj.com/finance/investing/u-s-european-bond-yields-rise-reversing-last-weeks-sharp-falls-9afadf09
-· BTC Bitcoin price stuck below $60,000 as Galaxy takes back bottom call, crypto bulls lose faith (CoinDesk) https://www.coindesk.com/markets/2026/11/25/this-time-actually-seems-different-crypto-veterans-brace-for-more-pain-as-bitcoin-tumbles
-· MINERIO Operação prende suspeitos de extração ilegal de minério de ferro em MG (Agencia Brasil) https://agenciabrasil.ebc.com.br/radioagencia-nacional/geral/audio/2026-11/operacao-prende-suspeitos-de-extracao-ilegal-de-minerio-de-ferro-em-mg
-· BTC Bitcoin falls below $58,000 as CoinShares' Butterfill sees 'tail end of the bear market' (The Block) https://www.theblock.co/news/markets/2026-11-25-bitcoin-falls-below-58000-coinshares-butterfill-sees-tail-end-bear-market-446678
-· PLTR Palantir Stocks Fall 4.62% as Nasdaq Rout Hits AI Software (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:87dfb605e094b:0-palantir-stocks-fall-4-62-as-nasdaq-rout-hits-ai-software/
-· (+80 manchetes; lista completa em eventos/noticias.json)
+· (+95 manchetes; lista completa em eventos/noticias.json)

@@ -1,4 +1,4 @@
-ALERTAS · Fechamento 18h
+ALERTAS · Manhã 08h30
 
 (pendente de slot anterior) [CRÍTICO] CURVA · C01 A curva FECHOU: F30 -16 bps no dia · F32 -17 bps no dia (ajuste B3 25/11) / C05 Pre 2029 FECHA 28 bps (PU +0,7%) · Pre 2032 FECHA 28 bps (PU +1,4%) (base 25/11) / C03 DI em nível: F30 cruzou 15,00% (para baixo, agora 14,87%)
 DI F28 14,29 (-15) · F29 14,71 (-15) · F30 14,87 (-16) · F32 15,03 (-17) · F35 15,08 (-14)
@@ -12,51 +12,7 @@ Como falar: 'a curva fechou: o prefixado valorizou na marcação; o cupom contra
 Fonte: B3 ajuste 25/11 · Tesouro Transparente base 25/11; BCB Focus · Tesouro Transparente, base 25/11 · ajuste B3 25/11
 ids: C01-DI-fechou-2026-11-25, C05-TESOURO-fechou-2026-11-25, C03-DI-di-2026-11-25, C03-TESOURO-td-2026-11-25, C06-TESOURO-implicita-2026-11-25
 
-(pendente de slot anterior) [ATENÇÃO] E05 · KLBN4 · Klabin (KLBN11) atualiza informações sobre acidente em Santa Catarina e adia Investor Day
-Money Times · 25/11 18h26 · fonte única · licença: integral
-Do texto:
-  – Klabin (KLBN11) atualiza informações sobre acidente em Santa Catarina e adia Investor Day A Klabin (KLBN11) informou nesta quarta-feira (25) o adiamento do Klabin Day, evento voltado a acionistas que estava previsto par…
-  – O incidente foi divulgado ao mercado em fato relevante publicado em 18 de novembro.
-Link: https://www.moneytimes.com.br/klabin-klbn11-atualiza-informacoes-sobre-acidente-em-santa-catarina-e-adia-investor-day-pads/
-Por que importa: evento operacional afeta producao e custo no trimestre corrente
-Ativos: KLBN4
-Como falar: 'saiu no Money Times: Klabin (KLBN11) atualiza informações sobre acidente em Santa Catarina e adia Investor Day; confirmar o número no texto antes de repassar'
-Fonte: Money Times 25/11 18h26
-ids: E05-KLBN4-3eee798dee-2026-11-25
-
-(pendente de slot anterior) [ATENÇÃO] E05 · COHR · Coherent (COHR) Authorizes A $2.0b Buyback, Is The 47% Undervaluation Case Intact?
-Yahoo Finance · 25/11 17h14 · fonte única · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – Coherent (COHR) has drawn fresh attention after authorizing a share repurchase program of up to US$2.0b with no expiration date, a capital return move that gives investors a new variable to track.
-  – Coherent's share price has fallen 9.1% over the past day and is down 33.3% over 90 days.
-  – However, the 1 year total shareholder return of 31.8% and 3 year total shareholder return above 4x show that longer term momentum is still intact.
-  – Spot other AI infrastructure plays moving on similar themes to Coherent's buyback and datacenter optics story by scanning our hand picked 53 AI infrastructure stocks.
-  – Coherent's new US$2.0b buyback, rapid AI optics growth and a share price that has slid a third in 90 days create a simple tension.
-  – See why 146 investors see Coherent as 47% undervalued.
-Link: https://finance.yahoo.com/markets/stocks/articles/coherent-cohr-authorizes-2-0b-201459636.html
-Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
-Ativos: COHR
-Como falar: 'saiu no Yahoo Finance: Coherent (COHR) Authorizes A $2.0b Buyback, Is The 47% Undervaluation Case Intact?; confirmar o número no texto antes de repassar'
-Fonte: Yahoo Finance 25/11 17h14
-ids: E05-COHR-db6c8e4f4d-2026-11-25
-
-(pendente de slot anterior) [ATENÇÃO] E05 · NVDA · Nvidia to Pay $290 Million to Settle Long-Running Crypto Mining Revenue Lawsuit
-Yahoo Finance · 25/11 16h28 · fonte única · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – Nvidia has agreed to pay $290 million to settle a shareholder lawsuit dating back to 2018, resolving long-running claims that the chipmaker misled investors about how much of its soaring gaming revenue was actually driv…
-  – According to a court filing Tuesday, the proposed cash settlement would close a case rooted in the 2017-2018 crypto boom, when miners snapped up Nvidia's GeForce GPUs to mint coins, with the sales booked as gaming reven…
-  – In November 2018, the company cut its quarterly revenue forecast as mining demand evaporated, and its stock tumbled roughly 28% over the following two trading sessions.
-  – An analysis commissioned by the plaintiffs estimated Nvidia had understated its crypto-related GPU sales by about $1.1 billion over that stretch.
-  – A district court dismissed the suit in March 2021 for failure to adequately allege the executives knew they were misleading investors.
-  – Supreme Court, which heard arguments before dismissing the appeal in December 2024 without ruling on the merits.
-Link: https://finance.yahoo.com/markets/stocks/articles/nvidia-pay-290-million-settle-192854016.html
-Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
-Ativos: NVDA
-Como falar: 'saiu no Yahoo Finance: Nvidia to Pay $290 Million to Settle Long-Running Crypto Mining Revenue Lawsuit; confirmar o número no texto antes de repassar'
-Fonte: Yahoo Finance 25/11 16h28
-ids: E05-NVDA-42341009ee-2026-11-25
-
-[ATENÇÃO] E05 · PETR4 · Santander rebaixa Petrobras a neutra e reduz preço-alvo de ação ordinária
+(pendente de slot anterior) [ATENÇÃO] E05 · PETR4 · Santander rebaixa Petrobras a neutra e reduz preço-alvo de ação ordinária
 CNN Brasil · 25/11 21h05 · fonte única · licença: resumo
 Trechos (licença resumo: reescrever, não colar):
   – O Santander rebaixou a recomendação para as ações da Petrobras de outperform (compra) para neutra e reduziu o preço-alvo para o final de 2027 do papel ordinário de R$ 60 para R$ 54,10, o que implica alta de 16,82% ante…
@@ -70,38 +26,66 @@ Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais
 Ativos: PETR4
 Como falar: 'saiu no CNN Brasil: Santander rebaixa Petrobras a neutra e reduz preço-alvo de ação ordinária; confirmar o número no texto antes de repassar'
 Fonte: CNN Brasil 25/11 21h05
-Push: [ATENÇÃO] PETR4 · Santander rebaixa Petrobras a neutra e reduz preço-a · detalhe na sessão
 ids: E05-PETR4-fd098a6e7e-2026-11-26
 
-Info (só linha no Fechamento):
-· E05 NVDA · Nvidia chips reach Chinese-owned U.S. firms despite export curbs, CBS reports By Investing.com
-· E05 NVDA · S&P warns Nvidia credit rating could be cut over 'rising' management and governance risk
-· E05 AMD · Why Retail Investors Are Watching AMD and AI Infrastructure Stocks After SpaceX Satellite News
-· E05 BTC · How Low Can Bitcoin, Ethereum and XRP Fall? 4 Price Levels to Watch
-· E05 VALE3 · Vale: When Everyone Sells, I Start Looking (Rating Upgrade) (NYSE:VALE)
-· E05 USDBRL · Bolsa sobe e o dólar caiu com expectativa por novas medidas de controle das contas públicas
-· E05 EWY · South Korea's Kospi leads gains as tech rebound lifts Asia markets
-· E05 NVDA · Altimeter’s Brad Gerstner Says Nvidia Was Priced for “Negative Growth for 2028 and 2029.” Wall Street Expects 29%
-· E05 NVDA · Nvidia: The Demand It Finances Is The Risk (Rating Downgrade) (NASDAQ:NVDA)
-· E05 BBDC4 · Luiz Trabuco: quem é o executivo do Bradesco que está entre os cotados para assumir Ministério da Fazenda
-· E05 USDBRL · Dólar fecha com queda de 1,5%, a R$ 5,81, com especulações sobre ministro da Fazenda
-· T08 CSPX (iShares Core S&P 500 UCITS ETF USD (Acc)) entrou em correção: -11% do pico de 52s (US$ 845,93 em 06/10) a US$ 756,28
-· T08 RBOT (iShares Automation & Robotics UCITS ETF USD (Acc)) entrou em queda de -25% do pico: -26% do pico de 52s (US$ 22,99 em 06/10) a US$ 17,11
-· T03 LITE formou death cross: MM50 US$ 804,35 cruzou abaixo da MM200 US$ 815,13 pela 2ª sessão; preço US$ 476,58, -42% da MM200, +64% em 12m
-· T04 WQTM fechou na mínima de 52 semanas: US$ 24,66, -24% em 1m e -14% em 12m
-· T10 MU no mínimo de força relativa em 63 sessões contra SOX: -39% vs -25% em 20 sessões (-19% relativo)
+[ATENÇÃO] M01 · Agenda: IPCA-15 de novembro (IBGE) hoje às 09:00 (26/11)
+O que está no preço: F28 14,29% · F35 15,08% · Focus IPCA 2027 5,12%
+Por que importa: evento macro de alta relevância reprecifica a curva inteira; o que importa é a surpresa contra o que está no preço
+Ativos: DI · Tesouro · USD/BRL
+Como falar: 'IPCA-15 de novembro sai hoje; o mercado já precifica o consenso, a reação vem da surpresa'
+Fonte: config/calendario.yaml
+Push: Manhã 08h30: 3 alertas de atenção — M01 MACRO, E05 NVDA, E05 NVDA · detalhe na sessão
+ids: M01-MACRO-D0_2611-2026-11-26
 
-Suprimidos pelo teto (viram linha do Fechamento): T08-CSPX--10-2026-11-25 (teto diário de críticos), T08-RBOT--25-2026-11-25 (teto diário de críticos), T03-LITE-death-2026-11-25 (teto de atenção), T04-WQTM-minima-2026-11-25 (teto de atenção), T10-MU-mínimo-2026-11-25 (teto de atenção)
+[ATENÇÃO] E05 · NVDA · Top Analyst Flags 5 Major Risks for NVDA Stock, Says Nvidia Could Stay in ‘Penalty Box’ for 1-2 Quarters: ‘Jensen Return Honeymoon Lasted About a Day’
+TradingView (Reuters) · 26/11 04h43 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/benzinga:842df53bc094b:0-top-analyst-flags-5-major-risks-for-nvda-stock-says-nvidia-could-stay-in-penalty-box-for-1-2-quarters-jensen-return-honeymoon-lasted-about-a-day/
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: NVDA
+Como falar: 'saiu no TradingView (Reuters): Top Analyst Flags 5 Major Risks for NVDA Stock, Says Nvidia Could Stay in ‘Penalty Box’ f…; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 26/11 04h43
+ids: E05-NVDA-fefff1cd96-2026-11-26
+
+[ATENÇÃO] E05 · NVDA · Nvidia's Aa1 rating, stable outlook unchanged after Huang's return: Moody's (NVDA:NASDAQ)
+Seeking Alpha · 26/11 03h01 · fonte única · licença: manchete
+Link: https://seekingalpha.com/news/4676735-nvidias-aa1-rating-stable-outlook-unchanged-after-huangs-return-moodys
+Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
+Ativos: NVDA
+Como falar: 'saiu no Seeking Alpha: Nvidia's Aa1 rating, stable outlook unchanged after Huang's return: Moody's (NVDA:NASDAQ); confirmar o número no texto antes de repassar'
+Fonte: Seeking Alpha 26/11 03h01
+ids: E05-NVDA-d3ed239b92-2026-11-26
+
+Info (só linha no Fechamento):
+· E01 MRVL: resultado sai em 3 sessões (01/12)
+· E05 NVDA · Nvidia shipment halt threatens to stall the AI rally
+· E05 KLBN4 · Klabin adia evento com acionistas após acidente em unidade industrial de Santa Catarina
+· E05 NVDA · Nvidia tightens AI chip shipments to Southeast Asia amid US export curbs - report
+· E05 BTC · Galaxy Withdraws Bitcoin Bottom Call, Warns BTC Could Fall to $28,200
+· E05 PETR4 · O acordo da Braskem com os credores e o conselho de administração da Petrobras
+· E05 UST · India swaps, treasury bills signal possibility of outsized RBI rate hike next week
+· E05 USDBRL · Feriado nos EUA reduz liquidez do mercado em dia de inflação; Ibovespa em dólar sobe nesta quinta-feira (26)
+· E05 DI · Onde Investir repercute último Copom do ano e debate rumos da renda fixa em 2027
+· E05 GOOGL · Broadcom: The Google Scare Is Overdone
+· E05 JPM · JPMorgan Global Select Equity ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.125 Sh
+· E05 USDBRL · Bolsa e dólar: veja os destaques da agenda econômica desta terça-feira (24)
+· E05 BTC · Spot bitcoin ETFs on track for worst month on record as bear market drags on
+· E05 USDBRL · Expectativas sobre Lula 4 melhoram e dólar cai a R$ 5,81
+· E05 JPM · What Is JPMorgan Chase (JPM) Saying With Its $450 Billion AI Debt Call?
+· E05 TSLA · Key facts: Tesla merger talks; revenue +161%; FCC clears 1M satellites
+
 
 Alertas do dia (todos, com status):
-· pendente  C05 TESOURO — Pre 2029 FECHA 28 bps (PU +0,7%) · Pre 2032 FECHA 28 bps (PU +1,4%) (base 25/11)
+· expirado  C05 TESOURO — Pre 2029 FECHA 28 bps (PU +0,7%) · Pre 2032 FECHA 28 bps (PU +1,4%) (base 25/11)
 · linha     T08 RBOT — RBOT (iShares Automation & Robotics UCITS ETF USD (Acc)) entrou em queda de -25%
 · expirado  T13 VIX — VIX cruzou 30: 30,9 (+17% no dia)
+· pendente  M01 MACRO — Agenda: Thanksgiving: NYSE fechada (27/11 meio pregao) hoje (26/11)
+· pendente  E05 NVDA — NVDA · Top Analyst Flags 5 Major Risks for NVDA Stock, Says Nvidia Could Stay in
+· pendente  E05 NVDA — NVDA · Nvidia's Aa1 rating, stable outlook unchanged after Huang's return: Moody
 · pendente  E05 PETR4 — PETR4 · Santander rebaixa Petrobras a neutra e reduz preço-alvo de ação ordinári
-· pendente  C01 DI — A curva FECHOU: F30 -16 bps no dia · F32 -17 bps no dia (ajuste B3 25/11)
-· pendente  C03 DI — DI em nível: F30 cruzou 15,00% (para baixo, agora 14,87%)
-· pendente  C03 TESOURO — Prefixado em nível: Pre 2029 cruzou 15,00% (agora 14,76%)
-· pendente  C06 TESOURO — Inflação implícita: implícita 2029 +32 bps na semana · implícita 2029 cruzou 7,0
+· expirado  C01 DI — A curva FECHOU: F30 -16 bps no dia · F32 -17 bps no dia (ajuste B3 25/11)
+· expirado  C03 DI — DI em nível: F30 cruzou 15,00% (para baixo, agora 14,87%)
+· expirado  C03 TESOURO — Prefixado em nível: Pre 2029 cruzou 15,00% (agora 14,76%)
+· expirado  C06 TESOURO — Inflação implícita: implícita 2029 +32 bps na semana · implícita 2029 cruzou 7,0
 · linha     T03 LITE — LITE formou death cross: MM50 US$ 804,35 cruzou abaixo da MM200 US$ 815,13 pela 
 · linha     T04 WQTM — WQTM fechou na mínima de 52 semanas: US$ 24,66, -24% em 1m e -14% em 12m
 · linha     T08 CSPX — CSPX (iShares Core S&P 500 UCITS ETF USD (Acc)) entrou em correção: -11% do pico
@@ -135,4 +119,4 @@ Alertas do dia (todos, com status):
 · linha     T11 BOTZ — BOTZ descolou à frente de SOX: -14% vs -25% em 20 sessões (z 2,1 em 252 sessões,
 · linha     F03 BRENT — Brent sobe a US$ 94,61 (+3,5% no dia)
 · linha     F01 USDBRL — Real sobe: USD/BRL 5,8151 (-1,6% no dia · 5 dias seguidos de movimento doméstico
-· (+151 notícias só manchete, em noticias.md)
+· (+167 notícias só manchete, em noticias.md)
