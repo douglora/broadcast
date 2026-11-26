@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 26/11 11h05
+NOTÍCIAS E FATOS · 26/11 12h05
 
-Pernas: noticias ok 13 novas (18 consultas; descartadas: 403 veículo fora da lista, 32 sem ativo, 0 teto) · cvm ok 0 novos de 12 (5 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 12 novas (18 consultas; descartadas: 428 veículo fora da lista, 34 sem ativo, 0 teto) · cvm ok 0 novos de 12 (5 cias casadas) · sec ok 0 novos em 3 dias
 
 ## NOTÍCIAS COM MATERIALIDADE (4)
 
@@ -55,8 +55,20 @@ Fonte: CNN Brasil 25/11 21h05
 id: E05-PETR4-fd098a6e7e-2026-11-26 · status: expirado
 
 
-## OUTRAS NOTÍCIAS (só manchete) (52)
+## OUTRAS NOTÍCIAS (só manchete) (64)
 
+· BTC Why Is Bitcoin Dropping So Much? 5 Reasons Behind Its Worst Month Since 2022 (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/why-bitcoin-dropping-much-5-144312932.html
+· USDBRL Bolsa dispara e dólar cai abaixo de R$ 5,80, de olho em possíveis nomes para a Fazenda (g1) https://g1.globo.com/globonews/conexao-globonews/video/bolsa-dispara-e-dolar-cai-abaixo-de-r-580-de-olho-em-possiveis-nomes-para-a-fazenda-15283457.ghtml
+· SBSP3 Sabesp (SBSP3) tem dois catalisadores no radar e BBI reitera recomendação de compra (InfoMoney) https://www.infomoney.com.br/mercados/sabesp-sbsp3-tem-dois-catalisadores-no-radar-e-bbi-reitera-recomendacao-de-compra/
+· DI IPCA-15 surpreende para baixo e reforça aposta em Selic “parada” por mais tempo (InfoMoney) https://www.infomoney.com.br/economia/ipca-15-surpreende-para-baixo-e-reforca-aposta-em-selic-parada-por-mais-tempo/
+· NVDA Nvidia's credit rating, the AI trade's collateral, is at risk (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/nvidias-credit-rating-ai-trades-134614043.html
+· SBSP3 Sabesp diz que há fake news sobre contaminação e reafirma qualidade da água (UOL Economia) https://www.bol.uol.com.br/noticias/2026/11/26/sabesp-diz-que-ha-fake-news-sobre-contaminacao-e-reafirma-qualidade-da-agua.amp.htm
+· USDBRL Ibovespa dispara e dólar cai com expectativa sobre a Fazenda e IPCA-15 menor que o esperado (Exame) https://exame.com/invest/mercados/ibovespa-hoje-26-11-2026/
+· MRVL Marvell Technology, Inc. (MRVL) is Attracting Investor Attention: Here is What You Should Know (Yahoo Finance) https://ca.finance.yahoo.com/news/marvell-technology-inc-mrvl-attracting-130006516.html
+· USDBRL Bolsa dispara mais de 4% com possibilidade de Trabuco na Fazenda; dólar cai a R$ 5,72 (Folha de S.Paulo) https://www1.folha.uol.com.br/mercado/2026/11/dolar-abre-em-queda-de-mais-de-1-com-possibilidade-de-trabuco-na-fazenda.shtml
+· NVDA US Chip Curbs Can't Shake China's Appetite For Nvidia. Another Chinese Firm Is Buying 5,000 Blackwell GPUs. (Yahoo Finance) https://sg.finance.yahoo.com/news/us-chip-curbs-cant-shake-123705270.html
+· NVDA NVIDIA's Data Center Sales Jump 110%: Can NVDA Keep the Pace Ahead? (TradingView (Reuters)) https://www.tradingview.com/news/zacks:e0ec2d11e094b:0-nvidia-s-data-center-sales-jump-110-can-nvda-keep-the-pace-ahead/
+· MU Micron and Sandisk Are Two of the Cheapest AI Chip Stocks to Own (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:e251cce89094b:0-micron-and-sandisk-are-two-of-the-cheapest-ai-chip-stocks-to-own/
 · SBSP3 Sabesp diz que há fake news sobre contaminação e reafirma qualidade da água (InfoMoney) https://www.infomoney.com.br/brasil/sabesp-diz-que-ha-fake-news-sobre-contaminacao-e-reafirma-qualidade-da-agua/
 · NVDA Heading Into FY27: How to Trade Broadcom’s ~$115B AI Target Against Nvidia’s Multiple Reset (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/heading-fy27-trade-broadcom-115b-134533717.html
 · USDBRL Ibovespa dispara mais de 3% com ‘efeito Trabuco’ e IPCA-15 abaixo do esperado; dólar cai a R$ 5,73 (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/sem-wall-street-ibovespa-hoje-fica-mais-sensivel-a-noticias-de-brasilia-e-previa-da-inflacao/
@@ -105,7 +117,4 @@ id: E05-PETR4-fd098a6e7e-2026-11-26 · status: expirado
 · VALE3 Vale: When Everyone Sells, I Start Looking (Rating Upgrade) (NYSE:VALE) (Seeking Alpha) https://seekingalpha.com/article/4972075-vale-when-everyone-sells-i-start-looking-upgrade
 · USDBRL Bolsa sobe e o dólar caiu com expectativa por novas medidas de controle das contas públicas (g1) https://g1.globo.com/google/amp/jornal-nacional/video/bolsa-sobe-e-o-dolar-caiu-com-expectativa-por-novas-medidas-de-controle-das-contas-publicas-15282113.ghtml
 · EWY South Korea's Kospi leads gains as tech rebound lifts Asia markets (CNBC) https://www.cnbc.com/2026/11/26/stock-markets-today-.html
-· NVDA Altimeter’s Brad Gerstner Says Nvidia Was Priced for “Negative Growth for 2028 and 2029.” Wall Street Expects 29% (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/altimeter-brad-gerstner-says-nvidia-233902558.html
-· NVDA Nvidia: The Demand It Finances Is The Risk (Rating Downgrade) (NASDAQ:NVDA) (Seeking Alpha) https://seekingalpha.com/article/4972041-nvidia-the-demand-it-finances-is-the-risk-rating-downgrade
-· BBDC4 Luiz Trabuco: quem é o executivo do Bradesco que está entre os cotados para assumir Ministério da Fazenda (g1) https://g1.globo.com/politica/noticia/2026/11/25/luiz-trabuco-quem-e-o-executivo-cotado-para-ser-ministro-da-fazenda.ghtml
-· USDBRL Dólar fecha com queda de 1,5%, a R$ 5,81, com especulações sobre ministro da Fazenda (InfoMoney) https://news.google.com/rss/articles/CBMinAFBVV95cUxQcEpha3pvUHNvaFpaWF9BZlhGQkZoWVF6aDZlaWE5ODhMc3NJc2l1RDJkQ2wyT0JoclJ2d2ZmRV96OVA3MDlacEJyNVRGbVhnNk9qM0xDTXIyOUotbmQzZ3ZRSHdFZ1owS3FfRXhyaXp0b1BESTFoV3V3Yk9CTlRvc01Qc1VNb3lVWVpMWWllSU5WaW01RUJXUjNGczLSAaIBQVVfeXFMUF9PSWJHUGdUWFBkR09VOFRibjlTX1RKQjZoV1JULUliV1dFd0tjN2xOLXBuVXpEQUNUMFd4bXFyeEphaDYyUGdpU3NtNDJzdUstTzZWYWtTMnVQdnJfdzJta2pSVUZ0bVlnVzV2dkYtU1dvSjVpQ3JBQ2lZRE12SjRrZDlRWjZxallhT3dhM0M2cWVad1oxOHdfcG1WZ0JWaWt3?oc=5
+· (+4 manchetes; lista completa em eventos/noticias.json)

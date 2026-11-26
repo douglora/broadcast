@@ -1,32 +1,6 @@
 ALERTAS · intradia
 
-(pendente de slot anterior) [INFO] M01 · Agenda: Thanksgiving: NYSE fechada (27/11 meio pregao) hoje (26/11)
-O que está no preço: F28 14,29% · F35 15,08% · Focus IPCA 2027 5,12%
-Por que importa: evento macro de alta relevância reprecifica a curva inteira; o que importa é a surpresa contra o que está no preço
-Ativos: UST · DXY · UCITS
-Como falar: 'Thanksgiving: NYSE fechada sai hoje; o mercado já precifica o consenso, a reação vem da surpresa'
-Fonte: config/calendario.yaml
-ids: M01-MACRO-D0_2611-2026-11-26
-
-(pendente de slot anterior) [ATENÇÃO] E05 · NVDA · Top Analyst Flags 5 Major Risks for NVDA Stock, Says Nvidia Could Stay in ‘Penalty Box’ for 1-2 Quarters: ‘Jensen Return Honeymoon Lasted About a Day’
-TradingView (Reuters) · 26/11 04h43 · fonte única · licença: manchete
-Link: https://www.tradingview.com/news/benzinga:842df53bc094b:0-top-analyst-flags-5-major-risks-for-nvda-stock-says-nvidia-could-stay-in-penalty-box-for-1-2-quarters-jensen-return-honeymoon-lasted-about-a-day/
-Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
-Ativos: NVDA
-Como falar: 'saiu no TradingView (Reuters): Top Analyst Flags 5 Major Risks for NVDA Stock, Says Nvidia Could Stay in ‘Penalty Box’ f…; confirmar o número no texto antes de repassar'
-Fonte: TradingView (Reuters) 26/11 04h43
-ids: E05-NVDA-fefff1cd96-2026-11-26
-
-(pendente de slot anterior) [ATENÇÃO] E05 · NVDA · Nvidia's Aa1 rating, stable outlook unchanged after Huang's return: Moody's (NVDA:NASDAQ)
-Seeking Alpha · 26/11 03h01 · fonte única · licença: manchete
-Link: https://seekingalpha.com/news/4676735-nvidias-aa1-rating-stable-outlook-unchanged-after-huangs-return-moodys
-Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
-Ativos: NVDA
-Como falar: 'saiu no Seeking Alpha: Nvidia's Aa1 rating, stable outlook unchanged after Huang's return: Moody's (NVDA:NASDAQ); confirmar o número no texto antes de repassar'
-Fonte: Seeking Alpha 26/11 03h01
-ids: E05-NVDA-d3ed239b92-2026-11-26
-
-[ATENÇÃO] E05 · KO · Coca-Cola Is the Most Boring Stock I Own. After 64 Years of Dividend Raises, I'll Never Sell.
+(pendente de slot anterior) [ATENÇÃO] E05 · KO · Coca-Cola Is the Most Boring Stock I Own. After 64 Years of Dividend Raises, I'll Never Sell.
 Yahoo Finance · 26/11 09h59 · fonte única · licença: resumo
 Trechos (licença resumo: reescrever, não colar):
   – I have my fair share of growth stocks, for sure, but my staple "boring" stock is Coca-Cola (NYSE:KO).
@@ -40,22 +14,21 @@ Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir
 Ativos: KO
 Como falar: 'saiu no Yahoo Finance: Coca-Cola Is the Most Boring Stock I Own. After 64 Years of Dividend Raises, I'll Never S…; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 26/11 09h59
-Push: [ATENÇÃO] KO · Coca-Cola Is the Most Boring Stock I Own. After 64 Year · detalhe na sessão
 ids: E05-KO-4815d18ec1-2026-11-26
 
 Info (só linha no Fechamento):
+· E05 BTC · Why Is Bitcoin Dropping So Much? 5 Reasons Behind Its Worst Month Since 2022
+· E05 USDBRL · Bolsa dispara e dólar cai abaixo de R$ 5,80, de olho em possíveis nomes para a Fazenda
+· E05 SBSP3 · Sabesp (SBSP3) tem dois catalisadores no radar e BBI reitera recomendação de compra
+· E05 DI · IPCA-15 surpreende para baixo e reforça aposta em Selic “parada” por mais tempo
+· E05 NVDA · Nvidia's credit rating, the AI trade's collateral, is at risk
 · E05 SBSP3 · Sabesp diz que há fake news sobre contaminação e reafirma qualidade da água
-· E05 NVDA · Heading Into FY27: How to Trade Broadcom’s ~$115B AI Target Against Nvidia’s Multiple Reset
-· E05 USDBRL · Ibovespa dispara mais de 3% com ‘efeito Trabuco’ e IPCA-15 abaixo do esperado; dólar cai a R$ 5,73
-· E05 NVDA · New U.S. Chip Rule Is Now Hitting AI Data-Center Loans, Not Just Nvidia Chips
-· E05 USDBRL · Dólar abre em queda e Ibovespa em alta com Trabuco cotado para Fazenda
-· E05 USDBRL · Dólar cai após IPCA-15 fraco, com foco em Trabuco e medidas fiscais
+· E05 USDBRL · Ibovespa dispara e dólar cai com expectativa sobre a Fazenda e IPCA-15 menor que o esperado
+· E05 MRVL · Marvell Technology, Inc. (MRVL) is Attracting Investor Attention: Here is What You Should Know
+· E05 USDBRL · Bolsa dispara mais de 4% com possibilidade de Trabuco na Fazenda; dólar cai a R$ 5,72
+· E05 NVDA · US Chip Curbs Can't Shake China's Appetite For Nvidia. Another Chinese Firm Is Buying 5,000 Blackwell GPUs.
 · E05 NVDA · NVIDIA's Data Center Sales Jump 110%: Can NVDA Keep the Pace Ahead?
-· E05 NVDA · Nvidia: Upgrade To Hold, Too Early To Buy (NASDAQ:NVDA)
-· E05 BTC · Talos warns of thin Thanksgiving liquidity as Bitcoin eyes $61K
-· E05 BRENT · Brent Climbs Above $95 as Middle East Supply Risks Offset Rising US Crude Stockpiles
-· E05 PETR4 · Análise: A Petrobras e os limites da autossuficiência em diesel
-· E05 AXIA3 · Citi reduz preço-alvo para Axia Energia de R$ 68 para R$ 66 e mantém recomendação de compra
+· E05 MU · Micron and Sandisk Are Two of the Cheapest AI Chip Stocks to Own
 
 
 Alertas do dia (todos, com status):
@@ -64,5 +37,5 @@ Alertas do dia (todos, com status):
 · expirado  E05 NVDA — NVDA · Top Analyst Flags 5 Major Risks for NVDA Stock, Says Nvidia Could Stay in
 · expirado  E05 NVDA — NVDA · Nvidia's Aa1 rating, stable outlook unchanged after Huang's return: Moody
 · expirado  E05 PETR4 — PETR4 · Santander rebaixa Petrobras a neutra e reduz preço-alvo de ação ordinári
-· linha     F01 USDBRL — Real sobe: USD/BRL 5,7205 (-1,6% no dia · -3,5% em 5 sessões · 6 dias seguidos d
-· (+53 notícias só manchete, em noticias.md)
+· linha     F01 USDBRL — Real sobe: USD/BRL 5,7342 (-3,3% em 5 sessões · 7 dias seguidos de movimento dom
+· (+65 notícias só manchete, em noticias.md)
