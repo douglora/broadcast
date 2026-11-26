@@ -1,8 +1,19 @@
-NOTÍCIAS E FATOS · 26/11 17h11
+NOTÍCIAS E FATOS · 26/11 19h13
 
-Pernas: noticias ok 5 novas (18 consultas; descartadas: 422 veículo fora da lista, 39 sem ativo, 0 teto) · cvm ok 0 novos de 13 (5 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 15 novas (18 consultas; descartadas: 420 veículo fora da lista, 46 sem ativo, 6 teto) · cvm ok 1 novos de 14 (6 cias casadas) · sec ok 0 novos em 3 dias
 
-## FATOS RELEVANTES E COMUNICADOS (CVM) (1)
+## FATOS RELEVANTES E COMUNICADOS (CVM) (2)
+
+[ATENÇÃO] E03 · SBSP3 · Fato Relevante: A Companhia de Saneamento Básico do Estado de São Paulo – Sabesp (“Companhia”), em atendimento às disposições da Resolução da Comissão de Valores Mob…
+CVM · entregue 26/11/2026 18:00
+Do documento:
+  – São Paulo, 26 de novembro de 2026.
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1594223
+Por que importa: fato relevante e o que a propria companhia julga capaz de mover o preco; ler o documento inteiro antes de comentar
+Ativos: SBSP3
+Como falar: 'a Sabesp publicou fato relevante sobre A Companhia de Saneamento Básico do Estado de São Paulo – Sabesp (“Co…'
+Fonte: CVM 26/11
+id: E03-SBSP3-1594223-2026-11-26 · status: pendente · íntegra disponível
 
 [INFO] E03 · BBAS3 · Comunicado ao Mercado: Apresentações a analistas/agentes do mercado
 CVM · entregue 26/11/2026 14:31 · Apresentações a analistas/agentes do mercado
@@ -14,7 +25,16 @@ Fonte: CVM 26/11
 id: E03-BBAS3-1594121-2026-11-26 · status: linha
 
 
-## NOTÍCIAS COM MATERIALIDADE (5)
+## NOTÍCIAS COM MATERIALIDADE (6)
+
+[ATENÇÃO] E05 · BTC · Michael Saylor’s Net Worth Plunges $6 Billion: The Cost of His Bitcoin Bet
+TradingView (Reuters) · 26/11 17h14 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/newsbtc:d55509b91094b:0-michael-saylor-s-net-worth-plunges-6-billion-the-cost-of-his-bitcoin-bet/
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: BTC
+Como falar: 'saiu no TradingView (Reuters): Michael Saylor’s Net Worth Plunges $6 Billion: The Cost of His Bitcoin Bet; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 26/11 17h14
+id: E05-BTC-455d60ba41-2026-11-26 · status: pendente
 
 [ATENÇÃO] E05 · BTC · YieldMax Bitcoin Option Income Strategy ETF declares $0.1135 dividend
 TradingView (Reuters) · 26/11 13h59 · fonte única · licença: manchete
@@ -76,8 +96,22 @@ Fonte: CNN Brasil 25/11 21h05
 id: E05-PETR4-fd098a6e7e-2026-11-26 · status: expirado
 
 
-## OUTRAS NOTÍCIAS (só manchete) (110)
+## OUTRAS NOTÍCIAS (só manchete) (124)
 
+· BTC A 30% Bitcoin crash hasn't shaken this asset manager's $1.6 million call (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/30-bitcoin-crash-hasnt-shaken-220000017.html
+· USDBRL Ibovespa dispara 6% e dólar cai com expectativa de Trabuco no Ministério da Fazenda (g1) https://g1.globo.com/economia/noticia/2026/11/26/trabuco-ibovespa-fazenda-dolar.ghtml
+· USDBRL Dólar cai pelo quarto pregão seguido com "efeito Trabuco" (UOL Economia) https://economia.uol.com.br/noticias/estadao-conteudo/2026/11/26/dolar-cai-pelo-quarto-pregao-seguido-com-efeito-trabuco.htm
+· VALE3 Vale tem direitos minerários com potencial para terras raras, diz CEO à CNN (CNN Brasil) https://www.cnnbrasil.com.br/infra/vale-tem-direitos-minerarios-com-potencial-para-terras-raras-diz-ceo-a-cnn/
+· SBSP3 Sabesp diz que Arsesp aprova base de ativos 11% maior para 2025 (TradingView (Reuters)) https://br.tradingview.com/news/reuters.com,2026:newsml_L2N4770PN:0/
+· BBDC4 Trabuco, ex-CEO do Bradesco, chega em Brasília para reunião com Lula (g1) https://g1.globo.com/globonews/globonewsmais/video/trabuco-ex-ceo-do-bradesco-chega-em-brasilia-para-reuniao-com-lula-15284925.ghtml
+· MINERIO Iron ore price gains on expectations of winter restocking at Chinese mills (Mining.com) https://www.mining.com/web/iron-ore-price-gains-on-expectations-of-winter-restocking-at-chinese-mills/
+· JPM Basic earnings per share (basic EPS) of JPMorgan ActiveBuilders Emerging Markets Equity ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.16666… (TradingView (Reuters)) https://www.tradingview.com/symbols/BMFBOVESPA-JEMA39/financials-income-statement/earnings-per-share-basic/
+· USDBRL Trabuco acalma o mercado: dólar cai 1,25% e Bolsa dispara (Poder360) https://www.poder360.com.br/poder-economia/trabuco-acalma-o-mercado-dolar-cai-125-e-bolsa-dispara/
+· USDBRL Dólar cai com IPCA-15 abaixo das expectativas e alívio nas preocupações fiscais (ADVFN) https://br.advfn.com/jornal/2026/11/dolar-cai-com-ipca-15-abaixo-das-expectativas-e-alivio-nas-preocupacoes-fiscais
+· USDBRL Dólar à vista fecha em baixa de 1,23%, a R$5,7464 na venda (UOL Economia) https://economia.uol.com.br/noticias/reuters/2026/11/26/dolar-a-vista-fecha-em-baixa-de-123-a-r57464-na-venda.htm
+· USDBRL Dólar cai pelo 4º dia, aos R$ 5,74, com expectativa de Trabuco na Fazenda (O Globo) https://oglobo.globo.com/economia/financas/noticia/2026/11/26/dolar-bolsa-hoje.ghtml
+· BAC Bank of America issues blunt 2027 hard-landing warning on S&P 500 (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/bank-america-issues-blunt-2027-170300642.html
+· TSM TSMC (TSM) Upgraded to Strong Buy: Here's Why (Yahoo Finance) https://news.google.com/rss/articles/CBMimAFBVV95cUxORGc1OVBNTENnRDdzbGZBaDVxemF1S1k5UC01OE1aUjdwWUtYeVFJbU03M3RXenJtRy1HQW9FdklHSkdhNnhqdUVwYzBtcWZzeXRtY1JPaEhRR2RCd2NhT3RORnNVeUR5U3NXNEtQOEpJZ0E2eVdLSl9MMk1PVXJGQ085M0p1RWxhSWNvSERFZGpfRFp0dEo4Nw?oc=5
 · CVX Chevron (CVX) Is Back In Focus, What Is Driving The Attention? (Yahoo Finance) https://finance.yahoo.com/energy/articles/chevron-cvx-back-focus-driving-191123814.html
 · PETR4 Petrobras paralisa plataforma P-77 em Búzios após raio causar princípio de incêndio (Valor Economico) https://valor.globo.com/empresas/noticia/2026/11/26/petrobras-paralisa-plataforma-p-77-em-bzios-aps-raio-causar-princpio-de-incndio.ghtml
 · PETR4 Petrobras (PETR4): quais dúvidas ainda ficaram após divulgação do plano de negócios? (InfoMoney) https://www.infomoney.com.br/mercados/petrobras-petr4-quais-duvidas-ainda-ficaram-apos-divulgacao-do-plano-de-negocios/
@@ -124,18 +158,4 @@ id: E05-PETR4-fd098a6e7e-2026-11-26 · status: expirado
 · BABA Could Alibaba Actually Climb 87%? Or Is Jefferies Totally Wrong? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/could-alibaba-actually-climb-87-045814800.html
 · KO Here’s How Many Coca-Cola Shares It Takes to Earn $1,300 Every Quarter in Dividends (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/many-coca-cola-shares-takes-234802485.html
 · BABA How Export Blacklisting Will Impact Alibaba Stock Investors (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/export-blacklisting-impact-alibaba-stock-220853461.html
-· BTC Why Is Bitcoin Dropping So Much? 5 Reasons Behind Its Worst Month Since 2022 (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/why-bitcoin-dropping-much-5-144312932.html
-· USDBRL Bolsa dispara e dólar cai abaixo de R$ 5,80, de olho em possíveis nomes para a Fazenda (g1) https://g1.globo.com/globonews/conexao-globonews/video/bolsa-dispara-e-dolar-cai-abaixo-de-r-580-de-olho-em-possiveis-nomes-para-a-fazenda-15283457.ghtml
-· SBSP3 Sabesp (SBSP3) tem dois catalisadores no radar e BBI reitera recomendação de compra (InfoMoney) https://www.infomoney.com.br/mercados/sabesp-sbsp3-tem-dois-catalisadores-no-radar-e-bbi-reitera-recomendacao-de-compra/
-· DI IPCA-15 surpreende para baixo e reforça aposta em Selic “parada” por mais tempo (InfoMoney) https://www.infomoney.com.br/economia/ipca-15-surpreende-para-baixo-e-reforca-aposta-em-selic-parada-por-mais-tempo/
-· NVDA Nvidia's credit rating, the AI trade's collateral, is at risk (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/nvidias-credit-rating-ai-trades-134614043.html
-· SBSP3 Sabesp diz que há fake news sobre contaminação e reafirma qualidade da água (UOL Economia) https://www.bol.uol.com.br/noticias/2026/11/26/sabesp-diz-que-ha-fake-news-sobre-contaminacao-e-reafirma-qualidade-da-agua.amp.htm
-· USDBRL Ibovespa dispara e dólar cai com expectativa sobre a Fazenda e IPCA-15 menor que o esperado (Exame) https://exame.com/invest/mercados/ibovespa-hoje-26-11-2026/
-· MRVL Marvell Technology, Inc. (MRVL) is Attracting Investor Attention: Here is What You Should Know (Yahoo Finance) https://ca.finance.yahoo.com/news/marvell-technology-inc-mrvl-attracting-130006516.html
-· USDBRL Bolsa dispara mais de 4% com possibilidade de Trabuco na Fazenda; dólar cai a R$ 5,72 (Folha de S.Paulo) https://www1.folha.uol.com.br/mercado/2026/11/dolar-abre-em-queda-de-mais-de-1-com-possibilidade-de-trabuco-na-fazenda.shtml
-· NVDA US Chip Curbs Can't Shake China's Appetite For Nvidia. Another Chinese Firm Is Buying 5,000 Blackwell GPUs. (Yahoo Finance) https://sg.finance.yahoo.com/news/us-chip-curbs-cant-shake-123705270.html
-· NVDA NVIDIA's Data Center Sales Jump 110%: Can NVDA Keep the Pace Ahead? (TradingView (Reuters)) https://www.tradingview.com/news/zacks:e0ec2d11e094b:0-nvidia-s-data-center-sales-jump-110-can-nvda-keep-the-pace-ahead/
-· MU Micron and Sandisk Are Two of the Cheapest AI Chip Stocks to Own (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:e251cce89094b:0-micron-and-sandisk-are-two-of-the-cheapest-ai-chip-stocks-to-own/
-· SBSP3 Sabesp diz que há fake news sobre contaminação e reafirma qualidade da água (InfoMoney) https://www.infomoney.com.br/brasil/sabesp-diz-que-ha-fake-news-sobre-contaminacao-e-reafirma-qualidade-da-agua/
-· NVDA Heading Into FY27: How to Trade Broadcom’s ~$115B AI Target Against Nvidia’s Multiple Reset (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/heading-fy27-trade-broadcom-115b-134533717.html
-· (+50 manchetes; lista completa em eventos/noticias.json)
+· (+64 manchetes; lista completa em eventos/noticias.json)
