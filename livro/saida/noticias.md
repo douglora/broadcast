@@ -1,8 +1,29 @@
-NOTÍCIAS E FATOS · 26/11 13h05
+NOTÍCIAS E FATOS · 26/11 15h16
 
-Pernas: noticias ok 11 novas (18 consultas; descartadas: 463 veículo fora da lista, 40 sem ativo, 4 teto) · cvm ok 0 novos de 12 (5 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 15 novas (18 consultas; descartadas: 432 veículo fora da lista, 39 sem ativo, 15 teto) · cvm ok 1 novos de 13 (5 cias casadas) · sec ok 0 novos em 3 dias
 
-## NOTÍCIAS COM MATERIALIDADE (4)
+## FATOS RELEVANTES E COMUNICADOS (CVM) (1)
+
+[INFO] E03 · BBAS3 · Comunicado ao Mercado: Apresentações a analistas/agentes do mercado
+CVM · entregue 26/11/2026 14:31 · Apresentações a analistas/agentes do mercado
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1594121
+Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; confirma ou nega o que circula
+Ativos: BBAS3
+Como falar: 'a Banco do Brasil publicou comunicado ao mercado sobre Apresentações a analistas/agentes do mercado'
+Fonte: CVM 26/11
+id: E03-BBAS3-1594121-2026-11-26 · status: linha
+
+
+## NOTÍCIAS COM MATERIALIDADE (5)
+
+[ATENÇÃO] E05 · BTC · YieldMax Bitcoin Option Income Strategy ETF declares $0.1135 dividend
+TradingView (Reuters) · 26/11 13h59 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/seekingalpha:4c6910866094b:0-yieldmax-bitcoin-option-income-strategy-etf-declares-0-1135-dividend/
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: BTC
+Como falar: 'saiu no TradingView (Reuters): YieldMax Bitcoin Option Income Strategy ETF declares $0.1135 dividend; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 26/11 13h59
+id: E05-BTC-af7f109aa2-2026-11-26 · status: pendente
 
 [ATENÇÃO] E05 · KO · Coca-Cola Is the Most Boring Stock I Own. After 64 Years of Dividend Raises, I'll Never Sell.
 Yahoo Finance · 26/11 09h59 · fonte única · licença: resumo
@@ -55,8 +76,22 @@ Fonte: CNN Brasil 25/11 21h05
 id: E05-PETR4-fd098a6e7e-2026-11-26 · status: expirado
 
 
-## OUTRAS NOTÍCIAS (só manchete) (75)
+## OUTRAS NOTÍCIAS (só manchete) (89)
 
+· MRVL Marvell Options Price In 16% Earnings-Day Stock Swing (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:e75cca4db094b:0-marvell-options-price-in-16-earnings-day-stock-swing/
+· MU Micron Stocks Fall 4.53% as TrendForce Cuts 2027 Memory Forecasts (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:6910f467c094b:0-micron-stocks-fall-4-53-as-trendforce-cuts-2027-memory-forecasts/
+· AMZN Amazon Stocks Fall 3.12% as Bernstein Flags a 16% Drop in Cloud Web Traffic (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:c1731a248094b:0-amazon-stocks-fall-3-12-as-bernstein-flags-a-16-drop-in-cloud-web-traffic/
+· GOOGL Alphabet: You're Getting Anthropic For Free (NASDAQ:GOOG) (Seeking Alpha) https://seekingalpha.com/article/4972287-alphabet-youre-getting-anthropic-for-free?source=generic_rss
+· META Meta Platforms’ (META) Surging Capex Pressures Free Cash Flow Amid Monetization Debates (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/meta-platforms-meta-surging-capex-165927360.html
+· BTC Bitcoin dormant supply climbs toward 69% as holders sit tight through the slump (TradingView (Reuters)) https://www.tradingview.com/news/cryptobriefing:b92d03ee4094b:0-bitcoin-dormant-supply-climbs-toward-69-as-holders-sit-tight-through-the-slump/
+· BTC Galaxy Research Warns Bitcoin Could Fall to $28,200 if June Low Breaks (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/galaxy-research-warns-bitcoin-could-163700724.html
+· TSLA XPeng Raises Stakes for Tesla Stock Investors' Big Growth Bet (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:4ec913f59094b:0-xpeng-raises-stakes-for-tesla-stock-investors-big-growth-bet/
+· BTC Bitcoin Tops $60,000 as Risk Assets Rise in Holiday Trading (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-tops-60-000-risk-162823539.html
+· LITE Lumentum Surges 55% in a Year: Should You Buy, Sell, or Hold the Stock? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/lumentum-surges-55-buy-sell-162000564.html
+· JPM JPMorgan says bitcoin 'capitulation' signaled by Strategy's record-low NAV multiple (The Block) https://www.theblock.co/news/markets/2026-11-26-jpmorgan-bitcoin-capitulation-strategy-low-nav-multiple-447007
+· USDBRL Ibovespa supera 174 mil pontos e dólar cai com expectativa de Trabuco na Fazenda (TradingView (Reuters)) https://br.tradingview.com/news/reuters.com,2026:newsml_L2N4770KU:0/
+· BTC BTC News Today: US Bitcoin Strategic Reserve Bill Moves Closer as BTC Reclaims $60K (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/btc-news-today-us-bitcoin-160925633.html
+· NVDA NVIDIA Just Dropped 31% in a Month. Will NVDA Stock Hit $125 or $200 First? (Yahoo Finance) https://news.google.com/rss/articles/CBMimAFBVV95cUxQVXFSdnRPQk1JV3F3SzQ5VHVza3dwb1RNVlk5WGt2QnA1OHlZaWRhdTRlRUdqSUlfS196STEwWXVNWWxOUE1BeW1PeWh3WmI1M1MzSUZvenZOVlplWnROYnl3NGswVTBmd3R3bU5peGpOWkF6MEIyQUZOOWlTMW1CMGZDOVd4XzJ6cS1yNEJuRFZlTzZjTDdTVg?oc=5
 · USDBRL Ibovespa dispara mais de 3% e dólar recua após IPCA-15 (Suno Noticias) https://www.suno.com.br/noticias/ibovespa-hoje-26112026-ipca-15-dolar-go/
 · BTC Bitcoin News: Swiss ETF Debut Meets $7B Options Expiry and US Strategic Reserve Push (TradingView (Reuters)) https://www.tradingview.com/news/cryptonews:dfa9be5f6094b:0-bitcoin-news-swiss-etf-debut-meets-7b-options-expiry-and-us-strategic-reserve-push/
 · MRVL Marvell's Most Important Earnings Call Has Nothing To Do With Earnings (Preview) (NASDAQ:MRVL) (Seeking Alpha) https://seekingalpha.com/article/4972309-marvells-most-important-earnings-call-has-nothing-to-do-with-earnings?source=generic_rss
@@ -103,18 +138,4 @@ id: E05-PETR4-fd098a6e7e-2026-11-26 · status: expirado
 · USDBRL Dólar abre em queda e vai abaixo de R$ 5,80, com prévia da inflação e política econômica no radar (g1) https://g1.globo.com/economia/noticia/2026/11/26/dolar-ibovespa.ghtml
 · AMD Is The Client Unit Still Carrying AMD Stock? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/client-unit-still-carrying-amd-112339975.html
 · BTC Bitcoin price eyes $61K as Talos warns of thin Thanksgiving liquidity (TradingView (Reuters)) https://www.tradingview.com/news/cointelegraph:376c88ef3094b:0-bitcoin-price-eyes-61k-as-talos-warns-of-thin-thanksgiving-liquidity/
-· MU Nvidia, AMD and Micron Stocks Plunge as AI Selloff Deepens (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:b80b1a308094b:0-nvidia-amd-and-micron-stocks-plunge-as-ai-selloff-deepens/
-· NVDA Nvidia Reportedly Halts AI Server Shipments to Four Southeast Asian Countries Amid Tighter US Export Controls (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/nvidia-reportedly-halts-ai-server-105910523.html
-· BTC Bitcoin Tops $60,000 as Risk Assets Rise in Holiday Trading (Bloomberg) https://www.bloomberg.com/news/articles/2026-11-26/bitcoin-tops-60-000-as-risk-assets-rise-in-holiday-trading
-· NVDA Nvidia shipment halt threatens to stall the AI rally (CoinDesk) https://www.coindesk.com/markets/2026/11/26/nvidia-shipment-freeze-and-u-s-chip-curbs-put-ai-stocks-under-pressure
-· KLBN4 Klabin adia evento com acionistas após acidente em unidade industrial de Santa Catarina (ADVFN) https://br.advfn.com/jornal/2026/11/klabin-adia-evento-com-acionistas-apos-acidente-em-unidade-industrial-de-santa-catarina
-· NVDA Nvidia tightens AI chip shipments to Southeast Asia amid US export curbs - report (TradingView (Reuters)) https://www.tradingview.com/news/seekingalpha:1fe03c833094b:0-nvidia-tightens-ai-chip-shipments-to-southeast-asia-amid-us-export-curbs-report/
-· BTC Galaxy Withdraws Bitcoin Bottom Call, Warns BTC Could Fall to $28,200 (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/galaxy-withdraws-bitcoin-bottom-call-103215752.html
-· PETR4 O acordo da Braskem com os credores e o conselho de administração da Petrobras (O Globo) https://oglobo.globo.com/blogs/lauro-jardim/post/2026/11/o-acordo-da-braskem-com-os-credores-e-o-conselho-de-administracao-da-petrobras.ghtml
-· UST India swaps, treasury bills signal possibility of outsized RBI rate hike next week (Reuters) https://www.reuters.com/world/india/india-swaps-treasury-bills-signal-possibility-outsized-rbi-rate-hike-next-week-2026-11-26/
-· USDBRL Feriado nos EUA reduz liquidez do mercado em dia de inflação; Ibovespa em dólar sobe nesta quinta-feira (26) (Money Times) https://www.moneytimes.com.br/feriado-nos-eua-reduz-liquidez-do-mercado-em-dia-de-inflacao-ibovespa-em-dolar-sobe-nesta-quinta-feira-26-rens/
-· DI Onde Investir repercute último Copom do ano e debate rumos da renda fixa em 2027 (InfoMoney) https://www.infomoney.com.br/onde-investir/renda-fixa-2027-onde-investir-juros-altos/
-· GOOGL Broadcom: The Google Scare Is Overdone (Seeking Alpha) https://seekingalpha.com/article/4972191-broadcom-the-google-scare-is-overdone
-· JPM JPMorgan Global Select Equity ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.125 Sh (TradingView (Reuters)) https://www.tradingview.com/symbols/BMFBOVESPA-JGLO39/financials-earnings/
-· USDBRL Bolsa e dólar: veja os destaques da agenda econômica desta terça-feira (24) (Money Times) https://www.moneytimes.com.br/bolsa-e-dolar-veja-os-destaques-da-agenda-economica-desta-terca-feira-mlem-2/
-· (+15 manchetes; lista completa em eventos/noticias.json)
+· (+29 manchetes; lista completa em eventos/noticias.json)
