@@ -1,6 +1,6 @@
 {
  "pregao": "2026-11-24",
- "coletado_em": "2026-11-25T20:38:00Z",
+ "coletado_em": "2026-11-26T00:50:57Z",
  "tabelas": {
   "SharesInvesVolum": {
    "titulo": "Participação dos investidores",
@@ -180,10 +180,10 @@
   },
   "AnalyticalFramework2": {
    "titulo": "Quadro analítico das posições em aberto",
-   "situacao": "atrasado",
-   "atualizado_em": "2026-11-25T08:05:57.52",
+   "situacao": "publicado",
+   "atualizado_em": "2026-11-25T18:25:36",
    "sla": "8:00:00",
-   "linhas": 68,
+   "linhas": 466,
    "truncada": false
   },
   "SwapFlex": {

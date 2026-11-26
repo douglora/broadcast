@@ -1,5 +1,5 @@
 {
- "pregao": "2026-11-24",
+ "pregao": "2026-11-25",
  "nome": "Forward",
  "titulo": "Ações mais negociadas - a termo",
  "sla": "8:00:00",
@@ -7,13 +7,13 @@
  "colunas": [{"nome": "TckrSymb", "titulo": "Ação"}, {"nome": "Cod", "titulo": "Código"}, {"nome": "Term", "titulo": "Prazo"}, {"nome": "Closing", "titulo": ""}, {"nome": "TradQty", "titulo": ""}, {"nome": "VlmTradedDay", "titulo": "Volume (R$) mil"}, {"nome": "Part", "titulo": "Participação (%)"}],
  "texto": ["Lista ações com maior volume de negociação em contratos a termo, destacando as mais ativas."],
  "situacao": "publicado",
- "atualizado_em": "2026-11-24T18:53:24.043",
+ "atualizado_em": "2026-11-25T18:50:52",
  "truncada": false,
  "linhas": [
-  ["VALE        ON      NM", "ON      NM", 180, 59.38, 134800, 8004.424, 2.517175803442182],
-  ["ORIZON      ON      NM", "ON      NM", 34, 18.87, 350000, 6604.5, 6.535693851667386],
-  ["XPETFCHINA  CI", "CI", 120, 7.37, 504986, 3721.74682, 9.429811129651732],
-  ["ASSAI       ON      NM", "ON      NM", 90, 10.04, 559300, 5615.371999999999, 10.444038774964483],
-  ["MRV         ON      NM", "ON      NM", 180, 4.75, 1210400, 5749.4, 22.602296680166297]
+  ["AXIA ENERGIAON      NM", "ON      NM", 35, 46.96, 100000, 4696, 2.5618199168689433],
+  ["TENDA       ON      NM", "ON      NM", 121, 16.13, 270000, 4355.1, 6.916913775546149],
+  ["BRADESCO    PN      N1", "PN      N1", 33, 13.96, 300000, 4188.000000000001, 7.6854597506068325],
+  ["COMPASS     ON  ED  NM", "ON  ED  NM", 93, 23.43, 440000, 10309.2, 11.272007634223352],
+  ["ASSAI       ON      NM", "ON      NM", 90, 10.13, 520000, 5267.6, 13.321463567718508]
  ]
 }

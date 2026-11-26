@@ -1,5 +1,5 @@
 {
- "pregao": "2026-11-24",
+ "pregao": "2026-11-25",
  "nome": "InCashMarketBiggestHighs",
  "titulo": "Mercado à vista - maiores altas",
  "sla": "8:00:00",
@@ -7,18 +7,18 @@
  "colunas": [{"nome": "TckrSymb", "titulo": "Ação"}, {"nome": "Cod", "titulo": "Código"}, {"nome": "Price", "titulo": "Preço (R$)"}, {"nome": "Oscillation", "titulo": "Oscilação (%)"}],
  "texto": ["Mostra as maiores valorizações de ativos no mercado à vista, destacando as melhores performances."],
  "situacao": "publicado",
- "atualizado_em": "2026-11-24T18:52:49.63",
+ "atualizado_em": "2026-11-25T18:50:15.447",
  "truncada": false,
  "linhas": [
-  ["FSPE11", "CI", 0.24, 20],
-  ["AZTE11", "BNS ORD", 0.06, 20],
-  ["G1LO34", "DRN", 14.86, 20.22],
-  ["L1AM34", "DRN", 61.68, 24.06],
-  ["F1RA34", "DRN", 197.52, 24.19],
-  ["AWII34", "DRN", 1035, 27.19],
-  ["H1TH34", "DRN", 77.12, 27.89],
-  ["KNRE11", "CI", 0.22, 29.41],
-  ["CARE11", "CI", 4, 29.44],
-  ["VVRI11", "CI  ER", 8.88, 34.54]
+  ["B2YN34", "DRN", 26.02, 14.02],
+  ["HUCG11", "CI", 80, 14.25],
+  ["GFSA12", "BNS ORD NM", 0.07, 16.66],
+  ["RAIZ55", "PNA P   N2", 16.54, 17.22],
+  ["FNOR11", "CI *", 0.65, 18.18],
+  ["RZEO11", "CI", 115, 19.85],
+  ["UCAS3", "ON      NM", 1.15, 23.65],
+  ["ORVR11", "BNS ORD NM", 26.7, 26.66],
+  ["S2YN34", "DRN", 22.4, 34.05],
+  ["CEGR3", "ON", 97, 70.17]
  ]
 }
