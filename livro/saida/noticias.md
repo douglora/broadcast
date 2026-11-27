@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 27/11 10h05
+NOTÍCIAS E FATOS · 27/11 11h05
 
-Pernas: noticias ok 16 novas (18 consultas; descartadas: 445 veículo fora da lista, 33 sem ativo, 8 teto) · cvm ok 2 novos de 13 (7 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 16 novas (18 consultas; descartadas: 429 veículo fora da lista, 30 sem ativo, 7 teto) · cvm ok 0 novos de 13 (7 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (4)
 
@@ -55,7 +55,32 @@ Fonte: CVM 26/11
 id: E03-BBAS3-1594275-2026-11-26 · status: linha
 
 
-## NOTÍCIAS COM MATERIALIDADE (3)
+## NOTÍCIAS COM MATERIALIDADE (5)
+
+[ATENÇÃO] E05 · PETR4 · Como o plano de US$ 122 bilhões da Petrobras pode afetar os dividendos nos próximos anos
+Estadao · 27/11 09h51 · fonte única · licença: manchete
+Link: https://www.estadao.com.br/em-alta/einvestidor/cenarios-e-mercado/plano-da-petrobras-traz-risco-para-dividendos-e-pode-pesar-sobre-acoes-veja-a-analise-do-mercado/
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: PETR4
+Como falar: 'saiu no Estadao: Como o plano de US$ 122 bilhões da Petrobras pode afetar os dividendos nos próximos anos; confirmar o número no texto antes de repassar'
+Fonte: Estadao 27/11 09h51
+id: E05-PETR4-0c6dc9863a-2026-11-27 · status: pendente
+
+[ATENÇÃO] E05 · NVDA · Nvidia agrees to $290 million settlement over 2018 crypto mining GPU sales — ends eight-year investor lawsuit without admitting wrongdoing
+Yahoo Finance · 27/11 08h30 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Nvidia has agreed to pay a $290 million settlement in an eight-year-long securities class action lawsuit.
+  – Investors accused the company of misleading shareholders about how much of its gaming revenue was actually driven by the cryptocurrency mining boom in 2018.
+  – 2017-2018 were some of the most rampant years for cryptocurrency mining, with plenty of scalpers buying up the Pascal GTX 1000-Series GPUs released in early 2017.
+  – Nvidia also sold the P106-100 that year, a dedicated cryptocurrency mining GPU with similar hardware to the GTX 1060, and it was attributed to OEM sales.
+  – When the 2018 crypto crash hit, Nvidia's revenue felt it too, with a sharp decline in gaming sales.
+  – In 2021, the district court dismissed the lawsuit, but part of the dismissal was reversed by the US Court of Appeals for the Ninth Circuit, reviving the lawsuit and allowing the securities fraud claims against Nvidia to…
+Link: https://finance.yahoo.com/markets/stocks/articles/nvidia-agrees-290-million-settlement-113000606.html
+Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e prazo
+Ativos: NVDA
+Como falar: 'saiu no Yahoo Finance: Nvidia agrees to $290 million settlement over 2018 crypto mining GPU sales — ends eight-y…; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 27/11 08h30
+id: E05-NVDA-e62eb6fbb0-2026-11-27 · status: pendente
 
 [ATENÇÃO] E05 · ITUB4 · Cade aprova sociedade entre Itaú e Klabin em negócio de R$ 1,2 bilhão
 Poder360 · 27/11 09h26 · fonte única · licença: resumo
@@ -87,7 +112,7 @@ Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; 
 Ativos: NVDA
 Como falar: 'saiu no Yahoo Finance: Nvidia Forecast $130 Billion in Revenue and Added $150 Billion to Its Buyback. Should You…; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 27/11 07h20
-id: E05-NVDA-20a943c28a-2026-11-27 · status: pendente
+id: E05-NVDA-20a943c28a-2026-11-27 · status: expirado
 
 [ATENÇÃO] E05 · PETR4 · Por que o plano de investimento de US$ 122 bilhões da Petrobras recebeu avaliação negativa do Citi
 Estadao · 27/11 00h48 · fonte única · licença: manchete
@@ -96,11 +121,25 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: PETR4
 Como falar: 'saiu no Estadao: Por que o plano de investimento de US$ 122 bilhões da Petrobras recebeu avaliação negativ…; confirmar o número no texto antes de repassar'
 Fonte: Estadao 27/11 00h48
-id: E05-PETR4-9c68b29b5f-2026-11-27 · status: pendente
+id: E05-PETR4-9c68b29b5f-2026-11-27 · status: expirado
 
 
-## OUTRAS NOTÍCIAS (só manchete) (44)
+## OUTRAS NOTÍCIAS (só manchete) (58)
 
+· BBAS3 BBAS3: BB presta novos esclarecimentos à CVM sobre agro (Suno Noticias) https://www.suno.com.br/noticias/bbas3-banco-do-brasil-agro-271126/
+· USDBRL Dólar cai e ativos brasileiros disparam após anúncio de Trabuco como ministro da Fazenda (Bloomberg Linea) https://www.bloomberglinea.com.br/mercados/ativos-brasileiros-disparam-apos-anuncio-de-trabuco-como-ministro-da-fazenda-de-lula-4/
+· MRVL Marvell Stock: From Overvalued To Significantly Undervalued (NASDAQ:MRVL) (Seeking Alpha) https://seekingalpha.com/article/4972532-marvell-from-overvalued-to-significantly-undervalued
+· GOOGL LigaData Brings Data Flare and Barq to Google Cloud Marketplace (PR Newswire) https://www.prnewswire.com/news-releases/ligadata-brings-data-flare-and-barq-to-google-cloud-marketplace-302950709.html
+· USDBRL Dólar cai abaixo de R$ 5,50 com 'efeito Trabuco': é hora de comprar? (Exame) https://exame.com/invest/mercados/dolar-cai-abaixo-de-r-550-com-efeito-trabuco-e-hora-de-comprar/
+· USDBRL Trabuco na Fazenda: Bolsa sobe, dólar e juros caem, mas mercado vê riscos que ameaçam o rali (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/trabuco-na-fazenda-bolsa-sobe-dolar-e-juros-caem-mas-mercado-ve-riscos-que-ameacam-o-rali/
+· AMD Advanced Micro Devices (AMD) After AI Data Center Wins Looks Cheap Or Already Priced In (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/advanced-micro-devices-amd-ai-130859777.html
+· BBDC4 Sucessão de Trabuco no Bradesco seguirá regimento; vice é o próximo na linha (InfoMoney) https://www.infomoney.com.br/brasil/sucessao-de-trabuco-no-bradesco-seguira-regimento-vice-e-o-proximo-na-linha/
+· PLTR Poland signs contract with Palantir worth $300 mln over 5 years (TradingView (Reuters)) https://www.tradingview.com/news/reuters.com,2026:newsml_L5N4780RK:0-poland-signs-contract-with-palantir-worth-300-mln-over-5-years/
+· ALUP4 AXIA3: AXIA Energia assina descruzamento de participações com Alupar (Suno Noticias) https://www.suno.com.br/noticias/axia3-axia-energia-descruzamento-271126/
+· BAC 2027 oil price forecast: Where BofA thinks Brent is headed next (Investing.com) https://www.investing.com/news/commodities-news/2027-oil-price-forecast-where-bofa-thinks-brent-is-headed-next-5053427
+· BTC A 'death cross' in the bitcoin (BTC) price is coming: Crypto Daily (CoinDesk) https://www.coindesk.com/daybook-us/2026/11/27/bitcoin-death-cross-is-coming-here-s-what-happened-after-previous-13
+· BTC Crypto Stocks Gain After Bitcoin Tops $61K In Tech Rebound, But Analysts Want A Move Above $62K (Yahoo Finance) https://news.google.com/rss/articles/CBMinAFBVV95cUxNbkQtQXhFTWg2eWVkNFBLTVRaVUZyZndoTjlnQ2F3OXRLcDlFSVdlY0dxVlJiLWVvYmVHQXBFbWVRZGczYnVKWVJad1BiYU1xU2lJcko0ZzVhU211Nk5qU0dKNHo4dF9GRGpEODFBVnhlOTBkeDlQREhkTzBSUF9PVTVqTEs1YUhvTjFQb3dRV1NvTEZfSlh4TWUxTno?oc=5
+· ITUB4 Trabuco na Fazenda: o que os CEOs do Itaú (ITUB4) e Santander (SANB11) têm a dizer sobre a escolha de Lula? (Money Times) https://news.google.com/rss/articles/CBMi0wFBVV95cUxPTEdJWk4wbXFacmtmZWoyUkFTVDd4czJacDlkRDAyZFJiVUhna0lTYkdZZWNoUGFqR28tRjBRX01WQ29TaHJQZWlrbUV5T2NpcjF4elpHNzVHWVBlQ19NNDRadE5XSDc4MXlMall1WFFpZi1pZjlmcFlEd2wyS3BydC1vWGY0MUZRdmNlQm11Sk9Gb29YbE9HM2FsX1NUTWtaQ1pGYVpYWXQ4MEd2RzF1blFSQzBLbVhJUERjdmhWT0w2YlZnSkxyaEtkaXRzeUJaSnJz?oc=5
 · ALUP4 ELET3: AXIA Energia assina descruzamento de participações com Alupar (Suno Noticias) https://www.suno.com.br/noticias/elet3-axia-energia-descruzamento-271126/
 · NVDA Nvidia Blackwell chips found in Shanghai data center tied to Alice Huang (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/nvidia-blackwell-chips-found-shanghai-124008621.html
 · JPM JPMorgan, BofA, Citigroup issue same red alert over US bank accounts — official policy changes shift liability to you (Yahoo Finance) https://finance.yahoo.com/markets/currencies/articles/jpmorgan-bofa-citigroup-issue-same-123000336.html

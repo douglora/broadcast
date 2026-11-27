@@ -1,24 +1,14 @@
 ALERTAS · intradia
 
-[CRÍTICO] F01 · Real sobe: USD/BRL 5,4953 (-4,3% no dia · -7,6% em 5 sessões · 11 dias seguidos de movimento doméstico) (parcial, intradia)
-DXY +0,1% no dia: movimento doméstico (risco Brasil), resíduo -4,3%
+(pendente de slot anterior) [CRÍTICO] F01 · Real sobe: USD/BRL 5,5375 (-3,6% no dia · -6,9% em 5 sessões · 12 dias seguidos de movimento doméstico) (parcial, intradia)
+DXY +0,2% no dia: movimento doméstico (risco Brasil), resíduo -3,6%
 PTAX 26/11: 5,7446
-1m +2,8% · 6m +8,8% · YTD +0,3%
+1m +3,6% · 6m +9,6% · YTD +1,1%
 Por que importa: BRL e DI piorando juntos com DXY fraco é prêmio de risco Brasil; só reverte com sinal fiscal
 Ativos: UCITS em R$ ↓ · exportadoras (VALE3, KLBN4) ↓
 Como falar: 'o câmbio acompanhou o dólar no mundo; não é notícia brasileira'
 Fonte: Yahoo Finance 27/11; BCB PTAX
-Push: [CRÍTICO] USDBRL Real sobe · detalhe na sessão
 ids: F01-USDBRL-queda-2026-11-27
-
-(pendente de slot anterior) [ATENÇÃO] E03 · BBDC4 · Fato Relevante: Página 1 de 1 Banco Bradesco S.A. o O Banco Bradesco S.A. (“Bradesco”), em cumprimento ao disposto na Resolução CVM nº 44/2021, comunica aos seus aci…
-CVM · entregue 26/11/2026 23:47
-Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1594285
-Por que importa: fato relevante e o que a propria companhia julga capaz de mover o preco; ler o documento inteiro antes de comentar
-Ativos: BBDC4
-Como falar: 'a Bradesco publicou fato relevante sobre Página 1 de 1 Banco Bradesco S.A. o O Banco Bradesco S.A. (“Bradesco”…'
-Fonte: CVM 26/11
-ids: E03-BBDC4-1594285-2026-11-26
 
 (pendente de slot anterior) [ATENÇÃO] E05 · NVDA · Nvidia Forecast $130 Billion in Revenue and Added $150 Billion to Its Buyback. Should You Buy the Stock?
 Yahoo Finance · 27/11 07h20 · fonte única · licença: resumo
@@ -45,7 +35,7 @@ Como falar: 'saiu no Estadao: Por que o plano de investimento de US$ 122 bilhõe
 Fonte: Estadao 27/11 00h48
 ids: E05-PETR4-9c68b29b5f-2026-11-27
 
-[ATENÇÃO] E03 · AXIA3 · Fato Relevante: Centro Corporativo Portinari, SEPN 504, Bloco D Brasília | DF - Brasil | 70730- Descruzamento de Participações de Transmissão Rio de Janeiro, 27 de n…
+(pendente de slot anterior) [ATENÇÃO] E03 · AXIA3 · Fato Relevante: Centro Corporativo Portinari, SEPN 504, Bloco D Brasília | DF - Brasil | 70730- Descruzamento de Participações de Transmissão Rio de Janeiro, 27 de n…
 CVM · entregue 27/11/2026 08:45
 Do documento:
   – alienação da participação acionária detida pela AXIA Energia Nordeste de 49% na STN para a Alupar;  ii.
@@ -59,10 +49,9 @@ Por que importa: fato relevante e o que a propria companhia julga capaz de mover
 Ativos: AXIA3
 Como falar: 'a Axia Energia publicou fato relevante sobre Centro Corporativo Portinari, SEPN 504, Bloco D Brasília | DF - Brasi…'
 Fonte: CVM 27/11
-Push: intradia: 3 alertas de atenção — E03 AXIA3, E03 ALUP4, E05 ITUB4 · detalhe na sessão
 ids: E03-AXIA3-1594309-2026-11-27
 
-[ATENÇÃO] E03 · ALUP4 · Fato Relevante: Com a conclusão da transação, a Companhia passa a deter 100% da STN, ativo já consolidado pela Alupar, e receberá, como torna, o montante de R$ 367,1…
+(pendente de slot anterior) [ATENÇÃO] E03 · ALUP4 · Fato Relevante: Com a conclusão da transação, a Companhia passa a deter 100% da STN, ativo já consolidado pela Alupar, e receberá, como torna, o montante de R$ 367,1…
 CVM · entregue 27/11/2026 08:45
 Do documento:
   – Aquisição, pela Companhia, da participação acionária de 49% na STN detida pela AXIA Energia Nordeste;  ii.
@@ -78,7 +67,7 @@ Como falar: 'a Alupar publicou fato relevante sobre Com a conclusão da transaç
 Fonte: CVM 27/11
 ids: E03-ALUP4-1594308-2026-11-27
 
-[ATENÇÃO] E05 · ITUB4 · Cade aprova sociedade entre Itaú e Klabin em negócio de R$ 1,2 bilhão
+(pendente de slot anterior) [ATENÇÃO] E05 · ITUB4 · Cade aprova sociedade entre Itaú e Klabin em negócio de R$ 1,2 bilhão
 Poder360 · 27/11 09h26 · fonte única · licença: resumo
 Trechos (licença resumo: reescrever, não colar):
   – A operação envolve um investimento de R$ 1,2 bilhão.
@@ -94,32 +83,59 @@ Como falar: 'saiu no Poder360: Cade aprova sociedade entre Itaú e Klabin em neg
 Fonte: Poder360 27/11 09h26
 ids: E05-ITUB4-4408bff9d0-2026-11-27
 
+[ATENÇÃO] E05 · PETR4 · Como o plano de US$ 122 bilhões da Petrobras pode afetar os dividendos nos próximos anos
+Estadao · 27/11 09h51 · fonte única · licença: manchete
+Link: https://www.estadao.com.br/em-alta/einvestidor/cenarios-e-mercado/plano-da-petrobras-traz-risco-para-dividendos-e-pode-pesar-sobre-acoes-veja-a-analise-do-mercado/
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: PETR4
+Como falar: 'saiu no Estadao: Como o plano de US$ 122 bilhões da Petrobras pode afetar os dividendos nos próximos anos; confirmar o número no texto antes de repassar'
+Fonte: Estadao 27/11 09h51
+Push: intradia: 2 alertas de atenção — E05 PETR4, E05 NVDA · detalhe na sessão
+ids: E05-PETR4-0c6dc9863a-2026-11-27
+
+[ATENÇÃO] E05 · NVDA · Nvidia agrees to $290 million settlement over 2018 crypto mining GPU sales — ends eight-year investor lawsuit without admitting wrongdoing
+Yahoo Finance · 27/11 08h30 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Nvidia has agreed to pay a $290 million settlement in an eight-year-long securities class action lawsuit.
+  – Investors accused the company of misleading shareholders about how much of its gaming revenue was actually driven by the cryptocurrency mining boom in 2018.
+  – 2017-2018 were some of the most rampant years for cryptocurrency mining, with plenty of scalpers buying up the Pascal GTX 1000-Series GPUs released in early 2017.
+  – Nvidia also sold the P106-100 that year, a dedicated cryptocurrency mining GPU with similar hardware to the GTX 1060, and it was attributed to OEM sales.
+  – When the 2018 crypto crash hit, Nvidia's revenue felt it too, with a sharp decline in gaming sales.
+  – In 2021, the district court dismissed the lawsuit, but part of the dismissal was reversed by the US Court of Appeals for the Ninth Circuit, reviving the lawsuit and allowing the securities fraud claims against Nvidia to…
+Link: https://finance.yahoo.com/markets/stocks/articles/nvidia-agrees-290-million-settlement-113000606.html
+Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e prazo
+Ativos: NVDA
+Como falar: 'saiu no Yahoo Finance: Nvidia agrees to $290 million settlement over 2018 crypto mining GPU sales — ends eight-y…; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 27/11 08h30
+ids: E05-NVDA-e62eb6fbb0-2026-11-27
+
 Info (só linha no Fechamento):
-· E05 ALUP4 · ELET3: AXIA Energia assina descruzamento de participações com Alupar
-· E05 NVDA · Nvidia Blackwell chips found in Shanghai data center tied to Alice Huang
-· E05 JPM · JPMorgan, BofA, Citigroup issue same red alert over US bank accounts — official policy changes shift liability to you
-· E05 USDBRL · Ibovespa Hoje Ao Vivo: Confira o que movimenta Bolsa, Dólar e Juros nesta sexta
-· E05 USDBRL · Dólar desaba 3,5%, a R$ 5,54, com confirmação de Trabuco na Fazenda
-· E05 USDBRL · Dólar abre em queda de quase 4% e atinge R$ 5,52 após confirmação de Trabuco na Fazenda
+· E05 BBAS3 · BBAS3: BB presta novos esclarecimentos à CVM sobre agro
+· E05 USDBRL · Dólar cai e ativos brasileiros disparam após anúncio de Trabuco como ministro da Fazenda
+· E05 MRVL · Marvell Stock: From Overvalued To Significantly Undervalued (NASDAQ:MRVL)
+· E05 GOOGL · LigaData Brings Data Flare and Barq to Google Cloud Marketplace
+· E05 USDBRL · Dólar cai abaixo de R$ 5,50 com 'efeito Trabuco': é hora de comprar?
+· E05 USDBRL · Trabuco na Fazenda: Bolsa sobe, dólar e juros caem, mas mercado vê riscos que ameaçam o rali
+· E05 AMD · Advanced Micro Devices (AMD) After AI Data Center Wins Looks Cheap Or Already Priced In
+· E05 BBDC4 · Sucessão de Trabuco no Bradesco seguirá regimento; vice é o próximo na linha
+· E05 PLTR · Poland signs contract with Palantir worth $300 mln over 5 years
+· E05 ALUP4 · AXIA3: AXIA Energia assina descruzamento de participações com Alupar
+· E05 BAC · 2027 oil price forecast: Where BofA thinks Brent is headed next
+· E05 BTC · A 'death cross' in the bitcoin (BTC) price is coming: Crypto Daily
 · E05 BTC · Crypto Stocks Gain After Bitcoin Tops $61K In Tech Rebound, But Analysts Want A Move Above $62K
-· E05 USDBRL · Dólar despenca na abertura e vai a R$ 5,53 com nomeação de Luiz Trabuco para a Fazenda no foco
-· E05 INTC · Why Is Intel Stock Rallying Today?
-· E05 MRVL · Why Is Marvell Technology Stock Surging Today?
-· E05 NVDA · How Much Of Big Tech's AI Spending Reaches Nvidia?
-· E05 AMD · AMD Stock Gets A Downgrade From Erste Group – Analyst Flags Valuation Concerns, Low Potential For Share Gains
-· E05 BBAS3 · Fundo imobiliário vende agência do Banco do Brasil (BBAS3) por R$ 14 milhões; veja lucro por cota
-· E05 SBSP3 · Sabesp, CSN, Tecnisa, Brava, Axia, Taesa e mais ações para acompanhar hoje
-· E05 MRVL · Marvell Faces Critical Earnings Test Amid AI Chip Market Turmoil
+· E05 ITUB4 · Trabuco na Fazenda: o que os CEOs do Itaú (ITUB4) e Santander (SANB11) têm a dizer sobre a escolha de Lula?
 
 
 Alertas do dia (todos, com status):
-· pendente  F01 USDBRL — Real sobe: USD/BRL 5,4953 (-4,3% no dia · -7,6% em 5 sessões · 11 dias seguidos 
+· pendente  F01 USDBRL — Real sobe: USD/BRL 5,5375 (-3,6% no dia · -6,9% em 5 sessões · 12 dias seguidos 
+· pendente  E05 PETR4 — PETR4 · Como o plano de US$ 122 bilhões da Petrobras pode afetar os dividendos n
+· pendente  E05 NVDA — NVDA · Nvidia agrees to $290 million settlement over 2018 crypto mining GPU sale
 · pendente  E03 AXIA3 — AXIA3 · Fato Relevante: Centro Corporativo Portinari, SEPN 504, Bloco D Brasília
 · pendente  E03 ALUP4 — ALUP4 · Fato Relevante: Com a conclusão da transação, a Companhia passa a deter 
 · pendente  E05 ITUB4 — ITUB4 · Cade aprova sociedade entre Itaú e Klabin em negócio de R$ 1,2 bilhão
-· pendente  E05 NVDA — NVDA · Nvidia Forecast $130 Billion in Revenue and Added $150 Billion to Its Buy
-· pendente  E05 PETR4 — PETR4 · Por que o plano de investimento de US$ 122 bilhões da Petrobras recebeu 
+· expirado  E05 NVDA — NVDA · Nvidia Forecast $130 Billion in Revenue and Added $150 Billion to Its Buy
+· expirado  E05 PETR4 — PETR4 · Por que o plano de investimento de US$ 122 bilhões da Petrobras recebeu 
 · expirado  E03 BBDC4 — BBDC4 · Fato Relevante: Página 1 de 1 Banco Bradesco S.A. o O Banco Bradesco S.A
 · linha     F05 BHKP — Celulose (proxy SHFE, fibra longa) +3,2% na semana: 4.714 CNY/t (27/11)
-· (+45 notícias só manchete, em noticias.md)
+· (+59 notícias só manchete, em noticias.md)
 
