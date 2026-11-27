@@ -1,8 +1,8 @@
-NOTÍCIAS E FATOS · 27/11 18h09
+NOTÍCIAS E FATOS · 27/11 18h52
 
-Pernas: noticias ok 14 novas (18 consultas; descartadas: 450 veículo fora da lista, 36 sem ativo, 2 teto) · cvm ok 0 novos de 13 (7 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 3 novas (18 consultas; descartadas: 414 veículo fora da lista, 30 sem ativo, 0 teto) · cvm ok 1 novos de 14 (7 cias casadas) · sec ok 0 novos em 3 dias
 
-## FATOS RELEVANTES E COMUNICADOS (CVM) (4)
+## FATOS RELEVANTES E COMUNICADOS (CVM) (5)
 
 [ATENÇÃO] E03 · AXIA3 · Fato Relevante: Centro Corporativo Portinari, SEPN 504, Bloco D Brasília | DF - Brasil | 70730- Descruzamento de Participações de Transmissão Rio de Janeiro, 27 de n…
 CVM · entregue 27/11/2026 08:45
@@ -45,6 +45,15 @@ Como falar: 'a Bradesco publicou fato relevante sobre Página 1 de 1 Banco Brade
 Fonte: CVM 26/11
 id: E03-BBDC4-1594285-2026-11-26 · status: expirado · íntegra disponível
 
+[INFO] E03 · AXIA3 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
+CVM · entregue 27/11/2026 18:48 · Outros Comunicados Não Considerados Fatos Relevantes
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1594553
+Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; confirma ou nega o que circula
+Ativos: AXIA3
+Como falar: 'a Axia Energia publicou comunicado ao mercado sobre Outros Comunicados Não Considerados Fatos Relevantes'
+Fonte: CVM 27/11
+id: E03-AXIA3-1594553-2026-11-27 · status: linha
+
 [INFO] E03 · BBAS3 · Comunicado ao Mercado: Esclarecimentos sobre questionamentos da CVM/B3
 CVM · entregue 26/11/2026 21:04 · Esclarecimentos sobre questionamentos da CVM/B3
 Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1594275
@@ -55,7 +64,23 @@ Fonte: CVM 26/11
 id: E03-BBAS3-1594275-2026-11-26 · status: linha
 
 
-## NOTÍCIAS COM MATERIALIDADE (12)
+## NOTÍCIAS COM MATERIALIDADE (13)
+
+[ATENÇÃO] E05 · SBSP3 · Justiça dá 72h para Sabesp apresentar plano de abastecimento para o verão em Santos
+g1 · 27/11 16h17 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – A decisão foi publicada na quarta-feira (25).
+  – A Sabesp não informou ao g1 quando foi notificada, mas afirmou ter ciência da ação civil pública e que apresentará as informações solicitadas, incluindo o plano de contingência para a temporada 2026/2027, dentro dos pra…
+  – A decisão é do juiz Gustavo Antonio Pieroni Louzada, da 3ª Vara Cível de Santos, e foi tomada após uma ação civil pública movida pelo Observatório Nacional dos Direitos à Água e ao Saneamento (Ondas).
+  – Agora no g1 Problemas no abastecimento O advogado da entidade, Sergio Antonio de Arruda Fabiano Neto, apresentou à Justiça episódios de falta d’água nos verões entre 2023 e 2026.
+  – "Não pedimos favor nem obra de exceção.
+  – Pedimos que a Sabesp cumpra o contrato que assinou", disse o advogado.
+Link: https://g1.globo.com/google/amp/sp/santos-regiao/noticia/2026/11/27/justica-da-72h-para-sabesp-apresentar-plano-de-abastecimento-para-o-verao-em-santos.ghtml
+Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e prazo
+Ativos: SBSP3
+Como falar: 'saiu no g1: Justiça dá 72h para Sabesp apresentar plano de abastecimento para o verão em Santos; confirmar o número no texto antes de repassar'
+Fonte: g1 27/11 16h17
+id: E05-SBSP3-b7850b1aa9-2026-11-27 · status: pendente
 
 [ATENÇÃO] E05 · PLTR · Palantir Raised Its 2026 Growth Outlook to 91%. Could the Stock Have More Room to Run?
 Yahoo Finance · 27/11 14h33 · fonte única · licença: resumo
@@ -222,8 +247,10 @@ Fonte: Estadao 27/11 00h48
 id: E05-PETR4-9c68b29b5f-2026-11-27 · status: expirado
 
 
-## OUTRAS NOTÍCIAS (só manchete) (125)
+## OUTRAS NOTÍCIAS (só manchete) (127)
 
+· TSLA Tesla Needs Over $20 Billion In Operating Profit To Earn Its Share Price (NASDAQ:TSLA) (Seeking Alpha) https://seekingalpha.com/article/4972601-tesla-needs-over-20-billion-in-operating-profit-to-earn-its-share-price
+· NVDA Fire Sale: Here's Why Now May Be the Perfect Time to Buy Nvidia Stock (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/fire-sale-heres-why-now-143802605.html
 · TESOURO Vendas do Tesouro Direto registram melhor outubro da história (Agencia Brasil) https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/vendas-do-tesouro-direto-registram-melhor-outubro-da-historia
 · USDBRL Dólar cai 7,07% na semana com indicação de Trabuco para a Fazenda e alívio fiscal (ADVFN) https://br.advfn.com/jornal/2026/11/dolar-cai-7-07-na-semana-com-indicacao-de-trabuco-para-a-fazenda-e-alivio-fiscal
 · PETR4 Dólar cai 3,97% com Trabuco na Fazenda; Petrobras limita alta do Ibovespa (UOL Economia) https://economia.uol.com.br/cotacoes/noticias/redacao/2026/11/27/dolar-ibovespa-fechamento-27-novembro-2026.htm
@@ -282,6 +309,4 @@ id: E05-PETR4-9c68b29b5f-2026-11-27 · status: expirado
 · COHR Why is Coherent stock surging today? By Investing.com (Investing.com) https://uk.investing.com/news/stock-market-news/why-is-coherent-stock-surging-today-93CH-5006639
 · AXIA3 Axia Energia fecha descruzamento de participações em transmissão por R$ 367,1 mi (UOL Economia) https://economia.uol.com.br/noticias/redacao/2026/11/27/axia-energia-fecha-descruzamento-de-participacoes-em-transmissao-por-r-3671-milhoes.ghtm
 · SBSP3 Sabesp (SBSP3): bancos veem revisão tarifária robusta e projetam reajuste de até 20% (InfoMoney) https://www.infomoney.com.br/mercados/sabesp-sbsp3-bancos-veem-revisao-tarifaria-robusta-e-projetam-reajuste-de-ate-20/
-· NVDA Nvidia Stock: 5 Reasons The AI Trade Has Only Begun (NASDAQ:NVDA) (Seeking Alpha) https://seekingalpha.com/article/4972549-nvidia-stock-5-reasons-the-ai-trade-has-only-begun?source=generic_rss
-· USDBRL Dólar cai a R$ 5,74 e Ibovespa dispara 6,07% após anúncio de Trabuco (Agencia Brasil) https://agenciabrasil.ebc.com.br/radioagencia-nacional/politica/audio/2026-11/dolar-cai-r-574-e-ibovespa-dispara-607-apos-anuncio-de-trabuco
-· (+65 manchetes; lista completa em eventos/noticias.json)
+· (+67 manchetes; lista completa em eventos/noticias.json)

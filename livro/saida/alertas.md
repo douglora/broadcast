@@ -1,6 +1,6 @@
-ALERTAS · Fechamento 18h
+ALERTAS · eventos
 
-[CRÍTICO] CURVA · C01 A curva FECHOU: F28 -51 bps no dia · F28 -116 bps em 5 pregões · F28 5 pregões seguidos (-116 bps) (ajuste B3 27/11) / C04 IPCA+ 2032 volta abaixo de 7,50% real: 7,35% (-34 bps), base 27/11 / C05 Pre 2029 FECHA 67 bps (PU +1,3%) · IPCA+ 2032 FECHA 34 bps (PU +1,9%) · IPCA+ 2040 FECHA 26 bps (PU +3,4%) (base 27/11)
+(pendente de slot anterior) [CRÍTICO] CURVA · C01 A curva FECHOU: F28 -51 bps no dia · F28 -116 bps em 5 pregões · F28 5 pregões seguidos (-116 bps) (ajuste B3 27/11) / C04 IPCA+ 2032 volta abaixo de 7,50% real: 7,35% (-34 bps), base 27/11 / C05 Pre 2029 FECHA 67 bps (PU +1,3%) · IPCA+ 2032 FECHA 34 bps (PU +1,9%) · IPCA+ 2040 FECHA 26 bps (PU +3,4%) (base 27/11)
 DI F28 13,67 (-51) · F29 13,68 (-77) · F30 13,79 (-78) · F32 13,99 (-71) · F35 14,13 (-64)
 Inclinação F35-F28 +46 bps (-13)
 PU R$ 3.196,07; cada 10 bps move ~0,5% do PU
@@ -17,42 +17,9 @@ Implícita 2031/32 (descasado): 6,83% (-12 bps na semana) vs Focus IPCA 2030 3,9
 Por que importa: delta em bps e inclinação são o que toda mesa de renda fixa reporta e o que explica a marcação do Tesouro ao cliente
 Como falar: 'a curva fechou: o prefixado valorizou na marcação; o cupom contratado não muda'
 Fonte: B3 ajuste 27/11 · Tesouro Transparente base 27/11; BCB Focus · Tesouro Transparente, base 27/11 · ajuste B3 27/11
-Push: [CRÍTICO] DI A curva FECHOU | IPCA2032 IPCA+ 2032 volta abaixo de 7,50% real | TESOURO Pre 2029 FECHA 67 bps (PU +1,3%) · IPCA+ 2032 FECHA 34 bps ( +4 · detalhe na sessão
 ids: C01-DI-fechou-2026-11-27, C04-IPCA2032-baixo_7.5-2026-11-27, C05-TESOURO-fechou-2026-11-27, C02-DI-inclinacao-2026-11-27, C03-DI-di-2026-11-27, C03-TESOURO-td-2026-11-27, C06-TESOURO-implicita-2026-11-27
 
-(pendente de slot anterior) [ATENÇÃO] E05 · BBAS3 · Quando o Banco do Brasil (BBAS3) paga dividendos? Veja o calendário
-Suno Noticias · 27/11 16h46 · fonte única · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – Mercado Quando o Banco do Brasil (BBAS3) paga dividendos?
-  – Veja o calendário Os investidores do Banco do Brasil (BBAS3) não terão um final de ano tão animador quanto o esperado.
-  – A instituição reduziu de 30% para 25% o payout, fatia do lucro líquido ajustado repassada aos investidores.
-  – A mudança foi comunicada em fato relevante no dia 11 de novembro, mesma data da divulgação do balanço do terceiro trimestre de 2026 (3T26).
-  – Entre julho e setembro, o lucro líquido ajustado do banco somou R$ 1,3 bilhão, recuo de 66,5% frente ao mesmo intervalo de 2025.
-  – O número ficou distante das estimativas do mercado, que apontavam algo próximo de R$ 3 bilhões.
-Link: https://www.suno.com.br/noticias/banco-do-brasil-bbas3-divivendos-pagamento-241126/
-Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
-Ativos: BBAS3
-Como falar: 'saiu no Suno Noticias: Quando o Banco do Brasil (BBAS3) paga dividendos? Veja o calendário; confirmar o número no texto antes de repassar'
-Fonte: Suno Noticias 27/11 16h46
-ids: E05-BBAS3-26fdcc2b4e-2026-11-27
-
-(pendente de slot anterior) [ATENÇÃO] E05 · AMZN · Amazon’s AWS Profit Rose 55%. Can It Absorb a $220 Billion Capex Bill?
-Yahoo Finance · 27/11 16h18 · fonte única · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – We recently published 10 Stocks That Should Double in 3 Years, where Amazon.com, Inc. (NASDAQ:AMZN) took the 10th spot.
-  – A company needed an annual forecast of at least 25% and positive trailing GAAP net income.
-  – Amazon's $2.64 trillion market capitalization made it the largest qualifying company, while its 25.19% EPS growth forecast put it at number ten when the final stocks were ranked from the lowest forecast to the highest.
-  – Insider Monkey counted 366 hedge-fund holders at the end of Q3 2026.
-  – Third-quarter sales increased 12% to $201.9 billion and operating income reached $28.1 billion.
-  – AWS revenue rose 39% to $46.0 billion, while AWS operating income climbed 55% to $17.8 billion.
-Link: https://ca.finance.yahoo.com/news/amazon-aws-profit-rose-55-191859418.html
-Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
-Ativos: AMZN
-Como falar: 'saiu no Yahoo Finance: Amazon’s AWS Profit Rose 55%. Can It Absorb a $220 Billion Capex Bill?; confirmar o número no texto antes de repassar'
-Fonte: Yahoo Finance 27/11 16h18
-ids: E05-AMZN-22135a22c4-2026-11-27
-
-[ATENÇÃO] E05 · PLTR · Palantir Raised Its 2026 Growth Outlook to 91%. Could the Stock Have More Room to Run?
+(pendente de slot anterior) [ATENÇÃO] E05 · PLTR · Palantir Raised Its 2026 Growth Outlook to 91%. Could the Stock Have More Room to Run?
 Yahoo Finance · 27/11 14h33 · fonte única · licença: resumo
 Trechos (licença resumo: reescrever, não colar):
   – Quick Read - Palantir (PLTR) posted record 96% revenue growth and raised its 2026 outlook, yet the stock sank 22% in a month before bouncing.
@@ -66,31 +33,29 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: PLTR
 Como falar: 'saiu no Yahoo Finance: Palantir Raised Its 2026 Growth Outlook to 91%. Could the Stock Have More Room to Run?; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 27/11 14h33
-Push: [ATENÇÃO] PLTR · Palantir Raised Its 2026 Growth Outlook to 91%. Could · detalhe na sessão
 ids: E05-PLTR-ca2aded611-2026-11-27
 
+[ATENÇÃO] E05 · SBSP3 · Justiça dá 72h para Sabesp apresentar plano de abastecimento para o verão em Santos
+g1 · 27/11 16h17 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – A decisão foi publicada na quarta-feira (25).
+  – A Sabesp não informou ao g1 quando foi notificada, mas afirmou ter ciência da ação civil pública e que apresentará as informações solicitadas, incluindo o plano de contingência para a temporada 2026/2027, dentro dos pra…
+  – A decisão é do juiz Gustavo Antonio Pieroni Louzada, da 3ª Vara Cível de Santos, e foi tomada após uma ação civil pública movida pelo Observatório Nacional dos Direitos à Água e ao Saneamento (Ondas).
+  – Agora no g1 Problemas no abastecimento O advogado da entidade, Sergio Antonio de Arruda Fabiano Neto, apresentou à Justiça episódios de falta d’água nos verões entre 2023 e 2026.
+  – "Não pedimos favor nem obra de exceção.
+  – Pedimos que a Sabesp cumpra o contrato que assinou", disse o advogado.
+Link: https://g1.globo.com/google/amp/sp/santos-regiao/noticia/2026/11/27/justica-da-72h-para-sabesp-apresentar-plano-de-abastecimento-para-o-verao-em-santos.ghtml
+Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e prazo
+Ativos: SBSP3
+Como falar: 'saiu no g1: Justiça dá 72h para Sabesp apresentar plano de abastecimento para o verão em Santos; confirmar o número no texto antes de repassar'
+Fonte: g1 27/11 16h17
+Push: [ATENÇÃO] SBSP3 · Justiça dá 72h para Sabesp apresentar plano de abast · detalhe na sessão
+ids: E05-SBSP3-b7850b1aa9-2026-11-27
+
 Info (só linha no Fechamento):
-· T01 IGV retomou a média de 200 dias pela 1ª sessão: US$ 97,53 vs MM200 US$ 94,66 (+3,0%)
-· T01 AMZN retomou a média de 200 dias pela 1ª sessão: US$ 254,12 vs MM200 US$ 246,03 (+3,3%)
-· T01 TSLA retomou a média de 200 dias pela 1ª sessão: US$ 400,00 vs MM200 US$ 381,00 (+5,0%)
-· T02 ITSA4 retomou a MM100 pela 2ª sessão: R$ 14,06, acima da MM200 (tendência longa preservada)
-· T02 MRVE3 retomou a MM100 pela 2ª sessão: R$ 5,92, ainda abaixo da MM200 (repique dentro da baixa)
-· T02 CURY3 retomou a MM50 pela 2ª sessão: R$ 29,50, ainda abaixo da MM200 (repique dentro da baixa)
-· T09 BBDC4 +1,3% com volume 2,6x a mediana de 20 sessões, a R$ 16,04
-· T09 SMAL11 +1,6% com volume 2,9x a mediana de 20 sessões, a R$ 109,78
-· E05 TESOURO · Vendas do Tesouro Direto registram melhor outubro da história
-· E05 USDBRL · Dólar cai 7,07% na semana com indicação de Trabuco para a Fazenda e alívio fiscal
-· E05 PETR4 · Dólar cai 3,97% com Trabuco na Fazenda; Petrobras limita alta do Ibovespa
-· E05 USDBRL · Dólar fecha em queda de 4% aos R$ 5,515 após anúncio de Trabuco
-· E05 USDBRL · Soja sobe em Chicago com influência do câmbio no Brasil e ganhos no farelo de soja
-· E05 UST · Nasdaq Leads Market Rebound as Treasury Yields Hit 5.29% at the Long End
-· E05 MU · Micron Stocks Climb 4.29% as Chip Rebound Meets Tight 2027 Memory Supply
-· E05 AMD · AMD Stocks Rise Despite Erste Group Downgrade on Valuation
-· E05 ALUP4 · A ALUPAR E A AXIA ENERGIA ASSINAM ACORDO PARA DESCRUZAR AS PARTICIPAÇÕES EM ATIVOS DE TRANSMISSÃO NO NORTE E NO NORDESTE.
-· E05 AMD · Dual AI Growth Catalysts Position Advanced Micro Devices (AMD) for Revenue Acceleration
-· E05 AXIA3 · Axia Energia fecha descruzamento de participações em transmissão por R$ 367,1 mi
-· E05 AXIA3 · Axia Energia, antiga Eletrobras, aprova resgate de R$ 6 bi de ações preferenciais
-· E05 UST · U.S. Treasury yields tick up, snapping eight-day rally as bond bulls pause
+· E03 AXIA3 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
+· E05 TSLA · Tesla Needs Over $20 Billion In Operating Profit To Earn Its Share Price (NASDAQ:TSLA)
+· E05 NVDA · Fire Sale: Here's Why Now May Be the Perfect Time to Buy Nvidia Stock
 · T05 USDBRL -4,0% no dia a R$ 5,5142: movimento de 4,2 desvios para uma vol de 20 dias de 15% a.a.
 · T04 RARA11 fechou na mínima da série de 91 sessões: R$ 11,05, -15% em 1m e - em 12m
 · T06 USDBRL -7,3% em 5 sessões a R$ 5,5142: movimento de 3,5 desvios para a vol de 20 dias
@@ -104,6 +69,7 @@ Alertas do dia (todos, com status):
 · pendente  C05 TESOURO — Pre 2029 FECHA 67 bps (PU +1,3%) · IPCA+ 2032 FECHA 34 bps (PU +1,9%) · IPCA+ 20
 · linha     T05 USDBRL — USDBRL -4,0% no dia a R$ 5,5142: movimento de 4,2 desvios para uma vol de 20 dia
 · expirado  F01 USDBRL — Real sobe: USD/BRL 5,5142 (-4,0% no dia · -7,3% em 5 sessões · 18 dias seguidos 
+· pendente  E05 SBSP3 — SBSP3 · Justiça dá 72h para Sabesp apresentar plano de abastecimento para o verã
 · pendente  C04 IPCA2032 — IPCA+ 2032 volta abaixo de 7,50% real: 7,35% (-34 bps), base 27/11
 · pendente  C02 DI — Inclinação da curva DI: F35-F28 -13 bps no dia: bull flattening (longo fechou ma
 · pendente  C03 DI — DI em nível: F28 cruzou 14,00% (para baixo, agora 13,67%) · F29 cruzou 14,00% (p
@@ -137,4 +103,4 @@ Alertas do dia (todos, com status):
 · linha     T09 BBDC4 — BBDC4 +1,3% com volume 2,6x a mediana de 20 sessões, a R$ 16,04
 · linha     T09 SMAL11 — SMAL11 +1,6% com volume 2,9x a mediana de 20 sessões, a R$ 109,78
 · linha     F05 BHKP — Celulose (proxy SHFE, fibra longa) +3,2% na semana: 4.714 CNY/t (27/11)
-· (+126 notícias só manchete, em noticias.md)
+· (+129 notícias só manchete, em noticias.md)
