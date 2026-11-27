@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 27/11 17h05
+NOTÍCIAS E FATOS · 27/11 18h09
 
-Pernas: noticias ok 2 novas (18 consultas; descartadas: 345 veículo fora da lista, 24 sem ativo, 0 teto); 3 falhas · cvm ok 0 novos de 13 (7 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 14 novas (18 consultas; descartadas: 450 veículo fora da lista, 36 sem ativo, 2 teto) · cvm ok 0 novos de 13 (7 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (4)
 
@@ -55,7 +55,23 @@ Fonte: CVM 26/11
 id: E03-BBAS3-1594275-2026-11-26 · status: linha
 
 
-## NOTÍCIAS COM MATERIALIDADE (11)
+## NOTÍCIAS COM MATERIALIDADE (12)
+
+[ATENÇÃO] E05 · PLTR · Palantir Raised Its 2026 Growth Outlook to 91%. Could the Stock Have More Room to Run?
+Yahoo Finance · 27/11 14h33 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Quick Read - Palantir (PLTR) posted record 96% revenue growth and raised its 2026 outlook, yet the stock sank 22% in a month before bouncing.
+  – - Palantir outgrows Snowflake (SNOW) and CrowdStrike (CRWD) with 96% growth and a 62% operating margin, though it trades at a premium.
+  – - At about 65x forward earnings, Palantir leaves little room for error, and contract value grew just 6% as deals shortened.
+  – Shares trade at $157.83, up 10% today.
+  – price target for Palantir is $180.52.
+  – That implies 14.4% upside over the next 12 months and earns a buy rating with a high degree of confidence.
+Link: https://finance.yahoo.com/markets/stocks/articles/palantir-raised-2026-growth-outlook-173336289.html
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: PLTR
+Como falar: 'saiu no Yahoo Finance: Palantir Raised Its 2026 Growth Outlook to 91%. Could the Stock Have More Room to Run?; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 27/11 14h33
+id: E05-PLTR-ca2aded611-2026-11-27 · status: pendente
 
 [ATENÇÃO] E05 · BBAS3 · Quando o Banco do Brasil (BBAS3) paga dividendos? Veja o calendário
 Suno Noticias · 27/11 16h46 · fonte única · licença: resumo
@@ -71,7 +87,7 @@ Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir
 Ativos: BBAS3
 Como falar: 'saiu no Suno Noticias: Quando o Banco do Brasil (BBAS3) paga dividendos? Veja o calendário; confirmar o número no texto antes de repassar'
 Fonte: Suno Noticias 27/11 16h46
-id: E05-BBAS3-26fdcc2b4e-2026-11-27 · status: pendente
+id: E05-BBAS3-26fdcc2b4e-2026-11-27 · status: expirado
 
 [ATENÇÃO] E05 · AMZN · Amazon’s AWS Profit Rose 55%. Can It Absorb a $220 Billion Capex Bill?
 Yahoo Finance · 27/11 16h18 · fonte única · licença: resumo
@@ -87,7 +103,7 @@ Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; 
 Ativos: AMZN
 Como falar: 'saiu no Yahoo Finance: Amazon’s AWS Profit Rose 55%. Can It Absorb a $220 Billion Capex Bill?; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 27/11 16h18
-id: E05-AMZN-22135a22c4-2026-11-27 · status: pendente
+id: E05-AMZN-22135a22c4-2026-11-27 · status: expirado
 
 [ATENÇÃO] E05 · MELI34 · FII BTLG11 quer investir R$ 798 milhões em galpões com Mercado Livre entre os inquilinos; cotistas decidem
 Money Times · 27/11 15h53 · fonte única · licença: integral
@@ -206,8 +222,21 @@ Fonte: Estadao 27/11 00h48
 id: E05-PETR4-9c68b29b5f-2026-11-27 · status: expirado
 
 
-## OUTRAS NOTÍCIAS (só manchete) (112)
+## OUTRAS NOTÍCIAS (só manchete) (125)
 
+· TESOURO Vendas do Tesouro Direto registram melhor outubro da história (Agencia Brasil) https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/vendas-do-tesouro-direto-registram-melhor-outubro-da-historia
+· USDBRL Dólar cai 7,07% na semana com indicação de Trabuco para a Fazenda e alívio fiscal (ADVFN) https://br.advfn.com/jornal/2026/11/dolar-cai-7-07-na-semana-com-indicacao-de-trabuco-para-a-fazenda-e-alivio-fiscal
+· PETR4 Dólar cai 3,97% com Trabuco na Fazenda; Petrobras limita alta do Ibovespa (UOL Economia) https://economia.uol.com.br/cotacoes/noticias/redacao/2026/11/27/dolar-ibovespa-fechamento-27-novembro-2026.htm
+· USDBRL Dólar fecha em queda de 4% aos R$ 5,515 após anúncio de Trabuco (Poder360) https://www.poder360.com.br/poder-economia/dolar-fecha-em-queda-de-4-aos-r-5515-apos-anuncio-de-trabuco/
+· USDBRL Soja sobe em Chicago com influência do câmbio no Brasil e ganhos no farelo de soja (TradingView (Reuters)) https://br.tradingview.com/news/reuters.com,2026:newsml_L6N4780XN:0/
+· UST Nasdaq Leads Market Rebound as Treasury Yields Hit 5.29% at the Long End (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:bdc525a39094b:0-nasdaq-leads-market-rebound-as-treasury-yields-hit-5-29-at-the-long-end/
+· MU Micron Stocks Climb 4.29% as Chip Rebound Meets Tight 2027 Memory Supply (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:88efe1ecd094b:0-micron-stocks-climb-4-29-as-chip-rebound-meets-tight-2027-memory-supply/
+· AMD AMD Stocks Rise Despite Erste Group Downgrade on Valuation (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:6c393ccf8094b:0-amd-stocks-rise-despite-erste-group-downgrade-on-valuation/
+· ALUP4 A ALUPAR E A AXIA ENERGIA ASSINAM ACORDO PARA DESCRUZAR AS PARTICIPAÇÕES EM ATIVOS DE TRANSMISSÃO NO NORTE E NO NORDESTE. (Petronoticias) https://petronoticias.com.br/a-alupar-e-a-axia-energia-assinam-acordo-para-descruzar-as-participacoes-em-ativos-de-transmissao-no-norte-e-no-nordeste/
+· AMD Dual AI Growth Catalysts Position Advanced Micro Devices (AMD) for Revenue Acceleration (Yahoo Finance) https://ca.finance.yahoo.com/news/dual-ai-growth-catalysts-position-164930131.html
+· AXIA3 Axia Energia fecha descruzamento de participações em transmissão por R$ 367,1 mi (UOL Economia) https://www.bol.uol.com.br/economia/2026/11/27/axia-energia-fecha-descruzamento-de-participacoes-em-transmissao-por-r-3671-milhoes.amp.htm
+· AXIA3 Axia Energia, antiga Eletrobras, aprova resgate de R$ 6 bi de ações preferenciais (UOL Economia) https://economia.uol.com.br/noticias/redacao/2026/11/27/axia-energia-aprova-resgate-de-acoes-pnc-de-r-6-bilhoes.ghtm
+· UST U.S. Treasury yields tick up, snapping eight-day rally as bond bulls pause (Investing.com) https://news.google.com/rss/articles/CBMiugFBVV95cUxNTmNBNU9iZG40dTJmb0IzVFVBTjZRZWJzRXFkai03Zkt4T3FidVd6Mm5JbE1zemVuVjQtdHNLRGVUQ2gzWVpTX181cmh0aTRNaE5TdV96ZlE3YmtfeHVkNUxyTnh5NzVCNlRiM1BydlRfUWxZb2V4WVJ2UnpXNUlQYVlSR0w1am5mZFg5emt0Mk8zNVR4RElkXzNzOHNSOUtMNS1YVWx6Q2h0TUVrMmE2cDA1czgySnVDYWc?oc=5
 · NVDA Nvidia: If You Didn't Sell Before The Jensen Huang Drama, It's Too Late Now (NASDAQ:NVDA) (Seeking Alpha) https://seekingalpha.com/article/4972640-nvidia-if-you-didnt-sell-before-the-jensen-huang-drama-its-too-late-now?source=feed_symbol_NVDA
 · ALUP4 Axia tem espaço para novas trocas de ativos após acordo com Alupar (Valor Economico) https://valor.globo.com/empresas/noticia/2026/11/27/axia-tem-espao-para-novas-trocas-de-ativos-aps-acordo-com-alupar.ghtml
 · ITUB4 Auren Energia colhe ganhos acima do esperado com aquisição bilionária, aponta Itaú BBA (Estadao) https://www.estadao.com.br/em-alta/einvestidor/cenarios-e-mercado/auren-energia-colhe-ganhos-acima-do-esperado-com-aquisicao-bilionaria-aponta-itau-bba/
@@ -255,17 +284,4 @@ id: E05-PETR4-9c68b29b5f-2026-11-27 · status: expirado
 · SBSP3 Sabesp (SBSP3): bancos veem revisão tarifária robusta e projetam reajuste de até 20% (InfoMoney) https://www.infomoney.com.br/mercados/sabesp-sbsp3-bancos-veem-revisao-tarifaria-robusta-e-projetam-reajuste-de-ate-20/
 · NVDA Nvidia Stock: 5 Reasons The AI Trade Has Only Begun (NASDAQ:NVDA) (Seeking Alpha) https://seekingalpha.com/article/4972549-nvidia-stock-5-reasons-the-ai-trade-has-only-begun?source=generic_rss
 · USDBRL Dólar cai a R$ 5,74 e Ibovespa dispara 6,07% após anúncio de Trabuco (Agencia Brasil) https://agenciabrasil.ebc.com.br/radioagencia-nacional/politica/audio/2026-11/dolar-cai-r-574-e-ibovespa-dispara-607-apos-anuncio-de-trabuco
-· TESOURO Tesouro Direto tem “circuit breaker” com taxas em queda livre após sim de Trabuco (InfoMoney) https://www.infomoney.com.br/onde-investir/tesouro-direto-abertura-fechamento-27112026/
-· USDBRL Ibovespa dispara e dólar cai abaixo de R$ 5,55: por que Trabuco na Fazenda agrada ao mercado? (Exame) https://exame.com/invest/mercados/ibovespa-hoje-27-11-2026/
-· MU Micron Stock Is Jumping but There’s Bad News on Memory Prices (Barron's) https://www.barrons.com/articles/micron-stock-price-memory-7b89deb0
-· JPM JPMorgan: I'm Sitting This One Out For Now (NYSE:JPM) (Seeking Alpha) https://seekingalpha.com/article/4972495-jpmorgan-stock-i-am-sitting-this-one-out-for-now
-· BTC Bitcoin whales add 121,117 BTC as price falls nearly 30% in Q4 (TradingView (Reuters)) https://www.tradingview.com/news/cryptobriefing:d2317a87c094b:0-bitcoin-whales-add-121-117-btc-as-price-falls-nearly-30-in-q4/
-· BBDC4 BBDC4: Trabuco aceita convite para comandar o Ministério da Fazenda (Suno Noticias) https://www.suno.com.br/noticias/bbdc4-trabuco-aceita-ministerio-fazenda-271126/
-· BRENT OPEC+ set to keep oil production targets steady, sources say (Reuters) https://www.reuters.com/business/energy/opec-set-keep-oil-production-targets-steady-first-quarter-sources-say-2026-11-27/
-· BBAS3 BBAS3: BB presta novos esclarecimentos à CVM sobre agro (Suno Noticias) https://www.suno.com.br/noticias/bbas3-banco-do-brasil-agro-271126/
-· USDBRL Dólar cai e ativos brasileiros disparam após anúncio de Trabuco como ministro da Fazenda (Bloomberg Linea) https://www.bloomberglinea.com.br/mercados/ativos-brasileiros-disparam-apos-anuncio-de-trabuco-como-ministro-da-fazenda-de-lula-4/
-· MRVL Marvell Stock: From Overvalued To Significantly Undervalued (NASDAQ:MRVL) (Seeking Alpha) https://seekingalpha.com/article/4972532-marvell-from-overvalued-to-significantly-undervalued
-· GOOGL LigaData Brings Data Flare and Barq to Google Cloud Marketplace (PR Newswire) https://www.prnewswire.com/news-releases/ligadata-brings-data-flare-and-barq-to-google-cloud-marketplace-302950709.html
-· USDBRL Dólar cai abaixo de R$ 5,50 com 'efeito Trabuco': é hora de comprar? (Exame) https://exame.com/invest/mercados/dolar-cai-abaixo-de-r-550-com-efeito-trabuco-e-hora-de-comprar/
-· USDBRL Trabuco na Fazenda: Bolsa sobe, dólar e juros caem, mas mercado vê riscos que ameaçam o rali (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/trabuco-na-fazenda-bolsa-sobe-dolar-e-juros-caem-mas-mercado-ve-riscos-que-ameacam-o-rali/
-· (+52 manchetes; lista completa em eventos/noticias.json)
+· (+65 manchetes; lista completa em eventos/noticias.json)
