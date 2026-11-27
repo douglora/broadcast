@@ -1,7 +1,7 @@
 # Boletim da B3: pregão de 26/11/2026 (quinta)
 
 **Situação: PARCIAL.** Ainda sem: cadastro de instrumentos. A B3 publica esses blocos na madrugada seguinte ao pregão; a rodada da manhã completa.
-Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-11-27T11:53:18Z (UTC).
+Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-11-27T20:18:13Z (UTC).
 
 [[LEITURA_DA_MESA]]
 
@@ -10,13 +10,13 @@ Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-11
 **Novos hoje**
 
 - **Vendidos zerando.** SAPR4: em 5 pregões o saldo alugado caiu 48,8% e o preço subiu 4,5%: vendidos devolvendo o papel na alta. _(B3, BTBLendingOpenPosition, 26/11)_
-- **Crédito: giro.** CRI: R$ 1.829 mi negociados no balcão, 2,4x a média de 20 pregões. _(B3, Trade (preliminar), 26/11)_
-- **Crédito: taxa abriu.** CRA022004MS (Eco Securitizadora de Direitos Credit…, CRA): taxa média dos negócios da B3 abriu 242 pb contra 10/11, para IPCA+ 17,00%, em R$ 43,5 mi. _(B3, Trade + InstrumentRegistration (preliminar), 26/11)_
-- **Crédito: taxa abriu.** CRA022004S9 (Eco Securitizadora de Direitos Credit…, CRA): taxa média dos negócios da B3 abriu 163 pb contra 10/11, para IPCA+ 15,51%, em R$ 11,6 mi. _(B3, Trade + InstrumentRegistration (preliminar), 26/11)_
-- **Crédito: taxa abriu.** CESE11 (Eneva, debênture incentivada): taxa média dos negócios da B3 abriu 87 pb contra 25/11, para IPCA+ 8,51%, em R$ 11,9 mi. _(B3, Trade + InstrumentRegistration (preliminar), 26/11)_
-- **Crédito: prêmio alto.** CRA022004MS (Eco Securitizadora de Direitos Credit…, CRA): negociada a IPCA+ 17,00%, 933 pb acima do juro real de mercado de prazo equivalente, em R$ 43,5 mi. _(B3, Trade + InstrumentRegistration (preliminar), 26/11)_
-- **Crédito: prêmio alto.** CRA022004S9 (Eco Securitizadora de Direitos Credit…, CRA): negociada a IPCA+ 15,51%, 808 pb acima do juro real de mercado de prazo equivalente, em R$ 11,6 mi. _(B3, Trade + InstrumentRegistration (preliminar), 26/11)_
-- **Crédito: prêmio alto.** CRA0240066K (Eco Securitizadora de Direitos Credit…, CRA): negociada a IPCA+ 15,30%, 770 pb acima do juro real de mercado de prazo equivalente, em R$ 6,6 mi. _(B3, Trade + InstrumentRegistration (preliminar), 26/11)_
+- **Crédito: giro.** CRI: R$ 1.761 mi negociados no balcão, 2,3x a média de 20 pregões. _(B3, Trade, 26/11)_
+- **Crédito: taxa abriu.** CRA022004MS (Eco Securitizadora de Direitos Credit…, CRA): taxa média dos negócios da B3 abriu 242 pb contra 10/11, para IPCA+ 17,00%, em R$ 43,5 mi. _(B3, Trade + InstrumentRegistration, 26/11)_
+- **Crédito: taxa abriu.** CRA022004S9 (Eco Securitizadora de Direitos Credit…, CRA): taxa média dos negócios da B3 abriu 163 pb contra 10/11, para IPCA+ 15,51%, em R$ 11,6 mi. _(B3, Trade + InstrumentRegistration, 26/11)_
+- **Crédito: taxa abriu.** CESE11 (Eneva, debênture incentivada): taxa média dos negócios da B3 abriu 87 pb contra 25/11, para IPCA+ 8,51%, em R$ 11,9 mi. _(B3, Trade + InstrumentRegistration, 26/11)_
+- **Crédito: prêmio alto.** CRA022004MS (Eco Securitizadora de Direitos Credit…, CRA): negociada a IPCA+ 17,00%, 933 pb acima do juro real de mercado de prazo equivalente, em R$ 43,5 mi. _(B3, Trade + InstrumentRegistration, 26/11)_
+- **Crédito: prêmio alto.** CRA022004S9 (Eco Securitizadora de Direitos Credit…, CRA): negociada a IPCA+ 15,51%, 808 pb acima do juro real de mercado de prazo equivalente, em R$ 11,6 mi. _(B3, Trade + InstrumentRegistration, 26/11)_
+- **Crédito: prêmio alto.** CRA0240066K (Eco Securitizadora de Direitos Credit…, CRA): negociada a IPCA+ 15,30%, 770 pb acima do juro real de mercado de prazo equivalente, em R$ 6,6 mi. _(B3, Trade + InstrumentRegistration, 26/11)_
 - **Fluxo estrangeiro.** Estrangeiro vendeu R$ 1.395 mi líquidos em 24/11; no mês, até 24/11, saldo de -R$ 7.301 mi. _(B3, SharesInvesVolum, 24/11)_
 - **Posição em aberto.** Dólar Comercial - futuro: contratos em aberto subiram 9,7% em um pregão, para 1.236.225. _(B3, AnalyticalFramework2, 26/11)_
 - **Juros.** A curva de juros fechou: DI1F28 −11 pb, para 14,18%, DI1F29 −25 pb, para 14,45%, DI1F30 −29 pb, para 14,58%, DI1F32 −32 pb, para 14,70%, DI1F35 −30 pb, para 14,78%. _(B3, TradeInformationConsolidated, 26/11)_
@@ -189,17 +189,15 @@ Aluguel de ações (BTC, o banco de títulos da B3): quem aluga normalmente vend
 
 ## Renda fixa: debêntures incentivadas, CRI e CRA
 
-**Preliminar:** a B3 ajusta os negócios de balcão no dia seguinte; volumes e taxas dos negócios deste pregão ainda podem mudar.
-
 **De onde vem cada taxa:** debêntures pela taxa indicativa da ANBIMA de 26/11 (1.256 papéis), com os negócios da B3 de 26/11 ao lado; CRI e CRA só pelos negócios da B3.
 
 | Classe | Volume do dia | Taxa mediana | Sobre o juro real |
 |---|---:|---:|---:|
-| Debêntures incentivadas | R$ 4,2 bi | IPCA+ 8,30% | +74 pb |
-| CRI | R$ 1,8 bi | IPCA+ 9,00% e CDI+ 1,80% | +149 pb |
-| CRA | R$ 594,1 mi | IPCA+ 10,05% e CDI+ 3,39% | +268 pb |
+| Debêntures incentivadas | R$ 3,9 bi | IPCA+ 8,30% | +74 pb |
+| CRI | R$ 1,8 bi | IPCA+ 9,04% e CDI+ 1,59% | +154 pb |
+| CRA | R$ 583,7 mi | IPCA+ 10,05% e CDI+ 3,53% | +268 pb |
 
-Nas incentivadas, a mediana pelos negócios do dia (B3 negócios de 26/11) foi IPCA+ 8,41%.
+Nas incentivadas, a mediana pelos negócios do dia (B3 negócios de 26/11) foi IPCA+ 8,43%.
 
 **Papéis acompanhados (config/boletim.yaml)**
 
@@ -212,8 +210,8 @@ Nas incentivadas, a mediana pelos negócios do dia (B3 negócios de 26/11) foi I
 | CRA024007K9 (Cooxupé (CDI+, única série)) | CDI+ 2,62% (B3 negócios de 26/11) | R$ 137,8 mil | - |
 | CRA0240099F (Vale do Tijuco (IPCA, única série)) | IPCA+ 13,00% (B3 negócios de 26/11) | R$ 153,7 mil | +540 pb no vencimento |
 | CRA025007KK (Eldorado Celulose (prefixado, única série)) | 16,60% pré (B3 negócios de 26/11) | R$ 1,9 mi | - |
-| CERT11 | IPCA+ 8,94% (ANBIMA indicativa de 26/11) | IPCA+ 8,98%, R$ 113,6 mi | +161 pb na duration |
-| CRA020002H1 (BRF (IPCA, série a confirmar)) | IPCA+ 14,04% (B3 negócios de 26/11) | R$ 14,9 mi | +648 pb no vencimento |
+| CERT11 | IPCA+ 8,94% (ANBIMA indicativa de 26/11) | IPCA+ 8,98%, R$ 113,5 mi | +161 pb na duration |
+| CRA020002H1 (BRF (IPCA, série a confirmar)) | IPCA+ 14,03% (B3 negócios de 26/11) | R$ 14,6 mi | +647 pb no vencimento |
 | CRA0220073P (Minerva (IPCA, série a confirmar)) | IPCA+ 16,31% (B3 negócios de 26/11) | R$ 2,9 mi | +892 pb no vencimento |
 | CRA025002S3 (Minerva (prefixado, série a confirmar)) | 21,55% pré (B3 negócios de 26/11) | R$ 1,3 mi | - |
 | CRA02300G7D (Marfrig (prefixado, série a confirmar)) | 17,87% pré (B3 negócios de 26/11) | R$ 1,8 mi | - |
@@ -230,19 +228,19 @@ Sem negócio neste pregão e sem taxa indicativa: CRA0240005O.
 
 | Papel | Taxa de referência | B3 negócios de 26/11 | Sobre o juro real |
 |---|---:|---:|---:|
-| CEPEA8 (Companhia Energetica De Pern) | IPCA+ 8,19% (ANBIMA indicativa de 26/11) | IPCA+ 8,32%, R$ 199,3 mi | +63 pb na duration |
+| CEPEA8 (Companhia Energetica De Pern) | IPCA+ 8,19% (ANBIMA indicativa de 26/11) | IPCA+ 8,34%, R$ 171,6 mi | +63 pb na duration |
 | PTCE11 (Portocem Geracao De Energia ) | IPCA+ 11,11% (B3 negócios de 26/11) | R$ 153,8 mi | +383 pb no vencimento |
 | CNRD12 (Concessionaria Da Rodovia Ms) | IPCA+ 9,76% (ANBIMA indicativa de 26/11) | IPCA+ 9,83%, R$ 151,5 mi | +214 pb na duration |
 | ISAEC2 (Isa Energia Brasil S.A.) | IPCA+ 8,24% (ANBIMA indicativa de 26/11) | IPCA+ 8,31%, R$ 128,6 mi | +70 pb na duration |
 | MRSAA4 (Mrs Logistica S/A) | IPCA+ 8,41% (ANBIMA indicativa de 26/11) | IPCA+ 8,43%, R$ 123,9 mi | +83 pb na duration |
-| AESLC2 (Rge Sul Distribuidora De Ene) | IPCA+ 8,15% (ANBIMA indicativa de 26/11) | IPCA+ 8,18%, R$ 122,9 mi | +51 pb na duration |
-| AXIA18 (Axia Energia S.A.) | IPCA+ 8,19% (ANBIMA indicativa de 26/11) | IPCA+ 8,24%, R$ 114,7 mi | +55 pb na duration |
-| CERT11 (Concessionaria Ecovias Rapos) | IPCA+ 8,94% (ANBIMA indicativa de 26/11) | IPCA+ 8,98%, R$ 113,6 mi | +161 pb na duration |
+| CERT11 (Concessionaria Ecovias Rapos) | IPCA+ 8,94% (ANBIMA indicativa de 26/11) | IPCA+ 8,98%, R$ 113,5 mi | +161 pb na duration |
+| AESLC2 (Rge Sul Distribuidora De Ene) | IPCA+ 8,15% (ANBIMA indicativa de 26/11) | IPCA+ 8,20%, R$ 93,1 mi | +51 pb na duration |
+| AXIA18 (Axia Energia S.A.) | IPCA+ 8,19% (ANBIMA indicativa de 26/11) | IPCA+ 8,26%, R$ 92,3 mi | +55 pb na duration |
 
 **Abriram taxa pela indicativa da ANBIMA:** SAPR10 +7,2 pb contra 25/11, para IPCA+ 4,51% (R$ 5,2 mi).
-**Fecharam taxa pela indicativa da ANBIMA:** AXIA28 -27,7 pb contra 25/11, para IPCA+ 8,16% (R$ 6,3 mi); IVIAA0 -26,8 pb contra 25/11, para IPCA+ 10,09% (R$ 29,3 mi); BTEL13 -25,9 pb contra 25/11, para 18,25% pré (R$ 8,2 mi); SAELB8 -24,7 pb contra 25/11, para IPCA+ 8,67% (R$ 4,3 mi); VALEA0 -24,2 pb contra 25/11, para IPCA+ 7,50% (R$ 6,0 mi).
-**Abriram taxa pelos negócios da B3:** CRA022004MS +242 pb contra 10/11, para IPCA+ 17,00% (R$ 43,5 mi); CRA022004S9 +163 pb contra 10/11, para IPCA+ 15,51% (R$ 11,6 mi); CRA020002GZ +143 pb contra 25/11, para IPCA+ 16,64% (R$ 4,9 mi); CESE11 +87 pb contra 25/11, para IPCA+ 8,51% (R$ 11,9 mi); 24G1674104 +85 pb contra 18/11, para IPCA+ 9,22% (R$ 6,6 mi).
-**Fecharam taxa pelos negócios da B3:** CRA021005W1 -84 pb contra 25/11, para IPCA+ 9,78% (R$ 3,5 mi); CRA022000XE -81 pb contra 17/11, para IPCA+ 2,45% (R$ 30,3 mi); CRA020002H1 -74 pb contra 25/11, para IPCA+ 14,04% (R$ 14,9 mi); 21H1078699 -55 pb contra 25/11, para IPCA+ 11,48% (R$ 3,9 mi); 23L1737623 -41 pb contra 23/11, para IPCA+ 8,72% (R$ 4,6 mi).
+**Fecharam taxa pela indicativa da ANBIMA:** AXIA28 -27,7 pb contra 25/11, para IPCA+ 8,16% (R$ 6,3 mi); IVIAA0 -26,8 pb contra 25/11, para IPCA+ 10,09% (R$ 29,3 mi); BTEL13 -25,9 pb contra 25/11, para 18,25% pré (R$ 8,2 mi); SAELB8 -24,7 pb contra 25/11, para IPCA+ 8,67% (R$ 4,3 mi); VALEA0 -24,2 pb contra 25/11, para IPCA+ 7,50% (R$ 5,9 mi).
+**Abriram taxa pelos negócios da B3:** CRA022004MS +242 pb contra 10/11, para IPCA+ 17,00% (R$ 43,5 mi); CRA022004S9 +163 pb contra 10/11, para IPCA+ 15,51% (R$ 11,6 mi); CRA020002GZ +141 pb contra 25/11, para IPCA+ 16,62% (R$ 4,6 mi); CESE11 +87 pb contra 25/11, para IPCA+ 8,51% (R$ 11,9 mi); 24G1674104 +85 pb contra 18/11, para IPCA+ 9,22% (R$ 6,6 mi).
+**Fecharam taxa pelos negócios da B3:** CRA021005W1 -84 pb contra 25/11, para IPCA+ 9,78% (R$ 3,5 mi); CRA022000XE -82 pb contra 17/11, para IPCA+ 2,45% (R$ 30,3 mi); CRA020002H1 -74 pb contra 25/11, para IPCA+ 14,03% (R$ 14,6 mi); 21H1078699 -55 pb contra 25/11, para IPCA+ 11,48% (R$ 3,9 mi); 23L1737623 -41 pb contra 23/11, para IPCA+ 8,72% (R$ 4,6 mi).
 **Prêmio alto:** CRA022004MS a IPCA+ 17,00% (B3 negócios de 26/11), +933 pb no vencimento, R$ 43,5 mi; CRA022004S9 a IPCA+ 15,51% (B3 negócios de 26/11), +808 pb no vencimento, R$ 11,6 mi; CRA0240066K a IPCA+ 15,30% (B3 negócios de 26/11), +770 pb no vencimento, R$ 6,6 mi; RIS424 a IPCA+ 14,55% (ANBIMA indicativa de 26/11), +693 pb na duration, R$ 6,5 mi; 25E2914005 a CDI+ 6,50% (B3 negócios de 26/11), R$ 10,0 mi.
 
 Por classe, mediana das taxas de referência dos papéis. Taxa de referência: nas debêntures, a indicativa da ANBIMA quando há; nos demais papéis, a média dos negócios da B3 ponderada pelo volume. Juro real = DAP (cupom de IPCA) da mesma data: na duration do papel quando a taxa é a indicativa, no vencimento quando é a dos negócios (aproximação). Em CRI e CRA a B3 informa a securitizadora.
