@@ -1,4 +1,4 @@
-## Fechamento do livro · qui 26/11 · 19h45 BRT
+## Fechamento do livro · qui 26/11 · 00h35 de 27/11 BRT
 
 ---
 
@@ -41,7 +41,7 @@
 - **T05 · ITSA4** ITSA4 +6,9% no dia a R$ 13,99: movimento de 3,8 desvios para uma vol de 20 dias de 27% a.a.
 - **T05 · SMAL11** SMAL11 +7,4% no dia a R$ 108,00: movimento de 3,5 desvios para uma vol de 20 dias de 32% a.a.
 
-*Mais 5 sinais de baixa prioridade em `alertas.md`.*
+*Mais 6 sinais de baixa prioridade em `alertas.md`.*
 
 ---
 
@@ -57,13 +57,13 @@
 | Ativo | dia | explicação | grau |
 |---|---:|---|---|
 | **MRVE3** | +15% | descolou do setor (construtoras de baixa renda +7,7% (mediana), DI F30 -29 bps; 7,7 p.p. da mediana); investigar antes de comentar | sem causa no dado |
-| **BBAS3** | +13% | descolou do setor (bancos +9,2% (mediana), DI F28 -11 bps; 3,4 p.p. da mediana); Comunicado ao Mercado na CVM: Apresentações a analistas/agentes do mercado; notícia a conferir (Investing.com): BBAS3: Banco do Brasil não vai quebrar! | notícia (conferir) |
-| **BBDC4** | +12% | descolou do setor (bancos +9,2% (mediana), DI F28 -11 bps; 2,3 p.p. da mediana); notícia a conferir (Suno Noticias): Trabuco, do Bradesco (BBDC4), aceita convite de Lula para a Fazenda | notícia (conferir) |
+| **BBAS3** | +13% | descolou do setor (bancos +9,2% (mediana), DI F28 -11 bps; 3,4 p.p. da mediana); Comunicado ao Mercado na CVM: Esclarecimentos sobre questionamentos da CVM/B3; Comunicado ao Mercado na CVM: Apresentações a analistas/agentes do mercado; notícia a conferir (Investing.com): BBAS3: Banco do Brasil não vai quebrar! | notícia (conferir) |
+| **BBDC4** | +12% | descolou do setor (bancos +9,2% (mediana), DI F28 -11 bps; 2,3 p.p. da mediana); Fato Relevante na CVM: Página 1 de 1 Banco Bradesco S.A. o O Banco Bradesco S.A. (“Bradesco”); notícia a conferir (Folha de S.Paulo): Luiz Carlos Trabuco, do Bradesco, aceita convite de Lula para assumir Ministério da Fazend | documento |
 | **EQTL3** | +8,2% | descolou do setor (energia e saneamento +5,7% (mediana), DI F35 -30 bps; 2,5 p.p. da mediana); investigar antes de comentar | sem causa no dado |
 | **CURY3** | +7,7% | andou com o setor: construtoras de baixa renda +7,7% (mediana), DI F30 -29 bps | setorial |
 | **SMAL11** | +7,4% | investigar antes de comentar | sem causa no dado |
 | **ITSA4** | +6,9% | descolou do setor (bancos +9,2% (mediana), DI F28 -11 bps; -2,3 p.p. da mediana); investigar antes de comentar | sem causa no dado |
-| **UGPA3** | +6,7% | acompanhou o Brent (+1,6%) | driver |
+| **UGPA3** | +6,7% | investigar antes de comentar | sem causa no dado |
 
 *Grau: setorial = andou com a cesta; driver = acompanhou a commodity do par; documento = fato relevante ou 8-K do dia; sem causa no dado = investigar antes de comentar.*
 
@@ -217,13 +217,13 @@ Nomes completos: **QNTM** VanEck Quantum Computing UCITS ETF USD (Acc) · **QANT
 | Ativo | últ | dia | 1 sem | 1 mês | 3 m | 6 m | 1 ano | YTD | 5 anos |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | **USDBRL** Dolar/Real | 5,7424 | **-1,3** | -3,2 | +7,4 | +11 | +13 | +6,7 | +4,9 | +2,4 |
-| **DXY** Indice Dolar DXY | 103,78 | **+0,1** | -0,1 | +1,4 | +4,7 | +4,8 | +4,2 | +5,6 | +8,0 |
-| **BRENT** Petroleo Brent | 96,12 | **+1,6** | +4,5 | -12 | +7,2 | +2,6 | +52 | +58 | +32 |
-| **BTC** Bitcoin _(parcial)_ | 60.549 | **+0,3** | -2,2 | -25 | -25 | -18 | -33 | -31 | +5,8 |
-| **ETH** Ethereum _(parcial)_ | 1.695 | **+0,3** | -3,4 | -28 | -32 | -16 | -44 | -43 | -61 |
+| **DXY** Indice Dolar DXY _(dia 25/11)_ | 103,67 | **-0,1** | -0,2 | +1,7 | +4,5 | +4,5 | +4,0 | +5,5 | +7,9 |
+| **BRENT** Petroleo Brent _(dia 25/11)_ | 94,61 | **+3,5** | +2,9 | -15 | +7,7 | +0,3 | +51 | +55 | +30 |
+| **BTC** Bitcoin | 60.549 | **+0,3** | -2,2 | -25 | -25 | -18 | -33 | -31 | +5,8 |
+| **ETH** Ethereum | 1.695 | **+0,3** | -3,4 | -28 | -32 | -16 | -44 | -43 | -61 |
 | **MINERIO** Minerio de ferro 62% Fe CFR China _(D-1, 25/11)_ | 90,64 | **0,0** | -0,1 | -0,2 | -5,2 | -17 | -13 | -15 | -4,0 |
 
-**Brent em reais:** R$ 551,96 por barril (26/11) · dia +0,3% · 1 mês -5,7% · no ano +66% (Brent do 1º vencimento × dólar).
+**Brent em reais:** a confirmar (Brent sem fechamento confirmado).
 
 ---
 
@@ -231,11 +231,11 @@ Nomes completos: **QNTM** VanEck Quantum Computing UCITS ETF USD (Acc) · **QANT
 
 | Referência | US$/t | dia | 1 sem | 1 mês | leitura |
 |---|---:|---:|---:|---:|---|
-| **Celulose fibra longa** | 625 | +0,9 | +3,0 | +3,2 | 26/11 |
-| **Minerio de ferro Dalian** | 86 | -1,3 | -0,1 | -2,6 | 26/11 |
+| **Celulose fibra longa** | 626 | +0,9 | +2,9 | +3,1 | 27/11 |
+| **Minerio de ferro Dalian** | 87 | -1,4 | -0,2 | -2,6 | 27/11 |
 
-- **Celulose fibra longa**: futuro SP da SHFE (fibra longa) em CNY/t, sem o IVA de 13%; nao e preco de lista NBSK · CNY/t 4.700 a USD/CNY 6,66 = US$ 706/t com IVA
-- **Minerio de ferro Dalian**: futuro da DCE em CNY/t, sem o IVA de 13%; o CFR 62% em US$ e a linha MINERIO · CNY/t 646 a USD/CNY 6,66 = US$ 97/t com IVA
+- **Celulose fibra longa**: futuro SP da SHFE (fibra longa) em CNY/t, sem o IVA de 13%; nao e preco de lista NBSK · CNY/t 4.714 a USD/CNY 6,66 = US$ 707/t com IVA
+- **Minerio de ferro Dalian**: futuro da DCE em CNY/t, sem o IVA de 13%; o CFR 62% em US$ e a linha MINERIO · CNY/t 656 a USD/CNY 6,66 = US$ 99/t com IVA
 
 ---
 
@@ -272,12 +272,14 @@ Inflação implícita 2029 6,53% · 2032 6,62% · 2031/32 (descasado) 6,96% · F
 
 2s10s +24 bps (-4 no dia)
 
-**Regime** VIX 28,3 (+7,3%) · score de risco 1 de 6 · **regime de vol LIGADO**
+**Regime** VIX 28,3 (+7,3%) · score de risco 1 de 5 · **regime de vol LIGADO**
 
 ---
 
-### Notícias e fatos · 9
+### Notícias e fatos · 10
 
+- **BBDC4** Fato Relevante: Página 1 de 1 Banco Bradesco S.A. o O Banco Bradesco S.A. (“Bradesco”), em cumprimento ao disposto na Resolução CVM nº 44/2021, comunica aos seus aci… (CVM · 26/11) [abrir a fonte](https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1594285)
+  *Por que importa:* fato relevante e o que a propria companhia julga capaz de mover o preco; ler o documento inteiro antes de comentar
 - **AXIA3** Fato Relevante: O seu Conselho de Administração aprovou, nesta data, o resgate de 129.982.668 ações preferenciais classe “C” (“PNC”), equivalente a R$ 6,0 bilhões e… (CVM · 26/11) [abrir a fonte](https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1594260)
   *Por que importa:* fato relevante e o que a propria companhia julga capaz de mover o preco; ler o documento inteiro antes de comentar
 - **SBSP3** Fato Relevante: A Companhia de Saneamento Básico do Estado de São Paulo – Sabesp (“Companhia”), em atendimento às disposições da Resolução da Comissão de Valores Mob… (CVM · 26/11) [abrir a fonte](https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1594223)
@@ -319,11 +321,11 @@ Inflação implícita 2029 6,53% · 2032 6,62% · 2031/32 (descasado) 6,96% · F
 
 ### Como ler
 
-**Relógios:** Yahoo 19h45 · DI ajuste D0 · Tesouro base 26/11 · UST CMT 25/11 · PTAX 26/11
-**Lacunas:** nenhuma perna falhou.
+**Relógios:** Yahoo 00h35 · DI ajuste D0 · Tesouro base 26/11 · UST CMT 25/11 · PTAX 26/11
+**Lacunas:** DXY: barra de 26/11 é o início da sessão seguinte (última cotação 22:26 de Nova York); barra descartada, fica a de 25/11; BRENT: barra de 26/11 é o início da sessão seguinte (última cotação 22:01 de Nova York); barra descartada, fica a de 25/11.
 **IUAA:** NAO e renda fixa ultracurta: cai ~6% a cada +100 bps na curva. Ler junto com UST 10y/30y. Caixa em dolar e o IB01.
 **Hipótese:** **EWY** iShares MSCI South Korea ETF · **MCHI** iShares MSCI China ETF — ETFs dos EUA, a confirmar.
-Minério: proxy Dalian 646 CNY/t (2026-11-26).
-Celulose: proxy SHFE SP (fibra longa) 4.700 CNY/t; BHKP sem série diária.
+Minério: proxy Dalian 656 CNY/t (2026-11-27).
+Celulose: proxy SHFE SP (fibra longa) 4.714 CNY/t; BHKP sem série diária.
 **Fontes:** Yahoo Finance · B3 Boletim Diário · site do Tesouro Direto · Treasury.gov CMT · BCB.
 *Uso interno da mesa. Organização e comparação de dados públicos, não é recomendação de investimento (Resolução CVM 178).*

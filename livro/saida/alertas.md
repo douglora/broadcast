@@ -1,6 +1,6 @@
 ALERTAS · Fechamento 18h
 
-[CRÍTICO] CURVA · C01 A curva FECHOU: F28 4 pregões seguidos (-64 bps) · F29 -25 bps no dia · F29 -48 bps em 5 pregões (ajuste B3 26/11) / C04 IPCA+ 2040 volta abaixo de 7,50% real: 7,41% (-13 bps), base 26/11 / C04 IPCA+ 2050 volta abaixo de 7,50% real: 7,43% (-14 bps), base 26/11
+(pendente de slot anterior) [CRÍTICO] CURVA · C01 A curva FECHOU: F28 4 pregões seguidos (-64 bps) · F29 -25 bps no dia · F29 -48 bps em 5 pregões (ajuste B3 26/11) / C04 IPCA+ 2040 volta abaixo de 7,50% real: 7,41% (-13 bps), base 26/11 / C04 IPCA+ 2050 volta abaixo de 7,50% real: 7,43% (-14 bps), base 26/11
 DI F28 14,18 (-11) · F29 14,45 (-25) · F30 14,58 (-29) · F32 14,70 (-32) · F35 14,78 (-30)
 Inclinação F35-F28 +59 bps (-20)
 PU R$ 1.803,16; cada 10 bps move ~1,3% do PU
@@ -16,10 +16,9 @@ Implícita 2031/32 (descasado): 6,83% (-12 bps na semana) vs Focus IPCA 2030 3,9
 Por que importa: delta em bps e inclinação são o que toda mesa de renda fixa reporta e o que explica a marcação do Tesouro ao cliente
 Como falar: 'a curva fechou: o prefixado valorizou na marcação; o cupom contratado não muda'
 Fonte: B3 ajuste 26/11 · Tesouro Transparente base 26/11; BCB Focus · Tesouro Transparente, base 26/11 · ajuste B3 26/11
-Push: [CRÍTICO] DI A curva FECHOU | IPCA2040 IPCA+ 2040 volta abaixo de 7,50% real | IPCA2050 IPCA+ 2050 volta abaixo de 7,50% real +5 · detalhe na sessão
 ids: C01-DI-fechou-2026-11-26, C04-IPCA2040-baixo_7.5-2026-11-26, C04-IPCA2050-baixo_7.5-2026-11-26, C05-TESOURO-fechou-2026-11-26, C02-DI-inclinacao-2026-11-26, C03-DI-di-2026-11-26, C03-TESOURO-td-2026-11-26, C06-TESOURO-implicita-2026-11-26
 
-[CRÍTICO] T05 · 8 ativos: EQTL3, ITUB4, BBDC4, UGPA3, ITSA4, BBAS3, SMAL11, MRVE3
+(pendente de slot anterior) [CRÍTICO] T05 · 8 ativos: EQTL3, ITUB4, BBDC4, UGPA3, ITSA4, BBAS3, SMAL11, MRVE3
 · EQTL3 +8,2% no dia a R$ 37,73: movimento de 3,5 desvios para uma vol de 20 dias de 36% a.a.
   1m +6,9% · 6m -1,2% · YTD -2,0%
 · ITUB4 +6,4% no dia a R$ 42,56: movimento de 3,7 desvios para uma vol de 20 dias de 27% a.a.
@@ -39,7 +38,6 @@ ids: C01-DI-fechou-2026-11-26, C04-IPCA2040-baixo_7.5-2026-11-26, C04-IPCA2050-b
 Por que importa: acima de 3 desvios o movimento sai do ruído e costuma vir de fato novo ou fluxo forçado
 Como falar: 'alta fora do padrão; costuma vir de notícia ou de fluxo, e parte dela pode devolver'
 Fonte: Yahoo Finance fech. 26/11
-Push: [CRÍTICO] EQTL3 +8,2% no dia a R$ 37,73 | ITUB4 +6,4% no dia a R$ 42,56 | BBDC4 +12% no dia a R$ 15,83 +5 · detalhe na sessão
 ids: T05-EQTL3-alta-2026-11-26, T05-ITUB4-alta-2026-11-26, T05-BBDC4-alta-2026-11-26, T05-UGPA3-alta-2026-11-26, T05-ITSA4-alta-2026-11-26, T05-BBAS3-alta-2026-11-26, T05-SMAL11-alta-2026-11-26, T05-MRVE3-alta-2026-11-26
 
 (pendente de slot anterior) [ATENÇÃO] E03 · SBSP3 · Fato Relevante: A Companhia de Saneamento Básico do Estado de São Paulo – Sabesp (“Companhia”), em atendimento às disposições da Resolução da Comissão de Valores Mob…
@@ -62,7 +60,7 @@ Como falar: 'saiu no TradingView (Reuters): Michael Saylor’s Net Worth Plunges
 Fonte: TradingView (Reuters) 26/11 17h14
 ids: E05-BTC-455d60ba41-2026-11-26
 
-[ATENÇÃO] E03 · AXIA3 · Fato Relevante: O seu Conselho de Administração aprovou, nesta data, o resgate de 129.982.668 ações preferenciais classe “C” (“PNC”), equivalente a R$ 6,0 bilhões e…
+(pendente de slot anterior) [ATENÇÃO] E03 · AXIA3 · Fato Relevante: O seu Conselho de Administração aprovou, nesta data, o resgate de 129.982.668 ações preferenciais classe “C” (“PNC”), equivalente a R$ 6,0 bilhões e…
 CVM · entregue 26/11/2026 19:15
 Do documento:
   – Os principais termos e condições da operação são os seguintes:  • Data de corte da B3: 30 de novembro de 2026.
@@ -76,19 +74,35 @@ Por que importa: fato relevante e o que a propria companhia julga capaz de mover
 Ativos: AXIA3
 Como falar: 'a Axia Energia publicou fato relevante sobre O seu Conselho de Administração aprovou, nesta data, o resgate de 129…'
 Fonte: CVM 26/11
-Push: [ATENÇÃO] AXIA3 · Fato Relevante · detalhe na sessão
 ids: E03-AXIA3-1594260-2026-11-26
 
+[ATENÇÃO] E03 · BBDC4 · Fato Relevante: Página 1 de 1 Banco Bradesco S.A. o O Banco Bradesco S.A. (“Bradesco”), em cumprimento ao disposto na Resolução CVM nº 44/2021, comunica aos seus aci…
+CVM · entregue 26/11/2026 23:47
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1594285
+Por que importa: fato relevante e o que a propria companhia julga capaz de mover o preco; ler o documento inteiro antes de comentar
+Ativos: BBDC4
+Como falar: 'a Bradesco publicou fato relevante sobre Página 1 de 1 Banco Bradesco S.A. o O Banco Bradesco S.A. (“Bradesco”…'
+Fonte: CVM 26/11
+Push: [ATENÇÃO] BBDC4 · Fato Relevante · detalhe na sessão
+ids: E03-BBDC4-1594285-2026-11-26
+
 Info (só linha no Fechamento):
-· T01 ITSA4 retomou a média de 200 dias pela 1ª sessão: R$ 13,99 vs MM200 R$ 13,60 (+2,8%)
-· T01 SBSP3 retomou a média de 200 dias pela 2ª sessão: R$ 30,35 vs MM200 R$ 28,21 (+7,6%)
-· T02 ALUP4 retomou a MM50 e retomou a MM100 pela 2ª sessão: R$ 11,28, acima da MM200 (tendência longa preservada)
-· E03 AXIA3 · Aviso aos Acionistas: Outros avisos
-· E05 BBDC4 · Trabuco, do Bradesco (BBDC4), aceita convite de Lula para a Fazenda
-· E05 AVGO · Goldman Sachs resets Broadcom's 12-month price target before earnings
-· E05 PETR4 · Petrobras paralisa plataforma P-77 em Búzios após raio causar princípio de incêndio
-· E05 BBAS3 · BBAS3: Banco do Brasil não vai quebrar!
-· E05 BABA · Don’t Give Up on Alibaba (BABA) Stock Just Yet: The Math May Be More Compelling Than You Think
+· F05 Celulose (proxy SHFE, fibra longa) +3,2% na semana: 4.714 CNY/t (27/11)
+· E03 BBAS3 · Comunicado ao Mercado: Esclarecimentos sobre questionamentos da CVM/B3
+· E05 NVDA · 'Very bullish on ASEAN' despite Nvidia chip export curbs to the region: BNY
+· E05 BTC · Bitcoin November Price Prediction: Polymarket’s $62,500 Yes Odds Surge 16%
+· E05 BRENT · Brent trades near month's high as Mideast conflict threatens supply
+· E05 BBDC4 · Bradesco, de Trabuco, tem 3º maior juro dentre os 5 bancões
+· E05 ITUB4 · CEOs do Itaú e do Santander parabenizam Trabuco pela indicação ao Ministério da Fazenda
+· E05 USDBRL · Bolsa sobe 6% e tem maior alta desde o 1º turno; dólar cai a R$ 5,74
+· E05 BBDC4 · Luiz Carlos Trabuco, do Bradesco, aceita convite de Lula para assumir Ministério da Fazenda
+· E05 MU · Why It’s Hard to Write Off Micron (MU) Even with a Memory Peak in Sight
+· E05 MINERIO · Planet One leads $933M plan for Senegal iron ore
+· E05 BTC · Bitcoin’s Price Every Thanksgiving Since 2013
+· E05 BBDC4 · A Caixa que se cuide: Bradesco (BBDC4) e Santander (SANB11) avaliam entrar na disputa pelo Minha Casa Minha Vida
+· E05 BRENT · Brent settles higher as mine strikes, refinery attack stoke Middle East supply concerns
+· E05 JPM · JPMorgan Funds - US Value Fund (JR6U.F) latest stock news and headlines
+· E05 NVDA · Nvidia Just Revealed a Major $19 Billion Vote of Confidence in Intel Stock
 · T06 BBAS3 +17% em 5 sessões a R$ 16,54: movimento de 2,6 desvios para a vol de 20 dias
 
 Suprimidos pelo teto (viram linha do Fechamento): T06-BBAS3-alta-2026-11-26 (teto de atenção)
@@ -99,6 +113,7 @@ Alertas do dia (todos, com status):
 · pendente  T05 BBDC4 — BBDC4 +12% no dia a R$ 15,83: movimento de 4,0 desvios para uma vol de 20 dias d
 · pendente  T05 BBAS3 — BBAS3 +13% no dia a R$ 16,54: movimento de 4,4 desvios para uma vol de 20 dias d
 · pendente  T05 MRVE3 — MRVE3 +15% no dia a R$ 5,33: movimento de 3,1 desvios para uma vol de 20 dias de
+· pendente  E03 BBDC4 — BBDC4 · Fato Relevante: Página 1 de 1 Banco Bradesco S.A. o O Banco Bradesco S.A
 · pendente  C04 IPCA2040 — IPCA+ 2040 volta abaixo de 7,50% real: 7,41% (-13 bps), base 26/11
 · pendente  C04 IPCA2050 — IPCA+ 2050 volta abaixo de 7,50% real: 7,43% (-14 bps), base 26/11
 · pendente  C02 DI — Inclinação da curva DI: F35-F28 -20 bps no dia: bull flattening (longo fechou ma
@@ -112,16 +127,17 @@ Alertas do dia (todos, com status):
 · pendente  T05 SMAL11 — SMAL11 +7,4% no dia a R$ 108,00: movimento de 3,5 desvios para uma vol de 20 dia
 · linha     T06 BBAS3 — BBAS3 +17% em 5 sessões a R$ 16,54: movimento de 2,6 desvios para a vol de 20 di
 · pendente  E03 AXIA3 — AXIA3 · Fato Relevante: O seu Conselho de Administração aprovou, nesta data, o r
-· pendente  E03 SBSP3 — SBSP3 · Fato Relevante: A Companhia de Saneamento Básico do Estado de São Paulo 
-· pendente  E05 BTC — BTC · Michael Saylor’s Net Worth Plunges $6 Billion: The Cost of His Bitcoin Bet
+· expirado  E03 SBSP3 — SBSP3 · Fato Relevante: A Companhia de Saneamento Básico do Estado de São Paulo 
+· expirado  E05 BTC — BTC · Michael Saylor’s Net Worth Plunges $6 Billion: The Cost of His Bitcoin Bet
 · expirado  E05 BTC — BTC · YieldMax Bitcoin Option Income Strategy ETF declares $0.1135 dividend
 · expirado  E05 KO — KO · Coca-Cola Is the Most Boring Stock I Own. After 64 Years of Dividend Raises
 · expirado  M01 MACRO — Agenda: Thanksgiving: NYSE fechada (27/11 meio pregao) hoje (26/11)
 · expirado  E05 NVDA — NVDA · Top Analyst Flags 5 Major Risks for NVDA Stock, Says Nvidia Could Stay in
 · expirado  E05 NVDA — NVDA · Nvidia's Aa1 rating, stable outlook unchanged after Huang's return: Moody
 · expirado  E05 PETR4 — PETR4 · Santander rebaixa Petrobras a neutra e reduz preço-alvo de ação ordinári
+· linha     F05 BHKP — Celulose (proxy SHFE, fibra longa) +3,2% na semana: 4.714 CNY/t (27/11)
 · linha     T01 ITSA4 — ITSA4 retomou a média de 200 dias pela 1ª sessão: R$ 13,99 vs MM200 R$ 13,60 (+2
 · linha     T01 SBSP3 — SBSP3 retomou a média de 200 dias pela 2ª sessão: R$ 30,35 vs MM200 R$ 28,21 (+7
 · linha     T02 ALUP4 — ALUP4 retomou a MM50 e retomou a MM100 pela 2ª sessão: R$ 11,28, acima da MM200 
 · linha     F01 USDBRL — Real sobe: USD/BRL 5,7424 (-3,2% em 5 sessões · 10 dias seguidos de movimento do
-· (+132 notícias só manchete, em noticias.md)
+· (+147 notícias só manchete, em noticias.md)

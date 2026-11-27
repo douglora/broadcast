@@ -1,10 +1,10 @@
 BLOCO A
 ```
-FECHAMENTO DO LIVRO · qui 26/11 · 19h45 BRT
-Relógios: Yahoo 19h45 · DI ajuste D0 · Tesouro base
+FECHAMENTO DO LIVRO · qui 26/11 · 00h35 de 27/11 BRT
+Relógios: Yahoo 00h35 · DI ajuste D0 · Tesouro base
   26/11 · UST CMT 25/11 · PTAX 26/11
 
-ALERTAS DO DIA (30 · 5 críticos)
+ALERTAS DO DIA (32 · 5 críticos)
 [CRÍTICO] C01 A curva FECHOU: F28 4 pregões seguidos
           (-64 bps) · F29 -25 bps no dia · F29 -48
           bps em 5 pregões (ajuste B3 26/11)
@@ -19,22 +19,28 @@ ALERTAS DO DIA (30 · 5 críticos)
 [CRÍTICO] T05 MRVE3 +15% no dia a R$ 5,33: movimento
           de 3,1 desvios para uma vol de 20 dias de
           73% a.a.
+[ATENÇÃO] E03 BBDC4 · Fato Relevante: Página 1 de 1
+          Banco Bradesco S.A. o O Banco Bradesco
+          S.A. (“Bradesco”), em cumprimento ao
+          disposto na Resolução CVM nº 44/2021,
+          comunica aos seus aci…
 [ATENÇÃO] C04 IPCA+ 2040 volta abaixo de 7,50% real:
           7,41% (-13 bps), base 26/11
 [ATENÇÃO] C04 IPCA+ 2050 volta abaixo de 7,50% real:
           7,43% (-14 bps), base 26/11
-[ATENÇÃO] C02 Inclinação da curva DI: F35-F28 -20
-          bps no dia: bull flattening (longo fechou
-          mais) · F30-F28 -18 bps no dia: bull
-          flattening (longo fechou mais)
-(+22 em alertas.md)
+(+24 em alertas.md)
 
 ALTAS  MRVE3 +15% · BBAS3 +13% · BBDC4 +12% · EQTL3
        +8,2% · CURY3 +7,7%
 BAIXAS MU -4,5% · NVDA -3,9% · AMZN -3,1% · LITE
        -2,2% · GOOGL -2,1%
 
-NOTÍCIAS E FATOS (9 com materialidade · noticias.md)
+NOTÍCIAS E FATOS (10 com materialidade ·
+  noticias.md)
+· BBDC4 Fato Relevante: Página 1 de 1 Banco Bradesco
+  S.A. o O Banco Bradesco S.A. (“Bradesco”), em
+  cumprimento ao disposto na Resolução CVM nº
+  44/2021, comunica aos seus aci… (CVM)
 · AXIA3 Fato Relevante: O seu Conselho de
   Administração aprovou, nesta data, o resgate de
   129.982.668 ações preferenciais classe “C”
@@ -51,9 +57,7 @@ NOTÍCIAS E FATOS (9 com materialidade · noticias.md)
 · KO Coca-Cola Is the Most Boring Stock I Own. After
   64 Years of Dividend Raises, I'll Never Sell.
   (Yahoo Finance)
-· MACRO Agenda: Thanksgiving: NYSE fechada (27/11
-  meio pregao) hoje (26/11) (agenda)
-  (+3)
+  (+4)
 
 CURVAS · taxa (Δ bps)
 DI (D0, Δ dia·sem bps) F28 14,18 (-11·-33) F29 14,45
@@ -69,7 +73,7 @@ TD (base 26/11, site do TD 18h00, Δ desde 25/11) Pre
     (descasado) 6,96% vs Focus IPCA 2027 5,12%
 UST (CMT 25/11) 2y 4,61 (-2) · 10y 4,85 (-6) · 30y
     5,24 (-6) · 2s10s +24 (-4)
-Regime: VIX 28,3 (+7,3%) · score risco 1 de 6 ·
+Regime: VIX 28,3 (+7,3%) · score risco 1 de 5 ·
     regime de vol LIGADO
 
 LEITURA DA MESA
@@ -95,7 +99,12 @@ sex 04/12 ex-dividendo BAC US$ 0,32 (último
 seg 07/12 ex-dividendo GOOGL US$ 0,22 (último
     provento, Yahoo)
 
-LACUNAS: nenhuma perna falhou.
+LACUNAS: DXY: barra de 26/11 é o início da sessão
+  seguinte (última cotação 22:26 de Nova York);
+  barra descartada, fica a de 25/11; BRENT: barra de
+  26/11 é o início da sessão seguinte (última
+  cotação 22:01 de Nova York); barra descartada,
+  fica a de 25/11.
 Fontes: Yahoo Finance · B3 Boletim Diário · site do
   Tesouro Direto · Treasury.gov CMT · BCB
 ```
@@ -179,10 +188,10 @@ MRVE3  MRV        5,33  +15  +16  +20  -11  -40  -32
 CURY3  Cury      28,42 +7,7  +14 +3,7 -7,9  -15 -5,2
 Macro
 USDBRL USD/BRL  5,7424 -1,3 -3,2 +7,4  +13 +6,7 +4,9
-DXY    DXY      103,78 +0,1 -0,1 +1,4 +4,8 +4,2 +5,6
-BRENT  Brent     96,12 +1,6 +4,5  -12 +2,6  +52  +58
-BTC*   BTC      60.549 +0,3 -2,2  -25  -18  -33  -31
-ETH*   ETH       1.695 +0,3 -3,4  -28  -16  -44  -43
+DXY*   DXY      103,67 -0,1 -0,2 +1,7 +4,5 +4,0 +5,5
+BRENT* Brent     94,61 +3,5 +2,9  -15 +0,3  +51  +55
+BTC    BTC      60.549 +0,3 -2,2  -25  -18  -33  -31
+ETH    ETH       1.695 +0,3 -3,4  -28  -16  -44  -43
 MINER* Minerio   90,64  0,0 -0,1 -0,2  -17  -13  -15
 ```
 UCITS por extenso: VWRA Vanguard FTSE All-World
@@ -199,6 +208,6 @@ Caixa em dolar e o IB01. · IB01 iShares $ Treasury
 Bond 0-1yr UCITS ETF USD (Acc). Hipótese: EWY
 iShares MSCI South Korea ETF · MCHI iShares MSCI
 China ETF (ETFs dos EUA, a confirmar).
-Minério: proxy Dalian 646 CNY/t (2026-11-26).
-Celulose: proxy SHFE SP (fibra longa) 4.700 CNY/t;
+Minério: proxy Dalian 656 CNY/t (2026-11-27).
+Celulose: proxy SHFE SP (fibra longa) 4.714 CNY/t;
 BHKP sem série diária.

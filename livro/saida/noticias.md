@@ -1,8 +1,17 @@
-NOTÍCIAS E FATOS · 26/11 19h45
+NOTÍCIAS E FATOS · 27/11 00h35
 
-Pernas: noticias ok 5 novas (18 consultas; descartadas: 410 veículo fora da lista, 46 sem ativo, 0 teto) · cvm ok 2 novos de 16 (7 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 14 novas (18 consultas; descartadas: 422 veículo fora da lista, 45 sem ativo, 3 teto) · cvm ok 2 novos de 11 (6 cias casadas) · sec ok 0 novos em 3 dias
 
-## FATOS RELEVANTES E COMUNICADOS (CVM) (4)
+## FATOS RELEVANTES E COMUNICADOS (CVM) (6)
+
+[ATENÇÃO] E03 · BBDC4 · Fato Relevante: Página 1 de 1 Banco Bradesco S.A. o O Banco Bradesco S.A. (“Bradesco”), em cumprimento ao disposto na Resolução CVM nº 44/2021, comunica aos seus aci…
+CVM · entregue 26/11/2026 23:47
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1594285
+Por que importa: fato relevante e o que a propria companhia julga capaz de mover o preco; ler o documento inteiro antes de comentar
+Ativos: BBDC4
+Como falar: 'a Bradesco publicou fato relevante sobre Página 1 de 1 Banco Bradesco S.A. o O Banco Bradesco S.A. (“Bradesco”…'
+Fonte: CVM 26/11
+id: E03-BBDC4-1594285-2026-11-26 · status: pendente · íntegra disponível
 
 [ATENÇÃO] E03 · AXIA3 · Fato Relevante: O seu Conselho de Administração aprovou, nesta data, o resgate de 129.982.668 ações preferenciais classe “C” (“PNC”), equivalente a R$ 6,0 bilhões e…
 CVM · entregue 26/11/2026 19:15
@@ -29,7 +38,16 @@ Por que importa: fato relevante e o que a propria companhia julga capaz de mover
 Ativos: SBSP3
 Como falar: 'a Sabesp publicou fato relevante sobre A Companhia de Saneamento Básico do Estado de São Paulo – Sabesp (“Co…'
 Fonte: CVM 26/11
-id: E03-SBSP3-1594223-2026-11-26 · status: pendente · íntegra disponível
+id: E03-SBSP3-1594223-2026-11-26 · status: expirado · íntegra disponível
+
+[INFO] E03 · BBAS3 · Comunicado ao Mercado: Esclarecimentos sobre questionamentos da CVM/B3
+CVM · entregue 26/11/2026 21:04 · Esclarecimentos sobre questionamentos da CVM/B3
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1594275
+Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; confirma ou nega o que circula
+Ativos: BBAS3
+Como falar: 'a Banco do Brasil publicou comunicado ao mercado sobre Esclarecimentos sobre questionamentos da CVM/B3'
+Fonte: CVM 26/11
+id: E03-BBAS3-1594275-2026-11-26 · status: linha
 
 [INFO] E03 · AXIA3 · Aviso aos Acionistas: Outros avisos
 CVM · entregue 26/11/2026 19:18 · Outros avisos
@@ -59,7 +77,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: BTC
 Como falar: 'saiu no TradingView (Reuters): Michael Saylor’s Net Worth Plunges $6 Billion: The Cost of His Bitcoin Bet; confirmar o número no texto antes de repassar'
 Fonte: TradingView (Reuters) 26/11 17h14
-id: E05-BTC-455d60ba41-2026-11-26 · status: pendente
+id: E05-BTC-455d60ba41-2026-11-26 · status: expirado
 
 [ATENÇÃO] E05 · BTC · YieldMax Bitcoin Option Income Strategy ETF declares $0.1135 dividend
 TradingView (Reuters) · 26/11 13h59 · fonte única · licença: manchete
@@ -121,8 +139,22 @@ Fonte: CNN Brasil 25/11 21h05
 id: E05-PETR4-fd098a6e7e-2026-11-26 · status: expirado
 
 
-## OUTRAS NOTÍCIAS (só manchete) (129)
+## OUTRAS NOTÍCIAS (só manchete) (143)
 
+· NVDA 'Very bullish on ASEAN' despite Nvidia chip export curbs to the region: BNY (CNBC) https://www.cnbc.com/video/2026/11/27/bullish-on-asean-despite-nvidia-chip-export-curbs-to-the-region-bny.html
+· BTC Bitcoin November Price Prediction: Polymarket’s $62,500 Yes Odds Surge 16% (TradingView (Reuters)) https://www.tradingview.com/news/binance_news:8cd606456094b:0-bitcoin-november-price-prediction-polymarket-s-62-500-yes-odds-surge-16/
+· BRENT Brent trades near month's high as Mideast conflict threatens supply (TradingView (Reuters)) https://www.tradingview.com/news/reuters.com,2026:newsml_L2N47800T:0-brent-trades-near-month-s-high-as-mideast-conflict-threatens-supply/
+· BBDC4 Bradesco, de Trabuco, tem 3º maior juro dentre os 5 bancões (Poder360) https://www.poder360.com.br/poder-economia/bradesco-de-trabuco-tem-3o-maior-juro-dentre-os-5-bancoes/
+· ITUB4 CEOs do Itaú e do Santander parabenizam Trabuco pela indicação ao Ministério da Fazenda (Folha de S.Paulo) https://www1.folha.uol.com.br/mercado/2026/11/ceo-do-itau-parabeniza-trabuco-pela-indicacao-ao-ministerio-da-fazenda.shtml
+· USDBRL Bolsa sobe 6% e tem maior alta desde o 1º turno; dólar cai a R$ 5,74 (Agencia Brasil) https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/bolsa-sobe-6-e-tem-maior-alta-desde-o-1o-turno-dolar-cai-r-574
+· BBDC4 Luiz Carlos Trabuco, do Bradesco, aceita convite de Lula para assumir Ministério da Fazenda (Folha de S.Paulo) https://www1.folha.uol.com.br/mercado/2026/11/luiz-carlos-trabuco-do-bradesco-aceita-convite-de-lula-para-assumir-ministerio-da-fazenda.shtml
+· MU Why It’s Hard to Write Off Micron (MU) Even with a Memory Peak in Sight (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/why-hard-write-off-micron-210000375.html
+· MINERIO Planet One leads $933M plan for Senegal iron ore (Mining.com) https://www.mining.com/planet-one-leads-933m-plan-for-senegal-iron-ore/
+· BTC Bitcoin’s Price Every Thanksgiving Since 2013 (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-price-every-thanksgiving-since-194456526.html
+· BBDC4 A Caixa que se cuide: Bradesco (BBDC4) e Santander (SANB11) avaliam entrar na disputa pelo Minha Casa Minha Vida (Seu Dinheiro) https://www.seudinheiro.com/2026/empresas/a-caixa-que-se-cuide-santander-avalia-entrar-na-disputa-pelo-minha-casa-minha-vida-miql/
+· BRENT Brent settles higher as mine strikes, refinery attack stoke Middle East supply concerns (Yahoo Finance) https://finance.yahoo.com/energy/articles/oil-rises-supply-concerns-iran-030849858.html
+· JPM JPMorgan Funds - US Value Fund (JR6U.F) latest stock news and headlines (Yahoo Finance) https://uk.finance.yahoo.com/quote/JR6U.F/news/
+· NVDA Nvidia Just Revealed a Major $19 Billion Vote of Confidence in Intel Stock (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/nvidia-just-revealed-major-19-163003138.html
 · BBDC4 Trabuco, do Bradesco (BBDC4), aceita convite de Lula para a Fazenda (Suno Noticias) https://www.suno.com.br/noticias/trabuco-bradesco-bbdc4-ministerio-fazenda-lula/
 · AVGO Goldman Sachs resets Broadcom's 12-month price target before earnings (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/goldman-sachs-resets-broadcoms-12-193315984.html
 · PETR4 Petrobras paralisa plataforma P-77 em Búzios após raio causar princípio de incêndio (InfoMoney) https://www.infomoney.com.br/mercados/petrobras-paralisa-plataforma-p-77-em-buzios-apos-raio-causar-principio-de-incendio/
@@ -169,18 +201,4 @@ id: E05-PETR4-fd098a6e7e-2026-11-26 · status: expirado
 · GOOGL Alphabet: You're Getting Anthropic For Free (NASDAQ:GOOG) (Seeking Alpha) https://seekingalpha.com/article/4972287-alphabet-youre-getting-anthropic-for-free?source=generic_rss
 · META Meta Platforms’ (META) Surging Capex Pressures Free Cash Flow Amid Monetization Debates (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/meta-platforms-meta-surging-capex-165927360.html
 · BTC Bitcoin dormant supply climbs toward 69% as holders sit tight through the slump (TradingView (Reuters)) https://www.tradingview.com/news/cryptobriefing:b92d03ee4094b:0-bitcoin-dormant-supply-climbs-toward-69-as-holders-sit-tight-through-the-slump/
-· BTC Galaxy Research Warns Bitcoin Could Fall to $28,200 if June Low Breaks (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/galaxy-research-warns-bitcoin-could-163700724.html
-· TSLA XPeng Raises Stakes for Tesla Stock Investors' Big Growth Bet (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:4ec913f59094b:0-xpeng-raises-stakes-for-tesla-stock-investors-big-growth-bet/
-· BTC Bitcoin Tops $60,000 as Risk Assets Rise in Holiday Trading (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-tops-60-000-risk-162823539.html
-· LITE Lumentum Surges 55% in a Year: Should You Buy, Sell, or Hold the Stock? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/lumentum-surges-55-buy-sell-162000564.html
-· JPM JPMorgan says bitcoin 'capitulation' signaled by Strategy's record-low NAV multiple (The Block) https://www.theblock.co/news/markets/2026-11-26-jpmorgan-bitcoin-capitulation-strategy-low-nav-multiple-447007
-· USDBRL Ibovespa supera 174 mil pontos e dólar cai com expectativa de Trabuco na Fazenda (TradingView (Reuters)) https://br.tradingview.com/news/reuters.com,2026:newsml_L2N4770KU:0/
-· BTC BTC News Today: US Bitcoin Strategic Reserve Bill Moves Closer as BTC Reclaims $60K (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/btc-news-today-us-bitcoin-160925633.html
-· NVDA NVIDIA Just Dropped 31% in a Month. Will NVDA Stock Hit $125 or $200 First? (Yahoo Finance) https://news.google.com/rss/articles/CBMimAFBVV95cUxQVXFSdnRPQk1JV3F3SzQ5VHVza3dwb1RNVlk5WGt2QnA1OHlZaWRhdTRlRUdqSUlfS196STEwWXVNWWxOUE1BeW1PeWh3WmI1M1MzSUZvenZOVlplWnROYnl3NGswVTBmd3R3bU5peGpOWkF6MEIyQUZOOWlTMW1CMGZDOVd4XzJ6cS1yNEJuRFZlTzZjTDdTVg?oc=5
-· USDBRL Ibovespa dispara mais de 3% e dólar recua após IPCA-15 (Suno Noticias) https://www.suno.com.br/noticias/ibovespa-hoje-26112026-ipca-15-dolar-go/
-· BTC Bitcoin News: Swiss ETF Debut Meets $7B Options Expiry and US Strategic Reserve Push (TradingView (Reuters)) https://www.tradingview.com/news/cryptonews:dfa9be5f6094b:0-bitcoin-news-swiss-etf-debut-meets-7b-options-expiry-and-us-strategic-reserve-push/
-· MRVL Marvell's Most Important Earnings Call Has Nothing To Do With Earnings (Preview) (NASDAQ:MRVL) (Seeking Alpha) https://seekingalpha.com/article/4972309-marvells-most-important-earnings-call-has-nothing-to-do-with-earnings?source=generic_rss
-· USDBRL Ibovespa sobe mais de 4% e dólar recua a R$ 5,71 com otimismo no mercado (Money Times) https://www.moneytimes.com.br/ibovespa-dispara-mais-de-4-e-dolar-recua-a-r-571-o-que-anima-o-mercado-hoje-davs/
-· KO Diluted earnings per share (diluted EPS) of Coca-Cola Company – GPW:COLA_C (TradingView (Reuters)) https://www.tradingview.com/symbols/GPW-COLA_C/financials-income-statement/earnings-per-share-diluted/
-· JPM JPMorgan Rethinks UK Investments: Will Higher Taxes Hurt Growth? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/jpmorgan-rethinks-uk-investments-higher-140500776.html
-· (+69 manchetes; lista completa em eventos/noticias.json)
+· (+83 manchetes; lista completa em eventos/noticias.json)
