@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 27/11 14h35
+NOTÍCIAS E FATOS · 27/11 15h05
 
-Pernas: noticias ok 14 novas (18 consultas; descartadas: 416 veículo fora da lista, 28 sem ativo, 19 teto) · cvm ok 0 novos de 13 (7 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 8 novas (18 consultas; descartadas: 420 veículo fora da lista, 29 sem ativo, 0 teto) · cvm ok 0 novos de 13 (7 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (4)
 
@@ -133,8 +133,16 @@ Fonte: Estadao 27/11 00h48
 id: E05-PETR4-9c68b29b5f-2026-11-27 · status: expirado
 
 
-## OUTRAS NOTÍCIAS (só manchete) (83)
+## OUTRAS NOTÍCIAS (só manchete) (91)
 
+· GOOGL Tech Stock Sell-Off: Down 32%, Is Alphabet a Buy Now? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/tech-stock-sell-off-down-175102945.html
+· MU Micron Faces New AI Memory Threat as Huawei Develops HBM Chip (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:37caf3e53094b:0-micron-faces-new-ai-memory-threat-as-huawei-develops-hbm-chip/
+· NVDA Here’s Why I’d Still Buy Nvidia Over AMD With or Without Jensen Huang at CEO. (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/why-d-still-buy-nvidia-160502455.html
+· NVDA Nvidia: Valuing The Jensen-Sized Void (NASDAQ:NVDA) (Seeking Alpha) https://seekingalpha.com/article/4972568-nvidia-valuing-the-jensen-sized-void
+· MU Down 50%, is Micron stock a bargain buy or a value trap? (Yahoo Finance) https://au.finance.yahoo.com/news/down-50-micron-stock-bargain-153700233.html
+· BBDC4 Como fica o Bradesco sem Trabuco (Brazil Journal) https://braziljournal.com/como-fica-o-bradesco-sem-trabuco
+· UST Treasury yields are higher as investors look ahead to payroll data (CNBC) https://www.cnbc.com/2026/11/27/treasury-yields-bonds-fed.html
+· MCHI China stocks surge most in two years as Beijing vows stronger market support (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/china-stocks-surge-most-two-081045333.html
 · BTC How Much Will 1 Bitcoin Be Worth in 2035? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/much-1-bitcoin-worth-2035-171222471.html
 · BTC Gold Suffers Worst 60-Day Loss Since the 1980s. Bitcoin’s Collapse Exposes an Even Bigger Problem. (Yahoo Finance) https://finance.yahoo.com/markets/commodities/articles/gold-suffers-worst-60-day-170525230.html
 · MU Micron: 3.9x Earnings Is Insane (NASDAQ:MU) (Seeking Alpha) https://seekingalpha.com/article/4972595-micron-3-9x-earnings-is-insane
@@ -187,12 +195,4 @@ id: E05-PETR4-9c68b29b5f-2026-11-27 · status: expirado
 · NVDA How Much Of Big Tech's AI Spending Reaches Nvidia? (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/much-big-techs-ai-spending-114838633.html
 · AMD AMD Stock Gets A Downgrade From Erste Group – Analyst Flags Valuation Concerns, Low Potential For Share Gains (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:3058e9d5e094b:0-amd-stock-gets-a-downgrade-from-erste-group-analyst-flags-valuation-concerns-low-potential-for-share-gains/
 · BBAS3 Fundo imobiliário vende agência do Banco do Brasil (BBAS3) por R$ 14 milhões; veja lucro por cota (Money Times) https://www.moneytimes.com.br/fundo-imobiliario-vende-agencia-do-banco-do-brasil-bbas3-por-r-14-milhoes-veja-lucro-por-cota-igdl/
-· SBSP3 Sabesp, CSN, Tecnisa, Brava, Axia, Taesa e mais ações para acompanhar hoje (InfoMoney) https://www.infomoney.com.br/mercados/sabesp-csn-tecnisa-brava-axia-taesa-e-mais-acoes-para-acompanhar-hoje/
-· MRVL Marvell Faces Critical Earnings Test Amid AI Chip Market Turmoil (TradingView (Reuters)) https://news.google.com/rss/articles/CBMiwgFBVV95cUxPU3Z3eGt5MUVZZlJMek1XR0lKUldsOUVJVVNFTkd1R18xaFlIZGpzWDlJZGJMVllqdFdMMlk2eG1WR3dkM2JwV3VxeWptUm11d21WUHZmc2tEbnIxeDFWX2I3QmNEYW1UZUtHcERlX25HcFY5RFlqaFlPaVhLOUZzUE1XWE1FTzJyWUxKdHNNdTY4aUFkX0FlLUF5QWVfd2ZfTzdLUHJVYkM3SnZRUUFzeFdGVFpPc0RjcGxoQ1VJa2VFUQ?oc=5
-· BTC Bitcoin News Today: BTC Rebounds 8% – Is The Worst Over for Bitcoin Holders? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-news-today-btc-rebounds-104410814.html
-· SBSP3 Sabesp diz que Arsesp aprova base de ativos 11% maior para 2025 (InfoMoney) https://www.infomoney.com.br/mercados/sabesp-diz-que-arsesp-aprova-base-de-ativos-11-maior-para-2025/
-· MU Micron: The Selloff Creates A Compelling Value Opportunity(NASDAQ:MU) (Seeking Alpha) https://seekingalpha.com/article/4972480-micron-stock-sell-off-creates-compelling-value-opportunity
-· UST U.S. Treasury Yields Rise in Shortened Post-Thanksgiving Trade (The Wall Street Journal) https://www.wsj.com/finance/investing/u-s-treasury-yields-rise-in-shortened-post-thanksgiving-trade-f0822039
-· PLTR A Palantir Co-Founder Bought $122 Million of the Stock on Nov. 20. Here's What I Think of Palantir Stock Now. (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/palantir-co-founder-bought-122-090702978.html
-· BTC Bitcoin defends June low as key support, Glassnode says (TradingView (Reuters)) https://www.tradingview.com/news/cryptobriefing:84ca2a036094b:0-bitcoin-defends-june-low-as-key-support-glassnode-says/
-· (+23 manchetes; lista completa em eventos/noticias.json)
+· (+31 manchetes; lista completa em eventos/noticias.json)
