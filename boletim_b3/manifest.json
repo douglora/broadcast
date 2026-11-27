@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-11-26T20:29:42Z",
+ "gerado_em": "2026-11-27T00:50:52Z",
  "cliente_http": "curl_cffi",
  "livro": [
   "EQTL3",
@@ -23,44 +23,6 @@
   "CURY3"
  ],
  "pregoes": {
-  "2026-11-24": {
-   "completo": false,
-   "faltam": [
-    "InstrumentsConsolidated"
-   ],
-   "boletim": "publicado",
-   "sinais": 18,
-   "tabelas": 47,
-   "arquivos": [
-    "DerivativesOpenPosition",
-    "TradeInformationConsolidated",
-    "TradeInformationConsolidatedAfterHours"
-   ],
-   "rf_cadastro": {
-    "papeis_no_dia": 1577,
-    "consultados": 0,
-    "achados": 0,
-    "sem_cadastro": 0,
-    "erros": 0,
-    "ficaram_para_depois": 0,
-    "no_cache": 3886
-   },
-   "anbima": {
-    "situacao": "publicado",
-    "data": "2026-11-24",
-    "papeis": 1257,
-    "publicado_em": "2026-11-24T19:52:00",
-    "comparado_com": "2026-11-23",
-    "tentativas": {
-     "2026-11-24": "publicado",
-     "2026-11-23": "publicado"
-    }
-   },
-   "falhas": {
-    "InstrumentsConsolidated": "arquivo InstrumentsConsolidated: token HTTP 400"
-   },
-   "segundos": 245
-  },
   "2026-11-25": {
    "completo": false,
    "faltam": [
@@ -97,10 +59,51 @@
    "falhas": {
     "InstrumentsConsolidated": "arquivo InstrumentsConsolidated: token HTTP 400"
    },
-   "segundos": 60
+   "segundos": 111
+  },
+  "2026-11-26": {
+   "completo": false,
+   "faltam": [
+    "InstrumentsConsolidated",
+    "DerivativesOpenPosition",
+    "BTBLendingOpenPosition",
+    "BTBLoanBalance"
+   ],
+   "boletim": "publicando",
+   "sinais": 11,
+   "tabelas": 47,
+   "arquivos": [
+    "TradeInformationConsolidated",
+    "TradeInformationConsolidatedAfterHours"
+   ],
+   "rf_cadastro": {
+    "papeis_no_dia": 1630,
+    "consultados": 36,
+    "achados": 28,
+    "sem_cadastro": 8,
+    "erros": 0,
+    "ficaram_para_depois": 0,
+    "no_cache": 3908
+   },
+   "anbima": {
+    "situacao": "publicado",
+    "data": "2026-11-26",
+    "papeis": 1256,
+    "publicado_em": "2026-11-26T19:52:49",
+    "comparado_com": "2026-11-25",
+    "tentativas": {
+     "2026-11-26": "publicado",
+     "2026-11-25": "publicado"
+    }
+   },
+   "falhas": {
+    "InstrumentsConsolidated": "arquivo InstrumentsConsolidated: token HTTP 400",
+    "DerivativesOpenPosition": "arquivo DerivativesOpenPosition: token HTTP 400"
+   },
+   "segundos": 213
   }
  },
  "falhas": [],
  "versao": 2,
- "ultimo_pregao": "2026-11-25"
+ "ultimo_pregao": "2026-11-26"
 }

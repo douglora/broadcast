@@ -1,5 +1,5 @@
 {
- "pregao": "2026-11-25",
+ "pregao": "2026-11-26",
  "nome": "InCashMarketBiggestHighs",
  "titulo": "Mercado à vista - maiores altas",
  "sla": "8:00:00",
@@ -7,18 +7,18 @@
  "colunas": [{"nome": "TckrSymb", "titulo": "Ação"}, {"nome": "Cod", "titulo": "Código"}, {"nome": "Price", "titulo": "Preço (R$)"}, {"nome": "Oscillation", "titulo": "Oscilação (%)"}],
  "texto": ["Mostra as maiores valorizações de ativos no mercado à vista, destacando as melhores performances."],
  "situacao": "publicado",
- "atualizado_em": "2026-11-25T18:50:15.447",
+ "atualizado_em": "2026-11-26T18:50:11.903",
  "truncada": false,
  "linhas": [
-  ["B2YN34", "DRN", 26.02, 14.02],
-  ["HUCG11", "CI", 80, 14.25],
-  ["GFSA12", "BNS ORD NM", 0.07, 16.66],
-  ["RAIZ55", "PNA P   N2", 16.54, 17.22],
-  ["FNOR11", "CI *", 0.65, 18.18],
-  ["RZEO11", "CI", 115, 19.85],
-  ["UCAS3", "ON      NM", 1.15, 23.65],
-  ["ORVR11", "BNS ORD NM", 26.7, 26.66],
-  ["S2YN34", "DRN", 22.4, 34.05],
-  ["CEGR3", "ON", 97, 70.17]
+  ["RENT4", "PN      NM", 33.26, 15.84],
+  ["CTXT11", "CI", 4.27, 16.03],
+  ["SPVT11", "CI", 67.56, 16.24],
+  ["PMAM3", "ON      NM", 0.21, 16.66],
+  ["PPLA11", "UNT", 47, 17.5],
+  ["AZTE3", "ON", 0.72, 20],
+  ["KNRE11", "CI", 0.27, 22.72],
+  ["NETE34", "DRN", 74.99, 23.58],
+  ["BIYK39", "DRE", 25.34, 25.69],
+  ["FSTU11", "CI", 0.2, 33.33]
  ]
 }

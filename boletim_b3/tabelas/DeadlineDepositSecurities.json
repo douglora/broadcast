@@ -1,5 +1,5 @@
 {
- "pregao": "2026-11-25",
+ "pregao": "2026-11-26",
  "nome": "DeadlineDepositSecurities",
  "titulo": "Prazo para depósito de títulos",
  "sla": "00:00:00",
@@ -7,10 +7,19 @@
  "colunas": [{"nome": "UpdateDate", "titulo": "Data"}, {"nome": "TckrSymb", "titulo": "Empresa"}, {"nome": "Code", "titulo": "Código IF"}, {"nome": "Earnings", "titulo": "Tipo de provento"}],
  "texto": ["Informações sobre prazos estabelecidos para depósito de títulos financeiros em uma instituição de custódia. Os detentores de títulos representativos de ações, com direito aos proventos envolvendo as empresas abaixo relacionadas, poderão efetuar o depósito junto à Custódia nos seguintes prazos."],
  "situacao": "publicado",
- "atualizado_em": "2026-11-25T00:00:28.817",
+ "atualizado_em": "2026-11-26T00:00:35.84",
  "truncada": false,
  "linhas": [
-  ["2026-11-26", "EQUIFAX INC.", "BREFXBBDR000 113", "DIVIDENDO"],
-  ["2026-11-26", "V2 RENDA IMOBILIÁRIA FII RESP LIM", "BRVVRIR06M16 143", "ATUALIZACAO"]
+  ["2026-11-27", "BAXTER INTERNATIONAL INC", "BRB1AXBDR004 127", "DIVIDENDO"],
+  ["2026-11-27", "FORTIVE CORP", "BRF1TVBDR004 129", "DIVIDENDO"],
+  ["2026-11-27", "GRUPO AEROPORTUARIO DEL SURESTE SAB DE CV", "BRS2REBDR007 109", "DIVIDENDO"],
+  ["2026-11-27", "HUNTINGTON INGALLS INDUSTRIES INC", "BRH1IIBDR002 128", "DIVIDENDO"],
+  ["2026-11-27", "ISA ENERGIA BRASIL S.A", "BRISAEACNOR2 114", "JUROS SOBRE CAPITAL PRÓPRIO"],
+  ["2026-11-27", "ISA ENERGIA BRASIL S.A", "BRISAEACNPR9 114", "JUROS SOBRE CAPITAL PRÓPRIO"],
+  ["2026-11-27", "KINEA PRIME RESIDENCIAL I PVT FII- RESP LTDA.", "BRKPRPR03M11 102", "ATUALIZACAO"],
+  ["2026-11-27", "KINEA PRIME RESIDENCIAL I PVT FII- RESP LTDA.", "BRKPRPR04M10 102", "ATUALIZACAO"],
+  ["2026-11-27", "NEXTERA ENERGY INC", "BRNEXTBDR006 130", "DIVIDENDO"],
+  ["2026-11-27", "PERRIGO CO PLC", "BRP1RGBDR007 127", "DIVIDENDO"],
+  ["2026-11-27", "YUM BRANDS INC", "BRYUMRBDR006 128", "DIVIDENDO"]
  ]
 }
