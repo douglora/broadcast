@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 27/11 11h05
+NOTÍCIAS E FATOS · 27/11 12h05
 
-Pernas: noticias ok 16 novas (18 consultas; descartadas: 429 veículo fora da lista, 30 sem ativo, 7 teto) · cvm ok 0 novos de 13 (7 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 12 novas (18 consultas; descartadas: 416 veículo fora da lista, 29 sem ativo, 1 teto); 1 falhas · cvm ok 0 novos de 13 (7 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (4)
 
@@ -18,7 +18,7 @@ Por que importa: fato relevante e o que a propria companhia julga capaz de mover
 Ativos: AXIA3
 Como falar: 'a Axia Energia publicou fato relevante sobre Centro Corporativo Portinari, SEPN 504, Bloco D Brasília | DF - Brasi…'
 Fonte: CVM 27/11
-id: E03-AXIA3-1594309-2026-11-27 · status: pendente · íntegra disponível
+id: E03-AXIA3-1594309-2026-11-27 · status: expirado · íntegra disponível
 
 [ATENÇÃO] E03 · ALUP4 · Fato Relevante: Com a conclusão da transação, a Companhia passa a deter 100% da STN, ativo já consolidado pela Alupar, e receberá, como torna, o montante de R$ 367,1…
 CVM · entregue 27/11/2026 08:45
@@ -34,7 +34,7 @@ Por que importa: fato relevante e o que a propria companhia julga capaz de mover
 Ativos: ALUP4
 Como falar: 'a Alupar publicou fato relevante sobre Com a conclusão da transação, a Companhia passa a deter 100% da STN,…'
 Fonte: CVM 27/11
-id: E03-ALUP4-1594308-2026-11-27 · status: pendente · íntegra disponível
+id: E03-ALUP4-1594308-2026-11-27 · status: expirado · íntegra disponível
 
 [ATENÇÃO] E03 · BBDC4 · Fato Relevante: Página 1 de 1 Banco Bradesco S.A. o O Banco Bradesco S.A. (“Bradesco”), em cumprimento ao disposto na Resolução CVM nº 44/2021, comunica aos seus aci…
 CVM · entregue 26/11/2026 23:47
@@ -96,7 +96,7 @@ Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e 
 Ativos: ITUB4 · KLBN4
 Como falar: 'saiu no Poder360: Cade aprova sociedade entre Itaú e Klabin em negócio de R$ 1,2 bilhão; confirmar o número no texto antes de repassar'
 Fonte: Poder360 27/11 09h26
-id: E05-ITUB4-4408bff9d0-2026-11-27 · status: pendente
+id: E05-ITUB4-4408bff9d0-2026-11-27 · status: expirado
 
 [ATENÇÃO] E05 · NVDA · Nvidia Forecast $130 Billion in Revenue and Added $150 Billion to Its Buyback. Should You Buy the Stock?
 Yahoo Finance · 27/11 07h20 · fonte única · licença: resumo
@@ -124,8 +124,20 @@ Fonte: Estadao 27/11 00h48
 id: E05-PETR4-9c68b29b5f-2026-11-27 · status: expirado
 
 
-## OUTRAS NOTÍCIAS (só manchete) (58)
+## OUTRAS NOTÍCIAS (só manchete) (70)
 
+· COHR Why is Coherent stock surging today? By Investing.com (Investing.com) https://uk.investing.com/news/stock-market-news/why-is-coherent-stock-surging-today-93CH-5006639
+· AXIA3 Axia Energia fecha descruzamento de participações em transmissão por R$ 367,1 mi (UOL Economia) https://economia.uol.com.br/noticias/redacao/2026/11/27/axia-energia-fecha-descruzamento-de-participacoes-em-transmissao-por-r-3671-milhoes.ghtm
+· SBSP3 Sabesp (SBSP3): bancos veem revisão tarifária robusta e projetam reajuste de até 20% (InfoMoney) https://www.infomoney.com.br/mercados/sabesp-sbsp3-bancos-veem-revisao-tarifaria-robusta-e-projetam-reajuste-de-ate-20/
+· NVDA Nvidia Stock: 5 Reasons The AI Trade Has Only Begun (NASDAQ:NVDA) (Seeking Alpha) https://seekingalpha.com/article/4972549-nvidia-stock-5-reasons-the-ai-trade-has-only-begun?source=generic_rss
+· USDBRL Dólar cai a R$ 5,74 e Ibovespa dispara 6,07% após anúncio de Trabuco (Agencia Brasil) https://agenciabrasil.ebc.com.br/radioagencia-nacional/politica/audio/2026-11/dolar-cai-r-574-e-ibovespa-dispara-607-apos-anuncio-de-trabuco
+· TESOURO Tesouro Direto tem “circuit breaker” com taxas em queda livre após sim de Trabuco (InfoMoney) https://www.infomoney.com.br/onde-investir/tesouro-direto-abertura-fechamento-27112026/
+· USDBRL Ibovespa dispara e dólar cai abaixo de R$ 5,55: por que Trabuco na Fazenda agrada ao mercado? (Exame) https://exame.com/invest/mercados/ibovespa-hoje-27-11-2026/
+· MU Micron Stock Is Jumping but There’s Bad News on Memory Prices (Barron's) https://www.barrons.com/articles/micron-stock-price-memory-7b89deb0
+· JPM JPMorgan: I'm Sitting This One Out For Now (NYSE:JPM) (Seeking Alpha) https://seekingalpha.com/article/4972495-jpmorgan-stock-i-am-sitting-this-one-out-for-now
+· BTC Bitcoin whales add 121,117 BTC as price falls nearly 30% in Q4 (TradingView (Reuters)) https://www.tradingview.com/news/cryptobriefing:d2317a87c094b:0-bitcoin-whales-add-121-117-btc-as-price-falls-nearly-30-in-q4/
+· BBDC4 BBDC4: Trabuco aceita convite para comandar o Ministério da Fazenda (Suno Noticias) https://www.suno.com.br/noticias/bbdc4-trabuco-aceita-ministerio-fazenda-271126/
+· BRENT OPEC+ set to keep oil production targets steady, sources say (Reuters) https://www.reuters.com/business/energy/opec-set-keep-oil-production-targets-steady-first-quarter-sources-say-2026-11-27/
 · BBAS3 BBAS3: BB presta novos esclarecimentos à CVM sobre agro (Suno Noticias) https://www.suno.com.br/noticias/bbas3-banco-do-brasil-agro-271126/
 · USDBRL Dólar cai e ativos brasileiros disparam após anúncio de Trabuco como ministro da Fazenda (Bloomberg Linea) https://www.bloomberglinea.com.br/mercados/ativos-brasileiros-disparam-apos-anuncio-de-trabuco-como-ministro-da-fazenda-de-lula-4/
 · MRVL Marvell Stock: From Overvalued To Significantly Undervalued (NASDAQ:MRVL) (Seeking Alpha) https://seekingalpha.com/article/4972532-marvell-from-overvalued-to-significantly-undervalued
@@ -174,13 +186,4 @@ id: E05-PETR4-9c68b29b5f-2026-11-27 · status: expirado
 · BTC Bitcoin November Price Prediction: Polymarket’s $62,500 Yes Odds Surge 16% (TradingView (Reuters)) https://www.tradingview.com/news/binance_news:8cd606456094b:0-bitcoin-november-price-prediction-polymarket-s-62-500-yes-odds-surge-16/
 · BRENT Brent trades near month's high as Mideast conflict threatens supply (TradingView (Reuters)) https://www.tradingview.com/news/reuters.com,2026:newsml_L2N47800T:0-brent-trades-near-month-s-high-as-mideast-conflict-threatens-supply/
 · BBDC4 Bradesco, de Trabuco, tem 3º maior juro dentre os 5 bancões (Poder360) https://www.poder360.com.br/poder-economia/bradesco-de-trabuco-tem-3o-maior-juro-dentre-os-5-bancoes/
-· ITUB4 CEOs do Itaú e do Santander parabenizam Trabuco pela indicação ao Ministério da Fazenda (Folha de S.Paulo) https://www1.folha.uol.com.br/mercado/2026/11/ceo-do-itau-parabeniza-trabuco-pela-indicacao-ao-ministerio-da-fazenda.shtml
-· USDBRL Bolsa sobe 6% e tem maior alta desde o 1º turno; dólar cai a R$ 5,74 (Agencia Brasil) https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/bolsa-sobe-6-e-tem-maior-alta-desde-o-1o-turno-dolar-cai-r-574
-· BBDC4 Luiz Carlos Trabuco, do Bradesco, aceita convite de Lula para assumir Ministério da Fazenda (Folha de S.Paulo) https://www1.folha.uol.com.br/mercado/2026/11/luiz-carlos-trabuco-do-bradesco-aceita-convite-de-lula-para-assumir-ministerio-da-fazenda.shtml
-· MU Why It’s Hard to Write Off Micron (MU) Even with a Memory Peak in Sight (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/why-hard-write-off-micron-210000375.html
-· MINERIO Planet One leads $933M plan for Senegal iron ore (Mining.com) https://www.mining.com/planet-one-leads-933m-plan-for-senegal-iron-ore/
-· BTC Bitcoin’s Price Every Thanksgiving Since 2013 (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-price-every-thanksgiving-since-194456526.html
-· BBDC4 A Caixa que se cuide: Bradesco (BBDC4) e Santander (SANB11) avaliam entrar na disputa pelo Minha Casa Minha Vida (Seu Dinheiro) https://www.seudinheiro.com/2026/empresas/a-caixa-que-se-cuide-santander-avalia-entrar-na-disputa-pelo-minha-casa-minha-vida-miql/
-· BRENT Brent settles higher as mine strikes, refinery attack stoke Middle East supply concerns (Yahoo Finance) https://finance.yahoo.com/energy/articles/oil-rises-supply-concerns-iran-030849858.html
-· JPM JPMorgan Funds - US Value Fund (JR6U.F) latest stock news and headlines (Yahoo Finance) https://uk.finance.yahoo.com/quote/JR6U.F/news/
-· NVDA Nvidia Just Revealed a Major $19 Billion Vote of Confidence in Intel Stock (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/nvidia-just-revealed-major-19-163003138.html
+· (+10 manchetes; lista completa em eventos/noticias.json)
