@@ -1,8 +1,40 @@
-NOTÍCIAS E FATOS · 27/11 08h20
+NOTÍCIAS E FATOS · 27/11 10h05
 
-Pernas: noticias ok 17 novas (18 consultas; descartadas: 460 veículo fora da lista, 51 sem ativo, 12 teto) · cvm ok 0 novos de 11 (6 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 16 novas (18 consultas; descartadas: 445 veículo fora da lista, 33 sem ativo, 8 teto) · cvm ok 2 novos de 13 (7 cias casadas) · sec ok 0 novos em 3 dias
 
-## FATOS RELEVANTES E COMUNICADOS (CVM) (6)
+## FATOS RELEVANTES E COMUNICADOS (CVM) (4)
+
+[ATENÇÃO] E03 · AXIA3 · Fato Relevante: Centro Corporativo Portinari, SEPN 504, Bloco D Brasília | DF - Brasil | 70730- Descruzamento de Participações de Transmissão Rio de Janeiro, 27 de n…
+CVM · entregue 27/11/2026 08:45
+Do documento:
+  – alienação da participação acionária detida pela AXIA Energia Nordeste de 49% na STN para a Alupar;  ii.
+  – aquisição pela AXIA Energia Norte da participação acionária detida pela Alupar de 35% na TNE;  iii.
+  – pagamento em caixa de R$ 367,1 milhões.
+  – Sua entrada em operação reduz cerca de 280 mil  toneladas estimadas de emissão de CO₂ por ano, decorrentes da diminuição da geração não-renovável no sistema.
+  – Tabela 1 - Características das transmissoras  Transmissora Km Prazo de Concessão RAP 2026/2027 (R$ milhões) EBITDA 2027E¹,² (R$ milhões) Dívida Líquida 3T26 (R$ milhões)  TNE 724 setembro de 2051 588 554 2.202  STN 635…
+  – Valores estimados considerando a separação das concessões da linha e do compensador estático (CER) de TNE, ocorrida em Ago/26, e consequente impacto na redução de glosa da RAP.
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1594309
+Por que importa: fato relevante e o que a propria companhia julga capaz de mover o preco; ler o documento inteiro antes de comentar
+Ativos: AXIA3
+Como falar: 'a Axia Energia publicou fato relevante sobre Centro Corporativo Portinari, SEPN 504, Bloco D Brasília | DF - Brasi…'
+Fonte: CVM 27/11
+id: E03-AXIA3-1594309-2026-11-27 · status: pendente · íntegra disponível
+
+[ATENÇÃO] E03 · ALUP4 · Fato Relevante: Com a conclusão da transação, a Companhia passa a deter 100% da STN, ativo já consolidado pela Alupar, e receberá, como torna, o montante de R$ 367,1…
+CVM · entregue 27/11/2026 08:45
+Do documento:
+  – Aquisição, pela Companhia, da participação acionária de 49% na STN detida pela AXIA Energia Nordeste;  ii.
+  – Alienação, pela Companhia, da participação acionária de 35,39% detida na TNE.
+  – Com a conclusão da transação, a Companhia passa a deter 100% da STN, ativo já consolidado pela Alupar, e  receberá, como torna, o montante de R$ 367,1 milhões, sujeito a ajustes de preço previsto no CCVA.
+  – Características dos ativos:    Ativo Término da Concessão Início da Operação Extensã o (km) RAP 2026/2027 (R$ MM) EBITDA LTM (R$ MM)1 Dívida Líquida (R$ MM)2  STN FEV/2034 JAN/2006 635 170 127 -286  TNE SET/2051 SET/202…
+  – 3T26    Estrutura acionária atual e estrutura acionária pós-conclusão da transação:                  A conclusão da transação está sujeita à satisfação de condições suspensivas usuais de mercado.
+  – São Paulo, 27 de novembro de 2026    _________________________  Luiz Eduardo Muniz Coimbra  Diretor de Relações com Investidores  Estrutura Atual Estrutura Pós-Transação 49,0% 51,0% 35,39% 64,61% 100% 100%
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1594308
+Por que importa: fato relevante e o que a propria companhia julga capaz de mover o preco; ler o documento inteiro antes de comentar
+Ativos: ALUP4
+Como falar: 'a Alupar publicou fato relevante sobre Com a conclusão da transação, a Companhia passa a deter 100% da STN,…'
+Fonte: CVM 27/11
+id: E03-ALUP4-1594308-2026-11-27 · status: pendente · íntegra disponível
 
 [ATENÇÃO] E03 · BBDC4 · Fato Relevante: Página 1 de 1 Banco Bradesco S.A. o O Banco Bradesco S.A. (“Bradesco”), em cumprimento ao disposto na Resolução CVM nº 44/2021, comunica aos seus aci…
 CVM · entregue 26/11/2026 23:47
@@ -11,34 +43,7 @@ Por que importa: fato relevante e o que a propria companhia julga capaz de mover
 Ativos: BBDC4
 Como falar: 'a Bradesco publicou fato relevante sobre Página 1 de 1 Banco Bradesco S.A. o O Banco Bradesco S.A. (“Bradesco”…'
 Fonte: CVM 26/11
-id: E03-BBDC4-1594285-2026-11-26 · status: pendente · íntegra disponível
-
-[ATENÇÃO] E03 · AXIA3 · Fato Relevante: O seu Conselho de Administração aprovou, nesta data, o resgate de 129.982.668 ações preferenciais classe “C” (“PNC”), equivalente a R$ 6,0 bilhões e…
-CVM · entregue 26/11/2026 19:15
-Do documento:
-  – Os principais termos e condições da operação são os seguintes:  • Data de corte da B3: 30 de novembro de 2026.
-  – • Data ex-direitos: a partir de 01 de dezembro de 2026 as ações PNC passarão a ser negociadas ex- direitos.
-  – • Valor total do resgate: R$ 6,0 bilhões.
-  – • Valor do resgate da ação PNC: R$ 46,16 por ação, correspondente a cotação de fechamento das  ações ordinárias de emissão da Companhia no pregão do dia 25 de novembro de 2026.
-  – • Tratamento tributário para investidores não residentes: informações sobre o tratamento tributário  aplicável ao resgate, em especial para investidores não residentes (“INRs”), encontram-se detalhadas no  Aviso aos Aci…
-  – O período para  manifestação será de 03 a 07 de dezembro de 2026 inclusive.
-Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1594260
-Por que importa: fato relevante e o que a propria companhia julga capaz de mover o preco; ler o documento inteiro antes de comentar
-Ativos: AXIA3
-Como falar: 'a Axia Energia publicou fato relevante sobre O seu Conselho de Administração aprovou, nesta data, o resgate de 129…'
-Fonte: CVM 26/11
-id: E03-AXIA3-1594260-2026-11-26 · status: expirado · íntegra disponível
-
-[ATENÇÃO] E03 · SBSP3 · Fato Relevante: A Companhia de Saneamento Básico do Estado de São Paulo – Sabesp (“Companhia”), em atendimento às disposições da Resolução da Comissão de Valores Mob…
-CVM · entregue 26/11/2026 18:00
-Do documento:
-  – São Paulo, 26 de novembro de 2026.
-Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1594223
-Por que importa: fato relevante e o que a propria companhia julga capaz de mover o preco; ler o documento inteiro antes de comentar
-Ativos: SBSP3
-Como falar: 'a Sabesp publicou fato relevante sobre A Companhia de Saneamento Básico do Estado de São Paulo – Sabesp (“Co…'
-Fonte: CVM 26/11
-id: E03-SBSP3-1594223-2026-11-26 · status: expirado · íntegra disponível
+id: E03-BBDC4-1594285-2026-11-26 · status: expirado · íntegra disponível
 
 [INFO] E03 · BBAS3 · Comunicado ao Mercado: Esclarecimentos sobre questionamentos da CVM/B3
 CVM · entregue 26/11/2026 21:04 · Esclarecimentos sobre questionamentos da CVM/B3
@@ -49,26 +54,24 @@ Como falar: 'a Banco do Brasil publicou comunicado ao mercado sobre Esclarecimen
 Fonte: CVM 26/11
 id: E03-BBAS3-1594275-2026-11-26 · status: linha
 
-[INFO] E03 · AXIA3 · Aviso aos Acionistas: Outros avisos
-CVM · entregue 26/11/2026 19:18 · Outros avisos
-Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1594264
-Por que importa: aviso aos acionistas traz provento, data-com ou evento societario que muda o fluxo ao acionista
-Ativos: AXIA3
-Como falar: 'a Axia Energia publicou aviso aos acionistas sobre Outros avisos'
-Fonte: CVM 26/11
-id: E03-AXIA3-1594264-2026-11-26 · status: linha
 
-[INFO] E03 · BBAS3 · Comunicado ao Mercado: Apresentações a analistas/agentes do mercado
-CVM · entregue 26/11/2026 14:31 · Apresentações a analistas/agentes do mercado
-Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1594121
-Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; confirma ou nega o que circula
-Ativos: BBAS3
-Como falar: 'a Banco do Brasil publicou comunicado ao mercado sobre Apresentações a analistas/agentes do mercado'
-Fonte: CVM 26/11
-id: E03-BBAS3-1594121-2026-11-26 · status: linha
+## NOTÍCIAS COM MATERIALIDADE (3)
 
-
-## NOTÍCIAS COM MATERIALIDADE (8)
+[ATENÇÃO] E05 · ITUB4 · Cade aprova sociedade entre Itaú e Klabin em negócio de R$ 1,2 bilhão
+Poder360 · 27/11 09h26 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – A operação envolve um investimento de R$ 1,2 bilhão.
+  – A decisão foi publicada nesta 6ª feira (27.nov.2026) no DOU (Diário Oficial da União).
+  – A Bougainville reúne 37.300 hectares de ativos florestais.
+  – A Klabin comunicou a operação ao mercado em 6 de novembro, sem identificar o investidor.
+  – A participação do Itaú foi revelada pela Folha de S.Paulo, em 10 de novembro, com base em documentos apresentados ao Cade.
+  – Nas demonstrações financeiras referentes ao 3º trimestre de 2026, a Klabin informava deter 100% do capital da Bougainville.
+Link: https://www.poder360.com.br/poder-economia/cade-aprova-sociedade-entre-itau-e-klabin-em-negocio-de-r-12-bilhao/
+Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e prazo
+Ativos: ITUB4 · KLBN4
+Como falar: 'saiu no Poder360: Cade aprova sociedade entre Itaú e Klabin em negócio de R$ 1,2 bilhão; confirmar o número no texto antes de repassar'
+Fonte: Poder360 27/11 09h26
+id: E05-ITUB4-4408bff9d0-2026-11-27 · status: pendente
 
 [ATENÇÃO] E05 · NVDA · Nvidia Forecast $130 Billion in Revenue and Added $150 Billion to Its Buyback. Should You Buy the Stock?
 Yahoo Finance · 27/11 07h20 · fonte única · licença: resumo
@@ -95,77 +98,24 @@ Como falar: 'saiu no Estadao: Por que o plano de investimento de US$ 122 bilhõe
 Fonte: Estadao 27/11 00h48
 id: E05-PETR4-9c68b29b5f-2026-11-27 · status: pendente
 
-[ATENÇÃO] E05 · BTC · Michael Saylor’s Net Worth Plunges $6 Billion: The Cost of His Bitcoin Bet
-TradingView (Reuters) · 26/11 17h14 · fonte única · licença: manchete
-Link: https://www.tradingview.com/news/newsbtc:d55509b91094b:0-michael-saylor-s-net-worth-plunges-6-billion-the-cost-of-his-bitcoin-bet/
-Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
-Ativos: BTC
-Como falar: 'saiu no TradingView (Reuters): Michael Saylor’s Net Worth Plunges $6 Billion: The Cost of His Bitcoin Bet; confirmar o número no texto antes de repassar'
-Fonte: TradingView (Reuters) 26/11 17h14
-id: E05-BTC-455d60ba41-2026-11-26 · status: expirado
 
-[ATENÇÃO] E05 · BTC · YieldMax Bitcoin Option Income Strategy ETF declares $0.1135 dividend
-TradingView (Reuters) · 26/11 13h59 · fonte única · licença: manchete
-Link: https://www.tradingview.com/news/seekingalpha:4c6910866094b:0-yieldmax-bitcoin-option-income-strategy-etf-declares-0-1135-dividend/
-Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
-Ativos: BTC
-Como falar: 'saiu no TradingView (Reuters): YieldMax Bitcoin Option Income Strategy ETF declares $0.1135 dividend; confirmar o número no texto antes de repassar'
-Fonte: TradingView (Reuters) 26/11 13h59
-id: E05-BTC-af7f109aa2-2026-11-26 · status: expirado
+## OUTRAS NOTÍCIAS (só manchete) (44)
 
-[ATENÇÃO] E05 · KO · Coca-Cola Is the Most Boring Stock I Own. After 64 Years of Dividend Raises, I'll Never Sell.
-Yahoo Finance · 26/11 09h59 · fonte única · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – I have my fair share of growth stocks, for sure, but my staple "boring" stock is Coca-Cola (NYSE:KO).
-  – Although Coca-Cola is up over 40% this year (as of Nov.
-  – 24), its main appeal has long been its dividend.
-  – It has increased its annual dividend for 64 consecutive years, making it one of the market's premier Dividend Kings ( companies with at least 50 consecutive years of dividend hikes).
-  – Most investors think they missed the AI boat because they didn't buy Nvidia in 2005.
-  – But according to our analysts, we're only at the end of "Act 1"—the R&D phase.
-Link: https://finance.yahoo.com/markets/stocks/articles/coca-cola-most-boring-stock-125902904.html
-Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
-Ativos: KO
-Como falar: 'saiu no Yahoo Finance: Coca-Cola Is the Most Boring Stock I Own. After 64 Years of Dividend Raises, I'll Never S…; confirmar o número no texto antes de repassar'
-Fonte: Yahoo Finance 26/11 09h59
-id: E05-KO-4815d18ec1-2026-11-26 · status: expirado
-
-[ATENÇÃO] E05 · NVDA · Top Analyst Flags 5 Major Risks for NVDA Stock, Says Nvidia Could Stay in ‘Penalty Box’ for 1-2 Quarters: ‘Jensen Return Honeymoon Lasted About a Day’
-TradingView (Reuters) · 26/11 04h43 · fonte única · licença: manchete
-Link: https://www.tradingview.com/news/benzinga:842df53bc094b:0-top-analyst-flags-5-major-risks-for-nvda-stock-says-nvidia-could-stay-in-penalty-box-for-1-2-quarters-jensen-return-honeymoon-lasted-about-a-day/
-Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
-Ativos: NVDA
-Como falar: 'saiu no TradingView (Reuters): Top Analyst Flags 5 Major Risks for NVDA Stock, Says Nvidia Could Stay in ‘Penalty Box’ f…; confirmar o número no texto antes de repassar'
-Fonte: TradingView (Reuters) 26/11 04h43
-id: E05-NVDA-fefff1cd96-2026-11-26 · status: expirado
-
-[ATENÇÃO] E05 · NVDA · Nvidia's Aa1 rating, stable outlook unchanged after Huang's return: Moody's (NVDA:NASDAQ)
-Seeking Alpha · 26/11 03h01 · fonte única · licença: manchete
-Link: https://seekingalpha.com/news/4676735-nvidias-aa1-rating-stable-outlook-unchanged-after-huangs-return-moodys
-Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
-Ativos: NVDA
-Como falar: 'saiu no Seeking Alpha: Nvidia's Aa1 rating, stable outlook unchanged after Huang's return: Moody's (NVDA:NASDAQ); confirmar o número no texto antes de repassar'
-Fonte: Seeking Alpha 26/11 03h01
-id: E05-NVDA-d3ed239b92-2026-11-26 · status: expirado
-
-[ATENÇÃO] E05 · PETR4 · Santander rebaixa Petrobras a neutra e reduz preço-alvo de ação ordinária
-CNN Brasil · 25/11 21h05 · fonte única · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – O Santander rebaixou a recomendação para as ações da Petrobras de outperform (compra) para neutra e reduziu o preço-alvo para o final de 2027 do papel ordinário de R$ 60 para R$ 54,10, o que implica alta de 16,82% ante…
-  – Para os ADRs (American Depositary Receipts), o preço-alvo passou de US$ 24 para US$ 18,35 (+17,10% ante o último fechamento).
-  – Segundo o banco, embora o novo Plano de Negócios 2027-31 indique produção mais robusta, ele também eleva a percepção de risco.
-  – Há ainda incerteza sobre a manutenção da política de preços de combustíveis, que pode ser revista em breve, além de dúvidas quanto ao imposto de 12% sobre exportação de petróleo e a eventuais subsídios aos combustíveis.
-  – O Santander calcula yield ordinário de dividendos em torno de 9% para 2027, assumindo Brent a US$ 80 o barril.
-  – Na avaliação do banco, esse nível não compensa os riscos adicionais, sobretudo porque grandes petroleiras globais oferecem retorno médio de cerca de 8% aos acionistas com menor risco de alocação de capital.
-Link: https://www.cnnbrasil.com.br/economia/money/mercado/santander-rebaixa-petrobras-de-compra-para-neutra-e-corta-preco-alvo-da-acao-on-para-r-5410/
-Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
-Ativos: PETR4
-Como falar: 'saiu no CNN Brasil: Santander rebaixa Petrobras a neutra e reduz preço-alvo de ação ordinária; confirmar o número no texto antes de repassar'
-Fonte: CNN Brasil 25/11 21h05
-id: E05-PETR4-fd098a6e7e-2026-11-26 · status: expirado
-
-
-## OUTRAS NOTÍCIAS (só manchete) (158)
-
+· ALUP4 ELET3: AXIA Energia assina descruzamento de participações com Alupar (Suno Noticias) https://www.suno.com.br/noticias/elet3-axia-energia-descruzamento-271126/
+· NVDA Nvidia Blackwell chips found in Shanghai data center tied to Alice Huang (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/nvidia-blackwell-chips-found-shanghai-124008621.html
+· JPM JPMorgan, BofA, Citigroup issue same red alert over US bank accounts — official policy changes shift liability to you (Yahoo Finance) https://finance.yahoo.com/markets/currencies/articles/jpmorgan-bofa-citigroup-issue-same-123000336.html
+· USDBRL Ibovespa Hoje Ao Vivo: Confira o que movimenta Bolsa, Dólar e Juros nesta sexta (InfoMoney) https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-27112026/
+· USDBRL Dólar desaba 3,5%, a R$ 5,54, com confirmação de Trabuco na Fazenda (UOL Economia) https://economia.uol.com.br/cotacoes/noticias/redacao/2026/11/27/dolar-bolsa-abertura-27-novembro-2026.ghtm
+· USDBRL Dólar abre em queda de quase 4% e atinge R$ 5,52 após confirmação de Trabuco na Fazenda (Folha de S.Paulo) https://www1.folha.uol.com.br/mercado/2026/11/dolar-abre-em-queda-de-quase-4-e-atinge-r-552-apos-confirmacao-de-trabuco-na-fazenda.shtml
+· BTC Crypto Stocks Gain After Bitcoin Tops $61K In Tech Rebound, But Analysts Want A Move Above $62K (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:6a6dc5cc9094b:0-crypto-stocks-gain-after-bitcoin-tops-61k-in-tech-rebound-but-analysts-want-a-move-above-62k/
+· USDBRL Dólar despenca na abertura e vai a R$ 5,53 com nomeação de Luiz Trabuco para a Fazenda no foco (g1) https://g1.globo.com/economia/noticia/2026/11/27/dolar-ibovespa.ghtml
+· INTC Why Is Intel Stock Rallying Today? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/why-intel-stock-rallying-today-115408294.html
+· MRVL Why Is Marvell Technology Stock Surging Today? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/why-marvell-technology-stock-surging-115215377.html
+· NVDA How Much Of Big Tech's AI Spending Reaches Nvidia? (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/much-big-techs-ai-spending-114838633.html
+· AMD AMD Stock Gets A Downgrade From Erste Group – Analyst Flags Valuation Concerns, Low Potential For Share Gains (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:3058e9d5e094b:0-amd-stock-gets-a-downgrade-from-erste-group-analyst-flags-valuation-concerns-low-potential-for-share-gains/
+· BBAS3 Fundo imobiliário vende agência do Banco do Brasil (BBAS3) por R$ 14 milhões; veja lucro por cota (Money Times) https://www.moneytimes.com.br/fundo-imobiliario-vende-agencia-do-banco-do-brasil-bbas3-por-r-14-milhoes-veja-lucro-por-cota-igdl/
+· SBSP3 Sabesp, CSN, Tecnisa, Brava, Axia, Taesa e mais ações para acompanhar hoje (InfoMoney) https://www.infomoney.com.br/mercados/sabesp-csn-tecnisa-brava-axia-taesa-e-mais-acoes-para-acompanhar-hoje/
+· MRVL Marvell Faces Critical Earnings Test Amid AI Chip Market Turmoil (TradingView (Reuters)) https://news.google.com/rss/articles/CBMiwgFBVV95cUxPU3Z3eGt5MUVZZlJMek1XR0lKUldsOUVJVVNFTkd1R18xaFlIZGpzWDlJZGJMVllqdFdMMlk2eG1WR3dkM2JwV3VxeWptUm11d21WUHZmc2tEbnIxeDFWX2I3QmNEYW1UZUtHcERlX25HcFY5RFlqaFlPaVhLOUZzUE1XWE1FTzJyWUxKdHNNdTY4aUFkX0FlLUF5QWVfd2ZfTzdLUHJVYkM3SnZRUUFzeFdGVFpPc0RjcGxoQ1VJa2VFUQ?oc=5
 · BTC Bitcoin News Today: BTC Rebounds 8% – Is The Worst Over for Bitcoin Holders? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-news-today-btc-rebounds-104410814.html
 · SBSP3 Sabesp diz que Arsesp aprova base de ativos 11% maior para 2025 (InfoMoney) https://www.infomoney.com.br/mercados/sabesp-diz-que-arsesp-aprova-base-de-ativos-11-maior-para-2025/
 · MU Micron: The Selloff Creates A Compelling Value Opportunity(NASDAQ:MU) (Seeking Alpha) https://seekingalpha.com/article/4972480-micron-stock-sell-off-creates-compelling-value-opportunity
@@ -195,35 +145,3 @@ id: E05-PETR4-fd098a6e7e-2026-11-26 · status: expirado
 · BRENT Brent settles higher as mine strikes, refinery attack stoke Middle East supply concerns (Yahoo Finance) https://finance.yahoo.com/energy/articles/oil-rises-supply-concerns-iran-030849858.html
 · JPM JPMorgan Funds - US Value Fund (JR6U.F) latest stock news and headlines (Yahoo Finance) https://uk.finance.yahoo.com/quote/JR6U.F/news/
 · NVDA Nvidia Just Revealed a Major $19 Billion Vote of Confidence in Intel Stock (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/nvidia-just-revealed-major-19-163003138.html
-· BBDC4 Trabuco, do Bradesco (BBDC4), aceita convite de Lula para a Fazenda (Suno Noticias) https://www.suno.com.br/noticias/trabuco-bradesco-bbdc4-ministerio-fazenda-lula/
-· AVGO Goldman Sachs resets Broadcom's 12-month price target before earnings (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/goldman-sachs-resets-broadcoms-12-193315984.html
-· PETR4 Petrobras paralisa plataforma P-77 em Búzios após raio causar princípio de incêndio (InfoMoney) https://www.infomoney.com.br/mercados/petrobras-paralisa-plataforma-p-77-em-buzios-apos-raio-causar-principio-de-incendio/
-· BBAS3 BBAS3: Banco do Brasil não vai quebrar! (Investing.com) https://br.investing.com/analysis/bbas3-banco-do-brasil-nao-vai-quebrar-200480954
-· BABA Don’t Give Up on Alibaba (BABA) Stock Just Yet: The Math May Be More Compelling Than You Think (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/don-t-alibaba-baba-stock-160003539.html
-· BTC A 30% Bitcoin crash hasn't shaken this asset manager's $1.6 million call (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/30-bitcoin-crash-hasnt-shaken-220000017.html
-· USDBRL Ibovespa dispara 6% e dólar cai com expectativa de Trabuco no Ministério da Fazenda (g1) https://g1.globo.com/economia/noticia/2026/11/26/trabuco-ibovespa-fazenda-dolar.ghtml
-· USDBRL Dólar cai pelo quarto pregão seguido com "efeito Trabuco" (UOL Economia) https://economia.uol.com.br/noticias/estadao-conteudo/2026/11/26/dolar-cai-pelo-quarto-pregao-seguido-com-efeito-trabuco.htm
-· VALE3 Vale tem direitos minerários com potencial para terras raras, diz CEO à CNN (CNN Brasil) https://www.cnnbrasil.com.br/infra/vale-tem-direitos-minerarios-com-potencial-para-terras-raras-diz-ceo-a-cnn/
-· SBSP3 Sabesp diz que Arsesp aprova base de ativos 11% maior para 2025 (TradingView (Reuters)) https://br.tradingview.com/news/reuters.com,2026:newsml_L2N4770PN:0/
-· BBDC4 Trabuco, ex-CEO do Bradesco, chega em Brasília para reunião com Lula (g1) https://g1.globo.com/globonews/globonewsmais/video/trabuco-ex-ceo-do-bradesco-chega-em-brasilia-para-reuniao-com-lula-15284925.ghtml
-· MINERIO Iron ore price gains on expectations of winter restocking at Chinese mills (Mining.com) https://www.mining.com/web/iron-ore-price-gains-on-expectations-of-winter-restocking-at-chinese-mills/
-· JPM Basic earnings per share (basic EPS) of JPMorgan ActiveBuilders Emerging Markets Equity ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.16666… (TradingView (Reuters)) https://www.tradingview.com/symbols/BMFBOVESPA-JEMA39/financials-income-statement/earnings-per-share-basic/
-· USDBRL Trabuco acalma o mercado: dólar cai 1,25% e Bolsa dispara (Poder360) https://www.poder360.com.br/poder-economia/trabuco-acalma-o-mercado-dolar-cai-125-e-bolsa-dispara/
-· USDBRL Dólar cai com IPCA-15 abaixo das expectativas e alívio nas preocupações fiscais (ADVFN) https://br.advfn.com/jornal/2026/11/dolar-cai-com-ipca-15-abaixo-das-expectativas-e-alivio-nas-preocupacoes-fiscais
-· USDBRL Dólar à vista fecha em baixa de 1,23%, a R$5,7464 na venda (UOL Economia) https://economia.uol.com.br/noticias/reuters/2026/11/26/dolar-a-vista-fecha-em-baixa-de-123-a-r57464-na-venda.htm
-· USDBRL Dólar cai pelo 4º dia, aos R$ 5,74, com expectativa de Trabuco na Fazenda (O Globo) https://oglobo.globo.com/economia/financas/noticia/2026/11/26/dolar-bolsa-hoje.ghtml
-· BAC Bank of America issues blunt 2027 hard-landing warning on S&P 500 (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/bank-america-issues-blunt-2027-170300642.html
-· TSM TSMC (TSM) Upgraded to Strong Buy: Here's Why (Yahoo Finance) https://news.google.com/rss/articles/CBMimAFBVV95cUxORGc1OVBNTENnRDdzbGZBaDVxemF1S1k5UC01OE1aUjdwWUtYeVFJbU03M3RXenJtRy1HQW9FdklHSkdhNnhqdUVwYzBtcWZzeXRtY1JPaEhRR2RCd2NhT3RORnNVeUR5U3NXNEtQOEpJZ0E2eVdLSl9MMk1PVXJGQ085M0p1RWxhSWNvSERFZGpfRFp0dEo4Nw?oc=5
-· CVX Chevron (CVX) Is Back In Focus, What Is Driving The Attention? (Yahoo Finance) https://finance.yahoo.com/energy/articles/chevron-cvx-back-focus-driving-191123814.html
-· PETR4 Petrobras paralisa plataforma P-77 em Búzios após raio causar princípio de incêndio (Valor Economico) https://valor.globo.com/empresas/noticia/2026/11/26/petrobras-paralisa-plataforma-p-77-em-bzios-aps-raio-causar-princpio-de-incndio.ghtml
-· PETR4 Petrobras (PETR4): quais dúvidas ainda ficaram após divulgação do plano de negócios? (InfoMoney) https://www.infomoney.com.br/mercados/petrobras-petr4-quais-duvidas-ainda-ficaram-apos-divulgacao-do-plano-de-negocios/
-· BTC Bitcoin holds above $60K as death cross signals weakness (TradingView (Reuters)) https://www.tradingview.com/news/cryptobriefing:68ce8d0e0094b:0-bitcoin-holds-above-60k-as-death-cross-signals-weakness/
-· BTC Proshares Bitcoin & Ether Equal Weight ETF (BETE) latest press releases and corporate news (Yahoo Finance) https://uk.finance.yahoo.com/quote/BETE/press-releases/
-· BBAS3 Alta do Banco do Brasil (BBAS3) é 'fogo de palha'? Gestora vê uma foto ruim de uma realidade pior ainda (Money Times) https://www.moneytimes.com.br/alta-do-banco-do-brasil-bbas3-e-fogo-de-palha-gestora-ve-uma-foto-ruim-de-uma-realidade-pior-ainda-rnda/
-· INTC Intel Stocks Slip After Erasing a 10.3% Plunge Below $50 (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:d85d0f5f6094b:0-intel-stocks-slip-after-erasing-a-10-3-plunge-below-50/
-· NVDA Should You Buy Nvidia After Its Sharp Decline? Warren Buffett’s Long-Held Investment Philosophy Provides a Clear Answer (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/buy-nvidia-sharp-decline-warren-173502631.html
-· JPM JPMorgan ActiveBuilders Emerging Markets Equity ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.1666667 Sh Earnings and Revenue – BMFBOVESPA:… (TradingView (Reuters)) https://www.tradingview.com/symbols/BMFBOVESPA-JEMA39/financials-earnings/
-· BRENT Oil price today: Brent edges up after fresh tanker attacks near Strait of Hormuz (TradingView (Reuters)) https://www.tradingview.com/news/invezz:8a76a7dbc094b:0-oil-price-today-brent-edges-up-after-fresh-tanker-attacks-near-strait-of-hormuz/
-· NVDA Nvidia stops AI GPU shipments to Southeast Asia amid purported China cloud access ban, report claims — data centers in Singapore, other countries, in… (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/nvidia-stops-ai-gpu-shipments-160000782.html
-· BRENT Brent settles higher as mine strikes, refinery attack stoke Middle East supply concerns (Reuters) https://www.reuters.com/business/energy/oil-rises-supply-concerns-iran-claims-mine-strikes-ships-2026-11-26/
-· (+98 manchetes; lista completa em eventos/noticias.json)
