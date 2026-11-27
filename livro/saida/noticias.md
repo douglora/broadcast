@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 27/11 16h05
+NOTÍCIAS E FATOS · 27/11 16h57
 
-Pernas: noticias ok 16 novas (18 consultas; descartadas: 429 veículo fora da lista, 30 sem ativo, 5 teto) · cvm ok 0 novos de 13 (7 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 8 novas (18 consultas; descartadas: 422 veículo fora da lista, 30 sem ativo, 0 teto) · cvm ok 0 novos de 13 (7 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (4)
 
@@ -55,7 +55,39 @@ Fonte: CVM 26/11
 id: E03-BBAS3-1594275-2026-11-26 · status: linha
 
 
-## NOTÍCIAS COM MATERIALIDADE (9)
+## NOTÍCIAS COM MATERIALIDADE (11)
+
+[ATENÇÃO] E05 · BBAS3 · Quando o Banco do Brasil (BBAS3) paga dividendos? Veja o calendário
+Suno Noticias · 27/11 16h46 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Mercado Quando o Banco do Brasil (BBAS3) paga dividendos?
+  – Veja o calendário Os investidores do Banco do Brasil (BBAS3) não terão um final de ano tão animador quanto o esperado.
+  – A instituição reduziu de 30% para 25% o payout, fatia do lucro líquido ajustado repassada aos investidores.
+  – A mudança foi comunicada em fato relevante no dia 11 de novembro, mesma data da divulgação do balanço do terceiro trimestre de 2026 (3T26).
+  – Entre julho e setembro, o lucro líquido ajustado do banco somou R$ 1,3 bilhão, recuo de 66,5% frente ao mesmo intervalo de 2025.
+  – O número ficou distante das estimativas do mercado, que apontavam algo próximo de R$ 3 bilhões.
+Link: https://www.suno.com.br/noticias/banco-do-brasil-bbas3-divivendos-pagamento-241126/
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: BBAS3
+Como falar: 'saiu no Suno Noticias: Quando o Banco do Brasil (BBAS3) paga dividendos? Veja o calendário; confirmar o número no texto antes de repassar'
+Fonte: Suno Noticias 27/11 16h46
+id: E05-BBAS3-26fdcc2b4e-2026-11-27 · status: pendente
+
+[ATENÇÃO] E05 · AMZN · Amazon’s AWS Profit Rose 55%. Can It Absorb a $220 Billion Capex Bill?
+Yahoo Finance · 27/11 16h18 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – We recently published 10 Stocks That Should Double in 3 Years, where Amazon.com, Inc. (NASDAQ:AMZN) took the 10th spot.
+  – A company needed an annual forecast of at least 25% and positive trailing GAAP net income.
+  – Amazon's $2.64 trillion market capitalization made it the largest qualifying company, while its 25.19% EPS growth forecast put it at number ten when the final stocks were ranked from the lowest forecast to the highest.
+  – Insider Monkey counted 366 hedge-fund holders at the end of Q3 2026.
+  – Third-quarter sales increased 12% to $201.9 billion and operating income reached $28.1 billion.
+  – AWS revenue rose 39% to $46.0 billion, while AWS operating income climbed 55% to $17.8 billion.
+Link: https://ca.finance.yahoo.com/news/amazon-aws-profit-rose-55-191859418.html
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: AMZN
+Como falar: 'saiu no Yahoo Finance: Amazon’s AWS Profit Rose 55%. Can It Absorb a $220 Billion Capex Bill?; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 27/11 16h18
+id: E05-AMZN-22135a22c4-2026-11-27 · status: pendente
 
 [ATENÇÃO] E05 · MELI34 · FII BTLG11 quer investir R$ 798 milhões em galpões com Mercado Livre entre os inquilinos; cotistas decidem
 Money Times · 27/11 15h53 · fonte única · licença: integral
@@ -174,8 +206,14 @@ Fonte: Estadao 27/11 00h48
 id: E05-PETR4-9c68b29b5f-2026-11-27 · status: expirado
 
 
-## OUTRAS NOTÍCIAS (só manchete) (104)
+## OUTRAS NOTÍCIAS (só manchete) (110)
 
+· ITUB4 Auren Energia colhe ganhos acima do esperado com aquisição bilionária, aponta Itaú BBA (Estadao) https://www.estadao.com.br/em-alta/einvestidor/cenarios-e-mercado/auren-energia-colhe-ganhos-acima-do-esperado-com-aquisicao-bilionaria-aponta-itau-bba/
+· NVDA Nvidia Blackwell Chips Turn Up at China Site Tied to Alice Huang (Bloomberg) https://www.bloomberg.com/news/articles/2026-11-27/nvidia-blackwell-chips-turn-up-at-china-site-tied-to-alice-huang
+· BBAS3 O que a CEO do Banco do Brasil (BBAS3) disse sobre Trabuco após escolha para a Fazenda (Money Times) https://www.moneytimes.com.br/o-que-a-ceo-do-banco-do-brasil-bbas3-disse-sobre-trabuco-apos-escolha-para-a-fazenda-miql/
+· PLTR PLTR Stock Sees Best Week In 4 Months: Palantir Bags Reported $300M Defense Deal With Poland (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:23f622a62094b:0-pltr-stock-sees-best-week-in-4-months-palantir-bags-reported-300m-defense-deal-with-poland/
+· MRVL MRVL to Post Q3 Earnings: Time to Buy, Sell or Hold the Stock? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/mrvl-post-q3-earnings-time-142700413.html
+· BBAS3 Depois da renovação, a separação: FII embolsa R$ 14 milhões com venda de agência do Banco do Brasil (BBAS3) (Seu Dinheiro) https://www.seudinheiro.com/2026/bolsa-dolar/depois-da-renovacao-a-separacao-fii-embolsa-r-14-milhoes-com-venda-de-agencia-do-banco-do-brasil-bbas3-igdl/
 · BBAS3 FII vende imóvel locado ao Banco do Brasil por R$ 14 milhões; veja lucro (InfoMoney) https://www.infomoney.com.br/onde-investir/fii-vende-imovel-locado-ao-banco-do-brasil-por-r-14-milhoes-veja-lucro/
 · NVDA Nasdaq rises 7% on Thanksgiving week, bolstered by Jensen Huang's return as Nvidia CEO (Seeking Alpha) https://seekingalpha.com/news/4677087-nasdaq-rises-7-on-thanksgiving-week-bolstered-by-jensen-huangs-return-as-nvidia-ceo
 · BTC $7 Billion in Bitcoin Options Just Expired: Here’s What It Means (Yahoo Finance) https://finance.yahoo.com/markets/options/articles/7-billion-bitcoin-options-just-181603422.html
@@ -230,10 +268,4 @@ id: E05-PETR4-9c68b29b5f-2026-11-27 · status: expirado
 · USDBRL Trabuco na Fazenda: Bolsa sobe, dólar e juros caem, mas mercado vê riscos que ameaçam o rali (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/trabuco-na-fazenda-bolsa-sobe-dolar-e-juros-caem-mas-mercado-ve-riscos-que-ameacam-o-rali/
 · AMD Advanced Micro Devices (AMD) After AI Data Center Wins Looks Cheap Or Already Priced In (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/advanced-micro-devices-amd-ai-130859777.html
 · BBDC4 Sucessão de Trabuco no Bradesco seguirá regimento; vice é o próximo na linha (InfoMoney) https://www.infomoney.com.br/brasil/sucessao-de-trabuco-no-bradesco-seguira-regimento-vice-e-o-proximo-na-linha/
-· PLTR Poland signs contract with Palantir worth $300 mln over 5 years (TradingView (Reuters)) https://www.tradingview.com/news/reuters.com,2026:newsml_L5N4780RK:0-poland-signs-contract-with-palantir-worth-300-mln-over-5-years/
-· ALUP4 AXIA3: AXIA Energia assina descruzamento de participações com Alupar (Suno Noticias) https://www.suno.com.br/noticias/axia3-axia-energia-descruzamento-271126/
-· BAC 2027 oil price forecast: Where BofA thinks Brent is headed next (Investing.com) https://www.investing.com/news/commodities-news/2027-oil-price-forecast-where-bofa-thinks-brent-is-headed-next-5053427
-· BTC A 'death cross' in the bitcoin (BTC) price is coming: Crypto Daily (CoinDesk) https://www.coindesk.com/daybook-us/2026/11/27/bitcoin-death-cross-is-coming-here-s-what-happened-after-previous-13
-· BTC Crypto Stocks Gain After Bitcoin Tops $61K In Tech Rebound, But Analysts Want A Move Above $62K (Yahoo Finance) https://news.google.com/rss/articles/CBMinAFBVV95cUxNbkQtQXhFTWg2eWVkNFBLTVRaVUZyZndoTjlnQ2F3OXRLcDlFSVdlY0dxVlJiLWVvYmVHQXBFbWVRZGczYnVKWVJad1BiYU1xU2lJcko0ZzVhU211Nk5qU0dKNHo4dF9GRGpEODFBVnhlOTBkeDlQREhkTzBSUF9PVTVqTEs1YUhvTjFQb3dRV1NvTEZfSlh4TWUxTno?oc=5
-· ITUB4 Trabuco na Fazenda: o que os CEOs do Itaú (ITUB4) e Santander (SANB11) têm a dizer sobre a escolha de Lula? (Money Times) https://news.google.com/rss/articles/CBMi0wFBVV95cUxPTEdJWk4wbXFacmtmZWoyUkFTVDd4czJacDlkRDAyZFJiVUhna0lTYkdZZWNoUGFqR28tRjBRX01WQ29TaHJQZWlrbUV5T2NpcjF4elpHNzVHWVBlQ19NNDRadE5XSDc4MXlMall1WFFpZi1pZjlmcFlEd2wyS3BydC1vWGY0MUZRdmNlQm11Sk9Gb29YbE9HM2FsX1NUTWtaQ1pGYVpYWXQ4MEd2RzF1blFSQzBLbVhJUERjdmhWT0w2YlZnSkxyaEtkaXRzeUJaSnJz?oc=5
-· (+44 manchetes; lista completa em eventos/noticias.json)
+· (+50 manchetes; lista completa em eventos/noticias.json)
