@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 27/11 12h05
+NOTÍCIAS E FATOS · 27/11 14h35
 
-Pernas: noticias ok 12 novas (18 consultas; descartadas: 416 veículo fora da lista, 29 sem ativo, 1 teto); 1 falhas · cvm ok 0 novos de 13 (7 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 14 novas (18 consultas; descartadas: 416 veículo fora da lista, 28 sem ativo, 19 teto) · cvm ok 0 novos de 13 (7 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (4)
 
@@ -55,7 +55,16 @@ Fonte: CVM 26/11
 id: E03-BBAS3-1594275-2026-11-26 · status: linha
 
 
-## NOTÍCIAS COM MATERIALIDADE (5)
+## NOTÍCIAS COM MATERIALIDADE (6)
+
+[ATENÇÃO] E05 · BBAS3 · BBAS3: lucro do BB cai 67,5% no 3T26 e guidance é revisado
+Suno Noticias · 27/11 13h00 · fonte única · licença: resumo
+Link: https://www.suno.com.br/noticias/bbas3-lucro-cai-3t26-guidance-2026-271126/
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: BBAS3
+Como falar: 'saiu no Suno Noticias: BBAS3: lucro do BB cai 67,5% no 3T26 e guidance é revisado; confirmar o número no texto antes de repassar'
+Fonte: Suno Noticias 27/11 13h00
+id: E05-BBAS3-115abfa80d-2026-11-27 · status: pendente
 
 [ATENÇÃO] E05 · PETR4 · Como o plano de US$ 122 bilhões da Petrobras pode afetar os dividendos nos próximos anos
 Estadao · 27/11 09h51 · fonte única · licença: manchete
@@ -64,7 +73,7 @@ Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir
 Ativos: PETR4
 Como falar: 'saiu no Estadao: Como o plano de US$ 122 bilhões da Petrobras pode afetar os dividendos nos próximos anos; confirmar o número no texto antes de repassar'
 Fonte: Estadao 27/11 09h51
-id: E05-PETR4-0c6dc9863a-2026-11-27 · status: pendente
+id: E05-PETR4-0c6dc9863a-2026-11-27 · status: expirado
 
 [ATENÇÃO] E05 · NVDA · Nvidia agrees to $290 million settlement over 2018 crypto mining GPU sales — ends eight-year investor lawsuit without admitting wrongdoing
 Yahoo Finance · 27/11 08h30 · fonte única · licença: resumo
@@ -80,7 +89,7 @@ Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e 
 Ativos: NVDA
 Como falar: 'saiu no Yahoo Finance: Nvidia agrees to $290 million settlement over 2018 crypto mining GPU sales — ends eight-y…; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 27/11 08h30
-id: E05-NVDA-e62eb6fbb0-2026-11-27 · status: pendente
+id: E05-NVDA-e62eb6fbb0-2026-11-27 · status: expirado
 
 [ATENÇÃO] E05 · ITUB4 · Cade aprova sociedade entre Itaú e Klabin em negócio de R$ 1,2 bilhão
 Poder360 · 27/11 09h26 · fonte única · licença: resumo
@@ -124,8 +133,21 @@ Fonte: Estadao 27/11 00h48
 id: E05-PETR4-9c68b29b5f-2026-11-27 · status: expirado
 
 
-## OUTRAS NOTÍCIAS (só manchete) (70)
+## OUTRAS NOTÍCIAS (só manchete) (83)
 
+· BTC How Much Will 1 Bitcoin Be Worth in 2035? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/much-1-bitcoin-worth-2035-171222471.html
+· BTC Gold Suffers Worst 60-Day Loss Since the 1980s. Bitcoin’s Collapse Exposes an Even Bigger Problem. (Yahoo Finance) https://finance.yahoo.com/markets/commodities/articles/gold-suffers-worst-60-day-170525230.html
+· MU Micron: 3.9x Earnings Is Insane (NASDAQ:MU) (Seeking Alpha) https://seekingalpha.com/article/4972595-micron-3-9x-earnings-is-insane
+· BTC Bitcoin price drops below $59K as Anthropic joins tech stock rebound (TradingView (Reuters)) https://www.tradingview.com/news/cointelegraph:456e18aab094b:0-bitcoin-price-drops-below-59k-as-anthropic-joins-tech-stock-rebound/
+· ALUP4 Axia faz acordo com Alupar e deterá linhão Manaus-Boa Vista (CNN Brasil) https://www.cnnbrasil.com.br/infra/axia-faz-acordo-com-alupar-e-detera-linhao-manaus-boa-vista/
+· BTC Bitcoin: Another Chance To Buy At Low Prices (Cryptocurrency:BTC-USD) (Seeking Alpha) https://seekingalpha.com/article/4972592-bitcoin-another-chance-to-buy-at-low-prices
+· SBSP3 Regulador valida R$ 97,8 bilhões em obras da Sabesp e reduz incertezas sobre aumento da conta de água (NeoFeed) https://neofeed.com.br/negocios/regulador-valida-r-978-bilhoes-em-obras-da-sabesp-e-reduz-incertezas-sobre-aumento-da-conta-de-agua/
+· BTC Bitcoin Whales Accumulate $7.4 Billion in BTC, Breaking a Nine-Year Pattern (TradingView (Reuters)) https://www.tradingview.com/news/newsbtc:c0cf24c84094b:0-bitcoin-whales-accumulate-7-4-billion-in-btc-breaking-a-nine-year-pattern/
+· USDBRL Resumão diário #2248: Dólar cai com anúncio de Trabuco à Fazenda; Expectativa de vida sobe no Brasil; Professora morre ao salvar alunos em SC e mais (g1) https://g1.globo.com/podcast/resumao-diario/noticia/2026/11/27/resumao-diario-2248-dolar-cai-com-anuncio-de-trabuco-a-fazenda-expectativa-de-vida-sobe-no-brasil-professora-morre-ao-salvar-alunos-em-sc-e-mais.ghtml
+· NVDA Nvidia Corporation: Strategic AI Technology Front-Runner (NASDAQ:NVDA) (Seeking Alpha) https://seekingalpha.com/article/4972582-nvidia-corporation-strategic-ai-technology-front-runner
+· SBSP3 Sabesp: bancos projetam reajuste tarifário de até 20% e mantêm recomendação de compra (ADVFN) https://br.advfn.com/jornal/2026/11/sabesp-bancos-projetam-reajuste-tarifario-de-ate-20-e-mantem-recomendacao-de-compra
+· BTC Another $453 million exits bitcoin ETFs as November outflows stack up (Yahoo Finance) https://finance.yahoo.com/video/another-453-million-exits-bitcoin-161000343.html
+· USDBRL Boletim UOL em 8: dólar em queda e mulher no STF (UOL Economia) https://news.google.com/rss/articles/CBMizwFBVV95cUxQcEFGSDhROEh1aDIxSGJWdGtmb2E3eHpaVmUzSENBdzVYMHB6blBVUS11UDNMOFZQRnd2QTFtUkxYbUk0NmpwVDBBNG9xMGJTeEFYSEhXRUdfRlp5dDloQTdfYTVlX2x2cnZtQUlmY1psY1dPaF9QZTJHQmJobUpZb1pjdW5pT2Q0dTZoYXYxNlgwSlRNS3c4cVdHRWh5aGZ4QTY1UXFBaHlMZGplYzVVejYzcU1NcXRyX1g2cGZ1YmpjM1g4TE5hdElHZjBEbVU?oc=5
 · COHR Why is Coherent stock surging today? By Investing.com (Investing.com) https://uk.investing.com/news/stock-market-news/why-is-coherent-stock-surging-today-93CH-5006639
 · AXIA3 Axia Energia fecha descruzamento de participações em transmissão por R$ 367,1 mi (UOL Economia) https://economia.uol.com.br/noticias/redacao/2026/11/27/axia-energia-fecha-descruzamento-de-participacoes-em-transmissao-por-r-3671-milhoes.ghtm
 · SBSP3 Sabesp (SBSP3): bancos veem revisão tarifária robusta e projetam reajuste de até 20% (InfoMoney) https://www.infomoney.com.br/mercados/sabesp-sbsp3-bancos-veem-revisao-tarifaria-robusta-e-projetam-reajuste-de-ate-20/
@@ -173,17 +195,4 @@ id: E05-PETR4-9c68b29b5f-2026-11-27 · status: expirado
 · UST U.S. Treasury Yields Rise in Shortened Post-Thanksgiving Trade (The Wall Street Journal) https://www.wsj.com/finance/investing/u-s-treasury-yields-rise-in-shortened-post-thanksgiving-trade-f0822039
 · PLTR A Palantir Co-Founder Bought $122 Million of the Stock on Nov. 20. Here's What I Think of Palantir Stock Now. (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/palantir-co-founder-bought-122-090702978.html
 · BTC Bitcoin defends June low as key support, Glassnode says (TradingView (Reuters)) https://www.tradingview.com/news/cryptobriefing:84ca2a036094b:0-bitcoin-defends-june-low-as-key-support-glassnode-says/
-· KO Price to earnings forward of Coca-Cola Company Shs -CAD hedged- Canadian Depositary Receipt Repr Shs Reg (TradingView (Reuters)) https://www.tradingview.com/symbols/DUS-CCC/financials-statistics-and-ratios/price-earnings-fwd/
-· ETH Ethereum devs schedule Glamsterdam upgrade for Hoodi testnet on Dec. 15 (The Block) https://www.theblock.co/news/ecosystems/2026-11-27-ethereum-devs-schedule-glamsterdam-upgrade-hoodi-447051
-· ETH Ethereum breaks key resistance: is the worst of the sell-off over? (TradingView (Reuters)) https://www.tradingview.com/news/invezz:85649aa4c094b:0-ethereum-breaks-key-resistance-is-the-worst-of-the-sell-off-over/
-· NVDA NVDA: Nvidia Stock Tops $155 as Bargain Hunters Pile In Despite Export Concerns (TradingView (Reuters)) https://www.tradingview.com/news/tradingview:88142b4f2094b:0-nvda-nvidia-stock-tops-155-as-bargain-hunters-pile-in-despite-export-concerns/
-· DI Black Friday com Selic a 13,75%: como não cair em ciladas e evitar dívidas (Exame) https://exame.com/invest/minhas-financas/black-friday-com-selic-a-1375-como-nao-cair-em-ciladas-e-evitar-dividas/
-· MCHI China stocks surge most in two years as Beijing vows stronger market support (Reuters) https://www.reuters.com/markets/europe/china-stocks-shoot-up-after-beijing-vows-support-2026-11-27/
-· NVDA Learn Why The Bull Case For Nvidia Stock Could Change Following CEO Reinstatement (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/learn-why-bull-case-nvidia-051409281.html
-· NVDA Singapore reaches out to local firms amid reports of Nvidia chip shipment halt (South China Morning Post) https://news.google.com/rss/articles/CBMizwFBVV95cUxPNWRzUEs1YmhCTTlUUEkwcXpldHFMWWpPdUxrdEtQR0o0OXN4YTBVMmNDamJ3Y1Q2UTZ4Y2owRnowZ042bTg0VEJwY1pna3daLURsMHFOMkNFUHkwX3dGdXFlNTkwVXJPaGJqcl9mSW5sQnFwMzY0a3JXLVlPUnRQMEIwV1RWR1NIVzB0ZWdKY25WNXNLbHhtNHlzM0ZMQXZFM09xbXRBZUdlZ3hRVUY4MnNuRHRGTjBrVGVxejk5WThiV1JBQVN0SjZmUGVKZ03SAc8BQVVfeXFMTUYzNS1Od3V1UkhMQ2MtWjFGbThFXzg4NXBrTjg0NE9lSGVUZTJwMHB2XzNaOVJvRG9maThuWnRpN3ZpUUswSDh4eXp3OU12cTFVaXdJQ3dPOHc0NUFUQlhOQkdHSEswQVlCSmNMSXhCQ2RxWXRXNk5mVFVRTktXVHRLRm5TZnc4eTVuOFFSOWMxTnBLUVMxSkRPYW1xeG11dUhkZ29RbDBKZEFMQ3lkMzZVOFFwcmFyQ3htb3MzWmZDRWE4Zjg3NGVieXM0WXZB?oc=5
-· JPM Spirit of recovery: JPMorgan sees fresh upside in liquor giant Kweichow Moutai (South China Morning Post) https://news.google.com/rss/articles/CBMizAFBVV95cUxOTEhRcTNPcWNnN2R6aTU0emJWejVfWnB4SW92TF9GY29DUXZqcFJ3SDNyZ19ZdEt0cngwNTdldnJDWGNoMjMtNXlSR1FmVHYyZnZia0ROWm1JYk5xa3J4R28zVUZ0TGZEU0NWckNpaDNBdThuMlM0bTZ6cUl1WkRBMzE0VnR5Zk9YYmVGcXlGVTJSRmE2M1RxVmE3UnZDa0VXX3lWNDQxU1R0TVpzdVhhN3BBdnU3S0JwbFhRbUphOXhCbDA5T3VMdHhLQnA?oc=5
-· NVDA 'Very bullish on ASEAN' despite Nvidia chip export curbs to the region: BNY (CNBC) https://www.cnbc.com/video/2026/11/27/bullish-on-asean-despite-nvidia-chip-export-curbs-to-the-region-bny.html
-· BTC Bitcoin November Price Prediction: Polymarket’s $62,500 Yes Odds Surge 16% (TradingView (Reuters)) https://www.tradingview.com/news/binance_news:8cd606456094b:0-bitcoin-november-price-prediction-polymarket-s-62-500-yes-odds-surge-16/
-· BRENT Brent trades near month's high as Mideast conflict threatens supply (TradingView (Reuters)) https://www.tradingview.com/news/reuters.com,2026:newsml_L2N47800T:0-brent-trades-near-month-s-high-as-mideast-conflict-threatens-supply/
-· BBDC4 Bradesco, de Trabuco, tem 3º maior juro dentre os 5 bancões (Poder360) https://www.poder360.com.br/poder-economia/bradesco-de-trabuco-tem-3o-maior-juro-dentre-os-5-bancoes/
-· (+10 manchetes; lista completa em eventos/noticias.json)
+· (+23 manchetes; lista completa em eventos/noticias.json)
