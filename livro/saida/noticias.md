@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 27/11 15h05
+NOTÍCIAS E FATOS · 27/11 16h05
 
-Pernas: noticias ok 8 novas (18 consultas; descartadas: 420 veículo fora da lista, 29 sem ativo, 0 teto) · cvm ok 0 novos de 13 (7 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 16 novas (18 consultas; descartadas: 429 veículo fora da lista, 30 sem ativo, 5 teto) · cvm ok 0 novos de 13 (7 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (4)
 
@@ -55,7 +55,48 @@ Fonte: CVM 26/11
 id: E03-BBAS3-1594275-2026-11-26 · status: linha
 
 
-## NOTÍCIAS COM MATERIALIDADE (6)
+## NOTÍCIAS COM MATERIALIDADE (9)
+
+[ATENÇÃO] E05 · MELI34 · FII BTLG11 quer investir R$ 798 milhões em galpões com Mercado Livre entre os inquilinos; cotistas decidem
+Money Times · 27/11 15h53 · fonte única · licença: integral
+Do texto:
+  – Pelo termo da consulta, os dois imóveis somam 157,6 mil metros quadrados (m²) de área bruta locável (ABL) e têm o Mercado Livre como principal inquilino.
+  – No empreendimento de Guarulhos, o BTLG11 pretende adquirir uma fração de 86,35%.
+  – Já no ativo de Londrina, a fatia prevista é de 100%.
+  – Além do MELI, o imóvel paranaense também tem a 3Corações e o Magazine Luiza (MGLU3) entre os inquilinos.
+  – Caso a proposta seja aprovada, o prazo estimado para conclusão das diligências, negociação dos documentos definitivos e efetivação da compra é de até 10 meses, contados da aprovação pelos investidores.
+  – O preço de aquisição, de R$ 798,5 milhões, foi estabelecido com base em um cap rate (taxa de capitalização) de 9% ao ano, aplicado sobre a receita mensal de locação projetada de R$ 5,99 milhões.
+Link: https://www.moneytimes.com.br/fii-btlg11-quer-investir-r-798-milhoes-em-galpoes-com-mercado-livre-entre-os-inquilinos-cotistas-decidem-igdl/
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: MELI34
+Como falar: 'saiu no Money Times: FII BTLG11 quer investir R$ 798 milhões em galpões com Mercado Livre entre os inquilinos;…; confirmar o número no texto antes de repassar'
+Fonte: Money Times 27/11 15h53
+id: E05-MELI34-178e46a5b3-2026-11-27 · status: pendente · íntegra disponível
+
+[ATENÇÃO] E05 · AXIA3 · Axia (AXIA3) pode pagar até 15% em dividendos e tem ações descontadas, diz BBI
+InfoMoney · 27/11 15h45 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Publicidade O Bradesco BBI vê uma oportunidade de compra nas ações da Axia Energia (AXIA3), apesar da pressão sobre os resultados no curto prazo provocada pelo volume recorde de chuvas no Brasil.
+  – O banco reconhece que os preços mais baixos da energia devem levar a revisões negativas nas estimativas para o quarto trimestre de 2026 e 2027, mas avalia que a perspectiva de longo prazo continua favorável e que os pap…
+  – Desde o início do ano, as ações da companhia acumulam queda de 3,5%, enquanto o Ibovespa sobe 10% e o índice do setor elétrico (IEE) avança 6%.
+  – A desvalorização reflete o excesso de chuvas, que atingiu cerca de 150% da média histórica e derrubou o preço da energia no mercado à vista para aproximadamente R$ 85 por megawatt-hora (MWh), ante R$ 290/MWh no primeiro…
+  – Com isso, estima Ebitda de R$ 6,1 bilhões para a Axia no quarto trimestre de 2026, 21% abaixo do consenso da Bloomberg.
+  – Para 2027, a projeção é de R$ 30,3 bilhões, 17% inferior às estimativas do mercado.
+Link: https://www.infomoney.com.br/mercados/axia-axia3-pode-pagar-ate-15-em-dividendos-e-tem-acoes-descontadas-diz-bbi/
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: AXIA3
+Como falar: 'saiu no InfoMoney: Axia (AXIA3) pode pagar até 15% em dividendos e tem ações descontadas, diz BBI; confirmar o número no texto antes de repassar'
+Fonte: InfoMoney 27/11 15h45
+id: E05-AXIA3-6aa7123b5d-2026-11-27 · status: pendente
+
+[ATENÇÃO] E05 · JPM · Adidas, Puma stocks fall as JPMorgan downgrades both on 2027 outlook
+TradingView (Reuters) · 27/11 06h46 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/invezz:307252303094b:0-adidas-puma-stocks-fall-as-jpmorgan-downgrades-both-on-2027-outlook/
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: JPM
+Como falar: 'saiu no TradingView (Reuters): Adidas, Puma stocks fall as JPMorgan downgrades both on 2027 outlook; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 27/11 06h46
+id: E05-JPM-1092ad7ca5-2026-11-27 · status: pendente
 
 [ATENÇÃO] E05 · BBAS3 · BBAS3: lucro do BB cai 67,5% no 3T26 e guidance é revisado
 Suno Noticias · 27/11 13h00 · fonte única · licença: resumo
@@ -64,7 +105,7 @@ Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; 
 Ativos: BBAS3
 Como falar: 'saiu no Suno Noticias: BBAS3: lucro do BB cai 67,5% no 3T26 e guidance é revisado; confirmar o número no texto antes de repassar'
 Fonte: Suno Noticias 27/11 13h00
-id: E05-BBAS3-115abfa80d-2026-11-27 · status: pendente
+id: E05-BBAS3-115abfa80d-2026-11-27 · status: expirado
 
 [ATENÇÃO] E05 · PETR4 · Como o plano de US$ 122 bilhões da Petrobras pode afetar os dividendos nos próximos anos
 Estadao · 27/11 09h51 · fonte única · licença: manchete
@@ -133,8 +174,21 @@ Fonte: Estadao 27/11 00h48
 id: E05-PETR4-9c68b29b5f-2026-11-27 · status: expirado
 
 
-## OUTRAS NOTÍCIAS (só manchete) (91)
+## OUTRAS NOTÍCIAS (só manchete) (104)
 
+· BBAS3 FII vende imóvel locado ao Banco do Brasil por R$ 14 milhões; veja lucro (InfoMoney) https://www.infomoney.com.br/onde-investir/fii-vende-imovel-locado-ao-banco-do-brasil-por-r-14-milhoes-veja-lucro/
+· NVDA Nasdaq rises 7% on Thanksgiving week, bolstered by Jensen Huang's return as Nvidia CEO (Seeking Alpha) https://seekingalpha.com/news/4677087-nasdaq-rises-7-on-thanksgiving-week-bolstered-by-jensen-huangs-return-as-nvidia-ceo
+· BTC $7 Billion in Bitcoin Options Just Expired: Here’s What It Means (Yahoo Finance) https://finance.yahoo.com/markets/options/articles/7-billion-bitcoin-options-just-181603422.html
+· BTC CryptoQuant says bitcoin price recovery needs USDT supply growth (The Block) https://www.theblock.co/news/markets/2026-11-27-cryptoquant-bitcoin-price-recovery-usdt-supply-growth-447560
+· GOOGL What Does Alphabet (GOOGL) Need To Prove After The Air Force Cloud Breach? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/does-alphabet-googl-prove-air-181025421.html
+· USDBRL Ibovespa perde fôlego enquanto dólar cai até 3% com anúncio de Trabuco (CNN Brasil) https://www.cnnbrasil.com.br/economia/money/mercado/mercado-financeiro-ibovespa-dolar-27-novembro-2026/
+· USDBRL Dólar chega a ficar abaixo de R$ 5,50, após anúncio de Trabuco para Fazenda (O Globo) https://oglobo.globo.com/economia/noticia/2026/11/27/dolar-e-bolsa-reagem-ao-anuncio-de-trabuco-do-bradesco-no-ministerio-da-fazenda-de-lula-4.ghtml
+· USDBRL Dólar hoje despenca até 4,6% e toca R$ 5,48 com ‘efeito Trabuco’; entenda a reação (Suno Noticias) https://www.suno.com.br/noticias/dolar-hoje-queda-trabuco-fazenda/
+· NVDA Nvidia's server shipment halt amid uncertainty over U.S. export rules (Reuters) https://www.reuters.com/video/watch/idRCV00H0RV/
+· PLTR Palantir’s Polish AI Deal Comes as Peter Thiel Buys Shares and Cathie Wood Sells (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:af990783d094b:0-palantir-s-polish-ai-deal-comes-as-peter-thiel-buys-shares-and-cathie-wood-sells/
+· NVDA Dan Ives Calls Nvidia's China Risk 'Containable', While Gene Munster Says AI Trade Is In The 'Penalty Box' (TradingView (Reuters)) https://news.google.com/rss/articles/CBMi9AFBVV95cUxNYWp6TV9aZEdLNjdzZ2ttQkVvaHpkQjhQTlRxa19oeWJGSy1WUWMtbkVyNjJOaXAybVM3UDRiM09EQWtsWWIwdUQyelBVTmRMNDdMMmQ2Q1gzWGdGaDNheFRBOC1vMnk2eHd3eEh6REFCcUFTYktLZ3F5UTJUcUtiWFd0ZGdKVGxhUTJyZ2hDOF9BX20tWnNTVUVlU1hLRHpjaVpGaWc4QUpfdHphY290cmVMb0ZFTVE4b2NsU0JrNzM2c2ZzV3NMY05NRTFOXzQ5dktmREJ2WlV4NlVSaVViYnZPUUZ3cVJneXBJVWYzUjVXN2tk?oc=5
+· NOK Nokia Oyj (NOK) stock price, news, quote and history (Yahoo Finance) https://news.google.com/rss/articles/CBMiUEFVX3lxTE9zU3FWSmZ3US1ZMzI5TnJET1BPcnhySkJ3N0VtT1JvMWcyd01vR0Q5OXcyTkRuNXpFaHNXRnJwVUpQQUhobXRuREdVaVRFOWZw?oc=5
+· AXIA3 Axia Energia, antiga Eletrobras, aprova resgate de R$ 6 bi de ações preferenciais (UOL Economia) https://news.google.com/rss/articles/CBMiqwFBVV95cUxOU25MdHUzNnM5UEVoLS1ERlhLTTFLWGRSSDk5ZDdKaU1HTHdvNHlIZGNuR1NIdk5nQXZfbktaYnppSTBMUmt2RDgwMVIzMHp3R29UX2xVS2hydzRPQXJBZGs0TWI3cnZZWlFGTjJ3U0VDRVdGMl96ckJaQjFyVzdUU1BjRy1uZmJvV053amIwb1o0c29rNk9yaVpFc05ZWW90amkzcUp1aDNteVnSAa8BQVVfeXFMTnd3ZklxRFd5MXlPeF9wOTdlY01YZ0wxMWVKaDkyMzJtbWFvSEd2SFgxaTc4RHRJUnZWaHdGd2J3RDRaY3ZaeUxKMTY2eDd0MmlFVXdRUGs2dkM5aXdHZ0JBR3VBb0I2bmN3b0NWajNRYW5Xd2JmNWJGS2U0QzVSMW1XYmM5Q1JfdjFiMEljUWJHMmdxdHdhbkpjUVV4YVFLbXpGY0JSNFBnbnM3UlRrQQ?oc=5
 · GOOGL Tech Stock Sell-Off: Down 32%, Is Alphabet a Buy Now? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/tech-stock-sell-off-down-175102945.html
 · MU Micron Faces New AI Memory Threat as Huawei Develops HBM Chip (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:37caf3e53094b:0-micron-faces-new-ai-memory-threat-as-huawei-develops-hbm-chip/
 · NVDA Here’s Why I’d Still Buy Nvidia Over AMD With or Without Jensen Huang at CEO. (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/why-d-still-buy-nvidia-160502455.html
@@ -182,17 +236,4 @@ id: E05-PETR4-9c68b29b5f-2026-11-27 · status: expirado
 · BTC A 'death cross' in the bitcoin (BTC) price is coming: Crypto Daily (CoinDesk) https://www.coindesk.com/daybook-us/2026/11/27/bitcoin-death-cross-is-coming-here-s-what-happened-after-previous-13
 · BTC Crypto Stocks Gain After Bitcoin Tops $61K In Tech Rebound, But Analysts Want A Move Above $62K (Yahoo Finance) https://news.google.com/rss/articles/CBMinAFBVV95cUxNbkQtQXhFTWg2eWVkNFBLTVRaVUZyZndoTjlnQ2F3OXRLcDlFSVdlY0dxVlJiLWVvYmVHQXBFbWVRZGczYnVKWVJad1BiYU1xU2lJcko0ZzVhU211Nk5qU0dKNHo4dF9GRGpEODFBVnhlOTBkeDlQREhkTzBSUF9PVTVqTEs1YUhvTjFQb3dRV1NvTEZfSlh4TWUxTno?oc=5
 · ITUB4 Trabuco na Fazenda: o que os CEOs do Itaú (ITUB4) e Santander (SANB11) têm a dizer sobre a escolha de Lula? (Money Times) https://news.google.com/rss/articles/CBMi0wFBVV95cUxPTEdJWk4wbXFacmtmZWoyUkFTVDd4czJacDlkRDAyZFJiVUhna0lTYkdZZWNoUGFqR28tRjBRX01WQ29TaHJQZWlrbUV5T2NpcjF4elpHNzVHWVBlQ19NNDRadE5XSDc4MXlMall1WFFpZi1pZjlmcFlEd2wyS3BydC1vWGY0MUZRdmNlQm11Sk9Gb29YbE9HM2FsX1NUTWtaQ1pGYVpYWXQ4MEd2RzF1blFSQzBLbVhJUERjdmhWT0w2YlZnSkxyaEtkaXRzeUJaSnJz?oc=5
-· ALUP4 ELET3: AXIA Energia assina descruzamento de participações com Alupar (Suno Noticias) https://www.suno.com.br/noticias/elet3-axia-energia-descruzamento-271126/
-· NVDA Nvidia Blackwell chips found in Shanghai data center tied to Alice Huang (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/nvidia-blackwell-chips-found-shanghai-124008621.html
-· JPM JPMorgan, BofA, Citigroup issue same red alert over US bank accounts — official policy changes shift liability to you (Yahoo Finance) https://finance.yahoo.com/markets/currencies/articles/jpmorgan-bofa-citigroup-issue-same-123000336.html
-· USDBRL Ibovespa Hoje Ao Vivo: Confira o que movimenta Bolsa, Dólar e Juros nesta sexta (InfoMoney) https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-27112026/
-· USDBRL Dólar desaba 3,5%, a R$ 5,54, com confirmação de Trabuco na Fazenda (UOL Economia) https://economia.uol.com.br/cotacoes/noticias/redacao/2026/11/27/dolar-bolsa-abertura-27-novembro-2026.ghtm
-· USDBRL Dólar abre em queda de quase 4% e atinge R$ 5,52 após confirmação de Trabuco na Fazenda (Folha de S.Paulo) https://www1.folha.uol.com.br/mercado/2026/11/dolar-abre-em-queda-de-quase-4-e-atinge-r-552-apos-confirmacao-de-trabuco-na-fazenda.shtml
-· BTC Crypto Stocks Gain After Bitcoin Tops $61K In Tech Rebound, But Analysts Want A Move Above $62K (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:6a6dc5cc9094b:0-crypto-stocks-gain-after-bitcoin-tops-61k-in-tech-rebound-but-analysts-want-a-move-above-62k/
-· USDBRL Dólar despenca na abertura e vai a R$ 5,53 com nomeação de Luiz Trabuco para a Fazenda no foco (g1) https://g1.globo.com/economia/noticia/2026/11/27/dolar-ibovespa.ghtml
-· INTC Why Is Intel Stock Rallying Today? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/why-intel-stock-rallying-today-115408294.html
-· MRVL Why Is Marvell Technology Stock Surging Today? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/why-marvell-technology-stock-surging-115215377.html
-· NVDA How Much Of Big Tech's AI Spending Reaches Nvidia? (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/much-big-techs-ai-spending-114838633.html
-· AMD AMD Stock Gets A Downgrade From Erste Group – Analyst Flags Valuation Concerns, Low Potential For Share Gains (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:3058e9d5e094b:0-amd-stock-gets-a-downgrade-from-erste-group-analyst-flags-valuation-concerns-low-potential-for-share-gains/
-· BBAS3 Fundo imobiliário vende agência do Banco do Brasil (BBAS3) por R$ 14 milhões; veja lucro por cota (Money Times) https://www.moneytimes.com.br/fundo-imobiliario-vende-agencia-do-banco-do-brasil-bbas3-por-r-14-milhoes-veja-lucro-por-cota-igdl/
-· (+31 manchetes; lista completa em eventos/noticias.json)
+· (+44 manchetes; lista completa em eventos/noticias.json)
