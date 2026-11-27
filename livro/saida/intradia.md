@@ -41,7 +41,7 @@ Como falar: 'saiu no TradingView (Reuters): Adidas, Puma stocks fall as JPMorgan
 Fonte: TradingView (Reuters) 27/11 06h46
 ids: E05-JPM-1092ad7ca5-2026-11-27
 
-[ATENÇÃO] E05 · BBAS3 · Quando o Banco do Brasil (BBAS3) paga dividendos? Veja o calendário
+(pendente de slot anterior) [ATENÇÃO] E05 · BBAS3 · Quando o Banco do Brasil (BBAS3) paga dividendos? Veja o calendário
 Suno Noticias · 27/11 16h46 · fonte única · licença: resumo
 Trechos (licença resumo: reescrever, não colar):
   – Mercado Quando o Banco do Brasil (BBAS3) paga dividendos?
@@ -55,10 +55,9 @@ Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir
 Ativos: BBAS3
 Como falar: 'saiu no Suno Noticias: Quando o Banco do Brasil (BBAS3) paga dividendos? Veja o calendário; confirmar o número no texto antes de repassar'
 Fonte: Suno Noticias 27/11 16h46
-Push: intradia: 2 alertas de atenção — E05 BBAS3, E05 AMZN · detalhe na sessão
 ids: E05-BBAS3-26fdcc2b4e-2026-11-27
 
-[ATENÇÃO] E05 · AMZN · Amazon’s AWS Profit Rose 55%. Can It Absorb a $220 Billion Capex Bill?
+(pendente de slot anterior) [ATENÇÃO] E05 · AMZN · Amazon’s AWS Profit Rose 55%. Can It Absorb a $220 Billion Capex Bill?
 Yahoo Finance · 27/11 16h18 · fonte única · licença: resumo
 Trechos (licença resumo: reescrever, não colar):
   – We recently published 10 Stocks That Should Double in 3 Years, where Amazon.com, Inc. (NASDAQ:AMZN) took the 10th spot.
@@ -75,21 +74,17 @@ Fonte: Yahoo Finance 27/11 16h18
 ids: E05-AMZN-22135a22c4-2026-11-27
 
 Info (só linha no Fechamento):
-· E05 ITUB4 · Auren Energia colhe ganhos acima do esperado com aquisição bilionária, aponta Itaú BBA
-· E05 NVDA · Nvidia Blackwell Chips Turn Up at China Site Tied to Alice Huang
-· E05 BBAS3 · O que a CEO do Banco do Brasil (BBAS3) disse sobre Trabuco após escolha para a Fazenda
-· E05 PLTR · PLTR Stock Sees Best Week In 4 Months: Palantir Bags Reported $300M Defense Deal With Poland
-· E05 MRVL · MRVL to Post Q3 Earnings: Time to Buy, Sell or Hold the Stock?
-· E05 BBAS3 · Depois da renovação, a separação: FII embolsa R$ 14 milhões com venda de agência do Banco do Brasil (BBAS3)
+· E05 NVDA · Nvidia: If You Didn't Sell Before The Jensen Huang Drama, It's Too Late Now (NASDAQ:NVDA)
+· E05 ALUP4 · Axia tem espaço para novas trocas de ativos após acordo com Alupar
 
 
 Alertas do dia (todos, com status):
-· expirado  F01 USDBRL — Real sobe: USD/BRL 5,5147 (-4,0% no dia · -7,3% em 5 sessões · 17 dias seguidos 
+· expirado  F01 USDBRL — Real sobe: USD/BRL 5,5142 (-4,0% no dia · -7,3% em 5 sessões · 18 dias seguidos 
 · pendente  E05 BBAS3 — BBAS3 · Quando o Banco do Brasil (BBAS3) paga dividendos? Veja o calendário
 · pendente  E05 AMZN — AMZN · Amazon’s AWS Profit Rose 55%. Can It Absorb a $220 Billion Capex Bill?
-· pendente  E05 MELI34 — MELI34 · FII BTLG11 quer investir R$ 798 milhões em galpões com Mercado Livre en
-· pendente  E05 AXIA3 — AXIA3 · Axia (AXIA3) pode pagar até 15% em dividendos e tem ações descontadas, d
-· pendente  E05 JPM — JPM · Adidas, Puma stocks fall as JPMorgan downgrades both on 2027 outlook
+· expirado  E05 MELI34 — MELI34 · FII BTLG11 quer investir R$ 798 milhões em galpões com Mercado Livre en
+· expirado  E05 AXIA3 — AXIA3 · Axia (AXIA3) pode pagar até 15% em dividendos e tem ações descontadas, d
+· expirado  E05 JPM — JPM · Adidas, Puma stocks fall as JPMorgan downgrades both on 2027 outlook
 · expirado  E05 BBAS3 — BBAS3 · BBAS3: lucro do BB cai 67,5% no 3T26 e guidance é revisado
 · expirado  E05 PETR4 — PETR4 · Como o plano de US$ 122 bilhões da Petrobras pode afetar os dividendos n
 · expirado  E05 NVDA — NVDA · Nvidia agrees to $290 million settlement over 2018 crypto mining GPU sale
@@ -100,5 +95,5 @@ Alertas do dia (todos, com status):
 · expirado  E05 PETR4 — PETR4 · Por que o plano de investimento de US$ 122 bilhões da Petrobras recebeu 
 · expirado  E03 BBDC4 — BBDC4 · Fato Relevante: Página 1 de 1 Banco Bradesco S.A. o O Banco Bradesco S.A
 · linha     F05 BHKP — Celulose (proxy SHFE, fibra longa) +3,2% na semana: 4.714 CNY/t (27/11)
-· (+111 notícias só manchete, em noticias.md)
+· (+113 notícias só manchete, em noticias.md)
 

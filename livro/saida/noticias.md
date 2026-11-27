@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 27/11 16h57
+NOTÍCIAS E FATOS · 27/11 17h05
 
-Pernas: noticias ok 8 novas (18 consultas; descartadas: 422 veículo fora da lista, 30 sem ativo, 0 teto) · cvm ok 0 novos de 13 (7 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 2 novas (18 consultas; descartadas: 345 veículo fora da lista, 24 sem ativo, 0 teto); 3 falhas · cvm ok 0 novos de 13 (7 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (4)
 
@@ -103,7 +103,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: MELI34
 Como falar: 'saiu no Money Times: FII BTLG11 quer investir R$ 798 milhões em galpões com Mercado Livre entre os inquilinos;…; confirmar o número no texto antes de repassar'
 Fonte: Money Times 27/11 15h53
-id: E05-MELI34-178e46a5b3-2026-11-27 · status: pendente · íntegra disponível
+id: E05-MELI34-178e46a5b3-2026-11-27 · status: expirado · íntegra disponível
 
 [ATENÇÃO] E05 · AXIA3 · Axia (AXIA3) pode pagar até 15% em dividendos e tem ações descontadas, diz BBI
 InfoMoney · 27/11 15h45 · fonte única · licença: resumo
@@ -119,7 +119,7 @@ Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir
 Ativos: AXIA3
 Como falar: 'saiu no InfoMoney: Axia (AXIA3) pode pagar até 15% em dividendos e tem ações descontadas, diz BBI; confirmar o número no texto antes de repassar'
 Fonte: InfoMoney 27/11 15h45
-id: E05-AXIA3-6aa7123b5d-2026-11-27 · status: pendente
+id: E05-AXIA3-6aa7123b5d-2026-11-27 · status: expirado
 
 [ATENÇÃO] E05 · JPM · Adidas, Puma stocks fall as JPMorgan downgrades both on 2027 outlook
 TradingView (Reuters) · 27/11 06h46 · fonte única · licença: manchete
@@ -128,7 +128,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: JPM
 Como falar: 'saiu no TradingView (Reuters): Adidas, Puma stocks fall as JPMorgan downgrades both on 2027 outlook; confirmar o número no texto antes de repassar'
 Fonte: TradingView (Reuters) 27/11 06h46
-id: E05-JPM-1092ad7ca5-2026-11-27 · status: pendente
+id: E05-JPM-1092ad7ca5-2026-11-27 · status: expirado
 
 [ATENÇÃO] E05 · BBAS3 · BBAS3: lucro do BB cai 67,5% no 3T26 e guidance é revisado
 Suno Noticias · 27/11 13h00 · fonte única · licença: resumo
@@ -206,8 +206,10 @@ Fonte: Estadao 27/11 00h48
 id: E05-PETR4-9c68b29b5f-2026-11-27 · status: expirado
 
 
-## OUTRAS NOTÍCIAS (só manchete) (110)
+## OUTRAS NOTÍCIAS (só manchete) (112)
 
+· NVDA Nvidia: If You Didn't Sell Before The Jensen Huang Drama, It's Too Late Now (NASDAQ:NVDA) (Seeking Alpha) https://seekingalpha.com/article/4972640-nvidia-if-you-didnt-sell-before-the-jensen-huang-drama-its-too-late-now?source=feed_symbol_NVDA
+· ALUP4 Axia tem espaço para novas trocas de ativos após acordo com Alupar (Valor Economico) https://valor.globo.com/empresas/noticia/2026/11/27/axia-tem-espao-para-novas-trocas-de-ativos-aps-acordo-com-alupar.ghtml
 · ITUB4 Auren Energia colhe ganhos acima do esperado com aquisição bilionária, aponta Itaú BBA (Estadao) https://www.estadao.com.br/em-alta/einvestidor/cenarios-e-mercado/auren-energia-colhe-ganhos-acima-do-esperado-com-aquisicao-bilionaria-aponta-itau-bba/
 · NVDA Nvidia Blackwell Chips Turn Up at China Site Tied to Alice Huang (Bloomberg) https://www.bloomberg.com/news/articles/2026-11-27/nvidia-blackwell-chips-turn-up-at-china-site-tied-to-alice-huang
 · BBAS3 O que a CEO do Banco do Brasil (BBAS3) disse sobre Trabuco após escolha para a Fazenda (Money Times) https://www.moneytimes.com.br/o-que-a-ceo-do-banco-do-brasil-bbas3-disse-sobre-trabuco-apos-escolha-para-a-fazenda-miql/
@@ -266,6 +268,4 @@ id: E05-PETR4-9c68b29b5f-2026-11-27 · status: expirado
 · GOOGL LigaData Brings Data Flare and Barq to Google Cloud Marketplace (PR Newswire) https://www.prnewswire.com/news-releases/ligadata-brings-data-flare-and-barq-to-google-cloud-marketplace-302950709.html
 · USDBRL Dólar cai abaixo de R$ 5,50 com 'efeito Trabuco': é hora de comprar? (Exame) https://exame.com/invest/mercados/dolar-cai-abaixo-de-r-550-com-efeito-trabuco-e-hora-de-comprar/
 · USDBRL Trabuco na Fazenda: Bolsa sobe, dólar e juros caem, mas mercado vê riscos que ameaçam o rali (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/trabuco-na-fazenda-bolsa-sobe-dolar-e-juros-caem-mas-mercado-ve-riscos-que-ameacam-o-rali/
-· AMD Advanced Micro Devices (AMD) After AI Data Center Wins Looks Cheap Or Already Priced In (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/advanced-micro-devices-amd-ai-130859777.html
-· BBDC4 Sucessão de Trabuco no Bradesco seguirá regimento; vice é o próximo na linha (InfoMoney) https://www.infomoney.com.br/brasil/sucessao-de-trabuco-no-bradesco-seguira-regimento-vice-e-o-proximo-na-linha/
-· (+50 manchetes; lista completa em eventos/noticias.json)
+· (+52 manchetes; lista completa em eventos/noticias.json)
