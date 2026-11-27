@@ -1,4 +1,4 @@
-ALERTAS · Fechamento 18h
+ALERTAS · Manhã 08h30
 
 (pendente de slot anterior) [CRÍTICO] CURVA · C01 A curva FECHOU: F28 4 pregões seguidos (-64 bps) · F29 -25 bps no dia · F29 -48 bps em 5 pregões (ajuste B3 26/11) / C04 IPCA+ 2040 volta abaixo de 7,50% real: 7,41% (-13 bps), base 26/11 / C04 IPCA+ 2050 volta abaixo de 7,50% real: 7,43% (-14 bps), base 26/11
 DI F28 14,18 (-11) · F29 14,45 (-25) · F30 14,58 (-29) · F32 14,70 (-32) · F35 14,78 (-30)
@@ -40,26 +40,6 @@ Como falar: 'alta fora do padrão; costuma vir de notícia ou de fluxo, e parte 
 Fonte: Yahoo Finance fech. 26/11
 ids: T05-EQTL3-alta-2026-11-26, T05-ITUB4-alta-2026-11-26, T05-BBDC4-alta-2026-11-26, T05-UGPA3-alta-2026-11-26, T05-ITSA4-alta-2026-11-26, T05-BBAS3-alta-2026-11-26, T05-SMAL11-alta-2026-11-26, T05-MRVE3-alta-2026-11-26
 
-(pendente de slot anterior) [ATENÇÃO] E03 · SBSP3 · Fato Relevante: A Companhia de Saneamento Básico do Estado de São Paulo – Sabesp (“Companhia”), em atendimento às disposições da Resolução da Comissão de Valores Mob…
-CVM · entregue 26/11/2026 18:00
-Do documento:
-  – São Paulo, 26 de novembro de 2026.
-Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1594223
-Por que importa: fato relevante e o que a propria companhia julga capaz de mover o preco; ler o documento inteiro antes de comentar
-Ativos: SBSP3
-Como falar: 'a Sabesp publicou fato relevante sobre A Companhia de Saneamento Básico do Estado de São Paulo – Sabesp (“Co…'
-Fonte: CVM 26/11
-ids: E03-SBSP3-1594223-2026-11-26
-
-(pendente de slot anterior) [ATENÇÃO] E05 · BTC · Michael Saylor’s Net Worth Plunges $6 Billion: The Cost of His Bitcoin Bet
-TradingView (Reuters) · 26/11 17h14 · fonte única · licença: manchete
-Link: https://www.tradingview.com/news/newsbtc:d55509b91094b:0-michael-saylor-s-net-worth-plunges-6-billion-the-cost-of-his-bitcoin-bet/
-Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
-Ativos: BTC
-Como falar: 'saiu no TradingView (Reuters): Michael Saylor’s Net Worth Plunges $6 Billion: The Cost of His Bitcoin Bet; confirmar o número no texto antes de repassar'
-Fonte: TradingView (Reuters) 26/11 17h14
-ids: E05-BTC-455d60ba41-2026-11-26
-
 (pendente de slot anterior) [ATENÇÃO] E03 · AXIA3 · Fato Relevante: O seu Conselho de Administração aprovou, nesta data, o resgate de 129.982.668 ações preferenciais classe “C” (“PNC”), equivalente a R$ 6,0 bilhões e…
 CVM · entregue 26/11/2026 19:15
 Do documento:
@@ -76,57 +56,81 @@ Como falar: 'a Axia Energia publicou fato relevante sobre O seu Conselho de Admi
 Fonte: CVM 26/11
 ids: E03-AXIA3-1594260-2026-11-26
 
-[ATENÇÃO] E03 · BBDC4 · Fato Relevante: Página 1 de 1 Banco Bradesco S.A. o O Banco Bradesco S.A. (“Bradesco”), em cumprimento ao disposto na Resolução CVM nº 44/2021, comunica aos seus aci…
+(pendente de slot anterior) [ATENÇÃO] E03 · BBDC4 · Fato Relevante: Página 1 de 1 Banco Bradesco S.A. o O Banco Bradesco S.A. (“Bradesco”), em cumprimento ao disposto na Resolução CVM nº 44/2021, comunica aos seus aci…
 CVM · entregue 26/11/2026 23:47
 Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1594285
 Por que importa: fato relevante e o que a propria companhia julga capaz de mover o preco; ler o documento inteiro antes de comentar
 Ativos: BBDC4
 Como falar: 'a Bradesco publicou fato relevante sobre Página 1 de 1 Banco Bradesco S.A. o O Banco Bradesco S.A. (“Bradesco”…'
 Fonte: CVM 26/11
-Push: [ATENÇÃO] BBDC4 · Fato Relevante · detalhe na sessão
 ids: E03-BBDC4-1594285-2026-11-26
 
-Info (só linha no Fechamento):
-· F05 Celulose (proxy SHFE, fibra longa) +3,2% na semana: 4.714 CNY/t (27/11)
-· E03 BBAS3 · Comunicado ao Mercado: Esclarecimentos sobre questionamentos da CVM/B3
-· E05 NVDA · 'Very bullish on ASEAN' despite Nvidia chip export curbs to the region: BNY
-· E05 BTC · Bitcoin November Price Prediction: Polymarket’s $62,500 Yes Odds Surge 16%
-· E05 BRENT · Brent trades near month's high as Mideast conflict threatens supply
-· E05 BBDC4 · Bradesco, de Trabuco, tem 3º maior juro dentre os 5 bancões
-· E05 ITUB4 · CEOs do Itaú e do Santander parabenizam Trabuco pela indicação ao Ministério da Fazenda
-· E05 USDBRL · Bolsa sobe 6% e tem maior alta desde o 1º turno; dólar cai a R$ 5,74
-· E05 BBDC4 · Luiz Carlos Trabuco, do Bradesco, aceita convite de Lula para assumir Ministério da Fazenda
-· E05 MU · Why It’s Hard to Write Off Micron (MU) Even with a Memory Peak in Sight
-· E05 MINERIO · Planet One leads $933M plan for Senegal iron ore
-· E05 BTC · Bitcoin’s Price Every Thanksgiving Since 2013
-· E05 BBDC4 · A Caixa que se cuide: Bradesco (BBDC4) e Santander (SANB11) avaliam entrar na disputa pelo Minha Casa Minha Vida
-· E05 BRENT · Brent settles higher as mine strikes, refinery attack stoke Middle East supply concerns
-· E05 JPM · JPMorgan Funds - US Value Fund (JR6U.F) latest stock news and headlines
-· E05 NVDA · Nvidia Just Revealed a Major $19 Billion Vote of Confidence in Intel Stock
-· T06 BBAS3 +17% em 5 sessões a R$ 16,54: movimento de 2,6 desvios para a vol de 20 dias
+[ATENÇÃO] E05 · NVDA · Nvidia Forecast $130 Billion in Revenue and Added $150 Billion to Its Buyback. Should You Buy the Stock?
+Yahoo Finance · 27/11 07h20 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Nvidia Forecast $130 Billion in Revenue and Added $150 Billion to Its Buyback.
+  – It's entirely possible that all of this turns out to be nothing and Nvidia is slapped with a couple-billion-dollar fine that it easily pays and moves on with.
+  – In 2009, a "Double Down" signal flashed for a little-known chipmaker called Nvidia.
+  – For the first time in years, that same "Total Conviction" signal is flashing for a company 1/100th the size of Nvidia.
+  – Nvidia will end the year on a high note In Q3, Nvidia's revenue rose an impressive 103% year over year to $116 billion.
+  – Few companies ever double their revenue year over year, and even fewer ever cross the $100 billion revenue mark.
+Link: https://finance.yahoo.com/markets/stocks/articles/nvidia-forecast-130-billion-revenue-102002373.html
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: NVDA
+Como falar: 'saiu no Yahoo Finance: Nvidia Forecast $130 Billion in Revenue and Added $150 Billion to Its Buyback. Should You…; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 27/11 07h20
+Push: Manhã 08h30: 2 alertas de atenção — E05 NVDA, E05 PETR4 · detalhe na sessão
+ids: E05-NVDA-20a943c28a-2026-11-27
 
-Suprimidos pelo teto (viram linha do Fechamento): T06-BBAS3-alta-2026-11-26 (teto de atenção)
+[ATENÇÃO] E05 · PETR4 · Por que o plano de investimento de US$ 122 bilhões da Petrobras recebeu avaliação negativa do Citi
+Estadao · 27/11 00h48 · fonte única · licença: manchete
+Link: https://www.estadao.com.br/em-alta/einvestidor/cenarios-e-mercado/por-que-o-plano-de-investimento-de-us-122-bilhoes-da-petrobras-recebeu-avaliacao-negativa-do-citi/
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: PETR4
+Como falar: 'saiu no Estadao: Por que o plano de investimento de US$ 122 bilhões da Petrobras recebeu avaliação negativ…; confirmar o número no texto antes de repassar'
+Fonte: Estadao 27/11 00h48
+ids: E05-PETR4-9c68b29b5f-2026-11-27
+
+Info (só linha no Fechamento):
+· E05 BTC · Bitcoin News Today: BTC Rebounds 8% – Is The Worst Over for Bitcoin Holders?
+· E05 SBSP3 · Sabesp diz que Arsesp aprova base de ativos 11% maior para 2025
+· E05 MU · Micron: The Selloff Creates A Compelling Value Opportunity(NASDAQ:MU)
+· E05 UST · U.S. Treasury Yields Rise in Shortened Post-Thanksgiving Trade
+· E05 PLTR · A Palantir Co-Founder Bought $122 Million of the Stock on Nov. 20. Here's What I Think of Palantir Stock Now.
+· E05 BTC · Bitcoin defends June low as key support, Glassnode says
+· E05 KO · Price to earnings forward of Coca-Cola Company Shs -CAD hedged- Canadian Depositary Receipt Repr Shs Reg
+· E05 ETH · Ethereum devs schedule Glamsterdam upgrade for Hoodi testnet on Dec. 15
+· E05 ETH · Ethereum breaks key resistance: is the worst of the sell-off over?
+· E05 NVDA · NVDA: Nvidia Stock Tops $155 as Bargain Hunters Pile In Despite Export Concerns
+· E05 DI · Black Friday com Selic a 13,75%: como não cair em ciladas e evitar dívidas
+· E05 MCHI · China stocks surge most in two years as Beijing vows stronger market support
+· E05 NVDA · Learn Why The Bull Case For Nvidia Stock Could Change Following CEO Reinstatement
+· E05 NVDA · Singapore reaches out to local firms amid reports of Nvidia chip shipment halt
+· E05 JPM · Spirit of recovery: JPMorgan sees fresh upside in liquor giant Kweichow Moutai
+
 
 Alertas do dia (todos, com status):
-· pendente  C01 DI — A curva FECHOU: F28 4 pregões seguidos (-64 bps) · F29 -25 bps no dia · F29 -48 
-· pendente  C05 TESOURO — Pre 2029 FECHA 42 bps (PU +0,8%) · Pre 2032 FECHA 45 bps (PU +2,1%) (base 26/11)
-· pendente  T05 BBDC4 — BBDC4 +12% no dia a R$ 15,83: movimento de 4,0 desvios para uma vol de 20 dias d
-· pendente  T05 BBAS3 — BBAS3 +13% no dia a R$ 16,54: movimento de 4,4 desvios para uma vol de 20 dias d
-· pendente  T05 MRVE3 — MRVE3 +15% no dia a R$ 5,33: movimento de 3,1 desvios para uma vol de 20 dias de
+· expirado  C01 DI — A curva FECHOU: F28 4 pregões seguidos (-64 bps) · F29 -25 bps no dia · F29 -48 
+· expirado  C05 TESOURO — Pre 2029 FECHA 42 bps (PU +0,8%) · Pre 2032 FECHA 45 bps (PU +2,1%) (base 26/11)
+· expirado  T05 BBDC4 — BBDC4 +12% no dia a R$ 15,83: movimento de 4,0 desvios para uma vol de 20 dias d
+· expirado  T05 BBAS3 — BBAS3 +13% no dia a R$ 16,54: movimento de 4,4 desvios para uma vol de 20 dias d
+· expirado  T05 MRVE3 — MRVE3 +15% no dia a R$ 5,33: movimento de 3,1 desvios para uma vol de 20 dias de
+· pendente  E05 NVDA — NVDA · Nvidia Forecast $130 Billion in Revenue and Added $150 Billion to Its Buy
+· pendente  E05 PETR4 — PETR4 · Por que o plano de investimento de US$ 122 bilhões da Petrobras recebeu 
 · pendente  E03 BBDC4 — BBDC4 · Fato Relevante: Página 1 de 1 Banco Bradesco S.A. o O Banco Bradesco S.A
-· pendente  C04 IPCA2040 — IPCA+ 2040 volta abaixo de 7,50% real: 7,41% (-13 bps), base 26/11
-· pendente  C04 IPCA2050 — IPCA+ 2050 volta abaixo de 7,50% real: 7,43% (-14 bps), base 26/11
-· pendente  C02 DI — Inclinação da curva DI: F35-F28 -20 bps no dia: bull flattening (longo fechou ma
-· pendente  C03 DI — DI em nível: F29 cruzou 14,50% (para baixo, agora 14,45%) · F32 cruzou 15,00% (p
-· pendente  C03 TESOURO — Prefixado em nível: Pre 2029 cruzou 14,50% (agora 14,47%) · Pre 2032 cruzou 15,0
-· pendente  C06 TESOURO — Inflação implícita: implícita 2029 cruzou 7,00% · implícita 2032 -38 bps na sema
-· pendente  T05 EQTL3 — EQTL3 +8,2% no dia a R$ 37,73: movimento de 3,5 desvios para uma vol de 20 dias 
-· pendente  T05 ITUB4 — ITUB4 +6,4% no dia a R$ 42,56: movimento de 3,7 desvios para uma vol de 20 dias 
-· pendente  T05 UGPA3 — UGPA3 +6,7% no dia a R$ 32,92: movimento de 3,1 desvios para uma vol de 20 dias 
-· pendente  T05 ITSA4 — ITSA4 +6,9% no dia a R$ 13,99: movimento de 3,8 desvios para uma vol de 20 dias 
-· pendente  T05 SMAL11 — SMAL11 +7,4% no dia a R$ 108,00: movimento de 3,5 desvios para uma vol de 20 dia
+· expirado  C04 IPCA2040 — IPCA+ 2040 volta abaixo de 7,50% real: 7,41% (-13 bps), base 26/11
+· expirado  C04 IPCA2050 — IPCA+ 2050 volta abaixo de 7,50% real: 7,43% (-14 bps), base 26/11
+· expirado  C02 DI — Inclinação da curva DI: F35-F28 -20 bps no dia: bull flattening (longo fechou ma
+· expirado  C03 DI — DI em nível: F29 cruzou 14,50% (para baixo, agora 14,45%) · F32 cruzou 15,00% (p
+· expirado  C03 TESOURO — Prefixado em nível: Pre 2029 cruzou 14,50% (agora 14,47%) · Pre 2032 cruzou 15,0
+· expirado  C06 TESOURO — Inflação implícita: implícita 2029 cruzou 7,00% · implícita 2032 -38 bps na sema
+· expirado  T05 EQTL3 — EQTL3 +8,2% no dia a R$ 37,73: movimento de 3,5 desvios para uma vol de 20 dias 
+· expirado  T05 ITUB4 — ITUB4 +6,4% no dia a R$ 42,56: movimento de 3,7 desvios para uma vol de 20 dias 
+· expirado  T05 UGPA3 — UGPA3 +6,7% no dia a R$ 32,92: movimento de 3,1 desvios para uma vol de 20 dias 
+· expirado  T05 ITSA4 — ITSA4 +6,9% no dia a R$ 13,99: movimento de 3,8 desvios para uma vol de 20 dias 
+· expirado  T05 SMAL11 — SMAL11 +7,4% no dia a R$ 108,00: movimento de 3,5 desvios para uma vol de 20 dia
 · linha     T06 BBAS3 — BBAS3 +17% em 5 sessões a R$ 16,54: movimento de 2,6 desvios para a vol de 20 di
-· pendente  E03 AXIA3 — AXIA3 · Fato Relevante: O seu Conselho de Administração aprovou, nesta data, o r
+· expirado  E03 AXIA3 — AXIA3 · Fato Relevante: O seu Conselho de Administração aprovou, nesta data, o r
 · expirado  E03 SBSP3 — SBSP3 · Fato Relevante: A Companhia de Saneamento Básico do Estado de São Paulo 
 · expirado  E05 BTC — BTC · Michael Saylor’s Net Worth Plunges $6 Billion: The Cost of His Bitcoin Bet
 · expirado  E05 BTC — BTC · YieldMax Bitcoin Option Income Strategy ETF declares $0.1135 dividend
@@ -140,4 +144,4 @@ Alertas do dia (todos, com status):
 · linha     T01 SBSP3 — SBSP3 retomou a média de 200 dias pela 2ª sessão: R$ 30,35 vs MM200 R$ 28,21 (+7
 · linha     T02 ALUP4 — ALUP4 retomou a MM50 e retomou a MM100 pela 2ª sessão: R$ 11,28, acima da MM200 
 · linha     F01 USDBRL — Real sobe: USD/BRL 5,7424 (-3,2% em 5 sessões · 10 dias seguidos de movimento do
-· (+147 notícias só manchete, em noticias.md)
+· (+162 notícias só manchete, em noticias.md)

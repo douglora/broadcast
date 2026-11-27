@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 27/11 00h35
+NOTÍCIAS E FATOS · 27/11 08h20
 
-Pernas: noticias ok 14 novas (18 consultas; descartadas: 422 veículo fora da lista, 45 sem ativo, 3 teto) · cvm ok 2 novos de 11 (6 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 17 novas (18 consultas; descartadas: 460 veículo fora da lista, 51 sem ativo, 12 teto) · cvm ok 0 novos de 11 (6 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (6)
 
@@ -27,7 +27,7 @@ Por que importa: fato relevante e o que a propria companhia julga capaz de mover
 Ativos: AXIA3
 Como falar: 'a Axia Energia publicou fato relevante sobre O seu Conselho de Administração aprovou, nesta data, o resgate de 129…'
 Fonte: CVM 26/11
-id: E03-AXIA3-1594260-2026-11-26 · status: pendente · íntegra disponível
+id: E03-AXIA3-1594260-2026-11-26 · status: expirado · íntegra disponível
 
 [ATENÇÃO] E03 · SBSP3 · Fato Relevante: A Companhia de Saneamento Básico do Estado de São Paulo – Sabesp (“Companhia”), em atendimento às disposições da Resolução da Comissão de Valores Mob…
 CVM · entregue 26/11/2026 18:00
@@ -68,7 +68,32 @@ Fonte: CVM 26/11
 id: E03-BBAS3-1594121-2026-11-26 · status: linha
 
 
-## NOTÍCIAS COM MATERIALIDADE (6)
+## NOTÍCIAS COM MATERIALIDADE (8)
+
+[ATENÇÃO] E05 · NVDA · Nvidia Forecast $130 Billion in Revenue and Added $150 Billion to Its Buyback. Should You Buy the Stock?
+Yahoo Finance · 27/11 07h20 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Nvidia Forecast $130 Billion in Revenue and Added $150 Billion to Its Buyback.
+  – It's entirely possible that all of this turns out to be nothing and Nvidia is slapped with a couple-billion-dollar fine that it easily pays and moves on with.
+  – In 2009, a "Double Down" signal flashed for a little-known chipmaker called Nvidia.
+  – For the first time in years, that same "Total Conviction" signal is flashing for a company 1/100th the size of Nvidia.
+  – Nvidia will end the year on a high note In Q3, Nvidia's revenue rose an impressive 103% year over year to $116 billion.
+  – Few companies ever double their revenue year over year, and even fewer ever cross the $100 billion revenue mark.
+Link: https://finance.yahoo.com/markets/stocks/articles/nvidia-forecast-130-billion-revenue-102002373.html
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: NVDA
+Como falar: 'saiu no Yahoo Finance: Nvidia Forecast $130 Billion in Revenue and Added $150 Billion to Its Buyback. Should You…; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 27/11 07h20
+id: E05-NVDA-20a943c28a-2026-11-27 · status: pendente
+
+[ATENÇÃO] E05 · PETR4 · Por que o plano de investimento de US$ 122 bilhões da Petrobras recebeu avaliação negativa do Citi
+Estadao · 27/11 00h48 · fonte única · licença: manchete
+Link: https://www.estadao.com.br/em-alta/einvestidor/cenarios-e-mercado/por-que-o-plano-de-investimento-de-us-122-bilhoes-da-petrobras-recebeu-avaliacao-negativa-do-citi/
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: PETR4
+Como falar: 'saiu no Estadao: Por que o plano de investimento de US$ 122 bilhões da Petrobras recebeu avaliação negativ…; confirmar o número no texto antes de repassar'
+Fonte: Estadao 27/11 00h48
+id: E05-PETR4-9c68b29b5f-2026-11-27 · status: pendente
 
 [ATENÇÃO] E05 · BTC · Michael Saylor’s Net Worth Plunges $6 Billion: The Cost of His Bitcoin Bet
 TradingView (Reuters) · 26/11 17h14 · fonte única · licença: manchete
@@ -139,8 +164,23 @@ Fonte: CNN Brasil 25/11 21h05
 id: E05-PETR4-fd098a6e7e-2026-11-26 · status: expirado
 
 
-## OUTRAS NOTÍCIAS (só manchete) (143)
+## OUTRAS NOTÍCIAS (só manchete) (158)
 
+· BTC Bitcoin News Today: BTC Rebounds 8% – Is The Worst Over for Bitcoin Holders? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-news-today-btc-rebounds-104410814.html
+· SBSP3 Sabesp diz que Arsesp aprova base de ativos 11% maior para 2025 (InfoMoney) https://www.infomoney.com.br/mercados/sabesp-diz-que-arsesp-aprova-base-de-ativos-11-maior-para-2025/
+· MU Micron: The Selloff Creates A Compelling Value Opportunity(NASDAQ:MU) (Seeking Alpha) https://seekingalpha.com/article/4972480-micron-stock-sell-off-creates-compelling-value-opportunity
+· UST U.S. Treasury Yields Rise in Shortened Post-Thanksgiving Trade (The Wall Street Journal) https://www.wsj.com/finance/investing/u-s-treasury-yields-rise-in-shortened-post-thanksgiving-trade-f0822039
+· PLTR A Palantir Co-Founder Bought $122 Million of the Stock on Nov. 20. Here's What I Think of Palantir Stock Now. (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/palantir-co-founder-bought-122-090702978.html
+· BTC Bitcoin defends June low as key support, Glassnode says (TradingView (Reuters)) https://www.tradingview.com/news/cryptobriefing:84ca2a036094b:0-bitcoin-defends-june-low-as-key-support-glassnode-says/
+· KO Price to earnings forward of Coca-Cola Company Shs -CAD hedged- Canadian Depositary Receipt Repr Shs Reg (TradingView (Reuters)) https://www.tradingview.com/symbols/DUS-CCC/financials-statistics-and-ratios/price-earnings-fwd/
+· ETH Ethereum devs schedule Glamsterdam upgrade for Hoodi testnet on Dec. 15 (The Block) https://www.theblock.co/news/ecosystems/2026-11-27-ethereum-devs-schedule-glamsterdam-upgrade-hoodi-447051
+· ETH Ethereum breaks key resistance: is the worst of the sell-off over? (TradingView (Reuters)) https://www.tradingview.com/news/invezz:85649aa4c094b:0-ethereum-breaks-key-resistance-is-the-worst-of-the-sell-off-over/
+· NVDA NVDA: Nvidia Stock Tops $155 as Bargain Hunters Pile In Despite Export Concerns (TradingView (Reuters)) https://www.tradingview.com/news/tradingview:88142b4f2094b:0-nvda-nvidia-stock-tops-155-as-bargain-hunters-pile-in-despite-export-concerns/
+· DI Black Friday com Selic a 13,75%: como não cair em ciladas e evitar dívidas (Exame) https://exame.com/invest/minhas-financas/black-friday-com-selic-a-1375-como-nao-cair-em-ciladas-e-evitar-dividas/
+· MCHI China stocks surge most in two years as Beijing vows stronger market support (Reuters) https://www.reuters.com/markets/europe/china-stocks-shoot-up-after-beijing-vows-support-2026-11-27/
+· NVDA Learn Why The Bull Case For Nvidia Stock Could Change Following CEO Reinstatement (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/learn-why-bull-case-nvidia-051409281.html
+· NVDA Singapore reaches out to local firms amid reports of Nvidia chip shipment halt (South China Morning Post) https://news.google.com/rss/articles/CBMizwFBVV95cUxPNWRzUEs1YmhCTTlUUEkwcXpldHFMWWpPdUxrdEtQR0o0OXN4YTBVMmNDamJ3Y1Q2UTZ4Y2owRnowZ042bTg0VEJwY1pna3daLURsMHFOMkNFUHkwX3dGdXFlNTkwVXJPaGJqcl9mSW5sQnFwMzY0a3JXLVlPUnRQMEIwV1RWR1NIVzB0ZWdKY25WNXNLbHhtNHlzM0ZMQXZFM09xbXRBZUdlZ3hRVUY4MnNuRHRGTjBrVGVxejk5WThiV1JBQVN0SjZmUGVKZ03SAc8BQVVfeXFMTUYzNS1Od3V1UkhMQ2MtWjFGbThFXzg4NXBrTjg0NE9lSGVUZTJwMHB2XzNaOVJvRG9maThuWnRpN3ZpUUswSDh4eXp3OU12cTFVaXdJQ3dPOHc0NUFUQlhOQkdHSEswQVlCSmNMSXhCQ2RxWXRXNk5mVFVRTktXVHRLRm5TZnc4eTVuOFFSOWMxTnBLUVMxSkRPYW1xeG11dUhkZ29RbDBKZEFMQ3lkMzZVOFFwcmFyQ3htb3MzWmZDRWE4Zjg3NGVieXM0WXZB?oc=5
+· JPM Spirit of recovery: JPMorgan sees fresh upside in liquor giant Kweichow Moutai (South China Morning Post) https://news.google.com/rss/articles/CBMizAFBVV95cUxOTEhRcTNPcWNnN2R6aTU0emJWejVfWnB4SW92TF9GY29DUXZqcFJ3SDNyZ19ZdEt0cngwNTdldnJDWGNoMjMtNXlSR1FmVHYyZnZia0ROWm1JYk5xa3J4R28zVUZ0TGZEU0NWckNpaDNBdThuMlM0bTZ6cUl1WkRBMzE0VnR5Zk9YYmVGcXlGVTJSRmE2M1RxVmE3UnZDa0VXX3lWNDQxU1R0TVpzdVhhN3BBdnU3S0JwbFhRbUphOXhCbDA5T3VMdHhLQnA?oc=5
 · NVDA 'Very bullish on ASEAN' despite Nvidia chip export curbs to the region: BNY (CNBC) https://www.cnbc.com/video/2026/11/27/bullish-on-asean-despite-nvidia-chip-export-curbs-to-the-region-bny.html
 · BTC Bitcoin November Price Prediction: Polymarket’s $62,500 Yes Odds Surge 16% (TradingView (Reuters)) https://www.tradingview.com/news/binance_news:8cd606456094b:0-bitcoin-november-price-prediction-polymarket-s-62-500-yes-odds-surge-16/
 · BRENT Brent trades near month's high as Mideast conflict threatens supply (TradingView (Reuters)) https://www.tradingview.com/news/reuters.com,2026:newsml_L2N47800T:0-brent-trades-near-month-s-high-as-mideast-conflict-threatens-supply/
@@ -186,19 +226,4 @@ id: E05-PETR4-fd098a6e7e-2026-11-26 · status: expirado
 · BRENT Oil price today: Brent edges up after fresh tanker attacks near Strait of Hormuz (TradingView (Reuters)) https://www.tradingview.com/news/invezz:8a76a7dbc094b:0-oil-price-today-brent-edges-up-after-fresh-tanker-attacks-near-strait-of-hormuz/
 · NVDA Nvidia stops AI GPU shipments to Southeast Asia amid purported China cloud access ban, report claims — data centers in Singapore, other countries, in… (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/nvidia-stops-ai-gpu-shipments-160000782.html
 · BRENT Brent settles higher as mine strikes, refinery attack stoke Middle East supply concerns (Reuters) https://www.reuters.com/business/energy/oil-rises-supply-concerns-iran-claims-mine-strikes-ships-2026-11-26/
-· KLBN4 KLBN11: Por que as ações da Klabin estão "MUITO CARAS" agora (Investing.com) https://br.investing.com/analysis/klbn11-por-que-as-acoes-da-klabin-estao-muito-caras-agora-200480955
-· AVGO Broadcom Stocks Edge Lower After Rebounding From an Intraday Low of $278 (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:2aceb5c99094b:0-broadcom-stocks-edge-lower-after-rebounding-from-an-intraday-low-of-278/
-· MU Micron Stock Faces Surprising New Threat From Huawei (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:12ccb9e34094b:0-micron-stock-faces-surprising-new-threat-from-huawei/
-· LITE Lumentum Surges 55% in a Year: Should You Buy, Sell, or Hold the Stock? (TradingView (Reuters)) https://www.tradingview.com/news/zacks:2a6ed7f66094b:0-lumentum-surges-55-in-a-year-should-you-buy-sell-or-hold-the-stock/
-· NVDA Cerebras Expands AI Inference Reach: Can It Challenge NVDA & AMD? (TradingView (Reuters)) https://www.tradingview.com/news/zacks:cb3c60bb1094b:0-cerebras-expands-ai-inference-reach-can-it-challenge-nvda-amd/
-· NVDA Nvidia chip buyers told to rule out Chinese renters to purchase GPUs, sources say (CNBC) https://www.cnbc.com/2026/11/26/neoclouds-nvidia-china-ai.html
-· GOOGL Alphabet Drops 15% in a Year: Buy, Sell or Hold the Stock? (TradingView (Reuters)) https://www.tradingview.com/news/zacks:e50c49150094b:0-alphabet-drops-15-in-a-year-buy-sell-or-hold-the-stock/
-· BBAS3 Banco do Brasil não emprestou dinheiro a CPF inexistente com 112 fazendas fantasmas (Estadao) https://www.estadao.com.br/estadao-verifica/cpf-fantasma-emprestimo-banco-do-brasil-lula-fraude-ladrao/
-· KO Coca-Cola Bottling Co. Consolidated (COKE) stock price, news, quote and history (Yahoo Finance) https://uk.finance.yahoo.com/quote/COKE/
-· MRVL Marvell Options Price In 16% Earnings-Day Stock Swing (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:e75cca4db094b:0-marvell-options-price-in-16-earnings-day-stock-swing/
-· MU Micron Stocks Fall 4.53% as TrendForce Cuts 2027 Memory Forecasts (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:6910f467c094b:0-micron-stocks-fall-4-53-as-trendforce-cuts-2027-memory-forecasts/
-· AMZN Amazon Stocks Fall 3.12% as Bernstein Flags a 16% Drop in Cloud Web Traffic (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:c1731a248094b:0-amazon-stocks-fall-3-12-as-bernstein-flags-a-16-drop-in-cloud-web-traffic/
-· GOOGL Alphabet: You're Getting Anthropic For Free (NASDAQ:GOOG) (Seeking Alpha) https://seekingalpha.com/article/4972287-alphabet-youre-getting-anthropic-for-free?source=generic_rss
-· META Meta Platforms’ (META) Surging Capex Pressures Free Cash Flow Amid Monetization Debates (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/meta-platforms-meta-surging-capex-165927360.html
-· BTC Bitcoin dormant supply climbs toward 69% as holders sit tight through the slump (TradingView (Reuters)) https://www.tradingview.com/news/cryptobriefing:b92d03ee4094b:0-bitcoin-dormant-supply-climbs-toward-69-as-holders-sit-tight-through-the-slump/
-· (+83 manchetes; lista completa em eventos/noticias.json)
+· (+98 manchetes; lista completa em eventos/noticias.json)
