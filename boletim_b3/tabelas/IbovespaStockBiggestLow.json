@@ -1,5 +1,5 @@
 {
- "pregao": "2026-11-25",
+ "pregao": "2026-11-26",
  "nome": "IbovespaStockBiggestLow",
  "titulo": "Ações do IBOVESPA - maiores baixas",
  "sla": "8:00:00",
@@ -7,18 +7,9 @@
  "colunas": [{"nome": "TckrSymb", "titulo": "Ação"}, {"nome": "Cod", "titulo": "Código"}, {"nome": "Price", "titulo": "Preço (R$)"}, {"nome": "OscillationDesc", "titulo": "Oscilação (%)"}],
  "texto": ["Lista as ações do IBOVESPA que apresentaram as maiores quedas de preços em um período."],
  "situacao": "publicado",
- "atualizado_em": "2026-11-25T23:30:25.377",
+ "atualizado_em": "2026-11-26T23:30:15.36",
  "truncada": false,
  "linhas": [
-  ["EMBJ3", "ON      NM", 103.2, -4],
-  ["SANB11", "UNT", 27.37, -2.59],
-  ["ABEV3", "ON", 15.81, -1.8],
-  ["MBRF3", "ON      NM", 18.01, -1.58],
-  ["VIVT3", "ON", 34.8, -1.41],
-  ["CPFE3", "ON      NM", 42.89, -1.4],
-  ["SUZB3", "ON  ATZ NM", 55.4, -1.31],
-  ["WEGE3", "ON      NM", 49.65, -1.09],
-  ["CMIG4", "PN      N1", 10.73, -0.83],
-  ["VIVA3", "ON      NM", 15.86, -0.56]
+  ["SUZB3", "ON  ATZ NM", 54.87, -0.95]
  ]
 }

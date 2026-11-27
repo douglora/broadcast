@@ -1,5 +1,5 @@
 {
- "pregao": "2026-11-25",
+ "pregao": "2026-11-26",
  "nome": "IbovespaStockBiggestHighs",
  "titulo": "Ações do IBOVESPA - maiores altas",
  "sla": "8:00:00",
@@ -7,18 +7,18 @@
  "colunas": [{"nome": "TckrSymb", "titulo": "Ação"}, {"nome": "Cod", "titulo": "Código"}, {"nome": "Price", "titulo": "Preço (R$)"}, {"nome": "Oscillation", "titulo": "Oscilação (%)"}],
  "texto": ["Lista as ações do IBOVESPA com os maiores percentuais de valorização em um período."],
  "situacao": "publicado",
- "atualizado_em": "2026-11-25T23:30:25.35",
+ "atualizado_em": "2026-11-26T23:30:15.39",
  "truncada": false,
  "linhas": [
-  ["BPAC11", "UNT     N2", 52.95, 5.9],
-  ["CYRE3", "ON      NM", 19.66, 5.98],
-  ["CEAB3", "ON      NM", 7.58, 6.01],
-  ["MGLU3", "ON      NM", 9.29, 6.17],
-  ["BRAV3", "ON      NM", 12.68, 6.37],
-  ["MRVE3", "ON      NM", 4.62, 6.45],
-  ["CSNA3", "ON", 3.45, 6.48],
-  ["VAMO3", "ON      NM", 2.78, 7.75],
-  ["AZZA3", "ON      NM", 15.33, 8.11],
-  ["NATU3", "ON      NM", 4.71, 10.56]
+  ["VAMO3", "ON      NM", 3.09, 11.15],
+  ["TOTS3", "ON      NM", 35.4, 11.28],
+  ["BPAC11", "UNT     N2", 59.04, 11.5],
+  ["BBDC4", "PN      N1", 15.83, 11.55],
+  ["CEAB3", "ON      NM", 8.47, 11.74],
+  ["CSAN3", "ON      NM", 3.84, 12.28],
+  ["BBAS3", "ON      NM", 16.54, 12.59],
+  ["RADL3", "ON      NM", 17.46, 13.15],
+  ["RENT3", "ON      NM", 33.77, 15.17],
+  ["MRVE3", "ON      NM", 5.33, 15.36]
  ]
 }

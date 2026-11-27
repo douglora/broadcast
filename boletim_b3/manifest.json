@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-11-27T00:50:52Z",
+ "gerado_em": "2026-11-27T09:01:38Z",
  "cliente_http": "curl_cffi",
  "livro": [
   "EQTL3",
@@ -43,7 +43,7 @@
     "sem_cadastro": 0,
     "erros": 0,
     "ficaram_para_depois": 0,
-    "no_cache": 3886
+    "no_cache": 3908
    },
    "anbima": {
     "situacao": "publicado",
@@ -59,28 +59,26 @@
    "falhas": {
     "InstrumentsConsolidated": "arquivo InstrumentsConsolidated: token HTTP 400"
    },
-   "segundos": 111
+   "segundos": 151
   },
   "2026-11-26": {
    "completo": false,
    "faltam": [
-    "InstrumentsConsolidated",
-    "DerivativesOpenPosition",
-    "BTBLendingOpenPosition",
-    "BTBLoanBalance"
+    "InstrumentsConsolidated"
    ],
    "boletim": "publicando",
-   "sinais": 11,
+   "sinais": 19,
    "tabelas": 47,
    "arquivos": [
+    "DerivativesOpenPosition",
     "TradeInformationConsolidated",
     "TradeInformationConsolidatedAfterHours"
    ],
    "rf_cadastro": {
     "papeis_no_dia": 1630,
-    "consultados": 36,
-    "achados": 28,
-    "sem_cadastro": 8,
+    "consultados": 0,
+    "achados": 0,
+    "sem_cadastro": 0,
     "erros": 0,
     "ficaram_para_depois": 0,
     "no_cache": 3908
@@ -97,10 +95,9 @@
     }
    },
    "falhas": {
-    "InstrumentsConsolidated": "arquivo InstrumentsConsolidated: token HTTP 400",
-    "DerivativesOpenPosition": "arquivo DerivativesOpenPosition: token HTTP 400"
+    "InstrumentsConsolidated": "arquivo InstrumentsConsolidated: token HTTP 400"
    },
-   "segundos": 213
+   "segundos": 72
   }
  },
  "falhas": [],
