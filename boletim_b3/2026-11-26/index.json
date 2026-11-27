@@ -1,6 +1,6 @@
 {
  "pregao": "2026-11-26",
- "coletado_em": "2026-11-27T09:04:09Z",
+ "coletado_em": "2026-11-27T11:52:39Z",
  "tabelas": {
   "SharesInvesVolum": {
    "titulo": "Participação dos investidores",
@@ -21,7 +21,7 @@
   "EconomicIndicators": {
    "titulo": "Indicadores econômicos",
    "situacao": "republicado",
-   "atualizado_em": "2026-11-27T05:53:16.183",
+   "atualizado_em": "2026-11-27T08:43:42.307",
    "sla": "8:00:00",
    "linhas": 266,
    "truncada": false
@@ -316,8 +316,8 @@
   },
   "RepurchaseDealings": {
    "titulo": "Negociações compromissadas",
-   "situacao": "aguardando",
-   "atualizado_em": "2026-11-26T00:00:38.01",
+   "situacao": "ignorado",
+   "atualizado_em": "2026-11-27T08:06:37.2",
    "sla": "8:00:00",
    "linhas": 0,
    "truncada": false

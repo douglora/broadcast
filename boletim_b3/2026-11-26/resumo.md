@@ -1,7 +1,7 @@
 # Boletim da B3: pregão de 26/11/2026 (quinta)
 
 **Situação: PARCIAL.** Ainda sem: cadastro de instrumentos. A B3 publica esses blocos na madrugada seguinte ao pregão; a rodada da manhã completa.
-Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-11-27T09:05:21Z (UTC).
+Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-11-27T11:53:18Z (UTC).
 
 [[LEITURA_DA_MESA]]
 
@@ -273,9 +273,11 @@ Por classe, mediana das taxas de referência dos papéis. Taxa de referência: n
 
 - aluguel por corretora: ignorado
 - cadastro de instrumentos: aguardando
-- RepurchaseDealings: aguardando
+- RepurchaseDealings: ignorado
 - Posição em aberto de derivativos por tipo de investidor (estrangeiro, institucional, pessoa física): não existe no Boletim Diário do Mercado; procurado nas 69 tabelas e no texto dos 11 cadernos em 30/09/2026.
 - Fluxo por tipo de investidor sai acumulado no mês e com dois pregões de atraso; o saldo de um dia é a diferença entre dois acumulados seguidos.
 - RARA11: a B3 não publica valor de referência da cota (IOPV) para este ETF no boletim.
 - Paridade de RARA11: sem a barra de 26/11 de REMX nas séries do livro.
 - Paridade de MELI34: sem a barra de 26/11 de MELI nas séries do livro.
+
+Boletim completo em PDF (B3): https://arquivos.b3.com.br/bdi/download/bdi/2026-11-26/BDI_00_20261126.pdf
