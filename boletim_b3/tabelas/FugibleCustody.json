@@ -1,5 +1,5 @@
 {
- "pregao": "2026-11-26",
+ "pregao": "2026-11-27",
  "nome": "FugibleCustody",
  "titulo": "Custódia fungível",
  "sla": "00:00:00",
@@ -7,7 +7,7 @@
  "colunas": [{"nome": "SbscrptnDeadline", "titulo": "Prazo final subscrição"}, {"nome": "DeadlineAssgnmnt", "titulo": "Prazo final cessão"}, {"nome": "TckrSymb", "titulo": "Emissor"}, {"nome": "IsinOrigin", "titulo": "Código ISIN origem"}, {"nome": "IsinRight", "titulo": "Código ISIN direito"}, {"nome": "IsinSbscrptn", "titulo": "Código ISIN subscrição"}],
  "texto": ["Informações sobre ativos que estão sob custódia, mas não são de propriedade do investidor. O objetivo é fornecer transparência sobre a gestão de ativos que pertencem a terceiros, garantindo controle e rastreabilidade. Os agentes de custódia que pretenderem exercer o direito de subscrição e/ou solicitar cessão de direitos da(s) empresa(s) abaixo relacionada(s) deverão manifestar-se nos prazos mencionados."],
  "situacao": "publicado",
- "atualizado_em": "2026-11-26T00:00:35.49",
+ "atualizado_em": "2026-11-27T00:00:49.557",
  "truncada": false,
  "linhas": [
   ["2026-12-01", "2026-12-01", "LAGO DA PEDRA - FUNDO DE INVESTIMENTO IMOBILIÁRIO", "BRLPLPCTF016 125", "BRLPLPD04M11 125", "BRLPLPR13M14 126"],

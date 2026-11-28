@@ -1,5 +1,5 @@
 {
- "pregao": "2026-11-26",
+ "pregao": "2026-11-27",
  "nome": "INDEXES",
  "titulo": "Evolução dos índices",
  "sla": "20:00:00",
@@ -7,7 +7,7 @@
  "colunas": [],
  "texto": ["Mostra a trajetória e mudanças nos principais índices do mercado ao longo do tempo."],
  "situacao": "publicado",
- "atualizado_em": "2026-11-26T00:01:27.243",
+ "atualizado_em": "2026-11-27T00:01:49.973",
  "truncada": false,
  "linhas": [],
  "filhos": [
@@ -28,7 +28,7 @@
      "colunas": [{"nome": "TckrSymb", "titulo": "Pontos"}, {"nome": "OpenPric", "titulo": "Abertura"}, {"nome": "MinPric", "titulo": "Mínimo"}, {"nome": "MaxPric", "titulo": "Máximo"}, {"nome": "LastPric", "titulo": "Fechamento"}, {"nome": "TradAvrgPric", "titulo": "Média aritimética"}, {"nome": "TradAvrgPricPond", "titulo": "Média ponderada"}],
      "texto": [],
      "linhas": [
-      ["IBOVESPA", 166698, 166695, 177024, 176799, 173236, 173775]
+      ["IBOVESPA", 176813, 175898, 183625, 176573, 178000, 178669]
      ]
     },
     {
@@ -39,7 +39,7 @@
      "colunas": [{"nome": "TckrSymb", "titulo": "Ações"}, {"nome": "ActNmbrHigh", "titulo": "Altas"}, {"nome": "ActNmbrLow", "titulo": "Baixas"}, {"nome": "ActNmbrStbl", "titulo": "Estáveis"}, {"nome": "NoNgttns", "titulo": "Sem negociações"}, {"nome": "Total", "titulo": "Total"}, {"nome": "MnmValueYear", "titulo": "Mínimo no ano"}, {"nome": "MxmValueYear", "titulo": "Máximo no ano"}],
      "texto": [],
      "linhas": [
-      ["IBOVESPA", 76, 3, -3, null, "76", "160538 - 02 JAN", "209066 - 09 OUT"]
+      ["IBOVESPA", 46, 35, -5, null, "76", "160538 - 02 JAN", "209066 - 09 OUT"]
      ]
     },
     {
@@ -50,7 +50,7 @@
      "colunas": [{"nome": "TckrSymb", "titulo": "(%)"}, {"nome": "InDay", "titulo": "Do dia"}, {"nome": "Yesterday", "titulo": "Ontem"}, {"nome": "InTheWeek", "titulo": "Na semana"}, {"nome": "InWeek", "titulo": "Em uma semana"}, {"nome": "InTheMonth", "titulo": "No mês"}, {"nome": "InMonth", "titulo": "Em um mês"}, {"nome": "InTheYear", "titulo": "No ano"}, {"nome": "InYear", "titulo": "Em um ano"}],
      "texto": [],
      "linhas": [
-      ["IBOVESPA", 0.060599999999999994, 0.0158, 0.0626, 0.0626, 0.0529, 0.0011, 0.0973, 0.1151]
+      ["IBOVESPA", -0.0012, 0.060700000000000004, 0, 0.0613, 0.051500000000000004, 0.0049, 0.0959, 0.115]
      ]
     }
    ]
@@ -72,7 +72,7 @@
      "colunas": [{"nome": "TckrSymb", "titulo": "Pontos"}, {"nome": "OpenPric", "titulo": "Abertura"}, {"nome": "MinPric", "titulo": "Mínimo"}, {"nome": "MaxPric", "titulo": "Máximo"}, {"nome": "LastPric", "titulo": "Fechamento"}, {"nome": "TradAvrgPric", "titulo": "Média aritimética"}, {"nome": "TradAvrgPricPond", "titulo": "Média ponderada"}],
      "texto": [],
      "linhas": [
-      ["IBRX50", 28145, 28141, 29893, 29840, 29242, 29331]
+      ["IBRX50", 29842, 29626, 30981, 29758, 29996, 30108]
      ]
     },
     {
@@ -83,7 +83,7 @@
      "colunas": [{"nome": "TckrSymb", "titulo": "Ações"}, {"nome": "ActNmbrHigh", "titulo": "Altas"}, {"nome": "ActNmbrLow", "titulo": "Baixas"}, {"nome": "ActNmbrStbl", "titulo": "Estáveis"}, {"nome": "NoNgttns", "titulo": "Sem negociações"}, {"nome": "Total", "titulo": "Total"}, {"nome": "MnmValueYear", "titulo": "Mínimo no ano"}, {"nome": "MxmValueYear", "titulo": "Máximo no ano"}],
      "texto": [],
      "linhas": [
-      ["IBRX50", 52, 4, -6, null, "50", "26876 - 02 JAN", "35333 - 09 OUT"]
+      ["IBRX50", 32, 23, -5, null, "50", "26876 - 02 JAN", "35333 - 09 OUT"]
      ]
     },
     {
@@ -94,7 +94,7 @@
      "colunas": [{"nome": "TckrSymb", "titulo": "(%)"}, {"nome": "InDay", "titulo": "Do dia"}, {"nome": "Yesterday", "titulo": "Ontem"}, {"nome": "InTheWeek", "titulo": "Na semana"}, {"nome": "InWeek", "titulo": "Em uma semana"}, {"nome": "InTheMonth", "titulo": "No mês"}, {"nome": "InMonth", "titulo": "Em um mês"}, {"nome": "InTheYear", "titulo": "No ano"}, {"nome": "InYear", "titulo": "Em um ano"}],
      "texto": [],
      "linhas": [
-      ["IBRX50", 0.0604, 0.0159, 0.0611, 0.0611, 0.0433, -0.0058, 0.1066, 0.126]
+      ["IBRX50", -0.0027, 0.0604, 0, 0.0582, 0.0404, -0.0027, 0.1036, 0.1244]
      ]
     }
    ]
@@ -116,7 +116,7 @@
      "colunas": [{"nome": "TckrSymb", "titulo": "Pontos"}, {"nome": "OpenPric", "titulo": "Abertura"}, {"nome": "MinPric", "titulo": "Mínimo"}, {"nome": "MaxPric", "titulo": "Máximo"}, {"nome": "LastPric", "titulo": "Fechamento"}, {"nome": "TradAvrgPric", "titulo": "Média aritimética"}, {"nome": "TradAvrgPricPond", "titulo": "Média ponderada"}],
      "texto": [],
      "linhas": [
-      ["IBrX100", 70151, 70151, 74478, 74358, 72877, 73109]
+      ["IBrX100", 74360, 73934, 77232, 74241, 74832, 75110]
      ]
     },
     {
@@ -127,7 +127,7 @@
      "colunas": [{"nome": "TckrSymb", "titulo": "Ações"}, {"nome": "ActNmbrHigh", "titulo": "Altas"}, {"nome": "ActNmbrLow", "titulo": "Baixas"}, {"nome": "ActNmbrStbl", "titulo": "Estáveis"}, {"nome": "NoNgttns", "titulo": "Sem negociações"}, {"nome": "Total", "titulo": "Total"}, {"nome": "MnmValueYear", "titulo": "Mínimo no ano"}, {"nome": "MxmValueYear", "titulo": "Máximo no ano"}],
      "texto": [],
      "linhas": [
-      ["IBrX100", 101, 2, -3, null, "100", "67756 - 02 JAN", "88360 - 09 OUT"]
+      ["IBrX100", 62, 45, -7, null, "100", "67756 - 02 JAN", "88360 - 09 OUT"]
      ]
     },
     {
@@ -138,7 +138,7 @@
      "colunas": [{"nome": "TckrSymb", "titulo": "(%)"}, {"nome": "InDay", "titulo": "Do dia"}, {"nome": "Yesterday", "titulo": "Ontem"}, {"nome": "InTheWeek", "titulo": "Na semana"}, {"nome": "InWeek", "titulo": "Em uma semana"}, {"nome": "InTheMonth", "titulo": "No mês"}, {"nome": "InMonth", "titulo": "Em um mês"}, {"nome": "InTheYear", "titulo": "No ano"}, {"nome": "InYear", "titulo": "Em um ano"}],
      "texto": [],
      "linhas": [
-      ["IBrX100", 0.0599, 0.0158, 0.0608, 0.0608, 0.0471, -0.004, 0.0932, 0.1101]
+      ["IBrX100", -0.0015, 0.06, 0, 0.0592, 0.0455, 0, 0.0915, 0.1094]
      ]
     }
    ]
@@ -160,7 +160,7 @@
      "colunas": [{"nome": "TckrSymb", "titulo": "Pontos"}, {"nome": "OpenPric", "titulo": "Abertura"}, {"nome": "MinPric", "titulo": "Mínimo"}, {"nome": "MaxPric", "titulo": "Máximo"}, {"nome": "LastPric", "titulo": "Fechamento"}, {"nome": "TradAvrgPric", "titulo": "Média aritimética"}, {"nome": "TradAvrgPricPond", "titulo": "Média ponderada"}],
      "texto": [],
      "linhas": [
-      ["IFIX", 3541, 3541, 3595, 3578, 3566, 3566]
+      ["IFIX", 3581, 3581, 3670, 3664, 3654, 3652]
      ]
     },
     {
@@ -171,7 +171,7 @@
      "colunas": [{"nome": "TckrSymb", "titulo": "Ações"}, {"nome": "ActNmbrHigh", "titulo": "Altas"}, {"nome": "ActNmbrLow", "titulo": "Baixas"}, {"nome": "ActNmbrStbl", "titulo": "Estáveis"}, {"nome": "NoNgttns", "titulo": "Sem negociações"}, {"nome": "Total", "titulo": "Total"}, {"nome": "MnmValueYear", "titulo": "Mínimo no ano"}, {"nome": "MxmValueYear", "titulo": "Máximo no ano"}],
      "texto": [],
      "linhas": [
-      ["IFIX", 94, 4, -4, null, "94", "3440 - 23 NOV", "3990 - 23 OUT"]
+      ["IFIX", 97, 4, -7, null, "94", "3440 - 23 NOV", "3990 - 23 OUT"]
      ]
     },
     {
@@ -182,7 +182,7 @@
      "colunas": [{"nome": "TckrSymb", "titulo": "(%)"}, {"nome": "InDay", "titulo": "Do dia"}, {"nome": "Yesterday", "titulo": "Ontem"}, {"nome": "InTheWeek", "titulo": "Na semana"}, {"nome": "InWeek", "titulo": "Em uma semana"}, {"nome": "InTheMonth", "titulo": "No mês"}, {"nome": "InMonth", "titulo": "Em um mês"}, {"nome": "InTheYear", "titulo": "No ano"}, {"nome": "InYear", "titulo": "Em um ano"}],
      "texto": [],
      "linhas": [
-      ["IFIX", 0.0106, 0.0212, 0.0269, 0.0269, -0.018500000000000003, -0.049100000000000005, -0.052000000000000005, -0.0108]
+      ["IFIX", 0.023700000000000002, 0.010700000000000001, 0, 0.051399999999999994, 0.0048, -0.0148, -0.029500000000000002, 0.008100000000000001]
      ]
     }
    ]
@@ -204,7 +204,7 @@
      "colunas": [{"nome": "TckrSymb", "titulo": "Pontos"}, {"nome": "OpenPric", "titulo": "Abertura"}, {"nome": "MinPric", "titulo": "Mínimo"}, {"nome": "MaxPric", "titulo": "Máximo"}, {"nome": "LastPric", "titulo": "Fechamento"}, {"nome": "TradAvrgPric", "titulo": "Média aritimética"}, {"nome": "TradAvrgPricPond", "titulo": "Média ponderada"}],
      "texto": [],
      "linhas": [
-      ["IDIVERSA B3", 1422, 1422, 1519, 1517, 1483, 1488]
+      ["IDIVERSA B3", 1517, 1517, 1591, 1526, 1539, 1546]
      ]
     },
     {
@@ -215,7 +215,7 @@
      "colunas": [{"nome": "TckrSymb", "titulo": "Ações"}, {"nome": "ActNmbrHigh", "titulo": "Altas"}, {"nome": "ActNmbrLow", "titulo": "Baixas"}, {"nome": "ActNmbrStbl", "titulo": "Estáveis"}, {"nome": "NoNgttns", "titulo": "Sem negociações"}, {"nome": "Total", "titulo": "Total"}, {"nome": "MnmValueYear", "titulo": "Mínimo no ano"}, {"nome": "MxmValueYear", "titulo": "Máximo no ano"}],
      "texto": [],
      "linhas": [
-      ["IDIVERSA B3", 90, 3, -5, null, "88", "1347 - 03 NOV", "1815 - 09 OUT"]
+      ["IDIVERSA B3", 51, 47, -10, null, "88", "1347 - 03 NOV", "1815 - 09 OUT"]
      ]
     },
     {
@@ -226,7 +226,7 @@
      "colunas": [{"nome": "TckrSymb", "titulo": "(%)"}, {"nome": "InDay", "titulo": "Do dia"}, {"nome": "Yesterday", "titulo": "Ontem"}, {"nome": "InTheWeek", "titulo": "Na semana"}, {"nome": "InWeek", "titulo": "Em uma semana"}, {"nome": "InTheMonth", "titulo": "No mês"}, {"nome": "InMonth", "titulo": "Em um mês"}, {"nome": "InTheYear", "titulo": "No ano"}, {"nome": "InYear", "titulo": "Em um ano"}],
      "texto": [],
      "linhas": [
-      ["IDIVERSA B3", 0.0666, 0.0176, 0.086, 0.086, 0.1166, 0.0519, 0.0601, 0.04019999999999999]
+      ["IDIVERSA B3", 0.0059, 0.0667, 0, 0.0925, 0.1232, 0.058899999999999994, 0.0664, 0.0444]
      ]
     }
    ]
@@ -248,7 +248,7 @@
      "colunas": [{"nome": "TckrSymb", "titulo": "Pontos"}, {"nome": "OpenPric", "titulo": "Abertura"}, {"nome": "MinPric", "titulo": "Mínimo"}, {"nome": "MaxPric", "titulo": "Máximo"}, {"nome": "LastPric", "titulo": "Fechamento"}, {"nome": "TradAvrgPric", "titulo": "Média aritimética"}, {"nome": "TradAvrgPricPond", "titulo": "Média ponderada"}],
      "texto": [],
      "linhas": [
-      ["IBOV SD TR", 1897, 1897, 2004, 2004, 1969, 1975]
+      ["IBOV SD TR", 2005, 2003, 2080, 2010, 2021, 2027]
      ]
     },
     {
@@ -259,7 +259,7 @@
      "colunas": [{"nome": "TckrSymb", "titulo": "Ações"}, {"nome": "ActNmbrHigh", "titulo": "Altas"}, {"nome": "ActNmbrLow", "titulo": "Baixas"}, {"nome": "ActNmbrStbl", "titulo": "Estáveis"}, {"nome": "NoNgttns", "titulo": "Sem negociações"}, {"nome": "Total", "titulo": "Total"}, {"nome": "MnmValueYear", "titulo": "Mínimo no ano"}, {"nome": "MxmValueYear", "titulo": "Máximo no ano"}],
      "texto": [],
      "linhas": [
-      ["IBOV SD TR", 19, null, null, null, "19", "1854 - 03 NOV", "2302 - 09 OUT"]
+      ["IBOV SD TR", 5, 13, 1, null, "19", "1854 - 03 NOV", "2302 - 09 OUT"]
      ]
     },
     {
@@ -270,7 +270,7 @@
      "colunas": [{"nome": "TckrSymb", "titulo": "(%)"}, {"nome": "InDay", "titulo": "Do dia"}, {"nome": "Yesterday", "titulo": "Ontem"}, {"nome": "InTheWeek", "titulo": "Na semana"}, {"nome": "InWeek", "titulo": "Em uma semana"}, {"nome": "InTheMonth", "titulo": "No mês"}, {"nome": "InMonth", "titulo": "Em um mês"}, {"nome": "InTheYear", "titulo": "No ano"}, {"nome": "InYear", "titulo": "Em um ano"}],
      "texto": [],
      "linhas": [
-      ["IBOV SD TR", 0.056799999999999996, 0.0143, 0.0536, 0.0536, 0.061200000000000004, 0.0159, 0.027000000000000003, 0.0335]
+      ["IBOV SD TR", 0.0027, 0.056900000000000006, 0, 0.0565, 0.0641, 0.0202, 0.0298, 0.0392]
      ]
     }
    ]
@@ -292,7 +292,7 @@
      "colunas": [{"nome": "TckrSymb", "titulo": "Pontos"}, {"nome": "OpenPric", "titulo": "Abertura"}, {"nome": "MinPric", "titulo": "Mínimo"}, {"nome": "MaxPric", "titulo": "Máximo"}, {"nome": "LastPric", "titulo": "Fechamento"}, {"nome": "TradAvrgPric", "titulo": "Média aritimética"}, {"nome": "TradAvrgPricPond", "titulo": "Média ponderada"}],
      "texto": [],
      "linhas": [
-      ["IBOV S HBETA", 1655, 1655, 1798, 1798, 1752, 1761]
+      ["IBOV S HBETA", 1809, 1809, 1970, 1893, 1901, 1914]
      ]
     },
     {
@@ -303,7 +303,7 @@
      "colunas": [{"nome": "TckrSymb", "titulo": "Ações"}, {"nome": "ActNmbrHigh", "titulo": "Altas"}, {"nome": "ActNmbrLow", "titulo": "Baixas"}, {"nome": "ActNmbrStbl", "titulo": "Estáveis"}, {"nome": "NoNgttns", "titulo": "Sem negociações"}, {"nome": "Total", "titulo": "Total"}, {"nome": "MnmValueYear", "titulo": "Mínimo no ano"}, {"nome": "MxmValueYear", "titulo": "Máximo no ano"}],
      "texto": [],
      "linhas": [
-      ["IBOV S HBETA", 26, null, -1, null, "25", "1400 - 03 NOV", "2598 - 20 OUT"]
+      ["IBOV S HBETA", 25, 6, -6, null, "25", "1400 - 03 NOV", "2598 - 20 OUT"]
      ]
     },
     {
@@ -314,7 +314,7 @@
      "colunas": [{"nome": "TckrSymb", "titulo": "(%)"}, {"nome": "InDay", "titulo": "Do dia"}, {"nome": "Yesterday", "titulo": "Ontem"}, {"nome": "InTheWeek", "titulo": "Na semana"}, {"nome": "InWeek", "titulo": "Em uma semana"}, {"nome": "InTheMonth", "titulo": "No mês"}, {"nome": "InMonth", "titulo": "Em um mês"}, {"nome": "InTheYear", "titulo": "No ano"}, {"nome": "InYear", "titulo": "Em um ano"}],
      "texto": [],
      "linhas": [
-      ["IBOV S HBETA", 0.087, 0.0384, 0.1408, 0.1408, 0.25989999999999996, 0.1491, -0.1503, -0.2069]
+      ["IBOV S HBETA", 0.053, 0.087, 0, 0.20129999999999998, 0.3267, 0.201, -0.1052, -0.16879999999999998]
      ]
     }
    ]
@@ -336,7 +336,7 @@
      "colunas": [{"nome": "TckrSymb", "titulo": "Pontos"}, {"nome": "OpenPric", "titulo": "Abertura"}, {"nome": "MinPric", "titulo": "Mínimo"}, {"nome": "MaxPric", "titulo": "Máximo"}, {"nome": "LastPric", "titulo": "Fechamento"}, {"nome": "TradAvrgPric", "titulo": "Média aritimética"}, {"nome": "TradAvrgPricPond", "titulo": "Média ponderada"}],
      "texto": [],
      "linhas": [
-      ["IBOV S LVOL", 1311, 1310, 1379, 1379, 1352, 1356]
+      ["IBOV S LVOL", 1379, 1366, 1423, 1373, 1382, 1386]
      ]
     },
     {
@@ -347,7 +347,7 @@
      "colunas": [{"nome": "TckrSymb", "titulo": "Ações"}, {"nome": "ActNmbrHigh", "titulo": "Altas"}, {"nome": "ActNmbrLow", "titulo": "Baixas"}, {"nome": "ActNmbrStbl", "titulo": "Estáveis"}, {"nome": "NoNgttns", "titulo": "Sem negociações"}, {"nome": "Total", "titulo": "Total"}, {"nome": "MnmValueYear", "titulo": "Mínimo no ano"}, {"nome": "MxmValueYear", "titulo": "Máximo no ano"}],
      "texto": [],
      "linhas": [
-      ["IBOV S LVOL", 85, null, -2, null, "83", "1292 - 24 NOV", "1609 - 09 OUT"]
+      ["IBOV S LVOL", 50, 41, -8, null, "83", "1292 - 24 NOV", "1609 - 09 OUT"]
      ]
     },
     {
@@ -358,7 +358,7 @@
      "colunas": [{"nome": "TckrSymb", "titulo": "(%)"}, {"nome": "InDay", "titulo": "Do dia"}, {"nome": "Yesterday", "titulo": "Ontem"}, {"nome": "InTheWeek", "titulo": "Na semana"}, {"nome": "InWeek", "titulo": "Em uma semana"}, {"nome": "InTheMonth", "titulo": "No mês"}, {"nome": "InMonth", "titulo": "Em um mês"}, {"nome": "InTheYear", "titulo": "No ano"}, {"nome": "InYear", "titulo": "Em um ano"}],
      "texto": [],
      "linhas": [
-      ["IBOV S LVOL", 0.0516, 0.0148, 0.061799999999999994, 0.061799999999999994, 0.0483, 0.0014000000000000002, 0.0172, 0.027999999999999997]
+      ["IBOV S LVOL", -0.004, 0.0516, 0, 0.0575, 0.0441, 0.004699999999999999, 0.0131, 0.024900000000000002]
      ]
     }
    ]
@@ -418,7 +418,7 @@
      "colunas": [{"nome": "TckrSymb", "titulo": "Pontos"}, {"nome": "OpenPric", "titulo": "Abertura"}, {"nome": "MinPric", "titulo": "Mínimo"}, {"nome": "MaxPric", "titulo": "Máximo"}, {"nome": "LastPric", "titulo": "Fechamento"}, {"nome": "TradAvrgPric", "titulo": "Média aritimética"}, {"nome": "TradAvrgPricPond", "titulo": "Média ponderada"}],
      "texto": [],
      "linhas": [
-      ["IBOVB3 PRIV", 1651, 1651, 1753, 1752, 1716, 1721]
+      ["IBOVB3 PRIV", 1752, 1752, 1819, 1755, 1770, 1777]
      ]
     },
     {
@@ -429,7 +429,7 @@
      "colunas": [{"nome": "TckrSymb", "titulo": "Ações"}, {"nome": "ActNmbrHigh", "titulo": "Altas"}, {"nome": "ActNmbrLow", "titulo": "Baixas"}, {"nome": "ActNmbrStbl", "titulo": "Estáveis"}, {"nome": "NoNgttns", "titulo": "Sem negociações"}, {"nome": "Total", "titulo": "Total"}, {"nome": "MnmValueYear", "titulo": "Mínimo no ano"}, {"nome": "MxmValueYear", "titulo": "Máximo no ano"}],
      "texto": [],
      "linhas": [
-      ["IBOVB3 PRIV", 69, 3, -3, null, "69", "1580 - 03 NOV", "2040 - 09 OUT"]
+      ["IBOVB3 PRIV", 47, 26, -4, null, "69", "1580 - 03 NOV", "2040 - 09 OUT"]
      ]
     },
     {
@@ -440,7 +440,7 @@
      "colunas": [{"nome": "TckrSymb", "titulo": "(%)"}, {"nome": "InDay", "titulo": "Do dia"}, {"nome": "Yesterday", "titulo": "Ontem"}, {"nome": "InTheWeek", "titulo": "Na semana"}, {"nome": "InWeek", "titulo": "Em uma semana"}, {"nome": "InTheMonth", "titulo": "No mês"}, {"nome": "InMonth", "titulo": "Em um mês"}, {"nome": "InTheYear", "titulo": "No ano"}, {"nome": "InYear", "titulo": "Em um ano"}],
      "texto": [],
      "linhas": [
-      ["IBOVB3 PRIV", 0.061500000000000006, 0.015700000000000002, 0.0682, 0.0682, 0.0981, 0.037000000000000005, 0.0479, 0.0692]
+      ["IBOVB3 PRIV", 0.0019, 0.061500000000000006, 0, 0.0702, 0.1002, 0.042199999999999994, 0.0499, 0.0735]
      ]
     }
    ]
@@ -462,7 +462,7 @@
      "colunas": [{"nome": "TckrSymb", "titulo": "Pontos"}, {"nome": "OpenPric", "titulo": "Abertura"}, {"nome": "MinPric", "titulo": "Mínimo"}, {"nome": "MaxPric", "titulo": "Máximo"}, {"nome": "LastPric", "titulo": "Fechamento"}, {"nome": "TradAvrgPric", "titulo": "Média aritimética"}, {"nome": "TradAvrgPricPond", "titulo": "Média ponderada"}],
      "texto": [],
      "linhas": [
-      ["IBOVB3 ESTAT", 4732, 4731, 4998, 4998, 4900, 4912]
+      ["IBOVB3 ESTAT", 5003, 4947, 5192, 4964, 5005, 5028]
      ]
     },
     {
@@ -473,7 +473,7 @@
      "colunas": [{"nome": "TckrSymb", "titulo": "Ações"}, {"nome": "ActNmbrHigh", "titulo": "Altas"}, {"nome": "ActNmbrLow", "titulo": "Baixas"}, {"nome": "ActNmbrStbl", "titulo": "Estáveis"}, {"nome": "NoNgttns", "titulo": "Sem negociações"}, {"nome": "Total", "titulo": "Total"}, {"nome": "MnmValueYear", "titulo": "Mínimo no ano"}, {"nome": "MxmValueYear", "titulo": "Máximo no ano"}],
      "texto": [],
      "linhas": [
-      ["IBOVB3 ESTAT", 7, null, null, null, "7", "4121 - 13 JAN", "5946 - 23 OUT"]
+      ["IBOVB3 ESTAT", -1, 9, -1, null, "7", "4121 - 13 JAN", "5946 - 23 OUT"]
      ]
     },
     {
@@ -484,7 +484,7 @@
      "colunas": [{"nome": "TckrSymb", "titulo": "(%)"}, {"nome": "InDay", "titulo": "Do dia"}, {"nome": "Yesterday", "titulo": "Ontem"}, {"nome": "InTheWeek", "titulo": "Na semana"}, {"nome": "InWeek", "titulo": "Em uma semana"}, {"nome": "InTheMonth", "titulo": "No mês"}, {"nome": "InMonth", "titulo": "Em um mês"}, {"nome": "InTheYear", "titulo": "No ano"}, {"nome": "InYear", "titulo": "Em um ano"}],
      "texto": [],
      "linhas": [
-      ["IBOVB3 ESTAT", 0.0575, 0.0181, 0.059800000000000006, 0.059800000000000006, 0.0008, -0.0275, 0.1862, 0.1984]
+      ["IBOVB3 ESTAT", -0.0067, 0.0576, 0, 0.0526, -0.006, -0.034, 0.17809999999999998, 0.188]
      ]
     }
    ]
@@ -506,7 +506,7 @@
      "colunas": [{"nome": "TckrSymb", "titulo": "Pontos"}, {"nome": "OpenPric", "titulo": "Abertura"}, {"nome": "MinPric", "titulo": "Mínimo"}, {"nome": "MaxPric", "titulo": "Máximo"}, {"nome": "LastPric", "titulo": "Fechamento"}, {"nome": "TradAvrgPric", "titulo": "Média aritimética"}, {"nome": "TradAvrgPricPond", "titulo": "Média ponderada"}],
      "texto": [],
      "linhas": [
-      ["IBOVEQWEIGHT", 1413, 1413, 1496, 1496, 1465, 1469]
+      ["IBOVEQWEIGHT", 1496, 1492, 1551, 1497, 1508, 1514]
      ]
     },
     {
@@ -517,7 +517,7 @@
      "colunas": [{"nome": "TckrSymb", "titulo": "Ações"}, {"nome": "ActNmbrHigh", "titulo": "Altas"}, {"nome": "ActNmbrLow", "titulo": "Baixas"}, {"nome": "ActNmbrStbl", "titulo": "Estáveis"}, {"nome": "NoNgttns", "titulo": "Sem negociações"}, {"nome": "Total", "titulo": "Total"}, {"nome": "MnmValueYear", "titulo": "Mínimo no ano"}, {"nome": "MxmValueYear", "titulo": "Máximo no ano"}],
      "texto": [],
      "linhas": [
-      ["IBOVEQWEIGHT", 85, null, -2, null, "83", "1366 - 03 NOV", "1750 - 09 OUT"]
+      ["IBOVEQWEIGHT", 50, 41, -8, null, "83", "1366 - 03 NOV", "1750 - 09 OUT"]
      ]
     },
     {
@@ -528,7 +528,7 @@
      "colunas": [{"nome": "TckrSymb", "titulo": "(%)"}, {"nome": "InDay", "titulo": "Do dia"}, {"nome": "Yesterday", "titulo": "Ontem"}, {"nome": "InTheWeek", "titulo": "Na semana"}, {"nome": "InWeek", "titulo": "Em uma semana"}, {"nome": "InTheMonth", "titulo": "No mês"}, {"nome": "InMonth", "titulo": "Em um mês"}, {"nome": "InTheYear", "titulo": "No ano"}, {"nome": "InYear", "titulo": "Em um ano"}],
      "texto": [],
      "linhas": [
-      ["IBOVEQWEIGHT", 0.058600000000000006, 0.0151, 0.0707, 0.0707, 0.0864, 0.0311, 0.0507, 0.0562]
+      ["IBOVEQWEIGHT", 0.001, 0.058600000000000006, 0, 0.0718, 0.0875, 0.0364, 0.0518, 0.0587]
      ]
     }
    ]
@@ -550,7 +550,7 @@
      "colunas": [{"nome": "TckrSymb", "titulo": "Pontos"}, {"nome": "OpenPric", "titulo": "Abertura"}, {"nome": "MinPric", "titulo": "Mínimo"}, {"nome": "MaxPric", "titulo": "Máximo"}, {"nome": "LastPric", "titulo": "Fechamento"}, {"nome": "TradAvrgPric", "titulo": "Média aritimética"}, {"nome": "TradAvrgPricPond", "titulo": "Média ponderada"}],
      "texto": [],
      "linhas": [
-      ["IBRASIL", 6518, 6518, 6919, 6908, 6771, 6793]
+      ["IBRASIL", 6908, 6871, 7177, 6899, 6954, 6980]
      ]
     },
     {
@@ -561,7 +561,7 @@
      "colunas": [{"nome": "TckrSymb", "titulo": "Ações"}, {"nome": "ActNmbrHigh", "titulo": "Altas"}, {"nome": "ActNmbrLow", "titulo": "Baixas"}, {"nome": "ActNmbrStbl", "titulo": "Estáveis"}, {"nome": "NoNgttns", "titulo": "Sem negociações"}, {"nome": "Total", "titulo": "Total"}, {"nome": "MnmValueYear", "titulo": "Mínimo no ano"}, {"nome": "MxmValueYear", "titulo": "Máximo no ano"}],
      "texto": [],
      "linhas": [
-      ["IBRASIL", 143, 4, 1, null, "148", "6322 - 02 JAN", "8223 - 09 OUT"]
+      ["IBRASIL", 97, 61, -10, null, "148", "6322 - 02 JAN", "8223 - 09 OUT"]
      ]
     },
     {
@@ -572,7 +572,7 @@
      "colunas": [{"nome": "TckrSymb", "titulo": "(%)"}, {"nome": "InDay", "titulo": "Do dia"}, {"nome": "Yesterday", "titulo": "Ontem"}, {"nome": "InTheWeek", "titulo": "Na semana"}, {"nome": "InWeek", "titulo": "Em uma semana"}, {"nome": "InTheMonth", "titulo": "No mês"}, {"nome": "InMonth", "titulo": "Em um mês"}, {"nome": "InTheYear", "titulo": "No ano"}, {"nome": "InYear", "titulo": "Em um ano"}],
      "texto": [],
      "linhas": [
-      ["IBRASIL", 0.059699999999999996, 0.0158, 0.060899999999999996, 0.060899999999999996, 0.0487, -0.0032, 0.08839999999999999, 0.1063]
+      ["IBRASIL", -0.0012, 0.059800000000000006, 0, 0.0596, 0.047400000000000005, 0.0011, 0.087, 0.1059]
      ]
     }
    ]
@@ -594,7 +594,7 @@
      "colunas": [{"nome": "TckrSymb", "titulo": "Pontos"}, {"nome": "OpenPric", "titulo": "Abertura"}, {"nome": "MinPric", "titulo": "Mínimo"}, {"nome": "MaxPric", "titulo": "Máximo"}, {"nome": "LastPric", "titulo": "Fechamento"}, {"nome": "TradAvrgPric", "titulo": "Média aritimética"}, {"nome": "TradAvrgPricPond", "titulo": "Média ponderada"}],
      "texto": [],
      "linhas": [
-      ["ICO2", 2966, 2966, 3200, 3200, 3111, 3125]
+      ["ICO2", 3200, 3200, 3391, 3242, 3269, 3289]
      ]
     },
     {
@@ -605,7 +605,7 @@
      "colunas": [{"nome": "TckrSymb", "titulo": "Ações"}, {"nome": "ActNmbrHigh", "titulo": "Altas"}, {"nome": "ActNmbrLow", "titulo": "Baixas"}, {"nome": "ActNmbrStbl", "titulo": "Estáveis"}, {"nome": "NoNgttns", "titulo": "Sem negociações"}, {"nome": "Total", "titulo": "Total"}, {"nome": "MnmValueYear", "titulo": "Mínimo no ano"}, {"nome": "MxmValueYear", "titulo": "Máximo no ano"}],
      "texto": [],
      "linhas": [
-      ["ICO2", 60, 1, null, null, "61", "2781 - 03 NOV", "3954 - 09 OUT"]
+      ["ICO2", 43, 23, -5, null, "61", "2781 - 03 NOV", "3954 - 09 OUT"]
      ]
     },
     {
@@ -616,7 +616,7 @@
      "colunas": [{"nome": "TckrSymb", "titulo": "(%)"}, {"nome": "InDay", "titulo": "Do dia"}, {"nome": "Yesterday", "titulo": "Ontem"}, {"nome": "InTheWeek", "titulo": "Na semana"}, {"nome": "InWeek", "titulo": "Em uma semana"}, {"nome": "InTheMonth", "titulo": "No mês"}, {"nome": "InMonth", "titulo": "Em um mês"}, {"nome": "InTheYear", "titulo": "No ano"}, {"nome": "InYear", "titulo": "Em um ano"}],
      "texto": [],
      "linhas": [
-      ["ICO2", 0.0787, 0.0155, 0.096, 0.096, 0.1456, 0.0647, 0.0516, 0.032]
+      ["ICO2", 0.0132, 0.0787, 0, 0.1105, 0.16079999999999997, 0.0758, 0.06559999999999999, 0.0443]
      ]
     }
    ]
@@ -638,7 +638,7 @@
      "colunas": [{"nome": "TckrSymb", "titulo": "Pontos"}, {"nome": "OpenPric", "titulo": "Abertura"}, {"nome": "MinPric", "titulo": "Mínimo"}, {"nome": "MaxPric", "titulo": "Máximo"}, {"nome": "LastPric", "titulo": "Fechamento"}, {"nome": "TradAvrgPric", "titulo": "Média aritimética"}, {"nome": "TradAvrgPricPond", "titulo": "Média ponderada"}],
      "texto": [],
      "linhas": [
-      ["ISE", 4059, 4059, 4331, 4331, 4234, 4249]
+      ["ISE", 4332, 4332, 4543, 4363, 4407, 4426]
      ]
     },
     {
@@ -649,7 +649,7 @@
      "colunas": [{"nome": "TckrSymb", "titulo": "Ações"}, {"nome": "ActNmbrHigh", "titulo": "Altas"}, {"nome": "ActNmbrLow", "titulo": "Baixas"}, {"nome": "ActNmbrStbl", "titulo": "Estáveis"}, {"nome": "NoNgttns", "titulo": "Sem negociações"}, {"nome": "Total", "titulo": "Total"}, {"nome": "MnmValueYear", "titulo": "Mínimo no ano"}, {"nome": "MxmValueYear", "titulo": "Máximo no ano"}],
      "texto": [],
      "linhas": [
-      ["ISE", 70, -2, null, null, "68", "3721 - 03 NOV", "5186 - 09 OUT"]
+      ["ISE", 41, 31, -4, null, "68", "3721 - 03 NOV", "5186 - 09 OUT"]
      ]
     },
     {
@@ -660,7 +660,7 @@
      "colunas": [{"nome": "TckrSymb", "titulo": "(%)"}, {"nome": "InDay", "titulo": "Do dia"}, {"nome": "Yesterday", "titulo": "Ontem"}, {"nome": "InTheWeek", "titulo": "Na semana"}, {"nome": "InWeek", "titulo": "Em uma semana"}, {"nome": "InTheMonth", "titulo": "No mês"}, {"nome": "InMonth", "titulo": "Em um mês"}, {"nome": "InTheYear", "titulo": "No ano"}, {"nome": "InYear", "titulo": "Em um ano"}],
      "texto": [],
      "linhas": [
-      ["ISE", 0.067, 0.0161, 0.0868, 0.0868, 0.15539999999999998, 0.0823, 0.0384, 0.0194]
+      ["ISE", 0.0072, 0.06709999999999999, 0, 0.0947, 0.1638, 0.0863, 0.045899999999999996, 0.0254]
      ]
     }
    ]
@@ -682,7 +682,7 @@
      "colunas": [{"nome": "TckrSymb", "titulo": "Pontos"}, {"nome": "OpenPric", "titulo": "Abertura"}, {"nome": "MinPric", "titulo": "Mínimo"}, {"nome": "MaxPric", "titulo": "Máximo"}, {"nome": "LastPric", "titulo": "Fechamento"}, {"nome": "TradAvrgPric", "titulo": "Média aritimética"}, {"nome": "TradAvrgPricPond", "titulo": "Média ponderada"}],
      "texto": [],
      "linhas": [
-      ["IEE", 122950, 122940, 130354, 130354, 128050, 128438]
+      ["IEE", 130402, 130402, 136814, 132206, 132710, 133013]
      ]
     },
     {
@@ -693,7 +693,7 @@
      "colunas": [{"nome": "TckrSymb", "titulo": "Ações"}, {"nome": "ActNmbrHigh", "titulo": "Altas"}, {"nome": "ActNmbrLow", "titulo": "Baixas"}, {"nome": "ActNmbrStbl", "titulo": "Estáveis"}, {"nome": "NoNgttns", "titulo": "Sem negociações"}, {"nome": "Total", "titulo": "Total"}, {"nome": "MnmValueYear", "titulo": "Mínimo no ano"}, {"nome": "MxmValueYear", "titulo": "Máximo no ano"}],
      "texto": [],
      "linhas": [
-      ["IEE", 12, null, null, null, "12", "115488 - 03 NOV", "152767 - 09 OUT"]
+      ["IEE", 4, 9, -1, null, "12", "115488 - 03 NOV", "152767 - 09 OUT"]
      ]
     },
     {
@@ -704,7 +704,7 @@
      "colunas": [{"nome": "TckrSymb", "titulo": "(%)"}, {"nome": "InDay", "titulo": "Do dia"}, {"nome": "Yesterday", "titulo": "Ontem"}, {"nome": "InTheWeek", "titulo": "Na semana"}, {"nome": "InWeek", "titulo": "Em uma semana"}, {"nome": "InTheMonth", "titulo": "No mês"}, {"nome": "InMonth", "titulo": "Em um mês"}, {"nome": "InTheYear", "titulo": "No ano"}, {"nome": "InYear", "titulo": "Em um ano"}],
      "texto": [],
      "linhas": [
-      ["IEE", 0.060700000000000004, 0.014199999999999999, 0.0759, 0.0759, 0.1107, 0.0583, 0.0593, 0.0565]
+      ["IEE", 0.014199999999999999, 0.060700000000000004, 0, 0.09119999999999999, 0.1265, 0.065, 0.07440000000000001, 0.0753]
      ]
     }
    ]
@@ -726,7 +726,7 @@
      "colunas": [{"nome": "TckrSymb", "titulo": "Pontos"}, {"nome": "OpenPric", "titulo": "Abertura"}, {"nome": "MinPric", "titulo": "Mínimo"}, {"nome": "MaxPric", "titulo": "Máximo"}, {"nome": "LastPric", "titulo": "Fechamento"}, {"nome": "TradAvrgPric", "titulo": "Média aritimética"}, {"nome": "TradAvrgPricPond", "titulo": "Média ponderada"}],
      "texto": [],
      "linhas": [
-      ["INDX", 30546, 30546, 31576, 31511, 31159, 31162]
+      ["INDX", 31513, 30957, 31811, 30957, 31420, 31467]
      ]
     },
     {
@@ -737,7 +737,7 @@
      "colunas": [{"nome": "TckrSymb", "titulo": "Ações"}, {"nome": "ActNmbrHigh", "titulo": "Altas"}, {"nome": "ActNmbrLow", "titulo": "Baixas"}, {"nome": "ActNmbrStbl", "titulo": "Estáveis"}, {"nome": "NoNgttns", "titulo": "Sem negociações"}, {"nome": "Total", "titulo": "Total"}, {"nome": "MnmValueYear", "titulo": "Mínimo no ano"}, {"nome": "MxmValueYear", "titulo": "Máximo no ano"}],
      "texto": [],
      "linhas": [
-      ["INDX", 41, 4, null, null, "45", "27845 - 19 MAI", "33126 - 24 FEV"]
+      ["INDX", 34, 16, -5, null, "45", "27845 - 19 MAI", "33126 - 24 FEV"]
      ]
     },
     {
@@ -748,7 +748,7 @@
      "colunas": [{"nome": "TckrSymb", "titulo": "(%)"}, {"nome": "InDay", "titulo": "Do dia"}, {"nome": "Yesterday", "titulo": "Ontem"}, {"nome": "InTheWeek", "titulo": "Na semana"}, {"nome": "InWeek", "titulo": "Em uma semana"}, {"nome": "InTheMonth", "titulo": "No mês"}, {"nome": "InMonth", "titulo": "Em um mês"}, {"nome": "InTheYear", "titulo": "No ano"}, {"nome": "InYear", "titulo": "Em um ano"}],
      "texto": [],
      "linhas": [
-      ["INDX", 0.0316, -0.0075, 0.0105, 0.0105, 0.08310000000000001, 0.0731, 0.0542, 0.1161]
+      ["INDX", -0.0175, 0.0316, 0, -0.0073, 0.0641, 0.049400000000000006, 0.035699999999999996, 0.09820000000000001]
      ]
     }
    ]
@@ -770,7 +770,7 @@
      "colunas": [{"nome": "TckrSymb", "titulo": "Pontos"}, {"nome": "OpenPric", "titulo": "Abertura"}, {"nome": "MinPric", "titulo": "Mínimo"}, {"nome": "MaxPric", "titulo": "Máximo"}, {"nome": "LastPric", "titulo": "Fechamento"}, {"nome": "TradAvrgPric", "titulo": "Média aritimética"}, {"nome": "TradAvrgPricPond", "titulo": "Média ponderada"}],
      "texto": [],
      "linhas": [
-      ["IMOBILIARIO", 1118, 1118, 1204, 1204, 1182, 1188]
+      ["IMOBILIARIO", 1204, 1204, 1314, 1264, 1261, 1269]
      ]
     },
     {
@@ -792,7 +792,7 @@
      "colunas": [{"nome": "TckrSymb", "titulo": "(%)"}, {"nome": "InDay", "titulo": "Do dia"}, {"nome": "Yesterday", "titulo": "Ontem"}, {"nome": "InTheWeek", "titulo": "Na semana"}, {"nome": "InWeek", "titulo": "Em uma semana"}, {"nome": "InTheMonth", "titulo": "No mês"}, {"nome": "InMonth", "titulo": "Em um mês"}, {"nome": "InTheYear", "titulo": "No ano"}, {"nome": "InYear", "titulo": "Em um ano"}],
      "texto": [],
      "linhas": [
-      ["IMOBILIARIO", 0.0771, 0.0265, 0.10859999999999999, 0.10859999999999999, 0.15380000000000002, 0.0304, -0.0848, -0.13140000000000002]
+      ["IMOBILIARIO", 0.05, 0.0771, 0, 0.16399999999999998, 0.2115, 0.0892, -0.039, -0.0872]
      ]
     }
    ]
@@ -814,7 +814,7 @@
      "colunas": [{"nome": "TckrSymb", "titulo": "Pontos"}, {"nome": "OpenPric", "titulo": "Abertura"}, {"nome": "MinPric", "titulo": "Mínimo"}, {"nome": "MaxPric", "titulo": "Máximo"}, {"nome": "LastPric", "titulo": "Fechamento"}, {"nome": "TradAvrgPric", "titulo": "Média aritimética"}, {"nome": "TradAvrgPricPond", "titulo": "Média ponderada"}],
      "texto": [],
      "linhas": [
-      ["IMAT BASICOS", 6196, 6170, 6342, 6311, 6285, 6280]
+      ["IMAT BASICOS", 6311, 6161, 6339, 6165, 6258, 6262]
      ]
     },
     {
@@ -825,7 +825,7 @@
      "colunas": [{"nome": "TckrSymb", "titulo": "Ações"}, {"nome": "ActNmbrHigh", "titulo": "Altas"}, {"nome": "ActNmbrLow", "titulo": "Baixas"}, {"nome": "ActNmbrStbl", "titulo": "Estáveis"}, {"nome": "NoNgttns", "titulo": "Sem negociações"}, {"nome": "Total", "titulo": "Total"}, {"nome": "MnmValueYear", "titulo": "Mínimo no ano"}, {"nome": "MxmValueYear", "titulo": "Máximo no ano"}],
      "texto": [],
      "linhas": [
-      ["IMAT BASICOS", 17, 1, -4, null, "14", "5828 - 30 JUN", "7131 - 11 FEV"]
+      ["IMAT BASICOS", 7, 11, -4, null, "14", "5828 - 30 JUN", "7131 - 11 FEV"]
      ]
     },
     {
@@ -836,7 +836,7 @@
      "colunas": [{"nome": "TckrSymb", "titulo": "(%)"}, {"nome": "InDay", "titulo": "Do dia"}, {"nome": "Yesterday", "titulo": "Ontem"}, {"nome": "InTheWeek", "titulo": "Na semana"}, {"nome": "InWeek", "titulo": "Em uma semana"}, {"nome": "InTheMonth", "titulo": "No mês"}, {"nome": "InMonth", "titulo": "Em um mês"}, {"nome": "InTheYear", "titulo": "No ano"}, {"nome": "InYear", "titulo": "Em um ano"}],
      "texto": [],
      "linhas": [
-      ["IMAT BASICOS", 0.0199, 0.013600000000000001, 0.013000000000000001, 0.013000000000000001, 0.0371, 0.0151, 0.0231, 0.1164]
+      ["IMAT BASICOS", -0.023, 0.02, 0, -0.0103, 0.0132, 0.0109, -0.0005, 0.09230000000000001]
      ]
     }
    ]
@@ -858,7 +858,7 @@
      "colunas": [{"nome": "TckrSymb", "titulo": "Pontos"}, {"nome": "OpenPric", "titulo": "Abertura"}, {"nome": "MinPric", "titulo": "Mínimo"}, {"nome": "MaxPric", "titulo": "Máximo"}, {"nome": "LastPric", "titulo": "Fechamento"}, {"nome": "TradAvrgPric", "titulo": "Média aritimética"}, {"nome": "TradAvrgPricPond", "titulo": "Média ponderada"}],
      "texto": [],
      "linhas": [
-      ["ICONSUMO", 2685, 2685, 2889, 2883, 2811, 2823]
+      ["ICONSUMO", 2883, 2883, 3063, 2925, 2951, 2971]
      ]
     },
     {
@@ -869,7 +869,7 @@
      "colunas": [{"nome": "TckrSymb", "titulo": "Ações"}, {"nome": "ActNmbrHigh", "titulo": "Altas"}, {"nome": "ActNmbrLow", "titulo": "Baixas"}, {"nome": "ActNmbrStbl", "titulo": "Estáveis"}, {"nome": "NoNgttns", "titulo": "Sem negociações"}, {"nome": "Total", "titulo": "Total"}, {"nome": "MnmValueYear", "titulo": "Mínimo no ano"}, {"nome": "MxmValueYear", "titulo": "Máximo no ano"}],
      "texto": [],
      "linhas": [
-      ["ICONSUMO", 53, 1, 4, null, "58", "2429 - 03 NOV", "3645 - 20 OUT"]
+      ["ICONSUMO", 42, 12, 4, null, "58", "2429 - 03 NOV", "3645 - 20 OUT"]
      ]
     },
     {
@@ -880,7 +880,7 @@
      "colunas": [{"nome": "TckrSymb", "titulo": "(%)"}, {"nome": "InDay", "titulo": "Do dia"}, {"nome": "Yesterday", "titulo": "Ontem"}, {"nome": "InTheWeek", "titulo": "Na semana"}, {"nome": "InWeek", "titulo": "Em uma semana"}, {"nome": "InTheMonth", "titulo": "No mês"}, {"nome": "InMonth", "titulo": "Em um mês"}, {"nome": "InTheYear", "titulo": "No ano"}, {"nome": "InYear", "titulo": "Em um ano"}],
      "texto": [],
      "linhas": [
-      ["ICONSUMO", 0.0739, 0.0118, 0.09759999999999999, 0.09759999999999999, 0.17859999999999998, 0.0915, -0.0733, -0.0946]
+      ["ICONSUMO", 0.014499999999999999, 0.07400000000000001, 0, 0.11349999999999999, 0.1957, 0.1033, -0.0599, -0.0809]
      ]
     }
    ]
@@ -902,7 +902,7 @@
      "colunas": [{"nome": "TckrSymb", "titulo": "Pontos"}, {"nome": "OpenPric", "titulo": "Abertura"}, {"nome": "MinPric", "titulo": "Mínimo"}, {"nome": "MaxPric", "titulo": "Máximo"}, {"nome": "LastPric", "titulo": "Fechamento"}, {"nome": "TradAvrgPric", "titulo": "Média aritimética"}, {"nome": "TradAvrgPricPond", "titulo": "Média ponderada"}],
      "texto": [],
      "linhas": [
-      ["IFINANCEIRO", 16559, 16559, 18044, 18044, 17472, 17549]
+      ["IFINANCEIRO", 18045, 18045, 19402, 18435, 18557, 18688]
      ]
     },
     {
@@ -913,7 +913,7 @@
      "colunas": [{"nome": "TckrSymb", "titulo": "Ações"}, {"nome": "ActNmbrHigh", "titulo": "Altas"}, {"nome": "ActNmbrLow", "titulo": "Baixas"}, {"nome": "ActNmbrStbl", "titulo": "Estáveis"}, {"nome": "NoNgttns", "titulo": "Sem negociações"}, {"nome": "Total", "titulo": "Total"}, {"nome": "MnmValueYear", "titulo": "Mínimo no ano"}, {"nome": "MxmValueYear", "titulo": "Máximo no ano"}],
      "texto": [],
      "linhas": [
-      ["IFINANCEIRO", 15, null, 2, null, "17", "16120 - 24 NOV", "23749 - 05 OUT"]
+      ["IFINANCEIRO", 16, -3, 4, null, "17", "16120 - 24 NOV", "23749 - 05 OUT"]
      ]
     },
     {
@@ -924,7 +924,7 @@
      "colunas": [{"nome": "TckrSymb", "titulo": "(%)"}, {"nome": "InDay", "titulo": "Do dia"}, {"nome": "Yesterday", "titulo": "Ontem"}, {"nome": "InTheWeek", "titulo": "Na semana"}, {"nome": "InWeek", "titulo": "Em uma semana"}, {"nome": "InTheMonth", "titulo": "No mês"}, {"nome": "InMonth", "titulo": "Em um mês"}, {"nome": "InTheYear", "titulo": "No ano"}, {"nome": "InYear", "titulo": "Em um ano"}],
      "texto": [],
      "linhas": [
-      ["IFINANCEIRO", 0.0897, 0.027200000000000002, 0.1092, 0.1092, 0.10300000000000001, -0.0025, 0.0433, 0.0373]
+      ["IFINANCEIRO", 0.0216, 0.0898, 0, 0.1332, 0.12689999999999999, 0.021099999999999997, 0.0659, 0.060899999999999996]
      ]
     }
    ]
@@ -946,7 +946,7 @@
      "colunas": [{"nome": "TckrSymb", "titulo": "Pontos"}, {"nome": "OpenPric", "titulo": "Abertura"}, {"nome": "MinPric", "titulo": "Mínimo"}, {"nome": "MaxPric", "titulo": "Máximo"}, {"nome": "LastPric", "titulo": "Fechamento"}, {"nome": "TradAvrgPric", "titulo": "Média aritimética"}, {"nome": "TradAvrgPricPond", "titulo": "Média ponderada"}],
      "texto": [],
      "linhas": [
-      ["UTILITIES", 17952, 17952, 19122, 19044, 18685, 18750]
+      ["UTILITIES", 19047, 19047, 19991, 19226, 19356, 19405]
      ]
     },
     {
@@ -957,7 +957,7 @@
      "colunas": [{"nome": "TckrSymb", "titulo": "Ações"}, {"nome": "ActNmbrHigh", "titulo": "Altas"}, {"nome": "ActNmbrLow", "titulo": "Baixas"}, {"nome": "ActNmbrStbl", "titulo": "Estáveis"}, {"nome": "NoNgttns", "titulo": "Sem negociações"}, {"nome": "Total", "titulo": "Total"}, {"nome": "MnmValueYear", "titulo": "Mínimo no ano"}, {"nome": "MxmValueYear", "titulo": "Máximo no ano"}],
      "texto": [],
      "linhas": [
-      ["UTILITIES", 16, null, null, null, "16", "16350 - 03 NOV", "21906 - 09 OUT"]
+      ["UTILITIES", 2, 16, -2, null, "16", "16350 - 03 NOV", "21906 - 09 OUT"]
      ]
     },
     {
@@ -968,7 +968,7 @@
      "colunas": [{"nome": "TckrSymb", "titulo": "(%)"}, {"nome": "InDay", "titulo": "Do dia"}, {"nome": "Yesterday", "titulo": "Ontem"}, {"nome": "InTheWeek", "titulo": "Na semana"}, {"nome": "InWeek", "titulo": "Em uma semana"}, {"nome": "InTheMonth", "titulo": "No mês"}, {"nome": "InMonth", "titulo": "Em um mês"}, {"nome": "InTheYear", "titulo": "No ano"}, {"nome": "InYear", "titulo": "Em um ano"}],
      "texto": [],
      "linhas": [
-      ["UTILITIES", 0.061, 0.0181, 0.08650000000000001, 0.08650000000000001, 0.1444, 0.0941, 0.12269999999999999, 0.1137]
+      ["UTILITIES", 0.0095, 0.061, 0, 0.0969, 0.1553, 0.09570000000000001, 0.1335, 0.1274]
      ]
     }
    ]
@@ -990,7 +990,7 @@
      "colunas": [{"nome": "TckrSymb", "titulo": "Pontos"}, {"nome": "OpenPric", "titulo": "Abertura"}, {"nome": "MinPric", "titulo": "Mínimo"}, {"nome": "MaxPric", "titulo": "Máximo"}, {"nome": "LastPric", "titulo": "Fechamento"}, {"nome": "TradAvrgPric", "titulo": "Média aritimética"}, {"nome": "TradAvrgPricPond", "titulo": "Média ponderada"}],
      "texto": [],
      "linhas": [
-      ["IVBX2", 17982, 17981, 19177, 19105, 18714, 18777]
+      ["IVBX2", 19109, 19082, 19963, 19130, 19311, 19381]
      ]
     },
     {
@@ -1001,7 +1001,7 @@
      "colunas": [{"nome": "TckrSymb", "titulo": "Ações"}, {"nome": "ActNmbrHigh", "titulo": "Altas"}, {"nome": "ActNmbrLow", "titulo": "Baixas"}, {"nome": "ActNmbrStbl", "titulo": "Estáveis"}, {"nome": "NoNgttns", "titulo": "Sem negociações"}, {"nome": "Total", "titulo": "Total"}, {"nome": "MnmValueYear", "titulo": "Mínimo no ano"}, {"nome": "MxmValueYear", "titulo": "Máximo no ano"}],
      "texto": [],
      "linhas": [
-      ["IVBX2", 50, 2, -2, null, "50", "16355 - 03 NOV", "21798 - 09 OUT"]
+      ["IVBX2", 30, 26, -6, null, "50", "16355 - 03 NOV", "21798 - 09 OUT"]
      ]
     },
     {
@@ -1012,7 +1012,7 @@
      "colunas": [{"nome": "TckrSymb", "titulo": "(%)"}, {"nome": "InDay", "titulo": "Do dia"}, {"nome": "Yesterday", "titulo": "Ontem"}, {"nome": "InTheWeek", "titulo": "Na semana"}, {"nome": "InWeek", "titulo": "Em uma semana"}, {"nome": "InTheMonth", "titulo": "No mês"}, {"nome": "InMonth", "titulo": "Em um mês"}, {"nome": "InTheYear", "titulo": "No ano"}, {"nome": "InYear", "titulo": "Em um ano"}],
      "texto": [],
      "linhas": [
-      ["IVBX2", 0.06269999999999999, 0.0181, 0.08839999999999999, 0.08839999999999999, 0.1559, 0.0922, 0.09570000000000001, 0.0782]
+      ["IVBX2", 0.0013, 0.06269999999999999, 0, 0.0898, 0.1574, 0.0951, 0.0971, 0.0821]
      ]
     }
    ]
@@ -1034,7 +1034,7 @@
      "colunas": [{"nome": "TckrSymb", "titulo": "Pontos"}, {"nome": "OpenPric", "titulo": "Abertura"}, {"nome": "MinPric", "titulo": "Mínimo"}, {"nome": "MaxPric", "titulo": "Máximo"}, {"nome": "LastPric", "titulo": "Fechamento"}, {"nome": "TradAvrgPric", "titulo": "Média aritimética"}, {"nome": "TradAvrgPricPond", "titulo": "Média ponderada"}],
      "texto": [],
      "linhas": [
-      ["IGC TRADE", 7398, 7398, 7860, 7847, 7689, 7714]
+      ["IGC TRADE", 7847, 7807, 8162, 7841, 7903, 7933]
      ]
     },
     {
@@ -1045,7 +1045,7 @@
      "colunas": [{"nome": "TckrSymb", "titulo": "Ações"}, {"nome": "ActNmbrHigh", "titulo": "Altas"}, {"nome": "ActNmbrLow", "titulo": "Baixas"}, {"nome": "ActNmbrStbl", "titulo": "Estáveis"}, {"nome": "NoNgttns", "titulo": "Sem negociações"}, {"nome": "Total", "titulo": "Total"}, {"nome": "MnmValueYear", "titulo": "Mínimo no ano"}, {"nome": "MxmValueYear", "titulo": "Máximo no ano"}],
      "texto": [],
      "linhas": [
-      ["IGC TRADE", 140, 4, -1, null, "143", "7184 - 02 JAN", "9412 - 09 OUT"]
+      ["IGC TRADE", 94, 61, -12, null, "143", "7184 - 02 JAN", "9412 - 09 OUT"]
      ]
     },
     {
@@ -1056,7 +1056,7 @@
      "colunas": [{"nome": "TckrSymb", "titulo": "(%)"}, {"nome": "InDay", "titulo": "Do dia"}, {"nome": "Yesterday", "titulo": "Ontem"}, {"nome": "InTheWeek", "titulo": "Na semana"}, {"nome": "InWeek", "titulo": "Em uma semana"}, {"nome": "InTheMonth", "titulo": "No mês"}, {"nome": "InMonth", "titulo": "Em um mês"}, {"nome": "InTheYear", "titulo": "No ano"}, {"nome": "InYear", "titulo": "Em um ano"}],
      "texto": [],
      "linhas": [
-      ["IGC TRADE", 0.060700000000000004, 0.0172, 0.0626, 0.0626, 0.045599999999999995, -0.0062, 0.08839999999999999, 0.1058]
+      ["IGC TRADE", -0.0007000000000000001, 0.060700000000000004, 0, 0.061799999999999994, 0.044800000000000006, -0.001, 0.0876, 0.106]
      ]
     }
    ]
@@ -1078,7 +1078,7 @@
      "colunas": [{"nome": "TckrSymb", "titulo": "Pontos"}, {"nome": "OpenPric", "titulo": "Abertura"}, {"nome": "MinPric", "titulo": "Mínimo"}, {"nome": "MaxPric", "titulo": "Máximo"}, {"nome": "LastPric", "titulo": "Fechamento"}, {"nome": "TradAvrgPric", "titulo": "Média aritimética"}, {"nome": "TradAvrgPricPond", "titulo": "Média ponderada"}],
      "texto": [],
      "linhas": [
-      ["ITAG", 35881, 35881, 38107, 38044, 37283, 37404]
+      ["ITAG", 38045, 37862, 39574, 38031, 38329, 38474]
      ]
     },
     {
@@ -1089,7 +1089,7 @@
      "colunas": [{"nome": "TckrSymb", "titulo": "Ações"}, {"nome": "ActNmbrHigh", "titulo": "Altas"}, {"nome": "ActNmbrLow", "titulo": "Baixas"}, {"nome": "ActNmbrStbl", "titulo": "Estáveis"}, {"nome": "NoNgttns", "titulo": "Sem negociações"}, {"nome": "Total", "titulo": "Total"}, {"nome": "MnmValueYear", "titulo": "Mínimo no ano"}, {"nome": "MxmValueYear", "titulo": "Máximo no ano"}],
      "texto": [],
      "linhas": [
-      ["ITAG", 190, 11, 4, null, "205", "34972 - 02 JAN", "45700 - 09 OUT"]
+      ["ITAG", 144, 71, -10, null, "205", "34972 - 02 JAN", "45700 - 09 OUT"]
      ]
     },
     {
@@ -1100,7 +1100,7 @@
      "colunas": [{"nome": "TckrSymb", "titulo": "(%)"}, {"nome": "InDay", "titulo": "Do dia"}, {"nome": "Yesterday", "titulo": "Ontem"}, {"nome": "InTheWeek", "titulo": "Na semana"}, {"nome": "InWeek", "titulo": "Em uma semana"}, {"nome": "InTheMonth", "titulo": "No mês"}, {"nome": "InMonth", "titulo": "Em um mês"}, {"nome": "InTheYear", "titulo": "No ano"}, {"nome": "InYear", "titulo": "Em um ano"}],
      "texto": [],
      "linhas": [
-      ["ITAG", 0.0603, 0.0174, 0.0629, 0.0629, 0.0454, -0.0067, 0.084, 0.1025]
+      ["ITAG", -0.0003, 0.0604, 0, 0.0625, 0.045, -0.0008, 0.0837, 0.1023]
      ]
     }
    ]
@@ -1122,7 +1122,7 @@
      "colunas": [{"nome": "TckrSymb", "titulo": "Pontos"}, {"nome": "OpenPric", "titulo": "Abertura"}, {"nome": "MinPric", "titulo": "Mínimo"}, {"nome": "MaxPric", "titulo": "Máximo"}, {"nome": "LastPric", "titulo": "Fechamento"}, {"nome": "TradAvrgPric", "titulo": "Média aritimética"}, {"nome": "TradAvrgPricPond", "titulo": "Média ponderada"}],
      "texto": [],
      "linhas": [
-      ["IGC", 25709, 25709, 27289, 27239, 26701, 26782]
+      ["IGC", 27239, 27130, 28322, 27235, 27451, 27555]
      ]
     },
     {
@@ -1133,7 +1133,7 @@
      "colunas": [{"nome": "TckrSymb", "titulo": "Ações"}, {"nome": "ActNmbrHigh", "titulo": "Altas"}, {"nome": "ActNmbrLow", "titulo": "Baixas"}, {"nome": "ActNmbrStbl", "titulo": "Estáveis"}, {"nome": "NoNgttns", "titulo": "Sem negociações"}, {"nome": "Total", "titulo": "Total"}, {"nome": "MnmValueYear", "titulo": "Mínimo no ano"}, {"nome": "MxmValueYear", "titulo": "Máximo no ano"}],
      "texto": [],
      "linhas": [
-      ["IGC", 201, 10, 3, null, "214", "24612 - 02 JAN", "32579 - 09 OUT"]
+      ["IGC", 144, 77, -7, null, "214", "24612 - 02 JAN", "32579 - 09 OUT"]
      ]
     },
     {
@@ -1144,7 +1144,7 @@
      "colunas": [{"nome": "TckrSymb", "titulo": "(%)"}, {"nome": "InDay", "titulo": "Do dia"}, {"nome": "Yesterday", "titulo": "Ontem"}, {"nome": "InTheWeek", "titulo": "Na semana"}, {"nome": "InWeek", "titulo": "Em uma semana"}, {"nome": "InTheMonth", "titulo": "No mês"}, {"nome": "InMonth", "titulo": "Em um mês"}, {"nome": "InTheYear", "titulo": "No ano"}, {"nome": "InYear", "titulo": "Em um ano"}],
      "texto": [],
      "linhas": [
-      ["IGC", 0.0596, 0.0172, 0.0629, 0.0629, 0.0501, 0.0001, 0.10310000000000001, 0.1233]
+      ["IGC", -0.0001, 0.0596, 0, 0.06269999999999999, 0.0499, 0.0048, 0.10289999999999999, 0.12369999999999999]
      ]
     }
    ]
@@ -1166,7 +1166,7 @@
      "colunas": [{"nome": "TckrSymb", "titulo": "Pontos"}, {"nome": "OpenPric", "titulo": "Abertura"}, {"nome": "MinPric", "titulo": "Mínimo"}, {"nome": "MaxPric", "titulo": "Máximo"}, {"nome": "LastPric", "titulo": "Fechamento"}, {"nome": "TradAvrgPric", "titulo": "Média aritimética"}, {"nome": "TradAvrgPricPond", "titulo": "Média ponderada"}],
      "texto": [],
      "linhas": [
-      ["IGNM", 4367, 4367, 4633, 4626, 4532, 4546]
+      ["IGNM", 4627, 4627, 4808, 4638, 4678, 4696]
      ]
     },
     {
@@ -1177,7 +1177,7 @@
      "colunas": [{"nome": "TckrSymb", "titulo": "Ações"}, {"nome": "ActNmbrHigh", "titulo": "Altas"}, {"nome": "ActNmbrLow", "titulo": "Baixas"}, {"nome": "ActNmbrStbl", "titulo": "Estáveis"}, {"nome": "NoNgttns", "titulo": "Sem negociações"}, {"nome": "Total", "titulo": "Total"}, {"nome": "MnmValueYear", "titulo": "Mínimo no ano"}, {"nome": "MxmValueYear", "titulo": "Máximo no ano"}],
      "texto": [],
      "linhas": [
-      ["IGNM", 149, 8, null, null, "157", "4197 - 03 NOV", "5432 - 09 OUT"]
+      ["IGNM", 108, 53, -4, null, "157", "4197 - 03 NOV", "5432 - 09 OUT"]
      ]
     },
     {
@@ -1188,7 +1188,7 @@
      "colunas": [{"nome": "TckrSymb", "titulo": "(%)"}, {"nome": "InDay", "titulo": "Do dia"}, {"nome": "Yesterday", "titulo": "Ontem"}, {"nome": "InTheWeek", "titulo": "Na semana"}, {"nome": "InWeek", "titulo": "Em uma semana"}, {"nome": "InTheMonth", "titulo": "No mês"}, {"nome": "InMonth", "titulo": "Em um mês"}, {"nome": "InTheYear", "titulo": "No ano"}, {"nome": "InYear", "titulo": "Em um ano"}],
      "texto": [],
      "linhas": [
-      ["IGNM", 0.059500000000000004, 0.017, 0.0688, 0.0688, 0.08960000000000001, 0.0406, 0.0196, 0.044800000000000006]
+      ["IGNM", 0.0025, 0.0596, 0, 0.07150000000000001, 0.0924, 0.0433, 0.0222, 0.0478]
      ]
     }
    ]
@@ -1210,7 +1210,7 @@
      "colunas": [{"nome": "TckrSymb", "titulo": "Pontos"}, {"nome": "OpenPric", "titulo": "Abertura"}, {"nome": "MinPric", "titulo": "Mínimo"}, {"nome": "MaxPric", "titulo": "Máximo"}, {"nome": "LastPric", "titulo": "Fechamento"}, {"nome": "TradAvrgPric", "titulo": "Média aritimética"}, {"nome": "TradAvrgPricPond", "titulo": "Média ponderada"}],
      "texto": [],
      "linhas": [
-      ["MIDLARGE CAP", 3454, 3454, 3663, 3656, 3584, 3595]
+      ["MIDLARGE CAP", 3656, 3625, 3789, 3639, 3669, 3682]
      ]
     },
     {
@@ -1221,7 +1221,7 @@
      "colunas": [{"nome": "TckrSymb", "titulo": "Ações"}, {"nome": "ActNmbrHigh", "titulo": "Altas"}, {"nome": "ActNmbrLow", "titulo": "Baixas"}, {"nome": "ActNmbrStbl", "titulo": "Estáveis"}, {"nome": "NoNgttns", "titulo": "Sem negociações"}, {"nome": "Total", "titulo": "Total"}, {"nome": "MnmValueYear", "titulo": "Mínimo no ano"}, {"nome": "MxmValueYear", "titulo": "Máximo no ano"}],
      "texto": [],
      "linhas": [
-      ["MIDLARGE CAP", 44, 3, -3, null, "44", "3284 - 02 JAN", "4298 - 09 OUT"]
+      ["MIDLARGE CAP", 22, 25, -3, null, "44", "3284 - 02 JAN", "4298 - 09 OUT"]
      ]
     },
     {
@@ -1232,7 +1232,7 @@
      "colunas": [{"nome": "TckrSymb", "titulo": "(%)"}, {"nome": "InDay", "titulo": "Do dia"}, {"nome": "Yesterday", "titulo": "Ontem"}, {"nome": "InTheWeek", "titulo": "Na semana"}, {"nome": "InWeek", "titulo": "Em uma semana"}, {"nome": "InTheMonth", "titulo": "No mês"}, {"nome": "InMonth", "titulo": "Em um mês"}, {"nome": "InTheYear", "titulo": "No ano"}, {"nome": "InYear", "titulo": "Em um ano"}],
      "texto": [],
      "linhas": [
-      ["MIDLARGE CAP", 0.058600000000000006, 0.0144, 0.0559, 0.0559, 0.035, -0.012199999999999999, 0.10980000000000001, 0.1346]
+      ["MIDLARGE CAP", -0.0046, 0.058600000000000006, 0, 0.051100000000000007, 0.0302, -0.0113, 0.10460000000000001, 0.13119999999999998]
      ]
     }
    ]
@@ -1254,7 +1254,7 @@
      "colunas": [{"nome": "TckrSymb", "titulo": "Pontos"}, {"nome": "OpenPric", "titulo": "Abertura"}, {"nome": "MinPric", "titulo": "Mínimo"}, {"nome": "MaxPric", "titulo": "Máximo"}, {"nome": "LastPric", "titulo": "Fechamento"}, {"nome": "TradAvrgPric", "titulo": "Média aritimética"}, {"nome": "TradAvrgPricPond", "titulo": "Média ponderada"}],
      "texto": [],
      "linhas": [
-      ["SMALL CAP", 2037, 2037, 2175, 2175, 2132, 2139]
+      ["SMALL CAP", 2175, 2175, 2315, 2226, 2240, 2252]
      ]
     },
     {
@@ -1265,7 +1265,7 @@
      "colunas": [{"nome": "TckrSymb", "titulo": "Ações"}, {"nome": "ActNmbrHigh", "titulo": "Altas"}, {"nome": "ActNmbrLow", "titulo": "Baixas"}, {"nome": "ActNmbrStbl", "titulo": "Estáveis"}, {"nome": "NoNgttns", "titulo": "Sem negociações"}, {"nome": "Total", "titulo": "Total"}, {"nome": "MnmValueYear", "titulo": "Mínimo no ano"}, {"nome": "MxmValueYear", "titulo": "Máximo no ano"}],
      "texto": [],
      "linhas": [
-      ["SMALL CAP", 98, 1, 4, null, "103", "1855 - 03 NOV", "2824 - 09 OUT"]
+      ["SMALL CAP", 74, 36, -7, null, "103", "1855 - 03 NOV", "2824 - 09 OUT"]
      ]
     },
     {
@@ -1276,7 +1276,7 @@
      "colunas": [{"nome": "TckrSymb", "titulo": "(%)"}, {"nome": "InDay", "titulo": "Do dia"}, {"nome": "Yesterday", "titulo": "Ontem"}, {"nome": "InTheWeek", "titulo": "Na semana"}, {"nome": "InWeek", "titulo": "Em uma semana"}, {"nome": "InTheMonth", "titulo": "No mês"}, {"nome": "InMonth", "titulo": "Em um mês"}, {"nome": "InTheYear", "titulo": "No ano"}, {"nome": "InYear", "titulo": "Em um ano"}],
      "texto": [],
      "linhas": [
-      ["SMALL CAP", 0.0679, 0.026600000000000002, 0.09880000000000001, 0.09880000000000001, 0.16190000000000002, 0.06849999999999999, -0.056299999999999996, -0.0776]
+      ["SMALL CAP", 0.0235, 0.068, 0, 0.1247, 0.1892, 0.09949999999999999, -0.0341, -0.0601]
      ]
     }
    ]
@@ -1298,7 +1298,7 @@
      "colunas": [{"nome": "TckrSymb", "titulo": "Pontos"}, {"nome": "OpenPric", "titulo": "Abertura"}, {"nome": "MinPric", "titulo": "Mínimo"}, {"nome": "MaxPric", "titulo": "Máximo"}, {"nome": "LastPric", "titulo": "Fechamento"}, {"nome": "TradAvrgPric", "titulo": "Média aritimética"}, {"nome": "TradAvrgPricPond", "titulo": "Média ponderada"}],
      "texto": [],
      "linhas": [
-      ["IFIL", 1567, 1567, 1591, 1583, 1577, 1577]
+      ["IFIL", 1584, 1583, 1624, 1618, 1615, 1615]
      ]
     },
     {
@@ -1309,7 +1309,7 @@
      "colunas": [{"nome": "TckrSymb", "titulo": "Ações"}, {"nome": "ActNmbrHigh", "titulo": "Altas"}, {"nome": "ActNmbrLow", "titulo": "Baixas"}, {"nome": "ActNmbrStbl", "titulo": "Estáveis"}, {"nome": "NoNgttns", "titulo": "Sem negociações"}, {"nome": "Total", "titulo": "Total"}, {"nome": "MnmValueYear", "titulo": "Mínimo no ano"}, {"nome": "MxmValueYear", "titulo": "Máximo no ano"}],
      "texto": [],
      "linhas": [
-      ["IFIL", 57, 3, -4, null, "56", "1520 - 23 NOV", "1758 - 23 OUT"]
+      ["IFIL", 59, 5, -8, null, "56", "1520 - 23 NOV", "1758 - 23 OUT"]
      ]
     },
     {
@@ -1320,7 +1320,7 @@
      "colunas": [{"nome": "TckrSymb", "titulo": "(%)"}, {"nome": "InDay", "titulo": "Do dia"}, {"nome": "Yesterday", "titulo": "Ontem"}, {"nome": "InTheWeek", "titulo": "Na semana"}, {"nome": "InWeek", "titulo": "Em uma semana"}, {"nome": "InTheMonth", "titulo": "No mês"}, {"nome": "InMonth", "titulo": "Em um mês"}, {"nome": "InTheYear", "titulo": "No ano"}, {"nome": "InYear", "titulo": "Em um ano"}],
      "texto": [],
      "linhas": [
-      ["IFIL", 0.0102, 0.0218, 0.0288, 0.0288, -0.0169, -0.046, -0.047599999999999996, -0.0095]
+      ["IFIL", 0.0223, 0.0102, 0, 0.0518, 0.0051, -0.013500000000000002, -0.0263, 0.008]
      ]
     }
    ]
@@ -1342,7 +1342,7 @@
      "colunas": [{"nome": "TckrSymb", "titulo": "Pontos"}, {"nome": "OpenPric", "titulo": "Abertura"}, {"nome": "MinPric", "titulo": "Mínimo"}, {"nome": "MaxPric", "titulo": "Máximo"}, {"nome": "LastPric", "titulo": "Fechamento"}, {"nome": "TradAvrgPric", "titulo": "Média aritimética"}, {"nome": "TradAvrgPricPond", "titulo": "Média ponderada"}],
      "texto": [],
      "linhas": [
-      ["BDRX", 28233, 28125, 28563, 28253, 28199, null]
+      ["BDRX", 28241, 27275, 28241, 27622, 27473, null]
      ]
     },
     {
@@ -1364,7 +1364,7 @@
      "colunas": [{"nome": "TckrSymb", "titulo": "(%)"}, {"nome": "InDay", "titulo": "Do dia"}, {"nome": "Yesterday", "titulo": "Ontem"}, {"nome": "InTheWeek", "titulo": "Na semana"}, {"nome": "InWeek", "titulo": "Em uma semana"}, {"nome": "InTheMonth", "titulo": "No mês"}, {"nome": "InMonth", "titulo": "Em um mês"}, {"nome": "InTheYear", "titulo": "No ano"}, {"nome": "InYear", "titulo": "Em um ano"}],
      "texto": [],
      "linhas": [
-      ["BDRX", -0.002, -0.0256, -0.033, -0.033, -0.011899999999999999, -0.0242, 0.0926, 0.1319]
+      ["BDRX", -0.0223, -0.0021, 0, -0.0546, -0.034, -0.0471, 0.0682, 0.10490000000000001]
      ]
     }
    ]
@@ -1386,7 +1386,7 @@
      "colunas": [{"nome": "TckrSymb", "titulo": "Pontos"}, {"nome": "OpenPric", "titulo": "Abertura"}, {"nome": "MinPric", "titulo": "Mínimo"}, {"nome": "MaxPric", "titulo": "Máximo"}, {"nome": "LastPric", "titulo": "Fechamento"}, {"nome": "TradAvrgPric", "titulo": "Média aritimética"}, {"nome": "TradAvrgPricPond", "titulo": "Média ponderada"}],
      "texto": [],
      "linhas": [
-      ["I DIVIDENDOS", 11725, 11725, 12438, 12438, 12197, 12236]
+      ["I DIVIDENDOS", 12439, 12378, 12932, 12434, 12521, 12561]
      ]
     },
     {
@@ -1397,7 +1397,7 @@
      "colunas": [{"nome": "TckrSymb", "titulo": "Ações"}, {"nome": "ActNmbrHigh", "titulo": "Altas"}, {"nome": "ActNmbrLow", "titulo": "Baixas"}, {"nome": "ActNmbrStbl", "titulo": "Estáveis"}, {"nome": "NoNgttns", "titulo": "Sem negociações"}, {"nome": "Total", "titulo": "Total"}, {"nome": "MnmValueYear", "titulo": "Mínimo no ano"}, {"nome": "MxmValueYear", "titulo": "Máximo no ano"}],
      "texto": [],
      "linhas": [
-      ["I DIVIDENDOS", 48, null, 3, null, "51", "11427 - 13 JAN", "14497 - 09 OUT"]
+      ["I DIVIDENDOS", 24, 24, 3, null, "51", "11427 - 13 JAN", "14497 - 09 OUT"]
      ]
     },
     {
@@ -1408,7 +1408,7 @@
      "colunas": [{"nome": "TckrSymb", "titulo": "(%)"}, {"nome": "InDay", "titulo": "Do dia"}, {"nome": "Yesterday", "titulo": "Ontem"}, {"nome": "InTheWeek", "titulo": "Na semana"}, {"nome": "InWeek", "titulo": "Em uma semana"}, {"nome": "InTheMonth", "titulo": "No mês"}, {"nome": "InMonth", "titulo": "Em um mês"}, {"nome": "InTheYear", "titulo": "No ano"}, {"nome": "InYear", "titulo": "Em um ano"}],
      "texto": [],
      "linhas": [
-      ["I DIVIDENDOS", 0.0608, 0.013500000000000002, 0.0617, 0.0617, 0.061500000000000006, 0.006, 0.083, 0.10550000000000001]
+      ["I DIVIDENDOS", -0.0003, 0.060899999999999996, 0, 0.0613, 0.0611, 0.0096, 0.08259999999999999, 0.10439999999999999]
      ]
     }
    ]
@@ -1430,7 +1430,7 @@
      "colunas": [{"nome": "TckrSymb", "titulo": "Pontos"}, {"nome": "OpenPric", "titulo": "Abertura"}, {"nome": "MinPric", "titulo": "Mínimo"}, {"nome": "MaxPric", "titulo": "Máximo"}, {"nome": "LastPric", "titulo": "Fechamento"}, {"nome": "TradAvrgPric", "titulo": "Média aritimética"}, {"nome": "TradAvrgPricPond", "titulo": "Média ponderada"}],
      "texto": [],
      "linhas": [
-      ["IAGRO FFS B3", 1393, 1393, 1457, 1455, 1437, 1438]
+      ["IAGRO FFS B3", 1457, 1456, 1511, 1457, 1474, 1479]
      ]
     },
     {
@@ -1441,7 +1441,7 @@
      "colunas": [{"nome": "TckrSymb", "titulo": "Ações"}, {"nome": "ActNmbrHigh", "titulo": "Altas"}, {"nome": "ActNmbrLow", "titulo": "Baixas"}, {"nome": "ActNmbrStbl", "titulo": "Estáveis"}, {"nome": "NoNgttns", "titulo": "Sem negociações"}, {"nome": "Total", "titulo": "Total"}, {"nome": "MnmValueYear", "titulo": "Mínimo no ano"}, {"nome": "MxmValueYear", "titulo": "Máximo no ano"}],
      "texto": [],
      "linhas": [
-      ["IAGRO FFS B3", 26, 3, -4, null, "25", "1246 - 29 OUT", "1709 - 20 OUT"]
+      ["IAGRO FFS B3", 17, 14, -6, null, "25", "1246 - 29 OUT", "1709 - 20 OUT"]
      ]
     },
     {
@@ -1452,7 +1452,7 @@
      "colunas": [{"nome": "TckrSymb", "titulo": "(%)"}, {"nome": "InDay", "titulo": "Do dia"}, {"nome": "Yesterday", "titulo": "Ontem"}, {"nome": "InTheWeek", "titulo": "Na semana"}, {"nome": "InWeek", "titulo": "Em uma semana"}, {"nome": "InTheMonth", "titulo": "No mês"}, {"nome": "InMonth", "titulo": "Em um mês"}, {"nome": "InTheYear", "titulo": "No ano"}, {"nome": "InYear", "titulo": "Em um ano"}],
      "texto": [],
      "linhas": [
-      ["IAGRO FFS B3", 0.044800000000000006, 0.013000000000000001, 0.0548, 0.0548, 0.16510000000000002, 0.0981, -0.0268, -0.0225]
+      ["IAGRO FFS B3", 0.0009, 0.0449, 0, 0.0558, 0.16620000000000001, 0.10769999999999999, -0.0258, -0.027000000000000003]
      ]
     }
    ]
@@ -1474,7 +1474,7 @@
      "colunas": [{"nome": "TckrSymb", "titulo": "Pontos"}, {"nome": "OpenPric", "titulo": "Abertura"}, {"nome": "MinPric", "titulo": "Mínimo"}, {"nome": "MaxPric", "titulo": "Máximo"}, {"nome": "LastPric", "titulo": "Fechamento"}, {"nome": "TradAvrgPric", "titulo": "Média aritimética"}, {"nome": "TradAvrgPricPond", "titulo": "Média ponderada"}],
      "texto": [],
      "linhas": [
-      ["IGPTW B3", 1257, 1257, 1345, 1343, 1315, 1320]
+      ["IGPTW B3", 1344, 1344, 1429, 1375, 1384, 1391]
      ]
     },
     {
@@ -1485,7 +1485,7 @@
      "colunas": [{"nome": "TckrSymb", "titulo": "Ações"}, {"nome": "ActNmbrHigh", "titulo": "Altas"}, {"nome": "ActNmbrLow", "titulo": "Baixas"}, {"nome": "ActNmbrStbl", "titulo": "Estáveis"}, {"nome": "NoNgttns", "titulo": "Sem negociações"}, {"nome": "Total", "titulo": "Total"}, {"nome": "MnmValueYear", "titulo": "Mínimo no ano"}, {"nome": "MxmValueYear", "titulo": "Máximo no ano"}],
      "texto": [],
      "linhas": [
-      ["IGPTW B3", 42, null, -1, null, "41", "1158 - 03 NOV", "1720 - 20 OUT"]
+      ["IGPTW B3", 20, 26, -5, null, "41", "1158 - 03 NOV", "1720 - 20 OUT"]
      ]
     },
     {
@@ -1496,7 +1496,7 @@
      "colunas": [{"nome": "TckrSymb", "titulo": "(%)"}, {"nome": "InDay", "titulo": "Do dia"}, {"nome": "Yesterday", "titulo": "Ontem"}, {"nome": "InTheWeek", "titulo": "Na semana"}, {"nome": "InWeek", "titulo": "Em uma semana"}, {"nome": "InTheMonth", "titulo": "No mês"}, {"nome": "InMonth", "titulo": "Em um mês"}, {"nome": "InTheYear", "titulo": "No ano"}, {"nome": "InYear", "titulo": "Em um ano"}],
      "texto": [],
      "linhas": [
-      ["IGPTW B3", 0.0688, 0.0229, 0.0907, 0.0907, 0.15289999999999998, 0.07780000000000001, -0.0232, -0.034]
+      ["IGPTW B3", 0.023399999999999997, 0.0688, 0, 0.11630000000000001, 0.18, 0.0977, -0.0003, -0.013999999999999999]
      ]
     }
    ]

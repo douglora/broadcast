@@ -1,5 +1,5 @@
 {
- "pregao": "2026-11-26",
+ "pregao": "2026-11-27",
  "nome": "InCashMarketBiggestLow",
  "titulo": "Mercado à vista - maiores baixas",
  "sla": "8:00:00",
@@ -7,18 +7,18 @@
  "colunas": [{"nome": "TckrSymb", "titulo": "Ação"}, {"nome": "Cod", "titulo": "Código"}, {"nome": "Price", "titulo": "Preço (R$)"}, {"nome": "OscillationDesc", "titulo": "Oscilação (%)"}],
  "texto": ["Mostra as maiores desvalorizações de ativos no mercado à vista num período."],
  "situacao": "publicado",
- "atualizado_em": "2026-11-26T18:50:11.62",
+ "atualizado_em": "2026-11-27T19:00:13.553",
  "truncada": false,
  "linhas": [
-  ["PINE14", "BNS N2  N2", 10.5, -44.73],
-  ["ETHV39", "DRE", 9.77, -22.21],
-  ["AZTE11", "BNS ORD", 0.05, -16.66],
-  ["LIGT3", "ON      NM", 2.78, -13.12],
-  ["AALR3", "ON      NM", 0.56, -12.5],
-  ["FSRF11", "CI", 0.08, -11.11],
-  ["ZAGH11", "CI", 6.3, -10],
-  ["QDFI11", "CI", 1.84, -8.91],
-  ["HOFC11", "CI", 30.01, -8.78],
-  ["UCAS3", "ON      NM", 1.05, -8.69]
+  ["KNRE11", "CI", 0.19, -29.62],
+  ["RAIZ14", "DIR PNB N2", 0.03, -25],
+  ["RBDS11", "CI", 1.5, -21.05],
+  ["FSRF11", "CI", 0.07, -12.5],
+  ["VVRI11", "CI  ER", 7.6, -12.44],
+  ["M2PR34", "DRN", 100, -11.5],
+  ["E2ST34", "DRN", 34.72, -10.69],
+  ["TOPY11", "CI  ER", 107.42, -10.66],
+  ["XRXB34", "DRN", 3.8, -10.58],
+  ["FASA3", "ON  EG", 5.77, -10.54]
  ]
 }

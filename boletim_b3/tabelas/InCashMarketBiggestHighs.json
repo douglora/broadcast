@@ -1,5 +1,5 @@
 {
- "pregao": "2026-11-26",
+ "pregao": "2026-11-27",
  "nome": "InCashMarketBiggestHighs",
  "titulo": "Mercado à vista - maiores altas",
  "sla": "8:00:00",
@@ -7,18 +7,18 @@
  "colunas": [{"nome": "TckrSymb", "titulo": "Ação"}, {"nome": "Cod", "titulo": "Código"}, {"nome": "Price", "titulo": "Preço (R$)"}, {"nome": "Oscillation", "titulo": "Oscilação (%)"}],
  "texto": ["Mostra as maiores valorizações de ativos no mercado à vista, destacando as melhores performances."],
  "situacao": "publicado",
- "atualizado_em": "2026-11-26T18:50:11.903",
+ "atualizado_em": "2026-11-27T19:00:12.09",
  "truncada": false,
  "linhas": [
-  ["RENT4", "PN      NM", 33.26, 15.84],
-  ["CTXT11", "CI", 4.27, 16.03],
-  ["SPVT11", "CI", 67.56, 16.24],
-  ["PMAM3", "ON      NM", 0.21, 16.66],
-  ["PPLA11", "UNT", 47, 17.5],
-  ["AZTE3", "ON", 0.72, 20],
-  ["KNRE11", "CI", 0.27, 22.72],
-  ["NETE34", "DRN", 74.99, 23.58],
-  ["BIYK39", "DRE", 25.34, 25.69],
-  ["FSTU11", "CI", 0.2, 33.33]
+  ["PTBL3", "ON      NM", 1.66, 15.27],
+  ["EQIX34", "DRN ED", 79.99, 16.31],
+  ["SIMH3", "ON      NM", 7.97, 16.35],
+  ["LJQQ3", "ON      NM", 1.48, 16.53],
+  ["PRXB31", "DR1", 22.8, 17.58],
+  ["AZTE11", "BNS ORD", 0.06, 20],
+  ["FNAM11", "CI *", 0.79, 21.53],
+  ["ESTR4", "PN", 1.5, 22.95],
+  ["HGAG11", "CI", 16.5, 26.92],
+  ["PINE14", "BNS N2  N2", 18, 71.42]
  ]
 }
