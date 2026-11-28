@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-11-28T00:51:30Z",
+ "gerado_em": "2026-11-28T08:24:04Z",
  "cliente_http": "curl_cffi",
  "livro": [
   "EQTL3",
@@ -43,7 +43,7 @@
     "sem_cadastro": 0,
     "erros": 0,
     "ficaram_para_depois": 0,
-    "no_cache": 3908
+    "no_cache": 3935
    },
    "anbima": {
     "situacao": "publicado",
@@ -59,19 +59,16 @@
    "falhas": {
     "InstrumentsConsolidated": "arquivo InstrumentsConsolidated: token HTTP 400"
    },
-   "segundos": 91
+   "segundos": 58
   },
   "2026-11-27": {
    "completo": false,
    "faltam": [
     "InstrumentsConsolidated",
-    "DerivativesOpenPosition",
-    "BTBLendingOpenPosition",
-    "BTBLoanBalance",
-    "AnalyticalFramework2"
+    "DerivativesOpenPosition"
    ],
    "boletim": "publicando",
-   "sinais": 15,
+   "sinais": 25,
    "tabelas": 47,
    "arquivos": [
     "TradeInformationConsolidated",
@@ -79,9 +76,9 @@
    ],
    "rf_cadastro": {
     "papeis_no_dia": 1632,
-    "consultados": 35,
+    "consultados": 0,
     "achados": 0,
-    "sem_cadastro": 35,
+    "sem_cadastro": 0,
     "erros": 0,
     "ficaram_para_depois": 0,
     "no_cache": 3935
@@ -101,7 +98,7 @@
     "InstrumentsConsolidated": "arquivo InstrumentsConsolidated: token HTTP 400",
     "DerivativesOpenPosition": "arquivo DerivativesOpenPosition: token HTTP 400"
    },
-   "segundos": 137
+   "segundos": 27
   }
  },
  "falhas": [],

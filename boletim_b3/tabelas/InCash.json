@@ -6,14 +6,14 @@
  "paginas": 1,
  "colunas": [{"nome": "TckrSymb", "titulo": "Ação"}, {"nome": "Cod", "titulo": "Código"}, {"nome": "VlmTradedDay", "titulo": "Volume (R$) mil"}, {"nome": "Participation", "titulo": "Participação (%)"}],
  "texto": ["Indica as ações que tiveram maior volume de negociação no mercado à vista, refletindo interesse do investidor."],
- "situacao": "publicado",
- "atualizado_em": "2026-11-27T19:00:25.18",
+ "situacao": "republicado",
+ "atualizado_em": "2026-11-28T00:52:42.76",
  "truncada": false,
  "linhas": [
-  ["PETR4", "PN      N2", 2744001.412, 5.2446514951524295],
-  ["BBDC4", "PN      N1", 2443104.67, 4.669542990865408],
-  ["ISAE4", "PN  EJ  N1", 2361012.917, 4.512639778925248],
-  ["BPAC11", "UNT     N2", 2322219.912, 4.438494120404463],
-  ["BBAS3", "ON      NM", 2277589.896, 4.353192094275958]
+  ["PETR4", "PN      N2", 2746299.105, 5.2460937295591235],
+  ["BBDC4", "PN      N1", 2444444.814, 4.669479223013735],
+  ["ISAE4", "PN  EJ  N1", 2361063.327, 4.5102004702676775],
+  ["BPAC11", "UNT     N2", 2322738.677, 4.436991144420212],
+  ["BBAS3", "ON      NM", 2277810.781, 4.351168025933675]
  ]
 }
