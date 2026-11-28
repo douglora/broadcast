@@ -1,7 +1,7 @@
 # Boletim da B3: pregão de 27/11/2026 (sexta)
 
 **Situação: PARCIAL.** Ainda sem: cadastro de instrumentos, posições em aberto (opções e futuros). A B3 publica esses blocos na madrugada seguinte ao pregão; a rodada da manhã completa.
-Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-11-28T08:25:30Z (UTC).
+Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-11-28T11:52:37Z (UTC).
 
 [[LEITURA_DA_MESA]]
 
