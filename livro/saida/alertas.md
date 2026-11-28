@@ -1,4 +1,4 @@
-ALERTAS · eventos
+ALERTAS · Fechamento 18h
 
 (pendente de slot anterior) [CRÍTICO] CURVA · C01 A curva FECHOU: F28 -51 bps no dia · F28 -116 bps em 5 pregões · F28 5 pregões seguidos (-116 bps) (ajuste B3 27/11) / C04 IPCA+ 2032 volta abaixo de 7,50% real: 7,35% (-34 bps), base 27/11 / C05 Pre 2029 FECHA 67 bps (PU +1,3%) · IPCA+ 2032 FECHA 34 bps (PU +1,9%) · IPCA+ 2040 FECHA 26 bps (PU +3,4%) (base 27/11)
 DI F28 13,67 (-51) · F29 13,68 (-77) · F30 13,79 (-78) · F32 13,99 (-71) · F35 14,13 (-64)
@@ -35,7 +35,7 @@ Como falar: 'saiu no Yahoo Finance: Palantir Raised Its 2026 Growth Outlook to 9
 Fonte: Yahoo Finance 27/11 14h33
 ids: E05-PLTR-ca2aded611-2026-11-27
 
-[ATENÇÃO] E05 · SBSP3 · Justiça dá 72h para Sabesp apresentar plano de abastecimento para o verão em Santos
+(pendente de slot anterior) [ATENÇÃO] E05 · SBSP3 · Justiça dá 72h para Sabesp apresentar plano de abastecimento para o verão em Santos
 g1 · 27/11 16h17 · fonte única · licença: resumo
 Trechos (licença resumo: reescrever, não colar):
   – A decisão foi publicada na quarta-feira (25).
@@ -49,37 +49,43 @@ Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e 
 Ativos: SBSP3
 Como falar: 'saiu no g1: Justiça dá 72h para Sabesp apresentar plano de abastecimento para o verão em Santos; confirmar o número no texto antes de repassar'
 Fonte: g1 27/11 16h17
-Push: [ATENÇÃO] SBSP3 · Justiça dá 72h para Sabesp apresentar plano de abast · detalhe na sessão
 ids: E05-SBSP3-b7850b1aa9-2026-11-27
 
 Info (só linha no Fechamento):
-· E03 AXIA3 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
-· E05 TSLA · Tesla Needs Over $20 Billion In Operating Profit To Earn Its Share Price (NASDAQ:TSLA)
-· E05 NVDA · Fire Sale: Here's Why Now May Be the Perfect Time to Buy Nvidia Stock
+· E05 BTC · CryptoStar USA shuts down its last Bitcoin miners in Utah
+· E05 MRVL · Marvell's ASIC Boom Stalled, Yet Lumentum Changes The Game (NASDAQ:MRVL)
+· E05 BTC · Veteran economist says Bitcoin holders have little to brag about this Thanksgiving
+· E05 TSLA · Zero To Sixty: Tesla Cybercab Fleet Tops 1,000 In Texas, Lucid Starts Fully Driverless Tests And Chinese EV Maker Posts Stronger Margins
+· E05 AMZN · Amazon Hits Its Lowest P/E Ever. Jim Cramer Predicts It Will “Prove to Be the Winner”
+· E05 USDBRL · Dólar cai quase 4% e fecha em R$ 5,51, após anúncio de Trabuco
+· E05 USDBRL · Dólar despenca 4%, Magalu (MGLU3) dispara e Ibovespa tem melhor semana desde o primeiro turno
+· E05 PETR4 · Por que Petrobras caiu mais de 2% e pressionou o Ibovespa nesta sexta?
+· E05 NVDA · Opinion | Nvidia and Failing U.S. Export Controls
+· E05 NVDA · Should You Buy Nvidia Stock Before CEO Jensen Huang Testifies in Front of Congress on Dec. 1 and Dec. 3?
+· E05 TSM · TSMC: Starting To Look Like A Buy Again (Rating Upgrade) (NYSE:TSM)
+· E05 PLTR · Poland Signs $300 Million Palantir Deal to Use AI for Defense
 · T05 USDBRL -4,0% no dia a R$ 5,5142: movimento de 4,2 desvios para uma vol de 20 dias de 15% a.a.
-· T04 RARA11 fechou na mínima da série de 91 sessões: R$ 11,05, -15% em 1m e - em 12m
 · T06 USDBRL -7,3% em 5 sessões a R$ 5,5142: movimento de 3,5 desvios para a vol de 20 dias
 · T09 QNTM +4,4% com volume 2,6x a mediana de 20 sessões, a US$ 22,57
 · T10 PETR4 no mínimo de força relativa em 63 sessões contra IBOV: -20% vs +3,3% em 20 sessões (-22% relativo)
 
-Suprimidos pelo teto (viram linha do Fechamento): T05-USDBRL-queda-2026-11-27 (teto diário de críticos), T04-RARA11-minima-2026-11-27 (teto de atenção), T06-USDBRL-queda-2026-11-27 (teto de atenção), T09-QNTM-alta-2026-11-27 (teto de atenção), T10-PETR4-mínimo-2026-11-27 (teto de atenção)
+Suprimidos pelo teto (viram linha do Fechamento): T05-USDBRL-queda-2026-11-27 (teto diário de críticos), T06-USDBRL-queda-2026-11-27 (teto de atenção), T09-QNTM-alta-2026-11-27 (teto de atenção), T10-PETR4-mínimo-2026-11-27 (teto de atenção)
 
 Alertas do dia (todos, com status):
-· pendente  C01 DI — A curva FECHOU: F28 -51 bps no dia · F28 -116 bps em 5 pregões · F28 5 pregões s
-· pendente  C05 TESOURO — Pre 2029 FECHA 67 bps (PU +1,3%) · IPCA+ 2032 FECHA 34 bps (PU +1,9%) · IPCA+ 20
+· expirado  C01 DI — A curva FECHOU: F28 -51 bps no dia · F28 -116 bps em 5 pregões · F28 5 pregões s
+· expirado  C05 TESOURO — Pre 2029 FECHA 67 bps (PU +1,3%) · IPCA+ 2032 FECHA 34 bps (PU +1,9%) · IPCA+ 20
 · linha     T05 USDBRL — USDBRL -4,0% no dia a R$ 5,5142: movimento de 4,2 desvios para uma vol de 20 dia
 · expirado  F01 USDBRL — Real sobe: USD/BRL 5,5142 (-4,0% no dia · -7,3% em 5 sessões · 18 dias seguidos 
 · pendente  E05 SBSP3 — SBSP3 · Justiça dá 72h para Sabesp apresentar plano de abastecimento para o verã
-· pendente  C04 IPCA2032 — IPCA+ 2032 volta abaixo de 7,50% real: 7,35% (-34 bps), base 27/11
-· pendente  C02 DI — Inclinação da curva DI: F35-F28 -13 bps no dia: bull flattening (longo fechou ma
-· pendente  C03 DI — DI em nível: F28 cruzou 14,00% (para baixo, agora 13,67%) · F29 cruzou 14,00% (p
-· pendente  C03 TESOURO — Prefixado em nível: Pre 2029 cruzou 14,00% (agora 13,80%) · Pre 2032 cruzou 14,5
-· pendente  C06 TESOURO — Inflação implícita: implícita 2029 cruzou 7,00% · implícita 2032 -70 bps na sema
-· linha     T04 RARA11 — RARA11 fechou na mínima da série de 91 sessões: R$ 11,05, -15% em 1m e - em 12m
+· expirado  C04 IPCA2032 — IPCA+ 2032 volta abaixo de 7,50% real: 7,35% (-34 bps), base 27/11
+· expirado  C02 DI — Inclinação da curva DI: F35-F28 -13 bps no dia: bull flattening (longo fechou ma
+· expirado  C03 DI — DI em nível: F28 cruzou 14,00% (para baixo, agora 13,67%) · F29 cruzou 14,00% (p
+· expirado  C03 TESOURO — Prefixado em nível: Pre 2029 cruzou 14,00% (agora 13,80%) · Pre 2032 cruzou 14,5
+· expirado  C06 TESOURO — Inflação implícita: implícita 2029 cruzou 7,00% · implícita 2032 -70 bps na sema
 · linha     T06 USDBRL — USDBRL -7,3% em 5 sessões a R$ 5,5142: movimento de 3,5 desvios para a vol de 20
 · linha     T09 QNTM — QNTM +4,4% com volume 2,6x a mediana de 20 sessões, a US$ 22,57
 · linha     T10 PETR4 — PETR4 no mínimo de força relativa em 63 sessões contra IBOV: -20% vs +3,3% em 20
-· pendente  E05 PLTR — PLTR · Palantir Raised Its 2026 Growth Outlook to 91%. Could the Stock Have More
+· expirado  E05 PLTR — PLTR · Palantir Raised Its 2026 Growth Outlook to 91%. Could the Stock Have More
 · expirado  E05 BBAS3 — BBAS3 · Quando o Banco do Brasil (BBAS3) paga dividendos? Veja o calendário
 · expirado  E05 AMZN — AMZN · Amazon’s AWS Profit Rose 55%. Can It Absorb a $220 Billion Capex Bill?
 · expirado  E05 MELI34 — MELI34 · FII BTLG11 quer investir R$ 798 milhões em galpões com Mercado Livre en
@@ -103,4 +109,4 @@ Alertas do dia (todos, com status):
 · linha     T09 BBDC4 — BBDC4 +1,3% com volume 2,6x a mediana de 20 sessões, a R$ 16,04
 · linha     T09 SMAL11 — SMAL11 +1,6% com volume 2,9x a mediana de 20 sessões, a R$ 109,78
 · linha     F05 BHKP — Celulose (proxy SHFE, fibra longa) +3,2% na semana: 4.714 CNY/t (27/11)
-· (+129 notícias só manchete, em noticias.md)
+· (+141 notícias só manchete, em noticias.md)

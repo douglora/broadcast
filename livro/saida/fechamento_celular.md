@@ -53,10 +53,10 @@ CVX    Chevro 212,45 +0,7 +2,0 -6,5  +44
 MMM    3M     191,23 +0,7 +7,4  +11  +22
 Hipótese (ETF país, a confirmar)
 EWY    Coreia 135,86 +5,2  +10  -18  +40
-MCHI   China   47,99 +3,3 +4,3 -2,2  -20
+MCHI   China   47,99 +3,4 +4,3 -2,1  -20
 BR (R$)
 EQTL3  Equatr  38,51 +2,1  +17  +13  0,0
-SAPR4  Sanepa   6,89 -0,9 +4,1 +6,7  -11
+SAPR4* Sanepa      -    -    -    -    -
 KLBN4  Klabin   3,35 -1,8 +0,3 -4,0  -11
 ALUP4  Alupar  11,13 -1,3 +6,5  +12  +12
 ITUB4  Itau    42,67 +0,3 +6,5 +7,3  +11
@@ -70,17 +70,17 @@ ITSA4  Itausa  14,06 +0,5 +6,8 +8,9  +23
 BBAS3  BB      16,86 +1,9  +18 +0,4  -21
 SBSP3  Sabesp  29,97 -1,3 +9,6  +23  +16
 SMAL11 SmallC 109,78 +1,6  +12  +15 -2,4
-RARA11 Terras  11,05 -4,1 -6,0  -15    -
+RARA1* Terras      -    -    -    -    -
 DIRR3  Direc   10,36 +4,3  +19  +18  -27
 MRVE3  MRV      5,92  +11  +29  +37  -24
 CURY3  Cury    29,50 +3,8  +18  +12 -1,6
 Macro
 USDBRL USD/BR 5,5142 -4,0 -7,3 +3,2 +0,7
-DXY    DXY    104,04 +0,3 +0,2 +1,8 +5,9
+DXY    DXY    104,01 +0,3 +0,2 +1,8 +5,8
 BRENT  Brent   95,44 -1,1 +3,1  -15  +57
-BTC*   BTC    59.753 -1,2 +1,6  -26  -32
-ETH*   ETH     1.666 -1,3 +2,9  -29  -44
-MINER* Mineri  90,64  0,0 -0,1 -0,2  -15
+BTC    BTC    59.753 -1,2 +1,6  -26  -32
+ETH    ETH     1.666 -1,3 +2,9  -29  -44
+MINER* Mineri  90,69 +0,1  0,0  0,0  -15
 ```
 UCITS por extenso: VWRA Vanguard FTSE All-World
 UCITS ETF USD Accumulating · CSPX iShares Core S&P

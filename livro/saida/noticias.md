@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 27/11 18h52
+NOTÍCIAS E FATOS · 28/11 00h13
 
-Pernas: noticias ok 3 novas (18 consultas; descartadas: 414 veículo fora da lista, 30 sem ativo, 0 teto) · cvm ok 1 novos de 14 (7 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 12 novas (18 consultas; descartadas: 449 veículo fora da lista, 33 sem ativo, 5 teto) · cvm ok 0 novos de 10 (6 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (5)
 
@@ -96,7 +96,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: PLTR
 Como falar: 'saiu no Yahoo Finance: Palantir Raised Its 2026 Growth Outlook to 91%. Could the Stock Have More Room to Run?; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 27/11 14h33
-id: E05-PLTR-ca2aded611-2026-11-27 · status: pendente
+id: E05-PLTR-ca2aded611-2026-11-27 · status: expirado
 
 [ATENÇÃO] E05 · BBAS3 · Quando o Banco do Brasil (BBAS3) paga dividendos? Veja o calendário
 Suno Noticias · 27/11 16h46 · fonte única · licença: resumo
@@ -247,8 +247,20 @@ Fonte: Estadao 27/11 00h48
 id: E05-PETR4-9c68b29b5f-2026-11-27 · status: expirado
 
 
-## OUTRAS NOTÍCIAS (só manchete) (127)
+## OUTRAS NOTÍCIAS (só manchete) (139)
 
+· BTC CryptoStar USA shuts down its last Bitcoin miners in Utah (TradingView (Reuters)) https://www.tradingview.com/news/cryptobriefing:c7539dd83094b:0-cryptostar-usa-shuts-down-its-last-bitcoin-miners-in-utah/
+· MRVL Marvell's ASIC Boom Stalled, Yet Lumentum Changes The Game (NASDAQ:MRVL) (Seeking Alpha) https://seekingalpha.com/article/4972668-marvell-technology-stock-asic-boom-stalled-yet-lumentum-changes-game
+· BTC Veteran economist says Bitcoin holders have little to brag about this Thanksgiving (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/veteran-economist-says-bitcoin-holders-003000524.html
+· TSLA Zero To Sixty: Tesla Cybercab Fleet Tops 1,000 In Texas, Lucid Starts Fully Driverless Tests And Chinese EV Maker Posts Stronger Margins (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:8cd9f5c56094b:0-zero-to-sixty-tesla-cybercab-fleet-tops-1-000-in-texas-lucid-starts-fully-driverless-tests-and-chinese-ev-maker-posts-stronger-margins/
+· AMZN Amazon Hits Its Lowest P/E Ever. Jim Cramer Predicts It Will “Prove to Be the Winner” (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/amazon-hits-lowest-p-e-232241068.html
+· USDBRL Dólar cai quase 4% e fecha em R$ 5,51, após anúncio de Trabuco (Agencia Brasil) https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/dolar-cai-quase-4-e-fecha-em-r-551-apos-anuncio-de-trabuco
+· USDBRL Dólar despenca 4%, Magalu (MGLU3) dispara e Ibovespa tem melhor semana desde o primeiro turno (Suno Noticias) https://www.suno.com.br/noticias/ibovespa-hoje-27-novembro-trabuco-dolar-queda/
+· PETR4 Por que Petrobras caiu mais de 2% e pressionou o Ibovespa nesta sexta? (InfoMoney) https://www.infomoney.com.br/mercados/por-que-petrobras-petr4-recua-em-dia-de-euforia-no-ibovespa/
+· NVDA Opinion | Nvidia and Failing U.S. Export Controls (The Wall Street Journal) https://www.wsj.com/opinion/nvidia-chips-u-s-export-controls-china-jensen-huang-c457c915
+· NVDA Should You Buy Nvidia Stock Before CEO Jensen Huang Testifies in Front of Congress on Dec. 1 and Dec. 3? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/buy-nvidia-stock-ceo-jensen-194809414.html
+· TSM TSMC: Starting To Look Like A Buy Again (Rating Upgrade) (NYSE:TSM) (Seeking Alpha) https://seekingalpha.com/article/4972639-tsmc-starting-to-look-like-a-buy-again-upgrade
+· PLTR Poland Signs $300 Million Palantir Deal to Use AI for Defense (Bloomberg) https://news.google.com/rss/articles/CBMisAFBVV95cUxPNHNjNXhjcl81Z3N5aTFkZV9HcXgtcEZkclJXUXRoNE0tSFNEWjJ6TXFEVnFWWExOTDExUURUajlPUmxGN2dNeWlYVnBRcFVTSE0wYUxzWlg5S040alZSZ3dqOXlETDR0dG96VDljQndPWGNEXzUtS1Q2SHgzRklwbXEwN2dSQm9mY1NoYldyVWgxUTUyYlpfSno3YzN4T0RhWkFvR29yU1dsQjVUTWRrNw?oc=5
 · TSLA Tesla Needs Over $20 Billion In Operating Profit To Earn Its Share Price (NASDAQ:TSLA) (Seeking Alpha) https://seekingalpha.com/article/4972601-tesla-needs-over-20-billion-in-operating-profit-to-earn-its-share-price
 · NVDA Fire Sale: Here's Why Now May Be the Perfect Time to Buy Nvidia Stock (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/fire-sale-heres-why-now-143802605.html
 · TESOURO Vendas do Tesouro Direto registram melhor outubro da história (Agencia Brasil) https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/vendas-do-tesouro-direto-registram-melhor-outubro-da-historia
@@ -297,16 +309,4 @@ id: E05-PETR4-9c68b29b5f-2026-11-27 · status: expirado
 · BTC Gold Suffers Worst 60-Day Loss Since the 1980s. Bitcoin’s Collapse Exposes an Even Bigger Problem. (Yahoo Finance) https://finance.yahoo.com/markets/commodities/articles/gold-suffers-worst-60-day-170525230.html
 · MU Micron: 3.9x Earnings Is Insane (NASDAQ:MU) (Seeking Alpha) https://seekingalpha.com/article/4972595-micron-3-9x-earnings-is-insane
 · BTC Bitcoin price drops below $59K as Anthropic joins tech stock rebound (TradingView (Reuters)) https://www.tradingview.com/news/cointelegraph:456e18aab094b:0-bitcoin-price-drops-below-59k-as-anthropic-joins-tech-stock-rebound/
-· ALUP4 Axia faz acordo com Alupar e deterá linhão Manaus-Boa Vista (CNN Brasil) https://www.cnnbrasil.com.br/infra/axia-faz-acordo-com-alupar-e-detera-linhao-manaus-boa-vista/
-· BTC Bitcoin: Another Chance To Buy At Low Prices (Cryptocurrency:BTC-USD) (Seeking Alpha) https://seekingalpha.com/article/4972592-bitcoin-another-chance-to-buy-at-low-prices
-· SBSP3 Regulador valida R$ 97,8 bilhões em obras da Sabesp e reduz incertezas sobre aumento da conta de água (NeoFeed) https://neofeed.com.br/negocios/regulador-valida-r-978-bilhoes-em-obras-da-sabesp-e-reduz-incertezas-sobre-aumento-da-conta-de-agua/
-· BTC Bitcoin Whales Accumulate $7.4 Billion in BTC, Breaking a Nine-Year Pattern (TradingView (Reuters)) https://www.tradingview.com/news/newsbtc:c0cf24c84094b:0-bitcoin-whales-accumulate-7-4-billion-in-btc-breaking-a-nine-year-pattern/
-· USDBRL Resumão diário #2248: Dólar cai com anúncio de Trabuco à Fazenda; Expectativa de vida sobe no Brasil; Professora morre ao salvar alunos em SC e mais (g1) https://g1.globo.com/podcast/resumao-diario/noticia/2026/11/27/resumao-diario-2248-dolar-cai-com-anuncio-de-trabuco-a-fazenda-expectativa-de-vida-sobe-no-brasil-professora-morre-ao-salvar-alunos-em-sc-e-mais.ghtml
-· NVDA Nvidia Corporation: Strategic AI Technology Front-Runner (NASDAQ:NVDA) (Seeking Alpha) https://seekingalpha.com/article/4972582-nvidia-corporation-strategic-ai-technology-front-runner
-· SBSP3 Sabesp: bancos projetam reajuste tarifário de até 20% e mantêm recomendação de compra (ADVFN) https://br.advfn.com/jornal/2026/11/sabesp-bancos-projetam-reajuste-tarifario-de-ate-20-e-mantem-recomendacao-de-compra
-· BTC Another $453 million exits bitcoin ETFs as November outflows stack up (Yahoo Finance) https://finance.yahoo.com/video/another-453-million-exits-bitcoin-161000343.html
-· USDBRL Boletim UOL em 8: dólar em queda e mulher no STF (UOL Economia) https://news.google.com/rss/articles/CBMizwFBVV95cUxQcEFGSDhROEh1aDIxSGJWdGtmb2E3eHpaVmUzSENBdzVYMHB6blBVUS11UDNMOFZQRnd2QTFtUkxYbUk0NmpwVDBBNG9xMGJTeEFYSEhXRUdfRlp5dDloQTdfYTVlX2x2cnZtQUlmY1psY1dPaF9QZTJHQmJobUpZb1pjdW5pT2Q0dTZoYXYxNlgwSlRNS3c4cVdHRWh5aGZ4QTY1UXFBaHlMZGplYzVVejYzcU1NcXRyX1g2cGZ1YmpjM1g4TE5hdElHZjBEbVU?oc=5
-· COHR Why is Coherent stock surging today? By Investing.com (Investing.com) https://uk.investing.com/news/stock-market-news/why-is-coherent-stock-surging-today-93CH-5006639
-· AXIA3 Axia Energia fecha descruzamento de participações em transmissão por R$ 367,1 mi (UOL Economia) https://economia.uol.com.br/noticias/redacao/2026/11/27/axia-energia-fecha-descruzamento-de-participacoes-em-transmissao-por-r-3671-milhoes.ghtm
-· SBSP3 Sabesp (SBSP3): bancos veem revisão tarifária robusta e projetam reajuste de até 20% (InfoMoney) https://www.infomoney.com.br/mercados/sabesp-sbsp3-bancos-veem-revisao-tarifaria-robusta-e-projetam-reajuste-de-ate-20/
-· (+67 manchetes; lista completa em eventos/noticias.json)
+· (+79 manchetes; lista completa em eventos/noticias.json)

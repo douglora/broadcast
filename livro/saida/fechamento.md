@@ -1,7 +1,7 @@
 BLOCO A
 ```
-FECHAMENTO DO LIVRO · sex 27/11 · 18h09 BRT
-Relógios: Yahoo 18h09 · DI ajuste D0 · Tesouro base
+FECHAMENTO DO LIVRO · sex 27/11 · 00h13 de 28/11 BRT
+Relógios: Yahoo 00h13 · DI ajuste D0 · Tesouro base
   27/11 · UST CMT D0 · PTAX 27/11
 
 ALERTAS DO DIA (37 · 4 críticos)
@@ -18,6 +18,9 @@ ALERTAS DO DIA (37 · 4 críticos)
           dia · -7,3% em 5 sessões · 18 dias
           seguidos de movimento doméstico) (parcial,
           intradia)
+[ATENÇÃO] E05 SBSP3 · Justiça dá 72h para Sabesp
+          apresentar plano de abastecimento para o
+          verão em Santos
 [ATENÇÃO] C04 IPCA+ 2032 volta abaixo de 7,50% real:
           7,35% (-34 bps), base 27/11
 [ATENÇÃO] C02 Inclinação da curva DI: F35-F28 -13
@@ -28,18 +31,17 @@ ALERTAS DO DIA (37 · 4 críticos)
           baixo, agora 13,67%) · F29 cruzou 14,00%
           (para baixo, agora 13,68%) · F30 cruzou
           14,00% (para baixo, agora 13,79%)
-[ATENÇÃO] C03 Prefixado em nível: Pre 2029 cruzou
-          14,00% (agora 13,80%) · Pre 2032 cruzou
-          14,50% (agora 14,17%)
 (+29 em alertas.md)
 
 ALTAS  COHR +14% · MRVE3 +11% · LITE +8,0% · MU
        +7,6% · MRVL +7,3%
-BAIXAS RARA11 -4,1% · USDBRL -4,0% · VALE3 -2,6% ·
-       PETR4 -2,2% · KLBN4 -1,8%
+BAIXAS USDBRL -4,0% · VALE3 -2,6% · PETR4 -2,2% ·
+       KLBN4 -1,8% · MELI34 -1,4%
 
-NOTÍCIAS E FATOS (15 com materialidade ·
+NOTÍCIAS E FATOS (16 com materialidade ·
   noticias.md)
+· SBSP3 Justiça dá 72h para Sabesp apresentar plano
+  de abastecimento para o verão em Santos (g1)
 · PLTR Palantir Raised Its 2026 Growth Outlook to
   91%. Could the Stock Have More Room to Run? (Yahoo
   Finance)
@@ -53,10 +55,7 @@ NOTÍCIAS E FATOS (15 com materialidade ·
 · AXIA3 Axia (AXIA3) pode pagar até 15% em
   dividendos e tem ações descontadas, diz BBI
   (InfoMoney)
-· JPM Adidas, Puma stocks fall as JPMorgan
-  downgrades both on 2027 outlook (TradingView
-  (Reuters))
-  (+9)
+  (+10)
 
 CURVAS · taxa (Δ bps)
 DI (D0, Δ dia·sem bps) F28 13,67 (-51·-116) F29
@@ -99,7 +98,12 @@ sex 04/12 ex-dividendo BAC US$ 0,32 (último
 seg 07/12 ex-dividendo GOOGL US$ 0,22 (último
     provento, Yahoo)
 
-LACUNAS: nenhuma perna falhou.
+LACUNAS: SAPR4: barra de 27/11 não bate com a
+  cotação do Yahoo às 18:03 (6,8900 contra 6,8300,
+  -0.87%); variação do dia a confirmar; RARA11:
+  barra de 27/11 não bate com a cotação do Yahoo às
+  18:16 (11,0500 contra 11,1900, +1.27%); variação
+  do dia a confirmar.
 Fontes: Yahoo Finance · B3 Boletim Diário · site do
   Tesouro Direto · Treasury.gov CMT · BCB
 ```
@@ -160,10 +164,10 @@ CVX    Chevron  212,45 +0,7 +2,0 -6,5  +18  +47  +44
 MMM    3M       191,23 +0,7 +7,4  +11  +26  +14  +22
 Hipótese (ETF país, a confirmar)
 EWY    Coreia   135,86 +5,2  +10  -18  -34  +52  +40
-MCHI   China     47,99 +3,3 +4,3 -2,2  -12  -21  -20
+MCHI   China     47,99 +3,4 +4,3 -2,1  -12  -21  -20
 BR (R$)
 EQTL3  Equatr    38,51 +2,1  +17  +13 -0,1 -2,6  0,0
-SAPR4  Sanepar    6,89 -0,9 +4,1 +6,7 -7,0 -2,5  -11
+SAPR4* Sanepar       -    -    -    -    -    -    -
 KLBN4  Klabin     3,35 -1,8 +0,3 -4,0 +0,6 -0,2  -11
 ALUP4  Alupar    11,13 -1,3 +6,5  +12  +10 +6,1  +12
 ITUB4  Itau      42,67 +0,3 +6,5 +7,3 +7,8  +17  +11
@@ -177,17 +181,17 @@ ITSA4  Itausa    14,06 +0,5 +6,8 +8,9  +10  +31  +23
 BBAS3  BB        16,86 +1,9  +18 +0,4  -16  -22  -21
 SBSP3  Sabesp    29,97 -1,3 +9,6  +23  +10  +15  +16
 SMAL11 SmallC   109,78 +1,6  +12  +15 -1,1 -5,3 -2,4
-RARA11 TerrasR   11,05 -4,1 -6,0  -15    -    -    -
+RARA1* TerrasR       -    -    -    -    -    -    -
 DIRR3  Direc     10,36 +4,3  +19  +18  -23  -38  -27
 MRVE3  MRV        5,92  +11  +29  +37 +1,2  -34  -24
 CURY3  Cury      29,50 +3,8  +18  +12 -3,0  -12 -1,6
 Macro
 USDBRL USD/BRL  5,5142 -4,0 -7,3 +3,2 +9,2 +3,4 +0,7
-DXY    DXY      104,04 +0,3 +0,2 +1,8 +5,2 +4,5 +5,9
+DXY    DXY      104,01 +0,3 +0,2 +1,8 +5,2 +4,4 +5,8
 BRENT  Brent     95,44 -1,1 +3,1  -15 +3,7  +51  +57
-BTC*   BTC      59.753 -1,2 +1,6  -26  -19  -35  -32
-ETH*   ETH       1.666 -1,3 +2,9  -29  -17  -45  -44
-MINER* Minerio   90,64  0,0 -0,1 -0,2  -17  -13  -15
+BTC    BTC      59.753 -1,2 +1,6  -26  -19  -35  -32
+ETH    ETH       1.666 -1,3 +2,9  -29  -17  -45  -44
+MINER* Minerio   90,69 +0,1  0,0  0,0  -17  -13  -15
 ```
 UCITS por extenso: VWRA Vanguard FTSE All-World
 UCITS ETF USD Accumulating · CSPX iShares Core S&P
